@@ -10,8 +10,8 @@ Features
 --------
 
 Following game data can be exported and imported:
-  * Accessories, armors, ship cannons, ship accessories, ship items, special 
-    items, usable items and weapons
+  * All items (e.g. accessories, armors, ship cannons, ship accessories, 
+    ship items, special items, usable items and weapons)
   * Crew members
 
 Prerequisites
@@ -32,18 +32,19 @@ Download
 Installation
 ------------
 
-Put the files to some directory where you want it. The scripts require the 
-`Start.dol` file from the NTSC-U/C version of Skies of Arcadia Legends in the 
-`share/bin/&&systemdata` directory. To obtain this file, you need a NTSC-U/C 
-image (please do not ask for a download link) and [GCRebuilder](http://www.romhacking.net/utilities/619/).
+Put the files to some directory where you want it. The scripts require an 
+extracted NTSC-U/C image of Skies of Arcadia Legends in the `share/bin` 
+directory. To obtain this files, you need an image file (ISO or GCM) and 
+[GCRebuilder](http://www.romhacking.net/utilities/619/). Please do not ask for
+a download link.
 
 Usage
 -----
 
 All commands respectively scripts can be found in the `bin` directory.
 
-| Command                   | Description              |
-| ------------------------- | ------------------------ |
+| Command                 | Description              |
+| ----------------------- | ------------------------ |
 | `exportaccessories.rb`  | Exports accessories      |
 | `exportarmors.rb`       | Exports armos            |
 | `exportcrewmembers`     | Exports crew members     |
