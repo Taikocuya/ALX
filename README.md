@@ -43,26 +43,26 @@ Usage
 
 All commands respectively scripts can be found in the `bin` directory.
 
-| Command                 | Description              |
-| ----------------------- | ------------------------ |
-| `exportaccessories.rb`  | Exports accessories      |
-| `exportarmors.rb`       | Exports armos            |
-| `exportcrewmembers`     | Exports crew members     |
-| `exportshipcannons`     | Exports ship cannons     |
-| `exportshipaccessories` | Exports ship accessories |
-| `exportshipitems`       | Exports ship items       |
-| `exportspecialitems`    | Exports special items    |
-| `exportusableitems`     | Exports usable items     |
-| `exportweapons`         | Exports weapons          |
-| `importaccessories`     | Imports accessories      |
-| `importarmors`          | Imports armors           |
-| `importcrewmembers`     | Imports crew members     |
-| `importshipcannons`     | Imports ship cannons     |
-| `importshipaccessories` | Imports ship accessories |
-| `importshipitems`       | Imports ship items       |
-| `importspecialitems`    | Imports special items    |
-| `importusableitems`     | Imports usable items     |
-| `importweapons`         | Imports weapons          |
+| Command                    | Description              |
+| -------------------------- | ------------------------ |
+| `exportaccessories.rb`     | Exports accessories      |
+| `exportarmors.rb`          | Exports armos            |
+| `exportcrewmembers.rb`     | Exports crew members     |
+| `exportshipcannons.rb`     | Exports ship cannons     |
+| `exportshipaccessories.rb` | Exports ship accessories |
+| `exportshipitems.rb`       | Exports ship items       |
+| `exportspecialitems.rb`    | Exports special items    |
+| `exportusableitems.rb`     | Exports usable items     |
+| `exportweapons.rb`         | Exports weapons          |
+| `importaccessories.rb`     | Imports accessories      |
+| `importarmors.rb`          | Imports armors           |
+| `importcrewmembers.rb`     | Imports crew members     |
+| `importshipcannons.rb`     | Imports ship cannons     |
+| `importshipaccessories.rb` | Imports ship accessories |
+| `importshipitems.rb`       | Imports ship items       |
+| `importspecialitems.rb`    | Imports special items    |
+| `importusableitems.rb`     | Imports usable items     |
+| `importweapons.rb`         | Imports weapons          |
 
 Links
 -----
