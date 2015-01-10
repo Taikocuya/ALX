@@ -1,0 +1,16 @@
+# Linux
+*~
+
+# Mac OS X
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+
+# Eclipse
+.project
+
+# ALX
+/share/bin/*
+!/share/bin/README.md
