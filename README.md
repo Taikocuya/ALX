@@ -68,7 +68,7 @@ Links
 
 * [EsoArcadia, the Skies of Arcadia resource](http://www.esoarcadia.org/)
 * [EsoArcadia Wiki, a Skies of Arcadia wiki](http://www.esoarcadia.org/wiki)
-* [EsoArcadia Forum, a Skies of Arcadia forum]((http://www.esoarcadia.org/forum)
+* [EsoArcadia Forum, a Skies of Arcadia forum](http://www.esoarcadia.org/forum)
 
 License
 -------
