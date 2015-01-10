@@ -26,6 +26,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
+# Class to read and write easier in binary files.
 class BinaryFile < File
 
 #==============================================================================
@@ -34,12 +35,18 @@ class BinaryFile < File
 
   public
 
+  # Reads data from the file.
+  # @param _length [Integer] Desired number of bytes to read.
+  # @param _format [String]  Format of the data, which will be read.
   def read_data(_length, _format)
     read(_length).unpack(_format).first
   end
 
-  def write_data(_value, _format)
-    write([_value].pack(_format))
+  # Write data to the file.
+  # @param _data   [Integer,String] Data which will be written to the stream.
+  # @param _format [String]         Format of the data, which will be written.
+  def write_data(_data, _format)
+    write([_data].pack(_format))
   end
 
 end # class BinaryFile
