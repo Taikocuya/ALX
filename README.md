@@ -10,8 +10,8 @@ Features
 --------
 
 Following game data can be exported and imported:
-  * Items: Accessories, armors, ship cannons, ship accessories, ship items, 
-    special items, usable items and weapons
+  * Accessories, armors, ship cannons, ship accessories, ship items, special 
+    items, usable items and weapons
   * Crew members
 
 Prerequisites
