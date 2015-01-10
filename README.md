@@ -30,8 +30,10 @@ This project requires:
 Download
 --------
 
-* You can get the latest official release from the GitHub releases: http://
-* You can also get the current development version from the GitHub repository: http://
+* You can get the latest official release from the GitHub releases:
+  https://github.com/Tortigar/ALX/releases
+* You can also get the current development version from the GitHub repository:
+  https://github.com/Tortigar/ALX
 
 Installation
 ------------
