@@ -19,7 +19,7 @@ Prerequisites
 
 This project requires:
   * Ruby 2.1.0+
-  * DOL file from the NTSC-U/C version of Skies of Arcadia Legends
+  * Extracted NTSC-U/C image of Skies of Arcadia Legends
 
 Download
 --------
