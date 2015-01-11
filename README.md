@@ -32,37 +32,38 @@ Download
 Installation
 ------------
 
-Put the files to some directory where you want it. The scripts require an 
-extracted NTSC-U/C image of Skies of Arcadia Legends in the `share/bin` 
+Put the files to some directory where you want it. Sample CSV files can 
+already be found in the `share/csv` directory. The scripts require an 
+extracted NTSC-U/C image of Skies of Arcadia Legends in the `share/root` 
 directory. To obtain this files, you need an image file (ISO or GCM) and 
-[GCRebuilder](http://www.romhacking.net/utilities/619/). Please do not ask for
+[GCRebuilder](http://www.romhacking.net/utilities/619/). Please do not ask for 
 a download link.
 
 Usage
 -----
 
-All commands respectively scripts can be found in the `bin` directory.
+All commands respectively scripts can be found in the `bin` directory. 
 
-| Command                    | Description              |
-| -------------------------- | ------------------------ |
-| `exportaccessories.rb`     | Exports accessories      |
-| `exportarmors.rb`          | Exports armos            |
-| `exportcrewmembers.rb`     | Exports crew members     |
-| `exportshipcannons.rb`     | Exports ship cannons     |
-| `exportshipaccessories.rb` | Exports ship accessories |
-| `exportshipitems.rb`       | Exports ship items       |
-| `exportspecialitems.rb`    | Exports special items    |
-| `exportusableitems.rb`     | Exports usable items     |
-| `exportweapons.rb`         | Exports weapons          |
-| `importaccessories.rb`     | Imports accessories      |
-| `importarmors.rb`          | Imports armors           |
-| `importcrewmembers.rb`     | Imports crew members     |
-| `importshipcannons.rb`     | Imports ship cannons     |
-| `importshipaccessories.rb` | Imports ship accessories |
-| `importshipitems.rb`       | Imports ship items       |
-| `importspecialitems.rb`    | Imports special items    |
-| `importusableitems.rb`     | Imports usable items     |
-| `importweapons.rb`         | Imports weapons          |
+| Command                    | Description                                                     |
+| -------------------------- | --------------------------------------------------------------- |
+| `exportaccessories.rb`     | Exports accessories to `share/csv/accessories.csv`              |
+| `exportarmors.rb`          | Exports armos to `share/csv/armors.csv`                         |
+| `exportcrewmembers.rb`     | Exports crew members to `share/csv/crewmembers.csv`             |
+| `exportshipcannons.rb`     | Exports ship cannons to `share/csv/shipcannons.csv`             |
+| `exportshipaccessories.rb` | Exports ship accessories to `share/csv/shipaccessories.csv`     |
+| `exportshipitems.rb`       | Exports ship items to `share/csv/shipitems.csv`                 |
+| `exportspecialitems.rb`    | Exports special items to `share/csv/specialitems.csv`           |
+| `exportusableitems.rb`     | Exports usable items to `share/csv/usableitems.csv`             |
+| `exportweapons.rb`         | Exports weapons to `share/csv/weapons.csv`                      |
+| `importaccessories.rb`     | Imports accessories to `share/root/&&systemdata/Start.dol`      |
+| `importarmors.rb`          | Imports armors to `share/root/&&systemdata/Start.dol`           |
+| `importcrewmembers.rb`     | Imports crew members to `share/root/&&systemdata/Start.dol`     |
+| `importshipcannons.rb`     | Imports ship cannons to `share/root/&&systemdata/Start.dol`     |
+| `importshipaccessories.rb` | Imports ship accessories to `share/root/&&systemdata/Start.dol` |
+| `importshipitems.rb`       | Imports ship items to `share/root/&&systemdata/Start.dol`       |
+| `importspecialitems.rb`    | Imports special items to `share/root/&&systemdata/Start.dol`    |
+| `importusableitems.rb`     | Imports usable items to `share/root/&&systemdata/Start.dol`     |
+| `importweapons.rb`         | Imports weapons to `share/root/&&systemdata/Start.dol`          |
 
 Links
 -----

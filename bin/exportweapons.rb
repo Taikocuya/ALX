@@ -41,7 +41,7 @@ class WeaponExporter
 #==============================================================================
 
   # Path to the source file
-  INPUT_FILE  = '../share/bin/&&systemdata/Start.dol'
+  INPUT_FILE  = '../share/root/&&systemdata/Start.dol'
   # Path to the destination file
   OUTPUT_FILE = '../share/csv/weapons.csv'
 

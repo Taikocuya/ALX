@@ -43,7 +43,7 @@ class ShipItemImporter
   # Path to the source file
   INPUT_FILE  = '../share/csv/shipitems.csv'
   # Path to the destination file
-  OUTPUT_FILE = '../share/bin/&&systemdata/Start.dol'
+  OUTPUT_FILE = '../share/root/&&systemdata/Start.dol'
 
 #==============================================================================
 #                                   PUBLIC
