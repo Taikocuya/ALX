@@ -12,5 +12,5 @@ Thumbs.db
 .project
 
 # ALX
-/share/bin/*
-!/share/bin/README.md
+/share/root/*
+!/share/root/README.md
