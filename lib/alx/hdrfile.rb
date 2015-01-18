@@ -1,4 +1,3 @@
-#! /usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2015 Marcel Renner
@@ -23,8 +22,7 @@
 #                                   REQUIRES
 #==============================================================================
 
-require_relative('../lib/alx/executable.rb')
-require_relative('../lib/alx/shipcannondata.rb')
+require_relative('binaryfile.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,68 +32,46 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to import ship cannons from +FILE_INPUT+ to +FILE_OUTPUT+.
-class ShipCannonImporter
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
+# Class to handle a HDR file.
+class HdrFile
 
-  include(Executable)
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Path to the source file
-  FILE_INPUT  = File.expand_path(
-    File.join(File.dirname(__FILE__), '../share/csv/shipcannons.csv')
-  )
-  # Path to the destination file
-  FILE_OUTPUT = File.expand_path(
-    File.join(File.dirname(__FILE__), '../share/root/&&systemdata/Start.dol')
-  )
-  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
 
-  def initialize
-    @data = ShipCannonData.new
-  end
+  # Opens a HDR file.
+  # @param _filename [String] File name of HDR file.
+  def initialize(_filename)
+    @game_id  = ''
+    @region   = ''
+    @maker_id = ''
+    @name     = ''
 
-  def exec
-    if valid?
-      @data.load_from_csv(FILE_INPUT)
-      @data.save_to_bin(FILE_OUTPUT)
+    if File.exist?(_filename)
+      BinaryFile.open(_filename, 'rb') do |_f|
+        @game_id  = _f.read_data(6, 'a*')
+        @region   = @game_id[3]
+        @maker_id = @game_id[4, 2]
+        
+        _f.pos    = 0x20
+        @name     = _f.read_data(64, 'Z*')
+      end
     end
   end
-
-  # Returns +true+ if all necessary commands and files exist, otherwise 
-  # +false+.
-  # 
-  # @return [Boolean] +true+ if all necessary commands and files exist, 
-  #                   otherwise +false+.
-  def valid?
-    _valid   = super
-    _valid &&= has_file?(FILE_INPUT)
-  end
   
-end	# class ShipCannonImporter
+#------------------------------------------------------------------------------
+# Public member variables
+#------------------------------------------------------------------------------
+
+  attr_accessor :game_id
+  attr_accessor :region
+  attr_accessor :maker_id
+  attr_accessor :name
+  
+end	# class HdrFile
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 end	# module ALX
-
-# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
-
-if __FILE__ == $0
-  begin
-    _si = ALX::ShipCannonImporter.new
-    _si.exec
-  rescue => _e
-    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
-  end
-end

@@ -44,26 +44,26 @@ Usage
 
 All commands respectively scripts can be found in the `bin` directory. 
 
-| Command                    | Description                                                     |
-| -------------------------- | --------------------------------------------------------------- |
-| `exportaccessories.rb`     | Exports accessories to `share/csv/accessories.csv`              |
-| `exportarmors.rb`          | Exports armos to `share/csv/armors.csv`                         |
-| `exportcrewmembers.rb`     | Exports crew members to `share/csv/crewmembers.csv`             |
-| `exportshipcannons.rb`     | Exports ship cannons to `share/csv/shipcannons.csv`             |
-| `exportshipaccessories.rb` | Exports ship accessories to `share/csv/shipaccessories.csv`     |
-| `exportshipitems.rb`       | Exports ship items to `share/csv/shipitems.csv`                 |
-| `exportspecialitems.rb`    | Exports special items to `share/csv/specialitems.csv`           |
-| `exportusableitems.rb`     | Exports usable items to `share/csv/usableitems.csv`             |
-| `exportweapons.rb`         | Exports weapons to `share/csv/weapons.csv`                      |
-| `importaccessories.rb`     | Imports accessories to `share/root/&&systemdata/Start.dol`      |
-| `importarmors.rb`          | Imports armors to `share/root/&&systemdata/Start.dol`           |
-| `importcrewmembers.rb`     | Imports crew members to `share/root/&&systemdata/Start.dol`     |
-| `importshipcannons.rb`     | Imports ship cannons to `share/root/&&systemdata/Start.dol`     |
-| `importshipaccessories.rb` | Imports ship accessories to `share/root/&&systemdata/Start.dol` |
-| `importshipitems.rb`       | Imports ship items to `share/root/&&systemdata/Start.dol`       |
-| `importspecialitems.rb`    | Imports special items to `share/root/&&systemdata/Start.dol`    |
-| `importusableitems.rb`     | Imports usable items to `share/root/&&systemdata/Start.dol`     |
-| `importweapons.rb`         | Imports weapons to `share/root/&&systemdata/Start.dol`          |
+| Command                    | Description                                                         |
+| -------------------------- | ------------------------------------------------------------------- |
+| `exportaccessories.rb`     | Exports the accessories to `share/csv/accessories.csv`              |
+| `exportarmors.rb`          | Exports the armos to `share/csv/armors.csv`                         |
+| `exportcrewmembers.rb`     | Exports the crew members to `share/csv/crewmembers.csv`             |
+| `exportshipcannons.rb`     | Exports the ship cannons to `share/csv/shipcannons.csv`             |
+| `exportshipaccessories.rb` | Exports the ship accessories to `share/csv/shipaccessories.csv`     |
+| `exportshipitems.rb`       | Exports the ship items to `share/csv/shipitems.csv`                 |
+| `exportspecialitems.rb`    | Exports the special items to `share/csv/specialitems.csv`           |
+| `exportusableitems.rb`     | Exports the usable items to `share/csv/usableitems.csv`             |
+| `exportweapons.rb`         | Exports the weapons to `share/csv/weapons.csv`                      |
+| `importaccessories.rb`     | Imports the accessories to `share/root/&&systemdata/Start.dol`      |
+| `importarmors.rb`          | Imports the armors to `share/root/&&systemdata/Start.dol`           |
+| `importcrewmembers.rb`     | Imports the crew members to `share/root/&&systemdata/Start.dol`     |
+| `importshipcannons.rb`     | Imports the ship cannons to `share/root/&&systemdata/Start.dol`     |
+| `importshipaccessories.rb` | Imports the ship accessories to `share/root/&&systemdata/Start.dol` |
+| `importshipitems.rb`       | Imports the ship items to `share/root/&&systemdata/Start.dol`       |
+| `importspecialitems.rb`    | Imports the special items to `share/root/&&systemdata/Start.dol`    |
+| `importusableitems.rb`     | Imports the usable items to `share/root/&&systemdata/Start.dol`     |
+| `importweapons.rb`         | Imports the weapons to `share/root/&&systemdata/Start.dol`          |
 
 Links
 -----

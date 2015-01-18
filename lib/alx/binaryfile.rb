@@ -26,7 +26,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to read and write easier in binary files.
+# Class to read and write easily in binary files.
 class BinaryFile < File
 
 #==============================================================================

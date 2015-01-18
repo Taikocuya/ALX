@@ -39,14 +39,14 @@ class EntryData
 #                                  CONSTANTS
 #==============================================================================
 
-  STR_OPEN_READER  = 'Open file "%s" for reading...'
-  STR_OPEN_WRITER  = 'Open file "%s" for writing...'
-  STR_READ_DATA    = '  Entry data #%d at position %#x has been read.'
-  STR_WRITE_DATA   = '  Entry data #%d at position %#x has been written.'
-  STR_READ_DSCR    = '  Entry description #%d at position %#x has been read.'
-  STR_WRITE_DSCR   = '  Entry description #%d at position %#x has been written.'
-  STR_CLOSE_READER = 'File "%s" has been successfully read.'
-  STR_CLOSE_WRITER = 'File "%s" has been successfully written.'
+  STR_OPEN_READER  = 'Read file "%s"...'
+  STR_OPEN_WRITER  = 'Write file "%s"...'
+  STR_READ_DATA    = '  Read entry data #%d @ %#x'
+  STR_WRITE_DATA   = '  Write data #%d @ %#x'
+  STR_READ_DSCR    = '  Read description #%d @ %#x'
+  STR_WRITE_DSCR   = '  Write description #%d @ %#x'
+  STR_CLOSE_READER = 'Close file "%s".'
+  STR_CLOSE_WRITER = 'Close file "%s".'
   
 #==============================================================================
 #                                   PUBLIC
@@ -95,6 +95,7 @@ class EntryData
   # Reads all entries from a binary file.
   # @param _filename [String] File name
   def load_from_bin(_filename)
+    print("\n")
     puts(sprintf(STR_OPEN_READER, _filename))
       
     BinaryFile.open(_filename, 'rb') do |_f|
@@ -152,6 +153,7 @@ class EntryData
   # Writes all entries to a binary file.
   # @param _filename [String] File name
   def save_to_bin(_filename)
+    print("\n")
     puts(sprintf(STR_OPEN_WRITER, _filename))
     
     FileUtils.mkdir_p(File.dirname(_filename))
@@ -211,6 +213,7 @@ class EntryData
   # Reads all entries from a CSV file.
   # @param _filename [String] File name
   def load_from_csv(_filename)
+    print("\n")
     puts(sprintf(STR_OPEN_READER, _filename))
 
     CSV.open(_filename, col_sep: ';', headers: true) do |_f|
@@ -221,7 +224,7 @@ class EntryData
 
         if _id != -1
           @data[_id] = _w
-          puts(sprintf(STR_READ_DATA, _id, _id))
+          puts(sprintf(STR_READ_DATA, _id, _id - @id_range.begin + 1))
         end
       end
     end
@@ -232,6 +235,7 @@ class EntryData
   # Writes all entries to a CSV file.
   # @param _filename [String] File name
   def save_to_csv(_filename)
+    print("\n")
     puts(sprintf(STR_OPEN_WRITER, _filename))
 
     FileUtils.mkdir_p(File.dirname(_filename))
@@ -245,7 +249,7 @@ class EntryData
         _w.write_to_csv_row(_row)
         _f << _row
         
-        puts(sprintf(STR_WRITE_DATA, _id, _id))
+        puts(sprintf(STR_WRITE_DATA, _id, _id - @id_range.begin + 1))
       end
     end
     

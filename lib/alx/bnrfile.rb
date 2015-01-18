@@ -1,4 +1,3 @@
-#! /usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2015 Marcel Renner
@@ -23,8 +22,7 @@
 #                                   REQUIRES
 #==============================================================================
 
-require_relative('../lib/alx/executable.rb')
-require_relative('../lib/alx/shipcannondata.rb')
+require_relative('binaryfile.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,68 +32,50 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to import ship cannons from +FILE_INPUT+ to +FILE_OUTPUT+.
-class ShipCannonImporter
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
+# Class to handle a BNR file.
+class BnrFile
 
-  include(Executable)
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Path to the source file
-  FILE_INPUT  = File.expand_path(
-    File.join(File.dirname(__FILE__), '../share/csv/shipcannons.csv')
-  )
-  # Path to the destination file
-  FILE_OUTPUT = File.expand_path(
-    File.join(File.dirname(__FILE__), '../share/root/&&systemdata/Start.dol')
-  )
-  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
 
-  def initialize
-    @data = ShipCannonData.new
-  end
-
-  def exec
-    if valid?
-      @data.load_from_csv(FILE_INPUT)
-      @data.save_to_bin(FILE_OUTPUT)
-    end
-  end
-
-  # Returns +true+ if all necessary commands and files exist, otherwise 
-  # +false+.
-  # 
-  # @return [Boolean] +true+ if all necessary commands and files exist, 
-  #                   otherwise +false+.
-  def valid?
-    _valid   = super
-    _valid &&= has_file?(FILE_INPUT)
+  # Opens a BNR file.
+  # @param _filename [String] File name of BNR file.
+  def initialize(_filename)
+    @game_title      = ''
+    @developer       = ''
+    @full_game_title = ''
+    @full_developer  = ''
+    @description     = ''
+    
+    if File.exist?(_filename)
+      BinaryFile.open(_filename, 'rb') do |_f|
+        if _f.read_data(4, 'a*') == 'BNR1'
+          _f.pos           = 0x1820
+          @game_title      = _f.read_data( 32, 'Z*')
+          @developer       = _f.read_data( 32, 'Z*')
+          @full_game_title = _f.read_data( 64, 'Z*')
+          @full_developer  = _f.read_data( 64, 'Z*')
+          @description     = _f.read_data(128, 'Z*')
+        end
+      end
+     end
   end
   
-end	# class ShipCannonImporter
+#------------------------------------------------------------------------------
+# Public member variables
+#------------------------------------------------------------------------------
+
+  attr_accessor :game_title
+  attr_accessor :developer
+  attr_accessor :full_game_title
+  attr_accessor :full_developer
+  attr_accessor :description
+  
+end	# class BnrFile
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 end	# module ALX
-
-# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
-
-if __FILE__ == $0
-  begin
-    _si = ALX::ShipCannonImporter.new
-    _si.exec
-  rescue => _e
-    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
-  end
-end

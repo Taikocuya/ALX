@@ -24,6 +24,7 @@
 #==============================================================================
 
 require_relative('../lib/alx/armordata.rb')
+require_relative('../lib/alx/executable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,18 +34,28 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to export armors from +INPUT_FILE+ to +OUTPUT_FILE+.
+# Class to export armors from +FILE_INPUT+ to +FILE_OUTPUT+.
 class ArmorExporter
+
+#==============================================================================
+#                                   INCLUDES
+#==============================================================================
+
+  include(Executable)
   
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
 
   # Path to the source file
-  INPUT_FILE  = '../share/root/&&systemdata/Start.dol'
+  FILE_INPUT  = File.expand_path(
+    File.join(File.dirname(__FILE__), '../share/root/&&systemdata/Start.dol')
+  )
   # Path to the destination file
-  OUTPUT_FILE = '../share/csv/armors.csv'
-
+  FILE_OUTPUT = File.expand_path(
+    File.join(File.dirname(__FILE__), '../share/csv/armors.csv')
+  )
+  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
@@ -52,12 +63,25 @@ class ArmorExporter
   public
 
   def initialize
+    super
     @data = ArmorData.new
   end
 
   def exec
-    @data.load_from_bin(INPUT_FILE)
-    @data.save_to_csv(OUTPUT_FILE)
+    if valid?
+      @data.load_from_bin(FILE_INPUT)
+      @data.save_to_csv(FILE_OUTPUT)
+    end
+  end
+
+  # Returns +true+ if all necessary commands and files exist, otherwise 
+  # +false+.
+  # 
+  # @return [Boolean] +true+ if all necessary commands and files exist, 
+  #                   otherwise +false+.
+  def valid?
+    _valid   = super
+    _valid &&= has_file?(FILE_INPUT)
   end
   
 end	# class ArmorExporter
@@ -74,7 +98,5 @@ if __FILE__ == $0
     _ae.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
-  ensure
-    system('pause')
   end
 end

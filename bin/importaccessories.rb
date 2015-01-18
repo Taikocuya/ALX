@@ -24,6 +24,7 @@
 #==============================================================================
 
 require_relative('../lib/alx/accessorydata.rb')
+require_relative('../lib/alx/executable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,18 +34,28 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to import accessories from +INPUT_FILE+ to +OUTPUT_FILE+.
+# Class to import accessories from +FILE_INPUT+ to +FILE_OUTPUT+.
 class AccessoryImporter
+
+#==============================================================================
+#                                   INCLUDES
+#==============================================================================
+
+  include(Executable)
   
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
 
   # Path to the source file
-  INPUT_FILE  = '../share/csv/accessories.csv'
+  FILE_INPUT  = File.expand_path(
+    File.join(File.dirname(__FILE__), '../share/csv/accessories.csv')
+  )
   # Path to the destination file
-  OUTPUT_FILE = '../share/root/&&systemdata/Start.dol'
-
+  FILE_OUTPUT = File.expand_path(
+    File.join(File.dirname(__FILE__), '../share/root/&&systemdata/Start.dol')
+  )
+  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
@@ -52,12 +63,25 @@ class AccessoryImporter
   public
 
   def initialize
+    super
     @data = AccessoryData.new
   end
 
   def exec
-    @data.load_from_csv(INPUT_FILE)
-    @data.save_to_bin(OUTPUT_FILE)
+    if valid?
+      @data.load_from_csv(FILE_INPUT)
+      @data.save_to_bin(FILE_OUTPUT)
+    end
+  end
+
+  # Returns +true+ if all necessary commands and files exist, otherwise 
+  # +false+.
+  # 
+  # @return [Boolean] +true+ if all necessary commands and files exist, 
+  #                   otherwise +false+.
+  def valid?
+    _valid   = super
+    _valid &&= has_file?(FILE_INPUT)
   end
   
 end	# class AccessoryImporter
@@ -74,7 +98,5 @@ if __FILE__ == $0
     _ai.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
-  ensure
-    system('pause')
   end
 end
