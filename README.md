@@ -9,9 +9,8 @@ and from CSV files.
 Features
 --------
 
-Following game data can be exported and imported:
-  * All items (e.g. accessories, armors, ship cannons, ship accessories, 
-    ship items, special items, usable items and weapons)
+  * Items (e.g. accessories, armors, ship cannons, ship accessories, ship 
+    items, special items, usable items and weapons)
   * Crew members
 
 Prerequisites
