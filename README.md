@@ -25,9 +25,9 @@ Download
 --------
 
 * You can get the latest official release from the GitHub releases:
-  https://github.com/Tortigar/ALX/releases
+  https://github.com/Taikocuya/ALX/releases
 * You can also get the current development version from the GitHub repository:
-  https://github.com/Tortigar/ALX
+  https://github.com/Taikocuya/ALX
 
 Installation
 ------------
