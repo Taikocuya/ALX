@@ -41,9 +41,9 @@ module Executable
 #==============================================================================
 
   # Version of ALX
-  VERSION  = '1.0.0-RC1'
+  VERSION  = '1.0.0'
   # Date of ALX
-  DATE     = Time.new(2015, 01, 15)
+  DATE     = Time.new(2015, 01, 20)
   # Path to BNR file
   BNR_FILE = '../share/root/opening.bnr'
   # Path to HDR file
