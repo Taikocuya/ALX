@@ -9,8 +9,8 @@ and from CSV files.
 Features
 --------
 
-  * Items (e.g. accessories, armors, ship cannons, ship accessories, ship 
-    items, special items, usable items and weapons)
+  * Items (accessories, armors, ship cannons, ship accessories, ship items, 
+    special items, usable items and weapons)
   * Crew members
 
 Prerequisites
