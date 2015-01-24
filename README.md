@@ -17,10 +17,12 @@ Prerequisites
 -------------
 
 The shipped and pre-exported CSV files in the `share/csv` directory require:
+
 * Spreadsheet application
 * Еditor for plain text
 
 The commands respectively scripts in the `bin` directory require:
+
 * Ruby 2.1.0+
 * Extracted NTSC-U/C image of Skies of Arcadia Legends
 
