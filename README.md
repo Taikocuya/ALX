@@ -16,11 +16,11 @@ Features
 Prerequisites
 -------------
 
-The shipped and pre-exported CSV files requires:
+The shipped and pre-exported CSV files require:
 * Spreadsheet application
 * Еditor for plain text
 
-The commands respectively scripts requires:
+The commands respectively scripts require:
 * Ruby 2.1.0+
 * Extracted NTSC-U/C image of Skies of Arcadia Legends
 
