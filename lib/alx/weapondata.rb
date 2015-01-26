@@ -74,9 +74,10 @@ class WeaponData < EntryData
       'Price',
       'Attack',
       'Hit%',
-      'Unknown #3',
-      'Unknown #4',
-      'Unknown #5'
+      'Feature ID',
+      'Feature Name',
+      'Feature Padding',
+      'Feature Value'
     )
   end
   
