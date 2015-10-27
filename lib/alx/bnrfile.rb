@@ -19,7 +19,7 @@
 #******************************************************************************
 
 #==============================================================================
-#                                   REQUIRES
+#                                 REQUIREMENTS
 #==============================================================================
 
 require_relative('binaryfile.rb')
@@ -44,6 +44,7 @@ class BnrFile
   # Opens a BNR file.
   # @param _filename [String] File name of BNR file.
   def initialize(_filename)
+    @filename        = _filename
     @game_title      = ''
     @developer       = ''
     @full_game_title = ''
@@ -52,13 +53,13 @@ class BnrFile
     
     if File.exist?(_filename)
       BinaryFile.open(_filename, 'rb') do |_f|
-        if _f.read_data(4, 'a*') == 'BNR1'
+        if /^BNR[12]$/ =~ _f.read_str(4)
           _f.pos           = 0x1820
-          @game_title      = _f.read_data( 32, 'Z*')
-          @developer       = _f.read_data( 32, 'Z*')
-          @full_game_title = _f.read_data( 64, 'Z*')
-          @full_developer  = _f.read_data( 64, 'Z*')
-          @description     = _f.read_data(128, 'Z*')
+          @game_title      = _f.read_str(32)
+          @developer       = _f.read_str(32)
+          @full_game_title = _f.read_str(64)
+          @full_developer  = _f.read_str(64)
+          @description     = _f.read_str(128)
         end
       end
      end
@@ -68,6 +69,7 @@ class BnrFile
 # Public member variables
 #------------------------------------------------------------------------------
 
+  attr_accessor :filename
   attr_accessor :game_title
   attr_accessor :developer
   attr_accessor :full_game_title

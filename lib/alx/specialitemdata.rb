@@ -19,10 +19,11 @@
 #******************************************************************************
 
 #==============================================================================
-#                                   REQUIRES
+#                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('entrydata.rb')
+require_relative('entrytransform.rb')
+require_relative('dolentrydata.rb')
 require_relative('specialitem.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -34,16 +35,49 @@ module ALX
 #==============================================================================
 
 # Class to handle special items from binary and/or CSV files.
-class SpecialItemData < EntryData
+class SpecialItemData < DolEntryData
   
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
 
-  ID_RANGE_RANGE    = 0x140...0x190
-  DATA_OFFSET_RANGE = 0x2c5774...0x2c5e54
-  DSCR_OFFSET_RANGE = 0x2cd4ec...0x2ce220
-  DSCR_SKIPPED_IDS  = [0x152, 0x15b, 0x161, 0x162]
+  # Range of entry IDs
+  ID_RANGE    = 0x140...0x190
+
+  # Offset ranges of data entries
+  DATA_RANGES = {
+    'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c5774...0x2c5e54),
+    'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c4c6c...0x2c534c),
+    'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f4aa8...0x2f4e68),
+  }
+
+  # Offset ranges of name entries
+  NAME_RANGES = {
+    'P' => [
+      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1dede...0x1e2b1),
+      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1dc62...0x1e028),
+      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1ded3...0x1e2a2),
+      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1d556...0x1d929),
+    ],
+  }
+
+  # Offset ranges of description entries
+  DSCR_RANGES = {
+    'E' => DataRange.new(
+      EntryTransform::DOL_FILE, 0x2cd4ec...0x2ce220,
+      [0x152, 0x15b, 0x161, 0x162]
+    ),
+    'J' => DataRange.new(
+      EntryTransform::DOL_FILE, 0x2cd644...0x2ce2b4,
+      [0x152, 0x15b, 0x161, 0x162]
+    ),
+    'P' => [
+      DataRange.new(EntryTransform::SOT_DE_FILE, 0x18262...0x1918c),
+      DataRange.new(EntryTransform::SOT_ES_FILE, 0x17e6f...0x18dd2),
+      DataRange.new(EntryTransform::SOT_FR_FILE, 0x17f59...0x18ef6),
+      DataRange.new(EntryTransform::SOT_GB_FILE, 0x179f9...0x189df),
+    ],
+  }
 
 #==============================================================================
 #                                   PUBLIC
@@ -51,27 +85,16 @@ class SpecialItemData < EntryData
 
   public
 
-  def initialize
-    super(
-      SpecialItem,
-      ID_RANGE_RANGE,
-      DATA_OFFSET_RANGE,
-      DSCR_OFFSET_RANGE,
-      DSCR_SKIPPED_IDS
-    )
+  # Constructs a SpecialItemData.
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
+    super(SpecialItem, _root)
+    self.id_range    = ID_RANGE
+    self.data_ranges = DATA_RANGES
+    self.name_ranges = NAME_RANGES
+    self.dscr_ranges = DSCR_RANGES
   end
-  
-  # Header of the CSV file.
-  def header
-    super(
-      'Unknown #1',
-      'Unknown #2',
-      'Unknown #3',
-      'Unknown #4',
-      'Unknown #5'
-    )
-  end
-  
+
 end # class SpecialItemData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

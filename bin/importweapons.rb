@@ -20,11 +20,10 @@
 #******************************************************************************
 
 #==============================================================================
-#                                   REQUIRES
+#                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/executable.rb')
-require_relative('../lib/alx/weapondata.rb')
+require_relative('../lib/alx/weapontransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,55 +33,26 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to import weapons from +FILE_INPUT+ to +FILE_OUTPUT+.
-class WeaponImporter
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
+# Class to import weapons from CSV files.
+class WeaponImporter < WeaponTransform
 
-  include(Executable)
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Path to the source file
-  FILE_INPUT  = File.expand_path(
-    File.join(File.dirname(__FILE__), '../share/csv/weapons.csv')
-  )
-  # Path to the destination file
-  FILE_OUTPUT = File.expand_path(
-    File.join(File.dirname(__FILE__), '../share/root/&&systemdata/Start.dol')
-  )
-  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
 
-  def initialize
-    @data = WeaponData.new
+  def valid?(_root)
+    _result   = super
+    _result &&= has_file?(File.join(_root.path, CSV_FILE))
+    _result
   end
 
   def exec
-    if valid?
-      @data.load_from_csv(FILE_INPUT)
-      @data.save_to_bin(FILE_OUTPUT)
-    end
+    super
+    transform_csv_to_bin(CSV_FILE)
   end
 
-  # Returns +true+ if all necessary commands and files exist, otherwise 
-  # +false+.
-  # 
-  # @return [Boolean] +true+ if all necessary commands and files exist, 
-  #                   otherwise +false+.
-  def valid?
-    _valid   = super
-    _valid &&= has_file?(FILE_INPUT)
-  end
-  
 end	# class WeaponImporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

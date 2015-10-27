@@ -18,6 +18,12 @@
 # ALX. If not, see <http://www.gnu.org/licenses/>.
 #******************************************************************************
 
+#==============================================================================
+#                                 REQUIREMENTS
+#==============================================================================
+
+require_relative('binaryio.rb')
+
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 module ALX
@@ -27,27 +33,13 @@ module ALX
 #==============================================================================
 
 # Class to read and write easily in binary files.
-class BinaryFile < File
-
+class BinaryFile < ::File
+  
 #==============================================================================
-#                                   PUBLIC
+#                                   INCLUDES
 #==============================================================================
 
-  public
-
-  # Reads data from the file.
-  # @param _length [Integer] Desired number of bytes to read.
-  # @param _format [String]  Format of the data, which will be read.
-  def read_data(_length, _format)
-    read(_length).unpack(_format).first
-  end
-
-  # Write data to the file.
-  # @param _data   [Integer,String] Data which will be written to the stream.
-  # @param _format [String]         Format of the data, which will be written.
-  def write_data(_data, _format)
-    write([_data].pack(_format))
-  end
+  include(BinaryIO)
 
 end # class BinaryFile
 

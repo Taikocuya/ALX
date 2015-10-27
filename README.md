@@ -1,16 +1,16 @@
 ALX - Skies of Arcadia Legends Examiner
 =======================================
 
-ALX is a very simple, fast, cross-platform and object-oriented command line 
-tool to extract the game data from the NTSC-U/C version of Skies of Arcadia 
-Legends. It is written in Ruby and is able to export and import the data to 
-and from CSV files.
+*ALX* is a very simple, fast, cross-platform and object-oriented command line 
+tool to extract the game data from Skies of Arcadia Legends as well as Eternal 
+Arcadia Legends. It is written in Ruby and is able to export and import the 
+data to and from CSV files.
 
 Features
 --------
 
 * Items (accessories, armors, ship cannons, ship accessories, ship items, 
-special items, usable items and weapons)
+  special items, usable items and weapons)
 * Crew members
 
 Prerequisites
@@ -18,31 +18,36 @@ Prerequisites
 
 The commands respectively scripts in the `bin` directory require:
 
-* Ruby 2.1.0+
-* Extracted NTSC-U/C image of Skies of Arcadia Legends
+* [Ruby](https://www.ruby-lang.org/) 2.1.0+
+* At least one extracted image of Skies of Arcadia Legends, or rather, Eternal 
+  Arcadia Legends in a subdirectory of `share`
 
-The shipped and pre-exported CSV files in the `share/csv` directory require:
+The shipped and pre-exported CSV files in the subdirectories of `share` 
+require:
 
-* Spreadsheet application
-* Еditor for plain text
+* Spreadsheet application (e.g. [uniCSVed](http://csved.sjfrancke.nl/))
+* Editor for plain text (e.g. [Notepad++](https://notepad-plus-plus.org/))
 
 Download
 --------
 
-* You can get the latest official release from the GitHub releases:
-  https://github.com/Taikocuya/ALX/releases
+* You can get the latest official release on the SourceForge project website:
+  https://sourceforge.net/projects/aex/files/latest/download
 * You can also get the current development version from the GitHub repository:
   https://github.com/Taikocuya/ALX
 
 Installation
 ------------
 
-Put the files to some directory where you want it. Sample CSV files with all 
-exported data can already be found in the `share/csv` directory. The scripts 
-require an extracted NTSC-U/C image of Skies of Arcadia Legends in the 
-`share/root` directory. To obtain this files, you need an image file (ISO or 
-GCM) and [GCRebuilder](http://www.romhacking.net/utilities/619/). Please do 
-not ask for a download link.
+Put the files to some directory where you want it. Pre-exported CSV files with 
+all game data can already be found in the subdirectories `share/geaj8p` for 
+NTSC-J, `share/geaj8p` for NTSC-U or `share/geae8p` for PAL-E.
+
+The scripts require at least one extracted image of Skies of Arcadia Legends, 
+or rather, Eternal Arcadia Legends in a new or existing subdirectory of 
+`share`. To obtain these files, you need a corresponding game image (ISO or 
+GCM) and [GCRebuilder](http://www.romhacking.net/utilities/619/). Please do not 
+ask for download links.
 
 Commands
 --------

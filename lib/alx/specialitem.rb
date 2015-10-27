@@ -19,10 +19,10 @@
 #******************************************************************************
 
 #==============================================================================
-#                                   REQUIRES
+#                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('entry.rb')
+require_relative('dolentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,14 +33,7 @@ module ALX
 #==============================================================================
 
 # Class to handle a special item.
-class SpecialItem < Entry
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
- 
-  # Size of the binary structure
-  STRUCT_SIZE = 22
+class SpecialItem < DolEntry
 
 #==============================================================================
 #                                   PUBLIC
@@ -48,74 +41,30 @@ class SpecialItem < Entry
 
   public
 
-  def initialize
+  # Constructs a SpecialItem.
+  # @param _region [String] Region ID
+  def initialize(_region)
     super
-    @unknown1 = 0
-    @unknown2 = -1
-    @unknown3 = -1
-    @unknown4 = 0
-    @unknown5 = 0
-  end
+    add_name_members
 
-  # Reads one special item from a binary file.
-  # @param _f [File] Binary file
-  def read_from_bin(_f)
-    super
-    @unknown1 = _f.read_data(1, 'c')
-    @unknown2 = _f.read_data(1, 'c')
-    @unknown3 = _f.read_data(1, 'c')
-    @unknown4 = _f.read_data(1, 'c')
-    @unknown5 = _f.read_data(1, 'c')
-  end
-  
-  # Write one special item to a binary file.
-  # @param _f [File] Binary file
-  def write_to_bin(_f)
-    super
-    _f.write_data(@unknown1, 'c')
-    _f.write_data(@unknown2, 'c')
-    _f.write_data(@unknown3, 'c')
-    _f.write_data(@unknown4, 'c')
-    _f.write_data(@unknown5, 'c')
-  end
-
-  # Reads one special item from a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def read_from_csv_row(_row)
-    super
-    @unknown1 = _row['Unknown #1'] || @unknown1
-    @unknown2 = _row['Unknown #2'] || @unknown2
-    @unknown3 = _row['Unknown #3'] || @unknown3
-    @unknown4 = _row['Unknown #4'] || @unknown4
-    @unknown5 = _row['Unknown #5'] || @unknown5
+    members << IntVar.new(unknown_hdr             ,  0, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE, -1, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_ALPHABET  , -1, 'c' )
     
-    @unknown1 = @unknown1.to_i
-    @unknown2 = @unknown2.to_i
-    @unknown3 = @unknown3.to_i
-    @unknown4 = @unknown4.to_i
-    @unknown5 = @unknown5.to_i
-  end
+    if region == 'P'
+      members << IntVar.new(padding_hdr           ,  0, 'c' )
+    end
+    
+    members << IntVar.new(unknown_hdr             ,  0, 'c' )
+    members << IntVar.new(unknown_hdr             ,  0, 'c' )
 
-  # Writes one special item to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
-    super
-    _row['Unknown #1'] = @unknown1
-    _row['Unknown #2'] = @unknown2
-    _row['Unknown #3'] = @unknown3
-    _row['Unknown #4'] = @unknown4
-    _row['Unknown #5'] = @unknown5
-  end
-  
-#------------------------------------------------------------------------------
-# Public member variables
-#------------------------------------------------------------------------------
+    if region == 'P'
+      members << IntVar.new(padding_hdr           ,  0, 'c' )
+      members << IntVar.new(padding_hdr           ,  0, 'c' )
+    end
 
-  attr_accessor :unknown1
-  attr_accessor :unknown2
-  attr_accessor :unknown3
-  attr_accessor :unknown4
-  attr_accessor :unknown5
+    add_dscr_members
+  end
 
 end	# class SpecialItem
 

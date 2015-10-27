@@ -18,13 +18,6 @@
 # ALX. If not, see <http://www.gnu.org/licenses/>.
 #******************************************************************************
 
-#==============================================================================
-#                                   REQUIRES
-#==============================================================================
-
-require_relative('bnrfile.rb')
-require_relative('hdrfile.rb')
-
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 module ALX
@@ -41,13 +34,9 @@ module Executable
 #==============================================================================
 
   # Version of ALX
-  VERSION  = '1.0.1'
+  VERSION = '2.0.0'
   # Date of ALX
-  DATE     = Time.new(2015, 01, 26)
-  # Path to BNR file
-  BNR_FILE = '../share/root/opening.bnr'
-  # Path to HDR file
-  HDR_FILE = '../share/root/&&systemdata/ISO.hdr'
+  DATE    = Time.new(2015, 10, 27)
 
 #==============================================================================
 #                                   PUBLIC
@@ -55,29 +44,18 @@ module Executable
 
   public
 
-  # Constructs a EntryData.
+  # Constructs a Executable.
   def initialize
     show_version
   end
-  
-  # Returns +true+ if all necessary commands and files exist, otherwise 
-  # +false+.
-  # 
-  # @return [Boolean] +true+ if all necessary commands and files exist, 
-  #                   otherwise +false+.
-  def valid?
-    print("\n")
-    _valid   = check_bnr
-    _valid &&= check_hdr
-  end
 
   # Returns +true+ if file exists, otherwise +false+.
-  # @param _file [String] File name
+  # @param _filename [String] File name
   # @return [Boolean] +true+ if file exists, otherwise +false+.
-  def has_file?(_file)
-    print("Check for existing file: #{File.basename(_file)}")
+  def has_file?(_filename)
+    print("Check for existing file: #{File.expand_path(_filename)}")
     
-    _result = File.exist?(_file)
+    _result = File.exist?(_filename) && !File.directory?(_filename)
 
     if _result
       print(" - exists\n")
@@ -88,69 +66,18 @@ module Executable
     _result
   end
 
-  # Returns +true+ if BNR file is valid, otherwise +false+.
-  # @param _file [String] File name
-  # @return [Boolean] +true+ if BNR file is valid, otherwise +false+.
-  def check_bnr
-    unless has_file?(BNR_FILE)
-      return false
-    end
+  # Returns +true+ if directory exists, otherwise +false+.
+  # @param _dirname [String] Directory name
+  # @return [Boolean] +true+ if file exists, otherwise +false+.
+  def has_dir?(_dirname)
+    print("Check for existing directory: #{File.expand_path(_dirname)}")
     
-    _bnr    = BnrFile.new(BNR_FILE)
-    _result = false
+    _result = Dir.exist?(_dirname) && File.directory?(_dirname)
 
-    print('Check BNR file: Game title')
-    if _bnr.game_title == "Skies of Arcadia Legends"
-      _result = true
-      print(" - valid")
-    else
-      print(" - incorrect")
-    end
-    print(" (#{_bnr.game_title})\n")
-    
     if _result
-      print('Check BNR file: Developer')
-      if _bnr.developer == "SEGA"
-        _result = true
-        print(" - valid")
-      else
-        print(" - incorrect")
-      end
-      print(" (#{_bnr.developer})\n")
-    end
-    
-    _result
-  end
-
-  # Returns +true+ if HDR file is valid, otherwise +false+.
-  # @param _file [String] File name
-  # @return [Boolean] +true+ if HDR file is valid, otherwise +false+.
-  def check_hdr
-    unless has_file?(HDR_FILE)
-      return false
-    end
-    
-    _hdr    = HdrFile.new(HDR_FILE)
-    _result = false
-
-    print('Check HDR file: Game ID')
-    if _hdr.game_id == "GEAE8P"
-      _result = true
-      print(" - valid")
+      print(" - exists\n")
     else
-      print(" - incorrect")
-    end
-    print(" (#{_hdr.game_id})\n")
-    
-    if _result
-      print('Check HDR file: Name')
-      if _hdr.name == "Skies of Arcadia Legends"
-        _result = true
-        print(" - valid")
-      else
-        print(" - incorrect")
-      end
-      print(" (#{_hdr.name})\n")
+      print(" - not found\n")
     end
     
     _result
@@ -160,9 +87,9 @@ module Executable
   def show_version
     print("\n")
     print(DATE.strftime("ALX #{VERSION} (%Y-%m-%d)\n"))
-    print("Copyright (C) 2015 Marcel Renner\n")
+    print(DATE.strftime("Copyright (C) %Y Marcel Renner\n"))
   end
-  
+
 end # class Executable
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

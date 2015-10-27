@@ -19,10 +19,11 @@
 #******************************************************************************
 
 #==============================================================================
-#                                   REQUIRES
+#                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('entrydata.rb')
+require_relative('entrytransform.rb')
+require_relative('dolentrydata.rb')
 require_relative('shipitem.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -34,16 +35,43 @@ module ALX
 #==============================================================================
 
 # Class to handle ship items from binary and/or CSV files.
-class ShipItemData < EntryData
+class ShipItemData < DolEntryData
   
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
 
-  ID_RANGE_RANGE    = 0x1e0...0x1fe
-  DATA_OFFSET_RANGE = 0x2d5a2c...0x2d5e64
-  DSCR_OFFSET_RANGE = 0x2cfbf0...0x2d05c4
-  DSCR_SKIPPED_IDS  = []
+  # Range of entry IDs
+  ID_RANGE    = 0x1e0...0x1fe
+
+  # Offset ranges of data entries
+  DATA_RANGES = {
+    'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2d5a2c...0x2d5e64),
+    'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2d566c...0x2d5aa4),
+    'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f877c...0x2f8a4c),
+  }
+
+  # Offset ranges of name entries
+  NAME_RANGES = {
+    'P' => [
+      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1ec15...0x1ed75),
+      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1e9cd...0x1eb78),
+      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1ec03...0x1ed91),
+      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1e27d...0x1e3dd),
+    ],
+  }
+
+  # Offset ranges of description entries
+  DSCR_RANGES = {
+    'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2cfbf0...0x2d05c4),
+    'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2cfc58...0x2d058c),
+    'P' => [
+      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1abb8...0x1b603),
+      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1a7f2...0x1b23a),
+      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1a998...0x1b3e9),
+      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1a38c...0x1ad4b),
+    ],
+  }
 
 #==============================================================================
 #                                   PUBLIC
@@ -51,42 +79,16 @@ class ShipItemData < EntryData
 
   public
 
-  def initialize
-    super(
-      ShipItem,
-      ID_RANGE_RANGE,
-      DATA_OFFSET_RANGE,
-      DSCR_OFFSET_RANGE,
-      DSCR_SKIPPED_IDS
-    )
+  # Constructs a ShipItemData.
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
+    super(ShipItem, _root)
+    self.id_range    = ID_RANGE
+    self.data_ranges = DATA_RANGES
+    self.name_ranges = NAME_RANGES
+    self.dscr_ranges = DSCR_RANGES
   end
-  
-  # Header of the CSV file.
-  def header
-    super(
-      'Occasion flags',
-      'Menu',
-      'Battle',
-      'Ship battle',
-      'Effect ID',
-      'Effect name',
-      'Turns',
-      'Consume%',
-      'Padding #1',
-      'Price',
-      'Sell price in %',
-      'Unknown #1',
-      'Unknown #2',
-      'Padding #2',
-      'Effect amount',
-      'Element ID',
-      'Element name',
-      'Unknown #3',
-      'Unknown #4',
-      'Hit%'
-    )
-  end
-  
+
 end # class ShipItemData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

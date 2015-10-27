@@ -20,11 +20,10 @@
 #******************************************************************************
 
 #==============================================================================
-#                                   REQUIRES
+#                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/executable.rb')
-require_relative('../lib/alx/shipaccessorydata.rb')
+require_relative('../lib/alx/shipaccessorytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,57 +32,21 @@ module ALX
 #==============================================================================
 #                                    CLASS
 #==============================================================================
-
-# Class to export ship accessories from +FILE_INPUT+ to +FILE_OUTPUT+.
-class ShipAccessoryExporter
-
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Executable)
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Path to the source file
-  FILE_INPUT  = File.expand_path(
-    File.join(File.dirname(__FILE__), '../share/root/&&systemdata/Start.dol')
-  )
-  # Path to the destination file
-  FILE_OUTPUT = File.expand_path(
-    File.join(File.dirname(__FILE__), '../share/csv/shipaccessories.csv')
-  )
   
+# Class to export ship accessories to CSV files.
+class ShipAccessoryExporter < ShipAccessoryTransform
+
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
 
-  def initialize
-    super
-    @data = ShipAccessoryData.new
-  end
-
   def exec
-    if valid?
-      @data.load_from_bin(FILE_INPUT)
-      @data.save_to_csv(FILE_OUTPUT)
-    end
+    super
+    transform_bin_to_csv(CSV_FILE)
   end
 
-  # Returns +true+ if all necessary commands and files exist, otherwise 
-  # +false+.
-  # 
-  # @return [Boolean] +true+ if all necessary commands and files exist, 
-  #                   otherwise +false+.
-  def valid?
-    _valid   = super
-    _valid &&= has_file?(FILE_INPUT)
-  end
-  
 end	# class ShipAccessoryExporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

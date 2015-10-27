@@ -19,10 +19,10 @@
 #******************************************************************************
 
 #==============================================================================
-#                                   REQUIRES
+#                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('entry.rb')
+require_relative('dolentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,14 +33,11 @@ module ALX
 #==============================================================================
 
 # Class to handle an armor.
-class Armor < Entry
+class Armor < DolEntry
   
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
-
-  # Size of the binary structure
-  STRUCT_SIZE = 40
 
   # Feature IDs
   FEATURES = Hash.new('???')
@@ -82,178 +79,59 @@ class Armor < Entry
 
   public
 
-  def initialize
+  # Constructs an Armor.
+  # @param _region [String] Region ID
+  def initialize(_region)
     super
-    @character_flags     = 0
-    @sell                = 0
-    @unknown1            = -1
-    @unknown2            = -1
-    @padding             = 0
-    @price               = 0
-    @feature1_id         = -1
-    @feature1_padding    = 0
-    @feature1_value      = 0
-    @feature2_id         = -1
-    @feature2_padding    = 0
-    @feature2_value      = 0
-    @feature3_id         = -1
-    @feature3_padding    = 0
-    @feature3_value      = 0
-    @feature4_id         = -1
-    @feature4_padding    = 0
-    @feature4_value      = 0
-  end
+    add_name_members
 
-  # Reads one armor from a binary file.
-  # @param _f [File] Binary file
-  def read_from_bin(_f)
-    super
-    @character_flags  = _f.read_data(1, 'c' )
-    @sell             = _f.read_data(1, 'c' )
-    @unknown1         = _f.read_data(1, 'c' )
-    @unknown2         = _f.read_data(1, 'c' )
-    @padding          = _f.read_data(1, 'c' )
-    @price            = _f.read_data(2, 'S>')
-    @feature1_id      = _f.read_data(1, 'c' )
-    @feature1_padding = _f.read_data(1, 'c' )
-    @feature1_value   = _f.read_data(2, 's>')
-    @feature2_id      = _f.read_data(1, 'c' )
-    @feature2_padding = _f.read_data(1, 'c' )
-    @feature2_value   = _f.read_data(2, 's>')
-    @feature3_id      = _f.read_data(1, 'c' )
-    @feature3_padding = _f.read_data(1, 'c' )
-    @feature3_value   = _f.read_data(2, 's>')
-    @feature4_id      = _f.read_data(1, 'c' )
-    @feature4_padding = _f.read_data(1, 'c' )
-    @feature4_value   = _f.read_data(2, 's>')
-  end
-  
-  # Write one armor to a binary file.
-  # @param _f [File] Binary file
-  def write_to_bin(_f)
-    super
-    _f.write_data(@character_flags , 'c' )
-    _f.write_data(@sell            , 'c' )
-    _f.write_data(@unknown1        , 'c' )
-    _f.write_data(@unknown2        , 'c' )
-    _f.write_data(@padding         , 'c' )
-    _f.write_data(@price           , 'S>')
-    _f.write_data(@feature1_id     , 'c' )
-    _f.write_data(@feature1_padding, 'c' )
-    _f.write_data(@feature1_value  , 's>')
-    _f.write_data(@feature2_id     , 'c' )
-    _f.write_data(@feature2_padding, 'c' )
-    _f.write_data(@feature2_value  , 's>')
-    _f.write_data(@feature3_id     , 'c' )
-    _f.write_data(@feature3_padding, 'c' )
-    _f.write_data(@feature3_value  , 's>')
-    _f.write_data(@feature4_id     , 'c' )
-    _f.write_data(@feature4_padding, 'c' )
-    _f.write_data(@feature4_value  , 's>')
-  end
-
-  # Reads one armor from a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def read_from_csv_row(_row)
-    super
-    @character_flags  = _row['Character flags'      ] || @character_flags
-    @sell             = _row['Sell price in %'      ] || @sell
-    @unknown1         = _row['Unknown #1'           ] || @unknown1
-    @unknown2         = _row['Unknown #2'           ] || @unknown2
-    @padding          = _row['Padding'              ] || @padding
-    @price            = _row['Price'                ] || @price
-    @feature1_id      = _row['Feature #1 ID'        ] || @feature1_id
-    @feature1_padding = _row['Feature #1 Padding'   ] || @feature1_padding
-    @feature1_value   = _row['Feature #1 Value'     ] || @feature1_value
-    @feature2_id      = _row['Feature #2 ID'        ] || @feature2_id
-    @feature2_padding = _row['Feature #2 Padding'   ] || @feature2_padding
-    @feature2_value   = _row['Feature #2 Value'     ] || @feature2_value
-    @feature3_id      = _row['Feature #3 ID'        ] || @feature3_id
-    @feature3_padding = _row['Feature #3 Padding'   ] || @feature3_padding
-    @feature3_value   = _row['Feature #3 Value'     ] || @feature3_value
-    @feature4_id      = _row['Feature #4 ID'        ] || @feature4_id
-    @feature4_padding = _row['Feature #4 Padding'   ] || @feature4_padding
-    @feature4_value   = _row['Feature #4 Value'     ] || @feature4_value
-
-    @character_flags  = @character_flags.to_i
-    @sell             = @sell.to_i
-    @unknown1         = @unknown1.to_i
-    @unknown2         = @unknown2.to_i
-    @padding          = @padding.to_i
-    @price            = @price.to_i
-    @feature1_id      = @feature1_id.to_i
-    @feature1_padding = @feature1_padding.to_i
-    @feature1_value   = @feature1_value.to_i
-    @feature2_id      = @feature2_id.to_i
-    @feature2_padding = @feature2_padding.to_i
-    @feature2_value   = @feature2_value.to_i
-    @feature3_id      = @feature3_id.to_i
-    @feature3_padding = @feature3_padding.to_i
-    @feature3_value   = @feature3_value.to_i
-    @feature4_id      = @feature4_id.to_i
-    @feature4_padding = @feature4_padding.to_i
-    @feature4_value   = @feature4_value.to_i
-  end
-
-  # Writes one armor to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
-    super
+    members << IntVar.new(CsvHdr::CHARA_FLAGS        ,  0, 'c' )
+    CHARACTERS.each_value do |_chara|
+      members << StrDmy.new(CsvHdr::CHARA_OPT[_chara], ''      )
+    end
     
-    _row['Character flags'      ] = @character_flags
-
-    CHARACTERS.each do |_id, _c|
-      if @character_flags & (0x20 >> _id) != 0
-        _row[_c] = 'X'
-      end
+    members << IntVar.new(CsvHdr::RETAIL_PRICE       ,  0, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE   , -1, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_ALPHABET     , -1, 'c' )
+    
+    if region != 'P'
+      members << IntVar.new(padding_hdr              ,  0, 'c' )
     end
 
-    _row['Sell price in %'      ] = @sell
-    _row['Unknown #1'           ] = @unknown1
-    _row['Unknown #2'           ] = @unknown2
-    _row['Padding'              ] = @padding
-    _row['Price'                ] = @price
-    _row['Feature #1 ID'        ] = @feature1_id
-    _row['Feature #1 Name'      ] = FEATURES[@feature1_id]
-    _row['Feature #1 Padding'   ] = @feature1_padding
-    _row['Feature #1 Value'     ] = @feature1_value
-    _row['Feature #2 ID'        ] = @feature2_id
-    _row['Feature #2 Name'      ] = FEATURES[@feature2_id]
-    _row['Feature #2 Padding'   ] = @feature2_padding
-    _row['Feature #2 Value'     ] = @feature2_value
-    _row['Feature #3 ID'        ] = @feature3_id
-    _row['Feature #3 Name'      ] = FEATURES[@feature3_id]
-    _row['Feature #3 Padding'   ] = @feature3_padding
-    _row['Feature #3 Value'     ] = @feature3_value
-    _row['Feature #4 ID'        ] = @feature4_id
-    _row['Feature #4 Name'      ] = FEATURES[@feature4_id]
-    _row['Feature #4 Padding'   ] = @feature4_padding
-    _row['Feature #4 Value'     ] = @feature4_value
-  end
-  
-#------------------------------------------------------------------------------
-# Public member variables
-#------------------------------------------------------------------------------
+    members << IntVar.new(CsvHdr::PURCHASE_PRICE     ,  0, 'S>')
+    
+    (1..4).each do |_i|
+      members << IntVar.new(CsvHdr::FEATURE_ID[_i]   , -1, 'c' )
+      members << StrDmy.new(CsvHdr::FEATURE_NAME[_i] , ''      )
+      members << IntVar.new(padding_hdr              ,  0, 'c' )
+      members << IntVar.new(CsvHdr::FEATURE_VALUE[_i],  0, 's>')
+    end
 
-  attr_accessor :character_flags
-  attr_accessor :sell
-  attr_accessor :unknown1
-  attr_accessor :unknown2
-  attr_accessor :padding
-  attr_accessor :price
-  attr_accessor :feature1_id
-  attr_accessor :feature1_padding
-  attr_accessor :feature1_value
-  attr_accessor :feature2_id
-  attr_accessor :feature2_padding
-  attr_accessor :feature2_value
-  attr_accessor :feature3_id
-  attr_accessor :feature3_padding
-  attr_accessor :feature3_value
-  attr_accessor :feature4_id
-  attr_accessor :feature4_padding
-  attr_accessor :feature4_value
-  
+    if region == 'P'
+      members << IntVar.new(padding_hdr              ,  0, 'c' )
+      members << IntVar.new(padding_hdr              ,  0, 'c' )
+    end
+
+    add_dscr_members
+  end
+
+  # Writes one entry to a CSV row.
+  # @param _row [CSV::Row] CSV row
+  def write_to_csv_row(_row)
+    _flags = find_member(CsvHdr::CHARA_FLAGS).value
+    CHARACTERS.each do |_id, _chara|
+      _member = CsvHdr::CHARA_OPT[_chara]
+      find_member(_member).value = _flags & (0x20 >> _id) != 0 ? 'X' : ''
+    end
+
+    (1..4).each do |_i|
+      _id = find_member(CsvHdr::FEATURE_ID[_i]).value
+      find_member(CsvHdr::FEATURE_NAME[_i]).value = FEATURES[_id]
+    end
+
+    super
+  end
+
 end	# class Armor
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

@@ -12,5 +12,9 @@ Thumbs.db
 .project
 
 # ALX
-/share/root/*
-!/share/root/README.md
+/share/geae8p/*
+/share/geaj8p/*
+/share/geap8p/*
+!/share/geae8p/*.csv
+!/share/geaj8p/*.csv
+!/share/geap8p/*.csv

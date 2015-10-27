@@ -19,7 +19,7 @@
 #******************************************************************************
 
 #==============================================================================
-#                                   REQUIRES
+#                                 REQUIREMENTS
 #==============================================================================
 
 require_relative('binaryfile.rb')
@@ -44,32 +44,40 @@ class HdrFile
   # Opens a HDR file.
   # @param _filename [String] File name of HDR file.
   def initialize(_filename)
-    @game_id  = ''
-    @region   = ''
-    @maker_id = ''
-    @name     = ''
+    @filename  = _filename
+    @game_id   = ''
+    @region_id = ''
+    @maker_id  = ''
+    @name      = ''
 
     if File.exist?(_filename)
       BinaryFile.open(_filename, 'rb') do |_f|
-        @game_id  = _f.read_data(6, 'a*')
-        @region   = @game_id[3]
-        @maker_id = @game_id[4, 2]
+        @game_id   = _f.read_str(3)
+        @region_id = _f.read_str(1)
+        @maker_id  = _f.read_str(2)
         
-        _f.pos    = 0x20
-        @name     = _f.read_data(64, 'Z*')
+        _f.pos     = 0x20
+        @name      = _f.read_str(64)
       end
     end
+  end
+
+  # Returns the unique identifier.
+  # @return [String] Unique identifier
+  def identifier
+    @game_id + @region_id + @maker_id
   end
   
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
+  attr_accessor :filename
   attr_accessor :game_id
-  attr_accessor :region
+  attr_accessor :region_id
   attr_accessor :maker_id
   attr_accessor :name
-  
+
 end	# class HdrFile
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
