@@ -56,75 +56,75 @@ All commands respectively scripts can be found in the `bin` directory.
 
 ### exportaccessories.rb
 
-Exports the accessories to `share/csv/accessories.csv`.
+Exports the accessories to `share/.../accessories.csv`.
 
 ### exportarmors.rb
 
-Exports the armos to `share/csv/armors.csv`.
+Exports the armos to `share/.../armors.csv`.
 
 ### exportcrewmembers.rb
 
-Exports the crew members to `share/csv/crewmembers.csv`.
+Exports the crew members to `share/.../crewmembers.csv`.
 
 ### exportshipcannons.rb
 
-Exports the ship cannons to `share/csv/shipcannons.csv`.
+Exports the ship cannons to `share/.../shipcannons.csv`.
 
 ### exportshipaccessories.rb
 
-Exports the ship accessories to `share/csv/shipaccessories.csv`.
+Exports the ship accessories to `share/.../shipaccessories.csv`.
 
 ### exportshipitems.rb
 
-Exports the ship items to `share/csv/shipitems.csv`.
+Exports the ship items to `share/.../shipitems.csv`.
 
 ### exportspecialitems.rb
 
-Exports the special items to `share/csv/specialitems.csv`.
+Exports the special items to `share/.../specialitems.csv`.
 
 ### exportusableitems.rb
 
-Exports the usable items to `share/csv/usableitems.csv`.
+Exports the usable items to `share/.../usableitems.csv`.
 
 ### exportweapons.rb
 
-Exports the weapons to `share/csv/weapons.csv`.
+Exports the weapons to `share/.../weapons.csv`.
 
 ### importaccessories.rb
 
-Imports the accessories to `share/root/&&systemdata/Start.dol`.
+Imports the accessories to `share/.../&&systemdata/Start.dol`.
 
 ### importarmors.rb
 
-Imports the armors to `share/root/&&systemdata/Start.dol`.
+Imports the armors to `share/.../&&systemdata/Start.dol`.
 
 ### importcrewmembers.rb
 
-Imports the crew members to `share/root/&&systemdata/Start.dol`.
+Imports the crew members to `share/.../&&systemdata/Start.dol`.
 
 ### importshipcannons.rb
 
-Imports the ship cannons to `share/root/&&systemdata/Start.dol`.
+Imports the ship cannons to `share/.../&&systemdata/Start.dol`.
 
 ### importshipaccessories.rb
 
-Imports the ship accessories to `share/root/&&systemdata/Start.dol`.
+Imports the ship accessories to `share/.../&&systemdata/Start.dol`.
 
 ### importshipitems.rb
 
-Imports the ship items to `share/root/&&systemdata/Start.dol`.
+Imports the ship items to `share/.../&&systemdata/Start.dol`.
 
 ### importspecialitems.rb
 
-Imports the special items to `share/root/&&systemdata/Start.dol`.
+Imports the special items to `share/.../&&systemdata/Start.dol`.
 
 ### importusableitems.rb
 
-Imports the usable items to `share/root/&&systemdata/Start.dol`.
+Imports the usable items to `share/.../&&systemdata/Start.dol`.
 
 ### importweapons.rb
 
-Imports the weapons to `share/root/&&systemdata/Start.dol`.
+Imports the weapons to `share/.../&&systemdata/Start.dol`.
 
 Links
 -----
