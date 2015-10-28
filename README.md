@@ -20,7 +20,7 @@ The commands respectively scripts in the `bin` directory require:
 
 * [Ruby](https://www.ruby-lang.org/) 2.1.0+
 * At least one extracted image of Skies of Arcadia Legends, or rather, Eternal 
-  Arcadia Legends in a subdirectory of `share`
+  Arcadia Legends
 
 The shipped and pre-exported CSV files in the subdirectories of `share` 
 require:
