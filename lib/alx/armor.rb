@@ -85,9 +85,9 @@ class Armor < DolEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::CHARA_FLAGS        ,  0, 'c' )
+    members << IntVar.new(CsvHdr::PC_FLAGS           ,  0, 'c' )
     CHARACTERS.each_value do |_chara|
-      members << StrDmy.new(CsvHdr::CHARA_OPT[_chara], ''      )
+      members << StrDmy.new(CsvHdr::PC_OPT[_chara]   , ''      )
     end
     
     members << IntVar.new(CsvHdr::RETAIL_PRICE       ,  0, 'c' )
@@ -118,9 +118,9 @@ class Armor < DolEntry
   # Writes one entry to a CSV row.
   # @param _row [CSV::Row] CSV row
   def write_to_csv_row(_row)
-    _flags = find_member(CsvHdr::CHARA_FLAGS).value
+    _flags = find_member(CsvHdr::PC_FLAGS).value
     CHARACTERS.each do |_id, _chara|
-      _member = CsvHdr::CHARA_OPT[_chara]
+      _member = CsvHdr::PC_OPT[_chara]
       find_member(_member).value = _flags & (0x20 >> _id) != 0 ? 'X' : ''
     end
 

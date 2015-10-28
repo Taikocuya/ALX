@@ -73,8 +73,8 @@ class Weapon < DolEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::CHARA_ID        ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::CHARA_NAME      , ''      )
+    members << IntVar.new(CsvHdr::PC_ID           ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::PC_NAME         , ''      )
     members << IntVar.new(CsvHdr::RETAIL_PRICE    ,  0, 'c' )
     members << IntVar.new(CsvHdr::ORDER_IMPORTANCE, -1, 'c' )
     members << IntVar.new(CsvHdr::ORDER_ALPHABET  , -1, 'c' )
@@ -99,8 +99,8 @@ class Weapon < DolEntry
   # Writes one entry to a CSV row.
   # @param _row [CSV::Row] CSV row
   def write_to_csv_row(_row)
-    _id = find_member(CsvHdr::CHARA_ID).value
-    find_member(CsvHdr::CHARA_NAME).value = CHARACTERS[_id]
+    _id = find_member(CsvHdr::PC_ID).value
+    find_member(CsvHdr::PC_NAME).value = CHARACTERS[_id]
     
     _id = find_member(CsvHdr::STATE_ID).value
     find_member(CsvHdr::STATE_NAME).value = STATES[_id]

@@ -47,12 +47,12 @@ class Entry
 
   # Character IDs
   CHARACTERS = Hash.new('???')
-  CHARACTERS.store(0, CsvHdr::CHARA_VYSE   )
-  CHARACTERS.store(1, CsvHdr::CHARA_AIKA   )
-  CHARACTERS.store(2, CsvHdr::CHARA_FINA   )
-  CHARACTERS.store(3, CsvHdr::CHARA_DRACHMA)
-  CHARACTERS.store(4, CsvHdr::CHARA_ENRIQUE)
-  CHARACTERS.store(5, CsvHdr::CHARA_GILDER )
+  CHARACTERS.store(0, CsvHdr::PC_VYSE   )
+  CHARACTERS.store(1, CsvHdr::PC_AIKA   )
+  CHARACTERS.store(2, CsvHdr::PC_FINA   )
+  CHARACTERS.store(3, CsvHdr::PC_DRACHMA)
+  CHARACTERS.store(4, CsvHdr::PC_ENRIQUE)
+  CHARACTERS.store(5, CsvHdr::PC_GILDER )
 
 #==============================================================================
 #                                   PUBLIC

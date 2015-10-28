@@ -75,16 +75,16 @@ module CsvHdr
   DSCR_ES_POS         = '[ES description position]'
   DSCR_ES_STR         = 'ES description string'
 
-  CHARA_ID            = 'Character ID'
-  CHARA_NAME          = 'Character name'
-  CHARA_FLAGS         = 'Character flags'
-  CHARA_OPT           = Hash.new { |_h, _k| _h[_k] = sprintf('[%s]', _k) }
-  CHARA_VYSE          = 'Vyse'
-  CHARA_AIKA          = 'Aika'
-  CHARA_FINA          = 'Fina'
-  CHARA_DRACHMA       = 'Drachma'
-  CHARA_GILDER        = 'Gilder'
-  CHARA_ENRIQUE       = 'Enrique'
+  PC_ID               = 'Character ID'
+  PC_NAME             = 'Character name'
+  PC_FLAGS            = 'Character flags'
+  PC_OPT              = Hash.new { |_h, _k| _h[_k] = sprintf('[%s]', _k) }
+  PC_VYSE             = 'Vyse'
+  PC_AIKA             = 'Aika'
+  PC_FINA             = 'Fina'
+  PC_DRACHMA          = 'Drachma'
+  PC_GILDER           = 'Gilder'
+  PC_ENRIQUE          = 'Enrique'
 
   SHIP_FLAGS          = 'Ship flags'
   SHIP_MODEL1         = '[Little Jack #1]'
