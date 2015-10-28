@@ -49,23 +49,23 @@ class EntryTransform
 #==============================================================================
   
   # Path to 'share' directory
-  SHARE_DIR  = File.expand_path(
+  SHARE_DIR   = File.expand_path(
     File.join(File.dirname(__FILE__), '../../share')
   )
   # Path to BNR file relative to game root.
-  BNR_FILE   = 'opening.bnr'
+  BNR_FILE    = 'opening.bnr'
   # Path to DOL file relative to game root.
-  DOL_FILE   = '&&systemdata/Start.dol'
+  DOL_FILE    = '&&systemdata/Start.dol'
   # Path to HDR file relative to game root.
-  HDR_FILE   = '&&systemdata/ISO.hdr'
-  # Path to English SOT file relative to game root (PAL-E only).
-  SOT_GB_FILE = 'english.sot'
+  HDR_FILE    = '&&systemdata/ISO.hdr'
   # Path to German SOT file relative to game root (PAL-E only).
   SOT_DE_FILE = 'german.sot'
   # Path to Spanish SOT file relative to game root (PAL-E only).
   SOT_ES_FILE = 'spanish.sot'
   # Path to French SOT file relative to game root (PAL-E only).
   SOT_FR_FILE = 'french.sot'
+  # Path to English SOT file relative to game root (PAL-E only).
+  SOT_GB_FILE = 'english.sot'
   
   # Game ID
   GAME_ID    = 'GEA'

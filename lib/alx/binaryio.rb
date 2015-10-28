@@ -70,8 +70,10 @@ module BinaryIO
     
     _str.rstrip!
     _str.encode!('UTF-8', _encoding, :invalid => :replace, :undef => :replace)
-    _str.gsub!('[', '“')
-    _str.gsub!(']', '”')
+    if _encoding != 'Shift_JIS'
+      _str.gsub!('[', '“')
+      _str.gsub!(']', '”')
+    end
 
     _str
   end
@@ -82,10 +84,12 @@ module BinaryIO
   # @param _blocks   [Integer] Block size in bytes
   # @param _encoding [String]  Character encoding
   def write_str(_str, _size, _blocks = nil, _encoding = 'Shift_JIS')
-    _str.rstrip!
+    _str = _str.rstrip
+    if _encoding != 'Shift_JIS'
+      _str.gsub!('“', '[')
+      _str.gsub!('”', ']')
+    end
     _str.encode!(_encoding, 'UTF-8', :invalid => :replace, :undef => :replace)
-    _str.gsub!('“', '[')
-    _str.gsub!('”', ']')
 
     if _size > 0
       if _blocks && _blocks > 0

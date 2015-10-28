@@ -59,16 +59,16 @@ class DolEntry < Entry
       members << IntVar.new(CsvHdr::MESSAGE_ID  ,  0, 'L>')
       members << IntDmy.new(CsvHdr::NAME_DE_POS ,  0      )
       members << IntDmy.new(CsvHdr::NAME_DE_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::NAME_DE_STR , ''      )
+      members << StrDmy.new(CsvHdr::NAME_DE_STR , '', '\n')
       members << IntDmy.new(CsvHdr::NAME_ES_POS ,  0      )
       members << IntDmy.new(CsvHdr::NAME_ES_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::NAME_ES_STR , ''      )
+      members << StrDmy.new(CsvHdr::NAME_ES_STR , '', '\n')
       members << IntDmy.new(CsvHdr::NAME_FR_POS ,  0      )
       members << IntDmy.new(CsvHdr::NAME_FR_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::NAME_FR_STR , ''      )
+      members << StrDmy.new(CsvHdr::NAME_FR_STR , '', '\n')
       members << IntDmy.new(CsvHdr::NAME_GB_POS ,  0      )
       members << IntDmy.new(CsvHdr::NAME_GB_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::NAME_GB_STR , ''      )
+      members << StrDmy.new(CsvHdr::NAME_GB_STR , '', '\n')
     end
   end
 
@@ -76,26 +76,26 @@ class DolEntry < Entry
   def add_dscr_members
     case region
     when 'E'
-      members << IntDmy.new(CsvHdr::DSCR_US_POS ,  0    )
-      members << IntDmy.new(CsvHdr::DSCR_US_SIZE,  0    )
-      members << StrDmy.new(CsvHdr::DSCR_US_STR , ''    )
+      members << IntDmy.new(CsvHdr::DSCR_US_POS ,  0      )
+      members << IntDmy.new(CsvHdr::DSCR_US_SIZE,  0      )
+      members << StrDmy.new(CsvHdr::DSCR_US_STR , ''      )
     when 'J'
-      members << IntDmy.new(CsvHdr::DSCR_JP_POS ,  0    )
-      members << IntDmy.new(CsvHdr::DSCR_JP_SIZE,  0    )
-      members << StrDmy.new(CsvHdr::DSCR_JP_STR , ''    )
+      members << IntDmy.new(CsvHdr::DSCR_JP_POS ,  0      )
+      members << IntDmy.new(CsvHdr::DSCR_JP_SIZE,  0      )
+      members << StrDmy.new(CsvHdr::DSCR_JP_STR , ''      )
     when 'P'
-      members << IntDmy.new(CsvHdr::DSCR_DE_POS ,  0    )
-      members << IntDmy.new(CsvHdr::DSCR_DE_SIZE,  0    )
-      members << StrDmy.new(CsvHdr::DSCR_DE_STR , ''    )
-      members << IntDmy.new(CsvHdr::DSCR_ES_POS ,  0    )
-      members << IntDmy.new(CsvHdr::DSCR_ES_SIZE,  0    )
-      members << StrDmy.new(CsvHdr::DSCR_ES_STR , ''    )
-      members << IntDmy.new(CsvHdr::DSCR_FR_POS ,  0    )
-      members << IntDmy.new(CsvHdr::DSCR_FR_SIZE,  0    )
-      members << StrDmy.new(CsvHdr::DSCR_FR_STR , ''    )
-      members << IntDmy.new(CsvHdr::DSCR_GB_POS ,  0    )
-      members << IntDmy.new(CsvHdr::DSCR_GB_SIZE,  0    )
-      members << StrDmy.new(CsvHdr::DSCR_GB_STR , ''    )
+      members << IntDmy.new(CsvHdr::DSCR_DE_POS ,  0      )
+      members << IntDmy.new(CsvHdr::DSCR_DE_SIZE,  0      )
+      members << StrDmy.new(CsvHdr::DSCR_DE_STR , '', '\n')
+      members << IntDmy.new(CsvHdr::DSCR_ES_POS ,  0      )
+      members << IntDmy.new(CsvHdr::DSCR_ES_SIZE,  0      )
+      members << StrDmy.new(CsvHdr::DSCR_ES_STR , '', '\n')
+      members << IntDmy.new(CsvHdr::DSCR_FR_POS ,  0      )
+      members << IntDmy.new(CsvHdr::DSCR_FR_SIZE,  0      )
+      members << StrDmy.new(CsvHdr::DSCR_FR_STR , '', '\n')
+      members << IntDmy.new(CsvHdr::DSCR_GB_POS ,  0      )
+      members << IntDmy.new(CsvHdr::DSCR_GB_SIZE,  0      )
+      members << StrDmy.new(CsvHdr::DSCR_GB_STR , '', '\n')
     end
   end
   

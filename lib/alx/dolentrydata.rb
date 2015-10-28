@@ -538,10 +538,10 @@ class DolEntryData < EntryData
   # @param _filename [String] Filename
   # @return [String] PAL-E language
   def determine_lang(_filename)
-    return 'GB' if _filename.include?(EntryTransform::SOT_GB_FILE)
     return 'DE' if _filename.include?(EntryTransform::SOT_DE_FILE)
     return 'ES' if _filename.include?(EntryTransform::SOT_ES_FILE)
     return 'FR' if _filename.include?(EntryTransform::SOT_FR_FILE)
+    return 'GB' if _filename.include?(EntryTransform::SOT_GB_FILE)
     return ''
   end
   
