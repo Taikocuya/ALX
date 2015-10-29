@@ -22,6 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
+require_relative('effectable.rb')
 require_relative('dolentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -36,64 +37,11 @@ module ALX
 class UsableItem < DolEntry
   
 #==============================================================================
-#                                  CONSTANTS
+#                                   INCLUDES
 #==============================================================================
 
-  # Occasion IDs
-  OCCASIONS = Hash.new('???')
-  OCCASIONS.store(0, CsvHdr::OCCASION_MENU  )
-  OCCASIONS.store(1, CsvHdr::OCCASION_BATTLE)
-  OCCASIONS.store(2, CsvHdr::OCCASION_SHIP  )
+  include(Effectable)
 
-  # Effect IDs
-  EFFECTS = Hash.new('???')
-  EFFECTS.store(-1, 'None'                       )
-  EFFECTS.store( 0, 'Damage'                     )
-  EFFECTS.store( 6, 'Add state: Unconscious'     )
-  EFFECTS.store( 9, 'Add state: Sleep'           )
-  EFFECTS.store(11, 'Add state: Confusion'       )
-  EFFECTS.store(12, 'Add state: Silence'         )
-  EFFECTS.store(20, 'Add state: Quickened'       )
-  EFFECTS.store(21, 'Add state: Strengthen'      )
-  EFFECTS.store(26, 'Add state: Weak'            )
-  EFFECTS.store(27, 'Revive and recover HP: 50%' )
-  EFFECTS.store(28, 'Revive and recover HP: 100%')
-  EFFECTS.store(30, 'Remove adverse states'      )
-  EFFECTS.store(31, 'Recover HP'                 )
-  EFFECTS.store(32, 'Recover HP: 100%'           )
-  EFFECTS.store(33, 'Add state: Regenerate'      )
-  EFFECTS.store(35, 'Recover SP'                 )
-  EFFECTS.store(48, 'Recover MP'                 )
-  EFFECTS.store(49, 'Recover MP: 100%'           )
-  EFFECTS.store(51, 'Recover HP and MP'          )
-  EFFECTS.store(52, 'Moonberry'                  )
-  EFFECTS.store(53, 'Evolve Cupil: Cham'         )
-  EFFECTS.store(54, 'Increase: Power'            )
-  EFFECTS.store(55, 'Increase: Will'             )
-  EFFECTS.store(56, 'Increase: Vigor'            )
-  EFFECTS.store(57, 'Increase: Agile'            )
-  EFFECTS.store(58, 'Increase: Quick'            )
-  EFFECTS.store(59, 'Increase: HP'               )
-  EFFECTS.store(60, 'Increase: MP'               )
-  EFFECTS.store(75, 'Evolve Cupil: Abirik Cham'  )
-  EFFECTS.store(76, 'Reset Cupil'                )
-
-  # Scope IDs
-  SCOPES = Hash.new('???')
-  SCOPES.store( 0, 'None'                  )
-  SCOPES.store( 1, 'One ally'              )
-  SCOPES.store( 2, 'All allies'            )
-  SCOPES.store( 3, 'One enemy'             )
-  SCOPES.store( 4, 'All enemies'           )
-  SCOPES.store( 5, 'User'                  )
-  SCOPES.store( 6, 'All allies and enemies')
-  SCOPES.store(32, 'Enemy area: Small'     )
-  SCOPES.store(33, 'Enemy area: Medium'    )
-  SCOPES.store(34, 'Enemy area: Large'     )
-  SCOPES.store(36, 'Enemy line: Small'     )
-  SCOPES.store(37, 'Enemy line: Medium'    )
-  SCOPES.store(38, 'Enemy line: Large'     )
-  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================

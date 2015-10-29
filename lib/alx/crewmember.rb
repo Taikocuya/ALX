@@ -22,8 +22,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
+require_relative('effectable.rb')
 require_relative('shipaccessory.rb')
-require_relative('shipitem.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -36,6 +36,12 @@ module ALX
 # Class to handle a crew member.
 class CrewMember < DolEntry
   
+#==============================================================================
+#                                   INCLUDES
+#==============================================================================
+
+  include(Effectable)
+
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
@@ -66,37 +72,37 @@ class CrewMember < DolEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::POSITION_ID     , -1, 'c' )
-    members << StrDmy.new(CsvHdr::POSITION_NAME   , ''      )
+    members << IntVar.new(CsvHdr::POSITION_ID         , -1, 'c' )
+    members << StrDmy.new(CsvHdr::POSITION_NAME       , ''      )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
+      members << IntVar.new(padding_hdr               ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::FEATURE_ID[0]   , -1, 'c' )
-    members << StrDmy.new(CsvHdr::FEATURE_NAME[0] , ''      )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(CsvHdr::FEATURE_VALUE[0],  0, 's>')
-    members << IntVar.new(CsvHdr::EFFECT_ID       , -1, 'c' )
-    members << StrDmy.new(CsvHdr::EFFECT_NAME     , ''      )
-    members << IntVar.new(CsvHdr::EFFECT_SPIRIT   , -1, 'c' )
-    members << IntVar.new(CsvHdr::EFFECT_TURNS    , -1, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
+    members << IntVar.new(CsvHdr::FEATURE_ID[0]       , -1, 'c' )
+    members << StrDmy.new(CsvHdr::FEATURE_NAME[0]     , ''      )
+    members << IntVar.new(padding_hdr                 ,  0, 'c' )
+    members << IntVar.new(CsvHdr::FEATURE_VALUE[0]    ,  0, 's>')
+    members << IntVar.new(CsvHdr::SHIP_EFFECT_ID      , -1, 'c' )
+    members << StrDmy.new(CsvHdr::SHIP_EFFECT_NAME    , ''      )
+    members << IntVar.new(CsvHdr::SHIP_EFFECT_SPIRIT  , -1, 'c' )
+    members << IntVar.new(CsvHdr::SHIP_EFFECT_TURNS   , -1, 'c' )
+    members << IntVar.new(padding_hdr                 ,  0, 'c' )
+    members << IntVar.new(padding_hdr                 ,  0, 'c' )
+    members << IntVar.new(padding_hdr                 ,  0, 'c' )
     
     if region == 'J'
-      members << IntVar.new(CsvHdr::UNKNOWN[0]    ,  0, 's>')
-      members << IntVar.new(CsvHdr::EFFECT_AMOUNT ,  0, 's>')
+      members << IntVar.new(CsvHdr::UNKNOWN[0]        ,  0, 's>')
+      members << IntVar.new(CsvHdr::SHIP_EFFECT_AMOUNT,  0, 's>')
     else
-      members << IntVar.new(CsvHdr::EFFECT_AMOUNT ,  0, 's>')
-      members << IntVar.new(CsvHdr::UNKNOWN[0]    ,  0, 's>')
+      members << IntVar.new(CsvHdr::SHIP_EFFECT_AMOUNT,  0, 's>')
+      members << IntVar.new(CsvHdr::UNKNOWN[0]        ,  0, 's>')
     end
 
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
+    members << IntVar.new(padding_hdr                 ,  0, 'c' )
+    members << IntVar.new(padding_hdr                 ,  0, 'c' )
+    members << IntVar.new(padding_hdr                 ,  0, 'c' )
+    members << IntVar.new(padding_hdr                 ,  0, 'c' )
     
     add_dscr_members
   end
@@ -110,8 +116,8 @@ class CrewMember < DolEntry
     _id = find_member(CsvHdr::FEATURE_ID[0]).value
     find_member(CsvHdr::FEATURE_NAME[0]).value = ShipAccessory::FEATURES[_id]
 
-    _id = find_member(CsvHdr::EFFECT_ID).value
-    find_member(CsvHdr::EFFECT_NAME).value = ShipItem::EFFECTS[_id]
+    _id = find_member(CsvHdr::SHIP_EFFECT_ID).value
+    find_member(CsvHdr::SHIP_EFFECT_NAME).value = EFFECTS[_id]
     
     super
   end

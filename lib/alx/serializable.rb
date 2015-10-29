@@ -27,7 +27,7 @@ module ALX
 #==============================================================================
 
 # Mixin to read and write easily in binary IOs.
-module BinaryIO
+module Serializable
 
 #==============================================================================
 #                                   PUBLIC
@@ -109,7 +109,7 @@ module BinaryIO
     end
   end
 
-end # class BinaryIO
+end # class Serializable
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

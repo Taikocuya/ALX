@@ -117,9 +117,15 @@ module CsvHdr
   EFFECT_ID           = 'Effect ID'
   EFFECT_NAME         = '[Effect name]'
   EFFECT_SPIRIT       = 'Effect spirit'
-  EFFECT_TURNS        = 'Effect turns'
   EFFECT_AMOUNT       = 'Effect amount'
-  
+  EFFECT_PRIORITY     = 'Effect priority'
+
+  SHIP_EFFECT_ID      = 'Ship effect ID'
+  SHIP_EFFECT_NAME    = '[Ship effect name]'
+  SHIP_EFFECT_SPIRIT  = 'Ship effect spirit'
+  SHIP_EFFECT_TURNS   = 'Ship effect turns'
+  SHIP_EFFECT_AMOUNT  = 'Ship effect amount'
+
   SCOPE_ID            = 'Scope ID'
   SCOPE_NAME          = '[Scope name]'
   
@@ -128,6 +134,9 @@ module CsvHdr
 
   TYPE_ID             = 'Type ID'
   TYPE_NAME           = '[Type name]'
+
+  CATEGORY_ID         = 'Category ID'
+  CATEGORY_NAME       = '[Category name]'
   
   STATE_ID            = 'Inflict state ID'
   STATE_NAME          = '[Inflict state name]'

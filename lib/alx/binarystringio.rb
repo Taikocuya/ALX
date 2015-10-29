@@ -23,7 +23,7 @@
 #==============================================================================
 
 require('stringio')
-require_relative('binaryio.rb')
+require_relative('serializable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -40,7 +40,7 @@ class BinaryStringIO < ::StringIO
 #                                   INCLUDES
 #==============================================================================
 
-  include(BinaryIO)
+  include(Serializable)
 
 end # class BinaryStringIO
 

@@ -22,6 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
+require_relative('effectable.rb')
 require_relative('dolentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -36,16 +37,14 @@ module ALX
 class ShipCannon < DolEntry
   
 #==============================================================================
-#                                  CONSTANTS
+#                                   INCLUDES
 #==============================================================================
 
-  # Ship IDs
-  SHIPS = Hash.new('???')
-  SHIPS.store(0, CsvHdr::SHIP_MODEL1)
-  SHIPS.store(1, CsvHdr::SHIP_MODEL2)
-  SHIPS.store(2, CsvHdr::SHIP_MODEL3)
-  SHIPS.store(3, CsvHdr::SHIP_MODEL4)
-  SHIPS.store(4, CsvHdr::SHIP_MODEL5)
+  include(Effectable)
+  
+#==============================================================================
+#                                  CONSTANTS
+#==============================================================================
 
   # Type IDs
   TYPES = Hash.new('???')
@@ -54,17 +53,6 @@ class ShipCannon < DolEntry
   TYPES.store(2, 'Torpedo'         )
   TYPES.store(3, 'Special'         )
 
-  # Element IDs
-  ELEMENTS = Hash.new('???')
-  ELEMENTS.store(-1, 'None'  )
-  ELEMENTS.store( 0, 'Green' )
-  ELEMENTS.store( 1, 'Red'   )
-  ELEMENTS.store( 2, 'Purple')
-  ELEMENTS.store( 3, 'Blue'  )
-  ELEMENTS.store( 4, 'Yellow')
-  ELEMENTS.store( 5, 'Silver')
-  ELEMENTS.store( 6, 'Normal')
-  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================

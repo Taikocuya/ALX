@@ -45,14 +45,22 @@ class Entry
 #                                  CONSTANTS
 #==============================================================================
 
-  # Character IDs
-  CHARACTERS = Hash.new('???')
-  CHARACTERS.store(0, CsvHdr::PC_VYSE   )
-  CHARACTERS.store(1, CsvHdr::PC_AIKA   )
-  CHARACTERS.store(2, CsvHdr::PC_FINA   )
-  CHARACTERS.store(3, CsvHdr::PC_DRACHMA)
-  CHARACTERS.store(4, CsvHdr::PC_ENRIQUE)
-  CHARACTERS.store(5, CsvHdr::PC_GILDER )
+  # Playable character IDs
+  PCS = Hash.new('???')
+  PCS.store(0, CsvHdr::PC_VYSE   )
+  PCS.store(1, CsvHdr::PC_AIKA   )
+  PCS.store(2, CsvHdr::PC_FINA   )
+  PCS.store(3, CsvHdr::PC_DRACHMA)
+  PCS.store(4, CsvHdr::PC_ENRIQUE)
+  PCS.store(5, CsvHdr::PC_GILDER )
+
+  # Ship IDs
+  SHIPS = Hash.new('???')
+  SHIPS.store(0, CsvHdr::SHIP_MODEL1)
+  SHIPS.store(1, CsvHdr::SHIP_MODEL2)
+  SHIPS.store(2, CsvHdr::SHIP_MODEL3)
+  SHIPS.store(3, CsvHdr::SHIP_MODEL4)
+  SHIPS.store(4, CsvHdr::SHIP_MODEL5)
 
 #==============================================================================
 #                                   PUBLIC

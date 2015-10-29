@@ -100,7 +100,7 @@ class Weapon < DolEntry
   # @param _row [CSV::Row] CSV row
   def write_to_csv_row(_row)
     _id = find_member(CsvHdr::PC_ID).value
-    find_member(CsvHdr::PC_NAME).value = CHARACTERS[_id]
+    find_member(CsvHdr::PC_NAME).value = PCS[_id]
     
     _id = find_member(CsvHdr::STATE_ID).value
     find_member(CsvHdr::STATE_NAME).value = STATES[_id]

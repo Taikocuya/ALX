@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('binaryio.rb')
+require_relative('serializable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -39,7 +39,7 @@ class BinaryFile < ::File
 #                                   INCLUDES
 #==============================================================================
 
-  include(BinaryIO)
+  include(Serializable)
 
 end # class BinaryFile
 

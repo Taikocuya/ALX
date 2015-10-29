@@ -1,4 +1,4 @@
-Entry ID,US entry name,Position ID,[Position name],Feature ID,[Feature name],Padding #1,Feature value,Effect ID,[Effect name],Effect spirit,Effect turns,Padding #2,Padding #3,Padding #4,Effect amount,Unknown,Padding #5,Padding #6,Padding #7,Padding #8,[US description position],[US description size],US description string
+Entry ID,US entry name,Position ID,[Position name],Feature ID,[Feature name],Padding #1,Feature value,Ship effect ID,[Ship effect name],Ship effect spirit,Ship effect turns,Padding #2,Padding #3,Padding #4,Ship effect amount,Unknown,Padding #5,Padding #6,Padding #7,Padding #8,[US description position],[US description size],US description string
 0,Lawrence,0,Helmsman,4,Quick,0,30,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,2952948,96,"A mercenary-for-hire, he sails the skies for a\nsteep price. He will increase your ship's Quick."
 1,Don,0,Helmsman,6,Dodge%,0,15,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,2953044,68,Having Don in your active crew will increase\nyour ship's Dodge%.
 2,Brabham,1,Engineer,2,Defense,0,20,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,2953112,72,Having Brabham in your active crew will increase\nyour ship's Defense.
