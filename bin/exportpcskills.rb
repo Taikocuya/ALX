@@ -33,7 +33,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to export layable character skills to CSV files.
+# Class to export playable character skills to CSV files.
 class PcSkillExporter < PcSkillTransform
 
 #==============================================================================

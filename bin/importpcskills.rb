@@ -33,7 +33,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to import layable character skills from CSV files.
+# Class to import playable character skills from CSV files.
 class PcSkillImporter < PcSkillTransform
 
 #==============================================================================
