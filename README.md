@@ -56,75 +56,91 @@ All commands respectively scripts can be found in the `bin` directory.
 
 ### exportaccessories.rb
 
-Exports the accessories to `share/.../accessories.csv`.
+Exports the accessories to `share/*/accessories.csv`.
 
 ### exportarmors.rb
 
-Exports the armos to `share/.../armors.csv`.
+Exports the armos to `share/*/armors.csv`.
 
 ### exportcrewmembers.rb
 
-Exports the crew members to `share/.../crewmembers.csv`.
+Exports the crew members to `share/*/crewmembers.csv`.
+
+### exportnpcskills.rb
+
+Exports the non-playable character skills to `share/*/npcskills.csv`.
+
+### exportpcskills.rb
+
+Exports the playable character skills to `share/*/pcskills.csv`.
 
 ### exportshipcannons.rb
 
-Exports the ship cannons to `share/.../shipcannons.csv`.
+Exports the ship cannons to `share/*/shipcannons.csv`.
 
 ### exportshipaccessories.rb
 
-Exports the ship accessories to `share/.../shipaccessories.csv`.
+Exports the ship accessories to `share/*/shipaccessories.csv`.
 
 ### exportshipitems.rb
 
-Exports the ship items to `share/.../shipitems.csv`.
+Exports the ship items to `share/*/shipitems.csv`.
 
 ### exportspecialitems.rb
 
-Exports the special items to `share/.../specialitems.csv`.
+Exports the special items to `share/*/specialitems.csv`.
 
 ### exportusableitems.rb
 
-Exports the usable items to `share/.../usableitems.csv`.
+Exports the usable items to `share/*/usableitems.csv`.
 
 ### exportweapons.rb
 
-Exports the weapons to `share/.../weapons.csv`.
+Exports the weapons to `share/*/weapons.csv`.
 
 ### importaccessories.rb
 
-Imports the accessories to `share/.../&&systemdata/Start.dol`.
+Imports the accessories to `share/*/&&systemdata/Start.dol`.
 
 ### importarmors.rb
 
-Imports the armors to `share/.../&&systemdata/Start.dol`.
+Imports the armors to `share/*/&&systemdata/Start.dol`.
 
 ### importcrewmembers.rb
 
-Imports the crew members to `share/.../&&systemdata/Start.dol`.
+Imports the crew members to `share/*/&&systemdata/Start.dol`.
+
+### importnpcskills.rb
+
+Imports the non-playable character skills to `share/*/&&systemdata/Start.dol`.
+
+### importpcskills.rb
+
+Imports the playable character skills to `share/*/&&systemdata/Start.dol`.
 
 ### importshipcannons.rb
 
-Imports the ship cannons to `share/.../&&systemdata/Start.dol`.
+Imports the ship cannons to `share/*/&&systemdata/Start.dol`.
 
 ### importshipaccessories.rb
 
-Imports the ship accessories to `share/.../&&systemdata/Start.dol`.
+Imports the ship accessories to `share/*/&&systemdata/Start.dol`.
 
 ### importshipitems.rb
 
-Imports the ship items to `share/.../&&systemdata/Start.dol`.
+Imports the ship items to `share/*/&&systemdata/Start.dol`.
 
 ### importspecialitems.rb
 
-Imports the special items to `share/.../&&systemdata/Start.dol`.
+Imports the special items to `share/*/&&systemdata/Start.dol`.
 
 ### importusableitems.rb
 
-Imports the usable items to `share/.../&&systemdata/Start.dol`.
+Imports the usable items to `share/*/&&systemdata/Start.dol`.
 
 ### importweapons.rb
 
-Imports the weapons to `share/.../&&systemdata/Start.dol`.
+Imports the weapons to `share/*/&&systemdata/Start.dol`.
 
 Links
 -----
