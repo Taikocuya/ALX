@@ -20,7 +20,7 @@ Entry ID,US entry name,Character flags,[Vyse],[Aika],[Fina],[Drachma],[Enrique],
 178,Warrior's Rune,57,X,X,X,"","",X,100,19,60,0,10,16,Attack,0,10,17,Defense,0,10,19,Hit%,0,20,20,Dodge%,0,10,2928180,84,"A ring with mystic engravings. Increases Attack\nPower, Defense, Hit% and Dodge%."
 179,Ancient Bracer,53,X,X,"",X,"",X,100,20,0,0,10,16,Attack,0,20,17,Defense,0,20,19,Hit%,0,40,20,Dodge%,0,20,2928264,88,"A bracer used by ancient gladiators. Improves\nAttack Power, Defense, Hit% and Dodge%."
 180,Counter Bracer,53,X,X,"",X,"",X,100,21,10,0,10,73,Counter%,0,20,16,Attack,0,20,19,Hit%,0,20,-1,None,0,0,2928352,92,"Improves physical attributes slightly, as well\nas Counterattacking, Attack Power and Hit%."
-181,Defensive Aura,63,X,X,X,X,X,X,100,22,15,0,10,65,Invulnerable,0,1,17,Defense,0,40,-1,None,0,0,-1,None,0,0,2928444,84,"Renders the wearer invulnerable to normal\nAttacks, and improves Defense as well."
+181,Defensive Aura,63,X,X,X,X,X,X,100,22,15,0,10,65,Block attacks,0,1,17,Defense,0,40,-1,None,0,0,-1,None,0,0,2928444,84,"Renders the wearer invulnerable to normal\nAttacks, and improves Defense as well."
 182,Ivy Band,63,X,X,X,X,X,X,100,23,28,0,100,48,Poison,0,-10,32,Green,0,-2,17,Defense,0,5,18,MagDef,0,5,2928528,88,"Boosts Defense & Magic Defense, especially to\nGreen Magic, & protects against Poison."
 183,Silvite Ring,63,X,X,X,X,X,X,100,30,47,0,100,49,Death,0,-10,37,Silver,0,-2,17,Defense,0,5,18,MagDef,0,5,2928616,88,"Boosts Defense & Magic Defense, especially to\nSilver Magic, & protects against Death."
 184,Gem of Fluidity,63,X,X,X,X,X,X,100,29,21,0,100,50,Stone,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,2928704,60,"Boosts Defense & Magic Defense, & protects\nagainst Stone."
@@ -29,7 +29,7 @@ Entry ID,US entry name,Character flags,[Vyse],[Aika],[Fina],[Drachma],[Enrique],
 187,Revered Voice,63,X,X,X,X,X,X,100,26,42,0,100,53,Silence,0,-10,34,Purple,0,-2,17,Defense,0,5,18,MagDef,0,5,2928940,88,"Boosts Defense & Magic Defense, especially to\nPurple Magic, & protects against Silence."
 188,Everlasting Gem,63,X,X,X,X,X,X,100,28,17,0,100,54,Fatigue,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,2929028,64,"Boosts Defense & Magic Defense, & protects\nagainst Fatigue."
 189,Behemoth's Ring,63,X,X,X,X,X,X,100,27,2,0,100,56,Weak,0,-10,36,Yellow,0,-2,17,Defense,0,5,18,MagDef,0,5,2929092,88,"Boosts Defense & Magic Defense, especially to\nYellow Magic, & protects against Weak."
-190,Constitution Gem,63,X,X,X,X,X,X,100,31,9,0,1000,79,Block adverse states,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,2929180,92,"A miraculous stone that prevents all adverse\neffects, and boosts Defense & Magic Defense."
+190,Constitution Gem,63,X,X,X,X,X,X,100,31,9,0,1000,79,Block negative states,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,2929180,92,"A miraculous stone that prevents all adverse\neffects, and boosts Defense & Magic Defense."
 191,Nomadic Veil,63,X,X,X,X,X,X,50,34,37,0,640,17,Defense,0,9,18,MagDef,0,9,-1,None,0,0,-1,None,0,0,2929272,80,A veil worn by tribes of nomads in Nasr.\nImproves Defense and Magic Defense.
 192,Radiant Fur,63,X,X,X,X,X,X,50,39,41,0,3580,17,Defense,0,24,18,MagDef,0,24,-1,None,0,0,-1,None,0,0,2929352,96,"A thick fur, designed to protect sailors from \nthe cold. Improves Defense and Magic Defense."
 193,Sand Storm Ring,63,X,X,X,X,X,X,50,35,44,0,770,16,Attack,0,9,1,Will,0,9,-1,None,0,0,-1,None,0,0,2929448,76,An enchanted ring worn by desert nomads.\nImproves Attack Power and Will.
@@ -46,8 +46,8 @@ Entry ID,US entry name,Character flags,[Vyse],[Aika],[Fina],[Drachma],[Enrique],
 204,Skyseer Goggles,48,X,X,"","","","",50,46,49,0,40,19,Hit%,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,2930300,72,A pair of goggles that can zoom in on distant\ntargets. Improves Hit%.
 205,Nocturnal Sight,48,X,X,"","","","",50,47,36,0,1930,19,Hit%,0,60,16,Attack,0,6,-1,None,0,0,-1,None,0,0,2930372,68,An enchantment that allows a fighter to detect\ntargets at night.
 206,Critical Vision,48,X,X,"","","","",50,48,12,0,6660,19,Hit%,0,50,16,Attack,0,19,1,Will,0,19,-1,None,0,0,2930440,72,An enchantment that allows a fighter to detect\nan enemy's weak points.
-207,Gem of Purity,5,"","","",X,"",X,50,49,22,0,300,79,Block adverse states,0,-3,17,Defense,0,8,-1,None,0,0,-1,None,0,0,2930512,92,An enchanted gem that protects the bearer.\nBoosts Defense & Resistance to Adverse Effects.
-208,Shard of Purity,5,"","","",X,"",X,50,51,45,0,4760,79,Block adverse states,0,-9,17,Defense,0,38,-1,None,0,0,-1,None,0,0,2930604,96,"An enchanted Moon Shard that protects the wearer\nfrom Adverse Effects, and improves Defense."
+207,Gem of Purity,5,"","","",X,"",X,50,49,22,0,300,79,Block negative states,0,-3,17,Defense,0,8,-1,None,0,0,-1,None,0,0,2930512,92,An enchanted gem that protects the bearer.\nBoosts Defense & Resistance to Adverse Effects.
+208,Shard of Purity,5,"","","",X,"",X,50,51,45,0,4760,79,Block negative states,0,-9,17,Defense,0,38,-1,None,0,0,-1,None,0,0,2930604,96,"An enchanted Moon Shard that protects the wearer\nfrom Adverse Effects, and improves Defense."
 209,Fortune Ring,24,"",X,X,"","","",50,16,20,0,2860,20,Dodge%,0,100,17,Defense,0,8,-1,None,0,0,-1,None,0,0,2930700,92,A mysterious ring that allows the wearer to\navoid most normal Attacks. Improves Defense.
 210,Black Map,32,X,"","","","","",100,56,4,0,777,84,Random encounter%,0,100,80,First strike%,0,25,82,???,0,0,83,Enemy run%,0,0,2930792,88,A map that leads enemy creatures to the holder.\nAlso improves chances for First Strike.
 211,White Map,32,X,"","","","","",100,57,61,0,666,84,Random encounter%,0,5,80,First strike%,0,0,82,???,0,0,81,Run%,0,100,2930880,88,A map that leads the holder away from enemies.\nAlso improves chances of running away.
@@ -58,10 +58,10 @@ Entry ID,US entry name,Character flags,[Vyse],[Aika],[Fina],[Drachma],[Enrique],
 216,Imperial Crest,2,"","","","",X,"",100,55,27,0,1000,17,Defense,0,20,18,MagDef,0,20,-1,None,0,0,-1,None,0,0,2931320,84,Given to protect members of the Royal Family.\nImproves Defense and Magic Defense.
 217,Gilder's Amulet,49,X,X,"","","",X,100,54,24,0,500,17,Defense,0,11,18,MagDef,0,11,16,Attack,0,11,1,Will,0,11,2931404,84,"Worn around Gilder's neck. Improves Defense,\nMagic Defense, Attack Power, and Will."
 218,Valuan Medallion,63,X,X,X,X,X,X,100,60,57,0,5000,49,Death,0,-10,17,Defense,0,30,18,MagDef,0,30,-1,None,0,0,2931488,76,Enchanted medallion worn by officers in the\nArmada. Negates Eterni spells.
-219,Immunity Ring,5,"","","",X,"",X,50,50,26,0,1490,79,Block adverse states,0,-6,17,Defense,0,21,-1,None,0,0,-1,None,0,0,2931564,64,Sacred Ring. Boosts Defense and Resistance to\nadverse effects.
+219,Immunity Ring,5,"","","",X,"",X,50,50,26,0,1490,79,Block negative states,0,-6,17,Defense,0,21,-1,None,0,0,-1,None,0,0,2931564,64,Sacred Ring. Boosts Defense and Resistance to\nadverse effects.
 220,Thermo Ring,63,X,X,X,X,X,X,50,58,53,0,2080,33,Red,0,-5,34,Purple,0,-5,-1,None,0,0,-1,None,0,0,2931628,64,A ring that increases resistance to Red and \nPurple Attacks.
 221,Slayer Ring,63,X,X,X,X,X,X,50,59,50,0,1010,1,Will,0,8,17,Defense,0,8,19,Hit%,0,10,4,Quick,0,8,2931692,68,"Raises Defense, Hit%, Will, and Quick.\nIts background is unknown."
-222,Chance Ring,63,X,X,X,X,X,X,100,32,8,0,1000,79,Block adverse states,0,90,17,Defense,0,75,18,MagDef,0,75,-1,None,0,0,2931760,88,"Boosts Defense and Magic Defense, but leaves\nthe wearer susceptible to adverse effects."
+222,Chance Ring,63,X,X,X,X,X,X,100,32,8,0,1000,79,Block negative states,0,90,17,Defense,0,75,18,MagDef,0,75,-1,None,0,0,2931760,88,"Boosts Defense and Magic Defense, but leaves\nthe wearer susceptible to adverse effects."
 223,ダミーアクセサリ,0,"","","","","","",0,63,63,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,""
 224,ダミーアクセサリ,0,"","","","","","",0,64,64,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,""
 225,ダミーアクセサリ,0,"","","","","","",0,65,65,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,""
