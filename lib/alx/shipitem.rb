@@ -54,36 +54,36 @@ class ShipItem < DolEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::OCCASION_FLAGS     ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::OCCASION_MENU      , ''      )
-    members << StrDmy.new(CsvHdr::OCCASION_BATTLE    , ''      )
-    members << StrDmy.new(CsvHdr::OCCASION_SHIP      , ''      )
-    members << IntVar.new(CsvHdr::SHIP_EFFECT_ID     ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::SHIP_EFFECT_NAME   , ''      )
-    members << IntVar.new(CsvHdr::SHIP_EFFECT_TURNS  ,  0, 'c' )
-    members << IntVar.new(CsvHdr::CONSUME            ,  0, 'c' )
+    members << IntVar.new(CsvHdr::OCCASION_FLAGS    ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::OCCASION_MENU     , ''      )
+    members << StrDmy.new(CsvHdr::OCCASION_BATTLE   , ''      )
+    members << StrDmy.new(CsvHdr::OCCASION_SHIP     , ''      )
+    members << IntVar.new(CsvHdr::SHIP_EFFECT_ID    ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::SHIP_EFFECT_NAME  , ''      )
+    members << IntVar.new(CsvHdr::SHIP_EFFECT_TURNS ,  0, 'c' )
+    members << IntVar.new(CsvHdr::CONSUME           ,  0, 'c' )
 
     if region != 'P'
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
+      members << IntVar.new(padding_hdr             ,  0, 'c' )
     end
 
-    members << IntVar.new(CsvHdr::PURCHASE_PRICE     ,  0, 'S>')
-    members << IntVar.new(CsvHdr::RETAIL_PRICE       ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE   ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_ALPHABET     ,  0, 'c' )
-    members << IntVar.new(padding_hdr                ,  0, 'c' )
+    members << IntVar.new(CsvHdr::PURCHASE_PRICE    ,  0, 'S>')
+    members << IntVar.new(CsvHdr::RETAIL_PRICE      ,  0, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE  ,  0, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_ALPHABET    ,  0, 'c' )
+    members << IntVar.new(padding_hdr               ,  0, 'c' )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
+      members << IntVar.new(padding_hdr             ,  0, 'c' )
+      members << IntVar.new(padding_hdr             ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::SHIP_EFFECT_AMOUNT,  0, 's>')
-    members << IntVar.new(CsvHdr::ELEMENT_ID        ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::ELEMENT_NAME      , ''      )
-    members << IntVar.new(unknown_hdr               ,  0, 'c' )
-    members << IntVar.new(unknown_hdr               ,  0, 's>')
-    members << IntVar.new(CsvHdr::HIT               ,  0, 's>')
+    members << IntVar.new(CsvHdr::SHIP_EFFECT_VALUE,  0, 's>')
+    members << IntVar.new(CsvHdr::ELEMENT_ID       ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::ELEMENT_NAME     , ''      )
+    members << IntVar.new(unknown_hdr              ,  0, 'c' )
+    members << IntVar.new(unknown_hdr              ,  0, 's>')
+    members << IntVar.new(CsvHdr::HIT              ,  0, 's>')
 
     add_dscr_members
   end

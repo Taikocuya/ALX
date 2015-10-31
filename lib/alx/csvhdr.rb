@@ -139,8 +139,8 @@ module CsvHdr
   EFFECT_ID          = 'Effect ID'
   EFFECT_NAME        = '[Effect name]'
   EFFECT_SPIRIT      = 'Effect spirit'
-  EFFECT_AMOUNT      = Hash.new do |_h, _k|
-    _h[_k] = sprintf('Effect amount%s', _k && _k != 0 ? " ##{_k} " : '')
+  EFFECT_VALUE       = Hash.new do |_h, _k|
+    _h[_k] = sprintf('Effect value%s', _k && _k != 0 ? " ##{_k} " : '')
   end
   EFFECT_PRIORITY    = 'Effect priority'
 
@@ -148,7 +148,7 @@ module CsvHdr
   SHIP_EFFECT_NAME   = '[Ship effect name]'
   SHIP_EFFECT_SPIRIT = 'Ship effect spirit'
   SHIP_EFFECT_TURNS  = 'Ship effect turns'
-  SHIP_EFFECT_AMOUNT = 'Ship effect amount'
+  SHIP_EFFECT_VALUE  = 'Ship effect amount'
 
   SCOPE_ID           = 'Scope ID'
   SCOPE_NAME         = '[Scope name]'

@@ -64,35 +64,35 @@ class NpcSkill < DolEntry
     add_name_members
 
     if region != 'P'
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
+      members << IntVar.new(padding_hdr          ,  0, 'c' )
+      members << IntVar.new(padding_hdr          ,  0, 'c' )
+      members << IntVar.new(padding_hdr          ,  0, 'c' )
+      members << IntVar.new(padding_hdr          ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::CATEGORY_ID     ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::CATEGORY_NAME   , ''      )
-    members << IntVar.new(CsvHdr::EFFECT_ID       , -1, 'c' )
-    members << StrDmy.new(CsvHdr::EFFECT_NAME     , ''      )
-    members << IntVar.new(CsvHdr::SCOPE_ID        ,  0, 'C' )
-    members << StrDmy.new(CsvHdr::SCOPE_NAME      , ''      )
+    members << IntVar.new(CsvHdr::CATEGORY_ID    ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::CATEGORY_NAME  , ''      )
+    members << IntVar.new(CsvHdr::EFFECT_ID      , -1, 'c' )
+    members << StrDmy.new(CsvHdr::EFFECT_NAME    , ''      )
+    members << IntVar.new(CsvHdr::SCOPE_ID       ,  0, 'C' )
+    members << StrDmy.new(CsvHdr::SCOPE_NAME     , ''      )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
+      members << IntVar.new(padding_hdr          ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::EFFECT_AMOUNT[1],  0, 's>')
-    members << IntVar.new(CsvHdr::EFFECT_AMOUNT[2],  0, 's>')
-    members << IntVar.new(CsvHdr::ELEMENT_ID      ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::ELEMENT_NAME    , ''      )
-    members << IntVar.new(CsvHdr::TYPE_ID         ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::TYPE_NAME       , ''      )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(CsvHdr::HIT             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
+    members << IntVar.new(CsvHdr::EFFECT_VALUE[1],  0, 's>')
+    members << IntVar.new(CsvHdr::EFFECT_VALUE[2],  0, 's>')
+    members << IntVar.new(CsvHdr::ELEMENT_ID     ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::ELEMENT_NAME   , ''      )
+    members << IntVar.new(CsvHdr::TYPE_ID        ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::TYPE_NAME      , ''      )
+    members << IntVar.new(unknown_hdr            ,  0, 'c' )
+    members << IntVar.new(unknown_hdr            ,  0, 'c' )
+    members << IntVar.new(unknown_hdr            ,  0, 'c' )
+    members << IntVar.new(CsvHdr::HIT            ,  0, 'c' )
+    members << IntVar.new(padding_hdr            ,  0, 'c' )
+    members << IntVar.new(padding_hdr            ,  0, 'c' )
   end
 
   # Writes one entry to a CSV row.

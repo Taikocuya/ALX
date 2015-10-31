@@ -93,9 +93,9 @@ class CrewMember < DolEntry
     
     if region == 'J'
       members << IntVar.new(CsvHdr::UNKNOWN[0]        ,  0, 's>')
-      members << IntVar.new(CsvHdr::SHIP_EFFECT_AMOUNT,  0, 's>')
+      members << IntVar.new(CsvHdr::SHIP_EFFECT_VALUE ,  0, 's>')
     else
-      members << IntVar.new(CsvHdr::SHIP_EFFECT_AMOUNT,  0, 's>')
+      members << IntVar.new(CsvHdr::SHIP_EFFECT_VALUE ,  0, 's>')
       members << IntVar.new(CsvHdr::UNKNOWN[0]        ,  0, 's>')
     end
 
