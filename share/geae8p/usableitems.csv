@@ -41,7 +41,7 @@ Entry ID,US entry name,Occasion flags,[Menu],[Battle],[Ship battle],Effect ID,[E
 279,Panika Box,2,"",X,"",11,Add Confusion,3,One enemy,24,1,36,39,1200,0,0,0,0,0,0,4,0,30,2935108,88,A mage of the Purple Moon has enchanted a box\nwith the spell Panika. 3 or 4 charges.
 280,Driln Box,2,"",X,"",26,Add Weak,3,One enemy,12,1,37,11,600,0,0,0,0,0,0,8,0,50,2935196,84,A mage of the Yellow Moon has enchanted a box\nwith the spell Driln. 7 or 8 charges.
 281,Slipara Box,2,"",X,"",9,Add Sleep,4,All enemies,24,1,38,61,1200,0,0,0,0,0,0,3,0,50,2935280,84,A mage of the Blue Moon has enchanted a box\nwith the spell Slipara. 3 or 4 charges.
-282,Eternum Box,2,"",X,"",6,Add Unconscious + Damage,3,One enemy,32,1,39,14,3600,0,0,250,5,1,0,49,0,0,2935364,92,A mage of the Silver Moon has enchanted a box\nwith the spell Eternum. This box is fragile!
+282,Eternum Box,2,"",X,"",6,Add Unconscious + Damage #1,3,One enemy,32,1,39,14,3600,0,0,250,5,1,0,49,0,0,2935364,92,A mage of the Silver Moon has enchanted a box\nwith the spell Eternum. This box is fragile!
 283,Rune of Ill Omen,0,"","","",-1,None,0,None,0,100,47,52,1000,0,0,0,0,0,0,0,0,0,2935456,56,A valuable treasure sought by Zivilyn Bane in\nPyrynn.
 284,Golden Mask,0,"","","",-1,None,0,None,0,100,48,21,2000,0,0,0,0,0,0,0,0,0,2935512,56,A valuable treasure sought by Zivilyn Bane in\nRixis.
 285,Sky Sardis,4,X,"","",31,Recover HP,1,One ally,100,100,58,60,1,0,0,1,-1,-1,0,0,0,0,2935568,92,A common fish at the bottom of the food chain.\nThey are fare for most Mid Ocean residents.

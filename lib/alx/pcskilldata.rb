@@ -34,7 +34,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle playable character skills from binary and/or CSV files.
+# Class to handle character skills from binary and/or CSV files.
 class PcSkillData < DolEntryData
   
 #==============================================================================

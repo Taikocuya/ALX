@@ -23,7 +23,7 @@
 #==============================================================================
 
 require_relative('dolentrytransform.rb')
-require_relative('pcskilldata.rb')
+require_relative('npcskilldata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,15 +33,15 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Base class to export and/or import character skills to and/or from CSV files.
-class PcSkillTransform < DolEntryTransform
+# Base class to export and/or import enemy skills to and/or from CSV files.
+class NpcSkillTransform < DolEntryTransform
 
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
 
   # Path to CSV file
-  CSV_FILE = 'pcskills.csv'
+  CSV_FILE = 'npcskills.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -49,12 +49,12 @@ class PcSkillTransform < DolEntryTransform
 
   public
 
-  # Constructs a PcSkillTransform.
+  # Constructs a NpcSkillTransform.
   def initialize
-    super(PcSkillData)
+    super(NpcSkillData)
   end
 
-end # class PcSkillTransform
+end # class NpcSkillTransform
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

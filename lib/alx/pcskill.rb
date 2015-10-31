@@ -33,7 +33,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a playable character skill.
+# Class to handle a character skill.
 class PcSkill < DolEntry
   
 #==============================================================================
@@ -88,7 +88,7 @@ class PcSkill < DolEntry
     members << StrDmy.new(CsvHdr::OCCASION_SHIP      , ''      )
     members << IntVar.new(CsvHdr::EFFECT_ID          , -1, 'c' )
     members << StrDmy.new(CsvHdr::EFFECT_NAME        , ''      )
-    members << IntVar.new(CsvHdr::SCOPE_ID           ,  0, 'c' )
+    members << IntVar.new(CsvHdr::SCOPE_ID           ,  0, 'C' )
     members << StrDmy.new(CsvHdr::SCOPE_NAME         , ''      )
     members << IntVar.new(CsvHdr::CATEGORY_ID        ,  0, 'c' )
     members << StrDmy.new(CsvHdr::CATEGORY_NAME      , ''      )
@@ -96,8 +96,9 @@ class PcSkill < DolEntry
     members << IntVar.new(CsvHdr::EFFECT_SPIRIT      , -1, 'c' )
     members << IntVar.new(padding_hdr                ,  0, 'c' )
     members << IntVar.new(padding_hdr                ,  0, 'c' )
-    members << IntVar.new(CsvHdr::EFFECT_AMOUNT      , -1, 's>')
-    members << IntVar.new(unknown_hdr                , -1, 'c' )
+    members << IntVar.new(CsvHdr::EFFECT_AMOUNT[0]   , -1, 's>')
+    members << IntVar.new(CsvHdr::TYPE_ID            ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::TYPE_NAME          , ''      )
     members << IntVar.new(unknown_hdr                , -1, 'c' )
     members << IntVar.new(CsvHdr::HIT                ,  0, 'c' )
     members << IntVar.new(padding_hdr                ,  0, 'c' )
@@ -163,6 +164,9 @@ class PcSkill < DolEntry
     _id = find_member(CsvHdr::CATEGORY_ID).value
     find_member(CsvHdr::CATEGORY_NAME).value = CATEGORIES[_id]
 
+    _id = find_member(CsvHdr::TYPE_ID).value
+    find_member(CsvHdr::TYPE_NAME).value = TYPES[_id]
+    
     _id = find_member(CsvHdr::SHIP_OCCASION_ID).value
     find_member(CsvHdr::SHIP_OCCASION_NAME).value = SHIP_OCCASIONS[_id]
     

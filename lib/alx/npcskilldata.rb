@@ -22,8 +22,9 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('dolentrytransform.rb')
-require_relative('pcskilldata.rb')
+require_relative('entrytransform.rb')
+require_relative('dolentrydata.rb')
+require_relative('npcskill.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,15 +34,32 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Base class to export and/or import character skills to and/or from CSV files.
-class PcSkillTransform < DolEntryTransform
-
+# Class to handle enemy skills from binary and/or CSV files.
+class NpcSkillData < DolEntryData
+  
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
 
-  # Path to CSV file
-  CSV_FILE = 'pcskills.csv'
+  # Range of entry IDs
+  ID_RANGE    = 0x0...0x159
+
+  # Offset ranges of data entries
+  DATA_RANGES = {
+    'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2aa440...0x2ad4c4),
+    'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2a9ee8...0x2acf6c),
+    'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2d9398...0x2dae8c),
+  }
+
+  # Offset ranges of name entries
+  NAME_RANGES = {
+    'P' => [
+      DataRange.new(EntryTransform::SOT_DE_FILE, 0x13d6...0x2079),
+      DataRange.new(EntryTransform::SOT_ES_FILE, 0x13c9...0x215d),
+      DataRange.new(EntryTransform::SOT_FR_FILE, 0x13cb...0x211a),
+      DataRange.new(EntryTransform::SOT_GB_FILE, 0x13c6...0x1ff8),
+    ],
+  }
 
 #==============================================================================
 #                                   PUBLIC
@@ -49,12 +67,16 @@ class PcSkillTransform < DolEntryTransform
 
   public
 
-  # Constructs a PcSkillTransform.
-  def initialize
-    super(PcSkillData)
+  # Constructs a NpcSkillData.
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
+    super(NpcSkill, _root)
+    self.id_range    = ID_RANGE
+    self.data_ranges = DATA_RANGES
+    self.name_ranges = NAME_RANGES
   end
 
-end # class PcSkillTransform
+end # class NpcSkillData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

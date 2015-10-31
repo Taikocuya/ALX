@@ -68,7 +68,7 @@ Exports the crew members to `share/*/crewmembers.csv`.
 
 ### exportnpcskills.rb
 
-Exports the non-playable character skills to `share/*/npcskills.csv`.
+Exports the enemy skills to `share/*/npcskills.csv`.
 
 ### exportpcskills.rb
 
@@ -112,7 +112,7 @@ Imports the crew members to `share/*/&&systemdata/Start.dol`.
 
 ### importnpcskills.rb
 
-Imports the non-playable character skills to `share/*/&&systemdata/Start.dol`.
+Imports the enemy skills to `share/*/&&systemdata/Start.dol`.
 
 ### importpcskills.rb
 

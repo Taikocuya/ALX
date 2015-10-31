@@ -1,3 +1,4 @@
+#! /usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2015 Marcel Renner
@@ -22,8 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('dolentrytransform.rb')
-require_relative('pcskilldata.rb')
+require_relative('../lib/alx/npcskilltransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,15 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Base class to export and/or import character skills to and/or from CSV files.
-class PcSkillTransform < DolEntryTransform
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Path to CSV file
-  CSV_FILE = 'pcskills.csv'
+# Class to import non-playable character skills from CSV files.
+class NpcSkillImporter < NpcSkillTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -49,13 +42,30 @@ class PcSkillTransform < DolEntryTransform
 
   public
 
-  # Constructs a PcSkillTransform.
-  def initialize
-    super(PcSkillData)
+  def valid?(_root)
+    _result   = super
+    _result &&= has_file?(File.join(_root.path, CSV_FILE))
+    _result
   end
 
-end # class PcSkillTransform
+  def exec
+    super
+    transform_csv_to_bin(CSV_FILE)
+  end
+
+end	# class NpcSkillImporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end # module ALX
+end	# module ALX
+
+# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+
+if __FILE__ == $0
+  begin
+    _ni = ALX::NpcSkillImporter.new
+    _ni.exec
+  rescue => _e
+    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
+  end
+end
