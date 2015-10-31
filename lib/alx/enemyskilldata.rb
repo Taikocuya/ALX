@@ -24,7 +24,7 @@
 
 require_relative('entrytransform.rb')
 require_relative('dolentrydata.rb')
-require_relative('npcskill.rb')
+require_relative('enemyskill.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,7 +35,7 @@ module ALX
 #==============================================================================
 
 # Class to handle enemy skills from binary and/or CSV files.
-class NpcSkillData < DolEntryData
+class EnemySkillData < DolEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -67,16 +67,16 @@ class NpcSkillData < DolEntryData
 
   public
 
-  # Constructs a NpcSkillData.
+  # Constructs a EnemySkillData.
   # @param _root [GameRoot] Game root
   def initialize(_root)
-    super(NpcSkill, _root)
+    super(EnemySkill, _root)
     self.id_range    = ID_RANGE
     self.data_ranges = DATA_RANGES
     self.name_ranges = NAME_RANGES
   end
 
-end # class NpcSkillData
+end # class EnemySkillData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

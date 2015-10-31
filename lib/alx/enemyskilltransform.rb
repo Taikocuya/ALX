@@ -1,4 +1,3 @@
-#! /usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2015 Marcel Renner
@@ -23,7 +22,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/pcskilltransform.rb')
+require_relative('dolentrytransform.rb')
+require_relative('enemyskilldata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,8 +33,15 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to export playable character skills to CSV files.
-class PcSkillExporter < PcSkillTransform
+# Base class to export and/or import enemy skills to and/or from CSV files.
+class EnemySkillTransform < DolEntryTransform
+
+#==============================================================================
+#                                  CONSTANTS
+#==============================================================================
+
+  # Path to CSV file
+  CSV_FILE = 'enemyskills.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -42,24 +49,13 @@ class PcSkillExporter < PcSkillTransform
 
   public
 
-  def exec
-    super
-    transform_bin_to_csv(CSV_FILE)
+  # Constructs a EnemySkillTransform.
+  def initialize
+    super(EnemySkillData)
   end
 
-end	# class PcSkillExporter
+end # class EnemySkillTransform
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
-
-# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
-
-if __FILE__ == $0
-  begin
-    _pe = ALX::PcSkillExporter.new
-    _pe.exec
-  rescue => _e
-    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
-  end
-end
+end # module ALX

@@ -24,7 +24,7 @@
 
 require_relative('entrytransform.rb')
 require_relative('dolentrydata.rb')
-require_relative('pcskill.rb')
+require_relative('characterskill.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,7 +35,7 @@ module ALX
 #==============================================================================
 
 # Class to handle character skills from binary and/or CSV files.
-class PcSkillData < DolEntryData
+class CharacterSkillData < DolEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -97,10 +97,10 @@ class PcSkillData < DolEntryData
 
   public
 
-  # Constructs a PcSkillData.
+  # Constructs a CharacterSkillData.
   # @param _root [GameRoot] Game root
   def initialize(_root)
-    super(PcSkill, _root)
+    super(CharacterSkill, _root)
     self.id_range     = ID_RANGE
     self.data_ranges  = DATA_RANGES
     self.name_ranges  = NAME_RANGES
@@ -285,7 +285,7 @@ class PcSkillData < DolEntryData
 
   attr_accessor :ship_dscr_ranges
 
-end # class PcSkillData
+end # class CharacterSkillData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

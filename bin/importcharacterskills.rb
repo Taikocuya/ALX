@@ -1,3 +1,4 @@
+#! /usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2015 Marcel Renner
@@ -22,8 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('dolentrytransform.rb')
-require_relative('npcskilldata.rb')
+require_relative('../lib/alx/characterskilltransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,15 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Base class to export and/or import enemy skills to and/or from CSV files.
-class NpcSkillTransform < DolEntryTransform
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Path to CSV file
-  CSV_FILE = 'npcskills.csv'
+# Class to import playable character skills from CSV files.
+class CharacterSkillImporter < CharacterSkillTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -49,13 +42,30 @@ class NpcSkillTransform < DolEntryTransform
 
   public
 
-  # Constructs a NpcSkillTransform.
-  def initialize
-    super(NpcSkillData)
+  def valid?(_root)
+    _result   = super
+    _result &&= has_file?(File.join(_root.path, CSV_FILE))
+    _result
   end
 
-end # class NpcSkillTransform
+  def exec
+    super
+    transform_csv_to_bin(CSV_FILE)
+  end
+
+end	# class CharacterSkillImporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end # module ALX
+end	# module ALX
+
+# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+
+if __FILE__ == $0
+  begin
+    _ci = ALX::CharacterSkillImporter.new
+    _ci.exec
+  rescue => _e
+    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
+  end
+end

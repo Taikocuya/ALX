@@ -45,14 +45,14 @@ class Entry
 #                                  CONSTANTS
 #==============================================================================
 
-  # Playable character IDs
-  PCS = Hash.new('???')
-  PCS.store(0, CsvHdr::PC_VYSE   )
-  PCS.store(1, CsvHdr::PC_AIKA   )
-  PCS.store(2, CsvHdr::PC_FINA   )
-  PCS.store(3, CsvHdr::PC_DRACHMA)
-  PCS.store(4, CsvHdr::PC_ENRIQUE)
-  PCS.store(5, CsvHdr::PC_GILDER )
+  # Character IDs
+  CHARACTERS = Hash.new('???')
+  CHARACTERS.store(0, CsvHdr::CHARACTER_VYSE   )
+  CHARACTERS.store(1, CsvHdr::CHARACTER_AIKA   )
+  CHARACTERS.store(2, CsvHdr::CHARACTER_FINA   )
+  CHARACTERS.store(3, CsvHdr::CHARACTER_DRACHMA)
+  CHARACTERS.store(4, CsvHdr::CHARACTER_ENRIQUE)
+  CHARACTERS.store(5, CsvHdr::CHARACTER_GILDER )
 
   # Ship IDs
   SHIPS = Hash.new('???')

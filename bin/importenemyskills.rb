@@ -23,7 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/npcskilltransform.rb')
+require_relative('../lib/alx/enemyskilltransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,8 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to export non-playable character skills to CSV files.
-class NpcSkillExporter < NpcSkillTransform
+# Class to import enemy skills from CSV files.
+class EnemySkillImporter < EnemySkillTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -42,12 +42,18 @@ class NpcSkillExporter < NpcSkillTransform
 
   public
 
-  def exec
-    super
-    transform_bin_to_csv(CSV_FILE)
+  def valid?(_root)
+    _result   = super
+    _result &&= has_file?(File.join(_root.path, CSV_FILE))
+    _result
   end
 
-end	# class NpcSkillExporter
+  def exec
+    super
+    transform_csv_to_bin(CSV_FILE)
+  end
+
+end	# class EnemySkillImporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -57,8 +63,8 @@ end	# module ALX
 
 if __FILE__ == $0
   begin
-    _ne = ALX::NpcSkillExporter.new
-    _ne.exec
+    _ei = ALX::EnemySkillImporter.new
+    _ei.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end

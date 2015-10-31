@@ -34,7 +34,7 @@ module ALX
 #==============================================================================
 
 # Class to handle a character skill.
-class PcSkill < DolEntry
+class CharacterSkill < DolEntry
   
 #==============================================================================
 #                                   INCLUDES
@@ -48,13 +48,13 @@ class PcSkill < DolEntry
 
   # Category IDs
   CATEGORIES = Hash.new('???')
-  CATEGORIES.store(0, PCS[0] )
-  CATEGORIES.store(1, PCS[1] )
-  CATEGORIES.store(2, PCS[2] )
-  CATEGORIES.store(3, PCS[3] )
-  CATEGORIES.store(4, PCS[4] )
-  CATEGORIES.store(5, PCS[5] )
-  CATEGORIES.store(6, 'Magic')
+  CATEGORIES.store(0, CHARACTERS[0])
+  CATEGORIES.store(1, CHARACTERS[1])
+  CATEGORIES.store(2, CHARACTERS[2])
+  CATEGORIES.store(3, CHARACTERS[3])
+  CATEGORIES.store(4, CHARACTERS[4])
+  CATEGORIES.store(5, CHARACTERS[5])
+  CATEGORIES.store(6, 'Magic'      )
 
   # Ship occasion IDs
   SHIP_OCCASIONS = Hash.new('???')
@@ -68,7 +68,7 @@ class PcSkill < DolEntry
 
   public
 
-  # Constructs a PcSkill.
+  # Constructs a CharacterSkill.
   # @param _region [String] Region ID
   def initialize(_region)
     super
@@ -176,7 +176,7 @@ class PcSkill < DolEntry
     super
   end
 
-end	# class PcSkill
+end	# class CharacterSkill
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

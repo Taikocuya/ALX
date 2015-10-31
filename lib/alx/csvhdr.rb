@@ -94,16 +94,16 @@ module CsvHdr
   SHIP_DSCR_ES_POS   = '[ES ship description position]'
   SHIP_DSCR_ES_STR   = 'ES ship description string'
 
-  PC_ID              = 'Character ID'
-  PC_NAME            = 'Character name'
-  PC_FLAGS           = 'Character flags'
-  PC_OPT             = Hash.new { |_h, _k| _h[_k] = sprintf('[%s]', _k) }
-  PC_VYSE            = 'Vyse'
-  PC_AIKA            = 'Aika'
-  PC_FINA            = 'Fina'
-  PC_DRACHMA         = 'Drachma'
-  PC_GILDER          = 'Gilder'
-  PC_ENRIQUE         = 'Enrique'
+  CHARACTER_ID       = 'Character ID'
+  CHARACTER_NAME     = 'Character name'
+  CHARACTER_FLAGS    = 'Character flags'
+  CHARACTER_OPT      = Hash.new { |_h, _k| _h[_k] = sprintf('[%s]', _k) }
+  CHARACTER_VYSE     = 'Vyse'
+  CHARACTER_AIKA     = 'Aika'
+  CHARACTER_FINA     = 'Fina'
+  CHARACTER_DRACHMA  = 'Drachma'
+  CHARACTER_GILDER   = 'Gilder'
+  CHARACTER_ENRIQUE  = 'Enrique'
 
   SHIP_FLAGS         = 'Ship flags'
   SHIP_MODEL1        = '[Little Jack #1]'

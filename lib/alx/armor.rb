@@ -85,31 +85,31 @@ class Armor < DolEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::PC_FLAGS           ,  0, 'c' )
-    PCS.each_value do |_chara|
-      members << StrDmy.new(CsvHdr::PC_OPT[_chara]   , ''      )
+    members << IntVar.new(CsvHdr::CHARACTER_FLAGS        ,  0, 'c' )
+    CHARACTERS.each_value do |_chara|
+      members << StrDmy.new(CsvHdr::CHARACTER_OPT[_chara], ''      )
     end
     
-    members << IntVar.new(CsvHdr::RETAIL_PRICE       ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE   , -1, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_ALPHABET     , -1, 'c' )
+    members << IntVar.new(CsvHdr::RETAIL_PRICE           ,  0, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE       , -1, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_ALPHABET         , -1, 'c' )
     
     if region != 'P'
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
+      members << IntVar.new(padding_hdr                  ,  0, 'c' )
     end
 
-    members << IntVar.new(CsvHdr::PURCHASE_PRICE     ,  0, 'S>')
+    members << IntVar.new(CsvHdr::PURCHASE_PRICE         ,  0, 'S>')
     
     (1..4).each do |_i|
-      members << IntVar.new(CsvHdr::FEATURE_ID[_i]   , -1, 'c' )
-      members << StrDmy.new(CsvHdr::FEATURE_NAME[_i] , ''      )
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
-      members << IntVar.new(CsvHdr::FEATURE_VALUE[_i],  0, 's>')
+      members << IntVar.new(CsvHdr::FEATURE_ID[_i]       , -1, 'c' )
+      members << StrDmy.new(CsvHdr::FEATURE_NAME[_i]     , ''      )
+      members << IntVar.new(padding_hdr                  ,  0, 'c' )
+      members << IntVar.new(CsvHdr::FEATURE_VALUE[_i]    ,  0, 's>')
     end
 
     if region == 'P'
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
+      members << IntVar.new(padding_hdr                  ,  0, 'c' )
+      members << IntVar.new(padding_hdr                  ,  0, 'c' )
     end
 
     add_dscr_members
@@ -118,9 +118,9 @@ class Armor < DolEntry
   # Writes one entry to a CSV row.
   # @param _row [CSV::Row] CSV row
   def write_to_csv_row(_row)
-    _flags = find_member(CsvHdr::PC_FLAGS).value
-    PCS.each do |_id, _chara|
-      _member = CsvHdr::PC_OPT[_chara]
+    _flags = find_member(CsvHdr::CHARACTER_FLAGS).value
+    CHARACTERS.each do |_id, _chara|
+      _member = CsvHdr::CHARACTER_OPT[_chara]
       find_member(_member).value = _flags & (0x20 >> _id) != 0 ? 'X' : ''
     end
 

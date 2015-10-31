@@ -34,7 +34,7 @@ module ALX
 #==============================================================================
 
 # Class to handle a enemy skill.
-class NpcSkill < DolEntry
+class EnemySkill < DolEntry
   
 #==============================================================================
 #                                   INCLUDES
@@ -57,7 +57,7 @@ class NpcSkill < DolEntry
 
   public
 
-  # Constructs a NpcSkill.
+  # Constructs a EnemySkill.
   # @param _region [String] Region ID
   def initialize(_region)
     super
@@ -116,7 +116,7 @@ class NpcSkill < DolEntry
     super
   end
 
-end	# class NpcSkill
+end	# class EnemySkill
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

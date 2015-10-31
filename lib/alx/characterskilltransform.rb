@@ -1,4 +1,3 @@
-#! /usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2015 Marcel Renner
@@ -23,7 +22,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/pcskilltransform.rb')
+require_relative('dolentrytransform.rb')
+require_relative('characterskilldata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,8 +33,15 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to import playable character skills from CSV files.
-class PcSkillImporter < PcSkillTransform
+# Base class to export and/or import character skills to and/or from CSV files.
+class CharacterSkillTransform < DolEntryTransform
+
+#==============================================================================
+#                                  CONSTANTS
+#==============================================================================
+
+  # Path to CSV file
+  CSV_FILE = 'characterskills.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -42,30 +49,13 @@ class PcSkillImporter < PcSkillTransform
 
   public
 
-  def valid?(_root)
-    _result   = super
-    _result &&= has_file?(File.join(_root.path, CSV_FILE))
-    _result
+  # Constructs a CharacterSkillTransform.
+  def initialize
+    super(CharacterSkillData)
   end
 
-  def exec
-    super
-    transform_csv_to_bin(CSV_FILE)
-  end
-
-end	# class PcSkillImporter
+end # class CharacterSkillTransform
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
-
-# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
-
-if __FILE__ == $0
-  begin
-    _pi = ALX::PcSkillImporter.new
-    _pi.exec
-  rescue => _e
-    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
-  end
-end
+end # module ALX
