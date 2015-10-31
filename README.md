@@ -42,8 +42,8 @@ Installation
 ------------
 
 Put the files to some directory where you want it. Pre-exported CSV files with 
-all game data can already be found in the subdirectories `share/geaj8p` for 
-NTSC-J, `share/geaj8p` for NTSC-U or `share/geae8p` for PAL-E.
+complete game data can already be found in the subdirectories `share/geaj8p` 
+for NTSC-J, `share/geaj8p` for NTSC-U or `share/geae8p` for PAL-E.
 
 The scripts require at least one extracted image of Skies of Arcadia Legends, 
 or rather, Eternal Arcadia Legends in a new or existing subdirectory of 
