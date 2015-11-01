@@ -58,6 +58,8 @@ class EntryTransform
   DOL_FILE    = '&&systemdata/Start.dol'
   # Path to HDR file relative to game root.
   HDR_FILE    = '&&systemdata/ISO.hdr'
+  # Path to LMT file relative to game root.
+  LMT_FILE    = 'battle/first.lmt'
   # Path to German SOT file relative to game root (PAL-E only).
   SOT_DE_FILE = 'german.sot'
   # Path to Spanish SOT file relative to game root (PAL-E only).

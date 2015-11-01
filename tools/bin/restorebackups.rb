@@ -51,6 +51,8 @@ class BackupRestorer
   SHARE_DIR   = EntryTransform::SHARE_DIR
   # Path to DOL file relative to game root.
   DOL_FILE    = EntryTransform::DOL_FILE
+  # Path to LMT file relative to game root.
+  LMT_FILE    = EntryTransform::LMT_FILE
   # Path to German SOT file relative to game root (PAL-E only).
   SOT_DE_FILE = EntryTransform::SOT_DE_FILE
   # Path to Spanish SOT file relative to game root (PAL-E only).
@@ -70,11 +72,14 @@ class BackupRestorer
     print("\n")
     restore_file(File.join(SHARE_DIR, 'geae8p', DOL_FILE   ))
     restore_file(File.join(SHARE_DIR, 'geaj8p', DOL_FILE   ))
+    restore_file(File.join(SHARE_DIR, 'geap8p', DOL_FILE   ))
+    restore_file(File.join(SHARE_DIR, 'geae8p', LMT_FILE   ))
+    restore_file(File.join(SHARE_DIR, 'geaj8p', LMT_FILE   ))
+    restore_file(File.join(SHARE_DIR, 'geap8p', LMT_FILE   ))
     restore_file(File.join(SHARE_DIR, 'geap8p', SOT_DE_FILE))
     restore_file(File.join(SHARE_DIR, 'geap8p', SOT_ES_FILE))
     restore_file(File.join(SHARE_DIR, 'geap8p', SOT_FR_FILE))
     restore_file(File.join(SHARE_DIR, 'geap8p', SOT_GB_FILE))
-    restore_file(File.join(SHARE_DIR, 'geap8p', DOL_FILE   ))
   end
 
   # Restores a file.
