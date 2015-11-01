@@ -22,9 +22,9 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
+require_relative('enemyskill.rb')
 require_relative('entrytransform.rb')
 require_relative('dolentrydata.rb')
-require_relative('enemyskill.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

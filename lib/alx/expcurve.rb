@@ -22,11 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('armordata.rb')
-require_relative('accessorydata.rb')
-require_relative('character.rb')
-require_relative('entrytransform.rb')
-require_relative('weapondata.rb')
+require_relative('dolentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -36,22 +32,14 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle characters from binary and/or CSV files.
-class CharacterData < DolEntryData
+# Class to handle a EXP curve.
+class ExpCurve < DolEntry
   
 #==============================================================================
-#                                  CONSTANTS
+#                                   INCLUDES
 #==============================================================================
 
-  # Range of entry IDs
-  ID_RANGE    = 0x0...0x6
-
-  # Offset ranges of data entries
-  DATA_RANGES = {
-    'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c1860...0x2c1bf0),
-    'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c0d58...0x2c10e8),
-    'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2c2ff0...0x2c3380),
-  }
+  include(Effectable)
 
 #==============================================================================
 #                                   PUBLIC
@@ -59,38 +47,62 @@ class CharacterData < DolEntryData
 
   public
 
-  # Constructs a CharacterData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(Character, _root)
-    self.id_range    = ID_RANGE
-    self.data_ranges = DATA_RANGES
-    @weapon_data     = WeaponData.new(_root)
-    @armor_data      = ArmorData.new(_root)
-    @accessory_data  = AccessoryData.new(_root)
+  # Constructs a ExpCurve.
+  # @param _region [String] Region ID
+  def initialize(_region)
+    super
+    @character_data = {}
+
+    case region
+    when 'E'
+      members << StrDmy.new(CsvHdr::NAME_US_STR, ''      )
+    when 'J'
+      members << StrDmy.new(CsvHdr::NAME_JP_STR, ''      )
+    when 'P'
+      members << StrDmy.new(CsvHdr::NAME_EU_STR, ''      )
+    end
+      
+    (1..99).each do |_i|
+      members << IntVar.new(CsvHdr::EXP[_i]    ,  0, 'L>')
+    end
   end
 
-  # Creates an entry.
-  # @param _id [String] Entry ID
-  # @return [Entry] Entry object
-  def create_entry(_id = -1)
-    _entry                = super
-    _entry.weapon_data    = @weapon_data.data
-    _entry.armor_data     = @armor_data.data
-    _entry.accessory_data = @accessory_data.data
-    _entry
-  end
-  
-  # Reads all entries from binary files.
-  def load_from_bins
-    @weapon_data.load_from_bins
-    @armor_data.load_from_bins
-    @accessory_data.load_from_bins
+  # Writes one entry to a CSV row.
+  # @param _row [CSV::Row] CSV row
+  def write_to_csv_row(_row)
+    _character = @character_data[id]
+    if _character
+      case region
+      when 'E'
+        _name = _character.find_member(CsvHdr::NAME_US_STR).value
+      when 'J'
+        _name = _character.find_member(CsvHdr::NAME_JP_STR).value
+      when 'P'
+        _name = _character.find_member(CsvHdr::NAME_EU_STR).value
+      end
+    else
+      _name = '???'
+    end
+    case region
+    when 'E'
+      find_member(CsvHdr::NAME_US_STR).value = _name
+    when 'J'
+      find_member(CsvHdr::NAME_JP_STR).value = _name
+    when 'P'
+      find_member(CsvHdr::NAME_EU_STR).value = _name
+    end
+
     super
   end
 
-end # class CharacterData
+#------------------------------------------------------------------------------
+# Public member variables
+#------------------------------------------------------------------------------
+
+  attr_accessor :character_data
+
+end	# class ExpCurve
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end # module ALX
+end	# module ALX

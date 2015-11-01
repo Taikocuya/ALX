@@ -22,11 +22,9 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('armordata.rb')
-require_relative('accessorydata.rb')
-require_relative('character.rb')
+require_relative('characterdata.rb')
 require_relative('entrytransform.rb')
-require_relative('weapondata.rb')
+require_relative('expcurve.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -36,8 +34,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle characters from binary and/or CSV files.
-class CharacterData < DolEntryData
+# Class to handle EXP curves from binary and/or CSV files.
+class ExpCurveData < DolEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -48,9 +46,9 @@ class CharacterData < DolEntryData
 
   # Offset ranges of data entries
   DATA_RANGES = {
-    'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c1860...0x2c1bf0),
-    'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c0d58...0x2c10e8),
-    'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2c2ff0...0x2c3380),
+    'E' => DataRange.new(EntryTransform::LMT_FILE, 0x000...0x948),
+    'J' => DataRange.new(EntryTransform::LMT_FILE, 0x000...0x948),
+    'P' => DataRange.new(EntryTransform::LMT_FILE, 0x000...0x948),
   }
 
 #==============================================================================
@@ -59,15 +57,13 @@ class CharacterData < DolEntryData
 
   public
 
-  # Constructs a CharacterData.
+  # Constructs a ExpCurveData.
   # @param _root [GameRoot] Game root
   def initialize(_root)
-    super(Character, _root)
+    super(ExpCurve, _root)
     self.id_range    = ID_RANGE
     self.data_ranges = DATA_RANGES
-    @weapon_data     = WeaponData.new(_root)
-    @armor_data      = ArmorData.new(_root)
-    @accessory_data  = AccessoryData.new(_root)
+    @character_data = CharacterData.new(_root)
   end
 
   # Creates an entry.
@@ -75,21 +71,17 @@ class CharacterData < DolEntryData
   # @return [Entry] Entry object
   def create_entry(_id = -1)
     _entry                = super
-    _entry.weapon_data    = @weapon_data.data
-    _entry.armor_data     = @armor_data.data
-    _entry.accessory_data = @accessory_data.data
+    _entry.character_data = @character_data.data
     _entry
   end
   
   # Reads all entries from binary files.
   def load_from_bins
-    @weapon_data.load_from_bins
-    @armor_data.load_from_bins
-    @accessory_data.load_from_bins
+    @character_data.load_from_bins
     super
   end
 
-end # class CharacterData
+end # class ExpCurveData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

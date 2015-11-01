@@ -171,7 +171,9 @@ module CsvHdr
   BASE_HP_INCREASE   = 'Base MAXHP increase'
   CONSUME            = 'Consume%'
   COUNTER            = 'Counter%'
-  EXP                = 'EXP'
+  EXP                = Hash.new do |_h, _k|
+    _h[_k] = sprintf('EXP%s', _k && _k != 0 ? " ##{_k} " : '')
+  end
   HIT                = 'Hit%'
   HP                 = 'HP'
   LIMIT              = 'Limit'

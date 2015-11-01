@@ -152,6 +152,7 @@ class EntryTransform
     _valid &&= check_bnr(_bnr)
     _valid &&= check_hdr(_hdr)
     _valid &&= has_file?(File.join(_path, DOL_FILE))
+    _valid &&= has_file?(File.join(_path, LMT_FILE))
     
     if _hdr.region_id == 'P'
       _valid &&= has_file?(File.join(_path, SOT_GB_FILE))

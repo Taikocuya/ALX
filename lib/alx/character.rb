@@ -88,7 +88,7 @@ class Character < DolEntry
     members << IntVar.new(CsvHdr::COUNTER                   ,  0, 's>')
     members << IntVar.new(padding_hdr                       ,  0, 's>')
     members << IntVar.new(padding_hdr                       ,  0, 's>')
-    members << IntVar.new(CsvHdr::EXP                       ,  0, 'S>')
+    members << IntVar.new(CsvHdr::EXP[0]                    ,  0, 'S>')
     members << IntVar.new(unknown_hdr                       ,  0, 'S>')
     members << IntVar.new(unknown_hdr                       ,  0, 'S>')
     members << IntVar.new(unknown_hdr                       ,  0, 'S>')
