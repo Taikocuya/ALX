@@ -40,7 +40,8 @@ module CsvHdr
   ID                 = 'Entry ID'
   
   MESSAGE_ID         = 'Message ID'
-  
+
+  NAME_EU_STR        = 'EU entry name'
   NAME_JP_STR        = 'JP entry name'
   NAME_US_STR        = 'US entry name'
   NAME_GB_SIZE       = '[GB entry name size]'
@@ -164,13 +165,47 @@ module CsvHdr
   
   STATE_ID           = 'Inflict state ID'
   STATE_NAME         = '[Inflict state name]'
-  
-  ATTACK             = 'Attack'
-  HIT                = 'Hit%'
-  LIMIT              = 'Limit'
-  SPIRIT             = 'Spirit'
-  CONSUME            = 'Consume%'
 
+  AGILE              = 'Agile'
+  ATTACK             = 'Attack'
+  BASE_HP_INCREASE   = 'Base MAXHP increase'
+  CONSUME            = 'Consume%'
+  COUNTER            = 'Counter%'
+  EXP                = 'EXP'
+  HIT                = 'Hit%'
+  HP                 = 'HP'
+  LIMIT              = 'Limit'
+  MAGIC_EXP          = Hash.new do |_h, _k|
+    _h[_k] = sprintf('%sEXP', _k && _k != '' ? "#{_k} " : '')
+  end
+  MAXHP              = 'MAXHP'
+  MAXMP              = 'MAXMP'
+  MAXSPIRIT          = 'MAXSpirit'
+  POWER              = 'Power'
+  QUICK              = 'Quick'
+  SPIRIT             = 'Spirit'
+  VIGOR              = 'Vigor'
+  WILL               = 'Will'
+
+  STATE              = Hash.new do |_h, _k|
+    _h[_k] = sprintf('State%s', _k && _k != 0 ? " ##{_k} " : '')
+  end
+
+  POISON             = 'Poison'
+  UNCONSCIOUS        = 'Unconscious'
+  STONE              = 'Stone'
+  SLEEP              = 'Sleep'
+  CONFUSION          = 'Confusion'
+  SILENCE            = 'Silence'
+  WEAK               = 'Weak'
+
+  WEAPON_ID          = 'Weapon ID'
+  WEAPON_NAME        = 'Weapon name'
+  ARMOR_ID           = 'Armor ID'
+  ARMOR_NAME         = 'Armor name'
+  ACCESSORY_ID       = 'Accessory ID'
+  ACCESSORY_NAME     = 'Accessory name'
+  
   POSITION_ID        = 'Position ID'
   POSITION_NAME      = '[Position name]'
   

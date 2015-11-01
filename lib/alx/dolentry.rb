@@ -41,8 +41,8 @@ class DolEntry < Entry
 
   public
 
-  # Constructs an MenuEntry.
-  # @param _region  [String] Region ID
+  # Constructs an DolEntry.
+  # @param _region [String] Region ID
   def initialize(_region)
     super(_region)
     members << IntDmy.new(CsvHdr::ID, -1)
@@ -120,7 +120,7 @@ class DolEntry < Entry
       _id
     end
   end
-  
+
 end	# class DolEntry
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
