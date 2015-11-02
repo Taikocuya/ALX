@@ -177,8 +177,23 @@ module CsvHdr
   HIT                = 'Hit%'
   HP                 = 'HP'
   LIMIT              = 'Limit'
-  MAGIC_EXP          = Hash.new do |_h, _k|
-    _h[_k] = sprintf('%sEXP', _k && _k != '' ? "#{_k} " : '')
+  GREEN_EXP          = Hash.new do |_h, _k|
+    _h[_k] = sprintf('Green EXP%s' , _k && _k != 0 ? " ##{_k} " : '')
+  end
+  RED_EXP            = Hash.new do |_h, _k|
+    _h[_k] = sprintf('Red EXP%s'   , _k && _k != 0 ? " ##{_k} " : '')
+  end
+  PURPLE_EXP         = Hash.new do |_h, _k|
+    _h[_k] = sprintf('Purple EXP%s', _k && _k != 0 ? " ##{_k} " : '')
+  end
+  BLUE_EXP           = Hash.new do |_h, _k|
+    _h[_k] = sprintf('Blue EXP%s'  , _k && _k != 0 ? " ##{_k} " : '')
+  end
+  YELLOW_EXP         = Hash.new do |_h, _k|
+    _h[_k] = sprintf('Yellow EXP%s', _k && _k != 0 ? " ##{_k} " : '')
+  end
+  SILVER_EXP         = Hash.new do |_h, _k|
+    _h[_k] = sprintf('Silver EXP%s', _k && _k != 0 ? " ##{_k} " : '')
   end
   MAXHP              = 'MAXHP'
   MAXMP              = 'MAXMP'
