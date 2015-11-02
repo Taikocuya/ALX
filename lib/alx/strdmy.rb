@@ -41,7 +41,7 @@ class StrDmy < DataMember
 
   public
 
-  # Constructs a DataMemberString
+  # Constructs a StrDmy
   # @param _name  [String]  Name
   # @param _value [String]  Value
   # @param _eol   [String]  End of line marker

@@ -25,6 +25,8 @@
 require('csv')
 require_relative('binarystringio.rb')
 require_relative('csvhdr.rb')
+require_relative('fltvar.rb')
+require_relative('fltdmy.rb')
 require_relative('intvar.rb')
 require_relative('intdmy.rb')
 require_relative('strvar.rb')

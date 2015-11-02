@@ -31,9 +31,9 @@ module ALX
 #==============================================================================
 #                                    CLASS
 #==============================================================================
-  
-# Class to handle a data member as string.
-class StrVar < DataMember
+
+# Class to handle a data member dummy as float.
+class FltDmy < DataMember
   
 #==============================================================================
 #                                   PUBLIC
@@ -41,59 +41,22 @@ class StrVar < DataMember
 
   public
 
-  # Constructs a StrVar
-  # @param _name  [String]  Name
-  # @param _value [String]  Value
-  # @param _size  [Integer] Size
-  # @param _eol   [String]  End of line marker
-  def initialize(_name, _value, _size, _eol = "\n")
-    super(_name, _value)
-    @size = _size
-    @eol  = _eol
-  end
-
-  # Reads one entry from a binary IO object.
-  # @param _f [BinaryIO] Binary IO object
-  def read_from_bin(_f)
-    super
-    @value = _f.read_str(@size)
-  end
-  
-  # Write one entry to a binary IO object.
-  # @param _f [BinaryIO] Binary IO object
-  def write_to_bin(_f)
-    super
-    _f.write_str(@value, @size)
-  end
-
   # Reads one entry from a CSV row.
   # @param _row [CSV::Row] CSV row
   def read_from_csv_row(_row)
     super
     @value = _row[@name] || @value
-    @value = @value.to_s
-    @value.force_encoding('UTF-8')
-    @value.gsub!('\n', @eol)
+    @value = @value.to_f
   end
 
   # Writes one entry to a CSV row.
   # @param _row [CSV::Row] CSV row
   def write_to_csv_row(_row)
     super
-    _value = @value.to_s
-    _value.force_encoding('UTF-8')
-    _value.gsub!(@eol, '\n')
-    _row[@name] = _value
+    _row[@name] = @value.to_f
   end
 
-#------------------------------------------------------------------------------
-# Public member variables
-#------------------------------------------------------------------------------
-
-  attr_accessor :size
-  attr_accessor :eol
-  
-end # class StrVar
+end # class IntDmy
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

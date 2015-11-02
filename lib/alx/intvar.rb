@@ -41,7 +41,7 @@ class IntVar < DataMember
 
   public
 
-  # Constructs a DataMemberInteger
+  # Constructs a IntVar
   # @param _name   [String]  Name
   # @param _value  [Integer] Value
   # @param _format [String]  Format
