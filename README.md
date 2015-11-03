@@ -9,11 +9,14 @@ data to and from CSV files.
 Features
 --------
 
-* Character skills (super moves and magic)
+* Character skills (Super Moves and Magic)
+* Character stats (EXP, Magic EXP and parameters)
 * Crew members
-* Enemy skills (super moves and magic)
+* Enemy ship stats
+* Enemy skills (Super Moves and Magic)
 * Items (accessories, armors, ship cannons, ship accessories, ship items, 
   special items, usable items and weapons)
+* Playable ship stats
 
 Prerequisites
 -------------
@@ -64,17 +67,37 @@ Exports the accessories to `share/*/accessories.csv`.
 
 Exports the armos to `share/*/armors.csv`.
 
+### exportcharacters.rb
+
+Exports the characters to `share/*/characters.csv`.
+
+### exportcharacterskills.rb
+
+Exports the character skills to `share/*/characterskills.csv`.
+
 ### exportcrewmembers.rb
 
 Exports the crew members to `share/*/crewmembers.csv`.
 
-### exportnpcskills.rb
+### exportenemyships.rb
 
-Exports the enemy skills to `share/*/npcskills.csv`.
+Exports the enemy ships to `share/*/enemyships.csv`.
 
-### exportpcskills.rb
+### exportenemyskills.rb
 
-Exports the playable character skills to `share/*/pcskills.csv`.
+Exports the enemy skills to `share/*/enemyskills.csv`.
+
+### exportexpcurves.rb
+
+Exports the EXP curves to `share/*/expcurves.csv`.
+
+### exportmagicexpcurves.rb
+
+Exports the Magic EXP curves to `share/*/magicexpcurves.csv`.
+
+### exportplayableships.rb
+
+Exports the playable ships to `share/*/playableships.csv`.
 
 ### exportshipcannons.rb
 
@@ -108,17 +131,37 @@ Imports the accessories to `share/*/&&systemdata/Start.dol`.
 
 Imports the armors to `share/*/&&systemdata/Start.dol`.
 
+### importcharacters.rb
+
+Imports the characters to `share/*/&&systemdata/Start.dol`.
+
+### importcharacterskills.rb
+
+Imports the character skills to `share/*/&&systemdata/Start.dol`.
+
 ### importcrewmembers.rb
 
 Imports the crew members to `share/*/&&systemdata/Start.dol`.
 
-### importnpcskills.rb
+### importenemyships.rb
+
+Imports the enemy ships to `share/*/&&systemdata/Start.dol`.
+
+### importenemyskills.rb
 
 Imports the enemy skills to `share/*/&&systemdata/Start.dol`.
 
-### importpcskills.rb
+### importexpcurves.rb
 
-Imports the playable character skills to `share/*/&&systemdata/Start.dol`.
+Imports the EXP curves to `share/*/battle/first.lmt`.
+
+### importmagicexpcurves.rb
+
+Imports the Magic EXP curves to `share/*/battle/first.lmt`.
+
+### importplayableships.rb
+
+Imports the playable ships to `share/*/&&systemdata/Start.dol`.
 
 ### importshipcannons.rb
 

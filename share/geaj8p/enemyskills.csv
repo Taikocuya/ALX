@@ -1,4 +1,4 @@
-Entry ID,JP entry name,Padding #1,Padding #2,Padding #3,Padding #4,Category ID,[Category name],Effect ID,[Effect name],Scope ID,[Scope name],Effect value #1 ,Effect value #2 ,Element ID,[Element name],Type ID,[Type name],Unknown #1,Unknown #2,Unknown #3,Hit%,Padding #5,Padding #6
+Entry ID,JP entry name,Padding #1,Padding #2,Padding #3,Padding #4,Category ID,[Category name],Effect ID,[Effect name],Scope ID,[Scope name],Effect value #1,Effect value #2,Element ID,[Element name],Type ID,[Type name],Unknown #1,Unknown #2,Unknown #3,Hit%,Padding #5,Padding #6
 0,アパ,0,0,0,0,1,Magic,21,Add Strengthen,3,One enemy,0,0,0,Green,0,Physical,0,0,0,0,0,0
 1,アポス,0,0,0,0,1,Magic,21,Add Strengthen,4,All enemies,0,0,0,Green,0,Physical,0,0,0,0,0,0
 2,サイレシャ,0,0,0,0,1,Magic,12,Add Silence,1,One ally,0,0,0,Green,0,Physical,1,1,5,40,0,0
