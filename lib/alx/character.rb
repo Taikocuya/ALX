@@ -65,7 +65,7 @@ class Character < DolEntry
       members << StrVar.new(CsvHdr::NAME_EU_STR   , '',   11)
     end
 
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
+    members << IntVar.new(CsvHdr::AGE             ,  0, 'c' )
     members << IntVar.new(unknown_hdr             ,  0, 'c' )
     members << IntVar.new(unknown_hdr             ,  0, 'c' )
     members << IntVar.new(unknown_hdr             ,  0, 'c' )

@@ -198,6 +198,7 @@ module CsvHdr
   STATE_ID            = 'Inflict state ID'
   STATE_NAME          = '[Inflict state name]'
 
+  AGE                 = 'Age'
   AGILE               = 'Agile'
   ATTACK              = 'Attack'
   BASE_HP_INCREASE    = 'Base MAXHP increase'
