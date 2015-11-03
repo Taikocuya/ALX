@@ -58,11 +58,11 @@ class Character < DolEntry
 
     case region
     when 'E'
-      members << StrVar.new(CsvHdr::NAME_US_STR             , '',   11)
+      members << StrVar.new(CsvHdr::NAME_US_STR   , '',   11)
     when 'J'
-      members << StrVar.new(CsvHdr::NAME_JP_STR             , '',   11)
+      members << StrVar.new(CsvHdr::NAME_JP_STR   , '',   11)
     when 'P'
-      members << StrVar.new(CsvHdr::NAME_EU_STR             , '',   11)
+      members << StrVar.new(CsvHdr::NAME_EU_STR   , '',   11)
     end
 
     members << IntVar.new(unknown_hdr             ,  0, 'c' )
@@ -132,13 +132,17 @@ class Character < DolEntry
     _id     = find_member(CsvHdr::WEAPON_ID).value
     _weapon = @weapon_data[_id]
     if _weapon
-      case region
-      when 'E'
-        _name = _weapon.find_member(CsvHdr::NAME_US_STR).value
-      when 'J'
-        _name = _weapon.find_member(CsvHdr::NAME_JP_STR).value
-      when 'P'
-        _name = _weapon.find_member(CsvHdr::NAME_GB_STR).value
+      if _id != -1
+        case region
+        when 'E'
+          _name = _weapon.find_member(CsvHdr::NAME_US_STR).value
+        when 'J'
+          _name = _weapon.find_member(CsvHdr::NAME_JP_STR).value
+        when 'P'
+          _name = _weapon.find_member(CsvHdr::NAME_GB_STR).value
+        end
+      else
+        _name = 'None'
       end
     else
       _name = '???'
@@ -148,13 +152,17 @@ class Character < DolEntry
     _id    = find_member(CsvHdr::ARMOR_ID).value
     _armor = @armor_data[_id]
     if _weapon
-      case region
-      when 'E'
-        _name = _armor.find_member(CsvHdr::NAME_US_STR).value
-      when 'J'
-        _name = _armor.find_member(CsvHdr::NAME_JP_STR).value
-      when 'P'
-        _name = _armor.find_member(CsvHdr::NAME_GB_STR).value
+      if _id != -1
+        case region
+        when 'E'
+          _name = _armor.find_member(CsvHdr::NAME_US_STR).value
+        when 'J'
+          _name = _armor.find_member(CsvHdr::NAME_JP_STR).value
+        when 'P'
+          _name = _armor.find_member(CsvHdr::NAME_GB_STR).value
+        end
+      else
+        _name = 'None'
       end
     else
       _name = '???'
@@ -164,13 +172,17 @@ class Character < DolEntry
     _id        = find_member(CsvHdr::ACCESSORY_ID).value
     _accessory = @accessory_data[_id]
     if _weapon
-      case region
-      when 'E'
-        _name = _accessory.find_member(CsvHdr::NAME_US_STR).value
-      when 'J'
-        _name = _accessory.find_member(CsvHdr::NAME_JP_STR).value
-      when 'P'
-        _name = _accessory.find_member(CsvHdr::NAME_GB_STR).value
+      if _id != -1
+        case region
+        when 'E'
+          _name = _accessory.find_member(CsvHdr::NAME_US_STR).value
+        when 'J'
+          _name = _accessory.find_member(CsvHdr::NAME_JP_STR).value
+        when 'P'
+          _name = _accessory.find_member(CsvHdr::NAME_GB_STR).value
+        end
+      else
+        _name = 'None'
       end
     else
       _name = '???'

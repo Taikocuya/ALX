@@ -49,26 +49,27 @@ class DolEntry < Entry
   end
 
   # Add name data members.
-  def add_name_members
+  # @param _size [Integer] Size of name data members
+  def add_name_members(_size = 17)
     case region
     when 'E'
-      members << StrVar.new(CsvHdr::NAME_US_STR , '',   17)
+      members << StrVar.new(CsvHdr::NAME_US_STR , '', _size)
     when 'J'
-      members << StrVar.new(CsvHdr::NAME_JP_STR , '',   17)
+      members << StrVar.new(CsvHdr::NAME_JP_STR , '', _size)
     when 'P'
-      members << IntVar.new(CsvHdr::MESSAGE_ID  ,  0, 'L>')
-      members << IntDmy.new(CsvHdr::NAME_DE_POS ,  0      )
-      members << IntDmy.new(CsvHdr::NAME_DE_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::NAME_DE_STR , '', '\n')
-      members << IntDmy.new(CsvHdr::NAME_ES_POS ,  0      )
-      members << IntDmy.new(CsvHdr::NAME_ES_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::NAME_ES_STR , '', '\n')
-      members << IntDmy.new(CsvHdr::NAME_FR_POS ,  0      )
-      members << IntDmy.new(CsvHdr::NAME_FR_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::NAME_FR_STR , '', '\n')
-      members << IntDmy.new(CsvHdr::NAME_GB_POS ,  0      )
-      members << IntDmy.new(CsvHdr::NAME_GB_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::NAME_GB_STR , '', '\n')
+      members << IntVar.new(CsvHdr::MESSAGE_ID  ,  0, 'L>' )
+      members << IntDmy.new(CsvHdr::NAME_DE_POS ,  0       )
+      members << IntDmy.new(CsvHdr::NAME_DE_SIZE,  0       )
+      members << StrDmy.new(CsvHdr::NAME_DE_STR , '', '\n' )
+      members << IntDmy.new(CsvHdr::NAME_ES_POS ,  0       )
+      members << IntDmy.new(CsvHdr::NAME_ES_SIZE,  0       )
+      members << StrDmy.new(CsvHdr::NAME_ES_STR , '', '\n' )
+      members << IntDmy.new(CsvHdr::NAME_FR_POS ,  0       )
+      members << IntDmy.new(CsvHdr::NAME_FR_SIZE,  0       )
+      members << StrDmy.new(CsvHdr::NAME_FR_STR , '', '\n' )
+      members << IntDmy.new(CsvHdr::NAME_GB_POS ,  0       )
+      members << IntDmy.new(CsvHdr::NAME_GB_SIZE,  0       )
+      members << StrDmy.new(CsvHdr::NAME_GB_STR , '', '\n' )
     end
   end
 
