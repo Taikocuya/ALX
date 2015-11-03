@@ -48,10 +48,11 @@ class ShipCannon < DolEntry
 
   # Type IDs
   TYPES = Hash.new('???')
-  TYPES.store(0, 'Main cannon'     )
-  TYPES.store(1, 'Secondary cannon')
-  TYPES.store(2, 'Torpedo'         )
-  TYPES.store(3, 'Special'         )
+  TYPES.store(-1, 'None'            )
+  TYPES.store( 0, 'Main cannon'     )
+  TYPES.store( 1, 'Secondary cannon')
+  TYPES.store( 2, 'Torpedo'         )
+  TYPES.store( 3, 'Special'         )
 
 #==============================================================================
 #                                   PUBLIC

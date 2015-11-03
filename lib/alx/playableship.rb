@@ -58,7 +58,7 @@ class PlayableShip < DolEntry
 
     members << IntVar.new(padding_hdr                      ,  0, 'c' )
     members << IntVar.new(padding_hdr                      ,  0, 'c' )
-    members << IntVar.new(CsvHdr::HP                       ,  0, 'S>')
+    members << IntVar.new(CsvHdr::MAXHP                    ,  0, 'S>')
     members << IntVar.new(CsvHdr::MAXSPIRIT                ,  0, 's>')
     members << IntVar.new(CsvHdr::SPIRIT                   ,  0, 's>')
     members << IntVar.new(CsvHdr::DEFENSE                  ,  0, 's>')

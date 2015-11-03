@@ -108,7 +108,7 @@ class CharacterSkillData < DolEntryData
     @ship_dscr_ranges = SHIP_DSCR_RANGES
   end
 
-  # Reads all ship_description entries from a binary file.
+  # Reads all ship description entries from a binary file.
   # @param _filename [String] File name
   def load_ship_dscr_from_bin(_filename)
     print("\n")
