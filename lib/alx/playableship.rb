@@ -70,11 +70,11 @@ class PlayableShip < DolEntry
       members << IntVar.new(ELEMENTS[_i]                   ,  0, 's>')
     end
     (1..5).each do |_i|
-      members << IntVar.new(CsvHdr::SHIP_CANNON_ID[_i]     ,  0, 's>')
+      members << IntVar.new(CsvHdr::SHIP_CANNON_ID[_i]     , -1, 's>')
       members << StrDmy.new(CsvHdr::SHIP_CANNON_NAME[_i]   , ''      )
     end
     (1..3).each do |_i|
-      members << IntVar.new(CsvHdr::SHIP_ACCESSORY_ID[_i]  ,  0, 's>')
+      members << IntVar.new(CsvHdr::SHIP_ACCESSORY_ID[_i]  , -1, 's>')
       members << StrDmy.new(CsvHdr::SHIP_ACCESSORY_NAME[_i], ''      )
     end
 
