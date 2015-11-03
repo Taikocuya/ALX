@@ -10,7 +10,7 @@ Features
 --------
 
 * Character skills (Super Moves and Magic)
-* Character stats (EXP, Magic EXP and parameters)
+* Character stats (EXP curves, Magic EXP curves and parameters)
 * Crew members
 * Enemy ship stats
 * Enemy skills (Super Moves and Magic)
