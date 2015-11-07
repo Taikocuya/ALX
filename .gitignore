@@ -12,9 +12,11 @@ Thumbs.db
 .project
 
 # ALX
+/build/
 /share/geae8p/*
 /share/geaj8p/*
 /share/geap8p/*
+/thirdparty/
 !/share/geae8p/*.csv
 !/share/geaj8p/*.csv
 !/share/geap8p/*.csv
