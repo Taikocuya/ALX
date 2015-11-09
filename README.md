@@ -59,6 +59,10 @@ Commands
 
 All commands respectively scripts can be found in the `bin` directory. 
 
+### export.rb
+
+Executes all export commands in `bin`.
+
 ### exportaccessories.rb
 
 Exports the accessories to `share/*/accessories.csv`.
@@ -122,6 +126,10 @@ Exports the usable items to `share/*/usableitems.csv`.
 ### exportweapons.rb
 
 Exports the weapons to `share/*/weapons.csv`.
+
+### import.rb
+
+Executes all import commands in `bin`.
 
 ### importaccessories.rb
 

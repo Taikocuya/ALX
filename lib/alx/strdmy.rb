@@ -54,20 +54,20 @@ class StrDmy < DataMember
   # @param _row [CSV::Row] CSV row
   def read_from_csv_row(_row)
     super
-    @value = _row[@name] || @value
-    @value = @value.to_s
-    @value.force_encoding('UTF-8')
-    @value.gsub!('\n', @eol)
+    self.value = _row[self.name] || self.value
+    self.value = self.value.to_s
+    self.value.force_encoding('UTF-8')
+    self.value.gsub!('\n', @eol)
   end
 
   # Writes one entry to a CSV row.
   # @param _row [CSV::Row] CSV row
   def write_to_csv_row(_row)
     super
-    _value = @value.to_s
+    _value = self.value.to_s
     _value.force_encoding('UTF-8')
     _value.gsub!(@eol, '\n')
-    _row[@name] = _value
+    _row[self.name] = _value
   end
 
 #------------------------------------------------------------------------------

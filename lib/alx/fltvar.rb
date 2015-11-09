@@ -54,29 +54,29 @@ class FltVar < DataMember
   # @param _f [BinaryIO] Binary IO object
   def read_from_bin(_f)
     super
-    @value = _f.read_int(@format)
+    self.value = _f.read_int(@format)
   end
   
   # Write one entry to a binary IO object.
   # @param _f [BinaryIO] Binary IO object
   def write_to_bin(_f)
     super
-    _f.write_int(@value, @format)
+    _f.write_int(self.value, @format)
   end
 
   # Reads one entry from a CSV row.
   # @param _row [CSV::Row] CSV row
   def read_from_csv_row(_row)
     super
-    @value = _row[@name] || @value
-    @value = @value.to_f
+    self.value = _row[self.name] || self.value
+    self.value = self.value.to_f
   end
 
   # Writes one entry to a CSV row.
   # @param _row [CSV::Row] CSV row
   def write_to_csv_row(_row)
     super
-    _row[@name] = @value.to_f
+    _row[self.name] = self.value.to_f
   end
 
 #------------------------------------------------------------------------------

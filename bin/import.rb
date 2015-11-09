@@ -23,7 +23,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/magicexpcurvetransform.rb')
+require_relative('../lib/alx/entrytransform.rb')
+require_relative('../lib/alx/executable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,27 +34,56 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to import Magic EXP curves from CSV files.
-class MagicExpCurveImporter < MagicExpCurveTransform
+# Class to import weapons from CSV files.
+class Importer
+  
+#==============================================================================
+#                                   INCLUDES
+#==============================================================================
+
+  include(Executable)
+
+#==============================================================================
+#                                  CONSTANTS
+#==============================================================================
+
+  # Executables of importers
+  EXEC_FILES = File.join(File.join(File.dirname(__FILE__)), 'import[a-z]*.rb')
 
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
-
-  def valid?(_root)
-    _result   = super
-    _result &&= has_file?(File.join(_root.path, MagicExpCurveData::CSV_FILE))
-    _result
-  end
-
-  def exec
+  
+  def initialize
     super
-    transform_csv_to_bin
+    @exec_files = Dir.glob(EXEC_FILES)
+    @exec_files.select! do |_p|
+      File.file?(_p)
+    end
+  end
+  
+  def valid?
+    print("\n")
+
+    _valid = true
+    @exec_files.each do |_p|
+      _valid &&= has_file?(_p)
+    end
+
+    _valid
+  end
+  
+  def exec
+    if valid?
+      @exec_files.each do |_p|
+        require(_p)
+      end
+    end
   end
 
-end	# class MagicExpCurveImporter
+end	# class WeaponImporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -61,9 +91,9 @@ end	# module ALX
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-if __FILE__ == $0 || Object.const_defined?('ALX::Importer')
+if __FILE__ == $0
   begin
-    _importer = ALX::MagicExpCurveImporter.new
+    _importer = ALX::Importer.new
     _importer.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")

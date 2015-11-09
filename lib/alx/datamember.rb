@@ -39,8 +39,8 @@ class DataMember
   # @param _name  [String]         Name
   # @param _value [Integer,String] Value
   def initialize(_name, _value)
-    @name  = _name
-    @value = _value
+    @name  = _name.dup
+    @value = !_value.is_a?(Numeric) ? _value.dup : _value
   end
 
   # Reads one entry from a binary IO object.
