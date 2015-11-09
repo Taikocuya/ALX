@@ -24,6 +24,7 @@
 #==============================================================================
 
 require('fileutils')
+require_relative('../../lib/alx/entrydata.rb')
 require_relative('../../lib/alx/entrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -50,17 +51,17 @@ class BackupRestorer
   # Path to 'share' directory
   SHARE_DIR   = EntryTransform::SHARE_DIR
   # Path to DOL file relative to game root.
-  DOL_FILE    = EntryTransform::DOL_FILE
+  DOL_FILE    = EntryData::DOL_FILE
   # Path to LMT file relative to game root.
-  LMT_FILE    = EntryTransform::LMT_FILE
+  LMT_FILE    = EntryData::LMT_FILE
   # Path to German SOT file relative to game root (PAL-E only).
-  SOT_FILE_DE = EntryTransform::SOT_FILE_DE
+  SOT_FILE_DE = EntryData::SOT_FILE_DE
   # Path to Spanish SOT file relative to game root (PAL-E only).
-  SOT_FILE_ES = EntryTransform::SOT_FILE_ES
+  SOT_FILE_ES = EntryData::SOT_FILE_ES
   # Path to French SOT file relative to game root (PAL-E only).
-  SOT_FILE_FR = EntryTransform::SOT_FILE_FR
+  SOT_FILE_FR = EntryData::SOT_FILE_FR
   # Path to English SOT file relative to game root (PAL-E only).
-  SOT_FILE_GB = EntryTransform::SOT_FILE_GB
+  SOT_FILE_GB = EntryData::SOT_FILE_GB
 
 #==============================================================================
 #                                   PUBLIC

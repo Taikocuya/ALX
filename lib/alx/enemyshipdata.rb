@@ -53,28 +53,28 @@ class EnemyShipData < StdEntryData
 
   # Offset ranges of data entries
   BIN_FILES_DATA = {
-    'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2d3934...0x2d4e4c),
-    'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2d3574...0x2d4a8c),
-    'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f6d14...0x2f7f5c),
+    'E' => DataRange.new(DOL_FILE, 0x2d3934...0x2d4e4c),
+    'J' => DataRange.new(DOL_FILE, 0x2d3574...0x2d4a8c),
+    'P' => DataRange.new(DOL_FILE, 0x2f6d14...0x2f7f5c),
   }
 
   # Offset ranges of name entries
   BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1e635...0x1e809),
-      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1e3a6...0x1e57b),
-      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1e5f7...0x1e7cc),
-      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1dc7e...0x1de53),
+      DataRange.new(SOT_FILE_DE, 0x1e635...0x1e809),
+      DataRange.new(SOT_FILE_ES, 0x1e3a6...0x1e57b),
+      DataRange.new(SOT_FILE_FR, 0x1e5f7...0x1e7cc),
+      DataRange.new(SOT_FILE_GB, 0x1dc7e...0x1de53),
     ],
   }
 
   # Offset ranges of armament name entries
   ARM_BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1ee0b...0x1f3e5),
-      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1ec0e...0x1f1da),
-      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1ee27...0x1f3f9),
-      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1e473...0x1ea0d),
+      DataRange.new(SOT_FILE_DE, 0x1ee0b...0x1f3e5),
+      DataRange.new(SOT_FILE_ES, 0x1ec0e...0x1f1da),
+      DataRange.new(SOT_FILE_FR, 0x1ee27...0x1f3f9),
+      DataRange.new(SOT_FILE_GB, 0x1e473...0x1ea0d),
     ],
   }
 

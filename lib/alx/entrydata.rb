@@ -39,6 +39,19 @@ class EntryData
 #                                  CONSTANTS
 #==============================================================================
 
+  # Path to DOL file relative to game root.
+  DOL_FILE       = '&&systemdata/Start.dol'
+  # Path to LMT file relative to game root.
+  LMT_FILE       = 'battle/first.lmt'
+  # Path to German SOT file relative to game root (PAL-E only).
+  SOT_FILE_DE    = 'german.sot'
+  # Path to Spanish SOT file relative to game root (PAL-E only).
+  SOT_FILE_ES    = 'spanish.sot'
+  # Path to French SOT file relative to game root (PAL-E only).
+  SOT_FILE_FR    = 'french.sot'
+  # Path to English SOT file relative to game root (PAL-E only).
+  SOT_FILE_GB    = 'english.sot'
+  
   STR_OPEN       = 'Opening file "%s" to %s %s...'
   STR_OPEN_READ  = 'read'
   STR_OPEN_WRITE = 'write'

@@ -48,9 +48,9 @@ class CharacterData < StdEntryData
 
   # Offset ranges of data entries
   BIN_FILES_DATA = {
-    'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c1860...0x2c1bf0),
-    'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c0d58...0x2c10e8),
-    'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2c2ff0...0x2c3380),
+    'E' => DataRange.new(DOL_FILE, 0x2c1860...0x2c1bf0),
+    'J' => DataRange.new(DOL_FILE, 0x2c0d58...0x2c10e8),
+    'P' => DataRange.new(DOL_FILE, 0x2c2ff0...0x2c3380),
   }
 
   # Path to CSV file

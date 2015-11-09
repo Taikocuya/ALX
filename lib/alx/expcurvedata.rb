@@ -46,9 +46,9 @@ class ExpCurveData < StdEntryData
 
   # Offset ranges of data entries
   BIN_FILES_DATA = {
-    'E' => DataRange.new(EntryTransform::LMT_FILE, 0x000...0x948),
-    'J' => DataRange.new(EntryTransform::LMT_FILE, 0x000...0x948),
-    'P' => DataRange.new(EntryTransform::LMT_FILE, 0x000...0x948),
+    'E' => DataRange.new(LMT_FILE, 0x000...0x948),
+    'J' => DataRange.new(LMT_FILE, 0x000...0x948),
+    'P' => DataRange.new(LMT_FILE, 0x000...0x948),
   }
 
   # Path to CSV file

@@ -46,18 +46,18 @@ class EnemySkillData < StdEntryData
 
   # Offset ranges of data entries
   BIN_FILES_DATA = {
-    'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2aa440...0x2ad4c4),
-    'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2a9ee8...0x2acf6c),
-    'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2d9398...0x2dae8c),
+    'E' => DataRange.new(DOL_FILE, 0x2aa440...0x2ad4c4),
+    'J' => DataRange.new(DOL_FILE, 0x2a9ee8...0x2acf6c),
+    'P' => DataRange.new(DOL_FILE, 0x2d9398...0x2dae8c),
   }
 
   # Offset ranges of name entries
   BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_FILE_DE, 0x13d6...0x2079),
-      DataRange.new(EntryTransform::SOT_FILE_ES, 0x13c9...0x215d),
-      DataRange.new(EntryTransform::SOT_FILE_FR, 0x13cb...0x211a),
-      DataRange.new(EntryTransform::SOT_FILE_GB, 0x13c6...0x1ff8),
+      DataRange.new(SOT_FILE_DE, 0x13d6...0x2079),
+      DataRange.new(SOT_FILE_ES, 0x13c9...0x215d),
+      DataRange.new(SOT_FILE_FR, 0x13cb...0x211a),
+      DataRange.new(SOT_FILE_GB, 0x13c6...0x1ff8),
     ],
   }
 

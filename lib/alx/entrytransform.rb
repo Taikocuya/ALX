@@ -23,6 +23,7 @@
 #==============================================================================
 
 require_relative('bnrfile.rb')
+require_relative('entrydata.rb')
 require_relative('executable.rb')
 require_relative('gameroot.rb')
 require_relative('hdrfile.rb')
@@ -63,21 +64,9 @@ class EntryTransform
   
   # Path to BNR file relative to game root.
   BNR_FILE       = 'opening.bnr'
-  # Path to DOL file relative to game root.
-  DOL_FILE       = '&&systemdata/Start.dol'
   # Path to HDR file relative to game root.
   HDR_FILE       = '&&systemdata/ISO.hdr'
-  # Path to LMT file relative to game root.
-  LMT_FILE       = 'battle/first.lmt'
-  # Path to German SOT file relative to game root (PAL-E only).
-  SOT_FILE_DE    = 'german.sot'
-  # Path to Spanish SOT file relative to game root (PAL-E only).
-  SOT_FILE_ES    = 'spanish.sot'
-  # Path to French SOT file relative to game root (PAL-E only).
-  SOT_FILE_FR    = 'french.sot'
-  # Path to English SOT file relative to game root (PAL-E only).
-  SOT_FILE_GB    = 'english.sot'
-  
+
   # Game ID
   GAME_ID        = 'GEA'
   # Region IDs
@@ -160,14 +149,14 @@ class EntryTransform
     _valid &&= has_dir?(_path)
     _valid &&= check_bnr(_bnr)
     _valid &&= check_hdr(_hdr)
-    _valid &&= has_file?(File.join(_path, DOL_FILE))
-    _valid &&= has_file?(File.join(_path, LMT_FILE))
+    _valid &&= has_file?(File.join(_path, EntryData::DOL_FILE))
+    _valid &&= has_file?(File.join(_path, EntryData::LMT_FILE))
     
     if _hdr.region_id == 'P'
-      _valid &&= has_file?(File.join(_path, SOT_FILE_GB))
-      _valid &&= has_file?(File.join(_path, SOT_FILE_DE))
-      _valid &&= has_file?(File.join(_path, SOT_FILE_ES))
-      _valid &&= has_file?(File.join(_path, SOT_FILE_FR))
+      _valid &&= has_file?(File.join(_path, EntryData::SOT_FILE_GB))
+      _valid &&= has_file?(File.join(_path, EntryData::SOT_FILE_DE))
+      _valid &&= has_file?(File.join(_path, EntryData::SOT_FILE_ES))
+      _valid &&= has_file?(File.join(_path, EntryData::SOT_FILE_FR))
     end
     
     _valid

@@ -550,10 +550,10 @@ class StdEntryData < EntryData
   # @param _filename [String] Filename
   # @return [String] PAL-E language
   def determine_lang(_filename)
-    return 'DE' if _filename.include?(EntryTransform::SOT_FILE_DE)
-    return 'ES' if _filename.include?(EntryTransform::SOT_FILE_ES)
-    return 'FR' if _filename.include?(EntryTransform::SOT_FILE_FR)
-    return 'GB' if _filename.include?(EntryTransform::SOT_FILE_GB)
+    return 'DE' if _filename.include?(SOT_FILE_DE)
+    return 'ES' if _filename.include?(SOT_FILE_ES)
+    return 'FR' if _filename.include?(SOT_FILE_FR)
+    return 'GB' if _filename.include?(SOT_FILE_GB)
     return ''
   end
   

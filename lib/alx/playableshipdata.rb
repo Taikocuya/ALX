@@ -47,18 +47,18 @@ class PlayableShipData < StdEntryData
 
   # Offset ranges of data entries
   BIN_FILES_DATA = {
-    'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2d3740...0x2d3934),
-    'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2d3380...0x2d3574),
-    'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f6b70...0x2f6d14),
+    'E' => DataRange.new(DOL_FILE, 0x2d3740...0x2d3934),
+    'J' => DataRange.new(DOL_FILE, 0x2d3380...0x2d3574),
+    'P' => DataRange.new(DOL_FILE, 0x2f6b70...0x2f6d14),
   }
 
   # Offset ranges of name entries
   BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1e5ff...0x1e635),
-      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1e370...0x1e3a6),
-      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1e5c1...0x1e5f7),
-      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1dc48...0x1dc7e),
+      DataRange.new(SOT_FILE_DE, 0x1e5ff...0x1e635),
+      DataRange.new(SOT_FILE_ES, 0x1e370...0x1e3a6),
+      DataRange.new(SOT_FILE_FR, 0x1e5c1...0x1e5f7),
+      DataRange.new(SOT_FILE_GB, 0x1dc48...0x1dc7e),
     ],
   }
 

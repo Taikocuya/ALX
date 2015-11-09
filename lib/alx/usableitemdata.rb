@@ -46,34 +46,34 @@ class UsableItemData < StdEntryData
 
   # Offset ranges of data entries
   BIN_FILES_DATA = {
-    'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c4c34...0x2c5774),
-    'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c412c...0x2c4c6c),
-    'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f4328...0x2f4aa8),
+    'E' => DataRange.new(DOL_FILE, 0x2c4c34...0x2c5774),
+    'J' => DataRange.new(DOL_FILE, 0x2c412c...0x2c4c6c),
+    'P' => DataRange.new(DOL_FILE, 0x2f4328...0x2f4aa8),
   }
 
   # Offset ranges of name entries
   BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1db1c...0x1dede),
-      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1d83d...0x1dc62),
-      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1daa2...0x1ded3),
-      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1d194...0x1d556),
+      DataRange.new(SOT_FILE_DE, 0x1db1c...0x1dede),
+      DataRange.new(SOT_FILE_ES, 0x1d83d...0x1dc62),
+      DataRange.new(SOT_FILE_FR, 0x1daa2...0x1ded3),
+      DataRange.new(SOT_FILE_GB, 0x1d194...0x1d556),
     ],
   }
 
   # Offset ranges of description entries
   BIN_FILES_DSCR = {
     'E' => DataRange.new(
-      EntryTransform::DOL_FILE, 0x2cbc88...0x2cd4ec, (0x12d..0x130).to_a
+      DOL_FILE, 0x2cbc88...0x2cd4ec, (0x12d..0x130).to_a
     ),
     'J' => DataRange.new(
-      EntryTransform::DOL_FILE, 0x2cba54...0x2cd644, (0x12e..0x130).to_a
+      DOL_FILE, 0x2cba54...0x2cd644, (0x12e..0x130).to_a
     ),
     'P' => [
-      DataRange.new(EntryTransform::SOT_FILE_DE, 0x16979...0x18262),
-      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1652e...0x17e6f),
-      DataRange.new(EntryTransform::SOT_FILE_FR, 0x16635...0x17f59),
-      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1613d...0x179f9),
+      DataRange.new(SOT_FILE_DE, 0x16979...0x18262),
+      DataRange.new(SOT_FILE_ES, 0x1652e...0x17e6f),
+      DataRange.new(SOT_FILE_FR, 0x16635...0x17f59),
+      DataRange.new(SOT_FILE_GB, 0x1613d...0x179f9),
     ],
   }
 

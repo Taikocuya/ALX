@@ -46,9 +46,9 @@ class MagicExpCurveData < StdEntryData
 
   # Offset ranges of data entries
   BIN_FILES_DATA = {
-    'E' => DataRange.new(EntryTransform::LMT_FILE, 0x948...0xaf8),
-    'J' => DataRange.new(EntryTransform::LMT_FILE, 0x948...0xaf8),
-    'P' => DataRange.new(EntryTransform::LMT_FILE, 0x948...0xaf8),
+    'E' => DataRange.new(LMT_FILE, 0x948...0xaf8),
+    'J' => DataRange.new(LMT_FILE, 0x948...0xaf8),
+    'P' => DataRange.new(LMT_FILE, 0x948...0xaf8),
   }
 
   # Path to CSV file

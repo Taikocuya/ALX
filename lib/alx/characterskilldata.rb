@@ -46,48 +46,48 @@ class CharacterSkillData < StdEntryData
 
   # Offset ranges of data entries
   BIN_FILES_DATA = {
-    'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c1bf0...0x2c2790),
-    'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c10e8...0x2c1c88),
-    'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f22b0...0x2f2b68),
+    'E' => DataRange.new(DOL_FILE, 0x2c1bf0...0x2c2790),
+    'J' => DataRange.new(DOL_FILE, 0x2c10e8...0x2c1c88),
+    'P' => DataRange.new(DOL_FILE, 0x2f22b0...0x2f2b68),
   }
 
   # Offset ranges of name entries
   BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1cc3a...0x1ce93),
-      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1c88d...0x1cb04),
-      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1cafd...0x1cd83),
-      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1c2f4...0x1c555),
+      DataRange.new(SOT_FILE_DE, 0x1cc3a...0x1ce93),
+      DataRange.new(SOT_FILE_ES, 0x1c88d...0x1cb04),
+      DataRange.new(SOT_FILE_FR, 0x1cafd...0x1cd83),
+      DataRange.new(SOT_FILE_GB, 0x1c2f4...0x1c555),
     ],
   }
 
   # Offset ranges of description entries
   BIN_FILES_DSCR = {
-    'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c6668...0x2c7d9c),
-    'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c5b60...0x2c72c0),
+    'E' => DataRange.new(DOL_FILE, 0x2c6668...0x2c7d9c),
+    'J' => DataRange.new(DOL_FILE, 0x2c5b60...0x2c72c0),
     'P' => [
-      DataRange.new(EntryTransform::SOT_FILE_DE, 0x11025...0x126e4),
-      DataRange.new(EntryTransform::SOT_FILE_ES, 0x10d2f...0x12410),
-      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1093f...0x1244e),
-      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1093f...0x12056),
+      DataRange.new(SOT_FILE_DE, 0x11025...0x126e4),
+      DataRange.new(SOT_FILE_ES, 0x10d2f...0x12410),
+      DataRange.new(SOT_FILE_FR, 0x1093f...0x1244e),
+      DataRange.new(SOT_FILE_GB, 0x1093f...0x12056),
     ],
   }
 
   # Offset ranges of ship description entries
   BIN_FILES_DSCR_SHIP = {
     'E' => DataRange.new(
-      EntryTransform::DOL_FILE, 0x2d05c4...0x2d0ef4,
+      DOL_FILE, 0x2d05c4...0x2d0ef4,
       [0x8, 0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
     ),
     'J' => DataRange.new(
-      EntryTransform::DOL_FILE, 0x2d058c...0x2d0dcc,
+      DOL_FILE, 0x2d058c...0x2d0dcc,
       [0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
     ),
     'P' => [
-      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1b603...0x1c085),
-      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1b23a...0x1bc6f),
-      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1b3e9...0x1be6e),
-      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1ad4b...0x1b766),
+      DataRange.new(SOT_FILE_DE, 0x1b603...0x1c085),
+      DataRange.new(SOT_FILE_ES, 0x1b23a...0x1bc6f),
+      DataRange.new(SOT_FILE_FR, 0x1b3e9...0x1be6e),
+      DataRange.new(SOT_FILE_GB, 0x1ad4b...0x1b766),
     ],
   }
 
