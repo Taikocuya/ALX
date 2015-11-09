@@ -22,8 +22,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('dolentrytransform.rb')
 require_relative('magicexpcurvedata.rb')
+require_relative('stdentrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,14 +34,7 @@ module ALX
 #==============================================================================
 
 # Base class to export and/or import Magic EXP curves to and/or from CSV files.
-class MagicExpCurveTransform < DolEntryTransform
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Path to CSV file
-  CSV_FILE = 'magicexpcurves.csv'
+class MagicExpCurveTransform < StdEntryTransform
 
 #==============================================================================
 #                                   PUBLIC

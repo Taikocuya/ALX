@@ -23,7 +23,7 @@
 #==============================================================================
 
 require_relative('entrytransform.rb')
-require_relative('dolentrydata.rb')
+require_relative('stdentrydata.rb')
 require_relative('usableitem.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -35,7 +35,7 @@ module ALX
 #==============================================================================
 
 # Class to handle usable items from binary and/or CSV files.
-class UsableItemData < DolEntryData
+class UsableItemData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -45,24 +45,24 @@ class UsableItemData < DolEntryData
   ID_RANGE    = 0xf0...0x140
 
   # Offset ranges of data entries
-  DATA_RANGES = {
+  BIN_FILES_DATA = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c4c34...0x2c5774),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c412c...0x2c4c6c),
     'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f4328...0x2f4aa8),
   }
 
   # Offset ranges of name entries
-  NAME_RANGES = {
+  BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1db1c...0x1dede),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1d83d...0x1dc62),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1daa2...0x1ded3),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1d194...0x1d556),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1db1c...0x1dede),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1d83d...0x1dc62),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1daa2...0x1ded3),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1d194...0x1d556),
     ],
   }
 
   # Offset ranges of description entries
-  DSCR_RANGES = {
+  BIN_FILES_DSCR = {
     'E' => DataRange.new(
       EntryTransform::DOL_FILE, 0x2cbc88...0x2cd4ec, (0x12d..0x130).to_a
     ),
@@ -70,12 +70,15 @@ class UsableItemData < DolEntryData
       EntryTransform::DOL_FILE, 0x2cba54...0x2cd644, (0x12e..0x130).to_a
     ),
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x16979...0x18262),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1652e...0x17e6f),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x16635...0x17f59),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1613d...0x179f9),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x16979...0x18262),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1652e...0x17e6f),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x16635...0x17f59),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1613d...0x179f9),
     ],
   }
+
+  # Path to CSV file
+  CSV_FILE = 'usableitems.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -87,10 +90,11 @@ class UsableItemData < DolEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(UsableItem, _root)
-    self.id_range    = ID_RANGE
-    self.data_ranges = DATA_RANGES
-    self.name_ranges = NAME_RANGES
-    self.dscr_ranges = DSCR_RANGES
+    self.id_range        = ID_RANGE
+    self.bin_files_data  = BIN_FILES_DATA
+    self.bin_files_names = BIN_FILES_NAMES
+    self.bin_files_dscr  = BIN_FILES_DSCR
+    self.csv_file        = CSV_FILE
   end
 
 end # class UsableItemData

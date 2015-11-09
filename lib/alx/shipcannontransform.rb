@@ -22,8 +22,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('dolentrytransform.rb')
 require_relative('shipcannondata.rb')
+require_relative('stdentrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,14 +34,7 @@ module ALX
 #==============================================================================
 
 # Base class to export and/or import ship cannons to and/or from CSV files.
-class ShipCannonTransform < DolEntryTransform
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Path to CSV file
-  CSV_FILE = 'shipcannons.csv'
+class ShipCannonTransform < StdEntryTransform
 
 #==============================================================================
 #                                   PUBLIC

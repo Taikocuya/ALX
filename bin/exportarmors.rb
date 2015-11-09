@@ -44,7 +44,7 @@ class ArmorExporter < ArmorTransform
 
   def exec
     super
-    transform_bin_to_csv(CSV_FILE)
+    transform_bin_to_csv
   end
 
 end	# class ArmorExporter
@@ -57,8 +57,8 @@ end	# module ALX
 
 if __FILE__ == $0
   begin
-    _ae = ALX::ArmorExporter.new
-    _ae.exec
+    _exporter = ALX::ArmorExporter.new
+    _exporter.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end

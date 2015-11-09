@@ -23,8 +23,8 @@
 #==============================================================================
 
 require_relative('characterskill.rb')
-require_relative('dolentrydata.rb')
 require_relative('entrytransform.rb')
+require_relative('stdentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,7 +35,7 @@ module ALX
 #==============================================================================
 
 # Class to handle character skills from binary and/or CSV files.
-class CharacterSkillData < DolEntryData
+class CharacterSkillData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -45,36 +45,36 @@ class CharacterSkillData < DolEntryData
   ID_RANGE    = 0x0...0x3e
 
   # Offset ranges of data entries
-  DATA_RANGES = {
+  BIN_FILES_DATA = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c1bf0...0x2c2790),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c10e8...0x2c1c88),
     'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f22b0...0x2f2b68),
   }
 
   # Offset ranges of name entries
-  NAME_RANGES = {
+  BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1cc3a...0x1ce93),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1c88d...0x1cb04),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1cafd...0x1cd83),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1c2f4...0x1c555),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1cc3a...0x1ce93),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1c88d...0x1cb04),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1cafd...0x1cd83),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1c2f4...0x1c555),
     ],
   }
 
   # Offset ranges of description entries
-  DSCR_RANGES = {
+  BIN_FILES_DSCR = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c6668...0x2c7d9c),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c5b60...0x2c72c0),
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x11025...0x126e4),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x10d2f...0x12410),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1093f...0x1244e),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1093f...0x12056),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x11025...0x126e4),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x10d2f...0x12410),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1093f...0x1244e),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1093f...0x12056),
     ],
   }
 
   # Offset ranges of ship description entries
-  SHIP_DSCR_RANGES = {
+  BIN_FILES_DSCR_SHIP = {
     'E' => DataRange.new(
       EntryTransform::DOL_FILE, 0x2d05c4...0x2d0ef4,
       [0x8, 0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
@@ -84,13 +84,16 @@ class CharacterSkillData < DolEntryData
       [0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
     ),
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1b603...0x1c085),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1b23a...0x1bc6f),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1b3e9...0x1be6e),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1ad4b...0x1b766),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1b603...0x1c085),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1b23a...0x1bc6f),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1b3e9...0x1be6e),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1ad4b...0x1b766),
     ],
   }
-  
+
+  # Path to CSV file
+  CSV_FILE = 'characterskills.csv'
+
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
@@ -101,11 +104,12 @@ class CharacterSkillData < DolEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(CharacterSkill, _root)
-    self.id_range     = ID_RANGE
-    self.data_ranges  = DATA_RANGES
-    self.name_ranges  = NAME_RANGES
-    self.dscr_ranges  = DSCR_RANGES
-    @ship_dscr_ranges = SHIP_DSCR_RANGES
+    self.id_range        = ID_RANGE
+    self.bin_files_data  = BIN_FILES_DATA
+    self.bin_files_names = BIN_FILES_NAMES
+    self.bin_files_dscr  = BIN_FILES_DSCR
+    self.csv_file        = CSV_FILE
+    @bin_files_dscr_ship = BIN_FILES_DSCR_SHIP
   end
 
   # Reads all ship description entries from a binary file.
@@ -115,7 +119,7 @@ class CharacterSkillData < DolEntryData
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DSCR))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@ship_dscr_ranges[region], _filename)
+      _range = determine_range(@bin_files_dscr_ship[region], _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
@@ -173,10 +177,10 @@ class CharacterSkillData < DolEntryData
   end
 
   # Reads all entries from binary files.
-  def load_from_bins
+  def load_all_from_bin
     super
   
-    _ranges = @ship_dscr_ranges[region]
+    _ranges = @bin_files_dscr_ship[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -199,7 +203,7 @@ class CharacterSkillData < DolEntryData
   
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@ship_dscr_ranges[region], _filename) 
+      _range = determine_range(@bin_files_dscr_ship[region], _filename) 
   
       @data.each do |_id, _entry|
         if _id < @id_range.begin && _id >= @id_range.end
@@ -265,10 +269,10 @@ class CharacterSkillData < DolEntryData
   end
     
   # Writes all entries to binary files.
-  def save_to_bins
+  def save_all_to_bin
     super
   
-    _ranges = @ship_dscr_ranges[region]
+    _ranges = @bin_files_dscr_ship[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -283,7 +287,7 @@ class CharacterSkillData < DolEntryData
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :ship_dscr_ranges
+  attr_accessor :bin_files_dscr_ship
 
 end # class CharacterSkillData
 

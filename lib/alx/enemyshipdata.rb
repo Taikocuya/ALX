@@ -42,7 +42,7 @@ module ALX
 #==============================================================================
 
 # Class to handle enemy ships from binary and/or CSV files.
-class EnemyShipData < DolEntryData
+class EnemyShipData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -52,31 +52,34 @@ class EnemyShipData < DolEntryData
   ID_RANGE    = 0x0...0x2d
 
   # Offset ranges of data entries
-  DATA_RANGES = {
+  BIN_FILES_DATA = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2d3934...0x2d4e4c),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2d3574...0x2d4a8c),
     'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f6d14...0x2f7f5c),
   }
 
   # Offset ranges of name entries
-  NAME_RANGES = {
+  BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1e635...0x1e809),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1e3a6...0x1e57b),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1e5f7...0x1e7cc),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1dc7e...0x1de53),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1e635...0x1e809),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1e3a6...0x1e57b),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1e5f7...0x1e7cc),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1dc7e...0x1de53),
     ],
   }
 
   # Offset ranges of armament name entries
-  ARM_NAME_RANGES = {
+  ARM_BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1ee0b...0x1f3e5),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1ec0e...0x1f1da),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1ee27...0x1f3f9),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1e473...0x1ea0d),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1ee0b...0x1f3e5),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1ec0e...0x1f1da),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1ee27...0x1f3f9),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1e473...0x1ea0d),
     ],
   }
+
+  # Path to CSV file
+  CSV_FILE = 'enemyships.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -89,9 +92,10 @@ class EnemyShipData < DolEntryData
   def initialize(_root)
     super(EnemyShip, _root)
     self.id_range        = ID_RANGE
-    self.data_ranges     = DATA_RANGES
-    self.name_ranges     = NAME_RANGES
-    @arm_name_ranges     = ARM_NAME_RANGES
+    self.bin_files_data  = BIN_FILES_DATA
+    self.bin_files_names = BIN_FILES_NAMES
+    self.csv_file        = CSV_FILE
+    @arm_bin_files_names = ARM_BIN_FILES_NAMES
     @accessory_data      = AccessoryData.new(_root)
     @armor_data          = ArmorData.new(_root)
     @ship_cannon_data    = ShipCannonData.new(_root)
@@ -125,7 +129,7 @@ class EnemyShipData < DolEntryData
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_NAME))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@arm_name_ranges[region], _filename)
+      _range = determine_range(@arm_bin_files_names[region], _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
@@ -174,19 +178,19 @@ class EnemyShipData < DolEntryData
   end
 
   # Reads all entries from binary files.
-  def load_from_bins
-    @accessory_data.load_from_bins
-    @armor_data.load_from_bins
-    @ship_cannon_data.load_from_bins
-    @ship_accessory_data.load_from_bins
-    @ship_item_data.load_from_bins
-    @special_item_data.load_from_bins
-    @usable_item_data.load_from_bins
-    @weapon_data.load_from_bins
+  def load_all_from_bin
+    @accessory_data.load_all_from_bin
+    @armor_data.load_all_from_bin
+    @ship_cannon_data.load_all_from_bin
+    @ship_accessory_data.load_all_from_bin
+    @ship_item_data.load_all_from_bin
+    @special_item_data.load_all_from_bin
+    @usable_item_data.load_all_from_bin
+    @weapon_data.load_all_from_bin
     
     super
   
-    _ranges = @arm_name_ranges[region]
+    _ranges = @arm_bin_files_names[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -209,7 +213,7 @@ class EnemyShipData < DolEntryData
   
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@arm_name_ranges[region], _filename) 
+      _range = determine_range(@arm_bin_files_names[region], _filename) 
   
       @data.each do |_id, _entry|
         if _id < @id_range.begin && _id >= @id_range.end
@@ -266,10 +270,10 @@ class EnemyShipData < DolEntryData
   end
     
   # Writes all entries to binary files.
-  def save_to_bins
+  def save_all_to_bin
     super
   
-    _ranges = @arm_name_ranges[region]
+    _ranges = @arm_bin_files_names[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -284,7 +288,7 @@ class EnemyShipData < DolEntryData
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :arm_name_ranges
+  attr_accessor :arm_bin_files_names
 
 end # class EnemyShipData
 

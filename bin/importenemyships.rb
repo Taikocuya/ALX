@@ -44,13 +44,13 @@ class EnemyShipImporter < EnemyShipTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(File.join(_root.path, CSV_FILE))
+    _result &&= has_file?(File.join(_root.path, EnemyShipData::CSV_FILE))
     _result
   end
 
   def exec
     super
-    transform_csv_to_bin(CSV_FILE)
+    transform_csv_to_bin
   end
 
 end	# class EnemyShipImporter
@@ -63,8 +63,8 @@ end	# module ALX
 
 if __FILE__ == $0
   begin
-    _ei = ALX::EnemyShipImporter.new
-    _ei.exec
+    _importer = ALX::EnemyShipImporter.new
+    _importer.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end

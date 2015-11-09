@@ -24,7 +24,7 @@
 
 require_relative('crewmember.rb')
 require_relative('entrytransform.rb')
-require_relative('dolentrydata.rb')
+require_relative('stdentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,7 +35,7 @@ module ALX
 #==============================================================================
 
 # Class to handle crew members from binary and/or CSV files.
-class CrewMemberData < DolEntryData
+class CrewMemberData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -45,33 +45,36 @@ class CrewMemberData < DolEntryData
   ID_RANGE    = 0x0...0x16
 
   # Offset ranges of data entries
-  DATA_RANGES = {
+  BIN_FILES_DATA = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2d5e64...0x2d617c),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2d5aa4...0x2d5dbc),
     'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f8a4c...0x2f8c5c),
   }
 
   # Offset ranges of name entries
-  NAME_RANGES = {
+  BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1ed75...0x1ee0b),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1eb78...0x1ec0e),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1ed91...0x1ee27),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1e3dd...0x1e473),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1ed75...0x1ee0b),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1eb78...0x1ec0e),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1ed91...0x1ee27),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1e3dd...0x1e473),
     ],
   }
 
   # Offset ranges of description entries
-  DSCR_RANGES = {
+  BIN_FILES_DSCR = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2d0ef4...0x2d1600),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2d0dcc...0x2d15dc),
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1c085...0x1c7ab),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1bc6f...0x1c3da),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1be6e...0x1c5fa),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1b766...0x1be63),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1c085...0x1c7ab),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1bc6f...0x1c3da),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1be6e...0x1c5fa),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1b766...0x1be63),
     ],
   }
+
+  # Path to CSV file
+  CSV_FILE = 'crewmembers.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -83,10 +86,11 @@ class CrewMemberData < DolEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(CrewMember, _root)
-    self.id_range    = ID_RANGE
-    self.data_ranges = DATA_RANGES
-    self.name_ranges = NAME_RANGES
-    self.dscr_ranges = DSCR_RANGES
+    self.id_range        = ID_RANGE
+    self.bin_files_data  = BIN_FILES_DATA
+    self.bin_files_names = BIN_FILES_NAMES
+    self.bin_files_dscr  = BIN_FILES_DSCR
+    self.csv_file        = CSV_FILE
   end
 
 end # class CrewMemberData

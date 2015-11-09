@@ -24,7 +24,7 @@
 
 require_relative('accessory.rb')
 require_relative('entrytransform.rb')
-require_relative('dolentrydata.rb')
+require_relative('stdentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,7 +35,7 @@ module ALX
 #==============================================================================
 
 # Class to handle accessories from binary and/or CSV files.
-class AccessoryData < DolEntryData
+class AccessoryData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -45,34 +45,37 @@ class AccessoryData < DolEntryData
   ID_RANGE    = 0xa0...0xf0
 
   # Offset ranges of data entries
-  DATA_RANGES = {
+  BIN_FILES_DATA = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c3e10...0x2c4a90),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c3308...0x2c3f88),
     'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f3a68...0x2f4328),
   }
 
   # Offset ranges of name entries
-  NAME_RANGES = {
+  BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1d6aa...0x1db1c),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1d39e...0x1d83d),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1d5d7...0x1daa2),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1cd13...0x1d194),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1d6aa...0x1db1c),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1d39e...0x1d83d),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1d5d7...0x1daa2),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1cd13...0x1d194),
     ],
   }
 
   # Offset ranges of description entries
-  DSCR_RANGES = {
+  BIN_FILES_DSCR = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2ca880...0x2cbc88),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2ca370...0x2cba54),
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x153d7...0x16979),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1502e...0x1652e),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x15017...0x16635),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x14c6f...0x1613d),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x153d7...0x16979),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1502e...0x1652e),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x15017...0x16635),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x14c6f...0x1613d),
     ],
   }
 
+  # Path to CSV file
+  CSV_FILE = 'accessories.csv'
+  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
@@ -83,10 +86,11 @@ class AccessoryData < DolEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Accessory, _root)
-    self.id_range    = ID_RANGE
-    self.data_ranges = DATA_RANGES
-    self.name_ranges = NAME_RANGES
-    self.dscr_ranges = DSCR_RANGES
+    self.id_range        = ID_RANGE
+    self.bin_files_data  = BIN_FILES_DATA
+    self.bin_files_names = BIN_FILES_NAMES
+    self.bin_files_dscr  = BIN_FILES_DSCR
+    self.csv_file        = CSV_FILE
   end
 
 end # class AccessoryData

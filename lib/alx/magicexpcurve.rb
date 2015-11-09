@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('dolentry.rb')
+require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,7 +33,7 @@ module ALX
 #==============================================================================
 
 # Class to handle a Magic EXP curve.
-class MagicExpCurve < DolEntry
+class MagicExpCurve < StdEntry
 
 #==============================================================================
 #                                   PUBLIC

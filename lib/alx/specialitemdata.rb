@@ -23,8 +23,8 @@
 #==============================================================================
 
 require_relative('entrytransform.rb')
-require_relative('dolentrydata.rb')
 require_relative('specialitem.rb')
+require_relative('stdentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,7 +35,7 @@ module ALX
 #==============================================================================
 
 # Class to handle special items from binary and/or CSV files.
-class SpecialItemData < DolEntryData
+class SpecialItemData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -45,24 +45,24 @@ class SpecialItemData < DolEntryData
   ID_RANGE    = 0x140...0x190
 
   # Offset ranges of data entries
-  DATA_RANGES = {
+  BIN_FILES_DATA = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c5774...0x2c5e54),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c4c6c...0x2c534c),
     'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f4aa8...0x2f4e68),
   }
 
   # Offset ranges of name entries
-  NAME_RANGES = {
+  BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1dede...0x1e2b1),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1dc62...0x1e028),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1ded3...0x1e2a2),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1d556...0x1d929),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1dede...0x1e2b1),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1dc62...0x1e028),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1ded3...0x1e2a2),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1d556...0x1d929),
     ],
   }
 
   # Offset ranges of description entries
-  DSCR_RANGES = {
+  BIN_FILES_DSCR = {
     'E' => DataRange.new(
       EntryTransform::DOL_FILE, 0x2cd4ec...0x2ce220,
       [0x152, 0x15b, 0x161, 0x162]
@@ -72,12 +72,15 @@ class SpecialItemData < DolEntryData
       [0x152, 0x15b, 0x161, 0x162]
     ),
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x18262...0x1918c),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x17e6f...0x18dd2),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x17f59...0x18ef6),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x179f9...0x189df),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x18262...0x1918c),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x17e6f...0x18dd2),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x17f59...0x18ef6),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x179f9...0x189df),
     ],
   }
+
+  # Path to CSV file
+  CSV_FILE = 'specialitems.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -89,10 +92,11 @@ class SpecialItemData < DolEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(SpecialItem, _root)
-    self.id_range    = ID_RANGE
-    self.data_ranges = DATA_RANGES
-    self.name_ranges = NAME_RANGES
-    self.dscr_ranges = DSCR_RANGES
+    self.id_range        = ID_RANGE
+    self.bin_files_data  = BIN_FILES_DATA
+    self.bin_files_names = BIN_FILES_NAMES
+    self.bin_files_dscr  = BIN_FILES_DSCR
+    self.csv_file        = CSV_FILE
   end
 
 end # class SpecialItemData

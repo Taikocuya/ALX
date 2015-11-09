@@ -65,7 +65,7 @@ module CsvHdr
 #------------------------------------------------------------------------------
 
   ID                  = 'Entry ID'
-  
+  FILES               = 'Entry files'
   MESSAGE_ID          = 'Message ID'
 
   NAME_EU_STR         = 'EU entry name'

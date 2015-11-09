@@ -24,7 +24,7 @@
 
 require_relative('armor.rb')
 require_relative('entrytransform.rb')
-require_relative('dolentrydata.rb')
+require_relative('stdentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,7 +35,7 @@ module ALX
 #==============================================================================
 
 # Class to handle armors from binary and/or CSV files.
-class ArmorData < DolEntryData
+class ArmorData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -45,33 +45,36 @@ class ArmorData < DolEntryData
   ID_RANGE    = 0x50...0xa0
 
   # Offset ranges of data entries
-  DATA_RANGES = {
+  BIN_FILES_DATA = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c3190...0x2c3e10),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c2688...0x2c3308),
     'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f31a8...0x2f3a68),
   }
 
   # Offset ranges of name entries
-  NAME_RANGES = {
+  BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1d289...0x1d6aa),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1cf43...0x1d39e),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1d18e...0x1d5d7),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1c921...0x1cd13),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1d289...0x1d6aa),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1cf43...0x1d39e),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1d18e...0x1d5d7),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1c921...0x1cd13),
     ],
   }
 
   # Offset ranges of description entries
-  DSCR_RANGES = {
+  BIN_FILES_DSCR = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c9714...0x2ca880),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c8ddc...0x2ca370),
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x14060...0x153d7),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x13dc4...0x1502e),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x13da3...0x15017),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x139f6...0x14c6f),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x14060...0x153d7),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x13dc4...0x1502e),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x13da3...0x15017),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x139f6...0x14c6f),
     ],
   }
+
+  # Path to CSV file
+  CSV_FILE = 'armors.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -83,10 +86,11 @@ class ArmorData < DolEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Armor, _root)
-    self.id_range    = ID_RANGE
-    self.data_ranges = DATA_RANGES
-    self.name_ranges = NAME_RANGES
-    self.dscr_ranges = DSCR_RANGES
+    self.id_range        = ID_RANGE
+    self.bin_files_data  = BIN_FILES_DATA
+    self.bin_files_names = BIN_FILES_NAMES
+    self.bin_files_dscr  = BIN_FILES_DSCR
+    self.csv_file        = CSV_FILE
   end
 
 end # class ArmorData

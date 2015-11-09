@@ -22,8 +22,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('dolentry.rb')
 require_relative('effectable.rb')
+require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,7 +34,7 @@ module ALX
 #==============================================================================
 
 # Class to handle a character.
-class Character < DolEntry
+class Character < StdEntry
   
 #==============================================================================
 #                                   INCLUDES

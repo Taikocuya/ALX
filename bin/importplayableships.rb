@@ -44,13 +44,13 @@ class PlayableShipImporter < PlayableShipTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(File.join(_root.path, CSV_FILE))
+    _result &&= has_file?(File.join(_root.path, PlayableShipData::CSV_FILE))
     _result
   end
 
   def exec
     super
-    transform_csv_to_bin(CSV_FILE)
+    transform_csv_to_bin
   end
 
 end	# class PlayableShipImporter
@@ -63,8 +63,8 @@ end	# module ALX
 
 if __FILE__ == $0
   begin
-    _pi = ALX::PlayableShipImporter.new
-    _pi.exec
+    _importer = ALX::PlayableShipImporter.new
+    _importer.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end

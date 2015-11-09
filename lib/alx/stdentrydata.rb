@@ -36,8 +36,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Base class to handle menu entries from binary and/or CSV files.
-class DolEntryData < EntryData
+# Base class to handle standard entries from binary and/or CSV files.
+class StdEntryData < EntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -52,16 +52,17 @@ class DolEntryData < EntryData
 
   public
 
-  # Constructs a MenuEntryData.
+  # Constructs a StdEntryData.
   # @param _class [Entry]    Entry object
   # @param _root  [GameRoot] Game root
   def initialize(_class, _root)
     super
-    @id_range    = 0x0...0x0
-    @data_ranges = {}
-    @name_ranges = {}
-    @dscr_ranges = {}
-    @data        = Hash.new { |_h, _k| _h[_k] = create_entry(_k) }
+    @id_range        = 0x0...0x0
+    @bin_files_data  = {}
+    @bin_files_names = {}
+    @bin_files_dscr  = {}
+    @csv_file        = ''
+    @data            = Hash.new { |_h, _k| _h[_k] = create_entry(_k) }
   end
 
   # Creates an entry.
@@ -80,7 +81,7 @@ class DolEntryData < EntryData
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DATA))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@data_ranges[region], _filename)
+      _range = determine_range(@bin_files_data[region], _filename)
       _size  = create_entry.size
       _f.pos = _range.begin
       
@@ -108,7 +109,7 @@ class DolEntryData < EntryData
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_NAME))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@name_ranges[region], _filename)
+      _range = determine_range(@bin_files_names[region], _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
@@ -157,7 +158,7 @@ class DolEntryData < EntryData
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DSCR))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@dscr_ranges[region], _filename)
+      _range = determine_range(@bin_files_dscr[region], _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
@@ -215,8 +216,8 @@ class DolEntryData < EntryData
   end
 
   # Reads all entries from binary files.
-  def load_from_bins
-    _ranges = @data_ranges[region]
+  def load_all_from_bin
+    _ranges = @bin_files_data[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -226,7 +227,7 @@ class DolEntryData < EntryData
       end
     end
   
-    _ranges = @name_ranges[region]
+    _ranges = @bin_files_names[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -236,7 +237,7 @@ class DolEntryData < EntryData
       end
     end
   
-    _ranges = @dscr_ranges[region]
+    _ranges = @bin_files_dscr[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -259,7 +260,7 @@ class DolEntryData < EntryData
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@data_ranges[region], _filename)
+      _range = determine_range(@bin_files_data[region], _filename)
       _size  = create_entry.size
       
       @data.each do |_id, _entry|
@@ -296,7 +297,7 @@ class DolEntryData < EntryData
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@name_ranges[region], _filename)
+      _range = determine_range(@bin_files_names[region], _filename)
       
       @data.each do |_id, _entry|
         if _id < @id_range.begin && _id >= @id_range.end
@@ -358,7 +359,7 @@ class DolEntryData < EntryData
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@dscr_ranges[region], _filename) 
+      _range = determine_range(@bin_files_dscr[region], _filename) 
 
       @data.each do |_id, _entry|
         if _id < @id_range.begin && _id >= @id_range.end
@@ -424,8 +425,8 @@ class DolEntryData < EntryData
   end
     
   # Writes all entries to binary files.
-  def save_to_bins
-    _ranges = @data_ranges[region]
+  def save_all_to_bin
+    _ranges = @bin_files_data[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -435,7 +436,7 @@ class DolEntryData < EntryData
       end
     end
   
-    _ranges = @name_ranges[region]
+    _ranges = @bin_files_names[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -445,7 +446,7 @@ class DolEntryData < EntryData
       end
     end
   
-    _ranges = @dscr_ranges[region]
+    _ranges = @bin_files_dscr[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -456,12 +457,12 @@ class DolEntryData < EntryData
     end
   end
 
-  # Reads all entries from a CSV file.
+  # Reads all data entries from a a CSV file.
   # @param _filename [String] File name
-  def load_from_csv(_filename)
+  def load_entries_from_csv(_filename)
     print("\n")
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DATA))
-
+  
     _header = create_entry.header
     
     CSV.open(_filename, headers: _header, write_headers: true) do |_f|
@@ -478,10 +479,15 @@ class DolEntryData < EntryData
     
     puts(sprintf(STR_CLOSE, _filename))
   end
-  
-  # Writes all entries to a CSV file.
+
+  # Reads all entries from CSV files.
+  def load_all_from_csv
+    load_entries_from_csv(File.join(root.path, @csv_file))
+  end
+
+  # Writes all data entries to a CSV file.
   # @param _filename [String] File name
-  def save_to_csv(_filename)
+  def save_entries_to_csv(_filename)
     if @data.empty?
       return
     end
@@ -504,14 +510,20 @@ class DolEntryData < EntryData
     puts(sprintf(STR_CLOSE, _filename))
   end
 
+  # Writes all entries to CSV files.
+  def save_all_to_csv
+    save_entries_to_csv(File.join(root.path, @csv_file))
+  end
+
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
   attr_accessor :id_range
-  attr_accessor :data_ranges
-  attr_accessor :name_ranges
-  attr_accessor :dscr_ranges
+  attr_accessor :bin_files_data
+  attr_accessor :bin_files_names
+  attr_accessor :bin_files_dscr
+  attr_accessor :csv_file
   attr_accessor :data
 
 #==============================================================================
@@ -538,14 +550,14 @@ class DolEntryData < EntryData
   # @param _filename [String] Filename
   # @return [String] PAL-E language
   def determine_lang(_filename)
-    return 'DE' if _filename.include?(EntryTransform::SOT_DE_FILE)
-    return 'ES' if _filename.include?(EntryTransform::SOT_ES_FILE)
-    return 'FR' if _filename.include?(EntryTransform::SOT_FR_FILE)
-    return 'GB' if _filename.include?(EntryTransform::SOT_GB_FILE)
+    return 'DE' if _filename.include?(EntryTransform::SOT_FILE_DE)
+    return 'ES' if _filename.include?(EntryTransform::SOT_FILE_ES)
+    return 'FR' if _filename.include?(EntryTransform::SOT_FILE_FR)
+    return 'GB' if _filename.include?(EntryTransform::SOT_FILE_GB)
     return ''
   end
   
-end # class DolEntryData
+end # class StdEntryData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

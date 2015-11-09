@@ -44,7 +44,7 @@ class CharacterExporter < CharacterTransform
 
   def exec
     super
-    transform_bin_to_csv(CSV_FILE)
+    transform_bin_to_csv
   end
 
 end	# class CharacterExporter
@@ -57,8 +57,8 @@ end	# module ALX
 
 if __FILE__ == $0
   begin
-    _ce = ALX::CharacterExporter.new
-    _ce.exec
+    _exporter = ALX::CharacterExporter.new
+    _exporter.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end

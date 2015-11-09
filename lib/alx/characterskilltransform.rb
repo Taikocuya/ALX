@@ -22,8 +22,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('dolentrytransform.rb')
 require_relative('characterskilldata.rb')
+require_relative('stdentrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,14 +34,7 @@ module ALX
 #==============================================================================
 
 # Base class to export and/or import character skills to and/or from CSV files.
-class CharacterSkillTransform < DolEntryTransform
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Path to CSV file
-  CSV_FILE = 'characterskills.csv'
+class CharacterSkillTransform < StdEntryTransform
 
 #==============================================================================
 #                                   PUBLIC

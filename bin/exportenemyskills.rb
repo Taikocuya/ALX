@@ -44,7 +44,7 @@ class EnemySkillExporter < EnemySkillTransform
 
   def exec
     super
-    transform_bin_to_csv(CSV_FILE)
+    transform_bin_to_csv
   end
 
 end	# class EnemySkillExporter
@@ -57,8 +57,8 @@ end	# module ALX
 
 if __FILE__ == $0
   begin
-    _ee = ALX::EnemySkillExporter.new
-    _ee.exec
+    _exporter = ALX::EnemySkillExporter.new
+    _exporter.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end

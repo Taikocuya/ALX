@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('dolentrytransform.rb')
+require_relative('stdentrytransform.rb')
 require_relative('weapondata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -34,14 +34,7 @@ module ALX
 #==============================================================================
 
 # Base class to export and/or import weapons to and/or from CSV files.
-class WeaponTransform < DolEntryTransform
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Path to CSV file
-  CSV_FILE = 'weapons.csv'
+class WeaponTransform < StdEntryTransform
 
 #==============================================================================
 #                                   PUBLIC

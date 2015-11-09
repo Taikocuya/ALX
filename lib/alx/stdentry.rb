@@ -32,21 +32,14 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Base class to handle a menu entry (e.g. items, magic, super moves, etc.).
-class DolEntry < Entry
+# Base class to handle a standard entry.
+class StdEntry < Entry
 
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
-
-  # Constructs an DolEntry.
-  # @param _region [String] Region ID
-  def initialize(_region)
-    super(_region)
-    members << IntDmy.new(CsvHdr::ID, -1)
-  end
 
   # Add name data members.
   # @param _size [Integer] Size of name data members
@@ -99,30 +92,8 @@ class DolEntry < Entry
       members << StrDmy.new(CsvHdr::DSCR_GB_STR , '', '\n')
     end
   end
-  
-#------------------------------------------------------------------------------
-# Public member variables
-#------------------------------------------------------------------------------
-  
-  def id
-    _member = find_member(CsvHdr::ID)
-    if _member
-      _member.value
-    else
-      -1
-    end
-  end
 
-  def id=(_id)
-    _member = find_member(CsvHdr::ID)
-    if _member
-      _member.value = _id
-    else
-      _id
-    end
-  end
-
-end	# class DolEntry
+end	# class StdEntry
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

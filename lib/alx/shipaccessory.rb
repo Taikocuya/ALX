@@ -33,7 +33,7 @@ module ALX
 #==============================================================================
 
 # Class to handle a ship accessory.
-class ShipAccessory < DolEntry
+class ShipAccessory < StdEntry
   
 #==============================================================================
 #                                  CONSTANTS

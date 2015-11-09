@@ -44,7 +44,7 @@ class SpecialItemExporter < SpecialItemTransform
 
   def exec
     super
-    transform_bin_to_csv(CSV_FILE)
+    transform_bin_to_csv
   end
 
 end	# class SpecialItemExporter
@@ -57,8 +57,8 @@ end	# module ALX
 
 if __FILE__ == $0
   begin
-    _se = ALX::SpecialItemExporter.new
-    _se.exec
+    _exporter = ALX::SpecialItemExporter.new
+    _exporter.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end

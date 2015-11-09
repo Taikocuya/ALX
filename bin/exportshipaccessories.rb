@@ -44,7 +44,7 @@ class ShipAccessoryExporter < ShipAccessoryTransform
 
   def exec
     super
-    transform_bin_to_csv(CSV_FILE)
+    transform_bin_to_csv
   end
 
 end	# class ShipAccessoryExporter
@@ -57,8 +57,8 @@ end	# module ALX
 
 if __FILE__ == $0
   begin
-    _se = ALX::ShipAccessoryExporter.new
-    _se.exec
+    _exporter = ALX::ShipAccessoryExporter.new
+    _exporter.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end

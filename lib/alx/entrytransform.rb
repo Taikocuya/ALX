@@ -47,38 +47,47 @@ class EntryTransform
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
-  
+
+  # Path to 'build' directory
+  BUILD_DIR     = File.expand_path(
+    File.join(File.dirname(__FILE__), '../../build')
+  )
   # Path to 'share' directory
-  SHARE_DIR   = File.expand_path(
+  SHARE_DIR     = File.expand_path(
     File.join(File.dirname(__FILE__), '../../share')
   )
+  # Path to 'thirdparty' directory
+  THIRDPARTY_DIR = File.expand_path(
+    File.join(File.dirname(__FILE__), '../../thirdparty')
+  )
+  
   # Path to BNR file relative to game root.
-  BNR_FILE    = 'opening.bnr'
+  BNR_FILE       = 'opening.bnr'
   # Path to DOL file relative to game root.
-  DOL_FILE    = '&&systemdata/Start.dol'
+  DOL_FILE       = '&&systemdata/Start.dol'
   # Path to HDR file relative to game root.
-  HDR_FILE    = '&&systemdata/ISO.hdr'
+  HDR_FILE       = '&&systemdata/ISO.hdr'
   # Path to LMT file relative to game root.
-  LMT_FILE    = 'battle/first.lmt'
+  LMT_FILE       = 'battle/first.lmt'
   # Path to German SOT file relative to game root (PAL-E only).
-  SOT_DE_FILE = 'german.sot'
+  SOT_FILE_DE    = 'german.sot'
   # Path to Spanish SOT file relative to game root (PAL-E only).
-  SOT_ES_FILE = 'spanish.sot'
+  SOT_FILE_ES    = 'spanish.sot'
   # Path to French SOT file relative to game root (PAL-E only).
-  SOT_FR_FILE = 'french.sot'
+  SOT_FILE_FR    = 'french.sot'
   # Path to English SOT file relative to game root (PAL-E only).
-  SOT_GB_FILE = 'english.sot'
+  SOT_FILE_GB    = 'english.sot'
   
   # Game ID
-  GAME_ID    = 'GEA'
+  GAME_ID        = 'GEA'
   # Region IDs
-  REGION_IDS = {
+  REGION_IDS     = {
     'E'  => 'NTSC-U',
     'J'  => 'NTSC-J',
     'P'  => 'PAL-E',
   }
   # Maker ID
-  MAKER_ID   = '8P'
+  MAKER_ID       = '8P'
 
 #==============================================================================
 #                                   PUBLIC
@@ -155,10 +164,10 @@ class EntryTransform
     _valid &&= has_file?(File.join(_path, LMT_FILE))
     
     if _hdr.region_id == 'P'
-      _valid &&= has_file?(File.join(_path, SOT_GB_FILE))
-      _valid &&= has_file?(File.join(_path, SOT_DE_FILE))
-      _valid &&= has_file?(File.join(_path, SOT_ES_FILE))
-      _valid &&= has_file?(File.join(_path, SOT_FR_FILE))
+      _valid &&= has_file?(File.join(_path, SOT_FILE_GB))
+      _valid &&= has_file?(File.join(_path, SOT_FILE_DE))
+      _valid &&= has_file?(File.join(_path, SOT_FILE_ES))
+      _valid &&= has_file?(File.join(_path, SOT_FILE_FR))
     end
     
     _valid

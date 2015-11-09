@@ -23,8 +23,8 @@
 #==============================================================================
 
 require_relative('entrytransform.rb')
-require_relative('dolentrydata.rb')
 require_relative('shipaccessory.rb')
+require_relative('stdentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,7 +35,7 @@ module ALX
 #==============================================================================
 
 # Class to handle ship accessories from binary and/or CSV files.
-class ShipAccessoryData < DolEntryData
+class ShipAccessoryData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -45,33 +45,36 @@ class ShipAccessoryData < DolEntryData
   ID_RANGE    = 0x1b8...0x1e0
 
   # Offset ranges of data entries
-  DATA_RANGES = {
+  BIN_FILES_DATA = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2d53ec...0x2d5a2c),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2d502c...0x2d566c),
     'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f831c...0x2f877c),
   }
 
   # Offset ranges of name entries
-  NAME_RANGES = {
+  BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1ea14...0x1ec15),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1e789...0x1e9cd),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1e9d1...0x1ec03),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1e066...0x1e27d),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1ea14...0x1ec15),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1e789...0x1e9cd),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1e9d1...0x1ec03),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1e066...0x1e27d),
     ],
   }
 
   # Offset ranges of description entries
-  DSCR_RANGES = {
+  BIN_FILES_DSCR = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2ceef8...0x2cfbf0),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2cef30...0x2cfc58),
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x19e71...0x1abb8),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x19b0f...0x1a7f2),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x19c5d...0x1a998),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x196a8...0x1a38c),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x19e71...0x1abb8),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x19b0f...0x1a7f2),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x19c5d...0x1a998),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x196a8...0x1a38c),
     ],
   }
+
+  # Path to CSV file
+  CSV_FILE = 'shipaccessories.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -83,10 +86,11 @@ class ShipAccessoryData < DolEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(ShipAccessory, _root)
-    self.id_range    = ID_RANGE
-    self.data_ranges = DATA_RANGES
-    self.name_ranges = NAME_RANGES
-    self.dscr_ranges = DSCR_RANGES
+    self.id_range        = ID_RANGE
+    self.bin_files_data  = BIN_FILES_DATA
+    self.bin_files_names = BIN_FILES_NAMES
+    self.bin_files_dscr  = BIN_FILES_DSCR
+    self.csv_file        = CSV_FILE
   end
 
 end # class ShipAccessoryData

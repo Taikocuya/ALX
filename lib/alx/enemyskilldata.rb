@@ -24,7 +24,7 @@
 
 require_relative('enemyskill.rb')
 require_relative('entrytransform.rb')
-require_relative('dolentrydata.rb')
+require_relative('stdentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,7 +35,7 @@ module ALX
 #==============================================================================
 
 # Class to handle enemy skills from binary and/or CSV files.
-class EnemySkillData < DolEntryData
+class EnemySkillData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -45,21 +45,24 @@ class EnemySkillData < DolEntryData
   ID_RANGE    = 0x0...0x159
 
   # Offset ranges of data entries
-  DATA_RANGES = {
+  BIN_FILES_DATA = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2aa440...0x2ad4c4),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2a9ee8...0x2acf6c),
     'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2d9398...0x2dae8c),
   }
 
   # Offset ranges of name entries
-  NAME_RANGES = {
+  BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x13d6...0x2079),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x13c9...0x215d),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x13cb...0x211a),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x13c6...0x1ff8),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x13d6...0x2079),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x13c9...0x215d),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x13cb...0x211a),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x13c6...0x1ff8),
     ],
   }
+
+  # Path to CSV file
+  CSV_FILE = 'enemyskills.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -71,9 +74,10 @@ class EnemySkillData < DolEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(EnemySkill, _root)
-    self.id_range    = ID_RANGE
-    self.data_ranges = DATA_RANGES
-    self.name_ranges = NAME_RANGES
+    self.id_range        = ID_RANGE
+    self.bin_files_data  = BIN_FILES_DATA
+    self.bin_files_names = BIN_FILES_NAMES
+    self.csv_file        = CSV_FILE
   end
 
 end # class EnemySkillData

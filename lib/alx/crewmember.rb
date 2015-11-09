@@ -34,7 +34,7 @@ module ALX
 #==============================================================================
 
 # Class to handle a crew member.
-class CrewMember < DolEntry
+class CrewMember < StdEntry
   
 #==============================================================================
 #                                   INCLUDES

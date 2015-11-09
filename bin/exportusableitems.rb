@@ -44,7 +44,7 @@ class UsableItemExporter < UsableItemTransform
 
   def exec
     super
-    transform_bin_to_csv(CSV_FILE)
+    transform_bin_to_csv
   end
 
 end	# class UsableItemExporter
@@ -57,8 +57,8 @@ end	# module ALX
 
 if __FILE__ == $0
   begin
-    _ue = ALX::UsableItemExporter.new
-    _ue.exec
+    _exporter = ALX::UsableItemExporter.new
+    _exporter.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end

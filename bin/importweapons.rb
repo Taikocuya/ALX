@@ -44,13 +44,13 @@ class WeaponImporter < WeaponTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(File.join(_root.path, CSV_FILE))
+    _result &&= has_file?(File.join(_root.path, WeaponData::CSV_FILE))
     _result
   end
 
   def exec
     super
-    transform_csv_to_bin(CSV_FILE)
+    transform_csv_to_bin
   end
 
 end	# class WeaponImporter
@@ -63,8 +63,8 @@ end	# module ALX
 
 if __FILE__ == $0
   begin
-    _wi = ALX::WeaponImporter.new
-    _wi.exec
+    _importer = ALX::WeaponImporter.new
+    _importer.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end

@@ -32,8 +32,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Base class to export and/or import menu entries to and/or from CSV files.
-class DolEntryTransform < EntryTransform
+# Base class to export and/or import standard entries to and/or from CSV files.
+class StdEntryTransform < EntryTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -42,24 +42,22 @@ class DolEntryTransform < EntryTransform
   public
 
   # Reads all entries from binary files and writes all entries to CSV files.
-  # @param _filename [String] File name of CSV files
-  def transform_bin_to_csv(_filename)
+  def transform_bin_to_csv
     data.each do |_d|
-      _d.load_from_bins
-      _d.save_to_csv(File.join(_d.root.path, _filename))
+      _d.load_all_from_bin
+      _d.save_all_to_csv
     end
   end
 
   # Reads all entries from CSV files and writes all entries to binary files.
-  # @param _filename [String] File name of CSV files
-  def transform_csv_to_bin(_filename)
+  def transform_csv_to_bin
     data.each do |_d|
-      _d.load_from_csv(File.join(_d.root.path, _filename))
-      _d.save_to_bins
+      _d.load_all_from_csv
+      _d.save_all_to_bin
     end
   end
 
-end # class DolEntryTransform
+end # class StdEntryTransform
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

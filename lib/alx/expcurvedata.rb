@@ -35,7 +35,7 @@ module ALX
 #==============================================================================
 
 # Class to handle EXP curves from binary and/or CSV files.
-class ExpCurveData < DolEntryData
+class ExpCurveData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -45,11 +45,14 @@ class ExpCurveData < DolEntryData
   ID_RANGE    = 0x0...0x6
 
   # Offset ranges of data entries
-  DATA_RANGES = {
+  BIN_FILES_DATA = {
     'E' => DataRange.new(EntryTransform::LMT_FILE, 0x000...0x948),
     'J' => DataRange.new(EntryTransform::LMT_FILE, 0x000...0x948),
     'P' => DataRange.new(EntryTransform::LMT_FILE, 0x000...0x948),
   }
+
+  # Path to CSV file
+  CSV_FILE = 'expcurves.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -61,9 +64,10 @@ class ExpCurveData < DolEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(ExpCurve, _root)
-    self.id_range    = ID_RANGE
-    self.data_ranges = DATA_RANGES
-    @character_data = CharacterData.new(_root)
+    self.id_range       = ID_RANGE
+    self.bin_files_data = BIN_FILES_DATA
+    self.csv_file       = CSV_FILE
+    @character_data     = CharacterData.new(_root)
   end
 
   # Creates an entry.
@@ -76,8 +80,8 @@ class ExpCurveData < DolEntryData
   end
   
   # Reads all entries from binary files.
-  def load_from_bins
-    @character_data.load_from_bins
+  def load_all_from_bin
+    @character_data.load_all_from_bin
     super
   end
 

@@ -74,7 +74,7 @@ class Entry
   # @param _region [String] Region ID
   def initialize(_region)
     @region     = _region
-    @members    = []
+    @members    = [IntDmy.new(CsvHdr::ID, -1)]
     @padding_id = 0
     @unknown_id = 0
   end
@@ -105,6 +105,26 @@ class Entry
   def find_member(_name)
     @members.find do |_m|
       _m.name == _name
+    end
+  end
+
+  # Compares two entries based on +IntVar+ and +StrVar+ members. Returns 
+  # +true+ if all member values are equal, or +false+ otherwise.
+  # @param _entry [Entry] Entry
+  # @return [Boolean] +true+ if all member values are equal, otherwise +false+.
+  def ==(_entry)
+    unless _entry.is_a?(Entry)
+      return false
+    end
+
+    @members.all? do |_m|
+      _other = _entry.find_member(_m.name)
+      
+      if _other && (_m.is_a?(IntVar) || _m.is_a?(StrVar))
+        _m.value == _other.value
+      else
+        true
+      end
     end
   end
 
@@ -146,6 +166,24 @@ class Entry
 
   attr_reader   :region
   attr_accessor :members
+
+  def id
+    _member = find_member(CsvHdr::ID)
+    if _member
+      _member.value
+    else
+      -1
+    end
+  end
+
+  def id=(_id)
+    _member = find_member(CsvHdr::ID)
+    if _member
+      _member.value = _id
+    else
+      _id
+    end
+  end
 
 #==============================================================================
 #                                  PROTECTED

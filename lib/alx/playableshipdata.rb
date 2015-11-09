@@ -36,7 +36,7 @@ module ALX
 #==============================================================================
 
 # Class to handle playable ships from binary and/or CSV files.
-class PlayableShipData < DolEntryData
+class PlayableShipData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -46,21 +46,24 @@ class PlayableShipData < DolEntryData
   ID_RANGE    = 0x0...0x6
 
   # Offset ranges of data entries
-  DATA_RANGES = {
+  BIN_FILES_DATA = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2d3740...0x2d3934),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2d3380...0x2d3574),
     'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2f6b70...0x2f6d14),
   }
 
   # Offset ranges of name entries
-  NAME_RANGES = {
+  BIN_FILES_NAMES = {
     'P' => [
-      DataRange.new(EntryTransform::SOT_DE_FILE, 0x1e5ff...0x1e635),
-      DataRange.new(EntryTransform::SOT_ES_FILE, 0x1e370...0x1e3a6),
-      DataRange.new(EntryTransform::SOT_FR_FILE, 0x1e5c1...0x1e5f7),
-      DataRange.new(EntryTransform::SOT_GB_FILE, 0x1dc48...0x1dc7e),
+      DataRange.new(EntryTransform::SOT_FILE_DE, 0x1e5ff...0x1e635),
+      DataRange.new(EntryTransform::SOT_FILE_ES, 0x1e370...0x1e3a6),
+      DataRange.new(EntryTransform::SOT_FILE_FR, 0x1e5c1...0x1e5f7),
+      DataRange.new(EntryTransform::SOT_FILE_GB, 0x1dc48...0x1dc7e),
     ],
   }
+
+  # Path to CSV file
+  CSV_FILE = 'playableships.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -73,8 +76,9 @@ class PlayableShipData < DolEntryData
   def initialize(_root)
     super(PlayableShip, _root)
     self.id_range        = ID_RANGE
-    self.data_ranges     = DATA_RANGES
-    self.name_ranges     = NAME_RANGES
+    self.bin_files_data  = BIN_FILES_DATA
+    self.bin_files_names = BIN_FILES_NAMES
+    self.csv_file        = CSV_FILE
     @ship_cannon_data    = ShipCannonData.new(_root)
     @ship_accessory_data = ShipAccessoryData.new(_root)
   end
@@ -90,9 +94,9 @@ class PlayableShipData < DolEntryData
   end
   
   # Reads all entries from binary files.
-  def load_from_bins
-    @ship_cannon_data.load_from_bins
-    @ship_accessory_data.load_from_bins
+  def load_all_from_bin
+    @ship_cannon_data.load_all_from_bin
+    @ship_accessory_data.load_all_from_bin
     super
   end
 

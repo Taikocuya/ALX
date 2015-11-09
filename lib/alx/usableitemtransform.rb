@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('dolentrytransform.rb')
+require_relative('stdentrytransform.rb')
 require_relative('usableitemdata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -34,14 +34,7 @@ module ALX
 #==============================================================================
 
 # Base class to export and/or import usable items to and/or from CSV files.
-class UsableItemTransform < DolEntryTransform
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Path to CSV file
-  CSV_FILE = 'usableitems.csv'
+class UsableItemTransform < StdEntryTransform
 
 #==============================================================================
 #                                   PUBLIC

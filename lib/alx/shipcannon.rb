@@ -23,7 +23,7 @@
 #==============================================================================
 
 require_relative('effectable.rb')
-require_relative('dolentry.rb')
+require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,7 +34,7 @@ module ALX
 #==============================================================================
 
 # Class to handle a ship cannon.
-class ShipCannon < DolEntry
+class ShipCannon < StdEntry
   
 #==============================================================================
 #                                   INCLUDES

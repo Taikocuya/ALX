@@ -44,13 +44,13 @@ class ShipAccessoryImporter < ShipAccessoryTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(File.join(_root.path, CSV_FILE))
+    _result &&= has_file?(File.join(_root.path, ShipAccessoryData::CSV_FILE))
     _result
   end
 
   def exec
     super
-    transform_csv_to_bin(CSV_FILE)
+    transform_csv_to_bin
   end
 
 end	# class ShipAccessoryImporter
@@ -63,8 +63,8 @@ end	# module ALX
 
 if __FILE__ == $0
   begin
-    _si = ALX::ShipAccessoryImporter.new
-    _si.exec
+    _importer = ALX::ShipAccessoryImporter.new
+    _importer.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end

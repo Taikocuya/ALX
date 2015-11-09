@@ -37,7 +37,7 @@ module ALX
 #==============================================================================
 
 # Class to handle characters from binary and/or CSV files.
-class CharacterData < DolEntryData
+class CharacterData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
@@ -47,11 +47,14 @@ class CharacterData < DolEntryData
   ID_RANGE    = 0x0...0x6
 
   # Offset ranges of data entries
-  DATA_RANGES = {
+  BIN_FILES_DATA = {
     'E' => DataRange.new(EntryTransform::DOL_FILE, 0x2c1860...0x2c1bf0),
     'J' => DataRange.new(EntryTransform::DOL_FILE, 0x2c0d58...0x2c10e8),
     'P' => DataRange.new(EntryTransform::DOL_FILE, 0x2c2ff0...0x2c3380),
   }
+
+  # Path to CSV file
+  CSV_FILE = 'characters.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -63,11 +66,12 @@ class CharacterData < DolEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Character, _root)
-    self.id_range    = ID_RANGE
-    self.data_ranges = DATA_RANGES
-    @weapon_data     = WeaponData.new(_root)
-    @armor_data      = ArmorData.new(_root)
-    @accessory_data  = AccessoryData.new(_root)
+    self.id_range       = ID_RANGE
+    self.bin_files_data = BIN_FILES_DATA
+    self.csv_file       = CSV_FILE
+    @weapon_data        = WeaponData.new(_root)
+    @armor_data         = ArmorData.new(_root)
+    @accessory_data     = AccessoryData.new(_root)
   end
 
   # Creates an entry.
@@ -82,10 +86,10 @@ class CharacterData < DolEntryData
   end
   
   # Reads all entries from binary files.
-  def load_from_bins
-    @weapon_data.load_from_bins
-    @armor_data.load_from_bins
-    @accessory_data.load_from_bins
+  def load_all_from_bin
+    @weapon_data.load_all_from_bin
+    @armor_data.load_all_from_bin
+    @accessory_data.load_all_from_bin
     super
   end
 

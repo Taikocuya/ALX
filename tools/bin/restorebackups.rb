@@ -54,13 +54,13 @@ class BackupRestorer
   # Path to LMT file relative to game root.
   LMT_FILE    = EntryTransform::LMT_FILE
   # Path to German SOT file relative to game root (PAL-E only).
-  SOT_DE_FILE = EntryTransform::SOT_DE_FILE
+  SOT_FILE_DE = EntryTransform::SOT_FILE_DE
   # Path to Spanish SOT file relative to game root (PAL-E only).
-  SOT_ES_FILE = EntryTransform::SOT_ES_FILE
+  SOT_FILE_ES = EntryTransform::SOT_FILE_ES
   # Path to French SOT file relative to game root (PAL-E only).
-  SOT_FR_FILE = EntryTransform::SOT_FR_FILE
+  SOT_FILE_FR = EntryTransform::SOT_FILE_FR
   # Path to English SOT file relative to game root (PAL-E only).
-  SOT_GB_FILE = EntryTransform::SOT_GB_FILE
+  SOT_FILE_GB = EntryTransform::SOT_FILE_GB
 
 #==============================================================================
 #                                   PUBLIC
@@ -70,25 +70,25 @@ class BackupRestorer
 
   def exec
     print("\n")
-    restore_file(File.join(SHARE_DIR, 'geae8p', DOL_FILE   ))
-    restore_file(File.join(SHARE_DIR, 'geaj8p', DOL_FILE   ))
-    restore_file(File.join(SHARE_DIR, 'geap8p', DOL_FILE   ))
-    restore_file(File.join(SHARE_DIR, 'geae8p', LMT_FILE   ))
-    restore_file(File.join(SHARE_DIR, 'geaj8p', LMT_FILE   ))
-    restore_file(File.join(SHARE_DIR, 'geap8p', LMT_FILE   ))
-    restore_file(File.join(SHARE_DIR, 'geap8p', SOT_DE_FILE))
-    restore_file(File.join(SHARE_DIR, 'geap8p', SOT_ES_FILE))
-    restore_file(File.join(SHARE_DIR, 'geap8p', SOT_FR_FILE))
-    restore_file(File.join(SHARE_DIR, 'geap8p', SOT_GB_FILE))
+    restore_backup(File.join(SHARE_DIR, 'geae8p', DOL_FILE   ))
+    restore_backup(File.join(SHARE_DIR, 'geaj8p', DOL_FILE   ))
+    restore_backup(File.join(SHARE_DIR, 'geap8p', DOL_FILE   ))
+    restore_backup(File.join(SHARE_DIR, 'geae8p', LMT_FILE   ))
+    restore_backup(File.join(SHARE_DIR, 'geaj8p', LMT_FILE   ))
+    restore_backup(File.join(SHARE_DIR, 'geap8p', LMT_FILE   ))
+    restore_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_DE))
+    restore_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_ES))
+    restore_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_FR))
+    restore_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_GB))
   end
 
-  # Restores a file.
-  # @param _filename [String] File to restore
-  def restore_file(_filename)
+  # Restores a backup.
+  # @param _filename [String] Backup to restore
+  def restore_backup(_filename)
     _src  = File.expand_path(_filename + '.bak')
     _dest = File.expand_path(_filename)
 
-    print("Restore file: #{_dest}")
+    print("Restore backup: #{_dest}")
     
     begin
       FileUtils::cp(_src, _dest)
