@@ -67,7 +67,7 @@ class EnemyShip < StdEntry
   # @param _region [String] Region ID
   def initialize(_region)
     super
-    @item_data = {}
+    @items = {}
     add_name_members(20)
     
     members << IntVar.new(CsvHdr::MAXHP                   , -1, 'l>')
@@ -122,41 +122,40 @@ class EnemyShip < StdEntry
     end
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
     (1..4).each do |_i|
-      _id   = find_member(CsvHdr::ARM_TYPE_ID[_i]).value
+      _id = find_member(CsvHdr::ARM_TYPE_ID[_i]).value
       find_member(CsvHdr::ARM_TYPE_NAME[_i]).value = ShipCannon::TYPES[_id]
       
-      _id   = find_member(CsvHdr::ARM_ELEMENT_ID[_i]).value
+      _id = find_member(CsvHdr::ARM_ELEMENT_ID[_i]).value
       find_member(CsvHdr::ARM_ELEMENT_NAME[_i]).value = ELEMENTS[_id]
     end
 
     (1..3).each do |_i|
-      _id     = find_member(CsvHdr::ITEM_ID[_i]).value
-      _cannon = @item_data[_id]
-      if _cannon
-        if _id != -1
+      _id = find_member(CsvHdr::ITEM_ID[_i]).value
+      if _id != -1
+        _entry = @items[_id]
+        _name  = '???'
+        if _entry
           case region
           when 'E'
-            _name = _cannon.find_member(CsvHdr::NAME_US_STR).value
+            _name = _entry.find_member(CsvHdr::NAME_US_STR).value
           when 'J'
-            _name = _cannon.find_member(CsvHdr::NAME_JP_STR).value
+            _name = _entry.find_member(CsvHdr::NAME_JP_STR).value
           when 'P'
-            _name = _cannon.find_member(CsvHdr::NAME_GB_STR).value
+            _name = _entry.find_member(CsvHdr::NAME_GB_STR).value
           end
-        else
-          _name = 'None'
         end
       else
-        _name = '???'
+        _name = 'None'
       end
       find_member(CsvHdr::ITEM_NAME[_i]).value = _name
     end
 
     (1..3).each do |_i|
-      _id   = find_member(CsvHdr::ITEM_DROP_ID[_i]).value
+      _id = find_member(CsvHdr::ITEM_DROP_ID[_i]).value
       find_member(CsvHdr::ITEM_DROP_NAME[_i]).value = DROPS[_id]
     end
     
@@ -167,7 +166,7 @@ class EnemyShip < StdEntry
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :item_data
+  attr_accessor :items
 
 end	# class EnemyShip
 

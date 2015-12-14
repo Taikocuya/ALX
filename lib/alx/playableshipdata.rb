@@ -46,14 +46,14 @@ class PlayableShipData < StdEntryData
   ID_RANGE    = 0x0...0x6
 
   # Offset ranges of data entries
-  BIN_FILES_DATA = {
+  DATA_FILES = {
     'E' => DataRange.new(DOL_FILE, 0x2d3740...0x2d3934),
     'J' => DataRange.new(DOL_FILE, 0x2d3380...0x2d3574),
     'P' => DataRange.new(DOL_FILE, 0x2f6b70...0x2f6d14),
   }
 
   # Offset ranges of name entries
-  BIN_FILES_NAMES = {
+  NAME_FILES = {
     'P' => [
       DataRange.new(SOT_FILE_DE, 0x1e5ff...0x1e635),
       DataRange.new(SOT_FILE_ES, 0x1e370...0x1e3a6),
@@ -76,20 +76,20 @@ class PlayableShipData < StdEntryData
   def initialize(_root)
     super(PlayableShip, _root)
     self.id_range        = ID_RANGE
-    self.bin_files_data  = BIN_FILES_DATA
-    self.bin_files_names = BIN_FILES_NAMES
+    self.data_files      = DATA_FILES
+    self.name_files      = NAME_FILES
     self.csv_file        = CSV_FILE
     @ship_cannon_data    = ShipCannonData.new(_root)
     @ship_accessory_data = ShipAccessoryData.new(_root)
   end
 
   # Creates an entry.
-  # @param _id [String] Entry ID
+  # @param _id [Integer] Entry ID
   # @return [Entry] Entry object
   def create_entry(_id = -1)
-    _entry                     = super
-    _entry.ship_cannon_data    = @ship_cannon_data.data
-    _entry.ship_accessory_data = @ship_accessory_data.data
+    _entry                  = super
+    _entry.ship_cannons     = @ship_cannon_data.data
+    _entry.ship_accessories = @ship_accessory_data.data
     _entry
   end
   

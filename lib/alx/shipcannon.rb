@@ -66,46 +66,46 @@ class ShipCannon < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::SHIP_FLAGS      ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::SHIP_MODEL1     , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_MODEL2     , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_MODEL3     , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_MODEL4     , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_MODEL5     , ''      )
-    members << IntVar.new(CsvHdr::TYPE_ID         ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::TYPE_NAME       , ''      )
-    members << IntVar.new(CsvHdr::ELEMENT_ID      ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::ELEMENT_NAME    , ''      )
+    members << IntVar.new(CsvHdr::SHIP_FLAGS        ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::SHIP_LITTLEJACK[1], ''      )
+    members << StrDmy.new(CsvHdr::SHIP_LITTLEJACK[2], ''      )
+    members << StrDmy.new(CsvHdr::SHIP_DELPHINUS[1] , ''      )
+    members << StrDmy.new(CsvHdr::SHIP_DELPHINUS[2] , ''      )
+    members << StrDmy.new(CsvHdr::SHIP_DELPHINUS[3] , ''      )
+    members << IntVar.new(CsvHdr::TYPE_ID           ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::TYPE_NAME         , ''      )
+    members << IntVar.new(CsvHdr::ELEMENT_ID        ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::ELEMENT_NAME      , ''      )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
+      members << IntVar.new(padding_hdr             ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::ATTACK          ,  0, 's>')
-    members << IntVar.new(CsvHdr::HIT             ,  0, 'S>')
-    members << IntVar.new(CsvHdr::LIMIT           ,  0, 'c' )
-    members << IntVar.new(CsvHdr::SPIRIT          ,  0, 'c' )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(CsvHdr::PURCHASE_PRICE  ,  0, 'S>')
-    members << IntVar.new(CsvHdr::RETAIL_PRICE    ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_ALPHABET  ,  0, 'c' )
+    members << IntVar.new(CsvHdr::ATTACK            ,  0, 's>')
+    members << IntVar.new(CsvHdr::HIT               ,  0, 'S>')
+    members << IntVar.new(CsvHdr::LIMIT             ,  0, 'c' )
+    members << IntVar.new(CsvHdr::SPIRIT            ,  0, 'c' )
+    members << IntVar.new(unknown_hdr               ,  0, 'c' )
+    members << IntVar.new(unknown_hdr               ,  0, 'c' )
+    members << IntVar.new(unknown_hdr               ,  0, 'c' )
+    members << IntVar.new(unknown_hdr               ,  0, 'c' )
+    members << IntVar.new(CsvHdr::PURCHASE_PRICE    ,  0, 'S>')
+    members << IntVar.new(CsvHdr::RETAIL_PRICE      ,  0, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE  ,  0, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_ALPHABET    ,  0, 'c' )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
+      members << IntVar.new(padding_hdr             ,  0, 'c' )
     else
-      members << IntVar.new(CsvHdr::PADDING[0]    ,  0, 'c' )
+      members << IntVar.new(CsvHdr::PADDING[0]      ,  0, 'c' )
     end
 
     add_dscr_members
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
     _flags = find_member(CsvHdr::SHIP_FLAGS).value
     SHIPS.each do |_id, _ship|
       find_member(_ship).value = _flags & (0x20 >> _id) != 0 ? 'X' : ''

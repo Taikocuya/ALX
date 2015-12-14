@@ -107,9 +107,9 @@ class CrewMember < StdEntry
     add_dscr_members
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
     _id = find_member(CsvHdr::POSITION_ID).value
     find_member(CsvHdr::POSITION_NAME).value = POSITIONS[_id]
 

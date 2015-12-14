@@ -145,7 +145,7 @@ class EntryTransform
     _bnr     = _root.bnr
     _hdr     = _root.hdr
     _valid   = true
-    
+
     _valid &&= has_dir?(_path)
     _valid &&= check_bnr(_bnr)
     _valid &&= check_hdr(_hdr)

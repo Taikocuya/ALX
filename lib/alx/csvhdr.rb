@@ -65,12 +65,29 @@ module CsvHdr
 #------------------------------------------------------------------------------
 
   ID                  = 'Entry ID'
-  FILES               = 'Entry files'
+  FILTER              = '[Filter]'
   MESSAGE_ID          = 'Message ID'
+  UNKNOWN             = create_hdr('Unknown%s')
+  PADDING             = create_hdr('Padding%s')
+  
+  ELEMENT_ID          = 'Element ID'
+  ELEMENT_NAME        = '[Element name]'
+  TYPE_ID             = 'Type ID'
+  TYPE_NAME           = '[Type name]'
+  CATEGORY_ID         = 'Category ID'
+  CATEGORY_NAME       = '[Category name]'
+  STATE_ID            = 'State ID'
+  STATE_NAME          = '[State name]'
+  STATE_HIT           = 'State hit%'
+
+#------------------------------------------------------------------------------
+# Name
+#------------------------------------------------------------------------------
 
   NAME_EU_STR         = 'EU entry name'
   NAME_JP_STR         = 'JP entry name'
   NAME_US_STR         = 'US entry name'
+  
   NAME_DE_SIZE        = '[DE entry name size]'
   NAME_DE_POS         = '[DE entry name position]'
   NAME_DE_STR         = 'DE entry name'
@@ -83,6 +100,10 @@ module CsvHdr
   NAME_GB_SIZE        = '[GB entry name size]'
   NAME_GB_POS         = '[GB entry name position]'
   NAME_GB_STR         = 'GB entry name'
+
+#------------------------------------------------------------------------------
+# Description
+#------------------------------------------------------------------------------
 
   DSCR_JP_SIZE        = '[JP description size]'
   DSCR_JP_POS         = '[JP description position]'
@@ -122,6 +143,83 @@ module CsvHdr
   SHIP_DSCR_GB_POS    = '[GB ship description position]'
   SHIP_DSCR_GB_STR    = 'GB ship description string'
 
+#------------------------------------------------------------------------------
+# Character
+#------------------------------------------------------------------------------
+  
+  CHARACTER_ID        = create_hdr('Character%sID'    )
+  CHARACTER_NAME      = create_hdr('[Character%sname]')
+  CHARACTER_X         = create_hdr('Character%sX'     )
+  CHARACTER_Y         = create_hdr('[Character%sY]'   )
+  CHARACTER_FLAGS     = 'Character flags'
+  CHARACTER_OPT       = Hash.new { |_h, _k| _h[_k] = sprintf('[%s]', _k) }
+  CHARACTER_VYSE      = 'Vyse'
+  CHARACTER_AIKA      = 'Aika'
+  CHARACTER_FINA      = 'Fina'
+  CHARACTER_DRACHMA   = 'Drachma'
+  CHARACTER_GILDER    = 'Gilder'
+  CHARACTER_ENRIQUE   = 'Enrique'
+  
+  WEAPON_ID           = 'Weapon ID'
+  WEAPON_NAME         = '[Weapon name]'
+  ARMOR_ID            = 'Armor ID'
+  ARMOR_NAME          = '[Armor name]'
+  ACCESSORY_ID        = 'Accessory ID'
+  ACCESSORY_NAME      = '[Accessory name]'
+  
+  EXP                 = create_hdr('EXP%s'       )
+  MEGIC_EXP           = 'Magic EXP'
+  GREEN_EXP           = create_hdr('Green EXP%s' )
+  RED_EXP             = create_hdr('Red EXP%s'   )
+  PURPLE_EXP          = create_hdr('Purple EXP%s')
+  BLUE_EXP            = create_hdr('Blue EXP%s'  )
+  YELLOW_EXP          = create_hdr('Yellow EXP%s')
+  SILVER_EXP          = create_hdr('Silver EXP%s')
+
+#------------------------------------------------------------------------------
+# Ship
+#------------------------------------------------------------------------------
+  
+  SHIP_FLAGS          = 'Ship flags'
+  SHIP_LITTLEJACK     = create_hdr('[Little Jack%s]')
+  SHIP_DELPHINUS      = create_hdr('[Delphinus%s]'  )
+
+  SHIP_CANNON_ID      = create_hdr('Ship cannon%sID'       )
+  SHIP_CANNON_NAME    = create_hdr('[Ship cannon%sname]'   )
+  SHIP_ACCESSORY_ID   = create_hdr('Ship accessory%sID'    )
+  SHIP_ACCESSORY_NAME = create_hdr('[Ship accessory%sname]')
+  
+#------------------------------------------------------------------------------
+# Enemy
+#------------------------------------------------------------------------------
+  
+  ENEMY_ID            = create_hdr('Enemy%sID'       )
+  ENEMY_NAME_JP       = create_hdr('[JP enemy%sname]')
+  ENEMY_NAME_US       = create_hdr('[US enemy%sname]')
+  ENEMY_NAME_EU       = create_hdr('[EU enemy%sname]')
+  ENEMY_X             = create_hdr('Enemy%sX'        )
+  ENEMY_Y             = create_hdr('Enemy%sY'        )
+  ENEMY_WIDTH         = 'Width'
+  ENEMY_HEIGHT        = 'Height'
+
+  MOVEMENT_FLAGS      = 'Movement flags'
+
+  ITEM_PROBABILITY    = create_hdr('Item%sprobability')
+  ITEM_AMOUNT         = create_hdr('Item%samount'     )
+  ITEM_ID             = create_hdr('Item%sID'         )
+  ITEM_NAME           = create_hdr('[Item%sname]'     )
+
+  INST_TYPE_ID        = create_hdr('Instruction%stype ID'         )
+  INST_TYPE_NAME      = create_hdr('[Instruction%stype name]'     )
+  INST_ID             = create_hdr('Instruction%sID'              )
+  INST_NAME           = create_hdr('[Instruction%sname]'          )
+  INST_PARAM_ID       = create_hdr('Instruction%sparameter ID'    )
+  INST_PARAM_NAME     = create_hdr('[Instruction%sparameter name]')
+
+#------------------------------------------------------------------------------
+# Ship enemy
+#------------------------------------------------------------------------------
+
   ARM_NAME_DE_POS     = create_hdr('[DE armament%sname position]')
   ARM_NAME_DE_SIZE    = create_hdr('[DE armament%sname size]'    )
   ARM_NAME_DE_STR     = create_hdr('DE armament%sname string'    )
@@ -135,23 +233,44 @@ module CsvHdr
   ARM_NAME_GB_SIZE    = create_hdr('[GB armament%sname size]'    )
   ARM_NAME_GB_STR     = create_hdr('GB armament%sname string'    )
 
-  CHARACTER_ID        = 'Character ID'
-  CHARACTER_NAME      = '[Character name]'
-  CHARACTER_FLAGS     = 'Character flags'
-  CHARACTER_OPT       = Hash.new { |_h, _k| _h[_k] = sprintf('[%s]', _k) }
-  CHARACTER_VYSE      = 'Vyse'
-  CHARACTER_AIKA      = 'Aika'
-  CHARACTER_FINA      = 'Fina'
-  CHARACTER_DRACHMA   = 'Drachma'
-  CHARACTER_GILDER    = 'Gilder'
-  CHARACTER_ENRIQUE   = 'Enrique'
+  ARM_ATTACK          = create_hdr('Armament%sattack'        )
+  ARM_TYPE_ID         = create_hdr('Armament%stype ID'       )
+  ARM_TYPE_NAME       = create_hdr('[Armament%stype name]'   )
+  ARM_HIT             = create_hdr('Armament%shit%'          )
+  ARM_RANGE           = create_hdr('Armament%srange'         )
+  ARM_ELEMENT_ID      = create_hdr('Armament%selement ID'    )
+  ARM_ELEMENT_NAME    = create_hdr('[Armament%selement name]')
+  
+  ITEM_DROP_ID        = create_hdr('Item drop%sID'    )
+  ITEM_DROP_NAME      = create_hdr('[Item drop%sname]')
 
-  SHIP_FLAGS          = 'Ship flags'
-  SHIP_MODEL1         = '[Little Jack #1]'
-  SHIP_MODEL2         = '[Little Jack #2]'
-  SHIP_MODEL3         = '[Delphinus #1]'
-  SHIP_MODEL4         = '[Delphinus #2]'
-  SHIP_MODEL5         = '[Delphinus #3]'
+#------------------------------------------------------------------------------
+# Battle
+#------------------------------------------------------------------------------
+  
+  DEFEAT_COND_ID      = 'Defeat condition ID'
+  DEFEAT_COND_NAME    = '[Defeat condition name]'
+  ESCAPE_COND_ID      = 'Escape condition ID'
+  ESCAPE_COND_NAME    = '[Escape condition name]'
+  
+  EFFECT_ID           = 'Effect ID'
+  EFFECT_NAME         = '[Effect name]'
+  EFFECT_SPIRIT       = 'Effect spirit'
+  EFFECT_VALUE        = create_hdr('Effect value%s')
+  EFFECT_PRIORITY     = 'Effect priority'
+  
+  SHIP_EFFECT_ID      = 'Ship effect ID'
+  SHIP_EFFECT_NAME    = '[Ship effect name]'
+  SHIP_EFFECT_SPIRIT  = 'Ship effect spirit'
+  SHIP_EFFECT_TURNS   = 'Ship effect turns'
+  SHIP_EFFECT_VALUE   = 'Ship effect amount'
+  
+  SCOPE_ID            = 'Scope ID'
+  SCOPE_NAME          = '[Scope name]'
+
+#------------------------------------------------------------------------------
+# Menu
+#------------------------------------------------------------------------------
 
   OCCASION_FLAGS      = 'Occasion flags'
   OCCASION_MENU       = '[Menu]'
@@ -171,33 +290,6 @@ module CsvHdr
   FEATURE_NAME        = create_hdr('[Feature%sname]')
   FEATURE_VALUE       = create_hdr('Feature%svalue' )
 
-  EFFECT_ID           = 'Effect ID'
-  EFFECT_NAME         = '[Effect name]'
-  EFFECT_SPIRIT       = 'Effect spirit'
-  EFFECT_VALUE        = create_hdr('Effect value%s')
-  EFFECT_PRIORITY     = 'Effect priority'
-
-  SHIP_EFFECT_ID      = 'Ship effect ID'
-  SHIP_EFFECT_NAME    = '[Ship effect name]'
-  SHIP_EFFECT_SPIRIT  = 'Ship effect spirit'
-  SHIP_EFFECT_TURNS   = 'Ship effect turns'
-  SHIP_EFFECT_VALUE   = 'Ship effect amount'
-
-  SCOPE_ID            = 'Scope ID'
-  SCOPE_NAME          = '[Scope name]'
-  
-  ELEMENT_ID          = 'Element ID'
-  ELEMENT_NAME        = '[Element name]'
-
-  TYPE_ID             = 'Type ID'
-  TYPE_NAME           = '[Type name]'
-
-  CATEGORY_ID         = 'Category ID'
-  CATEGORY_NAME       = '[Category name]'
-  
-  STATE_ID            = 'Inflict state ID'
-  STATE_NAME          = '[Inflict state name]'
-
   AGE                 = 'Age'
   AGILE               = 'Agile'
   ATTACK              = 'Attack'
@@ -209,6 +301,7 @@ module CsvHdr
   GOLD                = 'Gold'
   HIT                 = 'Hit%'
   HP                  = 'HP'
+  LEVEL               = 'Level'
   LIMIT               = 'Limit'
   MAGDEF              = 'MagDef'
   MAXHP               = 'MAXHP'
@@ -221,53 +314,12 @@ module CsvHdr
   VIGOR               = 'Vigor'
   WILL                = 'Will'
 
-  EXP                 = create_hdr('EXP%s'       )
-  GREEN_EXP           = create_hdr('Green EXP%s' )
-  RED_EXP             = create_hdr('Red EXP%s'   )
-  PURPLE_EXP          = create_hdr('Purple EXP%s')
-  BLUE_EXP            = create_hdr('Blue EXP%s'  )
-  YELLOW_EXP          = create_hdr('Yellow EXP%s')
-  SILVER_EXP          = create_hdr('Silver EXP%s')
-  STATE               = create_hdr('State%s'     )
-
-  POISON              = 'Poison'
-  UNCONSCIOUS         = 'Unconscious'
-  STONE               = 'Stone'
-  SLEEP               = 'Sleep'
-  CONFUSION           = 'Confusion'
-  SILENCE             = 'Silence'
-  WEAK                = 'Weak'
-
-  ITEM_ID             = create_hdr('Item ID%s'         )
-  ITEM_NAME           = create_hdr('[Item name%s]'     )
-  ITEM_DROP_ID        = create_hdr('Item drop ID%s'    )
-  ITEM_DROP_NAME      = create_hdr('[Item drop name%s]')
-  
-  WEAPON_ID           = 'Weapon ID'
-  WEAPON_NAME         = '[Weapon name]'
-  ARMOR_ID            = 'Armor ID'
-  ARMOR_NAME          = '[Armor name]'
-  ACCESSORY_ID        = 'Accessory ID'
-  ACCESSORY_NAME      = '[Accessory name]'
-  
-  SHIP_CANNON_ID      = create_hdr('Ship cannon ID%s'       )
-  SHIP_CANNON_NAME    = create_hdr('[Ship cannon name%s]'   )
-  SHIP_ACCESSORY_ID   = create_hdr('Ship accessory ID%s'    )
-  SHIP_ACCESSORY_NAME = create_hdr('[Ship accessory name%s]')
+#------------------------------------------------------------------------------
+# Crew
+#------------------------------------------------------------------------------
 
   POSITION_ID         = 'Position ID'
   POSITION_NAME       = '[Position name]'
-
-  ARM_ATTACK          = create_hdr('Armament%sattack'        )
-  ARM_TYPE_ID         = create_hdr('Armament%stype ID'       )
-  ARM_TYPE_NAME       = create_hdr('[Armament%stype name]'   )
-  ARM_HIT             = create_hdr('Armament%shit%'          )
-  ARM_RANGE           = create_hdr('Armament%srange'         )
-  ARM_ELEMENT_ID      = create_hdr('Armament%selement ID'    )
-  ARM_ELEMENT_NAME    = create_hdr('[Armament%selement name]')
-
-  UNKNOWN             = create_hdr('Unknown%s')
-  PADDING             = create_hdr('Padding%s')
 
 end # class CsvHdr
 

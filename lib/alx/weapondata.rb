@@ -45,14 +45,14 @@ class WeaponData < StdEntryData
   ID_RANGE    = 0x0...0x50
 
   # Offset ranges of data entries
-  BIN_FILES_DATA = {
+  DATA_FILES = {
     'E' => DataRange.new(DOL_FILE, 0x2c2790...0x2c3190),
     'J' => DataRange.new(DOL_FILE, 0x2c1c88...0x2c2688),
     'P' => DataRange.new(DOL_FILE, 0x2f2b68...0x2f31a8),
   }
 
   # Offset ranges of name entries
-  BIN_FILES_NAMES = {
+  NAME_FILES = {
     'P' => [
       DataRange.new(SOT_FILE_DE, 0x1ce93...0x1d289),
       DataRange.new(SOT_FILE_ES, 0x1cb04...0x1cf43),
@@ -62,7 +62,7 @@ class WeaponData < StdEntryData
   }
 
   # Offset ranges of description entries
-  BIN_FILES_DSCR = {
+  DSCR_FILES = {
     'E' => DataRange.new(DOL_FILE, 0x2c7d9c...0x2c9714),
     'J' => DataRange.new(DOL_FILE, 0x2c72c0...0x2c8ddc),
     'P' => [
@@ -86,11 +86,11 @@ class WeaponData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Weapon, _root)
-    self.id_range        = ID_RANGE
-    self.bin_files_data  = BIN_FILES_DATA
-    self.bin_files_names = BIN_FILES_NAMES
-    self.bin_files_dscr  = BIN_FILES_DSCR
-    self.csv_file        = CSV_FILE
+    self.id_range   = ID_RANGE
+    self.data_files = DATA_FILES
+    self.name_files = NAME_FILES
+    self.dscr_files = DSCR_FILES
+    self.csv_file   = CSV_FILE
   end
 
 end # class WeaponData

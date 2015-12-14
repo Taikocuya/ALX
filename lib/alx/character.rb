@@ -52,9 +52,9 @@ class Character < StdEntry
   # @param _region [String] Region ID
   def initialize(_region)
     super
-    @weapon_data    = {}
-    @armor_data     = {}
-    @accessory_data = {}
+    @weapons     = {}
+    @armors      = {}
+    @accessories = {}
 
     case region
     when 'E'
@@ -96,8 +96,12 @@ class Character < StdEntry
       members << IntVar.new(ELEMENTS[_i]          ,  0, 's>')
     end
 
-    (1..16).each do |_i|
-      members << IntVar.new(CsvHdr::STATE[_i]     ,  0, 's>')
+    (0...9).each do |_i|
+      members << IntVar.new(STATES[_i]            ,  0, 's>')
+    end
+    
+    (9...16).each do |_i|
+      members << IntVar.new(unknown_hdr           ,  0, 's>')
     end
 
     members << IntVar.new(CsvHdr::POWER           ,  0, 's>')
@@ -126,66 +130,63 @@ class Character < StdEntry
     members << IntVar.new(CsvHdr::SILVER_EXP[0]   ,  0, 's>')
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
-    _id     = find_member(CsvHdr::WEAPON_ID).value
-    _weapon = @weapon_data[_id]
-    if _weapon
-      if _id != -1
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
+    _id = find_member(CsvHdr::WEAPON_ID).value
+    if _id != -1
+      _entry = @weapons[_id]
+      _name  = '???'
+      if _entry
         case region
         when 'E'
-          _name = _weapon.find_member(CsvHdr::NAME_US_STR).value
+          _name = _entry.find_member(CsvHdr::NAME_US_STR).value
         when 'J'
-          _name = _weapon.find_member(CsvHdr::NAME_JP_STR).value
+          _name = _entry.find_member(CsvHdr::NAME_JP_STR).value
         when 'P'
-          _name = _weapon.find_member(CsvHdr::NAME_GB_STR).value
+          _name = _entry.find_member(CsvHdr::NAME_GB_STR).value
         end
-      else
-        _name = 'None'
       end
     else
-      _name = '???'
+      _name = 'None'
     end
     find_member(CsvHdr::WEAPON_NAME).value = _name
 
-    _id    = find_member(CsvHdr::ARMOR_ID).value
-    _armor = @armor_data[_id]
-    if _weapon
-      if _id != -1
+    _id = find_member(CsvHdr::ARMOR_ID).value
+    if _id != -1
+      _entry = @armors[_id]
+      _name  = '???'
+      if _entry
         case region
         when 'E'
-          _name = _armor.find_member(CsvHdr::NAME_US_STR).value
+          _name = _entry.find_member(CsvHdr::NAME_US_STR).value
         when 'J'
-          _name = _armor.find_member(CsvHdr::NAME_JP_STR).value
+          _name = _entry.find_member(CsvHdr::NAME_JP_STR).value
         when 'P'
-          _name = _armor.find_member(CsvHdr::NAME_GB_STR).value
+          _name = _entry.find_member(CsvHdr::NAME_GB_STR).value
         end
-      else
-        _name = 'None'
       end
     else
-      _name = '???'
+      _name = 'None'
     end
     find_member(CsvHdr::ARMOR_NAME).value = _name
 
-    _id        = find_member(CsvHdr::ACCESSORY_ID).value
-    _accessory = @accessory_data[_id]
-    if _weapon
-      if _id != -1
+    _id = find_member(CsvHdr::ACCESSORY_ID).value
+    if _id != -1
+      _entry = @accessories[_id]
+      _name  = '???'
+      if _entry
         case region
         when 'E'
-          _name = _accessory.find_member(CsvHdr::NAME_US_STR).value
+          _name = _entry.find_member(CsvHdr::NAME_US_STR).value
         when 'J'
-          _name = _accessory.find_member(CsvHdr::NAME_JP_STR).value
+          _name = _entry.find_member(CsvHdr::NAME_JP_STR).value
         when 'P'
-          _name = _accessory.find_member(CsvHdr::NAME_GB_STR).value
+          _name = _entry.find_member(CsvHdr::NAME_GB_STR).value
         end
-      else
-        _name = 'None'
       end
     else
-      _name = '???'
+      _name = 'None'
     end
     find_member(CsvHdr::ACCESSORY_NAME).value = _name
 
@@ -196,9 +197,9 @@ class Character < StdEntry
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :weapon_data
-  attr_accessor :armor_data
-  attr_accessor :accessory_data
+  attr_accessor :weapons
+  attr_accessor :armors
+  attr_accessor :accessories
 
 end	# class Character
 

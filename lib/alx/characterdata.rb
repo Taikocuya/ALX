@@ -47,7 +47,7 @@ class CharacterData < StdEntryData
   ID_RANGE    = 0x0...0x6
 
   # Offset ranges of data entries
-  BIN_FILES_DATA = {
+  DATA_FILES = {
     'E' => DataRange.new(DOL_FILE, 0x2c1860...0x2c1bf0),
     'J' => DataRange.new(DOL_FILE, 0x2c0d58...0x2c10e8),
     'P' => DataRange.new(DOL_FILE, 0x2c2ff0...0x2c3380),
@@ -66,22 +66,22 @@ class CharacterData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Character, _root)
-    self.id_range       = ID_RANGE
-    self.bin_files_data = BIN_FILES_DATA
-    self.csv_file       = CSV_FILE
-    @weapon_data        = WeaponData.new(_root)
-    @armor_data         = ArmorData.new(_root)
-    @accessory_data     = AccessoryData.new(_root)
+    self.id_range   = ID_RANGE
+    self.data_files = DATA_FILES
+    self.csv_file   = CSV_FILE
+    @weapon_data    = WeaponData.new(_root)
+    @armor_data     = ArmorData.new(_root)
+    @accessory_data = AccessoryData.new(_root)
   end
 
   # Creates an entry.
-  # @param _id [String] Entry ID
+  # @param _id [Integer] Entry ID
   # @return [Entry] Entry object
   def create_entry(_id = -1)
-    _entry                = super
-    _entry.weapon_data    = @weapon_data.data
-    _entry.armor_data     = @armor_data.data
-    _entry.accessory_data = @accessory_data.data
+    _entry             = super
+    _entry.weapons     = @weapon_data.data
+    _entry.armors      = @armor_data.data
+    _entry.accessories = @accessory_data.data
     _entry
   end
   

@@ -45,7 +45,7 @@ class MagicExpCurveData < StdEntryData
   ID_RANGE    = 0x0...0x6
 
   # Offset ranges of data entries
-  BIN_FILES_DATA = {
+  DATA_FILES = {
     'E' => DataRange.new(LMT_FILE, 0x948...0xaf8),
     'J' => DataRange.new(LMT_FILE, 0x948...0xaf8),
     'P' => DataRange.new(LMT_FILE, 0x948...0xaf8),
@@ -65,17 +65,17 @@ class MagicExpCurveData < StdEntryData
   def initialize(_root)
     super(MagicExpCurve, _root)
     self.id_range       = ID_RANGE
-    self.bin_files_data = BIN_FILES_DATA
+    self.data_files = DATA_FILES
     self.csv_file       = CSV_FILE
     @character_data     = CharacterData.new(_root)
   end
 
   # Creates an entry.
-  # @param _id [String] Entry ID
+  # @param _id [Integer] Entry ID
   # @return [Entry] Entry object
   def create_entry(_id = -1)
-    _entry                = super
-    _entry.character_data = @character_data.data
+    _entry            = super
+    _entry.characters = @character_data.data
     _entry
   end
   

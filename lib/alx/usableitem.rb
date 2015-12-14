@@ -85,9 +85,9 @@ class UsableItem < StdEntry
     add_dscr_members
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
     _flags = find_member(CsvHdr::OCCASION_FLAGS).value
     OCCASIONS.each do |_id, _occasion|
       find_member(_occasion).value = _flags & (0x4 >> _id) != 0 ? 'X' : ''

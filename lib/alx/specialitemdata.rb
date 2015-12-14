@@ -45,14 +45,14 @@ class SpecialItemData < StdEntryData
   ID_RANGE    = 0x140...0x190
 
   # Offset ranges of data entries
-  BIN_FILES_DATA = {
+  DATA_FILES = {
     'E' => DataRange.new(DOL_FILE, 0x2c5774...0x2c5e54),
     'J' => DataRange.new(DOL_FILE, 0x2c4c6c...0x2c534c),
     'P' => DataRange.new(DOL_FILE, 0x2f4aa8...0x2f4e68),
   }
 
   # Offset ranges of name entries
-  BIN_FILES_NAMES = {
+  NAME_FILES = {
     'P' => [
       DataRange.new(SOT_FILE_DE, 0x1dede...0x1e2b1),
       DataRange.new(SOT_FILE_ES, 0x1dc62...0x1e028),
@@ -62,7 +62,7 @@ class SpecialItemData < StdEntryData
   }
 
   # Offset ranges of description entries
-  BIN_FILES_DSCR = {
+  DSCR_FILES = {
     'E' => DataRange.new(
       DOL_FILE, 0x2cd4ec...0x2ce220,
       [0x152, 0x15b, 0x161, 0x162]
@@ -92,11 +92,11 @@ class SpecialItemData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(SpecialItem, _root)
-    self.id_range        = ID_RANGE
-    self.bin_files_data  = BIN_FILES_DATA
-    self.bin_files_names = BIN_FILES_NAMES
-    self.bin_files_dscr  = BIN_FILES_DSCR
-    self.csv_file        = CSV_FILE
+    self.id_range   = ID_RANGE
+    self.data_files = DATA_FILES
+    self.name_files = NAME_FILES
+    self.dscr_files = DSCR_FILES
+    self.csv_file   = CSV_FILE
   end
 
 end # class SpecialItemData

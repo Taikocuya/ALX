@@ -45,7 +45,7 @@ class ExpCurve < StdEntry
   # @param _region [String] Region ID
   def initialize(_region)
     super
-    @character_data = {}
+    @characters = {}
 
     case region
     when 'E'
@@ -61,21 +61,20 @@ class ExpCurve < StdEntry
     end
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
-    _character = @character_data[id]
-    if _character
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
+    _chara = @characters[id]
+    _name  = '???'
+    if _chara
       case region
       when 'E'
-        _name = _character.find_member(CsvHdr::NAME_US_STR).value
+        _name = _chara.find_member(CsvHdr::NAME_US_STR).value
       when 'J'
-        _name = _character.find_member(CsvHdr::NAME_JP_STR).value
+        _name = _chara.find_member(CsvHdr::NAME_JP_STR).value
       when 'P'
-        _name = _character.find_member(CsvHdr::NAME_EU_STR).value
+        _name = _chara.find_member(CsvHdr::NAME_EU_STR).value
       end
-    else
-      _name = '???'
     end
     case region
     when 'E'
@@ -93,7 +92,7 @@ class ExpCurve < StdEntry
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :character_data
+  attr_accessor :characters
 
 end	# class ExpCurve
 

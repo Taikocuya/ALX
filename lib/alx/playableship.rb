@@ -52,8 +52,8 @@ class PlayableShip < StdEntry
   # @param _region [String] Region ID
   def initialize(_region)
     super
-    @ship_cannon_data    = {}
-    @ship_accessory_data = {}
+    @ship_cannons     = {}
+    @ship_accessories = {}
     add_name_members(20)
 
     members << IntVar.new(padding_hdr                      ,  0, 'c' )
@@ -97,49 +97,47 @@ class PlayableShip < StdEntry
     members << IntVar.new(padding_hdr                      ,  0, 's>')
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
     (1..5).each do |_i|
-      _id     = find_member(CsvHdr::SHIP_CANNON_ID[_i]).value
-      _cannon = @ship_cannon_data[_id]
-      if _cannon
-        if _id != -1
+      _id = find_member(CsvHdr::SHIP_CANNON_ID[_i]).value
+      if _id != -1
+        _entry = @ship_cannons[_id]
+        _name  = '???'
+        if _entry
           case region
           when 'E'
-            _name = _cannon.find_member(CsvHdr::NAME_US_STR).value
+            _name = _entry.find_member(CsvHdr::NAME_US_STR).value
           when 'J'
-            _name = _cannon.find_member(CsvHdr::NAME_JP_STR).value
+            _name = _entry.find_member(CsvHdr::NAME_JP_STR).value
           when 'P'
-            _name = _cannon.find_member(CsvHdr::NAME_GB_STR).value
+            _name = _entry.find_member(CsvHdr::NAME_GB_STR).value
           end
-        else
-          _name = 'None'
         end
       else
-        _name = '???'
+        _name = 'None'
       end
       find_member(CsvHdr::SHIP_CANNON_NAME[_i]).value = _name
     end
 
     (1..3).each do |_i|
-      _id        = find_member(CsvHdr::SHIP_ACCESSORY_ID[_i]).value
-      _accessory = @ship_accessory_data[_id]
-      if _accessory
-        if _id != -1
+      _id = find_member(CsvHdr::SHIP_ACCESSORY_ID[_i]).value
+      if _id != -1
+        _entry = @ship_accessories[_id]
+        _name  = '???'
+        if _entry
           case region
           when 'E'
-            _name = _accessory.find_member(CsvHdr::NAME_US_STR).value
+            _name = _entry.find_member(CsvHdr::NAME_US_STR).value
           when 'J'
-            _name = _accessory.find_member(CsvHdr::NAME_JP_STR).value
+            _name = _entry.find_member(CsvHdr::NAME_JP_STR).value
           when 'P'
-            _name = _accessory.find_member(CsvHdr::NAME_GB_STR).value
+            _name = _entry.find_member(CsvHdr::NAME_GB_STR).value
           end
-        else
-          _name = 'None'
         end
       else
-        _name = '???'
+        _name = 'None'
       end
       find_member(CsvHdr::SHIP_ACCESSORY_NAME[_i]).value = _name
     end
@@ -151,8 +149,8 @@ class PlayableShip < StdEntry
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :ship_cannon_data
-  attr_accessor :ship_accessory_data
+  attr_accessor :ship_cannons
+  attr_accessor :ship_accessories
 
 end	# class PlayableShip
 

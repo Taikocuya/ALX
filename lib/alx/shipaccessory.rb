@@ -70,12 +70,12 @@ class ShipAccessory < StdEntry
       members << IntVar.new(padding_hdr              ,  0, 'c' )
     end
     
-    members << StrDmy.new(CsvHdr::SHIP_MODEL1        , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_MODEL2        , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_MODEL3        , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_MODEL4        , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_MODEL5        , ''      )
-    
+    members << StrDmy.new(CsvHdr::SHIP_LITTLEJACK[1] , ''      )
+    members << StrDmy.new(CsvHdr::SHIP_LITTLEJACK[2] , ''      )
+    members << StrDmy.new(CsvHdr::SHIP_DELPHINUS[1]  , ''      )
+    members << StrDmy.new(CsvHdr::SHIP_DELPHINUS[2]  , ''      )
+    members << StrDmy.new(CsvHdr::SHIP_DELPHINUS[3]  , ''      )
+
     (1..4).each do |_i|
       members << IntVar.new(CsvHdr::FEATURE_ID[_i]   , -1, 'c' )
       members << StrDmy.new(CsvHdr::FEATURE_NAME[_i] , ''      )
@@ -92,11 +92,11 @@ class ShipAccessory < StdEntry
     add_dscr_members
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
     _flags = find_member(CsvHdr::SHIP_FLAGS).value
-    ShipCannon::SHIPS.each do |_id, _ship|
+    SHIPS.each do |_id, _ship|
       find_member(_ship).value = _flags & (0x20 >> _id) != 0 ? 'X' : ''
     end
 

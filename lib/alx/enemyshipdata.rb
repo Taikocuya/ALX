@@ -52,14 +52,14 @@ class EnemyShipData < StdEntryData
   ID_RANGE    = 0x0...0x2d
 
   # Offset ranges of data entries
-  BIN_FILES_DATA = {
+  DATA_FILES = {
     'E' => DataRange.new(DOL_FILE, 0x2d3934...0x2d4e4c),
     'J' => DataRange.new(DOL_FILE, 0x2d3574...0x2d4a8c),
     'P' => DataRange.new(DOL_FILE, 0x2f6d14...0x2f7f5c),
   }
 
   # Offset ranges of name entries
-  BIN_FILES_NAMES = {
+  NAME_FILES = {
     'P' => [
       DataRange.new(SOT_FILE_DE, 0x1e635...0x1e809),
       DataRange.new(SOT_FILE_ES, 0x1e3a6...0x1e57b),
@@ -69,7 +69,7 @@ class EnemyShipData < StdEntryData
   }
 
   # Offset ranges of armament name entries
-  ARM_BIN_FILES_NAMES = {
+  ARM_NAME_FILES = {
     'P' => [
       DataRange.new(SOT_FILE_DE, 0x1ee0b...0x1f3e5),
       DataRange.new(SOT_FILE_ES, 0x1ec0e...0x1f1da),
@@ -92,10 +92,11 @@ class EnemyShipData < StdEntryData
   def initialize(_root)
     super(EnemyShip, _root)
     self.id_range        = ID_RANGE
-    self.bin_files_data  = BIN_FILES_DATA
-    self.bin_files_names = BIN_FILES_NAMES
+    self.data_files      = DATA_FILES
+    self.name_files      = NAME_FILES
     self.csv_file        = CSV_FILE
-    @arm_bin_files_names = ARM_BIN_FILES_NAMES
+    @arm_name_files      = ARM_NAME_FILES
+    
     @accessory_data      = AccessoryData.new(_root)
     @armor_data          = ArmorData.new(_root)
     @ship_cannon_data    = ShipCannonData.new(_root)
@@ -104,21 +105,15 @@ class EnemyShipData < StdEntryData
     @special_item_data   = SpecialItemData.new(_root)
     @usable_item_data    = UsableItemData.new(_root)
     @weapon_data         = WeaponData.new(_root)
+    @items               = {}
   end
 
   # Creates an entry.
-  # @param _id [String] Entry ID
+  # @param _id [Integer] Entry ID
   # @return [Entry] Entry object
   def create_entry(_id = -1)
-    _entry                = super
-    _entry.item_data      = @accessory_data.data
-    _entry.item_data.merge!(@armor_data.data)
-    _entry.item_data.merge!(@ship_cannon_data.data)
-    _entry.item_data.merge!(@ship_accessory_data.data)
-    _entry.item_data.merge!(@ship_item_data.data)
-    _entry.item_data.merge!(@special_item_data.data)
-    _entry.item_data.merge!(@usable_item_data.data)
-    _entry.item_data.merge!(@weapon_data.data)
+    _entry       = super
+    _entry.items = @items
     _entry
   end
 
@@ -129,7 +124,7 @@ class EnemyShipData < StdEntryData
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_NAME))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@arm_bin_files_names[region], _filename)
+      _range = determine_range(@arm_name_files[region], _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
@@ -188,9 +183,18 @@ class EnemyShipData < StdEntryData
     @usable_item_data.load_all_from_bin
     @weapon_data.load_all_from_bin
     
+    @items.merge!(@accessory_data.data)
+    @items.merge!(@armor_data.data)
+    @items.merge!(@ship_cannon_data.data)
+    @items.merge!(@ship_accessory_data.data)
+    @items.merge!(@ship_item_data.data)
+    @items.merge!(@special_item_data.data)
+    @items.merge!(@usable_item_data.data)
+    @items.merge!(@weapon_data.data)
+    
     super
   
-    _ranges = @arm_bin_files_names[region]
+    _ranges = @arm_name_files[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -213,7 +217,7 @@ class EnemyShipData < StdEntryData
   
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@arm_bin_files_names[region], _filename) 
+      _range = determine_range(@arm_name_files[region], _filename) 
   
       @data.each do |_id, _entry|
         if _id < @id_range.begin && _id >= @id_range.end
@@ -273,7 +277,7 @@ class EnemyShipData < StdEntryData
   def save_all_to_bin
     super
   
-    _ranges = @arm_bin_files_names[region]
+    _ranges = @arm_name_files[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -288,7 +292,7 @@ class EnemyShipData < StdEntryData
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :arm_bin_files_names
+  attr_accessor :arm_name_files
 
 end # class EnemyShipData
 

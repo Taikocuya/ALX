@@ -39,27 +39,27 @@ class Weapon < StdEntry
 #                                  CONSTANTS
 #==============================================================================
 
-  # State IDs
-  STATES = Hash.new('???')
-  STATES.store(-1, 'None'         )
-  STATES.store( 0, 'Poison'       )
-  STATES.store( 1, 'Sleep #1'     )
-  STATES.store( 2, 'Weak'         )
-  STATES.store( 3, 'Confusion #1)')
-  STATES.store( 4, 'Sleep #2'     )
-  STATES.store( 5, 'Confusion #2' )
-  STATES.store( 6, 'Death #1'     )
-  STATES.store( 7, 'Silence #1'   )
-  STATES.store( 8, 'Stone #1'     )
-  STATES.store( 9, 'Sleep #3'     )
-  STATES.store(10, 'Death #2'     )
-  STATES.store(11, 'Confusion #3' )
-  STATES.store(12, 'Silence #2'   )
-  STATES.store(13, 'Stone #2'     )
-  STATES.store(14, 'Confusion #4' )
-  STATES.store(15, 'Sleep #4'     )
-  STATES.store(16, 'Death #3'     )
-  STATES.store(17, 'Sleep #5'     )
+  # Effect IDs
+  EFFECTS = Hash.new('???')
+  EFFECTS.store(-1, 'None'             )
+  EFFECTS.store( 0, 'Add Poison'       )
+  EFFECTS.store( 1, 'Add Sleep #1'     )
+  EFFECTS.store( 2, 'Add Weak'         )
+  EFFECTS.store( 3, 'Add Confusion #1)')
+  EFFECTS.store( 4, 'Add Sleep #2'     )
+  EFFECTS.store( 5, 'Add Confusion #2' )
+  EFFECTS.store( 6, 'Add Death #1'     )
+  EFFECTS.store( 7, 'Add Silence #1'   )
+  EFFECTS.store( 8, 'Add Stone #1'     )
+  EFFECTS.store( 9, 'Add Sleep #3'     )
+  EFFECTS.store(10, 'Add Death #2'     )
+  EFFECTS.store(11, 'Add Confusion #3' )
+  EFFECTS.store(12, 'Add Silence #2'   )
+  EFFECTS.store(13, 'Add Stone #2'     )
+  EFFECTS.store(14, 'Add Confusion #4' )
+  EFFECTS.store(15, 'Add Sleep #4'     )
+  EFFECTS.store(16, 'Add Death #3'     )
+  EFFECTS.store(17, 'Add Sleep #5'     )
   
 #==============================================================================
 #                                   PUBLIC
@@ -73,13 +73,13 @@ class Weapon < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::CHARACTER_ID    ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::CHARACTER_NAME  , ''      )
-    members << IntVar.new(CsvHdr::RETAIL_PRICE    ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE, -1, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_ALPHABET  , -1, 'c' )
-    members << IntVar.new(CsvHdr::STATE_ID        , -1, 'c' )
-    members << StrDmy.new(CsvHdr::STATE_NAME      , ''      )
+    members << IntVar.new(CsvHdr::CHARACTER_ID[0]  ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::CHARACTER_NAME[0], ''      )
+    members << IntVar.new(CsvHdr::RETAIL_PRICE     ,  0, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE , -1, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_ALPHABET   , -1, 'c' )
+    members << IntVar.new(CsvHdr::EFFECT_ID        , -1, 'c' )
+    members << StrDmy.new(CsvHdr::EFFECT_NAME      , ''      )
     
     if region == 'P'
       members << IntVar.new(padding_hdr           ,  0, 'c' )
@@ -96,14 +96,14 @@ class Weapon < StdEntry
     add_dscr_members
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
-    _id = find_member(CsvHdr::CHARACTER_ID).value
-    find_member(CsvHdr::CHARACTER_NAME).value = CHARACTERS[_id]
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
+    _id = find_member(CsvHdr::CHARACTER_ID[0]).value
+    find_member(CsvHdr::CHARACTER_NAME[0]).value = CHARACTERS[_id]
     
-    _id = find_member(CsvHdr::STATE_ID).value
-    find_member(CsvHdr::STATE_NAME).value = STATES[_id]
+    _id = find_member(CsvHdr::EFFECT_ID).value
+    find_member(CsvHdr::EFFECT_NAME).value = EFFECTS[_id]
     
     _id = find_member(CsvHdr::FEATURE_ID[0]).value
     find_member(CsvHdr::FEATURE_NAME[0]).value = Armor::FEATURES[_id]

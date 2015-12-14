@@ -45,14 +45,14 @@ class ShipCannonData < StdEntryData
   ID_RANGE    = 0x190...0x1b8
 
   # Offset ranges of data entries
-  BIN_FILES_DATA = {
+  DATA_FILES = {
     'E' => DataRange.new(DOL_FILE, 0x2d4e4c...0x2d53ec),
     'J' => DataRange.new(DOL_FILE, 0x2d4a8c...0x2d502c),
     'P' => DataRange.new(DOL_FILE, 0x2f7f5c...0x2f831c),
   }
 
   # Offset ranges of name entries
-  BIN_FILES_NAMES = {
+  NAME_FILES = {
     'P' => [
       DataRange.new(SOT_FILE_DE, 0x1e809...0x1ea14),
       DataRange.new(SOT_FILE_ES, 0x1e57b...0x1e789),
@@ -62,7 +62,7 @@ class ShipCannonData < StdEntryData
   }
 
   # Offset ranges of description entries
-  BIN_FILES_DSCR = {
+  DSCR_FILES = {
     'E' => DataRange.new(DOL_FILE, 0x2ce220...0x2ceef8),
     'J' => DataRange.new(DOL_FILE, 0x2ce2b4...0x2cef30),
     'P' => [
@@ -86,11 +86,11 @@ class ShipCannonData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(ShipCannon, _root)
-    self.id_range        = ID_RANGE
-    self.bin_files_data  = BIN_FILES_DATA
-    self.bin_files_names = BIN_FILES_NAMES
-    self.bin_files_dscr  = BIN_FILES_DSCR
-    self.csv_file        = CSV_FILE
+    self.id_range   = ID_RANGE
+    self.data_files = DATA_FILES
+    self.name_files = NAME_FILES
+    self.dscr_files = DSCR_FILES
+    self.csv_file   = CSV_FILE
   end
 
 end # class ShipCannonData

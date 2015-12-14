@@ -58,11 +58,11 @@ class Entry
 
   # Ship IDs
   SHIPS = Hash.new('???')
-  SHIPS.store(0, CsvHdr::SHIP_MODEL1)
-  SHIPS.store(1, CsvHdr::SHIP_MODEL2)
-  SHIPS.store(2, CsvHdr::SHIP_MODEL3)
-  SHIPS.store(3, CsvHdr::SHIP_MODEL4)
-  SHIPS.store(4, CsvHdr::SHIP_MODEL5)
+  SHIPS.store(0, CsvHdr::SHIP_LITTLEJACK[1])
+  SHIPS.store(1, CsvHdr::SHIP_LITTLEJACK[2])
+  SHIPS.store(2, CsvHdr::SHIP_DELPHINUS[1] )
+  SHIPS.store(3, CsvHdr::SHIP_DELPHINUS[2] )
+  SHIPS.store(4, CsvHdr::SHIP_DELPHINUS[3] )
 
 #==============================================================================
 #                                   PUBLIC
@@ -74,7 +74,7 @@ class Entry
   # @param _region [String] Region ID
   def initialize(_region)
     @region     = _region
-    @members    = [IntDmy.new(CsvHdr::ID, -1)]
+    @members    = [IntDmy.new(CsvHdr::ID, id)]
     @padding_id = 0
     @unknown_id = 0
   end
@@ -103,13 +103,17 @@ class Entry
   # @param _name [String] Name of data member
   # @return [DataMember] Object of data member
   def find_member(_name)
-    @members.find do |_m|
-      _m.name == _name
+    if @members
+      @members.find do |_m|
+        _m.name == _name
+      end
+    else
+      nil
     end
   end
 
-  # Compares two entries based on +IntVar+ and +StrVar+ members. Returns 
-  # +true+ if all member values are equal, or +false+ otherwise.
+  # Compares two entries based on +FltVar+, +IntVar+ and +StrVar+ members. 
+  # Returns +true+ if all member values are equal, or +false+ otherwise.
   # @param _entry [Entry] Entry
   # @return [Boolean] +true+ if all member values are equal, otherwise +false+.
   def ==(_entry)
@@ -117,15 +121,21 @@ class Entry
       return false
     end
 
-    @members.all? do |_m|
-      _other = _entry.find_member(_m.name)
-      
-      if _other && (_m.is_a?(IntVar) || _m.is_a?(StrVar))
-        _m.value == _other.value
-      else
-        true
+    _result   = true
+    _result &&= (id == _entry.id)
+    if _result
+      _result &&= @members.all? do |_m|
+        _other = _entry.find_member(_m.name)
+        
+        if _other && (_m.is_a?(FltVar) || _m.is_a?(IntVar) || _m.is_a?(StrVar))
+          _m.value == _other.value
+        else
+          true
+        end
       end
     end
+    
+    _result
   end
 
   # Reads one entry from a binary IO.
@@ -137,29 +147,32 @@ class Entry
   end
   
   # Write one entry to a binary IO.
-  # @param _f [BinaryIO] Binary IO object
+  # @param _f [BinaryIO] BinaryIO object
   def write_to_bin(_f)
     @members.each do |_m|
       _m.write_to_bin(_f)
     end
   end
 
-  # Reads one entry from a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def read_from_csv_row(_row)
+  # Reads one entry from a CSV  file.
+  # @param _f [CSV] CSV object
+  def read_from_csv(_f)
+    _row = _f.shift
     @members.each do |_m|
       _m.read_from_csv_row(_row)
     end
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
+    _row = CSV::Row.new(header, [])
     @members.each do |_m|
       _m.write_to_csv_row(_row)
     end
+    _f << _row
   end
-  
+
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------

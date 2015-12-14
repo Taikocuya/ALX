@@ -115,9 +115,9 @@ class Armor < StdEntry
     add_dscr_members
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
     _flags = find_member(CsvHdr::CHARACTER_FLAGS).value
     CHARACTERS.each do |_id, _chara|
       _member = CsvHdr::CHARACTER_OPT[_chara]
