@@ -18,6 +18,13 @@
 # ALX. If not, see <http://www.gnu.org/licenses/>.
 #******************************************************************************
 
+#==============================================================================
+#                                 REQUIREMENTS
+#==============================================================================
+
+require_relative('enemydata.rb')
+require_relative('stdentrytransform.rb')
+
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 module ALX
@@ -26,17 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Mixin for every command line tool.
-module Executable
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Version of ALX
-  VERSION = '2.3.0'
-  # Date of ALX
-  DATE    = Time.new(2015, 12, 14)
+# Base class to export and/or import enemies to and/or from CSV files.
+class EnemyTransform < StdEntryTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -44,53 +42,12 @@ module Executable
 
   public
 
-  # Constructs a Executable.
+  # Constructs an EnemyTransform.
   def initialize
-    show_version
+    super(EnemyData)
   end
 
-  # Returns +true+ if file exists, otherwise +false+.
-  # @param _filename [String] File name
-  # @return [Boolean] +true+ if file exists, otherwise +false+.
-  def has_file?(_filename)
-    print("Check for existing file: #{File.expand_path(_filename)}")
-    
-    _result = File.exist?(_filename) && !File.directory?(_filename)
-
-    if _result
-      print(" - exists\n")
-    else
-      print(" - not found\n")
-    end
-    
-    _result
-  end
-
-  # Returns +true+ if directory exists, otherwise +false+.
-  # @param _dirname [String] Directory name
-  # @return [Boolean] +true+ if file exists, otherwise +false+.
-  def has_dir?(_dirname)
-    print("Check for existing directory: #{File.expand_path(_dirname)}")
-    
-    _result = Dir.exist?(_dirname) && File.directory?(_dirname)
-
-    if _result
-      print(" - exists\n")
-    else
-      print(" - not found\n")
-    end
-    
-    _result
-  end
-
-  # Displays version of ALX.
-  def show_version
-    print("\n")
-    print(DATE.strftime("ALX #{VERSION} (%Y-%m-%d)\n"))
-    print(DATE.strftime("Copyright (C) %Y Marcel Renner\n"))
-  end
-
-end # class Executable
+end # class EnemyTransform
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
