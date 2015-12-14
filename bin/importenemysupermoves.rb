@@ -1,3 +1,4 @@
+#! /usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2015 Marcel Renner
@@ -22,8 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('characterskilldata.rb')
-require_relative('stdentrytransform.rb')
+require_relative('../lib/alx/enemysupermovetransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,8 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Base class to export and/or import character skills to and/or from CSV files.
-class CharacterSkillTransform < StdEntryTransform
+# Class to import enemy skills from CSV files.
+class EnemySuperMoveImporter < EnemySuperMoveTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -42,13 +42,31 @@ class CharacterSkillTransform < StdEntryTransform
 
   public
 
-  # Constructs a CharacterSkillTransform.
-  def initialize
-    super(CharacterSkillData)
+  def valid?(_root)
+    _result   = super
+    _result &&= has_file?(File.join(_root.path, EnemySuperMoveData::CSV_FILE))
+    _result
   end
 
-end # class CharacterSkillTransform
+  def exec
+    super
+    transform_csv_to_bin
+  end
+
+end	# class EnemySuperMoveImporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end # module ALX
+end	# module ALX
+
+# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+
+if __FILE__ == $0 || Object.const_defined?('ALX::Importer')
+  begin
+    _importer = ALX::EnemySuperMoveImporter.new
+    _importer.exec
+  rescue => _e
+    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
+    exit(1)
+  end
+end

@@ -33,8 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a character skill.
-class CharacterSkill < StdEntry
+# Class to handle a character super move.
+class CharacterSuperMove < StdEntry
   
 #==============================================================================
 #                                   INCLUDES
@@ -68,7 +68,7 @@ class CharacterSkill < StdEntry
 
   public
 
-  # Constructs a CharacterSkill.
+  # Constructs a CharacterSuperMove.
   # @param _region [String] Region ID
   def initialize(_region)
     super
@@ -99,8 +99,9 @@ class CharacterSkill < StdEntry
     members << IntVar.new(CsvHdr::EFFECT_VALUE[0]   , -1, 's>')
     members << IntVar.new(CsvHdr::TYPE_ID           ,  0, 'c' )
     members << StrDmy.new(CsvHdr::TYPE_NAME         , ''      )
-    members << IntVar.new(unknown_hdr               , -1, 'c' )
-    members << IntVar.new(CsvHdr::HIT               ,  0, 'c' )
+    members << IntVar.new(CsvHdr::STATE_ID          ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::STATE_NAME        , ''      )
+    members << IntVar.new(CsvHdr::STATE_HIT         ,  0, 'c' )
     members << IntVar.new(padding_hdr               ,  0, 'c' )
     members << IntVar.new(padding_hdr               ,  0, 'c' )
     members << IntVar.new(padding_hdr               ,  0, 'c' )
@@ -118,35 +119,11 @@ class CharacterSkill < StdEntry
     members << IntVar.new(padding_hdr               ,  0, 'c' )
 
     add_dscr_members
-    
-    case region
-    when 'E'
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_US_POS ,  0      )
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_US_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::SHIP_DSCR_US_STR , ''      )
-    when 'J'
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_JP_POS ,  0      )
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_JP_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::SHIP_DSCR_JP_STR , ''      )
-    when 'P'
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_DE_POS ,  0      )
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_DE_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::SHIP_DSCR_DE_STR , '', '\n')
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_ES_POS ,  0      )
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_ES_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::SHIP_DSCR_ES_STR , '', '\n')
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_FR_POS ,  0      )
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_FR_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::SHIP_DSCR_FR_STR , '', '\n')
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_GB_POS ,  0      )
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_GB_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::SHIP_DSCR_GB_STR , '', '\n')
-    end
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
     _id = find_member(CsvHdr::ELEMENT_ID).value
     find_member(CsvHdr::ELEMENT_NAME).value = ELEMENTS[_id]
 
@@ -166,6 +143,9 @@ class CharacterSkill < StdEntry
 
     _id = find_member(CsvHdr::TYPE_ID).value
     find_member(CsvHdr::TYPE_NAME).value = TYPES[_id]
+
+    _id = find_member(CsvHdr::STATE_ID).value
+    find_member(CsvHdr::STATE_NAME).value = STATES[_id]
     
     _id = find_member(CsvHdr::SHIP_OCCASION_ID).value
     find_member(CsvHdr::SHIP_OCCASION_NAME).value = SHIP_OCCASIONS[_id]
@@ -176,7 +156,7 @@ class CharacterSkill < StdEntry
     super
   end
 
-end	# class CharacterSkill
+end	# class CharacterSuperMove
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

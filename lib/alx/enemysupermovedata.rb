@@ -1,4 +1,3 @@
-#! /usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2015 Marcel Renner
@@ -23,7 +22,9 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/enemyskilltransform.rb')
+require_relative('enemysupermove.rb')
+require_relative('entrytransform.rb')
+require_relative('stdentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,8 +34,35 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to export enemy skills to CSV files.
-class EnemySkillExporter < EnemySkillTransform
+# Class to handle enemy skills from binary and/or CSV files.
+class EnemySuperMoveData < StdEntryData
+  
+#==============================================================================
+#                                  CONSTANTS
+#==============================================================================
+
+  # Range of entry IDs
+  ID_RANGE    = 0x0...0x135
+
+  # Offset ranges of data entries
+  DATA_FILES = {
+    'E' => DataRange.new(DOL_FILE, 0x2aa950...0x2ad4c4),
+    'J' => DataRange.new(DOL_FILE, 0x2aa3f8...0x2acf6c),
+    'P' => DataRange.new(DOL_FILE, 0x2d9668...0x2dae8c),
+  }
+
+  # Offset ranges of name entries
+  NAME_FILES = {
+    'P' => [
+      DataRange.new(SOT_FILE_DE, 0x14e4...0x2079),
+      DataRange.new(SOT_FILE_ES, 0x14d7...0x215d),
+      DataRange.new(SOT_FILE_FR, 0x14d9...0x211a),
+      DataRange.new(SOT_FILE_GB, 0x14d4...0x1ff8),
+    ],
+  }
+
+  # Path to CSV file
+  CSV_FILE = 'enemysupermoves.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -42,25 +70,18 @@ class EnemySkillExporter < EnemySkillTransform
 
   public
 
-  def exec
-    super
-    transform_bin_to_csv
+  # Constructs a EnemySuperMoveData.
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
+    super(EnemySuperMove, _root)
+    self.id_range   = ID_RANGE
+    self.data_files = DATA_FILES
+    self.name_files = NAME_FILES
+    self.csv_file   = CSV_FILE
   end
 
-end	# class EnemySkillExporter
+end # class EnemySuperMoveData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
-
-# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
-
-if __FILE__ == $0 || Object.const_defined?('ALX::Exporter')
-  begin
-    _exporter = ALX::EnemySkillExporter.new
-    _exporter.exec
-  rescue => _e
-    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
-    exit(1)
-  end
-end
+end # module ALX

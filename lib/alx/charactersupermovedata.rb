@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('enemyskill.rb')
+require_relative('charactersupermove.rb')
 require_relative('entrytransform.rb')
 require_relative('stdentrydata.rb')
 
@@ -34,35 +34,47 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle enemy skills from binary and/or CSV files.
-class EnemySkillData < StdEntryData
+# Class to handle character skills from binary and/or CSV files.
+class CharacterSuperMoveData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
 
   # Range of entry IDs
-  ID_RANGE    = 0x0...0x159
+  ID_RANGE    = 0x24...0x3e
 
   # Offset ranges of data entries
-  BIN_FILES_DATA = {
-    'E' => DataRange.new(DOL_FILE, 0x2aa440...0x2ad4c4),
-    'J' => DataRange.new(DOL_FILE, 0x2a9ee8...0x2acf6c),
-    'P' => DataRange.new(DOL_FILE, 0x2d9398...0x2dae8c),
+  DATA_FILES = {
+    'E' => DataRange.new(DOL_FILE, 0x2c22b0...0x2c2790),
+    'J' => DataRange.new(DOL_FILE, 0x2c17a8...0x2c1c88),
+    'P' => DataRange.new(DOL_FILE, 0x2f27c0...0x2f2b68),
   }
 
   # Offset ranges of name entries
-  BIN_FILES_NAMES = {
+  NAME_FILES = {
     'P' => [
-      DataRange.new(SOT_FILE_DE, 0x13d6...0x2079),
-      DataRange.new(SOT_FILE_ES, 0x13c9...0x215d),
-      DataRange.new(SOT_FILE_FR, 0x13cb...0x211a),
-      DataRange.new(SOT_FILE_GB, 0x13c6...0x1ff8),
+      DataRange.new(SOT_FILE_DE, 0x1cd48...0x1ce93),
+      DataRange.new(SOT_FILE_ES, 0x1c99b...0x1cb04),
+      DataRange.new(SOT_FILE_FR, 0x1cc0b...0x1cd83),
+      DataRange.new(SOT_FILE_GB, 0x1c402...0x1c555),
+    ],
+  }
+
+  # Offset ranges of description entries
+  DSCR_FILES = {
+    'E' => DataRange.new(DOL_FILE, 0x2c73e0...0x2c7d9c),
+    'J' => DataRange.new(DOL_FILE, 0x2c68d4...0x2c72c0),
+    'P' => [
+      DataRange.new(SOT_FILE_DE, 0x11d53...0x126e4),
+      DataRange.new(SOT_FILE_ES, 0x11a56...0x12410),
+      DataRange.new(SOT_FILE_FR, 0x10b7a...0x1244e),
+      DataRange.new(SOT_FILE_GB, 0x116a9...0x12056),
     ],
   }
 
   # Path to CSV file
-  CSV_FILE = 'enemyskills.csv'
+  CSV_FILE = 'charactersupermoves.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -70,17 +82,18 @@ class EnemySkillData < StdEntryData
 
   public
 
-  # Constructs a EnemySkillData.
+  # Constructs a CharacterSuperMoveData.
   # @param _root [GameRoot] Game root
   def initialize(_root)
-    super(EnemySkill, _root)
-    self.id_range        = ID_RANGE
-    self.bin_files_data  = BIN_FILES_DATA
-    self.bin_files_names = BIN_FILES_NAMES
-    self.csv_file        = CSV_FILE
+    super(CharacterSuperMove, _root)
+    self.id_range    = ID_RANGE
+    self.data_files  = DATA_FILES
+    self.name_files  = NAME_FILES
+    self.dscr_files  = DSCR_FILES
+    self.csv_file    = CSV_FILE
   end
 
-end # class EnemySkillData
+end # class CharacterSuperMoveData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

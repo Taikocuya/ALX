@@ -34,7 +34,7 @@ module ALX
 #==============================================================================
 
 # Class to handle a enemy skill.
-class EnemySkill < StdEntry
+class EnemySuperMove < StdEntry
   
 #==============================================================================
 #                                   INCLUDES
@@ -57,7 +57,7 @@ class EnemySkill < StdEntry
 
   public
 
-  # Constructs a EnemySkill.
+  # Constructs a EnemySuperMove.
   # @param _region [String] Region ID
   def initialize(_region)
     super
@@ -89,15 +89,16 @@ class EnemySkill < StdEntry
     members << StrDmy.new(CsvHdr::TYPE_NAME      , ''      )
     members << IntVar.new(unknown_hdr            ,  0, 'c' )
     members << IntVar.new(unknown_hdr            ,  0, 'c' )
-    members << IntVar.new(unknown_hdr            ,  0, 'c' )
-    members << IntVar.new(CsvHdr::HIT            ,  0, 'c' )
+    members << IntVar.new(CsvHdr::STATE_ID       ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::STATE_NAME     , ''      )
+    members << IntVar.new(CsvHdr::STATE_HIT      ,  0, 'c' )
     members << IntVar.new(padding_hdr            ,  0, 'c' )
     members << IntVar.new(padding_hdr            ,  0, 'c' )
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
     _id = find_member(CsvHdr::CATEGORY_ID).value
     find_member(CsvHdr::CATEGORY_NAME).value = CATEGORIES[_id]
     
@@ -113,10 +114,13 @@ class EnemySkill < StdEntry
     _id = find_member(CsvHdr::TYPE_ID).value
     find_member(CsvHdr::TYPE_NAME).value = TYPES[_id]
 
+    _id = find_member(CsvHdr::STATE_ID).value
+    find_member(CsvHdr::STATE_NAME).value = STATES[_id]
+
     super
   end
 
-end	# class EnemySkill
+end	# class EnemySuperMove
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

@@ -23,7 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/characterskilltransform.rb')
+require_relative('../lib/alx/charactersupermovetransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,7 +34,7 @@ module ALX
 #==============================================================================
 
 # Class to import playable character skills from CSV files.
-class CharacterSkillImporter < CharacterSkillTransform
+class CharacterSuperMoveImporter < CharacterSuperMoveTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -44,7 +44,9 @@ class CharacterSkillImporter < CharacterSkillTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(File.join(_root.path, CharacterSkillData::CSV_FILE))
+    _result &&= has_file?(
+      File.join(_root.path, CharacterSuperMoveData::CSV_FILE)
+    )
     _result
   end
 
@@ -53,7 +55,7 @@ class CharacterSkillImporter < CharacterSkillTransform
     transform_csv_to_bin
   end
 
-end	# class CharacterSkillImporter
+end	# class CharacterSuperMoveImporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -63,7 +65,7 @@ end	# module ALX
 
 if __FILE__ == $0 || Object.const_defined?('ALX::Importer')
   begin
-    _importer = ALX::CharacterSkillImporter.new
+    _importer = ALX::CharacterSuperMoveImporter.new
     _importer.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")

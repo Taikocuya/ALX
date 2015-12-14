@@ -1,4 +1,3 @@
-#! /usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2015 Marcel Renner
@@ -23,7 +22,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/characterskilltransform.rb')
+require_relative('enemymagicdata.rb')
+require_relative('stdentrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,8 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to export playable character skills to CSV files.
-class CharacterSkillExporter < CharacterSkillTransform
+# Base class to export and/or import enemy magics to and/or from CSV files.
+class EnemyMagicTransform < StdEntryTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -42,25 +42,13 @@ class CharacterSkillExporter < CharacterSkillTransform
 
   public
 
-  def exec
-    super
-    transform_bin_to_csv
+  # Constructs a EnemyMagicTransform.
+  def initialize
+    super(EnemyMagicData)
   end
 
-end	# class CharacterSkillExporter
+end # class EnemyMagicTransform
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
-
-# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
-
-if __FILE__ == $0 || Object.const_defined?('ALX::Exporter')
-  begin
-    _exporter = ALX::CharacterSkillExporter.new
-    _exporter.exec
-  rescue => _e
-    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
-    exit(1)
-  end
-end
+end # module ALX

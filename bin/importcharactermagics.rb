@@ -23,7 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/enemyskilltransform.rb')
+require_relative('../lib/alx/charactermagictransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,8 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to import enemy skills from CSV files.
-class EnemySkillImporter < EnemySkillTransform
+# Class to import playable character magics from CSV files.
+class CharacterMagicImporter < CharacterMagicTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -44,7 +44,7 @@ class EnemySkillImporter < EnemySkillTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(File.join(_root.path, EnemySkillData::CSV_FILE))
+    _result &&= has_file?(File.join(_root.path, CharacterMagicData::CSV_FILE))
     _result
   end
 
@@ -53,7 +53,7 @@ class EnemySkillImporter < EnemySkillTransform
     transform_csv_to_bin
   end
 
-end	# class EnemySkillImporter
+end	# class CharacterMagicImporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -63,7 +63,7 @@ end	# module ALX
 
 if __FILE__ == $0 || Object.const_defined?('ALX::Importer')
   begin
-    _importer = ALX::EnemySkillImporter.new
+    _importer = ALX::CharacterMagicImporter.new
     _importer.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")

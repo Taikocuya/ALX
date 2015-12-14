@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('characterskill.rb')
+require_relative('charactermagic.rb')
 require_relative('entrytransform.rb')
 require_relative('stdentrydata.rb')
 
@@ -34,47 +34,47 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle character skills from binary and/or CSV files.
-class CharacterSkillData < StdEntryData
+# Class to handle character magics from binary and/or CSV files.
+class CharacterMagicData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
 
   # Range of entry IDs
-  ID_RANGE    = 0x0...0x3e
+  ID_RANGE    = 0x0...0x24
 
   # Offset ranges of data entries
-  BIN_FILES_DATA = {
-    'E' => DataRange.new(DOL_FILE, 0x2c1bf0...0x2c2790),
-    'J' => DataRange.new(DOL_FILE, 0x2c10e8...0x2c1c88),
-    'P' => DataRange.new(DOL_FILE, 0x2f22b0...0x2f2b68),
+  DATA_FILES = {
+    'E' => DataRange.new(DOL_FILE, 0x2c1bf0...0x2c22b0),
+    'J' => DataRange.new(DOL_FILE, 0x2c10e8...0x2c17a8),
+    'P' => DataRange.new(DOL_FILE, 0x2f22b0...0x2f27c0),
   }
 
   # Offset ranges of name entries
-  BIN_FILES_NAMES = {
+  NAME_FILES = {
     'P' => [
-      DataRange.new(SOT_FILE_DE, 0x1cc3a...0x1ce93),
-      DataRange.new(SOT_FILE_ES, 0x1c88d...0x1cb04),
-      DataRange.new(SOT_FILE_FR, 0x1cafd...0x1cd83),
-      DataRange.new(SOT_FILE_GB, 0x1c2f4...0x1c555),
+      DataRange.new(SOT_FILE_DE, 0x1cc3a...0x1cd48),
+      DataRange.new(SOT_FILE_ES, 0x1c88d...0x1c99b),
+      DataRange.new(SOT_FILE_FR, 0x1cafd...0x1cc0b),
+      DataRange.new(SOT_FILE_GB, 0x1c2f4...0x1c40),
     ],
   }
 
   # Offset ranges of description entries
-  BIN_FILES_DSCR = {
-    'E' => DataRange.new(DOL_FILE, 0x2c6668...0x2c7d9c),
-    'J' => DataRange.new(DOL_FILE, 0x2c5b60...0x2c72c0),
+  DSCR_FILES = {
+    'E' => DataRange.new(DOL_FILE, 0x2c6668...0x2c73e0),
+    'J' => DataRange.new(DOL_FILE, 0x2c5b60...0x2c68d4),
     'P' => [
-      DataRange.new(SOT_FILE_DE, 0x11025...0x126e4),
-      DataRange.new(SOT_FILE_ES, 0x10d2f...0x12410),
-      DataRange.new(SOT_FILE_FR, 0x1093f...0x1244e),
-      DataRange.new(SOT_FILE_GB, 0x1093f...0x12056),
+      DataRange.new(SOT_FILE_DE, 0x11025...0x11d53),
+      DataRange.new(SOT_FILE_ES, 0x10d2f...0x11a56),
+      DataRange.new(SOT_FILE_FR, 0x1093f...0x10b7a),
+      DataRange.new(SOT_FILE_GB, 0x1093f...0x116a9),
     ],
   }
 
   # Offset ranges of ship description entries
-  BIN_FILES_DSCR_SHIP = {
+  SHIP_DSCR_FILES = {
     'E' => DataRange.new(
       DOL_FILE, 0x2d05c4...0x2d0ef4,
       [0x8, 0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
@@ -92,7 +92,7 @@ class CharacterSkillData < StdEntryData
   }
 
   # Path to CSV file
-  CSV_FILE = 'characterskills.csv'
+  CSV_FILE = 'charactermagics.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -100,16 +100,16 @@ class CharacterSkillData < StdEntryData
 
   public
 
-  # Constructs a CharacterSkillData.
+  # Constructs a CharacterMagicData.
   # @param _root [GameRoot] Game root
   def initialize(_root)
-    super(CharacterSkill, _root)
-    self.id_range        = ID_RANGE
-    self.bin_files_data  = BIN_FILES_DATA
-    self.bin_files_names = BIN_FILES_NAMES
-    self.bin_files_dscr  = BIN_FILES_DSCR
-    self.csv_file        = CSV_FILE
-    @bin_files_dscr_ship = BIN_FILES_DSCR_SHIP
+    super(CharacterMagic, _root)
+    self.id_range    = ID_RANGE
+    self.data_files  = DATA_FILES
+    self.name_files  = NAME_FILES
+    self.dscr_files  = DSCR_FILES
+    self.csv_file    = CSV_FILE
+    @ship_dscr_files = SHIP_DSCR_FILES
   end
 
   # Reads all ship description entries from a binary file.
@@ -119,7 +119,7 @@ class CharacterSkillData < StdEntryData
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DSCR))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@bin_files_dscr_ship[region], _filename)
+      _range = determine_range(@ship_dscr_files[region], _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
@@ -180,7 +180,7 @@ class CharacterSkillData < StdEntryData
   def load_all_from_bin
     super
   
-    _ranges = @bin_files_dscr_ship[region]
+    _ranges = @ship_dscr_files[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -203,7 +203,7 @@ class CharacterSkillData < StdEntryData
   
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@bin_files_dscr_ship[region], _filename) 
+      _range = determine_range(@ship_dscr_files[region], _filename) 
   
       @data.each do |_id, _entry|
         if _id < @id_range.begin && _id >= @id_range.end
@@ -272,7 +272,7 @@ class CharacterSkillData < StdEntryData
   def save_all_to_bin
     super
   
-    _ranges = @bin_files_dscr_ship[region]
+    _ranges = @ship_dscr_files[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -287,9 +287,9 @@ class CharacterSkillData < StdEntryData
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :bin_files_dscr_ship
+  attr_accessor :ship_dscr_files
 
-end # class CharacterSkillData
+end # class CharacterMagicData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
