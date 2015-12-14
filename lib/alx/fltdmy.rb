@@ -45,15 +45,15 @@ class FltDmy < DataMember
   # @param _row [CSV::Row] CSV row
   def read_from_csv_row(_row)
     super
-    self.value = _row[self.name] || self.value
-    self.value = self.value.to_f
+    self.value = _row[name] || value
+    self.value = value.to_f
   end
 
   # Writes one entry to a CSV row.
   # @param _row [CSV::Row] CSV row
   def write_to_csv_row(_row)
     super
-    _row[self.name] = self.value.to_f
+    _row[name] = value.to_f
   end
 
 end # class IntDmy

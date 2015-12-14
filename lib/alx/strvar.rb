@@ -63,15 +63,15 @@ class StrVar < DataMember
   # @param _f [BinaryIO] Binary IO object
   def write_to_bin(_f)
     super
-    _f.write_str(self.value, @size)
+    _f.write_str(value, @size)
   end
 
   # Reads one entry from a CSV row.
   # @param _row [CSV::Row] CSV row
   def read_from_csv_row(_row)
     super
-    self.value = _row[self.name] || self.value
-    self.value = self.value.to_s
+    self.value = _row[name] || value
+    self.value = value.to_s
     self.value.force_encoding('UTF-8')
     self.value.gsub!('\n', @eol)
   end
@@ -80,10 +80,10 @@ class StrVar < DataMember
   # @param _row [CSV::Row] CSV row
   def write_to_csv_row(_row)
     super
-    _value = self.value.to_s
+    _value = value.to_s
     _value.force_encoding('UTF-8')
     _value.gsub!(@eol, '\n')
-    _row[self.name] = _value
+    _row[name] = _value
   end
 
 #------------------------------------------------------------------------------

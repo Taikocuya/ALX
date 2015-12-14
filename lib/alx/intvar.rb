@@ -61,22 +61,22 @@ class IntVar < DataMember
   # @param _f [BinaryIO] Binary IO object
   def write_to_bin(_f)
     super
-    _f.write_int(self.value, @format)
+    _f.write_int(value, @format)
   end
 
   # Reads one entry from a CSV row.
   # @param _row [CSV::Row] CSV row
   def read_from_csv_row(_row)
     super
-    self.value = _row[self.name] || self.value
-    self.value = self.value.to_i
+    self.value = _row[name] || value
+    self.value = value.to_i
   end
 
   # Writes one entry to a CSV row.
   # @param _row [CSV::Row] CSV row
   def write_to_csv_row(_row)
     super
-    _row[self.name] = self.value.to_i
+    _row[name] = value.to_i
   end
 
 #------------------------------------------------------------------------------
