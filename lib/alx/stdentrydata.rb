@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require('fileutils.rb')
+require('fileutils')
 require_relative('binaryfile.rb')
 require_relative('datarange.rb')
 require_relative('entrydata.rb')
@@ -57,16 +57,16 @@ class StdEntryData < EntryData
   # @param _root  [GameRoot] Game root
   def initialize(_class, _root)
     super
-    @id_range        = 0x0...0x0
-    @bin_files_data  = {}
-    @bin_files_names = {}
-    @bin_files_dscr  = {}
-    @csv_file        = ''
-    @data            = Hash.new { |_h, _k| _h[_k] = create_entry(_k) }
+    @id_range   = 0x0...0x0
+    @data_files = {}
+    @name_files = {}
+    @dscr_files = {}
+    @csv_file   = ''
+    @data       = Hash.new { |_h, _k| _h[_k] = create_entry(_k) }
   end
 
   # Creates an entry.
-  # @param _id [String] Entry ID
+  # @param _id [Integer] Entry ID
   # @return [Entry] Entry object
   def create_entry(_id = -1)
     _entry    = super()
@@ -81,7 +81,7 @@ class StdEntryData < EntryData
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DATA))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@bin_files_data[region], _filename)
+      _range = determine_range(@data_files[region], _filename)
       _size  = create_entry.size
       _f.pos = _range.begin
       
@@ -93,7 +93,7 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(STR_READ, _id, _f.pos))
+        puts(sprintf(STR_READ, _id - @id_range.begin, _f.pos))
         _entry = @data[_id]
         _entry.read_from_bin(_f)
       end
@@ -109,7 +109,7 @@ class StdEntryData < EntryData
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_NAME))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@bin_files_names[region], _filename)
+      _range = determine_range(@name_files[region], _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
@@ -141,7 +141,7 @@ class StdEntryData < EntryData
           _str  = _entry.find_member(CsvHdr::NAME_GB_STR )
         end
         
-        puts(sprintf(STR_READ, _id, _f.pos))
+        puts(sprintf(STR_READ, _id - @id_range.begin, _f.pos))
         _pos.value  = _f.pos
         _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
         _size.value = _f.pos - _pos.value
@@ -158,7 +158,7 @@ class StdEntryData < EntryData
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DSCR))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@bin_files_dscr[region], _filename)
+      _range = determine_range(@dscr_files[region], _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
@@ -201,7 +201,7 @@ class StdEntryData < EntryData
           end
         end
         
-        puts(sprintf(STR_READ, _id, _f.pos))
+        puts(sprintf(STR_READ, _id - @id_range.begin, _f.pos))
         _pos.value  = _f.pos
         if region != 'P'
           _str.value  = _f.read_str(0xff, 0x4)
@@ -217,7 +217,7 @@ class StdEntryData < EntryData
 
   # Reads all entries from binary files.
   def load_all_from_bin
-    _ranges = @bin_files_data[region]
+    _ranges = @data_files[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -227,7 +227,7 @@ class StdEntryData < EntryData
       end
     end
   
-    _ranges = @bin_files_names[region]
+    _ranges = @name_files[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -237,7 +237,7 @@ class StdEntryData < EntryData
       end
     end
   
-    _ranges = @bin_files_dscr[region]
+    _ranges = @dscr_files[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -260,7 +260,7 @@ class StdEntryData < EntryData
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@bin_files_data[region], _filename)
+      _range = determine_range(@data_files[region], _filename)
       _size  = create_entry.size
       
       @data.each do |_id, _entry|
@@ -277,7 +277,7 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(STR_WRITE, _id, _f.pos))
+        puts(sprintf(STR_WRITE, _id - @id_range.begin, _f.pos))
         _entry.write_to_bin(_f)
       end
     end
@@ -297,7 +297,7 @@ class StdEntryData < EntryData
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@bin_files_names[region], _filename)
+      _range = determine_range(@name_files[region], _filename)
       
       @data.each do |_id, _entry|
         if _id < @id_range.begin && _id >= @id_range.end
@@ -339,7 +339,7 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(STR_WRITE, _id, _pos))
+        puts(sprintf(STR_WRITE, _id - @id_range.begin, _pos))
         _f.write_str(_str, _size, 0x1, 'ISO8859-1')
       end
     end
@@ -359,7 +359,7 @@ class StdEntryData < EntryData
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@bin_files_dscr[region], _filename) 
+      _range = determine_range(@dscr_files[region], _filename) 
 
       @data.each do |_id, _entry|
         if _id < @id_range.begin && _id >= @id_range.end
@@ -412,7 +412,7 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(STR_WRITE, _id, _pos))
+        puts(sprintf(STR_WRITE, _id - @id_range.begin, _pos))
         if region != 'P'
           _f.write_str(_str, _size, 0x4)
         else
@@ -426,7 +426,7 @@ class StdEntryData < EntryData
     
   # Writes all entries to binary files.
   def save_all_to_bin
-    _ranges = @bin_files_data[region]
+    _ranges = @data_files[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -436,7 +436,7 @@ class StdEntryData < EntryData
       end
     end
   
-    _ranges = @bin_files_names[region]
+    _ranges = @name_files[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -446,7 +446,7 @@ class StdEntryData < EntryData
       end
     end
   
-    _ranges = @bin_files_dscr[region]
+    _ranges = @dscr_files[region]
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
@@ -462,21 +462,16 @@ class StdEntryData < EntryData
   def load_entries_from_csv(_filename)
     print("\n")
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DATA))
-  
-    _header = create_entry.header
-    
-    CSV.open(_filename, headers: _header, write_headers: true) do |_f|
-      _f.each do |_row|
+
+    CSV.open(_filename, headers: true) do |_f|
+      while !_f.eof?
+        puts(sprintf(STR_READ, [0, _f.lineno - 1].max, _f.pos))
         _entry = create_entry
-        _entry.read_from_csv_row(_row)
-        puts(sprintf(STR_READ, _entry.id, _entry.id - @id_range.begin + 1))
-            
-        if _entry.id != -1
-          @data[_entry.id] = _entry
-        end
+        _entry.read_from_csv(_f)
+        @data[_entry.id] = _entry
       end
     end
-    
+
     puts(sprintf(STR_CLOSE, _filename))
   end
 
@@ -496,14 +491,12 @@ class StdEntryData < EntryData
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_DATA))
 
     _header = create_entry.header
-
+    
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @data.each do |_id, _entry|
-        puts(sprintf(STR_WRITE, _id, _id - @id_range.begin + 1))
-        _row = CSV::Row.new(_header, [])
-        _entry.write_to_csv_row(_row)
-        _f << _row
+        puts(sprintf(STR_WRITE, [0, _f.lineno - 1].max, _f.pos))
+        _entry.write_to_csv(_f)
       end
     end
     
@@ -520,9 +513,9 @@ class StdEntryData < EntryData
 #------------------------------------------------------------------------------
 
   attr_accessor :id_range
-  attr_accessor :bin_files_data
-  attr_accessor :bin_files_names
-  attr_accessor :bin_files_dscr
+  attr_accessor :data_files
+  attr_accessor :name_files
+  attr_accessor :dscr_files
   attr_accessor :csv_file
   attr_accessor :data
 
