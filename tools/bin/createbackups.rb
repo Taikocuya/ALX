@@ -36,8 +36,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
   
-# Class to restore backups in the "share" directory.
-class BackupRestorer
+# Class to create backups in the "share" directory.
+class BackupCreator
   
 #==============================================================================
 #                                   INCLUDES
@@ -80,59 +80,59 @@ class BackupRestorer
 
   def exec
     print("\n")
-    restore_backup(File.join(SHARE_DIR, 'geae8p', DOL_FILE   ))
-    restore_backup(File.join(SHARE_DIR, 'geaj8p', DOL_FILE   ))
-    restore_backup(File.join(SHARE_DIR, 'geap8p', DOL_FILE   ))
+    create_backup(File.join(SHARE_DIR, 'geae8p', DOL_FILE   ))
+    create_backup(File.join(SHARE_DIR, 'geaj8p', DOL_FILE   ))
+    create_backup(File.join(SHARE_DIR, 'geap8p', DOL_FILE   ))
       
     Dir.glob(File.join(SHARE_DIR, 'geae8p', ENP_FILE)).each do |_p|
-      restore_backup(_p)
+      create_backup(_p)
     end
     Dir.glob(File.join(SHARE_DIR, 'geaj8p', ENP_FILE)).each do |_p|
-      restore_backup(_p)
+      create_backup(_p)
     end
     Dir.glob(File.join(SHARE_DIR, 'geap8p', ENP_FILE)).each do |_p|
-      restore_backup(_p)
+      create_backup(_p)
     end
-    
-    restore_backup(File.join(SHARE_DIR, 'geae8p', EVP_FILE   ))
-    restore_backup(File.join(SHARE_DIR, 'geaj8p', EVP_FILE   ))
-    restore_backup(File.join(SHARE_DIR, 'geap8p', EVP_FILE   ))
+
+    create_backup(File.join(SHARE_DIR, 'geae8p', EVP_FILE   ))
+    create_backup(File.join(SHARE_DIR, 'geaj8p', EVP_FILE   ))
+    create_backup(File.join(SHARE_DIR, 'geap8p', EVP_FILE   ))
       
     Dir.glob(File.join(SHARE_DIR, 'geae8p', EB_DAT_FILE)).each do |_p|
-      restore_backup(_p)
+      create_backup(_p)
     end
     Dir.glob(File.join(SHARE_DIR, 'geaj8p', EB_DAT_FILE)).each do |_p|
-      restore_backup(_p)
+      create_backup(_p)
     end
     Dir.glob(File.join(SHARE_DIR, 'geap8p', EB_DAT_FILE)).each do |_p|
-      restore_backup(_p)
+      create_backup(_p)
     end
     Dir.glob(File.join(SHARE_DIR, 'geae8p', EC_DAT_FILE)).each do |_p|
-      restore_backup(_p)
+      create_backup(_p)
     end
     Dir.glob(File.join(SHARE_DIR, 'geaj8p', EC_DAT_FILE)).each do |_p|
-      restore_backup(_p)
+      create_backup(_p)
     end
     Dir.glob(File.join(SHARE_DIR, 'geap8p', EC_DAT_FILE)).each do |_p|
-      restore_backup(_p)
+      create_backup(_p)
     end
-
-    restore_backup(File.join(SHARE_DIR, 'geae8p', LMT_FILE   ))
-    restore_backup(File.join(SHARE_DIR, 'geaj8p', LMT_FILE   ))
-    restore_backup(File.join(SHARE_DIR, 'geap8p', LMT_FILE   ))
-    restore_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_DE))
-    restore_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_ES))
-    restore_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_FR))
-    restore_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_GB))
+    
+    create_backup(File.join(SHARE_DIR, 'geae8p', LMT_FILE   ))
+    create_backup(File.join(SHARE_DIR, 'geaj8p', LMT_FILE   ))
+    create_backup(File.join(SHARE_DIR, 'geap8p', LMT_FILE   ))
+    create_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_DE))
+    create_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_ES))
+    create_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_FR))
+    create_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_GB))
   end
 
-  # Restores a backup.
-  # @param _filename [String] Backup to restore
-  def restore_backup(_filename)
-    _src  = File.expand_path(_filename + '.bak')
-    _dest = File.expand_path(_filename)
+  # Creates a backup.
+  # @param _filename [String] Backup to create
+  def create_backup(_filename)
+    _src  = File.expand_path(_filename)
+    _dest = File.expand_path(_filename + '.bak')
 
-    print("Restore backup: #{_dest}")
+    print("Create backup: #{_dest}")
     
     begin
       FileUtils::cp(_src, _dest)
@@ -148,7 +148,7 @@ class BackupRestorer
     end
   end
 
-end # class BackupRestorer
+end # class BackupCreator
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -158,7 +158,7 @@ end # module ALX
 
 if __FILE__ == $0
   begin
-    _br = ALX::BackupRestorer.new
+    _br = ALX::BackupCreator.new
     _br.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
