@@ -76,10 +76,6 @@ class AklzFile < BinaryFile
     end
     
     File.unlink(to_path)
-    
-    if Dir.glob(File.join(EntryTransform::BUILD_DIR, '{*,.*}')).empty?
-      Dir.unlink(EntryTransform::BUILD_DIR)
-    end
   end
 
 #==============================================================================
