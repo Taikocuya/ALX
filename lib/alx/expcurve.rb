@@ -57,7 +57,7 @@ class ExpCurve < StdEntry
     end
       
     (1..99).each do |_i|
-      members << IntVar.new(CsvHdr::EXP[_i]    ,  0, 'L>')
+      members << IntVar.new(CsvHdr::EXP[_i]    ,  0, 'l>')
     end
   end
 
