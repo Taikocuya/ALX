@@ -9,11 +9,11 @@ data to and from CSV files.
 Features
 --------
 
-* Character skills (Super Moves and Magic)
+* Character skills (Super Moves and Magics)
 * Character stats (EXP curves, Magic EXP curves and parameters)
 * Crew members
 * Enemy ship stats
-* Enemy skills (Super Moves and Magic)
+* Enemy skills (Super Moves and Magics)
 * Enemy stats (action patterns, encounters, events and parameters)
 * Items (accessories, armors, ship cannons, ship accessories, ship items, 
   special items, usable items and weapons)
