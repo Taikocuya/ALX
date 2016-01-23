@@ -68,7 +68,7 @@ class CharacterMagicData < StdEntryData
     'P' => [
       DataRange.new(SOT_FILE_DE, 0x11025...0x11d53),
       DataRange.new(SOT_FILE_ES, 0x10d2f...0x11a56),
-      DataRange.new(SOT_FILE_FR, 0x1093f...0x10b7a),
+      DataRange.new(SOT_FILE_FR, 0x10d3c...0x11a9a),
       DataRange.new(SOT_FILE_GB, 0x1093f...0x116a9),
     ],
   }

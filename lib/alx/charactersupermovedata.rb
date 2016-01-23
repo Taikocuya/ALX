@@ -68,7 +68,7 @@ class CharacterSuperMoveData < StdEntryData
     'P' => [
       DataRange.new(SOT_FILE_DE, 0x11d53...0x126e4),
       DataRange.new(SOT_FILE_ES, 0x11a56...0x12410),
-      DataRange.new(SOT_FILE_FR, 0x10b7a...0x1244e),
+      DataRange.new(SOT_FILE_FR, 0x11a9a...0x1244e),
       DataRange.new(SOT_FILE_GB, 0x116a9...0x12056),
     ],
   }
