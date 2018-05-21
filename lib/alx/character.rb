@@ -70,7 +70,8 @@ class Character < StdEntry
     members << IntVar.new(unknown_hdr             ,  0, 'c' )
     members << IntVar.new(unknown_hdr             ,  0, 'c' )
     members << IntVar.new(CsvHdr::MAXMP           ,  0, 'c' )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
+    members << IntVar.new(CsvHdr::ELEMENT_ID      ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::ELEMENT_NAME    , ''      )
     members << IntVar.new(padding_hdr             ,  0, 'c' )
     members << IntVar.new(padding_hdr             ,  0, 'c' )
     members << IntVar.new(CsvHdr::WEAPON_ID       ,  0, 'C' )
@@ -133,6 +134,9 @@ class Character < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
+    _id = find_member(CsvHdr::ELEMENT_ID).value
+    find_member(CsvHdr::ELEMENT_NAME).value = ELEMENTS[_id]
+    
     _id = find_member(CsvHdr::WEAPON_ID).value
     if _id != -1
       _entry = @weapons[_id]
