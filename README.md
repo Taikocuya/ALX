@@ -60,7 +60,7 @@ or rather, Eternal Arcadia Legends. The directory structure should look like thi
 * `share/*/root` (replace the asterisk with any name you choose, i.e. 
   `share/geae8p/root` or similar) for game data
 
-To obtain the game files, you need a corresponding game image (ISO or GCM) and 
+To obtain the game files, you need a corresponding image (ISO or GCM) and 
 [GCRebuilder](http://www.romhacking.net/utilities/619/). Please do not ask for 
 download links.
 
