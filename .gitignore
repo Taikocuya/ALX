@@ -13,7 +13,4 @@ Thumbs.db
 
 # ALX
 /build/
-/share/
-!/share/geae8p/csv/*
-!/share/geaj8p/csv/*
-!/share/geap8p/csv/*
+/share/*/root
