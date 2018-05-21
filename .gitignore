@@ -14,4 +14,4 @@ Thumbs.db
 # ALX
 /build/
 /share/
-!/share/*/*.csv
+!/share/*/csv/*.csv
