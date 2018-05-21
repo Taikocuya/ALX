@@ -52,7 +52,7 @@ class ExpCurveData < StdEntryData
   }
 
   # Path to CSV file
-  CSV_FILE = 'expcurves.csv'
+  CSV_FILE = 'csv/expcurves.csv'
 
 #==============================================================================
 #                                   PUBLIC

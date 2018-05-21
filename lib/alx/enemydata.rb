@@ -53,19 +53,19 @@ class EnemyData < EntryData
 #==============================================================================
 
   # Path to DAT files of boss enemies
-  EB_DAT_FILE        = 'battle/ebinit%s.dat'
+  EB_DAT_FILE        = 'root/battle/ebinit%s.dat'
   # Path to DAT files of standard enemies
-  EC_DAT_FILE        = 'battle/ecinit%s.dat'
+  EC_DAT_FILE        = 'root/battle/ecinit%s.dat'
   # Path to ENP files with +%s+ as wildcard
-  ENP_FILE           = 'field/%s.enp'
+  ENP_FILE           = 'root/field/%s.enp'
   # Path to EVP file
-  EVP_FILE           = 'battle/epevent.evp'
+  EVP_FILE           = 'root/battle/epevent.evp'
   # Path to CSV file of enemy database
-  ENEMY_CSV_FILE     = 'enemies.csv'
+  ENEMY_CSV_FILE     = 'csv/enemies.csv'
   # Path to CSV file of enemy events
-  EVENT_CSV_FILE     = 'enemyevents.csv'
+  EVENT_CSV_FILE     = 'csv/enemyevents.csv'
   # Path to CSV file of enemy encounters
-  ENCOUNTER_CSV_FILE = 'enemyencounters.csv'
+  ENCOUNTER_CSV_FILE = 'csv/enemyencounters.csv'
 
 #==============================================================================
 #                                   PUBLIC

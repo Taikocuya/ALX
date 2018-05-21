@@ -34,9 +34,9 @@ module Executable
 #==============================================================================
 
   # Version of ALX
-  VERSION = '2.3.0'
+  VERSION = '2.4.0'
   # Date of ALX
-  DATE    = Time.new(2015, 12, 14)
+  DATE    = Time.new(2018, 5, 21)
 
 #==============================================================================
 #                                   PUBLIC
@@ -54,7 +54,7 @@ module Executable
   # @return [Boolean] +true+ if file exists, otherwise +false+.
   def has_file?(_filename)
     print("Check for existing file: #{File.expand_path(_filename)}")
-    
+
     _result = File.exist?(_filename) && !File.directory?(_filename)
 
     if _result

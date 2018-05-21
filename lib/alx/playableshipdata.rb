@@ -63,7 +63,7 @@ class PlayableShipData < StdEntryData
   }
 
   # Path to CSV file
-  CSV_FILE = 'playableships.csv'
+  CSV_FILE = 'csv/playableships.csv'
 
 #==============================================================================
 #                                   PUBLIC

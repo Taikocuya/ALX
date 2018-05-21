@@ -61,11 +61,11 @@ class EntryTransform
   THIRDPARTY_DIR = File.expand_path(
     File.join(File.dirname(__FILE__), '../../thirdparty')
   )
-  
+
   # Path to BNR file relative to game root.
-  BNR_FILE       = 'opening.bnr'
+  BNR_FILE       = 'root/opening.bnr'
   # Path to HDR file relative to game root.
-  HDR_FILE       = '&&systemdata/ISO.hdr'
+  HDR_FILE       = 'root/&&systemdata/ISO.hdr'
 
   # Game ID
   GAME_ID        = 'GEA'
@@ -147,6 +147,7 @@ class EntryTransform
     _valid   = true
 
     _valid &&= has_dir?(_path)
+    _valid &&= has_dir?(File.join(_path, 'root'))
     _valid &&= check_bnr(_bnr)
     _valid &&= check_hdr(_hdr)
     _valid &&= has_file?(File.join(_path, EntryData::DOL_FILE))

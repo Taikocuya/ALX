@@ -62,7 +62,7 @@ class EnemySuperMoveData < StdEntryData
   }
 
   # Path to CSV file
-  CSV_FILE = 'enemysupermoves.csv'
+  CSV_FILE = 'csv/enemysupermoves.csv'
 
 #==============================================================================
 #                                   PUBLIC

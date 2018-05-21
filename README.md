@@ -24,7 +24,7 @@ Prerequisites
 
 The commands respectively scripts in the `bin` directory require:
 
-* [Ruby](https://www.ruby-lang.org/) 2.1.0+
+* [Ruby](https://www.ruby-lang.org/) 2.4.0+
 * At least one extracted image of Skies of Arcadia Legends, or rather, Eternal 
   Arcadia Legends
 
@@ -46,8 +46,9 @@ Installation
 ------------
 
 Put the files to some directory where you want it. Pre-exported CSV files with 
-complete game data can already be found in the subdirectories `share/geaj8p` 
-for NTSC-J, `share/geaj8p` for NTSC-U or `share/geae8p` for PAL-E.
+complete game data can already be found in the subdirectories 
+`share/geaj8p/csv` for NTSC-J, `share/geaj8p/csv` for NTSC-U or 
+`share/geae8p/csv` for PAL-E.
 
 The scripts require at least one extracted image of Skies of Arcadia Legends, 
 or rather, Eternal Arcadia Legends in a new or existing subdirectory of 
@@ -71,12 +72,10 @@ Executes all import commands in `bin`.
 Links
 -----
 
-* [EsoArcadia, the Skies of Arcadia resource](http://www.esoarcadia.org/)
-* [EsoArcadia Wiki, a Skies of Arcadia wiki](http://www.esoarcadia.org/wiki)
-* [EsoArcadia Forum, a Skies of Arcadia forum](http://www.esoarcadia.org/forum)
+* [EsoArcadia Wiki, a Skies of Arcadia wiki](https://skiesofarcadia.gamepedia.com/)
 
 License
 -------
 
-Copyright (C) 2015 Marcel Renner. ALX is licensed under the GNU General Public 
+Copyright (C) 2018 Marcel Renner. ALX is licensed under the GNU General Public 
 License, Version 3.0. See [LICENSE.md](LICENSE.md) for the full license text.

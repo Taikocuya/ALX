@@ -92,7 +92,7 @@ class CharacterMagicData < StdEntryData
   }
 
   # Path to CSV file
-  CSV_FILE = 'charactermagics.csv'
+  CSV_FILE = 'csv/charactermagics.csv'
 
 #==============================================================================
 #                                   PUBLIC

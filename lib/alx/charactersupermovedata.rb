@@ -74,7 +74,7 @@ class CharacterSuperMoveData < StdEntryData
   }
 
   # Path to CSV file
-  CSV_FILE = 'charactersupermoves.csv'
+  CSV_FILE = 'csv/charactersupermoves.csv'
 
 #==============================================================================
 #                                   PUBLIC

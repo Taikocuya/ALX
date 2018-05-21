@@ -80,7 +80,7 @@ class SpecialItemData < StdEntryData
   }
 
   # Path to CSV file
-  CSV_FILE = 'specialitems.csv'
+  CSV_FILE = 'csv/specialitems.csv'
 
 #==============================================================================
 #                                   PUBLIC

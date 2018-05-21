@@ -74,7 +74,7 @@ class CrewMemberData < StdEntryData
   }
 
   # Path to CSV file
-  CSV_FILE = 'crewmembers.csv'
+  CSV_FILE = 'csv/crewmembers.csv'
 
 #==============================================================================
 #                                   PUBLIC

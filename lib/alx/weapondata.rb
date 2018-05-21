@@ -74,7 +74,7 @@ class WeaponData < StdEntryData
   }
 
   # Path to CSV file
-  CSV_FILE = 'weapons.csv'
+  CSV_FILE = 'csv/weapons.csv'
 
 #==============================================================================
 #                                   PUBLIC

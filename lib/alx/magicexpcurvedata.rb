@@ -52,7 +52,7 @@ class MagicExpCurveData < StdEntryData
   }
 
   # Path to CSV file
-  CSV_FILE = 'magicexpcurves.csv'
+  CSV_FILE = 'csv/magicexpcurves.csv'
 
 #==============================================================================
 #                                   PUBLIC

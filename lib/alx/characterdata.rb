@@ -54,7 +54,7 @@ class CharacterData < StdEntryData
   }
 
   # Path to CSV file
-  CSV_FILE = 'characters.csv'
+  CSV_FILE = 'csv/characters.csv'
 
 #==============================================================================
 #                                   PUBLIC

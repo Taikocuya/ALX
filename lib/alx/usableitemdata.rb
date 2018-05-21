@@ -78,7 +78,7 @@ class UsableItemData < StdEntryData
   }
 
   # Path to CSV file
-  CSV_FILE = 'usableitems.csv'
+  CSV_FILE = 'csv/usableitems.csv'
 
 #==============================================================================
 #                                   PUBLIC
