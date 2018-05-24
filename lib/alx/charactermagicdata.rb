@@ -77,11 +77,11 @@ class CharacterMagicData < StdEntryData
   SHIP_DSCR_FILES = {
     'E' => DataRange.new(
       DOL_FILE, 0x2d05c4...0x2d0ef4,
-      [0x8, 0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
+      :exclusions => [0x8, 0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
     ),
     'J' => DataRange.new(
       DOL_FILE, 0x2d058c...0x2d0dcc,
-      [0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
+      :exclusions => [0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
     ),
     'P' => [
       DataRange.new(SOT_FILE_DE, 0x1b603...0x1c085),
@@ -123,14 +123,12 @@ class CharacterMagicData < StdEntryData
       _f.pos = _range.begin
       
       @id_range.each do |_id|
-        if _f.eof? || _f.pos < _range.begin || _f.pos >= _range.end
-          break 
-        end
-        if _range.exclusion.include?(_id)
+        if _range.exclusions.include?(_id)
           next
         end
 
-        _entry = @data[_id]
+        _entry  = @data[_id]
+        _msg_id = _entry.msg_id
     
         case region
         when 'E'
@@ -161,8 +159,22 @@ class CharacterMagicData < StdEntryData
             _str  = _entry.find_member(CsvHdr::SHIP_DSCR_GB_STR )
           end
         end
+
+        if _range.use_msg_table
+          _msg = @msg_table[_msg_id]
+          if _msg
+            _pos.value  = _msg.pos
+            _size.value = _msg.size
+            _str.value  = _msg.value
+            next
+          end
+        end
+
+        if _f.eof? || _f.pos < _range.begin || _f.pos >= _range.end
+          next
+        end
         
-        puts(sprintf(STR_READ, _id, _f.pos))
+        puts(sprintf(STR_READ, _id - @id_range.begin, _f.pos))
         _pos.value  = _f.pos
         if region != 'P'
           _str.value  = _f.read_str(0xff, 0x4)
@@ -170,6 +182,14 @@ class CharacterMagicData < StdEntryData
           _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
         end
         _size.value = _f.pos - _pos.value
+
+        if _range.use_msg_table
+          _msg                = Message.new
+          _msg.pos            = _pos.value
+          _msg.size           = _size.value
+          _msg.value          = _str.value
+          @msg_table[_msg_id] = _msg
+        end
       end
     end
 
@@ -209,7 +229,7 @@ class CharacterMagicData < StdEntryData
         if _id < @id_range.begin && _id >= @id_range.end
           next
         end
-        if _range.exclusion.include?(_id)
+        if _range.exclusions.include?(_id)
           next
         end
   

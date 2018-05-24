@@ -27,6 +27,7 @@ require_relative('binaryfile.rb')
 require_relative('datarange.rb')
 require_relative('entrydata.rb')
 require_relative('entrytransform.rb')
+require_relative('message.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -61,6 +62,7 @@ class StdEntryData < EntryData
     @data_files = {}
     @name_files = {}
     @dscr_files = {}
+    @msg_table  = {}
     @csv_file   = ''
     @data       = Hash.new { |_h, _k| _h[_k] = create_entry(_k) }
   end
@@ -74,6 +76,8 @@ class StdEntryData < EntryData
     _entry
   end
 
+  
+  
   # Reads all data entries from a binary file.
   # @param _filename [String] File name
   def load_data_from_bin(_filename)
@@ -86,11 +90,11 @@ class StdEntryData < EntryData
       _f.pos = _range.begin
       
       @id_range.each do |_id|
+        if _range.exclusions.include?(_id)
+          next
+        end
         if _f.eof? || _f.pos < _range.begin || _f.pos + _size > _range.end
           break
-        end
-        if _range.exclusion.include?(_id)
-          next
         end
         
         puts(sprintf(STR_READ, _id - @id_range.begin, _f.pos))
@@ -113,38 +117,69 @@ class StdEntryData < EntryData
       _f.pos = _range.begin
       
       @id_range.each do |_id|
-        if _f.eof? || _f.pos < _range.begin || _f.pos >= _range.end
-          break
-        end
-        if _range.exclusion.include?(_id)
+        if _range.exclusions.include?(_id)
           next
         end
-
-       _entry = @data[_id]
+        
+        _entry  = @data[_id]
+        _msg_id = _entry.msg_id
     
-        case determine_lang(_filename)
-        when 'DE'
-          _pos  = _entry.find_member(CsvHdr::NAME_DE_POS )
-          _size = _entry.find_member(CsvHdr::NAME_DE_SIZE)
-          _str  = _entry.find_member(CsvHdr::NAME_DE_STR )
-        when 'ES'
-          _pos  = _entry.find_member(CsvHdr::NAME_ES_POS )
-          _size = _entry.find_member(CsvHdr::NAME_ES_SIZE)
-          _str  = _entry.find_member(CsvHdr::NAME_ES_STR )
-        when 'FR'
-          _pos  = _entry.find_member(CsvHdr::NAME_FR_POS )
-          _size = _entry.find_member(CsvHdr::NAME_FR_SIZE)
-          _str  = _entry.find_member(CsvHdr::NAME_FR_STR )
-        when 'GB'
-          _pos  = _entry.find_member(CsvHdr::NAME_GB_POS )
-          _size = _entry.find_member(CsvHdr::NAME_GB_SIZE)
-          _str  = _entry.find_member(CsvHdr::NAME_GB_STR )
+        case region
+        when 'E'
+          _pos  = _entry.find_member(CsvHdr::NAME_US_POS )
+          _size = _entry.find_member(CsvHdr::NAME_US_SIZE)
+          _str  = _entry.find_member(CsvHdr::NAME_US_STR )
+        when 'J'
+          _pos  = _entry.find_member(CsvHdr::NAME_JP_POS )
+          _size = _entry.find_member(CsvHdr::NAME_JP_SIZE)
+          _str  = _entry.find_member(CsvHdr::NAME_JP_STR )
+        when 'P'
+          case determine_lang(_filename)
+          when 'DE'
+            _pos  = _entry.find_member(CsvHdr::NAME_DE_POS )
+            _size = _entry.find_member(CsvHdr::NAME_DE_SIZE)
+            _str  = _entry.find_member(CsvHdr::NAME_DE_STR )
+          when 'ES'
+            _pos  = _entry.find_member(CsvHdr::NAME_ES_POS )
+            _size = _entry.find_member(CsvHdr::NAME_ES_SIZE)
+            _str  = _entry.find_member(CsvHdr::NAME_ES_STR )
+          when 'FR'
+            _pos  = _entry.find_member(CsvHdr::NAME_FR_POS )
+            _size = _entry.find_member(CsvHdr::NAME_FR_SIZE)
+            _str  = _entry.find_member(CsvHdr::NAME_FR_STR )
+          when 'GB'
+            _pos  = _entry.find_member(CsvHdr::NAME_GB_POS )
+            _size = _entry.find_member(CsvHdr::NAME_GB_SIZE)
+            _str  = _entry.find_member(CsvHdr::NAME_GB_STR )
+          end
+        end
+    
+        if _range.use_msg_table
+          _msg = @msg_table[_msg_id]
+          if _msg
+            _pos.value  = _msg.pos
+            _size.value = _msg.size
+            _str.value  = _msg.value
+            next
+          end
+        end
+
+        if _f.eof? || _f.pos < _range.begin || _f.pos >= _range.end
+          next
         end
         
         puts(sprintf(STR_READ, _id - @id_range.begin, _f.pos))
         _pos.value  = _f.pos
         _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
         _size.value = _f.pos - _pos.value
+
+        if _range.use_msg_table
+          _msg                = Message.new
+          _msg.pos            = _pos.value
+          _msg.size           = _size.value
+          _msg.value          = _str.value
+          @msg_table[_msg_id] = _msg
+        end
       end
     end
 
@@ -152,7 +187,7 @@ class StdEntryData < EntryData
   end
   
   # Reads all description entries from a binary file.
-  # @param _filename [String] File name
+  # @param _filename [String]  File name
   def load_dscr_from_bin(_filename)
     print("\n")
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DSCR))
@@ -162,15 +197,13 @@ class StdEntryData < EntryData
       _f.pos = _range.begin
       
       @id_range.each do |_id|
-        if _f.eof? || _f.pos < _range.begin || _f.pos >= _range.end
-          break 
-        end
-        if _range.exclusion.include?(_id)
+        if _range.exclusions.include?(_id)
           next
         end
+        
+        _entry  = @data[_id]
+        _msg_id = _entry.msg_id
 
-        _entry = @data[_id]
-    
         case region
         when 'E'
           _pos  = _entry.find_member(CsvHdr::DSCR_US_POS )
@@ -201,6 +234,20 @@ class StdEntryData < EntryData
           end
         end
         
+        if _range.use_msg_table
+          _msg = @msg_table[_msg_id]
+          if _msg
+            _pos.value  = _msg.pos
+            _size.value = _msg.size
+            _str.value  = _msg.value
+            next
+          end
+        end
+
+        if _f.eof? || _f.pos < _range.begin || _f.pos >= _range.end
+          next
+        end
+        
         puts(sprintf(STR_READ, _id - @id_range.begin, _f.pos))
         _pos.value  = _f.pos
         if region != 'P'
@@ -209,6 +256,14 @@ class StdEntryData < EntryData
           _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
         end
         _size.value = _f.pos - _pos.value
+
+        if _range.use_msg_table
+          _msg                = Message.new
+          _msg.pos            = _pos.value
+          _msg.size           = _size.value
+          _msg.value          = _str.value
+          @msg_table[_msg_id] = _msg
+        end
       end
     end
 
@@ -267,7 +322,7 @@ class StdEntryData < EntryData
         if _id < @id_range.begin && _id >= @id_range.end
           next
         end
-        if _range.exclusion.include?(_id)
+        if _range.exclusions.include?(_id)
           next
         end
         
@@ -303,7 +358,7 @@ class StdEntryData < EntryData
         if _id < @id_range.begin && _id >= @id_range.end
           next
         end
-        if _range.exclusion.include?(_id)
+        if _range.exclusions.include?(_id)
           next
         end
         
@@ -365,7 +420,7 @@ class StdEntryData < EntryData
         if _id < @id_range.begin && _id >= @id_range.end
           next
         end
-        if _range.exclusion.include?(_id)
+        if _range.exclusions.include?(_id)
           next
         end
 
@@ -516,6 +571,7 @@ class StdEntryData < EntryData
   attr_accessor :data_files
   attr_accessor :name_files
   attr_accessor :dscr_files
+  attr_accessor :msg_table
   attr_accessor :csv_file
   attr_accessor :data
 

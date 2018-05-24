@@ -92,7 +92,29 @@ class StdEntry < Entry
       members << StrDmy.new(CsvHdr::DSCR_GB_STR , '', '\n')
     end
   end
+  
+#------------------------------------------------------------------------------
+# Public member variables
+#------------------------------------------------------------------------------
+  
+  def msg_id
+    _member = find_member(CsvHdr::MESSAGE_ID)
+    if _member
+      _member.value
+    else
+      nil
+    end
+  end
 
+  def msg_id=(_msg_id)
+    _member = find_member(CsvHdr::MESSAGE_ID)
+    if _member
+      _member.value = _msg_id
+    else
+      _msg_id
+    end
+  end
+    
 end	# class StdEntry
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

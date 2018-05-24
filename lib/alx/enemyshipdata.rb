@@ -131,7 +131,7 @@ class EnemyShipData < StdEntryData
         if _f.eof? || _f.pos < _range.begin || _f.pos >= _range.end
           break 
         end
-        if _range.exclusion.include?(_id)
+        if _range.exclusions.include?(_id)
           next
         end
 
@@ -223,7 +223,7 @@ class EnemyShipData < StdEntryData
         if _id < @id_range.begin && _id >= @id_range.end
           next
         end
-        if _range.exclusion.include?(_id)
+        if _range.exclusions.include?(_id)
           next
         end
 

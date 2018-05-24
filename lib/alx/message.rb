@@ -26,8 +26,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a offset range.
-class DataRange
+# Class to handle a message.
+class Message
   
 #==============================================================================
 #                                   PUBLIC
@@ -35,35 +35,21 @@ class DataRange
 
   public
 
-  # Constructs a DataRange
-  # @param _name    [String] Name
-  # @param _range   [Range]  Offset range
-  # @param _options [Hash]   Options hash
-  def initialize(_name, _range, _options = {})
-    @name          = _name
-    @range         = _range
-    @exclusions    = _options[:exclusions]    || []
-    @use_msg_table = _options[:use_msg_table] || false
-  end
-
-  def begin
-    @range.begin
-  end
-
-  def end
-    @range.end
+  def initialize
+    @pos   = 0
+    @size  = 0
+    @value = ''
   end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :name
-  attr_accessor :range
-  attr_accessor :exclusions
-  attr_accessor :use_msg_table
+  attr_accessor :pos
+  attr_accessor :size
+  attr_accessor :value
   
-end # class DataRange
+end # class Message
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

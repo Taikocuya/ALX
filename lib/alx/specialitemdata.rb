@@ -65,11 +65,11 @@ class SpecialItemData < StdEntryData
   DSCR_FILES = {
     'E' => DataRange.new(
       DOL_FILE, 0x2cd4ec...0x2ce220,
-      [0x152, 0x15b, 0x161, 0x162]
+      :exclusions => [0x152, 0x15b, 0x161, 0x162]
     ),
     'J' => DataRange.new(
       DOL_FILE, 0x2cd644...0x2ce2b4,
-      [0x152, 0x15b, 0x161, 0x162]
+      :exclusions => [0x152, 0x15b, 0x161, 0x162]
     ),
     'P' => [
       DataRange.new(SOT_FILE_DE, 0x18262...0x1918c),

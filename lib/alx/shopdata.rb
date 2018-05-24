@@ -22,10 +22,16 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('playableship.rb')
+require_relative('armordata.rb')
+require_relative('accessorydata.rb')
 require_relative('entrytransform.rb')
 require_relative('shipaccessorydata.rb')
 require_relative('shipcannondata.rb')
+require_relative('shipitemdata.rb')
+require_relative('shop.rb')
+require_relative('specialitemdata.rb')
+require_relative('usableitemdata.rb')
+require_relative('weapondata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,35 +41,37 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle playable ships from binary and/or CSV files.
-class PlayableShipData < StdEntryData
+# Class to handle shops from binary and/or CSV files.
+class ShopData < StdEntryData
   
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
 
   # Range of entry IDs
-  ID_RANGE    = 0x0...0x5
+  ID_RANGE    = 0x0...0x2b
 
   # Offset ranges of data entries
   DATA_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2d3740...0x2d3934),
-    'J' => DataRange.new(DOL_FILE, 0x2d3380...0x2d3574),
-    'P' => DataRange.new(DOL_FILE, 0x2f6b70...0x2f6d14),
+    'E' => DataRange.new(DOL_FILE, 0x2e90a0...0x2ea218),
+    'J' => DataRange.new(DOL_FILE, 0x2e8d08...0x2e9e80),
+    'P' => DataRange.new(DOL_FILE, 0x2e7dd4...0x2e8f4c),
   }
 
-  # Offset ranges of name entries
-  NAME_FILES = {
+  # Offset ranges of description entries
+  DSCR_FILES = {
+    'E' => DataRange.new(DOL_FILE, 0x2b6554...0x2b6730, :use_msg_table => true),
+    'J' => DataRange.new(DOL_FILE, 0x2b6158...0x2b6344, :use_msg_table => true),
     'P' => [
-      DataRange.new(SOT_FILE_DE, 0x1e5ff...0x1e635),
-      DataRange.new(SOT_FILE_ES, 0x1e370...0x1e3a6),
-      DataRange.new(SOT_FILE_FR, 0x1e5c1...0x1e5f7),
-      DataRange.new(SOT_FILE_GB, 0x1dc48...0x1dc7e),
+      DataRange.new(SOT_FILE_DE, 0x10c7c...0x10f00),
+      DataRange.new(SOT_FILE_ES, 0x1095d...0x10c03),
+      DataRange.new(SOT_FILE_FR, 0x10993...0x10c38),
+      DataRange.new(SOT_FILE_GB, 0x10580...0x1082b),
     ],
   }
-
+  
   # Path to CSV file
-  CSV_FILE = 'csv/playableships.csv'
+  CSV_FILE = 'csv/shops.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -71,36 +79,59 @@ class PlayableShipData < StdEntryData
 
   public
 
-  # Constructs a PlayableShipData.
+  # Constructs a ShopData.
   # @param _root [GameRoot] Game root
   def initialize(_root)
-    super(PlayableShip, _root)
-    self.id_range        = ID_RANGE
-    self.data_files      = DATA_FILES
-    self.name_files      = NAME_FILES
-    self.csv_file        = CSV_FILE
+    super(Shop, _root)
+    self.id_range   = ID_RANGE
+    self.data_files = DATA_FILES
+    self.dscr_files = DSCR_FILES
+    self.csv_file   = CSV_FILE
+    
+    @accessory_data      = AccessoryData.new(_root)
+    @armor_data          = ArmorData.new(_root)
     @ship_cannon_data    = ShipCannonData.new(_root)
     @ship_accessory_data = ShipAccessoryData.new(_root)
+    @ship_item_data      = ShipItemData.new(_root)
+    @special_item_data   = SpecialItemData.new(_root)
+    @usable_item_data    = UsableItemData.new(_root)
+    @weapon_data         = WeaponData.new(_root)
+    @items               = {}
   end
 
   # Creates an entry.
   # @param _id [Integer] Entry ID
   # @return [Entry] Entry object
   def create_entry(_id = -1)
-    _entry                  = super
-    _entry.ship_cannons     = @ship_cannon_data.data
-    _entry.ship_accessories = @ship_accessory_data.data
+    _entry       = super
+    _entry.items = @items
     _entry
   end
   
   # Reads all entries from binary files.
   def load_all_from_bin
+    @accessory_data.load_all_from_bin
+    @armor_data.load_all_from_bin
     @ship_cannon_data.load_all_from_bin
     @ship_accessory_data.load_all_from_bin
+    @ship_item_data.load_all_from_bin
+    @special_item_data.load_all_from_bin
+    @usable_item_data.load_all_from_bin
+    @weapon_data.load_all_from_bin
+    
+    @items.merge!(@accessory_data.data)
+    @items.merge!(@armor_data.data)
+    @items.merge!(@ship_cannon_data.data)
+    @items.merge!(@ship_accessory_data.data)
+    @items.merge!(@ship_item_data.data)
+    @items.merge!(@special_item_data.data)
+    @items.merge!(@usable_item_data.data)
+    @items.merge!(@weapon_data.data)
+    
     super
   end
 
-end # class PlayableShipData
+end # class ShopData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

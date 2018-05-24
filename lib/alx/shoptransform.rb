@@ -18,6 +18,13 @@
 # ALX. If not, see <http://www.gnu.org/licenses/>.
 #******************************************************************************
 
+#==============================================================================
+#                                 REQUIREMENTS
+#==============================================================================
+
+require_relative('shopdata.rb')
+require_relative('stdentrytransform.rb')
+
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 module ALX
@@ -26,44 +33,21 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a offset range.
-class DataRange
-  
+# Base class to export and/or import shops to and/or from CSV files.
+class ShopTransform < StdEntryTransform
+
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
 
-  # Constructs a DataRange
-  # @param _name    [String] Name
-  # @param _range   [Range]  Offset range
-  # @param _options [Hash]   Options hash
-  def initialize(_name, _range, _options = {})
-    @name          = _name
-    @range         = _range
-    @exclusions    = _options[:exclusions]    || []
-    @use_msg_table = _options[:use_msg_table] || false
+  # Constructs a ShopTransform.
+  def initialize
+    super(ShopData)
   end
 
-  def begin
-    @range.begin
-  end
-
-  def end
-    @range.end
-  end
-
-#------------------------------------------------------------------------------
-# Public member variables
-#------------------------------------------------------------------------------
-
-  attr_accessor :name
-  attr_accessor :range
-  attr_accessor :exclusions
-  attr_accessor :use_msg_table
-  
-end # class DataRange
+end # class ShopTransform
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

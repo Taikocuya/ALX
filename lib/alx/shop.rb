@@ -22,9 +22,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('entrytransform.rb')
-require_relative('stdentrydata.rb')
-require_relative('usableitem.rb')
+require_relative('effectable.rb')
+require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,53 +33,14 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle usable items from binary and/or CSV files.
-class UsableItemData < StdEntryData
+# Class to handle a shop.
+class Shop < StdEntry
   
 #==============================================================================
-#                                  CONSTANTS
+#                                   INCLUDES
 #==============================================================================
 
-  # Range of entry IDs
-  ID_RANGE    = 0xf0...0x140
-
-  # Offset ranges of data entries
-  DATA_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2c4c34...0x2c5774),
-    'J' => DataRange.new(DOL_FILE, 0x2c412c...0x2c4c6c),
-    'P' => DataRange.new(DOL_FILE, 0x2f4328...0x2f4aa8),
-  }
-
-  # Offset ranges of name entries
-  NAME_FILES = {
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x1db1c...0x1dede),
-      DataRange.new(SOT_FILE_ES, 0x1d83d...0x1dc62),
-      DataRange.new(SOT_FILE_FR, 0x1daa2...0x1ded3),
-      DataRange.new(SOT_FILE_GB, 0x1d194...0x1d556),
-    ],
-  }
-
-  # Offset ranges of description entries
-  DSCR_FILES = {
-    'E' => DataRange.new(
-      DOL_FILE, 0x2cbc88...0x2cd4ec,
-      :exclusions => (0x12d..0x130).to_a
-    ),
-    'J' => DataRange.new(
-      DOL_FILE, 0x2cba54...0x2cd644,
-      :exclusions => (0x12e..0x130).to_a
-    ),
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x16979...0x18262),
-      DataRange.new(SOT_FILE_ES, 0x1652e...0x17e6f),
-      DataRange.new(SOT_FILE_FR, 0x16635...0x17f59),
-      DataRange.new(SOT_FILE_GB, 0x1613d...0x179f9),
-    ],
-  }
-
-  # Path to CSV file
-  CSV_FILE = 'csv/usableitems.csv'
+  include(Effectable)
 
 #==============================================================================
 #                                   PUBLIC
@@ -88,19 +48,60 @@ class UsableItemData < StdEntryData
 
   public
 
-  # Constructs an UsableItemData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(UsableItem, _root)
-    self.id_range   = ID_RANGE
-    self.data_files = DATA_FILES
-    self.name_files = NAME_FILES
-    self.dscr_files = DSCR_FILES
-    self.csv_file   = CSV_FILE
+  # Constructs a Shop.
+  # @param _region [String] Region ID
+  def initialize(_region)
+    super
+    @items = {}
+
+    members.clear
+    members << IntVar.new(CsvHdr::ID              ,  0, 'S>')
+    members << IntVar.new(padding_hdr             ,  0, 's>')
+    members << IntVar.new(CsvHdr::MESSAGE_ID      ,  0, 'L>')
+
+    add_dscr_members
+    
+    (1..48).each do |_i|
+      members << IntVar.new(CsvHdr::ITEM_ID[_i]   , -1, 's>')
+      members << StrDmy.new(CsvHdr::ITEM_NAME[_i] , ''      )
+    end
   end
 
-end # class UsableItemData
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
+    (1..48).each do |_i|
+      _id = find_member(CsvHdr::ITEM_ID[_i]).value
+      if _id != -1
+        _entry = @items[_id]
+        _name  = '???'
+        if _entry
+          case region
+          when 'E'
+            _name = _entry.find_member(CsvHdr::NAME_US_STR).value
+          when 'J'
+            _name = _entry.find_member(CsvHdr::NAME_JP_STR).value
+          when 'P'
+            _name = _entry.find_member(CsvHdr::NAME_GB_STR).value
+          end
+        end
+      else
+        _name = 'None'
+      end
+      find_member(CsvHdr::ITEM_NAME[_i]).value = _name
+    end
+    
+    super
+  end
+
+#------------------------------------------------------------------------------
+# Public member variables
+#------------------------------------------------------------------------------
+
+  attr_accessor :items
+
+end	# class Shop
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end # module ALX
+end	# module ALX

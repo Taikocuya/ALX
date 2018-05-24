@@ -1,3 +1,4 @@
+#! /usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2018 Marcel Renner
@@ -18,6 +19,12 @@
 # ALX. If not, see <http://www.gnu.org/licenses/>.
 #******************************************************************************
 
+#==============================================================================
+#                                 REQUIREMENTS
+#==============================================================================
+
+require_relative('../lib/alx/shoptransform.rb')
+
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 module ALX
@@ -26,45 +33,40 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a offset range.
-class DataRange
-  
+# Class to import shops from CSV files.
+class ShopImporter < ShopTransform
+
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
 
-  # Constructs a DataRange
-  # @param _name    [String] Name
-  # @param _range   [Range]  Offset range
-  # @param _options [Hash]   Options hash
-  def initialize(_name, _range, _options = {})
-    @name          = _name
-    @range         = _range
-    @exclusions    = _options[:exclusions]    || []
-    @use_msg_table = _options[:use_msg_table] || false
+  def valid?(_root)
+    _result   = super
+    _result &&= has_file?(File.join(_root.path, ShopData::CSV_FILE))
+    _result
   end
 
-  def begin
-    @range.begin
+  def exec
+    super
+    transform_csv_to_bin
   end
 
-  def end
-    @range.end
-  end
-
-#------------------------------------------------------------------------------
-# Public member variables
-#------------------------------------------------------------------------------
-
-  attr_accessor :name
-  attr_accessor :range
-  attr_accessor :exclusions
-  attr_accessor :use_msg_table
-  
-end # class DataRange
+end	# class ShopImporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end # module ALX
+end	# module ALX
+
+# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+
+if __FILE__ == $0 || Object.const_defined?('ALX::Importer')
+  begin
+    _importer = ALX::ShopImporter.new
+    _importer.exec
+  rescue => _e
+    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
+    exit(1)
+  end
+end
