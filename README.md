@@ -18,7 +18,6 @@ Features
 * Items (accessories, armors, ship cannons, ship accessories, ship items, 
   special items, usable items and weapons)
 * Playable ship stats
-* Playable ship stats
 * Shops
 
 Prerequisites
