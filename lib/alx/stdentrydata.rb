@@ -76,8 +76,6 @@ class StdEntryData < EntryData
     _entry
   end
 
-  
-  
   # Reads all data entries from a binary file.
   # @param _filename [String] File name
   def load_data_from_bin(_filename)
