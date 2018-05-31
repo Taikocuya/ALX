@@ -34,6 +34,7 @@ module ALX
 #==============================================================================
 
 # Class to compress and decompress files with AKLZ.
+# @see https://github.com/nickworonekin/puyotools
 class AklzFile < BinaryStringIO
   
 #==============================================================================
