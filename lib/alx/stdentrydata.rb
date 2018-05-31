@@ -64,7 +64,11 @@ class StdEntryData < EntryData
     @dscr_files = {}
     @msg_table  = {}
     @csv_file   = ''
-    @data       = Hash.new { |_h, _k| _h[_k] = create_entry(_k) }
+    
+    @data = Cache[cache_id] || Hash.new do |_h, _k|
+      _h[_k] = create_entry(_k)
+    end
+    Cache[cache_id] ||= @data
   end
 
   # Creates an entry.
@@ -270,6 +274,10 @@ class StdEntryData < EntryData
 
   # Reads all entries from binary files.
   def load_all_from_bin
+    if !@data.empty?
+      return
+    end
+
     _ranges = @data_files[region]
     if _ranges
       unless _ranges.is_a?(Array)

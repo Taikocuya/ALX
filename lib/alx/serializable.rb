@@ -40,20 +40,30 @@ module Serializable
   # @return [Integer] Integer from the file, which has been read.
   def read_int(_format)
     _size = [0].pack(_format).size
-    read(_size).unpack(_format).first
+    _int  = read(_size)
+    
+    if _int && _int.size == _size
+      _int.unpack(_format).first
+    else
+      nil
+    end
   end
 
   # Writes an integer to the file.
-  # @param _data [Integer] Integer which will be written to the stream.
+  # @param _data   [Integer] Integer which will be written to the stream.
   # @param _format [String]  Format of the integer, which will be written.
   def write_int(_int, _format)
+    if !_int
+      _int = 0
+    end
     write([_int].pack(_format))
   end
 
   # Reads a null-terminated string from the file.
-  # @param _size   [Integer] Desired number of bytes to read.
-  # @param _blocks [Integer] Block size in bytes
+  # @param _size     [Integer] Desired number of bytes to read.
+  # @param _blocks   [Integer] Block size in bytes
   # @param _encoding [String]  Character encoding
+  # @return [String] String from the file, which has been read.
   def read_str(_size, _blocks = nil, _encoding = 'Shift_JIS')
     _str = ''
     

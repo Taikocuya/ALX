@@ -45,7 +45,6 @@ class EnemyExporter < EnemyTransform
   def valid?(_root)
     _result   = super
     _result &&= has_file?(File.join(_root.path, EnemyData::EVP_FILE))
-    _result &&= windows?
     _result
   end
   

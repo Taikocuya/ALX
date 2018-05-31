@@ -138,8 +138,8 @@ class Entry
     _result
   end
 
-  # Reads one entry from a binary IO.
-  # @param _name [DataMember] Data member
+  # Reads one entry from a binary I/O stream..
+  # @param _f [IO] Binary I/O stream.
   def read_from_bin(_f)
     @members.each do |_m|
       _m.read_from_bin(_f)
@@ -147,7 +147,7 @@ class Entry
   end
   
   # Write one entry to a binary IO.
-  # @param _f [BinaryIO] BinaryIO object
+  # @param _f [IO] Binary I/O stream.
   def write_to_bin(_f)
     @members.each do |_m|
       _m.write_to_bin(_f)

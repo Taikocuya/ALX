@@ -101,12 +101,12 @@ class EnpFile < EpFile
 
     AklzFile.open(_filename, 'rb') do |_f|
       # Segments
-      _signature = _f.read(4)
+      _signature = _f.read(0x4)
       if _signature == FILE_SIG
         _size  = _f.read_int('s>')
         _check = _f.read_int('s>')
         if _check != -1
-          raise(IOError, "segments are corrupted")
+          raise(IOError, 'segments corrupted')
         end
         
         _segments = {}
@@ -117,7 +117,7 @@ class EnpFile < EpFile
           _check     = _f.read_int('l>')
           
           if _check != -1
-            raise(IOError, "segments are corrupted")
+            raise(IOError, 'segments corrupted')
           end
     
           _segname.sub!(/\.bin$/, '.enp')
@@ -147,7 +147,7 @@ class EnpFile < EpFile
         # Encounters
         _size = (_nodes.first[:pos] - _f.pos) / create_encounter.size
         if _size > NUM_ENCOUNTERS
-          raise(IOError, "encounter quota of #{NUM_ENCOUNTERS} is exceeded")
+          raise(IOError, "encounter quota of #{NUM_ENCOUNTERS} exceeded")
         end
         (0..._size).each do |_id|
           puts(sprintf(STR_READ, _id, _f.pos))
@@ -170,7 +170,7 @@ class EnpFile < EpFile
         end
 
         if _f.pos > _end
-          raise(IOError, "segments are corrupted")
+          raise(IOError, 'segments corrupted')
         end
       end
     end
@@ -223,7 +223,7 @@ class EnpFile < EpFile
           _encounter.file == File.basename(_segname)
         end
         if _encounters.size > NUM_ENCOUNTERS
-          raise(IOError, "encounter quota of #{NUM_ENCOUNTERS} is exceeded")
+          raise(IOError, "encounter quota of #{NUM_ENCOUNTERS} exceeded")
         end
         (0..._encounters.size).each do |_id|
           puts(sprintf(STR_WRITE, _id, _f.pos))
@@ -248,7 +248,7 @@ class EnpFile < EpFile
         # Enemies
         _nodes = []
         if _enemies.size > NUM_ENEMIES
-          raise(IOError, "enemy quota of #{NUM_ENEMIES} is exceeded")
+          raise(IOError, "enemy quota of #{NUM_ENEMIES} exceeded")
         end
         _enemies.each do |_enemy|
           _id  = _enemy.id

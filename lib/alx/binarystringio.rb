@@ -34,13 +34,40 @@ module ALX
 #==============================================================================
 
 # Class to read and write easily in binary strings.
-class BinaryStringIO < ::StringIO
+class BinaryStringIO < DelegateClass(::StringIO)
   
 #==============================================================================
 #                                   INCLUDES
 #==============================================================================
 
   include(Serializable)
+
+#==============================================================================
+#                                   PUBLIC
+#==============================================================================
+
+  public
+  
+  # @see ::StringIO::new
+  def initialize(*_args)
+    @stringio = StringIO::new(*_args)
+    super(@stringio)
+  end
+
+  # @see ::StringIO::open
+  def self.open(*_args)
+    _stringio = new(*_args)
+  
+    if block_given?
+      begin
+        yield(_stringio)
+      ensure
+        _stringio.close
+      end
+    else
+      _stringio
+    end
+  end
 
 end # class BinaryStringIO
 

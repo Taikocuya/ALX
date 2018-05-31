@@ -136,7 +136,7 @@ class EvpFile < EpFile
       _dummy   = create_event
       _f.pos   = NUM_ENEMIES * 0x8
       if @events.size > NUM_EVENTS
-        raise(IOError, "event quota of #{NUM_EVENTS} is exceeded")
+        raise(IOError, "event quota of #{NUM_EVENTS} exceeded")
       end
       (0...NUM_EVENTS).each do |_id|
         puts(sprintf(STR_WRITE, _id, _f.pos))
@@ -165,7 +165,7 @@ class EvpFile < EpFile
       # Enemies
       _nodes = []
       if _enemies.size > NUM_ENEMIES
-        raise(IOError, "enemy quota of #{NUM_ENEMIES} is exceeded")
+        raise(IOError, "enemy quota of #{NUM_ENEMIES} exceeded")
       end
       _enemies.each do |_enemy|
         _id  = _enemy.id

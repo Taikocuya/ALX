@@ -22,6 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
+require_relative('cache.rb')
 require_relative('entry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -70,35 +71,38 @@ class EntryData
   # @param _class [Entry]    Entry object
   # @param _root  [GameRoot] Game root
   def initialize(_class, _root)
-    @class = _class
-    @root  = _root
+    @class      = _class
+    @root       = _root
+    _class_name = self.class.name.split('::').last
+    @cache_id   = sprintf('%s_%s', region, _class_name).downcase.to_sym
   end
-  
+    
   # Creates an entry.
   # @return [Entry] Entry object
   def create_entry
     @class.new(region)
   end
-
+  
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
   
   attr_reader :class
   attr_reader :root
+  attr_reader :cache_id
 
 #==============================================================================
 #                                  PROTECTED
 #==============================================================================
 
   protected
-  
+    
   # Returns the region ID.
   # @return [String] Region ID
   def region
     @root.hdr.region_id
   end
-  
+    
 end # class EntryData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

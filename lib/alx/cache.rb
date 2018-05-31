@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('serializable.rb')
+require('singleton')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -32,43 +32,51 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to read and write easily in binary files.
-class BinaryFile < DelegateClass(::File)
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Serializable)
+# Module to cache data.
+module Cache
 
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
+
+  # @see ::Hash#clear
+  def self.clear
+    @@cache = {}
+  end
   
-  # @see ::File::new
-  def initialize(*_args)
-    @file = File::new(*_args)
-    super(@file)
+  # @see ::Hash#[]
+  def self.[](_key)
+    @@cache ||= {}
+    @@cache[_key]
   end
 
-  # @see ::File::open
-  def self.open(*_args)
-    _file = new(*_args)
-  
-    if block_given?
-      begin
-        yield(_file)
-      ensure
-        _file.close
-      end
-    else
-      _file
-    end
+  # @see ::Hash#[]=
+  def self.[]=(_key, _value)
+    @@cache ||= {}
+    @@cache[_key] = _value
   end
 
-end # class BinaryFile
+  # @see ::Hash#has_key?
+  def self.has_key?(_key)
+    @@cache ||= {}
+    @@cache.has_key?(_key)
+  end
+
+  # @see ::Hash#has_value?
+  def self.has_value?(_key)
+    @@cache ||= {}
+    @@cache.has_value?(_key)
+  end
+
+  # @see ::Hash#empty?
+  def self.empty?
+    @@cache ||= {}
+    @@cache.empty?
+  end
+  
+end # module Cache
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

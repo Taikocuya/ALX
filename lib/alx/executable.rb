@@ -36,7 +36,7 @@ module Executable
   # Version of ALX
   VERSION = '2.4.0'
   # Date of ALX
-  DATE    = Time.new(2018, 5, 21)
+  DATE    = Time.new(2018, 5, 31)
 
 #==============================================================================
 #                                   PUBLIC
@@ -83,23 +83,6 @@ module Executable
     _result
   end
 
-  # Returns +true+ if environment is a Windows system, otherwise +false+.
-  # @return [Boolean] +true+ if environment is a Windows system, otherwise 
-  #                   +false+.
-  def windows?
-    print("Check for platform: #{RUBY_PLATFORM}")
-    
-    _result = (/cygwin|mswin|mingw|bccwin|wince|emx/ =~ RUBY_PLATFORM) != nil
-
-    if _result
-      print(" - compatible\n")
-    else
-      print(" - incompatible\n")
-    end
-    
-    _result
-  end
-  
   # Displays version of ALX.
   def show_version
     print("\n")

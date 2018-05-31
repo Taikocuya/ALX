@@ -47,7 +47,6 @@ class EnemyImporter < EnemyTransform
     _result &&= has_file?(File.join(_root.path, EnemyData::ENEMY_CSV_FILE))
     _result &&= has_file?(File.join(_root.path, EnemyData::EVENT_CSV_FILE))
     _result &&= has_file?(File.join(_root.path, EnemyData::ENCOUNTER_CSV_FILE))
-    _result &&= windows?
     _result
   end
 

@@ -43,14 +43,14 @@ class DataMember
     @value = !_value.is_a?(Numeric) ? _value.dup : _value
   end
 
-  # Reads one entry from a binary IO object.
-  # @param _f [BinaryIO] Binary IO object
+  # Reads one entry from a binary I/O stream.
+  # @param _f [IO] Binary I/O stream.
   def read_from_bin(_f)
     # Nothing to do.
   end
   
-  # Write one entry to a binary IO object.
-  # @param _f [BinaryIO] Binary IO object
+  # Write one entry to a binary I/O stream..
+  # @param _f [IO] Binary I/O stream.
   def write_to_bin(_f)
     # Nothing to do.
   end
