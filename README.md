@@ -32,7 +32,7 @@ The commands respectively scripts in the `bin` directory require:
 The shipped and pre-exported CSV files in the subdirectories of `share` 
 require:
 
-* Spreadsheet application with UTF-8 support (for example, 
+* Spreadsheet application with UTF-8 support (e.g. 
   [LibreOffice Calc](https://www.libreoffice.org/) or 
   [uniCSVed](http://csved.sjfrancke.nl/))
 * Editor for plain text (e.g. [Notepad++](https://notepad-plus-plus.org/))
