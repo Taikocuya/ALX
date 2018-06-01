@@ -87,6 +87,7 @@ class EntryTransform
   # Constructs an EntryTransform.
   # @param _class [EntryData] Class which represents entry data.
   def initialize(_class)
+    super()
     @class = _class
     @data  = []
   end
