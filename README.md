@@ -12,7 +12,7 @@ Features
 * Character skills (Super Moves and Magics)
 * Character stats (EXP curves, Magic EXP curves and parameters)
 * Crew members
-* Enemy ship stats
+* Enemy ship stats (action patterns and parameters)
 * Enemy skills (Super Moves and Magics)
 * Enemy stats (action patterns, encounters, events and parameters)
 * Items (accessories, armors, ship cannons, ship accessories, ship items, 
