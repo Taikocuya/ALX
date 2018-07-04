@@ -61,7 +61,7 @@ class Shop < StdEntry
 
     add_dscr_members
     
-    (1..48).each do |_i|
+    (0...48).each do |_i|
       members << IntVar.new(CsvHdr::ITEM_ID[_i]   , -1, 's>')
       members << StrDmy.new(CsvHdr::ITEM_NAME[_i] , ''      )
     end
@@ -70,7 +70,7 @@ class Shop < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    (1..48).each do |_i|
+    (0...48).each do |_i|
       _id = find_member(CsvHdr::ITEM_ID[_i]).value
       if _id != -1
         _entry = @items[_id]

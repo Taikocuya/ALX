@@ -74,7 +74,7 @@ class UsableItem < StdEntry
     members << IntVar.new(CsvHdr::PURCHASE_PRICE  ,  0, 'S>')
     members << IntVar.new(padding_hdr             ,  0, 'c' )
     members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(CsvHdr::EFFECT_VALUE[0] ,  0, 's>')
+    members << IntVar.new(CsvHdr::EFFECT_VALUE[-1],  0, 's>')
     members << IntVar.new(unknown_hdr             ,  0, 'c' )
     members << IntVar.new(unknown_hdr             ,  0, 'c' )
     members << IntVar.new(padding_hdr             ,  0, 'c' )

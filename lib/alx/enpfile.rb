@@ -209,7 +209,7 @@ class EnpFile < EpFile
     puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_DATA))
 
     AklzFile.open(_filename, 'wb') do |_f|
-      # Segments (preprocessing)
+      # Segments (pre-processing)
       if _segments.size > 1
         _f.pos = _segments.size * 0x20 + 0x8
       end
@@ -230,7 +230,7 @@ class EnpFile < EpFile
           _encounter = _encounters[_id]
           _encounter.write_to_bin(_f)
 
-          (1..8).each do |_i|
+          (0...8).each do |_i|
             _id = _encounter.find_member(CsvHdr::ENEMY_ID[_i]).value
             if _id != 255
               _enemy = find_enemy(_id, _segname)
@@ -279,7 +279,7 @@ class EnpFile < EpFile
         _f.pos = _end
       end
       
-      # Segments (postprocessing)
+      # Segments (post-processing)
       if _segments.size > 1
         _f.pos = 0
         _f.write(FILE_SIG)

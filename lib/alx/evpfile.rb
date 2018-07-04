@@ -144,7 +144,7 @@ class EvpFile < EpFile
         if _event
           _event.write_to_bin(_f)
           
-          (1..7).each do |_i|
+          (0...7).each do |_i|
             _id = _event.find_member(CsvHdr::ENEMY_ID[_i]).value
             if _id != 255
               _enemy = find_enemy(_id, _filename)

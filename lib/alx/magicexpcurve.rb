@@ -56,22 +56,22 @@ class MagicExpCurve < StdEntry
       members << StrDmy.new(CsvHdr::NAME_EU_STR   , ''      )
     end
       
-    (1..6).each do |_i|
+    (0...6).each do |_i|
       members << IntVar.new(CsvHdr::GREEN_EXP[_i] ,  0, 'S>')
     end
-    (1..6).each do |_i|
+    (0...6).each do |_i|
       members << IntVar.new(CsvHdr::RED_EXP[_i]   ,  0, 'S>')
     end
-    (1..6).each do |_i|
+    (0...6).each do |_i|
       members << IntVar.new(CsvHdr::PURPLE_EXP[_i],  0, 'S>')
     end
-    (1..6).each do |_i|
+    (0...6).each do |_i|
       members << IntVar.new(CsvHdr::BLUE_EXP[_i]  ,  0, 'S>')
     end
-    (1..6).each do |_i|
+    (0...6).each do |_i|
       members << IntVar.new(CsvHdr::YELLOW_EXP[_i],  0, 'S>')
     end
-    (1..6).each do |_i|
+    (0...6).each do |_i|
       members << IntVar.new(CsvHdr::SILVER_EXP[_i],  0, 'S>')
     end
   end

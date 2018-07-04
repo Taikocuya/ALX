@@ -100,7 +100,7 @@ class Armor < StdEntry
 
     members << IntVar.new(CsvHdr::PURCHASE_PRICE         ,  0, 'S>')
     
-    (1..4).each do |_i|
+    (0...4).each do |_i|
       members << IntVar.new(CsvHdr::FEATURE_ID[_i]       , -1, 'c' )
       members << StrDmy.new(CsvHdr::FEATURE_NAME[_i]     , ''      )
       members << IntVar.new(padding_hdr                  ,  0, 'c' )
@@ -124,7 +124,7 @@ class Armor < StdEntry
       find_member(_member).value = _flags & (0x20 >> _id) != 0 ? 'X' : ''
     end
 
-    (1..4).each do |_i|
+    (0...4).each do |_i|
       _id = find_member(CsvHdr::FEATURE_ID[_i]).value
       find_member(CsvHdr::FEATURE_NAME[_i]).value = FEATURES[_id]
     end

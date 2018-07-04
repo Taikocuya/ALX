@@ -73,25 +73,25 @@ class Weapon < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::CHARACTER_ID[0]  ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::CHARACTER_NAME[0], ''      )
-    members << IntVar.new(CsvHdr::RETAIL_PRICE     ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE , -1, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_ALPHABET   , -1, 'c' )
-    members << IntVar.new(CsvHdr::EFFECT_ID        , -1, 'c' )
-    members << StrDmy.new(CsvHdr::EFFECT_NAME      , ''      )
+    members << IntVar.new(CsvHdr::CHARACTER_ID[-1]  ,  0, 'c' )
+    members << StrDmy.new(CsvHdr::CHARACTER_NAME[-1], ''      )
+    members << IntVar.new(CsvHdr::RETAIL_PRICE      ,  0, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE  , -1, 'c' )
+    members << IntVar.new(CsvHdr::ORDER_ALPHABET    , -1, 'c' )
+    members << IntVar.new(CsvHdr::EFFECT_ID         , -1, 'c' )
+    members << StrDmy.new(CsvHdr::EFFECT_NAME       , ''      )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
+      members << IntVar.new(padding_hdr             ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::PURCHASE_PRICE  ,  0, 'S>')
-    members << IntVar.new(CsvHdr::ATTACK          ,  0, 's>')
-    members << IntVar.new(CsvHdr::HIT             ,  0, 's>')
-    members << IntVar.new(CsvHdr::FEATURE_ID[0]   , -1, 'c' )
-    members << StrDmy.new(CsvHdr::FEATURE_NAME[0] ,  ''     )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(CsvHdr::FEATURE_VALUE[0],  0, 's>')
+    members << IntVar.new(CsvHdr::PURCHASE_PRICE    ,  0, 'S>')
+    members << IntVar.new(CsvHdr::ATTACK            ,  0, 's>')
+    members << IntVar.new(CsvHdr::HIT               ,  0, 's>')
+    members << IntVar.new(CsvHdr::FEATURE_ID[-1]    , -1, 'c' )
+    members << StrDmy.new(CsvHdr::FEATURE_NAME[-1]  ,  ''     )
+    members << IntVar.new(padding_hdr               ,  0, 'c' )
+    members << IntVar.new(CsvHdr::FEATURE_VALUE[-1] ,  0, 's>')
 
     add_dscr_members
   end
@@ -99,14 +99,14 @@ class Weapon < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    _id = find_member(CsvHdr::CHARACTER_ID[0]).value
-    find_member(CsvHdr::CHARACTER_NAME[0]).value = CHARACTERS[_id]
+    _id = find_member(CsvHdr::CHARACTER_ID[-1]).value
+    find_member(CsvHdr::CHARACTER_NAME[-1]).value = CHARACTERS[_id]
     
     _id = find_member(CsvHdr::EFFECT_ID).value
     find_member(CsvHdr::EFFECT_NAME).value = EFFECTS[_id]
     
-    _id = find_member(CsvHdr::FEATURE_ID[0]).value
-    find_member(CsvHdr::FEATURE_NAME[0]).value = Armor::FEATURES[_id]
+    _id = find_member(CsvHdr::FEATURE_ID[-1]).value
+    find_member(CsvHdr::FEATURE_NAME[-1]).value = Armor::FEATURES[_id]
     
     super
   end

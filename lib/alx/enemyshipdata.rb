@@ -137,7 +137,7 @@ class EnemyShipData < StdEntryData
 
         _entry = @data[_id]
 
-        (1..4).each do |_i|
+        (0...4).each do |_i|
           case determine_lang(_filename)
           when 'DE'
             _pos  = _entry.find_member(CsvHdr::ARM_NAME_DE_POS[_i] )
@@ -227,7 +227,7 @@ class EnemyShipData < StdEntryData
           next
         end
 
-        (1..4).each do |_i|
+        (0...4).each do |_i|
           case determine_lang(_filename)
           when 'DE'
             _pos  = _entry.find_member(CsvHdr::ARM_NAME_DE_POS[_i] ).value

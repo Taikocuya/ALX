@@ -64,10 +64,10 @@ class ExpCurveData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(ExpCurve, _root)
-    self.id_range       = ID_RANGE
+    self.id_range   = ID_RANGE
     self.data_files = DATA_FILES
-    self.csv_file       = CSV_FILE
-    @character_data     = CharacterData.new(_root)
+    self.csv_file   = CSV_FILE
+    @character_data = CharacterData.new(_root)
   end
 
   # Creates an entry.

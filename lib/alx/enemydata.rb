@@ -274,7 +274,7 @@ class EnemyData < EntryData
 
     _ids = []
     @enemies.each do |_enemy|
-      _id =_enemy.id
+      _id = _enemy.id
       unless _ids.include?(_id)
         _ids << _id
       end

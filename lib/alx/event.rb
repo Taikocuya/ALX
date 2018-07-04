@@ -71,14 +71,14 @@ class Event < Entry
 
     members << IntVar.new(CsvHdr::MEGIC_EXP           ,  0, 'C' )
     
-    (1..4).each do |_i|
+    (0...4).each do |_i|
       members << IntVar.new(CsvHdr::CHARACTER_ID[_i]  ,  0, 'C' )
       members << StrDmy.new(CsvHdr::CHARACTER_NAME[_i], ''      )
       members << IntVar.new(CsvHdr::CHARACTER_X[_i]   ,  0, 'C' )
       members << IntVar.new(CsvHdr::CHARACTER_Y[_i]   ,  0, 'C' )
     end
     
-    (1..7).each do |_i|
+    (0...7).each do |_i|
       members << IntVar.new(CsvHdr::ENEMY_ID[_i]      ,  0, 'C' )
       members << StrDmy.new(CsvHdr::ENEMY_NAME_JP[_i] , ''      )
       members << StrDmy.new(CsvHdr::ENEMY_NAME_US[_i] , ''      )
@@ -87,7 +87,7 @@ class Event < Entry
       members << IntVar.new(CsvHdr::ENEMY_Y[_i]       ,  0, 'C' )
     end
 
-    members << IntVar.new(CsvHdr::UNKNOWN[0]          ,  0, 'C' )
+    members << IntVar.new(CsvHdr::UNKNOWN[-1]         ,  0, 'C' )
     members << IntVar.new(CsvHdr::DEFEAT_COND_ID      ,  0, 'C' )
     members << StrDmy.new(CsvHdr::DEFEAT_COND_NAME    , ''      )
     members << IntVar.new(CsvHdr::ESCAPE_COND_ID      ,  0, 'C' )
@@ -97,7 +97,7 @@ class Event < Entry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    (1..4).each do |_i|
+    (0...4).each do |_i|
       _id = find_member(CsvHdr::CHARACTER_ID[_i]).value
       if _id != 255
         _name = CHARACTERS[_id]
@@ -107,7 +107,7 @@ class Event < Entry
       find_member(CsvHdr::CHARACTER_NAME[_i]).value = _name
     end
     
-    (1..7).each do |_i|
+    (0...7).each do |_i|
       _id = find_member(CsvHdr::ENEMY_ID[_i]).value
       if _id != 255
         _entry = @enemies.find { |_enemy| _enemy.id == _id }

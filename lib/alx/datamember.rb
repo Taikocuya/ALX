@@ -43,6 +43,12 @@ class DataMember
     @value = !_value.is_a?(Numeric) ? _value.dup : _value
   end
 
+  # Returns +true+ if data member is a dummy, otherwise +false+.
+  # @return [Boolean] +true+ if data member is a dummy, otherwise +false+.
+  def dummy?
+    false
+  end
+  
   # Reads one entry from a binary I/O stream.
   # @param _f [IO] Binary I/O stream.
   def read_from_bin(_f)

@@ -81,7 +81,7 @@ class EnemyShip < StdEntry
     (0...6).each do |_i|
       members << IntVar.new(ELEMENTS[_i]                  , -1, 's>')
     end
-    (1..4).each do |_i|
+    (0...4).each do |_i|
       if region == 'P'
         members << IntDmy.new(CsvHdr::ARM_NAME_DE_POS[_i] ,  0      )
         members << IntDmy.new(CsvHdr::ARM_NAME_DE_SIZE[_i],  0      )
@@ -111,10 +111,10 @@ class EnemyShip < StdEntry
     members << IntVar.new(padding_hdr                     ,  0, 's>')
     members << IntVar.new(padding_hdr                     ,  0, 's>')
     members << IntVar.new(padding_hdr                     ,  0, 's>')
-    members << IntVar.new(CsvHdr::EXP[0]                  , -1, 'l>')
+    members << IntVar.new(CsvHdr::EXP[-1]                 , -1, 'l>')
     members << IntVar.new(CsvHdr::GOLD                    , -1, 'l>')
 
-    (1..3).each do |_i|
+    (0...3).each do |_i|
       members << IntVar.new(CsvHdr::ITEM_DROP_ID[_i]      , -1, 's>')
       members << StrDmy.new(CsvHdr::ITEM_DROP_NAME[_i]    , ''      )
       members << IntVar.new(CsvHdr::ITEM_ID[_i]           , -1, 's>')
@@ -125,7 +125,7 @@ class EnemyShip < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    (1..4).each do |_i|
+    (0...4).each do |_i|
       _id = find_member(CsvHdr::ARM_TYPE_ID[_i]).value
       find_member(CsvHdr::ARM_TYPE_NAME[_i]).value = ShipCannon::TYPES[_id]
       
@@ -133,7 +133,7 @@ class EnemyShip < StdEntry
       find_member(CsvHdr::ARM_ELEMENT_NAME[_i]).value = ELEMENTS[_id]
     end
 
-    (1..3).each do |_i|
+    (0...3).each do |_i|
       _id = find_member(CsvHdr::ITEM_ID[_i]).value
       if _id != -1
         _entry = @items[_id]
@@ -154,7 +154,7 @@ class EnemyShip < StdEntry
       find_member(CsvHdr::ITEM_NAME[_i]).value = _name
     end
 
-    (1..3).each do |_i|
+    (0...3).each do |_i|
       _id = find_member(CsvHdr::ITEM_DROP_ID[_i]).value
       find_member(CsvHdr::ITEM_DROP_NAME[_i]).value = DROPS[_id]
     end

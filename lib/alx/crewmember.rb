@@ -79,10 +79,10 @@ class CrewMember < StdEntry
       members << IntVar.new(padding_hdr               ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::FEATURE_ID[0]       , -1, 'c' )
-    members << StrDmy.new(CsvHdr::FEATURE_NAME[0]     , ''      )
+    members << IntVar.new(CsvHdr::FEATURE_ID[-1]      , -1, 'c' )
+    members << StrDmy.new(CsvHdr::FEATURE_NAME[-1]    , ''      )
     members << IntVar.new(padding_hdr                 ,  0, 'c' )
-    members << IntVar.new(CsvHdr::FEATURE_VALUE[0]    ,  0, 's>')
+    members << IntVar.new(CsvHdr::FEATURE_VALUE[-1]   ,  0, 's>')
     members << IntVar.new(CsvHdr::SHIP_EFFECT_ID      , -1, 'c' )
     members << StrDmy.new(CsvHdr::SHIP_EFFECT_NAME    , ''      )
     members << IntVar.new(CsvHdr::SHIP_EFFECT_SPIRIT  , -1, 'c' )
@@ -92,11 +92,11 @@ class CrewMember < StdEntry
     members << IntVar.new(padding_hdr                 ,  0, 'c' )
     
     if region == 'J'
-      members << IntVar.new(CsvHdr::UNKNOWN[0]        ,  0, 's>')
+      members << IntVar.new(CsvHdr::UNKNOWN[-1]       ,  0, 's>')
       members << IntVar.new(CsvHdr::SHIP_EFFECT_VALUE ,  0, 's>')
     else
       members << IntVar.new(CsvHdr::SHIP_EFFECT_VALUE ,  0, 's>')
-      members << IntVar.new(CsvHdr::UNKNOWN[0]        ,  0, 's>')
+      members << IntVar.new(CsvHdr::UNKNOWN[-1]       ,  0, 's>')
     end
 
     members << IntVar.new(padding_hdr                 ,  0, 'c' )
@@ -113,8 +113,8 @@ class CrewMember < StdEntry
     _id = find_member(CsvHdr::POSITION_ID).value
     find_member(CsvHdr::POSITION_NAME).value = POSITIONS[_id]
 
-    _id = find_member(CsvHdr::FEATURE_ID[0]).value
-    find_member(CsvHdr::FEATURE_NAME[0]).value = ShipAccessory::FEATURES[_id]
+    _id = find_member(CsvHdr::FEATURE_ID[-1]).value
+    find_member(CsvHdr::FEATURE_NAME[-1]).value = ShipAccessory::FEATURES[_id]
 
     _id = find_member(CsvHdr::SHIP_EFFECT_ID).value
     find_member(CsvHdr::SHIP_EFFECT_NAME).value = EFFECTS[_id]

@@ -89,7 +89,7 @@ class Character < StdEntry
     members << IntVar.new(CsvHdr::COUNTER         ,  0, 's>')
     members << IntVar.new(padding_hdr             ,  0, 's>')
     members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::EXP[0]          ,  0, 'S>')
+    members << IntVar.new(CsvHdr::EXP[-1]         ,  0, 'S>')
     members << FltVar.new(unknown_hdr             ,  0, 'g' )
     members << FltVar.new(unknown_hdr             ,  0, 'g' )
     
@@ -118,17 +118,17 @@ class Character < StdEntry
     members << IntVar.new(padding_hdr             ,  0, 's>')
     members << FltVar.new(unknown_hdr             ,  0, 'g' )
     members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::GREEN_EXP[0]    ,  0, 's>')
+    members << IntVar.new(CsvHdr::GREEN_EXP[-1]   ,  0, 's>')
     members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::RED_EXP[0]      ,  0, 's>')
+    members << IntVar.new(CsvHdr::RED_EXP[-1]     ,  0, 's>')
     members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::PURPLE_EXP[0]   ,  0, 's>')
+    members << IntVar.new(CsvHdr::PURPLE_EXP[-1]  ,  0, 's>')
     members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::BLUE_EXP[0]     ,  0, 's>')
+    members << IntVar.new(CsvHdr::BLUE_EXP[-1]    ,  0, 's>')
     members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::YELLOW_EXP[0]   ,  0, 's>')
+    members << IntVar.new(CsvHdr::YELLOW_EXP[-1]  ,  0, 's>')
     members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::SILVER_EXP[0]   ,  0, 's>')
+    members << IntVar.new(CsvHdr::SILVER_EXP[-1]  ,  0, 's>')
   end
 
   # Writes one entry to a CSV file.

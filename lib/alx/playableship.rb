@@ -69,11 +69,11 @@ class PlayableShip < StdEntry
     (0...6).each do |_i|
       members << IntVar.new(ELEMENTS[_i]                   ,  0, 's>')
     end
-    (1..5).each do |_i|
+    (0...5).each do |_i|
       members << IntVar.new(CsvHdr::SHIP_CANNON_ID[_i]     , -1, 's>')
       members << StrDmy.new(CsvHdr::SHIP_CANNON_NAME[_i]   , ''      )
     end
-    (1..3).each do |_i|
+    (0...3).each do |_i|
       members << IntVar.new(CsvHdr::SHIP_ACCESSORY_ID[_i]  , -1, 's>')
       members << StrDmy.new(CsvHdr::SHIP_ACCESSORY_NAME[_i], ''      )
     end
@@ -100,7 +100,7 @@ class PlayableShip < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    (1..5).each do |_i|
+    (0...5).each do |_i|
       _id = find_member(CsvHdr::SHIP_CANNON_ID[_i]).value
       if _id != -1
         _entry = @ship_cannons[_id]
@@ -121,7 +121,7 @@ class PlayableShip < StdEntry
       find_member(CsvHdr::SHIP_CANNON_NAME[_i]).value = _name
     end
 
-    (1..3).each do |_i|
+    (0...3).each do |_i|
       _id = find_member(CsvHdr::SHIP_ACCESSORY_ID[_i]).value
       if _id != -1
         _entry = @ship_accessories[_id]

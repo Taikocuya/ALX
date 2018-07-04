@@ -96,7 +96,7 @@ class CharacterSuperMove < StdEntry
     members << IntVar.new(CsvHdr::EFFECT_SPIRIT     , -1, 'c' )
     members << IntVar.new(padding_hdr               ,  0, 'c' )
     members << IntVar.new(padding_hdr               ,  0, 'c' )
-    members << IntVar.new(CsvHdr::EFFECT_VALUE[0]   , -1, 's>')
+    members << IntVar.new(CsvHdr::EFFECT_VALUE[-1]  , -1, 's>')
     members << IntVar.new(CsvHdr::TYPE_ID           ,  0, 'c' )
     members << StrDmy.new(CsvHdr::TYPE_NAME         , ''      )
     members << IntVar.new(CsvHdr::STATE_ID          ,  0, 'c' )

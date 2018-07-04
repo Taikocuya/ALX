@@ -56,10 +56,10 @@ class Encounter < Entry
     @file    = ''
 
     members << StrDmy.new(CsvHdr::FILTER             , ''      )
-    members << IntVar.new(CsvHdr::UNKNOWN[0]         ,  0, 'C' )
+    members << IntVar.new(CsvHdr::UNKNOWN[-1]        ,  0, 'C' )
     members << IntVar.new(CsvHdr::MEGIC_EXP          ,  0, 'C' )
 
-    (1..8).each do |_i|
+    (0...8).each do |_i|
       members << IntVar.new(CsvHdr::ENEMY_ID[_i]     ,  0, 'C' )
       members << StrDmy.new(CsvHdr::ENEMY_NAME_JP[_i], ''      )
       members << StrDmy.new(CsvHdr::ENEMY_NAME_US[_i], ''      )
@@ -79,7 +79,7 @@ class Encounter < Entry
   def write_to_csv(_f)
     find_member(CsvHdr::FILTER).value = @file
     
-    (1..8).each do |_i|
+    (0...8).each do |_i|
       _id = find_member(CsvHdr::ENEMY_ID[_i]).value
       if _id != 255
         _entry = @enemies.find { |_enemy| _enemy.id == _id }

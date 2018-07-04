@@ -49,10 +49,10 @@ class Enemy < Entry
 #==============================================================================
 
   # Instruction type IDs
-  INST_TYPES = Hash.new('???')
-  INST_TYPES.store(-1, 'None'    )
-  INST_TYPES.store( 0, 'Strategy')
-  INST_TYPES.store( 1, 'Action'  )
+  INSTR_TYPES = Hash.new('???')
+  INSTR_TYPES.store(-1, 'None'    )
+  INSTR_TYPES.store( 0, 'Strategy')
+  INSTR_TYPES.store( 1, 'Action'  )
   
   # Basic action IDs
   BASIC_ACTIONS = Hash.new('???')
@@ -102,8 +102,8 @@ class Enemy < Entry
     
     members << StrDmy.new(CsvHdr::FILTER                , ''      )
     members << StrVar.new(CsvHdr::NAME_JP_STR           , '',   21)
-    members << StrDmy.new(CsvHdr::ENEMY_NAME_US[0]      , ''      )
-    members << StrDmy.new(CsvHdr::ENEMY_NAME_EU[0]      , ''      )
+    members << StrDmy.new(CsvHdr::ENEMY_NAME_US[-1]     , ''      )
+    members << StrDmy.new(CsvHdr::ENEMY_NAME_EU[-1]     , ''      )
     members << IntVar.new(CsvHdr::ENEMY_WIDTH           ,  0, 'c' )
     members << IntVar.new(CsvHdr::ENEMY_HEIGHT          ,  0, 'c' )
     members << IntVar.new(CsvHdr::ELEMENT_ID            ,  0, 'c' )
@@ -112,7 +112,7 @@ class Enemy < Entry
     members << IntVar.new(padding_hdr                   , -1, 'c' )
     members << IntVar.new(CsvHdr::MOVEMENT_FLAGS        ,  0, 's>')
     members << IntVar.new(CsvHdr::COUNTER               ,  0, 's>')
-    members << IntVar.new(CsvHdr::EXP[0]                ,  0, 'S>')
+    members << IntVar.new(CsvHdr::EXP[-1]               ,  0, 'S>')
     members << IntVar.new(CsvHdr::GOLD                  ,  0, 'S>')
     members << IntVar.new(padding_hdr                   , -1, 'c' )
     members << IntVar.new(padding_hdr                   , -1, 'c' )
@@ -153,20 +153,20 @@ class Enemy < Entry
     members << IntVar.new(padding_hdr                   , -1, 'c' )
     members << IntVar.new(padding_hdr                   , -1, 'c' )
 
-    (1..4).each do |_i|
+    (0...4).each do |_i|
       members << IntVar.new(CsvHdr::ITEM_PROBABILITY[_i], -1, 's>')
       members << IntVar.new(CsvHdr::ITEM_AMOUNT[_i]     , -1, 's>')
       members << IntVar.new(CsvHdr::ITEM_ID[_i]         , -1, 's>')
       members << StrDmy.new(CsvHdr::ITEM_NAME[_i]       , ''      )
     end
 
-    (1..64).each do |_i|
-      members << IntVar.new(CsvHdr::INST_TYPE_ID[_i]    , -1, 's>')
-      members << StrDmy.new(CsvHdr::INST_TYPE_NAME[_i]  , ''      )
-      members << IntVar.new(CsvHdr::INST_ID[_i]         , -1, 's>')
-      members << StrDmy.new(CsvHdr::INST_NAME[_i]       , ''      )
-      members << IntVar.new(CsvHdr::INST_PARAM_ID[_i]   , -1, 's>')
-      members << StrDmy.new(CsvHdr::INST_PARAM_NAME[_i] , ''      )
+    (0...64).each do |_i|
+      members << IntVar.new(CsvHdr::INSTR_TYPE_ID[_i]   , -1, 's>')
+      members << StrDmy.new(CsvHdr::INSTR_TYPE_NAME[_i] , ''      )
+      members << IntVar.new(CsvHdr::INSTR_ID[_i]        , -1, 's>')
+      members << StrDmy.new(CsvHdr::INSTR_NAME[_i]      , ''      )
+      members << IntVar.new(CsvHdr::INSTR_PARAM_ID[_i]  , -1, 's>')
+      members << StrDmy.new(CsvHdr::INSTR_PARAM_NAME[_i], ''      )
     end
 
     members << IntVar.new(padding_hdr                   ,  0, 's>')
@@ -183,8 +183,8 @@ class Enemy < Entry
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
     find_member(CsvHdr::FILTER).value           = @files.join(';')
-    find_member(CsvHdr::ENEMY_NAME_US[0]).value = ENEMY_US_LIST[id]
-    find_member(CsvHdr::ENEMY_NAME_EU[0]).value = ENEMY_EU_LIST[id]
+    find_member(CsvHdr::ENEMY_NAME_US[-1]).value = ENEMY_US_LIST[id]
+    find_member(CsvHdr::ENEMY_NAME_EU[-1]).value = ENEMY_EU_LIST[id]
     
     _id = find_member(CsvHdr::ELEMENT_ID).value
     find_member(CsvHdr::ELEMENT_NAME).value = ELEMENTS[_id]
@@ -195,7 +195,7 @@ class Enemy < Entry
     _id = find_member(CsvHdr::STATE_ID).value
     find_member(CsvHdr::STATE_NAME).value = STATES[_id]
     
-    (1..4).each do |_i|
+    (0...4).each do |_i|
       _id = find_member(CsvHdr::ITEM_ID[_i]).value
       if _id != -1
         _entry = @items[_id]
@@ -216,32 +216,32 @@ class Enemy < Entry
       find_member(CsvHdr::ITEM_NAME[_i]).value = _name
     end
     
-    (1..64).each do |_i|
-      _type_id    = find_member(CsvHdr::INST_TYPE_ID[_i] ).value
-      _inst_id    = find_member(CsvHdr::INST_ID[_i]      ).value
-      _param_id   = find_member(CsvHdr::INST_PARAM_ID[_i]).value
-      _type_name  = INST_TYPES[_type_id]
-      _inst_name  = _inst_id  != -1 ? '???' : 'None'
+    (0...64).each do |_i|
+      _type_id    = find_member(CsvHdr::INSTR_TYPE_ID[_i] ).value
+      _instr_id   = find_member(CsvHdr::INSTR_ID[_i]      ).value
+      _param_id   = find_member(CsvHdr::INSTR_PARAM_ID[_i]).value
+      _type_name  = INSTR_TYPES[_type_id]
+      _instr_name = _instr_id != -1 ? '???' : 'None'
       _param_name = _param_id != -1 ? '???' : 'None'
 
       if _type_id == 1
         # Action
         _entry = nil
-        if _inst_id >= 550
-          _inst_name = BASIC_ACTIONS[_inst_id]
-        elsif _inst_id >= 500
-          _entry = @magics[_inst_id - 500]
-        elsif _inst_id >= 0
-          _entry = @super_moves[_inst_id]
+        if _instr_id >= 550
+          _instr_name = BASIC_ACTIONS[_instr_id]
+        elsif _instr_id >= 500
+          _entry = @magics[_instr_id - 500]
+        elsif _instr_id >= 0
+          _entry = @super_moves[_instr_id]
         end
         if _entry
           case region
           when 'E'
-            _inst_name = _entry.find_member(CsvHdr::NAME_US_STR).value
+            _instr_name = _entry.find_member(CsvHdr::NAME_US_STR).value
           when 'J'
-            _inst_name = _entry.find_member(CsvHdr::NAME_JP_STR).value
+            _instr_name = _entry.find_member(CsvHdr::NAME_JP_STR).value
           when 'P'
-            _inst_name = _entry.find_member(CsvHdr::NAME_GB_STR).value
+            _instr_name = _entry.find_member(CsvHdr::NAME_GB_STR).value
           end
         end
 
@@ -249,9 +249,9 @@ class Enemy < Entry
         _param_name = ACTION_TARGETS[_param_id]
       end
 
-      find_member(CsvHdr::INST_TYPE_NAME[_i] ).value = _type_name
-      find_member(CsvHdr::INST_NAME[_i]      ).value = _inst_name
-      find_member(CsvHdr::INST_PARAM_NAME[_i]).value  = _param_name
+      find_member(CsvHdr::INSTR_TYPE_NAME[_i] ).value = _type_name
+      find_member(CsvHdr::INSTR_NAME[_i]      ).value = _instr_name
+      find_member(CsvHdr::INSTR_PARAM_NAME[_i]).value = _param_name
     end
 
     super

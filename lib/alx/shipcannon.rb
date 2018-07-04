@@ -97,7 +97,7 @@ class ShipCannon < StdEntry
     if region == 'P'
       members << IntVar.new(padding_hdr             ,  0, 'c' )
     else
-      members << IntVar.new(CsvHdr::PADDING[0]      ,  0, 'c' )
+      members << IntVar.new(CsvHdr::PADDING[-1]     ,  0, 'c' )
     end
 
     add_dscr_members

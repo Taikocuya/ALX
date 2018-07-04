@@ -75,8 +75,8 @@ class Entry
   def initialize(_region)
     @region     = _region
     @members    = [IntDmy.new(CsvHdr::ID, id)]
-    @padding_id = 0
-    @unknown_id = 0
+    @padding_id = -1
+    @unknown_id = -1
   end
 
   # Returns the size of the entry.
