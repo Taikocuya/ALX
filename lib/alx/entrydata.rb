@@ -57,8 +57,8 @@ class EntryData
   STR_OPEN_READ  = 'read'
   STR_OPEN_WRITE = 'write'
   STR_OPEN_DATA  = 'data'
-  STR_READ       = 'Reading entry #%d @ %#x...'
-  STR_WRITE      = 'Writing entry #%d @ %#x...'
+  STR_READ       = 'Reading entry #%s @ %#x...'
+  STR_WRITE      = 'Writing entry #%s @ %#x...'
   STR_CLOSE      = 'File "%s" has been closed.'
 
 #==============================================================================

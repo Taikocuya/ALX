@@ -22,7 +22,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('datamember.rb')
+require_relative('enemyshiptaskdata.rb')
+require_relative('stdentrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -31,58 +32,22 @@ module ALX
 #==============================================================================
 #                                    CLASS
 #==============================================================================
-  
-# Class to handle a data member dummy as string.
-class StrDmy < DataMember
-  
+
+# Base class to export and/or import enemy ship tasks to and/or from CSV files.
+class EnemyShipTaskTransform < StdEntryTransform
+
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
 
-  # Returns +true+ if data member is a dummy, otherwise +false+.
-  # @return [Boolean] +true+ if data member is a dummy, otherwise +false+.
-  def dummy?
-    true
-  end
-  
-  # Constructs a StrDmy
-  # @param _name  [String]  Name
-  # @param _value [String]  Value
-  # @param _eol   [String]  End of line marker
-  def initialize(_name, _value, _eol = "\n")
-    super(_name, _value)
-    @eol = _eol
+  # Constructs an EnemyShipTaskTransform.
+  def initialize
+    super(EnemyShipTaskData)
   end
 
-  # Reads one entry from a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def read_from_csv_row(_row)
-    super
-    self.value = _row[name] || value
-    self.value = value.to_s
-    self.value.force_encoding('UTF-8')
-    self.value.gsub!('\n', @eol)
-  end
-
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
-    super
-    _value = value.to_s
-    _value.force_encoding('UTF-8')
-    _value.gsub!(@eol, '\n')
-    _row[name] = _value
-  end
-
-#------------------------------------------------------------------------------
-# Public member variables
-#------------------------------------------------------------------------------
-
-  attr_accessor :eol
-  
-end # class StrDmy
+end # class EnemyShipTaskTransform
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

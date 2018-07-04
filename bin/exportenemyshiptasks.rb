@@ -1,3 +1,4 @@
+#! /usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2018 Marcel Renner
@@ -22,7 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('datamember.rb')
+require_relative('../lib/alx/enemyshiptasktransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -31,59 +32,35 @@ module ALX
 #==============================================================================
 #                                    CLASS
 #==============================================================================
-  
-# Class to handle a data member dummy as string.
-class StrDmy < DataMember
-  
+
+# Class to export enemy ship tasks to CSV files.
+class EnemyShipTaskExporter < EnemyShipTaskTransform
+
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
 
-  # Returns +true+ if data member is a dummy, otherwise +false+.
-  # @return [Boolean] +true+ if data member is a dummy, otherwise +false+.
-  def dummy?
-    true
-  end
-  
-  # Constructs a StrDmy
-  # @param _name  [String]  Name
-  # @param _value [String]  Value
-  # @param _eol   [String]  End of line marker
-  def initialize(_name, _value, _eol = "\n")
-    super(_name, _value)
-    @eol = _eol
-  end
-
-  # Reads one entry from a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def read_from_csv_row(_row)
+  def exec
     super
-    self.value = _row[name] || value
-    self.value = value.to_s
-    self.value.force_encoding('UTF-8')
-    self.value.gsub!('\n', @eol)
+    transform_bin_to_csv
   end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
-    super
-    _value = value.to_s
-    _value.force_encoding('UTF-8')
-    _value.gsub!(@eol, '\n')
-    _row[name] = _value
-  end
-
-#------------------------------------------------------------------------------
-# Public member variables
-#------------------------------------------------------------------------------
-
-  attr_accessor :eol
-  
-end # class StrDmy
+end	# class EnemyShipTaskExporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end # module ALX
+end	# module ALX
+
+# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+
+if __FILE__ == $0 || Object.const_defined?('ALX::Exporter')
+  begin
+    _exporter = ALX::EnemyShipTaskExporter.new
+    _exporter.exec
+  rescue => _e
+    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
+    exit(1)
+  end
+end
