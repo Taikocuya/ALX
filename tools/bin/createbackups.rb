@@ -26,6 +26,7 @@
 require('fileutils')
 require_relative('../../lib/alx/entrydata.rb')
 require_relative('../../lib/alx/enemydata.rb')
+require_relative('../../lib/alx/enemyshiptaskdata.rb')
 require_relative('../../lib/alx/entrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -61,6 +62,8 @@ class BackupCreator
   ENP_FILE    = sprintf(EnemyData::ENP_FILE, '*')
   # Path to EVP file
   EVP_FILE    = EnemyData::EVP_FILE
+  # Path to TEC files
+  TEC_FILE    = sprintf(EnemyShipTaskData::TEC_FILE, '[0-9][0-9][0-9]*')
   # Path to LMT file relative to game root.
   LMT_FILE    = EntryData::LMT_FILE
   # Path to German SOT file relative to game root (PAL-E only).
@@ -80,50 +83,47 @@ class BackupCreator
 
   def exec
     print("\n")
-    create_backup(File.join(SHARE_DIR, 'geae8p', DOL_FILE   ))
-    create_backup(File.join(SHARE_DIR, 'geaj8p', DOL_FILE   ))
-    create_backup(File.join(SHARE_DIR, 'geap8p', DOL_FILE   ))
-      
-    Dir.glob(File.join(SHARE_DIR, 'geae8p', ENP_FILE)).each do |_p|
-      create_backup(_p)
-    end
-    Dir.glob(File.join(SHARE_DIR, 'geaj8p', ENP_FILE)).each do |_p|
-      create_backup(_p)
-    end
-    Dir.glob(File.join(SHARE_DIR, 'geap8p', ENP_FILE)).each do |_p|
-      create_backup(_p)
-    end
-
-    create_backup(File.join(SHARE_DIR, 'geae8p', EVP_FILE   ))
-    create_backup(File.join(SHARE_DIR, 'geaj8p', EVP_FILE   ))
-    create_backup(File.join(SHARE_DIR, 'geap8p', EVP_FILE   ))
-      
-    Dir.glob(File.join(SHARE_DIR, 'geae8p', EB_DAT_FILE)).each do |_p|
-      create_backup(_p)
-    end
-    Dir.glob(File.join(SHARE_DIR, 'geaj8p', EB_DAT_FILE)).each do |_p|
-      create_backup(_p)
-    end
-    Dir.glob(File.join(SHARE_DIR, 'geap8p', EB_DAT_FILE)).each do |_p|
-      create_backup(_p)
-    end
-    Dir.glob(File.join(SHARE_DIR, 'geae8p', EC_DAT_FILE)).each do |_p|
-      create_backup(_p)
-    end
-    Dir.glob(File.join(SHARE_DIR, 'geaj8p', EC_DAT_FILE)).each do |_p|
-      create_backup(_p)
-    end
-    Dir.glob(File.join(SHARE_DIR, 'geap8p', EC_DAT_FILE)).each do |_p|
-      create_backup(_p)
-    end
     
-    create_backup(File.join(SHARE_DIR, 'geae8p', LMT_FILE   ))
-    create_backup(File.join(SHARE_DIR, 'geaj8p', LMT_FILE   ))
-    create_backup(File.join(SHARE_DIR, 'geap8p', LMT_FILE   ))
-    create_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_DE))
-    create_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_ES))
-    create_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_FR))
-    create_backup(File.join(SHARE_DIR, 'geap8p', SOT_FILE_GB))
+    Dir.glob(File.join(SHARE_DIR, '*')).each do |_game_path|
+      unless File.directory?(_game_path)
+        next
+      end
+  
+      create_backup(File.join(_game_path, DOL_FILE))
+      create_backup(File.join(_game_path, EVP_FILE))
+      create_backup(File.join(_game_path, LMT_FILE))
+        
+      Dir.glob(File.join(_game_path, ENP_FILE   )).each do |_p|
+        create_backup(_p)
+      end
+      Dir.glob(File.join(_game_path, ENP_FILE   )).each do |_p|
+        create_backup(_p)
+      end
+      Dir.glob(File.join(_game_path, ENP_FILE   )).each do |_p|
+        create_backup(_p)
+      end
+      Dir.glob(File.join(_game_path, EB_DAT_FILE)).each do |_p|
+        create_backup(_p)
+      end
+      Dir.glob(File.join(_game_path, EC_DAT_FILE)).each do |_p|
+        create_backup(_p)
+      end
+      Dir.glob(File.join(_game_path, TEC_FILE   )).each do |_p|
+        create_backup(_p)
+      end
+      Dir.glob(File.join(_game_path, SOT_FILE_DE)).each do |_p|
+        create_backup(_p)
+      end
+      Dir.glob(File.join(_game_path, SOT_FILE_ES)).each do |_p|
+        create_backup(_p)
+      end
+      Dir.glob(File.join(_game_path, SOT_FILE_FR)).each do |_p|
+        create_backup(_p)
+      end
+      Dir.glob(File.join(_game_path, SOT_FILE_GB)).each do |_p|
+        create_backup(_p)
+      end
+    end
   end
 
   # Creates a backup.
@@ -135,7 +135,7 @@ class BackupCreator
     print("Create backup: #{_dest}")
     
     begin
-      FileUtils::cp(_src, _dest)
+      FileUtils.cp(_src, _dest)
       _result = File.exist?(_src)
     rescue
       _result = false
