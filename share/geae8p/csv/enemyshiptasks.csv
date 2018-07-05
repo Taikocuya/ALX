@@ -1,4 +1,4 @@
-Entry ID,[Filter],[Enemy ID],[US enemy name],Unknown,Task rating,Task A type ID,[Task A type name],Task A arm. ID,Task A param. ID,Task A param. name,Task A arm. range,Task B type ID,[Task B type name],Task B arm. ID,Task B param. ID,Task B param. name,Task B arm. range
+Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A type ID,[Task A type name],Task A arm. ID,Task A param. ID,[Task A param. name],Task A arm. range,Task B type ID,[Task B type name],Task B arm. ID,Task B param. ID,[Task B param. name],Task B arm. range
 0,r500a.tec,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 1,r500a.tec,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 2,r500a.tec,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0

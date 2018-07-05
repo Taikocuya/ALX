@@ -47,32 +47,24 @@ class MagicExpCurve < StdEntry
     super
     @characters = {}
 
-    case region
-    when 'E'
-      members << StrDmy.new(CsvHdr::NAME_US_STR   , ''      )
-    when 'J'
-      members << StrDmy.new(CsvHdr::NAME_JP_STR   , ''      )
-    when 'P'
-      members << StrDmy.new(CsvHdr::NAME_EU_STR   , ''      )
-    end
-      
+    members << StrDmy.new(CsvHdr::CHARACTER_NAME[-1], ''      )
     (0...6).each do |_i|
-      members << IntVar.new(CsvHdr::GREEN_EXP[_i] ,  0, 'S>')
+      members << IntVar.new(CsvHdr::GREEN_EXP[_i]   ,  0, 'S>')
     end
     (0...6).each do |_i|
-      members << IntVar.new(CsvHdr::RED_EXP[_i]   ,  0, 'S>')
+      members << IntVar.new(CsvHdr::RED_EXP[_i]     ,  0, 'S>')
     end
     (0...6).each do |_i|
-      members << IntVar.new(CsvHdr::PURPLE_EXP[_i],  0, 'S>')
+      members << IntVar.new(CsvHdr::PURPLE_EXP[_i]  ,  0, 'S>')
     end
     (0...6).each do |_i|
-      members << IntVar.new(CsvHdr::BLUE_EXP[_i]  ,  0, 'S>')
+      members << IntVar.new(CsvHdr::BLUE_EXP[_i]    ,  0, 'S>')
     end
     (0...6).each do |_i|
-      members << IntVar.new(CsvHdr::YELLOW_EXP[_i],  0, 'S>')
+      members << IntVar.new(CsvHdr::YELLOW_EXP[_i]  ,  0, 'S>')
     end
     (0...6).each do |_i|
-      members << IntVar.new(CsvHdr::SILVER_EXP[_i],  0, 'S>')
+      members << IntVar.new(CsvHdr::SILVER_EXP[_i]  ,  0, 'S>')
     end
   end
 
@@ -91,14 +83,7 @@ class MagicExpCurve < StdEntry
         _name = _chara.find_member(CsvHdr::NAME_EU_STR).value
       end
     end
-    case region
-    when 'E'
-      find_member(CsvHdr::NAME_US_STR).value = _name
-    when 'J'
-      find_member(CsvHdr::NAME_JP_STR).value = _name
-    when 'P'
-      find_member(CsvHdr::NAME_EU_STR).value = _name
-    end
+    find_member(CsvHdr::CHARACTER_NAME[-1]).value = _name
 
     super
   end

@@ -107,41 +107,41 @@ module CsvHdr
 
   DSCR_JP_SIZE        = '[JP descr. size]'
   DSCR_JP_POS         = '[JP descr. pos.]'
-  DSCR_JP_STR         = 'JP descr. string'
+  DSCR_JP_STR         = 'JP descr. str.'
   DSCR_US_SIZE        = '[US descr. size]'
   DSCR_US_POS         = '[US descr. pos.]'
-  DSCR_US_STR         = 'US descr. string'
+  DSCR_US_STR         = 'US descr. str.'
   DSCR_DE_SIZE        = '[DE descr. size]'
   DSCR_DE_POS         = '[DE descr. pos.]'
-  DSCR_DE_STR         = 'DE descr. string'
+  DSCR_DE_STR         = 'DE descr. str.'
   DSCR_ES_SIZE        = '[ES descr. size]'
   DSCR_ES_POS         = '[ES descr. pos.]'
-  DSCR_ES_STR         = 'ES descr. string'
+  DSCR_ES_STR         = 'ES descr. str.'
   DSCR_FR_SIZE        = '[FR descr. size]'
   DSCR_FR_POS         = '[FR descr. pos.]'
-  DSCR_FR_STR         = 'FR descr. string'
+  DSCR_FR_STR         = 'FR descr. str.'
   DSCR_GB_SIZE        = '[GB descr. size]'
   DSCR_GB_POS         = '[GB descr. pos.]'
-  DSCR_GB_STR         = 'GB descr. string'
+  DSCR_GB_STR         = 'GB descr. str.'
 
   SHIP_DSCR_JP_SIZE   = '[JP ship descr. size]'
   SHIP_DSCR_JP_POS    = '[JP ship descr. pos.]'
-  SHIP_DSCR_JP_STR    = 'JP ship descr. string'
+  SHIP_DSCR_JP_STR    = 'JP ship descr. str.'
   SHIP_DSCR_US_SIZE   = '[US ship descr. size]'
   SHIP_DSCR_US_POS    = '[US ship descr. pos.]'
-  SHIP_DSCR_US_STR    = 'US ship descr. string'
+  SHIP_DSCR_US_STR    = 'US ship descr. str.'
   SHIP_DSCR_DE_SIZE   = '[DE ship descr. size]'
   SHIP_DSCR_DE_POS    = '[DE ship descr. pos.]'
-  SHIP_DSCR_DE_STR    = 'DE ship descr. string'
+  SHIP_DSCR_DE_STR    = 'DE ship descr. str.'
   SHIP_DSCR_ES_SIZE   = '[ES ship descr. size]'
   SHIP_DSCR_ES_POS    = '[ES ship descr. pos.]'
-  SHIP_DSCR_ES_STR    = 'ES ship descr. string'
+  SHIP_DSCR_ES_STR    = 'ES ship descr. str.'
   SHIP_DSCR_FR_SIZE   = '[FR ship descr. size]'
   SHIP_DSCR_FR_POS    = '[FR ship descr. pos.]'
-  SHIP_DSCR_FR_STR    = 'FR ship descr. string'
+  SHIP_DSCR_FR_STR    = 'FR ship descr. str.'
   SHIP_DSCR_GB_SIZE   = '[GB ship descr. size]'
   SHIP_DSCR_GB_POS    = '[GB ship descr. pos.]'
-  SHIP_DSCR_GB_STR    = 'GB ship descr. string'
+  SHIP_DSCR_GB_STR    = 'GB ship descr. str.'
 
 #------------------------------------------------------------------------------
 # Character
@@ -150,7 +150,7 @@ module CsvHdr
   CHARACTER_ID        = create_hdr('Chara.%sID'    )
   CHARACTER_NAME      = create_hdr('[Chara.%sname]')
   CHARACTER_X         = create_hdr('Chara.%sX'     )
-  CHARACTER_Y         = create_hdr('[Chara.%sY]'   )
+  CHARACTER_Y         = create_hdr('Chara.%sY'     )
   CHARACTER_FLAGS     = 'Chara. flags'
   CHARACTER_OPT       = Hash.new { |_h, _k| _h[_k] = sprintf('[%s]', _k) }
   CHARACTER_VYSE      = 'Vyse'
@@ -192,7 +192,7 @@ module CsvHdr
 #------------------------------------------------------------------------------
 # Enemy
 #------------------------------------------------------------------------------
-  
+
   ENEMY_ID            = create_hdr('Enemy%sID'       )
   ENEMY_NAME_JP       = create_hdr('[JP enemy%sname]')
   ENEMY_NAME_US       = create_hdr('[US enemy%sname]')
@@ -217,21 +217,28 @@ module CsvHdr
   INSTR_PARAM_NAME    = create_hdr('[Instr.%sparam. name]')
 
 #------------------------------------------------------------------------------
-# Ship enemy
+# Enemy ship
 #------------------------------------------------------------------------------
+
+  ENEMY_SHIP_ID       = '[Enemy ship ID]'
+  ENEMY_SHIP_NAME     = '[Enemy ship name]'
+
+  ARM_NAME_EU         = create_hdr('EU arm.%sname')
+  ARM_NAME_JP         = create_hdr('JP arm.%sname')
+  ARM_NAME_US         = create_hdr('US arm.%sname')
 
   ARM_NAME_DE_POS     = create_hdr('[DE arm.%sname pos.]')
   ARM_NAME_DE_SIZE    = create_hdr('[DE arm.%sname size]')
-  ARM_NAME_DE_STR     = create_hdr('DE arm.%sname string')
+  ARM_NAME_DE_STR     = create_hdr('DE arm.%sname str.'  )
   ARM_NAME_ES_POS     = create_hdr('[ES arm.%sname pos.]')
   ARM_NAME_ES_SIZE    = create_hdr('[ES arm.%sname size]')
-  ARM_NAME_ES_STR     = create_hdr('ES arm.%sname string')
+  ARM_NAME_ES_STR     = create_hdr('ES arm.%sname str.'  )
   ARM_NAME_FR_POS     = create_hdr('[FR arm.%sname pos.]')
   ARM_NAME_FR_SIZE    = create_hdr('[FR arm.%sname size]')
-  ARM_NAME_FR_STR     = create_hdr('FR arm.%sname string')
+  ARM_NAME_FR_STR     = create_hdr('FR arm.%sname str.'  )
   ARM_NAME_GB_POS     = create_hdr('[GB arm.%sname pos.]')
   ARM_NAME_GB_SIZE    = create_hdr('[GB arm.%sname size]')
-  ARM_NAME_GB_STR     = create_hdr('GB arm.%sname string')
+  ARM_NAME_GB_STR     = create_hdr('GB arm.%sname str.'  )
 
   ARM_ATTACK          = create_hdr('Arm.%sattack'        )
   ARM_TYPE_ID         = create_hdr('Arm.%stype ID'       )
@@ -250,14 +257,16 @@ module CsvHdr
   TASK_A_TYPE_ID      = 'Task A type ID'
   TASK_A_TYPE_NAME    = '[Task A type name]'
   TASK_A_ARM_ID       = 'Task A arm. ID'
+  TASK_A_ARM_NAME     = '[Task A arm. name]'
   TASK_A_PARAM_ID     = 'Task A param. ID'
-  TASK_A_PARAM_NAME   = 'Task A param. name'
+  TASK_A_PARAM_NAME   = '[Task A param. name]'
   TASK_A_RANGE        = 'Task A arm. range'
   TASK_B_TYPE_ID      = 'Task B type ID'
   TASK_B_TYPE_NAME    = '[Task B type name]'
   TASK_B_ARM_ID       = 'Task B arm. ID'
+  TASK_B_ARM_NAME     = '[Task B arm. name]'
   TASK_B_PARAM_ID     = 'Task B param. ID'
-  TASK_B_PARAM_NAME   = 'Task B param. name'
+  TASK_B_PARAM_NAME   = '[Task B param. name]'
   TASK_B_RANGE        = 'Task B arm. range'
 
 #------------------------------------------------------------------------------

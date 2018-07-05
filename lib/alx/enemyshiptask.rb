@@ -42,7 +42,7 @@ class EnemyShipTask < Entry
 #==============================================================================
 
   # IDs of ship enemies
-  ENEMY_SHIP_LIST = Hash.new
+  ENEMY_SHIP_LIST = Hash.new('???')
   ENEMY_SHIP_LIST.store('r500a.tec', 23)
   ENEMY_SHIP_LIST.store('r501a.tec',  2)
   ENEMY_SHIP_LIST.store('r503a.tec', 21)
@@ -158,17 +158,8 @@ class EnemyShipTask < Entry
     @magics      = {}
 
     members << StrDmy.new(CsvHdr::FILTER             , ''      )
-    members << StrDmy.new("[#{CsvHdr::ENEMY_ID[-1]}]", ''      )
-    
-    case region
-    when 'E'
-      members << StrDmy.new(CsvHdr::ENEMY_NAME_US[-1], ''     )
-    when 'J'
-      members << StrDmy.new(CsvHdr::ENEMY_NAME_JP[-1], ''     )
-    when 'P'
-      members << StrDmy.new(CsvHdr::ENEMY_NAME_EU[-1], ''     )
-    end
-    
+    members << StrDmy.new(CsvHdr::ENEMY_SHIP_ID      , ''      )
+    members << StrDmy.new(CsvHdr::ENEMY_SHIP_NAME    , ''      )
     members << IntVar.new(CsvHdr::UNKNOWN[-1]        ,  0, 's>')
     # members << IntVar.new(CsvHdr::TASK_COND_ID       ,  0, 's>')
     # members << StrDmy.new(CsvHdr::TASK_COND_NAME     , ''      )
@@ -176,12 +167,18 @@ class EnemyShipTask < Entry
     members << IntVar.new(CsvHdr::TASK_A_TYPE_ID     ,  0, 's>')
     members << StrDmy.new(CsvHdr::TASK_A_TYPE_NAME   , ''      )
     members << IntVar.new(CsvHdr::TASK_A_ARM_ID      ,  0, 's>')
+    if region == 'P'
+      members << StrDmy.new(CsvHdr::TASK_A_ARM_NAME  , ''      )
+    end
     members << IntVar.new(CsvHdr::TASK_A_PARAM_ID    ,  0, 's>')
     members << StrDmy.new(CsvHdr::TASK_A_PARAM_NAME  , ''      )
     members << IntVar.new(CsvHdr::TASK_A_RANGE       ,  0, 's>')
     members << IntVar.new(CsvHdr::TASK_B_TYPE_ID     ,  0, 's>')
     members << StrDmy.new(CsvHdr::TASK_B_TYPE_NAME   , ''      )
     members << IntVar.new(CsvHdr::TASK_B_ARM_ID      ,  0, 's>')
+    if region == 'P'
+      members << StrDmy.new(CsvHdr::TASK_B_ARM_NAME  , ''      )
+    end
     members << IntVar.new(CsvHdr::TASK_B_PARAM_ID    ,  0, 's>')
     members << StrDmy.new(CsvHdr::TASK_B_PARAM_NAME  , ''      )
     members << IntVar.new(CsvHdr::TASK_B_RANGE       ,  0, 's>')
@@ -197,32 +194,47 @@ class EnemyShipTask < Entry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    find_member(CsvHdr::FILTER).value = @file
-
-    _id = ENEMY_SHIP_LIST[@file]
-    if _id
-      _enemy = @enemy_ships[_id]
-      _name  = '???'
-      if _enemy
-        case region
-        when 'E'
-          _name = _enemy.find_member(CsvHdr::NAME_US_STR).value
-        when 'J'
-          _name = _enemy.find_member(CsvHdr::NAME_JP_STR).value
-        when 'P'
-          _name = _enemy.find_member(CsvHdr::NAME_GB_STR).value
-        end
-      end
-      
-      find_member("[#{CsvHdr::ENEMY_ID[-1]}]").value = _id
+    _enemy_id   = ENEMY_SHIP_LIST[@file]
+    _enemy_ship = @enemy_ships[_enemy_id]
+    
+    find_member(CsvHdr::FILTER).value        = @file
+    find_member(CsvHdr::ENEMY_SHIP_ID).value = _enemy_id
+    
+    _name = '???'
+    if _enemy_ship
       case region
       when 'E'
-        find_member(CsvHdr::ENEMY_NAME_US[-1]).value = _name
+        _name = _enemy_ship.find_member(CsvHdr::NAME_US_STR).value
       when 'J'
-        find_member(CsvHdr::ENEMY_NAME_JP[-1]).value = _name
+        _name = _enemy_ship.find_member(CsvHdr::NAME_JP_STR).value
       when 'P'
-        find_member(CsvHdr::ENEMY_NAME_EU[-1]).value = _name
+        _name = _enemy_ship.find_member(CsvHdr::NAME_GB_STR).value
       end
+    end
+    find_member(CsvHdr::ENEMY_SHIP_NAME).value = _name
+
+    if region == 'P'
+      _name = '???'
+      if _enemy_ship
+        _id = find_member(CsvHdr::TASK_A_ARM_ID).value
+        if _id > -1
+          _name = _enemy_ship.find_member(CsvHdr::ARM_NAME_GB_STR[_id]).value
+        else
+          _name = 'None'
+        end
+      end
+      find_member(CsvHdr::TASK_A_ARM_NAME).value = _name
+      
+      _name = '???'
+      if _enemy_ship
+        _id = find_member(CsvHdr::TASK_B_ARM_ID).value
+        if _id > -1
+          _name = _enemy_ship.find_member(CsvHdr::ARM_NAME_GB_STR[_id]).value
+        else
+          _name = 'None'
+        end
+      end
+      find_member(CsvHdr::TASK_B_ARM_NAME).value = _name
     end
 
     _id = find_member(CsvHdr::TASK_A_TYPE_ID).value

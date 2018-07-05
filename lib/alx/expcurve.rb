@@ -47,17 +47,9 @@ class ExpCurve < StdEntry
     super
     @characters = {}
 
-    case region
-    when 'E'
-      members << StrDmy.new(CsvHdr::NAME_US_STR, ''      )
-    when 'J'
-      members << StrDmy.new(CsvHdr::NAME_JP_STR, ''      )
-    when 'P'
-      members << StrDmy.new(CsvHdr::NAME_EU_STR, ''      )
-    end
-      
+    members << StrDmy.new(CsvHdr::CHARACTER_NAME[-1], ''      )
     (0...99).each do |_i|
-      members << IntVar.new(CsvHdr::EXP[_i]    ,  0, 'l>')
+      members << IntVar.new(CsvHdr::EXP[_i]         ,  0, 'l>')
     end
   end
 
@@ -76,14 +68,7 @@ class ExpCurve < StdEntry
         _name = _chara.find_member(CsvHdr::NAME_EU_STR).value
       end
     end
-    case region
-    when 'E'
-      find_member(CsvHdr::NAME_US_STR).value = _name
-    when 'J'
-      find_member(CsvHdr::NAME_JP_STR).value = _name
-    when 'P'
-      find_member(CsvHdr::NAME_EU_STR).value = _name
-    end
+    find_member(CsvHdr::CHARACTER_NAME[-1]).value = _name
 
     super
   end
