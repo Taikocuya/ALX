@@ -60,9 +60,10 @@ class TecFile
   # Constructs a TecFile.
   # @param _region [String] Region ID
   def initialize(_region)
-    @region = _region
-    @tasks  = []
-    @magics = {}
+    @region      = _region
+    @tasks       = []
+    @enemy_ships = {}
+    @magics      = {}
   end
 
   # Creates a task.
@@ -70,10 +71,11 @@ class TecFile
   # @param _filename [String]  File name
   # @return [Entry] EnemyShipTask object
   def create_task(_id = -1, _filename = '*')
-    _task        = EnemyShipTask.new(@region)
-    _task.id     = _id
-    _task.file   = File.basename(_filename)
-    _task.magics = @magics
+    _task             = EnemyShipTask.new(@region)
+    _task.id          = _id
+    _task.file        = File.basename(_filename)
+    _task.enemy_ships = @enemy_ships
+    _task.magics      = @magics
     _task
   end
 
@@ -138,6 +140,7 @@ class TecFile
 
   attr_accessor :region
   attr_accessor :tasks
+  attr_accessor :enemy_ships
   attr_accessor :magics
 
 end # class TecFile

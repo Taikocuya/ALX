@@ -24,6 +24,7 @@
 
 require('fileutils')
 require_relative('charactermagicdata.rb')
+require_relative('enemyshipdata.rb')
 require_relative('enemyshiptask.rb')
 require_relative('entrytransform.rb')
 require_relative('tecfile.rb')
@@ -61,6 +62,7 @@ class EnemyShipTaskData < EntryData
     @tec_file             = sprintf(TEC_FILE, '*')
     @csv_file             = CSV_FILE
     @character_magic_data = CharacterMagicData.new(_root)
+    @enemy_ship_data      = EnemyShipData.new(_root)
     @data                 = []
   end
 
@@ -68,17 +70,19 @@ class EnemyShipTaskData < EntryData
   # @param _id [Integer] Entry ID
   # @return [Entry] Entry object
   def create_entry(_id = -1)
-    _entry        = super()
-    _entry.id     = _id
-    _entry.magics = @character_magic_data.data
+    _entry             = super()
+    _entry.id          = _id
+    _entry.magics      = @character_magic_data.data
+    _entry.enemy_ships = @enemy_ship_data.data
     _entry
   end
 
   # Reads all entries from a binary file.
   # @param _filename [String] File name
   def load_entries_from_bin(_filename)
-    _file        = TecFile.new(region)
-    _file.magics = @character_magic_data.data
+    _file             = TecFile.new(region)
+    _file.magics      = @character_magic_data.data
+    _file.enemy_ships = @enemy_ship_data.data
     _file.load(_filename)
     @data.concat(_file.tasks)
   end
@@ -86,6 +90,7 @@ class EnemyShipTaskData < EntryData
   # Reads all entries from binary files.
   def load_all_from_bin
     @character_magic_data.load_all_from_bin
+    @enemy_ship_data.load_all_from_bin
     
     Dir.glob(File.join(root.path, @tec_file)).each do |_p|
       if File.file?(_p)

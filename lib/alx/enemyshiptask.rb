@@ -41,6 +41,72 @@ class EnemyShipTask < Entry
 #                                  CONSTANTS
 #==============================================================================
 
+  # IDs of ship enemies
+  ENEMY_SHIP_LIST = Hash.new
+  ENEMY_SHIP_LIST.store('r500a.tec', 23)
+  ENEMY_SHIP_LIST.store('r501a.tec',  2)
+  ENEMY_SHIP_LIST.store('r503a.tec', 21)
+  ENEMY_SHIP_LIST.store('r506a.tec', 24)
+  ENEMY_SHIP_LIST.store('r507a.tec', 11)
+  ENEMY_SHIP_LIST.store('r509a.tec', 12)
+  ENEMY_SHIP_LIST.store('r510a.tec',  4)
+  ENEMY_SHIP_LIST.store('r513a.tec', 35)
+  ENEMY_SHIP_LIST.store('r514a.tec', 13)
+  ENEMY_SHIP_LIST.store('r515a.tec', 25)
+  ENEMY_SHIP_LIST.store('r518a.tec',  4)
+  ENEMY_SHIP_LIST.store('r519a.tec', 38)
+  ENEMY_SHIP_LIST.store('r520a.tec',  9)
+  ENEMY_SHIP_LIST.store('r521a.tec', 10)
+  ENEMY_SHIP_LIST.store('r522a.tec', 16)
+  ENEMY_SHIP_LIST.store('r523a.tec', 32)
+  ENEMY_SHIP_LIST.store('r524a.tec', 29)
+  ENEMY_SHIP_LIST.store('r525a.tec', 44)
+  ENEMY_SHIP_LIST.store('r527a.tec', 36)
+  ENEMY_SHIP_LIST.store('r530a.tec', 17)
+  ENEMY_SHIP_LIST.store('r531a.tec', 26)
+  ENEMY_SHIP_LIST.store('r532a.tec', 37)
+  ENEMY_SHIP_LIST.store('r535a.tec', 27)
+  ENEMY_SHIP_LIST.store('r537a.tec', 30)
+  ENEMY_SHIP_LIST.store('r538a.tec', 31)
+  ENEMY_SHIP_LIST.store('r540a.tec', 14)
+  ENEMY_SHIP_LIST.store('r541a.tec', 14)
+  ENEMY_SHIP_LIST.store('r542a.tec',  4)
+  ENEMY_SHIP_LIST.store('r543a.tec',  5)
+  ENEMY_SHIP_LIST.store('r544a.tec',  8)
+  ENEMY_SHIP_LIST.store('r545a.tec', 18)
+  ENEMY_SHIP_LIST.store('r547a.tec', 28)
+  ENEMY_SHIP_LIST.store('r550a.tec', 21)
+  ENEMY_SHIP_LIST.store('r551a.tec', 21)
+  ENEMY_SHIP_LIST.store('r552a.tec', 21)
+  ENEMY_SHIP_LIST.store('r553a.tec',  1)
+  ENEMY_SHIP_LIST.store('r554a.tec',  0)
+  ENEMY_SHIP_LIST.store('r555a.tec',  1)
+  ENEMY_SHIP_LIST.store('r556a.tec',  3)
+  ENEMY_SHIP_LIST.store('r557a.tec',  4)
+  ENEMY_SHIP_LIST.store('r558a.tec',  4)
+  ENEMY_SHIP_LIST.store('r559a.tec', 22)
+  ENEMY_SHIP_LIST.store('r560a.tec',  1)
+  ENEMY_SHIP_LIST.store('r562a.tec',  4)
+  ENEMY_SHIP_LIST.store('r563a.tec',  5)
+  ENEMY_SHIP_LIST.store('r564a.tec',  1)
+  ENEMY_SHIP_LIST.store('r565a.tec', 22)
+  ENEMY_SHIP_LIST.store('r566a.tec',  7)
+  ENEMY_SHIP_LIST.store('r567a.tec',  6)
+  ENEMY_SHIP_LIST.store('r568a.tec', 22)
+  ENEMY_SHIP_LIST.store('r569a.tec',  5)
+  ENEMY_SHIP_LIST.store('r572a.tec', 22)
+  ENEMY_SHIP_LIST.store('r573a.tec', 43)
+  ENEMY_SHIP_LIST.store('r574a.tec',  6)
+  ENEMY_SHIP_LIST.store('r575a.tec',  7)
+  ENEMY_SHIP_LIST.store('r576a.tec', 35)
+  ENEMY_SHIP_LIST.store('r577a.tec', 32)
+  ENEMY_SHIP_LIST.store('r578a.tec', 36)
+  ENEMY_SHIP_LIST.store('r579a.tec', 37)
+  ENEMY_SHIP_LIST.store('r580a.tec', 40)
+  ENEMY_SHIP_LIST.store('r581a.tec', 41)
+  ENEMY_SHIP_LIST.store('r582a.tec', 40)
+  ENEMY_SHIP_LIST.store('r583a.tec', 40)
+  
   # Task type IDs
   TASK_TYPES = Hash.new('???')
   TASK_TYPES.store(-1, 'None'   )
@@ -87,26 +153,38 @@ class EnemyShipTask < Entry
   # @param _region [String] Region ID
   def initialize(_region)
     super
-    @file   = ''
-    @magics = {}
+    @file        = ''
+    @enemy_ships = {}
+    @magics      = {}
+
+    members << StrDmy.new(CsvHdr::FILTER             , ''      )
+    members << StrDmy.new("[#{CsvHdr::ENEMY_ID[-1]}]", ''      )
     
-    members << StrDmy.new(CsvHdr::FILTER           , ''      )
-    members << IntVar.new(CsvHdr::UNKNOWN[-1]      ,  0, 's>')
-    # members << IntVar.new(CsvHdr::TASK_COND_ID     ,  0, 's>')
-    # members << StrDmy.new(CsvHdr::TASK_COND_NAME   , ''      )
-    members << IntVar.new(CsvHdr::TASK_RATING      ,  0, 's>')
-    members << IntVar.new(CsvHdr::TASK_A_TYPE_ID   ,  0, 's>')
-    members << StrDmy.new(CsvHdr::TASK_A_TYPE_NAME , ''      )
-    members << IntVar.new(CsvHdr::TASK_A_ARM_ID    ,  0, 's>')
-    members << IntVar.new(CsvHdr::TASK_A_PARAM_ID  ,  0, 's>')
-    members << StrDmy.new(CsvHdr::TASK_A_PARAM_NAME, ''      )
-    members << IntVar.new(CsvHdr::TASK_A_RANGE     ,  0, 's>')
-    members << IntVar.new(CsvHdr::TASK_B_TYPE_ID   ,  0, 's>')
-    members << StrDmy.new(CsvHdr::TASK_B_TYPE_NAME , ''      )
-    members << IntVar.new(CsvHdr::TASK_B_ARM_ID    ,  0, 's>')
-    members << IntVar.new(CsvHdr::TASK_B_PARAM_ID  ,  0, 's>')
-    members << StrDmy.new(CsvHdr::TASK_B_PARAM_NAME, ''      )
-    members << IntVar.new(CsvHdr::TASK_B_RANGE     ,  0, 's>')
+    case region
+    when 'E'
+      members << StrDmy.new(CsvHdr::ENEMY_NAME_US[-1], ''     )
+    when 'J'
+      members << StrDmy.new(CsvHdr::ENEMY_NAME_JP[-1], ''     )
+    when 'P'
+      members << StrDmy.new(CsvHdr::ENEMY_NAME_EU[-1], ''     )
+    end
+    
+    members << IntVar.new(CsvHdr::UNKNOWN[-1]        ,  0, 's>')
+    # members << IntVar.new(CsvHdr::TASK_COND_ID       ,  0, 's>')
+    # members << StrDmy.new(CsvHdr::TASK_COND_NAME     , ''      )
+    members << IntVar.new(CsvHdr::TASK_RATING        ,  0, 's>')
+    members << IntVar.new(CsvHdr::TASK_A_TYPE_ID     ,  0, 's>')
+    members << StrDmy.new(CsvHdr::TASK_A_TYPE_NAME   , ''      )
+    members << IntVar.new(CsvHdr::TASK_A_ARM_ID      ,  0, 's>')
+    members << IntVar.new(CsvHdr::TASK_A_PARAM_ID    ,  0, 's>')
+    members << StrDmy.new(CsvHdr::TASK_A_PARAM_NAME  , ''      )
+    members << IntVar.new(CsvHdr::TASK_A_RANGE       ,  0, 's>')
+    members << IntVar.new(CsvHdr::TASK_B_TYPE_ID     ,  0, 's>')
+    members << StrDmy.new(CsvHdr::TASK_B_TYPE_NAME   , ''      )
+    members << IntVar.new(CsvHdr::TASK_B_ARM_ID      ,  0, 's>')
+    members << IntVar.new(CsvHdr::TASK_B_PARAM_ID    ,  0, 's>')
+    members << StrDmy.new(CsvHdr::TASK_B_PARAM_NAME  , ''      )
+    members << IntVar.new(CsvHdr::TASK_B_RANGE       ,  0, 's>')
   end
 
   # Reads one entry from a CSV  file.
@@ -120,6 +198,32 @@ class EnemyShipTask < Entry
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
     find_member(CsvHdr::FILTER).value = @file
+
+    _id = ENEMY_SHIP_LIST[@file]
+    if _id
+      _enemy = @enemy_ships[_id]
+      _name  = '???'
+      if _enemy
+        case region
+        when 'E'
+          _name = _enemy.find_member(CsvHdr::NAME_US_STR).value
+        when 'J'
+          _name = _enemy.find_member(CsvHdr::NAME_JP_STR).value
+        when 'P'
+          _name = _enemy.find_member(CsvHdr::NAME_GB_STR).value
+        end
+      end
+      
+      find_member("[#{CsvHdr::ENEMY_ID[-1]}]").value = _id
+      case region
+      when 'E'
+        find_member(CsvHdr::ENEMY_NAME_US[-1]).value = _name
+      when 'J'
+        find_member(CsvHdr::ENEMY_NAME_JP[-1]).value = _name
+      when 'P'
+        find_member(CsvHdr::ENEMY_NAME_EU[-1]).value = _name
+      end
+    end
 
     _id = find_member(CsvHdr::TASK_A_TYPE_ID).value
     find_member(CsvHdr::TASK_A_TYPE_NAME).value = TASK_TYPES[_id]
@@ -195,6 +299,7 @@ class EnemyShipTask < Entry
 #------------------------------------------------------------------------------
 
   attr_accessor :file
+  attr_accessor :enemy_ships
   attr_accessor :magics
 
 end	# class EnemyShipTask
