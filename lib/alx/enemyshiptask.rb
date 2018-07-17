@@ -118,7 +118,7 @@ class EnemyShipTask < Entry
 
   # Focus task IDs
   FOCUS_TASKS = Hash.new('???')
-  FOCUS_TASKS.store(-1, 'Preparing Attack')
+  FOCUS_TASKS.store(-1, 'None'            )
   FOCUS_TASKS.store( 0, 'Focus'           )
   FOCUS_TASKS.store( 1, 'Taking Aim'      )
   FOCUS_TASKS.store( 2, 'Preparing Attack')
@@ -127,12 +127,12 @@ class EnemyShipTask < Entry
   
   # Guard task IDs
   GUARD_TASKS = Hash.new('???')
-  GUARD_TASKS.store(-1, 'Evasive Action')
+  GUARD_TASKS.store(-1, 'None'          )
   GUARD_TASKS.store( 0, 'Evasive Action')
   
   # Nothing task IDs
   NOTHING_TASKS = Hash.new('???')
-  NOTHING_TASKS.store(-1, 'Flee'            )
+  NOTHING_TASKS.store(-1, 'None'            )
   NOTHING_TASKS.store( 0, 'Awaiting Orders' )
   NOTHING_TASKS.store( 1, 'Target Lost'     )
   NOTHING_TASKS.store( 2, 'Assessing Damage')
