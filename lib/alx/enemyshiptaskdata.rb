@@ -26,7 +26,6 @@ require('fileutils')
 require_relative('charactermagicdata.rb')
 require_relative('enemyshipdata.rb')
 require_relative('enemyshiptask.rb')
-require_relative('entrytransform.rb')
 require_relative('tecfile.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -39,16 +38,7 @@ module ALX
 
 # Class to handle enemy ship tasks from binary and/or CSV files.
 class EnemyShipTaskData < EntryData
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
 
-  # Path to TEC files with +%s+ as wildcard
-  TEC_FILE = 'root/field/%s.tec'
-  # Path to CSV file
-  CSV_FILE = 'csv/enemyshiptasks.csv'
-  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
@@ -59,8 +49,8 @@ class EnemyShipTaskData < EntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(EnemyShipTask, _root)
-    @tec_file             = sprintf(TEC_FILE, '*')
-    @csv_file             = CSV_FILE
+    @tec_file             = sprintf(SYS.tec_file, '*')
+    @csv_file             = SYS.enemy_ship_task_csv_file
     @character_magic_data = CharacterMagicData.new(_root)
     @enemy_ship_data      = EnemyShipData.new(_root)
     @data                 = []
@@ -129,18 +119,18 @@ class EnemyShipTaskData < EntryData
   # @param _filename [String] File name
   def load_entries_from_csv(_filename)
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
-        puts(sprintf(STR_READ, [0, _f.lineno - 1].max, _f.pos))
+        puts(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _entry = create_entry
         _entry.read_from_csv(_f)
         @data << _entry
       end
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Reads all entries from CSV files.
@@ -156,19 +146,19 @@ class EnemyShipTaskData < EntryData
     end
     
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     _header = create_entry.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @data.each do |_entry|
-        puts(sprintf(STR_WRITE, [0, _f.lineno - 1].max, _f.pos))
+        puts(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _entry.write_to_csv(_f)
       end
     end
     
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Writes all entries to CSV files.

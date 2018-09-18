@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('entrytransform.rb')
 require_relative('specialitem.rb')
 require_relative('stdentrydata.rb')
 
@@ -36,51 +35,6 @@ module ALX
 
 # Class to handle special items from binary and/or CSV files.
 class SpecialItemData < StdEntryData
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Range of entry IDs
-  ID_RANGE    = 0x140...0x190
-
-  # Offset ranges of data entries
-  DATA_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2c5774...0x2c5e54),
-    'J' => DataRange.new(DOL_FILE, 0x2c4c6c...0x2c534c),
-    'P' => DataRange.new(DOL_FILE, 0x2f4aa8...0x2f4e68),
-  }
-
-  # Offset ranges of name entries
-  NAME_FILES = {
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x1dede...0x1e2b1),
-      DataRange.new(SOT_FILE_ES, 0x1dc62...0x1e028),
-      DataRange.new(SOT_FILE_FR, 0x1ded3...0x1e2a2),
-      DataRange.new(SOT_FILE_GB, 0x1d556...0x1d929),
-    ],
-  }
-
-  # Offset ranges of description entries
-  DSCR_FILES = {
-    'E' => DataRange.new(
-      DOL_FILE, 0x2cd4ec...0x2ce220,
-      :exclusions => [0x152, 0x15b, 0x161, 0x162]
-    ),
-    'J' => DataRange.new(
-      DOL_FILE, 0x2cd644...0x2ce2b4,
-      :exclusions => [0x152, 0x15b, 0x161, 0x162]
-    ),
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x18262...0x1918c),
-      DataRange.new(SOT_FILE_ES, 0x17e6f...0x18dd2),
-      DataRange.new(SOT_FILE_FR, 0x17f59...0x18ef6),
-      DataRange.new(SOT_FILE_GB, 0x179f9...0x189df),
-    ],
-  }
-
-  # Path to CSV file
-  CSV_FILE = 'csv/specialitems.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -92,11 +46,11 @@ class SpecialItemData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(SpecialItem, _root)
-    self.id_range   = ID_RANGE
-    self.data_files = DATA_FILES
-    self.name_files = NAME_FILES
-    self.dscr_files = DSCR_FILES
-    self.csv_file   = CSV_FILE
+    self.id_range   = SYS.special_item_id_range
+    self.data_files = SYS.special_item_data_files
+    self.name_files = SYS.special_item_name_files
+    self.dscr_files = SYS.special_item_dscr_files
+    self.csv_file   = SYS.special_item_csv_file
   end
 
 end # class SpecialItemData

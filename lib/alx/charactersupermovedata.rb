@@ -23,7 +23,6 @@
 #==============================================================================
 
 require_relative('charactersupermove.rb')
-require_relative('entrytransform.rb')
 require_relative('stdentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -36,45 +35,6 @@ module ALX
 
 # Class to handle character skills from binary and/or CSV files.
 class CharacterSuperMoveData < StdEntryData
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Range of entry IDs
-  ID_RANGE    = 0x24...0x3e
-
-  # Offset ranges of data entries
-  DATA_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2c22b0...0x2c2790),
-    'J' => DataRange.new(DOL_FILE, 0x2c17a8...0x2c1c88),
-    'P' => DataRange.new(DOL_FILE, 0x2f27c0...0x2f2b68),
-  }
-
-  # Offset ranges of name entries
-  NAME_FILES = {
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x1cd48...0x1ce93),
-      DataRange.new(SOT_FILE_ES, 0x1c99b...0x1cb04),
-      DataRange.new(SOT_FILE_FR, 0x1cc0b...0x1cd83),
-      DataRange.new(SOT_FILE_GB, 0x1c402...0x1c555),
-    ],
-  }
-
-  # Offset ranges of description entries
-  DSCR_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2c73e0...0x2c7d9c),
-    'J' => DataRange.new(DOL_FILE, 0x2c68d4...0x2c72c0),
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x11d53...0x126e4),
-      DataRange.new(SOT_FILE_ES, 0x11a56...0x12410),
-      DataRange.new(SOT_FILE_FR, 0x11a9a...0x1244e),
-      DataRange.new(SOT_FILE_GB, 0x116a9...0x12056),
-    ],
-  }
-
-  # Path to CSV file
-  CSV_FILE = 'csv/charactersupermoves.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -86,11 +46,11 @@ class CharacterSuperMoveData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(CharacterSuperMove, _root)
-    self.id_range    = ID_RANGE
-    self.data_files  = DATA_FILES
-    self.name_files  = NAME_FILES
-    self.dscr_files  = DSCR_FILES
-    self.csv_file    = CSV_FILE
+    self.id_range    = SYS.character_super_move_id_range
+    self.data_files  = SYS.character_super_move_data_files
+    self.name_files  = SYS.character_super_move_name_files
+    self.dscr_files  = SYS.character_super_move_dscr_files
+    self.csv_file    = SYS.character_super_move_csv_file
   end
 
 end # class CharacterSuperMoveData

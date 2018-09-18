@@ -47,24 +47,24 @@ class MagicExpCurve < StdEntry
     super
     @characters = {}
 
-    members << StrDmy.new(CsvHdr::CHARACTER_NAME[-1], ''      )
+    members << StrDmy.new(VOC.character_name[-1], ''      )
     (0...6).each do |_i|
-      members << IntVar.new(CsvHdr::GREEN_EXP[_i]   ,  0, 'S>')
+      members << IntVar.new(VOC.green_exp[_i]   ,  0, 'S>')
     end
     (0...6).each do |_i|
-      members << IntVar.new(CsvHdr::RED_EXP[_i]     ,  0, 'S>')
+      members << IntVar.new(VOC.red_exp[_i]     ,  0, 'S>')
     end
     (0...6).each do |_i|
-      members << IntVar.new(CsvHdr::PURPLE_EXP[_i]  ,  0, 'S>')
+      members << IntVar.new(VOC.purple_exp[_i]  ,  0, 'S>')
     end
     (0...6).each do |_i|
-      members << IntVar.new(CsvHdr::BLUE_EXP[_i]    ,  0, 'S>')
+      members << IntVar.new(VOC.blue_exp[_i]    ,  0, 'S>')
     end
     (0...6).each do |_i|
-      members << IntVar.new(CsvHdr::YELLOW_EXP[_i]  ,  0, 'S>')
+      members << IntVar.new(VOC.yellow_exp[_i]  ,  0, 'S>')
     end
     (0...6).each do |_i|
-      members << IntVar.new(CsvHdr::SILVER_EXP[_i]  ,  0, 'S>')
+      members << IntVar.new(VOC.silver_exp[_i]  ,  0, 'S>')
     end
   end
 
@@ -76,14 +76,14 @@ class MagicExpCurve < StdEntry
     if _chara
       case region
       when 'E'
-        _name = _chara.find_member(CsvHdr::NAME_US_STR).value
+        _name = _chara.find_member(VOC.name_us_str).value
       when 'J'
-        _name = _chara.find_member(CsvHdr::NAME_JP_STR).value
+        _name = _chara.find_member(VOC.name_jp_str).value
       when 'P'
-        _name = _chara.find_member(CsvHdr::NAME_EU_STR).value
+        _name = _chara.find_member(VOC.name_eu_str).value
       end
     end
-    find_member(CsvHdr::CHARACTER_NAME[-1]).value = _name
+    find_member(VOC.character_name[-1]).value = _name
 
     super
   end

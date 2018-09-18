@@ -24,7 +24,8 @@
 #==============================================================================
 
 require('fileutils')
-require_relative('../../lib/alx/entrytransform.rb')
+require_relative('../../lib/alx/etc.rb')
+require_relative('../../lib/alx/executable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -48,8 +49,6 @@ class ImageRebuilder
 #                                  CONSTANTS
 #==============================================================================
   
-  # Path to 'share' directory
-  SHARE_DIR = EntryTransform::SHARE_DIR
   # Path to 'thirdparty/dolphin/Games' directory
   GAMES_DIR = File.expand_path(
     File.join(File.dirname(__FILE__), '../../thirdparty/dolphin/Games')
@@ -68,7 +67,7 @@ class ImageRebuilder
   def exec
     print("\n")
 
-    Dir.glob(File.join(SHARE_DIR, '*')).each do |_game_path|
+    Dir.glob(File.join(SYS.share_dir, '*')).each do |_game_path|
       unless File.directory?(_game_path)
         next
       end

@@ -24,9 +24,7 @@
 
 require('fileutils')
 require_relative('binaryfile.rb')
-require_relative('datarange.rb')
 require_relative('entrydata.rb')
-require_relative('entrytransform.rb')
 require_relative('message.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -40,13 +38,6 @@ module ALX
 # Base class to handle standard entries from binary and/or CSV files.
 class StdEntryData < EntryData
   
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  STR_OPEN_NAME  = 'names'
-  STR_OPEN_DSCR  = 'descriptions'
-
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
@@ -84,7 +75,7 @@ class StdEntryData < EntryData
   # @param _filename [String] File name
   def load_data_from_bin(_filename)
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@data_files[region], _filename)
@@ -99,20 +90,20 @@ class StdEntryData < EntryData
           break
         end
         
-        puts(sprintf(STR_READ, _id - @id_range.begin, _f.pos))
+        puts(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
         _entry = @data[_id]
         _entry.read_from_bin(_f)
       end
     end
     
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
     
   # Reads all name entries from a binary file.
   # @param _filename [String] File name
   def load_names_from_bin(_filename)
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_NAME))
+    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
 
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@name_files[region], _filename)
@@ -128,31 +119,31 @@ class StdEntryData < EntryData
     
         case region
         when 'E'
-          _pos  = _entry.find_member(CsvHdr::NAME_US_POS )
-          _size = _entry.find_member(CsvHdr::NAME_US_SIZE)
-          _str  = _entry.find_member(CsvHdr::NAME_US_STR )
+          _pos  = _entry.find_member(VOC.name_us_pos )
+          _size = _entry.find_member(VOC.name_us_size)
+          _str  = _entry.find_member(VOC.name_us_str )
         when 'J'
-          _pos  = _entry.find_member(CsvHdr::NAME_JP_POS )
-          _size = _entry.find_member(CsvHdr::NAME_JP_SIZE)
-          _str  = _entry.find_member(CsvHdr::NAME_JP_STR )
+          _pos  = _entry.find_member(VOC.name_jp_pos )
+          _size = _entry.find_member(VOC.name_jp_size)
+          _str  = _entry.find_member(VOC.name_jp_str )
         when 'P'
           case determine_lang(_filename)
           when 'DE'
-            _pos  = _entry.find_member(CsvHdr::NAME_DE_POS )
-            _size = _entry.find_member(CsvHdr::NAME_DE_SIZE)
-            _str  = _entry.find_member(CsvHdr::NAME_DE_STR )
+            _pos  = _entry.find_member(VOC.name_de_pos )
+            _size = _entry.find_member(VOC.name_de_size)
+            _str  = _entry.find_member(VOC.name_de_str )
           when 'ES'
-            _pos  = _entry.find_member(CsvHdr::NAME_ES_POS )
-            _size = _entry.find_member(CsvHdr::NAME_ES_SIZE)
-            _str  = _entry.find_member(CsvHdr::NAME_ES_STR )
+            _pos  = _entry.find_member(VOC.name_es_pos )
+            _size = _entry.find_member(VOC.name_es_size)
+            _str  = _entry.find_member(VOC.name_es_str )
           when 'FR'
-            _pos  = _entry.find_member(CsvHdr::NAME_FR_POS )
-            _size = _entry.find_member(CsvHdr::NAME_FR_SIZE)
-            _str  = _entry.find_member(CsvHdr::NAME_FR_STR )
+            _pos  = _entry.find_member(VOC.name_fr_pos )
+            _size = _entry.find_member(VOC.name_fr_size)
+            _str  = _entry.find_member(VOC.name_fr_str )
           when 'GB'
-            _pos  = _entry.find_member(CsvHdr::NAME_GB_POS )
-            _size = _entry.find_member(CsvHdr::NAME_GB_SIZE)
-            _str  = _entry.find_member(CsvHdr::NAME_GB_STR )
+            _pos  = _entry.find_member(VOC.name_gb_pos )
+            _size = _entry.find_member(VOC.name_gb_size)
+            _str  = _entry.find_member(VOC.name_gb_str )
           end
         end
     
@@ -170,7 +161,7 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(STR_READ, _id - @id_range.begin, _f.pos))
+        puts(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
         _pos.value  = _f.pos
         _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
         _size.value = _f.pos - _pos.value
@@ -185,14 +176,14 @@ class StdEntryData < EntryData
       end
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
   
   # Reads all description entries from a binary file.
   # @param _filename [String]  File name
   def load_dscr_from_bin(_filename)
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DSCR))
+    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
 
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@dscr_files[region], _filename)
@@ -208,31 +199,31 @@ class StdEntryData < EntryData
 
         case region
         when 'E'
-          _pos  = _entry.find_member(CsvHdr::DSCR_US_POS )
-          _size = _entry.find_member(CsvHdr::DSCR_US_SIZE)
-          _str  = _entry.find_member(CsvHdr::DSCR_US_STR )
+          _pos  = _entry.find_member(VOC.dscr_us_pos )
+          _size = _entry.find_member(VOC.dscr_us_size)
+          _str  = _entry.find_member(VOC.dscr_us_str )
         when 'J'
-          _pos  = _entry.find_member(CsvHdr::DSCR_JP_POS )
-          _size = _entry.find_member(CsvHdr::DSCR_JP_SIZE)
-          _str  = _entry.find_member(CsvHdr::DSCR_JP_STR )
+          _pos  = _entry.find_member(VOC.dscr_jp_pos )
+          _size = _entry.find_member(VOC.dscr_jp_size)
+          _str  = _entry.find_member(VOC.dscr_jp_str )
         when 'P'
           case determine_lang(_filename)
           when 'DE'
-            _pos  = _entry.find_member(CsvHdr::DSCR_DE_POS )
-            _size = _entry.find_member(CsvHdr::DSCR_DE_SIZE)
-            _str  = _entry.find_member(CsvHdr::DSCR_DE_STR )
+            _pos  = _entry.find_member(VOC.dscr_de_pos )
+            _size = _entry.find_member(VOC.dscr_de_size)
+            _str  = _entry.find_member(VOC.dscr_de_str )
           when 'ES'
-            _pos  = _entry.find_member(CsvHdr::DSCR_ES_POS )
-            _size = _entry.find_member(CsvHdr::DSCR_ES_SIZE)
-            _str  = _entry.find_member(CsvHdr::DSCR_ES_STR )
+            _pos  = _entry.find_member(VOC.dscr_es_pos )
+            _size = _entry.find_member(VOC.dscr_es_size)
+            _str  = _entry.find_member(VOC.dscr_es_str )
           when 'FR'
-            _pos  = _entry.find_member(CsvHdr::DSCR_FR_POS )
-            _size = _entry.find_member(CsvHdr::DSCR_FR_SIZE)
-            _str  = _entry.find_member(CsvHdr::DSCR_FR_STR )
+            _pos  = _entry.find_member(VOC.dscr_fr_pos )
+            _size = _entry.find_member(VOC.dscr_fr_size)
+            _str  = _entry.find_member(VOC.dscr_fr_str )
           when 'GB'
-            _pos  = _entry.find_member(CsvHdr::DSCR_GB_POS )
-            _size = _entry.find_member(CsvHdr::DSCR_GB_SIZE)
-            _str  = _entry.find_member(CsvHdr::DSCR_GB_STR )
+            _pos  = _entry.find_member(VOC.dscr_gb_pos )
+            _size = _entry.find_member(VOC.dscr_gb_size)
+            _str  = _entry.find_member(VOC.dscr_gb_str )
           end
         end
         
@@ -250,7 +241,7 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(STR_READ, _id - @id_range.begin, _f.pos))
+        puts(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
         _pos.value  = _f.pos
         if region != 'P'
           _str.value  = _f.read_str(0xff, 0x4)
@@ -269,7 +260,7 @@ class StdEntryData < EntryData
       end
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Reads all entries from binary files.
@@ -317,7 +308,7 @@ class StdEntryData < EntryData
     end
     
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
@@ -338,12 +329,12 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(STR_WRITE, _id - @id_range.begin, _f.pos))
+        puts(sprintf(VOC.write, _id - @id_range.begin, _f.pos))
         _entry.write_to_bin(_f)
       end
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
     
   # Writes all name entries to a binary file.
@@ -354,7 +345,7 @@ class StdEntryData < EntryData
     end
     
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_NAME))
+    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_name))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
@@ -370,21 +361,21 @@ class StdEntryData < EntryData
         
         case determine_lang(_filename)
         when 'DE'
-          _pos  = _entry.find_member(CsvHdr::NAME_DE_POS ).value
-          _size = _entry.find_member(CsvHdr::NAME_DE_SIZE).value
-          _str  = _entry.find_member(CsvHdr::NAME_DE_STR ).value
+          _pos  = _entry.find_member(VOC.name_de_pos ).value
+          _size = _entry.find_member(VOC.name_de_size).value
+          _str  = _entry.find_member(VOC.name_de_str ).value
         when 'ES'
-          _pos  = _entry.find_member(CsvHdr::NAME_ES_POS ).value
-          _size = _entry.find_member(CsvHdr::NAME_ES_SIZE).value
-          _str  = _entry.find_member(CsvHdr::NAME_ES_STR ).value
+          _pos  = _entry.find_member(VOC.name_es_pos ).value
+          _size = _entry.find_member(VOC.name_es_size).value
+          _str  = _entry.find_member(VOC.name_es_str ).value
         when 'FR'
-          _pos  = _entry.find_member(CsvHdr::NAME_FR_POS ).value
-          _size = _entry.find_member(CsvHdr::NAME_FR_SIZE).value
-          _str  = _entry.find_member(CsvHdr::NAME_FR_STR ).value
+          _pos  = _entry.find_member(VOC.name_fr_pos ).value
+          _size = _entry.find_member(VOC.name_fr_size).value
+          _str  = _entry.find_member(VOC.name_fr_str ).value
         when 'GB'
-          _pos  = _entry.find_member(CsvHdr::NAME_GB_POS ).value
-          _size = _entry.find_member(CsvHdr::NAME_GB_SIZE).value
-          _str  = _entry.find_member(CsvHdr::NAME_GB_STR ).value
+          _pos  = _entry.find_member(VOC.name_gb_pos ).value
+          _size = _entry.find_member(VOC.name_gb_size).value
+          _str  = _entry.find_member(VOC.name_gb_str ).value
         else
           _pos  = 0
           _size = 0
@@ -400,12 +391,12 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(STR_WRITE, _id - @id_range.begin, _pos))
+        puts(sprintf(VOC.write, _id - @id_range.begin, _pos))
         _f.write_str(_str, _size, 0x1, 'ISO8859-1')
       end
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
   
   # Writes all description entries to a binary file.
@@ -416,7 +407,7 @@ class StdEntryData < EntryData
     end
     
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_DSCR))
+    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_dscr))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
@@ -432,31 +423,31 @@ class StdEntryData < EntryData
 
         case region
         when 'E'
-          _pos  = _entry.find_member(CsvHdr::DSCR_US_POS ).value
-          _size = _entry.find_member(CsvHdr::DSCR_US_SIZE).value
-          _str  = _entry.find_member(CsvHdr::DSCR_US_STR ).value
+          _pos  = _entry.find_member(VOC.dscr_us_pos ).value
+          _size = _entry.find_member(VOC.dscr_us_size).value
+          _str  = _entry.find_member(VOC.dscr_us_str ).value
         when 'J'
-          _pos  = _entry.find_member(CsvHdr::DSCR_JP_POS ).value
-          _size = _entry.find_member(CsvHdr::DSCR_JP_SIZE).value
-          _str  = _entry.find_member(CsvHdr::DSCR_JP_STR ).value
+          _pos  = _entry.find_member(VOC.dscr_jp_pos ).value
+          _size = _entry.find_member(VOC.dscr_jp_size).value
+          _str  = _entry.find_member(VOC.dscr_jp_str ).value
         when 'P'
           case determine_lang(_filename)
           when 'DE'
-            _pos  = _entry.find_member(CsvHdr::DSCR_DE_POS ).value
-            _size = _entry.find_member(CsvHdr::DSCR_DE_SIZE).value
-            _str  = _entry.find_member(CsvHdr::DSCR_DE_STR ).value
+            _pos  = _entry.find_member(VOC.dscr_de_pos ).value
+            _size = _entry.find_member(VOC.dscr_de_size).value
+            _str  = _entry.find_member(VOC.dscr_de_str ).value
           when 'ES'
-            _pos  = _entry.find_member(CsvHdr::DSCR_ES_POS ).value
-            _size = _entry.find_member(CsvHdr::DSCR_ES_SIZE).value
-            _str  = _entry.find_member(CsvHdr::DSCR_ES_STR ).value
+            _pos  = _entry.find_member(VOC.dscr_es_pos ).value
+            _size = _entry.find_member(VOC.dscr_es_size).value
+            _str  = _entry.find_member(VOC.dscr_es_str ).value
           when 'FR'
-            _pos  = _entry.find_member(CsvHdr::DSCR_FR_POS ).value
-            _size = _entry.find_member(CsvHdr::DSCR_FR_SIZE).value
-            _str  = _entry.find_member(CsvHdr::DSCR_FR_STR ).value
+            _pos  = _entry.find_member(VOC.dscr_fr_pos ).value
+            _size = _entry.find_member(VOC.dscr_fr_size).value
+            _str  = _entry.find_member(VOC.dscr_fr_str ).value
           when 'GB'
-            _pos  = _entry.find_member(CsvHdr::DSCR_GB_POS ).value
-            _size = _entry.find_member(CsvHdr::DSCR_GB_SIZE).value
-            _str  = _entry.find_member(CsvHdr::DSCR_GB_STR ).value
+            _pos  = _entry.find_member(VOC.dscr_gb_pos ).value
+            _size = _entry.find_member(VOC.dscr_gb_size).value
+            _str  = _entry.find_member(VOC.dscr_gb_str ).value
           else
             _pos  = 0
             _size = 0
@@ -473,7 +464,7 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(STR_WRITE, _id - @id_range.begin, _pos))
+        puts(sprintf(VOC.write, _id - @id_range.begin, _pos))
         if region != 'P'
           _f.write_str(_str, _size, 0x4)
         else
@@ -482,7 +473,7 @@ class StdEntryData < EntryData
       end
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
     
   # Writes all entries to binary files.
@@ -522,18 +513,18 @@ class StdEntryData < EntryData
   # @param _filename [String] File name
   def load_entries_from_csv(_filename)
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
-        puts(sprintf(STR_READ, [0, _f.lineno - 1].max, _f.pos))
+        puts(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _entry = create_entry
         _entry.read_from_csv(_f)
         @data[_entry.id] = _entry
       end
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Reads all entries from CSV files.
@@ -549,19 +540,19 @@ class StdEntryData < EntryData
     end
     
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     _header = create_entry.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @data.each do |_id, _entry|
-        puts(sprintf(STR_WRITE, [0, _f.lineno - 1].max, _f.pos))
+        puts(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _entry.write_to_csv(_f)
       end
     end
     
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Writes all entries to CSV files.
@@ -605,10 +596,10 @@ class StdEntryData < EntryData
   # @param _filename [String] Filename
   # @return [String] PAL-E language
   def determine_lang(_filename)
-    return 'DE' if _filename.include?(SOT_FILE_DE)
-    return 'ES' if _filename.include?(SOT_FILE_ES)
-    return 'FR' if _filename.include?(SOT_FILE_FR)
-    return 'GB' if _filename.include?(SOT_FILE_GB)
+    return 'DE' if _filename.include?(SYS.sot_file_de)
+    return 'ES' if _filename.include?(SYS.sot_file_es)
+    return 'FR' if _filename.include?(SYS.sot_file_fr)
+    return 'GB' if _filename.include?(SYS.sot_file_gb)
     return ''
   end
   

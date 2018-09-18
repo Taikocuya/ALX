@@ -23,7 +23,6 @@
 #==============================================================================
 
 require_relative('playableship.rb')
-require_relative('entrytransform.rb')
 require_relative('shipaccessorydata.rb')
 require_relative('shipcannondata.rb')
 
@@ -37,33 +36,6 @@ module ALX
 
 # Class to handle playable ships from binary and/or CSV files.
 class PlayableShipData < StdEntryData
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Range of entry IDs
-  ID_RANGE    = 0x0...0x5
-
-  # Offset ranges of data entries
-  DATA_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2d3740...0x2d3934),
-    'J' => DataRange.new(DOL_FILE, 0x2d3380...0x2d3574),
-    'P' => DataRange.new(DOL_FILE, 0x2f6b70...0x2f6d14),
-  }
-
-  # Offset ranges of name entries
-  NAME_FILES = {
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x1e5ff...0x1e635),
-      DataRange.new(SOT_FILE_ES, 0x1e370...0x1e3a6),
-      DataRange.new(SOT_FILE_FR, 0x1e5c1...0x1e5f7),
-      DataRange.new(SOT_FILE_GB, 0x1dc48...0x1dc7e),
-    ],
-  }
-
-  # Path to CSV file
-  CSV_FILE = 'csv/playableships.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -75,10 +47,10 @@ class PlayableShipData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(PlayableShip, _root)
-    self.id_range        = ID_RANGE
-    self.data_files      = DATA_FILES
-    self.name_files      = NAME_FILES
-    self.csv_file        = CSV_FILE
+    self.id_range        = SYS.playable_ship_id_range
+    self.data_files      = SYS.playable_ship_data_files
+    self.name_files      = SYS.playable_ship_name_files
+    self.csv_file        = SYS.playable_ship_csv_file
     @ship_cannon_data    = ShipCannonData.new(_root)
     @ship_accessory_data = ShipAccessoryData.new(_root)
   end

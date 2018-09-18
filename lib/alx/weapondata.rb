@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('entrytransform.rb')
 require_relative('stdentrydata.rb')
 require_relative('weapon.rb')
 
@@ -36,45 +35,6 @@ module ALX
 
 # Class to handle weapons from binary and/or CSV files.
 class WeaponData < StdEntryData
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Range of entry IDs
-  ID_RANGE    = 0x0...0x50
-
-  # Offset ranges of data entries
-  DATA_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2c2790...0x2c3190),
-    'J' => DataRange.new(DOL_FILE, 0x2c1c88...0x2c2688),
-    'P' => DataRange.new(DOL_FILE, 0x2f2b68...0x2f31a8),
-  }
-
-  # Offset ranges of name entries
-  NAME_FILES = {
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x1ce93...0x1d289),
-      DataRange.new(SOT_FILE_ES, 0x1cb04...0x1cf43),
-      DataRange.new(SOT_FILE_FR, 0x1cd83...0x1d18e),
-      DataRange.new(SOT_FILE_GB, 0x1c555...0x1c921),
-    ],
-  }
-
-  # Offset ranges of description entries
-  DSCR_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2c7d9c...0x2c9714),
-    'J' => DataRange.new(DOL_FILE, 0x2c72c0...0x2c8ddc),
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x126e4...0x14060),
-      DataRange.new(SOT_FILE_ES, 0x12410...0x13dc4),
-      DataRange.new(SOT_FILE_FR, 0x1244e...0x13da3),
-      DataRange.new(SOT_FILE_GB, 0x12056...0x139f6),
-    ],
-  }
-
-  # Path to CSV file
-  CSV_FILE = 'csv/weapons.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -86,11 +46,11 @@ class WeaponData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Weapon, _root)
-    self.id_range   = ID_RANGE
-    self.data_files = DATA_FILES
-    self.name_files = NAME_FILES
-    self.dscr_files = DSCR_FILES
-    self.csv_file   = CSV_FILE
+    self.id_range   = SYS.weapon_id_range
+    self.data_files = SYS.weapon_data_files
+    self.name_files = SYS.weapon_name_files
+    self.dscr_files = SYS.weapon_dscr_files
+    self.csv_file   = SYS.weapon_csv_file
   end
 
 end # class WeaponData

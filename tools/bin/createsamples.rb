@@ -23,7 +23,9 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/charactermagictransform.rb')
+require('fileutils')
+require_relative('../../lib/alx/etc.rb')
+require_relative('../../lib/alx/executable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -32,9 +34,22 @@ module ALX
 #==============================================================================
 #                                    CLASS
 #==============================================================================
+  
+# Class to create configuration samples in the "etc" directory.
+class SampleCreator
+  
+#==============================================================================
+#                                   INCLUDES
+#==============================================================================
 
-# Class to import playable character magics from CSV files.
-class CharacterMagicImporter < CharacterMagicTransform
+  include(Executable)
+
+#==============================================================================
+#                                  CONSTANTS
+#==============================================================================
+  
+  # Configuration files
+  CONFIG_FILES = ETC::CONFIG_FILES
 
 #==============================================================================
 #                                   PUBLIC
@@ -42,31 +57,49 @@ class CharacterMagicImporter < CharacterMagicTransform
 
   public
 
-  def valid?(_root)
-    _result   = super
-    _result &&= has_file?(File.join(_root.path, SYS.character_magic_csv_file))
-    _result
-  end
-
   def exec
-    super
-    transform_csv_to_bin
+    print("\n")
+    
+    CONFIG_FILES.each_value do |_f|
+      _src = File.join('../../lib/alx', _f)
+      _dst = File.join('../../etc',     _f + '.sample')
+      create_sample(_src, _dst)
+    end
   end
 
-end	# class CharacterMagicImporter
+  # Creates a configuration sample.
+  # @param _src [String] Source path
+  # @param _dst [String] Destination path
+  def create_sample(_src, _dst)
+    print("Create configuration sample: #{File.expand_path(_dst)}")
+    
+    begin
+      FileUtils.cp(_src, _dst)
+      _result = File.exist?(_src)
+    rescue
+      _result = false
+    end
+
+    if _result
+      print(" - done\n")
+    else
+      print(" - failed\n")
+    end
+  end
+
+end # class SampleCreator
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-if __FILE__ == $0 || Object.const_defined?('ALX::Importer')
+if __FILE__ == $0
   begin
-    _importer = ALX::CharacterMagicImporter.new
-    _importer.exec
+    _br = ALX::SampleCreator.new
+    _br.exec
   rescue => _e
     print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
-    exit(1)
   end
 end

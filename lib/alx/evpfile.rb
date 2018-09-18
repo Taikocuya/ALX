@@ -23,7 +23,6 @@
 #==============================================================================
 
 require_relative('epfile.rb')
-require_relative('enemy.rb')
 require_relative('event.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -81,7 +80,7 @@ class EvpFile < EpFile
   # @param _filename [String] File name
   def load(_filename)
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     AklzFile.open(_filename, 'rb') do |_f|
       # Header
@@ -98,7 +97,7 @@ class EvpFile < EpFile
       # Events
       _dummy = create_event
       (0...NUM_EVENTS).each do |_id|
-        puts(sprintf(STR_READ, _id, _f.pos))
+        puts(sprintf(VOC.read, _id, _f.pos))
         _event = create_event(_id)
         _event.read_from_bin(_f)
         
@@ -113,7 +112,7 @@ class EvpFile < EpFile
         _pos   = _node[:pos]
         _f.pos = _pos
         
-        puts(sprintf(STR_READ, _id, _pos))
+        puts(sprintf(VOC.read, _id, _pos))
         _enemy = create_enemy(_id, _filename)
         _enemy.read_from_bin(_f)
         
@@ -121,14 +120,14 @@ class EvpFile < EpFile
       end
     end
     
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Writes an EVP file.
   # @param _filename [String] File name
   def save(_filename)
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
       
     AklzFile.open(_filename, 'wb') do |_f|
       # Events
@@ -139,13 +138,13 @@ class EvpFile < EpFile
         raise(IOError, "event quota of #{NUM_EVENTS} exceeded")
       end
       (0...NUM_EVENTS).each do |_id|
-        puts(sprintf(STR_WRITE, _id, _f.pos))
+        puts(sprintf(VOC.write, _id, _f.pos))
         _event = @events[_id]
         if _event
           _event.write_to_bin(_f)
           
           (0...7).each do |_i|
-            _id = _event.find_member(CsvHdr::ENEMY_ID[_i]).value
+            _id = _event.find_member(VOC.enemy_id[_i]).value
             if _id != 255
               _enemy = find_enemy(_id, _filename)
               if _enemy
@@ -171,7 +170,7 @@ class EvpFile < EpFile
         _id  = _enemy.id
         _pos = _f.pos
           
-        puts(sprintf(STR_WRITE, _id, _pos))
+        puts(sprintf(VOC.write, _id, _pos))
         _nodes << create_node(_id, _pos)
         _enemy.write_to_bin(_f)
       end
@@ -190,7 +189,7 @@ class EvpFile < EpFile
       end
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
   
 #------------------------------------------------------------------------------

@@ -23,7 +23,6 @@
 #==============================================================================
 
 require_relative('charactermagic.rb')
-require_relative('entrytransform.rb')
 require_relative('stdentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -36,63 +35,6 @@ module ALX
 
 # Class to handle character magics from binary and/or CSV files.
 class CharacterMagicData < StdEntryData
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Range of entry IDs
-  ID_RANGE    = 0x0...0x24
-
-  # Offset ranges of data entries
-  DATA_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2c1bf0...0x2c22b0),
-    'J' => DataRange.new(DOL_FILE, 0x2c10e8...0x2c17a8),
-    'P' => DataRange.new(DOL_FILE, 0x2f22b0...0x2f27c0),
-  }
-
-  # Offset ranges of name entries
-  NAME_FILES = {
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x1cc3a...0x1cd48),
-      DataRange.new(SOT_FILE_ES, 0x1c88d...0x1c99b),
-      DataRange.new(SOT_FILE_FR, 0x1cafd...0x1cc0b),
-      DataRange.new(SOT_FILE_GB, 0x1c2f4...0x1c40),
-    ],
-  }
-
-  # Offset ranges of description entries
-  DSCR_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2c6668...0x2c73e0),
-    'J' => DataRange.new(DOL_FILE, 0x2c5b60...0x2c68d4),
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x11025...0x11d53),
-      DataRange.new(SOT_FILE_ES, 0x10d2f...0x11a56),
-      DataRange.new(SOT_FILE_FR, 0x10d3c...0x11a9a),
-      DataRange.new(SOT_FILE_GB, 0x1093f...0x116a9),
-    ],
-  }
-
-  # Offset ranges of ship description entries
-  SHIP_DSCR_FILES = {
-    'E' => DataRange.new(
-      DOL_FILE, 0x2d05c4...0x2d0ef4,
-      :exclusions => [0x8, 0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
-    ),
-    'J' => DataRange.new(
-      DOL_FILE, 0x2d058c...0x2d0dcc,
-      :exclusions => [0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
-    ),
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x1b603...0x1c085),
-      DataRange.new(SOT_FILE_ES, 0x1b23a...0x1bc6f),
-      DataRange.new(SOT_FILE_FR, 0x1b3e9...0x1be6e),
-      DataRange.new(SOT_FILE_GB, 0x1ad4b...0x1b766),
-    ],
-  }
-
-  # Path to CSV file
-  CSV_FILE = 'csv/charactermagics.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -104,19 +46,19 @@ class CharacterMagicData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(CharacterMagic, _root)
-    self.id_range    = ID_RANGE
-    self.data_files  = DATA_FILES
-    self.name_files  = NAME_FILES
-    self.dscr_files  = DSCR_FILES
-    self.csv_file    = CSV_FILE
-    @ship_dscr_files = SHIP_DSCR_FILES
+    self.id_range    = SYS.character_magic_id_range
+    self.data_files  = SYS.character_magic_data_files
+    self.name_files  = SYS.character_magic_name_files
+    self.dscr_files  = SYS.character_magic_dscr_files
+    self.csv_file    = SYS.character_magic_csv_file
+    @ship_dscr_files = SYS.character_magic_ship_dscr_files
   end
 
   # Reads all ship description entries from a binary file.
   # @param _filename [String] File name
   def load_ship_dscr_from_bin(_filename)
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DSCR))
+    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
 
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@ship_dscr_files[region], _filename)
@@ -132,31 +74,31 @@ class CharacterMagicData < StdEntryData
     
         case region
         when 'E'
-          _pos  = _entry.find_member(CsvHdr::SHIP_DSCR_US_POS )
-          _size = _entry.find_member(CsvHdr::SHIP_DSCR_US_SIZE)
-          _str  = _entry.find_member(CsvHdr::SHIP_DSCR_US_STR )
+          _pos  = _entry.find_member(VOC.ship_dscr_us_pos )
+          _size = _entry.find_member(VOC.ship_dscr_us_size)
+          _str  = _entry.find_member(VOC.ship_dscr_us_str )
         when 'J'
-          _pos  = _entry.find_member(CsvHdr::SHIP_DSCR_JP_POS )
-          _size = _entry.find_member(CsvHdr::SHIP_DSCR_JP_SIZE)
-          _str  = _entry.find_member(CsvHdr::SHIP_DSCR_JP_STR )
+          _pos  = _entry.find_member(VOC.ship_dscr_jp_pos )
+          _size = _entry.find_member(VOC.ship_dscr_jp_size)
+          _str  = _entry.find_member(VOC.ship_dscr_jp_str )
         when 'P'
           case determine_lang(_filename)
           when 'DE'
-            _pos  = _entry.find_member(CsvHdr::SHIP_DSCR_DE_POS )
-            _size = _entry.find_member(CsvHdr::SHIP_DSCR_DE_SIZE)
-            _str  = _entry.find_member(CsvHdr::SHIP_DSCR_DE_STR )
+            _pos  = _entry.find_member(VOC.ship_dscr_de_pos )
+            _size = _entry.find_member(VOC.ship_dscr_de_size)
+            _str  = _entry.find_member(VOC.ship_dscr_de_str )
           when 'ES'
-            _pos  = _entry.find_member(CsvHdr::SHIP_DSCR_ES_POS )
-            _size = _entry.find_member(CsvHdr::SHIP_DSCR_ES_SIZE)
-            _str  = _entry.find_member(CsvHdr::SHIP_DSCR_ES_STR )
+            _pos  = _entry.find_member(VOC.ship_dscr_es_pos )
+            _size = _entry.find_member(VOC.ship_dscr_es_size)
+            _str  = _entry.find_member(VOC.ship_dscr_es_str )
           when 'FR'
-            _pos  = _entry.find_member(CsvHdr::SHIP_DSCR_FR_POS )
-            _size = _entry.find_member(CsvHdr::SHIP_DSCR_FR_SIZE)
-            _str  = _entry.find_member(CsvHdr::SHIP_DSCR_FR_STR )
+            _pos  = _entry.find_member(VOC.ship_dscr_fr_pos )
+            _size = _entry.find_member(VOC.ship_dscr_fr_size)
+            _str  = _entry.find_member(VOC.ship_dscr_fr_str )
           when 'GB'
-            _pos  = _entry.find_member(CsvHdr::SHIP_DSCR_GB_POS )
-            _size = _entry.find_member(CsvHdr::SHIP_DSCR_GB_SIZE)
-            _str  = _entry.find_member(CsvHdr::SHIP_DSCR_GB_STR )
+            _pos  = _entry.find_member(VOC.ship_dscr_gb_pos )
+            _size = _entry.find_member(VOC.ship_dscr_gb_size)
+            _str  = _entry.find_member(VOC.ship_dscr_gb_str )
           end
         end
 
@@ -174,7 +116,7 @@ class CharacterMagicData < StdEntryData
           next
         end
         
-        puts(sprintf(STR_READ, _id - @id_range.begin, _f.pos))
+        puts(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
         _pos.value  = _f.pos
         if region != 'P'
           _str.value  = _f.read_str(0xff, 0x4)
@@ -193,7 +135,7 @@ class CharacterMagicData < StdEntryData
       end
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Reads all entries from binary files.
@@ -219,7 +161,7 @@ class CharacterMagicData < StdEntryData
     end
     
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_DSCR))
+    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_dscr))
   
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
@@ -235,31 +177,31 @@ class CharacterMagicData < StdEntryData
   
         case region
         when 'E'
-          _pos  = _entry.find_member(CsvHdr::SHIP_DSCR_US_POS ).value
-          _size = _entry.find_member(CsvHdr::SHIP_DSCR_US_SIZE).value
-          _str  = _entry.find_member(CsvHdr::SHIP_DSCR_US_STR ).value
+          _pos  = _entry.find_member(VOC.ship_dscr_us_pos ).value
+          _size = _entry.find_member(VOC.ship_dscr_us_size).value
+          _str  = _entry.find_member(VOC.ship_dscr_us_str ).value
         when 'J'
-          _pos  = _entry.find_member(CsvHdr::SHIP_DSCR_JP_POS ).value
-          _size = _entry.find_member(CsvHdr::SHIP_DSCR_JP_SIZE).value
-          _str  = _entry.find_member(CsvHdr::SHIP_DSCR_JP_STR ).value
+          _pos  = _entry.find_member(VOC.ship_dscr_jp_pos ).value
+          _size = _entry.find_member(VOC.ship_dscr_jp_size).value
+          _str  = _entry.find_member(VOC.ship_dscr_jp_str ).value
         when 'P'
           case determine_lang(_filename)
           when 'DE'
-            _pos  = _entry.find_member(CsvHdr::SHIP_DSCR_DE_POS ).value
-            _size = _entry.find_member(CsvHdr::SHIP_DSCR_DE_SIZE).value
-            _str  = _entry.find_member(CsvHdr::SHIP_DSCR_DE_STR ).value
+            _pos  = _entry.find_member(VOC.ship_dscr_de_pos ).value
+            _size = _entry.find_member(VOC.ship_dscr_de_size).value
+            _str  = _entry.find_member(VOC.ship_dscr_de_str ).value
           when 'ES'
-            _pos  = _entry.find_member(CsvHdr::SHIP_DSCR_ES_POS ).value
-            _size = _entry.find_member(CsvHdr::SHIP_DSCR_ES_SIZE).value
-            _str  = _entry.find_member(CsvHdr::SHIP_DSCR_ES_STR ).value
+            _pos  = _entry.find_member(VOC.ship_dscr_es_pos ).value
+            _size = _entry.find_member(VOC.ship_dscr_es_size).value
+            _str  = _entry.find_member(VOC.ship_dscr_es_str ).value
           when 'FR'
-            _pos  = _entry.find_member(CsvHdr::SHIP_DSCR_FR_POS ).value
-            _size = _entry.find_member(CsvHdr::SHIP_DSCR_FR_SIZE).value
-            _str  = _entry.find_member(CsvHdr::SHIP_DSCR_FR_STR ).value
+            _pos  = _entry.find_member(VOC.ship_dscr_fr_pos ).value
+            _size = _entry.find_member(VOC.ship_dscr_fr_size).value
+            _str  = _entry.find_member(VOC.ship_dscr_fr_str ).value
           when 'GB'
-            _pos  = _entry.find_member(CsvHdr::SHIP_DSCR_GB_POS ).value
-            _size = _entry.find_member(CsvHdr::SHIP_DSCR_GB_SIZE).value
-            _str  = _entry.find_member(CsvHdr::SHIP_DSCR_GB_STR ).value
+            _pos  = _entry.find_member(VOC.ship_dscr_gb_pos ).value
+            _size = _entry.find_member(VOC.ship_dscr_gb_size).value
+            _str  = _entry.find_member(VOC.ship_dscr_gb_str ).value
           else
             _pos  = 0
             _size = 0
@@ -276,7 +218,7 @@ class CharacterMagicData < StdEntryData
           next
         end
         
-        puts(sprintf(STR_WRITE, _id, _pos))
+        puts(sprintf(VOC.write, _id, _pos))
         if region != 'P'
           _f.write_str(_str, _size, 0x4)
         else
@@ -285,7 +227,7 @@ class CharacterMagicData < StdEntryData
       end
     end
   
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
     
   # Writes all entries to binary files.

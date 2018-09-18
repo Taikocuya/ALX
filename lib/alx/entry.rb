@@ -24,7 +24,7 @@
 
 require('csv')
 require_relative('binarystringio.rb')
-require_relative('csvhdr.rb')
+require_relative('etc.rb')
 require_relative('fltvar.rb')
 require_relative('fltdmy.rb')
 require_relative('intvar.rb')
@@ -42,27 +42,6 @@ module ALX
 
 # Base class to handle a entry.
 class Entry
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Character IDs
-  CHARACTERS = Hash.new('???')
-  CHARACTERS.store(0, CsvHdr::CHARACTER_VYSE   )
-  CHARACTERS.store(1, CsvHdr::CHARACTER_AIKA   )
-  CHARACTERS.store(2, CsvHdr::CHARACTER_FINA   )
-  CHARACTERS.store(3, CsvHdr::CHARACTER_DRACHMA)
-  CHARACTERS.store(4, CsvHdr::CHARACTER_ENRIQUE)
-  CHARACTERS.store(5, CsvHdr::CHARACTER_GILDER )
-
-  # Ship IDs
-  SHIPS = Hash.new('???')
-  SHIPS.store(0, CsvHdr::SHIP_LITTLEJACK[1])
-  SHIPS.store(1, CsvHdr::SHIP_LITTLEJACK[2])
-  SHIPS.store(2, CsvHdr::SHIP_DELPHINUS[1] )
-  SHIPS.store(3, CsvHdr::SHIP_DELPHINUS[2] )
-  SHIPS.store(4, CsvHdr::SHIP_DELPHINUS[3] )
 
 #==============================================================================
 #                                   PUBLIC
@@ -74,7 +53,7 @@ class Entry
   # @param _region [String] Region ID
   def initialize(_region)
     @region     = _region
-    @members    = [IntDmy.new(CsvHdr::ID, id)]
+    @members    = [IntDmy.new(VOC.id, id)]
     @padding_id = -1
     @unknown_id = -1
   end
@@ -181,7 +160,7 @@ class Entry
   attr_accessor :members
 
   def id
-    _member = find_member(CsvHdr::ID)
+    _member = find_member(VOC.id)
     if _member
       _member.value
     else
@@ -190,7 +169,7 @@ class Entry
   end
 
   def id=(_id)
-    _member = find_member(CsvHdr::ID)
+    _member = find_member(VOC.id)
     if _member
       _member.value = _id
     else
@@ -208,14 +187,14 @@ class Entry
   # identifier.
   # @return [String] CSV header
   def padding_hdr
-    CsvHdr::PADDING[@padding_id += 1]
+    VOC.padding[@padding_id += 1]
   end
 
   # Returns a CSV header with "Unknown" as description and an unique 
   # identifier.
   # @return [String] CSV header
   def unknown_hdr
-    CsvHdr::UNKNOWN[@unknown_id += 1]
+    VOC.unknown[@unknown_id += 1]
   end
   
 end	# class Entry

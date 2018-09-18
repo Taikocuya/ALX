@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('effectable.rb')
 require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -35,33 +34,7 @@ module ALX
 
 # Class to handle a character super move.
 class CharacterSuperMove < StdEntry
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
 
-  include(Effectable)
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Category IDs
-  CATEGORIES = Hash.new('???')
-  CATEGORIES.store(0, CHARACTERS[0])
-  CATEGORIES.store(1, CHARACTERS[1])
-  CATEGORIES.store(2, CHARACTERS[2])
-  CATEGORIES.store(3, CHARACTERS[3])
-  CATEGORIES.store(4, CHARACTERS[4])
-  CATEGORIES.store(5, CHARACTERS[5])
-  CATEGORIES.store(6, 'Magic'      )
-
-  # Ship occasion IDs
-  SHIP_OCCASIONS = Hash.new('???')
-  SHIP_OCCASIONS.store(-1, 'Never')
-  SHIP_OCCASIONS.store( 0, 'Magic Cannon')
-  SHIP_OCCASIONS.store( 1, 'Always')
-  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
@@ -74,49 +47,49 @@ class CharacterSuperMove < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::ELEMENT_ID        ,  0, 'c' )
+    members << IntVar.new(VOC.element_id        ,  0, 'c' )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr             ,  0, 'c' )
+      members << IntVar.new(padding_hdr         ,  0, 'c' )
     end
     
-    members << StrDmy.new(CsvHdr::ELEMENT_NAME      , ''      )
-    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE  ,  0, 's>')
-    members << IntVar.new(CsvHdr::OCCASION_FLAGS    ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::OCCASION_MENU     , ''      )
-    members << StrDmy.new(CsvHdr::OCCASION_BATTLE   , ''      )
-    members << StrDmy.new(CsvHdr::OCCASION_SHIP     , ''      )
-    members << IntVar.new(CsvHdr::EFFECT_ID         , -1, 'c' )
-    members << StrDmy.new(CsvHdr::EFFECT_NAME       , ''      )
-    members << IntVar.new(CsvHdr::SCOPE_ID          ,  0, 'C' )
-    members << StrDmy.new(CsvHdr::SCOPE_NAME        , ''      )
-    members << IntVar.new(CsvHdr::CATEGORY_ID       ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::CATEGORY_NAME     , ''      )
-    members << IntVar.new(CsvHdr::EFFECT_PRIORITY   , -1, 'c' )
-    members << IntVar.new(CsvHdr::EFFECT_SPIRIT     , -1, 'c' )
-    members << IntVar.new(padding_hdr               ,  0, 'c' )
-    members << IntVar.new(padding_hdr               ,  0, 'c' )
-    members << IntVar.new(CsvHdr::EFFECT_VALUE[-1]  , -1, 's>')
-    members << IntVar.new(CsvHdr::TYPE_ID           ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::TYPE_NAME         , ''      )
-    members << IntVar.new(CsvHdr::STATE_ID          ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::STATE_NAME        , ''      )
-    members << IntVar.new(CsvHdr::STATE_HIT         ,  0, 'c' )
-    members << IntVar.new(padding_hdr               ,  0, 'c' )
-    members << IntVar.new(padding_hdr               ,  0, 'c' )
-    members << IntVar.new(padding_hdr               ,  0, 'c' )
-    members << IntVar.new(CsvHdr::SHIP_OCCASION_ID  ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::SHIP_OCCASION_NAME, ''      )
-    members << IntVar.new(padding_hdr               ,  0, 'c' )
-    members << IntVar.new(CsvHdr::SHIP_EFFECT_ID    , -1, 's>')
-    members << StrDmy.new(CsvHdr::SHIP_EFFECT_NAME  , ''      )
-    members << IntVar.new(CsvHdr::SHIP_EFFECT_SPIRIT, -1, 'c' )
-    members << IntVar.new(CsvHdr::SHIP_EFFECT_TURNS , -1, 'c' )
-    members << IntVar.new(CsvHdr::SHIP_EFFECT_VALUE ,  0, 's>')
-    members << IntVar.new(unknown_hdr               , -1, 'c' )
-    members << IntVar.new(padding_hdr               ,  0, 'c' )
-    members << IntVar.new(padding_hdr               ,  0, 'c' )
-    members << IntVar.new(padding_hdr               ,  0, 'c' )
+    members << StrDmy.new(VOC.element_name      , ''      )
+    members << IntVar.new(VOC.order_importance  ,  0, 's>')
+    members << IntVar.new(VOC.occasion_flags    ,  0, 'c' )
+    members << StrDmy.new(VOC.occasion_menu     , ''      )
+    members << StrDmy.new(VOC.occasion_battle   , ''      )
+    members << StrDmy.new(VOC.occasion_ship     , ''      )
+    members << IntVar.new(VOC.effect_id         , -1, 'c' )
+    members << StrDmy.new(VOC.effect_name       , ''      )
+    members << IntVar.new(VOC.scope_id          ,  0, 'C' )
+    members << StrDmy.new(VOC.scope_name        , ''      )
+    members << IntVar.new(VOC.category_id       ,  0, 'c' )
+    members << StrDmy.new(VOC.category_name     , ''      )
+    members << IntVar.new(VOC.effect_priority   , -1, 'c' )
+    members << IntVar.new(VOC.effect_spirit     , -1, 'c' )
+    members << IntVar.new(padding_hdr           ,  0, 'c' )
+    members << IntVar.new(padding_hdr           ,  0, 'c' )
+    members << IntVar.new(VOC.effect_value[-1]  , -1, 's>')
+    members << IntVar.new(VOC.type_id           ,  0, 'c' )
+    members << StrDmy.new(VOC.type_name         , ''      )
+    members << IntVar.new(VOC.state_id          ,  0, 'c' )
+    members << StrDmy.new(VOC.state_name        , ''      )
+    members << IntVar.new(VOC.state_hit         ,  0, 'c' )
+    members << IntVar.new(padding_hdr           ,  0, 'c' )
+    members << IntVar.new(padding_hdr           ,  0, 'c' )
+    members << IntVar.new(padding_hdr           ,  0, 'c' )
+    members << IntVar.new(VOC.ship_occasion_id  ,  0, 'c' )
+    members << StrDmy.new(VOC.ship_occasion_name, ''      )
+    members << IntVar.new(padding_hdr           ,  0, 'c' )
+    members << IntVar.new(VOC.ship_effect_id    , -1, 's>')
+    members << StrDmy.new(VOC.ship_effect_name  , ''      )
+    members << IntVar.new(VOC.ship_effect_spirit, -1, 'c' )
+    members << IntVar.new(VOC.ship_effect_turns , -1, 'c' )
+    members << IntVar.new(VOC.ship_effect_value ,  0, 's>')
+    members << IntVar.new(unknown_hdr           , -1, 'c' )
+    members << IntVar.new(padding_hdr           ,  0, 'c' )
+    members << IntVar.new(padding_hdr           ,  0, 'c' )
+    members << IntVar.new(padding_hdr           ,  0, 'c' )
 
     add_dscr_members
   end
@@ -124,34 +97,34 @@ class CharacterSuperMove < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    _id = find_member(CsvHdr::ELEMENT_ID).value
-    find_member(CsvHdr::ELEMENT_NAME).value = ELEMENTS[_id]
+    _id = find_member(VOC.element_id).value
+    find_member(VOC.element_name).value = VOC.elements[_id]
 
-    _flags = find_member(CsvHdr::OCCASION_FLAGS).value
-    OCCASIONS.each do |_id, _occasion|
+    _flags = find_member(VOC.occasion_flags).value
+    VOC.occasions.each do |_id, _occasion|
       find_member(_occasion).value = _flags & (0x4 >> _id) != 0 ? 'X' : ''
     end
     
-    _id = find_member(CsvHdr::EFFECT_ID).value
-    find_member(CsvHdr::EFFECT_NAME).value = EFFECTS[_id]
+    _id = find_member(VOC.effect_id).value
+    find_member(VOC.effect_name).value = VOC.effects[_id]
     
-    _id = find_member(CsvHdr::SCOPE_ID).value
-    find_member(CsvHdr::SCOPE_NAME).value = SCOPES[_id]
+    _id = find_member(VOC.scope_id).value
+    find_member(VOC.scope_name).value = VOC.scopes[_id]
     
-    _id = find_member(CsvHdr::CATEGORY_ID).value
-    find_member(CsvHdr::CATEGORY_NAME).value = CATEGORIES[_id]
+    _id = find_member(VOC.category_id).value
+    find_member(VOC.category_name).value = VOC.character_skill_categories[_id]
 
-    _id = find_member(CsvHdr::TYPE_ID).value
-    find_member(CsvHdr::TYPE_NAME).value = TYPES[_id]
+    _id = find_member(VOC.type_id).value
+    find_member(VOC.type_name).value = VOC.types[_id]
 
-    _id = find_member(CsvHdr::STATE_ID).value
-    find_member(CsvHdr::STATE_NAME).value = STATES[_id]
+    _id = find_member(VOC.state_id).value
+    find_member(VOC.state_name).value = VOC.states[_id]
     
-    _id = find_member(CsvHdr::SHIP_OCCASION_ID).value
-    find_member(CsvHdr::SHIP_OCCASION_NAME).value = SHIP_OCCASIONS[_id]
+    _id = find_member(VOC.ship_occasion_id).value
+    find_member(VOC.ship_occasion_name).value = VOC.ship_occasions[_id]
     
-    _id = find_member(CsvHdr::SHIP_EFFECT_ID).value
-    find_member(CsvHdr::SHIP_EFFECT_NAME).value = EFFECTS[_id]
+    _id = find_member(VOC.ship_effect_id).value
+    find_member(VOC.ship_effect_name).value = VOC.effects[_id]
     
     super
   end

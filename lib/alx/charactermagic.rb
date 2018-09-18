@@ -48,26 +48,26 @@ class CharacterMagic < CharacterSuperMove
     
     case region
     when 'E'
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_US_POS ,  0      )
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_US_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::SHIP_DSCR_US_STR , ''      )
+      members << IntDmy.new(VOC.ship_dscr_us_pos ,  0      )
+      members << IntDmy.new(VOC.ship_dscr_us_size,  0      )
+      members << StrDmy.new(VOC.ship_dscr_us_str , ''      )
     when 'J'
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_JP_POS ,  0      )
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_JP_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::SHIP_DSCR_JP_STR , ''      )
+      members << IntDmy.new(VOC.ship_dscr_jp_pos ,  0      )
+      members << IntDmy.new(VOC.ship_dscr_jp_size,  0      )
+      members << StrDmy.new(VOC.ship_dscr_jp_str , ''      )
     when 'P'
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_DE_POS ,  0      )
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_DE_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::SHIP_DSCR_DE_STR , '', '\n')
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_ES_POS ,  0      )
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_ES_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::SHIP_DSCR_ES_STR , '', '\n')
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_FR_POS ,  0      )
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_FR_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::SHIP_DSCR_FR_STR , '', '\n')
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_GB_POS ,  0      )
-      members << IntDmy.new(CsvHdr::SHIP_DSCR_GB_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::SHIP_DSCR_GB_STR , '', '\n')
+      members << IntDmy.new(VOC.ship_dscr_de_pos ,  0      )
+      members << IntDmy.new(VOC.ship_dscr_de_size,  0      )
+      members << StrDmy.new(VOC.ship_dscr_de_str , '', '\n')
+      members << IntDmy.new(VOC.ship_dscr_es_pos ,  0      )
+      members << IntDmy.new(VOC.ship_dscr_es_size,  0      )
+      members << StrDmy.new(VOC.ship_dscr_es_str , '', '\n')
+      members << IntDmy.new(VOC.ship_dscr_fr_pos ,  0      )
+      members << IntDmy.new(VOC.ship_dscr_fr_size,  0      )
+      members << StrDmy.new(VOC.ship_dscr_fr_str , '', '\n')
+      members << IntDmy.new(VOC.ship_dscr_gb_pos ,  0      )
+      members << IntDmy.new(VOC.ship_dscr_gb_size,  0      )
+      members << StrDmy.new(VOC.ship_dscr_gb_str , '', '\n')
     end
   end
 

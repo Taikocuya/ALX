@@ -44,7 +44,7 @@ class EnemyMagicImporter < EnemyMagicTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(File.join(_root.path, EnemyMagicData::CSV_FILE))
+    _result &&= has_file?(File.join(_root.path, SYS.enemy_magic_csv_file))
     _result
   end
 

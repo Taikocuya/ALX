@@ -18,6 +18,12 @@
 # ALX. If not, see <http://www.gnu.org/licenses/>.
 #******************************************************************************
 
+#==============================================================================
+#                                 REQUIREMENTS
+#==============================================================================
+
+require_relative('etc.rb')
+
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 module ALX
@@ -53,14 +59,13 @@ module Executable
   # @param _filename [String] File name
   # @return [Boolean] +true+ if file exists, otherwise +false+.
   def has_file?(_filename)
-    print("Check for existing file: #{File.expand_path(_filename)}")
+    print(sprintf(VOC.check_file, File.expand_path(_filename)))
 
     _result = File.exist?(_filename) && !File.directory?(_filename)
-
     if _result
-      print(" - exists\n")
+      print(sprintf(" - %s\n", VOC.exists))
     else
-      print(" - not found\n")
+      print(sprintf(" - %s\n", VOC.not_found))
     end
     
     _result
@@ -70,14 +75,13 @@ module Executable
   # @param _dirname [String] Directory name
   # @return [Boolean] +true+ if file exists, otherwise +false+.
   def has_dir?(_dirname)
-    print("Check for existing directory: #{File.expand_path(_dirname)}")
+    print(sprintf(VOC.check_dir, File.expand_path(_dirname)))
     
     _result = Dir.exist?(_dirname) && File.directory?(_dirname)
-
     if _result
-      print(" - exists\n")
+      print(sprintf(" - %s\n", VOC.exists))
     else
-      print(" - not found\n")
+      print(sprintf(" - %s\n", VOC.not_found))
     end
     
     _result

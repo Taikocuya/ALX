@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('effectable.rb')
 require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -35,12 +34,6 @@ module ALX
 
 # Class to handle a usable item.
 class UsableItem < StdEntry
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Effectable)
 
 #==============================================================================
 #                                   PUBLIC
@@ -54,33 +47,33 @@ class UsableItem < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::OCCASION_FLAGS  ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::OCCASION_MENU   , ''      )
-    members << StrDmy.new(CsvHdr::OCCASION_BATTLE , ''      )
-    members << StrDmy.new(CsvHdr::OCCASION_SHIP   , ''      )
-    members << IntVar.new(CsvHdr::EFFECT_ID       , -1, 'c' )
-    members << StrDmy.new(CsvHdr::EFFECT_NAME     , ''      )
-    members << IntVar.new(CsvHdr::SCOPE_ID        ,  0, 'C' )
-    members << StrDmy.new(CsvHdr::SCOPE_NAME      , ''      )
-    members << IntVar.new(CsvHdr::CONSUME         ,  0, 'c' )
-    members << IntVar.new(CsvHdr::RETAIL_PRICE    ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_ALPHABET  , -1, 'c' )
+    members << IntVar.new(VOC.occasion_flags  ,  0, 'c' )
+    members << StrDmy.new(VOC.occasion_menu   , ''      )
+    members << StrDmy.new(VOC.occasion_battle , ''      )
+    members << StrDmy.new(VOC.occasion_ship   , ''      )
+    members << IntVar.new(VOC.effect_id       , -1, 'c' )
+    members << StrDmy.new(VOC.effect_name     , ''      )
+    members << IntVar.new(VOC.scope_id        ,  0, 'C' )
+    members << StrDmy.new(VOC.scope_name      , ''      )
+    members << IntVar.new(VOC.consume         ,  0, 'c' )
+    members << IntVar.new(VOC.retail_price    ,  0, 'c' )
+    members << IntVar.new(VOC.order_importance,  0, 'c' )
+    members << IntVar.new(VOC.order_alphabet  , -1, 'c' )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
+      members << IntVar.new(padding_hdr       ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::PURCHASE_PRICE  ,  0, 'S>')
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(CsvHdr::EFFECT_VALUE[-1],  0, 's>')
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(CsvHdr::HIT             ,  0, 'c' )
+    members << IntVar.new(VOC.purchase_price  ,  0, 'S>')
+    members << IntVar.new(padding_hdr         ,  0, 'c' )
+    members << IntVar.new(padding_hdr         ,  0, 'c' )
+    members << IntVar.new(VOC.effect_value[-1],  0, 's>')
+    members << IntVar.new(unknown_hdr         ,  0, 'c' )
+    members << IntVar.new(unknown_hdr         ,  0, 'c' )
+    members << IntVar.new(padding_hdr         ,  0, 'c' )
+    members << IntVar.new(unknown_hdr         ,  0, 'c' )
+    members << IntVar.new(padding_hdr         ,  0, 'c' )
+    members << IntVar.new(VOC.hit             ,  0, 'c' )
     
     add_dscr_members
   end
@@ -88,16 +81,16 @@ class UsableItem < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    _flags = find_member(CsvHdr::OCCASION_FLAGS).value
-    OCCASIONS.each do |_id, _occasion|
+    _flags = find_member(VOC.occasion_flags).value
+    VOC.occasions.each do |_id, _occasion|
       find_member(_occasion).value = _flags & (0x4 >> _id) != 0 ? 'X' : ''
     end
     
-    _id = find_member(CsvHdr::EFFECT_ID).value
-    find_member(CsvHdr::EFFECT_NAME).value = EFFECTS[_id]
+    _id = find_member(VOC.effect_id).value
+    find_member(VOC.effect_name).value = VOC.effects[_id]
     
-    _id = find_member(CsvHdr::SCOPE_ID).value
-    find_member(CsvHdr::SCOPE_NAME).value = SCOPES[_id]
+    _id = find_member(VOC.scope_id).value
+    find_member(VOC.scope_name).value = VOC.scopes[_id]
     
     super
   end

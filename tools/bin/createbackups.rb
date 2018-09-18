@@ -24,10 +24,8 @@
 #==============================================================================
 
 require('fileutils')
-require_relative('../../lib/alx/entrydata.rb')
-require_relative('../../lib/alx/enemydata.rb')
-require_relative('../../lib/alx/enemyshiptaskdata.rb')
-require_relative('../../lib/alx/entrytransform.rb')
+require_relative('../../lib/alx/etc.rb')
+require_relative('../../lib/alx/executable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -47,35 +45,6 @@ class BackupCreator
   include(Executable)
 
 #==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-  
-  # Path to 'share' directory
-  SHARE_DIR   = EntryTransform::SHARE_DIR
-  # Path to DOL file relative to game root.
-  DOL_FILE    = EntryData::DOL_FILE
-  # Path to DAT files of boss enemies
-  EB_DAT_FILE = sprintf(EnemyData::EB_DAT_FILE, '[0-9][0-9][0-9]')
-  # Path to DAT files of standard enemies
-  EC_DAT_FILE = sprintf(EnemyData::EC_DAT_FILE, '[0-9][0-9][0-9]')
-  # Path to ENP file
-  ENP_FILE    = sprintf(EnemyData::ENP_FILE, '*')
-  # Path to EVP file
-  EVP_FILE    = EnemyData::EVP_FILE
-  # Path to TEC files
-  TEC_FILE    = sprintf(EnemyShipTaskData::TEC_FILE, '[0-9][0-9][0-9]*')
-  # Path to LMT file relative to game root.
-  LMT_FILE    = EntryData::LMT_FILE
-  # Path to German SOT file relative to game root (PAL-E only).
-  SOT_FILE_DE = EntryData::SOT_FILE_DE
-  # Path to Spanish SOT file relative to game root (PAL-E only).
-  SOT_FILE_ES = EntryData::SOT_FILE_ES
-  # Path to French SOT file relative to game root (PAL-E only).
-  SOT_FILE_FR = EntryData::SOT_FILE_FR
-  # Path to English SOT file relative to game root (PAL-E only).
-  SOT_FILE_GB = EntryData::SOT_FILE_GB
-
-#==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
@@ -84,43 +53,42 @@ class BackupCreator
   def exec
     print("\n")
     
-    Dir.glob(File.join(SHARE_DIR, '*')).each do |_game_path|
+    Dir.glob(File.join(SYS.share_dir, '*')).each do |_game_path|
       unless File.directory?(_game_path)
         next
       end
   
-      create_backup(File.join(_game_path, DOL_FILE))
-      create_backup(File.join(_game_path, EVP_FILE))
-      create_backup(File.join(_game_path, LMT_FILE))
-        
-      Dir.glob(File.join(_game_path, ENP_FILE   )).each do |_p|
+      create_backup(File.join(_game_path, SYS.dol_file))
+      create_backup(File.join(_game_path, SYS.evp_file))
+      create_backup(File.join(_game_path, SYS.lmt_file))
+
+      _enp_file    = sprintf(SYS.enp_file   , '*')
+      Dir.glob(File.join(_game_path, _enp_file   )).each do |_p|
         create_backup(_p)
       end
-      Dir.glob(File.join(_game_path, ENP_FILE   )).each do |_p|
+      _eb_dat_file = sprintf(SYS.eb_dat_file, '*')
+      Dir.glob(File.join(_game_path, _eb_dat_file)).each do |_p|
         create_backup(_p)
       end
-      Dir.glob(File.join(_game_path, ENP_FILE   )).each do |_p|
+      _ec_dat_file = sprintf(SYS.ec_dat_file, '*')
+      Dir.glob(File.join(_game_path, _ec_dat_file)).each do |_p|
         create_backup(_p)
       end
-      Dir.glob(File.join(_game_path, EB_DAT_FILE)).each do |_p|
+      _tec_file    = sprintf(SYS.tec_file   , '*')
+      Dir.glob(File.join(_game_path, _tec_file   )).each do |_p|
         create_backup(_p)
       end
-      Dir.glob(File.join(_game_path, EC_DAT_FILE)).each do |_p|
+      
+      Dir.glob(File.join(_game_path, SYS.sot_file_de)).each do |_p|
         create_backup(_p)
       end
-      Dir.glob(File.join(_game_path, TEC_FILE   )).each do |_p|
+      Dir.glob(File.join(_game_path, SYS.sot_file_es)).each do |_p|
         create_backup(_p)
       end
-      Dir.glob(File.join(_game_path, SOT_FILE_DE)).each do |_p|
+      Dir.glob(File.join(_game_path, SYS.sot_file_fr)).each do |_p|
         create_backup(_p)
       end
-      Dir.glob(File.join(_game_path, SOT_FILE_ES)).each do |_p|
-        create_backup(_p)
-      end
-      Dir.glob(File.join(_game_path, SOT_FILE_FR)).each do |_p|
-        create_backup(_p)
-      end
-      Dir.glob(File.join(_game_path, SOT_FILE_GB)).each do |_p|
+      Dir.glob(File.join(_game_path, SYS.sot_file_gb)).each do |_p|
         create_backup(_p)
       end
     end
@@ -129,13 +97,13 @@ class BackupCreator
   # Creates a backup.
   # @param _filename [String] Backup to create
   def create_backup(_filename)
-    _src  = File.expand_path(_filename)
-    _dest = File.expand_path(_filename + '.bak')
+    _src = File.expand_path(_filename)
+    _dst = File.expand_path(_filename + '.bak')
 
-    print("Create backup: #{_dest}")
+    print("Create backup: #{_dst}")
     
     begin
-      FileUtils.cp(_src, _dest)
+      FileUtils.cp(_src, _dst)
       _result = File.exist?(_src)
     rescue
       _result = false

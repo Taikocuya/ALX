@@ -46,23 +46,23 @@ class StdEntry < Entry
   def add_name_members(_size = 17)
     case region
     when 'E'
-      members << StrVar.new(CsvHdr::NAME_US_STR , '', _size)
+      members << StrVar.new(VOC.name_us_str , '', _size)
     when 'J'
-      members << StrVar.new(CsvHdr::NAME_JP_STR , '', _size)
+      members << StrVar.new(VOC.name_jp_str , '', _size)
     when 'P'
-      members << IntVar.new(CsvHdr::MESSAGE_ID  ,  0, 'L>' )
-      members << IntDmy.new(CsvHdr::NAME_DE_POS ,  0       )
-      members << IntDmy.new(CsvHdr::NAME_DE_SIZE,  0       )
-      members << StrDmy.new(CsvHdr::NAME_DE_STR , '', '\n' )
-      members << IntDmy.new(CsvHdr::NAME_ES_POS ,  0       )
-      members << IntDmy.new(CsvHdr::NAME_ES_SIZE,  0       )
-      members << StrDmy.new(CsvHdr::NAME_ES_STR , '', '\n' )
-      members << IntDmy.new(CsvHdr::NAME_FR_POS ,  0       )
-      members << IntDmy.new(CsvHdr::NAME_FR_SIZE,  0       )
-      members << StrDmy.new(CsvHdr::NAME_FR_STR , '', '\n' )
-      members << IntDmy.new(CsvHdr::NAME_GB_POS ,  0       )
-      members << IntDmy.new(CsvHdr::NAME_GB_SIZE,  0       )
-      members << StrDmy.new(CsvHdr::NAME_GB_STR , '', '\n' )
+      members << IntVar.new(VOC.message_id  ,  0, 'L>' )
+      members << IntDmy.new(VOC.name_de_pos ,  0       )
+      members << IntDmy.new(VOC.name_de_size,  0       )
+      members << StrDmy.new(VOC.name_de_str , '', '\n' )
+      members << IntDmy.new(VOC.name_es_pos ,  0       )
+      members << IntDmy.new(VOC.name_es_size,  0       )
+      members << StrDmy.new(VOC.name_es_str , '', '\n' )
+      members << IntDmy.new(VOC.name_fr_pos ,  0       )
+      members << IntDmy.new(VOC.name_fr_size,  0       )
+      members << StrDmy.new(VOC.name_fr_str , '', '\n' )
+      members << IntDmy.new(VOC.name_gb_pos ,  0       )
+      members << IntDmy.new(VOC.name_gb_size,  0       )
+      members << StrDmy.new(VOC.name_gb_str , '', '\n' )
     end
   end
 
@@ -70,26 +70,26 @@ class StdEntry < Entry
   def add_dscr_members
     case region
     when 'E'
-      members << IntDmy.new(CsvHdr::DSCR_US_POS ,  0      )
-      members << IntDmy.new(CsvHdr::DSCR_US_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::DSCR_US_STR , ''      )
+      members << IntDmy.new(VOC.dscr_us_pos ,  0      )
+      members << IntDmy.new(VOC.dscr_us_size,  0      )
+      members << StrDmy.new(VOC.dscr_us_str , ''      )
     when 'J'
-      members << IntDmy.new(CsvHdr::DSCR_JP_POS ,  0      )
-      members << IntDmy.new(CsvHdr::DSCR_JP_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::DSCR_JP_STR , ''      )
+      members << IntDmy.new(VOC.dscr_jp_pos ,  0      )
+      members << IntDmy.new(VOC.dscr_jp_size,  0      )
+      members << StrDmy.new(VOC.dscr_jp_str , ''      )
     when 'P'
-      members << IntDmy.new(CsvHdr::DSCR_DE_POS ,  0      )
-      members << IntDmy.new(CsvHdr::DSCR_DE_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::DSCR_DE_STR , '', '\n')
-      members << IntDmy.new(CsvHdr::DSCR_ES_POS ,  0      )
-      members << IntDmy.new(CsvHdr::DSCR_ES_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::DSCR_ES_STR , '', '\n')
-      members << IntDmy.new(CsvHdr::DSCR_FR_POS ,  0      )
-      members << IntDmy.new(CsvHdr::DSCR_FR_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::DSCR_FR_STR , '', '\n')
-      members << IntDmy.new(CsvHdr::DSCR_GB_POS ,  0      )
-      members << IntDmy.new(CsvHdr::DSCR_GB_SIZE,  0      )
-      members << StrDmy.new(CsvHdr::DSCR_GB_STR , '', '\n')
+      members << IntDmy.new(VOC.dscr_de_pos ,  0      )
+      members << IntDmy.new(VOC.dscr_de_size,  0      )
+      members << StrDmy.new(VOC.dscr_de_str , '', '\n')
+      members << IntDmy.new(VOC.dscr_es_pos ,  0      )
+      members << IntDmy.new(VOC.dscr_es_size,  0      )
+      members << StrDmy.new(VOC.dscr_es_str , '', '\n')
+      members << IntDmy.new(VOC.dscr_fr_pos ,  0      )
+      members << IntDmy.new(VOC.dscr_fr_size,  0      )
+      members << StrDmy.new(VOC.dscr_fr_str , '', '\n')
+      members << IntDmy.new(VOC.dscr_gb_pos ,  0      )
+      members << IntDmy.new(VOC.dscr_gb_size,  0      )
+      members << StrDmy.new(VOC.dscr_gb_str , '', '\n')
     end
   end
   
@@ -98,7 +98,7 @@ class StdEntry < Entry
 #------------------------------------------------------------------------------
   
   def msg_id
-    _member = find_member(CsvHdr::MESSAGE_ID)
+    _member = find_member(VOC.message_id)
     if _member
       _member.value
     else
@@ -107,7 +107,7 @@ class StdEntry < Entry
   end
 
   def msg_id=(_msg_id)
-    _member = find_member(CsvHdr::MESSAGE_ID)
+    _member = find_member(VOC.message_id)
     if _member
       _member.value = _msg_id
     else

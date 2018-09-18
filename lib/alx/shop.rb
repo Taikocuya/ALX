@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('effectable.rb')
 require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -35,12 +34,6 @@ module ALX
 
 # Class to handle a shop.
 class Shop < StdEntry
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Effectable)
 
 #==============================================================================
 #                                   PUBLIC
@@ -55,15 +48,15 @@ class Shop < StdEntry
     @items = {}
 
     members.clear
-    members << IntVar.new(CsvHdr::ID              ,  0, 'S>')
-    members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::MESSAGE_ID      ,  0, 'L>')
+    members << IntVar.new(VOC.id              ,  0, 'S>')
+    members << IntVar.new(padding_hdr         ,  0, 's>')
+    members << IntVar.new(VOC.message_id      ,  0, 'L>')
 
     add_dscr_members
     
     (0...48).each do |_i|
-      members << IntVar.new(CsvHdr::ITEM_ID[_i]   , -1, 's>')
-      members << StrDmy.new(CsvHdr::ITEM_NAME[_i] , ''      )
+      members << IntVar.new(VOC.item_id[_i]   , -1, 's>')
+      members << StrDmy.new(VOC.item_name[_i] , ''      )
     end
   end
 
@@ -71,24 +64,24 @@ class Shop < StdEntry
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
     (0...48).each do |_i|
-      _id = find_member(CsvHdr::ITEM_ID[_i]).value
+      _id = find_member(VOC.item_id[_i]).value
       if _id != -1
         _entry = @items[_id]
         _name  = '???'
         if _entry
           case region
           when 'E'
-            _name = _entry.find_member(CsvHdr::NAME_US_STR).value
+            _name = _entry.find_member(VOC.name_us_str).value
           when 'J'
-            _name = _entry.find_member(CsvHdr::NAME_JP_STR).value
+            _name = _entry.find_member(VOC.name_jp_str).value
           when 'P'
-            _name = _entry.find_member(CsvHdr::NAME_GB_STR).value
+            _name = _entry.find_member(VOC.name_gb_str).value
           end
         end
       else
         _name = 'None'
       end
-      find_member(CsvHdr::ITEM_NAME[_i]).value = _name
+      find_member(VOC.item_name[_i]).value = _name
     end
     
     super

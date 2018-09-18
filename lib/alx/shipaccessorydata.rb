@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('entrytransform.rb')
 require_relative('shipaccessory.rb')
 require_relative('stdentrydata.rb')
 
@@ -36,45 +35,6 @@ module ALX
 
 # Class to handle ship accessories from binary and/or CSV files.
 class ShipAccessoryData < StdEntryData
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Range of entry IDs
-  ID_RANGE    = 0x1b8...0x1e0
-
-  # Offset ranges of data entries
-  DATA_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2d53ec...0x2d5a2c),
-    'J' => DataRange.new(DOL_FILE, 0x2d502c...0x2d566c),
-    'P' => DataRange.new(DOL_FILE, 0x2f831c...0x2f877c),
-  }
-
-  # Offset ranges of name entries
-  NAME_FILES = {
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x1ea14...0x1ec15),
-      DataRange.new(SOT_FILE_ES, 0x1e789...0x1e9cd),
-      DataRange.new(SOT_FILE_FR, 0x1e9d1...0x1ec03),
-      DataRange.new(SOT_FILE_GB, 0x1e066...0x1e27d),
-    ],
-  }
-
-  # Offset ranges of description entries
-  DSCR_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2ceef8...0x2cfbf0),
-    'J' => DataRange.new(DOL_FILE, 0x2cef30...0x2cfc58),
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x19e71...0x1abb8),
-      DataRange.new(SOT_FILE_ES, 0x19b0f...0x1a7f2),
-      DataRange.new(SOT_FILE_FR, 0x19c5d...0x1a998),
-      DataRange.new(SOT_FILE_GB, 0x196a8...0x1a38c),
-    ],
-  }
-
-  # Path to CSV file
-  CSV_FILE = 'csv/shipaccessories.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -86,11 +46,11 @@ class ShipAccessoryData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(ShipAccessory, _root)
-    self.id_range   = ID_RANGE
-    self.data_files = DATA_FILES
-    self.name_files = NAME_FILES
-    self.dscr_files = DSCR_FILES
-    self.csv_file   = CSV_FILE
+    self.id_range   = SYS.ship_accessory_id_range
+    self.data_files = SYS.ship_accessory_data_files
+    self.name_files = SYS.ship_accessory_name_files
+    self.dscr_files = SYS.ship_accessory_dscr_files
+    self.csv_file   = SYS.ship_accessory_csv_file
   end
 
 end # class ShipAccessoryData

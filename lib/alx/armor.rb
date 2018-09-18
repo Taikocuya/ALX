@@ -34,45 +34,7 @@ module ALX
 
 # Class to handle an armor.
 class Armor < StdEntry
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
 
-  # Feature IDs
-  FEATURES = Hash.new('???')
-  FEATURES.store(-1, 'None'                 )
-  FEATURES.store( 1, 'Will'                 )
-  FEATURES.store( 4, 'Quick'                )
-  FEATURES.store(16, 'Attack'               )
-  FEATURES.store(17, 'Defense'              )
-  FEATURES.store(18, 'MagDef'               )
-  FEATURES.store(19, 'Hit%'                 )
-  FEATURES.store(20, 'Dodge%'               )
-  FEATURES.store(32, 'Green'                )
-  FEATURES.store(33, 'Red'                  )
-  FEATURES.store(34, 'Purple'               )
-  FEATURES.store(35, 'Blue'                 )
-  FEATURES.store(36, 'Yellow'               )
-  FEATURES.store(37, 'Silver'               )
-  FEATURES.store(48, 'Poison'               )
-  FEATURES.store(49, 'Death'                )
-  FEATURES.store(50, 'Stone'                )
-  FEATURES.store(51, 'Sleep'                )
-  FEATURES.store(52, 'Confuse'              )
-  FEATURES.store(53, 'Silence'              )
-  FEATURES.store(54, 'Fatigue'              )
-  FEATURES.store(56, 'Weak'                 )
-  FEATURES.store(65, 'Block attacks'        )
-  FEATURES.store(68, 'Reduce spirit'        )
-  FEATURES.store(73, 'Counter%'             )
-  FEATURES.store(77, 'Recover spirit'       )
-  FEATURES.store(79, 'Block negative states')
-  FEATURES.store(80, 'First strike%'        )
-  FEATURES.store(81, 'Run%'                 )
-  FEATURES.store(83, 'Enemy run%'           )
-  FEATURES.store(84, 'Random encounter%'    )
-  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
@@ -85,31 +47,31 @@ class Armor < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::CHARACTER_FLAGS        ,  0, 'c' )
-    CHARACTERS.each_value do |_chara|
-      members << StrDmy.new(CsvHdr::CHARACTER_OPT[_chara], ''      )
+    members << IntVar.new(VOC.character_flags        ,  0, 'c' )
+    VOC.characters.each_value do |_chara|
+      members << StrDmy.new(VOC.character_opt[_chara], ''      )
     end
     
-    members << IntVar.new(CsvHdr::RETAIL_PRICE           ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE       , -1, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_ALPHABET         , -1, 'c' )
+    members << IntVar.new(VOC.retail_price           ,  0, 'c' )
+    members << IntVar.new(VOC.order_importance       , -1, 'c' )
+    members << IntVar.new(VOC.order_alphabet         , -1, 'c' )
     
     if region != 'P'
-      members << IntVar.new(padding_hdr                  ,  0, 'c' )
+      members << IntVar.new(padding_hdr              ,  0, 'c' )
     end
 
-    members << IntVar.new(CsvHdr::PURCHASE_PRICE         ,  0, 'S>')
+    members << IntVar.new(VOC.purchase_price         ,  0, 'S>')
     
     (0...4).each do |_i|
-      members << IntVar.new(CsvHdr::FEATURE_ID[_i]       , -1, 'c' )
-      members << StrDmy.new(CsvHdr::FEATURE_NAME[_i]     , ''      )
-      members << IntVar.new(padding_hdr                  ,  0, 'c' )
-      members << IntVar.new(CsvHdr::FEATURE_VALUE[_i]    ,  0, 's>')
+      members << IntVar.new(VOC.feature_id[_i]       , -1, 'c' )
+      members << StrDmy.new(VOC.feature_name[_i]     , ''      )
+      members << IntVar.new(padding_hdr              ,  0, 'c' )
+      members << IntVar.new(VOC.feature_value[_i]    ,  0, 's>')
     end
 
     if region == 'P'
-      members << IntVar.new(padding_hdr                  ,  0, 'c' )
-      members << IntVar.new(padding_hdr                  ,  0, 'c' )
+      members << IntVar.new(padding_hdr              ,  0, 'c' )
+      members << IntVar.new(padding_hdr              ,  0, 'c' )
     end
 
     add_dscr_members
@@ -118,15 +80,15 @@ class Armor < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    _flags = find_member(CsvHdr::CHARACTER_FLAGS).value
-    CHARACTERS.each do |_id, _chara|
-      _member = CsvHdr::CHARACTER_OPT[_chara]
+    _flags = find_member(VOC.character_flags).value
+    VOC.characters.each do |_id, _chara|
+      _member = VOC.character_opt[_chara]
       find_member(_member).value = _flags & (0x20 >> _id) != 0 ? 'X' : ''
     end
 
     (0...4).each do |_i|
-      _id = find_member(CsvHdr::FEATURE_ID[_i]).value
-      find_member(CsvHdr::FEATURE_NAME[_i]).value = FEATURES[_id]
+      _id = find_member(VOC.feature_id[_i]).value
+      find_member(VOC.feature_name[_i]).value = VOC.accessory_features[_id]
     end
 
     super

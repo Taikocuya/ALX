@@ -25,7 +25,6 @@
 require_relative('armordata.rb')
 require_relative('accessorydata.rb')
 require_relative('character.rb')
-require_relative('entrytransform.rb')
 require_relative('weapondata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -38,23 +37,6 @@ module ALX
 
 # Class to handle characters from binary and/or CSV files.
 class CharacterData < StdEntryData
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Range of entry IDs
-  ID_RANGE    = 0x0...0x6
-
-  # Offset ranges of data entries
-  DATA_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2c1860...0x2c1bf0),
-    'J' => DataRange.new(DOL_FILE, 0x2c0d58...0x2c10e8),
-    'P' => DataRange.new(DOL_FILE, 0x2c2ff0...0x2c3380),
-  }
-
-  # Path to CSV file
-  CSV_FILE = 'csv/characters.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -66,9 +48,9 @@ class CharacterData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Character, _root)
-    self.id_range   = ID_RANGE
-    self.data_files = DATA_FILES
-    self.csv_file   = CSV_FILE
+    self.id_range   = SYS.character_id_range
+    self.data_files = SYS.character_data_files
+    self.csv_file   = SYS.character_csv_file
     @weapon_data    = WeaponData.new(_root)
     @armor_data     = ArmorData.new(_root)
     @accessory_data = AccessoryData.new(_root)

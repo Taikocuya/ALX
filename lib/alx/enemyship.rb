@@ -22,8 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('effectable.rb')
-require_relative('shipcannon.rb')
 require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -36,26 +34,6 @@ module ALX
 
 # Class to handle a enemy ship.
 class EnemyShip < StdEntry
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Effectable)
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Drop IDs
-  DROPS = Hash.new('???')
-  DROPS.store(-1, 'None'  )
-  DROPS.store( 0, '100%'  )
-  DROPS.store( 2, '10%'   )
-  DROPS.store( 3, '20%'   )
-  DROPS.store( 4, '50%'   )
-  DROPS.store( 6, 'Osman' )
-  DROPS.store( 7, 'Kalifa')
 
 #==============================================================================
 #                                   PUBLIC
@@ -70,55 +48,55 @@ class EnemyShip < StdEntry
     @items = {}
     add_name_members(20)
     
-    members << IntVar.new(CsvHdr::MAXHP                   , -1, 'l>')
-    members << IntVar.new(CsvHdr::WILL                    , -1, 's>')
-    members << IntVar.new(CsvHdr::DEFENSE                 , -1, 's>')
-    members << IntVar.new(CsvHdr::MAGDEF                  , -1, 's>')
-    members << IntVar.new(CsvHdr::QUICK                   , -1, 's>')
-    members << IntVar.new(CsvHdr::AGILE                   , -1, 's>')
-    members << IntVar.new(CsvHdr::DODGE                   , -1, 's>')
+    members << IntVar.new(VOC.maxhp                   , -1, 'l>')
+    members << IntVar.new(VOC.will                    , -1, 's>')
+    members << IntVar.new(VOC.defense                 , -1, 's>')
+    members << IntVar.new(VOC.magdef                  , -1, 's>')
+    members << IntVar.new(VOC.quick                   , -1, 's>')
+    members << IntVar.new(VOC.agile                   , -1, 's>')
+    members << IntVar.new(VOC.dodge                   , -1, 's>')
     
     (0...6).each do |_i|
-      members << IntVar.new(ELEMENTS[_i]                  , -1, 's>')
+      members << IntVar.new(VOC.elements[_i]          , -1, 's>')
     end
     (0...4).each do |_i|
       if region == 'P'
-        members << IntDmy.new(CsvHdr::ARM_NAME_DE_POS[_i] ,  0      )
-        members << IntDmy.new(CsvHdr::ARM_NAME_DE_SIZE[_i],  0      )
-        members << StrDmy.new(CsvHdr::ARM_NAME_DE_STR[_i] , '', '\n')
-        members << IntDmy.new(CsvHdr::ARM_NAME_ES_POS[_i] ,  0      )
-        members << IntDmy.new(CsvHdr::ARM_NAME_ES_SIZE[_i],  0      )
-        members << StrDmy.new(CsvHdr::ARM_NAME_ES_STR[_i] , '', '\n')
-        members << IntDmy.new(CsvHdr::ARM_NAME_FR_POS[_i] ,  0      )
-        members << IntDmy.new(CsvHdr::ARM_NAME_FR_SIZE[_i],  0      )
-        members << StrDmy.new(CsvHdr::ARM_NAME_FR_STR[_i] , '', '\n')
-        members << IntDmy.new(CsvHdr::ARM_NAME_GB_POS[_i] ,  0      )
-        members << IntDmy.new(CsvHdr::ARM_NAME_GB_SIZE[_i],  0      )
-        members << StrDmy.new(CsvHdr::ARM_NAME_GB_STR[_i] , '', '\n')
+        members << IntDmy.new(VOC.arm_name_de_pos[_i] ,  0      )
+        members << IntDmy.new(VOC.arm_name_de_size[_i],  0      )
+        members << StrDmy.new(VOC.arm_name_de_str[_i] , '', '\n')
+        members << IntDmy.new(VOC.arm_name_es_pos[_i] ,  0      )
+        members << IntDmy.new(VOC.arm_name_es_size[_i],  0      )
+        members << StrDmy.new(VOC.arm_name_es_str[_i] , '', '\n')
+        members << IntDmy.new(VOC.arm_name_fr_pos[_i] ,  0      )
+        members << IntDmy.new(VOC.arm_name_fr_size[_i],  0      )
+        members << StrDmy.new(VOC.arm_name_fr_str[_i] , '', '\n')
+        members << IntDmy.new(VOC.arm_name_gb_pos[_i] ,  0      )
+        members << IntDmy.new(VOC.arm_name_gb_size[_i],  0      )
+        members << StrDmy.new(VOC.arm_name_gb_str[_i] , '', '\n')
       end
-      members << IntVar.new(CsvHdr::ARM_TYPE_ID[_i]       , -1, 's>')
-      members << StrDmy.new(CsvHdr::ARM_TYPE_NAME[_i]     , ''      )
-      members << IntVar.new(CsvHdr::ARM_ATTACK[_i]        , -1, 's>')
-      members << IntVar.new(CsvHdr::ARM_RANGE[_i]         , -1, 's>')
-      members << IntVar.new(CsvHdr::ARM_HIT[_i]           , -1, 's>')
-      members << IntVar.new(CsvHdr::ARM_ELEMENT_ID[_i]    , -1, 's>')
-      members << StrDmy.new(CsvHdr::ARM_ELEMENT_NAME[_i]  , ''      )
+      members << IntVar.new(VOC.arm_type_id[_i]       , -1, 's>')
+      members << StrDmy.new(VOC.arm_type_name[_i]     , ''      )
+      members << IntVar.new(VOC.arm_attack[_i]        , -1, 's>')
+      members << IntVar.new(VOC.arm_range[_i]         , -1, 's>')
+      members << IntVar.new(VOC.arm_hit[_i]           , -1, 's>')
+      members << IntVar.new(VOC.arm_element_id[_i]    , -1, 's>')
+      members << StrDmy.new(VOC.arm_element_name[_i]  , ''      )
     end
 
-    members << IntVar.new(padding_hdr                     ,  0, 's>')
-    members << IntVar.new(padding_hdr                     ,  0, 's>')
-    members << IntVar.new(padding_hdr                     ,  0, 's>')
-    members << IntVar.new(padding_hdr                     ,  0, 's>')
-    members << IntVar.new(padding_hdr                     ,  0, 's>')
-    members << IntVar.new(padding_hdr                     ,  0, 's>')
-    members << IntVar.new(CsvHdr::EXP[-1]                 , -1, 'l>')
-    members << IntVar.new(CsvHdr::GOLD                    , -1, 'l>')
+    members << IntVar.new(padding_hdr                 ,  0, 's>')
+    members << IntVar.new(padding_hdr                 ,  0, 's>')
+    members << IntVar.new(padding_hdr                 ,  0, 's>')
+    members << IntVar.new(padding_hdr                 ,  0, 's>')
+    members << IntVar.new(padding_hdr                 ,  0, 's>')
+    members << IntVar.new(padding_hdr                 ,  0, 's>')
+    members << IntVar.new(VOC.exp[-1]                 , -1, 'l>')
+    members << IntVar.new(VOC.gold                    , -1, 'l>')
 
     (0...3).each do |_i|
-      members << IntVar.new(CsvHdr::ITEM_DROP_ID[_i]      , -1, 's>')
-      members << StrDmy.new(CsvHdr::ITEM_DROP_NAME[_i]    , ''      )
-      members << IntVar.new(CsvHdr::ITEM_ID[_i]           , -1, 's>')
-      members << StrDmy.new(CsvHdr::ITEM_NAME[_i]         , ''      )
+      members << IntVar.new(VOC.item_drop_id[_i]      , -1, 's>')
+      members << StrDmy.new(VOC.item_drop_name[_i]    , ''      )
+      members << IntVar.new(VOC.item_id[_i]           , -1, 's>')
+      members << StrDmy.new(VOC.item_name[_i]         , ''      )
     end
   end
 
@@ -126,37 +104,37 @@ class EnemyShip < StdEntry
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
     (0...4).each do |_i|
-      _id = find_member(CsvHdr::ARM_TYPE_ID[_i]).value
-      find_member(CsvHdr::ARM_TYPE_NAME[_i]).value = ShipCannon::TYPES[_id]
+      _id = find_member(VOC.arm_type_id[_i]).value
+      find_member(VOC.arm_type_name[_i]).value = VOC.ship_cannon_types[_id]
       
-      _id = find_member(CsvHdr::ARM_ELEMENT_ID[_i]).value
-      find_member(CsvHdr::ARM_ELEMENT_NAME[_i]).value = ELEMENTS[_id]
+      _id = find_member(VOC.arm_element_id[_i]).value
+      find_member(VOC.arm_element_name[_i]).value = VOC.elements[_id]
     end
 
     (0...3).each do |_i|
-      _id = find_member(CsvHdr::ITEM_ID[_i]).value
+      _id = find_member(VOC.item_id[_i]).value
       if _id != -1
         _entry = @items[_id]
         _name  = '???'
         if _entry
           case region
           when 'E'
-            _name = _entry.find_member(CsvHdr::NAME_US_STR).value
+            _name = _entry.find_member(VOC.name_us_str).value
           when 'J'
-            _name = _entry.find_member(CsvHdr::NAME_JP_STR).value
+            _name = _entry.find_member(VOC.name_jp_str).value
           when 'P'
-            _name = _entry.find_member(CsvHdr::NAME_GB_STR).value
+            _name = _entry.find_member(VOC.name_gb_str).value
           end
         end
       else
         _name = 'None'
       end
-      find_member(CsvHdr::ITEM_NAME[_i]).value = _name
+      find_member(VOC.item_name[_i]).value = _name
     end
 
     (0...3).each do |_i|
-      _id = find_member(CsvHdr::ITEM_DROP_ID[_i]).value
-      find_member(CsvHdr::ITEM_DROP_NAME[_i]).value = DROPS[_id]
+      _id = find_member(VOC.item_drop_id[_i]).value
+      find_member(VOC.item_drop_name[_i]).value = VOC.drops[_id]
     end
     
     super

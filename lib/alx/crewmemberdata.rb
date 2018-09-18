@@ -23,7 +23,6 @@
 #==============================================================================
 
 require_relative('crewmember.rb')
-require_relative('entrytransform.rb')
 require_relative('stdentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -36,45 +35,6 @@ module ALX
 
 # Class to handle crew members from binary and/or CSV files.
 class CrewMemberData < StdEntryData
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Range of entry IDs
-  ID_RANGE    = 0x0...0x16
-
-  # Offset ranges of data entries
-  DATA_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2d5e64...0x2d617c),
-    'J' => DataRange.new(DOL_FILE, 0x2d5aa4...0x2d5dbc),
-    'P' => DataRange.new(DOL_FILE, 0x2f8a4c...0x2f8c5c),
-  }
-
-  # Offset ranges of name entries
-  NAME_FILES = {
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x1ed75...0x1ee0b),
-      DataRange.new(SOT_FILE_ES, 0x1eb78...0x1ec0e),
-      DataRange.new(SOT_FILE_FR, 0x1ed91...0x1ee27),
-      DataRange.new(SOT_FILE_GB, 0x1e3dd...0x1e473),
-    ],
-  }
-
-  # Offset ranges of description entries
-  DSCR_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2d0ef4...0x2d1600),
-    'J' => DataRange.new(DOL_FILE, 0x2d0dcc...0x2d15dc),
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x1c085...0x1c7ab),
-      DataRange.new(SOT_FILE_ES, 0x1bc6f...0x1c3da),
-      DataRange.new(SOT_FILE_FR, 0x1be6e...0x1c5fa),
-      DataRange.new(SOT_FILE_GB, 0x1b766...0x1be63),
-    ],
-  }
-
-  # Path to CSV file
-  CSV_FILE = 'csv/crewmembers.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -86,11 +46,11 @@ class CrewMemberData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(CrewMember, _root)
-    self.id_range   = ID_RANGE
-    self.data_files = DATA_FILES
-    self.name_files = NAME_FILES
-    self.dscr_files = DSCR_FILES
-    self.csv_file   = CSV_FILE
+    self.id_range   = SYS.crew_member_id_range
+    self.data_files = SYS.crew_member_data_files
+    self.name_files = SYS.crew_member_name_files
+    self.dscr_files = SYS.crew_member_dscr_files
+    self.csv_file   = SYS.crew_member_csv_file
   end
 
 end # class CrewMemberData

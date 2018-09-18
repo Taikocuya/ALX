@@ -23,7 +23,6 @@
 #==============================================================================
 
 require_relative('entry.rb')
-require_relative('translatable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,12 +34,6 @@ module ALX
 
 # Class to handle an encounter.
 class Encounter < Entry
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Translatable)
 
 #==============================================================================
 #                                   PUBLIC
@@ -55,15 +48,15 @@ class Encounter < Entry
     @enemies = {}
     @file    = ''
 
-    members << StrDmy.new(CsvHdr::FILTER             , ''      )
-    members << IntVar.new(CsvHdr::UNKNOWN[-1]        ,  0, 'C' )
-    members << IntVar.new(CsvHdr::MEGIC_EXP          ,  0, 'C' )
+    members << StrDmy.new(VOC.filter             , ''      )
+    members << IntVar.new(VOC.unknown[-1]        ,  0, 'C' )
+    members << IntVar.new(VOC.megic_exp          ,  0, 'C' )
 
     (0...8).each do |_i|
-      members << IntVar.new(CsvHdr::ENEMY_ID[_i]     ,  0, 'C' )
-      members << StrDmy.new(CsvHdr::ENEMY_NAME_JP[_i], ''      )
-      members << StrDmy.new(CsvHdr::ENEMY_NAME_US[_i], ''      )
-      members << StrDmy.new(CsvHdr::ENEMY_NAME_EU[_i], ''      )
+      members << IntVar.new(VOC.enemy_id[_i]     ,  0, 'C' )
+      members << StrDmy.new(VOC.enemy_name_jp[_i], ''      )
+      members << StrDmy.new(VOC.enemy_name_us[_i], ''      )
+      members << StrDmy.new(VOC.enemy_name_eu[_i], ''      )
     end
   end
 
@@ -71,22 +64,22 @@ class Encounter < Entry
   # @param _f [CSV] CSV object
   def read_from_csv(_f)
     super
-    @file = find_member(CsvHdr::FILTER).value
+    @file = find_member(VOC.filter).value
   end
   
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    find_member(CsvHdr::FILTER).value = @file
+    find_member(VOC.filter).value = @file
     
     (0...8).each do |_i|
-      _id = find_member(CsvHdr::ENEMY_ID[_i]).value
+      _id = find_member(VOC.enemy_id[_i]).value
       if _id != 255
         _entry = @enemies.find { |_enemy| _enemy.id == _id }
         if _entry
-          _name_jp = _entry.find_member(CsvHdr::NAME_JP_STR).value
-          _name_us = ENEMY_US_LIST[_id]
-          _name_eu = ENEMY_EU_LIST[_id]
+          _name_jp = _entry.find_member(VOC.name_jp_str).value
+          _name_us = VOC.enemies_us[_id]
+          _name_eu = VOC.enemies_eu[_id]
         else
           _name_jp = '???'
           _name_us = '???'
@@ -97,9 +90,9 @@ class Encounter < Entry
         _name_us = 'None'
         _name_eu = 'None'
       end
-      find_member(CsvHdr::ENEMY_NAME_JP[_i]).value = _name_jp
-      find_member(CsvHdr::ENEMY_NAME_US[_i]).value = _name_us
-      find_member(CsvHdr::ENEMY_NAME_EU[_i]).value = _name_eu
+      find_member(VOC.enemy_name_jp[_i]).value = _name_jp
+      find_member(VOC.enemy_name_us[_i]).value = _name_us
+      find_member(VOC.enemy_name_eu[_i]).value = _name_eu
     end
 
     super

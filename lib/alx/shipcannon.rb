@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('effectable.rb')
 require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -35,24 +34,6 @@ module ALX
 
 # Class to handle a ship cannon.
 class ShipCannon < StdEntry
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Effectable)
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Type IDs
-  TYPES = Hash.new('???')
-  TYPES.store(-1, 'None'            )
-  TYPES.store( 0, 'Main cannon'     )
-  TYPES.store( 1, 'Secondary cannon')
-  TYPES.store( 2, 'Torpedo'         )
-  TYPES.store( 3, 'Special'         )
 
 #==============================================================================
 #                                   PUBLIC
@@ -66,38 +47,38 @@ class ShipCannon < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::SHIP_FLAGS        ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::SHIP_LITTLEJACK[1], ''      )
-    members << StrDmy.new(CsvHdr::SHIP_LITTLEJACK[2], ''      )
-    members << StrDmy.new(CsvHdr::SHIP_DELPHINUS[1] , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_DELPHINUS[2] , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_DELPHINUS[3] , ''      )
-    members << IntVar.new(CsvHdr::TYPE_ID           ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::TYPE_NAME         , ''      )
-    members << IntVar.new(CsvHdr::ELEMENT_ID        ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::ELEMENT_NAME      , ''      )
+    members << IntVar.new(VOC.ship_flags        ,  0, 'c' )
+    members << StrDmy.new(VOC.ship_littlejack[1], ''      )
+    members << StrDmy.new(VOC.ship_littlejack[2], ''      )
+    members << StrDmy.new(VOC.ship_delphinus[1] , ''      )
+    members << StrDmy.new(VOC.ship_delphinus[2] , ''      )
+    members << StrDmy.new(VOC.ship_delphinus[3] , ''      )
+    members << IntVar.new(VOC.type_id           ,  0, 'c' )
+    members << StrDmy.new(VOC.type_name         , ''      )
+    members << IntVar.new(VOC.element_id        ,  0, 'c' )
+    members << StrDmy.new(VOC.element_name      , ''      )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr             ,  0, 'c' )
+      members << IntVar.new(padding_hdr         ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::ATTACK            ,  0, 's>')
-    members << IntVar.new(CsvHdr::HIT               ,  0, 'S>')
-    members << IntVar.new(CsvHdr::LIMIT             ,  0, 'c' )
-    members << IntVar.new(CsvHdr::SPIRIT            ,  0, 'c' )
-    members << IntVar.new(unknown_hdr               ,  0, 'c' )
-    members << IntVar.new(unknown_hdr               ,  0, 'c' )
-    members << IntVar.new(unknown_hdr               ,  0, 'c' )
-    members << IntVar.new(unknown_hdr               ,  0, 'c' )
-    members << IntVar.new(CsvHdr::PURCHASE_PRICE    ,  0, 'S>')
-    members << IntVar.new(CsvHdr::RETAIL_PRICE      ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE  ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_ALPHABET    ,  0, 'c' )
+    members << IntVar.new(VOC.attack            ,  0, 's>')
+    members << IntVar.new(VOC.hit               ,  0, 'S>')
+    members << IntVar.new(VOC.limit             ,  0, 'c' )
+    members << IntVar.new(VOC.spirit            ,  0, 'c' )
+    members << IntVar.new(unknown_hdr           ,  0, 'c' )
+    members << IntVar.new(unknown_hdr           ,  0, 'c' )
+    members << IntVar.new(unknown_hdr           ,  0, 'c' )
+    members << IntVar.new(unknown_hdr           ,  0, 'c' )
+    members << IntVar.new(VOC.purchase_price    ,  0, 'S>')
+    members << IntVar.new(VOC.retail_price      ,  0, 'c' )
+    members << IntVar.new(VOC.order_importance  ,  0, 'c' )
+    members << IntVar.new(VOC.order_alphabet    ,  0, 'c' )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr             ,  0, 'c' )
+      members << IntVar.new(padding_hdr         ,  0, 'c' )
     else
-      members << IntVar.new(CsvHdr::PADDING[-1]     ,  0, 'c' )
+      members << IntVar.new(VOC.padding[-1]     ,  0, 'c' )
     end
 
     add_dscr_members
@@ -106,16 +87,16 @@ class ShipCannon < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    _flags = find_member(CsvHdr::SHIP_FLAGS).value
-    SHIPS.each do |_id, _ship|
+    _flags = find_member(VOC.ship_flags).value
+    VOC.ships.each do |_id, _ship|
       find_member(_ship).value = _flags & (0x20 >> _id) != 0 ? 'X' : ''
     end
     
-    _id = find_member(CsvHdr::TYPE_ID).value
-    find_member(CsvHdr::TYPE_NAME).value = TYPES[_id]
+    _id = find_member(VOC.type_id).value
+    find_member(VOC.type_name).value = VOC.ship_cannon_types[_id]
     
-    _id = find_member(CsvHdr::ELEMENT_ID).value
-    find_member(CsvHdr::ELEMENT_NAME).value = ELEMENTS[_id]
+    _id = find_member(VOC.element_id).value
+    find_member(VOC.element_name).value = VOC.elements[_id]
     
     super
   end

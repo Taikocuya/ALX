@@ -24,7 +24,6 @@
 
 require_relative('aklzfile.rb')
 require_relative('enemy.rb')
-require_relative('entrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -36,18 +35,6 @@ module ALX
 
 # Class to read and write EP files.
 class EpFile
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  STR_OPEN       = EntryData::STR_OPEN
-  STR_OPEN_READ  = EntryData::STR_OPEN_READ
-  STR_OPEN_WRITE = EntryData::STR_OPEN_WRITE
-  STR_OPEN_DATA  = EntryData::STR_OPEN_DATA
-  STR_READ       = EntryData::STR_READ
-  STR_WRITE      = EntryData::STR_WRITE
-  STR_CLOSE      = EntryData::STR_CLOSE
 
 #==============================================================================
 #                                   PUBLIC

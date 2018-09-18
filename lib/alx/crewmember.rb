@@ -22,8 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('effectable.rb')
-require_relative('shipaccessory.rb')
+require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,30 +34,6 @@ module ALX
 
 # Class to handle a crew member.
 class CrewMember < StdEntry
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Effectable)
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Position IDs
-  POSITIONS = Hash.new('???')
-  POSITIONS.store( 0, 'Helmsman')
-  POSITIONS.store( 1, 'Engineer')
-  POSITIONS.store( 2, 'Gunner'  )
-  POSITIONS.store( 3, 'Lookout' )
-  POSITIONS.store( 4, 'Merchant')
-  POSITIONS.store( 5, 'Builder' )
-  POSITIONS.store( 6, 'Cook'    )
-  POSITIONS.store( 7, 'Artisan' )
-  POSITIONS.store( 8, 'Sailor'  )
-  POSITIONS.store( 9, 'Jester'  )
-  POSITIONS.store(10, 'Delegate')
 
 #==============================================================================
 #                                   PUBLIC
@@ -72,37 +47,37 @@ class CrewMember < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::POSITION_ID         , -1, 'c' )
-    members << StrDmy.new(CsvHdr::POSITION_NAME       , ''      )
+    members << IntVar.new(VOC.position_id         , -1, 'c' )
+    members << StrDmy.new(VOC.position_name       , ''      )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr               ,  0, 'c' )
+      members << IntVar.new(padding_hdr           ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::FEATURE_ID[-1]      , -1, 'c' )
-    members << StrDmy.new(CsvHdr::FEATURE_NAME[-1]    , ''      )
-    members << IntVar.new(padding_hdr                 ,  0, 'c' )
-    members << IntVar.new(CsvHdr::FEATURE_VALUE[-1]   ,  0, 's>')
-    members << IntVar.new(CsvHdr::SHIP_EFFECT_ID      , -1, 'c' )
-    members << StrDmy.new(CsvHdr::SHIP_EFFECT_NAME    , ''      )
-    members << IntVar.new(CsvHdr::SHIP_EFFECT_SPIRIT  , -1, 'c' )
-    members << IntVar.new(CsvHdr::SHIP_EFFECT_TURNS   , -1, 'c' )
-    members << IntVar.new(padding_hdr                 ,  0, 'c' )
-    members << IntVar.new(padding_hdr                 ,  0, 'c' )
-    members << IntVar.new(padding_hdr                 ,  0, 'c' )
+    members << IntVar.new(VOC.feature_id[-1]      , -1, 'c' )
+    members << StrDmy.new(VOC.feature_name[-1]    , ''      )
+    members << IntVar.new(padding_hdr             ,  0, 'c' )
+    members << IntVar.new(VOC.feature_value[-1]   ,  0, 's>')
+    members << IntVar.new(VOC.ship_effect_id      , -1, 'c' )
+    members << StrDmy.new(VOC.ship_effect_name    , ''      )
+    members << IntVar.new(VOC.ship_effect_spirit  , -1, 'c' )
+    members << IntVar.new(VOC.ship_effect_turns   , -1, 'c' )
+    members << IntVar.new(padding_hdr             ,  0, 'c' )
+    members << IntVar.new(padding_hdr             ,  0, 'c' )
+    members << IntVar.new(padding_hdr             ,  0, 'c' )
     
     if region == 'J'
-      members << IntVar.new(CsvHdr::UNKNOWN[-1]       ,  0, 's>')
-      members << IntVar.new(CsvHdr::SHIP_EFFECT_VALUE ,  0, 's>')
+      members << IntVar.new(VOC.unknown[-1]       ,  0, 's>')
+      members << IntVar.new(VOC.ship_effect_value ,  0, 's>')
     else
-      members << IntVar.new(CsvHdr::SHIP_EFFECT_VALUE ,  0, 's>')
-      members << IntVar.new(CsvHdr::UNKNOWN[-1]       ,  0, 's>')
+      members << IntVar.new(VOC.ship_effect_value ,  0, 's>')
+      members << IntVar.new(VOC.unknown[-1]       ,  0, 's>')
     end
 
-    members << IntVar.new(padding_hdr                 ,  0, 'c' )
-    members << IntVar.new(padding_hdr                 ,  0, 'c' )
-    members << IntVar.new(padding_hdr                 ,  0, 'c' )
-    members << IntVar.new(padding_hdr                 ,  0, 'c' )
+    members << IntVar.new(padding_hdr             ,  0, 'c' )
+    members << IntVar.new(padding_hdr             ,  0, 'c' )
+    members << IntVar.new(padding_hdr             ,  0, 'c' )
+    members << IntVar.new(padding_hdr             ,  0, 'c' )
     
     add_dscr_members
   end
@@ -110,14 +85,14 @@ class CrewMember < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    _id = find_member(CsvHdr::POSITION_ID).value
-    find_member(CsvHdr::POSITION_NAME).value = POSITIONS[_id]
+    _id = find_member(VOC.position_id).value
+    find_member(VOC.position_name).value = VOC.positions[_id]
 
-    _id = find_member(CsvHdr::FEATURE_ID[-1]).value
-    find_member(CsvHdr::FEATURE_NAME[-1]).value = ShipAccessory::FEATURES[_id]
+    _id = find_member(VOC.feature_id[-1]).value
+    find_member(VOC.feature_name[-1]).value = VOC.ship_accessory_features[_id]
 
-    _id = find_member(CsvHdr::SHIP_EFFECT_ID).value
-    find_member(CsvHdr::SHIP_EFFECT_NAME).value = EFFECTS[_id]
+    _id = find_member(VOC.ship_effect_id).value
+    find_member(VOC.ship_effect_name).value = VOC.effects[_id]
     
     super
   end

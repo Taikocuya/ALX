@@ -44,7 +44,7 @@ class EnemyShipTaskImporter < EnemyShipTaskTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(File.join(_root.path, EnemyShipTaskData::CSV_FILE))
+    _result &&= has_file?(File.join(_root.path, SYS.enemy_ship_task_csv_file))
     _result
   end
 

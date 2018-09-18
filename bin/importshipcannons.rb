@@ -44,7 +44,7 @@ class ShipCannonImporter < ShipCannonTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(File.join(_root.path, ShipCannonData::CSV_FILE))
+    _result &&= has_file?(File.join(_root.path, SYS.ship_cannon_csv_file))
     _result
   end
 

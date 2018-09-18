@@ -44,9 +44,9 @@ class EnemyImporter < EnemyTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(File.join(_root.path, EnemyData::ENEMY_CSV_FILE))
-    _result &&= has_file?(File.join(_root.path, EnemyData::EVENT_CSV_FILE))
-    _result &&= has_file?(File.join(_root.path, EnemyData::ENCOUNTER_CSV_FILE))
+    _result &&= has_file?(File.join(_root.path, SYS.enemy_csv_file))
+    _result &&= has_file?(File.join(_root.path, SYS.enemy_event_csv_file))
+    _result &&= has_file?(File.join(_root.path, SYS.enemy_encounter_csv_file))
     _result
   end
 

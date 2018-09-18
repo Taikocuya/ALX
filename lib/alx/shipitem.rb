@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('effectable.rb')
 require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -35,13 +34,7 @@ module ALX
 
 # Class to handle a ship item.
 class ShipItem < StdEntry
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
 
-  include(Effectable)
-  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
@@ -54,36 +47,36 @@ class ShipItem < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::OCCASION_FLAGS    ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::OCCASION_MENU     , ''      )
-    members << StrDmy.new(CsvHdr::OCCASION_BATTLE   , ''      )
-    members << StrDmy.new(CsvHdr::OCCASION_SHIP     , ''      )
-    members << IntVar.new(CsvHdr::SHIP_EFFECT_ID    ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::SHIP_EFFECT_NAME  , ''      )
-    members << IntVar.new(CsvHdr::SHIP_EFFECT_TURNS ,  0, 'c' )
-    members << IntVar.new(CsvHdr::CONSUME           ,  0, 'c' )
+    members << IntVar.new(VOC.occasion_flags   ,  0, 'c' )
+    members << StrDmy.new(VOC.occasion_menu    , ''      )
+    members << StrDmy.new(VOC.occasion_battle  , ''      )
+    members << StrDmy.new(VOC.occasion_ship    , ''      )
+    members << IntVar.new(VOC.ship_effect_id   ,  0, 'c' )
+    members << StrDmy.new(VOC.ship_effect_name , ''      )
+    members << IntVar.new(VOC.ship_effect_turns,  0, 'c' )
+    members << IntVar.new(VOC.consume          ,  0, 'c' )
 
     if region != 'P'
-      members << IntVar.new(padding_hdr             ,  0, 'c' )
+      members << IntVar.new(padding_hdr        ,  0, 'c' )
     end
 
-    members << IntVar.new(CsvHdr::PURCHASE_PRICE    ,  0, 'S>')
-    members << IntVar.new(CsvHdr::RETAIL_PRICE      ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE  ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_ALPHABET    ,  0, 'c' )
-    members << IntVar.new(padding_hdr               ,  0, 'c' )
+    members << IntVar.new(VOC.purchase_price   ,  0, 'S>')
+    members << IntVar.new(VOC.retail_price     ,  0, 'c' )
+    members << IntVar.new(VOC.order_importance ,  0, 'c' )
+    members << IntVar.new(VOC.order_alphabet   ,  0, 'c' )
+    members << IntVar.new(padding_hdr          ,  0, 'c' )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr             ,  0, 'c' )
-      members << IntVar.new(padding_hdr             ,  0, 'c' )
+      members << IntVar.new(padding_hdr        ,  0, 'c' )
+      members << IntVar.new(padding_hdr        ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::SHIP_EFFECT_VALUE,  0, 's>')
-    members << IntVar.new(CsvHdr::ELEMENT_ID       ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::ELEMENT_NAME     , ''      )
-    members << IntVar.new(unknown_hdr              ,  0, 'c' )
-    members << IntVar.new(unknown_hdr              ,  0, 's>')
-    members << IntVar.new(CsvHdr::HIT              ,  0, 's>')
+    members << IntVar.new(VOC.ship_effect_value,  0, 's>')
+    members << IntVar.new(VOC.element_id       ,  0, 'c' )
+    members << StrDmy.new(VOC.element_name     , ''      )
+    members << IntVar.new(unknown_hdr          ,  0, 'c' )
+    members << IntVar.new(unknown_hdr          ,  0, 's>')
+    members << IntVar.new(VOC.hit              ,  0, 's>')
 
     add_dscr_members
   end
@@ -91,16 +84,16 @@ class ShipItem < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    _flags = find_member(CsvHdr::OCCASION_FLAGS).value
-    OCCASIONS.each do |_id, _occasion|
+    _flags = find_member(VOC.occasion_flags).value
+    VOC.occasions.each do |_id, _occasion|
       find_member(_occasion).value = _flags & (0x4 >> _id) != 0 ? 'X' : ''
     end
     
-    _id = find_member(CsvHdr::SHIP_EFFECT_ID).value
-    find_member(CsvHdr::SHIP_EFFECT_NAME).value = EFFECTS[_id]
+    _id = find_member(VOC.ship_effect_id).value
+    find_member(VOC.ship_effect_name).value = VOC.effects[_id]
     
-    _id = find_member(CsvHdr::ELEMENT_ID).value
-    find_member(CsvHdr::ELEMENT_NAME).value = ELEMENTS[_id]
+    _id = find_member(VOC.element_id).value
+    find_member(VOC.element_name).value = VOC.elements[_id]
     
     super
   end

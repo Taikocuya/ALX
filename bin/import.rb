@@ -23,7 +23,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/entrytransform.rb')
 require_relative('../lib/alx/executable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

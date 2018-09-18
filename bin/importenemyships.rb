@@ -44,7 +44,7 @@ class EnemyShipImporter < EnemyShipTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(File.join(_root.path, EnemyShipData::CSV_FILE))
+    _result &&= has_file?(File.join(_root.path, SYS.enemy_ship_csv_file))
     _result
   end
 

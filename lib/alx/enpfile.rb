@@ -24,7 +24,6 @@
 
 require_relative('epfile.rb')
 require_relative('encounter.rb')
-require_relative('enemy.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -97,7 +96,7 @@ class EnpFile < EpFile
   # @param _filename [String] File name
   def load(_filename)
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     AklzFile.open(_filename, 'rb') do |_f|
       # Segments
@@ -150,7 +149,7 @@ class EnpFile < EpFile
           raise(IOError, "encounter quota of #{NUM_ENCOUNTERS} exceeded")
         end
         (0..._size).each do |_id|
-          puts(sprintf(STR_READ, _id, _f.pos))
+          puts(sprintf(VOC.read, _id, _f.pos))
           _encounter = create_encounter(_id, _segname)
           _encounter.read_from_bin(_f)
           @encounters << _encounter
@@ -162,7 +161,7 @@ class EnpFile < EpFile
           _pos   = _node[:pos]
           _f.pos = _pos
           
-          puts(sprintf(STR_READ, _id, _pos))
+          puts(sprintf(VOC.read, _id, _pos))
           _enemy = create_enemy(_id, _segname)
           _enemy.read_from_bin(_f)
           
@@ -175,7 +174,7 @@ class EnpFile < EpFile
       end
     end
     
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Writes an ENP file.
@@ -206,7 +205,7 @@ class EnpFile < EpFile
     end
     
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     AklzFile.open(_filename, 'wb') do |_f|
       # Segments (pre-processing)
@@ -226,12 +225,12 @@ class EnpFile < EpFile
           raise(IOError, "encounter quota of #{NUM_ENCOUNTERS} exceeded")
         end
         (0..._encounters.size).each do |_id|
-          puts(sprintf(STR_WRITE, _id, _f.pos))
+          puts(sprintf(VOC.write, _id, _f.pos))
           _encounter = _encounters[_id]
           _encounter.write_to_bin(_f)
 
           (0...8).each do |_i|
-            _id = _encounter.find_member(CsvHdr::ENEMY_ID[_i]).value
+            _id = _encounter.find_member(VOC.enemy_id[_i]).value
             if _id != 255
               _enemy = find_enemy(_id, _segname)
               if _enemy
@@ -254,7 +253,7 @@ class EnpFile < EpFile
           _id  = _enemy.id
           _pos = _f.pos
             
-          puts(sprintf(STR_WRITE, _id, _pos))
+          puts(sprintf(VOC.write, _id, _pos))
           _nodes << create_node(_id, _pos - _beg)
           _enemy.write_to_bin(_f)
         end
@@ -295,7 +294,7 @@ class EnpFile < EpFile
       end
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
   
 #------------------------------------------------------------------------------

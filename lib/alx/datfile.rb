@@ -23,8 +23,6 @@
 #==============================================================================
 
 require_relative('epfile.rb')
-require_relative('enemy.rb')
-require_relative('enemydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -47,11 +45,11 @@ class DatFile < EpFile
   # @param _filename [String] File name
   def load(_filename)
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     _basename   = File.basename(_filename)
-    _eb_pattern = sprintf(File.basename(EnemyData::EB_DAT_FILE), '\d{3}')
-    _ec_pattern = sprintf(File.basename(EnemyData::EC_DAT_FILE), '\d{3}')
+    _eb_pattern = sprintf(File.basename(SYS.eb_dat_file), '\d{3}')
+    _ec_pattern = sprintf(File.basename(SYS.ec_dat_file), '\d{3}')
     if Regexp.new(_eb_pattern) =~ _basename
       _boss = true
     elsif Regexp.new(_ec_pattern) =~ _basename
@@ -69,21 +67,21 @@ class DatFile < EpFile
     end
     
     AklzFile.open(_filename, 'rb') do |_f|
-      puts(sprintf(STR_READ, _id, _f.pos))
+      puts(sprintf(VOC.read, _id, _f.pos))
       _enemy = create_enemy(_id, _filename)
       _enemy.read_from_bin(_f)
       enemies << _enemy
     end
     
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Writes a DAT file.
   # @param _filename [String] File name
   def save(_filename)
     _basename   = File.basename(_filename)
-    _eb_pattern = sprintf(File.basename(EnemyData::EB_DAT_FILE), '\d{3}')
-    _ec_pattern = sprintf(File.basename(EnemyData::EC_DAT_FILE), '\d{3}')
+    _eb_pattern = sprintf(File.basename(SYS.eb_dat_file), '\d{3}')
+    _ec_pattern = sprintf(File.basename(SYS.ec_dat_file), '\d{3}')
     if Regexp.new(_eb_pattern) =~ _basename
       _boss = true
     elsif Regexp.new(_ec_pattern) =~ _basename
@@ -106,14 +104,14 @@ class DatFile < EpFile
     end
 
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     AklzFile.open(_filename, 'wb') do |_f|
-      puts(sprintf(STR_WRITE, _id, _f.pos))
+      puts(sprintf(VOC.write, _id, _f.pos))
       _enemy.write_to_bin(_f)
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
 end # class DatFile

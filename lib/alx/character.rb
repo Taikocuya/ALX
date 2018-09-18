@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('effectable.rb')
 require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -35,12 +34,6 @@ module ALX
 
 # Class to handle a character.
 class Character < StdEntry
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Effectable)
 
 #==============================================================================
 #                                   PUBLIC
@@ -58,141 +51,141 @@ class Character < StdEntry
 
     case region
     when 'E'
-      members << StrVar.new(CsvHdr::NAME_US_STR   , '',   11)
+      members << StrVar.new(VOC.name_us_str   , '',   11)
     when 'J'
-      members << StrVar.new(CsvHdr::NAME_JP_STR   , '',   11)
+      members << StrVar.new(VOC.name_jp_str   , '',   11)
     when 'P'
-      members << StrVar.new(CsvHdr::NAME_EU_STR   , '',   11)
+      members << StrVar.new(VOC.name_eu_str   , '',   11)
     end
 
-    members << IntVar.new(CsvHdr::AGE             ,  0, 'c' )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(CsvHdr::MAXMP           ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ELEMENT_ID      ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::ELEMENT_NAME    , ''      )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(CsvHdr::WEAPON_ID       ,  0, 'C' )
-    members << StrDmy.new(CsvHdr::WEAPON_NAME     , ''      )
-    members << IntVar.new(CsvHdr::ARMOR_ID        ,  0, 'S>')
-    members << StrDmy.new(CsvHdr::ARMOR_NAME      , ''      )
-    members << IntVar.new(CsvHdr::ACCESSORY_ID    ,  0, 'S>')
-    members << StrDmy.new(CsvHdr::ACCESSORY_NAME  , ''      )
-    members << IntVar.new(unknown_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::HP              ,  0, 's>')
-    members << IntVar.new(CsvHdr::MAXHP           ,  0, 's>')
-    members << IntVar.new(CsvHdr::BASE_HP_INCREASE,  0, 's>')
-    members << IntVar.new(CsvHdr::SPIRIT          ,  0, 's>')
-    members << IntVar.new(CsvHdr::MAXSPIRIT       ,  0, 's>')
-    members << IntVar.new(CsvHdr::COUNTER         ,  0, 's>')
-    members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::EXP[-1]         ,  0, 'S>')
-    members << FltVar.new(unknown_hdr             ,  0, 'g' )
-    members << FltVar.new(unknown_hdr             ,  0, 'g' )
+    members << IntVar.new(VOC.age             ,  0, 'c' )
+    members << IntVar.new(unknown_hdr         ,  0, 'c' )
+    members << IntVar.new(unknown_hdr         ,  0, 'c' )
+    members << IntVar.new(unknown_hdr         ,  0, 'c' )
+    members << IntVar.new(VOC.maxmp           ,  0, 'c' )
+    members << IntVar.new(VOC.element_id      ,  0, 'c' )
+    members << StrDmy.new(VOC.element_name    , ''      )
+    members << IntVar.new(padding_hdr         ,  0, 'c' )
+    members << IntVar.new(padding_hdr         ,  0, 'c' )
+    members << IntVar.new(VOC.weapon_id       ,  0, 'C' )
+    members << StrDmy.new(VOC.weapon_name     , ''      )
+    members << IntVar.new(VOC.armor_id        ,  0, 'S>')
+    members << StrDmy.new(VOC.armor_name      , ''      )
+    members << IntVar.new(VOC.accessory_id    ,  0, 'S>')
+    members << StrDmy.new(VOC.accessory_name  , ''      )
+    members << IntVar.new(unknown_hdr         ,  0, 's>')
+    members << IntVar.new(VOC.hp              ,  0, 's>')
+    members << IntVar.new(VOC.maxhp           ,  0, 's>')
+    members << IntVar.new(VOC.base_hp_increase,  0, 's>')
+    members << IntVar.new(VOC.spirit          ,  0, 's>')
+    members << IntVar.new(VOC.maxspirit       ,  0, 's>')
+    members << IntVar.new(VOC.counter         ,  0, 's>')
+    members << IntVar.new(padding_hdr         ,  0, 's>')
+    members << IntVar.new(padding_hdr         ,  0, 's>')
+    members << IntVar.new(VOC.exp[-1]         ,  0, 'S>')
+    members << FltVar.new(unknown_hdr         ,  0, 'g' )
+    members << FltVar.new(unknown_hdr         ,  0, 'g' )
     
     (0...6).each do |_i|
-      members << IntVar.new(ELEMENTS[_i]          ,  0, 's>')
+      members << IntVar.new(VOC.elements[_i]  ,  0, 's>')
     end
 
     (0...9).each do |_i|
-      members << IntVar.new(STATES[_i]            ,  0, 's>')
+      members << IntVar.new(VOC.states[_i]    ,  0, 's>')
     end
     
     (9...16).each do |_i|
-      members << IntVar.new(unknown_hdr           ,  0, 's>')
+      members << IntVar.new(unknown_hdr       ,  0, 's>')
     end
 
-    members << IntVar.new(CsvHdr::POWER           ,  0, 's>')
-    members << IntVar.new(CsvHdr::WILL            ,  0, 's>')
-    members << IntVar.new(CsvHdr::VIGOR           ,  0, 's>')
-    members << IntVar.new(CsvHdr::AGILE           ,  0, 's>')
-    members << IntVar.new(CsvHdr::QUICK           ,  0, 's>')
-    members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << FltVar.new(unknown_hdr             ,  0, 'g' )
-    members << FltVar.new(unknown_hdr             ,  0, 'g' )
-    members << FltVar.new(unknown_hdr             ,  0, 'g' )
-    members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << FltVar.new(unknown_hdr             ,  0, 'g' )
-    members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::GREEN_EXP[-1]   ,  0, 's>')
-    members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::RED_EXP[-1]     ,  0, 's>')
-    members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::PURPLE_EXP[-1]  ,  0, 's>')
-    members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::BLUE_EXP[-1]    ,  0, 's>')
-    members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::YELLOW_EXP[-1]  ,  0, 's>')
-    members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(CsvHdr::SILVER_EXP[-1]  ,  0, 's>')
+    members << IntVar.new(VOC.power           ,  0, 's>')
+    members << IntVar.new(VOC.will            ,  0, 's>')
+    members << IntVar.new(VOC.vigor           ,  0, 's>')
+    members << IntVar.new(VOC.agile           ,  0, 's>')
+    members << IntVar.new(VOC.quick           ,  0, 's>')
+    members << IntVar.new(padding_hdr         ,  0, 's>')
+    members << FltVar.new(unknown_hdr         ,  0, 'g' )
+    members << FltVar.new(unknown_hdr         ,  0, 'g' )
+    members << FltVar.new(unknown_hdr         ,  0, 'g' )
+    members << IntVar.new(padding_hdr         ,  0, 's>')
+    members << IntVar.new(padding_hdr         ,  0, 's>')
+    members << FltVar.new(unknown_hdr         ,  0, 'g' )
+    members << IntVar.new(padding_hdr         ,  0, 's>')
+    members << IntVar.new(VOC.green_exp[-1]   ,  0, 's>')
+    members << IntVar.new(padding_hdr         ,  0, 's>')
+    members << IntVar.new(VOC.red_exp[-1]     ,  0, 's>')
+    members << IntVar.new(padding_hdr         ,  0, 's>')
+    members << IntVar.new(VOC.purple_exp[-1]  ,  0, 's>')
+    members << IntVar.new(padding_hdr         ,  0, 's>')
+    members << IntVar.new(VOC.blue_exp[-1]    ,  0, 's>')
+    members << IntVar.new(padding_hdr         ,  0, 's>')
+    members << IntVar.new(VOC.yellow_exp[-1]  ,  0, 's>')
+    members << IntVar.new(padding_hdr         ,  0, 's>')
+    members << IntVar.new(VOC.silver_exp[-1]  ,  0, 's>')
   end
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    _id = find_member(CsvHdr::ELEMENT_ID).value
-    find_member(CsvHdr::ELEMENT_NAME).value = ELEMENTS[_id]
+    _id = find_member(VOC.element_id).value
+    find_member(VOC.element_name).value = VOC.elements[_id]
     
-    _id = find_member(CsvHdr::WEAPON_ID).value
+    _id = find_member(VOC.weapon_id).value
     if _id != -1
       _entry = @weapons[_id]
       _name  = '???'
       if _entry
         case region
         when 'E'
-          _name = _entry.find_member(CsvHdr::NAME_US_STR).value
+          _name = _entry.find_member(VOC.name_us_str).value
         when 'J'
-          _name = _entry.find_member(CsvHdr::NAME_JP_STR).value
+          _name = _entry.find_member(VOC.name_jp_str).value
         when 'P'
-          _name = _entry.find_member(CsvHdr::NAME_GB_STR).value
+          _name = _entry.find_member(VOC.name_gb_str).value
         end
       end
     else
       _name = 'None'
     end
-    find_member(CsvHdr::WEAPON_NAME).value = _name
+    find_member(VOC.weapon_name).value = _name
 
-    _id = find_member(CsvHdr::ARMOR_ID).value
+    _id = find_member(VOC.armor_id).value
     if _id != -1
       _entry = @armors[_id]
       _name  = '???'
       if _entry
         case region
         when 'E'
-          _name = _entry.find_member(CsvHdr::NAME_US_STR).value
+          _name = _entry.find_member(VOC.name_us_str).value
         when 'J'
-          _name = _entry.find_member(CsvHdr::NAME_JP_STR).value
+          _name = _entry.find_member(VOC.name_jp_str).value
         when 'P'
-          _name = _entry.find_member(CsvHdr::NAME_GB_STR).value
+          _name = _entry.find_member(VOC.name_gb_str).value
         end
       end
     else
       _name = 'None'
     end
-    find_member(CsvHdr::ARMOR_NAME).value = _name
+    find_member(VOC.armor_name).value = _name
 
-    _id = find_member(CsvHdr::ACCESSORY_ID).value
+    _id = find_member(VOC.accessory_id).value
     if _id != -1
       _entry = @accessories[_id]
       _name  = '???'
       if _entry
         case region
         when 'E'
-          _name = _entry.find_member(CsvHdr::NAME_US_STR).value
+          _name = _entry.find_member(VOC.name_us_str).value
         when 'J'
-          _name = _entry.find_member(CsvHdr::NAME_JP_STR).value
+          _name = _entry.find_member(VOC.name_jp_str).value
         when 'P'
-          _name = _entry.find_member(CsvHdr::NAME_GB_STR).value
+          _name = _entry.find_member(VOC.name_gb_str).value
         end
       end
     else
       _name = 'None'
     end
-    find_member(CsvHdr::ACCESSORY_NAME).value = _name
+    find_member(VOC.accessory_name).value = _name
 
     super
   end

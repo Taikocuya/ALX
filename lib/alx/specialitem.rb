@@ -47,20 +47,20 @@ class SpecialItem < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE, -1, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_ALPHABET  , -1, 'c' )
+    members << IntVar.new(unknown_hdr         ,  0, 'c' )
+    members << IntVar.new(VOC.order_importance, -1, 'c' )
+    members << IntVar.new(VOC.order_alphabet  , -1, 'c' )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
+      members << IntVar.new(padding_hdr       ,  0, 'c' )
     end
     
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
-    members << IntVar.new(unknown_hdr             ,  0, 'c' )
+    members << IntVar.new(unknown_hdr         ,  0, 'c' )
+    members << IntVar.new(unknown_hdr         ,  0, 'c' )
 
     if region == 'P'
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
+      members << IntVar.new(padding_hdr       ,  0, 'c' )
+      members << IntVar.new(padding_hdr       ,  0, 'c' )
     end
 
     add_dscr_members

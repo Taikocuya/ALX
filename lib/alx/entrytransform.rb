@@ -23,7 +23,6 @@
 #==============================================================================
 
 require_relative('bnrfile.rb')
-require_relative('entrydata.rb')
 require_relative('executable.rb')
 require_relative('gameroot.rb')
 require_relative('hdrfile.rb')
@@ -44,39 +43,6 @@ class EntryTransform
 #==============================================================================
 
   include(Executable)
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Path to 'build' directory
-  BUILD_DIR     = File.expand_path(
-    File.join(File.dirname(__FILE__), '../../build')
-  )
-  # Path to 'share' directory
-  SHARE_DIR     = File.expand_path(
-    File.join(File.dirname(__FILE__), '../../share')
-  )
-  # Path to 'thirdparty' directory
-  THIRDPARTY_DIR = File.expand_path(
-    File.join(File.dirname(__FILE__), '../../thirdparty')
-  )
-
-  # Path to BNR file relative to game root.
-  BNR_FILE       = 'root/opening.bnr'
-  # Path to HDR file relative to game root.
-  HDR_FILE       = 'root/&&systemdata/ISO.hdr'
-
-  # Game ID
-  GAME_ID        = 'GEA'
-  # Region IDs
-  REGION_IDS     = {
-    'E'  => 'NTSC-U',
-    'J'  => 'NTSC-J',
-    'P'  => 'PAL-E',
-  }
-  # Maker ID
-  MAKER_ID       = '8P'
 
 #==============================================================================
 #                                   PUBLIC
@@ -104,8 +70,8 @@ class EntryTransform
   def store(_path)
     _root      = GameRoot.new
     _root.path = _path
-    _root.bnr  = BnrFile.new(File.join(_path, BNR_FILE))
-    _root.hdr  = HdrFile.new(File.join(_path, HDR_FILE))
+    _root.bnr  = BnrFile.new(File.join(_path, SYS.bnr_file))
+    _root.hdr  = HdrFile.new(File.join(_path, SYS.hdr_file))
     
     if valid?(_root)
       unless @data.any? { |_d| _d.root.path == _path }
@@ -126,10 +92,10 @@ class EntryTransform
     end
   end
   
-  # Collects and validates several game subdirectories in +SHARE_DIR+ by 
+  # Collects and validates several game subdirectories in +SYS.share_dir+ by 
   # default.
   def exec
-    collect(SHARE_DIR)
+    collect(SYS.share_dir)
   end
   
   # Returns +true+ if all necessary commands and files exist, otherwise 
@@ -151,14 +117,14 @@ class EntryTransform
     _valid &&= has_dir?(File.join(_path, 'root'))
     _valid &&= check_bnr(_bnr)
     _valid &&= check_hdr(_hdr)
-    _valid &&= has_file?(File.join(_path, EntryData::DOL_FILE))
-    _valid &&= has_file?(File.join(_path, EntryData::LMT_FILE))
+    _valid &&= has_file?(File.join(_path, SYS.dol_file))
+    _valid &&= has_file?(File.join(_path, SYS.lmt_file))
     
     if _hdr.region_id == 'P'
-      _valid &&= has_file?(File.join(_path, EntryData::SOT_FILE_GB))
-      _valid &&= has_file?(File.join(_path, EntryData::SOT_FILE_DE))
-      _valid &&= has_file?(File.join(_path, EntryData::SOT_FILE_ES))
-      _valid &&= has_file?(File.join(_path, EntryData::SOT_FILE_FR))
+      _valid &&= has_file?(File.join(_path, SYS.sot_file_gb))
+      _valid &&= has_file?(File.join(_path, SYS.sot_file_de))
+      _valid &&= has_file?(File.join(_path, SYS.sot_file_es))
+      _valid &&= has_file?(File.join(_path, SYS.sot_file_fr))
     end
     
     _valid
@@ -174,22 +140,22 @@ class EntryTransform
     
     _result = false
 
-    print('Check BNR file: Game title')
-    if _bnr.game_title =~ /^(Skies of Arcadia Legends|ｴﾀｰﾅﾙｱﾙｶﾃﾞｨｱ ﾚｼﾞｪﾝﾄﾞ)$/
+    print(sprintf(VOC.check_bnr, VOC.bnr_title))
+    if _bnr.game_title =~ SYS.game_title_exp
       _result = true
-      print(' - valid')
+      print(sprintf(' - %s', VOC.valid))
     else
-      print(' - incorrect')
+      print(sprintf(' - %s', VOC.incorrect))
     end
     print(" (#{_bnr.game_title})\n")
     
     if _result
-      print('Check BNR file: Developer')
-      if _bnr.developer =~ /^(SEGA|セガ)$/
+      print(sprintf(VOC.check_bnr, VOC.bnr_devel))
+      if _bnr.developer =~ SYS.developer_exp
         _result = true
-        print(' - valid')
+        print(sprintf(' - %s', VOC.valid))
       else
-        print(' - incorrect')
+        print(sprintf(' - %s', VOC.incorrect))
       end
       print(" (#{_bnr.developer})\n")
     end
@@ -206,45 +172,45 @@ class EntryTransform
     end
     
     _result = false
-    
-    print('Check HDR file: Game ID')
-    if _hdr.game_id == GAME_ID
+
+    print(sprintf(VOC.check_hdr, VOC.hdr_game))
+    if _hdr.game_id == SYS.game_id
       _result = true
-      print(' - valid')
+      print(sprintf(' - %s', VOC.valid))
     else
-      print(' - incorrect')
+      print(sprintf(' - %s', VOC.incorrect))
     end
     print(" (#{_hdr.game_id})\n")
 
     if _result
-      print('Check HDR file: Region ID')
-      if REGION_IDS.include?(_hdr.region_id)
+      print(sprintf(VOC.check_hdr, VOC.hdr_region))
+      if SYS.region_ids.include?(_hdr.region_id)
         _result = true
-        print(' - valid')
+        print(sprintf(' - %s', VOC.valid))
       else
-        print(' - incorrect')
+        print(sprintf(' - %s', VOC.incorrect))
       end
       print(" (#{_hdr.region_id})\n")
     end
 
     if _result
-      print('Check HDR file: Maker ID')
-      if _hdr.maker_id == MAKER_ID
+      print(sprintf(VOC.check_hdr, VOC.hdr_maker))
+      if _hdr.maker_id == SYS.maker_id
         _result = true
-        print(' - valid')
+        print(sprintf(' - %s', VOC.valid))
       else
-        print(' - incorrect')
+        print(sprintf(' - %s', VOC.incorrect))
       end
       print(" (#{_hdr.maker_id})\n")
     end
     
     if _result
-      print('Check HDR file: Name')
+      print(sprintf(VOC.check_hdr, VOC.hdr_name))
       if _hdr.name =~ /^(Skies of|Eternal) Arcadia Legends$/
         _result = true
-        print(' - valid')
+        print(sprintf(' - %s', VOC.valid))
       else
-        print(' - incorrect')
+        print(sprintf(' - %s', VOC.incorrect))
       end
       print(" (#{_hdr.name})\n")
     end

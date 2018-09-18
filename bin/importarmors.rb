@@ -44,7 +44,7 @@ class ArmorImporter < ArmorTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(File.join(_root.path, ArmorData::CSV_FILE))
+    _result &&= has_file?(File.join(_root.path, SYS.armor_csv_file))
     _result
   end
 

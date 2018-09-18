@@ -25,7 +25,6 @@
 require_relative('accessorydata.rb')
 require_relative('armordata.rb')
 require_relative('datfile.rb')
-require_relative('entrytransform.rb')
 require_relative('enemymagicdata.rb')
 require_relative('enemysupermovedata.rb')
 require_relative('enpfile.rb')
@@ -47,25 +46,6 @@ module ALX
 
 # Class to handle enemies from binary and/or CSV files.
 class EnemyData < EntryData
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Path to DAT files of boss enemies
-  EB_DAT_FILE        = 'root/battle/ebinit%s.dat'
-  # Path to DAT files of standard enemies
-  EC_DAT_FILE        = 'root/battle/ecinit%s.dat'
-  # Path to ENP files with +%s+ as wildcard
-  ENP_FILE           = 'root/field/%s.enp'
-  # Path to EVP file
-  EVP_FILE           = 'root/battle/epevent.evp'
-  # Path to CSV file of enemy database
-  ENEMY_CSV_FILE     = 'csv/enemies.csv'
-  # Path to CSV file of enemy events
-  EVENT_CSV_FILE     = 'csv/enemyevents.csv'
-  # Path to CSV file of enemy encounters
-  ENCOUNTER_CSV_FILE = 'csv/enemyencounters.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -77,20 +57,20 @@ class EnemyData < EntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Object, _root)
-    @eb_dat_file           = EB_DAT_FILE
-    @ec_dat_file           = EC_DAT_FILE
-    @enp_file              = sprintf(ENP_FILE, '*_ep')
-    @evp_file              = EVP_FILE
-    @enemy_csv_file        = ENEMY_CSV_FILE
-    @event_csv_file        = EVENT_CSV_FILE
-    @encounter_csv_file    = ENCOUNTER_CSV_FILE
+    @eb_dat_file           = SYS.eb_dat_file
+    @ec_dat_file           = SYS.ec_dat_file
+    @enp_file              = sprintf(SYS.enp_file, '*_ep')
+    @evp_file              = SYS.evp_file
+    @enemy_csv_file        = SYS.enemy_csv_file
+    @event_csv_file        = SYS.enemy_event_csv_file
+    @encounter_csv_file    = SYS.enemy_encounter_csv_file
     
     @accessory_data        = AccessoryData.new(_root)
     @armor_data            = ArmorData.new(_root)
     @enemy_magic_data      = EnemyMagicData.new(_root)
     @enemy_super_move_data = EnemySuperMoveData.new(_root)
-    @ship_cannon_data      = ShipCannonData.new(_root)
     @ship_accessory_data   = ShipAccessoryData.new(_root)
+    @ship_cannon_data      = ShipCannonData.new(_root)
     @ship_item_data        = ShipItemData.new(_root)
     @special_item_data     = SpecialItemData.new(_root)
     @usable_item_data      = UsableItemData.new(_root)
@@ -184,8 +164,8 @@ class EnemyData < EntryData
     @armor_data.load_all_from_bin
     @enemy_magic_data.load_all_from_bin
     @enemy_super_move_data.load_all_from_bin
-    @ship_cannon_data.load_all_from_bin
     @ship_accessory_data.load_all_from_bin
+    @ship_cannon_data.load_all_from_bin
     @ship_item_data.load_all_from_bin
     @special_item_data.load_all_from_bin
     @usable_item_data.load_all_from_bin
@@ -193,8 +173,8 @@ class EnemyData < EntryData
     
     @items.merge!(@accessory_data.data)
     @items.merge!(@armor_data.data)
-    @items.merge!(@ship_cannon_data.data)
     @items.merge!(@ship_accessory_data.data)
+    @items.merge!(@ship_cannon_data.data)
     @items.merge!(@ship_item_data.data)
     @items.merge!(@special_item_data.data)
     @items.merge!(@usable_item_data.data)
@@ -294,54 +274,54 @@ class EnemyData < EntryData
   # @param _filename [String] File name
   def load_enemies_from_csv(_filename)
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
-        puts(sprintf(STR_READ, [0, _f.lineno - 1].max, _f.pos))
+        puts(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _enemy = create_enemy
         _enemy.read_from_csv(_f)
         @enemies << _enemy
       end
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Reads all event entries from a CSV file.
   # @param _filename [String] File name
   def load_events_from_csv(_filename)
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
-        puts(sprintf(STR_READ, [0, _f.lineno - 1].max, _f.pos))
+        puts(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _event = create_event
         _event.read_from_csv(_f)
         @events << _event
       end
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Reads all encounter entries from a CSV file.
   # @param _filename [String] File name
   def load_encounters_from_csv(_filename)
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_READ, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
-        puts(sprintf(STR_READ, [0, _f.lineno - 1].max, _f.pos))
+        puts(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _encounter = create_encounter
         _encounter.read_from_csv(_f)
         @encounters << _encounter
       end
     end
 
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Reads all entries from CSV files.
@@ -390,19 +370,19 @@ class EnemyData < EntryData
     end
 
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     _header = create_enemy.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @enemies.each do |_enemy|
-        puts(sprintf(STR_WRITE, [0, _f.lineno - 1].max, _f.pos))
+        puts(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _enemy.write_to_csv(_f)
       end
     end
     
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Writes all event entries to a CSV file.
@@ -413,19 +393,19 @@ class EnemyData < EntryData
     end
     
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     _header = create_event.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @events.each do |_event|
-        puts(sprintf(STR_WRITE, [0, _f.lineno - 1].max, _f.pos))
+        puts(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _event.write_to_csv(_f)
       end
     end
     
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
       
   # Writes all encounter entries to a CSV file.
@@ -436,19 +416,19 @@ class EnemyData < EntryData
     end
     
     print("\n")
-    puts(sprintf(STR_OPEN, _filename, STR_OPEN_WRITE, STR_OPEN_DATA))
+    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     _header = create_encounter.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @encounters.each do |_encounter|
-        puts(sprintf(STR_WRITE, [0, _f.lineno - 1].max, _f.pos))
+        puts(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _encounter.write_to_csv(_f)
       end
     end
     
-    puts(sprintf(STR_CLOSE, _filename))
+    puts(sprintf(VOC.close, _filename))
   end
 
   # Writes all entries to CSV files.

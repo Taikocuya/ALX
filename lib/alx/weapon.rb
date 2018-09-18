@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('armor.rb')
+require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,33 +34,7 @@ module ALX
 
 # Class to handle a weapon.
 class Weapon < StdEntry
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
 
-  # Effect IDs
-  EFFECTS = Hash.new('???')
-  EFFECTS.store(-1, 'None'            )
-  EFFECTS.store( 0, 'Add Poison'      )
-  EFFECTS.store( 1, 'Add Sleep #1'    )
-  EFFECTS.store( 2, 'Add Weak'        )
-  EFFECTS.store( 3, 'Add Confusion #1')
-  EFFECTS.store( 4, 'Add Sleep #2'    )
-  EFFECTS.store( 5, 'Add Confusion #2')
-  EFFECTS.store( 6, 'Add Death #1'    )
-  EFFECTS.store( 7, 'Add Silence #1'  )
-  EFFECTS.store( 8, 'Add Stone #1'    )
-  EFFECTS.store( 9, 'Add Sleep #3'    )
-  EFFECTS.store(10, 'Add Death #2'    )
-  EFFECTS.store(11, 'Add Confusion #3')
-  EFFECTS.store(12, 'Add Silence #2'  )
-  EFFECTS.store(13, 'Add Stone #2'    )
-  EFFECTS.store(14, 'Add Confusion #4')
-  EFFECTS.store(15, 'Add Sleep #4'    )
-  EFFECTS.store(16, 'Add Death #3'    )
-  EFFECTS.store(17, 'Add Sleep #5'    )
-  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
@@ -73,25 +47,25 @@ class Weapon < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::CHARACTER_ID[-1]  ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::CHARACTER_NAME[-1], ''      )
-    members << IntVar.new(CsvHdr::RETAIL_PRICE      ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE  , -1, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_ALPHABET    , -1, 'c' )
-    members << IntVar.new(CsvHdr::EFFECT_ID         , -1, 'c' )
-    members << StrDmy.new(CsvHdr::EFFECT_NAME       , ''      )
+    members << IntVar.new(VOC.character_id[-1]  ,  0, 'c' )
+    members << StrDmy.new(VOC.character_name[-1], ''      )
+    members << IntVar.new(VOC.retail_price      ,  0, 'c' )
+    members << IntVar.new(VOC.order_importance  , -1, 'c' )
+    members << IntVar.new(VOC.order_alphabet    , -1, 'c' )
+    members << IntVar.new(VOC.effect_id         , -1, 'c' )
+    members << StrDmy.new(VOC.effect_name       , ''      )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr             ,  0, 'c' )
+      members << IntVar.new(padding_hdr         ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::PURCHASE_PRICE    ,  0, 'S>')
-    members << IntVar.new(CsvHdr::ATTACK            ,  0, 's>')
-    members << IntVar.new(CsvHdr::HIT               ,  0, 's>')
-    members << IntVar.new(CsvHdr::FEATURE_ID[-1]    , -1, 'c' )
-    members << StrDmy.new(CsvHdr::FEATURE_NAME[-1]  ,  ''     )
-    members << IntVar.new(padding_hdr               ,  0, 'c' )
-    members << IntVar.new(CsvHdr::FEATURE_VALUE[-1] ,  0, 's>')
+    members << IntVar.new(VOC.purchase_price    ,  0, 'S>')
+    members << IntVar.new(VOC.attack            ,  0, 's>')
+    members << IntVar.new(VOC.hit               ,  0, 's>')
+    members << IntVar.new(VOC.feature_id[-1]    , -1, 'c' )
+    members << StrDmy.new(VOC.feature_name[-1]  ,  ''     )
+    members << IntVar.new(padding_hdr           ,  0, 'c' )
+    members << IntVar.new(VOC.feature_value[-1] ,  0, 's>')
 
     add_dscr_members
   end
@@ -99,14 +73,14 @@ class Weapon < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    _id = find_member(CsvHdr::CHARACTER_ID[-1]).value
-    find_member(CsvHdr::CHARACTER_NAME[-1]).value = CHARACTERS[_id]
+    _id = find_member(VOC.character_id[-1]).value
+    find_member(VOC.character_name[-1]).value = VOC.characters[_id]
     
-    _id = find_member(CsvHdr::EFFECT_ID).value
-    find_member(CsvHdr::EFFECT_NAME).value = EFFECTS[_id]
+    _id = find_member(VOC.effect_id).value
+    find_member(VOC.effect_name).value = VOC.weapon_effects[_id]
     
-    _id = find_member(CsvHdr::FEATURE_ID[-1]).value
-    find_member(CsvHdr::FEATURE_NAME[-1]).value = Armor::FEATURES[_id]
+    _id = find_member(VOC.feature_id[-1]).value
+    find_member(VOC.feature_name[-1]).value = VOC.accessory_features[_id]
     
     super
   end

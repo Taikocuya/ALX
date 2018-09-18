@@ -44,7 +44,7 @@ class CharacterImporter < CharacterTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(File.join(_root.path, CharacterData::CSV_FILE))
+    _result &&= has_file?(File.join(_root.path, SYS.character_csv_file))
     _result
   end
 

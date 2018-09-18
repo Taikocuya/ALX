@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('effectable.rb')
 require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -35,21 +34,6 @@ module ALX
 
 # Class to handle a enemy skill.
 class EnemySuperMove < StdEntry
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Effectable)
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Category IDs
-  CATEGORIES = Hash.new('???')
-  CATEGORIES.store( 0, 'Super Move')
-  CATEGORIES.store( 1, 'Magic'     )
 
 #==============================================================================
 #                                   PUBLIC
@@ -64,58 +48,58 @@ class EnemySuperMove < StdEntry
     add_name_members
 
     if region != 'P'
-      members << IntVar.new(padding_hdr          ,  0, 'c' )
-      members << IntVar.new(padding_hdr          ,  0, 'c' )
-      members << IntVar.new(padding_hdr          ,  0, 'c' )
-      members << IntVar.new(padding_hdr          ,  0, 'c' )
+      members << IntVar.new(padding_hdr      ,  0, 'c' )
+      members << IntVar.new(padding_hdr      ,  0, 'c' )
+      members << IntVar.new(padding_hdr      ,  0, 'c' )
+      members << IntVar.new(padding_hdr      ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::CATEGORY_ID    ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::CATEGORY_NAME  , ''      )
-    members << IntVar.new(CsvHdr::EFFECT_ID      , -1, 'c' )
-    members << StrDmy.new(CsvHdr::EFFECT_NAME    , ''      )
-    members << IntVar.new(CsvHdr::SCOPE_ID       ,  0, 'C' )
-    members << StrDmy.new(CsvHdr::SCOPE_NAME     , ''      )
+    members << IntVar.new(VOC.category_id    ,  0, 'c' )
+    members << StrDmy.new(VOC.category_name  , ''      )
+    members << IntVar.new(VOC.effect_id      , -1, 'c' )
+    members << StrDmy.new(VOC.effect_name    , ''      )
+    members << IntVar.new(VOC.scope_id       ,  0, 'C' )
+    members << StrDmy.new(VOC.scope_name     , ''      )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr          ,  0, 'c' )
+      members << IntVar.new(padding_hdr      ,  0, 'c' )
     end
     
-    members << IntVar.new(CsvHdr::EFFECT_VALUE[1],  0, 's>')
-    members << IntVar.new(CsvHdr::EFFECT_VALUE[2],  0, 's>')
-    members << IntVar.new(CsvHdr::ELEMENT_ID     ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::ELEMENT_NAME   , ''      )
-    members << IntVar.new(CsvHdr::TYPE_ID        ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::TYPE_NAME      , ''      )
-    members << IntVar.new(unknown_hdr            ,  0, 'c' )
-    members << IntVar.new(unknown_hdr            ,  0, 'c' )
-    members << IntVar.new(CsvHdr::STATE_ID       ,  0, 'c' )
-    members << StrDmy.new(CsvHdr::STATE_NAME     , ''      )
-    members << IntVar.new(CsvHdr::STATE_HIT      ,  0, 'c' )
-    members << IntVar.new(padding_hdr            ,  0, 'c' )
-    members << IntVar.new(padding_hdr            ,  0, 'c' )
+    members << IntVar.new(VOC.effect_value[1],  0, 's>')
+    members << IntVar.new(VOC.effect_value[2],  0, 's>')
+    members << IntVar.new(VOC.element_id     ,  0, 'c' )
+    members << StrDmy.new(VOC.element_name   , ''      )
+    members << IntVar.new(VOC.type_id        ,  0, 'c' )
+    members << StrDmy.new(VOC.type_name      , ''      )
+    members << IntVar.new(unknown_hdr        ,  0, 'c' )
+    members << IntVar.new(unknown_hdr        ,  0, 'c' )
+    members << IntVar.new(VOC.state_id       ,  0, 'c' )
+    members << StrDmy.new(VOC.state_name     , ''      )
+    members << IntVar.new(VOC.state_hit      ,  0, 'c' )
+    members << IntVar.new(padding_hdr        ,  0, 'c' )
+    members << IntVar.new(padding_hdr        ,  0, 'c' )
   end
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    _id = find_member(CsvHdr::CATEGORY_ID).value
-    find_member(CsvHdr::CATEGORY_NAME).value = CATEGORIES[_id]
+    _id = find_member(VOC.category_id).value
+    find_member(VOC.category_name).value = VOC.enemy_skill_categories[_id]
     
-    _id = find_member(CsvHdr::EFFECT_ID).value
-    find_member(CsvHdr::EFFECT_NAME).value = EFFECTS[_id]
+    _id = find_member(VOC.effect_id).value
+    find_member(VOC.effect_name).value = VOC.effects[_id]
 
-    _id = find_member(CsvHdr::SCOPE_ID).value
-    find_member(CsvHdr::SCOPE_NAME).value = SCOPES[_id]
+    _id = find_member(VOC.scope_id).value
+    find_member(VOC.scope_name).value = VOC.scopes[_id]
 
-    _id = find_member(CsvHdr::ELEMENT_ID).value
-    find_member(CsvHdr::ELEMENT_NAME).value = ELEMENTS[_id]
+    _id = find_member(VOC.element_id).value
+    find_member(VOC.element_name).value = VOC.elements[_id]
 
-    _id = find_member(CsvHdr::TYPE_ID).value
-    find_member(CsvHdr::TYPE_NAME).value = TYPES[_id]
+    _id = find_member(VOC.type_id).value
+    find_member(VOC.type_name).value = VOC.types[_id]
 
-    _id = find_member(CsvHdr::STATE_ID).value
-    find_member(CsvHdr::STATE_NAME).value = STATES[_id]
+    _id = find_member(VOC.state_id).value
+    find_member(VOC.state_name).value = VOC.states[_id]
 
     super
   end

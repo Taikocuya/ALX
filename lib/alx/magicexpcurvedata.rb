@@ -23,8 +23,8 @@
 #==============================================================================
 
 require_relative('characterdata.rb')
-require_relative('entrytransform.rb')
 require_relative('magicexpcurve.rb')
+require_relative('stdentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -36,23 +36,6 @@ module ALX
 
 # Class to handle Magic EXP curves from binary and/or CSV files.
 class MagicExpCurveData < StdEntryData
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Range of entry IDs
-  ID_RANGE    = 0x0...0x6
-
-  # Offset ranges of data entries
-  DATA_FILES = {
-    'E' => DataRange.new(LMT_FILE, 0x948...0xaf8),
-    'J' => DataRange.new(LMT_FILE, 0x948...0xaf8),
-    'P' => DataRange.new(LMT_FILE, 0x948...0xaf8),
-  }
-
-  # Path to CSV file
-  CSV_FILE = 'csv/magicexpcurves.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -64,10 +47,10 @@ class MagicExpCurveData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(MagicExpCurve, _root)
-    self.id_range       = ID_RANGE
-    self.data_files = DATA_FILES
-    self.csv_file       = CSV_FILE
-    @character_data     = CharacterData.new(_root)
+    self.id_range   = SYS.magic_exp_curve_id_range
+    self.data_files = SYS.magic_exp_curve_data_files
+    self.csv_file   = SYS.magic_exp_curve_csv_file
+    @character_data = CharacterData.new(_root)
   end
 
   # Creates an entry.

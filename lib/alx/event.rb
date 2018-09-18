@@ -23,7 +23,6 @@
 #==============================================================================
 
 require_relative('entry.rb')
-require_relative('translatable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,28 +34,7 @@ module ALX
 
 # Class to handle an event.
 class Event < Entry
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
 
-  include(Translatable)
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Defeat condition IDs
-  DEFEATS = Hash.new('???')
-  DEFEATS.store(0, 'Must not lose')
-  DEFEATS.store(1, 'May try again')
-  DEFEATS.store(2, 'May lose')
-  
-  # Escape condition IDs
-  ESCAPES = Hash.new('???')
-  ESCAPES.store(0, 'Can escape'   )
-  ESCAPES.store(1, 'Cannot escape')
-  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
@@ -69,52 +47,52 @@ class Event < Entry
     super
     @enemies = {}
 
-    members << IntVar.new(CsvHdr::MEGIC_EXP           ,  0, 'C' )
+    members << IntVar.new(VOC.megic_exp           ,  0, 'C' )
     
     (0...4).each do |_i|
-      members << IntVar.new(CsvHdr::CHARACTER_ID[_i]  ,  0, 'C' )
-      members << StrDmy.new(CsvHdr::CHARACTER_NAME[_i], ''      )
-      members << IntVar.new(CsvHdr::CHARACTER_X[_i]   ,  0, 'C' )
-      members << IntVar.new(CsvHdr::CHARACTER_Y[_i]   ,  0, 'C' )
+      members << IntVar.new(VOC.character_id[_i]  ,  0, 'C' )
+      members << StrDmy.new(VOC.character_name[_i], ''      )
+      members << IntVar.new(VOC.character_x[_i]   ,  0, 'C' )
+      members << IntVar.new(VOC.character_y[_i]   ,  0, 'C' )
     end
     
     (0...7).each do |_i|
-      members << IntVar.new(CsvHdr::ENEMY_ID[_i]      ,  0, 'C' )
-      members << StrDmy.new(CsvHdr::ENEMY_NAME_JP[_i] , ''      )
-      members << StrDmy.new(CsvHdr::ENEMY_NAME_US[_i] , ''      )
-      members << StrDmy.new(CsvHdr::ENEMY_NAME_EU[_i] , ''      )
-      members << IntVar.new(CsvHdr::ENEMY_X[_i]       ,  0, 'C' )
-      members << IntVar.new(CsvHdr::ENEMY_Y[_i]       ,  0, 'C' )
+      members << IntVar.new(VOC.enemy_id[_i]      ,  0, 'C' )
+      members << StrDmy.new(VOC.enemy_name_jp[_i] , ''      )
+      members << StrDmy.new(VOC.enemy_name_us[_i] , ''      )
+      members << StrDmy.new(VOC.enemy_name_eu[_i] , ''      )
+      members << IntVar.new(VOC.enemy_x[_i]       ,  0, 'C' )
+      members << IntVar.new(VOC.enemy_y[_i]       ,  0, 'C' )
     end
 
-    members << IntVar.new(CsvHdr::UNKNOWN[-1]         ,  0, 'C' )
-    members << IntVar.new(CsvHdr::DEFEAT_COND_ID      ,  0, 'C' )
-    members << StrDmy.new(CsvHdr::DEFEAT_COND_NAME    , ''      )
-    members << IntVar.new(CsvHdr::ESCAPE_COND_ID      ,  0, 'C' )
-    members << StrDmy.new(CsvHdr::ESCAPE_COND_NAME    , ''      )
+    members << IntVar.new(VOC.unknown[-1]         ,  0, 'C' )
+    members << IntVar.new(VOC.defeat_cond_id      ,  0, 'C' )
+    members << StrDmy.new(VOC.defeat_cond_name    , ''      )
+    members << IntVar.new(VOC.escape_cond_id      ,  0, 'C' )
+    members << StrDmy.new(VOC.escape_cond_name    , ''      )
   end
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
     (0...4).each do |_i|
-      _id = find_member(CsvHdr::CHARACTER_ID[_i]).value
+      _id = find_member(VOC.character_id[_i]).value
       if _id != 255
-        _name = CHARACTERS[_id]
+        _name = VOC.characters[_id]
       else
         _name = 'None'
       end
-      find_member(CsvHdr::CHARACTER_NAME[_i]).value = _name
+      find_member(VOC.character_name[_i]).value = _name
     end
     
     (0...7).each do |_i|
-      _id = find_member(CsvHdr::ENEMY_ID[_i]).value
+      _id = find_member(VOC.enemy_id[_i]).value
       if _id != 255
         _entry = @enemies.find { |_enemy| _enemy.id == _id }
         if _entry
-          _name_jp = _entry.find_member(CsvHdr::NAME_JP_STR).value
-          _name_us = ENEMY_US_LIST[_id]
-          _name_eu = ENEMY_EU_LIST[_id]
+          _name_jp = _entry.find_member(VOC.name_jp_str).value
+          _name_us = VOC.enemies_us[_id]
+          _name_eu = VOC.enemies_eu[_id]
         else
           _name_jp = '???'
           _name_us = '???'
@@ -125,16 +103,16 @@ class Event < Entry
         _name_us = 'None'
         _name_eu = 'None'
       end
-      find_member(CsvHdr::ENEMY_NAME_JP[_i]).value = _name_jp
-      find_member(CsvHdr::ENEMY_NAME_US[_i]).value = _name_us
-      find_member(CsvHdr::ENEMY_NAME_EU[_i]).value = _name_eu
+      find_member(VOC.enemy_name_jp[_i]).value = _name_jp
+      find_member(VOC.enemy_name_us[_i]).value = _name_us
+      find_member(VOC.enemy_name_eu[_i]).value = _name_eu
     end
 
-    _id = find_member(CsvHdr::DEFEAT_COND_ID).value
-    find_member(CsvHdr::DEFEAT_COND_NAME).value = DEFEATS[_id]
+    _id = find_member(VOC.defeat_cond_id).value
+    find_member(VOC.defeat_cond_name).value = VOC.defeats[_id]
 
-    _id = find_member(CsvHdr::ESCAPE_COND_ID).value
-    find_member(CsvHdr::ESCAPE_COND_NAME).value = ESCAPES[_id]
+    _id = find_member(VOC.escape_cond_id).value
+    find_member(VOC.escape_cond_name).value = VOC.escapes[_id]
 
     super
   end

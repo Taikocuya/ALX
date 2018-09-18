@@ -24,7 +24,6 @@
 
 require_relative('armordata.rb')
 require_relative('accessorydata.rb')
-require_relative('entrytransform.rb')
 require_relative('shipaccessorydata.rb')
 require_relative('shipcannondata.rb')
 require_relative('shipitemdata.rb')
@@ -43,35 +42,6 @@ module ALX
 
 # Class to handle shops from binary and/or CSV files.
 class ShopData < StdEntryData
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Range of entry IDs
-  ID_RANGE    = 0x0...0x2b
-
-  # Offset ranges of data entries
-  DATA_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2e90a0...0x2ea218),
-    'J' => DataRange.new(DOL_FILE, 0x2e8d08...0x2e9e80),
-    'P' => DataRange.new(DOL_FILE, 0x2e7dd4...0x2e8f4c),
-  }
-
-  # Offset ranges of description entries
-  DSCR_FILES = {
-    'E' => DataRange.new(DOL_FILE, 0x2b6554...0x2b6730, :use_msg_table => true),
-    'J' => DataRange.new(DOL_FILE, 0x2b6158...0x2b6344, :use_msg_table => true),
-    'P' => [
-      DataRange.new(SOT_FILE_DE, 0x10c7c...0x10f00),
-      DataRange.new(SOT_FILE_ES, 0x1095d...0x10c03),
-      DataRange.new(SOT_FILE_FR, 0x10993...0x10c38),
-      DataRange.new(SOT_FILE_GB, 0x10580...0x1082b),
-    ],
-  }
-  
-  # Path to CSV file
-  CSV_FILE = 'csv/shops.csv'
 
 #==============================================================================
 #                                   PUBLIC
@@ -83,10 +53,10 @@ class ShopData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Shop, _root)
-    self.id_range   = ID_RANGE
-    self.data_files = DATA_FILES
-    self.dscr_files = DSCR_FILES
-    self.csv_file   = CSV_FILE
+    self.id_range   = SYS.shop_id_range
+    self.data_files = SYS.shop_data_files
+    self.dscr_files = SYS.shop_dscr_files
+    self.csv_file   = SYS.shop_csv_file
     
     @accessory_data      = AccessoryData.new(_root)
     @armor_data          = ArmorData.new(_root)

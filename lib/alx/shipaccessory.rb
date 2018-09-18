@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('shipcannon.rb')
+require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,24 +34,7 @@ module ALX
 
 # Class to handle a ship accessory.
 class ShipAccessory < StdEntry
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
 
-  # Feature IDs
-  FEATURES = Hash.new('???')
-  FEATURES.store(-1, 'None')
-  FEATURES.store( 2, 'Defense')
-  FEATURES.store( 3, 'MagDef')
-  FEATURES.store( 4, 'Quick')
-  FEATURES.store( 6, 'Dodge%')
-  FEATURES.store( 7, 'Value')
-  FEATURES.store(48, 'Attack: Main cannon')
-  FEATURES.store(64, 'Attack: Secondary cannon')
-  FEATURES.store(81, 'Hit%: Torpedo')
-  FEATURES.store(96, 'Attack: S-Cannon')
-  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
@@ -64,30 +47,30 @@ class ShipAccessory < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(CsvHdr::SHIP_FLAGS         ,  0, 'c' )
+    members << IntVar.new(VOC.ship_flags         ,  0, 'c' )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
+      members << IntVar.new(padding_hdr          ,  0, 'c' )
     end
     
-    members << StrDmy.new(CsvHdr::SHIP_LITTLEJACK[1] , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_LITTLEJACK[2] , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_DELPHINUS[1]  , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_DELPHINUS[2]  , ''      )
-    members << StrDmy.new(CsvHdr::SHIP_DELPHINUS[3]  , ''      )
+    members << StrDmy.new(VOC.ship_littlejack[1] , ''      )
+    members << StrDmy.new(VOC.ship_littlejack[2] , ''      )
+    members << StrDmy.new(VOC.ship_delphinus[1]  , ''      )
+    members << StrDmy.new(VOC.ship_delphinus[2]  , ''      )
+    members << StrDmy.new(VOC.ship_delphinus[3]  , ''      )
 
     (0...4).each do |_i|
-      members << IntVar.new(CsvHdr::FEATURE_ID[_i]   , -1, 'c' )
-      members << StrDmy.new(CsvHdr::FEATURE_NAME[_i] , ''      )
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
-      members << IntVar.new(CsvHdr::FEATURE_VALUE[_i],  0, 's>')
+      members << IntVar.new(VOC.feature_id[_i]   , -1, 'c' )
+      members << StrDmy.new(VOC.feature_name[_i] , ''      )
+      members << IntVar.new(padding_hdr          ,  0, 'c' )
+      members << IntVar.new(VOC.feature_value[_i],  0, 's>')
     end
 
-    members << IntVar.new(CsvHdr::PURCHASE_PRICE     ,  0, 'S>')
-    members << IntVar.new(CsvHdr::RETAIL_PRICE       ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_IMPORTANCE   ,  0, 'c' )
-    members << IntVar.new(CsvHdr::ORDER_ALPHABET     ,  0, 'c' )
-    members << IntVar.new(padding_hdr                ,  0, 'c' )
+    members << IntVar.new(VOC.purchase_price     ,  0, 'S>')
+    members << IntVar.new(VOC.retail_price       ,  0, 'c' )
+    members << IntVar.new(VOC.order_importance   ,  0, 'c' )
+    members << IntVar.new(VOC.order_alphabet     ,  0, 'c' )
+    members << IntVar.new(padding_hdr            ,  0, 'c' )
 
     add_dscr_members
   end
@@ -95,14 +78,14 @@ class ShipAccessory < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    _flags = find_member(CsvHdr::SHIP_FLAGS).value
-    SHIPS.each do |_id, _ship|
+    _flags = find_member(VOC.ship_flags).value
+    VOC.ships.each do |_id, _ship|
       find_member(_ship).value = _flags & (0x20 >> _id) != 0 ? 'X' : ''
     end
 
     (0...4).each do |_i|
-      _id = find_member(CsvHdr::FEATURE_ID[_i]).value
-      find_member(CsvHdr::FEATURE_NAME[_i]).value = FEATURES[_id]
+      _id = find_member(VOC.feature_id[_i]).value
+      find_member(VOC.feature_name[_i]).value = VOC.ship_accessory_features[_id]
     end
 
     super
