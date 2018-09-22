@@ -52,8 +52,8 @@ Put the files to some directory where you want it. Pre-exported CSV files with
 complete game data can already be found in the subdirectories:
 
 * `share/geaj8p/csv` for NTSC-J
-* `share/geaj8p/csv` for NTSC-U
-* `share/geae8p/csv` for PAL-E
+* `share/geae8p/csv` for NTSC-U
+* `share/geap8p/csv` for PAL-E
 
 The scripts require at least one extracted image of Skies of Arcadia Legends, 
 or rather, Eternal Arcadia Legends. The directory structure should look like 
