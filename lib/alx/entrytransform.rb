@@ -83,12 +83,14 @@ class EntryTransform
   # Collects and validates several game subdirectories in a given directory.
   # @param _path [String] Directory with game subdirectories inside it
   def collect(_path)
-    Dir.glob(File.join(_path, '*')).each do |_p|
-      unless File.directory?(_p)
-        next
+    if has_dir?(_path)
+      Dir.glob(File.join(_path, '*')).each do |_p|
+        unless File.directory?(_p)
+          next
+        end
+        
+        store(_p)
       end
-      
-      store(_p)
     end
   end
   
