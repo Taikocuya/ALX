@@ -50,8 +50,16 @@ class Shop < StdEntry
     members.clear
     members << IntVar.new(VOC.id              ,  0, 'S>')
     members << IntVar.new(padding_hdr         ,  0, 's>')
-    members << IntVar.new(VOC.message_id      ,  0, 'L>')
-
+    
+    case region
+    when 'E'
+      members << IntVar.new(VOC.message_us_id ,  0, 'L>')
+    when 'J'
+      members << IntVar.new(VOC.message_jp_id ,  0, 'L>')
+    when 'P'
+      members << IntVar.new(VOC.message_eu_id ,  0, 'L>')
+    end
+    
     add_dscr_members
     
     (0...48).each do |_i|

@@ -61,12 +61,15 @@ VOC.configure do |_v|
 # Common CSV headers
 #------------------------------------------------------------------------------
 
-  _v.id         = 'Entry ID'
-  _v.filter     = '[Filter]'
-  _v.message_id = 'Message ID'
-  _v.unknown    = _v.create_hdr('Unknown%s')
-  _v.padding    = _v.create_hdr('Padding%s')
+  _v.id      = 'Entry ID'
+  _v.filter  = '[Filter]'
+  _v.unknown = _v.create_hdr('Unknown%s')
+  _v.padding = _v.create_hdr('Padding%s')
 
+  _v.message_eu_id = 'EU message ID'
+  _v.message_jp_id = 'JP message ID'
+  _v.message_us_id = 'US message ID'
+  
   _v.name_eu_str = 'EU entry name'
   _v.name_jp_str = 'JP entry name'
   _v.name_us_str = 'US entry name'

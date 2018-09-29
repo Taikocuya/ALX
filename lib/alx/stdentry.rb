@@ -46,23 +46,23 @@ class StdEntry < Entry
   def add_name_members(_size = 17)
     case region
     when 'E'
-      members << StrVar.new(VOC.name_us_str , '', _size)
+      members << StrVar.new(VOC.name_us_str  , '', _size)
     when 'J'
-      members << StrVar.new(VOC.name_jp_str , '', _size)
+      members << StrVar.new(VOC.name_jp_str  , '', _size)
     when 'P'
-      members << IntVar.new(VOC.message_id  ,  0, 'L>' )
-      members << IntDmy.new(VOC.name_de_pos ,  0       )
-      members << IntDmy.new(VOC.name_de_size,  0       )
-      members << StrDmy.new(VOC.name_de_str , '', '\n' )
-      members << IntDmy.new(VOC.name_es_pos ,  0       )
-      members << IntDmy.new(VOC.name_es_size,  0       )
-      members << StrDmy.new(VOC.name_es_str , '', '\n' )
-      members << IntDmy.new(VOC.name_fr_pos ,  0       )
-      members << IntDmy.new(VOC.name_fr_size,  0       )
-      members << StrDmy.new(VOC.name_fr_str , '', '\n' )
-      members << IntDmy.new(VOC.name_gb_pos ,  0       )
-      members << IntDmy.new(VOC.name_gb_size,  0       )
-      members << StrDmy.new(VOC.name_gb_str , '', '\n' )
+      members << IntVar.new(VOC.message_eu_id,  0, 'L>' )
+      members << IntDmy.new(VOC.name_de_pos  ,  0       )
+      members << IntDmy.new(VOC.name_de_size ,  0       )
+      members << StrDmy.new(VOC.name_de_str  , '', '\n' )
+      members << IntDmy.new(VOC.name_es_pos  ,  0       )
+      members << IntDmy.new(VOC.name_es_size ,  0       )
+      members << StrDmy.new(VOC.name_es_str  , '', '\n' )
+      members << IntDmy.new(VOC.name_fr_pos  ,  0       )
+      members << IntDmy.new(VOC.name_fr_size ,  0       )
+      members << StrDmy.new(VOC.name_fr_str  , '', '\n' )
+      members << IntDmy.new(VOC.name_gb_pos  ,  0       )
+      members << IntDmy.new(VOC.name_gb_size ,  0       )
+      members << StrDmy.new(VOC.name_gb_str  , '', '\n' )
     end
   end
 
@@ -98,7 +98,15 @@ class StdEntry < Entry
 #------------------------------------------------------------------------------
   
   def msg_id
-    _member = find_member(VOC.message_id)
+    case region
+    when 'E'
+      _member = find_member(VOC.message_us_id)
+    when 'J'
+      _member = find_member(VOC.message_jp_id)
+    when 'P'
+      _member = find_member(VOC.message_eu_id)
+    end
+
     if _member
       _member.value
     else
@@ -107,7 +115,15 @@ class StdEntry < Entry
   end
 
   def msg_id=(_msg_id)
-    _member = find_member(VOC.message_id)
+    case region
+    when 'E'
+      _member = find_member(VOC.message_us_id)
+    when 'J'
+      _member = find_member(VOC.message_jp_id)
+    when 'P'
+      _member = find_member(VOC.message_eu_id)
+    end
+
     if _member
       _member.value = _msg_id
     else
