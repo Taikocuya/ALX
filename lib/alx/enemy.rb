@@ -51,7 +51,7 @@ class Enemy < Entry
     @files       = []
     
     members << StrDmy.new(VOC.filter                , ''      )
-    members << StrVar.new(VOC.name_jp_str           , '',   21)
+    members << StrVar.new(VOC.name_str['JP']        , '',   21)
     members << StrDmy.new(VOC.enemy_name_us[-1]     , ''      )
     members << StrDmy.new(VOC.enemy_name_eu[-1]     , ''      )
     members << IntVar.new(VOC.enemy_width           ,  0, 'c' )
@@ -123,15 +123,15 @@ class Enemy < Entry
   end
 
   # Reads one entry from a CSV  file.
-  # @param _f [CSV] CSV object
-  def read_from_csv(_f)
+  # @param _csv [CSV] CSV object
+  def read_from_csv(_csv)
     super
     @files = find_member(VOC.filter).value.split(';')
   end
   
   # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  # @param _csv [CSV] CSV object
+  def write_to_csv(_csv)
     find_member(VOC.filter).value           = @files.join(';')
     find_member(VOC.enemy_name_us[-1]).value = VOC.enemies_us[id]
     find_member(VOC.enemy_name_eu[-1]).value = VOC.enemies_eu[id]
@@ -152,12 +152,10 @@ class Enemy < Entry
         _name  = '???'
         if _entry
           case region
-          when 'E'
-            _name = _entry.find_member(VOC.name_us_str).value
-          when 'J'
-            _name = _entry.find_member(VOC.name_jp_str).value
+          when 'E', 'J'
+            _name = _entry.find_member(VOC.name_str[iso_code]).value
           when 'P'
-            _name = _entry.find_member(VOC.name_gb_str).value
+            _name = _entry.find_member(VOC.name_str['GB']    ).value
           end
         end
       else
@@ -186,12 +184,10 @@ class Enemy < Entry
         end
         if _entry
           case region
-          when 'E'
-            _instr_name = _entry.find_member(VOC.name_us_str).value
-          when 'J'
-            _instr_name = _entry.find_member(VOC.name_jp_str).value
+          when 'E', 'J'
+            _instr_name = _entry.find_member(VOC.name_str[iso_code]).value
           when 'P'
-            _instr_name = _entry.find_member(VOC.name_gb_str).value
+            _instr_name = _entry.find_member(VOC.name_str['GB']    ).value
           end
         end
 

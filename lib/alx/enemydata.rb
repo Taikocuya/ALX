@@ -271,8 +271,16 @@ class EnemyData < EntryData
   end
 
   # Reads all enemy entries from a CSV file.
-  # @param _filename [String] File name
-  def load_enemies_from_csv(_filename)
+  # @param _filename [String]  File name
+  # @param _template [Boolean] Skips missing file
+  def load_enemies_from_csv(_filename, _template = false)
+    if _template && !File.exist?(_filename)
+      return
+    end
+    if !@enemies.empty?
+      return
+    end
+    
     print("\n")
     puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
@@ -289,8 +297,16 @@ class EnemyData < EntryData
   end
 
   # Reads all event entries from a CSV file.
-  # @param _filename [String] File name
-  def load_events_from_csv(_filename)
+  # @param _filename [String]  File name
+  # @param _template [Boolean] Skips missing file
+  def load_events_from_csv(_filename, _template = false)
+    if _template && !File.exist?(_filename)
+      return
+    end
+    if !@events.empty?
+      return
+    end
+    
     print("\n")
     puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
@@ -307,8 +323,16 @@ class EnemyData < EntryData
   end
 
   # Reads all encounter entries from a CSV file.
-  # @param _filename [String] File name
-  def load_encounters_from_csv(_filename)
+  # @param _filename [String]  File name
+  # @param _template [Boolean] Skips missing file
+  def load_encounters_from_csv(_filename, _template = false)
+    if _template && !File.exist?(_filename)
+      return
+    end
+    if !@encounters.empty?
+      return
+    end
+    
     print("\n")
     puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
@@ -330,6 +354,19 @@ class EnemyData < EntryData
     load_events_from_csv(File.join(root.path, @event_csv_file))
     load_encounters_from_csv(File.join(root.path, @encounter_csv_file))
 	end
+
+  # Reads all entries from template files.
+  def load_all_from_templates
+    load_enemies_from_csv(
+      File.join(SYS.share_dir, File.basename(@enemy_csv_file)), true
+    )
+    load_events_from_csv(
+      File.join(SYS.share_dir, File.basename(@event_csv_file)), true
+    )
+    load_encounters_from_csv(
+      File.join(SYS.share_dir, File.basename(@encounter_csv_file)), true
+    )
+  end
 
   # Writes all enemy entries to a CSV file.
   # @param _filename [String] File name

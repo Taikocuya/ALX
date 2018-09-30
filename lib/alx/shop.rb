@@ -48,18 +48,10 @@ class Shop < StdEntry
     @items = {}
 
     members.clear
-    members << IntVar.new(VOC.id              ,  0, 'S>')
-    members << IntVar.new(padding_hdr         ,  0, 's>')
-    
-    case region
-    when 'E'
-      members << IntVar.new(VOC.message_us_id ,  0, 'L>')
-    when 'J'
-      members << IntVar.new(VOC.message_jp_id ,  0, 'L>')
-    when 'P'
-      members << IntVar.new(VOC.message_eu_id ,  0, 'L>')
-    end
-    
+    members << IntVar.new(VOC.id                  ,  0, 'S>')
+    members << IntVar.new(padding_hdr             ,  0, 's>')
+    members << IntVar.new(VOC.message_id[iso_code],  0, 'L>')
+
     add_dscr_members
     
     (0...48).each do |_i|
@@ -78,12 +70,10 @@ class Shop < StdEntry
         _name  = '???'
         if _entry
           case region
-          when 'E'
-            _name = _entry.find_member(VOC.name_us_str).value
-          when 'J'
-            _name = _entry.find_member(VOC.name_jp_str).value
+          when 'E', 'J'
+            _name = _entry.find_member(VOC.name_str[iso_code]).value
           when 'P'
-            _name = _entry.find_member(VOC.name_gb_str).value
+            _name = _entry.find_member(VOC.name_str['GB']).value
           end
         end
       else

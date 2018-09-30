@@ -90,7 +90,7 @@ class Event < Entry
       if _id != 255
         _entry = @enemies.find { |_enemy| _enemy.id == _id }
         if _entry
-          _name_jp = _entry.find_member(VOC.name_jp_str).value
+          _name_jp = _entry.find_member(VOC.name_str['JP']).value
           _name_us = VOC.enemies_us[_id]
           _name_eu = VOC.enemies_eu[_id]
         else

@@ -71,51 +71,51 @@ SYS.configure do |_s|
 # CSV paths
 #------------------------------------------------------------------------------
 
-  # Path to CSV file of accessories relative to csv root
+  # Path to CSV file of accessories relative to game root
   _s.accessory_csv_file            = 'csv/accessories.csv'
-  # Path to CSV file of armors relative to csv root
+  # Path to CSV file of armors relative to game root
   _s.armor_csv_file                = 'csv/armors.csv'
-  # Path to CSV file of characters relative to csv root
+  # Path to CSV file of characters relative to game root
   _s.character_csv_file            = 'csv/characters.csv'
-  # Path to CSV file of character magics relative to csv root
+  # Path to CSV file of character magics relative to game root
   _s.character_magic_csv_file      = 'csv/charactermagics.csv'
-  # Path to CSV file of character skills relative to csv root
+  # Path to CSV file of character skills relative to game root
   _s.character_super_move_csv_file = 'csv/charactersupermoves.csv'
-  # Path to CSV file of crew members relative to csv root
+  # Path to CSV file of crew members relative to game root
   _s.crew_member_csv_file          = 'csv/crewmembers.csv'
-  # Path to CSV file of enemy database relative to csv root
+  # Path to CSV file of enemy database relative to game root
   _s.enemy_csv_file                = 'csv/enemies.csv'
-  # Path to CSV file of enemy events relative to csv root
+  # Path to CSV file of enemy events relative to game root
   _s.enemy_event_csv_file          = 'csv/enemyevents.csv'
-  # Path to CSV file of enemy encounters relative to csv root
+  # Path to CSV file of enemy encounters relative to game root
   _s.enemy_encounter_csv_file      = 'csv/enemyencounters.csv'
-  # Path to CSV file of enemy magics relative to csv root
+  # Path to CSV file of enemy magics relative to game root
   _s.enemy_magic_csv_file          = 'csv/enemymagics.csv'
-  # Path to CSV file of enemy ships relative to csv root
+  # Path to CSV file of enemy ships relative to game root
   _s.enemy_ship_csv_file           = 'csv/enemyships.csv'
-  # Path to CSV file of enemy ship tasks relative to csv root
+  # Path to CSV file of enemy ship tasks relative to game root
   _s.enemy_ship_task_csv_file      = 'csv/enemyshiptasks.csv'
-  # Path to CSV file of enemy skills relative to csv root
+  # Path to CSV file of enemy skills relative to game root
   _s.enemy_super_move_csv_file     = 'csv/enemysupermoves.csv'
-  # Path to CSV file of EXP curves relative to csv root
+  # Path to CSV file of EXP curves relative to game root
   _s.exp_curve_csv_file            = 'csv/expcurves.csv'
-  # Path to CSV file of magic EXP curves relative to csv root
+  # Path to CSV file of magic EXP curves relative to game root
   _s.magic_exp_curve_csv_file      = 'csv/magicexpcurves.csv'
-  # Path to CSV file of playable ships relative to csv root
+  # Path to CSV file of playable ships relative to game root
   _s.playable_ship_csv_file        = 'csv/playableships.csv'
-  # Path to CSV file of ship accessories relative to csv root
+  # Path to CSV file of ship accessories relative to game root
   _s.ship_accessory_csv_file       = 'csv/shipaccessories.csv'
-  # Path to CSV file of ship cannons relative to csv root
+  # Path to CSV file of ship cannons relative to game root
   _s.ship_cannon_csv_file          = 'csv/shipcannons.csv'
-  # Path to CSV file of ship items relative to csv root
+  # Path to CSV file of ship items relative to game root
   _s.ship_item_csv_file            = 'csv/shipitems.csv'
-  # Path to CSV file of shops relative to csv root
+  # Path to CSV file of shops relative to game root
   _s.shop_csv_file                 = 'csv/shops.csv'
-  # Path to CSV file of special items relative to csv root
+  # Path to CSV file of special items relative to game root
   _s.special_item_csv_file         = 'csv/specialitems.csv'
-  # Path to CSV file of usable items relative to csv root
+  # Path to CSV file of usable items relative to game root
   _s.usable_item_csv_file          = 'csv/usableitems.csv'
-  # Path to CSV file of weapons relative to csv root
+  # Path to CSV file of weapons relative to game root
   _s.weapon_csv_file               = 'csv/weapons.csv'
   
 #------------------------------------------------------------------------------

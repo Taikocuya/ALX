@@ -52,10 +52,10 @@ module Cache
     @@cache[_key] = _value
   end
 
-  # @see ::Hash#has_key?
-  def self.has_key?(_key)
+  # @see ::Hash#include?
+  def self.include?(_key)
     @@cache ||= {}
-    @@cache.has_key?(_key)
+    @@cache.include?(_key)
   end
 
   # @see ::Hash#has_value?

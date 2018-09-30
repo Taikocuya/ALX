@@ -45,51 +45,45 @@ class StdEntry < Entry
   # @param _size [Integer] Size of name data members
   def add_name_members(_size = 17)
     case region
-    when 'E'
-      members << StrVar.new(VOC.name_us_str  , '', _size)
-    when 'J'
-      members << StrVar.new(VOC.name_jp_str  , '', _size)
+    when 'E', 'J'
+      members << StrVar.new(VOC.name_str[iso_code]  , '', _size)
     when 'P'
-      members << IntVar.new(VOC.message_eu_id,  0, 'L>' )
-      members << IntDmy.new(VOC.name_de_pos  ,  0       )
-      members << IntDmy.new(VOC.name_de_size ,  0       )
-      members << StrDmy.new(VOC.name_de_str  , '', '\n' )
-      members << IntDmy.new(VOC.name_es_pos  ,  0       )
-      members << IntDmy.new(VOC.name_es_size ,  0       )
-      members << StrDmy.new(VOC.name_es_str  , '', '\n' )
-      members << IntDmy.new(VOC.name_fr_pos  ,  0       )
-      members << IntDmy.new(VOC.name_fr_size ,  0       )
-      members << StrDmy.new(VOC.name_fr_str  , '', '\n' )
-      members << IntDmy.new(VOC.name_gb_pos  ,  0       )
-      members << IntDmy.new(VOC.name_gb_size ,  0       )
-      members << StrDmy.new(VOC.name_gb_str  , '', '\n' )
+      members << IntVar.new(VOC.message_id[iso_code],  0, 'L>' )
+      members << IntDmy.new(VOC.name_pos['DE']      ,  0       )
+      members << IntDmy.new(VOC.name_size['DE']     ,  0       )
+      members << StrDmy.new(VOC.name_str['DE']      , '', '\n' )
+      members << IntDmy.new(VOC.name_pos['ES']      ,  0       )
+      members << IntDmy.new(VOC.name_size['ES']     ,  0       )
+      members << StrDmy.new(VOC.name_str['ES']      , '', '\n' )
+      members << IntDmy.new(VOC.name_pos['FR']      ,  0       )
+      members << IntDmy.new(VOC.name_size['FR']     ,  0       )
+      members << StrDmy.new(VOC.name_str['FR']      , '', '\n' )
+      members << IntDmy.new(VOC.name_pos['GB']      ,  0       )
+      members << IntDmy.new(VOC.name_size['GB']     ,  0       )
+      members << StrDmy.new(VOC.name_str['GB']      , '', '\n' )
     end
   end
 
   # Add description data members.
   def add_dscr_members
     case region
-    when 'E'
-      members << IntDmy.new(VOC.dscr_us_pos ,  0      )
-      members << IntDmy.new(VOC.dscr_us_size,  0      )
-      members << StrDmy.new(VOC.dscr_us_str , ''      )
-    when 'J'
-      members << IntDmy.new(VOC.dscr_jp_pos ,  0      )
-      members << IntDmy.new(VOC.dscr_jp_size,  0      )
-      members << StrDmy.new(VOC.dscr_jp_str , ''      )
+    when 'E', 'J'
+      members << IntDmy.new(VOC.dscr_pos[iso_code] ,  0      )
+      members << IntDmy.new(VOC.dscr_size[iso_code],  0      )
+      members << StrDmy.new(VOC.dscr_str[iso_code] , ''      )
     when 'P'
-      members << IntDmy.new(VOC.dscr_de_pos ,  0      )
-      members << IntDmy.new(VOC.dscr_de_size,  0      )
-      members << StrDmy.new(VOC.dscr_de_str , '', '\n')
-      members << IntDmy.new(VOC.dscr_es_pos ,  0      )
-      members << IntDmy.new(VOC.dscr_es_size,  0      )
-      members << StrDmy.new(VOC.dscr_es_str , '', '\n')
-      members << IntDmy.new(VOC.dscr_fr_pos ,  0      )
-      members << IntDmy.new(VOC.dscr_fr_size,  0      )
-      members << StrDmy.new(VOC.dscr_fr_str , '', '\n')
-      members << IntDmy.new(VOC.dscr_gb_pos ,  0      )
-      members << IntDmy.new(VOC.dscr_gb_size,  0      )
-      members << StrDmy.new(VOC.dscr_gb_str , '', '\n')
+      members << IntDmy.new(VOC.dscr_pos['DE']     ,  0      )
+      members << IntDmy.new(VOC.dscr_size['DE']    ,  0      )
+      members << StrDmy.new(VOC.dscr_str['DE']     , '', '\n')
+      members << IntDmy.new(VOC.dscr_pos['ES']     ,  0      )
+      members << IntDmy.new(VOC.dscr_size['ES']    ,  0      )
+      members << StrDmy.new(VOC.dscr_str['ES']     , '', '\n')
+      members << IntDmy.new(VOC.dscr_pos['FR']     ,  0      )
+      members << IntDmy.new(VOC.dscr_size['FR']    ,  0      )
+      members << StrDmy.new(VOC.dscr_str['FR']     , '', '\n')
+      members << IntDmy.new(VOC.dscr_pos['GB']     ,  0      )
+      members << IntDmy.new(VOC.dscr_size['GB']    ,  0      )
+      members << StrDmy.new(VOC.dscr_str['GB']     , '', '\n')
     end
   end
   
@@ -98,15 +92,8 @@ class StdEntry < Entry
 #------------------------------------------------------------------------------
   
   def msg_id
-    case region
-    when 'E'
-      _member = find_member(VOC.message_us_id)
-    when 'J'
-      _member = find_member(VOC.message_jp_id)
-    when 'P'
-      _member = find_member(VOC.message_eu_id)
-    end
-
+    _member = find_member(VOC.message_id[iso_code])
+    
     if _member
       _member.value
     else
@@ -115,15 +102,8 @@ class StdEntry < Entry
   end
 
   def msg_id=(_msg_id)
-    case region
-    when 'E'
-      _member = find_member(VOC.message_us_id)
-    when 'J'
-      _member = find_member(VOC.message_jp_id)
-    when 'P'
-      _member = find_member(VOC.message_eu_id)
-    end
-
+    _member = find_member(VOC.message_id[iso_code])
+    
     if _member
       _member.value = _msg_id
     else

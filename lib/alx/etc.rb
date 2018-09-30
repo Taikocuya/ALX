@@ -108,19 +108,29 @@ class ETC
   # @param _format [String] Header format
   # @return [Hash] Dynamic CSV header
   def create_hdr(_format)
-    if _format =~ /^.*%s\]?$/
-      _enum = ' #%d'
-      _zero = ''
-    else
-      _enum = ' #%d '
-      _zero = ' '
+    _size = _format.scan(/%[ds]/).size
+    if _size != 1
+      _msg = "wrong number of fields in format sequence (#{_size} for 1)"
+      raise(ArgumentError, _msg, caller(1))
+    end
+    
+    _enum  = _format.include?('%d') ? '#%s' : '%s'
+    _empty = ''
+    _format.sub!('%d', '%s')
+    
+    if _format =~ /^\[?[^\[]+%s/
+      _enum = ' ' + _enum
+    end
+    if _format =~ /%s[^\]]+\]?$/
+      _enum  = _enum + ' '
+      _empty = ' '
     end
     
     Hash.new do |_h, _k|
-      if _k.is_a?(Integer) && _k > -1
+      if (_k.is_a?(Integer) && _k > -1) || (_k.is_a?(String) && !_k.empty?)
         _str = sprintf(_enum, _k)
       else
-        _str = _zero
+        _str = _empty
       end
       
       _h[_k] = sprintf(_format, _str)

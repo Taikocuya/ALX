@@ -61,15 +61,15 @@ class Encounter < Entry
   end
 
   # Reads one entry from a CSV  file.
-  # @param _f [CSV] CSV object
-  def read_from_csv(_f)
+  # @param _csv [CSV] CSV object
+  def read_from_csv(_csv)
     super
     @file = find_member(VOC.filter).value
   end
   
   # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  # @param _csv [CSV] CSV object
+  def write_to_csv(_csv)
     find_member(VOC.filter).value = @file
     
     (0...8).each do |_i|
@@ -77,7 +77,7 @@ class Encounter < Entry
       if _id != 255
         _entry = @enemies.find { |_enemy| _enemy.id == _id }
         if _entry
-          _name_jp = _entry.find_member(VOC.name_jp_str).value
+          _name_jp = _entry.find_member(VOC.name_str['JP']).value
           _name_us = VOC.enemies_us[_id]
           _name_eu = VOC.enemies_eu[_id]
         else

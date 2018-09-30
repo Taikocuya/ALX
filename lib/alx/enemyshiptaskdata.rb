@@ -115,9 +115,17 @@ class EnemyShipTaskData < EntryData
     end
   end
 
-  # Reads all data entries from a a CSV file.
-  # @param _filename [String] File name
-  def load_entries_from_csv(_filename)
+  # Reads all data entries from a CSV file.
+  # @param _filename [String]  File name
+  # @param _template [Boolean] Skips missing file
+  def load_entries_from_csv(_filename, _template = false)
+    if _template && !File.exist?(_filename)
+      return
+    end
+    if !@data.empty?
+      return
+    end
+    
     print("\n")
     puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
@@ -136,6 +144,13 @@ class EnemyShipTaskData < EntryData
   # Reads all entries from CSV files.
   def load_all_from_csv
     load_entries_from_csv(File.join(root.path, @csv_file))
+  end
+
+  # Reads all entries from template files.
+  def load_all_from_templates
+    load_entries_from_csv(
+      File.join(SYS.share_dir, File.basename(@csv_file)), true
+    )
   end
 
   # Writes all data entries to a CSV file.

@@ -118,33 +118,15 @@ class StdEntryData < EntryData
         _msg_id = _entry.msg_id
     
         case region
-        when 'E'
-          _pos  = _entry.find_member(VOC.name_us_pos )
-          _size = _entry.find_member(VOC.name_us_size)
-          _str  = _entry.find_member(VOC.name_us_str )
-        when 'J'
-          _pos  = _entry.find_member(VOC.name_jp_pos )
-          _size = _entry.find_member(VOC.name_jp_size)
-          _str  = _entry.find_member(VOC.name_jp_str )
+        when 'E', 'J'
+          _pos  = _entry.find_member(VOC.name_pos[iso_code] )
+          _size = _entry.find_member(VOC.name_size[iso_code])
+          _str  = _entry.find_member(VOC.name_str[iso_code] )
         when 'P'
-          case determine_lang(_filename)
-          when 'DE'
-            _pos  = _entry.find_member(VOC.name_de_pos )
-            _size = _entry.find_member(VOC.name_de_size)
-            _str  = _entry.find_member(VOC.name_de_str )
-          when 'ES'
-            _pos  = _entry.find_member(VOC.name_es_pos )
-            _size = _entry.find_member(VOC.name_es_size)
-            _str  = _entry.find_member(VOC.name_es_str )
-          when 'FR'
-            _pos  = _entry.find_member(VOC.name_fr_pos )
-            _size = _entry.find_member(VOC.name_fr_size)
-            _str  = _entry.find_member(VOC.name_fr_str )
-          when 'GB'
-            _pos  = _entry.find_member(VOC.name_gb_pos )
-            _size = _entry.find_member(VOC.name_gb_size)
-            _str  = _entry.find_member(VOC.name_gb_str )
-          end
+          _lang = determine_lang(_filename)
+          _pos  = _entry.find_member(VOC.name_pos[_lang] )
+          _size = _entry.find_member(VOC.name_size[_lang])
+          _str  = _entry.find_member(VOC.name_str[_lang] )
         end
     
         if _range.use_msg_table
@@ -198,33 +180,15 @@ class StdEntryData < EntryData
         _msg_id = _entry.msg_id
 
         case region
-        when 'E'
-          _pos  = _entry.find_member(VOC.dscr_us_pos )
-          _size = _entry.find_member(VOC.dscr_us_size)
-          _str  = _entry.find_member(VOC.dscr_us_str )
-        when 'J'
-          _pos  = _entry.find_member(VOC.dscr_jp_pos )
-          _size = _entry.find_member(VOC.dscr_jp_size)
-          _str  = _entry.find_member(VOC.dscr_jp_str )
+        when 'E', 'J'
+          _pos  = _entry.find_member(VOC.dscr_pos[iso_code] )
+          _size = _entry.find_member(VOC.dscr_size[iso_code])
+          _str  = _entry.find_member(VOC.dscr_str[iso_code] )
         when 'P'
-          case determine_lang(_filename)
-          when 'DE'
-            _pos  = _entry.find_member(VOC.dscr_de_pos )
-            _size = _entry.find_member(VOC.dscr_de_size)
-            _str  = _entry.find_member(VOC.dscr_de_str )
-          when 'ES'
-            _pos  = _entry.find_member(VOC.dscr_es_pos )
-            _size = _entry.find_member(VOC.dscr_es_size)
-            _str  = _entry.find_member(VOC.dscr_es_str )
-          when 'FR'
-            _pos  = _entry.find_member(VOC.dscr_fr_pos )
-            _size = _entry.find_member(VOC.dscr_fr_size)
-            _str  = _entry.find_member(VOC.dscr_fr_str )
-          when 'GB'
-            _pos  = _entry.find_member(VOC.dscr_gb_pos )
-            _size = _entry.find_member(VOC.dscr_gb_size)
-            _str  = _entry.find_member(VOC.dscr_gb_str )
-          end
+          _lang = determine_lang(_filename)
+          _pos  = _entry.find_member(VOC.dscr_pos[_lang] )
+          _size = _entry.find_member(VOC.dscr_size[_lang])
+          _str  = _entry.find_member(VOC.dscr_str[_lang] )
         end
         
         if _range.use_msg_table
@@ -359,23 +323,11 @@ class StdEntryData < EntryData
           next
         end
         
-        case determine_lang(_filename)
-        when 'DE'
-          _pos  = _entry.find_member(VOC.name_de_pos ).value
-          _size = _entry.find_member(VOC.name_de_size).value
-          _str  = _entry.find_member(VOC.name_de_str ).value
-        when 'ES'
-          _pos  = _entry.find_member(VOC.name_es_pos ).value
-          _size = _entry.find_member(VOC.name_es_size).value
-          _str  = _entry.find_member(VOC.name_es_str ).value
-        when 'FR'
-          _pos  = _entry.find_member(VOC.name_fr_pos ).value
-          _size = _entry.find_member(VOC.name_fr_size).value
-          _str  = _entry.find_member(VOC.name_fr_str ).value
-        when 'GB'
-          _pos  = _entry.find_member(VOC.name_gb_pos ).value
-          _size = _entry.find_member(VOC.name_gb_size).value
-          _str  = _entry.find_member(VOC.name_gb_str ).value
+        _lang = determine_lang(_filename)
+        if _lang
+          _pos  = _entry.find_member(VOC.name_pos[_lang] ).value
+          _size = _entry.find_member(VOC.name_size[_lang]).value
+          _str  = _entry.find_member(VOC.name_str[_lang] ).value
         else
           _pos  = 0
           _size = 0
@@ -422,32 +374,16 @@ class StdEntryData < EntryData
         end
 
         case region
-        when 'E'
-          _pos  = _entry.find_member(VOC.dscr_us_pos ).value
-          _size = _entry.find_member(VOC.dscr_us_size).value
-          _str  = _entry.find_member(VOC.dscr_us_str ).value
-        when 'J'
-          _pos  = _entry.find_member(VOC.dscr_jp_pos ).value
-          _size = _entry.find_member(VOC.dscr_jp_size).value
-          _str  = _entry.find_member(VOC.dscr_jp_str ).value
+        when 'E', 'J'
+          _pos  = _entry.find_member(VOC.dscr_pos[iso_code] ).value
+          _size = _entry.find_member(VOC.dscr_size[iso_code]).value
+          _str  = _entry.find_member(VOC.dscr_str[iso_code] ).value
         when 'P'
-          case determine_lang(_filename)
-          when 'DE'
-            _pos  = _entry.find_member(VOC.dscr_de_pos ).value
-            _size = _entry.find_member(VOC.dscr_de_size).value
-            _str  = _entry.find_member(VOC.dscr_de_str ).value
-          when 'ES'
-            _pos  = _entry.find_member(VOC.dscr_es_pos ).value
-            _size = _entry.find_member(VOC.dscr_es_size).value
-            _str  = _entry.find_member(VOC.dscr_es_str ).value
-          when 'FR'
-            _pos  = _entry.find_member(VOC.dscr_fr_pos ).value
-            _size = _entry.find_member(VOC.dscr_fr_size).value
-            _str  = _entry.find_member(VOC.dscr_fr_str ).value
-          when 'GB'
-            _pos  = _entry.find_member(VOC.dscr_gb_pos ).value
-            _size = _entry.find_member(VOC.dscr_gb_size).value
-            _str  = _entry.find_member(VOC.dscr_gb_str ).value
+          _lang = determine_lang(_filename)
+          if _lang
+            _pos  = _entry.find_member(VOC.dscr_pos[_lang] ).value
+            _size = _entry.find_member(VOC.dscr_size[_lang]).value
+            _str  = _entry.find_member(VOC.dscr_str[_lang] ).value
           else
             _pos  = 0
             _size = 0
@@ -510,17 +446,29 @@ class StdEntryData < EntryData
   end
 
   # Reads all data entries from a a CSV file.
-  # @param _filename [String] File name
-  def load_entries_from_csv(_filename)
+  # @param _filename [String]  File name
+  # @param _force    [Boolean] Skips missing file and ignore missing data members.
+  def load_entries_from_csv(_filename, _force = false)
+    if _force && !File.exist?(_filename)
+      return
+    end
+  
     print("\n")
     puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
         puts(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
+        _row   = _f.shift
         _entry = create_entry
-        _entry.read_from_csv(_f)
-        @data[_entry.id] = _entry
+        _entry.read_from_csv(_row, _force)
+        _exist = @data.include?(_entry.id) 
+
+        if _force && _exist
+          @data[_entry.id].read_from_csv(_row, _force)
+        else
+          @data[_entry.id] = _entry
+        end
       end
     end
 
@@ -530,6 +478,13 @@ class StdEntryData < EntryData
   # Reads all entries from CSV files.
   def load_all_from_csv
     load_entries_from_csv(File.join(root.path, @csv_file))
+  end
+
+  # Reads all entries from template files.
+  def load_all_from_templates
+    load_entries_from_csv(
+      File.join(SYS.share_dir, File.basename(@csv_file)), true
+    )
   end
 
   # Writes all data entries to a CSV file.

@@ -47,31 +47,31 @@ class Armor < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(VOC.character_flags        ,  0, 'c' )
+    members << IntVar.new(VOC.character_flags         ,  0, 'c' )
     VOC.characters.each_value do |_chara|
-      members << StrDmy.new(VOC.character_opt[_chara], ''      )
+      members << StrDmy.new(VOC.character_opt[_chara] , ''      )
     end
     
-    members << IntVar.new(VOC.retail_price           ,  0, 'c' )
-    members << IntVar.new(VOC.order_importance       , -1, 'c' )
-    members << IntVar.new(VOC.order_alphabet         , -1, 'c' )
+    members << IntVar.new(VOC.retail_price            ,  0, 'c' )
+    members << IntVar.new(VOC.order_priority          , -1, 'c' )
+    members << IntVar.new(VOC.order_alphabet[iso_code], -1, 'c' )
     
     if region != 'P'
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
+      members << IntVar.new(padding_hdr               ,  0, 'c' )
     end
 
-    members << IntVar.new(VOC.purchase_price         ,  0, 'S>')
+    members << IntVar.new(VOC.purchase_price          ,  0, 'S>')
     
     (0...4).each do |_i|
-      members << IntVar.new(VOC.feature_id[_i]       , -1, 'c' )
-      members << StrDmy.new(VOC.feature_name[_i]     , ''      )
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
-      members << IntVar.new(VOC.feature_value[_i]    ,  0, 's>')
+      members << IntVar.new(VOC.feature_id[_i]        , -1, 'c' )
+      members << StrDmy.new(VOC.feature_name[_i]      , ''      )
+      members << IntVar.new(padding_hdr               ,  0, 'c' )
+      members << IntVar.new(VOC.feature_value[_i]     ,  0, 's>')
     end
 
     if region == 'P'
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
+      members << IntVar.new(padding_hdr               ,  0, 'c' )
+      members << IntVar.new(padding_hdr               ,  0, 'c' )
     end
 
     add_dscr_members

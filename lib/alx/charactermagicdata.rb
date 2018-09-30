@@ -73,33 +73,15 @@ class CharacterMagicData < StdEntryData
         _msg_id = _entry.msg_id
     
         case region
-        when 'E'
-          _pos  = _entry.find_member(VOC.ship_dscr_us_pos )
-          _size = _entry.find_member(VOC.ship_dscr_us_size)
-          _str  = _entry.find_member(VOC.ship_dscr_us_str )
-        when 'J'
-          _pos  = _entry.find_member(VOC.ship_dscr_jp_pos )
-          _size = _entry.find_member(VOC.ship_dscr_jp_size)
-          _str  = _entry.find_member(VOC.ship_dscr_jp_str )
+        when 'E', 'J'
+          _pos  = _entry.find_member(VOC.ship_dscr_pos[iso_code] )
+          _size = _entry.find_member(VOC.ship_dscr_size[iso_code])
+          _str  = _entry.find_member(VOC.ship_dscr_str[iso_code] )
         when 'P'
-          case determine_lang(_filename)
-          when 'DE'
-            _pos  = _entry.find_member(VOC.ship_dscr_de_pos )
-            _size = _entry.find_member(VOC.ship_dscr_de_size)
-            _str  = _entry.find_member(VOC.ship_dscr_de_str )
-          when 'ES'
-            _pos  = _entry.find_member(VOC.ship_dscr_es_pos )
-            _size = _entry.find_member(VOC.ship_dscr_es_size)
-            _str  = _entry.find_member(VOC.ship_dscr_es_str )
-          when 'FR'
-            _pos  = _entry.find_member(VOC.ship_dscr_fr_pos )
-            _size = _entry.find_member(VOC.ship_dscr_fr_size)
-            _str  = _entry.find_member(VOC.ship_dscr_fr_str )
-          when 'GB'
-            _pos  = _entry.find_member(VOC.ship_dscr_gb_pos )
-            _size = _entry.find_member(VOC.ship_dscr_gb_size)
-            _str  = _entry.find_member(VOC.ship_dscr_gb_str )
-          end
+          _lang = determine_lang(_filename)
+          _pos  = _entry.find_member(VOC.ship_dscr_pos[_lang] )
+          _size = _entry.find_member(VOC.ship_dscr_size[_lang])
+          _str  = _entry.find_member(VOC.ship_dscr_str[_lang] )
         end
 
         if _range.use_msg_table
@@ -176,32 +158,16 @@ class CharacterMagicData < StdEntryData
         end
   
         case region
-        when 'E'
-          _pos  = _entry.find_member(VOC.ship_dscr_us_pos ).value
-          _size = _entry.find_member(VOC.ship_dscr_us_size).value
-          _str  = _entry.find_member(VOC.ship_dscr_us_str ).value
-        when 'J'
-          _pos  = _entry.find_member(VOC.ship_dscr_jp_pos ).value
-          _size = _entry.find_member(VOC.ship_dscr_jp_size).value
-          _str  = _entry.find_member(VOC.ship_dscr_jp_str ).value
+        when 'E', 'J'
+          _pos  = _entry.find_member(VOC.ship_dscr_pos[iso_code] ).value
+          _size = _entry.find_member(VOC.ship_dscr_size[iso_code]).value
+          _str  = _entry.find_member(VOC.ship_dscr_str[iso_code] ).value
         when 'P'
-          case determine_lang(_filename)
-          when 'DE'
-            _pos  = _entry.find_member(VOC.ship_dscr_de_pos ).value
-            _size = _entry.find_member(VOC.ship_dscr_de_size).value
-            _str  = _entry.find_member(VOC.ship_dscr_de_str ).value
-          when 'ES'
-            _pos  = _entry.find_member(VOC.ship_dscr_es_pos ).value
-            _size = _entry.find_member(VOC.ship_dscr_es_size).value
-            _str  = _entry.find_member(VOC.ship_dscr_es_str ).value
-          when 'FR'
-            _pos  = _entry.find_member(VOC.ship_dscr_fr_pos ).value
-            _size = _entry.find_member(VOC.ship_dscr_fr_size).value
-            _str  = _entry.find_member(VOC.ship_dscr_fr_str ).value
-          when 'GB'
-            _pos  = _entry.find_member(VOC.ship_dscr_gb_pos ).value
-            _size = _entry.find_member(VOC.ship_dscr_gb_size).value
-            _str  = _entry.find_member(VOC.ship_dscr_gb_str ).value
+          _lang = determine_lang(_filename)
+          if _lang
+            _pos  = _entry.find_member(VOC.ship_dscr_pos[_lang] ).value
+            _size = _entry.find_member(VOC.ship_dscr_size[_lang]).value
+            _str  = _entry.find_member(VOC.ship_dscr_str[_lang] ).value
           else
             _pos  = 0
             _size = 0

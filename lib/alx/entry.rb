@@ -56,6 +56,17 @@ class Entry
     @members    = [IntDmy.new(VOC.id, id)]
     @padding_id = -1
     @unknown_id = -1
+    
+    case region
+    when 'E'
+      @iso_code = 'US'
+    when 'J'
+      @iso_code = 'JP'
+    when 'P'
+      @iso_code = 'EU'
+    else
+      @iso_code = ''
+    end
   end
 
   # Returns the size of the entry.
@@ -105,7 +116,6 @@ class Entry
     if _result
       _result &&= @members.all? do |_m|
         _other = _entry.find_member(_m.name)
-        
         if _other && (_m.is_a?(FltVar) || _m.is_a?(IntVar) || _m.is_a?(StrVar))
           _m.value == _other.value
         else
@@ -133,29 +143,33 @@ class Entry
     end
   end
 
-  # Reads one entry from a CSV  file.
-  # @param _f [CSV] CSV object
-  def read_from_csv(_f)
-    _row = _f.shift
+  # Reads one entry from a CSV file or CSV row.
+  # @param _csv   [CSV, CSV::Row] CSV object or CSV row
+  # @param _force [Boolean]       Ignore missing data members.
+  def read_from_csv(_csv, _force = false)
+    _row = _csv.is_a?(CSV::Row) ? _csv : _csv.shift
     @members.each do |_m|
-      _m.read_from_csv_row(_row)
+      if !_force || _row.header?(_m.name)
+        _m.read_from_csv_row(_row)
+      end
     end
   end
 
   # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  # @param _csv [CSV] CSV object
+  def write_to_csv(_csv)
     _row = CSV::Row.new(header, [])
     @members.each do |_m|
       _m.write_to_csv_row(_row)
     end
-    _f << _row
+    _csv << _row
   end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
+  attr_reader   :iso_code
   attr_reader   :region
   attr_accessor :members
 

@@ -74,14 +74,7 @@ class MagicExpCurve < StdEntry
     _chara = @characters[id]
     _name  = '???'
     if _chara
-      case region
-      when 'E'
-        _name = _chara.find_member(VOC.name_us_str).value
-      when 'J'
-        _name = _chara.find_member(VOC.name_jp_str).value
-      when 'P'
-        _name = _chara.find_member(VOC.name_eu_str).value
-      end
+      _name = _chara.find_member(VOC.name_str[iso_code]).value
     end
     find_member(VOC.character_name[-1]).value = _name
 

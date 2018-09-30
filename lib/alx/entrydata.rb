@@ -70,9 +70,20 @@ class EntryData
 #==============================================================================
 
   protected
+
+  def iso_code
+    case region
+    when 'E'
+      'US'
+    when 'J'
+      'JP'
+    when 'P'
+      'EU'
+    else
+      ''
+    end
+  end
     
-  # Returns the region ID.
-  # @return [String] Region ID
   def region
     @root.hdr.region_id
   end

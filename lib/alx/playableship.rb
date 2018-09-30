@@ -100,12 +100,10 @@ class PlayableShip < StdEntry
         _name  = '???'
         if _entry
           case region
-          when 'E'
-            _name = _entry.find_member(VOC.name_us_str).value
-          when 'J'
-            _name = _entry.find_member(VOC.name_jp_str).value
+          when 'E', 'J'
+            _name = _entry.find_member(VOC.name_str[iso_code]).value
           when 'P'
-            _name = _entry.find_member(VOC.name_gb_str).value
+            _name = _entry.find_member(VOC.name_str['GB']).value
           end
         end
       else
@@ -121,12 +119,10 @@ class PlayableShip < StdEntry
         _name  = '???'
         if _entry
           case region
-          when 'E'
-            _name = _entry.find_member(VOC.name_us_str).value
-          when 'J'
-            _name = _entry.find_member(VOC.name_jp_str).value
+          when 'E', 'J'
+            _name = _entry.find_member(VOC.name_str[iso_code]).value
           when 'P'
-            _name = _entry.find_member(VOC.name_gb_str).value
+            _name = _entry.find_member(VOC.name_str['GB']).value
           end
         end
       else

@@ -54,7 +54,7 @@ class CharacterSuperMove < StdEntry
     end
     
     members << StrDmy.new(VOC.element_name      , ''      )
-    members << IntVar.new(VOC.order_importance  ,  0, 's>')
+    members << IntVar.new(VOC.order_priority    ,  0, 's>')
     members << IntVar.new(VOC.occasion_flags    ,  0, 'c' )
     members << StrDmy.new(VOC.occasion_menu     , ''      )
     members << StrDmy.new(VOC.occasion_battle   , ''      )

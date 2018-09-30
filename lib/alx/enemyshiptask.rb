@@ -77,15 +77,15 @@ class EnemyShipTask < Entry
   end
 
   # Reads one entry from a CSV  file.
-  # @param _f [CSV] CSV object
-  def read_from_csv(_f)
+  # @param _csv [CSV] CSV object
+  def read_from_csv(_csv)
     super
     @file = find_member(VOC.filter).value
   end
   
   # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  # @param _csv [CSV] CSV object
+  def write_to_csv(_csv)
     _enemy_id   = SYS.enemy_ship_map[@file]
     _enemy_ship = @enemy_ships[_enemy_id]
     
@@ -95,12 +95,10 @@ class EnemyShipTask < Entry
     _name = '???'
     if _enemy_ship
       case region
-      when 'E'
-        _name = _enemy_ship.find_member(VOC.name_us_str).value
-      when 'J'
-        _name = _enemy_ship.find_member(VOC.name_jp_str).value
+      when 'E', 'J'
+        _name = _enemy_ship.find_member(VOC.name_str[iso_code]).value
       when 'P'
-        _name = _enemy_ship.find_member(VOC.name_gb_str).value
+        _name = _enemy_ship.find_member(VOC.name_str['GB']    ).value
       end
     end
     find_member(VOC.enemy_ship_name).value = _name
@@ -146,12 +144,10 @@ class EnemyShipTask < Entry
       _entry = @magics[_param_id]
       if _entry
         case region
-        when 'E'
-          _param_name = _entry.find_member(VOC.name_us_str).value
-        when 'J'
-          _param_name = _entry.find_member(VOC.name_jp_str).value
+        when 'E', 'J'
+          _param_name = _entry.find_member(VOC.name_str[iso_code]).value
         when 'P'
-          _param_name = _entry.find_member(VOC.name_gb_str).value
+          _param_name = _entry.find_member(VOC.name_str['GB']    ).value
         end
       end
     when 2
@@ -177,12 +173,10 @@ class EnemyShipTask < Entry
       _entry = @magics[_param_id]
       if _entry
         case region
-        when 'E'
-          _param_name = _entry.find_member(VOC.name_us_str).value
-        when 'J'
-          _param_name = _entry.find_member(VOC.name_jp_str).value
+        when 'E', 'J'
+          _param_name = _entry.find_member(VOC.name_str[iso_code]).value
         when 'P'
-          _param_name = _entry.find_member(VOC.name_gb_str).value
+          _param_name = _entry.find_member(VOC.name_str['GB']    ).value
         end
       end
     when 2
