@@ -51,6 +51,7 @@ class CrewMemberData < StdEntryData
     self.name_files = SYS.crew_member_name_files
     self.dscr_files = SYS.crew_member_dscr_files
     self.csv_file   = SYS.crew_member_csv_file
+    self.tpl_file   = SYS.crew_member_tpl_file
   end
 
 end # class CrewMemberData

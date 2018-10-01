@@ -50,6 +50,7 @@ class EnemyMagicData < StdEntryData
     self.data_files = SYS.enemy_magic_data_files
     self.name_files = SYS.enemy_magic_name_files
     self.csv_file   = SYS.enemy_magic_csv_file
+    self.tpl_file   = SYS.enemy_magic_tpl_file
   end
 
 end # class EnemyMagicData

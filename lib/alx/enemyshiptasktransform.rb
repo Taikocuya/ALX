@@ -50,7 +50,6 @@ class EnemyShipTaskTransform < StdEntryTransform
   # Reads all entries from CSV files and writes all entries to binary files.
   def transform_csv_to_bin
     data.each do |_d|
-      _d.load_all_from_templates
       _d.load_all_from_csv
       _d.save_all_to_bin
     end

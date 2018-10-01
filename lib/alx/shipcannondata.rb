@@ -51,6 +51,7 @@ class ShipCannonData < StdEntryData
     self.name_files = SYS.ship_cannon_name_files
     self.dscr_files = SYS.ship_cannon_dscr_files
     self.csv_file   = SYS.ship_cannon_csv_file
+    self.tpl_file   = SYS.ship_cannon_tpl_file
   end
 
 end # class ShipCannonData

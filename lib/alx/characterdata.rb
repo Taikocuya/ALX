@@ -51,6 +51,7 @@ class CharacterData < StdEntryData
     self.id_range   = SYS.character_id_range
     self.data_files = SYS.character_data_files
     self.csv_file   = SYS.character_csv_file
+    self.tpl_file   = SYS.character_tpl_file
     @weapon_data    = WeaponData.new(_root)
     @armor_data     = ArmorData.new(_root)
     @accessory_data = AccessoryData.new(_root)

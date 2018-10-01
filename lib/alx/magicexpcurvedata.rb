@@ -50,6 +50,7 @@ class MagicExpCurveData < StdEntryData
     self.id_range   = SYS.magic_exp_curve_id_range
     self.data_files = SYS.magic_exp_curve_data_files
     self.csv_file   = SYS.magic_exp_curve_csv_file
+    self.tpl_file   = SYS.magic_exp_curve_tpl_file
     @character_data = CharacterData.new(_root)
   end
 

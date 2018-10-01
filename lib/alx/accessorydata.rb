@@ -51,6 +51,7 @@ class AccessoryData < StdEntryData
     self.name_files = SYS.accessory_name_files
     self.dscr_files = SYS.accessory_dscr_files
     self.csv_file   = SYS.accessory_csv_file
+    self.tpl_file   = SYS.accessory_tpl_file
   end
 
 end # class AccessoryData

@@ -51,6 +51,7 @@ class CharacterSuperMoveData < StdEntryData
     self.name_files  = SYS.character_super_move_name_files
     self.dscr_files  = SYS.character_super_move_dscr_files
     self.csv_file    = SYS.character_super_move_csv_file
+    self.tpl_file    = SYS.character_super_move_tpl_file
   end
 
 end # class CharacterSuperMoveData

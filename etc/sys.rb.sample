@@ -117,7 +117,58 @@ SYS.configure do |_s|
   _s.usable_item_csv_file          = 'csv/usableitems.csv'
   # Path to CSV file of weapons relative to game root
   _s.weapon_csv_file               = 'csv/weapons.csv'
-  
+
+#------------------------------------------------------------------------------
+# TPL paths
+#------------------------------------------------------------------------------
+
+  # Path to TPL file of accessories relative to 'share' directory
+  _s.accessory_tpl_file            = 'accessories.tpl.csv'
+  # Path to TPL file of armors relative to 'share' directory
+  _s.armor_tpl_file                = 'armors.tpl.csv'
+  # Path to TPL file of characters relative to 'share' directory
+  _s.character_tpl_file            = 'characters.tpl.csv'
+  # Path to TPL file of character magics relative to 'share' directory
+  _s.character_magic_tpl_file      = 'charactermagics.tpl.csv'
+  # Path to TPL file of character skills relative to 'share' directory
+  _s.character_super_move_tpl_file = 'charactersupermoves.tpl.csv'
+  # Path to TPL file of crew members relative to 'share' directory
+  _s.crew_member_tpl_file          = 'crewmembers.tpl.csv'
+  # Path to TPL file of enemy database relative to 'share' directory
+  _s.enemy_tpl_file                = 'enemies.tpl.csv'
+  # Path to TPL file of enemy events relative to 'share' directory
+  _s.enemy_event_tpl_file          = 'enemyevents.tpl.csv'
+  # Path to TPL file of enemy encounters relative to 'share' directory
+  _s.enemy_encounter_tpl_file      = 'enemyencounters.tpl.csv'
+  # Path to TPL file of enemy magics relative to 'share' directory
+  _s.enemy_magic_tpl_file          = 'enemymagics.tpl.csv'
+  # Path to TPL file of enemy ships relative to 'share' directory
+  _s.enemy_ship_tpl_file           = 'enemyships.tpl.csv'
+  # Path to TPL file of enemy ship tasks relative to 'share' directory
+  _s.enemy_ship_task_tpl_file      = 'enemyshiptasks.tpl.csv'
+  # Path to TPL file of enemy skills relative to 'share' directory
+  _s.enemy_super_move_tpl_file     = 'enemysupermoves.tpl.csv'
+  # Path to TPL file of EXP curves relative to 'share' directory
+  _s.exp_curve_tpl_file            = 'expcurves.tpl.csv'
+  # Path to TPL file of magic EXP curves relative to 'share' directory
+  _s.magic_exp_curve_tpl_file      = 'magicexpcurves.tpl.csv'
+  # Path to TPL file of playable ships relative to 'share' directory
+  _s.playable_ship_tpl_file        = 'playableships.tpl.csv'
+  # Path to TPL file of ship accessories relative to 'share' directory
+  _s.ship_accessory_tpl_file       = 'shipaccessories.tpl.csv'
+  # Path to TPL file of ship cannons relative to 'share' directory
+  _s.ship_cannon_tpl_file          = 'shipcannons.tpl.csv'
+  # Path to TPL file of ship items relative to 'share' directory
+  _s.ship_item_tpl_file            = 'shipitems.tpl.csv'
+  # Path to TPL file of shops relative to 'share' directory
+  _s.shop_tpl_file                 = 'shops.tpl.csv'
+  # Path to TPL file of special items relative to 'share' directory
+  _s.special_item_tpl_file         = 'specialitems.tpl.csv'
+  # Path to TPL file of usable items relative to 'share' directory
+  _s.usable_item_tpl_file          = 'usableitems.tpl.csv'
+  # Path to TPL file of weapons relative to 'share' directory
+  _s.weapon_tpl_file               = 'weapons.tpl.csv'
+
 #------------------------------------------------------------------------------
 # BNR data
 #------------------------------------------------------------------------------
@@ -135,9 +186,15 @@ SYS.configure do |_s|
   _s.game_id    = 'GEA'
   # Region IDs
   _s.region_ids = {
-    'E'  => 'NTSC-U',
-    'J'  => 'NTSC-J',
-    'P'  => 'PAL-E' ,
+    'E' => 'NTSC-U',
+    'J' => 'NTSC-J',
+    'P' => 'PAL-E' ,
+  }
+  # ISO 3166-1 alpha-2 IDs
+  _s.country_ids = {
+    'E' => 'US',
+    'J' => 'JP',
+    'P' => 'EU',
   }
   # Maker ID
   _s.maker_id   = '8P'

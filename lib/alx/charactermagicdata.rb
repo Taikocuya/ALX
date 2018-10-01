@@ -51,6 +51,7 @@ class CharacterMagicData < StdEntryData
     self.name_files  = SYS.character_magic_name_files
     self.dscr_files  = SYS.character_magic_dscr_files
     self.csv_file    = SYS.character_magic_csv_file
+    self.tpl_file    = SYS.character_magic_tpl_file
     @ship_dscr_files = SYS.character_magic_ship_dscr_files
   end
 

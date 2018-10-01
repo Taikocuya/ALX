@@ -51,6 +51,7 @@ class UsableItemData < StdEntryData
     self.name_files = SYS.usable_item_name_files
     self.dscr_files = SYS.usable_item_dscr_files
     self.csv_file   = SYS.usable_item_csv_file
+    self.tpl_file   = SYS.usable_item_tpl_file
   end
 
 end # class UsableItemData

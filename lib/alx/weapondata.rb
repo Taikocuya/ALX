@@ -51,6 +51,7 @@ class WeaponData < StdEntryData
     self.name_files = SYS.weapon_name_files
     self.dscr_files = SYS.weapon_dscr_files
     self.csv_file   = SYS.weapon_csv_file
+    self.tpl_file   = SYS.weapon_tpl_file
   end
 
 end # class WeaponData

@@ -57,6 +57,7 @@ class EnemyShipData < StdEntryData
     self.data_files      = SYS.enemy_ship_data_files
     self.name_files      = SYS.enemy_ship_name_files
     self.csv_file        = SYS.enemy_ship_csv_file
+    self.tpl_file        = SYS.enemy_ship_tpl_file
     @arm_name_files      = SYS.enemy_ship_arm_name_files
     
     @accessory_data      = AccessoryData.new(_root)

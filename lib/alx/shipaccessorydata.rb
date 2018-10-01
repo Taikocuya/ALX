@@ -51,6 +51,7 @@ class ShipAccessoryData < StdEntryData
     self.name_files = SYS.ship_accessory_name_files
     self.dscr_files = SYS.ship_accessory_dscr_files
     self.csv_file   = SYS.ship_accessory_csv_file
+    self.tpl_file   = SYS.ship_accessory_tpl_file
   end
 
 end # class ShipAccessoryData

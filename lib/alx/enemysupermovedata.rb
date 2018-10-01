@@ -50,6 +50,7 @@ class EnemySuperMoveData < StdEntryData
     self.data_files = SYS.enemy_super_move_data_files
     self.name_files = SYS.enemy_super_move_name_files
     self.csv_file   = SYS.enemy_super_move_csv_file
+    self.tpl_file   = SYS.enemy_super_move_tpl_file
   end
 
 end # class EnemySuperMoveData

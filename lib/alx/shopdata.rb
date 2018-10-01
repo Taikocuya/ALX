@@ -57,6 +57,7 @@ class ShopData < StdEntryData
     self.data_files = SYS.shop_data_files
     self.dscr_files = SYS.shop_dscr_files
     self.csv_file   = SYS.shop_csv_file
+    self.tpl_file   = SYS.shop_tpl_file
     
     @accessory_data      = AccessoryData.new(_root)
     @armor_data          = ArmorData.new(_root)

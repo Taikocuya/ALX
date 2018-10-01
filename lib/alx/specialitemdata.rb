@@ -51,6 +51,7 @@ class SpecialItemData < StdEntryData
     self.name_files = SYS.special_item_name_files
     self.dscr_files = SYS.special_item_dscr_files
     self.csv_file   = SYS.special_item_csv_file
+    self.tpl_file   = SYS.special_item_tpl_file
   end
 
 end # class SpecialItemData

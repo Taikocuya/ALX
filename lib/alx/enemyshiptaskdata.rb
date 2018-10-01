@@ -51,6 +51,7 @@ class EnemyShipTaskData < EntryData
     super(EnemyShipTask, _root)
     @tec_file             = sprintf(SYS.tec_file, '*')
     @csv_file             = SYS.enemy_ship_task_csv_file
+    @tpl_file             = SYS.enemy_ship_task_tpl_file
     @character_magic_data = CharacterMagicData.new(_root)
     @enemy_ship_data      = EnemyShipData.new(_root)
     @data                 = []
@@ -141,16 +142,10 @@ class EnemyShipTaskData < EntryData
     puts(sprintf(VOC.close, _filename))
   end
 
-  # Reads all entries from CSV files.
+  # Reads all entries from CSV files (TPL files first, CSV files last).
   def load_all_from_csv
-    load_entries_from_csv(File.join(root.path, @csv_file))
-  end
-
-  # Reads all entries from template files.
-  def load_all_from_templates
-    load_entries_from_csv(
-      File.join(SYS.share_dir, File.basename(@csv_file)), true
-    )
+    load_entries_from_csv(File.join(SYS.share_dir, @tpl_file), true)
+    load_entries_from_csv(File.join(root.path    , @csv_file)      )
   end
 
   # Writes all data entries to a CSV file.
@@ -187,6 +182,7 @@ class EnemyShipTaskData < EntryData
 
   attr_accessor :tec_file
   attr_accessor :csv_file
+  attr_accessor :tpl_file
   attr_accessor :data
 
 end # class EnemyShipTaskData

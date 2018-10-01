@@ -62,8 +62,11 @@ class EnemyData < EntryData
     @enp_file              = sprintf(SYS.enp_file, '*_ep')
     @evp_file              = SYS.evp_file
     @enemy_csv_file        = SYS.enemy_csv_file
+    @enemy_tpl_file        = SYS.enemy_tpl_file
     @event_csv_file        = SYS.enemy_event_csv_file
+    @event_tpl_file        = SYS.enemy_event_tpl_file
     @encounter_csv_file    = SYS.enemy_encounter_csv_file
+    @encounter_tpl_file    = SYS.enemy_encounter_tpl_file
     
     @accessory_data        = AccessoryData.new(_root)
     @armor_data            = ArmorData.new(_root)
@@ -348,25 +351,17 @@ class EnemyData < EntryData
     puts(sprintf(VOC.close, _filename))
   end
 
-  # Reads all entries from CSV files.
+  # Reads all entries from CSV files (TPL files first, CSV files last).
 	def load_all_from_csv
-    load_enemies_from_csv(File.join(root.path, @enemy_csv_file))
-    load_events_from_csv(File.join(root.path, @event_csv_file))
-    load_encounters_from_csv(File.join(root.path, @encounter_csv_file))
+    load_enemies_from_csv(File.join(SYS.share_dir, @enemy_tpl_file), true)
+    load_enemies_from_csv(File.join(root.path    , @enemy_csv_file)      )
+    
+    load_events_from_csv(File.join(SYS.share_dir, @event_tpl_file), true)
+    load_events_from_csv(File.join(root.path    , @event_csv_file)      )
+    
+    load_encounters_from_csv(File.join(SYS.share_dir, @encounter_tpl_file), true)
+    load_encounters_from_csv(File.join(root.path    , @encounter_csv_file)      )
 	end
-
-  # Reads all entries from template files.
-  def load_all_from_templates
-    load_enemies_from_csv(
-      File.join(SYS.share_dir, File.basename(@enemy_csv_file)), true
-    )
-    load_events_from_csv(
-      File.join(SYS.share_dir, File.basename(@event_csv_file)), true
-    )
-    load_encounters_from_csv(
-      File.join(SYS.share_dir, File.basename(@encounter_csv_file)), true
-    )
-  end
 
   # Writes all enemy entries to a CSV file.
   # @param _filename [String] File name
@@ -484,8 +479,11 @@ class EnemyData < EntryData
   attr_accessor :enp_file
   attr_accessor :evp_file
   attr_accessor :enemy_csv_file
+  attr_accessor :enemy_tpl_file
   attr_accessor :event_csv_file
+  attr_accessor :event_tpl_file
   attr_accessor :encounter_csv_file
+  attr_accessor :encounter_tpl_file
   attr_accessor :enemies
   attr_accessor :events
   attr_accessor :encounters

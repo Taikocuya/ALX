@@ -55,6 +55,7 @@ class StdEntryData < EntryData
     @dscr_files = {}
     @msg_table  = {}
     @csv_file   = ''
+    @tpl_file   = ''
     
     @data = Cache[cache_id] || Hash.new do |_h, _k|
       _h[_k] = create_entry(_k)
@@ -475,16 +476,10 @@ class StdEntryData < EntryData
     puts(sprintf(VOC.close, _filename))
   end
 
-  # Reads all entries from CSV files.
+  # Reads all entries from CSV files (CSV files first, TPL files last).
   def load_all_from_csv
-    load_entries_from_csv(File.join(root.path, @csv_file))
-  end
-
-  # Reads all entries from template files.
-  def load_all_from_templates
-    load_entries_from_csv(
-      File.join(SYS.share_dir, File.basename(@csv_file)), true
-    )
+    load_entries_from_csv(File.join(root.path    , @csv_file)      )
+    load_entries_from_csv(File.join(SYS.share_dir, @tpl_file), true)
   end
 
   # Writes all data entries to a CSV file.
@@ -525,6 +520,7 @@ class StdEntryData < EntryData
   attr_accessor :dscr_files
   attr_accessor :msg_table
   attr_accessor :csv_file
+  attr_accessor :tpl_file
   attr_accessor :data
 
 #==============================================================================

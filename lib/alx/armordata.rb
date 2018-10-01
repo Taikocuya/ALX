@@ -51,6 +51,7 @@ class ArmorData < StdEntryData
     self.name_files = SYS.armor_name_files
     self.dscr_files = SYS.armor_dscr_files
     self.csv_file   = SYS.armor_csv_file
+    self.tpl_file   = SYS.armor_tpl_file
   end
 
 end # class ArmorData
