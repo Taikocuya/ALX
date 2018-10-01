@@ -135,9 +135,15 @@ SYS.configure do |_s|
   _s.game_id    = 'GEA'
   # Region IDs
   _s.region_ids = {
-    'E'  => 'NTSC-U',
-    'J'  => 'NTSC-J',
-    'P'  => 'PAL-E' ,
+    'E' => 'NTSC-U',
+    'J' => 'NTSC-J',
+    'P' => 'PAL-E' ,
+  }
+  # ISO 3166-1 alpha-2 IDs
+  _s.country_ids = {
+    'E' => 'US',
+    'J' => 'JP',
+    'P' => 'EU',
   }
   # Maker ID
   _s.maker_id   = '8P'

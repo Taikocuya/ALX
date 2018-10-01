@@ -119,9 +119,9 @@ class StdEntryData < EntryData
     
         case region
         when 'E', 'J'
-          _pos  = _entry.find_member(VOC.name_pos[iso_code] )
-          _size = _entry.find_member(VOC.name_size[iso_code])
-          _str  = _entry.find_member(VOC.name_str[iso_code] )
+          _pos  = _entry.find_member(VOC.name_pos[country] )
+          _size = _entry.find_member(VOC.name_size[country])
+          _str  = _entry.find_member(VOC.name_str[country] )
         when 'P'
           _lang = determine_lang(_filename)
           _pos  = _entry.find_member(VOC.name_pos[_lang] )
@@ -181,9 +181,9 @@ class StdEntryData < EntryData
 
         case region
         when 'E', 'J'
-          _pos  = _entry.find_member(VOC.dscr_pos[iso_code] )
-          _size = _entry.find_member(VOC.dscr_size[iso_code])
-          _str  = _entry.find_member(VOC.dscr_str[iso_code] )
+          _pos  = _entry.find_member(VOC.dscr_pos[country] )
+          _size = _entry.find_member(VOC.dscr_size[country])
+          _str  = _entry.find_member(VOC.dscr_str[country] )
         when 'P'
           _lang = determine_lang(_filename)
           _pos  = _entry.find_member(VOC.dscr_pos[_lang] )
@@ -375,9 +375,9 @@ class StdEntryData < EntryData
 
         case region
         when 'E', 'J'
-          _pos  = _entry.find_member(VOC.dscr_pos[iso_code] ).value
-          _size = _entry.find_member(VOC.dscr_size[iso_code]).value
-          _str  = _entry.find_member(VOC.dscr_str[iso_code] ).value
+          _pos  = _entry.find_member(VOC.dscr_pos[country] ).value
+          _size = _entry.find_member(VOC.dscr_size[country]).value
+          _str  = _entry.find_member(VOC.dscr_str[country] ).value
         when 'P'
           _lang = determine_lang(_filename)
           if _lang

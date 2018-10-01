@@ -56,19 +56,12 @@ class Entry
     @members    = [IntDmy.new(VOC.id, id)]
     @padding_id = -1
     @unknown_id = -1
-    
-    case region
-    when 'E'
-      @iso_code = 'US'
-    when 'J'
-      @iso_code = 'JP'
-    when 'P'
-      @iso_code = 'EU'
-    else
-      @iso_code = ''
-    end
   end
 
+  def country
+    SYS.country_ids[@region]
+  end
+  
   # Returns the size of the entry.
   # @return [Integer] Size of entry
   def size
@@ -169,7 +162,6 @@ class Entry
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_reader   :iso_code
   attr_reader   :region
   attr_accessor :members
 

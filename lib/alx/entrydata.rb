@@ -71,21 +71,12 @@ class EntryData
 
   protected
 
-  def iso_code
-    case region
-    when 'E'
-      'US'
-    when 'J'
-      'JP'
-    when 'P'
-      'EU'
-    else
-      ''
-    end
-  end
-    
   def region
     @root.hdr.region_id
+  end
+    
+  def country
+    SYS.country_ids[@root.hdr.region_id]
   end
     
 end # class EntryData

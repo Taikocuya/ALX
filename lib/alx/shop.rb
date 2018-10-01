@@ -48,9 +48,9 @@ class Shop < StdEntry
     @items = {}
 
     members.clear
-    members << IntVar.new(VOC.id                  ,  0, 'S>')
-    members << IntVar.new(padding_hdr             ,  0, 's>')
-    members << IntVar.new(VOC.message_id[iso_code],  0, 'L>')
+    members << IntVar.new(VOC.id                 ,  0, 'S>')
+    members << IntVar.new(padding_hdr            ,  0, 's>')
+    members << IntVar.new(VOC.message_id[country],  0, 'L>')
 
     add_dscr_members
     
@@ -71,7 +71,7 @@ class Shop < StdEntry
         if _entry
           case region
           when 'E', 'J'
-            _name = _entry.find_member(VOC.name_str[iso_code]).value
+            _name = _entry.find_member(VOC.name_str[country]).value
           when 'P'
             _name = _entry.find_member(VOC.name_str['GB']).value
           end

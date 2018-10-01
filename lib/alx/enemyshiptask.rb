@@ -49,31 +49,31 @@ class EnemyShipTask < Entry
     @enemy_ships = {}
     @magics      = {}
 
-    members << StrDmy.new(VOC.filter             , ''      )
-    members << StrDmy.new(VOC.enemy_ship_id      , ''      )
-    members << StrDmy.new(VOC.enemy_ship_name    , ''      )
-    members << IntVar.new(VOC.unknown[-1]        ,  0, 's>')
-    # members << IntVar.new(VOC.task_cond_id       ,  0, 's>')
-    # members << StrDmy.new(VOC.task_cond_name     , ''      )
-    members << IntVar.new(VOC.task_rating        ,  0, 's>')
-    members << IntVar.new(VOC.task_a_type_id     ,  0, 's>')
-    members << StrDmy.new(VOC.task_a_type_name   , ''      )
-    members << IntVar.new(VOC.task_a_arm_id      ,  0, 's>')
+    members << StrDmy.new(VOC.filter           , ''      )
+    members << StrDmy.new(VOC.enemy_ship_id    , ''      )
+    members << StrDmy.new(VOC.enemy_ship_name  , ''      )
+    members << IntVar.new(VOC.unknown[-1]      ,  0, 's>')
+    # members << IntVar.new(VOC.task_cond_id     ,  0, 's>')
+    # members << StrDmy.new(VOC.task_cond_name   , ''      )
+    members << IntVar.new(VOC.task_rating      ,  0, 's>')
+    members << IntVar.new(VOC.task_a_type_id   ,  0, 's>')
+    members << StrDmy.new(VOC.task_a_type_name , ''      )
+    members << IntVar.new(VOC.task_a_arm_id    ,  0, 's>')
     if region == 'P'
-      members << StrDmy.new(VOC.task_a_arm_name  , ''      )
+      members << StrDmy.new(VOC.task_a_arm_name, ''      )
     end
-    members << IntVar.new(VOC.task_a_param_id    ,  0, 's>')
-    members << StrDmy.new(VOC.task_a_param_name  , ''      )
-    members << IntVar.new(VOC.task_a_range       ,  0, 's>')
-    members << IntVar.new(VOC.task_b_type_id     ,  0, 's>')
-    members << StrDmy.new(VOC.task_b_type_name   , ''      )
-    members << IntVar.new(VOC.task_b_arm_id      ,  0, 's>')
+    members << IntVar.new(VOC.task_a_param_id  ,  0, 's>')
+    members << StrDmy.new(VOC.task_a_param_name, ''      )
+    members << IntVar.new(VOC.task_a_range     ,  0, 's>')
+    members << IntVar.new(VOC.task_b_type_id   ,  0, 's>')
+    members << StrDmy.new(VOC.task_b_type_name , ''      )
+    members << IntVar.new(VOC.task_b_arm_id    ,  0, 's>')
     if region == 'P'
-      members << StrDmy.new(VOC.task_b_arm_name  , ''      )
+      members << StrDmy.new(VOC.task_b_arm_name, ''      )
     end
-    members << IntVar.new(VOC.task_b_param_id    ,  0, 's>')
-    members << StrDmy.new(VOC.task_b_param_name  , ''      )
-    members << IntVar.new(VOC.task_b_range       ,  0, 's>')
+    members << IntVar.new(VOC.task_b_param_id  ,  0, 's>')
+    members << StrDmy.new(VOC.task_b_param_name, ''      )
+    members << IntVar.new(VOC.task_b_range     ,  0, 's>')
   end
 
   # Reads one entry from a CSV  file.
@@ -96,9 +96,9 @@ class EnemyShipTask < Entry
     if _enemy_ship
       case region
       when 'E', 'J'
-        _name = _enemy_ship.find_member(VOC.name_str[iso_code]).value
+        _name = _enemy_ship.find_member(VOC.name_str[country]).value
       when 'P'
-        _name = _enemy_ship.find_member(VOC.name_str['GB']    ).value
+        _name = _enemy_ship.find_member(VOC.name_str['GB']   ).value
       end
     end
     find_member(VOC.enemy_ship_name).value = _name
@@ -145,9 +145,9 @@ class EnemyShipTask < Entry
       if _entry
         case region
         when 'E', 'J'
-          _param_name = _entry.find_member(VOC.name_str[iso_code]).value
+          _param_name = _entry.find_member(VOC.name_str[country]).value
         when 'P'
-          _param_name = _entry.find_member(VOC.name_str['GB']    ).value
+          _param_name = _entry.find_member(VOC.name_str['GB']   ).value
         end
       end
     when 2
@@ -174,9 +174,9 @@ class EnemyShipTask < Entry
       if _entry
         case region
         when 'E', 'J'
-          _param_name = _entry.find_member(VOC.name_str[iso_code]).value
+          _param_name = _entry.find_member(VOC.name_str[country]).value
         when 'P'
-          _param_name = _entry.find_member(VOC.name_str['GB']    ).value
+          _param_name = _entry.find_member(VOC.name_str['GB']   ).value
         end
       end
     when 2

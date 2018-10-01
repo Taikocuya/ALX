@@ -153,9 +153,9 @@ class Enemy < Entry
         if _entry
           case region
           when 'E', 'J'
-            _name = _entry.find_member(VOC.name_str[iso_code]).value
+            _name = _entry.find_member(VOC.name_str[country]).value
           when 'P'
-            _name = _entry.find_member(VOC.name_str['GB']    ).value
+            _name = _entry.find_member(VOC.name_str['GB']   ).value
           end
         end
       else
@@ -185,9 +185,9 @@ class Enemy < Entry
         if _entry
           case region
           when 'E', 'J'
-            _instr_name = _entry.find_member(VOC.name_str[iso_code]).value
+            _instr_name = _entry.find_member(VOC.name_str[country]).value
           when 'P'
-            _instr_name = _entry.find_member(VOC.name_str['GB']    ).value
+            _instr_name = _entry.find_member(VOC.name_str['GB']   ).value
           end
         end
 

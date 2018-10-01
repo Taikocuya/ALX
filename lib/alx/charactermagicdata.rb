@@ -74,9 +74,9 @@ class CharacterMagicData < StdEntryData
     
         case region
         when 'E', 'J'
-          _pos  = _entry.find_member(VOC.ship_dscr_pos[iso_code] )
-          _size = _entry.find_member(VOC.ship_dscr_size[iso_code])
-          _str  = _entry.find_member(VOC.ship_dscr_str[iso_code] )
+          _pos  = _entry.find_member(VOC.ship_dscr_pos[country] )
+          _size = _entry.find_member(VOC.ship_dscr_size[country])
+          _str  = _entry.find_member(VOC.ship_dscr_str[country] )
         when 'P'
           _lang = determine_lang(_filename)
           _pos  = _entry.find_member(VOC.ship_dscr_pos[_lang] )
@@ -159,9 +159,9 @@ class CharacterMagicData < StdEntryData
   
         case region
         when 'E', 'J'
-          _pos  = _entry.find_member(VOC.ship_dscr_pos[iso_code] ).value
-          _size = _entry.find_member(VOC.ship_dscr_size[iso_code]).value
-          _str  = _entry.find_member(VOC.ship_dscr_str[iso_code] ).value
+          _pos  = _entry.find_member(VOC.ship_dscr_pos[country] ).value
+          _size = _entry.find_member(VOC.ship_dscr_size[country]).value
+          _str  = _entry.find_member(VOC.ship_dscr_str[country] ).value
         when 'P'
           _lang = determine_lang(_filename)
           if _lang

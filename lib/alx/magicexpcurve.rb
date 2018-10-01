@@ -74,7 +74,7 @@ class MagicExpCurve < StdEntry
     _chara = @characters[id]
     _name  = '???'
     if _chara
-      _name = _chara.find_member(VOC.name_str[iso_code]).value
+      _name = _chara.find_member(VOC.name_str[country]).value
     end
     find_member(VOC.character_name[-1]).value = _name
 

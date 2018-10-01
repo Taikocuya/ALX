@@ -47,25 +47,25 @@ class Weapon < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(VOC.character_id[-1]        ,  0, 'c' )
-    members << StrDmy.new(VOC.character_name[-1]      , ''      )
-    members << IntVar.new(VOC.retail_price            ,  0, 'c' )
-    members << IntVar.new(VOC.order_priority          , -1, 'c' )
-    members << IntVar.new(VOC.order_alphabet[iso_code], -1, 'c' )
-    members << IntVar.new(VOC.effect_id               , -1, 'c' )
-    members << StrDmy.new(VOC.effect_name             , ''      )
+    members << IntVar.new(VOC.character_id[-1]       ,  0, 'c' )
+    members << StrDmy.new(VOC.character_name[-1]     , ''      )
+    members << IntVar.new(VOC.retail_price           ,  0, 'c' )
+    members << IntVar.new(VOC.order_priority         , -1, 'c' )
+    members << IntVar.new(VOC.order_alphabet[country], -1, 'c' )
+    members << IntVar.new(VOC.effect_id              , -1, 'c' )
+    members << StrDmy.new(VOC.effect_name            , ''      )
     
     if region == 'P'
-      members << IntVar.new(padding_hdr               ,  0, 'c' )
+      members << IntVar.new(padding_hdr              ,  0, 'c' )
     end
     
-    members << IntVar.new(VOC.purchase_price          ,  0, 'S>')
-    members << IntVar.new(VOC.attack                  ,  0, 's>')
-    members << IntVar.new(VOC.hit                     ,  0, 's>')
-    members << IntVar.new(VOC.feature_id[-1]          , -1, 'c' )
-    members << StrDmy.new(VOC.feature_name[-1]        ,  ''     )
-    members << IntVar.new(padding_hdr                 ,  0, 'c' )
-    members << IntVar.new(VOC.feature_value[-1]       ,  0, 's>')
+    members << IntVar.new(VOC.purchase_price         ,  0, 'S>')
+    members << IntVar.new(VOC.attack                 ,  0, 's>')
+    members << IntVar.new(VOC.hit                    ,  0, 's>')
+    members << IntVar.new(VOC.feature_id[-1]         , -1, 'c' )
+    members << StrDmy.new(VOC.feature_name[-1]       ,  ''     )
+    members << IntVar.new(padding_hdr                ,  0, 'c' )
+    members << IntVar.new(VOC.feature_value[-1]      ,  0, 's>')
 
     add_dscr_members
   end

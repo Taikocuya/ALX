@@ -119,9 +119,9 @@ class EnemyShip < StdEntry
         if _entry
           case region
           when 'E', 'J'
-            _name = _entry.find_member(VOC.name_str[iso_code]).value
+            _name = _entry.find_member(VOC.name_str[country]).value
           when 'P'
-            _name = _entry.find_member(VOC.name_str['GB']    ).value
+            _name = _entry.find_member(VOC.name_str['GB']   ).value
           end
         end
       else

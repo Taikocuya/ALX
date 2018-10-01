@@ -48,22 +48,22 @@ class CharacterMagic < CharacterSuperMove
     
     case region
     when 'E', 'J'
-      members << IntDmy.new(VOC.ship_dscr_pos[iso_code] ,  0      )
-      members << IntDmy.new(VOC.ship_dscr_size[iso_code],  0      )
-      members << StrDmy.new(VOC.ship_dscr_str[iso_code] , ''      )
+      members << IntDmy.new(VOC.ship_dscr_pos[country] ,  0      )
+      members << IntDmy.new(VOC.ship_dscr_size[country],  0      )
+      members << StrDmy.new(VOC.ship_dscr_str[country] , ''      )
     when 'P'
-      members << IntDmy.new(VOC.ship_dscr_pos['DE']     ,  0      )
-      members << IntDmy.new(VOC.ship_dscr_size['DE']    ,  0      )
-      members << StrDmy.new(VOC.ship_dscr_str['DE']     , '', '\n')
-      members << IntDmy.new(VOC.ship_dscr_pos['ES']     ,  0      )
-      members << IntDmy.new(VOC.ship_dscr_size['ES']    ,  0      )
-      members << StrDmy.new(VOC.ship_dscr_str['ES']     , '', '\n')
-      members << IntDmy.new(VOC.ship_dscr_pos['FR']     ,  0      )
-      members << IntDmy.new(VOC.ship_dscr_size['FR']    ,  0      )
-      members << StrDmy.new(VOC.ship_dscr_str['FR']     , '', '\n')
-      members << IntDmy.new(VOC.ship_dscr_pos['GB']     ,  0      )
-      members << IntDmy.new(VOC.ship_dscr_size['GB']    ,  0      )
-      members << StrDmy.new(VOC.ship_dscr_str['GB']     , '', '\n')
+      members << IntDmy.new(VOC.ship_dscr_pos['DE']    ,  0      )
+      members << IntDmy.new(VOC.ship_dscr_size['DE']   ,  0      )
+      members << StrDmy.new(VOC.ship_dscr_str['DE']    , '', '\n')
+      members << IntDmy.new(VOC.ship_dscr_pos['ES']    ,  0      )
+      members << IntDmy.new(VOC.ship_dscr_size['ES']   ,  0      )
+      members << StrDmy.new(VOC.ship_dscr_str['ES']    , '', '\n')
+      members << IntDmy.new(VOC.ship_dscr_pos['FR']    ,  0      )
+      members << IntDmy.new(VOC.ship_dscr_size['FR']   ,  0      )
+      members << StrDmy.new(VOC.ship_dscr_str['FR']    , '', '\n')
+      members << IntDmy.new(VOC.ship_dscr_pos['GB']    ,  0      )
+      members << IntDmy.new(VOC.ship_dscr_size['GB']   ,  0      )
+      members << StrDmy.new(VOC.ship_dscr_str['GB']    , '', '\n')
     end
   end
 

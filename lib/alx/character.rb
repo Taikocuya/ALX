@@ -49,71 +49,71 @@ class Character < StdEntry
     @armors      = {}
     @accessories = {}
 
-    members << StrVar.new(VOC.name_str[iso_code], '',   11)
-    members << IntVar.new(VOC.age               ,  0, 'c' )
-    members << IntVar.new(unknown_hdr           ,  0, 'c' )
-    members << IntVar.new(unknown_hdr           ,  0, 'c' )
-    members << IntVar.new(unknown_hdr           ,  0, 'c' )
-    members << IntVar.new(VOC.maxmp             ,  0, 'c' )
-    members << IntVar.new(VOC.element_id        ,  0, 'c' )
-    members << StrDmy.new(VOC.element_name      , ''      )
-    members << IntVar.new(padding_hdr           ,  0, 'c' )
-    members << IntVar.new(padding_hdr           ,  0, 'c' )
-    members << IntVar.new(VOC.weapon_id         ,  0, 'C' )
-    members << StrDmy.new(VOC.weapon_name       , ''      )
-    members << IntVar.new(VOC.armor_id          ,  0, 'S>')
-    members << StrDmy.new(VOC.armor_name        , ''      )
-    members << IntVar.new(VOC.accessory_id      ,  0, 'S>')
-    members << StrDmy.new(VOC.accessory_name    , ''      )
-    members << IntVar.new(unknown_hdr           ,  0, 's>')
-    members << IntVar.new(VOC.hp                ,  0, 's>')
-    members << IntVar.new(VOC.maxhp             ,  0, 's>')
-    members << IntVar.new(VOC.base_hp_increase  ,  0, 's>')
-    members << IntVar.new(VOC.spirit            ,  0, 's>')
-    members << IntVar.new(VOC.maxspirit         ,  0, 's>')
-    members << IntVar.new(VOC.counter           ,  0, 's>')
-    members << IntVar.new(padding_hdr           ,  0, 's>')
-    members << IntVar.new(padding_hdr           ,  0, 's>')
-    members << IntVar.new(VOC.exp[-1]           ,  0, 'S>')
-    members << FltVar.new(unknown_hdr           ,  0, 'g' )
-    members << FltVar.new(unknown_hdr           ,  0, 'g' )
+    members << StrVar.new(VOC.name_str[country], '',   11)
+    members << IntVar.new(VOC.age              ,  0, 'c' )
+    members << IntVar.new(unknown_hdr          ,  0, 'c' )
+    members << IntVar.new(unknown_hdr          ,  0, 'c' )
+    members << IntVar.new(unknown_hdr          ,  0, 'c' )
+    members << IntVar.new(VOC.maxmp            ,  0, 'c' )
+    members << IntVar.new(VOC.element_id       ,  0, 'c' )
+    members << StrDmy.new(VOC.element_name     , ''      )
+    members << IntVar.new(padding_hdr          ,  0, 'c' )
+    members << IntVar.new(padding_hdr          ,  0, 'c' )
+    members << IntVar.new(VOC.weapon_id        ,  0, 'C' )
+    members << StrDmy.new(VOC.weapon_name      , ''      )
+    members << IntVar.new(VOC.armor_id         ,  0, 'S>')
+    members << StrDmy.new(VOC.armor_name       , ''      )
+    members << IntVar.new(VOC.accessory_id     ,  0, 'S>')
+    members << StrDmy.new(VOC.accessory_name   , ''      )
+    members << IntVar.new(unknown_hdr          ,  0, 's>')
+    members << IntVar.new(VOC.hp               ,  0, 's>')
+    members << IntVar.new(VOC.maxhp            ,  0, 's>')
+    members << IntVar.new(VOC.base_hp_increase ,  0, 's>')
+    members << IntVar.new(VOC.spirit           ,  0, 's>')
+    members << IntVar.new(VOC.maxspirit        ,  0, 's>')
+    members << IntVar.new(VOC.counter          ,  0, 's>')
+    members << IntVar.new(padding_hdr          ,  0, 's>')
+    members << IntVar.new(padding_hdr          ,  0, 's>')
+    members << IntVar.new(VOC.exp[-1]          ,  0, 'S>')
+    members << FltVar.new(unknown_hdr          ,  0, 'g' )
+    members << FltVar.new(unknown_hdr          ,  0, 'g' )
     
     (0...6).each do |_i|
-      members << IntVar.new(VOC.elements[_i]    ,  0, 's>')
+      members << IntVar.new(VOC.elements[_i]   ,  0, 's>')
     end
 
     (0...9).each do |_i|
-      members << IntVar.new(VOC.states[_i]      ,  0, 's>')
+      members << IntVar.new(VOC.states[_i]     ,  0, 's>')
     end
     
     (9...16).each do |_i|
-      members << IntVar.new(unknown_hdr         ,  0, 's>')
+      members << IntVar.new(unknown_hdr        ,  0, 's>')
     end
 
-    members << IntVar.new(VOC.power             ,  0, 's>')
-    members << IntVar.new(VOC.will              ,  0, 's>')
-    members << IntVar.new(VOC.vigor             ,  0, 's>')
-    members << IntVar.new(VOC.agile             ,  0, 's>')
-    members << IntVar.new(VOC.quick             ,  0, 's>')
-    members << IntVar.new(padding_hdr           ,  0, 's>')
-    members << FltVar.new(unknown_hdr           ,  0, 'g' )
-    members << FltVar.new(unknown_hdr           ,  0, 'g' )
-    members << FltVar.new(unknown_hdr           ,  0, 'g' )
-    members << IntVar.new(padding_hdr           ,  0, 's>')
-    members << IntVar.new(padding_hdr           ,  0, 's>')
-    members << FltVar.new(unknown_hdr           ,  0, 'g' )
-    members << IntVar.new(padding_hdr           ,  0, 's>')
-    members << IntVar.new(VOC.green_exp[-1]     ,  0, 's>')
-    members << IntVar.new(padding_hdr           ,  0, 's>')
-    members << IntVar.new(VOC.red_exp[-1]       ,  0, 's>')
-    members << IntVar.new(padding_hdr           ,  0, 's>')
-    members << IntVar.new(VOC.purple_exp[-1]    ,  0, 's>')
-    members << IntVar.new(padding_hdr           ,  0, 's>')
-    members << IntVar.new(VOC.blue_exp[-1]      ,  0, 's>')
-    members << IntVar.new(padding_hdr           ,  0, 's>')
-    members << IntVar.new(VOC.yellow_exp[-1]    ,  0, 's>')
-    members << IntVar.new(padding_hdr           ,  0, 's>')
-    members << IntVar.new(VOC.silver_exp[-1]    ,  0, 's>')
+    members << IntVar.new(VOC.power            ,  0, 's>')
+    members << IntVar.new(VOC.will             ,  0, 's>')
+    members << IntVar.new(VOC.vigor            ,  0, 's>')
+    members << IntVar.new(VOC.agile            ,  0, 's>')
+    members << IntVar.new(VOC.quick            ,  0, 's>')
+    members << IntVar.new(padding_hdr          ,  0, 's>')
+    members << FltVar.new(unknown_hdr          ,  0, 'g' )
+    members << FltVar.new(unknown_hdr          ,  0, 'g' )
+    members << FltVar.new(unknown_hdr          ,  0, 'g' )
+    members << IntVar.new(padding_hdr          ,  0, 's>')
+    members << IntVar.new(padding_hdr          ,  0, 's>')
+    members << FltVar.new(unknown_hdr          ,  0, 'g' )
+    members << IntVar.new(padding_hdr          ,  0, 's>')
+    members << IntVar.new(VOC.green_exp[-1]    ,  0, 's>')
+    members << IntVar.new(padding_hdr          ,  0, 's>')
+    members << IntVar.new(VOC.red_exp[-1]      ,  0, 's>')
+    members << IntVar.new(padding_hdr          ,  0, 's>')
+    members << IntVar.new(VOC.purple_exp[-1]   ,  0, 's>')
+    members << IntVar.new(padding_hdr          ,  0, 's>')
+    members << IntVar.new(VOC.blue_exp[-1]     ,  0, 's>')
+    members << IntVar.new(padding_hdr          ,  0, 's>')
+    members << IntVar.new(VOC.yellow_exp[-1]   ,  0, 's>')
+    members << IntVar.new(padding_hdr          ,  0, 's>')
+    members << IntVar.new(VOC.silver_exp[-1]   ,  0, 's>')
   end
 
   # Writes one entry to a CSV file.
@@ -129,9 +129,9 @@ class Character < StdEntry
       if _entry
         case region
         when 'E', 'J'
-          _name = _entry.find_member(VOC.name_str[iso_code]).value
+          _name = _entry.find_member(VOC.name_str[country]).value
         when 'P'
-          _name = _entry.find_member(VOC.name_str['GB']    ).value
+          _name = _entry.find_member(VOC.name_str['GB']   ).value
         end
       end
     else
@@ -146,9 +146,9 @@ class Character < StdEntry
       if _entry
         case region
         when 'E', 'J'
-          _name = _entry.find_member(VOC.name_str[iso_code]).value
+          _name = _entry.find_member(VOC.name_str[country]).value
         when 'P'
-          _name = _entry.find_member(VOC.name_str['GB']    ).value
+          _name = _entry.find_member(VOC.name_str['GB']   ).value
         end
       end
     else
@@ -163,9 +163,9 @@ class Character < StdEntry
       if _entry
         case region
         when 'E', 'J'
-          _name = _entry.find_member(VOC.name_str[iso_code]).value
+          _name = _entry.find_member(VOC.name_str[country]).value
         when 'P'
-          _name = _entry.find_member(VOC.name_str['GB']    ).value
+          _name = _entry.find_member(VOC.name_str['GB']   ).value
         end
       end
     else
