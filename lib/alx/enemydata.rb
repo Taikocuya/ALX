@@ -272,9 +272,9 @@ class EnemyData < EntryData
 
   # Reads all enemy entries from a CSV file.
   # @param _filename [String]  File name
-  # @param _template [Boolean] Skips missing file
-  def load_enemies_from_csv(_filename, _template = false)
-    if _template && !File.exist?(_filename)
+  # @param _force    [Boolean] Skips missing file
+  def load_enemies_from_csv(_filename, _force = false)
+    if _force && !File.exist?(_filename)
       return
     end
     if !@enemies.empty?
@@ -298,9 +298,9 @@ class EnemyData < EntryData
 
   # Reads all event entries from a CSV file.
   # @param _filename [String]  File name
-  # @param _template [Boolean] Skips missing file
-  def load_events_from_csv(_filename, _template = false)
-    if _template && !File.exist?(_filename)
+  # @param _force    [Boolean] Skips missing file
+  def load_events_from_csv(_filename, _force = false)
+    if _force && !File.exist?(_filename)
       return
     end
     if !@events.empty?
@@ -324,9 +324,9 @@ class EnemyData < EntryData
 
   # Reads all encounter entries from a CSV file.
   # @param _filename [String]  File name
-  # @param _template [Boolean] Skips missing file
-  def load_encounters_from_csv(_filename, _template = false)
-    if _template && !File.exist?(_filename)
+  # @param _force    [Boolean] Skips missing file
+  def load_encounters_from_csv(_filename, _force = false)
+    if _force && !File.exist?(_filename)
       return
     end
     if !@encounters.empty?
