@@ -47,7 +47,7 @@ class SpecialItem < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(unknown_hdr                ,  0, 'c' )
+    members << IntVar.new(VOC.retail_price           ,  0, 'c' )
     members << IntVar.new(VOC.order_priority         , -1, 'c' )
     members << IntVar.new(VOC.order_alphabet[country], -1, 'c' )
     
@@ -55,8 +55,7 @@ class SpecialItem < StdEntry
       members << IntVar.new(padding_hdr              ,  0, 'c' )
     end
     
-    members << IntVar.new(unknown_hdr                ,  0, 'c' )
-    members << IntVar.new(unknown_hdr                ,  0, 'c' )
+    members << IntVar.new(VOC.purchase_price         ,  0, 'S>')
 
     if region == 'P'
       members << IntVar.new(padding_hdr              ,  0, 'c' )
