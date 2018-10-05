@@ -218,22 +218,23 @@ class AklzFile < BinaryStringIO
         (0...8).each do |_i|
           # Compressed
           if _flag & 0x1 == 0
-            _b1 = _src.read_int('C')
-            _b2 = _src.read_int('C')
+            _b1 = _src.read_int('C') || 0
+            _b2 = _src.read_int('C') || 0
 
             _match_pos  = _b1 | (_b2 & ~MATCH_SIZE) << 4
             _match_size = (_b2 & MATCH_SIZE) + MATCH_BEG
-
+            _match_size = [_match_size, _file_size - @buffio.size].min
+            
             (0..._match_size).each do |_i|
               _byte = @buffer[(_match_pos + _i) & (BUFFER_SIZE - 1)]
               @buffio.write_int(_byte, 'C')
-              
+
               @buffer[@buffer_ptr] = _byte
               @buffer_ptr          = (@buffer_ptr + 1) & (BUFFER_SIZE - 1)
             end
           # Not compressed
           else
-            _byte = _src.read_int('C')
+            _byte = _src.read_int('C') || 0
             @buffio.write_int(_byte, 'C')
             
             @buffer[@buffer_ptr] = _byte
