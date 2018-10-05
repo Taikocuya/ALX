@@ -86,8 +86,8 @@ class ImageRebuilder
     print("Rebuild image: #{_image_path}")
 
     begin
-      FileUtils.remove_file(_image_path)
       FileUtils.mkdir_p(File.dirname(_image_path))
+      FileUtils.remove_file(_image_path, true)
       system("\"#{GCR_FILE}\" \"#{_game_path}\" \"#{_image_path}\"")
       _result = File.exist?(_image_path)
     rescue
