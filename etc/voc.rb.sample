@@ -356,10 +356,10 @@ VOC.configure do |_v|
   _v.magdef           = 'MagDef'
   _v.maxhp            = 'MAXHP'
   _v.maxmp            = 'MAXMP'
-  _v.maxspirit        = 'MAXSpirit'
+  _v.maxspirit        = _v.create_hdr('MAXSpirit%d')
   _v.power            = 'Power'
   _v.quick            = 'Quick'
-  _v.spirit           = 'Spirit'
+  _v.spirit           = _v.create_hdr('Spirit%d'   )
   _v.value            = 'Value'
   _v.vigor            = 'Vigor'
   _v.will             = 'Will'

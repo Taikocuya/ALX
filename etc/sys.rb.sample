@@ -113,6 +113,8 @@ SYS.configure do |_s|
   _s.shop_csv_file                 = 'csv/shops.csv'
   # Path to CSV file of special items relative to game root
   _s.special_item_csv_file         = 'csv/specialitems.csv'
+  # Path to CSV file of spirit curves relative to game root
+  _s.spirit_curve_csv_file         = 'csv/spiritcurves.csv'
   # Path to CSV file of usable items relative to game root
   _s.usable_item_csv_file          = 'csv/usableitems.csv'
   # Path to CSV file of weapons relative to game root
@@ -164,6 +166,8 @@ SYS.configure do |_s|
   _s.shop_tpl_file                 = 'shops.tpl.csv'
   # Path to TPL file of special items relative to 'share' directory
   _s.special_item_tpl_file         = 'specialitems.tpl.csv'
+  # Path to TPL file of spirit curves relative to 'share' directory
+  _s.spirit_curve_tpl_file         = 'spiritcurves.tpl.csv'
   # Path to TPL file of usable items relative to 'share' directory
   _s.usable_item_tpl_file          = 'usableitems.tpl.csv'
   # Path to TPL file of weapons relative to 'share' directory
@@ -752,6 +756,19 @@ SYS.configure do |_s|
       DataRange.new(_s.sot_file_fr, 0x17f59...0x18ef6),
       DataRange.new(_s.sot_file_gb, 0x179f9...0x189df),
     ],
+  }
+
+#------------------------------------------------------------------------------
+# Spirit curve data
+#------------------------------------------------------------------------------
+
+  # Range of spirit curve IDs
+  _s.spirit_curve_id_range   = 0x0...0x6
+  # Offset ranges of spirit curve data
+  _s.spirit_curve_data_files = {
+    'E' => DataRange.new(_s.dol_file, 0x2c6184...0x2c6628),
+    'J' => DataRange.new(_s.dol_file, 0x2c567c...0x2c5b20),
+    'P' => DataRange.new(_s.dol_file, 0x2c4aa0...0x2c4f44),
   }
 
 #------------------------------------------------------------------------------
