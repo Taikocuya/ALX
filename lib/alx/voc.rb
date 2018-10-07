@@ -88,7 +88,7 @@ VOC.configure do |_v|
   _v.character_id    = _v.create_hdr('Chara.%dID'    )
   _v.character_name  = _v.create_hdr('[Chara.%dname]')
   _v.character_x     = _v.create_hdr('Chara.%dX'     )
-  _v.character_y     = _v.create_hdr('Chara.%dY'     )
+  _v.character_z     = _v.create_hdr('Chara.%dZ'     )
   _v.character_opt   = _v.create_hdr('[%s]'          )
   _v.character_flags = 'Chara. flags'
 
@@ -100,12 +100,12 @@ VOC.configure do |_v|
   _v.characters[4] = 'Enrique'
   _v.characters[5] = 'Gilder'
   
-  _v.weapon_id         = 'Weapon ID'
-  _v.weapon_name       = '[Weapon name]'
-  _v.armor_id          = 'Armor ID'
-  _v.armor_name        = '[Armor name]'
-  _v.accessory_id      = 'Accessory ID'
-  _v.accessory_name    = '[Accessory name]'
+  _v.weapon_id      = 'Weapon ID'
+  _v.weapon_name    = '[Weapon name]'
+  _v.armor_id       = 'Armor ID'
+  _v.armor_name     = '[Armor name]'
+  _v.accessory_id   = 'Accessory ID'
+  _v.accessory_name = '[Accessory name]'
 
   _v.exp        = _v.create_hdr('EXP%d'       )
   _v.megic_exp  = 'Magic EXP'
@@ -161,7 +161,7 @@ VOC.configure do |_v|
   _v.enemy_name_us  = _v.create_hdr('[US enemy%dname]')
   _v.enemy_name_eu  = _v.create_hdr('[EU enemy%dname]')
   _v.enemy_x        = _v.create_hdr('Enemy%dX'        )
-  _v.enemy_y        = _v.create_hdr('Enemy%dY'        )
+  _v.enemy_z        = _v.create_hdr('Enemy%dZ'        )
 
   _v.item_probability = _v.create_hdr('Item%dprob.' )
   _v.item_amount      = _v.create_hdr('Item%damount')

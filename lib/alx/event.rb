@@ -53,7 +53,7 @@ class Event < Entry
       members << IntVar.new(VOC.character_id[_i]  ,  0, 'C' )
       members << StrDmy.new(VOC.character_name[_i], ''      )
       members << IntVar.new(VOC.character_x[_i]   ,  0, 'C' )
-      members << IntVar.new(VOC.character_y[_i]   ,  0, 'C' )
+      members << IntVar.new(VOC.character_z[_i]   ,  0, 'C' )
     end
     
     (0...7).each do |_i|
@@ -62,7 +62,7 @@ class Event < Entry
       members << StrDmy.new(VOC.enemy_name_us[_i] , ''      )
       members << StrDmy.new(VOC.enemy_name_eu[_i] , ''      )
       members << IntVar.new(VOC.enemy_x[_i]       ,  0, 'C' )
-      members << IntVar.new(VOC.enemy_y[_i]       ,  0, 'C' )
+      members << IntVar.new(VOC.enemy_z[_i]       ,  0, 'C' )
     end
 
     members << IntVar.new(VOC.unknown[-1]         ,  0, 'C' )
