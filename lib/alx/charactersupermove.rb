@@ -86,7 +86,7 @@ class CharacterSuperMove < StdEntry
     members << IntVar.new(VOC.ship_effect_spirit, -1, 'c' )
     members << IntVar.new(VOC.ship_effect_turns , -1, 'c' )
     members << IntVar.new(VOC.ship_effect_value ,  0, 's>')
-    members << IntVar.new(unknown_hdr           , -1, 'c' )
+    members << IntVar.new(VOC.unknown[-1]       , -1, 'c' )
     members << IntVar.new(padding_hdr           ,  0, 'c' )
     members << IntVar.new(padding_hdr           ,  0, 'c' )
     members << IntVar.new(padding_hdr           ,  0, 'c' )
