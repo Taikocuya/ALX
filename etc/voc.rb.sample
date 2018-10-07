@@ -64,8 +64,11 @@ VOC.configure do |_v|
   _v.unknown = _v.create_hdr('Unknown%d')
   _v.padding = _v.create_hdr('Padding%d')
   
-  _v.id         = 'Entry ID'
-  _v.filter     = '[Filter]'
+  _v.id             = 'Entry ID'
+  _v.filter         = '[Filter]'
+  _v.width          = 'Width'
+  _v.depth          = 'Depth'
+  _v.movement_flags = 'Movement flags'
   
   _v.message_id     = _v.create_hdr('%smessage ID'        )
   _v.name_size      = _v.create_hdr('[%sentry name size]' )
@@ -159,9 +162,6 @@ VOC.configure do |_v|
   _v.enemy_name_eu  = _v.create_hdr('[EU enemy%dname]')
   _v.enemy_x        = _v.create_hdr('Enemy%dX'        )
   _v.enemy_y        = _v.create_hdr('Enemy%dY'        )
-  _v.enemy_width    = 'Width'
-  _v.enemy_height   = 'Height'
-  _v.movement_flags = 'Movement flags'
 
   _v.item_probability = _v.create_hdr('Item%dprob.' )
   _v.item_amount      = _v.create_hdr('Item%damount')
