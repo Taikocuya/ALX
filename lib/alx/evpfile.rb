@@ -23,7 +23,7 @@
 #==============================================================================
 
 require_relative('epfile.rb')
-require_relative('event.rb')
+require_relative('enemyevent.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -68,9 +68,9 @@ class EvpFile < EpFile
   
   # Creates an event.
   # @param _id [Integer] Event ID
-  # @return [Entry] Event object
+  # @return [Entry] EnemyEvent object
   def create_event(_id = -1)
-    _event         = Event.new(region)
+    _event         = EnemyEvent.new(region)
     _event.id      = _id
     _event.enemies = enemies
     _event

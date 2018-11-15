@@ -32,8 +32,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle an encounter.
-class Encounter < Entry
+# Class to handle an enemy event.
+class EnemyEvent < Entry
 
 #==============================================================================
 #                                   PUBLIC
@@ -41,38 +41,53 @@ class Encounter < Entry
 
   public
 
-  # Constructs an Enemy.
+  # Constructs an EnemyEvent.
   # @param _region [String] Region ID
   def initialize(_region)
     super
     @enemies = {}
-    @file    = ''
 
-    members << StrDmy.new(VOC.filter             , ''      )
-    members << IntVar.new(VOC.unknown[-1]        ,  0, 'C' )
-    members << IntVar.new(VOC.megic_exp          ,  0, 'C' )
-
-    (0...8).each do |_i|
-      members << IntVar.new(VOC.enemy_id[_i]     ,  0, 'C' )
-      members << StrDmy.new(VOC.enemy_name_jp[_i], ''      )
-      members << StrDmy.new(VOC.enemy_name_us[_i], ''      )
-      members << StrDmy.new(VOC.enemy_name_eu[_i], ''      )
-    end
-  end
-
-  # Reads one entry from a CSV  file.
-  # @param _csv [CSV] CSV object
-  def read_from_csv(_csv)
-    super
-    @file = find_member(VOC.filter).value
-  end
-  
-  # Writes one entry to a CSV file.
-  # @param _csv [CSV] CSV object
-  def write_to_csv(_csv)
-    find_member(VOC.filter).value = @file
+    members << IntVar.new(VOC.magic_exp           ,  0, 'C' )
     
-    (0...8).each do |_i|
+    (0...4).each do |_i|
+      members << IntVar.new(VOC.character_id[_i]  ,  0, 'c' )
+      members << StrDmy.new(VOC.character_name[_i], ''      )
+      members << IntVar.new(VOC.character_x[_i]   ,  0, 'c' )
+      members << IntVar.new(VOC.character_z[_i]   ,  0, 'c' )
+    end
+    
+    (0...7).each do |_i|
+      members << IntVar.new(VOC.enemy_id[_i]      ,  0, 'C' )
+      members << StrDmy.new(VOC.enemy_name_jp[_i] , ''      )
+      members << StrDmy.new(VOC.enemy_name_us[_i] , ''      )
+      members << StrDmy.new(VOC.enemy_name_eu[_i] , ''      )
+      members << IntVar.new(VOC.enemy_x[_i]       ,  0, 'c' )
+      members << IntVar.new(VOC.enemy_z[_i]       ,  0, 'c' )
+    end
+
+    members << IntVar.new(VOC.unknown[-1]         ,  0, 'C' )
+    members << IntVar.new(VOC.defeat_cond_id      ,  0, 'c' )
+    members << StrDmy.new(VOC.defeat_cond_name    , ''      )
+    members << IntVar.new(VOC.escape_cond_id      ,  0, 'c' )
+    members << StrDmy.new(VOC.escape_cond_name    , ''      )
+
+    members << IntDmy.new(VOC.bgm_id              , -1      )
+  end
+
+  # Writes one entry to a CSV file.
+  # @param _f [CSV] CSV object
+  def write_to_csv(_f)
+    (0...4).each do |_i|
+      _id = find_member(VOC.character_id[_i]).value
+      if _id != 255
+        _name = VOC.characters[_id]
+      else
+        _name = 'None'
+      end
+      find_member(VOC.character_name[_i]).value = _name
+    end
+    
+    (0...7).each do |_i|
       _id = find_member(VOC.enemy_id[_i]).value
       if _id != 255
         _entry = @enemies.find { |_enemy| _enemy.id == _id }
@@ -95,6 +110,12 @@ class Encounter < Entry
       find_member(VOC.enemy_name_eu[_i]).value = _name_eu
     end
 
+    _id = find_member(VOC.defeat_cond_id).value
+    find_member(VOC.defeat_cond_name).value = VOC.defeats[_id]
+
+    _id = find_member(VOC.escape_cond_id).value
+    find_member(VOC.escape_cond_name).value = VOC.escapes[_id]
+
     super
   end
 
@@ -103,9 +124,8 @@ class Encounter < Entry
 #------------------------------------------------------------------------------
 
   attr_accessor :enemies
-  attr_accessor :file
 
-end	# class Encounter
+end	# class EnemyEvent
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

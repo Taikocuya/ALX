@@ -399,6 +399,19 @@ SYS.configure do |_s|
   }
 
 #------------------------------------------------------------------------------
+# Enemy event BGM data
+#------------------------------------------------------------------------------
+
+  # Range of enemy event BGM IDs
+  _s.enemy_event_bgm_id_range = 0x0...0x59
+  # Offset ranges of enemy event BGMs
+  _s.enemy_event_bgm_files = {
+    'E' => DataRange.new(_s.dol_file, 0x2e16e0...0x2e171b),
+    'J' => DataRange.new(_s.dol_file, 0x2e1200...0x2e123b),
+    'P' => DataRange.new(_s.dol_file, 0x2e03a0...0x2e03db),
+  }
+
+#------------------------------------------------------------------------------
 # Enemy magic data
 #------------------------------------------------------------------------------
 

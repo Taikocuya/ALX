@@ -23,7 +23,7 @@
 #==============================================================================
 
 require_relative('epfile.rb')
-require_relative('encounter.rb')
+require_relative('enemyencounter.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -81,11 +81,11 @@ class EnpFile < EpFile
   end
   
   # Creates an encounter.
-  # @param _id       [Integer] Encountert ID
+  # @param _id       [Integer] Encounter ID
   # @param _filename [String]  File name
-  # @return [Entry] Encounter object
+  # @return [Entry] EnemyEncounter object
   def create_encounter(_id = -1, _filename = '*')
-    _encounter         = Encounter.new(region)
+    _encounter         = EnemyEncounter.new(region)
     _encounter.id      = _id
     _encounter.enemies = enemies
     _encounter.file    = File.basename(_filename)

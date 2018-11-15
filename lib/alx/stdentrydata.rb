@@ -163,7 +163,7 @@ class StdEntryData < EntryData
   end
   
   # Reads all description entries from a binary file.
-  # @param _filename [String]  File name
+  # @param _filename [String] File name
   def load_dscr_from_bin(_filename)
     print("\n")
     puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
@@ -289,7 +289,6 @@ class StdEntryData < EntryData
         end
         
         _f.pos = _range.begin + (_id - @id_range.begin) * _size
-  
         if _f.eof? || _f.pos < _range.begin || _f.pos + _size > _range.end
           next
         end
@@ -333,13 +332,11 @@ class StdEntryData < EntryData
           _pos  = 0
           _size = 0
         end
-
         if _pos <= 0 || _size <= 0
           next
         end
         
         _f.pos = _pos
-
         if _f.eof? || _f.pos < _range.begin || _f.pos + _size > _range.end
           next
         end
@@ -390,13 +387,11 @@ class StdEntryData < EntryData
             _size = 0
           end
         end
-        
         if _pos <= 0 || _size <= 0
           next
         end
         
         _f.pos = _pos
-
         if _f.eof? || _f.pos < _range.begin || _f.pos + _size > _range.end
           next
         end
@@ -528,20 +523,6 @@ class StdEntryData < EntryData
 #==============================================================================
 
   private
-
-  # Determines the data range with given filename.
-  #
-  # @param _range    [DataRange,Array] Data range
-  # @param _filename [String]          Filename
-  #
-  # @return [DataRange] Data range
-  def determine_range(_range, _filename)
-    if _range.is_a?(Array)
-      _range = _range.find { |_r| _filename.include?(_r.name) }
-    end
-    _range ||= DataRange.new('', 0x0...0xffffffff)
-    _range
-  end
 
   # Determines the PAL-E language for the given filename.
   # @param _filename [String] Filename

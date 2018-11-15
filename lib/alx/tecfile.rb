@@ -59,7 +59,7 @@ class TecFile
   end
 
   # Creates a task.
-  # @param _id       [Integer] Encountert ID
+  # @param _id       [Integer] Task ID
   # @param _filename [String]  File name
   # @return [Entry] EnemyShipTask object
   def create_task(_id = -1, _filename = '*')

@@ -72,7 +72,7 @@ class CharacterMagicData < StdEntryData
 
         _entry  = @data[_id]
         _msg_id = _entry.msg_id
-    
+
         case region
         when 'E', 'J'
           _pos  = _entry.find_member(VOC.ship_dscr_pos[country] )
@@ -174,13 +174,11 @@ class CharacterMagicData < StdEntryData
             _size = 0
           end
         end
-        
         if _pos <= 0 || _size <= 0
           next
         end
         
         _f.pos = _pos
-  
         if _f.eof? || _f.pos < _range.begin || _f.pos + _size > _range.end
           next
         end

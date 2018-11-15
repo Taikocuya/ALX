@@ -78,7 +78,27 @@ class EntryData
   def country
     SYS.country_ids[@root.hdr.region_id]
   end
-    
+
+#==============================================================================
+#                                   PRIVATE
+#==============================================================================
+
+  private
+  
+  # Determines the data range with given filename.
+  #
+  # @param _range    [DataRange,Array] Data range
+  # @param _filename [String]          Filename
+  #
+  # @return [DataRange] Data range
+  def determine_range(_range, _filename)
+    if _range.is_a?(Array)
+      _range = _range.find { |_r| _filename.include?(_r.name) }
+    end
+    _range ||= DataRange.new('', 0x0...0xffffffff)
+    _range
+  end
+
 end # class EntryData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

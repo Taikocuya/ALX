@@ -108,7 +108,7 @@ VOC.configure do |_v|
   _v.accessory_name = '[Accessory name]'
 
   _v.exp        = _v.create_hdr('EXP%d'       )
-  _v.megic_exp  = 'Magic EXP'
+  _v.magic_exp  = 'Magic EXP'
   _v.green_exp  = _v.create_hdr('Green EXP%d' )
   _v.red_exp    = _v.create_hdr('Red EXP%d'   )
   _v.purple_exp = _v.create_hdr('Purple EXP%d')
@@ -306,6 +306,8 @@ VOC.configure do |_v|
 # Battle
 #------------------------------------------------------------------------------
 
+  _v.bgm_id = 'BGM ID'
+    
   _v.defeat_cond_id   = 'Defeat cond. ID'
   _v.defeat_cond_name = '[Defeat cond. name]'
   _v.escape_cond_id   = 'Escape cond. ID'

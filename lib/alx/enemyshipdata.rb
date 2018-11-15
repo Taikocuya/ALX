@@ -212,13 +212,11 @@ class EnemyShipData < StdEntryData
             _pos  = 0
             _size = 0
           end
-  
           if _pos <= 0 || _size <= 0
             next
           end
           
           _f.pos = _pos
-    
           if _f.eof? || _f.pos < _range.begin || _f.pos + _size > _range.end
             next
           end
