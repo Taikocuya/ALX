@@ -49,7 +49,7 @@ class EnemyEncounter < Entry
     @file    = ''
 
     members << StrDmy.new(VOC.filter             , ''      )
-    members << IntVar.new(VOC.unknown[-1]        ,  0, 'C' )
+    members << IntVar.new(VOC.party_vigor        ,  0, 'C' )
     members << IntVar.new(VOC.magic_exp          ,  0, 'C' )
 
     (0...8).each do |_i|

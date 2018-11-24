@@ -306,7 +306,8 @@ VOC.configure do |_v|
 # Battle
 #------------------------------------------------------------------------------
 
-  _v.bgm_id = 'BGM ID'
+  _v.party_vigor = 'Party vigor'
+  _v.bgm_id      = 'BGM ID'
     
   _v.defeat_cond_id   = 'Defeat cond. ID'
   _v.defeat_cond_name = '[Defeat cond. name]'

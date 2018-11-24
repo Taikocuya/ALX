@@ -65,7 +65,7 @@ class EnemyEvent < Entry
       members << IntVar.new(VOC.enemy_z[_i]       ,  0, 'c' )
     end
 
-    members << IntVar.new(VOC.unknown[-1]         ,  0, 'C' )
+    members << IntVar.new(VOC.party_vigor         ,  0, 'C' )
     members << IntVar.new(VOC.defeat_cond_id      ,  0, 'c' )
     members << StrDmy.new(VOC.defeat_cond_name    , ''      )
     members << IntVar.new(VOC.escape_cond_id      ,  0, 'c' )
