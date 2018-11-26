@@ -24,6 +24,7 @@
 #==============================================================================
 
 require('fileutils')
+require('pathname')
 require_relative('../../lib/alx/etc.rb')
 require_relative('../../lib/alx/executable.rb')
 
@@ -58,53 +59,58 @@ class BackupRestorer
         next
       end
   
-      restore_backup(File.join(_game_path, SYS.dol_file))
-      restore_backup(File.join(_game_path, SYS.evp_file))
-      restore_backup(File.join(_game_path, SYS.lmt_file))
+      restore_backup(_game_path, SYS.dol_file)
+      restore_backup(_game_path, SYS.evp_file)
+      restore_backup(_game_path, SYS.lmt_file)
+
+      Dir.chdir(_game_path) do
+        Dir.glob(sprintf(SYS.enp_file, '*')).each do |_p|
+          restore_backup(_game_path, _p)
+        end
+        Dir.glob(sprintf(SYS.eb_dat_file, '*')).each do |_p|
+          restore_backup(_game_path, _p)
+        end
+        Dir.glob(sprintf(SYS.ec_dat_file, '*')).each do |_p|
+          restore_backup(_game_path, _p)
+        end
+        Dir.glob(sprintf(SYS.tec_file, '*')).each do |_p|
+          restore_backup(_game_path, _p)
+        end
         
-      _enp_file    = sprintf(SYS.enp_file   , '*')
-      Dir.glob(File.join(_game_path, _enp_file   )).each do |_p|
-        restore_backup(_p)
-      end
-      _eb_dat_file = sprintf(SYS.eb_dat_file, '*')
-      Dir.glob(File.join(_game_path, _eb_dat_file)).each do |_p|
-        restore_backup(_p)
-      end
-      _ec_dat_file = sprintf(SYS.ec_dat_file, '*')
-      Dir.glob(File.join(_game_path, _ec_dat_file)).each do |_p|
-        restore_backup(_p)
-      end
-      _tec_file    = sprintf(SYS.tec_file   , '*')
-      Dir.glob(File.join(_game_path, _tec_file   )).each do |_p|
-        restore_backup(_p)
-      end
-      
-      Dir.glob(File.join(_game_path, SYS.sot_file_de)).each do |_p|
-        restore_backup(_p)
-      end
-      Dir.glob(File.join(_game_path, SYS.sot_file_es)).each do |_p|
-        restore_backup(_p)
-      end
-      Dir.glob(File.join(_game_path, SYS.sot_file_fr)).each do |_p|
-        restore_backup(_p)
-      end
-      Dir.glob(File.join(_game_path, SYS.sot_file_gb)).each do |_p|
-        restore_backup(_p)
+        Dir.glob(SYS.sot_file_de).each do |_p|
+          restore_backup(_game_path, _p)
+        end
+        Dir.glob(SYS.sot_file_es).each do |_p|
+          restore_backup(_game_path, _p)
+        end
+        Dir.glob(SYS.sot_file_fr).each do |_p|
+          restore_backup(_game_path, _p)
+        end
+        Dir.glob(SYS.sot_file_gb).each do |_p|
+          restore_backup(_game_path, _p)
+        end
       end
     end
   end
 
   # Restores a backup.
-  # @param _filename [String] Backup to restore
-  def restore_backup(_filename)
-    _src = File.expand_path(_filename + '.bak')
-    _dst = File.expand_path(_filename)
+  # @param _game_path [String] Path to game root
+  # @param _filename  [String] Backup to create
+  def restore_backup(_game_path, _filename)
+    _dst_file = File.expand_path(_filename, _game_path)
+    _base_dir = Pathname.new(File.expand_path(SYS.root_dir, _game_path))
+    _root_dir = Pathname.new(_dst_file)
+    _src_file = File.expand_path(
+      _root_dir.relative_path_from(_base_dir),
+      File.join(_game_path, SYS.bak_dir)
+    )
 
-    print("Restore backup: #{_dst}")
-    
+    print("Restore backup: #{_dst_file}")
+
     begin
-      FileUtils.cp(_src, _dst)
-      _result = File.exist?(_src)
+      FileUtils.mkdir_p(File.dirname(_dst_file))
+      FileUtils.cp(_src_file, _dst_file)
+      _result = File.exist?(_src_file)
     rescue
       _result = false
     end
