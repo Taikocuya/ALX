@@ -108,7 +108,6 @@ class BackupRestorer
     print("Restore backup: #{_dst_file}")
 
     begin
-      FileUtils.mkdir_p(File.dirname(_dst_file))
       FileUtils.cp(_src_file, _dst_file)
       _result = File.exist?(_src_file)
     rescue
