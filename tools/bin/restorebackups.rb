@@ -109,7 +109,7 @@ class BackupRestorer
 
     begin
       FileUtils.cp(_src_file, _dst_file)
-      _result = File.exist?(_src_file)
+      _result = File.exist?(_dst_file)
     rescue
       _result = false
     end

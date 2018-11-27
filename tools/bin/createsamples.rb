@@ -75,7 +75,7 @@ class SampleCreator
     
     begin
       FileUtils.cp(_src, _dst)
-      _result = File.exist?(_src)
+      _result = File.exist?(_dst)
     rescue
       _result = false
     end
