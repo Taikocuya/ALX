@@ -45,7 +45,7 @@ class EnemyEvent < Entry
   # @param _region [String] Region ID
   def initialize(_region)
     super
-    @enemies = {}
+    @enemies = []
 
     members << IntVar.new(VOC.magic_exp           ,  0, 'C' )
     

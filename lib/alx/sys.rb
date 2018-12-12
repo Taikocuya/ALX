@@ -96,6 +96,8 @@ SYS.configure do |_s|
   _s.enemy_event_csv_file          = "#{_s.csv_dir}/enemyevents.csv"
   # Path to CSV file of enemy encounters relative to game root
   _s.enemy_encounter_csv_file      = "#{_s.csv_dir}/enemyencounters.csv"
+  # Path to CSV file of enemy instructions relative to game root
+  _s.enemy_instruction_csv_file    = "#{_s.csv_dir}/enemyinstructions.csv"
   # Path to CSV file of enemy magics relative to game root
   _s.enemy_magic_csv_file          = "#{_s.csv_dir}/enemymagics.csv"
   # Path to CSV file of enemy ships relative to game root
@@ -149,6 +151,8 @@ SYS.configure do |_s|
   _s.enemy_event_tpl_file          = 'enemyevents.tpl.csv'
   # Path to TPL file of enemy encounters relative to 'share' directory
   _s.enemy_encounter_tpl_file      = 'enemyencounters.tpl.csv'
+  # Path to CSV file of enemy instructions relative to game root
+  _s.enemy_instruction_tpl_file    = 'enemyinstructions.tpl.csv'
   # Path to TPL file of enemy magics relative to 'share' directory
   _s.enemy_magic_tpl_file          = 'enemymagics.tpl.csv'
   # Path to TPL file of enemy ships relative to 'share' directory

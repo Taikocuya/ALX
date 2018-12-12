@@ -162,10 +162,7 @@ class EnpFile < EpFile
           _f.pos = _pos
           
           puts(sprintf(VOC.read, _id, _pos))
-          _enemy = create_enemy(_id, _segname)
-          _enemy.read_from_bin(_f)
-          
-          enemies << _enemy
+          load_enemy(_f, _id, _segname)
         end
 
         if _f.pos > _end
@@ -255,7 +252,7 @@ class EnpFile < EpFile
             
           puts(sprintf(VOC.write, _id, _pos))
           _nodes << create_node(_id, _pos - _beg)
-          _enemy.write_to_bin(_f)
+          save_enemy(_f, _enemy, _filename)
         end
         
         # Positions

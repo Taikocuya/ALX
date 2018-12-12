@@ -45,10 +45,8 @@ class Enemy < Entry
   # @param _region [String] Region ID
   def initialize(_region)
     super
-    @items       = {}
-    @magics      = {}
-    @super_moves = {}
-    @files       = []
+    @files        = []
+    @items        = {}
     
     members << StrDmy.new(VOC.filter                , ''      )
     members << StrVar.new(VOC.name_str['JP']        , '',   21)
@@ -109,17 +107,6 @@ class Enemy < Entry
       members << IntVar.new(VOC.item_id[_i]         , -1, 's>')
       members << StrDmy.new(VOC.item_name[_i]       , ''      )
     end
-
-    (0...64).each do |_i|
-      members << IntVar.new(VOC.instr_type_id[_i]   , -1, 's>')
-      members << StrDmy.new(VOC.instr_type_name[_i] , ''      )
-      members << IntVar.new(VOC.instr_id[_i]        , -1, 's>')
-      members << StrDmy.new(VOC.instr_name[_i]      , ''      )
-      members << IntVar.new(VOC.instr_param_id[_i]  , -1, 's>')
-      members << StrDmy.new(VOC.instr_param_name[_i], ''      )
-    end
-
-    members << IntVar.new(padding_hdr               ,  0, 's>')
   end
 
   # Reads one entry from a CSV  file.
@@ -132,7 +119,7 @@ class Enemy < Entry
   # Writes one entry to a CSV file.
   # @param _csv [CSV] CSV object
   def write_to_csv(_csv)
-    find_member(VOC.filter).value           = @files.join(';')
+    find_member(VOC.filter).value            = @files.join(';')
     find_member(VOC.enemy_name_us[-1]).value = VOC.enemies_us[id]
     find_member(VOC.enemy_name_eu[-1]).value = VOC.enemies_eu[id]
     
@@ -163,42 +150,6 @@ class Enemy < Entry
       end
       find_member(VOC.item_name[_i]).value = _name
     end
-    
-    (0...64).each do |_i|
-      _type_id    = find_member(VOC.instr_type_id[_i] ).value
-      _instr_id   = find_member(VOC.instr_id[_i]      ).value
-      _param_id   = find_member(VOC.instr_param_id[_i]).value
-      _type_name  = VOC.instr_types[_type_id]
-      _instr_name = _instr_id != -1 ? '???' : 'None'
-      _param_name = _param_id != -1 ? '???' : 'None'
-
-      if _type_id == 1
-        # Action
-        _entry = nil
-        if _instr_id >= 550
-          _instr_name = VOC.basic_actions[_instr_id]
-        elsif _instr_id >= 500
-          _entry = @magics[_instr_id - 500]
-        elsif _instr_id >= 0
-          _entry = @super_moves[_instr_id]
-        end
-        if _entry
-          case region
-          when 'E', 'J'
-            _instr_name = _entry.find_member(VOC.name_str[country]).value
-          when 'P'
-            _instr_name = _entry.find_member(VOC.name_str['GB']   ).value
-          end
-        end
-
-        # Action target
-        _param_name = VOC.action_targets[_param_id]
-      end
-
-      find_member(VOC.instr_type_name[_i] ).value = _type_name
-      find_member(VOC.instr_name[_i]      ).value = _instr_name
-      find_member(VOC.instr_param_name[_i]).value = _param_name
-    end
 
     super
   end
@@ -207,10 +158,8 @@ class Enemy < Entry
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :items
-  attr_accessor :magics
-  attr_accessor :super_moves
   attr_accessor :files
+  attr_accessor :items
   
   def order
     _order = 0xff

@@ -168,12 +168,13 @@ VOC.configure do |_v|
   _v.item_id          = _v.create_hdr('Item%dID'    )
   _v.item_name        = _v.create_hdr('[Item%dname]')
 
-  _v.instr_type_id    = _v.create_hdr('Instr.%dtype ID'      )
-  _v.instr_type_name  = _v.create_hdr('[Instr.%dtype name]'  )
-  _v.instr_id         = _v.create_hdr('Instr.%dID'           )
-  _v.instr_name       = _v.create_hdr('[Instr.%dname]'       )
-  _v.instr_param_id   = _v.create_hdr('Instr.%dparam. ID'    )
-  _v.instr_param_name = _v.create_hdr('[Instr.%dparam. name]')
+  _v.instr_enemy_id   = '[Enemy ID]'
+  _v.instr_type_id    = 'Instr. type ID'
+  _v.instr_type_name  = '[Instr. type name]'
+  _v.instr_id         = 'Instr. ID'
+  _v.instr_name       = '[Instr. name]'
+  _v.instr_param_id   = 'Instr. param. ID'
+  _v.instr_param_name = '[Instr. param. name]'
 
   _v.instr_types     = Hash.new('???')
   _v.instr_types[-1] = 'None'

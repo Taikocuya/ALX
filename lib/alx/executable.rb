@@ -42,7 +42,7 @@ module Executable
   # Version of ALX
   VERSION = '3.1.0'
   # Date of ALX
-  DATE    = Time.new(2018, 9, 30)
+  DATE    = Time.new(2018, 12, 11)
 
 #==============================================================================
 #                                   PUBLIC

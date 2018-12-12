@@ -45,7 +45,7 @@ class EnemyEncounter < Entry
   # @param _region [String] Region ID
   def initialize(_region)
     super
-    @enemies = {}
+    @enemies = []
     @file    = ''
 
     members << StrDmy.new(VOC.filter             , ''      )

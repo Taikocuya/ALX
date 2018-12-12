@@ -24,6 +24,7 @@
 
 require_relative('aklzfile.rb')
 require_relative('enemy.rb')
+require_relative('enemyinstruction.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -37,6 +38,15 @@ module ALX
 class EpFile
 
 #==============================================================================
+#                                  CONSTANTS
+#==============================================================================
+
+  # Size of instruction table
+  INSTR_SIZE = 0x40
+  # EOF marker
+  EOF_MARKER = -0x1
+
+#==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
@@ -45,11 +55,12 @@ class EpFile
   # Constructs an EpFile.
   # @param _region [String] Region ID
   def initialize(_region)
-    @region      = _region
-    @enemies     = []
-    @items       = {}
-    @magics      = {}
-    @super_moves = {}
+    @region       = _region
+    @enemies      = []
+    @instructions = []
+    @items        = {}
+    @magics       = {}
+    @super_moves  = {}
   end
   
   # Creates an enemy.
@@ -57,13 +68,25 @@ class EpFile
   # @param _filename [String]  File name
   # @return [Entry] Enemy object
   def create_enemy(_id = -1, _filename = '*')
-    _enemy              = Enemy.new(region)
-    _enemy.id           = _id
-    _enemy.files       << File.basename(_filename)
-    _enemy.items        = @items
-    _enemy.magics       = @magics
-    _enemy.super_moves  = @super_moves
+    _enemy        = Enemy.new(region)
+    _enemy.id     = _id
+    _enemy.files << File.basename(_filename)
+    _enemy.items  = @items
     _enemy
+  end
+  
+  # Creates an enemy instruction.
+  # @param _id       [Integer] Enemy ID
+  # @param _filename [String]  File name
+  # @return [Entry] EnemyInstruction object
+  def create_instruction(_id = -1, _filename = '*')
+    _instr              = EnemyInstruction.new(region)
+    _instr.id           = _id
+    _instr.files       << File.basename(_filename)
+    _instr.enemies      = @enemies
+    _instr.magics       = @magics
+    _instr.super_moves  = @super_moves
+    _instr
   end
   
 #------------------------------------------------------------------------------
@@ -72,6 +95,7 @@ class EpFile
 
   attr_accessor :region
   attr_accessor :enemies
+  attr_accessor :instructions
   attr_accessor :items
   attr_accessor :magics
   attr_accessor :super_moves
@@ -104,6 +128,69 @@ class EpFile
     nil
   end
 
+  # Loads an enemy and its instructions from a binary I/O stream.
+  # @param _f        [IO]      Binary I/O stream.
+  # @param _id       [Integer] Enemy ID
+  # @param _filename [String]  File name
+  # @return [Entry] Enemy object
+  def load_enemy(_f, _id, _filename)
+    _enemy = create_enemy(_id, _filename)
+    _enemy.read_from_bin(_f)
+    @enemies << _enemy
+    
+    (1..INSTR_SIZE).each do |_i|
+      _instr          = create_instruction(_i, _filename)
+      _instr.enemy_id = _id
+      _instr.read_from_bin(_f)
+      if _instr.type_id != -1
+        @instructions << _instr
+      end
+    end
+    
+    if _f.read_int('s>') != EOF_MARKER
+      raise(EOFError, 'EOF marker not found')
+    end
+  end
+
+  # Saves an enemy and its instructions to a binary I/O stream.
+  # @param _f        [IO]     Binary I/O stream.
+  # @param _enemy    [Enemy]  Enemy object
+  # @param _filename [String] File name
+  def save_enemy(_f, _enemy, _filename)
+    _id = _enemy.id
+    _enemy.write_to_bin(_f)
+    
+    _instructions = @instructions.find_all do |_instr|
+      _instr.enemy_id == _id && _instr.files.include?(File.basename(_filename))
+    end
+    if _instructions.empty?
+      _instructions = @instructions.find_all do |_instr|
+        _instr.enemy_id == _id && _instr.files.include?('*')
+      end
+    end
+    if _instructions.empty?
+      raise(IOError, "instructions for enemy ##{_id} not found")
+    end
+
+    _empty = EnemyInstruction.new(@region)
+    _last  = nil
+    (0...INSTR_SIZE).each do |_i|
+      _instr = _instructions[_i]
+      if !_instr
+        _instr = _empty
+      else
+        if _last && _instr.id != _last.id + 1
+          _str = 'instruction ID invalid (given %s, expected %s)'
+          raise(IOError, sprintf(_str, _instr.id, _last.id + 1))
+        end
+      end
+      _instr.write_to_bin(_f)
+      _last = _instr
+    end
+
+    _f.write_int(EOF_MARKER, 's>')
+  end
+  
 end # class EpFile
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

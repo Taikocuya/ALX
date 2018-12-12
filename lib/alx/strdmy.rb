@@ -41,12 +41,6 @@ class StrDmy < DataMember
 
   public
 
-  # Returns +true+ if data member is a dummy, otherwise +false+.
-  # @return [Boolean] +true+ if data member is a dummy, otherwise +false+.
-  def dummy?
-    true
-  end
-  
   # Constructs a StrDmy
   # @param _name  [String]  Name
   # @param _value [String]  Value
@@ -56,6 +50,12 @@ class StrDmy < DataMember
     @eol = _eol
   end
 
+  # Returns +true+ if data member is a dummy, otherwise +false+.
+  # @return [Boolean] +true+ if data member is a dummy, otherwise +false+.
+  def dummy?
+    true
+  end
+  
   # Reads one entry from a CSV row.
   # @param _row [CSV::Row] CSV row
   def read_from_csv_row(_row)

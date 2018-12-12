@@ -68,9 +68,7 @@ class DatFile < EpFile
     
     AklzFile.open(_filename, 'rb') do |_f|
       puts(sprintf(VOC.read, _id, _f.pos))
-      _enemy = create_enemy(_id, _filename)
-      _enemy.read_from_bin(_f)
-      enemies << _enemy
+      load_enemy(_f, _id, _filename)
     end
     
     puts(sprintf(VOC.close, _filename))
@@ -108,7 +106,7 @@ class DatFile < EpFile
 
     AklzFile.open(_filename, 'wb') do |_f|
       puts(sprintf(VOC.write, _id, _f.pos))
-      _enemy.write_to_bin(_f)
+      save_enemy(_f, _enemy, _filename)
     end
 
     puts(sprintf(VOC.close, _filename))
