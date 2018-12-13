@@ -252,24 +252,17 @@ class EnemyData < EntryData
     _last = nil
     _lock = false
     @instructions.each do |_instr|
-      if _last
-        if _last.order < 2
-          _last.files = ['*']
-        end
+      if _last && _last.enemy_id != _instr.enemy_id
         _last = nil
         _lock = false
       end
-      
-      if !_lock && (!_last || _last.files.size < _instr.files.size)
-        _last = _instr
-      end
-      
-      if _instr.files.include?('*')
+      if _last && _last.id >= _instr.id
         _lock = true
       end
-    end
-    if _last && _last.order < 2
-      _last.files = ['*']
+      if !_lock && _instr.order < 2
+        _last       = _instr
+        _last.files = ['*']
+      end
     end
   end
 
