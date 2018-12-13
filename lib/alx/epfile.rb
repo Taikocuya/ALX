@@ -168,8 +168,13 @@ class EpFile
         _instr.enemy_id == _id && _instr.files.include?('*')
       end
     end
-    if _instructions.empty?
+    
+    _size = _instructions.size
+    if _size == 0
       raise(IOError, "instructions for enemy ##{_id} not found")
+    end
+    if _size > INSTR_SIZE
+      raise(IOError, "instruction quota of #{INSTR_SIZE} exceeded")
     end
 
     _empty = EnemyInstruction.new(@region)
