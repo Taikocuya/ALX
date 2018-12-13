@@ -11,6 +11,9 @@ Thumbs.db
 # Eclipse
 .project
 
+# LibreOffice
+.~lock.*#
+
 # ALX
 /share/*/bak
 /share/*/root
