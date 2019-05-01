@@ -89,5 +89,5 @@ Links
 License
 -------
 
-Copyright (C) 2018 Marcel Renner. ALX is licensed under the GNU General Public 
+Copyright (C) 2019 Marcel Renner. ALX is licensed under the GNU General Public 
 License, Version 3.0. See [LICENSE.md](LICENSE.md) for the full license text.
