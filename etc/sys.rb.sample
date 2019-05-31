@@ -1,6 +1,6 @@
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2018 Marcel Renner
+# Copyright (C) 2019 Marcel Renner
 # 
 # This file is part of ALX.
 # 
@@ -28,15 +28,15 @@ module ALX
 
 # Class to handle global system settings.
 SYS.configure do |_s|
-  
+
 #------------------------------------------------------------------------------
 # Game paths
 #------------------------------------------------------------------------------
 
   # Path to 'share' directory
-  _s.share_dir      = _s.expand_path('share')
+  _s.share_dir      = _s.expand('share')
   # Path to 'thirdparty' directory
-  _s.thirdparty_dir = _s.expand_path('thirdparty')
+  _s.thirdparty_dir = _s.expand('thirdparty')
 
   # Path to 'bak' directory relative to game root
   _s.bak_dir  = 'bak'
@@ -44,35 +44,74 @@ SYS.configure do |_s|
   _s.csv_dir  = 'csv'
   # Path to 'root' directory relative to game root
   _s.root_dir = 'root'
+
+  # Path to BNR file relative to game root.
+  _s.bnr_file = _s.join(_s.root_dir, 'opening.bnr')
+  # Path to HDR file relative to game root.
+  _s.hdr_file = _s.join(_s.root_dir, '&&systemdata/ISO.hdr')
+  # Path to IP.BIN file relative to game root.
+  _s.ip_file  = _s.join(_s.root_dir, 'IP.BIN')
   
-  # Path to BNR file relative to game root
-  _s.bnr_file = "#{_s.root_dir}/opening.bnr"
-  # Path to HDR file relative to game root
-  _s.hdr_file = "#{_s.root_dir}/&&systemdata/ISO.hdr"
-
-  # Path to DOL file relative to game root
-  _s.dol_file    = "#{_s.root_dir}/&&systemdata/Start.dol"
-  # Path to LMT file relative to game root
-  _s.lmt_file    = "#{_s.root_dir}/battle/first.lmt"
-  # Path to German SOT file relative to game root (PAL-E only)
-  _s.sot_file_de = "#{_s.root_dir}/german.sot"
-  # Path to Spanish SOT file relative to game root (PAL-E only)
-  _s.sot_file_es = "#{_s.root_dir}/spanish.sot"
-  # Path to French SOT file relative to game root (PAL-E only)
-  _s.sot_file_fr = "#{_s.root_dir}/french.sot"
-  # Path to English SOT file relative to game root (PAL-E only)
-  _s.sot_file_gb = "#{_s.root_dir}/english.sot"
-
-  # Path to DAT files of boss enemies relative to game root
-  _s.eb_dat_file = "#{_s.root_dir}/battle/ebinit%s.dat"
-  # Path to DAT files of standard enemies relative to game root
-  _s.ec_dat_file = "#{_s.root_dir}/battle/ecinit%s.dat"
-  # Path to ENP files with +%s+ as wildcard relative to game root
-  _s.enp_file    = "#{_s.root_dir}/field/%s.enp"
-  # Path to EVP file relative to game root
-  _s.evp_file    = "#{_s.root_dir}/battle/epevent.evp"
-  # Path to TEC files with +%s+ as wildcard relative to game root
-  _s.tec_file    = "#{_s.root_dir}/field/%s.tec"
+  # Path to executable file relative to game root.
+  _s.exec_file = {
+    'DC' => _s.join(_s.root_dir, '{ARES,1ST_READ}.BIN'   ),
+    'GC' => _s.join(_s.root_dir, '&&systemdata/Start.dol'),
+  }
+  
+  # Path to level data file relative to game root.
+  _s.level_file = {
+    'DC' => _s.join(_s.root_dir, 'BATTLE/LEVELUP.DAT'),
+    'GC' => _s.join(_s.root_dir, 'battle/first.lmt'  ),
+  }
+  # Path to German SOT file relative to game root (PAL-E only).
+  _s.sot_file_de = {
+    'DC' => _s.join(_s.root_dir, 'GERMAN.SOT'),
+    'GC' => _s.join(_s.root_dir, 'german.sot'),
+  }
+  # Path to Spanish SOT file relative to game root (PAL-E only).
+  _s.sot_file_es = {
+    'DC' => _s.join(_s.root_dir, 'SPANISH.SOT'),
+    'GC' => _s.join(_s.root_dir, 'spanish.sot'),
+  }
+  # Path to French SOT file relative to game root (PAL-E only).
+  _s.sot_file_fr = {
+    'DC' => _s.join(_s.root_dir, 'FRENCH.SOT'),
+    'GC' => _s.join(_s.root_dir, 'french.sot'),
+  }
+  # Path to English SOT file relative to game root (PAL-E only).
+  _s.sot_file_gb = {
+    'DC' => _s.join(_s.root_dir, 'ENGLISH.SOT'),
+    'GC' => _s.join(_s.root_dir, 'english.sot'),
+  }
+  # Path to boss data files relative to game root. The single asterisk must be 
+  # used.
+  _s.eb_file = {
+    'DC' => _s.glob(_s.root_dir, 'BATTLE/EBINIT*.DAT'),
+    'GC' => _s.glob(_s.root_dir, 'battle/ebinit*.dat'),
+  }
+  # Path to enemy data files relative to game root. The single asterisk must 
+  # be used.
+  _s.ec_file = {
+    'DC' => _s.glob(_s.root_dir, 'BATTLE/ECINIT*.DAT'),
+    'GC' => _s.glob(_s.root_dir, 'battle/ecinit*.dat'),
+  }
+  # Path to enemy encounter files relative to game root.  The single asterisk 
+  # must be used.
+  _s.enp_file = {
+    'DC' => _s.glob(_s.root_dir, 'FIELD/*_EP.BIN'),
+    'GC' => _s.glob(_s.root_dir, 'field/*_ep.enp'),
+  }
+  # Path to enemy event file relative to game root.
+  _s.evp_file = {
+    'DC' => _s.join(_s.root_dir, 'BATTLE/EPEVENT.BIN'),
+    'GC' => _s.join(_s.root_dir, 'battle/epevent.evp'),
+  }
+  # Path to enemy ship task files relative to game root. The single asterisk 
+  # must be used.
+  _s.tec_file = {
+    'DC' => _s.glob(_s.root_dir, 'FIELD/R*.BIN'),
+    'GC' => _s.glob(_s.root_dir, 'field/r*.tec'),
+  }
 
 #------------------------------------------------------------------------------
 # CSV paths
@@ -185,35 +224,65 @@ SYS.configure do |_s|
   _s.weapon_tpl_file               = 'weapons.tpl.csv'
 
 #------------------------------------------------------------------------------
-# BNR data
+# Game root
 #------------------------------------------------------------------------------
 
-  # Regular expression to check validity of game title.
-  _s.game_title_exp = /^(Skies of Arcadia Legends|ｴﾀｰﾅﾙｱﾙｶﾃﾞｨｱ ﾚｼﾞｪﾝﾄﾞ)$/
-  # Regular expression to check validity of developer.
-  _s.developer_exp  = /^(SEGA|セガ)$/
-
-#------------------------------------------------------------------------------
-# HDR data
-#------------------------------------------------------------------------------
-
-  # Game ID
-  _s.game_id    = 'GEA'
+  # Platform files
+  _s.platform_files = {
+    'DC' => [_s.exec_file['DC'], _s.ip_file              ],
+    'GC' => [_s.exec_file['GC'], _s.bnr_file, _s.hdr_file],
+  }
+  
+  # Product IDs
+  _s.product_ids   = {
+    'DC' => Regexp.union(
+      /^(6107110 06|6107810|8320062 50)$/,
+      /^(HDR-0076|HDR-0119|IGN9|MK-51052)$/
+    ),
+    'GC' => /^GEA$/,
+  }
+  # Product Names
+  _s.product_names = {
+    'DC' => Regexp.union(
+      /^(DREAMON 20|DREAMCAST EXPRESS VOL6)$/           ,
+      /^ETERNAL ARCADIA( KEY VERSION| KUZOKUBAN)?$/     ,
+      /^OFFICIAL SEGA DREAMCAST MAGAZINE DECEMBER 2000$/,
+      /^SKIES OF ARCADIA( DISC\s?(1|2))?$/
+    ),
+    'GC' => /^((Skies of|Eternal) Arcadia Legends|ｴﾀｰﾅﾙｱﾙｶﾃﾞｨｱ ﾚｼﾞｪﾝﾄﾞ)$/,
+  }
+    
   # Region IDs
   _s.region_ids = {
-    'E' => 'NTSC-U',
-    'J' => 'NTSC-J',
-    'P' => 'PAL-E' ,
+    'DC-E' => 'PAL-E' ,
+    'DC-J' => 'NTSC-J',
+    'DC-U' => 'NTSC-U',
+    'GC-E' => 'NTSC-U',
+    'GC-J' => 'NTSC-J',
+    'GC-P' => 'PAL-E' ,
   }
-  # ISO 3166-1 alpha-2 IDs
+
+  # Country IDs
   _s.country_ids = {
-    'E' => 'US',
-    'J' => 'JP',
-    'P' => 'EU',
+    'DC-E' => 'EU',
+    'DC-J' => 'JP',
+    'DC-U' => 'US',
+    'GC-E' => 'US',
+    'GC-J' => 'JP',
+    'GC-P' => 'EU',
   }
-  # Maker ID
-  _s.maker_id   = '8P'
-  
+
+  # Maker IDs
+  _s.maker_ids   = {
+    'DC' => /^SEGA ENTERPRISES$/,
+    'GC' => /^8P$/              ,
+  }
+  # Maker Names
+  _s.maker_names = {
+    'DC' => /^SEGA ENTERPRISES$/,
+    'GC' => /^(SEGA|セガ)$/      ,
+  }
+
 #------------------------------------------------------------------------------
 # Accessory data
 #------------------------------------------------------------------------------
@@ -222,28 +291,28 @@ SYS.configure do |_s|
   _s.accessory_id_range   = 0xa0...0xf0
   # Offset ranges of accessory data
   _s.accessory_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2c3e10...0x2c4a90),
-    'J' => DataRange.new(_s.dol_file, 0x2c3308...0x2c3f88),
-    'P' => DataRange.new(_s.dol_file, 0x2f3a68...0x2f4328),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2c3e10...0x2c4a90),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2c3308...0x2c3f88),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2f3a68...0x2f4328),
   }
   # Offset ranges of accessory names
   _s.accessory_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1d6aa...0x1db1c),
-      DataRange.new(_s.sot_file_es, 0x1d39e...0x1d83d),
-      DataRange.new(_s.sot_file_fr, 0x1d5d7...0x1daa2),
-      DataRange.new(_s.sot_file_gb, 0x1cd13...0x1d194),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1d6aa...0x1db1c),
+      DataRange.new(_s.sot_file_es['GC'], 0x1d39e...0x1d83d),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1d5d7...0x1daa2),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1cd13...0x1d194),
     ],
   }
   # Offset ranges of accessory descriptions
   _s.accessory_dscr_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2ca880...0x2cbc88),
-    'J' => DataRange.new(_s.dol_file, 0x2ca370...0x2cba54),
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x153d7...0x16979),
-      DataRange.new(_s.sot_file_es, 0x1502e...0x1652e),
-      DataRange.new(_s.sot_file_fr, 0x15017...0x16635),
-      DataRange.new(_s.sot_file_gb, 0x14c6f...0x1613d),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2ca880...0x2cbc88),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2ca370...0x2cba54),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x153d7...0x16979),
+      DataRange.new(_s.sot_file_es['GC'], 0x1502e...0x1652e),
+      DataRange.new(_s.sot_file_fr['GC'], 0x15017...0x16635),
+      DataRange.new(_s.sot_file_gb['GC'], 0x14c6f...0x1613d),
     ],
   }
 
@@ -255,28 +324,28 @@ SYS.configure do |_s|
   _s.armor_id_range   = 0x50...0xa0
   # Offset ranges of armor data
   _s.armor_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2c3190...0x2c3e10),
-    'J' => DataRange.new(_s.dol_file, 0x2c2688...0x2c3308),
-    'P' => DataRange.new(_s.dol_file, 0x2f31a8...0x2f3a68),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2c3190...0x2c3e10),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2c2688...0x2c3308),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2f31a8...0x2f3a68),
   }
   # Offset ranges of armor names
   _s.armor_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1d289...0x1d6aa),
-      DataRange.new(_s.sot_file_es, 0x1cf43...0x1d39e),
-      DataRange.new(_s.sot_file_fr, 0x1d18e...0x1d5d7),
-      DataRange.new(_s.sot_file_gb, 0x1c921...0x1cd13),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1d289...0x1d6aa),
+      DataRange.new(_s.sot_file_es['GC'], 0x1cf43...0x1d39e),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1d18e...0x1d5d7),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1c921...0x1cd13),
     ],
   }
   # Offset ranges of armor descriptions
   _s.armor_dscr_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2c9714...0x2ca880),
-    'J' => DataRange.new(_s.dol_file, 0x2c8ddc...0x2ca370),
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x14060...0x153d7),
-      DataRange.new(_s.sot_file_es, 0x13dc4...0x1502e),
-      DataRange.new(_s.sot_file_fr, 0x13da3...0x15017),
-      DataRange.new(_s.sot_file_gb, 0x139f6...0x14c6f),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2c9714...0x2ca880),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2c8ddc...0x2ca370),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x14060...0x153d7),
+      DataRange.new(_s.sot_file_es['GC'], 0x13dc4...0x1502e),
+      DataRange.new(_s.sot_file_fr['GC'], 0x13da3...0x15017),
+      DataRange.new(_s.sot_file_gb['GC'], 0x139f6...0x14c6f),
     ],
   }
 
@@ -288,45 +357,45 @@ SYS.configure do |_s|
   _s.character_magic_id_range        = 0x0...0x24
   # Offset ranges of character magic data
   _s.character_magic_data_files      = {
-    'E' => DataRange.new(_s.dol_file, 0x2c1bf0...0x2c22b0),
-    'J' => DataRange.new(_s.dol_file, 0x2c10e8...0x2c17a8),
-    'P' => DataRange.new(_s.dol_file, 0x2f22b0...0x2f27c0),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2c1bf0...0x2c22b0),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2c10e8...0x2c17a8),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2f22b0...0x2f27c0),
   }
   # Offset ranges of character magic names
   _s.character_magic_name_files      = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1cc3a...0x1cd48),
-      DataRange.new(_s.sot_file_es, 0x1c88d...0x1c99b),
-      DataRange.new(_s.sot_file_fr, 0x1cafd...0x1cc0b),
-      DataRange.new(_s.sot_file_gb, 0x1c2f4...0x1c40),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1cc3a...0x1cd48),
+      DataRange.new(_s.sot_file_es['GC'], 0x1c88d...0x1c99b),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1cafd...0x1cc0b),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1c2f4...0x1c40),
     ],
   }
   # Offset ranges of character magic descriptions
   _s.character_magic_dscr_files      = {
-    'E' => DataRange.new(_s.dol_file, 0x2c6668...0x2c73e0),
-    'J' => DataRange.new(_s.dol_file, 0x2c5b60...0x2c68d4),
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x11025...0x11d53),
-      DataRange.new(_s.sot_file_es, 0x10d2f...0x11a56),
-      DataRange.new(_s.sot_file_fr, 0x10d3c...0x11a9a),
-      DataRange.new(_s.sot_file_gb, 0x1093f...0x116a9),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2c6668...0x2c73e0),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2c5b60...0x2c68d4),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x11025...0x11d53),
+      DataRange.new(_s.sot_file_es['GC'], 0x10d2f...0x11a56),
+      DataRange.new(_s.sot_file_fr['GC'], 0x10d3c...0x11a9a),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1093f...0x116a9),
     ],
   }
   # Offset ranges of character magic ship descriptions
   _s.character_magic_ship_dscr_files = {
-    'E' => DataRange.new(
-      _s.dol_file, 0x2d05c4...0x2d0ef4,
+    'GC-US' => DataRange.new(
+      _s.exec_file['GC'], 0x2d05c4...0x2d0ef4,
       :exclusions => [0x8, 0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
     ),
-    'J' => DataRange.new(
-      _s.dol_file, 0x2d058c...0x2d0dcc,
+    'GC-JP' => DataRange.new(
+      _s.exec_file['GC'], 0x2d058c...0x2d0dcc,
       :exclusions => [0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
     ),
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1b603...0x1c085),
-      DataRange.new(_s.sot_file_es, 0x1b23a...0x1bc6f),
-      DataRange.new(_s.sot_file_fr, 0x1b3e9...0x1be6e),
-      DataRange.new(_s.sot_file_gb, 0x1ad4b...0x1b766),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1b603...0x1c085),
+      DataRange.new(_s.sot_file_es['GC'], 0x1b23a...0x1bc6f),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1b3e9...0x1be6e),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1ad4b...0x1b766),
     ],
   }
 
@@ -338,9 +407,9 @@ SYS.configure do |_s|
   _s.character_id_range   = 0x0...0x6
   # Offset ranges of character data
   _s.character_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2c1860...0x2c1bf0),
-    'J' => DataRange.new(_s.dol_file, 0x2c0d58...0x2c10e8),
-    'P' => DataRange.new(_s.dol_file, 0x2c2ff0...0x2c3380),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2c1860...0x2c1bf0),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2c0d58...0x2c10e8),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2c2ff0...0x2c3380),
   }
 
 #------------------------------------------------------------------------------
@@ -351,28 +420,28 @@ SYS.configure do |_s|
   _s.character_super_move_id_range   = 0x24...0x3e
   # Offset ranges of character super move data
   _s.character_super_move_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2c22b0...0x2c2790),
-    'J' => DataRange.new(_s.dol_file, 0x2c17a8...0x2c1c88),
-    'P' => DataRange.new(_s.dol_file, 0x2f27c0...0x2f2b68),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2c22b0...0x2c2790),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2c17a8...0x2c1c88),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2f27c0...0x2f2b68),
   }
   # Offset ranges of character super move names
   _s.character_super_move_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1cd48...0x1ce93),
-      DataRange.new(_s.sot_file_es, 0x1c99b...0x1cb04),
-      DataRange.new(_s.sot_file_fr, 0x1cc0b...0x1cd83),
-      DataRange.new(_s.sot_file_gb, 0x1c402...0x1c555),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1cd48...0x1ce93),
+      DataRange.new(_s.sot_file_es['GC'], 0x1c99b...0x1cb04),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1cc0b...0x1cd83),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1c402...0x1c555),
     ],
   }
   # Offset ranges of character super move descriptions
   _s.character_super_move_dscr_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2c73e0...0x2c7d9c),
-    'J' => DataRange.new(_s.dol_file, 0x2c68d4...0x2c72c0),
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x11d53...0x126e4),
-      DataRange.new(_s.sot_file_es, 0x11a56...0x12410),
-      DataRange.new(_s.sot_file_fr, 0x11a9a...0x1244e),
-      DataRange.new(_s.sot_file_gb, 0x116a9...0x12056),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2c73e0...0x2c7d9c),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2c68d4...0x2c72c0),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x11d53...0x126e4),
+      DataRange.new(_s.sot_file_es['GC'], 0x11a56...0x12410),
+      DataRange.new(_s.sot_file_fr['GC'], 0x11a9a...0x1244e),
+      DataRange.new(_s.sot_file_gb['GC'], 0x116a9...0x12056),
     ],
   }
 
@@ -384,28 +453,28 @@ SYS.configure do |_s|
   _s.crew_member_id_range   = 0x0...0x16
   # Offset ranges of crew member data
   _s.crew_member_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2d5e64...0x2d617c),
-    'J' => DataRange.new(_s.dol_file, 0x2d5aa4...0x2d5dbc),
-    'P' => DataRange.new(_s.dol_file, 0x2f8a4c...0x2f8c5c),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2d5e64...0x2d617c),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2d5aa4...0x2d5dbc),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2f8a4c...0x2f8c5c),
   }
   # Offset ranges of crew member names
   _s.crew_member_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1ed75...0x1ee0b),
-      DataRange.new(_s.sot_file_es, 0x1eb78...0x1ec0e),
-      DataRange.new(_s.sot_file_fr, 0x1ed91...0x1ee27),
-      DataRange.new(_s.sot_file_gb, 0x1e3dd...0x1e473),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1ed75...0x1ee0b),
+      DataRange.new(_s.sot_file_es['GC'], 0x1eb78...0x1ec0e),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1ed91...0x1ee27),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1e3dd...0x1e473),
     ],
   }
   # Offset ranges of crew member descriptions
   _s.crew_member_dscr_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2d0ef4...0x2d1600),
-    'J' => DataRange.new(_s.dol_file, 0x2d0dcc...0x2d15dc),
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1c085...0x1c7ab),
-      DataRange.new(_s.sot_file_es, 0x1bc6f...0x1c3da),
-      DataRange.new(_s.sot_file_fr, 0x1be6e...0x1c5fa),
-      DataRange.new(_s.sot_file_gb, 0x1b766...0x1be63),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2d0ef4...0x2d1600),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2d0dcc...0x2d15dc),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1c085...0x1c7ab),
+      DataRange.new(_s.sot_file_es['GC'], 0x1bc6f...0x1c3da),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1be6e...0x1c5fa),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1b766...0x1be63),
     ],
   }
 
@@ -417,9 +486,9 @@ SYS.configure do |_s|
   _s.enemy_event_bgm_id_range = 0x0...0x59
   # Offset ranges of enemy event BGMs
   _s.enemy_event_bgm_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2e16e0...0x2e171b),
-    'J' => DataRange.new(_s.dol_file, 0x2e1200...0x2e123b),
-    'P' => DataRange.new(_s.dol_file, 0x2e03a0...0x2e03db),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2e16e0...0x2e171b),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2e1200...0x2e123b),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2e03a0...0x2e03db),
   }
 
 #------------------------------------------------------------------------------
@@ -430,17 +499,17 @@ SYS.configure do |_s|
   _s.enemy_magic_id_range   = 0x0...0x24
   # Offset ranges of enemy magic data
   _s.enemy_magic_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2aa440...0x2aa950),
-    'J' => DataRange.new(_s.dol_file, 0x2a9ee8...0x2aa3f8),
-    'P' => DataRange.new(_s.dol_file, 0x2d9398...0x2d9668),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2aa440...0x2aa950),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2a9ee8...0x2aa3f8),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2d9398...0x2d9668),
   }
   # Offset ranges of enemy magic names
   _s.enemy_magic_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x13d6...0x14e4),
-      DataRange.new(_s.sot_file_es, 0x13c9...0x14d7),
-      DataRange.new(_s.sot_file_fr, 0x13cb...0x14d9),
-      DataRange.new(_s.sot_file_gb, 0x13c6...0x14d4),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x13d6...0x14e4),
+      DataRange.new(_s.sot_file_es['GC'], 0x13c9...0x14d7),
+      DataRange.new(_s.sot_file_fr['GC'], 0x13cb...0x14d9),
+      DataRange.new(_s.sot_file_gb['GC'], 0x13c6...0x14d4),
     ],
   }
 
@@ -452,26 +521,26 @@ SYS.configure do |_s|
   _s.enemy_ship_id_range       = 0x0...0x2d
   # Offset ranges of enemy ship data
   _s.enemy_ship_data_files     = {
-    'E' => DataRange.new(_s.dol_file, 0x2d3934...0x2d4e4c),
-    'J' => DataRange.new(_s.dol_file, 0x2d3574...0x2d4a8c),
-    'P' => DataRange.new(_s.dol_file, 0x2f6d14...0x2f7f5c),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2d3934...0x2d4e4c),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2d3574...0x2d4a8c),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2f6d14...0x2f7f5c),
   }
   # Offset ranges of enemy ship names
   _s.enemy_ship_name_files     = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1e635...0x1e809),
-      DataRange.new(_s.sot_file_es, 0x1e3a6...0x1e57b),
-      DataRange.new(_s.sot_file_fr, 0x1e5f7...0x1e7cc),
-      DataRange.new(_s.sot_file_gb, 0x1dc7e...0x1de53),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1e635...0x1e809),
+      DataRange.new(_s.sot_file_es['GC'], 0x1e3a6...0x1e57b),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1e5f7...0x1e7cc),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1dc7e...0x1de53),
     ],
   }
   # Offset ranges of enemy ship armament names
   _s.enemy_ship_arm_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1ee0b...0x1f3e5),
-      DataRange.new(_s.sot_file_es, 0x1ec0e...0x1f1da),
-      DataRange.new(_s.sot_file_fr, 0x1ee27...0x1f3f9),
-      DataRange.new(_s.sot_file_gb, 0x1e473...0x1ea0d),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1ee0b...0x1f3e5),
+      DataRange.new(_s.sot_file_es['GC'], 0x1ec0e...0x1f1da),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1ee27...0x1f3f9),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1e473...0x1ea0d),
     ],
   }
 
@@ -552,17 +621,17 @@ SYS.configure do |_s|
   _s.enemy_super_move_id_range   = 0x0...0x135
   # Offset ranges of enemy super move data
   _s.enemy_super_move_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2aa950...0x2ad4c4),
-    'J' => DataRange.new(_s.dol_file, 0x2aa3f8...0x2acf6c),
-    'P' => DataRange.new(_s.dol_file, 0x2d9668...0x2dae8c),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2aa950...0x2ad4c4),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2aa3f8...0x2acf6c),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2d9668...0x2dae8c),
   }
   # Offset ranges of enemy super move names
   _s.enemy_super_move_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x14e4...0x2079),
-      DataRange.new(_s.sot_file_es, 0x14d7...0x215d),
-      DataRange.new(_s.sot_file_fr, 0x14d9...0x211a),
-      DataRange.new(_s.sot_file_gb, 0x14d4...0x1ff8),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x14e4...0x2079),
+      DataRange.new(_s.sot_file_es['GC'], 0x14d7...0x215d),
+      DataRange.new(_s.sot_file_fr['GC'], 0x14d9...0x211a),
+      DataRange.new(_s.sot_file_gb['GC'], 0x14d4...0x1ff8),
     ],
   }
 
@@ -574,9 +643,9 @@ SYS.configure do |_s|
   _s.exp_curve_id_range   = 0x0...0x6
   # Offset ranges of EXP curve data
   _s.exp_curve_data_files = {
-    'E' => DataRange.new(_s.lmt_file, 0x000...0x948),
-    'J' => DataRange.new(_s.lmt_file, 0x000...0x948),
-    'P' => DataRange.new(_s.lmt_file, 0x000...0x948),
+    'GC-US' => DataRange.new(_s.level_file['GC'], 0x000...0x948),
+    'GC-JP' => DataRange.new(_s.level_file['GC'], 0x000...0x948),
+    'GC-EU' => DataRange.new(_s.level_file['GC'], 0x000...0x948),
   }
 
 #------------------------------------------------------------------------------
@@ -587,9 +656,9 @@ SYS.configure do |_s|
   _s.magic_exp_curve_id_range   = 0x0...0x6
   # Offset ranges of magic EXP curve data
   _s.magic_exp_curve_data_files = {
-    'E' => DataRange.new(_s.lmt_file, 0x948...0xaf8),
-    'J' => DataRange.new(_s.lmt_file, 0x948...0xaf8),
-    'P' => DataRange.new(_s.lmt_file, 0x948...0xaf8),
+    'GC-US' => DataRange.new(_s.level_file['GC'], 0x948...0xaf8),
+    'GC-JP' => DataRange.new(_s.level_file['GC'], 0x948...0xaf8),
+    'GC-EU' => DataRange.new(_s.level_file['GC'], 0x948...0xaf8),
   }
 
 #------------------------------------------------------------------------------
@@ -600,17 +669,17 @@ SYS.configure do |_s|
   _s.playable_ship_id_range   = 0x0...0x5
   # Offset ranges of playable ship data
   _s.playable_ship_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2d3740...0x2d3934),
-    'J' => DataRange.new(_s.dol_file, 0x2d3380...0x2d3574),
-    'P' => DataRange.new(_s.dol_file, 0x2f6b70...0x2f6d14),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2d3740...0x2d3934),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2d3380...0x2d3574),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2f6b70...0x2f6d14),
   }
   # Offset ranges of playable ship names
   _s.playable_ship_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1e5ff...0x1e635),
-      DataRange.new(_s.sot_file_es, 0x1e370...0x1e3a6),
-      DataRange.new(_s.sot_file_fr, 0x1e5c1...0x1e5f7),
-      DataRange.new(_s.sot_file_gb, 0x1dc48...0x1dc7e),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1e5ff...0x1e635),
+      DataRange.new(_s.sot_file_es['GC'], 0x1e370...0x1e3a6),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1e5c1...0x1e5f7),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1dc48...0x1dc7e),
     ],
   }
 
@@ -622,28 +691,28 @@ SYS.configure do |_s|
   _s.ship_accessory_id_range   = 0x1b8...0x1e0
   # Offset ranges of ship accessory data
   _s.ship_accessory_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2d53ec...0x2d5a2c),
-    'J' => DataRange.new(_s.dol_file, 0x2d502c...0x2d566c),
-    'P' => DataRange.new(_s.dol_file, 0x2f831c...0x2f877c),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2d53ec...0x2d5a2c),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2d502c...0x2d566c),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2f831c...0x2f877c),
   }
   # Offset ranges of ship accessory names
   _s.ship_accessory_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1ea14...0x1ec15),
-      DataRange.new(_s.sot_file_es, 0x1e789...0x1e9cd),
-      DataRange.new(_s.sot_file_fr, 0x1e9d1...0x1ec03),
-      DataRange.new(_s.sot_file_gb, 0x1e066...0x1e27d),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1ea14...0x1ec15),
+      DataRange.new(_s.sot_file_es['GC'], 0x1e789...0x1e9cd),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1e9d1...0x1ec03),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1e066...0x1e27d),
     ],
   }
   # Offset ranges of ship accessory descriptions
   _s.ship_accessory_dscr_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2ceef8...0x2cfbf0),
-    'J' => DataRange.new(_s.dol_file, 0x2cef30...0x2cfc58),
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x19e71...0x1abb8),
-      DataRange.new(_s.sot_file_es, 0x19b0f...0x1a7f2),
-      DataRange.new(_s.sot_file_fr, 0x19c5d...0x1a998),
-      DataRange.new(_s.sot_file_gb, 0x196a8...0x1a38c),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2ceef8...0x2cfbf0),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2cef30...0x2cfc58),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x19e71...0x1abb8),
+      DataRange.new(_s.sot_file_es['GC'], 0x19b0f...0x1a7f2),
+      DataRange.new(_s.sot_file_fr['GC'], 0x19c5d...0x1a998),
+      DataRange.new(_s.sot_file_gb['GC'], 0x196a8...0x1a38c),
     ],
   }
 
@@ -655,28 +724,28 @@ SYS.configure do |_s|
   _s.ship_cannon_id_range   = 0x190...0x1b8
   # Offset ranges of ship cannon data
   _s.ship_cannon_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2d4e4c...0x2d53ec),
-    'J' => DataRange.new(_s.dol_file, 0x2d4a8c...0x2d502c),
-    'P' => DataRange.new(_s.dol_file, 0x2f7f5c...0x2f831c),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2d4e4c...0x2d53ec),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2d4a8c...0x2d502c),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2f7f5c...0x2f831c),
   }
   # Offset ranges of ship cannon names
   _s.ship_cannon_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1e809...0x1ea14),
-      DataRange.new(_s.sot_file_es, 0x1e57b...0x1e789),
-      DataRange.new(_s.sot_file_fr, 0x1e7cc...0x1e9d1),
-      DataRange.new(_s.sot_file_gb, 0x1de53...0x1e066),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1e809...0x1ea14),
+      DataRange.new(_s.sot_file_es['GC'], 0x1e57b...0x1e789),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1e7cc...0x1e9d1),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1de53...0x1e066),
     ],
   }
   # Offset ranges of ship cannon descriptions
   _s.ship_cannon_dscr_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2ce220...0x2ceef8),
-    'J' => DataRange.new(_s.dol_file, 0x2ce2b4...0x2cef30),
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1918c...0x19e71),
-      DataRange.new(_s.sot_file_es, 0x18dd2...0x19b0f),
-      DataRange.new(_s.sot_file_fr, 0x18ef6...0x19c5d),
-      DataRange.new(_s.sot_file_gb, 0x189df...0x196a8),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2ce220...0x2ceef8),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2ce2b4...0x2cef30),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1918c...0x19e71),
+      DataRange.new(_s.sot_file_es['GC'], 0x18dd2...0x19b0f),
+      DataRange.new(_s.sot_file_fr['GC'], 0x18ef6...0x19c5d),
+      DataRange.new(_s.sot_file_gb['GC'], 0x189df...0x196a8),
     ],
   }
 
@@ -688,28 +757,28 @@ SYS.configure do |_s|
   _s.ship_item_id_range   = 0x1e0...0x1fe
   # Offset ranges of ship item data
   _s.ship_item_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2d5a2c...0x2d5e64),
-    'J' => DataRange.new(_s.dol_file, 0x2d566c...0x2d5aa4),
-    'P' => DataRange.new(_s.dol_file, 0x2f877c...0x2f8a4c),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2d5a2c...0x2d5e64),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2d566c...0x2d5aa4),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2f877c...0x2f8a4c),
   }
   # Offset ranges of ship item names
   _s.ship_item_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1ec15...0x1ed75),
-      DataRange.new(_s.sot_file_es, 0x1e9cd...0x1eb78),
-      DataRange.new(_s.sot_file_fr, 0x1ec03...0x1ed91),
-      DataRange.new(_s.sot_file_gb, 0x1e27d...0x1e3dd),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1ec15...0x1ed75),
+      DataRange.new(_s.sot_file_es['GC'], 0x1e9cd...0x1eb78),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1ec03...0x1ed91),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1e27d...0x1e3dd),
     ],
   }
   # Offset ranges of ship item descriptions
   _s.ship_item_dscr_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2cfbf0...0x2d05c4),
-    'J' => DataRange.new(_s.dol_file, 0x2cfc58...0x2d058c),
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1abb8...0x1b603),
-      DataRange.new(_s.sot_file_es, 0x1a7f2...0x1b23a),
-      DataRange.new(_s.sot_file_fr, 0x1a998...0x1b3e9),
-      DataRange.new(_s.sot_file_gb, 0x1a38c...0x1ad4b),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2cfbf0...0x2d05c4),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2cfc58...0x2d058c),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1abb8...0x1b603),
+      DataRange.new(_s.sot_file_es['GC'], 0x1a7f2...0x1b23a),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1a998...0x1b3e9),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1a38c...0x1ad4b),
     ],
   }
 
@@ -721,25 +790,25 @@ SYS.configure do |_s|
   _s.shop_id_range   = 0x0...0x2b
   # Offset ranges of shop data
   _s.shop_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2e90a0...0x2ea218),
-    'J' => DataRange.new(_s.dol_file, 0x2e8d08...0x2e9e80),
-    'P' => DataRange.new(_s.dol_file, 0x2e7dd4...0x2e8f4c),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2e90a0...0x2ea218),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2e8d08...0x2e9e80),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2e7dd4...0x2e8f4c),
   }
   # Offset ranges of shop descriptions
   _s.shop_dscr_files = {
-    'E' => DataRange.new(
-      _s.dol_file, 0x2b6554...0x2b6730,
+    'GC-US' => DataRange.new(
+      _s.exec_file['GC'], 0x2b6554...0x2b6730,
       :use_msg_table => true
     ),
-    'J' => DataRange.new(
-      _s.dol_file, 0x2b6158...0x2b6344,
+    'GC-JP' => DataRange.new(
+      _s.exec_file['GC'], 0x2b6158...0x2b6344,
       :use_msg_table => true
     ),
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x10c7c...0x10f00),
-      DataRange.new(_s.sot_file_es, 0x1095d...0x10c03),
-      DataRange.new(_s.sot_file_fr, 0x10993...0x10c38),
-      DataRange.new(_s.sot_file_gb, 0x10580...0x1082b),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x10c7c...0x10f00),
+      DataRange.new(_s.sot_file_es['GC'], 0x1095d...0x10c03),
+      DataRange.new(_s.sot_file_fr['GC'], 0x10993...0x10c38),
+      DataRange.new(_s.sot_file_gb['GC'], 0x10580...0x1082b),
     ],
   }
 
@@ -751,34 +820,34 @@ SYS.configure do |_s|
   _s.special_item_id_range   = 0x140...0x190
   # Offset ranges of special item data
   _s.special_item_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2c5774...0x2c5e54),
-    'J' => DataRange.new(_s.dol_file, 0x2c4c6c...0x2c534c),
-    'P' => DataRange.new(_s.dol_file, 0x2f4aa8...0x2f4e68),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2c5774...0x2c5e54),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2c4c6c...0x2c534c),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2f4aa8...0x2f4e68),
   }
   # Offset ranges of special item names
   _s.special_item_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1dede...0x1e2b1),
-      DataRange.new(_s.sot_file_es, 0x1dc62...0x1e028),
-      DataRange.new(_s.sot_file_fr, 0x1ded3...0x1e2a2),
-      DataRange.new(_s.sot_file_gb, 0x1d556...0x1d929),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1dede...0x1e2b1),
+      DataRange.new(_s.sot_file_es['GC'], 0x1dc62...0x1e028),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1ded3...0x1e2a2),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1d556...0x1d929),
     ],
   }
   # Offset ranges of special item descriptions
   _s.special_item_dscr_files = {
-    'E' => DataRange.new(
-      _s.dol_file, 0x2cd4ec...0x2ce220,
+    'GC-US' => DataRange.new(
+      _s.exec_file['GC'], 0x2cd4ec...0x2ce220,
+      :exclusions => [0x152, 0x15b, 0x161, 0x162]
+      ),
+    'GC-JP' => DataRange.new(
+      _s.exec_file['GC'], 0x2cd644...0x2ce2b4,
       :exclusions => [0x152, 0x15b, 0x161, 0x162]
     ),
-    'J' => DataRange.new(
-      _s.dol_file, 0x2cd644...0x2ce2b4,
-      :exclusions => [0x152, 0x15b, 0x161, 0x162]
-    ),
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x18262...0x1918c),
-      DataRange.new(_s.sot_file_es, 0x17e6f...0x18dd2),
-      DataRange.new(_s.sot_file_fr, 0x17f59...0x18ef6),
-      DataRange.new(_s.sot_file_gb, 0x179f9...0x189df),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x18262...0x1918c),
+      DataRange.new(_s.sot_file_es['GC'], 0x17e6f...0x18dd2),
+      DataRange.new(_s.sot_file_fr['GC'], 0x17f59...0x18ef6),
+      DataRange.new(_s.sot_file_gb['GC'], 0x179f9...0x189df),
     ],
   }
 
@@ -790,9 +859,9 @@ SYS.configure do |_s|
   _s.spirit_curve_id_range   = 0x0...0x6
   # Offset ranges of spirit curve data
   _s.spirit_curve_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2c6184...0x2c6628),
-    'J' => DataRange.new(_s.dol_file, 0x2c567c...0x2c5b20),
-    'P' => DataRange.new(_s.dol_file, 0x2c4aa0...0x2c4f44),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2c6184...0x2c6628),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2c567c...0x2c5b20),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2c4aa0...0x2c4f44),
   }
 
 #------------------------------------------------------------------------------
@@ -803,34 +872,34 @@ SYS.configure do |_s|
   _s.usable_item_id_range   = 0xf0...0x140
   # Offset ranges of usable item data
   _s.usable_item_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2c4c34...0x2c5774),
-    'J' => DataRange.new(_s.dol_file, 0x2c412c...0x2c4c6c),
-    'P' => DataRange.new(_s.dol_file, 0x2f4328...0x2f4aa8),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2c4c34...0x2c5774),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2c412c...0x2c4c6c),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2f4328...0x2f4aa8),
   }
   # Offset ranges of usable item names
   _s.usable_item_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1db1c...0x1dede),
-      DataRange.new(_s.sot_file_es, 0x1d83d...0x1dc62),
-      DataRange.new(_s.sot_file_fr, 0x1daa2...0x1ded3),
-      DataRange.new(_s.sot_file_gb, 0x1d194...0x1d556),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1db1c...0x1dede),
+      DataRange.new(_s.sot_file_es['GC'], 0x1d83d...0x1dc62),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1daa2...0x1ded3),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1d194...0x1d556),
     ],
   }
   # Offset ranges of usable item descriptions
   _s.usable_item_dscr_files = {
-    'E' => DataRange.new(
-      _s.dol_file, 0x2cbc88...0x2cd4ec,
-      :exclusions => (0x12d..0x130).to_a
-    ),
-    'J' => DataRange.new(
-      _s.dol_file, 0x2cba54...0x2cd644,
-      :exclusions => (0x12e..0x130).to_a
-    ),
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x16979...0x18262),
-      DataRange.new(_s.sot_file_es, 0x1652e...0x17e6f),
-      DataRange.new(_s.sot_file_fr, 0x16635...0x17f59),
-      DataRange.new(_s.sot_file_gb, 0x1613d...0x179f9),
+    'GC-US' => DataRange.new(
+        _s.exec_file['GC'], 0x2cbc88...0x2cd4ec,
+        :exclusions => (0x12d..0x130).to_a
+      ),
+    'GC-JP' => DataRange.new(
+        _s.exec_file['GC'], 0x2cba54...0x2cd644,
+        :exclusions => (0x12e..0x130).to_a
+      ),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x16979...0x18262),
+      DataRange.new(_s.sot_file_es['GC'], 0x1652e...0x17e6f),
+      DataRange.new(_s.sot_file_fr['GC'], 0x16635...0x17f59),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1613d...0x179f9),
     ],
   }
 
@@ -842,28 +911,28 @@ SYS.configure do |_s|
   _s.weapon_id_range   = 0x0...0x50
   # Offset ranges of weapon data
   _s.weapon_data_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2c2790...0x2c3190),
-    'J' => DataRange.new(_s.dol_file, 0x2c1c88...0x2c2688),
-    'P' => DataRange.new(_s.dol_file, 0x2f2b68...0x2f31a8),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2c2790...0x2c3190),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2c1c88...0x2c2688),
+    'GC-EU' => DataRange.new(_s.exec_file['GC'], 0x2f2b68...0x2f31a8),
   }
   # Offset ranges of weapon names
   _s.weapon_name_files = {
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x1ce93...0x1d289),
-      DataRange.new(_s.sot_file_es, 0x1cb04...0x1cf43),
-      DataRange.new(_s.sot_file_fr, 0x1cd83...0x1d18e),
-      DataRange.new(_s.sot_file_gb, 0x1c555...0x1c921),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x1ce93...0x1d289),
+      DataRange.new(_s.sot_file_es['GC'], 0x1cb04...0x1cf43),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1cd83...0x1d18e),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1c555...0x1c921),
     ],
   }
   # Offset ranges of weapon descriptions
   _s.weapon_dscr_files = {
-    'E' => DataRange.new(_s.dol_file, 0x2c7d9c...0x2c9714),
-    'J' => DataRange.new(_s.dol_file, 0x2c72c0...0x2c8ddc),
-    'P' => [
-      DataRange.new(_s.sot_file_de, 0x126e4...0x14060),
-      DataRange.new(_s.sot_file_es, 0x12410...0x13dc4),
-      DataRange.new(_s.sot_file_fr, 0x1244e...0x13da3),
-      DataRange.new(_s.sot_file_gb, 0x12056...0x139f6),
+    'GC-US' => DataRange.new(_s.exec_file['GC'], 0x2c7d9c...0x2c9714),
+    'GC-JP' => DataRange.new(_s.exec_file['GC'], 0x2c72c0...0x2c8ddc),
+    'GC-EU' => [
+      DataRange.new(_s.sot_file_de['GC'], 0x126e4...0x14060),
+      DataRange.new(_s.sot_file_es['GC'], 0x12410...0x13dc4),
+      DataRange.new(_s.sot_file_fr['GC'], 0x1244e...0x13da3),
+      DataRange.new(_s.sot_file_gb['GC'], 0x12056...0x139f6),
     ],
   }
 

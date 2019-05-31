@@ -49,9 +49,9 @@ class EnemyShipTaskData < EntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(EnemyShipTask, _root)
-    @tec_file             = sprintf(SYS.tec_file, '*')
-    @csv_file             = SYS.enemy_ship_task_csv_file
-    @tpl_file             = SYS.enemy_ship_task_tpl_file
+    @tec_file             = sys(:tec_file)
+    @csv_file             = sys(:enemy_ship_task_csv_file)
+    @tpl_file             = sys(:enemy_ship_task_tpl_file)
     @character_magic_data = CharacterMagicData.new(_root)
     @enemy_ship_data      = EnemyShipData.new(_root)
     @data                 = []
@@ -71,7 +71,7 @@ class EnemyShipTaskData < EntryData
   # Reads all entries from a binary file.
   # @param _filename [String] File name
   def load_entries_from_bin(_filename)
-    _file             = TecFile.new(region)
+    _file             = TecFile.new(root)
     _file.magics      = @character_magic_data.data
     _file.enemy_ships = @enemy_ship_data.data
     _file.load(_filename)
@@ -83,7 +83,7 @@ class EnemyShipTaskData < EntryData
     @character_magic_data.load_all_from_bin
     @enemy_ship_data.load_all_from_bin
     
-    Dir.glob(File.join(root.path, @tec_file)).each do |_p|
+    glob(@tec_file) do |_p|
       if File.file?(_p)
         load_entries_from_bin(_p)
       end
@@ -94,7 +94,7 @@ class EnemyShipTaskData < EntryData
   # @param _filename [String] File name
   def save_entries_to_bin(_filename)
     FileUtils.mkdir_p(File.dirname(_filename))
-    _file       = TecFile.new(region)
+    _file       = TecFile.new(root)
     _file.tasks = @data
     _file.save(_filename)
   end
@@ -112,7 +112,7 @@ class EnemyShipTaskData < EntryData
 
     _dirname = File.dirname(@tec_file)
     _files.each do |_filename|
-      save_entries_to_bin(File.join(root.path, _dirname, _filename))
+      save_entries_to_bin(glob(_dirname, _filename))
     end
   end
 
@@ -123,7 +123,7 @@ class EnemyShipTaskData < EntryData
     if _force && !File.exist?(_filename)
       return
     end
-    if !@data.empty?
+    unless @data.empty?
       return
     end
     
@@ -145,7 +145,7 @@ class EnemyShipTaskData < EntryData
   # Reads all entries from CSV files (TPL files first, CSV files last).
   def load_all_from_csv
     load_entries_from_csv(File.join(SYS.share_dir, @tpl_file), true)
-    load_entries_from_csv(File.join(root.path    , @csv_file)      )
+    load_entries_from_csv(File.join(root.dirname , @csv_file)      )
   end
 
   # Writes all data entries to a CSV file.
@@ -173,7 +173,7 @@ class EnemyShipTaskData < EntryData
 
   # Writes all entries to CSV files.
   def save_all_to_csv
-    save_entries_to_csv(File.join(root.path, @csv_file))
+    save_entries_to_csv(glob(@csv_file))
   end
 
 #------------------------------------------------------------------------------

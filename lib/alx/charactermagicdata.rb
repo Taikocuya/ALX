@@ -46,13 +46,13 @@ class CharacterMagicData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(CharacterMagic, _root)
-    self.id_range    = SYS.character_magic_id_range
-    self.data_files  = SYS.character_magic_data_files
-    self.name_files  = SYS.character_magic_name_files
-    self.dscr_files  = SYS.character_magic_dscr_files
-    self.csv_file    = SYS.character_magic_csv_file
-    self.tpl_file    = SYS.character_magic_tpl_file
-    @ship_dscr_files = SYS.character_magic_ship_dscr_files
+    self.id_range   = sys(:character_magic_id_range)
+    self.data_file  = sys(:character_magic_data_files)
+    self.name_file  = sys(:character_magic_name_files)
+    self.dscr_file  = sys(:character_magic_dscr_files)
+    self.csv_file   = sys(:character_magic_csv_file)
+    self.tpl_file   = sys(:character_magic_tpl_file)
+    @ship_dscr_file = sys(:character_magic_ship_dscr_files)
   end
 
   # Reads all ship description entries from a binary file.
@@ -62,7 +62,7 @@ class CharacterMagicData < StdEntryData
     puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@ship_dscr_files[region], _filename)
+      _range = determine_range(@ship_dscr_file, _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
@@ -73,12 +73,11 @@ class CharacterMagicData < StdEntryData
         _entry  = @data[_id]
         _msg_id = _entry.msg_id
 
-        case region
-        when 'E', 'J'
-          _pos  = _entry.find_member(VOC.ship_dscr_pos[country] )
-          _size = _entry.find_member(VOC.ship_dscr_size[country])
-          _str  = _entry.find_member(VOC.ship_dscr_str[country] )
-        when 'P'
+        if is_jp? || is_us?
+          _pos  = _entry.find_member(VOC.ship_dscr_pos[country_id] )
+          _size = _entry.find_member(VOC.ship_dscr_size[country_id])
+          _str  = _entry.find_member(VOC.ship_dscr_str[country_id] )
+        elsif is_eu?
           _lang = determine_lang(_filename)
           _pos  = _entry.find_member(VOC.ship_dscr_pos[_lang] )
           _size = _entry.find_member(VOC.ship_dscr_size[_lang])
@@ -101,7 +100,7 @@ class CharacterMagicData < StdEntryData
         
         puts(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
         _pos.value  = _f.pos
-        if region != 'P'
+        unless is_eu?
           _str.value  = _f.read_str(0xff, 0x4)
         else
           _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
@@ -125,13 +124,13 @@ class CharacterMagicData < StdEntryData
   def load_all_from_bin
     super
   
-    _ranges = @ship_dscr_files[region]
+    _ranges = @ship_dscr_file
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
       end
       _ranges.each do |_range|
-        load_ship_dscr_from_bin(File.join(root.path, _range.name))
+        load_ship_dscr_from_bin(glob(_range.name))
       end
     end
   end
@@ -148,7 +147,7 @@ class CharacterMagicData < StdEntryData
   
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@ship_dscr_files[region], _filename) 
+      _range = determine_range(@ship_dscr_file, _filename) 
   
       @data.each do |_id, _entry|
         if _id < @id_range.begin && _id >= @id_range.end
@@ -157,13 +156,12 @@ class CharacterMagicData < StdEntryData
         if _range.exclusions.include?(_id)
           next
         end
-  
-        case region
-        when 'E', 'J'
-          _pos  = _entry.find_member(VOC.ship_dscr_pos[country] ).value
-          _size = _entry.find_member(VOC.ship_dscr_size[country]).value
-          _str  = _entry.find_member(VOC.ship_dscr_str[country] ).value
-        when 'P'
+
+        if is_jp? || is_us?
+          _pos  = _entry.find_member(VOC.ship_dscr_pos[country_id] ).value
+          _size = _entry.find_member(VOC.ship_dscr_size[country_id]).value
+          _str  = _entry.find_member(VOC.ship_dscr_str[country_id] ).value
+        elsif is_eu?
           _lang = determine_lang(_filename)
           if _lang
             _pos  = _entry.find_member(VOC.ship_dscr_pos[_lang] ).value
@@ -184,7 +182,7 @@ class CharacterMagicData < StdEntryData
         end
         
         puts(sprintf(VOC.write, _id, _pos))
-        if region != 'P'
+        unless is_eu?
           _f.write_str(_str, _size, 0x4)
         else
           _f.write_str(_str, _size, 0x1, 'ISO8859-1')
@@ -199,13 +197,13 @@ class CharacterMagicData < StdEntryData
   def save_all_to_bin
     super
   
-    _ranges = @ship_dscr_files[region]
+    _ranges = @ship_dscr_file
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
       end
       _ranges.each do |_range|
-        save_ship_dscr_to_bin(File.join(root.path, _range.name))
+        save_ship_dscr_to_bin(glob(_range.name))
       end
     end
   end
@@ -214,7 +212,7 @@ class CharacterMagicData < StdEntryData
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :ship_dscr_files
+  attr_accessor :ship_dscr_file
 
 end # class CharacterMagicData
 

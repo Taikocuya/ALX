@@ -25,8 +25,7 @@
 
 require('fileutils')
 require('pathname')
-require_relative('../../lib/alx/etc.rb')
-require_relative('../../lib/alx/executable.rb')
+require_relative('../../lib/alx/entrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -37,13 +36,7 @@ module ALX
 #==============================================================================
   
 # Class to restore backups in the "share" directory.
-class BackupRestorer
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Executable)
+class BackupRestorer < EntryTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -51,58 +44,67 @@ class BackupRestorer
 
   public
 
+  # Constructs an BackupRestorer.
+  def initialize
+    super(GameRoot)
+  end
+
+  # Creates an entry data object.
+  # @param _root [GameRoot] Game root
+  # @return [EntryData] Entry data object
+  def create_entry_data(_root)
+    _root
+  end
+
   def exec
+    super
     print("\n")
-
-    Dir.glob(File.join(SYS.share_dir, '*')).each do |_game_path|
-      unless File.directory?(_game_path)
-        next
-      end
-  
-      restore_backup(_game_path, SYS.dol_file)
-      restore_backup(_game_path, SYS.evp_file)
-      restore_backup(_game_path, SYS.lmt_file)
-
-      Dir.chdir(_game_path) do
-        Dir.glob(sprintf(SYS.enp_file, '*')).each do |_p|
-          restore_backup(_game_path, _p)
+    
+    data.each do |_root|
+      Dir.chdir(_root.dirname) do
+        restore_backup(_root, _root.sys(:exec_file))
+        restore_backup(_root, _root.sys(:evp_file))
+        restore_backup(_root, _root.sys(:level_file))
+        
+        Dir.glob(_root.sys(:enp_file)).each do |_p|
+          restore_backup(_root, _p)
         end
-        Dir.glob(sprintf(SYS.eb_dat_file, '*')).each do |_p|
-          restore_backup(_game_path, _p)
+        Dir.glob(_root.sys(:eb_file)).each do |_p|
+          restore_backup(_root, _p)
         end
-        Dir.glob(sprintf(SYS.ec_dat_file, '*')).each do |_p|
-          restore_backup(_game_path, _p)
+        Dir.glob(_root.sys(:ec_file)).each do |_p|
+          restore_backup(_root, _p)
         end
-        Dir.glob(sprintf(SYS.tec_file, '*')).each do |_p|
-          restore_backup(_game_path, _p)
+        Dir.glob(_root.sys(:tec_file)).each do |_p|
+          restore_backup(_root, _p)
         end
         
-        Dir.glob(SYS.sot_file_de).each do |_p|
-          restore_backup(_game_path, _p)
+        Dir.glob(_root.sys(:sot_file_de)).each do |_p|
+          restore_backup(_root, _p)
         end
-        Dir.glob(SYS.sot_file_es).each do |_p|
-          restore_backup(_game_path, _p)
+        Dir.glob(_root.sys(:sot_file_es)).each do |_p|
+          restore_backup(_root, _p)
         end
-        Dir.glob(SYS.sot_file_fr).each do |_p|
-          restore_backup(_game_path, _p)
+        Dir.glob(_root.sys(:sot_file_fr)).each do |_p|
+          restore_backup(_root, _p)
         end
-        Dir.glob(SYS.sot_file_gb).each do |_p|
-          restore_backup(_game_path, _p)
+        Dir.glob(_root.sys(:sot_file_gb)).each do |_p|
+          restore_backup(_root, _p)
         end
       end
     end
   end
 
   # Restores a backup.
-  # @param _game_path [String] Path to game root
-  # @param _filename  [String] Backup to create
-  def restore_backup(_game_path, _filename)
-    _dst_file = File.expand_path(_filename, _game_path)
-    _base_dir = Pathname.new(File.expand_path(SYS.root_dir, _game_path))
+  # @param _root      [GameRoot] Game root
+  # @param _filename  [String]   Backup to create
+  def restore_backup(_root, _filename)
+    _dst_file = File.expand_path(_filename, _root.dirname)
+    _base_dir = Pathname.new(File.expand_path(SYS.root_dir, _root.dirname))
     _root_dir = Pathname.new(_dst_file)
     _src_file = File.expand_path(
       _root_dir.relative_path_from(_base_dir),
-      File.join(_game_path, SYS.bak_dir)
+      File.join(_root.dirname, SYS.bak_dir)
     )
 
     print("Restore backup: #{_dst_file}")

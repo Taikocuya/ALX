@@ -48,19 +48,19 @@ class DatFile < EpFile
     puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     _basename   = File.basename(_filename)
-    _eb_pattern = sprintf(File.basename(SYS.eb_dat_file), '\d{3}')
-    _ec_pattern = sprintf(File.basename(SYS.ec_dat_file), '\d{3}')
+    _eb_pattern = File.basename(sys(:eb_file)).sub('*', '\d{3}')
+    _ec_pattern = File.basename(sys(:ec_file)).sub('*', '\d{3}')
     if Regexp.new(_eb_pattern) =~ _basename
       _boss = true
     elsif Regexp.new(_ec_pattern) =~ _basename
       _boss = false
     end
-    
+
     _id = _basename[/\d{3}/]
     if _id
       _id = _id.to_i
       if _boss
-        _id += 128
+        _id += 0x80
       end
     else
       return
@@ -78,8 +78,8 @@ class DatFile < EpFile
   # @param _filename [String] File name
   def save(_filename)
     _basename   = File.basename(_filename)
-    _eb_pattern = sprintf(File.basename(SYS.eb_dat_file), '\d{3}')
-    _ec_pattern = sprintf(File.basename(SYS.ec_dat_file), '\d{3}')
+    _eb_pattern = File.basename(sys(:eb_file)).sub('*', '\d{3}')
+    _ec_pattern = File.basename(sys(:ec_file)).sub('*', '\d{3}')
     if Regexp.new(_eb_pattern) =~ _basename
       _boss = true
     elsif Regexp.new(_ec_pattern) =~ _basename
@@ -90,7 +90,7 @@ class DatFile < EpFile
     if _id
       _id = _id.to_i
       if _boss
-        _id += 128
+        _id += 0x80
       end
       
       _enemy = find_enemy(_id, _filename)

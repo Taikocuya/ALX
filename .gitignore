@@ -15,6 +15,7 @@ Thumbs.db
 .~lock.*#
 
 # ALX
+/doc
 /share/*/bak
 /share/*/root
 /thirdparty

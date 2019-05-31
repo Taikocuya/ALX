@@ -42,8 +42,8 @@ class EnemyShipTask < Entry
   public
 
   # Constructs an EnemyShipTask.
-  # @param _region [String] Region ID
-  def initialize(_region)
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
     super
     @file        = ''
     @enemy_ships = {}
@@ -59,7 +59,7 @@ class EnemyShipTask < Entry
     members << IntVar.new(VOC.task_a_type_id   ,  0, 's>')
     members << StrDmy.new(VOC.task_a_type_name , ''      )
     members << IntVar.new(VOC.task_a_arm_id    ,  0, 's>')
-    if region == 'P'
+    if is_eu?
       members << StrDmy.new(VOC.task_a_arm_name, ''      )
     end
     members << IntVar.new(VOC.task_a_param_id  ,  0, 's>')
@@ -68,7 +68,7 @@ class EnemyShipTask < Entry
     members << IntVar.new(VOC.task_b_type_id   ,  0, 's>')
     members << StrDmy.new(VOC.task_b_type_name , ''      )
     members << IntVar.new(VOC.task_b_arm_id    ,  0, 's>')
-    if region == 'P'
+    if is_eu?
       members << StrDmy.new(VOC.task_b_arm_name, ''      )
     end
     members << IntVar.new(VOC.task_b_param_id  ,  0, 's>')
@@ -94,16 +94,15 @@ class EnemyShipTask < Entry
     
     _name = '???'
     if _enemy_ship
-      case region
-      when 'E', 'J'
-        _name = _enemy_ship.find_member(VOC.name_str[country]).value
-      when 'P'
+      if is_jp? || is_us?
+        _name = _enemy_ship.find_member(VOC.name_str[country_id]).value
+      elsif is_eu?
         _name = _enemy_ship.find_member(VOC.name_str['GB']   ).value
       end
     end
     find_member(VOC.enemy_ship_name).value = _name
 
-    if region == 'P'
+    if is_eu?
       _name = '???'
       if _enemy_ship
         _id = find_member(VOC.task_a_arm_id).value
@@ -143,10 +142,9 @@ class EnemyShipTask < Entry
     when 1
       _entry = @magics[_param_id]
       if _entry
-        case region
-        when 'E', 'J'
-          _param_name = _entry.find_member(VOC.name_str[country]).value
-        when 'P'
+        if is_jp? || is_us?
+          _param_name = _entry.find_member(VOC.name_str[country_id]).value
+        elsif is_eu?
           _param_name = _entry.find_member(VOC.name_str['GB']   ).value
         end
       end
@@ -172,10 +170,9 @@ class EnemyShipTask < Entry
     when 1
       _entry = @magics[_param_id]
       if _entry
-        case region
-        when 'E', 'J'
-          _param_name = _entry.find_member(VOC.name_str[country]).value
-        when 'P'
+        if is_jp? || is_us?
+          _param_name = _entry.find_member(VOC.name_str[country_id]).value
+        elsif is_eu?
           _param_name = _entry.find_member(VOC.name_str['GB']   ).value
         end
       end

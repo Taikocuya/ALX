@@ -57,20 +57,20 @@ class EnemyData < EntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Object, _root)
-    @eb_dat_file          = SYS.eb_dat_file
-    @ec_dat_file          = SYS.ec_dat_file
-    @enp_file             = sprintf(SYS.enp_file, '*_ep')
-    @evp_file             = SYS.evp_file
-    @event_bgm_id_range   = SYS.enemy_event_bgm_id_range
-    @event_bgm_files      = SYS.enemy_event_bgm_files
-    @enemy_csv_file       = SYS.enemy_csv_file
-    @enemy_tpl_file       = SYS.enemy_tpl_file
-    @event_csv_file       = SYS.enemy_event_csv_file
-    @event_tpl_file       = SYS.enemy_event_tpl_file
-    @instruction_csv_file = SYS.enemy_instruction_csv_file
-    @instruction_tpl_file = SYS.enemy_instruction_tpl_file
-    @encounter_csv_file   = SYS.enemy_encounter_csv_file
-    @encounter_tpl_file   = SYS.enemy_encounter_tpl_file
+    @eb_file              = sys(:eb_file)
+    @ec_file              = sys(:ec_file)
+    @enp_file             = sys(:enp_file)
+    @evp_file             = glob(:evp_file)
+    @event_bgm_id_range   = sys(:enemy_event_bgm_id_range)
+    @event_bgm_files      = sys(:enemy_event_bgm_files)
+    @enemy_csv_file       = sys(:enemy_csv_file)
+    @enemy_tpl_file       = sys(:enemy_tpl_file)
+    @event_csv_file       = sys(:enemy_event_csv_file)
+    @event_tpl_file       = sys(:enemy_event_tpl_file)
+    @instruction_csv_file = sys(:enemy_instruction_csv_file)
+    @instruction_tpl_file = sys(:enemy_instruction_tpl_file)
+    @encounter_csv_file   = sys(:enemy_encounter_csv_file)
+    @encounter_tpl_file   = sys(:enemy_encounter_tpl_file)
     
     @accessory_data        = AccessoryData.new(_root)
     @armor_data            = ArmorData.new(_root)
@@ -99,7 +99,7 @@ class EnemyData < EntryData
   # @param _id [Integer] Event ID
   # @return [Entry] EnemyEvent object
   def create_event(_id = -1)
-    _event         = EnemyEvent.new(region)
+    _event         = EnemyEvent.new(root)
     _event.id      = _id
     _event.enemies = @enemies
     _event
@@ -109,7 +109,7 @@ class EnemyData < EntryData
   # @param _id [Integer] Encounter ID
   # @return [Entry] EnemyEncounter object
   def create_encounter(_id = -1)
-    _encounter         = EnemyEncounter.new(region)
+    _encounter         = EnemyEncounter.new(root)
     _encounter.id      = _id
     _encounter.enemies = @enemies
     _encounter
@@ -119,7 +119,7 @@ class EnemyData < EntryData
   # @param _id [Integer] Enemy ID
   # @return [Entry] Enemy object
   def create_enemy(_id = -1)
-    _enemy       = Enemy.new(region)
+    _enemy       = Enemy.new(root)
     _enemy.id    = _id
     _enemy.items = @items
     _enemy
@@ -129,7 +129,7 @@ class EnemyData < EntryData
   # @param _id [Integer] Enemy instruction ID
   # @return [Entry] EnemyInstruction object
   def create_instruction(_id = -1)
-    _instr              = EnemyInstruction.new(region)
+    _instr              = EnemyInstruction.new(root)
     _instr.id           = _id
     _instr.enemies      = @enemies
     _instr.magics       = @magics
@@ -140,7 +140,7 @@ class EnemyData < EntryData
   # Reads all entries from an EVP file.
   # @param _filename [String] File name
   def load_data_from_evp(_filename)
-    _file              = EvpFile.new(region)
+    _file              = EvpFile.new(root)
     _file.items        = @items
     _file.magics       = @enemy_magic_data.data
     _file.super_moves  = @enemy_super_move_data.data
@@ -273,7 +273,7 @@ class EnemyData < EntryData
     puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@event_bgm_files[region], _filename)
+      _range = determine_range(@event_bgm_files, _filename)
       _f.pos = _range.begin
       
       @event_bgm_id_range.each do |_id|
@@ -298,7 +298,7 @@ class EnemyData < EntryData
   # Reads all entries from an ENP file.
   # @param _filename [String] File name
   def load_data_from_enp(_filename)
-    _file              = EnpFile.new(region)
+    _file              = EnpFile.new(root)
     _file.items        = @items
     _file.magics       = @enemy_magic_data.data
     _file.super_moves  = @enemy_super_move_data.data
@@ -311,7 +311,7 @@ class EnemyData < EntryData
   # Reads all entries from a DAT file.
   # @param _filename [String] File name
   def load_data_from_dat(_filename)
-    _file              = DatFile.new(region)
+    _file              = DatFile.new(root)
     _file.items        = @items
     _file.magics       = @enemy_magic_data.data
     _file.super_moves  = @enemy_super_move_data.data
@@ -343,44 +343,42 @@ class EnemyData < EntryData
     @items.merge!(@weapon_data.data)
 
     # DOL and EVP files
-    load_data_from_evp(File.join(root.path, @evp_file))
-    _bgm_ranges = @event_bgm_files[region]
+    load_data_from_evp(@evp_file)
+    _bgm_ranges = @event_bgm_files
     if _bgm_ranges
       unless _bgm_ranges.is_a?(Array)
         _bgm_ranges = [_bgm_ranges]
       end
       _bgm_ranges.each do |_bgm_range|
-        load_bgms_from_bin(File.join(root.path, _bgm_range.name))
+        load_bgms_from_bin(glob(_bgm_range.name))
       end
     end
-    
+
     # ENP files
-    Dir.glob(File.join(root.path, @enp_file)).each do |_p|
+    glob(@enp_file) do |_p|
       if File.file?(_p)
         load_data_from_enp(_p)
       end
     end
- 
+
     # DAT files
-    _ec_dat_file = sprintf(@ec_dat_file, '[0-9][0-9][0-9]')
-    Dir.glob(File.join(root.path, _ec_dat_file)).each do |_p|
+    glob(@ec_file) do |_p|
       if File.file?(_p)
         load_data_from_dat(_p)
       end
     end
-    _eb_dat_file = sprintf(@eb_dat_file, '[0-9][0-9][0-9]')
-    Dir.glob(File.join(root.path, _eb_dat_file)).each do |_p|
+    glob(@eb_file) do |_p|
       if File.file?(_p)
         load_data_from_dat(_p)
       end
-    end  
+    end
   end
   
   # Writes all entries to an EVP file.
   # @param _filename [String] File name
   def save_data_to_evp(_filename)
     FileUtils.mkdir_p(File.dirname(_filename))
-    _file              = EvpFile.new(region)
+    _file              = EvpFile.new(root)
     _file.enemies      = @enemies
     _file.instructions = @instructions
     _file.events       = @events
@@ -399,7 +397,7 @@ class EnemyData < EntryData
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@event_bgm_files[region], _filename) 
+      _range = determine_range(@event_bgm_files, _filename) 
 
       @events.each_with_index do |_entry, _id|
         if _id < @event_bgm_id_range.begin && _id >= @event_bgm_id_range.end
@@ -431,7 +429,7 @@ class EnemyData < EntryData
   # @param _filename [String] File name
   def save_data_to_enp(_filename)
     FileUtils.mkdir_p(File.dirname(_filename))
-    _file              = EnpFile.new(region)
+    _file              = EnpFile.new(root)
     _file.enemies      = @enemies
     _file.instructions = @instructions
     _file.encounters   = @encounters
@@ -442,7 +440,7 @@ class EnemyData < EntryData
   # @param _filename [String] File name
   def save_data_to_dat(_filename)
     FileUtils.mkdir_p(File.dirname(_filename))
-    _file              = DatFile.new(region)
+    _file              = DatFile.new(root)
     _file.enemies      = @enemies
     _file.instructions = @instructions
     _file.save(_filename)
@@ -451,14 +449,14 @@ class EnemyData < EntryData
   # Writes all entries to binary files.
   def save_all_to_bin
     # DOL and EVP files
-    save_data_to_evp(File.join(root.path, @evp_file))
-    _bgm_ranges = @event_bgm_files[region]
+    save_data_to_evp(@evp_file)
+    _bgm_ranges = @event_bgm_files
     if _bgm_ranges
       unless _bgm_ranges.is_a?(Array)
         _bgm_ranges = [_bgm_ranges]
       end
       _bgm_ranges.each do |_bgm_range|
-        save_bgms_to_bin(File.join(root.path, _bgm_range.name))
+        save_bgms_to_bin(glob(_bgm_range.name))
       end
     end
 
@@ -481,7 +479,7 @@ class EnemyData < EntryData
 
     _dirname = File.dirname(@enp_file)
     _files.each do |_filename|
-      save_data_to_enp(File.join(root.path, _dirname, _filename))
+      save_data_to_enp(glob(_dirname, _filename))
     end
 
     # DAT files
@@ -494,12 +492,12 @@ class EnemyData < EntryData
     end
 
     _ids.each do |_id|
-      if _id < 128
-        _filename = sprintf(sprintf(@ec_dat_file, '%03d'), _id)
+      if _id < 0x80
+        _filename = sprintf(@ec_file.sub('*', '%03d'), _id)
       else
-        _filename = sprintf(sprintf(@eb_dat_file, '%03d'), _id - 128)
+        _filename = sprintf(@eb_file.sub('*', '%03d'), _id & 0x7f)
       end
-      save_data_to_dat(File.join(root.path, _filename))
+      save_data_to_dat(glob(_filename))
     end
   end
 
@@ -510,7 +508,7 @@ class EnemyData < EntryData
     if _force && !File.exist?(_filename)
       return
     end
-    if !@enemies.empty?
+    unless @enemies.empty?
       return
     end
     
@@ -536,7 +534,7 @@ class EnemyData < EntryData
     if _force && !File.exist?(_filename)
       return
     end
-    if !@instructions.empty?
+    unless @instructions.empty?
       return
     end
     
@@ -562,7 +560,7 @@ class EnemyData < EntryData
     if _force && !File.exist?(_filename)
       return
     end
-    if !@events.empty?
+    unless @events.empty?
       return
     end
     
@@ -588,7 +586,7 @@ class EnemyData < EntryData
     if _force && !File.exist?(_filename)
       return
     end
-    if !@encounters.empty?
+    unless @encounters.empty?
       return
     end
     
@@ -610,7 +608,7 @@ class EnemyData < EntryData
   # Reads all entries from CSV files (TPL files first, CSV files last).
 	def load_all_from_csv
 	  _share = SYS.share_dir
-    _root  = root.path
+    _root  = root.dirname
 	  
     load_enemies_from_csv(File.join(_share, @enemy_tpl_file), true)
     load_enemies_from_csv(File.join(_root , @enemy_csv_file)      )
@@ -723,18 +721,18 @@ class EnemyData < EntryData
 
   # Writes all entries to CSV files.
 	def save_all_to_csv
-    save_enemies_to_csv(File.join(root.path, @enemy_csv_file))
-    save_instructions_to_csv(File.join(root.path, @instruction_csv_file))
-    save_events_to_csv(File.join(root.path, @event_csv_file))
-    save_encounters_to_csv(File.join(root.path, @encounter_csv_file))
+    save_enemies_to_csv(glob(@enemy_csv_file))
+    save_instructions_to_csv(glob(@instruction_csv_file))
+    save_events_to_csv(glob(@event_csv_file))
+    save_encounters_to_csv(glob(@encounter_csv_file))
 	end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :eb_dat_file
-  attr_accessor :ec_dat_file
+  attr_accessor :eb_file
+  attr_accessor :ec_file
   attr_accessor :enp_file
   attr_accessor :evp_file
   attr_accessor :event_bgm_id_range

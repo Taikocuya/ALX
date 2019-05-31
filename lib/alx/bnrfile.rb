@@ -34,47 +34,54 @@ module ALX
 
 # Class to handle a BNR file.
 class BnrFile
+  
+#==============================================================================
+#                                  CONSTANTS
+#==============================================================================
 
+  # File signature
+  FILE_SIG = 'BNR'.force_encoding('ASCII-8BIT')
+  # File version
+  FILE_VERS = ['1', '2']
+  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
 
-  # Opens a BNR file.
-  # @param _filename [String] File name of BNR file.
-  def initialize(_filename)
-    @filename        = _filename
-    @game_title      = ''
-    @developer       = ''
-    @full_game_title = ''
-    @full_developer  = ''
-    @description     = ''
-    
-    if File.exist?(_filename)
-      BinaryFile.open(_filename, 'rb') do |_f|
-        if /^BNR[12]$/ =~ _f.read_str(4)
-          _f.pos           = 0x1820
-          @game_title      = _f.read_str(32)
-          @developer       = _f.read_str(32)
-          @full_game_title = _f.read_str(64)
-          @full_developer  = _f.read_str(64)
-          @description     = _f.read_str(128)
-        end
+  # Constructs a BnrFile.
+  def initialize
+    @product_name = ''
+    @maker_name   = ''
+    @description  = ''
+  end
+
+  # Reads a BNR file.
+  # @param _filename [String] File name
+  def load(_filename)
+    BinaryFile.open(_filename, 'rb') do |_f|
+      _file_sig  = _f.read_str(0x3)
+      _file_vers = _f.read_str(0x1)
+      if _file_sig != FILE_SIG || !FILE_VERS.include?(_file_vers)
+        raise(IOError, 'signature invalid')
       end
-     end
+      
+      _f.pos        = 0x1820
+      @product_name = _f.read_str(32)
+      @maker_name   = _f.read_str(32)
+      _f.pos        = 0x18e0
+      @description  = _f.read_str(128)
+    end
   end
   
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :filename
-  attr_accessor :game_title
-  attr_accessor :developer
-  attr_accessor :full_game_title
-  attr_accessor :full_developer
-  attr_accessor :description
+  attr_reader :product_name
+  attr_reader :maker_name
+  attr_reader :description
   
 end	# class BnrFile
 

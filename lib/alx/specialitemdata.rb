@@ -46,12 +46,12 @@ class SpecialItemData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(SpecialItem, _root)
-    self.id_range   = SYS.special_item_id_range
-    self.data_files = SYS.special_item_data_files
-    self.name_files = SYS.special_item_name_files
-    self.dscr_files = SYS.special_item_dscr_files
-    self.csv_file   = SYS.special_item_csv_file
-    self.tpl_file   = SYS.special_item_tpl_file
+    self.id_range   = sys(:special_item_id_range)
+    self.data_file = sys(:special_item_data_files)
+    self.name_file = sys(:special_item_name_files)
+    self.dscr_file = sys(:special_item_dscr_files)
+    self.csv_file   = sys(:special_item_csv_file)
+    self.tpl_file   = sys(:special_item_tpl_file)
   end
 
 end # class SpecialItemData

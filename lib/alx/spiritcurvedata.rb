@@ -47,10 +47,10 @@ class SpiritCurveData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(SpiritCurve, _root)
-    self.id_range   = SYS.spirit_curve_id_range
-    self.data_files = SYS.spirit_curve_data_files
-    self.csv_file   = SYS.spirit_curve_csv_file
-    self.tpl_file   = SYS.spirit_curve_tpl_file
+    self.id_range   = sys(:spirit_curve_id_range)
+    self.data_file  = sys(:spirit_curve_data_files)
+    self.csv_file   = sys(:spirit_curve_csv_file)
+    self.tpl_file   = sys(:spirit_curve_tpl_file)
     @character_data = CharacterData.new(_root)
   end
 

@@ -71,9 +71,9 @@ class AklzFile < BinaryStringIO
     @buffio        = BinaryStringIO.open('', 'r+b')
     @buffio.string = self.string
 
-    if !closed_read?
+    unless closed_read?
       decompress
-      if !closed_write?
+      unless closed_write?
         raise(IOError, 'duplex IO stream not supported')
       end
     end
@@ -96,13 +96,13 @@ class AklzFile < BinaryStringIO
   
   # @see BinaryStringIO#close
   def close
-    close_write if !closed_write?
-    close_read  if !closed_read?
+    close_write unless closed_write?
+    close_read  unless closed_read?
   end
   
   # @see BinaryStringIO#close_write
   def close_write
-    if !self.closed_write?
+    unless self.closed_write?
       compress
     end
     super
@@ -250,8 +250,8 @@ class AklzFile < BinaryStringIO
       end
 
       if @buffio.size != _file_size
-        _str = 'file size invalid (given %s, expected %s)'
-        raise(IOError, sprintf(_str, @buffio.size, _file_size))
+        _msg = 'file size invalid (given %s, expected %s)'
+        raise(IOError, sprintf(_msg, @buffio.size, _file_size))
       end
     end
 

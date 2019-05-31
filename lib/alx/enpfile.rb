@@ -58,8 +58,8 @@ class EnpFile < EpFile
   public
 
   # Constructs an EnpFile.
-  # @param _region [String] Region ID
-  def initialize(_region)
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
     super
     @encounters = []
   end
@@ -85,7 +85,7 @@ class EnpFile < EpFile
   # @param _filename [String]  File name
   # @return [Entry] EnemyEncounter object
   def create_encounter(_id = -1, _filename = '*')
-    _encounter         = EnemyEncounter.new(region)
+    _encounter         = EnemyEncounter.new(@root)
     _encounter.id      = _id
     _encounter.enemies = enemies
     _encounter.file    = File.basename(_filename)
@@ -231,7 +231,7 @@ class EnpFile < EpFile
             if _id != 255
               _enemy = find_enemy(_id, _segname)
               if _enemy
-                if !_enemies.include?(_enemy)
+                unless _enemies.include?(_enemy)
                   _enemies << _enemy
                 end
               else

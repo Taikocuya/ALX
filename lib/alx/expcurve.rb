@@ -42,8 +42,8 @@ class ExpCurve < StdEntry
   public
 
   # Constructs a ExpCurve.
-  # @param _region [String] Region ID
-  def initialize(_region)
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
     super
     @characters = {}
 
@@ -59,7 +59,7 @@ class ExpCurve < StdEntry
     _chara = @characters[id]
     _name  = '???'
     if _chara
-      _name = _chara.find_member(VOC.name_str[country]).value
+      _name = _chara.find_member(VOC.name_str[country_id]).value
     end
     find_member(VOC.character_name[-1]).value = _name
 

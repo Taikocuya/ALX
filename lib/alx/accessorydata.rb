@@ -46,12 +46,12 @@ class AccessoryData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Accessory, _root)
-    self.id_range   = SYS.accessory_id_range
-    self.data_files = SYS.accessory_data_files
-    self.name_files = SYS.accessory_name_files
-    self.dscr_files = SYS.accessory_dscr_files
-    self.csv_file   = SYS.accessory_csv_file
-    self.tpl_file   = SYS.accessory_tpl_file
+    self.id_range  = sys(:accessory_id_range)
+    self.data_file = sys(:accessory_data_files)
+    self.name_file = sys(:accessory_name_files)
+    self.dscr_file = sys(:accessory_dscr_files)
+    self.csv_file  = sys(:accessory_csv_file)
+    self.tpl_file  = sys(:accessory_tpl_file)
   end
 
 end # class AccessoryData

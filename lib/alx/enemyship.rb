@@ -42,8 +42,8 @@ class EnemyShip < StdEntry
   public
 
   # Constructs a EnemyShip.
-  # @param _region [String] Region ID
-  def initialize(_region)
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
     super
     @items = {}
     add_name_members(20)
@@ -60,7 +60,7 @@ class EnemyShip < StdEntry
       members << IntVar.new(VOC.elements[_i]          , -1, 's>')
     end
     (0...4).each do |_i|
-      if region == 'P'
+      if is_eu?
         members << IntDmy.new(VOC.arm_name_de_pos[_i] ,  0      )
         members << IntDmy.new(VOC.arm_name_de_size[_i],  0      )
         members << StrDmy.new(VOC.arm_name_de_str[_i] , '', '\n')
@@ -117,10 +117,9 @@ class EnemyShip < StdEntry
         _entry = @items[_id]
         _name  = '???'
         if _entry
-          case region
-          when 'E', 'J'
-            _name = _entry.find_member(VOC.name_str[country]).value
-          when 'P'
+          if is_jp? || is_us?
+            _name = _entry.find_member(VOC.name_str[country_id]).value
+          elsif is_eu?
             _name = _entry.find_member(VOC.name_str['GB']   ).value
           end
         end

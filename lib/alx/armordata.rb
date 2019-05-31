@@ -46,12 +46,12 @@ class ArmorData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Armor, _root)
-    self.id_range   = SYS.armor_id_range
-    self.data_files = SYS.armor_data_files
-    self.name_files = SYS.armor_name_files
-    self.dscr_files = SYS.armor_dscr_files
-    self.csv_file   = SYS.armor_csv_file
-    self.tpl_file   = SYS.armor_tpl_file
+    self.id_range  = sys(:armor_id_range)
+    self.data_file = sys(:armor_data_files)
+    self.name_file = sys(:armor_name_files)
+    self.dscr_file = sys(:armor_dscr_files)
+    self.csv_file  = sys(:armor_csv_file)
+    self.tpl_file  = sys(:armor_tpl_file)
   end
 
 end # class ArmorData

@@ -42,8 +42,8 @@ class EnemyEncounter < Entry
   public
 
   # Constructs an Enemy.
-  # @param _region [String] Region ID
-  def initialize(_region)
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
     super
     @enemies = []
     @file    = ''

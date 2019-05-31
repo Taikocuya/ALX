@@ -46,12 +46,12 @@ class CrewMemberData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(CrewMember, _root)
-    self.id_range   = SYS.crew_member_id_range
-    self.data_files = SYS.crew_member_data_files
-    self.name_files = SYS.crew_member_name_files
-    self.dscr_files = SYS.crew_member_dscr_files
-    self.csv_file   = SYS.crew_member_csv_file
-    self.tpl_file   = SYS.crew_member_tpl_file
+    self.id_range  = sys(:crew_member_id_range)
+    self.data_file = sys(:crew_member_data_files)
+    self.name_file = sys(:crew_member_name_files)
+    self.dscr_file = sys(:crew_member_dscr_files)
+    self.csv_file  = sys(:crew_member_csv_file)
+    self.tpl_file  = sys(:crew_member_tpl_file)
   end
 
 end # class CrewMemberData

@@ -49,13 +49,13 @@ class StdEntryData < EntryData
   # @param _root  [GameRoot] Game root
   def initialize(_class, _root)
     super
-    @id_range   = 0x0...0x0
-    @data_files = {}
-    @name_files = {}
-    @dscr_files = {}
-    @msg_table  = {}
-    @csv_file   = ''
-    @tpl_file   = ''
+    @id_range  = 0x0...0x0
+    @data_file = nil
+    @name_file = nil
+    @dscr_file = nil
+    @msg_table = {}
+    @csv_file  = ''
+    @tpl_file  = ''
     
     @data = Cache[cache_id] || Hash.new do |_h, _k|
       _h[_k] = create_entry(_k)
@@ -79,7 +79,7 @@ class StdEntryData < EntryData
     puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@data_files[region], _filename)
+      _range = determine_range(@data_file, _filename)
       _size  = create_entry.size
       _f.pos = _range.begin
       
@@ -107,23 +107,22 @@ class StdEntryData < EntryData
     puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@name_files[region], _filename)
+      _range = determine_range(@name_file, _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
         if _range.exclusions.include?(_id)
           next
         end
-        
+
         _entry  = @data[_id]
         _msg_id = _entry.msg_id
-    
-        case region
-        when 'E', 'J'
-          _pos  = _entry.find_member(VOC.name_pos[country] )
-          _size = _entry.find_member(VOC.name_size[country])
-          _str  = _entry.find_member(VOC.name_str[country] )
-        when 'P'
+
+        if is_jp? || is_us?
+          _pos  = _entry.find_member(VOC.name_pos[country_id] )
+          _size = _entry.find_member(VOC.name_size[country_id])
+          _str  = _entry.find_member(VOC.name_str[country_id] )
+        elsif is_eu?
           _lang = determine_lang(_filename)
           _pos  = _entry.find_member(VOC.name_pos[_lang] )
           _size = _entry.find_member(VOC.name_size[_lang])
@@ -169,7 +168,7 @@ class StdEntryData < EntryData
     puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@dscr_files[region], _filename)
+      _range = determine_range(@dscr_file, _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
@@ -180,12 +179,11 @@ class StdEntryData < EntryData
         _entry  = @data[_id]
         _msg_id = _entry.msg_id
 
-        case region
-        when 'E', 'J'
-          _pos  = _entry.find_member(VOC.dscr_pos[country] )
-          _size = _entry.find_member(VOC.dscr_size[country])
-          _str  = _entry.find_member(VOC.dscr_str[country] )
-        when 'P'
+        if is_jp? || is_us?
+          _pos  = _entry.find_member(VOC.dscr_pos[country_id] )
+          _size = _entry.find_member(VOC.dscr_size[country_id])
+          _str  = _entry.find_member(VOC.dscr_str[country_id] )
+        elsif is_eu?
           _lang = determine_lang(_filename)
           _pos  = _entry.find_member(VOC.dscr_pos[_lang] )
           _size = _entry.find_member(VOC.dscr_size[_lang])
@@ -207,11 +205,11 @@ class StdEntryData < EntryData
         end
         
         puts(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
-        _pos.value  = _f.pos
-        if region != 'P'
-          _str.value  = _f.read_str(0xff, 0x4)
+        _pos.value = _f.pos
+        unless is_eu?
+          _str.value = _f.read_str(0xff, 0x4)
         else
-          _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
+          _str.value = _f.read_str(0xff, 0x1, 'ISO8859-1')
         end
         _size.value = _f.pos - _pos.value
 
@@ -230,37 +228,37 @@ class StdEntryData < EntryData
 
   # Reads all entries from binary files.
   def load_all_from_bin
-    if !@data.empty?
+    unless @data.empty?
       return
     end
 
-    _ranges = @data_files[region]
+    _ranges = @data_file
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
       end
       _ranges.each do |_range|
-        load_data_from_bin(File.join(root.path, _range.name))
+        load_data_from_bin(glob(_range.name))
       end
     end
   
-    _ranges = @name_files[region]
+    _ranges = @name_file
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
       end
       _ranges.each do |_range|
-        load_names_from_bin(File.join(root.path, _range.name))
+        load_names_from_bin(glob(_range.name))
       end
     end
   
-    _ranges = @dscr_files[region]
+    _ranges = @dscr_file
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
       end
       _ranges.each do |_range|
-        load_dscr_from_bin(File.join(root.path, _range.name))
+        load_dscr_from_bin(glob(_range.name))
       end
     end
   end
@@ -277,7 +275,7 @@ class StdEntryData < EntryData
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@data_files[region], _filename)
+      _range = determine_range(@data_file, _filename)
       _size  = create_entry.size
       
       @data.each do |_id, _entry|
@@ -313,7 +311,7 @@ class StdEntryData < EntryData
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@name_files[region], _filename)
+      _range = determine_range(@name_file, _filename)
       
       @data.each do |_id, _entry|
         if _id < @id_range.begin && _id >= @id_range.end
@@ -361,7 +359,7 @@ class StdEntryData < EntryData
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@dscr_files[region], _filename) 
+      _range = determine_range(@dscr_file, _filename) 
 
       @data.each do |_id, _entry|
         if _id < @id_range.begin && _id >= @id_range.end
@@ -371,12 +369,11 @@ class StdEntryData < EntryData
           next
         end
 
-        case region
-        when 'E', 'J'
-          _pos  = _entry.find_member(VOC.dscr_pos[country] ).value
-          _size = _entry.find_member(VOC.dscr_size[country]).value
-          _str  = _entry.find_member(VOC.dscr_str[country] ).value
-        when 'P'
+        if is_jp? || is_us?
+          _pos  = _entry.find_member(VOC.dscr_pos[country_id] ).value
+          _size = _entry.find_member(VOC.dscr_size[country_id]).value
+          _str  = _entry.find_member(VOC.dscr_str[country_id] ).value
+        elsif is_eu?
           _lang = determine_lang(_filename)
           if _lang
             _pos  = _entry.find_member(VOC.dscr_pos[_lang] ).value
@@ -397,7 +394,7 @@ class StdEntryData < EntryData
         end
         
         puts(sprintf(VOC.write, _id - @id_range.begin, _pos))
-        if region != 'P'
+        unless is_eu?
           _f.write_str(_str, _size, 0x4)
         else
           _f.write_str(_str, _size, 0x1, 'ISO8859-1')
@@ -410,33 +407,33 @@ class StdEntryData < EntryData
     
   # Writes all entries to binary files.
   def save_all_to_bin
-    _ranges = @data_files[region]
+    _ranges = @data_file
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
       end
       _ranges.each do |_range|
-        save_data_to_bin(File.join(root.path, _range.name))
+        save_data_to_bin(glob(_range.name))
       end
     end
   
-    _ranges = @name_files[region]
+    _ranges = @name_file
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
       end
       _ranges.each do |_range|
-        save_names_to_bin(File.join(root.path, _range.name))
+        save_names_to_bin(glob(_range.name))
       end
     end
   
-    _ranges = @dscr_files[region]
+    _ranges = @dscr_file
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
       end
       _ranges.each do |_range|
-        save_dscr_to_bin(File.join(root.path, _range.name))
+        save_dscr_to_bin(glob(_range.name))
       end
     end
   end
@@ -473,7 +470,7 @@ class StdEntryData < EntryData
 
   # Reads all entries from CSV files (CSV files first, TPL files last).
   def load_all_from_csv
-    load_entries_from_csv(File.join(root.path    , @csv_file)      )
+    load_entries_from_csv(File.join(root.dirname , @csv_file)      )
     load_entries_from_csv(File.join(SYS.share_dir, @tpl_file), true)
   end
 
@@ -502,7 +499,7 @@ class StdEntryData < EntryData
 
   # Writes all entries to CSV files.
   def save_all_to_csv
-    save_entries_to_csv(File.join(root.path, @csv_file))
+    save_entries_to_csv(glob(@csv_file))
   end
 
 #------------------------------------------------------------------------------
@@ -510,9 +507,9 @@ class StdEntryData < EntryData
 #------------------------------------------------------------------------------
 
   attr_accessor :id_range
-  attr_accessor :data_files
-  attr_accessor :name_files
-  attr_accessor :dscr_files
+  attr_accessor :data_file
+  attr_accessor :name_file
+  attr_accessor :dscr_file
   attr_accessor :msg_table
   attr_accessor :csv_file
   attr_accessor :tpl_file
@@ -528,10 +525,10 @@ class StdEntryData < EntryData
   # @param _filename [String] Filename
   # @return [String] PAL-E language
   def determine_lang(_filename)
-    return 'DE' if _filename.include?(SYS.sot_file_de)
-    return 'ES' if _filename.include?(SYS.sot_file_es)
-    return 'FR' if _filename.include?(SYS.sot_file_fr)
-    return 'GB' if _filename.include?(SYS.sot_file_gb)
+    return 'DE' if _filename.include?(glob(:sot_file_de))
+    return 'ES' if _filename.include?(glob(:sot_file_es))
+    return 'FR' if _filename.include?(glob(:sot_file_fr))
+    return 'GB' if _filename.include?(glob(:sot_file_gb))
     return ''
   end
   

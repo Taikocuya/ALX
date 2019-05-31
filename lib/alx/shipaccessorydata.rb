@@ -46,12 +46,12 @@ class ShipAccessoryData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(ShipAccessory, _root)
-    self.id_range   = SYS.ship_accessory_id_range
-    self.data_files = SYS.ship_accessory_data_files
-    self.name_files = SYS.ship_accessory_name_files
-    self.dscr_files = SYS.ship_accessory_dscr_files
-    self.csv_file   = SYS.ship_accessory_csv_file
-    self.tpl_file   = SYS.ship_accessory_tpl_file
+    self.id_range  = sys(:ship_accessory_id_range)
+    self.data_file = sys(:ship_accessory_data_files)
+    self.name_file = sys(:ship_accessory_name_files)
+    self.dscr_file = sys(:ship_accessory_dscr_files)
+    self.csv_file  = sys(:ship_accessory_csv_file)
+    self.tpl_file  = sys(:ship_accessory_tpl_file)
   end
 
 end # class ShipAccessoryData

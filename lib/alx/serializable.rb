@@ -53,7 +53,7 @@ module Serializable
   # @param _data   [Integer] Integer which will be written to the stream.
   # @param _format [String]  Format of the integer, which will be written.
   def write_int(_int, _format)
-    if !_int
+    unless _int
       _int = 0
     end
     write([_int].pack(_format))

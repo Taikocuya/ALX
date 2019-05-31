@@ -46,11 +46,11 @@ class EnemySuperMoveData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(EnemySuperMove, _root)
-    self.id_range   = SYS.enemy_super_move_id_range
-    self.data_files = SYS.enemy_super_move_data_files
-    self.name_files = SYS.enemy_super_move_name_files
-    self.csv_file   = SYS.enemy_super_move_csv_file
-    self.tpl_file   = SYS.enemy_super_move_tpl_file
+    self.id_range  = sys(:enemy_super_move_id_range)
+    self.data_file = sys(:enemy_super_move_data_files)
+    self.name_file = sys(:enemy_super_move_name_files)
+    self.csv_file  = sys(:enemy_super_move_csv_file)
+    self.tpl_file  = sys(:enemy_super_move_tpl_file)
   end
 
 end # class EnemySuperMoveData

@@ -50,9 +50,9 @@ class TecFile
   public
 
   # Constructs a TecFile.
-  # @param _region [String] Region ID
-  def initialize(_region)
-    @region      = _region
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
+    @root        = _root
     @tasks       = []
     @enemy_ships = {}
     @magics      = {}
@@ -63,7 +63,7 @@ class TecFile
   # @param _filename [String]  File name
   # @return [Entry] EnemyShipTask object
   def create_task(_id = -1, _filename = '*')
-    _task             = EnemyShipTask.new(@region)
+    _task             = EnemyShipTask.new(@root)
     _task.id          = _id
     _task.file        = File.basename(_filename)
     _task.enemy_ships = @enemy_ships
@@ -87,8 +87,8 @@ class TecFile
       end
 
       if _f.pos > _f.size - 0x4
-        _str = 'file size invalid (given %s, expected %s)'
-        raise(IOError, sprintf(_str, _f.pos + 0x4, _f.size))
+        _msg = 'file size invalid (given %s, expected %s)'
+        raise(IOError, sprintf(_msg, _f.pos + 0x4, _f.size))
       end
       
       _eofCheck1 = _f.read_int('s>')
@@ -130,7 +130,7 @@ class TecFile
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :region
+  attr_accessor :root
   attr_accessor :tasks
   attr_accessor :enemy_ships
   attr_accessor :magics

@@ -42,15 +42,15 @@ class CrewMember < StdEntry
   public
 
   # Constructs a CrewMember.
-  # @param _region [String] Region ID
-  def initialize(_region)
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
     super
     add_name_members
 
     members << IntVar.new(VOC.position_id         , -1, 'c' )
     members << StrDmy.new(VOC.position_name       , ''      )
     
-    if region == 'P'
+    if is_eu?
       members << IntVar.new(padding_hdr           ,  0, 'c' )
     end
     
@@ -66,7 +66,7 @@ class CrewMember < StdEntry
     members << IntVar.new(padding_hdr             ,  0, 'c' )
     members << IntVar.new(padding_hdr             ,  0, 'c' )
     
-    if region == 'J'
+    if is_jp?
       members << IntVar.new(VOC.unknown[-1]       ,  0, 's>')
       members << IntVar.new(VOC.ship_effect_value ,  0, 's>')
     else

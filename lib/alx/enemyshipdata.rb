@@ -53,13 +53,13 @@ class EnemyShipData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(EnemyShip, _root)
-    self.id_range        = SYS.enemy_ship_id_range
-    self.data_files      = SYS.enemy_ship_data_files
-    self.name_files      = SYS.enemy_ship_name_files
-    self.csv_file        = SYS.enemy_ship_csv_file
-    self.tpl_file        = SYS.enemy_ship_tpl_file
-    @arm_name_files      = SYS.enemy_ship_arm_name_files
+    self.id_range  = sys(:enemy_ship_id_range)
+    self.data_file = sys(:enemy_ship_data_files)
+    self.name_file = sys(:enemy_ship_name_files)
+    self.csv_file  = sys(:enemy_ship_csv_file)
+    self.tpl_file  = sys(:enemy_ship_tpl_file)
     
+    @arm_name_file       = sys(:enemy_ship_arm_name_files)
     @accessory_data      = AccessoryData.new(_root)
     @armor_data          = ArmorData.new(_root)
     @ship_accessory_data = ShipAccessoryData.new(_root)
@@ -87,7 +87,7 @@ class EnemyShipData < StdEntryData
     puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
 
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@arm_name_files[region], _filename)
+      _range = determine_range(@arm_name_file, _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
@@ -122,7 +122,7 @@ class EnemyShipData < StdEntryData
           
           puts(sprintf(VOC.read, _id, _f.pos))
           _pos.value  = _f.pos
-          if region != 'P'
+          unless is_eu?
             _str.value  = _f.read_str(0xff, 0x4)
           else
             _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
@@ -157,13 +157,13 @@ class EnemyShipData < StdEntryData
     
     super
   
-    _ranges = @arm_name_files[region]
+    _ranges = @arm_name_file
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
       end
       _ranges.each do |_range|
-        load_arm_name_from_bin(File.join(root.path, _range.name))
+        load_arm_name_from_bin(glob(_range.name))
       end
     end
   end
@@ -180,7 +180,7 @@ class EnemyShipData < StdEntryData
   
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@arm_name_files[region], _filename) 
+      _range = determine_range(@arm_name_file, _filename) 
   
       @data.each do |_id, _entry|
         if _id < @id_range.begin && _id >= @id_range.end
@@ -222,7 +222,7 @@ class EnemyShipData < StdEntryData
           end
           
           puts(sprintf(VOC.write, _id, _pos))
-          if region != 'P'
+          unless is_eu?
             _f.write_str(_str, _size, 0x4)
           else
             _f.write_str(_str, _size, 0x1, 'ISO8859-1')
@@ -238,13 +238,13 @@ class EnemyShipData < StdEntryData
   def save_all_to_bin
     super
   
-    _ranges = @arm_name_files[region]
+    _ranges = @arm_name_file
     if _ranges
       unless _ranges.is_a?(Array)
         _ranges = [_ranges]
       end
       _ranges.each do |_range|
-        save_arm_name_to_bin(File.join(root.path, _range.name))
+        save_arm_name_to_bin(glob(_range.name))
       end
     end
   end
@@ -253,7 +253,7 @@ class EnemyShipData < StdEntryData
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :arm_name_files
+  attr_accessor :arm_name_file
 
 end # class EnemyShipData
 

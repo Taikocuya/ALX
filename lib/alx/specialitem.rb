@@ -42,24 +42,24 @@ class SpecialItem < StdEntry
   public
 
   # Constructs a SpecialItem.
-  # @param _region [String] Region ID
-  def initialize(_region)
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
     super
     add_name_members
 
-    members << IntVar.new(VOC.retail_price           ,  0, 'c' )
-    members << IntVar.new(VOC.order_priority         , -1, 'c' )
-    members << IntVar.new(VOC.order_alphabet[country], -1, 'c' )
+    members << IntVar.new(VOC.retail_price              ,  0, 'c' )
+    members << IntVar.new(VOC.order_priority            , -1, 'c' )
+    members << IntVar.new(VOC.order_alphabet[country_id], -1, 'c' )
     
-    if region == 'P'
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
+    if is_eu?
+      members << IntVar.new(padding_hdr                 ,  0, 'c' )
     end
     
-    members << IntVar.new(VOC.purchase_price         ,  0, 'S>')
+    members << IntVar.new(VOC.purchase_price            ,  0, 'S>')
 
-    if region == 'P'
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
-      members << IntVar.new(padding_hdr              ,  0, 'c' )
+    if is_eu?
+      members << IntVar.new(padding_hdr                 ,  0, 'c' )
+      members << IntVar.new(padding_hdr                 ,  0, 'c' )
     end
 
     add_dscr_members

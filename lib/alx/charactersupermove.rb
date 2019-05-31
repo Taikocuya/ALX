@@ -42,14 +42,14 @@ class CharacterSuperMove < StdEntry
   public
 
   # Constructs a CharacterSuperMove.
-  # @param _region [String] Region ID
-  def initialize(_region)
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
     super
     add_name_members
 
     members << IntVar.new(VOC.element_id        ,  0, 'c' )
     
-    if region == 'P'
+    if is_eu?
       members << IntVar.new(padding_hdr         ,  0, 'c' )
     end
     

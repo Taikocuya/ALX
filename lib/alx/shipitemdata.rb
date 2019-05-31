@@ -46,12 +46,12 @@ class ShipItemData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(ShipItem, _root)
-    self.id_range   = SYS.ship_item_id_range
-    self.data_files = SYS.ship_item_data_files
-    self.name_files = SYS.ship_item_name_files
-    self.dscr_files = SYS.ship_item_dscr_files
-    self.csv_file   = SYS.ship_item_csv_file
-    self.tpl_file   = SYS.ship_item_tpl_file
+    self.id_range  = sys(:ship_item_id_range)
+    self.data_file = sys(:ship_item_data_files)
+    self.name_file = sys(:ship_item_name_files)
+    self.dscr_file = sys(:ship_item_dscr_files)
+    self.csv_file  = sys(:ship_item_csv_file)
+    self.tpl_file  = sys(:ship_item_tpl_file)
   end
 
 end # class ShipItemData

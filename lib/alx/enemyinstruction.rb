@@ -42,8 +42,8 @@ class EnemyInstruction < Entry
   public
 
   # Constructs an EnemyShipTask.
-  # @param _region [String] Region ID
-  def initialize(_region)
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
     super
     @files       = []
     @enemies     = []
@@ -121,10 +121,9 @@ class EnemyInstruction < Entry
         _entry = @super_moves[_instr_id]
       end
       if _entry
-        case region
-        when 'E', 'J'
-          _instr_name = _entry.find_member(VOC.name_str[country]).value
-        when 'P'
+        if is_jp? || is_us?
+          _instr_name = _entry.find_member(VOC.name_str[country_id]).value
+        elsif is_eu?
           _instr_name = _entry.find_member(VOC.name_str['GB']   ).value
         end
       end

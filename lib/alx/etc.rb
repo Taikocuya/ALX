@@ -68,7 +68,7 @@ class ETC
   # Loads and initializes the configuration core.
   def self.init
     @@initialized ||= false
-    if !@@initialized
+    unless @@initialized
       CONFIG_FILES.each do |_k, _f|
         ALX.const_set(_k, ETC.new)
         require_relative(_f)
@@ -100,14 +100,41 @@ class ETC
   # Converts a path to an absolute path relative to ALX base directory.
   # @param _path [String] Path
   # @return [String] Absolute path
-  def expand_path(_path)
+  def expand(_path)
     File.expand_path(File.join(File.dirname(__FILE__), '../..', _path))
+  end
+
+  # Returns a new path formed by joining the strings using '/'.
+  # @param _paths [Hash,String] Path
+  # @return [String] Path
+  # @see ::File::join
+  def join(*_paths)
+    File.join(_paths)
+  end
+  
+  # Creates a simple glob pattern in which a single asterisk must be used.
+  # @param _pattern [String] Glob pattern
+  # @return [String] Glob pattern
+  def glob(*_pattern)
+    _pattern = join(_pattern)
+
+    if /^[\[\]{}\?\\]+$/ =~ _pattern
+      _msg = "glob pattern invalid - %s (only single asterisk is allowed)"
+      raise(ArgumentError, sprintf(_msg, _pattern), caller(1))
+    end
+    _size = _pattern.count('*')
+    if _size != 1
+      _msg = "wrong number of asterisks in glob pattern (#{_size} for 1)"
+      raise(ArgumentError, _msg, caller(1))
+    end
+    
+    _pattern
   end
   
   # Creates a dynamic CSV header.
   # @param _format [String] Header format
   # @return [Hash] Dynamic CSV header
-  def create_hdr(_format)
+  def hdr(_format)
     _size = _format.scan(/%[ds]/).size
     if _size != 1
       _msg = "wrong number of fields in format sequence (#{_size} for 1)"

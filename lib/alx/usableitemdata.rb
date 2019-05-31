@@ -46,12 +46,12 @@ class UsableItemData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(UsableItem, _root)
-    self.id_range   = SYS.usable_item_id_range
-    self.data_files = SYS.usable_item_data_files
-    self.name_files = SYS.usable_item_name_files
-    self.dscr_files = SYS.usable_item_dscr_files
-    self.csv_file   = SYS.usable_item_csv_file
-    self.tpl_file   = SYS.usable_item_tpl_file
+    self.id_range  = sys(:usable_item_id_range)
+    self.data_file = sys(:usable_item_data_files)
+    self.name_file = sys(:usable_item_name_files)
+    self.dscr_file = sys(:usable_item_dscr_files)
+    self.csv_file  = sys(:usable_item_csv_file)
+    self.tpl_file  = sys(:usable_item_tpl_file)
   end
 
 end # class UsableItemData

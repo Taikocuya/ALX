@@ -41,42 +41,34 @@ class HdrFile
 
   public
 
-  # Opens a HDR file.
-  # @param _filename [String] File name of HDR file.
-  def initialize(_filename)
-    @filename  = _filename
-    @game_id   = ''
-    @region_id = ''
-    @maker_id  = ''
-    @name      = ''
+  # Constructs a HdrFile.
+  def initialize
+    @product_id   = ''
+    @product_name = ''
+    @region_id    = ''
+    @maker_id     = ''
+  end
 
-    if File.exist?(_filename)
-      BinaryFile.open(_filename, 'rb') do |_f|
-        @game_id   = _f.read_str(3)
-        @region_id = _f.read_str(1)
-        @maker_id  = _f.read_str(2)
-        
-        _f.pos     = 0x20
-        @name      = _f.read_str(64)
-      end
+  # Reads a HDR file.
+  # @param _filename [String] File name
+  def load(_filename)
+    BinaryFile.open(_filename, 'rb') do |_f|
+      @product_id   = _f.read_str(0x3)
+      @region_id    = _f.read_str(0x1)
+      @maker_id     = _f.read_str(0x2)
+      _f.pos        = 0x20
+      @product_name = _f.read_str(0x64)
     end
   end
 
-  # Returns the unique identifier.
-  # @return [String] Unique identifier
-  def identifier
-    @game_id + @region_id + @maker_id
-  end
-  
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :filename
-  attr_accessor :game_id
-  attr_accessor :region_id
-  attr_accessor :maker_id
-  attr_accessor :name
+  attr_reader :product_id
+  attr_reader :product_name
+  attr_reader :region_id
+  attr_reader :maker_id
 
 end	# class HdrFile
 

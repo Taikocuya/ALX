@@ -42,12 +42,12 @@ class EnemySuperMove < StdEntry
   public
 
   # Constructs a EnemySuperMove.
-  # @param _region [String] Region ID
-  def initialize(_region)
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
     super
     add_name_members
 
-    if region != 'P'
+    unless is_eu?
       members << IntVar.new(padding_hdr      ,  0, 'c' )
       members << IntVar.new(padding_hdr      ,  0, 'c' )
       members << IntVar.new(padding_hdr      ,  0, 'c' )
@@ -61,7 +61,7 @@ class EnemySuperMove < StdEntry
     members << IntVar.new(VOC.scope_id       ,  0, 'C' )
     members << StrDmy.new(VOC.scope_name     , ''      )
     
-    if region == 'P'
+    if is_eu?
       members << IntVar.new(padding_hdr      ,  0, 'c' )
     end
     

@@ -47,10 +47,10 @@ class MagicExpCurveData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(MagicExpCurve, _root)
-    self.id_range   = SYS.magic_exp_curve_id_range
-    self.data_files = SYS.magic_exp_curve_data_files
-    self.csv_file   = SYS.magic_exp_curve_csv_file
-    self.tpl_file   = SYS.magic_exp_curve_tpl_file
+    self.id_range   = sys(:magic_exp_curve_id_range)
+    self.data_file  = sys(:magic_exp_curve_data_files)
+    self.csv_file   = sys(:magic_exp_curve_csv_file)
+    self.tpl_file   = sys(:magic_exp_curve_tpl_file)
     @character_data = CharacterData.new(_root)
   end
 

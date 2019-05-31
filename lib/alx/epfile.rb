@@ -53,9 +53,9 @@ class EpFile
   public
 
   # Constructs an EpFile.
-  # @param _region [String] Region ID
-  def initialize(_region)
-    @region       = _region
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
+    @root         = _root
     @enemies      = []
     @instructions = []
     @items        = {}
@@ -68,7 +68,7 @@ class EpFile
   # @param _filename [String]  File name
   # @return [Entry] Enemy object
   def create_enemy(_id = -1, _filename = '*')
-    _enemy        = Enemy.new(region)
+    _enemy        = Enemy.new(@root)
     _enemy.id     = _id
     _enemy.files << File.basename(_filename)
     _enemy.items  = @items
@@ -80,7 +80,7 @@ class EpFile
   # @param _filename [String]  File name
   # @return [Entry] EnemyInstruction object
   def create_instruction(_id = -1, _filename = '*')
-    _instr              = EnemyInstruction.new(region)
+    _instr              = EnemyInstruction.new(@root)
     _instr.id           = _id
     _instr.files       << File.basename(_filename)
     _instr.enemies      = @enemies
@@ -88,12 +88,46 @@ class EpFile
     _instr.super_moves  = @super_moves
     _instr
   end
+
+  # Returns the value of a SYS attribute. If the value is a Hash, the 
+  # instance variables are considered during key selection.
+  # @param _sym [Symbol] SYS attribute symbol
+  # @return [Object] SYS attribute object
+  def sys(_sym)
+    @root.sys(_sym)
+  end
+    
+  # Returns a new path formed by joining the strings using '/' relative to 
+  # #dir. SYS symbols are resolved as well. If they contain a Hash, the game 
+  # root attributes are considered during key selection.
+  # 
+  # @param _args [String,Symbol] Paths or SYS symbols
+  # @return [String] Path
+  # @see ::File::join
+  def join(*_args)
+    @root.join(*_args)
+  end
   
+  # Expands glob pattern and returns a path of the first matching file or 
+  # directory relative to #dir. SYS symbols are resolved as well. If they 
+  # contain a Hash, the game root attributes are considered during key 
+  # selection.
+  # 
+  # If a block is given, calls the block once for each matching file or 
+  # directory, passing the path as a parameter to the block. 
+  # 
+  # @param _args [String,Symbol] Glob patterns or SYS attributes
+  # @return [String] First matching path
+  # @see ::Dir::glob
+  def glob(*_args, &block)
+    @root.glob(*_args, &block)
+  end
+
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :region
+  attr_accessor :root
   attr_accessor :enemies
   attr_accessor :instructions
   attr_accessor :items
@@ -177,16 +211,16 @@ class EpFile
       raise(IOError, "instruction quota of #{INSTR_SIZE} exceeded")
     end
 
-    _empty = EnemyInstruction.new(@region)
+    _empty = EnemyInstruction.new(@country_id)
     _last  = nil
     (0...INSTR_SIZE).each do |_i|
       _instr = _instructions[_i]
-      if !_instr
+      unless _instr
         _instr = _empty
       else
         if _last && _instr.id != _last.id + 1
-          _str = 'instruction ID invalid (given %s, expected %s)'
-          raise(IOError, sprintf(_str, _instr.id, _last.id + 1))
+          _msg = 'instruction ID invalid (given %s, expected %s)'
+          raise(IOError, sprintf(_msg, _instr.id, _last.id + 1))
         end
       end
       _instr.write_to_bin(_f)

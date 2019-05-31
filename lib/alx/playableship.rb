@@ -42,8 +42,8 @@ class PlayableShip < StdEntry
   public
 
   # Constructs a PlayableShip.
-  # @param _region [String] Region ID
-  def initialize(_region)
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
     super
     @ship_cannons     = {}
     @ship_accessories = {}
@@ -99,10 +99,9 @@ class PlayableShip < StdEntry
         _entry = @ship_cannons[_id]
         _name  = '???'
         if _entry
-          case region
-          when 'E', 'J'
-            _name = _entry.find_member(VOC.name_str[country]).value
-          when 'P'
+          if is_jp? || is_us?
+            _name = _entry.find_member(VOC.name_str[country_id]).value
+          elsif is_eu?
             _name = _entry.find_member(VOC.name_str['GB']).value
           end
         end
@@ -118,10 +117,9 @@ class PlayableShip < StdEntry
         _entry = @ship_accessories[_id]
         _name  = '???'
         if _entry
-          case region
-          when 'E', 'J'
-            _name = _entry.find_member(VOC.name_str[country]).value
-          when 'P'
+          if is_jp? || is_us?
+            _name = _entry.find_member(VOC.name_str[country_id]).value
+          elsif is_eu?
             _name = _entry.find_member(VOC.name_str['GB']).value
           end
         end

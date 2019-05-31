@@ -23,6 +23,7 @@
 #==============================================================================
 
 require_relative('etc.rb')
+require_relative('fileable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,15 +35,21 @@ module ALX
 
 # Mixin for every command line tool.
 module Executable
-  
+
+#==============================================================================
+#                                   INCLUDES
+#==============================================================================
+
+  include(Fileable)
+
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
 
   # Version of ALX
-  VERSION = '3.1.0'
+  VERSION = '4.0.0-A1'
   # Date of ALX
-  DATE    = Time.new(2019, 5, 1)
+  DATE    = Time.new(2019, 6, 1)
 
 #==============================================================================
 #                                   PUBLIC
@@ -53,38 +60,6 @@ module Executable
   # Constructs a Executable.
   def initialize
     show_version
-  end
-
-  # Returns +true+ if file exists, otherwise +false+.
-  # @param _filename [String] File name
-  # @return [Boolean] +true+ if file exists, otherwise +false+.
-  def has_file?(_filename)
-    print(sprintf(VOC.check_file, File.expand_path(_filename)))
-
-    _result = File.exist?(_filename) && !File.directory?(_filename)
-    if _result
-      print(sprintf(" - %s\n", VOC.exists))
-    else
-      print(sprintf(" - %s\n", VOC.not_found))
-    end
-    
-    _result
-  end
-
-  # Returns +true+ if directory exists, otherwise +false+.
-  # @param _dirname [String] Directory name
-  # @return [Boolean] +true+ if file exists, otherwise +false+.
-  def has_dir?(_dirname)
-    print(sprintf(VOC.check_dir, File.expand_path(_dirname)))
-    
-    _result = Dir.exist?(_dirname) && File.directory?(_dirname)
-    if _result
-      print(sprintf(" - %s\n", VOC.exists))
-    else
-      print(sprintf(" - %s\n", VOC.not_found))
-    end
-    
-    _result
   end
 
   # Displays version of ALX.

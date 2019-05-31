@@ -42,21 +42,21 @@ class Shop < StdEntry
   public
 
   # Constructs a Shop.
-  # @param _region [String] Region ID
-  def initialize(_region)
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
     super
     @items = {}
 
     members.clear
-    members << IntVar.new(VOC.id                 ,  0, 'S>')
-    members << IntVar.new(padding_hdr            ,  0, 's>')
-    members << IntVar.new(VOC.message_id[country],  0, 'L>')
+    members << IntVar.new(VOC.id                    ,  0, 'S>')
+    members << IntVar.new(padding_hdr               ,  0, 's>')
+    members << IntVar.new(VOC.message_id[country_id],  0, 'L>')
 
     add_dscr_members
     
     (0...48).each do |_i|
-      members << IntVar.new(VOC.item_id[_i]   , -1, 's>')
-      members << StrDmy.new(VOC.item_name[_i] , ''      )
+      members << IntVar.new(VOC.item_id[_i]         , -1, 's>')
+      members << StrDmy.new(VOC.item_name[_i]       , ''      )
     end
   end
 
@@ -69,10 +69,9 @@ class Shop < StdEntry
         _entry = @items[_id]
         _name  = '???'
         if _entry
-          case region
-          when 'E', 'J'
-            _name = _entry.find_member(VOC.name_str[country]).value
-          when 'P'
+          if is_jp? || is_us?
+            _name = _entry.find_member(VOC.name_str[country_id]).value
+          elsif is_eu?
             _name = _entry.find_member(VOC.name_str['GB']).value
           end
         end

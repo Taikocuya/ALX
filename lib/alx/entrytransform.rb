@@ -22,10 +22,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('bnrfile.rb')
 require_relative('executable.rb')
 require_relative('gameroot.rb')
-require_relative('hdrfile.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -68,15 +66,10 @@ class EntryTransform
   # Stores and validates a game directory.
   # @param _path [String] Game directory
   def store(_path)
-    _root      = GameRoot.new
-    _root.path = _path
-    _root.bnr  = BnrFile.new(File.join(_path, SYS.bnr_file))
-    _root.hdr  = HdrFile.new(File.join(_path, SYS.hdr_file))
-    
-    if valid?(_root)
-      unless @data.any? { |_d| _d.root.path == _path }
-        @data << create_entry_data(_root)
-      end
+    _root = GameRoot.new
+    _root.load(_path)
+    if _root.valid? && valid?(_root)
+      @data << create_entry_data(_root)
     end
   end
   
@@ -97,6 +90,7 @@ class EntryTransform
   # Collects and validates several game subdirectories in +SYS.share_dir+ by 
   # default.
   def exec
+    print("\n")
     collect(SYS.share_dir)
   end
   
@@ -108,118 +102,20 @@ class EntryTransform
   # @return [Boolean] +true+ if all necessary commands and files exist, 
   #                   otherwise +false+.
   def valid?(_root)
-    print("\n")
-
-    _path    = _root.path
-    _bnr     = _root.bnr
-    _hdr     = _root.hdr
     _valid   = true
-
-    _valid &&= has_dir?(_path)
-    _valid &&= has_dir?(File.join(_path, 'root'))
-    _valid &&= check_bnr(_bnr)
-    _valid &&= check_hdr(_hdr)
-    _valid &&= has_file?(File.join(_path, SYS.dol_file))
-    _valid &&= has_file?(File.join(_path, SYS.lmt_file))
+    _valid &&= has_file?(_root.dirname, _root.sys(:exec_file))
+    _valid &&= has_file?(_root.dirname, _root.sys(:level_file))
     
-    if _hdr.region_id == 'P'
-      _valid &&= has_file?(File.join(_path, SYS.sot_file_gb))
-      _valid &&= has_file?(File.join(_path, SYS.sot_file_de))
-      _valid &&= has_file?(File.join(_path, SYS.sot_file_es))
-      _valid &&= has_file?(File.join(_path, SYS.sot_file_fr))
+    if _root.is_eu?
+      _valid &&= has_file?(_root.dirname, _root.sys(:sot_file_gb))
+      _valid &&= has_file?(_root.dirname, _root.sys(:sot_file_de))
+      _valid &&= has_file?(_root.dirname, _root.sys(:sot_file_es))
+      _valid &&= has_file?(_root.dirname, _root.sys(:sot_file_fr))
     end
     
     _valid
   end
   
-  # Returns +true+ if BNR file is valid, otherwise +false+.
-  # @param _bnr [BnrFile] BNR file
-  # @return [Boolean] +true+ if BNR file is valid, otherwise +false+.
-  def check_bnr(_bnr)
-    unless has_file?(_bnr.filename)
-      return false
-    end
-    
-    _result = false
-
-    print(sprintf(VOC.check_bnr, VOC.bnr_title))
-    if _bnr.game_title =~ SYS.game_title_exp
-      _result = true
-      print(sprintf(' - %s', VOC.valid))
-    else
-      print(sprintf(' - %s', VOC.incorrect))
-    end
-    print(" (#{_bnr.game_title})\n")
-    
-    if _result
-      print(sprintf(VOC.check_bnr, VOC.bnr_devel))
-      if _bnr.developer =~ SYS.developer_exp
-        _result = true
-        print(sprintf(' - %s', VOC.valid))
-      else
-        print(sprintf(' - %s', VOC.incorrect))
-      end
-      print(" (#{_bnr.developer})\n")
-    end
-    
-    _result
-  end
-
-  # Returns +true+ if HDR file is valid, otherwise +false+.
-  # @param _hdr [HdrFile] HDR file
-  # @return [Boolean] +true+ if HDR file is valid, otherwise +false+.
-  def check_hdr(_hdr)
-    unless has_file?(_hdr.filename)
-      return false
-    end
-    
-    _result = false
-
-    print(sprintf(VOC.check_hdr, VOC.hdr_game))
-    if _hdr.game_id == SYS.game_id
-      _result = true
-      print(sprintf(' - %s', VOC.valid))
-    else
-      print(sprintf(' - %s', VOC.incorrect))
-    end
-    print(" (#{_hdr.game_id})\n")
-
-    if _result
-      print(sprintf(VOC.check_hdr, VOC.hdr_region))
-      if SYS.region_ids.include?(_hdr.region_id)
-        _result = true
-        print(sprintf(' - %s', VOC.valid))
-      else
-        print(sprintf(' - %s', VOC.incorrect))
-      end
-      print(" (#{_hdr.region_id})\n")
-    end
-
-    if _result
-      print(sprintf(VOC.check_hdr, VOC.hdr_maker))
-      if _hdr.maker_id == SYS.maker_id
-        _result = true
-        print(sprintf(' - %s', VOC.valid))
-      else
-        print(sprintf(' - %s', VOC.incorrect))
-      end
-      print(" (#{_hdr.maker_id})\n")
-    end
-    
-    if _result
-      print(sprintf(VOC.check_hdr, VOC.hdr_name))
-      if _hdr.name =~ /^(Skies of|Eternal) Arcadia Legends$/
-        _result = true
-        print(sprintf(' - %s', VOC.valid))
-      else
-        print(sprintf(' - %s', VOC.incorrect))
-      end
-      print(" (#{_hdr.name})\n")
-    end
-    
-    _result
-  end
-
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------

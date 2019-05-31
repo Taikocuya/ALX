@@ -53,11 +53,11 @@ class ShopData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Shop, _root)
-    self.id_range   = SYS.shop_id_range
-    self.data_files = SYS.shop_data_files
-    self.dscr_files = SYS.shop_dscr_files
-    self.csv_file   = SYS.shop_csv_file
-    self.tpl_file   = SYS.shop_tpl_file
+    self.id_range  = sys(:shop_id_range)
+    self.data_file = sys(:shop_data_files)
+    self.dscr_file = sys(:shop_dscr_files)
+    self.csv_file  = sys(:shop_csv_file)
+    self.tpl_file  = sys(:shop_tpl_file)
     
     @accessory_data      = AccessoryData.new(_root)
     @armor_data          = ArmorData.new(_root)

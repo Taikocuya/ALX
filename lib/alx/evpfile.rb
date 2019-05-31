@@ -52,8 +52,8 @@ class EvpFile < EpFile
   public
 
   # Constructs an EvpFile.
-  # @param _region [String] Region ID
-  def initialize(_region)
+  # @param _root [GameRoot] Game root
+  def initialize(_root)
     super
     @events = []
   end
@@ -70,7 +70,7 @@ class EvpFile < EpFile
   # @param _id [Integer] Event ID
   # @return [Entry] EnemyEvent object
   def create_event(_id = -1)
-    _event         = EnemyEvent.new(region)
+    _event         = EnemyEvent.new(@root)
     _event.id      = _id
     _event.enemies = enemies
     _event
@@ -145,7 +145,7 @@ class EvpFile < EpFile
             if _id != 255
               _enemy = find_enemy(_id, _filename)
               if _enemy
-                if !_enemies.include?(_enemy)
+                unless _enemies.include?(_enemy)
                   _enemies << _enemy
                 end
               else

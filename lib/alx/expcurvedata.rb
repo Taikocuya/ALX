@@ -47,10 +47,10 @@ class ExpCurveData < StdEntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(ExpCurve, _root)
-    self.id_range   = SYS.exp_curve_id_range
-    self.data_files = SYS.exp_curve_data_files
-    self.csv_file   = SYS.exp_curve_csv_file
-    self.tpl_file   = SYS.exp_curve_tpl_file
+    self.id_range   = sys(:exp_curve_id_range)
+    self.data_file  = sys(:exp_curve_data_files)
+    self.csv_file   = sys(:exp_curve_csv_file)
+    self.tpl_file   = sys(:exp_curve_tpl_file)
     @character_data = CharacterData.new(_root)
   end
 

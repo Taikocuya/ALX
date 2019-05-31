@@ -61,8 +61,8 @@ class SampleCreator
     print("\n")
     
     CONFIG_FILES.each_value do |_f|
-      _src = File.join('../../lib/alx', _f)
-      _dst = File.join('../../etc',     _f + '.sample')
+      _src = File.join(File.dirname(__FILE__), '../../lib/alx', _f)
+      _dst = File.join(File.dirname(__FILE__), '../../etc',     _f + '.sample')
       create_sample(_src, _dst)
     end
   end
