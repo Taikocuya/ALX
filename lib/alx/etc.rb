@@ -68,18 +68,20 @@ class ETC
   # Loads and initializes the configuration core.
   def self.init
     @@initialized ||= false
-    unless @@initialized
-      CONFIG_FILES.each do |_k, _f|
-        ALX.const_set(_k, ETC.new)
-        require_relative(_f)
-        
-        _etc_file = File.join(File.dirname(__FILE__), '../../etc', _f)
-        if File.exist?(_etc_file)
-          require_relative(_etc_file)
-        end
-      end
-      @@initialized = true
+    if @@initialized
+      return @@initialized
     end
+    
+    CONFIG_FILES.each do |_k, _f|
+      ALX.const_set(_k, ETC.new)
+      require_relative(_f)
+      _etc_file = File.join(File.dirname(__FILE__), '../../etc', _f)
+      if File.exist?(_etc_file)
+        require_relative(_etc_file)
+      end
+    end
+    
+    @@initialized = true
   end
 
   # @see ::Enumerable#each
@@ -213,6 +215,6 @@ end # module ALX
 begin
   ALX::ETC.init
 rescue => _e
-  print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
+  print(_e.message, "\n", _e.backtrace.join("\n"), "\n")
   exit(1)
 end

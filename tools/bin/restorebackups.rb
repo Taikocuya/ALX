@@ -23,7 +23,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require('fileutils')
 require('pathname')
 require_relative('../../lib/alx/entrytransform.rb')
 
@@ -58,7 +57,6 @@ class BackupRestorer < EntryTransform
 
   def exec
     super
-    print("\n")
     
     data.each do |_root|
       Dir.chdir(_root.dirname) do
@@ -107,19 +105,20 @@ class BackupRestorer < EntryTransform
       File.join(_root.dirname, SYS.bak_dir)
     )
 
-    print("Restore backup: #{_dst_file}")
-
     begin
       FileUtils.cp(_src_file, _dst_file)
       _result = File.exist?(_dst_file)
-    rescue
+    rescue StandardError
       _result = false
     end
 
+    _msg = sprintf('Restore backup: %s', _dst_file)
     if _result
-      print(" - done\n")
+      _msg += sprintf(' - %s', VOC.done)
+      ALX::LOG.info(_msg)
     else
-      print(" - failed\n")
+      _msg += sprintf(' - %s', VOC.failed)
+      ALX::LOG.error(_msg)
     end
   end
 
@@ -132,10 +131,8 @@ end # module ALX
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 if __FILE__ == $0
-  begin
+  ALX::Main.call do
     _br = ALX::BackupRestorer.new
     _br.exec
-  rescue => _e
-    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end
 end

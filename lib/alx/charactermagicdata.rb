@@ -58,8 +58,7 @@ class CharacterMagicData < StdEntryData
   # Reads all ship description entries from a binary file.
   # @param _filename [String] File name
   def load_ship_dscr_from_bin(_filename)
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
 
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@ship_dscr_file, _filename)
@@ -98,7 +97,7 @@ class CharacterMagicData < StdEntryData
           next
         end
         
-        puts(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
+        LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
         _pos.value  = _f.pos
         unless is_eu?
           _str.value  = _f.read_str(0xff, 0x4)
@@ -117,7 +116,7 @@ class CharacterMagicData < StdEntryData
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Reads all entries from binary files.
@@ -142,8 +141,7 @@ class CharacterMagicData < StdEntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_dscr))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_dscr))
   
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
@@ -181,7 +179,7 @@ class CharacterMagicData < StdEntryData
           next
         end
         
-        puts(sprintf(VOC.write, _id, _pos))
+        LOG.info(sprintf(VOC.write, _id, _pos))
         unless is_eu?
           _f.write_str(_str, _size, 0x4)
         else
@@ -190,7 +188,7 @@ class CharacterMagicData < StdEntryData
       end
     end
   
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
     
   # Writes all entries to binary files.

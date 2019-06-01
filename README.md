@@ -51,18 +51,20 @@ Installation
 Put the files to some directory where you want it. Pre-exported CSV files with 
 complete game data can already be found in the subdirectories:
 
-* `share/geaj8p/csv` for NTSC-J
-* `share/geae8p/csv` for NTSC-U
-* `share/geap8p/csv` for PAL-E
+| Path                     | Region  | Country |
+|:------------------------:|:-------:|:-------:|
+| `share/gc-eu-retail/csv` | PAL-E   | EU      |
+| `share/gc-jp-retail/csv` | NTSC-J  | JP      |
+| `share/gc-us-retail/csv` | NTSC-U  | US      |
 
 The scripts require at least one extracted image of Skies of Arcadia Legends, 
 or rather, Eternal Arcadia Legends. The directory structure should look like 
 this:
 
 * `share/*/csv` (replace the asterisk with any name you choose, i.e. 
-  `share/geae8p/csv` or similar) for CSV files
+  `share/game/csv` or similar) for CSV files
 * `share/*/root` (replace the asterisk with any name you choose, i.e. 
-  `share/geae8p/root` or similar) for game data
+  `share/game/root` or similar) for game data
 
 To obtain the game files, you need a corresponding image (ISO or GCM) and 
 [GCRebuilder](http://www.romhacking.net/utilities/619/). Please do not ask for 

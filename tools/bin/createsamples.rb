@@ -23,9 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require('fileutils')
-require_relative('../../lib/alx/etc.rb')
-require_relative('../../lib/alx/executable.rb')
+require_relative('../../lib/alx/entrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -36,13 +34,7 @@ module ALX
 #==============================================================================
   
 # Class to create configuration samples in the "etc" directory.
-class SampleCreator
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Executable)
+class SampleCreator < EntryTransform
 
 #==============================================================================
 #                                  CONSTANTS
@@ -57,9 +49,19 @@ class SampleCreator
 
   public
 
+  # Constructs an SampleCreator.
+  def initialize
+    super(Object)
+  end
+  
+  # Creates an entry data object.
+  # @param _root [GameRoot] Game root
+  # @return [EntryData] Entry data object
+  def create_entry_data(_root)
+    nil
+  end
+  
   def exec
-    print("\n")
-    
     CONFIG_FILES.each_value do |_f|
       _src = File.join(File.dirname(__FILE__), '../../lib/alx', _f)
       _dst = File.join(File.dirname(__FILE__), '../../etc',     _f + '.sample')
@@ -71,8 +73,6 @@ class SampleCreator
   # @param _src [String] Source path
   # @param _dst [String] Destination path
   def create_sample(_src, _dst)
-    print("Create configuration sample: #{File.expand_path(_dst)}")
-    
     begin
       FileUtils.cp(_src, _dst)
       _result = File.exist?(_dst)
@@ -80,10 +80,13 @@ class SampleCreator
       _result = false
     end
 
+    _msg = sprintf('Create configuration sample: %s', _dst)
     if _result
-      print(" - done\n")
+      _msg += sprintf(' - %s', VOC.done)
+      ALX::LOG.info(_msg)
     else
-      print(" - failed\n")
+      _msg += sprintf(' - %s', VOC.failed)
+      ALX::LOG.error(_msg)
     end
   end
 
@@ -96,10 +99,8 @@ end # module ALX
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 if __FILE__ == $0
-  begin
-    _br = ALX::SampleCreator.new
-    _br.exec
-  rescue => _e
-    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
+  ALX::Main.call do
+    _sc = ALX::SampleCreator.new
+    _sc.exec
   end
 end

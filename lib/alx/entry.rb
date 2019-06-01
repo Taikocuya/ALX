@@ -24,11 +24,11 @@
 
 require('csv')
 require_relative('binarystringio.rb')
-require_relative('etc.rb')
 require_relative('fltvar.rb')
 require_relative('fltdmy.rb')
 require_relative('intvar.rb')
 require_relative('intdmy.rb')
+require_relative('main.rb')
 require_relative('strvar.rb')
 require_relative('strdmy.rb')
 
@@ -146,8 +146,8 @@ class Entry
   # @param _args [String,Symbol] Glob patterns or SYS attributes
   # @return [String] First matching path
   # @see ::Dir::glob
-  def glob(*_args, &block)
-    @root.glob(*_args, &block)
+  def glob(*_args, &_block)
+    @root.glob(*_args, &_block)
   end
 
   # Reads one entry from a binary I/O stream..

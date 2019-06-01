@@ -22,8 +22,9 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('etc.rb')
+require('date')
 require_relative('fileable.rb')
+require_relative('main.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -49,7 +50,7 @@ module Executable
   # Version of ALX
   VERSION = '4.0.0-A1'
   # Date of ALX
-  DATE    = Time.new(2019, 6, 1)
+  DATE    = Date.new(2019, 6, 1)
 
 #==============================================================================
 #                                   PUBLIC
@@ -64,9 +65,8 @@ module Executable
 
   # Displays version of ALX.
   def show_version
-    print("\n")
-    print(DATE.strftime("ALX #{VERSION} (%Y-%m-%d)\n"))
-    print(DATE.strftime("Copyright (C) %Y Marcel Renner\n"))
+    LOG.info(DATE.strftime("ALX #{VERSION} (%Y-%m-%d)"))
+    LOG.info(DATE.strftime('Copyright (C) %Y Marcel Renner'))
   end
 
 end # class Executable

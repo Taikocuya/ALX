@@ -44,8 +44,7 @@ class DatFile < EpFile
   # Reads a DAT file.
   # @param _filename [String] File name
   def load(_filename)
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     _basename   = File.basename(_filename)
     _eb_pattern = File.basename(sys(:eb_file)).sub('*', '\d{3}')
@@ -67,11 +66,11 @@ class DatFile < EpFile
     end
     
     AklzFile.open(_filename, 'rb') do |_f|
-      puts(sprintf(VOC.read, _id, _f.pos))
+      LOG.info(sprintf(VOC.read, _id, _f.pos))
       load_enemy(_f, _id, _filename)
     end
     
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes a DAT file.
@@ -101,15 +100,14 @@ class DatFile < EpFile
       return
     end
 
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     AklzFile.open(_filename, 'wb') do |_f|
-      puts(sprintf(VOC.write, _id, _f.pos))
+      LOG.info(sprintf(VOC.write, _id, _f.pos))
       save_enemy(_f, _enemy, _filename)
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
 end # class DatFile

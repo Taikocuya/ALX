@@ -95,8 +95,7 @@ class EnpFile < EpFile
   # Reads an ENP file.
   # @param _filename [String] File name
   def load(_filename)
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     AklzFile.open(_filename, 'rb') do |_f|
       # Segments
@@ -149,7 +148,7 @@ class EnpFile < EpFile
           raise(IOError, "encounter quota of #{NUM_ENCOUNTERS} exceeded")
         end
         (0..._size).each do |_id|
-          puts(sprintf(VOC.read, _id, _f.pos))
+          LOG.info(sprintf(VOC.read, _id, _f.pos))
           _encounter = create_encounter(_id, _segname)
           _encounter.read_from_bin(_f)
           @encounters << _encounter
@@ -161,7 +160,7 @@ class EnpFile < EpFile
           _pos   = _node[:pos]
           _f.pos = _pos
           
-          puts(sprintf(VOC.read, _id, _pos))
+          LOG.info(sprintf(VOC.read, _id, _pos))
           load_enemy(_f, _id, _segname)
         end
 
@@ -171,7 +170,7 @@ class EnpFile < EpFile
       end
     end
     
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes an ENP file.
@@ -201,8 +200,7 @@ class EnpFile < EpFile
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     AklzFile.open(_filename, 'wb') do |_f|
       # Segments (pre-processing)
@@ -222,7 +220,7 @@ class EnpFile < EpFile
           raise(IOError, "encounter quota of #{NUM_ENCOUNTERS} exceeded")
         end
         (0..._encounters.size).each do |_id|
-          puts(sprintf(VOC.write, _id, _f.pos))
+          LOG.info(sprintf(VOC.write, _id, _f.pos))
           _encounter = _encounters[_id]
           _encounter.write_to_bin(_f)
 
@@ -250,7 +248,7 @@ class EnpFile < EpFile
           _id  = _enemy.id
           _pos = _f.pos
             
-          puts(sprintf(VOC.write, _id, _pos))
+          LOG.info(sprintf(VOC.write, _id, _pos))
           _nodes << create_node(_id, _pos - _beg)
           save_enemy(_f, _enemy, _filename)
         end
@@ -291,7 +289,7 @@ class EnpFile < EpFile
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
   
 #------------------------------------------------------------------------------

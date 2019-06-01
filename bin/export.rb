@@ -64,8 +64,6 @@ class Exporter
   end
   
   def valid?
-    print("\n")
-
     _valid = true
     @exec_files.each do |_p|
       _valid &&= has_file?(_p)
@@ -91,11 +89,8 @@ end	# module ALX
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 if __FILE__ == $0
-  begin
+  ALX::Main.call do
     _exporter = ALX::Exporter.new
     _exporter.exec
-  rescue => _e
-    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
-    exit(1)
   end
 end

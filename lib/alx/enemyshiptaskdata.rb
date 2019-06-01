@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require('fileutils')
 require_relative('charactermagicdata.rb')
 require_relative('enemyshipdata.rb')
 require_relative('enemyshiptask.rb')
@@ -127,19 +126,18 @@ class EnemyShipTaskData < EntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
-        puts(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
+        LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _entry = create_entry
         _entry.read_from_csv(_f)
         @data << _entry
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Reads all entries from CSV files (TPL files first, CSV files last).
@@ -155,20 +153,19 @@ class EnemyShipTaskData < EntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     _header = create_entry.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @data.each do |_entry|
-        puts(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
+        LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _entry.write_to_csv(_f)
       end
     end
     
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes all entries to CSV files.

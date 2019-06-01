@@ -23,7 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../../lib/alx/executable.rb')
+require_relative('../../lib/alx/entrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,21 +34,15 @@ module ALX
 #==============================================================================
   
 # Class to encode a string from Shift_JIS to hexadecimal.
-class StringEncoder
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Executable)
+class StringEncoder < EntryTransform
 
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
 
   # Input string
-  INPUT_STR = ''
-  INPUT_STR.encode!('Shift_JIS', 'UTF-8')
+  IN_STR = ''
+  IN_STR.encode!('Shift_JIS', 'UTF-8')
 
 #==============================================================================
 #                                   PUBLIC
@@ -56,11 +50,22 @@ class StringEncoder
 
   public
 
+  # Constructs an StringEncoder.
+  def initialize
+    super(Object)
+  end
+  
+  # Creates an entry data object.
+  # @param _root [GameRoot] Game root
+  # @return [EntryData] Entry data object
+  def create_entry_data(_root)
+    nil
+  end
+  
   def exec
-    print("\n")
-    print(sprintf("Input string in %s: %s\n", INPUT_STR.encoding, INPUT_STR))
-    _output = INPUT_STR.each_byte.map { |b| b.to_s(16) }.join
-    print(sprintf("Output string in hexadecimal: %s\n", _output))
+    ALX::LOG.info(sprintf('Input string in %s: %s', IN_STR.encoding, IN_STR))
+    _output = IN_STR.each_byte.map { |b| b.to_s(16) }
+    ALX::LOG.info(sprintf('Output string in hexadecimal: %s', _output.join))
   end
 
 end # class StringEncoder
@@ -72,10 +77,8 @@ end # module ALX
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 if __FILE__ == $0
-  begin
+  ALX::Main.call do
     _se = ALX::StringEncoder.new
     _se.exec
-  rescue => _e
-    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end
 end

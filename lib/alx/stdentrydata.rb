@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require('fileutils')
 require_relative('binaryfile.rb')
 require_relative('entrydata.rb')
 require_relative('message.rb')
@@ -75,8 +74,7 @@ class StdEntryData < EntryData
   # Reads all data entries from a binary file.
   # @param _filename [String] File name
   def load_data_from_bin(_filename)
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@data_file, _filename)
@@ -91,20 +89,19 @@ class StdEntryData < EntryData
           break
         end
         
-        puts(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
+        LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
         _entry = @data[_id]
         _entry.read_from_bin(_f)
       end
     end
     
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
     
   # Reads all name entries from a binary file.
   # @param _filename [String] File name
   def load_names_from_bin(_filename)
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
 
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@name_file, _filename)
@@ -143,7 +140,7 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
+        LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
         _pos.value  = _f.pos
         _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
         _size.value = _f.pos - _pos.value
@@ -158,14 +155,13 @@ class StdEntryData < EntryData
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
   
   # Reads all description entries from a binary file.
   # @param _filename [String] File name
   def load_dscr_from_bin(_filename)
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
 
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@dscr_file, _filename)
@@ -204,7 +200,7 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
+        LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
         _pos.value = _f.pos
         unless is_eu?
           _str.value = _f.read_str(0xff, 0x4)
@@ -223,7 +219,7 @@ class StdEntryData < EntryData
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Reads all entries from binary files.
@@ -270,8 +266,7 @@ class StdEntryData < EntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
@@ -291,12 +286,12 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(VOC.write, _id - @id_range.begin, _f.pos))
+        LOG.info(sprintf(VOC.write, _id - @id_range.begin, _f.pos))
         _entry.write_to_bin(_f)
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
     
   # Writes all name entries to a binary file.
@@ -306,8 +301,7 @@ class StdEntryData < EntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_name))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_name))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
@@ -339,12 +333,12 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(VOC.write, _id - @id_range.begin, _pos))
+        LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
         _f.write_str(_str, _size, 0x1, 'ISO8859-1')
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
   
   # Writes all description entries to a binary file.
@@ -354,8 +348,7 @@ class StdEntryData < EntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_dscr))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_dscr))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
@@ -393,7 +386,7 @@ class StdEntryData < EntryData
           next
         end
         
-        puts(sprintf(VOC.write, _id - @id_range.begin, _pos))
+        LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
         unless is_eu?
           _f.write_str(_str, _size, 0x4)
         else
@@ -402,7 +395,7 @@ class StdEntryData < EntryData
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
     
   # Writes all entries to binary files.
@@ -446,12 +439,11 @@ class StdEntryData < EntryData
       return
     end
   
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
-        puts(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
+        LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _row   = _f.shift
         _entry = create_entry
         _entry.read_from_csv(_row, _force)
@@ -465,7 +457,7 @@ class StdEntryData < EntryData
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Reads all entries from CSV files (CSV files first, TPL files last).
@@ -481,20 +473,19 @@ class StdEntryData < EntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     _header = create_entry.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @data.each do |_id, _entry|
-        puts(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
+        LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _entry.write_to_csv(_f)
       end
     end
     
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes all entries to CSV files.

@@ -1,4 +1,3 @@
-#! /usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2019 Marcel Renner
@@ -23,7 +22,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/enemyshiptasktransform.rb')
+require_relative('etc.rb')
+require_relative('log.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,8 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to export enemy ship tasks to CSV files.
-class EnemyShipTaskExporter < EnemyShipTaskTransform
+# Module to handle the main function.
+module Main
 
 #==============================================================================
 #                                   PUBLIC
@@ -42,22 +42,33 @@ class EnemyShipTaskExporter < EnemyShipTaskTransform
 
   public
 
-  def exec
-    super
-    transform_bin_to_csv
+  # Executes the given block in the main function.
+  def self.call
+    begin
+      yield
+    rescue Exception => _exception
+      exception(_exception)
+    end
   end
 
-end	# class EnemyShipTaskExporter
+  # Raises an excepetion.
+  # @param _exception [Exception] Exception object
+  def self.exception(_exception)
+    begin
+      ALX::LOG.fatal(_exception.message)
+      _exception.backtrace.each do |_trace|
+        ALX::LOG.fatal(_trace)
+      end
+    rescue StandardError => _fallback
+      print(_exception.message, "\n", _exception.backtrace.join("\n"), "\n")
+      print( _fallback.message, "\n",  _fallback.backtrace.join("\n"), "\n")
+    ensure
+      exit(1)
+    end
+  end
+  
+end # module ETC
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
-
-# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
-
-if __FILE__ == $0 || Object.const_defined?('ALX::Exporter')
-  ALX::Main.call do
-    _exporter = ALX::EnemyShipTaskExporter.new
-    _exporter.exec
-  end
-end
+end # module ALX

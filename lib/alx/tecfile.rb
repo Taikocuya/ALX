@@ -74,13 +74,12 @@ class TecFile
   # Reads a TEC file.
   # @param _filename [String] File name
   def load(_filename)
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     AklzFile.open(_filename, 'rb') do |_f|
       _size = (_f.size - 0x4) / create_task.size
       (0..._size).each do |_id|
-        puts(sprintf(VOC.read, _id, _f.pos))
+        LOG.info(sprintf(VOC.read, _id, _f.pos))
         _task = create_task(_id, _filename)
         _task.read_from_bin(_f)
         @tasks << _task
@@ -99,14 +98,13 @@ class TecFile
       end
     end
     
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes a TEC file.
   # @param _filename [String] File name
   def save(_filename)
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     AklzFile.open(_filename, 'wb') do |_f|
       _tasks = @tasks.select do |_task|
@@ -114,7 +112,7 @@ class TecFile
       end
 
       (0..._tasks.size).each do |_id|
-        puts(sprintf(VOC.write, _id, _f.pos))
+        LOG.info(sprintf(VOC.write, _id, _f.pos))
         _task = _tasks[_id]
         _task.write_to_bin(_f)
       end
@@ -123,7 +121,7 @@ class TecFile
       _f.write_int(EOF_MARKER, 's>')
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
   
 #------------------------------------------------------------------------------

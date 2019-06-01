@@ -79,8 +79,7 @@ class EvpFile < EpFile
   # Reads an EVP file.
   # @param _filename [String] File name
   def load(_filename)
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     AklzFile.open(_filename, 'rb') do |_f|
       # Header
@@ -97,7 +96,7 @@ class EvpFile < EpFile
       # Events
       _dummy = create_event
       (0...NUM_EVENTS).each do |_id|
-        puts(sprintf(VOC.read, _id, _f.pos))
+        LOG.info(sprintf(VOC.read, _id, _f.pos))
         _event = create_event(_id)
         _event.read_from_bin(_f)
         
@@ -112,19 +111,18 @@ class EvpFile < EpFile
         _pos   = _node[:pos]
         _f.pos = _pos
         
-        puts(sprintf(VOC.read, _id, _pos))
+        LOG.info(sprintf(VOC.read, _id, _pos))
         load_enemy(_f, _id, _filename)
       end
     end
     
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes an EVP file.
   # @param _filename [String] File name
   def save(_filename)
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
       
     AklzFile.open(_filename, 'wb') do |_f|
       # Events
@@ -135,7 +133,7 @@ class EvpFile < EpFile
         raise(IOError, "event quota of #{NUM_EVENTS} exceeded")
       end
       (0...NUM_EVENTS).each do |_id|
-        puts(sprintf(VOC.write, _id, _f.pos))
+        LOG.info(sprintf(VOC.write, _id, _f.pos))
         _event = @events[_id]
         if _event
           _event.write_to_bin(_f)
@@ -167,7 +165,7 @@ class EvpFile < EpFile
         _id  = _enemy.id
         _pos = _f.pos
           
-        puts(sprintf(VOC.write, _id, _pos))
+        LOG.info(sprintf(VOC.write, _id, _pos))
         _nodes << create_node(_id, _pos)
         save_enemy(_f, _enemy, _filename)
       end
@@ -186,7 +184,7 @@ class EvpFile < EpFile
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
   
 #------------------------------------------------------------------------------

@@ -23,9 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require('fileutils')
-require_relative('../../lib/alx/etc.rb')
-require_relative('../../lib/alx/executable.rb')
+require_relative('../../lib/alx/entrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -37,13 +35,7 @@ module ALX
   
 # Class to rebuild images from the "share" to "thirdparty/dolphin/Games" 
 # directory.
-class ImageRebuilder
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Executable)
+class ImageRebuilder < EntryTransform
 
 #==============================================================================
 #                                  CONSTANTS
@@ -64,17 +56,25 @@ class ImageRebuilder
 
   public
 
-  def exec
-    print("\n")
-
-    Dir.glob(File.join(SYS.share_dir, '*')).each do |_game_path|
-      unless File.directory?(_game_path)
-        next
-      end
+  # Constructs an ImageRebuilder.
+  def initialize
+    super(GameRoot)
+  end
   
+  # Creates an entry data object.
+  # @param _root [GameRoot] Game root
+  # @return [EntryData] Entry data object
+  def create_entry_data(_root)
+    _root
+  end
+  
+  def exec
+    super
+    
+    data.each do |_root|
       rebuild_image(
-        File.join(_game_path, 'root'),
-        File.join(GAMES_DIR, File.basename(_game_path)) + '.iso'
+        File.join(_root.dirname, SYS.root_dir),
+        File.join(GAMES_DIR, File.basename(_root.dirname)) + '.iso'
       )
     end
   end
@@ -83,21 +83,22 @@ class ImageRebuilder
   # @param _game_path  [String] Path of game root
   # @param _image_path [String] Path of game image
   def rebuild_image(_game_path, _image_path)
-    print("Rebuild image: #{_image_path}")
-
     begin
       FileUtils.mkdir_p(File.dirname(_image_path))
       FileUtils.remove_file(_image_path, true)
       system("\"#{GCR_FILE}\" \"#{_game_path}\" \"#{_image_path}\"")
-      _result = File.exist?(_image_path)
-    rescue
+      _result = File.size?(_image_path)
+    rescue StandardError
       _result = false
     end
 
+    _msg = sprintf('Rebuild image: %s', _image_path)
     if _result
-      print(" - done\n")
+      _msg += sprintf(' - %s', VOC.done)
+      ALX::LOG.info(_msg)
     else
-      print(" - failed\n")
+      _msg += sprintf(' - %s', VOC.failed)
+      ALX::LOG.error(_msg)
     end
   end
 
@@ -110,10 +111,8 @@ end # module ALX
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 if __FILE__ == $0
-  begin
+  ALX::Main.call do
     _ir = ALX::ImageRebuilder.new
     _ir.exec
-  rescue => _e
-    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
   end
 end

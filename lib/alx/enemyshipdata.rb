@@ -83,8 +83,7 @@ class EnemyShipData < StdEntryData
   # Reads all armament name entries from a binary file.
   # @param _filename [String] File name
   def load_arm_name_from_bin(_filename)
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
 
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@arm_name_file, _filename)
@@ -120,7 +119,7 @@ class EnemyShipData < StdEntryData
             _str  = _entry.find_member(VOC.arm_name_gb_str[_i] )
           end
           
-          puts(sprintf(VOC.read, _id, _f.pos))
+          LOG.info(sprintf(VOC.read, _id, _f.pos))
           _pos.value  = _f.pos
           unless is_eu?
             _str.value  = _f.read_str(0xff, 0x4)
@@ -132,7 +131,7 @@ class EnemyShipData < StdEntryData
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Reads all entries from binary files.
@@ -175,8 +174,7 @@ class EnemyShipData < StdEntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_name))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_name))
   
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
@@ -221,7 +219,7 @@ class EnemyShipData < StdEntryData
             next
           end
           
-          puts(sprintf(VOC.write, _id, _pos))
+          LOG.info(sprintf(VOC.write, _id, _pos))
           unless is_eu?
             _f.write_str(_str, _size, 0x4)
           else
@@ -231,7 +229,7 @@ class EnemyShipData < StdEntryData
       end
     end
   
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
     
   # Writes all entries to binary files.

@@ -33,11 +33,15 @@ SYS.configure do |_s|
 # Game paths
 #------------------------------------------------------------------------------
 
+  # Path to 'log' directory
+  _s.log_dir        = _s.expand('log')
   # Path to 'share' directory
   _s.share_dir      = _s.expand('share')
   # Path to 'thirdparty' directory
   _s.thirdparty_dir = _s.expand('thirdparty')
-
+  # Maximum number of log files per command
+  _s.num_log_files  = 3
+  
   # Path to 'bak' directory relative to game root
   _s.bak_dir  = 'bak'
   # Path to 'csv' directory relative to game root

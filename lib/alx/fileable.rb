@@ -40,7 +40,7 @@ module Fileable
   # @return [Boolean] +true+ if file exists, otherwise +false+.
   def has_file?(*_paths)
     _path = File.join(*_paths)
-    print(sprintf(VOC.check_file, File.expand_path(_path)))
+    _msg  = sprintf(VOC.check_file, File.expand_path(_path))
 
     _basename = nil
     _result   = File.exist?(_path) && !File.directory?(_path)
@@ -55,12 +55,14 @@ module Fileable
     end
     if _result
       if _basename
-        print(sprintf(" - %s (%s)\n", VOC.exists, _basename))
+        _msg += sprintf(' - %s (%s)', VOC.exists, _basename)
       else
-        print(sprintf(" - %s\n", VOC.exists))
+        _msg += sprintf(' - %s', VOC.exists)
       end
+      ALX::LOG.info(_msg)
     else
-      print(sprintf(" - %s\n", VOC.not_found))
+      _msg += sprintf(' - %s', VOC.not_found)
+      ALX::LOG.warn(_msg)
     end
     
     _result
@@ -71,7 +73,7 @@ module Fileable
   # @return [Boolean] +true+ if directory exists, otherwise +false+.
   def has_dir?(*_paths)
     _path = File.join(*_paths)
-    print(sprintf(VOC.check_dir, File.expand_path(_path)))
+    _msg  = sprintf(VOC.check_dir, File.expand_path(_path))
 
     _basename = nil
     _result   = Dir.exist?(_path) && File.directory?(_path)
@@ -86,12 +88,15 @@ module Fileable
     end
     if _result
       if _basename
-        print(sprintf(" - %s (%s)\n", VOC.exists, _basename))
+        _msg += sprintf(' - %s (%s)', VOC.exists, _basename)
+        ALX::LOG.info(_msg)
       else
-        print(sprintf(" - %s\n", VOC.exists))
+        _msg += sprintf(' - %s', VOC.exists)
+        ALX::LOG.info(_msg)
       end
     else
-      print(sprintf(" - %s\n", VOC.not_found))
+      _msg += sprintf(' - %s', VOC.not_found)
+      ALX::LOG.warn(_msg)
     end
     
     _result

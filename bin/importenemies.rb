@@ -64,11 +64,8 @@ end	# module ALX
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 if __FILE__ == $0 || Object.const_defined?('ALX::Importer')
-  begin
+  ALX::Main.call do
     _importer = ALX::EnemyImporter.new
     _importer.exec
-  rescue => _e
-    print(_e.class, "\n", _e.message, "\n", _e.backtrace.join("\n"), "\n")
-    exit(1)
   end
 end

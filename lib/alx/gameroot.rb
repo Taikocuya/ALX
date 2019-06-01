@@ -92,7 +92,6 @@ class GameRoot
   # @return [Boolean] Returns +true+ if everything is valid, otherwise +false+.
   def load(_dirname)
     clear
-    print("\n")
 
     _result   = true
     _result &&= init_dir(_dirname)
@@ -290,11 +289,13 @@ class GameRoot
     end
 
     if _result
-      print(sprintf(VOC.check_platform, @platform_id))
-      print(sprintf(" - %s (%s)\n", VOC.detected, @platform_name))
+      _msg  = sprintf(VOC.check_platform, @platform_id)
+      _msg += sprintf(' - %s (%s)', VOC.detected, @platform_name)
+      ALX::LOG.info(_msg)
     else
-      print(sprintf(VOC.check_platform, PLATFORMS.keys.sort.join(', ')))
-      print(sprintf(" - %s\n", VOC.not_matched))
+      _msg  = sprintf(VOC.check_platform, PLATFORMS.keys.sort.join(', '))
+      _msg += sprintf(' - %s', VOC.not_matched)
+      ALX::LOG.error(_msg)
     end
 
     _result
@@ -318,21 +319,25 @@ class GameRoot
     _result       = false
     refresh_sys_attr_resolver
 
-    print(sprintf(VOC.check_bnr, VOC.product_name))
+    _msg = sprintf(VOC.check_bnr, VOC.product_name)
     if @product_name =~ sys(:product_names)
-      _result = true
-      print(sprintf(" - %s (%s)\n", VOC.valid    , @product_name))
+      _result  = true
+      _msg    += sprintf(' - %s (%s)', VOC.valid    , @product_name)
+      ALX::LOG.info(_msg)
     else
-      print(sprintf(" - %s (%s)\n", VOC.incorrect, @product_name))
+      _msg    += sprintf(' - %s (%s)', VOC.incorrect, @product_name)
+      ALX::LOG.error(_msg)
     end
     
     if _result
-      print(sprintf(VOC.check_bnr, VOC.maker_name))
+      _msg = sprintf(VOC.check_bnr, VOC.maker_name)
       if @maker_name =~ sys(:maker_names)
-        _result = true
-        print(sprintf(" - %s (%s)\n", VOC.valid    , @maker_name))
+        _result  = true
+        _msg    += sprintf(' - %s (%s)', VOC.valid    , @maker_name)
+        ALX::LOG.info(_msg)
       else
-        print(sprintf(" - %s (%s)\n", VOC.incorrect, @maker_name))
+        _msg    += sprintf(' - %s (%s)', VOC.incorrect, @maker_name)
+        ALX::LOG.error(_msg)
       end
     end
     
@@ -361,56 +366,67 @@ class GameRoot
     _result      = false
     refresh_sys_attr_resolver
 
-    print(sprintf(VOC.check_hdr, VOC.product_id))
+    _msg = sprintf(VOC.check_hdr, VOC.product_id)
     if @product_id =~ sys(:product_ids)
-      _result = true
-      print(sprintf(" - %s (%s)\n", VOC.valid    , @product_id))
+      _result  = true
+      _msg    += sprintf(' - %s (%s)', VOC.valid    , @product_id)
+      ALX::LOG.info(_msg)
     else
-      print(sprintf(" - %s (%s)\n", VOC.incorrect, @product_id))
+      _msg    += sprintf(' - %s (%s)', VOC.incorrect, @product_id)
+      ALX::LOG.error(_msg)
     end
     
     if _result
-      print(sprintf(VOC.check_hdr, VOC.region_id))
+      _msg = sprintf(VOC.check_hdr, VOC.region_id)
       unless @region_name.empty?
-        _result = true
-        print(sprintf(" - %s (%s)\n", VOC.valid    , @region_id))
+        _result  = true
+        _msg    += sprintf(' - %s (%s)', VOC.valid    , @region_id)
+        ALX::LOG.info(_msg)
       else
-        print(sprintf(" - %s (%s)\n", VOC.incorrect, @region_id))
+        _msg    += sprintf(' - %s (%s)', VOC.incorrect, @region_id)
+        ALX::LOG.error(_msg)
       end
     end
     
     if _result
-      print(sprintf(VOC.check_hdr, VOC.region_name))
-      print(sprintf(" - %s (%s)\n", VOC.valid, @region_name))
+      _msg  = sprintf(VOC.check_hdr, VOC.region_name)
+      _msg += sprintf(' - %s (%s)', VOC.valid, @region_name)
+      ALX::LOG.info(_msg)
     end
 
     if _result
-      print(sprintf(VOC.check_hdr, VOC.country_id))
+      _msg = sprintf(VOC.check_hdr, VOC.country_id)
       if COUNTRIES.include?(@country_id)
-        _result = true
-        print(sprintf(" - %s (%s)\n", VOC.valid    , @country_id))
+        _result  = true
+        _msg    += sprintf(' - %s (%s)', VOC.valid    , @country_id)
+        ALX::LOG.info(_msg)
       else
-        print(sprintf(" - %s (%s)\n", VOC.incorrect, @country_id))
+        _msg    += sprintf(' - %s (%s)', VOC.incorrect, @country_id)
+        ALX::LOG.error(_msg)
       end
     end
 
     if _result
-      print(sprintf(VOC.check_hdr, VOC.maker_id))
+      _msg = sprintf(VOC.check_hdr, VOC.maker_id)
       if @maker_id =~ sys(:maker_ids)
-        _result = true
-        print(sprintf(" - %s (%s)\n", VOC.valid    , @maker_id))
+        _result  = true
+        _msg    += sprintf(' - %s (%s)', VOC.valid    , @maker_id)
+        ALX::LOG.info(_msg)
       else
-        print(sprintf(" - %s (%s)\n", VOC.incorrect, @maker_id))
+        _msg    += sprintf(' - %s (%s)', VOC.incorrect, @maker_id)
+        ALX::LOG.error(_msg)
       end
     end
 
     if _result
-      print(sprintf(VOC.check_hdr, VOC.product_name))
+      _msg = sprintf(VOC.check_hdr, VOC.product_name)
       if _hdr.product_name =~ sys(:product_names)
-        _result = true
-        print(sprintf(" - %s (%s)\n", VOC.valid    , _hdr.product_name))
+        _result  = true
+        _msg    += sprintf(' - %s (%s)', VOC.valid    , _hdr.product_name)
+        ALX::LOG.info(_msg)
       else
-        print(sprintf(" - %s (%s)\n", VOC.incorrect, _hdr.product_name))
+        _msg    += sprintf(' - %s (%s)', VOC.incorrect, _hdr.product_name)
+        ALX::LOG.error(_msg)
       end
     end
     
@@ -438,7 +454,6 @@ class GameRoot
   # @param _sym [Symbol] Method symbol
   # @return [Boolean] +true+ if SYS attribute is valid, otherwise +false+.
   def check_sys_attr(_sym)
-    print(sprintf(VOC.check_sys_attr, "SYS.#{_sym}"))
     _attr = SYS.send(_sym)
     _ids  = PLATFORMS.select do |_platform, _| 
       _attr.find(_platform) do |_key, _|
@@ -447,10 +462,13 @@ class GameRoot
     end
     _result = !_ids.empty?
     
+    _msg = sprintf(VOC.check_sys_attr, "SYS.#{_sym}")
     if _result
-      print(sprintf(" - %s (%s)\n", VOC.valid,     _ids.keys.join(', ')))
+      _msg += sprintf(' - %s (%s)', VOC.valid,     _ids.keys.join(', '))
+      ALX::LOG.info(_msg)
     else
-      print(sprintf(" - %s (%s)\n", VOC.incorrect, _ids.keys.join(', ')))
+      _msg += sprintf(' - %s (%s)', VOC.incorrect, _ids.keys.join(', '))
+      ALX::LOG.error(_msg)
     end
     
     _result

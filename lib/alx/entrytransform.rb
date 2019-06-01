@@ -24,6 +24,7 @@
 
 require_relative('executable.rb')
 require_relative('gameroot.rb')
+require_relative('main.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -52,8 +53,9 @@ class EntryTransform
   # @param _class [EntryData] Class which represents entry data.
   def initialize(_class)
     super()
-    @class = _class
-    @data  = []
+    @class   = _class
+    @data    = []
+    @command = 'alx.rb'
   end
   
   # Creates an entry data object.
@@ -90,7 +92,6 @@ class EntryTransform
   # Collects and validates several game subdirectories in +SYS.share_dir+ by 
   # default.
   def exec
-    print("\n")
     collect(SYS.share_dir)
   end
   
@@ -120,8 +121,9 @@ class EntryTransform
 # Public member variables
 #------------------------------------------------------------------------------
   
-  attr_reader :class
-  attr_reader :data
+  attr_reader   :class
+  attr_reader   :data
+  attr_accessor :command
 
 end # class EntryTransform
 

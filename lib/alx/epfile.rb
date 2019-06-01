@@ -119,8 +119,8 @@ class EpFile
   # @param _args [String,Symbol] Glob patterns or SYS attributes
   # @return [String] First matching path
   # @see ::Dir::glob
-  def glob(*_args, &block)
-    @root.glob(*_args, &block)
+  def glob(*_args, &_block)
+    @root.glob(*_args, &_block)
   end
 
 #------------------------------------------------------------------------------

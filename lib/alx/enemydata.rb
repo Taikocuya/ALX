@@ -269,8 +269,7 @@ class EnemyData < EntryData
   # Reads all BGM entries from a binary file.
   # @param _filename [String] File name
   def load_bgms_from_bin(_filename)
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@event_bgm_files, _filename)
@@ -287,12 +286,12 @@ class EnemyData < EntryData
         _event  = @events[_id]
         _bgm_id = _event.find_member(VOC.bgm_id)
 
-        puts(sprintf(VOC.read, _id - @event_bgm_id_range.begin, _f.pos))
+        LOG.info(sprintf(VOC.read, _id - @event_bgm_id_range.begin, _f.pos))
         _bgm_id.value  = _f.read_int('c')
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
   
   # Reads all entries from an ENP file.
@@ -392,8 +391,7 @@ class EnemyData < EntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
@@ -417,12 +415,12 @@ class EnemyData < EntryData
           next
         end
         
-        puts(sprintf(VOC.write, _id - @event_bgm_id_range.begin, _f.pos))
+        LOG.info(sprintf(VOC.write, _id - @event_bgm_id_range.begin, _f.pos))
         _f.write_int(_bgm_id, 'c')
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
   
   # Writes all entries to an ENP file.
@@ -512,19 +510,18 @@ class EnemyData < EntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
-        puts(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
+        LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _enemy = create_enemy
         _enemy.read_from_csv(_f)
         @enemies << _enemy
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Reads all enemy instructions from a CSV file.
@@ -538,19 +535,18 @@ class EnemyData < EntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
   
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
-        puts(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
+        LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _instr = create_instruction
         _instr.read_from_csv(_f)
         @instructions << _instr
       end
     end
   
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Reads all event entries from a CSV file.
@@ -564,19 +560,18 @@ class EnemyData < EntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
-        puts(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
+        LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _event = create_event
         _event.read_from_csv(_f)
         @events << _event
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Reads all encounter entries from a CSV file.
@@ -590,19 +585,18 @@ class EnemyData < EntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
-        puts(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
+        LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _encounter = create_encounter
         _encounter.read_from_csv(_f)
         @encounters << _encounter
       end
     end
 
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Reads all entries from CSV files (TPL files first, CSV files last).
@@ -632,20 +626,19 @@ class EnemyData < EntryData
 
     sort_enemies
 
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     _header = create_enemy.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @enemies.each do |_enemy|
-        puts(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
+        LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _enemy.write_to_csv(_f)
       end
     end
     
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes all enemy instruction entries to a CSV file.
@@ -657,20 +650,19 @@ class EnemyData < EntryData
   
     sort_instructions
   
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
   
     _header = create_instruction.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @instructions.each do |_instr|
-        puts(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
+        LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _instr.write_to_csv(_f)
       end
     end
     
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes all event entries to a CSV file.
@@ -680,20 +672,19 @@ class EnemyData < EntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     _header = create_event.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @events.each do |_event|
-        puts(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
+        LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _event.write_to_csv(_f)
       end
     end
     
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
       
   # Writes all encounter entries to a CSV file.
@@ -703,20 +694,19 @@ class EnemyData < EntryData
       return
     end
     
-    print("\n")
-    puts(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     _header = create_encounter.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @encounters.each do |_encounter|
-        puts(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
+        LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _encounter.write_to_csv(_f)
       end
     end
     
-    puts(sprintf(VOC.close, _filename))
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes all entries to CSV files.
