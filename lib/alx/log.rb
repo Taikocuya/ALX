@@ -59,8 +59,8 @@ module LOG
       _log_file  = nil
     end
     
-    @@std_out ||= Logger.new(STDOUT, progname: _prog_name)
-    @@log_out ||= nil
+    @@std_out = Logger.new(STDOUT, level: SYS.log_level, progname: _prog_name)
+    @@log_out = nil
 
     if _log_file
       FileUtils.mkdir_p(File.dirname(_log_file))
@@ -76,12 +76,14 @@ module LOG
           
           _glob  = File.join(SYS.log_dir, _basename + '*.log')
           _files = Dir.glob(_glob).sort.reverse
-          while _files.size >= SYS.num_log_files
+          while _files.size >= SYS.log_keep
             FileUtils.rm(_files.pop)
           end
         end
       end
-      @@log_out = Logger.new(_log_file, 'daily', progname: _prog_name)
+      @@log_out = Logger.new(
+        _log_file, 'daily', level: SYS.log_level, progname: _prog_name
+      )
     end
 
     @@initialized = true

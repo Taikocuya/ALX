@@ -39,8 +39,11 @@ SYS.configure do |_s|
   _s.share_dir      = _s.expand('share')
   # Path to 'thirdparty' directory
   _s.thirdparty_dir = _s.expand('thirdparty')
-  # Maximum number of log files per command
-  _s.num_log_files  = 3
+
+  # Number of log files per command
+  _s.log_keep  = 3
+  # Severity level for log messages
+  _s.log_level = 'info'
   
   # Path to 'bak' directory relative to game root
   _s.bak_dir  = 'bak'
