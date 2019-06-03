@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('cache.rb')
+require('fileutils')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -48,8 +48,8 @@ class EntryData
     @class    = _class
     @root     = _root
     @cache_id = sprintf(
-      '#<%s:%#x>', @class.name.split('::').last, _root.object_id
-    )
+      '%s-%s', File.basename(@root.dirname), self.class.name.split('::').last
+    ).downcase
   end
     
   # Creates an entry.
@@ -99,12 +99,6 @@ class EntryData
   attr_reader :root
   attr_reader :cache_id
 
-#==============================================================================
-#                                  PROTECTED
-#==============================================================================
-
-  protected
-  
   def platform_id
     @root.platform_id
   end

@@ -48,18 +48,22 @@ class StdEntryData < EntryData
   # @param _root  [GameRoot] Game root
   def initialize(_class, _root)
     super
-    @id_range  = 0x0...0x0
-    @data_file = nil
-    @name_file = nil
-    @dscr_file = nil
-    @msg_table = {}
-    @csv_file  = ''
-    @tpl_file  = ''
-    
-    @data = Cache[cache_id] || Hash.new do |_h, _k|
-      _h[_k] = create_entry(_k)
+    @@cache    ||= {}
+    @id_range    = 0x0...0x0
+    @data_file   = nil
+    @name_file   = nil
+    @dscr_file   = nil
+    @msg_table   = {}
+    @csv_file    = ''
+    @tpl_file    = ''
+
+    @data = @@cache[cache_id]
+    unless @data
+      @data = Hash.new do |_h, _k|
+        _h[_k] = create_entry(_k)
+      end
+      @@cache[cache_id] = @data
     end
-    Cache[cache_id] ||= @data
   end
 
   # Creates an entry.
@@ -400,6 +404,10 @@ class StdEntryData < EntryData
     
   # Writes all entries to binary files.
   def save_all_to_bin
+    if @data.empty?
+      return
+    end
+    
     _ranges = @data_file
     if _ranges
       unless _ranges.is_a?(Array)

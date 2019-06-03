@@ -77,7 +77,7 @@ class Entry
     end
     _header
   end
-  
+
   # Returns the first data member by given name, or +nil+ otherwise.
   # @param _name [String] Name of data member
   # @return [DataMember] Object of data member

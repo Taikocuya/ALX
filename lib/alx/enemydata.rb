@@ -65,10 +65,10 @@ class EnemyData < EntryData
     @event_bgm_files      = sys(:enemy_event_bgm_files)
     @enemy_csv_file       = sys(:enemy_csv_file)
     @enemy_tpl_file       = sys(:enemy_tpl_file)
-    @event_csv_file       = sys(:enemy_event_csv_file)
-    @event_tpl_file       = sys(:enemy_event_tpl_file)
     @instruction_csv_file = sys(:enemy_instruction_csv_file)
     @instruction_tpl_file = sys(:enemy_instruction_tpl_file)
+    @event_csv_file       = sys(:enemy_event_csv_file)
+    @event_tpl_file       = sys(:enemy_event_tpl_file)
     @encounter_csv_file   = sys(:enemy_encounter_csv_file)
     @encounter_tpl_file   = sys(:enemy_encounter_tpl_file)
     
@@ -94,26 +94,6 @@ class EnemyData < EntryData
   def create_entry
     nil
   end
-
-  # Creates an event.
-  # @param _id [Integer] Event ID
-  # @return [Entry] EnemyEvent object
-  def create_event(_id = -1)
-    _event         = EnemyEvent.new(root)
-    _event.id      = _id
-    _event.enemies = @enemies
-    _event
-  end
-
-  # Creates an encounter.
-  # @param _id [Integer] Encounter ID
-  # @return [Entry] EnemyEncounter object
-  def create_encounter(_id = -1)
-    _encounter         = EnemyEncounter.new(root)
-    _encounter.id      = _id
-    _encounter.enemies = @enemies
-    _encounter
-  end
   
   # Creates an enemy.
   # @param _id [Integer] Enemy ID
@@ -135,6 +115,26 @@ class EnemyData < EntryData
     _instr.magics       = @magics
     _instr.super_moves  = @super_moves
     _instr
+  end
+
+  # Creates an event.
+  # @param _id [Integer] Event ID
+  # @return [Entry] EnemyEvent object
+  def create_event(_id = -1)
+    _event         = EnemyEvent.new(root)
+    _event.id      = _id
+    _event.enemies = @enemies
+    _event
+  end
+
+  # Creates an encounter.
+  # @param _id [Integer] Encounter ID
+  # @return [Entry] EnemyEncounter object
+  def create_encounter(_id = -1)
+    _encounter         = EnemyEncounter.new(root)
+    _encounter.id      = _id
+    _encounter.enemies = @enemies
+    _encounter
   end
   
   # Reads all entries from an EVP file.
