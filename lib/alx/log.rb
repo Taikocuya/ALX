@@ -65,20 +65,17 @@ module LOG
     if _log_file
       FileUtils.mkdir_p(File.dirname(_log_file))
       if File.exist?(_log_file)
-        _mdate = File.mtime(_log_file)
-        _mdate = Date.new(_mdate.year, _mdate.month, _mdate.day)
-        if Date.today >= _mdate.next_day
-          _basename = File.basename(_log_file, '.*')
-          _rdate    = _mdate.strftime('-%Y-%m-%d')
-          _filename = _basename + _rdate + '.log'
-          _filename = File.join(File.dirname(_log_file), _filename)
-          FileUtils.mv(_log_file, _filename)
-          
-          _glob  = File.join(SYS.log_dir, _basename + '*.log')
-          _files = Dir.glob(_glob).sort.reverse
-          while _files.size >= SYS.log_keep
-            FileUtils.rm(_files.pop)
-          end
+        _mdate    = File.mtime(_log_file)
+        _basename = File.basename(_log_file, '.*')
+        _rdate    = _mdate.strftime('-%Y-%m-%dT%H-%M-%S')
+        _filename = _basename + _rdate + '.log'
+        _filename = File.join(File.dirname(_log_file), _filename)
+        FileUtils.mv(_log_file, _filename)
+        
+        _glob  = File.join(SYS.log_dir, _basename + '*.log')
+        _files = Dir.glob(_glob).sort.reverse
+        while _files.size > SYS.log_keep
+          FileUtils.rm(_files.pop)
         end
       end
       @@log_out = Logger.new(

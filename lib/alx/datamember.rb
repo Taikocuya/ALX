@@ -39,8 +39,8 @@ class DataMember
   # @param _name  [String]         Name
   # @param _value [Integer,String] Value
   def initialize(_name, _value)
-    @name  = _name.dup
-    @value = !_value.is_a?(Numeric) ? _value.dup : _value
+    self.name  = _name
+    self.value = _value
   end
 
   # Returns +true+ if data member is a dummy, otherwise +false+.
@@ -77,8 +77,16 @@ class DataMember
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :name
-  attr_accessor :value
+  attr_reader :name
+  attr_reader :value
+  
+  def name=(_name)
+    @name = _name.dup
+  end
+  
+  def value=(_value)
+    @value = _value.dup
+  end
   
 end # class DataMemberInteger
 

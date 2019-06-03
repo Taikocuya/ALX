@@ -61,7 +61,6 @@ class StrDmy < DataMember
   def read_from_csv_row(_row)
     super
     self.value = _row[name] || value
-    self.value = value.to_s
     self.value.force_encoding('UTF-8')
     self.value.gsub!('\n', @eol)
   end
@@ -70,7 +69,7 @@ class StrDmy < DataMember
   # @param _row [CSV::Row] CSV row
   def write_to_csv_row(_row)
     super
-    _value = value.to_s
+    _value = value
     _value.force_encoding('UTF-8')
     _value.gsub!(@eol, '\n')
     _row[name] = _value
@@ -81,6 +80,11 @@ class StrDmy < DataMember
 #------------------------------------------------------------------------------
 
   attr_accessor :eol
+
+  def value=(_value)
+    _value = _value.to_s
+    super(_value)
+  end
   
 end # class StrDmy
 

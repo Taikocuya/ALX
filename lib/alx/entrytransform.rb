@@ -121,7 +121,6 @@ class EntryTransform
 # Public member variables
 #------------------------------------------------------------------------------
   
-  attr_reader   :class
   attr_reader   :data
   attr_accessor :command
 

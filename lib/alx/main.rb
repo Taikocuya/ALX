@@ -67,7 +67,7 @@ module Main
     end
   end
   
-end # module ETC
+end # module Main
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
