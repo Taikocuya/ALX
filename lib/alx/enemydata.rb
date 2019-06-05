@@ -371,6 +371,11 @@ class EnemyData < EntryData
         load_data_from_dat(_p)
       end
     end
+    
+    save_snapshot(:enemies)
+    save_snapshot(:instructions)
+    save_snapshot(:events)
+    save_snapshot(:encounters)
   end
   
   # Writes all entries to an EVP file.
@@ -615,6 +620,11 @@ class EnemyData < EntryData
     
     load_encounters_from_csv(File.join(_share, @encounter_tpl_file), true)
     load_encounters_from_csv(File.join(_root , @encounter_csv_file)      )
+    
+    load_snapshot(:enemies)
+    load_snapshot(:instructions)
+    load_snapshot(:events)
+    load_snapshot(:encounters)
 	end
 	
   # Writes all enemy entries to a CSV file.

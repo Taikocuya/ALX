@@ -154,7 +154,7 @@ class EnemyShipData < StdEntryData
     @items.merge!(@usable_item_data.data)
     @items.merge!(@weapon_data.data)
     
-    super
+    super(false)
   
     _ranges = @arm_name_file
     if _ranges
@@ -165,6 +165,8 @@ class EnemyShipData < StdEntryData
         load_arm_name_from_bin(glob(_range.name))
       end
     end
+    
+    save_snapshot(:data)
   end
   
   # Writes all armament name entries to a binary file.

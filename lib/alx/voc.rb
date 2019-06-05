@@ -55,14 +55,15 @@ VOC.configure do |_v|
   _v.open_dscr      = 'descriptions'
   _v.open_name      = 'names'
   _v.open_read      = 'read'
+  _v.open_snapshot  = 'snapshot'
   _v.open_write     = 'write'
   _v.product_id     = 'Product ID'
   _v.product_name   = 'Product name'
-  _v.read           = 'Reading entry #%s @ %#x...'
+  _v.read           = 'Reading entry #%s @ 0x%x...'
   _v.region_id      = 'Region ID'
   _v.region_name    = 'Region name'
   _v.valid          = 'valid'
-  _v.write          = 'Writing entry #%s @ %#x...'
+  _v.write          = 'Writing entry #%s @ 0x%x...'
 
 #------------------------------------------------------------------------------
 # Common CSV headers

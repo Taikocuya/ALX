@@ -121,7 +121,7 @@ class CharacterMagicData < StdEntryData
 
   # Reads all entries from binary files.
   def load_all_from_bin
-    super
+    super(false)
   
     _ranges = @ship_dscr_file
     if _ranges
@@ -132,6 +132,8 @@ class CharacterMagicData < StdEntryData
         load_ship_dscr_from_bin(glob(_range.name))
       end
     end
+    
+    save_snapshot(:data)
   end
 
   # Writes all ship description entries to a binary file.

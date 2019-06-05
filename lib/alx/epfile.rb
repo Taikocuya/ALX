@@ -166,7 +166,6 @@ class EpFile
   # @param _f        [IO]      Binary I/O stream.
   # @param _id       [Integer] Enemy ID
   # @param _filename [String]  File name
-  # @return [Entry] Enemy object
   def load_enemy(_f, _id, _filename)
     _enemy = create_enemy(_id, _filename)
     _enemy.read_from_bin(_f)

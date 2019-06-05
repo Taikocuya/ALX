@@ -23,6 +23,7 @@
 #==============================================================================
 
 require('csv')
+require('digest')
 require_relative('binarystringio.rb')
 require_relative('fltvar.rb')
 require_relative('fltdmy.rb')
@@ -66,6 +67,12 @@ class Entry
     _strio.pos
   end
 
+  # Returns the MD5 checksum of the entry.
+  # @return [String] Checksum of entry
+  def checksum
+    Digest::MD5.hexdigest(Marshal.dump(@members))
+  end
+
   # Returns the CSV header of the entry.
   # @return [Array] CSV header of entry
   def header
@@ -77,7 +84,7 @@ class Entry
     end
     _header
   end
-
+  
   # Returns the first data member by given name, or +nil+ otherwise.
   # @param _name [String] Name of data member
   # @return [DataMember] Object of data member
@@ -192,8 +199,8 @@ class Entry
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_reader   :root
-  attr_accessor :members
+  attr_reader :root
+  attr_reader :members
 
   def id
     _member = find_member(VOC.id)

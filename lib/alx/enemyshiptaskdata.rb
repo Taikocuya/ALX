@@ -87,6 +87,8 @@ class EnemyShipTaskData < EntryData
         load_entries_from_bin(_p)
       end
     end
+    
+    save_snapshot(:data)
   end
 
   # Writes all entries to a binary file.
@@ -144,6 +146,7 @@ class EnemyShipTaskData < EntryData
   def load_all_from_csv
     load_entries_from_csv(File.join(SYS.share_dir, @tpl_file), true)
     load_entries_from_csv(File.join(root.dirname , @csv_file)      )
+    load_snapshot(:data)
   end
 
   # Writes all data entries to a CSV file.

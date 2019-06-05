@@ -50,6 +50,7 @@ class EntryData
     @cache_id = sprintf(
       '%s-%s', File.basename(@root.dirname), self.class.name.split('::').last
     ).downcase
+    @snapshot = {}
   end
     
   # Creates an entry.
@@ -90,6 +91,86 @@ class EntryData
   # @see ::Dir::glob
   def glob(*_args, &_block)
     @root.glob(*_args, &_block)
+  end
+  
+  # Unloads all snapshots.
+  def clear_snapshot
+    @snapshot.clear
+  end
+      
+  # Reads an instance variable to a MARSHAL file.
+  # @param _sym [Symbol] Instance variable symbol
+  def load_snapshot(_sym)
+    _sym  = _sym.to_sym
+    _attr = '@' + _sym.to_s
+    _obj  = instance_variable_get(_attr)
+    if !_obj && !instance_variable_defined?(_attr)
+      raise(ArgumentError, "#{_attr} is not an instance variable")
+    end
+    if @snapshot.include?(_sym)
+      raise(ArgumentError, "snapshot #{_sym.inspect} cannot be overwritten")
+    end
+
+    _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
+    _filename = sprintf(
+      '%s%s.marshal', self.class.name.split('::').last, _attr
+    ).downcase
+    _filename = File.join(_dirname, _filename)
+    unless File.exist?(_filename)
+      return
+    end
+    
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_snapshot))
+
+    File.open(_filename, 'rb') do |_f|
+      LOG.info(sprintf(VOC.read, 0, _f.pos))
+      @snapshot[_sym] = Marshal.load(_f)
+    end
+
+    LOG.info(sprintf(VOC.close, _filename))
+  end
+  
+  # Writes an instance variable to a MARSHAL file.
+  # @param _sym [Symbol] Instance variable symbol
+  def save_snapshot(_sym)
+    _sym  = _sym.to_sym
+    _attr = '@' + _sym.to_s
+    _obj  = instance_variable_get(_attr)
+    if !_obj && !instance_variable_defined?(_attr)
+      raise(ArgumentError, "#{_attr} is not an instance variable")
+    end
+    if @snapshot.include?(_sym)
+      raise(ArgumentError, "snapshot #{_sym.inspect} cannot be overwritten")
+    end
+
+    _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
+    _filename = sprintf(
+      '%s%s.marshal', self.class.name.split('::').last, _attr
+    ).downcase
+    _filename = File.join(_dirname, _filename)
+    
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_snapshot))
+    
+    case _obj
+    when Array
+      _obj = _obj.map do |_entry|
+        _entry.checksum
+      end
+    when Hash
+      _obj = _obj.map do |_id, _entry|
+        [_id, _entry.checksum]
+      end
+      _obj = Hash[_obj]
+    end
+    @snapshot[_sym] = _obj
+
+    FileUtils.mkdir_p(_dirname)
+    File.open(_filename, 'wb') do |_f|
+      LOG.info(sprintf(VOC.write, 0, _f.pos))
+      Marshal.dump(_obj, _f)
+    end
+    
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
 #------------------------------------------------------------------------------

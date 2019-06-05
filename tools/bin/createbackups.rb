@@ -102,7 +102,7 @@ class BackupCreator < EntryTransform
     _root_dir = Pathname.new(_src_file)
     _dst_file = File.expand_path(
       _root_dir.relative_path_from(_base_dir),
-      File.join(_root.dirname, SYS.bak_dir)
+      File.join(_root.dirname, SYS.archive_dir)
     )
 
     begin

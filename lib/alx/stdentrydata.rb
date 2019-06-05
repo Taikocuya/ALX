@@ -227,7 +227,8 @@ class StdEntryData < EntryData
   end
 
   # Reads all entries from binary files.
-  def load_all_from_bin
+  # @param _use_snapshot_saving [Boolean] Use default snapshot saving.
+  def load_all_from_bin(_use_snapshot_saving = true)
     unless @data.empty?
       return
     end
@@ -260,6 +261,10 @@ class StdEntryData < EntryData
       _ranges.each do |_range|
         load_dscr_from_bin(glob(_range.name))
       end
+    end
+
+    if _use_snapshot_saving
+      save_snapshot(:data)
     end
   end
     
@@ -469,9 +474,14 @@ class StdEntryData < EntryData
   end
 
   # Reads all entries from CSV files (CSV files first, TPL files last).
-  def load_all_from_csv
+  # @param _use_snapshot_loading [Boolean] Use default snapshot loading.
+  def load_all_from_csv(_use_snapshot_loading = true)
     load_entries_from_csv(File.join(root.dirname , @csv_file)      )
     load_entries_from_csv(File.join(SYS.share_dir, @tpl_file), true)
+    
+    if _use_snapshot_loading
+      load_snapshot(:data)
+    end
   end
 
   # Writes all data entries to a CSV file.

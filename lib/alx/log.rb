@@ -79,7 +79,7 @@ module LOG
         end
       end
       @@log_out = Logger.new(
-        _log_file, 'daily', level: SYS.log_level, progname: _prog_name
+        _log_file, level: SYS.log_level, progname: _prog_name
       )
     end
 
