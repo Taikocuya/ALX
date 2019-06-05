@@ -65,7 +65,7 @@ class CharacterMagicData < StdEntryData
       _f.pos = _range.begin
       
       @id_range.each do |_id|
-        if _range.exclusions.include?(_id)
+        unless id_valid?(_id, _range)
           next
         end
 
@@ -93,7 +93,7 @@ class CharacterMagicData < StdEntryData
           end
         end
 
-        if _f.eof? || _f.pos < _range.begin || _f.pos >= _range.end
+        unless pos_valid?(_f.pos, 1, _range)
           next
         end
         
@@ -150,10 +150,7 @@ class CharacterMagicData < StdEntryData
       _range = determine_range(@ship_dscr_file, _filename) 
   
       @data.each do |_id, _entry|
-        if _id < @id_range.begin && _id >= @id_range.end
-          next
-        end
-        if _range.exclusions.include?(_id)
+        unless id_valid?(_id, _range)
           next
         end
 
@@ -172,12 +169,9 @@ class CharacterMagicData < StdEntryData
             _size = 0
           end
         end
-        if _pos <= 0 || _size <= 0
-          next
-        end
         
         _f.pos = _pos
-        if _f.eof? || _f.pos < _range.begin || _f.pos + _size > _range.end
+        unless pos_valid?(_f.pos, _size, _range)
           next
         end
         

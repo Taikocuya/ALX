@@ -90,10 +90,7 @@ class EnemyShipData < StdEntryData
       _f.pos = _range.begin
       
       @id_range.each do |_id|
-        if _f.eof? || _f.pos < _range.begin || _f.pos >= _range.end
-          break 
-        end
-        if _range.exclusions.include?(_id)
+        if !id_valid?(_id, _range) || !pos_valid?(_f.pos, 1, _range)
           next
         end
 
@@ -212,12 +209,9 @@ class EnemyShipData < StdEntryData
             _pos  = 0
             _size = 0
           end
-          if _pos <= 0 || _size <= 0
-            next
-          end
           
           _f.pos = _pos
-          if _f.eof? || _f.pos < _range.begin || _f.pos + _size > _range.end
+          if !id_valid?(_id, _range) || !pos_valid?(_f.pos, _size, _range)
             next
           end
           

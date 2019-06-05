@@ -86,13 +86,10 @@ class StdEntryData < EntryData
       _f.pos = _range.begin
       
       @id_range.each do |_id|
-        if _range.exclusions.include?(_id)
+        if !id_valid?(_id, _range) || !pos_valid?(_f.pos, _size, _range)
           next
         end
-        if _f.eof? || _f.pos < _range.begin || _f.pos + _size > _range.end
-          break
-        end
-        
+
         LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
         _entry = @data[_id]
         _entry.read_from_bin(_f)
@@ -112,7 +109,7 @@ class StdEntryData < EntryData
       _f.pos = _range.begin
       
       @id_range.each do |_id|
-        if _range.exclusions.include?(_id)
+        unless id_valid?(_id, _range)
           next
         end
 
@@ -140,7 +137,7 @@ class StdEntryData < EntryData
           end
         end
 
-        if _f.eof? || _f.pos < _range.begin || _f.pos >= _range.end
+        unless pos_valid?(_f.pos, 1, _range)
           next
         end
         
@@ -172,7 +169,7 @@ class StdEntryData < EntryData
       _f.pos = _range.begin
       
       @id_range.each do |_id|
-        if _range.exclusions.include?(_id)
+        unless id_valid?(_id, _range)
           next
         end
         
@@ -200,7 +197,7 @@ class StdEntryData < EntryData
           end
         end
 
-        if _f.eof? || _f.pos < _range.begin || _f.pos >= _range.end
+        unless pos_valid?(_f.pos, 1, _range)
           next
         end
         
@@ -283,15 +280,8 @@ class StdEntryData < EntryData
       _size  = create_entry.size
       
       @data.each do |_id, _entry|
-        if _id < @id_range.begin && _id >= @id_range.end
-          next
-        end
-        if _range.exclusions.include?(_id)
-          next
-        end
-        
         _f.pos = _range.begin + (_id - @id_range.begin) * _size
-        if _f.eof? || _f.pos < _range.begin || _f.pos + _size > _range.end
+        if !id_valid?(_id, _range) || !pos_valid?(_f.pos, _size, _range)
           next
         end
         
@@ -317,10 +307,7 @@ class StdEntryData < EntryData
       _range = determine_range(@name_file, _filename)
       
       @data.each do |_id, _entry|
-        if _id < @id_range.begin && _id >= @id_range.end
-          next
-        end
-        if _range.exclusions.include?(_id)
+        unless id_valid?(_id, _range)
           next
         end
         
@@ -333,12 +320,9 @@ class StdEntryData < EntryData
           _pos  = 0
           _size = 0
         end
-        if _pos <= 0 || _size <= 0
-          next
-        end
         
         _f.pos = _pos
-        if _f.eof? || _f.pos < _range.begin || _f.pos + _size > _range.end
+        unless pos_valid?(_f.pos, _size, _range)
           next
         end
         
@@ -364,10 +348,7 @@ class StdEntryData < EntryData
       _range = determine_range(@dscr_file, _filename) 
 
       @data.each do |_id, _entry|
-        if _id < @id_range.begin && _id >= @id_range.end
-          next
-        end
-        if _range.exclusions.include?(_id)
+        unless id_valid?(_id, _range)
           next
         end
 
@@ -386,12 +367,9 @@ class StdEntryData < EntryData
             _size = 0
           end
         end
-        if _pos <= 0 || _size <= 0
-          next
-        end
         
         _f.pos = _pos
-        if _f.eof? || _f.pos < _range.begin || _f.pos + _size > _range.end
+        unless pos_valid?(_f.pos, _size, _range)
           next
         end
         

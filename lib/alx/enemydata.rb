@@ -276,10 +276,7 @@ class EnemyData < EntryData
       _f.pos = _range.begin
       
       @event_bgm_id_range.each do |_id|
-        if _range.exclusions.include?(_id)
-          next
-        end
-        if _f.eof? || _f.pos < _range.begin || _f.pos >= _range.end
+        if !id_valid?(_id, _range) || !pos_valid?(_f.pos, 1, _range)
           next
         end
         
@@ -416,7 +413,7 @@ class EnemyData < EntryData
         end
         
         _f.pos = _range.begin + _id
-        if _f.eof? || _f.pos < _range.begin || _f.pos + 0x1 > _range.end
+        unless pos_valid?(_f.pos, 1, _range)
           next
         end
         

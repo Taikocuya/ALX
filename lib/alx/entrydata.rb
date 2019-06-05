@@ -97,7 +97,7 @@ class EntryData
   def clear_snapshot
     @snapshot.clear
   end
-      
+
   # Reads an instance variable to a MARSHAL file.
   # @param _sym [Symbol] Instance variable symbol
   def load_snapshot(_sym)
@@ -179,6 +179,7 @@ class EntryData
 
   attr_reader :root
   attr_reader :cache_id
+  attr_reader :snapshot
 
   def platform_id
     @root.platform_id
@@ -219,11 +220,37 @@ class EntryData
   end
 
 #==============================================================================
-#                                   PRIVATE
+#                                  PROTECTED
 #==============================================================================
 
-  private
-  
+  protected
+
+  # Returns +true+ if entry ID is valid, otherwise +false+.
+  # @param _id    [Integer]   Entry ID
+  # @param _range [DataRange] Data range
+  # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
+  def id_valid?(_id, _range)
+    _valid = true
+    if @id_range
+      _valid &&= _id >= @id_range.begin
+      _valid &&= _id < @id_range.end
+    end
+    _valid &&= !_range.exclusions.include?(_id)
+    _valid
+  end
+
+  # Returns +true+ if I/O position is valid, otherwise +false+.
+  # @param _pos   [Integer]  I/O position
+  # @param _size  [Integer]  Entry size
+  # @param _range [DataRang] Data range
+  # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
+  def pos_valid?(_pos, _size, _range)
+    _valid   = true
+    _valid &&= _pos >= _range.begin
+    _valid &&= _pos + _size <= _range.end
+    _valid
+  end
+
   # Determines the data range with given filename.
   #
   # @param _range    [DataRange,Array] Data range
