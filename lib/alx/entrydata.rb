@@ -23,6 +23,9 @@
 #==============================================================================
 
 require('fileutils')
+require('ostruct')
+require_relative('executable.rb')
+require_relative('metadata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -36,6 +39,13 @@ module ALX
 class EntryData
 
 #==============================================================================
+#                                  CONSTANTS
+#==============================================================================
+
+  # File name format of SHT file
+  SHT_FILE = '%s@%s.sht'
+  
+#==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
@@ -45,12 +55,24 @@ class EntryData
   # @param _class [Entry]    Entry object
   # @param _root  [GameRoot] Game root
   def initialize(_class, _root)
-    @class    = _class
-    @root     = _root
-    @cache_id = sprintf(
+    @class     = _class
+    @root      = _root
+    @cache_id  = sprintf(
       '%s-%s', File.basename(@root.dirname), self.class.name.split('::').last
     ).downcase
-    @snapshot = {}
+    clear_meta
+    clear_snapshots
+  end
+    
+  # Clears meta data.
+  def clear_meta
+    @meta = MetaData.new(@cache_id)
+  end
+    
+  # Unloads all snapshots.
+  def clear_snapshots
+    @snapshots ||= {}
+    @snapshots.clear
   end
     
   # Creates an entry.
@@ -93,84 +115,70 @@ class EntryData
     @root.glob(*_args, &_block)
   end
   
-  # Unloads all snapshots.
-  def clear_snapshot
-    @snapshot.clear
-  end
-
-  # Reads an instance variable to a MARSHAL file.
-  # @param _sym [Symbol] Instance variable symbol
-  def load_snapshot(_sym)
-    _sym  = _sym.to_sym
-    _attr = '@' + _sym.to_s
-    _obj  = instance_variable_get(_attr)
-    if !_obj && !instance_variable_defined?(_attr)
-      raise(ArgumentError, "#{_attr} is not an instance variable")
-    end
-    if @snapshot.include?(_sym)
-      raise(ArgumentError, "snapshot #{_sym.inspect} cannot be overwritten")
-    end
-
+  # Reads an object from a SHT file and returns it.
+  # @param _sym [Symbol] Object symbol
+  # @return [Object] Object instance
+  def load_data_from_sht(_sym)
+    _sym      = _sym.to_sym
+    _class    = self.class.name.split('::').last
     _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
-    _filename = sprintf(
-      '%s%s.marshal', self.class.name.split('::').last, _attr
-    ).downcase
+    _filename = sprintf(SHT_FILE, _class, _sym).downcase
     _filename = File.join(_dirname, _filename)
+    _obj      = nil
+    
     unless File.exist?(_filename)
-      return
+      return nil
     end
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_snapshot))
-
     File.open(_filename, 'rb') do |_f|
       LOG.info(sprintf(VOC.read, 0, _f.pos))
-      @snapshot[_sym] = Marshal.load(_f)
+      _obj = Marshal.load(_f)
     end
-
     LOG.info(sprintf(VOC.close, _filename))
+    
+    @snapshots[_sym] = _obj
   end
-  
-  # Writes an instance variable to a MARSHAL file.
-  # @param _sym [Symbol] Instance variable symbol
-  def save_snapshot(_sym)
-    _sym  = _sym.to_sym
-    _attr = '@' + _sym.to_s
-    _obj  = instance_variable_get(_attr)
-    if !_obj && !instance_variable_defined?(_attr)
-      raise(ArgumentError, "#{_attr} is not an instance variable")
-    end
-    if @snapshot.include?(_sym)
-      raise(ArgumentError, "snapshot #{_sym.inspect} cannot be overwritten")
-    end
 
+  # Reads all snaphots (instance variables) from SHT files.
+  def load_all_from_sht
+    @meta = load_data_from_sht(:meta) || clear_meta
+    if @meta.valid? || @meta.cache_id != @cache_id
+      _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
+      _filename = sprintf(
+        SHT_FILE, self.class.name.split('::').last, '*'
+      ).downcase
+
+      FileUtils.rm(Dir.glob(File.join(_dirname, _filename)))
+    end
+  end
+
+  # Writes an object to a SHT file and returns it.
+  # @param _sym [Symbol] Object symbol
+  # @param _obj [Object] Object instance
+  # @return [Object] Object instance
+  def save_data_to_sht(_sym, _obj)
+    _sym      = _sym.to_sym
+    _class    = self.class.name.split('::').last
     _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
-    _filename = sprintf(
-      '%s%s.marshal', self.class.name.split('::').last, _attr
-    ).downcase
+    _filename = sprintf(SHT_FILE, _class, _sym).downcase
     _filename = File.join(_dirname, _filename)
-    
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_snapshot))
-    
-    case _obj
-    when Array
-      _obj = _obj.map do |_entry|
-        _entry.checksum
-      end
-    when Hash
-      _obj = _obj.map do |_id, _entry|
-        [_id, _entry.checksum]
-      end
-      _obj = Hash[_obj]
-    end
-    @snapshot[_sym] = _obj
 
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_snapshot))
     FileUtils.mkdir_p(_dirname)
     File.open(_filename, 'wb') do |_f|
       LOG.info(sprintf(VOC.write, 0, _f.pos))
       Marshal.dump(_obj, _f)
     end
-    
     LOG.info(sprintf(VOC.close, _filename))
+
+    @snapshots[_sym] = _obj
+  end
+
+  # Writes all snaphots (instance variables) to SHT files.
+  def save_all_to_sht
+    clear_meta
+    save_data_to_sht(:meta, @meta)
   end
 
 #------------------------------------------------------------------------------
@@ -179,7 +187,8 @@ class EntryData
 
   attr_reader :root
   attr_reader :cache_id
-  attr_reader :snapshot
+  attr_reader :meta
+  attr_reader :snapshots
 
   def platform_id
     @root.platform_id
@@ -226,16 +235,15 @@ class EntryData
   protected
 
   # Returns +true+ if entry ID is valid, otherwise +false+.
-  # @param _id    [Integer]   Entry ID
-  # @param _range [DataRange] Data range
+  # @param _id         [Integer]   Entry ID
+  # @param _id_range   [Range]     ID range
+  # @param _data_range [DataRange] Data range
   # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
-  def id_valid?(_id, _range)
-    _valid = true
-    if @id_range
-      _valid &&= _id >= @id_range.begin
-      _valid &&= _id < @id_range.end
-    end
-    _valid &&= !_range.exclusions.include?(_id)
+  def id_valid?(_id, _id_range, _data_range)
+    _valid   = true
+    _valid &&= (_id >= _id_range.begin)
+    _valid &&= (_id < _id_range.end)
+    _valid &&= !_data_range.exclusions.include?(_id)
     _valid
   end
 
@@ -246,8 +254,8 @@ class EntryData
   # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
   def pos_valid?(_pos, _size, _range)
     _valid   = true
-    _valid &&= _pos >= _range.begin
-    _valid &&= _pos + _size <= _range.end
+    _valid &&= (_pos >= _range.begin)
+    _valid &&= (_pos + _size <= _range.end)
     _valid
   end
 

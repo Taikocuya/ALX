@@ -201,6 +201,10 @@ class EnemyInstruction < Entry
     _order
   end
 
+  def key
+    sprintf('%d-%s', enemy_id, @files.join(';'))
+  end
+
 end	# class EnemyInstruction
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

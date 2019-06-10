@@ -47,7 +47,7 @@ SYS.configure do |_s|
   # Severity level for log messages
   _s.log_level = 'info'
   
-  # Path to 'backup' directory relative to game root
+  # Path to 'archive' directory relative to game root
   _s.archive_dir  = 'archive'
   # Path to 'database' directory relative to game root
   _s.data_dir     = 'database'

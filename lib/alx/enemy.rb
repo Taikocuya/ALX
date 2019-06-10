@@ -45,8 +45,8 @@ class Enemy < Entry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    @files        = []
-    @items        = {}
+    @files = []
+    @items = {}
     
     members << StrDmy.new(VOC.filter                , ''      )
     members << StrVar.new(VOC.name_str['JP']        , '',   21)
@@ -175,6 +175,10 @@ class Enemy < Entry
     end
     
     _order
+  end
+  
+  def key
+    sprintf('%d-%s', id, @files.join(';'))
   end
 
 end	# class Enemy

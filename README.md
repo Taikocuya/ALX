@@ -51,20 +51,20 @@ Installation
 Put the files to some directory where you want it. Pre-exported CSV files with 
 complete game data can already be found in the subdirectories:
 
-| Path                     | Region  | Country |
-|:------------------------:|:-------:|:-------:|
-| `share/gc-eu-retail/csv` | PAL-E   | EU      |
-| `share/gc-jp-retail/csv` | NTSC-J  | JP      |
-| `share/gc-us-retail/csv` | NTSC-U  | US      |
+| Path                          | Region  | Country |
+|:-----------------------------:|:-------:|:-------:|
+| `share/gc-eu-retail/database` | PAL-E   | EU      |
+| `share/gc-jp-retail/database` | NTSC-J  | JP      |
+| `share/gc-us-retail/database` | NTSC-U  | US      |
 
 The scripts require at least one extracted image of Skies of Arcadia Legends, 
 or rather, Eternal Arcadia Legends. The directory structure should look like 
 this:
 
-* `share/*/csv` (replace the asterisk with any name you choose, i.e. 
-  `share/game/csv` or similar) for CSV files
-* `share/*/root` (replace the asterisk with any name you choose, i.e. 
-  `share/game/root` or similar) for game data
+* `share/*/database` (replace the asterisk with any name you choose) for CSV 
+  files
+* `share/*/database` (replace the asterisk with any name you choose) for game 
+  data
 
 To obtain the game files, you need a corresponding image (ISO or GCM) and 
 [GCRebuilder](http://www.romhacking.net/utilities/619/). Please do not ask for 

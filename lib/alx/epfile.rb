@@ -56,6 +56,9 @@ class EpFile
   # @param _root [GameRoot] Game root
   def initialize(_root)
     @root         = _root
+    @snapshots    = {}
+    @enemy_cache  = {}
+    @instr_cache  = {}
     @enemies      = []
     @instructions = []
     @items        = {}
@@ -128,6 +131,7 @@ class EpFile
 #------------------------------------------------------------------------------
 
   attr_accessor :root
+  attr_accessor :snapshots
   attr_accessor :enemies
   attr_accessor :instructions
   attr_accessor :items
@@ -140,28 +144,89 @@ class EpFile
 
   protected
 
+  # Returns +true+ if the enemy object and instructions match the snapshot, 
+  # otherwise +false+.
+  # @param _id       [Integer] Enemy ID
+  # @param _filename [String]  File name
+  # @return [Boolean] +true+ if enemy object and instructions match the 
+  #                   snapshot, otherwise +false+.
+  def match_enemy_snapshot(_id, _filename)
+    # Enemies
+    _result   = false
+    _snapshot = snapshots[:enemies]
+    if _snapshot
+      _enemy = find_enemy(_id, _filename)
+      if _enemy
+        _result = (_enemy.checksum == _snapshot[_enemy.key])
+      end
+    end
+    unless _result
+      return false
+    end
+
+    # Instructions
+    _result   = false
+    _snapshot = snapshots[:instructions]
+    if _snapshot
+      _instructions = find_instructions(_id, _filename)
+      if _instructions
+        _base = _instructions.first
+        _dump = ''
+        _instructions.each do |_task|
+          _dump << _task.dump
+        end
+        _result = (Digest::MD5.hexdigest(_dump) == _snapshot[_base.key])
+      end
+    end
+
+    _result
+  end
+
   # Returns an enemy by ID and filename, or +nil+ otherwise.
   # @param _id       [Integer] Enemy ID
   # @param _filename [String]  File name
   # @return [Enemy] Enemy
   def find_enemy(_id, _filename)
+    _key   = sprintf('%d-%s', _id, _filename)
+    _enemy = @enemy_cache[_key]
+    if _enemy
+      return _enemy
+    end
+    
     _enemies = @enemies.select { |_enemy| _enemy.id == _id }
-      
-    _enemies.each do |_enemy|
-      if _enemy.files.include?(File.basename(_filename))
-        return _enemy
-      end
+    _enemy ||= _enemies.find do |_entry|
+      _entry.files.include?(File.basename(_filename))
+    end
+    _enemy ||= _enemies.find do |_entry|
+      _entry.files.include?('*')
+    end
+    
+    @enemy_cache[_key] = _enemy
+  end
+
+  # Returns an enemy instructions by ID and filename, or +nil+ otherwise.
+  # @param _id       [Integer] Enemy ID
+  # @param _filename [String]  File name
+  # @return [Array] Enemy instructions
+  def find_instructions(_id, _filename)
+    _key   = sprintf('%d-%s', _id, _filename)
+    _instr = @instr_cache[_key]
+    if _instr
+      return _instr
     end
 
-    _enemies.each do |_enemy|
-      if _enemy.files.include?('*')
-        return _enemy
+    _instructions = @instructions.find_all do |_instr|
+      _instr.enemy_id == _id && _instr.files.include?(File.basename(_filename))
+    end
+    if _instructions.empty?
+      _instructions = @instructions.find_all do |_instr|
+        _instr.enemy_id == _id && _instr.files.include?('*')
       end
     end
     
-    nil
+    @instr_cache[_key] = _instructions
   end
-
+  
   # Loads an enemy and its instructions from a binary I/O stream.
   # @param _f        [IO]      Binary I/O stream.
   # @param _id       [Integer] Enemy ID
@@ -193,16 +258,8 @@ class EpFile
     _id = _enemy.id
     _enemy.write_to_bin(_f)
     
-    _instructions = @instructions.find_all do |_instr|
-      _instr.enemy_id == _id && _instr.files.include?(File.basename(_filename))
-    end
-    if _instructions.empty?
-      _instructions = @instructions.find_all do |_instr|
-        _instr.enemy_id == _id && _instr.files.include?('*')
-      end
-    end
-    
-    _size = _instructions.size
+    _instructions = find_instructions(_id, _filename)
+    _size         = _instructions.size
     if _size == 0
       raise(IOError, "instructions for enemy ##{_id} not found")
     end

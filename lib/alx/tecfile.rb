@@ -53,6 +53,7 @@ class TecFile
   # @param _root [GameRoot] Game root
   def initialize(_root)
     @root        = _root
+    @snapshots   = {}
     @tasks       = []
     @enemy_ships = {}
     @magics      = {}
@@ -104,13 +105,26 @@ class TecFile
   # Writes a TEC file.
   # @param _filename [String] File name
   def save(_filename)
+    _basename = File.basename(_filename)
+    _snapshot = @snapshots[:data]
+
+    _dump  = ''
+    _tasks = @tasks.select do |_task|
+      _task.file == _basename
+    end
+    _tasks.each do |_task|
+      _dump << _task.dump
+    end
+    
+    _checksum = Digest::MD5.hexdigest(_dump)
+    if _snapshot && _checksum != _snapshot[_basename]
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+      return
+    end
+
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     AklzFile.open(_filename, 'wb') do |_f|
-      _tasks = @tasks.select do |_task|
-        _task.file == File.basename(_filename)
-      end
-
       (0..._tasks.size).each do |_id|
         LOG.info(sprintf(VOC.write, _id, _f.pos))
         _task = _tasks[_id]
@@ -120,7 +134,7 @@ class TecFile
       _f.write_int(EOF_MARKER, 's>')
       _f.write_int(EOF_MARKER, 's>')
     end
-
+    
     LOG.info(sprintf(VOC.close, _filename))
   end
   
@@ -129,6 +143,7 @@ class TecFile
 #------------------------------------------------------------------------------
 
   attr_accessor :root
+  attr_accessor :snapshots
   attr_accessor :tasks
   attr_accessor :enemy_ships
   attr_accessor :magics

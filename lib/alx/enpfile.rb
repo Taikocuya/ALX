@@ -176,6 +176,7 @@ class EnpFile < EpFile
   # Writes an ENP file.
   # @param _filename [String] File name
   def save(_filename)
+    # Segment initialization
     _segments = {}
     @encounters.each do |_encounter|
       _segname = _encounter.file
@@ -199,7 +200,43 @@ class EnpFile < EpFile
     if _segments.empty?
       return
     end
-    
+
+    # Preselection and validation
+    _req_enemies    = Hash.new { |_h, _k| _h[_k] = [] }
+    _req_encounters = []
+    _snapshot       = snapshots[:encounters] || []
+    _changed        = false
+
+    _segments.each do |_segname, _seg|
+      _encounters = @encounters.select do |_encounter|
+        _encounter.file == File.basename(_segname)
+      end
+      _req_encounters += _encounters
+      
+      _encounters.each do |_encounter|
+        _changed ||= (_encounter.checksum != _snapshot[_encounter.key])
+        (0...8).each do |_i|
+          _enemy_id = _encounter.find_member(VOC.enemy_id[_i]).value
+          if _enemy_id != 255
+            _enemy = find_enemy(_enemy_id, _segname)
+            if _enemy
+              _seg_enemies = _req_enemies[_segname]
+              unless _seg_enemies.include?(_enemy)
+                _changed ||= !match_enemy_snapshot(_enemy_id, _filename)
+                _seg_enemies << _enemy
+              end
+            else
+              raise(IOError, "enemy ##{_enemy_id} not found")
+            end
+          end
+        end
+      end
+    end
+    if !@encounters.empty? && !_changed
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+      return
+    end
+
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     AklzFile.open(_filename, 'wb') do |_f|
@@ -210,10 +247,9 @@ class EnpFile < EpFile
 
       _segments.each do |_segname, _seg|
         # Encounters
-        _enemies     = []
         _beg         = _f.pos
         _f.pos      += NUM_ENEMIES * 0x8
-        _encounters  = @encounters.select do |_encounter|
+        _encounters  = _req_encounters.select do |_encounter|
           _encounter.file == File.basename(_segname)
         end
         if _encounters.size > NUM_ENCOUNTERS
@@ -223,24 +259,11 @@ class EnpFile < EpFile
           LOG.info(sprintf(VOC.write, _id, _f.pos))
           _encounter = _encounters[_id]
           _encounter.write_to_bin(_f)
-
-          (0...8).each do |_i|
-            _id = _encounter.find_member(VOC.enemy_id[_i]).value
-            if _id != 255
-              _enemy = find_enemy(_id, _segname)
-              if _enemy
-                unless _enemies.include?(_enemy)
-                  _enemies << _enemy
-                end
-              else
-                raise(IOError, "enemy ##{_id} not found")
-              end
-            end
-          end
         end
 
         # Enemies
-        _nodes = []
+        _enemies = _req_enemies[_segname]
+        _nodes   = []
         if _enemies.size > NUM_ENEMIES
           raise(IOError, "enemy quota of #{NUM_ENEMIES} exceeded")
         end

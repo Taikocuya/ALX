@@ -59,18 +59,24 @@ class Entry
     @unknown_id = -1
   end
 
-  # Returns the size of the entry.
-  # @return [Integer] Size of entry
-  def size
+  # Returns a memory dump of the entry.
+  # @return [String] Memory dump
+  def dump
     _strio = BinaryStringIO.new('', 'wb')
     write_to_bin(_strio)
-    _strio.pos
+    _strio.string
+  end
+  
+  # Returns the memory size of the entry.
+  # @return [Integer] Size of entry
+  def size
+    dump.size
   end
 
   # Returns the MD5 checksum of the entry.
   # @return [String] Checksum of entry
   def checksum
-    Digest::MD5.hexdigest(Marshal.dump(@members))
+    Digest::MD5.hexdigest(dump)
   end
 
   # Returns the CSV header of the entry.
@@ -112,7 +118,7 @@ class Entry
     if _result
       _result &&= @members.all? do |_m|
         _other = _entry.find_member(_m.name)
-        if _other && (_m.is_a?(FltVar) || _m.is_a?(IntVar) || _m.is_a?(StrVar))
+        if _other && _m.is_a?(DataMember) && !_m.dummy?
           _m.value == _other.value
         else
           true

@@ -137,10 +137,56 @@ class EnemyData < EntryData
     _encounter
   end
   
+  # Reads all snaphots (instance variables) from SHT files.
+  def load_all_from_sht
+    super
+    load_data_from_sht(:enemies     )
+    load_data_from_sht(:instructions)
+    load_data_from_sht(:events      )
+    load_data_from_sht(:encounters  )
+  end
+  
+  # Writes all snaphots (instance variables) to SHT files.
+  def save_all_to_sht
+    super
+
+    # Enemies
+    _enemies = {}
+    @enemies.each do |_enemy|
+      _enemies[_enemy.key] = _enemy.checksum
+    end
+    save_data_to_sht(:enemies, _enemies)
+
+    # Instructions
+    _instructions = @instructions.group_by do |_instr|
+      _instr.key
+    end
+    _instructions.transform_values! do |_group|
+      _dump = ''
+      _group.each do |_instruction|
+        _dump << _instruction.dump
+      end
+      Digest::MD5.hexdigest(_dump)
+    end
+    save_data_to_sht(:instructions, _instructions)
+
+    # Events
+    save_data_to_sht(:events, @events.map(&:checksum))
+
+    # Encounters
+    _encounters = {}
+    @encounters.each do |_encounter|
+      _encounters[_encounter.key] = _encounter.checksum
+    end
+    save_data_to_sht(:encounters, _encounters)
+  end
+    
   # Reads all entries from an EVP file.
   # @param _filename [String] File name
   def load_data_from_evp(_filename)
+    meta.check_mtime(_filename)
     _file              = EvpFile.new(root)
+    _file.snapshots    = snapshots
     _file.items        = @items
     _file.magics       = @enemy_magic_data.data
     _file.super_moves  = @enemy_super_move_data.data
@@ -166,11 +212,12 @@ class EnemyData < EntryData
 
   # Concatenates enemy instructions and removes its duplicates.
   # @param _instructions [Array]   EnemyInstructions objects
-  # @param _stack_level  [Integer] Current stack level of method for internal use.
+  # @param _stack_level  [Integer] Current stack level of method for internal 
+  #                                use.
   def concat_instructions(_instructions, _stack_level = 1)
     # ENP files with segments (e.g. 'a099a_ep.enp') have duplicate enemy data 
-    # under certain circumstances. In order to remove the duplicates correctly, 
-    # this method is recursively called per single segment.
+    # under certain circumstances. In order to remove the duplicates 
+    # correctly, this method is recursively called per single segment.
     if _stack_level == 1
       _group_by_files = _instructions.group_by do |_instr|
         _instr.files.join(';').to_s
@@ -271,17 +318,24 @@ class EnemyData < EntryData
   def load_bgms_from_bin(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
+    meta.check_mtime(_filename)
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range = determine_range(@event_bgm_files, _filename)
-      _f.pos = _range.begin
+      _range    = determine_range(@event_bgm_files, _filename)
+      _snapshot = snapshots[:events]
       
       @event_bgm_id_range.each do |_id|
-        if !id_valid?(_id, _range) || !pos_valid?(_f.pos, 1, _range)
+        _f.pos  = _range.begin + _id
+        if !id_valid?(_id, @event_bgm_id_range, _range) || 
+           !pos_valid?(_f.pos, 1, _range)
           next
         end
         
         _event  = @events[_id]
         _bgm_id = _event.find_member(VOC.bgm_id)
+        if _snapshot && _event.checksum == _snapshot[_id]
+          LOG.info(sprintf(VOC.dup, _id - @event_bgm_id_range.begin, _f.pos))
+          next
+        end
 
         LOG.info(sprintf(VOC.read, _id - @event_bgm_id_range.begin, _f.pos))
         _bgm_id.value  = _f.read_int('c')
@@ -294,7 +348,9 @@ class EnemyData < EntryData
   # Reads all entries from an ENP file.
   # @param _filename [String] File name
   def load_data_from_enp(_filename)
+    meta.check_mtime(_filename)
     _file              = EnpFile.new(root)
+    _file.snapshots    = snapshots
     _file.items        = @items
     _file.magics       = @enemy_magic_data.data
     _file.super_moves  = @enemy_super_move_data.data
@@ -307,7 +363,9 @@ class EnemyData < EntryData
   # Reads all entries from a DAT file.
   # @param _filename [String] File name
   def load_data_from_dat(_filename)
+    meta.check_mtime(_filename)
     _file              = DatFile.new(root)
+    _file.snapshots    = snapshots
     _file.items        = @items
     _file.magics       = @enemy_magic_data.data
     _file.super_moves  = @enemy_super_move_data.data
@@ -368,18 +426,19 @@ class EnemyData < EntryData
         load_data_from_dat(_p)
       end
     end
-    
-    save_snapshot(:enemies)
-    save_snapshot(:instructions)
-    save_snapshot(:events)
-    save_snapshot(:encounters)
   end
   
   # Writes all entries to an EVP file.
   # @param _filename [String] File name
   def save_data_to_evp(_filename)
+    unless meta.updated?
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+      return
+    end
+    
     FileUtils.mkdir_p(File.dirname(_filename))
     _file              = EvpFile.new(root)
+    _file.snapshots    = snapshots
     _file.enemies      = @enemies
     _file.instructions = @instructions
     _file.events       = @events
@@ -392,18 +451,26 @@ class EnemyData < EntryData
     if @events.empty?
       return
     end
+    unless meta.updated?
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+      return
+    end
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@event_bgm_files, _filename) 
+      _range    = determine_range(@event_bgm_files, _filename)
+      _snapshot = snapshots[:events]
 
       @events.each_with_index do |_entry, _id|
-        if _id < @event_bgm_id_range.begin && _id >= @event_bgm_id_range.end
+        _f.pos = _range.begin + _id
+        if !id_valid?(_id, @event_bgm_id_range, _range) || 
+           !pos_valid?(_f.pos, 1, _range)
           next
         end
-        if _range.exclusions.include?(_id)
+        if _snapshot && _entry.checksum == _snapshot[_id]
+          LOG.info(sprintf(VOC.dup, _id - @event_bgm_id_range.begin, _f.pos))
           next
         end
         
@@ -411,12 +478,7 @@ class EnemyData < EntryData
         if _bgm_id <= 0
           next
         end
-        
-        _f.pos = _range.begin + _id
-        unless pos_valid?(_f.pos, 1, _range)
-          next
-        end
-        
+
         LOG.info(sprintf(VOC.write, _id - @event_bgm_id_range.begin, _f.pos))
         _f.write_int(_bgm_id, 'c')
       end
@@ -428,8 +490,14 @@ class EnemyData < EntryData
   # Writes all entries to an ENP file.
   # @param _filename [String] File name
   def save_data_to_enp(_filename)
+    unless meta.updated?
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+      return
+    end
+    
     FileUtils.mkdir_p(File.dirname(_filename))
     _file              = EnpFile.new(root)
+    _file.snapshots    = snapshots
     _file.enemies      = @enemies
     _file.instructions = @instructions
     _file.encounters   = @encounters
@@ -439,8 +507,14 @@ class EnemyData < EntryData
   # Writes all entries to a DAT file.
   # @param _filename [String] File name
   def save_data_to_dat(_filename)
+    unless meta.updated?
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+      return
+    end
+    
     FileUtils.mkdir_p(File.dirname(_filename))
     _file              = DatFile.new(root)
+    _file.snapshots    = snapshots
     _file.enemies      = @enemies
     _file.instructions = @instructions
     _file.save(_filename)
@@ -514,6 +588,7 @@ class EnemyData < EntryData
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
+    meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
@@ -538,7 +613,8 @@ class EnemyData < EntryData
     end
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
-  
+
+    meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
@@ -564,6 +640,7 @@ class EnemyData < EntryData
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
+    meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
@@ -589,6 +666,7 @@ class EnemyData < EntryData
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
+    meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
@@ -617,17 +695,16 @@ class EnemyData < EntryData
     
     load_encounters_from_csv(File.join(_share, @encounter_tpl_file), true)
     load_encounters_from_csv(File.join(_root , @encounter_csv_file)      )
-    
-    load_snapshot(:enemies)
-    load_snapshot(:instructions)
-    load_snapshot(:events)
-    load_snapshot(:encounters)
 	end
 	
   # Writes all enemy entries to a CSV file.
   # @param _filename [String] File name
   def save_enemies_to_csv(_filename)
     if @enemies.empty?
+      return
+    end
+    if File.exist?(_filename) && !meta.updated?
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
       return
     end
 
@@ -654,6 +731,10 @@ class EnemyData < EntryData
     if @instructions.empty?
       return
     end
+    if File.exist?(_filename) && !meta.updated?
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+      return
+    end
   
     sort_instructions
   
@@ -678,6 +759,10 @@ class EnemyData < EntryData
     if @events.empty?
       return
     end
+    if File.exist?(_filename) && !meta.updated?
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+      return
+    end
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
@@ -698,6 +783,10 @@ class EnemyData < EntryData
   # @param _filename [String] File name
   def save_encounters_to_csv(_filename)
     if @encounters.empty?
+      return
+    end
+    if File.exist?(_filename) && !meta.updated?
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
       return
     end
     

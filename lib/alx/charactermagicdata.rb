@@ -60,12 +60,13 @@ class CharacterMagicData < StdEntryData
   def load_ship_dscr_from_bin(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
 
+    meta.check_mtime(_filename)
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@ship_dscr_file, _filename)
       _f.pos = _range.begin
       
-      @id_range.each do |_id|
-        unless id_valid?(_id, _range)
+      id_range.each do |_id|
+        unless id_valid?(_id, id_range, _range)
           next
         end
 
@@ -97,7 +98,7 @@ class CharacterMagicData < StdEntryData
           next
         end
         
-        LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
+        LOG.info(sprintf(VOC.read, _id - id_range.begin, _f.pos))
         _pos.value  = _f.pos
         unless is_eu?
           _str.value  = _f.read_str(0xff, 0x4)
@@ -121,7 +122,7 @@ class CharacterMagicData < StdEntryData
 
   # Reads all entries from binary files.
   def load_all_from_bin
-    super(false)
+    super
   
     _ranges = @ship_dscr_file
     if _ranges
@@ -132,8 +133,6 @@ class CharacterMagicData < StdEntryData
         load_ship_dscr_from_bin(glob(_range.name))
       end
     end
-    
-    save_snapshot(:data)
   end
 
   # Writes all ship description entries to a binary file.
@@ -147,10 +146,11 @@ class CharacterMagicData < StdEntryData
   
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@ship_dscr_file, _filename) 
+      _range    = determine_range(@ship_dscr_file, _filename) 
+      _snapshot = snapshots[:data]
   
       @data.each do |_id, _entry|
-        unless id_valid?(_id, _range)
+        unless id_valid?(_id, id_range, _range)
           next
         end
 
@@ -172,6 +172,10 @@ class CharacterMagicData < StdEntryData
         
         _f.pos = _pos
         unless pos_valid?(_f.pos, _size, _range)
+          next
+        end
+        if _snapshot && _entry.checksum == _snapshot[_id]
+          LOG.info(sprintf(VOC.dup, _id - @id_range.begin, _pos))
           next
         end
         

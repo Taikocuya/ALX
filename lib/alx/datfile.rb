@@ -100,6 +100,11 @@ class DatFile < EpFile
       return
     end
 
+    if match_enemy_snapshot(_id, _filename)
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+      return
+    end
+    
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     AklzFile.open(_filename, 'wb') do |_f|

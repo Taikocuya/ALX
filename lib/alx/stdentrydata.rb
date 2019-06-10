@@ -74,19 +74,33 @@ class StdEntryData < EntryData
     _entry.id = _id
     _entry
   end
-
+  
+  # Reads all snaphots (instance variables) from SHT files.
+  def load_all_from_sht
+    super
+    load_data_from_sht(:data)
+  end
+  
+  # Writes all snaphots (instance variables) to SHT files.
+  def save_all_to_sht
+    super
+    save_data_to_sht(:data, @data.transform_values(&:checksum))
+  end
+    
   # Reads all data entries from a binary file.
   # @param _filename [String] File name
   def load_data_from_bin(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
+    meta.check_mtime(_filename)
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@data_file, _filename)
       _size  = create_entry.size
       _f.pos = _range.begin
       
       @id_range.each do |_id|
-        if !id_valid?(_id, _range) || !pos_valid?(_f.pos, _size, _range)
+        if !id_valid?(_id, @id_range, _range) || 
+           !pos_valid?(_f.pos, _size, _range)
           next
         end
 
@@ -104,12 +118,13 @@ class StdEntryData < EntryData
   def load_names_from_bin(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
 
+    meta.check_mtime(_filename)
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@name_file, _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
-        unless id_valid?(_id, _range)
+        unless id_valid?(_id, @id_range, _range)
           next
         end
 
@@ -164,12 +179,13 @@ class StdEntryData < EntryData
   def load_dscr_from_bin(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
 
+    meta.check_mtime(_filename)
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@dscr_file, _filename)
       _f.pos = _range.begin
       
       @id_range.each do |_id|
-        unless id_valid?(_id, _range)
+        unless id_valid?(_id, @id_range, _range)
           next
         end
         
@@ -224,8 +240,7 @@ class StdEntryData < EntryData
   end
 
   # Reads all entries from binary files.
-  # @param _use_snapshot_saving [Boolean] Use default snapshot saving.
-  def load_all_from_bin(_use_snapshot_saving = true)
+  def load_all_from_bin
     unless @data.empty?
       return
     end
@@ -259,10 +274,6 @@ class StdEntryData < EntryData
         load_dscr_from_bin(glob(_range.name))
       end
     end
-
-    if _use_snapshot_saving
-      save_snapshot(:data)
-    end
   end
     
   # Writes all data entries to a binary file.
@@ -271,17 +282,27 @@ class StdEntryData < EntryData
     if @data.empty?
       return
     end
+    unless meta.updated?
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+      return
+    end
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@data_file, _filename)
-      _size  = create_entry.size
+      _range    = determine_range(@data_file, _filename)
+      _size     = create_entry.size
+      _snapshot = snapshots[:data]
       
       @data.each do |_id, _entry|
         _f.pos = _range.begin + (_id - @id_range.begin) * _size
-        if !id_valid?(_id, _range) || !pos_valid?(_f.pos, _size, _range)
+        if !id_valid?(_id, @id_range, _range) || 
+           !pos_valid?(_f.pos, _size, _range)
+          next
+        end
+        if _snapshot && _entry.checksum == _snapshot[_id]
+          LOG.info(sprintf(VOC.dup, _id - @id_range.begin, _f.pos))
           next
         end
         
@@ -299,15 +320,20 @@ class StdEntryData < EntryData
     if @data.empty?
       return
     end
+    unless meta.updated?
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_name))
+      return
+    end
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_name))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@name_file, _filename)
+      _range    = determine_range(@name_file, _filename)
+      _snapshot = snapshots[:data]
       
       @data.each do |_id, _entry|
-        unless id_valid?(_id, _range)
+        unless id_valid?(_id, @id_range, _range)
           next
         end
         
@@ -325,6 +351,10 @@ class StdEntryData < EntryData
         unless pos_valid?(_f.pos, _size, _range)
           next
         end
+        if _snapshot && _entry.checksum == _snapshot[_id]
+          LOG.info(sprintf(VOC.dup, _id - @id_range.begin, _pos))
+          next
+        end
         
         LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
         _f.write_str(_str, _size, 0x1, 'ISO8859-1')
@@ -340,15 +370,20 @@ class StdEntryData < EntryData
     if @data.empty?
       return
     end
+    unless meta.updated?
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_dscr))
+      return
+    end
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_dscr))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@dscr_file, _filename) 
+      _range    = determine_range(@dscr_file, _filename)
+      _snapshot = snapshots[:data]
 
       @data.each do |_id, _entry|
-        unless id_valid?(_id, _range)
+        unless id_valid?(_id, @id_range, _range)
           next
         end
 
@@ -370,6 +405,10 @@ class StdEntryData < EntryData
         
         _f.pos = _pos
         unless pos_valid?(_f.pos, _size, _range)
+          next
+        end
+        if _snapshot && _entry.checksum == _snapshot[_id]
+          LOG.info(sprintf(VOC.dup, _id - @id_range.begin, _pos))
           next
         end
         
@@ -422,16 +461,17 @@ class StdEntryData < EntryData
     end
   end
 
-  # Reads all data entries from a a CSV file.
+  # Reads all data entries from a CSV file.
   # @param _filename [String]  File name
   # @param _force    [Boolean] Skips missing file and ignore missing data members.
-  def load_entries_from_csv(_filename, _force = false)
+  def load_data_from_csv(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return
     end
   
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
+    meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
@@ -452,20 +492,19 @@ class StdEntryData < EntryData
   end
 
   # Reads all entries from CSV files (CSV files first, TPL files last).
-  # @param _use_snapshot_loading [Boolean] Use default snapshot loading.
-  def load_all_from_csv(_use_snapshot_loading = true)
-    load_entries_from_csv(File.join(root.dirname , @csv_file)      )
-    load_entries_from_csv(File.join(SYS.share_dir, @tpl_file), true)
-    
-    if _use_snapshot_loading
-      load_snapshot(:data)
-    end
+  def load_all_from_csv
+    load_data_from_csv(File.join(root.dirname , @csv_file)      )
+    load_data_from_csv(File.join(SYS.share_dir, @tpl_file), true)
   end
 
   # Writes all data entries to a CSV file.
   # @param _filename [String] File name
-  def save_entries_to_csv(_filename)
+  def save_data_to_csv(_filename)
     if @data.empty?
+      return
+    end
+    if File.exist?(_filename) && !meta.updated?
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
       return
     end
     
@@ -486,7 +525,7 @@ class StdEntryData < EntryData
 
   # Writes all entries to CSV files.
   def save_all_to_csv
-    save_entries_to_csv(glob(@csv_file))
+    save_data_to_csv(glob(@csv_file))
   end
 
 #------------------------------------------------------------------------------

@@ -49,7 +49,7 @@ class BinaryFile < DelegateClass(::File)
   
   # @see ::File::new
   def initialize(*_args)
-    @file = File::new(*_args)
+    @file = File.new(*_args)
     super(@file)
   end
 

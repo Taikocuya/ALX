@@ -85,12 +85,13 @@ class EnemyShipData < StdEntryData
   def load_arm_name_from_bin(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
 
+    meta.check_mtime(_filename)
     BinaryFile.open(_filename, 'rb') do |_f|
       _range = determine_range(@arm_name_file, _filename)
       _f.pos = _range.begin
       
-      @id_range.each do |_id|
-        if !id_valid?(_id, _range) || !pos_valid?(_f.pos, 1, _range)
+      id_range.each do |_id|
+        if !id_valid?(_id, id_range, _range) || !pos_valid?(_f.pos, 1, _range)
           next
         end
 
@@ -151,7 +152,7 @@ class EnemyShipData < StdEntryData
     @items.merge!(@usable_item_data.data)
     @items.merge!(@weapon_data.data)
     
-    super(false)
+    super
   
     _ranges = @arm_name_file
     if _ranges
@@ -162,8 +163,6 @@ class EnemyShipData < StdEntryData
         load_arm_name_from_bin(glob(_range.name))
       end
     end
-    
-    save_snapshot(:data)
   end
   
   # Writes all armament name entries to a binary file.
@@ -172,18 +171,20 @@ class EnemyShipData < StdEntryData
     if @data.empty?
       return
     end
+    unless meta.updated?
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+      return
+    end
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_name))
   
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
-      _range = determine_range(@arm_name_file, _filename) 
+      _range    = determine_range(@arm_name_file, _filename) 
+      _snapshot = snapshots[:data]
   
       @data.each do |_id, _entry|
-        if _id < @id_range.begin && _id >= @id_range.end
-          next
-        end
-        if _range.exclusions.include?(_id)
+        unless id_valid?(_id, id_range, _range)
           next
         end
 
@@ -211,7 +212,11 @@ class EnemyShipData < StdEntryData
           end
           
           _f.pos = _pos
-          if !id_valid?(_id, _range) || !pos_valid?(_f.pos, _size, _range)
+          unless pos_valid?(_f.pos, _size, _range)
+            next
+          end
+          if _snapshot && _entry.checksum == _snapshot[_id]
+            LOG.info(sprintf(VOC.dup, _id - id_range.begin, _pos))
             next
           end
           

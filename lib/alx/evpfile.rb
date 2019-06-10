@@ -122,11 +122,36 @@ class EvpFile < EpFile
   # Writes an EVP file.
   # @param _filename [String] File name
   def save(_filename)
+    _enemies  = []
+    _snapshot = snapshots[:events] || []
+    _changed  = false
+
+    @events.each_with_index do |_event, _id|
+      _changed ||= (_event.checksum != _snapshot[_id])
+      (0...7).each do |_i|
+        _enemy_id = _event.find_member(VOC.enemy_id[_i]).value
+        if _enemy_id != 255
+          _enemy = find_enemy(_enemy_id, _filename)
+          if _enemy
+            unless _enemies.include?(_enemy)
+              _changed ||= !match_enemy_snapshot(_enemy_id, _filename)
+              _enemies << _enemy
+            end
+          else
+            raise(IOError, "enemy ##{_enemy_id} not found")
+          end
+        end
+      end
+    end
+    if !@events.empty? && !_changed
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+      return
+    end
+
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
-      
+
     AklzFile.open(_filename, 'wb') do |_f|
       # Events
-      _enemies = []
       _dummy   = create_event
       _f.pos   = NUM_ENEMIES * 0x8
       if @events.size > NUM_EVENTS
@@ -137,20 +162,6 @@ class EvpFile < EpFile
         _event = @events[_id]
         if _event
           _event.write_to_bin(_f)
-          
-          (0...7).each do |_i|
-            _id = _event.find_member(VOC.enemy_id[_i]).value
-            if _id != 255
-              _enemy = find_enemy(_id, _filename)
-              if _enemy
-                unless _enemies.include?(_enemy)
-                  _enemies << _enemy
-                end
-              else
-                raise(IOError, "enemy ##{_id} not found")
-              end
-            end
-          end
         else
           _dummy.write_to_bin(_f)
         end

@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('entry.rb')
+require_relative('executable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -32,85 +32,72 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle an enemy encounter.
-class EnemyEncounter < Entry
+# Class to handle a meta data.
+class MetaData
 
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
-
-  # Constructs an Enemy.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super
-    @enemies = []
-    @file    = ''
-
-    members << StrDmy.new(VOC.filter             , ''      )
-    members << IntVar.new(VOC.party_vigor        ,  0, 'C' )
-    members << IntVar.new(VOC.magic_exp          ,  0, 'C' )
-
-    (0...8).each do |_i|
-      members << IntVar.new(VOC.enemy_id[_i]     ,  0, 'C' )
-      members << StrDmy.new(VOC.enemy_name_jp[_i], ''      )
-      members << StrDmy.new(VOC.enemy_name_us[_i], ''      )
-      members << StrDmy.new(VOC.enemy_name_eu[_i], ''      )
-    end
+  
+  # Constructs a MetaData.
+  # @param _cache_id [String] Cache ID
+  def initialize(_cache_id)
+    @version  = Executable::VERSION
+    @cache_id = _cache_id
+    @created  = Time.new
+    @modified = Time.new(0)
   end
 
-  # Reads one entry from a CSV  file.
-  # @param _csv [CSV] CSV object
-  def read_from_csv(_csv)
-    super
-    @file = find_member(VOC.filter).value
+  # Returns +true+ if the meta data version is valid, otherwise +false+.
+  # @return [Boolean] +true+ if meta data version is valid, otherwise +false+.
+  def valid?
+    @version != Executable::VERSION || !@cache_id.is_a?(String)
+  end
+
+  # Returns +true+ if the meta data has modified, otherwise +false+.
+  # @return [Boolean] +true+ if meta data has modified, otherwise +false+.
+  def updated?
+    @modified > @created
+  end
+
+  # Checks the modification time of the given file and updates #modified if it 
+  # is newer.
+  # @param _filename [String] File name
+  def check_mtime(_filename)
+    _mtime = File.mtime(_filename)
+    if _mtime > @modified
+      @modified = _mtime
+    end
   end
   
-  # Writes one entry to a CSV file.
-  # @param _csv [CSV] CSV object
-  def write_to_csv(_csv)
-    find_member(VOC.filter).value = @file
-    
-    (0...8).each do |_i|
-      _id = find_member(VOC.enemy_id[_i]).value
-      if _id != 255
-        _entry = @enemies.find { |_enemy| _enemy.id == _id }
-        if _entry
-          _name_jp = _entry.find_member(VOC.name_str['JP']).value
-          _name_us = VOC.enemies_us[_id]
-          _name_eu = VOC.enemies_eu[_id]
-        else
-          _name_jp = '???'
-          _name_us = '???'
-          _name_eu = '???'
-        end
-      else
-        _name_jp = 'None'
-        _name_us = 'None'
-        _name_eu = 'None'
-      end
-      find_member(VOC.enemy_name_jp[_i]).value = _name_jp
-      find_member(VOC.enemy_name_us[_i]).value = _name_us
-      find_member(VOC.enemy_name_eu[_i]).value = _name_eu
-    end
-
-    super
+  # Provides marshalling support for use by the Marshal library.
+  # @param _array [Array] Array object
+  def marshal_load(_array)
+    @version  = _array.shift
+    @cache_id = _array.shift
+    @created  = _array.shift
+    @modified = Time.new(0)
+  end
+  
+  # Provides marshalling support for use by the Marshal library.
+  # @return [Array] Array object
+  def marshal_dump
+    [@version, @cache_id, @created]
   end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :enemies
-  attr_accessor :file
+  attr_accessor :version
+  attr_accessor :cache_id
+  attr_accessor :created
+  attr_accessor :modified
 
-  def key
-    sprintf('%d-%s', id, @file)
-  end
-
-end	# class EnemyEncounter
+end # class MetaData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

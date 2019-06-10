@@ -1,3 +1,4 @@
+#! /usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2019 Marcel Renner
@@ -22,8 +23,9 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('enemyshiptaskdata.rb')
-require_relative('stdentrytransform.rb')
+require('pathname')
+require_relative('../../lib/alx/entrydata.rb')
+require_relative('../../lib/alx/entrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -32,9 +34,9 @@ module ALX
 #==============================================================================
 #                                    CLASS
 #==============================================================================
-
-# Base class to export and/or import enemy ship tasks to and/or from CSV files.
-class EnemyShipTaskTransform < StdEntryTransform
+  
+# Class to remove snapshots in the "share" directory.
+class SnapshotRemover < EntryTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -42,13 +44,69 @@ class EnemyShipTaskTransform < StdEntryTransform
 
   public
 
-  # Constructs an EnemyShipTaskTransform.
+  # Constructs an BackupRestorer.
   def initialize
-    super(EnemyShipTaskData)
+    super(GameRoot)
   end
 
-end # class EnemyShipTaskTransform
+  # Creates an entry data object.
+  # @param _root [GameRoot] Game root
+  # @return [EntryData] Entry data object
+  def create_entry_data(_root)
+    _root
+  end
+
+  def exec
+    super
+    
+    _sht_pattern = sprintf(EntryData::SHT_FILE, '*', '*')
+    data.each do |_root|
+      Dir.glob(_root.join(:snapshot_dir, _sht_pattern)).each do |_p|
+        remove_snapshot(_p)
+      end
+    end
+  end
+
+  # Removes a snapshot.
+  # @param _filename [String] Snapshot to remove
+  def remove_snapshot(_filename)
+    begin
+      FileUtils.rm(_filename)
+      _result = !File.exist?(_filename)
+    rescue StandardError
+      _result = false
+    end
+
+    _msg = sprintf('Remove snapshot: %s', _filename)
+    if _result
+      _msg += sprintf(' - %s', VOC.done)
+      ALX::LOG.info(_msg)
+    else
+      _msg += sprintf(' - %s', VOC.failed)
+      ALX::LOG.error(_msg)
+    end
+
+    begin
+      _dirname = File.dirname(_filename)
+      if Dir.empty?(_dirname)
+        Dir.rmdir(_dirname) 
+      end
+    rescue StandardError
+      # Nothing to do.
+    end
+  end
+
+end # class BackupRestorer
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 end # module ALX
+
+# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+
+if __FILE__ == $0
+  ALX::Main.call do
+    _sr = ALX::SnapshotRemover.new
+    _sr.exec
+  end
+end

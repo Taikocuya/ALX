@@ -50,7 +50,7 @@ class BinaryStringIO < DelegateClass(::StringIO)
   
   # @see ::StringIO::new
   def initialize(*_args)
-    @stringio = StringIO::new(*_args)
+    @stringio = StringIO.new(*_args)
     super(@stringio)
   end
 
