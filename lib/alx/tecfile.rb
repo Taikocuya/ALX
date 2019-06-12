@@ -53,7 +53,6 @@ class TecFile
   # @param _root [GameRoot] Game root
   def initialize(_root)
     @root        = _root
-    @snapshots   = {}
     @tasks       = []
     @enemy_ships = {}
     @magics      = {}
@@ -106,18 +105,18 @@ class TecFile
   # @param _filename [String] File name
   def save(_filename)
     _basename = File.basename(_filename)
-    _snapshot = @snapshots[:data]
-
-    _dump  = ''
-    _tasks = @tasks.select do |_task|
-      _task.file == _basename
+    _expired  = false
+    _tasks    = @tasks.find_all do |_task|
+      _result = (_task.file == _basename)
+      if _result
+        _expired ||= _task.expired
+      end
+      _result
     end
-    _tasks.each do |_task|
-      _dump << _task.dump
+    if _tasks.empty?
+      return
     end
-    
-    _checksum = Digest::MD5.hexdigest(_dump)
-    if _snapshot && _checksum != _snapshot[_basename]
+    unless _expired
       LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
       return
     end
@@ -125,10 +124,16 @@ class TecFile
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     AklzFile.open(_filename, 'wb') do |_f|
+      _last = nil
       (0..._tasks.size).each do |_id|
         LOG.info(sprintf(VOC.write, _id, _f.pos))
         _task = _tasks[_id]
+        if _last && _task.id != _last.id + 1
+          _msg = 'task ID invalid (given %s, expected %s)'
+          raise(IOError, sprintf(_msg, _task.id, _last.id + 1))
+        end
         _task.write_to_bin(_f)
+        _last = _task
       end
       
       _f.write_int(EOF_MARKER, 's>')
@@ -143,7 +148,6 @@ class TecFile
 #------------------------------------------------------------------------------
 
   attr_accessor :root
-  attr_accessor :snapshots
   attr_accessor :tasks
   attr_accessor :enemy_ships
   attr_accessor :magics

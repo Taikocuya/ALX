@@ -114,8 +114,8 @@ class EntryData
   def glob(*_args, &_block)
     @root.glob(*_args, &_block)
   end
-  
-  # Reads an object from a SHT file and returns it.
+
+  # Reads an object from a SHT file, assigns it to #snapshots and returns it.
   # @param _sym [Symbol] Object symbol
   # @return [Object] Object instance
   def load_data_from_sht(_sym)
@@ -153,12 +153,17 @@ class EntryData
     end
   end
 
-  # Writes an object to a SHT file and returns it.
+  # Writes an object to a SHT file, assigns it to #snapshots and returns it.
   # @param _sym [Symbol] Object symbol
   # @param _obj [Object] Object instance
   # @return [Object] Object instance
   def save_data_to_sht(_sym, _obj)
-    _sym      = _sym.to_sym
+    _sym = _sym.to_sym
+    _obj = _obj.dup
+    if _obj.is_a?(Hash)
+      _obj.default_proc = nil
+    end
+
     _class    = self.class.name.split('::').last
     _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
     _filename = sprintf(SHT_FILE, _class, _sym).downcase

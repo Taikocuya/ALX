@@ -45,8 +45,8 @@ class EnemyEncounter < Entry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    @enemies = []
     @file    = ''
+    @enemies = []
 
     members << StrDmy.new(VOC.filter             , ''      )
     members << IntVar.new(VOC.party_vigor        ,  0, 'C' )
@@ -58,6 +58,24 @@ class EnemyEncounter < Entry
       members << StrDmy.new(VOC.enemy_name_us[_i], ''      )
       members << StrDmy.new(VOC.enemy_name_eu[_i], ''      )
     end
+  end
+
+  # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
+  # differs from the snapshot, otherwise nothing happens. Returns +true+ if 
+  # the entry matches the snapshot, otherwise +false+.
+  # @param _entry [Entry] Entry object
+  # @return [Boolean] +true+ if entry matches the snapshot, otherwise +false+.
+  def check_expiration(_entry)
+    _found   = true
+    _found &&= _entry.is_a?(EnemyEncounter)
+    _found &&= (id    == _entry.id  )
+    _found &&= (@file == _entry.file)
+
+    if _found
+      super
+    end
+    
+    _found
   end
 
   # Reads one entry from a CSV  file.
@@ -98,16 +116,29 @@ class EnemyEncounter < Entry
     super
   end
 
+  # Provides marshalling support for use by the Marshal library.
+  # @param _hash [Hash] Hash object
+  def marshal_load(_hash)
+    _hash.each do |_key, _value|
+      instance_variable_set(_key, _value)
+    end
+    @enemies = []
+  end
+  
+  # Provides marshalling support for use by the Marshal library.
+  # @return [Hash] Hash object
+  def marshal_dump
+    _hash         = super
+    _hash[:@file] = @file
+    _hash
+  end
+  
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
   attr_accessor :enemies
   attr_accessor :file
-
-  def key
-    sprintf('%d-%s', id, @file)
-  end
 
 end	# class EnemyEncounter
 

@@ -181,8 +181,7 @@ class EnemyShipData < StdEntryData
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
       _range    = determine_range(@arm_name_file, _filename) 
-      _snapshot = snapshots[:data]
-  
+
       @data.each do |_id, _entry|
         unless id_valid?(_id, id_range, _range)
           next
@@ -215,7 +214,7 @@ class EnemyShipData < StdEntryData
           unless pos_valid?(_f.pos, _size, _range)
             next
           end
-          if _snapshot && _entry.checksum == _snapshot[_id]
+          unless _entry.expired
             LOG.info(sprintf(VOC.dup, _id - id_range.begin, _pos))
             next
           end

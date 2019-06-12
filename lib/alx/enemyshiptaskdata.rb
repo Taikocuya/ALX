@@ -76,18 +76,7 @@ class EnemyShipTaskData < EntryData
   # Writes all snaphots (instance variables) to SHT files.
   def save_all_to_sht
     super
-    
-    _tasks = @data.group_by do |_task|
-      _task.file
-    end
-    _tasks.transform_values! do |_group|
-      _dump = ''
-      _group.each do |_task|
-        _dump << _task.dump
-      end
-      Digest::MD5.hexdigest(_dump)
-    end
-    save_data_to_sht(:data, _tasks)
+    save_data_to_sht(:data, @data)
   end
 
   # Reads all entries from a binary file.
@@ -95,7 +84,6 @@ class EnemyShipTaskData < EntryData
   def load_entries_from_bin(_filename)
     meta.check_mtime(_filename)
     _file             = TecFile.new(root)
-    _file.snapshots   = snapshots
     _file.magics      = @character_magic_data.data
     _file.enemy_ships = @enemy_ship_data.data
     _file.load(_filename)
@@ -124,7 +112,6 @@ class EnemyShipTaskData < EntryData
     
     FileUtils.mkdir_p(File.dirname(_filename))
     _file           = TecFile.new(root)
-    _file.snapshots = snapshots
     _file.tasks     = @data
     _file.save(_filename)
   end
@@ -156,15 +143,30 @@ class EnemyShipTaskData < EntryData
     unless @data.empty?
       return
     end
-    
+
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
+      _snapshot = snapshots[:data].dup
+
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _entry = create_entry
         _entry.read_from_csv(_f)
+
+        if _snapshot
+          _result = false
+          _snapshot.reject! do |_sht|
+            if _result
+              break
+            end
+            _result = _entry.check_expiration(_sht)
+          end
+        else
+          _entry.expired = true
+        end
+        
         @data << _entry
       end
     end

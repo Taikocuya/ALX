@@ -84,7 +84,7 @@ module Serializable
       _str.gsub!('[', '“')
       _str.gsub!(']', '”')
     end
-
+    
     _str
   end
 

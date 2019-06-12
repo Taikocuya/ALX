@@ -47,22 +47,22 @@ class CharacterMagic < CharacterSuperMove
     super
     
     if is_jp? || is_us?
-      members << IntDmy.new(VOC.ship_dscr_pos[country_id] ,  0      )
-      members << IntDmy.new(VOC.ship_dscr_size[country_id],  0      )
-      members << StrDmy.new(VOC.ship_dscr_str[country_id] , ''      )
+      members << IntExt.new(VOC.ship_dscr_pos[country_id] ,  0)
+      members << IntExt.new(VOC.ship_dscr_size[country_id],  0)
+      members << StrExt.new(VOC.ship_dscr_str[country_id] , '')
     elsif is_eu?
-      members << IntDmy.new(VOC.ship_dscr_pos['DE']       ,  0      )
-      members << IntDmy.new(VOC.ship_dscr_size['DE']      ,  0      )
-      members << StrDmy.new(VOC.ship_dscr_str['DE']       , '', '\n')
-      members << IntDmy.new(VOC.ship_dscr_pos['ES']       ,  0      )
-      members << IntDmy.new(VOC.ship_dscr_size['ES']      ,  0      )
-      members << StrDmy.new(VOC.ship_dscr_str['ES']       , '', '\n')
-      members << IntDmy.new(VOC.ship_dscr_pos['FR']       ,  0      )
-      members << IntDmy.new(VOC.ship_dscr_size['FR']      ,  0      )
-      members << StrDmy.new(VOC.ship_dscr_str['FR']       , '', '\n')
-      members << IntDmy.new(VOC.ship_dscr_pos['GB']       ,  0      )
-      members << IntDmy.new(VOC.ship_dscr_size['GB']      ,  0      )
-      members << StrDmy.new(VOC.ship_dscr_str['GB']       , '', '\n')
+      members << IntExt.new(VOC.ship_dscr_pos['DE']       ,  0)
+      members << IntExt.new(VOC.ship_dscr_size['DE']      ,  0)
+      members << StrExt.new(VOC.ship_dscr_str['DE']       , '')
+      members << IntExt.new(VOC.ship_dscr_pos['ES']       ,  0)
+      members << IntExt.new(VOC.ship_dscr_size['ES']      ,  0)
+      members << StrExt.new(VOC.ship_dscr_str['ES']       , '')
+      members << IntExt.new(VOC.ship_dscr_pos['FR']       ,  0)
+      members << IntExt.new(VOC.ship_dscr_size['FR']      ,  0)
+      members << StrExt.new(VOC.ship_dscr_str['FR']       , '')
+      members << IntExt.new(VOC.ship_dscr_pos['GB']       ,  0)
+      members << IntExt.new(VOC.ship_dscr_size['GB']      ,  0)
+      members << StrExt.new(VOC.ship_dscr_str['GB']       , '')
     end
   end
 

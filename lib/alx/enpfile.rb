@@ -109,10 +109,10 @@ class EnpFile < EpFile
         
         _segments = {}
         (0..._size).each do |_|
-          _segname   = _f.read_str(SEG_NAME_SIZE)
-          _pos       = _f.read_int('l>')
-          _size      = _f.read_int('l>')
-          _check     = _f.read_int('l>')
+          _segname = _f.read_str(SEG_NAME_SIZE)
+          _pos     = _f.read_int('l>')
+          _size    = _f.read_int('l>')
+          _check   = _f.read_int('l>')
           
           if _check != -1
             raise(IOError, 'segments corrupted')
@@ -176,54 +176,49 @@ class EnpFile < EpFile
   # Writes an ENP file.
   # @param _filename [String] File name
   def save(_filename)
-    # Segment initialization
-    _segments = {}
+    _basename   = File.basename(_filename)
+    _segments   = {}
+    _enemies    = {}
+    _encounters = {}
+    _expired    = false
     @encounters.each do |_encounter|
       _segname = _encounter.file
-      if _segname == File.basename(_filename)
-        _segments[_segname] = create_segment(0x0, 0xffffffff)
+      if _segname == _basename
+        _segments[_segname]   = create_segment(0x0, 0xffffffff)
+        _enemies[_segname]    = []
+        _encounters[_segname] = []
         break
       end
     end
-    
     if _segments.empty?
       @encounters.each do |_encounter|
         _segname = _encounter.file
-        if _segname.sub(MULTI_REGEXP, '\1\3') == File.basename(_filename)
+        if _segname.sub(MULTI_REGEXP, '\1\3') == _basename
           unless _segments.include?(_segname)
-            _segments[_segname] = create_segment(0x0, 0xffffffff)
+            _segments[_segname]   = create_segment(0x0, 0xffffffff)
+            _enemies[_segname]    = []
+            _encounters[_segname] = []
           end
         end
       end
     end
-    
-    if _segments.empty?
-      return
-    end
-
-    # Preselection and validation
-    _req_enemies    = Hash.new { |_h, _k| _h[_k] = [] }
-    _req_encounters = []
-    _snapshot       = snapshots[:encounters] || []
-    _changed        = false
-
     _segments.each do |_segname, _seg|
-      _encounters = @encounters.select do |_encounter|
+      _found = @encounters.find_all do |_encounter|
         _encounter.file == File.basename(_segname)
       end
-      _req_encounters += _encounters
+      _encounters[_segname] = _found
       
-      _encounters.each do |_encounter|
-        _changed ||= (_encounter.checksum != _snapshot[_encounter.key])
+      _found.each do |_encounter|
+        _expired ||= _encounter.expired
         (0...8).each do |_i|
           _enemy_id = _encounter.find_member(VOC.enemy_id[_i]).value
           if _enemy_id != 255
             _enemy = find_enemy(_enemy_id, _segname)
             if _enemy
-              _seg_enemies = _req_enemies[_segname]
-              unless _seg_enemies.include?(_enemy)
-                _changed ||= !match_enemy_snapshot(_enemy_id, _filename)
-                _seg_enemies << _enemy
+              _entries = _enemies[_segname]
+              unless _entries.include?(_enemy)
+                _expired ||= _enemy.expired
+                _entries     << _enemy
               end
             else
               raise(IOError, "enemy ##{_enemy_id} not found")
@@ -232,7 +227,10 @@ class EnpFile < EpFile
         end
       end
     end
-    if !@encounters.empty? && !_changed
+    if _segments.empty?
+      return
+    end
+    unless _expired
       LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
       return
     end
@@ -247,27 +245,25 @@ class EnpFile < EpFile
 
       _segments.each do |_segname, _seg|
         # Encounters
-        _beg         = _f.pos
-        _f.pos      += NUM_ENEMIES * 0x8
-        _encounters  = _req_encounters.select do |_encounter|
-          _encounter.file == File.basename(_segname)
-        end
-        if _encounters.size > NUM_ENCOUNTERS
+        _beg      = _f.pos
+        _f.pos   += NUM_ENEMIES * 0x8
+        _entries  = _encounters[_segname]
+        if _entries.size > NUM_ENCOUNTERS
           raise(IOError, "encounter quota of #{NUM_ENCOUNTERS} exceeded")
         end
-        (0..._encounters.size).each do |_id|
+        (0..._entries.size).each do |_id|
           LOG.info(sprintf(VOC.write, _id, _f.pos))
-          _encounter = _encounters[_id]
+          _encounter = _entries[_id]
           _encounter.write_to_bin(_f)
         end
 
         # Enemies
-        _enemies = _req_enemies[_segname]
+        _entries = _enemies[_segname]
         _nodes   = []
-        if _enemies.size > NUM_ENEMIES
+        if _entries.size > NUM_ENEMIES
           raise(IOError, "enemy quota of #{NUM_ENEMIES} exceeded")
         end
-        _enemies.each do |_enemy|
+        _entries.each do |_enemy|
           _id  = _enemy.id
           _pos = _f.pos
             

@@ -44,8 +44,6 @@ class DatFile < EpFile
   # Reads a DAT file.
   # @param _filename [String] File name
   def load(_filename)
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
-
     _basename   = File.basename(_filename)
     _eb_pattern = File.basename(sys(:eb_file)).sub('*', '\d{3}')
     _ec_pattern = File.basename(sys(:ec_file)).sub('*', '\d{3}')
@@ -65,6 +63,8 @@ class DatFile < EpFile
       return
     end
     
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+
     AklzFile.open(_filename, 'rb') do |_f|
       LOG.info(sprintf(VOC.read, _id, _f.pos))
       load_enemy(_f, _id, _filename)
@@ -100,7 +100,7 @@ class DatFile < EpFile
       return
     end
 
-    if match_enemy_snapshot(_id, _filename)
+    unless _enemy.expired
       LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
       return
     end

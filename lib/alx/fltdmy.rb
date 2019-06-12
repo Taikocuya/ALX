@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('datamember.rb')
+require_relative('fltext.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -32,8 +32,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a data member dummy as float.
-class FltDmy < DataMember
+# Class to handle a data member as dummy float.
+class FltDmy < FltExt
   
 #==============================================================================
 #                                   PUBLIC
@@ -46,31 +46,8 @@ class FltDmy < DataMember
   def dummy?
     true
   end
-  
-  # Reads one entry from a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def read_from_csv_row(_row)
-    super
-    self.value = _row[name] || value
-  end
 
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
-    super
-    _row[name] = value
-  end
-
-#------------------------------------------------------------------------------
-# Public member variables
-#------------------------------------------------------------------------------
-
-  def value=(_value)
-    _value = _value.to_f
-    super(_value)
-  end
-
-end # class IntDmy
+end # class FltDmy
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

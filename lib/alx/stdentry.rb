@@ -48,43 +48,43 @@ class StdEntry < Entry
       members << StrVar.new(VOC.name_str[country_id]  , '', _size)
     elsif is_eu?
       members << IntVar.new(VOC.message_id[country_id],  0, 'L>' )
-      members << IntDmy.new(VOC.name_pos['DE']        ,  0       )
-      members << IntDmy.new(VOC.name_size['DE']       ,  0       )
-      members << StrDmy.new(VOC.name_str['DE']        , '', '\n' )
-      members << IntDmy.new(VOC.name_pos['ES']        ,  0       )
-      members << IntDmy.new(VOC.name_size['ES']       ,  0       )
-      members << StrDmy.new(VOC.name_str['ES']        , '', '\n' )
-      members << IntDmy.new(VOC.name_pos['FR']        ,  0       )
-      members << IntDmy.new(VOC.name_size['FR']       ,  0       )
-      members << StrDmy.new(VOC.name_str['FR']        , '', '\n' )
-      members << IntDmy.new(VOC.name_pos['GB']        ,  0       )
-      members << IntDmy.new(VOC.name_size['GB']       ,  0       )
-      members << StrDmy.new(VOC.name_str['GB']        , '', '\n' )
+      members << IntExt.new(VOC.name_pos['DE']        ,  0       )
+      members << IntExt.new(VOC.name_size['DE']       ,  0       )
+      members << StrExt.new(VOC.name_str['DE']        , ''       )
+      members << IntExt.new(VOC.name_pos['ES']        ,  0       )
+      members << IntExt.new(VOC.name_size['ES']       ,  0       )
+      members << StrExt.new(VOC.name_str['ES']        , ''       )
+      members << IntExt.new(VOC.name_pos['FR']        ,  0       )
+      members << IntExt.new(VOC.name_size['FR']       ,  0       )
+      members << StrExt.new(VOC.name_str['FR']        , ''       )
+      members << IntExt.new(VOC.name_pos['GB']        ,  0       )
+      members << IntExt.new(VOC.name_size['GB']       ,  0       )
+      members << StrExt.new(VOC.name_str['GB']        , ''       )
     end
   end
 
   # Add description data members.
   def add_dscr_members
     if is_jp? || is_us?
-      members << IntDmy.new(VOC.dscr_pos[country_id] ,  0      )
-      members << IntDmy.new(VOC.dscr_size[country_id],  0      )
-      members << StrDmy.new(VOC.dscr_str[country_id] , ''      )
+      members << IntExt.new(VOC.dscr_pos[country_id] ,  0)
+      members << IntExt.new(VOC.dscr_size[country_id],  0)
+      members << StrExt.new(VOC.dscr_str[country_id] , '')
     elsif is_eu?
-      members << IntDmy.new(VOC.dscr_pos['DE']       ,  0      )
-      members << IntDmy.new(VOC.dscr_size['DE']      ,  0      )
-      members << StrDmy.new(VOC.dscr_str['DE']       , '', '\n')
-      members << IntDmy.new(VOC.dscr_pos['ES']       ,  0      )
-      members << IntDmy.new(VOC.dscr_size['ES']      ,  0      )
-      members << StrDmy.new(VOC.dscr_str['ES']       , '', '\n')
-      members << IntDmy.new(VOC.dscr_pos['FR']       ,  0      )
-      members << IntDmy.new(VOC.dscr_size['FR']      ,  0      )
-      members << StrDmy.new(VOC.dscr_str['FR']       , '', '\n')
-      members << IntDmy.new(VOC.dscr_pos['GB']       ,  0      )
-      members << IntDmy.new(VOC.dscr_size['GB']      ,  0      )
-      members << StrDmy.new(VOC.dscr_str['GB']       , '', '\n')
+      members << IntExt.new(VOC.dscr_pos['DE']       ,  0)
+      members << IntExt.new(VOC.dscr_size['DE']      ,  0)
+      members << StrExt.new(VOC.dscr_str['DE']       , '')
+      members << IntExt.new(VOC.dscr_pos['ES']       ,  0)
+      members << IntExt.new(VOC.dscr_size['ES']      ,  0)
+      members << StrExt.new(VOC.dscr_str['ES']       , '')
+      members << IntExt.new(VOC.dscr_pos['FR']       ,  0)
+      members << IntExt.new(VOC.dscr_size['FR']      ,  0)
+      members << StrExt.new(VOC.dscr_str['FR']       , '')
+      members << IntExt.new(VOC.dscr_pos['GB']       ,  0)
+      members << IntExt.new(VOC.dscr_size['GB']      ,  0)
+      members << StrExt.new(VOC.dscr_str['GB']       , '')
     end
   end
-  
+
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------

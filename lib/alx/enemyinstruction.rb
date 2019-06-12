@@ -65,12 +65,31 @@ class EnemyInstruction < Entry
 
   # Compares two entries based on +FltVar+, +IntVar+ and +StrVar+ members. 
   # Returns +true+ if all member values are equal, or +false+ otherwise.
-  # @param _entry [Entry] Entry
+  # @param _entry [Entry] Entry object
   # @return [Boolean] +true+ if all member values are equal, otherwise +false+.
   def ==(_entry)
     (enemy_id == _entry.enemy_id) && super
   end
-  
+
+  # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
+  # differs from the snapshot, otherwise nothing happens. Returns +true+ if 
+  # the entry matches the snapshot, otherwise +false+.
+  # @param _entry [Entry] Entry object
+  # @return [Boolean] +true+ if entry matches the snapshot, otherwise +false+.
+  def check_expiration(_entry)
+    _found   = true
+    _found &&= _entry.is_a?(EnemyInstruction)
+    _found &&= (id       == _entry.id      )
+    _found &&= (enemy_id == _entry.enemy_id)
+    _found &&= (@files   == _entry.files   )
+
+    if _found
+      super
+    end
+    
+    _found
+  end
+
   # Reads one entry from a CSV  file.
   # @param _csv [CSV] CSV object
   def read_from_csv(_csv)
@@ -139,6 +158,25 @@ class EnemyInstruction < Entry
     super
   end
 
+  # Provides marshalling support for use by the Marshal library.
+  # @param _hash [Hash] Hash object
+  def marshal_load(_hash)
+    _hash.each do |_key, _value|
+      instance_variable_set(_key, _value)
+    end
+    @enemies     = []
+    @magics      = {}
+    @super_moves = {}
+  end
+  
+  # Provides marshalling support for use by the Marshal library.
+  # @return [Hash] Hash object
+  def marshal_dump
+    _hash          = super
+    _hash[:@files] = @files
+    _hash
+  end
+  
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
@@ -199,10 +237,6 @@ class EnemyInstruction < Entry
     end
     
     _order
-  end
-
-  def key
-    sprintf('%d-%s', enemy_id, @files.join(';'))
   end
 
 end	# class EnemyInstruction

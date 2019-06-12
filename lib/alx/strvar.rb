@@ -79,7 +79,7 @@ class StrVar < DataMember
   # @param _row [CSV::Row] CSV row
   def write_to_csv_row(_row)
     super
-    _value = value
+    _value = value.dup
     _value.force_encoding('UTF-8')
     _value.gsub!(@eol, '\n')
     _row[name] = _value

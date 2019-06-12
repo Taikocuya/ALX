@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('executable.rb')
+require_relative('datamember.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -31,76 +31,56 @@ module ALX
 #==============================================================================
 #                                    CLASS
 #==============================================================================
-
-# Class to handle a meta data.
-class MetaData
-
+  
+# Class to handle a data member as external string.
+class StrExt < DataMember
+  
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
-  
-  # Constructs a MetaData.
-  # @param _cache_id [String] Cache ID
-  def initialize(_cache_id)
-    @version  = Executable::VERSION
-    @cache_id = _cache_id
-    @created  = Time.new
-    @modified = Time.new + 1
+
+  # Constructs a StrDmy
+  # @param _name  [String]  Name
+  # @param _value [String]  Value
+  # @param _eol   [String]  End of line marker
+  def initialize(_name, _value, _eol = "\n")
+    super(_name, _value)
+    @eol = _eol
   end
 
-  # Returns +true+ if the meta data version is valid, otherwise +false+.
-  # @return [Boolean] +true+ if meta data version is valid, otherwise +false+.
-  def valid?
-    @version != Executable::VERSION || !@cache_id.is_a?(String)
+  # Reads one entry from a CSV row.
+  # @param _row [CSV::Row] CSV row
+  def read_from_csv_row(_row)
+    super
+    self.value = _row[name] || value
+    self.value.force_encoding('UTF-8')
+    self.value.gsub!('\n', @eol)
   end
 
-  # Returns +true+ if the meta data has modified, otherwise +false+.
-  # @return [Boolean] +true+ if meta data has modified, otherwise +false+.
-  def updated?
-    @modified > @created
-  end
-
-  # Checks the modification time of the given file and updates #modified if it 
-  # is newer.
-  # @param _filename [String] File name
-  def check_mtime(_filename)
-    _mtime = File.mtime(_filename)
-    if _mtime > @modified
-      @modified = _mtime
-    end
-  end
-  
-  # Provides marshalling support for use by the Marshal library.
-  # @param _hash [Hash] Hash object
-  def marshal_load(_hash)
-    _hash.each do |_key, _value|
-      instance_variable_set(_key, _value)
-    end
-    @modified = Time.new(0)
-  end
-  
-  # Provides marshalling support for use by the Marshal library.
-  # @return [Array] Array object
-  def marshal_dump
-    _hash             = {}
-    _hash[:@version]  = @version
-    _hash[:@cache_id] = @cache_id
-    _hash[:@created]  = @created
-    _hash
+  # Writes one entry to a CSV row.
+  # @param _row [CSV::Row] CSV row
+  def write_to_csv_row(_row)
+    super
+    _value = value.dup
+    _value.force_encoding('UTF-8')
+    _value.gsub!(@eol, '\n')
+    _row[name] = _value
   end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :version
-  attr_accessor :cache_id
-  attr_accessor :created
-  attr_accessor :modified
+  attr_accessor :eol
 
-end # class MetaData
+  def value=(_value)
+    _value = _value.to_s
+    super(_value)
+  end
+  
+end # class StrExt
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

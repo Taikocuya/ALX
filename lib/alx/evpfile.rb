@@ -122,19 +122,17 @@ class EvpFile < EpFile
   # Writes an EVP file.
   # @param _filename [String] File name
   def save(_filename)
-    _enemies  = []
-    _snapshot = snapshots[:events] || []
-    _changed  = false
-
+    _enemies = []
+    _expired = false
     @events.each_with_index do |_event, _id|
-      _changed ||= (_event.checksum != _snapshot[_id])
+      _expired ||= _event.expired
       (0...7).each do |_i|
         _enemy_id = _event.find_member(VOC.enemy_id[_i]).value
         if _enemy_id != 255
           _enemy = find_enemy(_enemy_id, _filename)
           if _enemy
             unless _enemies.include?(_enemy)
-              _changed ||= !match_enemy_snapshot(_enemy_id, _filename)
+              _expired ||= _enemy.expired
               _enemies << _enemy
             end
           else
@@ -143,7 +141,10 @@ class EvpFile < EpFile
         end
       end
     end
-    if !@events.empty? && !_changed
+    if @events.empty?
+      return
+    end
+    unless _expired
       LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
       return
     end

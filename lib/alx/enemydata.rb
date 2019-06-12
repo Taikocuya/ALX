@@ -137,6 +137,40 @@ class EnemyData < EntryData
     _encounter
   end
   
+  # Returns an enemy by ID and filename, or +nil+ otherwise.
+  # @param _id       [Integer] Enemy ID
+  # @param _filename [String]  File name
+  # @return [Enemy] Enemy object
+  def find_enemy(_id, _filename)
+    _enemies = @enemies.select { |_enemy| _enemy.id == _id }
+    
+    _enemy ||= _enemies.find do |_entry|
+      _entry.files.include?(File.basename(_filename))
+    end
+    _enemy ||= _enemies.find do |_entry|
+      _entry.files.include?('*')
+    end
+    
+    _enemy
+  end
+  
+  # Returns an enemy instructions by ID and filename, or +nil+ otherwise.
+  # @param _id       [Integer] Enemy ID
+  # @param _filename [String]  File name
+  # @return [Array] Enemy instructions
+  def find_instructions(_id, _filename)
+    _instructions = @instructions.find_all do |_instr|
+      _instr.enemy_id == _id && _instr.files.include?(File.basename(_filename))
+    end
+    if _instructions.empty?
+      _instructions = @instructions.find_all do |_instr|
+        _instr.enemy_id == _id && _instr.files.include?('*')
+      end
+    end
+    
+    _instructions
+  end
+  
   # Reads all snaphots (instance variables) from SHT files.
   def load_all_from_sht
     super
@@ -149,36 +183,10 @@ class EnemyData < EntryData
   # Writes all snaphots (instance variables) to SHT files.
   def save_all_to_sht
     super
-
-    # Enemies
-    _enemies = {}
-    @enemies.each do |_enemy|
-      _enemies[_enemy.key] = _enemy.checksum
-    end
-    save_data_to_sht(:enemies, _enemies)
-
-    # Instructions
-    _instructions = @instructions.group_by do |_instr|
-      _instr.key
-    end
-    _instructions.transform_values! do |_group|
-      _dump = ''
-      _group.each do |_instruction|
-        _dump << _instruction.dump
-      end
-      Digest::MD5.hexdigest(_dump)
-    end
-    save_data_to_sht(:instructions, _instructions)
-
-    # Events
-    save_data_to_sht(:events, @events.map(&:checksum))
-
-    # Encounters
-    _encounters = {}
-    @encounters.each do |_encounter|
-      _encounters[_encounter.key] = _encounter.checksum
-    end
-    save_data_to_sht(:encounters, _encounters)
+    save_data_to_sht(:enemies,      @enemies     )
+    save_data_to_sht(:instructions, @instructions)
+    save_data_to_sht(:events,       @events      )
+    save_data_to_sht(:encounters,   @encounters  )
   end
     
   # Reads all entries from an EVP file.
@@ -186,7 +194,6 @@ class EnemyData < EntryData
   def load_data_from_evp(_filename)
     meta.check_mtime(_filename)
     _file              = EvpFile.new(root)
-    _file.snapshots    = snapshots
     _file.items        = @items
     _file.magics       = @enemy_magic_data.data
     _file.super_moves  = @enemy_super_move_data.data
@@ -320,9 +327,8 @@ class EnemyData < EntryData
 
     meta.check_mtime(_filename)
     BinaryFile.open(_filename, 'rb') do |_f|
-      _range    = determine_range(@event_bgm_files, _filename)
-      _snapshot = snapshots[:events]
-      
+      _range = determine_range(@event_bgm_files, _filename)
+
       @event_bgm_id_range.each do |_id|
         _f.pos  = _range.begin + _id
         if !id_valid?(_id, @event_bgm_id_range, _range) || 
@@ -330,12 +336,8 @@ class EnemyData < EntryData
           next
         end
         
-        _event  = @events[_id]
-        _bgm_id = _event.find_member(VOC.bgm_id)
-        if _snapshot && _event.checksum == _snapshot[_id]
-          LOG.info(sprintf(VOC.dup, _id - @event_bgm_id_range.begin, _f.pos))
-          next
-        end
+        _entry  = @events[_id]
+        _bgm_id = _entry.find_member(VOC.bgm_id)
 
         LOG.info(sprintf(VOC.read, _id - @event_bgm_id_range.begin, _f.pos))
         _bgm_id.value  = _f.read_int('c')
@@ -350,7 +352,6 @@ class EnemyData < EntryData
   def load_data_from_enp(_filename)
     meta.check_mtime(_filename)
     _file              = EnpFile.new(root)
-    _file.snapshots    = snapshots
     _file.items        = @items
     _file.magics       = @enemy_magic_data.data
     _file.super_moves  = @enemy_super_move_data.data
@@ -365,7 +366,6 @@ class EnemyData < EntryData
   def load_data_from_dat(_filename)
     meta.check_mtime(_filename)
     _file              = DatFile.new(root)
-    _file.snapshots    = snapshots
     _file.items        = @items
     _file.magics       = @enemy_magic_data.data
     _file.super_moves  = @enemy_super_move_data.data
@@ -438,7 +438,6 @@ class EnemyData < EntryData
     
     FileUtils.mkdir_p(File.dirname(_filename))
     _file              = EvpFile.new(root)
-    _file.snapshots    = snapshots
     _file.enemies      = @enemies
     _file.instructions = @instructions
     _file.events       = @events
@@ -461,7 +460,6 @@ class EnemyData < EntryData
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
       _range    = determine_range(@event_bgm_files, _filename)
-      _snapshot = snapshots[:events]
 
       @events.each_with_index do |_entry, _id|
         _f.pos = _range.begin + _id
@@ -469,7 +467,7 @@ class EnemyData < EntryData
            !pos_valid?(_f.pos, 1, _range)
           next
         end
-        if _snapshot && _entry.checksum == _snapshot[_id]
+        unless _entry.expired
           LOG.info(sprintf(VOC.dup, _id - @event_bgm_id_range.begin, _f.pos))
           next
         end
@@ -497,7 +495,6 @@ class EnemyData < EntryData
     
     FileUtils.mkdir_p(File.dirname(_filename))
     _file              = EnpFile.new(root)
-    _file.snapshots    = snapshots
     _file.enemies      = @enemies
     _file.instructions = @instructions
     _file.encounters   = @encounters
@@ -514,7 +511,6 @@ class EnemyData < EntryData
     
     FileUtils.mkdir_p(File.dirname(_filename))
     _file              = DatFile.new(root)
-    _file.snapshots    = snapshots
     _file.enemies      = @enemies
     _file.instructions = @instructions
     _file.save(_filename)
@@ -575,7 +571,8 @@ class EnemyData < EntryData
     end
   end
 
-  # Reads all enemy entries from a CSV file.
+  # Reads all enemy entries from a CSV file. This method must be called before 
+  # #load_instructions_from_csv.
   # @param _filename [String]  File name
   # @param _force    [Boolean] Skips missing file
   def load_enemies_from_csv(_filename, _force = false)
@@ -590,10 +587,25 @@ class EnemyData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
+      _snapshot = snapshots[:enemies].dup
+      
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _enemy = create_enemy
         _enemy.read_from_csv(_f)
+        
+        if _snapshot
+          _result = false
+          _snapshot.reject! do |_sht|
+            if _result
+              break
+            end
+            _result = _enemy.check_expiration(_sht)
+          end
+        else
+          _enemy.expired = true
+        end
+        
         @enemies << _enemy
       end
     end
@@ -601,7 +613,9 @@ class EnemyData < EntryData
     LOG.info(sprintf(VOC.close, _filename))
   end
 
-  # Reads all enemy instructions from a CSV file.
+  # Reads all enemy instructions from a CSV file. Forwards the expiration to 
+  # the corresponding enemy object if an enemy instruction differs from the
+  # snapshot. This method must be called after #load_enemies_from_csv.
   # @param _filename [String]  File name
   # @param _force    [Boolean] Skips missing file
   def load_instructions_from_csv(_filename, _force = false)
@@ -616,14 +630,44 @@ class EnemyData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
+      _snapshot  = snapshots[:instructions].dup
+      _sht_limit = [_snapshot.size / 100, 100].max
+      _sht_count = 0
+
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _instr = create_instruction
         _instr.read_from_csv(_f)
+        
+        if _snapshot
+          # If more than 100 instructions differ from the snapshot, it is 
+          # faster to simply mark all remaining enemies as expired.
+          if @instructions.size - _sht_count < _sht_limit
+            _result = false
+            _snapshot.reject! do |_sht|
+              if _result
+                _sht_count += 1
+                break
+              end
+              
+              _result = _instr.check_expiration(_sht)
+              if _result
+                _enemy = find_enemy(_instr.enemy_id, _filename)
+                _enemy&.expired ||= _instr.expired
+              end
+              
+              _result
+            end
+          else
+            _enemy = find_enemy(_instr.enemy_id, _filename)
+            _enemy&.expired ||= _instr.expired
+          end
+        end
+        
         @instructions << _instr
       end
     end
-  
+
     LOG.info(sprintf(VOC.close, _filename))
   end
 
@@ -642,10 +686,25 @@ class EnemyData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
+      _snapshot = snapshots[:events].dup
+      
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _event = create_event
         _event.read_from_csv(_f)
+        
+        if _snapshot
+          _result = false
+          _snapshot.reject! do |_sht|
+            if _result
+              break
+            end
+            _result = _event.check_expiration(_sht)
+          end
+        else
+          _event.expired = true
+        end
+        
         @events << _event
       end
     end
@@ -668,10 +727,25 @@ class EnemyData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
+      _snapshot = snapshots[:encounters].dup
+      
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _encounter = create_encounter
         _encounter.read_from_csv(_f)
+        
+        if _snapshot
+          _result = false
+          _snapshot.reject! do |_sht|
+            if _result
+              break
+            end
+            _result = _encounter.check_expiration(_sht)
+          end
+        else
+          _encounter.expired = true
+        end
+        
         @encounters << _encounter
       end
     end

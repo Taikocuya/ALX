@@ -23,15 +23,17 @@
 #==============================================================================
 
 require('csv')
-require('digest')
 require_relative('binarystringio.rb')
-require_relative('fltvar.rb')
 require_relative('fltdmy.rb')
-require_relative('intvar.rb')
+require_relative('fltext.rb')
+require_relative('fltvar.rb')
 require_relative('intdmy.rb')
+require_relative('intext.rb')
+require_relative('intvar.rb')
 require_relative('main.rb')
-require_relative('strvar.rb')
 require_relative('strdmy.rb')
+require_relative('strext.rb')
+require_relative('strvar.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -57,26 +59,15 @@ class Entry
     @members    = [IntDmy.new(VOC.id, id)]
     @padding_id = -1
     @unknown_id = -1
+    @expired    = false
   end
 
-  # Returns a memory dump of the entry.
-  # @return [String] Memory dump
-  def dump
-    _strio = BinaryStringIO.new('', 'wb')
-    write_to_bin(_strio)
-    _strio.string
-  end
-  
-  # Returns the memory size of the entry.
+  # Returns the file size of the entry.
   # @return [Integer] Size of entry
   def size
-    dump.size
-  end
-
-  # Returns the MD5 checksum of the entry.
-  # @return [String] Checksum of entry
-  def checksum
-    Digest::MD5.hexdigest(dump)
+    _strio = BinaryStringIO.new('', 'wb')
+    write_to_bin(_strio)
+    _strio.pos
   end
 
   # Returns the CSV header of the entry.
@@ -106,27 +97,39 @@ class Entry
 
   # Compares two entries based on +FltVar+, +IntVar+ and +StrVar+ members. 
   # Returns +true+ if all member values are equal, or +false+ otherwise.
-  # @param _entry [Entry] Entry
+  # @param _entry [Entry] Entry object
   # @return [Boolean] +true+ if all member values are equal, otherwise +false+.
   def ==(_entry)
-    unless _entry.is_a?(Entry)
-      return false
-    end
-
     _result   = true
+    _result &&= _entry.is_a?(Entry)
     _result &&= (id == _entry.id)
-    if _result
-      _result &&= @members.all? do |_m|
-        _other = _entry.find_member(_m.name)
-        if _other && _m.is_a?(DataMember) && !_m.dummy?
-          _m.value == _other.value
-        else
-          true
-        end
+    _result &&= @members.all? do |_m|
+      _other = _entry.find_member(_m.name)
+      if _other && _m.is_a?(DataMember) && !_m.dummy?
+        _m.value == _other.value
+      else
+        true
       end
     end
     
     _result
+  end
+
+  # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
+  # differs from the snapshot, otherwise nothing happens. Returns +true+ if 
+  # the entry matches the snapshot, otherwise +false+.
+  # @param _entry [Entry] Entry object
+  # @return [Boolean] +true+ if entry matches the snapshot, otherwise +false+.
+  def check_expiration(_entry)
+    _found   = true
+    _found &&= _entry.is_a?(Entry)
+    _found &&= (id == _entry.id)
+
+    if _found && self != _entry
+      @expired = true
+    end
+    
+    _found
   end
 
   # Returns the value of a SYS attribute. If the value is a Hash, the 
@@ -201,12 +204,32 @@ class Entry
     _csv << _row
   end
 
+  # Provides marshalling support for use by the Marshal library.
+  # @param _hash [Hash] Hash object
+  def marshal_load(_hash)
+    _hash.each do |_key, _value|
+      instance_variable_set(_key, _value)
+    end
+  end
+  
+  # Provides marshalling support for use by the Marshal library.
+  # @return [Hash] Hash object
+  def marshal_dump
+    _hash               = {}
+    _hash[:@root]       = @root
+    _hash[:@members]    = @members
+    _hash[:@padding_id] = @padding_id
+    _hash[:@unknown_id] = @unknown_id
+    _hash
+  end
+  
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_reader :root
-  attr_reader :members
+  attr_reader   :root
+  attr_reader   :members
+  attr_accessor :expired
 
   def id
     _member = find_member(VOC.id)

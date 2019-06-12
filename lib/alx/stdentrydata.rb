@@ -84,7 +84,7 @@ class StdEntryData < EntryData
   # Writes all snaphots (instance variables) to SHT files.
   def save_all_to_sht
     super
-    save_data_to_sht(:data, @data.transform_values(&:checksum))
+    save_data_to_sht(:data, @data)
   end
     
   # Reads all data entries from a binary file.
@@ -293,15 +293,14 @@ class StdEntryData < EntryData
     BinaryFile.open(_filename, 'r+b') do |_f|
       _range    = determine_range(@data_file, _filename)
       _size     = create_entry.size
-      _snapshot = snapshots[:data]
-      
+
       @data.each do |_id, _entry|
         _f.pos = _range.begin + (_id - @id_range.begin) * _size
         if !id_valid?(_id, @id_range, _range) || 
            !pos_valid?(_f.pos, _size, _range)
           next
         end
-        if _snapshot && _entry.checksum == _snapshot[_id]
+        unless _entry.expired
           LOG.info(sprintf(VOC.dup, _id - @id_range.begin, _f.pos))
           next
         end
@@ -330,8 +329,7 @@ class StdEntryData < EntryData
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
       _range    = determine_range(@name_file, _filename)
-      _snapshot = snapshots[:data]
-      
+
       @data.each do |_id, _entry|
         unless id_valid?(_id, @id_range, _range)
           next
@@ -351,7 +349,7 @@ class StdEntryData < EntryData
         unless pos_valid?(_f.pos, _size, _range)
           next
         end
-        if _snapshot && _entry.checksum == _snapshot[_id]
+        unless _entry.expired
           LOG.info(sprintf(VOC.dup, _id - @id_range.begin, _pos))
           next
         end
@@ -380,7 +378,6 @@ class StdEntryData < EntryData
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b') do |_f|
       _range    = determine_range(@dscr_file, _filename)
-      _snapshot = snapshots[:data]
 
       @data.each do |_id, _entry|
         unless id_valid?(_id, @id_range, _range)
@@ -407,7 +404,7 @@ class StdEntryData < EntryData
         unless pos_valid?(_f.pos, _size, _range)
           next
         end
-        if _snapshot && _entry.checksum == _snapshot[_id]
+        unless _entry.expired
           LOG.info(sprintf(VOC.dup, _id - @id_range.begin, _pos))
           next
         end
@@ -463,7 +460,8 @@ class StdEntryData < EntryData
 
   # Reads all data entries from a CSV file.
   # @param _filename [String]  File name
-  # @param _force    [Boolean] Skips missing file and ignore missing data members.
+  # @param _force    [Boolean] Skips missing file and ignore missing data 
+  #                            members.
   def load_data_from_csv(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return
@@ -473,6 +471,8 @@ class StdEntryData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
+      _snapshot = snapshots[:data].dup
+      
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _row   = _f.shift
@@ -481,9 +481,22 @@ class StdEntryData < EntryData
         _exist = @data.include?(_entry.id) 
 
         if _force && _exist
-          @data[_entry.id].read_from_csv(_row, _force)
+          _entry = @data[_entry.id]
+          _entry.read_from_csv(_row, _force)
         else
           @data[_entry.id] = _entry
+        end
+        
+        if _snapshot
+          _result = false
+          _snapshot.reject! do |_, _sht|
+            if _result
+              break
+            end
+            _result = _entry.check_expiration(_sht)
+          end
+        else
+          _entry.expired = true
         end
       end
     end

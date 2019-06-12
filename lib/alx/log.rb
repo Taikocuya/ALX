@@ -71,8 +71,10 @@ module LOG
         _filename = _basename + _rdate + '.log'
         _filename = File.join(File.dirname(_log_file), _filename)
         FileUtils.mv(_log_file, _filename)
-        
-        _glob  = File.join(SYS.log_dir, _basename + '*.log')
+
+        _glob  = File.join(
+          SYS.log_dir, _basename + '-[0-9]*[0-9]T[0-9]*[0-9].log'
+        )
         _files = Dir.glob(_glob).sort.reverse
         while _files.size > SYS.log_keep
           FileUtils.rm(_files.pop)

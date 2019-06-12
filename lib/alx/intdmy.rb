@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('datamember.rb')
+require_relative('intext.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -32,8 +32,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a data member dummy as integer.
-class IntDmy < DataMember
+# Class to handle a data member as dummy integer.
+class IntDmy < IntExt
   
 #==============================================================================
 #                                   PUBLIC
@@ -45,29 +45,6 @@ class IntDmy < DataMember
   # @return [Boolean] +true+ if data member is a dummy, otherwise +false+.
   def dummy?
     true
-  end
-  
-  # Reads one entry from a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def read_from_csv_row(_row)
-    super
-    self.value = _row[name] || value
-  end
-
-  # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
-    super
-    _row[name] = value
-  end
-
-#------------------------------------------------------------------------------
-# Public member variables
-#------------------------------------------------------------------------------
-
-  def value=(_value)
-    _value = _value.to_i
-    super(_value)
   end
 
 end # class IntDmy
