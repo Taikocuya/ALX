@@ -51,13 +51,13 @@ class SpecialItem < StdEntry
     members << IntVar.new(VOC.order_priority            , -1, 'c' )
     members << IntVar.new(VOC.order_alphabet[country_id], -1, 'c' )
     
-    if is_eu?
+    if eu?
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
     end
     
     members << IntVar.new(VOC.purchase_price            ,  0, 'S>')
 
-    if is_eu?
+    if eu?
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
     end

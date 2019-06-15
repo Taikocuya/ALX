@@ -60,7 +60,7 @@ class EnemyShip < StdEntry
       members << IntVar.new(VOC.elements[_i]          , -1, 's>')
     end
     (0...4).each do |_i|
-      if is_eu?
+      if eu?
         members << IntExt.new(VOC.arm_name_de_pos[_i] ,  0      )
         members << IntExt.new(VOC.arm_name_de_size[_i],  0      )
         members << StrExt.new(VOC.arm_name_de_str[_i] , ''      )
@@ -117,9 +117,9 @@ class EnemyShip < StdEntry
         _entry = @items[_id]
         _name  = '???'
         if _entry
-          if is_jp? || is_us?
+          if jp? || us?
             _name = _entry.find_member(VOC.name_str[country_id]).value
-          elsif is_eu?
+          elsif eu?
             _name = _entry.find_member(VOC.name_str['GB']   ).value
           end
         end

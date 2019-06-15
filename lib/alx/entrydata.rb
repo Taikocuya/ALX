@@ -211,32 +211,32 @@ class EntryData
 
   # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
   # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.
-  def is_dc?
-    @root.is_dc?
+  def dc?
+    @root.dc?
   end
 
   # Returns +true+ if the platform is a Gamecube, otherwise +false+.
   # @return [Boolean] +true+ if platform is a Gamecube, otherwise +false+.
-  def is_gc?
-    @root.is_gc?
+  def gc?
+    @root.gc?
   end
 
   # Returns +true+ if the country is 'EU', otherwise +false+.
   # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
-  def is_eu?
-    @root.is_eu?
+  def eu?
+    @root.eu?
   end
 
   # Returns +true+ if the country is 'JP', otherwise +false+.
   # @return [Boolean] +true+ if country is 'JP', otherwise +false+.
-  def is_jp?
-    @root.is_jp?
+  def jp?
+    @root.jp?
   end
 
   # Returns +true+ if the country is 'US', otherwise +false+.
   # @return [Boolean] +true+ if country is 'US', otherwise +false+.
-  def is_us?
-    @root.is_us?
+  def us?
+    @root.us?
   end
 
 #==============================================================================

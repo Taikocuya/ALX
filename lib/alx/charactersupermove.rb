@@ -49,7 +49,7 @@ class CharacterSuperMove < StdEntry
 
     members << IntVar.new(VOC.element_id        ,  0, 'c' )
     
-    if is_eu?
+    if eu?
       members << IntVar.new(padding_hdr         ,  0, 'c' )
     end
     

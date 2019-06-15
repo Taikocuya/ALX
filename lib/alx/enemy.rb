@@ -156,9 +156,9 @@ class Enemy < Entry
         _entry = @items[_id]
         _name  = '???'
         if _entry
-          if is_jp? || is_us?
+          if jp? || us?
             _name = _entry.find_member(VOC.name_str[country_id]).value
-          elsif is_eu?
+          elsif eu?
             _name = _entry.find_member(VOC.name_str['GB']   ).value
           end
         end

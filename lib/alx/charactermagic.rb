@@ -46,11 +46,11 @@ class CharacterMagic < CharacterSuperMove
   def initialize(_root)
     super
     
-    if is_jp? || is_us?
+    if jp? || us?
       members << IntExt.new(VOC.ship_dscr_pos[country_id] ,  0)
       members << IntExt.new(VOC.ship_dscr_size[country_id],  0)
       members << StrExt.new(VOC.ship_dscr_str[country_id] , '')
-    elsif is_eu?
+    elsif eu?
       members << IntExt.new(VOC.ship_dscr_pos['DE']       ,  0)
       members << IntExt.new(VOC.ship_dscr_size['DE']      ,  0)
       members << StrExt.new(VOC.ship_dscr_str['DE']       , '')

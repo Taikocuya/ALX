@@ -60,7 +60,7 @@ class UsableItem < StdEntry
     members << IntVar.new(VOC.order_priority            ,  0, 'c' )
     members << IntVar.new(VOC.order_alphabet[country_id], -1, 'c' )
     
-    if is_eu?
+    if eu?
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
     end
     

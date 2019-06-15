@@ -47,7 +47,7 @@ class EnemySuperMove < StdEntry
     super
     add_name_members
 
-    unless is_eu?
+    unless eu?
       members << IntVar.new(padding_hdr      ,  0, 'c' )
       members << IntVar.new(padding_hdr      ,  0, 'c' )
       members << IntVar.new(padding_hdr      ,  0, 'c' )
@@ -61,7 +61,7 @@ class EnemySuperMove < StdEntry
     members << IntVar.new(VOC.scope_id       ,  0, 'C' )
     members << StrDmy.new(VOC.scope_name     , ''      )
     
-    if is_eu?
+    if eu?
       members << IntVar.new(padding_hdr      ,  0, 'c' )
     end
     

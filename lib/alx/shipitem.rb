@@ -56,7 +56,7 @@ class ShipItem < StdEntry
     members << IntVar.new(VOC.ship_effect_turns         ,  0, 'c' )
     members << IntVar.new(VOC.consume                   ,  0, 'c' )
 
-    unless is_eu?
+    unless eu?
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
     end
 
@@ -66,7 +66,7 @@ class ShipItem < StdEntry
     members << IntVar.new(VOC.order_alphabet[country_id],  0, 'c' )
     members << IntVar.new(padding_hdr                   ,  0, 'c' )
     
-    if is_eu?
+    if eu?
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
     end

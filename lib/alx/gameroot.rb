@@ -118,31 +118,31 @@ class GameRoot
 
   # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
   # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.
-  def is_dc?
+  def dc?
     @platform_id == 'DC'
   end
 
   # Returns +true+ if the platform is a Gamecube, otherwise +false+.
   # @return [Boolean] +true+ if platform is a Gamecube, otherwise +false+.
-  def is_gc?
+  def gc?
     @platform_id == 'GC'
   end
 
   # Returns +true+ if the country is 'EU', otherwise +false+.
   # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
-  def is_eu?
+  def eu?
     @country_id == 'EU'
   end
 
   # Returns +true+ if the country is 'JP', otherwise +false+.
   # @return [Boolean] +true+ if country is 'JP', otherwise +false+.
-  def is_jp?
+  def jp?
     @country_id == 'JP'
   end
 
   # Returns +true+ if the country is 'US', otherwise +false+.
   # @return [Boolean] +true+ if country is 'US', otherwise +false+.
-  def is_us?
+  def us?
     @country_id == 'US'
   end
 

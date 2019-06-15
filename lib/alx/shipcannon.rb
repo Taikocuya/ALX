@@ -58,7 +58,7 @@ class ShipCannon < StdEntry
     members << IntVar.new(VOC.element_id                ,  0, 'c' )
     members << StrDmy.new(VOC.element_name              , ''      )
     
-    if is_eu?
+    if eu?
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
     end
     
@@ -75,7 +75,7 @@ class ShipCannon < StdEntry
     members << IntVar.new(VOC.order_priority            ,  0, 'c' )
     members << IntVar.new(VOC.order_alphabet[country_id],  0, 'c' )
     
-    if is_eu?
+    if eu?
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
     else
       members << IntVar.new(VOC.padding[-1]             ,  0, 'c' )

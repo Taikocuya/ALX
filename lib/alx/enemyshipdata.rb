@@ -119,7 +119,7 @@ class EnemyShipData < StdEntryData
           
           LOG.info(sprintf(VOC.read, _id, _f.pos))
           _pos.value  = _f.pos
-          unless is_eu?
+          unless eu?
             _str.value  = _f.read_str(0xff, 0x4)
           else
             _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
@@ -220,7 +220,7 @@ class EnemyShipData < StdEntryData
           end
           
           LOG.info(sprintf(VOC.write, _id, _pos))
-          unless is_eu?
+          unless eu?
             _f.write_str(_str, _size, 0x4)
           else
             _f.write_str(_str, _size, 0x1, 'ISO8859-1')

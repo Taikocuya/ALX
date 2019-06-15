@@ -131,11 +131,11 @@ class StdEntryData < EntryData
         _entry  = @data[_id]
         _msg_id = _entry.msg_id
 
-        if is_jp? || is_us?
+        if jp? || us?
           _pos  = _entry.find_member(VOC.name_pos[country_id] )
           _size = _entry.find_member(VOC.name_size[country_id])
           _str  = _entry.find_member(VOC.name_str[country_id] )
-        elsif is_eu?
+        elsif eu?
           _lang = determine_lang(_filename)
           _pos  = _entry.find_member(VOC.name_pos[_lang] )
           _size = _entry.find_member(VOC.name_size[_lang])
@@ -192,11 +192,11 @@ class StdEntryData < EntryData
         _entry  = @data[_id]
         _msg_id = _entry.msg_id
 
-        if is_jp? || is_us?
+        if jp? || us?
           _pos  = _entry.find_member(VOC.dscr_pos[country_id] )
           _size = _entry.find_member(VOC.dscr_size[country_id])
           _str  = _entry.find_member(VOC.dscr_str[country_id] )
-        elsif is_eu?
+        elsif eu?
           _lang = determine_lang(_filename)
           _pos  = _entry.find_member(VOC.dscr_pos[_lang] )
           _size = _entry.find_member(VOC.dscr_size[_lang])
@@ -219,7 +219,7 @@ class StdEntryData < EntryData
         
         LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
         _pos.value = _f.pos
-        unless is_eu?
+        unless eu?
           _str.value = _f.read_str(0xff, 0x4)
         else
           _str.value = _f.read_str(0xff, 0x1, 'ISO8859-1')
@@ -384,11 +384,11 @@ class StdEntryData < EntryData
           next
         end
 
-        if is_jp? || is_us?
+        if jp? || us?
           _pos  = _entry.find_member(VOC.dscr_pos[country_id] ).value
           _size = _entry.find_member(VOC.dscr_size[country_id]).value
           _str  = _entry.find_member(VOC.dscr_str[country_id] ).value
-        elsif is_eu?
+        elsif eu?
           _lang = determine_lang(_filename)
           if _lang
             _pos  = _entry.find_member(VOC.dscr_pos[_lang] ).value
@@ -410,7 +410,7 @@ class StdEntryData < EntryData
         end
         
         LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
-        unless is_eu?
+        unless eu?
           _f.write_str(_str, _size, 0x4)
         else
           _f.write_str(_str, _size, 0x1, 'ISO8859-1')

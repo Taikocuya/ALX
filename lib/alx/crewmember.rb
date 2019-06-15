@@ -50,7 +50,7 @@ class CrewMember < StdEntry
     members << IntVar.new(VOC.position_id         , -1, 'c' )
     members << StrDmy.new(VOC.position_name       , ''      )
     
-    if is_eu?
+    if eu?
       members << IntVar.new(padding_hdr           ,  0, 'c' )
     end
     
@@ -66,7 +66,7 @@ class CrewMember < StdEntry
     members << IntVar.new(padding_hdr             ,  0, 'c' )
     members << IntVar.new(padding_hdr             ,  0, 'c' )
     
-    if is_jp?
+    if jp?
       members << IntVar.new(VOC.unknown[-1]       ,  0, 's>')
       members << IntVar.new(VOC.ship_effect_value ,  0, 's>')
     else

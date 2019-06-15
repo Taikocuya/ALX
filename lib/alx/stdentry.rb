@@ -44,9 +44,9 @@ class StdEntry < Entry
   # Add name data members.
   # @param _size [Integer] Size of name data members
   def add_name_members(_size = 17)
-    if is_jp? || is_us?
+    if jp? || us?
       members << StrVar.new(VOC.name_str[country_id]  , '', _size)
-    elsif is_eu?
+    elsif eu?
       members << IntVar.new(VOC.message_id[country_id],  0, 'L>' )
       members << IntExt.new(VOC.name_pos['DE']        ,  0       )
       members << IntExt.new(VOC.name_size['DE']       ,  0       )
@@ -65,11 +65,11 @@ class StdEntry < Entry
 
   # Add description data members.
   def add_dscr_members
-    if is_jp? || is_us?
+    if jp? || us?
       members << IntExt.new(VOC.dscr_pos[country_id] ,  0)
       members << IntExt.new(VOC.dscr_size[country_id],  0)
       members << StrExt.new(VOC.dscr_str[country_id] , '')
-    elsif is_eu?
+    elsif eu?
       members << IntExt.new(VOC.dscr_pos['DE']       ,  0)
       members << IntExt.new(VOC.dscr_size['DE']      ,  0)
       members << StrExt.new(VOC.dscr_str['DE']       , '')

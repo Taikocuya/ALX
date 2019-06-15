@@ -153,9 +153,9 @@ class EnemyInstruction < Entry
         _entry = @super_moves[_instr_id]
       end
       if _entry
-        if is_jp? || is_us?
+        if jp? || us?
           _instr_name = _entry.find_member(VOC.name_str[country_id]).value
-        elsif is_eu?
+        elsif eu?
           _instr_name = _entry.find_member(VOC.name_str['GB']   ).value
         end
       end

@@ -56,7 +56,7 @@ class Armor < StdEntry
     members << IntVar.new(VOC.order_priority            , -1, 'c' )
     members << IntVar.new(VOC.order_alphabet[country_id], -1, 'c' )
     
-    unless is_eu?
+    unless eu?
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
     end
 
@@ -69,7 +69,7 @@ class Armor < StdEntry
       members << IntVar.new(VOC.feature_value[_i]       ,  0, 's>')
     end
 
-    if is_eu?
+    if eu?
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
     end

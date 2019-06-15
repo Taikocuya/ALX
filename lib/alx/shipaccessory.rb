@@ -49,7 +49,7 @@ class ShipAccessory < StdEntry
 
     members << IntVar.new(VOC.ship_flags                ,  0, 'c' )
     
-    if is_eu?
+    if eu?
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
     end
     

@@ -107,7 +107,7 @@ class EntryTransform
     _valid &&= has_file?(_root.dirname, _root.sys(:exec_file))
     _valid &&= has_file?(_root.dirname, _root.sys(:level_file))
     
-    if _root.is_eu?
+    if _root.eu?
       _valid &&= has_file?(_root.dirname, _root.sys(:sot_file_gb))
       _valid &&= has_file?(_root.dirname, _root.sys(:sot_file_de))
       _valid &&= has_file?(_root.dirname, _root.sys(:sot_file_es))

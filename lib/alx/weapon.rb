@@ -55,7 +55,7 @@ class Weapon < StdEntry
     members << IntVar.new(VOC.effect_id                 , -1, 'c' )
     members << StrDmy.new(VOC.effect_name               , ''      )
     
-    if is_eu?
+    if eu?
       members << IntVar.new(padding_hdr                 ,  0, 'c' )
     end
     
