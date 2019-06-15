@@ -26,6 +26,7 @@ require('fileutils')
 require('ostruct')
 require_relative('executable.rb')
 require_relative('metadata.rb')
+require_relative('shtfile.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -64,7 +65,7 @@ class EntryData
     clear_snapshots
   end
     
-  # Clears meta data.
+  # Clears metadata.
   def clear_meta
     @meta = MetaData.new(@cache_id)
   end
@@ -73,6 +74,15 @@ class EntryData
   def clear_snapshots
     @snapshots ||= {}
     @snapshots.clear
+  end
+  
+  # Removes all snapshots.
+  def remove_snapshots
+    _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
+    _filename = sprintf(
+      SHT_FILE, self.class.name.split('::').last, '*'
+    ).downcase
+    FileUtils.rm(Dir.glob(File.join(_dirname, _filename)))
   end
     
   # Creates an entry.
@@ -124,32 +134,30 @@ class EntryData
     _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
     _filename = sprintf(SHT_FILE, _class, _sym).downcase
     _filename = File.join(_dirname, _filename)
-    _obj      = nil
-    
+
     unless File.exist?(_filename)
       return nil
     end
-    
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_snapshot))
-    File.open(_filename, 'rb') do |_f|
-      LOG.info(sprintf(VOC.read, 0, _f.pos))
-      _obj = Marshal.load(_f)
+
+    _file = ShtFile.new
+    _file.load(_filename)
+
+    if _sym != :meta && !_file.valid?(@meta)
+      clear_meta
+      clear_snapshots
+      remove_snapshots
+    else
+      @snapshots[_sym] = _file.data
     end
-    LOG.info(sprintf(VOC.close, _filename))
-    
-    @snapshots[_sym] = _obj
   end
 
   # Reads all snaphots (instance variables) from SHT files.
   def load_all_from_sht
     @meta = load_data_from_sht(:meta) || clear_meta
-    if @meta.valid? || @meta.cache_id != @cache_id
-      _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
-      _filename = sprintf(
-        SHT_FILE, self.class.name.split('::').last, '*'
-      ).downcase
-
-      FileUtils.rm(Dir.glob(File.join(_dirname, _filename)))
+    if !@meta.valid? || @meta.cache_id != @cache_id
+      clear_meta
+      clear_snapshots
+      remove_snapshots
     end
   end
 
@@ -169,14 +177,12 @@ class EntryData
     _filename = sprintf(SHT_FILE, _class, _sym).downcase
     _filename = File.join(_dirname, _filename)
 
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_snapshot))
     FileUtils.mkdir_p(_dirname)
-    File.open(_filename, 'wb') do |_f|
-      LOG.info(sprintf(VOC.write, 0, _f.pos))
-      Marshal.dump(_obj, _f)
-    end
-    LOG.info(sprintf(VOC.close, _filename))
-
+    _file      = ShtFile.new
+    _file.meta = @meta
+    _file.data = _obj
+    _file.save(_filename)
+    
     @snapshots[_sym] = _obj
   end
 
@@ -185,7 +191,7 @@ class EntryData
     clear_meta
     save_data_to_sht(:meta, @meta)
   end
-
+  
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------

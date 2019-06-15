@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require('securerandom')
 require_relative('executable.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -33,8 +32,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle metadata for snapshots.
-class MetaData
+# Class to read and write SHT files.
+class ShtFile
 
 #==============================================================================
 #                                   PUBLIC
@@ -42,72 +41,65 @@ class MetaData
 
   public
   
-  # Constructs a MetaData.
-  # @param _cache_id [String] Cache ID
-  def initialize(_cache_id)
-    @version  = Executable::VERSION
-    @uuid     = SecureRandom.uuid
-    @cache_id = _cache_id
-    @created  = Time.new
-    @modified = Time.new + 1
+  # Constructs a ShtFile.
+  def initialize
+    @meta = nil
+    @data = nil
   end
 
-  # Returns +true+ if the metadata version is valid, otherwise +false+.
-  # @return [Boolean] +true+ if metadata version is valid, otherwise +false+.
-  def valid?
+  # Compares own metadata with given metadata. Returns +true+ if metadata 
+  # objects are equal or +false+ otherwise.
+  # @param _meta [MetaData] MetaData object
+  # @return [Boolean] +true+ if metadata objects are equal, otherwise +false+.
+  def valid?(_meta)
     _result   = true
-    _result &&= (@version == Executable::VERSION)
-    _result &&= @cache_id.is_a?(String)
+    _result &&= _meta.is_a?(MetaData)
+    _result &&= @meta.is_a?(MetaData)
+    _result &&= (@meta.version  == _meta.version )
+    _result &&= (@meta.uuid     == _meta.uuid    )
+    _result &&= (@meta.cache_id == _meta.cache_id)
+    _result &&= (@meta.created  == _meta.created )
     _result
   end
 
-  # Returns +true+ if the metadata has modified, otherwise +false+.
-  # @return [Boolean] +true+ if metadata has modified, otherwise +false+.
-  def updated?
-    @modified > @created
+  # Reads a SHT file.
+  # @param _filename [String] File name
+  def load(_filename)
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_snapshot))
+      
+    File.open(_filename, 'rb') do |_f|
+      LOG.info(sprintf(VOC.read, 0, _f.pos))
+      @meta = Marshal.load(_f)
+      LOG.info(sprintf(VOC.read, 1, _f.pos))
+      @data = Marshal.load(_f)
+    end
+    
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
-  # Checks the modification time of the given file and updates #modified if it 
-  # is newer.
+  # Writes a SHT file.
   # @param _filename [String] File name
-  def check_mtime(_filename)
-    _mtime = File.mtime(_filename)
-    if _mtime > @modified
-      @modified = _mtime
+  def save(_filename)
+    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_snapshot))
+
+    File.open(_filename, 'wb') do |_f|
+      LOG.info(sprintf(VOC.write, 0, _f.pos))
+      Marshal.dump(@meta, _f)
+      LOG.info(sprintf(VOC.write, 1, _f.pos))
+      Marshal.dump(@data, _f)
     end
-  end
-  
-  # Provides marshalling support for use by the Marshal library.
-  # @param _hash [Hash] Hash object
-  def marshal_load(_hash)
-    _hash.each do |_sym, _value|
-      instance_variable_set(_sym, _value)
-    end
-    @modified = Time.new(0)
-  end
-  
-  # Provides marshalling support for use by the Marshal library.
-  # @return [Hash] Hash object
-  def marshal_dump
-    _hash             = {}
-    _hash[:@version ] = @version
-    _hash[:@uuid    ] = @uuid
-    _hash[:@cache_id] = @cache_id
-    _hash[:@created ] = @created
-    _hash
+
+    LOG.info(sprintf(VOC.close, _filename))
   end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :version
-  attr_accessor :uuid
-  attr_accessor :cache_id
-  attr_accessor :created
-  attr_accessor :modified
+  attr_accessor :meta
+  attr_accessor :data
 
-end # class MetaData
+end # class ShtFile
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
