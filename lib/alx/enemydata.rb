@@ -170,38 +170,6 @@ class EnemyData < EntryData
     
     _instructions
   end
-  
-  # Reads all snaphots (instance variables) from SHT files.
-  def load_all_from_sht
-    super
-    load_data_from_sht(:enemies     )
-    load_data_from_sht(:instructions)
-    load_data_from_sht(:events      )
-    load_data_from_sht(:encounters  )
-  end
-  
-  # Writes all snaphots (instance variables) to SHT files.
-  def save_all_to_sht
-    super
-    save_data_to_sht(:enemies,      @enemies     )
-    save_data_to_sht(:instructions, @instructions)
-    save_data_to_sht(:events,       @events      )
-    save_data_to_sht(:encounters,   @encounters  )
-  end
-    
-  # Reads all entries from an EVP file.
-  # @param _filename [String] File name
-  def load_data_from_evp(_filename)
-    meta.check_mtime(_filename)
-    _file              = EvpFile.new(root)
-    _file.items        = @items
-    _file.magics       = @enemy_magic_data.data
-    _file.super_moves  = @enemy_super_move_data.data
-    _file.load(_filename)
-    @events.concat(_file.events)
-    concat_enemies(_file.enemies)
-    concat_instructions(_file.instructions)
-  end
 
   # Concatenates enemies and removes its duplicates.
   # @param _enemies [Array] Enemy objects
@@ -227,7 +195,7 @@ class EnemyData < EntryData
     # correctly, this method is recursively called per single segment.
     if _stack_level == 1
       _group_by_files = _instructions.group_by do |_instr|
-        _instr.files.join(';').to_s
+        _instr.files
       end
       if _group_by_files.size > 1
         _group_by_files.each_value do |_group|
@@ -238,10 +206,10 @@ class EnemyData < EntryData
     end
     
     _new_groups = _instructions.group_by do |_instr|
-      _instr.files.join(';').to_s + _instr.enemy_id.to_s
+      _instr.group_key
     end
     _old_groups = @instructions.group_by do |_instr|
-      _instr.files.join(';').to_s + _instr.enemy_id.to_s
+      _instr.group_key
     end
 
     _new_groups.each_value do |_new|
@@ -320,6 +288,38 @@ class EnemyData < EntryData
     end
   end
 
+  # Reads all snaphots (instance variables) from SHT files.
+  def load_all_from_sht
+    super
+    load_data_from_sht(:enemies     )
+    load_data_from_sht(:instructions)
+    load_data_from_sht(:events      )
+    load_data_from_sht(:encounters  )
+  end
+  
+  # Writes all snaphots (instance variables) to SHT files.
+  def save_all_to_sht
+    super
+    save_data_to_sht(:enemies,      @enemies     )
+    save_data_to_sht(:instructions, @instructions)
+    save_data_to_sht(:events,       @events      )
+    save_data_to_sht(:encounters,   @encounters  )
+  end
+    
+  # Reads all entries from an EVP file.
+  # @param _filename [String] File name
+  def load_data_from_evp(_filename)
+    meta.check_mtime(_filename)
+    _file             = EvpFile.new(root)
+    _file.items       = @items
+    _file.magics      = @enemy_magic_data.data
+    _file.super_moves = @enemy_super_move_data.data
+    _file.load(_filename)
+    @events.concat(_file.events)
+    concat_enemies(_file.enemies)
+    concat_instructions(_file.instructions)
+  end
+
   # Reads all BGM entries from a binary file.
   # @param _filename [String] File name
   def load_bgms_from_bin(_filename)
@@ -351,10 +351,10 @@ class EnemyData < EntryData
   # @param _filename [String] File name
   def load_data_from_enp(_filename)
     meta.check_mtime(_filename)
-    _file              = EnpFile.new(root)
-    _file.items        = @items
-    _file.magics       = @enemy_magic_data.data
-    _file.super_moves  = @enemy_super_move_data.data
+    _file             = EnpFile.new(root)
+    _file.items       = @items
+    _file.magics      = @enemy_magic_data.data
+    _file.super_moves = @enemy_super_move_data.data
     _file.load(_filename)
     @encounters.concat(_file.encounters)
     concat_enemies(_file.enemies)
@@ -365,10 +365,10 @@ class EnemyData < EntryData
   # @param _filename [String] File name
   def load_data_from_dat(_filename)
     meta.check_mtime(_filename)
-    _file              = DatFile.new(root)
-    _file.items        = @items
-    _file.magics       = @enemy_magic_data.data
-    _file.super_moves  = @enemy_super_move_data.data
+    _file             = DatFile.new(root)
+    _file.items       = @items
+    _file.magics      = @enemy_magic_data.data
+    _file.super_moves = @enemy_super_move_data.data
     _file.load(_filename)
     concat_enemies(_file.enemies)
     concat_instructions(_file.instructions)
@@ -587,7 +587,13 @@ class EnemyData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
-      _snapshot = snapshots[:enemies].dup
+      # If the methods #load_enemies_from_csv and #load_instructions_from_csv 
+      # are called in the wrong order, each enemy is forced to be saved. 
+      # Snapshots are not loaded and differences are not detected. The total 
+      # running time increases enormously.
+      if @instructions.empty?
+        _snapshot = snapshots[:enemies].dup
+      end
       
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
@@ -625,14 +631,23 @@ class EnemyData < EntryData
     unless @instructions.empty?
       return
     end
-    
+
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
-      _snapshot  = snapshots[:instructions].dup
-      _sht_limit = [_snapshot.size / 100, 100].max
-      _sht_count = 0
+      # If the methods #load_enemies_from_csv and #load_instructions_from_csv 
+      # are called in the wrong order, each enemy is forced to be saved. 
+      # Snapshots are not loaded and differences are not detected. The total 
+      # running time increases enormously.
+      unless @enemies.empty?
+        _snapshot = snapshots[:instructions]
+        if _snapshot
+          _snapshot = _snapshot.group_by do |_instr|
+            _instr.group_key
+          end
+        end
+      end
 
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
@@ -640,28 +655,23 @@ class EnemyData < EntryData
         _instr.read_from_csv(_f)
         
         if _snapshot
-          # If more than 100 instructions differ from the snapshot, it is 
-          # faster to simply mark all remaining enemies as expired.
-          if @instructions.size - _sht_count < _sht_limit
-            _result = false
-            _snapshot.reject! do |_sht|
-              if _result
-                _sht_count += 1
-                break
+          _key   = _instr.group_key
+          _group = _snapshot[_key]
+          if _group
+            if _group.any? { |_sht| _instr.check_expiration(_sht) }
+              _enemy = find_enemy(_instr.enemy_id, _filename)
+              if _enemy && _instr.expired
+                _enemy.expired = true
+                _snapshot.delete(_key)
               end
-              
-              _result = _instr.check_expiration(_sht)
-              if _result
-                _enemy = find_enemy(_instr.enemy_id, _filename)
-                _enemy&.expired ||= _instr.expired
-              end
-              
-              _result
             end
-          else
-            _enemy = find_enemy(_instr.enemy_id, _filename)
-            _enemy&.expired ||= _instr.expired
+            if _group.last.id == _instr.id
+              _snapshot.delete(_key)
+            end
           end
+        else
+          _enemy = find_enemy(_instr.enemy_id, _filename)
+          _enemy&.expired = true
         end
         
         @instructions << _instr

@@ -68,7 +68,20 @@ class EnemyInstruction < Entry
   # @param _entry [Entry] Entry object
   # @return [Boolean] +true+ if all member values are equal, otherwise +false+.
   def ==(_entry)
-    (enemy_id == _entry.enemy_id) && super
+    _result   = true
+    _result &&= _entry.is_a?(EnemyInstruction)
+    _result &&= (id       == _entry.id      )
+    _result &&= (enemy_id == _entry.enemy_id)
+    _result &&= @members.all? do |_m|
+      _other = _entry.find_member(_m.name)
+      if _other && _m.is_a?(DataMember) && !_m.dummy?
+        _m.value == _other.value
+      else
+        true
+      end
+    end
+    
+    _result
   end
 
   # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
@@ -203,7 +216,11 @@ class EnemyInstruction < Entry
       _enemy_id
     end
   end
-  
+
+  def group_key
+    [enemy_id] + @files
+  end
+
   def type_id
     _member = find_member(VOC.instr_type_id)
     if _member
