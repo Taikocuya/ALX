@@ -283,6 +283,102 @@ class Entry
     @root.us?
   end
 
+  # Returns +:big+ or +:little+ depending on the platform endianness.
+  # @return [Symbol] +:big+ or +:little+ depending on endianness.
+  def endianness
+    @root.endianness
+  end
+
+  # Returns +true+ if the endianness is big-endian, otherwise +false+.
+  # @return [Boolean] +true+ if endianness is big-endian, otherwise +false+.
+  def big_endian?
+    @root.big_endian?
+  end
+
+  # Returns +true+ if the endianness is little-endian, otherwise +false+.
+  # @return [Boolean] +true+ if endianness is little-endian, otherwise +false+.
+  def little_endian?
+    @root.little_endian?
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def int8
+    @root.int8
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def int16
+    @root.int16
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def int32
+    @root.int32
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def int64
+    @root.int64
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def uint8
+    @root.uint8
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def uint16
+    @root.uint16
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def uint32
+    @root.uint32
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def uint64
+    @root.uint64
+  end
+
+  # Returns the required float directive depending on the platform endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def float
+    @root.float
+  end
+
+  # Returns the required float directive depending on the platform endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def double
+    @root.double
+  end
+
 #==============================================================================
 #                                  PROTECTED
 #==============================================================================
