@@ -97,7 +97,7 @@ class EnpFile < EpFile
   def load(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    AklzFile.open(_filename, 'rb') do |_f|
+    CompressionFile.open(root, _filename, 'rb') do |_f|
       # Segments
       _signature = _f.read(0x4)
       if _signature == FILE_SIG
@@ -237,7 +237,7 @@ class EnpFile < EpFile
 
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
-    AklzFile.open(_filename, 'wb') do |_f|
+    CompressionFile.open(root, _filename, 'wb') do |_f|
       # Segments (pre-processing)
       if _segments.size > 1
         _f.pos = _segments.size * 0x20 + 0x8

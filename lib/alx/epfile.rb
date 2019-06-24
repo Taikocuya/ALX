@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('aklzfile.rb')
 require_relative('enemy.rb')
 require_relative('enemyinstruction.rb')
 

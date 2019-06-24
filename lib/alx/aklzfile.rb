@@ -33,7 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to compress and decompress files with AKLZ.
+# Class to compress and decompress files with AKLZ. The file format is
+# big-endian throughout. 
 # @see https://github.com/nickworonekin/puyotools
 class AklzFile < BinaryStringIO
   

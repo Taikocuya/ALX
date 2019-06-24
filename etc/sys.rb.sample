@@ -30,7 +30,7 @@ module ALX
 SYS.configure do |_s|
 
 #------------------------------------------------------------------------------
-# Game paths
+# ALX
 #------------------------------------------------------------------------------
 
   # Path to 'build' directory
@@ -42,11 +42,18 @@ SYS.configure do |_s|
   # Path to 'thirdparty' directory
   _s.thirdparty_dir = _s.expand('thirdparty')
 
+  # Required version of Ruby
+  _s.ruby_version = '2.4.0'
+  
   # Number of log files per command
   _s.log_keep  = 3
   # Severity level for log messages
   _s.log_level = 'info'
-  
+
+#------------------------------------------------------------------------------
+# Game paths
+#------------------------------------------------------------------------------
+
   # Path to 'archive' directory relative to game root
   _s.archive_dir  = 'archive'
   # Path to 'database' directory relative to game root
@@ -239,18 +246,30 @@ SYS.configure do |_s|
 #------------------------------------------------------------------------------
 
   # Platform files
-  _s.platform_files = {
+  _s.platform_files        = {
     'DC' => [_s.exec_file['DC'], _s.ip_file              ],
     'GC' => [_s.exec_file['GC'], _s.bnr_file, _s.hdr_file],
   }
-  
+  # Platform endianness
+  _s.platform_endianness   = {
+    'DC' => :BE,
+    'GC' => :LE,
+  }
+  # Platform compressions
+  _s.platform_compressions = {
+    'DC' => 'ALX::BinaryFile',
+    'GC' => 'ALX::AklzFile'  ,
+  }
+
   # Product IDs
   _s.product_ids   = {
     'DC' => Regexp.union(
-      /^(6107110 06|6107810|8320062 50)$/,
+      /^(6107110 06|6107810|8320062 50|)$/,
       /^(HDR-0076|HDR-0119|IGN9|MK-51052)$/
     ),
-    'GC' => /^GEA$/,
+    'GC' => Regexp.union(
+      /^GEA$/
+    ),
   }
   # Product Names
   _s.product_names = {
@@ -260,7 +279,10 @@ SYS.configure do |_s|
       /^OFFICIAL SEGA DREAMCAST MAGAZINE DECEMBER 2000$/,
       /^SKIES OF ARCADIA( DISC\s?(1|2))?$/
     ),
-    'GC' => /^((Skies of|Eternal) Arcadia Legends|ｴﾀｰﾅﾙｱﾙｶﾃﾞｨｱ ﾚｼﾞｪﾝﾄﾞ)$/,
+    'GC' => Regexp.union(
+      /^(Skies of|Eternal) Arcadia Legends$/,
+      /^ｴﾀｰﾅﾙｱﾙｶﾃﾞｨｱ ﾚｼﾞｪﾝﾄﾞ$/
+    ),
   }
     
   # Region IDs

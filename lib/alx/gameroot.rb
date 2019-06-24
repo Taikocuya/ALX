@@ -22,7 +22,9 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
+require_relative('aklzfile.rb')
 require_relative('bnrfile.rb')
+require_relative('compressionfile.rb')
 require_relative('fileable.rb')
 require_relative('hdrfile.rb')
 
@@ -146,6 +148,108 @@ class GameRoot
     @country_id == 'US'
   end
 
+  # Returns +:big+ or +:little+ depending on the platform endianness.
+  # @return [Symbol] +:big+ or +:little+ depending on endianness.
+  def endianness
+    sys(:platform_endianness)
+  end
+
+  # Returns +true+ if the endianness is big-endian, otherwise +false+.
+  # @return [Boolean] +true+ if endianness is big-endian, otherwise +false+.
+  def big_endian?
+    endianness == :BE
+  end
+
+  # Returns +true+ if the endianness is little-endian, otherwise +false+.
+  # @return [Boolean] +true+ if endianness is little-endian, otherwise +false+.
+  def little_endian?
+    endianness == :LE
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def int8
+    'c'
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def int16
+    big_endian? ? 's>' : 's<'
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def int32
+    big_endian? ? 'l>' : 'l<'
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def int64
+    big_endian? ? 'q>' : 'q<'
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def uint8
+    'C'
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def uint16
+    big_endian? ? 'S>' : 'S<'
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def uint32
+    big_endian? ? 'L>' : 'L<'
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def uint64
+    big_endian? ? 'Q>' : 'Q<'
+  end
+
+  # Returns the required float directive depending on the platform endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def float
+    big_endian? ? 'g' : 'e'
+  end
+
+  # Returns the required float directive depending on the platform endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def double
+    big_endian? ? 'G' : 'E'
+  end
+  
+  # Returns the file class depending on the platform compression. 
+  # @return [Class] File class depending on platform compression
+  def compression
+    Kernel.const_get(sys(:platform_compressions))
+  end
+
   # Returns the value of a SYS attribute. If the value is a Hash, the 
   # instance variables are considered during key selection.
   # @param _sym [Symbol] SYS attribute symbol
@@ -219,7 +323,7 @@ class GameRoot
       end
     end
   end
-
+  
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
@@ -261,13 +365,15 @@ class GameRoot
   # @return [Boolean] +true+ if configuration is valid, otherwise +false+.
   def init_config
     _result   = true
-    _result &&= check_sys_attr(:platform_files)
-    _result &&= check_sys_attr(:region_ids    )
-    _result &&= check_sys_attr(:country_ids   )
-    _result &&= check_sys_attr(:maker_ids     )
-    _result &&= check_sys_attr(:maker_names   )
-    _result &&= check_sys_attr(:product_ids   )
-    _result &&= check_sys_attr(:product_names )
+    _result &&= check_sys_attr(:platform_files       )
+    _result &&= check_sys_attr(:platform_endianness  )
+    _result &&= check_sys_attr(:platform_compressions)
+    _result &&= check_sys_attr(:region_ids           )
+    _result &&= check_sys_attr(:country_ids          )
+    _result &&= check_sys_attr(:maker_ids            )
+    _result &&= check_sys_attr(:maker_names          )
+    _result &&= check_sys_attr(:product_ids          )
+    _result &&= check_sys_attr(:product_names        )
     _result
   end
 

@@ -65,7 +65,7 @@ class DatFile < EpFile
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    AklzFile.open(_filename, 'rb') do |_f|
+    CompressionFile.open(root, _filename, 'rb') do |_f|
       LOG.info(sprintf(VOC.read, _id, _f.pos))
       load_enemy(_f, _id, _filename)
     end
@@ -107,7 +107,7 @@ class DatFile < EpFile
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
-    AklzFile.open(_filename, 'wb') do |_f|
+    CompressionFile.open(root, _filename, 'wb') do |_f|
       LOG.info(sprintf(VOC.write, _id, _f.pos))
       save_enemy(_f, _enemy, _filename)
     end

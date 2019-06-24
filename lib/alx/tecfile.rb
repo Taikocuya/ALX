@@ -22,7 +22,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('aklzfile.rb')
 require_relative('enemyshiptask.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -76,7 +75,7 @@ class TecFile
   def load(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    AklzFile.open(_filename, 'rb') do |_f|
+    CompressionFile.open(@root, _filename, 'rb') do |_f|
       _size = (_f.size - 0x4) / create_task.size
       (0..._size).each do |_id|
         LOG.info(sprintf(VOC.read, _id, _f.pos))
@@ -123,7 +122,7 @@ class TecFile
 
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
-    AklzFile.open(_filename, 'wb') do |_f|
+    CompressionFile.open(@root, _filename, 'wb') do |_f|
       _last = nil
       (0..._tasks.size).each do |_id|
         LOG.info(sprintf(VOC.write, _id, _f.pos))
