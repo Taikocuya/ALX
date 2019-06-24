@@ -62,6 +62,10 @@ class SampleCreator < EntryTransform
   end
   
   def exec
+    unless has_ruby?(SYS.ruby_version)
+      return
+    end
+  
     CONFIG_FILES.each_value do |_f|
       _src = File.join(File.dirname(__FILE__), '../../lib/alx', _f)
       _dst = File.join(File.dirname(__FILE__), '../../etc',     _f + '.sample')

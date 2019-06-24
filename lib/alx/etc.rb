@@ -179,7 +179,7 @@ class ETC
         attr_reader :#{_method}
         def #{_method}=(_value)
           _src = @#{_method}.class
-          _dst = _value.class
+          _dst = _value.class.name
           if _src == _dst || !@verify_type
             @#{_method} = _value
           else

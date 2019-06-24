@@ -69,6 +69,24 @@ module Executable
     LOG.info(DATE.strftime('Copyright (C) %Y Marcel Renner'))
   end
 
+  # Returns +true+ if Ruby version works, otherwise +false+.
+  # @param _version [String] Version
+  # @return [Boolean] +true+ if Ruby version works, otherwise +false+.
+  def has_ruby?(_version)
+    _msg = sprintf(VOC.check_ruby, _version)
+
+    _result = RUBY_VERSION >= _version
+    if _result
+      _msg += sprintf(' - %s (%s)', VOC.works, RUBY_VERSION)
+      ALX::LOG.info(_msg)
+    else
+      _msg += sprintf(' - %s (%s)', VOC.not_matched, RUBY_VERSION)
+      ALX::LOG.warn(_msg)
+    end
+    
+    _result
+  end
+
 end # class Executable
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

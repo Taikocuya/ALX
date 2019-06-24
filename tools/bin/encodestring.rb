@@ -63,6 +63,10 @@ class StringEncoder < EntryTransform
   end
   
   def exec
+    unless has_ruby?(SYS.ruby_version)
+      return
+    end
+  
     ALX::LOG.info(sprintf('Input string in %s: %s', IN_STR.encoding, IN_STR))
     _output = IN_STR.each_byte.map { |b| b.to_s(16) }
     ALX::LOG.info(sprintf('Output string in hexadecimal: %s', _output.join))

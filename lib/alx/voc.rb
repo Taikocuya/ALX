@@ -38,6 +38,7 @@ VOC.configure do |_v|
   _v.check_file     = 'Check for existing file: %s'
   _v.check_hdr      = 'Check HDR file: %s'
   _v.check_platform = 'Check platform: %s'
+  _v.check_ruby     = 'Check Ruby version: %s'
   _v.check_sys_attr = 'Check SYS attribute: %s'
   _v.close          = 'File "%s" has been closed.'
   _v.country_id     = 'Country ID'
@@ -65,6 +66,7 @@ VOC.configure do |_v|
   _v.region_name    = 'Region name'
   _v.skip           = 'Skipping file "%s" because of unchanged %s.'
   _v.valid          = 'valid'
+  _v.works          = 'works'
   _v.write          = 'Writing entry #%s @ 0x%x'
 
 #------------------------------------------------------------------------------
