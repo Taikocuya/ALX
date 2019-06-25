@@ -478,7 +478,7 @@ class StdEntryData < EntryData
         _row   = _f.shift
         _entry = create_entry
         _entry.read_from_csv(_row, _force)
-        _exist = @data.include?(_entry.id) 
+        _exist = @data.has_key?(_entry.id) 
 
         if _force && _exist
           _entry = @data[_entry.id]

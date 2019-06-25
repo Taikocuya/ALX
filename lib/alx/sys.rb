@@ -264,7 +264,7 @@ SYS.configure do |_s|
   # Product IDs
   _s.product_ids   = {
     'DC' => Regexp.union(
-      /^(6107110 06|6107810|8320062 50|)$/,
+      /^(6107110 06|6107810|8320062 50)$/,
       /^(HDR-0076|HDR-0119|IGN9|MK-51052)$/
     ),
     'GC' => Regexp.union(

@@ -81,7 +81,7 @@ class EvpFile < EpFile
   def load(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    CompressionFile.open(root, _filename, 'rb') do |_f|
+    CompressedFile.open(root, _filename, 'rb') do |_f|
       # Header
       _nodes = []
       (0...NUM_ENEMIES).each do |_|
@@ -151,7 +151,7 @@ class EvpFile < EpFile
 
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
-    CompressionFile.open(root, _filename, 'wb') do |_f|
+    CompressedFile.open(root, _filename, 'wb') do |_f|
       # Events
       _dummy   = create_event
       _f.pos   = NUM_ENEMIES * 0x8

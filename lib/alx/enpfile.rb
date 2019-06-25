@@ -97,7 +97,7 @@ class EnpFile < EpFile
   def load(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    CompressionFile.open(root, _filename, 'rb') do |_f|
+    CompressedFile.open(root, _filename, 'rb') do |_f|
       # Segments
       _signature = _f.read(0x4)
       if _signature == FILE_SIG
@@ -194,7 +194,7 @@ class EnpFile < EpFile
       @encounters.each do |_encounter|
         _segname = _encounter.file
         if _segname.sub(MULTI_REGEXP, '\1\3') == _basename
-          unless _segments.include?(_segname)
+          unless _segments.has_key?(_segname)
             _segments[_segname]   = create_segment(0x0, 0xffffffff)
             _enemies[_segname]    = []
             _encounters[_segname] = []
@@ -237,7 +237,7 @@ class EnpFile < EpFile
 
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
-    CompressionFile.open(root, _filename, 'wb') do |_f|
+    CompressedFile.open(root, _filename, 'wb') do |_f|
       # Segments (pre-processing)
       if _segments.size > 1
         _f.pos = _segments.size * 0x20 + 0x8

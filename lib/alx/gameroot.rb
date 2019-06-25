@@ -24,7 +24,7 @@
 
 require_relative('aklzfile.rb')
 require_relative('bnrfile.rb')
-require_relative('compressionfile.rb')
+require_relative('compressedfile.rb')
 require_relative('fileable.rb')
 require_relative('hdrfile.rb')
 
@@ -52,7 +52,7 @@ class GameRoot
   # Platforms for validation
   PLATFORMS = {
     # 'DC' => 'Dreamcast',
-    'GC' => 'Gamecube',
+    'GC' => 'Gamecube' ,
   }
   # Countries for validation
   COUNTRIES = ['EU', 'JP', 'US']
@@ -244,8 +244,8 @@ class GameRoot
     big_endian? ? 'G' : 'E'
   end
   
-  # Returns the file class depending on the platform compression. 
-  # @return [Class] File class depending on platform compression
+  # Returns the file class depending on +SYS.platform_compressions+. 
+  # @return [Class] File class depending on +SYS.platform_compressions+
   def compression
     Kernel.const_get(sys(:platform_compressions))
   end
@@ -382,13 +382,14 @@ class GameRoot
   # @return [Boolean] +true+ if platform has been detected, otherwise +false+.
   def init_platform
     _result = false
-    SYS.platform_files.find do |_id, _files|
+    PLATFORMS.find do |_id, _name|
+      _files  = SYS.platform_files[_id]
       _result = _files.all? do |_path|
         !Dir.glob(join(_path)).empty?
       end
       
       @platform_id   = _id
-      @platform_name = PLATFORMS[@platform_id] || ''
+      @platform_name = _name
       refresh_sys_attr_resolver
 
       _result
@@ -396,7 +397,7 @@ class GameRoot
 
     if _result
       _msg  = sprintf(VOC.check_platform, @platform_id)
-      _msg += sprintf(' - %s (%s)', VOC.detected, @platform_name)
+      _msg += sprintf(' - %s (%s)', VOC.identified, @platform_name)
       ALX::LOG.info(_msg)
     else
       _msg  = sprintf(VOC.check_platform, PLATFORMS.keys.sort.join(', '))

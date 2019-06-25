@@ -27,7 +27,7 @@ module ALX
 #==============================================================================
 
 # Class to read and write in files depending on GameRoot#compression.
-module CompressionFile
+module CompressedFile
 
 #==============================================================================
 #                                   PUBLIC
@@ -36,8 +36,9 @@ module CompressionFile
   public
   
   # Returns a file object depending on GameRoot#compression. 
-  # @return [Object] File class depending on GameRoot#compression
-  # @see ::File::new
+  # @return [Object] File object depending on GameRoot#compression
+  # @see ::BinaryFile::new
+  # @see ::BinaryStringIO::new
   def self.new(_root, *_args)
     unless _root.is_a?(GameRoot)
       _msg = 'no implicit conversion of %s into %s'
@@ -49,7 +50,8 @@ module CompressionFile
   end
 
   # Opens a file depending on GameRoot#compression. 
-  # @see ::File::open
+  # @see ::BinaryFile::open
+  # @see ::BinaryStringIO::open
   def self.open(_root, *_args, &_block)
     unless _root.is_a?(GameRoot)
       _msg = 'no implicit conversion of %s into %s'
@@ -60,7 +62,7 @@ module CompressionFile
     _class.open(*_args, &_block)
   end
 
-end # module CompressionFile
+end # module CompressedFile
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

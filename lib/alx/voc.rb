@@ -42,11 +42,11 @@ VOC.configure do |_v|
   _v.check_sys_attr = 'Check SYS attribute: %s'
   _v.close          = 'File "%s" has been closed.'
   _v.country_id     = 'Country ID'
-  _v.detected       = 'detected'
   _v.done           = 'done'
   _v.dup            = 'Unchanged entry #%s @ 0x%x'
   _v.exists         = 'exists'
   _v.failed         = 'failed'
+  _v.identified     = 'identified'
   _v.incorrect      = 'incorrect'
   _v.maker_id       = 'Maker ID'
   _v.maker_name     = 'Maker name'
@@ -66,7 +66,6 @@ VOC.configure do |_v|
   _v.region_name    = 'Region name'
   _v.skip           = 'Skipping file "%s" because of unchanged %s.'
   _v.valid          = 'valid'
-  _v.works          = 'works'
   _v.write          = 'Writing entry #%s @ 0x%x'
 
 #------------------------------------------------------------------------------
