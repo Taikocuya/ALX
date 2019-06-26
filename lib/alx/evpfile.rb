@@ -61,9 +61,9 @@ class EvpFile < EpFile
   # Creates a header node.
   # @param _id  [Integer] Enemy ID
   # @param _pos [Integer] Enemy position
-  # @return [Hash] Hash object
+  # @return [OpenStruct] OpenStruct object
   def create_node(_id, _pos)
-    { :id => _id, :pos => _pos }
+    OpenStruct.new(id: _id, pos: _pos)
   end
   
   # Creates an event.
@@ -85,8 +85,8 @@ class EvpFile < EpFile
       # Header
       _nodes = []
       (0...NUM_ENEMIES).each do |_|
-        _id  = _f.read_int('l>')
-        _pos = _f.read_int('l>')
+        _id  = _f.read_int(:int32)
+        _pos = _f.read_int(:int32)
 
         if _id >= 0 && _pos >= 0
           _nodes << create_node(_id, _pos)
@@ -107,8 +107,8 @@ class EvpFile < EpFile
 
       # Enemies
       _nodes.each do |_node|
-        _id    = _node[:id]
-        _pos   = _node[:pos]
+        _id    = _node.id
+        _pos   = _node.pos
         _f.pos = _pos
         
         LOG.info(sprintf(VOC.read, _id, _pos))
@@ -187,11 +187,11 @@ class EvpFile < EpFile
       (0...NUM_ENEMIES).each do |_i|
         _node = _nodes[_i]
         if _node
-          _f.write_int(_node[:id] , 'l>')
-          _f.write_int(_node[:pos], 'l>')
+          _f.write_int(_node.id  , :int32)
+          _f.write_int(_node.pos , :int32)
         else
-          _f.write_int(0xffffffff , 'l>')
-          _f.write_int(0xffffffff , 'l>')
+          _f.write_int(0xffffffff, :int32)
+          _f.write_int(0xffffffff, :int32)
         end
       end
     end

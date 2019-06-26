@@ -22,6 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
+require('ostruct')
 require_relative('binaryfile.rb')
 require_relative('binarystringio.rb')
 
@@ -37,7 +38,7 @@ module ALX
 # big-endian throughout. 
 # @see https://github.com/nickworonekin/puyotools
 class AklzFile < BinaryStringIO
-  
+
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
@@ -66,10 +67,10 @@ class AklzFile < BinaryStringIO
   public
 
   # @see BinaryStringIO::new
-  def initialize(_filename, *_args)
-    super('', *_args)
+  def initialize(_filename, *_args, **_opts)
+    super('', *_args, **_opts)
     @filename      = _filename
-    @buffio        = BinaryStringIO.open('', 'r+b')
+    @buffio        = BinaryStringIO.open('', 'r+b', **_opts)
     @buffio.string = self.string
 
     unless closed_read?
@@ -153,13 +154,13 @@ class AklzFile < BinaryStringIO
     init_dictionary
     init_buffer
 
-    BinaryFile.open(@filename, 'wb') do |_dst|
+    BinaryFile.open(@filename, 'wb', endianness: endianness) do |_dst|
       # Initialization
       _file_size = @buffio.size
       
       # Header
       _dst.write(FILE_SIG)
-      _dst.write_int(_file_size, 'L>')
+      _dst.write_int(_file_size, :uint32)
 
       # Compression
       while !@buffio.eof?
@@ -168,8 +169,8 @@ class AklzFile < BinaryStringIO
       
         (0...8).each do |_i|
           _match      = find_in_dictionary
-          _match_pos  = _match[:pos]
-          _match_size = _match[:size]
+          _match_pos  = _match.pos
+          _match_size = _match.size
 
           add_in_dictionary(@buffio.pos, _match_size)
           
@@ -184,7 +185,7 @@ class AklzFile < BinaryStringIO
             @buffio.pos += _match_size
           else
             _flag  |= 0x1 << _i
-            _bytes << @buffio.read_int('C')
+            _bytes << @buffio.read_int(:uint8)
           end
           
           if @buffio.eof?
@@ -192,7 +193,7 @@ class AklzFile < BinaryStringIO
           end
         end
         
-        _dst.write_int(_flag, 'C')
+        _dst.write_int(_flag, :uint8)
         _dst.write(_bytes.pack('C*'))
       end
     end
@@ -205,22 +206,22 @@ class AklzFile < BinaryStringIO
   def decompress
     init_buffer(BUFFER_BEG)
 
-    BinaryFile.open(@filename, 'rb') do |_src|
+    BinaryFile.open(@filename, 'rb', endianness: endianness) do |_src|
       # Header
       _file_sig  = _src.read(0xc)
-      _file_size = _src.read_int('L>')
+      _file_size = _src.read_int(:uint32)
       if _file_sig != FILE_SIG
         raise(IOError, 'signature invalid')
       end
       
       # Decompression
       while !_src.eof?
-        _flag = _src.read_int('C')
+        _flag = _src.read_int(:uint8)
         (0...8).each do |_i|
           # Compressed
           if _flag & 0x1 == 0
-            _b1 = _src.read_int('C') || 0
-            _b2 = _src.read_int('C') || 0
+            _b1 = _src.read_int(:uint8) || 0
+            _b2 = _src.read_int(:uint8) || 0
 
             _match_pos  = _b1 | (_b2 & ~MATCH_SIZE) << 4
             _match_size = (_b2 & MATCH_SIZE) + MATCH_BEG
@@ -228,15 +229,15 @@ class AklzFile < BinaryStringIO
             
             (0..._match_size).each do |_i|
               _byte = @buffer[(_match_pos + _i) & (BUFFER_SIZE - 1)]
-              @buffio.write_int(_byte, 'C')
+              @buffio.write_int(_byte, :uint8)
 
               @buffer[@buffer_ptr] = _byte
               @buffer_ptr          = (@buffer_ptr + 1) & (BUFFER_SIZE - 1)
             end
           # Not compressed
           else
-            _byte = _src.read_int('C') || 0
-            @buffio.write_int(_byte, 'C')
+            _byte = _src.read_int(:uint8) || 0
+            @buffio.write_int(_byte, :uint8)
             
             @buffer[@buffer_ptr] = _byte
             @buffer_ptr          = (@buffer_ptr + 1) & (BUFFER_SIZE - 1)
@@ -275,12 +276,14 @@ class AklzFile < BinaryStringIO
     end
   end
 
-  # Returns the first match, or +{ :pos => 0, :size => 0 }+ otherwise.
+  # Returns the first match, or +OpenStruct.new(pos: 0x0, size: 0x0)+ 
+  # otherwise.
+  # @return [OpenStruct] OpenStruct object
   def find_in_dictionary
     compact_dictionary
     _pos   = @buffio.pos
     _size  = @buffio.size
-    _match = { :pos => 0x0, :size => 0x0 }
+    _match = OpenStruct.new(pos: 0x0, size: 0x0)
     
     # Cannot find matches if there isn't enough data left.
     if _pos < MATCH_BEG || _size - _pos < MATCH_BEG
@@ -305,9 +308,9 @@ class AklzFile < BinaryStringIO
         _match_size += 1
       end
 
-      if _match_size >= MATCH_BEG && _match_size > _match[:size]
-        _match[:pos]  = _buffer_pos
-        _match[:size] = _match_size
+      if _match_size >= MATCH_BEG && _match_size > _match.size
+        _match.pos  = _buffer_pos
+        _match.size = _match_size
           
         if _match_size == MATCH_END
           break
@@ -337,7 +340,7 @@ class AklzFile < BinaryStringIO
     _last = @buffio.pos
     @buffio.pos = _pos
     
-    _byte = @buffio.read_int('C')
+    _byte = @buffio.read_int(:uint8)
     @buffio.pos = _last
     
     _byte

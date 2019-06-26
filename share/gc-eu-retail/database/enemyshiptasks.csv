@@ -83,42 +83,42 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 21,r506a.tec,24,Recumen,9,0,4,Nothing,-1,None,4,Red Ray,0,0,Attack,0,Red Ray,-1,None,0
 22,r506a.tec,24,Recumen,-1,0,2,Focus,-1,None,2,Preparing Attack,0,0,Attack,0,Red Ray,-1,None,0
 23,r506a.tec,24,Recumen,9,0,4,Nothing,-1,None,4,Red Ray,0,0,Attack,0,Red Ray,-1,None,0
-0,r507a.tec,11,Lynx,-1,0,1,Magic,-1,None,0,"",0,0,Attack,0,Lynx Cannon,-1,None,0
-1,r507a.tec,11,Lynx,-1,0,1,Magic,-1,None,23,"",0,0,Attack,0,Lynx Cannon,-1,None,0
+0,r507a.tec,11,Lynx,-1,0,1,Magic,-1,None,0,Increm,0,0,Attack,0,Lynx Cannon,-1,None,0
+1,r507a.tec,11,Lynx,-1,0,1,Magic,-1,None,23,Pyri,0,0,Attack,0,Lynx Cannon,-1,None,0
 2,r507a.tec,11,Lynx,-1,0,2,Focus,-1,None,1,Taking Aim,0,0,Attack,0,Lynx Cannon,-1,None,0
-3,r507a.tec,11,Lynx,0,50,1,Magic,-1,None,23,"",0,1,Magic,-1,None,22,"",0
-4,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,23,"",0
+3,r507a.tec,11,Lynx,0,50,1,Magic,-1,None,23,Pyri,0,1,Magic,-1,None,22,Wevlen,0
+4,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,23,Pyri,0
 5,r507a.tec,11,Lynx,-1,0,0,Attack,2,Lynx Torpedo,-1,None,1,0,Attack,0,Lynx Cannon,-1,None,0
-6,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,22,"",0
+6,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,22,Wevlen,0
 7,r507a.tec,11,Lynx,-1,0,3,Guard,-1,None,-1,None,0,0,Attack,0,Lynx Cannon,-1,None,0
 8,r507a.tec,11,Lynx,-1,0,0,Attack,1,Lynx Subcannon,-1,None,2,0,Attack,0,Lynx Cannon,-1,None,0
 9,r507a.tec,11,Lynx,-1,0,0,Attack,2,Lynx Torpedo,-1,None,1,0,Attack,0,Lynx Cannon,-1,None,0
-10,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,22,"",0
-11,r507a.tec,11,Lynx,1,30,1,Magic,-1,None,6,"",0,3,Guard,-1,None,-1,None,0
+10,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,22,Wevlen,0
+11,r507a.tec,11,Lynx,1,30,1,Magic,-1,None,6,Sacri,0,3,Guard,-1,None,-1,None,0
 12,r507a.tec,11,Lynx,-1,0,0,Attack,1,Lynx Subcannon,-1,None,2,0,Attack,0,Lynx Cannon,-1,None,0
 13,r507a.tec,11,Lynx,-1,0,0,Attack,2,Lynx Torpedo,-1,None,1,0,Attack,0,Lynx Cannon,-1,None,0
-14,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,22,"",0
-15,r507a.tec,11,Lynx,1,30,1,Magic,-1,None,6,"",0,1,Magic,-1,None,0,"",0
+14,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,22,Wevlen,0
+15,r507a.tec,11,Lynx,1,30,1,Magic,-1,None,6,Sacri,0,1,Magic,-1,None,0,Increm,0
 16,r507a.tec,11,Lynx,-1,0,0,Attack,1,Lynx Subcannon,-1,None,2,0,Attack,0,Lynx Cannon,-1,None,0
 17,r507a.tec,11,Lynx,-1,0,4,Nothing,-1,None,1,Target Lost,0,0,Attack,0,Lynx Cannon,-1,None,0
 18,r507a.tec,11,Lynx,-1,0,0,Attack,2,Lynx Torpedo,-1,None,1,0,Attack,0,Lynx Cannon,-1,None,0
-19,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,23,"",0
-20,r507a.tec,11,Lynx,1,30,1,Magic,-1,None,6,"",0,1,Magic,-1,None,0,"",0
+19,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,23,Pyri,0
+20,r507a.tec,11,Lynx,1,30,1,Magic,-1,None,6,Sacri,0,1,Magic,-1,None,0,Increm,0
 21,r507a.tec,11,Lynx,-1,0,0,Attack,2,Lynx Torpedo,-1,None,2,0,Attack,0,Lynx Cannon,-1,None,0
 22,r507a.tec,11,Lynx,-1,0,0,Attack,1,Lynx Subcannon,-1,None,1,0,Attack,0,Lynx Cannon,-1,None,0
-23,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,23,"",0
+23,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,23,Pyri,0
 24,r507a.tec,11,Lynx,-1,0,2,Focus,-1,None,1,Taking Aim,0,0,Attack,0,Lynx Cannon,-1,None,0
 25,r507a.tec,11,Lynx,-1,0,0,Attack,1,Lynx Subcannon,-1,None,2,0,Attack,0,Lynx Cannon,-1,None,0
 26,r507a.tec,11,Lynx,-1,0,0,Attack,2,Lynx Torpedo,-1,None,1,0,Attack,0,Lynx Cannon,-1,None,0
-27,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,22,"",0
+27,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,22,Wevlen,0
 28,r507a.tec,11,Lynx,-1,0,2,Focus,-1,None,1,Taking Aim,0,0,Attack,0,Lynx Cannon,-1,None,0
 29,r507a.tec,11,Lynx,-1,0,0,Attack,2,Lynx Torpedo,-1,None,2,0,Attack,0,Lynx Cannon,-1,None,0
 30,r507a.tec,11,Lynx,-1,0,0,Attack,1,Lynx Subcannon,-1,None,1,0,Attack,0,Lynx Cannon,-1,None,0
-31,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,22,"",0
+31,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,22,Wevlen,0
 32,r507a.tec,11,Lynx,-1,0,0,Attack,1,Lynx Subcannon,-1,None,2,0,Attack,0,Lynx Cannon,-1,None,0
 33,r507a.tec,11,Lynx,-1,0,4,Nothing,-1,None,1,Target Lost,0,0,Attack,0,Lynx Cannon,-1,None,0
 34,r507a.tec,11,Lynx,-1,0,0,Attack,2,Lynx Torpedo,-1,None,1,0,Attack,0,Lynx Cannon,-1,None,0
-35,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,23,"",0
+35,r507a.tec,11,Lynx,1,50,0,Attack,0,Lynx Cannon,-1,None,0,1,Magic,-1,None,23,Pyri,0
 0,r509a.tec,12,Chameleon,3,30,4,Nothing,-1,None,0,Awaiting Orders,0,0,Attack,2,Type D Torpedo,-1,None,3
 1,r509a.tec,12,Chameleon,3,80,4,Nothing,-1,None,0,Awaiting Orders,0,3,Guard,-1,None,-1,None,0
 2,r509a.tec,12,Chameleon,3,40,4,Nothing,-1,None,0,Awaiting Orders,0,2,Focus,-1,None,0,Focus,0
@@ -151,21 +151,21 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 29,r509a.tec,12,Chameleon,-1,0,0,Attack,2,Type D Torpedo,-1,None,3,0,Attack,2,Type D Torpedo,-1,None,3
 30,r509a.tec,12,Chameleon,-1,0,0,Attack,1,Type D Subcannon,-1,None,2,0,Attack,1,Type D Subcannon,-1,None,2
 31,r509a.tec,12,Chameleon,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,4,Nothing,-1,None,0,Awaiting Orders,0
-0,r510a.tec,4,Valuan Gunboat,0,50,4,Nothing,-1,None,-1,None,0,1,Magic,-1,None,23,"",0
-1,r510a.tec,4,Valuan Gunboat,0,20,4,Nothing,-1,None,-1,None,0,1,Magic,-1,None,23,"",0
+0,r510a.tec,4,Valuan Gunboat,0,50,4,Nothing,-1,None,-1,None,0,1,Magic,-1,None,23,Pyri,0
+1,r510a.tec,4,Valuan Gunboat,0,20,4,Nothing,-1,None,-1,None,0,1,Magic,-1,None,23,Pyri,0
 2,r510a.tec,4,Valuan Gunboat,3,30,3,Guard,-1,None,0,Evasive Action,0,2,Focus,-1,None,0,Focus,0
 3,r510a.tec,4,Valuan Gunboat,3,10,3,Guard,-1,None,0,Evasive Action,0,0,Attack,1,Heavy Subcannon,-1,None,0
-4,r510a.tec,4,Valuan Gunboat,0,20,4,Nothing,-1,None,-1,None,0,1,Magic,-1,None,23,"",0
-5,r510a.tec,4,Valuan Gunboat,1,40,1,Magic,-1,None,6,"",0,0,Attack,0,Large Cannon,-1,None,0
+4,r510a.tec,4,Valuan Gunboat,0,20,4,Nothing,-1,None,-1,None,0,1,Magic,-1,None,23,Pyri,0
+5,r510a.tec,4,Valuan Gunboat,1,40,1,Magic,-1,None,6,Sacri,0,0,Attack,0,Large Cannon,-1,None,0
 6,r510a.tec,4,Valuan Gunboat,3,30,3,Guard,-1,None,0,Evasive Action,0,4,Nothing,-1,None,-1,None,0
-7,r510a.tec,4,Valuan Gunboat,3,30,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,23,"",0
-8,r510a.tec,4,Valuan Gunboat,1,20,1,Magic,-1,None,6,"",0,0,Attack,1,Heavy Subcannon,-1,None,3
-9,r510a.tec,4,Valuan Gunboat,1,10,1,Magic,-1,None,6,"",0,1,Magic,-1,None,23,"",0
+7,r510a.tec,4,Valuan Gunboat,3,30,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,23,Pyri,0
+8,r510a.tec,4,Valuan Gunboat,1,20,1,Magic,-1,None,6,Sacri,0,0,Attack,1,Heavy Subcannon,-1,None,3
+9,r510a.tec,4,Valuan Gunboat,1,10,1,Magic,-1,None,6,Sacri,0,1,Magic,-1,None,23,Pyri,0
 10,r510a.tec,4,Valuan Gunboat,3,50,2,Focus,-1,None,0,Focus,0,3,Guard,-1,None,0,Evasive Action,0
-11,r510a.tec,4,Valuan Gunboat,1,10,1,Magic,-1,None,6,"",0,1,Magic,-1,None,23,"",0
+11,r510a.tec,4,Valuan Gunboat,1,10,1,Magic,-1,None,6,Sacri,0,1,Magic,-1,None,23,Pyri,0
 12,r510a.tec,4,Valuan Gunboat,3,50,0,Attack,1,Heavy Subcannon,-1,None,2,2,Focus,-1,None,0,Focus,0
 13,r510a.tec,4,Valuan Gunboat,1,30,3,Guard,-1,None,0,Evasive Action,0,4,Nothing,-1,None,-1,None,0
-14,r510a.tec,4,Valuan Gunboat,3,30,1,Magic,-1,None,6,"",0,2,Focus,-1,None,0,Focus,0
+14,r510a.tec,4,Valuan Gunboat,3,30,1,Magic,-1,None,6,Sacri,0,2,Focus,-1,None,0,Focus,0
 15,r510a.tec,4,Valuan Gunboat,3,50,2,Focus,-1,None,0,Focus,0,0,Attack,0,Large Cannon,-1,None,0
 0,r513a.tec,35,Roc,3,50,4,Nothing,-1,None,2,Assessing Damage,0,0,Attack,0,Blast Voice,-1,None,0
 1,r513a.tec,35,Roc,3,50,4,Nothing,-1,None,2,Assessing Damage,0,0,Attack,0,Blast Voice,-1,None,0
@@ -468,24 +468,24 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 62,r524a.tec,29,Anguila,-1,0,0,Attack,0,Poison Spray,-1,None,0,0,Attack,0,Poison Spray,-1,None,0
 63,r524a.tec,29,Anguila,-1,0,3,Guard,-1,None,-1,None,0,3,Guard,-1,None,-1,None,0
 0,r525a.tec,44,Tenkou Spellship,3,20,0,Attack,2,Houroku Torpedo,-1,None,2,2,Focus,-1,None,-1,None,0
-1,r525a.tec,44,Tenkou Spellship,3,50,0,Attack,0,Cannon,-1,None,0,1,Magic,-1,None,21,"",0
+1,r525a.tec,44,Tenkou Spellship,3,50,0,Attack,0,Cannon,-1,None,0,1,Magic,-1,None,21,Wevles,0
 2,r525a.tec,44,Tenkou Spellship,3,50,3,Guard,-1,None,0,Evasive Action,0,0,Attack,2,Houroku Torpedo,-1,None,1
-3,r525a.tec,44,Tenkou Spellship,3,50,0,Attack,0,Cannon,-1,None,0,1,Magic,-1,None,26,"",0
+3,r525a.tec,44,Tenkou Spellship,3,50,0,Attack,0,Cannon,-1,None,0,1,Magic,-1,None,26,Crystali,0
 4,r525a.tec,44,Tenkou Spellship,-1,0,0,Attack,0,Cannon,-1,None,0,-1,None,-1,None,-1,None,0
-5,r525a.tec,44,Tenkou Spellship,-1,0,1,Magic,-1,None,21,"",0,-1,None,-1,None,-1,None,0
-6,r525a.tec,44,Tenkou Spellship,3,80,1,Magic,-1,None,26,"",0,0,Attack,2,Houroku Torpedo,-1,None,1
-7,r525a.tec,44,Tenkou Spellship,1,20,1,Magic,-1,None,6,"",0,2,Focus,-1,None,0,Focus,0
-8,r525a.tec,44,Tenkou Spellship,3,50,1,Magic,-1,None,26,"",0,1,Magic,-1,None,21,"",0
+5,r525a.tec,44,Tenkou Spellship,-1,0,1,Magic,-1,None,21,Wevles,0,-1,None,-1,None,-1,None,0
+6,r525a.tec,44,Tenkou Spellship,3,80,1,Magic,-1,None,26,Crystali,0,0,Attack,2,Houroku Torpedo,-1,None,1
+7,r525a.tec,44,Tenkou Spellship,1,20,1,Magic,-1,None,6,Sacri,0,2,Focus,-1,None,0,Focus,0
+8,r525a.tec,44,Tenkou Spellship,3,50,1,Magic,-1,None,26,Crystali,0,1,Magic,-1,None,21,Wevles,0
 9,r525a.tec,44,Tenkou Spellship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,0,Attack,2,Houroku Torpedo,-1,None,1
 10,r525a.tec,44,Tenkou Spellship,3,50,0,Attack,0,Cannon,-1,None,0,2,Focus,-1,None,-1,None,0
-11,r525a.tec,44,Tenkou Spellship,3,90,3,Guard,-1,None,-1,None,0,1,Magic,-1,None,6,"",0
+11,r525a.tec,44,Tenkou Spellship,3,90,3,Guard,-1,None,-1,None,0,1,Magic,-1,None,6,Sacri,0
 12,r525a.tec,44,Tenkou Spellship,3,50,0,Attack,0,Cannon,-1,None,0,4,Nothing,-1,None,0,Awaiting Orders,0
 13,r525a.tec,44,Tenkou Spellship,-1,0,0,Attack,0,Cannon,-1,None,0,-1,None,-1,None,-1,None,0
 14,r525a.tec,44,Tenkou Spellship,3,50,2,Focus,-1,None,-1,None,0,4,Nothing,-1,None,0,Awaiting Orders,0
-15,r525a.tec,44,Tenkou Spellship,4,2,1,Magic,-1,None,26,"",0,0,Attack,0,Cannon,-1,None,0
+15,r525a.tec,44,Tenkou Spellship,4,2,1,Magic,-1,None,26,Crystali,0,0,Attack,0,Cannon,-1,None,0
 16,r525a.tec,44,Tenkou Spellship,-1,0,0,Attack,0,Cannon,-1,None,0,2,Focus,-1,None,-1,None,0
 17,r525a.tec,44,Tenkou Spellship,4,2,2,Focus,-1,None,-1,None,0,4,Nothing,-1,None,0,Awaiting Orders,0
-18,r525a.tec,44,Tenkou Spellship,4,2,1,Magic,-1,None,6,"",0,4,Nothing,-1,None,0,Awaiting Orders,0
+18,r525a.tec,44,Tenkou Spellship,4,2,1,Magic,-1,None,6,Sacri,0,4,Nothing,-1,None,0,Awaiting Orders,0
 19,r525a.tec,44,Tenkou Spellship,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,-1,None,-1,None,-1,None,0
 0,r527a.tec,36,Giant Looper,-1,0,2,Focus,-1,None,2,Preparing Attack,0,2,Focus,-1,None,2,Preparing Attack,0
 1,r527a.tec,36,Giant Looper,-1,0,0,Attack,0,Looper Ring,-1,None,0,0,Attack,0,Looper Ring,-1,None,0
@@ -744,16 +744,16 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 10,r540a.tec,14,Chameleon,3,80,0,Attack,0,Chameleon Cannon,-1,None,0,0,Attack,1,De Loco Cannon,-1,None,0
 11,r540a.tec,14,Chameleon,-1,0,2,Focus,-1,None,0,Focus,0,-1,None,-1,None,-1,None,0
 0,r541a.tec,14,Chameleon,3,30,3,Guard,-1,None,0,Evasive Action,0,0,Attack,2,De Loco Torpedo,-1,None,1
-1,r541a.tec,14,Chameleon,3,50,1,Magic,-1,None,2,"",0,0,Attack,0,Chameleon Cannon,-1,None,0
-2,r541a.tec,14,Chameleon,3,10,1,Magic,-1,None,24,"",0,0,Attack,1,De Loco Cannon,-1,None,1
+1,r541a.tec,14,Chameleon,3,50,1,Magic,-1,None,2,Sylenis,0,0,Attack,0,Chameleon Cannon,-1,None,0
+2,r541a.tec,14,Chameleon,3,10,1,Magic,-1,None,24,Pyres,0,0,Attack,1,De Loco Cannon,-1,None,1
 3,r541a.tec,14,Chameleon,3,20,3,Guard,-1,None,0,Evasive Action,0,0,Attack,0,Chameleon Cannon,-1,None,0
 4,r541a.tec,14,Chameleon,3,50,2,Focus,-1,None,0,Focus,0,3,Guard,-1,None,0,Evasive Action,0
-5,r541a.tec,14,Chameleon,3,65,0,Attack,1,De Loco Cannon,-1,None,1,1,Magic,-1,None,5,"",0
-6,r541a.tec,14,Chameleon,1,70,1,Magic,-1,None,7,"",0,1,Magic,-1,None,24,"",0
+5,r541a.tec,14,Chameleon,3,65,0,Attack,1,De Loco Cannon,-1,None,1,1,Magic,-1,None,5,Drilnos,0
+6,r541a.tec,14,Chameleon,1,70,1,Magic,-1,None,7,Sacres,0,1,Magic,-1,None,24,Pyres,0
 7,r541a.tec,14,Chameleon,3,30,0,Attack,0,Chameleon Cannon,-1,None,0,0,Attack,1,De Loco Cannon,-1,None,0
 8,r541a.tec,14,Chameleon,3,80,2,Focus,-1,None,-1,None,0,0,Attack,1,De Loco Cannon,-1,None,2
-9,r541a.tec,14,Chameleon,3,50,1,Magic,-1,None,24,"",0,0,Attack,0,Chameleon Cannon,-1,None,0
-10,r541a.tec,14,Chameleon,3,50,1,Magic,-1,None,24,"",0,0,Attack,2,De Loco Torpedo,-1,None,1
+9,r541a.tec,14,Chameleon,3,50,1,Magic,-1,None,24,Pyres,0,0,Attack,0,Chameleon Cannon,-1,None,0
+10,r541a.tec,14,Chameleon,3,50,1,Magic,-1,None,24,Pyres,0,0,Attack,2,De Loco Torpedo,-1,None,1
 11,r541a.tec,14,Chameleon,3,50,3,Guard,-1,None,0,Evasive Action,0,0,Attack,0,Chameleon Cannon,-1,None,0
 0,r542a.tec,4,Valuan Gunboat,-1,0,2,Focus,-1,None,0,Focus,0,-1,None,-1,None,0,None,0
 1,r542a.tec,4,Valuan Gunboat,3,50,0,Attack,0,Large Cannon,-1,None,0,0,Attack,1,Heavy Subcannon,-1,None,0
@@ -774,15 +774,15 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 0,r543a.tec,5,Valuan Mage Ship,3,30,0,Attack,2,Torpedo,-1,None,3,-1,None,-1,None,0,None,0
 1,r543a.tec,5,Valuan Mage Ship,3,20,2,Focus,0,Large Cannon,-1,None,0,0,Attack,2,Torpedo,0,None,2
 2,r543a.tec,5,Valuan Mage Ship,-1,0,0,Attack,1,Heavy Subcannon,-1,None,1,0,Attack,0,Large Cannon,-1,None,0
-3,r543a.tec,5,Valuan Mage Ship,3,15,0,Attack,0,Large Cannon,-1,None,0,1,Magic,-1,None,34,"",0
-4,r543a.tec,5,Valuan Mage Ship,3,50,0,Attack,0,Large Cannon,-1,None,1,1,Magic,-1,None,13,"",0
-5,r543a.tec,5,Valuan Mage Ship,3,50,0,Attack,1,Heavy Subcannon,-1,None,0,1,Magic,-1,None,4,"",0
-6,r543a.tec,5,Valuan Mage Ship,3,15,0,Attack,0,Large Cannon,-1,None,0,1,Magic,-1,None,27,"",0
+3,r543a.tec,5,Valuan Mage Ship,3,15,0,Attack,0,Large Cannon,-1,None,0,1,Magic,-1,None,34,Electrum,0
+4,r543a.tec,5,Valuan Mage Ship,3,50,0,Attack,0,Large Cannon,-1,None,1,1,Magic,-1,None,13,Quika,0
+5,r543a.tec,5,Valuan Mage Ship,3,50,0,Attack,1,Heavy Subcannon,-1,None,0,1,Magic,-1,None,4,Driln,0
+6,r543a.tec,5,Valuan Mage Ship,3,15,0,Attack,0,Large Cannon,-1,None,0,1,Magic,-1,None,27,Crystales,0
 7,r543a.tec,5,Valuan Mage Ship,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,-1,None,-1,None,-1,None,0
 8,r543a.tec,5,Valuan Mage Ship,3,80,0,Attack,2,Torpedo,-1,None,3,0,Attack,2,Torpedo,-1,None,2
-9,r543a.tec,5,Valuan Mage Ship,3,50,1,Magic,-1,None,34,"",0,1,Magic,-1,None,27,"",0
+9,r543a.tec,5,Valuan Mage Ship,3,50,1,Magic,-1,None,34,Electrum,0,1,Magic,-1,None,27,Crystales,0
 10,r543a.tec,5,Valuan Mage Ship,3,30,3,Guard,-1,None,0,Evasive Action,0,2,Focus,-1,None,0,Focus,0
-11,r543a.tec,5,Valuan Mage Ship,-1,0,1,Magic,-1,None,34,"",0,-1,None,-1,None,-1,None,0
+11,r543a.tec,5,Valuan Mage Ship,-1,0,1,Magic,-1,None,34,Electrum,0,-1,None,-1,None,-1,None,0
 12,r543a.tec,5,Valuan Mage Ship,-1,0,0,Attack,2,Torpedo,-1,None,2,0,Attack,2,Torpedo,-1,None,3
 13,r543a.tec,5,Valuan Mage Ship,3,50,0,Attack,1,Heavy Subcannon,-1,None,0,3,Guard,-1,None,-1,None,0
 14,r543a.tec,5,Valuan Mage Ship,3,50,2,Focus,-1,None,0,Focus,0,4,Nothing,-1,None,0,Awaiting Orders,0
@@ -790,7 +790,7 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 16,r543a.tec,5,Valuan Mage Ship,-1,0,0,Attack,2,Torpedo,-1,None,2,0,Attack,2,Torpedo,-1,None,3
 17,r543a.tec,5,Valuan Mage Ship,3,50,0,Attack,1,Heavy Subcannon,-1,None,0,2,Focus,-1,None,0,Focus,0
 18,r543a.tec,5,Valuan Mage Ship,3,50,2,Focus,-1,None,0,Focus,0,4,Nothing,-1,None,0,Awaiting Orders,0
-19,r543a.tec,5,Valuan Mage Ship,-1,0,1,Magic,-1,None,27,"",0,-1,None,-1,None,-1,None,0
+19,r543a.tec,5,Valuan Mage Ship,-1,0,1,Magic,-1,None,27,Crystales,0,-1,None,-1,None,-1,None,0
 0,r544a.tec,8,Galcian's Elite,5,0,4,Nothing,-1,None,0,Awaiting Orders,0,2,Focus,-1,None,0,Focus,0
 1,r544a.tec,8,Galcian's Elite,3,90,0,Attack,0,Serpent Cannon,-1,None,0,0,Attack,1,Rapid Cannon,0,None,2
 2,r544a.tec,8,Galcian's Elite,3,30,0,Attack,1,Rapid Cannon,-1,None,1,0,Attack,0,Serpent Cannon,-1,None,0
@@ -818,19 +818,19 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 4,r545a.tec,18,Hydra,3,80,3,Guard,-1,None,-1,None,0,0,Attack,1,Hydra Subcannon,-1,None,1
 5,r545a.tec,18,Hydra,3,20,0,Attack,2,Hydra Ray,-1,None,1,2,Focus,-1,None,-1,None,0
 6,r545a.tec,18,Hydra,4,0,3,Guard,-1,None,-1,None,0,0,Attack,2,Hydra Ray,-1,None,1
-7,r545a.tec,18,Hydra,1,50,1,Magic,-1,None,7,"",0,2,Focus,-1,None,-1,None,0
+7,r545a.tec,18,Hydra,1,50,1,Magic,-1,None,7,Sacres,0,2,Focus,-1,None,-1,None,0
 8,r545a.tec,18,Hydra,-1,0,0,Attack,0,Hydra Launcher,-1,None,0,0,Attack,0,Hydra Launcher,-1,None,0
 9,r545a.tec,18,Hydra,3,60,0,Attack,2,Hydra Ray,-1,None,1,3,Guard,-1,None,-1,None,0
 10,r545a.tec,18,Hydra,3,80,3,Guard,-1,None,-1,None,0,2,Focus,-1,None,-1,None,0
 11,r545a.tec,18,Hydra,1,70,0,Attack,1,Hydra Subcannon,-1,None,0,3,Guard,-1,None,-1,None,0
 12,r545a.tec,18,Hydra,-1,0,0,Attack,1,Hydra Subcannon,-1,None,1,0,Attack,1,Hydra Subcannon,-1,None,1
 13,r545a.tec,18,Hydra,-1,0,2,Focus,-1,None,-1,None,0,2,Focus,-1,None,-1,None,0
-14,r545a.tec,18,Hydra,-1,0,1,Magic,-1,None,7,"",0,1,Magic,-1,None,7,"",0
+14,r545a.tec,18,Hydra,-1,0,1,Magic,-1,None,7,Sacres,0,1,Magic,-1,None,7,Sacres,0
 15,r545a.tec,18,Hydra,1,30,0,Attack,0,Hydra Launcher,-1,None,0,3,Guard,-1,None,-1,None,0
 16,r545a.tec,18,Hydra,-1,0,0,Attack,1,Hydra Subcannon,-1,None,1,2,Focus,-1,None,-1,None,0
 17,r545a.tec,18,Hydra,4,0,2,Focus,-1,None,-1,None,0,0,Attack,1,Hydra Subcannon,-1,None,1
 18,r545a.tec,18,Hydra,-1,0,3,Guard,-1,None,-1,None,0,3,Guard,-1,None,-1,None,0
-19,r545a.tec,18,Hydra,3,50,0,Attack,0,Hydra Launcher,-1,None,0,1,Magic,-1,None,7,"",0
+19,r545a.tec,18,Hydra,3,50,0,Attack,0,Hydra Launcher,-1,None,0,1,Magic,-1,None,7,Sacres,0
 20,r545a.tec,18,Hydra,-1,0,3,Guard,-1,None,-1,None,0,3,Guard,-1,None,-1,None,0
 21,r545a.tec,18,Hydra,0,70,0,Attack,0,Hydra Launcher,-1,None,0,0,Attack,1,Hydra Subcannon,-1,None,1
 22,r545a.tec,18,Hydra,-1,0,2,Focus,-1,None,-1,None,0,2,Focus,-1,None,-1,None,0
@@ -848,27 +848,27 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 34,r545a.tec,18,Hydra,-1,0,2,Focus,-1,None,-1,None,0,2,Focus,-1,None,-1,None,0
 35,r545a.tec,18,Hydra,-1,0,0,Attack,3,Hydra Cannon,-1,None,0,0,Attack,3,Hydra Cannon,-1,None,0
 0,r547a.tec,28,Zelos,-1,0,4,Nothing,-1,None,2,Assessing Damage,0,0,Attack,0,Moon Ray,-1,None,0
-1,r547a.tec,28,Zelos,3,80,1,Magic,-1,None,4,"",0,1,Magic,-1,None,2,"",0
+1,r547a.tec,28,Zelos,3,80,1,Magic,-1,None,4,Driln,0,1,Magic,-1,None,2,Sylenis,0
 2,r547a.tec,28,Zelos,-1,0,3,Guard,-1,None,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
 3,r547a.tec,28,Zelos,-1,0,0,Attack,0,Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
 4,r547a.tec,28,Zelos,-1,0,4,Nothing,-1,None,2,Assessing Damage,0,0,Attack,0,Moon Ray,-1,None,0
-5,r547a.tec,28,Zelos,3,80,1,Magic,-1,None,4,"",0,1,Magic,-1,None,2,"",0
-6,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,"",0,1,Magic,-1,None,29,"",0
+5,r547a.tec,28,Zelos,3,80,1,Magic,-1,None,4,Driln,0,1,Magic,-1,None,2,Sylenis,0
+6,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,Pyrulen,0,1,Magic,-1,None,29,Crystalen,0
 7,r547a.tec,28,Zelos,-1,0,0,Attack,0,Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
 8,r547a.tec,28,Zelos,-1,0,4,Nothing,-1,None,2,Assessing Damage,0,0,Attack,0,Moon Ray,-1,None,0
-9,r547a.tec,28,Zelos,-1,0,1,Magic,-1,None,2,"",0,0,Attack,0,Moon Ray,-1,None,0
-10,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,"",0,1,Magic,-1,None,29,"",0
+9,r547a.tec,28,Zelos,-1,0,1,Magic,-1,None,2,Sylenis,0,0,Attack,0,Moon Ray,-1,None,0
+10,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,Pyrulen,0,1,Magic,-1,None,29,Crystalen,0
 11,r547a.tec,28,Zelos,-1,0,0,Attack,0,Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
-12,r547a.tec,28,Zelos,-1,0,1,Magic,-1,None,13,"",0,0,Attack,0,Moon Ray,-1,None,0
-13,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,"",0,1,Magic,-1,None,29,"",0
-14,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,"",0,1,Magic,-1,None,29,"",0
+12,r547a.tec,28,Zelos,-1,0,1,Magic,-1,None,13,Quika,0,0,Attack,0,Moon Ray,-1,None,0
+13,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,Pyrulen,0,1,Magic,-1,None,29,Crystalen,0
+14,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,Pyrulen,0,1,Magic,-1,None,29,Crystalen,0
 15,r547a.tec,28,Zelos,-1,0,0,Attack,0,Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
-16,r547a.tec,28,Zelos,-1,0,1,Magic,-1,None,13,"",0,0,Attack,0,Moon Ray,-1,None,0
-17,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,"",0,1,Magic,-1,None,29,"",0
+16,r547a.tec,28,Zelos,-1,0,1,Magic,-1,None,13,Quika,0,0,Attack,0,Moon Ray,-1,None,0
+17,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,Pyrulen,0,1,Magic,-1,None,29,Crystalen,0
 18,r547a.tec,28,Zelos,-1,0,0,Attack,0,Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
 19,r547a.tec,28,Zelos,9,0,3,Guard,-1,None,-1,None,0,4,Nothing,-1,None,2,Assessing Damage,0
-20,r547a.tec,28,Zelos,3,80,1,Magic,-1,None,4,"",0,1,Magic,-1,None,2,"",0
-21,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,"",0,1,Magic,-1,None,29,"",0
+20,r547a.tec,28,Zelos,3,80,1,Magic,-1,None,4,Driln,0,1,Magic,-1,None,2,Sylenis,0
+21,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,Pyrulen,0,1,Magic,-1,None,29,Crystalen,0
 22,r547a.tec,28,Zelos,-1,0,0,Attack,0,Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
 23,r547a.tec,28,Zelos,9,0,3,Guard,-1,None,-1,None,0,4,Nothing,-1,None,2,Assessing Damage,0
 24,r547a.tec,28,Zelos,-1,0,4,Nothing,-1,None,2,Assessing Damage,0,0,Attack,0,Moon Ray,-1,None,0
@@ -884,44 +884,44 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 34,r547a.tec,28,Zelos,-1,0,4,Nothing,-1,None,2,Assessing Damage,0,0,Attack,0,Moon Ray,-1,None,0
 35,r547a.tec,28,Zelos,-1,0,4,Nothing,-1,None,2,Assessing Damage,0,0,Attack,0,Moon Ray,-1,None,0
 36,r547a.tec,28,Zelos,-1,0,0,Attack,1,Great Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
-37,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,35,"",0
-38,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,35,"",0
-39,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,35,"",0
+37,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,35,Electrulen,0
+38,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,35,Electrulen,0
+39,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,35,Electrulen,0
 40,r547a.tec,28,Zelos,-1,0,0,Attack,1,Great Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
-41,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,35,"",0
+41,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,35,Electrulen,0
 42,r547a.tec,28,Zelos,-1,0,0,Attack,1,Great Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
-43,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,35,"",0
+43,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,35,Electrulen,0
 44,r547a.tec,28,Zelos,-1,0,0,Attack,1,Great Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
-45,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,35,"",0
+45,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,35,Electrulen,0
 46,r547a.tec,28,Zelos,-1,0,0,Attack,1,Great Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
-47,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,35,"",0
-48,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,35,"",0
+47,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,35,Electrulen,0
+48,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,35,Electrulen,0
 49,r547a.tec,28,Zelos,-1,0,0,Attack,1,Great Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
-50,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,35,"",0
-51,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,35,"",0
+50,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,35,Electrulen,0
+51,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,35,Electrulen,0
 52,r547a.tec,28,Zelos,-1,0,0,Attack,1,Great Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
-53,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,35,"",0
+53,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,35,Electrulen,0
 54,r547a.tec,28,Zelos,-1,0,0,Attack,1,Great Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
-55,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,35,"",0
+55,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,35,Electrulen,0
 56,r547a.tec,28,Zelos,-1,0,0,Attack,3,Judgement,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
-57,r547a.tec,28,Zelos,-1,0,1,Magic,-1,None,4,"",0,0,Attack,0,Moon Ray,-1,None,0
-58,r547a.tec,28,Zelos,-1,0,1,Magic,-1,None,13,"",0,0,Attack,0,Moon Ray,-1,None,0
+57,r547a.tec,28,Zelos,-1,0,1,Magic,-1,None,4,Driln,0,0,Attack,0,Moon Ray,-1,None,0
+58,r547a.tec,28,Zelos,-1,0,1,Magic,-1,None,13,Quika,0,0,Attack,0,Moon Ray,-1,None,0
 59,r547a.tec,28,Zelos,0,50,0,Attack,1,Great Moon Ray,-1,None,0,0,Attack,3,Judgement,-1,None,0
 60,r547a.tec,28,Zelos,-1,0,0,Attack,1,Great Moon Ray,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
 61,r547a.tec,28,Zelos,-1,0,4,Nothing,-1,None,2,Assessing Damage,0,0,Attack,0,Moon Ray,-1,None,0
 62,r547a.tec,28,Zelos,-1,0,0,Attack,3,Judgement,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
 63,r547a.tec,28,Zelos,9,0,3,Guard,-1,None,-1,None,0,4,Nothing,-1,None,2,Assessing Damage,0
-64,r547a.tec,28,Zelos,-1,0,1,Magic,-1,None,13,"",0,0,Attack,0,Moon Ray,-1,None,0
+64,r547a.tec,28,Zelos,-1,0,1,Magic,-1,None,13,Quika,0,0,Attack,0,Moon Ray,-1,None,0
 65,r547a.tec,28,Zelos,-1,0,0,Attack,3,Judgement,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
 66,r547a.tec,28,Zelos,9,0,3,Guard,-1,None,-1,None,0,4,Nothing,-1,None,2,Assessing Damage,0
 67,r547a.tec,28,Zelos,0,50,0,Attack,1,Great Moon Ray,-1,None,0,0,Attack,3,Judgement,-1,None,0
-68,r547a.tec,28,Zelos,0,50,4,Nothing,-1,None,2,Assessing Damage,0,1,Magic,-1,None,4,"",0
-69,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,"",0,1,Magic,-1,None,29,"",0
-70,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,35,"",0
+68,r547a.tec,28,Zelos,0,50,4,Nothing,-1,None,2,Assessing Damage,0,1,Magic,-1,None,4,Driln,0
+69,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,Pyrulen,0,1,Magic,-1,None,29,Crystalen,0
+70,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,35,Electrulen,0
 71,r547a.tec,28,Zelos,-1,0,0,Attack,2,Moon Lament,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
-72,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,"",0,1,Magic,-1,None,29,"",0
+72,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,31,Wevlum,0,1,Magic,-1,None,29,Crystalen,0
 73,r547a.tec,28,Zelos,-1,0,0,Attack,2,Moon Lament,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
-74,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,"",0,1,Magic,-1,None,35,"",0
+74,r547a.tec,28,Zelos,3,50,1,Magic,-1,None,30,Pyrulen,0,1,Magic,-1,None,35,Electrulen,0
 75,r547a.tec,28,Zelos,-1,0,0,Attack,2,Moon Lament,-1,None,0,0,Attack,0,Moon Ray,-1,None,0
 0,r550a.tec,21,Black Pirates,3,80,0,Attack,1,Black Torpedo,-1,None,3,2,Focus,-1,None,0,Focus,0
 1,r550a.tec,21,Black Pirates,4,2,0,Attack,1,Black Torpedo,-1,None,1,2,Focus,-1,None,0,Focus,0
@@ -973,13 +973,13 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 15,r552a.tec,21,Black Pirates,3,80,0,Attack,0,Black Cannon,-1,None,0,3,Guard,-1,None,0,Evasive Action,0
 0,r553a.tec,1,Valuan Spellship,3,50,0,Attack,0,Small Cannon,-1,None,0,0,Attack,1,Light Subcannon,-1,None,0
 1,r553a.tec,1,Valuan Spellship,-1,0,0,Attack,1,Light Subcannon,-1,None,0,-1,None,-1,None,-1,None,0
-2,r553a.tec,1,Valuan Spellship,3,75,1,Magic,-1,None,24,"",0,0,Attack,0,Small Cannon,-1,None,0
+2,r553a.tec,1,Valuan Spellship,3,75,1,Magic,-1,None,24,Pyres,0,0,Attack,0,Small Cannon,-1,None,0
 3,r553a.tec,1,Valuan Spellship,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,-1,None,-1,None,-1,None,0
 4,r553a.tec,1,Valuan Spellship,-1,0,0,Attack,0,Small Cannon,-1,None,0,-1,None,1,Light Subcannon,-1,None,0
 5,r553a.tec,1,Valuan Spellship,3,50,2,Focus,-1,None,0,Focus,0,0,Attack,1,Light Subcannon,-1,None,0
 6,r553a.tec,1,Valuan Spellship,3,50,0,Attack,0,Small Cannon,1,None,0,3,Guard,-1,None,0,Evasive Action,0
-7,r553a.tec,1,Valuan Spellship,-1,0,1,Magic,-1,None,24,"",0,-1,None,-1,None,-1,None,0
-8,r553a.tec,1,Valuan Spellship,-1,0,1,Magic,-1,None,24,"",0,-1,None,-1,None,-1,None,0
+7,r553a.tec,1,Valuan Spellship,-1,0,1,Magic,-1,None,24,Pyres,0,-1,None,-1,None,-1,None,0
+8,r553a.tec,1,Valuan Spellship,-1,0,1,Magic,-1,None,24,Pyres,0,-1,None,-1,None,-1,None,0
 9,r553a.tec,1,Valuan Spellship,-1,0,0,Attack,0,Small Cannon,-1,None,0,-1,None,-1,None,-1,None,0
 10,r553a.tec,1,Valuan Spellship,3,50,2,Focus,-1,None,0,Focus,0,3,Guard,-1,None,0,Evasive Action,0
 11,r553a.tec,1,Valuan Spellship,3,50,0,Attack,1,Light Subcannon,-1,None,0,2,Focus,-1,None,0,Focus,0
@@ -988,8 +988,8 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 14,r553a.tec,1,Valuan Spellship,3,65,0,Attack,1,Light Subcannon,-1,None,1,4,Nothing,-1,None,0,Awaiting Orders,0
 15,r553a.tec,1,Valuan Spellship,-1,0,2,Focus,-1,None,0,Focus,0,-1,None,-1,None,-1,None,0
 16,r553a.tec,1,Valuan Spellship,3,50,2,Focus,-1,None,-1,None,0,4,Nothing,-1,None,-1,None,0
-17,r553a.tec,1,Valuan Spellship,3,40,1,Magic,-1,None,7,"",0,0,Attack,0,Small Cannon,-1,None,0
-18,r553a.tec,1,Valuan Spellship,3,65,1,Magic,-1,None,24,"",0,3,Guard,-1,None,-1,None,0
+17,r553a.tec,1,Valuan Spellship,3,40,1,Magic,-1,None,7,Sacres,0,0,Attack,0,Small Cannon,-1,None,0
+18,r553a.tec,1,Valuan Spellship,3,65,1,Magic,-1,None,24,Pyres,0,3,Guard,-1,None,-1,None,0
 19,r553a.tec,1,Valuan Spellship,3,50,2,Focus,-1,None,-1,None,0,0,Attack,1,Light Subcannon,-1,None,0
 0,r554a.tec,0,Valuan Warship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,0,Attack,0,Small Cannon,-1,None,0
 1,r554a.tec,0,Valuan Warship,-1,0,0,Attack,1,Light Subcannon,-1,None,2,0,Attack,1,Light Subcannon,-1,None,2
@@ -1015,45 +1015,45 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 21,r554a.tec,0,Valuan Warship,3,50,0,Attack,1,Light Subcannon,-1,None,2,0,Attack,1,Light Subcannon,-1,None,1
 22,r554a.tec,0,Valuan Warship,3,30,3,Guard,-1,None,-1,None,0,2,Focus,-1,None,0,Focus,0
 23,r554a.tec,0,Valuan Warship,3,70,2,Focus,-1,None,0,Focus,0,3,Guard,-1,None,-1,None,0
-0,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,"",0,1,Magic,0,Small Cannon,24,"",0
+0,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,Pyres,0,1,Magic,0,Small Cannon,24,Pyres,0
 1,r555a.tec,1,Valuan Spellship,1,30,4,Nothing,-1,None,0,Awaiting Orders,0,0,Attack,1,Light Subcannon,-1,None,2
 2,r555a.tec,1,Valuan Spellship,3,70,2,Focus,-1,None,0,Focus,0,3,Guard,-1,None,-1,None,0
-3,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,"",0,1,Magic,0,Small Cannon,24,"",0
-4,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,"",0,1,Magic,0,Small Cannon,24,"",0
-5,r555a.tec,1,Valuan Spellship,3,40,1,Magic,0,Small Cannon,0,"",0,0,Attack,1,Light Subcannon,-1,None,1
+3,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,Pyres,0,1,Magic,0,Small Cannon,24,Pyres,0
+4,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,Pyres,0,1,Magic,0,Small Cannon,24,Pyres,0
+5,r555a.tec,1,Valuan Spellship,3,40,1,Magic,0,Small Cannon,0,Increm,0,0,Attack,1,Light Subcannon,-1,None,1
 6,r555a.tec,1,Valuan Spellship,-1,0,4,Nothing,-1,None,1,Target Lost,0,4,Nothing,-1,None,0,Awaiting Orders,0
 7,r555a.tec,1,Valuan Spellship,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,4,Nothing,-1,None,0,Awaiting Orders,0
 8,r555a.tec,1,Valuan Spellship,-1,0,0,Attack,1,Light Subcannon,-1,None,1,0,Attack,1,Light Subcannon,-1,None,2
 9,r555a.tec,1,Valuan Spellship,3,70,2,Focus,-1,None,0,Focus,0,3,Guard,-1,None,-1,None,0
-10,r555a.tec,1,Valuan Spellship,3,80,1,Magic,0,Small Cannon,0,"",0,0,Attack,1,Light Subcannon,-1,None,1
-11,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,"",0,1,Magic,0,Small Cannon,24,"",0
-12,r555a.tec,1,Valuan Spellship,3,50,0,Attack,1,Light Subcannon,-1,None,2,1,Magic,0,Small Cannon,24,"",0
+10,r555a.tec,1,Valuan Spellship,3,80,1,Magic,0,Small Cannon,0,Increm,0,0,Attack,1,Light Subcannon,-1,None,1
+11,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,Pyres,0,1,Magic,0,Small Cannon,24,Pyres,0
+12,r555a.tec,1,Valuan Spellship,3,50,0,Attack,1,Light Subcannon,-1,None,2,1,Magic,0,Small Cannon,24,Pyres,0
 13,r555a.tec,1,Valuan Spellship,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,4,Nothing,-1,None,0,Awaiting Orders,0
-14,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,"",0,1,Magic,0,Small Cannon,24,"",0
+14,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,Pyres,0,1,Magic,0,Small Cannon,24,Pyres,0
 15,r555a.tec,1,Valuan Spellship,3,20,2,Focus,-1,None,0,Focus,0,4,Nothing,-1,None,0,Awaiting Orders,0
-16,r555a.tec,1,Valuan Spellship,1,20,1,Magic,0,Small Cannon,6,"",0,3,Guard,-1,None,-1,None,0
-17,r555a.tec,1,Valuan Spellship,3,50,0,Attack,1,Light Subcannon,-1,None,2,1,Magic,0,Small Cannon,24,"",0
-18,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,"",0,1,Magic,0,Small Cannon,24,"",0
-19,r555a.tec,1,Valuan Spellship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,0,Small Cannon,24,"",0
-20,r555a.tec,1,Valuan Spellship,1,40,1,Magic,0,Small Cannon,6,"",0,3,Guard,-1,None,-1,None,0
-21,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,"",0,1,Magic,0,Small Cannon,24,"",0
+16,r555a.tec,1,Valuan Spellship,1,20,1,Magic,0,Small Cannon,6,Sacri,0,3,Guard,-1,None,-1,None,0
+17,r555a.tec,1,Valuan Spellship,3,50,0,Attack,1,Light Subcannon,-1,None,2,1,Magic,0,Small Cannon,24,Pyres,0
+18,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,Pyres,0,1,Magic,0,Small Cannon,24,Pyres,0
+19,r555a.tec,1,Valuan Spellship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,0,Small Cannon,24,Pyres,0
+20,r555a.tec,1,Valuan Spellship,1,40,1,Magic,0,Small Cannon,6,Sacri,0,3,Guard,-1,None,-1,None,0
+21,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,Pyres,0,1,Magic,0,Small Cannon,24,Pyres,0
 22,r555a.tec,1,Valuan Spellship,3,30,3,Guard,-1,None,-1,None,0,2,Focus,-1,None,0,Focus,0
-23,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,"",0,1,Magic,0,Small Cannon,24,"",0
-0,r556a.tec,3,Valuan Phantom,0,50,4,Nothing,-1,None,-1,None,0,1,Magic,-1,None,23,"",0
-1,r556a.tec,3,Valuan Phantom,0,20,4,Nothing,-1,None,-1,None,0,1,Magic,-1,None,23,"",0
+23,r555a.tec,1,Valuan Spellship,-1,0,1,Magic,0,Small Cannon,24,Pyres,0,1,Magic,0,Small Cannon,24,Pyres,0
+0,r556a.tec,3,Valuan Phantom,0,50,4,Nothing,-1,None,-1,None,0,1,Magic,-1,None,23,Pyri,0
+1,r556a.tec,3,Valuan Phantom,0,20,4,Nothing,-1,None,-1,None,0,1,Magic,-1,None,23,Pyri,0
 2,r556a.tec,3,Valuan Phantom,3,30,3,Guard,-1,None,0,Evasive Action,0,2,Focus,-1,None,0,Focus,0
 3,r556a.tec,3,Valuan Phantom,3,10,3,Guard,-1,None,0,Evasive Action,0,0,Attack,1,Subcannon,-1,None,0
-4,r556a.tec,3,Valuan Phantom,0,20,4,Nothing,-1,None,-1,None,0,1,Magic,-1,None,23,"",0
-5,r556a.tec,3,Valuan Phantom,1,40,1,Magic,-1,None,6,"",0,0,Attack,0,Standard Cannon,-1,None,0
+4,r556a.tec,3,Valuan Phantom,0,20,4,Nothing,-1,None,-1,None,0,1,Magic,-1,None,23,Pyri,0
+5,r556a.tec,3,Valuan Phantom,1,40,1,Magic,-1,None,6,Sacri,0,0,Attack,0,Standard Cannon,-1,None,0
 6,r556a.tec,3,Valuan Phantom,3,30,3,Guard,-1,None,0,Evasive Action,0,4,Nothing,-1,None,-1,None,0
-7,r556a.tec,3,Valuan Phantom,3,30,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,23,"",0
-8,r556a.tec,3,Valuan Phantom,1,20,1,Magic,-1,None,6,"",0,0,Attack,1,Subcannon,-1,None,3
-9,r556a.tec,3,Valuan Phantom,1,10,1,Magic,-1,None,6,"",0,1,Magic,-1,None,23,"",0
+7,r556a.tec,3,Valuan Phantom,3,30,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,23,Pyri,0
+8,r556a.tec,3,Valuan Phantom,1,20,1,Magic,-1,None,6,Sacri,0,0,Attack,1,Subcannon,-1,None,3
+9,r556a.tec,3,Valuan Phantom,1,10,1,Magic,-1,None,6,Sacri,0,1,Magic,-1,None,23,Pyri,0
 10,r556a.tec,3,Valuan Phantom,3,50,2,Focus,-1,None,0,Focus,0,3,Guard,-1,None,0,Evasive Action,0
-11,r556a.tec,3,Valuan Phantom,1,10,1,Magic,-1,None,6,"",0,1,Magic,-1,None,23,"",0
+11,r556a.tec,3,Valuan Phantom,1,10,1,Magic,-1,None,6,Sacri,0,1,Magic,-1,None,23,Pyri,0
 12,r556a.tec,3,Valuan Phantom,3,50,0,Attack,1,Subcannon,-1,None,2,2,Focus,-1,None,0,Focus,0
 13,r556a.tec,3,Valuan Phantom,1,30,3,Guard,-1,None,0,Evasive Action,0,4,Nothing,-1,None,-1,None,0
-14,r556a.tec,3,Valuan Phantom,3,30,1,Magic,-1,None,6,"",0,2,Focus,-1,None,0,Focus,0
+14,r556a.tec,3,Valuan Phantom,3,30,1,Magic,-1,None,6,Sacri,0,2,Focus,-1,None,0,Focus,0
 15,r556a.tec,3,Valuan Phantom,3,50,2,Focus,-1,None,0,Focus,0,0,Attack,0,Standard Cannon,-1,None,0
 0,r557a.tec,4,Valuan Gunboat,0,50,0,Attack,2,Torpedo,-1,None,2,2,Focus,-1,None,-1,None,0
 1,r557a.tec,4,Valuan Gunboat,4,0,0,Attack,1,Heavy Subcannon,-1,None,1,2,Focus,-1,None,-1,None,0
@@ -1105,37 +1105,37 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 15,r558a.tec,4,Valuan Gunboat,3,50,0,Attack,0,Large Cannon,-1,None,0,3,Guard,-1,None,-1,None,0
 0,r559a.tec,22,Spell Pirates,-1,0,0,Attack,1,Black Torpedo,-1,None,3,0,Attack,-1,None,-1,None,0
 1,r559a.tec,22,Spell Pirates,3,50,0,Attack,0,Black Cannon,-1,None,0,0,Attack,1,Black Torpedo,-1,None,2
-2,r559a.tec,22,Spell Pirates,3,70,1,Magic,-1,None,25,"",0,2,Focus,-1,None,-1,None,0
+2,r559a.tec,22,Spell Pirates,3,70,1,Magic,-1,None,25,Pyrum,0,2,Focus,-1,None,-1,None,0
 3,r559a.tec,22,Spell Pirates,-1,0,3,Guard,-1,None,0,Evasive Action,0,0,Attack,-1,None,-1,None,0
 4,r559a.tec,22,Spell Pirates,3,50,0,Attack,1,Black Torpedo,-1,None,3,2,Focus,-1,None,-1,None,0
-5,r559a.tec,22,Spell Pirates,3,65,1,Magic,-1,None,25,"",0,1,Magic,-1,None,6,"",0
+5,r559a.tec,22,Spell Pirates,3,65,1,Magic,-1,None,25,Pyrum,0,1,Magic,-1,None,6,Sacri,0
 6,r559a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,0,-1,None,-1,None,-1,None,0
 7,r559a.tec,22,Spell Pirates,-1,0,2,Focus,-1,None,-1,None,0,-1,None,-1,None,-1,None,0
 8,r559a.tec,22,Spell Pirates,3,35,3,Guard,-1,None,0,Evasive Action,0,0,Attack,0,Black Cannon,-1,None,0
 9,r559a.tec,22,Spell Pirates,3,50,0,Attack,1,Black Torpedo,-1,None,1,2,Focus,-1,None,0,Focus,0
 10,r559a.tec,22,Spell Pirates,-1,0,2,Focus,-1,None,0,Focus,0,-1,None,-1,None,-1,None,0
-11,r559a.tec,22,Spell Pirates,3,80,0,Attack,0,Black Cannon,-1,None,0,1,Magic,-1,None,25,"",0
+11,r559a.tec,22,Spell Pirates,3,80,0,Attack,0,Black Cannon,-1,None,0,1,Magic,-1,None,25,Pyrum,0
 12,r559a.tec,22,Spell Pirates,3,80,0,Attack,0,Black Cannon,-1,None,0,2,Focus,-1,None,0,Focus,0
 13,r559a.tec,22,Spell Pirates,3,50,0,Attack,1,Black Torpedo,-1,None,2,4,Nothing,-1,None,0,Awaiting Orders,0
 14,r559a.tec,22,Spell Pirates,3,50,0,Attack,0,Black Cannon,-1,None,0,0,Attack,1,Black Torpedo,-1,None,1
 15,r559a.tec,22,Spell Pirates,-1,0,3,Guard,-1,None,0,Evasive Action,0,-1,None,-1,None,-1,None,0
 16,r559a.tec,22,Spell Pirates,3,50,0,Attack,1,Black Torpedo,-1,None,1,0,Attack,1,Black Torpedo,-1,None,2
 17,r559a.tec,22,Spell Pirates,3,50,0,Attack,0,Black Cannon,-1,None,0,3,Guard,-1,None,0,Evasive Action,0
-18,r559a.tec,22,Spell Pirates,-1,0,1,Magic,-1,None,25,"",0,-1,None,-1,None,-1,None,0
-19,r559a.tec,22,Spell Pirates,-1,0,1,Magic,-1,None,25,"",0,-1,None,-1,None,-1,None,0
+18,r559a.tec,22,Spell Pirates,-1,0,1,Magic,-1,None,25,Pyrum,0,-1,None,-1,None,-1,None,0
+19,r559a.tec,22,Spell Pirates,-1,0,1,Magic,-1,None,25,Pyrum,0,-1,None,-1,None,-1,None,0
 20,r559a.tec,22,Spell Pirates,-1,0,2,Focus,-1,None,-1,None,0,-1,None,-1,None,-1,None,0
 21,r559a.tec,22,Spell Pirates,-1,0,0,Attack,1,Black Torpedo,0,None,1,-1,None,-1,None,-1,None,0
 22,r559a.tec,22,Spell Pirates,3,41,4,Nothing,0,Black Cannon,-1,None,0,2,Focus,-1,None,-1,None,0
 23,r559a.tec,22,Spell Pirates,-1,0,4,Nothing,-1,None,-1,None,0,-1,None,-1,None,-1,None,0
 0,r560a.tec,1,Valuan Spellship,3,50,0,Attack,0,Small Cannon,-1,None,0,0,Attack,1,Light Subcannon,-1,None,0
 1,r560a.tec,1,Valuan Spellship,-1,0,0,Attack,1,Light Subcannon,-1,None,0,-1,None,-1,None,-1,None,0
-2,r560a.tec,1,Valuan Spellship,3,75,1,Magic,-1,None,24,"",0,0,Attack,0,Small Cannon,-1,None,0
+2,r560a.tec,1,Valuan Spellship,3,75,1,Magic,-1,None,24,Pyres,0,0,Attack,0,Small Cannon,-1,None,0
 3,r560a.tec,1,Valuan Spellship,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,-1,None,-1,None,-1,None,0
 4,r560a.tec,1,Valuan Spellship,-1,0,0,Attack,0,Small Cannon,-1,None,0,-1,None,1,Light Subcannon,-1,None,0
 5,r560a.tec,1,Valuan Spellship,3,50,2,Focus,-1,None,0,Focus,0,0,Attack,1,Light Subcannon,-1,None,0
 6,r560a.tec,1,Valuan Spellship,3,50,0,Attack,0,Small Cannon,1,None,0,3,Guard,-1,None,0,Evasive Action,0
-7,r560a.tec,1,Valuan Spellship,-1,0,1,Magic,-1,None,24,"",0,-1,None,-1,None,-1,None,0
-8,r560a.tec,1,Valuan Spellship,-1,0,1,Magic,-1,None,24,"",0,-1,None,-1,None,-1,None,0
+7,r560a.tec,1,Valuan Spellship,-1,0,1,Magic,-1,None,24,Pyres,0,-1,None,-1,None,-1,None,0
+8,r560a.tec,1,Valuan Spellship,-1,0,1,Magic,-1,None,24,Pyres,0,-1,None,-1,None,-1,None,0
 9,r560a.tec,1,Valuan Spellship,-1,0,0,Attack,0,Small Cannon,-1,None,0,-1,None,-1,None,-1,None,0
 10,r560a.tec,1,Valuan Spellship,3,50,2,Focus,-1,None,0,Focus,0,3,Guard,-1,None,0,Evasive Action,0
 11,r560a.tec,1,Valuan Spellship,3,50,0,Attack,1,Light Subcannon,-1,None,0,2,Focus,-1,None,0,Focus,0
@@ -1144,8 +1144,8 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 14,r560a.tec,1,Valuan Spellship,3,65,0,Attack,1,Light Subcannon,-1,None,1,4,Nothing,-1,None,0,Awaiting Orders,0
 15,r560a.tec,1,Valuan Spellship,-1,0,2,Focus,-1,None,0,Focus,0,-1,None,-1,None,-1,None,0
 16,r560a.tec,1,Valuan Spellship,3,50,2,Focus,-1,None,-1,None,0,4,Nothing,-1,None,-1,None,0
-17,r560a.tec,1,Valuan Spellship,3,40,1,Magic,-1,None,7,"",0,0,Attack,0,Small Cannon,-1,None,0
-18,r560a.tec,1,Valuan Spellship,3,65,1,Magic,-1,None,24,"",0,3,Guard,-1,None,-1,None,0
+17,r560a.tec,1,Valuan Spellship,3,40,1,Magic,-1,None,7,Sacres,0,0,Attack,0,Small Cannon,-1,None,0
+18,r560a.tec,1,Valuan Spellship,3,65,1,Magic,-1,None,24,Pyres,0,3,Guard,-1,None,-1,None,0
 19,r560a.tec,1,Valuan Spellship,3,50,2,Focus,-1,None,-1,None,0,0,Attack,1,Light Subcannon,-1,None,0
 0,r562a.tec,4,Valuan Gunboat,-1,0,0,Attack,0,Large Cannon,-1,None,0,0,Attack,0,Large Cannon,-1,None,0
 1,r562a.tec,4,Valuan Gunboat,3,80,0,Attack,1,Heavy Subcannon,-1,None,1,4,Nothing,0,Large Cannon,0,Awaiting Orders,0
@@ -1163,35 +1163,35 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 13,r562a.tec,4,Valuan Gunboat,-1,0,0,Attack,2,Torpedo,-1,None,2,0,Attack,-1,None,-1,None,0
 14,r562a.tec,4,Valuan Gunboat,3,50,0,Attack,0,Large Cannon,-1,None,0,2,Focus,0,Large Cannon,-1,None,0
 15,r562a.tec,4,Valuan Gunboat,3,30,0,Attack,1,Heavy Subcannon,-1,None,0,0,Attack,0,Large Cannon,-1,None,0
-0,r563a.tec,5,Valuan Mage Ship,1,99,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,13,"",0
-1,r563a.tec,5,Valuan Mage Ship,3,50,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,27,"",0
-2,r563a.tec,5,Valuan Mage Ship,3,50,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,34,"",0
-3,r563a.tec,5,Valuan Mage Ship,3,50,0,Attack,0,Large Cannon,-1,None,0,1,Magic,-1,None,27,"",0
-4,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,"",0
-5,r563a.tec,5,Valuan Mage Ship,-1,0,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,27,"",0
-6,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,"",0
-7,r563a.tec,5,Valuan Mage Ship,0,90,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,4,"",0
-8,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,"",0
-9,r563a.tec,5,Valuan Mage Ship,3,50,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,34,"",0
-10,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,"",0
-11,r563a.tec,5,Valuan Mage Ship,3,50,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,34,"",0
-12,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,"",0
+0,r563a.tec,5,Valuan Mage Ship,1,99,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,13,Quika,0
+1,r563a.tec,5,Valuan Mage Ship,3,50,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,27,Crystales,0
+2,r563a.tec,5,Valuan Mage Ship,3,50,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,34,Electrum,0
+3,r563a.tec,5,Valuan Mage Ship,3,50,0,Attack,0,Large Cannon,-1,None,0,1,Magic,-1,None,27,Crystales,0
+4,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,Electrum,0
+5,r563a.tec,5,Valuan Mage Ship,-1,0,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,27,Crystales,0
+6,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,Electrum,0
+7,r563a.tec,5,Valuan Mage Ship,0,90,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,4,Driln,0
+8,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,Crystales,0
+9,r563a.tec,5,Valuan Mage Ship,3,50,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,34,Electrum,0
+10,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,Crystales,0
+11,r563a.tec,5,Valuan Mage Ship,3,50,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,34,Electrum,0
+12,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,Crystales,0
 13,r563a.tec,5,Valuan Mage Ship,-1,0,0,Attack,0,Large Cannon,-1,None,0,0,Attack,0,Large Cannon,-1,None,0
-14,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,"",0
-15,r563a.tec,5,Valuan Mage Ship,1,40,1,Magic,-1,None,4,"",0,1,Magic,-1,None,27,"",0
-16,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,"",0
-17,r563a.tec,5,Valuan Mage Ship,3,50,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,27,"",0
-18,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,"",0
-19,r563a.tec,5,Valuan Mage Ship,1,40,1,Magic,-1,None,13,"",0,1,Magic,-1,None,27,"",0
+14,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,Electrum,0
+15,r563a.tec,5,Valuan Mage Ship,1,40,1,Magic,-1,None,4,Driln,0,1,Magic,-1,None,27,Crystales,0
+16,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,Electrum,0
+17,r563a.tec,5,Valuan Mage Ship,3,50,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,27,Crystales,0
+18,r563a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,Electrum,0
+19,r563a.tec,5,Valuan Mage Ship,1,40,1,Magic,-1,None,13,Quika,0,1,Magic,-1,None,27,Crystales,0
 0,r564a.tec,1,Valuan Spellship,3,50,0,Attack,0,Small Cannon,-1,None,0,0,Attack,1,Light Subcannon,-1,None,0
 1,r564a.tec,1,Valuan Spellship,-1,0,0,Attack,1,Light Subcannon,-1,None,0,-1,None,-1,None,-1,None,0
-2,r564a.tec,1,Valuan Spellship,3,75,1,Magic,-1,None,24,"",0,0,Attack,0,Small Cannon,-1,None,0
+2,r564a.tec,1,Valuan Spellship,3,75,1,Magic,-1,None,24,Pyres,0,0,Attack,0,Small Cannon,-1,None,0
 3,r564a.tec,1,Valuan Spellship,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,-1,None,-1,None,-1,None,0
 4,r564a.tec,1,Valuan Spellship,-1,0,0,Attack,0,Small Cannon,-1,None,0,-1,None,1,Light Subcannon,-1,None,0
 5,r564a.tec,1,Valuan Spellship,3,50,2,Focus,-1,None,0,Focus,0,0,Attack,1,Light Subcannon,-1,None,0
 6,r564a.tec,1,Valuan Spellship,3,50,0,Attack,0,Small Cannon,1,None,0,3,Guard,-1,None,0,Evasive Action,0
-7,r564a.tec,1,Valuan Spellship,-1,0,1,Magic,-1,None,24,"",0,-1,None,-1,None,-1,None,0
-8,r564a.tec,1,Valuan Spellship,-1,0,1,Magic,-1,None,24,"",0,-1,None,-1,None,-1,None,0
+7,r564a.tec,1,Valuan Spellship,-1,0,1,Magic,-1,None,24,Pyres,0,-1,None,-1,None,-1,None,0
+8,r564a.tec,1,Valuan Spellship,-1,0,1,Magic,-1,None,24,Pyres,0,-1,None,-1,None,-1,None,0
 9,r564a.tec,1,Valuan Spellship,-1,0,0,Attack,0,Small Cannon,-1,None,0,-1,None,-1,None,-1,None,0
 10,r564a.tec,1,Valuan Spellship,3,50,2,Focus,-1,None,0,Focus,0,3,Guard,-1,None,0,Evasive Action,0
 11,r564a.tec,1,Valuan Spellship,3,50,0,Attack,1,Light Subcannon,-1,None,0,2,Focus,-1,None,0,Focus,0
@@ -1200,19 +1200,19 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 14,r564a.tec,1,Valuan Spellship,3,65,0,Attack,1,Light Subcannon,-1,None,1,4,Nothing,-1,None,0,Awaiting Orders,0
 15,r564a.tec,1,Valuan Spellship,-1,0,2,Focus,-1,None,0,Focus,0,-1,None,-1,None,-1,None,0
 16,r564a.tec,1,Valuan Spellship,3,50,2,Focus,-1,None,-1,None,0,4,Nothing,-1,None,-1,None,0
-17,r564a.tec,1,Valuan Spellship,3,40,1,Magic,-1,None,7,"",0,0,Attack,0,Small Cannon,-1,None,0
-18,r564a.tec,1,Valuan Spellship,3,65,1,Magic,-1,None,24,"",0,3,Guard,-1,None,-1,None,0
+17,r564a.tec,1,Valuan Spellship,3,40,1,Magic,-1,None,7,Sacres,0,0,Attack,0,Small Cannon,-1,None,0
+18,r564a.tec,1,Valuan Spellship,3,65,1,Magic,-1,None,24,Pyres,0,3,Guard,-1,None,-1,None,0
 19,r564a.tec,1,Valuan Spellship,3,50,2,Focus,-1,None,-1,None,0,0,Attack,1,Light Subcannon,-1,None,0
 0,r565a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,0,0,Attack,-1,None,-1,None,0
 1,r565a.tec,22,Spell Pirates,3,20,2,Focus,-1,None,-1,None,0,0,Attack,1,Black Torpedo,-1,None,2
 2,r565a.tec,22,Spell Pirates,3,80,0,Attack,0,Black Cannon,-1,None,0,2,Focus,-1,None,0,Focus,0
-3,r565a.tec,22,Spell Pirates,4,2,1,Magic,-1,None,6,"",0,0,Attack,0,Black Cannon,-1,None,0
+3,r565a.tec,22,Spell Pirates,4,2,1,Magic,-1,None,6,Sacri,0,0,Attack,0,Black Cannon,-1,None,0
 4,r565a.tec,22,Spell Pirates,3,70,0,Attack,1,Black Torpedo,-1,None,3,2,Focus,-1,None,-1,None,0
-5,r565a.tec,22,Spell Pirates,3,85,1,Magic,0,Black Cannon,25,"",0,1,Magic,-1,None,6,"",0
+5,r565a.tec,22,Spell Pirates,3,85,1,Magic,0,Black Cannon,25,Pyrum,0,1,Magic,-1,None,6,Sacri,0
 6,r565a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,0,-1,None,-1,None,-1,None,0
 7,r565a.tec,22,Spell Pirates,-1,0,2,Focus,-1,None,-1,None,0,-1,None,-1,None,-1,None,0
 8,r565a.tec,22,Spell Pirates,-1,0,3,Guard,-1,None,0,Evasive Action,0,-1,None,-1,None,-1,None,0
-9,r565a.tec,22,Spell Pirates,-1,0,1,Magic,0,Black Cannon,25,"",1,-1,None,-1,None,-1,None,0
+9,r565a.tec,22,Spell Pirates,-1,0,1,Magic,0,Black Cannon,25,Pyrum,1,-1,None,-1,None,-1,None,0
 10,r565a.tec,22,Spell Pirates,-1,0,4,Nothing,-1,None,-1,None,0,-1,None,-1,None,-1,None,0
 11,r565a.tec,22,Spell Pirates,3,50,0,Attack,0,Black Cannon,-1,None,0,4,Nothing,-1,None,0,Awaiting Orders,0
 12,r565a.tec,22,Spell Pirates,-1,0,0,Attack,1,Black Torpedo,-1,None,2,-1,None,-1,None,-1,None,0
@@ -1221,28 +1221,28 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 15,r565a.tec,22,Spell Pirates,-1,0,3,Guard,-1,None,0,Evasive Action,0,-1,None,-1,None,-1,None,0
 16,r565a.tec,22,Spell Pirates,3,50,0,Attack,1,Black Torpedo,-1,None,2,0,Attack,1,Black Torpedo,-1,None,3
 17,r565a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,0,-1,None,-1,None,-1,None,0
-18,r565a.tec,22,Spell Pirates,-1,0,1,Magic,0,Black Cannon,25,"",0,-1,None,-1,None,-1,None,0
+18,r565a.tec,22,Spell Pirates,-1,0,1,Magic,0,Black Cannon,25,Pyrum,0,-1,None,-1,None,-1,None,0
 19,r565a.tec,22,Spell Pirates,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,-1,None,-1,None,-1,None,0
 20,r565a.tec,22,Spell Pirates,-1,0,0,Attack,1,Black Torpedo,-1,None,2,-1,None,-1,None,-1,None,0
 21,r565a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,1,-1,None,-1,None,-1,None,0
 22,r565a.tec,22,Spell Pirates,-1,0,4,Nothing,0,Black Cannon,0,Awaiting Orders,0,-1,None,-1,None,-1,None,0
 23,r565a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,0,-1,None,-1,None,-1,None,0
 0,r566a.tec,7,Valuan Spectre,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,2,Focus,-1,None,0,Focus,0
-1,r566a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,27,"",0
-2,r566a.tec,7,Valuan Spectre,1,30,0,Attack,1,Neo Subcannon,-1,None,0,1,Magic,-1,None,34,"",0
-3,r566a.tec,7,Valuan Spectre,1,30,1,Magic,-1,None,6,"",0,2,Focus,-1,None,0,Focus,0
-4,r566a.tec,7,Valuan Spectre,-1,0,1,Magic,-1,None,34,"",0,1,Magic,-1,None,34,"",0
-5,r566a.tec,7,Valuan Spectre,-1,0,1,Magic,-1,None,34,"",0,1,Magic,-1,None,34,"",0
-6,r566a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,27,"",0
-7,r566a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,34,"",0
-8,r566a.tec,7,Valuan Spectre,3,10,1,Magic,-1,None,13,"",0,2,Focus,-1,None,0,Focus,0
-9,r566a.tec,7,Valuan Spectre,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,"",0
+1,r566a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,27,Crystales,0
+2,r566a.tec,7,Valuan Spectre,1,30,0,Attack,1,Neo Subcannon,-1,None,0,1,Magic,-1,None,34,Electrum,0
+3,r566a.tec,7,Valuan Spectre,1,30,1,Magic,-1,None,6,Sacri,0,2,Focus,-1,None,0,Focus,0
+4,r566a.tec,7,Valuan Spectre,-1,0,1,Magic,-1,None,34,Electrum,0,1,Magic,-1,None,34,Electrum,0
+5,r566a.tec,7,Valuan Spectre,-1,0,1,Magic,-1,None,34,Electrum,0,1,Magic,-1,None,34,Electrum,0
+6,r566a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,27,Crystales,0
+7,r566a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,34,Electrum,0
+8,r566a.tec,7,Valuan Spectre,3,10,1,Magic,-1,None,13,Quika,0,2,Focus,-1,None,0,Focus,0
+9,r566a.tec,7,Valuan Spectre,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,Crystales,0
 10,r566a.tec,7,Valuan Spectre,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,2,Focus,-1,None,0,Focus,0
-11,r566a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,34,"",0
-12,r566a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,27,"",0
+11,r566a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,34,Electrum,0
+12,r566a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,27,Crystales,0
 13,r566a.tec,7,Valuan Spectre,1,30,0,Attack,1,Neo Subcannon,-1,None,3,2,Focus,-1,None,0,Focus,0
-14,r566a.tec,7,Valuan Spectre,1,30,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,34,"",0
-15,r566a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,34,"",0
+14,r566a.tec,7,Valuan Spectre,1,30,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,34,Electrum,0
+15,r566a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,34,Electrum,0
 0,r567a.tec,6,Valuan Destroyer,3,50,0,Attack,1,Great Subcannon,-1,None,1,4,Nothing,0,Prototype Cannon,-1,None,0
 1,r567a.tec,6,Valuan Destroyer,3,70,0,Attack,0,Prototype Cannon,-1,None,0,2,Focus,0,Prototype Cannon,-1,None,0
 2,r567a.tec,6,Valuan Destroyer,3,50,0,Attack,0,Prototype Cannon,-1,None,0,0,Attack,2,Great Torpedo,-1,None,1
@@ -1262,13 +1262,13 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 0,r568a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,0,0,Attack,-1,None,-1,None,0
 1,r568a.tec,22,Spell Pirates,3,20,2,Focus,-1,None,-1,None,0,0,Attack,1,Black Torpedo,-1,None,2
 2,r568a.tec,22,Spell Pirates,3,80,0,Attack,0,Black Cannon,-1,None,0,2,Focus,-1,None,0,Focus,0
-3,r568a.tec,22,Spell Pirates,4,2,1,Magic,-1,None,6,"",0,0,Attack,0,Black Cannon,-1,None,0
+3,r568a.tec,22,Spell Pirates,4,2,1,Magic,-1,None,6,Sacri,0,0,Attack,0,Black Cannon,-1,None,0
 4,r568a.tec,22,Spell Pirates,3,70,0,Attack,1,Black Torpedo,-1,None,3,2,Focus,-1,None,-1,None,0
-5,r568a.tec,22,Spell Pirates,3,85,1,Magic,0,Black Cannon,25,"",0,1,Magic,-1,None,6,"",0
+5,r568a.tec,22,Spell Pirates,3,85,1,Magic,0,Black Cannon,25,Pyrum,0,1,Magic,-1,None,6,Sacri,0
 6,r568a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,0,-1,None,-1,None,-1,None,0
 7,r568a.tec,22,Spell Pirates,-1,0,2,Focus,-1,None,-1,None,0,-1,None,-1,None,-1,None,0
 8,r568a.tec,22,Spell Pirates,-1,0,3,Guard,-1,None,0,Evasive Action,0,-1,None,-1,None,-1,None,0
-9,r568a.tec,22,Spell Pirates,-1,0,1,Magic,0,Black Cannon,25,"",1,-1,None,-1,None,-1,None,0
+9,r568a.tec,22,Spell Pirates,-1,0,1,Magic,0,Black Cannon,25,Pyrum,1,-1,None,-1,None,-1,None,0
 10,r568a.tec,22,Spell Pirates,-1,0,4,Nothing,-1,None,-1,None,0,-1,None,-1,None,-1,None,0
 11,r568a.tec,22,Spell Pirates,3,50,0,Attack,0,Black Cannon,-1,None,0,4,Nothing,-1,None,0,Awaiting Orders,0
 12,r568a.tec,22,Spell Pirates,-1,0,0,Attack,1,Black Torpedo,-1,None,2,-1,None,-1,None,-1,None,0
@@ -1277,42 +1277,42 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 15,r568a.tec,22,Spell Pirates,-1,0,3,Guard,-1,None,0,Evasive Action,0,-1,None,-1,None,-1,None,0
 16,r568a.tec,22,Spell Pirates,3,50,0,Attack,1,Black Torpedo,-1,None,2,0,Attack,1,Black Torpedo,-1,None,3
 17,r568a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,0,-1,None,-1,None,-1,None,0
-18,r568a.tec,22,Spell Pirates,-1,0,1,Magic,0,Black Cannon,25,"",0,-1,None,-1,None,-1,None,0
+18,r568a.tec,22,Spell Pirates,-1,0,1,Magic,0,Black Cannon,25,Pyrum,0,-1,None,-1,None,-1,None,0
 19,r568a.tec,22,Spell Pirates,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,-1,None,-1,None,-1,None,0
 20,r568a.tec,22,Spell Pirates,-1,0,0,Attack,1,Black Torpedo,-1,None,2,-1,None,-1,None,-1,None,0
 21,r568a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,1,-1,None,-1,None,-1,None,0
 22,r568a.tec,22,Spell Pirates,-1,0,4,Nothing,0,Black Cannon,0,Awaiting Orders,0,-1,None,-1,None,-1,None,0
 23,r568a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,0,-1,None,-1,None,-1,None,0
-0,r569a.tec,5,Valuan Mage Ship,1,99,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,13,"",0
-1,r569a.tec,5,Valuan Mage Ship,3,50,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,27,"",0
-2,r569a.tec,5,Valuan Mage Ship,3,50,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,34,"",0
-3,r569a.tec,5,Valuan Mage Ship,3,50,0,Attack,0,Large Cannon,-1,None,0,1,Magic,-1,None,27,"",0
-4,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,"",0
-5,r569a.tec,5,Valuan Mage Ship,-1,0,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,27,"",0
-6,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,"",0
-7,r569a.tec,5,Valuan Mage Ship,0,90,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,4,"",0
-8,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,"",0
-9,r569a.tec,5,Valuan Mage Ship,3,50,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,34,"",0
-10,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,"",0
-11,r569a.tec,5,Valuan Mage Ship,3,50,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,34,"",0
-12,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,"",0
+0,r569a.tec,5,Valuan Mage Ship,1,99,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,13,Quika,0
+1,r569a.tec,5,Valuan Mage Ship,3,50,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,27,Crystales,0
+2,r569a.tec,5,Valuan Mage Ship,3,50,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,34,Electrum,0
+3,r569a.tec,5,Valuan Mage Ship,3,50,0,Attack,0,Large Cannon,-1,None,0,1,Magic,-1,None,27,Crystales,0
+4,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,Electrum,0
+5,r569a.tec,5,Valuan Mage Ship,-1,0,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,27,Crystales,0
+6,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,Electrum,0
+7,r569a.tec,5,Valuan Mage Ship,0,90,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,4,Driln,0
+8,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,Crystales,0
+9,r569a.tec,5,Valuan Mage Ship,3,50,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,34,Electrum,0
+10,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,Crystales,0
+11,r569a.tec,5,Valuan Mage Ship,3,50,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,34,Electrum,0
+12,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,Crystales,0
 13,r569a.tec,5,Valuan Mage Ship,-1,0,0,Attack,0,Large Cannon,-1,None,0,0,Attack,0,Large Cannon,-1,None,0
-14,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,"",0
-15,r569a.tec,5,Valuan Mage Ship,1,40,1,Magic,-1,None,4,"",0,1,Magic,-1,None,27,"",0
-16,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,"",0
-17,r569a.tec,5,Valuan Mage Ship,3,50,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,27,"",0
-18,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,"",0
-19,r569a.tec,5,Valuan Mage Ship,1,40,1,Magic,-1,None,13,"",0,1,Magic,-1,None,27,"",0
+14,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,Electrum,0
+15,r569a.tec,5,Valuan Mage Ship,1,40,1,Magic,-1,None,4,Driln,0,1,Magic,-1,None,27,Crystales,0
+16,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,Electrum,0
+17,r569a.tec,5,Valuan Mage Ship,3,50,3,Guard,-1,None,0,Evasive Action,0,1,Magic,-1,None,27,Crystales,0
+18,r569a.tec,5,Valuan Mage Ship,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,34,Electrum,0
+19,r569a.tec,5,Valuan Mage Ship,1,40,1,Magic,-1,None,13,Quika,0,1,Magic,-1,None,27,Crystales,0
 0,r572a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,0,0,Attack,-1,None,-1,None,0
 1,r572a.tec,22,Spell Pirates,3,20,2,Focus,-1,None,-1,None,0,0,Attack,1,Black Torpedo,-1,None,2
 2,r572a.tec,22,Spell Pirates,3,80,0,Attack,0,Black Cannon,-1,None,0,2,Focus,-1,None,0,Focus,0
-3,r572a.tec,22,Spell Pirates,4,2,1,Magic,-1,None,6,"",0,0,Attack,0,Black Cannon,-1,None,0
+3,r572a.tec,22,Spell Pirates,4,2,1,Magic,-1,None,6,Sacri,0,0,Attack,0,Black Cannon,-1,None,0
 4,r572a.tec,22,Spell Pirates,3,70,0,Attack,1,Black Torpedo,-1,None,3,2,Focus,-1,None,-1,None,0
-5,r572a.tec,22,Spell Pirates,3,85,1,Magic,0,Black Cannon,25,"",0,1,Magic,-1,None,6,"",0
+5,r572a.tec,22,Spell Pirates,3,85,1,Magic,0,Black Cannon,25,Pyrum,0,1,Magic,-1,None,6,Sacri,0
 6,r572a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,0,-1,None,-1,None,-1,None,0
 7,r572a.tec,22,Spell Pirates,-1,0,2,Focus,-1,None,-1,None,0,-1,None,-1,None,-1,None,0
 8,r572a.tec,22,Spell Pirates,-1,0,3,Guard,-1,None,0,Evasive Action,0,-1,None,-1,None,-1,None,0
-9,r572a.tec,22,Spell Pirates,-1,0,1,Magic,0,Black Cannon,25,"",1,-1,None,-1,None,-1,None,0
+9,r572a.tec,22,Spell Pirates,-1,0,1,Magic,0,Black Cannon,25,Pyrum,1,-1,None,-1,None,-1,None,0
 10,r572a.tec,22,Spell Pirates,-1,0,4,Nothing,-1,None,-1,None,0,-1,None,-1,None,-1,None,0
 11,r572a.tec,22,Spell Pirates,3,50,0,Attack,0,Black Cannon,-1,None,0,4,Nothing,-1,None,0,Awaiting Orders,0
 12,r572a.tec,22,Spell Pirates,-1,0,0,Attack,1,Black Torpedo,-1,None,2,-1,None,-1,None,-1,None,0
@@ -1321,7 +1321,7 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 15,r572a.tec,22,Spell Pirates,-1,0,3,Guard,-1,None,0,Evasive Action,0,-1,None,-1,None,-1,None,0
 16,r572a.tec,22,Spell Pirates,3,50,0,Attack,1,Black Torpedo,-1,None,2,0,Attack,1,Black Torpedo,-1,None,3
 17,r572a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,0,-1,None,-1,None,-1,None,0
-18,r572a.tec,22,Spell Pirates,-1,0,1,Magic,0,Black Cannon,25,"",0,-1,None,-1,None,-1,None,0
+18,r572a.tec,22,Spell Pirates,-1,0,1,Magic,0,Black Cannon,25,Pyrum,0,-1,None,-1,None,-1,None,0
 19,r572a.tec,22,Spell Pirates,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,-1,None,-1,None,-1,None,0
 20,r572a.tec,22,Spell Pirates,-1,0,0,Attack,1,Black Torpedo,-1,None,2,-1,None,-1,None,-1,None,0
 21,r572a.tec,22,Spell Pirates,-1,0,0,Attack,0,Black Cannon,-1,None,1,-1,None,-1,None,-1,None,0
@@ -1364,21 +1364,21 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unknown,Task rating,Task A t
 14,r574a.tec,6,Valuan Destroyer,3,50,2,Focus,-1,None,0,Focus,0,0,Attack,2,Great Torpedo,-1,None,1
 15,r574a.tec,6,Valuan Destroyer,3,50,2,Focus,-1,None,0,Focus,0,3,Guard,-1,None,0,Evasive Action,0
 0,r575a.tec,7,Valuan Spectre,3,50,4,Nothing,-1,None,0,Awaiting Orders,0,2,Focus,-1,None,0,Focus,0
-1,r575a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,27,"",0
-2,r575a.tec,7,Valuan Spectre,1,30,0,Attack,1,Neo Subcannon,-1,None,0,1,Magic,-1,None,34,"",0
-3,r575a.tec,7,Valuan Spectre,1,30,1,Magic,-1,None,6,"",0,2,Focus,-1,None,0,Focus,0
-4,r575a.tec,7,Valuan Spectre,-1,0,1,Magic,-1,None,34,"",0,1,Magic,-1,None,34,"",0
-5,r575a.tec,7,Valuan Spectre,-1,0,1,Magic,-1,None,34,"",0,1,Magic,-1,None,34,"",0
-6,r575a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,27,"",0
-7,r575a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,34,"",0
-8,r575a.tec,7,Valuan Spectre,3,10,1,Magic,-1,None,13,"",0,2,Focus,-1,None,0,Focus,0
-9,r575a.tec,7,Valuan Spectre,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,"",0
+1,r575a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,27,Crystales,0
+2,r575a.tec,7,Valuan Spectre,1,30,0,Attack,1,Neo Subcannon,-1,None,0,1,Magic,-1,None,34,Electrum,0
+3,r575a.tec,7,Valuan Spectre,1,30,1,Magic,-1,None,6,Sacri,0,2,Focus,-1,None,0,Focus,0
+4,r575a.tec,7,Valuan Spectre,-1,0,1,Magic,-1,None,34,Electrum,0,1,Magic,-1,None,34,Electrum,0
+5,r575a.tec,7,Valuan Spectre,-1,0,1,Magic,-1,None,34,Electrum,0,1,Magic,-1,None,34,Electrum,0
+6,r575a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,27,Crystales,0
+7,r575a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,34,Electrum,0
+8,r575a.tec,7,Valuan Spectre,3,10,1,Magic,-1,None,13,Quika,0,2,Focus,-1,None,0,Focus,0
+9,r575a.tec,7,Valuan Spectre,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,1,Magic,-1,None,27,Crystales,0
 10,r575a.tec,7,Valuan Spectre,-1,0,4,Nothing,-1,None,0,Awaiting Orders,0,2,Focus,-1,None,0,Focus,0
-11,r575a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,34,"",0
-12,r575a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,27,"",0
+11,r575a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,34,Electrum,0
+12,r575a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,27,Crystales,0
 13,r575a.tec,7,Valuan Spectre,1,30,0,Attack,1,Neo Subcannon,-1,None,3,2,Focus,-1,None,0,Focus,0
-14,r575a.tec,7,Valuan Spectre,1,30,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,34,"",0
-15,r575a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,34,"",0
+14,r575a.tec,7,Valuan Spectre,1,30,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,34,Electrum,0
+15,r575a.tec,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,34,Electrum,0
 0,r576a.tec,35,Roc,3,50,4,Nothing,-1,None,2,Assessing Damage,0,0,Attack,0,Blast Voice,-1,None,0
 1,r576a.tec,35,Roc,3,50,4,Nothing,-1,None,2,Assessing Damage,0,0,Attack,0,Blast Voice,-1,None,0
 2,r576a.tec,35,Roc,3,50,4,Nothing,-1,None,2,Assessing Damage,0,0,Attack,0,Blast Voice,-1,None,0

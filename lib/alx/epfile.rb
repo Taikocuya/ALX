@@ -42,8 +42,8 @@ class EpFile
 
   # Size of instruction table
   INSTR_SIZE = 0x40
-  # EOF marker
-  EOF_MARKER = -0x1
+  # EOF mark
+  EOF_MARK   = -0x1
 
 #==============================================================================
 #                                   PUBLIC
@@ -191,8 +191,8 @@ class EpFile
       end
     end
     
-    if _f.read_int('s>') != EOF_MARKER
-      raise(EOFError, 'EOF marker not found')
+    if _f.read_int(:int16) != EOF_MARK
+      raise(EOFError, 'EOF mark not found')
     end
   end
 
@@ -229,7 +229,7 @@ class EpFile
       _last = _instr
     end
 
-    _f.write_int(EOF_MARKER, 's>')
+    _f.write_int(EOF_MARK, :int16)
   end
   
 end # class EpFile

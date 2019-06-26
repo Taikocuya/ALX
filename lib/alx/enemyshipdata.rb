@@ -86,7 +86,7 @@ class EnemyShipData < StdEntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
 
     meta.check_mtime(_filename)
-    BinaryFile.open(_filename, 'rb') do |_f|
+    BinaryFile.open(_filename, 'rb', endianness: root.endianness) do |_f|
       _range = determine_range(@arm_name_file, _filename)
       _f.pos = _range.begin
       
@@ -179,7 +179,7 @@ class EnemyShipData < StdEntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_name))
   
     FileUtils.mkdir_p(File.dirname(_filename))
-    BinaryFile.open(_filename, 'r+b') do |_f|
+    BinaryFile.open(_filename, 'r+b', endianness: root.endianness) do |_f|
       _range    = determine_range(@arm_name_file, _filename) 
 
       @data.each do |_id, _entry|

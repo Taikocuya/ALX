@@ -47,38 +47,38 @@ class ShipCannon < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(VOC.ship_flags                ,  0, 'c' )
-    members << StrDmy.new(VOC.ship_littlejack[1]        , ''      )
-    members << StrDmy.new(VOC.ship_littlejack[2]        , ''      )
-    members << StrDmy.new(VOC.ship_delphinus[1]         , ''      )
-    members << StrDmy.new(VOC.ship_delphinus[2]         , ''      )
-    members << StrDmy.new(VOC.ship_delphinus[3]         , ''      )
-    members << IntVar.new(VOC.type_id                   ,  0, 'c' )
-    members << StrDmy.new(VOC.type_name                 , ''      )
-    members << IntVar.new(VOC.element_id                ,  0, 'c' )
-    members << StrDmy.new(VOC.element_name              , ''      )
+    members << IntVar.new(VOC.ship_flags                ,  0, :int8  )
+    members << StrDmy.new(VOC.ship_littlejack[1]        , ''         )
+    members << StrDmy.new(VOC.ship_littlejack[2]        , ''         )
+    members << StrDmy.new(VOC.ship_delphinus[1]         , ''         )
+    members << StrDmy.new(VOC.ship_delphinus[2]         , ''         )
+    members << StrDmy.new(VOC.ship_delphinus[3]         , ''         )
+    members << IntVar.new(VOC.type_id                   ,  0, :int8  )
+    members << StrDmy.new(VOC.type_name                 , ''         )
+    members << IntVar.new(VOC.element_id                ,  0, :int8  )
+    members << StrDmy.new(VOC.element_name              , ''         )
     
     if eu?
-      members << IntVar.new(padding_hdr                 ,  0, 'c' )
+      members << IntVar.new(padding_hdr                 ,  0, :int8  )
     end
     
-    members << IntVar.new(VOC.attack                    ,  0, 's>')
-    members << IntVar.new(VOC.hit                       ,  0, 'S>')
-    members << IntVar.new(VOC.limit                     ,  0, 'c' )
-    members << IntVar.new(VOC.spirit[-1]                ,  0, 'c' )
-    members << IntVar.new(unknown_hdr                   ,  0, 'c' )
-    members << IntVar.new(padding_hdr                   ,  0, 'c' )
-    members << IntVar.new(padding_hdr                   ,  0, 'c' )
-    members << IntVar.new(padding_hdr                   ,  0, 'c' )
-    members << IntVar.new(VOC.purchase_price            ,  0, 'S>')
-    members << IntVar.new(VOC.retail_price              ,  0, 'c' )
-    members << IntVar.new(VOC.order_priority            ,  0, 'c' )
-    members << IntVar.new(VOC.order_alphabet[country_id],  0, 'c' )
+    members << IntVar.new(VOC.attack                    ,  0, :int16)
+    members << IntVar.new(VOC.hit                       ,  0, :uint16)
+    members << IntVar.new(VOC.limit                     ,  0, :int8  )
+    members << IntVar.new(VOC.spirit[-1]                ,  0, :int8  )
+    members << IntVar.new(unknown_hdr                   ,  0, :int8  )
+    members << IntVar.new(padding_hdr                   ,  0, :int8  )
+    members << IntVar.new(padding_hdr                   ,  0, :int8  )
+    members << IntVar.new(padding_hdr                   ,  0, :int8  )
+    members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
+    members << IntVar.new(VOC.retail_price              ,  0, :int8  )
+    members << IntVar.new(VOC.order_priority            ,  0, :int8  )
+    members << IntVar.new(VOC.order_alphabet[country_id],  0, :int8  )
     
     if eu?
-      members << IntVar.new(padding_hdr                 ,  0, 'c' )
+      members << IntVar.new(padding_hdr                 ,  0, :int8  )
     else
-      members << IntVar.new(VOC.padding[-1]             ,  0, 'c' )
+      members << IntVar.new(VOC.padding[-1]             ,  0, :int8  )
     end
 
     add_dscr_members

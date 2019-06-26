@@ -49,14 +49,26 @@ class BinaryStringIO < DelegateClass(::StringIO)
   public
   
   # @see ::StringIO::new
-  def initialize(*_args)
+  def initialize(*_args, **_opts)
+    _be   = _opts[:be]
+    _be ||= _opts[:big_endian]
+    _le   = _opts[:le]
+    _le ||= _opts[:little_endian]
+    if _be && !_le
+      self.endianness = _be
+    elsif !_be && _le
+      self.endianness = _le
+    else
+      self.endianness = _opts[:endianness]
+    end
+
     @stringio = StringIO.new(*_args)
     super(@stringio)
   end
 
   # @see ::StringIO::open
-  def self.open(*_args)
-    _stringio = new(*_args)
+  def self.open(*_args, **_opts)
+    _stringio = new(*_args, **_opts)
   
     if block_given?
       begin

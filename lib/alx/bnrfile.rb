@@ -60,7 +60,7 @@ class BnrFile
   # Reads a BNR file.
   # @param _filename [String] File name
   def load(_filename)
-    BinaryFile.open(_filename, 'rb') do |_f|
+    BinaryFile.open(_filename, 'rb', big_endian: true) do |_f|
       _file_sig  = _f.read_str(0x3)
       _file_vers = _f.read_str(0x1)
       if _file_sig != FILE_SIG || !FILE_VERS.include?(_file_vers)

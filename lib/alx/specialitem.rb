@@ -47,19 +47,19 @@ class SpecialItem < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(VOC.retail_price              ,  0, 'c' )
-    members << IntVar.new(VOC.order_priority            , -1, 'c' )
-    members << IntVar.new(VOC.order_alphabet[country_id], -1, 'c' )
+    members << IntVar.new(VOC.retail_price              ,  0, :int8  )
+    members << IntVar.new(VOC.order_priority            , -1, :int8  )
+    members << IntVar.new(VOC.order_alphabet[country_id], -1, :int8  )
     
     if eu?
-      members << IntVar.new(padding_hdr                 ,  0, 'c' )
+      members << IntVar.new(padding_hdr                 ,  0, :int8  )
     end
     
-    members << IntVar.new(VOC.purchase_price            ,  0, 'S>')
+    members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
 
     if eu?
-      members << IntVar.new(padding_hdr                 ,  0, 'c' )
-      members << IntVar.new(padding_hdr                 ,  0, 'c' )
+      members << IntVar.new(padding_hdr                 ,  0, :int8  )
+      members << IntVar.new(padding_hdr                 ,  0, :int8  )
     end
 
     add_dscr_members

@@ -45,21 +45,21 @@ class StdEntry < Entry
   # @param _size [Integer] Size of name data members
   def add_name_members(_size = 17)
     if jp? || us?
-      members << StrVar.new(VOC.name_str[country_id]  , '', _size)
+      members << StrVar.new(VOC.name_str[country_id]  , '', _size  )
     elsif eu?
-      members << IntVar.new(VOC.message_id[country_id],  0, 'L>' )
-      members << IntExt.new(VOC.name_pos['DE']        ,  0       )
-      members << IntExt.new(VOC.name_size['DE']       ,  0       )
-      members << StrExt.new(VOC.name_str['DE']        , ''       )
-      members << IntExt.new(VOC.name_pos['ES']        ,  0       )
-      members << IntExt.new(VOC.name_size['ES']       ,  0       )
-      members << StrExt.new(VOC.name_str['ES']        , ''       )
-      members << IntExt.new(VOC.name_pos['FR']        ,  0       )
-      members << IntExt.new(VOC.name_size['FR']       ,  0       )
-      members << StrExt.new(VOC.name_str['FR']        , ''       )
-      members << IntExt.new(VOC.name_pos['GB']        ,  0       )
-      members << IntExt.new(VOC.name_size['GB']       ,  0       )
-      members << StrExt.new(VOC.name_str['GB']        , ''       )
+      members << IntVar.new(VOC.message_id[country_id],  0, :uint32)
+      members << IntExt.new(VOC.name_pos['DE']        ,  0         )
+      members << IntExt.new(VOC.name_size['DE']       ,  0         )
+      members << StrExt.new(VOC.name_str['DE']        , ''         )
+      members << IntExt.new(VOC.name_pos['ES']        ,  0         )
+      members << IntExt.new(VOC.name_size['ES']       ,  0         )
+      members << StrExt.new(VOC.name_str['ES']        , ''         )
+      members << IntExt.new(VOC.name_pos['FR']        ,  0         )
+      members << IntExt.new(VOC.name_size['FR']       ,  0         )
+      members << StrExt.new(VOC.name_str['FR']        , ''         )
+      members << IntExt.new(VOC.name_pos['GB']        ,  0         )
+      members << IntExt.new(VOC.name_size['GB']       ,  0         )
+      members << StrExt.new(VOC.name_str['GB']        , ''         )
     end
   end
 

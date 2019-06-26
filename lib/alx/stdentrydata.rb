@@ -93,7 +93,7 @@ class StdEntryData < EntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     meta.check_mtime(_filename)
-    BinaryFile.open(_filename, 'rb') do |_f|
+    BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _range = determine_range(@data_file, _filename)
       _size  = create_entry.size
       _f.pos = _range.begin
@@ -119,7 +119,7 @@ class StdEntryData < EntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
 
     meta.check_mtime(_filename)
-    BinaryFile.open(_filename, 'rb') do |_f|
+    BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _range = determine_range(@name_file, _filename)
       _f.pos = _range.begin
       
@@ -142,7 +142,7 @@ class StdEntryData < EntryData
           _str  = _entry.find_member(VOC.name_str[_lang] )
         end
     
-        if _range.use_msg_table
+        if _range.msg_table
           _msg = @msg_table[_msg_id]
           if _msg
             _pos.value  = _msg.pos
@@ -161,7 +161,7 @@ class StdEntryData < EntryData
         _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
         _size.value = _f.pos - _pos.value
 
-        if _range.use_msg_table
+        if _range.msg_table
           _msg                = Message.new
           _msg.pos            = _pos.value
           _msg.size           = _size.value
@@ -180,7 +180,7 @@ class StdEntryData < EntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
 
     meta.check_mtime(_filename)
-    BinaryFile.open(_filename, 'rb') do |_f|
+    BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _range = determine_range(@dscr_file, _filename)
       _f.pos = _range.begin
       
@@ -203,7 +203,7 @@ class StdEntryData < EntryData
           _str  = _entry.find_member(VOC.dscr_str[_lang] )
         end
         
-        if _range.use_msg_table
+        if _range.msg_table
           _msg = @msg_table[_msg_id]
           if _msg
             _pos.value  = _msg.pos
@@ -226,7 +226,7 @@ class StdEntryData < EntryData
         end
         _size.value = _f.pos - _pos.value
 
-        if _range.use_msg_table
+        if _range.msg_table
           _msg                = Message.new
           _msg.pos            = _pos.value
           _msg.size           = _size.value
@@ -290,7 +290,7 @@ class StdEntryData < EntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     FileUtils.mkdir_p(File.dirname(_filename))
-    BinaryFile.open(_filename, 'r+b') do |_f|
+    BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
       _range    = determine_range(@data_file, _filename)
       _size     = create_entry.size
 
@@ -327,7 +327,7 @@ class StdEntryData < EntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_name))
 
     FileUtils.mkdir_p(File.dirname(_filename))
-    BinaryFile.open(_filename, 'r+b') do |_f|
+    BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
       _range    = determine_range(@name_file, _filename)
 
       @data.each do |_id, _entry|
@@ -376,7 +376,7 @@ class StdEntryData < EntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_dscr))
 
     FileUtils.mkdir_p(File.dirname(_filename))
-    BinaryFile.open(_filename, 'r+b') do |_f|
+    BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
       _range    = determine_range(@dscr_file, _filename)
 
       @data.each do |_id, _entry|

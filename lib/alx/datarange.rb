@@ -36,14 +36,15 @@ class DataRange
   public
 
   # Constructs a DataRange
-  # @param _name    [String] Name
-  # @param _range   [Range]  Offset range
-  # @param _options [Hash]   Options hash
-  def initialize(_name, _range, _options = {})
-    @name          = _name
-    @range         = _range
-    @exclusions    = _options[:exclusions]    || []
-    @use_msg_table = _options[:use_msg_table] || false
+  # @param _name      [String]  Name
+  # @param _range     [Range]   Offset range
+  # @param exclusions [Array]   Exclusions
+  # @param msg_table  [Boolean] Use message table
+  def initialize(_name, _range, exclusions: [], msg_table: false)
+    @name       = _name
+    @range      = Range.new(_range.min, _range.max + 1)
+    @exclusions = exclusions
+    @msg_table  = msg_table
   end
 
   def begin
@@ -61,7 +62,7 @@ class DataRange
   attr_accessor :name
   attr_accessor :range
   attr_accessor :exclusions
-  attr_accessor :use_msg_table
+  attr_accessor :msg_table
   
 end # class DataRange
 

@@ -45,7 +45,7 @@ class StrVar < DataMember
   # @param _name  [String]  Name
   # @param _value [String]  Value
   # @param _size  [Integer] Size
-  # @param _eol   [String]  End of line marker
+  # @param _eol   [String]  End of line mark
   def initialize(_name, _value, _size, _eol = "\n")
     super(_name, _value)
     @size = _size

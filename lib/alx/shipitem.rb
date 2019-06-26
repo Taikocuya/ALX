@@ -47,36 +47,36 @@ class ShipItem < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(VOC.occasion_flags            ,  0, 'c' )
-    members << StrDmy.new(VOC.occasion_menu             , ''      )
-    members << StrDmy.new(VOC.occasion_battle           , ''      )
-    members << StrDmy.new(VOC.occasion_ship             , ''      )
-    members << IntVar.new(VOC.ship_effect_id            ,  0, 'c' )
-    members << StrDmy.new(VOC.ship_effect_name          , ''      )
-    members << IntVar.new(VOC.ship_effect_turns         ,  0, 'c' )
-    members << IntVar.new(VOC.consume                   ,  0, 'c' )
+    members << IntVar.new(VOC.occasion_flags            ,  0, :int8  )
+    members << StrDmy.new(VOC.occasion_menu             , ''         )
+    members << StrDmy.new(VOC.occasion_battle           , ''         )
+    members << StrDmy.new(VOC.occasion_ship             , ''         )
+    members << IntVar.new(VOC.ship_effect_id            ,  0, :int8  )
+    members << StrDmy.new(VOC.ship_effect_name          , ''         )
+    members << IntVar.new(VOC.ship_effect_turns         ,  0, :int8  )
+    members << IntVar.new(VOC.consume                   ,  0, :int8  )
 
     unless eu?
-      members << IntVar.new(padding_hdr                 ,  0, 'c' )
+      members << IntVar.new(padding_hdr                 ,  0, :int8  )
     end
 
-    members << IntVar.new(VOC.purchase_price            ,  0, 'S>')
-    members << IntVar.new(VOC.retail_price              ,  0, 'c' )
-    members << IntVar.new(VOC.order_priority            ,  0, 'c' )
-    members << IntVar.new(VOC.order_alphabet[country_id],  0, 'c' )
-    members << IntVar.new(padding_hdr                   ,  0, 'c' )
+    members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
+    members << IntVar.new(VOC.retail_price              ,  0, :int8  )
+    members << IntVar.new(VOC.order_priority            ,  0, :int8  )
+    members << IntVar.new(VOC.order_alphabet[country_id],  0, :int8  )
+    members << IntVar.new(padding_hdr                   ,  0, :int8  )
     
     if eu?
-      members << IntVar.new(padding_hdr                 ,  0, 'c' )
-      members << IntVar.new(padding_hdr                 ,  0, 'c' )
+      members << IntVar.new(padding_hdr                 ,  0, :int8  )
+      members << IntVar.new(padding_hdr                 ,  0, :int8  )
     end
     
-    members << IntVar.new(VOC.ship_effect_value         ,  0, 's>')
-    members << IntVar.new(VOC.element_id                ,  0, 'c' )
-    members << StrDmy.new(VOC.element_name              , ''      )
-    members << IntVar.new(unknown_hdr                   ,  0, 'c' )
-    members << IntVar.new(unknown_hdr                   ,  0, 's>')
-    members << IntVar.new(VOC.hit                       ,  0, 's>')
+    members << IntVar.new(VOC.ship_effect_value         ,  0, :int16 )
+    members << IntVar.new(VOC.element_id                ,  0, :int8  )
+    members << StrDmy.new(VOC.element_name              , ''         )
+    members << IntVar.new(unknown_hdr                   ,  0, :int8  )
+    members << IntVar.new(unknown_hdr                   ,  0, :int16 )
+    members << IntVar.new(VOC.hit                       ,  0, :int16 )
 
     add_dscr_members
   end

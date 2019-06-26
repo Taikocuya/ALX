@@ -135,7 +135,7 @@ class EnemyShipTaskData < EntryData
 
   # Reads all data entries from a CSV file.
   # @param _filename [String]  File name
-  # @param _force    [Boolean] Skips missing file
+  # @param _force    [Boolean] Skip missing file
   def load_data_from_csv(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return

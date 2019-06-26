@@ -326,7 +326,7 @@ class EnemyData < EntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     meta.check_mtime(_filename)
-    BinaryFile.open(_filename, 'rb') do |_f|
+    BinaryFile.open(_filename, 'rb', endianness: root.endianness) do |_f|
       _range = determine_range(@event_bgm_files, _filename)
 
       @event_bgm_id_range.each do |_id|
@@ -340,7 +340,7 @@ class EnemyData < EntryData
         _bgm_id = _entry.find_member(VOC.bgm_id)
 
         LOG.info(sprintf(VOC.read, _id - @event_bgm_id_range.begin, _f.pos))
-        _bgm_id.value  = _f.read_int('c')
+        _bgm_id.value  = _f.read_int(:int8)
       end
     end
 
@@ -458,7 +458,7 @@ class EnemyData < EntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     FileUtils.mkdir_p(File.dirname(_filename))
-    BinaryFile.open(_filename, 'r+b') do |_f|
+    BinaryFile.open(_filename, 'r+b', endianness: root.endianness) do |_f|
       _range    = determine_range(@event_bgm_files, _filename)
 
       @events.each_with_index do |_entry, _id|
@@ -478,7 +478,7 @@ class EnemyData < EntryData
         end
 
         LOG.info(sprintf(VOC.write, _id - @event_bgm_id_range.begin, _f.pos))
-        _f.write_int(_bgm_id, 'c')
+        _f.write_int(_bgm_id, :int8)
       end
     end
 
@@ -574,7 +574,7 @@ class EnemyData < EntryData
   # Reads all enemy entries from a CSV file. This method must be called before 
   # #load_instructions_from_csv.
   # @param _filename [String]  File name
-  # @param _force    [Boolean] Skips missing file
+  # @param _force    [Boolean] Skip missing file
   def load_enemies_from_csv(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return
@@ -623,7 +623,7 @@ class EnemyData < EntryData
   # the corresponding enemy object if an enemy instruction differs from the
   # snapshot. This method must be called after #load_enemies_from_csv.
   # @param _filename [String]  File name
-  # @param _force    [Boolean] Skips missing file
+  # @param _force    [Boolean] Skip missing file
   def load_instructions_from_csv(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return
@@ -683,7 +683,7 @@ class EnemyData < EntryData
 
   # Reads all event entries from a CSV file.
   # @param _filename [String]  File name
-  # @param _force    [Boolean] Skips missing file
+  # @param _force    [Boolean] Skip missing file
   def load_events_from_csv(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return
@@ -724,7 +724,7 @@ class EnemyData < EntryData
 
   # Reads all encounter entries from a CSV file.
   # @param _filename [String]  File name
-  # @param _force    [Boolean] Skips missing file
+  # @param _force    [Boolean] Skip missing file
   def load_encounters_from_csv(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return

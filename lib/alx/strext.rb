@@ -44,7 +44,7 @@ class StrExt < DataMember
   # Constructs a StrDmy
   # @param _name  [String]  Name
   # @param _value [String]  Value
-  # @param _eol   [String]  End of line marker
+  # @param _eol   [String]  End of line mark
   def initialize(_name, _value, _eol = "\n")
     super(_name, _value)
     @eol = _eol

@@ -252,8 +252,8 @@ SYS.configure do |_s|
   }
   # Platform endianness
   _s.platform_endianness   = {
-    'DC' => :BE,
-    'GC' => :LE,
+    'DC' => :le,
+    'GC' => :be,
   }
   # Platform compressions
   _s.platform_compressions = {
@@ -400,7 +400,7 @@ SYS.configure do |_s|
       DataRange.new(_s.sot_file_de['GC'], 0x1cc3a...0x1cd48),
       DataRange.new(_s.sot_file_es['GC'], 0x1c88d...0x1c99b),
       DataRange.new(_s.sot_file_fr['GC'], 0x1cafd...0x1cc0b),
-      DataRange.new(_s.sot_file_gb['GC'], 0x1c2f4...0x1c40),
+      DataRange.new(_s.sot_file_gb['GC'], 0x1c2f4...0x1c402),
     ],
   }
   # Offset ranges of character magic descriptions
@@ -418,11 +418,11 @@ SYS.configure do |_s|
   _s.character_magic_ship_dscr_files = {
     'GC-US' => DataRange.new(
       _s.exec_file['GC'], 0x2d05c4...0x2d0ef4,
-      :exclusions => [0x8, 0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
+      exclusions: [0x8, 0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
     ),
     'GC-JP' => DataRange.new(
       _s.exec_file['GC'], 0x2d058c...0x2d0dcc,
-      :exclusions => [0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
+      exclusions: [0xa, 0xb, 0xc, (0xe..0x13).to_a].flatten!
     ),
     'GC-EU' => [
       DataRange.new(_s.sot_file_de['GC'], 0x1b603...0x1c085),
@@ -830,12 +830,10 @@ SYS.configure do |_s|
   # Offset ranges of shop descriptions
   _s.shop_dscr_files = {
     'GC-US' => DataRange.new(
-      _s.exec_file['GC'], 0x2b6554...0x2b6730,
-      :use_msg_table => true
+      _s.exec_file['GC'], 0x2b6554...0x2b6730, msg_table: true
     ),
     'GC-JP' => DataRange.new(
-      _s.exec_file['GC'], 0x2b6158...0x2b6344,
-      :use_msg_table => true
+      _s.exec_file['GC'], 0x2b6158...0x2b6344, msg_table: true
     ),
     'GC-EU' => [
       DataRange.new(_s.sot_file_de['GC'], 0x10c7c...0x10f00),
@@ -870,11 +868,11 @@ SYS.configure do |_s|
   _s.special_item_dscr_files = {
     'GC-US' => DataRange.new(
       _s.exec_file['GC'], 0x2cd4ec...0x2ce220,
-      :exclusions => [0x152, 0x15b, 0x161, 0x162]
+      exclusions: [0x152, 0x15b, 0x161, 0x162]
       ),
     'GC-JP' => DataRange.new(
       _s.exec_file['GC'], 0x2cd644...0x2ce2b4,
-      :exclusions => [0x152, 0x15b, 0x161, 0x162]
+      exclusions: [0x152, 0x15b, 0x161, 0x162]
     ),
     'GC-EU' => [
       DataRange.new(_s.sot_file_de['GC'], 0x18262...0x1918c),
@@ -922,11 +920,11 @@ SYS.configure do |_s|
   _s.usable_item_dscr_files = {
     'GC-US' => DataRange.new(
         _s.exec_file['GC'], 0x2cbc88...0x2cd4ec,
-        :exclusions => (0x12d..0x130).to_a
+        exclusions: (0x12d..0x130).to_a
       ),
     'GC-JP' => DataRange.new(
         _s.exec_file['GC'], 0x2cba54...0x2cd644,
-        :exclusions => (0x12e..0x130).to_a
+        exclusions: (0x12e..0x130).to_a
       ),
     'GC-EU' => [
       DataRange.new(_s.sot_file_de['GC'], 0x16979...0x18262),

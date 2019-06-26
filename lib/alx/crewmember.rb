@@ -47,37 +47,37 @@ class CrewMember < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(VOC.position_id         , -1, 'c' )
-    members << StrDmy.new(VOC.position_name       , ''      )
+    members << IntVar.new(VOC.position_id         , -1, :int8 )
+    members << StrDmy.new(VOC.position_name       , ''        )
     
     if eu?
-      members << IntVar.new(padding_hdr           ,  0, 'c' )
+      members << IntVar.new(padding_hdr           ,  0, :int8 )
     end
     
-    members << IntVar.new(VOC.feature_id[-1]      , -1, 'c' )
-    members << StrDmy.new(VOC.feature_name[-1]    , ''      )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(VOC.feature_value[-1]   ,  0, 's>')
-    members << IntVar.new(VOC.ship_effect_id      , -1, 'c' )
-    members << StrDmy.new(VOC.ship_effect_name    , ''      )
-    members << IntVar.new(VOC.ship_effect_spirit  , -1, 'c' )
-    members << IntVar.new(VOC.ship_effect_turns   , -1, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
+    members << IntVar.new(VOC.feature_id[-1]      , -1, :int8 )
+    members << StrDmy.new(VOC.feature_name[-1]    , ''        )
+    members << IntVar.new(padding_hdr             ,  0, :int8 )
+    members << IntVar.new(VOC.feature_value[-1]   ,  0, :int16)
+    members << IntVar.new(VOC.ship_effect_id      , -1, :int8 )
+    members << StrDmy.new(VOC.ship_effect_name    , ''        )
+    members << IntVar.new(VOC.ship_effect_spirit  , -1, :int8 )
+    members << IntVar.new(VOC.ship_effect_turns   , -1, :int8 )
+    members << IntVar.new(padding_hdr             ,  0, :int8 )
+    members << IntVar.new(padding_hdr             ,  0, :int8 )
+    members << IntVar.new(padding_hdr             ,  0, :int8 )
     
     if jp?
-      members << IntVar.new(VOC.unknown[-1]       ,  0, 's>')
-      members << IntVar.new(VOC.ship_effect_value ,  0, 's>')
+      members << IntVar.new(VOC.unknown[-1]       ,  0, :int16)
+      members << IntVar.new(VOC.ship_effect_value ,  0, :int16)
     else
-      members << IntVar.new(VOC.ship_effect_value ,  0, 's>')
-      members << IntVar.new(VOC.unknown[-1]       ,  0, 's>')
+      members << IntVar.new(VOC.ship_effect_value ,  0, :int16)
+      members << IntVar.new(VOC.unknown[-1]       ,  0, :int16)
     end
 
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
-    members << IntVar.new(padding_hdr             ,  0, 'c' )
+    members << IntVar.new(padding_hdr             ,  0, :int8 )
+    members << IntVar.new(padding_hdr             ,  0, :int8 )
+    members << IntVar.new(padding_hdr             ,  0, :int8 )
+    members << IntVar.new(padding_hdr             ,  0, :int8 )
     
     add_dscr_members
   end

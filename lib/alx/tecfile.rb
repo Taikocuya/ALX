@@ -39,8 +39,8 @@ class TecFile
 #                                  CONSTANTS
 #==============================================================================
 
-  # EOF marker
-  EOF_MARKER = -0x2
+  # EOF mark
+  EOF_MARK = -0x2
 
 #==============================================================================
 #                                   PUBLIC
@@ -89,11 +89,11 @@ class TecFile
         raise(IOError, sprintf(_msg, _f.pos + 0x4, _f.size))
       end
       
-      _eofCheck1 = _f.read_int('s>')
-      _eofCheck2 = _f.read_int('s>')
+      _eofCheck1 = _f.read_int(:int16)
+      _eofCheck2 = _f.read_int(:int16)
       
-      if _eofCheck1 != EOF_MARKER or _eofCheck2 != EOF_MARKER
-        raise(EOFError, 'EOF marker not found')
+      if _eofCheck1 != EOF_MARK or _eofCheck2 != EOF_MARK
+        raise(EOFError, 'EOF mark not found')
       end
     end
     
@@ -135,8 +135,8 @@ class TecFile
         _last = _task
       end
       
-      _f.write_int(EOF_MARKER, 's>')
-      _f.write_int(EOF_MARKER, 's>')
+      _f.write_int(EOF_MARK, :int16)
+      _f.write_int(EOF_MARK, :int16)
     end
     
     LOG.info(sprintf(VOC.close, _filename))

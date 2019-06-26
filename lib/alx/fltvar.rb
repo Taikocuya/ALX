@@ -42,26 +42,26 @@ class FltVar < DataMember
   public
 
   # Constructs a FltVar
-  # @param _name   [String]  Name
-  # @param _value  [Integer] Value
-  # @param _format [String]  Format
-  def initialize(_name, _value, _format)
+  # @param _name  [String]  Name
+  # @param _value [Integer] Value
+  # @param _type  [Symbol]  Type
+  def initialize(_name, _value, _type)
     super(_name, _value)
-    @format = _format
+    @type = _type
   end
 
   # Reads one entry from a binary I/O stream.
   # @param _f [IO] Binary I/O stream
   def read_from_bin(_f)
     super
-    self.value = _f.read_int(@format)
+    self.value = _f.read_flt(@type)
   end
   
   # Write one entry to a binary I/O stream.
   # @param _f [IO] Binary I/O stream
   def write_to_bin(_f)
     super
-    _f.write_int(value, @format)
+    _f.write_flt(value, @type)
   end
 
   # Reads one entry from a CSV row.
@@ -82,7 +82,7 @@ class FltVar < DataMember
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :format
+  attr_accessor :type
 
   def value=(_value)
     _value = _value.to_f

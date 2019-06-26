@@ -50,17 +50,17 @@ class EnemyInstruction < Entry
     @magics      = {}
     @super_moves = {}
 
-    members << StrDmy.new(VOC.filter           , ''      )
-    members << IntDmy.new(VOC.instr_enemy_id   , -1      )
-    members << StrDmy.new(VOC.enemy_name_jp[-1], ''      )
-    members << StrDmy.new(VOC.enemy_name_us[-1], ''      )
-    members << StrDmy.new(VOC.enemy_name_eu[-1], ''      )
-    members << IntVar.new(VOC.instr_type_id    , -1, 's>')
-    members << StrDmy.new(VOC.instr_type_name  , ''      )
-    members << IntVar.new(VOC.instr_id         , -1, 's>')
-    members << StrDmy.new(VOC.instr_name       , ''      )
-    members << IntVar.new(VOC.instr_param_id   , -1, 's>')
-    members << StrDmy.new(VOC.instr_param_name , ''      )
+    members << StrDmy.new(VOC.filter           , ''        )
+    members << IntDmy.new(VOC.instr_enemy_id   , -1        )
+    members << StrDmy.new(VOC.enemy_name_jp[-1], ''        )
+    members << StrDmy.new(VOC.enemy_name_us[-1], ''        )
+    members << StrDmy.new(VOC.enemy_name_eu[-1], ''        )
+    members << IntVar.new(VOC.instr_type_id    , -1, :int16)
+    members << StrDmy.new(VOC.instr_type_name  , ''        )
+    members << IntVar.new(VOC.instr_id         , -1, :int16)
+    members << StrDmy.new(VOC.instr_name       , ''        )
+    members << IntVar.new(VOC.instr_param_id   , -1, :int16)
+    members << StrDmy.new(VOC.instr_param_name , ''        )
   end
 
   # Compares two entries based on +FltVar+, +IntVar+ and +StrVar+ members. 

@@ -48,15 +48,15 @@ class Shop < StdEntry
     @items = {}
 
     members.clear
-    members << IntVar.new(VOC.id                    ,  0, 'S>')
-    members << IntVar.new(padding_hdr               ,  0, 's>')
-    members << IntVar.new(VOC.message_id[country_id],  0, 'L>')
+    members << IntVar.new(VOC.id                    ,  0, :uint16)
+    members << IntVar.new(padding_hdr               ,  0, :int16 )
+    members << IntVar.new(VOC.message_id[country_id],  0, :uint32)
 
     add_dscr_members
     
     (0...48).each do |_i|
-      members << IntVar.new(VOC.item_id[_i]         , -1, 's>')
-      members << StrDmy.new(VOC.item_name[_i]       , ''      )
+      members << IntVar.new(VOC.item_id[_i]         , -1, :int16 )
+      members << StrDmy.new(VOC.item_name[_i]       , ''         )
     end
   end
 

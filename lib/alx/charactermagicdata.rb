@@ -61,7 +61,7 @@ class CharacterMagicData < StdEntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
 
     meta.check_mtime(_filename)
-    BinaryFile.open(_filename, 'rb') do |_f|
+    BinaryFile.open(_filename, 'rb', endianness: root.endianness) do |_f|
       _range = determine_range(@ship_dscr_file, _filename)
       _f.pos = _range.begin
       
@@ -84,7 +84,7 @@ class CharacterMagicData < StdEntryData
           _str  = _entry.find_member(VOC.ship_dscr_str[_lang] )
         end
 
-        if _range.use_msg_table
+        if _range.msg_table
           _msg = @msg_table[_msg_id]
           if _msg
             _pos.value  = _msg.pos
@@ -107,7 +107,7 @@ class CharacterMagicData < StdEntryData
         end
         _size.value = _f.pos - _pos.value
 
-        if _range.use_msg_table
+        if _range.msg_table
           _msg                = Message.new
           _msg.pos            = _pos.value
           _msg.size           = _size.value
@@ -149,7 +149,7 @@ class CharacterMagicData < StdEntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_dscr))
   
     FileUtils.mkdir_p(File.dirname(_filename))
-    BinaryFile.open(_filename, 'r+b') do |_f|
+    BinaryFile.open(_filename, 'r+b', endianness: root.endianness) do |_f|
       _range    = determine_range(@ship_dscr_file, _filename) 
 
       @data.each do |_id, _entry|

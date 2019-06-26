@@ -48,15 +48,15 @@ class EnemyEncounter < Entry
     @file    = ''
     @enemies = []
 
-    members << StrDmy.new(VOC.filter             , ''      )
-    members << IntVar.new(VOC.party_vigor        ,  0, 'C' )
-    members << IntVar.new(VOC.magic_exp          ,  0, 'C' )
+    members << StrDmy.new(VOC.filter             , ''        )
+    members << IntVar.new(VOC.party_vigor        ,  0, :uint8)
+    members << IntVar.new(VOC.magic_exp          ,  0, :uint8)
 
     (0...8).each do |_i|
-      members << IntVar.new(VOC.enemy_id[_i]     ,  0, 'C' )
-      members << StrDmy.new(VOC.enemy_name_jp[_i], ''      )
-      members << StrDmy.new(VOC.enemy_name_us[_i], ''      )
-      members << StrDmy.new(VOC.enemy_name_eu[_i], ''      )
+      members << IntVar.new(VOC.enemy_id[_i]     ,  0, :uint8)
+      members << StrDmy.new(VOC.enemy_name_jp[_i], ''        )
+      members << StrDmy.new(VOC.enemy_name_us[_i], ''        )
+      members << StrDmy.new(VOC.enemy_name_eu[_i], ''        )
     end
   end
 

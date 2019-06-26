@@ -67,17 +67,17 @@ class EnpFile < EpFile
   # Creates a header node.
   # @param _id  [Integer] Enemy ID
   # @param _pos [Integer] Enemy position
-  # @return [Hash] Hash object
+  # @return [OpenStruct] OpenStruct object
   def create_node(_id, _pos)
-    { :id => _id, :pos => _pos }
+    OpenStruct.new(id: _id, pos: _pos)
   end
 
   # Creates a segment.
   # @param _pos  [Integer] Position
   # @param _size [Integer] Size
-  # @return [Hash] Hash object
+  # @return [OpenStruct] OpenStruct object
   def create_segment(_pos, _size)
-    { :pos => _pos, :size => _size }
+    OpenStruct.new(pos: _pos, size: _size)
   end
   
   # Creates an encounter.
@@ -101,8 +101,8 @@ class EnpFile < EpFile
       # Segments
       _signature = _f.read(0x4)
       if _signature == FILE_SIG
-        _size  = _f.read_int('s>')
-        _check = _f.read_int('s>')
+        _size  = _f.read_int(:int16)
+        _check = _f.read_int(:int16)
         if _check != -1
           raise(IOError, 'segments corrupted')
         end
@@ -110,9 +110,9 @@ class EnpFile < EpFile
         _segments = {}
         (0..._size).each do |_|
           _segname = _f.read_str(SEG_NAME_SIZE)
-          _pos     = _f.read_int('l>')
-          _size    = _f.read_int('l>')
-          _check   = _f.read_int('l>')
+          _pos     = _f.read_int(:int32)
+          _size    = _f.read_int(:int32)
+          _check   = _f.read_int(:int32)
           
           if _check != -1
             raise(IOError, 'segments corrupted')
@@ -127,15 +127,15 @@ class EnpFile < EpFile
 
       _segments.each do |_segname, _seg|
         # Positions
-        _beg = _seg[:pos]
-        _end = _seg[:size] + _beg
+        _beg = _seg.pos
+        _end = _seg.size + _beg
 
         # Header
         _nodes = []
         _f.pos = _beg
         (0...NUM_ENEMIES).each do |_|
-          _id  = _f.read_int('l>')
-          _pos = _f.read_int('l>') + _beg
+          _id  = _f.read_int(:int32)
+          _pos = _f.read_int(:int32) + _beg
   
           if _id >= 0 && _pos >= 0
             _nodes << create_node(_id, _pos)
@@ -143,7 +143,7 @@ class EnpFile < EpFile
         end
         
         # Encounters
-        _size = (_nodes.first[:pos] - _f.pos) / create_encounter.size
+        _size = (_nodes.first.pos - _f.pos) / create_encounter.size
         if _size > NUM_ENCOUNTERS
           raise(IOError, "encounter quota of #{NUM_ENCOUNTERS} exceeded")
         end
@@ -156,8 +156,8 @@ class EnpFile < EpFile
   
         # Enemies
         _nodes.each do |_node|
-          _id    = _node[:id]
-          _pos   = _node[:pos]
+          _id    = _node.id
+          _pos   = _node.pos
           _f.pos = _pos
           
           LOG.info(sprintf(VOC.read, _id, _pos))
@@ -273,20 +273,20 @@ class EnpFile < EpFile
         end
         
         # Positions
-        _end        = _f.pos
-        _seg[:pos]  = _beg
-        _seg[:size] = _end - _beg
+        _end      = _f.pos
+        _seg.pos  = _beg
+        _seg.size = _end - _beg
                   
         # Header
         _f.pos = _beg
         (0...NUM_ENEMIES).each do |_i|
           _node = _nodes[_i]
           if _node
-            _f.write_int(_node[:id] , 'l>')
-            _f.write_int(_node[:pos], 'l>')
+            _f.write_int(_node.id , :int32)
+            _f.write_int(_node.pos, :int32)
           else
-            _f.write_int(0xffffffff , 'l>')
-            _f.write_int(0xffffffff , 'l>')
+            _f.write_int(0xffffffff , :int32)
+            _f.write_int(0xffffffff , :int32)
           end
         end
         _f.pos = _end
@@ -296,14 +296,14 @@ class EnpFile < EpFile
       if _segments.size > 1
         _f.pos = 0
         _f.write(FILE_SIG)
-        _f.write_int(_segments.size, 's>')
-        _f.write_int(0xffff        , 's>')
+        _f.write_int(_segments.size, :int16)
+        _f.write_int(0xffff        , :int16)
         
         _segments.each do |_segname, _seg|
           _f.write_str(_segname.sub(/\.enp$/, '.bin'), SEG_NAME_SIZE)
-          _f.write_int(_seg[:pos] , 'l>')
-          _f.write_int(_seg[:size], 'l>')
-          _f.write_int(0xffffffff , 'l>')
+          _f.write_int(_seg.pos  , :int32)
+          _f.write_int(_seg.size , :int32)
+          _f.write_int(0xffffffff, :int32)
         end
       end
     end

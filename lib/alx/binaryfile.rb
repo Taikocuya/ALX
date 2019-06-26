@@ -47,15 +47,27 @@ class BinaryFile < DelegateClass(::File)
 
   public
   
-  # @see ::File::new
-  def initialize(*_args)
-    @file = File.new(*_args)
+  # @see ::IO::new
+  def initialize(*_args, **_opts)
+    _be   = _opts[:be]
+    _be ||= _opts[:big_endian]
+    _le   = _opts[:le]
+    _le ||= _opts[:little_endian]
+    if _be && !_le
+      self.endianness = :be
+    elsif !_be && _le
+      self.endianness = :le
+    else
+      self.endianness = _opts[:endianness]
+    end
+    
+    @file = File.new(*_args, **_opts)
     super(@file)
   end
 
-  # @see ::File::open
-  def self.open(*_args)
-    _file = new(*_args)
+  # @see ::IO::open
+  def self.open(*_args, **_opts)
+    _file = new(*_args, **_opts)
   
     if block_given?
       begin

@@ -47,9 +47,9 @@ class ExpCurve < StdEntry
     super
     @characters = {}
 
-    members << StrDmy.new(VOC.character_name[-1], ''      )
+    members << StrDmy.new(VOC.character_name[-1], ''        )
     (0...99).each do |_i|
-      members << IntVar.new(VOC.exp[_i]         ,  0, 'l>')
+      members << IntVar.new(VOC.exp[_i]         ,  0, :int32)
     end
   end
 

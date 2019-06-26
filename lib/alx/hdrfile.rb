@@ -52,7 +52,7 @@ class HdrFile
   # Reads a HDR file.
   # @param _filename [String] File name
   def load(_filename)
-    BinaryFile.open(_filename, 'rb') do |_f|
+    BinaryFile.open(_filename, 'rb', big_endian: true) do |_f|
       @product_id   = _f.read_str(0x3)
       @region_id    = _f.read_str(0x1)
       @maker_id     = _f.read_str(0x2)

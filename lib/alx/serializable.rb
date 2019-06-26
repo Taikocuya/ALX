@@ -18,6 +18,12 @@
 # ALX. If not, see <http://www.gnu.org/licenses/>.
 #******************************************************************************
 
+#==============================================================================
+#                                 REQUIREMENTS
+#==============================================================================
+
+require('ostruct')
+
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 module ALX
@@ -28,6 +34,15 @@ module ALX
 
 # Mixin to read and write easily in binary IOs.
 module Serializable
+  
+#==============================================================================
+#                                  CONSTANTS
+#==============================================================================
+
+  # Byte order mark
+  BO_MARK    = 0xfeff
+  # Endianness of this host (do not edit).
+  ENDIANNESS = ([BO_MARK].pack('s') == [BO_MARK].pack('n') ? :be : :le)
 
 #==============================================================================
 #                                   PUBLIC
@@ -35,13 +50,114 @@ module Serializable
 
   public
 
+  # Returns +true+ if the endianness is big-endian, otherwise +false+.
+  # @return [Boolean] +true+ if endianness is big-endian, otherwise +false+.
+  def big_endian?
+    @endianness == :be
+  end
+
+  # Returns +true+ if the endianness is little-endian, otherwise +false+.
+  # @return [Boolean] +true+ if endianness is little-endian, otherwise +false+.
+  def little_endian?
+    @endianness == :le
+  end
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @return [String] Integer directive
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def int8
+    int_directive(:int8)
+  end
+  
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @return [String] Integer directive
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def int16
+    int_directive(:int16)
+  end
+  
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @return [String] Integer directive
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def int32
+    int_directive(:int32)
+  end
+  
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @return [String] Integer directive
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def int64
+    int_directive(:int64)
+  end
+  
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @return [String] Integer directive
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def uint8
+    int_directive(:uint8)
+  end
+  
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @return [String] Integer directive
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def uint16
+    int_directive(:uint16)
+  end
+  
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @return [String] Integer directive
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def uint32
+    int_directive(:uint32)
+  end
+  
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @return [String] Integer directive
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def uint64
+    int_directive(:uint64)
+  end
+
+  # Returns the required floating-point directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def float
+    flt_directive(:float)
+  end
+
+  # Returns the required floating-point directive depending on the platform 
+  # endianness.
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def double
+    flt_directive(:double)
+  end
+
   # Reads an integer from the file.
-  # @param _format [String] Format of the integer, which will be read.
+  # @param _type [Symbol] Type of the integer, which will be read.
   # @return [Integer] Integer from the file, which has been read.
-  def read_int(_format)
-    _size = [0].pack(_format).size
-    _int  = read(_size)
-    
+  def read_int(_type)
+    _format = int_directive(_type)
+    _size   = [0].pack(_format).size
+    _int    = read(_size)
+
     if _int && _int.size == _size
       _int.unpack(_format).first
     else
@@ -50,13 +166,46 @@ module Serializable
   end
 
   # Writes an integer to the file.
-  # @param _data   [Integer] Integer which will be written to the stream.
-  # @param _format [String]  Format of the integer, which will be written.
-  def write_int(_int, _format)
-    unless _int
-      _int = 0
+  # @param _int  [Integer] Integer which will be written to the stream.
+  # @param _type [Symbol]  Type of the integer, which will be written.
+  def write_int(_int, _type)
+    unless _int.is_a?(Integer)
+      _msg = '%s is not an integer'
+      raise(TypeError, sprintf(_msg, _int))
     end
+
+    _format = int_directive(_type)
     write([_int].pack(_format))
+  end
+
+  # Reads a floating-point value from the file.
+  # @param _type [Symbol] Type of the floating-point value, which will be read.
+  # @return [Float] Floating-point value from the file, which has been read.
+  def read_flt(_type)
+    _format = flt_directive(_type)
+    _size   = [0.0].pack(_format).size
+    _flt    = read(_size)
+    
+    if _flt && _flt.size == _size
+      _flt.unpack(_format).first
+    else
+      nil
+    end
+  end
+
+  # Writes a floating-point value to the file.
+  # @param _flt  [Float]  Floating-point value which will be written to the 
+  #                       stream.
+  # @param _type [Symbol] Type of the floating-point value, which will be 
+  #                       written.
+  def write_flt(_flt, _type)
+    unless _flt.is_a?(Float)
+      _msg = '%s is not a floating-point value'
+      raise(TypeError, sprintf(_msg, _flt))
+    end
+
+    _format = flt_directive(_type)
+    write([_flt].pack(_format))
   end
 
   # Reads a null-terminated string from the file.
@@ -114,8 +263,91 @@ module Serializable
         write(_2nd_part)
       else
         write([_str].pack("Z#{_size - 1}"))
-        write_int(0, 'C')
+        write_int(0, :uint8)
       end
+    end
+  end
+  
+#------------------------------------------------------------------------------
+# Public member variables
+#------------------------------------------------------------------------------
+
+  attr_reader :endianness
+
+  def endianness=(_endianness)
+    case _endianness
+    when :be, :big_endian
+      @endianness = :be
+    when :le, :little_endian
+      @endianness = :le
+    else
+      @endianness = ENDIANNESS
+    end
+  end
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Returns the required integer directive depending on the platform 
+  # endianness.
+  # @param _type [Symbol] Type of the integer
+  # @return [String] Integer directive
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def int_directive(_type)
+    if !_type.is_a?(String) && !_type.is_a?(Symbol)
+      _msg = '%s is not a symbol nor a string'
+      raise(TypeError, sprintf(_msg, _type))
+    end
+
+    _type = _type.to_sym
+    case _type
+    when :int8
+      'c'
+    when :int16
+      big_endian? ? 's>' : 's<'
+    when :int32
+      big_endian? ? 'l>' : 'l<'
+    when :int64
+      big_endian? ? 'q>' : 'q<'
+    when :uint8
+      'C'
+    when :uint16
+      big_endian? ? 'S>' : 'S<'
+    when :uint32
+      big_endian? ? 'L>' : 'L<'
+    when :uint64
+      big_endian? ? 'Q>' : 'Q<'
+    else
+      _msg = '%s is not an integer type'
+      raise(TypeError, sprintf(_msg, _type))
+    end
+  end
+
+  # Returns the required floating-point directive depending on the platform 
+  # endianness.
+  # @param _type [Symbol] Type of the floating-point value
+  # @return [String] Floating-point directive
+  # @see ::Array#pack
+  # @see ::String#unpack
+  def flt_directive(_type)
+    if !_type.is_a?(String) && !_type.is_a?(Symbol)
+      _msg = '%s is not a symbol nor a string'
+      raise(TypeError, sprintf(_msg, _type))
+    end
+
+    _type = _type.to_sym
+    case _type
+    when :float
+      big_endian? ? 'g' : 'e'
+    when :double
+      big_endian? ? 'G' : 'E'
+    else
+      _msg = '%s is not a floating-point type'
+      raise(TypeError, sprintf(_msg, _type))
     end
   end
 

@@ -49,31 +49,31 @@ class EnemyShipTask < Entry
     @enemy_ships = {}
     @magics      = {}
 
-    members << StrDmy.new(VOC.filter           , ''      )
-    members << StrDmy.new(VOC.enemy_ship_id    , ''      )
-    members << StrDmy.new(VOC.enemy_ship_name  , ''      )
-    members << IntVar.new(VOC.unknown[-1]      ,  0, 's>')
-    # members << IntVar.new(VOC.task_cond_id     ,  0, 's>')
-    # members << StrDmy.new(VOC.task_cond_name   , ''      )
-    members << IntVar.new(VOC.task_rating      ,  0, 's>')
-    members << IntVar.new(VOC.task_a_type_id   ,  0, 's>')
-    members << StrDmy.new(VOC.task_a_type_name , ''      )
-    members << IntVar.new(VOC.task_a_arm_id    ,  0, 's>')
+    members << StrDmy.new(VOC.filter           , ''        )
+    members << StrDmy.new(VOC.enemy_ship_id    , ''        )
+    members << StrDmy.new(VOC.enemy_ship_name  , ''        )
+    members << IntVar.new(VOC.unknown[-1]      ,  0, :int16)
+    # members << IntVar.new(VOC.task_cond_id     ,  0, :int16)
+    # members << StrDmy.new(VOC.task_cond_name   , ''        )
+    members << IntVar.new(VOC.task_rating      ,  0, :int16)
+    members << IntVar.new(VOC.task_a_type_id   ,  0, :int16)
+    members << StrDmy.new(VOC.task_a_type_name , ''        )
+    members << IntVar.new(VOC.task_a_arm_id    ,  0, :int16)
     if eu?
-      members << StrDmy.new(VOC.task_a_arm_name, ''      )
+      members << StrDmy.new(VOC.task_a_arm_name, ''        )
     end
-    members << IntVar.new(VOC.task_a_param_id  ,  0, 's>')
-    members << StrDmy.new(VOC.task_a_param_name, ''      )
-    members << IntVar.new(VOC.task_a_range     ,  0, 's>')
-    members << IntVar.new(VOC.task_b_type_id   ,  0, 's>')
-    members << StrDmy.new(VOC.task_b_type_name , ''      )
-    members << IntVar.new(VOC.task_b_arm_id    ,  0, 's>')
+    members << IntVar.new(VOC.task_a_param_id  ,  0, :int16)
+    members << StrDmy.new(VOC.task_a_param_name, ''        )
+    members << IntVar.new(VOC.task_a_range     ,  0, :int16)
+    members << IntVar.new(VOC.task_b_type_id   ,  0, :int16)
+    members << StrDmy.new(VOC.task_b_type_name , ''        )
+    members << IntVar.new(VOC.task_b_arm_id    ,  0, :int16)
     if eu?
-      members << StrDmy.new(VOC.task_b_arm_name, ''      )
+      members << StrDmy.new(VOC.task_b_arm_name, ''        )
     end
-    members << IntVar.new(VOC.task_b_param_id  ,  0, 's>')
-    members << StrDmy.new(VOC.task_b_param_name, ''      )
-    members << IntVar.new(VOC.task_b_range     ,  0, 's>')
+    members << IntVar.new(VOC.task_b_param_id  ,  0, :int16)
+    members << StrDmy.new(VOC.task_b_param_name, ''        )
+    members << IntVar.new(VOC.task_b_range     ,  0, :int16)
   end
 
   # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 

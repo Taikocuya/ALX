@@ -65,7 +65,7 @@ class Entry
   # Returns the file size of the entry.
   # @return [Integer] Size of entry
   def size
-    _strio = BinaryStringIO.new('', 'wb')
+    _strio = BinaryStringIO.new('', 'wb', endianness: @root.endianness)
     write_to_bin(_strio)
     _strio.pos
   end
@@ -299,84 +299,6 @@ class Entry
   # @return [Boolean] +true+ if endianness is little-endian, otherwise +false+.
   def little_endian?
     @root.little_endian?
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def int8
-    @root.int8
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def int16
-    @root.int16
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def int32
-    @root.int32
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def int64
-    @root.int64
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def uint8
-    @root.uint8
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def uint16
-    @root.uint16
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def uint32
-    @root.uint32
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def uint64
-    @root.uint64
-  end
-
-  # Returns the required float directive depending on the platform endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def float
-    @root.float
-  end
-
-  # Returns the required float directive depending on the platform endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def double
-    @root.double
   end
 
 #==============================================================================

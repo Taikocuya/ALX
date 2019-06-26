@@ -47,31 +47,31 @@ class EnemyEvent < Entry
     super
     @enemies = []
 
-    members << IntVar.new(VOC.magic_exp           ,  0, 'C' )
+    members << IntVar.new(VOC.magic_exp           ,  0, :uint8)
     
     (0...4).each do |_i|
-      members << IntVar.new(VOC.character_id[_i]  ,  0, 'c' )
-      members << StrDmy.new(VOC.character_name[_i], ''      )
-      members << IntVar.new(VOC.character_x[_i]   ,  0, 'c' )
-      members << IntVar.new(VOC.character_z[_i]   ,  0, 'c' )
+      members << IntVar.new(VOC.character_id[_i]  ,  0, :int8 )
+      members << StrDmy.new(VOC.character_name[_i], ''        )
+      members << IntVar.new(VOC.character_x[_i]   ,  0, :int8 )
+      members << IntVar.new(VOC.character_z[_i]   ,  0, :int8 )
     end
     
     (0...7).each do |_i|
-      members << IntVar.new(VOC.enemy_id[_i]      ,  0, 'C' )
-      members << StrDmy.new(VOC.enemy_name_jp[_i] , ''      )
-      members << StrDmy.new(VOC.enemy_name_us[_i] , ''      )
-      members << StrDmy.new(VOC.enemy_name_eu[_i] , ''      )
-      members << IntVar.new(VOC.enemy_x[_i]       ,  0, 'c' )
-      members << IntVar.new(VOC.enemy_z[_i]       ,  0, 'c' )
+      members << IntVar.new(VOC.enemy_id[_i]      ,  0, :uint8)
+      members << StrDmy.new(VOC.enemy_name_jp[_i] , ''        )
+      members << StrDmy.new(VOC.enemy_name_us[_i] , ''        )
+      members << StrDmy.new(VOC.enemy_name_eu[_i] , ''        )
+      members << IntVar.new(VOC.enemy_x[_i]       ,  0, :int8 )
+      members << IntVar.new(VOC.enemy_z[_i]       ,  0, :int8 )
     end
 
-    members << IntVar.new(VOC.party_vigor         ,  0, 'C' )
-    members << IntVar.new(VOC.defeat_cond_id      ,  0, 'c' )
-    members << StrDmy.new(VOC.defeat_cond_name    , ''      )
-    members << IntVar.new(VOC.escape_cond_id      ,  0, 'c' )
-    members << StrDmy.new(VOC.escape_cond_name    , ''      )
+    members << IntVar.new(VOC.party_vigor         ,  0, :uint8)
+    members << IntVar.new(VOC.defeat_cond_id      ,  0, :int8 )
+    members << StrDmy.new(VOC.defeat_cond_name    , ''        )
+    members << IntVar.new(VOC.escape_cond_id      ,  0, :int8 )
+    members << StrDmy.new(VOC.escape_cond_name    , ''        )
 
-    members << IntDmy.new(VOC.bgm_id              , -1      )
+    members << IntDmy.new(VOC.bgm_id              , -1        )
   end
 
   # Writes one entry to a CSV file.

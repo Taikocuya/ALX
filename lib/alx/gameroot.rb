@@ -27,6 +27,7 @@ require_relative('bnrfile.rb')
 require_relative('compressedfile.rb')
 require_relative('fileable.rb')
 require_relative('hdrfile.rb')
+require_relative('ipfile.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -51,7 +52,7 @@ class GameRoot
 
   # Platforms for validation
   PLATFORMS = {
-    # 'DC' => 'Dreamcast',
+    'DC' => 'Dreamcast',
     'GC' => 'Gamecube' ,
   }
   # Countries for validation
@@ -148,7 +149,7 @@ class GameRoot
     @country_id == 'US'
   end
 
-  # Returns +:big+ or +:little+ depending on the platform endianness.
+  # Returns +:be+ or +:le+ depending on the platform endianness.
   # @return [Symbol] +:big+ or +:little+ depending on endianness.
   def endianness
     sys(:platform_endianness)
@@ -157,93 +158,15 @@ class GameRoot
   # Returns +true+ if the endianness is big-endian, otherwise +false+.
   # @return [Boolean] +true+ if endianness is big-endian, otherwise +false+.
   def big_endian?
-    endianness == :BE
+    endianness == :be
   end
 
   # Returns +true+ if the endianness is little-endian, otherwise +false+.
   # @return [Boolean] +true+ if endianness is little-endian, otherwise +false+.
   def little_endian?
-    endianness == :LE
+    endianness == :le
   end
 
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def int8
-    'c'
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def int16
-    big_endian? ? 's>' : 's<'
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def int32
-    big_endian? ? 'l>' : 'l<'
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def int64
-    big_endian? ? 'q>' : 'q<'
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def uint8
-    'C'
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def uint16
-    big_endian? ? 'S>' : 'S<'
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def uint32
-    big_endian? ? 'L>' : 'L<'
-  end
-
-  # Returns the required integer directive depending on the platform 
-  # endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def uint64
-    big_endian? ? 'Q>' : 'Q<'
-  end
-
-  # Returns the required float directive depending on the platform endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def float
-    big_endian? ? 'g' : 'e'
-  end
-
-  # Returns the required float directive depending on the platform endianness.
-  # @see ::Array#pack
-  # @see ::String#unpack
-  def double
-    big_endian? ? 'G' : 'E'
-  end
-  
   # Returns the file class depending on +SYS.platform_compressions+. 
   # @return [Class] File class depending on +SYS.platform_compressions+
   def compression
@@ -544,6 +467,14 @@ class GameRoot
   # otherwise +false+.
   # @return [Boolean] +true+ if IP.BIN file is valid, otherwise +false+.
   def init_ip
+    _path = join(SYS.hdr_file)
+    unless has_file?(_path)
+      return false
+    end
+    
+    _hdr = IPFile.new
+    _hdr.load(_path)
+    
     false
   end
 

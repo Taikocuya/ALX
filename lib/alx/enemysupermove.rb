@@ -48,36 +48,36 @@ class EnemySuperMove < StdEntry
     add_name_members
 
     unless eu?
-      members << IntVar.new(padding_hdr      ,  0, 'c' )
-      members << IntVar.new(padding_hdr      ,  0, 'c' )
-      members << IntVar.new(padding_hdr      ,  0, 'c' )
-      members << IntVar.new(padding_hdr      ,  0, 'c' )
+      members << IntVar.new(padding_hdr      ,  0, :int8 )
+      members << IntVar.new(padding_hdr      ,  0, :int8 )
+      members << IntVar.new(padding_hdr      ,  0, :int8 )
+      members << IntVar.new(padding_hdr      ,  0, :int8 )
     end
     
-    members << IntVar.new(VOC.category_id    ,  0, 'c' )
-    members << StrDmy.new(VOC.category_name  , ''      )
-    members << IntVar.new(VOC.effect_id      , -1, 'c' )
-    members << StrDmy.new(VOC.effect_name    , ''      )
-    members << IntVar.new(VOC.scope_id       ,  0, 'C' )
-    members << StrDmy.new(VOC.scope_name     , ''      )
+    members << IntVar.new(VOC.category_id    ,  0, :int8 )
+    members << StrDmy.new(VOC.category_name  , ''        )
+    members << IntVar.new(VOC.effect_id      , -1, :int8 )
+    members << StrDmy.new(VOC.effect_name    , ''        )
+    members << IntVar.new(VOC.scope_id       ,  0, :uint8)
+    members << StrDmy.new(VOC.scope_name     , ''        )
     
     if eu?
-      members << IntVar.new(padding_hdr      ,  0, 'c' )
+      members << IntVar.new(padding_hdr      ,  0, :int8 )
     end
     
-    members << IntVar.new(VOC.effect_value[1],  0, 's>')
-    members << IntVar.new(VOC.effect_value[2],  0, 's>')
-    members << IntVar.new(VOC.element_id     ,  0, 'c' )
-    members << StrDmy.new(VOC.element_name   , ''      )
-    members << IntVar.new(VOC.type_id        ,  0, 'c' )
-    members << StrDmy.new(VOC.type_name      , ''      )
-    members << IntVar.new(unknown_hdr        ,  0, 'c' )
-    members << IntVar.new(unknown_hdr        ,  0, 'c' )
-    members << IntVar.new(VOC.state_id       ,  0, 'c' )
-    members << StrDmy.new(VOC.state_name     , ''      )
-    members << IntVar.new(VOC.state_hit      ,  0, 'c' )
-    members << IntVar.new(padding_hdr        ,  0, 'c' )
-    members << IntVar.new(padding_hdr        ,  0, 'c' )
+    members << IntVar.new(VOC.effect_value[1],  0, :int16)
+    members << IntVar.new(VOC.effect_value[2],  0, :int16)
+    members << IntVar.new(VOC.element_id     ,  0, :int8 )
+    members << StrDmy.new(VOC.element_name   , ''        )
+    members << IntVar.new(VOC.type_id        ,  0, :int8 )
+    members << StrDmy.new(VOC.type_name      , ''        )
+    members << IntVar.new(unknown_hdr        ,  0, :int8 )
+    members << IntVar.new(unknown_hdr        ,  0, :int8 )
+    members << IntVar.new(VOC.state_id       ,  0, :int8 )
+    members << StrDmy.new(VOC.state_name     , ''        )
+    members << IntVar.new(VOC.state_hit      ,  0, :int8 )
+    members << IntVar.new(padding_hdr        ,  0, :int8 )
+    members << IntVar.new(padding_hdr        ,  0, :int8 )
   end
 
   # Writes one entry to a CSV file.
