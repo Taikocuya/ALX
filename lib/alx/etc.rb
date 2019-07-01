@@ -183,14 +183,22 @@ class ETC
       singleton_class.class_eval(%Q{
         attr_reader :#{_method}
         def #{_method}=(_value)
-          _src = @#{_method}.class
-          _dst = _value.class.name
-          if _src == _dst || !@verify_type
-            @#{_method} = _value
-          else
-            _msg = sprintf('no implicit conversion of %s into %s', _src, _dst)
-            raise(TypeError, _msg, caller)
+          _src = @#{_method}
+          _dst = _value
+          
+          if @verify_type
+            _valid   = _src.class == _dst.class
+            _valid ||= _src == true  && [true, false].include?(_dst)
+            _valid ||= _src == false && [true, false].include?(_dst)
+            unless _valid
+              _src = _src.class.name
+              _dst = _dst.class.name
+              _msg = sprintf('no implicit conversion of %s into %s', _src, _dst)
+              raise(TypeError, _msg, caller)
+            end
           end
+          
+          @#{_method} = _value
         end
       })
       instance_variable_set("@#{_method}", _args.first)
