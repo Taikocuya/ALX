@@ -1074,39 +1074,39 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],[EU enemy name],Instr. type ID,[Ins
 14,*,71,テンコウ,Tenkou,1,Action,116,Power Potion,11,Enemy without Strengthen
 15,*,71,テンコウ,Tenkou,1,Action,117,Speed Potion,-1,None
 16,*,71,テンコウ,Tenkou,1,Action,118,Sacres Crystal,7,Injured enemy
-1,*,72,警備士,Patrol Guard,0,Strategy,11,???,4,???
-2,*,72,警備士,Patrol Guard,0,Strategy,12,???,6,???
-3,*,72,警備士,Patrol Guard,0,Strategy,30,???,7,???
-4,*,72,警備士,Patrol Guard,0,Strategy,23,???,17,???
-5,*,72,警備士,Patrol Guard,0,Strategy,30,???,7,???
-6,*,72,警備士,Patrol Guard,0,Strategy,23,???,19,???
-7,*,72,警備士,Patrol Guard,0,Strategy,26,???,15,???
-8,*,72,警備士,Patrol Guard,0,Strategy,25,???,16,???
-9,*,72,警備士,Patrol Guard,0,Strategy,25,???,11,???
-10,*,72,警備士,Patrol Guard,0,Strategy,30,???,13,???
-11,*,72,警備士,Patrol Guard,0,Strategy,33,???,15,???
-12,*,72,警備士,Patrol Guard,0,Strategy,30,???,18,???
-13,*,72,警備士,Patrol Guard,0,Strategy,42,???,15,???
-14,*,72,警備士,Patrol Guard,0,Strategy,30,???,19,???
-15,*,72,警備士,Patrol Guard,1,Action,550,Attack,2,Random character
-16,*,72,警備士,Patrol Guard,1,Action,551,Guard,-1,None
-17,*,72,警備士,Patrol Guard,1,Action,513,Quika,-1,None
-18,*,72,警備士,Patrol Guard,1,Action,532,Electri,7,Injured enemy
-19,*,72,警備士,Patrol Guard,1,Action,80,Sacres Crystal,2,Random character
-1,*,73,採掘士,Mine Patrol,0,Strategy,11,???,4,???
-2,*,73,採掘士,Mine Patrol,0,Strategy,12,???,6,???
-3,*,73,採掘士,Mine Patrol,0,Strategy,30,???,7,???
-4,*,73,採掘士,Mine Patrol,0,Strategy,22,???,13,???
-5,*,73,採掘士,Mine Patrol,0,Strategy,30,???,7,???
-6,*,73,採掘士,Mine Patrol,0,Strategy,21,???,13,???
-7,*,73,採掘士,Mine Patrol,0,Strategy,26,???,11,???
-8,*,73,採掘士,Mine Patrol,0,Strategy,24,???,12,???
-9,*,73,採掘士,Mine Patrol,0,Strategy,33,???,11,???
-10,*,73,採掘士,Mine Patrol,0,Strategy,30,???,14,???
-11,*,73,採掘士,Mine Patrol,1,Action,550,Attack,2,Random character
-12,*,73,採掘士,Mine Patrol,1,Action,551,Guard,-1,None
-13,*,73,採掘士,Mine Patrol,1,Action,513,Quika,-1,None
-14,*,73,採掘士,Mine Patrol,1,Action,527,Crystales,7,Injured enemy
+1,*,72,警備士,Custos,0,Strategy,11,???,4,???
+2,*,72,警備士,Custos,0,Strategy,12,???,6,???
+3,*,72,警備士,Custos,0,Strategy,30,???,7,???
+4,*,72,警備士,Custos,0,Strategy,23,???,17,???
+5,*,72,警備士,Custos,0,Strategy,30,???,7,???
+6,*,72,警備士,Custos,0,Strategy,23,???,19,???
+7,*,72,警備士,Custos,0,Strategy,26,???,15,???
+8,*,72,警備士,Custos,0,Strategy,25,???,16,???
+9,*,72,警備士,Custos,0,Strategy,25,???,11,???
+10,*,72,警備士,Custos,0,Strategy,30,???,13,???
+11,*,72,警備士,Custos,0,Strategy,33,???,15,???
+12,*,72,警備士,Custos,0,Strategy,30,???,18,???
+13,*,72,警備士,Custos,0,Strategy,42,???,15,???
+14,*,72,警備士,Custos,0,Strategy,30,???,19,???
+15,*,72,警備士,Custos,1,Action,550,Attack,2,Random character
+16,*,72,警備士,Custos,1,Action,551,Guard,-1,None
+17,*,72,警備士,Custos,1,Action,513,Quika,-1,None
+18,*,72,警備士,Custos,1,Action,532,Electri,7,Injured enemy
+19,*,72,警備士,Custos,1,Action,80,Sacres Crystal,2,Random character
+1,*,73,採掘士,Fossor,0,Strategy,11,???,4,???
+2,*,73,採掘士,Fossor,0,Strategy,12,???,6,???
+3,*,73,採掘士,Fossor,0,Strategy,30,???,7,???
+4,*,73,採掘士,Fossor,0,Strategy,22,???,13,???
+5,*,73,採掘士,Fossor,0,Strategy,30,???,7,???
+6,*,73,採掘士,Fossor,0,Strategy,21,???,13,???
+7,*,73,採掘士,Fossor,0,Strategy,26,???,11,???
+8,*,73,採掘士,Fossor,0,Strategy,24,???,12,???
+9,*,73,採掘士,Fossor,0,Strategy,33,???,11,???
+10,*,73,採掘士,Fossor,0,Strategy,30,???,14,???
+11,*,73,採掘士,Fossor,1,Action,550,Attack,2,Random character
+12,*,73,採掘士,Fossor,1,Action,551,Guard,-1,None
+13,*,73,採掘士,Fossor,1,Action,513,Quika,-1,None
+14,*,73,採掘士,Fossor,1,Action,527,Crystales,7,Injured enemy
 1,*,74,アスヒモス,Gelu Vermis,0,Strategy,1,???,7,???
 2,*,74,アスヒモス,Gelu Vermis,0,Strategy,23,???,12,???
 3,*,74,アスヒモス,Gelu Vermis,0,Strategy,22,???,13,???

@@ -742,15 +742,15 @@ Entry ID,[Filter],Party vigor,Magic EXP,Enemy #0 ID,[JP enemy #0 name],[EU enemy
 20,A111B_EP.BIN,77,2,33,ガランガラン,Serpantis,47,プラニナ,Lucich,47,プラニナ,Lucich,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 21,A111B_EP.BIN,77,2,33,ガランガラン,Serpantis,47,プラニナ,Lucich,47,プラニナ,Lucich,47,プラニナ,Lucich,255,None,None,255,None,None,255,None,None,255,None,None
 22,A111B_EP.BIN,77,2,33,ガランガラン,Serpantis,33,ガランガラン,Serpantis,47,プラニナ,Lucich,47,プラニナ,Lucich,255,None,None,255,None,None,255,None,None,255,None,None
-23,A111B_EP.BIN,87,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-24,A111B_EP.BIN,87,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,255,None,None,255,None,None,255,None,None,255,None,None
+23,A111B_EP.BIN,87,2,73,採掘士,Fossor,73,採掘士,Fossor,73,採掘士,Fossor,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+24,A111B_EP.BIN,87,2,73,採掘士,Fossor,73,採掘士,Fossor,73,採掘士,Fossor,73,採掘士,Fossor,255,None,None,255,None,None,255,None,None,255,None,None
 25,A111B_EP.BIN,82,2,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 26,A111B_EP.BIN,82,2,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
-27,A111B_EP.BIN,82,2,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-28,A111B_EP.BIN,82,2,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
-29,A111B_EP.BIN,82,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-30,A111B_EP.BIN,82,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
-31,A111B_EP.BIN,82,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
+27,A111B_EP.BIN,82,2,73,採掘士,Fossor,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+28,A111B_EP.BIN,82,2,73,採掘士,Fossor,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
+29,A111B_EP.BIN,82,2,73,採掘士,Fossor,73,採掘士,Fossor,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+30,A111B_EP.BIN,82,2,73,採掘士,Fossor,73,採掘士,Fossor,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
+31,A111B_EP.BIN,82,2,73,採掘士,Fossor,73,採掘士,Fossor,73,採掘士,Fossor,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
 0,A111C_EP.BIN,87,2,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,255,None,None,255,None,None,255,None,None
 1,A111C_EP.BIN,87,2,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,255,None,None
 2,A111C_EP.BIN,97,2,41,エルモンテ,Elooper,41,エルモンテ,Elooper,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
@@ -774,15 +774,15 @@ Entry ID,[Filter],Party vigor,Magic EXP,Enemy #0 ID,[JP enemy #0 name],[EU enemy
 20,A111C_EP.BIN,77,2,33,ガランガラン,Serpantis,47,プラニナ,Lucich,47,プラニナ,Lucich,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 21,A111C_EP.BIN,77,2,33,ガランガラン,Serpantis,47,プラニナ,Lucich,47,プラニナ,Lucich,47,プラニナ,Lucich,255,None,None,255,None,None,255,None,None,255,None,None
 22,A111C_EP.BIN,77,2,33,ガランガラン,Serpantis,33,ガランガラン,Serpantis,47,プラニナ,Lucich,47,プラニナ,Lucich,255,None,None,255,None,None,255,None,None,255,None,None
-23,A111C_EP.BIN,87,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-24,A111C_EP.BIN,87,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,255,None,None,255,None,None,255,None,None,255,None,None
+23,A111C_EP.BIN,87,2,73,採掘士,Fossor,73,採掘士,Fossor,73,採掘士,Fossor,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+24,A111C_EP.BIN,87,2,73,採掘士,Fossor,73,採掘士,Fossor,73,採掘士,Fossor,73,採掘士,Fossor,255,None,None,255,None,None,255,None,None,255,None,None
 25,A111C_EP.BIN,82,2,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 26,A111C_EP.BIN,82,2,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
-27,A111C_EP.BIN,82,2,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-28,A111C_EP.BIN,82,2,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
-29,A111C_EP.BIN,82,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-30,A111C_EP.BIN,82,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
-31,A111C_EP.BIN,82,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
+27,A111C_EP.BIN,82,2,73,採掘士,Fossor,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+28,A111C_EP.BIN,82,2,73,採掘士,Fossor,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
+29,A111C_EP.BIN,82,2,73,採掘士,Fossor,73,採掘士,Fossor,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+30,A111C_EP.BIN,82,2,73,採掘士,Fossor,73,採掘士,Fossor,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
+31,A111C_EP.BIN,82,2,73,採掘士,Fossor,73,採掘士,Fossor,73,採掘士,Fossor,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
 0,A111D_EP.BIN,87,2,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,255,None,None,255,None,None,255,None,None
 1,A111D_EP.BIN,87,2,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,90,キュキュ,Tsorok,255,None,None
 2,A111D_EP.BIN,97,2,41,エルモンテ,Elooper,41,エルモンテ,Elooper,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
@@ -806,15 +806,15 @@ Entry ID,[Filter],Party vigor,Magic EXP,Enemy #0 ID,[JP enemy #0 name],[EU enemy
 20,A111D_EP.BIN,77,2,33,ガランガラン,Serpantis,47,プラニナ,Lucich,47,プラニナ,Lucich,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 21,A111D_EP.BIN,77,2,33,ガランガラン,Serpantis,47,プラニナ,Lucich,47,プラニナ,Lucich,47,プラニナ,Lucich,255,None,None,255,None,None,255,None,None,255,None,None
 22,A111D_EP.BIN,77,2,33,ガランガラン,Serpantis,33,ガランガラン,Serpantis,47,プラニナ,Lucich,47,プラニナ,Lucich,255,None,None,255,None,None,255,None,None,255,None,None
-23,A111D_EP.BIN,87,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-24,A111D_EP.BIN,87,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,255,None,None,255,None,None,255,None,None,255,None,None
+23,A111D_EP.BIN,87,2,73,採掘士,Fossor,73,採掘士,Fossor,73,採掘士,Fossor,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+24,A111D_EP.BIN,87,2,73,採掘士,Fossor,73,採掘士,Fossor,73,採掘士,Fossor,73,採掘士,Fossor,255,None,None,255,None,None,255,None,None,255,None,None
 25,A111D_EP.BIN,82,2,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 26,A111D_EP.BIN,82,2,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
-27,A111D_EP.BIN,82,2,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-28,A111D_EP.BIN,82,2,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
-29,A111D_EP.BIN,82,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-30,A111D_EP.BIN,82,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
-31,A111D_EP.BIN,82,2,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,73,採掘士,Mine Patrol,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
+27,A111D_EP.BIN,82,2,73,採掘士,Fossor,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+28,A111D_EP.BIN,82,2,73,採掘士,Fossor,48,デ式ディガー,Digger,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
+29,A111D_EP.BIN,82,2,73,採掘士,Fossor,73,採掘士,Fossor,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+30,A111D_EP.BIN,82,2,73,採掘士,Fossor,73,採掘士,Fossor,48,デ式ディガー,Digger,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
+31,A111D_EP.BIN,82,2,73,採掘士,Fossor,73,採掘士,Fossor,73,採掘士,Fossor,48,デ式ディガー,Digger,255,None,None,255,None,None,255,None,None,255,None,None
 0,A112B_EP.BIN,95,2,92,ランギット,Langry,92,ランギット,Langry,92,ランギット,Langry,92,ランギット,Langry,92,ランギット,Langry,255,None,None,255,None,None,255,None,None
 1,A112B_EP.BIN,95,2,92,ランギット,Langry,92,ランギット,Langry,92,ランギット,Langry,92,ランギット,Langry,92,ランギット,Langry,92,ランギット,Langry,92,ランギット,Langry,255,None,None
 2,A112B_EP.BIN,105,2,22,ベルハウンド,Ferlith,22,ベルハウンド,Ferlith,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
