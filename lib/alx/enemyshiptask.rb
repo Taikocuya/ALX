@@ -104,8 +104,18 @@ class EnemyShipTask < Entry
   # Writes one entry to a CSV file.
   # @param _csv [CSV] CSV object
   def write_to_csv(_csv)
-    _enemy_id   = SYS.enemy_ship_map[@file]
-    _enemy_ship = @enemy_ships[_enemy_id]
+    _match = SYS.enemy_ship_tasks.find do |_, _array|
+      _array.any? do |_task_id|
+        @file.include?(_task_id.to_s)
+      end
+    end
+    if _match
+      _enemy_id   = _match[0]
+      _enemy_ship = @enemy_ships[_enemy_id]
+    else
+      _enemy_id   = '???'
+      _enemy_ship = nil
+    end
     
     find_member(VOC.filter).value        = @file
     find_member(VOC.enemy_ship_id).value = _enemy_id

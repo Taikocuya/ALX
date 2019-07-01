@@ -50,8 +50,8 @@ class CrewMemberData < StdEntryData
     self.data_file = sys(:crew_member_data_files)
     self.name_file = sys(:crew_member_name_files)
     self.dscr_file = sys(:crew_member_dscr_files)
-    self.csv_file  = sys(:crew_member_csv_file)
-    self.tpl_file  = sys(:crew_member_tpl_file)
+    self.csv_file  = SYS.crew_member_csv_file
+    self.tpl_file  = SYS.crew_member_tpl_file
   end
 
 end # class CrewMemberData

@@ -50,8 +50,8 @@ class UsableItemData < StdEntryData
     self.data_file = sys(:usable_item_data_files)
     self.name_file = sys(:usable_item_name_files)
     self.dscr_file = sys(:usable_item_dscr_files)
-    self.csv_file  = sys(:usable_item_csv_file)
-    self.tpl_file  = sys(:usable_item_tpl_file)
+    self.csv_file  = SYS.usable_item_csv_file
+    self.tpl_file  = SYS.usable_item_tpl_file
   end
 
 end # class UsableItemData

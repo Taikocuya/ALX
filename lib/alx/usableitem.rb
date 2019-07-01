@@ -70,10 +70,8 @@ class UsableItem < StdEntry
     members << IntVar.new(VOC.effect_value[-1]          ,  0, :int16 )
     members << IntVar.new(unknown_hdr                   ,  0, :int8  )
     members << IntVar.new(unknown_hdr                   ,  0, :int8  )
-    members << IntVar.new(padding_hdr                   ,  0, :int8  )
-    members << IntVar.new(unknown_hdr                   ,  0, :int8  )
-    members << IntVar.new(padding_hdr                   ,  0, :int8  )
-    members << IntVar.new(VOC.hit                       ,  0, :int8  )
+    members << IntVar.new(unknown_hdr                   ,  0, :int16 )
+    members << IntVar.new(VOC.hit                       ,  0, :int16 )
     
     add_dscr_members
   end

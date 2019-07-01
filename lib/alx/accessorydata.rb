@@ -50,8 +50,8 @@ class AccessoryData < StdEntryData
     self.data_file = sys(:accessory_data_files)
     self.name_file = sys(:accessory_name_files)
     self.dscr_file = sys(:accessory_dscr_files)
-    self.csv_file  = sys(:accessory_csv_file)
-    self.tpl_file  = sys(:accessory_tpl_file)
+    self.csv_file  = SYS.accessory_csv_file
+    self.tpl_file  = SYS.accessory_tpl_file
   end
 
 end # class AccessoryData

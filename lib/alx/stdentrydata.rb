@@ -219,7 +219,7 @@ class StdEntryData < EntryData
         
         LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
         _pos.value = _f.pos
-        unless eu?
+        if jp? || us?
           _str.value = _f.read_str(0xff, 0x4)
         else
           _str.value = _f.read_str(0xff, 0x1, 'ISO8859-1')
@@ -410,7 +410,7 @@ class StdEntryData < EntryData
         end
         
         LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
-        unless eu?
+        if jp? || us?
           _f.write_str(_str, _size, 0x4)
         else
           _f.write_str(_str, _size, 0x1, 'ISO8859-1')

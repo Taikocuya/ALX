@@ -49,7 +49,7 @@ class EnpFile < EpFile
   # Maximum number of encounters
   NUM_ENCOUNTERS = 32
   # Regular expression for multi ENP files
-  MULTI_REGEXP   = /^(.+_)(\d*)(ep\.enp)$/
+  MULTI_REGEXP   = /^([^_]+_)(\d*)([^_]+)$/
 
 #==============================================================================
 #                                   PUBLIC
@@ -118,7 +118,11 @@ class EnpFile < EpFile
             raise(IOError, 'segments corrupted')
           end
     
-          _segname.sub!(/\.bin$/, '.enp')
+          if dc?
+            _segname.upcase!
+          elsif gc?
+            _segname.sub!(/\.bin$/, '.enp')
+          end
           _segments[_segname] = create_segment(_pos, _size)
         end
       else
@@ -300,7 +304,13 @@ class EnpFile < EpFile
         _f.write_int(0xffff        , :int16)
         
         _segments.each do |_segname, _seg|
-          _f.write_str(_segname.sub(/\.enp$/, '.bin'), SEG_NAME_SIZE)
+          if dc?
+            _segname = _segname.downcase
+          elsif gc?
+            _segname = _segname.sub(/\.enp$/, '.bin')
+          end
+          
+          _f.write_str(_segname, SEG_NAME_SIZE)
           _f.write_int(_seg.pos  , :int32)
           _f.write_int(_seg.size , :int32)
           _f.write_int(0xffffffff, :int32)

@@ -49,8 +49,8 @@ class SpiritCurveData < StdEntryData
     super(SpiritCurve, _root)
     self.id_range   = sys(:spirit_curve_id_range)
     self.data_file  = sys(:spirit_curve_data_files)
-    self.csv_file   = sys(:spirit_curve_csv_file)
-    self.tpl_file   = sys(:spirit_curve_tpl_file)
+    self.csv_file   = SYS.spirit_curve_csv_file
+    self.tpl_file   = SYS.spirit_curve_tpl_file
     @character_data = CharacterData.new(_root)
   end
 

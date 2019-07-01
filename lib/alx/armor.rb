@@ -56,7 +56,7 @@ class Armor < StdEntry
     members << IntVar.new(VOC.order_priority            , -1, :int8  )
     members << IntVar.new(VOC.order_alphabet[country_id], -1, :int8  )
     
-    unless eu?
+    if jp? || us?
       members << IntVar.new(padding_hdr                 ,  0, :int8  )
     end
 

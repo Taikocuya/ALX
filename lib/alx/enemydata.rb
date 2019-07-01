@@ -63,14 +63,14 @@ class EnemyData < EntryData
     @evp_file             = glob(:evp_file)
     @event_bgm_id_range   = sys(:enemy_event_bgm_id_range)
     @event_bgm_files      = sys(:enemy_event_bgm_files)
-    @enemy_csv_file       = sys(:enemy_csv_file)
-    @enemy_tpl_file       = sys(:enemy_tpl_file)
-    @instruction_csv_file = sys(:enemy_instruction_csv_file)
-    @instruction_tpl_file = sys(:enemy_instruction_tpl_file)
-    @event_csv_file       = sys(:enemy_event_csv_file)
-    @event_tpl_file       = sys(:enemy_event_tpl_file)
-    @encounter_csv_file   = sys(:enemy_encounter_csv_file)
-    @encounter_tpl_file   = sys(:enemy_encounter_tpl_file)
+    @enemy_csv_file       = SYS.enemy_csv_file
+    @enemy_tpl_file       = SYS.enemy_tpl_file
+    @instruction_csv_file = SYS.enemy_instruction_csv_file
+    @instruction_tpl_file = SYS.enemy_instruction_tpl_file
+    @event_csv_file       = SYS.enemy_event_csv_file
+    @event_tpl_file       = SYS.enemy_event_tpl_file
+    @encounter_csv_file   = SYS.enemy_encounter_csv_file
+    @encounter_tpl_file   = SYS.enemy_encounter_tpl_file
     
     @accessory_data        = AccessoryData.new(_root)
     @armor_data            = ArmorData.new(_root)
@@ -190,9 +190,10 @@ class EnemyData < EntryData
   # @param _stack_level  [Integer] Current stack level of method for internal 
   #                                use.
   def concat_instructions(_instructions, _stack_level = 1)
-    # ENP files with segments (e.g. 'a099a_ep.enp') have duplicate enemy data 
-    # under certain circumstances. In order to remove the duplicates 
-    # correctly, this method is recursively called per single segment.
+    # ENP files with segments (e.g. 'A099A_EP.BIN' or 'a099a_ep.enp') have 
+    # duplicate enemy data under certain circumstances. In order to remove the 
+    # duplicates correctly, this method is recursively called per single 
+    # segment.
     if _stack_level == 1
       _group_by_files = _instructions.group_by do |_instr|
         _instr.files
@@ -236,27 +237,29 @@ class EnemyData < EntryData
       _comp
     end
   
-    _last = nil
-    _lock = false
-    @enemies.each do |_enemy|
-      if _last && _last.id != _enemy.id
-        if _last.order < 2
-          _last.files = ['*']
+    if SYS.enemy_summarize_filter
+      _last = nil
+      _lock = false
+      @enemies.each do |_enemy|
+        if _last && _last.id != _enemy.id
+          if _last.order <= 2
+            _last.files = ['*']
+          end
+          _last = nil
+          _lock = false
         end
-        _last = nil
-        _lock = false
+        
+        if !_lock && (!_last || _last.files.size < _enemy.files.size)
+          _last = _enemy
+        end
+        
+        if _enemy.files.include?('*')
+          _lock = true
+        end
       end
-      
-      if !_lock && (!_last || _last.files.size < _enemy.files.size)
-        _last = _enemy
+      if _last && _last.order <= 2
+        _last.files = ['*']
       end
-      
-      if _enemy.files.include?('*')
-        _lock = true
-      end
-    end
-    if _last && _last.order < 2
-      _last.files = ['*']
     end
   end
   
@@ -271,19 +274,21 @@ class EnemyData < EntryData
       _comp
     end
 
-    _last = nil
-    _lock = false
-    @instructions.each do |_instr|
-      if _last && _last.enemy_id != _instr.enemy_id
-        _last = nil
-        _lock = false
-      end
-      if _last && _last.id >= _instr.id
-        _lock = true
-      end
-      if !_lock && _instr.order < 2
-        _last       = _instr
-        _last.files = ['*']
+    if SYS.enemy_instruction_summarize_filter
+      _last = nil
+      _lock = false
+      @instructions.each do |_instr|
+        if _last && _last.enemy_id != _instr.enemy_id
+          _last = nil
+          _lock = false
+        end
+        if _last && _last.id >= _instr.id
+          _lock = true
+        end
+        if !_lock && _instr.order <= 2
+          _last       = _instr
+          _last.files = ['*']
+        end
       end
     end
   end
@@ -589,8 +594,8 @@ class EnemyData < EntryData
     CSV.open(_filename, headers: true) do |_f|
       # If the methods #load_enemies_from_csv and #load_instructions_from_csv 
       # are called in the wrong order, each enemy is forced to be saved. 
-      # Snapshots are not loaded and differences are not detected. The total 
-      # running time increases enormously.
+      # Snapshots are not loaded and differences will not be detected, which 
+      # enormously increases the total runtime.
       if @instructions.empty?
         _snapshot = snapshots[:enemies].dup
       end
@@ -638,8 +643,8 @@ class EnemyData < EntryData
     CSV.open(_filename, headers: true) do |_f|
       # If the methods #load_enemies_from_csv and #load_instructions_from_csv 
       # are called in the wrong order, each enemy is forced to be saved. 
-      # Snapshots are not loaded and differences are not detected. The total 
-      # running time increases enormously.
+      # Snapshots are not loaded and differences will not be detected, which 
+      # enormously increases the total runtime.
       unless @enemies.empty?
         _snapshot = snapshots[:instructions]
         if _snapshot

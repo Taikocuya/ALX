@@ -56,7 +56,7 @@ class BnrFile
     @maker_name   = ''
     @description  = ''
   end
-
+  
   # Reads a BNR file.
   # @param _filename [String] File name
   def load(_filename)

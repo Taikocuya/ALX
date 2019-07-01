@@ -56,17 +56,28 @@ class ShipItem < StdEntry
     members << IntVar.new(VOC.ship_effect_turns         ,  0, :int8  )
     members << IntVar.new(VOC.consume                   ,  0, :int8  )
 
-    unless eu?
+    if jp? || us?
       members << IntVar.new(padding_hdr                 ,  0, :int8  )
     end
 
+    if dc? && (jp? || us?)
+      members << IntVar.new(padding_hdr                 ,  0, :int8  )
+      members << IntVar.new(padding_hdr                 ,  0, :int8  )
+    end
+    
     members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
+
+    if dc?
+      members << IntVar.new(padding_hdr                 ,  0, :int8  )
+      members << IntVar.new(padding_hdr                 ,  0, :int8  )
+    end
+    
     members << IntVar.new(VOC.retail_price              ,  0, :int8  )
     members << IntVar.new(VOC.order_priority            ,  0, :int8  )
     members << IntVar.new(VOC.order_alphabet[country_id],  0, :int8  )
     members << IntVar.new(padding_hdr                   ,  0, :int8  )
     
-    if eu?
+    if gc? && eu?
       members << IntVar.new(padding_hdr                 ,  0, :int8  )
       members << IntVar.new(padding_hdr                 ,  0, :int8  )
     end

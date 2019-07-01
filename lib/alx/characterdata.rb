@@ -50,8 +50,8 @@ class CharacterData < StdEntryData
     super(Character, _root)
     self.id_range   = sys(:character_id_range)
     self.data_file  = sys(:character_data_files)
-    self.csv_file   = sys(:character_csv_file)
-    self.tpl_file   = sys(:character_tpl_file)
+    self.csv_file   = SYS.character_csv_file
+    self.tpl_file   = SYS.character_tpl_file
     @weapon_data    = WeaponData.new(_root)
     @armor_data     = ArmorData.new(_root)
     @accessory_data = AccessoryData.new(_root)

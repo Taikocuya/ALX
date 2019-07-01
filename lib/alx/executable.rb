@@ -81,7 +81,7 @@ module Executable
       ALX::LOG.info(_msg)
     else
       _msg += sprintf(' - %s (%s)', VOC.not_matched, RUBY_VERSION)
-      ALX::LOG.warn(_msg)
+      ALX::LOG.error(_msg)
     end
     
     _result

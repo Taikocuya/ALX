@@ -49,9 +49,7 @@ class PlayableShip < StdEntry
     @ship_accessories = {}
     add_name_members(20)
 
-    members << IntVar.new(padding_hdr                  ,  0, :int8  )
-    members << IntVar.new(padding_hdr                  ,  0, :int8  )
-    members << IntVar.new(VOC.maxhp                    ,  0, :uint16)
+    members << IntVar.new(VOC.maxhp                    ,  0, :uint32)
     members << IntVar.new(VOC.maxspirit[-1]            ,  0, :int16 )
     members << IntVar.new(VOC.spirit[-1]               ,  0, :int16 )
     members << IntVar.new(VOC.defense                  ,  0, :int16 )

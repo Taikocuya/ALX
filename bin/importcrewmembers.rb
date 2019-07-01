@@ -44,7 +44,7 @@ class CrewMemberImporter < CrewMemberTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(_root.dirname, _root.sys(:crew_member_csv_file))
+    _result &&= has_file?(_root.dirname, SYS.crew_member_csv_file)
     _result
   end
 

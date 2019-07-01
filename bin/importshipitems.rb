@@ -44,7 +44,7 @@ class ShipItemImporter < ShipItemTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(_root.dirname, _root.sys(:ship_item_csv_file))
+    _result &&= has_file?(_root.dirname, SYS.ship_item_csv_file)
     _result
   end
 

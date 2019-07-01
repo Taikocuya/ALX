@@ -60,7 +60,10 @@ class BackupRestorer < EntryTransform
     
     data.each do |_root|
       Dir.chdir(_root.dirname) do
-        restore_backup(_root, _root.sys(:exec_file))
+        Dir.glob(_root.sys(:exec_file)).each do |_p|
+          restore_backup(_root, _p)
+        end
+        
         restore_backup(_root, _root.sys(:evp_file))
         restore_backup(_root, _root.sys(:level_file))
         

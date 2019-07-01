@@ -50,8 +50,13 @@ class Enemy < Entry
     
     members << StrDmy.new(VOC.filter                , ''         )
     members << StrVar.new(VOC.name_str['JP']        , '',      21)
-    members << StrDmy.new(VOC.enemy_name_us[-1]     , ''         )
-    members << StrDmy.new(VOC.enemy_name_eu[-1]     , ''         )
+
+    if us?
+      members << StrDmy.new(VOC.enemy_name_us[-1]   , ''         )
+    elsif eu?
+      members << StrDmy.new(VOC.enemy_name_eu[-1]   , ''         )
+    end
+
     members << IntVar.new(VOC.width                 ,  0, :int8  )
     members << IntVar.new(VOC.depth                 ,  0, :int8  )
     members << IntVar.new(VOC.element_id            ,  0, :int8  )
@@ -137,10 +142,16 @@ class Enemy < Entry
   # Writes one entry to a CSV file.
   # @param _csv [CSV] CSV object
   def write_to_csv(_csv)
-    find_member(VOC.filter).value            = @files.join(';')
-    find_member(VOC.enemy_name_us[-1]).value = VOC.enemies_us[id]
-    find_member(VOC.enemy_name_eu[-1]).value = VOC.enemies_eu[id]
+    find_member(VOC.filter).value = @files.join(';')
     
+    if us?
+      _name = voc(:enemies, id.to_s) || '???'
+      find_member(VOC.enemy_name_us[-1]).value = _name
+    elsif eu?
+      _name = voc(:enemies, id.to_s) || '???'
+      find_member(VOC.enemy_name_eu[-1]).value = _name
+    end
+
     _id = find_member(VOC.element_id).value
     find_member(VOC.element_name).value = VOC.elements[_id]
 
@@ -196,19 +207,30 @@ class Enemy < Entry
   attr_accessor :items
   
   def order
-    _order = 0xff
-    
+    _order    = 0xff
+    _enp_file = File.basename(sys(:enp_file))
+    _evp_file = File.basename(sys(:evp_file))
+    _eb_file  = File.basename(sys(:eb_file ))
+    _ec_file  = File.basename(sys(:ec_file ))
+
     @files.each do |_filename|
-      case File.extname(_filename)
-      when '.enp', '*'
+      _filename = _filename.sub(EnpFile::MULTI_REGEXP, '\1\3')
+
+      if _filename == '*'
         _order = [_order, 0].min
-      when '.evp'
+        break
+      elsif File.fnmatch?(_enp_file, _filename, File::FNM_CASEFOLD)
+        _order = [_order, 0].min
+        break
+      elsif File.fnmatch?(_evp_file, _filename, File::FNM_CASEFOLD)
         _order = [_order, 1].min
-      when '.dat'
+      elsif File.fnmatch?(_eb_file , _filename, File::FNM_CASEFOLD)
+        _order = [_order, 2].min
+      elsif File.fnmatch?(_ec_file , _filename, File::FNM_CASEFOLD)
         _order = [_order, 2].min
       end
     end
-    
+
     _order
   end
 

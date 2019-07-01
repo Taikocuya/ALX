@@ -44,7 +44,7 @@ class MagicExpCurveImporter < MagicExpCurveTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(_root.dirname, _root.sys(:magic_exp_curve_csv_file))
+    _result &&= has_file?(_root.dirname, SYS.magic_exp_curve_csv_file)
     _result
   end
 

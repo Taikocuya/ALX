@@ -50,8 +50,8 @@ class WeaponData < StdEntryData
     self.data_file = sys(:weapon_data_files)
     self.name_file = sys(:weapon_name_files)
     self.dscr_file = sys(:weapon_dscr_files)
-    self.csv_file  = sys(:weapon_csv_file)
-    self.tpl_file  = sys(:weapon_tpl_file)
+    self.csv_file  = SYS.weapon_csv_file
+    self.tpl_file  = SYS.weapon_tpl_file
   end
 
 end # class WeaponData

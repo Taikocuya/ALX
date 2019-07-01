@@ -50,8 +50,8 @@ class CharacterMagicData < StdEntryData
     self.data_file  = sys(:character_magic_data_files)
     self.name_file  = sys(:character_magic_name_files)
     self.dscr_file  = sys(:character_magic_dscr_files)
-    self.csv_file   = sys(:character_magic_csv_file)
-    self.tpl_file   = sys(:character_magic_tpl_file)
+    self.csv_file   = SYS.character_magic_csv_file
+    self.tpl_file   = SYS.character_magic_tpl_file
     @ship_dscr_file = sys(:character_magic_ship_dscr_files)
   end
 
@@ -100,7 +100,7 @@ class CharacterMagicData < StdEntryData
         
         LOG.info(sprintf(VOC.read, _id - id_range.begin, _f.pos))
         _pos.value  = _f.pos
-        unless eu?
+        if jp? || us?
           _str.value  = _f.read_str(0xff, 0x4)
         else
           _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
@@ -183,7 +183,7 @@ class CharacterMagicData < StdEntryData
         end
         
         LOG.info(sprintf(VOC.write, _id, _pos))
-        unless eu?
+        if jp? || us?
           _f.write_str(_str, _size, 0x4)
         else
           _f.write_str(_str, _size, 0x1, 'ISO8859-1')

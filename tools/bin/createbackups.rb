@@ -60,7 +60,10 @@ class BackupCreator < EntryTransform
     
     data.each do |_root|
       Dir.chdir(_root.dirname) do
-        create_backup(_root, _root.sys(:exec_file))
+        Dir.glob(_root.sys(:exec_file)).each do |_p|
+          create_backup(_root, _p)
+        end
+        
         create_backup(_root, _root.sys(:evp_file))
         create_backup(_root, _root.sys(:level_file))
 

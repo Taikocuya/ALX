@@ -133,6 +133,11 @@ class ETC
     _pattern
   end
   
+  # @see DataRange::new
+  def dr(*_args, **_opts)
+    DataRange.new(*_args, **_opts)
+  end
+  
   # Creates a dynamic CSV header.
   # @param _format [String] Header format
   # @return [Hash] Dynamic CSV header

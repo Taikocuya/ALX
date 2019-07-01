@@ -69,7 +69,7 @@ class GameRoot
     clear
   end
 
-  # Clear all values to their default values.
+  # Clear all attributes to their default values.
   def clear
     @dirname         = ''
     @platform_id     = ''
@@ -173,23 +173,31 @@ class GameRoot
     Kernel.const_get(sys(:platform_compressions))
   end
 
-  # Returns the value of a SYS attribute. If the value is a Hash, the 
+  # Returns the value of a ETC attribute. If the value is a Hash, the 
   # instance variables are considered during key selection.
-  # @param _sym [Symbol] SYS attribute symbol
-  # @return [Object] SYS attribute object
-  def sys(_sym)
-    _attr = SYS.send(_sym)
+  # 
+  # @param _etc  [ETC]    ETC object
+  # @param _sym  [Symbol] ETC attribute symbol
+  # @param _keys [String] Additional keys which are considered during key 
+  #                       selection.
+  # 
+  # @return [Object] ETC attribute object
+  def etc(_etc, _sym, *_keys)
+    _attr = _etc.send(_sym)
+    
     if _attr.is_a?(Hash)
-      _key   = @cache[_sym]
-      _value = _key ? _attr[_key] : nil
-      
+      _cache_id       = [_etc, _sym, *_keys]
+      _key            = @cache[_cache_id]
+      _value          = _key ? _attr[_key] : nil
+      _sys_attr_rslvr = @sys_attr_rslvr + _keys
+
       unless _value
-        (0...[1, @sys_attr_rslvr.size].max).to_a.reverse.each do |_index|
-          @sys_attr_rslvr.permutation(_index) do |_permutation|
-            _key   = (_permutation.unshift(@platform_id)).join('-')
+        (1..[1, _sys_attr_rslvr.size].max).to_a.reverse.each do |_index|
+          _sys_attr_rslvr.permutation(_index) do |_permutation|
+            _key   = _permutation.join('-')
             _value = _attr[_key]
             if _value
-              @cache[_sym] = _key
+              @cache[_cache_id] = _key
               break
             end
           end
@@ -201,8 +209,32 @@ class GameRoot
       
       _attr = _value
     end
-    
+
     _attr
+  end
+
+  # Returns the value of a SYS attribute. If the value is a Hash, the 
+  # instance variables are considered during key selection.
+  # 
+  # @param _sym  [Symbol] SYS attribute symbol
+  # @param _keys [String] Additional keys which are considered during key 
+  #                       selection.
+  # 
+  # @return [Object] SYS attribute object
+  def sys(_sym, *_keys)
+    etc(SYS, _sym, *_keys)
+  end
+
+  # Returns the value of a VOC attribute. If the value is a Hash, the 
+  # instance variables are considered during key selection.
+  # 
+  # @param _sym  [Symbol] VOC attribute symbol
+  # @param _keys [String] Additional keys which are considered during key 
+  #                       selection.
+  # 
+  # @return [Object] SYS attribute object
+  def voc(_sym, *_keys)
+    etc(VOC, _sym, *_keys)
   end
   
   # Returns a new path formed by joining the strings using '/' relative to 
@@ -313,7 +345,7 @@ class GameRoot
       
       @platform_id   = _id
       @platform_name = _name
-      refresh_sys_attr_resolver
+      refresh_sys_attr_rslvr
 
       _result
     end
@@ -347,7 +379,7 @@ class GameRoot
     @maker_name   = _bnr.maker_name
     @description  = _bnr.description
     _result       = false
-    refresh_sys_attr_resolver
+    refresh_sys_attr_rslvr
 
     _msg = sprintf(VOC.check_bnr, VOC.product_name)
     if @product_name =~ sys(:product_names)
@@ -388,13 +420,13 @@ class GameRoot
 
     @product_id  = _hdr.product_id
     @region_id   = _hdr.region_id
-    refresh_sys_attr_resolver
+    refresh_sys_attr_rslvr
 
     @region_name = sys(:region_ids)  || ''
     @country_id  = sys(:country_ids) || ''
     @maker_id    = _hdr.maker_id
     _result      = false
-    refresh_sys_attr_resolver
+    refresh_sys_attr_rslvr
 
     _msg = sprintf(VOC.check_hdr, VOC.product_id)
     if @product_id =~ sys(:product_ids)
@@ -467,20 +499,130 @@ class GameRoot
   # otherwise +false+.
   # @return [Boolean] +true+ if IP.BIN file is valid, otherwise +false+.
   def init_ip
-    _path = join(SYS.hdr_file)
+    _path = join(SYS.ip_file)
     unless has_file?(_path)
       return false
     end
     
-    _hdr = IPFile.new
-    _hdr.load(_path)
+    _ip = IPFile.new
+    _ip.load(_path)
     
-    false
+    @product_id      = _ip.product_id
+    @product_name    = _ip.product_name
+    @product_version = _ip.product_version
+    @product_date    = _ip.product_date
+    @region_id       = _ip.region_id
+    @maker_id        = _ip.maker_id
+    @maker_name      = _ip.maker_name
+    @description     = _ip.description
+    refresh_sys_attr_rslvr
+
+    @region_name     = sys(:region_ids)  || ''
+    @country_id      = sys(:country_ids) || ''
+    _result          = false
+    refresh_sys_attr_rslvr
+
+    _msg = sprintf(VOC.check_hdr, VOC.product_id)
+    if @product_id =~ sys(:product_ids)
+      _result  = true
+      _msg    += sprintf(' - %s (%s)', VOC.valid    , @product_id)
+      ALX::LOG.info(_msg)
+    else
+      _msg    += sprintf(' - %s (%s)', VOC.incorrect, @product_id)
+      ALX::LOG.error(_msg)
+    end
+
+    if _result
+      _msg = sprintf(VOC.check_bnr, VOC.product_name)
+      if @product_name =~ sys(:product_names)
+        _result  = true
+        _msg    += sprintf(' - %s (%s)', VOC.valid    , @product_name)
+        ALX::LOG.info(_msg)
+      else
+        _msg    += sprintf(' - %s (%s)', VOC.incorrect, @product_name)
+        ALX::LOG.error(_msg)
+      end
+    end
+
+    if _result
+      _msg  = sprintf(VOC.check_hdr, VOC.product_version)
+      _msg += sprintf(' - %s (%s)', VOC.valid, @product_version)
+      ALX::LOG.info(_msg)
+    end
+
+    if _result
+      _msg  = sprintf(VOC.check_hdr, VOC.product_date)
+      _msg += sprintf(' - %s (%s)', VOC.valid, @product_date)
+      ALX::LOG.info(_msg)
+    end
+
+    if _result
+      _msg = sprintf(VOC.check_hdr, VOC.region_id)
+      unless @region_name.empty?
+        _result  = true
+        _msg    += sprintf(' - %s (%s)', VOC.valid    , @region_id)
+        ALX::LOG.info(_msg)
+      else
+        _msg    += sprintf(' - %s (%s)', VOC.incorrect, @region_id)
+        ALX::LOG.error(_msg)
+      end
+    end
+
+    if _result
+      _msg  = sprintf(VOC.check_hdr, VOC.region_name)
+      _msg += sprintf(' - %s (%s)', VOC.valid, @region_name)
+      ALX::LOG.info(_msg)
+    end
+
+    if _result
+      _msg = sprintf(VOC.check_hdr, VOC.maker_id)
+      if @maker_id =~ sys(:maker_ids)
+        _result  = true
+        _msg    += sprintf(' - %s (%s)', VOC.valid    , @maker_id)
+        ALX::LOG.info(_msg)
+      else
+        _msg    += sprintf(' - %s (%s)', VOC.incorrect, @maker_id)
+        ALX::LOG.error(_msg)
+      end
+    end
+
+    if _result
+      _msg = sprintf(VOC.check_bnr, VOC.maker_name)
+      if @maker_name =~ sys(:maker_names)
+        _result  = true
+        _msg    += sprintf(' - %s (%s)', VOC.valid    , @maker_name)
+        ALX::LOG.info(_msg)
+      else
+        _msg    += sprintf(' - %s (%s)', VOC.incorrect, @maker_name)
+        ALX::LOG.error(_msg)
+      end
+    end
+
+    if _result
+      _msg = sprintf(VOC.check_hdr, VOC.country_id)
+      if COUNTRIES.include?(@country_id)
+        _result  = true
+        _msg    += sprintf(' - %s (%s)', VOC.valid    , @country_id)
+        ALX::LOG.info(_msg)
+      else
+        _msg    += sprintf(' - %s (%s)', VOC.incorrect, @country_id)
+        ALX::LOG.error(_msg)
+      end
+    end
+
+    if _result
+      _msg  = sprintf(VOC.check_hdr, VOC.description)
+      _msg += sprintf(' - %s (%s)', VOC.valid, @description)
+      ALX::LOG.info(_msg)
+    end
+    
+    _result
   end
 
   # Refreshes the SYS attribute resolver.
-  def refresh_sys_attr_resolver
+  def refresh_sys_attr_rslvr
     @sys_attr_rslvr.clear
+    @sys_attr_rslvr << @platform_id     unless @platform_id.empty?
     @sys_attr_rslvr << @product_id      unless @product_id.empty?
     @sys_attr_rslvr << @product_version unless @product_version.empty?
     @sys_attr_rslvr << @product_date    unless @product_date.empty?

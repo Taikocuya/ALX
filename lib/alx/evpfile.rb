@@ -35,15 +35,6 @@ module ALX
 
 # Class to read and write EVP files.
 class EvpFile < EpFile
-  
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Maximum number of enemies
-  NUM_ENEMIES  = 200
-  # Maximum number of events
-  NUM_EVENTS   = 250
 
 #==============================================================================
 #                                   PUBLIC
@@ -84,7 +75,7 @@ class EvpFile < EpFile
     CompressedFile.open(root, _filename, 'rb') do |_f|
       # Header
       _nodes = []
-      (0...NUM_ENEMIES).each do |_|
+      (0...sys(:enemy_event_num_enemies)).each do
         _id  = _f.read_int(:int32)
         _pos = _f.read_int(:int32)
 
@@ -95,7 +86,7 @@ class EvpFile < EpFile
       
       # Events
       _dummy = create_event
-      (0...NUM_EVENTS).each do |_id|
+      (0...sys(:enemy_event_num_events)).each do |_id|
         LOG.info(sprintf(VOC.read, _id, _f.pos))
         _event = create_event(_id)
         _event.read_from_bin(_f)

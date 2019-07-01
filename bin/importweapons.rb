@@ -44,7 +44,7 @@ class WeaponImporter < WeaponTransform
 
   def valid?(_root)
     _result   = super
-    _result &&= has_file?(_root.dirname, _root.sys(:weapon_csv_file))
+    _result &&= has_file?(_root.dirname, SYS.weapon_csv_file)
     _result
   end
 

@@ -132,36 +132,27 @@ class Entry
     _found
   end
 
-  # Returns the value of a SYS attribute. If the value is a Hash, the 
-  # instance variables are considered during key selection.
-  # @param _sym [Symbol] SYS attribute symbol
-  # @return [Object] SYS attribute object
-  def sys(_sym)
-    @root.sys(_sym)
+  # @see GameRoot#etc
+  def etc(*_args)
+    @root.etc(*_args)
   end
-  
-  # Returns a new path formed by joining the strings using '/' relative to 
-  # #dir. SYS symbols are resolved as well. If they contain a Hash, the game 
-  # root attributes are considered during key selection.
-  # 
-  # @param _args [String,Symbol] Paths or SYS symbols
-  # @return [String] Path
-  # @see ::File::join
+
+  # @see GameRoot#sys
+  def sys(*_args)
+    @root.sys(*_args)
+  end
+
+  # @see GameRoot#voc
+  def voc(*_args)
+    @root.voc(*_args)
+  end
+
+  # @see GameRoot#join
   def join(*_args)
     @root.join(*_args)
   end
-  
-  # Expands glob pattern and returns a path of the first matching file or 
-  # directory relative to #dir. SYS symbols are resolved as well. If they 
-  # contain a Hash, the game root attributes are considered during key 
-  # selection.
-  # 
-  # If a block is given, calls the block once for each matching file or 
-  # directory, passing the path as a parameter to the block. 
-  # 
-  # @param _args [String,Symbol] Glob patterns or SYS attributes
-  # @return [String] First matching path
-  # @see ::Dir::glob
+
+  # @see GameRoot#glob
   def glob(*_args, &_block)
     @root.glob(*_args, &_block)
   end

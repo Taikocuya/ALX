@@ -88,36 +88,27 @@ class EpFile
     _instr
   end
 
-  # Returns the value of a SYS attribute. If the value is a Hash, the 
-  # instance variables are considered during key selection.
-  # @param _sym [Symbol] SYS attribute symbol
-  # @return [Object] SYS attribute object
-  def sys(_sym)
-    @root.sys(_sym)
+  # @see GameRoot#etc
+  def etc(*_args)
+    @root.etc(*_args)
   end
-    
-  # Returns a new path formed by joining the strings using '/' relative to 
-  # #dir. SYS symbols are resolved as well. If they contain a Hash, the game 
-  # root attributes are considered during key selection.
-  # 
-  # @param _args [String,Symbol] Paths or SYS symbols
-  # @return [String] Path
-  # @see ::File::join
+
+  # @see GameRoot#sys
+  def sys(*_args)
+    @root.sys(*_args)
+  end
+
+  # @see GameRoot#voc
+  def voc(*_args)
+    @root.voc(*_args)
+  end
+
+  # @see GameRoot#join
   def join(*_args)
     @root.join(*_args)
   end
-  
-  # Expands glob pattern and returns a path of the first matching file or 
-  # directory relative to #dir. SYS symbols are resolved as well. If they 
-  # contain a Hash, the game root attributes are considered during key 
-  # selection.
-  # 
-  # If a block is given, calls the block once for each matching file or 
-  # directory, passing the path as a parameter to the block. 
-  # 
-  # @param _args [String,Symbol] Glob patterns or SYS attributes
-  # @return [String] First matching path
-  # @see ::Dir::glob
+
+  # @see GameRoot#glob
   def glob(*_args, &_block)
     @root.glob(*_args, &_block)
   end
@@ -132,6 +123,58 @@ class EpFile
   attr_accessor :items
   attr_accessor :magics
   attr_accessor :super_moves
+
+  def country_id
+    @root.country_id
+  end
+  
+  # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
+  # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.
+  def dc?
+    @root.dc?
+  end
+
+  # Returns +true+ if the platform is a Gamecube, otherwise +false+.
+  # @return [Boolean] +true+ if platform is a Gamecube, otherwise +false+.
+  def gc?
+    @root.gc?
+  end
+
+  # Returns +true+ if the country is 'EU', otherwise +false+.
+  # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
+  def eu?
+    @root.eu?
+  end
+
+  # Returns +true+ if the country is 'JP', otherwise +false+.
+  # @return [Boolean] +true+ if country is 'JP', otherwise +false+.
+  def jp?
+    @root.jp?
+  end
+
+  # Returns +true+ if the country is 'US', otherwise +false+.
+  # @return [Boolean] +true+ if country is 'US', otherwise +false+.
+  def us?
+    @root.us?
+  end
+
+  # Returns +:big+ or +:little+ depending on the platform endianness.
+  # @return [Symbol] +:big+ or +:little+ depending on endianness.
+  def endianness
+    @root.endianness
+  end
+
+  # Returns +true+ if the endianness is big-endian, otherwise +false+.
+  # @return [Boolean] +true+ if endianness is big-endian, otherwise +false+.
+  def big_endian?
+    @root.big_endian?
+  end
+
+  # Returns +true+ if the endianness is little-endian, otherwise +false+.
+  # @return [Boolean] +true+ if endianness is little-endian, otherwise +false+.
+  def little_endian?
+    @root.little_endian?
+  end
 
 #==============================================================================
 #                                  PROTECTED

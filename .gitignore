@@ -15,6 +15,7 @@ Thumbs.db
 .~lock.*#
 
 # ALX
+/etc/*.rb
 /doc
 /log
 /share/*/archive

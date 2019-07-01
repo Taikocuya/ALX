@@ -50,8 +50,8 @@ class ShipItemData < StdEntryData
     self.data_file = sys(:ship_item_data_files)
     self.name_file = sys(:ship_item_name_files)
     self.dscr_file = sys(:ship_item_dscr_files)
-    self.csv_file  = sys(:ship_item_csv_file)
-    self.tpl_file  = sys(:ship_item_tpl_file)
+    self.csv_file  = SYS.ship_item_csv_file
+    self.tpl_file  = SYS.ship_item_tpl_file
   end
 
 end # class ShipItemData

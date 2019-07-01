@@ -50,17 +50,22 @@ class EnemyInstruction < Entry
     @magics      = {}
     @super_moves = {}
 
-    members << StrDmy.new(VOC.filter           , ''        )
-    members << IntDmy.new(VOC.instr_enemy_id   , -1        )
-    members << StrDmy.new(VOC.enemy_name_jp[-1], ''        )
-    members << StrDmy.new(VOC.enemy_name_us[-1], ''        )
-    members << StrDmy.new(VOC.enemy_name_eu[-1], ''        )
-    members << IntVar.new(VOC.instr_type_id    , -1, :int16)
-    members << StrDmy.new(VOC.instr_type_name  , ''        )
-    members << IntVar.new(VOC.instr_id         , -1, :int16)
-    members << StrDmy.new(VOC.instr_name       , ''        )
-    members << IntVar.new(VOC.instr_param_id   , -1, :int16)
-    members << StrDmy.new(VOC.instr_param_name , ''        )
+    members << StrDmy.new(VOC.filter             , ''        )
+    members << IntDmy.new(VOC.instr_enemy_id     , -1        )
+    members << StrDmy.new(VOC.enemy_name_jp[-1]  , ''        )
+    
+    if us?
+      members << StrDmy.new(VOC.enemy_name_us[-1], ''        )
+    elsif eu?
+      members << StrDmy.new(VOC.enemy_name_eu[-1], ''        )
+    end
+    
+    members << IntVar.new(VOC.instr_type_id      , -1, :int16)
+    members << StrDmy.new(VOC.instr_type_name    , ''        )
+    members << IntVar.new(VOC.instr_id           , -1, :int16)
+    members << StrDmy.new(VOC.instr_name         , ''        )
+    members << IntVar.new(VOC.instr_param_id     , -1, :int16)
+    members << StrDmy.new(VOC.instr_param_name   , ''        )
   end
 
   # Compares two entries based on +FltVar+, +IntVar+ and +StrVar+ members. 
@@ -118,17 +123,18 @@ class EnemyInstruction < Entry
     _id = find_member(VOC.instr_enemy_id).value
     _entry = @enemies.find { |_enemy| _enemy.id == _id }
     if _entry
-      _name_jp = _entry.find_member(VOC.name_str['JP']).value
-      _name_us = VOC.enemies_us[_id]
-      _name_eu = VOC.enemies_eu[_id]
+      _name_jp  = _entry.find_member(VOC.name_str['JP']).value
+      _name_voc = voc(:enemies, _id.to_s) || '???'
     else
-      _name_jp = '???'
-      _name_us = '???'
-      _name_eu = '???'
+      _name_jp  = '???'
+      _name_voc = '???'
     end
     find_member(VOC.enemy_name_jp[-1]).value = _name_jp
-    find_member(VOC.enemy_name_us[-1]).value = _name_us
-    find_member(VOC.enemy_name_eu[-1]).value = _name_eu
+    if us?
+      find_member(VOC.enemy_name_us[-1]).value = _name_voc
+    elsif eu?
+      find_member(VOC.enemy_name_eu[-1]).value = _name_voc
+    end
 
     _type_id    = find_member(VOC.instr_type_id ).value
     _instr_id   = find_member(VOC.instr_id      ).value
@@ -240,15 +246,26 @@ class EnemyInstruction < Entry
   end
 
   def order
-    _order = 0xff
-    
+    _order    = 0xff
+    _enp_file = File.basename(sys(:enp_file))
+    _evp_file = File.basename(sys(:evp_file))
+    _eb_file  = File.basename(sys(:eb_file ))
+    _ec_file  = File.basename(sys(:ec_file ))
+
     @files.each do |_filename|
-      case File.extname(_filename)
-      when '.enp', '*'
+      _filename = _filename.sub(EnpFile::MULTI_REGEXP, '\1\3')
+
+      if _filename == '*'
         _order = [_order, 0].min
-      when '.evp'
+        break
+      elsif File.fnmatch?(_enp_file, _filename, File::FNM_CASEFOLD)
+        _order = [_order, 0].min
+        break
+      elsif File.fnmatch?(_evp_file, _filename, File::FNM_CASEFOLD)
         _order = [_order, 1].min
-      when '.dat'
+      elsif File.fnmatch?(_eb_file , _filename, File::FNM_CASEFOLD)
+        _order = [_order, 2].min
+      elsif File.fnmatch?(_ec_file , _filename, File::FNM_CASEFOLD)
         _order = [_order, 2].min
       end
     end

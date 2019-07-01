@@ -49,8 +49,8 @@ class EnemyShipTaskData < EntryData
   def initialize(_root)
     super(EnemyShipTask, _root)
     @tec_file             = sys(:tec_file)
-    @csv_file             = sys(:enemy_ship_task_csv_file)
-    @tpl_file             = sys(:enemy_ship_task_tpl_file)
+    @csv_file             = SYS.enemy_ship_task_csv_file
+    @tpl_file             = SYS.enemy_ship_task_tpl_file
     @character_magic_data = CharacterMagicData.new(_root)
     @enemy_ship_data      = EnemyShipData.new(_root)
     @data                 = []

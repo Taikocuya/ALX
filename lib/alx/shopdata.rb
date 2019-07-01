@@ -56,8 +56,8 @@ class ShopData < StdEntryData
     self.id_range  = sys(:shop_id_range)
     self.data_file = sys(:shop_data_files)
     self.dscr_file = sys(:shop_dscr_files)
-    self.csv_file  = sys(:shop_csv_file)
-    self.tpl_file  = sys(:shop_tpl_file)
+    self.csv_file  = SYS.shop_csv_file
+    self.tpl_file  = SYS.shop_tpl_file
     
     @accessory_data      = AccessoryData.new(_root)
     @armor_data          = ArmorData.new(_root)

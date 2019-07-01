@@ -2,9 +2,9 @@ ALX - Skies of Arcadia Legends Examiner
 =======================================
 
 *ALX* is a very simple, fast, cross-platform and object-oriented command line 
-tool to extract the game data from Skies of Arcadia Legends as well as Eternal 
-Arcadia Legends. It is written in Ruby and is able to export and import the 
-data to and from CSV files.
+tool to extract the game data from Skies of Arcadia, Skies of Arcadia Legends,
+Eternal Arcadia, as well as Eternal Arcadia Legends. It is written in Ruby and 
+is able to export and import the data to and from CSV files.
 
 Features
 --------
@@ -26,8 +26,8 @@ Prerequisites
 The commands respectively scripts in the `bin` directory require:
 
 * [Ruby](https://www.ruby-lang.org/) 2.4.0+
-* At least one extracted image of Skies of Arcadia Legends, or rather, Eternal 
-  Arcadia Legends
+* At least one extracted image of Skies of Arcadia, Skies of Arcadia Legends, 
+  Eternal Arcadia, or Eternal Arcadia Legends
 
 The shipped and pre-exported CSV files in the subdirectories of `share` 
 require:
@@ -49,26 +49,42 @@ Installation
 ------------
 
 Put the files to some directory where you want it. Pre-exported CSV files with 
-complete game data can already be found in the subdirectories:
+complete game data can already be found in the subdirectories.
 
-| Path                          | Region  | Country |
-|:-----------------------------:|:-------:|:-------:|
-| `share/gc-eu-retail/database` | PAL-E   | EU      |
-| `share/gc-jp-retail/database` | NTSC-J  | JP      |
-| `share/gc-us-retail/database` | NTSC-U  | US      |
+| Path                    | Platform  | Region  | Notes                     |
+|:-----------------------:|:---------:|:-------:|:-------------------------:|
+| `share/dc-eu-dreamon`   | Dreamcast | PAL-E   | Dreamon 20                |
+| `share/dc-eu-retail-1`  | Dreamcast | PAL-E   | Retail Disc 1             |
+| `share/dc-eu-retail-2`  | Dreamcast | PAL-E   | Retail Disc 2             |
+| `share/dc-jp-barai-1`   | Dreamcast | NTSC-J  | @barai Disc 1             |
+| `share/dc-jp-barai-2`   | Dreamcast | NTSC-J  | @barai Disc 2             |
+| `share/dc-jp-express`   | Dreamcast | NTSC-J  | Dreamcast Express Vol. 6  |
+| `share/dc-jp-kuzokuban` | Dreamcast | NTSC-J  | Kuzokuban (Trial Edition) |
+| `share/dc-jp-retail-1`  | Dreamcast | NTSC-J  | Retail Disc 1             |
+| `share/dc-jp-retail-2`  | Dreamcast | NTSC-J  | Retail Disc 2             |
+| `share/dc-us-magazine`  | Dreamcast | NTSC-U  | Official Magazine Vol. 9  |
+| `share/dc-us-retail-1`  | Dreamcast | NTSC-U  | Retail Disc 1             |
+| `share/dc-us-retail-2`  | Dreamcast | NTSC-U  | Retail Disc 2             |
+| `share/gc-eu-retail`    | Gamecube  | PAL-E   | Retail Disc               |
+| `share/gc-jp-retail`    | Gamecube  | NTSC-J  | Retail Disc               |
+| `share/gc-us-retail`    | Gamecube  | NTSC-U  | Retail Disc               |
 
-The scripts require at least one extracted image of Skies of Arcadia Legends, 
-or rather, Eternal Arcadia Legends. The directory structure should look like 
-this:
+The scripts require at least one extracted image of Skies of Arcadia, Skies of 
+Arcadia Legends, Eternal Arcadia, or Eternal Arcadia Legends. The directory 
+structure should look like this:
 
 * `share/*/database` (replace the asterisk with any name you choose) for CSV 
   files
-* `share/*/database` (replace the asterisk with any name you choose) for game 
+* `share/*/gameroot` (replace the asterisk with any name you choose) for game 
   data
 
-To obtain the game files, you need a corresponding image (ISO or GCM) and 
-[GCRebuilder](http://www.romhacking.net/utilities/619/). Please do not ask for 
-download links.
+To obtain the game files, you need a corresponding image (ISO, GCM or GDI).
+Please do not ask for download links.
+
+| Platform  | Download                                                     |
+|:---------:|:------------------------------------------------------------:|
+| Dreamcast | [GCRebuilder](http://www.romhacking.net/utilities/619/)      |
+| Gamecube  | [GDRom Explorer](https://www.romhacking.net/utilities/1459/) |
 
 Commands
 --------

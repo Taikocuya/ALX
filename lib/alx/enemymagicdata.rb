@@ -49,8 +49,8 @@ class EnemyMagicData < StdEntryData
     self.id_range  = sys(:enemy_magic_id_range)
     self.data_file = sys(:enemy_magic_data_files)
     self.name_file = sys(:enemy_magic_name_files)
-    self.csv_file  = sys(:enemy_magic_csv_file)
-    self.tpl_file  = sys(:enemy_magic_tpl_file)
+    self.csv_file  = SYS.enemy_magic_csv_file
+    self.tpl_file  = SYS.enemy_magic_tpl_file
   end
 
 end # class EnemyMagicData

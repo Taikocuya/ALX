@@ -41,8 +41,25 @@ class DataRange
   # @param exclusions [Array]   Exclusions
   # @param msg_table  [Boolean] Use message table
   def initialize(_name, _range, exclusions: [], msg_table: false)
+    unless _name.is_a?(String)
+      _msg = '%s is not a string'
+      raise(TypeError, sprintf(_msg, _root))
+    end
+    unless _range.is_a?(Range)
+      _msg = '%s is not a range'
+      raise(TypeError, sprintf(_msg, _root))
+    end
+    
+    if _range.size > 0
+      _min = _range.min
+      _max = _range.max + 1
+    else
+      _min = _range.begin
+      _max = _range.end
+    end
+
     @name       = _name
-    @range      = Range.new(_range.min, _range.max + 1)
+    @range      = Range.new(_min, _max)
     @exclusions = exclusions
     @msg_table  = msg_table
   end

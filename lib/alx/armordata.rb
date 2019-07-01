@@ -50,8 +50,8 @@ class ArmorData < StdEntryData
     self.data_file = sys(:armor_data_files)
     self.name_file = sys(:armor_name_files)
     self.dscr_file = sys(:armor_dscr_files)
-    self.csv_file  = sys(:armor_csv_file)
-    self.tpl_file  = sys(:armor_tpl_file)
+    self.csv_file  = SYS.armor_csv_file
+    self.tpl_file  = SYS.armor_tpl_file
   end
 
 end # class ArmorData

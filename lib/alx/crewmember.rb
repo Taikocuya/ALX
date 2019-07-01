@@ -66,7 +66,7 @@ class CrewMember < StdEntry
     members << IntVar.new(padding_hdr             ,  0, :int8 )
     members << IntVar.new(padding_hdr             ,  0, :int8 )
     
-    if jp?
+    if gc? && jp?
       members << IntVar.new(VOC.unknown[-1]       ,  0, :int16)
       members << IntVar.new(VOC.ship_effect_value ,  0, :int16)
     else

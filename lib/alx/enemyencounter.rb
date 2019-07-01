@@ -48,15 +48,19 @@ class EnemyEncounter < Entry
     @file    = ''
     @enemies = []
 
-    members << StrDmy.new(VOC.filter             , ''        )
-    members << IntVar.new(VOC.party_vigor        ,  0, :uint8)
-    members << IntVar.new(VOC.magic_exp          ,  0, :uint8)
+    members << StrDmy.new(VOC.filter               , ''        )
+    members << IntVar.new(VOC.party_vigor          ,  0, :uint8)
+    members << IntVar.new(VOC.magic_exp            ,  0, :uint8)
 
     (0...8).each do |_i|
-      members << IntVar.new(VOC.enemy_id[_i]     ,  0, :uint8)
-      members << StrDmy.new(VOC.enemy_name_jp[_i], ''        )
-      members << StrDmy.new(VOC.enemy_name_us[_i], ''        )
-      members << StrDmy.new(VOC.enemy_name_eu[_i], ''        )
+      members << IntVar.new(VOC.enemy_id[_i]       ,  0, :uint8)
+      members << StrDmy.new(VOC.enemy_name_jp[_i]  , ''        )
+      
+      if us?
+        members << StrDmy.new(VOC.enemy_name_us[_i], ''        )
+      elsif eu?
+        members << StrDmy.new(VOC.enemy_name_eu[_i], ''        )
+      end
     end
   end
 
@@ -95,22 +99,22 @@ class EnemyEncounter < Entry
       if _id != 255
         _entry = @enemies.find { |_enemy| _enemy.id == _id }
         if _entry
-          _name_jp = _entry.find_member(VOC.name_str['JP']).value
-          _name_us = VOC.enemies_us[_id]
-          _name_eu = VOC.enemies_eu[_id]
+          _name_jp  = _entry.find_member(VOC.name_str['JP']).value
+          _name_voc = voc(:enemies, _id.to_s) || '???'
         else
-          _name_jp = '???'
-          _name_us = '???'
-          _name_eu = '???'
+          _name_jp  = '???'
+          _name_voc = '???'
         end
       else
-        _name_jp = 'None'
-        _name_us = 'None'
-        _name_eu = 'None'
+        _name_jp  = 'None'
+        _name_voc = 'None'
       end
       find_member(VOC.enemy_name_jp[_i]).value = _name_jp
-      find_member(VOC.enemy_name_us[_i]).value = _name_us
-      find_member(VOC.enemy_name_eu[_i]).value = _name_eu
+      if us?
+        find_member(VOC.enemy_name_us[_i]).value = _name_voc
+      elsif eu?
+        find_member(VOC.enemy_name_eu[_i]).value = _name_voc
+      end
     end
 
     super

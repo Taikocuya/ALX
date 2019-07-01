@@ -47,7 +47,7 @@ class EnemySuperMove < StdEntry
     super
     add_name_members
 
-    unless eu?
+    if jp? || us?
       members << IntVar.new(padding_hdr      ,  0, :int8 )
       members << IntVar.new(padding_hdr      ,  0, :int8 )
       members << IntVar.new(padding_hdr      ,  0, :int8 )

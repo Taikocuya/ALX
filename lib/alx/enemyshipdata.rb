@@ -56,8 +56,8 @@ class EnemyShipData < StdEntryData
     self.id_range  = sys(:enemy_ship_id_range)
     self.data_file = sys(:enemy_ship_data_files)
     self.name_file = sys(:enemy_ship_name_files)
-    self.csv_file  = sys(:enemy_ship_csv_file)
-    self.tpl_file  = sys(:enemy_ship_tpl_file)
+    self.csv_file  = SYS.enemy_ship_csv_file
+    self.tpl_file  = SYS.enemy_ship_tpl_file
     
     @arm_name_file       = sys(:enemy_ship_arm_name_files)
     @accessory_data      = AccessoryData.new(_root)
@@ -119,7 +119,7 @@ class EnemyShipData < StdEntryData
           
           LOG.info(sprintf(VOC.read, _id, _f.pos))
           _pos.value  = _f.pos
-          unless eu?
+          if jp? || us?
             _str.value  = _f.read_str(0xff, 0x4)
           else
             _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
@@ -220,7 +220,7 @@ class EnemyShipData < StdEntryData
           end
           
           LOG.info(sprintf(VOC.write, _id, _pos))
-          unless eu?
+          if jp? || us?
             _f.write_str(_str, _size, 0x4)
           else
             _f.write_str(_str, _size, 0x1, 'ISO8859-1')
