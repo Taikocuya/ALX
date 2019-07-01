@@ -142,14 +142,16 @@ class EvpFile < EpFile
 
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
+    _num_enemies = sys(:enemy_event_num_enemies)
+    _num_events  = sys(:enemy_event_num_events)
     CompressedFile.open(root, _filename, 'wb') do |_f|
       # Events
       _dummy   = create_event
-      _f.pos   = NUM_ENEMIES * 0x8
-      if @events.size > NUM_EVENTS
-        raise(IOError, "event quota of #{NUM_EVENTS} exceeded")
+      _f.pos   = _num_enemies * 0x8
+      if @events.size > _num_events
+        raise(IOError, "event quota of #{_num_events} exceeded")
       end
-      (0...NUM_EVENTS).each do |_id|
+      (0..._num_events).each do |_id|
         LOG.info(sprintf(VOC.write, _id, _f.pos))
         _event = @events[_id]
         if _event
@@ -161,8 +163,8 @@ class EvpFile < EpFile
 
       # Enemies
       _nodes = []
-      if _enemies.size > NUM_ENEMIES
-        raise(IOError, "enemy quota of #{NUM_ENEMIES} exceeded")
+      if _enemies.size > _num_enemies
+        raise(IOError, "enemy quota of #{_num_enemies} exceeded")
       end
       _enemies.each do |_enemy|
         _id  = _enemy.id
@@ -175,7 +177,7 @@ class EvpFile < EpFile
 
       # Header
       _f.pos = 0
-      (0...NUM_ENEMIES).each do |_i|
+      (0..._num_enemies).each do |_i|
         _node = _nodes[_i]
         if _node
           _f.write_int(_node.id  , :int32)

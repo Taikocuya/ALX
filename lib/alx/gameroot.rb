@@ -278,7 +278,36 @@ class GameRoot
       end
     end
   end
+
+  # Provides marshalling support for use by the Marshal library.
+  # @param _hash [Hash] Hash object
+  def marshal_load(_hash)
+    clear
+    _hash.each do |_key, _value|
+      instance_variable_set(_key, _value)
+    end
+  end
   
+  # Provides marshalling support for use by the Marshal library.
+  # @return [Hash] Hash object
+  def marshal_dump
+    _hash                    = {}
+    _hash[:@dirname        ] = @dirname
+    _hash[:@platform_id    ] = @platform_id
+    _hash[:@platform_name  ] = @platform_name
+    _hash[:@product_id     ] = @product_id
+    _hash[:@product_name   ] = @product_name
+    _hash[:@product_version] = @product_version
+    _hash[:@product_date   ] = @product_date
+    _hash[:@region_id      ] = @region_id
+    _hash[:@region_name    ] = @region_name
+    _hash[:@country_id     ] = @country_id
+    _hash[:@maker_id       ] = @maker_id
+    _hash[:@maker_name     ] = @maker_name
+    _hash[:@description    ] = @description
+    _hash
+  end
+
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------

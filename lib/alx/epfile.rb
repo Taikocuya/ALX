@@ -256,7 +256,7 @@ class EpFile
       raise(IOError, "instruction quota of #{INSTR_SIZE} exceeded")
     end
 
-    _empty = EnemyInstruction.new(@country_id)
+    _empty = create_instruction
     _last  = nil
     (0...INSTR_SIZE).each do |_i|
       _instr = _instructions[_i]
