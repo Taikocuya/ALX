@@ -50,13 +50,12 @@ module LOG
       return @@initialized
     end
 
-    if $0 && Object.const_defined?('ALX::SYS')
-      _prog_name = File.basename($0)
-      _log_file  = File.basename($0, '.*') + '.log'
-      _log_file  = File.join(SYS.log_dir, _log_file)
+    _prog_name = File.basename($0)
+    if $0 && Object.const_defined?('ALX::SYS') && SYS.log
+      _log_file = File.basename($0, '.*') + '.log'
+      _log_file = File.join(SYS.log_dir, _log_file)
     else
-      _prog_name = 'alx.rb'
-      _log_file  = nil
+      _log_file = nil
     end
     
     @@std_out = Logger.new(STDOUT, level: SYS.log_level, progname: _prog_name)

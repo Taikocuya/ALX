@@ -35,8 +35,6 @@ SYS.configure do |_s|
 
   # Path to 'build' directory
   _s.build_dir      = _s.expand('build')
-  # Path to 'log' directory
-  _s.log_dir        = _s.expand('log')
   # Path to 'share' directory
   _s.share_dir      = _s.expand('share')
   # Path to 'thirdparty' directory
@@ -45,15 +43,23 @@ SYS.configure do |_s|
   # Required version of Ruby
   _s.ruby_version = '2.4.0'
 
-  # Number of log files per command
-  _s.log_keep  = 3
-  # Severity level for log messages
-  _s.log_level = 'info'
-
   # Enables or disables the use of snapshots. If you disable the use of 
   # snapshots, snapshots will not be loaded and differences will not be 
   # detected, which enormously increases the total runtime.
   _s.snapshot_cache = true
+  
+#------------------------------------------------------------------------------
+# Logging
+#------------------------------------------------------------------------------
+
+  # Enables or disables logging.
+  _s.log       = true
+  # Path to 'log' directory
+  _s.log_dir   = _s.expand('log')
+  # Number of log files per command
+  _s.log_keep  = 3
+  # Severity level for log messages
+  _s.log_level = 'info'
   
 #------------------------------------------------------------------------------
 # Game paths
