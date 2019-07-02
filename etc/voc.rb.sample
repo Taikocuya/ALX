@@ -522,6 +522,7 @@ VOC.configure do |_v|
   _v.scopes[ 32] = 'Enemy area #1'
   _v.scopes[ 33] = 'Enemy area #2'
   _v.scopes[ 34] = 'Enemy area #3'
+  _v.scopes[ 35] = 'Enemy area #4'
   _v.scopes[ 36] = 'Enemy line #1'
   _v.scopes[ 37] = 'Enemy line #2'
   _v.scopes[ 38] = 'Enemy line #3'
