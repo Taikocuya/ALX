@@ -50,38 +50,38 @@ class StdEntry < Entry
       members << IntVar.new(VOC.message_id[country_id],  0, :uint32)
       members << IntExt.new(VOC.name_pos['DE']        ,  0         )
       members << IntExt.new(VOC.name_size['DE']       ,  0         )
-      members << StrExt.new(VOC.name_str['DE']        , ''         )
+      members << StrExt.new(VOC.name_str['DE']        , '', '\n'   )
       members << IntExt.new(VOC.name_pos['ES']        ,  0         )
       members << IntExt.new(VOC.name_size['ES']       ,  0         )
-      members << StrExt.new(VOC.name_str['ES']        , ''         )
+      members << StrExt.new(VOC.name_str['ES']        , '', '\n'   )
       members << IntExt.new(VOC.name_pos['FR']        ,  0         )
       members << IntExt.new(VOC.name_size['FR']       ,  0         )
-      members << StrExt.new(VOC.name_str['FR']        , ''         )
+      members << StrExt.new(VOC.name_str['FR']        , '', '\n'   )
       members << IntExt.new(VOC.name_pos['GB']        ,  0         )
       members << IntExt.new(VOC.name_size['GB']       ,  0         )
-      members << StrExt.new(VOC.name_str['GB']        , ''         )
+      members << StrExt.new(VOC.name_str['GB']        , '', '\n'   )
     end
   end
 
   # Add description data members.
   def add_dscr_members
     if jp? || us?
-      members << IntExt.new(VOC.dscr_pos[country_id] ,  0)
-      members << IntExt.new(VOC.dscr_size[country_id],  0)
-      members << StrExt.new(VOC.dscr_str[country_id] , '')
+      members << IntExt.new(VOC.dscr_pos[country_id] ,  0      )
+      members << IntExt.new(VOC.dscr_size[country_id],  0      )
+      members << StrExt.new(VOC.dscr_str[country_id] , ''      )
     elsif eu?
-      members << IntExt.new(VOC.dscr_pos['DE']       ,  0)
-      members << IntExt.new(VOC.dscr_size['DE']      ,  0)
-      members << StrExt.new(VOC.dscr_str['DE']       , '')
-      members << IntExt.new(VOC.dscr_pos['ES']       ,  0)
-      members << IntExt.new(VOC.dscr_size['ES']      ,  0)
-      members << StrExt.new(VOC.dscr_str['ES']       , '')
-      members << IntExt.new(VOC.dscr_pos['FR']       ,  0)
-      members << IntExt.new(VOC.dscr_size['FR']      ,  0)
-      members << StrExt.new(VOC.dscr_str['FR']       , '')
-      members << IntExt.new(VOC.dscr_pos['GB']       ,  0)
-      members << IntExt.new(VOC.dscr_size['GB']      ,  0)
-      members << StrExt.new(VOC.dscr_str['GB']       , '')
+      members << IntExt.new(VOC.dscr_pos['DE']       ,  0      )
+      members << IntExt.new(VOC.dscr_size['DE']      ,  0      )
+      members << StrExt.new(VOC.dscr_str['DE']       , '', '\n')
+      members << IntExt.new(VOC.dscr_pos['ES']       ,  0      )
+      members << IntExt.new(VOC.dscr_size['ES']      ,  0      )
+      members << StrExt.new(VOC.dscr_str['ES']       , '', '\n')
+      members << IntExt.new(VOC.dscr_pos['FR']       ,  0      )
+      members << IntExt.new(VOC.dscr_size['FR']      ,  0      )
+      members << StrExt.new(VOC.dscr_str['FR']       , '', '\n')
+      members << IntExt.new(VOC.dscr_pos['GB']       ,  0      )
+      members << IntExt.new(VOC.dscr_size['GB']      ,  0      )
+      members << StrExt.new(VOC.dscr_str['GB']       , '', '\n')
     end
   end
 
