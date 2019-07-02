@@ -53,18 +53,18 @@ complete game data can already be found in the subdirectories.
 
 | Path                    | Platform  | Region  | Notes                     |
 |:-----------------------:|:---------:|:-------:|:-------------------------:|
-| `share/dc-eu-dreamon`   | Dreamcast | PAL-E   | Dreamon 20                |
-| `share/dc-eu-retail-1`  | Dreamcast | PAL-E   | Retail Disc 1             |
-| `share/dc-eu-retail-2`  | Dreamcast | PAL-E   | Retail Disc 2             |
-| `share/dc-jp-barai-1`   | Dreamcast | NTSC-J  | @barai Disc 1             |
-| `share/dc-jp-barai-2`   | Dreamcast | NTSC-J  | @barai Disc 2             |
+| `share/dc-eu-dreamon`   | Dreamcast | PAL-E   | Dreamon Vol. 20           |
+| `share/dc-eu-retail-1`  | Dreamcast | PAL-E   | Retail Disc No. 1         |
+| `share/dc-eu-retail-2`  | Dreamcast | PAL-E   | Retail Disc No. 2         |
+| `share/dc-jp-barai-1`   | Dreamcast | NTSC-J  | @barai Disc No. 1         |
+| `share/dc-jp-barai-2`   | Dreamcast | NTSC-J  | @barai Disc No. 2         |
 | `share/dc-jp-express`   | Dreamcast | NTSC-J  | Dreamcast Express Vol. 6  |
 | `share/dc-jp-kuzokuban` | Dreamcast | NTSC-J  | Kuzokuban (Trial Edition) |
-| `share/dc-jp-retail-1`  | Dreamcast | NTSC-J  | Retail Disc 1             |
-| `share/dc-jp-retail-2`  | Dreamcast | NTSC-J  | Retail Disc 2             |
+| `share/dc-jp-retail-1`  | Dreamcast | NTSC-J  | Retail Disc No. 1         |
+| `share/dc-jp-retail-2`  | Dreamcast | NTSC-J  | Retail Disc No. 2         |
 | `share/dc-us-magazine`  | Dreamcast | NTSC-U  | Official Magazine Vol. 9  |
-| `share/dc-us-retail-1`  | Dreamcast | NTSC-U  | Retail Disc 1             |
-| `share/dc-us-retail-2`  | Dreamcast | NTSC-U  | Retail Disc 2             |
+| `share/dc-us-retail-1`  | Dreamcast | NTSC-U  | Retail Disc No. 1         |
+| `share/dc-us-retail-2`  | Dreamcast | NTSC-U  | Retail Disc No. 2         |
 | `share/gc-eu-retail`    | Gamecube  | PAL-E   | Retail Disc               |
 | `share/gc-jp-retail`    | Gamecube  | NTSC-J  | Retail Disc               |
 | `share/gc-us-retail`    | Gamecube  | NTSC-U  | Retail Disc               |
