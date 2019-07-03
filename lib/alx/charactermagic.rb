@@ -45,24 +45,26 @@ class CharacterMagic < CharacterSuperMove
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    
-    if jp? || us?
-      members << IntExt.new(VOC.ship_dscr_pos[country_id] ,  0      )
-      members << IntExt.new(VOC.ship_dscr_size[country_id],  0      )
-      members << StrExt.new(VOC.ship_dscr_str[country_id] , ''      )
-    elsif eu?
-      members << IntExt.new(VOC.ship_dscr_pos['DE']       ,  0      )
-      members << IntExt.new(VOC.ship_dscr_size['DE']      ,  0      )
-      members << StrExt.new(VOC.ship_dscr_str['DE']       , '', '\n')
-      members << IntExt.new(VOC.ship_dscr_pos['ES']       ,  0      )
-      members << IntExt.new(VOC.ship_dscr_size['ES']      ,  0      )
-      members << StrExt.new(VOC.ship_dscr_str['ES']       , '', '\n')
-      members << IntExt.new(VOC.ship_dscr_pos['FR']       ,  0      )
-      members << IntExt.new(VOC.ship_dscr_size['FR']      ,  0      )
-      members << StrExt.new(VOC.ship_dscr_str['FR']       , '', '\n')
-      members << IntExt.new(VOC.ship_dscr_pos['GB']       ,  0      )
-      members << IntExt.new(VOC.ship_dscr_size['GB']      ,  0      )
-      members << StrExt.new(VOC.ship_dscr_str['GB']       , '', '\n')
+
+    if product_id != '6107110 06' && product_id != '6107810'
+      if jp? || us?
+        members << IntExt.new(VOC.ship_dscr_pos[country_id] ,  0      )
+        members << IntExt.new(VOC.ship_dscr_size[country_id],  0      )
+        members << StrExt.new(VOC.ship_dscr_str[country_id] , ''      )
+      elsif eu?
+        members << IntExt.new(VOC.ship_dscr_pos['DE']       ,  0      )
+        members << IntExt.new(VOC.ship_dscr_size['DE']      ,  0      )
+        members << StrExt.new(VOC.ship_dscr_str['DE']       , '', '\n')
+        members << IntExt.new(VOC.ship_dscr_pos['ES']       ,  0      )
+        members << IntExt.new(VOC.ship_dscr_size['ES']      ,  0      )
+        members << StrExt.new(VOC.ship_dscr_str['ES']       , '', '\n')
+        members << IntExt.new(VOC.ship_dscr_pos['FR']       ,  0      )
+        members << IntExt.new(VOC.ship_dscr_size['FR']      ,  0      )
+        members << StrExt.new(VOC.ship_dscr_str['FR']       , '', '\n')
+        members << IntExt.new(VOC.ship_dscr_pos['GB']       ,  0      )
+        members << IntExt.new(VOC.ship_dscr_size['GB']      ,  0      )
+        members << StrExt.new(VOC.ship_dscr_str['GB']       , '', '\n')
+      end
     end
   end
 

@@ -199,8 +199,8 @@ class EntryData
   attr_reader :meta
   attr_reader :snapshots
 
-  def platform_id
-    @root.platform_id
+  def product_id
+    @root.product_id
   end
   
   def country_id

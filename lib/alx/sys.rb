@@ -83,8 +83,8 @@ SYS.configure do |_s|
   
   # Path to executable file relative to game root.
   _s.exec_file = {
-    'DC' => _s.join(_s.root_dir, '{ARES,1ST_READ}.BIN'   ),
-    'GC' => _s.join(_s.root_dir, '&&systemdata/Start.dol'),
+    'DC' => _s.join(_s.root_dir, '{ARES,ETERNAL,1ST_READ}.BIN'),
+    'GC' => _s.join(_s.root_dir, '&&systemdata/Start.dol'     ),
   }
   
   # Path to level data file relative to game root.
@@ -338,6 +338,7 @@ SYS.configure do |_s|
   _s.accessory_data_files = {
     'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35d14c...0x35da0c),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x35f1ec...0x35faac),
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35c2c4...0x35d0e8),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3407a0...0x341420),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x344da8...0x345a28),
     'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x338c40...0x339a64),
@@ -383,6 +384,14 @@ SYS.configure do |_s|
       _s.dr(_s.sot_file_fr['DC'], 0x1227f...0x138a5),
       _s.dr(_s.sot_file_gb['DC'], 0x1200c...0x134c5),
     ],
+    'DC-JP-6107810'    => _s.dr(
+      _s.exec_file['DC'], 0x2af400...0x2af74c,
+      exclusions: [
+        0xa1, (0xa3..0xa7).to_a, (0xa9..0xaf).to_a, (0xb1..0xb5).to_a, 
+        (0xb8..0xbf).to_a, (0xc1..0xc8).to_a, 0xcb, 0xce, 0xd0, 0xd2, 
+        0xd3
+      ].flatten!
+    ),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3370f0...0x3387d4),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x33b6f8...0x33cddc),
     'DC-US-IGN9'       => _s.dr(
@@ -415,6 +424,7 @@ SYS.configure do |_s|
   _s.armor_data_files = {
     'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35c88c...0x35d14c),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x35e92c...0x35f1ec),
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35b644...0x35c2c4),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33fb20...0x3407a0),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x344128...0x344da8),
     'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x337fc0...0x338c40),
@@ -460,6 +470,10 @@ SYS.configure do |_s|
       _s.dr(_s.sot_file_fr['DC'], 0x11008...0x1227f),
       _s.dr(_s.sot_file_gb['DC'], 0x10db1...0x1200c),
     ],
+    'DC-JP-6107810'    => _s.dr(
+      _s.exec_file['DC'], 0x2af194...0x2af400,
+      exclusions: [0x59, (0x5b..0x70).to_a].flatten!
+    ),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x335b4c...0x3370f0),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x33a154...0x33b6f8),
     'DC-US-IGN9'       => _s.dr(
@@ -488,6 +502,7 @@ SYS.configure do |_s|
   _s.character_magic_data_files = {
     'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35b994...0x35bea4),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x35da34...0x35df44),
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35a0a4...0x35a764),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33e580...0x33ec40),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x342b88...0x343248),
     'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x336a20...0x3370e0),
@@ -533,6 +548,7 @@ SYS.configure do |_s|
       _s.dr(_s.sot_file_fr['DC'], 0xe016...0xed74),
       _s.dr(_s.sot_file_gb['DC'], 0xdd50...0xeab1),
     ],
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x2adf00...0x2ae8c0),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x332934...0x3336a8),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x336f3c...0x337cb0),
     'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x3320b4...0x332ab8),
@@ -604,6 +620,7 @@ SYS.configure do |_s|
   _s.character_data_files = {
     'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x333a38...0x337ed4),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x335aa4...0x335e68),
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x359d14...0x35a0a4),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33e1F0...0x33e580),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x3427f8...0x342b88),
     'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x336690...0x336a20),
@@ -624,6 +641,7 @@ SYS.configure do |_s|
   _s.character_super_move_data_files = {
     'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35bea4...0x35c24c),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x35df44...0x35e2ec),
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35a764...0x35ac44),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33ec40...0x33f120),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x343248...0x343728),
     'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x3370e0...0x3375c0),
@@ -669,9 +687,14 @@ SYS.configure do |_s|
       _s.dr(_s.sot_file_fr['DC'], 0xed74...0xf726),
       _s.dr(_s.sot_file_gb['DC'], 0xeab1...0xf45e),
     ],
+    'DC-JP-6107810'    => _s.dr(
+      _s.exec_file['DC'], 0x2ae8c0...0x2aeeac, exclusions: [0x31]
+    ),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3336a8...0x334094),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x337cb0...0x33869c),
-    'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x332ab8...0x333110),
+    'DC-US-IGN9'       => _s.dr(
+      _s.exec_file['DC'], 0x332ab8...0x333110, exclusions: [0x31]
+    ),
     'DC-US-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x332120...0x332ad8),
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x11d53...0x126e4),
@@ -757,19 +780,38 @@ SYS.configure do |_s|
   }
 
 #------------------------------------------------------------------------------
+# Enemy encounter data
+#------------------------------------------------------------------------------
+
+  # Maximum number of enemies in enemy encounter data
+  _s.enemy_encounter_num_enemies = {
+    'DC'               => 84,
+    'DC-JP-6107110 06' => 50,
+    'DC-JP-6107810'    => 50,
+    'GC'               => 84,
+  }
+  
+  # Maximum number of encounters in enemy encounter data
+  _s.enemy_encounter_num_encounters = 32
+
+#------------------------------------------------------------------------------
 # Enemy event data
 #------------------------------------------------------------------------------
 
   # Maximum number of enemies in enemy event data
   _s.enemy_event_num_enemies = {
-    'DC' =>  84,
-    'GC' => 200,
+    'DC'               =>  84,
+    'DC-JP-6107110 06' =>  50,
+    'DC-JP-6107810'    =>  50,
+    'GC'               => 200,
   }
   
   # Maximum number of events in enemy event data
   _s.enemy_event_num_events = {
-    'DC' =>  72,
-    'GC' => 250,
+    'DC'               =>  80,
+    'DC-JP-6107110 06' =>  11,
+    'DC-JP-6107810'    =>  11,
+    'GC'               => 250,
   }
 
   # Range of enemy event BGM IDs
@@ -780,6 +822,8 @@ SYS.configure do |_s|
     'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x362b6c...0x362ba7),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x364c0c...0x364c47),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3f673c...0x3f6777),
+    'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x3c5a0b...0x3c5a14),
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x3c5187...0x3c5190),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x3faeec...0x3faf27),
     'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x3ef074...0x3ef0af),
     'DC-US-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x3f4eb8...0x3f4ef3),
@@ -859,6 +903,7 @@ SYS.configure do |_s|
   _s.enemy_ship_data_files = {
     'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35e7f0...0x35fa38),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x360890...0x361ad8),
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35eb5c...0x35fc3c),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3430dc...0x3445f4),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x3476e4...0x348bfc),
     'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x33b57c...0x33ca94),
@@ -1012,6 +1057,7 @@ SYS.configure do |_s|
   _s.exp_curve_data_files = {
     'DC-EU-MK-51052'   => _s.dr(_s.level_file['DC'], 0x0...0x948),
     'DC-EU-8320062 50' => _s.dr(_s.level_file['DC'], 0x0...0x948),
+    'DC-JP-6107810'    => _s.dr(_s.level_file['DC'], 0x0...0x948),
     'DC-JP-HDR-0076'   => _s.dr(_s.level_file['DC'], 0x0...0x948),
     'DC-JP-HDR-0119'   => _s.dr(_s.level_file['DC'], 0x0...0x948),
     'DC-US-IGN9'       => _s.dr(_s.level_file['DC'], 0x0...0x948),
@@ -1032,6 +1078,7 @@ SYS.configure do |_s|
   _s.magic_exp_curve_data_files = {
     'DC-EU-MK-51052'   => _s.dr(_s.level_file['DC'], 0x948...0xaf8),
     'DC-EU-8320062 50' => _s.dr(_s.level_file['DC'], 0x948...0xaf8),
+    'DC-JP-6107810'    => _s.dr(_s.level_file['DC'], 0x948...0xaf8),
     'DC-JP-HDR-0076'   => _s.dr(_s.level_file['DC'], 0x948...0xaf8),
     'DC-JP-HDR-0119'   => _s.dr(_s.level_file['DC'], 0x948...0xaf8),
     'DC-US-IGN9'       => _s.dr(_s.level_file['DC'], 0x948...0xaf8),
@@ -1046,12 +1093,19 @@ SYS.configure do |_s|
 #------------------------------------------------------------------------------
 
   # Range of playable ship IDs
-  _s.playable_ship_id_range = 0x0...0x5
+  _s.playable_ship_id_range = {
+    'DC'               => 0x0...0x5,
+    'DC-JP-6107110 06' => 0x0...0x6,
+    'DC-JP-6107810'    => 0x0...0x6,
+    'GC'               => 0x0...0x5,
+  }
+
   
   # Offset ranges of playable ship data
   _s.playable_ship_data_files = {
     'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35e64c...0x35e7f0),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x3606ec...0x360890),
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35ea0c...0x35eb5c),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x342ee8...0x3430dc),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x3474f0...0x3476e4),
     'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x33b388...0x33b57c),
@@ -1368,6 +1422,7 @@ SYS.configure do |_s|
   _s.special_item_data_files = {
     'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35e18c...0x35e54c),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x36022c...0x3605ec),
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35dc28...0x35e308),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x342104...0x3427e4),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x34670c...0x346dec),
     'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x33a5a4...0x33ac84),
@@ -1413,6 +1468,10 @@ SYS.configure do |_s|
       _s.dr(_s.sot_file_fr['DC'], 0x151ca...0x15fd4),
       _s.dr(_s.sot_file_gb['DC'], 0x14d83...0x15bdd),
     ],
+    'DC-JP-6107810'    => _s.dr(
+      _s.exec_file['DC'], 0x2afff8...0x2b0314,
+      exclusions: [0x14a, 0x14b, 0x151, 0x154]
+    ),
     'DC-JP-HDR-0076'   => _s.dr(
       _s.exec_file['DC'], 0x33a3c4...0x33aec8,
       exclusions: [0x152, 0x15b, 0x161, 0x162]
@@ -1456,6 +1515,7 @@ SYS.configure do |_s|
   _s.spirit_curve_data_files = {
     'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x333f6c...0x334410),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x335fd8...0x33647c),
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35e528...0x35e9cc),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x342a04...0x342ea8),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x34700c...0x3474b0),
     'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x33aea4...0x33b348),
@@ -1476,6 +1536,7 @@ SYS.configure do |_s|
   _s.usable_item_data_files = {
     'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35da0c...0x35e18c),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x35faac...0x36022c),
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35d0e8...0x35dc28),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3415c4...0x342104),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x345bcc...0x34670c),
     'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x339a64...0x33a5a4),
@@ -1521,6 +1582,10 @@ SYS.configure do |_s|
       _s.dr(_s.sot_file_fr['DC'], 0x138a5...0x151ca),
       _s.dr(_s.sot_file_gb['DC'], 0x134c5...0x14d83),
     ],
+    'DC-JP-6107810'    => _s.dr(
+      _s.exec_file['DC'], 0x2af74c...0x2afff8,
+      exclusions: [0x100, 0x101, (0x10c..0x11a).to_a].flatten!
+    ),
     'DC-JP-HDR-0076'   => _s.dr(
       _s.exec_file['DC'], 0x3387d4...0x33a3c4,
       exclusions: (0x12e..0x130).to_a
@@ -1564,6 +1629,7 @@ SYS.configure do |_s|
   _s.weapon_data_files = {
     'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35c24c...0x35c88c),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x35e2ec...0x35e92c),
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35ac44...0x35b644),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33f120...0x33fb20),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x343728...0x344128),
     'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x3375c0...0x337fc0),
@@ -1609,6 +1675,14 @@ SYS.configure do |_s|
       _s.dr(_s.sot_file_fr['DC'], 0xf726...0x11008),
       _s.dr(_s.sot_file_gb['DC'], 0xf45e...0x10db1),
     ],
+    'DC-JP-6107810'    => _s.dr(
+      _s.exec_file['DC'], 0x2aeeac...0x2af194,
+      exclusions: [
+        0x3, 0x4, (0x6..0xf).to_a, 0x12, 0x13, (0x15..0x1f).to_a, 
+        (0x22..0x2f).to_a, (0x31..0x39).to_a, (0x3b..0x3f).to_a, 
+        (0x41..0x46).to_a
+      ].flatten!
+    ),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x334094...0x335b4c),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x33869c...0x33a154),
     'DC-US-IGN9'       => _s.dr(
@@ -1616,7 +1690,7 @@ SYS.configure do |_s|
       exclusions: [
         0x3, 0x4, (0x6..0xf).to_a, 0x12, 0x13, (0x15..0x1f).to_a, 
         (0x22..0x2f).to_a, (0x31..0x39).to_a, (0x3b..0x3f).to_a, 
-        (0x41..0x46).to_a, (0x48..0x4f).to_a
+        (0x41..0x46).to_a
       ].flatten!
     ),
     'DC-US-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x332ad8...0x3343f8),

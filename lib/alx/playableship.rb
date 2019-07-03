@@ -50,47 +50,60 @@ class PlayableShip < StdEntry
     add_name_members(20)
 
     members << IntVar.new(VOC.maxhp                    ,  0, :uint32)
-    members << IntVar.new(VOC.maxspirit[-1]            ,  0, :int16 )
-    members << IntVar.new(VOC.spirit[-1]               ,  0, :int16 )
+    
+    if product_id != '6107110 06' && product_id != '6107810'
+      members << IntVar.new(VOC.maxspirit[-1]          ,  0, :int16 )
+      members << IntVar.new(VOC.spirit[-1]             ,  0, :int16 )
+    end
+    
     members << IntVar.new(VOC.defense                  ,  0, :int16 )
     members << IntVar.new(VOC.magdef                   ,  0, :int16 )
     members << IntVar.new(VOC.quick                    ,  0, :int16 )
-    members << IntVar.new(VOC.dodge                    ,  0, :int16 )
+    
+    if product_id != '6107110 06' && product_id != '6107810'
+      members << IntVar.new(VOC.dodge                  ,  0, :int16 )
+    end
     
     (0...6).each do |_i|
       members << IntVar.new(VOC.elements[_i]           ,  0, :int16 )
     end
-    (0...5).each do |_i|
+
+    _size = product_id == '6107110 06' || product_id == '6107810' ? 4 : 5
+    (0..._size).each do |_i|
       members << IntVar.new(VOC.ship_cannon_id[_i]     , -1, :int16 )
       members << StrDmy.new(VOC.ship_cannon_name[_i]   , ''         )
     end
+    
     (0...3).each do |_i|
       members << IntVar.new(VOC.ship_accessory_id[_i]  , -1, :int16 )
       members << StrDmy.new(VOC.ship_accessory_name[_i], ''         )
     end
 
-    members << IntVar.new(VOC.value                    ,  0, :uint32)
-    members << IntVar.new(padding_hdr                  ,  0, :int16 )
-    members << IntVar.new(padding_hdr                  ,  0, :int16 )
-    members << IntVar.new(VOC.base_hp_increase         ,  0, :int32 )
-    members << IntVar.new(padding_hdr                  ,  0, :int16 )
-    members << IntVar.new(padding_hdr                  ,  0, :int16 )
-    members << IntVar.new(unknown_hdr                  ,  0, :int16 )
-    members << IntVar.new(unknown_hdr                  ,  0, :int16 )
-    members << IntVar.new(unknown_hdr                  ,  0, :int16 )
-    members << IntVar.new(padding_hdr                  ,  0, :int16 )
-    members << IntVar.new(padding_hdr                  ,  0, :int16 )
-    members << IntVar.new(padding_hdr                  ,  0, :int16 )
-    members << IntVar.new(padding_hdr                  ,  0, :int16 )
-    members << IntVar.new(padding_hdr                  ,  0, :int16 )
-    members << IntVar.new(padding_hdr                  ,  0, :int16 )
-    members << IntVar.new(padding_hdr                  ,  0, :int16 )
+    if product_id != '6107110 06' && product_id != '6107810'
+      members << IntVar.new(VOC.value                  ,  0, :uint32)
+      members << IntVar.new(padding_hdr                ,  0, :int16 )
+      members << IntVar.new(padding_hdr                ,  0, :int16 )
+      members << IntVar.new(VOC.base_hp_increase       ,  0, :int32 )
+      members << IntVar.new(padding_hdr                ,  0, :int16 )
+      members << IntVar.new(padding_hdr                ,  0, :int16 )
+      members << IntVar.new(unknown_hdr                ,  0, :int16 )
+      members << IntVar.new(unknown_hdr                ,  0, :int16 )
+      members << IntVar.new(unknown_hdr                ,  0, :int16 )
+      members << IntVar.new(padding_hdr                ,  0, :int16 )
+      members << IntVar.new(padding_hdr                ,  0, :int16 )
+      members << IntVar.new(padding_hdr                ,  0, :int16 )
+      members << IntVar.new(padding_hdr                ,  0, :int16 )
+      members << IntVar.new(padding_hdr                ,  0, :int16 )
+      members << IntVar.new(padding_hdr                ,  0, :int16 )
+      members << IntVar.new(padding_hdr                ,  0, :int16 )
+    end
   end
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    (0...5).each do |_i|
+    _size = product_id == '6107110 06' || product_id == '6107810' ? 4 : 5
+    (0..._size).each do |_i|
       _id = find_member(VOC.ship_cannon_id[_i]).value
       if _id != -1
         _entry = @ship_cannons[_id]

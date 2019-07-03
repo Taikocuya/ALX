@@ -70,12 +70,15 @@ class EvpFile < EpFile
   # Reads an EVP file.
   # @param _filename [String] File name
   def load(_filename)
+    _num_enemies = sys(:enemy_event_num_enemies)
+    _num_events  = sys(:enemy_event_num_events)
+    
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     CompressedFile.open(root, _filename, 'rb') do |_f|
       # Header
       _nodes = []
-      (0...sys(:enemy_event_num_enemies)).each do
+      (0..._num_enemies).each do
         _id  = _f.read_int(:int32)
         _pos = _f.read_int(:int32)
 
@@ -86,7 +89,7 @@ class EvpFile < EpFile
       
       # Events
       _dummy = create_event
-      (0...sys(:enemy_event_num_events)).each do |_id|
+      (0..._num_events).each do |_id|
         LOG.info(sprintf(VOC.read, _id, _f.pos))
         _event = create_event(_id)
         _event.read_from_bin(_f)
@@ -113,6 +116,9 @@ class EvpFile < EpFile
   # Writes an EVP file.
   # @param _filename [String] File name
   def save(_filename)
+    _num_enemies = sys(:enemy_event_num_enemies)
+    _num_events  = sys(:enemy_event_num_events)
+    
     _enemies = []
     _expired = false
     @events.each_with_index do |_event, _id|
@@ -142,8 +148,6 @@ class EvpFile < EpFile
 
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
-    _num_enemies = sys(:enemy_event_num_enemies)
-    _num_events  = sys(:enemy_event_num_events)
     CompressedFile.open(root, _filename, 'wb') do |_f|
       # Events
       _dummy   = create_event

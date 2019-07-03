@@ -47,15 +47,18 @@ class EnemyShip < StdEntry
     super
     @items = {}
     add_name_members(20)
-    
+
     members << IntVar.new(VOC.maxhp                   , -1, :int32)
     members << IntVar.new(VOC.will                    , -1, :int16)
     members << IntVar.new(VOC.defense                 , -1, :int16)
     members << IntVar.new(VOC.magdef                  , -1, :int16)
-    members << IntVar.new(VOC.quick                   , -1, :int16)
-    members << IntVar.new(VOC.agile                   , -1, :int16)
-    members << IntVar.new(VOC.dodge                   , -1, :int16)
-    
+
+    if product_id != '6107110 06' && product_id != '6107810'
+      members << IntVar.new(VOC.quick                 , -1, :int16)
+      members << IntVar.new(VOC.agile                 , -1, :int16)
+      members << IntVar.new(VOC.dodge                 , -1, :int16)
+    end
+
     (0...6).each do |_i|
       members << IntVar.new(VOC.elements[_i]          , -1, :int16)
     end
@@ -82,21 +85,33 @@ class EnemyShip < StdEntry
       members << IntVar.new(VOC.arm_element_id[_i]    , -1, :int16)
       members << StrDmy.new(VOC.arm_element_name[_i]  , ''        )
     end
-
-    members << IntVar.new(padding_hdr                 ,  0, :int16)
-    members << IntVar.new(padding_hdr                 ,  0, :int16)
-    members << IntVar.new(padding_hdr                 ,  0, :int16)
-    members << IntVar.new(padding_hdr                 ,  0, :int16)
-    members << IntVar.new(padding_hdr                 ,  0, :int16)
-    members << IntVar.new(padding_hdr                 ,  0, :int16)
+    
+    if product_id != '6107110 06' && product_id != '6107810'
+      members << IntVar.new(padding_hdr               ,  0, :int16)
+      members << IntVar.new(padding_hdr               ,  0, :int16)
+      members << IntVar.new(padding_hdr               ,  0, :int16)
+      members << IntVar.new(padding_hdr               ,  0, :int16)
+      members << IntVar.new(padding_hdr               ,  0, :int16)
+      members << IntVar.new(padding_hdr               ,  0, :int16)
+    else
+      members << IntVar.new(VOC.padding[-1]           ,  0, :int16)
+    end
+    
     members << IntVar.new(VOC.exp[-1]                 , -1, :int32)
     members << IntVar.new(VOC.gold                    , -1, :int32)
 
-    (0...3).each do |_i|
-      members << IntVar.new(VOC.item_drop_id[_i]      , -1, :int16)
-      members << StrDmy.new(VOC.item_drop_name[_i]    , ''        )
-      members << IntVar.new(VOC.item_id[_i]           , -1, :int16)
-      members << StrDmy.new(VOC.item_name[_i]         , ''        )
+    if product_id != '6107110 06' && product_id != '6107810'
+      (0...3).each do |_i|
+        members << IntVar.new(VOC.item_drop_id[_i]    , -1, :int16)
+        members << StrDmy.new(VOC.item_drop_name[_i]  , ''        )
+        members << IntVar.new(VOC.item_id[_i]         , -1, :int16)
+        members << StrDmy.new(VOC.item_name[_i]       , ''        )
+      end
+    else
+      members << IntVar.new(VOC.item_drop_id[-1]      , -1, :int16)
+      members << StrDmy.new(VOC.item_drop_name[-1]    , ''        )
+      members << IntVar.new(VOC.item_id[-1]           , -1, :int16)
+      members << StrDmy.new(VOC.item_name[-1]         , ''        )
     end
   end
 
@@ -111,28 +126,45 @@ class EnemyShip < StdEntry
       find_member(VOC.arm_element_name[_i]).value = VOC.elements[_id]
     end
 
-    (0...3).each do |_i|
-      _id = find_member(VOC.item_id[_i]).value
+    if product_id != '6107110 06' && product_id != '6107810'
+      (0...3).each do |_i|
+        _id = find_member(VOC.item_id[_i]).value
+        if _id != -1
+          _entry = @items[_id]
+          _name  = '???'
+          if _entry
+            if jp? || us?
+              _name = _entry.find_member(VOC.name_str[country_id]).value
+            elsif eu?
+              _name = _entry.find_member(VOC.name_str['GB']   ).value
+            end
+          end
+        else
+          _name = 'None'
+        end
+        find_member(VOC.item_name[_i]).value = _name
+      end
+  
+      (0...3).each do |_i|
+        _id = find_member(VOC.item_drop_id[_i]).value
+        find_member(VOC.item_drop_name[_i]).value = VOC.drops[_id]
+      end
+    else
+      _id = find_member(VOC.item_id[-1]).value
       if _id != -1
         _entry = @items[_id]
         _name  = '???'
         if _entry
-          if jp? || us?
-            _name = _entry.find_member(VOC.name_str[country_id]).value
-          elsif eu?
-            _name = _entry.find_member(VOC.name_str['GB']   ).value
-          end
+          _name = _entry.find_member(VOC.name_str[country_id]).value
         end
       else
         _name = 'None'
       end
-      find_member(VOC.item_name[_i]).value = _name
-    end
-
-    (0...3).each do |_i|
-      _id = find_member(VOC.item_drop_id[_i]).value
-      find_member(VOC.item_drop_name[_i]).value = VOC.drops[_id]
-    end
+      find_member(VOC.item_name[-1]).value = _name
+      
+      _id = find_member(VOC.item_drop_id[-1]).value
+      find_member(VOC.item_drop_name[-1]).value = VOC.drops[_id]
+    end    
     
     super
   end

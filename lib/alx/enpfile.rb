@@ -44,10 +44,6 @@ class EnpFile < EpFile
   FILE_SIG       = "\x00\x00\xff\xff".force_encoding('ASCII-8BIT')
   # Size of segment name
   SEG_NAME_SIZE  = 20
-  # Maximum number of enemies
-  NUM_ENEMIES    = 84
-  # Maximum number of encounters
-  NUM_ENCOUNTERS = 32
   # Regular expression for multi ENP files
   MULTI_REGEXP   = /^([^_]+_)(\d*)([^_]+)$/
 
@@ -95,6 +91,9 @@ class EnpFile < EpFile
   # Reads an ENP file.
   # @param _filename [String] File name
   def load(_filename)
+    _num_enemies    = sys(:enemy_encounter_num_enemies)
+    _num_encounters = sys(:enemy_encounter_num_encounters)
+    
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     CompressedFile.open(root, _filename, 'rb') do |_f|
@@ -137,7 +136,7 @@ class EnpFile < EpFile
         # Header
         _nodes = []
         _f.pos = _beg
-        (0...NUM_ENEMIES).each do |_|
+        (0..._num_enemies).each do |_|
           _id  = _f.read_int(:int32)
           _pos = _f.read_int(:int32) + _beg
   
@@ -148,8 +147,8 @@ class EnpFile < EpFile
         
         # Encounters
         _size = (_nodes.first.pos - _f.pos) / create_encounter.size
-        if _size > NUM_ENCOUNTERS
-          raise(IOError, "encounter quota of #{NUM_ENCOUNTERS} exceeded")
+        if _size > _num_encounters
+          raise(IOError, "encounter quota of #{_num_encounters} exceeded")
         end
         (0..._size).each do |_id|
           LOG.info(sprintf(VOC.read, _id, _f.pos))
@@ -180,6 +179,9 @@ class EnpFile < EpFile
   # Writes an ENP file.
   # @param _filename [String] File name
   def save(_filename)
+    _num_enemies    = sys(:enemy_encounter_num_enemies)
+    _num_encounters = sys(:enemy_encounter_num_encounters)
+    
     _basename   = File.basename(_filename)
     _segments   = {}
     _enemies    = {}
@@ -250,10 +252,10 @@ class EnpFile < EpFile
       _segments.each do |_segname, _seg|
         # Encounters
         _beg      = _f.pos
-        _f.pos   += NUM_ENEMIES * 0x8
+        _f.pos   += _num_enemies * 0x8
         _entries  = _encounters[_segname]
-        if _entries.size > NUM_ENCOUNTERS
-          raise(IOError, "encounter quota of #{NUM_ENCOUNTERS} exceeded")
+        if _entries.size > _num_encounters
+          raise(IOError, "encounter quota of #{_num_encounters} exceeded")
         end
         (0..._entries.size).each do |_id|
           LOG.info(sprintf(VOC.write, _id, _f.pos))
@@ -264,8 +266,8 @@ class EnpFile < EpFile
         # Enemies
         _entries = _enemies[_segname]
         _nodes   = []
-        if _entries.size > NUM_ENEMIES
-          raise(IOError, "enemy quota of #{NUM_ENEMIES} exceeded")
+        if _entries.size > _num_enemies
+          raise(IOError, "enemy quota of #{_num_enemies} exceeded")
         end
         _entries.each do |_enemy|
           _id  = _enemy.id
@@ -283,7 +285,7 @@ class EnpFile < EpFile
                   
         # Header
         _f.pos = _beg
-        (0...NUM_ENEMIES).each do |_i|
+        (0..._num_enemies).each do |_i|
           _node = _nodes[_i]
           if _node
             _f.write_int(_node.id , :int32)

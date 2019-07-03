@@ -48,7 +48,7 @@ module Executable
 #==============================================================================
 
   # Version of ALX
-  VERSION = '4.0.0-B1'
+  VERSION = '4.0.0-B2'
   # Date of ALX
   DATE    = Date.new(2019, 7, 3)
 

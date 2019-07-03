@@ -124,10 +124,14 @@ class EpFile
   attr_accessor :magics
   attr_accessor :super_moves
 
+  def product_id
+    @root.product_id
+  end
+  
   def country_id
     @root.country_id
   end
-  
+
   # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
   # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.
   def dc?
@@ -233,9 +237,11 @@ class EpFile
         @instructions << _instr
       end
     end
-    
-    if _f.read_int(:int16) != EOF_MARK
-      raise(EOFError, 'EOF mark not found')
+
+    if product_id != '6107110 06' && product_id != '6107810'
+      if _f.read_int(:int16) != EOF_MARK
+        raise(EOFError, 'EOF mark not found')
+      end
     end
   end
 
@@ -272,7 +278,9 @@ class EpFile
       _last = _instr
     end
 
-    _f.write_int(EOF_MARK, :int16)
+    if product_id != '6107110 06' && product_id != '6107810'
+      _f.write_int(EOF_MARK, :int16)
+    end
   end
   
 end # class EpFile

@@ -240,6 +240,10 @@ class Entry
     end
   end
 
+  def product_id
+    @root.product_id
+  end
+  
   def country_id
     @root.country_id
   end
