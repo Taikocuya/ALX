@@ -66,7 +66,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 4,*,1,航行士,0,Strategy,30,???,8,???
 5,*,1,航行士,0,Strategy,25,???,7,???
 6,*,1,航行士,1,Action,550,Attack,2,Random character
-7,*,1,航行士,1,Action,79,"",7,Injured enemy
+7,*,1,航行士,1,Action,79,薬草,7,Injured enemy
 8,*,1,航行士,1,Action,551,Guard,-1,None
 34,*,1,航行士,-30577,???,22924,???,28046,???
 35,*,1,航行士,-256,???,-1,None,-1,None
@@ -99,7 +99,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 4,ECINIT001.DAT,1,航行士,0,Strategy,30,???,8,???
 5,ECINIT001.DAT,1,航行士,0,Strategy,25,???,7,???
 6,ECINIT001.DAT,1,航行士,1,Action,550,Attack,2,Random character
-7,ECINIT001.DAT,1,航行士,1,Action,79,"",7,Injured enemy
+7,ECINIT001.DAT,1,航行士,1,Action,79,薬草,7,Injured enemy
 8,ECINIT001.DAT,1,航行士,1,Action,551,Guard,-1,None
 34,ECINIT001.DAT,1,航行士,0,Strategy,0,???,0,???
 35,ECINIT001.DAT,1,航行士,0,Strategy,0,???,0,???
@@ -140,7 +140,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 6,*,2,ミクラステル,0,Strategy,24,???,10,???
 7,*,2,ミクラステル,0,Strategy,24,???,9,???
 8,*,2,ミクラステル,1,Action,550,Attack,1,Common character
-9,*,2,ミクラステル,1,Action,4,"",0,???
+9,*,2,ミクラステル,1,Action,4,レーザー,0,???
 10,*,2,ミクラステル,1,Action,552,Run,-1,None
 34,*,2,ミクラステル,0,Strategy,0,???,0,???
 35,*,2,ミクラステル,0,Strategy,0,???,0,???
@@ -181,7 +181,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 6,A099_EP.BIN,2,ミクラステル,0,Strategy,24,???,10,???
 7,A099_EP.BIN,2,ミクラステル,0,Strategy,24,???,9,???
 8,A099_EP.BIN,2,ミクラステル,1,Action,550,Attack,1,Common character
-9,A099_EP.BIN,2,ミクラステル,1,Action,4,"",0,???
+9,A099_EP.BIN,2,ミクラステル,1,Action,4,レーザー,0,???
 10,A099_EP.BIN,2,ミクラステル,1,Action,552,Run,-1,None
 34,A099_EP.BIN,2,ミクラステル,29827,???,23425,???,-29821,???
 35,A099_EP.BIN,2,ミクラステル,-256,???,-1,None,-1,None
@@ -286,9 +286,9 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 6,*,4,アーアペプ,0,Strategy,22,???,8,???
 7,*,4,アーアペプ,1,Action,550,Attack,2,Random character
 8,*,4,アーアペプ,1,Action,551,Guard,-1,None
-9,*,4,アーアペプ,1,Action,503,"",14,Character without Confusion
-10,*,4,アーアペプ,1,Action,520,"",2,Random character
-11,*,4,アーアペプ,1,Action,57,"",2,Random character
+9,*,4,アーアペプ,1,Action,503,パニカ,14,Character without Confusion
+10,*,4,アーアペプ,1,Action,520,ウェイバ,2,Random character
+11,*,4,アーアペプ,1,Action,57,怪音波,2,Random character
 34,*,4,アーアペプ,-30333,???,22659,???,25987,???
 35,*,4,アーアペプ,-29821,???,-256,???,-1,None
 37,*,4,アーアペプ,1281,???,-1,None,4047,???
@@ -312,7 +312,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 61,*,4,アーアペプ,7,???,0,???,24,???
 62,*,4,アーアペプ,10,???,0,???,24,???
 63,*,4,アーアペプ,9,???,1,???,550,???
-64,*,4,アーアペプ,1,Action,1,"",4,Character with least HP
+64,*,4,アーアペプ,1,Action,1,石化ガス,4,Character with least HP
 1,ECINIT004.DAT,4,アーアペプ,0,Strategy,33,???,3,???
 2,ECINIT004.DAT,4,アーアペプ,0,Strategy,22,???,10,???
 3,ECINIT004.DAT,4,アーアペプ,0,Strategy,36,???,5,???
@@ -321,9 +321,9 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 6,ECINIT004.DAT,4,アーアペプ,0,Strategy,22,???,8,???
 7,ECINIT004.DAT,4,アーアペプ,1,Action,550,Attack,2,Random character
 8,ECINIT004.DAT,4,アーアペプ,1,Action,551,Guard,-1,None
-9,ECINIT004.DAT,4,アーアペプ,1,Action,503,"",14,Character without Confusion
-10,ECINIT004.DAT,4,アーアペプ,1,Action,520,"",2,Random character
-11,ECINIT004.DAT,4,アーアペプ,1,Action,57,"",2,Random character
+9,ECINIT004.DAT,4,アーアペプ,1,Action,503,パニカ,14,Character without Confusion
+10,ECINIT004.DAT,4,アーアペプ,1,Action,520,ウェイバ,2,Random character
+11,ECINIT004.DAT,4,アーアペプ,1,Action,57,怪音波,2,Random character
 34,ECINIT004.DAT,4,アーアペプ,0,Strategy,0,???,0,???
 35,ECINIT004.DAT,4,アーアペプ,0,Strategy,0,???,0,???
 36,ECINIT004.DAT,4,アーアペプ,0,Strategy,0,???,0,???
@@ -374,11 +374,11 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 17,*,7,煌術処刑士,0,Strategy,25,???,21,???
 18,*,7,煌術処刑士,0,Strategy,30,???,25,???
 19,*,7,煌術処刑士,1,Action,550,Attack,1,Common character
-20,*,7,煌術処刑士,1,Action,500,"",8,Enemy with highest ID
-21,*,7,煌術処刑士,1,Action,506,"",7,Injured enemy
-22,*,7,煌術処刑士,1,Action,506,"",8,Enemy with highest ID
-23,*,7,煌術処刑士,1,Action,526,"",2,Random character
-24,*,7,煌術処刑士,1,Action,37,"",-1,None
+20,*,7,煌術処刑士,1,Action,500,アパ,8,Enemy with highest ID
+21,*,7,煌術処刑士,1,Action,506,サプラ,7,Injured enemy
+22,*,7,煌術処刑士,1,Action,506,サプラ,8,Enemy with highest ID
+23,*,7,煌術処刑士,1,Action,526,グラシャ,2,Random character
+24,*,7,煌術処刑士,1,Action,37,ためる,-1,None
 25,*,7,煌術処刑士,1,Action,551,Guard,-1,None
 34,*,7,煌術処刑士,24195,???,17795,???,32131,???
 35,*,7,煌術処刑士,22659,???,-256,???,-1,None
@@ -402,7 +402,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 60,*,7,煌術処刑士,9,???,0,???,26,???
 61,*,7,煌術処刑士,7,???,0,???,30,???
 62,*,7,煌術処刑士,8,???,1,???,550,???
-63,*,7,煌術処刑士,1,Action,1,"",9,???
+63,*,7,煌術処刑士,1,Action,1,石化ガス,9,???
 1,ECINIT007.DAT,7,煌術処刑士,0,Strategy,17,???,19,???
 2,ECINIT007.DAT,7,煌術処刑士,0,Strategy,35,???,9,???
 3,ECINIT007.DAT,7,煌術処刑士,0,Strategy,40,???,20,???
@@ -422,11 +422,11 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 17,ECINIT007.DAT,7,煌術処刑士,0,Strategy,25,???,21,???
 18,ECINIT007.DAT,7,煌術処刑士,0,Strategy,30,???,25,???
 19,ECINIT007.DAT,7,煌術処刑士,1,Action,550,Attack,1,Common character
-20,ECINIT007.DAT,7,煌術処刑士,1,Action,500,"",8,Enemy with highest ID
-21,ECINIT007.DAT,7,煌術処刑士,1,Action,506,"",7,Injured enemy
-22,ECINIT007.DAT,7,煌術処刑士,1,Action,506,"",8,Enemy with highest ID
-23,ECINIT007.DAT,7,煌術処刑士,1,Action,526,"",2,Random character
-24,ECINIT007.DAT,7,煌術処刑士,1,Action,37,"",-1,None
+20,ECINIT007.DAT,7,煌術処刑士,1,Action,500,アパ,8,Enemy with highest ID
+21,ECINIT007.DAT,7,煌術処刑士,1,Action,506,サプラ,7,Injured enemy
+22,ECINIT007.DAT,7,煌術処刑士,1,Action,506,サプラ,8,Enemy with highest ID
+23,ECINIT007.DAT,7,煌術処刑士,1,Action,526,グラシャ,2,Random character
+24,ECINIT007.DAT,7,煌術処刑士,1,Action,37,ためる,-1,None
 25,ECINIT007.DAT,7,煌術処刑士,1,Action,551,Guard,-1,None
 34,ECINIT007.DAT,7,煌術処刑士,0,Strategy,0,???,0,???
 35,ECINIT007.DAT,7,煌術処刑士,0,Strategy,0,???,0,???
@@ -594,8 +594,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 5,*,11,フォカラルガ,0,Strategy,21,???,7,???
 6,*,11,フォカラルガ,1,Action,550,Attack,2,Random character
 7,*,11,フォカラルガ,1,Action,551,Guard,-1,None
-8,*,11,フォカラルガ,1,Action,503,"",14,Character without Confusion
-9,*,11,フォカラルガ,1,Action,527,"",2,Random character
+8,*,11,フォカラルガ,1,Action,503,パニカ,14,Character without Confusion
+9,*,11,フォカラルガ,1,Action,527,グラシィ,2,Random character
 34,*,11,フォカラルガ,0,Strategy,0,???,0,???
 35,*,11,フォカラルガ,0,Strategy,0,???,0,???
 36,*,11,フォカラルガ,0,Strategy,0,???,0,???
@@ -642,11 +642,11 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 13,*,13,アスフール,1,Action,550,Attack,2,Random character
 14,*,13,アスフール,1,Action,551,Guard,-1,None
 15,*,13,アスフール,1,Action,552,Run,-1,None
-16,*,13,アスフール,1,Action,200,"",-1,None
-17,*,13,アスフール,1,Action,201,"",-1,None
-18,*,13,アスフール,1,Action,108,"",-1,None
-19,*,13,アスフール,1,Action,517,"",2,Random character
-20,*,13,アスフール,1,Action,100,"",-1,None
+16,*,13,アスフール,1,Action,200,仲間を呼ぶ,-1,None
+17,*,13,アスフール,1,Action,201,仲間を呼ぶ,-1,None
+18,*,13,アスフール,1,Action,108,仲間を呼ぶ,-1,None
+19,*,13,アスフール,1,Action,517,ジェダ,2,Random character
+20,*,13,アスフール,1,Action,100,Ж術詠唱？,-1,None
 34,*,13,アスフール,19587,???,-256,???,-1,None
 37,*,13,アスフール,257,???,-1,None,4045,???
 38,*,13,アスフール,20,???,3,???,7,???
@@ -685,11 +685,11 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 13,ECINIT013.DAT,13,アスフール,1,Action,550,Attack,2,Random character
 14,ECINIT013.DAT,13,アスフール,1,Action,551,Guard,-1,None
 15,ECINIT013.DAT,13,アスフール,1,Action,552,Run,-1,None
-16,ECINIT013.DAT,13,アスフール,1,Action,200,"",-1,None
-17,ECINIT013.DAT,13,アスフール,1,Action,201,"",-1,None
-18,ECINIT013.DAT,13,アスフール,1,Action,108,"",-1,None
-19,ECINIT013.DAT,13,アスフール,1,Action,517,"",2,Random character
-20,ECINIT013.DAT,13,アスフール,1,Action,100,"",-1,None
+16,ECINIT013.DAT,13,アスフール,1,Action,200,仲間を呼ぶ,-1,None
+17,ECINIT013.DAT,13,アスフール,1,Action,201,仲間を呼ぶ,-1,None
+18,ECINIT013.DAT,13,アスフール,1,Action,108,仲間を呼ぶ,-1,None
+19,ECINIT013.DAT,13,アスフール,1,Action,517,ジェダ,2,Random character
+20,ECINIT013.DAT,13,アスフール,1,Action,100,Ж術詠唱？,-1,None
 34,ECINIT013.DAT,13,アスフール,0,Strategy,0,???,0,???
 35,ECINIT013.DAT,13,アスフール,0,Strategy,0,???,0,???
 36,ECINIT013.DAT,13,アスフール,0,Strategy,0,???,0,???
@@ -735,7 +735,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 12,*,14,盗掘者,0,Strategy,25,???,15,???
 13,*,14,盗掘者,0,Strategy,30,???,16,???
 14,*,14,盗掘者,1,Action,550,Attack,4,Character with least HP
-15,*,14,盗掘者,1,Action,22,"",2,Random character
+15,*,14,盗掘者,1,Action,22,発破,2,Random character
 16,*,14,盗掘者,1,Action,552,Run,-1,None
 34,*,14,盗掘者,0,Strategy,0,???,0,???
 35,*,14,盗掘者,0,Strategy,0,???,0,???
@@ -782,7 +782,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 12,*,15,ヌール,0,Strategy,25,???,14,???
 13,*,15,ヌール,0,Strategy,30,???,16,???
 14,*,15,ヌール,1,Action,550,Attack,1,Common character
-15,*,15,ヌール,1,Action,210,"",3,Character with most HP
+15,*,15,ヌール,1,Action,210,ＨＰ吸収,3,Character with most HP
 16,*,15,ヌール,1,Action,552,Run,-1,None
 34,*,15,ヌール,-32125,???,-256,???,-1,None
 37,*,15,ヌール,1281,???,-1,None,4095,???
@@ -820,7 +820,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 12,ECINIT015.DAT,15,ヌール,0,Strategy,25,???,14,???
 13,ECINIT015.DAT,15,ヌール,0,Strategy,30,???,16,???
 14,ECINIT015.DAT,15,ヌール,1,Action,550,Attack,1,Common character
-15,ECINIT015.DAT,15,ヌール,1,Action,210,"",3,Character with most HP
+15,ECINIT015.DAT,15,ヌール,1,Action,210,ＨＰ吸収,3,Character with most HP
 16,ECINIT015.DAT,15,ヌール,1,Action,552,Run,-1,None
 34,ECINIT015.DAT,15,ヌール,0,Strategy,0,???,0,???
 35,ECINIT015.DAT,15,ヌール,0,Strategy,0,???,0,???
@@ -864,8 +864,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 9,*,17,ヴァンピレッサ,0,Strategy,21,???,11,???
 10,*,17,ヴァンピレッサ,1,Action,550,Attack,2,Random character
 11,*,17,ヴァンピレッサ,1,Action,552,Run,-1,None
-12,*,17,ヴァンピレッサ,1,Action,211,"",3,Character with most HP
-13,*,17,ヴァンピレッサ,1,Action,532,"",2,Random character
+12,*,17,ヴァンピレッサ,1,Action,211,ＨＰ吸収,3,Character with most HP
+13,*,17,ヴァンピレッサ,1,Action,532,ボルタ,2,Random character
 34,*,17,ヴァンピレッサ,0,Strategy,0,???,0,???
 35,*,17,ヴァンピレッサ,0,Strategy,0,???,0,???
 36,*,17,ヴァンピレッサ,0,Strategy,0,???,0,???
@@ -910,8 +910,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 11,*,18,セベスク,1,Action,550,Attack,2,Random character
 12,*,18,セベスク,1,Action,551,Guard,-1,None
 13,*,18,セベスク,1,Action,552,Run,-1,None
-14,*,18,セベスク,1,Action,20,"",-1,None
-15,*,18,セベスク,1,Action,170,"",2,Random character
+14,*,18,セベスク,1,Action,20,ためる,-1,None
+15,*,18,セベスク,1,Action,170,針乱射,2,Random character
 34,*,18,セベスク,0,Strategy,0,???,0,???
 35,*,18,セベスク,0,Strategy,0,???,0,???
 36,*,18,セベスク,0,Strategy,0,???,0,???
@@ -1039,7 +1039,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 10,*,23,メア・ヘスア,0,Strategy,22,???,13,???
 11,*,23,メア・ヘスア,1,Action,550,Attack,2,Random character
 12,*,23,メア・ヘスア,1,Action,552,Run,-1,None
-13,*,23,メア・ヘスア,1,Action,513,"",-1,None
+13,*,23,メア・ヘスア,1,Action,513,クイッカ,-1,None
 34,*,23,メア・ヘスア,0,Strategy,0,???,0,???
 35,*,23,メア・ヘスア,0,Strategy,0,???,0,???
 36,*,23,メア・ヘスア,0,Strategy,0,???,0,???
@@ -1076,8 +1076,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 3,*,24,デシェレト,0,Strategy,1,???,6,???
 4,*,24,デシェレト,0,Strategy,24,???,6,???
 5,*,24,デシェレト,1,Action,550,Attack,1,Common character
-6,*,24,デシェレト,1,Action,47,"",-1,None
-7,*,24,デシェレト,1,Action,180,"",1,Common character
+6,*,24,デシェレト,1,Action,47,ためる,-1,None
+7,*,24,デシェレト,1,Action,180,火炎ブレス,1,Common character
 34,*,24,デシェレト,0,Strategy,0,???,0,???
 35,*,24,デシェレト,0,Strategy,0,???,0,???
 36,*,24,デシェレト,0,Strategy,0,???,0,???
@@ -1116,8 +1116,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 5,*,25,イアールト２,0,Strategy,27,???,9,???
 6,*,25,イアールト２,0,Strategy,30,???,10,???
 7,*,25,イアールト２,1,Action,550,Attack,2,Random character
-8,*,25,イアールト２,1,Action,525,"",-1,None
-9,*,25,イアールト２,1,Action,100,"",-1,None
+8,*,25,イアールト２,1,Action,525,バーネス,-1,None
+9,*,25,イアールト２,1,Action,100,Ж術詠唱？,-1,None
 10,*,25,イアールト２,1,Action,552,Run,-1,None
 34,*,25,イアールト２,0,Strategy,0,???,0,???
 35,*,25,イアールト２,0,Strategy,0,???,0,???
@@ -1212,9 +1212,9 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 13,*,27,ヘベレル,0,Strategy,25,???,18,???
 14,*,27,ヘベレル,0,Strategy,30,???,19,???
 15,*,27,ヘベレル,1,Action,550,Attack,2,Random character
-16,*,27,ヘベレル,1,Action,504,"",2,Random character
-17,*,27,ヘベレル,1,Action,28,"",-1,None
-18,*,27,ヘベレル,1,Action,110,"",-1,None
+16,*,27,ヘベレル,1,Action,504,ダウナ,2,Random character
+17,*,27,ヘベレル,1,Action,28,仲間を呼ぶ,-1,None
+18,*,27,ヘベレル,1,Action,110,仲間を呼ぶ,-1,None
 19,*,27,ヘベレル,1,Action,552,Run,-1,None
 34,*,27,ヘベレル,0,Strategy,0,???,0,???
 35,*,27,ヘベレル,0,Strategy,0,???,0,???
@@ -1251,7 +1251,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 2,*,28,屍鬼,0,Strategy,28,???,5,???
 3,*,28,屍鬼,0,Strategy,30,???,6,???
 4,*,28,屍鬼,1,Action,550,Attack,1,Common character
-5,*,28,屍鬼,1,Action,15,"",13,Character without Stone
+5,*,28,屍鬼,1,Action,15,石化液,13,Character without Stone
 6,*,28,屍鬼,1,Action,551,Guard,-1,None
 34,*,28,屍鬼,0,Strategy,0,???,0,???
 35,*,28,屍鬼,0,Strategy,0,???,0,???
@@ -1360,7 +1360,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 4,*,30,エルモ２,0,Strategy,28,???,6,???
 5,*,30,エルモ２,0,Strategy,30,???,8,???
 6,*,30,エルモ２,1,Action,550,Attack,2,Random character
-7,*,30,エルモ２,1,Action,500,"",8,Enemy with highest ID
+7,*,30,エルモ２,1,Action,500,アパ,8,Enemy with highest ID
 8,*,30,エルモ２,1,Action,551,Guard,-1,None
 9,*,30,エルモ２,1,Action,552,Run,-1,None
 34,*,30,エルモ２,0,Strategy,0,???,0,???
@@ -1406,8 +1406,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 10,*,31,ヘムヘム,0,Strategy,25,???,14,???
 11,*,31,ヘムヘム,0,Strategy,30,???,15,???
 12,*,31,ヘムヘム,1,Action,550,Attack,2,Random character
-13,*,31,ヘムヘム,1,Action,29,"",-1,None
-14,*,31,ヘムヘム,1,Action,98,"",-1,None
+13,*,31,ヘムヘム,1,Action,29,仲間を呼ぶ,-1,None
+14,*,31,ヘムヘム,1,Action,98,仲間を呼ぶ,-1,None
 15,*,31,ヘムヘム,1,Action,552,Run,-1,None
 34,*,31,ヘムヘム,0,Strategy,0,???,0,???
 35,*,31,ヘムヘム,0,Strategy,0,???,0,???
@@ -1443,7 +1443,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 1,*,32,汎用兵Ｂ１,0,Strategy,21,???,5,???
 2,*,32,汎用兵Ｂ１,0,Strategy,23,???,4,???
 3,*,32,汎用兵Ｂ１,1,Action,550,Attack,2,Random character
-4,*,32,汎用兵Ｂ１,1,Action,70,"",2,Random character
+4,*,32,汎用兵Ｂ１,1,Action,70,手榴弾,2,Random character
 5,*,32,汎用兵Ｂ１,1,Action,551,Guard,-1,None
 34,*,32,汎用兵Ｂ１,0,Strategy,0,???,0,???
 35,*,32,汎用兵Ｂ１,0,Strategy,0,???,0,???
@@ -1488,7 +1488,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 10,*,37,ヤック,0,Strategy,22,???,13,???
 11,*,37,ヤック,1,Action,550,Attack,2,Random character
 12,*,37,ヤック,1,Action,552,Run,-1,None
-13,*,37,ヤック,1,Action,513,"",-1,None
+13,*,37,ヤック,1,Action,513,クイッカ,-1,None
 34,*,37,ヤック,0,Strategy,0,???,0,???
 35,*,37,ヤック,0,Strategy,0,???,0,???
 36,*,37,ヤック,0,Strategy,0,???,0,???
@@ -1559,9 +1559,9 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 6,*,51,アイガムハ,0,Strategy,22,???,8,???
 7,*,51,アイガムハ,1,Action,550,Attack,2,Random character
 8,*,51,アイガムハ,1,Action,551,Guard,-1,None
-9,*,51,アイガムハ,1,Action,503,"",14,Character without Confusion
-10,*,51,アイガムハ,1,Action,521,"",2,Random character
-11,*,51,アイガムハ,1,Action,57,"",2,Random character
+9,*,51,アイガムハ,1,Action,503,パニカ,14,Character without Confusion
+10,*,51,アイガムハ,1,Action,521,ウェイビィ,2,Random character
+11,*,51,アイガムハ,1,Action,57,怪音波,2,Random character
 34,*,51,アイガムハ,0,Strategy,0,???,0,???
 35,*,51,アイガムハ,0,Strategy,0,???,0,???
 36,*,51,アイガムハ,0,Strategy,0,???,0,???
@@ -1600,8 +1600,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 5,*,57,イアールト,0,Strategy,27,???,9,???
 6,*,57,イアールト,0,Strategy,30,???,10,???
 7,*,57,イアールト,1,Action,550,Attack,2,Random character
-8,*,57,イアールト,1,Action,523,"",-1,None
-9,*,57,イアールト,1,Action,100,"",-1,None
+8,*,57,イアールト,1,Action,523,バーナ,-1,None
+9,*,57,イアールト,1,Action,100,Ж術詠唱？,-1,None
 10,*,57,イアールト,1,Action,552,Run,-1,None
 34,*,57,イアールト,0,Strategy,0,???,0,???
 35,*,57,イアールト,0,Strategy,0,???,0,???
@@ -1649,9 +1649,9 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 13,*,63,メタルクリオネ,0,Strategy,24,???,15,???
 14,*,63,メタルクリオネ,1,Action,550,Attack,2,Random character
 15,*,63,メタルクリオネ,1,Action,552,Run,-1,None
-16,*,63,メタルクリオネ,1,Action,210,"",3,Character with most HP
-17,*,63,メタルクリオネ,1,Action,511,"",19,Character without Poison
-18,*,63,メタルクリオネ,1,Action,100,"",-1,None
+16,*,63,メタルクリオネ,1,Action,210,ＨＰ吸収,3,Character with most HP
+17,*,63,メタルクリオネ,1,Action,511,プワゾーク,19,Character without Poison
+18,*,63,メタルクリオネ,1,Action,100,Ж術詠唱？,-1,None
 34,*,63,メタルクリオネ,0,Strategy,0,???,0,???
 35,*,63,メタルクリオネ,0,Strategy,0,???,0,???
 36,*,63,メタルクリオネ,0,Strategy,0,???,0,???
@@ -1698,9 +1698,9 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 13,*,64,ぶちクリオネ,0,Strategy,22,???,15,???
 14,*,64,ぶちクリオネ,1,Action,550,Attack,2,Random character
 15,*,64,ぶちクリオネ,1,Action,552,Run,-1,None
-16,*,64,ぶちクリオネ,1,Action,210,"",3,Character with most HP
-17,*,64,ぶちクリオネ,1,Action,510,"",19,Character without Poison
-18,*,64,ぶちクリオネ,1,Action,100,"",-1,None
+16,*,64,ぶちクリオネ,1,Action,210,ＨＰ吸収,3,Character with most HP
+17,*,64,ぶちクリオネ,1,Action,510,プワザ,19,Character without Poison
+18,*,64,ぶちクリオネ,1,Action,100,Ж術詠唱？,-1,None
 34,*,64,ぶちクリオネ,0,Strategy,0,???,0,???
 35,*,64,ぶちクリオネ,0,Strategy,0,???,0,???
 36,*,64,ぶちクリオネ,0,Strategy,0,???,0,???
@@ -1739,8 +1739,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 5,*,66,ギャルブ,0,Strategy,21,???,7,???
 6,*,66,ギャルブ,1,Action,550,Attack,2,Random character
 7,*,66,ギャルブ,1,Action,551,Guard,-1,None
-8,*,66,ギャルブ,1,Action,503,"",14,Character without Confusion
-9,*,66,ギャルブ,1,Action,528,"",2,Random character
+8,*,66,ギャルブ,1,Action,503,パニカ,14,Character without Confusion
+9,*,66,ギャルブ,1,Action,528,グラシェス,2,Random character
 34,*,66,ギャルブ,0,Strategy,0,???,0,???
 35,*,66,ギャルブ,0,Strategy,0,???,0,???
 36,*,66,ギャルブ,0,Strategy,0,???,0,???
@@ -1779,7 +1779,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 5,*,72,警備士,0,Strategy,24,???,8,???
 6,*,72,警備士,0,Strategy,30,???,9,???
 7,*,72,警備士,1,Action,550,Attack,2,Random character
-8,*,72,警備士,1,Action,80,"",7,Injured enemy
+8,*,72,警備士,1,Action,80,薬草,7,Injured enemy
 9,*,72,警備士,1,Action,551,Guard,-1,None
 34,*,72,警備士,-21617,???,-17771,???,-256,???
 37,*,72,警備士,1025,???,-1,None,4087,???
@@ -1814,7 +1814,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 5,ECINIT072.DAT,72,警備士,0,Strategy,24,???,8,???
 6,ECINIT072.DAT,72,警備士,0,Strategy,30,???,9,???
 7,ECINIT072.DAT,72,警備士,1,Action,550,Attack,2,Random character
-8,ECINIT072.DAT,72,警備士,1,Action,80,"",7,Injured enemy
+8,ECINIT072.DAT,72,警備士,1,Action,80,薬草,7,Injured enemy
 9,ECINIT072.DAT,72,警備士,1,Action,551,Guard,-1,None
 34,ECINIT072.DAT,72,警備士,0,Strategy,0,???,0,???
 35,ECINIT072.DAT,72,警備士,0,Strategy,0,???,0,???
@@ -1863,10 +1863,10 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 14,*,86,はぐれクリオネ,0,Strategy,25,???,16,???
 15,*,86,はぐれクリオネ,1,Action,550,Attack,2,Random character
 16,*,86,はぐれクリオネ,1,Action,552,Run,-1,None
-17,*,86,はぐれクリオネ,1,Action,210,"",3,Character with most HP
-18,*,86,はぐれクリオネ,1,Action,519,"",19,Character without Poison
-19,*,86,はぐれクリオネ,1,Action,100,"",-1,None
-20,*,86,はぐれクリオネ,1,Action,56,"",-1,None
+17,*,86,はぐれクリオネ,1,Action,210,ＨＰ吸収,3,Character with most HP
+18,*,86,はぐれクリオネ,1,Action,519,ジェドーサ,19,Character without Poison
+19,*,86,はぐれクリオネ,1,Action,100,Ж術詠唱？,-1,None
+20,*,86,はぐれクリオネ,1,Action,56,電撃,-1,None
 34,*,86,はぐれクリオネ,0,Strategy,0,???,0,???
 35,*,86,はぐれクリオネ,0,Strategy,0,???,0,???
 36,*,86,はぐれクリオネ,0,Strategy,0,???,0,???
@@ -1946,8 +1946,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 9,*,90,ヴァンピレッサ２,0,Strategy,21,???,11,???
 10,*,90,ヴァンピレッサ２,1,Action,550,Attack,2,Random character
 11,*,90,ヴァンピレッサ２,1,Action,552,Run,-1,None
-12,*,90,ヴァンピレッサ２,1,Action,211,"",3,Character with most HP
-13,*,90,ヴァンピレッサ２,1,Action,533,"",2,Random character
+12,*,90,ヴァンピレッサ２,1,Action,211,ＨＰ吸収,3,Character with most HP
+13,*,90,ヴァンピレッサ２,1,Action,533,ボルティ,2,Random character
 34,*,90,ヴァンピレッサ２,0,Strategy,0,???,0,???
 35,*,90,ヴァンピレッサ２,0,Strategy,0,???,0,???
 36,*,90,ヴァンピレッサ２,0,Strategy,0,???,0,???
@@ -1991,8 +1991,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 10,*,92,ヘムヘム２,0,Strategy,25,???,14,???
 11,*,92,ヘムヘム２,0,Strategy,30,???,15,???
 12,*,92,ヘムヘム２,1,Action,550,Attack,2,Random character
-13,*,92,ヘムヘム２,1,Action,82,"",-1,None
-14,*,92,ヘムヘム２,1,Action,98,"",-1,None
+13,*,92,ヘムヘム２,1,Action,82,仲間を呼ぶ,-1,None
+14,*,92,ヘムヘム２,1,Action,98,仲間を呼ぶ,-1,None
 15,*,92,ヘムヘム２,1,Action,552,Run,-1,None
 34,*,92,ヘムヘム２,0,Strategy,0,???,0,???
 35,*,92,ヘムヘム２,0,Strategy,0,???,0,???
@@ -2038,8 +2038,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 11,*,95,セベスク２,1,Action,550,Attack,2,Random character
 12,*,95,セベスク２,1,Action,551,Guard,-1,None
 13,*,95,セベスク２,1,Action,552,Run,-1,None
-14,*,95,セベスク２,1,Action,20,"",-1,None
-15,*,95,セベスク２,1,Action,170,"",2,Random character
+14,*,95,セベスク２,1,Action,20,ためる,-1,None
+15,*,95,セベスク２,1,Action,170,針乱射,2,Random character
 34,*,95,セベスク２,0,Strategy,0,???,0,???
 35,*,95,セベスク２,0,Strategy,0,???,0,???
 36,*,95,セベスク２,0,Strategy,0,???,0,???
@@ -2078,7 +2078,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 5,*,96,ロッキ,0,Strategy,30,???,8,???
 6,*,96,ロッキ,1,Action,550,Attack,2,Random character
 7,*,96,ロッキ,1,Action,552,Run,-1,None
-8,*,96,ロッキ,1,Action,93,"",2,Random character
+8,*,96,ロッキ,1,Action,93,疲労ブレス,2,Random character
 34,*,96,ロッキ,-17771,???,-256,???,-1,None
 37,*,96,ロッキ,1025,???,-1,None,4039,???
 38,*,96,ロッキ,10,???,2,???,4,???
@@ -2103,7 +2103,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 5,ECINIT096.DAT,96,ロッキ,0,Strategy,30,???,8,???
 6,ECINIT096.DAT,96,ロッキ,1,Action,550,Attack,2,Random character
 7,ECINIT096.DAT,96,ロッキ,1,Action,552,Run,-1,None
-8,ECINIT096.DAT,96,ロッキ,1,Action,93,"",2,Random character
+8,ECINIT096.DAT,96,ロッキ,1,Action,93,疲労ブレス,2,Random character
 34,ECINIT096.DAT,96,ロッキ,0,Strategy,0,???,0,???
 35,ECINIT096.DAT,96,ロッキ,0,Strategy,0,???,0,???
 36,ECINIT096.DAT,96,ロッキ,0,Strategy,0,???,0,???
@@ -2142,8 +2142,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 5,*,104,汎用兵Ｃ１,0,Strategy,21,???,13,???
 6,*,104,汎用兵Ｃ１,0,Strategy,23,???,11,???
 7,*,104,汎用兵Ｃ１,1,Action,550,Attack,2,Random character
-8,*,104,汎用兵Ｃ１,1,Action,71,"",19,Character without Poison
-9,*,104,汎用兵Ｃ１,1,Action,72,"",-1,None
+8,*,104,汎用兵Ｃ１,1,Action,71,毒ガス弾,19,Character without Poison
+9,*,104,汎用兵Ｃ１,1,Action,72,薬草３,-1,None
 10,*,104,汎用兵Ｃ１,1,Action,551,Guard,-1,None
 34,*,104,汎用兵Ｃ１,0,Strategy,0,???,0,???
 35,*,104,汎用兵Ｃ１,0,Strategy,0,???,0,???
@@ -2179,7 +2179,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 1,*,105,汎用兵Ｃ２,0,Strategy,21,???,5,???
 2,*,105,汎用兵Ｃ２,0,Strategy,23,???,4,???
 3,*,105,汎用兵Ｃ２,1,Action,550,Attack,2,Random character
-4,*,105,汎用兵Ｃ２,1,Action,70,"",2,Random character
+4,*,105,汎用兵Ｃ２,1,Action,70,手榴弾,2,Random character
 5,*,105,汎用兵Ｃ２,1,Action,551,Guard,-1,None
 34,*,105,汎用兵Ｃ２,0,Strategy,0,???,0,???
 35,*,105,汎用兵Ｃ２,0,Strategy,0,???,0,???
@@ -2219,8 +2219,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 5,*,106,汎用兵Ｂ２,0,Strategy,21,???,13,???
 6,*,106,汎用兵Ｂ２,0,Strategy,23,???,11,???
 7,*,106,汎用兵Ｂ２,1,Action,550,Attack,2,Random character
-8,*,106,汎用兵Ｂ２,1,Action,71,"",19,Character without Poison
-9,*,106,汎用兵Ｂ２,1,Action,72,"",-1,None
+8,*,106,汎用兵Ｂ２,1,Action,71,毒ガス弾,19,Character without Poison
+9,*,106,汎用兵Ｂ２,1,Action,72,薬草３,-1,None
 10,*,106,汎用兵Ｂ２,1,Action,551,Guard,-1,None
 34,*,106,汎用兵Ｂ２,0,Strategy,0,???,0,???
 35,*,106,汎用兵Ｂ２,0,Strategy,0,???,0,???
@@ -2264,8 +2264,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 9,*,128,アントニオ,0,Strategy,25,???,11,???
 10,*,128,アントニオ,0,Strategy,30,???,12,???
 11,*,128,アントニオ,1,Action,550,Attack,2,Random character
-12,*,128,アントニオ,1,Action,5,"",2,Random character
-13,*,128,アントニオ,1,Action,34,"",-1,None
+12,*,128,アントニオ,1,Action,5,怒雷,2,Random character
+13,*,128,アントニオ,1,Action,34,様子を見る,-1,None
 34,*,128,アントニオ,0,Strategy,0,???,0,???
 35,*,128,アントニオ,0,Strategy,0,???,0,???
 36,*,128,アントニオ,0,Strategy,0,???,0,???
@@ -2308,8 +2308,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 9,EPEVENT.BIN,128,アントニオ,0,Strategy,25,???,11,???
 10,EPEVENT.BIN,128,アントニオ,0,Strategy,30,???,12,???
 11,EPEVENT.BIN,128,アントニオ,1,Action,550,Attack,2,Random character
-12,EPEVENT.BIN,128,アントニオ,1,Action,5,"",2,Random character
-13,EPEVENT.BIN,128,アントニオ,1,Action,34,"",-1,None
+12,EPEVENT.BIN,128,アントニオ,1,Action,5,怒雷,2,Random character
+13,EPEVENT.BIN,128,アントニオ,1,Action,34,様子を見る,-1,None
 34,EPEVENT.BIN,128,アントニオ,-30333,???,22659,???,25987,???
 35,EPEVENT.BIN,128,アントニオ,-29821,???,-256,???,-1,None
 37,EPEVENT.BIN,128,アントニオ,1281,???,-1,None,4047,???
@@ -2333,7 +2333,7 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 61,EPEVENT.BIN,128,アントニオ,7,???,0,???,24,???
 62,EPEVENT.BIN,128,アントニオ,10,???,0,???,24,???
 63,EPEVENT.BIN,128,アントニオ,9,???,1,???,550,???
-64,EPEVENT.BIN,128,アントニオ,1,Action,1,"",4,Character with least HP
+64,EPEVENT.BIN,128,アントニオ,1,Action,1,石化ガス,4,Character with least HP
 1,*,129,アガタウマス,0,Strategy,48,???,9,???
 2,*,129,アガタウマス,0,Strategy,5,???,6,???
 3,*,129,アガタウマス,0,Strategy,0,???,6,???
@@ -2341,8 +2341,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 5,*,129,アガタウマス,0,Strategy,26,???,7,???
 6,*,129,アガタウマス,0,Strategy,30,???,8,???
 7,*,129,アガタウマス,1,Action,550,Attack,1,Common character
-8,*,129,アガタウマス,1,Action,9,"",-1,None
-9,*,129,アガタウマス,1,Action,99,"",2,Random character
+8,*,129,アガタウマス,1,Action,9,ターゲットサーチ,-1,None
+9,*,129,アガタウマス,1,Action,99,ブラスター,2,Random character
 34,*,129,アガタウマス,28046,???,-256,???,-1,None
 37,*,129,アガタウマス,1025,???,-1,None,4037,???
 38,*,129,アガタウマス,15,???,0,???,6,???
@@ -2376,8 +2376,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 5,EBINIT001.DAT,129,アガタウマス,0,Strategy,26,???,7,???
 6,EBINIT001.DAT,129,アガタウマス,0,Strategy,30,???,8,???
 7,EBINIT001.DAT,129,アガタウマス,1,Action,550,Attack,1,Common character
-8,EBINIT001.DAT,129,アガタウマス,1,Action,9,"",-1,None
-9,EBINIT001.DAT,129,アガタウマス,1,Action,99,"",2,Random character
+8,EBINIT001.DAT,129,アガタウマス,1,Action,9,ターゲットサーチ,-1,None
+9,EBINIT001.DAT,129,アガタウマス,1,Action,99,ブラスター,2,Random character
 34,EBINIT001.DAT,129,アガタウマス,0,Strategy,0,???,0,???
 35,EBINIT001.DAT,129,アガタウマス,0,Strategy,0,???,0,???
 36,EBINIT001.DAT,129,アガタウマス,0,Strategy,0,???,0,???
@@ -2422,8 +2422,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 11,*,130,イマゴタリア,0,Strategy,23,???,14,???
 12,*,130,イマゴタリア,0,Strategy,30,???,13,???
 13,*,130,イマゴタリア,1,Action,550,Attack,2,Random character
-14,*,130,イマゴタリア,1,Action,183,"",-1,None
-15,*,130,イマゴタリア,1,Action,25,"",-1,None
+14,*,130,イマゴタリア,1,Action,183,凍結ブレス,-1,None
+15,*,130,イマゴタリア,1,Action,25,毒ゲロ,-1,None
 34,*,130,イマゴタリア,22659,???,-256,???,-1,None
 37,*,130,イマゴタリア,259,???,-1,None,1993,???
 38,*,130,イマゴタリア,20,???,1000,???,823,???
@@ -2461,8 +2461,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 11,EBINIT002.DAT,130,イマゴタリア,0,Strategy,23,???,14,???
 12,EBINIT002.DAT,130,イマゴタリア,0,Strategy,30,???,13,???
 13,EBINIT002.DAT,130,イマゴタリア,1,Action,550,Attack,2,Random character
-14,EBINIT002.DAT,130,イマゴタリア,1,Action,183,"",-1,None
-15,EBINIT002.DAT,130,イマゴタリア,1,Action,25,"",-1,None
+14,EBINIT002.DAT,130,イマゴタリア,1,Action,183,凍結ブレス,-1,None
+15,EBINIT002.DAT,130,イマゴタリア,1,Action,25,毒ゲロ,-1,None
 34,EBINIT002.DAT,130,イマゴタリア,0,Strategy,0,???,0,???
 35,EBINIT002.DAT,130,イマゴタリア,0,Strategy,0,???,0,???
 36,EBINIT002.DAT,130,イマゴタリア,0,Strategy,0,???,0,???
@@ -2509,9 +2509,9 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 13,*,131,獄長,0,Strategy,25,???,17,???
 14,*,131,獄長,0,Strategy,30,???,15,???
 15,*,131,獄長,1,Action,550,Attack,2,Random character
-16,*,131,獄長,1,Action,11,"",3,Character with most HP
-17,*,131,獄長,1,Action,251,"",2,Random character
-18,*,131,獄長,1,Action,533,"",2,Random character
+16,*,131,獄長,1,Action,11,肉弾アタック,3,Character with most HP
+17,*,131,獄長,1,Action,251,扇状ソニック,2,Random character
+18,*,131,獄長,1,Action,533,ボルティ,2,Random character
 19,*,131,獄長,1,Action,551,Guard,-1,None
 34,*,131,獄長,28046,???,-256,???,-1,None
 37,*,131,獄長,1025,???,-1,None,4037,???
@@ -2551,9 +2551,9 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 13,EBINIT003.DAT,131,獄長,0,Strategy,25,???,17,???
 14,EBINIT003.DAT,131,獄長,0,Strategy,30,???,15,???
 15,EBINIT003.DAT,131,獄長,1,Action,550,Attack,2,Random character
-16,EBINIT003.DAT,131,獄長,1,Action,11,"",3,Character with most HP
-17,EBINIT003.DAT,131,獄長,1,Action,251,"",2,Random character
-18,EBINIT003.DAT,131,獄長,1,Action,533,"",2,Random character
+16,EBINIT003.DAT,131,獄長,1,Action,11,肉弾アタック,3,Character with most HP
+17,EBINIT003.DAT,131,獄長,1,Action,251,扇状ソニック,2,Random character
+18,EBINIT003.DAT,131,獄長,1,Action,533,ボルティ,2,Random character
 19,EBINIT003.DAT,131,獄長,1,Action,551,Guard,-1,None
 34,EBINIT003.DAT,131,獄長,0,Strategy,0,???,0,???
 35,EBINIT003.DAT,131,獄長,0,Strategy,0,???,0,???
@@ -2600,9 +2600,9 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 12,*,133,護送将兵,0,Strategy,25,???,16,???
 13,*,133,護送将兵,0,Strategy,30,???,17,???
 14,*,133,護送将兵,1,Action,550,Attack,2,Random character
-15,*,133,護送将兵,1,Action,506,"",7,Injured enemy
-16,*,133,護送将兵,1,Action,533,"",2,Random character
-17,*,133,護送将兵,1,Action,19,"",-1,None
+15,*,133,護送将兵,1,Action,506,サプラ,7,Injured enemy
+16,*,133,護送将兵,1,Action,533,ボルティ,2,Random character
+17,*,133,護送将兵,1,Action,19,反撃の構え,-1,None
 18,*,133,護送将兵,1,Action,551,Guard,-1,None
 34,*,133,護送将兵,21379,???,24195,???,-30077,???
 35,*,133,護送将兵,16771,???,-256,???,-1,None
@@ -2645,9 +2645,9 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 12,EBINIT005.DAT,133,護送将兵,0,Strategy,25,???,16,???
 13,EBINIT005.DAT,133,護送将兵,0,Strategy,30,???,17,???
 14,EBINIT005.DAT,133,護送将兵,1,Action,550,Attack,2,Random character
-15,EBINIT005.DAT,133,護送将兵,1,Action,506,"",7,Injured enemy
-16,EBINIT005.DAT,133,護送将兵,1,Action,533,"",2,Random character
-17,EBINIT005.DAT,133,護送将兵,1,Action,19,"",-1,None
+15,EBINIT005.DAT,133,護送将兵,1,Action,506,サプラ,7,Injured enemy
+16,EBINIT005.DAT,133,護送将兵,1,Action,533,ボルティ,2,Random character
+17,EBINIT005.DAT,133,護送将兵,1,Action,19,反撃の構え,-1,None
 18,EBINIT005.DAT,133,護送将兵,1,Action,551,Guard,-1,None
 34,EBINIT005.DAT,133,護送将兵,0,Strategy,0,???,0,???
 35,EBINIT005.DAT,133,護送将兵,0,Strategy,0,???,0,???
@@ -2692,8 +2692,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 10,*,134,ラァス,0,Strategy,27,???,13,???
 11,*,134,ラァス,0,Strategy,30,???,12,???
 12,*,134,ラァス,1,Action,550,Attack,2,Random character
-13,*,134,ラァス,1,Action,0,"",-1,None
-14,*,134,ラァス,1,Action,1,"",13,Character without Stone
+13,*,134,ラァス,1,Action,0,火山弾乱舞,-1,None
+14,*,134,ラァス,1,Action,1,石化ガス,13,Character without Stone
 34,*,134,ラァス,-17771,???,-256,???,-1,None
 37,*,134,ラァス,1025,???,-1,None,4039,???
 38,*,134,ラァス,10,???,2,???,4,???
@@ -2723,8 +2723,8 @@ Entry ID,[Filter],[Enemy ID],[JP enemy name],Instr. type ID,[Instr. type name],I
 10,EBINIT006.DAT,134,ラァス,0,Strategy,27,???,13,???
 11,EBINIT006.DAT,134,ラァス,0,Strategy,30,???,12,???
 12,EBINIT006.DAT,134,ラァス,1,Action,550,Attack,2,Random character
-13,EBINIT006.DAT,134,ラァス,1,Action,0,"",-1,None
-14,EBINIT006.DAT,134,ラァス,1,Action,1,"",13,Character without Stone
+13,EBINIT006.DAT,134,ラァス,1,Action,0,火山弾乱舞,-1,None
+14,EBINIT006.DAT,134,ラァス,1,Action,1,石化ガス,13,Character without Stone
 34,EBINIT006.DAT,134,ラァス,0,Strategy,0,???,0,???
 35,EBINIT006.DAT,134,ラァス,0,Strategy,0,???,0,???
 36,EBINIT006.DAT,134,ラァス,0,Strategy,0,???,0,???

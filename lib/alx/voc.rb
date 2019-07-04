@@ -75,8 +75,8 @@ VOC.configure do |_v|
 # Common CSV headers
 #------------------------------------------------------------------------------
 
-  _v.unknown = _v.hdr('Unknown%d')
-  _v.padding = _v.hdr('Padding%d')
+  _v.unknown = _v.hdr('Unk.%d')
+  _v.padding = _v.hdr('Pad.%d')
   
   _v.id             = 'Entry ID'
   _v.filter         = '[Filter]'
@@ -144,6 +144,7 @@ VOC.configure do |_v|
   _v.ships[2] = _v.ship_delphinus[1]
   _v.ships[3] = _v.ship_delphinus[2]
   _v.ships[4] = _v.ship_delphinus[3]
+  _v.ships[5] = '[借ジャンク船]'
   
   _v.ship_cannon_id      = _v.hdr('Ship cannon%dID'    )
   _v.ship_cannon_name    = _v.hdr('[Ship cannon%dname]')
@@ -387,9 +388,9 @@ VOC.configure do |_v|
   _v.vigor               = 'Vigor'
   _v.will                = 'Will'
 
-  _v.feature_id    = _v.hdr('Feature%dID'    )
-  _v.feature_name  = _v.hdr('[Feature%dname]')
-  _v.feature_value = _v.hdr('Feature%dvalue' )
+  _v.feature_id    = _v.hdr('Feat.%dID'    )
+  _v.feature_name  = _v.hdr('[Feat.%dname]')
+  _v.feature_value = _v.hdr('Feat.%dvalue' )
 
   _v.accessory_features     = Hash.new('???')
   _v.accessory_features[-1] = 'None'
@@ -630,6 +631,7 @@ VOC.configure do |_v|
   _v.effects[115] = 'Captain\'s Stripe'
   _v.effects[116] = 'Add Silence (Ship)'
   _v.effects[117] = 'Recover MP (Ship)'
+  _v.effects[255] = 'None'
 
   _v.weapon_effects     = Hash.new('???')
   _v.weapon_effects[-1] = 'None'

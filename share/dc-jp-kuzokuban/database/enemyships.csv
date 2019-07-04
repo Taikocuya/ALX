@@ -1,46 +1,46 @@
-Entry ID,JP entry name,MAXHP,Will,Defense,MagDef,Green,Red,Purple,Blue,Yellow,Silver,Arm. #0 type ID,[Arm. #0 type name],Arm. #0 attack,Arm. #0 range,Arm. #0 hit%,Arm. #0 element ID,[Arm. #0 element name],Arm. #1 type ID,[Arm. #1 type name],Arm. #1 attack,Arm. #1 range,Arm. #1 hit%,Arm. #1 element ID,[Arm. #1 element name],Arm. #2 type ID,[Arm. #2 type name],Arm. #2 attack,Arm. #2 range,Arm. #2 hit%,Arm. #2 element ID,[Arm. #2 element name],Arm. #3 type ID,[Arm. #3 type name],Arm. #3 attack,Arm. #3 range,Arm. #3 hit%,Arm. #3 element ID,[Arm. #3 element name],Padding,EXP,Gold,Item drop ID,[Item drop name],Item ID,[Item name]
-0,バルア駆逐艦,12000,40,35,80,10,20,10,10,10,10,0,Main cannon,120,0,60,6,Neutral,1,Secondary cannon,80,1,50,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,100,100,0,100%,480,???
-1,バルアЖ駆逐艦,12000,40,50,80,10,11,10,10,5,10,0,Main cannon,120,0,60,6,Neutral,1,Secondary cannon,80,1,50,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,150,150,0,100%,480,???
-2,バルア巡洋艦,20000,70,50,50,10,11,10,10,10,10,0,Main cannon,180,0,60,6,Neutral,1,Secondary cannon,100,1,60,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,200,200,0,100%,480,???
-3,バルアЖ巡洋艦,20000,70,70,50,10,10,10,10,5,10,0,Main cannon,180,0,60,6,Neutral,1,Secondary cannon,100,1,60,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,250,250,0,100%,480,???
-4,バルア戦艦,30000,110,90,70,10,10,10,10,10,10,0,Main cannon,230,0,110,6,Neutral,1,Secondary cannon,150,2,150,6,Neutral,2,Torpedo,200,1,160,6,Neutral,-1,None,-1,-1,-1,-1,None,0,300,300,0,100%,480,???
-5,バルアЖ戦艦,30000,110,110,70,10,10,10,10,5,10,0,Main cannon,230,0,110,6,Neutral,1,Secondary cannon,150,2,150,6,Neutral,2,Torpedo,200,1,160,6,Neutral,-1,None,-1,-1,-1,-1,None,0,350,350,0,100%,480,???
-6,バルア新鋭艦,45000,150,120,150,10,10,10,10,10,10,0,Main cannon,250,0,180,6,Neutral,1,Secondary cannon,180,3,180,6,Neutral,2,Torpedo,220,2,200,6,Neutral,-1,None,-1,-1,-1,-1,None,0,400,400,0,100%,480,???
-7,バルアЖ新鋭艦,45000,150,150,150,10,10,10,10,5,10,0,Main cannon,250,0,180,6,Neutral,1,Secondary cannon,180,3,180,6,Neutral,2,Torpedo,220,2,200,6,Neutral,-1,None,-1,-1,-1,-1,None,0,450,450,0,100%,480,???
-8,ガルシアン近衛艦,50000,250,250,200,10,10,10,10,5,10,0,Main cannon,350,0,250,6,Neutral,1,Secondary cannon,250,3,250,6,Neutral,2,Torpedo,300,3,260,6,Neutral,-1,None,-1,-1,-1,-1,None,0,500,500,0,100%,480,???
-9,グレゴリオ巡洋艦,25000,160,130,100,10,10,10,10,5,10,0,Main cannon,190,0,100,6,Neutral,1,Secondary cannon,120,1,100,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,320,320,0,100%,480,???
-10,グレゴリオ戦艦,35000,200,150,110,10,10,10,10,5,10,0,Main cannon,240,0,120,6,Neutral,1,Secondary cannon,190,3,160,6,Neutral,2,Torpedo,210,2,180,6,Neutral,-1,None,-1,-1,-1,-1,None,0,450,450,0,100%,480,???
-11,リンクス,35000,300,280,330,10,10,10,10,10,10,0,Main cannon,200,0,200,6,Neutral,1,Secondary cannon,150,2,220,6,Neutral,2,Torpedo,170,2,180,6,Neutral,-1,None,-1,-1,-1,-1,None,0,1000,150,0,100%,480,???
-12,カミュレオン,45000,350,300,280,5,10,10,10,10,10,0,Main cannon,280,0,260,6,Neutral,1,Secondary cannon,180,1,150,6,Neutral,2,Torpedo,260,3,260,6,Neutral,0,Main cannon,300,0,180,6,Neutral,0,2000,3000,0,100%,480,???
-13,カミュレオン改,48000,350,330,300,5,10,10,10,10,10,0,Main cannon,280,0,260,6,Neutral,2,Torpedo,180,1,150,6,Neutral,2,Torpedo,260,3,260,6,Neutral,0,Main cannon,330,0,200,6,Neutral,0,2000,3000,0,100%,480,???
-14,カミュレオン改改,60000,470,400,400,5,10,10,10,10,10,0,Main cannon,300,0,300,6,Neutral,2,Torpedo,250,2,180,6,Neutral,2,Torpedo,300,2,300,6,Neutral,0,Main cannon,400,0,300,6,Neutral,0,3500,4000,0,100%,480,???
+Entry ID,JP entry name,MAXHP,Will,Defense,MagDef,Green,Red,Purple,Blue,Yellow,Silver,Arm. #0 type ID,[Arm. #0 type name],Arm. #0 attack,Arm. #0 range,Arm. #0 hit%,Arm. #0 element ID,[Arm. #0 element name],Arm. #1 type ID,[Arm. #1 type name],Arm. #1 attack,Arm. #1 range,Arm. #1 hit%,Arm. #1 element ID,[Arm. #1 element name],Arm. #2 type ID,[Arm. #2 type name],Arm. #2 attack,Arm. #2 range,Arm. #2 hit%,Arm. #2 element ID,[Arm. #2 element name],Arm. #3 type ID,[Arm. #3 type name],Arm. #3 attack,Arm. #3 range,Arm. #3 hit%,Arm. #3 element ID,[Arm. #3 element name],Pad.,EXP,Gold,Item drop ID,[Item drop name],Item ID,[Item name]
+0,バルア駆逐艦,12000,40,35,80,10,20,10,10,10,10,0,Main cannon,120,0,60,6,Neutral,1,Secondary cannon,80,1,50,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,100,100,0,100%,480,Ж石弾
+1,バルアЖ駆逐艦,12000,40,50,80,10,11,10,10,5,10,0,Main cannon,120,0,60,6,Neutral,1,Secondary cannon,80,1,50,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,150,150,0,100%,480,Ж石弾
+2,バルア巡洋艦,20000,70,50,50,10,11,10,10,10,10,0,Main cannon,180,0,60,6,Neutral,1,Secondary cannon,100,1,60,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,200,200,0,100%,480,Ж石弾
+3,バルアЖ巡洋艦,20000,70,70,50,10,10,10,10,5,10,0,Main cannon,180,0,60,6,Neutral,1,Secondary cannon,100,1,60,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,250,250,0,100%,480,Ж石弾
+4,バルア戦艦,30000,110,90,70,10,10,10,10,10,10,0,Main cannon,230,0,110,6,Neutral,1,Secondary cannon,150,2,150,6,Neutral,2,Torpedo,200,1,160,6,Neutral,-1,None,-1,-1,-1,-1,None,0,300,300,0,100%,480,Ж石弾
+5,バルアЖ戦艦,30000,110,110,70,10,10,10,10,5,10,0,Main cannon,230,0,110,6,Neutral,1,Secondary cannon,150,2,150,6,Neutral,2,Torpedo,200,1,160,6,Neutral,-1,None,-1,-1,-1,-1,None,0,350,350,0,100%,480,Ж石弾
+6,バルア新鋭艦,45000,150,120,150,10,10,10,10,10,10,0,Main cannon,250,0,180,6,Neutral,1,Secondary cannon,180,3,180,6,Neutral,2,Torpedo,220,2,200,6,Neutral,-1,None,-1,-1,-1,-1,None,0,400,400,0,100%,480,Ж石弾
+7,バルアЖ新鋭艦,45000,150,150,150,10,10,10,10,5,10,0,Main cannon,250,0,180,6,Neutral,1,Secondary cannon,180,3,180,6,Neutral,2,Torpedo,220,2,200,6,Neutral,-1,None,-1,-1,-1,-1,None,0,450,450,0,100%,480,Ж石弾
+8,ガルシアン近衛艦,50000,250,250,200,10,10,10,10,5,10,0,Main cannon,350,0,250,6,Neutral,1,Secondary cannon,250,3,250,6,Neutral,2,Torpedo,300,3,260,6,Neutral,-1,None,-1,-1,-1,-1,None,0,500,500,0,100%,480,Ж石弾
+9,グレゴリオ巡洋艦,25000,160,130,100,10,10,10,10,5,10,0,Main cannon,190,0,100,6,Neutral,1,Secondary cannon,120,1,100,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,320,320,0,100%,480,Ж石弾
+10,グレゴリオ戦艦,35000,200,150,110,10,10,10,10,5,10,0,Main cannon,240,0,120,6,Neutral,1,Secondary cannon,190,3,160,6,Neutral,2,Torpedo,210,2,180,6,Neutral,-1,None,-1,-1,-1,-1,None,0,450,450,0,100%,480,Ж石弾
+11,リンクス,35000,300,280,330,10,10,10,10,10,10,0,Main cannon,200,0,200,6,Neutral,1,Secondary cannon,150,2,220,6,Neutral,2,Torpedo,170,2,180,6,Neutral,-1,None,-1,-1,-1,-1,None,0,1000,150,0,100%,480,Ж石弾
+12,カミュレオン,45000,350,300,280,5,10,10,10,10,10,0,Main cannon,280,0,260,6,Neutral,1,Secondary cannon,180,1,150,6,Neutral,2,Torpedo,260,3,260,6,Neutral,0,Main cannon,300,0,180,6,Neutral,0,2000,3000,0,100%,480,Ж石弾
+13,カミュレオン改,48000,350,330,300,5,10,10,10,10,10,0,Main cannon,280,0,260,6,Neutral,2,Torpedo,180,1,150,6,Neutral,2,Torpedo,260,3,260,6,Neutral,0,Main cannon,330,0,200,6,Neutral,0,2000,3000,0,100%,480,Ж石弾
+14,カミュレオン改改,60000,470,400,400,5,10,10,10,10,10,0,Main cannon,300,0,300,6,Neutral,2,Torpedo,250,2,180,6,Neutral,2,Torpedo,300,2,300,6,Neutral,0,Main cannon,400,0,300,6,Neutral,0,3500,4000,0,100%,480,Ж石弾
 15,-,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,-1,-1,-1,None,-1,None
-16,アウリーガ,50000,500,450,400,10,10,10,10,5,10,0,Main cannon,320,0,240,6,Neutral,1,Secondary cannon,240,2,200,6,Neutral,2,Torpedo,270,2,240,6,Neutral,-1,None,-1,-1,-1,-1,None,0,5000,5000,0,100%,480,???
-17,ドラコ,40000,400,400,360,10,10,20,10,10,10,0,Main cannon,380,0,190,6,Neutral,1,Secondary cannon,260,2,180,6,Neutral,2,Torpedo,300,2,260,6,Neutral,0,Main cannon,400,0,120,6,Neutral,0,5000,5000,0,100%,480,???
-18,ヒュドラ,80000,600,550,500,10,10,10,10,10,10,0,Main cannon,600,0,350,6,Neutral,1,Secondary cannon,450,1,450,6,Neutral,0,Main cannon,550,0,600,6,Neutral,0,Main cannon,700,0,220,6,Neutral,0,8000,6000,0,100%,480,???
-19,ジャンク船,45000,250,200,200,10,10,10,10,10,10,0,Main cannon,280,0,180,6,Neutral,1,Secondary cannon,200,3,200,6,Neutral,2,Torpedo,260,2,230,6,Neutral,-1,None,-1,-1,-1,-1,None,0,1100,1500,0,100%,480,???
-20,ヤフトマー朝船,35000,200,200,160,10,10,10,10,10,10,0,Main cannon,260,0,150,6,Neutral,1,Secondary cannon,190,2,200,6,Neutral,2,Torpedo,240,2,220,6,Neutral,-1,None,-1,-1,-1,-1,None,0,900,3000,0,100%,480,???
-21,黒空賊船,18000,50,40,40,10,10,10,10,255,10,0,Main cannon,80,0,40,6,Neutral,1,Secondary cannon,50,1,50,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,250,300,0,100%,480,???
-22,黒空賊Ж術船,18000,50,60,40,10,10,10,10,10,10,0,Main cannon,80,0,40,6,Neutral,1,Secondary cannon,50,1,50,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,280,450,0,100%,480,???
-23,ブラックベアード,20000,100,40,70,10,10,10,10,10,10,0,Main cannon,90,0,40,6,Neutral,1,Secondary cannon,70,1,70,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,100,1200,0,100%,480,???
-24,レディキュラム,60000,400,400,400,10,0,10,10,10,10,0,Main cannon,300,0,300,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,2000,3000,0,100%,480,???
-25,グリデ・ガルデ,70000,400,400,400,0,10,10,10,10,10,0,Main cannon,450,0,450,6,Neutral,2,Torpedo,480,1,260,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,2500,3000,0,100%,480,???
-26,ブリュウホウ,70000,350,350,350,10,20,10,0,10,10,0,Main cannon,400,0,400,6,Neutral,1,Secondary cannon,300,3,480,6,Neutral,2,Torpedo,340,2,360,6,Neutral,-1,None,-1,-1,-1,-1,None,0,5000,10000,0,100%,480,???
-27,イェラーガ,80000,400,400,400,10,10,10,10,0,10,0,Main cannon,450,0,450,6,Neutral,0,Main cannon,500,0,150,6,Neutral,1,Secondary cannon,380,2,400,6,Neutral,-1,None,-1,-1,-1,-1,None,0,5000,10000,0,100%,480,???
-28,ジェロス,999999,700,700,700,10,10,10,10,10,0,0,Main cannon,600,0,600,6,Neutral,0,Main cannon,500,0,650,6,Neutral,2,Torpedo,850,1,800,6,Neutral,-1,None,-1,-1,-1,-1,None,0,0,0,0,100%,480,???
-29,大ウツボ,52000,200,150,110,255,10,10,10,10,10,0,Main cannon,220,0,160,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,1500,1600,0,100%,480,???
-30,深雲魚,15000,300,270,200,10,10,5,10,20,10,0,Main cannon,250,0,200,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,1800,2000,0,100%,480,???
-31,大深雲魚,20000,300,300,230,10,10,5,10,10,10,0,Main cannon,260,0,220,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,2100,6000,0,100%,480,???
-32,大王イカ,30000,250,220,160,10,10,10,10,10,10,0,Main cannon,200,0,180,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,550,20000,0,100%,480,???
+16,アウリーガ,50000,500,450,400,10,10,10,10,5,10,0,Main cannon,320,0,240,6,Neutral,1,Secondary cannon,240,2,200,6,Neutral,2,Torpedo,270,2,240,6,Neutral,-1,None,-1,-1,-1,-1,None,0,5000,5000,0,100%,480,Ж石弾
+17,ドラコ,40000,400,400,360,10,10,20,10,10,10,0,Main cannon,380,0,190,6,Neutral,1,Secondary cannon,260,2,180,6,Neutral,2,Torpedo,300,2,260,6,Neutral,0,Main cannon,400,0,120,6,Neutral,0,5000,5000,0,100%,480,Ж石弾
+18,ヒュドラ,80000,600,550,500,10,10,10,10,10,10,0,Main cannon,600,0,350,6,Neutral,1,Secondary cannon,450,1,450,6,Neutral,0,Main cannon,550,0,600,6,Neutral,0,Main cannon,700,0,220,6,Neutral,0,8000,6000,0,100%,480,Ж石弾
+19,ジャンク船,45000,250,200,200,10,10,10,10,10,10,0,Main cannon,280,0,180,6,Neutral,1,Secondary cannon,200,3,200,6,Neutral,2,Torpedo,260,2,230,6,Neutral,-1,None,-1,-1,-1,-1,None,0,1100,1500,0,100%,480,Ж石弾
+20,ヤフトマー朝船,35000,200,200,160,10,10,10,10,10,10,0,Main cannon,260,0,150,6,Neutral,1,Secondary cannon,190,2,200,6,Neutral,2,Torpedo,240,2,220,6,Neutral,-1,None,-1,-1,-1,-1,None,0,900,3000,0,100%,480,Ж石弾
+21,黒空賊船,18000,50,40,40,10,10,10,10,255,10,0,Main cannon,80,0,40,6,Neutral,1,Secondary cannon,50,1,50,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,250,300,0,100%,480,Ж石弾
+22,黒空賊Ж術船,18000,50,60,40,10,10,10,10,10,10,0,Main cannon,80,0,40,6,Neutral,1,Secondary cannon,50,1,50,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,280,450,0,100%,480,Ж石弾
+23,ブラックベアード,20000,100,40,70,10,10,10,10,10,10,0,Main cannon,90,0,40,6,Neutral,1,Secondary cannon,70,1,70,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,100,1200,0,100%,480,Ж石弾
+24,レディキュラム,60000,400,400,400,10,0,10,10,10,10,0,Main cannon,300,0,300,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,2000,3000,0,100%,480,Ж石弾
+25,グリデ・ガルデ,70000,400,400,400,0,10,10,10,10,10,0,Main cannon,450,0,450,6,Neutral,2,Torpedo,480,1,260,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,2500,3000,0,100%,480,Ж石弾
+26,ブリュウホウ,70000,350,350,350,10,20,10,0,10,10,0,Main cannon,400,0,400,6,Neutral,1,Secondary cannon,300,3,480,6,Neutral,2,Torpedo,340,2,360,6,Neutral,-1,None,-1,-1,-1,-1,None,0,5000,10000,0,100%,480,Ж石弾
+27,イェラーガ,80000,400,400,400,10,10,10,10,0,10,0,Main cannon,450,0,450,6,Neutral,0,Main cannon,500,0,150,6,Neutral,1,Secondary cannon,380,2,400,6,Neutral,-1,None,-1,-1,-1,-1,None,0,5000,10000,0,100%,480,Ж石弾
+28,ジェロス,999999,700,700,700,10,10,10,10,10,0,0,Main cannon,600,0,600,6,Neutral,0,Main cannon,500,0,650,6,Neutral,2,Torpedo,850,1,800,6,Neutral,-1,None,-1,-1,-1,-1,None,0,0,0,0,100%,480,Ж石弾
+29,大ウツボ,52000,200,150,110,255,10,10,10,10,10,0,Main cannon,220,0,160,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,1500,1600,0,100%,480,Ж石弾
+30,深雲魚,15000,300,270,200,10,10,5,10,20,10,0,Main cannon,250,0,200,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,1800,2000,0,100%,480,Ж石弾
+31,大深雲魚,20000,300,300,230,10,10,5,10,10,10,0,Main cannon,260,0,220,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,2100,6000,0,100%,480,Ж石弾
+32,大王イカ,30000,250,220,160,10,10,10,10,10,10,0,Main cannon,200,0,180,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,550,20000,0,100%,480,Ж石弾
 33,-,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,-1,-1,-1,None,-1,None
 34,-,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,-1,-1,-1,None,-1,None
-35,ロック鳥,45000,300,350,350,10,10,10,10,10,10,0,Main cannon,300,0,150,6,Neutral,0,Main cannon,450,0,100,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,600,600,0,100%,480,???
-36,でかエルモ,39000,240,999,210,10,10,10,10,10,10,0,Main cannon,200,0,150,6,Neutral,2,Torpedo,100,1,50,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,5000,0,0,100%,480,???
-37,角エネミー,45000,280,250,260,10,10,10,10,10,10,0,Main cannon,330,0,240,6,Neutral,2,Torpedo,100,1,50,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,1600,200,0,100%,480,???
-38,要塞ゲート,10000,350,350,0,10,10,10,10,10,10,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,1000,200,0,100%,480,???
+35,ロック鳥,45000,300,350,350,10,10,10,10,10,10,0,Main cannon,300,0,150,6,Neutral,0,Main cannon,450,0,100,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,600,600,0,100%,480,Ж石弾
+36,でかエルモ,39000,240,999,210,10,10,10,10,10,10,0,Main cannon,200,0,150,6,Neutral,2,Torpedo,100,1,50,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,5000,0,0,100%,480,Ж石弾
+37,角エネミー,45000,280,250,260,10,10,10,10,10,10,0,Main cannon,330,0,240,6,Neutral,2,Torpedo,100,1,50,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,1600,200,0,100%,480,Ж石弾
+38,要塞ゲート,10000,350,350,0,10,10,10,10,10,10,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,1000,200,0,100%,480,Ж石弾
 39,-,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,-1,-1,-1,None,-1,None
-40,銀の浮き砲台,25000,350,999,250,10,10,10,10,10,10,0,Main cannon,350,0,350,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,500,0,0,100%,480,???
-41,白き浮き砲台,25000,350,999,250,10,10,10,10,10,10,0,Main cannon,360,0,360,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,500,0,0,100%,480,???
-42,双頭龍,40000,200,120,160,10,10,10,10,10,10,0,Main cannon,240,0,200,6,Neutral,1,Secondary cannon,160,3,100,6,Neutral,2,Torpedo,220,2,160,6,Neutral,-1,None,-1,-1,-1,-1,None,0,1800,2000,0,100%,480,???
-43,ブラックベアー２,27000,180,90,160,10,10,10,10,10,10,0,Main cannon,150,0,120,6,Neutral,1,Secondary cannon,140,1,120,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,500,800,0,100%,480,???
-44,Ж術ジャンク船,40000,200,210,160,10,10,10,10,10,10,0,Main cannon,210,0,180,6,Neutral,1,Secondary cannon,190,2,100,6,Neutral,2,Torpedo,180,3,150,6,Neutral,-1,None,-1,-1,-1,-1,None,0,1700,1000,0,100%,480,???
+40,銀の浮き砲台,25000,350,999,250,10,10,10,10,10,10,0,Main cannon,350,0,350,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,500,0,0,100%,480,Ж石弾
+41,白き浮き砲台,25000,350,999,250,10,10,10,10,10,10,0,Main cannon,360,0,360,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,500,0,0,100%,480,Ж石弾
+42,双頭龍,40000,200,120,160,10,10,10,10,10,10,0,Main cannon,240,0,200,6,Neutral,1,Secondary cannon,160,3,100,6,Neutral,2,Torpedo,220,2,160,6,Neutral,-1,None,-1,-1,-1,-1,None,0,1800,2000,0,100%,480,Ж石弾
+43,ブラックベアー２,27000,180,90,160,10,10,10,10,10,10,0,Main cannon,150,0,120,6,Neutral,1,Secondary cannon,140,1,120,6,Neutral,-1,None,-1,-1,-1,-1,None,-1,None,-1,-1,-1,-1,None,0,500,800,0,100%,480,Ж石弾
+44,Ж術ジャンク船,40000,200,210,160,10,10,10,10,10,10,0,Main cannon,210,0,180,6,Neutral,1,Secondary cannon,190,2,100,6,Neutral,2,Torpedo,180,3,150,6,Neutral,-1,None,-1,-1,-1,-1,None,0,1700,1000,0,100%,480,Ж石弾

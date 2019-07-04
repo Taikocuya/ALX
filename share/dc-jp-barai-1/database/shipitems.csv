@@ -1,4 +1,4 @@
-Entry ID,JP entry name,Occ. flags,[Menu],[Battle],[Ship battle],Ship effect ID,[Ship effect name],Ship effect turns,Consume%,Padding #0,Padding #1,Padding #2,Purchase price,Padding #3,Padding #4,Retail price in %,Order by prio.,JP order by ABC,Padding #5,Ship effect amount,Element ID,[Element name],Unknown #0,Unknown #1,Hit%,[JP descr. pos.],[JP descr. size],JP descr. str.
+Entry ID,JP entry name,Occ. flags,[Menu],[Battle],[Ship battle],Ship effect ID,[Ship effect name],Ship effect turns,Consume%,Pad. #0,Pad. #1,Pad. #2,Purchase price,Pad. #3,Pad. #4,Retail price in %,Order by prio.,JP order by ABC,Pad. #5,Ship effect amount,Element ID,[Element name],Unk. #0,Unk. #1,Hit%,[JP descr. pos.],[JP descr. size],JP descr. str.
 480,爆弾,1,"","",X,107,Damage (Ship),-1,100,0,0,0,100,0,0,50,0,23,0,80,6,Neutral,0,0,0,3411572,72,一般に使用されている、取り扱いの容易な爆弾。\n相手にダメージを与える。
 481,大爆弾,1,"","",X,107,Damage (Ship),-1,100,0,0,0,150,0,0,50,1,18,0,120,6,Neutral,0,0,0,3411644,80,サイズを大きくし、火薬量を増やして\n威力を高めた爆弾。相手にダメージを与える。
 482,特大爆弾,1,"","",X,107,Damage (Ship),-1,100,0,0,0,200,0,0,50,2,19,0,150,6,Neutral,0,0,0,3411724,80,特別な製法で、火薬量を通常の２倍にまで\n増やした爆弾。相手にダメージを与える。

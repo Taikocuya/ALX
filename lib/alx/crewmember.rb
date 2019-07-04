@@ -49,37 +49,53 @@ class CrewMember < StdEntry
 
     members << IntVar.new(VOC.position_id         , -1, :int8 )
     members << StrDmy.new(VOC.position_name       , ''        )
-    
-    if eu?
-      members << IntVar.new(padding_hdr           ,  0, :int8 )
-    end
-    
-    members << IntVar.new(VOC.feature_id[-1]      , -1, :int8 )
-    members << StrDmy.new(VOC.feature_name[-1]    , ''        )
-    members << IntVar.new(padding_hdr             ,  0, :int8 )
-    members << IntVar.new(VOC.feature_value[-1]   ,  0, :int16)
-    members << IntVar.new(VOC.ship_effect_id      , -1, :int8 )
-    members << StrDmy.new(VOC.ship_effect_name    , ''        )
-    members << IntVar.new(VOC.ship_effect_spirit  , -1, :int8 )
-    members << IntVar.new(VOC.ship_effect_turns   , -1, :int8 )
-    members << IntVar.new(padding_hdr             ,  0, :int8 )
-    members << IntVar.new(padding_hdr             ,  0, :int8 )
-    members << IntVar.new(padding_hdr             ,  0, :int8 )
-    
-    if gc? && jp?
-      members << IntVar.new(VOC.unknown[-1]       ,  0, :int16)
-      members << IntVar.new(VOC.ship_effect_value ,  0, :int16)
-    else
-      members << IntVar.new(VOC.ship_effect_value ,  0, :int16)
-      members << IntVar.new(VOC.unknown[-1]       ,  0, :int16)
-    end
 
-    members << IntVar.new(padding_hdr             ,  0, :int8 )
-    members << IntVar.new(padding_hdr             ,  0, :int8 )
-    members << IntVar.new(padding_hdr             ,  0, :int8 )
-    members << IntVar.new(padding_hdr             ,  0, :int8 )
-    
-    add_dscr_members
+    if product_id != '6107110 06' && product_id != '6107810'
+      if eu?
+        members << IntVar.new(padding_hdr           ,  0, :int8 )
+      end
+      
+      members << IntVar.new(VOC.feature_id[-1]      , -1, :int8 )
+      members << StrDmy.new(VOC.feature_name[-1]    , ''        )
+      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      members << IntVar.new(VOC.feature_value[-1]   ,  0, :int16)
+      members << IntVar.new(VOC.ship_effect_id      , -1, :int8 )
+      members << StrDmy.new(VOC.ship_effect_name    , ''        )
+      members << IntVar.new(VOC.ship_effect_spirit  , -1, :int8 )
+      members << IntVar.new(VOC.ship_effect_turns   , -1, :int8 )
+      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      
+      if gc? && jp?
+        members << IntVar.new(VOC.unknown[-1]       ,  0, :int16)
+        members << IntVar.new(VOC.ship_effect_value ,  0, :int16)
+      else
+        members << IntVar.new(VOC.ship_effect_value ,  0, :int16)
+        members << IntVar.new(VOC.unknown[-1]       ,  0, :int16)
+      end
+  
+      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      
+      add_dscr_members
+    else
+      members << IntVar.new(VOC.feature_id[-1]      , -1, :int8 )
+      members << StrDmy.new(VOC.feature_name[-1]    , ''        )
+      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      members << IntVar.new(VOC.feature_value[-1]   ,  0, :int16)
+      members << IntVar.new(VOC.ship_effect_id      , -1, :uint8)
+      members << StrDmy.new(VOC.ship_effect_name    , ''        )
+      members << IntVar.new(VOC.ship_effect_turns   , -1, :int8 )
+      members << IntVar.new(VOC.ship_effect_value   , -1, :int16)
+      members << IntVar.new(unknown_hdr             ,  0, :int16)
+      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      members << IntVar.new(padding_hdr             ,  0, :int8 )
+    end
   end
 
   # Writes one entry to a CSV file.

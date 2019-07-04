@@ -1,4 +1,4 @@
-Entry ID,JP entry name,Pos. ID,[Pos. name],Feature ID,[Feature name],Padding #0,Feature value,Ship effect ID,[Ship effect name],Ship effect spirit,Ship effect turns,Padding #1,Padding #2,Padding #3,Ship effect amount,Unknown,Padding #4,Padding #5,Padding #6,Padding #7,[JP descr. pos.],[JP descr. size],JP descr. str.
+Entry ID,JP entry name,Pos. ID,[Pos. name],Feat. ID,[Feat. name],Pad. #0,Feat. value,Ship effect ID,[Ship effect name],Ship effect spirit,Ship effect turns,Pad. #1,Pad. #2,Pad. #3,Ship effect amount,Unk.,Pad. #4,Pad. #5,Pad. #6,Pad. #7,[JP descr. pos.],[JP descr. size],JP descr. str.
 0,ロレンス,0,Helmsman,4,Quick,0,30,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,3398112,88,船乗り稼業をビジネスと割りきる航海士。\n手なれた操艦で、砲撃戦時のスピードを上昇させる。
 1,ドン,0,Helmsman,6,Dodge%,0,15,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,3398200,100,元はバルアの貴族とのウワサもある酔いどれ航海士。\nそのフラフラした操艦は、船の回避率を上昇させる。
 2,ブラバム,1,Engineer,2,Defense,0,20,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,3398300,96,老いてますます機械への情熱を燃やす熟練の機関士。\n装甲をメンテしてくれ、船の防御力が上昇する。

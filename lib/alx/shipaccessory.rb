@@ -47,48 +47,66 @@ class ShipAccessory < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(VOC.ship_flags                ,  0, :int8  )
+    members << IntVar.new(VOC.ship_flags                  ,  0, :int8  )
     
     if eu?
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
-    end
-    
-    members << StrDmy.new(VOC.ship_littlejack[1]        , ''         )
-    members << StrDmy.new(VOC.ship_littlejack[2]        , ''         )
-    members << StrDmy.new(VOC.ship_delphinus[1]         , ''         )
-    members << StrDmy.new(VOC.ship_delphinus[2]         , ''         )
-    members << StrDmy.new(VOC.ship_delphinus[3]         , ''         )
-
-    (0...4).each do |_i|
-      members << IntVar.new(VOC.feature_id[_i]          , -1, :int8  )
-      members << StrDmy.new(VOC.feature_name[_i]        , ''         )
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
-      members << IntVar.new(VOC.feature_value[_i]       ,  0, :int16 )
+      members << IntVar.new(padding_hdr                   ,  0, :int8  )
     end
 
-    if dc?
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
+    VOC.ships.each do |_id, _ship|
+      members << StrDmy.new(_ship                         , ''         )
     end
 
-    members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
-    
-    if dc?
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
-    end
-    
-    members << IntVar.new(VOC.retail_price              ,  0, :int8  )
-    members << IntVar.new(VOC.order_priority            ,  0, :int8  )
-    members << IntVar.new(VOC.order_alphabet[country_id],  0, :int8  )
-    
-    if dc?
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
+    if product_id != '6107110 06' && product_id != '6107810'
+      (0...4).each do |_i|
+        members << IntVar.new(VOC.feature_id[_i]          , -1, :int8  )
+        members << StrDmy.new(VOC.feature_name[_i]        , ''         )
+        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+        members << IntVar.new(VOC.feature_value[_i]       ,  0, :int16 )
+      end
+  
+      if dc?
+        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+      end
+  
+      members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
+      
+      if dc?
+        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+      end
+      
+      members << IntVar.new(VOC.retail_price              ,  0, :int8  )
+      members << IntVar.new(VOC.order_priority            ,  0, :int8  )
+      members << IntVar.new(VOC.order_alphabet[country_id],  0, :int8  )
+      
+      if dc?
+        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+      else
+        members << IntVar.new(VOC.padding[-1]             ,  0, :int8  )
+      end
+  
+      add_dscr_members
     else
-      members << IntVar.new(VOC.padding[-1]             ,  0, :int8  )
+      members << IntVar.new(padding_hdr                   ,  0, :int8  )
+      members << IntVar.new(padding_hdr                   ,  0, :int8  )
+      members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
+      members << IntVar.new(padding_hdr                   ,  0, :int8  )
+      members << IntVar.new(padding_hdr                   ,  0, :int8  )
+      members << IntVar.new(VOC.retail_price              ,  0, :int8  )
+      members << IntVar.new(padding_hdr                   ,  0, :int8  )
+      
+      (0...4).each do |_i|
+        members << IntVar.new(VOC.feature_id[_i]          , -1, :int8  )
+        members << StrDmy.new(VOC.feature_name[_i]        , ''         )
+        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+        members << IntVar.new(VOC.feature_value[_i]       ,  0, :int16 )
+      end
+      
+      members << IntVar.new(VOC.order_priority            ,  0, :int8  )
+      members << IntVar.new(VOC.order_alphabet[country_id],  0, :int8  )
     end
-
-    add_dscr_members
   end
 
   # Writes one entry to a CSV file.

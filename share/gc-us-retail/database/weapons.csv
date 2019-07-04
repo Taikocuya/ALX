@@ -1,4 +1,4 @@
-Entry ID,US entry name,Chara. ID,[Chara. name],Retail price in %,Order by prio.,US order by ABC,Effect ID,[Effect name],Purchase price,Attack,Hit%,Feature ID,[Feature name],Padding #0,Feature value,[US descr. pos.],[US descr. size],US descr. str.
+Entry ID,US entry name,Chara. ID,[Chara. name],Retail price in %,Order by prio.,US order by ABC,Effect ID,[Effect name],Purchase price,Attack,Hit%,Feat. ID,[Feat. name],Pad. #0,Feat. value,[US descr. pos.],[US descr. size],US descr. str.
 0,Cutlass,0,Vyse,50,0,21,-1,None,70,20,90,-1,None,0,0,2915740,96,"Vyse received these swords as a gift from his\nfather, Dyne. It is light, with a short blade."
 1,Pirate Cutlass,0,Vyse,50,1,48,-1,None,220,33,90,-1,None,0,0,2915836,96,The favorite sword among Air Pirates in the Mid\nOcean area. It is light and very easy to wield.
 2,Sky Cutlass,0,Vyse,50,2,54,-1,None,450,45,90,-1,None,0,0,2915932,88,A cutlass used by Pirates and fishermen alike.\nIts edge is perfect for cleaning fish.
