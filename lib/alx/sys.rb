@@ -786,10 +786,9 @@ SYS.configure do |_s|
 
   # Maximum number of enemies in enemy encounter data
   _s.enemy_encounter_num_enemies = {
-    'DC'               => 84,
+    '*'                => 84,
     'DC-JP-6107110 06' => 50,
     'DC-JP-6107810'    => 50,
-    'GC'               => 84,
   }
   
   # Maximum number of encounters in enemy encounter data
@@ -845,6 +844,13 @@ SYS.configure do |_s|
 #------------------------------------------------------------------------------
 # Enemy instruction data
 #------------------------------------------------------------------------------
+
+  # Maximum number of instructions in enemy instruction data
+  _s.enemy_instruction_num_instructions = {
+    '*'                => 64,
+    'DC-JP-6107110 06' => 32,
+    'DC-JP-6107810'    => 32,
+  }
 
   # Enables or disables the summary of enemy instruction filters. If you 
   # enable the summary of enemy instruction filters, the longest filter of 
@@ -1097,10 +1103,9 @@ SYS.configure do |_s|
 
   # Range of playable ship IDs
   _s.playable_ship_id_range = {
-    'DC'               => 0x0...0x5,
+    '*'                => 0x0...0x5,
     'DC-JP-6107110 06' => 0x0...0x6,
     'DC-JP-6107810'    => 0x0...0x6,
-    'GC'               => 0x0...0x5,
   }
 
   
@@ -1359,11 +1364,10 @@ SYS.configure do |_s|
 
   # Range of shop IDs
   _s.shop_id_range = {
-    'DC'               => 0x0...0x2b,
+    '*'                => 0x0...0x2b,
     'DC-JP-6107810'    => 0x0...0x3 ,
     'DC-JP-6107110 06' => 0x0...0x3 ,
     'DC-US-IGN9'       => 0x0...0x3 ,
-    'GC'               => 0x0...0x2b,
   }
 
   # Offset ranges of shop data

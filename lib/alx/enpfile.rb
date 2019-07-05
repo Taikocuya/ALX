@@ -105,7 +105,7 @@ class EnpFile < EpFile
         if _check != -1
           raise(IOError, 'segments corrupted')
         end
-        
+
         _segments = {}
         (0..._size).each do |_|
           _segname = _f.read_str(SEG_NAME_SIZE)
@@ -139,7 +139,7 @@ class EnpFile < EpFile
         (0..._num_enemies).each do |_|
           _id  = _f.read_int(:int32)
           _pos = _f.read_int(:int32) + _beg
-  
+
           if _id >= 0 && _pos >= 0
             _nodes << create_node(_id, _pos)
           end
@@ -156,7 +156,7 @@ class EnpFile < EpFile
           _encounter.read_from_bin(_f)
           @encounters << _encounter
         end
-  
+
         # Enemies
         _nodes.each do |_node|
           _id    = _node.id

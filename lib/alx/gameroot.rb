@@ -651,6 +651,7 @@ class GameRoot
   # Refreshes the SYS attribute resolver.
   def refresh_sys_attr_rslvr
     @sys_attr_rslvr.clear
+    @sys_attr_rslvr << '*'
     @sys_attr_rslvr << @platform_id     unless @platform_id.empty?
     @sys_attr_rslvr << @product_id      unless @product_id.empty?
     @sys_attr_rslvr << @product_version unless @product_version.empty?

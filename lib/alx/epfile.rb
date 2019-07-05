@@ -40,8 +40,6 @@ class EpFile
 #                                  CONSTANTS
 #==============================================================================
 
-  # Size of instruction table
-  INSTR_SIZE = 0x40
   # EOF mark
   EOF_MARK   = -0x1
 
@@ -225,11 +223,13 @@ class EpFile
   # @param _id       [Integer] Enemy ID
   # @param _filename [String]  File name
   def load_enemy(_f, _id, _filename)
+    _num_instructions = sys(:enemy_instruction_num_instructions)
+
     _enemy = create_enemy(_id, _filename)
     _enemy.read_from_bin(_f)
     @enemies << _enemy
-    
-    (1..INSTR_SIZE).each do |_i|
+
+    (1.._num_instructions).each do |_i|
       _instr          = create_instruction(_i, _filename)
       _instr.enemy_id = _id
       _instr.read_from_bin(_f)
@@ -238,10 +238,8 @@ class EpFile
       end
     end
 
-    if product_id != '6107110 06' && product_id != '6107810'
-      if _f.read_int(:int16) != EOF_MARK
-        raise(EOFError, 'EOF mark not found')
-      end
+    if _f.read_int(:int16) != EOF_MARK
+      raise(EOFError, 'EOF mark not found')
     end
   end
 
@@ -250,6 +248,8 @@ class EpFile
   # @param _enemy    [Enemy]  Enemy object
   # @param _filename [String] File name
   def save_enemy(_f, _enemy, _filename)
+    _num_instructions = sys(:enemy_instruction_num_instructions)
+    
     _id = _enemy.id
     _enemy.write_to_bin(_f)
     
@@ -258,13 +258,13 @@ class EpFile
     if _size == 0
       raise(IOError, "instructions for enemy ##{_id} not found")
     end
-    if _size > INSTR_SIZE
-      raise(IOError, "instruction quota of #{INSTR_SIZE} exceeded")
+    if _size > _num_instructions
+      raise(IOError, "instruction quota of #{_num_instructions} exceeded")
     end
 
     _empty = create_instruction
     _last  = nil
-    (0...INSTR_SIZE).each do |_i|
+    (0..._num_instructions).each do |_i|
       _instr = _instructions[_i]
       unless _instr
         _instr = _empty
@@ -278,9 +278,7 @@ class EpFile
       _last = _instr
     end
 
-    if product_id != '6107110 06' && product_id != '6107810'
-      _f.write_int(EOF_MARK, :int16)
-    end
+    _f.write_int(EOF_MARK, :int16)
   end
   
 end # class EpFile
