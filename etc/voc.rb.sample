@@ -134,17 +134,13 @@ VOC.configure do |_v|
 # Ship
 #------------------------------------------------------------------------------
 
-  _v.ship_flags      = 'Ship flags'
-  _v.ship_littlejack = _v.hdr('[Little Jack%d]')
-  _v.ship_delphinus  = _v.hdr('[Delphinus%d]'  )
-
-  _v.ships    = Hash.new('???')
-  _v.ships[0] = _v.ship_littlejack[1]
-  _v.ships[1] = _v.ship_littlejack[2]
-  _v.ships[2] = _v.ship_delphinus[1]
-  _v.ships[3] = _v.ship_delphinus[2]
-  _v.ships[4] = _v.ship_delphinus[3]
-  _v.ships[5] = '[借ジャンク船]'
+  _v.ship_flags = 'Ship flags'
+  _v.ships      = Hash.new('???')
+  _v.ships[0]   = '[LJ0]'
+  _v.ships[1]   = '[LJ1]'
+  _v.ships[2]   = '[D0]'
+  _v.ships[3]   = '[D1]'
+  _v.ships[4]   = '[D2]'
   
   _v.ship_cannon_id      = _v.hdr('Ship cannon%dID'    )
   _v.ship_cannon_name    = _v.hdr('[Ship cannon%dname]')

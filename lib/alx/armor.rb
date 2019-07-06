@@ -47,31 +47,31 @@ class Armor < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(VOC.character_flags           ,  0, :int8  )
+    members << IntVar.new(VOC.character_flags            ,  0, :int8  )
     VOC.characters.each_value do |_chara|
-      members << StrDmy.new(VOC.character_opt[_chara]   , ''         )
+      members << StrDmy.new(VOC.character_opt[_chara.chr], ''         )
     end
     
-    members << IntVar.new(VOC.retail_price              ,  0, :int8  )
-    members << IntVar.new(VOC.order_priority            , -1, :int8  )
-    members << IntVar.new(VOC.order_alphabet[country_id], -1, :int8  )
+    members << IntVar.new(VOC.retail_price               ,  0, :int8  )
+    members << IntVar.new(VOC.order_priority             , -1, :int8  )
+    members << IntVar.new(VOC.order_alphabet[country_id] , -1, :int8  )
     
     if jp? || us?
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
+      members << IntVar.new(padding_hdr                  ,  0, :int8  )
     end
 
-    members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
+    members << IntVar.new(VOC.purchase_price             ,  0, :uint16)
     
     (0...4).each do |_i|
-      members << IntVar.new(VOC.feature_id[_i]          , -1, :int8  )
-      members << StrDmy.new(VOC.feature_name[_i]        , ''         )
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
-      members << IntVar.new(VOC.feature_value[_i]       ,  0, :int16 )
+      members << IntVar.new(VOC.feature_id[_i]           , -1, :int8  )
+      members << StrDmy.new(VOC.feature_name[_i]         , ''         )
+      members << IntVar.new(padding_hdr                  ,  0, :int8  )
+      members << IntVar.new(VOC.feature_value[_i]        ,  0, :int16 )
     end
 
     if eu?
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
+      members << IntVar.new(padding_hdr                  ,  0, :int8  )
+      members << IntVar.new(padding_hdr                  ,  0, :int8  )
     end
 
     add_dscr_members
@@ -82,7 +82,7 @@ class Armor < StdEntry
   def write_to_csv(_f)
     _flags = find_member(VOC.character_flags).value
     VOC.characters.each do |_id, _chara|
-      _member = VOC.character_opt[_chara]
+      _member = VOC.character_opt[_chara.chr]
       find_member(_member).value = _flags & (0x20 >> _id) != 0 ? 'X' : ''
     end
 
