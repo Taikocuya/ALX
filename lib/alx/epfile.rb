@@ -229,12 +229,14 @@ class EpFile
     _enemy.read_from_bin(_f)
     @enemies << _enemy
 
+    _empty = true
     (1.._num_instructions).each do |_i|
       _instr          = create_instruction(_i, _filename)
       _instr.enemy_id = _id
       _instr.read_from_bin(_f)
-      if _instr.type_id != -1
+      if _instr.type_id != -1 || (_empty && _i == _num_instructions)
         @instructions << _instr
+        _empty = false
       end
     end
 
