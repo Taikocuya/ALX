@@ -265,7 +265,7 @@ class EntryData
   # @param _id         [Integer]   Entry ID
   # @param _id_range   [Range]     ID range
   # @param _data_range [DataRange] Data range
-  # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
+  # @return [Boolean] +true+ if country is valid, otherwise +false+.
   def id_valid?(_id, _id_range, _data_range)
     _valid   = true
     _valid &&= (_id >= _id_range.begin)
@@ -278,7 +278,7 @@ class EntryData
   # @param _pos   [Integer]  I/O position
   # @param _size  [Integer]  Entry size
   # @param _range [DataRang] Data range
-  # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
+  # @return [Boolean] +true+ if country is valid, otherwise +false+.
   def pos_valid?(_pos, _size, _range)
     _valid   = true
     _valid &&= (_pos >= _range.begin)

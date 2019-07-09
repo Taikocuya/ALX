@@ -27,7 +27,7 @@ The commands respectively scripts in the `bin` directory require:
 
 * [Ruby](https://www.ruby-lang.org/) 2.4.0+
 * At least one extracted image of Skies of Arcadia, Skies of Arcadia Legends, 
-  Eternal Arcadia, or Eternal Arcadia Legends
+  Eternal Arcadia or Eternal Arcadia Legends
 
 The shipped and pre-exported CSV files in the subdirectories of `share` 
 require:
@@ -70,7 +70,7 @@ complete game data can already be found in the subdirectories.
 | `share/gc-us-retail`    | Gamecube  | NTSC-U  | Retail Disc               |
 
 The scripts require at least one extracted image of Skies of Arcadia, Skies of 
-Arcadia Legends, Eternal Arcadia, or Eternal Arcadia Legends. The directory 
+Arcadia Legends, Eternal Arcadia or Eternal Arcadia Legends. The directory 
 structure should look like this:
 
 * `share/*/database` (replace the asterisk with any name you choose) for CSV 
@@ -78,8 +78,8 @@ structure should look like this:
 * `share/*/gameroot` (replace the asterisk with any name you choose) for game 
   data
 
-To obtain the game files, you need a corresponding image (ISO, GCM or GDI).
-Please do not ask for download links.
+To obtain the game files, you need a corresponding image (ISO, GCM or GDI) and 
+the appropriate data extraction tool.
 
 | Platform  | Download                                                     |
 |:---------:|:------------------------------------------------------------:|

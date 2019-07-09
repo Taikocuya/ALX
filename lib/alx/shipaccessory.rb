@@ -80,12 +80,7 @@ class ShipAccessory < StdEntry
       members << IntVar.new(VOC.retail_price              ,  0, :int8  )
       members << IntVar.new(VOC.order_priority            ,  0, :int8  )
       members << IntVar.new(VOC.order_alphabet[country_id],  0, :int8  )
-      
-      if dc?
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
-      else
-        members << IntVar.new(VOC.padding[-1]             ,  0, :int8  )
-      end
+      members << IntVar.new(padding_hdr                   ,  0, :int8  )
   
       add_dscr_members
     else
