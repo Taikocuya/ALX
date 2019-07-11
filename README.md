@@ -19,6 +19,7 @@ Features
   special items, usable items and weapons)
 * Playable ship stats
 * Shops
+* Treasure chests
 
 Prerequisites
 -------------
