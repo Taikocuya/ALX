@@ -174,6 +174,8 @@ SYS.configure do |_s|
   _s.enemy_ship_task_csv_file      = "#{_s.data_dir}/enemyshiptasks.csv"
   # Path to CSV file of enemy skills relative to game root
   _s.enemy_super_move_csv_file     = "#{_s.data_dir}/enemysupermoves.csv"
+  # Path to CSV file of enemy skills relative to game root
+  _s.enemy_super_move_csv_file     = "#{_s.data_dir}/enemysupermoves.csv"
   # Path to CSV file of EXP curves relative to game root
   _s.exp_curve_csv_file            = "#{_s.data_dir}/expcurves.csv"
   # Path to CSV file of magic EXP curves relative to game root
@@ -192,6 +194,8 @@ SYS.configure do |_s|
   _s.special_item_csv_file         = "#{_s.data_dir}/specialitems.csv"
   # Path to CSV file of spirit curves relative to game root
   _s.spirit_curve_csv_file         = "#{_s.data_dir}/spiritcurves.csv"
+  # Path to CSV file of treasure chests relative to game root
+  _s.treasure_chest_csv_file       = "#{_s.data_dir}/treasurechests.csv"
   # Path to CSV file of usable items relative to game root
   _s.usable_item_csv_file          = "#{_s.data_dir}/usableitems.csv"
   # Path to CSV file of weapons relative to game root
@@ -247,6 +251,8 @@ SYS.configure do |_s|
   _s.special_item_tpl_file         = 'specialitems.tpl.csv'
   # Path to TPL file of spirit curves relative to 'share' directory
   _s.spirit_curve_tpl_file         = 'spiritcurves.tpl.csv'
+  # Path to TPL file of treasure chests relative to game root
+  _s.treasure_chest_tpl_file       = "#{_s.data_dir}/treasurechests.tpl.csv"
   # Path to TPL file of usable items relative to 'share' directory
   _s.usable_item_tpl_file          = 'usableitems.tpl.csv'
   # Path to TPL file of weapons relative to 'share' directory
@@ -336,8 +342,8 @@ SYS.configure do |_s|
   
   # Offset ranges of accessory data
   _s.accessory_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35d14c...0x35da0c),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x35f1ec...0x35faac),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35d14c...0x35da0c),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x35cb44...0x35d968),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35c2c4...0x35d0e8),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3407a0...0x341420),
@@ -351,17 +357,17 @@ SYS.configure do |_s|
   
   # Offset ranges of accessory names
   _s.accessory_name_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x1a466...0x1a8d2),
-      _s.dr(_s.sot_file_es['DC'], 0x1a32f...0x1a7ce),
-      _s.dr(_s.sot_file_fr['DC'], 0x1a61d...0x1aae6),
-      _s.dr(_s.sot_file_gb['DC'], 0x19f03...0x1a384),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x1a675...0x1aae1),
       _s.dr(_s.sot_file_es['DC'], 0x1a35f...0x1a7fc),
       _s.dr(_s.sot_file_fr['DC'], 0x1a6ad...0x1ab76),
       _s.dr(_s.sot_file_gb['DC'], 0x19f12...0x1a393),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x1a466...0x1a8d2),
+      _s.dr(_s.sot_file_es['DC'], 0x1a32f...0x1a7ce),
+      _s.dr(_s.sot_file_fr['DC'], 0x1a61d...0x1aae6),
+      _s.dr(_s.sot_file_gb['DC'], 0x19f03...0x1a384),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1d6aa...0x1db1c),
@@ -373,17 +379,17 @@ SYS.configure do |_s|
   
   # Offset ranges of accessory descriptions
   _s.accessory_dscr_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x12352...0x138e9),
-      _s.dr(_s.sot_file_es['DC'], 0x121c3...0x13690),
-      _s.dr(_s.sot_file_fr['DC'], 0x121f0...0x13817),
-      _s.dr(_s.sot_file_gb['DC'], 0x11fff...0x134b8),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x12543...0x13ad7),
       _s.dr(_s.sot_file_es['DC'], 0x121e9...0x136b6),
       _s.dr(_s.sot_file_fr['DC'], 0x1227f...0x138a5),
       _s.dr(_s.sot_file_gb['DC'], 0x1200c...0x134c5),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x12352...0x138e9),
+      _s.dr(_s.sot_file_es['DC'], 0x121c3...0x13690),
+      _s.dr(_s.sot_file_fr['DC'], 0x121f0...0x13817),
+      _s.dr(_s.sot_file_gb['DC'], 0x11fff...0x134b8),
     ],
     'DC-JP-6107110 06' => _s.dr(
       _s.exec_file['DC'], 0x2afae4...0x2afe30,
@@ -431,8 +437,8 @@ SYS.configure do |_s|
   
   # Offset ranges of armor data
   _s.armor_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35c88c...0x35d14c),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x35e92c...0x35f1ec),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35c88c...0x35d14c),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x35bec4...0x35cb44),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35b644...0x35c2c4),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33fb20...0x3407a0),
@@ -446,17 +452,17 @@ SYS.configure do |_s|
   
   # Offset ranges of armor names
   _s.armor_name_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x1a06a...0x1a466),
-      _s.dr(_s.sot_file_es['DC'], 0x19ed7...0x1a32f),
-      _s.dr(_s.sot_file_fr['DC'], 0x1a1d5...0x1a61d),
-      _s.dr(_s.sot_file_gb['DC'], 0x19b11...0x19f03),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x1a279...0x1a675),
       _s.dr(_s.sot_file_es['DC'], 0x19f07...0x1a35f),
       _s.dr(_s.sot_file_fr['DC'], 0x1a265...0x1a6ad),
       _s.dr(_s.sot_file_gb['DC'], 0x19b20...0x19f12),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x1a06a...0x1a466),
+      _s.dr(_s.sot_file_es['DC'], 0x19ed7...0x1a32f),
+      _s.dr(_s.sot_file_fr['DC'], 0x1a1d5...0x1a61d),
+      _s.dr(_s.sot_file_gb['DC'], 0x19b11...0x19f03),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1d289...0x1d6aa),
@@ -468,17 +474,17 @@ SYS.configure do |_s|
   
   # Offset ranges of armor descriptions
   _s.armor_dscr_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x10fec...0x12352),
-      _s.dr(_s.sot_file_es['DC'], 0x10f83...0x121c3),
-      _s.dr(_s.sot_file_fr['DC'], 0x10f79...0x121f0),
-      _s.dr(_s.sot_file_gb['DC'], 0x10da4...0x11fff),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x111d9...0x12543),
       _s.dr(_s.sot_file_es['DC'], 0x10faa...0x121e9),
       _s.dr(_s.sot_file_fr['DC'], 0x11008...0x1227f),
       _s.dr(_s.sot_file_gb['DC'], 0x10db1...0x1200c),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x10fec...0x12352),
+      _s.dr(_s.sot_file_es['DC'], 0x10f83...0x121c3),
+      _s.dr(_s.sot_file_fr['DC'], 0x10f79...0x121f0),
+      _s.dr(_s.sot_file_gb['DC'], 0x10da4...0x11fff),
     ],
     'DC-JP-6107110 06' => _s.dr(
       _s.exec_file['DC'], 0x2af878...0x2afae4,
@@ -514,8 +520,8 @@ SYS.configure do |_s|
   
   # Offset ranges of character magic data
   _s.character_magic_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35b994...0x35bea4),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x35da34...0x35df44),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35b994...0x35bea4),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x35a924...0x35afe4),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35a0a4...0x35a764),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33e580...0x33ec40),
@@ -529,17 +535,17 @@ SYS.configure do |_s|
   
   # Offset ranges of character magic names
   _s.character_magic_name_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x19a1b...0x19b29),
-      _s.dr(_s.sot_file_es['DC'], 0x19825...0x19933),
-      _s.dr(_s.sot_file_fr['DC'], 0x19b4e...0x19c5c),
-      _s.dr(_s.sot_file_gb['DC'], 0x194e3...0x195f1),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x19c2a...0x19d38),
       _s.dr(_s.sot_file_es['DC'], 0x19854...0x19963),
       _s.dr(_s.sot_file_fr['DC'], 0x19bde...0x19cec),
       _s.dr(_s.sot_file_gb['DC'], 0x194f2...0x19600),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x19a1b...0x19b29),
+      _s.dr(_s.sot_file_es['DC'], 0x19825...0x19933),
+      _s.dr(_s.sot_file_fr['DC'], 0x19b4e...0x19c5c),
+      _s.dr(_s.sot_file_gb['DC'], 0x194e3...0x195f1),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1cc3a...0x1cd48),
@@ -551,17 +557,17 @@ SYS.configure do |_s|
   
   # Offset ranges of character magic descriptions
   _s.character_magic_dscr_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0xe00e...0xed40),
-      _s.dr(_s.sot_file_es['DC'], 0xdf58...0xec71),
-      _s.dr(_s.sot_file_fr['DC'], 0xdf86...0xece4),
-      _s.dr(_s.sot_file_gb['DC'], 0xdd43...0xeaa4),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0xe17f...0xeeb1),
       _s.dr(_s.sot_file_es['DC'], 0xdf7f...0xec98),
       _s.dr(_s.sot_file_fr['DC'], 0xe016...0xed74),
       _s.dr(_s.sot_file_gb['DC'], 0xdd50...0xeab1),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0xe00e...0xed40),
+      _s.dr(_s.sot_file_es['DC'], 0xdf58...0xec71),
+      _s.dr(_s.sot_file_fr['DC'], 0xdf86...0xece4),
+      _s.dr(_s.sot_file_gb['DC'], 0xdd43...0xeaa4),
     ],
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x2ae5e4...0x2aefa4),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x2adf00...0x2ae8c0),
@@ -581,17 +587,17 @@ SYS.configure do |_s|
   
   # Offset ranges of character magic ship descriptions
   _s.character_magic_ship_dscr_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x183d9...0x18e5d),
-      _s.dr(_s.sot_file_es['DC'], 0x18219...0x18c0e),
-      _s.dr(_s.sot_file_fr['DC'], 0x1843a...0x18ebf),
-      _s.dr(_s.sot_file_gb['DC'], 0x17f3a...0x18955),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x185e8...0x1906c),
       _s.dr(_s.sot_file_es['DC'], 0x18246...0x18c3b),
       _s.dr(_s.sot_file_fr['DC'], 0x184ca...0x18f52),
       _s.dr(_s.sot_file_gb['DC'], 0x17f49...0x18964),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x183d9...0x18e5d),
+      _s.dr(_s.sot_file_es['DC'], 0x18219...0x18c0e),
+      _s.dr(_s.sot_file_fr['DC'], 0x1843a...0x18ebf),
+      _s.dr(_s.sot_file_gb['DC'], 0x17f3a...0x18955),
     ],
     'DC-JP-HDR-0076'   => _s.dr(
       _s.exec_file['DC'], 0x33d1a0...0x33d9e0,
@@ -634,8 +640,8 @@ SYS.configure do |_s|
   
   # Offset ranges of character data
   _s.character_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x333a38...0x337ed4),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x335aa4...0x335e68),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x333a38...0x337ed4),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x35a594...0x35a924),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x359d14...0x35a0a4),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33e1F0...0x33e580),
@@ -656,8 +662,8 @@ SYS.configure do |_s|
   
   # Offset ranges of character super move data
   _s.character_super_move_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35bea4...0x35c24c),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x35df44...0x35e2ec),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35bea4...0x35c24c),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x35afe4...0x35b4c4),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35a764...0x35ac44),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33ec40...0x33f120),
@@ -671,17 +677,17 @@ SYS.configure do |_s|
   
   # Offset ranges of character super move names
   _s.character_super_move_name_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x19b29...0x19c74),
-      _s.dr(_s.sot_file_es['DC'], 0x19933...0x19a98),
-      _s.dr(_s.sot_file_fr['DC'], 0x19c5c...0x19dd8),
-      _s.dr(_s.sot_file_gb['DC'], 0x195f1...0x19744),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x19d38...0x19e83),
       _s.dr(_s.sot_file_es['DC'], 0x19963...0x19ac8),
       _s.dr(_s.sot_file_fr['DC'], 0x19cec...0x19e68),
       _s.dr(_s.sot_file_gb['DC'], 0x19600...0x19753),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x19b29...0x19c74),
+      _s.dr(_s.sot_file_es['DC'], 0x19933...0x19a98),
+      _s.dr(_s.sot_file_fr['DC'], 0x19c5c...0x19dd8),
+      _s.dr(_s.sot_file_gb['DC'], 0x195f1...0x19744),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1cd48...0x1ce93),
@@ -693,17 +699,17 @@ SYS.configure do |_s|
   
   # Offset ranges of character super move descriptions
   _s.character_super_move_dscr_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0xed40...0xf6d1),
-      _s.dr(_s.sot_file_es['DC'], 0xec71...0xf617),
-      _s.dr(_s.sot_file_fr['DC'], 0xece4...0xf696),
-      _s.dr(_s.sot_file_gb['DC'], 0xeaa4...0xf451),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0xeeb1...0xf842),
       _s.dr(_s.sot_file_es['DC'], 0xec98...0xf63e),
       _s.dr(_s.sot_file_fr['DC'], 0xed74...0xf726),
       _s.dr(_s.sot_file_gb['DC'], 0xeab1...0xf45e),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0xed40...0xf6d1),
+      _s.dr(_s.sot_file_es['DC'], 0xec71...0xf617),
+      _s.dr(_s.sot_file_fr['DC'], 0xece4...0xf696),
+      _s.dr(_s.sot_file_gb['DC'], 0xeaa4...0xf451),
     ],
     'DC-JP-6107110 06' => _s.dr(
       _s.exec_file['DC'], 0x2aefa4...0x2af590, exclusions: [0x31]
@@ -736,8 +742,8 @@ SYS.configure do |_s|
   
   # Offset ranges of crew member data
   _s.crew_member_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x360668...0x360878),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x362708...0x362918),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x360668...0x360878),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x36186c...0x361b2c),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x360fec...0x3612ac),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3457c4...0x345adc),
@@ -751,17 +757,17 @@ SYS.configure do |_s|
   
   # Offset ranges of crew member names
   _s.crew_member_name_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x1ba76...0x1bb0c),
-      _s.dr(_s.sot_file_es['DC'], 0x1ba43...0x1bad9),
-      _s.dr(_s.sot_file_fr['DC'], 0x1bd1a...0x1bdb0),
-      _s.dr(_s.sot_file_gb['DC'], 0x1b51f...0x1b5b5),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x1bc84...0x1bd1a),
       _s.dr(_s.sot_file_es['DC'], 0x1ba79...0x1bb0f),
       _s.dr(_s.sot_file_fr['DC'], 0x1bdad...0x1be43),
       _s.dr(_s.sot_file_gb['DC'], 0x1b527...0x1b5bd),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x1ba76...0x1bb0c),
+      _s.dr(_s.sot_file_es['DC'], 0x1ba43...0x1bad9),
+      _s.dr(_s.sot_file_fr['DC'], 0x1bd1a...0x1bdb0),
+      _s.dr(_s.sot_file_gb['DC'], 0x1b51f...0x1b5b5),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1ed75...0x1ee0b),
@@ -773,17 +779,17 @@ SYS.configure do |_s|
   
   # Offset ranges of crew member descriptions
   _s.crew_member_dscr_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x18e5d...0x1958c),
-      _s.dr(_s.sot_file_es['DC'], 0x18c0e...0x1937a),
-      _s.dr(_s.sot_file_fr['DC'], 0x18ebf...0x1964b),
-      _s.dr(_s.sot_file_gb['DC'], 0x18955...0x19052),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x1906c...0x1979b),
       _s.dr(_s.sot_file_es['DC'], 0x18c3b...0x193a9),
       _s.dr(_s.sot_file_fr['DC'], 0x18f4f...0x196db),
       _s.dr(_s.sot_file_gb['DC'], 0x18964...0x19061),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x18e5d...0x1958c),
+      _s.dr(_s.sot_file_es['DC'], 0x18c0e...0x1937a),
+      _s.dr(_s.sot_file_fr['DC'], 0x18ebf...0x1964b),
+      _s.dr(_s.sot_file_gb['DC'], 0x18955...0x19052),
     ],
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33d9e0...0x33e1f0),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x341fe8...0x3427f8),
@@ -841,8 +847,8 @@ SYS.configure do |_s|
   
   # Offset ranges of enemy event BGMs
   _s.enemy_event_bgm_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x362b6c...0x362ba7),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x364c0c...0x364c47),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x362b6c...0x362ba7),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3f673c...0x3f6777),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x3c5a0b...0x3c5a14),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x3c5187...0x3c5190),
@@ -888,8 +894,8 @@ SYS.configure do |_s|
   
   # Offset ranges of enemy magic data
   _s.enemy_magic_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x36fa64...0x36fd34),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x371af8...0x371dc8),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x36fa64...0x36fd34),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x3b83a8...0x3b88b8),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x3b7b28...0x3b8038),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x358bd8...0x3590e8),
@@ -903,13 +909,13 @@ SYS.configure do |_s|
   
   # Offset ranges of enemy magic names
   _s.enemy_magic_name_files = {
-    'DC-EU-MK-51052'   => [
+    'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x12b6...0x13c4),
       _s.dr(_s.sot_file_es['DC'], 0x12a9...0x13b7),
       _s.dr(_s.sot_file_fr['DC'], 0x12ac...0x13ba),
       _s.dr(_s.sot_file_gb['DC'], 0x12a6...0x13b4),
     ],
-    'DC-EU-8320062 50' => [
+    'DC-EU-MK-51052'   => [
       _s.dr(_s.sot_file_de['DC'], 0x12b6...0x13c4),
       _s.dr(_s.sot_file_es['DC'], 0x12a9...0x13b7),
       _s.dr(_s.sot_file_fr['DC'], 0x12ac...0x13ba),
@@ -932,8 +938,8 @@ SYS.configure do |_s|
   
   # Offset ranges of enemy ship data
   _s.enemy_ship_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35e7f0...0x35fa38),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x360890...0x361ad8),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35e7f0...0x35fa38),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x35f3dc...0x3604bc),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35eb5c...0x35fc3c),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3430dc...0x3445f4),
@@ -947,17 +953,17 @@ SYS.configure do |_s|
   
   # Offset ranges of enemy ship names
   _s.enemy_ship_name_files     = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x1b335...0x1b50a),
-      _s.dr(_s.sot_file_es['DC'], 0x1b27e...0x1b453),
-      _s.dr(_s.sot_file_fr['DC'], 0x1b581...0x1b756),
-      _s.dr(_s.sot_file_gb['DC'], 0x1adc0...0x1af95),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x1b54a...0x1b71f),
       _s.dr(_s.sot_file_es['DC'], 0x1b2b4...0x1b489),
       _s.dr(_s.sot_file_fr['DC'], 0x1b612...0x1b7e7),
       _s.dr(_s.sot_file_gb['DC'], 0x1adcf...0x1afa4),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x1b335...0x1b50a),
+      _s.dr(_s.sot_file_es['DC'], 0x1b27e...0x1b453),
+      _s.dr(_s.sot_file_fr['DC'], 0x1b581...0x1b756),
+      _s.dr(_s.sot_file_gb['DC'], 0x1adc0...0x1af95),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1e635...0x1e809),
@@ -969,17 +975,17 @@ SYS.configure do |_s|
   
   # Offset ranges of enemy ship armament names
   _s.enemy_ship_arm_name_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x1bb0c...0x1c0e5),
-      _s.dr(_s.sot_file_es['DC'], 0x1bad9...0x1c0b5),
-      _s.dr(_s.sot_file_fr['DC'], 0x1bdb0...0x1c382),
-      _s.dr(_s.sot_file_gb['DC'], 0x1b5b5...0x1bb4f),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x1bd1a...0x1c2f3),
       _s.dr(_s.sot_file_es['DC'], 0x1bb0f...0x1c0eb),
       _s.dr(_s.sot_file_fr['DC'], 0x1be43...0x1c415),
       _s.dr(_s.sot_file_gb['DC'], 0x1b5bd...0x1bb57),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x1bb0c...0x1c0e5),
+      _s.dr(_s.sot_file_es['DC'], 0x1bad9...0x1c0b5),
+      _s.dr(_s.sot_file_fr['DC'], 0x1bdb0...0x1c382),
+      _s.dr(_s.sot_file_gb['DC'], 0x1b5b5...0x1bb4f),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1ee0b...0x1f3e5),
@@ -1045,8 +1051,8 @@ SYS.configure do |_s|
   
   # Offset ranges of enemy super move data
   _s.enemy_super_move_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x36fd34...0x371274),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x371dc8...0x373308),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x36fd34...0x371274),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x3b88b8...0x3baef8),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x3b8038...0x3ba678),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3590e8...0x35b728),
@@ -1060,13 +1066,13 @@ SYS.configure do |_s|
   
   # Offset ranges of enemy super move names
   _s.enemy_super_move_name_files = {
-    'DC-EU-MK-51052'   => [
+    'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x13c4...0x1dc3),
       _s.dr(_s.sot_file_es['DC'], 0x13b7...0x1e6c),
       _s.dr(_s.sot_file_fr['DC'], 0x13ba...0x1e25),
       _s.dr(_s.sot_file_gb['DC'], 0x13b4...0x1d37),
     ],
-    'DC-EU-8320062 50' => [
+    'DC-EU-MK-51052'   => [
       _s.dr(_s.sot_file_de['DC'], 0x13c4...0x1dc3),
       _s.dr(_s.sot_file_es['DC'], 0x13b7...0x1e6c),
       _s.dr(_s.sot_file_fr['DC'], 0x13ba...0x1e25),
@@ -1089,8 +1095,8 @@ SYS.configure do |_s|
   
   # Offset ranges of EXP curve data
   _s.exp_curve_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.level_file['DC'], 0x0...0x948),
     'DC-EU-8320062 50' => _s.dr(_s.level_file['DC'], 0x0...0x948),
+    'DC-EU-MK-51052'   => _s.dr(_s.level_file['DC'], 0x0...0x948),
     'DC-JP-6107110 06' => _s.dr(_s.level_file['DC'], 0x0...0x948),
     'DC-JP-6107810'    => _s.dr(_s.level_file['DC'], 0x0...0x948),
     'DC-JP-HDR-0076'   => _s.dr(_s.level_file['DC'], 0x0...0x948),
@@ -1111,8 +1117,8 @@ SYS.configure do |_s|
   
   # Offset ranges of magic EXP curve data
   _s.magic_exp_curve_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.level_file['DC'], 0x948...0xaf8),
     'DC-EU-8320062 50' => _s.dr(_s.level_file['DC'], 0x948...0xaf8),
+    'DC-EU-MK-51052'   => _s.dr(_s.level_file['DC'], 0x948...0xaf8),
     'DC-JP-6107110 06' => _s.dr(_s.level_file['DC'], 0x948...0xaf8),
     'DC-JP-6107810'    => _s.dr(_s.level_file['DC'], 0x948...0xaf8),
     'DC-JP-HDR-0076'   => _s.dr(_s.level_file['DC'], 0x948...0xaf8),
@@ -1138,8 +1144,8 @@ SYS.configure do |_s|
   
   # Offset ranges of playable ship data
   _s.playable_ship_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35e64c...0x35e7f0),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x3606ec...0x360890),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35e64c...0x35e7f0),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x35f28c...0x35f3dc),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35ea0c...0x35eb5c),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x342ee8...0x3430dc),
@@ -1153,17 +1159,17 @@ SYS.configure do |_s|
   
   # Offset ranges of playable ship names
   _s.playable_ship_name_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x1b2ff...0x1b335),
-      _s.dr(_s.sot_file_es['DC'], 0x1b248...0x1b27e),
-      _s.dr(_s.sot_file_fr['DC'], 0x1b54b...0x1b581),
-      _s.dr(_s.sot_file_gb['DC'], 0x1ad8a...0x1adc0),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x1b514...0x1b54a),
       _s.dr(_s.sot_file_es['DC'], 0x1b27e...0x1b2b4),
       _s.dr(_s.sot_file_fr['DC'], 0x1b5dc...0x1b612),
       _s.dr(_s.sot_file_gb['DC'], 0x1ad99...0x1adcf),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x1b2ff...0x1b335),
+      _s.dr(_s.sot_file_es['DC'], 0x1b248...0x1b27e),
+      _s.dr(_s.sot_file_fr['DC'], 0x1b54b...0x1b581),
+      _s.dr(_s.sot_file_gb['DC'], 0x1ad8a...0x1adc0),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1e5ff...0x1e635),
@@ -1182,8 +1188,8 @@ SYS.configure do |_s|
   
   # Offset ranges of ship accessory data
   _s.ship_accessory_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35fe98...0x360398),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x361f38...0x362438),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35fe98...0x360398),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x360cdc...0x3613bc),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x36045c...0x360b3c),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x344c34...0x345314),
@@ -1197,17 +1203,17 @@ SYS.configure do |_s|
   
   # Offset ranges of ship accessory names
   _s.ship_accessory_name_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x1b715...0x1b916),
-      _s.dr(_s.sot_file_es['DC'], 0x1b661...0x1b89c),
-      _s.dr(_s.sot_file_fr['DC'], 0x1b95b...0x1bb8d),
-      _s.dr(_s.sot_file_gb['DC'], 0x1b1a8...0x1b3bf),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x1b923...0x1bb24),
       _s.dr(_s.sot_file_es['DC'], 0x1b697...0x1b8d2),
       _s.dr(_s.sot_file_fr['DC'], 0x1b9ec...0x1bc1e),
       _s.dr(_s.sot_file_gb['DC'], 0x1b1b0...0x1b3c7),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x1b715...0x1b916),
+      _s.dr(_s.sot_file_es['DC'], 0x1b661...0x1b89c),
+      _s.dr(_s.sot_file_fr['DC'], 0x1b95b...0x1bb8d),
+      _s.dr(_s.sot_file_gb['DC'], 0x1b1a8...0x1b3bf),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1ea14...0x1ec15),
@@ -1219,17 +1225,17 @@ SYS.configure do |_s|
   
   # Offset ranges of ship accessory descriptions
   _s.ship_accessory_dscr_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x16c49...0x1798f),
-      _s.dr(_s.sot_file_es['DC'], 0x16aec...0x177d1),
-      _s.dr(_s.sot_file_fr['DC'], 0x16cb4...0x179e9),
-      _s.dr(_s.sot_file_gb['DC'], 0x16897...0x1757b),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x16e58...0x17b9e),
       _s.dr(_s.sot_file_es['DC'], 0x16b19...0x177fe),
       _s.dr(_s.sot_file_fr['DC'], 0x16d44...0x17a79),
       _s.dr(_s.sot_file_gb['DC'], 0x168a6...0x1758a),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x16c49...0x1798f),
+      _s.dr(_s.sot_file_es['DC'], 0x16aec...0x177d1),
+      _s.dr(_s.sot_file_fr['DC'], 0x16cb4...0x179e9),
+      _s.dr(_s.sot_file_gb['DC'], 0x16897...0x1757b),
     ],
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33bb44...0x33c86c),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x34014c...0x340e74),
@@ -1254,8 +1260,8 @@ SYS.configure do |_s|
   
   # Offset ranges of ship cannon data
   _s.ship_cannon_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35fa38...0x35fe98),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x361ad8...0x361f38),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35fa38...0x35fe98),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x3604bc...0x360cdc),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35fc3c...0x36045c),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3445f4...0x344c34),
@@ -1269,17 +1275,17 @@ SYS.configure do |_s|
   
   # Offset ranges of ship cannon names
   _s.ship_cannon_name_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x1b50a...0x1b715),
-      _s.dr(_s.sot_file_es['DC'], 0x1b453...0x1b661),
-      _s.dr(_s.sot_file_fr['DC'], 0x1b756...0x1b95b),
-      _s.dr(_s.sot_file_gb['DC'], 0x1af95...0x1b1a8),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x1b71f...0x1b923),
       _s.dr(_s.sot_file_es['DC'], 0x1b489...0x1b697),
       _s.dr(_s.sot_file_fr['DC'], 0x1b7e7...0x1b9ec),
       _s.dr(_s.sot_file_gb['DC'], 0x1afa4...0x1b1b0),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x1b50a...0x1b715),
+      _s.dr(_s.sot_file_es['DC'], 0x1b453...0x1b661),
+      _s.dr(_s.sot_file_fr['DC'], 0x1b756...0x1b95b),
+      _s.dr(_s.sot_file_gb['DC'], 0x1af95...0x1b1a8),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1e809...0x1ea14),
@@ -1291,17 +1297,17 @@ SYS.configure do |_s|
   
   # Offset ranges of ship cannon descriptions
   _s.ship_cannon_dscr_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x15f61...0x16c49),
-      _s.dr(_s.sot_file_es['DC'], 0x15da3...0x16aec),
-      _s.dr(_s.sot_file_fr['DC'], 0x15f44...0x16cb4),
-      _s.dr(_s.sot_file_gb['DC'], 0x15bce...0x16897),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x16170...0x16e58),
       _s.dr(_s.sot_file_es['DC'], 0x15dce...0x16b19),
       _s.dr(_s.sot_file_fr['DC'], 0x15fd4...0x16d44),
       _s.dr(_s.sot_file_gb['DC'], 0x15bdd...0x168a6),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x15f61...0x16c49),
+      _s.dr(_s.sot_file_es['DC'], 0x15da3...0x16aec),
+      _s.dr(_s.sot_file_fr['DC'], 0x15f44...0x16cb4),
+      _s.dr(_s.sot_file_gb['DC'], 0x15bce...0x16897),
     ],
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33aec8...0x33bb44),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x33f4d0...0x34014c),
@@ -1326,8 +1332,8 @@ SYS.configure do |_s|
   
   # Offset ranges of ship item data
   _s.ship_item_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x360398...0x360668),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x362438...0x362708),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x360398...0x360668),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x3613bc...0x36186c),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x360b3c...0x360fec),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x345314...0x3457c4),
@@ -1341,17 +1347,17 @@ SYS.configure do |_s|
   
   # Offset ranges of ship item names
   _s.ship_item_name_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x1b916...0x1ba76),
-      _s.dr(_s.sot_file_es['DC'], 0x1b89c...0x1ba43),
-      _s.dr(_s.sot_file_fr['DC'], 0x1bb8d...0x1bd1a),
-      _s.dr(_s.sot_file_gb['DC'], 0x1b3bf...0x1b51f),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x1bb24...0x1bc84),
       _s.dr(_s.sot_file_es['DC'], 0x1b8d2...0x1ba79),
       _s.dr(_s.sot_file_fr['DC'], 0x1bc1e...0x1bdad),
       _s.dr(_s.sot_file_gb['DC'], 0x1b3c7...0x1b527),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x1b916...0x1ba76),
+      _s.dr(_s.sot_file_es['DC'], 0x1b89c...0x1ba43),
+      _s.dr(_s.sot_file_fr['DC'], 0x1bb8d...0x1bd1a),
+      _s.dr(_s.sot_file_gb['DC'], 0x1b3bf...0x1b51f),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1ec15...0x1ed75),
@@ -1363,17 +1369,17 @@ SYS.configure do |_s|
   
   # Offset ranges of ship item descriptions
   _s.ship_item_dscr_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x1798f...0x183d9),
-      _s.dr(_s.sot_file_es['DC'], 0x177d1...0x18219),
-      _s.dr(_s.sot_file_fr['DC'], 0x179e9...0x1843a),
-      _s.dr(_s.sot_file_gb['DC'], 0x1757b...0x17f3a),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x17b9e...0x185e8),
       _s.dr(_s.sot_file_es['DC'], 0x177fe...0x18246),
       _s.dr(_s.sot_file_fr['DC'], 0x17a79...0x184ca),
       _s.dr(_s.sot_file_gb['DC'], 0x1758a...0x17f49),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x1798f...0x183d9),
+      _s.dr(_s.sot_file_es['DC'], 0x177d1...0x18219),
+      _s.dr(_s.sot_file_fr['DC'], 0x179e9...0x1843a),
+      _s.dr(_s.sot_file_gb['DC'], 0x1757b...0x17f3a),
     ],
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33c86c...0x33d1a0),
     'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x340e74...0x3417a8),
@@ -1403,8 +1409,8 @@ SYS.configure do |_s|
 
   # Offset ranges of shop data
   _s.shop_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x36a85c...0x36b9d4),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x36c8f0...0x36da68),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x36a85c...0x36b9d4),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x3b1828...0x3b1960),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x3b0fa8...0x3b10e0),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3ffec0...0x401038),
@@ -1418,17 +1424,17 @@ SYS.configure do |_s|
   
   # Offset ranges of shop descriptions
   _s.shop_dscr_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0xdc6e...0xdef1),
-      _s.dr(_s.sot_file_es['DC'], 0xdb92...0xde38),
-      _s.dr(_s.sot_file_fr['DC'], 0xdbe3...0xde88),
-      _s.dr(_s.sot_file_gb['DC'], 0xd990...0xdc3b),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0xddc2...0xe045),
       _s.dr(_s.sot_file_es['DC'], 0xdbaf...0xde55),
       _s.dr(_s.sot_file_fr['DC'], 0xdc61...0xdf06),
       _s.dr(_s.sot_file_gb['DC'], 0xd99d...0xdc48),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0xdc6e...0xdef1),
+      _s.dr(_s.sot_file_es['DC'], 0xdb92...0xde38),
+      _s.dr(_s.sot_file_fr['DC'], 0xdbe3...0xde88),
+      _s.dr(_s.sot_file_gb['DC'], 0xd990...0xdc3b),
     ],
     'DC-JP-6107110 06' => _s.dr(
       _s.exec_file['DC'], 0x2b571c...0x2b5750, msg_table: true
@@ -1471,8 +1477,8 @@ SYS.configure do |_s|
   
   # Offset ranges of special item data
   _s.special_item_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35e18c...0x35e54c),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x36022c...0x3605ec),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35e18c...0x35e54c),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x35e4a8...0x35eb88),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35dc28...0x35e308),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x342104...0x3427e4),
@@ -1486,17 +1492,17 @@ SYS.configure do |_s|
   
   # Offset ranges of special item names
   _s.special_item_name_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x1ac8f...0x1b060),
-      _s.dr(_s.sot_file_es['DC'], 0x1abe8...0x1afab),
-      _s.dr(_s.sot_file_fr['DC'], 0x1af13...0x1b2e1),
-      _s.dr(_s.sot_file_gb['DC'], 0x1a741...0x1ab16),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x1aea0...0x1b271),
       _s.dr(_s.sot_file_es['DC'], 0x1ac18...0x1afde),
       _s.dr(_s.sot_file_fr['DC'], 0x1afa5...0x1b372),
       _s.dr(_s.sot_file_gb['DC'], 0x1a752...0x1ab27),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x1ac8f...0x1b060),
+      _s.dr(_s.sot_file_es['DC'], 0x1abe8...0x1afab),
+      _s.dr(_s.sot_file_fr['DC'], 0x1af13...0x1b2e1),
+      _s.dr(_s.sot_file_gb['DC'], 0x1a741...0x1ab16),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1dede...0x1e2b1),
@@ -1508,17 +1514,17 @@ SYS.configure do |_s|
   
   # Offset ranges of special item descriptions
   _s.special_item_dscr_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x151e2...0x15f61),
-      _s.dr(_s.sot_file_es['DC'], 0x14fd2...0x15da3),
-      _s.dr(_s.sot_file_fr['DC'], 0x1513a...0x15f44),
-      _s.dr(_s.sot_file_gb['DC'], 0x14d74...0x15bce),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x153d2...0x16170),
       _s.dr(_s.sot_file_es['DC'], 0x14ffa...0x15dce),
       _s.dr(_s.sot_file_fr['DC'], 0x151ca...0x15fd4),
       _s.dr(_s.sot_file_gb['DC'], 0x14d83...0x15bdd),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x151e2...0x15f61),
+      _s.dr(_s.sot_file_es['DC'], 0x14fd2...0x15da3),
+      _s.dr(_s.sot_file_fr['DC'], 0x1513a...0x15f44),
+      _s.dr(_s.sot_file_gb['DC'], 0x14d74...0x15bce),
     ],
     'DC-JP-6107110 06' => _s.dr(
       _s.exec_file['DC'], 0x2b06dc...0x2b09f8,
@@ -1569,8 +1575,8 @@ SYS.configure do |_s|
   
   # Offset ranges of spirit curve data
   _s.spirit_curve_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x333f6c...0x334410),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x335fd8...0x33647c),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x333f6c...0x334410),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x35eda8...0x35f24c),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35e528...0x35e9cc),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x342a04...0x342ea8),
@@ -1583,6 +1589,32 @@ SYS.configure do |_s|
   }
 
 #------------------------------------------------------------------------------
+# Treasure chest data
+#------------------------------------------------------------------------------
+
+  # Range of treasure chest IDs
+  _s.treasure_chest_id_range = {
+    '*'                => 0x0...0x77,
+    'DC-JP-6107110 06' => 0x0...0x6,
+    'DC-JP-6107810'    => 0x0...0x6,
+  }
+
+  # Offset ranges of treasure chest data
+  _s.treasure_chest_data_files = {
+    'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x334928...0x334ce0),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x3328bc...0x332c74),
+    'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x34c7f8...0x34c810),
+    'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x34bf78...0x34bf90),
+    'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3308dc...0x330c94),
+    'DC-JP-HDR-0119'   => _s.dr(_s.exec_file['DC'], 0x334ee4...0x33529c),
+    'DC-US-IGN9'       => _s.dr(_s.exec_file['DC'], 0x330148...0x330500),
+    'DC-US-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x32f3b0...0x32f768),
+    'GC-EU-GEA'        => _s.dr(_s.exec_file['GC'], 0x2d1610...0x2d19c8),
+    'GC-JP-GEA'        => _s.dr(_s.exec_file['GC'], 0x2d26d0...0x2d2a88),
+    'GC-US-GEA'        => _s.dr(_s.exec_file['GC'], 0x2d29e8...0x2d2da0),
+  }
+
+#------------------------------------------------------------------------------
 # Usable item data
 #------------------------------------------------------------------------------
 
@@ -1591,8 +1623,8 @@ SYS.configure do |_s|
   
   # Offset ranges of usable item data
   _s.usable_item_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35da0c...0x35e18c),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x35faac...0x36022c),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35da0c...0x35e18c),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x35d968...0x35e4a8),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35d0e8...0x35dc28),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x3415c4...0x342104),
@@ -1606,17 +1638,17 @@ SYS.configure do |_s|
   
   # Offset ranges of usable item names
   _s.usable_item_name_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x1a8d2...0x1ac8f),
-      _s.dr(_s.sot_file_es['DC'], 0x1a7ce...0x1abe8),
-      _s.dr(_s.sot_file_fr['DC'], 0x1aae6...0x1af13),
-      _s.dr(_s.sot_file_gb['DC'], 0x1a384...0x1a741),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x1aae1...0x1aea0),
       _s.dr(_s.sot_file_es['DC'], 0x1a7fc...0x1ac18),
       _s.dr(_s.sot_file_fr['DC'], 0x1ab76...0x1afa5),
       _s.dr(_s.sot_file_gb['DC'], 0x1a393...0x1a752),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x1a8d2...0x1ac8f),
+      _s.dr(_s.sot_file_es['DC'], 0x1a7ce...0x1abe8),
+      _s.dr(_s.sot_file_fr['DC'], 0x1aae6...0x1af13),
+      _s.dr(_s.sot_file_gb['DC'], 0x1a384...0x1a741),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1db1c...0x1dede),
@@ -1628,17 +1660,17 @@ SYS.configure do |_s|
   
   # Offset ranges of usable item descriptions
   _s.usable_item_dscr_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x138e9...0x151e2),
-      _s.dr(_s.sot_file_es['DC'], 0x13690...0x14fd2),
-      _s.dr(_s.sot_file_fr['DC'], 0x13817...0x1513a),
-      _s.dr(_s.sot_file_gb['DC'], 0x134b8...0x14d74),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x13ad7...0x153d2),
       _s.dr(_s.sot_file_es['DC'], 0x136b6...0x14ffa),
       _s.dr(_s.sot_file_fr['DC'], 0x138a5...0x151ca),
       _s.dr(_s.sot_file_gb['DC'], 0x134c5...0x14d83),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x138e9...0x151e2),
+      _s.dr(_s.sot_file_es['DC'], 0x13690...0x14fd2),
+      _s.dr(_s.sot_file_fr['DC'], 0x13817...0x1513a),
+      _s.dr(_s.sot_file_gb['DC'], 0x134b8...0x14d74),
     ],
     'DC-JP-6107110 06' => _s.dr(
       _s.exec_file['DC'], 0x2afe30...0x2b06dc,
@@ -1689,8 +1721,8 @@ SYS.configure do |_s|
   
   # Offset ranges of weapon data
   _s.weapon_data_files = {
-    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35c24c...0x35c88c),
     'DC-EU-8320062 50' => _s.dr(_s.exec_file['DC'], 0x35e2ec...0x35e92c),
+    'DC-EU-MK-51052'   => _s.dr(_s.exec_file['DC'], 0x35c24c...0x35c88c),
     'DC-JP-6107110 06' => _s.dr(_s.exec_file['DC'], 0x35b4c4...0x35bec4),
     'DC-JP-6107810'    => _s.dr(_s.exec_file['DC'], 0x35ac44...0x35b644),
     'DC-JP-HDR-0076'   => _s.dr(_s.exec_file['DC'], 0x33f120...0x33fb20),
@@ -1704,17 +1736,17 @@ SYS.configure do |_s|
   
   # Offset ranges of weapon names
   _s.weapon_name_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0x19c74...0x1a06a),
-      _s.dr(_s.sot_file_es['DC'], 0x19a98...0x19ed7),
-      _s.dr(_s.sot_file_fr['DC'], 0x19dd8...0x1a1d5),
-      _s.dr(_s.sot_file_gb['DC'], 0x19744...0x19b11),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0x19e83...0x1a279),
       _s.dr(_s.sot_file_es['DC'], 0x19ac8...0x19f07),
       _s.dr(_s.sot_file_fr['DC'], 0x19e68...0x1a265),
       _s.dr(_s.sot_file_gb['DC'], 0x19753...0x19b20),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0x19c74...0x1a06a),
+      _s.dr(_s.sot_file_es['DC'], 0x19a98...0x19ed7),
+      _s.dr(_s.sot_file_fr['DC'], 0x19dd8...0x1a1d5),
+      _s.dr(_s.sot_file_gb['DC'], 0x19744...0x19b11),
     ],
     'GC-EU-GEA'        => [
       _s.dr(_s.sot_file_de['GC'], 0x1ce93...0x1d289),
@@ -1726,17 +1758,17 @@ SYS.configure do |_s|
   
   # Offset ranges of weapon descriptions
   _s.weapon_dscr_files = {
-    'DC-EU-MK-51052'   => [
-      _s.dr(_s.sot_file_de['DC'], 0xf6d1...0x10fec),
-      _s.dr(_s.sot_file_es['DC'], 0xf617...0x10f83),
-      _s.dr(_s.sot_file_fr['DC'], 0xf696...0x10f79),
-      _s.dr(_s.sot_file_gb['DC'], 0xf451...0x10da4),
-    ],
     'DC-EU-8320062 50' => [
       _s.dr(_s.sot_file_de['DC'], 0xf842...0x111d9),
       _s.dr(_s.sot_file_es['DC'], 0xf63e...0x10faa),
       _s.dr(_s.sot_file_fr['DC'], 0xf726...0x11008),
       _s.dr(_s.sot_file_gb['DC'], 0xf45e...0x10db1),
+    ],
+    'DC-EU-MK-51052'   => [
+      _s.dr(_s.sot_file_de['DC'], 0xf6d1...0x10fec),
+      _s.dr(_s.sot_file_es['DC'], 0xf617...0x10f83),
+      _s.dr(_s.sot_file_fr['DC'], 0xf696...0x10f79),
+      _s.dr(_s.sot_file_gb['DC'], 0xf451...0x10da4),
     ],
     'DC-JP-6107110 06' => _s.dr(
       _s.exec_file['DC'], 0x2af590...0x2af878,

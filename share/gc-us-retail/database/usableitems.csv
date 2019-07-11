@@ -30,10 +30,10 @@ Entry ID,US entry name,Occ. flags,[Menu],[Battle],[Ship battle],Effect ID,[Effec
 268,Pyrum Box,2,"",X,"",0,Damage,4,All enemies,16,1,25,44,1200,0,0,360,0,1,0,0,2934140,84,"A mage of the Red Moon has enchanted a box with\nthe spell, Pyrum. 5 or 6 charges."
 269,Crystales Box,2,"",X,"",0,Damage,3,One enemy,12,1,26,6,800,0,0,330,0,1,0,0,2934224,88,A mage of the Purple Moon has enchanted a box\nwith the spell Crystales. 7 or 8 charges.
 270,Crystalen Box,2,"",X,"",0,Damage,3,One enemy,24,1,27,5,1600,0,0,600,0,1,0,0,2934312,88,A mage of the Purple Moon has enchanted a box\nwith the spell Crystalen. 3 or 4 charges.
-271,Wevles Box,2,"",X,"",0,Damage,33,Enemy area #2,12,1,28,73,800,0,0,285,0,1,0,0,2934400,84,A mage of the Blue Moon has enchanted a box\nwith the spell Wevles. 7 or 8 charges.
-272,Wevlen Box,2,"",X,"",0,Damage,34,Enemy area #3,24,1,29,72,1600,0,0,525,0,1,0,0,2934484,84,A mage of the Blue Moon has enchanted a box\nwith the spell Wevlen. 3 or 4 charges.
-273,Electri Box,2,"",X,"",0,Damage,36,Enemy line #1,8,1,30,12,400,0,0,180,0,1,0,0,2934568,96,A mage of the Yellow Moon has enchanted a box\nwith the spell Electri. It has several charges.
-274,Electrum Box,2,"",X,"",0,Damage,37,Enemy line #2,16,1,31,13,1200,0,0,420,0,1,0,0,2934664,88,A mage of the Yellow Moon has enchanted a box\nwith the spell Electrum. 5 or 6 charges.
+271,Wevles Box,2,"",X,"",0,Damage,33,Enemy area #1,12,1,28,73,800,0,0,285,0,1,0,0,2934400,84,A mage of the Blue Moon has enchanted a box\nwith the spell Wevles. 7 or 8 charges.
+272,Wevlen Box,2,"",X,"",0,Damage,34,Enemy area #2,24,1,29,72,1600,0,0,525,0,1,0,0,2934484,84,A mage of the Blue Moon has enchanted a box\nwith the spell Wevlen. 3 or 4 charges.
+273,Electri Box,2,"",X,"",0,Damage,36,Enemy line #0,8,1,30,12,400,0,0,180,0,1,0,0,2934568,96,A mage of the Yellow Moon has enchanted a box\nwith the spell Electri. It has several charges.
+274,Electrum Box,2,"",X,"",0,Damage,37,Enemy line #1,16,1,31,13,1200,0,0,420,0,1,0,0,2934664,88,A mage of the Yellow Moon has enchanted a box\nwith the spell Electrum. 5 or 6 charges.
 275,Sacri Box,2,"",X,"",31,Recover HP,1,One character,8,1,32,54,800,0,0,500,-1,-1,0,0,2934752,92,A mage of the Green Moon has enchanted a box\nwith the spell Sacri. It has several charges.
 276,Sacrum Box,2,"",X,"",31,Recover HP,2,All characters,16,1,33,56,1200,0,0,1000,-1,-1,0,0,2934844,84,A mage of the Green Moon has enchanted a box\nwith the spell Sacrum. 5 or 6 charges.
 277,Riselem Box,2,"",X,"",28,Revive with 100% of HP,1,One character,32,1,34,49,2400,0,0,0,0,0,7,0,2934928,92,A mage of the Silver Moon has enchanted a box\nwith the spell Riselem. This box is fragile!

@@ -170,7 +170,7 @@ class Enemy < Entry
           if jp? || us?
             _name = _entry.find_member(VOC.name_str[country_id]).value
           elsif eu?
-            _name = _entry.find_member(VOC.name_str['GB']   ).value
+            _name = _entry.find_member(VOC.name_str['GB']).value
           end
         end
       else

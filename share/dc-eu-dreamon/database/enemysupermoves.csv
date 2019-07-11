@@ -1,35 +1,35 @@
 Entry ID,EU message ID,[DE entry name pos.],[DE entry name size],DE entry name,[ES entry name pos.],[ES entry name size],ES entry name,[FR entry name pos.],[FR entry name size],FR entry name,[GB entry name pos.],[GB entry name size],GB entry name,Category ID,[Category name],Effect ID,[Effect name],Scope ID,[Scope name],Pad. #0,Effect value #0,Effect value #1,Element ID,[Element name],Type ID,[Type name],Unk. #0,Unk. #1,State ID,[State name],State hit%,Pad. #1,Pad. #2
 0,2352318904,5060,11,Vulkanstoß,5047,17,Ráfaga Volcánica,5050,13,Volcan Blast,5044,15,Volcanic Blast,0,Super Move,0,Damage,2,All characters,0,16,20,1,Red,0,Physical,0,0,0,Poison,0,0,0
 1,2352318920,5071,12,Aschensturm,5064,17,Ráfaga de ceniza,5063,16,Orage de Cendre,5059,13,Cinder Storm,0,Super Move,8,Add Stone + Damage,1,One character,0,16,5,1,Red,0,Physical,16,17,2,Stone,50,0,0
-2,2352318936,5083,13,Federschnitt,5081,12,Rasgaplumas,5079,17,Plume Tranchante,5072,14,Feather Slash,0,Super Move,0,Damage,102,Character line #3,0,16,30,0,Green,0,Physical,0,0,0,Poison,0,0,0
+2,2352318936,5083,13,Federschnitt,5081,12,Rasgaplumas,5079,17,Plume Tranchante,5072,14,Feather Slash,0,Super Move,0,Damage,102,Character line #2,0,16,30,0,Green,0,Physical,0,0,0,Poison,0,0,0
 3,2352318952,5096,9,KETSUBAN,5093,9,KETSUBAN,5096,9,KETSUBAN,5086,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 4,2352318960,5105,6,Laser,5102,6,Láser,5105,6,Laser,5095,6,Laser,0,Super Move,0,Damage,1,One character,0,16,20,5,Silver,0,Physical,0,0,0,Poison,0,0,0
-5,2352318968,5111,13,Donnerwetter,5108,16,Trueno de Furia,5111,15,Tonnerre Furie,5101,16,Thunder of Fury,0,Super Move,0,Damage,101,Character line #2,0,16,30,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+5,2352318968,5111,13,Donnerwetter,5108,16,Trueno de Furia,5111,15,Tonnerre Furie,5101,16,Thunder of Fury,0,Super Move,0,Damage,101,Character line #1,0,16,30,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
 6,2352318952,5124,9,KETSUBAN,5124,9,KETSUBAN,5126,9,KETSUBAN,5117,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 7,2352318984,5133,11,Panikkreis,5133,17,Círculo de Miedo,5135,15,Cercle de Peur,5126,16,Circle of Panic,0,Super Move,11,Add Confusion,1,One character,0,0,0,0,Green,0,Physical,16,17,4,Confusion,0,0,0
 8,2352319000,5144,11,Schlafring,5150,17,Anillo del Sueño,5150,17,Bague de Sommeil,5142,14,Ring of Sleep,0,Super Move,9,Add Sleep,1,One character,0,0,0,0,Green,0,Physical,16,17,3,Sleep,0,0,0
 9,2352319016,5155,10,Zielsuche,5167,16,Buscar Objetivo,5167,16,Recherche Cible,5156,14,Target Search,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 10,2352318952,5165,9,KETSUBAN,5183,9,KETSUBAN,5183,9,KETSUBAN,5170,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-11,2352319032,5174,8,Attacke,5192,7,Ataque,5192,14,Ruée Mortelle,5179,7,Tackle,0,Super Move,0,Damage,102,Character line #3,0,16,40,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+11,2352319032,5174,8,Attacke,5192,7,Ataque,5192,14,Ruée Mortelle,5179,7,Tackle,0,Super Move,0,Damage,102,Character line #2,0,16,40,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
 12,2352319040,5182,12,Todesschlag,5199,13,Golpe Mortal,5206,12,Coup Mortel,5186,13,Death Strike,0,Super Move,68,Add Unconscious + Damage #2,1,One character,0,16,5,5,Silver,0,Physical,16,17,1,Unconscious,70,0,0
 13,2352319056,5194,6,Laden,5212,7,Ataque,5218,7,Charge,5199,7,Charge,0,Super Move,-1,None,5,User,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-14,2352319064,5200,8,Giftgas,5219,13,Gas Venenoso,5225,15,Gaz Empoisonné,5206,11,Poison Gas,0,Super Move,4,Add Poison + Damage,96,Character area #1,0,16,20,0,Green,0,Physical,16,17,0,Poison,50,0,0
+14,2352319064,5200,8,Giftgas,5219,13,Gas Venenoso,5225,15,Gaz Empoisonné,5206,11,Poison Gas,0,Super Move,4,Add Poison + Damage,96,Character area #0,0,16,20,0,Green,0,Physical,16,17,0,Poison,50,0,0
 15,2352319076,5208,10,Steinatem,5232,16,Brisa de Piedra,5240,15,Souffle Pierre,5217,13,Stone Breath,0,Super Move,8,Add Stone + Damage,1,One character,0,16,15,0,Green,0,Physical,16,17,2,Stone,60,0,0
 16,2352318952,5218,9,KETSUBAN,5248,9,KETSUBAN,5255,9,KETSUBAN,5230,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-17,2352319092,5227,16,Zufallsbeschuss,5257,14,Fuego al Azar,5264,14,Tir aléatoire,5239,12,Random Fire,0,Super Move,0,Damage,98,Character area #3,0,16,25,1,Red,0,Physical,0,0,0,Poison,0,0,0
+17,2352319092,5227,16,Zufallsbeschuss,5257,14,Fuego al Azar,5264,14,Tir aléatoire,5239,12,Random Fire,0,Super Move,0,Damage,98,Character area #2,0,16,25,1,Red,0,Physical,0,0,0,Poison,0,0,0
 18,2352318952,5243,9,KETSUBAN,5271,9,KETSUBAN,5278,9,KETSUBAN,5251,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 19,2352319104,5252,15,Abwehrstellung,5280,15,Contraposición,5287,8,Défense,5260,15,Counter Stance,0,Super Move,38,Counter attack + Guard,5,User,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 20,2352319120,5267,14,Kraft sammeln,5295,17,Recuperar Fuerza,5295,17,Rassembler Force,5275,16,Gather Strength,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 21,2352319104,5281,15,Abwehrstellung,5312,15,Contraposición,5312,8,Défense,5291,15,Counter Stance,0,Super Move,38,Counter attack + Guard,5,User,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-22,2352319136,5296,10,Explosion,5327,10,Explosión,5320,10,Explosion,5306,6,Burst,0,Super Move,0,Damage,97,Character area #2,0,16,40,1,Red,0,Physical,0,0,0,Poison,0,0,0
+22,2352319136,5296,10,Explosion,5327,10,Explosión,5320,10,Explosion,5306,6,Burst,0,Super Move,0,Damage,97,Character area #1,0,16,40,1,Red,0,Physical,0,0,0,Poison,0,0,0
 23,2352319144,5306,9,Terminal,5337,9,Terminal,5330,9,Terminal,5312,9,Terminal,0,Super Move,0,Damage,1,One character,0,16,55,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
 24,2352319156,5315,9,Devolver,5346,8,Delegar,5339,9,Devolver,5321,9,Devolver,0,Super Move,38,Counter attack + Guard,5,User,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 25,2352319168,5324,14,Giftige Galle,5354,15,Furia Venenosa,5348,15,Bile Venimeuse,5330,15,Poisonous Bile,0,Super Move,4,Add Poison + Damage,2,All characters,0,16,20,0,Green,0,Physical,16,17,0,Poison,50,0,0
-26,2352319184,5338,11,Todesblüte,5369,15,Flor de Muerte,5363,16,Éclosion Tueuse,5345,14,Death Blossom,0,Super Move,0,Damage,201,Characters nearby #2,0,16,20,3,Blue,0,Physical,0,0,0,Poison,0,0,0
+26,2352319184,5338,11,Todesblüte,5369,15,Flor de Muerte,5363,16,Éclosion Tueuse,5345,14,Death Blossom,0,Super Move,0,Damage,201,Characters nearby #1,0,16,20,3,Blue,0,Physical,0,0,0,Poison,0,0,0
 27,2352319200,5349,13,Kanonenfeuer,5384,15,Fuego de Cañón,5379,13,Tir de Canon,5359,12,Cannon Fire,0,Super Move,0,Damage,1,One character,0,16,50,1,Red,0,Physical,0,0,0,Poison,0,0,0
 28,2352319212,5362,17,Verbündete rufen,5399,17,Convocar aliados,5392,15,Appel d'alliés,5371,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,27,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 29,2352319212,5379,17,Verbündete rufen,5416,17,Convocar aliados,5407,15,Appel d'alliés,5383,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,31,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-30,2352319224,5396,8,Radstoß,5433,15,Onda expansiva,5422,14,Obus explosif,5395,12,Wheel Blast,0,Super Move,0,Damage,97,Character area #2,0,16,35,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+30,2352319224,5396,8,Radstoß,5433,15,Onda expansiva,5422,14,Obus explosif,5395,12,Wheel Blast,0,Super Move,0,Damage,97,Character area #1,0,16,35,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
 31,2352319236,5404,10,Laserstoß,5448,13,Ráfaga láser,5436,16,Explosion Laser,5407,12,Laser Blast,0,Super Move,8,Add Stone + Damage,1,One character,0,16,5,6,Neutral,0,Physical,16,17,2,Stone,20,0,0
 32,2352319248,5414,12,Crypt-Laser,5461,16,Láser de Cripta,5452,13,Laser Crypte,5419,12,Crypt Laser,0,Super Move,68,Add Unconscious + Damage #2,1,One character,0,16,5,5,Silver,0,Physical,16,17,1,Unconscious,60,0,0
 33,2352319260,5426,11,Todeslaser,5477,16,Láser Mortífero,5465,13,Laser Mortel,5431,12,Death Laser,0,Super Move,68,Add Unconscious + Damage #2,1,One character,0,16,5,5,Silver,0,Physical,16,17,1,Unconscious,60,0,0
@@ -41,7 +41,7 @@ Entry ID,EU message ID,[DE entry name pos.],[DE entry name size],DE entry name,[
 39,2352319324,5491,12,Blitzschlag,5548,15,Golpe del Rayo,5533,15,Coup de Foudre,5497,17,Lightning Strike,0,Super Move,0,Damage,1,One character,0,16,20,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
 40,2352319344,5503,17,Furchtbarer Biss,5563,17,Mordisco Temible,5548,17,Terrible Morsure,5514,14,Terrible Bite,0,Super Move,72,Add Fatigue + Damage,1,One character,0,16,15,0,Green,0,Physical,16,17,6,Fatigue,20,0,0
 41,2352319360,5520,11,Tiefschlaf,5580,15,Sueño Profundo,5565,16,Profond Sommeil,5528,11,Deep Sleep,0,Super Move,63,Add Regenerate + Add Sleep,5,User,0,400,65535,0,Green,0,Physical,0,0,0,Poison,0,0,0
-42,2352319372,5531,12,Avalauncher,5595,12,Avalauncher,5581,11,Avalanceur,5539,12,Avalauncher,0,Super Move,0,Damage,102,Character line #3,0,16,35,2,Purple,0,Physical,0,0,0,Poison,0,0,0
+42,2352319372,5531,12,Avalauncher,5595,12,Avalauncher,5581,11,Avalanceur,5539,12,Avalauncher,0,Super Move,0,Damage,102,Character line #2,0,16,35,2,Purple,0,Physical,0,0,0,Poison,0,0,0
 43,2352319384,5543,15,Silber-Eklipse,5607,17,Eclipse de Plata,5592,17,Éclipse d'argent,5551,15,Silver Eclipse,0,Super Move,0,Damage,2,All characters,0,16,25,5,Silver,0,Physical,0,0,0,Poison,0,0,0
 44,2352319400,5558,11,Entwässern,5624,8,Desecar,5609,11,Épuisement,5566,6,Drain,0,Super Move,26,Add Weak,1,One character,0,0,0,0,Green,0,Physical,16,17,8,Weak,0,0,0
 45,2352319408,5569,15,Erholungspause,5632,17,Turno de Reposar,5620,13,Récupération,5572,14,Turn Recovery,0,Super Move,33,Add Regenerate,5,User,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
@@ -56,7 +56,7 @@ Entry ID,EU message ID,[DE entry name pos.],[DE entry name size],DE entry name,[
 54,2352319496,5686,12,Todeswalzer,5760,12,Vals Mortal,5750,17,Valse de la Mort,5676,12,Death Waltz,0,Super Move,0,Damage,2,All characters,0,16,40,6,Neutral,0,Physical,0,0,0,Poison,0,0,0
 55,2352319508,5698,11,Einspannen,5772,11,Involucrar,5767,11,Engagement,5688,7,Engage,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 56,2352319516,5709,9,Gewitter,5783,17,Ráfaga de Trueno,5778,6,Orage,5695,14,Thunder Storm,0,Super Move,0,Damage,2,All characters,0,16,20,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
-57,2352319532,5718,10,Wehklagen,5800,17,Sollozo Pavoroso,5784,12,Cri Lugubre,5709,11,Eerie Wail,0,Super Move,0,Damage,107,Character line #5,0,16,15,2,Purple,0,Physical,0,0,0,Poison,0,0,0
+57,2352319532,5718,10,Wehklagen,5800,17,Sollozo Pavoroso,5784,12,Cri Lugubre,5709,11,Eerie Wail,0,Super Move,0,Damage,107,Character line #4,0,16,15,2,Purple,0,Physical,0,0,0,Poison,0,0,0
 58,2352319272,5728,16,Schadenaufnahme,5817,13,Evaluar Daño,5796,15,Estimer Dégâts,5720,14,Assess Damage,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 59,2352319496,5744,12,Todeswalzer,5830,12,Vals Mortal,5811,17,Valse de la Mort,5734,12,Death Waltz,0,Super Move,0,Damage,2,All characters,0,16,40,6,Neutral,0,Physical,0,0,0,Poison,0,0,0
 60,2352319544,5756,15,Vigoros Zauber,5842,17,Magia de Vigoro,5828,17,Charme de Vigoro,5746,15,Vigoro's Charm,0,Super Move,70,Add Confusion + Damage,1,One character,0,16,5,1,Red,0,Physical,16,17,4,Confusion,0,0,0
@@ -69,8 +69,8 @@ Entry ID,EU message ID,[DE entry name pos.],[DE entry name size],DE entry name,[
 67,2352319212,5841,17,Verbündete rufen,5938,17,Convocar aliados,5924,15,Appel d'alliés,5824,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,60,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 68,2352319212,5858,17,Verbündete rufen,5955,17,Convocar aliados,5939,15,Appel d'alliés,5836,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,84,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 69,2352319212,5875,17,Verbündete rufen,5972,17,Convocar aliados,5954,15,Appel d'alliés,5848,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,107,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-70,2352319588,5892,16,Houroku Torpedo,5989,8,Granade,5969,17,Torpille Houroku,5860,8,Grenade,0,Super Move,0,Damage,96,Character area #1,0,16,20,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
-71,2352319064,5908,8,Giftgas,5997,13,Gas Venenoso,5986,15,Gas Empoisonné,5868,11,Poison Gas,0,Super Move,4,Add Poison + Damage,96,Character area #1,0,16,20,0,Green,0,Physical,16,17,0,Poison,50,0,0
+70,2352319588,5892,16,Houroku Torpedo,5989,8,Granade,5969,17,Torpille Houroku,5860,8,Grenade,0,Super Move,0,Damage,96,Character area #0,0,16,20,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+71,2352319064,5908,8,Giftgas,5997,13,Gas Venenoso,5986,15,Gas Empoisonné,5868,11,Poison Gas,0,Super Move,4,Add Poison + Damage,96,Character area #0,0,16,20,0,Green,0,Physical,16,17,0,Poison,50,0,0
 72,2352319596,5916,16,Sacrum-Kristall,6010,15,Cristal Sacrum,6001,15,Cristal Sacrum,5879,15,Sacrum Crystal,0,Super Move,31,Recover HP,4,All enemies,0,1000,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 73,2352319212,5932,17,Verbündete rufen,6025,17,Convocar aliados,6016,15,Appel d'alliés,5894,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,97,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 74,2352319212,5949,17,Verbündete rufen,6042,17,Convocar aliados,6031,15,Appel d'alliés,5906,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,75,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
@@ -98,7 +98,7 @@ Entry ID,EU message ID,[DE entry name pos.],[DE entry name size],DE entry name,[
 96,2352318952,6265,9,KETSUBAN,6362,9,KETSUBAN,6348,9,KETSUBAN,6190,9,KETSUBAN,0,Super Move,0,Damage,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 97,2352319792,6274,8,Notfall,6371,11,Emergencia,6357,8,Urgence,6199,10,Emergency,0,Super Move,64,Call enemy + Defeat all enemies,0,None,0,99,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 98,2352319212,6282,17,Verbündete rufen,6382,17,Convocar aliados,6365,15,Appel d'alliés,6209,12,Call Allies,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-99,2352319804,6299,8,Blaster,6399,8,Blaster,6380,9,Explosif,6221,8,Blaster,0,Super Move,0,Damage,101,Character line #2,0,16,25,5,Silver,0,Physical,0,0,0,Poison,0,0,0
+99,2352319804,6299,8,Blaster,6399,8,Blaster,6380,9,Explosif,6221,8,Blaster,0,Super Move,0,Damage,101,Character line #1,0,16,25,5,Silver,0,Physical,0,0,0,Poison,0,0,0
 100,2352319812,6307,7,Magie?,6407,8,¿Magia?,6389,8,Magie ?,6229,7,Magic?,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 101,2352319820,6314,6,DUMMY,6415,6,DUMMY,6397,6,DUMMY,6236,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 102,2352319820,6320,6,DUMMY,6421,6,DUMMY,6403,6,DUMMY,6242,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
@@ -118,7 +118,7 @@ Entry ID,EU message ID,[DE entry name pos.],[DE entry name size],DE entry name,[
 116,2352319836,6514,11,Krafttrunk,6615,16,Poción Poderosa,6577,15,Potion Pouvoir,6386,13,Power Potion,0,Super Move,21,Add Strengthen,3,One enemy,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 117,2352319852,6525,13,Schnelltrunk,6631,17,Poción de Prisas,6592,15,Potion Vitesse,6399,13,Speed Potion,0,Super Move,20,Add Quickened,4,All enemies,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 118,2352319668,6538,16,Sacres-Kristall,6648,15,Cristal Sacres,6607,15,Cristal Sacres,6412,15,Sacres Crystal,0,Super Move,31,Recover HP,3,One enemy,0,1000,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-119,2352319868,6554,13,Todesattacke,6663,17,Embestida Mortal,6622,13,Tacle Mortel,6427,13,Death Tackle,0,Super Move,0,Damage,102,Character line #3,0,16,40,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+119,2352319868,6554,13,Todesattacke,6663,17,Embestida Mortal,6622,13,Tacle Mortel,6427,13,Death Tackle,0,Super Move,0,Damage,102,Character line #2,0,16,40,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
 120,2352319784,6567,6,DUMMY,6680,6,DUMMY,6635,6,DUMMY,6440,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 121,2352319784,6573,6,DUMMY,6686,6,DUMMY,6641,6,DUMMY,6446,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 122,2352319784,6579,6,DUMMY,6692,6,DUMMY,6647,6,DUMMY,6452,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
@@ -160,8 +160,8 @@ Entry ID,EU message ID,[DE entry name pos.],[DE entry name size],DE entry name,[
 158,2352319784,6795,6,DUMMY,6908,6,DUMMY,6863,6,DUMMY,6668,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 159,2352319784,6801,6,DUMMY,6914,6,DUMMY,6869,6,DUMMY,6674,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 160,2352319884,6807,6,Suche,6920,9,Búsqueda,6875,10,Recherche,6680,7,Search,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-161,2352319064,6813,8,Giftgas,6929,13,Gas Venenoso,6885,15,Gaz Empoisonné,6687,11,Poison Gas,0,Super Move,4,Add Poison + Damage,96,Character area #1,0,16,15,0,Green,0,Physical,16,17,0,Poison,50,0,0
-162,2352319892,6821,13,Ermüdungsgas,6942,14,Gas de Fatiga,6900,15,Gaz de Fatigue,6698,12,Fatigue Gas,0,Super Move,72,Add Fatigue + Damage,96,Character area #1,0,16,15,4,Yellow,0,Physical,16,17,6,Fatigue,20,0,0
+161,2352319064,6813,8,Giftgas,6929,13,Gas Venenoso,6885,15,Gaz Empoisonné,6687,11,Poison Gas,0,Super Move,4,Add Poison + Damage,96,Character area #0,0,16,15,0,Green,0,Physical,16,17,0,Poison,50,0,0
+162,2352319892,6821,13,Ermüdungsgas,6942,14,Gas de Fatiga,6900,15,Gaz de Fatigue,6698,12,Fatigue Gas,0,Super Move,72,Add Fatigue + Damage,96,Character area #0,0,16,15,4,Yellow,0,Physical,16,17,6,Fatigue,20,0,0
 163,2352319784,6834,6,DUMMY,6956,6,DUMMY,6915,6,DUMMY,6710,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 164,2352319784,6840,6,DUMMY,6962,6,DUMMY,6921,6,DUMMY,6716,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 165,2352319784,6846,6,DUMMY,6968,6,DUMMY,6927,6,DUMMY,6722,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
@@ -190,7 +190,7 @@ Entry ID,EU message ID,[DE entry name pos.],[DE entry name size],DE entry name,[
 188,2352319784,7014,6,DUMMY,7162,6,DUMMY,7117,6,DUMMY,6899,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 189,2352319784,7020,6,DUMMY,7168,6,DUMMY,7123,6,DUMMY,6905,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 190,2352319976,7026,7,Damyun,7174,7,Damyun,7129,7,Damyun,6911,7,Damyun,0,Super Move,12,Add Silence,2,All characters,0,0,0,0,Green,0,Physical,16,17,5,Silence,40,0,0
-191,2352319984,7033,15,Schlummerstaub,7181,16,Polvo de Dormir,7136,15,Poudre Sommeil,6918,13,Slumber Dust,0,Super Move,9,Add Sleep,102,Character line #3,0,0,0,0,Green,0,Physical,16,17,3,Sleep,40,0,0
+191,2352319984,7033,15,Schlummerstaub,7181,16,Polvo de Dormir,7136,15,Poudre Sommeil,6918,13,Slumber Dust,0,Super Move,9,Add Sleep,102,Character line #2,0,0,0,0,Green,0,Physical,16,17,3,Sleep,40,0,0
 192,2352319784,7048,6,DUMMY,7197,6,DUMMY,7151,6,DUMMY,6931,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 193,2352319784,7054,6,DUMMY,7203,6,DUMMY,7157,6,DUMMY,6937,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 194,2352319784,7060,6,DUMMY,7209,6,DUMMY,7163,6,DUMMY,6943,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
@@ -249,8 +249,8 @@ Entry ID,EU message ID,[DE entry name pos.],[DE entry name size],DE entry name,[
 247,2352319784,7444,6,DUMMY,7597,6,DUMMY,7533,6,DUMMY,7299,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 248,2352319784,7450,6,DUMMY,7603,6,DUMMY,7539,6,DUMMY,7305,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 249,2352319784,7456,6,DUMMY,7609,6,DUMMY,7545,6,DUMMY,7311,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-250,2352320032,7462,12,Windschnitt,7615,14,Corta Vientos,7551,15,Vent Tranchant,7317,11,Wind Slash,0,Super Move,0,Damage,103,Character line #4,0,16,15,3,Blue,0,Physical,0,0,0,Poison,0,0,0
-251,2352320044,7474,12,Schallwelle,7629,11,Ola Sónica,7566,14,Vague Sonique,7328,11,Sonic Wave,0,Super Move,0,Damage,103,Character line #4,0,16,15,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+250,2352320032,7462,12,Windschnitt,7615,14,Corta Vientos,7551,15,Vent Tranchant,7317,11,Wind Slash,0,Super Move,0,Damage,103,Character line #3,0,16,15,3,Blue,0,Physical,0,0,0,Poison,0,0,0
+251,2352320044,7474,12,Schallwelle,7629,11,Ola Sónica,7566,14,Vague Sonique,7328,11,Sonic Wave,0,Super Move,0,Damage,103,Character line #3,0,16,15,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
 252,2352318952,7486,9,KETSUBAN,7640,9,KETSUBAN,7580,9,KETSUBAN,7339,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 253,2352319784,7495,6,DUMMY,7649,6,DUMMY,7589,6,DUMMY,7348,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 254,2352319784,7501,6,DUMMY,7655,6,DUMMY,7595,6,DUMMY,7354,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
@@ -269,5 +269,5 @@ Entry ID,EU message ID,[DE entry name pos.],[DE entry name size],DE entry name,[
 267,2352319784,7579,6,DUMMY,7737,6,DUMMY,7674,6,DUMMY,7432,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 268,2352319784,7585,6,DUMMY,7743,6,DUMMY,7680,6,DUMMY,7438,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 269,2352319784,7591,6,DUMMY,7749,6,DUMMY,7686,6,DUMMY,7444,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-270,2352320064,7597,17,Selbstzerstörung,7755,16,Autodestrucción,7692,17,Auto-destruction,7450,14,Self-destruct,0,Super Move,62,Damage + Defeat user,200,Characters nearby #1,0,16,40,0,Green,0,Physical,16,17,0,Poison,100,0,0
-271,2352320080,7614,14,Giftexplosion,7771,17,Ráfaga de Veneno,7709,17,Explosion Poison,7464,15,Poison Explode,0,Super Move,62,Damage + Defeat user,200,Characters nearby #1,0,16,40,0,Green,0,Physical,16,17,0,Poison,50,0,0
+270,2352320064,7597,17,Selbstzerstörung,7755,16,Autodestrucción,7692,17,Auto-destruction,7450,14,Self-destruct,0,Super Move,62,Damage + Defeat user,200,Characters nearby #0,0,16,40,0,Green,0,Physical,16,17,0,Poison,100,0,0
+271,2352320080,7614,14,Giftexplosion,7771,17,Ráfaga de Veneno,7709,17,Explosion Poison,7464,15,Poison Explode,0,Super Move,62,Damage + Defeat user,200,Characters nearby #0,0,16,40,0,Green,0,Physical,16,17,0,Poison,50,0,0
