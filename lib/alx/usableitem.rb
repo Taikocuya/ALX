@@ -68,11 +68,14 @@ class UsableItem < StdEntry
     members << IntVar.new(padding_hdr                   ,  0, :int8  )
     members << IntVar.new(padding_hdr                   ,  0, :int8  )
     members << IntVar.new(VOC.effect_value[-1]          ,  0, :int16 )
-    members << IntVar.new(unknown_hdr                   ,  0, :int8  )
-    members << IntVar.new(unknown_hdr                   ,  0, :int8  )
-    members << IntVar.new(unknown_hdr                   ,  0, :int16 )
+    members << IntVar.new(VOC.element_id                ,  0, :int8  )
+    members << StrDmy.new(VOC.element_name              , ''         )
+    members << IntVar.new(VOC.type_id                   ,  0, :int8  )
+    members << StrDmy.new(VOC.type_name                 , ''         )
+    members << IntVar.new(VOC.state_id                  ,  0, :int16 )
+    members << StrDmy.new(VOC.state_name                , ''         )
     members << IntVar.new(VOC.hit                       ,  0, :int16 )
-    
+
     add_dscr_members
   end
 
@@ -89,6 +92,15 @@ class UsableItem < StdEntry
     
     _id = find_member(VOC.scope_id).value
     find_member(VOC.scope_name).value = VOC.scopes[_id]
+    
+    _id = find_member(VOC.element_id).value
+    find_member(VOC.element_name).value = VOC.elements[_id]
+    
+    _id = find_member(VOC.type_id).value
+    find_member(VOC.type_name).value = VOC.types[_id]
+    
+    _id = find_member(VOC.state_id).value
+    find_member(VOC.state_name).value = VOC.states[_id]
     
     super
   end
