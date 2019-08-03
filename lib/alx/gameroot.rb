@@ -664,9 +664,9 @@ class GameRoot
   # @param _sym [Symbol] Method symbol
   # @return [Boolean] +true+ if SYS attribute is valid, otherwise +false+.
   def check_sys_attr(_sym)
-    _attr = SYS.send(_sym)
-    _ids  = PLATFORMS.select do |_platform, _| 
-      _attr.find(_platform) do |_key, _|
+    _attr   = SYS.send(_sym)
+    _ids    = PLATFORMS.select do |_platform, _| 
+      _attr.find do |_key, _|
         _key.split('-').first == _platform
       end
     end
@@ -674,10 +674,10 @@ class GameRoot
     
     _msg = sprintf(VOC.check_sys_attr, "SYS.#{_sym}")
     if _result
-      _msg += sprintf(' - %s (%s)', VOC.valid,     _ids.keys.join(', '))
+      _msg += sprintf(' - %s (%s)', VOC.valid, _ids.keys.join(', '))
       ALX::LOG.info(_msg)
     else
-      _msg += sprintf(' - %s (%s)', VOC.incorrect, _ids.keys.join(', '))
+      _msg += sprintf(' - %s', VOC.incorrect)
       ALX::LOG.error(_msg)
     end
     
