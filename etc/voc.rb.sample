@@ -428,10 +428,10 @@ VOC.configure do |_v|
   _v.ship_accessory_features[ 4] = 'Quick'
   _v.ship_accessory_features[ 6] = 'Dodge%'
   _v.ship_accessory_features[ 7] = 'Value'
-  _v.ship_accessory_features[48] = 'Attack: Main cannon'
-  _v.ship_accessory_features[64] = 'Attack: Secondary cannon'
-  _v.ship_accessory_features[81] = 'Hit%: Torpedo'
-  _v.ship_accessory_features[96] = 'Attack: S-Cannon'
+  _v.ship_accessory_features[48] = 'Main cannon attack'
+  _v.ship_accessory_features[64] = 'Secondary cannon attack'
+  _v.ship_accessory_features[81] = 'Torpedo hit%'
+  _v.ship_accessory_features[96] = 'Special attack'
 
   _v.ship_cannon_types     = Hash.new('???')
   _v.ship_cannon_types[-1] = 'None'
@@ -475,7 +475,7 @@ VOC.configure do |_v|
 
   _v.state_id   = 'State ID'
   _v.state_name = '[State name]'
-  _v.state_hit  = 'State hit%'
+  _v.state_miss = 'State miss%'
   
   _v.states     = Hash.new('???')
   _v.states[-1] = 'None'

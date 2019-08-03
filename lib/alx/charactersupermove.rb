@@ -74,7 +74,7 @@ class CharacterSuperMove < StdEntry
     members << StrDmy.new(VOC.type_name         , ''         )
     members << IntVar.new(VOC.state_id          ,  0, :int8  )
     members << StrDmy.new(VOC.state_name        , ''         )
-    members << IntVar.new(VOC.state_hit         ,  0, :int8  )
+    members << IntVar.new(VOC.state_miss        ,  0, :int8  )
     members << IntVar.new(padding_hdr           ,  0, :int8  )
     members << IntVar.new(padding_hdr           ,  0, :int8  )
     members << IntVar.new(padding_hdr           ,  0, :int8  )
