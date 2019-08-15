@@ -252,7 +252,7 @@ SYS.configure do |_s|
   # Path to TPL file of spirit curves relative to 'share' directory
   _s.spirit_curve_tpl_file         = 'spiritcurves.tpl.csv'
   # Path to TPL file of treasure chests relative to game root
-  _s.treasure_chest_tpl_file       = "#{_s.data_dir}/treasurechests.tpl.csv"
+  _s.treasure_chest_tpl_file       = 'treasurechests.tpl.csv'
   # Path to TPL file of usable items relative to 'share' directory
   _s.usable_item_tpl_file          = 'usableitems.tpl.csv'
   # Path to TPL file of weapons relative to 'share' directory
