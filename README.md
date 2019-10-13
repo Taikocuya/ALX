@@ -1,7 +1,7 @@
-ALX - Skies of Arcadia Legends Examiner
+ALX — Skies of Arcadia Legends Examiner
 =======================================
 
-*ALX* is a very simple, fast, cross-platform and object-oriented command line 
+ALX is a very simple, fast, cross-platform and object-oriented command line 
 tool to extract the game data from Skies of Arcadia, Skies of Arcadia Legends,
 Eternal Arcadia and Eternal Arcadia Legends. It is able to export and import 
 the data to and from CSV files.

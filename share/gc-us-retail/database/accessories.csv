@@ -5,7 +5,7 @@ Entry ID,US entry name,Chara. flags,[V],[A],[F],[D],[E],[G],Retail price in %,Or
 163,Moondust Ring,58,X,X,X,"",X,"",50,4,35,0,1530,1,Will,0,48,-1,None,0,0,-1,None,0,0,-1,None,0,0,2926984,68,A ring decorated with tiny shards of Moon\nStones. Increases Will.
 164,Lover's Ring,58,X,X,X,"",X,"",50,2,30,0,300,18,MagDef,0,12,1,Will,0,12,-1,None,0,0,-1,None,0,0,2927052,92,A finely crafted ring that depicts two lovers\nembracing. Increases Magic Defense and Will.
 165,Jade Swirl Ring,58,X,X,X,"",X,"",50,5,29,0,2960,18,MagDef,0,45,1,Will,0,45,-1,None,0,0,-1,None,0,0,2927144,84,A ring decorated with two drops of liquid jade.\nIncreases Magic Defense and Will.
-166,Cupil Ring,8,"","",X,"","","",100,6,14,0,10000,49,Death,0,-5,37,Silver,0,-5,18,MagDef,0,100,1,Will,0,100,2927228,96,"A ring that looks like Cupil. Boosts Spirit and\nResistance to Silver Attacks, and Eterni Magic."
+166,Cupil Ring,8,"","",X,"","","",100,6,14,0,10000,49,Unconscious,0,-5,37,Silver,0,-5,18,MagDef,0,100,1,Will,0,100,2927228,96,"A ring that looks like Cupil. Boosts Spirit and\nResistance to Silver Attacks, and Eterni Magic."
 167,Warrior's Heart,58,X,X,X,"",X,"",100,7,59,0,10,77,Recover spirit,0,2,-1,None,0,0,-1,None,0,0,-1,None,0,0,2927324,84,"A ring with a glowing gem, that allows the user\nto recover Spirit during battle."
 168,Throkryn's Scale,53,X,X,"",X,"",X,50,8,55,0,300,16,Attack,0,10,-1,None,0,0,-1,None,0,0,-1,None,0,0,2927408,68,A weapon modification made from a Throkryn.\nRaises Attack Power.
 169,Thryllak's Scale,53,X,X,"",X,"",X,50,9,56,0,2300,16,Attack,0,36,-1,None,0,0,-1,None,0,0,-1,None,0,0,2927476,88,"A scale of a Thryllak, an animal even deadlier\nthan the Throkryn. Raises Attack Power."
@@ -20,9 +20,9 @@ Entry ID,US entry name,Chara. flags,[V],[A],[F],[D],[E],[G],Retail price in %,Or
 178,Warrior's Rune,57,X,X,X,"","",X,100,19,60,0,10,16,Attack,0,10,17,Defense,0,10,19,Hit%,0,20,20,Dodge%,0,10,2928180,84,"A ring with mystic engravings. Increases Attack\nPower, Defense, Hit% and Dodge%."
 179,Ancient Bracer,53,X,X,"",X,"",X,100,20,0,0,10,16,Attack,0,20,17,Defense,0,20,19,Hit%,0,40,20,Dodge%,0,20,2928264,88,"A bracer used by ancient gladiators. Improves\nAttack Power, Defense, Hit% and Dodge%."
 180,Counter Bracer,53,X,X,"",X,"",X,100,21,10,0,10,73,Counter%,0,20,16,Attack,0,20,19,Hit%,0,20,-1,None,0,0,2928352,92,"Improves physical attributes slightly, as well\nas Counterattacking, Attack Power and Hit%."
-181,Defensive Aura,63,X,X,X,X,X,X,100,22,15,0,10,65,Block attacks,0,1,17,Defense,0,40,-1,None,0,0,-1,None,0,0,2928444,84,"Renders the wearer invulnerable to normal\nAttacks, and improves Defense as well."
+181,Defensive Aura,63,X,X,X,X,X,X,100,22,15,0,10,65,Block attack,0,1,17,Defense,0,40,-1,None,0,0,-1,None,0,0,2928444,84,"Renders the wearer invulnerable to normal\nAttacks, and improves Defense as well."
 182,Ivy Band,63,X,X,X,X,X,X,100,23,28,0,100,48,Poison,0,-10,32,Green,0,-2,17,Defense,0,5,18,MagDef,0,5,2928528,88,"Boosts Defense & Magic Defense, especially to\nGreen Magic, & protects against Poison."
-183,Silvite Ring,63,X,X,X,X,X,X,100,30,47,0,100,49,Death,0,-10,37,Silver,0,-2,17,Defense,0,5,18,MagDef,0,5,2928616,88,"Boosts Defense & Magic Defense, especially to\nSilver Magic, & protects against Death."
+183,Silvite Ring,63,X,X,X,X,X,X,100,30,47,0,100,49,Unconscious,0,-10,37,Silver,0,-2,17,Defense,0,5,18,MagDef,0,5,2928616,88,"Boosts Defense & Magic Defense, especially to\nSilver Magic, & protects against Death."
 184,Gem of Fluidity,63,X,X,X,X,X,X,100,29,21,0,100,50,Stone,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,2928704,60,"Boosts Defense & Magic Defense, & protects\nagainst Stone."
 185,Wind Gem Ring,63,X,X,X,X,X,X,100,24,62,0,100,51,Sleep,0,-10,35,Blue,0,-2,17,Defense,0,5,18,MagDef,0,5,2928764,84,"Boosts Defense & Magic Defense, especially to\nBlue Magic, & protects against Sleep."
 186,Eye of Truth,63,X,X,X,X,X,X,100,25,18,0,100,52,Confuse,0,-10,34,Purple,0,-2,17,Defense,0,5,18,MagDef,0,5,2928848,92,"Boosts Defense & Magic Defense, especially to\nPurple Magic, & protects against Confusion."
@@ -57,7 +57,7 @@ Entry ID,US entry name,Chara. flags,[V],[A],[F],[D],[E],[G],Retail price in %,Or
 215,Silver Veil,24,"",X,X,"","","",100,53,46,0,100,1,Will,0,16,18,MagDef,0,16,-1,None,0,0,-1,None,0,0,2931232,88,A mystic veil that protects the head. The\nsilver strands increase Will & Magic Defense.
 216,Imperial Crest,2,"","","","",X,"",100,55,27,0,1000,17,Defense,0,20,18,MagDef,0,20,-1,None,0,0,-1,None,0,0,2931320,84,Given to protect members of the Royal Family.\nImproves Defense and Magic Defense.
 217,Gilder's Amulet,49,X,X,"","","",X,100,54,24,0,500,17,Defense,0,11,18,MagDef,0,11,16,Attack,0,11,1,Will,0,11,2931404,84,"Worn around Gilder's neck. Improves Defense,\nMagic Defense, Attack Power, and Will."
-218,Valuan Medallion,63,X,X,X,X,X,X,100,60,57,0,5000,49,Death,0,-10,17,Defense,0,30,18,MagDef,0,30,-1,None,0,0,2931488,76,Enchanted medallion worn by officers in the\nArmada. Negates Eterni spells.
+218,Valuan Medallion,63,X,X,X,X,X,X,100,60,57,0,5000,49,Unconscious,0,-10,17,Defense,0,30,18,MagDef,0,30,-1,None,0,0,2931488,76,Enchanted medallion worn by officers in the\nArmada. Negates Eterni spells.
 219,Immunity Ring,5,"","","",X,"",X,50,50,26,0,1490,79,Block negative states,0,-6,17,Defense,0,21,-1,None,0,0,-1,None,0,0,2931564,64,Sacred Ring. Boosts Defense and Resistance to\nadverse effects.
 220,Thermo Ring,63,X,X,X,X,X,X,50,58,53,0,2080,33,Red,0,-5,34,Purple,0,-5,-1,None,0,0,-1,None,0,0,2931628,64,A ring that increases resistance to Red and \nPurple Attacks.
 221,Slayer Ring,63,X,X,X,X,X,X,50,59,50,0,1010,1,Will,0,8,17,Defense,0,8,19,Hit%,0,10,4,Quick,0,8,2931692,68,"Raises Defense, Hit%, Will, and Quick.\nIts background is unknown."
