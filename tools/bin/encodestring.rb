@@ -68,8 +68,9 @@ class StringEncoder < EntryTransform
     end
   
     ALX::LOG.info(sprintf('Input string in %s: %s', IN_STR.encoding, IN_STR))
-    _output = IN_STR.each_byte.map { |b| b.to_s(16) }
-    ALX::LOG.info(sprintf('Output string in hexadecimal: %s', _output.join))
+    _output = IN_STR.each_byte.map { |_b| sprintf('%02x', _b) }
+    _output = _output.join(' ')
+    ALX::LOG.info(sprintf('Output string in hexadecimal: %s', _output))
   end
 
 end # class StringEncoder

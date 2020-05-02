@@ -89,7 +89,7 @@ class FltVar < DataMember
     super(_value)
   end
   
-end # class IntVar
+end # class FltVar
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

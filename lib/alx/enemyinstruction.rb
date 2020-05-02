@@ -146,7 +146,7 @@ class EnemyInstruction < Entry
     case _type_id
     # Strategy
     when 0
-      # TODO!
+      # Nothing to do.
     # Action
     when 1
       # Action type

@@ -103,7 +103,7 @@ class CharacterMagicData < StdEntryData
         if jp? || us?
           _str.value  = _f.read_str(0xff, 0x4)
         else
-          _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
+          _str.value  = _f.read_str(0xff, 0x1, 'Windows-1252')
         end
         _size.value = _f.pos - _pos.value
 
@@ -186,7 +186,7 @@ class CharacterMagicData < StdEntryData
         if jp? || us?
           _f.write_str(_str, _size, 0x4)
         else
-          _f.write_str(_str, _size, 0x1, 'ISO8859-1')
+          _f.write_str(_str, _size, 0x1, 'Windows-1252')
         end
       end
     end

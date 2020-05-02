@@ -47,7 +47,7 @@ class Exporter
 #==============================================================================
 
   # Executables of exporters
-  EXEC_FILES = File.join(File.join(File.dirname(__FILE__)), 'export[a-z]*.rb')
+  EXEC_FILES = File.join(File.dirname(__FILE__), 'export[a-z]*.rb')
 
 #==============================================================================
 #                                   PUBLIC
@@ -59,7 +59,7 @@ class Exporter
     super
     @exec_files = Dir.glob(EXEC_FILES)
     @exec_files.select! do |_p|
-      File.file?(_p)
+      File.file?(_p) && File.basename(_p) != 'exportdefinedstrings.rb'
     end
   end
   

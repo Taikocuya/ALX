@@ -57,7 +57,7 @@ class HdrFile
       @region_id    = _f.read_str(0x1)
       @maker_id     = _f.read_str(0x2)
       _f.pos        = 0x20
-      @product_name = _f.read_str(0x64)
+      @product_name = _f.read_str(0x64).strip
     end
   end
 

@@ -59,7 +59,7 @@ class SnapshotRemover < EntryTransform
   def exec
     super
     
-    _sht_pattern = sprintf(EntryData::SHT_FILE, '*', '*')
+    _sht_pattern = sprintf(ShtManager::SHT_FILE, '*', '*')
     data.each do |_root|
       Dir.glob(_root.join(:snapshot_dir, _sht_pattern)).each do |_p|
         remove_snapshot(_p)

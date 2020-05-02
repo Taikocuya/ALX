@@ -68,10 +68,10 @@ class BnrFile
       end
       
       _f.pos        = 0x1820
-      @product_name = _f.read_str(32)
-      @maker_name   = _f.read_str(32)
+      @product_name = _f.read_str(32).strip
+      @maker_name   = _f.read_str(32).strip
       _f.pos        = 0x18e0
-      @description  = _f.read_str(128)
+      @description  = _f.read_str(128).strip
     end
   end
   

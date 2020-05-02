@@ -45,21 +45,21 @@ class StrVar < DataMember
   # @param _name  [String]  Name
   # @param _value [String]  Value
   # @param _size  [Integer] Size
-  # @param _eol   [String]  End of line mark
-  def initialize(_name, _value, _size, _eol = "\n")
+  # @param _esc   [Boolean] Escape non-printing characters
+  def initialize(_name, _value, _size, _esc = true)
     super(_name, _value)
     @size = _size
-    @eol  = _eol
+    @esc  = _esc
   end
 
-  # Reads one entry from a binary I/O stream.
+  # Reads one entry from a binary I/O stream
   # @param _f [IO] Binary I/O stream
   def read_from_bin(_f)
     super
     self.value = _f.read_str(@size)
   end
   
-  # Write one entry to a binary I/O stream.
+  # Write one entry to a binary I/O stream
   # @param _f [IO] Binary I/O stream
   def write_to_bin(_f)
     super
@@ -70,18 +70,33 @@ class StrVar < DataMember
   # @param _row [CSV::Row] CSV row
   def read_from_csv_row(_row)
     super
+    
     self.value = _row[name] || value
     self.value.force_encoding('UTF-8')
-    self.value.gsub!('\n', @eol)
+    
+    if @esc
+      self.value.gsub!(/(?<!\\)\\n/                ) { "\n"            }
+      self.value.gsub!(/(?<!\\)\\r/                ) { "\r"            }
+      self.value.gsub!(/(?<!\\)\\t/                ) { "\t"            }
+      self.value.gsub!(/\\\\/                      ) { "\\"            }
+    end
   end
 
   # Writes one entry to a CSV row.
   # @param _row [CSV::Row] CSV row
   def write_to_csv_row(_row)
     super
+    
     _value = value.dup
     _value.force_encoding('UTF-8')
-    _value.gsub!(@eol, '\n')
+    
+    if @esc
+      _value.gsub!(/\\(?!x[0-9A-Fa-f]{2})/) { '\\\\' }
+      _value.gsub!(/\t/                   ) { '\t'   }
+      _value.gsub!(/\r/                   ) { '\r'   }
+      _value.gsub!(/\n/                   ) { '\n'   }
+    end
+    
     _row[name] = _value
   end
 
@@ -90,7 +105,7 @@ class StrVar < DataMember
 #------------------------------------------------------------------------------
 
   attr_accessor :size
-  attr_accessor :eol
+  attr_accessor :esc
 
   def value=(_value)
     _value = _value.to_s

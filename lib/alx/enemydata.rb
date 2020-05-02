@@ -142,7 +142,7 @@ class EnemyData < EntryData
   # @param _filename [String]  File name
   # @return [Enemy] Enemy object
   def find_enemy(_id, _filename)
-    _enemies = @enemies.select { |_enemy| _enemy.id == _id }
+    _enemies = @enemies.find_all { |_enemy| _enemy.id == _id }
     
     _enemy ||= _enemies.find do |_entry|
       _entry.files.include?(File.basename(_filename))
@@ -597,7 +597,7 @@ class EnemyData < EntryData
       # Snapshots are not loaded and differences will not be detected, which 
       # enormously increases the total runtime.
       if @instructions.empty?
-        _snapshot = snapshots[:enemies].dup
+        _snapshot = snaps[:enemies].dup
       end
       
       while !_f.eof?
@@ -646,7 +646,7 @@ class EnemyData < EntryData
       # Snapshots are not loaded and differences will not be detected, which 
       # enormously increases the total runtime.
       unless @enemies.empty?
-        _snapshot = snapshots[:instructions]
+        _snapshot = snaps[:instructions]
         if _snapshot
           _snapshot = _snapshot.group_by do |_instr|
             _instr.group_key
@@ -701,7 +701,7 @@ class EnemyData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
-      _snapshot = snapshots[:events].dup
+      _snapshot = snaps[:events].dup
       
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
@@ -742,7 +742,7 @@ class EnemyData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
-      _snapshot = snapshots[:encounters].dup
+      _snapshot = snaps[:encounters].dup
       
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))

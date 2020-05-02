@@ -132,7 +132,7 @@ class Enemy < Entry
     _found
   end
 
-  # Reads one entry from a CSV  file.
+  # Reads one entry from a CSV file.
   # @param _csv [CSV] CSV object
   def read_from_csv(_csv)
     super

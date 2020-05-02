@@ -48,9 +48,9 @@ module Executable
 #==============================================================================
 
   # Version of ALX
-  VERSION = '4.0.0'
+  VERSION = '4.1.0'
   # Date of ALX
-  DATE    = Date.new(2019, 7, 9)
+  DATE    = Date.new(2020, 5, 1)
 
 #==============================================================================
 #                                   PUBLIC
@@ -58,7 +58,7 @@ module Executable
 
   public
 
-  # Constructs a Executable.
+  # Constructs an Executable.
   def initialize
     show_version
   end

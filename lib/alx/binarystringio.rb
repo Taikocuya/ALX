@@ -22,6 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
+require('delegate')
 require('stringio')
 require_relative('serializable.rb')
 

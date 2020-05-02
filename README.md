@@ -26,7 +26,7 @@ Prerequisites
 
 The commands respectively scripts in the `bin` directory require:
 
-* [Ruby](https://www.ruby-lang.org/) 2.4.0+
+* [Ruby](https://www.ruby-lang.org/) 2.7+
 * At least one extracted image of Skies of Arcadia, Skies of Arcadia Legends, 
   Eternal Arcadia or Eternal Arcadia Legends
 
@@ -55,20 +55,22 @@ complete game data can already be found in the subdirectories.
 | Path                    | Platform  | Region  | Notes                     |
 |:-----------------------:|:---------:|:-------:|:-------------------------:|
 | `share/dc-eu-dreamon`   | Dreamcast | PAL-E   | Dreamon Vol. 20           |
-| `share/dc-eu-retail-1`  | Dreamcast | PAL-E   | Retail Disc No. 1         |
-| `share/dc-eu-retail-2`  | Dreamcast | PAL-E   | Retail Disc No. 2         |
-| `share/dc-jp-barai-1`   | Dreamcast | NTSC-J  | @barai Disc No. 1         |
-| `share/dc-jp-barai-2`   | Dreamcast | NTSC-J  | @barai Disc No. 2         |
+| `share/dc-eu-preview-1` | Dreamcast | PAL-E   | Beta Preview (1/2)        |
+| `share/dc-eu-preview-2` | Dreamcast | PAL-E   | Beta Preview (1/2)        |
+| `share/dc-eu-retail-1`  | Dreamcast | PAL-E   | Original (1/2)            |
+| `share/dc-eu-retail-2`  | Dreamcast | PAL-E   | Original (2/2)            |
+| `share/dc-jp-barai-1`   | Dreamcast | NTSC-J  | @barai (1/2)              |
+| `share/dc-jp-barai-2`   | Dreamcast | NTSC-J  | @barai (2/2)              |
 | `share/dc-jp-express`   | Dreamcast | NTSC-J  | Dreamcast Express Vol. 6  |
 | `share/dc-jp-kuzokuban` | Dreamcast | NTSC-J  | Kuzokuban (Trial Edition) |
-| `share/dc-jp-retail-1`  | Dreamcast | NTSC-J  | Retail Disc No. 1         |
-| `share/dc-jp-retail-2`  | Dreamcast | NTSC-J  | Retail Disc No. 2         |
+| `share/dc-jp-retail-1`  | Dreamcast | NTSC-J  | Original (1/2)            |
+| `share/dc-jp-retail-2`  | Dreamcast | NTSC-J  | Original (2/2)            |
 | `share/dc-us-magazine`  | Dreamcast | NTSC-U  | Official Magazine Vol. 9  |
-| `share/dc-us-retail-1`  | Dreamcast | NTSC-U  | Retail Disc No. 1         |
-| `share/dc-us-retail-2`  | Dreamcast | NTSC-U  | Retail Disc No. 2         |
-| `share/gc-eu-retail`    | Gamecube  | PAL-E   | Retail Disc               |
-| `share/gc-jp-retail`    | Gamecube  | NTSC-J  | Retail Disc               |
-| `share/gc-us-retail`    | Gamecube  | NTSC-U  | Retail Disc               |
+| `share/dc-us-retail-1`  | Dreamcast | NTSC-U  | Original (1/2)            |
+| `share/dc-us-retail-2`  | Dreamcast | NTSC-U  | Original (2/2)            |
+| `share/gc-eu-retail`    | Gamecube  | PAL-E   | Original                  |
+| `share/gc-jp-retail`    | Gamecube  | NTSC-J  | Original                  |
+| `share/gc-us-retail`    | Gamecube  | NTSC-U  | Original                  |
 
 The scripts require at least one extracted image of Skies of Arcadia, Skies of 
 Arcadia Legends, Eternal Arcadia or Eternal Arcadia Legends. The directory 
@@ -94,11 +96,11 @@ All commands respectively scripts can be found in the `bin` directory.
 
 ### export.rb
 
-Executes all export commands in `bin`.
+Executes all export commands in `bin` except `exportdefinedstrings.rb`.
 
 ### import.rb
 
-Executes all import commands in `bin`.
+Executes all import commands in `bin` except `importdefinedstrings.rb`.
 
 Links
 -----
@@ -108,5 +110,5 @@ Links
 License
 -------
 
-Copyright (C) 2019 Marcel Renner. ALX is licensed under the GNU General Public 
+Copyright (C) 2020 Marcel Renner. ALX is licensed under the GNU General Public 
 License, Version 3.0. See [LICENSE.md](LICENSE.md) for the full license text.

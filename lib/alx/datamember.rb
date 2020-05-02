@@ -50,13 +50,13 @@ class DataMember
   end
   
   # Reads one entry from a binary I/O stream.
-  # @param _f [IO] Binary I/O stream.
+  # @param _f [IO] Binary I/O stream
   def read_from_bin(_f)
     # Nothing to do.
   end
   
-  # Write one entry to a binary I/O stream..
-  # @param _f [IO] Binary I/O stream.
+  # Write one entry to a binary I/O stream.
+  # @param _f [IO] Binary I/O stream
   def write_to_bin(_f)
     # Nothing to do.
   end

@@ -219,11 +219,11 @@ module Serializable
       else
         _str << read(_size).unpack('Z*').first
       end
+      _str.force_encoding(_encoding)
     end
-    
-    _str.rstrip!
-    _str.encode!('UTF-8', _encoding, :invalid => :replace, :undef => :replace)
-    if _encoding != 'Shift_JIS'
+
+    _str.encode!('UTF-8')
+    if _encoding == 'Windows-1252'
       _str.gsub!('[', '“')
       _str.gsub!(']', '”')
     end
@@ -237,14 +237,17 @@ module Serializable
   # @param _blocks   [Integer] Block size in bytes
   # @param _encoding [String]  Character encoding
   def write_str(_str, _size, _blocks = nil, _encoding = 'Shift_JIS')
-    _str = _str.rstrip
-    if _encoding != 'Shift_JIS'
+    if _encoding == 'Windows-1252'
       _str.gsub!('“', '[')
       _str.gsub!('”', ']')
     end
-    _str.encode!(_encoding, 'UTF-8', :invalid => :replace, :undef => :replace)
+    _str.encode!(_encoding)
 
     if _size > 0
+      if _str.bytesize + 1 > _size
+        _msg = 'string size invalid (given %s, expected %s)'
+        raise(IOError, sprintf(_msg, _str.bytesize + 1, _size))
+      end
       if _blocks && _blocks > 0
         _1st_part = [_str].pack("A#{_size}")
         _2nd_part = [_str].pack("Z#{_size}")

@@ -43,11 +43,11 @@ class DataRange
   def initialize(_name, _range, exclusions: [], msg_table: false)
     unless _name.is_a?(String)
       _msg = '%s is not a string'
-      raise(TypeError, sprintf(_msg, _root))
+      raise(TypeError, sprintf(_msg, _name))
     end
     unless _range.is_a?(Range)
       _msg = '%s is not a range'
-      raise(TypeError, sprintf(_msg, _root))
+      raise(TypeError, sprintf(_msg, _range))
     end
     
     if _range.size > 0

@@ -81,7 +81,7 @@ class EnemyShipTaskData < EntryData
 
   # Reads all entries from a binary file.
   # @param _filename [String] File name
-  def load_entries_from_bin(_filename)
+  def load_data_from_bin(_filename)
     meta.check_mtime(_filename)
     _file             = TecFile.new(root)
     _file.magics      = @character_magic_data.data
@@ -97,14 +97,14 @@ class EnemyShipTaskData < EntryData
     
     glob(@tec_file) do |_p|
       if File.file?(_p)
-        load_entries_from_bin(_p)
+        load_data_from_bin(_p)
       end
     end
   end
 
   # Writes all entries to a binary file.
   # @param _filename [String] File name
-  def save_entries_to_bin(_filename)
+  def save_data_to_bin(_filename)
     unless meta.updated?
       LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
       return
@@ -129,7 +129,7 @@ class EnemyShipTaskData < EntryData
 
     _dirname = File.dirname(@tec_file)
     _files.each do |_filename|
-      save_entries_to_bin(glob(_dirname, _filename))
+      save_data_to_bin(glob(_dirname, _filename))
     end
   end
 
@@ -148,7 +148,7 @@ class EnemyShipTaskData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
-      _snapshot = snapshots[:data].dup
+      _snapshot = snaps[:data].dup
 
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))

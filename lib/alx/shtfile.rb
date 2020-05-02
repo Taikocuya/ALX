@@ -57,7 +57,7 @@ class ShtFile
     _result &&= @meta.is_a?(MetaData)
     _result &&= (@meta.version  == _meta.version )
     _result &&= (@meta.uuid     == _meta.uuid    )
-    _result &&= (@meta.cache_id == _meta.cache_id)
+    _result &&= (@meta.luid     == _meta.luid    )
     _result &&= (@meta.created  == _meta.created )
     _result
   end

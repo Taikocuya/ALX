@@ -43,11 +43,11 @@ class MetaData
   public
   
   # Constructs a MetaData.
-  # @param _cache_id [String] Cache ID
-  def initialize(_cache_id)
+  # @param _luid [String] Locally Unique ID (LUID)
+  def initialize(_luid)
     @version  = Executable::VERSION
+    @luid     = _luid
     @uuid     = SecureRandom.uuid
-    @cache_id = _cache_id
     @created  = Time.new
     @modified = Time.new + 1
   end
@@ -57,7 +57,7 @@ class MetaData
   def valid?
     _result   = true
     _result &&= (@version == Executable::VERSION)
-    _result &&= @cache_id.is_a?(String)
+    _result &&= @luid.is_a?(String)
     _result
   end
 
@@ -90,10 +90,10 @@ class MetaData
   # @return [Hash] Hash object
   def marshal_dump
     _hash             = {}
-    _hash[:@version ] = @version
-    _hash[:@uuid    ] = @uuid
-    _hash[:@cache_id] = @cache_id
-    _hash[:@created ] = @created
+    _hash[:@version] = @version
+    _hash[:@luid   ] = @luid
+    _hash[:@uuid   ] = @uuid
+    _hash[:@created] = @created
     _hash
   end
 
@@ -102,8 +102,8 @@ class MetaData
 #------------------------------------------------------------------------------
 
   attr_accessor :version
+  attr_accessor :luid
   attr_accessor :uuid
-  attr_accessor :cache_id
   attr_accessor :created
   attr_accessor :modified
 

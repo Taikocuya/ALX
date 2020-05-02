@@ -32,7 +32,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a EXP curve.
+# Class to handle a treasure chest.
 class TreasureChest < StdEntry
 
 #==============================================================================

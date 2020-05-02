@@ -45,7 +45,7 @@ module Fileable
     _basename = nil
     _result   = File.exist?(_path) && !File.directory?(_path)
     unless _result
-      _path = Dir.glob(_path).select do |_p|
+      _path = Dir.glob(_path).find_all do |_p|
         File.file?(_p)
       end
       if _path && !_path.empty?
@@ -78,7 +78,7 @@ module Fileable
     _basename = nil
     _result   = Dir.exist?(_path) && File.directory?(_path)
     unless _result
-      _path = Dir.glob(_path).select do |_p|
+      _path = Dir.glob(_path).find_all do |_p|
         File.directory?(_p)
       end
       if _path && !_path.empty?

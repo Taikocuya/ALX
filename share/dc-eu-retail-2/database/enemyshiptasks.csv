@@ -655,16 +655,16 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unk.,Task rating,Task A type
 13,R566A.BIN,7,Valuan Spectre,1,30,0,Attack,1,Neo Subcannon,-1,None,3,2,Focus,-1,None,0,Focus,0
 14,R566A.BIN,7,Valuan Spectre,1,30,2,Focus,-1,None,0,Focus,0,1,Magic,-1,None,34,Electrum,0
 15,R566A.BIN,7,Valuan Spectre,1,30,0,Attack,0,Neo Cannon,-1,None,0,1,Magic,-1,None,34,Electrum,0
-0,R567A.BIN,6,Valuan Destroyer,3,50,0,Attack,1,Great Subcannon,-1,None,1,4,Nothing,0,Prototype Cannon,-1,None,0
+0,R567A.BIN,6,Valuan Destroyer,3,50,0,Attack,1,Great Subcannon ,-1,None,1,4,Nothing,0,Prototype Cannon,-1,None,0
 1,R567A.BIN,6,Valuan Destroyer,3,70,0,Attack,0,Prototype Cannon,-1,None,0,2,Focus,0,Prototype Cannon,-1,None,0
 2,R567A.BIN,6,Valuan Destroyer,3,50,0,Attack,0,Prototype Cannon,-1,None,0,0,Attack,2,Great Torpedo,-1,None,1
 3,R567A.BIN,6,Valuan Destroyer,3,70,0,Attack,0,Prototype Cannon,-1,None,0,3,Guard,-1,None,0,Evasive Action,0
 4,R567A.BIN,6,Valuan Destroyer,1,30,3,Guard,-1,None,0,Evasive Action,0,0,Attack,2,Great Torpedo,-1,None,2
-5,R567A.BIN,6,Valuan Destroyer,3,30,0,Attack,1,Great Subcannon,-1,None,2,0,Attack,0,Prototype Cannon,-1,None,0
+5,R567A.BIN,6,Valuan Destroyer,3,30,0,Attack,1,Great Subcannon ,-1,None,2,0,Attack,0,Prototype Cannon,-1,None,0
 6,R567A.BIN,6,Valuan Destroyer,3,50,0,Attack,0,Prototype Cannon,-1,None,0,2,Focus,-1,None,-1,None,0
 7,R567A.BIN,6,Valuan Destroyer,3,30,2,Focus,-1,None,0,Focus,0,0,Attack,0,Prototype Cannon,-1,None,0
 8,R567A.BIN,6,Valuan Destroyer,-1,0,0,Attack,0,Prototype Cannon,-1,None,0,0,Attack,-1,None,-1,None,0
-9,R567A.BIN,6,Valuan Destroyer,3,30,0,Attack,2,Great Torpedo,-1,None,1,0,Attack,1,Great Subcannon,-1,None,2
+9,R567A.BIN,6,Valuan Destroyer,3,30,0,Attack,2,Great Torpedo,-1,None,1,0,Attack,1,Great Subcannon ,-1,None,2
 10,R567A.BIN,6,Valuan Destroyer,3,50,0,Attack,0,Prototype Cannon,-1,None,0,2,Focus,-1,None,0,Focus,0
 11,R567A.BIN,6,Valuan Destroyer,3,50,0,Attack,0,Prototype Cannon,-1,None,0,2,Focus,-1,None,0,Focus,0
 12,R567A.BIN,6,Valuan Destroyer,-1,0,0,Attack,0,Prototype Cannon,-1,None,0,0,Attack,-1,None,-1,None,0
@@ -759,16 +759,16 @@ Entry ID,[Filter],[Enemy ship ID],[Enemy ship name],Unk.,Task rating,Task A type
 17,R573A.BIN,43,The Blackbeard,-1,0,0,Attack,0,Vega Cannon Plus,-1,None,0,0,Attack,0,Vega Cannon Plus,-1,None,0
 18,R573A.BIN,43,The Blackbeard,-1,0,0,Attack,0,Vega Cannon Plus,-1,None,0,0,Attack,0,Vega Cannon Plus,-1,None,0
 19,R573A.BIN,43,The Blackbeard,-1,0,0,Attack,0,Vega Cannon Plus,-1,None,0,0,Attack,0,Vega Cannon Plus,-1,None,0
-0,R574A.BIN,6,Valuan Destroyer,3,50,0,Attack,1,Great Subcannon,-1,None,1,4,Nothing,0,Prototype Cannon,-1,None,0
+0,R574A.BIN,6,Valuan Destroyer,3,50,0,Attack,1,Great Subcannon ,-1,None,1,4,Nothing,0,Prototype Cannon,-1,None,0
 1,R574A.BIN,6,Valuan Destroyer,3,70,0,Attack,0,Prototype Cannon,-1,None,0,2,Focus,0,Prototype Cannon,-1,None,0
 2,R574A.BIN,6,Valuan Destroyer,3,50,0,Attack,0,Prototype Cannon,-1,None,0,0,Attack,2,Great Torpedo,-1,None,1
 3,R574A.BIN,6,Valuan Destroyer,3,70,0,Attack,0,Prototype Cannon,-1,None,0,3,Guard,-1,None,0,Evasive Action,0
 4,R574A.BIN,6,Valuan Destroyer,1,30,3,Guard,-1,None,0,Evasive Action,0,0,Attack,2,Great Torpedo,-1,None,2
-5,R574A.BIN,6,Valuan Destroyer,3,30,0,Attack,1,Great Subcannon,-1,None,2,0,Attack,0,Prototype Cannon,-1,None,0
+5,R574A.BIN,6,Valuan Destroyer,3,30,0,Attack,1,Great Subcannon ,-1,None,2,0,Attack,0,Prototype Cannon,-1,None,0
 6,R574A.BIN,6,Valuan Destroyer,3,50,0,Attack,0,Prototype Cannon,-1,None,0,2,Focus,-1,None,-1,None,0
 7,R574A.BIN,6,Valuan Destroyer,3,30,2,Focus,-1,None,0,Focus,0,0,Attack,0,Prototype Cannon,-1,None,0
 8,R574A.BIN,6,Valuan Destroyer,-1,0,0,Attack,0,Prototype Cannon,-1,None,0,0,Attack,-1,None,-1,None,0
-9,R574A.BIN,6,Valuan Destroyer,3,30,0,Attack,2,Great Torpedo,-1,None,1,0,Attack,1,Great Subcannon,-1,None,2
+9,R574A.BIN,6,Valuan Destroyer,3,30,0,Attack,2,Great Torpedo,-1,None,1,0,Attack,1,Great Subcannon ,-1,None,2
 10,R574A.BIN,6,Valuan Destroyer,3,50,0,Attack,0,Prototype Cannon,-1,None,0,2,Focus,-1,None,0,Focus,0
 11,R574A.BIN,6,Valuan Destroyer,3,50,0,Attack,0,Prototype Cannon,-1,None,0,2,Focus,-1,None,0,Focus,0
 12,R574A.BIN,6,Valuan Destroyer,-1,0,0,Attack,0,Prototype Cannon,-1,None,0,0,Attack,-1,None,-1,None,0

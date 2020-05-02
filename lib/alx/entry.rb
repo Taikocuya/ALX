@@ -31,6 +31,9 @@ require_relative('intdmy.rb')
 require_relative('intext.rb')
 require_relative('intvar.rb')
 require_relative('main.rb')
+require_relative('posdmy.rb')
+require_relative('posext.rb')
+require_relative('posvar.rb')
 require_relative('strdmy.rb')
 require_relative('strext.rb')
 require_relative('strvar.rb')
@@ -157,8 +160,8 @@ class Entry
     @root.glob(*_args, &_block)
   end
 
-  # Reads one entry from a binary I/O stream..
-  # @param _f [IO] Binary I/O stream.
+  # Reads one entry from a binary I/O stream.
+  # @param _f [IO] Binary I/O stream
   def read_from_bin(_f)
     @members.each do |_m|
       _m.read_from_bin(_f)
@@ -166,7 +169,7 @@ class Entry
   end
   
   # Write one entry to a binary IO.
-  # @param _f [IO] Binary I/O stream.
+  # @param _f [IO] Binary I/O stream
   def write_to_bin(_f)
     @members.each do |_m|
       _m.write_to_bin(_f)
@@ -213,7 +216,7 @@ class Entry
     _hash[:@unknown_id] = @unknown_id
     _hash
   end
-  
+
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------

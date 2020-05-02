@@ -57,12 +57,12 @@ class StdEntryData < EntryData
     @csv_file    = ''
     @tpl_file    = ''
 
-    @data = @@cache[cache_id]
+    @data = @@cache[luid]
     unless @data
       @data = Hash.new do |_h, _k|
         _h[_k] = create_entry(_k)
       end
-      @@cache[cache_id] = @data
+      @@cache[luid] = @data
     end
   end
 
@@ -158,7 +158,7 @@ class StdEntryData < EntryData
         
         LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
         _pos.value  = _f.pos
-        _str.value  = _f.read_str(0xff, 0x1, 'ISO8859-1')
+        _str.value  = _f.read_str(0xff, 0x1, 'Windows-1252')
         _size.value = _f.pos - _pos.value
 
         if _range.msg_table
@@ -222,7 +222,7 @@ class StdEntryData < EntryData
         if jp? || us?
           _str.value = _f.read_str(0xff, 0x4)
         else
-          _str.value = _f.read_str(0xff, 0x1, 'ISO8859-1')
+          _str.value = _f.read_str(0xff, 0x1, 'Windows-1252')
         end
         _size.value = _f.pos - _pos.value
 
@@ -355,7 +355,7 @@ class StdEntryData < EntryData
         end
         
         LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
-        _f.write_str(_str, _size, 0x1, 'ISO8859-1')
+        _f.write_str(_str, _size, 0x1, 'Windows-1252')
       end
     end
 
@@ -413,7 +413,7 @@ class StdEntryData < EntryData
         if jp? || us?
           _f.write_str(_str, _size, 0x4)
         else
-          _f.write_str(_str, _size, 0x1, 'ISO8859-1')
+          _f.write_str(_str, _size, 0x1, 'Windows-1252')
         end
       end
     end
@@ -471,7 +471,7 @@ class StdEntryData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
-      _snapshot = snapshots[:data].dup
+      _snapshot = snaps[:data].dup
       
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))

@@ -219,7 +219,7 @@ class EpFile
   end
   
   # Loads an enemy and its instructions from a binary I/O stream.
-  # @param _f        [IO]      Binary I/O stream.
+  # @param _f        [IO]      Binary I/O stream
   # @param _id       [Integer] Enemy ID
   # @param _filename [String]  File name
   def load_enemy(_f, _id, _filename)
@@ -246,7 +246,7 @@ class EpFile
   end
 
   # Saves an enemy and its instructions to a binary I/O stream.
-  # @param _f        [IO]     Binary I/O stream.
+  # @param _f        [IO]     Binary I/O stream
   # @param _enemy    [Enemy]  Enemy object
   # @param _filename [String] File name
   def save_enemy(_f, _enemy, _filename)

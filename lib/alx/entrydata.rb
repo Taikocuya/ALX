@@ -25,7 +25,7 @@
 require('fileutils')
 require_relative('executable.rb')
 require_relative('metadata.rb')
-require_relative('shtfile.rb')
+require_relative('shtmanger.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -39,13 +39,6 @@ module ALX
 class EntryData
 
 #==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # File name format of SHT file
-  SHT_FILE = '%s@%s.sht'
-  
-#==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
@@ -55,35 +48,11 @@ class EntryData
   # @param _class [Entry]    Entry object
   # @param _root  [GameRoot] Game root
   def initialize(_class, _root)
-    @class     = _class
-    @root      = _root
-    @cache_id  = sprintf(
-      '%s-%s', File.basename(@root.dirname), self.class.name.split('::').last
-    ).downcase
-    clear_meta
-    clear_snapshots
+    @class = _class
+    @root  = _root
+    @sht   = ShtManager.new(_root, self.class.name.split('::').last)
   end
-    
-  # Clears metadata.
-  def clear_meta
-    @meta = MetaData.new(@cache_id)
-  end
-    
-  # Unloads all snapshots.
-  def clear_snapshots
-    @snapshots ||= {}
-    @snapshots.clear
-  end
-  
-  # Removes all snapshots.
-  def remove_snapshots
-    _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
-    _filename = sprintf(
-      SHT_FILE, self.class.name.split('::').last, '*'
-    ).downcase
-    FileUtils.rm(Dir.glob(File.join(_dirname, _filename)))
-  end
-    
+
   # Creates an entry.
   # @return [Entry] Entry object
   def create_entry
@@ -115,7 +84,7 @@ class EntryData
     @root.glob(*_args, &_block)
   end
 
-  # Reads an object from a SHT file, assigns it to #snapshots and returns it.
+  # Reads an object from a SHT file and returns it.
   # @param _sym [Symbol] Object symbol
   # @return [Object] Object instance
   def load_data_from_sht(_sym)
@@ -123,39 +92,19 @@ class EntryData
       return nil
     end
     
-    _sym      = _sym.to_sym
-    _class    = self.class.name.split('::').last
-    _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
-    _filename = sprintf(SHT_FILE, _class, _sym).downcase
-    _filename = File.join(_dirname, _filename)
-
-    unless File.exist?(_filename)
-      return nil
-    end
-
-    _file = ShtFile.new
-    _file.load(_filename)
-
-    if _sym != :meta && !_file.valid?(@meta)
-      clear_meta
-      clear_snapshots
-      remove_snapshots
-    else
-      @snapshots[_sym] = _file.data
-    end
+    @sht.load_data_from_sht(_sym)
   end
 
   # Reads all snaphots (instance variables) from SHT files.
   def load_all_from_sht
-    @meta = load_data_from_sht(:meta) || clear_meta
-    if !@meta.valid? || @meta.cache_id != @cache_id
-      clear_meta
-      clear_snapshots
-      remove_snapshots
+    unless SYS.snapshot_cache
+      return
     end
+    
+    @sht.load_meta_from_sht
   end
 
-  # Writes an object to a SHT file, assigns it to #snapshots and returns it.
+  # Writes an object to a SHT file and returns it.
   # @param _sym [Symbol] Object symbol
   # @param _obj [Object] Object instance
   # @return [Object] Object instance
@@ -163,31 +112,17 @@ class EntryData
     unless SYS.snapshot_cache
       return nil
     end
-    
-    _sym = _sym.to_sym
-    _obj = _obj.dup
-    if _obj.is_a?(Hash)
-      _obj.default_proc = nil
-    end
 
-    _class    = self.class.name.split('::').last
-    _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
-    _filename = sprintf(SHT_FILE, _class, _sym).downcase
-    _filename = File.join(_dirname, _filename)
-
-    FileUtils.mkdir_p(_dirname)
-    _file      = ShtFile.new
-    _file.meta = @meta
-    _file.data = _obj
-    _file.save(_filename)
-    
-    @snapshots[_sym] = _obj
+    @sht.save_data_to_sht(_sym, _obj)
   end
 
   # Writes all snaphots (instance variables) to SHT files.
   def save_all_to_sht
-    clear_meta
-    save_data_to_sht(:meta, @meta)
+    unless SYS.snapshot_cache
+      return
+    end
+    
+    @sht.save_meta_to_sht
   end
   
 #------------------------------------------------------------------------------
@@ -195,10 +130,20 @@ class EntryData
 #------------------------------------------------------------------------------
 
   attr_reader :root
-  attr_reader :cache_id
-  attr_reader :meta
-  attr_reader :snapshots
+  attr_reader :sht
 
+  def luid
+    @sht.luid
+  end
+  
+  def meta
+    @sht.meta
+  end
+  
+  def snaps
+    @sht.snaps
+  end
+  
   def product_id
     @root.product_id
   end
@@ -277,7 +222,7 @@ class EntryData
   # Returns +true+ if I/O position is valid, otherwise +false+.
   # @param _pos   [Integer]  I/O position
   # @param _size  [Integer]  Entry size
-  # @param _range [DataRang] Data range
+  # @param _range [DataRange] Data range
   # @return [Boolean] +true+ if country is valid, otherwise +false+.
   def pos_valid?(_pos, _size, _range)
     _valid   = true
@@ -286,15 +231,42 @@ class EntryData
     _valid
   end
 
+  # Finds the range descriptor with given filename.
+  # @param _descriptor [RangeDescriptor,Array] Range descriptor(s)
+  # @param _filename   [String]                Filename
+  # @return [RangeDescriptor] Range descriptor
+  def find_descriptor(_descriptor, _filename)
+    if _descriptor.is_a?(Array)
+      _descriptor = _descriptor.find { |_r| _filename.include?(_r.name) }
+    end
+    unless _descriptor.is_a?(RangeDescriptor)
+      _msg = '%s is not a range descriptor'
+      raise(TypeError, sprintf(_msg, _descriptor))
+    end
+    _descriptor ||= RangeDescriptor.new('', 0x0..0xffffffff)
+    _descriptor
+  end
+
+  # Calls the given block once for each range descriptor, passing that element 
+  # as a parameter.
+  # @param _descriptor [RangeDescriptor,Array] Range descriptor(s)
+  def each_descriptor(_descriptor)
+    [_descriptor].flatten.compact.each do |_dscr|
+      yield _dscr
+    end
+  end
+
   # Determines the data range with given filename.
-  #
   # @param _range    [DataRange,Array] Data range
   # @param _filename [String]          Filename
-  #
   # @return [DataRange] Data range
   def determine_range(_range, _filename)
     if _range.is_a?(Array)
       _range = _range.find { |_r| _filename.include?(_r.name) }
+    end
+    unless _range.is_a?(DataRange)
+      _msg = '%s is not a data range'
+      raise(TypeError, sprintf(_msg, _range))
     end
     _range ||= DataRange.new('', 0x0...0xffffffff)
     _range
