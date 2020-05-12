@@ -23,7 +23,6 @@
 #==============================================================================
 
 require_relative('rangedescriptor.rb')
-require_relative('datarange.rb')
 require_relative('substitute.rb')
 
 #==============================================================================
@@ -70,11 +69,6 @@ module ALX
     end
     
     _pattern
-  end
-  
-  # @see DataRange::new
-  def self.dr(...)
-    DataRange.new(...)
   end
 
   # @see RangeDescriptor::new
