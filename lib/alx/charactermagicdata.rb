@@ -61,58 +61,65 @@ class CharacterMagicData < StdEntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
 
     meta.check_mtime(_filename)
-    BinaryFile.open(_filename, 'rb', endianness: root.endianness) do |_f|
-      _range = determine_range(@ship_dscr_file, _filename)
-      _f.pos = _range.begin
+    BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
+      _last_id    = @id_range.begin
+      _descriptor = find_descriptor(@ship_dscr_file, _filename)
+      _msgtbl     = _descriptor.msgtbl
       
-      id_range.each do |_id|
-        unless id_valid?(_id, id_range, _range)
-          next
-        end
-
-        _entry  = @data[_id]
-        _msg_id = _entry.msg_id
-
-        if jp? || us?
-          _pos  = _entry.find_member(VOC.ship_dscr_pos[country_id] )
-          _size = _entry.find_member(VOC.ship_dscr_size[country_id])
-          _str  = _entry.find_member(VOC.ship_dscr_str[country_id] )
-        elsif eu?
-          _lang = determine_lang(_filename)
-          _pos  = _entry.find_member(VOC.ship_dscr_pos[_lang] )
-          _size = _entry.find_member(VOC.ship_dscr_size[_lang])
-          _str  = _entry.find_member(VOC.ship_dscr_str[_lang] )
-        end
-
-        if _range.msg_table
-          _msg = @msg_table[_msg_id]
-          if _msg
-            _pos.value  = _msg.pos
-            _size.value = _msg.size
-            _str.value  = _msg.value
+      _descriptor.each do |_range|
+        _f.pos = _range.begin
+        _split = (!_msgtbl || _range.end != _descriptor.end)
+        
+        (_last_id...@id_range.end).each do |_id|
+          if _split && ( _f.eof? || !_descriptor.include?(_f.pos))
+            _last_id = _id
+            break
+          end
+          unless id_valid?(_id, @id_range, _descriptor)
             next
           end
-        end
 
-        unless pos_valid?(_f.pos, 1, _range)
-          next
-        end
-        
-        LOG.info(sprintf(VOC.read, _id - id_range.begin, _f.pos))
-        _pos.value  = _f.pos
-        if jp? || us?
-          _str.value  = _f.read_str(0xff, 0x4)
-        else
-          _str.value  = _f.read_str(0xff, 0x1, 'Windows-1252')
-        end
-        _size.value = _f.pos - _pos.value
+          _entry  = @data[_id]
+          _msg_id = _entry.msg_id
 
-        if _range.msg_table
-          _msg                = Message.new
-          _msg.pos            = _pos.value
-          _msg.size           = _size.value
-          _msg.value          = _str.value
-          @msg_table[_msg_id] = _msg
+          if jp? || us?
+            _pos  = _entry.find_member(VOC.ship_dscr_pos[country_id] )
+            _size = _entry.find_member(VOC.ship_dscr_size[country_id])
+            _str  = _entry.find_member(VOC.ship_dscr_str[country_id] )
+          elsif eu?
+            _lang = find_lang(_filename)
+            _pos  = _entry.find_member(VOC.ship_dscr_pos[_lang] )
+            _size = _entry.find_member(VOC.ship_dscr_size[_lang])
+            _str  = _entry.find_member(VOC.ship_dscr_str[_lang] )
+          end
+          
+          if _descriptor.msgtbl
+            _msg = @msg_table[_msg_id]
+            if _msg
+              _pos.value  = _msg.pos
+              _size.value = _msg.size
+              _str.value  = _msg.value
+              next
+            end
+          end
+
+          LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
+          
+          _pos.value = _f.pos
+          if jp? || us?
+            _str.value = _f.read_str(0xff, 0x4)
+          else
+            _str.value = _f.read_str(0xff, 0x1, 'Windows-1252')
+          end
+          _size.value = _f.pos - _pos.value
+
+          if _descriptor.msgtbl
+            _msg                = Message.new
+            _msg.pos            = _pos.value
+            _msg.size           = _size.value
+            _msg.value          = _str.value
+            @msg_table[_msg_id] = _msg
+          end
         end
       end
     end
@@ -123,15 +130,9 @@ class CharacterMagicData < StdEntryData
   # Reads all entries from binary files.
   def load_all_from_bin
     super
-  
-    _ranges = @ship_dscr_file
-    if _ranges
-      unless _ranges.is_a?(Array)
-        _ranges = [_ranges]
-      end
-      _ranges.each do |_range|
-        load_ship_dscr_from_bin(glob(_range.name))
-      end
+
+    each_descriptor(@ship_dscr_file) do |_d|
+      load_ship_dscr_from_bin(glob(_d.name))
     end
   end
 
@@ -147,13 +148,12 @@ class CharacterMagicData < StdEntryData
     end
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_dscr))
-  
-    FileUtils.mkdir_p(File.dirname(_filename))
-    BinaryFile.open(_filename, 'r+b', endianness: root.endianness) do |_f|
-      _range    = determine_range(@ship_dscr_file, _filename) 
 
+    FileUtils.mkdir_p(File.dirname(_filename))
+    BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
+      _descriptor = find_descriptor(@ship_dscr_file, _filename)
       @data.each do |_id, _entry|
-        unless id_valid?(_id, id_range, _range)
+        unless id_valid?(_id, @id_range, _descriptor)
           next
         end
 
@@ -162,19 +162,19 @@ class CharacterMagicData < StdEntryData
           _size = _entry.find_member(VOC.ship_dscr_size[country_id]).value
           _str  = _entry.find_member(VOC.ship_dscr_str[country_id] ).value
         elsif eu?
-          _lang = determine_lang(_filename)
+          _lang = find_lang(_filename)
           if _lang
             _pos  = _entry.find_member(VOC.ship_dscr_pos[_lang] ).value
             _size = _entry.find_member(VOC.ship_dscr_size[_lang]).value
             _str  = _entry.find_member(VOC.ship_dscr_str[_lang] ).value
           else
-            _pos  = 0
+            _pos  = -1
             _size = 0
           end
         end
         
         _f.pos = _pos
-        unless pos_valid?(_f.pos, _size, _range)
+        unless _descriptor.include?(_f.pos, _size)
           next
         end
         unless _entry.expired
@@ -182,7 +182,8 @@ class CharacterMagicData < StdEntryData
           next
         end
         
-        LOG.info(sprintf(VOC.write, _id, _pos))
+        LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
+        
         if jp? || us?
           _f.write_str(_str, _size, 0x4)
         else
@@ -190,22 +191,16 @@ class CharacterMagicData < StdEntryData
         end
       end
     end
-  
+
     LOG.info(sprintf(VOC.close, _filename))
   end
     
   # Writes all entries to binary files.
   def save_all_to_bin
     super
-  
-    _ranges = @ship_dscr_file
-    if _ranges
-      unless _ranges.is_a?(Array)
-        _ranges = [_ranges]
-      end
-      _ranges.each do |_range|
-        save_ship_dscr_to_bin(glob(_range.name))
-      end
+
+    each_descriptor(@ship_dscr_file) do |_d|
+      save_ship_dscr_to_bin(glob(_d.name))
     end
   end
 

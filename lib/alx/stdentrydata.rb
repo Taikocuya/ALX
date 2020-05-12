@@ -49,7 +49,7 @@ class StdEntryData < EntryData
   def initialize(_class, _root)
     super
     @@cache    ||= {}
-    @id_range    = 0x0...0x0
+    @id_range    = ALX.rng(0x0..)
     @data_file   = nil
     @name_file   = nil
     @dscr_file   = nil
@@ -94,19 +94,26 @@ class StdEntryData < EntryData
 
     meta.check_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
-      _range = determine_range(@data_file, _filename)
-      _size  = create_entry.size
-      _f.pos = _range.begin
-      
-      @id_range.each do |_id|
-        if !id_valid?(_id, @id_range, _range) || 
-           !pos_valid?(_f.pos, _size, _range)
-          next
-        end
+      _size       = create_entry.size
+      _last_id    = @id_range.begin
+      _descriptor = find_descriptor(@data_file, _filename)
+      _descriptor.each do |_range|
+        _f.pos = _range.begin
+        
+        (_last_id...@id_range.end).each do |_id|
+          if _f.eof? || !_descriptor.include?(_f.pos, _size)
+            _last_id = _id
+            break
+          end
+          unless id_valid?(_id, @id_range, _descriptor)
+            next
+          end
 
-        LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
-        _entry = @data[_id]
-        _entry.read_from_bin(_f)
+          LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
+          
+          _entry = @data[_id]
+          _entry.read_from_bin(_f)
+        end
       end
     end
     
@@ -120,53 +127,60 @@ class StdEntryData < EntryData
 
     meta.check_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
-      _range = determine_range(@name_file, _filename)
-      _f.pos = _range.begin
+      _last_id    = @id_range.begin
+      _descriptor = find_descriptor(@name_file, _filename)
+      _msgtbl     = _descriptor.msgtbl
       
-      @id_range.each do |_id|
-        unless id_valid?(_id, @id_range, _range)
-          next
-        end
-
-        _entry  = @data[_id]
-        _msg_id = _entry.msg_id
-
-        if jp? || us?
-          _pos  = _entry.find_member(VOC.name_pos[country_id] )
-          _size = _entry.find_member(VOC.name_size[country_id])
-          _str  = _entry.find_member(VOC.name_str[country_id] )
-        elsif eu?
-          _lang = determine_lang(_filename)
-          _pos  = _entry.find_member(VOC.name_pos[_lang] )
-          _size = _entry.find_member(VOC.name_size[_lang])
-          _str  = _entry.find_member(VOC.name_str[_lang] )
-        end
-    
-        if _range.msg_table
-          _msg = @msg_table[_msg_id]
-          if _msg
-            _pos.value  = _msg.pos
-            _size.value = _msg.size
-            _str.value  = _msg.value
+      _descriptor.each do |_range|
+        _f.pos = _range.begin
+        _split = (!_msgtbl || _range.end != _descriptor.end)
+        
+        (_last_id...@id_range.end).each do |_id|
+          if _split && ( _f.eof? || !_descriptor.include?(_f.pos))
+            _last_id = _id
+            break
+          end
+          unless id_valid?(_id, @id_range, _descriptor)
             next
           end
-        end
 
-        unless pos_valid?(_f.pos, 1, _range)
-          next
-        end
-        
-        LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
-        _pos.value  = _f.pos
-        _str.value  = _f.read_str(0xff, 0x1, 'Windows-1252')
-        _size.value = _f.pos - _pos.value
+          _entry = @data[_id]
+          _msgid = _entry.msg_id
 
-        if _range.msg_table
-          _msg                = Message.new
-          _msg.pos            = _pos.value
-          _msg.size           = _size.value
-          _msg.value          = _str.value
-          @msg_table[_msg_id] = _msg
+          if jp? || us?
+            _pos  = _entry.find_member(VOC.name_pos[country_id] )
+            _size = _entry.find_member(VOC.name_size[country_id])
+            _str  = _entry.find_member(VOC.name_str[country_id] )
+          elsif eu?
+            _lang = find_lang(_filename)
+            _pos  = _entry.find_member(VOC.name_pos[_lang] )
+            _size = _entry.find_member(VOC.name_size[_lang])
+            _str  = _entry.find_member(VOC.name_str[_lang] )
+          end
+      
+          if _msgtbl
+            _msg = @msg_table[_msgid]
+            if _msg
+              _pos.value  = _msg.pos
+              _size.value = _msg.size
+              _str.value  = _msg.value
+              next
+            end
+          end
+
+          LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
+          
+          _pos.value  = _f.pos
+          _str.value  = _f.read_str(0xff, 0x1, 'Windows-1252')
+          _size.value = _f.pos - _pos.value
+
+          if _msgtbl
+            _msg               = Message.new
+            _msg.pos           = _pos.value
+            _msg.size          = _size.value
+            _msg.value         = _str.value
+            @msg_table[_msgid] = _msg
+          end
         end
       end
     end
@@ -181,57 +195,64 @@ class StdEntryData < EntryData
 
     meta.check_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
-      _range = determine_range(@dscr_file, _filename)
-      _f.pos = _range.begin
+      _last_id    = @id_range.begin
+      _descriptor = find_descriptor(@dscr_file, _filename)
+      _msgtbl     = _descriptor.msgtbl
       
-      @id_range.each do |_id|
-        unless id_valid?(_id, @id_range, _range)
-          next
-        end
+      _descriptor.each do |_range|
+        _f.pos = _range.begin
+        _split = (!_msgtbl || _range.end != _descriptor.end)
         
-        _entry  = @data[_id]
-        _msg_id = _entry.msg_id
-
-        if jp? || us?
-          _pos  = _entry.find_member(VOC.dscr_pos[country_id] )
-          _size = _entry.find_member(VOC.dscr_size[country_id])
-          _str  = _entry.find_member(VOC.dscr_str[country_id] )
-        elsif eu?
-          _lang = determine_lang(_filename)
-          _pos  = _entry.find_member(VOC.dscr_pos[_lang] )
-          _size = _entry.find_member(VOC.dscr_size[_lang])
-          _str  = _entry.find_member(VOC.dscr_str[_lang] )
-        end
-        
-        if _range.msg_table
-          _msg = @msg_table[_msg_id]
-          if _msg
-            _pos.value  = _msg.pos
-            _size.value = _msg.size
-            _str.value  = _msg.value
+        (_last_id...@id_range.end).each do |_id|
+          if _split && ( _f.eof? || !_descriptor.include?(_f.pos))
+            _last_id = _id
+            break
+          end
+          unless id_valid?(_id, @id_range, _descriptor)
             next
           end
-        end
 
-        unless pos_valid?(_f.pos, 1, _range)
-          next
-        end
-        
-        LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
-        _pos.value = _f.pos
-        if jp? || us?
-          _str.value = _f.read_str(0xff, 0x4)
-        else
-          _str.value = _f.read_str(0xff, 0x1, 'Windows-1252')
-        end
-        _size.value = _f.pos - _pos.value
+          _entry = @data[_id]
+          _msgid = _entry.msg_id
 
-        if _range.msg_table
-          _msg                = Message.new
-          _msg.pos            = _pos.value
-          _msg.size           = _size.value
-          _msg.value          = _str.value
-          @msg_table[_msg_id] = _msg
+          if jp? || us?
+            _pos  = _entry.find_member(VOC.dscr_pos[country_id] )
+            _size = _entry.find_member(VOC.dscr_size[country_id])
+            _str  = _entry.find_member(VOC.dscr_str[country_id] )
+          elsif eu?
+            _lang = find_lang(_filename)
+            _pos  = _entry.find_member(VOC.dscr_pos[_lang] )
+            _size = _entry.find_member(VOC.dscr_size[_lang])
+            _str  = _entry.find_member(VOC.dscr_str[_lang] )
+          end
+          
+          if _msgtbl
+            _msg = @msg_table[_msgid]
+            if _msg
+              _pos.value  = _msg.pos
+              _size.value = _msg.size
+              _str.value  = _msg.value
+              next
+            end
+          end
+
+          LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
+          
+          _pos.value = _f.pos
+          if jp? || us?
+            _str.value = _f.read_str(0xff, 0x4)
+          else
+            _str.value = _f.read_str(0xff, 0x1, 'Windows-1252')
+          end
+          _size.value = _f.pos - _pos.value
+
+          if _msgtbl
+            _msg               = Message.new
+            _msg.pos           = _pos.value
+            _msg.size          = _size.value
+            _msg.value         = _str.value
+            @msg_table[_msgid] = _msg
+          end
         end
       end
     end
@@ -245,34 +266,14 @@ class StdEntryData < EntryData
       return
     end
 
-    _ranges = @data_file
-    if _ranges
-      unless _ranges.is_a?(Array)
-        _ranges = [_ranges]
-      end
-      _ranges.each do |_range|
-        load_data_from_bin(glob(_range.name))
-      end
+    each_descriptor(@data_file) do |_d|
+      load_data_from_bin(glob(_d.name))
     end
-  
-    _ranges = @name_file
-    if _ranges
-      unless _ranges.is_a?(Array)
-        _ranges = [_ranges]
-      end
-      _ranges.each do |_range|
-        load_names_from_bin(glob(_range.name))
-      end
+    each_descriptor(@name_file) do |_d|
+      load_names_from_bin(glob(_d.name))
     end
-  
-    _ranges = @dscr_file
-    if _ranges
-      unless _ranges.is_a?(Array)
-        _ranges = [_ranges]
-      end
-      _ranges.each do |_range|
-        load_dscr_from_bin(glob(_range.name))
-      end
+    each_descriptor(@dscr_file) do |_d|
+      load_dscr_from_bin(glob(_d.name))
     end
   end
     
@@ -291,13 +292,12 @@ class StdEntryData < EntryData
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
-      _range    = determine_range(@data_file, _filename)
-      _size     = create_entry.size
-
+      _size       = create_entry.size
+      _descriptor = find_descriptor(@data_file, _filename)
       @data.each do |_id, _entry|
-        _f.pos = _range.begin + (_id - @id_range.begin) * _size
-        if !id_valid?(_id, @id_range, _range) || 
-           !pos_valid?(_f.pos, _size, _range)
+        _f.pos = _descriptor.convert((_id - @id_range.begin) * _size)
+        if !_descriptor.include?(_f.pos, _size) || 
+           !id_valid?(_id, @id_range, _descriptor)
           next
         end
         unless _entry.expired
@@ -306,6 +306,7 @@ class StdEntryData < EntryData
         end
         
         LOG.info(sprintf(VOC.write, _id - @id_range.begin, _f.pos))
+        
         _entry.write_to_bin(_f)
       end
     end
@@ -328,25 +329,24 @@ class StdEntryData < EntryData
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
-      _range    = determine_range(@name_file, _filename)
-
+      _descriptor = find_descriptor(@name_file, _filename)
       @data.each do |_id, _entry|
-        unless id_valid?(_id, @id_range, _range)
+        unless id_valid?(_id, @id_range, _descriptor)
           next
         end
         
-        _lang = determine_lang(_filename)
+        _lang = find_lang(_filename)
         if _lang
           _pos  = _entry.find_member(VOC.name_pos[_lang] ).value
           _size = _entry.find_member(VOC.name_size[_lang]).value
           _str  = _entry.find_member(VOC.name_str[_lang] ).value
         else
-          _pos  = 0
+          _pos  = -1
           _size = 0
         end
         
         _f.pos = _pos
-        unless pos_valid?(_f.pos, _size, _range)
+        unless _descriptor.include?(_f.pos, _size)
           next
         end
         unless _entry.expired
@@ -355,6 +355,7 @@ class StdEntryData < EntryData
         end
         
         LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
+        
         _f.write_str(_str, _size, 0x1, 'Windows-1252')
       end
     end
@@ -377,10 +378,9 @@ class StdEntryData < EntryData
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
-      _range    = determine_range(@dscr_file, _filename)
-
+      _descriptor = find_descriptor(@dscr_file, _filename)
       @data.each do |_id, _entry|
-        unless id_valid?(_id, @id_range, _range)
+        unless id_valid?(_id, @id_range, _descriptor)
           next
         end
 
@@ -389,19 +389,19 @@ class StdEntryData < EntryData
           _size = _entry.find_member(VOC.dscr_size[country_id]).value
           _str  = _entry.find_member(VOC.dscr_str[country_id] ).value
         elsif eu?
-          _lang = determine_lang(_filename)
+          _lang = find_lang(_filename)
           if _lang
             _pos  = _entry.find_member(VOC.dscr_pos[_lang] ).value
             _size = _entry.find_member(VOC.dscr_size[_lang]).value
             _str  = _entry.find_member(VOC.dscr_str[_lang] ).value
           else
-            _pos  = 0
+            _pos  = -1
             _size = 0
           end
         end
         
         _f.pos = _pos
-        unless pos_valid?(_f.pos, _size, _range)
+        unless _descriptor.include?(_f.pos, _size)
           next
         end
         unless _entry.expired
@@ -410,6 +410,7 @@ class StdEntryData < EntryData
         end
         
         LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
+        
         if jp? || us?
           _f.write_str(_str, _size, 0x4)
         else
@@ -426,35 +427,15 @@ class StdEntryData < EntryData
     if @data.empty?
       return
     end
-    
-    _ranges = @data_file
-    if _ranges
-      unless _ranges.is_a?(Array)
-        _ranges = [_ranges]
-      end
-      _ranges.each do |_range|
-        save_data_to_bin(glob(_range.name))
-      end
+
+    each_descriptor(@data_file) do |_d|
+      save_data_to_bin(glob(_d.name))
     end
-  
-    _ranges = @name_file
-    if _ranges
-      unless _ranges.is_a?(Array)
-        _ranges = [_ranges]
-      end
-      _ranges.each do |_range|
-        save_names_to_bin(glob(_range.name))
-      end
+    each_descriptor(@name_file) do |_d|
+      save_names_to_bin(glob(_d.name))
     end
-  
-    _ranges = @dscr_file
-    if _ranges
-      unless _ranges.is_a?(Array)
-        _ranges = [_ranges]
-      end
-      _ranges.each do |_range|
-        save_dscr_to_bin(glob(_range.name))
-      end
+    each_descriptor(@dscr_file) do |_d|
+      save_dscr_to_bin(glob(_d.name))
     end
   end
 
@@ -560,10 +541,10 @@ class StdEntryData < EntryData
 
   private
 
-  # Determines the PAL-E language for the given filename.
+  # Finds the PAL-E language for the given filename.
   # @param _filename [String] Filename
   # @return [String] PAL-E language
-  def determine_lang(_filename)
+  def find_lang(_filename)
     return 'DE' if _filename.include?(glob(:sot_file_de))
     return 'ES' if _filename.include?(glob(:sot_file_es))
     return 'FR' if _filename.include?(glob(:sot_file_fr))

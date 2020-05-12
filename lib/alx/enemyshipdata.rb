@@ -86,45 +86,50 @@ class EnemyShipData < StdEntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
 
     meta.check_mtime(_filename)
-    BinaryFile.open(_filename, 'rb', endianness: root.endianness) do |_f|
-      _range = determine_range(@arm_name_file, _filename)
-      _f.pos = _range.begin
-      
-      id_range.each do |_id|
-        if !id_valid?(_id, id_range, _range) || !pos_valid?(_f.pos, 1, _range)
-          next
-        end
+    BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
+      _last_id    = @id_range.begin
+      _descriptor = find_descriptor(@arm_name_file, _filename)
 
-        _entry = @data[_id]
-
-        (0...4).each do |_i|
-          case determine_lang(_filename)
-          when 'DE'
-            _pos  = _entry.find_member(VOC.arm_name_de_pos[_i] )
-            _size = _entry.find_member(VOC.arm_name_de_size[_i])
-            _str  = _entry.find_member(VOC.arm_name_de_str[_i] )
-          when 'ES'
-            _pos  = _entry.find_member(VOC.arm_name_es_pos[_i] )
-            _size = _entry.find_member(VOC.arm_name_es_size[_i])
-            _str  = _entry.find_member(VOC.arm_name_es_str[_i] )
-          when 'FR'
-            _pos  = _entry.find_member(VOC.arm_name_fr_pos[_i] )
-            _size = _entry.find_member(VOC.arm_name_fr_size[_i])
-            _str  = _entry.find_member(VOC.arm_name_fr_str[_i] )
-          when 'GB'
-            _pos  = _entry.find_member(VOC.arm_name_gb_pos[_i] )
-            _size = _entry.find_member(VOC.arm_name_gb_size[_i])
-            _str  = _entry.find_member(VOC.arm_name_gb_str[_i] )
+      _descriptor.each do |_range|
+        _f.pos = _range.begin
+        
+        (_last_id...@id_range.end).each do |_id|
+          if  _f.eof? || !_descriptor.include?(_f.pos)
+            _last_id = _id
+            break
           end
-          
-          LOG.info(sprintf(VOC.read, _id, _f.pos))
-          _pos.value  = _f.pos
-          if jp? || us?
-            _str.value  = _f.read_str(0xff, 0x4)
-          else
+          unless id_valid?(_id, @id_range, _descriptor)
+            next
+          end
+
+          _entry = @data[_id]
+
+          (0...4).each do |_i|
+            case find_lang(_filename)
+            when 'DE'
+              _pos  = _entry.find_member(VOC.arm_name_de_pos[_i] )
+              _size = _entry.find_member(VOC.arm_name_de_size[_i])
+              _str  = _entry.find_member(VOC.arm_name_de_str[_i] )
+            when 'ES'
+              _pos  = _entry.find_member(VOC.arm_name_es_pos[_i] )
+              _size = _entry.find_member(VOC.arm_name_es_size[_i])
+              _str  = _entry.find_member(VOC.arm_name_es_str[_i] )
+            when 'FR'
+              _pos  = _entry.find_member(VOC.arm_name_fr_pos[_i] )
+              _size = _entry.find_member(VOC.arm_name_fr_size[_i])
+              _str  = _entry.find_member(VOC.arm_name_fr_str[_i] )
+            when 'GB'
+              _pos  = _entry.find_member(VOC.arm_name_gb_pos[_i] )
+              _size = _entry.find_member(VOC.arm_name_gb_size[_i])
+              _str  = _entry.find_member(VOC.arm_name_gb_str[_i] )
+            end
+            
+            LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
+            
+            _pos.value  = _f.pos
             _str.value  = _f.read_str(0xff, 0x1, 'Windows-1252')
+            _size.value = _f.pos - _pos.value
           end
-          _size.value = _f.pos - _pos.value
         end
       end
     end
@@ -154,14 +159,8 @@ class EnemyShipData < StdEntryData
     
     super
   
-    _ranges = @arm_name_file
-    if _ranges
-      unless _ranges.is_a?(Array)
-        _ranges = [_ranges]
-      end
-      _ranges.each do |_range|
-        load_arm_name_from_bin(glob(_range.name))
-      end
+    each_descriptor(@arm_name_file) do |_d|
+      load_arm_name_from_bin(glob(_d.name))
     end
   end
   
@@ -172,23 +171,22 @@ class EnemyShipData < StdEntryData
       return
     end
     unless meta.updated?
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+      LOG.info(sprintf(VOC.skip, _filename, VOC.open_name))
       return
     end
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_name))
-  
-    FileUtils.mkdir_p(File.dirname(_filename))
-    BinaryFile.open(_filename, 'r+b', endianness: root.endianness) do |_f|
-      _range    = determine_range(@arm_name_file, _filename) 
 
+    FileUtils.mkdir_p(File.dirname(_filename))
+    BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
+      _descriptor = find_descriptor(@arm_name_file, _filename)
       @data.each do |_id, _entry|
-        unless id_valid?(_id, id_range, _range)
+        unless id_valid?(_id, @id_range, _descriptor)
           next
         end
-
+        
         (0...4).each do |_i|
-          case determine_lang(_filename)
+          case find_lang(_filename)
           when 'DE'
             _pos  = _entry.find_member(VOC.arm_name_de_pos[_i] ).value
             _size = _entry.find_member(VOC.arm_name_de_size[_i]).value
@@ -206,29 +204,26 @@ class EnemyShipData < StdEntryData
             _size = _entry.find_member(VOC.arm_name_gb_size[_i]).value
             _str  = _entry.find_member(VOC.arm_name_gb_str[_i] ).value
           else
-            _pos  = 0
+            _pos  = -1
             _size = 0
           end
           
           _f.pos = _pos
-          unless pos_valid?(_f.pos, _size, _range)
+          unless _descriptor.include?(_f.pos, _size - 1)
             next
           end
           unless _entry.expired
-            LOG.info(sprintf(VOC.dup, _id - id_range.begin, _pos))
+            LOG.info(sprintf(VOC.dup, _id - @id_range.begin, _pos))
             next
           end
           
-          LOG.info(sprintf(VOC.write, _id, _pos))
-          if jp? || us?
-            _f.write_str(_str, _size, 0x4)
-          else
-            _f.write_str(_str, _size, 0x1, 'Windows-1252')
-          end
+          LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
+          
+          _f.write_str(_str, _size, 0x1, 'Windows-1252')
         end
       end
     end
-  
+
     LOG.info(sprintf(VOC.close, _filename))
   end
     
@@ -236,14 +231,8 @@ class EnemyShipData < StdEntryData
   def save_all_to_bin
     super
   
-    _ranges = @arm_name_file
-    if _ranges
-      unless _ranges.is_a?(Array)
-        _ranges = [_ranges]
-      end
-      _ranges.each do |_range|
-        save_arm_name_to_bin(glob(_range.name))
-      end
+    each_descriptor(@arm_name_file) do |_d|
+      save_arm_name_to_bin(glob(_d.name))
     end
   end
 

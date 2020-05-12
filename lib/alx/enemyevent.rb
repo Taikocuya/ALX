@@ -76,7 +76,7 @@ class EnemyEvent < Entry
     members << IntVar.new(VOC.escape_cond_id       ,  0, :int8 )
     members << StrDmy.new(VOC.escape_cond_name     , ''        )
 
-    members << IntDmy.new(VOC.bgm_id               , -1        )
+    members << IntExt.new(VOC.bgm_id               , -1        )
   end
 
   # Writes one entry to a CSV file.

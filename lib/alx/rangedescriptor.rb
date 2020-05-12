@@ -71,11 +71,16 @@ class RangeDescriptor
     @addr   = []
     @beg    = nil
     @end    = nil
+    @min    = nil
+    @max    = nil
     @excl   = []
     @msgtbl = msgtbl
 
     _addr.each do |_range|
       init_range(_range)
+    end
+    @excl.sort! do |_a, _b|
+      _a.begin <=> _b.begin
     end
     excl.each do |_excl|
       init_excl(_excl)
@@ -101,6 +106,24 @@ class RangeDescriptor
     @addr.each(&_block)
   end
 
+  # Converts a relative position starting from zero into an absolute position 
+  # of the range descriptor.
+  # @param _pos [Integer] Relative position
+  # @return [Integer] Absolute position
+  def convert(_pos, _limit = true)
+    _abs = @beg
+    each do |_range|
+      _size = _range.size
+      _abs  = _range.begin + _pos
+      if _pos - _size < 0
+        break
+      end
+      _pos -= _size
+    end
+
+    _abs
+  end
+
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
@@ -109,9 +132,11 @@ class RangeDescriptor
   attr_reader :addr
   attr_reader :beg
   attr_reader :end
+  attr_reader :min
+  attr_reader :max
   attr_reader :excl
   attr_reader :msgtbl
-  
+
 #==============================================================================
 #                                   PRIVATE
 #==============================================================================
@@ -133,9 +158,11 @@ class RangeDescriptor
 
     if !@beg || @beg > _beg
       @beg = _beg
+      @min = _beg
     end
     if !@end || @end < _end
       @end = _end
+      @max = _end - 1
     end
   
     _overlap = @addr.find do |_addr|

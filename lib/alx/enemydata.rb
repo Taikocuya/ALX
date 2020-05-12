@@ -62,7 +62,7 @@ class EnemyData < EntryData
     @enp_file             = sys(:enp_file)
     @evp_file             = glob(:evp_file)
     @event_bgm_id_range   = sys(:enemy_event_bgm_id_range)
-    @event_bgm_files      = sys(:enemy_event_bgm_files)
+    @event_bgm_file       = sys(:enemy_event_bgm_files)
     @enemy_csv_file       = SYS.enemy_csv_file
     @enemy_tpl_file       = SYS.enemy_tpl_file
     @instruction_csv_file = SYS.enemy_instruction_csv_file
@@ -331,21 +331,29 @@ class EnemyData < EntryData
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     meta.check_mtime(_filename)
-    BinaryFile.open(_filename, 'rb', endianness: root.endianness) do |_f|
-      _range = determine_range(@event_bgm_files, _filename)
+    BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
+      _last_id    = @event_bgm_id_range.begin
+      _descriptor = find_descriptor(@event_bgm_file, _filename)
+      
+      _descriptor.each do |_range|
+        _f.pos = _range.begin
 
-      @event_bgm_id_range.each do |_id|
-        _f.pos  = _range.begin + _id
-        if !id_valid?(_id, @event_bgm_id_range, _range) || 
-           !pos_valid?(_f.pos, 1, _range)
-          next
+        (_last_id...@event_bgm_id_range.end).each do |_id|
+          if _f.eof? || !_descriptor.include?(_f.pos)
+            _last_id = _id
+            break
+          end
+          unless id_valid?(_id, @event_bgm_id_range, _descriptor)
+            next
+          end
+
+          _entry  = @events[_id]
+          _bgmid = _entry.find_member(VOC.bgm_id)
+
+          LOG.info(sprintf(VOC.read, _id - @event_bgm_id_range.begin, _f.pos))
+          
+          _bgmid.value  = _f.read_int(:int8)
         end
-        
-        _entry  = @events[_id]
-        _bgm_id = _entry.find_member(VOC.bgm_id)
-
-        LOG.info(sprintf(VOC.read, _id - @event_bgm_id_range.begin, _f.pos))
-        _bgm_id.value  = _f.read_int(:int8)
       end
     end
 
@@ -403,14 +411,8 @@ class EnemyData < EntryData
 
     # DOL and EVP files
     load_data_from_evp(@evp_file)
-    _bgm_ranges = @event_bgm_files
-    if _bgm_ranges
-      unless _bgm_ranges.is_a?(Array)
-        _bgm_ranges = [_bgm_ranges]
-      end
-      _bgm_ranges.each do |_bgm_range|
-        load_bgms_from_bin(glob(_bgm_range.name))
-      end
+    each_descriptor(@event_bgm_file) do |_d|
+      load_bgms_from_bin(glob(_d.name))
     end
 
     # ENP files
@@ -459,17 +461,19 @@ class EnemyData < EntryData
       LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
       return
     end
-    
+
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
 
     FileUtils.mkdir_p(File.dirname(_filename))
-    BinaryFile.open(_filename, 'r+b', endianness: root.endianness) do |_f|
-      _range    = determine_range(@event_bgm_files, _filename)
-
+    BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
+      _descriptor = find_descriptor(@event_bgm_file, _filename)
       @events.each_with_index do |_entry, _id|
-        _f.pos = _range.begin + _id
-        if !id_valid?(_id, @event_bgm_id_range, _range) || 
-           !pos_valid?(_f.pos, 1, _range)
+        unless id_valid?(_id, @event_bgm_id_range, _descriptor)
+          next
+        end
+        
+        _f.pos = _descriptor.convert(_id - @event_bgm_id_range.begin)
+        unless _descriptor.include?(_f.pos)
           next
         end
         unless _entry.expired
@@ -477,13 +481,14 @@ class EnemyData < EntryData
           next
         end
         
-        _bgm_id = _entry.find_member(VOC.bgm_id).value
-        if _bgm_id <= 0
+        _bgmid = _entry.find_member(VOC.bgm_id).value
+        if _bgmid < 1
           next
         end
-
+        
         LOG.info(sprintf(VOC.write, _id - @event_bgm_id_range.begin, _f.pos))
-        _f.write_int(_bgm_id, :int8)
+        
+        _f.write_int(_bgmid, :int8)
       end
     end
 
@@ -525,14 +530,8 @@ class EnemyData < EntryData
   def save_all_to_bin
     # DOL and EVP files
     save_data_to_evp(@evp_file)
-    _bgm_ranges = @event_bgm_files
-    if _bgm_ranges
-      unless _bgm_ranges.is_a?(Array)
-        _bgm_ranges = [_bgm_ranges]
-      end
-      _bgm_ranges.each do |_bgm_range|
-        save_bgms_to_bin(glob(_bgm_range.name))
-      end
+    each_descriptor(@event_bgm_file) do |_d|
+      save_bgms_to_bin(glob(_d.name))
     end
 
     # ENP files
@@ -911,7 +910,7 @@ class EnemyData < EntryData
   attr_accessor :enp_file
   attr_accessor :evp_file
   attr_accessor :event_bgm_id_range
-  attr_accessor :event_bgm_files
+  attr_accessor :event_bgm_file
   attr_accessor :enemy_csv_file
   attr_accessor :enemy_tpl_file
   attr_accessor :instruction_csv_file

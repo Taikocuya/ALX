@@ -207,27 +207,14 @@ class EntryData
   protected
 
   # Returns +true+ if entry ID is valid, otherwise +false+.
-  # @param _id         [Integer]   Entry ID
-  # @param _id_range   [Range]     ID range
-  # @param _data_range [DataRange] Data range
+  # @param _id         [Integer]         Entry ID
+  # @param _range      [Range]           ID range
+  # @param _descriptor [RangeDescriptor] Range descriptor
   # @return [Boolean] +true+ if country is valid, otherwise +false+.
-  def id_valid?(_id, _id_range, _data_range)
+  def id_valid?(_id, _range, _descriptor)
     _valid   = true
-    _valid &&= (_id >= _id_range.begin)
-    _valid &&= (_id < _id_range.end)
-    _valid &&= !_data_range.exclusions.include?(_id)
-    _valid
-  end
-
-  # Returns +true+ if I/O position is valid, otherwise +false+.
-  # @param _pos   [Integer]  I/O position
-  # @param _size  [Integer]  Entry size
-  # @param _range [DataRange] Data range
-  # @return [Boolean] +true+ if country is valid, otherwise +false+.
-  def pos_valid?(_pos, _size, _range)
-    _valid   = true
-    _valid &&= (_pos >= _range.begin)
-    _valid &&= (_pos + _size <= _range.end)
+    _valid &&= _range.include?(_id)
+    _valid &&= !_descriptor.excl.include?(_id)
     _valid
   end
 
@@ -254,22 +241,6 @@ class EntryData
     [_descriptor].flatten.compact.each do |_dscr|
       yield _dscr
     end
-  end
-
-  # Determines the data range with given filename.
-  # @param _range    [DataRange,Array] Data range
-  # @param _filename [String]          Filename
-  # @return [DataRange] Data range
-  def determine_range(_range, _filename)
-    if _range.is_a?(Array)
-      _range = _range.find { |_r| _filename.include?(_r.name) }
-    end
-    unless _range.is_a?(DataRange)
-      _msg = '%s is not a data range'
-      raise(TypeError, sprintf(_msg, _range))
-    end
-    _range ||= DataRange.new('', 0x0...0xffffffff)
-    _range
   end
 
 end # class EntryData
