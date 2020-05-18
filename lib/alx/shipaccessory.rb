@@ -47,7 +47,7 @@ class ShipAccessory < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(VOC.ship_flags                  ,  0, :int8  )
+    members << PosVar.new(VOC.ship_flags                  ,  0, :int8  )
     
     if eu?
       members << IntVar.new(padding_hdr                   ,  0, :int8  )

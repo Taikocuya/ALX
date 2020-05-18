@@ -47,7 +47,7 @@ class ShipCannon < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(VOC.ship_flags                  ,  0, :int8  )
+    members << PosVar.new(VOC.ship_flags                  ,  0, :int8  )
 
     VOC.ships.each_value do |_ship|
       members << StrDmy.new(_ship                         , ''         )

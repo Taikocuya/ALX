@@ -658,6 +658,7 @@ class GameRoot
     @sys_attr_rslvr << @product_date    unless @product_date.empty?
     @sys_attr_rslvr << @region_id       unless @region_id.empty?
     @sys_attr_rslvr << @country_id      unless @country_id.empty?
+    @sys_attr_rslvr << @description     unless @description.empty?
   end
 
   # Returns +true+ if the SYS attribute is valid, otherwise +false+.

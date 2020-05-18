@@ -148,8 +148,8 @@ VOC.configure do |_v|
 
   _v.ship_flags = 'Ship flags'
   _v.ships      = Hash.new('???')
-  _v.ships[0]   = '[LJ0]'
-  _v.ships[1]   = '[LJ1]'
+  _v.ships[0]   = '[L0]'
+  _v.ships[1]   = '[L1]'
   _v.ships[2]   = '[D0]'
   _v.ships[3]   = '[D1]'
   _v.ships[4]   = '[D2]'
@@ -352,9 +352,9 @@ VOC.configure do |_v|
 #------------------------------------------------------------------------------
 
   _v.occasion_flags  = 'Occ. flags'
-  _v.occasion_menu   = '[Menu]'
-  _v.occasion_battle = '[Battle]'
-  _v.occasion_ship   = '[Ship battle]'
+  _v.occasion_menu   = '[M]'
+  _v.occasion_battle = '[B]'
+  _v.occasion_ship   = '[S]'
 
   _v.occasions    = Hash.new('???')
   _v.occasions[0] = _v.occasion_menu

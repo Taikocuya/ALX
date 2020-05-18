@@ -63,7 +63,7 @@ class Enemy < Entry
     members << StrDmy.new(VOC.element_name          , ''         )
     members << IntVar.new(padding_hdr               , -1, :int8  )
     members << IntVar.new(padding_hdr               , -1, :int8  )
-    members << IntVar.new(VOC.movement_flags        ,  0, :int16 )
+    members << PosVar.new(VOC.movement_flags        ,  0, :int16 )
     members << IntVar.new(VOC.counter               ,  0, :int16 )
     members << IntVar.new(VOC.exp[-1]               ,  0, :uint16)
     members << IntVar.new(VOC.gold                  ,  0, :uint16)

@@ -1,0 +1,273 @@
+Entry ID,EU message ID,[DE entry name pos.],[DE entry name size],DE entry name,[ES entry name pos.],[ES entry name size],ES entry name,[FR entry name pos.],[FR entry name size],FR entry name,[GB entry name pos.],[GB entry name size],GB entry name,Category ID,[Category name],Effect ID,[Effect name],Scope ID,[Scope name],Pad. #0,Effect value #0,Effect value #1,Element ID,[Element name],Type ID,[Type name],Unk. #0,Unk. #1,State ID,[State name],State miss%,Pad. #1,Pad. #2
+0,0x8c385ab8,0x1384,15,Volcanic Blast,0x1387,17,Ráfaga Volcánica,0x138a,13,Volcan Blast,0x1354,15,Volcanic Blast,0,Super Move,0,Damage,2,All characters,0,16,20,1,Red,0,Physical,0,0,0,Poison,0,0,0
+1,0x8c385ac8,0x1393,13,Cinder Storm,0x1398,17,Ráfaga de ceniza,0x1397,16,Orage de Cendre,0x1363,13,Cinder Storm,0,Super Move,8,Add Stone + Damage,1,One character,0,16,5,1,Red,0,Physical,16,17,2,Stone,50,0,0
+2,0x8c385ad8,0x13a0,14,Feather Slash,0x13a9,14,Feather Slash,0x13a7,17,Plume Tranchante,0x1370,14,Feather Slash,0,Super Move,0,Damage,102,Character line #2,0,16,30,0,Green,0,Physical,0,0,0,Poison,0,0,0
+3,0x8c385ae8,0x13ae,9,KETSUBAN,0x13b7,9,KETSUBAN,0x13b8,9,KETSUBAN,0x137e,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+4,0x8c385af0,0x13b7,6,Laser,0x13c0,6,Láser,0x13c1,6,Laser,0x1387,6,Laser,0,Super Move,0,Damage,1,One character,0,16,20,5,Silver,0,Physical,0,0,0,Poison,0,0,0
+5,0x8c385af8,0x13bd,16,Thunder of Fury,0x13c6,16,Thunder of Fury,0x13c7,15,Tonnerre Furie,0x138d,16,Thunder of Fury,0,Super Move,0,Damage,101,Character line #1,0,16,30,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+6,0x8c385ae8,0x13cd,9,KETSUBAN,0x13d6,9,KETSUBAN,0x13d6,9,KETSUBAN,0x139d,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+7,0x8c385b08,0x13d6,16,Circle of Panic,0x13df,17,Círculo de Miedo,0x13df,15,Cercle de Peur,0x13a6,16,Circle of Panic,0,Super Move,11,Add Confusion,1,One character,0,0,0,0,Green,0,Physical,16,17,4,Confusion,0,0,0
+8,0x8c385b18,0x13e6,14,Ring of Sleep,0x13f0,17,Anillo del Sueño,0x13ee,17,Bague de Sommeil,0x13b6,14,Ring of Sleep,0,Super Move,9,Add Sleep,1,One character,0,0,0,0,Green,0,Physical,16,17,3,Sleep,0,0,0
+9,0x8c385b28,0x13f4,14,Target Search,0x1401,16,Buscar Objetivo,0x13ff,16,Recherche Cible,0x13c4,14,Target Search,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+10,0x8c385ae8,0x1402,9,KETSUBAN,0x1411,9,KETSUBAN,0x140f,9,KETSUBAN,0x13d2,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+11,0x8c385b38,0x140b,7,Tackle,0x141a,7,Ataque,0x1418,14,Ruée Mortelle,0x13db,7,Tackle,0,Super Move,0,Damage,102,Character line #2,0,16,40,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+12,0x8c385b40,0x1412,13,Death Strike,0x1421,13,Golpe Mortal,0x1426,12,Coup Mortel,0x13e2,13,Death Strike,0,Super Move,68,Add Unconscious + Damage #2,1,One character,0,16,5,5,Silver,0,Physical,16,17,1,Unconscious,70,0,0
+13,0x8c385b50,0x141f,7,Charge,0x142e,7,Ataque,0x1432,7,Charge,0x13ef,7,Charge,0,Super Move,-1,None,5,User,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+14,0x8c385b58,0x1426,11,Poison Gas,0x1435,13,Gas Venenoso,0x1439,15,Gaz Empoisonné,0x13f6,11,Poison Gas,0,Super Move,4,Add Poison + Damage,96,Character area #0,0,16,20,0,Green,0,Physical,16,17,0,Poison,50,0,0
+15,0x8c385b64,0x1431,13,Stone Breath,0x1442,16,Brisa de Piedra,0x1448,15,Souffle Pierre,0x1401,13,Stone Breath,0,Super Move,8,Add Stone + Damage,1,One character,0,16,15,0,Green,0,Physical,16,17,2,Stone,60,0,0
+16,0x8c385ae8,0x143e,9,KETSUBAN,0x1452,9,KETSUBAN,0x1457,9,KETSUBAN,0x140e,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+17,0x8c385b74,0x1447,12,Random Fire,0x145b,14,Fuego al Azar,0x1460,14,Tir aléatoire,0x1417,12,Random Fire,0,Super Move,0,Damage,98,Character area #2,0,16,25,1,Red,0,Physical,0,0,0,Poison,0,0,0
+18,0x8c385ae8,0x1453,9,KETSUBAN,0x1469,9,KETSUBAN,0x146e,9,KETSUBAN,0x1423,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+19,0x8c385b80,0x145c,15,Counter Stance,0x1472,15,Contraposición,0x1477,8,Défense,0x142c,15,Counter Stance,0,Super Move,38,Counter attack + Guard,5,User,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+20,0x8c385b90,0x146b,16,Gather Strength,0x1481,17,Recuperar Fuerza,0x147f,17,Rassembler Force,0x143b,16,Gather Strength,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+21,0x8c385b80,0x147b,15,Counter Stance,0x1492,15,Contraposición,0x1490,8,Défense,0x144b,15,Counter Stance,0,Super Move,38,Counter attack + Guard,5,User,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+22,0x8c385ba0,0x148a,6,Burst,0x14a1,10,Explosión,0x1498,10,Explosion,0x145a,6,Burst,0,Super Move,0,Damage,97,Character area #1,0,16,40,1,Red,0,Physical,0,0,0,Poison,0,0,0
+23,0x8c385ba8,0x1490,9,Terminal,0x14ab,9,Terminal,0x14a2,9,Terminal,0x1460,9,Terminal,0,Super Move,0,Damage,1,One character,0,16,55,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+24,0x8c385bb4,0x1499,9,Devolver,0x14b4,8,Delegar,0x14ab,9,Devolver,0x1469,9,Devolver,0,Super Move,38,Counter attack + Guard,5,User,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+25,0x8c385bc0,0x14a2,15,Poisonous Bile,0x14bc,15,Furia Venenosa,0x14b4,15,Bile Venimeuse,0x1472,15,Poisonous Bile,0,Super Move,4,Add Poison + Damage,2,All characters,0,16,20,0,Green,0,Physical,16,17,0,Poison,50,0,0
+26,0x8c385bd0,0x14b1,14,Death Blossom,0x14cb,18,Flor de la Muerte,0x14c3,16,Éclosion Tueuse,0x1481,14,Death Blossom,0,Super Move,0,Damage,201,Characters nearby #1,0,16,20,3,Blue,0,Physical,0,0,0,Poison,0,0,0
+27,0x8c385be0,0x14bf,12,Cannon Fire,0x14dd,15,Fuego de Cañón,0x14d3,13,Tir de Canon,0x148f,12,Cannon Fire,0,Super Move,0,Damage,1,One character,0,16,50,1,Red,0,Physical,0,0,0,Poison,0,0,0
+28,0x8c385bec,0x14cb,12,Call Allies,0x14ec,17,Convocar aliados,0x14e0,15,Appel d'alliés,0x149b,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,27,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+29,0x8c385bec,0x14d7,12,Call Allies,0x14fd,17,Convocar aliados,0x14ef,15,Appel d'alliés,0x14a7,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,31,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+30,0x8c385bf8,0x14e3,12,Wheel Blast,0x150e,12,Wheel Blast,0x14fe,14,Obus explosif,0x14b3,12,Wheel Blast,0,Super Move,0,Damage,97,Character area #1,0,16,35,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+31,0x8c385c04,0x14ef,12,Laser Blast,0x151a,13,Ráfaga láser,0x150c,16,Explosion Laser,0x14bf,12,Laser Blast,0,Super Move,8,Add Stone + Damage,1,One character,0,16,5,6,Neutral,0,Physical,16,17,2,Stone,20,0,0
+32,0x8c385c10,0x14fb,12,Crypt Laser,0x1527,16,Láser de Cripta,0x151c,13,Laser Crypte,0x14cb,12,Crypt Laser,0,Super Move,68,Add Unconscious + Damage #2,1,One character,0,16,5,5,Silver,0,Physical,16,17,1,Unconscious,60,0,0
+33,0x8c385c1c,0x1507,12,Death Laser,0x1537,16,Láser Mortífero,0x1529,13,Laser Mortel,0x14d7,12,Death Laser,0,Super Move,68,Add Unconscious + Damage #2,1,One character,0,16,5,5,Silver,0,Physical,16,17,1,Unconscious,60,0,0
+34,0x8c385c28,0x1513,14,Assess Damage,0x1547,13,Evaluar Daño,0x1536,15,Estimer Dégâts,0x14e3,14,Assess Damage,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+35,0x8c385ae8,0x1521,9,KETSUBAN,0x1554,9,KETSUBAN,0x1545,9,KETSUBAN,0x14f1,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+36,0x8c385c38,0x152a,10,Steelskin,0x155d,12,Pieldeacero,0x154e,13,Peau d'acier,0x14fa,10,Steelskin,0,Super Move,67,Invulnerable,5,User,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+37,0x8c385c44,0x1534,6,Focus,0x1569,8,Enfoque,0x155b,6,Focus,0x1504,6,Focus,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+38,0x8c385c4c,0x153a,15,Eternal Freeze,0x1571,13,Hielo Eterno,0x1561,12,Gel Éternel,0x150a,15,Eternal Freeze,0,Super Move,0,Damage,2,All characters,0,16,12,2,Purple,0,Physical,0,0,0,Poison,0,0,0
+39,0x8c385c5c,0x1549,17,Lightning Strike,0x157e,15,Golpe del Rayo,0x156d,15,Coup de Foudre,0x1519,17,Lightning Strike,0,Super Move,0,Damage,1,One character,0,16,20,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+40,0x8c385c70,0x155a,14,Terrible Bite,0x158d,17,Mordisco Temible,0x157c,17,Terrible Morsure,0x152a,14,Terrible Bite,0,Super Move,72,Add Fatigue + Damage,1,One character,0,16,15,0,Green,0,Physical,16,17,6,Fatigue,20,0,0
+41,0x8c385c80,0x1568,11,Deep Sleep,0x159e,15,Sueño Profundo,0x158d,16,Profond Sommeil,0x1538,11,Deep Sleep,0,Super Move,63,Add Regenerate + Add Sleep,5,User,0,400,65535,0,Green,0,Physical,0,0,0,Poison,0,0,0
+42,0x8c385c8c,0x1573,12,Avalauncher,0x15ad,12,Avalauncher,0x159d,11,Avalanceur,0x1543,12,Avalauncher,0,Super Move,0,Damage,102,Character line #2,0,16,35,2,Purple,0,Physical,0,0,0,Poison,0,0,0
+43,0x8c385c98,0x157f,15,Silver Eclipse,0x15b9,17,Eclipse de Plata,0x15a8,17,Éclipse d'argent,0x154f,15,Silver Eclipse,0,Super Move,0,Damage,2,All characters,0,16,25,5,Silver,0,Physical,0,0,0,Poison,0,0,0
+44,0x8c385ca8,0x158e,6,Drain,0x15ca,8,Desecar,0x15b9,11,Épuisement,0x155e,6,Drain,0,Super Move,26,Add Weak,1,One character,0,0,0,0,Green,0,Physical,16,17,8,Weak,0,0,0
+45,0x8c385cb0,0x1594,14,Turn Recovery,0x15d2,17,Turno de Reposar,0x15c4,13,Récupération,0x1564,14,Turn Recovery,0,Super Move,33,Add Regenerate,5,User,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+46,0x8c385cc0,0x15a2,12,Destruction,0x15e3,12,Destrucción,0x15d1,12,Destruction,0x1572,12,Destruction,0,Super Move,17,Remove positive states,2,All characters,0,16,10,5,Silver,0,Physical,0,0,0,Poison,0,0,0
+47,0x8c385ccc,0x15ae,8,Tremble,0x15ef,7,Seísmo,0x15dd,12,Tremblement,0x157e,8,Tremble,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+48,0x8c385cd4,0x15b6,14,Silver Tundra,0x15f6,16,Tundra de Plata,0x15e9,17,Toundra d'argent,0x1586,14,Silver Tundra,0,Super Move,0,Damage,1,One character,0,16,50,5,Silver,0,Physical,0,0,0,Poison,0,0,0
+49,0x8c385bec,0x15c4,12,Call Allies,0x1606,17,Convocar aliados,0x15fa,15,Appel d'alliés,0x1594,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,54,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+50,0x8c385bec,0x15d0,12,Call Allies,0x1617,17,Convocar aliados,0x1609,15,Appel d'alliés,0x15a0,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,85,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+51,0x8c385ce4,0x15dc,8,Explore,0x1628,9,Explorar,0x1618,12,Exploration,0x15ac,8,Explore,0,Super Move,0,Damage,2,All characters,0,16,20,1,Red,0,Physical,0,0,0,Poison,0,0,0
+52,0x8c385cec,0x15e4,11,Stone Ooze,0x1631,16,Fango de Piedra,0x1624,17,Pierre Suintante,0x15b4,11,Stone Ooze,0,Super Move,7,Add Stone,1,One character,0,0,0,0,Green,0,Physical,16,17,2,Stone,40,0,0
+53,0x8c385cf8,0x15ef,13,Tundra Blast,0x1641,17,Ráfaga de Tundra,0x1635,17,Tundra Explosive,0x15bf,13,Tundra Blast,0,Super Move,0,Damage,2,All characters,0,16,20,2,Purple,0,Physical,0,0,0,Poison,0,0,0
+54,0x8c385d08,0x15fc,12,Death Waltz,0x1652,12,Vals Mortal,0x1646,17,Valse de la Mort,0x15cc,12,Death Waltz,0,Super Move,0,Damage,2,All characters,0,16,40,6,Neutral,0,Physical,0,0,0,Poison,0,0,0
+55,0x8c385d14,0x1608,7,Engage,0x165e,11,Involucrar,0x1657,11,Engagement,0x15d8,7,Engage,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+56,0x8c385d1c,0x160f,14,Thunder Storm,0x1669,17,Ráfaga de Trueno,0x1662,6,Orage,0x15df,14,Thunder Storm,0,Super Move,0,Damage,2,All characters,0,16,20,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+57,0x8c385d2c,0x161d,11,Eerie Wail,0x167a,17,Sollozo Pavoroso,0x1668,12,Cri Lugubre,0x15ed,11,Eerie Wail,0,Super Move,0,Damage,107,Character line #4,0,16,15,2,Purple,0,Physical,0,0,0,Poison,0,0,0
+58,0x8c385c28,0x1628,14,Assess Damage,0x168b,13,Evaluar Daño,0x1674,15,Estimer Dégâts,0x15f8,14,Assess Damage,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+59,0x8c385d08,0x1636,12,Death Waltz,0x1698,12,Vals Mortal,0x1683,17,Valse de la Mort,0x1606,12,Death Waltz,0,Super Move,0,Damage,2,All characters,0,16,40,6,Neutral,0,Physical,0,0,0,Poison,0,0,0
+60,0x8c385d38,0x1642,15,Vigoro's Charm,0x16a4,17,Magia de Vigoro ,0x1694,17,Charme de Vigoro,0x1612,15,Vigoro's Charm,0,Super Move,70,Add Confusion + Damage,1,One character,0,16,5,1,Red,0,Physical,16,17,4,Confusion,0,0,0
+61,0x8c385c04,0x1651,12,Laser Blast,0x16b5,13,Ráfaga láser,0x16a5,16,Explosion Laser,0x1621,12,Laser Blast,0,Super Move,8,Add Stone + Damage,1,One character,0,16,20,5,Silver,0,Physical,16,17,2,Stone,50,0,0
+62,0x8c385bec,0x165d,12,Call Allies,0x16c2,17,Convocar aliados,0x16b5,15,Appel d'alliés,0x162d,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,12,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+63,0x8c385d48,0x1669,7,Digest,0x16d3,8,Digerir,0x16c4,8,Digérer,0x1639,7,Digest,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+64,0x8c385c70,0x1670,14,Terrible Bite,0x16db,17,Mordisco Temible,0x16cc,17,Terrible Morsure,0x1640,14,Terrible Bite,0,Super Move,72,Add Fatigue + Damage,1,One character,0,16,15,2,Purple,0,Physical,16,17,6,Fatigue,20,0,0
+65,0x8c385d50,0x167e,8,Neglora,0x16ec,8,Neglora,0x16dd,8,Neglora,0x164e,8,Neglora,0,Super Move,17,Remove positive states,2,All characters,0,16,5,4,Yellow,0,Physical,-1,-2,-1,None,-2,0,0
+66,0x8c385d58,0x1686,10,Ice Storm,0x16f4,16,Ráfaga de Hielo,0x16e5,15,Orage de Glace,0x1656,10,Ice Storm,0,Super Move,0,Damage,2,All characters,0,16,20,2,Purple,0,Physical,0,0,0,Poison,0,0,0
+67,0x8c385bec,0x1690,12,Call Allies,0x1704,17,Convocar aliados,0x16f4,15,Appel d'alliés,0x1660,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,60,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+68,0x8c385bec,0x169c,12,Call Allies,0x1715,17,Convocar aliados,0x1703,15,Appel d'alliés,0x166c,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,84,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+69,0x8c385bec,0x16a8,12,Call Allies,0x1726,17,Convocar aliados,0x1712,15,Appel d'alliés,0x1678,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,107,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+70,0x8c385d64,0x16b4,8,Grenade,0x1737,8,Grenade,0x1721,8,Grenade,0x1684,8,Grenade,0,Super Move,0,Damage,96,Character area #0,0,16,20,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+71,0x8c385b58,0x16bc,11,Poison Gas,0x173f,13,Gas Venenoso,0x1729,15,Gas Empoisonné,0x168c,11,Poison Gas,0,Super Move,4,Add Poison + Damage,96,Character area #0,0,16,20,0,Green,0,Physical,16,17,0,Poison,50,0,0
+72,0x8c385d6c,0x16c7,15,Sacrum Crystal,0x174c,15,Cristal Sacrum,0x1738,15,Cristal Sacrum,0x1697,15,Sacrum Crystal,0,Super Move,31,Recover HP,4,All enemies,0,1000,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+73,0x8c385bec,0x16d6,12,Call Allies,0x175b,17,Convocar aliados,0x1747,15,Appel d'alliés,0x16a6,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,97,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+74,0x8c385bec,0x16e2,12,Call Allies,0x176c,17,Convocar aliados,0x1756,15,Appel d'alliés,0x16b2,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,75,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+75,0x8c385d7c,0x16ee,10,Discharge,0x177d,8,Evacuar,0x1765,7,Renvoi,0x16be,10,Discharge,0,Super Move,0,Damage,2,All characters,0,16,20,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+76,0x8c385d88,0x16f8,14,Tatatimorutto,0x1785,14,Tatatimorutto,0x176c,14,Tatatimorutto,0x16c8,14,Tatatimorutto,0,Super Move,0,Damage,1,One character,0,16,40,3,Blue,0,Physical,0,0,0,Poison,0,0,0
+77,0x8c385d98,0x1706,11,Round Claw,0x1793,15,Tenaza Redonda,0x177a,16,Griffe Arrondie,0x16d6,11,Round Claw,0,Super Move,0,Damage,1,One character,0,16,40,5,Silver,0,Physical,0,0,0,Poison,0,0,0
+78,0x8c385bec,0x1711,12,Call Allies,0x17a2,17,Convocar aliados,0x178a,15,Appel d'alliés,0x16e1,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,93,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+79,0x8c385da4,0x171d,14,Sacri Crystal,0x17b3,14,Cristal Sacri,0x1799,14,Cristal Sacri,0x16ed,14,Sacri Crystal,0,Super Move,31,Recover HP,3,One enemy,0,500,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+80,0x8c385db4,0x172b,15,Sacres Crystal,0x17c1,15,Cristal Sacres,0x17a7,15,Cristal Sacres,0x16fb,15,Sacres Crystal,0,Super Move,31,Recover HP,3,One enemy,0,1000,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+81,0x8c385dc4,0x173a,17,Sacrulen Crystal,0x17d0,17,Cristal Sacrulen,0x17b6,17,Cristal Sacrulen,0x170a,17,Sacrulen Crystal,0,Super Move,31,Recover HP,4,All enemies,0,1000,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+82,0x8c385bec,0x174b,12,Call Allies,0x17e1,17,Convocar aliados,0x17c7,15,Appel d'alliés,0x171b,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,92,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+83,0x8c385dd8,0x1757,17,Silver Nightmare,0x17f2,10,Pesadilla,0x17d6,18,SCauchemar Argent,0x1727,17,Silver Nightmare,0,Super Move,74,Control ally,1,One character,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+84,0x8c385dec,0x1768,13,Silver Binds,0x17fc,15,Lazos de Plata,0x17e8,15,Liens d'argent,0x1738,13,Silver Binds,0,Super Move,0,Damage,1,One character,0,16,50,5,Silver,0,Physical,0,0,0,Poison,0,0,0
+85,0x8c385cb0,0x1775,14,Turn Recovery,0x180b,17,Turno de Reposar,0x17f7,13,Récupération,0x1745,14,Turn Recovery,0,Super Move,33,Add Regenerate,5,User,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+86,0x8c385cc0,0x1783,12,Destruction,0x181c,12,Destrucción,0x1804,12,Destruction,0x1753,12,Destruction,0,Super Move,17,Remove positive states,2,All characters,0,16,25,5,Silver,0,Physical,-1,-2,-1,None,-2,0,0
+87,0x8c385bec,0x178f,12,Call Allies,0x1828,17,Convocar aliados,0x1810,15,Appel d'alliés,0x175f,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,44,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+88,0x8c385bec,0x179b,12,Call Allies,0x1839,17,Convocar aliados,0x181f,15,Appel d'alliés,0x176b,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,21,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+89,0x8c385bec,0x17a7,12,Call Allies,0x184a,17,Convocar aliados,0x182e,15,Appel d'alliés,0x1777,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,22,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+90,0x8c385c98,0x17b3,15,Silver Eclipse,0x185b,17,Eclipse de Plata,0x183d,17,Éclipse d'argent,0x1783,15,Silver Eclipse,0,Super Move,0,Damage,2,All characters,0,16,25,6,Neutral,0,Physical,0,0,0,Poison,0,0,0
+91,0x8c385dfc,0x17c2,9,Not Used,0x186c,10,No se usa,0x184e,15,Non Utilisé(e),0x1792,9,Not Used,0,Super Move,8,Add Stone + Damage,1,One character,0,16,15,0,Green,0,Physical,16,17,2,Stone,70,0,0
+92,0x8c385e08,0x17cb,15,Fatigue Breath,0x1876,16,Brisa de Fatiga,0x185d,16,Souffle Fatigue,0x179b,15,Fatigue Breath,0,Super Move,72,Add Fatigue + Damage,1,One character,0,16,15,0,Green,0,Physical,16,17,6,Fatigue,20,0,0
+93,0x8c385e08,0x17da,15,Fatigue Breath,0x1886,16,Brisa de Fatiga,0x186d,16,Souffle Fatigue,0x17aa,15,Fatigue Breath,0,Super Move,72,Add Fatigue + Damage,1,One character,0,16,15,1,Red,0,Physical,16,17,6,Fatigue,20,0,0
+94,0x8c385e18,0x17e9,15,Lunar Blessing,0x1896,16,Bendición Lunar,0x187d,17,Bienfait lunaire,0x17b9,15,Lunar Blessing,0,Super Move,33,Add Regenerate,5,User,0,600,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+95,0x8c385e28,0x17f8,6,DUMMY,0x18a6,6,DUMMY,0x188e,6,DUMMY,0x17c8,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+96,0x8c385ae8,0x17fe,9,KETSUBAN,0x18ac,9,KETSUBAN,0x1894,9,KETSUBAN,0x17ce,9,KETSUBAN,0,Super Move,0,Damage,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+97,0x8c385e30,0x1807,10,Emergency,0x18b5,11,Emergencia,0x189d,8,Urgence,0x17d7,10,Emergency,0,Super Move,64,Call enemy + Defeat all enemies,0,None,0,99,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+98,0x8c385bec,0x1811,12,Call Allies,0x18c0,17,Convocar aliados,0x18a5,15,Appel d'alliés,0x17e1,12,Call Allies,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+99,0x8c385e3c,0x181d,8,Blaster,0x18d1,8,Blaster,0x18b4,9,Explosif,0x17ed,8,Blaster,0,Super Move,0,Damage,101,Character line #1,0,16,25,5,Silver,0,Physical,0,0,0,Poison,0,0,0
+100,0x8c385e44,0x1825,7,Magic?,0x18d9,8,¿Magia?,0x18bd,8,Magie ?,0x17f5,7,Magic?,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+101,0x8c385e4c,0x182c,6,DUMMY,0x18e1,6,DUMMY,0x18c5,6,DUMMY,0x17fc,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+102,0x8c385e4c,0x1832,6,DUMMY,0x18e7,6,DUMMY,0x18cb,6,DUMMY,0x1802,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+103,0x8c385e4c,0x1838,6,DUMMY,0x18ed,6,DUMMY,0x18d1,6,DUMMY,0x1808,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+104,0x8c385e4c,0x183e,6,DUMMY,0x18f3,6,DUMMY,0x18d7,6,DUMMY,0x180e,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+105,0x8c385e4c,0x1844,6,DUMMY,0x18f9,6,DUMMY,0x18dd,6,DUMMY,0x1814,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+106,0x8c385bec,0x184a,12,Call Allies,0x18ff,17,Convocar aliados,0x18e3,15,Appel d'alliés,0x181a,12,Call Allies,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+107,0x8c385bec,0x1856,12,Call Allies,0x1910,17,Convocar aliados,0x18f2,15,Appel d'alliés,0x1826,12,Call Allies,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+108,0x8c385bec,0x1862,12,Call Allies,0x1921,17,Convocar aliados,0x1901,15,Appel d'alliés,0x1832,12,Call Allies,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+109,0x8c385bec,0x186e,12,Call Allies,0x1932,17,Convocar aliados,0x1910,15,Appel d'alliés,0x183e,12,Call Allies,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+110,0x8c385bec,0x187a,12,Call Allies,0x1943,17,Convocar aliados,0x191f,15,Appel d'alliés,0x184a,12,Call Allies,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+111,0x8c385bec,0x1886,12,Call Allies,0x1954,17,Convocar aliados,0x192e,15,Appel d'alliés,0x1856,12,Call Allies,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+112,0x8c385bec,0x1892,12,Call Allies,0x1965,17,Convocar aliados,0x193d,15,Appel d'alliés,0x1862,12,Call Allies,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+113,0x8c385bec,0x189e,12,Call Allies,0x1976,17,Convocar aliados,0x194c,15,Appel d'alliés,0x186e,12,Call Allies,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+114,0x8c385bec,0x18aa,12,Call Allies,0x1987,17,Convocar aliados,0x195b,15,Appel d'alliés,0x187a,12,Call Allies,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+115,0x8c385bec,0x18b6,12,Call Allies,0x1998,17,Convocar aliados,0x196a,15,Appel d'alliés,0x1886,12,Call Allies,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+116,0x8c385e5c,0x18c2,13,Power Potion,0x19a9,16,Poción Poderosa,0x1979,15,Potion Pouvoir,0x1892,13,Power Potion,0,Super Move,21,Add Strengthen,3,One enemy,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+117,0x8c385e6c,0x18cf,13,Speed Potion,0x19b9,17,Poción de Prisas,0x1988,15,Potion Vitesse,0x189f,13,Speed Potion,0,Super Move,20,Add Quickened,4,All enemies,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+118,0x8c385db4,0x18dc,15,Sacres Crystal,0x19ca,15,Cristal Sacres,0x1997,15,Cristal Sacres,0x18ac,15,Sacres Crystal,0,Super Move,31,Recover HP,3,One enemy,0,1000,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+119,0x8c385e7c,0x18eb,13,Death Tackle,0x19d9,17,Embestida Mortal,0x19a6,13,Tacle Mortel,0x18bb,13,Death Tackle,0,Super Move,0,Damage,102,Character line #2,0,16,40,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+120,0x8c385e28,0x18f8,6,DUMMY,0x19ea,6,DUMMY,0x19b3,6,DUMMY,0x18c8,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+121,0x8c385e28,0x18fe,6,DUMMY,0x19f0,6,DUMMY,0x19b9,6,DUMMY,0x18ce,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+122,0x8c385e28,0x1904,6,DUMMY,0x19f6,6,DUMMY,0x19bf,6,DUMMY,0x18d4,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+123,0x8c385e28,0x190a,6,DUMMY,0x19fc,6,DUMMY,0x19c5,6,DUMMY,0x18da,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+124,0x8c385e28,0x1910,6,DUMMY,0x1a02,6,DUMMY,0x19cb,6,DUMMY,0x18e0,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+125,0x8c385e28,0x1916,6,DUMMY,0x1a08,6,DUMMY,0x19d1,6,DUMMY,0x18e6,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+126,0x8c385e28,0x191c,6,DUMMY,0x1a0e,6,DUMMY,0x19d7,6,DUMMY,0x18ec,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+127,0x8c385e28,0x1922,6,DUMMY,0x1a14,6,DUMMY,0x19dd,6,DUMMY,0x18f2,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+128,0x8c385e28,0x1928,6,DUMMY,0x1a1a,6,DUMMY,0x19e3,6,DUMMY,0x18f8,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+129,0x8c385e28,0x192e,6,DUMMY,0x1a20,6,DUMMY,0x19e9,6,DUMMY,0x18fe,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+130,0x8c385e28,0x1934,6,DUMMY,0x1a26,6,DUMMY,0x19ef,6,DUMMY,0x1904,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+131,0x8c385e28,0x193a,6,DUMMY,0x1a2c,6,DUMMY,0x19f5,6,DUMMY,0x190a,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+132,0x8c385e28,0x1940,6,DUMMY,0x1a32,6,DUMMY,0x19fb,6,DUMMY,0x1910,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+133,0x8c385e28,0x1946,6,DUMMY,0x1a38,6,DUMMY,0x1a01,6,DUMMY,0x1916,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+134,0x8c385e28,0x194c,6,DUMMY,0x1a3e,6,DUMMY,0x1a07,6,DUMMY,0x191c,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+135,0x8c385e28,0x1952,6,DUMMY,0x1a44,6,DUMMY,0x1a0d,6,DUMMY,0x1922,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+136,0x8c385e28,0x1958,6,DUMMY,0x1a4a,6,DUMMY,0x1a13,6,DUMMY,0x1928,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+137,0x8c385e28,0x195e,6,DUMMY,0x1a50,6,DUMMY,0x1a19,6,DUMMY,0x192e,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+138,0x8c385e28,0x1964,6,DUMMY,0x1a56,6,DUMMY,0x1a1f,6,DUMMY,0x1934,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+139,0x8c385e28,0x196a,6,DUMMY,0x1a5c,6,DUMMY,0x1a25,6,DUMMY,0x193a,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+140,0x8c385e28,0x1970,6,DUMMY,0x1a62,6,DUMMY,0x1a2b,6,DUMMY,0x1940,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+141,0x8c385e28,0x1976,6,DUMMY,0x1a68,6,DUMMY,0x1a31,6,DUMMY,0x1946,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+142,0x8c385e28,0x197c,6,DUMMY,0x1a6e,6,DUMMY,0x1a37,6,DUMMY,0x194c,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+143,0x8c385e28,0x1982,6,DUMMY,0x1a74,6,DUMMY,0x1a3d,6,DUMMY,0x1952,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+144,0x8c385e28,0x1988,6,DUMMY,0x1a7a,6,DUMMY,0x1a43,6,DUMMY,0x1958,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+145,0x8c385e28,0x198e,6,DUMMY,0x1a80,6,DUMMY,0x1a49,6,DUMMY,0x195e,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+146,0x8c385e28,0x1994,6,DUMMY,0x1a86,6,DUMMY,0x1a4f,6,DUMMY,0x1964,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+147,0x8c385e28,0x199a,6,DUMMY,0x1a8c,6,DUMMY,0x1a55,6,DUMMY,0x196a,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+148,0x8c385e28,0x19a0,6,DUMMY,0x1a92,6,DUMMY,0x1a5b,6,DUMMY,0x1970,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+149,0x8c385e28,0x19a6,6,DUMMY,0x1a98,6,DUMMY,0x1a61,6,DUMMY,0x1976,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+150,0x8c385e28,0x19ac,6,DUMMY,0x1a9e,6,DUMMY,0x1a67,6,DUMMY,0x197c,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+151,0x8c385e28,0x19b2,6,DUMMY,0x1aa4,6,DUMMY,0x1a6d,6,DUMMY,0x1982,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+152,0x8c385e28,0x19b8,6,DUMMY,0x1aaa,6,DUMMY,0x1a73,6,DUMMY,0x1988,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+153,0x8c385e28,0x19be,6,DUMMY,0x1ab0,6,DUMMY,0x1a79,6,DUMMY,0x198e,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+154,0x8c385e28,0x19c4,6,DUMMY,0x1ab6,6,DUMMY,0x1a7f,6,DUMMY,0x1994,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+155,0x8c385e28,0x19ca,6,DUMMY,0x1abc,6,DUMMY,0x1a85,6,DUMMY,0x199a,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+156,0x8c385e28,0x19d0,6,DUMMY,0x1ac2,6,DUMMY,0x1a8b,6,DUMMY,0x19a0,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+157,0x8c385e28,0x19d6,6,DUMMY,0x1ac8,6,DUMMY,0x1a91,6,DUMMY,0x19a6,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+158,0x8c385e28,0x19dc,6,DUMMY,0x1ace,6,DUMMY,0x1a97,6,DUMMY,0x19ac,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+159,0x8c385e28,0x19e2,6,DUMMY,0x1ad4,6,DUMMY,0x1a9d,6,DUMMY,0x19b2,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+160,0x8c385e8c,0x19e8,7,Search,0x1ada,9,Búsqueda,0x1aa3,10,Recherche,0x19b8,7,Search,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+161,0x8c385b58,0x19ef,11,Poison Gas,0x1ae3,13,Gas Venenoso,0x1aad,15,Gaz Empoisonné,0x19bf,11,Poison Gas,0,Super Move,4,Add Poison + Damage,96,Character area #0,0,16,15,0,Green,0,Physical,16,17,0,Poison,50,0,0
+162,0x8c385e94,0x19fa,12,Fatigue Gas,0x1af0,14,Gas de Fatiga,0x1abc,15,Gaz de Fatigue,0x19ca,12,Fatigue Gas,0,Super Move,72,Add Fatigue + Damage,96,Character area #0,0,16,15,4,Yellow,0,Physical,16,17,6,Fatigue,20,0,0
+163,0x8c385e28,0x1a06,6,DUMMY,0x1afe,6,DUMMY,0x1acb,6,DUMMY,0x19d6,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+164,0x8c385e28,0x1a0c,6,DUMMY,0x1b04,6,DUMMY,0x1ad1,6,DUMMY,0x19dc,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+165,0x8c385e28,0x1a12,6,DUMMY,0x1b0a,6,DUMMY,0x1ad7,6,DUMMY,0x19e2,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+166,0x8c385e28,0x1a18,6,DUMMY,0x1b10,6,DUMMY,0x1add,6,DUMMY,0x19e8,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+167,0x8c385e28,0x1a1e,6,DUMMY,0x1b16,6,DUMMY,0x1ae3,6,DUMMY,0x19ee,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+168,0x8c385e28,0x1a24,6,DUMMY,0x1b1c,6,DUMMY,0x1ae9,6,DUMMY,0x19f4,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+169,0x8c385e28,0x1a2a,6,DUMMY,0x1b22,6,DUMMY,0x1aef,6,DUMMY,0x19fa,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+170,0x8c385ea0,0x1a30,13,Needle Storm,0x1b28,17,Ráfaga de Agujas,0x1af5,16,Orage Aiguilles,0x1a00,13,Needle Storm,0,Super Move,0,Damage,1,One character,0,16,40,3,Blue,0,Physical,0,0,0,Poison,0,0,0
+171,0x8c385e28,0x1a3d,6,DUMMY,0x1b39,6,DUMMY,0x1b05,6,DUMMY,0x1a0d,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+172,0x8c385e28,0x1a43,6,DUMMY,0x1b3f,6,DUMMY,0x1b0b,6,DUMMY,0x1a13,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+173,0x8c385e28,0x1a49,6,DUMMY,0x1b45,6,DUMMY,0x1b11,6,DUMMY,0x1a19,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+174,0x8c385e28,0x1a4f,6,DUMMY,0x1b4b,6,DUMMY,0x1b17,6,DUMMY,0x1a1f,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+175,0x8c385e28,0x1a55,6,DUMMY,0x1b51,6,DUMMY,0x1b1d,6,DUMMY,0x1a25,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+176,0x8c385e28,0x1a5b,6,DUMMY,0x1b57,6,DUMMY,0x1b23,6,DUMMY,0x1a2b,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+177,0x8c385e28,0x1a61,6,DUMMY,0x1b5d,6,DUMMY,0x1b29,6,DUMMY,0x1a31,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+178,0x8c385e28,0x1a67,6,DUMMY,0x1b63,6,DUMMY,0x1b2f,6,DUMMY,0x1a37,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+179,0x8c385e28,0x1a6d,6,DUMMY,0x1b69,6,DUMMY,0x1b35,6,DUMMY,0x1a3d,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+180,0x8c385eb0,0x1a73,11,Lava Storm,0x1b6f,17,Tormenta de lava,0x1b3b,14,Orage de Lave,0x1a43,11,Lava Storm,0,Super Move,0,Damage,2,All characters,0,16,10,1,Red,0,Physical,0,0,0,Poison,0,0,0
+181,0x8c385ebc,0x1a7e,13,Blast Breath,0x1b80,16,Ráfaga de Brisa,0x1b49,16,Soufflexplosion,0x1a4e,13,Blast Breath,0,Super Move,0,Damage,2,All characters,0,16,15,1,Red,0,Physical,0,0,0,Poison,0,0,0
+182,0x8c385ecc,0x1a8b,12,Loqua Spray,0x1b90,12,Spray Loqua,0x1b59,12,Spray Loqua,0x1a5b,12,Loqua Spray,0,Super Move,0,Damage,2,All characters,0,16,25,1,Red,0,Physical,0,0,0,Poison,0,0,0
+183,0x8c385ed8,0x1a97,13,Frost Breath,0x1b9c,15,Brisa de Hielo,0x1b65,15,Souffle de Gel,0x1a67,13,Frost Breath,0,Super Move,0,Damage,2,All characters,0,16,15,2,Purple,0,Physical,0,0,0,Poison,0,0,0
+184,0x8c385ed8,0x1aa4,13,Frost Breath,0x1bab,15,Brisa de Hielo,0x1b74,15,Souffle de Gel,0x1a74,13,Frost Breath,0,Super Move,0,Damage,2,All characters,0,16,15,2,Purple,0,Physical,0,0,0,Poison,0,0,0
+185,0x8c385e28,0x1ab1,6,DUMMY,0x1bba,6,DUMMY,0x1b83,6,DUMMY,0x1a81,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+186,0x8c385e28,0x1ab7,6,DUMMY,0x1bc0,6,DUMMY,0x1b89,6,DUMMY,0x1a87,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+187,0x8c385e28,0x1abd,6,DUMMY,0x1bc6,6,DUMMY,0x1b8f,6,DUMMY,0x1a8d,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+188,0x8c385e28,0x1ac3,6,DUMMY,0x1bcc,6,DUMMY,0x1b95,6,DUMMY,0x1a93,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+189,0x8c385e28,0x1ac9,6,DUMMY,0x1bd2,6,DUMMY,0x1b9b,6,DUMMY,0x1a99,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+190,0x8c385ee8,0x1acf,7,Damyun,0x1bd8,7,Damyun,0x1ba1,7,Damyun,0x1a9f,7,Damyun,0,Super Move,12,Add Silence,2,All characters,0,0,0,0,Green,0,Physical,16,17,5,Silence,40,0,0
+191,0x8c385ef0,0x1ad6,13,Slumber Dust,0x1bdf,16,Polvo de Dormir,0x1ba8,15,Poudre Sommeil,0x1aa6,13,Slumber Dust,0,Super Move,9,Add Sleep,102,Character line #2,0,0,0,0,Green,0,Physical,16,17,3,Sleep,40,0,0
+192,0x8c385e28,0x1ae3,6,DUMMY,0x1bef,6,DUMMY,0x1bb7,6,DUMMY,0x1ab3,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+193,0x8c385e28,0x1ae9,6,DUMMY,0x1bf5,6,DUMMY,0x1bbd,6,DUMMY,0x1ab9,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+194,0x8c385e28,0x1aef,6,DUMMY,0x1bfb,6,DUMMY,0x1bc3,6,DUMMY,0x1abf,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+195,0x8c385e28,0x1af5,6,DUMMY,0x1c01,6,DUMMY,0x1bc9,6,DUMMY,0x1ac5,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+196,0x8c385e28,0x1afb,6,DUMMY,0x1c07,6,DUMMY,0x1bcf,6,DUMMY,0x1acb,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+197,0x8c385e28,0x1b01,6,DUMMY,0x1c0d,6,DUMMY,0x1bd5,6,DUMMY,0x1ad1,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+198,0x8c385e28,0x1b07,6,DUMMY,0x1c13,6,DUMMY,0x1bdb,6,DUMMY,0x1ad7,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+199,0x8c385e28,0x1b0d,6,DUMMY,0x1c19,6,DUMMY,0x1be1,6,DUMMY,0x1add,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+200,0x8c385bec,0x1b13,12,Call Allies,0x1c1f,17,Convocar aliados,0x1be7,15,Appel d'alliés,0x1ae3,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,13,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+201,0x8c385bec,0x1b1f,12,Call Allies,0x1c30,17,Convocar aliados,0x1bf6,15,Appel d'alliés,0x1aef,12,Call Allies,0,Super Move,43,Call enemy,0,None,0,96,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+202,0x8c385e28,0x1b2b,6,DUMMY,0x1c41,6,DUMMY,0x1c05,6,DUMMY,0x1afb,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+203,0x8c385e28,0x1b31,6,DUMMY,0x1c47,6,DUMMY,0x1c0b,6,DUMMY,0x1b01,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+204,0x8c385e28,0x1b37,6,DUMMY,0x1c4d,6,DUMMY,0x1c11,6,DUMMY,0x1b07,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+205,0x8c385e28,0x1b3d,6,DUMMY,0x1c53,6,DUMMY,0x1c17,6,DUMMY,0x1b0d,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+206,0x8c385e28,0x1b43,6,DUMMY,0x1c59,6,DUMMY,0x1c1d,6,DUMMY,0x1b13,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+207,0x8c385e28,0x1b49,6,DUMMY,0x1c5f,6,DUMMY,0x1c23,6,DUMMY,0x1b19,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+208,0x8c385e28,0x1b4f,6,DUMMY,0x1c65,6,DUMMY,0x1c29,6,DUMMY,0x1b1f,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+209,0x8c385e28,0x1b55,6,DUMMY,0x1c6b,6,DUMMY,0x1c2f,6,DUMMY,0x1b25,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+210,0x8c385f00,0x1b5b,10,HP Absorb,0x1c71,15,Absorber Salud,0x1c35,12,Absorber PV,0x1b2b,10,HP Absorb,0,Super Move,44,Absorb HP,1,One character,0,2,10,0,Green,0,Physical,0,0,0,Poison,0,0,0
+211,0x8c385f00,0x1b65,10,HP Absorb,0x1c80,15,Absorber Salud,0x1c41,12,Absorber PV,0x1b35,10,HP Absorb,0,Super Move,44,Absorb HP,1,One character,0,2,10,0,Green,0,Physical,0,0,0,Poison,0,0,0
+212,0x8c385f00,0x1b6f,10,HP Absorb,0x1c8f,15,Absorber Salud,0x1c4d,12,Absorber PV,0x1b3f,10,HP Absorb,0,Super Move,44,Absorb HP,1,One character,0,2,20,0,Green,0,Physical,0,0,0,Poison,0,0,0
+213,0x8c385f00,0x1b79,10,HP Absorb,0x1c9e,15,Absorber Salud,0x1c59,12,Absorber PV,0x1b49,10,HP Absorb,0,Super Move,44,Absorb HP,1,One character,0,2,20,0,Green,0,Physical,0,0,0,Poison,0,0,0
+214,0x8c385e28,0x1b83,6,DUMMY,0x1cad,6,DUMMY,0x1c65,6,DUMMY,0x1b53,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+215,0x8c385e28,0x1b89,6,DUMMY,0x1cb3,6,DUMMY,0x1c6b,6,DUMMY,0x1b59,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+216,0x8c385e28,0x1b8f,6,DUMMY,0x1cb9,6,DUMMY,0x1c71,6,DUMMY,0x1b5f,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+217,0x8c385e28,0x1b95,6,DUMMY,0x1cbf,6,DUMMY,0x1c77,6,DUMMY,0x1b65,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+218,0x8c385e28,0x1b9b,6,DUMMY,0x1cc5,6,DUMMY,0x1c7d,6,DUMMY,0x1b6b,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+219,0x8c385e28,0x1ba1,6,DUMMY,0x1ccb,6,DUMMY,0x1c83,6,DUMMY,0x1b71,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+220,0x8c385f0c,0x1ba7,11,Rapid Fire,0x1cd1,13,Fuego Rápido,0x1c89,11,Tir Rapide,0x1b77,11,Rapid Fire,0,Super Move,0,Damage,1,One character,0,16,30,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+221,0x8c385ae8,0x1bb2,9,KETSUBAN,0x1cde,9,KETSUBAN,0x1c94,9,KETSUBAN,0x1b82,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+222,0x8c385e28,0x1bbb,6,DUMMY,0x1ce7,6,DUMMY,0x1c9d,6,DUMMY,0x1b8b,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+223,0x8c385e28,0x1bc1,6,DUMMY,0x1ced,6,DUMMY,0x1ca3,6,DUMMY,0x1b91,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+224,0x8c385e28,0x1bc7,6,DUMMY,0x1cf3,6,DUMMY,0x1ca9,6,DUMMY,0x1b97,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+225,0x8c385e28,0x1bcd,6,DUMMY,0x1cf9,6,DUMMY,0x1caf,6,DUMMY,0x1b9d,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+226,0x8c385e28,0x1bd3,6,DUMMY,0x1cff,6,DUMMY,0x1cb5,6,DUMMY,0x1ba3,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+227,0x8c385e28,0x1bd9,6,DUMMY,0x1d05,6,DUMMY,0x1cbb,6,DUMMY,0x1ba9,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+228,0x8c385e28,0x1bdf,6,DUMMY,0x1d0b,6,DUMMY,0x1cc1,6,DUMMY,0x1baf,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+229,0x8c385e28,0x1be5,6,DUMMY,0x1d11,6,DUMMY,0x1cc7,6,DUMMY,0x1bb5,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+230,0x8c385f18,0x1beb,8,Irnagun,0x1d17,8,Irnagun,0x1ccd,8,Irnagun,0x1bbb,8,Irnagun,0,Super Move,0,Damage,1,One character,0,16,40,3,Blue,0,Physical,0,0,0,Poison,0,0,0
+231,0x8c385e28,0x1bf3,6,DUMMY,0x1d1f,6,DUMMY,0x1cd5,6,DUMMY,0x1bc3,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+232,0x8c385e28,0x1bf9,6,DUMMY,0x1d25,6,DUMMY,0x1cdb,6,DUMMY,0x1bc9,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+233,0x8c385e28,0x1bff,6,DUMMY,0x1d2b,6,DUMMY,0x1ce1,6,DUMMY,0x1bcf,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+234,0x8c385e28,0x1c05,6,DUMMY,0x1d31,6,DUMMY,0x1ce7,6,DUMMY,0x1bd5,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+235,0x8c385e28,0x1c0b,6,DUMMY,0x1d37,6,DUMMY,0x1ced,6,DUMMY,0x1bdb,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+236,0x8c385e28,0x1c11,6,DUMMY,0x1d3d,6,DUMMY,0x1cf3,6,DUMMY,0x1be1,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+237,0x8c385e28,0x1c17,6,DUMMY,0x1d43,6,DUMMY,0x1cf9,6,DUMMY,0x1be7,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+238,0x8c385e28,0x1c1d,6,DUMMY,0x1d49,6,DUMMY,0x1cff,6,DUMMY,0x1bed,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+239,0x8c385e28,0x1c23,6,DUMMY,0x1d4f,6,DUMMY,0x1d05,6,DUMMY,0x1bf3,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+240,0x8c385e28,0x1c29,6,DUMMY,0x1d55,6,DUMMY,0x1d0b,6,DUMMY,0x1bf9,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+241,0x8c385e28,0x1c2f,6,DUMMY,0x1d5b,6,DUMMY,0x1d11,6,DUMMY,0x1bff,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+242,0x8c385e28,0x1c35,6,DUMMY,0x1d61,6,DUMMY,0x1d17,6,DUMMY,0x1c05,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+243,0x8c385e28,0x1c3b,6,DUMMY,0x1d67,6,DUMMY,0x1d1d,6,DUMMY,0x1c0b,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+244,0x8c385e28,0x1c41,6,DUMMY,0x1d6d,6,DUMMY,0x1d23,6,DUMMY,0x1c11,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+245,0x8c385e28,0x1c47,6,DUMMY,0x1d73,6,DUMMY,0x1d29,6,DUMMY,0x1c17,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+246,0x8c385e28,0x1c4d,6,DUMMY,0x1d79,6,DUMMY,0x1d2f,6,DUMMY,0x1c1d,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+247,0x8c385e28,0x1c53,6,DUMMY,0x1d7f,6,DUMMY,0x1d35,6,DUMMY,0x1c23,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+248,0x8c385e28,0x1c59,6,DUMMY,0x1d85,6,DUMMY,0x1d3b,6,DUMMY,0x1c29,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+249,0x8c385e28,0x1c5f,6,DUMMY,0x1d8b,6,DUMMY,0x1d41,6,DUMMY,0x1c2f,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+250,0x8c385f20,0x1c65,11,Wind Slash,0x1d91,14,Corta Vientos,0x1d47,15,Vent Tranchant,0x1c35,11,Wind Slash,0,Super Move,0,Damage,103,Character line #3,0,16,15,3,Blue,0,Physical,0,0,0,Poison,0,0,0
+251,0x8c385f2c,0x1c70,11,Sonic Wave,0x1d9f,11,Ola Sónica,0x1d56,14,Vague Sonique,0x1c40,11,Sonic Wave,0,Super Move,0,Damage,103,Character line #3,0,16,15,4,Yellow,0,Physical,0,0,0,Poison,0,0,0
+252,0x8c385ae8,0x1c7b,9,KETSUBAN,0x1daa,9,KETSUBAN,0x1d64,9,KETSUBAN,0x1c4b,9,KETSUBAN,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+253,0x8c385e28,0x1c84,6,DUMMY,0x1db3,6,DUMMY,0x1d6d,6,DUMMY,0x1c54,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+254,0x8c385e28,0x1c8a,6,DUMMY,0x1db9,6,DUMMY,0x1d73,6,DUMMY,0x1c5a,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+255,0x8c385e28,0x1c90,6,DUMMY,0x1dbf,6,DUMMY,0x1d79,6,DUMMY,0x1c60,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+256,0x8c385e28,0x1c96,6,DUMMY,0x1dc5,6,DUMMY,0x1d7f,6,DUMMY,0x1c66,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+257,0x8c385e28,0x1c9c,6,DUMMY,0x1dcb,6,DUMMY,0x1d85,6,DUMMY,0x1c6c,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+258,0x8c385e28,0x1ca2,6,DUMMY,0x1dd1,6,DUMMY,0x1d8b,6,DUMMY,0x1c72,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+259,0x8c385e28,0x1ca8,6,DUMMY,0x1dd7,6,DUMMY,0x1d91,6,DUMMY,0x1c78,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+260,0x8c385f38,0x1cae,6,Quake,0x1ddd,10,Terremoto,0x1d97,7,Séisme,0x1c7e,6,Quake,0,Super Move,0,Damage,2,All characters,0,16,20,2,Purple,0,Physical,0,0,0,Poison,0,0,0
+261,0x8c385e28,0x1cb4,6,DUMMY,0x1de7,6,DUMMY,0x1d9e,6,DUMMY,0x1c84,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+262,0x8c385e28,0x1cba,6,DUMMY,0x1ded,6,DUMMY,0x1da4,6,DUMMY,0x1c8a,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+263,0x8c385e28,0x1cc0,6,DUMMY,0x1df3,6,DUMMY,0x1daa,6,DUMMY,0x1c90,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+264,0x8c385e28,0x1cc6,6,DUMMY,0x1df9,6,DUMMY,0x1db0,6,DUMMY,0x1c96,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+265,0x8c385e28,0x1ccc,6,DUMMY,0x1dff,6,DUMMY,0x1db6,6,DUMMY,0x1c9c,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+266,0x8c385e28,0x1cd2,6,DUMMY,0x1e05,6,DUMMY,0x1dbc,6,DUMMY,0x1ca2,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+267,0x8c385e28,0x1cd8,6,DUMMY,0x1e0b,6,DUMMY,0x1dc2,6,DUMMY,0x1ca8,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+268,0x8c385e28,0x1cde,6,DUMMY,0x1e11,6,DUMMY,0x1dc8,6,DUMMY,0x1cae,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+269,0x8c385e28,0x1ce4,6,DUMMY,0x1e17,6,DUMMY,0x1dce,6,DUMMY,0x1cb4,6,DUMMY,0,Super Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+270,0x8c385f40,0x1cea,14,Self-destruct,0x1e1d,16,Autodestrucción,0x1dd4,17,Auto-destruction,0x1cba,14,Self-destruct,0,Super Move,62,Damage + Defeat user,200,Characters nearby #0,0,16,40,0,Green,0,Physical,16,17,0,Poison,100,0,0
+271,0x8c385f50,0x1cf8,15,Poison Explode,0x1e2d,17,Ráfaga de Veneno,0x1de5,17,Explosion Poison,0x1cc8,15,Poison Explode,0,Super Move,62,Damage + Defeat user,200,Characters nearby #0,0,16,40,0,Green,0,Physical,16,17,0,Poison,50,0,0

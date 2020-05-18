@@ -3,8 +3,9 @@ ALX — Skies of Arcadia Legends Examiner
 
 ALX is a very simple, fast, cross-platform and object-oriented command line 
 tool to extract the game data from Skies of Arcadia, Skies of Arcadia Legends,
-Eternal Arcadia and Eternal Arcadia Legends. It is able to export and import 
-the data to and from CSV files.
+Eternal Arcadia (エターナルアルカディア) and Eternal Arcadia Legends 
+(エターナルアルカディアレジェンド). It is able to export and import the data to and from 
+CSV files.
 
 Features
 --------
@@ -12,6 +13,7 @@ Features
 * Character skills (Super Moves and Magics)
 * Character stats (EXP curves, Magic EXP curves, parameters and spirit curves)
 * Crew members
+* Defined strings (detector for Shift_JIS and Windows-1252 strings)
 * Enemy ship stats (action patterns and parameters)
 * Enemy skills (Super Moves and Magics)
 * Enemy stats (action patterns, encounters, events and parameters)
@@ -28,7 +30,8 @@ The commands respectively scripts in the `bin` directory require:
 
 * [Ruby](https://www.ruby-lang.org/) 2.7+
 * At least one extracted image of Skies of Arcadia, Skies of Arcadia Legends, 
-  Eternal Arcadia or Eternal Arcadia Legends
+  Eternal Arcadia (エターナルアルカディア) or Eternal Arcadia Legends 
+  (エターナルアルカディアレジェンド)
 
 The shipped and pre-exported CSV files in the subdirectories of `share` 
 require:
@@ -57,24 +60,24 @@ complete game data can already be found in the subdirectories.
 | `share/dc-eu-dreamon`   | Dreamcast | PAL-E   | Dreamon Vol. 20           |
 | `share/dc-eu-preview-1` | Dreamcast | PAL-E   | Beta Preview (1/2)        |
 | `share/dc-eu-preview-2` | Dreamcast | PAL-E   | Beta Preview (1/2)        |
-| `share/dc-eu-retail-1`  | Dreamcast | PAL-E   | Original (1/2)            |
-| `share/dc-eu-retail-2`  | Dreamcast | PAL-E   | Original (2/2)            |
+| `share/dc-eu-retail-1`  | Dreamcast | PAL-E   | Retail (1/2)              |
+| `share/dc-eu-retail-2`  | Dreamcast | PAL-E   | Retail (2/2)              |
 | `share/dc-jp-barai-1`   | Dreamcast | NTSC-J  | @barai (1/2)              |
 | `share/dc-jp-barai-2`   | Dreamcast | NTSC-J  | @barai (2/2)              |
 | `share/dc-jp-express`   | Dreamcast | NTSC-J  | Dreamcast Express Vol. 6  |
 | `share/dc-jp-kuzokuban` | Dreamcast | NTSC-J  | Kuzokuban (Trial Edition) |
-| `share/dc-jp-retail-1`  | Dreamcast | NTSC-J  | Original (1/2)            |
-| `share/dc-jp-retail-2`  | Dreamcast | NTSC-J  | Original (2/2)            |
+| `share/dc-jp-retail-1`  | Dreamcast | NTSC-J  | Retail (1/2)              |
+| `share/dc-jp-retail-2`  | Dreamcast | NTSC-J  | Retail (2/2)              |
 | `share/dc-us-magazine`  | Dreamcast | NTSC-U  | Official Magazine Vol. 9  |
-| `share/dc-us-retail-1`  | Dreamcast | NTSC-U  | Original (1/2)            |
-| `share/dc-us-retail-2`  | Dreamcast | NTSC-U  | Original (2/2)            |
-| `share/gc-eu-retail`    | Gamecube  | PAL-E   | Original                  |
-| `share/gc-jp-retail`    | Gamecube  | NTSC-J  | Original                  |
-| `share/gc-us-retail`    | Gamecube  | NTSC-U  | Original                  |
+| `share/dc-us-retail-1`  | Dreamcast | NTSC-U  | Retail (1/2)              |
+| `share/dc-us-retail-2`  | Dreamcast | NTSC-U  | Retail (2/2)              |
+| `share/gc-eu-retail`    | Gamecube  | PAL-E   | Retail                    |
+| `share/gc-jp-retail`    | Gamecube  | NTSC-J  | Retail                    |
+| `share/gc-us-retail`    | Gamecube  | NTSC-U  | Retail                    |
 
 The scripts require at least one extracted image of Skies of Arcadia, Skies of 
-Arcadia Legends, Eternal Arcadia or Eternal Arcadia Legends. The directory 
-structure should look like this:
+Arcadia Legends, Eternal Arcadia (エターナルアルカディア) or Eternal Arcadia Legends 
+(エターナルアルカディアレジェンド). The directory structure should look like this:
 
 * `share/*/database` (replace the asterisk with any name you choose) for CSV 
   files

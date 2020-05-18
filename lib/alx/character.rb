@@ -64,7 +64,7 @@ class Character < StdEntry
     members << StrDmy.new(VOC.armor_name            , ''         )
     members << IntVar.new(VOC.accessory_id          ,  0, :uint16)
     members << StrDmy.new(VOC.accessory_name        , ''         )
-    members << IntVar.new(VOC.movement_flags        ,  0, :int16 )
+    members << PosVar.new(VOC.movement_flags        ,  0, :int16 )
     members << IntVar.new(VOC.hp                    ,  0, :int16 )
     members << IntVar.new(VOC.maxhp                 ,  0, :int16 )
     members << IntVar.new(VOC.base_hp_increase      ,  0, :int16 )

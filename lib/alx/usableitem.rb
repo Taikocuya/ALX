@@ -47,7 +47,7 @@ class UsableItem < StdEntry
     super
     add_name_members
 
-    members << IntVar.new(VOC.occasion_flags            ,  0, :int8  )
+    members << PosVar.new(VOC.occasion_flags            ,  0, :int8  )
     members << StrDmy.new(VOC.occasion_menu             , ''         )
     members << StrDmy.new(VOC.occasion_battle           , ''         )
     members << StrDmy.new(VOC.occasion_ship             , ''         )

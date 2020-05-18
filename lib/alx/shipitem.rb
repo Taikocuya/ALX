@@ -48,7 +48,7 @@ class ShipItem < StdEntry
     add_name_members
 
     if product_id != '6107110 06' && product_id != '6107810'
-      members << IntVar.new(VOC.occasion_flags            ,  0, :int8  )
+      members << PosVar.new(VOC.occasion_flags            ,  0, :int8  )
       members << StrDmy.new(VOC.occasion_menu             , ''         )
       members << StrDmy.new(VOC.occasion_battle           , ''         )
       members << StrDmy.new(VOC.occasion_ship             , ''         )
@@ -99,7 +99,7 @@ class ShipItem < StdEntry
       members << IntVar.new(padding_hdr                   ,  0, :int8  )
       members << IntVar.new(padding_hdr                   ,  0, :int8  )
       members << IntVar.new(VOC.retail_price              ,  0, :int8  )
-      members << IntVar.new(VOC.occasion_flags            ,  0, :int8  )
+      members << PosVar.new(VOC.occasion_flags            ,  0, :int8  )
       members << StrDmy.new(VOC.occasion_menu             , ''         )
       members << StrDmy.new(VOC.occasion_battle           , ''         )
       members << StrDmy.new(VOC.occasion_ship             , ''         )

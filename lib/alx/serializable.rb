@@ -208,7 +208,7 @@ module Serializable
   # @param _encoding [String]  Character encoding
   # @return [String] String from the file, which has been read.
   def read_str(_size, _blocks = nil, _encoding = 'Shift_JIS')
-    _str = ''
+    _str = ''.force_encoding('ASCII-8BIT')
     
     if _size > 0
       if _blocks && _blocks > 0
@@ -219,10 +219,16 @@ module Serializable
       else
         _str << read(_size).unpack('Z*').first
       end
+
+      if _encoding == 'Windows-1252'
+        _str.gsub!("\x81\x63".force_encoding('ASCII-8BIT'), "\x85")
+      end
+      
       _str.force_encoding(_encoding)
     end
 
     _str.encode!('UTF-8')
+    
     if _encoding == 'Windows-1252'
       _str.gsub!('[', '“')
       _str.gsub!(']', '”')
@@ -241,6 +247,7 @@ module Serializable
       _str.gsub!('“', '[')
       _str.gsub!('”', ']')
     end
+    
     _str.encode!(_encoding)
 
     if _size > 0

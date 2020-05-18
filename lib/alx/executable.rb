@@ -50,7 +50,7 @@ module Executable
   # Version of ALX
   VERSION = '4.1.0'
   # Date of ALX
-  DATE    = Date.new(2020, 5, 1)
+  DATE    = Date.new(2020, 5, 18)
 
 #==============================================================================
 #                                   PUBLIC
