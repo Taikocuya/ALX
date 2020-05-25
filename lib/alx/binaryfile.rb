@@ -61,8 +61,10 @@ class BinaryFile < DelegateClass(::File)
     else
       self.endianness = _opts[:endianness]
     end
-    
+
     @file = File.new(*_args, **_opts)
+    @file.set_encoding('ASCII-8BIT')
+    
     super(@file)
   end
 

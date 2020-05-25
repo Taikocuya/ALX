@@ -64,6 +64,8 @@ class BinaryStringIO < DelegateClass(::StringIO)
     end
 
     @stringio = StringIO.new(*_args)
+    @stringio.set_encoding('ASCII-8BIT')
+    
     super(@stringio)
   end
 
