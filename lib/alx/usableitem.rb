@@ -74,7 +74,7 @@ class UsableItem < StdEntry
     members << StrDmy.new(VOC.type_name                 , ''         )
     members << IntVar.new(VOC.state_id                  ,  0, :int16 )
     members << StrDmy.new(VOC.state_name                , ''         )
-    members << IntVar.new(VOC.hit                       ,  0, :int16 )
+    members << IntVar.new(VOC.state_miss                ,  0, :int16 )
 
     add_dscr_members
   end
