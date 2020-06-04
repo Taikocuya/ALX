@@ -85,7 +85,7 @@ class ImageRebuilder < EntryTransform
   def rebuild_image(_game_path, _image_path)
     begin
       FileUtils.mkdir_p(File.dirname(_image_path))
-      FileUtils.remove_file(_image_path, true)
+      FileUtils.remove_file(_image_path)
       system("\"#{GCR_FILE}\" \"#{_game_path}\" \"#{_image_path}\"")
       _result = File.size?(_image_path)
     rescue StandardError
