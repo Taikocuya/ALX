@@ -80,22 +80,22 @@ class PlayableShip < StdEntry
     end
 
     if product_id != '6107110 06' && product_id != '6107810'
-      members << IntVar.new(VOC.value                  ,  0, :uint32)
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(VOC.base_hp_increase       ,  0, :int32 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(unknown_hdr                ,  0, :int16 )
-      members << IntVar.new(unknown_hdr                ,  0, :int16 )
-      members << IntVar.new(unknown_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
+      members << IntVar.new(VOC.value                ,  0, :uint32)
+      members << IntVar.new(padding_hdr              ,  0, :int16 )
+      members << IntVar.new(padding_hdr              ,  0, :int16 )
+      members << IntVar.new(VOC.base_hp_increase     ,  0, :int32 )
+      members << IntVar.new(padding_hdr              ,  0, :int16 )
+      members << IntVar.new(padding_hdr              ,  0, :int16 )
+      members << IntVar.new(VOC.base_defense_increase,  0, :int16 )
+      members << IntVar.new(VOC.base_magdef_increase ,  0, :int16 )
+      members << IntVar.new(VOC.base_quick_increase  ,  0, :int16 )
+      members << IntVar.new(padding_hdr              ,  0, :int16 )
+      members << IntVar.new(padding_hdr              ,  0, :int16 )
+      members << IntVar.new(padding_hdr              ,  0, :int16 )
+      members << IntVar.new(padding_hdr              ,  0, :int16 )
+      members << IntVar.new(padding_hdr              ,  0, :int16 )
+      members << IntVar.new(padding_hdr              ,  0, :int16 )
+      members << IntVar.new(padding_hdr              ,  0, :int16 )
     end
   end
 
