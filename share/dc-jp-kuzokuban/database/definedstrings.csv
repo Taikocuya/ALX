@@ -1225,7 +1225,7 @@ Entry ID,[Str. pos.],[Str. size],[Str. encoding],Str. value,[Str. data]
 1223,0x2b4d28,5,Shift_JIS,合計,"""\x8D\x87\x8Cv"""
 1224,0x2b4d30,3,Shift_JIS,×,"""\x81~"""
 1225,0x2b4d34,23,Shift_JIS,属性変更は出来ません。,"""\x91\xAE\x90\xAB\x95\xCF\x8DX\x82\xCD\x8Fo\x97\x88\x82\xDC\x82\xB9\x82\xF1\x81B"""
-1226,0x2b4d69,6,Shift_JIS,@ηLv,"""@\x83\xC5Lv"""
+1226,0x2b4d6c,3,Shift_JIS,Lv,"""Lv"""
 1227,0x2b4d70,8,Shift_JIS,Hp    /,"""Hp    /"""
 1228,0x2b4d78,6,Shift_JIS,Kp  /,"""Kp  /"""
 1229,0x2b4db0,9,Shift_JIS,ヴァイス,"""\x83\x94\x83@\x83C\x83X"""

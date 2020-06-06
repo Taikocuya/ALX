@@ -1817,6 +1817,7 @@ SYS.configure do |_s|
     gs(/\A{pct}+{dgt}+{pct}+((?=.{10,})\\{path})\z/n, '\1'),
     gs(/\A{pct}+{dia}+((?={sng}{10,}){wrdgrpw})\z/n, '\1'),
     gs(/\A{pct}+{dia}+{spc}+(%s\n)\z/n, '\1'),
+    gs(/\A{pct}+{jap}(Lv)\z/mn, '\1'),
     gs(/\A{sng}+\x8c((?!{spc}+){dbl}+)\z/n, '\1'),
     gs(/\A{spc}+((?={sng}{5,}){wrdw})\z/n, '\1'),
     gs(/\A{spc}+((?>(?={jap}){dbl}){3,})\z/n, '\1'),
