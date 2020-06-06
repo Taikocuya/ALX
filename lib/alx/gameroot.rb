@@ -176,37 +176,50 @@ class GameRoot
   # Returns the value of a ETC attribute. If the value is a Hash, the 
   # instance variables are considered during key selection.
   # 
-  # @param _etc  [ETC]    ETC object
-  # @param _sym  [Symbol] ETC attribute symbol
-  # @param _keys [String] Additional keys which are considered during key 
-  #                       selection.
+  # @param _etc [ETC]    ETC object
+  # @param _sym [Symbol] ETC attribute symbol
+  # @param _ext [String] Extension key which is considered during key 
+  #                      selection.
   # 
   # @return [Object] ETC attribute object
-  def etc(_etc, _sym, *_keys)
+  def etc(_etc, _sym, _ext = '*')
     _attr = _etc.send(_sym)
     
     if _attr.is_a?(Hash)
-      _cache_id       = [_etc, _sym, *_keys]
-      _key            = @cache[_cache_id]
-      _value          = _key ? _attr[_key] : nil
-      _sys_attr_rslvr = @sys_attr_rslvr + _keys
+      _cache_id = [_etc, _sym, _ext]
+      _key      = @cache[_cache_id]
+
+      if _key
+        _value = _attr[_key]
+      else
+        _value = nil
+      end
+      if _ext != '*'
+        _sys_attr_ext = [_ext]
+      else
+        _sys_attr_ext = []
+      end
 
       unless _value
-        (1..[1, _sys_attr_rslvr.size].max).to_a.reverse.each do |_index|
-          _sys_attr_rslvr.permutation(_index) do |_permutation|
-            _key   = _permutation.join('-')
-            _value = _attr[_key]
-            if _value
-              @cache[_cache_id] = _key
-              break
-            end
-          end
+        (0...@sys_attr_rslvr.size).to_a.reverse.each do |_end|
+          _key   = (@sys_attr_rslvr[0.._end] + _sys_attr_ext).join('-')
+          _value = _attr[_key]
+
           if _value
             break
           end
         end
+        
+        unless _value
+          _key   = _ext
+          _value = _attr[_key]
+        end
+
+        if _value
+          @cache[_cache_id] = _key
+        end
       end
-      
+
       _attr = _value
     end
 
@@ -651,14 +664,17 @@ class GameRoot
   # Refreshes the SYS attribute resolver.
   def refresh_sys_attr_rslvr
     @sys_attr_rslvr.clear
-    @sys_attr_rslvr << '*'
-    @sys_attr_rslvr << @platform_id     unless @platform_id.empty?
-    @sys_attr_rslvr << @product_id      unless @product_id.empty?
-    @sys_attr_rslvr << @product_version unless @product_version.empty?
-    @sys_attr_rslvr << @product_date    unless @product_date.empty?
-    @sys_attr_rslvr << @region_id       unless @region_id.empty?
-    @sys_attr_rslvr << @country_id      unless @country_id.empty?
-    @sys_attr_rslvr << @description     unless @description.empty?
+    @sys_attr_rslvr << @platform_id  unless @platform_id.empty?
+    
+    if !@country_id.empty?
+      @sys_attr_rslvr << @country_id
+    elsif !@region_id.empty?
+      @sys_attr_rslvr << @region_id
+    end
+    
+    @sys_attr_rslvr << @product_id   unless @product_id.empty?
+    @sys_attr_rslvr << @product_date unless @product_date.empty?
+    @sys_attr_rslvr << @description  unless @description.empty?
   end
 
   # Returns +true+ if the SYS attribute is valid, otherwise +false+.
