@@ -61,6 +61,10 @@ class FltExt < DataMember
 
   def value=(_value)
     _value = _value.to_f
+    if @type == :float
+      _value = _value.round(6)
+    end
+    
     super(_value)
   end
 

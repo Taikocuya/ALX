@@ -181,7 +181,12 @@ module Serializable
     _flt    = read(_size)
     
     if _flt && _flt.size == _size
-      _flt.unpack(_format).first
+      _flt = _flt.unpack(_format).first
+      if _type == :float
+        _flt = _flt.round(6)
+      end
+      
+      _flt
     else
       nil
     end
@@ -196,6 +201,10 @@ module Serializable
     unless _flt.is_a?(Float)
       _msg = '%s is not a floating-point value'
       raise(TypeError, sprintf(_msg, _flt))
+    end
+    
+    if _type == :float
+      _flt = _flt.round(6)
     end
 
     _format = flt_directive(_type)
