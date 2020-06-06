@@ -76,16 +76,10 @@ class Enemy < Entry
       members << IntVar.new(VOC.elements[_i]        ,  0, :int16 )
     end
 
-    (0...9).each do |_i|
+    (0...15).each do |_i|
       members << IntVar.new(VOC.states[_i]          ,  0, :int16 )
     end
 
-    members << IntVar.new(unknown_hdr               ,  0, :int16 )
-    members << IntVar.new(unknown_hdr               ,  0, :int16 )
-    members << IntVar.new(unknown_hdr               ,  0, :int16 )
-    members << IntVar.new(unknown_hdr               ,  0, :int16 )
-    members << IntVar.new(unknown_hdr               ,  0, :int16 )
-    members << IntVar.new(unknown_hdr               ,  0, :int16 )
     members << IntVar.new(unknown_hdr               ,  0, :int16 )
     members << IntVar.new(VOC.effect_id             , -1, :int8  )
     members << StrDmy.new(VOC.effect_name           , ''         )

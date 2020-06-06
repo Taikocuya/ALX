@@ -80,11 +80,8 @@ class Character < StdEntry
     (0...6).each do |_i|
       members << IntVar.new(VOC.elements[_i]        ,  0, :int16 )
     end
-    (0...9).each do |_i|
+    (0...16).each do |_i|
       members << IntVar.new(VOC.states[_i]          ,  0, :int16 )
-    end
-    (9...16).each do |_i|
-      members << IntVar.new(unknown_hdr             ,  0, :int16 )
     end
 
     members << IntVar.new(VOC.power                 ,  0, :int16 )
