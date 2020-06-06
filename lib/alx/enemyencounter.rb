@@ -49,7 +49,7 @@ class EnemyEncounter < Entry
     @enemies = []
 
     members << StrDmy.new(VOC.filter               , ''        )
-    members << IntVar.new(VOC.party_vigor          ,  0, :uint8)
+    members << IntVar.new(VOC.initiative           ,  0, :uint8)
     members << IntVar.new(VOC.magic_exp            ,  0, :uint8)
 
     (0...8).each do |_i|

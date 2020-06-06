@@ -70,7 +70,7 @@ class EnemyEvent < Entry
       members << IntVar.new(VOC.enemy_z[_i]        ,  0, :int8 )
     end
 
-    members << IntVar.new(VOC.party_vigor          ,  0, :uint8)
+    members << IntVar.new(VOC.initiative           ,  0, :uint8)
     members << IntVar.new(VOC.defeat_cond_id       ,  0, :int8 )
     members << StrDmy.new(VOC.defeat_cond_name     , ''        )
     members << IntVar.new(VOC.escape_cond_id       ,  0, :int8 )
