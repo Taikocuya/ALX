@@ -398,6 +398,14 @@ VOC.configure do |_v|
   _v.vigor                 = 'Vigor'
   _v.will                  = 'Will'
 
+  _v.gender_id   = 'Gender ID'
+  _v.gender_name = '[Gender name]'
+  
+  _v.genders     = Hash.new('???')
+  _v.genders[-1] = 'None'
+  _v.genders[ 0] = 'Male'
+  _v.genders[ 1] = 'Female'
+
   _v.feature_id    = hdr('Feat.%dID'    )
   _v.feature_name  = hdr('[Feat.%dname]')
   _v.feature_value = hdr('Feat.%dvalue' )

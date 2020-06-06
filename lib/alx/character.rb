@@ -51,7 +51,8 @@ class Character < StdEntry
 
     members << StrVar.new(VOC.name_str[country_id]  , '',      11)
     members << IntVar.new(VOC.age                   ,  0, :int8  )
-    members << IntVar.new(unknown_hdr               ,  0, :int8  )
+    members << IntVar.new(VOC.gender_id             ,  0, :int8  )
+    members << StrDmy.new(VOC.gender_name           , ''         )
     members << IntVar.new(VOC.width                 ,  0, :int8  )
     members << IntVar.new(VOC.depth                 ,  0, :int8  )
     members << IntVar.new(VOC.maxmp                 ,  0, :int8  )
@@ -109,6 +110,9 @@ class Character < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
+    _id = find_member(VOC.gender_id).value
+    find_member(VOC.gender_name).value = VOC.genders[_id]
+    
     _id = find_member(VOC.element_id).value
     find_member(VOC.element_name).value = VOC.elements[_id]
     
