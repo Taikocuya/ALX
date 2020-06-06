@@ -370,6 +370,7 @@ VOC.configure do |_v|
   _v.age                   = 'Age'
   _v.agile                 = 'Agile'
   _v.attack                = 'Attack'
+  _v.base_agile_increase   = 'Base Agile increase'
   _v.base_defense_increase = 'Base Defense increase'
   _v.base_hp_increase      = 'Base MAXHP increase'
   _v.base_magdef_increase  = 'Base MagDef increase'
