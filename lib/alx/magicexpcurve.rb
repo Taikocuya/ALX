@@ -48,22 +48,22 @@ class MagicExpCurve < StdEntry
     @characters = {}
 
     members << StrDmy.new(VOC.character_name[-1], ''         )
-    (0...6).each do |_i|
+    (1..6).each do |_i|
       members << IntVar.new(VOC.green_exp[_i]   ,  0, :uint16)
     end
-    (0...6).each do |_i|
+    (1..6).each do |_i|
       members << IntVar.new(VOC.red_exp[_i]     ,  0, :uint16)
     end
-    (0...6).each do |_i|
+    (1..6).each do |_i|
       members << IntVar.new(VOC.purple_exp[_i]  ,  0, :uint16)
     end
-    (0...6).each do |_i|
+    (1..6).each do |_i|
       members << IntVar.new(VOC.blue_exp[_i]    ,  0, :uint16)
     end
-    (0...6).each do |_i|
+    (1..6).each do |_i|
       members << IntVar.new(VOC.yellow_exp[_i]  ,  0, :uint16)
     end
-    (0...6).each do |_i|
+    (1..6).each do |_i|
       members << IntVar.new(VOC.silver_exp[_i]  ,  0, :uint16)
     end
   end
