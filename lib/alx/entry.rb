@@ -27,13 +27,13 @@ require_relative('binarystringio.rb')
 require_relative('fltdmy.rb')
 require_relative('fltext.rb')
 require_relative('fltvar.rb')
+require_relative('hexdmy.rb')
+require_relative('hexext.rb')
+require_relative('hexvar.rb')
 require_relative('intdmy.rb')
 require_relative('intext.rb')
 require_relative('intvar.rb')
 require_relative('main.rb')
-require_relative('posdmy.rb')
-require_relative('posext.rb')
-require_relative('posvar.rb')
 require_relative('strdmy.rb')
 require_relative('strext.rb')
 require_relative('strvar.rb')
@@ -78,16 +78,16 @@ class Entry
   def header
     _header = []
     @members.each do |_m|
-      if _m.is_a?(DataMember)
+      if _m.is_a?(Property)
         _header << _m.name
       end
     end
     _header
   end
   
-  # Returns the first data member by given name, or +nil+ otherwise.
-  # @param _name [String] Name of data member
-  # @return [DataMember] Object of data member
+  # Returns the first property by given name, or +nil+ otherwise.
+  # @param _name [String] Name of property
+  # @return [Property] Object of property
   def find_member(_name)
     if @members
       @members.find do |_m|
@@ -108,7 +108,7 @@ class Entry
     _result &&= (id == _entry.id)
     _result &&= @members.all? do |_m|
       _other = _entry.find_member(_m.name)
-      if _other && _m.is_a?(DataMember) && !_m.dummy?
+      if _other && _m.is_a?(Property) && !_m.dummy?
         _m.value == _other.value
       else
         true
@@ -178,7 +178,7 @@ class Entry
 
   # Reads one entry from a CSV file or CSV row.
   # @param _csv   [CSV, CSV::Row] CSV object or CSV row
-  # @param _force [Boolean]       Ignore missing data members.
+  # @param _force [Boolean]       Ignore missing properties.
   def read_from_csv(_csv, _force = false)
     _row = _csv.is_a?(CSV::Row) ? _csv : _csv.shift
     @members.each do |_m|

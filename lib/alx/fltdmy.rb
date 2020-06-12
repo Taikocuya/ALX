@@ -32,7 +32,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a data member as dummy float.
+# Class to handle a property as dummy float.
 class FltDmy < FltExt
   
 #==============================================================================
@@ -41,8 +41,8 @@ class FltDmy < FltExt
 
   public
   
-  # Returns +true+ if data member is a dummy, otherwise +false+.
-  # @return [Boolean] +true+ if data member is a dummy, otherwise +false+.
+  # Returns +true+ if property is a dummy, otherwise +false+.
+  # @return [Boolean] +true+ if property is a dummy, otherwise +false+.
   def dummy?
     true
   end

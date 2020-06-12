@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('posext.rb')
+require_relative('hexext.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -32,8 +32,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a data member as dummy offset.
-class PosDmy < PosExt
+# Class to handle a property as dummy hexadecimal.
+class HexDmy < HexExt
   
 #==============================================================================
 #                                   PUBLIC
@@ -41,13 +41,13 @@ class PosDmy < PosExt
 
   public
 
-  # Returns +true+ if data member is a dummy, otherwise +false+.
-  # @return [Boolean] +true+ if data member is a dummy, otherwise +false+.
+  # Returns +true+ if property is a dummy, otherwise +false+.
+  # @return [Boolean] +true+ if property is a dummy, otherwise +false+.
   def dummy?
     true
   end
 
-end # class PosDmy
+end # class HexDmy
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

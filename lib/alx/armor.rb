@@ -47,7 +47,7 @@ class Armor < StdEntry
     super
     add_name_members
 
-    members << PosVar.new(VOC.character_flags            ,  0, :int8  )
+    members << HexVar.new(VOC.character_flags            ,  0, :int8  )
     VOC.characters.each_value do |_chara|
       members << StrDmy.new(VOC.character_opt[_chara.chr], ''         )
     end

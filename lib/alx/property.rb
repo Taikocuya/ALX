@@ -18,6 +18,12 @@
 # ALX. If not, see <http://www.gnu.org/licenses/>.
 #******************************************************************************
 
+#==============================================================================
+#                                 REQUIREMENTS
+#==============================================================================
+
+require('observer')
+
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 module ALX
@@ -26,8 +32,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a data member.
-class DataMember
+# Class to handle a property.
+class Property
   
 #==============================================================================
 #                                   PUBLIC
@@ -35,7 +41,7 @@ class DataMember
 
   public
 
-  # Constructs a DataMember
+  # Constructs a Property
   # @param _name  [String]         Name
   # @param _value [Integer,String] Value
   def initialize(_name, _value)
@@ -43,8 +49,8 @@ class DataMember
     self.value = _value
   end
 
-  # Returns +true+ if data member is a dummy, otherwise +false+.
-  # @return [Boolean] +true+ if data member is a dummy, otherwise +false+.
+  # Returns +true+ if property is a dummy, otherwise +false+.
+  # @return [Boolean] +true+ if property is a dummy, otherwise +false+.
   def dummy?
     false
   end
@@ -88,7 +94,7 @@ class DataMember
     @value = _value.dup
   end
   
-end # class DataMemberInteger
+end # class Property
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

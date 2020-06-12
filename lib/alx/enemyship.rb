@@ -64,16 +64,16 @@ class EnemyShip < StdEntry
     end
     (0...4).each do |_i|
       if eu?
-        members << PosExt.new(VOC.arm_name_de_pos[_i] ,  0        )
+        members << HexExt.new(VOC.arm_name_de_pos[_i] ,  0        )
         members << IntExt.new(VOC.arm_name_de_size[_i],  0        )
         members << StrExt.new(VOC.arm_name_de_str[_i] , ''        )
-        members << PosExt.new(VOC.arm_name_es_pos[_i] ,  0        )
+        members << HexExt.new(VOC.arm_name_es_pos[_i] ,  0        )
         members << IntExt.new(VOC.arm_name_es_size[_i],  0        )
         members << StrExt.new(VOC.arm_name_es_str[_i] , ''        )
-        members << PosExt.new(VOC.arm_name_fr_pos[_i] ,  0        )
+        members << HexExt.new(VOC.arm_name_fr_pos[_i] ,  0        )
         members << IntExt.new(VOC.arm_name_fr_size[_i],  0        )
         members << StrExt.new(VOC.arm_name_fr_str[_i] , ''        )
-        members << PosExt.new(VOC.arm_name_gb_pos[_i] ,  0        )
+        members << HexExt.new(VOC.arm_name_gb_pos[_i] ,  0        )
         members << IntExt.new(VOC.arm_name_gb_size[_i],  0        )
         members << StrExt.new(VOC.arm_name_gb_str[_i] , ''        )
       end

@@ -50,7 +50,7 @@ class Shop < StdEntry
     members.clear
     members << IntVar.new(VOC.id                    ,  0, :uint16)
     members << IntVar.new(padding_hdr               ,  0, :int16 )
-    members << PosVar.new(VOC.message_id[country_id],  0, :uint32)
+    members << HexVar.new(VOC.message_id[country_id],  0, :uint32)
 
     add_dscr_members
     

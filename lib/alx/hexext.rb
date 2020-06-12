@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('datamember.rb')
+require_relative('property.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -32,37 +32,14 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a data member as offset.
-class PosVar < DataMember
+# Class to handle a property as external hexadecimal.
+class HexExt < Property
   
 #==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
   public
-
-  # Constructs a PosVar
-  # @param _name  [String]  Name
-  # @param _value [Integer] Value
-  # @param _type  [Symbol]  Type
-  def initialize(_name, _value, _type)
-    super(_name, _value)
-    @type = _type
-  end
-
-  # Reads one entry from a binary I/O stream
-  # @param _f [IO] Binary I/O stream
-  def read_from_bin(_f)
-    super
-    self.value = _f.read_int(@type)
-  end
-  
-  # Write one entry to a binary I/O stream
-  # @param _f [IO] Binary I/O stream
-  def write_to_bin(_f)
-    super
-    _f.write_int(value, @type)
-  end
 
   # Reads one entry from a CSV row.
   # @param _row [CSV::Row] CSV row
@@ -82,14 +59,12 @@ class PosVar < DataMember
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :type
-
   def value=(_value)
     _value = _value.to_i
     super(_value)
   end
-  
-end # class PosVar
+
+end # class HexExt
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

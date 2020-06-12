@@ -46,7 +46,7 @@ class DefinedString < Entry
   def initialize(_root)
     super
 
-    members << PosExt.new(VOC.string_pos     ,  0       )
+    members << HexExt.new(VOC.string_pos     ,  0       )
     members << IntExt.new(VOC.string_size    ,  0       )
     members << StrExt.new(VOC.string_encoding, ''       )
     members << StrExt.new(VOC.string_value   , ''       )

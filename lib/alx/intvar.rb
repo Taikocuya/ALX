@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('datamember.rb')
+require_relative('property.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -32,8 +32,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a data member as integer.
-class IntVar < DataMember
+# Class to handle a property as integer.
+class IntVar < Property
   
 #==============================================================================
 #                                   PUBLIC

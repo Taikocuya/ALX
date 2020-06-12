@@ -32,7 +32,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
   
-# Class to handle a data member as dummy string.
+# Class to handle a property as dummy string.
 class StrDmy < StrExt
   
 #==============================================================================
@@ -41,8 +41,8 @@ class StrDmy < StrExt
 
   public
 
-  # Returns +true+ if data member is a dummy, otherwise +false+.
-  # @return [Boolean] +true+ if data member is a dummy, otherwise +false+.
+  # Returns +true+ if property is a dummy, otherwise +false+.
+  # @return [Boolean] +true+ if property is a dummy, otherwise +false+.
   def dummy?
     true
   end

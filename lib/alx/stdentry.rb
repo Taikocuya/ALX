@@ -41,45 +41,45 @@ class StdEntry < Entry
 
   public
 
-  # Add name data members.
-  # @param _size [Integer] Size of name data members
+  # Add name properties.
+  # @param _size [Integer] Size of name properties
   def add_name_members(_size = 17)
     if jp? || us?
       members << StrVar.new(VOC.name_str[country_id]  , '', _size  )
     elsif eu?
-      members << PosVar.new(VOC.message_id[country_id],  0, :uint32)
-      members << PosExt.new(VOC.name_pos['DE']        ,  0         )
+      members << HexVar.new(VOC.message_id[country_id],  0, :uint32)
+      members << HexExt.new(VOC.name_pos['DE']        ,  0         )
       members << IntExt.new(VOC.name_size['DE']       ,  0         )
       members << StrExt.new(VOC.name_str['DE']        , '',        )
-      members << PosExt.new(VOC.name_pos['ES']        ,  0         )
+      members << HexExt.new(VOC.name_pos['ES']        ,  0         )
       members << IntExt.new(VOC.name_size['ES']       ,  0         )
       members << StrExt.new(VOC.name_str['ES']        , '',        )
-      members << PosExt.new(VOC.name_pos['FR']        ,  0         )
+      members << HexExt.new(VOC.name_pos['FR']        ,  0         )
       members << IntExt.new(VOC.name_size['FR']       ,  0         )
       members << StrExt.new(VOC.name_str['FR']        , '',        )
-      members << PosExt.new(VOC.name_pos['GB']        ,  0         )
+      members << HexExt.new(VOC.name_pos['GB']        ,  0         )
       members << IntExt.new(VOC.name_size['GB']       ,  0         )
       members << StrExt.new(VOC.name_str['GB']        , '',        )
     end
   end
 
-  # Add description data members.
+  # Add description properties.
   def add_dscr_members
     if jp? || us?
-      members << PosExt.new(VOC.dscr_pos[country_id] ,  0)
+      members << HexExt.new(VOC.dscr_pos[country_id] ,  0)
       members << IntExt.new(VOC.dscr_size[country_id],  0)
       members << StrExt.new(VOC.dscr_str[country_id] , '')
     elsif eu?
-      members << PosExt.new(VOC.dscr_pos['DE']       ,  0)
+      members << HexExt.new(VOC.dscr_pos['DE']       ,  0)
       members << IntExt.new(VOC.dscr_size['DE']      ,  0)
       members << StrExt.new(VOC.dscr_str['DE']       , '')
-      members << PosExt.new(VOC.dscr_pos['ES']       ,  0)
+      members << HexExt.new(VOC.dscr_pos['ES']       ,  0)
       members << IntExt.new(VOC.dscr_size['ES']      ,  0)
       members << StrExt.new(VOC.dscr_str['ES']       , '')
-      members << PosExt.new(VOC.dscr_pos['FR']       ,  0)
+      members << HexExt.new(VOC.dscr_pos['FR']       ,  0)
       members << IntExt.new(VOC.dscr_size['FR']      ,  0)
       members << StrExt.new(VOC.dscr_str['FR']       , '')
-      members << PosExt.new(VOC.dscr_pos['GB']       ,  0)
+      members << HexExt.new(VOC.dscr_pos['GB']       ,  0)
       members << IntExt.new(VOC.dscr_size['GB']      ,  0)
       members << StrExt.new(VOC.dscr_str['GB']       , '')
     end

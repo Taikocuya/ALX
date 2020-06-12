@@ -79,7 +79,7 @@ class EnemyInstruction < Entry
     _result &&= (enemy_id == _entry.enemy_id)
     _result &&= @members.all? do |_m|
       _other = _entry.find_member(_m.name)
-      if _other && _m.is_a?(DataMember) && !_m.dummy?
+      if _other && _m.is_a?(Property) && !_m.dummy?
         _m.value == _other.value
       else
         true

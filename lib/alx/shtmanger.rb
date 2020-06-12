@@ -74,7 +74,7 @@ class ShtManager
   end
   
   # Removes all snapshots.
-  def remove_snaps
+  def delete_snaps
     _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
     _filename = sprintf(SHT_FILE, @name, '*').downcase
     FileUtils.rm(Dir.glob(File.join(_dirname, _filename)))
@@ -99,7 +99,7 @@ class ShtManager
     if _sym != :meta && !_file.valid?(@meta)
       clear_meta
       clear_snaps
-      remove_snaps
+      delete_snaps
     else
       @snaps[_sym] = _file.data
     end
@@ -112,7 +112,7 @@ class ShtManager
     if !@meta.valid? || @meta.luid != @luid
       clear_meta
       clear_snaps
-      remove_snaps
+      delete_snaps
     end
     
     @meta
