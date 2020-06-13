@@ -1,4 +1,4 @@
-Entry ID,JP entry name,Pad. #0,Pad. #1,Pad. #2,Purchase price,Pad. #3,Pad. #4,Retail price in %,Occ. flags,[M],[B],[S],Ship effect ID,[Ship effect name],Ship effect turns,Consume%,Order by prio.,JP order by ABC,Pad. #5,Ship effect amount,Unk. #0,Unk. #1,Unk. #2,Unk. #3,Unk. #4,Unk. #5
+Entry ID,JP Entry Name,Pad. 1,Pad. 2,Pad. 3,Purchase Price,Pad. 4,Pad. 5,Retail Price in %,Occ. Flags,[M],[B],[S],Ship Effect ID,[Ship Effect Name],Ship Effect Turns,Consume%,Order by Prio.,JP Order by ABC,Pad. 6,Ship Effect Amount,Unk. 1,Unk. 2,Unk. 3,Unk. 4,Unk. 5,Unk. 6
 480,Ж石弾,0,0,0,100,0,0,50,0x1,"","",X,128,???,0,100,0,0,0,280,6,0,0,0,0,0
 481,鋼Ж石弾,0,0,0,150,0,0,50,0x1,"","",X,128,???,0,100,1,1,0,300,2,1,-1,-1,-2,-1
 482,精Ж石弾,0,0,0,200,0,0,50,0x1,"","",X,128,???,0,100,2,2,0,400,6,0,0,0,0,0

@@ -1,4 +1,4 @@
-Entry ID,JP entry name,Chara. flags,[V],[A],[F],[D],[E],[G],Retail price in %,Order by prio.,JP order by ABC,Pad. #0,Purchase price,Feat. #0 ID,[Feat. #0 name],Pad. #1,Feat. #0 value,Feat. #1 ID,[Feat. #1 name],Pad. #2,Feat. #1 value,Feat. #2 ID,[Feat. #2 name],Pad. #3,Feat. #2 value,Feat. #3 ID,[Feat. #3 name],Pad. #4,Feat. #3 value,[JP descr. pos.],[JP descr. size],JP descr. str.
+Entry ID,JP Entry Name,Chara. Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order by Prio.,JP Order by ABC,Pad. 1,Purchase Price,Feat. 0 ID,[Feat. 0 Name],Pad. 2,Feat. 0 Value,Feat. 1 ID,[Feat. 1 Name],Pad. 3,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 4,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 5,Feat. 3 Value,[JP Descr. Pos.],[JP Descr. Size],JP Descr. Str.
 160,ストーンリング,0x3a,X,X,X,"",X,"",50,1,33,0,150,18,MagDef,0,21,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x3370f0,96,若い船乗りたちに人気がある石の装飾品で、自分で\n模様を彫ることもできる指輪。Ж防力が上昇する。
 161,砂の指輪,0x3a,X,X,X,"",X,"",50,3,34,0,890,18,MagDef,0,63,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x337150,96,月Ж石に付着していた砂をかき集めてかたちを整え、\n高熱で焼いた素焼きの指輪。Ж防力が上昇する。
 162,木彫の指輪,0x3a,X,X,X,"",X,"",50,0,16,0,100,1,Will,0,8,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x3371b0,92,神秘的な力を秘めたЖ樹の枝を加工した指輪。\nЖ術文字が彫りこんであるため、気力が上昇する。
@@ -25,7 +25,7 @@ Entry ID,JP entry name,Chara. flags,[V],[A],[F],[D],[E],[G],Retail price in %,Or
 183,シナナ石,0x3f,X,X,X,X,X,X,100,30,30,0,100,49,Unconscious,0,-10,37,Silver,0,-2,17,Defense,0,5,18,MagDef,0,5,0x33795c,92,急な「失神」を防ぐ上、防御力とЖ防力を高める。\nまた銀属性の攻撃をやわらげる力も秘めている。
 184,カタマンナ石,0x3f,X,X,X,X,X,X,100,29,11,0,100,50,Stone,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,0x3379b8,96,「石化」を完全に防ぐ上、防御力とЖ防力を高める。\n石化攻撃を持つ敵に対して絶大な効力を発揮する。
 185,ネーナ石,0x3f,X,X,X,X,X,X,100,24,44,0,100,51,Sleep,0,-10,35,Blue,0,-2,17,Defense,0,5,18,MagDef,0,5,0x337a18,96,「睡眠」を完全に防ぐ上、防御力とЖ防力を高める。\nまた青属性の攻撃をやわらげる力も秘めている。
-186,マドワナ石,0x3f,X,X,X,X,X,X,100,25,57,0,100,52,Confuse,0,-10,34,Purple,0,-2,17,Defense,0,5,18,MagDef,0,5,0x337a78,96,「混乱」を完全に防ぐ上、防御力とЖ防力を高める。\nまた紫属性の攻撃をやわらげる力も秘めている。
+186,マドワナ石,0x3f,X,X,X,X,X,X,100,25,57,0,100,52,Confusion,0,-10,34,Purple,0,-2,17,Defense,0,5,18,MagDef,0,5,0x337a78,96,「混乱」を完全に防ぐ上、防御力とЖ防力を高める。\nまた紫属性の攻撃をやわらげる力も秘めている。
 187,ダマンナ石,0x3f,X,X,X,X,X,X,100,26,37,0,100,53,Silence,0,-10,34,Purple,0,-2,17,Defense,0,5,18,MagDef,0,5,0x337ad8,96,「沈黙」を完全に防ぐ上、防御力とЖ防力を高める。\nまた紫属性の攻撃をやわらげる力も秘めている。
 188,ツカレナ石,0x3f,X,X,X,X,X,X,100,28,39,0,100,54,Fatigue,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,0x337b38,96,「疲労」を完全に防ぐ上、防御力とЖ防力を高める。\nガッツを制する者だけが戦いに勝つことができる。
 189,ヘコマナ石,0x3f,X,X,X,X,X,X,100,27,52,0,100,56,Weak,0,-10,36,Yellow,0,-2,17,Defense,0,5,18,MagDef,0,5,0x337b98,96,「衰弱」を完全に防ぐ上、防御力とЖ防力を高める。\nまた黄属性の攻撃をやわらげる力も秘めている。

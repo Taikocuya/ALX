@@ -111,7 +111,7 @@ module ALX
       raise(ArgumentError, _msg, caller(1))
     end
     
-    _enum  = _format.include?('%d') ? '#%s' : '%s'
+    _enum  = '%s'
     _empty = ''
     _format.sub!('%d', '%s')
     

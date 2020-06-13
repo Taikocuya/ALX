@@ -1,4 +1,4 @@
-Entry ID,JP entry name,Occ. flags,[M],[B],[S],Effect ID,[Effect name],Scope ID,[Scope name],Consume%,Retail price in %,Order by prio.,JP order by ABC,Purchase price,Pad. #0,Pad. #1,Effect value,Element ID,[Element name],Type ID,[Type name],State ID,[State name],State miss%,[JP descr. pos.],[JP descr. size],JP descr. str.
+Entry ID,JP Entry Name,Occ. Flags,[M],[B],[S],Effect ID,[Effect Name],Scope ID,[Scope Name],Consume%,Retail Price in %,Order by Prio.,JP Order by ABC,Purchase Price,Pad. 1,Pad. 2,Effect Value,Element ID,[Element Name],Type ID,[Type Name],State ID,[State Name],State Miss%,[JP Descr. Pos.],[JP Descr. Size],JP Descr. Str.
 240,サプの葉,0x6,X,X,"",31,Recover HP,1,One character,100,50,0,30,20,0,0,500,-1,None,-1,None,0,Poison,0,0x3387d4,96,世界中に自生するサプ科植物の葉っぱ。不思議な\n香りで、仲間ひとりのＨＰを500ポイント回復する。
 241,サプガンの葉,0x6,X,X,"",31,Recover HP,1,One character,100,50,1,29,60,0,0,1000,-1,None,-1,None,0,Poison,0,0x338834,100,北の大地に群生するサプ科植物の葉っぱ。濃縮された\n香りで、仲間ひとりのＨＰを1000ポイント回復する。
 242,サプハネの葉,0x6,X,X,"",31,Recover HP,2,All characters,100,50,2,31,600,0,0,1000,-1,None,-1,None,0,Poison,0,0x338898,96,熱帯でのみ採れるサプ科植物の葉っぱ。香りが一気に\n広がり、仲間全員のＨＰを1000ポイント回復する。
@@ -30,10 +30,10 @@ Entry ID,JP entry name,Occ. flags,[M],[B],[S],Effect ID,[Effect name],Scope ID,[
 268,爆炎の小箱,0x2,"",X,"",0,Damage,4,All enemies,16,1,25,63,1200,0,0,360,1,Red,1,Magical,0,Poison,0,0x33920c,96,砂漠の老Ж術師がバーネスの効果を封じ込めた小箱。\n５〜６回ほど使ったところで壊れることが多い。
 269,氷の小箱,0x2,"",X,"",0,Damage,3,One enemy,12,1,26,25,800,0,0,330,2,Purple,1,Magical,0,Poison,0,0x33926c,92,南の老Ж術師がグラシィの効果を封じ込めた小箱。\n７〜８回ほど使ったところで壊れることが多い。
 270,凍結の小箱,0x2,"",X,"",0,Damage,3,One enemy,24,1,27,58,1600,0,0,600,2,Purple,1,Magical,0,Poison,0,0x3392c8,92,南の老Ж術師がグラゾーバの効果を封じ込めた小箱。\n３〜４回も使うと大抵の場合、壊れてしまう。
-271,風の小箱,0x2,"",X,"",0,Damage,33,Enemy area #1,12,1,28,14,800,0,0,285,3,Blue,1,Magical,0,Poison,0,0x339324,96,東の老Ж術師がウェイビィの効果を封じ込めた小箱。\n７〜８回ほど使ったところで壊れることが多い。
-272,竜巻の小箱,0x2,"",X,"",0,Damage,34,Enemy area #2,24,1,29,42,1600,0,0,525,3,Blue,1,Magical,0,Poison,0,0x339384,92,東の老Ж術師がウェボーンの効果を封じ込めた小箱。\n３〜４回も使うと大抵の場合、壊れてしまう。
-273,雷の小箱,0x2,"",X,"",0,Damage,36,Enemy line #0,8,1,30,16,400,0,0,180,4,Yellow,1,Magical,0,Poison,0,0x3393e0,88,北の老Ж術師がボルタの効果を封じ込めた小箱。\n長く使っていると、たまに壊れることがある。
-274,稲妻の小箱,0x2,"",X,"",0,Damage,37,Enemy line #1,16,1,31,5,1200,0,0,420,4,Yellow,1,Magical,0,Poison,0,0x339438,92,北の老Ж術師がボルテスの効果を封じ込めた小箱。\n５〜６回ほど使ったところで壊れることが多い。
+271,風の小箱,0x2,"",X,"",0,Damage,33,Enemy area 1,12,1,28,14,800,0,0,285,3,Blue,1,Magical,0,Poison,0,0x339324,96,東の老Ж術師がウェイビィの効果を封じ込めた小箱。\n７〜８回ほど使ったところで壊れることが多い。
+272,竜巻の小箱,0x2,"",X,"",0,Damage,34,Enemy area 2,24,1,29,42,1600,0,0,525,3,Blue,1,Magical,0,Poison,0,0x339384,92,東の老Ж術師がウェボーンの効果を封じ込めた小箱。\n３〜４回も使うと大抵の場合、壊れてしまう。
+273,雷の小箱,0x2,"",X,"",0,Damage,36,Enemy line 0,8,1,30,16,400,0,0,180,4,Yellow,1,Magical,0,Poison,0,0x3393e0,88,北の老Ж術師がボルタの効果を封じ込めた小箱。\n長く使っていると、たまに壊れることがある。
+274,稲妻の小箱,0x2,"",X,"",0,Damage,37,Enemy line 1,16,1,31,5,1200,0,0,420,4,Yellow,1,Magical,0,Poison,0,0x339438,92,北の老Ж術師がボルテスの効果を封じ込めた小箱。\n５〜６回ほど使ったところで壊れることが多い。
 275,回復の小箱,0x2,"",X,"",31,Recover HP,1,One character,8,1,32,12,800,0,0,500,-1,None,-1,None,0,Poison,0,0x339494,88,西の老Ж術師がサプラの効果を封じ込めた小箱。\n長く使っていると、たまに壊れることがある。
 276,回復の玉手箱,0x2,"",X,"",31,Recover HP,2,All characters,16,1,33,13,1200,0,0,1000,-1,None,-1,None,0,Poison,0,0x3394ec,96,西の老Ж術師がサプレスの効果を封じ込めた玉手箱。\n５〜６回ほど使ったところで壊れることが多い。
 277,生命の玉手箱,0x2,"",X,"",28,Revive with 100% of HP,1,One character,32,1,34,38,2400,0,0,0,0,Green,0,Physical,7,Revival,0,0x33954c,88,伝説の不死Ж術師がライゾンの効果を封じ込めた\n玉手箱。１回の使用でも壊れることがある。
@@ -41,7 +41,7 @@ Entry ID,JP entry name,Occ. flags,[M],[B],[S],Effect ID,[Effect name],Scope ID,[
 279,混乱の小箱,0x2,"",X,"",11,Add Confusion,3,One enemy,24,1,36,28,1200,0,0,0,0,Green,0,Physical,4,Confusion,30,0x339604,88,南の老Ж術師がパニカの効果を封じ込めた小箱。\n３〜４回も使うと大抵の場合、壊れてしまう。
 280,脱力の小箱,0x2,"",X,"",26,Add Weak,3,One enemy,12,1,37,43,600,0,0,0,0,Green,0,Physical,8,Weak,50,0x33965c,92,北の老Ж術師がダウナの効果を封じ込めた小箱。\n７〜８回ほど使ったところで壊れることが多い。
 281,睡眠の小箱,0x2,"",X,"",9,Add Sleep,4,All enemies,24,1,38,34,1200,0,0,0,0,Green,0,Physical,3,Sleep,50,0x3396b8,92,東の老Ж術師がスリーパの効果を封じ込めた小箱。\n３〜４回も使うと大抵の場合、壊れてしまう。
-282,即死の玉手箱,0x2,"",X,"",6,Add Unconscious + Damage #1,3,One enemy,32,1,39,39,3600,0,0,250,5,Silver,1,Magical,49,???,0,0x339714,88,伝説の不死Ж術師がジェドーサの効果を封じ込めた\n玉手箱。１回の使用でも壊れることがある。
+282,即死の玉手箱,0x2,"",X,"",6,Add Unconscious + Damage 1,3,One enemy,32,1,39,39,3600,0,0,250,5,Silver,1,Magical,49,???,0,0x339714,88,伝説の不死Ж術師がジェドーサの効果を封じ込めた\n玉手箱。１回の使用でも壊れることがある。
 283,伝説のパピルス,0x0,"","","",-1,None,0,None,0,100,47,55,1000,0,0,0,0,Green,0,Physical,0,Poison,0,0x33976c,96,盗掘者シモンが、ピュラミスで狙っていた宝物。\nコレクションしてもいいが、売ればそれなりに高い。
 284,伝説の石仮面,0x0,"","","",-1,None,0,None,0,100,48,50,2000,0,0,0,0,Green,0,Physical,0,Poison,0,0x3397cc,92,盗掘者シモンが、ドラドで狙っていた宝物。\nコレクションしてもいいが、売ればそれなりに高い。
 285,ソライワシ,0x4,X,"","",31,Recover HP,1,One character,100,100,58,40,1,0,0,1,-1,None,-1,None,0,Poison,0,0x339828,88,空に広く生息する魚の一種。味はイマイチ。\n白身をすりつぶして、焼いて食べるのが一般的だ。

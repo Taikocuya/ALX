@@ -48,7 +48,7 @@ class SpiritCurve < StdEntry
     @characters = {}
 
     members << StrDmy.new(VOC.character_name[-1], ''       )
-    (0...99).each do |_i|
+    (1..99).each do |_i|
       members << IntVar.new(VOC.spirit[_i]      ,  0, :int8)
       members << IntVar.new(VOC.maxspirit[_i]   ,  0, :int8)
     end

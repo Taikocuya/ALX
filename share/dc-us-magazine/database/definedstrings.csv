@@ -1,4 +1,4 @@
-Entry ID,[Str. pos.],[Str. size],[Str. encoding],Str. value,[Str. data]
+Entry ID,[Str. Pos.],[Str. Size],[Str. Encoding],Str. Value,[Str. Data]
 0,0x30,17,Shift_JIS,Lib Handle Start,"""Lib Handle Start"""
 1,0x5e6c,44,Shift_JIS,\nntInf Ver 2.00 Build:Mar 31 1999 14:13:50\n,"""\nntInf Ver 2.00 Build:Mar 31 1999 14:13:50\n"""
 2,0x5e9c,12,Shift_JIS,GINXFER.BIN,"""GINXFER.BIN"""

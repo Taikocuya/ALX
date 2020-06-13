@@ -104,7 +104,7 @@ class EnemyShipData < StdEntryData
 
           _entry = @data[_id]
 
-          (0...4).each do |_i|
+          (1..4).each do |_i|
             case find_lang(_filename)
             when 'DE'
               _pos  = _entry.find_member(VOC.arm_name_de_pos[_i] )
@@ -185,7 +185,7 @@ class EnemyShipData < StdEntryData
           next
         end
         
-        (0...4).each do |_i|
+        (1..4).each do |_i|
           case find_lang(_filename)
           when 'DE'
             _pos  = _entry.find_member(VOC.arm_name_de_pos[_i] ).value

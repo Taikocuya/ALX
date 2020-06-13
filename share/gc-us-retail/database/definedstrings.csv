@@ -1,4 +1,4 @@
-Entry ID,[Str. pos.],[Str. size],[Str. encoding],Str. value,[Str. data]
+Entry ID,[Str. Pos.],[Str. Size],[Str. Encoding],Str. Value,[Str. Data]
 0,0x3fc,46,Shift_JIS,Metrowerks Target Resident Kernel for PowerPC,"""Metrowerks Target Resident Kernel for PowerPC"""
 1,0x2a9820,18,Shift_JIS,\nOSDumpHeap(%d):\n,"""\nOSDumpHeap(%d):\n"""
 2,0x2a9834,18,Shift_JIS,--------Inactive\n,"""--------Inactive\n"""

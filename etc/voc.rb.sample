@@ -83,40 +83,40 @@ VOC.configure do |_v|
   _v.filter         = '[Filter]'
   _v.width          = 'Width'
   _v.depth          = 'Depth'
-  _v.movement_flags = 'Movement flags'
+  _v.movement_flags = 'Movement Flags'
   
-  _v.message_id     = hdr('%smessage ID'        )
-  _v.name_pos       = hdr('[%sentry name pos.]' )
-  _v.name_size      = hdr('[%sentry name size]' )
-  _v.name_str       = hdr('%sentry name'        )
-  _v.dscr_pos       = hdr('[%sdescr. pos.]'     )
-  _v.dscr_size      = hdr('[%sdescr. size]'     )
-  _v.dscr_str       = hdr('%sdescr. str.'       )
-  _v.ship_dscr_pos  = hdr('[%sship descr. pos.]')
-  _v.ship_dscr_size = hdr('[%sship descr. size]')
-  _v.ship_dscr_str  = hdr('%sship descr. str.'  )
+  _v.message_id     = hdr('%sMessage ID'        )
+  _v.name_pos       = hdr('[%sEntry Name Pos.]' )
+  _v.name_size      = hdr('[%sEntry Name Size]' )
+  _v.name_str       = hdr('%sEntry Name'        )
+  _v.dscr_pos       = hdr('[%sDescr. Pos.]'     )
+  _v.dscr_size      = hdr('[%sDescr. Size]'     )
+  _v.dscr_str       = hdr('%sDescr. Str.'       )
+  _v.ship_dscr_pos  = hdr('[%sShip Descr. Pos.]')
+  _v.ship_dscr_size = hdr('[%sShip Descr. Size]')
+  _v.ship_dscr_str  = hdr('%sShip Descr. Str.'  )
 
 #------------------------------------------------------------------------------
 # Defined string
 #------------------------------------------------------------------------------
 
-  _v.string_pos      = '[Str. pos.]'
-  _v.string_size     = '[Str. size]'
-  _v.string_encoding = '[Str. encoding]'
-  _v.string_value    = 'Str. value'
-  _v.string_data     = '[Str. data]'
-  _v.string_filter   = '[Str. filter]'
+  _v.string_pos      = '[Str. Pos.]'
+  _v.string_size     = '[Str. Size]'
+  _v.string_encoding = '[Str. Encoding]'
+  _v.string_value    = 'Str. Value'
+  _v.string_data     = '[Str. Data]'
+  _v.string_filter   = '[Str. Filter]'
 
 #------------------------------------------------------------------------------
 # Character
 #------------------------------------------------------------------------------
 
   _v.character_id    = hdr('Chara.%dID'    )
-  _v.character_name  = hdr('[Chara.%dname]')
+  _v.character_name  = hdr('[Chara.%dName]')
   _v.character_x     = hdr('Chara.%dX'     )
   _v.character_z     = hdr('Chara.%dZ'     )
   _v.character_opt   = hdr('[%s]'          )
-  _v.character_flags = 'Chara. flags'
+  _v.character_flags = 'Chara. Flags'
 
   _v.characters    = Hash.new('???')
   _v.characters[0] = 'Vyse'
@@ -127,11 +127,11 @@ VOC.configure do |_v|
   _v.characters[5] = 'Gilder'
   
   _v.weapon_id      = 'Weapon ID'
-  _v.weapon_name    = '[Weapon name]'
+  _v.weapon_name    = '[Weapon Name]'
   _v.armor_id       = 'Armor ID'
-  _v.armor_name     = '[Armor name]'
+  _v.armor_name     = '[Armor Name]'
   _v.accessory_id   = 'Accessory ID'
-  _v.accessory_name = '[Accessory name]'
+  _v.accessory_name = '[Accessory Name]'
 
   _v.exp        = hdr('EXP%d'       )
   _v.magic_exp  = 'Magic EXP'
@@ -146,7 +146,7 @@ VOC.configure do |_v|
 # Ship
 #------------------------------------------------------------------------------
 
-  _v.ship_flags = 'Ship flags'
+  _v.ship_flags = 'Ship Flags'
   _v.ships      = Hash.new('???')
   _v.ships[0]   = '[L0]'
   _v.ships[1]   = '[L1]'
@@ -154,13 +154,13 @@ VOC.configure do |_v|
   _v.ships[3]   = '[D1]'
   _v.ships[4]   = '[D2]'
   
-  _v.ship_cannon_id      = hdr('Ship cannon%dID'    )
-  _v.ship_cannon_name    = hdr('[Ship cannon%dname]')
-  _v.ship_accessory_id   = hdr('Ship acc.%dID'      )
-  _v.ship_accessory_name = hdr('[Ship acc.%dname]'  )
+  _v.ship_cannon_id      = hdr('Ship Cannon%dID'    )
+  _v.ship_cannon_name    = hdr('[Ship Cannon%dName]')
+  _v.ship_accessory_id   = hdr('Ship Acc.%dID'      )
+  _v.ship_accessory_name = hdr('[Ship Acc.%dName]'  )
 
   _v.position_id   = 'Pos. ID'
-  _v.position_name = '[Pos. name]'
+  _v.position_name = '[Pos. Name]'
 
   _v.positions     = Hash.new('???')
   _v.positions[ 0] = 'Helmsman'
@@ -180,28 +180,28 @@ VOC.configure do |_v|
 #------------------------------------------------------------------------------
 
   _v.enemy_id       = hdr('Enemy%dID'       )
-  _v.enemy_name_jp  = hdr('[JP enemy%dname]')
-  _v.enemy_name_us  = hdr('[US enemy%dname]')
-  _v.enemy_name_eu  = hdr('[EU enemy%dname]')
+  _v.enemy_name_jp  = hdr('[JP Enemy%dName]')
+  _v.enemy_name_us  = hdr('[US Enemy%dName]')
+  _v.enemy_name_eu  = hdr('[EU Enemy%dName]')
   _v.enemy_x        = hdr('Enemy%dX'        )
   _v.enemy_z        = hdr('Enemy%dZ'        )
 
-  _v.item_probability = hdr('Item%dprob.' )
-  _v.item_amount      = hdr('Item%damount')
+  _v.item_probability = hdr('Item%dProb.' )
+  _v.item_amount      = hdr('Item%dAmount')
   _v.item_id          = hdr('Item%dID'    )
-  _v.item_name        = hdr('[Item%dname]')
+  _v.item_name        = hdr('[Item%dName]')
 
   _v.instr_enemy_id   = '[Enemy ID]'
-  _v.instr_type_id    = 'Instr. type ID'
-  _v.instr_type_name  = '[Instr. type name]'
+  _v.instr_type_id    = 'Instr. Type ID'
+  _v.instr_type_name  = '[Instr. Type Name]'
   _v.instr_id         = 'Instr. ID'
-  _v.instr_name       = '[Instr. name]'
-  _v.instr_param_id   = 'Instr. param. ID'
-  _v.instr_param_name = '[Instr. param. name]'
+  _v.instr_name       = '[Instr. Name]'
+  _v.instr_param_id   = 'Instr. Param. ID'
+  _v.instr_param_name = '[Instr. Param. Name]'
 
   _v.instr_types     = Hash.new('???')
   _v.instr_types[-1] = 'None'
-  _v.instr_types[ 0] = 'Strategy'
+  _v.instr_types[ 0] = 'Branch'
   _v.instr_types[ 1] = 'Action'
   
   _v.basic_actions      = Hash.new('???')
@@ -237,36 +237,36 @@ VOC.configure do |_v|
 # Enemy ship
 #------------------------------------------------------------------------------
 
-  _v.enemy_ship_id   = '[Enemy ship ID]'
-  _v.enemy_ship_name = '[Enemy ship name]'
+  _v.enemy_ship_id   = '[Enemy Ship ID]'
+  _v.enemy_ship_name = '[Enemy Ship Name]'
 
-  _v.arm_name_eu = hdr('EU arm.%dname')
-  _v.arm_name_jp = hdr('JP arm.%dname')
-  _v.arm_name_us = hdr('US arm.%dname')
+  _v.arm_name_eu = hdr('EU Arm.%dName')
+  _v.arm_name_jp = hdr('JP Arm.%dName')
+  _v.arm_name_us = hdr('US Arm.%dName')
 
-  _v.arm_name_de_pos  = hdr('[DE arm.%dname pos.]')
-  _v.arm_name_de_size = hdr('[DE arm.%dname size]')
-  _v.arm_name_de_str  = hdr('DE arm.%dname str.'  )
-  _v.arm_name_es_pos  = hdr('[ES arm.%dname pos.]')
-  _v.arm_name_es_size = hdr('[ES arm.%dname size]')
-  _v.arm_name_es_str  = hdr('ES arm.%dname str.'  )
-  _v.arm_name_fr_pos  = hdr('[FR arm.%dname pos.]')
-  _v.arm_name_fr_size = hdr('[FR arm.%dname size]')
-  _v.arm_name_fr_str  = hdr('FR arm.%dname str.'  )
-  _v.arm_name_gb_pos  = hdr('[GB arm.%dname pos.]')
-  _v.arm_name_gb_size = hdr('[GB arm.%dname size]')
-  _v.arm_name_gb_str  = hdr('GB arm.%dname str.'  )
+  _v.arm_name_de_pos  = hdr('[DE Arm.%dName Pos.]')
+  _v.arm_name_de_size = hdr('[DE Arm.%dName Size]')
+  _v.arm_name_de_str  = hdr('DE Arm.%dName Str.'  )
+  _v.arm_name_es_pos  = hdr('[ES Arm.%dName Pos.]')
+  _v.arm_name_es_size = hdr('[ES Arm.%dName Size]')
+  _v.arm_name_es_str  = hdr('ES Arm.%dName Str.'  )
+  _v.arm_name_fr_pos  = hdr('[FR Arm.%dName Pos.]')
+  _v.arm_name_fr_size = hdr('[FR Arm.%dName Size]')
+  _v.arm_name_fr_str  = hdr('FR Arm.%dName Str.'  )
+  _v.arm_name_gb_pos  = hdr('[GB Arm.%dName Pos.]')
+  _v.arm_name_gb_size = hdr('[GB Arm.%dName Size]')
+  _v.arm_name_gb_str  = hdr('GB Arm.%dName Str.'  )
 
-  _v.arm_attack       = hdr('Arm.%dattack'        )
-  _v.arm_type_id      = hdr('Arm.%dtype ID'       )
-  _v.arm_type_name    = hdr('[Arm.%dtype name]'   )
-  _v.arm_hit          = hdr('Arm.%dhit%%'         )
-  _v.arm_range        = hdr('Arm.%drange'         )
-  _v.arm_element_id   = hdr('Arm.%delement ID'    )
-  _v.arm_element_name = hdr('[Arm.%delement name]')
+  _v.arm_attack       = hdr('Arm.%dAttack'        )
+  _v.arm_type_id      = hdr('Arm.%dType ID'       )
+  _v.arm_type_name    = hdr('[Arm.%dType name]'   )
+  _v.arm_hit          = hdr('Arm.%dHit%%'         )
+  _v.arm_range        = hdr('Arm.%dRange'         )
+  _v.arm_element_id   = hdr('Arm.%dElement ID'    )
+  _v.arm_element_name = hdr('[Arm.%dElement Name]')
 
-  _v.item_drop_id   = hdr('Item drop%dID'    )
-  _v.item_drop_name = hdr('[Item drop%dname]')
+  _v.item_drop_id   = hdr('Item Drop%dID'    )
+  _v.item_drop_name = hdr('[Item Drop%dName]')
 
   _v.drops     = Hash.new('???')
   _v.drops[-1] = 'None'
@@ -277,23 +277,23 @@ VOC.configure do |_v|
   _v.drops[ 6] = 'Osman'
   _v.drops[ 7] = 'Kalifa'
 
-  _v.task_cond_id      = 'Task cond. ID'
-  _v.task_cond_name    = 'Task cond. name'
-  _v.task_rating       = 'Task rating'
-  _v.task_a_type_id    = 'Task A type ID'
-  _v.task_a_type_name  = '[Task A type name]'
-  _v.task_a_arm_id     = 'Task A arm. ID'
-  _v.task_a_arm_name   = '[Task A arm. name]'
-  _v.task_a_param_id   = 'Task A param. ID'
-  _v.task_a_param_name = '[Task A param. name]'
-  _v.task_a_range      = 'Task A arm. range'
-  _v.task_b_type_id    = 'Task B type ID'
-  _v.task_b_type_name  = '[Task B type name]'
-  _v.task_b_arm_id     = 'Task B arm. ID'
-  _v.task_b_arm_name   = '[Task B arm. name]'
-  _v.task_b_param_id   = 'Task B param. ID'
-  _v.task_b_param_name = '[Task B param. name]'
-  _v.task_b_range      = 'Task B arm. range'
+  _v.task_cond_id      = 'Task Cond. ID'
+  _v.task_cond_name    = 'Task Cond. Name'
+  _v.task_rating       = 'Task Rating'
+  _v.task_a_type_id    = 'Task A Type ID'
+  _v.task_a_type_name  = '[Task A Type Name]'
+  _v.task_a_arm_id     = 'Task A Arm. ID'
+  _v.task_a_arm_name   = '[Task A Arm. Name]'
+  _v.task_a_param_id   = 'Task A Param. ID'
+  _v.task_a_param_name = '[Task A Param. Name]'
+  _v.task_a_range      = 'Task A Arm. Range'
+  _v.task_b_type_id    = 'Task B Type ID'
+  _v.task_b_type_name  = '[Task B Type Name]'
+  _v.task_b_arm_id     = 'Task B Arm. ID'
+  _v.task_b_arm_name   = '[Task B Arm. Name]'
+  _v.task_b_param_id   = 'Task B Param. ID'
+  _v.task_b_param_name = '[Task B Param. Name]'
+  _v.task_b_range      = 'Task B Arm. Range'
   
   _v.task_types     = Hash.new('???')
   _v.task_types[-1] = 'None'
@@ -333,10 +333,10 @@ VOC.configure do |_v|
   _v.bgm_id     = 'BGM ID'
   _v.initiative = 'Initiative'
     
-  _v.defeat_cond_id   = 'Defeat cond. ID'
-  _v.defeat_cond_name = '[Defeat cond. name]'
-  _v.escape_cond_id   = 'Escape cond. ID'
-  _v.escape_cond_name = '[Escape cond. name]'
+  _v.defeat_cond_id   = 'Defeat Cond. ID'
+  _v.defeat_cond_name = '[Defeat Cond. Name]'
+  _v.escape_cond_id   = 'Escape Cond. ID'
+  _v.escape_cond_name = '[Escape Cond. Name]'
 
   _v.defeats    = Hash.new('???')
   _v.defeats[0] = 'Must not lose'
@@ -348,137 +348,11 @@ VOC.configure do |_v|
   _v.escapes[1] = 'Cannot escape'
 
 #------------------------------------------------------------------------------
-# Menu
-#------------------------------------------------------------------------------
-
-  _v.occasion_flags  = 'Occ. flags'
-  _v.occasion_menu   = '[M]'
-  _v.occasion_battle = '[B]'
-  _v.occasion_ship   = '[S]'
-
-  _v.occasions    = Hash.new('???')
-  _v.occasions[0] = _v.occasion_menu
-  _v.occasions[1] = _v.occasion_battle
-  _v.occasions[2] = _v.occasion_ship
-
-  _v.order_alphabet    = hdr('%sorder by ABC')
-  _v.order_priority    = 'Order by prio.'
-
-  _v.retail_price   = 'Retail price in %'
-  _v.purchase_price = 'Purchase price'
-
-  _v.age                   = 'Age'
-  _v.agile                 = 'Agile'
-  _v.attack                = 'Attack'
-  _v.base_agile_increase   = 'Base Agile increase'
-  _v.base_defense_increase = 'Base Defense increase'
-  _v.base_hp_increase      = 'Base MAXHP increase'
-  _v.base_magdef_increase  = 'Base MagDef increase'
-  _v.base_mp_increase      = 'Base MAXMP increase'
-  _v.base_power_increase   = 'Base Power increase'
-  _v.base_quick_increase   = 'Base Quick increase'
-  _v.base_vigor_increase   = 'Base Vigor increase'
-  _v.base_will_increase    = 'Base Will increase'
-  _v.consume               = 'Consume%'
-  _v.counter               = 'Counter%'
-  _v.defense               = 'Defense'
-  _v.dodge                 = 'Dodge%'
-  _v.gold                  = 'Gold'
-  _v.hit                   = 'Hit%'
-  _v.hp                    = 'HP'
-  _v.level                 = 'Level'
-  _v.limit                 = 'Limit'
-  _v.magdef                = 'MagDef'
-  _v.maxhp                 = 'MAXHP'
-  _v.maxmp                 = 'MAXMP'
-  _v.maxspirit             = hdr('MAXSpirit%d')
-  _v.power                 = 'Power'
-  _v.quick                 = 'Quick'
-  _v.spirit                = hdr('Spirit%d'   )
-  _v.value                 = 'Value'
-  _v.vigor                 = 'Vigor'
-  _v.will                  = 'Will'
-
-  _v.gender_id   = 'Gender ID'
-  _v.gender_name = '[Gender name]'
-  
-  _v.genders     = Hash.new('???')
-  _v.genders[-1] = 'None'
-  _v.genders[ 0] = 'Male'
-  _v.genders[ 1] = 'Female'
-
-  _v.feature_id    = hdr('Feat.%dID'    )
-  _v.feature_name  = hdr('[Feat.%dname]')
-  _v.feature_value = hdr('Feat.%dvalue' )
-
-  _v.accessory_features     = Hash.new('???')
-  _v.accessory_features[-1] = 'None'
-  _v.accessory_features[ 1] = 'Will'
-  _v.accessory_features[ 4] = 'Quick'
-  _v.accessory_features[16] = 'Attack'
-  _v.accessory_features[17] = 'Defense'
-  _v.accessory_features[18] = 'MagDef'
-  _v.accessory_features[19] = 'Hit%'
-  _v.accessory_features[20] = 'Dodge%'
-  _v.accessory_features[32] = 'Green'
-  _v.accessory_features[33] = 'Red'
-  _v.accessory_features[34] = 'Purple'
-  _v.accessory_features[35] = 'Blue'
-  _v.accessory_features[36] = 'Yellow'
-  _v.accessory_features[37] = 'Silver'
-  _v.accessory_features[48] = 'Poison'
-  _v.accessory_features[49] = 'Unconscious'
-  _v.accessory_features[50] = 'Stone'
-  _v.accessory_features[51] = 'Sleep'
-  _v.accessory_features[52] = 'Confuse'
-  _v.accessory_features[53] = 'Silence'
-  _v.accessory_features[54] = 'Fatigue'
-  _v.accessory_features[55] = 'Revival'
-  _v.accessory_features[56] = 'Weak'
-  _v.accessory_features[57] = 'State #9'
-  _v.accessory_features[58] = 'State #10'
-  _v.accessory_features[59] = 'State #11'
-  _v.accessory_features[60] = 'State #12'
-  _v.accessory_features[61] = 'State #13'
-  _v.accessory_features[62] = 'State #14'
-  _v.accessory_features[63] = 'State #15'
-  _v.accessory_features[64] = 'Block magic'
-  _v.accessory_features[65] = 'Block attack'
-  _v.accessory_features[68] = 'Reduce spirit'
-  _v.accessory_features[73] = 'Counter%'
-  _v.accessory_features[77] = 'Recover spirit'
-  _v.accessory_features[78] = 'Add Regenerate'
-  _v.accessory_features[79] = 'Block negative states'
-  _v.accessory_features[80] = 'First strike%'
-  _v.accessory_features[81] = 'Run%'
-  _v.accessory_features[83] = 'Enemy run%'
-  _v.accessory_features[84] = 'Random encounter%'
-  
-  _v.ship_accessory_features     = Hash.new('???')
-  _v.ship_accessory_features[-1] = 'None'
-  _v.ship_accessory_features[ 2] = 'Defense'
-  _v.ship_accessory_features[ 3] = 'MagDef'
-  _v.ship_accessory_features[ 4] = 'Quick'
-  _v.ship_accessory_features[ 6] = 'Dodge%'
-  _v.ship_accessory_features[ 7] = 'Value'
-  _v.ship_accessory_features[48] = 'Main cannon attack'
-  _v.ship_accessory_features[64] = 'Secondary cannon attack'
-  _v.ship_accessory_features[81] = 'Torpedo hit%'
-  _v.ship_accessory_features[96] = 'Special attack'
-
-  _v.ship_cannon_types     = Hash.new('???')
-  _v.ship_cannon_types[-1] = 'None'
-  _v.ship_cannon_types[ 0] = 'Main cannon'
-  _v.ship_cannon_types[ 1] = 'Secondary cannon'
-  _v.ship_cannon_types[ 2] = 'Torpedo'
-  _v.ship_cannon_types[ 3] = 'Special'
-
-#------------------------------------------------------------------------------
 # Effects
 #------------------------------------------------------------------------------
 
   _v.category_id   = 'Category ID'
-  _v.category_name = '[Category name]'
+  _v.category_name = '[Category Name]'
   
   _v.character_skill_categories    = Hash.new('???')
   _v.character_skill_categories[0] = _v.characters[0]
@@ -494,7 +368,7 @@ VOC.configure do |_v|
   _v.enemy_skill_categories[1] = 'Magic'
 
   _v.element_id   = 'Element ID'
-  _v.element_name = '[Element name]'
+  _v.element_name = '[Element Name]'
   
   _v.elements     = Hash.new('???')
   _v.elements[-1] = 'None'
@@ -507,8 +381,8 @@ VOC.configure do |_v|
   _v.elements[ 6] = 'Neutral'
 
   _v.state_id   = 'State ID'
-  _v.state_name = '[State name]'
-  _v.state_miss = 'State miss%'
+  _v.state_name = '[State Name]'
+  _v.state_miss = 'State Miss%'
   
   _v.states     = Hash.new('???')
   _v.states[-1] = 'None'
@@ -521,24 +395,24 @@ VOC.configure do |_v|
   _v.states[ 6] = 'Fatigue'
   _v.states[ 7] = 'Revival'
   _v.states[ 8] = 'Weak'
-  _v.states[ 9] = 'State #9'
-  _v.states[10] = 'State #10'
-  _v.states[11] = 'State #11'
-  _v.states[12] = 'State #12'
-  _v.states[13] = 'State #13'
-  _v.states[14] = 'State #14'
-  _v.states[15] = 'State #15'
+  _v.states[ 9] = 'State 9'
+  _v.states[10] = 'State 10'
+  _v.states[11] = 'State 11'
+  _v.states[12] = 'State 12'
+  _v.states[13] = 'State 13'
+  _v.states[14] = 'State 14'
+  _v.states[15] = 'State 15'
 
   _v.type_id   = 'Type ID'
-  _v.type_name = '[Type name]'
+  _v.type_name = '[Type Name]'
   
   _v.types     = Hash.new('???')
   _v.types[-1] = 'None'
   _v.types[ 0] = 'Physical'
   _v.types[ 1] = 'Magical'
 
-  _v.ship_occasion_id   = 'Ship occ. ID'
-  _v.ship_occasion_name = '[Ship occ. name]'
+  _v.ship_occasion_id   = 'Ship Occ. ID'
+  _v.ship_occasion_name = '[Ship Occ. Name]'
   
   _v.ship_occasions     = Hash.new('???')
   _v.ship_occasions[-1] = 'Never'
@@ -546,7 +420,7 @@ VOC.configure do |_v|
   _v.ship_occasions[ 1] = 'Always'
 
   _v.scope_id   = 'Scope ID'
-  _v.scope_name = '[Scope name]'
+  _v.scope_name = '[Scope Name]'
 
   _v.scopes      = Hash.new('???')
   _v.scopes[  0] = 'None'
@@ -556,37 +430,37 @@ VOC.configure do |_v|
   _v.scopes[  4] = 'All enemies'
   _v.scopes[  5] = 'User'
   _v.scopes[  6] = 'All characters and enemies'
-  _v.scopes[ 32] = 'Enemy area #0'
-  _v.scopes[ 33] = 'Enemy area #1'
-  _v.scopes[ 34] = 'Enemy area #2'
-  _v.scopes[ 35] = 'Enemy area #3'
-  _v.scopes[ 36] = 'Enemy line #0'
-  _v.scopes[ 37] = 'Enemy line #1'
-  _v.scopes[ 38] = 'Enemy line #2'
-  _v.scopes[ 39] = 'Enemy line #3'
-  _v.scopes[ 43] = 'Enemy line #4'
-  _v.scopes[ 96] = 'Character area #0'
-  _v.scopes[ 97] = 'Character area #1'
-  _v.scopes[ 98] = 'Character area #2'
-  _v.scopes[100] = 'Character line #0'
-  _v.scopes[101] = 'Character line #1'
-  _v.scopes[102] = 'Character line #2'
-  _v.scopes[103] = 'Character line #3'
-  _v.scopes[107] = 'Character line #4'
-  _v.scopes[200] = 'Characters nearby #0'
-  _v.scopes[201] = 'Characters nearby #1'
+  _v.scopes[ 32] = 'Enemy area 0'
+  _v.scopes[ 33] = 'Enemy area 1'
+  _v.scopes[ 34] = 'Enemy area 2'
+  _v.scopes[ 35] = 'Enemy area 3'
+  _v.scopes[ 36] = 'Enemy line 0'
+  _v.scopes[ 37] = 'Enemy line 1'
+  _v.scopes[ 38] = 'Enemy line 2'
+  _v.scopes[ 39] = 'Enemy line 3'
+  _v.scopes[ 43] = 'Enemy line 4'
+  _v.scopes[ 96] = 'Character area 0'
+  _v.scopes[ 97] = 'Character area 1'
+  _v.scopes[ 98] = 'Character area 2'
+  _v.scopes[100] = 'Character line 0'
+  _v.scopes[101] = 'Character line 1'
+  _v.scopes[102] = 'Character line 2'
+  _v.scopes[103] = 'Character line 3'
+  _v.scopes[107] = 'Character line 4'
+  _v.scopes[200] = 'Characters nearby 0'
+  _v.scopes[201] = 'Characters nearby 1'
     
   _v.effect_id       = 'Effect ID'
-  _v.effect_name     = '[Effect name]'
-  _v.effect_spirit   = 'Effect spirit'
-  _v.effect_value    = hdr('Effect value%d')
-  _v.effect_priority = 'Effect priority'
+  _v.effect_name     = '[Effect Name]'
+  _v.effect_spirit   = 'Effect Spirit'
+  _v.effect_value    = hdr('Effect Value%d')
+  _v.effect_priority = 'Effect Prio.'
 
-  _v.ship_effect_id     = 'Ship effect ID'
-  _v.ship_effect_name   = '[Ship effect name]'
-  _v.ship_effect_spirit = 'Ship effect spirit'
-  _v.ship_effect_turns  = 'Ship effect turns'
-  _v.ship_effect_value  = 'Ship effect amount'
+  _v.ship_effect_id     = 'Ship Effect ID'
+  _v.ship_effect_name   = '[Ship Effect Name]'
+  _v.ship_effect_spirit = 'Ship Effect Spirit'
+  _v.ship_effect_turns  = 'Ship Effect Turns'
+  _v.ship_effect_value  = 'Ship Effect Amount'
 
   _v.effects      = Hash.new('???')
   _v.effects[ -1] = 'None'
@@ -594,7 +468,7 @@ VOC.configure do |_v|
   _v.effects[  1] = 'Guard'
   _v.effects[  4] = 'Add Poison + Damage'
   _v.effects[  5] = 'Add Unconscious'
-  _v.effects[  6] = 'Add Unconscious + Damage #1'
+  _v.effects[  6] = 'Add Unconscious + Damage 1'
   _v.effects[  7] = 'Add Stone'
   _v.effects[  8] = 'Add Stone + Damage'
   _v.effects[  9] = 'Add Sleep'
@@ -638,7 +512,7 @@ VOC.configure do |_v|
   _v.effects[ 65] = 'Prophecy'
   _v.effects[ 66] = 'Blue Rogues'
   _v.effects[ 67] = 'Invulnerable'
-  _v.effects[ 68] = 'Add Unconscious + Damage #2'
+  _v.effects[ 68] = 'Add Unconscious + Damage 2'
   _v.effects[ 69] = 'Add Sleep + Damage'
   _v.effects[ 70] = 'Add Confusion + Damage'
   _v.effects[ 71] = 'Add Silence + Damage'
@@ -672,24 +546,151 @@ VOC.configure do |_v|
   _v.weapon_effects     = Hash.new('???')
   _v.weapon_effects[-1] = 'None'
   _v.weapon_effects[ 0] = 'Add Poison'
-  _v.weapon_effects[ 1] = 'Add Sleep #1'
+  _v.weapon_effects[ 1] = 'Add Sleep 1'
   _v.weapon_effects[ 2] = 'Add Weak'
-  _v.weapon_effects[ 3] = 'Add Confusion #1'
-  _v.weapon_effects[ 4] = 'Add Sleep #2'
-  _v.weapon_effects[ 5] = 'Add Confusion #2'
-  _v.weapon_effects[ 6] = 'Add Death #1'
-  _v.weapon_effects[ 7] = 'Add Silence #1'
-  _v.weapon_effects[ 8] = 'Add Stone #1'
-  _v.weapon_effects[ 9] = 'Add Sleep #3'
-  _v.weapon_effects[10] = 'Add Death #2'
-  _v.weapon_effects[11] = 'Add Confusion #3'
-  _v.weapon_effects[12] = 'Add Silence #2'
-  _v.weapon_effects[13] = 'Add Stone #2'
-  _v.weapon_effects[14] = 'Add Confusion #4'
-  _v.weapon_effects[15] = 'Add Sleep #4'
-  _v.weapon_effects[16] = 'Add Death #3'
-  _v.weapon_effects[17] = 'Add Sleep #5'
+  _v.weapon_effects[ 3] = 'Add Confusion 1'
+  _v.weapon_effects[ 4] = 'Add Silence 1'
+  _v.weapon_effects[ 5] = 'Add Confusion 2'
+  _v.weapon_effects[ 6] = 'Add Death 1'
+  _v.weapon_effects[ 7] = 'Add Silence 2'
+  _v.weapon_effects[ 8] = 'Add Stone 1'
+  _v.weapon_effects[ 9] = 'Add Sleep 2'
+  _v.weapon_effects[10] = 'Add Death 2'
+  _v.weapon_effects[11] = 'Add Confusion 3'
+  _v.weapon_effects[12] = 'Add Silence 3'
+  _v.weapon_effects[13] = 'Add Stone 2'
+  _v.weapon_effects[14] = 'Add Confusion 4'
+  _v.weapon_effects[15] = 'Add Sleep 3'
+  _v.weapon_effects[16] = 'Add Death 3'
+  _v.weapon_effects[17] = 'Add Sleep 4'
   
+#------------------------------------------------------------------------------
+# Menu
+#------------------------------------------------------------------------------
+
+  _v.occasion_flags  = 'Occ. Flags'
+  _v.occasion_menu   = '[M]'
+  _v.occasion_battle = '[B]'
+  _v.occasion_ship   = '[S]'
+
+  _v.occasions    = Hash.new('???')
+  _v.occasions[0] = _v.occasion_menu
+  _v.occasions[1] = _v.occasion_battle
+  _v.occasions[2] = _v.occasion_ship
+
+  _v.order_alphabet    = hdr('%sOrder by ABC')
+  _v.order_priority    = 'Order by Prio.'
+
+  _v.retail_price   = 'Retail Price in %'
+  _v.purchase_price = 'Purchase Price'
+
+  _v.age                   = 'Age'
+  _v.agile                 = 'Agile'
+  _v.attack                = 'Attack'
+  _v.base_agile_increase   = 'Base Agile Incr.'
+  _v.base_defense_increase = 'Base Defense Incr.'
+  _v.base_hp_increase      = 'Base MAXHP Incr.'
+  _v.base_magdef_increase  = 'Base MagDef Incr.'
+  _v.base_mp_increase      = 'Base MAXMP Incr.'
+  _v.base_power_increase   = 'Base Power Incr.'
+  _v.base_quick_increase   = 'Base Quick Incr.'
+  _v.base_vigor_increase   = 'Base Vigor Incr.'
+  _v.base_will_increase    = 'Base Will Incr.'
+  _v.consume               = 'Consume%'
+  _v.counter               = 'Counter%'
+  _v.defense               = 'Defense'
+  _v.dodge                 = 'Dodge%'
+  _v.gold                  = 'Gold'
+  _v.hit                   = 'Hit%'
+  _v.hp                    = 'HP'
+  _v.level                 = 'Level'
+  _v.limit                 = 'Limit'
+  _v.magdef                = 'MagDef'
+  _v.maxhp                 = 'MAXHP'
+  _v.maxmp                 = 'MAXMP'
+  _v.maxspirit             = hdr('MAXSpirit%d')
+  _v.power                 = 'Power'
+  _v.quick                 = 'Quick'
+  _v.spirit                = hdr('Spirit%d'   )
+  _v.value                 = 'Value'
+  _v.vigor                 = 'Vigor'
+  _v.will                  = 'Will'
+
+  _v.gender_id   = 'Gender ID'
+  _v.gender_name = '[Gender Name]'
+  
+  _v.genders     = Hash.new('???')
+  _v.genders[-1] = 'None'
+  _v.genders[ 0] = 'Male'
+  _v.genders[ 1] = 'Female'
+
+  _v.feature_id    = hdr('Feat.%dID'    )
+  _v.feature_name  = hdr('[Feat.%dName]')
+  _v.feature_value = hdr('Feat.%dValue' )
+
+  _v.accessory_features     = Hash.new('???')
+  _v.accessory_features[-1] = 'None'
+  _v.accessory_features[ 1] = 'Will'
+  _v.accessory_features[ 4] = 'Quick'
+  _v.accessory_features[16] = 'Attack'
+  _v.accessory_features[17] = 'Defense'
+  _v.accessory_features[18] = 'MagDef'
+  _v.accessory_features[19] = 'Hit%'
+  _v.accessory_features[20] = 'Dodge%'
+  _v.accessory_features[32] = _v.elements[ 0]
+  _v.accessory_features[33] = _v.elements[ 1]
+  _v.accessory_features[34] = _v.elements[ 2]
+  _v.accessory_features[35] = _v.elements[ 3]
+  _v.accessory_features[36] = _v.elements[ 4]
+  _v.accessory_features[37] = _v.elements[ 5]
+  _v.accessory_features[48] = _v.states[ 0]
+  _v.accessory_features[49] = _v.states[ 1]
+  _v.accessory_features[50] = _v.states[ 2]
+  _v.accessory_features[51] = _v.states[ 3]
+  _v.accessory_features[52] = _v.states[ 4]
+  _v.accessory_features[53] = _v.states[ 5]
+  _v.accessory_features[54] = _v.states[ 6]
+  _v.accessory_features[55] = _v.states[ 7] 
+  _v.accessory_features[56] = _v.states[ 8]
+  _v.accessory_features[57] = _v.states[ 9]
+  _v.accessory_features[58] = _v.states[10]
+  _v.accessory_features[59] = _v.states[11]
+  _v.accessory_features[60] = _v.states[12]
+  _v.accessory_features[61] = _v.states[13]
+  _v.accessory_features[62] = _v.states[14]
+  _v.accessory_features[63] = _v.states[15]
+
+  _v.accessory_features[64] = 'Block magic'
+  _v.accessory_features[65] = 'Block attack'
+  _v.accessory_features[68] = 'Reduce spirit'
+  _v.accessory_features[73] = 'Counter%'
+  _v.accessory_features[77] = 'Recover spirit'
+  _v.accessory_features[78] = 'Add Regenerate'
+  _v.accessory_features[79] = 'Block negative states'
+  _v.accessory_features[80] = 'First strike%'
+  _v.accessory_features[81] = 'Run%'
+  _v.accessory_features[83] = 'Enemy run%'
+  _v.accessory_features[84] = 'Random encounter%'
+  
+  _v.ship_accessory_features     = Hash.new('???')
+  _v.ship_accessory_features[-1] = 'None'
+  _v.ship_accessory_features[ 2] = 'Defense'
+  _v.ship_accessory_features[ 3] = 'MagDef'
+  _v.ship_accessory_features[ 4] = 'Quick'
+  _v.ship_accessory_features[ 6] = 'Dodge%'
+  _v.ship_accessory_features[ 7] = 'Value'
+  _v.ship_accessory_features[48] = 'Main cannon attack'
+  _v.ship_accessory_features[64] = 'Secondary cannon attack'
+  _v.ship_accessory_features[81] = 'Torpedo hit%'
+  _v.ship_accessory_features[96] = 'Special attack'
+
+  _v.ship_cannon_types     = Hash.new('???')
+  _v.ship_cannon_types[-1] = 'None'
+  _v.ship_cannon_types[ 0] = 'Main cannon'
+  _v.ship_cannon_types[ 1] = 'Secondary cannon'
+  _v.ship_cannon_types[ 2] = 'Torpedo'
+  _v.ship_cannon_types[ 3] = 'Special'
+
 #------------------------------------------------------------------------------
 # Enemy names
 #------------------------------------------------------------------------------

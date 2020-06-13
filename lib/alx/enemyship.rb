@@ -62,7 +62,7 @@ class EnemyShip < StdEntry
     (0...6).each do |_i|
       members << IntVar.new(VOC.elements[_i]          , -1, :int16)
     end
-    (0...4).each do |_i|
+    (1..4).each do |_i|
       if eu?
         members << HexExt.new(VOC.arm_name_de_pos[_i] ,  0        )
         members << IntExt.new(VOC.arm_name_de_size[_i],  0        )
@@ -101,7 +101,7 @@ class EnemyShip < StdEntry
     members << IntVar.new(VOC.gold                    , -1, :int32)
 
     if product_id != '6107110 06' && product_id != '6107810'
-      (0...3).each do |_i|
+      (1..3).each do |_i|
         members << IntVar.new(VOC.item_drop_id[_i]    , -1, :int16)
         members << StrDmy.new(VOC.item_drop_name[_i]  , ''        )
         members << IntVar.new(VOC.item_id[_i]         , -1, :int16)
@@ -118,7 +118,7 @@ class EnemyShip < StdEntry
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
   def write_to_csv(_f)
-    (0...4).each do |_i|
+    (1..4).each do |_i|
       _id = find_member(VOC.arm_type_id[_i]).value
       find_member(VOC.arm_type_name[_i]).value = VOC.ship_cannon_types[_id]
       
@@ -127,7 +127,7 @@ class EnemyShip < StdEntry
     end
 
     if product_id != '6107110 06' && product_id != '6107810'
-      (0...3).each do |_i|
+      (1..3).each do |_i|
         _id = find_member(VOC.item_id[_i]).value
         if _id != -1
           _entry = @items[_id]
@@ -145,7 +145,7 @@ class EnemyShip < StdEntry
         find_member(VOC.item_name[_i]).value = _name
       end
   
-      (0...3).each do |_i|
+      (1..3).each do |_i|
         _id = find_member(VOC.item_drop_id[_i]).value
         find_member(VOC.item_drop_name[_i]).value = VOC.drops[_id]
       end

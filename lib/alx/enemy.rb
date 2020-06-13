@@ -76,11 +76,10 @@ class Enemy < Entry
       members << IntVar.new(VOC.elements[_i]        ,  0, :int16 )
     end
 
-    (0...15).each do |_i|
+    (0...16).each do |_i|
       members << IntVar.new(VOC.states[_i]          ,  0, :int16 )
     end
 
-    members << IntVar.new(unknown_hdr               ,  0, :int16 )
     members << IntVar.new(VOC.effect_id             , -1, :int8  )
     members << StrDmy.new(VOC.effect_name           , ''         )
     members << IntVar.new(VOC.state_id              ,  0, :int8  )
@@ -100,7 +99,7 @@ class Enemy < Entry
     members << IntVar.new(padding_hdr               , -1, :int8  )
     members << IntVar.new(padding_hdr               , -1, :int8  )
 
-    (0...4).each do |_i|
+    (1..4).each do |_i|
       members << IntVar.new(VOC.item_probability[_i], -1, :int16 )
       members << IntVar.new(VOC.item_amount[_i]     , -1, :int16 )
       members << IntVar.new(VOC.item_id[_i]         , -1, :int16 )
@@ -155,7 +154,7 @@ class Enemy < Entry
     _id = find_member(VOC.state_id).value
     find_member(VOC.state_name).value = VOC.states[_id]
     
-    (0...4).each do |_i|
+    (1..4).each do |_i|
       _id = find_member(VOC.item_id[_i]).value
       if _id != -1
         _entry = @items[_id]

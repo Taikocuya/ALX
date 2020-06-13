@@ -135,7 +135,7 @@ class EnemyShipTask < Entry
       if _enemy_ship
         _id = find_member(VOC.task_a_arm_id).value
         if _id > -1
-          _name = _enemy_ship.find_member(VOC.arm_name_gb_str[_id]).value
+          _name = _enemy_ship.find_member(VOC.arm_name_gb_str[_id + 1]).value
         else
           _name = 'None'
         end
@@ -146,7 +146,7 @@ class EnemyShipTask < Entry
       if _enemy_ship
         _id = find_member(VOC.task_b_arm_id).value
         if _id > -1
-          _name = _enemy_ship.find_member(VOC.arm_name_gb_str[_id]).value
+          _name = _enemy_ship.find_member(VOC.arm_name_gb_str[_id + 1]).value
         else
           _name = 'None'
         end

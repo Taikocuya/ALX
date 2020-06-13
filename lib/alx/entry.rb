@@ -60,8 +60,8 @@ class Entry
   def initialize(_root)
     @root       = _root
     @members    = [IntDmy.new(VOC.id, id)]
-    @padding_id = -1
-    @unknown_id = -1
+    @padding_id = 0
+    @unknown_id = 0
     @expired    = false
   end
 

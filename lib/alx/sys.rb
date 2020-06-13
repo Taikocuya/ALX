@@ -154,7 +154,7 @@ SYS.configure do |_s|
   _s.character_csv_file            = "#{_s.data_dir}/characters.csv"
   # Path to CSV file of character magics relative to game root
   _s.character_magic_csv_file      = "#{_s.data_dir}/charactermagics.csv"
-  # Path to CSV file of character skills relative to game root
+  # Path to CSV file of character super moves relative to game root
   _s.character_super_move_csv_file = "#{_s.data_dir}/charactersupermoves.csv"
   # Path to CSV file of crew members relative to game root
   _s.crew_member_csv_file          = "#{_s.data_dir}/crewmembers.csv"
@@ -174,9 +174,7 @@ SYS.configure do |_s|
   _s.enemy_ship_csv_file           = "#{_s.data_dir}/enemyships.csv"
   # Path to CSV file of enemy ship tasks relative to game root
   _s.enemy_ship_task_csv_file      = "#{_s.data_dir}/enemyshiptasks.csv"
-  # Path to CSV file of enemy skills relative to game root
-  _s.enemy_super_move_csv_file     = "#{_s.data_dir}/enemysupermoves.csv"
-  # Path to CSV file of enemy skills relative to game root
+  # Path to CSV file of enemy super moves relative to game root
   _s.enemy_super_move_csv_file     = "#{_s.data_dir}/enemysupermoves.csv"
   # Path to CSV file of EXP curves relative to game root
   _s.exp_curve_csv_file            = "#{_s.data_dir}/expcurves.csv"

@@ -1,4 +1,4 @@
-Entry ID,JP entry name,Chara. flags,[V],[A],[F],[D],[E],[G],Retail price in %,Order by prio.,JP order by ABC,Pad. #0,Purchase price,Feat. #0 ID,[Feat. #0 name],Pad. #1,Feat. #0 value,Feat. #1 ID,[Feat. #1 name],Pad. #2,Feat. #1 value,Feat. #2 ID,[Feat. #2 name],Pad. #3,Feat. #2 value,Feat. #3 ID,[Feat. #3 name],Pad. #4,Feat. #3 value,[JP descr. pos.],[JP descr. size],JP descr. str.
+Entry ID,JP Entry Name,Chara. Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order by Prio.,JP Order by ABC,Pad. 1,Purchase Price,Feat. 0 ID,[Feat. 0 Name],Pad. 2,Feat. 0 Value,Feat. 1 ID,[Feat. 1 Name],Pad. 3,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 4,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 5,Feat. 3 Value,[JP Descr. Pos.],[JP Descr. Size],JP Descr. Str.
 160,Ж防の指輪１,0x3f,X,X,X,X,X,X,50,2,27,0,25,18,MagDef,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x2af400,44,指輪です。Ж術関係中心のアクセサリーです。\n
 161,Ж防の指輪２,0x3f,X,X,X,X,X,X,50,20,28,0,202,18,MagDef,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 162,気力のリング,0x3f,X,X,X,X,X,X,50,3,14,0,30,1,Will,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x2af42c,88,北方の老Ж術使いたちが、Ж樹の枝から彫り上げた\n手作りの指輪だ。気力が少しだけ上がるぞ。
@@ -27,7 +27,7 @@ Entry ID,JP entry name,Chara. flags,[V],[A],[F],[D],[E],[G],Retail price in %,Or
 185,不死の首飾り,0x3f,X,X,X,X,X,X,50,28,47,0,1220,17,Defense,0,25,18,MagDef,0,25,49,Unconscious,0,-128,37,Silver,0,-2,0x0,0,""
 186,人形の首飾り,0x3f,X,X,X,X,X,X,50,36,38,0,2128,17,Defense,0,40,18,MagDef,0,40,50,Stone,0,-128,-1,None,0,0,0x0,0,""
 187,眠らずの首飾り,0x3f,X,X,X,X,X,X,50,15,39,0,493,17,Defense,0,10,18,MagDef,0,10,51,Sleep,0,-128,35,Blue,0,-2,0x0,0,""
-188,乱れずの首飾り,0x3f,X,X,X,X,X,X,50,18,53,0,711,17,Defense,0,15,18,MagDef,0,15,52,Confuse,0,-128,34,Purple,0,-2,0x0,0,""
+188,乱れずの首飾り,0x3f,X,X,X,X,X,X,50,18,53,0,711,17,Defense,0,15,18,MagDef,0,15,52,Confusion,0,-128,34,Purple,0,-2,0x0,0,""
 189,うるさい首飾り,0x3f,X,X,X,X,X,X,50,24,2,0,954,17,Defense,0,20,18,MagDef,0,20,53,Silence,0,-128,34,Purple,0,-2,0x0,0,""
 190,元気の首飾り,0x3f,X,X,X,X,X,X,50,32,17,0,1499,17,Defense,0,30,18,MagDef,0,30,54,Fatigue,0,-128,-1,None,0,0,0x0,0,""
 191,タカの首飾り,0x3f,X,X,X,X,X,X,50,39,34,0,2478,17,Defense,0,45,18,MagDef,0,45,55,Revival,0,-128,36,Yellow,0,-2,0x0,0,""
