@@ -278,8 +278,18 @@ VOC.configure do |_v|
   _v.drops[ 7] = 'Kalifa'
 
   _v.task_cond_id      = 'Task Cond. ID'
-  _v.task_cond_name    = 'Task Cond. Name'
+  _v.task_cond_name    = '[Task Cond. Name]'
   _v.task_rating       = 'Task Rating'
+  _v.task_type_id    = hdr('Task%dType ID')
+  _v.task_type_name  = hdr('[Task%dType Name]')
+  _v.task_arm_id     = hdr('Task%dArm. ID')
+  _v.task_arm_name   = hdr('[Task%dArm. Name]')
+  _v.task_param_id   = hdr('Task%dParam. ID')
+  _v.task_param_name = hdr('[Task%dParam. Name]')
+  _v.task_range      = hdr('Task%dArm. Range')
+  
+  
+  
   _v.task_a_type_id    = 'Task A Type ID'
   _v.task_a_type_name  = '[Task A Type Name]'
   _v.task_a_arm_id     = 'Task A Arm. ID'

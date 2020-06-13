@@ -49,31 +49,24 @@ class EnemyShipTask < Entry
     @enemy_ships = {}
     @magics      = {}
 
-    members << StrDmy.new(VOC.filter           , ''        )
-    members << StrDmy.new(VOC.enemy_ship_id    , ''        )
-    members << StrDmy.new(VOC.enemy_ship_name  , ''        )
-    members << IntVar.new(VOC.unknown[-1]      ,  0, :int16)
-    # members << IntVar.new(VOC.task_cond_id     ,  0, :int16)
-    # members << StrDmy.new(VOC.task_cond_name   , ''        )
-    members << IntVar.new(VOC.task_rating      ,  0, :int16)
-    members << IntVar.new(VOC.task_a_type_id   ,  0, :int16)
-    members << StrDmy.new(VOC.task_a_type_name , ''        )
-    members << IntVar.new(VOC.task_a_arm_id    ,  0, :int16)
-    if eu?
-      members << StrDmy.new(VOC.task_a_arm_name, ''        )
+    members << StrDmy.new(VOC.filter               , ''        )
+    members << StrDmy.new(VOC.enemy_ship_id        , ''        )
+    members << StrDmy.new(VOC.enemy_ship_name      , ''        )
+    members << IntVar.new(VOC.task_cond_id         ,  0, :int16)
+    members << StrDmy.new(VOC.task_cond_name       , '???'     )
+    members << IntVar.new(VOC.task_rating          ,  0, :int16)
+    
+    (1..2).each do |_i|
+      members << IntVar.new(VOC.task_type_id[_i]   ,  0, :int16)
+      members << StrDmy.new(VOC.task_type_name[_i] , ''        )
+      members << IntVar.new(VOC.task_arm_id[_i]    ,  0, :int16)
+      if eu?
+        members << StrDmy.new(VOC.task_arm_name[_i], ''        )
+      end
+      members << IntVar.new(VOC.task_param_id[_i]  ,  0, :int16)
+      members << StrDmy.new(VOC.task_param_name[_i], ''        )
+      members << IntVar.new(VOC.task_range[_i]     ,  0, :int16)
     end
-    members << IntVar.new(VOC.task_a_param_id  ,  0, :int16)
-    members << StrDmy.new(VOC.task_a_param_name, ''        )
-    members << IntVar.new(VOC.task_a_range     ,  0, :int16)
-    members << IntVar.new(VOC.task_b_type_id   ,  0, :int16)
-    members << StrDmy.new(VOC.task_b_type_name , ''        )
-    members << IntVar.new(VOC.task_b_arm_id    ,  0, :int16)
-    if eu?
-      members << StrDmy.new(VOC.task_b_arm_name, ''        )
-    end
-    members << IntVar.new(VOC.task_b_param_id  ,  0, :int16)
-    members << StrDmy.new(VOC.task_b_param_name, ''        )
-    members << IntVar.new(VOC.task_b_range     ,  0, :int16)
   end
 
   # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
@@ -130,89 +123,49 @@ class EnemyShipTask < Entry
     end
     find_member(VOC.enemy_ship_name).value = _name
 
-    if eu?
-      _name = '???'
-      if _enemy_ship
-        _id = find_member(VOC.task_a_arm_id).value
-        if _id > -1
-          _name = _enemy_ship.find_member(VOC.arm_name_gb_str[_id + 1]).value
-        else
-          _name = 'None'
+    (1..2).each do |_i|
+      if eu?
+        _name = '???'
+        if _enemy_ship
+          _id = find_member(VOC.task_arm_id[_i]).value
+          if _id > -1
+            _name = _enemy_ship.find_member(VOC.arm_name_gb_str[_id + 1]).value
+          else
+            _name = 'None'
+          end
         end
+        find_member(VOC.task_arm_name[_i]).value = _name
       end
-      find_member(VOC.task_a_arm_name).value = _name
-      
-      _name = '???'
-      if _enemy_ship
-        _id = find_member(VOC.task_b_arm_id).value
-        if _id > -1
-          _name = _enemy_ship.find_member(VOC.arm_name_gb_str[_id + 1]).value
-        else
-          _name = 'None'
-        end
-      end
-      find_member(VOC.task_b_arm_name).value = _name
-    end
-
-    _id = find_member(VOC.task_a_type_id).value
-    find_member(VOC.task_a_type_name).value = VOC.task_types[_id]
     
-    _id = find_member(VOC.task_b_type_id).value
-    find_member(VOC.task_b_type_name).value = VOC.task_types[_id]
-
-    _type_id    = find_member(VOC.task_a_type_id ).value
-    _param_id   = find_member(VOC.task_a_param_id).value
-    _type_name  = VOC.task_types[_type_id]
-    _param_name = _param_id != -1 ? '???' : 'None'
-    case _type_id
-    when 0
-      _param_name = 'None'
-    when 1
-      _entry = @magics[_param_id]
-      if _entry
-        if jp? || us?
-          _param_name = _entry.find_member(VOC.name_str[country_id]).value
-        elsif eu?
-          _param_name = _entry.find_member(VOC.name_str['GB']   ).value
-        end
-      end
-    when 2
-      _param_name = VOC.focus_tasks[_param_id]
-    when 3
-      _param_name = VOC.guard_tasks[_param_id]
-    when 4
-      _param_name = VOC.nothing_tasks[_param_id]
-    end
-    find_member(VOC.task_a_type_name ).value = _type_name
-    find_member(VOC.task_a_param_name).value = _param_name
+      _id = find_member(VOC.task_type_id[_i]).value
+      find_member(VOC.task_type_name[_i]).value = VOC.task_types[_id]
     
-    _type_id    = find_member(VOC.task_b_type_id ).value
-    _param_id   = find_member(VOC.task_b_param_id).value
-    _type_name  = VOC.task_types[_type_id]
-    _param_name = _param_id != -1 ? '???' : 'None'
-    case _type_id
-    when -1
-      _param_name = 'None'
-    when 0
-      _param_name = 'None'
-    when 1
-      _entry = @magics[_param_id]
-      if _entry
-        if jp? || us?
-          _param_name = _entry.find_member(VOC.name_str[country_id]).value
-        elsif eu?
-          _param_name = _entry.find_member(VOC.name_str['GB']   ).value
+      _type_id    = find_member(VOC.task_type_id[_i] ).value
+      _param_id   = find_member(VOC.task_param_id[_i]).value
+      _type_name  = VOC.task_types[_type_id]
+      _param_name = _param_id != -1 ? '???' : 'None'
+      case _type_id
+      when 0
+        _param_name = 'None'
+      when 1
+        _entry = @magics[_param_id]
+        if _entry
+          if jp? || us?
+            _param_name = _entry.find_member(VOC.name_str[country_id]).value
+          elsif eu?
+            _param_name = _entry.find_member(VOC.name_str['GB']   ).value
+          end
         end
+      when 2
+        _param_name = VOC.focus_tasks[_param_id]
+      when 3
+        _param_name = VOC.guard_tasks[_param_id]
+      when 4
+        _param_name = VOC.nothing_tasks[_param_id]
       end
-    when 2
-      _param_name = VOC.focus_tasks[_param_id]
-    when 3
-      _param_name = VOC.guard_tasks[_param_id]
-    when 4
-      _param_name = VOC.nothing_tasks[_param_id]
+      find_member(VOC.task_type_name[_i] ).value = _type_name
+      find_member(VOC.task_param_name[_i]).value = _param_name
     end
-    find_member(VOC.task_b_type_name ).value = _type_name
-    find_member(VOC.task_b_param_name).value = _param_name
     
     super
   end

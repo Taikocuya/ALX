@@ -1,941 +1,941 @@
-Entry ID,[Filter],[Enemy Ship ID],[Enemy Ship Name],Unk.,Task Rating,Task A Type ID,[Task A Type Name],Task A Arm. ID,Task A Param. ID,[Task A Param. Name],Task A Arm. Range,Task B Type ID,[Task B Type Name],Task B Arm. ID,Task B Param. ID,[Task B Param. Name],Task B Arm. Range
-0,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-1,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-2,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-3,R500A.BIN,23,Blackbeard,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-4,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-5,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-6,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-7,R500A.BIN,23,Blackbeard,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-8,R500A.BIN,23,Blackbeard,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-9,R500A.BIN,23,Blackbeard,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-10,R500A.BIN,23,Blackbeard,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-11,R500A.BIN,23,Blackbeard,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-12,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-13,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-14,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-15,R500A.BIN,23,Blackbeard,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-16,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-17,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-18,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-19,R500A.BIN,23,Blackbeard,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-0,R501A.BIN,2,Valuan Cruiser,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-1,R501A.BIN,2,Valuan Cruiser,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-2,R501A.BIN,2,Valuan Cruiser,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-3,R501A.BIN,2,Valuan Cruiser,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-4,R501A.BIN,2,Valuan Cruiser,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-5,R501A.BIN,2,Valuan Cruiser,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-6,R501A.BIN,2,Valuan Cruiser,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-7,R501A.BIN,2,Valuan Cruiser,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-0,R503A.BIN,21,Black Pirates,3,20,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
-1,R503A.BIN,21,Black Pirates,3,20,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
-2,R503A.BIN,21,Black Pirates,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-3,R503A.BIN,21,Black Pirates,0,50,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
-4,R503A.BIN,21,Black Pirates,3,40,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
-5,R503A.BIN,21,Black Pirates,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-6,R503A.BIN,21,Black Pirates,1,95,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-7,R503A.BIN,21,Black Pirates,-1,0,3,Guard,-1,0,Evasive Action,0,3,Guard,-1,0,Evasive Action,0
-8,R503A.BIN,21,Black Pirates,3,70,0,Attack,1,-1,None,1,0,Attack,1,-1,None,1
-9,R503A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-10,R503A.BIN,21,Black Pirates,30,20,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
-11,R503A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-12,R503A.BIN,21,Black Pirates,3,80,0,Attack,1,-1,None,2,2,Focus,-1,0,Focus,0
-13,R503A.BIN,21,Black Pirates,3,50,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
-14,R503A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-15,R503A.BIN,21,Black Pirates,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-16,R503A.BIN,21,Black Pirates,3,30,2,Focus,-1,0,Focus,0,0,Attack,1,-1,None,2
-17,R503A.BIN,21,Black Pirates,3,50,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
-18,R503A.BIN,21,Black Pirates,-1,0,4,Nothing,-1,0,Awaiting Orders,0,4,Nothing,-1,0,Awaiting Orders,0
-19,R503A.BIN,21,Black Pirates,3,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-20,R503A.BIN,21,Black Pirates,3,20,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,3
-21,R503A.BIN,21,Black Pirates,3,90,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-22,R503A.BIN,21,Black Pirates,3,30,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,0,-1,None,0
-23,R503A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-24,R503A.BIN,21,Black Pirates,3,20,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-25,R503A.BIN,21,Black Pirates,3,50,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
-26,R503A.BIN,21,Black Pirates,-1,0,0,Attack,1,-1,None,3,0,Attack,2,-1,None,3
-27,R503A.BIN,21,Black Pirates,1,80,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-28,R503A.BIN,21,Black Pirates,3,20,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
-29,R503A.BIN,21,Black Pirates,-1,0,0,Attack,1,-1,None,3,0,Attack,1,-1,None,3
-30,R503A.BIN,21,Black Pirates,1,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-31,R503A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-0,R506A.BIN,24,Recumen,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-1,R506A.BIN,24,Recumen,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-2,R506A.BIN,24,Recumen,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-3,R506A.BIN,24,Recumen,9,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
-4,R506A.BIN,24,Recumen,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-5,R506A.BIN,24,Recumen,9,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
-6,R506A.BIN,24,Recumen,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-7,R506A.BIN,24,Recumen,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-8,R506A.BIN,24,Recumen,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-9,R506A.BIN,24,Recumen,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-10,R506A.BIN,24,Recumen,9,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
-11,R506A.BIN,24,Recumen,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-12,R506A.BIN,24,Recumen,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-13,R506A.BIN,24,Recumen,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-14,R506A.BIN,24,Recumen,9,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
-15,R506A.BIN,24,Recumen,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-16,R506A.BIN,24,Recumen,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-17,R506A.BIN,24,Recumen,9,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
-18,R506A.BIN,24,Recumen,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-19,R506A.BIN,24,Recumen,9,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
-20,R506A.BIN,24,Recumen,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-21,R506A.BIN,24,Recumen,9,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
-22,R506A.BIN,24,Recumen,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-23,R506A.BIN,24,Recumen,9,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
-0,R507A.BIN,11,Lynx,-1,0,1,Magic,-1,0,Increm,0,0,Attack,0,-1,None,0
-1,R507A.BIN,11,Lynx,-1,0,1,Magic,-1,23,Pyri,0,0,Attack,0,-1,None,0
-2,R507A.BIN,11,Lynx,-1,0,2,Focus,-1,1,Taking Aim,0,0,Attack,0,-1,None,0
-3,R507A.BIN,11,Lynx,0,50,1,Magic,-1,23,Pyri,0,1,Magic,-1,22,Wevlen,0
-4,R507A.BIN,11,Lynx,1,50,0,Attack,0,-1,None,0,1,Magic,-1,23,Pyri,0
-5,R507A.BIN,11,Lynx,-1,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
-6,R507A.BIN,11,Lynx,1,50,0,Attack,0,-1,None,0,1,Magic,-1,22,Wevlen,0
-7,R507A.BIN,11,Lynx,-1,0,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
-8,R507A.BIN,11,Lynx,-1,0,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
-9,R507A.BIN,11,Lynx,-1,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
-10,R507A.BIN,11,Lynx,1,50,0,Attack,0,-1,None,0,1,Magic,-1,22,Wevlen,0
-11,R507A.BIN,11,Lynx,1,30,1,Magic,-1,6,Sacri,0,3,Guard,-1,-1,None,0
-12,R507A.BIN,11,Lynx,-1,0,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
-13,R507A.BIN,11,Lynx,-1,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
-14,R507A.BIN,11,Lynx,1,50,0,Attack,0,-1,None,0,1,Magic,-1,22,Wevlen,0
-15,R507A.BIN,11,Lynx,1,30,1,Magic,-1,6,Sacri,0,1,Magic,-1,0,Increm,0
-16,R507A.BIN,11,Lynx,-1,0,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
-17,R507A.BIN,11,Lynx,-1,0,4,Nothing,-1,1,Target Lost,0,0,Attack,0,-1,None,0
-18,R507A.BIN,11,Lynx,-1,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
-19,R507A.BIN,11,Lynx,1,50,0,Attack,0,-1,None,0,1,Magic,-1,23,Pyri,0
-20,R507A.BIN,11,Lynx,1,30,1,Magic,-1,6,Sacri,0,1,Magic,-1,0,Increm,0
-21,R507A.BIN,11,Lynx,-1,0,0,Attack,2,-1,None,2,0,Attack,0,-1,None,0
-22,R507A.BIN,11,Lynx,-1,0,0,Attack,1,-1,None,1,0,Attack,0,-1,None,0
-23,R507A.BIN,11,Lynx,1,50,0,Attack,0,-1,None,0,1,Magic,-1,23,Pyri,0
-24,R507A.BIN,11,Lynx,-1,0,2,Focus,-1,1,Taking Aim,0,0,Attack,0,-1,None,0
-25,R507A.BIN,11,Lynx,-1,0,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
-26,R507A.BIN,11,Lynx,-1,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
-27,R507A.BIN,11,Lynx,1,50,0,Attack,0,-1,None,0,1,Magic,-1,22,Wevlen,0
-28,R507A.BIN,11,Lynx,-1,0,2,Focus,-1,1,Taking Aim,0,0,Attack,0,-1,None,0
-29,R507A.BIN,11,Lynx,-1,0,0,Attack,2,-1,None,2,0,Attack,0,-1,None,0
-30,R507A.BIN,11,Lynx,-1,0,0,Attack,1,-1,None,1,0,Attack,0,-1,None,0
-31,R507A.BIN,11,Lynx,1,50,0,Attack,0,-1,None,0,1,Magic,-1,22,Wevlen,0
-32,R507A.BIN,11,Lynx,-1,0,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
-33,R507A.BIN,11,Lynx,-1,0,4,Nothing,-1,1,Target Lost,0,0,Attack,0,-1,None,0
-34,R507A.BIN,11,Lynx,-1,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
-35,R507A.BIN,11,Lynx,1,50,0,Attack,0,-1,None,0,1,Magic,-1,23,Pyri,0
-0,R509A.BIN,12,Chameleon,3,30,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,2,-1,None,3
-1,R509A.BIN,12,Chameleon,3,80,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,-1,None,0
-2,R509A.BIN,12,Chameleon,3,40,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
-3,R509A.BIN,12,Chameleon,3,20,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,1,-1,None,0
-4,R509A.BIN,12,Chameleon,-1,0,0,Attack,2,-1,None,3,0,Attack,2,-1,None,3
-5,R509A.BIN,12,Chameleon,-1,0,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
-6,R509A.BIN,12,Chameleon,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-7,R509A.BIN,12,Chameleon,-1,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-8,R509A.BIN,12,Chameleon,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-9,R509A.BIN,12,Chameleon,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-10,R509A.BIN,12,Chameleon,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-11,R509A.BIN,12,Chameleon,-1,0,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
-12,R509A.BIN,12,Chameleon,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-13,R509A.BIN,12,Chameleon,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-14,R509A.BIN,12,Chameleon,-1,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,0,Awaiting Orders,0
-15,R509A.BIN,12,Chameleon,-1,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,0,Awaiting Orders,0
-16,R509A.BIN,12,Chameleon,3,50,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
-17,R509A.BIN,12,Chameleon,-1,0,0,Attack,1,-1,None,3,0,Attack,1,-1,None,3
-18,R509A.BIN,12,Chameleon,-1,0,0,Attack,2,-1,None,1,0,Attack,3,-1,None,1
-19,R509A.BIN,12,Chameleon,3,50,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
-20,R509A.BIN,12,Chameleon,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-21,R509A.BIN,12,Chameleon,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-22,R509A.BIN,12,Chameleon,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-23,R509A.BIN,12,Chameleon,-1,0,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
-24,R509A.BIN,12,Chameleon,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-25,R509A.BIN,12,Chameleon,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-26,R509A.BIN,12,Chameleon,-1,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,0,Awaiting Orders,0
-27,R509A.BIN,12,Chameleon,-1,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,0,Awaiting Orders,0
-28,R509A.BIN,12,Chameleon,-1,0,4,Nothing,-1,0,Awaiting Orders,0,4,Nothing,-1,0,Awaiting Orders,0
-29,R509A.BIN,12,Chameleon,-1,0,0,Attack,2,-1,None,3,0,Attack,2,-1,None,3
-30,R509A.BIN,12,Chameleon,-1,0,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
-31,R509A.BIN,12,Chameleon,-1,0,4,Nothing,-1,0,Awaiting Orders,0,4,Nothing,-1,0,Awaiting Orders,0
-0,R510A.BIN,4,Valuan Gunboat,0,50,4,Nothing,-1,-1,None,0,1,Magic,-1,23,Pyri,0
-1,R510A.BIN,4,Valuan Gunboat,0,20,4,Nothing,-1,-1,None,0,1,Magic,-1,23,Pyri,0
-2,R510A.BIN,4,Valuan Gunboat,3,30,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
-3,R510A.BIN,4,Valuan Gunboat,3,10,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,0
-4,R510A.BIN,4,Valuan Gunboat,0,20,4,Nothing,-1,-1,None,0,1,Magic,-1,23,Pyri,0
-5,R510A.BIN,4,Valuan Gunboat,1,40,1,Magic,-1,6,Sacri,0,0,Attack,0,-1,None,0
-6,R510A.BIN,4,Valuan Gunboat,3,30,3,Guard,-1,0,Evasive Action,0,4,Nothing,-1,-1,None,0
-7,R510A.BIN,4,Valuan Gunboat,3,30,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,23,Pyri,0
-8,R510A.BIN,4,Valuan Gunboat,1,20,1,Magic,-1,6,Sacri,0,0,Attack,1,-1,None,3
-9,R510A.BIN,4,Valuan Gunboat,1,10,1,Magic,-1,6,Sacri,0,1,Magic,-1,23,Pyri,0
-10,R510A.BIN,4,Valuan Gunboat,3,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
-11,R510A.BIN,4,Valuan Gunboat,1,10,1,Magic,-1,6,Sacri,0,1,Magic,-1,23,Pyri,0
-12,R510A.BIN,4,Valuan Gunboat,3,50,0,Attack,1,-1,None,2,2,Focus,-1,0,Focus,0
-13,R510A.BIN,4,Valuan Gunboat,1,30,3,Guard,-1,0,Evasive Action,0,4,Nothing,-1,-1,None,0
-14,R510A.BIN,4,Valuan Gunboat,3,30,1,Magic,-1,6,Sacri,0,2,Focus,-1,0,Focus,0
-15,R510A.BIN,4,Valuan Gunboat,3,50,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
-0,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-1,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-2,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-3,R513A.BIN,35,Roc,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-4,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-5,R513A.BIN,35,Roc,-1,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-6,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-7,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-8,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-9,R513A.BIN,35,Roc,-1,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-10,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-11,R513A.BIN,35,Roc,-1,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-12,R513A.BIN,35,Roc,3,50,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-13,R513A.BIN,35,Roc,-1,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-14,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-15,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-16,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-17,R513A.BIN,35,Roc,-1,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-18,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-19,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-20,R513A.BIN,35,Roc,-1,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-21,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-22,R513A.BIN,35,Roc,-1,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-23,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-24,R513A.BIN,35,Roc,3,50,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-25,R513A.BIN,35,Roc,-1,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-26,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-27,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-28,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-29,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-30,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-31,R513A.BIN,35,Roc,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-32,R513A.BIN,35,Roc,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-33,R513A.BIN,35,Roc,-1,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-34,R513A.BIN,35,Roc,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-35,R513A.BIN,35,Roc,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-0,R514A.BIN,13,Chameleon,3,50,0,Attack,0,-1,None,0,0,Attack,2,-1,None,3
-1,R514A.BIN,13,Chameleon,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,1
-2,R514A.BIN,13,Chameleon,3,50,2,Focus,-1,0,Focus,0,4,Nothing,-1,-1,None,0
-3,R514A.BIN,13,Chameleon,-1,1,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
-4,R514A.BIN,13,Chameleon,-1,0,0,Attack,2,-1,None,1,0,Attack,2,-1,None,2
-5,R514A.BIN,13,Chameleon,-1,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-6,R514A.BIN,13,Chameleon,3,50,0,Attack,0,-1,None,1,0,Attack,0,-1,None,0
-7,R514A.BIN,13,Chameleon,3,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-8,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
-9,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
-10,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
-11,R514A.BIN,13,Chameleon,-1,0,0,Attack,3,-1,None,0,-1,None,-1,-1,None,0
-12,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
-13,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
-14,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
-15,R514A.BIN,13,Chameleon,-1,0,0,Attack,3,-1,None,0,-1,None,-1,-1,None,0
-16,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
-17,R514A.BIN,13,Chameleon,3,50,0,Attack,2,-1,None,1,3,Guard,-1,0,Evasive Action,0
-18,R514A.BIN,13,Chameleon,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-19,R514A.BIN,13,Chameleon,-1,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-20,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
-21,R514A.BIN,13,Chameleon,3,50,0,Attack,2,-1,None,1,3,Guard,-1,0,Evasive Action,0
-22,R514A.BIN,13,Chameleon,3,70,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-23,R514A.BIN,13,Chameleon,-1,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-24,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
-25,R514A.BIN,13,Chameleon,-1,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
-26,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
-27,R514A.BIN,13,Chameleon,-1,0,0,Attack,3,-1,None,0,-1,None,-1,-1,None,0
-28,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
-29,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
-30,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
-31,R514A.BIN,13,Chameleon,-1,0,0,Attack,3,1,None,0,-1,None,-1,-1,None,0
-32,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
-33,R514A.BIN,13,Chameleon,-1,0,0,Attack,2,-1,None,2,3,Guard,-1,0,Evasive Action,0
-34,R514A.BIN,13,Chameleon,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-35,R514A.BIN,13,Chameleon,-1,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-36,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
-37,R514A.BIN,13,Chameleon,3,50,0,Attack,1,-1,None,1,3,Guard,-1,0,Evasive Action,0
-38,R514A.BIN,13,Chameleon,3,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-39,R514A.BIN,13,Chameleon,-1,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-40,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
-41,R514A.BIN,13,Chameleon,-1,0,0,Attack,2,-1,None,1,0,Attack,-1,-1,None,0
-42,R514A.BIN,13,Chameleon,3,50,0,Attack,2,-1,None,1,3,Guard,-1,0,Evasive Action,0
-43,R514A.BIN,13,Chameleon,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-44,R514A.BIN,13,Chameleon,-1,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
-45,R514A.BIN,13,Chameleon,-1,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-46,R514A.BIN,13,Chameleon,3,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,3
-47,R514A.BIN,13,Chameleon,-1,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-48,R514A.BIN,13,Chameleon,-1,0,0,Attack,2,-1,None,1,0,Attack,2,-1,None,2
-49,R514A.BIN,13,Chameleon,3,50,0,Attack,0,-1,None,1,0,Attack,0,-1,None,0
-50,R514A.BIN,13,Chameleon,3,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-51,R514A.BIN,13,Chameleon,3,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-0,R515A.BIN,25,Grendel,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-1,R515A.BIN,25,Grendel,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-2,R515A.BIN,25,Grendel,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-3,R515A.BIN,25,Grendel,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-4,R515A.BIN,25,Grendel,9,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-5,R515A.BIN,25,Grendel,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-6,R515A.BIN,25,Grendel,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-7,R515A.BIN,25,Grendel,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-8,R515A.BIN,25,Grendel,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-9,R515A.BIN,25,Grendel,9,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-10,R515A.BIN,25,Grendel,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-11,R515A.BIN,25,Grendel,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-12,R515A.BIN,25,Grendel,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-13,R515A.BIN,25,Grendel,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-14,R515A.BIN,25,Grendel,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-15,R515A.BIN,25,Grendel,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-16,R515A.BIN,25,Grendel,-1,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,1,Target Lost,0
-17,R515A.BIN,25,Grendel,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-18,R515A.BIN,25,Grendel,-1,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,1,Target Lost,0
-19,R515A.BIN,25,Grendel,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-20,R515A.BIN,25,Grendel,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-21,R515A.BIN,25,Grendel,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-22,R515A.BIN,25,Grendel,-1,0,0,Attack,2,-1,None,0,0,Attack,2,-1,None,0
-23,R515A.BIN,25,Grendel,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-24,R515A.BIN,25,Grendel,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-25,R515A.BIN,25,Grendel,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-26,R515A.BIN,25,Grendel,3,80,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-27,R515A.BIN,25,Grendel,4,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-28,R515A.BIN,25,Grendel,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-29,R515A.BIN,25,Grendel,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-30,R515A.BIN,25,Grendel,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-31,R515A.BIN,25,Grendel,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-32,R515A.BIN,25,Grendel,-1,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,1,Target Lost,0
-33,R515A.BIN,25,Grendel,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-34,R515A.BIN,25,Grendel,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-35,R515A.BIN,25,Grendel,0,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-36,R515A.BIN,25,Grendel,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-37,R515A.BIN,25,Grendel,9,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-38,R515A.BIN,25,Grendel,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-39,R515A.BIN,25,Grendel,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-0,R518A.BIN,4,Valuan Gunboat,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-1,R518A.BIN,4,Valuan Gunboat,3,80,0,Attack,1,-1,None,1,4,Nothing,0,0,Awaiting Orders,0
-2,R518A.BIN,4,Valuan Gunboat,-1,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
-3,R518A.BIN,4,Valuan Gunboat,3,50,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
-4,R518A.BIN,4,Valuan Gunboat,-1,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
-5,R518A.BIN,4,Valuan Gunboat,3,80,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-6,R518A.BIN,4,Valuan Gunboat,3,50,0,Attack,1,-1,None,2,4,Nothing,-1,0,Awaiting Orders,0
-7,R518A.BIN,4,Valuan Gunboat,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-8,R518A.BIN,4,Valuan Gunboat,3,80,0,Attack,2,-1,None,3,2,Focus,-1,0,Focus,0
-9,R518A.BIN,4,Valuan Gunboat,3,30,0,Attack,1,-1,None,1,3,Guard,0,0,Evasive Action,0
-10,R518A.BIN,4,Valuan Gunboat,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-11,R518A.BIN,4,Valuan Gunboat,3,30,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-12,R518A.BIN,4,Valuan Gunboat,-1,0,0,Attack,2,-1,None,1,0,Attack,-1,-1,None,0
-13,R518A.BIN,4,Valuan Gunboat,-1,0,0,Attack,2,-1,None,2,0,Attack,-1,-1,None,0
-14,R518A.BIN,4,Valuan Gunboat,3,50,0,Attack,0,-1,None,0,2,Focus,0,-1,None,0
-15,R518A.BIN,4,Valuan Gunboat,3,30,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-0,R519A.BIN,38,Fortress Gates,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-1,R519A.BIN,38,Fortress Gates,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-2,R519A.BIN,38,Fortress Gates,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-3,R519A.BIN,38,Fortress Gates,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-0,R520A.BIN,9,Gregorio Cruiser,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-1,R520A.BIN,9,Gregorio Cruiser,3,25,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,1
-2,R520A.BIN,9,Gregorio Cruiser,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-3,R520A.BIN,9,Gregorio Cruiser,3,20,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,0
-4,R520A.BIN,9,Gregorio Cruiser,-1,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
-5,R520A.BIN,9,Gregorio Cruiser,3,50,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,1
-6,R520A.BIN,9,Gregorio Cruiser,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-7,R520A.BIN,9,Gregorio Cruiser,3,30,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,0
-0,R521A.BIN,10,Gregorio Gunboat,-1,0,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
-1,R521A.BIN,10,Gregorio Gunboat,-1,0,2,Focus,-1,1,Taking Aim,0,0,Attack,0,-1,None,0
-2,R521A.BIN,10,Gregorio Gunboat,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-3,R521A.BIN,10,Gregorio Gunboat,-1,0,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-4,R521A.BIN,10,Gregorio Gunboat,-1,0,0,Attack,1,-1,None,3,0,Attack,0,-1,None,0
-5,R521A.BIN,10,Gregorio Gunboat,-1,0,0,Attack,2,-1,None,2,0,Attack,0,-1,None,0
-6,R521A.BIN,10,Gregorio Gunboat,-1,0,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
-7,R521A.BIN,10,Gregorio Gunboat,-1,0,2,Focus,-1,1,Taking Aim,0,0,Attack,0,-1,None,0
-8,R521A.BIN,10,Gregorio Gunboat,-1,0,4,Nothing,-1,1,Target Lost,0,0,Attack,0,-1,None,0
-9,R521A.BIN,10,Gregorio Gunboat,-1,0,2,Focus,-1,1,Taking Aim,0,0,Attack,0,-1,None,0
-10,R521A.BIN,10,Gregorio Gunboat,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-11,R521A.BIN,10,Gregorio Gunboat,-1,0,0,Attack,1,-1,None,3,0,Attack,0,-1,None,0
-12,R521A.BIN,10,Gregorio Gunboat,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-13,R521A.BIN,10,Gregorio Gunboat,-1,0,0,Attack,2,-1,None,3,0,Attack,0,-1,None,0
-14,R521A.BIN,10,Gregorio Gunboat,-1,0,0,Attack,1,-1,None,1,0,Attack,0,-1,None,0
-15,R521A.BIN,10,Gregorio Gunboat,-1,0,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
-0,R522A.BIN,16,Auriga,3,20,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,2
-1,R522A.BIN,16,Auriga,3,60,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
-2,R522A.BIN,16,Auriga,3,80,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,1
-3,R522A.BIN,16,Auriga,3,10,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
-4,R522A.BIN,16,Auriga,-1,0,3,Guard,-1,0,Evasive Action,0,3,Guard,-1,0,Evasive Action,0
-5,R522A.BIN,16,Auriga,3,35,0,Attack,0,-1,None,0,0,Attack,1,-1,None,3
-6,R522A.BIN,16,Auriga,-1,0,3,Guard,-1,0,Evasive Action,0,3,Guard,-1,0,Evasive Action,0
-7,R522A.BIN,16,Auriga,3,70,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-8,R522A.BIN,16,Auriga,3,40,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,0,-1,None,0
-9,R522A.BIN,16,Auriga,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-10,R522A.BIN,16,Auriga,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-11,R522A.BIN,16,Auriga,6,0,4,Nothing,0,3,Hull Ram,0,0,Attack,3,-1,None,0
-12,R522A.BIN,16,Auriga,3,20,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,2
-13,R522A.BIN,16,Auriga,3,80,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,3
-14,R522A.BIN,16,Auriga,3,10,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
-15,R522A.BIN,16,Auriga,3,60,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
-16,R522A.BIN,16,Auriga,3,20,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,3
-17,R522A.BIN,16,Auriga,3,20,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,2
-18,R522A.BIN,16,Auriga,3,10,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
-19,R522A.BIN,16,Auriga,3,20,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
-20,R522A.BIN,16,Auriga,3,40,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,1,-1,None,2
-21,R522A.BIN,16,Auriga,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-22,R522A.BIN,16,Auriga,-1,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
-23,R522A.BIN,16,Auriga,6,0,4,Nothing,0,3,Hull Ram,0,0,Attack,3,-1,None,0
-24,R522A.BIN,16,Auriga,-1,0,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
-25,R522A.BIN,16,Auriga,3,40,0,Attack,0,-1,None,0,0,Attack,2,-1,None,1
-26,R522A.BIN,16,Auriga,3,60,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-27,R522A.BIN,16,Auriga,0,35,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
-28,R522A.BIN,16,Auriga,-1,0,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
-29,R522A.BIN,16,Auriga,3,40,0,Attack,0,-1,None,0,0,Attack,2,-1,None,1
-30,R522A.BIN,16,Auriga,3,60,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-31,R522A.BIN,16,Auriga,0,35,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
-32,R522A.BIN,16,Auriga,3,90,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
-33,R522A.BIN,16,Auriga,3,70,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
-34,R522A.BIN,16,Auriga,3,50,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-35,R522A.BIN,16,Auriga,3,20,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-36,R522A.BIN,16,Auriga,3,90,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
-37,R522A.BIN,16,Auriga,3,70,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
-38,R522A.BIN,16,Auriga,3,50,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-39,R522A.BIN,16,Auriga,3,20,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-0,R523A.BIN,32,Obispo,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-1,R523A.BIN,32,Obispo,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-2,R523A.BIN,32,Obispo,3,50,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-3,R523A.BIN,32,Obispo,4,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-4,R523A.BIN,32,Obispo,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-5,R523A.BIN,32,Obispo,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-6,R523A.BIN,32,Obispo,1,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-7,R523A.BIN,32,Obispo,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-8,R523A.BIN,32,Obispo,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-9,R523A.BIN,32,Obispo,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-10,R523A.BIN,32,Obispo,1,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-11,R523A.BIN,32,Obispo,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-12,R523A.BIN,32,Obispo,1,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-13,R523A.BIN,32,Obispo,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-14,R523A.BIN,32,Obispo,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-15,R523A.BIN,32,Obispo,1,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-16,R523A.BIN,32,Obispo,1,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-17,R523A.BIN,32,Obispo,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-18,R523A.BIN,32,Obispo,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-19,R523A.BIN,32,Obispo,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-20,R523A.BIN,32,Obispo,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-21,R523A.BIN,32,Obispo,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-22,R523A.BIN,32,Obispo,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-23,R523A.BIN,32,Obispo,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-0,R524A.BIN,29,Anguila,3,50,0,Attack,1,-1,None,0,3,Guard,-1,-1,None,0
-1,R524A.BIN,29,Anguila,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-2,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-3,R524A.BIN,29,Anguila,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-4,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-5,R524A.BIN,29,Anguila,3,60,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-6,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-7,R524A.BIN,29,Anguila,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-8,R524A.BIN,29,Anguila,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-9,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-10,R524A.BIN,29,Anguila,3,40,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-11,R524A.BIN,29,Anguila,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-12,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-13,R524A.BIN,29,Anguila,3,20,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-14,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-15,R524A.BIN,29,Anguila,3,70,0,Attack,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0
-16,R524A.BIN,29,Anguila,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-17,R524A.BIN,29,Anguila,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-18,R524A.BIN,29,Anguila,3,60,3,Guard,-1,-1,None,0,2,Focus,-1,2,Preparing Attack,0
-19,R524A.BIN,29,Anguila,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-20,R524A.BIN,29,Anguila,3,70,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-21,R524A.BIN,29,Anguila,-1,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-22,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-23,R524A.BIN,29,Anguila,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-24,R524A.BIN,29,Anguila,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-25,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-26,R524A.BIN,29,Anguila,3,70,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-27,R524A.BIN,29,Anguila,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-28,R524A.BIN,29,Anguila,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-29,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-30,R524A.BIN,29,Anguila,3,80,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-31,R524A.BIN,29,Anguila,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-32,R524A.BIN,29,Anguila,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-33,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-34,R524A.BIN,29,Anguila,3,30,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-35,R524A.BIN,29,Anguila,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-36,R524A.BIN,29,Anguila,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-37,R524A.BIN,29,Anguila,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-38,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-39,R524A.BIN,29,Anguila,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-40,R524A.BIN,29,Anguila,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-41,R524A.BIN,29,Anguila,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-42,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-43,R524A.BIN,29,Anguila,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-44,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-45,R524A.BIN,29,Anguila,3,60,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-46,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-47,R524A.BIN,29,Anguila,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-48,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-49,R524A.BIN,29,Anguila,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-50,R524A.BIN,29,Anguila,3,70,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
-51,R524A.BIN,29,Anguila,3,50,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-52,R524A.BIN,29,Anguila,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-53,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-54,R524A.BIN,29,Anguila,3,80,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-55,R524A.BIN,29,Anguila,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-56,R524A.BIN,29,Anguila,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-57,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-58,R524A.BIN,29,Anguila,3,30,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-59,R524A.BIN,29,Anguila,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-60,R524A.BIN,29,Anguila,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-61,R524A.BIN,29,Anguila,3,50,0,Attack,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0
-62,R524A.BIN,29,Anguila,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-63,R524A.BIN,29,Anguila,-1,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-0,R525A.BIN,44,Tenkou Spellship,3,20,0,Attack,2,-1,None,2,2,Focus,-1,-1,None,0
-1,R525A.BIN,44,Tenkou Spellship,3,50,0,Attack,0,-1,None,0,1,Magic,-1,21,Wevles,0
-2,R525A.BIN,44,Tenkou Spellship,3,50,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,1
-3,R525A.BIN,44,Tenkou Spellship,3,50,0,Attack,0,-1,None,0,1,Magic,-1,26,Crystali,0
-4,R525A.BIN,44,Tenkou Spellship,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-5,R525A.BIN,44,Tenkou Spellship,-1,0,1,Magic,-1,21,Wevles,0,-1,None,-1,-1,None,0
-6,R525A.BIN,44,Tenkou Spellship,3,80,1,Magic,-1,26,Crystali,0,0,Attack,2,-1,None,1
-7,R525A.BIN,44,Tenkou Spellship,1,20,1,Magic,-1,6,Sacri,0,2,Focus,-1,0,Focus,0
-8,R525A.BIN,44,Tenkou Spellship,3,50,1,Magic,-1,26,Crystali,0,1,Magic,-1,21,Wevles,0
-9,R525A.BIN,44,Tenkou Spellship,3,50,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,2,-1,None,1
-10,R525A.BIN,44,Tenkou Spellship,3,50,0,Attack,0,-1,None,0,2,Focus,-1,-1,None,0
-11,R525A.BIN,44,Tenkou Spellship,3,90,3,Guard,-1,-1,None,0,1,Magic,-1,6,Sacri,0
-12,R525A.BIN,44,Tenkou Spellship,3,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-13,R525A.BIN,44,Tenkou Spellship,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-14,R525A.BIN,44,Tenkou Spellship,3,50,2,Focus,-1,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-15,R525A.BIN,44,Tenkou Spellship,4,2,1,Magic,-1,26,Crystali,0,0,Attack,0,-1,None,0
-16,R525A.BIN,44,Tenkou Spellship,-1,0,0,Attack,0,-1,None,0,2,Focus,-1,-1,None,0
-17,R525A.BIN,44,Tenkou Spellship,4,2,2,Focus,-1,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-18,R525A.BIN,44,Tenkou Spellship,4,2,1,Magic,-1,6,Sacri,0,4,Nothing,-1,0,Awaiting Orders,0
-19,R525A.BIN,44,Tenkou Spellship,-1,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-0,R527A.BIN,36,Giant Looper,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-1,R527A.BIN,36,Giant Looper,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-2,R527A.BIN,36,Giant Looper,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-3,R527A.BIN,36,Giant Looper,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-4,R527A.BIN,36,Giant Looper,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-5,R527A.BIN,36,Giant Looper,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-6,R527A.BIN,36,Giant Looper,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-7,R527A.BIN,36,Giant Looper,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-8,R527A.BIN,36,Giant Looper,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-9,R527A.BIN,36,Giant Looper,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-10,R527A.BIN,36,Giant Looper,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-11,R527A.BIN,36,Giant Looper,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-12,R527A.BIN,36,Giant Looper,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-13,R527A.BIN,36,Giant Looper,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-14,R527A.BIN,36,Giant Looper,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-15,R527A.BIN,36,Giant Looper,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-16,R527A.BIN,36,Giant Looper,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-17,R527A.BIN,36,Giant Looper,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-18,R527A.BIN,36,Giant Looper,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-19,R527A.BIN,36,Giant Looper,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-0,R530A.BIN,17,Draco,-1,0,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
-1,R530A.BIN,17,Draco,-1,0,0,Attack,2,-1,None,2,0,Attack,2,-1,None,2
-2,R530A.BIN,17,Draco,-1,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-3,R530A.BIN,17,Draco,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-4,R530A.BIN,17,Draco,-1,0,0,Attack,2,-1,None,2,0,Attack,2,-1,None,2
-5,R530A.BIN,17,Draco,-1,0,2,Focus,-1,-1,None,0,2,Focus,-1,-1,None,0
-6,R530A.BIN,17,Draco,-1,0,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
-7,R530A.BIN,17,Draco,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-0,R531A.BIN,26,Bluheim,0,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
-1,R531A.BIN,26,Bluheim,3,80,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
-2,R531A.BIN,26,Bluheim,3,75,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-3,R531A.BIN,26,Bluheim,3,60,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
-4,R531A.BIN,26,Bluheim,0,80,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
-5,R531A.BIN,26,Bluheim,3,70,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
-6,R531A.BIN,26,Bluheim,3,80,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
-7,R531A.BIN,26,Bluheim,0,60,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
-8,R531A.BIN,26,Bluheim,3,70,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
-9,R531A.BIN,26,Bluheim,3,30,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-10,R531A.BIN,26,Bluheim,-1,0,2,Focus,-1,2,Preparing Attack,0,4,Nothing,-1,2,Assessing Damage,0
-11,R531A.BIN,26,Bluheim,5,3,0,Attack,3,2,None,0,0,Attack,0,-1,None,0
-12,R531A.BIN,26,Bluheim,0,60,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
-13,R531A.BIN,26,Bluheim,-1,0,0,Attack,2,-1,None,0,0,Attack,1,-1,None,0
-14,R531A.BIN,26,Bluheim,3,80,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
-15,R531A.BIN,26,Bluheim,3,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-16,R531A.BIN,26,Bluheim,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-17,R531A.BIN,26,Bluheim,-1,0,0,Attack,2,-1,None,0,0,Attack,2,-1,None,0
-18,R531A.BIN,26,Bluheim,3,50,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
-19,R531A.BIN,26,Bluheim,5,3,0,Attack,3,2,None,0,0,Attack,0,-1,None,0
-20,R531A.BIN,26,Bluheim,3,80,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
-21,R531A.BIN,26,Bluheim,3,40,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-22,R531A.BIN,26,Bluheim,0,20,4,Nothing,-1,2,Assessing Damage,0,0,Attack,1,-1,None,0
-23,R531A.BIN,26,Bluheim,0,15,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
-24,R531A.BIN,26,Bluheim,0,10,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
-25,R531A.BIN,26,Bluheim,-1,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-26,R531A.BIN,26,Bluheim,3,60,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-27,R531A.BIN,26,Bluheim,3,70,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,2,Preparing Attack,0
-28,R531A.BIN,26,Bluheim,-1,0,0,Attack,1,-1,None,0,0,Attack,2,-1,None,0
-29,R531A.BIN,26,Bluheim,3,60,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-30,R531A.BIN,26,Bluheim,3,70,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,2,Preparing Attack,0
-31,R531A.BIN,26,Bluheim,0,10,4,Nothing,-1,2,Assessing Damage,0,0,Attack,1,-1,None,0
-32,R531A.BIN,26,Bluheim,-1,0,0,Attack,1,-1,None,0,0,Attack,2,-1,None,0
-33,R531A.BIN,26,Bluheim,3,60,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-34,R531A.BIN,26,Bluheim,3,70,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,2,Preparing Attack,0
-35,R531A.BIN,26,Bluheim,0,10,4,Nothing,-1,2,Assessing Damage,0,0,Attack,1,-1,None,0
-36,R531A.BIN,26,Bluheim,3,60,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
-37,R531A.BIN,26,Bluheim,0,10,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
-38,R531A.BIN,26,Bluheim,3,75,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-39,R531A.BIN,26,Bluheim,3,20,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
-40,R531A.BIN,26,Bluheim,3,30,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-41,R531A.BIN,26,Bluheim,3,30,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-42,R531A.BIN,26,Bluheim,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-43,R531A.BIN,26,Bluheim,5,3,0,Attack,3,2,None,0,0,Attack,0,-1,None,0
-0,R532A.BIN,37,Alania,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-1,R532A.BIN,37,Alania,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-2,R532A.BIN,37,Alania,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-3,R532A.BIN,37,Alania,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-4,R532A.BIN,37,Alania,3,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-5,R532A.BIN,37,Alania,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-6,R532A.BIN,37,Alania,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-7,R532A.BIN,37,Alania,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-8,R532A.BIN,37,Alania,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-9,R532A.BIN,37,Alania,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-10,R532A.BIN,37,Alania,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-11,R532A.BIN,37,Alania,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-12,R532A.BIN,37,Alania,3,70,0,Attack,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-13,R532A.BIN,37,Alania,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-14,R532A.BIN,37,Alania,3,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-15,R532A.BIN,37,Alania,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-16,R532A.BIN,37,Alania,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-17,R532A.BIN,37,Alania,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-18,R532A.BIN,37,Alania,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-19,R532A.BIN,37,Alania,3,30,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-20,R532A.BIN,37,Alania,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-21,R532A.BIN,37,Alania,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-22,R532A.BIN,37,Alania,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-23,R532A.BIN,37,Alania,3,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-24,R532A.BIN,37,Alania,3,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-25,R532A.BIN,37,Alania,-1,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-26,R532A.BIN,37,Alania,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-27,R532A.BIN,37,Alania,-1,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-0,R550A.BIN,21,Black Pirates,3,80,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
-1,R550A.BIN,21,Black Pirates,4,2,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
-2,R550A.BIN,21,Black Pirates,4,2,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-3,R550A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-4,R550A.BIN,21,Black Pirates,3,70,0,Attack,1,0,None,3,3,Guard,-1,0,Evasive Action,0
-5,R550A.BIN,21,Black Pirates,3,80,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
-6,R550A.BIN,21,Black Pirates,3,70,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-7,R550A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-8,R550A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-9,R550A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-10,R550A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-11,R550A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-12,R550A.BIN,21,Black Pirates,3,98,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-13,R550A.BIN,21,Black Pirates,3,50,2,Focus,-1,0,Focus,0,0,Attack,1,0,None,2
-14,R550A.BIN,21,Black Pirates,3,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-15,R550A.BIN,21,Black Pirates,3,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-0,R551A.BIN,21,Black Pirates,3,80,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
-1,R551A.BIN,21,Black Pirates,4,2,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
-2,R551A.BIN,21,Black Pirates,4,2,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-3,R551A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-4,R551A.BIN,21,Black Pirates,3,70,0,Attack,1,0,None,3,3,Guard,-1,0,Evasive Action,0
-5,R551A.BIN,21,Black Pirates,3,80,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
-6,R551A.BIN,21,Black Pirates,3,70,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-7,R551A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-8,R551A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-9,R551A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-10,R551A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-11,R551A.BIN,21,Black Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-12,R551A.BIN,21,Black Pirates,3,98,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-13,R551A.BIN,21,Black Pirates,3,50,2,Focus,-1,0,Focus,0,0,Attack,1,0,None,2
-14,R551A.BIN,21,Black Pirates,3,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-15,R551A.BIN,21,Black Pirates,3,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-0,R553A.BIN,1,Valuan Spellship,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-1,R553A.BIN,1,Valuan Spellship,-1,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
-2,R553A.BIN,1,Valuan Spellship,3,75,1,Magic,-1,24,Pyres,0,0,Attack,0,-1,None,0
-3,R553A.BIN,1,Valuan Spellship,-1,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-4,R553A.BIN,1,Valuan Spellship,-1,0,0,Attack,0,-1,None,0,-1,None,1,-1,None,0
-5,R553A.BIN,1,Valuan Spellship,3,50,2,Focus,-1,0,Focus,0,0,Attack,1,-1,None,0
-6,R553A.BIN,1,Valuan Spellship,3,50,0,Attack,0,1,None,0,3,Guard,-1,0,Evasive Action,0
-7,R553A.BIN,1,Valuan Spellship,-1,0,1,Magic,-1,24,Pyres,0,-1,None,-1,-1,None,0
-8,R553A.BIN,1,Valuan Spellship,-1,0,1,Magic,-1,24,Pyres,0,-1,None,-1,-1,None,0
-9,R553A.BIN,1,Valuan Spellship,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-10,R553A.BIN,1,Valuan Spellship,3,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
-11,R553A.BIN,1,Valuan Spellship,3,50,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
-12,R553A.BIN,1,Valuan Spellship,3,50,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-13,R553A.BIN,1,Valuan Spellship,3,80,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
-14,R553A.BIN,1,Valuan Spellship,3,65,0,Attack,1,-1,None,1,4,Nothing,-1,0,Awaiting Orders,0
-15,R553A.BIN,1,Valuan Spellship,-1,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
-16,R553A.BIN,1,Valuan Spellship,3,50,2,Focus,-1,-1,None,0,4,Nothing,-1,-1,None,0
-17,R553A.BIN,1,Valuan Spellship,3,40,1,Magic,-1,7,Sacres,0,0,Attack,0,-1,None,0
-18,R553A.BIN,1,Valuan Spellship,3,65,1,Magic,-1,24,Pyres,0,3,Guard,-1,-1,None,0
-19,R553A.BIN,1,Valuan Spellship,3,50,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,0
-0,R554A.BIN,0,Valuan Warship,3,50,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,0,-1,None,0
-1,R554A.BIN,0,Valuan Warship,-1,0,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
-2,R554A.BIN,0,Valuan Warship,3,70,2,Focus,-1,0,Focus,0,3,Guard,-1,-1,None,0
-3,R554A.BIN,0,Valuan Warship,1,20,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,0,-1,None,0
-4,R554A.BIN,0,Valuan Warship,3,85,0,Attack,0,-1,None,0,0,Attack,1,-1,None,1
-5,R554A.BIN,0,Valuan Warship,-1,0,0,Attack,1,-1,None,1,0,Attack,1,-1,None,1
-6,R554A.BIN,0,Valuan Warship,-1,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,0,Awaiting Orders,0
-7,R554A.BIN,0,Valuan Warship,1,40,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,0,-1,None,0
-8,R554A.BIN,0,Valuan Warship,-1,0,0,Attack,1,-1,None,3,0,Attack,1,-1,None,3
-9,R554A.BIN,0,Valuan Warship,3,85,0,Attack,0,-1,None,0,0,Attack,1,-1,None,1
-10,R554A.BIN,0,Valuan Warship,3,20,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
-11,R554A.BIN,0,Valuan Warship,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-12,R554A.BIN,0,Valuan Warship,3,70,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-13,R554A.BIN,0,Valuan Warship,3,50,0,Attack,1,-1,None,2,0,Attack,1,-1,None,1
-14,R554A.BIN,0,Valuan Warship,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-15,R554A.BIN,0,Valuan Warship,3,20,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
-16,R554A.BIN,0,Valuan Warship,-1,0,4,Nothing,-1,0,Awaiting Orders,0,4,Nothing,-1,0,Awaiting Orders,0
-17,R554A.BIN,0,Valuan Warship,-1,0,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
-18,R554A.BIN,0,Valuan Warship,3,80,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-19,R554A.BIN,0,Valuan Warship,3,80,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-20,R554A.BIN,0,Valuan Warship,3,80,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-21,R554A.BIN,0,Valuan Warship,3,50,0,Attack,1,-1,None,2,0,Attack,1,-1,None,1
-22,R554A.BIN,0,Valuan Warship,3,30,3,Guard,-1,-1,None,0,2,Focus,-1,0,Focus,0
-23,R554A.BIN,0,Valuan Warship,3,70,2,Focus,-1,0,Focus,0,3,Guard,-1,-1,None,0
-0,R555A.BIN,1,Valuan Spellship,-1,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
-1,R555A.BIN,1,Valuan Spellship,1,30,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,1,-1,None,2
-2,R555A.BIN,1,Valuan Spellship,3,70,2,Focus,-1,0,Focus,0,3,Guard,-1,-1,None,0
-3,R555A.BIN,1,Valuan Spellship,-1,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
-4,R555A.BIN,1,Valuan Spellship,-1,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
-5,R555A.BIN,1,Valuan Spellship,3,40,1,Magic,0,0,Increm,0,0,Attack,1,-1,None,1
-6,R555A.BIN,1,Valuan Spellship,-1,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,0,Awaiting Orders,0
-7,R555A.BIN,1,Valuan Spellship,-1,0,4,Nothing,-1,0,Awaiting Orders,0,4,Nothing,-1,0,Awaiting Orders,0
-8,R555A.BIN,1,Valuan Spellship,-1,0,0,Attack,1,-1,None,1,0,Attack,1,-1,None,2
-9,R555A.BIN,1,Valuan Spellship,3,70,2,Focus,-1,0,Focus,0,3,Guard,-1,-1,None,0
-10,R555A.BIN,1,Valuan Spellship,3,80,1,Magic,0,0,Increm,0,0,Attack,1,-1,None,1
-11,R555A.BIN,1,Valuan Spellship,-1,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
-12,R555A.BIN,1,Valuan Spellship,3,50,0,Attack,1,-1,None,2,1,Magic,0,24,Pyres,0
-13,R555A.BIN,1,Valuan Spellship,-1,0,4,Nothing,-1,0,Awaiting Orders,0,4,Nothing,-1,0,Awaiting Orders,0
-14,R555A.BIN,1,Valuan Spellship,-1,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
-15,R555A.BIN,1,Valuan Spellship,3,20,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
-16,R555A.BIN,1,Valuan Spellship,1,20,1,Magic,0,6,Sacri,0,3,Guard,-1,-1,None,0
-17,R555A.BIN,1,Valuan Spellship,3,50,0,Attack,1,-1,None,2,1,Magic,0,24,Pyres,0
-18,R555A.BIN,1,Valuan Spellship,-1,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
-19,R555A.BIN,1,Valuan Spellship,3,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,0,24,Pyres,0
-20,R555A.BIN,1,Valuan Spellship,1,40,1,Magic,0,6,Sacri,0,3,Guard,-1,-1,None,0
-21,R555A.BIN,1,Valuan Spellship,-1,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
-22,R555A.BIN,1,Valuan Spellship,3,30,3,Guard,-1,-1,None,0,2,Focus,-1,0,Focus,0
-23,R555A.BIN,1,Valuan Spellship,-1,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
-0,R556A.BIN,3,Valuan Phantom,0,50,4,Nothing,-1,-1,None,0,1,Magic,-1,23,Pyri,0
-1,R556A.BIN,3,Valuan Phantom,0,20,4,Nothing,-1,-1,None,0,1,Magic,-1,23,Pyri,0
-2,R556A.BIN,3,Valuan Phantom,3,30,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
-3,R556A.BIN,3,Valuan Phantom,3,10,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,0
-4,R556A.BIN,3,Valuan Phantom,0,20,4,Nothing,-1,-1,None,0,1,Magic,-1,23,Pyri,0
-5,R556A.BIN,3,Valuan Phantom,1,40,1,Magic,-1,6,Sacri,0,0,Attack,0,-1,None,0
-6,R556A.BIN,3,Valuan Phantom,3,30,3,Guard,-1,0,Evasive Action,0,4,Nothing,-1,-1,None,0
-7,R556A.BIN,3,Valuan Phantom,3,30,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,23,Pyri,0
-8,R556A.BIN,3,Valuan Phantom,1,20,1,Magic,-1,6,Sacri,0,0,Attack,1,-1,None,3
-9,R556A.BIN,3,Valuan Phantom,1,10,1,Magic,-1,6,Sacri,0,1,Magic,-1,23,Pyri,0
-10,R556A.BIN,3,Valuan Phantom,3,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
-11,R556A.BIN,3,Valuan Phantom,1,10,1,Magic,-1,6,Sacri,0,1,Magic,-1,23,Pyri,0
-12,R556A.BIN,3,Valuan Phantom,3,50,0,Attack,1,-1,None,2,2,Focus,-1,0,Focus,0
-13,R556A.BIN,3,Valuan Phantom,1,30,3,Guard,-1,0,Evasive Action,0,4,Nothing,-1,-1,None,0
-14,R556A.BIN,3,Valuan Phantom,3,30,1,Magic,-1,6,Sacri,0,2,Focus,-1,0,Focus,0
-15,R556A.BIN,3,Valuan Phantom,3,50,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
-0,R557A.BIN,4,Valuan Gunboat,0,50,0,Attack,2,-1,None,2,2,Focus,-1,-1,None,0
-1,R557A.BIN,4,Valuan Gunboat,4,0,0,Attack,1,-1,None,1,2,Focus,-1,-1,None,0
-2,R557A.BIN,4,Valuan Gunboat,3,50,2,Focus,-1,-1,None,0,4,Nothing,-1,-1,None,0
-3,R557A.BIN,4,Valuan Gunboat,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-4,R557A.BIN,4,Valuan Gunboat,2,2,0,Attack,2,-1,None,1,4,Nothing,-1,-1,None,-1
-5,R557A.BIN,4,Valuan Gunboat,3,30,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
-6,R557A.BIN,4,Valuan Gunboat,4,2,0,Attack,0,-1,None,0,4,Nothing,-1,-1,None,-1
-7,R557A.BIN,4,Valuan Gunboat,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-8,R557A.BIN,4,Valuan Gunboat,3,30,0,Attack,1,-1,None,2,2,Focus,-1,-1,None,0
-9,R557A.BIN,4,Valuan Gunboat,-1,0,0,Attack,0,-1,None,0,4,Nothing,-1,-1,None,0
-10,R557A.BIN,4,Valuan Gunboat,0,2,4,Nothing,-1,-1,None,-1,4,Nothing,-1,-1,None,-1
-11,R557A.BIN,4,Valuan Gunboat,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-12,R557A.BIN,4,Valuan Gunboat,-1,0,0,Attack,1,-1,None,0,4,Nothing,-1,-1,None,-1
-13,R557A.BIN,4,Valuan Gunboat,3,30,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
-14,R557A.BIN,4,Valuan Gunboat,4,2,0,Attack,1,-1,None,0,4,Nothing,-1,-1,None,-1
-15,R557A.BIN,4,Valuan Gunboat,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-16,R557A.BIN,4,Valuan Gunboat,-1,0,0,Attack,1,-1,None,0,4,Nothing,-1,-1,None,-1
-17,R557A.BIN,4,Valuan Gunboat,3,30,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
-18,R557A.BIN,4,Valuan Gunboat,4,2,0,Attack,0,-1,None,0,4,Nothing,-1,-1,None,-1
-19,R557A.BIN,4,Valuan Gunboat,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-20,R557A.BIN,4,Valuan Gunboat,-1,0,0,Attack,1,-1,None,0,4,Nothing,-1,-1,None,-1
-21,R557A.BIN,4,Valuan Gunboat,3,30,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
-22,R557A.BIN,4,Valuan Gunboat,4,2,0,Attack,0,-1,None,0,4,Nothing,-1,-1,None,-1
-23,R557A.BIN,4,Valuan Gunboat,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-24,R557A.BIN,4,Valuan Gunboat,-1,0,0,Attack,1,-1,None,0,4,Nothing,-1,-1,None,-1
-25,R557A.BIN,4,Valuan Gunboat,3,30,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
-26,R557A.BIN,4,Valuan Gunboat,4,2,0,Attack,0,-1,None,0,4,Nothing,-1,-1,None,-1
-27,R557A.BIN,4,Valuan Gunboat,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-28,R557A.BIN,4,Valuan Gunboat,-1,0,0,Attack,1,-1,None,0,4,Nothing,-1,-1,None,-1
-29,R557A.BIN,4,Valuan Gunboat,3,30,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
-30,R557A.BIN,4,Valuan Gunboat,4,2,0,Attack,0,-1,None,0,4,Nothing,-1,-1,None,-1
-31,R557A.BIN,4,Valuan Gunboat,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-0,R558A.BIN,4,Valuan Gunboat,3,50,0,Attack,2,-1,None,2,2,Focus,-1,-1,None,0
-1,R558A.BIN,4,Valuan Gunboat,4,2,0,Attack,2,-1,None,2,2,Focus,-1,-1,None,0
-2,R558A.BIN,4,Valuan Gunboat,4,2,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-3,R558A.BIN,4,Valuan Gunboat,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-4,R558A.BIN,4,Valuan Gunboat,3,50,2,Focus,-1,-1,None,0,3,Guard,-1,-1,None,0
-5,R558A.BIN,4,Valuan Gunboat,3,50,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
-6,R558A.BIN,4,Valuan Gunboat,3,50,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
-7,R558A.BIN,4,Valuan Gunboat,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-8,R558A.BIN,4,Valuan Gunboat,3,50,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
-9,R558A.BIN,4,Valuan Gunboat,3,50,2,Focus,-1,-1,None,0,3,Guard,-1,-1,None,0
-10,R558A.BIN,4,Valuan Gunboat,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-11,R558A.BIN,4,Valuan Gunboat,3,50,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
-12,R558A.BIN,4,Valuan Gunboat,3,50,0,Attack,1,-1,None,0,0,Attack,2,-1,None,1
-13,R558A.BIN,4,Valuan Gunboat,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-14,R558A.BIN,4,Valuan Gunboat,3,50,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-15,R558A.BIN,4,Valuan Gunboat,3,50,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-0,R559A.BIN,22,Spell Pirates,-1,0,0,Attack,1,-1,None,3,0,Attack,-1,-1,None,0
-1,R559A.BIN,22,Spell Pirates,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,2
-2,R559A.BIN,22,Spell Pirates,3,70,1,Magic,-1,25,Pyrum,0,2,Focus,-1,-1,None,0
-3,R559A.BIN,22,Spell Pirates,-1,0,3,Guard,-1,0,Evasive Action,0,0,Attack,-1,-1,None,0
-4,R559A.BIN,22,Spell Pirates,3,50,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
-5,R559A.BIN,22,Spell Pirates,3,65,1,Magic,-1,25,Pyrum,0,1,Magic,-1,6,Sacri,0
-6,R559A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-7,R559A.BIN,22,Spell Pirates,-1,0,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
-8,R559A.BIN,22,Spell Pirates,3,35,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
-9,R559A.BIN,22,Spell Pirates,3,50,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
-10,R559A.BIN,22,Spell Pirates,-1,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
-11,R559A.BIN,22,Spell Pirates,3,80,0,Attack,0,-1,None,0,1,Magic,-1,25,Pyrum,0
-12,R559A.BIN,22,Spell Pirates,3,80,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-13,R559A.BIN,22,Spell Pirates,3,50,0,Attack,1,-1,None,2,4,Nothing,-1,0,Awaiting Orders,0
-14,R559A.BIN,22,Spell Pirates,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,1
-15,R559A.BIN,22,Spell Pirates,-1,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-16,R559A.BIN,22,Spell Pirates,3,50,0,Attack,1,-1,None,1,0,Attack,1,-1,None,2
-17,R559A.BIN,22,Spell Pirates,3,50,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-18,R559A.BIN,22,Spell Pirates,-1,0,1,Magic,-1,25,Pyrum,0,-1,None,-1,-1,None,0
-19,R559A.BIN,22,Spell Pirates,-1,0,1,Magic,-1,25,Pyrum,0,-1,None,-1,-1,None,0
-20,R559A.BIN,22,Spell Pirates,-1,0,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
-21,R559A.BIN,22,Spell Pirates,-1,0,0,Attack,1,0,None,1,-1,None,-1,-1,None,0
-22,R559A.BIN,22,Spell Pirates,3,41,4,Nothing,0,-1,None,0,2,Focus,-1,-1,None,0
-23,R559A.BIN,22,Spell Pirates,-1,0,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
-0,R560A.BIN,1,Valuan Spellship,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-1,R560A.BIN,1,Valuan Spellship,-1,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
-2,R560A.BIN,1,Valuan Spellship,3,75,1,Magic,-1,24,Pyres,0,0,Attack,0,-1,None,0
-3,R560A.BIN,1,Valuan Spellship,-1,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-4,R560A.BIN,1,Valuan Spellship,-1,0,0,Attack,0,-1,None,0,-1,None,1,-1,None,0
-5,R560A.BIN,1,Valuan Spellship,3,50,2,Focus,-1,0,Focus,0,0,Attack,1,-1,None,0
-6,R560A.BIN,1,Valuan Spellship,3,50,0,Attack,0,1,None,0,3,Guard,-1,0,Evasive Action,0
-7,R560A.BIN,1,Valuan Spellship,-1,0,1,Magic,-1,24,Pyres,0,-1,None,-1,-1,None,0
-8,R560A.BIN,1,Valuan Spellship,-1,0,1,Magic,-1,24,Pyres,0,-1,None,-1,-1,None,0
-9,R560A.BIN,1,Valuan Spellship,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-10,R560A.BIN,1,Valuan Spellship,3,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
-11,R560A.BIN,1,Valuan Spellship,3,50,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
-12,R560A.BIN,1,Valuan Spellship,3,50,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-13,R560A.BIN,1,Valuan Spellship,3,80,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
-14,R560A.BIN,1,Valuan Spellship,3,65,0,Attack,1,-1,None,1,4,Nothing,-1,0,Awaiting Orders,0
-15,R560A.BIN,1,Valuan Spellship,-1,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
-16,R560A.BIN,1,Valuan Spellship,3,50,2,Focus,-1,-1,None,0,4,Nothing,-1,-1,None,0
-17,R560A.BIN,1,Valuan Spellship,3,40,1,Magic,-1,7,Sacres,0,0,Attack,0,-1,None,0
-18,R560A.BIN,1,Valuan Spellship,3,65,1,Magic,-1,24,Pyres,0,3,Guard,-1,-1,None,0
-19,R560A.BIN,1,Valuan Spellship,3,50,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,0
-0,R562A.BIN,4,Valuan Gunboat,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-1,R562A.BIN,4,Valuan Gunboat,3,80,0,Attack,1,-1,None,1,4,Nothing,0,0,Awaiting Orders,0
-2,R562A.BIN,4,Valuan Gunboat,-1,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
-3,R562A.BIN,4,Valuan Gunboat,3,50,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
-4,R562A.BIN,4,Valuan Gunboat,-1,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
-5,R562A.BIN,4,Valuan Gunboat,3,80,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-6,R562A.BIN,4,Valuan Gunboat,3,50,0,Attack,1,-1,None,2,4,Nothing,-1,0,Awaiting Orders,0
-7,R562A.BIN,4,Valuan Gunboat,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-8,R562A.BIN,4,Valuan Gunboat,3,80,0,Attack,2,-1,None,3,2,Focus,-1,0,Focus,0
-9,R562A.BIN,4,Valuan Gunboat,3,30,0,Attack,1,-1,None,1,3,Guard,0,0,Evasive Action,0
-10,R562A.BIN,4,Valuan Gunboat,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-11,R562A.BIN,4,Valuan Gunboat,3,30,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-12,R562A.BIN,4,Valuan Gunboat,-1,0,0,Attack,2,-1,None,1,0,Attack,-1,-1,None,0
-13,R562A.BIN,4,Valuan Gunboat,-1,0,0,Attack,2,-1,None,2,0,Attack,-1,-1,None,0
-14,R562A.BIN,4,Valuan Gunboat,3,50,0,Attack,0,-1,None,0,2,Focus,0,-1,None,0
-15,R562A.BIN,4,Valuan Gunboat,3,30,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-0,R563A.BIN,5,Valuan Mage Ship,1,99,2,Focus,-1,0,Focus,0,1,Magic,-1,13,Quika,0
-1,R563A.BIN,5,Valuan Mage Ship,3,50,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,Crystales,0
-2,R563A.BIN,5,Valuan Mage Ship,3,50,2,Focus,-1,0,Focus,0,1,Magic,-1,34,Electrum,0
-3,R563A.BIN,5,Valuan Mage Ship,3,50,0,Attack,0,-1,None,0,1,Magic,-1,27,Crystales,0
-4,R563A.BIN,5,Valuan Mage Ship,3,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,Electrum,0
-5,R563A.BIN,5,Valuan Mage Ship,-1,0,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,Crystales,0
-6,R563A.BIN,5,Valuan Mage Ship,3,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,Electrum,0
-7,R563A.BIN,5,Valuan Mage Ship,0,90,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,4,Driln,0
-8,R563A.BIN,5,Valuan Mage Ship,3,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,Crystales,0
-9,R563A.BIN,5,Valuan Mage Ship,3,50,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,34,Electrum,0
-10,R563A.BIN,5,Valuan Mage Ship,3,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,Crystales,0
-11,R563A.BIN,5,Valuan Mage Ship,3,50,2,Focus,-1,0,Focus,0,1,Magic,-1,34,Electrum,0
-12,R563A.BIN,5,Valuan Mage Ship,3,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,Crystales,0
-13,R563A.BIN,5,Valuan Mage Ship,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-14,R563A.BIN,5,Valuan Mage Ship,3,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,Electrum,0
-15,R563A.BIN,5,Valuan Mage Ship,1,40,1,Magic,-1,4,Driln,0,1,Magic,-1,27,Crystales,0
-16,R563A.BIN,5,Valuan Mage Ship,3,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,Electrum,0
-17,R563A.BIN,5,Valuan Mage Ship,3,50,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,Crystales,0
-18,R563A.BIN,5,Valuan Mage Ship,3,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,Electrum,0
-19,R563A.BIN,5,Valuan Mage Ship,1,40,1,Magic,-1,13,Quika,0,1,Magic,-1,27,Crystales,0
-0,R564A.BIN,1,Valuan Spellship,3,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-1,R564A.BIN,1,Valuan Spellship,-1,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
-2,R564A.BIN,1,Valuan Spellship,3,75,1,Magic,-1,24,Pyres,0,0,Attack,0,-1,None,0
-3,R564A.BIN,1,Valuan Spellship,-1,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-4,R564A.BIN,1,Valuan Spellship,-1,0,0,Attack,0,-1,None,0,-1,None,1,-1,None,0
-5,R564A.BIN,1,Valuan Spellship,3,50,2,Focus,-1,0,Focus,0,0,Attack,1,-1,None,0
-6,R564A.BIN,1,Valuan Spellship,3,50,0,Attack,0,1,None,0,3,Guard,-1,0,Evasive Action,0
-7,R564A.BIN,1,Valuan Spellship,-1,0,1,Magic,-1,24,Pyres,0,-1,None,-1,-1,None,0
-8,R564A.BIN,1,Valuan Spellship,-1,0,1,Magic,-1,24,Pyres,0,-1,None,-1,-1,None,0
-9,R564A.BIN,1,Valuan Spellship,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-10,R564A.BIN,1,Valuan Spellship,3,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
-11,R564A.BIN,1,Valuan Spellship,3,50,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
-12,R564A.BIN,1,Valuan Spellship,3,50,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-13,R564A.BIN,1,Valuan Spellship,3,80,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
-14,R564A.BIN,1,Valuan Spellship,3,65,0,Attack,1,-1,None,1,4,Nothing,-1,0,Awaiting Orders,0
-15,R564A.BIN,1,Valuan Spellship,-1,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
-16,R564A.BIN,1,Valuan Spellship,3,50,2,Focus,-1,-1,None,0,4,Nothing,-1,-1,None,0
-17,R564A.BIN,1,Valuan Spellship,3,40,1,Magic,-1,7,Sacres,0,0,Attack,0,-1,None,0
-18,R564A.BIN,1,Valuan Spellship,3,65,1,Magic,-1,24,Pyres,0,3,Guard,-1,-1,None,0
-19,R564A.BIN,1,Valuan Spellship,3,50,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,0
-0,R565A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
-1,R565A.BIN,22,Spell Pirates,3,20,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
-2,R565A.BIN,22,Spell Pirates,3,80,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-3,R565A.BIN,22,Spell Pirates,4,2,1,Magic,-1,6,Sacri,0,0,Attack,0,-1,None,0
-4,R565A.BIN,22,Spell Pirates,3,70,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
-5,R565A.BIN,22,Spell Pirates,3,85,1,Magic,0,25,Pyrum,0,1,Magic,-1,6,Sacri,0
-6,R565A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-7,R565A.BIN,22,Spell Pirates,-1,0,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
-8,R565A.BIN,22,Spell Pirates,-1,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-9,R565A.BIN,22,Spell Pirates,-1,0,1,Magic,0,25,Pyrum,1,-1,None,-1,-1,None,0
-10,R565A.BIN,22,Spell Pirates,-1,0,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
-11,R565A.BIN,22,Spell Pirates,3,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-12,R565A.BIN,22,Spell Pirates,-1,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
-13,R565A.BIN,22,Spell Pirates,-1,0,0,Attack,1,-1,None,2,4,Nothing,-1,-1,None,0
-14,R565A.BIN,22,Spell Pirates,-1,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-15,R565A.BIN,22,Spell Pirates,-1,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-16,R565A.BIN,22,Spell Pirates,3,50,0,Attack,1,-1,None,2,0,Attack,1,-1,None,3
-17,R565A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-18,R565A.BIN,22,Spell Pirates,-1,0,1,Magic,0,25,Pyrum,0,-1,None,-1,-1,None,0
-19,R565A.BIN,22,Spell Pirates,-1,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-20,R565A.BIN,22,Spell Pirates,-1,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
-21,R565A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
-22,R565A.BIN,22,Spell Pirates,-1,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-23,R565A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-0,R566A.BIN,7,Valuan Spectre,3,50,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
-1,R566A.BIN,7,Valuan Spectre,1,30,0,Attack,0,-1,None,0,1,Magic,-1,27,Crystales,0
-2,R566A.BIN,7,Valuan Spectre,1,30,0,Attack,1,-1,None,0,1,Magic,-1,34,Electrum,0
-3,R566A.BIN,7,Valuan Spectre,1,30,1,Magic,-1,6,Sacri,0,2,Focus,-1,0,Focus,0
-4,R566A.BIN,7,Valuan Spectre,-1,0,1,Magic,-1,34,Electrum,0,1,Magic,-1,34,Electrum,0
-5,R566A.BIN,7,Valuan Spectre,-1,0,1,Magic,-1,34,Electrum,0,1,Magic,-1,34,Electrum,0
-6,R566A.BIN,7,Valuan Spectre,1,30,0,Attack,0,-1,None,0,1,Magic,-1,27,Crystales,0
-7,R566A.BIN,7,Valuan Spectre,1,30,0,Attack,0,-1,None,0,1,Magic,-1,34,Electrum,0
-8,R566A.BIN,7,Valuan Spectre,3,10,1,Magic,-1,13,Quika,0,2,Focus,-1,0,Focus,0
-9,R566A.BIN,7,Valuan Spectre,-1,0,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,Crystales,0
-10,R566A.BIN,7,Valuan Spectre,-1,0,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
-11,R566A.BIN,7,Valuan Spectre,1,30,0,Attack,0,-1,None,0,1,Magic,-1,34,Electrum,0
-12,R566A.BIN,7,Valuan Spectre,1,30,0,Attack,0,-1,None,0,1,Magic,-1,27,Crystales,0
-13,R566A.BIN,7,Valuan Spectre,1,30,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
-14,R566A.BIN,7,Valuan Spectre,1,30,2,Focus,-1,0,Focus,0,1,Magic,-1,34,Electrum,0
-15,R566A.BIN,7,Valuan Spectre,1,30,0,Attack,0,-1,None,0,1,Magic,-1,34,Electrum,0
-0,R568A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
-1,R568A.BIN,22,Spell Pirates,3,20,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
-2,R568A.BIN,22,Spell Pirates,3,80,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-3,R568A.BIN,22,Spell Pirates,4,2,1,Magic,-1,6,Sacri,0,0,Attack,0,-1,None,0
-4,R568A.BIN,22,Spell Pirates,3,70,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
-5,R568A.BIN,22,Spell Pirates,3,85,1,Magic,0,25,Pyrum,0,1,Magic,-1,6,Sacri,0
-6,R568A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-7,R568A.BIN,22,Spell Pirates,-1,0,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
-8,R568A.BIN,22,Spell Pirates,-1,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-9,R568A.BIN,22,Spell Pirates,-1,0,1,Magic,0,25,Pyrum,1,-1,None,-1,-1,None,0
-10,R568A.BIN,22,Spell Pirates,-1,0,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
-11,R568A.BIN,22,Spell Pirates,3,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-12,R568A.BIN,22,Spell Pirates,-1,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
-13,R568A.BIN,22,Spell Pirates,-1,0,0,Attack,1,-1,None,2,4,Nothing,-1,-1,None,0
-14,R568A.BIN,22,Spell Pirates,-1,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-15,R568A.BIN,22,Spell Pirates,-1,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-16,R568A.BIN,22,Spell Pirates,3,50,0,Attack,1,-1,None,2,0,Attack,1,-1,None,3
-17,R568A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-18,R568A.BIN,22,Spell Pirates,-1,0,1,Magic,0,25,Pyrum,0,-1,None,-1,-1,None,0
-19,R568A.BIN,22,Spell Pirates,-1,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-20,R568A.BIN,22,Spell Pirates,-1,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
-21,R568A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
-22,R568A.BIN,22,Spell Pirates,-1,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-23,R568A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-0,R572A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
-1,R572A.BIN,22,Spell Pirates,3,20,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
-2,R572A.BIN,22,Spell Pirates,3,80,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-3,R572A.BIN,22,Spell Pirates,4,2,1,Magic,-1,6,Sacri,0,0,Attack,0,-1,None,0
-4,R572A.BIN,22,Spell Pirates,3,70,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
-5,R572A.BIN,22,Spell Pirates,3,85,1,Magic,0,25,Pyrum,0,1,Magic,-1,6,Sacri,0
-6,R572A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-7,R572A.BIN,22,Spell Pirates,-1,0,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
-8,R572A.BIN,22,Spell Pirates,-1,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-9,R572A.BIN,22,Spell Pirates,-1,0,1,Magic,0,25,Pyrum,1,-1,None,-1,-1,None,0
-10,R572A.BIN,22,Spell Pirates,-1,0,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
-11,R572A.BIN,22,Spell Pirates,3,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-12,R572A.BIN,22,Spell Pirates,-1,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
-13,R572A.BIN,22,Spell Pirates,-1,0,0,Attack,1,-1,None,2,4,Nothing,-1,-1,None,0
-14,R572A.BIN,22,Spell Pirates,-1,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-15,R572A.BIN,22,Spell Pirates,-1,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-16,R572A.BIN,22,Spell Pirates,3,50,0,Attack,1,-1,None,2,0,Attack,1,-1,None,3
-17,R572A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-18,R572A.BIN,22,Spell Pirates,-1,0,1,Magic,0,25,Pyrum,0,-1,None,-1,-1,None,0
-19,R572A.BIN,22,Spell Pirates,-1,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-20,R572A.BIN,22,Spell Pirates,-1,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
-21,R572A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
-22,R572A.BIN,22,Spell Pirates,-1,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-23,R572A.BIN,22,Spell Pirates,-1,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+Entry ID,[Filter],[Enemy Ship ID],[Enemy Ship Name],Task Cond. ID,[Task Cond. Name],Task Rating,Task 1 Type ID,[Task 1 Type Name],Task 1 Arm. ID,Task 1 Param. ID,[Task 1 Param. Name],Task 1 Arm. Range,Task 2 Type ID,[Task 2 Type Name],Task 2 Arm. ID,Task 2 Param. ID,[Task 2 Param. Name],Task 2 Arm. Range
+0,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+1,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+2,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+3,R500A.BIN,23,Blackbeard,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+4,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+5,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+6,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+7,R500A.BIN,23,Blackbeard,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+8,R500A.BIN,23,Blackbeard,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+9,R500A.BIN,23,Blackbeard,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+10,R500A.BIN,23,Blackbeard,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+11,R500A.BIN,23,Blackbeard,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+12,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+13,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+14,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R500A.BIN,23,Blackbeard,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+16,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+17,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+18,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+19,R500A.BIN,23,Blackbeard,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+0,R501A.BIN,2,Valuan Cruiser,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+1,R501A.BIN,2,Valuan Cruiser,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+2,R501A.BIN,2,Valuan Cruiser,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+3,R501A.BIN,2,Valuan Cruiser,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+4,R501A.BIN,2,Valuan Cruiser,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+5,R501A.BIN,2,Valuan Cruiser,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+6,R501A.BIN,2,Valuan Cruiser,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+7,R501A.BIN,2,Valuan Cruiser,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+0,R503A.BIN,21,Black Pirates,3,???,20,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
+1,R503A.BIN,21,Black Pirates,3,???,20,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
+2,R503A.BIN,21,Black Pirates,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+3,R503A.BIN,21,Black Pirates,0,???,50,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
+4,R503A.BIN,21,Black Pirates,3,???,40,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
+5,R503A.BIN,21,Black Pirates,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+6,R503A.BIN,21,Black Pirates,1,???,95,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+7,R503A.BIN,21,Black Pirates,-1,???,0,3,Guard,-1,0,Evasive Action,0,3,Guard,-1,0,Evasive Action,0
+8,R503A.BIN,21,Black Pirates,3,???,70,0,Attack,1,-1,None,1,0,Attack,1,-1,None,1
+9,R503A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+10,R503A.BIN,21,Black Pirates,30,???,20,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
+11,R503A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+12,R503A.BIN,21,Black Pirates,3,???,80,0,Attack,1,-1,None,2,2,Focus,-1,0,Focus,0
+13,R503A.BIN,21,Black Pirates,3,???,50,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
+14,R503A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R503A.BIN,21,Black Pirates,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+16,R503A.BIN,21,Black Pirates,3,???,30,2,Focus,-1,0,Focus,0,0,Attack,1,-1,None,2
+17,R503A.BIN,21,Black Pirates,3,???,50,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
+18,R503A.BIN,21,Black Pirates,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,4,Nothing,-1,0,Awaiting Orders,0
+19,R503A.BIN,21,Black Pirates,3,???,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+20,R503A.BIN,21,Black Pirates,3,???,20,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,3
+21,R503A.BIN,21,Black Pirates,3,???,90,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+22,R503A.BIN,21,Black Pirates,3,???,30,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,0,-1,None,0
+23,R503A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+24,R503A.BIN,21,Black Pirates,3,???,20,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+25,R503A.BIN,21,Black Pirates,3,???,50,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
+26,R503A.BIN,21,Black Pirates,-1,???,0,0,Attack,1,-1,None,3,0,Attack,2,-1,None,3
+27,R503A.BIN,21,Black Pirates,1,???,80,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+28,R503A.BIN,21,Black Pirates,3,???,20,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
+29,R503A.BIN,21,Black Pirates,-1,???,0,0,Attack,1,-1,None,3,0,Attack,1,-1,None,3
+30,R503A.BIN,21,Black Pirates,1,???,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+31,R503A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+0,R506A.BIN,24,Recumen,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+1,R506A.BIN,24,Recumen,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+2,R506A.BIN,24,Recumen,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+3,R506A.BIN,24,Recumen,9,???,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
+4,R506A.BIN,24,Recumen,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+5,R506A.BIN,24,Recumen,9,???,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
+6,R506A.BIN,24,Recumen,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+7,R506A.BIN,24,Recumen,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+8,R506A.BIN,24,Recumen,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+9,R506A.BIN,24,Recumen,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+10,R506A.BIN,24,Recumen,9,???,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
+11,R506A.BIN,24,Recumen,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+12,R506A.BIN,24,Recumen,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+13,R506A.BIN,24,Recumen,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+14,R506A.BIN,24,Recumen,9,???,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
+15,R506A.BIN,24,Recumen,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+16,R506A.BIN,24,Recumen,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+17,R506A.BIN,24,Recumen,9,???,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
+18,R506A.BIN,24,Recumen,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+19,R506A.BIN,24,Recumen,9,???,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
+20,R506A.BIN,24,Recumen,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+21,R506A.BIN,24,Recumen,9,???,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
+22,R506A.BIN,24,Recumen,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+23,R506A.BIN,24,Recumen,9,???,0,4,Nothing,-1,4,Red Ray,0,0,Attack,0,-1,None,0
+0,R507A.BIN,11,Lynx,-1,???,0,1,Magic,-1,0,Increm,0,0,Attack,0,-1,None,0
+1,R507A.BIN,11,Lynx,-1,???,0,1,Magic,-1,23,Pyri,0,0,Attack,0,-1,None,0
+2,R507A.BIN,11,Lynx,-1,???,0,2,Focus,-1,1,Taking Aim,0,0,Attack,0,-1,None,0
+3,R507A.BIN,11,Lynx,0,???,50,1,Magic,-1,23,Pyri,0,1,Magic,-1,22,Wevlen,0
+4,R507A.BIN,11,Lynx,1,???,50,0,Attack,0,-1,None,0,1,Magic,-1,23,Pyri,0
+5,R507A.BIN,11,Lynx,-1,???,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
+6,R507A.BIN,11,Lynx,1,???,50,0,Attack,0,-1,None,0,1,Magic,-1,22,Wevlen,0
+7,R507A.BIN,11,Lynx,-1,???,0,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
+8,R507A.BIN,11,Lynx,-1,???,0,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
+9,R507A.BIN,11,Lynx,-1,???,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
+10,R507A.BIN,11,Lynx,1,???,50,0,Attack,0,-1,None,0,1,Magic,-1,22,Wevlen,0
+11,R507A.BIN,11,Lynx,1,???,30,1,Magic,-1,6,Sacri,0,3,Guard,-1,-1,None,0
+12,R507A.BIN,11,Lynx,-1,???,0,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
+13,R507A.BIN,11,Lynx,-1,???,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
+14,R507A.BIN,11,Lynx,1,???,50,0,Attack,0,-1,None,0,1,Magic,-1,22,Wevlen,0
+15,R507A.BIN,11,Lynx,1,???,30,1,Magic,-1,6,Sacri,0,1,Magic,-1,0,Increm,0
+16,R507A.BIN,11,Lynx,-1,???,0,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
+17,R507A.BIN,11,Lynx,-1,???,0,4,Nothing,-1,1,Target Lost,0,0,Attack,0,-1,None,0
+18,R507A.BIN,11,Lynx,-1,???,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
+19,R507A.BIN,11,Lynx,1,???,50,0,Attack,0,-1,None,0,1,Magic,-1,23,Pyri,0
+20,R507A.BIN,11,Lynx,1,???,30,1,Magic,-1,6,Sacri,0,1,Magic,-1,0,Increm,0
+21,R507A.BIN,11,Lynx,-1,???,0,0,Attack,2,-1,None,2,0,Attack,0,-1,None,0
+22,R507A.BIN,11,Lynx,-1,???,0,0,Attack,1,-1,None,1,0,Attack,0,-1,None,0
+23,R507A.BIN,11,Lynx,1,???,50,0,Attack,0,-1,None,0,1,Magic,-1,23,Pyri,0
+24,R507A.BIN,11,Lynx,-1,???,0,2,Focus,-1,1,Taking Aim,0,0,Attack,0,-1,None,0
+25,R507A.BIN,11,Lynx,-1,???,0,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
+26,R507A.BIN,11,Lynx,-1,???,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
+27,R507A.BIN,11,Lynx,1,???,50,0,Attack,0,-1,None,0,1,Magic,-1,22,Wevlen,0
+28,R507A.BIN,11,Lynx,-1,???,0,2,Focus,-1,1,Taking Aim,0,0,Attack,0,-1,None,0
+29,R507A.BIN,11,Lynx,-1,???,0,0,Attack,2,-1,None,2,0,Attack,0,-1,None,0
+30,R507A.BIN,11,Lynx,-1,???,0,0,Attack,1,-1,None,1,0,Attack,0,-1,None,0
+31,R507A.BIN,11,Lynx,1,???,50,0,Attack,0,-1,None,0,1,Magic,-1,22,Wevlen,0
+32,R507A.BIN,11,Lynx,-1,???,0,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
+33,R507A.BIN,11,Lynx,-1,???,0,4,Nothing,-1,1,Target Lost,0,0,Attack,0,-1,None,0
+34,R507A.BIN,11,Lynx,-1,???,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
+35,R507A.BIN,11,Lynx,1,???,50,0,Attack,0,-1,None,0,1,Magic,-1,23,Pyri,0
+0,R509A.BIN,12,Chameleon,3,???,30,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,2,-1,None,3
+1,R509A.BIN,12,Chameleon,3,???,80,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,-1,None,0
+2,R509A.BIN,12,Chameleon,3,???,40,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+3,R509A.BIN,12,Chameleon,3,???,20,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,1,-1,None,0
+4,R509A.BIN,12,Chameleon,-1,???,0,0,Attack,2,-1,None,3,0,Attack,2,-1,None,3
+5,R509A.BIN,12,Chameleon,-1,???,0,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
+6,R509A.BIN,12,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+7,R509A.BIN,12,Chameleon,-1,???,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+8,R509A.BIN,12,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+9,R509A.BIN,12,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+10,R509A.BIN,12,Chameleon,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+11,R509A.BIN,12,Chameleon,-1,???,0,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
+12,R509A.BIN,12,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+13,R509A.BIN,12,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+14,R509A.BIN,12,Chameleon,-1,???,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,0,Awaiting Orders,0
+15,R509A.BIN,12,Chameleon,-1,???,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,0,Awaiting Orders,0
+16,R509A.BIN,12,Chameleon,3,???,50,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
+17,R509A.BIN,12,Chameleon,-1,???,0,0,Attack,1,-1,None,3,0,Attack,1,-1,None,3
+18,R509A.BIN,12,Chameleon,-1,???,0,0,Attack,2,-1,None,1,0,Attack,3,-1,None,1
+19,R509A.BIN,12,Chameleon,3,???,50,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
+20,R509A.BIN,12,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+21,R509A.BIN,12,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+22,R509A.BIN,12,Chameleon,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+23,R509A.BIN,12,Chameleon,-1,???,0,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
+24,R509A.BIN,12,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+25,R509A.BIN,12,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+26,R509A.BIN,12,Chameleon,-1,???,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,0,Awaiting Orders,0
+27,R509A.BIN,12,Chameleon,-1,???,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,0,Awaiting Orders,0
+28,R509A.BIN,12,Chameleon,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,4,Nothing,-1,0,Awaiting Orders,0
+29,R509A.BIN,12,Chameleon,-1,???,0,0,Attack,2,-1,None,3,0,Attack,2,-1,None,3
+30,R509A.BIN,12,Chameleon,-1,???,0,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
+31,R509A.BIN,12,Chameleon,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,4,Nothing,-1,0,Awaiting Orders,0
+0,R510A.BIN,4,Valuan Gunboat,0,???,50,4,Nothing,-1,-1,None,0,1,Magic,-1,23,Pyri,0
+1,R510A.BIN,4,Valuan Gunboat,0,???,20,4,Nothing,-1,-1,None,0,1,Magic,-1,23,Pyri,0
+2,R510A.BIN,4,Valuan Gunboat,3,???,30,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
+3,R510A.BIN,4,Valuan Gunboat,3,???,10,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,0
+4,R510A.BIN,4,Valuan Gunboat,0,???,20,4,Nothing,-1,-1,None,0,1,Magic,-1,23,Pyri,0
+5,R510A.BIN,4,Valuan Gunboat,1,???,40,1,Magic,-1,6,Sacri,0,0,Attack,0,-1,None,0
+6,R510A.BIN,4,Valuan Gunboat,3,???,30,3,Guard,-1,0,Evasive Action,0,4,Nothing,-1,-1,None,0
+7,R510A.BIN,4,Valuan Gunboat,3,???,30,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,23,Pyri,0
+8,R510A.BIN,4,Valuan Gunboat,1,???,20,1,Magic,-1,6,Sacri,0,0,Attack,1,-1,None,3
+9,R510A.BIN,4,Valuan Gunboat,1,???,10,1,Magic,-1,6,Sacri,0,1,Magic,-1,23,Pyri,0
+10,R510A.BIN,4,Valuan Gunboat,3,???,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
+11,R510A.BIN,4,Valuan Gunboat,1,???,10,1,Magic,-1,6,Sacri,0,1,Magic,-1,23,Pyri,0
+12,R510A.BIN,4,Valuan Gunboat,3,???,50,0,Attack,1,-1,None,2,2,Focus,-1,0,Focus,0
+13,R510A.BIN,4,Valuan Gunboat,1,???,30,3,Guard,-1,0,Evasive Action,0,4,Nothing,-1,-1,None,0
+14,R510A.BIN,4,Valuan Gunboat,3,???,30,1,Magic,-1,6,Sacri,0,2,Focus,-1,0,Focus,0
+15,R510A.BIN,4,Valuan Gunboat,3,???,50,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
+0,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+1,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+2,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+3,R513A.BIN,35,Roc,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+4,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+5,R513A.BIN,35,Roc,-1,???,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+6,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+7,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+8,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+9,R513A.BIN,35,Roc,-1,???,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+10,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+11,R513A.BIN,35,Roc,-1,???,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+12,R513A.BIN,35,Roc,3,???,50,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+13,R513A.BIN,35,Roc,-1,???,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+14,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+15,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+16,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+17,R513A.BIN,35,Roc,-1,???,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+18,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+19,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+20,R513A.BIN,35,Roc,-1,???,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+21,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+22,R513A.BIN,35,Roc,-1,???,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+23,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+24,R513A.BIN,35,Roc,3,???,50,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+25,R513A.BIN,35,Roc,-1,???,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+26,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+27,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+28,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+29,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+30,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+31,R513A.BIN,35,Roc,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+32,R513A.BIN,35,Roc,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+33,R513A.BIN,35,Roc,-1,???,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+34,R513A.BIN,35,Roc,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+35,R513A.BIN,35,Roc,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+0,R514A.BIN,13,Chameleon,3,???,50,0,Attack,0,-1,None,0,0,Attack,2,-1,None,3
+1,R514A.BIN,13,Chameleon,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,1
+2,R514A.BIN,13,Chameleon,3,???,50,2,Focus,-1,0,Focus,0,4,Nothing,-1,-1,None,0
+3,R514A.BIN,13,Chameleon,-1,???,1,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
+4,R514A.BIN,13,Chameleon,-1,???,0,0,Attack,2,-1,None,1,0,Attack,2,-1,None,2
+5,R514A.BIN,13,Chameleon,-1,???,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+6,R514A.BIN,13,Chameleon,3,???,50,0,Attack,0,-1,None,1,0,Attack,0,-1,None,0
+7,R514A.BIN,13,Chameleon,3,???,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+8,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
+9,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
+10,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
+11,R514A.BIN,13,Chameleon,-1,???,0,0,Attack,3,-1,None,0,-1,None,-1,-1,None,0
+12,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
+13,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
+14,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
+15,R514A.BIN,13,Chameleon,-1,???,0,0,Attack,3,-1,None,0,-1,None,-1,-1,None,0
+16,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
+17,R514A.BIN,13,Chameleon,3,???,50,0,Attack,2,-1,None,1,3,Guard,-1,0,Evasive Action,0
+18,R514A.BIN,13,Chameleon,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+19,R514A.BIN,13,Chameleon,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+20,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
+21,R514A.BIN,13,Chameleon,3,???,50,0,Attack,2,-1,None,1,3,Guard,-1,0,Evasive Action,0
+22,R514A.BIN,13,Chameleon,3,???,70,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+23,R514A.BIN,13,Chameleon,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+24,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
+25,R514A.BIN,13,Chameleon,-1,???,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
+26,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
+27,R514A.BIN,13,Chameleon,-1,???,0,0,Attack,3,-1,None,0,-1,None,-1,-1,None,0
+28,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
+29,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
+30,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
+31,R514A.BIN,13,Chameleon,-1,???,0,0,Attack,3,1,None,0,-1,None,-1,-1,None,0
+32,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
+33,R514A.BIN,13,Chameleon,-1,???,0,0,Attack,2,-1,None,2,3,Guard,-1,0,Evasive Action,0
+34,R514A.BIN,13,Chameleon,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+35,R514A.BIN,13,Chameleon,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+36,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
+37,R514A.BIN,13,Chameleon,3,???,50,0,Attack,1,-1,None,1,3,Guard,-1,0,Evasive Action,0
+38,R514A.BIN,13,Chameleon,3,???,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+39,R514A.BIN,13,Chameleon,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+40,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
+41,R514A.BIN,13,Chameleon,-1,???,0,0,Attack,2,-1,None,1,0,Attack,-1,-1,None,0
+42,R514A.BIN,13,Chameleon,3,???,50,0,Attack,2,-1,None,1,3,Guard,-1,0,Evasive Action,0
+43,R514A.BIN,13,Chameleon,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+44,R514A.BIN,13,Chameleon,-1,???,0,2,Focus,-1,1,Taking Aim,0,-1,None,-1,-1,None,0
+45,R514A.BIN,13,Chameleon,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+46,R514A.BIN,13,Chameleon,3,???,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,3
+47,R514A.BIN,13,Chameleon,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+48,R514A.BIN,13,Chameleon,-1,???,0,0,Attack,2,-1,None,1,0,Attack,2,-1,None,2
+49,R514A.BIN,13,Chameleon,3,???,50,0,Attack,0,-1,None,1,0,Attack,0,-1,None,0
+50,R514A.BIN,13,Chameleon,3,???,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+51,R514A.BIN,13,Chameleon,3,???,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+0,R515A.BIN,25,Grendel,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+1,R515A.BIN,25,Grendel,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+2,R515A.BIN,25,Grendel,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+3,R515A.BIN,25,Grendel,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+4,R515A.BIN,25,Grendel,9,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+5,R515A.BIN,25,Grendel,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+6,R515A.BIN,25,Grendel,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+7,R515A.BIN,25,Grendel,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+8,R515A.BIN,25,Grendel,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+9,R515A.BIN,25,Grendel,9,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+10,R515A.BIN,25,Grendel,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+11,R515A.BIN,25,Grendel,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+12,R515A.BIN,25,Grendel,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+13,R515A.BIN,25,Grendel,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+14,R515A.BIN,25,Grendel,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R515A.BIN,25,Grendel,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+16,R515A.BIN,25,Grendel,-1,???,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,1,Target Lost,0
+17,R515A.BIN,25,Grendel,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+18,R515A.BIN,25,Grendel,-1,???,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,1,Target Lost,0
+19,R515A.BIN,25,Grendel,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+20,R515A.BIN,25,Grendel,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+21,R515A.BIN,25,Grendel,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+22,R515A.BIN,25,Grendel,-1,???,0,0,Attack,2,-1,None,0,0,Attack,2,-1,None,0
+23,R515A.BIN,25,Grendel,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+24,R515A.BIN,25,Grendel,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+25,R515A.BIN,25,Grendel,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+26,R515A.BIN,25,Grendel,3,???,80,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+27,R515A.BIN,25,Grendel,4,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+28,R515A.BIN,25,Grendel,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+29,R515A.BIN,25,Grendel,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+30,R515A.BIN,25,Grendel,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+31,R515A.BIN,25,Grendel,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+32,R515A.BIN,25,Grendel,-1,???,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,1,Target Lost,0
+33,R515A.BIN,25,Grendel,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+34,R515A.BIN,25,Grendel,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+35,R515A.BIN,25,Grendel,0,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+36,R515A.BIN,25,Grendel,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+37,R515A.BIN,25,Grendel,9,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+38,R515A.BIN,25,Grendel,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+39,R515A.BIN,25,Grendel,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+0,R518A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+1,R518A.BIN,4,Valuan Gunboat,3,???,80,0,Attack,1,-1,None,1,4,Nothing,0,0,Awaiting Orders,0
+2,R518A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
+3,R518A.BIN,4,Valuan Gunboat,3,???,50,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
+4,R518A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
+5,R518A.BIN,4,Valuan Gunboat,3,???,80,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+6,R518A.BIN,4,Valuan Gunboat,3,???,50,0,Attack,1,-1,None,2,4,Nothing,-1,0,Awaiting Orders,0
+7,R518A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+8,R518A.BIN,4,Valuan Gunboat,3,???,80,0,Attack,2,-1,None,3,2,Focus,-1,0,Focus,0
+9,R518A.BIN,4,Valuan Gunboat,3,???,30,0,Attack,1,-1,None,1,3,Guard,0,0,Evasive Action,0
+10,R518A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+11,R518A.BIN,4,Valuan Gunboat,3,???,30,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+12,R518A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,2,-1,None,1,0,Attack,-1,-1,None,0
+13,R518A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,2,-1,None,2,0,Attack,-1,-1,None,0
+14,R518A.BIN,4,Valuan Gunboat,3,???,50,0,Attack,0,-1,None,0,2,Focus,0,-1,None,0
+15,R518A.BIN,4,Valuan Gunboat,3,???,30,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+0,R519A.BIN,38,Fortress Gates,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+1,R519A.BIN,38,Fortress Gates,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+2,R519A.BIN,38,Fortress Gates,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+3,R519A.BIN,38,Fortress Gates,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+0,R520A.BIN,9,Gregorio Cruiser,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+1,R520A.BIN,9,Gregorio Cruiser,3,???,25,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,1
+2,R520A.BIN,9,Gregorio Cruiser,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+3,R520A.BIN,9,Gregorio Cruiser,3,???,20,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,0
+4,R520A.BIN,9,Gregorio Cruiser,-1,???,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
+5,R520A.BIN,9,Gregorio Cruiser,3,???,50,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,1
+6,R520A.BIN,9,Gregorio Cruiser,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+7,R520A.BIN,9,Gregorio Cruiser,3,???,30,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,0
+0,R521A.BIN,10,Gregorio Gunboat,-1,???,0,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
+1,R521A.BIN,10,Gregorio Gunboat,-1,???,0,2,Focus,-1,1,Taking Aim,0,0,Attack,0,-1,None,0
+2,R521A.BIN,10,Gregorio Gunboat,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+3,R521A.BIN,10,Gregorio Gunboat,-1,???,0,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+4,R521A.BIN,10,Gregorio Gunboat,-1,???,0,0,Attack,1,-1,None,3,0,Attack,0,-1,None,0
+5,R521A.BIN,10,Gregorio Gunboat,-1,???,0,0,Attack,2,-1,None,2,0,Attack,0,-1,None,0
+6,R521A.BIN,10,Gregorio Gunboat,-1,???,0,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
+7,R521A.BIN,10,Gregorio Gunboat,-1,???,0,2,Focus,-1,1,Taking Aim,0,0,Attack,0,-1,None,0
+8,R521A.BIN,10,Gregorio Gunboat,-1,???,0,4,Nothing,-1,1,Target Lost,0,0,Attack,0,-1,None,0
+9,R521A.BIN,10,Gregorio Gunboat,-1,???,0,2,Focus,-1,1,Taking Aim,0,0,Attack,0,-1,None,0
+10,R521A.BIN,10,Gregorio Gunboat,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+11,R521A.BIN,10,Gregorio Gunboat,-1,???,0,0,Attack,1,-1,None,3,0,Attack,0,-1,None,0
+12,R521A.BIN,10,Gregorio Gunboat,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+13,R521A.BIN,10,Gregorio Gunboat,-1,???,0,0,Attack,2,-1,None,3,0,Attack,0,-1,None,0
+14,R521A.BIN,10,Gregorio Gunboat,-1,???,0,0,Attack,1,-1,None,1,0,Attack,0,-1,None,0
+15,R521A.BIN,10,Gregorio Gunboat,-1,???,0,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
+0,R522A.BIN,16,Auriga,3,???,20,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,2
+1,R522A.BIN,16,Auriga,3,???,60,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
+2,R522A.BIN,16,Auriga,3,???,80,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,1
+3,R522A.BIN,16,Auriga,3,???,10,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
+4,R522A.BIN,16,Auriga,-1,???,0,3,Guard,-1,0,Evasive Action,0,3,Guard,-1,0,Evasive Action,0
+5,R522A.BIN,16,Auriga,3,???,35,0,Attack,0,-1,None,0,0,Attack,1,-1,None,3
+6,R522A.BIN,16,Auriga,-1,???,0,3,Guard,-1,0,Evasive Action,0,3,Guard,-1,0,Evasive Action,0
+7,R522A.BIN,16,Auriga,3,???,70,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+8,R522A.BIN,16,Auriga,3,???,40,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,0,-1,None,0
+9,R522A.BIN,16,Auriga,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+10,R522A.BIN,16,Auriga,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+11,R522A.BIN,16,Auriga,6,???,0,4,Nothing,0,3,Hull Ram,0,0,Attack,3,-1,None,0
+12,R522A.BIN,16,Auriga,3,???,20,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,2
+13,R522A.BIN,16,Auriga,3,???,80,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,3
+14,R522A.BIN,16,Auriga,3,???,10,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
+15,R522A.BIN,16,Auriga,3,???,60,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
+16,R522A.BIN,16,Auriga,3,???,20,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,3
+17,R522A.BIN,16,Auriga,3,???,20,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,2
+18,R522A.BIN,16,Auriga,3,???,10,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
+19,R522A.BIN,16,Auriga,3,???,20,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
+20,R522A.BIN,16,Auriga,3,???,40,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,1,-1,None,2
+21,R522A.BIN,16,Auriga,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+22,R522A.BIN,16,Auriga,-1,???,0,2,Focus,-1,0,Focus,0,2,Focus,-1,0,Focus,0
+23,R522A.BIN,16,Auriga,6,???,0,4,Nothing,0,3,Hull Ram,0,0,Attack,3,-1,None,0
+24,R522A.BIN,16,Auriga,-1,???,0,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
+25,R522A.BIN,16,Auriga,3,???,40,0,Attack,0,-1,None,0,0,Attack,2,-1,None,1
+26,R522A.BIN,16,Auriga,3,???,60,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+27,R522A.BIN,16,Auriga,0,???,35,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
+28,R522A.BIN,16,Auriga,-1,???,0,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
+29,R522A.BIN,16,Auriga,3,???,40,0,Attack,0,-1,None,0,0,Attack,2,-1,None,1
+30,R522A.BIN,16,Auriga,3,???,60,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+31,R522A.BIN,16,Auriga,0,???,35,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
+32,R522A.BIN,16,Auriga,3,???,90,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+33,R522A.BIN,16,Auriga,3,???,70,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+34,R522A.BIN,16,Auriga,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+35,R522A.BIN,16,Auriga,3,???,20,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+36,R522A.BIN,16,Auriga,3,???,90,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+37,R522A.BIN,16,Auriga,3,???,70,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+38,R522A.BIN,16,Auriga,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+39,R522A.BIN,16,Auriga,3,???,20,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+0,R523A.BIN,32,Obispo,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+1,R523A.BIN,32,Obispo,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+2,R523A.BIN,32,Obispo,3,???,50,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+3,R523A.BIN,32,Obispo,4,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+4,R523A.BIN,32,Obispo,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+5,R523A.BIN,32,Obispo,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+6,R523A.BIN,32,Obispo,1,???,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+7,R523A.BIN,32,Obispo,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+8,R523A.BIN,32,Obispo,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+9,R523A.BIN,32,Obispo,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+10,R523A.BIN,32,Obispo,1,???,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+11,R523A.BIN,32,Obispo,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+12,R523A.BIN,32,Obispo,1,???,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+13,R523A.BIN,32,Obispo,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+14,R523A.BIN,32,Obispo,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R523A.BIN,32,Obispo,1,???,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+16,R523A.BIN,32,Obispo,1,???,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+17,R523A.BIN,32,Obispo,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+18,R523A.BIN,32,Obispo,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+19,R523A.BIN,32,Obispo,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+20,R523A.BIN,32,Obispo,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+21,R523A.BIN,32,Obispo,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+22,R523A.BIN,32,Obispo,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+23,R523A.BIN,32,Obispo,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+0,R524A.BIN,29,Anguila,3,???,50,0,Attack,1,-1,None,0,3,Guard,-1,-1,None,0
+1,R524A.BIN,29,Anguila,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+2,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+3,R524A.BIN,29,Anguila,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+4,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+5,R524A.BIN,29,Anguila,3,???,60,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+6,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+7,R524A.BIN,29,Anguila,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+8,R524A.BIN,29,Anguila,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+9,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+10,R524A.BIN,29,Anguila,3,???,40,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+11,R524A.BIN,29,Anguila,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+12,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+13,R524A.BIN,29,Anguila,3,???,20,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+14,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+15,R524A.BIN,29,Anguila,3,???,70,0,Attack,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0
+16,R524A.BIN,29,Anguila,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+17,R524A.BIN,29,Anguila,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+18,R524A.BIN,29,Anguila,3,???,60,3,Guard,-1,-1,None,0,2,Focus,-1,2,Preparing Attack,0
+19,R524A.BIN,29,Anguila,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+20,R524A.BIN,29,Anguila,3,???,70,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+21,R524A.BIN,29,Anguila,-1,???,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+22,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+23,R524A.BIN,29,Anguila,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+24,R524A.BIN,29,Anguila,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+25,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+26,R524A.BIN,29,Anguila,3,???,70,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+27,R524A.BIN,29,Anguila,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+28,R524A.BIN,29,Anguila,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+29,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+30,R524A.BIN,29,Anguila,3,???,80,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+31,R524A.BIN,29,Anguila,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+32,R524A.BIN,29,Anguila,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+33,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+34,R524A.BIN,29,Anguila,3,???,30,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+35,R524A.BIN,29,Anguila,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+36,R524A.BIN,29,Anguila,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+37,R524A.BIN,29,Anguila,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+38,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+39,R524A.BIN,29,Anguila,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+40,R524A.BIN,29,Anguila,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+41,R524A.BIN,29,Anguila,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+42,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+43,R524A.BIN,29,Anguila,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+44,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+45,R524A.BIN,29,Anguila,3,???,60,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+46,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+47,R524A.BIN,29,Anguila,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+48,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+49,R524A.BIN,29,Anguila,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+50,R524A.BIN,29,Anguila,3,???,70,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
+51,R524A.BIN,29,Anguila,3,???,50,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+52,R524A.BIN,29,Anguila,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+53,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+54,R524A.BIN,29,Anguila,3,???,80,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+55,R524A.BIN,29,Anguila,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+56,R524A.BIN,29,Anguila,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+57,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+58,R524A.BIN,29,Anguila,3,???,30,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+59,R524A.BIN,29,Anguila,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+60,R524A.BIN,29,Anguila,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+61,R524A.BIN,29,Anguila,3,???,50,0,Attack,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0
+62,R524A.BIN,29,Anguila,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+63,R524A.BIN,29,Anguila,-1,???,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+0,R525A.BIN,44,Tenkou Spellship,3,???,20,0,Attack,2,-1,None,2,2,Focus,-1,-1,None,0
+1,R525A.BIN,44,Tenkou Spellship,3,???,50,0,Attack,0,-1,None,0,1,Magic,-1,21,Wevles,0
+2,R525A.BIN,44,Tenkou Spellship,3,???,50,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,1
+3,R525A.BIN,44,Tenkou Spellship,3,???,50,0,Attack,0,-1,None,0,1,Magic,-1,26,Crystali,0
+4,R525A.BIN,44,Tenkou Spellship,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+5,R525A.BIN,44,Tenkou Spellship,-1,???,0,1,Magic,-1,21,Wevles,0,-1,None,-1,-1,None,0
+6,R525A.BIN,44,Tenkou Spellship,3,???,80,1,Magic,-1,26,Crystali,0,0,Attack,2,-1,None,1
+7,R525A.BIN,44,Tenkou Spellship,1,???,20,1,Magic,-1,6,Sacri,0,2,Focus,-1,0,Focus,0
+8,R525A.BIN,44,Tenkou Spellship,3,???,50,1,Magic,-1,26,Crystali,0,1,Magic,-1,21,Wevles,0
+9,R525A.BIN,44,Tenkou Spellship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,2,-1,None,1
+10,R525A.BIN,44,Tenkou Spellship,3,???,50,0,Attack,0,-1,None,0,2,Focus,-1,-1,None,0
+11,R525A.BIN,44,Tenkou Spellship,3,???,90,3,Guard,-1,-1,None,0,1,Magic,-1,6,Sacri,0
+12,R525A.BIN,44,Tenkou Spellship,3,???,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+13,R525A.BIN,44,Tenkou Spellship,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+14,R525A.BIN,44,Tenkou Spellship,3,???,50,2,Focus,-1,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+15,R525A.BIN,44,Tenkou Spellship,4,???,2,1,Magic,-1,26,Crystali,0,0,Attack,0,-1,None,0
+16,R525A.BIN,44,Tenkou Spellship,-1,???,0,0,Attack,0,-1,None,0,2,Focus,-1,-1,None,0
+17,R525A.BIN,44,Tenkou Spellship,4,???,2,2,Focus,-1,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+18,R525A.BIN,44,Tenkou Spellship,4,???,2,1,Magic,-1,6,Sacri,0,4,Nothing,-1,0,Awaiting Orders,0
+19,R525A.BIN,44,Tenkou Spellship,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+0,R527A.BIN,36,Giant Looper,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+1,R527A.BIN,36,Giant Looper,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+2,R527A.BIN,36,Giant Looper,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+3,R527A.BIN,36,Giant Looper,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+4,R527A.BIN,36,Giant Looper,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+5,R527A.BIN,36,Giant Looper,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+6,R527A.BIN,36,Giant Looper,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+7,R527A.BIN,36,Giant Looper,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+8,R527A.BIN,36,Giant Looper,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+9,R527A.BIN,36,Giant Looper,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+10,R527A.BIN,36,Giant Looper,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+11,R527A.BIN,36,Giant Looper,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+12,R527A.BIN,36,Giant Looper,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+13,R527A.BIN,36,Giant Looper,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+14,R527A.BIN,36,Giant Looper,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R527A.BIN,36,Giant Looper,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+16,R527A.BIN,36,Giant Looper,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+17,R527A.BIN,36,Giant Looper,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+18,R527A.BIN,36,Giant Looper,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+19,R527A.BIN,36,Giant Looper,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+0,R530A.BIN,17,Draco,-1,???,0,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
+1,R530A.BIN,17,Draco,-1,???,0,0,Attack,2,-1,None,2,0,Attack,2,-1,None,2
+2,R530A.BIN,17,Draco,-1,???,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+3,R530A.BIN,17,Draco,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+4,R530A.BIN,17,Draco,-1,???,0,0,Attack,2,-1,None,2,0,Attack,2,-1,None,2
+5,R530A.BIN,17,Draco,-1,???,0,2,Focus,-1,-1,None,0,2,Focus,-1,-1,None,0
+6,R530A.BIN,17,Draco,-1,???,0,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
+7,R530A.BIN,17,Draco,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+0,R531A.BIN,26,Bluheim,0,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
+1,R531A.BIN,26,Bluheim,3,???,80,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
+2,R531A.BIN,26,Bluheim,3,???,75,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+3,R531A.BIN,26,Bluheim,3,???,60,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
+4,R531A.BIN,26,Bluheim,0,???,80,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
+5,R531A.BIN,26,Bluheim,3,???,70,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
+6,R531A.BIN,26,Bluheim,3,???,80,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
+7,R531A.BIN,26,Bluheim,0,???,60,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
+8,R531A.BIN,26,Bluheim,3,???,70,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
+9,R531A.BIN,26,Bluheim,3,???,30,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+10,R531A.BIN,26,Bluheim,-1,???,0,2,Focus,-1,2,Preparing Attack,0,4,Nothing,-1,2,Assessing Damage,0
+11,R531A.BIN,26,Bluheim,5,???,3,0,Attack,3,2,None,0,0,Attack,0,-1,None,0
+12,R531A.BIN,26,Bluheim,0,???,60,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
+13,R531A.BIN,26,Bluheim,-1,???,0,0,Attack,2,-1,None,0,0,Attack,1,-1,None,0
+14,R531A.BIN,26,Bluheim,3,???,80,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
+15,R531A.BIN,26,Bluheim,3,???,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+16,R531A.BIN,26,Bluheim,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+17,R531A.BIN,26,Bluheim,-1,???,0,0,Attack,2,-1,None,0,0,Attack,2,-1,None,0
+18,R531A.BIN,26,Bluheim,3,???,50,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
+19,R531A.BIN,26,Bluheim,5,???,3,0,Attack,3,2,None,0,0,Attack,0,-1,None,0
+20,R531A.BIN,26,Bluheim,3,???,80,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
+21,R531A.BIN,26,Bluheim,3,???,40,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+22,R531A.BIN,26,Bluheim,0,???,20,4,Nothing,-1,2,Assessing Damage,0,0,Attack,1,-1,None,0
+23,R531A.BIN,26,Bluheim,0,???,15,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
+24,R531A.BIN,26,Bluheim,0,???,10,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
+25,R531A.BIN,26,Bluheim,-1,???,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+26,R531A.BIN,26,Bluheim,3,???,60,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+27,R531A.BIN,26,Bluheim,3,???,70,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,2,Preparing Attack,0
+28,R531A.BIN,26,Bluheim,-1,???,0,0,Attack,1,-1,None,0,0,Attack,2,-1,None,0
+29,R531A.BIN,26,Bluheim,3,???,60,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+30,R531A.BIN,26,Bluheim,3,???,70,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,2,Preparing Attack,0
+31,R531A.BIN,26,Bluheim,0,???,10,4,Nothing,-1,2,Assessing Damage,0,0,Attack,1,-1,None,0
+32,R531A.BIN,26,Bluheim,-1,???,0,0,Attack,1,-1,None,0,0,Attack,2,-1,None,0
+33,R531A.BIN,26,Bluheim,3,???,60,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+34,R531A.BIN,26,Bluheim,3,???,70,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,2,Preparing Attack,0
+35,R531A.BIN,26,Bluheim,0,???,10,4,Nothing,-1,2,Assessing Damage,0,0,Attack,1,-1,None,0
+36,R531A.BIN,26,Bluheim,3,???,60,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
+37,R531A.BIN,26,Bluheim,0,???,10,4,Nothing,-1,2,Assessing Damage,0,0,Attack,2,-1,None,0
+38,R531A.BIN,26,Bluheim,3,???,75,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+39,R531A.BIN,26,Bluheim,3,???,20,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
+40,R531A.BIN,26,Bluheim,3,???,30,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+41,R531A.BIN,26,Bluheim,3,???,30,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+42,R531A.BIN,26,Bluheim,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+43,R531A.BIN,26,Bluheim,5,???,3,0,Attack,3,2,None,0,0,Attack,0,-1,None,0
+0,R532A.BIN,37,Alania,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+1,R532A.BIN,37,Alania,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+2,R532A.BIN,37,Alania,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+3,R532A.BIN,37,Alania,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+4,R532A.BIN,37,Alania,3,???,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+5,R532A.BIN,37,Alania,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+6,R532A.BIN,37,Alania,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+7,R532A.BIN,37,Alania,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+8,R532A.BIN,37,Alania,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+9,R532A.BIN,37,Alania,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+10,R532A.BIN,37,Alania,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+11,R532A.BIN,37,Alania,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+12,R532A.BIN,37,Alania,3,???,70,0,Attack,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+13,R532A.BIN,37,Alania,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+14,R532A.BIN,37,Alania,3,???,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+15,R532A.BIN,37,Alania,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+16,R532A.BIN,37,Alania,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+17,R532A.BIN,37,Alania,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+18,R532A.BIN,37,Alania,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+19,R532A.BIN,37,Alania,3,???,30,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+20,R532A.BIN,37,Alania,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+21,R532A.BIN,37,Alania,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+22,R532A.BIN,37,Alania,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+23,R532A.BIN,37,Alania,3,???,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+24,R532A.BIN,37,Alania,3,???,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+25,R532A.BIN,37,Alania,-1,???,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+26,R532A.BIN,37,Alania,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+27,R532A.BIN,37,Alania,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+0,R550A.BIN,21,Black Pirates,3,???,80,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
+1,R550A.BIN,21,Black Pirates,4,???,2,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
+2,R550A.BIN,21,Black Pirates,4,???,2,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+3,R550A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+4,R550A.BIN,21,Black Pirates,3,???,70,0,Attack,1,0,None,3,3,Guard,-1,0,Evasive Action,0
+5,R550A.BIN,21,Black Pirates,3,???,80,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
+6,R550A.BIN,21,Black Pirates,3,???,70,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+7,R550A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+8,R550A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+9,R550A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+10,R550A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+11,R550A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+12,R550A.BIN,21,Black Pirates,3,???,98,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+13,R550A.BIN,21,Black Pirates,3,???,50,2,Focus,-1,0,Focus,0,0,Attack,1,0,None,2
+14,R550A.BIN,21,Black Pirates,3,???,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+15,R550A.BIN,21,Black Pirates,3,???,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+0,R551A.BIN,21,Black Pirates,3,???,80,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
+1,R551A.BIN,21,Black Pirates,4,???,2,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
+2,R551A.BIN,21,Black Pirates,4,???,2,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+3,R551A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+4,R551A.BIN,21,Black Pirates,3,???,70,0,Attack,1,0,None,3,3,Guard,-1,0,Evasive Action,0
+5,R551A.BIN,21,Black Pirates,3,???,80,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
+6,R551A.BIN,21,Black Pirates,3,???,70,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+7,R551A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+8,R551A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+9,R551A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+10,R551A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+11,R551A.BIN,21,Black Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+12,R551A.BIN,21,Black Pirates,3,???,98,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+13,R551A.BIN,21,Black Pirates,3,???,50,2,Focus,-1,0,Focus,0,0,Attack,1,0,None,2
+14,R551A.BIN,21,Black Pirates,3,???,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+15,R551A.BIN,21,Black Pirates,3,???,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+0,R553A.BIN,1,Valuan Spellship,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+1,R553A.BIN,1,Valuan Spellship,-1,???,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
+2,R553A.BIN,1,Valuan Spellship,3,???,75,1,Magic,-1,24,Pyres,0,0,Attack,0,-1,None,0
+3,R553A.BIN,1,Valuan Spellship,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+4,R553A.BIN,1,Valuan Spellship,-1,???,0,0,Attack,0,-1,None,0,-1,None,1,-1,None,0
+5,R553A.BIN,1,Valuan Spellship,3,???,50,2,Focus,-1,0,Focus,0,0,Attack,1,-1,None,0
+6,R553A.BIN,1,Valuan Spellship,3,???,50,0,Attack,0,1,None,0,3,Guard,-1,0,Evasive Action,0
+7,R553A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,-1,24,Pyres,0,-1,None,-1,-1,None,0
+8,R553A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,-1,24,Pyres,0,-1,None,-1,-1,None,0
+9,R553A.BIN,1,Valuan Spellship,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+10,R553A.BIN,1,Valuan Spellship,3,???,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
+11,R553A.BIN,1,Valuan Spellship,3,???,50,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
+12,R553A.BIN,1,Valuan Spellship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+13,R553A.BIN,1,Valuan Spellship,3,???,80,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
+14,R553A.BIN,1,Valuan Spellship,3,???,65,0,Attack,1,-1,None,1,4,Nothing,-1,0,Awaiting Orders,0
+15,R553A.BIN,1,Valuan Spellship,-1,???,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
+16,R553A.BIN,1,Valuan Spellship,3,???,50,2,Focus,-1,-1,None,0,4,Nothing,-1,-1,None,0
+17,R553A.BIN,1,Valuan Spellship,3,???,40,1,Magic,-1,7,Sacres,0,0,Attack,0,-1,None,0
+18,R553A.BIN,1,Valuan Spellship,3,???,65,1,Magic,-1,24,Pyres,0,3,Guard,-1,-1,None,0
+19,R553A.BIN,1,Valuan Spellship,3,???,50,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,0
+0,R554A.BIN,0,Valuan Warship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,0,-1,None,0
+1,R554A.BIN,0,Valuan Warship,-1,???,0,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
+2,R554A.BIN,0,Valuan Warship,3,???,70,2,Focus,-1,0,Focus,0,3,Guard,-1,-1,None,0
+3,R554A.BIN,0,Valuan Warship,1,???,20,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,0,-1,None,0
+4,R554A.BIN,0,Valuan Warship,3,???,85,0,Attack,0,-1,None,0,0,Attack,1,-1,None,1
+5,R554A.BIN,0,Valuan Warship,-1,???,0,0,Attack,1,-1,None,1,0,Attack,1,-1,None,1
+6,R554A.BIN,0,Valuan Warship,-1,???,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,0,Awaiting Orders,0
+7,R554A.BIN,0,Valuan Warship,1,???,40,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,0,-1,None,0
+8,R554A.BIN,0,Valuan Warship,-1,???,0,0,Attack,1,-1,None,3,0,Attack,1,-1,None,3
+9,R554A.BIN,0,Valuan Warship,3,???,85,0,Attack,0,-1,None,0,0,Attack,1,-1,None,1
+10,R554A.BIN,0,Valuan Warship,3,???,20,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
+11,R554A.BIN,0,Valuan Warship,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+12,R554A.BIN,0,Valuan Warship,3,???,70,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+13,R554A.BIN,0,Valuan Warship,3,???,50,0,Attack,1,-1,None,2,0,Attack,1,-1,None,1
+14,R554A.BIN,0,Valuan Warship,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R554A.BIN,0,Valuan Warship,3,???,20,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
+16,R554A.BIN,0,Valuan Warship,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,4,Nothing,-1,0,Awaiting Orders,0
+17,R554A.BIN,0,Valuan Warship,-1,???,0,0,Attack,1,-1,None,2,0,Attack,1,-1,None,2
+18,R554A.BIN,0,Valuan Warship,3,???,80,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+19,R554A.BIN,0,Valuan Warship,3,???,80,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+20,R554A.BIN,0,Valuan Warship,3,???,80,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+21,R554A.BIN,0,Valuan Warship,3,???,50,0,Attack,1,-1,None,2,0,Attack,1,-1,None,1
+22,R554A.BIN,0,Valuan Warship,3,???,30,3,Guard,-1,-1,None,0,2,Focus,-1,0,Focus,0
+23,R554A.BIN,0,Valuan Warship,3,???,70,2,Focus,-1,0,Focus,0,3,Guard,-1,-1,None,0
+0,R555A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
+1,R555A.BIN,1,Valuan Spellship,1,???,30,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,1,-1,None,2
+2,R555A.BIN,1,Valuan Spellship,3,???,70,2,Focus,-1,0,Focus,0,3,Guard,-1,-1,None,0
+3,R555A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
+4,R555A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
+5,R555A.BIN,1,Valuan Spellship,3,???,40,1,Magic,0,0,Increm,0,0,Attack,1,-1,None,1
+6,R555A.BIN,1,Valuan Spellship,-1,???,0,4,Nothing,-1,1,Target Lost,0,4,Nothing,-1,0,Awaiting Orders,0
+7,R555A.BIN,1,Valuan Spellship,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,4,Nothing,-1,0,Awaiting Orders,0
+8,R555A.BIN,1,Valuan Spellship,-1,???,0,0,Attack,1,-1,None,1,0,Attack,1,-1,None,2
+9,R555A.BIN,1,Valuan Spellship,3,???,70,2,Focus,-1,0,Focus,0,3,Guard,-1,-1,None,0
+10,R555A.BIN,1,Valuan Spellship,3,???,80,1,Magic,0,0,Increm,0,0,Attack,1,-1,None,1
+11,R555A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
+12,R555A.BIN,1,Valuan Spellship,3,???,50,0,Attack,1,-1,None,2,1,Magic,0,24,Pyres,0
+13,R555A.BIN,1,Valuan Spellship,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,4,Nothing,-1,0,Awaiting Orders,0
+14,R555A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
+15,R555A.BIN,1,Valuan Spellship,3,???,20,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
+16,R555A.BIN,1,Valuan Spellship,1,???,20,1,Magic,0,6,Sacri,0,3,Guard,-1,-1,None,0
+17,R555A.BIN,1,Valuan Spellship,3,???,50,0,Attack,1,-1,None,2,1,Magic,0,24,Pyres,0
+18,R555A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
+19,R555A.BIN,1,Valuan Spellship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,0,24,Pyres,0
+20,R555A.BIN,1,Valuan Spellship,1,???,40,1,Magic,0,6,Sacri,0,3,Guard,-1,-1,None,0
+21,R555A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
+22,R555A.BIN,1,Valuan Spellship,3,???,30,3,Guard,-1,-1,None,0,2,Focus,-1,0,Focus,0
+23,R555A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,0,24,Pyres,0,1,Magic,0,24,Pyres,0
+0,R556A.BIN,3,Valuan Phantom,0,???,50,4,Nothing,-1,-1,None,0,1,Magic,-1,23,Pyri,0
+1,R556A.BIN,3,Valuan Phantom,0,???,20,4,Nothing,-1,-1,None,0,1,Magic,-1,23,Pyri,0
+2,R556A.BIN,3,Valuan Phantom,3,???,30,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
+3,R556A.BIN,3,Valuan Phantom,3,???,10,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,0
+4,R556A.BIN,3,Valuan Phantom,0,???,20,4,Nothing,-1,-1,None,0,1,Magic,-1,23,Pyri,0
+5,R556A.BIN,3,Valuan Phantom,1,???,40,1,Magic,-1,6,Sacri,0,0,Attack,0,-1,None,0
+6,R556A.BIN,3,Valuan Phantom,3,???,30,3,Guard,-1,0,Evasive Action,0,4,Nothing,-1,-1,None,0
+7,R556A.BIN,3,Valuan Phantom,3,???,30,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,23,Pyri,0
+8,R556A.BIN,3,Valuan Phantom,1,???,20,1,Magic,-1,6,Sacri,0,0,Attack,1,-1,None,3
+9,R556A.BIN,3,Valuan Phantom,1,???,10,1,Magic,-1,6,Sacri,0,1,Magic,-1,23,Pyri,0
+10,R556A.BIN,3,Valuan Phantom,3,???,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
+11,R556A.BIN,3,Valuan Phantom,1,???,10,1,Magic,-1,6,Sacri,0,1,Magic,-1,23,Pyri,0
+12,R556A.BIN,3,Valuan Phantom,3,???,50,0,Attack,1,-1,None,2,2,Focus,-1,0,Focus,0
+13,R556A.BIN,3,Valuan Phantom,1,???,30,3,Guard,-1,0,Evasive Action,0,4,Nothing,-1,-1,None,0
+14,R556A.BIN,3,Valuan Phantom,3,???,30,1,Magic,-1,6,Sacri,0,2,Focus,-1,0,Focus,0
+15,R556A.BIN,3,Valuan Phantom,3,???,50,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
+0,R557A.BIN,4,Valuan Gunboat,0,???,50,0,Attack,2,-1,None,2,2,Focus,-1,-1,None,0
+1,R557A.BIN,4,Valuan Gunboat,4,???,0,0,Attack,1,-1,None,1,2,Focus,-1,-1,None,0
+2,R557A.BIN,4,Valuan Gunboat,3,???,50,2,Focus,-1,-1,None,0,4,Nothing,-1,-1,None,0
+3,R557A.BIN,4,Valuan Gunboat,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+4,R557A.BIN,4,Valuan Gunboat,2,???,2,0,Attack,2,-1,None,1,4,Nothing,-1,-1,None,-1
+5,R557A.BIN,4,Valuan Gunboat,3,???,30,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
+6,R557A.BIN,4,Valuan Gunboat,4,???,2,0,Attack,0,-1,None,0,4,Nothing,-1,-1,None,-1
+7,R557A.BIN,4,Valuan Gunboat,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+8,R557A.BIN,4,Valuan Gunboat,3,???,30,0,Attack,1,-1,None,2,2,Focus,-1,-1,None,0
+9,R557A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,0,-1,None,0,4,Nothing,-1,-1,None,0
+10,R557A.BIN,4,Valuan Gunboat,0,???,2,4,Nothing,-1,-1,None,-1,4,Nothing,-1,-1,None,-1
+11,R557A.BIN,4,Valuan Gunboat,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+12,R557A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,1,-1,None,0,4,Nothing,-1,-1,None,-1
+13,R557A.BIN,4,Valuan Gunboat,3,???,30,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
+14,R557A.BIN,4,Valuan Gunboat,4,???,2,0,Attack,1,-1,None,0,4,Nothing,-1,-1,None,-1
+15,R557A.BIN,4,Valuan Gunboat,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+16,R557A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,1,-1,None,0,4,Nothing,-1,-1,None,-1
+17,R557A.BIN,4,Valuan Gunboat,3,???,30,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
+18,R557A.BIN,4,Valuan Gunboat,4,???,2,0,Attack,0,-1,None,0,4,Nothing,-1,-1,None,-1
+19,R557A.BIN,4,Valuan Gunboat,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+20,R557A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,1,-1,None,0,4,Nothing,-1,-1,None,-1
+21,R557A.BIN,4,Valuan Gunboat,3,???,30,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
+22,R557A.BIN,4,Valuan Gunboat,4,???,2,0,Attack,0,-1,None,0,4,Nothing,-1,-1,None,-1
+23,R557A.BIN,4,Valuan Gunboat,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+24,R557A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,1,-1,None,0,4,Nothing,-1,-1,None,-1
+25,R557A.BIN,4,Valuan Gunboat,3,???,30,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
+26,R557A.BIN,4,Valuan Gunboat,4,???,2,0,Attack,0,-1,None,0,4,Nothing,-1,-1,None,-1
+27,R557A.BIN,4,Valuan Gunboat,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+28,R557A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,1,-1,None,0,4,Nothing,-1,-1,None,-1
+29,R557A.BIN,4,Valuan Gunboat,3,???,30,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
+30,R557A.BIN,4,Valuan Gunboat,4,???,2,0,Attack,0,-1,None,0,4,Nothing,-1,-1,None,-1
+31,R557A.BIN,4,Valuan Gunboat,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+0,R558A.BIN,4,Valuan Gunboat,3,???,50,0,Attack,2,-1,None,2,2,Focus,-1,-1,None,0
+1,R558A.BIN,4,Valuan Gunboat,4,???,2,0,Attack,2,-1,None,2,2,Focus,-1,-1,None,0
+2,R558A.BIN,4,Valuan Gunboat,4,???,2,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+3,R558A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+4,R558A.BIN,4,Valuan Gunboat,3,???,50,2,Focus,-1,-1,None,0,3,Guard,-1,-1,None,0
+5,R558A.BIN,4,Valuan Gunboat,3,???,50,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
+6,R558A.BIN,4,Valuan Gunboat,3,???,50,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
+7,R558A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+8,R558A.BIN,4,Valuan Gunboat,3,???,50,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
+9,R558A.BIN,4,Valuan Gunboat,3,???,50,2,Focus,-1,-1,None,0,3,Guard,-1,-1,None,0
+10,R558A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+11,R558A.BIN,4,Valuan Gunboat,3,???,50,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
+12,R558A.BIN,4,Valuan Gunboat,3,???,50,0,Attack,1,-1,None,0,0,Attack,2,-1,None,1
+13,R558A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+14,R558A.BIN,4,Valuan Gunboat,3,???,50,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+15,R558A.BIN,4,Valuan Gunboat,3,???,50,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+0,R559A.BIN,22,Spell Pirates,-1,???,0,0,Attack,1,-1,None,3,0,Attack,-1,-1,None,0
+1,R559A.BIN,22,Spell Pirates,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,2
+2,R559A.BIN,22,Spell Pirates,3,???,70,1,Magic,-1,25,Pyrum,0,2,Focus,-1,-1,None,0
+3,R559A.BIN,22,Spell Pirates,-1,???,0,3,Guard,-1,0,Evasive Action,0,0,Attack,-1,-1,None,0
+4,R559A.BIN,22,Spell Pirates,3,???,50,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
+5,R559A.BIN,22,Spell Pirates,3,???,65,1,Magic,-1,25,Pyrum,0,1,Magic,-1,6,Sacri,0
+6,R559A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+7,R559A.BIN,22,Spell Pirates,-1,???,0,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
+8,R559A.BIN,22,Spell Pirates,3,???,35,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
+9,R559A.BIN,22,Spell Pirates,3,???,50,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
+10,R559A.BIN,22,Spell Pirates,-1,???,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
+11,R559A.BIN,22,Spell Pirates,3,???,80,0,Attack,0,-1,None,0,1,Magic,-1,25,Pyrum,0
+12,R559A.BIN,22,Spell Pirates,3,???,80,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+13,R559A.BIN,22,Spell Pirates,3,???,50,0,Attack,1,-1,None,2,4,Nothing,-1,0,Awaiting Orders,0
+14,R559A.BIN,22,Spell Pirates,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,1
+15,R559A.BIN,22,Spell Pirates,-1,???,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+16,R559A.BIN,22,Spell Pirates,3,???,50,0,Attack,1,-1,None,1,0,Attack,1,-1,None,2
+17,R559A.BIN,22,Spell Pirates,3,???,50,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+18,R559A.BIN,22,Spell Pirates,-1,???,0,1,Magic,-1,25,Pyrum,0,-1,None,-1,-1,None,0
+19,R559A.BIN,22,Spell Pirates,-1,???,0,1,Magic,-1,25,Pyrum,0,-1,None,-1,-1,None,0
+20,R559A.BIN,22,Spell Pirates,-1,???,0,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
+21,R559A.BIN,22,Spell Pirates,-1,???,0,0,Attack,1,0,None,1,-1,None,-1,-1,None,0
+22,R559A.BIN,22,Spell Pirates,3,???,41,4,Nothing,0,-1,None,0,2,Focus,-1,-1,None,0
+23,R559A.BIN,22,Spell Pirates,-1,???,0,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
+0,R560A.BIN,1,Valuan Spellship,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+1,R560A.BIN,1,Valuan Spellship,-1,???,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
+2,R560A.BIN,1,Valuan Spellship,3,???,75,1,Magic,-1,24,Pyres,0,0,Attack,0,-1,None,0
+3,R560A.BIN,1,Valuan Spellship,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+4,R560A.BIN,1,Valuan Spellship,-1,???,0,0,Attack,0,-1,None,0,-1,None,1,-1,None,0
+5,R560A.BIN,1,Valuan Spellship,3,???,50,2,Focus,-1,0,Focus,0,0,Attack,1,-1,None,0
+6,R560A.BIN,1,Valuan Spellship,3,???,50,0,Attack,0,1,None,0,3,Guard,-1,0,Evasive Action,0
+7,R560A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,-1,24,Pyres,0,-1,None,-1,-1,None,0
+8,R560A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,-1,24,Pyres,0,-1,None,-1,-1,None,0
+9,R560A.BIN,1,Valuan Spellship,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+10,R560A.BIN,1,Valuan Spellship,3,???,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
+11,R560A.BIN,1,Valuan Spellship,3,???,50,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
+12,R560A.BIN,1,Valuan Spellship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+13,R560A.BIN,1,Valuan Spellship,3,???,80,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
+14,R560A.BIN,1,Valuan Spellship,3,???,65,0,Attack,1,-1,None,1,4,Nothing,-1,0,Awaiting Orders,0
+15,R560A.BIN,1,Valuan Spellship,-1,???,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
+16,R560A.BIN,1,Valuan Spellship,3,???,50,2,Focus,-1,-1,None,0,4,Nothing,-1,-1,None,0
+17,R560A.BIN,1,Valuan Spellship,3,???,40,1,Magic,-1,7,Sacres,0,0,Attack,0,-1,None,0
+18,R560A.BIN,1,Valuan Spellship,3,???,65,1,Magic,-1,24,Pyres,0,3,Guard,-1,-1,None,0
+19,R560A.BIN,1,Valuan Spellship,3,???,50,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,0
+0,R562A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+1,R562A.BIN,4,Valuan Gunboat,3,???,80,0,Attack,1,-1,None,1,4,Nothing,0,0,Awaiting Orders,0
+2,R562A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
+3,R562A.BIN,4,Valuan Gunboat,3,???,50,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
+4,R562A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
+5,R562A.BIN,4,Valuan Gunboat,3,???,80,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+6,R562A.BIN,4,Valuan Gunboat,3,???,50,0,Attack,1,-1,None,2,4,Nothing,-1,0,Awaiting Orders,0
+7,R562A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+8,R562A.BIN,4,Valuan Gunboat,3,???,80,0,Attack,2,-1,None,3,2,Focus,-1,0,Focus,0
+9,R562A.BIN,4,Valuan Gunboat,3,???,30,0,Attack,1,-1,None,1,3,Guard,0,0,Evasive Action,0
+10,R562A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+11,R562A.BIN,4,Valuan Gunboat,3,???,30,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+12,R562A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,2,-1,None,1,0,Attack,-1,-1,None,0
+13,R562A.BIN,4,Valuan Gunboat,-1,???,0,0,Attack,2,-1,None,2,0,Attack,-1,-1,None,0
+14,R562A.BIN,4,Valuan Gunboat,3,???,50,0,Attack,0,-1,None,0,2,Focus,0,-1,None,0
+15,R562A.BIN,4,Valuan Gunboat,3,???,30,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+0,R563A.BIN,5,Valuan Mage Ship,1,???,99,2,Focus,-1,0,Focus,0,1,Magic,-1,13,Quika,0
+1,R563A.BIN,5,Valuan Mage Ship,3,???,50,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,Crystales,0
+2,R563A.BIN,5,Valuan Mage Ship,3,???,50,2,Focus,-1,0,Focus,0,1,Magic,-1,34,Electrum,0
+3,R563A.BIN,5,Valuan Mage Ship,3,???,50,0,Attack,0,-1,None,0,1,Magic,-1,27,Crystales,0
+4,R563A.BIN,5,Valuan Mage Ship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,Electrum,0
+5,R563A.BIN,5,Valuan Mage Ship,-1,???,0,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,Crystales,0
+6,R563A.BIN,5,Valuan Mage Ship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,Electrum,0
+7,R563A.BIN,5,Valuan Mage Ship,0,???,90,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,4,Driln,0
+8,R563A.BIN,5,Valuan Mage Ship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,Crystales,0
+9,R563A.BIN,5,Valuan Mage Ship,3,???,50,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,34,Electrum,0
+10,R563A.BIN,5,Valuan Mage Ship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,Crystales,0
+11,R563A.BIN,5,Valuan Mage Ship,3,???,50,2,Focus,-1,0,Focus,0,1,Magic,-1,34,Electrum,0
+12,R563A.BIN,5,Valuan Mage Ship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,Crystales,0
+13,R563A.BIN,5,Valuan Mage Ship,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+14,R563A.BIN,5,Valuan Mage Ship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,Electrum,0
+15,R563A.BIN,5,Valuan Mage Ship,1,???,40,1,Magic,-1,4,Driln,0,1,Magic,-1,27,Crystales,0
+16,R563A.BIN,5,Valuan Mage Ship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,Electrum,0
+17,R563A.BIN,5,Valuan Mage Ship,3,???,50,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,Crystales,0
+18,R563A.BIN,5,Valuan Mage Ship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,Electrum,0
+19,R563A.BIN,5,Valuan Mage Ship,1,???,40,1,Magic,-1,13,Quika,0,1,Magic,-1,27,Crystales,0
+0,R564A.BIN,1,Valuan Spellship,3,???,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+1,R564A.BIN,1,Valuan Spellship,-1,???,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
+2,R564A.BIN,1,Valuan Spellship,3,???,75,1,Magic,-1,24,Pyres,0,0,Attack,0,-1,None,0
+3,R564A.BIN,1,Valuan Spellship,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+4,R564A.BIN,1,Valuan Spellship,-1,???,0,0,Attack,0,-1,None,0,-1,None,1,-1,None,0
+5,R564A.BIN,1,Valuan Spellship,3,???,50,2,Focus,-1,0,Focus,0,0,Attack,1,-1,None,0
+6,R564A.BIN,1,Valuan Spellship,3,???,50,0,Attack,0,1,None,0,3,Guard,-1,0,Evasive Action,0
+7,R564A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,-1,24,Pyres,0,-1,None,-1,-1,None,0
+8,R564A.BIN,1,Valuan Spellship,-1,???,0,1,Magic,-1,24,Pyres,0,-1,None,-1,-1,None,0
+9,R564A.BIN,1,Valuan Spellship,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+10,R564A.BIN,1,Valuan Spellship,3,???,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
+11,R564A.BIN,1,Valuan Spellship,3,???,50,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
+12,R564A.BIN,1,Valuan Spellship,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+13,R564A.BIN,1,Valuan Spellship,3,???,80,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
+14,R564A.BIN,1,Valuan Spellship,3,???,65,0,Attack,1,-1,None,1,4,Nothing,-1,0,Awaiting Orders,0
+15,R564A.BIN,1,Valuan Spellship,-1,???,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
+16,R564A.BIN,1,Valuan Spellship,3,???,50,2,Focus,-1,-1,None,0,4,Nothing,-1,-1,None,0
+17,R564A.BIN,1,Valuan Spellship,3,???,40,1,Magic,-1,7,Sacres,0,0,Attack,0,-1,None,0
+18,R564A.BIN,1,Valuan Spellship,3,???,65,1,Magic,-1,24,Pyres,0,3,Guard,-1,-1,None,0
+19,R564A.BIN,1,Valuan Spellship,3,???,50,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,0
+0,R565A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
+1,R565A.BIN,22,Spell Pirates,3,???,20,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
+2,R565A.BIN,22,Spell Pirates,3,???,80,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+3,R565A.BIN,22,Spell Pirates,4,???,2,1,Magic,-1,6,Sacri,0,0,Attack,0,-1,None,0
+4,R565A.BIN,22,Spell Pirates,3,???,70,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
+5,R565A.BIN,22,Spell Pirates,3,???,85,1,Magic,0,25,Pyrum,0,1,Magic,-1,6,Sacri,0
+6,R565A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+7,R565A.BIN,22,Spell Pirates,-1,???,0,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
+8,R565A.BIN,22,Spell Pirates,-1,???,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+9,R565A.BIN,22,Spell Pirates,-1,???,0,1,Magic,0,25,Pyrum,1,-1,None,-1,-1,None,0
+10,R565A.BIN,22,Spell Pirates,-1,???,0,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
+11,R565A.BIN,22,Spell Pirates,3,???,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+12,R565A.BIN,22,Spell Pirates,-1,???,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
+13,R565A.BIN,22,Spell Pirates,-1,???,0,0,Attack,1,-1,None,2,4,Nothing,-1,-1,None,0
+14,R565A.BIN,22,Spell Pirates,-1,???,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+15,R565A.BIN,22,Spell Pirates,-1,???,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+16,R565A.BIN,22,Spell Pirates,3,???,50,0,Attack,1,-1,None,2,0,Attack,1,-1,None,3
+17,R565A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+18,R565A.BIN,22,Spell Pirates,-1,???,0,1,Magic,0,25,Pyrum,0,-1,None,-1,-1,None,0
+19,R565A.BIN,22,Spell Pirates,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+20,R565A.BIN,22,Spell Pirates,-1,???,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
+21,R565A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
+22,R565A.BIN,22,Spell Pirates,-1,???,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+23,R565A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+0,R566A.BIN,7,Valuan Spectre,3,???,50,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+1,R566A.BIN,7,Valuan Spectre,1,???,30,0,Attack,0,-1,None,0,1,Magic,-1,27,Crystales,0
+2,R566A.BIN,7,Valuan Spectre,1,???,30,0,Attack,1,-1,None,0,1,Magic,-1,34,Electrum,0
+3,R566A.BIN,7,Valuan Spectre,1,???,30,1,Magic,-1,6,Sacri,0,2,Focus,-1,0,Focus,0
+4,R566A.BIN,7,Valuan Spectre,-1,???,0,1,Magic,-1,34,Electrum,0,1,Magic,-1,34,Electrum,0
+5,R566A.BIN,7,Valuan Spectre,-1,???,0,1,Magic,-1,34,Electrum,0,1,Magic,-1,34,Electrum,0
+6,R566A.BIN,7,Valuan Spectre,1,???,30,0,Attack,0,-1,None,0,1,Magic,-1,27,Crystales,0
+7,R566A.BIN,7,Valuan Spectre,1,???,30,0,Attack,0,-1,None,0,1,Magic,-1,34,Electrum,0
+8,R566A.BIN,7,Valuan Spectre,3,???,10,1,Magic,-1,13,Quika,0,2,Focus,-1,0,Focus,0
+9,R566A.BIN,7,Valuan Spectre,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,Crystales,0
+10,R566A.BIN,7,Valuan Spectre,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+11,R566A.BIN,7,Valuan Spectre,1,???,30,0,Attack,0,-1,None,0,1,Magic,-1,34,Electrum,0
+12,R566A.BIN,7,Valuan Spectre,1,???,30,0,Attack,0,-1,None,0,1,Magic,-1,27,Crystales,0
+13,R566A.BIN,7,Valuan Spectre,1,???,30,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
+14,R566A.BIN,7,Valuan Spectre,1,???,30,2,Focus,-1,0,Focus,0,1,Magic,-1,34,Electrum,0
+15,R566A.BIN,7,Valuan Spectre,1,???,30,0,Attack,0,-1,None,0,1,Magic,-1,34,Electrum,0
+0,R568A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
+1,R568A.BIN,22,Spell Pirates,3,???,20,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
+2,R568A.BIN,22,Spell Pirates,3,???,80,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+3,R568A.BIN,22,Spell Pirates,4,???,2,1,Magic,-1,6,Sacri,0,0,Attack,0,-1,None,0
+4,R568A.BIN,22,Spell Pirates,3,???,70,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
+5,R568A.BIN,22,Spell Pirates,3,???,85,1,Magic,0,25,Pyrum,0,1,Magic,-1,6,Sacri,0
+6,R568A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+7,R568A.BIN,22,Spell Pirates,-1,???,0,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
+8,R568A.BIN,22,Spell Pirates,-1,???,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+9,R568A.BIN,22,Spell Pirates,-1,???,0,1,Magic,0,25,Pyrum,1,-1,None,-1,-1,None,0
+10,R568A.BIN,22,Spell Pirates,-1,???,0,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
+11,R568A.BIN,22,Spell Pirates,3,???,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+12,R568A.BIN,22,Spell Pirates,-1,???,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
+13,R568A.BIN,22,Spell Pirates,-1,???,0,0,Attack,1,-1,None,2,4,Nothing,-1,-1,None,0
+14,R568A.BIN,22,Spell Pirates,-1,???,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+15,R568A.BIN,22,Spell Pirates,-1,???,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+16,R568A.BIN,22,Spell Pirates,3,???,50,0,Attack,1,-1,None,2,0,Attack,1,-1,None,3
+17,R568A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+18,R568A.BIN,22,Spell Pirates,-1,???,0,1,Magic,0,25,Pyrum,0,-1,None,-1,-1,None,0
+19,R568A.BIN,22,Spell Pirates,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+20,R568A.BIN,22,Spell Pirates,-1,???,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
+21,R568A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
+22,R568A.BIN,22,Spell Pirates,-1,???,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+23,R568A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+0,R572A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
+1,R572A.BIN,22,Spell Pirates,3,???,20,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
+2,R572A.BIN,22,Spell Pirates,3,???,80,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+3,R572A.BIN,22,Spell Pirates,4,???,2,1,Magic,-1,6,Sacri,0,0,Attack,0,-1,None,0
+4,R572A.BIN,22,Spell Pirates,3,???,70,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
+5,R572A.BIN,22,Spell Pirates,3,???,85,1,Magic,0,25,Pyrum,0,1,Magic,-1,6,Sacri,0
+6,R572A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+7,R572A.BIN,22,Spell Pirates,-1,???,0,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
+8,R572A.BIN,22,Spell Pirates,-1,???,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+9,R572A.BIN,22,Spell Pirates,-1,???,0,1,Magic,0,25,Pyrum,1,-1,None,-1,-1,None,0
+10,R572A.BIN,22,Spell Pirates,-1,???,0,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
+11,R572A.BIN,22,Spell Pirates,3,???,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+12,R572A.BIN,22,Spell Pirates,-1,???,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
+13,R572A.BIN,22,Spell Pirates,-1,???,0,0,Attack,1,-1,None,2,4,Nothing,-1,-1,None,0
+14,R572A.BIN,22,Spell Pirates,-1,???,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+15,R572A.BIN,22,Spell Pirates,-1,???,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+16,R572A.BIN,22,Spell Pirates,3,???,50,0,Attack,1,-1,None,2,0,Attack,1,-1,None,3
+17,R572A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+18,R572A.BIN,22,Spell Pirates,-1,???,0,1,Magic,0,25,Pyrum,0,-1,None,-1,-1,None,0
+19,R572A.BIN,22,Spell Pirates,-1,???,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+20,R572A.BIN,22,Spell Pirates,-1,???,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
+21,R572A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
+22,R572A.BIN,22,Spell Pirates,-1,???,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+23,R572A.BIN,22,Spell Pirates,-1,???,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0

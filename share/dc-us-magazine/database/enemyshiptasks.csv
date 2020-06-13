@@ -1,37 +1,37 @@
-Entry ID,[Filter],[Enemy Ship ID],[Enemy Ship Name],Unk.,Task Rating,Task A Type ID,[Task A Type Name],Task A Arm. ID,Task A Param. ID,[Task A Param. Name],Task A Arm. Range,Task B Type ID,[Task B Type Name],Task B Arm. ID,Task B Param. ID,[Task B Param. Name],Task B Arm. Range
-0,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-1,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-2,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-3,R500A.BIN,23,Blackbeard,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-4,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-5,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-6,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-7,R500A.BIN,23,Blackbeard,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-8,R500A.BIN,23,Blackbeard,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-9,R500A.BIN,23,Blackbeard,-1,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-10,R500A.BIN,23,Blackbeard,-1,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-11,R500A.BIN,23,Blackbeard,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-12,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-13,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-14,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-15,R500A.BIN,23,Blackbeard,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-16,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-17,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-18,R500A.BIN,23,Blackbeard,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-19,R500A.BIN,23,Blackbeard,0,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
-0,R518A.BIN,4,Baluan Battleship,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-1,R518A.BIN,4,Baluan Battleship,3,80,0,Attack,1,-1,None,1,4,Nothing,0,0,Awaiting Orders,0
-2,R518A.BIN,4,Baluan Battleship,-1,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
-3,R518A.BIN,4,Baluan Battleship,3,50,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
-4,R518A.BIN,4,Baluan Battleship,-1,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
-5,R518A.BIN,4,Baluan Battleship,3,80,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-6,R518A.BIN,4,Baluan Battleship,3,50,0,Attack,1,-1,None,2,4,Nothing,-1,0,Awaiting Orders,0
-7,R518A.BIN,4,Baluan Battleship,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-8,R518A.BIN,4,Baluan Battleship,3,80,0,Attack,2,-1,None,3,2,Focus,-1,0,Focus,0
-9,R518A.BIN,4,Baluan Battleship,3,30,0,Attack,1,-1,None,1,3,Guard,0,0,Evasive Action,0
-10,R518A.BIN,4,Baluan Battleship,-1,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-11,R518A.BIN,4,Baluan Battleship,3,30,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-12,R518A.BIN,4,Baluan Battleship,-1,0,0,Attack,2,-1,None,1,0,Attack,-1,-1,None,0
-13,R518A.BIN,4,Baluan Battleship,-1,0,0,Attack,2,-1,None,2,0,Attack,-1,-1,None,0
-14,R518A.BIN,4,Baluan Battleship,3,50,0,Attack,0,-1,None,0,2,Focus,0,-1,None,0
-15,R518A.BIN,4,Baluan Battleship,3,30,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+Entry ID,[Filter],[Enemy Ship ID],[Enemy Ship Name],Task Cond. ID,[Task Cond. Name],Task Rating,Task 1 Type ID,[Task 1 Type Name],Task 1 Arm. ID,Task 1 Param. ID,[Task 1 Param. Name],Task 1 Arm. Range,Task 2 Type ID,[Task 2 Type Name],Task 2 Arm. ID,Task 2 Param. ID,[Task 2 Param. Name],Task 2 Arm. Range
+0,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+1,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+2,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+3,R500A.BIN,23,Blackbeard,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+4,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+5,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+6,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+7,R500A.BIN,23,Blackbeard,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+8,R500A.BIN,23,Blackbeard,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+9,R500A.BIN,23,Blackbeard,-1,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+10,R500A.BIN,23,Blackbeard,-1,???,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+11,R500A.BIN,23,Blackbeard,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+12,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+13,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+14,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R500A.BIN,23,Blackbeard,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+16,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+17,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+18,R500A.BIN,23,Blackbeard,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+19,R500A.BIN,23,Blackbeard,0,???,0,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+0,R518A.BIN,4,Baluan Battleship,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+1,R518A.BIN,4,Baluan Battleship,3,???,80,0,Attack,1,-1,None,1,4,Nothing,0,0,Awaiting Orders,0
+2,R518A.BIN,4,Baluan Battleship,-1,???,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
+3,R518A.BIN,4,Baluan Battleship,3,???,50,0,Attack,1,-1,None,0,3,Guard,-1,0,Evasive Action,0
+4,R518A.BIN,4,Baluan Battleship,-1,???,0,0,Attack,2,-1,None,1,0,Attack,0,-1,None,0
+5,R518A.BIN,4,Baluan Battleship,3,???,80,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+6,R518A.BIN,4,Baluan Battleship,3,???,50,0,Attack,1,-1,None,2,4,Nothing,-1,0,Awaiting Orders,0
+7,R518A.BIN,4,Baluan Battleship,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+8,R518A.BIN,4,Baluan Battleship,3,???,80,0,Attack,2,-1,None,3,2,Focus,-1,0,Focus,0
+9,R518A.BIN,4,Baluan Battleship,3,???,30,0,Attack,1,-1,None,1,3,Guard,0,0,Evasive Action,0
+10,R518A.BIN,4,Baluan Battleship,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+11,R518A.BIN,4,Baluan Battleship,3,???,30,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+12,R518A.BIN,4,Baluan Battleship,-1,???,0,0,Attack,2,-1,None,1,0,Attack,-1,-1,None,0
+13,R518A.BIN,4,Baluan Battleship,-1,???,0,0,Attack,2,-1,None,2,0,Attack,-1,-1,None,0
+14,R518A.BIN,4,Baluan Battleship,3,???,50,0,Attack,0,-1,None,0,2,Focus,0,-1,None,0
+15,R518A.BIN,4,Baluan Battleship,3,???,30,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
