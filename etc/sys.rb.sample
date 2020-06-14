@@ -147,116 +147,116 @@ SYS.configure do |_s|
 #------------------------------------------------------------------------------
 
   # Path to CSV file of accessories relative to game root
-  _s.accessory_csv_file            = "#{_s.data_dir}/accessories.csv"
+  _s.accessory_csv_file            = "#{_s.data_dir}/accessory.csv"
   # Path to CSV file of armors relative to game root
-  _s.armor_csv_file                = "#{_s.data_dir}/armors.csv"
+  _s.armor_csv_file                = "#{_s.data_dir}/armor.csv"
   # Path to CSV file of characters relative to game root
-  _s.character_csv_file            = "#{_s.data_dir}/characters.csv"
+  _s.character_csv_file            = "#{_s.data_dir}/character.csv"
   # Path to CSV file of character magics relative to game root
-  _s.character_magic_csv_file      = "#{_s.data_dir}/charactermagics.csv"
+  _s.character_magic_csv_file      = "#{_s.data_dir}/charactermagic.csv"
   # Path to CSV file of character super moves relative to game root
-  _s.character_super_move_csv_file = "#{_s.data_dir}/charactersupermoves.csv"
+  _s.character_super_move_csv_file = "#{_s.data_dir}/charactersupermove.csv"
   # Path to CSV file of crew members relative to game root
-  _s.crew_member_csv_file          = "#{_s.data_dir}/crewmembers.csv"
+  _s.crew_member_csv_file          = "#{_s.data_dir}/crewmember.csv"
   # Path to CSV file of defined strings relative to game root
-  _s.defined_string_csv_file       = "#{_s.data_dir}/definedstrings.csv"
+  _s.defined_string_csv_file       = "#{_s.data_dir}/definedstring.csv"
   # Path to CSV file of enemy database relative to game root
-  _s.enemy_csv_file                = "#{_s.data_dir}/enemies.csv"
+  _s.enemy_csv_file                = "#{_s.data_dir}/enemy.csv"
   # Path to CSV file of enemy events relative to game root
-  _s.enemy_event_csv_file          = "#{_s.data_dir}/enemyevents.csv"
+  _s.enemy_event_csv_file          = "#{_s.data_dir}/enemyevent.csv"
   # Path to CSV file of enemy encounters relative to game root
-  _s.enemy_encounter_csv_file      = "#{_s.data_dir}/enemyencounters.csv"
+  _s.enemy_encounter_csv_file      = "#{_s.data_dir}/enemyencounter.csv"
   # Path to CSV file of enemy instructions relative to game root
-  _s.enemy_instruction_csv_file    = "#{_s.data_dir}/enemyinstructions.csv"
+  _s.enemy_instruction_csv_file    = "#{_s.data_dir}/enemyinstruction.csv"
   # Path to CSV file of enemy magics relative to game root
-  _s.enemy_magic_csv_file          = "#{_s.data_dir}/enemymagics.csv"
+  _s.enemy_magic_csv_file          = "#{_s.data_dir}/enemymagic.csv"
   # Path to CSV file of enemy ships relative to game root
-  _s.enemy_ship_csv_file           = "#{_s.data_dir}/enemyships.csv"
+  _s.enemy_ship_csv_file           = "#{_s.data_dir}/enemyship.csv"
   # Path to CSV file of enemy ship tasks relative to game root
-  _s.enemy_ship_task_csv_file      = "#{_s.data_dir}/enemyshiptasks.csv"
+  _s.enemy_ship_task_csv_file      = "#{_s.data_dir}/enemyshiptask.csv"
   # Path to CSV file of enemy super moves relative to game root
-  _s.enemy_super_move_csv_file     = "#{_s.data_dir}/enemysupermoves.csv"
+  _s.enemy_super_move_csv_file     = "#{_s.data_dir}/enemysupermove.csv"
   # Path to CSV file of EXP curves relative to game root
-  _s.exp_curve_csv_file            = "#{_s.data_dir}/expcurves.csv"
+  _s.exp_curve_csv_file            = "#{_s.data_dir}/expcurve.csv"
   # Path to CSV file of magic EXP curves relative to game root
-  _s.magic_exp_curve_csv_file      = "#{_s.data_dir}/magicexpcurves.csv"
+  _s.magic_exp_curve_csv_file      = "#{_s.data_dir}/magicexpcurve.csv"
   # Path to CSV file of playable ships relative to game root
-  _s.playable_ship_csv_file        = "#{_s.data_dir}/playableships.csv"
+  _s.playable_ship_csv_file        = "#{_s.data_dir}/playableship.csv"
   # Path to CSV file of ship accessories relative to game root
-  _s.ship_accessory_csv_file       = "#{_s.data_dir}/shipaccessories.csv"
+  _s.ship_accessory_csv_file       = "#{_s.data_dir}/shipaccessory.csv"
   # Path to CSV file of ship cannons relative to game root
-  _s.ship_cannon_csv_file          = "#{_s.data_dir}/shipcannons.csv"
+  _s.ship_cannon_csv_file          = "#{_s.data_dir}/shipcannon.csv"
   # Path to CSV file of ship items relative to game root
-  _s.ship_item_csv_file            = "#{_s.data_dir}/shipitems.csv"
+  _s.ship_item_csv_file            = "#{_s.data_dir}/shipitem.csv"
   # Path to CSV file of shops relative to game root
-  _s.shop_csv_file                 = "#{_s.data_dir}/shops.csv"
+  _s.shop_csv_file                 = "#{_s.data_dir}/shop.csv"
   # Path to CSV file of special items relative to game root
-  _s.special_item_csv_file         = "#{_s.data_dir}/specialitems.csv"
+  _s.special_item_csv_file         = "#{_s.data_dir}/specialitem.csv"
   # Path to CSV file of spirit curves relative to game root
-  _s.spirit_curve_csv_file         = "#{_s.data_dir}/spiritcurves.csv"
+  _s.spirit_curve_csv_file         = "#{_s.data_dir}/spiritcurve.csv"
   # Path to CSV file of treasure chests relative to game root
-  _s.treasure_chest_csv_file       = "#{_s.data_dir}/treasurechests.csv"
+  _s.treasure_chest_csv_file       = "#{_s.data_dir}/treasurechest.csv"
   # Path to CSV file of usable items relative to game root
-  _s.usable_item_csv_file          = "#{_s.data_dir}/usableitems.csv"
+  _s.usable_item_csv_file          = "#{_s.data_dir}/usableitem.csv"
   # Path to CSV file of weapons relative to game root
-  _s.weapon_csv_file               = "#{_s.data_dir}/weapons.csv"
+  _s.weapon_csv_file               = "#{_s.data_dir}/weapon.csv"
 
 #------------------------------------------------------------------------------
 # TPL paths
 #------------------------------------------------------------------------------
 
   # Path to TPL file of accessories relative to 'share' directory
-  _s.accessory_tpl_file            = 'accessories.tpl.csv'
+  _s.accessory_tpl_file            = 'accessory.tpl.csv'
   # Path to TPL file of armors relative to 'share' directory
-  _s.armor_tpl_file                = 'armors.tpl.csv'
+  _s.armor_tpl_file                = 'armor.tpl.csv'
   # Path to TPL file of characters relative to 'share' directory
-  _s.character_tpl_file            = 'characters.tpl.csv'
+  _s.character_tpl_file            = 'character.tpl.csv'
   # Path to TPL file of character magics relative to 'share' directory
-  _s.character_magic_tpl_file      = 'charactermagics.tpl.csv'
+  _s.character_magic_tpl_file      = 'charactermagic.tpl.csv'
   # Path to TPL file of character skills relative to 'share' directory
-  _s.character_super_move_tpl_file = 'charactersupermoves.tpl.csv'
+  _s.character_super_move_tpl_file = 'charactersupermove.tpl.csv'
   # Path to TPL file of crew members relative to 'share' directory
-  _s.crew_member_tpl_file          = 'crewmembers.tpl.csv'
+  _s.crew_member_tpl_file          = 'crewmember.tpl.csv'
   # Path to TPL file of enemy database relative to 'share' directory
-  _s.enemy_tpl_file                = 'enemies.tpl.csv'
+  _s.enemy_tpl_file                = 'enemy.tpl.csv'
   # Path to TPL file of enemy events relative to 'share' directory
-  _s.enemy_event_tpl_file          = 'enemyevents.tpl.csv'
+  _s.enemy_event_tpl_file          = 'enemyevent.tpl.csv'
   # Path to TPL file of enemy encounters relative to 'share' directory
-  _s.enemy_encounter_tpl_file      = 'enemyencounters.tpl.csv'
+  _s.enemy_encounter_tpl_file      = 'enemyencounter.tpl.csv'
   # Path to CSV file of enemy instructions relative to game root
-  _s.enemy_instruction_tpl_file    = 'enemyinstructions.tpl.csv'
+  _s.enemy_instruction_tpl_file    = 'enemyinstruction.tpl.csv'
   # Path to TPL file of enemy magics relative to 'share' directory
-  _s.enemy_magic_tpl_file          = 'enemymagics.tpl.csv'
+  _s.enemy_magic_tpl_file          = 'enemymagic.tpl.csv'
   # Path to TPL file of enemy ships relative to 'share' directory
-  _s.enemy_ship_tpl_file           = 'enemyships.tpl.csv'
+  _s.enemy_ship_tpl_file           = 'enemyship.tpl.csv'
   # Path to TPL file of enemy ship tasks relative to 'share' directory
-  _s.enemy_ship_task_tpl_file      = 'enemyshiptasks.tpl.csv'
+  _s.enemy_ship_task_tpl_file      = 'enemyshiptask.tpl.csv'
   # Path to TPL file of enemy skills relative to 'share' directory
-  _s.enemy_super_move_tpl_file     = 'enemysupermoves.tpl.csv'
+  _s.enemy_super_move_tpl_file     = 'enemysupermove.tpl.csv'
   # Path to TPL file of EXP curves relative to 'share' directory
-  _s.exp_curve_tpl_file            = 'expcurves.tpl.csv'
+  _s.exp_curve_tpl_file            = 'expcurve.tpl.csv'
   # Path to TPL file of magic EXP curves relative to 'share' directory
-  _s.magic_exp_curve_tpl_file      = 'magicexpcurves.tpl.csv'
+  _s.magic_exp_curve_tpl_file      = 'magicexpcurve.tpl.csv'
   # Path to TPL file of playable ships relative to 'share' directory
-  _s.playable_ship_tpl_file        = 'playableships.tpl.csv'
+  _s.playable_ship_tpl_file        = 'playableship.tpl.csv'
   # Path to TPL file of ship accessories relative to 'share' directory
-  _s.ship_accessory_tpl_file       = 'shipaccessories.tpl.csv'
+  _s.ship_accessory_tpl_file       = 'shipaccessory.tpl.csv'
   # Path to TPL file of ship cannons relative to 'share' directory
-  _s.ship_cannon_tpl_file          = 'shipcannons.tpl.csv'
+  _s.ship_cannon_tpl_file          = 'shipcannon.tpl.csv'
   # Path to TPL file of ship items relative to 'share' directory
-  _s.ship_item_tpl_file            = 'shipitems.tpl.csv'
+  _s.ship_item_tpl_file            = 'shipitem.tpl.csv'
   # Path to TPL file of shops relative to 'share' directory
-  _s.shop_tpl_file                 = 'shops.tpl.csv'
+  _s.shop_tpl_file                 = 'shop.tpl.csv'
   # Path to TPL file of special items relative to 'share' directory
-  _s.special_item_tpl_file         = 'specialitems.tpl.csv'
+  _s.special_item_tpl_file         = 'specialitem.tpl.csv'
   # Path to TPL file of spirit curves relative to 'share' directory
-  _s.spirit_curve_tpl_file         = 'spiritcurves.tpl.csv'
+  _s.spirit_curve_tpl_file         = 'spiritcurve.tpl.csv'
   # Path to TPL file of treasure chests relative to game root
-  _s.treasure_chest_tpl_file       = 'treasurechests.tpl.csv'
+  _s.treasure_chest_tpl_file       = 'treasurechest.tpl.csv'
   # Path to TPL file of usable items relative to 'share' directory
-  _s.usable_item_tpl_file          = 'usableitems.tpl.csv'
+  _s.usable_item_tpl_file          = 'usableitem.tpl.csv'
   # Path to TPL file of weapons relative to 'share' directory
-  _s.weapon_tpl_file               = 'weapons.tpl.csv'
+  _s.weapon_tpl_file               = 'weapon.tpl.csv'
 
 #------------------------------------------------------------------------------
 # Game root
