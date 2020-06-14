@@ -80,7 +80,7 @@ class TecFile
       (0..._size).each do |_id|
         LOG.info(sprintf(VOC.read, _id, _f.pos))
         _task = create_task(_id, _filename)
-        _task.read_from_bin(_f)
+        _task.read_bin(_f)
         @tasks << _task
       end
 
@@ -131,7 +131,7 @@ class TecFile
           _msg = 'task ID invalid (given %s, expected %s)'
           raise(IOError, sprintf(_msg, _task.id, _last.id + 1))
         end
-        _task.write_to_bin(_f)
+        _task.write_bin(_f)
         _last = _task
       end
       

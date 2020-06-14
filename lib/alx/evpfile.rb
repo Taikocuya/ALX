@@ -92,7 +92,7 @@ class EvpFile < EpFile
       (0..._num_events).each do |_id|
         LOG.info(sprintf(VOC.read, _id, _f.pos))
         _event = create_event(_id)
-        _event.read_from_bin(_f)
+        _event.read_bin(_f)
         
         if _event != _dummy
           @events << _event
@@ -159,9 +159,9 @@ class EvpFile < EpFile
         LOG.info(sprintf(VOC.write, _id, _f.pos))
         _event = @events[_id]
         if _event
-          _event.write_to_bin(_f)
+          _event.write_bin(_f)
         else
-          _dummy.write_to_bin(_f)
+          _dummy.write_bin(_f)
         end
       end
 

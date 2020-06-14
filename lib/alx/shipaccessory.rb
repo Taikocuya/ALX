@@ -106,7 +106,7 @@ class ShipAccessory < StdEntry
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  def write_csv(_f)
     _flags = find_member(VOC.ship_flags).value
     VOC.ships.each do |_id, _ship|
       find_member(_ship).value = _flags & (0x20 >> _id) != 0 ? 'X' : ''

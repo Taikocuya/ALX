@@ -100,7 +100,7 @@ class CrewMember < StdEntry
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  def write_csv(_f)
     _id = find_member(VOC.position_id).value
     find_member(VOC.position_name).value = VOC.positions[_id]
 

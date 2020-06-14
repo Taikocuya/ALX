@@ -69,10 +69,10 @@ class CharacterData < StdEntryData
   end
   
   # Reads all entries from binary files.
-  def load_all_from_bin
-    @weapon_data.load_all_from_bin
-    @armor_data.load_all_from_bin
-    @accessory_data.load_all_from_bin
+  def load_bin
+    @weapon_data.load_bin
+    @armor_data.load_bin
+    @accessory_data.load_bin
     super
   end
 

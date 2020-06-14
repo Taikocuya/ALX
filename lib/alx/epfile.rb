@@ -226,14 +226,14 @@ class EpFile
     _num_instructions = sys(:enemy_instruction_num_instructions)
 
     _enemy = create_enemy(_id, _filename)
-    _enemy.read_from_bin(_f)
+    _enemy.read_bin(_f)
     @enemies << _enemy
 
     _empty = true
     (1.._num_instructions).each do |_i|
       _instr          = create_instruction(_i, _filename)
       _instr.enemy_id = _id
-      _instr.read_from_bin(_f)
+      _instr.read_bin(_f)
       if _instr.type_id != -1 || (_empty && _i == _num_instructions)
         @instructions << _instr
         _empty = false
@@ -253,7 +253,7 @@ class EpFile
     _num_instructions = sys(:enemy_instruction_num_instructions)
     
     _id = _enemy.id
-    _enemy.write_to_bin(_f)
+    _enemy.write_bin(_f)
     
     _instructions = find_instructions(_id, _filename)
     _size         = _instructions.size
@@ -276,7 +276,7 @@ class EpFile
           raise(IOError, sprintf(_msg, _instr.id, _last.id + 1))
         end
       end
-      _instr.write_to_bin(_f)
+      _instr.write_bin(_f)
       _last = _instr
     end
 

@@ -67,9 +67,9 @@ class PlayableShipData < StdEntryData
   end
   
   # Reads all entries from binary files.
-  def load_all_from_bin
-    @ship_cannon_data.load_all_from_bin
-    @ship_accessory_data.load_all_from_bin
+  def load_bin
+    @ship_cannon_data.load_bin
+    @ship_accessory_data.load_bin
     super
   end
 

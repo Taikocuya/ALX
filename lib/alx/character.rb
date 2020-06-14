@@ -105,7 +105,7 @@ class Character < StdEntry
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  def write_csv(_f)
     _id = find_member(VOC.gender_id).value
     find_member(VOC.gender_name).value = VOC.genders[_id]
     

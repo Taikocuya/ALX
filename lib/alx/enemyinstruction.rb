@@ -110,14 +110,14 @@ class EnemyInstruction < Entry
 
   # Reads one entry from a CSV  file.
   # @param _csv [CSV] CSV object
-  def read_from_csv(_csv)
+  def read_csv(_csv)
     super
     @files = find_member(VOC.filter).value.split(';')
   end
   
   # Writes one entry to a CSV file.
   # @param _csv [CSV] CSV object
-  def write_to_csv(_csv)
+  def write_csv(_csv)
     find_member(VOC.filter).value = @files.join(';')
 
     _id = find_member(VOC.instr_enemy_id).value

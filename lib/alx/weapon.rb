@@ -72,7 +72,7 @@ class Weapon < StdEntry
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  def write_csv(_f)
     _id = find_member(VOC.character_id[-1]).value
     find_member(VOC.character_name[-1]).value = VOC.characters[_id]
     

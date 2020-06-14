@@ -87,42 +87,42 @@ class EntryData
   # Reads an object from a SHT file and returns it.
   # @param _sym [Symbol] Object symbol
   # @return [Object] Object instance
-  def load_data_from_sht(_sym)
+  def load_sht_data(_sym)
     unless SYS.snapshot_cache
       return nil
     end
     
-    @sht.load_data_from_sht(_sym)
+    @sht.load_sht_data(_sym)
   end
 
   # Reads all snaphots (instance variables) from SHT files.
-  def load_all_from_sht
+  def load_sht
     unless SYS.snapshot_cache
       return
     end
     
-    @sht.load_meta_from_sht
+    @sht.load_sht_meta
   end
 
   # Writes an object to a SHT file and returns it.
   # @param _sym [Symbol] Object symbol
   # @param _obj [Object] Object instance
   # @return [Object] Object instance
-  def save_data_to_sht(_sym, _obj)
+  def save_sht_data(_sym, _obj)
     unless SYS.snapshot_cache
       return nil
     end
 
-    @sht.save_data_to_sht(_sym, _obj)
+    @sht.save_sht_data(_sym, _obj)
   end
 
   # Writes all snaphots (instance variables) to SHT files.
-  def save_all_to_sht
+  def save_sht
     unless SYS.snapshot_cache
       return
     end
     
-    @sht.save_meta_to_sht
+    @sht.save_sht_meta
   end
   
 #------------------------------------------------------------------------------

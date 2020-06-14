@@ -79,7 +79,7 @@ class Armor < StdEntry
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  def write_csv(_f)
     _flags = find_member(VOC.character_flags).value
     VOC.characters.each do |_id, _chara|
       _member = VOC.character_opt[_chara.chr]

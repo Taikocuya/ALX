@@ -89,14 +89,14 @@ class EnemyShipTask < Entry
 
   # Reads one entry from a CSV  file.
   # @param _csv [CSV] CSV object
-  def read_from_csv(_csv)
+  def read_csv(_csv)
     super
     @file = find_member(VOC.filter).value
   end
   
   # Writes one entry to a CSV file.
   # @param _csv [CSV] CSV object
-  def write_to_csv(_csv)
+  def write_csv(_csv)
     _match = SYS.enemy_ship_tasks.find do |_, _array|
       _array.any? do |_task_id|
         @file.include?(_task_id.to_s)

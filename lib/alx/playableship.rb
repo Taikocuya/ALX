@@ -101,7 +101,7 @@ class PlayableShip < StdEntry
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  def write_csv(_f)
     _size = product_id == '6107110 06' || product_id == '6107810' ? 4 : 5
     (0..._size).each do |_i|
       _id = find_member(VOC.ship_cannon_id[_i]).value

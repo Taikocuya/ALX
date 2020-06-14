@@ -57,25 +57,25 @@ class Property
   
   # Reads one entry from a binary I/O stream.
   # @param _f [IO] Binary I/O stream
-  def read_from_bin(_f)
+  def read_bin(_f)
     # Nothing to do.
   end
   
   # Write one entry to a binary I/O stream.
   # @param _f [IO] Binary I/O stream
-  def write_to_bin(_f)
+  def write_bin(_f)
     # Nothing to do.
   end
 
   # Reads one entry from a CSV row.
   # @param _row [CSV::Row] CSV row
-  def read_from_csv_row(_row)
+  def read_csv(_row)
     # Nothing to do.
   end
 
   # Writes one entry to a CSV row.
   # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
+  def write_csv(_row)
     # Nothing to do.
   end
 

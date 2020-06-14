@@ -68,20 +68,20 @@ class EnemyShipTaskData < EntryData
   end
   
   # Reads all snaphots (instance variables) from SHT files.
-  def load_all_from_sht
+  def load_sht
     super
-    load_data_from_sht(:data)
+    load_sht_data(:data)
   end
   
   # Writes all snaphots (instance variables) to SHT files.
-  def save_all_to_sht
+  def save_sht
     super
-    save_data_to_sht(:data, @data)
+    save_sht_data(:data, @data)
   end
 
   # Reads all entries from a binary file.
   # @param _filename [String] File name
-  def load_data_from_bin(_filename)
+  def load_bin_data(_filename)
     meta.check_mtime(_filename)
     _file             = TecFile.new(root)
     _file.magics      = @character_magic_data.data
@@ -91,20 +91,20 @@ class EnemyShipTaskData < EntryData
   end
 
   # Reads all entries from binary files.
-  def load_all_from_bin
-    @character_magic_data.load_all_from_bin
-    @enemy_ship_data.load_all_from_bin
+  def load_bin
+    @character_magic_data.load_bin
+    @enemy_ship_data.load_bin
     
     glob(@tec_file) do |_p|
       if File.file?(_p)
-        load_data_from_bin(_p)
+        load_bin_data(_p)
       end
     end
   end
 
   # Writes all entries to a binary file.
   # @param _filename [String] File name
-  def save_data_to_bin(_filename)
+  def save_bin_data(_filename)
     unless meta.updated?
       LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
       return
@@ -117,7 +117,7 @@ class EnemyShipTaskData < EntryData
   end
 
   # Writes all entries to binary files.
-  def save_all_to_bin
+  def save_bin
     _files = []
     @data.each do |_entry|
       _filename = _entry.file
@@ -129,14 +129,14 @@ class EnemyShipTaskData < EntryData
 
     _dirname = File.dirname(@tec_file)
     _files.each do |_filename|
-      save_data_to_bin(glob(_dirname, _filename))
+      save_bin_data(glob(_dirname, _filename))
     end
   end
 
   # Reads all data entries from a CSV file.
   # @param _filename [String]  File name
   # @param _force    [Boolean] Skip missing file
-  def load_data_from_csv(_filename, _force = false)
+  def load_csv_data(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return
     end
@@ -153,7 +153,7 @@ class EnemyShipTaskData < EntryData
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _entry = create_entry
-        _entry.read_from_csv(_f)
+        _entry.read_csv(_f)
 
         if _snapshot
           _result = false
@@ -175,14 +175,14 @@ class EnemyShipTaskData < EntryData
   end
 
   # Reads all entries from CSV files (TPL files first, CSV files last).
-  def load_all_from_csv
-    load_data_from_csv(File.join(SYS.share_dir, @tpl_file), true)
-    load_data_from_csv(File.join(root.dirname , @csv_file)      )
+  def load_csv
+    load_csv_data(File.join(SYS.share_dir, @tpl_file), true)
+    load_csv_data(File.join(root.dirname , @csv_file)      )
   end
 
   # Writes all data entries to a CSV file.
   # @param _filename [String] File name
-  def save_data_to_csv(_filename)
+  def save_csv_data(_filename)
     if @data.empty?
       return
     end
@@ -199,7 +199,7 @@ class EnemyShipTaskData < EntryData
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @data.each do |_entry|
         LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
-        _entry.write_to_csv(_f)
+        _entry.write_csv(_f)
       end
     end
     
@@ -207,8 +207,8 @@ class EnemyShipTaskData < EntryData
   end
 
   # Writes all entries to CSV files.
-  def save_all_to_csv
-    save_data_to_csv(glob(@csv_file))
+  def save_csv
+    save_csv_data(glob(@csv_file))
   end
 
 #------------------------------------------------------------------------------

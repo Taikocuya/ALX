@@ -62,7 +62,7 @@ class Shop < StdEntry
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  def write_csv(_f)
     (1..48).each do |_i|
       _id = find_member(VOC.item_id[_i]).value
       if _id != -1

@@ -64,8 +64,8 @@ class ExpCurveData < StdEntryData
   end
   
   # Reads all entries from binary files.
-  def load_all_from_bin
-    @character_data.load_all_from_bin
+  def load_bin
+    @character_data.load_bin
     super
   end
 

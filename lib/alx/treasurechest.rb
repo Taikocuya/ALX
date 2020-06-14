@@ -60,7 +60,7 @@ class TreasureChest < StdEntry
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  def write_csv(_f)
     _id = find_member(VOC.item_id[-1]).value
     if _id != -1
       if _id >= 510

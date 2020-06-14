@@ -43,14 +43,14 @@ class IntExt < Property
 
   # Reads one entry from a CSV row.
   # @param _row [CSV::Row] CSV row
-  def read_from_csv_row(_row)
+  def read_csv(_row)
     super
     self.value = _row[name] || value
   end
 
   # Writes one entry to a CSV row.
   # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
+  def write_csv(_row)
     super
     _row[name] = value
   end

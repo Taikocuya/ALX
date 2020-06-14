@@ -138,15 +138,15 @@ class EnemyShipData < StdEntryData
   end
 
   # Reads all entries from binary files.
-  def load_all_from_bin
-    @accessory_data.load_all_from_bin
-    @armor_data.load_all_from_bin
-    @ship_accessory_data.load_all_from_bin
-    @ship_cannon_data.load_all_from_bin
-    @ship_item_data.load_all_from_bin
-    @special_item_data.load_all_from_bin
-    @usable_item_data.load_all_from_bin
-    @weapon_data.load_all_from_bin
+  def load_bin
+    @accessory_data.load_bin
+    @armor_data.load_bin
+    @ship_accessory_data.load_bin
+    @ship_cannon_data.load_bin
+    @ship_item_data.load_bin
+    @special_item_data.load_bin
+    @usable_item_data.load_bin
+    @weapon_data.load_bin
     
     @items.merge!(@accessory_data.data)
     @items.merge!(@armor_data.data)
@@ -166,7 +166,7 @@ class EnemyShipData < StdEntryData
   
   # Writes all armament name entries to a binary file.
   # @param _filename [String] File name
-  def save_arm_name_to_bin(_filename)
+  def save_bin_arm_name(_filename)
     if @data.empty?
       return
     end
@@ -228,11 +228,11 @@ class EnemyShipData < StdEntryData
   end
     
   # Writes all entries to binary files.
-  def save_all_to_bin
+  def save_bin
     super
   
     each_descriptor(@arm_name_file) do |_d|
-      save_arm_name_to_bin(glob(_d.name))
+      save_bin_arm_name(glob(_d.name))
     end
   end
 

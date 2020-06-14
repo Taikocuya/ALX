@@ -128,7 +128,7 @@ class CharacterMagicData < StdEntryData
   end
 
   # Reads all entries from binary files.
-  def load_all_from_bin
+  def load_bin
     super
 
     each_descriptor(@ship_dscr_file) do |_d|
@@ -138,7 +138,7 @@ class CharacterMagicData < StdEntryData
 
   # Writes all ship description entries to a binary file.
   # @param _filename [String] File name
-  def save_ship_dscr_to_bin(_filename)
+  def save_bin_ship_dscr(_filename)
     if @data.empty?
       return
     end
@@ -196,11 +196,11 @@ class CharacterMagicData < StdEntryData
   end
     
   # Writes all entries to binary files.
-  def save_all_to_bin
+  def save_bin
     super
 
     each_descriptor(@ship_dscr_file) do |_d|
-      save_ship_dscr_to_bin(glob(_d.name))
+      save_bin_ship_dscr(glob(_d.name))
     end
   end
 

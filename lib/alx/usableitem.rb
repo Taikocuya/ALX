@@ -81,7 +81,7 @@ class UsableItem < StdEntry
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  def write_csv(_f)
     _flags = find_member(VOC.occasion_flags).value
     VOC.occasions.each do |_id, _occasion|
       find_member(_occasion).value = _flags & (0x4 >> _id) != 0 ? 'X' : ''

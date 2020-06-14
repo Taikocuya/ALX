@@ -112,9 +112,9 @@ class DefinedStringDetector
   # file again.
   def load_cache
     @sht = ShtManager.new(@root, self.class.name.split('::').last)
-    @sht.load_meta_from_sht
+    @sht.load_sht_meta
     
-    @cache = @sht.load_data_from_sht(:cache) || []
+    @cache = @sht.load_sht_data(:cache) || []
     if !@cache.empty?
       @enum = @cache.each
     end
@@ -130,8 +130,8 @@ class DefinedStringDetector
       return
     end
   
-    @sht.save_meta_to_sht
-    @sht.save_data_to_sht(:cache, @cache)
+    @sht.save_sht_meta
+    @sht.save_sht_data(:cache, @cache)
 
     if @cache && !@cache.empty?
       @enum = @cache.each

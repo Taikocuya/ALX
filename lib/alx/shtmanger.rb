@@ -83,7 +83,7 @@ class ShtManager
   # Reads an object from a SHT file, assigns it to #snaps and returns it.
   # @param _sym [Symbol] Object symbol
   # @return [Object] Object instance
-  def load_data_from_sht(_sym)
+  def load_sht_data(_sym)
     _sym      = _sym.to_sym
     _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
     _filename = sprintf(SHT_FILE, @name, _sym).downcase
@@ -107,8 +107,8 @@ class ShtManager
 
   # Reads the metadata from a SHT file.
   # @return [Object] Object instance
-  def load_meta_from_sht
-    @meta = load_data_from_sht(:meta) || clear_meta
+  def load_sht_meta
+    @meta = load_sht_data(:meta) || clear_meta
     if !@meta.valid? || @meta.luid != @luid
       clear_meta
       clear_snaps
@@ -122,7 +122,7 @@ class ShtManager
   # @param _sym [Symbol] Object symbol
   # @param _obj [Object] Object instance
   # @return [Object] Object instance
-  def save_data_to_sht(_sym, _obj)
+  def save_sht_data(_sym, _obj)
     _sym = _sym.to_sym
     _obj = _obj.dup
     if _obj.is_a?(Hash)
@@ -144,9 +144,9 @@ class ShtManager
 
   # Writes the metadata to a SHT file.
   # @return [Object] Object instance
-  def save_meta_to_sht
+  def save_sht_meta
     clear_meta
-    save_data_to_sht(:meta, @meta)
+    save_sht_data(:meta, @meta)
   end
   
 #------------------------------------------------------------------------------

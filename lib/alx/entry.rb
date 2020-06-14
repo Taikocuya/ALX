@@ -69,7 +69,7 @@ class Entry
   # @return [Integer] Size of entry
   def size
     _strio = BinaryStringIO.new('', 'wb', endianness: @root.endianness)
-    write_to_bin(_strio)
+    write_bin(_strio)
     _strio.pos
   end
 
@@ -162,38 +162,38 @@ class Entry
 
   # Reads one entry from a binary I/O stream.
   # @param _f [IO] Binary I/O stream
-  def read_from_bin(_f)
+  def read_bin(_f)
     @members.each do |_m|
-      _m.read_from_bin(_f)
+      _m.read_bin(_f)
     end
   end
   
   # Write one entry to a binary IO.
   # @param _f [IO] Binary I/O stream
-  def write_to_bin(_f)
+  def write_bin(_f)
     @members.each do |_m|
-      _m.write_to_bin(_f)
+      _m.write_bin(_f)
     end
   end
 
   # Reads one entry from a CSV file or CSV row.
   # @param _csv   [CSV, CSV::Row] CSV object or CSV row
   # @param _force [Boolean]       Ignore missing properties.
-  def read_from_csv(_csv, _force = false)
+  def read_csv(_csv, _force = false)
     _row = _csv.is_a?(CSV::Row) ? _csv : _csv.shift
     @members.each do |_m|
       if !_force || _row.header?(_m.name)
-        _m.read_from_csv_row(_row)
+        _m.read_csv(_row)
       end
     end
   end
 
   # Writes one entry to a CSV file.
   # @param _csv [CSV] CSV object
-  def write_to_csv(_csv)
+  def write_csv(_csv)
     _row = CSV::Row.new(header, [])
     @members.each do |_m|
-      _m.write_to_csv_row(_row)
+      _m.write_csv(_row)
     end
     _csv << _row
   end

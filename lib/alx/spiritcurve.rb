@@ -56,7 +56,7 @@ class SpiritCurve < StdEntry
 
   # Writes one entry to a CSV file.
   # @param _f [CSV] CSV object
-  def write_to_csv(_f)
+  def write_csv(_f)
     _chara = @characters[id]
     _name  = '???'
     if _chara

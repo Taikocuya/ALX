@@ -153,7 +153,7 @@ class EnpFile < EpFile
         (0..._size).each do |_id|
           LOG.info(sprintf(VOC.read, _id, _f.pos))
           _encounter = create_encounter(_id, _segname)
-          _encounter.read_from_bin(_f)
+          _encounter.read_bin(_f)
           @encounters << _encounter
         end
 
@@ -260,7 +260,7 @@ class EnpFile < EpFile
         (0..._entries.size).each do |_id|
           LOG.info(sprintf(VOC.write, _id, _f.pos))
           _encounter = _entries[_id]
-          _encounter.write_to_bin(_f)
+          _encounter.write_bin(_f)
         end
 
         # Enemies

@@ -54,21 +54,21 @@ class StrVar < Property
 
   # Reads one entry from a binary I/O stream
   # @param _f [IO] Binary I/O stream
-  def read_from_bin(_f)
+  def read_bin(_f)
     super
     self.value = _f.read_str(@size)
   end
   
   # Write one entry to a binary I/O stream
   # @param _f [IO] Binary I/O stream
-  def write_to_bin(_f)
+  def write_bin(_f)
     super
     _f.write_str(value, @size)
   end
 
   # Reads one entry from a CSV row.
   # @param _row [CSV::Row] CSV row
-  def read_from_csv_row(_row)
+  def read_csv(_row)
     super
     
     self.value = _row[name] || value
@@ -84,7 +84,7 @@ class StrVar < Property
 
   # Writes one entry to a CSV row.
   # @param _row [CSV::Row] CSV row
-  def write_to_csv_row(_row)
+  def write_csv(_row)
     super
     
     _value = value.dup

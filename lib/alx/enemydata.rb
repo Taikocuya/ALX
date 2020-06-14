@@ -294,26 +294,26 @@ class EnemyData < EntryData
   end
 
   # Reads all snaphots (instance variables) from SHT files.
-  def load_all_from_sht
+  def load_sht
     super
-    load_data_from_sht(:enemies     )
-    load_data_from_sht(:instructions)
-    load_data_from_sht(:events      )
-    load_data_from_sht(:encounters  )
+    load_sht_data(:enemies     )
+    load_sht_data(:instructions)
+    load_sht_data(:events      )
+    load_sht_data(:encounters  )
   end
   
   # Writes all snaphots (instance variables) to SHT files.
-  def save_all_to_sht
+  def save_sht
     super
-    save_data_to_sht(:enemies,      @enemies     )
-    save_data_to_sht(:instructions, @instructions)
-    save_data_to_sht(:events,       @events      )
-    save_data_to_sht(:encounters,   @encounters  )
+    save_sht_data(:enemies,      @enemies     )
+    save_sht_data(:instructions, @instructions)
+    save_sht_data(:events,       @events      )
+    save_sht_data(:encounters,   @encounters  )
   end
     
   # Reads all entries from an EVP file.
   # @param _filename [String] File name
-  def load_data_from_evp(_filename)
+  def load_evp_data(_filename)
     meta.check_mtime(_filename)
     _file             = EvpFile.new(root)
     _file.items       = @items
@@ -327,7 +327,7 @@ class EnemyData < EntryData
 
   # Reads all BGM entries from a binary file.
   # @param _filename [String] File name
-  def load_bgms_from_bin(_filename)
+  def load_bin_bgms(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
     meta.check_mtime(_filename)
@@ -362,7 +362,7 @@ class EnemyData < EntryData
   
   # Reads all entries from an ENP file.
   # @param _filename [String] File name
-  def load_data_from_enp(_filename)
+  def load_enp_data(_filename)
     meta.check_mtime(_filename)
     _file             = EnpFile.new(root)
     _file.items       = @items
@@ -376,7 +376,7 @@ class EnemyData < EntryData
   
   # Reads all entries from a DAT file.
   # @param _filename [String] File name
-  def load_data_from_dat(_filename)
+  def load_dat_data(_filename)
     meta.check_mtime(_filename)
     _file             = DatFile.new(root)
     _file.items       = @items
@@ -388,17 +388,17 @@ class EnemyData < EntryData
   end
   
   # Reads all entries from binary files.
-  def load_all_from_bin
-    @accessory_data.load_all_from_bin
-    @armor_data.load_all_from_bin
-    @enemy_magic_data.load_all_from_bin
-    @enemy_super_move_data.load_all_from_bin
-    @ship_accessory_data.load_all_from_bin
-    @ship_cannon_data.load_all_from_bin
-    @ship_item_data.load_all_from_bin
-    @special_item_data.load_all_from_bin
-    @usable_item_data.load_all_from_bin
-    @weapon_data.load_all_from_bin
+  def load_bin
+    @accessory_data.load_bin
+    @armor_data.load_bin
+    @enemy_magic_data.load_bin
+    @enemy_super_move_data.load_bin
+    @ship_accessory_data.load_bin
+    @ship_cannon_data.load_bin
+    @ship_item_data.load_bin
+    @special_item_data.load_bin
+    @usable_item_data.load_bin
+    @weapon_data.load_bin
     
     @items.merge!(@accessory_data.data)
     @items.merge!(@armor_data.data)
@@ -410,34 +410,34 @@ class EnemyData < EntryData
     @items.merge!(@weapon_data.data)
 
     # DOL and EVP files
-    load_data_from_evp(@evp_file)
+    load_evp_data(@evp_file)
     each_descriptor(@event_bgm_file) do |_d|
-      load_bgms_from_bin(glob(_d.name))
+      load_bin_bgms(glob(_d.name))
     end
 
     # ENP files
     glob(@enp_file) do |_p|
       if File.file?(_p)
-        load_data_from_enp(_p)
+        load_enp_data(_p)
       end
     end
 
     # DAT files
     glob(@ec_file) do |_p|
       if File.file?(_p)
-        load_data_from_dat(_p)
+        load_dat_data(_p)
       end
     end
     glob(@eb_file) do |_p|
       if File.file?(_p)
-        load_data_from_dat(_p)
+        load_dat_data(_p)
       end
     end
   end
   
   # Writes all entries to an EVP file.
   # @param _filename [String] File name
-  def save_data_to_evp(_filename)
+  def save_evp_data(_filename)
     unless meta.updated?
       LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
       return
@@ -453,7 +453,7 @@ class EnemyData < EntryData
 
   # Writes all BGM entries to a binary file.
   # @param _filename [String] File name
-  def save_bgms_to_bin(_filename)
+  def save_bin_bgm(_filename)
     if @events.empty?
       return
     end
@@ -497,7 +497,7 @@ class EnemyData < EntryData
   
   # Writes all entries to an ENP file.
   # @param _filename [String] File name
-  def save_data_to_enp(_filename)
+  def save_enp_data(_filename)
     unless meta.updated?
       LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
       return
@@ -513,7 +513,7 @@ class EnemyData < EntryData
   
   # Writes all entries to a DAT file.
   # @param _filename [String] File name
-  def save_data_to_dat(_filename)
+  def save_dat_data(_filename)
     unless meta.updated?
       LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
       return
@@ -527,11 +527,11 @@ class EnemyData < EntryData
   end
 
   # Writes all entries to binary files.
-  def save_all_to_bin
+  def save_bin
     # DOL and EVP files
-    save_data_to_evp(@evp_file)
+    save_evp_data(@evp_file)
     each_descriptor(@event_bgm_file) do |_d|
-      save_bgms_to_bin(glob(_d.name))
+      save_bin_bgm(glob(_d.name))
     end
 
     # ENP files
@@ -553,7 +553,7 @@ class EnemyData < EntryData
 
     _dirname = File.dirname(@enp_file)
     _files.each do |_filename|
-      save_data_to_enp(glob(_dirname, _filename))
+      save_enp_data(glob(_dirname, _filename))
     end
 
     # DAT files
@@ -571,15 +571,15 @@ class EnemyData < EntryData
       else
         _filename = sprintf(@eb_file.sub('*', '%03d'), _id & 0x7f)
       end
-      save_data_to_dat(glob(_filename))
+      save_dat_data(glob(_filename))
     end
   end
 
   # Reads all enemy entries from a CSV file. This method must be called before 
-  # #load_instructions_from_csv.
+  # #load_csv_instructions.
   # @param _filename [String]  File name
   # @param _force    [Boolean] Skip missing file
-  def load_enemies_from_csv(_filename, _force = false)
+  def load_csv_enemies(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return
     end
@@ -591,10 +591,10 @@ class EnemyData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
-      # If the methods #load_enemies_from_csv and #load_instructions_from_csv 
-      # are called in the wrong order, each enemy is forced to be saved. 
-      # Snapshots are not loaded and differences will not be detected, which 
-      # enormously increases the total runtime.
+      # If the methods #load_csv_enemies and #load_csv_instructions are called 
+      # in the wrong order, each enemy is forced to be saved. Snapshots are 
+      # not loaded and differences will not be detected, which enormously 
+      # increases the total runtime.
       if @instructions.empty?
         _snapshot = snaps[:enemies].dup
       end
@@ -602,7 +602,7 @@ class EnemyData < EntryData
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _enemy = create_enemy
-        _enemy.read_from_csv(_f)
+        _enemy.read_csv(_f)
         
         if _snapshot
           _result = false
@@ -625,10 +625,10 @@ class EnemyData < EntryData
 
   # Reads all enemy instructions from a CSV file. Forwards the expiration to 
   # the corresponding enemy object if an enemy instruction differs from the
-  # snapshot. This method must be called after #load_enemies_from_csv.
+  # snapshot. This method must be called after #load_csv_enemies.
   # @param _filename [String]  File name
   # @param _force    [Boolean] Skip missing file
-  def load_instructions_from_csv(_filename, _force = false)
+  def load_csv_instructions(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return
     end
@@ -640,10 +640,10 @@ class EnemyData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
-      # If the methods #load_enemies_from_csv and #load_instructions_from_csv 
-      # are called in the wrong order, each enemy is forced to be saved. 
-      # Snapshots are not loaded and differences will not be detected, which 
-      # enormously increases the total runtime.
+      # If the methods #load_csv_enemies and #load_csv_instructions are called 
+      # in the wrong order, each enemy is forced to be saved. Snapshots are 
+      # not loaded and differences will not be detected, which enormously 
+      # increases the total runtime.
       unless @enemies.empty?
         _snapshot = snaps[:instructions]
         if _snapshot
@@ -656,7 +656,7 @@ class EnemyData < EntryData
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _instr = create_instruction
-        _instr.read_from_csv(_f)
+        _instr.read_csv(_f)
         
         if _snapshot
           _key   = _instr.group_key
@@ -688,7 +688,7 @@ class EnemyData < EntryData
   # Reads all event entries from a CSV file.
   # @param _filename [String]  File name
   # @param _force    [Boolean] Skip missing file
-  def load_events_from_csv(_filename, _force = false)
+  def load_csv_events(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return
     end
@@ -705,7 +705,7 @@ class EnemyData < EntryData
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _event = create_event
-        _event.read_from_csv(_f)
+        _event.read_csv(_f)
         
         if _snapshot
           _result = false
@@ -729,7 +729,7 @@ class EnemyData < EntryData
   # Reads all encounter entries from a CSV file.
   # @param _filename [String]  File name
   # @param _force    [Boolean] Skip missing file
-  def load_encounters_from_csv(_filename, _force = false)
+  def load_csv_encounters(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return
     end
@@ -746,7 +746,7 @@ class EnemyData < EntryData
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _encounter = create_encounter
-        _encounter.read_from_csv(_f)
+        _encounter.read_csv(_f)
         
         if _snapshot
           _result = false
@@ -768,26 +768,26 @@ class EnemyData < EntryData
   end
 
   # Reads all entries from CSV files (TPL files first, CSV files last).
-	def load_all_from_csv
+	def load_csv
 	  _share = SYS.share_dir
     _root  = root.dirname
 	  
-    load_enemies_from_csv(File.join(_share, @enemy_tpl_file), true)
-    load_enemies_from_csv(File.join(_root , @enemy_csv_file)      )
+    load_csv_enemies(File.join(_share, @enemy_tpl_file), true)
+    load_csv_enemies(File.join(_root , @enemy_csv_file)      )
 
-    load_instructions_from_csv(File.join(_share, @instruction_tpl_file), true)
-    load_instructions_from_csv(File.join(_root , @instruction_csv_file)      )
+    load_csv_instructions(File.join(_share, @instruction_tpl_file), true)
+    load_csv_instructions(File.join(_root , @instruction_csv_file)      )
     
-    load_events_from_csv(File.join(_share, @event_tpl_file), true)
-    load_events_from_csv(File.join(_root , @event_csv_file)      )
+    load_csv_events(File.join(_share, @event_tpl_file), true)
+    load_csv_events(File.join(_root , @event_csv_file)      )
     
-    load_encounters_from_csv(File.join(_share, @encounter_tpl_file), true)
-    load_encounters_from_csv(File.join(_root , @encounter_csv_file)      )
+    load_csv_encounters(File.join(_share, @encounter_tpl_file), true)
+    load_csv_encounters(File.join(_root , @encounter_csv_file)      )
 	end
 	
   # Writes all enemy entries to a CSV file.
   # @param _filename [String] File name
-  def save_enemies_to_csv(_filename)
+  def save_csv_enemy(_filename)
     if @enemies.empty?
       return
     end
@@ -806,7 +806,7 @@ class EnemyData < EntryData
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @enemies.each do |_enemy|
         LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
-        _enemy.write_to_csv(_f)
+        _enemy.write_csv(_f)
       end
     end
     
@@ -815,7 +815,7 @@ class EnemyData < EntryData
 
   # Writes all enemy instruction entries to a CSV file.
   # @param _filename [String] File name
-  def save_instructions_to_csv(_filename)
+  def save_csv_instruction(_filename)
     if @instructions.empty?
       return
     end
@@ -834,7 +834,7 @@ class EnemyData < EntryData
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @instructions.each do |_instr|
         LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
-        _instr.write_to_csv(_f)
+        _instr.write_csv(_f)
       end
     end
     
@@ -843,7 +843,7 @@ class EnemyData < EntryData
 
   # Writes all event entries to a CSV file.
   # @param _filename [String] File name
-  def save_events_to_csv(_filename)
+  def save_csv_event(_filename)
     if @events.empty?
       return
     end
@@ -860,7 +860,7 @@ class EnemyData < EntryData
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @events.each do |_event|
         LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
-        _event.write_to_csv(_f)
+        _event.write_csv(_f)
       end
     end
     
@@ -869,7 +869,7 @@ class EnemyData < EntryData
       
   # Writes all encounter entries to a CSV file.
   # @param _filename [String] File name
-  def save_encounters_to_csv(_filename)
+  def save_csv_encounter(_filename)
     if @encounters.empty?
       return
     end
@@ -886,7 +886,7 @@ class EnemyData < EntryData
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @encounters.each do |_encounter|
         LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
-        _encounter.write_to_csv(_f)
+        _encounter.write_csv(_f)
       end
     end
     
@@ -894,11 +894,11 @@ class EnemyData < EntryData
   end
 
   # Writes all entries to CSV files.
-	def save_all_to_csv
-    save_enemies_to_csv(glob(@enemy_csv_file))
-    save_instructions_to_csv(glob(@instruction_csv_file))
-    save_events_to_csv(glob(@event_csv_file))
-    save_encounters_to_csv(glob(@encounter_csv_file))
+	def save_csv
+    save_csv_enemy(glob(@enemy_csv_file))
+    save_csv_instruction(glob(@instruction_csv_file))
+    save_csv_event(glob(@event_csv_file))
+    save_csv_encounter(glob(@encounter_csv_file))
 	end
 
 #------------------------------------------------------------------------------
