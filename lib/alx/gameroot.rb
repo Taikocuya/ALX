@@ -382,7 +382,19 @@ class GameRoot
     PLATFORMS.find do |_id, _name|
       _files  = SYS.platform_files[_id]
       _result = _files.all? do |_path|
-        !Dir.glob(join(_path)).empty?
+        _path   = join(_path)
+        _msg    = sprintf(VOC.check_file, _path)
+        _result = !Dir.glob(_path).empty?
+        
+        if _result
+          _msg += sprintf(' - %s', VOC.exists)
+          ALX::LOG.info(_msg)
+        else
+          _msg += sprintf(' - %s', VOC.not_found)
+          ALX::LOG.warn(_msg)
+        end
+        
+        _result
       end
       
       @platform_id   = _id
