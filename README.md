@@ -89,8 +89,8 @@ the appropriate data extraction tool.
 
 | Platform  | Download                                                     |
 |:---------:|:------------------------------------------------------------:|
-| Dreamcast | [GCRebuilder](http://www.romhacking.net/utilities/619/)      |
-| Gamecube  | [GDRom Explorer](https://www.romhacking.net/utilities/1459/) |
+| Dreamcast | [GDRom Explorer](https://www.romhacking.net/utilities/1459/) |
+| Gamecube  | [GCRebuilder](http://www.romhacking.net/utilities/619/)      |
 
 Commands
 --------
