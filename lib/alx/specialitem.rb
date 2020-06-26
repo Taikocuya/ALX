@@ -45,24 +45,35 @@ class SpecialItem < StdEntry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    add_name_members
+    init_props
+  end
 
-    members << IntVar.new(VOC.retail_price              ,  0, :int8  )
-    members << IntVar.new(VOC.order_priority            , -1, :int8  )
-    members << IntVar.new(VOC.order_alphabet[country_id], -1, :int8  )
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry properties.
+  def init_props
+    add_name_props
+
+    self[VOC.retail_price  ] = IntProp.new(:i8,  0)
+    self[VOC.order_prio    ] = IntProp.new(:i8, -1)
+    self[VOC.order_abc[cid]] = IntProp.new(:i8, -1)
     
     if eu?
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
+      self[padding_hdr] = IntProp.new(:i8, 0)
     end
     
-    members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
+    self[VOC.purchase_price] = IntProp.new(:u16, 0)
 
     if eu?
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
+      self[padding_hdr] = IntProp.new(:i8, 0)
+      self[padding_hdr] = IntProp.new(:i8, 0)
     end
 
-    add_dscr_members
+    add_dscr_props
   end
 
 end	# class SpecialItem

@@ -45,98 +45,114 @@ class ShipItem < StdEntry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    add_name_members
+    init_props
+    init_procs
+  end
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry properties.
+  def init_props
+    add_name_props
 
     if product_id != '6107110 06' && product_id != '6107810'
-      members << HexVar.new(VOC.occasion_flags            ,  0, :int8  )
-      members << StrDmy.new(VOC.occasion_menu             , ''         )
-      members << StrDmy.new(VOC.occasion_battle           , ''         )
-      members << StrDmy.new(VOC.occasion_ship             , ''         )
-      members << IntVar.new(VOC.ship_effect_id            ,  0, :int8  )
-      members << StrDmy.new(VOC.ship_effect_name          , ''         )
-      members << IntVar.new(VOC.ship_effect_turns         ,  0, :int8  )
-      members << IntVar.new(VOC.consume                   ,  0, :int8  )
+      self[VOC.occasion_flags] = IntProp.new(:u8, 0, base: 16)
+
+      VOC.occasions.each do |_id, _occasion|
+        self[_occasion] = StrProp.new(nil, '', dmy: true)
+      end
+      
+      self[VOC.ship_effect_id   ] = IntProp.new(:i8,  0           )
+      self[VOC.ship_effect_name ] = StrProp.new(nil, '', dmy: true)
+      self[VOC.ship_effect_turns] = IntProp.new(:i8,  0           )
+      self[VOC.consume          ] = IntProp.new(:i8,  0           )
   
       if jp? || us?
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+        self[padding_hdr] = IntProp.new(:i8, 0)
       end
   
       if dc? && (jp? || us?)
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+        self[padding_hdr] = IntProp.new(:i8, 0)
+        self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
+      self[VOC.purchase_price] = IntProp.new(:u16, 0)
   
       if dc?
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+        self[padding_hdr] = IntProp.new(:i8, 0)
+        self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      members << IntVar.new(VOC.retail_price              ,  0, :int8  )
-      members << IntVar.new(VOC.order_priority            ,  0, :int8  )
-      members << IntVar.new(VOC.order_alphabet[country_id],  0, :int8  )
-      members << IntVar.new(padding_hdr                   ,  0, :int8  )
+      self[VOC.retail_price  ] = IntProp.new(:i8,  0)
+      self[VOC.order_prio    ] = IntProp.new(:i8, -1)
+      self[VOC.order_abc[cid]] = IntProp.new(:i8, -1)
+      self[padding_hdr       ] = IntProp.new(:i8,  0)
       
       if gc? && eu?
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+        self[padding_hdr] = IntProp.new(:i8, 0)
+        self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      members << IntVar.new(VOC.ship_effect_value         ,  0, :int16 )
-      members << IntVar.new(VOC.element_id                ,  0, :int8  )
-      members << StrDmy.new(VOC.element_name              , ''         )
-      members << IntVar.new(unknown_hdr                   ,  0, :int8  )
-      members << IntVar.new(unknown_hdr                   ,  0, :int16 )
-      members << IntVar.new(VOC.hit                       ,  0, :int16 )
+      self[VOC.ship_effect_value] = IntProp.new(:i16,  0           )
+      self[VOC.element_id       ] = IntProp.new( :i8,  0           )
+      self[VOC.element_name     ] = StrProp.new( nil, '', dmy: true)
+      self[unknown_hdr          ] = IntProp.new( :i8,  0           )
+      self[unknown_hdr          ] = IntProp.new(:i16,  0           )
+      self[VOC.hit              ] = IntProp.new(:i16,  0           )
   
-      add_dscr_members
+      add_dscr_props
     else
-      members << IntVar.new(padding_hdr                   ,  0, :int8  )
-      members << IntVar.new(padding_hdr                   ,  0, :int8  )
-      members << IntVar.new(padding_hdr                   ,  0, :int8  )
-      members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
-      members << IntVar.new(padding_hdr                   ,  0, :int8  )
-      members << IntVar.new(padding_hdr                   ,  0, :int8  )
-      members << IntVar.new(VOC.retail_price              ,  0, :int8  )
-      members << HexVar.new(VOC.occasion_flags            ,  0, :int8  )
-      members << StrDmy.new(VOC.occasion_menu             , ''         )
-      members << StrDmy.new(VOC.occasion_battle           , ''         )
-      members << StrDmy.new(VOC.occasion_ship             , ''         )
-      members << IntVar.new(VOC.ship_effect_id            ,  0, :uint8 )
-      members << StrDmy.new(VOC.ship_effect_name          , ''         )
-      members << IntVar.new(VOC.ship_effect_turns         ,  0, :int8  )
-      members << IntVar.new(VOC.consume                   ,  0, :int8  )
-      members << IntVar.new(VOC.order_priority            ,  0, :int8  )
-      members << IntVar.new(VOC.order_alphabet[country_id],  0, :int8  )
-      members << IntVar.new(padding_hdr                   ,  0, :int8  )
-      members << IntVar.new(VOC.ship_effect_value         ,  0, :int16 )
-      members << IntVar.new(unknown_hdr                   ,  0, :int8  )
-      members << IntVar.new(unknown_hdr                   ,  0, :int8  )
-      members << IntVar.new(unknown_hdr                   ,  0, :int8  )
-      members << IntVar.new(unknown_hdr                   ,  0, :int8  )
-      members << IntVar.new(unknown_hdr                   ,  0, :int8  )
-      members << IntVar.new(unknown_hdr                   ,  0, :int8  )
+      self[padding_hdr       ] = IntProp.new( :i8, 0          )
+      self[padding_hdr       ] = IntProp.new( :i8, 0          )
+      self[padding_hdr       ] = IntProp.new( :i8, 0          )
+      self[VOC.purchase_price] = IntProp.new(:u16, 0          )
+      self[padding_hdr       ] = IntProp.new( :i8, 0          )
+      self[padding_hdr       ] = IntProp.new( :i8, 0          )
+      self[VOC.retail_price  ] = IntProp.new( :i8, 0          )
+      self[VOC.occasion_flags] = IntProp.new( :u8, 0, base: 16)
+
+      VOC.occasions.each do |_id, _occasion|
+        self[_occasion] = StrProp.new(nil, '', dmy: true)
+      end
+      
+      self[VOC.ship_effect_id   ] = IntProp.new( :i8,  0           )
+      self[VOC.ship_effect_name ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.ship_effect_turns] = IntProp.new( :i8,  0           )
+      self[VOC.consume          ] = IntProp.new( :i8,  0           )
+      self[VOC.order_prio       ] = IntProp.new( :i8, -1           )
+      self[VOC.order_abc[cid]   ] = IntProp.new( :i8, -1           )
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      self[VOC.ship_effect_value] = IntProp.new(:i16,  0           )
+      self[unknown_hdr          ] = IntProp.new( :i8,  0           )
+      self[unknown_hdr          ] = IntProp.new( :i8,  0           )
+      self[unknown_hdr          ] = IntProp.new( :i8,  0           )
+      self[unknown_hdr          ] = IntProp.new( :i8,  0           )
+      self[unknown_hdr          ] = IntProp.new( :i8,  0           )
+      self[unknown_hdr          ] = IntProp.new( :i8,  0           )
     end
   end
+  
+  # Initialize the entry procs.
+  def init_procs
+    fetch(VOC.occasion_flags).proc = Proc.new do |_flags|
+      VOC.occasions.each do |_id, _occasion|
+        self[_occasion] = (_flags & (0x4 >> _id) != 0) ? 'X' : ''
+      end
+    end
+    
+    fetch(VOC.ship_effect_id).proc = Proc.new do |_id|
+      self[VOC.ship_effect_name] = VOC.effects[_id]
+    end
 
-  # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_csv(_f)
-    _flags = find_member(VOC.occasion_flags).value
-    VOC.occasions.each do |_id, _occasion|
-      find_member(_occasion).value = _flags & (0x4 >> _id) != 0 ? 'X' : ''
-    end
-    
-    _id = find_member(VOC.ship_effect_id).value
-    find_member(VOC.ship_effect_name).value = VOC.effects[_id]
-    
     if product_id != '6107110 06' && product_id != '6107810'
-      _id = find_member(VOC.element_id).value
-      find_member(VOC.element_name).value = VOC.elements[_id]
+      fetch(VOC.element_id).proc = Proc.new do |_id|
+        self[VOC.element_name] = VOC.elements[_id]
+      end
     end
-    
-    super
   end
 
 end	# class ShipItem

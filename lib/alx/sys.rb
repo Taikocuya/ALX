@@ -575,6 +575,29 @@ SYS.configure do |_s|
   }
 
 #------------------------------------------------------------------------------
+# Character data
+#------------------------------------------------------------------------------
+
+  # Range of character IDs
+  _s.character_id_range = 0x0...0x6
+  
+  # Offset ranges of character data
+  _s.character_data_files = {
+    'DC-EU-8320062 50'        => rd(_s.exec_file['DC'], 0x335aa4...0x335e68),
+    'DC-EU-MK-51052-20001115' => rd(_s.exec_file['DC'], 0x361bbc...0x361f4c),
+    'DC-EU-MK-51052-20010306' => rd(_s.exec_file['DC'], 0x333a38...0x333dc8),
+    'DC-JP-6107110 06'        => rd(_s.exec_file['DC'], 0x35a594...0x35a924),
+    'DC-JP-6107810'           => rd(_s.exec_file['DC'], 0x359d14...0x35a0a4),
+    'DC-JP-HDR-0076'          => rd(_s.exec_file['DC'], 0x33e1F0...0x33e580),
+    'DC-JP-HDR-0119'          => rd(_s.exec_file['DC'], 0x3427f8...0x342b88),
+    'DC-US-IGN9'              => rd(_s.exec_file['DC'], 0x336690...0x336a20),
+    'DC-US-MK-51052'          => rd(_s.exec_file['DC'], 0x33c140...0x33c4d0),
+    'GC-EU-GEA'               => rd(_s.exec_file['GC'], 0x2c2ff0...0x2c3380),
+    'GC-JP-GEA'               => rd(_s.exec_file['GC'], 0x2c0d58...0x2c10e8),
+    'GC-US-GEA'               => rd(_s.exec_file['GC'], 0x2c1860...0x2c1bf0),
+  }
+
+#------------------------------------------------------------------------------
 # Character magic data
 #------------------------------------------------------------------------------
 
@@ -739,29 +762,6 @@ SYS.configure do |_s|
     'GC-US-GEA'                         => rd(
       _s.exec_file['GC'], 0x2d05c4...0x2d0ef4, excl: [0x8, 0xa..0xc, 0xe..0x13]
     ),
-  }
-
-#------------------------------------------------------------------------------
-# Character data
-#------------------------------------------------------------------------------
-
-  # Range of character IDs
-  _s.character_id_range = 0x0...0x6
-  
-  # Offset ranges of character data
-  _s.character_data_files = {
-    'DC-EU-8320062 50'        => rd(_s.exec_file['DC'], 0x335aa4...0x335e68),
-    'DC-EU-MK-51052-20001115' => rd(_s.exec_file['DC'], 0x361bbc...0x361f4c),
-    'DC-EU-MK-51052-20010306' => rd(_s.exec_file['DC'], 0x333a38...0x333dc8),
-    'DC-JP-6107110 06'        => rd(_s.exec_file['DC'], 0x35a594...0x35a924),
-    'DC-JP-6107810'           => rd(_s.exec_file['DC'], 0x359d14...0x35a0a4),
-    'DC-JP-HDR-0076'          => rd(_s.exec_file['DC'], 0x33e1F0...0x33e580),
-    'DC-JP-HDR-0119'          => rd(_s.exec_file['DC'], 0x3427f8...0x342b88),
-    'DC-US-IGN9'              => rd(_s.exec_file['DC'], 0x336690...0x336a20),
-    'DC-US-MK-51052'          => rd(_s.exec_file['DC'], 0x33c140...0x33c4d0),
-    'GC-EU-GEA'               => rd(_s.exec_file['GC'], 0x2c2ff0...0x2c3380),
-    'GC-JP-GEA'               => rd(_s.exec_file['GC'], 0x2c0d58...0x2c10e8),
-    'GC-US-GEA'               => rd(_s.exec_file['GC'], 0x2c1860...0x2c1bf0),
   }
 
 #------------------------------------------------------------------------------

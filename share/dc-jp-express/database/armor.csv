@@ -1,4 +1,4 @@
-Entry ID,JP Entry Name,Chara. Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order by Prio.,JP Order by ABC,Pad. 1,Purchase Price,Feat. 0 ID,[Feat. 0 Name],Pad. 2,Feat. 0 Value,Feat. 1 ID,[Feat. 1 Name],Pad. 3,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 4,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 5,Feat. 3 Value,[JP Descr. Pos.],[JP Descr. Size],JP Descr. Str.
+Entry ID,JP Entry Name,Chara. Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order by Prio.,JP Order by ABC,Pad. 1,Purchase Price,Feat. 1 ID,[Feat. 1 Name],Pad. 2,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 3,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 4,Feat. 3 Value,Feat. 4 ID,[Feat. 4 Name],Pad. 5,Feat. 4 Value,[JP Descr. Pos.],[JP Descr. Size],JP Descr. Str.
 80,ヴァイス服,0x27,X,"","",X,X,X,50,0,5,0,52,17,Defense,0,22,18,MagDef,0,18,-1,None,0,0,-1,None,0,0,0x2af878,24,ヴァイスの服。弱い。\n
 81,アイカ服,0x18,"",X,X,"","","",50,1,1,0,60,17,Defense,0,18,18,MagDef,0,22,-1,None,0,0,-1,None,0,0,0x2af890,24,アイカの服。黄色い。\n
 82,シルクのローブ,0x1a,"",X,X,"",X,"",50,3,47,0,65,17,Defense,0,16,18,MagDef,0,24,-1,None,0,0,-1,None,0,0,0x2af8a8,92,Ж術に対する耐久力が高いという繊維を編み込んだ、\n真っ白なローブだ。高いЖ防力を発揮するぞ。
@@ -33,7 +33,7 @@ Entry ID,JP Entry Name,Chara. Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Or
 111,水神の衣,0xa,"","",X,"",X,"",50,37,29,0,2078,17,Defense,0,118,18,MagDef,0,118,19,Hit%,0,5,20,Dodge%,0,5,0x0,0,""
 112,もっこりスーツ,0x27,X,"","",X,X,X,50,38,49,0,3503,17,Defense,0,176,18,MagDef,0,144,-1,None,0,0,-1,None,0,0,0x0,0,""
 113,勝負の下着,0x18,"",X,X,"","","",50,39,40,0,4000,17,Defense,0,140,18,MagDef,0,170,4,Quick,0,20,73,Counter%,0,20,0x2afa88,92,女の子が「今日は勝負!!」というときに着用する\nという伝説の下着だ。男の子は要チェックだぞ!!
-114,最後の服,0x3f,X,X,X,X,X,X,50,41,24,0,3429,17,Defense,0,151,18,MagDef,0,151,79,Block negative states,0,-2,-1,None,0,0,0x0,0,""
+114,最後の服,0x3f,X,X,X,X,X,X,50,41,24,0,3429,17,Defense,0,151,18,MagDef,0,151,79,Block Negative States,0,-2,-1,None,0,0,0x0,0,""
 115,アルカディア服,0x35,X,X,"",X,"",X,50,42,3,0,4268,17,Defense,0,168,18,MagDef,0,168,-1,None,0,0,-1,None,0,0,0x0,0,""
 116,真実の衣,0xa,"","",X,"",X,"",50,43,28,0,2693,17,Defense,0,134,18,MagDef,0,134,19,Hit%,0,5,20,Dodge%,0,5,0x0,0,""
 117,聖戦の鎧,0x25,X,"","",X,"",X,50,44,31,0,3538,17,Defense,0,201,18,MagDef,0,134,-1,None,0,0,-1,None,0,0,0x0,0,""

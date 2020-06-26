@@ -41,7 +41,7 @@ class IPFile
 
   public
 
-  # Constructs a IPFile.
+  # Constructs an IPFile.
   def initialize
     @product_id      = ''
     @product_name    = ''

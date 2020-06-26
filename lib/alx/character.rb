@@ -45,131 +45,165 @@ class Character < StdEntry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    @weapons     = {}
-    @armors      = {}
-    @accessories = {}
-
-    members << StrVar.new(VOC.name_str[country_id]  , '',      11)
-    members << IntVar.new(VOC.age                   ,  0, :int8  )
-    members << IntVar.new(VOC.gender_id             ,  0, :int8  )
-    members << StrDmy.new(VOC.gender_name           , ''         )
-    members << IntVar.new(VOC.width                 ,  0, :int8  )
-    members << IntVar.new(VOC.depth                 ,  0, :int8  )
-    members << IntVar.new(VOC.maxmp                 ,  0, :int8  )
-    members << IntVar.new(VOC.element_id            ,  0, :int8  )
-    members << StrDmy.new(VOC.element_name          , ''         )
-    members << IntVar.new(padding_hdr               ,  0, :int8  )
-    members << IntVar.new(VOC.weapon_id             ,  0, :uint16)
-    members << StrDmy.new(VOC.weapon_name           , ''         )
-    members << IntVar.new(VOC.armor_id              ,  0, :uint16)
-    members << StrDmy.new(VOC.armor_name            , ''         )
-    members << IntVar.new(VOC.accessory_id          ,  0, :uint16)
-    members << StrDmy.new(VOC.accessory_name        , ''         )
-    members << HexVar.new(VOC.movement_flags        ,  0, :int16 )
-    members << IntVar.new(VOC.hp                    ,  0, :int16 )
-    members << IntVar.new(VOC.maxhp                 ,  0, :int16 )
-    members << IntVar.new(VOC.base_hp_increase      ,  0, :int16 )
-    members << IntVar.new(VOC.spirit[-1]            ,  0, :int16 )
-    members << IntVar.new(VOC.maxspirit[-1]         ,  0, :int16 )
-    members << IntVar.new(VOC.counter               ,  0, :int16 )
-    members << IntVar.new(padding_hdr               ,  0, :int16 )
-    members << IntVar.new(VOC.exp[-1]               ,  0, :uint32)
-    members << FltVar.new(VOC.base_mp_increase      ,  0, :float )
-    members << FltVar.new(unknown_hdr               ,  0, :float )
-    
-    (0...6).each do |_i|
-      members << IntVar.new(VOC.elements[_i]        ,  0, :int16 )
-    end
-    (0...16).each do |_i|
-      members << IntVar.new(VOC.states[_i]          ,  0, :int16 )
-    end
-
-    members << IntVar.new(VOC.power                 ,  0, :int16 )
-    members << IntVar.new(VOC.will                  ,  0, :int16 )
-    members << IntVar.new(VOC.vigor                 ,  0, :int16 )
-    members << IntVar.new(VOC.agile                 ,  0, :int16 )
-    members << IntVar.new(VOC.quick                 ,  0, :int16 )
-    members << IntVar.new(padding_hdr               ,  0, :int16 )
-    members << FltVar.new(VOC.base_power_increase   ,  0, :float )
-    members << FltVar.new(VOC.base_will_increase    ,  0, :float )
-    members << FltVar.new(VOC.base_vigor_increase   ,  0, :float )
-    members << FltVar.new(VOC.base_agile_increase   ,  0, :float )
-    members << FltVar.new(VOC.base_quick_increase   ,  0, :float )
-    members << IntVar.new(VOC.green_exp[-1]         ,  0, :int32 )
-    members << IntVar.new(VOC.red_exp[-1]           ,  0, :int32 )
-    members << IntVar.new(VOC.purple_exp[-1]        ,  0, :int32 )
-    members << IntVar.new(VOC.blue_exp[-1]          ,  0, :int32 )
-    members << IntVar.new(VOC.yellow_exp[-1]        ,  0, :int32 )
-    members << IntVar.new(VOC.silver_exp[-1]        ,  0, :int32 )
-  end
-
-  # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_csv(_f)
-    _id = find_member(VOC.gender_id).value
-    find_member(VOC.gender_name).value = VOC.genders[_id]
-    
-    _id = find_member(VOC.element_id).value
-    find_member(VOC.element_name).value = VOC.elements[_id]
-    
-    _id = find_member(VOC.weapon_id).value
-    if _id != -1
-      _entry = @weapons[_id]
-      _name  = '???'
-      if _entry
-        if jp? || us?
-          _name = _entry.find_member(VOC.name_str[country_id]).value
-        elsif eu?
-          _name = _entry.find_member(VOC.name_str['GB']   ).value
-        end
-      end
-    else
-      _name = 'None'
-    end
-    find_member(VOC.weapon_name).value = _name
-
-    _id = find_member(VOC.armor_id).value
-    if _id != -1
-      _entry = @armors[_id]
-      _name  = '???'
-      if _entry
-        if jp? || us?
-          _name = _entry.find_member(VOC.name_str[country_id]).value
-        elsif eu?
-          _name = _entry.find_member(VOC.name_str['GB']   ).value
-        end
-      end
-    else
-      _name = 'None'
-    end
-    find_member(VOC.armor_name).value = _name
-
-    _id = find_member(VOC.accessory_id).value
-    if _id != -1
-      _entry = @accessories[_id]
-      _name  = '???'
-      if _entry
-        if jp? || us?
-          _name = _entry.find_member(VOC.name_str[country_id]).value
-        elsif eu?
-          _name = _entry.find_member(VOC.name_str['GB']   ).value
-        end
-      end
-    else
-      _name = 'None'
-    end
-    find_member(VOC.accessory_name).value = _name
-
-    super
+    init_attrs
+    init_props
+    init_procs
   end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :weapons
-  attr_accessor :armors
-  attr_accessor :accessories
+  attr_reader :weapons
+  attr_reader :armors
+  attr_reader :accessories
+
+  def weapons=(_weapons)
+    @weapons = _weapons
+    fetch(VOC.weapon_id)&.call_proc
+  end
+  
+  def armors=(_armors)
+    @armors = _armors
+    fetch(VOC.armor_id)&.call_proc
+  end
+  
+  def accessories=(_accessories)
+    @accessories = _accessories
+    fetch(VOC.accessory_id)&.call_proc
+  end
+  
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry attributes.
+  def init_attrs
+    super
+    @weapons     = {}
+    @armors      = {}
+    @accessories = {}
+  end
+  
+  # Initialize the entry properties.
+  def init_props
+    self[VOC.name_str[cid] ] = StrProp.new(  11,  ''           )
+    self[VOC.age           ] = IntProp.new( :i8,   0           )
+    self[VOC.gender_id     ] = IntProp.new( :i8,   0           )
+    self[VOC.gender_name   ] = StrProp.new( nil,  '', dmy: true)
+    self[VOC.width         ] = IntProp.new( :i8,   0           )
+    self[VOC.depth         ] = IntProp.new( :i8,   0           )
+    self[VOC.maxmp         ] = IntProp.new( :i8,   0           )
+    self[VOC.element_id    ] = IntProp.new( :i8,   0           )
+    self[VOC.element_name  ] = StrProp.new( nil,  '', dmy: true)
+    self[padding_hdr       ] = IntProp.new( :i8,   0           )
+    self[VOC.weapon_id     ] = IntProp.new(:u16,   0           )
+    self[VOC.weapon_name   ] = StrProp.new( nil,  '', dmy: true)
+    self[VOC.armor_id      ] = IntProp.new(:u16,   0           )
+    self[VOC.armor_name    ] = StrProp.new( nil,  '', dmy: true)
+    self[VOC.accessory_id  ] = IntProp.new(:u16,   0           )
+    self[VOC.accessory_name] = StrProp.new( nil,  '', dmy: true)
+    self[VOC.movement_flags] = IntProp.new(:i16,   0, base: 16 )
+    self[VOC.hp            ] = IntProp.new(:i16,   0           )
+    self[VOC.maxhp         ] = IntProp.new(:i16,   0           )
+    self[VOC.base_hp_incr  ] = IntProp.new(:i16,   0           )
+    self[VOC.spirit[-1]    ] = IntProp.new(:i16,   0           )
+    self[VOC.maxspirit[-1] ] = IntProp.new(:i16,   0           )
+    self[VOC.counter       ] = IntProp.new(:i16,   0           )
+    self[padding_hdr       ] = IntProp.new(:i16,   0           )
+    self[VOC.exp[-1]       ] = IntProp.new(:u32,   0           )
+    self[VOC.base_mp_incr  ] = FltProp.new(:f32, 0.0           )
+    self[unknown_hdr       ] = FltProp.new(:f32, 0.0           )
+    
+    (0...6).each do |_i|
+      self[VOC.elements[_i]] = IntProp.new(:i16, 0)
+    end
+    (0...16).each do |_i|
+      self[VOC.states[_i]  ] = IntProp.new(:i16, 0)
+    end
+
+    self[VOC.power          ] = IntProp.new(:i16,   0)
+    self[VOC.will           ] = IntProp.new(:i16,   0)
+    self[VOC.vigor          ] = IntProp.new(:i16,   0)
+    self[VOC.agile          ] = IntProp.new(:i16,   0)
+    self[VOC.quick          ] = IntProp.new(:i16,   0)
+    self[padding_hdr        ] = IntProp.new(:i16,   0)
+    self[VOC.base_power_incr] = FltProp.new(:f32, 0.0)
+    self[VOC.base_will_incr ] = FltProp.new(:f32, 0.0)
+    self[VOC.base_vigor_incr] = FltProp.new(:f32, 0.0)
+    self[VOC.base_agile_incr] = FltProp.new(:f32, 0.0)
+    self[VOC.base_quick_incr] = FltProp.new(:f32, 0.0)
+    self[VOC.green_exp[-1]  ] = IntProp.new(:i32,   0)
+    self[VOC.red_exp[-1]    ] = IntProp.new(:i32,   0)
+    self[VOC.purple_exp[-1] ] = IntProp.new(:i32,   0)
+    self[VOC.blue_exp[-1]   ] = IntProp.new(:i32,   0)
+    self[VOC.yellow_exp[-1] ] = IntProp.new(:i32,   0)
+    self[VOC.silver_exp[-1] ] = IntProp.new(:i32,   0)
+  end
+  
+  # Initialize the entry procs.
+  def init_procs
+    fetch(VOC.gender_id).proc = Proc.new do |_id|
+      self[VOC.gender_name] = VOC.genders[_id]
+    end
+    
+    fetch(VOC.element_id).proc = Proc.new do |_id|
+      self[VOC.element_name] = VOC.elements[_id]
+    end
+
+    fetch(VOC.weapon_id).proc = Proc.new do |_id|
+      if _id != -1
+        _entry = @weapons[_id]
+        _name  = '???'
+        if _entry
+          if jp? || us?
+            _name = _entry[VOC.name_str[cid]]
+          elsif eu?
+            _name = _entry[VOC.name_str['GB']]
+          end
+        end
+      else
+        _name = 'None'
+      end
+      self[VOC.weapon_name] = _name
+    end
+    
+    fetch(VOC.armor_id).proc = Proc.new do |_id|
+      if _id != -1
+        _entry = @armors[_id]
+        _name  = '???'
+        if _entry
+          if jp? || us?
+            _name = _entry[VOC.name_str[cid]]
+          elsif eu?
+            _name = _entry[VOC.name_str['GB']]
+          end
+        end
+      else
+        _name = 'None'
+      end
+      self[VOC.armor_name] = _name
+    end
+
+    fetch(VOC.accessory_id).proc = Proc.new do |_id|
+      if _id != -1
+        _entry = @accessories[_id]
+        _name  = '???'
+        if _entry
+          if jp? || us?
+            _name = _entry[VOC.name_str[cid]]
+          elsif eu?
+            _name = _entry[VOC.name_str['GB']]
+          end
+        end
+      else
+        _name = 'None'
+      end
+      self[VOC.accessory_name] = _name
+    end
+  end
 
 end	# class Character
 

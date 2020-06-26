@@ -45,68 +45,11 @@ class Enemy < Entry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    @files = []
-    @items = {}
-    
-    members << StrDmy.new(VOC.filter                , ''         )
-    members << StrVar.new(VOC.name_str['JP']        , '',      21)
-
-    if us?
-      members << StrDmy.new(VOC.enemy_name_us[-1]   , ''         )
-    elsif eu?
-      members << StrDmy.new(VOC.enemy_name_eu[-1]   , ''         )
-    end
-
-    members << IntVar.new(VOC.width                 ,  0, :int8  )
-    members << IntVar.new(VOC.depth                 ,  0, :int8  )
-    members << IntVar.new(VOC.element_id            ,  0, :int8  )
-    members << StrDmy.new(VOC.element_name          , ''         )
-    members << IntVar.new(padding_hdr               , -1, :int8  )
-    members << IntVar.new(padding_hdr               , -1, :int8  )
-    members << HexVar.new(VOC.movement_flags        ,  0, :int16 )
-    members << IntVar.new(VOC.counter               ,  0, :int16 )
-    members << IntVar.new(VOC.exp[-1]               ,  0, :uint16)
-    members << IntVar.new(VOC.gold                  ,  0, :uint16)
-    members << IntVar.new(padding_hdr               , -1, :int8  )
-    members << IntVar.new(padding_hdr               , -1, :int8  )
-    members << IntVar.new(VOC.maxhp                 ,  0, :int32 )
-    members << FltVar.new(unknown_hdr               ,  0, :float )
-
-    (0...6).each do |_i|
-      members << IntVar.new(VOC.elements[_i]        ,  0, :int16 )
-    end
-
-    (0...16).each do |_i|
-      members << IntVar.new(VOC.states[_i]          ,  0, :int16 )
-    end
-
-    members << IntVar.new(VOC.effect_id             , -1, :int8  )
-    members << StrDmy.new(VOC.effect_name           , ''         )
-    members << IntVar.new(VOC.state_id              ,  0, :int8  )
-    members << StrDmy.new(VOC.state_name            , ''         )
-    members << IntVar.new(VOC.state_miss            ,  0, :int8  )
-    members << IntVar.new(padding_hdr               , -1, :int8  )
-    members << IntVar.new(VOC.level                 ,  0, :int16 )
-    members << IntVar.new(VOC.will                  ,  0, :int16 )
-    members << IntVar.new(VOC.vigor                 ,  0, :int16 )
-    members << IntVar.new(VOC.agile                 ,  0, :int16 )
-    members << IntVar.new(VOC.quick                 ,  0, :int16 )
-    members << IntVar.new(VOC.attack                ,  0, :int16 )
-    members << IntVar.new(VOC.defense               ,  0, :int16 )
-    members << IntVar.new(VOC.magdef                ,  0, :int16 )
-    members << IntVar.new(VOC.hit                   ,  0, :int16 )
-    members << IntVar.new(VOC.dodge                 ,  0, :int16 )
-    members << IntVar.new(padding_hdr               , -1, :int8  )
-    members << IntVar.new(padding_hdr               , -1, :int8  )
-
-    (1..4).each do |_i|
-      members << IntVar.new(VOC.item_probability[_i], -1, :int16 )
-      members << IntVar.new(VOC.item_amount[_i]     , -1, :int16 )
-      members << IntVar.new(VOC.item_id[_i]         , -1, :int16 )
-      members << StrDmy.new(VOC.item_name[_i]       , ''         )
-    end
+    init_attrs
+    init_props
+    init_procs
   end
-
+  
   # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
   # differs from the snapshot, otherwise nothing happens. Returns +true+ if 
   # the entry matches the snapshot, otherwise +false+.
@@ -115,8 +58,8 @@ class Enemy < Entry
   def check_expiration(_entry)
     _found   = true
     _found &&= _entry.is_a?(Enemy)
-    _found &&= (id     == _entry.id  )
-    _found &&= (@files == _entry.files)
+    _found &&= (id    == _entry.id   )
+    _found &&= (files == _entry.files)
 
     if _found
       super
@@ -124,81 +67,29 @@ class Enemy < Entry
 
     _found
   end
-
-  # Reads one entry from a CSV file.
-  # @param _csv [CSV] CSV object
-  def read_csv(_csv)
-    super
-    @files = find_member(VOC.filter).value.split(';')
-  end
-  
-  # Writes one entry to a CSV file.
-  # @param _csv [CSV] CSV object
-  def write_csv(_csv)
-    find_member(VOC.filter).value = @files.join(';')
-    
-    if us?
-      _name = voc(:enemies, id.to_s) || '???'
-      find_member(VOC.enemy_name_us[-1]).value = _name
-    elsif eu?
-      _name = voc(:enemies, id.to_s) || '???'
-      find_member(VOC.enemy_name_eu[-1]).value = _name
-    end
-
-    _id = find_member(VOC.element_id).value
-    find_member(VOC.element_name).value = VOC.elements[_id]
-
-    _id = find_member(VOC.effect_id).value
-    find_member(VOC.effect_name).value = VOC.effects[_id]
-    
-    _id = find_member(VOC.state_id).value
-    find_member(VOC.state_name).value = VOC.states[_id]
-    
-    (1..4).each do |_i|
-      _id = find_member(VOC.item_id[_i]).value
-      if _id != -1
-        _entry = @items[_id]
-        _name  = '???'
-        if _entry
-          if jp? || us?
-            _name = _entry.find_member(VOC.name_str[country_id]).value
-          elsif eu?
-            _name = _entry.find_member(VOC.name_str['GB']).value
-          end
-        end
-      else
-        _name = 'None'
-      end
-      find_member(VOC.item_name[_i]).value = _name
-    end
-
-    super
-  end
-
-  # Provides marshalling support for use by the Marshal library.
-  # @param _hash [Hash] Hash object
-  def marshal_load(_hash)
-    _hash.each do |_key, _value|
-      instance_variable_set(_key, _value)
-    end
-    @items = {}
-  end
-  
-  # Provides marshalling support for use by the Marshal library.
-  # @return [Hash] Hash object
-  def marshal_dump
-    _hash          = super
-    _hash[:@files] = @files
-    _hash
-  end
   
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :files
-  attr_accessor :items
+  attr_reader :items
+
+  def items=(_items)
+    @items = _items
+    
+    (1..4).each do |_i|
+      fetch(VOC.item_id[_i])&.call_proc
+    end
+  end
+
+  def files
+    self[VOC.filter]
+  end
   
+  def files=(_files)
+    self[VOC.filter] = _files
+  end
+
   def order
     _order    = 0xff
     _enp_file = File.basename(sys(:enp_file))
@@ -206,7 +97,7 @@ class Enemy < Entry
     _eb_file  = File.basename(sys(:eb_file ))
     _ec_file  = File.basename(sys(:ec_file ))
 
-    @files.each do |_filename|
+    self[VOC.filter].each do |_filename|
       _filename = _filename.sub(EnpFile::MULTI_REGEXP, '\1\3')
 
       if _filename == '*'
@@ -225,6 +116,124 @@ class Enemy < Entry
     end
 
     _order
+  end
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry attributes.
+  def init_attrs
+    super
+    @items = {}
+  end
+  
+  # Initialize the entry properties.
+  def init_props
+    self[VOC.filter        ] = AryProp.new(    [], dmy: true)
+    self[VOC.name_str['JP']] = StrProp.new(21, ''           )
+
+    if us?
+      self[VOC.enemy_name_us[-1]] = StrProp.new(nil, '', dmy: true)
+    elsif eu?
+      self[VOC.enemy_name_eu[-1]] = StrProp.new(nil, '', dmy: true)
+    end
+
+    self[VOC.width         ] = IntProp.new( :i8,   0           )
+    self[VOC.depth         ] = IntProp.new( :i8,   0           )
+    self[VOC.element_id    ] = IntProp.new( :i8,   0           )
+    self[VOC.element_name  ] = StrProp.new( nil,  '', dmy: true)
+    self[padding_hdr       ] = IntProp.new( :i8,  -1           )
+    self[padding_hdr       ] = IntProp.new( :i8,  -1           )
+    self[VOC.movement_flags] = IntProp.new(:i16,   0, base: 16 )
+    self[VOC.counter       ] = IntProp.new(:i16,   0           )
+    self[VOC.exp[-1]       ] = IntProp.new(:u16,   0           )
+    self[VOC.gold          ] = IntProp.new(:u16,   0           )
+    self[padding_hdr       ] = IntProp.new( :i8,  -1           )
+    self[padding_hdr       ] = IntProp.new( :i8,  -1           )
+    self[VOC.maxhp         ] = IntProp.new(:i32,   0           )
+    self[unknown_hdr       ] = FltProp.new(:f32, 0.0           )
+
+    (0...6).each do |_i|
+      self[VOC.elements[_i]] = IntProp.new(:i16, 0)
+    end
+    (0...16).each do |_i|
+      self[VOC.states[_i]  ] = IntProp.new(:i16, 0)
+    end
+
+    self[VOC.effect_id  ] = IntProp.new( :i8, -1           )
+    self[VOC.effect_name] = StrProp.new( nil, '', dmy: true)
+    self[VOC.state_id   ] = IntProp.new( :i8,  0           )
+    self[VOC.state_name ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.state_miss ] = IntProp.new( :i8,  0           )
+    self[padding_hdr    ] = IntProp.new( :i8, -1           )
+    self[VOC.level      ] = IntProp.new(:i16,  0           )
+    self[VOC.will       ] = IntProp.new(:i16,  0           )
+    self[VOC.vigor      ] = IntProp.new(:i16,  0           )
+    self[VOC.agile      ] = IntProp.new(:i16,  0           )
+    self[VOC.quick      ] = IntProp.new(:i16,  0           )
+    self[VOC.attack     ] = IntProp.new(:i16,  0           )
+    self[VOC.defense    ] = IntProp.new(:i16,  0           )
+    self[VOC.magdef     ] = IntProp.new(:i16,  0           )
+    self[VOC.hit        ] = IntProp.new(:i16,  0           )
+    self[VOC.dodge      ] = IntProp.new(:i16,  0           )
+    self[padding_hdr    ] = IntProp.new( :i8, -1           )
+    self[padding_hdr    ] = IntProp.new( :i8, -1           )
+
+    (1..4).each do |_i|
+      self[VOC.item_probability[_i]] = IntProp.new(:i16, -1           )
+      self[VOC.item_amount[_i]     ] = IntProp.new(:i16, -1           )
+      self[VOC.item_id[_i]         ] = IntProp.new(:i16, -1           )
+      self[VOC.item_name[_i]       ] = StrProp.new( nil, '', dmy: true)
+    end
+  end
+  
+  # Initialize the entry procs.
+  def init_procs
+    if us?
+      fetch(VOC.id).proc = Proc.new do |_id|
+        _name = voc(:enemies, id.to_s) || '???'
+        self[VOC.enemy_name_us[-1]] = _name
+      end
+    elsif eu?
+      fetch(VOC.id).proc = Proc.new do |_id|
+        _name = voc(:enemies, id.to_s) || '???'
+        self[VOC.enemy_name_eu[-1]] = _name
+      end
+    end
+
+    fetch(VOC.element_id).proc = Proc.new do |_id|
+      self[VOC.element_name] = VOC.elements[_id]
+    end
+    
+    fetch(VOC.effect_id).proc = Proc.new do |_id|
+      self[VOC.effect_name] = VOC.effects[_id]
+    end
+
+    fetch(VOC.state_id).proc = Proc.new do |_id|
+      self[VOC.state_name] = VOC.states[_id]
+    end
+
+    (1..4).each do |_i|
+      fetch(VOC.item_id[_i]).proc = Proc.new do |_id|
+        if _id != -1
+          _entry = @items[_id]
+          _name  = '???'
+          if _entry
+            if jp? || us?
+              _name = _entry[VOC.name_str[cid]]
+            elsif eu?
+              _name = _entry[VOC.name_str['GB']]
+            end
+          end
+        else
+          _name = 'None'
+        end
+        self[VOC.item_name[_i]] = _name
+      end
+    end
   end
 
 end	# class Enemy

@@ -62,7 +62,7 @@ module Serializable
   # @see ::Array#pack
   # @see ::String#unpack
   def int8
-    int_directive(:int8)
+    int_directive(:i8)
   end
   
   # Returns the required integer directive depending on the platform 
@@ -71,7 +71,7 @@ module Serializable
   # @see ::Array#pack
   # @see ::String#unpack
   def int16
-    int_directive(:int16)
+    int_directive(:i16)
   end
   
   # Returns the required integer directive depending on the platform 
@@ -80,7 +80,7 @@ module Serializable
   # @see ::Array#pack
   # @see ::String#unpack
   def int32
-    int_directive(:int32)
+    int_directive(:i32)
   end
   
   # Returns the required integer directive depending on the platform 
@@ -89,7 +89,7 @@ module Serializable
   # @see ::Array#pack
   # @see ::String#unpack
   def int64
-    int_directive(:int64)
+    int_directive(:i64)
   end
   
   # Returns the required integer directive depending on the platform 
@@ -98,7 +98,7 @@ module Serializable
   # @see ::Array#pack
   # @see ::String#unpack
   def uint8
-    int_directive(:uint8)
+    int_directive(:u8)
   end
   
   # Returns the required integer directive depending on the platform 
@@ -107,7 +107,7 @@ module Serializable
   # @see ::Array#pack
   # @see ::String#unpack
   def uint16
-    int_directive(:uint16)
+    int_directive(:u16)
   end
   
   # Returns the required integer directive depending on the platform 
@@ -116,7 +116,7 @@ module Serializable
   # @see ::Array#pack
   # @see ::String#unpack
   def uint32
-    int_directive(:uint32)
+    int_directive(:u32)
   end
   
   # Returns the required integer directive depending on the platform 
@@ -125,7 +125,7 @@ module Serializable
   # @see ::Array#pack
   # @see ::String#unpack
   def uint64
-    int_directive(:uint64)
+    int_directive(:u64)
   end
 
   # Returns the required floating-point directive depending on the platform 
@@ -133,7 +133,7 @@ module Serializable
   # @see ::Array#pack
   # @see ::String#unpack
   def float
-    flt_directive(:float)
+    flt_directive(:f32)
   end
 
   # Returns the required floating-point directive depending on the platform 
@@ -141,7 +141,7 @@ module Serializable
   # @see ::Array#pack
   # @see ::String#unpack
   def double
-    flt_directive(:double)
+    flt_directive(:f64)
   end
 
   # Reads an integer from the file.
@@ -182,7 +182,7 @@ module Serializable
     
     if _flt && _flt.size == _size
       _flt = _flt.unpack(_format).first
-      if _type == :float
+      if _type == :f32
         _flt = _flt.round(6)
       end
       
@@ -203,7 +203,7 @@ module Serializable
       raise(TypeError, sprintf(_msg, _flt))
     end
     
-    if _type == :float
+    if _type == :f32
       _flt = _flt.round(6)
     end
 
@@ -276,7 +276,7 @@ module Serializable
         write(_2nd_part)
       else
         write([_str].pack("Z#{_size - 1}"))
-        write_int(0, :uint8)
+        write_int(0, :u8)
       end
     end
   end
@@ -318,21 +318,21 @@ module Serializable
 
     _type = _type.to_sym
     case _type
-    when :int8
+    when :i8
       'c'
-    when :int16
+    when :i16
       big_endian? ? 's>' : 's<'
-    when :int32
+    when :i32
       big_endian? ? 'l>' : 'l<'
-    when :int64
+    when :i64
       big_endian? ? 'q>' : 'q<'
-    when :uint8
+    when :u8
       'C'
-    when :uint16
+    when :u16
       big_endian? ? 'S>' : 'S<'
-    when :uint32
+    when :u32
       big_endian? ? 'L>' : 'L<'
-    when :uint64
+    when :u64
       big_endian? ? 'Q>' : 'Q<'
     else
       _msg = '%s is not an integer type'
@@ -354,9 +354,9 @@ module Serializable
 
     _type = _type.to_sym
     case _type
-    when :float
+    when :f32
       big_endian? ? 'g' : 'e'
-    when :double
+    when :f64
       big_endian? ? 'G' : 'E'
     else
       _msg = '%s is not a floating-point type'

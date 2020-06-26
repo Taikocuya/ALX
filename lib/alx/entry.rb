@@ -24,19 +24,11 @@
 
 require('csv')
 require_relative('binarystringio.rb')
-require_relative('fltdmy.rb')
-require_relative('fltext.rb')
-require_relative('fltvar.rb')
-require_relative('hexdmy.rb')
-require_relative('hexext.rb')
-require_relative('hexvar.rb')
-require_relative('intdmy.rb')
-require_relative('intext.rb')
-require_relative('intvar.rb')
+require_relative('aryprop.rb')
+require_relative('fltprop.rb')
+require_relative('intprop.rb')
 require_relative('main.rb')
-require_relative('strdmy.rb')
-require_relative('strext.rb')
-require_relative('strvar.rb')
+require_relative('strprop.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -58,11 +50,8 @@ class Entry
   # Constructs an Entry.
   # @param _root [GameRoot] Game root
   def initialize(_root)
-    @root       = _root
-    @members    = [IntDmy.new(VOC.id, id)]
-    @padding_id = 0
-    @unknown_id = 0
-    @expired    = false
+    @root = _root
+    init_attrs
   end
 
   # Returns the file size of the entry.
@@ -76,40 +65,22 @@ class Entry
   # Returns the CSV header of the entry.
   # @return [Array] CSV header of entry
   def header
-    _header = []
-    @members.each do |_m|
-      if _m.is_a?(Property)
-        _header << _m.name
-      end
-    end
-    _header
+    @props.keys
   end
   
-  # Returns the first property by given name, or +nil+ otherwise.
-  # @param _name [String] Name of property
-  # @return [Property] Object of property
-  def find_member(_name)
-    if @members
-      @members.find do |_m|
-        _m.name == _name
-      end
-    else
-      nil
-    end
-  end
-
-  # Compares two entries based on +FltVar+, +IntVar+ and +StrVar+ members. 
-  # Returns +true+ if all member values are equal, or +false+ otherwise.
+  # Compares two entries based on properties. Returns +true+ if all properties 
+  # are equal, or +false+ otherwise.
   # @param _entry [Entry] Entry object
-  # @return [Boolean] +true+ if all member values are equal, otherwise +false+.
+  # @return [Boolean] +true+ if all properties are equal, otherwise +false+.
   def ==(_entry)
     _result   = true
-    _result &&= _entry.is_a?(Entry)
+    _result &&= _entry.is_a?(self.class)
     _result &&= (id == _entry.id)
-    _result &&= @members.all? do |_m|
-      _other = _entry.find_member(_m.name)
-      if _other && _m.is_a?(Property) && !_m.dummy?
-        _m.value == _other.value
+    _result &&= @props.all? do |_k, _p|
+      _other = _entry.fetch(_k)
+
+      if _other && _p.is_a?(Prop) && _p.comparable?
+        _p.value == _other.value
       else
         true
       end
@@ -163,16 +134,16 @@ class Entry
   # Reads one entry from a binary I/O stream.
   # @param _f [IO] Binary I/O stream
   def read_bin(_f)
-    @members.each do |_m|
-      _m.read_bin(_f)
+    @props.each_value do |_p|
+      _p.read_bin(_f)
     end
   end
   
   # Write one entry to a binary IO.
   # @param _f [IO] Binary I/O stream
   def write_bin(_f)
-    @members.each do |_m|
-      _m.write_bin(_f)
+    @props.each_value do |_p|
+      _p.write_bin(_f)
     end
   end
 
@@ -181,9 +152,9 @@ class Entry
   # @param _force [Boolean]       Ignore missing properties.
   def read_csv(_csv, _force = false)
     _row = _csv.is_a?(CSV::Row) ? _csv : _csv.shift
-    @members.each do |_m|
-      if !_force || _row.header?(_m.name)
-        _m.read_csv(_row)
+    @props.each do |_key, _prop|
+      if !_force || _row.header?(_key)
+        _prop.read_csv(_key, _row)
       end
     end
   end
@@ -192,8 +163,8 @@ class Entry
   # @param _csv [CSV] CSV object
   def write_csv(_csv)
     _row = CSV::Row.new(header, [])
-    @members.each do |_m|
-      _m.write_csv(_row)
+    @props.each do |_key, _prop|
+      _prop.write_csv(_key, _row)
     end
     _csv << _row
   end
@@ -201,6 +172,7 @@ class Entry
   # Provides marshalling support for use by the Marshal library.
   # @param _hash [Hash] Hash object
   def marshal_load(_hash)
+    init_attrs
     _hash.each do |_key, _value|
       instance_variable_set(_key, _value)
     end
@@ -210,8 +182,8 @@ class Entry
   # @return [Hash] Hash object
   def marshal_dump
     _hash               = {}
-    _hash[:@root]       = @root
-    _hash[:@members]    = @members
+    _hash[:@root      ] = @root
+    _hash[:@props     ] = @props
     _hash[:@padding_id] = @padding_id
     _hash[:@unknown_id] = @unknown_id
     _hash
@@ -222,34 +194,55 @@ class Entry
 #------------------------------------------------------------------------------
 
   attr_reader   :root
-  attr_reader   :members
+  attr_reader   :props
   attr_accessor :expired
 
-  def id
-    _member = find_member(VOC.id)
-    if _member
-      _member.value
+  def [](_key)
+    @props[_key]&.value
+  end
+  
+  def []=(_key, _value)
+    if _value.is_a?(Prop)
+      @props[_key] = _value
     else
-      -1
+      _prop = @props[_key]
+      if _prop
+        _prop.value = _value
+      else
+        raise(KeyError, sprintf('key not found: "%s"', _value))
+      end
     end
   end
 
-  def id=(_id)
-    _member = find_member(VOC.id)
-    if _member
-      _member.value = _id
-    else
-      _id
+  def fetch(_key)
+    @props[_key]
+  end
+  
+  def store(_key, _prop)
+    unless _prop.is_a?(Prop)
+      raise(TypeError, sprintf(_prop, '%s is not a prop'))
     end
+    
+    @props[_key] = _prop
+  end
+  
+  def id
+    self[VOC.id] || -1
+  end
+
+  def id=(_id)
+    self[VOC.id] = _id
   end
 
   def product_id
     @root.product_id
   end
+  alias pid product_id
   
   def country_id
     @root.country_id
   end
+  alias cid country_id
   
   # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
   # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.
@@ -305,6 +298,14 @@ class Entry
 
   protected
 
+  # Initialize the entry attributes.
+  def init_attrs
+    @props      = { VOC.id => IntProp.new(:u32, -1, dmy: true) }
+    @padding_id = 0
+    @unknown_id = 0
+    @expired    = false
+  end
+  
   # Returns a CSV header with "Padding" as description and an unique 
   # identifier.
   # @return [String] CSV header

@@ -45,44 +45,56 @@ class Weapon < StdEntry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    add_name_members
-
-    members << IntVar.new(VOC.character_id[-1]          ,  0, :int8  )
-    members << StrDmy.new(VOC.character_name[-1]        , ''         )
-    members << IntVar.new(VOC.retail_price              ,  0, :int8  )
-    members << IntVar.new(VOC.order_priority            , -1, :int8  )
-    members << IntVar.new(VOC.order_alphabet[country_id], -1, :int8  )
-    members << IntVar.new(VOC.effect_id                 , -1, :int8  )
-    members << StrDmy.new(VOC.effect_name               , ''         )
-    
-    if eu?
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
-    end
-    
-    members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
-    members << IntVar.new(VOC.attack                    ,  0, :int16 )
-    members << IntVar.new(VOC.hit                       ,  0, :int16 )
-    members << IntVar.new(VOC.feature_id[-1]            , -1, :int8  )
-    members << StrDmy.new(VOC.feature_name[-1]          ,  ''        )
-    members << IntVar.new(padding_hdr                   ,  0, :int8  )
-    members << IntVar.new(VOC.feature_value[-1]         ,  0, :int16 )
-
-    add_dscr_members
+    init_props
+    init_procs
   end
 
-  # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_csv(_f)
-    _id = find_member(VOC.character_id[-1]).value
-    find_member(VOC.character_name[-1]).value = VOC.characters[_id]
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry properties.
+  def init_props
+    add_name_props
     
-    _id = find_member(VOC.effect_id).value
-    find_member(VOC.effect_name).value = VOC.weapon_effects[_id]
+    self[VOC.character_id[-1]  ] = IntProp.new(:i8,  0           )
+    self[VOC.character_name[-1]] = StrProp.new(nil, '', dmy: true)
+    self[VOC.retail_price      ] = IntProp.new(:i8,  0           )
+    self[VOC.order_prio        ] = IntProp.new(:i8, -1           )
+    self[VOC.order_abc[cid]    ] = IntProp.new(:i8, -1           )
+    self[VOC.effect_id         ] = IntProp.new(:i8, -1           )
+    self[VOC.effect_name       ] = StrProp.new(nil, '', dmy: true)
     
-    _id = find_member(VOC.feature_id[-1]).value
-    find_member(VOC.feature_name[-1]).value = VOC.accessory_features[_id]
+    if eu?
+      self[padding_hdr] = IntProp.new(:i8, 0)
+    end
     
-    super
+    self[VOC.purchase_price   ] = IntProp.new(:u16,  0           )
+    self[VOC.attack           ] = IntProp.new(:i16,  0           )
+    self[VOC.hit              ] = IntProp.new(:i16,  0           )
+    self[VOC.feature_id[-1]   ] = IntProp.new( :i8,  0           )
+    self[VOC.feature_name[-1] ] = StrProp.new( nil, '', dmy: true)
+    self[padding_hdr          ] = IntProp.new( :i8,  0           )
+    self[VOC.feature_value[-1]] = IntProp.new(:i16,  0           )
+    
+    add_dscr_props
+  end
+  
+  # Initialize the entry procs.
+  def init_procs
+    fetch(VOC.character_id[-1]).proc = Proc.new do |_id|
+      self[VOC.character_name[-1]] = VOC.characters[_id]
+    end
+    
+    fetch(VOC.effect_id).proc = Proc.new do |_id|
+      self[VOC.effect_name] = VOC.weapon_effects[_id]
+    end
+    
+    fetch(VOC.feature_id[-1]).proc = Proc.new do |_id|
+      self[VOC.feature_name[-1]] = VOC.accessory_features[_id]
+    end
   end
 
 end	# class Weapon

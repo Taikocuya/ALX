@@ -43,45 +43,31 @@ class StdEntry < Entry
 
   # Add name properties.
   # @param _size [Integer] Size of name properties
-  def add_name_members(_size = 17)
+  def add_name_props(_size = 17)
     if jp? || us?
-      members << StrVar.new(VOC.name_str[country_id]  , '', _size  )
+      self[VOC.name_str[cid]] = StrProp.new(_size, '')
     elsif eu?
-      members << HexVar.new(VOC.message_id[country_id],  0, :uint32)
-      members << HexExt.new(VOC.name_pos['DE']        ,  0         )
-      members << IntExt.new(VOC.name_size['DE']       ,  0         )
-      members << StrExt.new(VOC.name_str['DE']        , '',        )
-      members << HexExt.new(VOC.name_pos['ES']        ,  0         )
-      members << IntExt.new(VOC.name_size['ES']       ,  0         )
-      members << StrExt.new(VOC.name_str['ES']        , '',        )
-      members << HexExt.new(VOC.name_pos['FR']        ,  0         )
-      members << IntExt.new(VOC.name_size['FR']       ,  0         )
-      members << StrExt.new(VOC.name_str['FR']        , '',        )
-      members << HexExt.new(VOC.name_pos['GB']        ,  0         )
-      members << IntExt.new(VOC.name_size['GB']       ,  0         )
-      members << StrExt.new(VOC.name_str['GB']        , '',        )
+      self[VOC.message_id[cid]] = IntProp.new(:u32, 0, base: 16)
+      ['DE', 'ES', 'FR', 'GB'].each do |_l|
+        self[VOC.name_pos[_l] ] = IntProp.new(:u32,  0, base: 16, ext: true)
+        self[VOC.name_size[_l]] = IntProp.new(:u32,  0,           ext: true)
+        self[VOC.name_str[_l] ] = StrProp.new( nil, '',           ext: true)
+      end
     end
   end
 
   # Add description properties.
-  def add_dscr_members
+  def add_dscr_props
     if jp? || us?
-      members << HexExt.new(VOC.dscr_pos[country_id] ,  0)
-      members << IntExt.new(VOC.dscr_size[country_id],  0)
-      members << StrExt.new(VOC.dscr_str[country_id] , '')
+      self[VOC.dscr_pos[cid] ] = IntProp.new(:u32,  0, base: 16, ext: true)
+      self[VOC.dscr_size[cid]] = IntProp.new(:u32,  0,           ext: true)
+      self[VOC.dscr_str[cid] ] = StrProp.new( nil, '',           ext: true)
     elsif eu?
-      members << HexExt.new(VOC.dscr_pos['DE']       ,  0)
-      members << IntExt.new(VOC.dscr_size['DE']      ,  0)
-      members << StrExt.new(VOC.dscr_str['DE']       , '')
-      members << HexExt.new(VOC.dscr_pos['ES']       ,  0)
-      members << IntExt.new(VOC.dscr_size['ES']      ,  0)
-      members << StrExt.new(VOC.dscr_str['ES']       , '')
-      members << HexExt.new(VOC.dscr_pos['FR']       ,  0)
-      members << IntExt.new(VOC.dscr_size['FR']      ,  0)
-      members << StrExt.new(VOC.dscr_str['FR']       , '')
-      members << HexExt.new(VOC.dscr_pos['GB']       ,  0)
-      members << IntExt.new(VOC.dscr_size['GB']      ,  0)
-      members << StrExt.new(VOC.dscr_str['GB']       , '')
+      ['DE', 'ES', 'FR', 'GB'].each do |_l|
+        self[VOC.dscr_pos[_l] ] = IntProp.new(:u32,  0, base: 16, ext: true)
+        self[VOC.dscr_size[_l]] = IntProp.new(:u32,  0,           ext: true)
+        self[VOC.dscr_str[_l] ] = StrProp.new( nil, '',           ext: true)
+      end
     end
   end
 
@@ -90,23 +76,11 @@ class StdEntry < Entry
 #------------------------------------------------------------------------------
   
   def msg_id
-    _member = find_member(VOC.message_id[country_id])
-    
-    if _member
-      _member.value
-    else
-      nil
-    end
+    self[VOC.message_id[cid]] || nil
   end
 
   def msg_id=(_msg_id)
-    _member = find_member(VOC.message_id[country_id])
-    
-    if _member
-      _member.value = _msg_id
-    else
-      _msg_id
-    end
+    self[VOC.message_id[cid]] = _msg_id
   end
     
 end	# class StdEntry

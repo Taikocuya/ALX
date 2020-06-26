@@ -36,38 +36,34 @@ module ALX
 class CharacterMagic < CharacterSuperMove
 
 #==============================================================================
-#                                   PUBLIC
+#                                  PROTECTED
 #==============================================================================
 
-  public
+  protected
 
-  # Constructs a CharacterMagic.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  # Initialize the entry properties.
+  def init_props
     super
-
+    
     if product_id != '6107110 06' && product_id != '6107810'
+      _pos  = VOC.ship_dscr_pos
+      _size = VOC.ship_dscr_size
+      _str  = VOC.ship_dscr_str
+      
       if jp? || us?
-        members << HexExt.new(VOC.ship_dscr_pos[country_id] ,  0)
-        members << IntExt.new(VOC.ship_dscr_size[country_id],  0)
-        members << StrExt.new(VOC.ship_dscr_str[country_id] , '')
+        self[_pos[cid] ] = IntProp.new(:u32,  0, base: 16, ext: true)
+        self[_size[cid]] = IntProp.new(:u32,  0,           ext: true)
+        self[_str[cid] ] = StrProp.new( nil, '',           ext: true)
       elsif eu?
-        members << HexExt.new(VOC.ship_dscr_pos['DE']       ,  0)
-        members << IntExt.new(VOC.ship_dscr_size['DE']      ,  0)
-        members << StrExt.new(VOC.ship_dscr_str['DE']       , '')
-        members << HexExt.new(VOC.ship_dscr_pos['ES']       ,  0)
-        members << IntExt.new(VOC.ship_dscr_size['ES']      ,  0)
-        members << StrExt.new(VOC.ship_dscr_str['ES']       , '')
-        members << HexExt.new(VOC.ship_dscr_pos['FR']       ,  0)
-        members << IntExt.new(VOC.ship_dscr_size['FR']      ,  0)
-        members << StrExt.new(VOC.ship_dscr_str['FR']       , '')
-        members << HexExt.new(VOC.ship_dscr_pos['GB']       ,  0)
-        members << IntExt.new(VOC.ship_dscr_size['GB']      ,  0)
-        members << StrExt.new(VOC.ship_dscr_str['GB']       , '')
+        ['DE', 'ES', 'FR', 'GB'].each do |_l|
+          self[_pos[_l] ] = IntProp.new(:u32,  0, base: 16, ext: true)
+          self[_size[_l]] = IntProp.new(:u32,  0,           ext: true)
+          self[_str[_l] ] = StrProp.new( nil, '',           ext: true)
+        end
       end
     end
   end
-
+  
 end	# class CharacterMagic
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

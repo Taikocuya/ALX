@@ -240,7 +240,7 @@ class EpFile
       end
     end
 
-    if _f.read_int(:int16) != EOF_MARK
+    if _f.read_int(:i16) != EOF_MARK
       raise(EOFError, 'EOF mark not found')
     end
   end
@@ -280,7 +280,7 @@ class EpFile
       _last = _instr
     end
 
-    _f.write_int(EOF_MARK, :int16)
+    _f.write_int(EOF_MARK, :i16)
   end
   
 end # class EpFile

@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('property.rb')
+require_relative('prop.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -32,8 +32,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a property as integer.
-class IntVar < Property
+# Class to handle a array property.
+class AryProp < Prop
   
 #==============================================================================
 #                                   PUBLIC
@@ -41,55 +41,70 @@ class IntVar < Property
 
   public
 
-  # Constructs a IntVar
-  # @param _name  [String]  Name
+  # Constructs a AryProp. This property is serialized externally. The keyword 
+  # +ext+ is unsupported and the methods #read_bin and #write_bin are 
+  # therefore unused. If a block is specified, it will be called in #value=, 
+  # #array= and #ary= when the value has been changed.
+  # 
   # @param _value [Integer] Value
-  # @param _type  [Symbol]  Type
-  def initialize(_name, _value, _type)
-    super(_name, _value)
-    @type = _type
+  # @param comp   [Boolean] Is comparable
+  # @param dmy    [Boolean] Set +comp+ to +true+
+  def initialize(_value, comp: true, dmy: false)
+    super(_value.to_a, comp: comp, dmy: dmy, ext: true)
   end
 
-  # Reads one entry from a binary I/O stream.
-  # @param _f [IO] Binary I/O stream
-  def read_bin(_f)
-    super
-    self.value = _f.read_int(@type)
+  # @see ::Array#to_s
+  def to_a
+    self.value.to_a
   end
   
-  # Write one entry to a binary I/O stream.
-  # @param _f [IO] Binary I/O stream
+  # @see ::Array#to_ary
+  def to_ary
+    self.value.to_ary
+  end
+
+  # This property is serialized externally. The methods #read_bin and 
+  # #write_bin are therefore unused.
+  def read_bin(_f)
+    nil
+  end
+  
+  # This property is serialized externally. The methods #read_bin and 
+  # #write_bin are therefore unused.
   def write_bin(_f)
-    super
-    _f.write_int(value, @type)
+    nil
   end
 
   # Reads one entry from a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def read_csv(_row)
-    super
-    self.value = _row[name] || value
+  # @param _header [String]   Column header
+  # @param _row    [CSV::Row] CSV row
+  def read_csv(_header, _row)
+    _value = _row[_header] || ''
+    _value.force_encoding('UTF-8')
+    self.value = _value.split(';')
   end
 
   # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_csv(_row)
-    super
-    _row[name] = value
+  # @param _header [String]   Column header
+  # @param _row    [CSV::Row] CSV row
+  def write_csv(_header, _row)
+    _row[_header] = value.join(';')
   end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :type
-
   def value=(_value)
-    _value = _value.to_i
-    super(_value)
+    super(_value.to_a)
   end
   
-end # class IntVar
+  alias ary    value
+  alias array  value
+  alias ary=   value=
+  alias array= value=
+
+end # class StrProp
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

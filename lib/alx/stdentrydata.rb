@@ -148,37 +148,35 @@ class StdEntryData < EntryData
           _msgid = _entry.msg_id
 
           if jp? || us?
-            _pos  = _entry.find_member(VOC.name_pos[country_id] )
-            _size = _entry.find_member(VOC.name_size[country_id])
-            _str  = _entry.find_member(VOC.name_str[country_id] )
-          elsif eu?
+            _lang = country_id
+          else
             _lang = find_lang(_filename)
-            _pos  = _entry.find_member(VOC.name_pos[_lang] )
-            _size = _entry.find_member(VOC.name_size[_lang])
-            _str  = _entry.find_member(VOC.name_str[_lang] )
           end
+          _pos  = _entry.fetch(VOC.name_pos[_lang])
+          _size = _entry.fetch(VOC.name_size[_lang])
+          _name = _entry.fetch(VOC.name_str[_lang])
       
           if _msgtbl
             _msg = @msg_table[_msgid]
             if _msg
-              _pos.value  = _msg.pos
-              _size.value = _msg.size
-              _str.value  = _msg.value
+              _pos.int  = _msg.pos
+              _size.int = _msg.size
+              _name.str = _msg.value
               next
             end
           end
 
           LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
           
-          _pos.value  = _f.pos
-          _str.value  = _f.read_str(0xff, 0x1, 'Windows-1252')
-          _size.value = _f.pos - _pos.value
+          _pos.int  = _f.pos
+          _name.str = _f.read_str(0xff, 0x1, 'Windows-1252')
+          _size.int = _f.pos - _pos.int
 
           if _msgtbl
             _msg               = Message.new
-            _msg.pos           = _pos.value
-            _msg.size          = _size.value
-            _msg.value         = _str.value
+            _msg.pos           = _pos.int
+            _msg.size          = _size.int
+            _msg.value         = _name.str
             @msg_table[_msgid] = _msg
           end
         end
@@ -216,41 +214,39 @@ class StdEntryData < EntryData
           _msgid = _entry.msg_id
 
           if jp? || us?
-            _pos  = _entry.find_member(VOC.dscr_pos[country_id] )
-            _size = _entry.find_member(VOC.dscr_size[country_id])
-            _str  = _entry.find_member(VOC.dscr_str[country_id] )
+            _lang = country_id
           elsif eu?
             _lang = find_lang(_filename)
-            _pos  = _entry.find_member(VOC.dscr_pos[_lang] )
-            _size = _entry.find_member(VOC.dscr_size[_lang])
-            _str  = _entry.find_member(VOC.dscr_str[_lang] )
           end
+          _pos  = _entry.fetch(VOC.dscr_pos[_lang])
+          _size = _entry.fetch(VOC.dscr_size[_lang])
+          _dscr = _entry.fetch(VOC.dscr_str[_lang])
           
           if _msgtbl
             _msg = @msg_table[_msgid]
             if _msg
-              _pos.value  = _msg.pos
-              _size.value = _msg.size
-              _str.value  = _msg.value
+              _pos.int  = _msg.pos
+              _size.int = _msg.size
+              _dscr.str = _msg.value
               next
             end
           end
 
           LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
           
-          _pos.value = _f.pos
+          _pos.int = _f.pos
           if jp? || us?
-            _str.value = _f.read_str(0xff, 0x4)
+            _dscr.str = _f.read_str(0xff, 0x4)
           else
-            _str.value = _f.read_str(0xff, 0x1, 'Windows-1252')
+            _dscr.str = _f.read_str(0xff, 0x1, 'Windows-1252')
           end
-          _size.value = _f.pos - _pos.value
+          _size.int = _f.pos - _pos.int
 
           if _msgtbl
             _msg               = Message.new
-            _msg.pos           = _pos.value
-            _msg.size          = _size.value
-            _msg.value         = _str.value
+            _msg.pos           = _pos.int
+            _msg.size          = _size.int
+            _msg.value         = _dscr.str
             @msg_table[_msgid] = _msg
           end
         end
@@ -335,11 +331,15 @@ class StdEntryData < EntryData
           next
         end
         
-        _lang = find_lang(_filename)
+        if jp? || us?
+          _lang = country_id
+        else
+          _lang = find_lang(_filename)
+        end
         if _lang
-          _pos  = _entry.find_member(VOC.name_pos[_lang] ).value
-          _size = _entry.find_member(VOC.name_size[_lang]).value
-          _str  = _entry.find_member(VOC.name_str[_lang] ).value
+          _pos  = _entry[VOC.name_pos[_lang]]
+          _size = _entry[VOC.name_size[_lang]]
+          _name = _entry[VOC.name_str[_lang]]
         else
           _pos  = -1
           _size = 0
@@ -356,7 +356,7 @@ class StdEntryData < EntryData
         
         LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
         
-        _f.write_str(_str, _size, 0x1, 'Windows-1252')
+        _f.write_str(_name, _size, 0x1, 'Windows-1252')
       end
     end
 
@@ -385,19 +385,17 @@ class StdEntryData < EntryData
         end
 
         if jp? || us?
-          _pos  = _entry.find_member(VOC.dscr_pos[country_id] ).value
-          _size = _entry.find_member(VOC.dscr_size[country_id]).value
-          _str  = _entry.find_member(VOC.dscr_str[country_id] ).value
-        elsif eu?
+          _lang = country_id
+        else
           _lang = find_lang(_filename)
-          if _lang
-            _pos  = _entry.find_member(VOC.dscr_pos[_lang] ).value
-            _size = _entry.find_member(VOC.dscr_size[_lang]).value
-            _str  = _entry.find_member(VOC.dscr_str[_lang] ).value
-          else
-            _pos  = -1
-            _size = 0
-          end
+        end
+        if _lang
+          _pos  = _entry[VOC.dscr_pos[_lang]]
+          _size = _entry[VOC.dscr_size[_lang]]
+          _dscr = _entry[VOC.dscr_str[_lang]]
+        else
+          _pos  = -1
+          _size = 0
         end
         
         _f.pos = _pos
@@ -412,9 +410,9 @@ class StdEntryData < EntryData
         LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
         
         if jp? || us?
-          _f.write_str(_str, _size, 0x4)
+          _f.write_str(_dscr, _size, 0x4)
         else
-          _f.write_str(_str, _size, 0x1, 'Windows-1252')
+          _f.write_str(_dscr, _size, 0x1, 'Windows-1252')
         end
       end
     end
@@ -441,8 +439,8 @@ class StdEntryData < EntryData
 
   # Reads all data entries from a CSV file.
   # @param _filename [String]  File name
-  # @param _force    [Boolean] Skips missing file and ignore missing data 
-  #                            members.
+  # @param _force    [Boolean] Skips missing file and ignore missing 
+  #                            properties.
   def load_csv_data(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return

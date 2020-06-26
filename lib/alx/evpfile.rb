@@ -79,8 +79,8 @@ class EvpFile < EpFile
       # Header
       _nodes = []
       (0..._num_enemies).each do
-        _id  = _f.read_int(:int32)
-        _pos = _f.read_int(:int32)
+        _id  = _f.read_int(:i32)
+        _pos = _f.read_int(:i32)
 
         if _id >= 0 && _pos >= 0
           _nodes << create_node(_id, _pos)
@@ -108,6 +108,11 @@ class EvpFile < EpFile
         LOG.info(sprintf(VOC.read, _id, _pos))
         load_enemy(_f, _id, _filename)
       end
+      
+      # Forces the event properties to be updated with all collected enemies.
+      @events.each do |_event|
+        _event.enemies = enemies
+      end
     end
     
     LOG.info(sprintf(VOC.close, _filename))
@@ -123,8 +128,8 @@ class EvpFile < EpFile
     _expired = false
     @events.each_with_index do |_event, _id|
       _expired ||= _event.expired
-      (0...7).each do |_i|
-        _enemy_id = _event.find_member(VOC.enemy_id[_i]).value
+      (1..7).each do |_i|
+        _enemy_id = _event[VOC.enemy_id[_i]]
         if _enemy_id != 255
           _enemy = find_enemy(_enemy_id, _filename)
           if _enemy
@@ -184,11 +189,11 @@ class EvpFile < EpFile
       (0..._num_enemies).each do |_i|
         _node = _nodes[_i]
         if _node
-          _f.write_int(_node.id  , :int32)
-          _f.write_int(_node.pos , :int32)
+          _f.write_int(_node.id  , :i32)
+          _f.write_int(_node.pos , :i32)
         else
-          _f.write_int(0xffffffff, :int32)
-          _f.write_int(0xffffffff, :int32)
+          _f.write_int(0xffffffff, :i32)
+          _f.write_int(0xffffffff, :i32)
         end
       end
     end

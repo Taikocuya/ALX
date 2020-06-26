@@ -49,7 +49,7 @@ class EnemyShipData < StdEntryData
 
   public
 
-  # Constructs a EnemyShipData.
+  # Constructs an EnemyShipData.
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(EnemyShip, _root)
@@ -107,28 +107,28 @@ class EnemyShipData < StdEntryData
           (1..4).each do |_i|
             case find_lang(_filename)
             when 'DE'
-              _pos  = _entry.find_member(VOC.arm_name_de_pos[_i] )
-              _size = _entry.find_member(VOC.arm_name_de_size[_i])
-              _str  = _entry.find_member(VOC.arm_name_de_str[_i] )
+              _pos  = _entry.fetch(VOC.arm_name_de_pos[_i] )
+              _size = _entry.fetch(VOC.arm_name_de_size[_i])
+              _name = _entry.fetch(VOC.arm_name_de_str[_i] )
             when 'ES'
-              _pos  = _entry.find_member(VOC.arm_name_es_pos[_i] )
-              _size = _entry.find_member(VOC.arm_name_es_size[_i])
-              _str  = _entry.find_member(VOC.arm_name_es_str[_i] )
+              _pos  = _entry.fetch(VOC.arm_name_es_pos[_i] )
+              _size = _entry.fetch(VOC.arm_name_es_size[_i])
+              _name = _entry.fetch(VOC.arm_name_es_str[_i] )
             when 'FR'
-              _pos  = _entry.find_member(VOC.arm_name_fr_pos[_i] )
-              _size = _entry.find_member(VOC.arm_name_fr_size[_i])
-              _str  = _entry.find_member(VOC.arm_name_fr_str[_i] )
+              _pos  = _entry.fetch(VOC.arm_name_fr_pos[_i] )
+              _size = _entry.fetch(VOC.arm_name_fr_size[_i])
+              _name = _entry.fetch(VOC.arm_name_fr_str[_i] )
             when 'GB'
-              _pos  = _entry.find_member(VOC.arm_name_gb_pos[_i] )
-              _size = _entry.find_member(VOC.arm_name_gb_size[_i])
-              _str  = _entry.find_member(VOC.arm_name_gb_str[_i] )
+              _pos  = _entry.fetch(VOC.arm_name_gb_pos[_i] )
+              _size = _entry.fetch(VOC.arm_name_gb_size[_i])
+              _name = _entry.fetch(VOC.arm_name_gb_str[_i] )
             end
             
             LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
             
-            _pos.value  = _f.pos
-            _str.value  = _f.read_str(0xff, 0x1, 'Windows-1252')
-            _size.value = _f.pos - _pos.value
+            _pos.int  = _f.pos
+            _name.str = _f.read_str(0xff, 0x1, 'Windows-1252')
+            _size.int = _f.pos - _pos.int
           end
         end
       end
@@ -188,21 +188,21 @@ class EnemyShipData < StdEntryData
         (1..4).each do |_i|
           case find_lang(_filename)
           when 'DE'
-            _pos  = _entry.find_member(VOC.arm_name_de_pos[_i] ).value
-            _size = _entry.find_member(VOC.arm_name_de_size[_i]).value
-            _str  = _entry.find_member(VOC.arm_name_de_str[_i] ).value
+            _pos  = _entry[VOC.arm_name_de_pos[_i] ]
+            _size = _entry[VOC.arm_name_de_size[_i]]
+            _name = _entry[VOC.arm_name_de_str[_i] ]
           when 'ES'
-            _pos  = _entry.find_member(VOC.arm_name_es_pos[_i] ).value
-            _size = _entry.find_member(VOC.arm_name_es_size[_i]).value
-            _str  = _entry.find_member(VOC.arm_name_es_str[_i] ).value
+            _pos  = _entry[VOC.arm_name_es_pos[_i] ]
+            _size = _entry[VOC.arm_name_es_size[_i]]
+            _name = _entry[VOC.arm_name_es_str[_i] ]
           when 'FR'
-            _pos  = _entry.find_member(VOC.arm_name_fr_pos[_i] ).value
-            _size = _entry.find_member(VOC.arm_name_fr_size[_i]).value
-            _str  = _entry.find_member(VOC.arm_name_fr_str[_i] ).value
+            _pos  = _entry[VOC.arm_name_fr_pos[_i] ]
+            _size = _entry[VOC.arm_name_fr_size[_i]]
+            _name = _entry[VOC.arm_name_fr_str[_i] ]
           when 'GB'
-            _pos  = _entry.find_member(VOC.arm_name_gb_pos[_i] ).value
-            _size = _entry.find_member(VOC.arm_name_gb_size[_i]).value
-            _str  = _entry.find_member(VOC.arm_name_gb_str[_i] ).value
+            _pos  = _entry[VOC.arm_name_gb_pos[_i] ]
+            _size = _entry[VOC.arm_name_gb_size[_i]]
+            _name = _entry[VOC.arm_name_gb_str[_i] ]
           else
             _pos  = -1
             _size = 0
@@ -219,7 +219,7 @@ class EnemyShipData < StdEntryData
           
           LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
           
-          _f.write_str(_str, _size, 0x1, 'Windows-1252')
+          _f.write_str(_name, _size, 0x1, 'Windows-1252')
         end
       end
     end

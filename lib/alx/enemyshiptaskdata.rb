@@ -44,7 +44,7 @@ class EnemyShipTaskData < EntryData
 
   public
 
-  # Constructs a EnemyShipTaskData.
+  # Constructs an EnemyShipTaskData.
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(EnemyShipTask, _root)

@@ -45,28 +45,9 @@ class EnemyShipTask < Entry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    @file        = ''
-    @enemy_ships = {}
-    @magics      = {}
-
-    members << StrDmy.new(VOC.filter               , ''        )
-    members << StrDmy.new(VOC.enemy_ship_id        , ''        )
-    members << StrDmy.new(VOC.enemy_ship_name      , ''        )
-    members << IntVar.new(VOC.task_cond_id         ,  0, :int16)
-    members << StrDmy.new(VOC.task_cond_name       , '???'     )
-    members << IntVar.new(VOC.task_rating          ,  0, :int16)
-    
-    (1..2).each do |_i|
-      members << IntVar.new(VOC.task_type_id[_i]   ,  0, :int16)
-      members << StrDmy.new(VOC.task_type_name[_i] , ''        )
-      members << IntVar.new(VOC.task_arm_id[_i]    ,  0, :int16)
-      if eu?
-        members << StrDmy.new(VOC.task_arm_name[_i], ''        )
-      end
-      members << IntVar.new(VOC.task_param_id[_i]  ,  0, :int16)
-      members << StrDmy.new(VOC.task_param_name[_i], ''        )
-      members << IntVar.new(VOC.task_range[_i]     ,  0, :int16)
-    end
+    init_attrs
+    init_props
+    init_procs
   end
 
   # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
@@ -76,9 +57,9 @@ class EnemyShipTask < Entry
   # @return [Boolean] +true+ if entry matches the snapshot, otherwise +false+.
   def check_expiration(_entry)
     _found   = true
-    _found &&= _entry.is_a?(EnemyShipTask)
-    _found &&= (id    == _entry.id  )
-    _found &&= (@file == _entry.file)
+    _found &&= _entry.is_a?(self.class)
+    _found &&= (id   == _entry.id  )
+    _found &&= (file == _entry.file)
 
     if _found
       super
@@ -87,114 +68,154 @@ class EnemyShipTask < Entry
     _found
   end
 
-  # Reads one entry from a CSV  file.
-  # @param _csv [CSV] CSV object
-  def read_csv(_csv)
-    super
-    @file = find_member(VOC.filter).value
-  end
-  
-  # Writes one entry to a CSV file.
-  # @param _csv [CSV] CSV object
-  def write_csv(_csv)
-    _match = SYS.enemy_ship_tasks.find do |_, _array|
-      _array.any? do |_task_id|
-        @file.include?(_task_id.to_s)
-      end
-    end
-    if _match
-      _enemy_id   = _match[0]
-      _enemy_ship = @enemy_ships[_enemy_id]
-    else
-      _enemy_id   = '???'
-      _enemy_ship = nil
-    end
-    
-    find_member(VOC.filter).value        = @file
-    find_member(VOC.enemy_ship_id).value = _enemy_id
-    
-    _name = '???'
-    if _enemy_ship
-      if jp? || us?
-        _name = _enemy_ship.find_member(VOC.name_str[country_id]).value
-      elsif eu?
-        _name = _enemy_ship.find_member(VOC.name_str['GB']   ).value
-      end
-    end
-    find_member(VOC.enemy_ship_name).value = _name
-
-    (1..2).each do |_i|
-      if eu?
-        _name = '???'
-        if _enemy_ship
-          _id = find_member(VOC.task_arm_id[_i]).value
-          if _id > -1
-            _name = _enemy_ship.find_member(VOC.arm_name_gb_str[_id + 1]).value
-          else
-            _name = 'None'
-          end
-        end
-        find_member(VOC.task_arm_name[_i]).value = _name
-      end
-    
-      _id = find_member(VOC.task_type_id[_i]).value
-      find_member(VOC.task_type_name[_i]).value = VOC.task_types[_id]
-    
-      _type_id    = find_member(VOC.task_type_id[_i] ).value
-      _param_id   = find_member(VOC.task_param_id[_i]).value
-      _type_name  = VOC.task_types[_type_id]
-      _param_name = _param_id != -1 ? '???' : 'None'
-      case _type_id
-      when 0
-        _param_name = 'None'
-      when 1
-        _entry = @magics[_param_id]
-        if _entry
-          if jp? || us?
-            _param_name = _entry.find_member(VOC.name_str[country_id]).value
-          elsif eu?
-            _param_name = _entry.find_member(VOC.name_str['GB']   ).value
-          end
-        end
-      when 2
-        _param_name = VOC.focus_tasks[_param_id]
-      when 3
-        _param_name = VOC.guard_tasks[_param_id]
-      when 4
-        _param_name = VOC.nothing_tasks[_param_id]
-      end
-      find_member(VOC.task_type_name[_i] ).value = _type_name
-      find_member(VOC.task_param_name[_i]).value = _param_name
-    end
-    
-    super
-  end
-
-  # Provides marshalling support for use by the Marshal library.
-  # @param _hash [Hash] Hash object
-  def marshal_load(_hash)
-    _hash.each do |_key, _value|
-      instance_variable_set(_key, _value)
-    end
-    @enemy_ships = {}
-    @magics      = {}
-  end
-  
-  # Provides marshalling support for use by the Marshal library.
-  # @return [Hash] Hash object
-  def marshal_dump
-    _hash         = super
-    _hash[:@file] = @file
-    _hash
-  end
-  
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :file
-  attr_accessor :enemy_ships
-  attr_accessor :magics
+  attr_accessor :enemy_id
+  attr_reader   :enemy_ships
+  attr_reader   :magics
+
+  def enemy_ships=(_enemy_ships)
+    @enemy_ships = _enemy_ships
+    
+    fetch(VOC.filter)&.call_proc
+    if eu?
+      (1..2).each do |_i|
+        fetch(VOC.task_arm_id[_i])&.call_proc
+      end
+    end
+  end
+  
+  def magics=(_magics)
+    @magics = _magics
+    
+    (1..2).each do |_i|
+      fetch(VOC.task_param_id[_i])&.call_proc
+    end
+  end
+  
+  def file
+    self[VOC.filter]
+  end
+
+  def file=(_file)
+    self[VOC.filter] = _file
+  end
+  
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry attributes.
+  def init_attrs
+    super
+    @enemy_id    = -1
+    @enemy_ships = {}
+    @magics      = {}
+  end
+  
+  # Initialize the entry properties.
+  def init_props
+    self[VOC.filter         ] = StrProp.new( nil,    '', ext: true)
+    self[VOC.enemy_ship_id  ] = StrProp.new( nil,    '', dmy: true)
+    self[VOC.enemy_ship_name] = StrProp.new( nil,    '', dmy: true)
+    self[VOC.task_cond_id   ] = IntProp.new(:i16,     0           )
+    self[VOC.task_cond_name ] = StrProp.new( nil, '???', dmy: true)
+    self[VOC.task_rating    ] = IntProp.new(:i16,     0           )
+    
+    (1..2).each do |_i|
+      self[VOC.task_type_id[_i]  ] = IntProp.new(:i16,  0           )
+      self[VOC.task_type_name[_i]] = StrProp.new( nil, '', dmy: true)
+      self[VOC.task_arm_id[_i]   ] = IntProp.new(:i16,  0           )
+      
+      if eu?
+        self[VOC.task_arm_name[_i]] = StrProp.new(nil, '', dmy: true)
+      end
+      
+      self[VOC.task_param_id[_i]  ] = IntProp.new(:i16,  0           )
+      self[VOC.task_param_name[_i]] = StrProp.new( nil, '', dmy: true)
+      self[VOC.task_range[_i]     ] = IntProp.new(:i16,  0           )
+    end
+  end
+  
+  # Initialize the entry procs.
+  def init_procs
+    fetch(VOC.filter).proc = Proc.new do |_filter|
+      _match = SYS.enemy_ship_tasks.find do |_, _array|
+        _array.any? do |_task_id|
+          _filter.include?(_task_id.to_s)
+        end
+      end
+      
+      @enemy_id = _match ? _match[0] : -1
+      self[VOC.enemy_ship_id] = @enemy_id
+      
+      _name       = '???'
+      _enemy_ship = (@enemy_id != -1) ? @enemy_ships[@enemy_id] : nil
+      if _enemy_ship
+        if jp? || us?
+          _name = _enemy_ship[VOC.name_str[cid]]
+        elsif eu?
+          _name = _enemy_ship[VOC.name_str['GB']]
+        end
+      end
+      self[VOC.enemy_ship_name] = _name
+    end
+
+    (1..2).each do |_i|
+      if eu?
+        fetch(VOC.task_arm_id[_i]).proc = Proc.new do |_id|
+          _name       = '???'
+          _enemy_ship = (@enemy_id != -1) ? @enemy_ships[@enemy_id] : nil
+          if _enemy_ship
+            _id = self[VOC.task_arm_id[_i]]
+            if _id > -1
+              _name = _enemy_ship[VOC.arm_name_gb_str[_id + 1]]
+            else
+              _name = 'None'
+            end
+          end
+          self[VOC.task_arm_name[_i]] = _name
+        end
+      end
+
+      fetch(VOC.task_type_id[_i]).proc = Proc.new do
+        fetch(VOC.task_param_id[_i])&.call_proc
+      end
+      
+      fetch(VOC.task_param_id[_i]).proc = Proc.new do |_param_id|
+        _type_id    = self[VOC.task_type_id[_i]]
+        _type_name  = VOC.task_types[_type_id]
+        _param_name = (_param_id != -1) ? '???' : 'None'
+        
+        case _type_id
+        when 0
+          _param_name = 'None'
+        when 1
+          _entry = @magics[_param_id]
+          if _entry
+            if jp? || us?
+              _param_name = _entry[VOC.name_str[cid]]
+            elsif eu?
+              _param_name = _entry[VOC.name_str['GB']]
+            end
+          end
+        when 2
+          _param_name = VOC.focus_tasks[_param_id]
+        when 3
+          _param_name = VOC.guard_tasks[_param_id]
+        when 4
+          _param_name = VOC.nothing_tasks[_param_id]
+        end
+        
+        self[VOC.task_type_name[_i] ] = _type_name
+        self[VOC.task_param_name[_i]] = _param_name
+      end
+    end
+  end
 
 end	# class EnemyShipTask
 

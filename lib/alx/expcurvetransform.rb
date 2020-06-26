@@ -42,7 +42,7 @@ class ExpCurveTransform < StdEntryTransform
 
   public
 
-  # Constructs a ExpCurveTransform.
+  # Constructs an ExpCurveTransform.
   def initialize
     super(ExpCurveData)
   end

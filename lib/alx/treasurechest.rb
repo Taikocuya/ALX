@@ -45,50 +45,70 @@ class TreasureChest < StdEntry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    @items = {}
-
-    if product_id != '6107110 06' && product_id != '6107810'
-      members << IntVar.new(VOC.item_id[-1]    , -1, :int32)
-      members << StrDmy.new(VOC.item_name[-1]  , ''        )
-      members << IntVar.new(VOC.item_amount[-1], -1, :int32)
-    else
-      members << IntVar.new(VOC.item_id[-1]    , -1, :int16)
-      members << StrDmy.new(VOC.item_name[-1]  , ''        )
-      members << IntVar.new(VOC.item_amount[-1], -1, :int16)
-    end
-  end
-
-  # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_csv(_f)
-    _id = find_member(VOC.item_id[-1]).value
-    if _id != -1
-      if _id >= 510
-        _name = VOC.gold
-      else
-        _entry = @items[_id]
-        _name  = '???'
-        if _entry
-          if jp? || us?
-            _name = _entry.find_member(VOC.name_str[country_id]).value
-          elsif eu?
-            _name = _entry.find_member(VOC.name_str['GB']).value
-          end
-        end
-      end
-    else
-      _name = 'None'
-    end
-    find_member(VOC.item_name[-1]).value = _name
-
-    super
+    init_attrs
+    init_props
+    init_procs
   end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :items
+  attr_reader :items
+
+  def items=(_items)
+    @items = _items
+    fetch(VOC.item_id[-1])&.call_proc
+  end
+  
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry attributes.
+  def init_attrs
+    super
+    @items = {}
+  end
+  
+  # Initialize the entry properties.
+  def init_props
+    if product_id != '6107110 06' && product_id != '6107810'
+      self[VOC.item_id[-1]    ] = IntProp.new(:i32, -1           )
+      self[VOC.item_name[-1]  ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.item_amount[-1]] = IntProp.new(:i32, -1           )
+    else
+      self[VOC.item_id[-1]    ] = IntProp.new(:i16, -1           )
+      self[VOC.item_name[-1]  ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.item_amount[-1]] = IntProp.new(:i16, -1           )
+    end
+  end
+  
+  # Initialize the entry procs.
+  def init_procs
+    fetch(VOC.item_id[-1]).proc = Proc.new do |_id|
+      if _id != -1
+        if _id >= 510
+          _name = VOC.gold
+        else
+          _entry = @items[_id]
+          _name  = '???'
+          if _entry
+            if jp? || us?
+              _name = _entry[VOC.name_str[cid]]
+            elsif eu?
+              _name = _entry[VOC.name_str['GB']]
+            end
+          end
+        end
+      else
+        _name = 'None'
+      end
+      self[VOC.item_name[-1]] = _name
+    end
+  end
 
 end	# class TreasureChest
 

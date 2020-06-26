@@ -45,104 +45,89 @@ class EnemyEncounter < Entry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    @file    = ''
-    @enemies = []
-
-    members << StrDmy.new(VOC.filter               , ''        )
-    members << IntVar.new(VOC.initiative           ,  0, :uint8)
-    members << IntVar.new(VOC.magic_exp            ,  0, :uint8)
-
-    (0...8).each do |_i|
-      members << IntVar.new(VOC.enemy_id[_i]       ,  0, :uint8)
-      members << StrDmy.new(VOC.enemy_name_jp[_i]  , ''        )
-      
-      if us?
-        members << StrDmy.new(VOC.enemy_name_us[_i], ''        )
-      elsif eu?
-        members << StrDmy.new(VOC.enemy_name_eu[_i], ''        )
-      end
-    end
+    init_attrs
+    init_props
+    init_procs
   end
 
-  # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
-  # differs from the snapshot, otherwise nothing happens. Returns +true+ if 
-  # the entry matches the snapshot, otherwise +false+.
-  # @param _entry [Entry] Entry object
-  # @return [Boolean] +true+ if entry matches the snapshot, otherwise +false+.
-  def check_expiration(_entry)
-    _found   = true
-    _found &&= _entry.is_a?(EnemyEncounter)
-    _found &&= (id    == _entry.id  )
-    _found &&= (@file == _entry.file)
-
-    if _found
-      super
-    end
-    
-    _found
-  end
-
-  # Reads one entry from a CSV  file.
-  # @param _csv [CSV] CSV object
-  def read_csv(_csv)
-    super
-    @file = find_member(VOC.filter).value
-  end
-  
-  # Writes one entry to a CSV file.
-  # @param _csv [CSV] CSV object
-  def write_csv(_csv)
-    find_member(VOC.filter).value = @file
-    
-    (0...8).each do |_i|
-      _id = find_member(VOC.enemy_id[_i]).value
-      if _id != 255
-        _entry = @enemies.find { |_enemy| _enemy.id == _id }
-        if _entry
-          _name_jp  = _entry.find_member(VOC.name_str['JP']).value
-          _name_voc = voc(:enemies, _id.to_s) || '???'
-        else
-          _name_jp  = '???'
-          _name_voc = '???'
-        end
-      else
-        _name_jp  = 'None'
-        _name_voc = 'None'
-      end
-      find_member(VOC.enemy_name_jp[_i]).value = _name_jp
-      if us?
-        find_member(VOC.enemy_name_us[_i]).value = _name_voc
-      elsif eu?
-        find_member(VOC.enemy_name_eu[_i]).value = _name_voc
-      end
-    end
-
-    super
-  end
-
-  # Provides marshalling support for use by the Marshal library.
-  # @param _hash [Hash] Hash object
-  def marshal_load(_hash)
-    _hash.each do |_key, _value|
-      instance_variable_set(_key, _value)
-    end
-    @enemies = []
-  end
-  
-  # Provides marshalling support for use by the Marshal library.
-  # @return [Hash] Hash object
-  def marshal_dump
-    _hash         = super
-    _hash[:@file] = @file
-    _hash
-  end
-  
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :enemies
-  attr_accessor :file
+  attr_reader :enemies
+
+  def enemies=(_enemies)
+    @enemies = _enemies
+    
+    (1..8).each do |_i|
+      fetch(VOC.enemy_id[_i])&.call_proc
+    end
+  end
+  
+  def file
+    self[VOC.filter]
+  end
+
+  def file=(_file)
+    self[VOC.filter] = _file
+  end
+  
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry attributes.
+  def init_attrs
+    super
+    @enemies = []
+  end
+  
+  # Initialize the entry properties.
+  def init_props
+    self[VOC.filter    ] = StrProp.new(nil, '', ext: true)
+    self[VOC.initiative] = IntProp.new(:u8,  0           )
+    self[VOC.magic_exp ] = IntProp.new(:u8,  0           )
+
+    (1..8).each do |_i|
+      self[VOC.enemy_id[_i]     ] = IntProp.new(:u8,  0           )
+      self[VOC.enemy_name_jp[_i]] = StrProp.new(nil, '', dmy: true)
+      
+      if us?
+        self[VOC.enemy_name_us[_i]] = StrProp.new(nil, '', dmy: true)
+      elsif eu?
+        self[VOC.enemy_name_eu[_i]] = StrProp.new(nil, '', dmy: true)
+      end
+    end
+  end
+  
+  # Initialize the entry procs.
+  def init_procs
+    (1..8).each do |_i|
+      fetch(VOC.enemy_id[_i]).proc = Proc.new do |_id|
+        if _id != 255
+          _entry = @enemies.find { |_enemy| _enemy.id == _id }
+          if _entry
+            _name_jp  = _entry[VOC.name_str['JP']]
+            _name_voc = voc(:enemies, _id.to_s) || '???'
+          else
+            _name_jp  = '???'
+            _name_voc = '???'
+          end
+        else
+          _name_jp  = 'None'
+          _name_voc = 'None'
+        end
+        self[VOC.enemy_name_jp[_i]] = _name_jp
+        if us?
+          self[VOC.enemy_name_us[_i]] = _name_voc
+        elsif eu?
+          self[VOC.enemy_name_eu[_i]] = _name_voc
+        end
+      end
+    end
+  end
 
 end	# class EnemyEncounter
 

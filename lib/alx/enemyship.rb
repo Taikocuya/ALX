@@ -41,139 +41,186 @@ class EnemyShip < StdEntry
 
   public
 
-  # Constructs a EnemyShip.
+  # Constructs an EnemyShip.
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    @items = {}
-    add_name_members(20)
-
-    members << IntVar.new(VOC.maxhp                   , -1, :int32)
-    members << IntVar.new(VOC.will                    , -1, :int16)
-    members << IntVar.new(VOC.defense                 , -1, :int16)
-    members << IntVar.new(VOC.magdef                  , -1, :int16)
-
-    if product_id != '6107110 06' && product_id != '6107810'
-      members << IntVar.new(VOC.quick                 , -1, :int16)
-      members << IntVar.new(VOC.agile                 , -1, :int16)
-      members << IntVar.new(VOC.dodge                 , -1, :int16)
-    end
-
-    (0...6).each do |_i|
-      members << IntVar.new(VOC.elements[_i]          , -1, :int16)
-    end
-    (1..4).each do |_i|
-      if eu?
-        members << HexExt.new(VOC.arm_name_de_pos[_i] ,  0        )
-        members << IntExt.new(VOC.arm_name_de_size[_i],  0        )
-        members << StrExt.new(VOC.arm_name_de_str[_i] , ''        )
-        members << HexExt.new(VOC.arm_name_es_pos[_i] ,  0        )
-        members << IntExt.new(VOC.arm_name_es_size[_i],  0        )
-        members << StrExt.new(VOC.arm_name_es_str[_i] , ''        )
-        members << HexExt.new(VOC.arm_name_fr_pos[_i] ,  0        )
-        members << IntExt.new(VOC.arm_name_fr_size[_i],  0        )
-        members << StrExt.new(VOC.arm_name_fr_str[_i] , ''        )
-        members << HexExt.new(VOC.arm_name_gb_pos[_i] ,  0        )
-        members << IntExt.new(VOC.arm_name_gb_size[_i],  0        )
-        members << StrExt.new(VOC.arm_name_gb_str[_i] , ''        )
-      end
-      members << IntVar.new(VOC.arm_type_id[_i]       , -1, :int16)
-      members << StrDmy.new(VOC.arm_type_name[_i]     , ''        )
-      members << IntVar.new(VOC.arm_attack[_i]        , -1, :int16)
-      members << IntVar.new(VOC.arm_range[_i]         , -1, :int16)
-      members << IntVar.new(VOC.arm_hit[_i]           , -1, :int16)
-      members << IntVar.new(VOC.arm_element_id[_i]    , -1, :int16)
-      members << StrDmy.new(VOC.arm_element_name[_i]  , ''        )
-    end
-    
-    if product_id != '6107110 06' && product_id != '6107810'
-      members << IntVar.new(padding_hdr               ,  0, :int16)
-      members << IntVar.new(padding_hdr               ,  0, :int16)
-      members << IntVar.new(padding_hdr               ,  0, :int16)
-      members << IntVar.new(padding_hdr               ,  0, :int16)
-      members << IntVar.new(padding_hdr               ,  0, :int16)
-      members << IntVar.new(padding_hdr               ,  0, :int16)
-    else
-      members << IntVar.new(VOC.padding[-1]           ,  0, :int16)
-    end
-    
-    members << IntVar.new(VOC.exp[-1]                 , -1, :int32)
-    members << IntVar.new(VOC.gold                    , -1, :int32)
-
-    if product_id != '6107110 06' && product_id != '6107810'
-      (1..3).each do |_i|
-        members << IntVar.new(VOC.item_drop_id[_i]    , -1, :int16)
-        members << StrDmy.new(VOC.item_drop_name[_i]  , ''        )
-        members << IntVar.new(VOC.item_id[_i]         , -1, :int16)
-        members << StrDmy.new(VOC.item_name[_i]       , ''        )
-      end
-    else
-      members << IntVar.new(VOC.item_drop_id[-1]      , -1, :int16)
-      members << StrDmy.new(VOC.item_drop_name[-1]    , ''        )
-      members << IntVar.new(VOC.item_id[-1]           , -1, :int16)
-      members << StrDmy.new(VOC.item_name[-1]         , ''        )
-    end
-  end
-
-  # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_csv(_f)
-    (1..4).each do |_i|
-      _id = find_member(VOC.arm_type_id[_i]).value
-      find_member(VOC.arm_type_name[_i]).value = VOC.ship_cannon_types[_id]
-      
-      _id = find_member(VOC.arm_element_id[_i]).value
-      find_member(VOC.arm_element_name[_i]).value = VOC.elements[_id]
-    end
-
-    if product_id != '6107110 06' && product_id != '6107810'
-      (1..3).each do |_i|
-        _id = find_member(VOC.item_id[_i]).value
-        if _id != -1
-          _entry = @items[_id]
-          _name  = '???'
-          if _entry
-            if jp? || us?
-              _name = _entry.find_member(VOC.name_str[country_id]).value
-            elsif eu?
-              _name = _entry.find_member(VOC.name_str['GB']).value
-            end
-          end
-        else
-          _name = 'None'
-        end
-        find_member(VOC.item_name[_i]).value = _name
-      end
-  
-      (1..3).each do |_i|
-        _id = find_member(VOC.item_drop_id[_i]).value
-        find_member(VOC.item_drop_name[_i]).value = VOC.drops[_id]
-      end
-    else
-      _id = find_member(VOC.item_id[-1]).value
-      if _id != -1
-        _entry = @items[_id]
-        _name  = '???'
-        if _entry
-          _name = _entry.find_member(VOC.name_str[country_id]).value
-        end
-      else
-        _name = 'None'
-      end
-      find_member(VOC.item_name[-1]).value = _name
-      
-      _id = find_member(VOC.item_drop_id[-1]).value
-      find_member(VOC.item_drop_name[-1]).value = VOC.drops[_id]
-    end    
-    
-    super
+    init_attrs
+    init_props
+    init_procs
   end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :items
+  attr_reader :items
+
+  def items=(_items)
+    @items = _items
+    
+    if product_id != '6107110 06' && product_id != '6107810'
+      (1..3).each do |_i|
+        fetch(VOC.item_id[_i])&.call_proc
+      end
+    else
+      fetch(VOC.item_id[-1])&.call_proc
+    end
+  end
+  
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry attributes.
+  def init_attrs
+    super
+    @items = {}
+  end
+  
+  # Initialize the entry properties.
+  def init_props
+    add_name_props(20)
+
+    self[VOC.maxhp  ] = IntProp.new(:i32, -1)
+    self[VOC.will   ] = IntProp.new(:i16, -1)
+    self[VOC.defense] = IntProp.new(:i16, -1)
+    self[VOC.magdef ] = IntProp.new(:i16, -1)
+
+    if product_id != '6107110 06' && product_id != '6107810'
+      self[VOC.quick] = IntProp.new(:i16, -1)
+      self[VOC.agile] = IntProp.new(:i16, -1)
+      self[VOC.dodge] = IntProp.new(:i16, -1)
+    end
+
+    (0...6).each do |_i|
+      self[VOC.elements[_i]] = IntProp.new(:i16, -1)
+    end
+    
+    (1..4).each do |_i|
+      if eu?
+        _de_pos  = VOC.arm_name_de_pos[_i]
+        _de_size = VOC.arm_name_de_size[_i]
+        _de_str  = VOC.arm_name_de_str[_i]
+        _es_pos  = VOC.arm_name_es_pos[_i]
+        _es_size = VOC.arm_name_es_size[_i]
+        _es_str  = VOC.arm_name_es_str[_i]
+        _fr_pos  = VOC.arm_name_fr_pos[_i]
+        _fr_size = VOC.arm_name_fr_size[_i]
+        _fr_str  = VOC.arm_name_fr_str[_i]
+        _gb_pos  = VOC.arm_name_gb_pos[_i]
+        _gb_size = VOC.arm_name_gb_size[_i]
+        _gb_str  = VOC.arm_name_gb_str[_i]
+        
+        self[_de_pos ] = IntProp.new(:u32,  0, base: 16, ext: true)
+        self[_de_size] = IntProp.new(:u32,  0,           ext: true)
+        self[_de_str ] = StrProp.new( nil, '',           ext: true)
+        self[_es_pos ] = IntProp.new(:u32,  0, base: 16, ext: true)
+        self[_es_size] = IntProp.new(:u32,  0,           ext: true)
+        self[_es_str ] = StrProp.new( nil, '',           ext: true)
+        self[_fr_pos ] = IntProp.new(:u32,  0, base: 16, ext: true)
+        self[_fr_size] = IntProp.new(:u32,  0,           ext: true)
+        self[_fr_str ] = StrProp.new( nil, '',           ext: true)
+        self[_gb_pos ] = IntProp.new(:u32,  0, base: 16, ext: true)
+        self[_gb_size] = IntProp.new(:u32,  0,           ext: true)
+        self[_gb_str ] = StrProp.new( nil, '',           ext: true)
+      end
+      self[VOC.arm_type_id[_i]     ] = IntProp.new(:i16, -1           )
+      self[VOC.arm_type_name[_i]   ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.arm_attack[_i]      ] = IntProp.new(:i16, -1           )
+      self[VOC.arm_range[_i]       ] = IntProp.new(:i16, -1           )
+      self[VOC.arm_hit[_i]         ] = IntProp.new(:i16, -1           )
+      self[VOC.arm_element_id[_i]  ] = IntProp.new(:i16, -1           )
+      self[VOC.arm_element_name[_i]] = StrProp.new( nil, '', dmy: true)
+    end
+    
+    if product_id != '6107110 06' && product_id != '6107810'
+      self[padding_hdr] = IntProp.new(:i16, 0)
+      self[padding_hdr] = IntProp.new(:i16, 0)
+      self[padding_hdr] = IntProp.new(:i16, 0)
+      self[padding_hdr] = IntProp.new(:i16, 0)
+      self[padding_hdr] = IntProp.new(:i16, 0)
+      self[padding_hdr] = IntProp.new(:i16, 0)
+    else
+      self[VOC.padding[-1]] = IntProp.new(:i16, 0)
+    end
+    
+    self[VOC.exp[-1]] = IntProp.new(:i32, -1)
+    self[VOC.gold   ] = IntProp.new(:i32, -1)
+
+    if product_id != '6107110 06' && product_id != '6107810'
+      (1..3).each do |_i|
+        self[VOC.item_drop_id[_i]  ] = IntProp.new(:i16, -1           )
+        self[VOC.item_drop_name[_i]] = StrProp.new( nil, '', dmy: true)
+        self[VOC.item_id[_i]       ] = IntProp.new(:i16, -1           )
+        self[VOC.item_name[_i]     ] = StrProp.new( nil, '', dmy: true)
+      end
+    else
+      self[VOC.item_drop_id[-1]  ] = IntProp.new(:i16, -1           )
+      self[VOC.item_drop_name[-1]] = StrProp.new( nil, '', dmy: true)
+      self[VOC.item_id[-1]       ] = IntProp.new(:i16, -1           )
+      self[VOC.item_name[-1]     ] = StrProp.new( nil, '', dmy: true)
+    end
+  end
+  
+  # Initialize the entry procs.
+  def init_procs
+    (1..4).each do |_i|
+      fetch(VOC.arm_type_id[_i]).proc = Proc.new do |_id|
+        self[VOC.arm_type_name[_i]] = VOC.ship_cannon_types[_id]
+      end
+      
+      fetch(VOC.arm_element_id[_i]).proc = Proc.new do |_id|
+        self[VOC.arm_element_name[_i]] = VOC.elements[_id]
+      end
+    end
+
+    if product_id != '6107110 06' && product_id != '6107810'
+      (1..3).each do |_i|
+        fetch(VOC.item_drop_id[_i]).proc = Proc.new do |_id|
+          self[VOC.item_drop_name[_i]] = VOC.drops[_id]
+        end
+      end
+      
+      (1..3).each do |_i|
+        fetch(VOC.item_id[_i]).proc = Proc.new do |_id|
+          if _id != -1
+            _entry = @items[_id]
+            _name  = '???'
+            if _entry
+              if jp? || us?
+                _name = _entry[VOC.name_str[cid]]
+              elsif eu?
+                _name = _entry[VOC.name_str['GB']]
+              end
+            end
+          else
+            _name = 'None'
+          end
+          self[VOC.item_name[_i]] = _name
+        end
+      end
+    else
+      fetch(VOC.item_drop_id[-1]).proc = Proc.new do |_id|
+        self[VOC.item_drop_name[-1]] = VOC.drops[_id]
+      end
+
+      fetch(VOC.item_id[-1]).proc = Proc.new do |_id|
+        if _id != -1
+          _entry = @items[_id]
+          _name  = '???'
+          if _entry
+            _name = _entry[VOC.name_str[cid]]
+          end
+        else
+          _name = 'None'
+        end
+        self[VOC.item_name[-1]] = _name
+      end
+    end
+  end
 
 end	# class EnemyShip
 

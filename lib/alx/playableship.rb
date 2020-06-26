@@ -45,109 +45,146 @@ class PlayableShip < StdEntry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    @ship_cannons     = {}
-    @ship_accessories = {}
-    add_name_members(20)
-
-    members << IntVar.new(VOC.maxhp                    ,  0, :uint32)
-    
-    if product_id != '6107110 06' && product_id != '6107810'
-      members << IntVar.new(VOC.maxspirit[-1]          ,  0, :int16 )
-      members << IntVar.new(VOC.spirit[-1]             ,  0, :int16 )
-    end
-    
-    members << IntVar.new(VOC.defense                  ,  0, :int16 )
-    members << IntVar.new(VOC.magdef                   ,  0, :int16 )
-    members << IntVar.new(VOC.quick                    ,  0, :int16 )
-    
-    if product_id != '6107110 06' && product_id != '6107810'
-      members << IntVar.new(VOC.dodge                  ,  0, :int16 )
-    end
-    
-    (0...6).each do |_i|
-      members << IntVar.new(VOC.elements[_i]           ,  0, :int16 )
-    end
-
-    _size = product_id == '6107110 06' || product_id == '6107810' ? 4 : 5
-    (0..._size).each do |_i|
-      members << IntVar.new(VOC.ship_cannon_id[_i]     , -1, :int16 )
-      members << StrDmy.new(VOC.ship_cannon_name[_i]   , ''         )
-    end
-    
-    (0...3).each do |_i|
-      members << IntVar.new(VOC.ship_accessory_id[_i]  , -1, :int16 )
-      members << StrDmy.new(VOC.ship_accessory_name[_i], ''         )
-    end
-
-    if product_id != '6107110 06' && product_id != '6107810'
-      members << IntVar.new(VOC.value                  ,  0, :uint32)
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(VOC.base_hp_increase       ,  0, :int32 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(VOC.base_defense_increase  ,  0, :int16 )
-      members << IntVar.new(VOC.base_magdef_increase   ,  0, :int16 )
-      members << IntVar.new(VOC.base_quick_increase    ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-      members << IntVar.new(padding_hdr                ,  0, :int16 )
-    end
-  end
-
-  # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_csv(_f)
-    _size = product_id == '6107110 06' || product_id == '6107810' ? 4 : 5
-    (0..._size).each do |_i|
-      _id = find_member(VOC.ship_cannon_id[_i]).value
-      if _id != -1
-        _entry = @ship_cannons[_id]
-        _name  = '???'
-        if _entry
-          if jp? || us?
-            _name = _entry.find_member(VOC.name_str[country_id]).value
-          elsif eu?
-            _name = _entry.find_member(VOC.name_str['GB']).value
-          end
-        end
-      else
-        _name = 'None'
-      end
-      find_member(VOC.ship_cannon_name[_i]).value = _name
-    end
-
-    (0...3).each do |_i|
-      _id = find_member(VOC.ship_accessory_id[_i]).value
-      if _id != -1
-        _entry = @ship_accessories[_id]
-        _name  = '???'
-        if _entry
-          if jp? || us?
-            _name = _entry.find_member(VOC.name_str[country_id]).value
-          elsif eu?
-            _name = _entry.find_member(VOC.name_str['GB']).value
-          end
-        end
-      else
-        _name = 'None'
-      end
-      find_member(VOC.ship_accessory_name[_i]).value = _name
-    end
-
-    super
+    init_attrs
+    init_props
+    init_procs
   end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :ship_cannons
-  attr_accessor :ship_accessories
+  attr_reader   :ship_cannons
+  attr_accessor :ship_cannon_size
+  attr_reader   :ship_accessories
+
+  def ship_cannons=(_ship_cannons)
+    @ship_cannons = _ship_cannons
+    (1..@ship_cannon_size).each do |_i|
+      fetch(VOC.ship_cannon_id[_i])&.call_proc
+    end
+  end
+  
+  def ship_accessories=(_ship_accessories)
+    @ship_accessories = _ship_accessories
+    (1..3).each do |_i|
+      fetch(VOC.ship_accessory_id[_i])&.call_proc
+    end
+  end
+  
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry attributes.
+  def init_attrs
+    super
+
+    if product_id == '6107110 06' || product_id == '6107810'
+      @ship_cannon_size = 4
+    else
+      @ship_cannon_size = 5
+    end
+    
+    @ship_cannons     = {}
+    @ship_accessories = {}
+  end
+  
+  # Initialize the entry properties.
+  def init_props
+    add_name_props(20)
+
+    self[VOC.maxhp] = IntProp.new(:u32, 0)
+    
+    if product_id != '6107110 06' && product_id != '6107810'
+      self[VOC.maxspirit[-1]] = IntProp.new(:i16, 0)
+      self[VOC.spirit[-1]   ] = IntProp.new(:i16, 0)
+    end
+    
+    self[VOC.defense] = IntProp.new(:i16, 0)
+    self[VOC.magdef ] = IntProp.new(:i16, 0)
+    self[VOC.quick  ] = IntProp.new(:i16, 0)
+    
+    if product_id != '6107110 06' && product_id != '6107810'
+      self[VOC.dodge] = IntProp.new(:i16, 0)
+    end
+    
+    (0...6).each do |_i|
+      self[VOC.elements[_i]] = IntProp.new(:i16, 0)
+    end
+
+    (1..@ship_cannon_size).each do |_i|
+      self[VOC.ship_cannon_id[_i]  ] = IntProp.new(:i16, -1           )
+      self[VOC.ship_cannon_name[_i]] = StrProp.new( nil, '', dmy: true)
+    end
+    
+    (1..3).each do |_i|
+      self[VOC.ship_accessory_id[_i]  ] = IntProp.new(:i16, -1           )
+      self[VOC.ship_accessory_name[_i]] = StrProp.new( nil, '', dmy: true)
+    end
+
+    if product_id != '6107110 06' && product_id != '6107810'
+      self[VOC.value            ] = IntProp.new(:u32, 0)
+      self[padding_hdr          ] = IntProp.new(:i16, 0)
+      self[padding_hdr          ] = IntProp.new(:i16, 0)
+      self[VOC.base_hp_incr     ] = IntProp.new(:i32, 0)
+      self[padding_hdr          ] = IntProp.new(:i16, 0)
+      self[padding_hdr          ] = IntProp.new(:i16, 0)
+      self[VOC.base_defense_incr] = IntProp.new(:i16, 0)
+      self[VOC.base_magdef_incr ] = IntProp.new(:i16, 0)
+      self[VOC.base_quick_incr  ] = IntProp.new(:i16, 0)
+      self[padding_hdr          ] = IntProp.new(:i16, 0)
+      self[padding_hdr          ] = IntProp.new(:i16, 0)
+      self[padding_hdr          ] = IntProp.new(:i16, 0)
+      self[padding_hdr          ] = IntProp.new(:i16, 0)
+      self[padding_hdr          ] = IntProp.new(:i16, 0)
+      self[padding_hdr          ] = IntProp.new(:i16, 0)
+      self[padding_hdr          ] = IntProp.new(:i16, 0)
+    end
+  end
+  
+  # Initialize the entry procs.
+  def init_procs
+    (1..@ship_cannon_size).each do |_i|
+      fetch(VOC.ship_cannon_id[_i]).proc = Proc.new do |_id|
+        if _id != -1
+          _entry = @ship_cannons[_id]
+          _name  = '???'
+          if _entry
+            if jp? || us?
+              _name = _entry[VOC.name_str[cid]]
+            elsif eu?
+              _name = _entry[VOC.name_str['GB']]
+            end
+          end
+        else
+          _name = 'None'
+        end
+        self[VOC.ship_cannon_name[_i]] = _name
+      end
+    end
+
+    (1..3).each do |_i|
+      fetch(VOC.ship_accessory_id[_i]).proc = Proc.new do |_id|
+        if _id != -1
+          _entry = @ship_accessories[_id]
+          _name  = '???'
+          if _entry
+            if jp? || us?
+              _name = _entry[VOC.name_str[cid]]
+            elsif eu?
+              _name = _entry[VOC.name_str['GB']]
+            end
+          end
+        else
+          _name = 'None'
+        end
+        self[VOC.ship_accessory_name[_i]] = _name
+      end
+    end
+  end
 
 end	# class PlayableShip
 

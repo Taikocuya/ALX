@@ -45,42 +45,24 @@ class EnemyInstruction < Entry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    @files       = []
-    @enemies     = []
-    @magics      = {}
-    @super_moves = {}
-
-    members << StrDmy.new(VOC.filter             , ''        )
-    members << IntDmy.new(VOC.instr_enemy_id     , -1        )
-    members << StrDmy.new(VOC.enemy_name_jp[-1]  , ''        )
-    
-    if us?
-      members << StrDmy.new(VOC.enemy_name_us[-1], ''        )
-    elsif eu?
-      members << StrDmy.new(VOC.enemy_name_eu[-1], ''        )
-    end
-    
-    members << IntVar.new(VOC.instr_type_id      , -1, :int16)
-    members << StrDmy.new(VOC.instr_type_name    , ''        )
-    members << IntVar.new(VOC.instr_id           , -1, :int16)
-    members << StrDmy.new(VOC.instr_name         , ''        )
-    members << IntVar.new(VOC.instr_param_id     , -1, :int16)
-    members << StrDmy.new(VOC.instr_param_name   , ''        )
+    init_attrs
+    init_props
+    init_procs
   end
 
-  # Compares two entries based on +FltVar+, +IntVar+ and +StrVar+ members. 
-  # Returns +true+ if all member values are equal, or +false+ otherwise.
+  # Compares two entries based on properties. Returns +true+ if all properties 
+  # are equal, or +false+ otherwise.
   # @param _entry [Entry] Entry object
-  # @return [Boolean] +true+ if all member values are equal, otherwise +false+.
+  # @return [Boolean] +true+ if all properties are equal, otherwise +false+.
   def ==(_entry)
     _result   = true
-    _result &&= _entry.is_a?(EnemyInstruction)
+    _result &&= _entry.is_a?(self.class)
     _result &&= (id       == _entry.id      )
     _result &&= (enemy_id == _entry.enemy_id)
-    _result &&= @members.all? do |_m|
-      _other = _entry.find_member(_m.name)
-      if _other && _m.is_a?(Property) && !_m.dummy?
-        _m.value == _other.value
+    _result &&= @props.all? do |_k, _p|
+      _other = _entry.fetch(_k)
+      if _other && _p.is_a?(Prop) && _p.comparable?
+        _p.value == _other.value
       else
         true
       end
@@ -96,10 +78,10 @@ class EnemyInstruction < Entry
   # @return [Boolean] +true+ if entry matches the snapshot, otherwise +false+.
   def check_expiration(_entry)
     _found   = true
-    _found &&= _entry.is_a?(EnemyInstruction)
+    _found &&= _entry.is_a?(self.class)
     _found &&= (id       == _entry.id      )
     _found &&= (enemy_id == _entry.enemy_id)
-    _found &&= (@files   == _entry.files   )
+    _found &&= (files    == _entry.files   )
 
     if _found
       super
@@ -108,141 +90,58 @@ class EnemyInstruction < Entry
     _found
   end
 
-  # Reads one entry from a CSV  file.
-  # @param _csv [CSV] CSV object
-  def read_csv(_csv)
-    super
-    @files = find_member(VOC.filter).value.split(';')
-  end
-  
-  # Writes one entry to a CSV file.
-  # @param _csv [CSV] CSV object
-  def write_csv(_csv)
-    find_member(VOC.filter).value = @files.join(';')
-
-    _id = find_member(VOC.instr_enemy_id).value
-    _entry = @enemies.find { |_enemy| _enemy.id == _id }
-    if _entry
-      _name_jp  = _entry.find_member(VOC.name_str['JP']).value
-      _name_voc = voc(:enemies, _id.to_s) || '???'
-    else
-      _name_jp  = '???'
-      _name_voc = '???'
-    end
-    find_member(VOC.enemy_name_jp[-1]).value = _name_jp
-    if us?
-      find_member(VOC.enemy_name_us[-1]).value = _name_voc
-    elsif eu?
-      find_member(VOC.enemy_name_eu[-1]).value = _name_voc
-    end
-
-    _type_id    = find_member(VOC.instr_type_id ).value
-    _instr_id   = find_member(VOC.instr_id      ).value
-    _param_id   = find_member(VOC.instr_param_id).value
-    _type_name  = VOC.instr_types[_type_id]
-    _instr_name = _instr_id != -1 ? '???' : 'None'
-    _param_name = _param_id != -1 ? '???' : 'None'
-    
-    case _type_id
-    # Strategy
-    when 0
-      # Nothing to do.
-    # Action
-    when 1
-      # Action type
-      _entry = nil
-      if _instr_id >= 550
-        _instr_name = VOC.basic_actions[_instr_id]
-      elsif _instr_id >= 500
-        _entry = @magics[_instr_id - 500]
-      elsif _instr_id >= 0
-        _entry = @super_moves[_instr_id]
-      end
-      if _entry
-        if jp? || us?
-          _instr_name = _entry.find_member(VOC.name_str[country_id]).value
-        elsif eu?
-          _instr_name = _entry.find_member(VOC.name_str['GB']   ).value
-        end
-      end
-    
-      # Action target
-      _param_name = VOC.action_targets[_param_id]
-    end
-
-    find_member(VOC.instr_type_name ).value = _type_name
-    find_member(VOC.instr_name      ).value = _instr_name
-    find_member(VOC.instr_param_name).value = _param_name
-
-    super
-  end
-
-  # Provides marshalling support for use by the Marshal library.
-  # @param _hash [Hash] Hash object
-  def marshal_load(_hash)
-    _hash.each do |_key, _value|
-      instance_variable_set(_key, _value)
-    end
-    @enemies     = []
-    @magics      = {}
-    @super_moves = {}
-  end
-  
-  # Provides marshalling support for use by the Marshal library.
-  # @return [Hash] Hash object
-  def marshal_dump
-    _hash          = super
-    _hash[:@files] = @files
-    _hash
-  end
-  
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :files
-  attr_accessor :enemies
-  attr_accessor :magics
-  attr_accessor :super_moves
+  attr_reader :enemies
+  attr_reader :magics
+  attr_reader :super_moves
+
+  def enemies=(_enemies)
+    @enemies = _enemies
+    
+    fetch(VOC.instr_enemy_id)&.call_proc
+  end
+  
+  def magics=(_magics)
+    @magics = _magics
+    
+    fetch(VOC.instr_param_id)&.call_proc
+  end
+
+  def super_moves=(_super_moves)
+    @super_moves = _super_moves
+    
+    fetch(VOC.instr_param_id)&.call_proc
+  end
+  
+  def files
+    self[VOC.filter]
+  end
+  
+  def files=(_files)
+    self[VOC.filter] = _files
+  end
 
   def enemy_id
-    _member = find_member(VOC.instr_enemy_id)
-    if _member
-      _member.value
-    else
-      -1
-    end
+    self[VOC.instr_enemy_id] || -1
   end
   
   def enemy_id=(_enemy_id)
-    _member = find_member(VOC.instr_enemy_id)
-    if _member
-      _member.value = _enemy_id
-    else
-      _enemy_id
-    end
+    self[VOC.instr_enemy_id] = _enemy_id
   end
 
   def group_key
-    [enemy_id] + @files
+    [enemy_id] + self[VOC.filter]
   end
 
   def type_id
-    _member = find_member(VOC.instr_type_id)
-    if _member
-      _member.value
-    else
-      -1
-    end
+    self[VOC.instr_type_id] || -1
   end
   
   def type_id=(_type_id)
-    _member = find_member(VOC.instr_type_id)
-    if _member
-      _member.value = _type_id
-    else
-      _type_id
-    end
+    self[VOC.instr_type_id] = _type_id
   end
 
   def order
@@ -252,7 +151,7 @@ class EnemyInstruction < Entry
     _eb_file  = File.basename(sys(:eb_file ))
     _ec_file  = File.basename(sys(:ec_file ))
 
-    @files.each do |_filename|
+    self[VOC.filter].each do |_filename|
       _filename = _filename.sub(EnpFile::MULTI_REGEXP, '\1\3')
 
       if _filename == '*'
@@ -271,6 +170,107 @@ class EnemyInstruction < Entry
     end
     
     _order
+  end
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry attributes.
+  def init_attrs
+    super
+    @enemies     = []
+    @magics      = {}
+    @super_moves = {}
+  end
+  
+  # Initialize the entry properties.
+  def init_props
+    self[VOC.filter           ] = AryProp.new(      [], dmy: true)
+    self[VOC.instr_enemy_id   ] = IntProp.new(:u32, -1, dmy: true)
+    self[VOC.enemy_name_jp[-1]] = StrProp.new( nil, '', dmy: true)
+    
+    if us?
+      self[VOC.enemy_name_us[-1]] = StrProp.new(nil, '', dmy: true)
+    elsif eu?
+      self[VOC.enemy_name_eu[-1]] = StrProp.new(nil, '', dmy: true)
+    end
+    
+    self[VOC.instr_type_id   ] = IntProp.new(:i16, -1           )
+    self[VOC.instr_type_name ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.instr_id        ] = IntProp.new(:i16, -1           )
+    self[VOC.instr_name      ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.instr_param_id  ] = IntProp.new(:i16, -1           )
+    self[VOC.instr_param_name] = StrProp.new( nil, '', dmy: true)
+  end
+  
+  # Initialize the entry procs.
+  def init_procs
+    fetch(VOC.instr_enemy_id).proc = Proc.new do |_id|
+      _entry = @enemies.find { |_enemy| _enemy.id == _id }
+      if _entry
+        _name_jp  = _entry[VOC.name_str['JP']]
+        _name_voc = voc(:enemies, _id.to_s) || '???'
+      else
+        _name_jp  = '???'
+        _name_voc = '???'
+      end
+      self[VOC.enemy_name_jp[-1]] = _name_jp
+      if us?
+        self[VOC.enemy_name_us[-1]] = _name_voc
+      elsif eu?
+        self[VOC.enemy_name_eu[-1]] = _name_voc
+      end
+    end
+    
+    fetch(VOC.instr_type_id).proc = Proc.new do
+      fetch(VOC.instr_param_id)&.call_proc
+    end
+  
+    fetch(VOC.instr_id).proc = Proc.new do
+      fetch(VOC.instr_param_id)&.call_proc
+    end
+
+    fetch(VOC.instr_param_id).proc = Proc.new do |_param_id|
+      _type_id    = self[VOC.instr_type_id]
+      _instr_id   = self[VOC.instr_id     ]
+      _type_name  = VOC.instr_types[_type_id]
+      _instr_name = (_instr_id != -1) ? '???' : 'None'
+      _param_name = (_param_id != -1) ? '???' : 'None'
+      
+      case _type_id
+      # Strategy
+      when 0
+        # Nothing to do.
+      # Action
+      when 1
+        # Action type
+        _entry = nil
+        if _instr_id >= 550
+          _instr_name = VOC.basic_actions[_instr_id]
+        elsif _instr_id >= 500
+          _entry = @magics[_instr_id - 500]
+        elsif _instr_id >= 0
+          _entry = @super_moves[_instr_id]
+        end
+        if _entry
+          if jp? || us?
+            _instr_name = _entry[VOC.name_str[cid]]
+          elsif eu?
+            _instr_name = _entry[VOC.name_str['GB']]
+          end
+        end
+      
+        # Action target
+        _param_name = VOC.action_targets[_param_id]
+      end
+
+      self[VOC.instr_type_name ] = _type_name
+      self[VOC.instr_name      ] = _instr_name
+      self[VOC.instr_param_name] = _param_name
+    end
   end
 
 end	# class EnemyInstruction

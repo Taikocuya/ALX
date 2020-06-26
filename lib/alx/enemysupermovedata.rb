@@ -42,7 +42,7 @@ class EnemySuperMoveData < StdEntryData
 
   public
 
-  # Constructs a EnemySuperMoveData.
+  # Constructs an EnemySuperMoveData.
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(EnemySuperMove, _root)

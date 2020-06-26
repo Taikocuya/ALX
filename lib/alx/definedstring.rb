@@ -46,14 +46,14 @@ class DefinedString < Entry
   def initialize(_root)
     super
 
-    members << HexExt.new(VOC.string_pos     ,  0       )
-    members << IntExt.new(VOC.string_size    ,  0       )
-    members << StrExt.new(VOC.string_encoding, ''       )
-    members << StrExt.new(VOC.string_value   , ''       )
-    members << StrExt.new(VOC.string_data    , '', false)
-    
+    self[VOC.string_pos     ] = IntProp.new(:u32,  0, base: 16, ext: true )
+    self[VOC.string_size    ] = IntProp.new(:u32,  0,           ext: true )
+    self[VOC.string_encoding] = StrProp.new( nil, '',           ext: true )
+    self[VOC.string_value   ] = StrProp.new( nil, '',           ext: true )
+    self[VOC.string_data    ] = StrProp.new( nil, '',           esc: false)
+
     if SYS.defined_string_append_filter
-      members << StrExt.new(VOC.string_filter, '')
+      self[VOC.string_filter] = StrProp.new(nil, '', ext: true)
     end
   end
 

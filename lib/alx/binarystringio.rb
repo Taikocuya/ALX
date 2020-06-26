@@ -70,8 +70,8 @@ class BinaryStringIO < DelegateClass(::StringIO)
   end
 
   # @see ::StringIO::open
-  def self.open(*_args, **_opts)
-    _stringio = new(*_args, **_opts)
+  def self.open(...)
+    _stringio = new(...)
   
     if block_given?
       begin

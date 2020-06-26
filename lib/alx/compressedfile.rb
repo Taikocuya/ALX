@@ -52,7 +52,7 @@ module CompressedFile
       raise(TypeError, sprintf(_msg, _class, Serializable.name))
     end
     
-    _class.new(*_args, endianness: _root.endianness)
+    _class.new(*_args, **{ endianness: _root.endianness })
   end
 
   # Opens a file depending on GameRoot#compression.
@@ -71,7 +71,7 @@ module CompressedFile
       raise(TypeError, sprintf(_msg, _class, Serializable.name))
     end
     
-    _class.open(*_args, endianness: _root.endianness, &_block)
+    _class.open(*_args, **{ endianness: _root.endianness }, &_block)
   end
 
 end # module CompressedFile

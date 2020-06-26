@@ -45,33 +45,54 @@ class SpiritCurve < StdEntry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    @characters = {}
-
-    members << StrDmy.new(VOC.character_name[-1], ''       )
-    (1..99).each do |_i|
-      members << IntVar.new(VOC.spirit[_i]      ,  0, :int8)
-      members << IntVar.new(VOC.maxspirit[_i]   ,  0, :int8)
-    end
-  end
-
-  # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_csv(_f)
-    _chara = @characters[id]
-    _name  = '???'
-    if _chara
-      _name = _chara.find_member(VOC.name_str[country_id]).value
-    end
-    find_member(VOC.character_name[-1]).value = _name
-
-    super
+    init_attrs
+    init_props
+    init_procs
   end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :characters
+  attr_reader :characters
+
+  def characters=(_characters)
+    @characters = _characters
+    fetch(VOC.id)&.call_proc
+  end
+  
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry attributes.
+  def init_attrs
+    super
+    @characters = {}
+  end
+  
+  # Initialize the entry properties.
+  def init_props
+    self[VOC.character_name[-1]] = StrProp.new(nil, '', dmy: true)
+    (1..99).each do |_i|
+      self[VOC.spirit[_i]   ] = IntProp.new(:i8, 0)
+      self[VOC.maxspirit[_i]] = IntProp.new(:i8, 0)
+    end
+  end
+  
+  # Initialize the entry procs.
+  def init_procs
+    fetch(VOC.id).proc = Proc.new do |_id|
+      _chara = @characters[id]
+      _name  = '???'
+      if _chara
+        _name = _chara[VOC.name_str[cid]]
+      end
+      self[VOC.character_name[-1]] = _name
+    end
+  end
 
 end	# class SpiritCurve
 

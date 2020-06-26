@@ -42,7 +42,7 @@ class EnemyShipTransform < StdEntryTransform
 
   public
 
-  # Constructs a EnemyShipTransform.
+  # Constructs an EnemyShipTransform.
   def initialize
     super(EnemyShipData)
   end

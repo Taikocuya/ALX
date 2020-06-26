@@ -3,7 +3,7 @@ Entry ID,JP Entry Name,Pos. ID,[Pos. Name],Feat. ID,[Feat. Name],Pad. 1,Feat. Va
 1,ドン,0,Helmsman,-1,None,0,0,132,???,8,0,0,0,0,0,0
 2,ブラバム,1,Engineer,2,Defense,0,100,255,None,-1,0,0,0,0,0,0
 3,ハンス,1,Engineer,-1,None,0,0,135,???,-1,0,0,0,0,0,0
-4,ベル,2,Gunner,48,Main cannon attack,0,100,255,None,-1,0,0,0,0,0,0
+4,ベル,2,Gunner,48,Main Cannon Attack,0,100,255,None,-1,0,0,0,0,0,0
 5,カシム,2,Gunner,32,???,0,100,255,None,-1,0,0,0,0,0,0
 6,ティカティカ,3,Lookout,-1,None,0,0,139,???,4,0,0,0,0,0,0
 7,ドミンゴ,3,Lookout,-1,None,0,0,255,None,-1,0,0,0,0,0,0
@@ -14,7 +14,7 @@ Entry ID,JP Entry Name,Pos. ID,[Pos. Name],Feat. ID,[Feat. Name],Pad. 1,Feat. Va
 12,ポリー,6,Cook,-1,None,0,-1,104,Add Quickened (Ship),0,0,141,0,0,0,0
 13,ウララ,6,Cook,-1,None,0,-1,105,Add Strengthen (Ship),4,20,141,0,0,0,0
 14,リュウカン,7,Artisan,-1,None,0,-1,154,???,8,0,0,0,0,0,0
-15,アルキュミス,7,Artisan,64,Secondary cannon attack,0,100,255,None,-1,0,0,0,0,0,0
+15,アルキュミス,7,Artisan,64,Secondary Cannon Attack,0,100,255,None,-1,0,0,0,0,0,0
 16,マルコ,8,Sailor,2,Defense,0,100,255,None,-1,0,0,0,0,0,0
 17,ロビンソン,8,Sailor,3,MagDef,0,100,255,None,-1,0,0,0,0,0,0
 18,パウ,9,Jester,-1,None,0,0,129,???,-1,50,0,0,0,0,0

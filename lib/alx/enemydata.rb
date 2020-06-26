@@ -53,7 +53,7 @@ class EnemyData < EntryData
 
   public
 
-  # Constructs a EnemyData.
+  # Constructs an EnemyData.
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Object, _root)
@@ -112,8 +112,8 @@ class EnemyData < EntryData
     _instr              = EnemyInstruction.new(root)
     _instr.id           = _id
     _instr.enemies      = @enemies
-    _instr.magics       = @magics
-    _instr.super_moves  = @super_moves
+    _instr.magics       = @enemy_magic_data.data
+    _instr.super_moves  = @enemy_super_move_data.data
     _instr
   end
 
@@ -348,11 +348,9 @@ class EnemyData < EntryData
           end
 
           _entry  = @events[_id]
-          _bgmid = _entry.find_member(VOC.bgm_id)
 
           LOG.info(sprintf(VOC.read, _id - @event_bgm_id_range.begin, _f.pos))
-          
-          _bgmid.value  = _f.read_int(:int8)
+          _entry[VOC.bgm_id] = _f.read_int(:i8)
         end
       end
     end
@@ -481,14 +479,14 @@ class EnemyData < EntryData
           next
         end
         
-        _bgmid = _entry.find_member(VOC.bgm_id).value
+        _bgmid = _entry[VOC.bgm_id]
         if _bgmid < 1
           next
         end
         
         LOG.info(sprintf(VOC.write, _id - @event_bgm_id_range.begin, _f.pos))
         
-        _f.write_int(_bgmid, :int8)
+        _f.write_int(_bgmid, :i8)
       end
     end
 

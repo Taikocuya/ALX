@@ -42,7 +42,7 @@ class EnemySuperMoveTransform < StdEntryTransform
 
   public
 
-  # Constructs a EnemySuperMoveTransform.
+  # Constructs an EnemySuperMoveTransform.
   def initialize
     super(EnemySuperMoveData)
   end

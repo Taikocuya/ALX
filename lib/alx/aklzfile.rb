@@ -82,8 +82,8 @@ class AklzFile < BinaryStringIO
   end
 
   # @see BinaryStringIO::open
-  def self.open(*_args)
-    _aklzfile = new(*_args)
+  def self.open(...)
+    _aklzfile = new(...)
   
     if block_given?
       begin
@@ -160,7 +160,7 @@ class AklzFile < BinaryStringIO
       
       # Header
       _dst.write(FILE_SIG)
-      _dst.write_int(_file_size, :uint32)
+      _dst.write_int(_file_size, :u32)
 
       # Compression
       while !@buffio.eof?
@@ -185,7 +185,7 @@ class AklzFile < BinaryStringIO
             @buffio.pos += _match_size
           else
             _flag  |= 0x1 << _i
-            _bytes << @buffio.read_int(:uint8)
+            _bytes << @buffio.read_int(:u8)
           end
           
           if @buffio.eof?
@@ -193,7 +193,7 @@ class AklzFile < BinaryStringIO
           end
         end
         
-        _dst.write_int(_flag, :uint8)
+        _dst.write_int(_flag, :u8)
         _dst.write(_bytes.pack('C*'))
       end
     end
@@ -209,19 +209,19 @@ class AklzFile < BinaryStringIO
     BinaryFile.open(@filename, 'rb', endianness: endianness) do |_src|
       # Header
       _file_sig  = _src.read(0xc)
-      _file_size = _src.read_int(:uint32)
+      _file_size = _src.read_int(:u32)
       if _file_sig != FILE_SIG
         raise(IOError, 'signature invalid')
       end
       
       # Decompression
       while !_src.eof?
-        _flag = _src.read_int(:uint8)
+        _flag = _src.read_int(:u8)
         (0...8).each do |_i|
           # Compressed
           if _flag & 0x1 == 0
-            _b1 = _src.read_int(:uint8) || 0
-            _b2 = _src.read_int(:uint8) || 0
+            _b1 = _src.read_int(:u8) || 0
+            _b2 = _src.read_int(:u8) || 0
 
             _match_pos  = _b1 | (_b2 & ~MATCH_SIZE) << 4
             _match_size = (_b2 & MATCH_SIZE) + MATCH_BEG
@@ -229,15 +229,15 @@ class AklzFile < BinaryStringIO
             
             (0..._match_size).each do |_i|
               _byte = @buffer[(_match_pos + _i) & (BUFFER_SIZE - 1)]
-              @buffio.write_int(_byte, :uint8)
+              @buffio.write_int(_byte, :u8)
 
               @buffer[@buffer_ptr] = _byte
               @buffer_ptr          = (@buffer_ptr + 1) & (BUFFER_SIZE - 1)
             end
           # Not compressed
           else
-            _byte = _src.read_int(:uint8) || 0
-            @buffio.write_int(_byte, :uint8)
+            _byte = _src.read_int(:u8) || 0
+            @buffio.write_int(_byte, :u8)
             
             @buffer[@buffer_ptr] = _byte
             @buffer_ptr          = (@buffer_ptr + 1) & (BUFFER_SIZE - 1)
@@ -340,7 +340,7 @@ class AklzFile < BinaryStringIO
     _last = @buffio.pos
     @buffio.pos = _pos
     
-    _byte = @buffio.read_int(:uint8)
+    _byte = @buffio.read_int(:u8)
     @buffio.pos = _last
     
     _byte

@@ -269,7 +269,7 @@ class GameRoot
   # contain a Hash, the game root attributes are considered during key 
   # selection.
   # 
-  # If a block is given, calls the block once for each matching file or 
+  # If a block is specified, calls the block once for each matching file or 
   # directory, passing the path as a parameter to the block. 
   # 
   # @param _args [String,Symbol] Glob patterns or SYS attributes

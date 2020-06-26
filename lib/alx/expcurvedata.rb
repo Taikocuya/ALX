@@ -43,7 +43,7 @@ class ExpCurveData < StdEntryData
 
   public
 
-  # Constructs a ExpCurveData.
+  # Constructs an ExpCurveData.
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(ExpCurve, _root)

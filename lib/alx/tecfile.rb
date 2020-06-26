@@ -89,8 +89,8 @@ class TecFile
         raise(IOError, sprintf(_msg, _f.pos + 0x4, _f.size))
       end
       
-      _eofCheck1 = _f.read_int(:int16)
-      _eofCheck2 = _f.read_int(:int16)
+      _eofCheck1 = _f.read_int(:i16)
+      _eofCheck2 = _f.read_int(:i16)
       
       if _eofCheck1 != EOF_MARK or _eofCheck2 != EOF_MARK
         raise(EOFError, 'EOF mark not found')
@@ -135,8 +135,8 @@ class TecFile
         _last = _task
       end
       
-      _f.write_int(EOF_MARK, :int16)
-      _f.write_int(EOF_MARK, :int16)
+      _f.write_int(EOF_MARK, :i16)
+      _f.write_int(EOF_MARK, :i16)
     end
     
     LOG.info(sprintf(VOC.close, _filename))

@@ -45,108 +45,120 @@ class ShipCannon < StdEntry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    add_name_members
+    init_props
+    init_procs
+  end
 
-    members << HexVar.new(VOC.ship_flags                  ,  0, :int8  )
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry properties.
+  def init_props
+    add_name_props
+
+    self[VOC.ship_flags] = IntProp.new(:u8, 0, base: 16)
 
     VOC.ships.each_value do |_ship|
-      members << StrDmy.new(_ship                         , ''         )
+      self[_ship] = StrProp.new(nil, '', dmy: true)
     end
 
-    members << IntVar.new(VOC.type_id                     ,  0, :int8  )
-    members << StrDmy.new(VOC.type_name                   , ''         )
-    members << IntVar.new(VOC.element_id                  ,  0, :int8  )
-    members << StrDmy.new(VOC.element_name                , ''         )
+    self[VOC.type_id     ] = IntProp.new(:i8,  0           )
+    self[VOC.type_name   ] = StrProp.new(nil, '', dmy: true)
+    self[VOC.element_id  ] = IntProp.new(:i8,  0           )
+    self[VOC.element_name] = StrProp.new(nil, '', dmy: true)
 
     if product_id != '6107110 06' && product_id != '6107810'
       if eu?
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+        self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      members << IntVar.new(VOC.attack                    ,  0, :int16 )
-      members << IntVar.new(VOC.hit                       ,  0, :uint16)
-      members << IntVar.new(VOC.limit                     ,  0, :int8  )
-      members << IntVar.new(VOC.spirit[-1]                ,  0, :int8  )
-      members << IntVar.new(VOC.feature_id[-1]            , -1, :int8  )
-      members << StrDmy.new(VOC.feature_name[-1]          , ''         )
-      members << IntVar.new(padding_hdr                   ,  0, :int8  )
-      members << IntVar.new(VOC.feature_value[-1]         ,  0, :int16 )
+      self[VOC.attack           ] = IntProp.new(:i16,  0           )
+      self[VOC.hit              ] = IntProp.new(:u16,  0           )
+      self[VOC.limit            ] = IntProp.new( :i8,  0           )
+      self[VOC.spirit[-1]       ] = IntProp.new( :i8,  0           )
+      self[VOC.feature_id[-1]   ] = IntProp.new( :i8,  0           )
+      self[VOC.feature_name[-1] ] = StrProp.new( nil, '', dmy: true)
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      self[VOC.feature_value[-1]] = IntProp.new(:i16,  0           )
   
       if dc?
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+        self[padding_hdr] = IntProp.new(:i8, 0)
+        self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
+      self[VOC.purchase_price] = IntProp.new(:u16, 0)
   
       if dc?
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+        self[padding_hdr] = IntProp.new(:i8, 0)
+        self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      members << IntVar.new(VOC.retail_price              ,  0, :int8  )
-      members << IntVar.new(VOC.order_priority            ,  0, :int8  )
-      members << IntVar.new(VOC.order_alphabet[country_id],  0, :int8  )
+      self[VOC.retail_price  ] = IntProp.new( :i8, 0)
+      self[VOC.order_prio    ] = IntProp.new(:i8, -1)
+      self[VOC.order_abc[cid]] = IntProp.new(:i8, -1)
   
       if dc? || eu?
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
+        self[padding_hdr] = IntProp.new(:i8, 0)
       else
-        members << IntVar.new(VOC.padding[-1]             ,  0, :int8  )
+        self[VOC.padding[-1]] = IntProp.new(:i8, 0)
       end
     
-      add_dscr_members
+      add_dscr_props
     else
-      members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
-      members << IntVar.new(padding_hdr                   ,  0, :int8  )
-      members << IntVar.new(padding_hdr                   ,  0, :int8  )
-      members << IntVar.new(VOC.retail_price              ,  0, :int8  )
-      members << IntVar.new(padding_hdr                   ,  0, :int8  )
-      members << IntVar.new(VOC.attack                    ,  0, :int16 )
-      members << IntVar.new(VOC.hit                       ,  0, :uint16)
-      members << IntVar.new(VOC.limit                     ,  0, :int8  )
-      members << IntVar.new(VOC.spirit[-1]                ,  0, :int8  )
+      self[VOC.purchase_price] = IntProp.new(:u16, 0)
+      self[padding_hdr       ] = IntProp.new( :i8, 0)
+      self[padding_hdr       ] = IntProp.new( :i8, 0)
+      self[VOC.retail_price  ] = IntProp.new( :i8, 0)
+      self[padding_hdr       ] = IntProp.new( :i8, 0)
+      self[VOC.attack        ] = IntProp.new(:i16, 0)
+      self[VOC.hit           ] = IntProp.new(:u16, 0)
+      self[VOC.limit         ] = IntProp.new( :i8, 0)
+      self[VOC.spirit[-1]    ] = IntProp.new( :i8, 0)
   
-      (0...4).each do |_i|
-        members << IntVar.new(VOC.feature_id[_i]          , -1, :int8  )
-        members << StrDmy.new(VOC.feature_name[_i]        , ''         )
-        members << IntVar.new(padding_hdr                 ,  0, :int8  )
-        members << IntVar.new(VOC.feature_value[_i]       ,  0, :int16 )
+      (1..4).each do |_i|
+        self[VOC.feature_id[_i]   ] = IntProp.new( :i8,  0           )
+        self[VOC.feature_name[_i] ] = StrProp.new( nil, '', dmy: true)
+        self[padding_hdr          ] = IntProp.new( :i8,  0           )
+        self[VOC.feature_value[_i]] = IntProp.new(:i16,  0           )
       end
   
-      members << IntVar.new(VOC.order_priority            ,  0, :int8  )
-      members << IntVar.new(VOC.order_alphabet[country_id],  0, :int8  )
-      members << IntVar.new(padding_hdr                   ,  0, :int8  )
-      members << IntVar.new(padding_hdr                   ,  0, :int8  )
+      self[VOC.order_prio    ] = IntProp.new(:i8, -1)
+      self[VOC.order_abc[cid]] = IntProp.new(:i8, -1)
+      self[padding_hdr       ] = IntProp.new(:i8,  0)
+      self[padding_hdr       ] = IntProp.new(:i8,  0)
     end
   end
-
-  # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_csv(_f)
-    _flags = find_member(VOC.ship_flags).value
-    VOC.ships.each do |_id, _ship|
-      find_member(_ship).value = _flags & (0x20 >> _id) != 0 ? 'X' : ''
-    end
-    
-    _id = find_member(VOC.type_id).value
-    find_member(VOC.type_name).value = VOC.ship_cannon_types[_id]
-    
-    _id = find_member(VOC.element_id).value
-    find_member(VOC.element_name).value = VOC.elements[_id]
-
-    if product_id != '6107110 06' && product_id != '6107810'
-      _id   = find_member(VOC.feature_id[-1]).value
-      _name = VOC.ship_accessory_features[_id]
-      find_member(VOC.feature_name[-1]).value = _name
-    else
-      (0...4).each do |_i|
-        _id   = find_member(VOC.feature_id[_i]).value
-        _name = VOC.ship_accessory_features[_id]
-        find_member(VOC.feature_name[_i]).value = _name
+  
+  # Initialize the entry procs.
+  def init_procs
+    fetch(VOC.ship_flags).proc = Proc.new do |_flags|
+      VOC.ships.each do |_id, _ship|
+        self[_ship] = (_flags & (0x20 >> _id) != 0) ? 'X' : ''
       end
     end
     
-    super
+    fetch(VOC.type_id).proc = Proc.new do |_id|
+      self[VOC.type_name] = VOC.ship_cannon_types[_id]
+    end
+
+    fetch(VOC.element_id).proc = Proc.new do |_id|
+      self[VOC.element_name] = VOC.elements[_id]
+    end
+
+    if product_id != '6107110 06' && product_id != '6107810'
+      fetch(VOC.feature_id[-1]).proc = Proc.new do |_id|
+        self[VOC.feature_name[-1]] = VOC.ship_accessory_features[_id]
+      end
+    else
+      (1..4).each do |_i|
+        fetch(VOC.feature_id[_i]).proc = Proc.new do |_id|
+          self[VOC.feature_name[_i]] = VOC.ship_accessory_features[_id]
+        end
+      end
+    end
   end
 
 end	# class ShipCannon

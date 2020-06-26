@@ -108,14 +108,14 @@ class DefinedStringData < EntryData
           end
 
           _entry = create_entry(_id)
-          _entry.find_member(VOC.string_pos     ).value = _detect.pos
-          _entry.find_member(VOC.string_size    ).value = _detect.size + 1
-          _entry.find_member(VOC.string_encoding).value = _detect.encoding
-          _entry.find_member(VOC.string_value   ).value = _detect.string
-          _entry.find_member(VOC.string_data    ).value = _detect.dump
+          _entry[VOC.string_pos     ] = _detect.pos
+          _entry[VOC.string_size    ] = _detect.size + 1
+          _entry[VOC.string_encoding] = _detect.encoding
+          _entry[VOC.string_value   ] = _detect.string
+          _entry[VOC.string_data    ] = _detect.dump
           
           if SYS.defined_string_append_filter
-            _entry.find_member(VOC.string_filter).value = _detect.substitute
+            _entry[VOC.string_filter] = _detect.substitute
           end
           
           @data << _entry
@@ -158,10 +158,10 @@ class DefinedStringData < EntryData
     BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
       _descriptor = find_descriptor(@data_file, _filename)
       @data.each_with_index do |_entry, _id|
-        _pos      = _entry.find_member(VOC.string_pos     ).value
-        _size     = _entry.find_member(VOC.string_size    ).value
-        _encoding = _entry.find_member(VOC.string_encoding).value
-        _str      = _entry.find_member(VOC.string_value   ).value
+        _pos      = _entry[VOC.string_pos     ]
+        _size     = _entry[VOC.string_size    ]
+        _encoding = _entry[VOC.string_encoding]
+        _str      = _entry[VOC.string_value   ]
         
         _f.pos = _pos
         unless _descriptor.include?(_f.pos, _size)

@@ -42,7 +42,7 @@ class EnemyMagicTransform < StdEntryTransform
 
   public
 
-  # Constructs a EnemyMagicTransform.
+  # Constructs an EnemyMagicTransform.
   def initialize
     super(EnemyMagicData)
   end

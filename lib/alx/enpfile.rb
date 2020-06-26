@@ -100,8 +100,8 @@ class EnpFile < EpFile
       # Segments
       _signature = _f.read(0x4)
       if _signature == FILE_SIG
-        _size  = _f.read_int(:int16)
-        _check = _f.read_int(:int16)
+        _size  = _f.read_int(:i16)
+        _check = _f.read_int(:i16)
         if _check != -1
           raise(IOError, 'segments corrupted')
         end
@@ -109,9 +109,9 @@ class EnpFile < EpFile
         _segments = {}
         (0..._size).each do |_|
           _segname = _f.read_str(SEG_NAME_SIZE)
-          _pos     = _f.read_int(:int32)
-          _size    = _f.read_int(:int32)
-          _check   = _f.read_int(:int32)
+          _pos     = _f.read_int(:i32)
+          _size    = _f.read_int(:i32)
+          _check   = _f.read_int(:i32)
           
           if _check != -1
             raise(IOError, 'segments corrupted')
@@ -137,8 +137,8 @@ class EnpFile < EpFile
         _nodes = []
         _f.pos = _beg
         (0..._num_enemies).each do |_|
-          _id  = _f.read_int(:int32)
-          _pos = _f.read_int(:int32) + _beg
+          _id  = _f.read_int(:i32)
+          _pos = _f.read_int(:i32) + _beg
 
           if _id >= 0 && _pos >= 0
             _nodes << create_node(_id, _pos)
@@ -166,10 +166,16 @@ class EnpFile < EpFile
           LOG.info(sprintf(VOC.read, _id, _pos))
           load_enemy(_f, _id, _segname)
         end
-
+      
         if _f.pos > _end
           raise(IOError, 'segments corrupted')
         end
+      end
+
+      # Forces the encounter properties to be updated with all collected 
+      # enemies.
+      @encounters.each do |_encounter|
+        _encounter.enemies = enemies
       end
     end
     
@@ -216,8 +222,8 @@ class EnpFile < EpFile
       
       _found.each do |_encounter|
         _expired ||= _encounter.expired
-        (0...8).each do |_i|
-          _enemy_id = _encounter.find_member(VOC.enemy_id[_i]).value
+        (1..8).each do |_i|
+          _enemy_id = _encounter[VOC.enemy_id[_i]]
           if _enemy_id != 255
             _enemy = find_enemy(_enemy_id, _segname)
             if _enemy
@@ -288,11 +294,11 @@ class EnpFile < EpFile
         (0..._num_enemies).each do |_i|
           _node = _nodes[_i]
           if _node
-            _f.write_int(_node.id , :int32)
-            _f.write_int(_node.pos, :int32)
+            _f.write_int(_node.id , :i32)
+            _f.write_int(_node.pos, :i32)
           else
-            _f.write_int(0xffffffff , :int32)
-            _f.write_int(0xffffffff , :int32)
+            _f.write_int(0xffffffff , :i32)
+            _f.write_int(0xffffffff , :i32)
           end
         end
         _f.pos = _end
@@ -302,8 +308,8 @@ class EnpFile < EpFile
       if _segments.size > 1
         _f.pos = 0
         _f.write(FILE_SIG)
-        _f.write_int(_segments.size, :int16)
-        _f.write_int(0xffff        , :int16)
+        _f.write_int(_segments.size, :i16)
+        _f.write_int(0xffff        , :i16)
         
         _segments.each do |_segname, _seg|
           if dc?
@@ -313,9 +319,9 @@ class EnpFile < EpFile
           end
           
           _f.write_str(_segname, SEG_NAME_SIZE)
-          _f.write_int(_seg.pos  , :int32)
-          _f.write_int(_seg.size , :int32)
-          _f.write_int(0xffffffff, :int32)
+          _f.write_int(_seg.pos  , :i32)
+          _f.write_int(_seg.size , :i32)
+          _f.write_int(0xffffffff, :i32)
         end
       end
     end

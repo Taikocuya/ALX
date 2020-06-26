@@ -42,7 +42,7 @@ class EnemyMagicData < StdEntryData
 
   public
 
-  # Constructs a EnemyMagicData.
+  # Constructs an EnemyMagicData.
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(EnemyMagic, _root)

@@ -45,50 +45,69 @@ class Shop < StdEntry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    @items = {}
-
-    members.clear
-    members << IntVar.new(VOC.id                    ,  0, :uint16)
-    members << IntVar.new(padding_hdr               ,  0, :int16 )
-    members << HexVar.new(VOC.message_id[country_id],  0, :uint32)
-
-    add_dscr_members
-    
-    (1..48).each do |_i|
-      members << IntVar.new(VOC.item_id[_i]         , -1, :int16 )
-      members << StrDmy.new(VOC.item_name[_i]       , ''         )
-    end
-  end
-
-  # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_csv(_f)
-    (1..48).each do |_i|
-      _id = find_member(VOC.item_id[_i]).value
-      if _id != -1
-        _entry = @items[_id]
-        _name  = '???'
-        if _entry
-          if jp? || us?
-            _name = _entry.find_member(VOC.name_str[country_id]).value
-          elsif eu?
-            _name = _entry.find_member(VOC.name_str['GB']).value
-          end
-        end
-      else
-        _name = 'None'
-      end
-      find_member(VOC.item_name[_i]).value = _name
-    end
-    
-    super
+    init_attrs
+    init_props
+    init_procs
   end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :items
+  attr_reader :items
+
+  def items=(_items)
+    @items = _items
+    fetch(VOC.item_id[-1])&.call_proc
+  end
+  
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry attributes.
+  def init_attrs
+    super
+    @items = {}
+  end
+  
+  # Initialize the entry properties.
+  def init_props
+    self[VOC.id             ] = IntProp.new(:u16, 0          )
+    self[padding_hdr        ] = IntProp.new(:i16, 0          )
+    self[VOC.message_id[cid]] = IntProp.new(:u32, 0, base: 16)
+
+    add_dscr_props
+    
+    (1..48).each do |_i|
+      self[VOC.item_id[_i]  ] = IntProp.new(:i16, -1           )
+      self[VOC.item_name[_i]] = StrProp.new( nil, '', dmy: true)
+    end
+  end
+  
+  # Initialize the entry procs.
+  def init_procs
+    (1..48).each do |_i|
+      fetch(VOC.item_id[_i]).proc = Proc.new do |_id|
+        if _id != -1
+          _entry = @items[_id]
+          _name  = '???'
+          if _entry
+            if jp? || us?
+              _name = _entry[VOC.name_str[cid]]
+            elsif eu?
+              _name = _entry[VOC.name_str['GB']]
+            end
+          end
+        else
+          _name = 'None'
+        end
+        self[VOC.item_name[_i]] = _name
+      end
+    end
+  end
 
 end	# class Shop
 

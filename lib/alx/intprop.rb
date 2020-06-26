@@ -22,7 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('property.rb')
+require_relative('prop.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -32,8 +32,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a property as float.
-class FltVar < Property
+# Class to handle a integer property.
+class IntProp < Prop
   
 #==============================================================================
 #                                   PUBLIC
@@ -41,41 +41,78 @@ class FltVar < Property
 
   public
 
-  # Constructs a FltVar
-  # @param _name  [String]  Name
-  # @param _value [Integer] Value
+  # Constructs an IntProp. If a block is specified, it will be called in 
+  # #value=, #integer= and #int= when the value has been changed.
+  # 
   # @param _type  [Symbol]  Type
-  def initialize(_name, _value, _type)
-    super(_name, _value)
+  # @param _value [Integer] Value
+  # @param base   [Integer] Base
+  # @param comp   [Boolean] Is comparable
+  # @param dmy    [Boolean] Set +comp+ and +ext+ to +true+
+  # @param ext    [Boolean] Serialize externally
+  def initialize(_type, _value, base: 10, comp: true, dmy: false, ext: false)
+    super(_value.to_i, comp: comp, dmy: dmy, ext: ext)
     @type = _type
+    @base = base
   end
 
   # Reads one entry from a binary I/O stream.
   # @param _f [IO] Binary I/O stream
   def read_bin(_f)
-    super
-    self.value = _f.read_flt(@type)
+    if external?
+      return 
+    end
+    
+    self.value = _f.read_int(@type)
   end
   
   # Write one entry to a binary I/O stream.
   # @param _f [IO] Binary I/O stream
   def write_bin(_f)
-    super
-    _f.write_flt(value, @type)
+    if external?
+      return 
+    end
+    
+    _f.write_int(value, @type)
   end
 
   # Reads one entry from a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def read_csv(_row)
-    super
-    self.value = _row[name] || value
+  # @param _header [String]   Column header
+  # @param _row    [CSV::Row] CSV row
+  def read_csv(_header, _row)
+    case @base
+    when 2, 10, 16
+      self.value = Integer(_row[_header] || value)
+    else
+      self.value = (_row[_header] || value).to_i(@base)
+    end
   end
 
   # Writes one entry to a CSV row.
-  # @param _row [CSV::Row] CSV row
-  def write_csv(_row)
-    super
-    _row[name] = value
+  # @param _header [String]   Column header
+  # @param _row    [CSV::Row] CSV row
+  def write_csv(_header, _row)
+    _value = value.to_s(@base)
+    
+    case @base
+    when 2
+      _value.sub!(/^(-?)/, '\10b')
+    when 8
+      _value.sub!(/^(-?)/, '\10o')
+    when 16
+      _value.sub!(/^(-?)/, '\10x')
+    end
+    
+    _row[_header] = _value
+  end
+
+  # Provides marshalling support for use by the Marshal library.
+  # @return [Hash] Hash object
+  def marshal_dump
+    _hash         = super
+    _hash[:@type] = @type
+    _hash[:@base] = @base
+    _hash
   end
 
 #------------------------------------------------------------------------------
@@ -83,13 +120,18 @@ class FltVar < Property
 #------------------------------------------------------------------------------
 
   attr_accessor :type
+  attr_accessor :base
 
   def value=(_value)
-    _value = _value.to_f
-    super(_value)
+    super(_value.to_i)
   end
   
-end # class FltVar
+  alias int      value
+  alias integer  value
+  alias int=     value=
+  alias integer= value=
+
+end # class IntProp
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

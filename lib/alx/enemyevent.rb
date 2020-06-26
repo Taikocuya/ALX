@@ -45,90 +45,110 @@ class EnemyEvent < Entry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    @enemies = []
-
-    members << IntVar.new(VOC.magic_exp            ,  0, :uint8)
-    
-    (0...4).each do |_i|
-      members << IntVar.new(VOC.character_id[_i]   ,  0, :int8 )
-      members << StrDmy.new(VOC.character_name[_i] , ''        )
-      members << IntVar.new(VOC.character_x[_i]    ,  0, :int8 )
-      members << IntVar.new(VOC.character_z[_i]    ,  0, :int8 )
-    end
-    
-    (0...7).each do |_i|
-      members << IntVar.new(VOC.enemy_id[_i]       ,  0, :uint8)
-      members << StrDmy.new(VOC.enemy_name_jp[_i]  , ''        )
-      
-      if us?
-        members << StrDmy.new(VOC.enemy_name_us[_i], ''        )
-      elsif eu?
-        members << StrDmy.new(VOC.enemy_name_eu[_i], ''        )
-      end
-      
-      members << IntVar.new(VOC.enemy_x[_i]        ,  0, :int8 )
-      members << IntVar.new(VOC.enemy_z[_i]        ,  0, :int8 )
-    end
-
-    members << IntVar.new(VOC.initiative           ,  0, :uint8)
-    members << IntVar.new(VOC.defeat_cond_id       ,  0, :int8 )
-    members << StrDmy.new(VOC.defeat_cond_name     , ''        )
-    members << IntVar.new(VOC.escape_cond_id       ,  0, :int8 )
-    members << StrDmy.new(VOC.escape_cond_name     , ''        )
-
-    members << IntExt.new(VOC.bgm_id               , -1        )
-  end
-
-  # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_csv(_f)
-    (0...4).each do |_i|
-      _id = find_member(VOC.character_id[_i]).value
-      if _id != -1
-        _name = VOC.characters[_id]
-      else
-        _name = 'None'
-      end
-      find_member(VOC.character_name[_i]).value = _name
-    end
-    
-    (0...7).each do |_i|
-      _id = find_member(VOC.enemy_id[_i]).value
-      if _id != 255
-        _entry = @enemies.find { |_enemy| _enemy.id == _id }
-        if _entry
-          _name_jp  = _entry.find_member(VOC.name_str['JP']).value
-          _name_voc = voc(:enemies, _id.to_s) || '???'
-        else
-          _name_jp  = '???'
-          _name_voc = '???'
-        end
-      else
-        _name_jp  = 'None'
-        _name_voc = 'None'
-      end
-      find_member(VOC.enemy_name_jp[_i]).value = _name_jp
-      if us?
-        find_member(VOC.enemy_name_us[_i]).value = _name_voc
-      elsif eu?
-        find_member(VOC.enemy_name_eu[_i]).value = _name_voc
-      end
-    end
-
-    _id = find_member(VOC.defeat_cond_id).value
-    find_member(VOC.defeat_cond_name).value = VOC.defeats[_id]
-
-    _id = find_member(VOC.escape_cond_id).value
-    find_member(VOC.escape_cond_name).value = VOC.escapes[_id]
-
-    super
+    init_attrs
+    init_props
+    init_procs
   end
 
 #------------------------------------------------------------------------------
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :enemies
+  attr_reader :enemies
+
+  def enemies=(_enemies)
+    @enemies = _enemies
+    (1..7).each do |_i|
+      fetch(VOC.enemy_id[_i])&.call_proc
+    end
+  end
+  
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry attributes.
+  def init_attrs
+    super
+    @enemies = []
+  end
+  
+  # Initialize the entry properties.
+  def init_props
+    self[VOC.magic_exp] = IntProp.new(:u8, 0)
+    
+    (1..4).each do |_i|
+      self[VOC.character_id[_i]  ] = IntProp.new(:i8,  0           )
+      self[VOC.character_name[_i]] = StrProp.new(nil, '', dmy: true)
+      self[VOC.character_x[_i]   ] = IntProp.new(:i8,  0           )
+      self[VOC.character_z[_i]   ] = IntProp.new(:i8,  0           )
+    end
+    
+    (1..7).each do |_i|
+      self[VOC.enemy_id[_i]     ] = IntProp.new(:u8,  0           )
+      self[VOC.enemy_name_jp[_i]] = StrProp.new(nil, '', dmy: true)
+      
+      if us?
+        self[VOC.enemy_name_us[_i]] = StrProp.new(nil, '', dmy: true)
+      elsif eu?
+        self[VOC.enemy_name_eu[_i]] = StrProp.new(nil, '', dmy: true)
+      end
+      
+      self[VOC.enemy_x[_i]] = IntProp.new(:i8, 0)
+      self[VOC.enemy_z[_i]] = IntProp.new(:i8, 0)
+    end
+
+    self[VOC.initiative      ] = IntProp.new( :u8,  0           )
+    self[VOC.defeat_cond_id  ] = IntProp.new( :i8,  0           )
+    self[VOC.defeat_cond_name] = StrProp.new( nil, '', dmy: true)
+    self[VOC.escape_cond_id  ] = IntProp.new( :i8,  0           )
+    self[VOC.escape_cond_name] = StrProp.new( nil, '', dmy: true)
+    self[VOC.bgm_id          ] = IntProp.new(:u32, -1, ext: true)
+  end
+  
+  # Initialize the entry procs.
+  def init_procs
+    (1..4).each do |_i|
+      fetch(VOC.character_id[_i]).proc = Proc.new do |_id|
+        _name = (_id != -1) ? VOC.characters[_id] : 'None'
+        self[VOC.character_name[_i]] = _name
+      end
+    end
+    
+    (1..7).each do |_i|
+      fetch(VOC.enemy_id[_i]).proc = Proc.new do |_id|
+        if _id != 255
+          _entry = @enemies.find { |_enemy| _enemy.id == _id }
+          if _entry
+            _name_jp  = _entry[VOC.name_str['JP']]
+            _name_voc = voc(:enemies, _id.to_s) || '???'
+          else
+            _name_jp  = '???'
+            _name_voc = '???'
+          end
+        else
+          _name_jp  = 'None'
+          _name_voc = 'None'
+        end
+        self[VOC.enemy_name_jp[_i]] = _name_jp
+        if us?
+          self[VOC.enemy_name_us[_i]] = _name_voc
+        elsif eu?
+          self[VOC.enemy_name_eu[_i]] = _name_voc
+        end
+      end
+    end
+
+    fetch(VOC.defeat_cond_id).proc = Proc.new do |_id|
+      self[VOC.defeat_cond_name] = VOC.defeats[_id]
+    end
+
+    fetch(VOC.escape_cond_id).proc = Proc.new do |_id|
+      self[VOC.escape_cond_name] = VOC.escapes[_id]
+    end
+  end
 
 end	# class EnemyEvent
 

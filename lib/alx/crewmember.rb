@@ -45,72 +45,84 @@ class CrewMember < StdEntry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    add_name_members
+    init_props
+    init_procs
+  end
 
-    members << IntVar.new(VOC.position_id         , -1, :int8 )
-    members << StrDmy.new(VOC.position_name       , ''        )
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry properties.
+  def init_props
+    add_name_props
+
+    self[VOC.position_id  ] = IntProp.new(:i8, -1           )
+    self[VOC.position_name] = StrProp.new(nil, '', dmy: true)
 
     if product_id != '6107110 06' && product_id != '6107810'
       if eu?
-        members << IntVar.new(padding_hdr           ,  0, :int8 )
+        self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      members << IntVar.new(VOC.feature_id[-1]      , -1, :int8 )
-      members << StrDmy.new(VOC.feature_name[-1]    , ''        )
-      members << IntVar.new(padding_hdr             ,  0, :int8 )
-      members << IntVar.new(VOC.feature_value[-1]   ,  0, :int16)
-      members << IntVar.new(VOC.ship_effect_id      , -1, :int8 )
-      members << StrDmy.new(VOC.ship_effect_name    , ''        )
-      members << IntVar.new(VOC.ship_effect_spirit  , -1, :int8 )
-      members << IntVar.new(VOC.ship_effect_turns   , -1, :int8 )
-      members << IntVar.new(padding_hdr             ,  0, :int8 )
-      members << IntVar.new(padding_hdr             ,  0, :int8 )
-      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      self[VOC.feature_id[-1]    ] = IntProp.new( :i8, -1           )
+      self[VOC.feature_name[-1]  ] = StrProp.new( nil, '', dmy: true)
+      self[padding_hdr           ] = IntProp.new( :i8,  0           )
+      self[VOC.feature_value[-1] ] = IntProp.new(:i16,  0           )
+      self[VOC.ship_effect_id    ] = IntProp.new( :i8, -1           )
+      self[VOC.ship_effect_name  ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.ship_effect_spirit] = IntProp.new( :i8, -1           )
+      self[VOC.ship_effect_turns ] = IntProp.new( :i8, -1           )
+      self[padding_hdr           ] = IntProp.new( :i8,  0           )
+      self[padding_hdr           ] = IntProp.new( :i8,  0           )
+      self[padding_hdr           ] = IntProp.new( :i8,  0           )
       
       if gc? && jp?
-        members << IntVar.new(VOC.unknown[-1]       ,  0, :int16)
-        members << IntVar.new(VOC.ship_effect_value ,  0, :int16)
+        self[VOC.unknown[-1]      ] = IntProp.new(:i16, 0)
+        self[VOC.ship_effect_value] = IntProp.new(:i16, 0)
       else
-        members << IntVar.new(VOC.ship_effect_value ,  0, :int16)
-        members << IntVar.new(VOC.unknown[-1]       ,  0, :int16)
+        self[VOC.ship_effect_value] = IntProp.new(:i16, 0)
+        self[VOC.unknown[-1]      ] = IntProp.new(:i16, 0)
       end
   
-      members << IntVar.new(padding_hdr             ,  0, :int8 )
-      members << IntVar.new(padding_hdr             ,  0, :int8 )
-      members << IntVar.new(padding_hdr             ,  0, :int8 )
-      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      self[padding_hdr] = IntProp.new(:i8, 0)
+      self[padding_hdr] = IntProp.new(:i8, 0)
+      self[padding_hdr] = IntProp.new(:i8, 0)
+      self[padding_hdr] = IntProp.new(:i8, 0)
       
-      add_dscr_members
+      add_dscr_props
     else
-      members << IntVar.new(VOC.feature_id[-1]      , -1, :int8 )
-      members << StrDmy.new(VOC.feature_name[-1]    , ''        )
-      members << IntVar.new(padding_hdr             ,  0, :int8 )
-      members << IntVar.new(VOC.feature_value[-1]   ,  0, :int16)
-      members << IntVar.new(VOC.ship_effect_id      , -1, :uint8)
-      members << StrDmy.new(VOC.ship_effect_name    , ''        )
-      members << IntVar.new(VOC.ship_effect_turns   , -1, :int8 )
-      members << IntVar.new(VOC.ship_effect_value   , -1, :int16)
-      members << IntVar.new(unknown_hdr             ,  0, :int16)
-      members << IntVar.new(padding_hdr             ,  0, :int8 )
-      members << IntVar.new(padding_hdr             ,  0, :int8 )
-      members << IntVar.new(padding_hdr             ,  0, :int8 )
-      members << IntVar.new(padding_hdr             ,  0, :int8 )
+      self[VOC.feature_id[-1]   ] = IntProp.new( :i8, -1           )
+      self[VOC.feature_name[-1] ] = StrProp.new( nil, '', dmy: true)
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      self[VOC.feature_value[-1]] = IntProp.new(:i16,  0           )
+      self[VOC.ship_effect_id   ] = IntProp.new( :u8, -1           )
+      self[VOC.ship_effect_name ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.ship_effect_turns] = IntProp.new( :i8, -1           )
+      self[VOC.ship_effect_value] = IntProp.new(:i16, -1           )
+      self[unknown_hdr          ] = IntProp.new(:i16,  0           )
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
     end
   end
+  
+  # Initialize the entry procs.
+  def init_procs
+    fetch(VOC.position_id).proc = Proc.new do |_id|
+      self[VOC.position_name] = VOC.positions[_id]
+    end
 
-  # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_csv(_f)
-    _id = find_member(VOC.position_id).value
-    find_member(VOC.position_name).value = VOC.positions[_id]
+    fetch(VOC.feature_id[-1]).proc = Proc.new do |_id|
+      self[VOC.feature_name[-1]] = VOC.ship_accessory_features[_id]
+    end
 
-    _id = find_member(VOC.feature_id[-1]).value
-    find_member(VOC.feature_name[-1]).value = VOC.ship_accessory_features[_id]
-
-    _id = find_member(VOC.ship_effect_id).value
-    find_member(VOC.ship_effect_name).value = VOC.effects[_id]
-    
-    super
+    fetch(VOC.ship_effect_id).proc = Proc.new do |_id|
+      self[VOC.ship_effect_name] = VOC.effects[_id]
+    end
   end
 
 end	# class CrewMember

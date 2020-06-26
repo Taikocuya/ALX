@@ -147,10 +147,12 @@ class EntryData
   def product_id
     @root.product_id
   end
+  alias pid product_id
   
   def country_id
     @root.country_id
   end
+  alias cid country_id
 
   # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
   # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.

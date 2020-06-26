@@ -69,8 +69,8 @@ class BinaryFile < DelegateClass(::File)
   end
 
   # @see ::IO::open
-  def self.open(*_args, **_opts)
-    _file = new(*_args, **_opts)
+  def self.open(...)
+    _file = new(...)
   
     if block_given?
       begin

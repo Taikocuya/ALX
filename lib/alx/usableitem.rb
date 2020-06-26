@@ -45,64 +45,81 @@ class UsableItem < StdEntry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
-    add_name_members
-
-    members << HexVar.new(VOC.occasion_flags            ,  0, :int8  )
-    members << StrDmy.new(VOC.occasion_menu             , ''         )
-    members << StrDmy.new(VOC.occasion_battle           , ''         )
-    members << StrDmy.new(VOC.occasion_ship             , ''         )
-    members << IntVar.new(VOC.effect_id                 , -1, :int8  )
-    members << StrDmy.new(VOC.effect_name               , ''         )
-    members << IntVar.new(VOC.scope_id                  ,  0, :uint8 )
-    members << StrDmy.new(VOC.scope_name                , ''         )
-    members << IntVar.new(VOC.consume                   ,  0, :int8  )
-    members << IntVar.new(VOC.retail_price              ,  0, :int8  )
-    members << IntVar.new(VOC.order_priority            ,  0, :int8  )
-    members << IntVar.new(VOC.order_alphabet[country_id], -1, :int8  )
-    
-    if eu?
-      members << IntVar.new(padding_hdr                 ,  0, :int8  )
-    end
-    
-    members << IntVar.new(VOC.purchase_price            ,  0, :uint16)
-    members << IntVar.new(padding_hdr                   ,  0, :int8  )
-    members << IntVar.new(padding_hdr                   ,  0, :int8  )
-    members << IntVar.new(VOC.effect_value[-1]          ,  0, :int16 )
-    members << IntVar.new(VOC.element_id                ,  0, :int8  )
-    members << StrDmy.new(VOC.element_name              , ''         )
-    members << IntVar.new(VOC.type_id                   ,  0, :int8  )
-    members << StrDmy.new(VOC.type_name                 , ''         )
-    members << IntVar.new(VOC.state_id                  ,  0, :int16 )
-    members << StrDmy.new(VOC.state_name                , ''         )
-    members << IntVar.new(VOC.state_miss                ,  0, :int16 )
-
-    add_dscr_members
+    init_props
+    init_procs
   end
 
-  # Writes one entry to a CSV file.
-  # @param _f [CSV] CSV object
-  def write_csv(_f)
-    _flags = find_member(VOC.occasion_flags).value
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry properties.
+  def init_props
+    add_name_props
+    
+    self[VOC.occasion_flags] = IntProp.new(:u8, 0, base: 16)
+    
     VOC.occasions.each do |_id, _occasion|
-      find_member(_occasion).value = _flags & (0x4 >> _id) != 0 ? 'X' : ''
+      self[_occasion] = StrProp.new(nil, '', dmy: true)
     end
     
-    _id = find_member(VOC.effect_id).value
-    find_member(VOC.effect_name).value = VOC.effects[_id]
+    self[VOC.effect_id     ] = IntProp.new(:i8,  0           )
+    self[VOC.effect_name   ] = StrProp.new(nil, '', dmy: true)
+    self[VOC.scope_id      ] = IntProp.new(:u8,  0           )
+    self[VOC.scope_name    ] = StrProp.new(nil, '', dmy: true)
+    self[VOC.consume       ] = IntProp.new(:i8,  0           )
+    self[VOC.retail_price  ] = IntProp.new(:i8,  0           )
+    self[VOC.order_prio    ] = IntProp.new(:i8, -1           )
+    self[VOC.order_abc[cid]] = IntProp.new(:i8, -1           )
     
-    _id = find_member(VOC.scope_id).value
-    find_member(VOC.scope_name).value = VOC.scopes[_id]
+    if eu?
+      self[padding_hdr] = IntProp.new(:i8, 0)
+    end
     
-    _id = find_member(VOC.element_id).value
-    find_member(VOC.element_name).value = VOC.elements[_id]
+    self[VOC.purchase_price  ] = IntProp.new(:u16,  0           )
+    self[padding_hdr         ] = IntProp.new( :i8,  0           )
+    self[padding_hdr         ] = IntProp.new( :i8,  0           )
+    self[VOC.effect_value[-1]] = IntProp.new(:i16,  0           )
+    self[VOC.element_id      ] = IntProp.new( :i8,  0           )
+    self[VOC.element_name    ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.type_id         ] = IntProp.new( :i8,  0           )
+    self[VOC.type_name       ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.state_id        ] = IntProp.new(:i16,  0           )
+    self[VOC.state_name      ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.state_miss      ] = IntProp.new(:i16,  0           )
     
-    _id = find_member(VOC.type_id).value
-    find_member(VOC.type_name).value = VOC.types[_id]
-    
-    _id = find_member(VOC.state_id).value
-    find_member(VOC.state_name).value = VOC.states[_id]
-    
-    super
+    add_dscr_props
+  end
+  
+  # Initialize the entry procs.
+  def init_procs
+    fetch(VOC.occasion_flags).proc = Proc.new do |_flags|
+      VOC.occasions.each do |_id, _occasion|
+        self[_occasion] = (_flags & (0x4 >> _id) != 0) ? 'X' : ''
+      end
+    end
+
+    fetch(VOC.effect_id).proc = Proc.new do |_id|
+      self[VOC.effect_name] = VOC.effects[_id]
+    end
+
+    fetch(VOC.scope_id).proc = Proc.new do |_id|
+      self[VOC.scope_name] = VOC.scopes[_id]
+    end
+
+    fetch(VOC.element_id).proc = Proc.new do |_id|
+      self[VOC.element_name] = VOC.elements[_id]
+    end
+
+    fetch(VOC.type_id).proc = Proc.new do |_id|
+      self[VOC.type_name] = VOC.types[_id]
+    end
+
+    fetch(VOC.state_id).proc = Proc.new do |_id|
+      self[VOC.state_name] = VOC.states[_id]
+    end
   end
 
 end	# class UsableItem
