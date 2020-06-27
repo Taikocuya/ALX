@@ -1,62 +1,62 @@
-Entry ID,[Filter],[Enemy ID],[JP Enemy Name],[US Enemy Name],Instr. Type ID,[Instr. Type Name],Instr. ID,[Instr. Name],Instr. Param. ID,[Instr. Param. Name]
-1,*,0,軍艦兵,Battleship Soldier,0,Branch,21,???,3,???
+Entry ID,[Filter],[Enemy ID],[JP Enemy Name],[US Enemy Name],Type ID,[Type Name],Instr. ID,[Instr. Name],Param. ID,[Param. Name]
+1,*,0,軍艦兵,Battleship Soldier,0,Branch,21,???,3,Jump To 3
 2,*,0,軍艦兵,Battleship Soldier,1,Action,550,Attack,2,Random Character
 3,*,0,軍艦兵,Battleship Soldier,1,Action,551,Guard,-1,None
-1,*,1,航行士,Sailor,0,Branch,42,???,6,???
-2,*,1,航行士,Sailor,0,Branch,39,???,5,???
-3,*,1,航行士,Sailor,0,Branch,29,???,6,???
-4,*,1,航行士,Sailor,0,Branch,30,???,8,???
-5,*,1,航行士,Sailor,0,Branch,25,???,7,???
+1,*,1,航行士,Sailor,0,Branch,42,???,6,Jump To 6
+2,*,1,航行士,Sailor,0,Branch,39,Injured Enemy?,5,Jump To 5
+3,*,1,航行士,Sailor,0,Branch,29,???,6,Jump To 6
+4,*,1,航行士,Sailor,0,Branch,30,???,8,Jump To 8
+5,*,1,航行士,Sailor,0,Branch,25,???,7,Jump To 7
 6,*,1,航行士,Sailor,1,Action,550,Attack,2,Random Character
 7,*,1,航行士,Sailor,1,Action,79,Medicinal Herb,7,Injured Enemy
 8,*,1,航行士,Sailor,1,Action,551,Guard,-1,None
-1,*,2,ミクラステル,Micrastel,0,Branch,45,???,3,???
-2,*,2,ミクラステル,Micrastel,0,Branch,30,???,4,???
-3,*,2,ミクラステル,Micrastel,0,Branch,28,???,10,???
-4,*,2,ミクラステル,Micrastel,0,Branch,44,???,6,???
-5,*,2,ミクラステル,Micrastel,0,Branch,30,???,7,???
-6,*,2,ミクラステル,Micrastel,0,Branch,24,???,10,???
-7,*,2,ミクラステル,Micrastel,0,Branch,24,???,9,???
+1,*,2,ミクラステル,Micrastel,0,Branch,45,???,3,Jump To 3
+2,*,2,ミクラステル,Micrastel,0,Branch,30,???,4,Jump To 4
+3,*,2,ミクラステル,Micrastel,0,Branch,28,???,10,Jump To 10
+4,*,2,ミクラステル,Micrastel,0,Branch,44,???,6,Jump To 6
+5,*,2,ミクラステル,Micrastel,0,Branch,30,???,7,Jump To 7
+6,*,2,ミクラステル,Micrastel,0,Branch,24,???,10,Jump To 10
+7,*,2,ミクラステル,Micrastel,0,Branch,24,???,9,Jump To 9
 8,*,2,ミクラステル,Micrastel,1,Action,550,Attack,1,Same Character
 9,*,2,ミクラステル,Micrastel,1,Action,4,Laser,0,???
 10,*,2,ミクラステル,Micrastel,1,Action,552,Run,-1,None
-1,*,3,マロッカ,Marocca,0,Branch,44,???,3,???
-2,*,3,マロッカ,Marocca,0,Branch,30,???,4,???
-3,*,3,マロッカ,Marocca,0,Branch,26,???,8,???
-4,*,3,マロッカ,Marocca,0,Branch,1,???,7,???
-5,*,3,マロッカ,Marocca,0,Branch,28,???,7,???
+1,*,3,マロッカ,Marocca,0,Branch,44,???,3,Jump To 3
+2,*,3,マロッカ,Marocca,0,Branch,30,???,4,Jump To 4
+3,*,3,マロッカ,Marocca,0,Branch,26,???,8,Jump To 8
+4,*,3,マロッカ,Marocca,0,Branch,1,???,7,Jump To 7
+5,*,3,マロッカ,Marocca,0,Branch,28,???,7,Jump To 7
 6,*,3,マロッカ,Marocca,1,Action,551,Guard,-1,None
 7,*,3,マロッカ,Marocca,1,Action,550,Attack,1,Same Character
 8,*,3,マロッカ,Marocca,1,Action,552,Run,-1,None
-1,*,4,アーアペプ,Grouder,0,Branch,33,???,3,???
-2,*,4,アーアペプ,Grouder,0,Branch,22,???,10,???
-3,*,4,アーアペプ,Grouder,0,Branch,36,???,5,???
-4,*,4,アーアペプ,Grouder,0,Branch,22,???,9,???
-5,*,4,アーアペプ,Grouder,0,Branch,23,???,11,???
-6,*,4,アーアペプ,Grouder,0,Branch,22,???,8,???
+1,*,4,アーアペプ,Grouder,0,Branch,33,???,3,Jump To 3
+2,*,4,アーアペプ,Grouder,0,Branch,22,???,10,Jump To 10
+3,*,4,アーアペプ,Grouder,0,Branch,36,???,5,Jump To 5
+4,*,4,アーアペプ,Grouder,0,Branch,22,???,9,Jump To 9
+5,*,4,アーアペプ,Grouder,0,Branch,23,???,11,Jump To 11
+6,*,4,アーアペプ,Grouder,0,Branch,22,???,8,Jump To 8
 7,*,4,アーアペプ,Grouder,1,Action,550,Attack,2,Random Character
 8,*,4,アーアペプ,Grouder,1,Action,551,Guard,-1,None
 9,*,4,アーアペプ,Grouder,1,Action,503,Panika,14,Character w/o Confusion
 10,*,4,アーアペプ,Grouder,1,Action,520,Waver,2,Random Character
 11,*,4,アーアペプ,Grouder,1,Action,57,Eerie Wail,2,Random Character
-1,*,7,煌術処刑士,Magic Executor,0,Branch,17,???,19,???
-2,*,7,煌術処刑士,Magic Executor,0,Branch,35,???,9,???
-3,*,7,煌術処刑士,Magic Executor,0,Branch,40,???,20,???
-4,*,7,煌術処刑士,Magic Executor,0,Branch,32,???,9,???
-5,*,7,煌術処刑士,Magic Executor,0,Branch,39,???,21,???
-6,*,7,煌術処刑士,Magic Executor,0,Branch,11,???,9,???
-7,*,7,煌術処刑士,Magic Executor,0,Branch,12,???,9,???
-8,*,7,煌術処刑士,Magic Executor,0,Branch,22,???,21,???
-9,*,7,煌術処刑士,Magic Executor,0,Branch,37,???,14,???
-10,*,7,煌術処刑士,Magic Executor,0,Branch,25,???,23,???
-11,*,7,煌術処刑士,Magic Executor,0,Branch,26,???,19,???
-12,*,7,煌術処刑士,Magic Executor,0,Branch,25,???,20,???
-13,*,7,煌術処刑士,Magic Executor,0,Branch,30,???,25,???
-14,*,7,煌術処刑士,Magic Executor,0,Branch,24,???,23,???
-15,*,7,煌術処刑士,Magic Executor,0,Branch,24,???,19,???
-16,*,7,煌術処刑士,Magic Executor,0,Branch,24,???,24,???
-17,*,7,煌術処刑士,Magic Executor,0,Branch,25,???,21,???
-18,*,7,煌術処刑士,Magic Executor,0,Branch,30,???,25,???
+1,*,7,煌術処刑士,Magic Executor,0,Branch,17,???,19,Jump To 19
+2,*,7,煌術処刑士,Magic Executor,0,Branch,35,Already Executed?,9,Jump To 9
+3,*,7,煌術処刑士,Magic Executor,0,Branch,40,???,20,Jump To 20
+4,*,7,煌術処刑士,Magic Executor,0,Branch,32,???,9,Jump To 9
+5,*,7,煌術処刑士,Magic Executor,0,Branch,39,Injured Enemy?,21,Jump To 21
+6,*,7,煌術処刑士,Magic Executor,0,Branch,11,???,9,Jump To 9
+7,*,7,煌術処刑士,Magic Executor,0,Branch,12,???,9,Jump To 9
+8,*,7,煌術処刑士,Magic Executor,0,Branch,22,???,21,Jump To 21
+9,*,7,煌術処刑士,Magic Executor,0,Branch,37,???,14,Jump To 14
+10,*,7,煌術処刑士,Magic Executor,0,Branch,25,???,23,Jump To 23
+11,*,7,煌術処刑士,Magic Executor,0,Branch,26,???,19,Jump To 19
+12,*,7,煌術処刑士,Magic Executor,0,Branch,25,???,20,Jump To 20
+13,*,7,煌術処刑士,Magic Executor,0,Branch,30,???,25,Jump To 25
+14,*,7,煌術処刑士,Magic Executor,0,Branch,24,???,23,Jump To 23
+15,*,7,煌術処刑士,Magic Executor,0,Branch,24,???,19,Jump To 19
+16,*,7,煌術処刑士,Magic Executor,0,Branch,24,???,24,Jump To 24
+17,*,7,煌術処刑士,Magic Executor,0,Branch,25,???,21,Jump To 21
+18,*,7,煌術処刑士,Magic Executor,0,Branch,30,???,25,Jump To 25
 19,*,7,煌術処刑士,Magic Executor,1,Action,550,Attack,1,Same Character
 20,*,7,煌術処刑士,Magic Executor,1,Action,500,Increm,8,Enemy w/ Highest ID
 21,*,7,煌術処刑士,Magic Executor,1,Action,506,Sacri,7,Injured Enemy
@@ -64,18 +64,18 @@ Entry ID,[Filter],[Enemy ID],[JP Enemy Name],[US Enemy Name],Instr. Type ID,[Ins
 23,*,7,煌術処刑士,Magic Executor,1,Action,526,Crystali,2,Random Character
 24,*,7,煌術処刑士,Magic Executor,1,Action,37,Reform,-1,None
 25,*,7,煌術処刑士,Magic Executor,1,Action,551,Guard,-1,None
-1,*,13,アスフール,Azbeth,0,Branch,44,???,3,???
-2,*,13,アスフール,Azbeth,0,Branch,30,???,4,???
-3,*,13,アスフール,Azbeth,0,Branch,27,???,15,???
-4,*,13,アスフール,Azbeth,0,Branch,25,???,13,???
-5,*,13,アスフール,Azbeth,0,Branch,24,???,8,???
-6,*,13,アスフール,Azbeth,0,Branch,28,???,11,???
-7,*,13,アスフール,Azbeth,0,Branch,30,???,14,???
-8,*,13,アスフール,Azbeth,0,Branch,25,???,16,???
-9,*,13,アスフール,Azbeth,0,Branch,24,???,17,???
-10,*,13,アスフール,Azbeth,0,Branch,30,???,18,???
-11,*,13,アスフール,Azbeth,0,Branch,35,???,19,???
-12,*,13,アスフール,Azbeth,0,Branch,30,???,20,???
+1,*,13,アスフール,Azbeth,0,Branch,44,???,3,Jump To 3
+2,*,13,アスフール,Azbeth,0,Branch,30,???,4,Jump To 4
+3,*,13,アスフール,Azbeth,0,Branch,27,???,15,Jump To 15
+4,*,13,アスフール,Azbeth,0,Branch,25,???,13,Jump To 13
+5,*,13,アスフール,Azbeth,0,Branch,24,???,8,Jump To 8
+6,*,13,アスフール,Azbeth,0,Branch,28,???,11,Jump To 11
+7,*,13,アスフール,Azbeth,0,Branch,30,???,14,Jump To 14
+8,*,13,アスフール,Azbeth,0,Branch,25,???,16,Jump To 16
+9,*,13,アスフール,Azbeth,0,Branch,24,???,17,Jump To 17
+10,*,13,アスフール,Azbeth,0,Branch,30,???,18,Jump To 18
+11,*,13,アスフール,Azbeth,0,Branch,35,Already Executed?,19,Jump To 19
+12,*,13,アスフール,Azbeth,0,Branch,30,???,20,Jump To 20
 13,*,13,アスフール,Azbeth,1,Action,550,Attack,2,Random Character
 14,*,13,アスフール,Azbeth,1,Action,551,Guard,-1,None
 15,*,13,アスフール,Azbeth,1,Action,552,Run,-1,None
@@ -84,144 +84,144 @@ Entry ID,[Filter],[Enemy ID],[JP Enemy Name],[US Enemy Name],Instr. Type ID,[Ins
 18,*,13,アスフール,Azbeth,1,Action,108,Call Allies,-1,None
 19,*,13,アスフール,Azbeth,1,Action,517,Eterni,2,Random Character
 20,*,13,アスフール,Azbeth,1,Action,100,Magical Chant？,-1,None
-1,*,15,ヌール,Nur,0,Branch,44,???,3,???
-2,*,15,ヌール,Nur,0,Branch,30,???,4,???
-3,*,15,ヌール,Nur,0,Branch,28,???,16,???
-4,*,15,ヌール,Nur,0,Branch,0,???,7,???
-5,*,15,ヌール,Nur,0,Branch,46,???,7,???
-6,*,15,ヌール,Nur,0,Branch,28,???,14,???
-7,*,15,ヌール,Nur,0,Branch,9,???,11,???
-8,*,15,ヌール,Nur,0,Branch,26,???,14,???
-9,*,15,ヌール,Nur,0,Branch,26,???,14,???
-10,*,15,ヌール,Nur,0,Branch,30,???,16,???
-11,*,15,ヌール,Nur,0,Branch,25,???,14,???
-12,*,15,ヌール,Nur,0,Branch,25,???,14,???
-13,*,15,ヌール,Nur,0,Branch,30,???,16,???
+1,*,15,ヌール,Nur,0,Branch,44,???,3,Jump To 3
+2,*,15,ヌール,Nur,0,Branch,30,???,4,Jump To 4
+3,*,15,ヌール,Nur,0,Branch,28,???,16,Jump To 16
+4,*,15,ヌール,Nur,0,Branch,0,???,7,Jump To 7
+5,*,15,ヌール,Nur,0,Branch,46,???,7,Jump To 7
+6,*,15,ヌール,Nur,0,Branch,28,???,14,Jump To 14
+7,*,15,ヌール,Nur,0,Branch,9,???,11,Jump To 11
+8,*,15,ヌール,Nur,0,Branch,26,???,14,Jump To 14
+9,*,15,ヌール,Nur,0,Branch,26,???,14,Jump To 14
+10,*,15,ヌール,Nur,0,Branch,30,???,16,Jump To 16
+11,*,15,ヌール,Nur,0,Branch,25,???,14,Jump To 14
+12,*,15,ヌール,Nur,0,Branch,25,???,14,Jump To 14
+13,*,15,ヌール,Nur,0,Branch,30,???,16,Jump To 16
 14,*,15,ヌール,Nur,1,Action,550,Attack,1,Same Character
 15,*,15,ヌール,Nur,1,Action,210,Drain energy,3,Character w/ Most HP
 16,*,15,ヌール,Nur,1,Action,552,Run,-1,None
-1,*,29,エルモ,Elmo,0,Branch,1,???,7,???
-2,*,29,エルモ,Elmo,0,Branch,25,???,7,???
-3,*,29,エルモ,Elmo,0,Branch,28,???,5,???
-4,*,29,エルモ,Elmo,0,Branch,30,???,6,???
+1,*,29,エルモ,Elmo,0,Branch,1,???,7,Jump To 7
+2,*,29,エルモ,Elmo,0,Branch,25,???,7,Jump To 7
+3,*,29,エルモ,Elmo,0,Branch,28,???,5,Jump To 5
+4,*,29,エルモ,Elmo,0,Branch,30,???,6,Jump To 6
 5,*,29,エルモ,Elmo,1,Action,550,Attack,2,Random Character
 6,*,29,エルモ,Elmo,1,Action,551,Guard,-1,None
 7,*,29,エルモ,Elmo,1,Action,552,Run,-1,None
-1,*,72,警備士,Guard,0,Branch,1,???,4,???
-2,*,72,警備士,Guard,0,Branch,28,???,7,???
-3,*,72,警備士,Guard,0,Branch,30,???,9,???
-4,*,72,警備士,Guard,0,Branch,26,???,7,???
-5,*,72,警備士,Guard,0,Branch,24,???,8,???
-6,*,72,警備士,Guard,0,Branch,30,???,9,???
+1,*,72,警備士,Guard,0,Branch,1,???,4,Jump To 4
+2,*,72,警備士,Guard,0,Branch,28,???,7,Jump To 7
+3,*,72,警備士,Guard,0,Branch,30,???,9,Jump To 9
+4,*,72,警備士,Guard,0,Branch,26,???,7,Jump To 7
+5,*,72,警備士,Guard,0,Branch,24,???,8,Jump To 8
+6,*,72,警備士,Guard,0,Branch,30,???,9,Jump To 9
 7,*,72,警備士,Guard,1,Action,550,Attack,2,Random Character
 8,*,72,警備士,Guard,1,Action,80,Medicinal Herb,7,Injured Enemy
 9,*,72,警備士,Guard,1,Action,551,Guard,-1,None
-1,*,96,ロッキ,Stonehawk,0,Branch,44,???,3,???
-2,*,96,ロッキ,Stonehawk,0,Branch,30,???,4,???
-3,*,96,ロッキ,Stonehawk,0,Branch,28,???,7,???
-4,*,96,ロッキ,Stonehawk,0,Branch,27,???,6,???
-5,*,96,ロッキ,Stonehawk,0,Branch,30,???,8,???
+1,*,96,ロッキ,Stonehawk,0,Branch,44,???,3,Jump To 3
+2,*,96,ロッキ,Stonehawk,0,Branch,30,???,4,Jump To 4
+3,*,96,ロッキ,Stonehawk,0,Branch,28,???,7,Jump To 7
+4,*,96,ロッキ,Stonehawk,0,Branch,27,???,6,Jump To 6
+5,*,96,ロッキ,Stonehawk,0,Branch,30,???,8,Jump To 8
 6,*,96,ロッキ,Stonehawk,1,Action,550,Attack,2,Random Character
 7,*,96,ロッキ,Stonehawk,1,Action,552,Run,-1,None
 8,*,96,ロッキ,Stonehawk,1,Action,93,Fatigue Breath,2,Random Character
-1,*,99,アルシノ,Kantor,0,Branch,1,???,9,???
-2,*,99,アルシノ,Kantor,0,Branch,20,???,6,???
-3,*,99,アルシノ,Kantor,0,Branch,26,???,11,???
-4,*,99,アルシノ,Kantor,0,Branch,28,???,12,???
-5,*,99,アルシノ,Kantor,0,Branch,30,???,13,???
-6,*,99,アルシノ,Kantor,0,Branch,27,???,11,???
-7,*,99,アルシノ,Kantor,0,Branch,26,???,12,???
-8,*,99,アルシノ,Kantor,0,Branch,30,???,13,???
-9,*,99,アルシノ,Kantor,0,Branch,25,???,11,???
-10,*,99,アルシノ,Kantor,0,Branch,30,???,12,???
+1,*,99,アルシノ,Kantor,0,Branch,1,???,9,Jump To 9
+2,*,99,アルシノ,Kantor,0,Branch,20,???,6,Jump To 6
+3,*,99,アルシノ,Kantor,0,Branch,26,???,11,Jump To 11
+4,*,99,アルシノ,Kantor,0,Branch,28,???,12,Jump To 12
+5,*,99,アルシノ,Kantor,0,Branch,30,???,13,Jump To 13
+6,*,99,アルシノ,Kantor,0,Branch,27,???,11,Jump To 11
+7,*,99,アルシノ,Kantor,0,Branch,26,???,12,Jump To 12
+8,*,99,アルシノ,Kantor,0,Branch,30,???,13,Jump To 13
+9,*,99,アルシノ,Kantor,0,Branch,25,???,11,Jump To 11
+10,*,99,アルシノ,Kantor,0,Branch,30,???,12,Jump To 12
 11,*,99,アルシノ,Kantor,1,Action,550,Attack,2,Random Character
 12,*,99,アルシノ,Kantor,1,Action,5,Thunder of Fury,2,Random Character
 13,*,99,アルシノ,Kantor,1,Action,34,Wait,-1,None
-1,*,128,アントニオ,Antonio,0,Branch,2,???,9,???
-2,*,128,アントニオ,Antonio,0,Branch,20,???,6,???
-3,*,128,アントニオ,Antonio,0,Branch,26,???,11,???
-4,*,128,アントニオ,Antonio,0,Branch,28,???,12,???
-5,*,128,アントニオ,Antonio,0,Branch,30,???,13,???
-6,*,128,アントニオ,Antonio,0,Branch,27,???,11,???
-7,*,128,アントニオ,Antonio,0,Branch,26,???,12,???
-8,*,128,アントニオ,Antonio,0,Branch,30,???,13,???
-9,*,128,アントニオ,Antonio,0,Branch,25,???,11,???
-10,*,128,アントニオ,Antonio,0,Branch,30,???,12,???
+1,*,128,アントニオ,Antonio,0,Branch,2,???,9,Jump To 9
+2,*,128,アントニオ,Antonio,0,Branch,20,???,6,Jump To 6
+3,*,128,アントニオ,Antonio,0,Branch,26,???,11,Jump To 11
+4,*,128,アントニオ,Antonio,0,Branch,28,???,12,Jump To 12
+5,*,128,アントニオ,Antonio,0,Branch,30,???,13,Jump To 13
+6,*,128,アントニオ,Antonio,0,Branch,27,???,11,Jump To 11
+7,*,128,アントニオ,Antonio,0,Branch,26,???,12,Jump To 12
+8,*,128,アントニオ,Antonio,0,Branch,30,???,13,Jump To 13
+9,*,128,アントニオ,Antonio,0,Branch,25,???,11,Jump To 11
+10,*,128,アントニオ,Antonio,0,Branch,30,???,12,Jump To 12
 11,*,128,アントニオ,Antonio,1,Action,550,Attack,2,Random Character
 12,*,128,アントニオ,Antonio,1,Action,5,Thunder of Fury,2,Random Character
 13,*,128,アントニオ,Antonio,1,Action,34,Wait,-1,None
-1,*,129,アガタウマス,Agathamaus,0,Branch,48,???,9,???
-2,*,129,アガタウマス,Agathamaus,0,Branch,5,???,6,???
-3,*,129,アガタウマス,Agathamaus,0,Branch,0,???,6,???
-4,*,129,アガタウマス,Agathamaus,0,Branch,21,???,9,???
-5,*,129,アガタウマス,Agathamaus,0,Branch,26,???,7,???
-6,*,129,アガタウマス,Agathamaus,0,Branch,30,???,8,???
+1,*,129,アガタウマス,Agathamaus,0,Branch,48,???,9,Jump To 9
+2,*,129,アガタウマス,Agathamaus,0,Branch,5,???,6,Jump To 6
+3,*,129,アガタウマス,Agathamaus,0,Branch,0,???,6,Jump To 6
+4,*,129,アガタウマス,Agathamaus,0,Branch,21,???,9,Jump To 9
+5,*,129,アガタウマス,Agathamaus,0,Branch,26,???,7,Jump To 7
+6,*,129,アガタウマス,Agathamaus,0,Branch,30,???,8,Jump To 8
 7,*,129,アガタウマス,Agathamaus,1,Action,550,Attack,1,Same Character
 8,*,129,アガタウマス,Agathamaus,1,Action,9,Target Search,-1,None
 9,*,129,アガタウマス,Agathamaus,1,Action,99,Blaster,2,Random Character
-1,*,130,イマゴタリア,Imagotalia,0,Branch,11,???,8,???
-2,*,130,イマゴタリア,Imagotalia,0,Branch,5,???,8,???
-3,*,130,イマゴタリア,Imagotalia,0,Branch,20,???,10,???
-4,*,130,イマゴタリア,Imagotalia,0,Branch,37,???,10,???
-5,*,130,イマゴタリア,Imagotalia,0,Branch,22,???,15,???
-6,*,130,イマゴタリア,Imagotalia,0,Branch,24,???,14,???
-7,*,130,イマゴタリア,Imagotalia,0,Branch,30,???,13,???
-8,*,130,イマゴタリア,Imagotalia,0,Branch,24,???,14,???
-9,*,130,イマゴタリア,Imagotalia,0,Branch,30,???,13,???
-10,*,130,イマゴタリア,Imagotalia,0,Branch,22,???,15,???
-11,*,130,イマゴタリア,Imagotalia,0,Branch,23,???,14,???
-12,*,130,イマゴタリア,Imagotalia,0,Branch,30,???,13,???
+1,*,130,イマゴタリア,Imagotalia,0,Branch,11,???,8,Jump To 8
+2,*,130,イマゴタリア,Imagotalia,0,Branch,5,???,8,Jump To 8
+3,*,130,イマゴタリア,Imagotalia,0,Branch,20,???,10,Jump To 10
+4,*,130,イマゴタリア,Imagotalia,0,Branch,37,???,10,Jump To 10
+5,*,130,イマゴタリア,Imagotalia,0,Branch,22,???,15,Jump To 15
+6,*,130,イマゴタリア,Imagotalia,0,Branch,24,???,14,Jump To 14
+7,*,130,イマゴタリア,Imagotalia,0,Branch,30,???,13,Jump To 13
+8,*,130,イマゴタリア,Imagotalia,0,Branch,24,???,14,Jump To 14
+9,*,130,イマゴタリア,Imagotalia,0,Branch,30,???,13,Jump To 13
+10,*,130,イマゴタリア,Imagotalia,0,Branch,22,???,15,Jump To 15
+11,*,130,イマゴタリア,Imagotalia,0,Branch,23,???,14,Jump To 14
+12,*,130,イマゴタリア,Imagotalia,0,Branch,30,???,13,Jump To 13
 13,*,130,イマゴタリア,Imagotalia,1,Action,550,Attack,2,Random Character
 14,*,130,イマゴタリア,Imagotalia,1,Action,183,Frozen Breath,-1,None
 15,*,130,イマゴタリア,Imagotalia,1,Action,25,Poisonous Bile,-1,None
-1,*,131,獄長,Warden,0,Branch,17,???,12,???
-2,*,131,獄長,Warden,0,Branch,16,???,8,???
-3,*,131,獄長,Warden,0,Branch,21,???,16,???
-4,*,131,獄長,Warden,0,Branch,23,???,17,???
-5,*,131,獄長,Warden,0,Branch,23,???,18,???
-6,*,131,獄長,Warden,0,Branch,28,???,15,???
-7,*,131,獄長,Warden,0,Branch,30,???,19,???
-8,*,131,獄長,Warden,0,Branch,22,???,16,???
-9,*,131,獄長,Warden,0,Branch,24,???,17,???
-10,*,131,獄長,Warden,0,Branch,28,???,15,???
-11,*,131,獄長,Warden,0,Branch,30,???,19,???
-12,*,131,獄長,Warden,0,Branch,24,???,16,???
-13,*,131,獄長,Warden,0,Branch,25,???,17,???
-14,*,131,獄長,Warden,0,Branch,30,???,15,???
+1,*,131,獄長,Warden,0,Branch,17,???,12,Jump To 12
+2,*,131,獄長,Warden,0,Branch,16,???,8,Jump To 8
+3,*,131,獄長,Warden,0,Branch,21,???,16,Jump To 16
+4,*,131,獄長,Warden,0,Branch,23,???,17,Jump To 17
+5,*,131,獄長,Warden,0,Branch,23,???,18,Jump To 18
+6,*,131,獄長,Warden,0,Branch,28,???,15,Jump To 15
+7,*,131,獄長,Warden,0,Branch,30,???,19,Jump To 19
+8,*,131,獄長,Warden,0,Branch,22,???,16,Jump To 16
+9,*,131,獄長,Warden,0,Branch,24,???,17,Jump To 17
+10,*,131,獄長,Warden,0,Branch,28,???,15,Jump To 15
+11,*,131,獄長,Warden,0,Branch,30,???,19,Jump To 19
+12,*,131,獄長,Warden,0,Branch,24,???,16,Jump To 16
+13,*,131,獄長,Warden,0,Branch,25,???,17,Jump To 17
+14,*,131,獄長,Warden,0,Branch,30,???,15,Jump To 15
 15,*,131,獄長,Warden,1,Action,550,Attack,2,Random Character
 16,*,131,獄長,Warden,1,Action,11,Tackle,3,Character w/ Most HP
 17,*,131,獄長,Warden,1,Action,251,Sonic Blast,2,Random Character
 18,*,131,獄長,Warden,1,Action,533,Electra,2,Random Character
 19,*,131,獄長,Warden,1,Action,551,Guard,-1,None
-1,*,133,護送将兵,Escort Officer,0,Branch,5,???,11,???
-2,*,133,護送将兵,Escort Officer,0,Branch,38,???,8,???
-3,*,133,護送将兵,Escort Officer,0,Branch,25,???,14,???
-4,*,133,護送将兵,Escort Officer,0,Branch,24,???,16,???
-5,*,133,護送将兵,Escort Officer,0,Branch,25,???,17,???
-6,*,133,護送将兵,Escort Officer,0,Branch,28,???,18,???
-7,*,133,護送将兵,Escort Officer,0,Branch,30,???,15,???
-8,*,133,護送将兵,Escort Officer,0,Branch,25,???,17,???
-9,*,133,護送将兵,Escort Officer,0,Branch,32,???,11,???
-10,*,133,護送将兵,Escort Officer,0,Branch,30,???,15,???
-11,*,133,護送将兵,Escort Officer,0,Branch,24,???,14,???
-12,*,133,護送将兵,Escort Officer,0,Branch,25,???,16,???
-13,*,133,護送将兵,Escort Officer,0,Branch,30,???,17,???
+1,*,133,護送将兵,Escort Officer,0,Branch,5,???,11,Jump To 11
+2,*,133,護送将兵,Escort Officer,0,Branch,38,???,8,Jump To 8
+3,*,133,護送将兵,Escort Officer,0,Branch,25,???,14,Jump To 14
+4,*,133,護送将兵,Escort Officer,0,Branch,24,???,16,Jump To 16
+5,*,133,護送将兵,Escort Officer,0,Branch,25,???,17,Jump To 17
+6,*,133,護送将兵,Escort Officer,0,Branch,28,???,18,Jump To 18
+7,*,133,護送将兵,Escort Officer,0,Branch,30,???,15,Jump To 15
+8,*,133,護送将兵,Escort Officer,0,Branch,25,???,17,Jump To 17
+9,*,133,護送将兵,Escort Officer,0,Branch,32,???,11,Jump To 11
+10,*,133,護送将兵,Escort Officer,0,Branch,30,???,15,Jump To 15
+11,*,133,護送将兵,Escort Officer,0,Branch,24,???,14,Jump To 14
+12,*,133,護送将兵,Escort Officer,0,Branch,25,???,16,Jump To 16
+13,*,133,護送将兵,Escort Officer,0,Branch,30,???,17,Jump To 17
 14,*,133,護送将兵,Escort Officer,1,Action,550,Attack,2,Random Character
 15,*,133,護送将兵,Escort Officer,1,Action,506,Sacri,7,Injured Enemy
 16,*,133,護送将兵,Escort Officer,1,Action,533,Electra,2,Random Character
 17,*,133,護送将兵,Escort Officer,1,Action,19,Set for Counter,-1,None
 18,*,133,護送将兵,Escort Officer,1,Action,551,Guard,-1,None
-1,*,134,ラァス,Laas,0,Branch,1,???,6,???
-2,*,134,ラァス,Laas,0,Branch,2,???,9,???
-3,*,134,ラァス,Laas,0,Branch,23,???,14,???
-4,*,134,ラァス,Laas,0,Branch,25,???,13,???
-5,*,134,ラァス,Laas,0,Branch,30,???,12,???
-6,*,134,ラァス,Laas,0,Branch,25,???,14,???
-7,*,134,ラァス,Laas,0,Branch,24,???,13,???
-8,*,134,ラァス,Laas,0,Branch,30,???,12,???
-9,*,134,ラァス,Laas,0,Branch,22,???,14,???
-10,*,134,ラァス,Laas,0,Branch,27,???,13,???
-11,*,134,ラァス,Laas,0,Branch,30,???,12,???
+1,*,134,ラァス,Laas,0,Branch,1,???,6,Jump To 6
+2,*,134,ラァス,Laas,0,Branch,2,???,9,Jump To 9
+3,*,134,ラァス,Laas,0,Branch,23,???,14,Jump To 14
+4,*,134,ラァス,Laas,0,Branch,25,???,13,Jump To 13
+5,*,134,ラァス,Laas,0,Branch,30,???,12,Jump To 12
+6,*,134,ラァス,Laas,0,Branch,25,???,14,Jump To 14
+7,*,134,ラァス,Laas,0,Branch,24,???,13,Jump To 13
+8,*,134,ラァス,Laas,0,Branch,30,???,12,Jump To 12
+9,*,134,ラァス,Laas,0,Branch,22,???,14,Jump To 14
+10,*,134,ラァス,Laas,0,Branch,27,???,13,Jump To 13
+11,*,134,ラァス,Laas,0,Branch,30,???,12,Jump To 12
 12,*,134,ラァス,Laas,1,Action,550,Attack,2,Random Character
 13,*,134,ラァス,Laas,1,Action,0,Volcanic Blast,-1,None
 14,*,134,ラァス,Laas,1,Action,1,Stone Gas,13,Character w/o Stone

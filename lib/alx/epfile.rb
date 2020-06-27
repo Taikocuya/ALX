@@ -201,7 +201,7 @@ class EpFile
     _enemy
   end
 
-  # Returns an enemy instructions by ID and filename, or +nil+ otherwise.
+  # Returns enemy instructions by ID and filename, or +nil+ otherwise.
   # @param _id       [Integer] Enemy ID
   # @param _filename [String]  File name
   # @return [Array] Enemy instructions

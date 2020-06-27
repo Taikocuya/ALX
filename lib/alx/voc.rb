@@ -191,18 +191,21 @@ VOC.configure do |_v|
   _v.item_id          = hdr('Item%dID'    )
   _v.item_name        = hdr('[Item%dName]')
 
-  _v.instr_enemy_id   = '[Enemy ID]'
-  _v.instr_type_id    = 'Instr. Type ID'
-  _v.instr_type_name  = '[Instr. Type Name]'
-  _v.instr_id         = 'Instr. ID'
-  _v.instr_name       = '[Instr. Name]'
-  _v.instr_param_id   = 'Instr. Param. ID'
-  _v.instr_param_name = '[Instr. Param. Name]'
-
+  _v.instr_enemy_id = '[Enemy ID]'
+  _v.instr_id       = 'Instr. ID'
+  _v.instr_name     = '[Instr. Name]'
+  _v.param_id       = 'Param. ID'
+  _v.param_name     = '[Param. Name]'
+  _v.jump_to        = 'Jump To %s'
+  
   _v.instr_types     = Hash.new('???')
   _v.instr_types[-1] = 'None'
   _v.instr_types[ 0] = 'Branch'
   _v.instr_types[ 1] = 'Action'
+  
+  _v.branches     = Hash.new('???')
+  _v.branches[35] = 'Already Executed?'
+  _v.branches[39] = 'Injured Enemy?'
   
   _v.basic_actions      = Hash.new('???')
   _v.basic_actions[550] = 'Attack'
@@ -220,7 +223,7 @@ VOC.configure do |_v|
   _v.action_targets[ 7] = 'Injured Enemy'
   _v.action_targets[ 8] = 'Enemy w/ Highest ID'
   _v.action_targets[11] = 'Enemy w/o Strengthen'
-  _v.action_targets[12] = 'Injured Enemy ≠ Self'
+  _v.action_targets[12] = 'Injured Enemy Not Self'
   _v.action_targets[13] = 'Character w/o Stone'
   _v.action_targets[14] = 'Character w/o Confusion'
   _v.action_targets[15] = 'Character w/o Silence'

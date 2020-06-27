@@ -107,13 +107,13 @@ class EnemyInstruction < Entry
   def magics=(_magics)
     @magics = _magics
     
-    fetch(VOC.instr_param_id)&.call_proc
+    fetch(VOC.param_id)&.call_proc
   end
 
   def super_moves=(_super_moves)
     @super_moves = _super_moves
     
-    fetch(VOC.instr_param_id)&.call_proc
+    fetch(VOC.param_id)&.call_proc
   end
   
   def files
@@ -137,11 +137,11 @@ class EnemyInstruction < Entry
   end
 
   def type_id
-    self[VOC.instr_type_id] || -1
+    self[VOC.type_id] || -1
   end
   
   def type_id=(_type_id)
-    self[VOC.instr_type_id] = _type_id
+    self[VOC.type_id] = _type_id
   end
 
   def order
@@ -198,12 +198,12 @@ class EnemyInstruction < Entry
       self[VOC.enemy_name_eu[-1]] = StrProp.new(nil, '', dmy: true)
     end
     
-    self[VOC.instr_type_id   ] = IntProp.new(:i16, -1           )
-    self[VOC.instr_type_name ] = StrProp.new( nil, '', dmy: true)
-    self[VOC.instr_id        ] = IntProp.new(:i16, -1           )
-    self[VOC.instr_name      ] = StrProp.new( nil, '', dmy: true)
-    self[VOC.instr_param_id  ] = IntProp.new(:i16, -1           )
-    self[VOC.instr_param_name] = StrProp.new( nil, '', dmy: true)
+    self[VOC.type_id   ] = IntProp.new(:i16, -1           )
+    self[VOC.type_name ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.instr_id  ] = IntProp.new(:i16, -1           )
+    self[VOC.instr_name] = StrProp.new( nil, '', dmy: true)
+    self[VOC.param_id  ] = IntProp.new(:i16, -1           )
+    self[VOC.param_name] = StrProp.new( nil, '', dmy: true)
   end
   
   # Initialize the entry procs.
@@ -225,28 +225,29 @@ class EnemyInstruction < Entry
       end
     end
     
-    fetch(VOC.instr_type_id).proc = Proc.new do
-      fetch(VOC.instr_param_id)&.call_proc
+    fetch(VOC.type_id).proc = Proc.new do
+      fetch(VOC.param_id)&.call_proc
     end
   
     fetch(VOC.instr_id).proc = Proc.new do
-      fetch(VOC.instr_param_id)&.call_proc
+      fetch(VOC.param_id)&.call_proc
     end
 
-    fetch(VOC.instr_param_id).proc = Proc.new do |_param_id|
-      _type_id    = self[VOC.instr_type_id]
+    fetch(VOC.param_id).proc = Proc.new do |_param_id|
+      _type_id    = self[VOC.type_id]
       _instr_id   = self[VOC.instr_id     ]
       _type_name  = VOC.instr_types[_type_id]
       _instr_name = (_instr_id != -1) ? '???' : 'None'
       _param_name = (_param_id != -1) ? '???' : 'None'
       
       case _type_id
-      # Strategy
+      # Branch
       when 0
-        # Nothing to do.
+        _instr_name = VOC.branches[_instr_id]
+        _param_name = sprintf(VOC.jump_to, _param_id)
       # Action
       when 1
-        # Action type
+        # Type
         _entry = nil
         if _instr_id >= 550
           _instr_name = VOC.basic_actions[_instr_id]
@@ -263,13 +264,13 @@ class EnemyInstruction < Entry
           end
         end
       
-        # Action target
+        # Target
         _param_name = VOC.action_targets[_param_id]
       end
 
-      self[VOC.instr_type_name ] = _type_name
-      self[VOC.instr_name      ] = _instr_name
-      self[VOC.instr_param_name] = _param_name
+      self[VOC.type_name ] = _type_name
+      self[VOC.instr_name] = _instr_name
+      self[VOC.param_name] = _param_name
     end
   end
 
