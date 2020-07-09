@@ -42,14 +42,12 @@ module CompressedFile
   # @see ::BinaryStringIO::new
   def self.new(_root, *_args)
     unless _root.is_a?(GameRoot)
-      _msg = '%s is not a %s'
-      raise(TypeError, sprintf(_msg, _root, GameRoot.name))
+      raise(TypeError, sprintf('%s is not a %s', _root, GameRoot.name))
     end
     
     _class = _root.compression
     unless _class.included_modules.include?(Serializable)
-      _msg = '%s is not %s'
-      raise(TypeError, sprintf(_msg, _class, Serializable.name))
+      raise(TypeError, sprintf('%s is not %s', _class, Serializable.name))
     end
     
     _class.new(*_args, **{ endianness: _root.endianness })
@@ -61,14 +59,12 @@ module CompressedFile
   # @see ::BinaryStringIO::open
   def self.open(_root, *_args, &_block)
     unless _root.is_a?(GameRoot)
-      _msg = '%s is not a %s'
-      raise(TypeError, sprintf(_msg, _root, GameRoot.name))
+      raise(TypeError, sprintf('%s is not a %s', _root, GameRoot.name))
     end
     
     _class = _root.compression
     unless _class.included_modules.include?(Serializable)
-      _msg = '%s is not %s'
-      raise(TypeError, sprintf(_msg, _class, Serializable.name))
+      raise(TypeError, sprintf('%s is not %s', _class, Serializable.name))
     end
     
     _class.open(*_args, **{ endianness: _root.endianness }, &_block)

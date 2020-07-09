@@ -229,8 +229,7 @@ class EntryData
       _descriptor = _descriptor.find { |_r| _filename.include?(_r.name) }
     end
     unless _descriptor.is_a?(RangeDescriptor)
-      _msg = '%s is not a range descriptor'
-      raise(TypeError, sprintf(_msg, _descriptor))
+      raise(TypeError, sprintf('%s is not a range descriptor', _descriptor))
     end
     _descriptor ||= RangeDescriptor.new('', 0x0..0xffffffff)
     _descriptor

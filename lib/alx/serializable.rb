@@ -164,8 +164,7 @@ module Serializable
   # @param _type [Symbol]  Type of the integer, which will be written.
   def write_int(_int, _type)
     unless _int.is_a?(Integer)
-      _msg = '%s is not an integer'
-      raise(TypeError, sprintf(_msg, _int))
+      raise(TypeError, sprintf('%s is not an integer', _int))
     end
 
     _format = int_directive(_type)
@@ -199,8 +198,7 @@ module Serializable
   #                       written.
   def write_flt(_flt, _type)
     unless _flt.is_a?(Float)
-      _msg = '%s is not a floating-point value'
-      raise(TypeError, sprintf(_msg, _flt))
+      raise(TypeError, sprintf('%s is not a floating-point value', _flt))
     end
     
     if _type == :f32
@@ -312,8 +310,7 @@ module Serializable
   # @see ::String#unpack
   def int_directive(_type)
     if !_type.is_a?(String) && !_type.is_a?(Symbol)
-      _msg = '%s is not a symbol nor a string'
-      raise(TypeError, sprintf(_msg, _type))
+      raise(TypeError, sprintf('%s is not a symbol nor a string', _type))
     end
 
     _type = _type.to_sym
@@ -335,8 +332,7 @@ module Serializable
     when :u64
       big_endian? ? 'Q>' : 'Q<'
     else
-      _msg = '%s is not an integer type'
-      raise(TypeError, sprintf(_msg, _type))
+      raise(TypeError, sprintf('%s is not an integer type', _type))
     end
   end
 
@@ -348,8 +344,7 @@ module Serializable
   # @see ::String#unpack
   def flt_directive(_type)
     if !_type.is_a?(String) && !_type.is_a?(Symbol)
-      _msg = '%s is not a symbol nor a string'
-      raise(TypeError, sprintf(_msg, _type))
+      raise(TypeError, sprintf('%s is not a symbol nor a string', _type))
     end
 
     _type = _type.to_sym
@@ -359,8 +354,7 @@ module Serializable
     when :f64
       big_endian? ? 'G' : 'E'
     else
-      _msg = '%s is not a floating-point type'
-      raise(TypeError, sprintf(_msg, _type))
+      raise(TypeError, sprintf('%s is not a floating-point type', _type))
     end
   end
 

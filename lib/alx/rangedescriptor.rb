@@ -48,12 +48,10 @@ class RangeDescriptor
   # @param msgtbl [Boolean]     Use message table
   def initialize(_name = '', _addr = [], excl: [], msgtbl: false)
     unless _name.is_a?(String)
-      _msg = '%s is not a string'
-      raise(TypeError, sprintf(_msg, _name))
+      raise(TypeError, sprintf('%s is not a string', _name))
     end
     if !_addr.is_a?(Array) && !_addr.is_a?(Range)
-      _msg = '%s is not an array nor a range'
-      raise(TypeError, sprintf(_msg, _addr))
+      raise(TypeError, sprintf('%s is not an array nor a range', _addr))
     end
     if !excl.is_a?(Array) && !excl.is_a?(Integer) && !excl.is_a?(Range)
       _msg = '%s is not an array, an integer nor a range'

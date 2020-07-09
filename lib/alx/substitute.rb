@@ -53,20 +53,16 @@ class Substitute
     _pattern, _replacement = '', platform: '', country: '', stop: true
   )
     if !_pattern.is_a?(Regexp) && !_pattern.is_a?(String)
-      _msg = '%s is not a regexp nor string'
-      raise(TypeError, sprintf(_msg, _pattern))
+      raise(TypeError, sprintf('%s is not a regexp nor string', _pattern))
     end
     unless _replacement.is_a?(String)
-      _msg = '%s is not a string'
-      raise(TypeError, sprintf(_msg, _replacement))
+      raise(TypeError, sprintf('%s is not a string', _replacement))
     end
     unless platform.is_a?(String)
-      _msg = '%s is not a string'
-      raise(TypeError, sprintf(_msg, platform))
+      raise(TypeError, sprintf('%s is not a string', platform))
     end
     unless country.is_a?(String)
-      _msg = '%s is not a string'
-      raise(TypeError, sprintf(_msg, country))
+      raise(TypeError, sprintf('%s is not a string', country))
     end
 
     @source      = _pattern
