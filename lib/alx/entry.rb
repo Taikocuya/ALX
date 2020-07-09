@@ -209,7 +209,7 @@ class Entry
       if _prop
         _prop.value = _value
       else
-        raise(KeyError, sprintf('key not found: "%s"', _value))
+        raise(KeyError, sprintf('key not found: "%s"', _key))
       end
     end
   end
@@ -220,7 +220,7 @@ class Entry
   
   def store(_key, _prop)
     unless _prop.is_a?(Prop)
-      raise(TypeError, sprintf(_prop, '%s is not a prop'))
+      raise(TypeError, sprintf('%s is not a prop', _prop))
     end
     
     @props[_key] = _prop
