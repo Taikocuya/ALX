@@ -59,7 +59,7 @@ class Importer
     super
     @exec_files = Dir.glob(EXEC_FILES)
     @exec_files.select! do |_p|
-      File.file?(_p) && File.basename(_p) != 'importdefinedstrings.rb'
+      File.file?(_p) && File.basename(_p) != 'importdefinedstring.rb'
     end
   end
   

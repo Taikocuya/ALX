@@ -145,8 +145,8 @@ class EnemyShipTask < Entry
   def init_procs
     fetch(VOC.filter).proc = Proc.new do |_filter|
       _match = SYS.enemy_ship_tasks.find do |_, _array|
-        _array.any? do |_task_id|
-          _filter.include?(_task_id.to_s)
+        _array.any? do |_instr_id|
+          _filter.include?(_instr_id.to_s)
         end
       end
       
@@ -188,7 +188,7 @@ class EnemyShipTask < Entry
       
       fetch(VOC.task_param_id[_i]).proc = Proc.new do |_param_id|
         _type_id    = self[VOC.task_type_id[_i]]
-        _type_name  = VOC.task_types[_type_id]
+        _type_name  = VOC.ship_task_types[_type_id]
         _param_name = (_param_id != -1) ? '???' : 'None'
         
         case _type_id
@@ -204,11 +204,11 @@ class EnemyShipTask < Entry
             end
           end
         when 2
-          _param_name = VOC.focus_tasks[_param_id]
+          _param_name = VOC.focus_ship_tasks[_param_id]
         when 3
-          _param_name = VOC.guard_tasks[_param_id]
+          _param_name = VOC.guard_ship_tasks[_param_id]
         when 4
-          _param_name = VOC.nothing_tasks[_param_id]
+          _param_name = VOC.nothing_ship_tasks[_param_id]
         end
         
         self[VOC.task_type_name[_i] ] = _type_name

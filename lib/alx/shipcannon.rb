@@ -78,7 +78,7 @@ class ShipCannon < StdEntry
       self[VOC.attack           ] = IntProp.new(:i16,  0           )
       self[VOC.hit              ] = IntProp.new(:u16,  0           )
       self[VOC.limit            ] = IntProp.new( :i8,  0           )
-      self[VOC.spirit[-1]       ] = IntProp.new( :i8,  0           )
+      self[VOC.sp[-1]           ] = IntProp.new( :i8,  0           )
       self[VOC.feature_id[-1]   ] = IntProp.new( :i8,  0           )
       self[VOC.feature_name[-1] ] = StrProp.new( nil, '', dmy: true)
       self[padding_hdr          ] = IntProp.new( :i8,  0           )
@@ -116,7 +116,7 @@ class ShipCannon < StdEntry
       self[VOC.attack        ] = IntProp.new(:i16, 0)
       self[VOC.hit           ] = IntProp.new(:u16, 0)
       self[VOC.limit         ] = IntProp.new( :i8, 0)
-      self[VOC.spirit[-1]    ] = IntProp.new( :i8, 0)
+      self[VOC.sp[-1]        ] = IntProp.new( :i8, 0)
   
       (1..4).each do |_i|
         self[VOC.feature_id[_i]   ] = IntProp.new( :i8,  0           )

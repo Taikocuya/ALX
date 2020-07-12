@@ -99,11 +99,11 @@ All commands respectively scripts can be found in the `bin` directory.
 
 ### export.rb
 
-Executes all export commands in `bin` except `exportdefinedstrings.rb`.
+Executes all export commands in `bin` except `exportdefinedstring.rb`.
 
 ### import.rb
 
-Executes all import commands in `bin` except `importdefinedstrings.rb`.
+Executes all import commands in `bin` except `importdefinedstring.rb`.
 
 Links
 -----

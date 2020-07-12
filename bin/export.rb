@@ -59,7 +59,7 @@ class Exporter
     super
     @exec_files = Dir.glob(EXEC_FILES)
     @exec_files.select! do |_p|
-      File.file?(_p) && File.basename(_p) != 'exportdefinedstrings.rb'
+      File.file?(_p) && File.basename(_p) != 'exportdefinedstring.rb'
     end
   end
   

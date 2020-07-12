@@ -1,37 +1,37 @@
-Entry ID,JP Entry Name,Element ID,[Element Name],Order by Prio.,Occ. Flags,[M],[B],[S],Effect ID,[Effect Name],Scope ID,[Scope Name],Category ID,[Category Name],Effect Prio.,Effect Spirit,Pad. 1,Pad. 2,Effect Value,Type ID,[Type Name],State ID,[State Name],State Miss%,Pad. 3,Pad. 4,Pad. 5,Ship Occ. ID,[Ship Occ. Name],Pad. 6,Ship Effect ID,[Ship Effect Name],Ship Effect Spirit,Ship Effect Turns,Ship Effect Amount,Unk.,Pad. 7,Pad. 8,Pad. 9,[JP Descr. Pos.],[JP Descr. Size],JP Descr. Str.
-0,アパ,1,Red,120,0x3,"",X,X,21,Add Strengthen,1,One Character,6,Magic,0,2,0,0,0,0,Physical,-1,None,0,0,0,0,1,Always,0,124,???,15,8,100,-1,0,0,0,0x2adf00,84,味方１人をパワーアップの状態にする。\nなんとヴァイスだけは技もパワーアップするぞ!!
-1,アポス,1,Red,121,0x3,"",X,X,21,Add Strengthen,2,All Characters,6,Magic,0,5,0,0,0,0,Physical,-1,None,0,0,0,0,1,Always,0,124,???,30,12,200,-1,0,0,0,0x2adf54,72,パワーアップЖ術の第２段階です。\nＰＣ全員の攻撃力、防御力が上がります。
-2,サイレシャ,2,Purple,20,0x3,"",X,X,12,Add Silence,3,One Enemy,6,Magic,0,2,0,0,0,0,Physical,5,Silence,40,0,0,0,1,Always,0,-1,None,0,-1,0,-1,0,0,0,0x2adf9c,52,沈黙Ж術です。\nＥＣ単体のЖ術を一定確率で封じます。
-3,パニカ,2,Purple,130,0x2,"",X,"",11,Add Confusion,3,One Enemy,6,Magic,0,3,0,0,0,0,Physical,4,Confusion,60,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2adfd0,72,敵１体を混乱の状態にする。\n混乱した敵はいちばん近くの誰かを攻撃するぞ!!
-4,ダウナ,4,Yellow,140,0x3,"",X,X,26,Add Weak,3,One Enemy,6,Magic,0,2,0,0,0,0,Physical,8,Weak,60,0,0,0,0,Magic Cannon,0,130,???,15,4,50,-1,0,0,0,0x2ae018,76,能力値ダウンЖ術の第１段階です。\nＥＣ単体の全能力値を一定確率で下げます。
-5,ダウノス,4,Yellow,141,0x3,"",X,X,26,Add Weak,4,All Enemies,6,Magic,0,5,0,0,0,0,Physical,8,Weak,60,0,0,0,0,Magic Cannon,0,130,???,30,8,100,-1,0,0,0,0x2ae064,76,能力値ダウンЖ術の第２段階です。\nＥＣ全体の全能力値を一定確率で下げます。
-6,サプラ,0,Green,40,0x7,X,X,X,31,Recover HP,1,One Character,6,Magic,0,2,0,0,250,0,Physical,0,Poison,0,0,0,0,1,Always,0,100,Recover HP (Ship),10,0,3000,-1,0,0,0,0x2ae0b0,76,味方１人のＨＰを２５０ｐ回復する。\n消費ガッツが少ないので序盤で重宝するぞ!!
-7,サプリィ,0,Green,41,0x7,X,X,X,31,Recover HP,1,One Character,6,Magic,0,5,0,0,1000,0,Physical,0,Poison,0,0,0,0,1,Always,0,100,Recover HP (Ship),15,0,15000,-1,0,0,0,0x2ae0fc,64,ＨＰ回復Ж術の第２段階です。\nＰＣ１人のＨＰを中量回復します。
-8,サプレス,0,Green,42,0x7,X,X,X,31,Recover HP,2,All Characters,6,Magic,0,5,0,0,500,0,Physical,0,Poison,0,0,0,0,1,Always,0,102,Recover Spirit (Ship),20,5,3000,-1,0,0,0,0x2ae13c,76,味方全員の体力を５００ｐ回復する。\n全体攻撃を持つ敵と戦うときの必需品だぞ!!
-9,サプローネ,0,Green,43,0x7,X,X,X,32,Recover HP to 100%,1,One Character,6,Magic,0,12,0,0,9999,0,Physical,0,Poison,0,0,0,0,1,Always,0,101,Recover HP to 100% (Ship),20,0,0,-1,0,0,0,0x2ae188,64,ＨＰ回復Ж術の第４段階です。\nＰＣ１人のＨＰを完全回復します。
-10,プワザ,0,Green,50,0x2,"",X,"",4,Add Poison + Damage,3,One Enemy,6,Magic,0,2,0,0,20,1,Magical,0,Poison,50,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae1c8,84,敵１体にダメージを与えた上、毒の状態にする。\n戦闘の前半に使った方がお得なЖ術だ!!
-11,プワゾーク,0,Green,51,0x2,"",X,"",4,Add Poison + Damage,4,All Enemies,6,Magic,0,6,0,0,130,1,Magical,0,Poison,50,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae21c,72,毒攻撃Ж術の第２段階です。\nＥＣ全体にダメージと一定確率で毒を与えます。
-12,スリーパ,3,Blue,110,0x2,"",X,"",9,Add Sleep,4,All Enemies,6,Magic,0,2,0,0,0,0,Physical,3,Sleep,50,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae264,48,睡眠Ж術です。\nＥＣ全体を一定確率で眠らせます。
-13,クイッカ,3,Blue,70,0x3,"",X,X,20,Add Quickened,2,All Characters,6,Magic,0,2,0,0,0,0,Physical,-1,None,0,0,0,0,1,Always,0,108,Improve Parameters (Ship),5,8,100,-1,0,0,0,0x2ae294,56,すばやさアップЖ術です。\nＰＣ１人の素早さを上げます。
-14,キュア,5,Silver,80,0x2,"",X,"",30,Remove Negative States,1,One Character,6,Magic,0,2,0,0,0,0,Physical,-1,None,0,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae2cc,60,治療Ж術です。\nＰＣ１人の毒、眠り、混乱を確実に解除します。
-15,ライザ,5,Silver,90,0x2,"",X,"",27,Revive w/ 50% of HP,1,One Character,6,Magic,0,5,0,0,0,0,Physical,-1,None,40,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae308,68,復活Ж術の第１段階です。\nＰＣ１人の戦闘不能を一定確率で解除します。
-16,ライゾン,5,Silver,91,0x2,"",X,"",28,Revive w/ 100% of HP,1,One Character,6,Magic,0,10,0,0,0,0,Physical,-1,None,0,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae34c,64,復活Ж術の第２段階です。\nＰＣ１人の戦闘不能を確実に解除します。
-17,ジェダ,5,Silver,100,0x2,"",X,"",5,Add Unconscious,3,One Enemy,6,Magic,0,4,0,0,0,0,Physical,1,Unconscious,70,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae38c,64,即死Ж術の第１段階です。\nＥＣ単体を一定確率で戦闘不能にします。
-18,ジェデス,5,Silver,101,0x2,"",X,"",5,Add Unconscious,4,All Enemies,6,Magic,0,10,0,0,0,0,Physical,1,Unconscious,70,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae3cc,64,即死Ж術の第２段階です。\nＥＣ全体を一定確率で戦闘不能にします。
-19,ジェドーサ,5,Silver,102,0x2,"",X,"",6,Add Unconscious + Damage 1,3,One Enemy,6,Magic,0,25,0,0,250,1,Magical,1,Unconscious,0,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae40c,60,即死Ж術の第３段階です。\nＥＣ単体を確実に戦闘不能にします。
-20,ウェイバ,3,Blue,60,0x3,"",X,X,0,Damage,32,Enemy Area 1,6,Magic,0,2,0,0,40,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,15,0,100,4,0,0,0,0x2ae448,68,波動攻撃Ж術の第１段階です。\n円範囲の敵に青属性ダメージを与えます。
-21,ウェイビィ,3,Blue,61,0x3,"",X,X,0,Damage,33,Enemy Area 2,6,Magic,0,4,0,0,95,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,20,0,200,4,0,0,0,0x2ae48c,68,波動攻撃Ж術の第２段階です。\n円範囲の敵に青属性ダメージを与えます。
-22,ウェボーン,3,Blue,63,0x3,"",X,X,0,Damage,34,Enemy Area 3,6,Magic,0,8,0,0,175,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,25,0,300,4,0,0,0,0x2ae4d0,68,波動攻撃Ж術の第４段階です。\n円範囲の敵に青属性ダメージを与えます。
-23,バーナ,1,Red,0,0x3,"",X,X,0,Damage,4,All Enemies,6,Magic,0,2,0,0,20,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,15,0,100,1,0,0,0,0x2ae514,76,敵全体にダメージを与える炎のЖ術だ。\n数ばっかりのザコなんか、一網打尽だぞ!!
-24,バーニィ,1,Red,1,0x3,"",X,X,0,Damage,4,All Enemies,6,Magic,0,4,0,0,85,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,20,0,200,1,0,0,0,0x2ae560,64,火炎攻撃Ж術の第２段階です。\n敵全体に赤属性ダメージを与えます。
-25,バーネス,1,Red,2,0x3,"",X,X,0,Damage,4,All Enemies,6,Magic,0,6,0,0,120,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,25,0,350,1,0,0,0,0x2ae5a0,64,火炎攻撃Ж術の第３段階です。\n敵全体に赤属性ダメージを与えます。
-26,グラシャ,2,Purple,10,0x3,"",X,X,0,Damage,3,One Enemy,6,Magic,0,2,0,0,40,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,15,0,120,2,0,0,0,0x2ae5e0,64,敵１体に大ダメージを与える氷のЖ術だ。\n巨大なボスにも有効だぞ!!
-27,グラシィ,2,Purple,11,0x3,"",X,X,0,Damage,3,One Enemy,6,Magic,0,4,0,0,110,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,20,0,210,2,0,0,0,0x2ae620,64,凍気攻撃Ж術の第２段階です。\n敵単体に紫属性ダメージを与えます。
-28,グラシェス,2,Purple,12,0x3,"",X,X,0,Damage,3,One Enemy,6,Magic,0,6,0,0,155,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,25,0,300,2,0,0,0,0x2ae660,64,凍気攻撃Ж術の第３段階です。\n敵単体に紫属性ダメージを与えます。
-29,グラゾーバ,2,Purple,13,0x3,"",X,X,0,Damage,3,One Enemy,6,Magic,0,5,0,0,80,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,30,0,400,2,0,0,0,0x2ae6a0,88,敵１体に巨大ダメージを与える氷のЖ術だ。\nこの呪文さえあれば、あのボスだって倒せるぜ!!
-30,バーノーン,1,Red,3,0x3,"",X,X,0,Damage,4,All Enemies,6,Magic,0,5,0,0,60,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,30,0,500,1,0,0,0,0x2ae6f8,84,敵全体に大ダメージを与える爆炎のЖ術だ。\nほとんどのザコを、一撃で全滅させられるぞ!!
-31,ウェイベス,3,Blue,62,0x3,"",X,X,0,Damage,33,Enemy Area 2,6,Magic,0,6,0,0,135,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,30,0,400,4,0,0,0,0x2ae74c,68,波動攻撃Ж術の第３段階です。\n円範囲の敵に青属性ダメージを与えます。
-32,ボルタ,4,Yellow,30,0x3,"",X,X,0,Damage,36,Enemy Line 1,6,Magic,0,2,0,0,15,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,15,0,200,3,0,0,0,0x2ae790,76,電撃攻撃Ж術の第１段階です。\n直線上の敵すべてに黄属性ダメージを与えます。
-33,ボルティ,4,Yellow,31,0x3,"",X,X,0,Damage,37,Enemy Line 2,6,Magic,0,4,0,0,25,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,20,0,260,3,0,0,0,0x2ae7dc,76,電撃攻撃Ж術の第２段階です。\n直線上の敵すべてに黄属性ダメージを与えます。
-34,ボルテス,4,Yellow,32,0x3,"",X,X,0,Damage,37,Enemy Line 2,6,Magic,0,6,0,0,140,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,25,0,320,3,0,0,0,0x2ae828,76,電撃攻撃Ж術の第３段階です。\n直線上の敵すべてに黄属性ダメージを与えます。
-35,ボルドーラ,4,Yellow,33,0x3,"",X,X,0,Damage,38,Enemy Line 3,6,Magic,0,8,0,0,180,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,30,0,380,3,0,0,0,0x2ae874,76,電撃攻撃Ж術の第４段階です。\n直線上の敵すべてに黄属性ダメージを与えます。
+Entry ID,JP Entry Name,Element ID,[Element Name],Order by Prio.,Occ. Flags,[M],[B],[S],Effect ID,[Effect Name],Scope ID,[Scope Name],Category ID,[Category Name],Effect Prio.,Effect SP,Pad. 1,Pad. 2,Effect Value,Type ID,[Type Name],State ID,[State Name],State Miss%,Pad. 3,Pad. 4,Pad. 5,Ship Occ. ID,[Ship Occ. Name],Pad. 6,Ship Effect ID,[Ship Effect Name],Ship Effect SP,Ship Effect Turns,Ship Effect Amount,Unk.,Pad. 7,Pad. 8,Pad. 9,[ JP Descr. Pos.],[ JP Descr. Size],JP Descr. Str.
+0,アパ,1,Red,120,0x3,"",X,X,21,Strengthen,1,Single PC,6,Magic,0,2,0,0,0,0,Physical,-1,None,0,0,0,0,1,Always,0,124,???,15,8,100,-1,0,0,0,0x2adf00,84,味方１人をパワーアップの状態にする。\nなんとヴァイスだけは技もパワーアップするぞ!!
+1,アポス,1,Red,121,0x3,"",X,X,21,Strengthen,2,All PCs,6,Magic,0,5,0,0,0,0,Physical,-1,None,0,0,0,0,1,Always,0,124,???,30,12,200,-1,0,0,0,0x2adf54,72,パワーアップЖ術の第２段階です。\nＰＣ全員の攻撃力、防御力が上がります。
+2,サイレシャ,2,Purple,20,0x3,"",X,X,12,Silence,3,Single EC,6,Magic,0,2,0,0,0,0,Physical,5,Silence,40,0,0,0,1,Always,0,-1,None,0,-1,0,-1,0,0,0,0x2adf9c,52,沈黙Ж術です。\nＥＣ単体のЖ術を一定確率で封じます。
+3,パニカ,2,Purple,130,0x2,"",X,"",11,Confusion,3,Single EC,6,Magic,0,3,0,0,0,0,Physical,4,Confusion,60,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2adfd0,72,敵１体を混乱の状態にする。\n混乱した敵はいちばん近くの誰かを攻撃するぞ!!
+4,ダウナ,4,Yellow,140,0x3,"",X,X,26,Weak,3,Single EC,6,Magic,0,2,0,0,0,0,Physical,8,Weak,60,0,0,0,0,Magic Cannon,0,130,???,15,4,50,-1,0,0,0,0x2ae018,76,能力値ダウンЖ術の第１段階です。\nＥＣ単体の全能力値を一定確率で下げます。
+5,ダウノス,4,Yellow,141,0x3,"",X,X,26,Weak,4,All ECs,6,Magic,0,5,0,0,0,0,Physical,8,Weak,60,0,0,0,0,Magic Cannon,0,130,???,30,8,100,-1,0,0,0,0x2ae064,76,能力値ダウンЖ術の第２段階です。\nＥＣ全体の全能力値を一定確率で下げます。
+6,サプラ,0,Green,40,0x7,X,X,X,31,Recover HP,1,Single PC,6,Magic,0,2,0,0,250,0,Physical,0,Poison,0,0,0,0,1,Always,0,100,Recover HP,10,0,3000,-1,0,0,0,0x2ae0b0,76,味方１人のＨＰを２５０ｐ回復する。\n消費ガッツが少ないので序盤で重宝するぞ!!
+7,サプリィ,0,Green,41,0x7,X,X,X,31,Recover HP,1,Single PC,6,Magic,0,5,0,0,1000,0,Physical,0,Poison,0,0,0,0,1,Always,0,100,Recover HP,15,0,15000,-1,0,0,0,0x2ae0fc,64,ＨＰ回復Ж術の第２段階です。\nＰＣ１人のＨＰを中量回復します。
+8,サプレス,0,Green,42,0x7,X,X,X,31,Recover HP,2,All PCs,6,Magic,0,5,0,0,500,0,Physical,0,Poison,0,0,0,0,1,Always,0,102,Recover SP,20,5,3000,-1,0,0,0,0x2ae13c,76,味方全員の体力を５００ｐ回復する。\n全体攻撃を持つ敵と戦うときの必需品だぞ!!
+9,サプローネ,0,Green,43,0x7,X,X,X,32,Recover HP 100%,1,Single PC,6,Magic,0,12,0,0,9999,0,Physical,0,Poison,0,0,0,0,1,Always,0,101,Recover HP 100%,20,0,0,-1,0,0,0,0x2ae188,64,ＨＰ回復Ж術の第４段階です。\nＰＣ１人のＨＰを完全回復します。
+10,プワザ,0,Green,50,0x2,"",X,"",4,"Damage, Poison",3,Single EC,6,Magic,0,2,0,0,20,1,Magical,0,Poison,50,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae1c8,84,敵１体にダメージを与えた上、毒の状態にする。\n戦闘の前半に使った方がお得なЖ術だ!!
+11,プワゾーク,0,Green,51,0x2,"",X,"",4,"Damage, Poison",4,All ECs,6,Magic,0,6,0,0,130,1,Magical,0,Poison,50,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae21c,72,毒攻撃Ж術の第２段階です。\nＥＣ全体にダメージと一定確率で毒を与えます。
+12,スリーパ,3,Blue,110,0x2,"",X,"",9,Sleep,4,All ECs,6,Magic,0,2,0,0,0,0,Physical,3,Sleep,50,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae264,48,睡眠Ж術です。\nＥＣ全体を一定確率で眠らせます。
+13,クイッカ,3,Blue,70,0x3,"",X,X,20,Quickened,2,All PCs,6,Magic,0,2,0,0,0,0,Physical,-1,None,0,0,0,0,1,Always,0,108,Impr. Parameters,5,8,100,-1,0,0,0,0x2ae294,56,すばやさアップЖ術です。\nＰＣ１人の素早さを上げます。
+14,キュア,5,Silver,80,0x2,"",X,"",30,Rem. Neg. States,1,Single PC,6,Magic,0,2,0,0,0,0,Physical,-1,None,0,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae2cc,60,治療Ж術です。\nＰＣ１人の毒、眠り、混乱を確実に解除します。
+15,ライザ,5,Silver,90,0x2,"",X,"",27,"Revive, Recover HP 50%",1,Single PC,6,Magic,0,5,0,0,0,0,Physical,-1,None,40,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae308,68,復活Ж術の第１段階です。\nＰＣ１人の戦闘不能を一定確率で解除します。
+16,ライゾン,5,Silver,91,0x2,"",X,"",28,"Revive, Recover HP 100%",1,Single PC,6,Magic,0,10,0,0,0,0,Physical,-1,None,0,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae34c,64,復活Ж術の第２段階です。\nＰＣ１人の戦闘不能を確実に解除します。
+17,ジェダ,5,Silver,100,0x2,"",X,"",5,Unconscious,3,Single EC,6,Magic,0,4,0,0,0,0,Physical,1,Unconscious,70,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae38c,64,即死Ж術の第１段階です。\nＥＣ単体を一定確率で戦闘不能にします。
+18,ジェデス,5,Silver,101,0x2,"",X,"",5,Unconscious,4,All ECs,6,Magic,0,10,0,0,0,0,Physical,1,Unconscious,70,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae3cc,64,即死Ж術の第２段階です。\nＥＣ全体を一定確率で戦闘不能にします。
+19,ジェドーサ,5,Silver,102,0x2,"",X,"",6,"Damage, Unconscious 1",3,Single EC,6,Magic,0,25,0,0,250,1,Magical,1,Unconscious,0,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae40c,60,即死Ж術の第３段階です。\nＥＣ単体を確実に戦闘不能にします。
+20,ウェイバ,3,Blue,60,0x3,"",X,X,0,Damage,32,EC Area 1,6,Magic,0,2,0,0,40,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,15,0,100,4,0,0,0,0x2ae448,68,波動攻撃Ж術の第１段階です。\n円範囲の敵に青属性ダメージを与えます。
+21,ウェイビィ,3,Blue,61,0x3,"",X,X,0,Damage,33,EC Area 2,6,Magic,0,4,0,0,95,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,20,0,200,4,0,0,0,0x2ae48c,68,波動攻撃Ж術の第２段階です。\n円範囲の敵に青属性ダメージを与えます。
+22,ウェボーン,3,Blue,63,0x3,"",X,X,0,Damage,34,EC Area 3,6,Magic,0,8,0,0,175,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,25,0,300,4,0,0,0,0x2ae4d0,68,波動攻撃Ж術の第４段階です。\n円範囲の敵に青属性ダメージを与えます。
+23,バーナ,1,Red,0,0x3,"",X,X,0,Damage,4,All ECs,6,Magic,0,2,0,0,20,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,15,0,100,1,0,0,0,0x2ae514,76,敵全体にダメージを与える炎のЖ術だ。\n数ばっかりのザコなんか、一網打尽だぞ!!
+24,バーニィ,1,Red,1,0x3,"",X,X,0,Damage,4,All ECs,6,Magic,0,4,0,0,85,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,20,0,200,1,0,0,0,0x2ae560,64,火炎攻撃Ж術の第２段階です。\n敵全体に赤属性ダメージを与えます。
+25,バーネス,1,Red,2,0x3,"",X,X,0,Damage,4,All ECs,6,Magic,0,6,0,0,120,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,25,0,350,1,0,0,0,0x2ae5a0,64,火炎攻撃Ж術の第３段階です。\n敵全体に赤属性ダメージを与えます。
+26,グラシャ,2,Purple,10,0x3,"",X,X,0,Damage,3,Single EC,6,Magic,0,2,0,0,40,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,15,0,120,2,0,0,0,0x2ae5e0,64,敵１体に大ダメージを与える氷のЖ術だ。\n巨大なボスにも有効だぞ!!
+27,グラシィ,2,Purple,11,0x3,"",X,X,0,Damage,3,Single EC,6,Magic,0,4,0,0,110,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,20,0,210,2,0,0,0,0x2ae620,64,凍気攻撃Ж術の第２段階です。\n敵単体に紫属性ダメージを与えます。
+28,グラシェス,2,Purple,12,0x3,"",X,X,0,Damage,3,Single EC,6,Magic,0,6,0,0,155,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,25,0,300,2,0,0,0,0x2ae660,64,凍気攻撃Ж術の第３段階です。\n敵単体に紫属性ダメージを与えます。
+29,グラゾーバ,2,Purple,13,0x3,"",X,X,0,Damage,3,Single EC,6,Magic,0,5,0,0,80,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,30,0,400,2,0,0,0,0x2ae6a0,88,敵１体に巨大ダメージを与える氷のЖ術だ。\nこの呪文さえあれば、あのボスだって倒せるぜ!!
+30,バーノーン,1,Red,3,0x3,"",X,X,0,Damage,4,All ECs,6,Magic,0,5,0,0,60,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,30,0,500,1,0,0,0,0x2ae6f8,84,敵全体に大ダメージを与える爆炎のЖ術だ。\nほとんどのザコを、一撃で全滅させられるぞ!!
+31,ウェイベス,3,Blue,62,0x3,"",X,X,0,Damage,33,EC Area 2,6,Magic,0,6,0,0,135,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,30,0,400,4,0,0,0,0x2ae74c,68,波動攻撃Ж術の第３段階です。\n円範囲の敵に青属性ダメージを与えます。
+32,ボルタ,4,Yellow,30,0x3,"",X,X,0,Damage,36,EC Line 1,6,Magic,0,2,0,0,15,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,15,0,200,3,0,0,0,0x2ae790,76,電撃攻撃Ж術の第１段階です。\n直線上の敵すべてに黄属性ダメージを与えます。
+33,ボルティ,4,Yellow,31,0x3,"",X,X,0,Damage,37,EC Line 2,6,Magic,0,4,0,0,25,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,20,0,260,3,0,0,0,0x2ae7dc,76,電撃攻撃Ж術の第２段階です。\n直線上の敵すべてに黄属性ダメージを与えます。
+34,ボルテス,4,Yellow,32,0x3,"",X,X,0,Damage,37,EC Line 2,6,Magic,0,6,0,0,140,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,25,0,320,3,0,0,0,0x2ae828,76,電撃攻撃Ж術の第３段階です。\n直線上の敵すべてに黄属性ダメージを与えます。
+35,ボルドーラ,4,Yellow,33,0x3,"",X,X,0,Damage,38,EC Line 3,6,Magic,0,8,0,0,180,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,128,???,30,0,380,3,0,0,0,0x2ae874,76,電撃攻撃Ж術の第４段階です。\n直線上の敵すべてに黄属性ダメージを与えます。

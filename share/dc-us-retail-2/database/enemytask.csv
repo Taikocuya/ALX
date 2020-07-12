@@ -1,0 +1,2309 @@
+Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Instr. ID,[Instr. Name],Param. ID,[Param. Name]
+1,*,0,軍艦兵,Soldier,0,Branch,21,???,3,Go to 3
+2,*,0,軍艦兵,Soldier,1,Action,550,Attack,2,Random PC
+3,*,0,軍艦兵,Soldier,1,Action,551,Guard,-1,None
+1,*,1,航行士,Guard,0,Branch,42,???,3,Go to 3
+2,*,1,航行士,Guard,0,Branch,39,???,5,Go to 5
+3,*,1,航行士,Guard,0,Branch,29,???,6,Go to 6
+4,*,1,航行士,Guard,0,Branch,30,???,8,Go to 8
+5,*,1,航行士,Guard,0,Branch,25,???,7,Go to 7
+6,*,1,航行士,Guard,1,Action,550,Attack,2,Random PC
+7,*,1,航行士,Guard,1,Action,79,Sacri Crystal,7,Injured EC
+8,*,1,航行士,Guard,1,Action,551,Guard,-1,None
+1,*,2,ミクラステル,Seeker,0,Branch,45,???,3,Go to 3
+2,*,2,ミクラステル,Seeker,0,Branch,30,???,4,Go to 4
+3,*,2,ミクラステル,Seeker,0,Branch,28,???,11,Go to 11
+4,*,2,ミクラステル,Seeker,0,Branch,44,???,6,Go to 6
+5,*,2,ミクラステル,Seeker,0,Branch,30,???,7,Go to 7
+6,*,2,ミクラステル,Seeker,0,Branch,24,???,11,Go to 11
+7,*,2,ミクラステル,Seeker,0,Branch,50,???,9,Go to 9
+8,*,2,ミクラステル,Seeker,0,Branch,24,???,10,Go to 10
+9,*,2,ミクラステル,Seeker,1,Action,550,Attack,2,Random PC
+10,*,2,ミクラステル,Seeker,1,Action,4,Laser,2,Random PC
+11,*,2,ミクラステル,Seeker,1,Action,552,Run,-1,None
+1,*,3,マロッカ,Marocca,0,Branch,44,???,3,Go to 3
+2,*,3,マロッカ,Marocca,0,Branch,30,???,4,Go to 4
+3,*,3,マロッカ,Marocca,0,Branch,26,???,8,Go to 8
+4,*,3,マロッカ,Marocca,0,Branch,1,???,7,Go to 7
+5,*,3,マロッカ,Marocca,0,Branch,28,???,7,Go to 7
+6,*,3,マロッカ,Marocca,1,Action,551,Guard,-1,None
+7,*,3,マロッカ,Marocca,1,Action,550,Attack,1,Same PC
+8,*,3,マロッカ,Marocca,1,Action,552,Run,-1,None
+1,*,4,アーアペプ,Grouder,0,Branch,33,???,3,Go to 3
+2,*,4,アーアペプ,Grouder,0,Branch,22,???,10,Go to 10
+3,*,4,アーアペプ,Grouder,0,Branch,36,???,5,Go to 5
+4,*,4,アーアペプ,Grouder,0,Branch,22,???,9,Go to 9
+5,*,4,アーアペプ,Grouder,0,Branch,23,???,11,Go to 11
+6,*,4,アーアペプ,Grouder,0,Branch,22,???,8,Go to 8
+7,*,4,アーアペプ,Grouder,1,Action,550,Attack,2,Random PC
+8,*,4,アーアペプ,Grouder,1,Action,551,Guard,-1,None
+9,*,4,アーアペプ,Grouder,1,Action,503,Panika,14,PC w/o Confusion
+10,*,4,アーアペプ,Grouder,1,Action,520,Wevli,2,Random PC
+11,*,4,アーアペプ,Grouder,1,Action,57,Eerie Wail,2,Random PC
+1,*,7,煌術処刑士,Spell Warden,0,Branch,17,???,23,Go to 23
+2,*,7,煌術処刑士,Spell Warden,0,Branch,35,???,8,Go to 8
+3,*,7,煌術処刑士,Spell Warden,0,Branch,24,???,18,Go to 18
+4,*,7,煌術処刑士,Spell Warden,0,Branch,32,???,8,Go to 8
+5,*,7,煌術処刑士,Spell Warden,0,Branch,39,???,19,Go to 19
+6,*,7,煌術処刑士,Spell Warden,0,Branch,11,???,8,Go to 8
+7,*,7,煌術処刑士,Spell Warden,0,Branch,22,???,20,Go to 20
+8,*,7,煌術処刑士,Spell Warden,0,Branch,37,???,12,Go to 12
+9,*,7,煌術処刑士,Spell Warden,0,Branch,25,???,21,Go to 21
+10,*,7,煌術処刑士,Spell Warden,0,Branch,26,???,17,Go to 17
+11,*,7,煌術処刑士,Spell Warden,0,Branch,30,???,23,Go to 23
+12,*,7,煌術処刑士,Spell Warden,0,Branch,24,???,21,Go to 21
+13,*,7,煌術処刑士,Spell Warden,0,Branch,24,???,17,Go to 17
+14,*,7,煌術処刑士,Spell Warden,0,Branch,24,???,22,Go to 22
+15,*,7,煌術処刑士,Spell Warden,0,Branch,25,???,20,Go to 20
+16,*,7,煌術処刑士,Spell Warden,0,Branch,30,???,23,Go to 23
+17,*,7,煌術処刑士,Spell Warden,1,Action,550,Attack,1,Same PC
+18,*,7,煌術処刑士,Spell Warden,1,Action,500,Increm,8,EC w/ Highest ID
+19,*,7,煌術処刑士,Spell Warden,1,Action,506,Sacri,7,Injured EC
+20,*,7,煌術処刑士,Spell Warden,1,Action,506,Sacri,8,EC w/ Highest ID
+21,*,7,煌術処刑士,Spell Warden,1,Action,526,Crystali,2,Random PC
+22,*,7,煌術処刑士,Spell Warden,1,Action,37,Focus,-1,None
+23,*,7,煌術処刑士,Spell Warden,1,Action,551,Guard,-1,None
+1,*,8,レトモニケ,Flestik,0,Branch,44,???,3,Go to 3
+2,*,8,レトモニケ,Flestik,0,Branch,30,???,4,Go to 4
+3,*,8,レトモニケ,Flestik,0,Branch,28,???,16,Go to 16
+4,*,8,レトモニケ,Flestik,0,Branch,2,???,12,Go to 12
+5,*,8,レトモニケ,Flestik,0,Branch,4,???,7,Go to 7
+6,*,8,レトモニケ,Flestik,0,Branch,30,???,9,Go to 9
+7,*,8,レトモニケ,Flestik,0,Branch,28,???,14,Go to 14
+8,*,8,レトモニケ,Flestik,0,Branch,30,???,15,Go to 15
+9,*,8,レトモニケ,Flestik,0,Branch,26,???,14,Go to 14
+10,*,8,レトモニケ,Flestik,0,Branch,26,???,15,Go to 15
+11,*,8,レトモニケ,Flestik,0,Branch,30,???,16,Go to 16
+12,*,8,レトモニケ,Flestik,0,Branch,24,???,16,Go to 16
+13,*,8,レトモニケ,Flestik,0,Branch,30,???,9,Go to 9
+14,*,8,レトモニケ,Flestik,1,Action,550,Attack,1,Same PC
+15,*,8,レトモニケ,Flestik,1,Action,551,Guard,-1,None
+16,*,8,レトモニケ,Flestik,1,Action,552,Run,-1,None
+1,*,9,レイチア,Basallish,0,Branch,44,???,3,Go to 3
+2,*,9,レイチア,Basallish,0,Branch,30,???,4,Go to 4
+3,*,9,レイチア,Basallish,0,Branch,29,???,16,Go to 16
+4,*,9,レイチア,Basallish,0,Branch,2,???,12,Go to 12
+5,*,9,レイチア,Basallish,0,Branch,4,???,7,Go to 7
+6,*,9,レイチア,Basallish,0,Branch,30,???,9,Go to 9
+7,*,9,レイチア,Basallish,0,Branch,29,???,14,Go to 14
+8,*,9,レイチア,Basallish,0,Branch,30,???,16,Go to 16
+9,*,9,レイチア,Basallish,0,Branch,27,???,14,Go to 14
+10,*,9,レイチア,Basallish,0,Branch,24,???,15,Go to 15
+11,*,9,レイチア,Basallish,0,Branch,30,???,16,Go to 16
+12,*,9,レイチア,Basallish,0,Branch,25,???,16,Go to 16
+13,*,9,レイチア,Basallish,0,Branch,30,???,9,Go to 9
+14,*,9,レイチア,Basallish,1,Action,550,Attack,1,Same PC
+15,*,9,レイチア,Basallish,1,Action,551,Guard,-1,None
+16,*,9,レイチア,Basallish,1,Action,552,Run,-1,None
+1,*,10,カイライ,Mind Stealer,0,Branch,21,???,3,Go to 3
+2,*,10,カイライ,Mind Stealer,1,Action,550,Attack,1,Same PC
+3,*,10,カイライ,Mind Stealer,1,Action,551,Guard,-1,None
+1,*,11,フォカラルガ,Walrenk,0,Branch,33,???,3,Go to 3
+2,*,11,フォカラルガ,Walrenk,0,Branch,22,???,9,Go to 9
+3,*,11,フォカラルガ,Walrenk,0,Branch,35,???,5,Go to 5
+4,*,11,フォカラルガ,Walrenk,0,Branch,22,???,8,Go to 8
+5,*,11,フォカラルガ,Walrenk,0,Branch,21,???,7,Go to 7
+6,*,11,フォカラルガ,Walrenk,1,Action,550,Attack,2,Random PC
+7,*,11,フォカラルガ,Walrenk,1,Action,551,Guard,-1,None
+8,*,11,フォカラルガ,Walrenk,1,Action,503,Panika,14,PC w/o Confusion
+9,*,11,フォカラルガ,Walrenk,1,Action,527,Crystales,2,Random PC
+1,*,12,ギジェリガー,Varkris,0,Branch,44,???,3,Go to 3
+2,*,12,ギジェリガー,Varkris,0,Branch,30,???,4,Go to 4
+3,*,12,ギジェリガー,Varkris,0,Branch,27,???,28,Go to 28
+4,*,12,ギジェリガー,Varkris,0,Branch,17,???,20,Go to 20
+5,*,12,ギジェリガー,Varkris,0,Branch,36,???,16,Go to 16
+6,*,12,ギジェリガー,Varkris,0,Branch,11,???,8,Go to 8
+7,*,12,ギジェリガー,Varkris,0,Branch,30,???,9,Go to 9
+8,*,12,ギジェリガー,Varkris,0,Branch,23,???,24,Go to 24
+9,*,12,ギジェリガー,Varkris,0,Branch,12,???,11,Go to 11
+10,*,12,ギジェリガー,Varkris,0,Branch,30,???,12,Go to 12
+11,*,12,ギジェリガー,Varkris,0,Branch,21,???,24,Go to 24
+12,*,12,ギジェリガー,Varkris,0,Branch,22,???,25,Go to 25
+13,*,12,ギジェリガー,Varkris,0,Branch,27,???,23,Go to 23
+14,*,12,ギジェリガー,Varkris,0,Branch,25,???,26,Go to 26
+15,*,12,ギジェリガー,Varkris,0,Branch,30,???,27,Go to 27
+16,*,12,ギジェリガー,Varkris,0,Branch,25,???,23,Go to 23
+17,*,12,ギジェリガー,Varkris,0,Branch,24,???,26,Go to 26
+18,*,12,ギジェリガー,Varkris,0,Branch,26,???,27,Go to 27
+19,*,12,ギジェリガー,Varkris,0,Branch,30,???,28,Go to 28
+20,*,12,ギジェリガー,Varkris,0,Branch,24,???,26,Go to 26
+21,*,12,ギジェリガー,Varkris,0,Branch,25,???,27,Go to 27
+22,*,12,ギジェリガー,Varkris,0,Branch,30,???,28,Go to 28
+23,*,12,ギジェリガー,Varkris,1,Action,550,Attack,2,Random PC
+24,*,12,ギジェリガー,Varkris,1,Action,513,Quika,-1,None
+25,*,12,ギジェリガー,Varkris,1,Action,512,Slipara,16,PC w/o Sleep
+26,*,12,ギジェリガー,Varkris,1,Action,62,Call Allies,-1,None
+27,*,12,ギジェリガー,Varkris,1,Action,107,Call Allies,-1,None
+28,*,12,ギジェリガー,Varkris,1,Action,552,Run,-1,None
+1,*,13,アスフール,Azbeth,0,Branch,44,???,3,Go to 3
+2,*,13,アスフール,Azbeth,0,Branch,30,???,4,Go to 4
+3,*,13,アスフール,Azbeth,0,Branch,27,???,15,Go to 15
+4,*,13,アスフール,Azbeth,0,Branch,25,???,13,Go to 13
+5,*,13,アスフール,Azbeth,0,Branch,24,???,8,Go to 8
+6,*,13,アスフール,Azbeth,0,Branch,27,???,11,Go to 11
+7,*,13,アスフール,Azbeth,0,Branch,30,???,14,Go to 14
+8,*,13,アスフール,Azbeth,0,Branch,25,???,16,Go to 16
+9,*,13,アスフール,Azbeth,0,Branch,24,???,17,Go to 17
+10,*,13,アスフール,Azbeth,0,Branch,30,???,18,Go to 18
+11,*,13,アスフール,Azbeth,0,Branch,35,???,20,Go to 20
+12,*,13,アスフール,Azbeth,0,Branch,30,???,19,Go to 19
+13,*,13,アスフール,Azbeth,1,Action,550,Attack,2,Random PC
+14,*,13,アスフール,Azbeth,1,Action,551,Guard,-1,None
+15,*,13,アスフール,Azbeth,1,Action,552,Run,-1,None
+16,*,13,アスフール,Azbeth,1,Action,200,Call Allies,-1,None
+17,*,13,アスフール,Azbeth,1,Action,201,Call Allies,-1,None
+18,*,13,アスフール,Azbeth,1,Action,108,Call Allies,-1,None
+19,*,13,アスフール,Azbeth,1,Action,517,Eterni,2,Random PC
+20,*,13,アスフール,Azbeth,1,Action,100,Magic?,-1,None
+1,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,11,???,4,Go to 4
+2,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,12,???,6,Go to 6
+3,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,8,Go to 8
+4,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+5,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+6,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,14,Go to 14
+7,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+8,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,11,Go to 11
+9,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,23,???,14,Go to 14
+10,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+11,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+12,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,26,???,15,Go to 15
+13,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,16,Go to 16
+14,*,14,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+15,*,14,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
+16,*,14,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
+1,*,15,ヌール,Ghastling,0,Branch,44,???,3,Go to 3
+2,*,15,ヌール,Ghastling,0,Branch,30,???,4,Go to 4
+3,*,15,ヌール,Ghastling,0,Branch,28,???,16,Go to 16
+4,*,15,ヌール,Ghastling,0,Branch,0,???,7,Go to 7
+5,*,15,ヌール,Ghastling,0,Branch,46,???,7,Go to 7
+6,*,15,ヌール,Ghastling,0,Branch,29,???,15,Go to 15
+7,*,15,ヌール,Ghastling,0,Branch,9,???,11,Go to 11
+8,*,15,ヌール,Ghastling,0,Branch,27,???,14,Go to 14
+9,*,15,ヌール,Ghastling,0,Branch,28,???,16,Go to 16
+10,*,15,ヌール,Ghastling,0,Branch,30,???,17,Go to 17
+11,*,15,ヌール,Ghastling,0,Branch,27,???,14,Go to 14
+12,*,15,ヌール,Ghastling,0,Branch,28,???,15,Go to 15
+13,*,15,ヌール,Ghastling,0,Branch,30,???,17,Go to 17
+14,*,15,ヌール,Ghastling,1,Action,550,Attack,1,Same PC
+15,*,15,ヌール,Ghastling,1,Action,210,HP Absorb,3,PC w/ Most HP
+16,*,15,ヌール,Ghastling,1,Action,552,Run,-1,None
+17,*,15,ヌール,Ghastling,1,Action,551,Guard,-1,None
+1,*,16,モクズ,Florast,0,Branch,45,???,3,Go to 3
+2,*,16,モクズ,Florast,0,Branch,30,???,4,Go to 4
+3,*,16,モクズ,Florast,0,Branch,26,???,16,Go to 16
+4,*,16,モクズ,Florast,0,Branch,44,???,6,Go to 6
+5,*,16,モクズ,Florast,0,Branch,30,???,7,Go to 7
+6,*,16,モクズ,Florast,0,Branch,23,???,16,Go to 16
+7,*,16,モクズ,Florast,0,Branch,11,???,10,Go to 10
+8,*,16,モクズ,Florast,0,Branch,12,???,10,Go to 10
+9,*,16,モクズ,Florast,0,Branch,30,???,12,Go to 12
+10,*,16,モクズ,Florast,0,Branch,22,???,17,Go to 17
+11,*,16,モクズ,Florast,0,Branch,22,???,18,Go to 18
+12,*,16,モクズ,Florast,0,Branch,27,???,15,Go to 15
+13,*,16,モクズ,Florast,0,Branch,25,???,19,Go to 19
+14,*,16,モクズ,Florast,0,Branch,30,???,20,Go to 20
+15,*,16,モクズ,Florast,1,Action,550,Attack,2,Random PC
+16,*,16,モクズ,Florast,1,Action,552,Run,-1,None
+17,*,16,モクズ,Florast,1,Action,504,Driln,17,PC w/o Weak
+18,*,16,モクズ,Florast,1,Action,511,Noxus,-1,None
+19,*,16,モクズ,Florast,1,Action,100,Magic?,-1,None
+20,*,16,モクズ,Florast,1,Action,551,Guard,-1,None
+1,*,17,ツィツィ,Tsirat,0,Branch,44,???,3,Go to 3
+2,*,17,ツィツィ,Tsirat,0,Branch,30,???,4,Go to 4
+3,*,17,ツィツィ,Tsirat,0,Branch,24,???,12,Go to 12
+4,*,17,ツィツィ,Tsirat,0,Branch,0,???,7,Go to 7
+5,*,17,ツィツィ,Tsirat,0,Branch,46,???,7,Go to 7
+6,*,17,ツィツィ,Tsirat,0,Branch,25,???,13,Go to 13
+7,*,17,ツィツィ,Tsirat,0,Branch,33,???,9,Go to 9
+8,*,17,ツィツィ,Tsirat,0,Branch,24,???,14,Go to 14
+9,*,17,ツィツィ,Tsirat,0,Branch,21,???,12,Go to 12
+10,*,17,ツィツィ,Tsirat,0,Branch,21,???,15,Go to 15
+11,*,17,ツィツィ,Tsirat,1,Action,550,Attack,2,Random PC
+12,*,17,ツィツィ,Tsirat,1,Action,552,Run,-1,None
+13,*,17,ツィツィ,Tsirat,1,Action,211,HP Absorb,3,PC w/ Most HP
+14,*,17,ツィツィ,Tsirat,1,Action,532,Electri,2,Random PC
+15,*,17,ツィツィ,Tsirat,1,Action,551,Guard,-1,None
+1,*,18,セベスク,Thorkyn,0,Branch,44,???,3,Go to 3
+2,*,18,セベスク,Thorkyn,0,Branch,30,???,4,Go to 4
+3,*,18,セベスク,Thorkyn,0,Branch,24,???,13,Go to 13
+4,*,18,セベスク,Thorkyn,0,Branch,40,???,15,Go to 15
+5,*,18,セベスク,Thorkyn,0,Branch,11,???,7,Go to 7
+6,*,18,セベスク,Thorkyn,0,Branch,30,???,8,Go to 8
+7,*,18,セベスク,Thorkyn,0,Branch,25,???,14,Go to 14
+8,*,18,セベスク,Thorkyn,0,Branch,27,???,11,Go to 11
+9,*,18,セベスク,Thorkyn,0,Branch,27,???,12,Go to 12
+10,*,18,セベスク,Thorkyn,0,Branch,30,???,13,Go to 13
+11,*,18,セベスク,Thorkyn,1,Action,550,Attack,2,Random PC
+12,*,18,セベスク,Thorkyn,1,Action,551,Guard,-1,None
+13,*,18,セベスク,Thorkyn,1,Action,552,Run,-1,None
+14,*,18,セベスク,Thorkyn,1,Action,20,Gather Strength,-1,None
+15,*,18,セベスク,Thorkyn,1,Action,170,Needle Storm,2,Random PC
+1,*,19,ユールマラー,Scorfly,0,Branch,45,???,3,Go to 3
+2,*,19,ユールマラー,Scorfly,0,Branch,30,???,4,Go to 4
+3,*,19,ユールマラー,Scorfly,0,Branch,24,???,7,Go to 7
+4,*,19,ユールマラー,Scorfly,0,Branch,21,???,7,Go to 7
+5,*,19,ユールマラー,Scorfly,0,Branch,21,???,8,Go to 8
+6,*,19,ユールマラー,Scorfly,1,Action,550,Attack,1,Same PC
+7,*,19,ユールマラー,Scorfly,1,Action,552,Run,-1,None
+8,*,19,ユールマラー,Scorfly,1,Action,551,Guard,-1,None
+1,*,20,イルドゥス,Centralk,0,Branch,44,???,3,Go to 3
+2,*,20,イルドゥス,Centralk,0,Branch,30,???,4,Go to 4
+3,*,20,イルドゥス,Centralk,0,Branch,28,???,16,Go to 16
+4,*,20,イルドゥス,Centralk,0,Branch,2,???,12,Go to 12
+5,*,20,イルドゥス,Centralk,0,Branch,4,???,7,Go to 7
+6,*,20,イルドゥス,Centralk,0,Branch,30,???,9,Go to 9
+7,*,20,イルドゥス,Centralk,0,Branch,28,???,14,Go to 14
+8,*,20,イルドゥス,Centralk,0,Branch,30,???,15,Go to 15
+9,*,20,イルドゥス,Centralk,0,Branch,26,???,14,Go to 14
+10,*,20,イルドゥス,Centralk,0,Branch,26,???,15,Go to 15
+11,*,20,イルドゥス,Centralk,0,Branch,30,???,16,Go to 16
+12,*,20,イルドゥス,Centralk,0,Branch,24,???,16,Go to 16
+13,*,20,イルドゥス,Centralk,0,Branch,30,???,9,Go to 9
+14,*,20,イルドゥス,Centralk,1,Action,550,Attack,1,Same PC
+15,*,20,イルドゥス,Centralk,1,Action,551,Guard,-1,None
+16,*,20,イルドゥス,Centralk,1,Action,552,Run,-1,None
+1,*,21,ベルクロード,Feralisk,0,Branch,36,???,9,Go to 9
+2,*,21,ベルクロード,Feralisk,0,Branch,11,???,4,Go to 4
+3,*,21,ベルクロード,Feralisk,0,Branch,30,???,5,Go to 5
+4,*,21,ベルクロード,Feralisk,0,Branch,22,???,15,Go to 15
+5,*,21,ベルクロード,Feralisk,0,Branch,12,???,7,Go to 7
+6,*,21,ベルクロード,Feralisk,0,Branch,30,???,8,Go to 8
+7,*,21,ベルクロード,Feralisk,0,Branch,21,???,15,Go to 15
+8,*,21,ベルクロード,Feralisk,0,Branch,22,???,16,Go to 16
+9,*,21,ベルクロード,Feralisk,0,Branch,27,???,13,Go to 13
+10,*,21,ベルクロード,Feralisk,0,Branch,25,???,14,Go to 14
+11,*,21,ベルクロード,Feralisk,0,Branch,25,???,17,Go to 17
+12,*,21,ベルクロード,Feralisk,0,Branch,30,???,18,Go to 18
+13,*,21,ベルクロード,Feralisk,1,Action,550,Attack,2,Random PC
+14,*,21,ベルクロード,Feralisk,1,Action,551,Guard,-1,None
+15,*,21,ベルクロード,Feralisk,1,Action,501,Incremus,-1,None
+16,*,21,ベルクロード,Feralisk,1,Action,510,Noxi,16,PC w/o Sleep
+17,*,21,ベルクロード,Feralisk,1,Action,88,Call Allies,-1,None
+18,*,21,ベルクロード,Feralisk,1,Action,115,Call Allies,-1,None
+1,*,22,ベルハウンド,Ferlith,0,Branch,36,???,9,Go to 9
+2,*,22,ベルハウンド,Ferlith,0,Branch,11,???,4,Go to 4
+3,*,22,ベルハウンド,Ferlith,0,Branch,30,???,5,Go to 5
+4,*,22,ベルハウンド,Ferlith,0,Branch,22,???,15,Go to 15
+5,*,22,ベルハウンド,Ferlith,0,Branch,12,???,7,Go to 7
+6,*,22,ベルハウンド,Ferlith,0,Branch,30,???,8,Go to 8
+7,*,22,ベルハウンド,Ferlith,0,Branch,21,???,15,Go to 15
+8,*,22,ベルハウンド,Ferlith,0,Branch,22,???,16,Go to 16
+9,*,22,ベルハウンド,Ferlith,0,Branch,27,???,13,Go to 13
+10,*,22,ベルハウンド,Ferlith,0,Branch,25,???,14,Go to 14
+11,*,22,ベルハウンド,Ferlith,0,Branch,25,???,17,Go to 17
+12,*,22,ベルハウンド,Ferlith,0,Branch,30,???,18,Go to 18
+13,*,22,ベルハウンド,Ferlith,1,Action,550,Attack,2,Random PC
+14,*,22,ベルハウンド,Ferlith,1,Action,551,Guard,-1,None
+15,*,22,ベルハウンド,Ferlith,1,Action,501,Incremus,-1,None
+16,*,22,ベルハウンド,Ferlith,1,Action,510,Noxi,16,PC w/o Sleep
+17,*,22,ベルハウンド,Ferlith,1,Action,89,Call Allies,-1,None
+18,*,22,ベルハウンド,Ferlith,1,Action,115,Call Allies,-1,None
+1,*,23,ガトー,Crylhound,0,Branch,45,???,3,Go to 3
+2,*,23,ガトー,Crylhound,0,Branch,30,???,4,Go to 4
+3,*,23,ガトー,Crylhound,0,Branch,26,???,13,Go to 13
+4,*,23,ガトー,Crylhound,0,Branch,44,???,6,Go to 6
+5,*,23,ガトー,Crylhound,0,Branch,30,???,7,Go to 7
+6,*,23,ガトー,Crylhound,0,Branch,23,???,13,Go to 13
+7,*,23,ガトー,Crylhound,0,Branch,11,???,10,Go to 10
+8,*,23,ガトー,Crylhound,0,Branch,29,???,12,Go to 12
+9,*,23,ガトー,Crylhound,0,Branch,30,???,13,Go to 13
+10,*,23,ガトー,Crylhound,0,Branch,23,???,14,Go to 14
+11,*,23,ガトー,Crylhound,0,Branch,21,???,15,Go to 15
+12,*,23,ガトー,Crylhound,1,Action,550,Attack,2,Random PC
+13,*,23,ガトー,Crylhound,1,Action,552,Run,-1,None
+14,*,23,ガトー,Crylhound,1,Action,513,Quika,-1,None
+15,*,23,ガトー,Crylhound,1,Action,551,Guard,-1,None
+1,*,24,デシェレト,Magma Tiki,0,Branch,41,???,9,Go to 9
+2,*,24,デシェレト,Magma Tiki,0,Branch,2,???,7,Go to 7
+3,*,24,デシェレト,Magma Tiki,0,Branch,5,???,8,Go to 8
+4,*,24,デシェレト,Magma Tiki,0,Branch,1,???,8,Go to 8
+5,*,24,デシェレト,Magma Tiki,0,Branch,24,???,8,Go to 8
+6,*,24,デシェレト,Magma Tiki,0,Branch,21,???,10,Go to 10
+7,*,24,デシェレト,Magma Tiki,1,Action,550,Attack,1,Same PC
+8,*,24,デシェレト,Magma Tiki,1,Action,47,Tremble,-1,None
+9,*,24,デシェレト,Magma Tiki,1,Action,180,Lava Storm,1,Same PC
+10,*,24,デシェレト,Magma Tiki,1,Action,551,Guard,-1,None
+1,*,25,イアールト,Salamander,0,Branch,33,???,5,Go to 5
+2,*,25,イアールト,Salamander,0,Branch,28,???,9,Go to 9
+3,*,25,イアールト,Salamander,0,Branch,25,???,10,Go to 10
+4,*,25,イアールト,Salamander,0,Branch,30,???,13,Go to 13
+5,*,25,イアールト,Salamander,0,Branch,26,???,9,Go to 9
+6,*,25,イアールト,Salamander,0,Branch,25,???,11,Go to 11
+7,*,25,イアールト,Salamander,0,Branch,25,???,13,Go to 13
+8,*,25,イアールト,Salamander,0,Branch,30,???,12,Go to 12
+9,*,25,イアールト,Salamander,1,Action,550,Attack,2,Random PC
+10,*,25,イアールト,Salamander,1,Action,523,Pyri,-1,None
+11,*,25,イアールト,Salamander,1,Action,100,Magic?,-1,None
+12,*,25,イアールト,Salamander,1,Action,552,Run,-1,None
+13,*,25,イアールト,Salamander,1,Action,551,Guard,-1,None
+1,*,26,パラミス,Baroo,0,Branch,44,???,3,Go to 3
+2,*,26,パラミス,Baroo,0,Branch,30,???,4,Go to 4
+3,*,26,パラミス,Baroo,0,Branch,29,???,16,Go to 16
+4,*,26,パラミス,Baroo,0,Branch,2,???,12,Go to 12
+5,*,26,パラミス,Baroo,0,Branch,4,???,7,Go to 7
+6,*,26,パラミス,Baroo,0,Branch,30,???,9,Go to 9
+7,*,26,パラミス,Baroo,0,Branch,29,???,14,Go to 14
+8,*,26,パラミス,Baroo,0,Branch,30,???,16,Go to 16
+9,*,26,パラミス,Baroo,0,Branch,27,???,14,Go to 14
+10,*,26,パラミス,Baroo,0,Branch,24,???,15,Go to 15
+11,*,26,パラミス,Baroo,0,Branch,30,???,16,Go to 16
+12,*,26,パラミス,Baroo,0,Branch,25,???,16,Go to 16
+13,*,26,パラミス,Baroo,0,Branch,30,???,9,Go to 9
+14,*,26,パラミス,Baroo,1,Action,550,Attack,1,Same PC
+15,*,26,パラミス,Baroo,1,Action,551,Guard,-1,None
+16,*,26,パラミス,Baroo,1,Action,552,Run,-1,None
+1,*,27,コロガス,Dung Fly,0,Branch,17,???,15,Go to 15
+2,*,27,コロガス,Dung Fly,0,Branch,36,???,10,Go to 10
+3,*,27,コロガス,Dung Fly,0,Branch,22,???,19,Go to 19
+4,*,27,コロガス,Dung Fly,0,Branch,23,???,20,Go to 20
+5,*,27,コロガス,Dung Fly,0,Branch,24,???,18,Go to 18
+6,*,27,コロガス,Dung Fly,0,Branch,24,???,21,Go to 21
+7,*,27,コロガス,Dung Fly,0,Branch,24,???,22,Go to 22
+8,*,27,コロガス,Dung Fly,0,Branch,25,???,23,Go to 23
+9,*,27,コロガス,Dung Fly,0,Branch,30,???,24,Go to 24
+10,*,27,コロガス,Dung Fly,0,Branch,25,???,18,Go to 18
+11,*,27,コロガス,Dung Fly,0,Branch,24,???,21,Go to 21
+12,*,27,コロガス,Dung Fly,0,Branch,26,???,22,Go to 22
+13,*,27,コロガス,Dung Fly,0,Branch,25,???,23,Go to 23
+14,*,27,コロガス,Dung Fly,0,Branch,30,???,24,Go to 24
+15,*,27,コロガス,Dung Fly,0,Branch,24,???,21,Go to 21
+16,*,27,コロガス,Dung Fly,0,Branch,25,???,22,Go to 22
+17,*,27,コロガス,Dung Fly,0,Branch,30,???,23,Go to 23
+18,*,27,コロガス,Dung Fly,1,Action,550,Attack,2,Random PC
+19,*,27,コロガス,Dung Fly,1,Action,504,Driln,17,PC w/o Weak
+20,*,27,コロガス,Dung Fly,1,Action,512,Slipara,16,PC w/o Sleep
+21,*,27,コロガス,Dung Fly,1,Action,28,Call Allies,-1,None
+22,*,27,コロガス,Dung Fly,1,Action,110,Call Allies,-1,None
+23,*,27,コロガス,Dung Fly,1,Action,552,Run,-1,None
+24,*,27,コロガス,Dung Fly,1,Action,551,Guard,-1,None
+1,*,28,マータ,Death's Head,0,Branch,26,???,4,Go to 4
+2,*,28,マータ,Death's Head,0,Branch,28,???,5,Go to 5
+3,*,28,マータ,Death's Head,0,Branch,30,???,6,Go to 6
+4,*,28,マータ,Death's Head,1,Action,550,Attack,1,Same PC
+5,*,28,マータ,Death's Head,1,Action,15,Stone Breath,13,PC w/o Stone
+6,*,28,マータ,Death's Head,1,Action,551,Guard,-1,None
+1,*,29,エルモ,Looper,0,Branch,1,???,9,Go to 9
+2,*,29,エルモ,Looper,0,Branch,25,???,9,Go to 9
+3,*,29,エルモ,Looper,0,Branch,24,???,7,Go to 7
+4,*,29,エルモ,Looper,0,Branch,23,???,8,Go to 8
+5,*,29,エルモ,Looper,0,Branch,33,???,11,Go to 11
+6,*,29,エルモ,Looper,0,Branch,30,???,10,Go to 10
+7,*,29,エルモ,Looper,1,Action,550,Attack,2,Random PC
+8,*,29,エルモ,Looper,1,Action,551,Guard,-1,None
+9,*,29,エルモ,Looper,1,Action,552,Run,-1,None
+10,*,29,エルモ,Looper,1,Action,523,Pyri,-1,None
+11,*,29,エルモ,Looper,1,Action,100,Magic?,-1,None
+1,*,30,エルモック,Loopalon,0,Branch,1,???,11,Go to 11
+2,*,30,エルモック,Loopalon,0,Branch,25,???,11,Go to 11
+3,*,30,エルモック,Loopalon,0,Branch,11,???,5,Go to 5
+4,*,30,エルモック,Loopalon,0,Branch,30,???,6,Go to 6
+5,*,30,エルモック,Loopalon,0,Branch,25,???,12,Go to 12
+6,*,30,エルモック,Loopalon,0,Branch,25,???,9,Go to 9
+7,*,30,エルモック,Loopalon,0,Branch,25,???,10,Go to 10
+8,*,30,エルモック,Loopalon,0,Branch,30,???,13,Go to 13
+9,*,30,エルモック,Loopalon,1,Action,550,Attack,2,Random PC
+10,*,30,エルモック,Loopalon,1,Action,551,Guard,-1,None
+11,*,30,エルモック,Loopalon,1,Action,552,Run,-1,None
+12,*,30,エルモック,Loopalon,1,Action,500,Increm,11,EC w/o Strengthen
+13,*,30,エルモック,Loopalon,1,Action,100,Magic?,-1,None
+1,*,31,ヘムヘム,Tsurak,0,Branch,44,???,3,Go to 3
+2,*,31,ヘムヘム,Tsurak,0,Branch,30,???,4,Go to 4
+3,*,31,ヘムヘム,Tsurak,0,Branch,28,???,16,Go to 16
+4,*,31,ヘムヘム,Tsurak,0,Branch,17,???,10,Go to 10
+5,*,31,ヘムヘム,Tsurak,0,Branch,25,???,13,Go to 13
+6,*,31,ヘムヘム,Tsurak,0,Branch,25,???,14,Go to 14
+7,*,31,ヘムヘム,Tsurak,0,Branch,26,???,15,Go to 15
+8,*,31,ヘムヘム,Tsurak,0,Branch,25,???,16,Go to 16
+9,*,31,ヘムヘム,Tsurak,0,Branch,30,???,17,Go to 17
+10,*,31,ヘムヘム,Tsurak,0,Branch,25,???,14,Go to 14
+11,*,31,ヘムヘム,Tsurak,0,Branch,25,???,15,Go to 15
+12,*,31,ヘムヘム,Tsurak,0,Branch,30,???,16,Go to 16
+13,*,31,ヘムヘム,Tsurak,1,Action,550,Attack,2,Random PC
+14,*,31,ヘムヘム,Tsurak,1,Action,29,Call Allies,-1,None
+15,*,31,ヘムヘム,Tsurak,1,Action,98,Call Allies,-1,None
+16,*,31,ヘムヘム,Tsurak,1,Action,552,Run,-1,None
+17,*,31,ヘムヘム,Tsurak,1,Action,551,Guard,-1,None
+1,*,32,調査兵,Enforcer,0,Branch,21,???,5,Go to 5
+2,*,32,調査兵,Enforcer,0,Branch,23,???,4,Go to 4
+3,*,32,調査兵,Enforcer,1,Action,550,Attack,2,Random PC
+4,*,32,調査兵,Enforcer,1,Action,70,Grenade,2,Random PC
+5,*,32,調査兵,Enforcer,1,Action,551,Guard,-1,None
+1,*,33,ガランガラン,Serpentis,0,Branch,34,???,3,Go to 3
+2,*,33,ガランガラン,Serpentis,0,Branch,22,???,7,Go to 7
+3,*,33,ガランガラン,Serpentis,0,Branch,26,???,6,Go to 6
+4,*,33,ガランガラン,Serpentis,0,Branch,28,???,8,Go to 8
+5,*,33,ガランガラン,Serpentis,0,Branch,30,???,9,Go to 9
+6,*,33,ガランガラン,Serpentis,1,Action,550,Attack,2,Random PC
+7,*,33,ガランガラン,Serpentis,1,Action,524,Pyres,-1,None
+8,*,33,ガランガラン,Serpentis,1,Action,40,Terrible Bite,1,Same PC
+9,*,33,ガランガラン,Serpentis,1,Action,551,Guard,-1,None
+1,*,34,マブルール,Dralnog,0,Branch,44,???,3,Go to 3
+2,*,34,マブルール,Dralnog,0,Branch,30,???,4,Go to 4
+3,*,34,マブルール,Dralnog,0,Branch,26,???,17,Go to 17
+4,*,34,マブルール,Dralnog,0,Branch,2,???,6,Go to 6
+5,*,34,マブルール,Dralnog,0,Branch,30,???,7,Go to 7
+6,*,34,マブルール,Dralnog,0,Branch,28,???,18,Go to 18
+7,*,34,マブルール,Dralnog,0,Branch,1,???,9,Go to 9
+8,*,34,マブルール,Dralnog,0,Branch,30,???,10,Go to 10
+9,*,34,マブルール,Dralnog,0,Branch,24,???,18,Go to 18
+10,*,34,マブルール,Dralnog,0,Branch,35,???,12,Go to 12
+11,*,34,マブルール,Dralnog,0,Branch,22,???,19,Go to 19
+12,*,34,マブルール,Dralnog,0,Branch,22,???,18,Go to 18
+13,*,34,マブルール,Dralnog,0,Branch,27,???,16,Go to 16
+14,*,34,マブルール,Dralnog,0,Branch,26,???,20,Go to 20
+15,*,34,マブルール,Dralnog,0,Branch,30,???,17,Go to 17
+16,*,34,マブルール,Dralnog,1,Action,550,Attack,2,Random PC
+17,*,34,マブルール,Dralnog,1,Action,552,Run,-1,None
+18,*,34,マブルール,Dralnog,1,Action,271,Poison Explode,-1,None
+19,*,34,マブルール,Dralnog,1,Action,517,Eterni,1,Same PC
+20,*,34,マブルール,Dralnog,1,Action,100,Magic?,-1,None
+1,*,35,クチュ,Que'lak,0,Branch,45,???,3,Go to 3
+2,*,35,クチュ,Que'lak,0,Branch,30,???,4,Go to 4
+3,*,35,クチュ,Que'lak,0,Branch,28,???,15,Go to 15
+4,*,35,クチュ,Que'lak,0,Branch,32,???,8,Go to 8
+5,*,35,クチュ,Que'lak,0,Branch,38,???,7,Go to 7
+6,*,35,クチュ,Que'lak,0,Branch,30,???,8,Go to 8
+7,*,35,クチュ,Que'lak,0,Branch,24,???,13,Go to 13
+8,*,35,クチュ,Que'lak,0,Branch,21,???,14,Go to 14
+9,*,35,クチュ,Que'lak,0,Branch,34,???,11,Go to 11
+10,*,35,クチュ,Que'lak,0,Branch,23,???,12,Go to 12
+11,*,35,クチュ,Que'lak,1,Action,550,Attack,2,Random PC
+12,*,35,クチュ,Que'lak,1,Action,524,Pyres,-1,None
+13,*,35,クチュ,Que'lak,1,Action,506,Sacri,7,Injured EC
+14,*,35,クチュ,Que'lak,1,Action,551,Guard,-1,None
+15,*,35,クチュ,Que'lak,1,Action,552,Run,-1,None
+1,*,36,ソピローテ,Pinalisk,0,Branch,44,???,3,Go to 3
+2,*,36,ソピローテ,Pinalisk,0,Branch,30,???,4,Go to 4
+3,*,36,ソピローテ,Pinalisk,0,Branch,27,???,8,Go to 8
+4,*,36,ソピローテ,Pinalisk,0,Branch,26,???,7,Go to 7
+5,*,36,ソピローテ,Pinalisk,0,Branch,28,???,9,Go to 9
+6,*,36,ソピローテ,Pinalisk,0,Branch,30,???,10,Go to 10
+7,*,36,ソピローテ,Pinalisk,1,Action,550,Attack,2,Random PC
+8,*,36,ソピローテ,Pinalisk,1,Action,552,Run,-1,None
+9,*,36,ソピローテ,Pinalisk,1,Action,92,Fatigue Breath,2,Random PC
+10,*,36,ソピローテ,Pinalisk,1,Action,551,Guard,-1,None
+1,*,37,シーサー,Crylbeast,0,Branch,45,???,3,Go to 3
+2,*,37,シーサー,Crylbeast,0,Branch,30,???,4,Go to 4
+3,*,37,シーサー,Crylbeast,0,Branch,26,???,13,Go to 13
+4,*,37,シーサー,Crylbeast,0,Branch,44,???,6,Go to 6
+5,*,37,シーサー,Crylbeast,0,Branch,30,???,7,Go to 7
+6,*,37,シーサー,Crylbeast,0,Branch,23,???,13,Go to 13
+7,*,37,シーサー,Crylbeast,0,Branch,11,???,10,Go to 10
+8,*,37,シーサー,Crylbeast,0,Branch,29,???,12,Go to 12
+9,*,37,シーサー,Crylbeast,0,Branch,30,???,13,Go to 13
+10,*,37,シーサー,Crylbeast,0,Branch,23,???,14,Go to 14
+11,*,37,シーサー,Crylbeast,0,Branch,21,???,15,Go to 15
+12,*,37,シーサー,Crylbeast,1,Action,550,Attack,2,Random PC
+13,*,37,シーサー,Crylbeast,1,Action,552,Run,-1,None
+14,*,37,シーサー,Crylbeast,1,Action,513,Quika,-1,None
+15,*,37,シーサー,Crylbeast,1,Action,551,Guard,-1,None
+1,*,38,レジボン,Slothstra,0,Branch,44,???,5,Go to 5
+2,*,38,レジボン,Slothstra,0,Branch,1,???,4,Go to 4
+3,*,38,レジボン,Slothstra,0,Branch,30,???,5,Go to 5
+4,*,38,レジボン,Slothstra,0,Branch,25,???,10,Go to 10
+5,*,38,レジボン,Slothstra,0,Branch,21,???,11,Go to 11
+6,*,38,レジボン,Slothstra,0,Branch,50,???,8,Go to 8
+7,*,38,レジボン,Slothstra,0,Branch,24,???,9,Go to 9
+8,*,38,レジボン,Slothstra,1,Action,550,Attack,2,Random PC
+9,*,38,レジボン,Slothstra,1,Action,260,Quake,-1,None
+10,*,38,レジボン,Slothstra,1,Action,41,Deep Sleep,22,Self
+11,*,38,レジボン,Slothstra,1,Action,551,Guard,-1,None
+1,*,39,ミラドール,Polraxis,0,Branch,21,???,3,Go to 3
+2,*,39,ミラドール,Polraxis,1,Action,550,Attack,1,Same PC
+3,*,39,ミラドール,Polraxis,1,Action,551,Guard,-1,None
+1,*,40,ラフレシア,Roseln,0,Branch,50,???,5,Go to 5
+2,*,40,ラフレシア,Roseln,0,Branch,25,???,7,Go to 7
+3,*,40,ラフレシア,Roseln,0,Branch,26,???,9,Go to 9
+4,*,40,ラフレシア,Roseln,0,Branch,30,???,10,Go to 10
+5,*,40,ラフレシア,Roseln,0,Branch,28,???,7,Go to 7
+6,*,40,ラフレシア,Roseln,0,Branch,30,???,8,Go to 8
+7,*,40,ラフレシア,Roseln,1,Action,550,Attack,2,Random PC
+8,*,40,ラフレシア,Roseln,1,Action,551,Guard,-1,None
+9,*,40,ラフレシア,Roseln,1,Action,26,Death Blossom,2,Random PC
+10,*,40,ラフレシア,Roseln,1,Action,191,Slumber Dust,-1,None
+1,*,41,エルモンテ,Elooper,0,Branch,1,???,10,Go to 10
+2,*,41,エルモンテ,Elooper,0,Branch,25,???,10,Go to 10
+3,*,41,エルモンテ,Elooper,0,Branch,24,???,8,Go to 8
+4,*,41,エルモンテ,Elooper,0,Branch,23,???,9,Go to 9
+5,*,41,エルモンテ,Elooper,0,Branch,31,???,12,Go to 12
+6,*,41,エルモンテ,Elooper,0,Branch,11,???,8,Go to 8
+7,*,41,エルモンテ,Elooper,0,Branch,30,???,11,Go to 11
+8,*,41,エルモンテ,Elooper,1,Action,550,Attack,2,Random PC
+9,*,41,エルモンテ,Elooper,1,Action,551,Guard,-1,None
+10,*,41,エルモンテ,Elooper,1,Action,552,Run,-1,None
+11,*,41,エルモンテ,Elooper,1,Action,507,Sacres,7,Injured EC
+12,*,41,エルモンテ,Elooper,1,Action,100,Magic?,-1,None
+1,*,42,フードン,Grapor,0,Branch,23,???,4,Go to 4
+2,*,42,フードン,Grapor,0,Branch,21,???,5,Go to 5
+3,*,42,フードン,Grapor,1,Action,550,Attack,2,Random PC
+4,*,42,フードン,Grapor,1,Action,552,Run,-1,None
+5,*,42,フードン,Grapor,1,Action,551,Guard,-1,None
+1,*,43,フィモソマ,Sphyrus,0,Branch,11,???,5,Go to 5
+2,*,43,フィモソマ,Sphyrus,0,Branch,12,???,6,Go to 6
+3,*,43,フィモソマ,Sphyrus,0,Branch,29,???,7,Go to 7
+4,*,43,フィモソマ,Sphyrus,0,Branch,30,???,8,Go to 8
+5,*,43,フィモソマ,Sphyrus,0,Branch,23,???,9,Go to 9
+6,*,43,フィモソマ,Sphyrus,0,Branch,21,???,9,Go to 9
+7,*,43,フィモソマ,Sphyrus,1,Action,550,Attack,2,Random PC
+8,*,43,フィモソマ,Sphyrus,1,Action,551,Guard,-1,None
+9,*,43,フィモソマ,Sphyrus,1,Action,190,Damyun,-1,None
+1,*,44,プジョット,Iridzu,0,Branch,44,???,3,Go to 3
+2,*,44,プジョット,Iridzu,0,Branch,30,???,4,Go to 4
+3,*,44,プジョット,Iridzu,0,Branch,27,???,28,Go to 28
+4,*,44,プジョット,Iridzu,0,Branch,17,???,20,Go to 20
+5,*,44,プジョット,Iridzu,0,Branch,36,???,16,Go to 16
+6,*,44,プジョット,Iridzu,0,Branch,11,???,8,Go to 8
+7,*,44,プジョット,Iridzu,0,Branch,30,???,9,Go to 9
+8,*,44,プジョット,Iridzu,0,Branch,23,???,24,Go to 24
+9,*,44,プジョット,Iridzu,0,Branch,12,???,11,Go to 11
+10,*,44,プジョット,Iridzu,0,Branch,30,???,12,Go to 12
+11,*,44,プジョット,Iridzu,0,Branch,21,???,24,Go to 24
+12,*,44,プジョット,Iridzu,0,Branch,22,???,25,Go to 25
+13,*,44,プジョット,Iridzu,0,Branch,27,???,23,Go to 23
+14,*,44,プジョット,Iridzu,0,Branch,25,???,26,Go to 26
+15,*,44,プジョット,Iridzu,0,Branch,30,???,27,Go to 27
+16,*,44,プジョット,Iridzu,0,Branch,25,???,23,Go to 23
+17,*,44,プジョット,Iridzu,0,Branch,24,???,26,Go to 26
+18,*,44,プジョット,Iridzu,0,Branch,26,???,27,Go to 27
+19,*,44,プジョット,Iridzu,0,Branch,30,???,28,Go to 28
+20,*,44,プジョット,Iridzu,0,Branch,24,???,26,Go to 26
+21,*,44,プジョット,Iridzu,0,Branch,25,???,27,Go to 27
+22,*,44,プジョット,Iridzu,0,Branch,30,???,28,Go to 28
+23,*,44,プジョット,Iridzu,1,Action,550,Attack,2,Random PC
+24,*,44,プジョット,Iridzu,1,Action,513,Quika,-1,None
+25,*,44,プジョット,Iridzu,1,Action,512,Slipara,16,PC w/o Sleep
+26,*,44,プジョット,Iridzu,1,Action,87,Call Allies,-1,None
+27,*,44,プジョット,Iridzu,1,Action,107,Call Allies,-1,None
+28,*,44,プジョット,Iridzu,1,Action,552,Run,-1,None
+1,*,45,モペール,Flyst,0,Branch,45,???,3,Go to 3
+2,*,45,モペール,Flyst,0,Branch,30,???,4,Go to 4
+3,*,45,モペール,Flyst,0,Branch,26,???,16,Go to 16
+4,*,45,モペール,Flyst,0,Branch,44,???,6,Go to 6
+5,*,45,モペール,Flyst,0,Branch,30,???,7,Go to 7
+6,*,45,モペール,Flyst,0,Branch,23,???,16,Go to 16
+7,*,45,モペール,Flyst,0,Branch,11,???,10,Go to 10
+8,*,45,モペール,Flyst,0,Branch,12,???,10,Go to 10
+9,*,45,モペール,Flyst,0,Branch,30,???,12,Go to 12
+10,*,45,モペール,Flyst,0,Branch,22,???,17,Go to 17
+11,*,45,モペール,Flyst,0,Branch,23,???,18,Go to 18
+12,*,45,モペール,Flyst,0,Branch,27,???,15,Go to 15
+13,*,45,モペール,Flyst,0,Branch,25,???,19,Go to 19
+14,*,45,モペール,Flyst,0,Branch,30,???,20,Go to 20
+15,*,45,モペール,Flyst,1,Action,550,Attack,2,Random PC
+16,*,45,モペール,Flyst,1,Action,552,Run,-1,None
+17,*,45,モペール,Flyst,1,Action,504,Driln,17,PC w/o Weak
+18,*,45,モペール,Flyst,1,Action,511,Noxus,-1,None
+19,*,45,モペール,Flyst,1,Action,100,Magic?,-1,None
+20,*,45,モペール,Flyst,1,Action,551,Guard,-1,None
+1,*,46,メスカリナ,Medulizk,0,Branch,11,???,4,Go to 4
+2,*,46,メスカリナ,Medulizk,0,Branch,12,???,5,Go to 5
+3,*,46,メスカリナ,Medulizk,0,Branch,30,???,6,Go to 6
+4,*,46,メスカリナ,Medulizk,0,Branch,22,???,15,Go to 15
+5,*,46,メスカリナ,Medulizk,0,Branch,22,???,9,Go to 9
+6,*,46,メスカリナ,Medulizk,0,Branch,26,???,13,Go to 13
+7,*,46,メスカリナ,Medulizk,0,Branch,28,???,11,Go to 11
+8,*,46,メスカリナ,Medulizk,0,Branch,30,???,14,Go to 14
+9,*,46,メスカリナ,Medulizk,0,Branch,49,???,17,Go to 17
+10,*,46,メスカリナ,Medulizk,0,Branch,30,???,15,Go to 15
+11,*,46,メスカリナ,Medulizk,0,Branch,49,???,17,Go to 17
+12,*,46,メスカリナ,Medulizk,0,Branch,30,???,16,Go to 16
+13,*,46,メスカリナ,Medulizk,1,Action,550,Attack,2,Random PC
+14,*,46,メスカリナ,Medulizk,1,Action,552,Run,-1,None
+15,*,46,メスカリナ,Medulizk,1,Action,505,Drilnos,-1,None
+16,*,46,メスカリナ,Medulizk,1,Action,521,Wevles,2,Random PC
+17,*,46,メスカリナ,Medulizk,1,Action,100,Magic?,-1,None
+1,*,47,プラニナ,Lucich,0,Branch,44,???,3,Go to 3
+2,*,47,プラニナ,Lucich,0,Branch,30,???,4,Go to 4
+3,*,47,プラニナ,Lucich,0,Branch,26,???,17,Go to 17
+4,*,47,プラニナ,Lucich,0,Branch,2,???,6,Go to 6
+5,*,47,プラニナ,Lucich,0,Branch,30,???,7,Go to 7
+6,*,47,プラニナ,Lucich,0,Branch,28,???,18,Go to 18
+7,*,47,プラニナ,Lucich,0,Branch,1,???,9,Go to 9
+8,*,47,プラニナ,Lucich,0,Branch,30,???,10,Go to 10
+9,*,47,プラニナ,Lucich,0,Branch,24,???,18,Go to 18
+10,*,47,プラニナ,Lucich,0,Branch,35,???,12,Go to 12
+11,*,47,プラニナ,Lucich,0,Branch,22,???,19,Go to 19
+12,*,47,プラニナ,Lucich,0,Branch,22,???,18,Go to 18
+13,*,47,プラニナ,Lucich,0,Branch,27,???,16,Go to 16
+14,*,47,プラニナ,Lucich,0,Branch,26,???,20,Go to 20
+15,*,47,プラニナ,Lucich,0,Branch,30,???,17,Go to 17
+16,*,47,プラニナ,Lucich,1,Action,550,Attack,2,Random PC
+17,*,47,プラニナ,Lucich,1,Action,552,Run,-1,None
+18,*,47,プラニナ,Lucich,1,Action,270,Self-destruct,-1,None
+19,*,47,プラニナ,Lucich,1,Action,517,Eterni,1,Same PC
+20,*,47,プラニナ,Lucich,1,Action,100,Magic?,-1,None
+1,*,48,デ式ディガー,Digger,0,Branch,11,???,6,Go to 6
+2,*,48,デ式ディガー,Digger,0,Branch,24,???,10,Go to 10
+3,*,48,デ式ディガー,Digger,0,Branch,22,???,11,Go to 11
+4,*,48,デ式ディガー,Digger,0,Branch,25,???,12,Go to 12
+5,*,48,デ式ディガー,Digger,0,Branch,30,???,13,Go to 13
+6,*,48,デ式ディガー,Digger,0,Branch,25,???,10,Go to 10
+7,*,48,デ式ディガー,Digger,0,Branch,24,???,11,Go to 11
+8,*,48,デ式ディガー,Digger,0,Branch,27,???,12,Go to 12
+9,*,48,デ式ディガー,Digger,0,Branch,30,???,13,Go to 13
+10,*,48,デ式ディガー,Digger,1,Action,550,Attack,2,Random PC
+11,*,48,デ式ディガー,Digger,1,Action,551,Guard,-1,None
+12,*,48,デ式ディガー,Digger,1,Action,162,Fatigue Gas,18,PC w/o Fatigue
+13,*,48,デ式ディガー,Digger,1,Action,220,Rapid Fire,2,Random PC
+1,*,49,レナウト,Flat Fiend,0,Branch,11,???,6,Go to 6
+2,*,49,レナウト,Flat Fiend,0,Branch,12,???,9,Go to 9
+3,*,49,レナウト,Flat Fiend,0,Branch,28,???,11,Go to 11
+4,*,49,レナウト,Flat Fiend,0,Branch,25,???,13,Go to 13
+5,*,49,レナウト,Flat Fiend,0,Branch,30,???,15,Go to 15
+6,*,49,レナウト,Flat Fiend,0,Branch,26,???,11,Go to 11
+7,*,49,レナウト,Flat Fiend,0,Branch,25,???,12,Go to 12
+8,*,49,レナウト,Flat Fiend,0,Branch,25,???,14,Go to 14
+9,*,49,レナウト,Flat Fiend,0,Branch,23,???,11,Go to 11
+10,*,49,レナウト,Flat Fiend,0,Branch,30,???,13,Go to 13
+11,*,49,レナウト,Flat Fiend,1,Action,550,Attack,2,Random PC
+12,*,49,レナウト,Flat Fiend,1,Action,551,Guard,-1,None
+13,*,49,レナウト,Flat Fiend,1,Action,507,Sacres,7,Injured EC
+14,*,49,レナウト,Flat Fiend,1,Action,513,Quika,-1,None
+15,*,49,レナウト,Flat Fiend,1,Action,100,Magic?,-1,None
+1,*,50,ブブロッカ,Burocca,0,Branch,44,???,3,Go to 3
+2,*,50,ブブロッカ,Burocca,0,Branch,30,???,4,Go to 4
+3,*,50,ブブロッカ,Burocca,0,Branch,26,???,8,Go to 8
+4,*,50,ブブロッカ,Burocca,0,Branch,1,???,7,Go to 7
+5,*,50,ブブロッカ,Burocca,0,Branch,28,???,7,Go to 7
+6,*,50,ブブロッカ,Burocca,1,Action,551,Guard,-1,None
+7,*,50,ブブロッカ,Burocca,1,Action,550,Attack,1,Same PC
+8,*,50,ブブロッカ,Burocca,1,Action,552,Run,-1,None
+1,*,51,アイガムハ,Drogerp,0,Branch,33,???,3,Go to 3
+2,*,51,アイガムハ,Drogerp,0,Branch,22,???,10,Go to 10
+3,*,51,アイガムハ,Drogerp,0,Branch,36,???,5,Go to 5
+4,*,51,アイガムハ,Drogerp,0,Branch,22,???,9,Go to 9
+5,*,51,アイガムハ,Drogerp,0,Branch,23,???,11,Go to 11
+6,*,51,アイガムハ,Drogerp,0,Branch,22,???,8,Go to 8
+7,*,51,アイガムハ,Drogerp,1,Action,550,Attack,2,Random PC
+8,*,51,アイガムハ,Drogerp,1,Action,551,Guard,-1,None
+9,*,51,アイガムハ,Drogerp,1,Action,503,Panika,14,PC w/o Confusion
+10,*,51,アイガムハ,Drogerp,1,Action,521,Wevles,2,Random PC
+11,*,51,アイガムハ,Drogerp,1,Action,57,Eerie Wail,2,Random PC
+1,*,52,ニウニウ,Nadnarb,0,Branch,44,???,3,Go to 3
+2,*,52,ニウニウ,Nadnarb,0,Branch,30,???,4,Go to 4
+3,*,52,ニウニウ,Nadnarb,0,Branch,28,???,17,Go to 17
+4,*,52,ニウニウ,Nadnarb,0,Branch,11,???,9,Go to 9
+5,*,52,ニウニウ,Nadnarb,0,Branch,12,???,13,Go to 13
+6,*,52,ニウニウ,Nadnarb,0,Branch,23,???,15,Go to 15
+7,*,52,ニウニウ,Nadnarb,0,Branch,24,???,19,Go to 19
+8,*,52,ニウニウ,Nadnarb,0,Branch,30,???,17,Go to 17
+9,*,52,ニウニウ,Nadnarb,0,Branch,24,???,15,Go to 15
+10,*,52,ニウニウ,Nadnarb,0,Branch,22,???,16,Go to 16
+11,*,52,ニウニウ,Nadnarb,0,Branch,25,???,18,Go to 18
+12,*,52,ニウニウ,Nadnarb,0,Branch,30,???,19,Go to 19
+13,*,52,ニウニウ,Nadnarb,0,Branch,25,???,15,Go to 15
+14,*,52,ニウニウ,Nadnarb,0,Branch,30,???,19,Go to 19
+15,*,52,ニウニウ,Nadnarb,1,Action,550,Attack,2,Random PC
+16,*,52,ニウニウ,Nadnarb,1,Action,551,Guard,-1,None
+17,*,52,ニウニウ,Nadnarb,1,Action,552,Run,-1,None
+18,*,52,ニウニウ,Nadnarb,1,Action,500,Increm,11,EC w/o Strengthen
+19,*,52,ニウニウ,Nadnarb,1,Action,52,Stone Ooze,13,PC w/o Stone
+1,*,53,ニャカラガ,Nairad,0,Branch,44,???,3,Go to 3
+2,*,53,ニャカラガ,Nairad,0,Branch,30,???,4,Go to 4
+3,*,53,ニャカラガ,Nairad,0,Branch,28,???,17,Go to 17
+4,*,53,ニャカラガ,Nairad,0,Branch,11,???,9,Go to 9
+5,*,53,ニャカラガ,Nairad,0,Branch,12,???,13,Go to 13
+6,*,53,ニャカラガ,Nairad,0,Branch,23,???,15,Go to 15
+7,*,53,ニャカラガ,Nairad,0,Branch,24,???,19,Go to 19
+8,*,53,ニャカラガ,Nairad,0,Branch,30,???,17,Go to 17
+9,*,53,ニャカラガ,Nairad,0,Branch,24,???,15,Go to 15
+10,*,53,ニャカラガ,Nairad,0,Branch,22,???,16,Go to 16
+11,*,53,ニャカラガ,Nairad,0,Branch,24,???,18,Go to 18
+12,*,53,ニャカラガ,Nairad,0,Branch,30,???,19,Go to 19
+13,*,53,ニャカラガ,Nairad,0,Branch,25,???,15,Go to 15
+14,*,53,ニャカラガ,Nairad,0,Branch,30,???,19,Go to 19
+15,*,53,ニャカラガ,Nairad,1,Action,550,Attack,2,Random PC
+16,*,53,ニャカラガ,Nairad,1,Action,551,Guard,-1,None
+17,*,53,ニャカラガ,Nairad,1,Action,552,Run,-1,None
+18,*,53,ニャカラガ,Nairad,1,Action,501,Incremus,-1,None
+19,*,53,ニャカラガ,Nairad,1,Action,52,Stone Ooze,13,PC w/o Stone
+1,*,54,カネヅル,Kanezl,0,Branch,45,???,3,Go to 3
+2,*,54,カネヅル,Kanezl,0,Branch,30,???,4,Go to 4
+3,*,54,カネヅル,Kanezl,0,Branch,30,???,23,Go to 23
+4,*,54,カネヅル,Kanezl,0,Branch,44,???,6,Go to 6
+5,*,54,カネヅル,Kanezl,0,Branch,30,???,7,Go to 7
+6,*,54,カネヅル,Kanezl,0,Branch,25,???,23,Go to 23
+7,*,54,カネヅル,Kanezl,0,Branch,31,???,14,Go to 14
+8,*,54,カネヅル,Kanezl,0,Branch,39,???,11,Go to 11
+9,*,54,カネヅル,Kanezl,0,Branch,38,???,12,Go to 12
+10,*,54,カネヅル,Kanezl,0,Branch,30,???,14,Go to 14
+11,*,54,カネヅル,Kanezl,0,Branch,24,???,24,Go to 24
+12,*,54,カネヅル,Kanezl,0,Branch,24,???,24,Go to 24
+13,*,54,カネヅル,Kanezl,0,Branch,30,???,27,Go to 27
+14,*,54,カネヅル,Kanezl,0,Branch,11,???,16,Go to 16
+15,*,54,カネヅル,Kanezl,0,Branch,24,???,23,Go to 23
+16,*,54,カネヅル,Kanezl,0,Branch,23,???,21,Go to 21
+17,*,54,カネヅル,Kanezl,0,Branch,23,???,22,Go to 22
+18,*,54,カネヅル,Kanezl,0,Branch,24,???,25,Go to 25
+19,*,54,カネヅル,Kanezl,0,Branch,26,???,26,Go to 26
+20,*,54,カネヅル,Kanezl,0,Branch,30,???,28,Go to 28
+21,*,54,カネヅル,Kanezl,1,Action,550,Attack,2,Random PC
+22,*,54,カネヅル,Kanezl,1,Action,551,Guard,-1,None
+23,*,54,カネヅル,Kanezl,1,Action,552,Run,-1,None
+24,*,54,カネヅル,Kanezl,1,Action,508,Sacrum,-1,None
+25,*,54,カネヅル,Kanezl,1,Action,39,Lightning Strike,2,Random PC
+26,*,54,カネヅル,Kanezl,1,Action,49,Call Allies,-1,None
+27,*,54,カネヅル,Kanezl,1,Action,100,Magic?,-1,None
+28,*,54,カネヅル,Kanezl,1,Action,113,Call Allies,-1,None
+1,*,55,メメゾーレ,Mantoid,0,Branch,34,???,3,Go to 3
+2,*,55,メメゾーレ,Mantoid,0,Branch,22,???,7,Go to 7
+3,*,55,メメゾーレ,Mantoid,0,Branch,26,???,6,Go to 6
+4,*,55,メメゾーレ,Mantoid,0,Branch,28,???,8,Go to 8
+5,*,55,メメゾーレ,Mantoid,0,Branch,30,???,9,Go to 9
+6,*,55,メメゾーレ,Mantoid,1,Action,550,Attack,2,Random PC
+7,*,55,メメゾーレ,Mantoid,1,Action,525,Pyrum,-1,None
+8,*,55,メメゾーレ,Mantoid,1,Action,40,Terrible Bite,1,Same PC
+9,*,55,メメゾーレ,Mantoid,1,Action,551,Guard,-1,None
+1,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,51,???,18,Go to 18
+2,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,11,???,5,Go to 5
+3,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,12,???,5,Go to 5
+4,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,30,???,12,Go to 12
+5,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,35,???,7,Go to 7
+6,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,23,???,22,Go to 22
+7,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,21,???,27,Go to 27
+8,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,21,???,20,Go to 20
+9,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,21,???,21,Go to 21
+10,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,25,???,25,Go to 25
+11,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,30,???,26,Go to 26
+12,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,31,???,7,Go to 7
+13,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,1,???,16,Go to 16
+14,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,39,???,16,Go to 16
+15,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,30,???,7,Go to 7
+16,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,24,???,23,Go to 23
+17,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,30,???,7,Go to 7
+18,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,26,???,24,Go to 24
+19,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,30,???,7,Go to 7
+20,*,56,ヒュドラ煌兵,Sorcerer,1,Action,550,Attack,1,Same PC
+21,*,56,ヒュドラ煌兵,Sorcerer,1,Action,551,Guard,-1,None
+22,*,56,ヒュドラ煌兵,Sorcerer,1,Action,502,Sylenis,15,PC w/o Silence
+23,*,56,ヒュドラ煌兵,Sorcerer,1,Action,507,Sacres,7,Injured EC
+24,*,56,ヒュドラ煌兵,Sorcerer,1,Action,518,Eternes,2,Random PC
+25,*,56,ヒュドラ煌兵,Sorcerer,1,Action,529,Crystalen,2,Random PC
+26,*,56,ヒュドラ煌兵,Sorcerer,1,Action,535,Electrulen,2,Random PC
+27,*,56,ヒュドラ煌兵,Sorcerer,1,Action,37,Focus,-1,None
+1,*,57,イラブ,Slithar,0,Branch,33,???,5,Go to 5
+2,*,57,イラブ,Slithar,0,Branch,26,???,9,Go to 9
+3,*,57,イラブ,Slithar,0,Branch,28,???,10,Go to 10
+4,*,57,イラブ,Slithar,0,Branch,30,???,13,Go to 13
+5,*,57,イラブ,Slithar,0,Branch,26,???,9,Go to 9
+6,*,57,イラブ,Slithar,0,Branch,25,???,11,Go to 11
+7,*,57,イラブ,Slithar,0,Branch,25,???,13,Go to 13
+8,*,57,イラブ,Slithar,0,Branch,30,???,12,Go to 12
+9,*,57,イラブ,Slithar,1,Action,550,Attack,2,Random PC
+10,*,57,イラブ,Slithar,1,Action,525,Pyrum,-1,None
+11,*,57,イラブ,Slithar,1,Action,100,Magic?,-1,None
+12,*,57,イラブ,Slithar,1,Action,552,Run,-1,None
+13,*,57,イラブ,Slithar,1,Action,551,Guard,-1,None
+1,*,58,ゴーヤエルモ,Golooper,0,Branch,1,???,9,Go to 9
+2,*,58,ゴーヤエルモ,Golooper,0,Branch,25,???,9,Go to 9
+3,*,58,ゴーヤエルモ,Golooper,0,Branch,24,???,7,Go to 7
+4,*,58,ゴーヤエルモ,Golooper,0,Branch,23,???,8,Go to 8
+5,*,58,ゴーヤエルモ,Golooper,0,Branch,35,???,11,Go to 11
+6,*,58,ゴーヤエルモ,Golooper,0,Branch,30,???,10,Go to 10
+7,*,58,ゴーヤエルモ,Golooper,1,Action,550,Attack,2,Random PC
+8,*,58,ゴーヤエルモ,Golooper,1,Action,551,Guard,-1,None
+9,*,58,ゴーヤエルモ,Golooper,1,Action,552,Run,-1,None
+10,*,58,ゴーヤエルモ,Golooper,1,Action,512,Slipara,-1,None
+11,*,58,ゴーヤエルモ,Golooper,1,Action,100,Magic?,-1,None
+1,*,59,ナマトヌカ,Alusphere,0,Branch,11,???,4,Go to 4
+2,*,59,ナマトヌカ,Alusphere,0,Branch,12,???,5,Go to 5
+3,*,59,ナマトヌカ,Alusphere,0,Branch,30,???,6,Go to 6
+4,*,59,ナマトヌカ,Alusphere,0,Branch,22,???,9,Go to 9
+5,*,59,ナマトヌカ,Alusphere,0,Branch,22,???,9,Go to 9
+6,*,59,ナマトヌカ,Alusphere,0,Branch,21,???,8,Go to 8
+7,*,59,ナマトヌカ,Alusphere,1,Action,550,Attack,13,PC w/o Stone
+8,*,59,ナマトヌカ,Alusphere,1,Action,551,Guard,-1,None
+9,*,59,ナマトヌカ,Alusphere,1,Action,44,Drain,17,PC w/o Weak
+1,*,60,モノノフ,Soldier,0,Branch,23,???,6,Go to 6
+2,*,60,モノノフ,Soldier,0,Branch,23,???,5,Go to 5
+3,*,60,モノノフ,Soldier,0,Branch,21,???,7,Go to 7
+4,*,60,モノノフ,Soldier,1,Action,550,Attack,2,Random PC
+5,*,60,モノノフ,Soldier,1,Action,21,Counter Stance,-1,None
+6,*,60,モノノフ,Soldier,1,Action,250,Wind Slash,2,Random PC
+7,*,60,モノノフ,Soldier,1,Action,551,Guard,-1,None
+1,*,61,ヴィヒム,Delzool,0,Branch,44,???,3,Go to 3
+2,*,61,ヴィヒム,Delzool,0,Branch,30,???,4,Go to 4
+3,*,61,ヴィヒム,Delzool,0,Branch,26,???,17,Go to 17
+4,*,61,ヴィヒム,Delzool,0,Branch,2,???,6,Go to 6
+5,*,61,ヴィヒム,Delzool,0,Branch,30,???,7,Go to 7
+6,*,61,ヴィヒム,Delzool,0,Branch,29,???,18,Go to 18
+7,*,61,ヴィヒム,Delzool,0,Branch,1,???,9,Go to 9
+8,*,61,ヴィヒム,Delzool,0,Branch,30,???,10,Go to 10
+9,*,61,ヴィヒム,Delzool,0,Branch,26,???,18,Go to 18
+10,*,61,ヴィヒム,Delzool,0,Branch,35,???,12,Go to 12
+11,*,61,ヴィヒム,Delzool,0,Branch,24,???,19,Go to 19
+12,*,61,ヴィヒム,Delzool,0,Branch,23,???,18,Go to 18
+13,*,61,ヴィヒム,Delzool,0,Branch,27,???,16,Go to 16
+14,*,61,ヴィヒム,Delzool,0,Branch,26,???,20,Go to 20
+15,*,61,ヴィヒム,Delzool,0,Branch,30,???,17,Go to 17
+16,*,61,ヴィヒム,Delzool,1,Action,550,Attack,2,Random PC
+17,*,61,ヴィヒム,Delzool,1,Action,552,Run,-1,None
+18,*,61,ヴィヒム,Delzool,1,Action,270,Self-destruct,-1,None
+19,*,61,ヴィヒム,Delzool,1,Action,518,Eternes,1,Same PC
+20,*,61,ヴィヒム,Delzool,1,Action,100,Magic?,-1,None
+1,*,62,ヒュドラ将兵,Defender,0,Branch,5,???,12,Go to 12
+2,*,62,ヒュドラ将兵,Defender,0,Branch,38,???,8,Go to 8
+3,*,62,ヒュドラ将兵,Defender,0,Branch,25,???,15,Go to 15
+4,*,62,ヒュドラ将兵,Defender,0,Branch,24,???,17,Go to 17
+5,*,62,ヒュドラ将兵,Defender,0,Branch,25,???,18,Go to 18
+6,*,62,ヒュドラ将兵,Defender,0,Branch,28,???,19,Go to 19
+7,*,62,ヒュドラ将兵,Defender,0,Branch,30,???,16,Go to 16
+8,*,62,ヒュドラ将兵,Defender,0,Branch,23,???,18,Go to 18
+9,*,62,ヒュドラ将兵,Defender,0,Branch,24,???,17,Go to 17
+10,*,62,ヒュドラ将兵,Defender,0,Branch,31,???,12,Go to 12
+11,*,62,ヒュドラ将兵,Defender,0,Branch,30,???,16,Go to 16
+12,*,62,ヒュドラ将兵,Defender,0,Branch,24,???,15,Go to 15
+13,*,62,ヒュドラ将兵,Defender,0,Branch,25,???,17,Go to 17
+14,*,62,ヒュドラ将兵,Defender,0,Branch,30,???,18,Go to 18
+15,*,62,ヒュドラ将兵,Defender,1,Action,550,Attack,2,Random PC
+16,*,62,ヒュドラ将兵,Defender,1,Action,509,Sacrulen,7,Injured EC
+17,*,62,ヒュドラ将兵,Defender,1,Action,534,Electrum,2,Random PC
+18,*,62,ヒュドラ将兵,Defender,1,Action,19,Counter Stance,-1,None
+19,*,62,ヒュドラ将兵,Defender,1,Action,551,Guard,-1,None
+1,*,63,シュリヌール,Ghrost,0,Branch,45,???,3,Go to 3
+2,*,63,シュリヌール,Ghrost,0,Branch,30,???,4,Go to 4
+3,*,63,シュリヌール,Ghrost,0,Branch,28,???,17,Go to 17
+4,*,63,シュリヌール,Ghrost,0,Branch,44,???,6,Go to 6
+5,*,63,シュリヌール,Ghrost,0,Branch,30,???,7,Go to 7
+6,*,63,シュリヌール,Ghrost,0,Branch,24,???,17,Go to 17
+7,*,63,シュリヌール,Ghrost,0,Branch,0,???,10,Go to 10
+8,*,63,シュリヌール,Ghrost,0,Branch,46,???,10,Go to 10
+9,*,63,シュリヌール,Ghrost,0,Branch,29,???,19,Go to 19
+10,*,63,シュリヌール,Ghrost,0,Branch,34,???,12,Go to 12
+11,*,63,シュリヌール,Ghrost,0,Branch,23,???,21,Go to 21
+12,*,63,シュリヌール,Ghrost,0,Branch,22,???,22,Go to 22
+13,*,63,シュリヌール,Ghrost,0,Branch,23,???,20,Go to 20
+14,*,63,シュリヌール,Ghrost,0,Branch,21,???,17,Go to 17
+15,*,63,シュリヌール,Ghrost,0,Branch,21,???,18,Go to 18
+16,*,63,シュリヌール,Ghrost,1,Action,550,Attack,2,Random PC
+17,*,63,シュリヌール,Ghrost,1,Action,552,Run,-1,None
+18,*,63,シュリヌール,Ghrost,1,Action,551,Guard,-1,None
+19,*,63,シュリヌール,Ghrost,1,Action,210,HP Absorb,3,PC w/ Most HP
+20,*,63,シュリヌール,Ghrost,1,Action,510,Noxi,19,PC w/o Poison
+21,*,63,シュリヌール,Ghrost,1,Action,511,Noxus,-1,None
+22,*,63,シュリヌール,Ghrost,1,Action,100,Magic?,-1,None
+1,*,64,デモンヌール,Graver,0,Branch,45,???,3,Go to 3
+2,*,64,デモンヌール,Graver,0,Branch,30,???,4,Go to 4
+3,*,64,デモンヌール,Graver,0,Branch,28,???,23,Go to 23
+4,*,64,デモンヌール,Graver,0,Branch,44,???,6,Go to 6
+5,*,64,デモンヌール,Graver,0,Branch,30,???,7,Go to 7
+6,*,64,デモンヌール,Graver,0,Branch,22,???,23,Go to 23
+7,*,64,デモンヌール,Graver,0,Branch,17,???,9,Go to 9
+8,*,64,デモンヌール,Graver,0,Branch,30,???,11,Go to 11
+9,*,64,デモンヌール,Graver,0,Branch,35,???,11,Go to 11
+10,*,64,デモンヌール,Graver,0,Branch,25,???,25,Go to 25
+11,*,64,デモンヌール,Graver,0,Branch,0,???,14,Go to 14
+12,*,64,デモンヌール,Graver,0,Branch,46,???,14,Go to 14
+13,*,64,デモンヌール,Graver,0,Branch,25,???,24,Go to 24
+14,*,64,デモンヌール,Graver,0,Branch,25,???,21,Go to 21
+15,*,64,デモンヌール,Graver,0,Branch,24,???,22,Go to 22
+16,*,64,デモンヌール,Graver,0,Branch,65,???,18,Go to 18
+17,*,64,デモンヌール,Graver,0,Branch,30,???,26,Go to 26
+18,*,64,デモンヌール,Graver,0,Branch,35,???,26,Go to 26
+19,*,64,デモンヌール,Graver,0,Branch,24,???,25,Go to 25
+20,*,64,デモンヌール,Graver,0,Branch,24,???,26,Go to 26
+21,*,64,デモンヌール,Graver,1,Action,550,Attack,2,Random PC
+22,*,64,デモンヌール,Graver,1,Action,551,Guard,-1,None
+23,*,64,デモンヌール,Graver,1,Action,552,Run,-1,None
+24,*,64,デモンヌール,Graver,1,Action,210,HP Absorb,3,PC w/ Most HP
+25,*,64,デモンヌール,Graver,1,Action,519,Eternum,2,Random PC
+26,*,64,デモンヌール,Graver,1,Action,100,Magic?,-1,None
+1,*,65,マウルティア,Shrilp,0,Branch,36,???,7,Go to 7
+2,*,65,マウルティア,Shrilp,0,Branch,11,???,5,Go to 5
+3,*,65,マウルティア,Shrilp,0,Branch,12,???,5,Go to 5
+4,*,65,マウルティア,Shrilp,0,Branch,30,???,6,Go to 6
+5,*,65,マウルティア,Shrilp,0,Branch,22,???,17,Go to 17
+6,*,65,マウルティア,Shrilp,0,Branch,21,???,17,Go to 17
+7,*,65,マウルティア,Shrilp,0,Branch,47,???,13,Go to 13
+8,*,65,マウルティア,Shrilp,0,Branch,2,???,11,Go to 11
+9,*,65,マウルティア,Shrilp,0,Branch,0,???,13,Go to 13
+10,*,65,マウルティア,Shrilp,0,Branch,30,???,12,Go to 12
+11,*,65,マウルティア,Shrilp,0,Branch,24,???,18,Go to 18
+12,*,65,マウルティア,Shrilp,0,Branch,22,???,18,Go to 18
+13,*,65,マウルティア,Shrilp,0,Branch,28,???,15,Go to 15
+14,*,65,マウルティア,Shrilp,0,Branch,30,???,16,Go to 16
+15,*,65,マウルティア,Shrilp,1,Action,550,Attack,2,Random PC
+16,*,65,マウルティア,Shrilp,1,Action,551,Guard,-1,None
+17,*,65,マウルティア,Shrilp,1,Action,505,Drilnos,-1,None
+18,*,65,マウルティア,Shrilp,1,Action,212,HP Absorb,3,PC w/ Most HP
+1,*,66,ギャルブ,Cerosik,0,Branch,33,???,3,Go to 3
+2,*,66,ギャルブ,Cerosik,0,Branch,22,???,9,Go to 9
+3,*,66,ギャルブ,Cerosik,0,Branch,35,???,5,Go to 5
+4,*,66,ギャルブ,Cerosik,0,Branch,22,???,8,Go to 8
+5,*,66,ギャルブ,Cerosik,0,Branch,21,???,7,Go to 7
+6,*,66,ギャルブ,Cerosik,1,Action,550,Attack,2,Random PC
+7,*,66,ギャルブ,Cerosik,1,Action,551,Guard,-1,None
+8,*,66,ギャルブ,Cerosik,1,Action,503,Panika,14,PC w/o Confusion
+9,*,66,ギャルブ,Cerosik,1,Action,528,Crystalum,2,Random PC
+1,*,67,ガジュマ,Carnilak,0,Branch,50,???,5,Go to 5
+2,*,67,ガジュマ,Carnilak,0,Branch,25,???,7,Go to 7
+3,*,67,ガジュマ,Carnilak,0,Branch,26,???,9,Go to 9
+4,*,67,ガジュマ,Carnilak,0,Branch,30,???,10,Go to 10
+5,*,67,ガジュマ,Carnilak,0,Branch,28,???,7,Go to 7
+6,*,67,ガジュマ,Carnilak,0,Branch,30,???,8,Go to 8
+7,*,67,ガジュマ,Carnilak,1,Action,550,Attack,2,Random PC
+8,*,67,ガジュマ,Carnilak,1,Action,551,Guard,-1,None
+9,*,67,ガジュマ,Carnilak,1,Action,26,Death Blossom,2,Random PC
+10,*,67,ガジュマ,Carnilak,1,Action,191,Slumber Dust,-1,None
+1,*,68,ヴァルガンド,Valgand,0,Branch,45,???,3,Go to 3
+2,*,68,ヴァルガンド,Valgand,0,Branch,30,???,4,Go to 4
+3,*,68,ヴァルガンド,Valgand,0,Branch,25,???,7,Go to 7
+4,*,68,ヴァルガンド,Valgand,0,Branch,22,???,6,Go to 6
+5,*,68,ヴァルガンド,Valgand,1,Action,550,Attack,2,Random PC
+6,*,68,ヴァルガンド,Valgand,1,Action,551,Guard,-1,None
+7,*,68,ヴァルガンド,Valgand,1,Action,552,Run,-1,None
+1,*,69,デ式特機兵,Berserker,1,Action,550,Attack,2,Random PC
+1,*,70,ガンドロフス,Lurgel Tank,0,Branch,50,???,4,Go to 4
+2,*,70,ガンドロフス,Lurgel Tank,0,Branch,24,???,6,Go to 6
+3,*,70,ガンドロフス,Lurgel Tank,0,Branch,30,???,7,Go to 7
+4,*,70,ガンドロフス,Lurgel Tank,0,Branch,27,???,6,Go to 6
+5,*,70,ガンドロフス,Lurgel Tank,0,Branch,30,???,7,Go to 7
+6,*,70,ガンドロフス,Lurgel Tank,1,Action,550,Attack,2,Random PC
+7,*,70,ガンドロフス,Lurgel Tank,1,Action,30,Wheel Blast,2,Random PC
+1,*,71,テンコウ,Tenkou,0,Branch,11,???,4,Go to 4
+2,*,71,テンコウ,Tenkou,0,Branch,12,???,7,Go to 7
+3,*,71,テンコウ,Tenkou,0,Branch,30,???,8,Go to 8
+4,*,71,テンコウ,Tenkou,0,Branch,22,???,14,Go to 14
+5,*,71,テンコウ,Tenkou,0,Branch,22,???,15,Go to 15
+6,*,71,テンコウ,Tenkou,0,Branch,30,???,10,Go to 10
+7,*,71,テンコウ,Tenkou,0,Branch,24,???,16,Go to 16
+8,*,71,テンコウ,Tenkou,0,Branch,43,???,10,Go to 10
+9,*,71,テンコウ,Tenkou,0,Branch,22,???,16,Go to 16
+10,*,71,テンコウ,Tenkou,0,Branch,28,???,12,Go to 12
+11,*,71,テンコウ,Tenkou,0,Branch,30,???,13,Go to 13
+12,*,71,テンコウ,Tenkou,1,Action,550,Attack,2,Random PC
+13,*,71,テンコウ,Tenkou,1,Action,551,Guard,-1,None
+14,*,71,テンコウ,Tenkou,1,Action,116,Power Potion,11,EC w/o Strengthen
+15,*,71,テンコウ,Tenkou,1,Action,117,Speed Potion,-1,None
+16,*,71,テンコウ,Tenkou,1,Action,118,Sacres Crystal,7,Injured EC
+1,*,72,警備士,Patrol Guard,0,Branch,11,???,4,Go to 4
+2,*,72,警備士,Patrol Guard,0,Branch,12,???,6,Go to 6
+3,*,72,警備士,Patrol Guard,0,Branch,30,???,7,Go to 7
+4,*,72,警備士,Patrol Guard,0,Branch,23,???,17,Go to 17
+5,*,72,警備士,Patrol Guard,0,Branch,30,???,7,Go to 7
+6,*,72,警備士,Patrol Guard,0,Branch,23,???,19,Go to 19
+7,*,72,警備士,Patrol Guard,0,Branch,26,???,15,Go to 15
+8,*,72,警備士,Patrol Guard,0,Branch,25,???,16,Go to 16
+9,*,72,警備士,Patrol Guard,0,Branch,25,???,11,Go to 11
+10,*,72,警備士,Patrol Guard,0,Branch,30,???,13,Go to 13
+11,*,72,警備士,Patrol Guard,0,Branch,33,???,15,Go to 15
+12,*,72,警備士,Patrol Guard,0,Branch,30,???,18,Go to 18
+13,*,72,警備士,Patrol Guard,0,Branch,42,???,15,Go to 15
+14,*,72,警備士,Patrol Guard,0,Branch,30,???,19,Go to 19
+15,*,72,警備士,Patrol Guard,1,Action,550,Attack,2,Random PC
+16,*,72,警備士,Patrol Guard,1,Action,551,Guard,-1,None
+17,*,72,警備士,Patrol Guard,1,Action,513,Quika,-1,None
+18,*,72,警備士,Patrol Guard,1,Action,532,Electri,7,Injured EC
+19,*,72,警備士,Patrol Guard,1,Action,80,Sacres Crystal,2,Random PC
+1,*,73,採掘士,Mine Patrol,0,Branch,11,???,4,Go to 4
+2,*,73,採掘士,Mine Patrol,0,Branch,12,???,6,Go to 6
+3,*,73,採掘士,Mine Patrol,0,Branch,30,???,7,Go to 7
+4,*,73,採掘士,Mine Patrol,0,Branch,22,???,13,Go to 13
+5,*,73,採掘士,Mine Patrol,0,Branch,30,???,7,Go to 7
+6,*,73,採掘士,Mine Patrol,0,Branch,21,???,13,Go to 13
+7,*,73,採掘士,Mine Patrol,0,Branch,26,???,11,Go to 11
+8,*,73,採掘士,Mine Patrol,0,Branch,24,???,12,Go to 12
+9,*,73,採掘士,Mine Patrol,0,Branch,33,???,11,Go to 11
+10,*,73,採掘士,Mine Patrol,0,Branch,30,???,14,Go to 14
+11,*,73,採掘士,Mine Patrol,1,Action,550,Attack,2,Random PC
+12,*,73,採掘士,Mine Patrol,1,Action,551,Guard,-1,None
+13,*,73,採掘士,Mine Patrol,1,Action,513,Quika,-1,None
+14,*,73,採掘士,Mine Patrol,1,Action,527,Crystales,7,Injured EC
+1,*,74,アスヒモス,Forst Worm,0,Branch,1,???,7,Go to 7
+2,*,74,アスヒモス,Forst Worm,0,Branch,23,???,12,Go to 12
+3,*,74,アスヒモス,Forst Worm,0,Branch,22,???,13,Go to 13
+4,*,74,アスヒモス,Forst Worm,0,Branch,26,???,14,Go to 14
+5,*,74,アスヒモス,Forst Worm,0,Branch,24,???,15,Go to 15
+6,*,74,アスヒモス,Forst Worm,0,Branch,30,???,16,Go to 16
+7,*,74,アスヒモス,Forst Worm,0,Branch,23,???,12,Go to 12
+8,*,74,アスヒモス,Forst Worm,0,Branch,21,???,13,Go to 13
+9,*,74,アスヒモス,Forst Worm,0,Branch,23,???,14,Go to 14
+10,*,74,アスヒモス,Forst Worm,0,Branch,26,???,15,Go to 15
+11,*,74,アスヒモス,Forst Worm,0,Branch,30,???,16,Go to 16
+12,*,74,アスヒモス,Forst Worm,1,Action,550,Attack,2,Random PC
+13,*,74,アスヒモス,Forst Worm,1,Action,551,Guard,-1,None
+14,*,74,アスヒモス,Forst Worm,1,Action,503,Panika,14,PC w/o Confusion
+15,*,74,アスヒモス,Forst Worm,1,Action,529,Crystalen,2,Random PC
+16,*,74,アスヒモス,Forst Worm,1,Action,38,Eternal Freeze,-1,None
+1,*,75,デ式レーダー,Destroyer,0,Branch,11,???,9,Go to 9
+2,*,75,デ式レーダー,Destroyer,0,Branch,12,???,8,Go to 8
+3,*,75,デ式レーダー,Destroyer,0,Branch,13,???,7,Go to 7
+4,*,75,デ式レーダー,Destroyer,0,Branch,14,???,6,Go to 6
+5,*,75,デ式レーダー,Destroyer,0,Branch,27,???,15,Go to 15
+6,*,75,デ式レーダー,Destroyer,0,Branch,25,???,15,Go to 15
+7,*,75,デ式レーダー,Destroyer,0,Branch,23,???,15,Go to 15
+8,*,75,デ式レーダー,Destroyer,0,Branch,21,???,15,Go to 15
+9,*,75,デ式レーダー,Destroyer,0,Branch,24,???,14,Go to 14
+10,*,75,デ式レーダー,Destroyer,0,Branch,25,???,17,Go to 17
+11,*,75,デ式レーダー,Destroyer,0,Branch,25,???,13,Go to 13
+12,*,75,デ式レーダー,Destroyer,0,Branch,30,???,16,Go to 16
+13,*,75,デ式レーダー,Destroyer,1,Action,551,Guard,-1,None
+14,*,75,デ式レーダー,Destroyer,1,Action,74,Call Allies,-1,None
+15,*,75,デ式レーダー,Destroyer,1,Action,97,Emergency,-1,None
+16,*,75,デ式レーダー,Destroyer,1,Action,112,Call Allies,-1,None
+17,*,75,デ式レーダー,Destroyer,1,Action,160,Search,-1,None
+1,*,76,ヒュドラ機兵,Marauder,1,Action,550,Attack,2,Random PC
+1,*,77,テンペリオス,Guardian,0,Branch,48,???,9,Go to 9
+2,*,77,テンペリオス,Guardian,0,Branch,11,???,12,Go to 12
+3,*,77,テンペリオス,Guardian,0,Branch,5,???,12,Go to 12
+4,*,77,テンペリオス,Guardian,0,Branch,23,???,12,Go to 12
+5,*,77,テンペリオス,Guardian,0,Branch,22,???,13,Go to 13
+6,*,77,テンペリオス,Guardian,0,Branch,22,???,14,Go to 14
+7,*,77,テンペリオス,Guardian,0,Branch,29,???,11,Go to 11
+8,*,77,テンペリオス,Guardian,0,Branch,30,???,15,Go to 15
+9,*,77,テンペリオス,Guardian,0,Branch,25,???,13,Go to 13
+10,*,77,テンペリオス,Guardian,0,Branch,30,???,14,Go to 14
+11,*,77,テンペリオス,Guardian,1,Action,550,Attack,2,Random PC
+12,*,77,テンペリオス,Guardian,1,Action,9,Target Search,-1,None
+13,*,77,テンペリオス,Guardian,1,Action,99,Blaster,2,Random PC
+14,*,77,テンペリオス,Guardian,1,Action,32,Crypt Laser,13,PC w/o Stone
+15,*,77,テンペリオス,Guardian,1,Action,551,Guard,-1,None
+1,*,78,テルヴァ,Telsor,0,Branch,45,???,3,Go to 3
+2,*,78,テルヴァ,Telsor,0,Branch,30,???,4,Go to 4
+3,*,78,テルヴァ,Telsor,0,Branch,28,???,10,Go to 10
+4,*,78,テルヴァ,Telsor,0,Branch,44,???,6,Go to 6
+5,*,78,テルヴァ,Telsor,0,Branch,30,???,7,Go to 7
+6,*,78,テルヴァ,Telsor,0,Branch,24,???,10,Go to 10
+7,*,78,テルヴァ,Telsor,0,Branch,22,???,9,Go to 9
+8,*,78,テルヴァ,Telsor,1,Action,550,Attack,2,Random PC
+9,*,78,テルヴァ,Telsor,1,Action,551,Guard,-1,None
+10,*,78,テルヴァ,Telsor,1,Action,552,Run,-1,None
+1,*,79,ドゥムス,Dorntak,0,Branch,45,???,3,Go to 3
+2,*,79,ドゥムス,Dorntak,0,Branch,30,???,4,Go to 4
+3,*,79,ドゥムス,Dorntak,0,Branch,28,???,11,Go to 11
+4,*,79,ドゥムス,Dorntak,0,Branch,44,???,6,Go to 6
+5,*,79,ドゥムス,Dorntak,0,Branch,30,???,7,Go to 7
+6,*,79,ドゥムス,Dorntak,0,Branch,24,???,11,Go to 11
+7,*,79,ドゥムス,Dorntak,0,Branch,24,???,12,Go to 12
+8,*,79,ドゥムス,Dorntak,0,Branch,21,???,10,Go to 10
+9,*,79,ドゥムス,Dorntak,1,Action,550,Attack,2,Random PC
+10,*,79,ドゥムス,Dorntak,1,Action,551,Guard,-1,None
+11,*,79,ドゥムス,Dorntak,1,Action,552,Run,-1,None
+12,*,79,ドゥムス,Dorntak,1,Action,61,Laser Blast,13,PC w/o Stone
+1,*,80,ニンギルス,Linark,0,Branch,1,???,5,Go to 5
+2,*,80,ニンギルス,Linark,0,Branch,25,???,8,Go to 8
+3,*,80,ニンギルス,Linark,0,Branch,22,???,9,Go to 9
+4,*,80,ニンギルス,Linark,0,Branch,30,???,10,Go to 10
+5,*,80,ニンギルス,Linark,0,Branch,22,???,8,Go to 8
+6,*,80,ニンギルス,Linark,0,Branch,21,???,9,Go to 9
+7,*,80,ニンギルス,Linark,0,Branch,30,???,10,Go to 10
+8,*,80,ニンギルス,Linark,1,Action,550,Attack,2,Random PC
+9,*,80,ニンギルス,Linark,1,Action,551,Guard,-1,None
+10,*,80,ニンギルス,Linark,1,Action,77,Round Claw,2,Random PC
+1,*,81,ヌックア,Dolthstra,0,Branch,44,???,5,Go to 5
+2,*,81,ヌックア,Dolthstra,0,Branch,1,???,4,Go to 4
+3,*,81,ヌックア,Dolthstra,0,Branch,30,???,5,Go to 5
+4,*,81,ヌックア,Dolthstra,0,Branch,25,???,10,Go to 10
+5,*,81,ヌックア,Dolthstra,0,Branch,21,???,11,Go to 11
+6,*,81,ヌックア,Dolthstra,0,Branch,50,???,8,Go to 8
+7,*,81,ヌックア,Dolthstra,0,Branch,24,???,9,Go to 9
+8,*,81,ヌックア,Dolthstra,1,Action,550,Attack,2,Random PC
+9,*,81,ヌックア,Dolthstra,1,Action,260,Quake,-1,None
+10,*,81,ヌックア,Dolthstra,1,Action,41,Deep Sleep,22,Self
+11,*,81,ヌックア,Dolthstra,1,Action,551,Guard,-1,None
+1,*,82,サムンドラ,Dracolurg,0,Branch,50,???,5,Go to 5
+2,*,82,サムンドラ,Dracolurg,0,Branch,22,???,8,Go to 8
+3,*,82,サムンドラ,Dracolurg,0,Branch,25,???,9,Go to 9
+4,*,82,サムンドラ,Dracolurg,0,Branch,30,???,10,Go to 10
+5,*,82,サムンドラ,Dracolurg,0,Branch,24,???,8,Go to 8
+6,*,82,サムンドラ,Dracolurg,0,Branch,25,???,9,Go to 9
+7,*,82,サムンドラ,Dracolurg,0,Branch,30,???,10,Go to 10
+8,*,82,サムンドラ,Dracolurg,1,Action,550,Attack,2,Random PC
+9,*,82,サムンドラ,Dracolurg,1,Action,64,Terrible Bite,18,PC w/o Fatigue
+10,*,82,サムンドラ,Dracolurg,1,Action,184,Frost Breath,2,Random PC
+1,*,83,ギラロッシ,Garagor,0,Branch,11,???,3,Go to 3
+2,*,83,ギラロッシ,Garagor,0,Branch,30,???,4,Go to 4
+3,*,83,ギラロッシ,Garagor,0,Branch,25,???,15,Go to 15
+4,*,83,ギラロッシ,Garagor,0,Branch,47,???,10,Go to 10
+5,*,83,ギラロッシ,Garagor,0,Branch,2,???,8,Go to 8
+6,*,83,ギラロッシ,Garagor,0,Branch,0,???,10,Go to 10
+7,*,83,ギラロッシ,Garagor,0,Branch,30,???,9,Go to 9
+8,*,83,ギラロッシ,Garagor,0,Branch,26,???,17,Go to 17
+9,*,83,ギラロッシ,Garagor,0,Branch,22,???,17,Go to 17
+10,*,83,ギラロッシ,Garagor,0,Branch,26,???,13,Go to 13
+11,*,83,ギラロッシ,Garagor,0,Branch,25,???,14,Go to 14
+12,*,83,ギラロッシ,Garagor,0,Branch,30,???,16,Go to 16
+13,*,83,ギラロッシ,Garagor,1,Action,550,Attack,2,Random PC
+14,*,83,ギラロッシ,Garagor,1,Action,551,Guard,-1,None
+15,*,83,ギラロッシ,Garagor,1,Action,505,Drilnos,-1,None
+16,*,83,ギラロッシ,Garagor,1,Action,529,Crystalen,2,Random PC
+17,*,83,ギラロッシ,Garagor,1,Action,213,HP Absorb,3,PC w/ Most HP
+1,*,84,シデンクワイ,Kilite,0,Branch,44,???,3,Go to 3
+2,*,84,シデンクワイ,Kilite,0,Branch,30,???,4,Go to 4
+3,*,84,シデンクワイ,Kilite,0,Branch,27,???,14,Go to 14
+4,*,84,シデンクワイ,Kilite,0,Branch,24,???,12,Go to 12
+5,*,84,シデンクワイ,Kilite,0,Branch,25,???,8,Go to 8
+6,*,84,シデンクワイ,Kilite,0,Branch,27,???,10,Go to 10
+7,*,84,シデンクワイ,Kilite,0,Branch,30,???,13,Go to 13
+8,*,84,シデンクワイ,Kilite,0,Branch,27,???,16,Go to 16
+9,*,84,シデンクワイ,Kilite,0,Branch,30,???,17,Go to 17
+10,*,84,シデンクワイ,Kilite,0,Branch,33,???,12,Go to 12
+11,*,84,シデンクワイ,Kilite,0,Branch,30,???,15,Go to 15
+12,*,84,シデンクワイ,Kilite,1,Action,550,Attack,2,Random PC
+13,*,84,シデンクワイ,Kilite,1,Action,551,Guard,-1,None
+14,*,84,シデンクワイ,Kilite,1,Action,552,Run,-1,None
+15,*,84,シデンクワイ,Kilite,1,Action,528,Crystalum,2,Random PC
+16,*,84,シデンクワイ,Kilite,1,Action,68,Call Allies,-1,None
+17,*,84,シデンクワイ,Kilite,1,Action,106,Call Allies,-1,None
+1,*,85,イモヅル,Imezl,0,Branch,45,???,3,Go to 3
+2,*,85,イモヅル,Imezl,0,Branch,30,???,4,Go to 4
+3,*,85,イモヅル,Imezl,0,Branch,28,???,23,Go to 23
+4,*,85,イモヅル,Imezl,0,Branch,44,???,6,Go to 6
+5,*,85,イモヅル,Imezl,0,Branch,30,???,7,Go to 7
+6,*,85,イモヅル,Imezl,0,Branch,25,???,23,Go to 23
+7,*,85,イモヅル,Imezl,0,Branch,31,???,15,Go to 15
+8,*,85,イモヅル,Imezl,0,Branch,39,???,11,Go to 11
+9,*,85,イモヅル,Imezl,0,Branch,38,???,12,Go to 12
+10,*,85,イモヅル,Imezl,0,Branch,30,???,15,Go to 15
+11,*,85,イモヅル,Imezl,0,Branch,23,???,24,Go to 24
+12,*,85,イモヅル,Imezl,0,Branch,23,???,24,Go to 24
+13,*,85,イモヅル,Imezl,0,Branch,25,???,25,Go to 25
+14,*,85,イモヅル,Imezl,0,Branch,30,???,27,Go to 27
+15,*,85,イモヅル,Imezl,0,Branch,11,???,17,Go to 17
+16,*,85,イモヅル,Imezl,0,Branch,23,???,23,Go to 23
+17,*,85,イモヅル,Imezl,0,Branch,25,???,21,Go to 21
+18,*,85,イモヅル,Imezl,0,Branch,23,???,22,Go to 22
+19,*,85,イモヅル,Imezl,0,Branch,26,???,26,Go to 26
+20,*,85,イモヅル,Imezl,0,Branch,30,???,28,Go to 28
+21,*,85,イモヅル,Imezl,1,Action,550,Attack,2,Random PC
+22,*,85,イモヅル,Imezl,1,Action,551,Guard,-1,None
+23,*,85,イモヅル,Imezl,1,Action,552,Run,-1,None
+24,*,85,イモヅル,Imezl,1,Action,508,Sacrum,-1,None
+25,*,85,イモヅル,Imezl,1,Action,49,Call Allies,-1,None
+26,*,85,イモヅル,Imezl,1,Action,50,Call Allies,-1,None
+27,*,85,イモヅル,Imezl,1,Action,100,Magic?,-1,None
+28,*,85,イモヅル,Imezl,1,Action,113,Call Allies,-1,None
+1,*,86,ブライヌール,Lurker,0,Branch,45,???,3,Go to 3
+2,*,86,ブライヌール,Lurker,0,Branch,30,???,4,Go to 4
+3,*,86,ブライヌール,Lurker,0,Branch,28,???,15,Go to 15
+4,*,86,ブライヌール,Lurker,0,Branch,44,???,6,Go to 6
+5,*,86,ブライヌール,Lurker,0,Branch,30,???,7,Go to 7
+6,*,86,ブライヌール,Lurker,0,Branch,24,???,15,Go to 15
+7,*,86,ブライヌール,Lurker,0,Branch,0,???,10,Go to 10
+8,*,86,ブライヌール,Lurker,0,Branch,46,???,10,Go to 10
+9,*,86,ブライヌール,Lurker,0,Branch,26,???,17,Go to 17
+10,*,86,ブライヌール,Lurker,0,Branch,50,???,12,Go to 12
+11,*,86,ブライヌール,Lurker,0,Branch,23,???,18,Go to 18
+12,*,86,ブライヌール,Lurker,0,Branch,21,???,16,Go to 16
+13,*,86,ブライヌール,Lurker,0,Branch,22,???,15,Go to 15
+14,*,86,ブライヌール,Lurker,1,Action,550,Attack,2,Random PC
+15,*,86,ブライヌール,Lurker,1,Action,552,Run,-1,None
+16,*,86,ブライヌール,Lurker,1,Action,551,Guard,-1,None
+17,*,86,ブライヌール,Lurker,1,Action,210,HP Absorb,3,PC w/ Most HP
+18,*,86,ブライヌール,Lurker,1,Action,56,Thunder Storm,-1,None
+1,*,87,クベンシス,Jellikra,0,Branch,11,???,4,Go to 4
+2,*,87,クベンシス,Jellikra,0,Branch,12,???,5,Go to 5
+3,*,87,クベンシス,Jellikra,0,Branch,30,???,6,Go to 6
+4,*,87,クベンシス,Jellikra,0,Branch,22,???,15,Go to 15
+5,*,87,クベンシス,Jellikra,0,Branch,22,???,9,Go to 9
+6,*,87,クベンシス,Jellikra,0,Branch,26,???,13,Go to 13
+7,*,87,クベンシス,Jellikra,0,Branch,28,???,11,Go to 11
+8,*,87,クベンシス,Jellikra,0,Branch,30,???,14,Go to 14
+9,*,87,クベンシス,Jellikra,0,Branch,49,???,17,Go to 17
+10,*,87,クベンシス,Jellikra,0,Branch,30,???,15,Go to 15
+11,*,87,クベンシス,Jellikra,0,Branch,49,???,17,Go to 17
+12,*,87,クベンシス,Jellikra,0,Branch,30,???,16,Go to 16
+13,*,87,クベンシス,Jellikra,1,Action,550,Attack,2,Random PC
+14,*,87,クベンシス,Jellikra,1,Action,552,Run,-1,None
+15,*,87,クベンシス,Jellikra,1,Action,505,Drilnos,-1,None
+16,*,87,クベンシス,Jellikra,1,Action,531,Wevlum,2,Random PC
+17,*,87,クベンシス,Jellikra,1,Action,100,Magic?,-1,None
+1,*,88,エリュオン,Scorpon,0,Branch,45,???,3,Go to 3
+2,*,88,エリュオン,Scorpon,0,Branch,30,???,4,Go to 4
+3,*,88,エリュオン,Scorpon,0,Branch,24,???,7,Go to 7
+4,*,88,エリュオン,Scorpon,0,Branch,21,???,7,Go to 7
+5,*,88,エリュオン,Scorpon,0,Branch,21,???,8,Go to 8
+6,*,88,エリュオン,Scorpon,1,Action,550,Attack,1,Same PC
+7,*,88,エリュオン,Scorpon,1,Action,552,Run,-1,None
+8,*,88,エリュオン,Scorpon,1,Action,551,Guard,-1,None
+1,*,89,アークエルモ,Arclooper,0,Branch,1,???,11,Go to 11
+2,*,89,アークエルモ,Arclooper,0,Branch,25,???,11,Go to 11
+3,*,89,アークエルモ,Arclooper,0,Branch,11,???,5,Go to 5
+4,*,89,アークエルモ,Arclooper,0,Branch,30,???,6,Go to 6
+5,*,89,アークエルモ,Arclooper,0,Branch,25,???,12,Go to 12
+6,*,89,アークエルモ,Arclooper,0,Branch,24,???,9,Go to 9
+7,*,89,アークエルモ,Arclooper,0,Branch,23,???,10,Go to 10
+8,*,89,アークエルモ,Arclooper,0,Branch,33,???,13,Go to 13
+9,*,89,アークエルモ,Arclooper,1,Action,550,Attack,2,Random PC
+10,*,89,アークエルモ,Arclooper,1,Action,551,Guard,-1,None
+11,*,89,アークエルモ,Arclooper,1,Action,552,Run,-1,None
+12,*,89,アークエルモ,Arclooper,1,Action,502,Sylenis,15,PC w/o Silence
+13,*,89,アークエルモ,Arclooper,1,Action,100,Magic?,-1,None
+1,*,90,キュキュ,Tsorok,0,Branch,44,???,3,Go to 3
+2,*,90,キュキュ,Tsorok,0,Branch,30,???,4,Go to 4
+3,*,90,キュキュ,Tsorok,0,Branch,24,???,12,Go to 12
+4,*,90,キュキュ,Tsorok,0,Branch,0,???,7,Go to 7
+5,*,90,キュキュ,Tsorok,0,Branch,46,???,7,Go to 7
+6,*,90,キュキュ,Tsorok,0,Branch,25,???,13,Go to 13
+7,*,90,キュキュ,Tsorok,0,Branch,33,???,9,Go to 9
+8,*,90,キュキュ,Tsorok,0,Branch,24,???,14,Go to 14
+9,*,90,キュキュ,Tsorok,0,Branch,21,???,12,Go to 12
+10,*,90,キュキュ,Tsorok,0,Branch,21,???,15,Go to 15
+11,*,90,キュキュ,Tsorok,1,Action,550,Attack,2,Random PC
+12,*,90,キュキュ,Tsorok,1,Action,552,Run,-1,None
+13,*,90,キュキュ,Tsorok,1,Action,211,HP Absorb,3,PC w/ Most HP
+14,*,90,キュキュ,Tsorok,1,Action,533,Electres,2,Random PC
+15,*,90,キュキュ,Tsorok,1,Action,551,Guard,-1,None
+1,*,91,デ式レイバー,Sentry,0,Branch,52,???,12,Go to 12
+2,*,91,デ式レイバー,Sentry,0,Branch,11,???,6,Go to 6
+3,*,91,デ式レイバー,Sentry,0,Branch,27,???,9,Go to 9
+4,*,91,デ式レイバー,Sentry,0,Branch,24,???,10,Go to 10
+5,*,91,デ式レイバー,Sentry,0,Branch,30,???,11,Go to 11
+6,*,91,デ式レイバー,Sentry,0,Branch,24,???,9,Go to 9
+7,*,91,デ式レイバー,Sentry,0,Branch,22,???,10,Go to 10
+8,*,91,デ式レイバー,Sentry,0,Branch,30,???,11,Go to 11
+9,*,91,デ式レイバー,Sentry,1,Action,550,Attack,2,Random PC
+10,*,91,デ式レイバー,Sentry,1,Action,551,Guard,-1,None
+11,*,91,デ式レイバー,Sentry,1,Action,13,Charge,-1,None
+12,*,91,デ式レイバー,Sentry,1,Action,75,Discharge,-1,None
+1,*,92,ランギット,Langry,0,Branch,44,???,3,Go to 3
+2,*,92,ランギット,Langry,0,Branch,30,???,4,Go to 4
+3,*,92,ランギット,Langry,0,Branch,28,???,16,Go to 16
+4,*,92,ランギット,Langry,0,Branch,17,???,10,Go to 10
+5,*,92,ランギット,Langry,0,Branch,25,???,13,Go to 13
+6,*,92,ランギット,Langry,0,Branch,25,???,14,Go to 14
+7,*,92,ランギット,Langry,0,Branch,26,???,15,Go to 15
+8,*,92,ランギット,Langry,0,Branch,25,???,16,Go to 16
+9,*,92,ランギット,Langry,0,Branch,30,???,17,Go to 17
+10,*,92,ランギット,Langry,0,Branch,25,???,14,Go to 14
+11,*,92,ランギット,Langry,0,Branch,25,???,15,Go to 15
+12,*,92,ランギット,Langry,0,Branch,30,???,16,Go to 16
+13,*,92,ランギット,Langry,1,Action,550,Attack,2,Random PC
+14,*,92,ランギット,Langry,1,Action,82,Call Allies,-1,None
+15,*,92,ランギット,Langry,1,Action,98,Call Allies,-1,None
+16,*,92,ランギット,Langry,1,Action,552,Run,-1,None
+17,*,92,ランギット,Langry,1,Action,551,Guard,-1,None
+1,*,93,ヘベレル,Durel Beetle,0,Branch,17,???,15,Go to 15
+2,*,93,ヘベレル,Durel Beetle,0,Branch,36,???,10,Go to 10
+3,*,93,ヘベレル,Durel Beetle,0,Branch,22,???,19,Go to 19
+4,*,93,ヘベレル,Durel Beetle,0,Branch,23,???,20,Go to 20
+5,*,93,ヘベレル,Durel Beetle,0,Branch,24,???,18,Go to 18
+6,*,93,ヘベレル,Durel Beetle,0,Branch,24,???,21,Go to 21
+7,*,93,ヘベレル,Durel Beetle,0,Branch,24,???,22,Go to 22
+8,*,93,ヘベレル,Durel Beetle,0,Branch,25,???,23,Go to 23
+9,*,93,ヘベレル,Durel Beetle,0,Branch,30,???,24,Go to 24
+10,*,93,ヘベレル,Durel Beetle,0,Branch,25,???,18,Go to 18
+11,*,93,ヘベレル,Durel Beetle,0,Branch,24,???,21,Go to 21
+12,*,93,ヘベレル,Durel Beetle,0,Branch,26,???,22,Go to 22
+13,*,93,ヘベレル,Durel Beetle,0,Branch,25,???,23,Go to 23
+14,*,93,ヘベレル,Durel Beetle,0,Branch,30,???,24,Go to 24
+15,*,93,ヘベレル,Durel Beetle,0,Branch,24,???,21,Go to 21
+16,*,93,ヘベレル,Durel Beetle,0,Branch,25,???,22,Go to 22
+17,*,93,ヘベレル,Durel Beetle,0,Branch,30,???,23,Go to 23
+18,*,93,ヘベレル,Durel Beetle,1,Action,550,Attack,2,Random PC
+19,*,93,ヘベレル,Durel Beetle,1,Action,504,Driln,17,PC w/o Weak
+20,*,93,ヘベレル,Durel Beetle,1,Action,512,Slipara,16,PC w/o Sleep
+21,*,93,ヘベレル,Durel Beetle,1,Action,78,Call Allies,-1,None
+22,*,93,ヘベレル,Durel Beetle,1,Action,111,Call Allies,-1,None
+23,*,93,ヘベレル,Durel Beetle,1,Action,552,Run,-1,None
+24,*,93,ヘベレル,Durel Beetle,1,Action,551,Guard,-1,None
+1,*,94,マヌー,Totelm,0,Branch,11,???,5,Go to 5
+2,*,94,マヌー,Totelm,0,Branch,28,???,7,Go to 7
+3,*,94,マヌー,Totelm,0,Branch,25,???,8,Go to 8
+4,*,94,マヌー,Totelm,0,Branch,30,???,9,Go to 9
+5,*,94,マヌー,Totelm,0,Branch,26,???,8,Go to 8
+6,*,94,マヌー,Totelm,0,Branch,30,???,9,Go to 9
+7,*,94,マヌー,Totelm,1,Action,550,Attack,2,Random PC
+8,*,94,マヌー,Totelm,1,Action,551,Guard,-1,None
+9,*,94,マヌー,Totelm,1,Action,58,Assess Damage,-1,None
+1,*,95,ケベスク,Thryllak,0,Branch,44,???,3,Go to 3
+2,*,95,ケベスク,Thryllak,0,Branch,30,???,4,Go to 4
+3,*,95,ケベスク,Thryllak,0,Branch,24,???,13,Go to 13
+4,*,95,ケベスク,Thryllak,0,Branch,40,???,15,Go to 15
+5,*,95,ケベスク,Thryllak,0,Branch,11,???,7,Go to 7
+6,*,95,ケベスク,Thryllak,0,Branch,30,???,8,Go to 8
+7,*,95,ケベスク,Thryllak,0,Branch,25,???,14,Go to 14
+8,*,95,ケベスク,Thryllak,0,Branch,27,???,11,Go to 11
+9,*,95,ケベスク,Thryllak,0,Branch,27,???,12,Go to 12
+10,*,95,ケベスク,Thryllak,0,Branch,30,???,13,Go to 13
+11,*,95,ケベスク,Thryllak,1,Action,550,Attack,2,Random PC
+12,*,95,ケベスク,Thryllak,1,Action,551,Guard,-1,None
+13,*,95,ケベスク,Thryllak,1,Action,552,Run,-1,None
+14,*,95,ケベスク,Thryllak,1,Action,20,Gather Strength,-1,None
+15,*,95,ケベスク,Thryllak,1,Action,170,Needle Storm,2,Random PC
+1,*,96,ロッキ,Stonebeak,0,Branch,44,???,3,Go to 3
+2,*,96,ロッキ,Stonebeak,0,Branch,30,???,4,Go to 4
+3,*,96,ロッキ,Stonebeak,0,Branch,27,???,8,Go to 8
+4,*,96,ロッキ,Stonebeak,0,Branch,26,???,7,Go to 7
+5,*,96,ロッキ,Stonebeak,0,Branch,28,???,9,Go to 9
+6,*,96,ロッキ,Stonebeak,0,Branch,30,???,10,Go to 10
+7,*,96,ロッキ,Stonebeak,1,Action,550,Attack,2,Random PC
+8,*,96,ロッキ,Stonebeak,1,Action,552,Run,-1,None
+9,*,96,ロッキ,Stonebeak,1,Action,93,Fatigue Breath,2,Random PC
+10,*,96,ロッキ,Stonebeak,1,Action,551,Guard,-1,None
+1,*,97,キクシック,Razorbeak,0,Branch,44,???,3,Go to 3
+2,*,97,キクシック,Razorbeak,0,Branch,30,???,4,Go to 4
+3,*,97,キクシック,Razorbeak,0,Branch,27,???,8,Go to 8
+4,*,97,キクシック,Razorbeak,0,Branch,26,???,7,Go to 7
+5,*,97,キクシック,Razorbeak,0,Branch,28,???,9,Go to 9
+6,*,97,キクシック,Razorbeak,0,Branch,30,???,10,Go to 10
+7,*,97,キクシック,Razorbeak,1,Action,550,Attack,2,Random PC
+8,*,97,キクシック,Razorbeak,1,Action,552,Run,-1,None
+9,*,97,キクシック,Razorbeak,1,Action,93,Fatigue Breath,2,Random PC
+10,*,97,キクシック,Razorbeak,1,Action,551,Guard,-1,None
+1,*,98,マセラウト,Stalk Fiend,0,Branch,11,???,6,Go to 6
+2,*,98,マセラウト,Stalk Fiend,0,Branch,12,???,9,Go to 9
+3,*,98,マセラウト,Stalk Fiend,0,Branch,28,???,11,Go to 11
+4,*,98,マセラウト,Stalk Fiend,0,Branch,25,???,13,Go to 13
+5,*,98,マセラウト,Stalk Fiend,0,Branch,30,???,15,Go to 15
+6,*,98,マセラウト,Stalk Fiend,0,Branch,26,???,11,Go to 11
+7,*,98,マセラウト,Stalk Fiend,0,Branch,25,???,12,Go to 12
+8,*,98,マセラウト,Stalk Fiend,0,Branch,25,???,14,Go to 14
+9,*,98,マセラウト,Stalk Fiend,0,Branch,23,???,11,Go to 11
+10,*,98,マセラウト,Stalk Fiend,0,Branch,30,???,13,Go to 13
+11,*,98,マセラウト,Stalk Fiend,1,Action,550,Attack,2,Random PC
+12,*,98,マセラウト,Stalk Fiend,1,Action,551,Guard,-1,None
+13,*,98,マセラウト,Stalk Fiend,1,Action,507,Sacres,7,Injured EC
+14,*,98,マセラウト,Stalk Fiend,1,Action,513,Quika,-1,None
+15,*,98,マセラウト,Stalk Fiend,1,Action,100,Magic?,-1,None
+1,*,99,アルシノ,Kantor,0,Branch,50,???,4,Go to 4
+2,*,99,アルシノ,Kantor,0,Branch,23,???,6,Go to 6
+3,*,99,アルシノ,Kantor,0,Branch,30,???,7,Go to 7
+4,*,99,アルシノ,Kantor,0,Branch,27,???,6,Go to 6
+5,*,99,アルシノ,Kantor,0,Branch,30,???,7,Go to 7
+6,*,99,アルシノ,Kantor,1,Action,550,Attack,2,Random PC
+7,*,99,アルシノ,Kantor,1,Action,5,Thunder of Fury,2,Random PC
+1,*,100,アサシン,Shadow,0,Branch,11,???,4,Go to 4
+2,*,100,アサシン,Shadow,0,Branch,12,???,5,Go to 5
+3,*,100,アサシン,Shadow,0,Branch,30,???,6,Go to 6
+4,*,100,アサシン,Shadow,0,Branch,24,???,12,Go to 12
+5,*,100,アサシン,Shadow,0,Branch,22,???,12,Go to 12
+6,*,100,アサシン,Shadow,0,Branch,24,???,10,Go to 10
+7,*,100,アサシン,Shadow,0,Branch,25,???,13,Go to 13
+8,*,100,アサシン,Shadow,0,Branch,27,???,14,Go to 14
+9,*,100,アサシン,Shadow,0,Branch,30,???,11,Go to 11
+10,*,100,アサシン,Shadow,1,Action,550,Attack,4,PC w/ Least HP
+11,*,100,アサシン,Shadow,1,Action,551,Guard,-1,None
+12,*,100,アサシン,Shadow,1,Action,502,Sylenis,20,PC w/ Highest Will
+13,*,100,アサシン,Shadow,1,Action,522,Wevlen,2,Random PC
+14,*,100,アサシン,Shadow,1,Action,12,Death Strike,3,PC w/ Most HP
+1,*,101,イレイザー,Assassin,0,Branch,11,???,4,Go to 4
+2,*,101,イレイザー,Assassin,0,Branch,12,???,5,Go to 5
+3,*,101,イレイザー,Assassin,0,Branch,30,???,6,Go to 6
+4,*,101,イレイザー,Assassin,0,Branch,22,???,12,Go to 12
+5,*,101,イレイザー,Assassin,0,Branch,21,???,12,Go to 12
+6,*,101,イレイザー,Assassin,0,Branch,25,???,10,Go to 10
+7,*,101,イレイザー,Assassin,0,Branch,21,???,13,Go to 13
+8,*,101,イレイザー,Assassin,0,Branch,27,???,14,Go to 14
+9,*,101,イレイザー,Assassin,0,Branch,30,???,11,Go to 11
+10,*,101,イレイザー,Assassin,1,Action,550,Attack,4,PC w/ Least HP
+11,*,101,イレイザー,Assassin,1,Action,551,Guard,-1,None
+12,*,101,イレイザー,Assassin,1,Action,502,Sylenis,20,PC w/ Highest Will
+13,*,101,イレイザー,Assassin,1,Action,522,Wevlen,2,Random PC
+14,*,101,イレイザー,Assassin,1,Action,12,Death Strike,3,PC w/ Most HP
+1,*,102,要塞将兵,Officer,0,Branch,5,???,12,Go to 12
+2,*,102,要塞将兵,Officer,0,Branch,38,???,8,Go to 8
+3,*,102,要塞将兵,Officer,0,Branch,25,???,15,Go to 15
+4,*,102,要塞将兵,Officer,0,Branch,24,???,17,Go to 17
+5,*,102,要塞将兵,Officer,0,Branch,25,???,18,Go to 18
+6,*,102,要塞将兵,Officer,0,Branch,28,???,19,Go to 19
+7,*,102,要塞将兵,Officer,0,Branch,30,???,16,Go to 16
+8,*,102,要塞将兵,Officer,0,Branch,23,???,18,Go to 18
+9,*,102,要塞将兵,Officer,0,Branch,24,???,17,Go to 17
+10,*,102,要塞将兵,Officer,0,Branch,31,???,12,Go to 12
+11,*,102,要塞将兵,Officer,0,Branch,30,???,16,Go to 16
+12,*,102,要塞将兵,Officer,0,Branch,24,???,15,Go to 15
+13,*,102,要塞将兵,Officer,0,Branch,25,???,17,Go to 17
+14,*,102,要塞将兵,Officer,0,Branch,30,???,18,Go to 18
+15,*,102,要塞将兵,Officer,1,Action,550,Attack,2,Random PC
+16,*,102,要塞将兵,Officer,1,Action,507,Sacres,7,Injured EC
+17,*,102,要塞将兵,Officer,1,Action,534,Electrum,2,Random PC
+18,*,102,要塞将兵,Officer,1,Action,19,Counter Stance,-1,None
+19,*,102,要塞将兵,Officer,1,Action,551,Guard,-1,None
+1,*,103,要塞煌兵,Mage Warden,0,Branch,11,???,4,Go to 4
+2,*,103,要塞煌兵,Mage Warden,0,Branch,12,???,4,Go to 4
+3,*,103,要塞煌兵,Mage Warden,0,Branch,30,???,12,Go to 12
+4,*,103,要塞煌兵,Mage Warden,0,Branch,35,???,7,Go to 7
+5,*,103,要塞煌兵,Mage Warden,0,Branch,24,???,20,Go to 20
+6,*,103,要塞煌兵,Mage Warden,0,Branch,25,???,21,Go to 21
+7,*,103,要塞煌兵,Mage Warden,0,Branch,22,???,25,Go to 25
+8,*,103,要塞煌兵,Mage Warden,0,Branch,21,???,18,Go to 18
+9,*,103,要塞煌兵,Mage Warden,0,Branch,21,???,19,Go to 19
+10,*,103,要塞煌兵,Mage Warden,0,Branch,25,???,24,Go to 24
+11,*,103,要塞煌兵,Mage Warden,0,Branch,30,???,23,Go to 23
+12,*,103,要塞煌兵,Mage Warden,0,Branch,31,???,7,Go to 7
+13,*,103,要塞煌兵,Mage Warden,0,Branch,1,???,16,Go to 16
+14,*,103,要塞煌兵,Mage Warden,0,Branch,39,???,16,Go to 16
+15,*,103,要塞煌兵,Mage Warden,0,Branch,30,???,7,Go to 7
+16,*,103,要塞煌兵,Mage Warden,0,Branch,24,???,22,Go to 22
+17,*,103,要塞煌兵,Mage Warden,0,Branch,30,???,7,Go to 7
+18,*,103,要塞煌兵,Mage Warden,1,Action,550,Attack,1,Same PC
+19,*,103,要塞煌兵,Mage Warden,1,Action,551,Guard,-1,None
+20,*,103,要塞煌兵,Mage Warden,1,Action,502,Sylenis,15,PC w/o Silence
+21,*,103,要塞煌兵,Mage Warden,1,Action,504,Driln,17,PC w/o Weak
+22,*,103,要塞煌兵,Mage Warden,1,Action,507,Sacres,7,Injured EC
+23,*,103,要塞煌兵,Mage Warden,1,Action,531,Wevlum,2,Random PC
+24,*,103,要塞煌兵,Mage Warden,1,Action,528,Crystalum,2,Random PC
+25,*,103,要塞煌兵,Mage Warden,1,Action,37,Focus,-1,None
+1,*,104,要塞兵,Shock Troop,0,Branch,42,???,5,Go to 5
+2,*,104,要塞兵,Shock Troop,0,Branch,38,???,4,Go to 4
+3,*,104,要塞兵,Shock Troop,0,Branch,30,???,5,Go to 5
+4,*,104,要塞兵,Shock Troop,0,Branch,22,???,9,Go to 9
+5,*,104,要塞兵,Shock Troop,0,Branch,21,???,10,Go to 10
+6,*,104,要塞兵,Shock Troop,0,Branch,23,???,8,Go to 8
+7,*,104,要塞兵,Shock Troop,1,Action,550,Attack,2,Random PC
+8,*,104,要塞兵,Shock Troop,1,Action,71,Poison Gas,19,PC w/o Poison
+9,*,104,要塞兵,Shock Troop,1,Action,72,Sacrum Crystal,-1,None
+10,*,104,要塞兵,Shock Troop,1,Action,551,Guard,-1,None
+1,*,105,ベレーザ兵,Red Guard,0,Branch,21,???,5,Go to 5
+2,*,105,ベレーザ兵,Red Guard,0,Branch,23,???,4,Go to 4
+3,*,105,ベレーザ兵,Red Guard,1,Action,550,Attack,2,Random PC
+4,*,105,ベレーザ兵,Red Guard,1,Action,70,Grenade,2,Random PC
+5,*,105,ベレーザ兵,Red Guard,1,Action,551,Guard,-1,None
+1,*,106,工作兵,Elite Guard,0,Branch,42,???,5,Go to 5
+2,*,106,工作兵,Elite Guard,0,Branch,38,???,4,Go to 4
+3,*,106,工作兵,Elite Guard,0,Branch,30,???,5,Go to 5
+4,*,106,工作兵,Elite Guard,0,Branch,23,???,9,Go to 9
+5,*,106,工作兵,Elite Guard,0,Branch,21,???,10,Go to 10
+6,*,106,工作兵,Elite Guard,0,Branch,23,???,8,Go to 8
+7,*,106,工作兵,Elite Guard,1,Action,550,Attack,2,Random PC
+8,*,106,工作兵,Elite Guard,1,Action,71,Poison Gas,19,PC w/o Poison
+9,*,106,工作兵,Elite Guard,1,Action,72,Sacrum Crystal,-1,None
+10,*,106,工作兵,Elite Guard,1,Action,551,Guard,-1,None
+1,*,107,ワーン,Jynnus,0,Branch,44,???,3,Go to 3
+2,*,107,ワーン,Jynnus,0,Branch,30,???,4,Go to 4
+3,*,107,ワーン,Jynnus,0,Branch,27,???,15,Go to 15
+4,*,107,ワーン,Jynnus,0,Branch,25,???,13,Go to 13
+5,*,107,ワーン,Jynnus,0,Branch,24,???,8,Go to 8
+6,*,107,ワーン,Jynnus,0,Branch,27,???,11,Go to 11
+7,*,107,ワーン,Jynnus,0,Branch,30,???,14,Go to 14
+8,*,107,ワーン,Jynnus,0,Branch,25,???,16,Go to 16
+9,*,107,ワーン,Jynnus,0,Branch,24,???,17,Go to 17
+10,*,107,ワーン,Jynnus,0,Branch,30,???,18,Go to 18
+11,*,107,ワーン,Jynnus,0,Branch,35,???,20,Go to 20
+12,*,107,ワーン,Jynnus,0,Branch,30,???,19,Go to 19
+13,*,107,ワーン,Jynnus,1,Action,550,Attack,2,Random PC
+14,*,107,ワーン,Jynnus,1,Action,551,Guard,-1,None
+15,*,107,ワーン,Jynnus,1,Action,552,Run,-1,None
+16,*,107,ワーン,Jynnus,1,Action,69,Call Allies,-1,None
+17,*,107,ワーン,Jynnus,1,Action,73,Call Allies,-1,None
+18,*,107,ワーン,Jynnus,1,Action,109,Call Allies,-1,None
+19,*,107,ワーン,Jynnus,1,Action,517,Eterni,2,Random PC
+20,*,107,ワーン,Jynnus,1,Action,100,Magic?,-1,None
+1,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,17,???,12,Go to 12
+2,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,16,???,8,Go to 8
+3,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,21,???,16,Go to 16
+4,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,23,???,17,Go to 17
+5,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,23,???,18,Go to 18
+6,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,28,???,15,Go to 15
+7,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,30,???,19,Go to 19
+8,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,22,???,16,Go to 16
+9,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,24,???,17,Go to 17
+10,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,28,???,15,Go to 15
+11,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,30,???,19,Go to 19
+12,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,24,???,16,Go to 16
+13,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,25,???,17,Go to 17
+14,*,108,ヒュドラ巨兵,Hydra Elite,0,Branch,30,???,15,Go to 15
+15,*,108,ヒュドラ巨兵,Hydra Elite,1,Action,550,Attack,2,Random PC
+16,*,108,ヒュドラ巨兵,Hydra Elite,1,Action,119,Death Tackle,3,PC w/ Most HP
+17,*,108,ヒュドラ巨兵,Hydra Elite,1,Action,251,Sonic Wave,2,Random PC
+18,*,108,ヒュドラ巨兵,Hydra Elite,1,Action,535,Electrulen,2,Random PC
+19,*,108,ヒュドラ巨兵,Hydra Elite,1,Action,551,Guard,-1,None
+1,*,109,イエルモー,Yulooper,0,Branch,1,???,9,Go to 9
+2,*,109,イエルモー,Yulooper,0,Branch,25,???,9,Go to 9
+3,*,109,イエルモー,Yulooper,0,Branch,24,???,7,Go to 7
+4,*,109,イエルモー,Yulooper,0,Branch,23,???,8,Go to 8
+5,*,109,イエルモー,Yulooper,0,Branch,33,???,11,Go to 11
+6,*,109,イエルモー,Yulooper,0,Branch,30,???,10,Go to 10
+7,*,109,イエルモー,Yulooper,1,Action,550,Attack,2,Random PC
+8,*,109,イエルモー,Yulooper,1,Action,551,Guard,-1,None
+9,*,109,イエルモー,Yulooper,1,Action,552,Run,-1,None
+10,*,109,イエルモー,Yulooper,1,Action,533,Electres,-1,None
+11,*,109,イエルモー,Yulooper,1,Action,100,Magic?,-1,None
+1,*,110,シュルラット,Hunter,0,Branch,45,???,3,Go to 3
+2,*,110,シュルラット,Hunter,0,Branch,30,???,4,Go to 4
+3,*,110,シュルラット,Hunter,0,Branch,28,???,11,Go to 11
+4,*,110,シュルラット,Hunter,0,Branch,44,???,6,Go to 6
+5,*,110,シュルラット,Hunter,0,Branch,30,???,7,Go to 7
+6,*,110,シュルラット,Hunter,0,Branch,24,???,11,Go to 11
+7,*,110,シュルラット,Hunter,0,Branch,50,???,9,Go to 9
+8,*,110,シュルラット,Hunter,0,Branch,24,???,10,Go to 10
+9,*,110,シュルラット,Hunter,1,Action,550,Attack,2,Random PC
+10,*,110,シュルラット,Hunter,1,Action,4,Laser,2,Random PC
+11,*,110,シュルラット,Hunter,1,Action,552,Run,-1,None
+1,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,11,???,4,Go to 4
+2,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,12,???,6,Go to 6
+3,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,8,Go to 8
+4,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+5,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+6,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,14,Go to 14
+7,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+8,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,11,Go to 11
+9,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,23,???,14,Go to 14
+10,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+11,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+12,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,26,???,15,Go to 15
+13,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,16,Go to 16
+14,*,111,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+15,*,111,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
+16,*,111,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
+1,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,11,???,4,Go to 4
+2,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,12,???,6,Go to 6
+3,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,8,Go to 8
+4,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+5,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+6,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,14,Go to 14
+7,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+8,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,11,Go to 11
+9,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,23,???,14,Go to 14
+10,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+11,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+12,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,26,???,15,Go to 15
+13,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,16,Go to 16
+14,*,112,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+15,*,112,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
+16,*,112,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
+1,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,11,???,4,Go to 4
+2,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,12,???,6,Go to 6
+3,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,8,Go to 8
+4,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+5,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+6,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,14,Go to 14
+7,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+8,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,11,Go to 11
+9,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,23,???,14,Go to 14
+10,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+11,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+12,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,26,???,15,Go to 15
+13,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,16,Go to 16
+14,*,113,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+15,*,113,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
+16,*,113,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
+1,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,11,???,4,Go to 4
+2,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,12,???,6,Go to 6
+3,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,8,Go to 8
+4,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+5,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+6,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,14,Go to 14
+7,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+8,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,11,Go to 11
+9,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,23,???,14,Go to 14
+10,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+11,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+12,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,26,???,15,Go to 15
+13,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,16,Go to 16
+14,*,114,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+15,*,114,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
+16,*,114,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
+1,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,11,???,4,Go to 4
+2,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,12,???,6,Go to 6
+3,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,8,Go to 8
+4,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+5,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+6,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,14,Go to 14
+7,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+8,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,11,Go to 11
+9,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,23,???,14,Go to 14
+10,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+11,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+12,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,26,???,15,Go to 15
+13,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,16,Go to 16
+14,*,115,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+15,*,115,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
+16,*,115,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
+1,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,11,???,4,Go to 4
+2,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,12,???,6,Go to 6
+3,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,8,Go to 8
+4,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+5,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+6,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,14,Go to 14
+7,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+8,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,50,???,11,Go to 11
+9,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,23,???,14,Go to 14
+10,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,15,Go to 15
+11,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,27,???,14,Go to 14
+12,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,26,???,15,Go to 15
+13,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,30,???,16,Go to 16
+14,*,116,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+15,*,116,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
+16,*,116,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
+1,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,11,???,4,Go to 4
+2,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,12,???,6,Go to 6
+3,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,30,???,8,Go to 8
+4,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,27,???,13,Go to 13
+5,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,30,???,14,Go to 14
+6,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,50,???,13,Go to 13
+7,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,30,???,14,Go to 14
+8,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,50,???,11,Go to 11
+9,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,23,???,13,Go to 13
+10,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,30,???,14,Go to 14
+11,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,27,???,13,Go to 13
+12,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,26,???,14,Go to 14
+13,*,117,盗掘王シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+14,*,117,盗掘王シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
+1,*,118,シュルラット,Hunter,0,Branch,45,???,3,Go to 3
+2,*,118,シュルラット,Hunter,0,Branch,30,???,4,Go to 4
+3,*,118,シュルラット,Hunter,0,Branch,28,???,11,Go to 11
+4,*,118,シュルラット,Hunter,0,Branch,44,???,6,Go to 6
+5,*,118,シュルラット,Hunter,0,Branch,30,???,7,Go to 7
+6,*,118,シュルラット,Hunter,0,Branch,24,???,11,Go to 11
+7,*,118,シュルラット,Hunter,0,Branch,50,???,9,Go to 9
+8,*,118,シュルラット,Hunter,0,Branch,24,???,10,Go to 10
+9,*,118,シュルラット,Hunter,1,Action,550,Attack,2,Random PC
+10,*,118,シュルラット,Hunter,1,Action,4,Laser,2,Random PC
+11,*,118,シュルラット,Hunter,1,Action,552,Run,-1,None
+1,*,119,テルヴァ,Delvax,0,Branch,45,???,3,Go to 3
+2,*,119,テルヴァ,Delvax,0,Branch,30,???,4,Go to 4
+3,*,119,テルヴァ,Delvax,0,Branch,28,???,10,Go to 10
+4,*,119,テルヴァ,Delvax,0,Branch,44,???,6,Go to 6
+5,*,119,テルヴァ,Delvax,0,Branch,30,???,7,Go to 7
+6,*,119,テルヴァ,Delvax,0,Branch,24,???,10,Go to 10
+7,*,119,テルヴァ,Delvax,0,Branch,22,???,9,Go to 9
+8,*,119,テルヴァ,Delvax,1,Action,550,Attack,2,Random PC
+9,*,119,テルヴァ,Delvax,1,Action,551,Guard,-1,None
+10,*,119,テルヴァ,Delvax,1,Action,552,Run,-1,None
+1,*,120,ドゥムス,Hopril,0,Branch,45,???,3,Go to 3
+2,*,120,ドゥムス,Hopril,0,Branch,30,???,4,Go to 4
+3,*,120,ドゥムス,Hopril,0,Branch,28,???,11,Go to 11
+4,*,120,ドゥムス,Hopril,0,Branch,44,???,6,Go to 6
+5,*,120,ドゥムス,Hopril,0,Branch,30,???,7,Go to 7
+6,*,120,ドゥムス,Hopril,0,Branch,24,???,11,Go to 11
+7,*,120,ドゥムス,Hopril,0,Branch,24,???,12,Go to 12
+8,*,120,ドゥムス,Hopril,0,Branch,21,???,10,Go to 10
+9,*,120,ドゥムス,Hopril,1,Action,550,Attack,2,Random PC
+10,*,120,ドゥムス,Hopril,1,Action,551,Guard,-1,None
+11,*,120,ドゥムス,Hopril,1,Action,552,Run,-1,None
+12,*,120,ドゥムス,Hopril,1,Action,61,Laser Blast,13,PC w/o Stone
+1,*,121,エルシアン,Elcian,0,Branch,37,???,5,Go to 5
+2,*,121,エルシアン,Elcian,0,Branch,24,???,8,Go to 8
+3,*,121,エルシアン,Elcian,0,Branch,25,???,11,Go to 11
+4,*,121,エルシアン,Elcian,0,Branch,30,???,12,Go to 12
+5,*,121,エルシアン,Elcian,0,Branch,25,???,9,Go to 9
+6,*,121,エルシアン,Elcian,0,Branch,24,???,10,Go to 10
+7,*,121,エルシアン,Elcian,0,Branch,30,???,2,Go to 2
+8,*,121,エルシアン,Elcian,1,Action,550,Attack,2,Random PC
+9,*,121,エルシアン,Elcian,1,Action,552,Run,-1,None
+10,*,121,エルシアン,Elcian,1,Action,507,Sacres,22,Self
+11,*,121,エルシアン,Elcian,1,Action,512,Slipara,-1,None
+12,*,121,エルシアン,Elcian,1,Action,523,Pyri,-1,None
+1,*,122,軍艦兵,Soldier,0,Branch,21,???,3,Go to 3
+2,*,122,軍艦兵,Soldier,1,Action,550,Attack,2,Random PC
+3,*,122,軍艦兵,Soldier,1,Action,551,Guard,-1,None
+1,*,128,アントニオ,Antonio,0,Branch,11,???,9,Go to 9
+2,*,128,アントニオ,Antonio,0,Branch,12,???,11,Go to 11
+3,*,128,アントニオ,Antonio,0,Branch,13,???,13,Go to 13
+4,*,128,アントニオ,Antonio,0,Branch,14,???,13,Go to 13
+5,*,128,アントニオ,Antonio,0,Branch,62,???,16,Go to 16
+6,*,128,アントニオ,Antonio,0,Branch,2,???,9,Go to 9
+7,*,128,アントニオ,Antonio,0,Branch,27,???,19,Go to 19
+8,*,128,アントニオ,Antonio,0,Branch,30,???,20,Go to 20
+9,*,128,アントニオ,Antonio,0,Branch,25,???,19,Go to 19
+10,*,128,アントニオ,Antonio,0,Branch,30,???,20,Go to 20
+11,*,128,アントニオ,Antonio,0,Branch,50,???,19,Go to 19
+12,*,128,アントニオ,Antonio,0,Branch,30,???,20,Go to 20
+13,*,128,アントニオ,Antonio,0,Branch,26,???,19,Go to 19
+14,*,128,アントニオ,Antonio,0,Branch,25,???,20,Go to 20
+15,*,128,アントニオ,Antonio,0,Branch,30,???,21,Go to 21
+16,*,128,アントニオ,Antonio,0,Branch,25,???,19,Go to 19
+17,*,128,アントニオ,Antonio,0,Branch,23,???,20,Go to 20
+18,*,128,アントニオ,Antonio,0,Branch,30,???,21,Go to 21
+19,*,128,アントニオ,Antonio,1,Action,550,Attack,2,Random PC
+20,*,128,アントニオ,Antonio,1,Action,5,Thunder of Fury,2,Random PC
+21,*,128,アントニオ,Antonio,1,Action,34,Assess Damage,-1,None
+1,*,129,アガタウマス,Sentinel,0,Branch,48,???,8,Go to 8
+2,*,129,アガタウマス,Sentinel,0,Branch,5,???,6,Go to 6
+3,*,129,アガタウマス,Sentinel,0,Branch,0,???,6,Go to 6
+4,*,129,アガタウマス,Sentinel,0,Branch,26,???,10,Go to 10
+5,*,129,アガタウマス,Sentinel,0,Branch,30,???,11,Go to 11
+6,*,129,アガタウマス,Sentinel,0,Branch,29,???,11,Go to 11
+7,*,129,アガタウマス,Sentinel,0,Branch,30,???,10,Go to 10
+8,*,129,アガタウマス,Sentinel,0,Branch,28,???,12,Go to 12
+9,*,129,アガタウマス,Sentinel,0,Branch,30,???,10,Go to 10
+10,*,129,アガタウマス,Sentinel,1,Action,550,Attack,2,Random PC
+11,*,129,アガタウマス,Sentinel,1,Action,9,Target Search,-1,None
+12,*,129,アガタウマス,Sentinel,1,Action,99,Blaster,2,Random PC
+1,*,130,イマゴタリア,Bleigock,0,Branch,11,???,5,Go to 5
+2,*,130,イマゴタリア,Bleigock,0,Branch,12,???,7,Go to 7
+3,*,130,イマゴタリア,Bleigock,0,Branch,50,???,11,Go to 11
+4,*,130,イマゴタリア,Bleigock,0,Branch,30,???,14,Go to 14
+5,*,130,イマゴタリア,Bleigock,0,Branch,25,???,18,Go to 18
+6,*,130,イマゴタリア,Bleigock,0,Branch,30,???,17,Go to 17
+7,*,130,イマゴタリア,Bleigock,0,Branch,50,???,9,Go to 9
+8,*,130,イマゴタリア,Bleigock,0,Branch,25,???,19,Go to 19
+9,*,130,イマゴタリア,Bleigock,0,Branch,22,???,19,Go to 19
+10,*,130,イマゴタリア,Bleigock,0,Branch,30,???,17,Go to 17
+11,*,130,イマゴタリア,Bleigock,0,Branch,21,???,19,Go to 19
+12,*,130,イマゴタリア,Bleigock,0,Branch,25,???,18,Go to 18
+13,*,130,イマゴタリア,Bleigock,0,Branch,30,???,17,Go to 17
+14,*,130,イマゴタリア,Bleigock,0,Branch,25,???,19,Go to 19
+15,*,130,イマゴタリア,Bleigock,0,Branch,22,???,18,Go to 18
+16,*,130,イマゴタリア,Bleigock,0,Branch,30,???,17,Go to 17
+17,*,130,イマゴタリア,Bleigock,1,Action,550,Attack,2,Random PC
+18,*,130,イマゴタリア,Bleigock,1,Action,183,Frost Breath,-1,None
+19,*,130,イマゴタリア,Bleigock,1,Action,25,Poisonous Bile,-1,None
+1,*,131,獄長,Executioner,0,Branch,17,???,26,Go to 26
+2,*,131,獄長,Executioner,0,Branch,16,???,22,Go to 22
+3,*,131,獄長,Executioner,0,Branch,11,???,7,Go to 7
+4,*,131,獄長,Executioner,0,Branch,12,???,9,Go to 9
+5,*,131,獄長,Executioner,0,Branch,13,???,9,Go to 9
+6,*,131,獄長,Executioner,0,Branch,30,???,13,Go to 13
+7,*,131,獄長,Executioner,0,Branch,25,???,28,Go to 28
+8,*,131,獄長,Executioner,0,Branch,30,???,30,Go to 30
+9,*,131,獄長,Executioner,0,Branch,50,???,11,Go to 11
+10,*,131,獄長,Executioner,0,Branch,30,???,29,Go to 29
+11,*,131,獄長,Executioner,0,Branch,25,???,28,Go to 28
+12,*,131,獄長,Executioner,0,Branch,30,???,31,Go to 31
+13,*,131,獄長,Executioner,0,Branch,50,???,17,Go to 17
+14,*,131,獄長,Executioner,0,Branch,24,???,30,Go to 30
+15,*,131,獄長,Executioner,0,Branch,27,???,29,Go to 29
+16,*,131,獄長,Executioner,0,Branch,30,???,28,Go to 28
+17,*,131,獄長,Executioner,0,Branch,24,???,28,Go to 28
+18,*,131,獄長,Executioner,0,Branch,24,???,31,Go to 31
+19,*,131,獄長,Executioner,0,Branch,24,???,32,Go to 32
+20,*,131,獄長,Executioner,0,Branch,25,???,30,Go to 30
+21,*,131,獄長,Executioner,0,Branch,30,???,29,Go to 29
+22,*,131,獄長,Executioner,0,Branch,22,???,28,Go to 28
+23,*,131,獄長,Executioner,0,Branch,24,???,30,Go to 30
+24,*,131,獄長,Executioner,0,Branch,28,???,29,Go to 29
+25,*,131,獄長,Executioner,0,Branch,30,???,32,Go to 32
+26,*,131,獄長,Executioner,0,Branch,25,???,29,Go to 29
+27,*,131,獄長,Executioner,0,Branch,30,???,30,Go to 30
+28,*,131,獄長,Executioner,1,Action,550,Attack,2,Random PC
+29,*,131,獄長,Executioner,1,Action,11,Tackle,3,PC w/ Most HP
+30,*,131,獄長,Executioner,1,Action,251,Sonic Wave,2,Random PC
+31,*,131,獄長,Executioner,1,Action,533,Electres,2,Random PC
+32,*,131,獄長,Executioner,1,Action,551,Guard,-1,None
+1,*,132,ガルシアン,Galcian,0,Branch,1,???,12,Go to 12
+2,*,132,ガルシアン,Galcian,0,Branch,11,???,6,Go to 6
+3,*,132,ガルシアン,Galcian,0,Branch,12,???,6,Go to 6
+4,*,132,ガルシアン,Galcian,0,Branch,25,???,9,Go to 9
+5,*,132,ガルシアン,Galcian,0,Branch,30,???,10,Go to 10
+6,*,132,ガルシアン,Galcian,0,Branch,25,???,8,Go to 8
+7,*,132,ガルシアン,Galcian,0,Branch,30,???,11,Go to 11
+8,*,132,ガルシアン,Galcian,1,Action,550,Attack,2,Random PC
+9,*,132,ガルシアン,Galcian,1,Action,518,Eternes,-1,None
+10,*,132,ガルシアン,Galcian,1,Action,534,Electrum,2,Random PC
+11,*,132,ガルシアン,Galcian,1,Action,24,Devolver,-1,None
+12,*,132,ガルシアン,Galcian,1,Action,509,Sacrulen,22,Self
+1,*,133,護送将兵,Royal Guard,0,Branch,5,???,11,Go to 11
+2,*,133,護送将兵,Royal Guard,0,Branch,38,???,8,Go to 8
+3,*,133,護送将兵,Royal Guard,0,Branch,25,???,14,Go to 14
+4,*,133,護送将兵,Royal Guard,0,Branch,24,???,16,Go to 16
+5,*,133,護送将兵,Royal Guard,0,Branch,25,???,17,Go to 17
+6,*,133,護送将兵,Royal Guard,0,Branch,28,???,18,Go to 18
+7,*,133,護送将兵,Royal Guard,0,Branch,30,???,15,Go to 15
+8,*,133,護送将兵,Royal Guard,0,Branch,25,???,17,Go to 17
+9,*,133,護送将兵,Royal Guard,0,Branch,32,???,11,Go to 11
+10,*,133,護送将兵,Royal Guard,0,Branch,30,???,15,Go to 15
+11,*,133,護送将兵,Royal Guard,0,Branch,24,???,14,Go to 14
+12,*,133,護送将兵,Royal Guard,0,Branch,25,???,16,Go to 16
+13,*,133,護送将兵,Royal Guard,0,Branch,30,???,17,Go to 17
+14,*,133,護送将兵,Royal Guard,1,Action,550,Attack,2,Random PC
+15,*,133,護送将兵,Royal Guard,1,Action,506,Sacri,7,Injured EC
+16,*,133,護送将兵,Royal Guard,1,Action,533,Electres,2,Random PC
+17,*,133,護送将兵,Royal Guard,1,Action,19,Counter Stance,-1,None
+18,*,133,護送将兵,Royal Guard,1,Action,551,Guard,-1,None
+1,*,134,ラァス,Rokwyrm,0,Branch,1,???,6,Go to 6
+2,*,134,ラァス,Rokwyrm,0,Branch,2,???,9,Go to 9
+3,*,134,ラァス,Rokwyrm,0,Branch,23,???,14,Go to 14
+4,*,134,ラァス,Rokwyrm,0,Branch,25,???,13,Go to 13
+5,*,134,ラァス,Rokwyrm,0,Branch,30,???,12,Go to 12
+6,*,134,ラァス,Rokwyrm,0,Branch,25,???,14,Go to 14
+7,*,134,ラァス,Rokwyrm,0,Branch,24,???,13,Go to 13
+8,*,134,ラァス,Rokwyrm,0,Branch,30,???,12,Go to 12
+9,*,134,ラァス,Rokwyrm,0,Branch,22,???,14,Go to 14
+10,*,134,ラァス,Rokwyrm,0,Branch,27,???,13,Go to 13
+11,*,134,ラァス,Rokwyrm,0,Branch,30,???,12,Go to 12
+12,*,134,ラァス,Rokwyrm,1,Action,550,Attack,2,Random PC
+13,*,134,ラァス,Rokwyrm,1,Action,0,Volcanic Blast,-1,None
+14,*,134,ラァス,Rokwyrm,1,Action,1,Cinder Storm,13,PC w/o Stone
+1,*,136,アントニオＪｒ,Antonio 2,0,Branch,50,???,4,Go to 4
+2,*,136,アントニオＪｒ,Antonio 2,0,Branch,23,???,6,Go to 6
+3,*,136,アントニオＪｒ,Antonio 2,0,Branch,30,???,7,Go to 7
+4,*,136,アントニオＪｒ,Antonio 2,0,Branch,27,???,6,Go to 6
+5,*,136,アントニオＪｒ,Antonio 2,0,Branch,30,???,7,Go to 7
+6,*,136,アントニオＪｒ,Antonio 2,1,Action,550,Attack,2,Random PC
+7,*,136,アントニオＪｒ,Antonio 2,1,Action,5,Thunder of Fury,2,Random PC
+1,*,137,ディアトリマ,Rik'talish,0,Branch,11,???,11,Go to 11
+2,*,137,ディアトリマ,Rik'talish,0,Branch,12,???,11,Go to 11
+3,*,137,ディアトリマ,Rik'talish,0,Branch,1,???,15,Go to 15
+4,*,137,ディアトリマ,Rik'talish,0,Branch,50,???,6,Go to 6
+5,*,137,ディアトリマ,Rik'talish,0,Branch,30,???,15,Go to 15
+6,*,137,ディアトリマ,Rik'talish,0,Branch,22,???,22,Go to 22
+7,*,137,ディアトリマ,Rik'talish,0,Branch,22,???,23,Go to 23
+8,*,137,ディアトリマ,Rik'talish,0,Branch,22,???,21,Go to 21
+9,*,137,ディアトリマ,Rik'talish,0,Branch,28,???,19,Go to 19
+10,*,137,ディアトリマ,Rik'talish,0,Branch,30,???,20,Go to 20
+11,*,137,ディアトリマ,Rik'talish,0,Branch,23,???,22,Go to 22
+12,*,137,ディアトリマ,Rik'talish,0,Branch,24,???,23,Go to 23
+13,*,137,ディアトリマ,Rik'talish,0,Branch,29,???,21,Go to 21
+14,*,137,ディアトリマ,Rik'talish,0,Branch,30,???,19,Go to 19
+15,*,137,ディアトリマ,Rik'talish,0,Branch,22,???,22,Go to 22
+16,*,137,ディアトリマ,Rik'talish,0,Branch,24,???,23,Go to 23
+17,*,137,ディアトリマ,Rik'talish,0,Branch,27,???,21,Go to 21
+18,*,137,ディアトリマ,Rik'talish,0,Branch,30,???,19,Go to 19
+19,*,137,ディアトリマ,Rik'talish,1,Action,550,Attack,16,PC w/o Sleep
+20,*,137,ディアトリマ,Rik'talish,1,Action,551,Guard,-1,None
+21,*,137,ディアトリマ,Rik'talish,1,Action,2,Feather Slash,2,Random PC
+22,*,137,ディアトリマ,Rik'talish,1,Action,7,Circle of Panic,14,PC w/o Confusion
+23,*,137,ディアトリマ,Rik'talish,1,Action,8,Ring of Sleep,16,PC w/o Sleep
+1,*,138,シニストラ,Sinistra,0,Branch,17,???,18,Go to 18
+2,*,138,シニストラ,Sinistra,0,Branch,53,???,22,Go to 22
+3,*,138,シニストラ,Sinistra,0,Branch,11,???,9,Go to 9
+4,*,138,シニストラ,Sinistra,0,Branch,12,???,12,Go to 12
+5,*,138,シニストラ,Sinistra,0,Branch,38,???,16,Go to 16
+6,*,138,シニストラ,Sinistra,0,Branch,39,???,17,Go to 17
+7,*,138,シニストラ,Sinistra,0,Branch,25,???,20,Go to 20
+8,*,138,シニストラ,Sinistra,0,Branch,30,???,21,Go to 21
+9,*,138,シニストラ,Sinistra,0,Branch,25,???,23,Go to 23
+10,*,138,シニストラ,Sinistra,0,Branch,25,???,20,Go to 20
+11,*,138,シニストラ,Sinistra,0,Branch,30,???,21,Go to 21
+12,*,138,シニストラ,Sinistra,0,Branch,50,???,14,Go to 14
+13,*,138,シニストラ,Sinistra,0,Branch,30,???,15,Go to 15
+14,*,138,シニストラ,Sinistra,0,Branch,25,???,20,Go to 20
+15,*,138,シニストラ,Sinistra,0,Branch,30,???,21,Go to 21
+16,*,138,シニストラ,Sinistra,0,Branch,23,???,23,Go to 23
+17,*,138,シニストラ,Sinistra,0,Branch,21,???,23,Go to 23
+18,*,138,シニストラ,Sinistra,0,Branch,23,???,20,Go to 20
+19,*,138,シニストラ,Sinistra,0,Branch,30,???,21,Go to 21
+20,*,138,シニストラ,Sinistra,1,Action,550,Attack,2,Random PC
+21,*,138,シニストラ,Sinistra,1,Action,51,Explode,-1,None
+22,*,138,シニストラ,Sinistra,1,Action,54,Death Waltz,-1,None
+23,*,138,シニストラ,Sinistra,1,Action,55,Engage,-1,None
+1,*,139,デクストラ,Destra,0,Branch,17,???,18,Go to 18
+2,*,139,デクストラ,Destra,0,Branch,53,???,22,Go to 22
+3,*,139,デクストラ,Destra,0,Branch,12,???,9,Go to 9
+4,*,139,デクストラ,Destra,0,Branch,13,???,12,Go to 12
+5,*,139,デクストラ,Destra,0,Branch,38,???,16,Go to 16
+6,*,139,デクストラ,Destra,0,Branch,39,???,17,Go to 17
+7,*,139,デクストラ,Destra,0,Branch,25,???,20,Go to 20
+8,*,139,デクストラ,Destra,0,Branch,30,???,21,Go to 21
+9,*,139,デクストラ,Destra,0,Branch,25,???,23,Go to 23
+10,*,139,デクストラ,Destra,0,Branch,25,???,20,Go to 20
+11,*,139,デクストラ,Destra,0,Branch,30,???,21,Go to 21
+12,*,139,デクストラ,Destra,0,Branch,50,???,14,Go to 14
+13,*,139,デクストラ,Destra,0,Branch,30,???,15,Go to 15
+14,*,139,デクストラ,Destra,0,Branch,25,???,20,Go to 20
+15,*,139,デクストラ,Destra,0,Branch,30,???,21,Go to 21
+16,*,139,デクストラ,Destra,0,Branch,23,???,23,Go to 23
+17,*,139,デクストラ,Destra,0,Branch,21,???,23,Go to 23
+18,*,139,デクストラ,Destra,0,Branch,23,???,20,Go to 20
+19,*,139,デクストラ,Destra,0,Branch,30,???,21,Go to 21
+20,*,139,デクストラ,Destra,1,Action,550,Attack,2,Random PC
+21,*,139,デクストラ,Destra,1,Action,53,Tundra Blast,-1,None
+22,*,139,デクストラ,Destra,1,Action,59,Death Waltz,-1,None
+23,*,139,デクストラ,Destra,1,Action,55,Engage,-1,None
+1,*,140,ラミレス,Ramirez,0,Branch,1,???,14,Go to 14
+2,*,140,ラミレス,Ramirez,0,Branch,11,???,10,Go to 10
+3,*,140,ラミレス,Ramirez,0,Branch,12,???,9,Go to 9
+4,*,140,ラミレス,Ramirez,0,Branch,13,???,8,Go to 8
+5,*,140,ラミレス,Ramirez,0,Branch,14,???,7,Go to 7
+6,*,140,ラミレス,Ramirez,0,Branch,24,???,13,Go to 13
+7,*,140,ラミレス,Ramirez,0,Branch,24,???,13,Go to 13
+8,*,140,ラミレス,Ramirez,0,Branch,24,???,13,Go to 13
+9,*,140,ラミレス,Ramirez,0,Branch,24,???,12,Go to 12
+10,*,140,ラミレス,Ramirez,0,Branch,22,???,12,Go to 12
+11,*,140,ラミレス,Ramirez,1,Action,550,Attack,2,Random PC
+12,*,140,ラミレス,Ramirez,1,Action,519,Eternum,2,Random PC
+13,*,140,ラミレス,Ramirez,1,Action,43,Silver Eclipse,-1,None
+14,*,140,ラミレス,Ramirez,1,Action,509,Sacrulen,22,Self
+1,*,141,ビゴロ,Vigoro,0,Branch,50,???,5,Go to 5
+2,*,141,ビゴロ,Vigoro,0,Branch,11,???,9,Go to 9
+3,*,141,ビゴロ,Vigoro,0,Branch,14,???,9,Go to 9
+4,*,141,ビゴロ,Vigoro,0,Branch,30,???,13,Go to 13
+5,*,141,ビゴロ,Vigoro,0,Branch,22,???,19,Go to 19
+6,*,141,ビゴロ,Vigoro,0,Branch,21,???,20,Go to 20
+7,*,141,ビゴロ,Vigoro,0,Branch,25,???,17,Go to 17
+8,*,141,ビゴロ,Vigoro,0,Branch,30,???,18,Go to 18
+9,*,141,ビゴロ,Vigoro,0,Branch,28,???,19,Go to 19
+10,*,141,ビゴロ,Vigoro,0,Branch,21,???,20,Go to 20
+11,*,141,ビゴロ,Vigoro,0,Branch,25,???,17,Go to 17
+12,*,141,ビゴロ,Vigoro,0,Branch,30,???,18,Go to 18
+13,*,141,ビゴロ,Vigoro,0,Branch,24,???,19,Go to 19
+14,*,141,ビゴロ,Vigoro,0,Branch,21,???,20,Go to 20
+15,*,141,ビゴロ,Vigoro,0,Branch,25,???,17,Go to 17
+16,*,141,ビゴロ,Vigoro,0,Branch,30,???,18,Go to 18
+17,*,141,ビゴロ,Vigoro,1,Action,550,Attack,1,Same PC
+18,*,141,ビゴロ,Vigoro,1,Action,550,Attack,21,PC w/ Highest Attack
+19,*,141,ビゴロ,Vigoro,1,Action,60,Vigoro's Charm,23,Aika
+20,*,141,ビゴロ,Vigoro,1,Action,551,Guard,-1,None
+1,*,142,ブラキロフス,Dralkor Tank,0,Branch,50,???,4,Go to 4
+2,*,142,ブラキロフス,Dralkor Tank,0,Branch,22,???,6,Go to 6
+3,*,142,ブラキロフス,Dralkor Tank,0,Branch,30,???,7,Go to 7
+4,*,142,ブラキロフス,Dralkor Tank,0,Branch,28,???,6,Go to 6
+5,*,142,ブラキロフス,Dralkor Tank,0,Branch,30,???,7,Go to 7
+6,*,142,ブラキロフス,Dralkor Tank,1,Action,550,Attack,2,Random PC
+7,*,142,ブラキロフス,Dralkor Tank,1,Action,30,Wheel Blast,2,Random PC
+1,*,144,ディーゴ,Tortigar,0,Branch,18,???,43,Go to 43
+2,*,144,ディーゴ,Tortigar,0,Branch,19,???,4,Go to 4
+3,*,144,ディーゴ,Tortigar,0,Branch,30,???,16,Go to 16
+4,*,144,ディーゴ,Tortigar,0,Branch,20,???,6,Go to 6
+5,*,144,ディーゴ,Tortigar,0,Branch,30,???,17,Go to 17
+6,*,144,ディーゴ,Tortigar,0,Branch,11,???,19,Go to 19
+7,*,144,ディーゴ,Tortigar,0,Branch,12,???,21,Go to 21
+8,*,144,ディーゴ,Tortigar,0,Branch,13,???,23,Go to 23
+9,*,144,ディーゴ,Tortigar,0,Branch,14,???,25,Go to 25
+10,*,144,ディーゴ,Tortigar,0,Branch,50,???,27,Go to 27
+11,*,144,ディーゴ,Tortigar,0,Branch,49,???,33,Go to 33
+12,*,144,ディーゴ,Tortigar,0,Branch,24,???,44,Go to 44
+13,*,144,ディーゴ,Tortigar,0,Branch,27,???,42,Go to 42
+14,*,144,ディーゴ,Tortigar,0,Branch,23,???,43,Go to 43
+15,*,144,ディーゴ,Tortigar,0,Branch,30,???,39,Go to 39
+16,*,144,ディーゴ,Tortigar,0,Branch,22,???,43,Go to 43
+17,*,144,ディーゴ,Tortigar,0,Branch,21,???,43,Go to 43
+18,*,144,ディーゴ,Tortigar,0,Branch,30,???,6,Go to 6
+19,*,144,ディーゴ,Tortigar,0,Branch,24,???,43,Go to 43
+20,*,144,ディーゴ,Tortigar,0,Branch,30,???,36,Go to 36
+21,*,144,ディーゴ,Tortigar,0,Branch,50,???,11,Go to 11
+22,*,144,ディーゴ,Tortigar,0,Branch,30,???,43,Go to 43
+23,*,144,ディーゴ,Tortigar,0,Branch,26,???,41,Go to 41
+24,*,144,ディーゴ,Tortigar,0,Branch,30,???,10,Go to 10
+25,*,144,ディーゴ,Tortigar,0,Branch,31,???,10,Go to 10
+26,*,144,ディーゴ,Tortigar,0,Branch,30,???,41,Go to 41
+27,*,144,ディーゴ,Tortigar,0,Branch,16,???,31,Go to 31
+28,*,144,ディーゴ,Tortigar,0,Branch,23,???,42,Go to 42
+29,*,144,ディーゴ,Tortigar,0,Branch,27,???,39,Go to 39
+30,*,144,ディーゴ,Tortigar,0,Branch,30,???,44,Go to 44
+31,*,144,ディーゴ,Tortigar,0,Branch,28,???,39,Go to 39
+32,*,144,ディーゴ,Tortigar,0,Branch,30,???,40,Go to 40
+33,*,144,ディーゴ,Tortigar,0,Branch,25,???,44,Go to 44
+34,*,144,ディーゴ,Tortigar,0,Branch,28,???,39,Go to 39
+35,*,144,ディーゴ,Tortigar,0,Branch,30,???,43,Go to 43
+36,*,144,ディーゴ,Tortigar,0,Branch,25,???,39,Go to 39
+37,*,144,ディーゴ,Tortigar,0,Branch,28,???,42,Go to 42
+38,*,144,ディーゴ,Tortigar,0,Branch,30,???,40,Go to 40
+39,*,144,ディーゴ,Tortigar,1,Action,550,Attack,2,Random PC
+40,*,144,ディーゴ,Tortigar,1,Action,551,Guard,-1,None
+41,*,144,ディーゴ,Tortigar,1,Action,509,Sacrulen,5,Random EC
+42,*,144,ディーゴ,Tortigar,1,Action,522,Wevlen,2,Random PC
+43,*,144,ディーゴ,Tortigar,1,Action,36,Steelskin,-1,None
+44,*,144,ディーゴ,Tortigar,1,Action,66,Ice Storm,-1,None
+1,*,145,ジャオ,Jao,0,Branch,50,???,4,Go to 4
+2,*,145,ジャオ,Jao,0,Branch,24,???,6,Go to 6
+3,*,145,ジャオ,Jao,0,Branch,30,???,7,Go to 7
+4,*,145,ジャオ,Jao,0,Branch,26,???,6,Go to 6
+5,*,145,ジャオ,Jao,0,Branch,30,???,7,Go to 7
+6,*,145,ジャオ,Jao,1,Action,550,Attack,2,Random PC
+7,*,145,ジャオ,Jao,1,Action,230,Irnagun,2,Random PC
+1,*,146,マオ,Mao,0,Branch,50,???,4,Go to 4
+2,*,146,マオ,Mao,0,Branch,22,???,6,Go to 6
+3,*,146,マオ,Mao,0,Branch,30,???,7,Go to 7
+4,*,146,マオ,Mao,0,Branch,28,???,6,Go to 6
+5,*,146,マオ,Mao,0,Branch,30,???,7,Go to 7
+6,*,146,マオ,Mao,1,Action,550,Attack,2,Random PC
+7,*,146,マオ,Mao,1,Action,76,Tatatimorutto,2,Random PC
+1,*,147,ムラジ,Muraji,0,Branch,11,???,14,Go to 14
+2,*,147,ムラジ,Muraji,0,Branch,12,???,16,Go to 16
+3,*,147,ムラジ,Muraji,0,Branch,13,???,20,Go to 20
+4,*,147,ムラジ,Muraji,0,Branch,2,???,30,Go to 30
+5,*,147,ムラジ,Muraji,0,Branch,1,???,22,Go to 22
+6,*,147,ムラジ,Muraji,0,Branch,17,???,33,Go to 33
+7,*,147,ムラジ,Muraji,0,Branch,54,???,24,Go to 24
+8,*,147,ムラジ,Muraji,0,Branch,24,???,26,Go to 26
+9,*,147,ムラジ,Muraji,0,Branch,25,???,27,Go to 27
+10,*,147,ムラジ,Muraji,0,Branch,25,???,29,Go to 29
+11,*,147,ムラジ,Muraji,0,Branch,30,???,31,Go to 31
+12,*,147,ムラジ,Muraji,0,Branch,24,???,26,Go to 26
+13,*,147,ムラジ,Muraji,0,Branch,30,???,27,Go to 27
+14,*,147,ムラジ,Muraji,0,Branch,25,???,28,Go to 28
+15,*,147,ムラジ,Muraji,0,Branch,30,???,12,Go to 12
+16,*,147,ムラジ,Muraji,0,Branch,35,???,18,Go to 18
+17,*,147,ムラジ,Muraji,0,Branch,30,???,28,Go to 28
+18,*,147,ムラジ,Muraji,0,Branch,25,???,32,Go to 32
+19,*,147,ムラジ,Muraji,0,Branch,30,???,12,Go to 12
+20,*,147,ムラジ,Muraji,0,Branch,36,???,4,Go to 4
+21,*,147,ムラジ,Muraji,0,Branch,30,???,32,Go to 32
+22,*,147,ムラジ,Muraji,0,Branch,25,???,30,Go to 30
+23,*,147,ムラジ,Muraji,0,Branch,30,???,6,Go to 6
+24,*,147,ムラジ,Muraji,0,Branch,25,???,33,Go to 33
+25,*,147,ムラジ,Muraji,0,Branch,30,???,8,Go to 8
+26,*,147,ムラジ,Muraji,1,Action,531,Wevlum,2,Random PC
+27,*,147,ムラジ,Muraji,1,Action,551,Guard,-1,None
+28,*,147,ムラジ,Muraji,1,Action,500,Increm,22,Self
+29,*,147,ムラジ,Muraji,1,Action,500,Increm,11,EC w/o Strengthen
+30,*,147,ムラジ,Muraji,1,Action,507,Sacres,22,Self
+31,*,147,ムラジ,Muraji,1,Action,507,Sacres,7,Injured EC
+32,*,147,ムラジ,Muraji,1,Action,513,Quika,-1,None
+33,*,147,ムラジ,Muraji,1,Action,67,Call Allies,-1,None
+34,*,147,ムラジ,Muraji,1,Action,114,Call Allies,-1,None
+1,*,148,ニルヴィナス,Veltarn,0,Branch,1,???,18,Go to 18
+2,*,148,ニルヴィナス,Veltarn,0,Branch,11,???,5,Go to 5
+3,*,148,ニルヴィナス,Veltarn,0,Branch,12,???,7,Go to 7
+4,*,148,ニルヴィナス,Veltarn,0,Branch,30,???,11,Go to 11
+5,*,148,ニルヴィナス,Veltarn,0,Branch,27,???,25,Go to 25
+6,*,148,ニルヴィナス,Veltarn,0,Branch,30,???,22,Go to 22
+7,*,148,ニルヴィナス,Veltarn,0,Branch,50,???,9,Go to 9
+8,*,148,ニルヴィナス,Veltarn,0,Branch,30,???,25,Go to 25
+9,*,148,ニルヴィナス,Veltarn,0,Branch,27,???,23,Go to 23
+10,*,148,ニルヴィナス,Veltarn,0,Branch,30,???,22,Go to 22
+11,*,148,ニルヴィナス,Veltarn,0,Branch,50,???,15,Go to 15
+12,*,148,ニルヴィナス,Veltarn,0,Branch,21,???,22,Go to 22
+13,*,148,ニルヴィナス,Veltarn,0,Branch,26,???,23,Go to 23
+14,*,148,ニルヴィナス,Veltarn,0,Branch,30,???,25,Go to 25
+15,*,148,ニルヴィナス,Veltarn,0,Branch,23,???,22,Go to 22
+16,*,148,ニルヴィナス,Veltarn,0,Branch,23,???,23,Go to 23
+17,*,148,ニルヴィナス,Veltarn,0,Branch,30,???,25,Go to 25
+18,*,148,ニルヴィナス,Veltarn,0,Branch,50,???,15,Go to 15
+19,*,148,ニルヴィナス,Veltarn,0,Branch,23,???,24,Go to 24
+20,*,148,ニルヴィナス,Veltarn,0,Branch,22,???,23,Go to 23
+21,*,148,ニルヴィナス,Veltarn,0,Branch,30,???,25,Go to 25
+22,*,148,ニルヴィナス,Veltarn,1,Action,550,Attack,2,Random PC
+23,*,148,ニルヴィナス,Veltarn,1,Action,33,Death Laser,2,Random PC
+24,*,148,ニルヴィナス,Veltarn,1,Action,33,Death Laser,21,PC w/ Highest Attack
+25,*,148,ニルヴィナス,Veltarn,1,Action,42,Avalauncher,2,Random PC
+1,*,149,ビゴロ,Vigoro,0,Branch,50,???,5,Go to 5
+2,*,149,ビゴロ,Vigoro,0,Branch,22,???,8,Go to 8
+3,*,149,ビゴロ,Vigoro,0,Branch,24,???,9,Go to 9
+4,*,149,ビゴロ,Vigoro,0,Branch,30,???,10,Go to 10
+5,*,149,ビゴロ,Vigoro,0,Branch,24,???,8,Go to 8
+6,*,149,ビゴロ,Vigoro,0,Branch,26,???,9,Go to 9
+7,*,149,ビゴロ,Vigoro,0,Branch,30,???,10,Go to 10
+8,*,149,ビゴロ,Vigoro,1,Action,550,Attack,2,Random PC
+9,*,149,ビゴロ,Vigoro,1,Action,17,Random Fire,2,Random PC
+10,*,149,ビゴロ,Vigoro,1,Action,27,Cannon Fire,2,Random PC
+1,*,150,ホルシ−ド,Dracoslyth,0,Branch,50,???,5,Go to 5
+2,*,150,ホルシ−ド,Dracoslyth,0,Branch,22,???,8,Go to 8
+3,*,150,ホルシ−ド,Dracoslyth,0,Branch,25,???,9,Go to 9
+4,*,150,ホルシ−ド,Dracoslyth,0,Branch,30,???,10,Go to 10
+5,*,150,ホルシ−ド,Dracoslyth,0,Branch,24,???,8,Go to 8
+6,*,150,ホルシ−ド,Dracoslyth,0,Branch,25,???,9,Go to 9
+7,*,150,ホルシ−ド,Dracoslyth,0,Branch,30,???,10,Go to 10
+8,*,150,ホルシ−ド,Dracoslyth,1,Action,550,Attack,2,Random PC
+9,*,150,ホルシ−ド,Dracoslyth,1,Action,64,Terrible Bite,18,PC w/o Fatigue
+10,*,150,ホルシ−ド,Dracoslyth,1,Action,181,Blast Breath,2,Random PC
+1,*,151,ガルシアン,Galcian,0,Branch,11,???,4,Go to 4
+2,*,151,ガルシアン,Galcian,0,Branch,12,???,8,Go to 8
+3,*,151,ガルシアン,Galcian,0,Branch,30,???,13,Go to 13
+4,*,151,ガルシアン,Galcian,0,Branch,25,???,59,Go to 59
+5,*,151,ガルシアン,Galcian,0,Branch,24,???,56,Go to 56
+6,*,151,ガルシアン,Galcian,0,Branch,25,???,57,Go to 57
+7,*,151,ガルシアン,Galcian,0,Branch,30,???,58,Go to 58
+8,*,151,ガルシアン,Galcian,0,Branch,50,???,10,Go to 10
+9,*,151,ガルシアン,Galcian,0,Branch,30,???,59,Go to 59
+10,*,151,ガルシアン,Galcian,0,Branch,24,???,60,Go to 60
+11,*,151,ガルシアン,Galcian,0,Branch,25,???,56,Go to 56
+12,*,151,ガルシアン,Galcian,0,Branch,30,???,57,Go to 57
+13,*,151,ガルシアン,Galcian,0,Branch,60,???,23,Go to 23
+14,*,151,ガルシアン,Galcian,0,Branch,57,???,16,Go to 16
+15,*,151,ガルシアン,Galcian,0,Branch,30,???,17,Go to 17
+16,*,151,ガルシアン,Galcian,0,Branch,23,???,61,Go to 61
+17,*,151,ガルシアン,Galcian,0,Branch,58,???,19,Go to 19
+18,*,151,ガルシアン,Galcian,0,Branch,30,???,20,Go to 20
+19,*,151,ガルシアン,Galcian,0,Branch,23,???,61,Go to 61
+20,*,151,ガルシアン,Galcian,0,Branch,59,???,22,Go to 22
+21,*,151,ガルシアン,Galcian,0,Branch,30,???,23,Go to 23
+22,*,151,ガルシアン,Galcian,0,Branch,23,???,61,Go to 61
+23,*,151,ガルシアン,Galcian,0,Branch,62,???,50,Go to 50
+24,*,151,ガルシアン,Galcian,0,Branch,49,???,37,Go to 37
+25,*,151,ガルシアン,Galcian,0,Branch,65,???,28,Go to 28
+26,*,151,ガルシアン,Galcian,0,Branch,64,???,31,Go to 31
+27,*,151,ガルシアン,Galcian,0,Branch,30,???,34,Go to 34
+28,*,151,ガルシアン,Galcian,0,Branch,22,???,56,Go to 56
+29,*,151,ガルシアン,Galcian,0,Branch,21,???,57,Go to 57
+30,*,151,ガルシアン,Galcian,0,Branch,21,???,58,Go to 58
+31,*,151,ガルシアン,Galcian,0,Branch,21,???,56,Go to 56
+32,*,151,ガルシアン,Galcian,0,Branch,22,???,57,Go to 57
+33,*,151,ガルシアン,Galcian,0,Branch,21,???,58,Go to 58
+34,*,151,ガルシアン,Galcian,0,Branch,21,???,56,Go to 56
+35,*,151,ガルシアン,Galcian,0,Branch,21,???,57,Go to 57
+36,*,151,ガルシアン,Galcian,0,Branch,22,???,58,Go to 58
+37,*,151,ガルシアン,Galcian,0,Branch,50,???,44,Go to 44
+38,*,151,ガルシアン,Galcian,0,Branch,20,???,41,Go to 41
+39,*,151,ガルシアン,Galcian,0,Branch,19,???,42,Go to 42
+40,*,151,ガルシアン,Galcian,0,Branch,30,???,43,Go to 43
+41,*,151,ガルシアン,Galcian,0,Branch,21,???,60,Go to 60
+42,*,151,ガルシアン,Galcian,0,Branch,21,???,60,Go to 60
+43,*,151,ガルシアン,Galcian,0,Branch,24,???,59,Go to 59
+44,*,151,ガルシアン,Galcian,0,Branch,22,???,56,Go to 56
+45,*,151,ガルシアン,Galcian,0,Branch,22,???,57,Go to 57
+46,*,151,ガルシアン,Galcian,0,Branch,24,???,58,Go to 58
+47,*,151,ガルシアン,Galcian,0,Branch,26,???,59,Go to 59
+48,*,151,ガルシアン,Galcian,0,Branch,24,???,60,Go to 60
+49,*,151,ガルシアン,Galcian,0,Branch,30,???,55,Go to 55
+50,*,151,ガルシアン,Galcian,0,Branch,23,???,55,Go to 55
+51,*,151,ガルシアン,Galcian,0,Branch,22,???,57,Go to 57
+52,*,151,ガルシアン,Galcian,0,Branch,25,???,58,Go to 58
+53,*,151,ガルシアン,Galcian,0,Branch,27,???,59,Go to 59
+54,*,151,ガルシアン,Galcian,0,Branch,30,???,60,Go to 60
+55,*,151,ガルシアン,Galcian,1,Action,550,Attack,2,Random PC
+56,*,151,ガルシアン,Galcian,1,Action,518,Eternes,-1,None
+57,*,151,ガルシアン,Galcian,1,Action,519,Eternum,2,Random PC
+58,*,151,ガルシアン,Galcian,1,Action,535,Electrulen,2,Random PC
+59,*,151,ガルシアン,Galcian,1,Action,23,Terminal,2,Random PC
+60,*,151,ガルシアン,Galcian,1,Action,24,Devolver,-1,None
+61,*,151,ガルシアン,Galcian,1,Action,65,Neglora,-1,None
+1,*,152,ラミレス,Ramirez,0,Branch,1,???,23,Go to 23
+2,*,152,ラミレス,Ramirez,0,Branch,11,???,8,Go to 8
+3,*,152,ラミレス,Ramirez,0,Branch,12,???,10,Go to 10
+4,*,152,ラミレス,Ramirez,0,Branch,13,???,14,Go to 14
+5,*,152,ラミレス,Ramirez,0,Branch,14,???,14,Go to 14
+6,*,152,ラミレス,Ramirez,0,Branch,23,???,22,Go to 22
+7,*,152,ラミレス,Ramirez,0,Branch,30,???,14,Go to 14
+8,*,152,ラミレス,Ramirez,0,Branch,25,???,20,Go to 20
+9,*,152,ラミレス,Ramirez,0,Branch,30,???,12,Go to 12
+10,*,152,ラミレス,Ramirez,0,Branch,35,???,12,Go to 12
+11,*,152,ラミレス,Ramirez,0,Branch,30,???,20,Go to 20
+12,*,152,ラミレス,Ramirez,0,Branch,22,???,22,Go to 22
+13,*,152,ラミレス,Ramirez,0,Branch,30,???,19,Go to 19
+14,*,152,ラミレス,Ramirez,0,Branch,56,???,16,Go to 16
+15,*,152,ラミレス,Ramirez,0,Branch,23,???,20,Go to 20
+16,*,152,ラミレス,Ramirez,0,Branch,24,???,22,Go to 22
+17,*,152,ラミレス,Ramirez,0,Branch,26,???,19,Go to 19
+18,*,152,ラミレス,Ramirez,0,Branch,30,???,21,Go to 21
+19,*,152,ラミレス,Ramirez,1,Action,550,Attack,2,Random PC
+20,*,152,ラミレス,Ramirez,1,Action,505,Drilnos,-1,None
+21,*,152,ラミレス,Ramirez,1,Action,519,Eternum,2,Random PC
+22,*,152,ラミレス,Ramirez,1,Action,43,Silver Eclipse,-1,None
+23,*,152,ラミレス,Ramirez,1,Action,509,Sacrulen,22,Self
+1,*,153,ラミレス,Ramirez,0,Branch,60,???,11,Go to 11
+2,*,153,ラミレス,Ramirez,0,Branch,57,???,4,Go to 4
+3,*,153,ラミレス,Ramirez,0,Branch,30,???,5,Go to 5
+4,*,153,ラミレス,Ramirez,0,Branch,23,???,56,Go to 56
+5,*,153,ラミレス,Ramirez,0,Branch,58,???,7,Go to 7
+6,*,153,ラミレス,Ramirez,0,Branch,30,???,8,Go to 8
+7,*,153,ラミレス,Ramirez,0,Branch,23,???,56,Go to 56
+8,*,153,ラミレス,Ramirez,0,Branch,59,???,10,Go to 10
+9,*,153,ラミレス,Ramirez,0,Branch,30,???,11,Go to 11
+10,*,153,ラミレス,Ramirez,0,Branch,23,???,56,Go to 56
+11,*,153,ラミレス,Ramirez,0,Branch,11,???,14,Go to 14
+12,*,153,ラミレス,Ramirez,0,Branch,12,???,16,Go to 16
+13,*,153,ラミレス,Ramirez,0,Branch,30,???,18,Go to 18
+14,*,153,ラミレス,Ramirez,0,Branch,25,???,54,Go to 54
+15,*,153,ラミレス,Ramirez,0,Branch,30,???,34,Go to 34
+16,*,153,ラミレス,Ramirez,0,Branch,35,???,34,Go to 34
+17,*,153,ラミレス,Ramirez,0,Branch,30,???,54,Go to 54
+18,*,153,ラミレス,Ramirez,0,Branch,56,???,20,Go to 20
+19,*,153,ラミレス,Ramirez,0,Branch,22,???,54,Go to 54
+20,*,153,ラミレス,Ramirez,0,Branch,13,???,23,Go to 23
+21,*,153,ラミレス,Ramirez,0,Branch,14,???,25,Go to 25
+22,*,153,ラミレス,Ramirez,0,Branch,30,???,26,Go to 26
+23,*,153,ラミレス,Ramirez,0,Branch,25,???,59,Go to 59
+24,*,153,ラミレス,Ramirez,0,Branch,30,???,34,Go to 34
+25,*,153,ラミレス,Ramirez,0,Branch,61,???,59,Go to 59
+26,*,153,ラミレス,Ramirez,0,Branch,61,???,28,Go to 28
+27,*,153,ラミレス,Ramirez,0,Branch,30,???,34,Go to 34
+28,*,153,ラミレス,Ramirez,0,Branch,2,???,31,Go to 31
+29,*,153,ラミレス,Ramirez,0,Branch,1,???,32,Go to 32
+30,*,153,ラミレス,Ramirez,0,Branch,30,???,33,Go to 33
+31,*,153,ラミレス,Ramirez,0,Branch,21,???,59,Go to 59
+32,*,153,ラミレス,Ramirez,0,Branch,21,???,59,Go to 59
+33,*,153,ラミレス,Ramirez,0,Branch,22,???,59,Go to 59
+34,*,153,ラミレス,Ramirez,0,Branch,65,???,38,Go to 38
+35,*,153,ラミレス,Ramirez,0,Branch,64,???,39,Go to 39
+36,*,153,ラミレス,Ramirez,0,Branch,63,???,40,Go to 40
+37,*,153,ラミレス,Ramirez,0,Branch,30,???,49,Go to 49
+38,*,153,ラミレス,Ramirez,0,Branch,22,???,58,Go to 58
+39,*,153,ラミレス,Ramirez,0,Branch,21,???,58,Go to 58
+40,*,153,ラミレス,Ramirez,0,Branch,21,???,58,Go to 58
+41,*,153,ラミレス,Ramirez,0,Branch,49,???,43,Go to 43
+42,*,153,ラミレス,Ramirez,0,Branch,23,???,55,Go to 55
+43,*,153,ラミレス,Ramirez,0,Branch,50,???,45,Go to 45
+44,*,153,ラミレス,Ramirez,0,Branch,25,???,57,Go to 57
+45,*,153,ラミレス,Ramirez,0,Branch,23,???,58,Go to 58
+46,*,153,ラミレス,Ramirez,0,Branch,25,???,57,Go to 57
+47,*,153,ラミレス,Ramirez,0,Branch,27,???,55,Go to 55
+48,*,153,ラミレス,Ramirez,0,Branch,30,???,53,Go to 53
+49,*,153,ラミレス,Ramirez,0,Branch,21,???,58,Go to 58
+50,*,153,ラミレス,Ramirez,0,Branch,23,???,57,Go to 57
+51,*,153,ラミレス,Ramirez,0,Branch,24,???,55,Go to 55
+52,*,153,ラミレス,Ramirez,0,Branch,30,???,53,Go to 53
+53,*,153,ラミレス,Ramirez,1,Action,550,Attack,2,Random PC
+54,*,153,ラミレス,Ramirez,1,Action,505,Drilnos,-1,None
+55,*,153,ラミレス,Ramirez,1,Action,519,Eternum,2,Random PC
+56,*,153,ラミレス,Ramirez,1,Action,46,Destruction,-1,None
+57,*,153,ラミレス,Ramirez,1,Action,48,Silver Tundra,2,Random PC
+58,*,153,ラミレス,Ramirez,1,Action,90,Silver Eclipse,-1,None
+59,*,153,ラミレス,Ramirez,1,Action,94,Lunar Blessing,-1,None
+1,*,154,ラプラタヌス,Eliminator,0,Branch,48,???,8,Go to 8
+2,*,154,ラプラタヌス,Eliminator,0,Branch,11,???,11,Go to 11
+3,*,154,ラプラタヌス,Eliminator,0,Branch,5,???,11,Go to 11
+4,*,154,ラプラタヌス,Eliminator,0,Branch,23,???,11,Go to 11
+5,*,154,ラプラタヌス,Eliminator,0,Branch,22,???,12,Go to 12
+6,*,154,ラプラタヌス,Eliminator,0,Branch,22,???,13,Go to 13
+7,*,154,ラプラタヌス,Eliminator,0,Branch,30,???,10,Go to 10
+8,*,154,ラプラタヌス,Eliminator,0,Branch,25,???,12,Go to 12
+9,*,154,ラプラタヌス,Eliminator,0,Branch,30,???,13,Go to 13
+10,*,154,ラプラタヌス,Eliminator,1,Action,550,Attack,2,Random PC
+11,*,154,ラプラタヌス,Eliminator,1,Action,9,Target Search,-1,None
+12,*,154,ラプラタヌス,Eliminator,1,Action,99,Blaster,2,Random PC
+13,*,154,ラプラタヌス,Eliminator,1,Action,31,Laser Blast,13,PC w/o Stone
+1,*,155,ドブラ,Gordo,0,Branch,55,???,17,Go to 17
+2,*,155,ドブラ,Gordo,0,Branch,11,???,7,Go to 7
+3,*,155,ドブラ,Gordo,0,Branch,12,???,7,Go to 7
+4,*,155,ドブラ,Gordo,0,Branch,38,???,9,Go to 9
+5,*,155,ドブラ,Gordo,0,Branch,1,???,9,Go to 9
+6,*,155,ドブラ,Gordo,0,Branch,26,???,13,Go to 13
+7,*,155,ドブラ,Gordo,0,Branch,22,???,14,Go to 14
+8,*,155,ドブラ,Gordo,0,Branch,30,???,16,Go to 16
+9,*,155,ドブラ,Gordo,0,Branch,32,???,11,Go to 11
+10,*,155,ドブラ,Gordo,0,Branch,28,???,15,Go to 15
+11,*,155,ドブラ,Gordo,0,Branch,22,???,15,Go to 15
+12,*,155,ドブラ,Gordo,0,Branch,30,???,6,Go to 6
+13,*,155,ドブラ,Gordo,1,Action,550,Attack,2,Random PC
+14,*,155,ドブラ,Gordo,1,Action,551,Guard,-1,None
+15,*,155,ドブラ,Gordo,1,Action,508,Sacrum,-1,None
+16,*,155,ドブラ,Gordo,1,Action,63,Digest,-1,None
+17,*,155,ドブラ,Gordo,1,Action,182,Loqua Spray,-1,None
+1,*,156,ウォン三兄弟,Mad Chef,0,Branch,21,???,8,Go to 8
+2,*,156,ウォン三兄弟,Mad Chef,0,Branch,25,???,4,Go to 4
+3,*,156,ウォン三兄弟,Mad Chef,0,Branch,30,???,7,Go to 7
+4,*,156,ウォン三兄弟,Mad Chef,0,Branch,34,???,6,Go to 6
+5,*,156,ウォン三兄弟,Mad Chef,0,Branch,30,???,9,Go to 9
+6,*,156,ウォン三兄弟,Mad Chef,0,Branch,25,???,9,Go to 9
+7,*,156,ウォン三兄弟,Mad Chef,1,Action,550,Attack,2,Random PC
+8,*,156,ウォン三兄弟,Mad Chef,1,Action,551,Guard,-1,None
+9,*,156,ウォン三兄弟,Mad Chef,1,Action,524,Pyres,-1,None
+1,*,157,ラミレス,Ramirez,0,Branch,60,???,11,Go to 11
+2,*,157,ラミレス,Ramirez,0,Branch,57,???,4,Go to 4
+3,*,157,ラミレス,Ramirez,0,Branch,30,???,5,Go to 5
+4,*,157,ラミレス,Ramirez,0,Branch,22,???,40,Go to 40
+5,*,157,ラミレス,Ramirez,0,Branch,58,???,7,Go to 7
+6,*,157,ラミレス,Ramirez,0,Branch,30,???,8,Go to 8
+7,*,157,ラミレス,Ramirez,0,Branch,22,???,40,Go to 40
+8,*,157,ラミレス,Ramirez,0,Branch,59,???,10,Go to 10
+9,*,157,ラミレス,Ramirez,0,Branch,30,???,11,Go to 11
+10,*,157,ラミレス,Ramirez,0,Branch,22,???,40,Go to 40
+11,*,157,ラミレス,Ramirez,0,Branch,62,???,32,Go to 32
+12,*,157,ラミレス,Ramirez,0,Branch,11,???,15,Go to 15
+13,*,157,ラミレス,Ramirez,0,Branch,12,???,17,Go to 17
+14,*,157,ラミレス,Ramirez,0,Branch,30,???,19,Go to 19
+15,*,157,ラミレス,Ramirez,0,Branch,25,???,36,Go to 36
+16,*,157,ラミレス,Ramirez,0,Branch,30,???,38,Go to 38
+17,*,157,ラミレス,Ramirez,0,Branch,35,???,38,Go to 38
+18,*,157,ラミレス,Ramirez,0,Branch,30,???,36,Go to 36
+19,*,157,ラミレス,Ramirez,0,Branch,50,???,22,Go to 22
+20,*,157,ラミレス,Ramirez,0,Branch,23,???,38,Go to 38
+21,*,157,ラミレス,Ramirez,0,Branch,24,???,39,Go to 39
+22,*,157,ラミレス,Ramirez,0,Branch,56,???,24,Go to 24
+23,*,157,ラミレス,Ramirez,0,Branch,22,???,36,Go to 36
+24,*,157,ラミレス,Ramirez,0,Branch,49,???,26,Go to 26
+25,*,157,ラミレス,Ramirez,0,Branch,22,???,37,Go to 37
+26,*,157,ラミレス,Ramirez,0,Branch,23,???,35,Go to 35
+27,*,157,ラミレス,Ramirez,0,Branch,21,???,36,Go to 36
+28,*,157,ラミレス,Ramirez,0,Branch,21,???,37,Go to 37
+29,*,157,ラミレス,Ramirez,0,Branch,23,???,38,Go to 38
+30,*,157,ラミレス,Ramirez,0,Branch,24,???,39,Go to 39
+31,*,157,ラミレス,Ramirez,0,Branch,30,???,40,Go to 40
+32,*,157,ラミレス,Ramirez,0,Branch,26,???,35,Go to 35
+33,*,157,ラミレス,Ramirez,0,Branch,24,???,37,Go to 37
+34,*,157,ラミレス,Ramirez,0,Branch,30,???,39,Go to 39
+35,*,157,ラミレス,Ramirez,1,Action,550,Attack,2,Random PC
+36,*,157,ラミレス,Ramirez,1,Action,505,Drilnos,-1,None
+37,*,157,ラミレス,Ramirez,1,Action,519,Eternum,2,Random PC
+38,*,157,ラミレス,Ramirez,1,Action,83,Silver Nightmare,24,???
+39,*,157,ラミレス,Ramirez,1,Action,84,Silver Binds,2,Random PC
+40,*,157,ラミレス,Ramirez,1,Action,86,Destruction,-1,None
+1,*,158,軍艦兵,Soldier,0,Branch,21,???,3,Go to 3
+2,*,158,軍艦兵,Soldier,1,Action,550,Attack,2,Random PC
+3,*,158,軍艦兵,Soldier,1,Action,551,Guard,-1,None
+1,*,160,軍艦兵,Soldier,0,Branch,21,???,3,Go to 3
+2,*,160,軍艦兵,Soldier,1,Action,550,Attack,2,Random PC
+3,*,160,軍艦兵,Soldier,1,Action,551,Guard,-1,None
+1,*,162,軍艦兵,Soldier,0,Branch,21,???,3,Go to 3
+2,*,162,軍艦兵,Soldier,1,Action,550,Attack,2,Random PC
+3,*,162,軍艦兵,Soldier,1,Action,551,Guard,-1,None
+1,*,164,軍艦兵,Soldier,0,Branch,21,???,3,Go to 3
+2,*,164,軍艦兵,Soldier,1,Action,550,Attack,2,Random PC
+3,*,164,軍艦兵,Soldier,1,Action,551,Guard,-1,None
+1,*,166,軍艦兵,Soldier,0,Branch,21,???,3,Go to 3
+2,*,166,軍艦兵,Soldier,1,Action,550,Attack,2,Random PC
+3,*,166,軍艦兵,Soldier,1,Action,551,Guard,-1,None
+1,*,168,軍艦兵,Soldier,0,Branch,21,???,3,Go to 3
+2,*,168,軍艦兵,Soldier,1,Action,550,Attack,2,Random PC
+3,*,168,軍艦兵,Soldier,1,Action,551,Guard,-1,None
+1,*,170,軍艦兵,Soldier,0,Branch,21,???,3,Go to 3
+2,*,170,軍艦兵,Soldier,1,Action,550,Attack,2,Random PC
+3,*,170,軍艦兵,Soldier,1,Action,551,Guard,-1,None
+1,*,210,軍艦兵,Soldier,0,Branch,21,???,3,Go to 3
+2,*,210,軍艦兵,Soldier,1,Action,550,Attack,2,Random PC
+3,*,210,軍艦兵,Soldier,1,Action,551,Guard,-1,None

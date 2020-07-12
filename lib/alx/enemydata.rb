@@ -57,20 +57,21 @@ class EnemyData < EntryData
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super(Object, _root)
-    @eb_file              = sys(:eb_file)
-    @ec_file              = sys(:ec_file)
-    @enp_file             = sys(:enp_file)
-    @evp_file             = glob(:evp_file)
-    @event_bgm_id_range   = sys(:enemy_event_bgm_id_range)
-    @event_bgm_file       = sys(:enemy_event_bgm_files)
-    @enemy_csv_file       = SYS.enemy_csv_file
-    @enemy_tpl_file       = SYS.enemy_tpl_file
-    @instruction_csv_file = SYS.enemy_instruction_csv_file
-    @instruction_tpl_file = SYS.enemy_instruction_tpl_file
-    @event_csv_file       = SYS.enemy_event_csv_file
-    @event_tpl_file       = SYS.enemy_event_tpl_file
-    @encounter_csv_file   = SYS.enemy_encounter_csv_file
-    @encounter_tpl_file   = SYS.enemy_encounter_tpl_file
+    
+    @eb_file            = sys(:eb_file)
+    @ec_file            = sys(:ec_file)
+    @enp_file           = sys(:enp_file)
+    @evp_file           = glob(:evp_file)
+    @event_bgm_id_range = sys(:enemy_event_bgm_id_range)
+    @event_bgm_file     = sys(:enemy_event_bgm_files)
+    @enemy_csv_file     = SYS.enemy_csv_file
+    @enemy_tpl_file     = SYS.enemy_tpl_file
+    @task_csv_file      = SYS.enemy_task_csv_file
+    @task_tpl_file      = SYS.enemy_task_tpl_file
+    @event_csv_file     = SYS.enemy_event_csv_file
+    @event_tpl_file     = SYS.enemy_event_tpl_file
+    @encounter_csv_file = SYS.enemy_encounter_csv_file
+    @encounter_tpl_file = SYS.enemy_encounter_tpl_file
     
     @accessory_data        = AccessoryData.new(_root)
     @armor_data            = ArmorData.new(_root)
@@ -84,10 +85,10 @@ class EnemyData < EntryData
     @weapon_data           = WeaponData.new(_root)
     @items                 = {}
 
-    @enemies      = []
-    @instructions = []
-    @events       = []
-    @encounters   = []
+    @enemies    = []
+    @tasks      = []
+    @events     = []
+    @encounters = []
   end
 
   # Does nothing.
@@ -105,16 +106,16 @@ class EnemyData < EntryData
     _enemy
   end
   
-  # Creates an enemy instruction.
-  # @param _id [Integer] Enemy instruction ID
-  # @return [Entry] EnemyInstruction object
-  def create_instruction(_id = -1)
-    _instr              = EnemyInstruction.new(root)
-    _instr.id           = _id
-    _instr.enemies      = @enemies
-    _instr.magics       = @enemy_magic_data.data
-    _instr.super_moves  = @enemy_super_move_data.data
-    _instr
+  # Creates an enemy task.
+  # @param _id [Integer] Enemy task ID
+  # @return [Entry] EnemyTask object
+  def create_task(_id = -1)
+    _task             = EnemyTask.new(root)
+    _task.id          = _id
+    _task.enemies     = @enemies
+    _task.magics      = @enemy_magic_data.data
+    _task.super_moves = @enemy_super_move_data.data
+    _task
   end
 
   # Creates an event.
@@ -154,21 +155,21 @@ class EnemyData < EntryData
     _enemy
   end
   
-  # Returns an enemy instructions by ID and filename, or +nil+ otherwise.
+  # Returns an enemy tasks by ID and filename, or +nil+ otherwise.
   # @param _id       [Integer] Enemy ID
   # @param _filename [String]  File name
-  # @return [Array] Enemy instructions
-  def find_instructions(_id, _filename)
-    _instructions = @instructions.find_all do |_instr|
-      _instr.enemy_id == _id && _instr.files.include?(File.basename(_filename))
+  # @return [Array] Enemy tasks
+  def find_tasks(_id, _filename)
+    _tasks = @tasks.find_all do |_t|
+      _t.enemy_id == _id && _t.files.include?(File.basename(_filename))
     end
-    if _instructions.empty?
-      _instructions = @instructions.find_all do |_instr|
-        _instr.enemy_id == _id && _instr.files.include?('*')
+    if _tasks.empty?
+      _tasks = @tasks.find_all do |_t|
+        _t.enemy_id == _id && _t.files.include?('*')
       end
     end
     
-    _instructions
+    _tasks
   end
 
   # Concatenates enemies and removes its duplicates.
@@ -185,44 +186,44 @@ class EnemyData < EntryData
     end
   end
 
-  # Concatenates enemy instructions and removes its duplicates.
-  # @param _instructions [Array]   EnemyInstructions objects
-  # @param _stack_level  [Integer] Current stack level of method for internal 
-  #                                use.
-  def concat_instructions(_instructions, _stack_level = 1)
+  # Concatenates enemy tasks and removes its duplicates.
+  # @param _tasks       [Array]   EnemyTask objects
+  # @param _stack_level [Integer] Current stack level of method for internal 
+  #                               use.
+  def concat_tasks(_tasks, _stack_level = 1)
     # ENP files with segments (e.g. 'A099A_EP.BIN' or 'a099a_ep.enp') have 
     # duplicate enemy data under certain circumstances. In order to remove the 
     # duplicates correctly, this method is recursively called per single 
     # segment.
     if _stack_level == 1
-      _group_by_files = _instructions.group_by do |_instr|
-        _instr.files
+      _group_by_files = _tasks.group_by do |_t|
+        _t.files
       end
       if _group_by_files.size > 1
         _group_by_files.each_value do |_group|
-          concat_instructions(_group, _stack_level + 1)
+          concat_tasks(_group, _stack_level + 1)
         end
         return
       end
     end
     
-    _new_groups = _instructions.group_by do |_instr|
-      _instr.group_key
+    _new_groups = _tasks.group_by do |_t|
+      _t.group_key
     end
-    _old_groups = @instructions.group_by do |_instr|
-      _instr.group_key
+    _old_groups = @tasks.group_by do |_t|
+      _t.group_key
     end
 
     _new_groups.each_value do |_new|
       _old = _old_groups.values.find { |_group| _group == _new }
       if _old
         _files = _new[0].files
-        _old.each do |_instr|
-          _instr.files.concat(_files)
-          _instr.files.uniq!
+        _old.each do |_t|
+          _t.files.concat(_files)
+          _t.files.uniq!
         end
       else
-        @instructions.concat(_new)
+        @tasks.concat(_new)
       end
     end
   end
@@ -263,9 +264,9 @@ class EnemyData < EntryData
     end
   end
   
-  # Sorts enemy instructions.
-  def sort_instructions
-    @instructions.sort! do |_a, _b|
+  # Sorts enemy tasks.
+  def sort_tasks
+    @tasks.sort! do |_a, _b|
       _comp = (_a.enemy_id   <=> _b.enemy_id  )
       _comp = (_b.files.size <=> _a.files.size) if _comp == 0
       _comp = (_a.order      <=> _b.order     ) if _comp == 0
@@ -274,19 +275,19 @@ class EnemyData < EntryData
       _comp
     end
 
-    if SYS.enemy_instruction_summarize_filter
+    if SYS.enemy_task_summarize_filter
       _last = nil
       _lock = false
-      @instructions.each do |_instr|
-        if _last && _last.enemy_id != _instr.enemy_id
+      @tasks.each do |_task|
+        if _last && _last.enemy_id != _task.enemy_id
           _last = nil
           _lock = false
         end
-        if _last && _last.id >= _instr.id
+        if _last && _last.id >= _task.id
           _lock = true
         end
-        if !_lock && _instr.order <= 2
-          _last       = _instr
+        if !_lock && _task.order <= 2
+          _last       = _task
           _last.files = ['*']
         end
       end
@@ -296,19 +297,19 @@ class EnemyData < EntryData
   # Reads all snaphots (instance variables) from SHT files.
   def load_sht
     super
-    load_sht_data(:enemies     )
-    load_sht_data(:instructions)
-    load_sht_data(:events      )
-    load_sht_data(:encounters  )
+    load_sht_data(:enemies   )
+    load_sht_data(:tasks     )
+    load_sht_data(:events    )
+    load_sht_data(:encounters)
   end
   
   # Writes all snaphots (instance variables) to SHT files.
   def save_sht
     super
-    save_sht_data(:enemies,      @enemies     )
-    save_sht_data(:instructions, @instructions)
-    save_sht_data(:events,       @events      )
-    save_sht_data(:encounters,   @encounters  )
+    save_sht_data(:enemies,    @enemies   )
+    save_sht_data(:tasks,      @tasks     )
+    save_sht_data(:events,     @events    )
+    save_sht_data(:encounters, @encounters)
   end
     
   # Reads all entries from an EVP file.
@@ -322,7 +323,7 @@ class EnemyData < EntryData
     _file.load(_filename)
     @events.concat(_file.events)
     concat_enemies(_file.enemies)
-    concat_instructions(_file.instructions)
+    concat_tasks(_file.tasks)
   end
 
   # Reads all BGM entries from a binary file.
@@ -369,7 +370,7 @@ class EnemyData < EntryData
     _file.load(_filename)
     @encounters.concat(_file.encounters)
     concat_enemies(_file.enemies)
-    concat_instructions(_file.instructions)
+    concat_tasks(_file.tasks)
   end
   
   # Reads all entries from a DAT file.
@@ -382,7 +383,7 @@ class EnemyData < EntryData
     _file.super_moves = @enemy_super_move_data.data
     _file.load(_filename)
     concat_enemies(_file.enemies)
-    concat_instructions(_file.instructions)
+    concat_tasks(_file.tasks)
   end
   
   # Reads all entries from binary files.
@@ -442,10 +443,10 @@ class EnemyData < EntryData
     end
     
     FileUtils.mkdir_p(File.dirname(_filename))
-    _file              = EvpFile.new(root)
-    _file.enemies      = @enemies
-    _file.instructions = @instructions
-    _file.events       = @events
+    _file         = EvpFile.new(root)
+    _file.enemies = @enemies
+    _file.tasks   = @tasks
+    _file.events  = @events
     _file.save(_filename)
   end
 
@@ -502,10 +503,10 @@ class EnemyData < EntryData
     end
     
     FileUtils.mkdir_p(File.dirname(_filename))
-    _file              = EnpFile.new(root)
-    _file.enemies      = @enemies
-    _file.instructions = @instructions
-    _file.encounters   = @encounters
+    _file            = EnpFile.new(root)
+    _file.enemies    = @enemies
+    _file.tasks      = @tasks
+    _file.encounters = @encounters
     _file.save(_filename)
   end
   
@@ -518,9 +519,9 @@ class EnemyData < EntryData
     end
     
     FileUtils.mkdir_p(File.dirname(_filename))
-    _file              = DatFile.new(root)
-    _file.enemies      = @enemies
-    _file.instructions = @instructions
+    _file         = DatFile.new(root)
+    _file.enemies = @enemies
+    _file.tasks   = @tasks
     _file.save(_filename)
   end
 
@@ -574,7 +575,7 @@ class EnemyData < EntryData
   end
 
   # Reads all enemy entries from a CSV file. This method must be called before 
-  # #load_csv_instructions.
+  # #load_csv_tasks.
   # @param _filename [String]  File name
   # @param _force    [Boolean] Skip missing file
   def load_csv_enemies(_filename, _force = false)
@@ -589,11 +590,11 @@ class EnemyData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
-      # If the methods #load_csv_enemies and #load_csv_instructions are called 
+      # If the methods #load_csv_enemies and #load_csv_tasks are called 
       # in the wrong order, each enemy is forced to be saved. Snapshots are 
       # not loaded and differences will not be detected, which enormously 
       # increases the total runtime.
-      if @instructions.empty?
+      if @tasks.empty?
         _snapshot = snaps[:enemies].dup
       end
       
@@ -621,16 +622,16 @@ class EnemyData < EntryData
     LOG.info(sprintf(VOC.close, _filename))
   end
 
-  # Reads all enemy instructions from a CSV file. Forwards the expiration to 
-  # the corresponding enemy object if an enemy instruction differs from the
-  # snapshot. This method must be called after #load_csv_enemies.
+  # Reads all enemy tasks from a CSV file. Forwards the expiration to the 
+  # corresponding enemy object if an enemy task differs from the snapshot. 
+  # This method must be called after #load_csv_enemies.
   # @param _filename [String]  File name
   # @param _force    [Boolean] Skip missing file
-  def load_csv_instructions(_filename, _force = false)
+  def load_csv_tasks(_filename, _force = false)
     if _force && !File.exist?(_filename)
       return
     end
-    unless @instructions.empty?
+    unless @tasks.empty?
       return
     end
 
@@ -638,45 +639,45 @@ class EnemyData < EntryData
 
     meta.check_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
-      # If the methods #load_csv_enemies and #load_csv_instructions are called 
-      # in the wrong order, each enemy is forced to be saved. Snapshots are 
-      # not loaded and differences will not be detected, which enormously 
+      # If the methods #load_csv_enemies and #load_csv_tasks are called in 
+      # the wrong order, each enemy is forced to be saved. Snapshots are not 
+      # loaded and differences will not be detected, which enormously 
       # increases the total runtime.
       unless @enemies.empty?
-        _snapshot = snaps[:instructions]
+        _snapshot = snaps[:tasks]
         if _snapshot
-          _snapshot = _snapshot.group_by do |_instr|
-            _instr.group_key
+          _snapshot = _snapshot.group_by do |_task|
+            _task.group_key
           end
         end
       end
 
       while !_f.eof?
         LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
-        _instr = create_instruction
-        _instr.read_csv(_f)
+        _task = create_task
+        _task.read_csv(_f)
         
         if _snapshot
-          _key   = _instr.group_key
+          _key   = _task.group_key
           _group = _snapshot[_key]
           if _group
-            if _group.any? { |_sht| _instr.check_expiration(_sht) }
-              _enemy = find_enemy(_instr.enemy_id, _filename)
-              if _enemy && _instr.expired
+            if _group.any? { |_sht| _task.check_expiration(_sht) }
+              _enemy = find_enemy(_task.enemy_id, _filename)
+              if _enemy && _task.expired
                 _enemy.expired = true
                 _snapshot.delete(_key)
               end
             end
-            if _group.last.id == _instr.id
+            if _group.last.id == _task.id
               _snapshot.delete(_key)
             end
           end
         else
-          _enemy = find_enemy(_instr.enemy_id, _filename)
+          _enemy = find_enemy(_task.enemy_id, _filename)
           _enemy&.expired = true
         end
         
-        @instructions << _instr
+        @tasks << _task
       end
     end
 
@@ -773,8 +774,8 @@ class EnemyData < EntryData
     load_csv_enemies(File.join(_share, @enemy_tpl_file), true)
     load_csv_enemies(File.join(_root , @enemy_csv_file)      )
 
-    load_csv_instructions(File.join(_share, @instruction_tpl_file), true)
-    load_csv_instructions(File.join(_root , @instruction_csv_file)      )
+    load_csv_tasks(File.join(_share, @task_tpl_file), true)
+    load_csv_tasks(File.join(_root , @task_csv_file)      )
     
     load_csv_events(File.join(_share, @event_tpl_file), true)
     load_csv_events(File.join(_root , @event_csv_file)      )
@@ -811,10 +812,10 @@ class EnemyData < EntryData
     LOG.info(sprintf(VOC.close, _filename))
   end
 
-  # Writes all enemy instruction entries to a CSV file.
+  # Writes all enemy task entries to a CSV file.
   # @param _filename [String] File name
-  def save_csv_instruction(_filename)
-    if @instructions.empty?
+  def save_csv_task(_filename)
+    if @tasks.empty?
       return
     end
     if File.exist?(_filename) && !meta.updated?
@@ -822,17 +823,17 @@ class EnemyData < EntryData
       return
     end
   
-    sort_instructions
+    sort_tasks
   
     LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
   
-    _header = create_instruction.header
+    _header = create_task.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
-      @instructions.each do |_instr|
+      @tasks.each do |_task|
         LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
-        _instr.write_csv(_f)
+        _task.write_csv(_f)
       end
     end
     
@@ -894,7 +895,7 @@ class EnemyData < EntryData
   # Writes all entries to CSV files.
 	def save_csv
     save_csv_enemy(glob(@enemy_csv_file))
-    save_csv_instruction(glob(@instruction_csv_file))
+    save_csv_task(glob(@task_csv_file))
     save_csv_event(glob(@event_csv_file))
     save_csv_encounter(glob(@encounter_csv_file))
 	end
@@ -911,8 +912,8 @@ class EnemyData < EntryData
   attr_accessor :event_bgm_file
   attr_accessor :enemy_csv_file
   attr_accessor :enemy_tpl_file
-  attr_accessor :instruction_csv_file
-  attr_accessor :instruction_tpl_file
+  attr_accessor :task_csv_file
+  attr_accessor :task_tpl_file
   attr_accessor :event_csv_file
   attr_accessor :event_tpl_file
   attr_accessor :encounter_csv_file

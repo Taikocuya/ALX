@@ -166,8 +166,6 @@ SYS.configure do |_s|
   _s.enemy_event_csv_file          = "#{_s.data_dir}/enemyevent.csv"
   # Path to CSV file of enemy encounters relative to game root
   _s.enemy_encounter_csv_file      = "#{_s.data_dir}/enemyencounter.csv"
-  # Path to CSV file of enemy instructions relative to game root
-  _s.enemy_instruction_csv_file    = "#{_s.data_dir}/enemyinstruction.csv"
   # Path to CSV file of enemy magics relative to game root
   _s.enemy_magic_csv_file          = "#{_s.data_dir}/enemymagic.csv"
   # Path to CSV file of enemy ships relative to game root
@@ -176,6 +174,8 @@ SYS.configure do |_s|
   _s.enemy_ship_task_csv_file      = "#{_s.data_dir}/enemyshiptask.csv"
   # Path to CSV file of enemy super moves relative to game root
   _s.enemy_super_move_csv_file     = "#{_s.data_dir}/enemysupermove.csv"
+  # Path to CSV file of enemy tasks relative to game root
+  _s.enemy_task_csv_file           = "#{_s.data_dir}/enemytask.csv"
   # Path to CSV file of EXP curves relative to game root
   _s.exp_curve_csv_file            = "#{_s.data_dir}/expcurve.csv"
   # Path to CSV file of magic EXP curves relative to game root
@@ -223,8 +223,6 @@ SYS.configure do |_s|
   _s.enemy_event_tpl_file          = 'enemyevent.tpl.csv'
   # Path to TPL file of enemy encounters relative to 'share' directory
   _s.enemy_encounter_tpl_file      = 'enemyencounter.tpl.csv'
-  # Path to CSV file of enemy instructions relative to game root
-  _s.enemy_instruction_tpl_file    = 'enemyinstruction.tpl.csv'
   # Path to TPL file of enemy magics relative to 'share' directory
   _s.enemy_magic_tpl_file          = 'enemymagic.tpl.csv'
   # Path to TPL file of enemy ships relative to 'share' directory
@@ -233,6 +231,8 @@ SYS.configure do |_s|
   _s.enemy_ship_task_tpl_file      = 'enemyshiptask.tpl.csv'
   # Path to TPL file of enemy skills relative to 'share' directory
   _s.enemy_super_move_tpl_file     = 'enemysupermove.tpl.csv'
+  # Path to TPL file of enemy tasks relative to game root
+  _s.enemy_task_tpl_file           = 'enemytask.tpl.csv'
   # Path to TPL file of EXP curves relative to 'share' directory
   _s.exp_curve_tpl_file            = 'expcurve.tpl.csv'
   # Path to TPL file of magic EXP curves relative to 'share' directory
@@ -2158,22 +2158,6 @@ SYS.configure do |_s|
   _s.enemy_summarize_filter = true
 
 #------------------------------------------------------------------------------
-# Enemy instruction data
-#------------------------------------------------------------------------------
-
-  # Enables or disables the summary of enemy instruction filters. If you 
-  # enable the summary of enemy instruction filters, the longest filter of 
-  # the same enemy instruction line will be summarized with an asterisk.
-  _s.enemy_instruction_summarize_filter = true
-  
-  # Maximum number of instructions in enemy instruction data
-  _s.enemy_instruction_num_instructions = {
-    '*'                => 64,
-    'DC-JP-6107110 06' => 32,
-    'DC-JP-6107810'    => 32,
-  }
-
-#------------------------------------------------------------------------------
 # Enemy magic data
 #------------------------------------------------------------------------------
 
@@ -2423,6 +2407,22 @@ SYS.configure do |_s|
       rd(_s.sot_file_fr['GC'], 0x14d9...0x211a),
       rd(_s.sot_file_gb['GC'], 0x14d4...0x1ff8),
     ],
+  }
+
+#------------------------------------------------------------------------------
+# Enemy task data
+#------------------------------------------------------------------------------
+
+  # Enables or disables the summary of enemy task filters. If you enable the 
+  # summary of enemy task filters, the longest filter of the same enemy task 
+  # line will be summarized with an asterisk.
+  _s.enemy_task_summarize_filter = true
+  
+  # Maximum number of tasks in enemy task data
+  _s.enemy_task_num_tasks = {
+    '*'                => 64,
+    'DC-JP-6107110 06' => 32,
+    'DC-JP-6107810'    => 32,
   }
 
 #------------------------------------------------------------------------------

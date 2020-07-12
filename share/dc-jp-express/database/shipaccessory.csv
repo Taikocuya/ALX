@@ -1,4 +1,4 @@
-Entry ID,JP Entry Name,Ship Flags,[L1],[L2],[D1],[D2],[D3],Pad. 1,Pad. 2,Purchase Price,Pad. 3,Pad. 4,Retail Price in %,Pad. 5,Feat. 1 ID,[Feat. 1 Name],Pad. 6,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 7,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 8,Feat. 3 Value,Feat. 4 ID,[Feat. 4 Name],Pad. 9,Feat. 4 Value,Order by Prio.,JP Order by ABC
+Entry ID,JP Entry Name,PS Flags,[L1],[L2],[D1],[D2],[D3],Pad. 1,Pad. 2,Purchase Price,Pad. 3,Pad. 4,Retail Price in %,Pad. 5,Feat. 1 ID,[Feat. 1 Name],Pad. 6,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 7,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 8,Feat. 3 Value,Feat. 4 ID,[Feat. 4 Name],Pad. 9,Feat. 4 Value,Order by Prio.,JP Order by ABC
 440,船首像0,0x3e,X,X,X,X,X,0,0,1000,0,0,50,0,3,MagDef,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0
 441,船首像1,0x3e,X,X,X,X,X,0,0,1200,0,0,50,0,3,MagDef,0,40,-1,None,0,0,-1,None,0,0,-1,None,0,0,1,1
 442,船首像2,0x3e,X,X,X,X,X,0,0,1500,0,0,50,0,3,MagDef,0,60,-1,None,0,0,-1,None,0,0,-1,None,0,0,2,2

@@ -9,12 +9,12 @@ Entry ID,JP Entry Name,Pos. ID,[Pos. Name],Feat. ID,[Feat. Name],Pad. 1,Feat. Va
 7,ドミンゴ,3,Lookout,-1,None,0,0,255,None,-1,0,0,0,0,0,0
 8,オスマン,4,Merchant,-1,None,0,0,255,None,-1,0,0,0,0,0,0
 9,カリファ,4,Merchant,-1,None,0,0,255,None,-1,0,0,0,0,0,0
-10,イズレール,5,Builder,-1,None,0,0,101,Recover HP to 100% (Ship),0,0,1,0,0,0,0
-11,キララ,5,Builder,-1,None,0,0,102,Recover Spirit (Ship),4,3000,1,0,0,0,0
-12,ポリー,6,Cook,-1,None,0,-1,104,Add Quickened (Ship),0,0,141,0,0,0,0
-13,ウララ,6,Cook,-1,None,0,-1,105,Add Strengthen (Ship),4,20,141,0,0,0,0
+10,イズレール,5,Builder,-1,None,0,0,101,Recover HP 100%,0,0,1,0,0,0,0
+11,キララ,5,Builder,-1,None,0,0,102,Recover SP,4,3000,1,0,0,0,0
+12,ポリー,6,Cook,-1,None,0,-1,104,Quickened,0,0,141,0,0,0,0
+13,ウララ,6,Cook,-1,None,0,-1,105,Strengthen,4,20,141,0,0,0,0
 14,リュウカン,7,Artisan,-1,None,0,-1,154,???,8,0,0,0,0,0,0
-15,アルキュミス,7,Artisan,64,Secondary Cannon Attack,0,100,255,None,-1,0,0,0,0,0,0
+15,アルキュミス,7,Artisan,64,Sec. Cannon Attack,0,100,255,None,-1,0,0,0,0,0,0
 16,マルコ,8,Sailor,2,Defense,0,100,255,None,-1,0,0,0,0,0,0
 17,ロビンソン,8,Sailor,3,MagDef,0,100,255,None,-1,0,0,0,0,0,0
 18,パウ,9,Jester,-1,None,0,0,129,???,-1,50,0,0,0,0,0

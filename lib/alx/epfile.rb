@@ -23,7 +23,7 @@
 #==============================================================================
 
 require_relative('enemy.rb')
-require_relative('enemyinstruction.rb')
+require_relative('enemytask.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -52,12 +52,12 @@ class EpFile
   # Constructs an EpFile.
   # @param _root [GameRoot] Game root
   def initialize(_root)
-    @root         = _root
-    @enemies      = []
-    @instructions = []
-    @items        = {}
-    @magics       = {}
-    @super_moves  = {}
+    @root        = _root
+    @enemies     = []
+    @tasks       = []
+    @items       = {}
+    @magics      = {}
+    @super_moves = {}
   end
   
   # Creates an enemy.
@@ -72,18 +72,18 @@ class EpFile
     _enemy
   end
   
-  # Creates an enemy instruction.
+  # Creates an enemy task.
   # @param _id       [Integer] Enemy ID
   # @param _filename [String]  File name
-  # @return [Entry] EnemyInstruction object
-  def create_instruction(_id = -1, _filename = '*')
-    _instr              = EnemyInstruction.new(@root)
-    _instr.id           = _id
-    _instr.files       << File.basename(_filename)
-    _instr.enemies      = @enemies
-    _instr.magics       = @magics
-    _instr.super_moves  = @super_moves
-    _instr
+  # @return [Entry] EnemyTask object
+  def create_task(_id = -1, _filename = '*')
+    _task              = EnemyTask.new(@root)
+    _task.id           = _id
+    _task.files       << File.basename(_filename)
+    _task.enemies      = @enemies
+    _task.magics       = @magics
+    _task.super_moves  = @super_moves
+    _task
   end
 
   # @see GameRoot#etc
@@ -117,7 +117,7 @@ class EpFile
 
   attr_accessor :root
   attr_accessor :enemies
-  attr_accessor :instructions
+  attr_accessor :tasks
   attr_accessor :items
   attr_accessor :magics
   attr_accessor :super_moves
@@ -201,41 +201,41 @@ class EpFile
     _enemy
   end
 
-  # Returns enemy instructions by ID and filename, or +nil+ otherwise.
+  # Returns enemy tasks by ID and filename, or +nil+ otherwise.
   # @param _id       [Integer] Enemy ID
   # @param _filename [String]  File name
-  # @return [Array] Enemy instructions
-  def find_instructions(_id, _filename)
-    _instructions = @instructions.find_all do |_instr|
-      _instr.enemy_id == _id && _instr.files.include?(File.basename(_filename))
+  # @return [Array] Enemy tasks
+  def find_tasks(_id, _filename)
+    _tasks = @tasks.find_all do |_task|
+      _task.enemy_id == _id && _task.files.include?(File.basename(_filename))
     end
-    if _instructions.empty?
-      _instructions = @instructions.find_all do |_instr|
-        _instr.enemy_id == _id && _instr.files.include?('*')
+    if _tasks.empty?
+      _tasks = @tasks.find_all do |_task|
+        _task.enemy_id == _id && _task.files.include?('*')
       end
     end
     
-    _instructions
+    _tasks
   end
   
-  # Loads an enemy and its instructions from a binary I/O stream.
+  # Loads an enemy and its tasks from a binary I/O stream.
   # @param _f        [IO]      Binary I/O stream
   # @param _id       [Integer] Enemy ID
   # @param _filename [String]  File name
   def load_enemy(_f, _id, _filename)
-    _num_instructions = sys(:enemy_instruction_num_instructions)
+    _num_tasks = sys(:enemy_task_num_tasks)
 
     _enemy = create_enemy(_id, _filename)
     _enemy.read_bin(_f)
     @enemies << _enemy
 
     _empty = true
-    (1.._num_instructions).each do |_i|
-      _instr          = create_instruction(_i, _filename)
-      _instr.enemy_id = _id
-      _instr.read_bin(_f)
-      if _instr.type_id != -1 || (_empty && _i == _num_instructions)
-        @instructions << _instr
+    (1.._num_tasks).each do |_i|
+      _task          = create_task(_i, _filename)
+      _task.enemy_id = _id
+      _task.read_bin(_f)
+      if _task.type_id != -1 || (_empty && _i == _num_tasks)
+        @tasks << _task
         _empty = false
       end
     end
@@ -245,39 +245,39 @@ class EpFile
     end
   end
 
-  # Saves an enemy and its instructions to a binary I/O stream.
+  # Saves an enemy and its tasks to a binary I/O stream.
   # @param _f        [IO]     Binary I/O stream
   # @param _enemy    [Enemy]  Enemy object
   # @param _filename [String] File name
   def save_enemy(_f, _enemy, _filename)
-    _num_instructions = sys(:enemy_instruction_num_instructions)
+    _num_tasks = sys(:enemy_task_num_tasks)
     
     _id = _enemy.id
     _enemy.write_bin(_f)
     
-    _instructions = find_instructions(_id, _filename)
-    _size         = _instructions.size
+    _tasks = find_tasks(_id, _filename)
+    _size  = _tasks.size
     if _size == 0
-      raise(IOError, "instructions for enemy ##{_id} not found")
+      raise(IOError, "tasks for enemy ##{_id} not found")
     end
-    if _size > _num_instructions
-      raise(IOError, "instruction quota of #{_num_instructions} exceeded")
+    if _size > _num_tasks
+      raise(IOError, "task quota of #{_num_tasks} exceeded")
     end
 
-    _empty = create_instruction
+    _empty = create_task
     _last  = nil
-    (0..._num_instructions).each do |_i|
-      _instr = _instructions[_i]
-      unless _instr
-        _instr = _empty
+    (0..._num_tasks).each do |_i|
+      _task = _tasks[_i]
+      unless _task
+        _task = _empty
       else
-        if _last && _instr.id != _last.id + 1
-          _msg = 'instruction ID invalid (given %s, expected %s)'
-          raise(IOError, sprintf(_msg, _instr.id, _last.id + 1))
+        if _last && _task.id != _last.id + 1
+          _msg = 'task ID invalid (given %s, expected %s)'
+          raise(IOError, sprintf(_msg, _task.id, _last.id + 1))
         end
       end
-      _instr.write_bin(_f)
-      _last = _instr
+      _task.write_bin(_f)
+      _last = _task
     end
 
     _f.write_int(EOF_MARK, :i16)

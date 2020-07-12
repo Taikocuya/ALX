@@ -1,23 +1,23 @@
-Entry ID,US Entry Name,Pos. ID,[Pos. Name],Feat. ID,[Feat. Name],Pad. 1,Feat. Value,Ship Effect ID,[Ship Effect Name],Ship Effect Spirit,Ship Effect Turns,Pad. 2,Pad. 3,Pad. 4,Ship Effect Amount,Unk.,Pad. 5,Pad. 6,Pad. 7,Pad. 8,[US Descr. Pos.],[US Descr. Size],US Descr. Str.
+Entry ID,US Entry Name,Pos. ID,[Pos. Name],Feat. ID,[Feat. Name],Pad. 1,Feat. Value,Ship Effect ID,[Ship Effect Name],Ship Effect SP,Ship Effect Turns,Pad. 2,Pad. 3,Pad. 4,Ship Effect Amount,Unk.,Pad. 5,Pad. 6,Pad. 7,Pad. 8,[ US Descr. Pos.],[ US Descr. Size],US Descr. Str.
 0,ロレンス,0,Helmsman,4,Quick,0,30,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x3363c4,48,航海士。\n船のスピードは技術でも差が出るものだ。
 1,ドン,0,Helmsman,6,Dodge%,0,15,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x3363f4,52,航海士。\n相手の動きを予測して敵の砲弾をよけるのだ！
 2,ブラバム,1,Engineer,2,Defense,0,20,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x336428,36,機関士。\nエンジンコントロールして
 3,ハンス,1,Engineer,3,MagDef,0,20,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x33644c,16,機関士。\n僕が。
-4,ベル,2,Gunner,64,Secondary Cannon Attack,0,50,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x33645c,52,砲手。\n重い砲より軽い砲が得意です！がんばります！
+4,ベル,2,Gunner,64,Sec. Cannon Attack,0,50,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x33645c,52,砲手。\n重い砲より軽い砲が得意です！がんばります！
 5,カシム,2,Gunner,48,Main Cannon Attack,0,35,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x336490,44,砲手。\nガツンとでかいのをぶち込んでやるぜ！
 6,ティカティカ,3,Lookout,81,Torpedo Hit%,0,80,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x3364bc,48,見張り。\nオレ、ドンナ小さな動きも見逃さない。
-7,ドミンゴ,3,Lookout,-1,None,0,0,112,Improve Critical% (Ship),6,0,0,0,0,0,0,0,0,0,0,0x3364ec,52,見張り。\nたいていの船は形を見りゃ弱点が分かるぜ。
+7,ドミンゴ,3,Lookout,-1,None,0,0,112,Impr. Critical%,6,0,0,0,0,0,0,0,0,0,0,0x3364ec,52,見張り。\nたいていの船は形を見りゃ弱点が分かるぜ。
 8,オスマン,4,Merchant,-1,None,0,0,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x336520,8,商人。\n
 9,カリファ,4,Merchant,-1,None,0,0,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x0,0,""
 10,イズレール,5,Builder,96,Special Attack,0,100,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x336528,8,大工。\n
-11,キララ,5,Builder,-1,None,0,0,101,Recover HP to 100% (Ship),7,0,0,0,0,0,1,0,0,0,0,0x336530,48,大工。\n私の特製補強材で船の修理をしてあげる。
-12,ポリー,6,Cook,-1,None,0,0,117,Recover MP (Ship),6,-1,0,0,0,10,130,0,0,0,0,0x336560,52,コック。\n特製スタミナドリンクを用意しておくわね。
-13,ウララ,6,Cook,-1,None,0,0,103,Recover Spirit to 100% (Ship),15,-1,0,0,0,0,9,0,0,0,0,0x336594,52,コック。\n私が育てたこの薬草で元気を出してください。
-14,リュウカン,7,Artisan,-1,None,0,0,105,Add Strengthen (Ship),15,4,0,0,0,0,0,0,0,0,0,0x3365c8,12,鍛冶屋。\n
-15,アルキュミス,7,Artisan,-1,None,0,0,108,Improve Parameters (Ship),8,8,0,0,0,50,0,0,0,0,0,0x0,0,""
-16,マルコ,8,Sailor,-1,None,0,0,114,Incr. Spirit Restoration to 200% (Ship),8,-1,0,0,0,0,0,0,0,0,0,0x3365d4,36,水夫。\n俺がいろいろ手伝ってやるよ。
-17,ロビンソン,8,Sailor,-1,None,0,0,113,Decr. Spirit Consumption to 50% (Ship),8,0,0,0,0,0,0,0,0,0,0,0x3365f8,8,水夫。\n
-18,パウ,9,Jester,-1,None,0,0,111,Improve First Strike% (Ship),4,0,0,0,0,0,0,0,0,0,0,0x336600,24,人気者。\nパウパウパウ！
+11,キララ,5,Builder,-1,None,0,0,101,Recover HP 100%,7,0,0,0,0,0,1,0,0,0,0,0x336530,48,大工。\n私の特製補強材で船の修理をしてあげる。
+12,ポリー,6,Cook,-1,None,0,0,117,Recover MP,6,-1,0,0,0,10,130,0,0,0,0,0x336560,52,コック。\n特製スタミナドリンクを用意しておくわね。
+13,ウララ,6,Cook,-1,None,0,0,103,Recover SP 100%,15,-1,0,0,0,0,9,0,0,0,0,0x336594,52,コック。\n私が育てたこの薬草で元気を出してください。
+14,リュウカン,7,Artisan,-1,None,0,0,105,Strengthen,15,4,0,0,0,0,0,0,0,0,0,0x3365c8,12,鍛冶屋。\n
+15,アルキュミス,7,Artisan,-1,None,0,0,108,Impr. Parameters,8,8,0,0,0,50,0,0,0,0,0,0x0,0,""
+16,マルコ,8,Sailor,-1,None,0,0,114,Incr. SP Restor. 200%,8,-1,0,0,0,0,0,0,0,0,0,0x3365d4,36,水夫。\n俺がいろいろ手伝ってやるよ。
+17,ロビンソン,8,Sailor,-1,None,0,0,113,Decr. SP Consum. 50%,8,0,0,0,0,0,0,0,0,0,0,0x3365f8,8,水夫。\n
+18,パウ,9,Jester,-1,None,0,0,111,Impr. First Strike%,4,0,0,0,0,0,0,0,0,0,0,0x336600,24,人気者。\nパウパウパウ！
 19,メリダ,9,Jester,7,Value,0,10000,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x336618,36,人気者。\n何がおこるかはヒ・ミ・ツ
-20,モエギ,10,Delegate,-1,None,0,0,110,Block Magic (Ship),10,0,0,0,0,0,0,0,0,0,0,0x33663c,40,ゲスト。\n皆さん、がんばってください！
-21,ピンタ,10,Delegate,-1,None,0,0,109,Block Artillery (Ship),10,0,0,0,0,0,0,0,0,0,0,0x336664,44,ゲスト。\nあ！・・・このスイッチなんだろ？
+20,モエギ,10,Delegate,-1,None,0,0,110,Block Magic,10,0,0,0,0,0,0,0,0,0,0,0x33663c,40,ゲスト。\n皆さん、がんばってください！
+21,ピンタ,10,Delegate,-1,None,0,0,109,Block Artillery,10,0,0,0,0,0,0,0,0,0,0,0x336664,44,ゲスト。\nあ！・・・このスイッチなんだろ？

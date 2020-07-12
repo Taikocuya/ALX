@@ -1,4 +1,4 @@
-Entry ID,JP Entry Name,Chara. Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order by Prio.,JP Order by ABC,Pad. 1,Purchase Price,Feat. 1 ID,[Feat. 1 Name],Pad. 2,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 3,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 4,Feat. 3 Value,Feat. 4 ID,[Feat. 4 Name],Pad. 5,Feat. 4 Value,[JP Descr. Pos.],[JP Descr. Size],JP Descr. Str.
+Entry ID,JP Entry Name,PC Flags,[ V],[ A],[ F],[ D],[ E],[ G],Retail Price in %,Order by Prio.,JP Order by ABC,Pad. 1,Purchase Price,Feat. 1 ID,[Feat. 1 Name],Pad. 2,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 3,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 4,Feat. 3 Value,Feat. 4 ID,[Feat. 4 Name],Pad. 5,Feat. 4 Value,[ JP Descr. Pos.],[ JP Descr. Size],JP Descr. Str.
 160,Ж防の指輪１,0x3f,X,X,X,X,X,X,50,2,27,0,25,18,MagDef,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x2af400,44,指輪です。Ж術関係中心のアクセサリーです。\n
 161,Ж防の指輪２,0x3f,X,X,X,X,X,X,50,20,28,0,202,18,MagDef,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 162,気力のリング,0x3f,X,X,X,X,X,X,50,3,14,0,30,1,Will,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x2af42c,88,北方の老Ж術使いたちが、Ж樹の枝から彫り上げた\n手作りの指輪だ。気力が少しだけ上がるぞ。
@@ -6,7 +6,7 @@ Entry ID,JP Entry Name,Chara. Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Or
 164,Ж術の指輪１,0x3f,X,X,X,X,X,X,50,6,24,0,71,18,MagDef,0,5,1,Will,0,5,-1,None,0,0,-1,None,0,0,0x0,0,""
 165,Ж術の指輪２,0x3f,X,X,X,X,X,X,50,34,25,0,1325,18,MagDef,0,35,1,Will,0,35,-1,None,0,0,-1,None,0,0,0x0,0,""
 166,Ж術無効の指輪,0x3f,X,X,X,X,X,X,50,49,26,0,2,64,Block Magic,0,1,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
-167,気合の指輪,0x3f,X,X,X,X,X,X,50,43,11,0,2,77,Recover Spirit,0,1,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
+167,気合の指輪,0x3f,X,X,X,X,X,X,50,43,11,0,2,77,Recover SP,0,1,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 168,攻撃の腕輪１,0x3f,X,X,X,X,X,X,50,4,21,0,25,16,Attack,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x2af484,44,腕輪です。格闘関係中心のアクセサリーです。\n
 169,攻撃の腕輪２,0x3f,X,X,X,X,X,X,50,16,22,0,202,16,Attack,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 170,防御の腕輪１,0x3f,X,X,X,X,X,X,50,5,48,0,25,17,Defense,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
@@ -38,19 +38,19 @@ Entry ID,JP Entry Name,Chara. Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Or
 196,生命力の首飾り,0x3f,X,X,X,X,X,X,50,25,30,0,202,2,???,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 197,器用さの首飾り,0x3f,X,X,X,X,X,X,50,26,13,0,71,3,???,0,10,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 198,素早さの首飾り,0x3f,X,X,X,X,X,X,50,27,29,0,202,4,Quick,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
-199,奇跡の首飾り,0x3f,X,X,X,X,X,X,50,44,12,0,2,79,Block Negative States,0,1,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
-200,肉弾の首飾り,0x3f,X,X,X,X,X,X,50,35,37,0,607,68,Reduce Spirit,0,1,-1,None,0,35,-1,None,0,35,-1,None,0,10,0x0,0,""
+199,奇跡の首飾り,0x3f,X,X,X,X,X,X,50,44,12,0,2,79,Block Neg. States,0,1,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
+200,肉弾の首飾り,0x3f,X,X,X,X,X,X,50,35,37,0,607,68,Reduce SP,0,1,-1,None,0,35,-1,None,0,35,-1,None,0,10,0x0,0,""
 201,リボン,0x19,"",X,X,"","",X,50,0,8,0,25,4,Quick,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x2af5e4,80,長い髪を束ねるためのアクセサリーだ。\n動きやすくなるので、スピードが上がるぞ。
 202,髪飾り２,0x19,"",X,X,"","",X,50,33,9,0,371,4,Quick,0,30,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x2af634,32,髪飾りです。素早さを高めます。\n
 203,髪飾りＳ,0x19,"",X,X,"","",X,50,45,10,0,1562,4,Quick,0,50,17,Defense,0,25,18,MagDef,0,25,-1,None,0,0,0x0,0,""
 204,ゴーグル,0x30,X,X,"","","","",50,1,18,0,15,19,Hit%,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x2af654,92,広い大空で、視界を確保するためのアクセサリーだ。\n何でもよく見えるので、命中率が上がるぞ。
 205,ゴーグル２,0x30,X,X,"","","","",50,31,19,0,71,19,Hit%,0,10,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x2af6b0,36,ゴーグルです。器用さを高めます。\n
 206,ゴーグルＳ,0x30,X,X,"","","","",50,47,20,0,755,19,Hit%,0,20,16,Attack,0,25,1,Will,0,25,-1,None,0,0,0x0,0,""
-207,パイプ１,0x32,X,X,"","",X,"",50,7,40,0,2,80,First Strike%,0,1,81,Run%,0,0,-1,None,0,0,-1,None,0,0,0x2af6d4,44,パイプです。タバコは２０歳を過ぎてから。\n
-208,パイプ２,0x32,X,X,"","",X,"",50,46,41,0,800,82,???,0,50,83,Enemy Run%,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
-209,ガッツのブラ,0x18,"",X,X,"","","",50,48,7,0,71,74,???,0,10,77,Recover Spirit,0,0,-1,None,0,0,-1,None,0,0,0x2af700,36,ブラジャーです。んーん、イカす。\n
-210,出会いのブラ,0x18,"",X,X,"","","",50,12,35,0,221,84,Random Encounter%,0,10,80,First Strike%,0,10,83,Enemy Run%,0,-10,-1,None,0,0,0x0,0,""
-211,別れのブラ,0x18,"",X,X,"","","",50,19,57,0,221,84,Random Encounter%,0,-10,81,Run%,0,10,82,???,0,-10,-1,None,0,0,0x0,0,""
+207,パイプ１,0x32,X,X,"","",X,"",50,7,40,0,2,80,First Strike%,0,1,81,PC Run%,0,0,-1,None,0,0,-1,None,0,0,0x2af6d4,44,パイプです。タバコは２０歳を過ぎてから。\n
+208,パイプ２,0x32,X,X,"","",X,"",50,46,41,0,800,82,???,0,50,83,EC Run%,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
+209,ガッツのブラ,0x18,"",X,X,"","","",50,48,7,0,71,74,???,0,10,77,Recover SP,0,0,-1,None,0,0,-1,None,0,0,0x2af700,36,ブラジャーです。んーん、イカす。\n
+210,出会いのブラ,0x18,"",X,X,"","","",50,12,35,0,221,84,Random Encounter%,0,10,80,First Strike%,0,10,83,EC Run%,0,-10,-1,None,0,0,0x0,0,""
+211,別れのブラ,0x18,"",X,X,"","","",50,19,57,0,221,84,Random Encounter%,0,-10,81,PC Run%,0,10,82,???,0,-10,-1,None,0,0,0x0,0,""
 212,ヴァイス用,0x20,X,"","","","","",50,52,1,0,2262,16,Attack,0,100,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x2af724,40,各キャラ用スペシャルです。未定です。\n
 213,アイカ用,0x10,"",X,"","","","",50,53,0,0,2262,16,Attack,0,50,1,Will,0,50,-1,None,0,0,-1,None,0,0,0x0,0,""
 214,ファイナ用,0x50,"",X,"","","","",50,54,46,0,2262,1,Will,0,100,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""

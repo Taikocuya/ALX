@@ -61,14 +61,14 @@ class PlayableShip < StdEntry
   def ship_cannons=(_ship_cannons)
     @ship_cannons = _ship_cannons
     (1..@ship_cannon_size).each do |_i|
-      fetch(VOC.ship_cannon_id[_i])&.call_proc
+      fetch(VOC.cannon_id[_i])&.call_proc
     end
   end
   
   def ship_accessories=(_ship_accessories)
     @ship_accessories = _ship_accessories
     (1..3).each do |_i|
-      fetch(VOC.ship_accessory_id[_i])&.call_proc
+      fetch(VOC.accessory_id[_i])&.call_proc
     end
   end
   
@@ -99,8 +99,8 @@ class PlayableShip < StdEntry
     self[VOC.maxhp] = IntProp.new(:u32, 0)
     
     if product_id != '6107110 06' && product_id != '6107810'
-      self[VOC.maxspirit[-1]] = IntProp.new(:i16, 0)
-      self[VOC.spirit[-1]   ] = IntProp.new(:i16, 0)
+      self[VOC.maxsp[-1]] = IntProp.new(:i16, 0)
+      self[VOC.sp[-1]   ] = IntProp.new(:i16, 0)
     end
     
     self[VOC.defense] = IntProp.new(:i16, 0)
@@ -116,13 +116,13 @@ class PlayableShip < StdEntry
     end
 
     (1..@ship_cannon_size).each do |_i|
-      self[VOC.ship_cannon_id[_i]  ] = IntProp.new(:i16, -1           )
-      self[VOC.ship_cannon_name[_i]] = StrProp.new( nil, '', dmy: true)
+      self[VOC.cannon_id[_i]  ] = IntProp.new(:i16, -1           )
+      self[VOC.cannon_name[_i]] = StrProp.new( nil, '', dmy: true)
     end
     
     (1..3).each do |_i|
-      self[VOC.ship_accessory_id[_i]  ] = IntProp.new(:i16, -1           )
-      self[VOC.ship_accessory_name[_i]] = StrProp.new( nil, '', dmy: true)
+      self[VOC.accessory_id[_i]  ] = IntProp.new(:i16, -1           )
+      self[VOC.accessory_name[_i]] = StrProp.new( nil, '', dmy: true)
     end
 
     if product_id != '6107110 06' && product_id != '6107810'
@@ -148,7 +148,7 @@ class PlayableShip < StdEntry
   # Initialize the entry procs.
   def init_procs
     (1..@ship_cannon_size).each do |_i|
-      fetch(VOC.ship_cannon_id[_i]).proc = Proc.new do |_id|
+      fetch(VOC.cannon_id[_i]).proc = Proc.new do |_id|
         if _id != -1
           _entry = @ship_cannons[_id]
           _name  = '???'
@@ -162,12 +162,12 @@ class PlayableShip < StdEntry
         else
           _name = 'None'
         end
-        self[VOC.ship_cannon_name[_i]] = _name
+        self[VOC.cannon_name[_i]] = _name
       end
     end
 
     (1..3).each do |_i|
-      fetch(VOC.ship_accessory_id[_i]).proc = Proc.new do |_id|
+      fetch(VOC.accessory_id[_i]).proc = Proc.new do |_id|
         if _id != -1
           _entry = @ship_accessories[_id]
           _name  = '???'
@@ -181,7 +181,7 @@ class PlayableShip < StdEntry
         else
           _name = 'None'
         end
-        self[VOC.ship_accessory_name[_i]] = _name
+        self[VOC.accessory_name[_i]] = _name
       end
     end
   end

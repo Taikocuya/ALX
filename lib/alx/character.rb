@@ -70,7 +70,7 @@ class Character < StdEntry
   
   def accessories=(_accessories)
     @accessories = _accessories
-    fetch(VOC.accessory_id)&.call_proc
+    fetch(VOC.accessory_id[-1])&.call_proc
   end
   
 #==============================================================================
@@ -89,33 +89,33 @@ class Character < StdEntry
   
   # Initialize the entry properties.
   def init_props
-    self[VOC.name_str[cid] ] = StrProp.new(  11,  ''           )
-    self[VOC.age           ] = IntProp.new( :i8,   0           )
-    self[VOC.gender_id     ] = IntProp.new( :i8,   0           )
-    self[VOC.gender_name   ] = StrProp.new( nil,  '', dmy: true)
-    self[VOC.width         ] = IntProp.new( :i8,   0           )
-    self[VOC.depth         ] = IntProp.new( :i8,   0           )
-    self[VOC.maxmp         ] = IntProp.new( :i8,   0           )
-    self[VOC.element_id    ] = IntProp.new( :i8,   0           )
-    self[VOC.element_name  ] = StrProp.new( nil,  '', dmy: true)
-    self[padding_hdr       ] = IntProp.new( :i8,   0           )
-    self[VOC.weapon_id     ] = IntProp.new(:u16,   0           )
-    self[VOC.weapon_name   ] = StrProp.new( nil,  '', dmy: true)
-    self[VOC.armor_id      ] = IntProp.new(:u16,   0           )
-    self[VOC.armor_name    ] = StrProp.new( nil,  '', dmy: true)
-    self[VOC.accessory_id  ] = IntProp.new(:u16,   0           )
-    self[VOC.accessory_name] = StrProp.new( nil,  '', dmy: true)
-    self[VOC.movement_flags] = IntProp.new(:i16,   0, base: 16 )
-    self[VOC.hp            ] = IntProp.new(:i16,   0           )
-    self[VOC.maxhp         ] = IntProp.new(:i16,   0           )
-    self[VOC.base_hp_incr  ] = IntProp.new(:i16,   0           )
-    self[VOC.spirit[-1]    ] = IntProp.new(:i16,   0           )
-    self[VOC.maxspirit[-1] ] = IntProp.new(:i16,   0           )
-    self[VOC.counter       ] = IntProp.new(:i16,   0           )
-    self[padding_hdr       ] = IntProp.new(:i16,   0           )
-    self[VOC.exp[-1]       ] = IntProp.new(:u32,   0           )
-    self[VOC.base_mp_incr  ] = FltProp.new(:f32, 0.0           )
-    self[unknown_hdr       ] = FltProp.new(:f32, 0.0           )
+    self[VOC.name_str[cid]     ] = StrProp.new(  11,  ''           )
+    self[VOC.age               ] = IntProp.new( :i8,   0           )
+    self[VOC.gender_id         ] = IntProp.new( :i8,   0           )
+    self[VOC.gender_name       ] = StrProp.new( nil,  '', dmy: true)
+    self[VOC.width             ] = IntProp.new( :i8,   0           )
+    self[VOC.depth             ] = IntProp.new( :i8,   0           )
+    self[VOC.maxmp             ] = IntProp.new( :i8,   0           )
+    self[VOC.element_id        ] = IntProp.new( :i8,   0           )
+    self[VOC.element_name      ] = StrProp.new( nil,  '', dmy: true)
+    self[padding_hdr           ] = IntProp.new( :i8,   0           )
+    self[VOC.weapon_id         ] = IntProp.new(:u16,   0           )
+    self[VOC.weapon_name       ] = StrProp.new( nil,  '', dmy: true)
+    self[VOC.armor_id          ] = IntProp.new(:u16,   0           )
+    self[VOC.armor_name        ] = StrProp.new( nil,  '', dmy: true)
+    self[VOC.accessory_id[-1]  ] = IntProp.new(:u16,   0           )
+    self[VOC.accessory_name[-1]] = StrProp.new( nil,  '', dmy: true)
+    self[VOC.movement_flags    ] = IntProp.new(:i16,   0, base: 16 )
+    self[VOC.hp                ] = IntProp.new(:i16,   0           )
+    self[VOC.maxhp             ] = IntProp.new(:i16,   0           )
+    self[VOC.base_hp_incr      ] = IntProp.new(:i16,   0           )
+    self[VOC.sp[-1]            ] = IntProp.new(:i16,   0           )
+    self[VOC.maxsp[-1]         ] = IntProp.new(:i16,   0           )
+    self[VOC.counter           ] = IntProp.new(:i16,   0           )
+    self[padding_hdr           ] = IntProp.new(:i16,   0           )
+    self[VOC.exp[-1]           ] = IntProp.new(:u32,   0           )
+    self[VOC.base_mp_incr      ] = FltProp.new(:f32, 0.0           )
+    self[unknown_hdr           ] = FltProp.new(:f32, 0.0           )
     
     (0...6).each do |_i|
       self[VOC.elements[_i]] = IntProp.new(:i16, 0)
@@ -187,7 +187,7 @@ class Character < StdEntry
       self[VOC.armor_name] = _name
     end
 
-    fetch(VOC.accessory_id).proc = Proc.new do |_id|
+    fetch(VOC.accessory_id[-1]).proc = Proc.new do |_id|
       if _id != -1
         _entry = @accessories[_id]
         _name  = '???'
@@ -201,7 +201,7 @@ class Character < StdEntry
       else
         _name = 'None'
       end
-      self[VOC.accessory_name] = _name
+      self[VOC.accessory_name[-1]] = _name
     end
   end
 

@@ -114,7 +114,7 @@ module ALX
     _empty = ''
     _format.sub!('%d', '%s')
     
-    if _format =~ /^\[?[^\[]+%s/
+    if _format =~ /^\[?.*[^A-Z]+%s/
       _enum = ' ' + _enum
     end
     if _format =~ /%s[^\]]+\]?$/

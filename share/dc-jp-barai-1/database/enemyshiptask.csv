@@ -1,4 +1,4 @@
-Entry ID,[Filter],[Enemy Ship ID],[Enemy Ship Name],Task Cond. ID,[Task Cond. Name],Task Rating,Task 1 Type ID,[Task 1 Type Name],Task 1 Arm. ID,Task 1 Param. ID,[Task 1 Param. Name],Task 1 Arm. Range,Task 2 Type ID,[Task 2 Type Name],Task 2 Arm. ID,Task 2 Param. ID,[Task 2 Param. Name],Task 2 Arm. Range
+Entry ID,[Filter],[ES ID],[ES Name],Cond. ID,[Cond. Name],Rating,T1 Type ID,[T1 Type Name],T1 Arm. ID,T1 Param. ID,[T1 Param. Name],T1 Arm. Range,T2 Type ID,[T2 Type Name],T2 Arm. ID,T2 Param. ID,[T2 Param. Name],T2 Arm. Range
 0,R500A.BIN,23,ブラックベアード,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 1,R500A.BIN,23,ブラックベアード,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 2,R500A.BIN,23,ブラックベアード,-1,???,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0

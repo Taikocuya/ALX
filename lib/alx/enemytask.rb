@@ -32,8 +32,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle an enemy instruction.
-class EnemyInstruction < Entry
+# Class to handle an enemy task.
+class EnemyTask < Entry
 
 #==============================================================================
 #                                   PUBLIC
@@ -101,7 +101,7 @@ class EnemyInstruction < Entry
   def enemies=(_enemies)
     @enemies = _enemies
     
-    fetch(VOC.instr_enemy_id)&.call_proc
+    fetch(VOC.enemy_ref)&.call_proc
   end
   
   def magics=(_magics)
@@ -125,11 +125,11 @@ class EnemyInstruction < Entry
   end
 
   def enemy_id
-    self[VOC.instr_enemy_id] || -1
+    self[VOC.enemy_ref] || -1
   end
   
   def enemy_id=(_enemy_id)
-    self[VOC.instr_enemy_id] = _enemy_id
+    self[VOC.enemy_ref] = _enemy_id
   end
 
   def group_key
@@ -189,7 +189,7 @@ class EnemyInstruction < Entry
   # Initialize the entry properties.
   def init_props
     self[VOC.filter           ] = AryProp.new(      [], dmy: true)
-    self[VOC.instr_enemy_id   ] = IntProp.new(:u32, -1, dmy: true)
+    self[VOC.enemy_ref    ] = IntProp.new(:u32, -1, dmy: true)
     self[VOC.enemy_name_jp[-1]] = StrProp.new( nil, '', dmy: true)
     
     if us?
@@ -208,7 +208,7 @@ class EnemyInstruction < Entry
   
   # Initialize the entry procs.
   def init_procs
-    fetch(VOC.instr_enemy_id).proc = Proc.new do |_id|
+    fetch(VOC.enemy_ref).proc = Proc.new do |_id|
       _entry = @enemies.find { |_enemy| _enemy.id == _id }
       if _entry
         _name_jp  = _entry[VOC.name_str['JP']]
@@ -234,23 +234,23 @@ class EnemyInstruction < Entry
     end
 
     fetch(VOC.param_id).proc = Proc.new do |_param_id|
-      _type_id    = self[VOC.type_id]
-      _instr_id   = self[VOC.instr_id     ]
-      _type_name  = VOC.instr_types[_type_id]
+      _type_id    = self[VOC.type_id ]
+      _instr_id   = self[VOC.instr_id]
+      _type_name  = VOC.task_types[_type_id]
       _instr_name = (_instr_id != -1) ? '???' : 'None'
       _param_name = (_param_id != -1) ? '???' : 'None'
       
       case _type_id
       # Branch
       when 0
-        _instr_name = VOC.branches[_instr_id]
-        _param_name = sprintf(VOC.jump_to, _param_id)
+        _instr_name  = VOC.branches[_instr_id]
+        _param_name = VOC.branch_params[_param_id]
       # Action
       when 1
         # Type
         _entry = nil
         if _instr_id >= 550
-          _instr_name = VOC.basic_actions[_instr_id]
+          _instr_name = VOC.actions[_instr_id]
         elsif _instr_id >= 500
           _entry = @magics[_instr_id - 500]
         elsif _instr_id >= 0
@@ -265,7 +265,7 @@ class EnemyInstruction < Entry
         end
       
         # Target
-        _param_name = VOC.action_targets[_param_id]
+        _param_name = VOC.action_params[_param_id]
       end
 
       self[VOC.type_name ] = _type_name
@@ -274,7 +274,7 @@ class EnemyInstruction < Entry
     end
   end
 
-end	# class EnemyInstruction
+end	# class EnemyTask
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

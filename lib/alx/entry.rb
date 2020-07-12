@@ -172,10 +172,10 @@ class Entry
   # Provides marshalling support for use by the Marshal library.
   # @param _hash [Hash] Hash object
   def marshal_load(_hash)
-    init_attrs
     _hash.each do |_key, _value|
       instance_variable_set(_key, _value)
     end
+    init_attrs
   end
   
   # Provides marshalling support for use by the Marshal library.
