@@ -77,7 +77,7 @@ class DefinedStringData < EntryData
   # @param _filename [String] File name
   def load_bin_data(_filename)
     _detect = DefinedStringDetector.new(root)
-    if SYS.defined_string_cache
+    if SYS.defined_string_use_cache
       _detect.load_cache
     end
     
@@ -125,7 +125,7 @@ class DefinedStringData < EntryData
 
     LOG.info(sprintf(VOC.close, _filename))
 
-    if SYS.defined_string_cache
+    if SYS.defined_string_use_cache
       _detect.save_cache
     end
   end

@@ -66,9 +66,13 @@ class SampleCreator < EntryTransform
       return
     end
   
-    CONFIG_FILES.each_value do |_f|
-      _src = File.join(File.dirname(__FILE__), '../../lib/alx', _f)
-      _dst = File.join(File.dirname(__FILE__), '../../etc',     _f + '.sample')
+    CONFIG_FILES.each_value do |_basename|
+      _src = File.join(
+        File.dirname(__FILE__), '../../lib/alx', _basename
+      )
+      _dst = File.join(
+        File.dirname(__FILE__), '../../etc'    , _basename + '.sample'
+      )
       create_sample(_src, _dst)
     end
   end

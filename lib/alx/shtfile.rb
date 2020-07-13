@@ -55,10 +55,11 @@ class ShtFile
     _result   = true
     _result &&= _meta.is_a?(MetaData)
     _result &&= @meta.is_a?(MetaData)
-    _result &&= (@meta.version  == _meta.version )
-    _result &&= (@meta.uuid     == _meta.uuid    )
-    _result &&= (@meta.luid     == _meta.luid    )
-    _result &&= (@meta.created  == _meta.created )
+    _result &&= (@meta.version   == _meta.version  )
+    _result &&= (@meta.uuid      == _meta.uuid     )
+    _result &&= (@meta.luid      == _meta.luid     )
+    _result &&= (@meta.checksums == _meta.checksums)
+    _result &&= (@meta.created   == _meta.created  )
     _result
   end
 

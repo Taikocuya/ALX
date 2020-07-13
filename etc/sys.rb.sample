@@ -43,10 +43,18 @@ SYS.configure do |_s|
   # Required version of Ruby
   _s.ruby_version = '2.7.0'
 
+#------------------------------------------------------------------------------
+# Snapshots
+#------------------------------------------------------------------------------
+
   # Enables or disables the use of snapshots. If you disable the use of 
   # snapshots, snapshots will not be loaded and differences will not be 
   # detected, which enormously increases the total runtime.
-  _s.snapshot_cache = true
+  _s.snapshot_use_cache    = true
+  # Enables or disables the watching of configuration files. If you enable 
+  # the watching of configuration files, snapshots will be recreated if 
+  # configuration changes have occured.
+  _s.snapshot_watch_config = true
   
 #------------------------------------------------------------------------------
 # Logging
@@ -998,7 +1006,7 @@ SYS.configure do |_s|
   # skip the entire string detection in future runs. This can be useful, for 
   # example, to quickly check the effects of filter changes without scanning 
   # the whole file again.
-  _s.defined_string_cache         = true
+  _s.defined_string_use_cache     = true
   # Enables or disables the filter avoidance. If you enable the filter 
   # avoidance, no filters are applied.
   _s.defined_string_ignore_filter = false

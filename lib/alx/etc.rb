@@ -22,6 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
+require('digest')
 require_relative('alx.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -39,6 +40,11 @@ class ETC
 #                                  CONSTANTS
 #==============================================================================
 
+  # Configuration directories
+  CONFIG_DIRS = [
+    File.dirname(__FILE__), File.join(File.dirname(__FILE__), '../../etc'),
+  ]
+  
   # Configuration files
   CONFIG_FILES = {
     :SYS => 'sys.rb',
@@ -52,16 +58,31 @@ class ETC
   public
   
   # Constructs an ETC.
-  def initialize
-    @attr_count  = 0
-    @define_attr = true
-    @verify_type = true
-    
+  def initialize(_symbol, _filename)
+    @symbol     = _symbol
+    @filename   = _filename
+    @size       = 0
+    @checksum   = '0'
+    @modifiable = true
+
+    _buffer = ''
+    CONFIG_DIRS.each do |_dirname|
+      _path = File.join(_dirname, _filename)
+      if File.exist?(_path)
+        File.open(_path, 'r') do |_f|
+          _buffer << _f.read
+        end
+      end
+    end
+    unless _buffer.empty?
+      @checksum = Digest::SHA2.hexdigest(_buffer)
+    end
+
     if block_given?
       yield self
     end
-    if @attr_count > 0
-      @define_attr = false
+    if @size > 0
+      @modifiable = false
     end
   end
 
@@ -72,12 +93,13 @@ class ETC
       return @@initialized
     end
     
-    CONFIG_FILES.each do |_k, _f|
-      ALX.const_set(_k, ETC.new)
-      require_relative(_f)
-      _etc_file = File.join(File.dirname(__FILE__), '../../etc', _f)
-      if File.exist?(_etc_file)
-        require_relative(_etc_file)
+    CONFIG_FILES.each do |_sym, _basename|
+      ALX.const_set(_sym, ETC.new(_sym, _basename))
+      CONFIG_DIRS.each do |_dirname|
+        _path = File.join(_dirname, _basename)
+        if File.exist?(_path)
+          require(_path)
+        end
       end
     end
     
@@ -94,15 +116,15 @@ class ETC
   # @see ::Enumerable#each
   def configure
     yield self
-    if @attr_count > 0
-      @define_attr = false
+    if @size > 0
+      @modifiable = false
     end
   end
 
   # @see ::BasicObject#method_missing
   def method_missing(_sym, *_args)
     _method = _sym[/.*(?==\z)/m]
-    if @define_attr && _method
+    if @modifiable && _method
       if _args.length != 1
         _msg = "wrong number of arguments (#{_size} for 1)"
         raise(ArgumentError, _msg, caller(1))
@@ -114,18 +136,16 @@ class ETC
           _src = @#{_method}
           _dst = _value
           
-          if @verify_type
-            _valid   = _src.class == _dst.class
-            _valid ||= _src == true  && [true, false].include?(_dst)
-            _valid ||= _src == false && [true, false].include?(_dst)
-            unless _valid
-              _src = _src.class.name
-              _dst = _dst.class.name
-              _msg = sprintf(
-                'no implicit conversion of %s into %s', _src, _dst
-              )
-              raise(TypeError, _msg, caller)
-            end
+          _valid   = _src.class == _dst.class
+          _valid ||= _src == true  && [true, false].include?(_dst)
+          _valid ||= _src == false && [true, false].include?(_dst)
+          unless _valid
+            _src = _src.class.name
+            _dst = _dst.class.name
+            _msg = sprintf(
+              'no implicit conversion of %s into %s', _src, _dst
+            )
+            raise(TypeError, _msg, caller)
           end
           
           @#{_method} = _value
@@ -133,7 +153,7 @@ class ETC
       })
       instance_variable_set("@#{_method}", _args.first)
       
-      @attr_count += 1
+      @size += 1
     else
       raise(NoMethodError, "undefined method `#{_sym}' for #{self}", caller)
     end
@@ -143,10 +163,12 @@ class ETC
 # Public member variables
 #------------------------------------------------------------------------------
 
-  attr_reader   :attr_count
-  attr_accessor :define_attr
-  attr_accessor :verify_type
-  
+  attr_reader :symbol
+  attr_reader :filename
+  attr_reader :size
+  attr_reader :checksum
+  attr_reader :modifiable
+
 end # module ETC
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

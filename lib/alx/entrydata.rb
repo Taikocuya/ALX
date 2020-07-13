@@ -88,7 +88,7 @@ class EntryData
   # @param _sym [Symbol] Object symbol
   # @return [Object] Object instance
   def load_sht_data(_sym)
-    unless SYS.snapshot_cache
+    unless SYS.snapshot_use_cache
       return nil
     end
     
@@ -97,7 +97,7 @@ class EntryData
 
   # Reads all snaphots (instance variables) from SHT files.
   def load_sht
-    unless SYS.snapshot_cache
+    unless SYS.snapshot_use_cache
       return
     end
     
@@ -109,7 +109,7 @@ class EntryData
   # @param _obj [Object] Object instance
   # @return [Object] Object instance
   def save_sht_data(_sym, _obj)
-    unless SYS.snapshot_cache
+    unless SYS.snapshot_use_cache
       return nil
     end
 
@@ -118,7 +118,7 @@ class EntryData
 
   # Writes all snaphots (instance variables) to SHT files.
   def save_sht
-    unless SYS.snapshot_cache
+    unless SYS.snapshot_use_cache
       return
     end
     

@@ -45,19 +45,35 @@ class MetaData
   # Constructs a MetaData.
   # @param _luid [String] Locally Unique ID (LUID)
   def initialize(_luid)
-    @version  = Executable::VERSION
-    @luid     = _luid
-    @uuid     = SecureRandom.uuid
-    @created  = Time.new
-    @modified = Time.new + 1
+    @version   = Executable::VERSION
+    @luid      = _luid
+    @uuid      = SecureRandom.uuid
+    @created   = Time.new
+    @modified  = Time.new + 1
+    @checksums = {}
+    
+    ObjectSpace.each_object(ETC).to_a.each do |_etc|
+      @checksums[_etc.symbol] = _etc.checksum
+    end
   end
 
-  # Returns +true+ if the metadata version is valid, otherwise +false+.
-  # @return [Boolean] +true+ if metadata version is valid, otherwise +false+.
+  # Returns +true+ if the metadata is valid, otherwise +false+.
+  # @return [Boolean] +true+ if metadata is valid, otherwise +false+.
   def valid?
     _result   = true
     _result &&= (@version == Executable::VERSION)
     _result &&= @luid.is_a?(String)
+    _result &&= @uuid.is_a?(String)
+    _result &&= @checksums.is_a?(Hash)
+    _result &&= @created.is_a?(Time)
+    _result &&= @modified.is_a?(Time)
+    
+    if SYS.snapshot_watch_config
+      _result &&= ObjectSpace.each_object(ETC).to_a.all? do |_etc|
+        @checksums[_etc.symbol] == _etc.checksum
+      end
+    end
+
     _result
   end
 
@@ -89,11 +105,12 @@ class MetaData
   # Provides marshalling support for use by the Marshal library.
   # @return [Hash] Hash object
   def marshal_dump
-    _hash             = {}
-    _hash[:@version] = @version
-    _hash[:@luid   ] = @luid
-    _hash[:@uuid   ] = @uuid
-    _hash[:@created] = @created
+    _hash              = {}
+    _hash[:@version  ] = @version
+    _hash[:@luid     ] = @luid
+    _hash[:@uuid     ] = @uuid
+    _hash[:@created  ] = @created
+    _hash[:@checksums] = @checksums
     _hash
   end
 
@@ -106,6 +123,7 @@ class MetaData
   attr_accessor :uuid
   attr_accessor :created
   attr_accessor :modified
+  attr_accessor :checksums
 
 end # class MetaData
 
