@@ -7,7 +7,7 @@
 ## Contributors
 
 * [@Aditu_V](https://twitter.com/Aditu_V)
-* [@Ares_Arcadia](https://twitter.com/Ares_Arcadia)
+* [@AresArcadia](https://twitter.com/AresArcadia)
 * [@ncktdl7](https://twitter.com/ncktdl7)
 * [@TheRealNoseguy](https://twitter.com/TheRealNoseguy)
 
@@ -30,5 +30,5 @@
 
 ## See also
 
-* [@Ares_Arcadia](https://twitter.com/Ares_Arcadia)
+* [@AresArcadia](https://twitter.com/AresArcadia)
 * [Skies of Arcadia Wiki](https://skiesofarcadia.gamepedia.com/)
