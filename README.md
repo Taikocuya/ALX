@@ -1,5 +1,4 @@
-ALX — Skies of Arcadia Legends Examiner
-=======================================
+# ALX — Skies of Arcadia Legends Examiner
 
 ALX is a very simple, fast, cross-platform and object-oriented command line 
 tool to extract the game data from Skies of Arcadia, Skies of Arcadia Legends,
@@ -7,8 +6,7 @@ Eternal Arcadia (エターナルアルカディア) and Eternal Arcadia Legends
 (エターナルアルカディアレジェンド). It is able to export and import the data to and from 
 CSV files.
 
-Features
---------
+## Features
 
 * Character skills (Super Moves and Magics)
 * Character stats (EXP curves, Magic EXP curves, parameters and spirit curves)
@@ -23,8 +21,7 @@ Features
 * Shops
 * Treasure chests
 
-Prerequisites
--------------
+## Prerequisites
 
 The commands respectively scripts in the `bin` directory require:
 
@@ -41,16 +38,14 @@ require:
   [uniCSVed](http://csved.sjfrancke.nl/))
 * Editor for plain text (e.g. [Notepad++](https://notepad-plus-plus.org/))
 
-Download
---------
+## Download
 
 * You can get the latest official release on the SourceForge project website:
   https://sourceforge.net/projects/aex/files/latest/download
 * You can also get the current development version from the GitHub repository:
   https://github.com/Taikocuya/ALX
 
-Installation
-------------
+## Installation
 
 Put the files to some directory where you want it. Pre-exported CSV files with 
 complete game data can already be found in the subdirectories.
@@ -92,8 +87,7 @@ the appropriate data extraction tool.
 | Dreamcast | [GDRom Explorer](https://www.romhacking.net/utilities/1459/) |
 | Gamecube  | [GCRebuilder](http://www.romhacking.net/utilities/619/)      |
 
-Commands
---------
+## Commands
 
 All commands respectively scripts can be found in the `bin` directory. 
 
@@ -105,13 +99,11 @@ Executes all export commands in `bin` except `exportdefinedstring.rb`.
 
 Executes all import commands in `bin` except `importdefinedstring.rb`.
 
-Links
------
+## Links
 
 * [Skies of Arcadia Wiki](https://skiesofarcadia.gamepedia.com/)
 
-License
--------
+## License
 
 Copyright (C) 2020 Marcel Renner. ALX is licensed under the GNU General Public 
 License, Version 3.0. See [LICENSE.md](LICENSE.md) for the full license text.
