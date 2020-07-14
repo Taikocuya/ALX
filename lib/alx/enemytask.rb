@@ -200,8 +200,8 @@ class EnemyTask < Entry
     
     self[VOC.type_id   ] = IntProp.new(:i16, -1           )
     self[VOC.type_name ] = StrProp.new( nil, '', dmy: true)
-    self[VOC.instr_id  ] = IntProp.new(:i16, -1           )
-    self[VOC.instr_name] = StrProp.new( nil, '', dmy: true)
+    self[VOC.task_id   ] = IntProp.new(:i16, -1           )
+    self[VOC.task_name ] = StrProp.new( nil, '', dmy: true)
     self[VOC.param_id  ] = IntProp.new(:i16, -1           )
     self[VOC.param_name] = StrProp.new( nil, '', dmy: true)
   end
@@ -229,13 +229,13 @@ class EnemyTask < Entry
       fetch(VOC.param_id)&.call_proc
     end
   
-    fetch(VOC.instr_id).proc = Proc.new do
+    fetch(VOC.task_id).proc = Proc.new do
       fetch(VOC.param_id)&.call_proc
     end
 
     fetch(VOC.param_id).proc = Proc.new do |_param_id|
-      _type_id    = self[VOC.type_id ]
-      _instr_id   = self[VOC.instr_id]
+      _type_id    = self[VOC.type_id]
+      _instr_id   = self[VOC.task_id]
       _type_name  = VOC.task_types[_type_id]
       _instr_name = (_instr_id != -1) ? '???' : 'None'
       _param_name = (_param_id != -1) ? '???' : 'None'
@@ -269,7 +269,7 @@ class EnemyTask < Entry
       end
 
       self[VOC.type_name ] = _type_name
-      self[VOC.instr_name] = _instr_name
+      self[VOC.task_name ] = _instr_name
       self[VOC.param_name] = _param_name
     end
   end

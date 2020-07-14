@@ -190,8 +190,8 @@ VOC.configure do |_v|
   _v.item_id          = hdr('Item%dID'    )
   _v.item_name        = hdr('[Item%dName]')
 
-  _v.instr_id   = 'Instr. ID'
-  _v.instr_name = '[Instr. Name]'
+  _v.task_id    = 'Task ID'
+  _v.task_name  = '[Task Name]'
   _v.param_id   = 'Param. ID'
   _v.param_name = '[Param. Name]'
 
