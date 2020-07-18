@@ -1,11 +1,11 @@
 Entry ID,US Entry Name,Occ. Flags,[M],[B],[S],Effect ID,[Effect Name],Scope ID,[Scope Name],Consume%,Retail Price in %,Order by Prio.,US Order by ABC,Purchase Price,Pad. 1,Pad. 2,Effect Value,Element ID,[Element Name],Type ID,[Type Name],State ID,[State Name],State Miss%,[ US Descr. Pos.],[ US Descr. Size],US Descr. Str.
 240,Sap Leaf,0x6,X,X,"",31,Recover HP,1,Single PC,100,75,1,18,20,0,0,250,-1,None,-1,None,0,Poison,0,0x3338a4,56,A leaf of a plant that recovers an ally's HP by\n250p.
 241,Saprum Leaf,0x6,X,X,"",31,Recover HP,1,Single PC,100,75,2,19,40,0,0,500,-1,None,-1,None,0,Poison,0,0x3338dc,88,A leaf of a plant that grows in the northern\ncontinents. It heals an ally's HP by 500p.
-242,Sapres Leaf,0x6,X,X,"",31,Recover HP,2,All PCs,100,75,3,20,80,0,0,500,-1,None,-1,None,0,Poison,0,0x333934,92,A leaf of a plant that can only be picked in the\ntropics. It heals all allies' HP by 500p.
+242,Sapres Leaf,0x6,X,X,"",31,Recover HP,2,All PCs 1,100,75,3,20,80,0,0,500,-1,None,-1,None,0,Poison,0,0x333934,92,A leaf of a plant that can only be picked in the\ntropics. It heals all allies' HP by 500p.
 243,Sapocine Leaf,0x6,X,X,"",32,Recover HP 100%,1,Single PC,100,75,4,21,100,0,0,9999,-1,None,-1,None,0,Poison,0,0x333990,92,A leaf of a rare plant found in the Eastern\nislands. It can completely heal an ally's HP.
 244,Amber,0x5,X,"",X,48,Recover MP,1,Single PC,100,75,5,23,15,0,0,1,-1,None,-1,None,0,Poison,0,0x3339ec,96,A piece of fossilized resin that came from an\nancient magical tree. It recovers your MP by 1p.
 245,Amber Ball,0x5,X,"",X,48,Recover MP,1,Single PC,100,75,6,22,150,0,0,10,-1,None,-1,None,0,Poison,0,0x333a4c,88,A large ball of amber that came from an ancient\nmagic tree. It recovers your MP by 10p.
-246,ガッツ回復薬,0x5,X,"",X,35,Recover SP,2,All PCs,100,50,7,9,500,0,0,99,-1,None,-1,None,0,Poison,0,0x333aa4,24,ガッツを回復します。\n
+246,ガッツ回復薬,0x5,X,"",X,35,Recover SP,2,All PCs 1,100,50,7,9,500,0,0,99,-1,None,-1,None,0,Poison,0,0x333aa4,24,ガッツを回復します。\n
 247,Ｈ＆Ｍ回復１薬,0x5,X,"",X,50,???,1,Single PC,100,50,8,1,100,0,0,500,10,???,0,Physical,0,Poison,0,0x333abc,28,ＨＰとＭＰを回復します。\n
 248,Ｈ＆Ｍ回復２薬,0x5,X,"",X,51,Recover HP & MP,1,Single PC,100,50,9,2,400,0,0,9999,99,???,0,Physical,0,Poison,0,0x333ad8,36,ＨＰとＭＰをたくさん回復します。\n
 249,治癒薬,0x2,"",X,"",30,Rem. Neg. States,1,Single PC,100,50,10,31,30,0,0,0,0,Green,0,Physical,-1,None,-1,0x333afc,32,戦闘中の不利な状態を直します。\n
@@ -28,20 +28,20 @@ Entry ID,US Entry Name,Occ. Flags,[M],[B],[S],Effect ID,[Effect Name],Scope ID,[
 266,Magic Berry,0x4,X,"","",60,Incr. MAXMP,1,Single PC,100,1,24,44,3000,0,0,1,-1,None,-1,None,0,Poison,0,0x333dfc,80,The berry of the Tree of Magic. By eating it\nthe maximum MP will increase by 1.
 267,炎の杖,0x2,"",X,"",0,Damage,4,All ECs,0,10,25,43,200,0,0,200,1,Red,1,Magical,0,Poison,0,0x333e4c,56,Ж術の効果を封じ込めた杖です。\n何度か使うと壊れます。
 268,爆炎の杖,0x2,"",X,"",0,Damage,4,All ECs,10,10,26,36,600,0,0,600,1,Red,1,Magical,0,Poison,0,0x0,0,""
-269,氷の杖,0x2,"",X,"",0,Damage,3,Single EC,5,10,27,15,400,0,0,400,2,Purple,1,Magical,0,Poison,0,0x0,0,""
-270,凍結の杖,0x2,"",X,"",0,Damage,3,Single EC,15,10,28,34,800,0,0,800,2,Purple,1,Magical,0,Poison,0,0x0,0,""
+269,氷の杖,0x2,"",X,"",0,Damage,3,Single EC 1,5,10,27,15,400,0,0,400,2,Purple,1,Magical,0,Poison,0,0x0,0,""
+270,凍結の杖,0x2,"",X,"",0,Damage,3,Single EC 1,15,10,28,34,800,0,0,800,2,Purple,1,Magical,0,Poison,0,0x0,0,""
 271,波の杖,0x2,"",X,"",0,Damage,33,EC Area 2,5,10,29,35,400,0,0,400,3,Blue,1,Magical,0,Poison,0,0x0,0,""
 272,竜巻の杖,0x2,"",X,"",0,Damage,34,EC Area 3,15,10,30,29,800,0,0,800,3,Blue,1,Magical,0,Poison,0,0x0,0,""
 273,雷の杖,0x2,"",X,"",0,Damage,36,EC Line 1,0,10,31,10,200,0,0,200,4,Yellow,1,Magical,0,Poison,0,0x0,0,""
-274,稲妻の杖,0x2,"",X,"",0,Damage,37,EC Line 2,10,10,32,7,600,0,0,600,4,Yellow,1,Magical,0,Poison,0,0x0,0,""
+274,稲妻の杖,0x2,"",X,"",0,Damage,37,Single EC 2,10,10,32,7,600,0,0,600,4,Yellow,1,Magical,0,Poison,0,0x0,0,""
 275,回復の杖,0x2,"",X,"",31,Recover HP,1,Single PC,0,10,33,8,400,0,0,500,-1,None,-1,None,0,Poison,0,0x0,0,""
-276,幸福の杖,0x2,"",X,"",31,Recover HP,2,All PCs,10,10,34,14,600,0,0,1200,-1,None,-1,None,0,Poison,0,0x0,0,""
+276,幸福の杖,0x2,"",X,"",31,Recover HP,2,All PCs 1,10,10,34,14,600,0,0,1200,-1,None,-1,None,0,Poison,0,0x0,0,""
 277,復活の杖,0x2,"",X,"",28,"Revive, Recover HP 100%",1,Single PC,25,10,35,41,800,0,0,0,0,Green,0,Physical,-1,None,-1,0x0,0,""
-278,沈黙の杖,0x2,"",X,"",12,Silence,3,Single EC,5,10,36,32,300,0,0,0,0,Green,0,Physical,5,Silence,60,0x0,0,""
+278,沈黙の杖,0x2,"",X,"",12,Silence,3,Single EC 1,5,10,36,32,300,0,0,0,0,Green,0,Physical,5,Silence,60,0x0,0,""
 279,混乱の杖,0x2,"",X,"",11,Confusion,4,All ECs,15,10,37,16,600,0,0,0,0,Green,0,Physical,4,Confusion,60,0x0,0,""
-280,脱力の杖,0x2,"",X,"",26,Weak,3,Single EC,5,10,38,30,300,0,0,0,0,Green,0,Physical,8,Weak,40,0x0,0,""
+280,脱力の杖,0x2,"",X,"",26,Weak,3,Single EC 1,5,10,38,30,300,0,0,0,0,Green,0,Physical,8,Weak,40,0x0,0,""
 281,睡眠の杖,0x2,"",X,"",9,Sleep,4,All ECs,15,10,39,24,600,0,0,0,0,Green,0,Physical,3,Sleep,40,0x0,0,""
-282,即死の杖,0x2,"",X,"",6,"Damage, Unconscious 1",3,Single EC,25,10,40,27,1000,0,0,1,0,Green,-1,None,-1,None,-2,0x0,0,""
+282,即死の杖,0x2,"",X,"",6,"Damage, Unconscious 1",3,Single EC 1,25,10,40,27,1000,0,0,1,0,Green,-1,None,-1,None,-2,0x0,0,""
 283,Bag of Spices,0x0,"","","",-1,None,0,None,0,100,41,13,500,0,0,0,0,Green,0,Physical,0,Poison,0,0x333e84,64,Special product of Shrine Island. It makes food\ntaste better.
 284,金塊,0x0,"","","",-1,None,0,None,0,100,42,11,2500,0,0,0,0,Green,0,Physical,0,Poison,0,0x333ec4,28,金の塊です。高く売れます。\n
 285,Sky Sardines,0x0,"","","",-1,None,0,None,0,100,43,28,1,0,0,0,0,Green,0,Physical,0,Poison,0,0x333ee0,84,A type of fish that inhabits the Shrine Island\narea. It doesn't taste very good.

@@ -1,35 +1,35 @@
 Entry ID,JP Entry Name,Pad. 1,Pad. 2,Pad. 3,Pad. 4,Category ID,[Category Name],Effect ID,[Effect Name],Scope ID,[Scope Name],Effect Value 1,Effect Value 2,Element ID,[Element Name],Type ID,[Type Name],Unk. 1,Unk. 2,State ID,[State Name],State Miss%,Pad. 5,Pad. 6
-0,アパ,0,0,0,0,1,Magic,21,Strengthen,3,Single EC,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+0,アパ,0,0,0,0,1,Magic,21,Strengthen,3,Single EC 1,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 1,アポス,0,0,0,0,1,Magic,21,Strengthen,4,All ECs,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 2,サイレシャ,0,0,0,0,1,Magic,12,Silence,1,Single PC,0,0,0,Green,0,Physical,1,1,5,Silence,40,0,0
 3,パニカ,0,0,0,0,1,Magic,11,Confusion,1,Single PC,0,0,0,Green,0,Physical,1,1,4,Confusion,40,0,0
 4,ダウナ,0,0,0,0,1,Magic,26,Weak,1,Single PC,0,0,0,Green,0,Physical,1,1,8,Weak,40,0,0
-5,ダウノス,0,0,0,0,1,Magic,26,Weak,2,All PCs,0,0,0,Green,0,Physical,1,1,8,Weak,60,0,0
-6,サプラ,0,0,0,0,1,Magic,31,Recover HP,3,Single EC,500,17408,0,Green,0,Physical,0,0,0,Poison,0,0,0
-7,サプリィ,0,0,0,0,1,Magic,31,Recover HP,3,Single EC,1000,17408,0,Green,0,Physical,0,0,0,Poison,0,0,0
+5,ダウノス,0,0,0,0,1,Magic,26,Weak,2,All PCs 1,0,0,0,Green,0,Physical,1,1,8,Weak,60,0,0
+6,サプラ,0,0,0,0,1,Magic,31,Recover HP,3,Single EC 1,500,17408,0,Green,0,Physical,0,0,0,Poison,0,0,0
+7,サプリィ,0,0,0,0,1,Magic,31,Recover HP,3,Single EC 1,1000,17408,0,Green,0,Physical,0,0,0,Poison,0,0,0
 8,サプレス,0,0,0,0,1,Magic,31,Recover HP,4,All ECs,1000,17408,0,Green,0,Physical,0,0,0,Poison,0,0,0
-9,サプローネ,0,0,0,0,1,Magic,32,Recover HP 100%,3,Single EC,10000,17408,0,Green,0,Physical,0,0,0,Poison,0,0,0
+9,サプローネ,0,0,0,0,1,Magic,32,Recover HP 100%,3,Single EC 1,10000,17408,0,Green,0,Physical,0,0,0,Poison,0,0,0
 10,プワザ,0,0,0,0,1,Magic,4,"Damage, Poison",1,Single PC,1,60,0,Green,1,Magical,1,1,0,Poison,40,0,0
-11,プワゾーク,0,0,0,0,1,Magic,4,"Damage, Poison",2,All PCs,1,100,0,Green,1,Magical,1,1,0,Poison,60,0,0
-12,スリーパ,0,0,0,0,1,Magic,9,Sleep,2,All PCs,0,0,0,Green,0,Physical,1,1,3,Sleep,60,0,0
+11,プワゾーク,0,0,0,0,1,Magic,4,"Damage, Poison",2,All PCs 1,1,100,0,Green,1,Magical,1,1,0,Poison,60,0,0
+12,スリーパ,0,0,0,0,1,Magic,9,Sleep,2,All PCs 1,0,0,0,Green,0,Physical,1,1,3,Sleep,60,0,0
 13,クイッカ,0,0,0,0,1,Magic,20,Quickened,4,All ECs,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-14,キュア,0,0,0,0,1,Magic,30,Rem. Neg. States,3,Single EC,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-15,ライザ,0,0,0,0,1,Magic,27,"Revive, Recover HP 50%",3,Single EC,0,0,0,Green,0,Physical,55,55,7,Revival,50,0,0
-16,ライゾン,0,0,0,0,1,Magic,28,"Revive, Recover HP 100%",3,Single EC,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+14,キュア,0,0,0,0,1,Magic,30,Rem. Neg. States,3,Single EC 1,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
+15,ライザ,0,0,0,0,1,Magic,27,"Revive, Recover HP 50%",3,Single EC 1,0,0,0,Green,0,Physical,55,55,7,Revival,50,0,0
+16,ライゾン,0,0,0,0,1,Magic,28,"Revive, Recover HP 100%",3,Single EC 1,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 17,ジェダ,0,0,0,0,1,Magic,5,Unconscious,1,Single PC,0,0,0,Green,0,Physical,1,1,1,Unconscious,60,0,0
-18,ジェデス,0,0,0,0,1,Magic,5,Unconscious,2,All PCs,0,0,0,Green,0,Physical,1,1,1,Unconscious,80,0,0
+18,ジェデス,0,0,0,0,1,Magic,5,Unconscious,2,All PCs 1,0,0,0,Green,0,Physical,1,1,1,Unconscious,80,0,0
 19,ジェドーサ,0,0,0,0,1,Magic,6,"Damage, Unconscious 1",1,Single PC,1,250,5,Silver,1,Magical,1,1,1,Unconscious,0,0,0
 20,ウェイバ,0,0,0,0,1,Magic,0,Damage,96,PC Area 1,1,60,3,Blue,1,Magical,0,0,0,Poison,0,0,0
 21,ウェイビィ,0,0,0,0,1,Magic,0,Damage,97,PC Area 2,1,105,3,Blue,1,Magical,0,0,0,Poison,0,0,0
 22,ウェボーン,0,0,0,0,1,Magic,0,Damage,98,PC Area 3,1,195,3,Blue,1,Magical,0,0,0,Poison,0,0,0
-23,バーナ,0,0,0,0,1,Magic,0,Damage,2,All PCs,1,50,1,Red,1,Magical,0,0,0,Poison,0,0,0
-24,バーニィ,0,0,0,0,1,Magic,0,Damage,2,All PCs,1,85,1,Red,1,Magical,0,0,0,Poison,0,0,0
-25,バーネス,0,0,0,0,1,Magic,0,Damage,2,All PCs,1,120,1,Red,1,Magical,0,0,0,Poison,0,0,0
+23,バーナ,0,0,0,0,1,Magic,0,Damage,2,All PCs 1,1,50,1,Red,1,Magical,0,0,0,Poison,0,0,0
+24,バーニィ,0,0,0,0,1,Magic,0,Damage,2,All PCs 1,1,85,1,Red,1,Magical,0,0,0,Poison,0,0,0
+25,バーネス,0,0,0,0,1,Magic,0,Damage,2,All PCs 1,1,120,1,Red,1,Magical,0,0,0,Poison,0,0,0
 26,グラシャ,0,0,0,0,1,Magic,0,Damage,1,Single PC,1,70,2,Purple,1,Magical,0,0,0,Poison,0,0,0
 27,グラシィ,0,0,0,0,1,Magic,0,Damage,1,Single PC,1,120,2,Purple,1,Magical,0,0,0,Poison,0,0,0
 28,グラシェス,0,0,0,0,1,Magic,0,Damage,1,Single PC,1,170,2,Purple,1,Magical,0,0,0,Poison,0,0,0
 29,グラゾーバ,0,0,0,0,1,Magic,0,Damage,1,Single PC,1,220,2,Purple,1,Magical,0,0,0,Poison,0,0,0
-30,バーノーン,0,0,0,0,1,Magic,0,Damage,2,All PCs,1,155,1,Red,1,Magical,0,0,0,Poison,0,0,0
+30,バーノーン,0,0,0,0,1,Magic,0,Damage,2,All PCs 1,1,155,1,Red,1,Magical,0,0,0,Poison,0,0,0
 31,ウェイベス,0,0,0,0,1,Magic,0,Damage,97,PC Area 2,1,150,3,Blue,1,Magical,0,0,0,Poison,0,0,0
 32,ボルタ,0,0,0,0,1,Magic,0,Damage,100,PC Line 1,1,60,4,Yellow,1,Magical,0,0,0,Poison,0,0,0
 33,ボルティ,0,0,0,0,1,Magic,0,Damage,101,PC Line 2,1,105,4,Yellow,1,Magical,0,0,0,Poison,0,0,0

@@ -53,7 +53,7 @@ Entry ID,US Entry Name,PC ID,[PC Name],Retail Price in %,Order by Prio.,US Order
 51,デ式アーム,3,Drachma,50,52,31,-1,None,1404,92,80,-1,None,0,0,0x0,0,""
 52,ギルガメッシュ,3,Drachma,50,55,10,-1,None,6415,184,80,-1,None,0,0,0x0,0,""
 53,パロットアーム,3,Drachma,50,51,42,5,Confusion 2,1122,83,80,-1,None,0,0,0x0,0,""
-54,デ式ドリル,3,Drachma,50,53,32,6,Death 1,1722,101,80,-1,None,0,0,0x0,0,""
+54,デ式ドリル,3,Drachma,50,53,32,6,Unconscious 1,1722,101,80,-1,None,0,0,0x0,0,""
 55,発掘アーム,3,Drachma,50,50,38,-1,None,874,74,80,-1,None,0,0,0x0,0,""
 56,古代アーム,3,Drachma,50,54,16,-1,None,2075,110,80,48,Poison,0,32,0x0,0,""
 57,シルバーアーム,3,Drachma,50,57,23,-1,None,7125,193,80,37,Silver,0,16,0x0,0,""
@@ -67,7 +67,7 @@ Entry ID,US Entry Name,PC ID,[PC Name],Retail Price in %,Order by Prio.,US Order
 65,ナスル式拳銃,5,Gilder,50,65,34,-1,None,2162,112,100,33,Red,0,16,0x0,0,""
 66,古代勇者の拳銃,5,Gilder,50,70,19,-1,None,5821,176,100,1,Will,0,5,0x0,0,""
 67,バルア式拳銃,5,Gilder,50,66,39,-1,None,2334,116,100,-1,None,0,0,0x0,0,""
-68,暗殺短銃,5,Gilder,50,69,0,10,Death 2,1888,105,180,-1,None,0,0,0x0,0,""
+68,暗殺短銃,5,Gilder,50,69,0,10,Unconscious 2,1888,105,180,-1,None,0,0,0x0,0,""
 69,ダカットの拳銃,5,Gilder,50,67,29,9,Sleep 2,2514,120,100,-1,None,0,0,0x0,0,""
 70,ギルダーＳＰ,5,Gilder,50,68,11,-1,None,5257,168,110,-1,None,0,0,0x0,0,""
 71,ダミー武器,0,Vyse,0,-1,-1,-1,None,0,0,0,-1,None,0,0,0x33336c,16,ダミーです。\n

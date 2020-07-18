@@ -14,7 +14,7 @@ Entry ID,US Entry Name,PC ID,[PC Name],Retail Price in %,Order by Prio.,US Order
 12,Windslicer,0,Vyse,50,12,70,-1,None,8760,153,90,-1,None,0,0,0x2c81f8,80,A blade so slender that it is fabled to be able\nto cut the very air in half.
 13,Vorlik Blade,0,Vyse,50,15,68,-1,None,16500,200,200,-1,None,0,0,0x2c8248,76,"A masterpiece of the legendary swordsmith,\nRyu-kan, forged from Velorium."
 14,Suiran Blade,0,Vyse,50,11,60,-1,None,7500,141,90,-1,None,0,0,0x2c8294,92,"A short sword used by Yafutoman soldiers, its\nthick, heavy blade is still easy to handle."
-15,Soul Sword,0,Vyse,50,14,56,16,Death 3,12340,174,90,-1,None,0,0,0x2c82f0,96,"The ultimate sword, the best work of the master\nswordsmith, Ryu-kan. Can cause instant death."
+15,Soul Sword,0,Vyse,50,14,56,16,Unconscious 3,12340,174,90,-1,None,0,0,0x2c82f0,96,"The ultimate sword, the best work of the master\nswordsmith, Ryu-kan. Can cause instant death."
 16,Boomerang,1,Aika,50,17,5,-1,None,70,19,110,-1,None,0,0,0x2c8350,80,"Aika's favorite boomerang. It's large but light,\nand relatively easy to aim."
 17,Skywing,1,Aika,50,26,55,-1,None,3670,107,110,-1,None,0,0,0x2c83a0,92,"A boomerang shaped like a flying bird. It\nalways returns, no matter how far it is thrown."
 18,Scout Wing,1,Aika,50,21,51,-1,None,680,53,110,-1,None,0,0,0x2c83fc,84,"A weapon carried by crews of scouting parties,\nit is meant to be fast and deadly."
@@ -53,7 +53,7 @@ Entry ID,US Entry Name,PC ID,[PC Name],Retail Price in %,Order by Prio.,US Order
 51,Mining Arm,3,Drachma,50,57,44,-1,None,9980,172,80,-1,None,0,0,0x2c8f08,96,Equipment designed to mine Moon Stones. Created\nby De Loco when he was assigned to Ixa'taka.
 52,Dragon Arm,3,Drachma,50,58,25,-1,None,11850,181,80,-1,None,0,0,0x2c8f68,76,"An arm specially designed for Drachma by the\nmaster swordsmith, Ryu-kan."
 53,Beak Hand,3,Drachma,50,52,3,5,Confusion 2,880,60,80,-1,None,0,0,0x2c8fb4,96,An attachment for Drachma's arm that is shaped\nlike a bird's beak. It can also Confuse enemies.
-54,De Loco Drill,3,Drachma,50,55,24,6,Death 1,2600,95,80,-1,None,0,0,0x2c9014,96,"A drill taken from mining equipment designed by\nDe Loco, its spinning blade can kill instantly."
+54,De Loco Drill,3,Drachma,50,55,24,6,Unconscious 1,2600,95,80,-1,None,0,0,0x2c9014,96,"A drill taken from mining equipment designed by\nDe Loco, its spinning blade can kill instantly."
 55,Excavation Arm,3,Drachma,50,53,27,-1,None,1340,73,80,-1,None,0,0,0x2c9074,92,"An instrument designed for archeological digs,\nit can even be used for delicate movements."
 56,Ruin Arm,3,Drachma,50,56,50,-1,None,3860,112,80,-1,None,0,0,0x2c90d0,92,"A strange arm, based on unknown technology,\nleft behind in the ruins of an ancient city."
 57,Silver Arm,3,Drachma,50,59,53,-1,None,13710,190,80,37,Silver,0,-2,0x2c912c,92,Part of an android soldier created by the Silver\nCivilization. Boasts high attack power.
@@ -67,7 +67,7 @@ Entry ID,US Entry Name,PC ID,[PC Name],Retail Price in %,Order by Prio.,US Order
 65,Nasr Pistol,5,Gilder,50,67,47,-1,None,3520,112,100,33,Red,0,-2,0x2c93ec,96,"A replica of the weapon used by the Royal Guard,\nwithout the unnecessary decorative elements."
 66,Warrior's Pistol,5,Gilder,50,72,69,-1,None,10920,176,100,-1,None,0,0,0x2c944c,88,A small gun used by ancient warriors. Its\nappearance hides its destructive power well.
 67,Valuan Pistol,5,Gilder,50,69,66,-1,None,8140,160,100,-1,None,0,0,0x2c94a4,96,"A stolen Valuan pistol, modified by sailors to\nincrease power, without sacrificing accuracy."
-68,Marksman Gun,5,Gilder,50,71,43,10,Death 2,3000,100,200,-1,None,0,0,0x2c9504,84,A small pistol used by Valuan assassins. Can\ncause instant death with a good shot.
+68,Marksman Gun,5,Gilder,50,71,43,10,Unconscious 2,3000,100,200,-1,None,0,0,0x2c9504,84,A small pistol used by Valuan assassins. Can\ncause instant death with a good shot.
 69,Daccat Custom,5,Gilder,50,68,22,9,Sleep 2,4290,120,100,-1,None,0,0,0x2c9558,92,"A long pistol used by the legendary Air Pirate,\nDaccat. Can sometimes put enemies to Sleep."
 70,Gilder Special,5,Gilder,50,70,31,-1,None,9460,168,100,-1,None,0,0,0x2c95b4,84,A gun made specifically to fit Gilder's touch.\nIt has unequaled accuracy and power.
 71,Tuna Cutlass,0,Vyse,100,16,65,-1,None,22222,150,0,-1,None,0,0,0x2c9608,80,"Received from the imposter, Vize.\nBoasts high attack power, but low accuracy."
