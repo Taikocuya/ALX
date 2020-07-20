@@ -70,7 +70,7 @@ class SpiritCurve < StdEntry
   # Initialize the entry attributes.
   def init_attrs
     super
-    @characters = {}
+    @characters ||= {}
   end
   
   # Initialize the entry properties.

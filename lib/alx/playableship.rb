@@ -83,13 +83,13 @@ class PlayableShip < StdEntry
     super
 
     if product_id == '6107110 06' || product_id == '6107810'
-      @ship_cannon_size = 4
+      @ship_cannon_size ||= 4
     else
-      @ship_cannon_size = 5
+      @ship_cannon_size ||= 5
     end
     
-    @ship_cannons     = {}
-    @ship_accessories = {}
+    @ship_cannons     ||= {}
+    @ship_accessories ||= {}
   end
   
   # Initialize the entry properties.

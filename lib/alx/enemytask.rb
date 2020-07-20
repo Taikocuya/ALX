@@ -181,15 +181,15 @@ class EnemyTask < Entry
   # Initialize the entry attributes.
   def init_attrs
     super
-    @enemies     = []
-    @magics      = {}
-    @super_moves = {}
+    @enemies     ||= []
+    @magics      ||= {}
+    @super_moves ||= {}
   end
   
   # Initialize the entry properties.
   def init_props
     self[VOC.filter           ] = AryProp.new(      [], dmy: true)
-    self[VOC.enemy_ref    ] = IntProp.new(:u32, -1, dmy: true)
+    self[VOC.enemy_ref        ] = IntProp.new(:u32, -1, dmy: true)
     self[VOC.enemy_name_jp[-1]] = StrProp.new( nil, '', dmy: true)
     
     if us?
@@ -235,32 +235,32 @@ class EnemyTask < Entry
 
     fetch(VOC.param_id).proc = Proc.new do |_param_id|
       _type_id    = self[VOC.type_id]
-      _instr_id   = self[VOC.task_id]
+      _task_id    = self[VOC.task_id]
       _type_name  = VOC.task_types[_type_id]
-      _instr_name = (_instr_id != -1) ? '???' : 'None'
+      _task_name  = (_task_id != -1) ? '???' : 'None'
       _param_name = (_param_id != -1) ? '???' : 'None'
       
       case _type_id
       # Branch
       when 0
-        _instr_name  = VOC.branches[_instr_id]
+        _task_name  = VOC.branches[_task_id]
         _param_name = VOC.branch_params[_param_id]
       # Action
       when 1
         # Type
         _entry = nil
-        if _instr_id >= 550
-          _instr_name = VOC.actions[_instr_id]
-        elsif _instr_id >= 500
-          _entry = @magics[_instr_id - 500]
-        elsif _instr_id >= 0
-          _entry = @super_moves[_instr_id]
+        if _task_id >= 550
+          _task_name = VOC.actions[_task_id]
+        elsif _task_id >= 500
+          _entry = @magics[_task_id - 500]
+        elsif _task_id >= 0
+          _entry = @super_moves[_task_id]
         end
         if _entry
           if jp? || us?
-            _instr_name = _entry[VOC.name_str[cid]]
+            _task_name = _entry[VOC.name_str[cid]]
           elsif eu?
-            _instr_name = _entry[VOC.name_str['GB']]
+            _task_name = _entry[VOC.name_str['GB']]
           end
         end
       
@@ -269,7 +269,7 @@ class EnemyTask < Entry
       end
 
       self[VOC.type_name ] = _type_name
-      self[VOC.task_name ] = _instr_name
+      self[VOC.task_name ] = _task_name
       self[VOC.param_name] = _param_name
     end
   end

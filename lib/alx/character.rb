@@ -82,9 +82,9 @@ class Character < StdEntry
   # Initialize the entry attributes.
   def init_attrs
     super
-    @weapons     = {}
-    @armors      = {}
-    @accessories = {}
+    @weapons     ||= {}
+    @armors      ||= {}
+    @accessories ||= {}
   end
   
   # Initialize the entry properties.

@@ -70,7 +70,7 @@ class TreasureChest < StdEntry
   # Initialize the entry attributes.
   def init_attrs
     super
-    @items = {}
+    @items ||= {}
   end
   
   # Initialize the entry properties.

@@ -81,7 +81,7 @@ class EnemyEncounter < Entry
   # Initialize the entry attributes.
   def init_attrs
     super
-    @enemies = []
+    @enemies ||= []
   end
   
   # Initialize the entry properties.

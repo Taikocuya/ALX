@@ -300,10 +300,10 @@ class Entry
 
   # Initialize the entry attributes.
   def init_attrs
-    @props      = { VOC.id => IntProp.new(:u32, -1, dmy: true) }
-    @padding_id = 0
-    @unknown_id = 0
-    @expired    = false
+    @props      ||= { VOC.id => IntProp.new(:u32, -1, dmy: true) }
+    @padding_id ||= 0
+    @unknown_id ||= 0
+    @expired    ||= false
   end
   
   # Returns a CSV header with "Padding" as description and an unique 

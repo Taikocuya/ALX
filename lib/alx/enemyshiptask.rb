@@ -112,9 +112,9 @@ class EnemyShipTask < Entry
   # Initialize the entry attributes.
   def init_attrs
     super
-    @enemy_id    = -1
-    @enemy_ships = {}
-    @magics      = {}
+    @enemy_id    ||= -1
+    @enemy_ships ||= {}
+    @magics      ||= {}
   end
   
   # Initialize the entry properties.
@@ -145,8 +145,8 @@ class EnemyShipTask < Entry
   def init_procs
     fetch(VOC.filter).proc = Proc.new do |_filter|
       _match = SYS.enemy_ship_tasks.find do |_, _array|
-        _array.any? do |_instr_id|
-          _filter.include?(_instr_id.to_s)
+        _array.any? do |_task_id|
+          _filter.include?(_task_id.to_s)
         end
       end
       
