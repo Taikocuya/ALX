@@ -1180,8 +1180,8 @@ Entry ID,[Filter],Initiative,Magic EXP,EC1 ID,[JP EC1 Name],[US EC1 Name],EC2 ID
 4,a123b_ep.enp,147,3,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,255,None,None,255,None,None
 5,a123b_ep.enp,147,3,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,255,None,None
 6,a123b_ep.enp,147,3,66,ギャルブ,Cerosik,66,ギャルブ,Cerosik,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-7,a123b_ep.enp,142,3,74,アスヒモス,Forst Worm,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-8,a123b_ep.enp,142,3,74,アスヒモス,Forst Worm,74,アスヒモス,Forst Worm,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+7,a123b_ep.enp,142,3,74,アスヒモス,Frost Worm,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+8,a123b_ep.enp,142,3,74,アスヒモス,Frost Worm,74,アスヒモス,Frost Worm,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 9,a123b_ep.enp,137,3,81,ヌックア,Dolthstra,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 10,a123b_ep.enp,152,3,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None
 11,a123b_ep.enp,147,3,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,255,None,None,255,None,None
@@ -1196,12 +1196,12 @@ Entry ID,[Filter],Initiative,Magic EXP,EC1 ID,[JP EC1 Name],[US EC1 Name],EC2 ID
 20,a123b_ep.enp,142,3,66,ギャルブ,Cerosik,66,ギャルブ,Cerosik,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,255,None,None,255,None,None
 21,a123b_ep.enp,152,3,66,ギャルブ,Cerosik,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None
 22,a123b_ep.enp,142,3,66,ギャルブ,Cerosik,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,255,None,None
-23,a123b_ep.enp,147,3,74,アスヒモス,Forst Worm,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-24,a123b_ep.enp,147,3,74,アスヒモス,Forst Worm,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,255,None,None,255,None,None,255,None,None
-25,a123b_ep.enp,147,3,74,アスヒモス,Forst Worm,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None
-26,a123b_ep.enp,147,3,74,アスヒモス,Forst Worm,74,アスヒモス,Forst Worm,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-27,a123b_ep.enp,142,3,74,アスヒモス,Forst Worm,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,255,None,None,255,None,None,255,None,None
-28,a123b_ep.enp,142,3,74,アスヒモス,Forst Worm,66,ギャルブ,Cerosik,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+23,a123b_ep.enp,147,3,74,アスヒモス,Frost Worm,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+24,a123b_ep.enp,147,3,74,アスヒモス,Frost Worm,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,255,None,None,255,None,None,255,None,None
+25,a123b_ep.enp,147,3,74,アスヒモス,Frost Worm,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None
+26,a123b_ep.enp,147,3,74,アスヒモス,Frost Worm,74,アスヒモス,Frost Worm,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+27,a123b_ep.enp,142,3,74,アスヒモス,Frost Worm,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,255,None,None,255,None,None,255,None,None
+28,a123b_ep.enp,142,3,74,アスヒモス,Frost Worm,66,ギャルブ,Cerosik,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 29,a123b_ep.enp,142,3,81,ヌックア,Dolthstra,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 30,a123b_ep.enp,142,3,81,ヌックア,Dolthstra,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 31,a123b_ep.enp,137,3,81,ヌックア,Dolthstra,66,ギャルブ,Cerosik,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
@@ -1212,8 +1212,8 @@ Entry ID,[Filter],Initiative,Magic EXP,EC1 ID,[JP EC1 Name],[US EC1 Name],EC2 ID
 4,a123d_ep.enp,147,3,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,255,None,None,255,None,None
 5,a123d_ep.enp,147,3,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,255,None,None
 6,a123d_ep.enp,147,3,66,ギャルブ,Cerosik,66,ギャルブ,Cerosik,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-7,a123d_ep.enp,142,3,74,アスヒモス,Forst Worm,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-8,a123d_ep.enp,142,3,74,アスヒモス,Forst Worm,74,アスヒモス,Forst Worm,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+7,a123d_ep.enp,142,3,74,アスヒモス,Frost Worm,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+8,a123d_ep.enp,142,3,74,アスヒモス,Frost Worm,74,アスヒモス,Frost Worm,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 9,a123d_ep.enp,137,3,81,ヌックア,Dolthstra,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 10,a123d_ep.enp,152,3,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None
 11,a123d_ep.enp,147,3,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,255,None,None,255,None,None
@@ -1228,12 +1228,12 @@ Entry ID,[Filter],Initiative,Magic EXP,EC1 ID,[JP EC1 Name],[US EC1 Name],EC2 ID
 20,a123d_ep.enp,142,3,66,ギャルブ,Cerosik,66,ギャルブ,Cerosik,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,255,None,None,255,None,None
 21,a123d_ep.enp,152,3,66,ギャルブ,Cerosik,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None
 22,a123d_ep.enp,142,3,66,ギャルブ,Cerosik,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,255,None,None
-23,a123d_ep.enp,147,3,74,アスヒモス,Forst Worm,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-24,a123d_ep.enp,147,3,74,アスヒモス,Forst Worm,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,255,None,None,255,None,None,255,None,None
-25,a123d_ep.enp,147,3,74,アスヒモス,Forst Worm,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None
-26,a123d_ep.enp,147,3,74,アスヒモス,Forst Worm,74,アスヒモス,Forst Worm,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
-27,a123d_ep.enp,142,3,74,アスヒモス,Forst Worm,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,255,None,None,255,None,None,255,None,None
-28,a123d_ep.enp,142,3,74,アスヒモス,Forst Worm,66,ギャルブ,Cerosik,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+23,a123d_ep.enp,147,3,74,アスヒモス,Frost Worm,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+24,a123d_ep.enp,147,3,74,アスヒモス,Frost Worm,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,255,None,None,255,None,None,255,None,None
+25,a123d_ep.enp,147,3,74,アスヒモス,Frost Worm,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None
+26,a123d_ep.enp,147,3,74,アスヒモス,Frost Worm,74,アスヒモス,Frost Worm,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
+27,a123d_ep.enp,142,3,74,アスヒモス,Frost Worm,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,68,ヴァルガンド,Valgand,255,None,None,255,None,None,255,None,None
+28,a123d_ep.enp,142,3,74,アスヒモス,Frost Worm,66,ギャルブ,Cerosik,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 29,a123d_ep.enp,142,3,81,ヌックア,Dolthstra,84,シデンクワイ,Kilite,84,シデンクワイ,Kilite,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 30,a123d_ep.enp,142,3,81,ヌックア,Dolthstra,89,アークエルモ,Arclooper,89,アークエルモ,Arclooper,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None
 31,a123d_ep.enp,137,3,81,ヌックア,Dolthstra,66,ギャルブ,Cerosik,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None,255,None,None

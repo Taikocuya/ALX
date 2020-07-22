@@ -45,7 +45,7 @@ Entry ID,EU Message ID,[ DE Entry Name Pos.],[ DE Entry Name Size],DE Entry Name
 43,0x8c385c98,0x157f,15,Silver Eclipse,0x15b9,17,Eclipse de Plata,0x15a8,17,Éclipse d'argent,0x157f,15,Silver Eclipse,0,S-Move,0,Damage,2,All PCs,0,16,25,5,Silver,0,Physical,0,0,0,Poison,0,0,0
 44,0x8c385ca8,0x158e,6,Drain,0x15ca,8,Desecar,0x15b9,11,Épuisement,0x158e,6,Drain,0,S-Move,26,Weak,1,Single PC,0,0,0,0,Green,0,Physical,16,17,8,Weak,0,0,0
 45,0x8c385cb0,0x1594,14,Turn Recovery,0x15d2,17,Turno de Reposar,0x15c4,13,Récupération,0x1594,14,Turn Recovery,0,S-Move,33,Regenerate,5,Self,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-46,0x8c385cc0,0x15a2,12,Destruction,0x15e3,12,Destrucción,0x15d1,12,Destruction,0x15a2,12,Destruction,0,S-Move,17,Rem. Pos. States 2,2,All PCs,0,16,10,5,Silver,0,Physical,0,0,0,Poison,0,0,0
+46,0x8c385cc0,0x15a2,12,Destruction,0x15e3,12,Destrucción,0x15d1,12,Destruction,0x15a2,12,Destruction,0,S-Move,17,"Damage, Rem. Pos. States",2,All PCs,0,16,10,5,Silver,0,Physical,0,0,0,Poison,0,0,0
 47,0x8c385ccc,0x15ae,8,Tremble,0x15ef,7,Seísmo,0x15dd,12,Tremblement,0x15ae,8,Tremble,0,S-Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 48,0x8c385cd4,0x15b6,14,Silver Tundra,0x15f6,16,Tundra de Plata,0x15e9,17,Toundra d'argent,0x15b6,14,Silver Tundra,0,S-Move,0,Damage,1,Single PC,0,16,50,5,Silver,0,Physical,0,0,0,Poison,0,0,0
 49,0x8c385bec,0x15c4,12,Call Allies,0x1606,17,Convocar aliados,0x15fa,15,Appel d'alliés,0x15c4,12,Call Allies,0,S-Move,43,Call EC,0,None,0,54,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
@@ -64,7 +64,7 @@ Entry ID,EU Message ID,[ DE Entry Name Pos.],[ DE Entry Name Size],DE Entry Name
 62,0x8c385bec,0x165d,12,Call Allies,0x16c2,17,Convocar aliados,0x16b5,15,Appel d'alliés,0x165d,12,Call Allies,0,S-Move,43,Call EC,0,None,0,12,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 63,0x8c385d48,0x1669,7,Digest,0x16d3,8,Digerir,0x16c4,8,Digérer,0x1669,7,Digest,0,S-Move,-1,None,0,None,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 64,0x8c385c70,0x1670,14,Terrible Bite,0x16db,17,Mordisco Temible,0x16cc,17,Terrible Morsure,0x1670,14,Terrible Bite,0,S-Move,72,"Damage, Fatigue",1,Single PC,0,16,15,2,Purple,0,Physical,16,17,6,Fatigue,20,0,0
-65,0x8c385d50,0x167e,8,Neglora,0x16ec,8,Neglora,0x16dd,8,Neglora,0x167e,8,Neglora,0,S-Move,17,Rem. Pos. States 2,2,All PCs,0,16,5,4,Yellow,0,Physical,-1,-2,-1,None,-2,0,0
+65,0x8c385d50,0x167e,8,Neglora,0x16ec,8,Neglora,0x16dd,8,Neglora,0x167e,8,Neglora,0,S-Move,17,"Damage, Rem. Pos. States",2,All PCs,0,16,5,4,Yellow,0,Physical,-1,-2,-1,None,-2,0,0
 66,0x8c385d58,0x1686,10,Ice Storm,0x16f4,16,Ráfaga de Hielo,0x16e5,15,Orage de Glace,0x1686,10,Ice Storm,0,S-Move,0,Damage,2,All PCs,0,16,20,2,Purple,0,Physical,0,0,0,Poison,0,0,0
 67,0x8c385bec,0x1690,12,Call Allies,0x1704,17,Convocar aliados,0x16f4,15,Appel d'alliés,0x1690,12,Call Allies,0,S-Move,43,Call EC,0,None,0,60,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 68,0x8c385bec,0x169c,12,Call Allies,0x1715,17,Convocar aliados,0x1703,15,Appel d'alliés,0x169c,12,Call Allies,0,S-Move,43,Call EC,0,None,0,84,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
@@ -85,7 +85,7 @@ Entry ID,EU Message ID,[ DE Entry Name Pos.],[ DE Entry Name Size],DE Entry Name
 83,0x8c385dd8,0x1757,17,Silver Nightmare,0x17f2,10,Pesadilla,0x17d6,18,SCauchemar Argent,0x1757,17,Silver Nightmare,0,S-Move,74,Control PC,1,Single PC,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 84,0x8c385dec,0x1768,13,Silver Binds,0x17fc,15,Lazos de Plata,0x17e8,15,Liens d'argent,0x1768,13,Silver Binds,0,S-Move,0,Damage,1,Single PC,0,16,50,5,Silver,0,Physical,0,0,0,Poison,0,0,0
 85,0x8c385cb0,0x1775,14,Turn Recovery,0x180b,17,Turno de Reposar,0x17f7,13,Récupération,0x1775,14,Turn Recovery,0,S-Move,33,Regenerate,5,Self,0,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-86,0x8c385cc0,0x1783,12,Destruction,0x181c,12,Destrucción,0x1804,12,Destruction,0x1783,12,Destruction,0,S-Move,17,Rem. Pos. States 2,2,All PCs,0,16,25,5,Silver,0,Physical,-1,-2,-1,None,-2,0,0
+86,0x8c385cc0,0x1783,12,Destruction,0x181c,12,Destrucción,0x1804,12,Destruction,0x1783,12,Destruction,0,S-Move,17,"Damage, Rem. Pos. States",2,All PCs,0,16,25,5,Silver,0,Physical,-1,-2,-1,None,-2,0,0
 87,0x8c385bec,0x178f,12,Call Allies,0x1828,17,Convocar aliados,0x1810,15,Appel d'alliés,0x178f,12,Call Allies,0,S-Move,43,Call EC,0,None,0,44,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 88,0x8c385bec,0x179b,12,Call Allies,0x1839,17,Convocar aliados,0x181f,15,Appel d'alliés,0x179b,12,Call Allies,0,S-Move,43,Call EC,0,None,0,21,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 89,0x8c385bec,0x17a7,12,Call Allies,0x184a,17,Convocar aliados,0x182e,15,Appel d'alliés,0x17a7,12,Call Allies,0,S-Move,43,Call EC,0,None,0,22,0,0,Green,0,Physical,0,0,0,Poison,0,0,0

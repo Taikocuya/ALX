@@ -6,7 +6,7 @@ Entry ID,JP Entry Name,Element ID,[Element Name],Order by Prio.,Occ. Flags,[M],[
 40,アルファストーム,6,Neutral,210,0x2,"",X,"",0,Damage,39,EC Ray S3,1,Aika,1,6,0,0,40,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af0b0,92,一直線上の敵に大ダメージを与えるアイカの技だ。\n高速回転するブーメランから炎がほとばしるぞ!!
 41,ラムダバースト,6,Neutral,212,0x2,"",X,"",0,Damage,4,All ECs,1,Aika,1,12,0,0,60,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af10c,76,敵全体に大ダメージを与えるアイカの技だ。\n炎のブーメランが地を切り裂くぞ!!
 42,月の封印,6,Neutral,220,0x2,"",X,"",8,"Damage, Stone",3,Single EC,2,Fina,1,8,0,0,50,0,Physical,2,Stone,20,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af158,88,敵１体にダメージを与え、さらに石化の状態にする\nファイナの技だ。ペットもがんばってるぞ!!
-43,月の波動,6,Neutral,223,0x2,"",X,"",17,Rem. Pos. States 2,4,All ECs,2,Fina,1,30,0,0,300,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af1b0,60,ファイナ攻撃技の第２弾です。\nＥＣ全体に対する攻撃技です。
+43,月の波動,6,Neutral,223,0x2,"",X,"",17,"Damage, Rem. Pos. States",4,All ECs,2,Fina,1,30,0,0,300,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af1b0,60,ファイナ攻撃技の第２弾です。\nＥＣ全体に対する攻撃技です。
 44,噴！,6,Neutral,230,0x2,"",X,"",0,Damage,3,Single EC,3,Drachma,1,10,0,0,30,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af1ec,60,ドラクマ攻撃技の第１弾です。\nＥＣ単体に対する攻撃技です。
 45,滅！,6,Neutral,232,0x2,"",X,"",6,"Damage, Unconscious 1",3,Single EC,3,Drachma,1,25,0,0,100,0,Physical,1,Unconscious,50,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af228,76,全身のパワーを義手に集中して敵単体に叩き付ける。\nドラクマ船長の超大技だ。
 46,ミル・エスパーダ,6,Neutral,240,0x2,"",X,"",0,Damage,37,EC Ray S3,4,Enrique,1,10,0,0,50,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af274,60,エンリック攻撃技の第１弾です。\nＥＣ単体に対する攻撃技です。

@@ -2,7 +2,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 1,*,0,軍艦兵,Battleship Soldier,0,Branch,21,Rating 10%,3,Go to 3
 2,*,0,軍艦兵,Battleship Soldier,1,Action,550,Attack,2,Random PC
 3,*,0,軍艦兵,Battleship Soldier,1,Action,551,Guard,-1,None
-1,*,1,航行士,Sailor,0,Branch,42,Used Sacri Crystal Line?,6,Go to 6
+1,*,1,航行士,Sailor,0,Branch,42,Used Sacri Crystals ≥ 1,6,Go to 6
 2,*,1,航行士,Sailor,0,Branch,39,Any EC HP < 25%,5,Go to 5
 3,*,1,航行士,Sailor,0,Branch,29,Rating 90%,6,Go to 6
 4,*,1,航行士,Sailor,0,Branch,30,Always,8,Go to 8
@@ -18,7 +18,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 6,*,2,ミクラステル,Micrastel,0,Branch,24,Rating 40%,10,Go to 10
 7,*,2,ミクラステル,Micrastel,0,Branch,24,Rating 40%,9,Go to 9
 8,*,2,ミクラステル,Micrastel,1,Action,550,Attack,1,Same PC
-9,*,2,ミクラステル,Micrastel,1,Action,4,Laser,0,???
+9,*,2,ミクラステル,Micrastel,1,Action,4,Laser,0,Random PC
 10,*,2,ミクラステル,Micrastel,1,Action,552,Run,-1,None
 1,*,3,マロッカ,Marocca,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
 2,*,3,マロッカ,Marocca,0,Branch,30,Always,4,Go to 4
@@ -28,9 +28,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 6,*,3,マロッカ,Marocca,1,Action,551,Guard,-1,None
 7,*,3,マロッカ,Marocca,1,Action,550,Attack,1,Same PC
 8,*,3,マロッカ,Marocca,1,Action,552,Run,-1,None
-1,*,4,アーアペプ,Grouder,0,Branch,33,Used Atk. Spell?,3,Go to 3
+1,*,4,アーアペプ,Grouder,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
 2,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,10,Go to 10
-3,*,4,アーアペプ,Grouder,0,Branch,36,Used Spells ≥ 2,5,Go to 5
+3,*,4,アーアペプ,Grouder,0,Branch,36,Used State Spells ≥ 2,5,Go to 5
 4,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,9,Go to 9
 5,*,4,アーアペプ,Grouder,0,Branch,23,Rating 30%,11,Go to 11
 6,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,8,Go to 8
@@ -40,9 +40,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 10,*,4,アーアペプ,Grouder,1,Action,520,Waver,2,Random PC
 11,*,4,アーアペプ,Grouder,1,Action,57,Eerie Wail,2,Random PC
 1,*,7,煌術処刑士,Magic Executor,0,Branch,17,ECs Alive = 1,19,Go to 19
-2,*,7,煌術処刑士,Magic Executor,0,Branch,35,Used Spells ≥ 1,9,Go to 9
-3,*,7,煌術処刑士,Magic Executor,0,Branch,40,Charged 1?,20,Go to 20
-4,*,7,煌術処刑士,Magic Executor,0,Branch,32,Used Sacri Line?,9,Go to 9
+2,*,7,煌術処刑士,Magic Executor,0,Branch,35,Used State Spells ≥ 1,9,Go to 9
+3,*,7,煌術処刑士,Magic Executor,0,Branch,40,Used Gather Strength?,20,Go to 20
+4,*,7,煌術処刑士,Magic Executor,0,Branch,32,Used Sacri Spells ≥ 2,9,Go to 9
 5,*,7,煌術処刑士,Magic Executor,0,Branch,39,Any EC HP < 25%,21,Go to 21
 6,*,7,煌術処刑士,Magic Executor,0,Branch,11,Turn 1,9,Go to 9
 7,*,7,煌術処刑士,Magic Executor,0,Branch,12,Turn 2,9,Go to 9
@@ -74,7 +74,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 8,*,13,アスフール,Azbeth,0,Branch,25,Rating 50%,16,Go to 16
 9,*,13,アスフール,Azbeth,0,Branch,24,Rating 40%,17,Go to 17
 10,*,13,アスフール,Azbeth,0,Branch,30,Always,18,Go to 18
-11,*,13,アスフール,Azbeth,0,Branch,35,Used Spells ≥ 1,19,Go to 19
+11,*,13,アスフール,Azbeth,0,Branch,35,Used State Spells ≥ 1,19,Go to 19
 12,*,13,アスフール,Azbeth,0,Branch,30,Always,20,Go to 20
 13,*,13,アスフール,Azbeth,1,Action,550,Attack,2,Random PC
 14,*,13,アスフール,Azbeth,1,Action,551,Guard,-1,None
@@ -88,7 +88,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,15,ヌール,Nur,0,Branch,30,Always,4,Go to 4
 3,*,15,ヌール,Nur,0,Branch,28,Rating 80%,16,Go to 16
 4,*,15,ヌール,Nur,0,Branch,0,HP = 100%,7,Go to 7
-5,*,15,ヌール,Nur,0,Branch,46,Used HP Absorb 1?,7,Go to 7
+5,*,15,ヌール,Nur,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
 6,*,15,ヌール,Nur,0,Branch,28,Rating 80%,14,Go to 14
 7,*,15,ヌール,Nur,0,Branch,9,???,11,Go to 11
 8,*,15,ヌール,Nur,0,Branch,26,Rating 60%,14,Go to 14
@@ -150,8 +150,8 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 11,*,128,アントニオ,Antonio,1,Action,550,Attack,2,Random PC
 12,*,128,アントニオ,Antonio,1,Action,5,Thunder of Fury,2,Random PC
 13,*,128,アントニオ,Antonio,1,Action,34,Wait,-1,None
-1,*,129,アガタウマス,Agathamaus,0,Branch,48,Charged 2?,9,Go to 9
-2,*,129,アガタウマス,Agathamaus,0,Branch,5,Magic Dmg. Last Turn?,6,Go to 6
+1,*,129,アガタウマス,Agathamaus,0,Branch,48,Used Target Search?,9,Go to 9
+2,*,129,アガタウマス,Agathamaus,0,Branch,5,Got Hit by Spell?,6,Go to 6
 3,*,129,アガタウマス,Agathamaus,0,Branch,0,HP = 100%,6,Go to 6
 4,*,129,アガタウマス,Agathamaus,0,Branch,21,Rating 10%,9,Go to 9
 5,*,129,アガタウマス,Agathamaus,0,Branch,26,Rating 60%,7,Go to 7
@@ -160,7 +160,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 8,*,129,アガタウマス,Agathamaus,1,Action,9,Target Search,-1,None
 9,*,129,アガタウマス,Agathamaus,1,Action,99,Blaster,2,Random PC
 1,*,130,イマゴタリア,Imagotalia,0,Branch,11,Turn 1,8,Go to 8
-2,*,130,イマゴタリア,Imagotalia,0,Branch,5,Magic Dmg. Last Turn?,8,Go to 8
+2,*,130,イマゴタリア,Imagotalia,0,Branch,5,Got Hit by Spell?,8,Go to 8
 3,*,130,イマゴタリア,Imagotalia,0,Branch,20,Party SP ≤ 25%,10,Go to 10
 4,*,130,イマゴタリア,Imagotalia,0,Branch,37,Turn ≥ 5,10,Go to 10
 5,*,130,イマゴタリア,Imagotalia,0,Branch,22,Rating 20%,15,Go to 15
@@ -193,7 +193,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 17,*,131,獄長,Warden,1,Action,251,Sonic Blast,2,Random PC
 18,*,131,獄長,Warden,1,Action,533,Electra,2,Random PC
 19,*,131,獄長,Warden,1,Action,551,Guard,-1,None
-1,*,133,護送将兵,Escort Officer,0,Branch,5,Magic Dmg. Last Turn?,11,Go to 11
+1,*,133,護送将兵,Escort Officer,0,Branch,5,Got Hit by Spell?,11,Go to 11
 2,*,133,護送将兵,Escort Officer,0,Branch,38,Any EC HP < 50%,8,Go to 8
 3,*,133,護送将兵,Escort Officer,0,Branch,25,Rating 50%,14,Go to 14
 4,*,133,護送将兵,Escort Officer,0,Branch,24,Rating 40%,16,Go to 16
@@ -201,7 +201,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 6,*,133,護送将兵,Escort Officer,0,Branch,28,Rating 80%,18,Go to 18
 7,*,133,護送将兵,Escort Officer,0,Branch,30,Always,15,Go to 15
 8,*,133,護送将兵,Escort Officer,0,Branch,25,Rating 50%,17,Go to 17
-9,*,133,護送将兵,Escort Officer,0,Branch,32,Used Sacri Line?,11,Go to 11
+9,*,133,護送将兵,Escort Officer,0,Branch,32,Used Sacri Spells ≥ 2,11,Go to 11
 10,*,133,護送将兵,Escort Officer,0,Branch,30,Always,15,Go to 15
 11,*,133,護送将兵,Escort Officer,0,Branch,24,Rating 40%,14,Go to 14
 12,*,133,護送将兵,Escort Officer,0,Branch,25,Rating 50%,16,Go to 16

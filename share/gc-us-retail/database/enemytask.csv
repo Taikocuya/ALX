@@ -2,7 +2,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 1,*,0,軍艦兵,Soldier,0,Branch,21,Rating 10%,3,Go to 3
 2,*,0,軍艦兵,Soldier,1,Action,550,Attack,2,Random PC
 3,*,0,軍艦兵,Soldier,1,Action,551,Guard,-1,None
-1,*,1,航行士,Guard,0,Branch,42,Used Sacri Crystal Line?,3,Go to 3
+1,*,1,航行士,Guard,0,Branch,42,Used Sacri Crystals ≥ 1,3,Go to 3
 2,*,1,航行士,Guard,0,Branch,39,Any EC HP < 25%,5,Go to 5
 3,*,1,航行士,Guard,0,Branch,29,Rating 90%,6,Go to 6
 4,*,1,航行士,Guard,0,Branch,30,Always,8,Go to 8
@@ -24,7 +24,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 11,*,2,ミクラステル,Seeker,1,Action,552,Run,-1,None
 1,ecinit002.dat,2,ミクラステル,Seeker,0,Branch,24,Rating 40%,3,Go to 3
 2,ecinit002.dat,2,ミクラステル,Seeker,1,Action,550,Attack,1,Same PC
-3,ecinit002.dat,2,ミクラステル,Seeker,1,Action,4,Laser,0,???
+3,ecinit002.dat,2,ミクラステル,Seeker,1,Action,4,Laser,0,Random PC
 1,*,3,マロッカ,Marocca,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
 2,*,3,マロッカ,Marocca,0,Branch,30,Always,4,Go to 4
 3,*,3,マロッカ,Marocca,0,Branch,26,Rating 60%,8,Go to 8
@@ -37,9 +37,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,ecinit003.dat,3,マロッカ,Marocca,0,Branch,28,Rating 80%,4,Go to 4
 3,ecinit003.dat,3,マロッカ,Marocca,1,Action,551,Guard,-1,None
 4,ecinit003.dat,3,マロッカ,Marocca,1,Action,550,Attack,1,Same PC
-1,*,4,アーアペプ,Grouder,0,Branch,33,Used Atk. Spell?,3,Go to 3
+1,*,4,アーアペプ,Grouder,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
 2,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,10,Go to 10
-3,*,4,アーアペプ,Grouder,0,Branch,36,Used Spells ≥ 2,5,Go to 5
+3,*,4,アーアペプ,Grouder,0,Branch,36,Used State Spells ≥ 2,5,Go to 5
 4,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,9,Go to 9
 5,*,4,アーアペプ,Grouder,0,Branch,23,Rating 30%,11,Go to 11
 6,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,8,Go to 8
@@ -50,7 +50,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 11,*,4,アーアペプ,Grouder,1,Action,57,Eerie Wail,2,Random PC
 1,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,25,Rating 50%,7,Go to 7
 2,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,25,Rating 50%,8,Go to 8
-3,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,33,Used Atk. Spell?,5,Go to 5
+3,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,33,Used Atk. Spells ≥ 1,5,Go to 5
 4,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,30,Always,9,Go to 9
 5,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,25,Rating 50%,10,Go to 10
 6,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,30,Always,9,Go to 9
@@ -59,9 +59,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 9,ecinit004.dat,4,アーアペプ,Grouder,1,Action,520,Wevli,2,Random PC
 10,ecinit004.dat,4,アーアペプ,Grouder,1,Action,100,Magic?,-1,None
 1,*,7,Ж術処刑士,Spell Warden,0,Branch,17,ECs Alive = 1,23,Go to 23
-2,*,7,Ж術処刑士,Spell Warden,0,Branch,35,Used Spells ≥ 1,8,Go to 8
+2,*,7,Ж術処刑士,Spell Warden,0,Branch,35,Used State Spells ≥ 1,8,Go to 8
 3,*,7,Ж術処刑士,Spell Warden,0,Branch,24,Rating 40%,18,Go to 18
-4,*,7,Ж術処刑士,Spell Warden,0,Branch,32,Used Sacri Line?,8,Go to 8
+4,*,7,Ж術処刑士,Spell Warden,0,Branch,32,Used Sacri Spells ≥ 2,8,Go to 8
 5,*,7,Ж術処刑士,Spell Warden,0,Branch,39,Any EC HP < 25%,19,Go to 19
 6,*,7,Ж術処刑士,Spell Warden,0,Branch,11,Turn 1,8,Go to 8
 7,*,7,Ж術処刑士,Spell Warden,0,Branch,22,Rating 20%,20,Go to 20
@@ -82,9 +82,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 22,*,7,Ж術処刑士,Spell Warden,1,Action,37,Focus,-1,None
 23,*,7,Ж術処刑士,Spell Warden,1,Action,551,Guard,-1,None
 1,ecinit007.dat,7,煌術兵Ａ１,Spell Warden,0,Branch,17,ECs Alive = 1,25,Go to 25
-2,ecinit007.dat,7,煌術兵Ａ１,Spell Warden,0,Branch,35,Used Spells ≥ 1,9,Go to 9
-3,ecinit007.dat,7,煌術兵Ａ１,Spell Warden,0,Branch,40,Charged 1?,20,Go to 20
-4,ecinit007.dat,7,煌術兵Ａ１,Spell Warden,0,Branch,32,Used Sacri Line?,9,Go to 9
+2,ecinit007.dat,7,煌術兵Ａ１,Spell Warden,0,Branch,35,Used State Spells ≥ 1,9,Go to 9
+3,ecinit007.dat,7,煌術兵Ａ１,Spell Warden,0,Branch,40,Used Gather Strength?,20,Go to 20
+4,ecinit007.dat,7,煌術兵Ａ１,Spell Warden,0,Branch,32,Used Sacri Spells ≥ 2,9,Go to 9
 5,ecinit007.dat,7,煌術兵Ａ１,Spell Warden,0,Branch,39,Any EC HP < 25%,21,Go to 21
 6,ecinit007.dat,7,煌術兵Ａ１,Spell Warden,0,Branch,11,Turn 1,9,Go to 9
 7,ecinit007.dat,7,煌術兵Ａ１,Spell Warden,0,Branch,12,Turn 2,9,Go to 9
@@ -110,7 +110,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,8,レトモニケ,Flestik,0,Branch,30,Always,4,Go to 4
 3,*,8,レトモニケ,Flestik,0,Branch,28,Rating 80%,16,Go to 16
 4,*,8,レトモニケ,Flestik,0,Branch,2,HP < 25%,12,Go to 12
-5,*,8,レトモニケ,Flestik,0,Branch,4,Dmg. Last Turn?,7,Go to 7
+5,*,8,レトモニケ,Flestik,0,Branch,4,Got Hit?,7,Go to 7
 6,*,8,レトモニケ,Flestik,0,Branch,30,Always,9,Go to 9
 7,*,8,レトモニケ,Flestik,0,Branch,28,Rating 80%,14,Go to 14
 8,*,8,レトモニケ,Flestik,0,Branch,30,Always,15,Go to 15
@@ -123,7 +123,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 15,*,8,レトモニケ,Flestik,1,Action,551,Guard,-1,None
 16,*,8,レトモニケ,Flestik,1,Action,552,Run,-1,None
 1,ecinit008.dat,8,レトモニケ,Flestik,0,Branch,1,HP < 50%,9,Go to 9
-2,ecinit008.dat,8,レトモニケ,Flestik,0,Branch,4,Dmg. Last Turn?,4,Go to 4
+2,ecinit008.dat,8,レトモニケ,Flestik,0,Branch,4,Got Hit?,4,Go to 4
 3,ecinit008.dat,8,レトモニケ,Flestik,0,Branch,30,Always,6,Go to 6
 4,ecinit008.dat,8,レトモニケ,Flestik,0,Branch,28,Rating 80%,11,Go to 11
 5,ecinit008.dat,8,レトモニケ,Flestik,0,Branch,30,Always,12,Go to 12
@@ -139,7 +139,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,9,レイチア,Basallish,0,Branch,30,Always,4,Go to 4
 3,*,9,レイチア,Basallish,0,Branch,29,Rating 90%,16,Go to 16
 4,*,9,レイチア,Basallish,0,Branch,2,HP < 25%,12,Go to 12
-5,*,9,レイチア,Basallish,0,Branch,4,Dmg. Last Turn?,7,Go to 7
+5,*,9,レイチア,Basallish,0,Branch,4,Got Hit?,7,Go to 7
 6,*,9,レイチア,Basallish,0,Branch,30,Always,9,Go to 9
 7,*,9,レイチア,Basallish,0,Branch,29,Rating 90%,14,Go to 14
 8,*,9,レイチア,Basallish,0,Branch,30,Always,16,Go to 16
@@ -154,9 +154,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 1,*,10,カイライ,Mind Stealer,0,Branch,21,Rating 10%,3,Go to 3
 2,*,10,カイライ,Mind Stealer,1,Action,550,Attack,1,Same PC
 3,*,10,カイライ,Mind Stealer,1,Action,551,Guard,-1,None
-1,*,11,フォカラルガ,Walrenk,0,Branch,33,Used Atk. Spell?,3,Go to 3
+1,*,11,フォカラルガ,Walrenk,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
 2,*,11,フォカラルガ,Walrenk,0,Branch,22,Rating 20%,9,Go to 9
-3,*,11,フォカラルガ,Walrenk,0,Branch,35,Used Spells ≥ 1,5,Go to 5
+3,*,11,フォカラルガ,Walrenk,0,Branch,35,Used State Spells ≥ 1,5,Go to 5
 4,*,11,フォカラルガ,Walrenk,0,Branch,22,Rating 20%,8,Go to 8
 5,*,11,フォカラルガ,Walrenk,0,Branch,21,Rating 10%,7,Go to 7
 6,*,11,フォカラルガ,Walrenk,1,Action,550,Attack,2,Random PC
@@ -167,7 +167,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,12,ギジェリガー,Varkris,0,Branch,30,Always,4,Go to 4
 3,*,12,ギジェリガー,Varkris,0,Branch,27,Rating 70%,28,Go to 28
 4,*,12,ギジェリガー,Varkris,0,Branch,17,ECs Alive = 1,20,Go to 20
-5,*,12,ギジェリガー,Varkris,0,Branch,36,Used Spells ≥ 2,16,Go to 16
+5,*,12,ギジェリガー,Varkris,0,Branch,36,Used State Spells ≥ 2,16,Go to 16
 6,*,12,ギジェリガー,Varkris,0,Branch,11,Turn 1,8,Go to 8
 7,*,12,ギジェリガー,Varkris,0,Branch,30,Always,9,Go to 9
 8,*,12,ギジェリガー,Varkris,0,Branch,23,Rating 30%,24,Go to 24
@@ -201,7 +201,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 8,*,13,アスフール,Azbeth,0,Branch,25,Rating 50%,16,Go to 16
 9,*,13,アスフール,Azbeth,0,Branch,24,Rating 40%,17,Go to 17
 10,*,13,アスフール,Azbeth,0,Branch,30,Always,18,Go to 18
-11,*,13,アスフール,Azbeth,0,Branch,35,Used Spells ≥ 1,20,Go to 20
+11,*,13,アスフール,Azbeth,0,Branch,35,Used State Spells ≥ 1,20,Go to 20
 12,*,13,アスフール,Azbeth,0,Branch,30,Always,19,Go to 19
 13,*,13,アスフール,Azbeth,1,Action,550,Attack,2,Random PC
 14,*,13,アスフール,Azbeth,1,Action,551,Guard,-1,None
@@ -247,7 +247,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,15,ヌール,Ghastling,0,Branch,30,Always,4,Go to 4
 3,*,15,ヌール,Ghastling,0,Branch,28,Rating 80%,16,Go to 16
 4,*,15,ヌール,Ghastling,0,Branch,0,HP = 100%,7,Go to 7
-5,*,15,ヌール,Ghastling,0,Branch,46,Used HP Absorb 1?,7,Go to 7
+5,*,15,ヌール,Ghastling,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
 6,*,15,ヌール,Ghastling,0,Branch,29,Rating 90%,15,Go to 15
 7,*,15,ヌール,Ghastling,0,Branch,9,???,11,Go to 11
 8,*,15,ヌール,Ghastling,0,Branch,27,Rating 70%,14,Go to 14
@@ -295,9 +295,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,17,ツィツィ,Tsirat,0,Branch,30,Always,4,Go to 4
 3,*,17,ツィツィ,Tsirat,0,Branch,24,Rating 40%,12,Go to 12
 4,*,17,ツィツィ,Tsirat,0,Branch,0,HP = 100%,7,Go to 7
-5,*,17,ツィツィ,Tsirat,0,Branch,46,Used HP Absorb 1?,7,Go to 7
+5,*,17,ツィツィ,Tsirat,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
 6,*,17,ツィツィ,Tsirat,0,Branch,25,Rating 50%,13,Go to 13
-7,*,17,ツィツィ,Tsirat,0,Branch,33,Used Atk. Spell?,9,Go to 9
+7,*,17,ツィツィ,Tsirat,0,Branch,33,Used Atk. Spells ≥ 1,9,Go to 9
 8,*,17,ツィツィ,Tsirat,0,Branch,24,Rating 40%,14,Go to 14
 9,*,17,ツィツィ,Tsirat,0,Branch,21,Rating 10%,12,Go to 12
 10,*,17,ツィツィ,Tsirat,0,Branch,21,Rating 10%,15,Go to 15
@@ -309,7 +309,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 1,*,18,セベスク,Thorkryn,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
 2,*,18,セベスク,Thorkryn,0,Branch,30,Always,4,Go to 4
 3,*,18,セベスク,Thorkryn,0,Branch,24,Rating 40%,13,Go to 13
-4,*,18,セベスク,Thorkryn,0,Branch,40,Charged 1?,15,Go to 15
+4,*,18,セベスク,Thorkryn,0,Branch,40,Used Gather Strength?,15,Go to 15
 5,*,18,セベスク,Thorkryn,0,Branch,11,Turn 1,7,Go to 7
 6,*,18,セベスク,Thorkryn,0,Branch,30,Always,8,Go to 8
 7,*,18,セベスク,Thorkryn,0,Branch,25,Rating 50%,14,Go to 14
@@ -321,8 +321,8 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 13,*,18,セベスク,Thorkryn,1,Action,552,Run,-1,None
 14,*,18,セベスク,Thorkryn,1,Action,20,Gather Strength,-1,None
 15,*,18,セベスク,Thorkryn,1,Action,170,Needle Storm,2,Random PC
-1,ecinit018.dat,18,セベスク,Thorkryn,0,Branch,40,Charged 1?,12,Go to 12
-2,ecinit018.dat,18,セベスク,Thorkryn,0,Branch,5,Magic Dmg. Last Turn?,11,Go to 11
+1,ecinit018.dat,18,セベスク,Thorkryn,0,Branch,40,Used Gather Strength?,12,Go to 12
+2,ecinit018.dat,18,セベスク,Thorkryn,0,Branch,5,Got Hit by Spell?,11,Go to 11
 3,ecinit018.dat,18,セベスク,Thorkryn,0,Branch,1,HP < 50%,11,Go to 11
 4,ecinit018.dat,18,セベスク,Thorkryn,0,Branch,25,Rating 50%,11,Go to 11
 5,ecinit018.dat,18,セベスク,Thorkryn,0,Branch,25,Rating 50%,8,Go to 8
@@ -348,7 +348,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,20,イルドゥス,Centralk,0,Branch,30,Always,4,Go to 4
 3,*,20,イルドゥス,Centralk,0,Branch,28,Rating 80%,16,Go to 16
 4,*,20,イルドゥス,Centralk,0,Branch,2,HP < 25%,12,Go to 12
-5,*,20,イルドゥス,Centralk,0,Branch,4,Dmg. Last Turn?,7,Go to 7
+5,*,20,イルドゥス,Centralk,0,Branch,4,Got Hit?,7,Go to 7
 6,*,20,イルドゥス,Centralk,0,Branch,30,Always,9,Go to 9
 7,*,20,イルドゥス,Centralk,0,Branch,28,Rating 80%,14,Go to 14
 8,*,20,イルドゥス,Centralk,0,Branch,30,Always,15,Go to 15
@@ -360,7 +360,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 14,*,20,イルドゥス,Centralk,1,Action,550,Attack,1,Same PC
 15,*,20,イルドゥス,Centralk,1,Action,551,Guard,-1,None
 16,*,20,イルドゥス,Centralk,1,Action,552,Run,-1,None
-1,*,21,ベルクロード,Feralisk,0,Branch,36,Used Spells ≥ 2,9,Go to 9
+1,*,21,ベルクロード,Feralisk,0,Branch,36,Used State Spells ≥ 2,9,Go to 9
 2,*,21,ベルクロード,Feralisk,0,Branch,11,Turn 1,4,Go to 4
 3,*,21,ベルクロード,Feralisk,0,Branch,30,Always,5,Go to 5
 4,*,21,ベルクロード,Feralisk,0,Branch,22,Rating 20%,15,Go to 15
@@ -378,7 +378,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 16,*,21,ベルクロード,Feralisk,1,Action,510,Noxi,16,PC w/o Sleep
 17,*,21,ベルクロード,Feralisk,1,Action,88,Call Allies,-1,None
 18,*,21,ベルクロード,Feralisk,1,Action,115,Call Allies,-1,None
-1,*,22,ベルハウンド,Ferlith,0,Branch,36,Used Spells ≥ 2,9,Go to 9
+1,*,22,ベルハウンド,Ferlith,0,Branch,36,Used State Spells ≥ 2,9,Go to 9
 2,*,22,ベルハウンド,Ferlith,0,Branch,11,Turn 1,4,Go to 4
 3,*,22,ベルハウンド,Ferlith,0,Branch,30,Always,5,Go to 5
 4,*,22,ベルハウンド,Ferlith,0,Branch,22,Rating 20%,15,Go to 15
@@ -411,9 +411,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 13,*,23,ガトー,Crylhound,1,Action,552,Run,-1,None
 14,*,23,ガトー,Crylhound,1,Action,513,Quika,-1,None
 15,*,23,ガトー,Crylhound,1,Action,551,Guard,-1,None
-1,*,24,デシェレト,Magma Tiki,0,Branch,41,Charged 1?,9,Go to 9
+1,*,24,デシェレト,Magma Tiki,0,Branch,41,Used Tremble?,9,Go to 9
 2,*,24,デシェレト,Magma Tiki,0,Branch,2,HP < 25%,7,Go to 7
-3,*,24,デシェレト,Magma Tiki,0,Branch,5,Magic Dmg. Last Turn?,8,Go to 8
+3,*,24,デシェレト,Magma Tiki,0,Branch,5,Got Hit by Spell?,8,Go to 8
 4,*,24,デシェレト,Magma Tiki,0,Branch,1,HP < 50%,8,Go to 8
 5,*,24,デシェレト,Magma Tiki,0,Branch,24,Rating 40%,8,Go to 8
 6,*,24,デシェレト,Magma Tiki,0,Branch,21,Rating 10%,10,Go to 10
@@ -421,7 +421,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 8,*,24,デシェレト,Magma Tiki,1,Action,47,Tremble,-1,None
 9,*,24,デシェレト,Magma Tiki,1,Action,180,Lava Storm,1,Same PC
 10,*,24,デシェレト,Magma Tiki,1,Action,551,Guard,-1,None
-1,*,25,イアールト,Salamander,0,Branch,33,Used Atk. Spell?,5,Go to 5
+1,*,25,イアールト,Salamander,0,Branch,33,Used Atk. Spells ≥ 1,5,Go to 5
 2,*,25,イアールト,Salamander,0,Branch,28,Rating 80%,9,Go to 9
 3,*,25,イアールト,Salamander,0,Branch,25,Rating 50%,10,Go to 10
 4,*,25,イアールト,Salamander,0,Branch,30,Always,13,Go to 13
@@ -438,7 +438,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,26,パラミス,Baroo,0,Branch,30,Always,4,Go to 4
 3,*,26,パラミス,Baroo,0,Branch,29,Rating 90%,16,Go to 16
 4,*,26,パラミス,Baroo,0,Branch,2,HP < 25%,12,Go to 12
-5,*,26,パラミス,Baroo,0,Branch,4,Dmg. Last Turn?,7,Go to 7
+5,*,26,パラミス,Baroo,0,Branch,4,Got Hit?,7,Go to 7
 6,*,26,パラミス,Baroo,0,Branch,30,Always,9,Go to 9
 7,*,26,パラミス,Baroo,0,Branch,29,Rating 90%,14,Go to 14
 8,*,26,パラミス,Baroo,0,Branch,30,Always,16,Go to 16
@@ -451,7 +451,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 15,*,26,パラミス,Baroo,1,Action,551,Guard,-1,None
 16,*,26,パラミス,Baroo,1,Action,552,Run,-1,None
 1,*,27,コロガス,Dung Fly,0,Branch,17,ECs Alive = 1,15,Go to 15
-2,*,27,コロガス,Dung Fly,0,Branch,36,Used Spells ≥ 2,10,Go to 10
+2,*,27,コロガス,Dung Fly,0,Branch,36,Used State Spells ≥ 2,10,Go to 10
 3,*,27,コロガス,Dung Fly,0,Branch,22,Rating 20%,19,Go to 19
 4,*,27,コロガス,Dung Fly,0,Branch,23,Rating 30%,20,Go to 20
 5,*,27,コロガス,Dung Fly,0,Branch,24,Rating 40%,18,Go to 18
@@ -484,7 +484,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,29,エルモ,Looper,0,Branch,25,Rating 50%,9,Go to 9
 3,*,29,エルモ,Looper,0,Branch,24,Rating 40%,7,Go to 7
 4,*,29,エルモ,Looper,0,Branch,23,Rating 30%,8,Go to 8
-5,*,29,エルモ,Looper,0,Branch,33,Used Atk. Spell?,11,Go to 11
+5,*,29,エルモ,Looper,0,Branch,33,Used Atk. Spells ≥ 1,11,Go to 11
 6,*,29,エルモ,Looper,0,Branch,30,Always,10,Go to 10
 7,*,29,エルモ,Looper,1,Action,550,Attack,2,Random PC
 8,*,29,エルモ,Looper,1,Action,551,Guard,-1,None
@@ -526,7 +526,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 3,*,32,調査兵,Enforcer,1,Action,550,Attack,2,Random PC
 4,*,32,調査兵,Enforcer,1,Action,70,Grenade,2,Random PC
 5,*,32,調査兵,Enforcer,1,Action,551,Guard,-1,None
-1,*,33,ガランガラン,Serpantis,0,Branch,34,Used Atk. Spell?,3,Go to 3
+1,*,33,ガランガラン,Serpantis,0,Branch,34,Used Atk. Spells ≥ 2,3,Go to 3
 2,*,33,ガランガラン,Serpantis,0,Branch,22,Rating 20%,7,Go to 7
 3,*,33,ガランガラン,Serpantis,0,Branch,26,Rating 60%,6,Go to 6
 4,*,33,ガランガラン,Serpantis,0,Branch,28,Rating 80%,8,Go to 8
@@ -544,7 +544,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 7,*,34,マブルール,Dralnog,0,Branch,1,HP < 50%,9,Go to 9
 8,*,34,マブルール,Dralnog,0,Branch,30,Always,10,Go to 10
 9,*,34,マブルール,Dralnog,0,Branch,24,Rating 40%,18,Go to 18
-10,*,34,マブルール,Dralnog,0,Branch,35,Used Spells ≥ 1,12,Go to 12
+10,*,34,マブルール,Dralnog,0,Branch,35,Used State Spells ≥ 1,12,Go to 12
 11,*,34,マブルール,Dralnog,0,Branch,22,Rating 20%,19,Go to 19
 12,*,34,マブルール,Dralnog,0,Branch,22,Rating 20%,18,Go to 18
 13,*,34,マブルール,Dralnog,0,Branch,27,Rating 70%,16,Go to 16
@@ -558,12 +558,12 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 1,*,35,クチュ,Que'lak,0,Branch,45,1st PC ΔLV > 7,3,Go to 3
 2,*,35,クチュ,Que'lak,0,Branch,30,Always,4,Go to 4
 3,*,35,クチュ,Que'lak,0,Branch,28,Rating 80%,15,Go to 15
-4,*,35,クチュ,Que'lak,0,Branch,32,Used Sacri Line?,8,Go to 8
+4,*,35,クチュ,Que'lak,0,Branch,32,Used Sacri Spells ≥ 2,8,Go to 8
 5,*,35,クチュ,Que'lak,0,Branch,38,Any EC HP < 50%,7,Go to 7
 6,*,35,クチュ,Que'lak,0,Branch,30,Always,8,Go to 8
 7,*,35,クチュ,Que'lak,0,Branch,24,Rating 40%,13,Go to 13
 8,*,35,クチュ,Que'lak,0,Branch,21,Rating 10%,14,Go to 14
-9,*,35,クチュ,Que'lak,0,Branch,34,Used Atk. Spell?,11,Go to 11
+9,*,35,クチュ,Que'lak,0,Branch,34,Used Atk. Spells ≥ 2,11,Go to 11
 10,*,35,クチュ,Que'lak,0,Branch,23,Rating 30%,12,Go to 12
 11,*,35,クチュ,Que'lak,1,Action,550,Attack,2,Random PC
 12,*,35,クチュ,Que'lak,1,Action,524,Pyres,-1,None
@@ -623,7 +623,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,41,エルモンテ,Elooper,0,Branch,25,Rating 50%,10,Go to 10
 3,*,41,エルモンテ,Elooper,0,Branch,24,Rating 40%,8,Go to 8
 4,*,41,エルモンテ,Elooper,0,Branch,23,Rating 30%,9,Go to 9
-5,*,41,エルモンテ,Elooper,0,Branch,31,Used Sacri Line?,12,Go to 12
+5,*,41,エルモンテ,Elooper,0,Branch,31,Used Sacri Spells ≥ 1,12,Go to 12
 6,*,41,エルモンテ,Elooper,0,Branch,11,Turn 1,8,Go to 8
 7,*,41,エルモンテ,Elooper,0,Branch,30,Always,11,Go to 11
 8,*,41,エルモンテ,Elooper,1,Action,550,Attack,2,Random PC
@@ -649,7 +649,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,44,プジョット,Iridzu,0,Branch,30,Always,4,Go to 4
 3,*,44,プジョット,Iridzu,0,Branch,27,Rating 70%,28,Go to 28
 4,*,44,プジョット,Iridzu,0,Branch,17,ECs Alive = 1,20,Go to 20
-5,*,44,プジョット,Iridzu,0,Branch,36,Used Spells ≥ 2,16,Go to 16
+5,*,44,プジョット,Iridzu,0,Branch,36,Used State Spells ≥ 2,16,Go to 16
 6,*,44,プジョット,Iridzu,0,Branch,11,Turn 1,8,Go to 8
 7,*,44,プジョット,Iridzu,0,Branch,30,Always,9,Go to 9
 8,*,44,プジョット,Iridzu,0,Branch,23,Rating 30%,24,Go to 24
@@ -719,7 +719,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 7,*,47,プラニナ,Lucich,0,Branch,1,HP < 50%,9,Go to 9
 8,*,47,プラニナ,Lucich,0,Branch,30,Always,10,Go to 10
 9,*,47,プラニナ,Lucich,0,Branch,24,Rating 40%,18,Go to 18
-10,*,47,プラニナ,Lucich,0,Branch,35,Used Spells ≥ 1,12,Go to 12
+10,*,47,プラニナ,Lucich,0,Branch,35,Used State Spells ≥ 1,12,Go to 12
 11,*,47,プラニナ,Lucich,0,Branch,22,Rating 20%,19,Go to 19
 12,*,47,プラニナ,Lucich,0,Branch,22,Rating 20%,18,Go to 18
 13,*,47,プラニナ,Lucich,0,Branch,27,Rating 70%,16,Go to 16
@@ -766,9 +766,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 6,*,50,ブブロッカ,Burocca,1,Action,551,Guard,-1,None
 7,*,50,ブブロッカ,Burocca,1,Action,550,Attack,1,Same PC
 8,*,50,ブブロッカ,Burocca,1,Action,552,Run,-1,None
-1,*,51,アイガムハ,Drogerp,0,Branch,33,Used Atk. Spell?,3,Go to 3
+1,*,51,アイガムハ,Drogerp,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
 2,*,51,アイガムハ,Drogerp,0,Branch,22,Rating 20%,10,Go to 10
-3,*,51,アイガムハ,Drogerp,0,Branch,36,Used Spells ≥ 2,5,Go to 5
+3,*,51,アイガムハ,Drogerp,0,Branch,36,Used State Spells ≥ 2,5,Go to 5
 4,*,51,アイガムハ,Drogerp,0,Branch,22,Rating 20%,9,Go to 9
 5,*,51,アイガムハ,Drogerp,0,Branch,23,Rating 30%,11,Go to 11
 6,*,51,アイガムハ,Drogerp,0,Branch,22,Rating 20%,8,Go to 8
@@ -821,7 +821,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 4,*,54,カネヅル,Kanezl,0,Branch,44,1st PC ΔLV > 3,6,Go to 6
 5,*,54,カネヅル,Kanezl,0,Branch,30,Always,7,Go to 7
 6,*,54,カネヅル,Kanezl,0,Branch,25,Rating 50%,23,Go to 23
-7,*,54,カネヅル,Kanezl,0,Branch,31,Used Sacri Line?,14,Go to 14
+7,*,54,カネヅル,Kanezl,0,Branch,31,Used Sacri Spells ≥ 1,14,Go to 14
 8,*,54,カネヅル,Kanezl,0,Branch,39,Any EC HP < 25%,11,Go to 11
 9,*,54,カネヅル,Kanezl,0,Branch,38,Any EC HP < 50%,12,Go to 12
 10,*,54,カネヅル,Kanezl,0,Branch,30,Always,14,Go to 14
@@ -843,7 +843,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 26,*,54,カネヅル,Kanezl,1,Action,49,Call Allies,-1,None
 27,*,54,カネヅル,Kanezl,1,Action,100,Magic?,-1,None
 28,*,54,カネヅル,Kanezl,1,Action,113,Call Allies,-1,None
-1,*,55,メメゾーレ,Mantoid,0,Branch,34,Used Atk. Spell?,3,Go to 3
+1,*,55,メメゾーレ,Mantoid,0,Branch,34,Used Atk. Spells ≥ 2,3,Go to 3
 2,*,55,メメゾーレ,Mantoid,0,Branch,22,Rating 20%,7,Go to 7
 3,*,55,メメゾーレ,Mantoid,0,Branch,26,Rating 60%,6,Go to 6
 4,*,55,メメゾーレ,Mantoid,0,Branch,28,Rating 80%,8,Go to 8
@@ -852,18 +852,18 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 7,*,55,メメゾーレ,Mantoid,1,Action,525,Pyrum,-1,None
 8,*,55,メメゾーレ,Mantoid,1,Action,40,Terrible Bite,1,Same PC
 9,*,55,メメゾーレ,Mantoid,1,Action,551,Guard,-1,None
-1,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,51,Charged 1?,18,Go to 18
+1,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,51,Used Focus?,18,Go to 18
 2,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,11,Turn 1,5,Go to 5
 3,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,12,Turn 2,5,Go to 5
 4,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,30,Always,12,Go to 12
-5,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,35,Used Spells ≥ 1,7,Go to 7
+5,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,35,Used State Spells ≥ 1,7,Go to 7
 6,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,23,Rating 30%,22,Go to 22
 7,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,21,Rating 10%,27,Go to 27
 8,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,21,Rating 10%,20,Go to 20
 9,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,21,Rating 10%,21,Go to 21
 10,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,25,Rating 50%,25,Go to 25
 11,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,30,Always,26,Go to 26
-12,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,31,Used Sacri Line?,7,Go to 7
+12,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,31,Used Sacri Spells ≥ 1,7,Go to 7
 13,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,1,HP < 50%,16,Go to 16
 14,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,39,Any EC HP < 25%,16,Go to 16
 15,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,30,Always,7,Go to 7
@@ -879,7 +879,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 25,*,56,ヒュドラ煌兵,Sorcerer,1,Action,529,Crystalen,2,Random PC
 26,*,56,ヒュドラ煌兵,Sorcerer,1,Action,535,Electrulen,2,Random PC
 27,*,56,ヒュドラ煌兵,Sorcerer,1,Action,37,Focus,-1,None
-1,*,57,イラブ,Slithar,0,Branch,33,Used Atk. Spell?,5,Go to 5
+1,*,57,イラブ,Slithar,0,Branch,33,Used Atk. Spells ≥ 1,5,Go to 5
 2,*,57,イラブ,Slithar,0,Branch,26,Rating 60%,9,Go to 9
 3,*,57,イラブ,Slithar,0,Branch,28,Rating 80%,10,Go to 10
 4,*,57,イラブ,Slithar,0,Branch,30,Always,13,Go to 13
@@ -896,7 +896,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,58,ゴーヤエルモ,Golooper,0,Branch,25,Rating 50%,9,Go to 9
 3,*,58,ゴーヤエルモ,Golooper,0,Branch,24,Rating 40%,7,Go to 7
 4,*,58,ゴーヤエルモ,Golooper,0,Branch,23,Rating 30%,8,Go to 8
-5,*,58,ゴーヤエルモ,Golooper,0,Branch,35,Used Spells ≥ 1,11,Go to 11
+5,*,58,ゴーヤエルモ,Golooper,0,Branch,35,Used State Spells ≥ 1,11,Go to 11
 6,*,58,ゴーヤエルモ,Golooper,0,Branch,30,Always,10,Go to 10
 7,*,58,ゴーヤエルモ,Golooper,1,Action,550,Attack,2,Random PC
 8,*,58,ゴーヤエルモ,Golooper,1,Action,551,Guard,-1,None
@@ -928,7 +928,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 7,*,61,ヴィヒム,Delzool,0,Branch,1,HP < 50%,9,Go to 9
 8,*,61,ヴィヒム,Delzool,0,Branch,30,Always,10,Go to 10
 9,*,61,ヴィヒム,Delzool,0,Branch,26,Rating 60%,18,Go to 18
-10,*,61,ヴィヒム,Delzool,0,Branch,35,Used Spells ≥ 1,12,Go to 12
+10,*,61,ヴィヒム,Delzool,0,Branch,35,Used State Spells ≥ 1,12,Go to 12
 11,*,61,ヴィヒム,Delzool,0,Branch,24,Rating 40%,19,Go to 19
 12,*,61,ヴィヒム,Delzool,0,Branch,23,Rating 30%,18,Go to 18
 13,*,61,ヴィヒム,Delzool,0,Branch,27,Rating 70%,16,Go to 16
@@ -939,7 +939,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 18,*,61,ヴィヒム,Delzool,1,Action,270,Self-destruct,-1,None
 19,*,61,ヴィヒム,Delzool,1,Action,518,Eternes,1,Same PC
 20,*,61,ヴィヒム,Delzool,1,Action,100,Magic?,-1,None
-1,*,62,ヒュドラ将兵,Defender,0,Branch,5,Magic Dmg. Last Turn?,12,Go to 12
+1,*,62,ヒュドラ将兵,Defender,0,Branch,5,Got Hit by Spell?,12,Go to 12
 2,*,62,ヒュドラ将兵,Defender,0,Branch,38,Any EC HP < 50%,8,Go to 8
 3,*,62,ヒュドラ将兵,Defender,0,Branch,25,Rating 50%,15,Go to 15
 4,*,62,ヒュドラ将兵,Defender,0,Branch,24,Rating 40%,17,Go to 17
@@ -948,7 +948,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 7,*,62,ヒュドラ将兵,Defender,0,Branch,30,Always,16,Go to 16
 8,*,62,ヒュドラ将兵,Defender,0,Branch,23,Rating 30%,18,Go to 18
 9,*,62,ヒュドラ将兵,Defender,0,Branch,24,Rating 40%,17,Go to 17
-10,*,62,ヒュドラ将兵,Defender,0,Branch,31,Used Sacri Line?,12,Go to 12
+10,*,62,ヒュドラ将兵,Defender,0,Branch,31,Used Sacri Spells ≥ 1,12,Go to 12
 11,*,62,ヒュドラ将兵,Defender,0,Branch,30,Always,16,Go to 16
 12,*,62,ヒュドラ将兵,Defender,0,Branch,24,Rating 40%,15,Go to 15
 13,*,62,ヒュドラ将兵,Defender,0,Branch,25,Rating 50%,17,Go to 17
@@ -965,9 +965,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 5,*,63,シュリヌール,Ghrost,0,Branch,30,Always,7,Go to 7
 6,*,63,シュリヌール,Ghrost,0,Branch,24,Rating 40%,17,Go to 17
 7,*,63,シュリヌール,Ghrost,0,Branch,0,HP = 100%,10,Go to 10
-8,*,63,シュリヌール,Ghrost,0,Branch,46,Used HP Absorb 1?,10,Go to 10
+8,*,63,シュリヌール,Ghrost,0,Branch,46,Used HP Absorbs ≥ 1,10,Go to 10
 9,*,63,シュリヌール,Ghrost,0,Branch,29,Rating 90%,19,Go to 19
-10,*,63,シュリヌール,Ghrost,0,Branch,34,Used Atk. Spell?,12,Go to 12
+10,*,63,シュリヌール,Ghrost,0,Branch,34,Used Atk. Spells ≥ 2,12,Go to 12
 11,*,63,シュリヌール,Ghrost,0,Branch,23,Rating 30%,21,Go to 21
 12,*,63,シュリヌール,Ghrost,0,Branch,22,Rating 20%,22,Go to 22
 13,*,63,シュリヌール,Ghrost,0,Branch,23,Rating 30%,20,Go to 20
@@ -988,16 +988,16 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 6,*,64,デモンヌール,Graver,0,Branch,22,Rating 20%,23,Go to 23
 7,*,64,デモンヌール,Graver,0,Branch,17,ECs Alive = 1,9,Go to 9
 8,*,64,デモンヌール,Graver,0,Branch,30,Always,11,Go to 11
-9,*,64,デモンヌール,Graver,0,Branch,35,Used Spells ≥ 1,11,Go to 11
+9,*,64,デモンヌール,Graver,0,Branch,35,Used State Spells ≥ 1,11,Go to 11
 10,*,64,デモンヌール,Graver,0,Branch,25,Rating 50%,25,Go to 25
 11,*,64,デモンヌール,Graver,0,Branch,0,HP = 100%,14,Go to 14
-12,*,64,デモンヌール,Graver,0,Branch,46,Used HP Absorb 1?,14,Go to 14
+12,*,64,デモンヌール,Graver,0,Branch,46,Used HP Absorbs ≥ 1,14,Go to 14
 13,*,64,デモンヌール,Graver,0,Branch,25,Rating 50%,24,Go to 24
 14,*,64,デモンヌール,Graver,0,Branch,25,Rating 50%,21,Go to 21
 15,*,64,デモンヌール,Graver,0,Branch,24,Rating 40%,22,Go to 22
 16,*,64,デモンヌール,Graver,0,Branch,65,PCs Alive ≤ 4,18,Go to 18
 17,*,64,デモンヌール,Graver,0,Branch,30,Always,26,Go to 26
-18,*,64,デモンヌール,Graver,0,Branch,35,Used Spells ≥ 1,26,Go to 26
+18,*,64,デモンヌール,Graver,0,Branch,35,Used State Spells ≥ 1,26,Go to 26
 19,*,64,デモンヌール,Graver,0,Branch,24,Rating 40%,25,Go to 25
 20,*,64,デモンヌール,Graver,0,Branch,24,Rating 40%,26,Go to 26
 21,*,64,デモンヌール,Graver,1,Action,550,Attack,2,Random PC
@@ -1006,13 +1006,13 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 24,*,64,デモンヌール,Graver,1,Action,210,HP Absorb,3,PC w/ Most HP
 25,*,64,デモンヌール,Graver,1,Action,519,Eternum,2,Random PC
 26,*,64,デモンヌール,Graver,1,Action,100,Magic?,-1,None
-1,*,65,マウルティア,Shrilp,0,Branch,36,Used Spells ≥ 2,7,Go to 7
+1,*,65,マウルティア,Shrilp,0,Branch,36,Used State Spells ≥ 2,7,Go to 7
 2,*,65,マウルティア,Shrilp,0,Branch,11,Turn 1,5,Go to 5
 3,*,65,マウルティア,Shrilp,0,Branch,12,Turn 2,5,Go to 5
 4,*,65,マウルティア,Shrilp,0,Branch,30,Always,6,Go to 6
 5,*,65,マウルティア,Shrilp,0,Branch,22,Rating 20%,17,Go to 17
 6,*,65,マウルティア,Shrilp,0,Branch,21,Rating 10%,17,Go to 17
-7,*,65,マウルティア,Shrilp,0,Branch,47,Used HP Absorb 2?,13,Go to 13
+7,*,65,マウルティア,Shrilp,0,Branch,47,Used HP Absorbs ≥ 2,13,Go to 13
 8,*,65,マウルティア,Shrilp,0,Branch,2,HP < 25%,11,Go to 11
 9,*,65,マウルティア,Shrilp,0,Branch,0,HP = 100%,13,Go to 13
 10,*,65,マウルティア,Shrilp,0,Branch,30,Always,12,Go to 12
@@ -1024,9 +1024,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 16,*,65,マウルティア,Shrilp,1,Action,551,Guard,-1,None
 17,*,65,マウルティア,Shrilp,1,Action,505,Drilnos,-1,None
 18,*,65,マウルティア,Shrilp,1,Action,212,HP Absorb,3,PC w/ Most HP
-1,*,66,ギャルブ,Cerosik,0,Branch,33,Used Atk. Spell?,3,Go to 3
+1,*,66,ギャルブ,Cerosik,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
 2,*,66,ギャルブ,Cerosik,0,Branch,22,Rating 20%,9,Go to 9
-3,*,66,ギャルブ,Cerosik,0,Branch,35,Used Spells ≥ 1,5,Go to 5
+3,*,66,ギャルブ,Cerosik,0,Branch,35,Used State Spells ≥ 1,5,Go to 5
 4,*,66,ギャルブ,Cerosik,0,Branch,22,Rating 20%,8,Go to 8
 5,*,66,ギャルブ,Cerosik,0,Branch,21,Rating 10%,7,Go to 7
 6,*,66,ギャルブ,Cerosik,1,Action,550,Attack,2,Random PC
@@ -1065,7 +1065,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 5,*,71,テンコウ,Tenkou,0,Branch,22,Rating 20%,15,Go to 15
 6,*,71,テンコウ,Tenkou,0,Branch,30,Always,10,Go to 10
 7,*,71,テンコウ,Tenkou,0,Branch,24,Rating 40%,16,Go to 16
-8,*,71,テンコウ,Tenkou,0,Branch,43,Used Sacri Crystal Line?,10,Go to 10
+8,*,71,テンコウ,Tenkou,0,Branch,43,Used Sacri Crystals ≥ 2,10,Go to 10
 9,*,71,テンコウ,Tenkou,0,Branch,22,Rating 20%,16,Go to 16
 10,*,71,テンコウ,Tenkou,0,Branch,28,Rating 80%,12,Go to 12
 11,*,71,テンコウ,Tenkou,0,Branch,30,Always,13,Go to 13
@@ -1084,9 +1084,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 8,*,72,警備士,Patrol Guard,0,Branch,25,Rating 50%,16,Go to 16
 9,*,72,警備士,Patrol Guard,0,Branch,25,Rating 50%,11,Go to 11
 10,*,72,警備士,Patrol Guard,0,Branch,30,Always,13,Go to 13
-11,*,72,警備士,Patrol Guard,0,Branch,33,Used Atk. Spell?,15,Go to 15
+11,*,72,警備士,Patrol Guard,0,Branch,33,Used Atk. Spells ≥ 1,15,Go to 15
 12,*,72,警備士,Patrol Guard,0,Branch,30,Always,18,Go to 18
-13,*,72,警備士,Patrol Guard,0,Branch,42,Used Sacri Crystal Line?,15,Go to 15
+13,*,72,警備士,Patrol Guard,0,Branch,42,Used Sacri Crystals ≥ 1,15,Go to 15
 14,*,72,警備士,Patrol Guard,0,Branch,30,Always,19,Go to 19
 15,*,72,警備士,Patrol Guard,1,Action,550,Attack,2,Random PC
 16,*,72,警備士,Patrol Guard,1,Action,551,Guard,-1,None
@@ -1101,28 +1101,28 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 6,*,73,採掘士,Mine Patrol,0,Branch,21,Rating 10%,13,Go to 13
 7,*,73,採掘士,Mine Patrol,0,Branch,26,Rating 60%,11,Go to 11
 8,*,73,採掘士,Mine Patrol,0,Branch,24,Rating 40%,12,Go to 12
-9,*,73,採掘士,Mine Patrol,0,Branch,33,Used Atk. Spell?,11,Go to 11
+9,*,73,採掘士,Mine Patrol,0,Branch,33,Used Atk. Spells ≥ 1,11,Go to 11
 10,*,73,採掘士,Mine Patrol,0,Branch,30,Always,14,Go to 14
 11,*,73,採掘士,Mine Patrol,1,Action,550,Attack,2,Random PC
 12,*,73,採掘士,Mine Patrol,1,Action,551,Guard,-1,None
 13,*,73,採掘士,Mine Patrol,1,Action,513,Quika,-1,None
 14,*,73,採掘士,Mine Patrol,1,Action,527,Crystales,7,Injured EC
-1,*,74,アスヒモス,Forst Worm,0,Branch,1,HP < 50%,7,Go to 7
-2,*,74,アスヒモス,Forst Worm,0,Branch,23,Rating 30%,12,Go to 12
-3,*,74,アスヒモス,Forst Worm,0,Branch,22,Rating 20%,13,Go to 13
-4,*,74,アスヒモス,Forst Worm,0,Branch,26,Rating 60%,14,Go to 14
-5,*,74,アスヒモス,Forst Worm,0,Branch,24,Rating 40%,15,Go to 15
-6,*,74,アスヒモス,Forst Worm,0,Branch,30,Always,16,Go to 16
-7,*,74,アスヒモス,Forst Worm,0,Branch,23,Rating 30%,12,Go to 12
-8,*,74,アスヒモス,Forst Worm,0,Branch,21,Rating 10%,13,Go to 13
-9,*,74,アスヒモス,Forst Worm,0,Branch,23,Rating 30%,14,Go to 14
-10,*,74,アスヒモス,Forst Worm,0,Branch,26,Rating 60%,15,Go to 15
-11,*,74,アスヒモス,Forst Worm,0,Branch,30,Always,16,Go to 16
-12,*,74,アスヒモス,Forst Worm,1,Action,550,Attack,2,Random PC
-13,*,74,アスヒモス,Forst Worm,1,Action,551,Guard,-1,None
-14,*,74,アスヒモス,Forst Worm,1,Action,503,Panika,14,PC w/o Confusion
-15,*,74,アスヒモス,Forst Worm,1,Action,529,Crystalen,2,Random PC
-16,*,74,アスヒモス,Forst Worm,1,Action,38,Eternal Freeze,-1,None
+1,*,74,アスヒモス,Frost Worm,0,Branch,1,HP < 50%,7,Go to 7
+2,*,74,アスヒモス,Frost Worm,0,Branch,23,Rating 30%,12,Go to 12
+3,*,74,アスヒモス,Frost Worm,0,Branch,22,Rating 20%,13,Go to 13
+4,*,74,アスヒモス,Frost Worm,0,Branch,26,Rating 60%,14,Go to 14
+5,*,74,アスヒモス,Frost Worm,0,Branch,24,Rating 40%,15,Go to 15
+6,*,74,アスヒモス,Frost Worm,0,Branch,30,Always,16,Go to 16
+7,*,74,アスヒモス,Frost Worm,0,Branch,23,Rating 30%,12,Go to 12
+8,*,74,アスヒモス,Frost Worm,0,Branch,21,Rating 10%,13,Go to 13
+9,*,74,アスヒモス,Frost Worm,0,Branch,23,Rating 30%,14,Go to 14
+10,*,74,アスヒモス,Frost Worm,0,Branch,26,Rating 60%,15,Go to 15
+11,*,74,アスヒモス,Frost Worm,0,Branch,30,Always,16,Go to 16
+12,*,74,アスヒモス,Frost Worm,1,Action,550,Attack,2,Random PC
+13,*,74,アスヒモス,Frost Worm,1,Action,551,Guard,-1,None
+14,*,74,アスヒモス,Frost Worm,1,Action,503,Panika,14,PC w/o Confusion
+15,*,74,アスヒモス,Frost Worm,1,Action,529,Crystalen,2,Random PC
+16,*,74,アスヒモス,Frost Worm,1,Action,38,Eternal Freeze,-1,None
 1,*,75,デ式レーダー,Destroyer,0,Branch,11,Turn 1,9,Go to 9
 2,*,75,デ式レーダー,Destroyer,0,Branch,12,Turn 2,8,Go to 8
 3,*,75,デ式レーダー,Destroyer,0,Branch,13,Turn 3,7,Go to 7
@@ -1141,9 +1141,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 16,*,75,デ式レーダー,Destroyer,1,Action,112,Call Allies,-1,None
 17,*,75,デ式レーダー,Destroyer,1,Action,160,Search,-1,None
 1,*,76,ヒュドラ機兵,Marauder,1,Action,550,Attack,2,Random PC
-1,*,77,テンペリオス,Guardian,0,Branch,48,Charged 2?,9,Go to 9
+1,*,77,テンペリオス,Guardian,0,Branch,48,Used Target Search?,9,Go to 9
 2,*,77,テンペリオス,Guardian,0,Branch,11,Turn 1,12,Go to 12
-3,*,77,テンペリオス,Guardian,0,Branch,5,Magic Dmg. Last Turn?,12,Go to 12
+3,*,77,テンペリオス,Guardian,0,Branch,5,Got Hit by Spell?,12,Go to 12
 4,*,77,テンペリオス,Guardian,0,Branch,23,Rating 30%,12,Go to 12
 5,*,77,テンペリオス,Guardian,0,Branch,22,Rating 20%,13,Go to 13
 6,*,77,テンペリオス,Guardian,0,Branch,22,Rating 20%,14,Go to 14
@@ -1212,7 +1212,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 1,*,83,ギラロッシ,Garagor,0,Branch,11,Turn 1,3,Go to 3
 2,*,83,ギラロッシ,Garagor,0,Branch,30,Always,4,Go to 4
 3,*,83,ギラロッシ,Garagor,0,Branch,25,Rating 50%,15,Go to 15
-4,*,83,ギラロッシ,Garagor,0,Branch,47,Used HP Absorb 2?,10,Go to 10
+4,*,83,ギラロッシ,Garagor,0,Branch,47,Used HP Absorbs ≥ 2,10,Go to 10
 5,*,83,ギラロッシ,Garagor,0,Branch,2,HP < 25%,8,Go to 8
 6,*,83,ギラロッシ,Garagor,0,Branch,0,HP = 100%,10,Go to 10
 7,*,83,ギラロッシ,Garagor,0,Branch,30,Always,9,Go to 9
@@ -1235,7 +1235,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 7,*,84,シデンクワイ,Kilite,0,Branch,30,Always,13,Go to 13
 8,*,84,シデンクワイ,Kilite,0,Branch,27,Rating 70%,16,Go to 16
 9,*,84,シデンクワイ,Kilite,0,Branch,30,Always,17,Go to 17
-10,*,84,シデンクワイ,Kilite,0,Branch,33,Used Atk. Spell?,12,Go to 12
+10,*,84,シデンクワイ,Kilite,0,Branch,33,Used Atk. Spells ≥ 1,12,Go to 12
 11,*,84,シデンクワイ,Kilite,0,Branch,30,Always,15,Go to 15
 12,*,84,シデンクワイ,Kilite,1,Action,550,Attack,2,Random PC
 13,*,84,シデンクワイ,Kilite,1,Action,551,Guard,-1,None
@@ -1249,7 +1249,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 4,*,85,イモヅル,Imezl,0,Branch,44,1st PC ΔLV > 3,6,Go to 6
 5,*,85,イモヅル,Imezl,0,Branch,30,Always,7,Go to 7
 6,*,85,イモヅル,Imezl,0,Branch,25,Rating 50%,23,Go to 23
-7,*,85,イモヅル,Imezl,0,Branch,31,Used Sacri Line?,15,Go to 15
+7,*,85,イモヅル,Imezl,0,Branch,31,Used Sacri Spells ≥ 1,15,Go to 15
 8,*,85,イモヅル,Imezl,0,Branch,39,Any EC HP < 25%,11,Go to 11
 9,*,85,イモヅル,Imezl,0,Branch,38,Any EC HP < 50%,12,Go to 12
 10,*,85,イモヅル,Imezl,0,Branch,30,Always,15,Go to 15
@@ -1278,7 +1278,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 5,*,86,ブライヌール,Lurker,0,Branch,30,Always,7,Go to 7
 6,*,86,ブライヌール,Lurker,0,Branch,24,Rating 40%,15,Go to 15
 7,*,86,ブライヌール,Lurker,0,Branch,0,HP = 100%,10,Go to 10
-8,*,86,ブライヌール,Lurker,0,Branch,46,Used HP Absorb 1?,10,Go to 10
+8,*,86,ブライヌール,Lurker,0,Branch,46,Used HP Absorbs ≥ 1,10,Go to 10
 9,*,86,ブライヌール,Lurker,0,Branch,26,Rating 60%,17,Go to 17
 10,*,86,ブライヌール,Lurker,0,Branch,50,Used S-Move Last Turn?,12,Go to 12
 11,*,86,ブライヌール,Lurker,0,Branch,23,Rating 30%,18,Go to 18
@@ -1321,7 +1321,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 5,*,89,アークエルモ,Arclooper,0,Branch,25,Rating 50%,12,Go to 12
 6,*,89,アークエルモ,Arclooper,0,Branch,24,Rating 40%,9,Go to 9
 7,*,89,アークエルモ,Arclooper,0,Branch,23,Rating 30%,10,Go to 10
-8,*,89,アークエルモ,Arclooper,0,Branch,33,Used Atk. Spell?,13,Go to 13
+8,*,89,アークエルモ,Arclooper,0,Branch,33,Used Atk. Spells ≥ 1,13,Go to 13
 9,*,89,アークエルモ,Arclooper,1,Action,550,Attack,2,Random PC
 10,*,89,アークエルモ,Arclooper,1,Action,551,Guard,-1,None
 11,*,89,アークエルモ,Arclooper,1,Action,552,Run,-1,None
@@ -1331,9 +1331,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,90,キュキュ,Tsorok,0,Branch,30,Always,4,Go to 4
 3,*,90,キュキュ,Tsorok,0,Branch,24,Rating 40%,12,Go to 12
 4,*,90,キュキュ,Tsorok,0,Branch,0,HP = 100%,7,Go to 7
-5,*,90,キュキュ,Tsorok,0,Branch,46,Used HP Absorb 1?,7,Go to 7
+5,*,90,キュキュ,Tsorok,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
 6,*,90,キュキュ,Tsorok,0,Branch,25,Rating 50%,13,Go to 13
-7,*,90,キュキュ,Tsorok,0,Branch,33,Used Atk. Spell?,9,Go to 9
+7,*,90,キュキュ,Tsorok,0,Branch,33,Used Atk. Spells ≥ 1,9,Go to 9
 8,*,90,キュキュ,Tsorok,0,Branch,24,Rating 40%,14,Go to 14
 9,*,90,キュキュ,Tsorok,0,Branch,21,Rating 10%,12,Go to 12
 10,*,90,キュキュ,Tsorok,0,Branch,21,Rating 10%,15,Go to 15
@@ -1342,7 +1342,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 13,*,90,キュキュ,Tsorok,1,Action,211,HP Absorb,3,PC w/ Most HP
 14,*,90,キュキュ,Tsorok,1,Action,533,Electres,2,Random PC
 15,*,90,キュキュ,Tsorok,1,Action,551,Guard,-1,None
-1,*,91,デ式レイバー,Sentry,0,Branch,52,Charged 1?,12,Go to 12
+1,*,91,デ式レイバー,Sentry,0,Branch,52,Used Charge,12,Go to 12
 2,*,91,デ式レイバー,Sentry,0,Branch,11,Turn 1,6,Go to 6
 3,*,91,デ式レイバー,Sentry,0,Branch,27,Rating 70%,9,Go to 9
 4,*,91,デ式レイバー,Sentry,0,Branch,24,Rating 40%,10,Go to 10
@@ -1372,7 +1372,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 16,*,92,ランギット,Langry,1,Action,552,Run,-1,None
 17,*,92,ランギット,Langry,1,Action,551,Guard,-1,None
 1,*,93,ヘベレル,Durel Beetle,0,Branch,17,ECs Alive = 1,15,Go to 15
-2,*,93,ヘベレル,Durel Beetle,0,Branch,36,Used Spells ≥ 2,10,Go to 10
+2,*,93,ヘベレル,Durel Beetle,0,Branch,36,Used State Spells ≥ 2,10,Go to 10
 3,*,93,ヘベレル,Durel Beetle,0,Branch,22,Rating 20%,19,Go to 19
 4,*,93,ヘベレル,Durel Beetle,0,Branch,23,Rating 30%,20,Go to 20
 5,*,93,ヘベレル,Durel Beetle,0,Branch,24,Rating 40%,18,Go to 18
@@ -1407,7 +1407,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 1,*,95,ケベスク,Thryllak,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
 2,*,95,ケベスク,Thryllak,0,Branch,30,Always,4,Go to 4
 3,*,95,ケベスク,Thryllak,0,Branch,24,Rating 40%,13,Go to 13
-4,*,95,ケベスク,Thryllak,0,Branch,40,Charged 1?,15,Go to 15
+4,*,95,ケベスク,Thryllak,0,Branch,40,Used Gather Strength?,15,Go to 15
 5,*,95,ケベスク,Thryllak,0,Branch,11,Turn 1,7,Go to 7
 6,*,95,ケベスク,Thryllak,0,Branch,30,Always,8,Go to 8
 7,*,95,ケベスク,Thryllak,0,Branch,25,Rating 50%,14,Go to 14
@@ -1489,7 +1489,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 12,*,101,イレイザー,Assassin,1,Action,502,Sylenis,20,PC w/ Highest Will
 13,*,101,イレイザー,Assassin,1,Action,522,Wevlen,2,Random PC
 14,*,101,イレイザー,Assassin,1,Action,12,Death Strike,3,PC w/ Most HP
-1,*,102,要塞将兵,Officer,0,Branch,5,Magic Dmg. Last Turn?,12,Go to 12
+1,*,102,要塞将兵,Officer,0,Branch,5,Got Hit by Spell?,12,Go to 12
 2,*,102,要塞将兵,Officer,0,Branch,38,Any EC HP < 50%,8,Go to 8
 3,*,102,要塞将兵,Officer,0,Branch,25,Rating 50%,15,Go to 15
 4,*,102,要塞将兵,Officer,0,Branch,24,Rating 40%,17,Go to 17
@@ -1498,7 +1498,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 7,*,102,要塞将兵,Officer,0,Branch,30,Always,16,Go to 16
 8,*,102,要塞将兵,Officer,0,Branch,23,Rating 30%,18,Go to 18
 9,*,102,要塞将兵,Officer,0,Branch,24,Rating 40%,17,Go to 17
-10,*,102,要塞将兵,Officer,0,Branch,31,Used Sacri Line?,12,Go to 12
+10,*,102,要塞将兵,Officer,0,Branch,31,Used Sacri Spells ≥ 1,12,Go to 12
 11,*,102,要塞将兵,Officer,0,Branch,30,Always,16,Go to 16
 12,*,102,要塞将兵,Officer,0,Branch,24,Rating 40%,15,Go to 15
 13,*,102,要塞将兵,Officer,0,Branch,25,Rating 50%,17,Go to 17
@@ -1511,7 +1511,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 1,*,103,要塞煌兵,Mage Warden,0,Branch,11,Turn 1,4,Go to 4
 2,*,103,要塞煌兵,Mage Warden,0,Branch,12,Turn 2,4,Go to 4
 3,*,103,要塞煌兵,Mage Warden,0,Branch,30,Always,12,Go to 12
-4,*,103,要塞煌兵,Mage Warden,0,Branch,35,Used Spells ≥ 1,7,Go to 7
+4,*,103,要塞煌兵,Mage Warden,0,Branch,35,Used State Spells ≥ 1,7,Go to 7
 5,*,103,要塞煌兵,Mage Warden,0,Branch,24,Rating 40%,20,Go to 20
 6,*,103,要塞煌兵,Mage Warden,0,Branch,25,Rating 50%,21,Go to 21
 7,*,103,要塞煌兵,Mage Warden,0,Branch,22,Rating 20%,25,Go to 25
@@ -1519,7 +1519,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 9,*,103,要塞煌兵,Mage Warden,0,Branch,21,Rating 10%,19,Go to 19
 10,*,103,要塞煌兵,Mage Warden,0,Branch,25,Rating 50%,24,Go to 24
 11,*,103,要塞煌兵,Mage Warden,0,Branch,30,Always,23,Go to 23
-12,*,103,要塞煌兵,Mage Warden,0,Branch,31,Used Sacri Line?,7,Go to 7
+12,*,103,要塞煌兵,Mage Warden,0,Branch,31,Used Sacri Spells ≥ 1,7,Go to 7
 13,*,103,要塞煌兵,Mage Warden,0,Branch,1,HP < 50%,16,Go to 16
 14,*,103,要塞煌兵,Mage Warden,0,Branch,39,Any EC HP < 25%,16,Go to 16
 15,*,103,要塞煌兵,Mage Warden,0,Branch,30,Always,7,Go to 7
@@ -1533,7 +1533,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 23,*,103,要塞煌兵,Mage Warden,1,Action,531,Wevlum,2,Random PC
 24,*,103,要塞煌兵,Mage Warden,1,Action,528,Crystalum,2,Random PC
 25,*,103,要塞煌兵,Mage Warden,1,Action,37,Focus,-1,None
-1,*,104,要塞兵,Shock Troop,0,Branch,42,Used Sacri Crystal Line?,5,Go to 5
+1,*,104,要塞兵,Shock Troop,0,Branch,42,Used Sacri Crystals ≥ 1,5,Go to 5
 2,*,104,要塞兵,Shock Troop,0,Branch,38,Any EC HP < 50%,4,Go to 4
 3,*,104,要塞兵,Shock Troop,0,Branch,30,Always,5,Go to 5
 4,*,104,要塞兵,Shock Troop,0,Branch,22,Rating 20%,9,Go to 9
@@ -1548,7 +1548,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 3,*,105,ベレーザ兵,Red Guard,1,Action,550,Attack,2,Random PC
 4,*,105,ベレーザ兵,Red Guard,1,Action,70,Grenade,2,Random PC
 5,*,105,ベレーザ兵,Red Guard,1,Action,551,Guard,-1,None
-1,*,106,工作兵,Elite Guard,0,Branch,42,Used Sacri Crystal Line?,5,Go to 5
+1,*,106,工作兵,Elite Guard,0,Branch,42,Used Sacri Crystals ≥ 1,5,Go to 5
 2,*,106,工作兵,Elite Guard,0,Branch,38,Any EC HP < 50%,4,Go to 4
 3,*,106,工作兵,Elite Guard,0,Branch,30,Always,5,Go to 5
 4,*,106,工作兵,Elite Guard,0,Branch,23,Rating 30%,9,Go to 9
@@ -1568,7 +1568,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 8,*,107,ワーン,Jynnus,0,Branch,25,Rating 50%,16,Go to 16
 9,*,107,ワーン,Jynnus,0,Branch,24,Rating 40%,17,Go to 17
 10,*,107,ワーン,Jynnus,0,Branch,30,Always,18,Go to 18
-11,*,107,ワーン,Jynnus,0,Branch,35,Used Spells ≥ 1,20,Go to 20
+11,*,107,ワーン,Jynnus,0,Branch,35,Used State Spells ≥ 1,20,Go to 20
 12,*,107,ワーン,Jynnus,0,Branch,30,Always,19,Go to 19
 13,*,107,ワーン,Jynnus,1,Action,550,Attack,2,Random PC
 14,*,107,ワーン,Jynnus,1,Action,551,Guard,-1,None
@@ -1601,7 +1601,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,109,イエルモー,Yulooper,0,Branch,25,Rating 50%,9,Go to 9
 3,*,109,イエルモー,Yulooper,0,Branch,24,Rating 40%,7,Go to 7
 4,*,109,イエルモー,Yulooper,0,Branch,23,Rating 30%,8,Go to 8
-5,*,109,イエルモー,Yulooper,0,Branch,33,Used Atk. Spell?,11,Go to 11
+5,*,109,イエルモー,Yulooper,0,Branch,33,Used Atk. Spells ≥ 1,11,Go to 11
 6,*,109,イエルモー,Yulooper,0,Branch,30,Always,10,Go to 10
 7,*,109,イエルモー,Yulooper,1,Action,550,Attack,2,Random PC
 8,*,109,イエルモー,Yulooper,1,Action,551,Guard,-1,None
@@ -1795,8 +1795,8 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 19,*,128,アントニオ,Antonio,1,Action,550,Attack,2,Random PC
 20,*,128,アントニオ,Antonio,1,Action,5,Thunder of Fury,2,Random PC
 21,*,128,アントニオ,Antonio,1,Action,34,Assess Damage,-1,None
-1,*,129,アガタウマス,Sentinel,0,Branch,48,Charged 2?,8,Go to 8
-2,*,129,アガタウマス,Sentinel,0,Branch,5,Magic Dmg. Last Turn?,6,Go to 6
+1,*,129,アガタウマス,Sentinel,0,Branch,48,Used Target Search?,8,Go to 8
+2,*,129,アガタウマス,Sentinel,0,Branch,5,Got Hit by Spell?,6,Go to 6
 3,*,129,アガタウマス,Sentinel,0,Branch,0,HP = 100%,6,Go to 6
 4,*,129,アガタウマス,Sentinel,0,Branch,26,Rating 60%,10,Go to 10
 5,*,129,アガタウマス,Sentinel,0,Branch,30,Always,11,Go to 11
@@ -1943,7 +1943,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 10,ebinit004.dat,132,ガルシアン,Galcian,1,Action,534,Electrum,2,Random PC
 11,ebinit004.dat,132,ガルシアン,Galcian,1,Action,24,Devolver,-1,None
 12,ebinit004.dat,132,ガルシアン,Galcian,1,Action,509,Sacrulen,22,Self
-1,*,133,護送将兵,Royal Guard,0,Branch,5,Magic Dmg. Last Turn?,11,Go to 11
+1,*,133,護送将兵,Royal Guard,0,Branch,5,Got Hit by Spell?,11,Go to 11
 2,*,133,護送将兵,Royal Guard,0,Branch,38,Any EC HP < 50%,8,Go to 8
 3,*,133,護送将兵,Royal Guard,0,Branch,25,Rating 50%,14,Go to 14
 4,*,133,護送将兵,Royal Guard,0,Branch,24,Rating 40%,16,Go to 16
@@ -1951,7 +1951,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 6,*,133,護送将兵,Royal Guard,0,Branch,28,Rating 80%,18,Go to 18
 7,*,133,護送将兵,Royal Guard,0,Branch,30,Always,15,Go to 15
 8,*,133,護送将兵,Royal Guard,0,Branch,25,Rating 50%,17,Go to 17
-9,*,133,護送将兵,Royal Guard,0,Branch,32,Used Sacri Line?,11,Go to 11
+9,*,133,護送将兵,Royal Guard,0,Branch,32,Used Sacri Spells ≥ 2,11,Go to 11
 10,*,133,護送将兵,Royal Guard,0,Branch,30,Always,15,Go to 15
 11,*,133,護送将兵,Royal Guard,0,Branch,24,Rating 40%,14,Go to 14
 12,*,133,護送将兵,Royal Guard,0,Branch,25,Rating 50%,16,Go to 16
@@ -2006,7 +2006,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 22,*,137,ディアトリマ,Rik'talish,1,Action,7,Circle of Panic,14,PC w/o Confusion
 23,*,137,ディアトリマ,Rik'talish,1,Action,8,Ring of Sleep,16,PC w/o Sleep
 1,*,138,シニストラ,Sinistra,0,Branch,17,ECs Alive = 1,18,Go to 18
-2,*,138,シニストラ,Sinistra,0,Branch,53,Charged 2?,22,Go to 22
+2,*,138,シニストラ,Sinistra,0,Branch,53,Used Engage?,22,Go to 22
 3,*,138,シニストラ,Sinistra,0,Branch,11,Turn 1,9,Go to 9
 4,*,138,シニストラ,Sinistra,0,Branch,12,Turn 2,12,Go to 12
 5,*,138,シニストラ,Sinistra,0,Branch,38,Any EC HP < 50%,16,Go to 16
@@ -2029,7 +2029,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 22,*,138,シニストラ,Sinistra,1,Action,54,Death Waltz,-1,None
 23,*,138,シニストラ,Sinistra,1,Action,55,Engage,-1,None
 1,*,139,デクストラ,Destra,0,Branch,17,ECs Alive = 1,18,Go to 18
-2,*,139,デクストラ,Destra,0,Branch,53,Charged 2?,22,Go to 22
+2,*,139,デクストラ,Destra,0,Branch,53,Used Engage?,22,Go to 22
 3,*,139,デクストラ,Destra,0,Branch,12,Turn 2,9,Go to 9
 4,*,139,デクストラ,Destra,0,Branch,13,Turn 3,12,Go to 12
 5,*,139,デクストラ,Destra,0,Branch,38,Any EC HP < 50%,16,Go to 16
@@ -2116,7 +2116,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 22,*,144,ディーゴ,Tortigar,0,Branch,30,Always,43,Go to 43
 23,*,144,ディーゴ,Tortigar,0,Branch,26,Rating 60%,41,Go to 41
 24,*,144,ディーゴ,Tortigar,0,Branch,30,Always,10,Go to 10
-25,*,144,ディーゴ,Tortigar,0,Branch,31,Used Sacri Line?,10,Go to 10
+25,*,144,ディーゴ,Tortigar,0,Branch,31,Used Sacri Spells ≥ 1,10,Go to 10
 26,*,144,ディーゴ,Tortigar,0,Branch,30,Always,41,Go to 41
 27,*,144,ディーゴ,Tortigar,0,Branch,16,Has Silence?,31,Go to 31
 28,*,144,ディーゴ,Tortigar,0,Branch,23,Rating 30%,42,Go to 42
@@ -2165,11 +2165,11 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 13,*,147,ムラジ,Muraji,0,Branch,30,Always,27,Go to 27
 14,*,147,ムラジ,Muraji,0,Branch,25,Rating 50%,28,Go to 28
 15,*,147,ムラジ,Muraji,0,Branch,30,Always,12,Go to 12
-16,*,147,ムラジ,Muraji,0,Branch,35,Used Spells ≥ 1,18,Go to 18
+16,*,147,ムラジ,Muraji,0,Branch,35,Used State Spells ≥ 1,18,Go to 18
 17,*,147,ムラジ,Muraji,0,Branch,30,Always,28,Go to 28
 18,*,147,ムラジ,Muraji,0,Branch,25,Rating 50%,32,Go to 32
 19,*,147,ムラジ,Muraji,0,Branch,30,Always,12,Go to 12
-20,*,147,ムラジ,Muraji,0,Branch,36,Used Spells ≥ 2,4,Go to 4
+20,*,147,ムラジ,Muraji,0,Branch,36,Used State Spells ≥ 2,4,Go to 4
 21,*,147,ムラジ,Muraji,0,Branch,30,Always,32,Go to 32
 22,*,147,ムラジ,Muraji,0,Branch,25,Rating 50%,30,Go to 30
 23,*,147,ムラジ,Muraji,0,Branch,30,Always,6,Go to 6
@@ -2299,7 +2299,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 7,*,152,ラミレス,Ramirez,0,Branch,30,Always,14,Go to 14
 8,*,152,ラミレス,Ramirez,0,Branch,25,Rating 50%,20,Go to 20
 9,*,152,ラミレス,Ramirez,0,Branch,30,Always,12,Go to 12
-10,*,152,ラミレス,Ramirez,0,Branch,35,Used Spells ≥ 1,12,Go to 12
+10,*,152,ラミレス,Ramirez,0,Branch,35,Used State Spells ≥ 1,12,Go to 12
 11,*,152,ラミレス,Ramirez,0,Branch,30,Always,20,Go to 20
 12,*,152,ラミレス,Ramirez,0,Branch,26,Rating 60%,22,Go to 22
 13,*,152,ラミレス,Ramirez,0,Branch,30,Always,19,Go to 19
@@ -2322,7 +2322,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 7,ebinit024.dat,152,ラミレス,Ramirez,0,Branch,30,Always,14,Go to 14
 8,ebinit024.dat,152,ラミレス,Ramirez,0,Branch,25,Rating 50%,20,Go to 20
 9,ebinit024.dat,152,ラミレス,Ramirez,0,Branch,30,Always,12,Go to 12
-10,ebinit024.dat,152,ラミレス,Ramirez,0,Branch,35,Used Spells ≥ 1,12,Go to 12
+10,ebinit024.dat,152,ラミレス,Ramirez,0,Branch,35,Used State Spells ≥ 1,12,Go to 12
 11,ebinit024.dat,152,ラミレス,Ramirez,0,Branch,30,Always,20,Go to 20
 12,ebinit024.dat,152,ラミレス,Ramirez,0,Branch,22,Rating 20%,22,Go to 22
 13,ebinit024.dat,152,ラミレス,Ramirez,0,Branch,30,Always,19,Go to 19
@@ -2351,7 +2351,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 13,*,153,ラミレス,Ramirez,0,Branch,30,Always,18,Go to 18
 14,*,153,ラミレス,Ramirez,0,Branch,25,Rating 50%,54,Go to 54
 15,*,153,ラミレス,Ramirez,0,Branch,30,Always,34,Go to 34
-16,*,153,ラミレス,Ramirez,0,Branch,35,Used Spells ≥ 1,34,Go to 34
+16,*,153,ラミレス,Ramirez,0,Branch,35,Used State Spells ≥ 1,34,Go to 34
 17,*,153,ラミレス,Ramirez,0,Branch,30,Always,54,Go to 54
 18,*,153,ラミレス,Ramirez,0,Branch,56,All PCs Have Weak?,20,Go to 20
 19,*,153,ラミレス,Ramirez,0,Branch,22,Rating 20%,54,Go to 54
@@ -2395,9 +2395,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 57,*,153,ラミレス,Ramirez,1,Action,48,Silver Tundra,2,Random PC
 58,*,153,ラミレス,Ramirez,1,Action,90,Silver Eclipse,-1,None
 59,*,153,ラミレス,Ramirez,1,Action,94,Lunar Blessing,-1,None
-1,*,154,ラプラタヌス,Eliminator,0,Branch,48,Charged 2?,8,Go to 8
+1,*,154,ラプラタヌス,Eliminator,0,Branch,48,Used Target Search?,8,Go to 8
 2,*,154,ラプラタヌス,Eliminator,0,Branch,11,Turn 1,11,Go to 11
-3,*,154,ラプラタヌス,Eliminator,0,Branch,5,Magic Dmg. Last Turn?,11,Go to 11
+3,*,154,ラプラタヌス,Eliminator,0,Branch,5,Got Hit by Spell?,11,Go to 11
 4,*,154,ラプラタヌス,Eliminator,0,Branch,23,Rating 30%,11,Go to 11
 5,*,154,ラプラタヌス,Eliminator,0,Branch,22,Rating 20%,12,Go to 12
 6,*,154,ラプラタヌス,Eliminator,0,Branch,22,Rating 20%,13,Go to 13
@@ -2408,7 +2408,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 11,*,154,ラプラタヌス,Eliminator,1,Action,9,Target Search,-1,None
 12,*,154,ラプラタヌス,Eliminator,1,Action,99,Blaster,2,Random PC
 13,*,154,ラプラタヌス,Eliminator,1,Action,31,Laser Blast,13,PC w/o Stone
-1,*,155,ドブラ,Gordo,0,Branch,55,Charged 1?,17,Go to 17
+1,*,155,ドブラ,Gordo,0,Branch,55,Used Digest?,17,Go to 17
 2,*,155,ドブラ,Gordo,0,Branch,11,Turn 1,7,Go to 7
 3,*,155,ドブラ,Gordo,0,Branch,12,Turn 2,7,Go to 7
 4,*,155,ドブラ,Gordo,0,Branch,38,Any EC HP < 50%,9,Go to 9
@@ -2416,7 +2416,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 6,*,155,ドブラ,Gordo,0,Branch,26,Rating 60%,13,Go to 13
 7,*,155,ドブラ,Gordo,0,Branch,22,Rating 20%,14,Go to 14
 8,*,155,ドブラ,Gordo,0,Branch,30,Always,16,Go to 16
-9,*,155,ドブラ,Gordo,0,Branch,32,Used Sacri Line?,11,Go to 11
+9,*,155,ドブラ,Gordo,0,Branch,32,Used Sacri Spells ≥ 2,11,Go to 11
 10,*,155,ドブラ,Gordo,0,Branch,28,Rating 80%,15,Go to 15
 11,*,155,ドブラ,Gordo,0,Branch,22,Rating 20%,15,Go to 15
 12,*,155,ドブラ,Gordo,0,Branch,30,Always,6,Go to 6
@@ -2428,7 +2428,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 1,*,156,ウォン三兄弟,Mad Chef,0,Branch,21,Rating 10%,8,Go to 8
 2,*,156,ウォン三兄弟,Mad Chef,0,Branch,25,Rating 50%,4,Go to 4
 3,*,156,ウォン三兄弟,Mad Chef,0,Branch,30,Always,7,Go to 7
-4,*,156,ウォン三兄弟,Mad Chef,0,Branch,34,Used Atk. Spell?,6,Go to 6
+4,*,156,ウォン三兄弟,Mad Chef,0,Branch,34,Used Atk. Spells ≥ 2,6,Go to 6
 5,*,156,ウォン三兄弟,Mad Chef,0,Branch,30,Always,9,Go to 9
 6,*,156,ウォン三兄弟,Mad Chef,0,Branch,25,Rating 50%,9,Go to 9
 7,*,156,ウォン三兄弟,Mad Chef,1,Action,550,Attack,2,Random PC
@@ -2450,7 +2450,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 14,*,157,ラミレス,Ramirez,0,Branch,30,Always,19,Go to 19
 15,*,157,ラミレス,Ramirez,0,Branch,25,Rating 50%,36,Go to 36
 16,*,157,ラミレス,Ramirez,0,Branch,30,Always,38,Go to 38
-17,*,157,ラミレス,Ramirez,0,Branch,35,Used Spells ≥ 1,38,Go to 38
+17,*,157,ラミレス,Ramirez,0,Branch,35,Used State Spells ≥ 1,38,Go to 38
 18,*,157,ラミレス,Ramirez,0,Branch,30,Always,36,Go to 36
 19,*,157,ラミレス,Ramirez,0,Branch,50,Used S-Move Last Turn?,22,Go to 22
 20,*,157,ラミレス,Ramirez,0,Branch,23,Rating 30%,38,Go to 38
@@ -4389,7 +4389,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 8,*,193,ダイコクヤ,Daikokuya,0,Branch,15,Turn 8,32,Go to 32
 9,*,193,ダイコクヤ,Daikokuya,0,Branch,13,Turn 3,29,Go to 29
 10,*,193,ダイコクヤ,Daikokuya,0,Branch,1,HP < 50%,21,Go to 21
-11,*,193,ダイコクヤ,Daikokuya,0,Branch,36,Used Spells ≥ 2,17,Go to 17
+11,*,193,ダイコクヤ,Daikokuya,0,Branch,36,Used State Spells ≥ 2,17,Go to 17
 12,*,193,ダイコクヤ,Daikokuya,0,Branch,23,Rating 30%,48,Go to 48
 13,*,193,ダイコクヤ,Daikokuya,0,Branch,24,Rating 40%,53,Go to 53
 14,*,193,ダイコクヤ,Daikokuya,0,Branch,25,Rating 50%,52,Go to 52
@@ -4438,7 +4438,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 3,ebinit065.dat,193,ダイコクヤ,Daikokuya,0,Branch,13,Turn 3,24,Go to 24
 4,ebinit065.dat,193,ダイコクヤ,Daikokuya,0,Branch,2,HP < 25%,20,Go to 20
 5,ebinit065.dat,193,ダイコクヤ,Daikokuya,0,Branch,1,HP < 50%,16,Go to 16
-6,ebinit065.dat,193,ダイコクヤ,Daikokuya,0,Branch,36,Used Spells ≥ 2,12,Go to 12
+6,ebinit065.dat,193,ダイコクヤ,Daikokuya,0,Branch,36,Used State Spells ≥ 2,12,Go to 12
 7,ebinit065.dat,193,ダイコクヤ,Daikokuya,0,Branch,23,Rating 30%,31,Go to 31
 8,ebinit065.dat,193,ダイコクヤ,Daikokuya,0,Branch,26,Rating 60%,36,Go to 36
 9,ebinit065.dat,193,ダイコクヤ,Daikokuya,0,Branch,28,Rating 80%,35,Go to 35
@@ -4479,7 +4479,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 8,*,194,ダイコクヤ,Daikokuya,0,Branch,15,Turn 8,32,Go to 32
 9,*,194,ダイコクヤ,Daikokuya,0,Branch,13,Turn 3,29,Go to 29
 10,*,194,ダイコクヤ,Daikokuya,0,Branch,1,HP < 50%,21,Go to 21
-11,*,194,ダイコクヤ,Daikokuya,0,Branch,36,Used Spells ≥ 2,17,Go to 17
+11,*,194,ダイコクヤ,Daikokuya,0,Branch,36,Used State Spells ≥ 2,17,Go to 17
 12,*,194,ダイコクヤ,Daikokuya,0,Branch,23,Rating 30%,48,Go to 48
 13,*,194,ダイコクヤ,Daikokuya,0,Branch,24,Rating 40%,53,Go to 53
 14,*,194,ダイコクヤ,Daikokuya,0,Branch,25,Rating 50%,52,Go to 52
@@ -4528,7 +4528,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 3,ebinit066.dat,194,ダイコクヤ,Daikokuya,0,Branch,13,Turn 3,24,Go to 24
 4,ebinit066.dat,194,ダイコクヤ,Daikokuya,0,Branch,2,HP < 25%,20,Go to 20
 5,ebinit066.dat,194,ダイコクヤ,Daikokuya,0,Branch,1,HP < 50%,16,Go to 16
-6,ebinit066.dat,194,ダイコクヤ,Daikokuya,0,Branch,36,Used Spells ≥ 2,12,Go to 12
+6,ebinit066.dat,194,ダイコクヤ,Daikokuya,0,Branch,36,Used State Spells ≥ 2,12,Go to 12
 7,ebinit066.dat,194,ダイコクヤ,Daikokuya,0,Branch,23,Rating 30%,31,Go to 31
 8,ebinit066.dat,194,ダイコクヤ,Daikokuya,0,Branch,26,Rating 60%,36,Go to 36
 9,ebinit066.dat,194,ダイコクヤ,Daikokuya,0,Branch,28,Rating 80%,35,Go to 35
@@ -4569,7 +4569,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 8,*,195,ダイコクヤ,Daikokuya,0,Branch,15,Turn 8,32,Go to 32
 9,*,195,ダイコクヤ,Daikokuya,0,Branch,13,Turn 3,29,Go to 29
 10,*,195,ダイコクヤ,Daikokuya,0,Branch,1,HP < 50%,21,Go to 21
-11,*,195,ダイコクヤ,Daikokuya,0,Branch,36,Used Spells ≥ 2,17,Go to 17
+11,*,195,ダイコクヤ,Daikokuya,0,Branch,36,Used State Spells ≥ 2,17,Go to 17
 12,*,195,ダイコクヤ,Daikokuya,0,Branch,23,Rating 30%,48,Go to 48
 13,*,195,ダイコクヤ,Daikokuya,0,Branch,24,Rating 40%,53,Go to 53
 14,*,195,ダイコクヤ,Daikokuya,0,Branch,25,Rating 50%,52,Go to 52
@@ -4618,7 +4618,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 3,ebinit067.dat,195,ダイコクヤ,Daikokuya,0,Branch,13,Turn 3,24,Go to 24
 4,ebinit067.dat,195,ダイコクヤ,Daikokuya,0,Branch,2,HP < 25%,20,Go to 20
 5,ebinit067.dat,195,ダイコクヤ,Daikokuya,0,Branch,1,HP < 50%,16,Go to 16
-6,ebinit067.dat,195,ダイコクヤ,Daikokuya,0,Branch,36,Used Spells ≥ 2,12,Go to 12
+6,ebinit067.dat,195,ダイコクヤ,Daikokuya,0,Branch,36,Used State Spells ≥ 2,12,Go to 12
 7,ebinit067.dat,195,ダイコクヤ,Daikokuya,0,Branch,23,Rating 30%,31,Go to 31
 8,ebinit067.dat,195,ダイコクヤ,Daikokuya,0,Branch,26,Rating 60%,36,Go to 36
 9,ebinit067.dat,195,ダイコクヤ,Daikokuya,0,Branch,28,Rating 80%,35,Go to 35
@@ -4659,7 +4659,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 8,*,196,ダイコクヤ,Daikokuya,0,Branch,15,Turn 8,32,Go to 32
 9,*,196,ダイコクヤ,Daikokuya,0,Branch,13,Turn 3,29,Go to 29
 10,*,196,ダイコクヤ,Daikokuya,0,Branch,1,HP < 50%,21,Go to 21
-11,*,196,ダイコクヤ,Daikokuya,0,Branch,36,Used Spells ≥ 2,17,Go to 17
+11,*,196,ダイコクヤ,Daikokuya,0,Branch,36,Used State Spells ≥ 2,17,Go to 17
 12,*,196,ダイコクヤ,Daikokuya,0,Branch,23,Rating 30%,48,Go to 48
 13,*,196,ダイコクヤ,Daikokuya,0,Branch,24,Rating 40%,53,Go to 53
 14,*,196,ダイコクヤ,Daikokuya,0,Branch,25,Rating 50%,52,Go to 52
@@ -4708,7 +4708,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 3,ebinit068.dat,196,ダイコクヤ,Daikokuya,0,Branch,13,Turn 3,24,Go to 24
 4,ebinit068.dat,196,ダイコクヤ,Daikokuya,0,Branch,2,HP < 25%,20,Go to 20
 5,ebinit068.dat,196,ダイコクヤ,Daikokuya,0,Branch,1,HP < 50%,16,Go to 16
-6,ebinit068.dat,196,ダイコクヤ,Daikokuya,0,Branch,36,Used Spells ≥ 2,12,Go to 12
+6,ebinit068.dat,196,ダイコクヤ,Daikokuya,0,Branch,36,Used State Spells ≥ 2,12,Go to 12
 7,ebinit068.dat,196,ダイコクヤ,Daikokuya,0,Branch,23,Rating 30%,31,Go to 31
 8,ebinit068.dat,196,ダイコクヤ,Daikokuya,0,Branch,26,Rating 60%,36,Go to 36
 9,ebinit068.dat,196,ダイコクヤ,Daikokuya,0,Branch,28,Rating 80%,35,Go to 35
@@ -4749,7 +4749,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 8,*,197,ダイコクヤ,Daikokuya,0,Branch,15,Turn 8,32,Go to 32
 9,*,197,ダイコクヤ,Daikokuya,0,Branch,13,Turn 3,29,Go to 29
 10,*,197,ダイコクヤ,Daikokuya,0,Branch,1,HP < 50%,21,Go to 21
-11,*,197,ダイコクヤ,Daikokuya,0,Branch,36,Used Spells ≥ 2,17,Go to 17
+11,*,197,ダイコクヤ,Daikokuya,0,Branch,36,Used State Spells ≥ 2,17,Go to 17
 12,*,197,ダイコクヤ,Daikokuya,0,Branch,23,Rating 30%,48,Go to 48
 13,*,197,ダイコクヤ,Daikokuya,0,Branch,24,Rating 40%,53,Go to 53
 14,*,197,ダイコクヤ,Daikokuya,0,Branch,25,Rating 50%,52,Go to 52
@@ -4798,7 +4798,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 3,ebinit069.dat,197,ダイコクヤ,Daikokuya,0,Branch,13,Turn 3,24,Go to 24
 4,ebinit069.dat,197,ダイコクヤ,Daikokuya,0,Branch,2,HP < 25%,20,Go to 20
 5,ebinit069.dat,197,ダイコクヤ,Daikokuya,0,Branch,1,HP < 50%,16,Go to 16
-6,ebinit069.dat,197,ダイコクヤ,Daikokuya,0,Branch,36,Used Spells ≥ 2,12,Go to 12
+6,ebinit069.dat,197,ダイコクヤ,Daikokuya,0,Branch,36,Used State Spells ≥ 2,12,Go to 12
 7,ebinit069.dat,197,ダイコクヤ,Daikokuya,0,Branch,23,Rating 30%,31,Go to 31
 8,ebinit069.dat,197,ダイコクヤ,Daikokuya,0,Branch,26,Rating 60%,36,Go to 36
 9,ebinit069.dat,197,ダイコクヤ,Daikokuya,0,Branch,28,Rating 80%,35,Go to 35
@@ -5075,7 +5075,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,207,ルピー,Rupee,1,Action,283,Berserk Rupee,3,PC w/ Most HP
 3,*,207,ルピー,Rupee,1,Action,551,Guard,-1,None
 1,*,208,バーツ,Barta,0,Branch,17,ECs Alive = 1,21,Go to 21
-2,*,208,バーツ,Barta,0,Branch,67,Charged 1?,20,Go to 20
+2,*,208,バーツ,Barta,0,Branch,67,Used Legendary Charge?,20,Go to 20
 3,*,208,バーツ,Barta,0,Branch,39,Any EC HP < 25%,18,Go to 18
 4,*,208,バーツ,Barta,0,Branch,38,Any EC HP < 50%,16,Go to 16
 5,*,208,バーツ,Barta,0,Branch,2,HP < 25%,14,Go to 14
@@ -5103,7 +5103,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 27,*,208,バーツ,Barta,1,Action,285,Legendary Punch,3,PC w/ Most HP
 28,*,208,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 29,*,208,バーツ,Barta,1,Action,551,Guard,-1,None
-1,ebinit080.dat,208,バーツ,Barta,0,Branch,67,Charged 1?,21,Go to 21
+1,ebinit080.dat,208,バーツ,Barta,0,Branch,67,Used Legendary Charge?,21,Go to 21
 2,ebinit080.dat,208,バーツ,Barta,0,Branch,39,Any EC HP < 25%,19,Go to 19
 3,ebinit080.dat,208,バーツ,Barta,0,Branch,38,Any EC HP < 50%,17,Go to 17
 4,ebinit080.dat,208,バーツ,Barta,0,Branch,2,HP < 25%,14,Go to 14
@@ -5131,7 +5131,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 26,ebinit080.dat,208,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 27,ebinit080.dat,208,バーツ,Barta,1,Action,551,Guard,-1,None
 1,*,209,バーツ,Barta,0,Branch,17,ECs Alive = 1,21,Go to 21
-2,*,209,バーツ,Barta,0,Branch,67,Charged 1?,20,Go to 20
+2,*,209,バーツ,Barta,0,Branch,67,Used Legendary Charge?,20,Go to 20
 3,*,209,バーツ,Barta,0,Branch,39,Any EC HP < 25%,18,Go to 18
 4,*,209,バーツ,Barta,0,Branch,38,Any EC HP < 50%,16,Go to 16
 5,*,209,バーツ,Barta,0,Branch,2,HP < 25%,14,Go to 14
@@ -5159,7 +5159,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 27,*,209,バーツ,Barta,1,Action,285,Legendary Punch,3,PC w/ Most HP
 28,*,209,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 29,*,209,バーツ,Barta,1,Action,551,Guard,-1,None
-1,ebinit081.dat,209,バーツ,Barta,0,Branch,67,Charged 1?,21,Go to 21
+1,ebinit081.dat,209,バーツ,Barta,0,Branch,67,Used Legendary Charge?,21,Go to 21
 2,ebinit081.dat,209,バーツ,Barta,0,Branch,39,Any EC HP < 25%,19,Go to 19
 3,ebinit081.dat,209,バーツ,Barta,0,Branch,38,Any EC HP < 50%,17,Go to 17
 4,ebinit081.dat,209,バーツ,Barta,0,Branch,2,HP < 25%,14,Go to 14
@@ -5187,7 +5187,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 26,ebinit081.dat,209,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 27,ebinit081.dat,209,バーツ,Barta,1,Action,551,Guard,-1,None
 1,*,210,バーツ,Barta,0,Branch,17,ECs Alive = 1,21,Go to 21
-2,*,210,バーツ,Barta,0,Branch,67,Charged 1?,20,Go to 20
+2,*,210,バーツ,Barta,0,Branch,67,Used Legendary Charge?,20,Go to 20
 3,*,210,バーツ,Barta,0,Branch,39,Any EC HP < 25%,18,Go to 18
 4,*,210,バーツ,Barta,0,Branch,38,Any EC HP < 50%,16,Go to 16
 5,*,210,バーツ,Barta,0,Branch,2,HP < 25%,14,Go to 14
@@ -5215,7 +5215,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 27,*,210,バーツ,Barta,1,Action,285,Legendary Punch,3,PC w/ Most HP
 28,*,210,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 29,*,210,バーツ,Barta,1,Action,551,Guard,-1,None
-1,ebinit082.dat,210,バーツ,Barta,0,Branch,67,Charged 1?,21,Go to 21
+1,ebinit082.dat,210,バーツ,Barta,0,Branch,67,Used Legendary Charge?,21,Go to 21
 2,ebinit082.dat,210,バーツ,Barta,0,Branch,39,Any EC HP < 25%,19,Go to 19
 3,ebinit082.dat,210,バーツ,Barta,0,Branch,38,Any EC HP < 50%,17,Go to 17
 4,ebinit082.dat,210,バーツ,Barta,0,Branch,2,HP < 25%,14,Go to 14
@@ -5243,7 +5243,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 26,ebinit082.dat,210,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 27,ebinit082.dat,210,バーツ,Barta,1,Action,551,Guard,-1,None
 1,*,211,バーツ,Barta,0,Branch,17,ECs Alive = 1,21,Go to 21
-2,*,211,バーツ,Barta,0,Branch,67,Charged 1?,20,Go to 20
+2,*,211,バーツ,Barta,0,Branch,67,Used Legendary Charge?,20,Go to 20
 3,*,211,バーツ,Barta,0,Branch,39,Any EC HP < 25%,18,Go to 18
 4,*,211,バーツ,Barta,0,Branch,38,Any EC HP < 50%,16,Go to 16
 5,*,211,バーツ,Barta,0,Branch,2,HP < 25%,14,Go to 14
@@ -5271,7 +5271,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 27,*,211,バーツ,Barta,1,Action,285,Legendary Punch,3,PC w/ Most HP
 28,*,211,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 29,*,211,バーツ,Barta,1,Action,551,Guard,-1,None
-1,ebinit083.dat,211,バーツ,Barta,0,Branch,67,Charged 1?,21,Go to 21
+1,ebinit083.dat,211,バーツ,Barta,0,Branch,67,Used Legendary Charge?,21,Go to 21
 2,ebinit083.dat,211,バーツ,Barta,0,Branch,39,Any EC HP < 25%,19,Go to 19
 3,ebinit083.dat,211,バーツ,Barta,0,Branch,38,Any EC HP < 50%,17,Go to 17
 4,ebinit083.dat,211,バーツ,Barta,0,Branch,2,HP < 25%,14,Go to 14
@@ -5299,7 +5299,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 26,ebinit083.dat,211,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 27,ebinit083.dat,211,バーツ,Barta,1,Action,551,Guard,-1,None
 1,*,212,バーツ,Barta,0,Branch,17,ECs Alive = 1,21,Go to 21
-2,*,212,バーツ,Barta,0,Branch,67,Charged 1?,20,Go to 20
+2,*,212,バーツ,Barta,0,Branch,67,Used Legendary Charge?,20,Go to 20
 3,*,212,バーツ,Barta,0,Branch,39,Any EC HP < 25%,18,Go to 18
 4,*,212,バーツ,Barta,0,Branch,38,Any EC HP < 50%,16,Go to 16
 5,*,212,バーツ,Barta,0,Branch,2,HP < 25%,14,Go to 14
@@ -5327,7 +5327,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 27,*,212,バーツ,Barta,1,Action,285,Legendary Punch,3,PC w/ Most HP
 28,*,212,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 29,*,212,バーツ,Barta,1,Action,551,Guard,-1,None
-1,ebinit084.dat,212,バーツ,Barta,0,Branch,67,Charged 1?,21,Go to 21
+1,ebinit084.dat,212,バーツ,Barta,0,Branch,67,Used Legendary Charge?,21,Go to 21
 2,ebinit084.dat,212,バーツ,Barta,0,Branch,39,Any EC HP < 25%,19,Go to 19
 3,ebinit084.dat,212,バーツ,Barta,0,Branch,38,Any EC HP < 50%,17,Go to 17
 4,ebinit084.dat,212,バーツ,Barta,0,Branch,2,HP < 25%,14,Go to 14
@@ -5558,7 +5558,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,218,アニタ,Anita,0,Branch,11,Turn 1,23,Go to 23
 3,*,218,アニタ,Anita,0,Branch,19,Party SP ≤ 50%,5,Go to 5
 4,*,218,アニタ,Anita,0,Branch,28,Rating 80%,21,Go to 21
-5,*,218,アニタ,Anita,0,Branch,5,Magic Dmg. Last Turn?,7,Go to 7
+5,*,218,アニタ,Anita,0,Branch,5,Got Hit by Spell?,7,Go to 7
 6,*,218,アニタ,Anita,0,Branch,30,Always,8,Go to 8
 7,*,218,アニタ,Anita,0,Branch,26,Rating 60%,22,Go to 22
 8,*,218,アニタ,Anita,0,Branch,2,HP < 25%,17,Go to 17
@@ -5601,7 +5601,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,219,アニタ,Anita,0,Branch,11,Turn 1,23,Go to 23
 3,*,219,アニタ,Anita,0,Branch,19,Party SP ≤ 50%,5,Go to 5
 4,*,219,アニタ,Anita,0,Branch,28,Rating 80%,21,Go to 21
-5,*,219,アニタ,Anita,0,Branch,5,Magic Dmg. Last Turn?,7,Go to 7
+5,*,219,アニタ,Anita,0,Branch,5,Got Hit by Spell?,7,Go to 7
 6,*,219,アニタ,Anita,0,Branch,30,Always,8,Go to 8
 7,*,219,アニタ,Anita,0,Branch,26,Rating 60%,22,Go to 22
 8,*,219,アニタ,Anita,0,Branch,2,HP < 25%,17,Go to 17
@@ -5644,7 +5644,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,220,アニタ,Anita,0,Branch,11,Turn 1,23,Go to 23
 3,*,220,アニタ,Anita,0,Branch,19,Party SP ≤ 50%,5,Go to 5
 4,*,220,アニタ,Anita,0,Branch,28,Rating 80%,21,Go to 21
-5,*,220,アニタ,Anita,0,Branch,5,Magic Dmg. Last Turn?,7,Go to 7
+5,*,220,アニタ,Anita,0,Branch,5,Got Hit by Spell?,7,Go to 7
 6,*,220,アニタ,Anita,0,Branch,30,Always,8,Go to 8
 7,*,220,アニタ,Anita,0,Branch,26,Rating 60%,22,Go to 22
 8,*,220,アニタ,Anita,0,Branch,2,HP < 25%,17,Go to 17
@@ -5687,7 +5687,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,221,アニタ,Anita,0,Branch,11,Turn 1,23,Go to 23
 3,*,221,アニタ,Anita,0,Branch,19,Party SP ≤ 50%,5,Go to 5
 4,*,221,アニタ,Anita,0,Branch,28,Rating 80%,21,Go to 21
-5,*,221,アニタ,Anita,0,Branch,5,Magic Dmg. Last Turn?,7,Go to 7
+5,*,221,アニタ,Anita,0,Branch,5,Got Hit by Spell?,7,Go to 7
 6,*,221,アニタ,Anita,0,Branch,30,Always,8,Go to 8
 7,*,221,アニタ,Anita,0,Branch,26,Rating 60%,22,Go to 22
 8,*,221,アニタ,Anita,0,Branch,2,HP < 25%,17,Go to 17
@@ -5730,7 +5730,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 2,*,222,アニタ,Anita,0,Branch,11,Turn 1,23,Go to 23
 3,*,222,アニタ,Anita,0,Branch,19,Party SP ≤ 50%,5,Go to 5
 4,*,222,アニタ,Anita,0,Branch,28,Rating 80%,21,Go to 21
-5,*,222,アニタ,Anita,0,Branch,5,Magic Dmg. Last Turn?,7,Go to 7
+5,*,222,アニタ,Anita,0,Branch,5,Got Hit by Spell?,7,Go to 7
 6,*,222,アニタ,Anita,0,Branch,30,Always,8,Go to 8
 7,*,222,アニタ,Anita,0,Branch,26,Rating 60%,22,Go to 22
 8,*,222,アニタ,Anita,0,Branch,2,HP < 25%,17,Go to 17
@@ -6639,7 +6639,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 48,ebinit104.dat,232,盗掘王シモン,Lord Bane,1,Action,295,Medicine Box,-1,None
 49,ebinit104.dat,232,盗掘王シモン,Lord Bane,1,Action,296,Vase of Echos,-1,None
 50,ebinit104.dat,232,盗掘王シモン,Lord Bane,1,Action,551,Guard,-1,None
-1,*,233,ガンナーム,Gunarm,0,Branch,68,Charged 2?,27,Go to 27
+1,*,233,ガンナーム,Gunarm,0,Branch,68,Used Target Search?,27,Go to 27
 2,*,233,ガンナーム,Gunarm,0,Branch,2,HP < 25%,13,Go to 13
 3,*,233,ガンナーム,Gunarm,0,Branch,17,ECs Alive = 1,21,Go to 21
 4,*,233,ガンナーム,Gunarm,0,Branch,1,HP < 50%,9,Go to 9
@@ -6669,7 +6669,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 28,*,233,ガンナーム,Gunarm,1,Action,300,Sidewinder,-1,None
 29,*,233,ガンナーム,Gunarm,1,Action,301,Target Search,-1,None
 1,ebinit105.dat,233,ガンナーム,Gunarm,0,Branch,16,Has Silence?,21,Go to 21
-2,ebinit105.dat,233,ガンナーム,Gunarm,0,Branch,68,Charged 2?,22,Go to 22
+2,ebinit105.dat,233,ガンナーム,Gunarm,0,Branch,68,Used Target Search?,22,Go to 22
 3,ebinit105.dat,233,ガンナーム,Gunarm,0,Branch,2,HP < 25%,13,Go to 13
 4,ebinit105.dat,233,ガンナーム,Gunarm,0,Branch,1,HP < 50%,9,Go to 9
 5,ebinit105.dat,233,ガンナーム,Gunarm,0,Branch,22,Rating 20%,20,Go to 20
@@ -6692,7 +6692,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 22,ebinit105.dat,233,ガンナーム,Gunarm,1,Action,299,Rampage,3,PC w/ Most HP
 23,ebinit105.dat,233,ガンナーム,Gunarm,1,Action,300,Sidewinder,-1,None
 24,ebinit105.dat,233,ガンナーム,Gunarm,1,Action,301,Target Search,-1,None
-1,*,234,ガンナーム,Gunarm,0,Branch,68,Charged 2?,27,Go to 27
+1,*,234,ガンナーム,Gunarm,0,Branch,68,Used Target Search?,27,Go to 27
 2,*,234,ガンナーム,Gunarm,0,Branch,2,HP < 25%,13,Go to 13
 3,*,234,ガンナーム,Gunarm,0,Branch,17,ECs Alive = 1,21,Go to 21
 4,*,234,ガンナーム,Gunarm,0,Branch,1,HP < 50%,9,Go to 9
@@ -6722,7 +6722,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 28,*,234,ガンナーム,Gunarm,1,Action,300,Sidewinder,-1,None
 29,*,234,ガンナーム,Gunarm,1,Action,301,Target Search,-1,None
 1,ebinit106.dat,234,ガンナーム,Gunarm,0,Branch,16,Has Silence?,21,Go to 21
-2,ebinit106.dat,234,ガンナーム,Gunarm,0,Branch,68,Charged 2?,22,Go to 22
+2,ebinit106.dat,234,ガンナーム,Gunarm,0,Branch,68,Used Target Search?,22,Go to 22
 3,ebinit106.dat,234,ガンナーム,Gunarm,0,Branch,2,HP < 25%,13,Go to 13
 4,ebinit106.dat,234,ガンナーム,Gunarm,0,Branch,1,HP < 50%,9,Go to 9
 5,ebinit106.dat,234,ガンナーム,Gunarm,0,Branch,22,Rating 20%,20,Go to 20
@@ -6745,7 +6745,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 22,ebinit106.dat,234,ガンナーム,Gunarm,1,Action,299,Rampage,3,PC w/ Most HP
 23,ebinit106.dat,234,ガンナーム,Gunarm,1,Action,300,Sidewinder,-1,None
 24,ebinit106.dat,234,ガンナーム,Gunarm,1,Action,301,Target Search,-1,None
-1,*,235,ガンナーム,Gunarm,0,Branch,68,Charged 2?,27,Go to 27
+1,*,235,ガンナーム,Gunarm,0,Branch,68,Used Target Search?,27,Go to 27
 2,*,235,ガンナーム,Gunarm,0,Branch,2,HP < 25%,13,Go to 13
 3,*,235,ガンナーム,Gunarm,0,Branch,17,ECs Alive = 1,21,Go to 21
 4,*,235,ガンナーム,Gunarm,0,Branch,1,HP < 50%,9,Go to 9
@@ -6775,7 +6775,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 28,*,235,ガンナーム,Gunarm,1,Action,300,Sidewinder,-1,None
 29,*,235,ガンナーム,Gunarm,1,Action,301,Target Search,-1,None
 1,ebinit107.dat,235,ガンナーム,Gunarm,0,Branch,16,Has Silence?,21,Go to 21
-2,ebinit107.dat,235,ガンナーム,Gunarm,0,Branch,68,Charged 2?,22,Go to 22
+2,ebinit107.dat,235,ガンナーム,Gunarm,0,Branch,68,Used Target Search?,22,Go to 22
 3,ebinit107.dat,235,ガンナーム,Gunarm,0,Branch,2,HP < 25%,13,Go to 13
 4,ebinit107.dat,235,ガンナーム,Gunarm,0,Branch,1,HP < 50%,9,Go to 9
 5,ebinit107.dat,235,ガンナーム,Gunarm,0,Branch,22,Rating 20%,20,Go to 20
@@ -6798,7 +6798,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 22,ebinit107.dat,235,ガンナーム,Gunarm,1,Action,299,Rampage,3,PC w/ Most HP
 23,ebinit107.dat,235,ガンナーム,Gunarm,1,Action,300,Sidewinder,-1,None
 24,ebinit107.dat,235,ガンナーム,Gunarm,1,Action,301,Target Search,-1,None
-1,*,236,ガンナーム,Gunarm,0,Branch,68,Charged 2?,27,Go to 27
+1,*,236,ガンナーム,Gunarm,0,Branch,68,Used Target Search?,27,Go to 27
 2,*,236,ガンナーム,Gunarm,0,Branch,2,HP < 25%,13,Go to 13
 3,*,236,ガンナーム,Gunarm,0,Branch,17,ECs Alive = 1,21,Go to 21
 4,*,236,ガンナーム,Gunarm,0,Branch,1,HP < 50%,9,Go to 9
@@ -6828,7 +6828,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 28,*,236,ガンナーム,Gunarm,1,Action,300,Sidewinder,-1,None
 29,*,236,ガンナーム,Gunarm,1,Action,301,Target Search,-1,None
 1,ebinit108.dat,236,ガンナーム,Gunarm,0,Branch,16,Has Silence?,21,Go to 21
-2,ebinit108.dat,236,ガンナーム,Gunarm,0,Branch,68,Charged 2?,22,Go to 22
+2,ebinit108.dat,236,ガンナーム,Gunarm,0,Branch,68,Used Target Search?,22,Go to 22
 3,ebinit108.dat,236,ガンナーム,Gunarm,0,Branch,2,HP < 25%,13,Go to 13
 4,ebinit108.dat,236,ガンナーム,Gunarm,0,Branch,1,HP < 50%,9,Go to 9
 5,ebinit108.dat,236,ガンナーム,Gunarm,0,Branch,22,Rating 20%,20,Go to 20
@@ -6851,7 +6851,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 22,ebinit108.dat,236,ガンナーム,Gunarm,1,Action,299,Rampage,3,PC w/ Most HP
 23,ebinit108.dat,236,ガンナーム,Gunarm,1,Action,300,Sidewinder,-1,None
 24,ebinit108.dat,236,ガンナーム,Gunarm,1,Action,301,Target Search,-1,None
-1,*,237,ガンナーム,Gunarm,0,Branch,68,Charged 2?,27,Go to 27
+1,*,237,ガンナーム,Gunarm,0,Branch,68,Used Target Search?,27,Go to 27
 2,*,237,ガンナーム,Gunarm,0,Branch,2,HP < 25%,13,Go to 13
 3,*,237,ガンナーム,Gunarm,0,Branch,17,ECs Alive = 1,21,Go to 21
 4,*,237,ガンナーム,Gunarm,0,Branch,1,HP < 50%,9,Go to 9
@@ -6881,7 +6881,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 28,*,237,ガンナーム,Gunarm,1,Action,300,Sidewinder,-1,None
 29,*,237,ガンナーム,Gunarm,1,Action,301,Target Search,-1,None
 1,ebinit109.dat,237,ガンナーム,Gunarm,0,Branch,16,Has Silence?,21,Go to 21
-2,ebinit109.dat,237,ガンナーム,Gunarm,0,Branch,68,Charged 2?,22,Go to 22
+2,ebinit109.dat,237,ガンナーム,Gunarm,0,Branch,68,Used Target Search?,22,Go to 22
 3,ebinit109.dat,237,ガンナーム,Gunarm,0,Branch,2,HP < 25%,13,Go to 13
 4,ebinit109.dat,237,ガンナーム,Gunarm,0,Branch,1,HP < 50%,9,Go to 9
 5,ebinit109.dat,237,ガンナーム,Gunarm,0,Branch,22,Rating 20%,20,Go to 20
@@ -7161,7 +7161,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 25,ebinit115.dat,243,デスハウンド,DeathHound,0,Branch,22,Rating 20%,33,Go to 33
 26,ebinit115.dat,243,デスハウンド,DeathHound,0,Branch,23,Rating 30%,36,Go to 36
 27,ebinit115.dat,243,デスハウンド,DeathHound,0,Branch,30,Always,37,Go to 37
-28,ebinit115.dat,243,デスハウンド,DeathHound,0,Branch,36,Used Spells ≥ 2,30,Go to 30
+28,ebinit115.dat,243,デスハウンド,DeathHound,0,Branch,36,Used State Spells ≥ 2,30,Go to 30
 29,ebinit115.dat,243,デスハウンド,DeathHound,0,Branch,30,Always,35,Go to 35
 30,ebinit115.dat,243,デスハウンド,DeathHound,0,Branch,24,Rating 40%,33,Go to 33
 31,ebinit115.dat,243,デスハウンド,DeathHound,0,Branch,25,Rating 50%,34,Go to 34
@@ -7226,7 +7226,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 25,ebinit116.dat,244,デスハウンド,DeathHound,0,Branch,22,Rating 20%,33,Go to 33
 26,ebinit116.dat,244,デスハウンド,DeathHound,0,Branch,23,Rating 30%,36,Go to 36
 27,ebinit116.dat,244,デスハウンド,DeathHound,0,Branch,30,Always,37,Go to 37
-28,ebinit116.dat,244,デスハウンド,DeathHound,0,Branch,36,Used Spells ≥ 2,30,Go to 30
+28,ebinit116.dat,244,デスハウンド,DeathHound,0,Branch,36,Used State Spells ≥ 2,30,Go to 30
 29,ebinit116.dat,244,デスハウンド,DeathHound,0,Branch,30,Always,35,Go to 35
 30,ebinit116.dat,244,デスハウンド,DeathHound,0,Branch,24,Rating 40%,33,Go to 33
 31,ebinit116.dat,244,デスハウンド,DeathHound,0,Branch,25,Rating 50%,34,Go to 34
@@ -7292,7 +7292,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 25,ebinit117.dat,245,デスハウンド,DeathHound,0,Branch,22,Rating 20%,33,Go to 33
 26,ebinit117.dat,245,デスハウンド,DeathHound,0,Branch,23,Rating 30%,36,Go to 36
 27,ebinit117.dat,245,デスハウンド,DeathHound,0,Branch,30,Always,37,Go to 37
-28,ebinit117.dat,245,デスハウンド,DeathHound,0,Branch,36,Used Spells ≥ 2,30,Go to 30
+28,ebinit117.dat,245,デスハウンド,DeathHound,0,Branch,36,Used State Spells ≥ 2,30,Go to 30
 29,ebinit117.dat,245,デスハウンド,DeathHound,0,Branch,30,Always,35,Go to 35
 30,ebinit117.dat,245,デスハウンド,DeathHound,0,Branch,24,Rating 40%,33,Go to 33
 31,ebinit117.dat,245,デスハウンド,DeathHound,0,Branch,25,Rating 50%,34,Go to 34
@@ -7361,7 +7361,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 25,ebinit118.dat,246,デスハウンド,DeathHound,0,Branch,22,Rating 20%,33,Go to 33
 26,ebinit118.dat,246,デスハウンド,DeathHound,0,Branch,23,Rating 30%,36,Go to 36
 27,ebinit118.dat,246,デスハウンド,DeathHound,0,Branch,30,Always,37,Go to 37
-28,ebinit118.dat,246,デスハウンド,DeathHound,0,Branch,36,Used Spells ≥ 2,30,Go to 30
+28,ebinit118.dat,246,デスハウンド,DeathHound,0,Branch,36,Used State Spells ≥ 2,30,Go to 30
 29,ebinit118.dat,246,デスハウンド,DeathHound,0,Branch,30,Always,35,Go to 35
 30,ebinit118.dat,246,デスハウンド,DeathHound,0,Branch,24,Rating 40%,33,Go to 33
 31,ebinit118.dat,246,デスハウンド,DeathHound,0,Branch,25,Rating 50%,34,Go to 34
@@ -7405,7 +7405,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 5,*,249,ボゥ,Boo,0,Branch,22,Rating 20%,15,Go to 15
 6,*,249,ボゥ,Boo,0,Branch,30,Always,10,Go to 10
 7,*,249,ボゥ,Boo,0,Branch,24,Rating 40%,16,Go to 16
-8,*,249,ボゥ,Boo,0,Branch,43,Used Sacri Crystal Line?,10,Go to 10
+8,*,249,ボゥ,Boo,0,Branch,43,Used Sacri Crystals ≥ 2,10,Go to 10
 9,*,249,ボゥ,Boo,0,Branch,22,Rating 20%,16,Go to 16
 10,*,249,ボゥ,Boo,0,Branch,28,Rating 80%,12,Go to 12
 11,*,249,ボゥ,Boo,0,Branch,30,Always,13,Go to 13
@@ -7442,7 +7442,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 5,ebinit122.dat,250,ボゥ,Boo,0,Branch,22,Rating 20%,15,Go to 15
 6,ebinit122.dat,250,ボゥ,Boo,0,Branch,30,Always,10,Go to 10
 7,ebinit122.dat,250,ボゥ,Boo,0,Branch,24,Rating 40%,16,Go to 16
-8,ebinit122.dat,250,ボゥ,Boo,0,Branch,43,Used Sacri Crystal Line?,10,Go to 10
+8,ebinit122.dat,250,ボゥ,Boo,0,Branch,43,Used Sacri Crystals ≥ 2,10,Go to 10
 9,ebinit122.dat,250,ボゥ,Boo,0,Branch,22,Rating 20%,16,Go to 16
 10,ebinit122.dat,250,ボゥ,Boo,0,Branch,28,Rating 80%,12,Go to 12
 11,ebinit122.dat,250,ボゥ,Boo,0,Branch,30,Always,13,Go to 13

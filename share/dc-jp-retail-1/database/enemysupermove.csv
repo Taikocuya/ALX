@@ -45,7 +45,7 @@ Entry ID,JP Entry Name,Pad. 1,Pad. 2,Pad. 3,Pad. 4,Category ID,[Category Name],E
 43,銀色の光と闇,0,0,0,0,0,S-Move,0,Damage,2,All PCs,16,25,5,Silver,0,Physical,0,0,0,Poison,0,0,0
 44,フリムーン,0,0,0,0,0,S-Move,26,Weak,1,Single PC,0,0,0,Green,0,Physical,16,17,8,Weak,0,0,0
 45,ターン回復技,0,0,0,0,0,S-Move,33,Regenerate,5,Self,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-46,銀世界の破滅,0,0,0,0,0,S-Move,17,Rem. Pos. States 2,2,All PCs,16,10,5,Silver,0,Physical,0,0,0,Poison,0,0,0
+46,銀世界の破滅,0,0,0,0,0,S-Move,17,"Damage, Rem. Pos. States",2,All PCs,16,10,5,Silver,0,Physical,0,0,0,Poison,0,0,0
 47,カタカタ震える,0,0,0,0,0,S-Move,-1,None,0,None,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 48,銀の無限凍土,0,0,0,0,0,S-Move,0,Damage,1,Single PC,16,50,5,Silver,0,Physical,0,0,0,Poison,0,0,0
 49,仲間呼ぶ,0,0,0,0,0,S-Move,43,Call EC,0,None,54,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
@@ -64,7 +64,7 @@ Entry ID,JP Entry Name,Pad. 1,Pad. 2,Pad. 3,Pad. 4,Category ID,[Category Name],E
 62,仲間を呼ぶ,0,0,0,0,0,S-Move,43,Call EC,0,None,12,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 63,腹ごなし,0,0,0,0,0,S-Move,-1,None,0,None,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 64,疲労かぶり,0,0,0,0,0,S-Move,72,"Damage, Fatigue",1,Single PC,16,15,2,Purple,0,Physical,16,17,6,Fatigue,20,0,0
-65,ネグローラ,0,0,0,0,0,S-Move,17,Rem. Pos. States 2,2,All PCs,16,5,4,Yellow,0,Physical,-1,-2,-1,None,-2,0,0
+65,ネグローラ,0,0,0,0,0,S-Move,17,"Damage, Rem. Pos. States",2,All PCs,16,5,4,Yellow,0,Physical,-1,-2,-1,None,-2,0,0
 66,フィサーン,0,0,0,0,0,S-Move,0,Damage,2,All PCs,16,20,2,Purple,0,Physical,0,0,0,Poison,0,0,0
 67,仲間を呼ぶ,0,0,0,0,0,S-Move,43,Call EC,0,None,60,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 68,仲間を呼ぶ,0,0,0,0,0,S-Move,43,Call EC,0,None,84,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
@@ -85,7 +85,7 @@ Entry ID,JP Entry Name,Pad. 1,Pad. 2,Pad. 3,Pad. 4,Category ID,[Category Name],E
 83,銀色の悪夢,0,0,0,0,0,S-Move,74,Control PC,1,Single PC,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 84,果てなき銀の呪縛,0,0,0,0,0,S-Move,0,Damage,1,Single PC,16,50,5,Silver,0,Physical,0,0,0,Poison,0,0,0
 85,ターン回復,0,0,0,0,0,S-Move,33,Regenerate,5,Self,0,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
-86,銀世界の終〒,0,0,0,0,0,S-Move,17,Rem. Pos. States 2,2,All PCs,16,25,5,Silver,0,Physical,-1,-2,-1,None,-2,0,0
+86,銀世界の終〒,0,0,0,0,0,S-Move,17,"Damage, Rem. Pos. States",2,All PCs,16,25,5,Silver,0,Physical,-1,-2,-1,None,-2,0,0
 87,仲間を呼ぶ,0,0,0,0,0,S-Move,43,Call EC,0,None,44,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 88,仲間を呼ぶ,0,0,0,0,0,S-Move,43,Call EC,0,None,21,0,0,Green,0,Physical,0,0,0,Poison,0,0,0
 89,仲間を呼ぶ,0,0,0,0,0,S-Move,43,Call EC,0,None,22,0,0,Green,0,Physical,0,0,0,Poison,0,0,0

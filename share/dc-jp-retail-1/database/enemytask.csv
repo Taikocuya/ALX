@@ -2,7 +2,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 1,*,0,軍艦兵,0,Branch,21,Rating 10%,3,Go to 3
 2,*,0,軍艦兵,1,Action,550,Attack,2,Random PC
 3,*,0,軍艦兵,1,Action,551,Guard,-1,None
-1,*,1,航行士,0,Branch,42,Used Sacri Crystal Line?,3,Go to 3
+1,*,1,航行士,0,Branch,42,Used Sacri Crystals ≥ 1,3,Go to 3
 2,*,1,航行士,0,Branch,39,Any EC HP < 25%,5,Go to 5
 3,*,1,航行士,0,Branch,29,Rating 90%,6,Go to 6
 4,*,1,航行士,0,Branch,30,Always,8,Go to 8
@@ -29,9 +29,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 6,*,3,マロッカ,1,Action,551,Guard,-1,None
 7,*,3,マロッカ,1,Action,550,Attack,1,Same PC
 8,*,3,マロッカ,1,Action,552,Run,-1,None
-1,*,4,アーアペプ,0,Branch,33,Used Atk. Spell?,3,Go to 3
+1,*,4,アーアペプ,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
 2,*,4,アーアペプ,0,Branch,22,Rating 20%,10,Go to 10
-3,*,4,アーアペプ,0,Branch,36,Used Spells ≥ 2,5,Go to 5
+3,*,4,アーアペプ,0,Branch,36,Used State Spells ≥ 2,5,Go to 5
 4,*,4,アーアペプ,0,Branch,22,Rating 20%,9,Go to 9
 5,*,4,アーアペプ,0,Branch,23,Rating 30%,11,Go to 11
 6,*,4,アーアペプ,0,Branch,22,Rating 20%,8,Go to 8
@@ -41,9 +41,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 10,*,4,アーアペプ,1,Action,520,ウェイバ,2,Random PC
 11,*,4,アーアペプ,1,Action,57,あやしい音波,2,Random PC
 1,*,7,煌術処刑士,0,Branch,17,ECs Alive = 1,23,Go to 23
-2,*,7,煌術処刑士,0,Branch,35,Used Spells ≥ 1,8,Go to 8
+2,*,7,煌術処刑士,0,Branch,35,Used State Spells ≥ 1,8,Go to 8
 3,*,7,煌術処刑士,0,Branch,24,Rating 40%,18,Go to 18
-4,*,7,煌術処刑士,0,Branch,32,Used Sacri Line?,8,Go to 8
+4,*,7,煌術処刑士,0,Branch,32,Used Sacri Spells ≥ 2,8,Go to 8
 5,*,7,煌術処刑士,0,Branch,39,Any EC HP < 25%,19,Go to 19
 6,*,7,煌術処刑士,0,Branch,11,Turn 1,8,Go to 8
 7,*,7,煌術処刑士,0,Branch,22,Rating 20%,20,Go to 20
@@ -67,7 +67,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,8,レトモニケ,0,Branch,30,Always,4,Go to 4
 3,*,8,レトモニケ,0,Branch,28,Rating 80%,16,Go to 16
 4,*,8,レトモニケ,0,Branch,2,HP < 25%,12,Go to 12
-5,*,8,レトモニケ,0,Branch,4,Dmg. Last Turn?,7,Go to 7
+5,*,8,レトモニケ,0,Branch,4,Got Hit?,7,Go to 7
 6,*,8,レトモニケ,0,Branch,30,Always,9,Go to 9
 7,*,8,レトモニケ,0,Branch,28,Rating 80%,14,Go to 14
 8,*,8,レトモニケ,0,Branch,30,Always,15,Go to 15
@@ -83,7 +83,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,9,レイチア,0,Branch,30,Always,4,Go to 4
 3,*,9,レイチア,0,Branch,29,Rating 90%,16,Go to 16
 4,*,9,レイチア,0,Branch,2,HP < 25%,12,Go to 12
-5,*,9,レイチア,0,Branch,4,Dmg. Last Turn?,7,Go to 7
+5,*,9,レイチア,0,Branch,4,Got Hit?,7,Go to 7
 6,*,9,レイチア,0,Branch,30,Always,9,Go to 9
 7,*,9,レイチア,0,Branch,29,Rating 90%,14,Go to 14
 8,*,9,レイチア,0,Branch,30,Always,16,Go to 16
@@ -98,9 +98,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 1,*,10,カイライ,0,Branch,21,Rating 10%,3,Go to 3
 2,*,10,カイライ,1,Action,550,Attack,1,Same PC
 3,*,10,カイライ,1,Action,551,Guard,-1,None
-1,*,11,フォカラルガ,0,Branch,33,Used Atk. Spell?,3,Go to 3
+1,*,11,フォカラルガ,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
 2,*,11,フォカラルガ,0,Branch,22,Rating 20%,9,Go to 9
-3,*,11,フォカラルガ,0,Branch,35,Used Spells ≥ 1,5,Go to 5
+3,*,11,フォカラルガ,0,Branch,35,Used State Spells ≥ 1,5,Go to 5
 4,*,11,フォカラルガ,0,Branch,22,Rating 20%,8,Go to 8
 5,*,11,フォカラルガ,0,Branch,21,Rating 10%,7,Go to 7
 6,*,11,フォカラルガ,1,Action,550,Attack,2,Random PC
@@ -111,7 +111,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,12,ギジェリガー,0,Branch,30,Always,4,Go to 4
 3,*,12,ギジェリガー,0,Branch,27,Rating 70%,28,Go to 28
 4,*,12,ギジェリガー,0,Branch,17,ECs Alive = 1,20,Go to 20
-5,*,12,ギジェリガー,0,Branch,36,Used Spells ≥ 2,16,Go to 16
+5,*,12,ギジェリガー,0,Branch,36,Used State Spells ≥ 2,16,Go to 16
 6,*,12,ギジェリガー,0,Branch,11,Turn 1,8,Go to 8
 7,*,12,ギジェリガー,0,Branch,30,Always,9,Go to 9
 8,*,12,ギジェリガー,0,Branch,23,Rating 30%,24,Go to 24
@@ -145,7 +145,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 8,*,13,アスフール,0,Branch,25,Rating 50%,16,Go to 16
 9,*,13,アスフール,0,Branch,24,Rating 40%,17,Go to 17
 10,*,13,アスフール,0,Branch,30,Always,18,Go to 18
-11,*,13,アスフール,0,Branch,35,Used Spells ≥ 1,20,Go to 20
+11,*,13,アスフール,0,Branch,35,Used State Spells ≥ 1,20,Go to 20
 12,*,13,アスフール,0,Branch,30,Always,19,Go to 19
 13,*,13,アスフール,1,Action,550,Attack,2,Random PC
 14,*,13,アスフール,1,Action,551,Guard,-1,None
@@ -175,7 +175,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,15,ヌール,0,Branch,30,Always,4,Go to 4
 3,*,15,ヌール,0,Branch,28,Rating 80%,16,Go to 16
 4,*,15,ヌール,0,Branch,0,HP = 100%,7,Go to 7
-5,*,15,ヌール,0,Branch,46,Used HP Absorb 1?,7,Go to 7
+5,*,15,ヌール,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
 6,*,15,ヌール,0,Branch,29,Rating 90%,15,Go to 15
 7,*,15,ヌール,0,Branch,9,???,11,Go to 11
 8,*,15,ヌール,0,Branch,27,Rating 70%,14,Go to 14
@@ -212,9 +212,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,17,ツィツィ,0,Branch,30,Always,4,Go to 4
 3,*,17,ツィツィ,0,Branch,24,Rating 40%,12,Go to 12
 4,*,17,ツィツィ,0,Branch,0,HP = 100%,7,Go to 7
-5,*,17,ツィツィ,0,Branch,46,Used HP Absorb 1?,7,Go to 7
+5,*,17,ツィツィ,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
 6,*,17,ツィツィ,0,Branch,25,Rating 50%,13,Go to 13
-7,*,17,ツィツィ,0,Branch,33,Used Atk. Spell?,9,Go to 9
+7,*,17,ツィツィ,0,Branch,33,Used Atk. Spells ≥ 1,9,Go to 9
 8,*,17,ツィツィ,0,Branch,24,Rating 40%,14,Go to 14
 9,*,17,ツィツィ,0,Branch,21,Rating 10%,12,Go to 12
 10,*,17,ツィツィ,0,Branch,21,Rating 10%,15,Go to 15
@@ -226,7 +226,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 1,*,18,セベスク,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
 2,*,18,セベスク,0,Branch,30,Always,4,Go to 4
 3,*,18,セベスク,0,Branch,24,Rating 40%,13,Go to 13
-4,*,18,セベスク,0,Branch,40,Charged 1?,15,Go to 15
+4,*,18,セベスク,0,Branch,40,Used Gather Strength?,15,Go to 15
 5,*,18,セベスク,0,Branch,11,Turn 1,7,Go to 7
 6,*,18,セベスク,0,Branch,30,Always,8,Go to 8
 7,*,18,セベスク,0,Branch,25,Rating 50%,14,Go to 14
@@ -250,7 +250,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,20,イルドゥス,0,Branch,30,Always,4,Go to 4
 3,*,20,イルドゥス,0,Branch,28,Rating 80%,16,Go to 16
 4,*,20,イルドゥス,0,Branch,2,HP < 25%,12,Go to 12
-5,*,20,イルドゥス,0,Branch,4,Dmg. Last Turn?,7,Go to 7
+5,*,20,イルドゥス,0,Branch,4,Got Hit?,7,Go to 7
 6,*,20,イルドゥス,0,Branch,30,Always,9,Go to 9
 7,*,20,イルドゥス,0,Branch,28,Rating 80%,14,Go to 14
 8,*,20,イルドゥス,0,Branch,30,Always,15,Go to 15
@@ -262,7 +262,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 14,*,20,イルドゥス,1,Action,550,Attack,1,Same PC
 15,*,20,イルドゥス,1,Action,551,Guard,-1,None
 16,*,20,イルドゥス,1,Action,552,Run,-1,None
-1,*,21,ベルクロード,0,Branch,36,Used Spells ≥ 2,9,Go to 9
+1,*,21,ベルクロード,0,Branch,36,Used State Spells ≥ 2,9,Go to 9
 2,*,21,ベルクロード,0,Branch,11,Turn 1,4,Go to 4
 3,*,21,ベルクロード,0,Branch,30,Always,5,Go to 5
 4,*,21,ベルクロード,0,Branch,22,Rating 20%,15,Go to 15
@@ -280,7 +280,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 16,*,21,ベルクロード,1,Action,510,プワザ,16,PC w/o Sleep
 17,*,21,ベルクロード,1,Action,88,仲間を呼ぶ,-1,None
 18,*,21,ベルクロード,1,Action,115,仲間を呼ぶ,-1,None
-1,*,22,ベルハウンド,0,Branch,36,Used Spells ≥ 2,9,Go to 9
+1,*,22,ベルハウンド,0,Branch,36,Used State Spells ≥ 2,9,Go to 9
 2,*,22,ベルハウンド,0,Branch,11,Turn 1,4,Go to 4
 3,*,22,ベルハウンド,0,Branch,30,Always,5,Go to 5
 4,*,22,ベルハウンド,0,Branch,22,Rating 20%,15,Go to 15
@@ -313,9 +313,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,*,23,ガトー,1,Action,552,Run,-1,None
 14,*,23,ガトー,1,Action,513,クイッカ,-1,None
 15,*,23,ガトー,1,Action,551,Guard,-1,None
-1,*,24,デシェレト,0,Branch,41,Charged 1?,9,Go to 9
+1,*,24,デシェレト,0,Branch,41,Used Tremble?,9,Go to 9
 2,*,24,デシェレト,0,Branch,2,HP < 25%,7,Go to 7
-3,*,24,デシェレト,0,Branch,5,Magic Dmg. Last Turn?,8,Go to 8
+3,*,24,デシェレト,0,Branch,5,Got Hit by Spell?,8,Go to 8
 4,*,24,デシェレト,0,Branch,1,HP < 50%,8,Go to 8
 5,*,24,デシェレト,0,Branch,24,Rating 40%,8,Go to 8
 6,*,24,デシェレト,0,Branch,21,Rating 10%,10,Go to 10
@@ -323,7 +323,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 8,*,24,デシェレト,1,Action,47,カタカタ震える,-1,None
 9,*,24,デシェレト,1,Action,180,ファラオの業火,1,Same PC
 10,*,24,デシェレト,1,Action,551,Guard,-1,None
-1,*,25,イアールト,0,Branch,33,Used Atk. Spell?,5,Go to 5
+1,*,25,イアールト,0,Branch,33,Used Atk. Spells ≥ 1,5,Go to 5
 2,*,25,イアールト,0,Branch,28,Rating 80%,9,Go to 9
 3,*,25,イアールト,0,Branch,25,Rating 50%,10,Go to 10
 4,*,25,イアールト,0,Branch,30,Always,13,Go to 13
@@ -340,7 +340,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,26,パラミス,0,Branch,30,Always,4,Go to 4
 3,*,26,パラミス,0,Branch,29,Rating 90%,16,Go to 16
 4,*,26,パラミス,0,Branch,2,HP < 25%,12,Go to 12
-5,*,26,パラミス,0,Branch,4,Dmg. Last Turn?,7,Go to 7
+5,*,26,パラミス,0,Branch,4,Got Hit?,7,Go to 7
 6,*,26,パラミス,0,Branch,30,Always,9,Go to 9
 7,*,26,パラミス,0,Branch,29,Rating 90%,14,Go to 14
 8,*,26,パラミス,0,Branch,30,Always,16,Go to 16
@@ -353,7 +353,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 15,*,26,パラミス,1,Action,551,Guard,-1,None
 16,*,26,パラミス,1,Action,552,Run,-1,None
 1,*,27,コロガス,0,Branch,17,ECs Alive = 1,15,Go to 15
-2,*,27,コロガス,0,Branch,36,Used Spells ≥ 2,10,Go to 10
+2,*,27,コロガス,0,Branch,36,Used State Spells ≥ 2,10,Go to 10
 3,*,27,コロガス,0,Branch,22,Rating 20%,19,Go to 19
 4,*,27,コロガス,0,Branch,23,Rating 30%,20,Go to 20
 5,*,27,コロガス,0,Branch,24,Rating 40%,18,Go to 18
@@ -386,7 +386,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,29,エルモ,0,Branch,25,Rating 50%,9,Go to 9
 3,*,29,エルモ,0,Branch,24,Rating 40%,7,Go to 7
 4,*,29,エルモ,0,Branch,23,Rating 30%,8,Go to 8
-5,*,29,エルモ,0,Branch,33,Used Atk. Spell?,11,Go to 11
+5,*,29,エルモ,0,Branch,33,Used Atk. Spells ≥ 1,11,Go to 11
 6,*,29,エルモ,0,Branch,30,Always,10,Go to 10
 7,*,29,エルモ,1,Action,550,Attack,2,Random PC
 8,*,29,エルモ,1,Action,551,Guard,-1,None
@@ -428,7 +428,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,32,調査兵,1,Action,550,Attack,2,Random PC
 4,*,32,調査兵,1,Action,70,手りゅう弾,2,Random PC
 5,*,32,調査兵,1,Action,551,Guard,-1,None
-1,*,33,ガランガラン,0,Branch,34,Used Atk. Spell?,3,Go to 3
+1,*,33,ガランガラン,0,Branch,34,Used Atk. Spells ≥ 2,3,Go to 3
 2,*,33,ガランガラン,0,Branch,22,Rating 20%,7,Go to 7
 3,*,33,ガランガラン,0,Branch,26,Rating 60%,6,Go to 6
 4,*,33,ガランガラン,0,Branch,28,Rating 80%,8,Go to 8
@@ -446,7 +446,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 7,*,34,マブルール,0,Branch,1,HP < 50%,9,Go to 9
 8,*,34,マブルール,0,Branch,30,Always,10,Go to 10
 9,*,34,マブルール,0,Branch,24,Rating 40%,18,Go to 18
-10,*,34,マブルール,0,Branch,35,Used Spells ≥ 1,12,Go to 12
+10,*,34,マブルール,0,Branch,35,Used State Spells ≥ 1,12,Go to 12
 11,*,34,マブルール,0,Branch,22,Rating 20%,19,Go to 19
 12,*,34,マブルール,0,Branch,22,Rating 20%,18,Go to 18
 13,*,34,マブルール,0,Branch,27,Rating 70%,16,Go to 16
@@ -460,12 +460,12 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 1,*,35,クチュ,0,Branch,45,1st PC ΔLV > 7,3,Go to 3
 2,*,35,クチュ,0,Branch,30,Always,4,Go to 4
 3,*,35,クチュ,0,Branch,28,Rating 80%,15,Go to 15
-4,*,35,クチュ,0,Branch,32,Used Sacri Line?,8,Go to 8
+4,*,35,クチュ,0,Branch,32,Used Sacri Spells ≥ 2,8,Go to 8
 5,*,35,クチュ,0,Branch,38,Any EC HP < 50%,7,Go to 7
 6,*,35,クチュ,0,Branch,30,Always,8,Go to 8
 7,*,35,クチュ,0,Branch,24,Rating 40%,13,Go to 13
 8,*,35,クチュ,0,Branch,21,Rating 10%,14,Go to 14
-9,*,35,クチュ,0,Branch,34,Used Atk. Spell?,11,Go to 11
+9,*,35,クチュ,0,Branch,34,Used Atk. Spells ≥ 2,11,Go to 11
 10,*,35,クチュ,0,Branch,23,Rating 30%,12,Go to 12
 11,*,35,クチュ,1,Action,550,Attack,2,Random PC
 12,*,35,クチュ,1,Action,524,バーニィ,-1,None
@@ -525,7 +525,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,41,エルモンテ,0,Branch,25,Rating 50%,10,Go to 10
 3,*,41,エルモンテ,0,Branch,24,Rating 40%,8,Go to 8
 4,*,41,エルモンテ,0,Branch,23,Rating 30%,9,Go to 9
-5,*,41,エルモンテ,0,Branch,31,Used Sacri Line?,12,Go to 12
+5,*,41,エルモンテ,0,Branch,31,Used Sacri Spells ≥ 1,12,Go to 12
 6,*,41,エルモンテ,0,Branch,11,Turn 1,8,Go to 8
 7,*,41,エルモンテ,0,Branch,30,Always,11,Go to 11
 8,*,41,エルモンテ,1,Action,550,Attack,2,Random PC
@@ -551,7 +551,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,44,プジョット,0,Branch,30,Always,4,Go to 4
 3,*,44,プジョット,0,Branch,27,Rating 70%,28,Go to 28
 4,*,44,プジョット,0,Branch,17,ECs Alive = 1,20,Go to 20
-5,*,44,プジョット,0,Branch,36,Used Spells ≥ 2,16,Go to 16
+5,*,44,プジョット,0,Branch,36,Used State Spells ≥ 2,16,Go to 16
 6,*,44,プジョット,0,Branch,11,Turn 1,8,Go to 8
 7,*,44,プジョット,0,Branch,30,Always,9,Go to 9
 8,*,44,プジョット,0,Branch,23,Rating 30%,24,Go to 24
@@ -621,7 +621,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 7,*,47,プラニナ,0,Branch,1,HP < 50%,9,Go to 9
 8,*,47,プラニナ,0,Branch,30,Always,10,Go to 10
 9,*,47,プラニナ,0,Branch,24,Rating 40%,18,Go to 18
-10,*,47,プラニナ,0,Branch,35,Used Spells ≥ 1,12,Go to 12
+10,*,47,プラニナ,0,Branch,35,Used State Spells ≥ 1,12,Go to 12
 11,*,47,プラニナ,0,Branch,22,Rating 20%,19,Go to 19
 12,*,47,プラニナ,0,Branch,22,Rating 20%,18,Go to 18
 13,*,47,プラニナ,0,Branch,27,Rating 70%,16,Go to 16
@@ -668,9 +668,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 6,*,50,ブブロッカ,1,Action,551,Guard,-1,None
 7,*,50,ブブロッカ,1,Action,550,Attack,1,Same PC
 8,*,50,ブブロッカ,1,Action,552,Run,-1,None
-1,*,51,アイガムハ,0,Branch,33,Used Atk. Spell?,3,Go to 3
+1,*,51,アイガムハ,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
 2,*,51,アイガムハ,0,Branch,22,Rating 20%,10,Go to 10
-3,*,51,アイガムハ,0,Branch,36,Used Spells ≥ 2,5,Go to 5
+3,*,51,アイガムハ,0,Branch,36,Used State Spells ≥ 2,5,Go to 5
 4,*,51,アイガムハ,0,Branch,22,Rating 20%,9,Go to 9
 5,*,51,アイガムハ,0,Branch,23,Rating 30%,11,Go to 11
 6,*,51,アイガムハ,0,Branch,22,Rating 20%,8,Go to 8
@@ -723,7 +723,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 4,*,54,カネヅル,0,Branch,44,1st PC ΔLV > 3,6,Go to 6
 5,*,54,カネヅル,0,Branch,30,Always,7,Go to 7
 6,*,54,カネヅル,0,Branch,25,Rating 50%,23,Go to 23
-7,*,54,カネヅル,0,Branch,31,Used Sacri Line?,14,Go to 14
+7,*,54,カネヅル,0,Branch,31,Used Sacri Spells ≥ 1,14,Go to 14
 8,*,54,カネヅル,0,Branch,39,Any EC HP < 25%,11,Go to 11
 9,*,54,カネヅル,0,Branch,38,Any EC HP < 50%,12,Go to 12
 10,*,54,カネヅル,0,Branch,30,Always,14,Go to 14
@@ -745,7 +745,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 26,*,54,カネヅル,1,Action,49,仲間呼ぶ,-1,None
 27,*,54,カネヅル,1,Action,100,Ж術？,-1,None
 28,*,54,カネヅル,1,Action,113,仲間を呼ぶ,-1,None
-1,*,55,メメゾーレ,0,Branch,34,Used Atk. Spell?,3,Go to 3
+1,*,55,メメゾーレ,0,Branch,34,Used Atk. Spells ≥ 2,3,Go to 3
 2,*,55,メメゾーレ,0,Branch,22,Rating 20%,7,Go to 7
 3,*,55,メメゾーレ,0,Branch,26,Rating 60%,6,Go to 6
 4,*,55,メメゾーレ,0,Branch,28,Rating 80%,8,Go to 8
@@ -754,18 +754,18 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 7,*,55,メメゾーレ,1,Action,525,バーネス,-1,None
 8,*,55,メメゾーレ,1,Action,40,疲労かぶり,1,Same PC
 9,*,55,メメゾーレ,1,Action,551,Guard,-1,None
-1,*,56,ヒュドラ煌兵,0,Branch,51,Charged 1?,18,Go to 18
+1,*,56,ヒュドラ煌兵,0,Branch,51,Used Focus?,18,Go to 18
 2,*,56,ヒュドラ煌兵,0,Branch,11,Turn 1,5,Go to 5
 3,*,56,ヒュドラ煌兵,0,Branch,12,Turn 2,5,Go to 5
 4,*,56,ヒュドラ煌兵,0,Branch,30,Always,12,Go to 12
-5,*,56,ヒュドラ煌兵,0,Branch,35,Used Spells ≥ 1,7,Go to 7
+5,*,56,ヒュドラ煌兵,0,Branch,35,Used State Spells ≥ 1,7,Go to 7
 6,*,56,ヒュドラ煌兵,0,Branch,23,Rating 30%,22,Go to 22
 7,*,56,ヒュドラ煌兵,0,Branch,21,Rating 10%,27,Go to 27
 8,*,56,ヒュドラ煌兵,0,Branch,21,Rating 10%,20,Go to 20
 9,*,56,ヒュドラ煌兵,0,Branch,21,Rating 10%,21,Go to 21
 10,*,56,ヒュドラ煌兵,0,Branch,25,Rating 50%,25,Go to 25
 11,*,56,ヒュドラ煌兵,0,Branch,30,Always,26,Go to 26
-12,*,56,ヒュドラ煌兵,0,Branch,31,Used Sacri Line?,7,Go to 7
+12,*,56,ヒュドラ煌兵,0,Branch,31,Used Sacri Spells ≥ 1,7,Go to 7
 13,*,56,ヒュドラ煌兵,0,Branch,1,HP < 50%,16,Go to 16
 14,*,56,ヒュドラ煌兵,0,Branch,39,Any EC HP < 25%,16,Go to 16
 15,*,56,ヒュドラ煌兵,0,Branch,30,Always,7,Go to 7
@@ -781,7 +781,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 25,*,56,ヒュドラ煌兵,1,Action,529,グラゾーバ,2,Random PC
 26,*,56,ヒュドラ煌兵,1,Action,535,ボルドーラ,2,Random PC
 27,*,56,ヒュドラ煌兵,1,Action,37,ガッツ,-1,None
-1,*,57,イラブ,0,Branch,33,Used Atk. Spell?,5,Go to 5
+1,*,57,イラブ,0,Branch,33,Used Atk. Spells ≥ 1,5,Go to 5
 2,*,57,イラブ,0,Branch,26,Rating 60%,9,Go to 9
 3,*,57,イラブ,0,Branch,28,Rating 80%,10,Go to 10
 4,*,57,イラブ,0,Branch,30,Always,13,Go to 13
@@ -798,7 +798,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,58,ゴーヤエルモ,0,Branch,25,Rating 50%,9,Go to 9
 3,*,58,ゴーヤエルモ,0,Branch,24,Rating 40%,7,Go to 7
 4,*,58,ゴーヤエルモ,0,Branch,23,Rating 30%,8,Go to 8
-5,*,58,ゴーヤエルモ,0,Branch,35,Used Spells ≥ 1,11,Go to 11
+5,*,58,ゴーヤエルモ,0,Branch,35,Used State Spells ≥ 1,11,Go to 11
 6,*,58,ゴーヤエルモ,0,Branch,30,Always,10,Go to 10
 7,*,58,ゴーヤエルモ,1,Action,550,Attack,2,Random PC
 8,*,58,ゴーヤエルモ,1,Action,551,Guard,-1,None
@@ -830,7 +830,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 7,*,61,ヴィヒム,0,Branch,1,HP < 50%,9,Go to 9
 8,*,61,ヴィヒム,0,Branch,30,Always,10,Go to 10
 9,*,61,ヴィヒム,0,Branch,26,Rating 60%,18,Go to 18
-10,*,61,ヴィヒム,0,Branch,35,Used Spells ≥ 1,12,Go to 12
+10,*,61,ヴィヒム,0,Branch,35,Used State Spells ≥ 1,12,Go to 12
 11,*,61,ヴィヒム,0,Branch,24,Rating 40%,19,Go to 19
 12,*,61,ヴィヒム,0,Branch,23,Rating 30%,18,Go to 18
 13,*,61,ヴィヒム,0,Branch,27,Rating 70%,16,Go to 16
@@ -841,7 +841,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 18,*,61,ヴィヒム,1,Action,270,自爆,-1,None
 19,*,61,ヴィヒム,1,Action,518,ジェデス,1,Same PC
 20,*,61,ヴィヒム,1,Action,100,Ж術？,-1,None
-1,*,62,ヒュドラ将兵,0,Branch,5,Magic Dmg. Last Turn?,12,Go to 12
+1,*,62,ヒュドラ将兵,0,Branch,5,Got Hit by Spell?,12,Go to 12
 2,*,62,ヒュドラ将兵,0,Branch,38,Any EC HP < 50%,8,Go to 8
 3,*,62,ヒュドラ将兵,0,Branch,25,Rating 50%,15,Go to 15
 4,*,62,ヒュドラ将兵,0,Branch,24,Rating 40%,17,Go to 17
@@ -850,7 +850,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 7,*,62,ヒュドラ将兵,0,Branch,30,Always,16,Go to 16
 8,*,62,ヒュドラ将兵,0,Branch,23,Rating 30%,18,Go to 18
 9,*,62,ヒュドラ将兵,0,Branch,24,Rating 40%,17,Go to 17
-10,*,62,ヒュドラ将兵,0,Branch,31,Used Sacri Line?,12,Go to 12
+10,*,62,ヒュドラ将兵,0,Branch,31,Used Sacri Spells ≥ 1,12,Go to 12
 11,*,62,ヒュドラ将兵,0,Branch,30,Always,16,Go to 16
 12,*,62,ヒュドラ将兵,0,Branch,24,Rating 40%,15,Go to 15
 13,*,62,ヒュドラ将兵,0,Branch,25,Rating 50%,17,Go to 17
@@ -867,9 +867,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 5,*,63,シュリヌール,0,Branch,30,Always,7,Go to 7
 6,*,63,シュリヌール,0,Branch,24,Rating 40%,17,Go to 17
 7,*,63,シュリヌール,0,Branch,0,HP = 100%,10,Go to 10
-8,*,63,シュリヌール,0,Branch,46,Used HP Absorb 1?,10,Go to 10
+8,*,63,シュリヌール,0,Branch,46,Used HP Absorbs ≥ 1,10,Go to 10
 9,*,63,シュリヌール,0,Branch,29,Rating 90%,19,Go to 19
-10,*,63,シュリヌール,0,Branch,34,Used Atk. Spell?,12,Go to 12
+10,*,63,シュリヌール,0,Branch,34,Used Atk. Spells ≥ 2,12,Go to 12
 11,*,63,シュリヌール,0,Branch,23,Rating 30%,21,Go to 21
 12,*,63,シュリヌール,0,Branch,22,Rating 20%,22,Go to 22
 13,*,63,シュリヌール,0,Branch,23,Rating 30%,20,Go to 20
@@ -890,16 +890,16 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 6,*,64,デモンヌール,0,Branch,22,Rating 20%,23,Go to 23
 7,*,64,デモンヌール,0,Branch,17,ECs Alive = 1,9,Go to 9
 8,*,64,デモンヌール,0,Branch,30,Always,11,Go to 11
-9,*,64,デモンヌール,0,Branch,35,Used Spells ≥ 1,11,Go to 11
+9,*,64,デモンヌール,0,Branch,35,Used State Spells ≥ 1,11,Go to 11
 10,*,64,デモンヌール,0,Branch,25,Rating 50%,25,Go to 25
 11,*,64,デモンヌール,0,Branch,0,HP = 100%,14,Go to 14
-12,*,64,デモンヌール,0,Branch,46,Used HP Absorb 1?,14,Go to 14
+12,*,64,デモンヌール,0,Branch,46,Used HP Absorbs ≥ 1,14,Go to 14
 13,*,64,デモンヌール,0,Branch,25,Rating 50%,24,Go to 24
 14,*,64,デモンヌール,0,Branch,25,Rating 50%,21,Go to 21
 15,*,64,デモンヌール,0,Branch,24,Rating 40%,22,Go to 22
 16,*,64,デモンヌール,0,Branch,65,PCs Alive ≤ 4,18,Go to 18
 17,*,64,デモンヌール,0,Branch,30,Always,26,Go to 26
-18,*,64,デモンヌール,0,Branch,35,Used Spells ≥ 1,26,Go to 26
+18,*,64,デモンヌール,0,Branch,35,Used State Spells ≥ 1,26,Go to 26
 19,*,64,デモンヌール,0,Branch,24,Rating 40%,25,Go to 25
 20,*,64,デモンヌール,0,Branch,24,Rating 40%,26,Go to 26
 21,*,64,デモンヌール,1,Action,550,Attack,2,Random PC
@@ -908,13 +908,13 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 24,*,64,デモンヌール,1,Action,210,ＨＰ吸収,3,PC w/ Most HP
 25,*,64,デモンヌール,1,Action,519,ジェドーサ,2,Random PC
 26,*,64,デモンヌール,1,Action,100,Ж術？,-1,None
-1,*,65,マウルティア,0,Branch,36,Used Spells ≥ 2,7,Go to 7
+1,*,65,マウルティア,0,Branch,36,Used State Spells ≥ 2,7,Go to 7
 2,*,65,マウルティア,0,Branch,11,Turn 1,5,Go to 5
 3,*,65,マウルティア,0,Branch,12,Turn 2,5,Go to 5
 4,*,65,マウルティア,0,Branch,30,Always,6,Go to 6
 5,*,65,マウルティア,0,Branch,22,Rating 20%,17,Go to 17
 6,*,65,マウルティア,0,Branch,21,Rating 10%,17,Go to 17
-7,*,65,マウルティア,0,Branch,47,Used HP Absorb 2?,13,Go to 13
+7,*,65,マウルティア,0,Branch,47,Used HP Absorbs ≥ 2,13,Go to 13
 8,*,65,マウルティア,0,Branch,2,HP < 25%,11,Go to 11
 9,*,65,マウルティア,0,Branch,0,HP = 100%,13,Go to 13
 10,*,65,マウルティア,0,Branch,30,Always,12,Go to 12
@@ -926,9 +926,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 16,*,65,マウルティア,1,Action,551,Guard,-1,None
 17,*,65,マウルティア,1,Action,505,ダウノス,-1,None
 18,*,65,マウルティア,1,Action,212,ＨＰ吸収,3,PC w/ Most HP
-1,*,66,ギャルブ,0,Branch,33,Used Atk. Spell?,3,Go to 3
+1,*,66,ギャルブ,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
 2,*,66,ギャルブ,0,Branch,22,Rating 20%,9,Go to 9
-3,*,66,ギャルブ,0,Branch,35,Used Spells ≥ 1,5,Go to 5
+3,*,66,ギャルブ,0,Branch,35,Used State Spells ≥ 1,5,Go to 5
 4,*,66,ギャルブ,0,Branch,22,Rating 20%,8,Go to 8
 5,*,66,ギャルブ,0,Branch,21,Rating 10%,7,Go to 7
 6,*,66,ギャルブ,1,Action,550,Attack,2,Random PC
@@ -967,7 +967,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 5,*,71,テンコウ,0,Branch,22,Rating 20%,15,Go to 15
 6,*,71,テンコウ,0,Branch,30,Always,10,Go to 10
 7,*,71,テンコウ,0,Branch,24,Rating 40%,16,Go to 16
-8,*,71,テンコウ,0,Branch,43,Used Sacri Crystal Line?,10,Go to 10
+8,*,71,テンコウ,0,Branch,43,Used Sacri Crystals ≥ 2,10,Go to 10
 9,*,71,テンコウ,0,Branch,22,Rating 20%,16,Go to 16
 10,*,71,テンコウ,0,Branch,28,Rating 80%,12,Go to 12
 11,*,71,テンコウ,0,Branch,30,Always,13,Go to 13
@@ -986,9 +986,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 8,*,72,警備士,0,Branch,25,Rating 50%,16,Go to 16
 9,*,72,警備士,0,Branch,25,Rating 50%,11,Go to 11
 10,*,72,警備士,0,Branch,30,Always,13,Go to 13
-11,*,72,警備士,0,Branch,33,Used Atk. Spell?,15,Go to 15
+11,*,72,警備士,0,Branch,33,Used Atk. Spells ≥ 1,15,Go to 15
 12,*,72,警備士,0,Branch,30,Always,18,Go to 18
-13,*,72,警備士,0,Branch,42,Used Sacri Crystal Line?,15,Go to 15
+13,*,72,警備士,0,Branch,42,Used Sacri Crystals ≥ 1,15,Go to 15
 14,*,72,警備士,0,Branch,30,Always,19,Go to 19
 15,*,72,警備士,1,Action,550,Attack,2,Random PC
 16,*,72,警備士,1,Action,551,Guard,-1,None
@@ -1003,7 +1003,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 6,*,73,採掘士,0,Branch,21,Rating 10%,13,Go to 13
 7,*,73,採掘士,0,Branch,26,Rating 60%,11,Go to 11
 8,*,73,採掘士,0,Branch,24,Rating 40%,12,Go to 12
-9,*,73,採掘士,0,Branch,33,Used Atk. Spell?,11,Go to 11
+9,*,73,採掘士,0,Branch,33,Used Atk. Spells ≥ 1,11,Go to 11
 10,*,73,採掘士,0,Branch,30,Always,14,Go to 14
 11,*,73,採掘士,1,Action,550,Attack,2,Random PC
 12,*,73,採掘士,1,Action,551,Guard,-1,None
@@ -1043,9 +1043,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 16,*,75,デ式レーダー,1,Action,112,仲間を呼ぶ,-1,None
 17,*,75,デ式レーダー,1,Action,160,レーダーサーチ,-1,None
 1,*,76,ヒュドラ機兵,1,Action,550,Attack,2,Random PC
-1,*,77,テンペリオス,0,Branch,48,Charged 2?,9,Go to 9
+1,*,77,テンペリオス,0,Branch,48,Used Target Search?,9,Go to 9
 2,*,77,テンペリオス,0,Branch,11,Turn 1,12,Go to 12
-3,*,77,テンペリオス,0,Branch,5,Magic Dmg. Last Turn?,12,Go to 12
+3,*,77,テンペリオス,0,Branch,5,Got Hit by Spell?,12,Go to 12
 4,*,77,テンペリオス,0,Branch,23,Rating 30%,12,Go to 12
 5,*,77,テンペリオス,0,Branch,22,Rating 20%,13,Go to 13
 6,*,77,テンペリオス,0,Branch,22,Rating 20%,14,Go to 14
@@ -1114,7 +1114,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 1,*,83,ギラロッシ,0,Branch,11,Turn 1,3,Go to 3
 2,*,83,ギラロッシ,0,Branch,30,Always,4,Go to 4
 3,*,83,ギラロッシ,0,Branch,25,Rating 50%,15,Go to 15
-4,*,83,ギラロッシ,0,Branch,47,Used HP Absorb 2?,10,Go to 10
+4,*,83,ギラロッシ,0,Branch,47,Used HP Absorbs ≥ 2,10,Go to 10
 5,*,83,ギラロッシ,0,Branch,2,HP < 25%,8,Go to 8
 6,*,83,ギラロッシ,0,Branch,0,HP = 100%,10,Go to 10
 7,*,83,ギラロッシ,0,Branch,30,Always,9,Go to 9
@@ -1137,7 +1137,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 7,*,84,シデンクワイ,0,Branch,30,Always,13,Go to 13
 8,*,84,シデンクワイ,0,Branch,27,Rating 70%,16,Go to 16
 9,*,84,シデンクワイ,0,Branch,30,Always,17,Go to 17
-10,*,84,シデンクワイ,0,Branch,33,Used Atk. Spell?,12,Go to 12
+10,*,84,シデンクワイ,0,Branch,33,Used Atk. Spells ≥ 1,12,Go to 12
 11,*,84,シデンクワイ,0,Branch,30,Always,15,Go to 15
 12,*,84,シデンクワイ,1,Action,550,Attack,2,Random PC
 13,*,84,シデンクワイ,1,Action,551,Guard,-1,None
@@ -1151,7 +1151,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 4,*,85,イモヅル,0,Branch,44,1st PC ΔLV > 3,6,Go to 6
 5,*,85,イモヅル,0,Branch,30,Always,7,Go to 7
 6,*,85,イモヅル,0,Branch,25,Rating 50%,23,Go to 23
-7,*,85,イモヅル,0,Branch,31,Used Sacri Line?,15,Go to 15
+7,*,85,イモヅル,0,Branch,31,Used Sacri Spells ≥ 1,15,Go to 15
 8,*,85,イモヅル,0,Branch,39,Any EC HP < 25%,11,Go to 11
 9,*,85,イモヅル,0,Branch,38,Any EC HP < 50%,12,Go to 12
 10,*,85,イモヅル,0,Branch,30,Always,15,Go to 15
@@ -1180,7 +1180,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 5,*,86,ブライヌール,0,Branch,30,Always,7,Go to 7
 6,*,86,ブライヌール,0,Branch,24,Rating 40%,15,Go to 15
 7,*,86,ブライヌール,0,Branch,0,HP = 100%,10,Go to 10
-8,*,86,ブライヌール,0,Branch,46,Used HP Absorb 1?,10,Go to 10
+8,*,86,ブライヌール,0,Branch,46,Used HP Absorbs ≥ 1,10,Go to 10
 9,*,86,ブライヌール,0,Branch,26,Rating 60%,17,Go to 17
 10,*,86,ブライヌール,0,Branch,50,Used S-Move Last Turn?,12,Go to 12
 11,*,86,ブライヌール,0,Branch,23,Rating 30%,18,Go to 18
@@ -1223,7 +1223,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 5,*,89,アークエルモ,0,Branch,25,Rating 50%,12,Go to 12
 6,*,89,アークエルモ,0,Branch,24,Rating 40%,9,Go to 9
 7,*,89,アークエルモ,0,Branch,23,Rating 30%,10,Go to 10
-8,*,89,アークエルモ,0,Branch,33,Used Atk. Spell?,13,Go to 13
+8,*,89,アークエルモ,0,Branch,33,Used Atk. Spells ≥ 1,13,Go to 13
 9,*,89,アークエルモ,1,Action,550,Attack,2,Random PC
 10,*,89,アークエルモ,1,Action,551,Guard,-1,None
 11,*,89,アークエルモ,1,Action,552,Run,-1,None
@@ -1233,9 +1233,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,90,キュキュ,0,Branch,30,Always,4,Go to 4
 3,*,90,キュキュ,0,Branch,24,Rating 40%,12,Go to 12
 4,*,90,キュキュ,0,Branch,0,HP = 100%,7,Go to 7
-5,*,90,キュキュ,0,Branch,46,Used HP Absorb 1?,7,Go to 7
+5,*,90,キュキュ,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
 6,*,90,キュキュ,0,Branch,25,Rating 50%,13,Go to 13
-7,*,90,キュキュ,0,Branch,33,Used Atk. Spell?,9,Go to 9
+7,*,90,キュキュ,0,Branch,33,Used Atk. Spells ≥ 1,9,Go to 9
 8,*,90,キュキュ,0,Branch,24,Rating 40%,14,Go to 14
 9,*,90,キュキュ,0,Branch,21,Rating 10%,12,Go to 12
 10,*,90,キュキュ,0,Branch,21,Rating 10%,15,Go to 15
@@ -1244,7 +1244,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,*,90,キュキュ,1,Action,211,ＨＰ吸収,3,PC w/ Most HP
 14,*,90,キュキュ,1,Action,533,ボルティ,2,Random PC
 15,*,90,キュキュ,1,Action,551,Guard,-1,None
-1,*,91,デ式レイバー,0,Branch,52,Charged 1?,12,Go to 12
+1,*,91,デ式レイバー,0,Branch,52,Used Charge,12,Go to 12
 2,*,91,デ式レイバー,0,Branch,11,Turn 1,6,Go to 6
 3,*,91,デ式レイバー,0,Branch,27,Rating 70%,9,Go to 9
 4,*,91,デ式レイバー,0,Branch,24,Rating 40%,10,Go to 10
@@ -1274,7 +1274,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 16,*,92,ランギット,1,Action,552,Run,-1,None
 17,*,92,ランギット,1,Action,551,Guard,-1,None
 1,*,93,ヘベレル,0,Branch,17,ECs Alive = 1,15,Go to 15
-2,*,93,ヘベレル,0,Branch,36,Used Spells ≥ 2,10,Go to 10
+2,*,93,ヘベレル,0,Branch,36,Used State Spells ≥ 2,10,Go to 10
 3,*,93,ヘベレル,0,Branch,22,Rating 20%,19,Go to 19
 4,*,93,ヘベレル,0,Branch,23,Rating 30%,20,Go to 20
 5,*,93,ヘベレル,0,Branch,24,Rating 40%,18,Go to 18
@@ -1309,7 +1309,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 1,*,95,ケベスク,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
 2,*,95,ケベスク,0,Branch,30,Always,4,Go to 4
 3,*,95,ケベスク,0,Branch,24,Rating 40%,13,Go to 13
-4,*,95,ケベスク,0,Branch,40,Charged 1?,15,Go to 15
+4,*,95,ケベスク,0,Branch,40,Used Gather Strength?,15,Go to 15
 5,*,95,ケベスク,0,Branch,11,Turn 1,7,Go to 7
 6,*,95,ケベスク,0,Branch,30,Always,8,Go to 8
 7,*,95,ケベスク,0,Branch,25,Rating 50%,14,Go to 14
@@ -1391,7 +1391,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 12,*,101,イレイザー,1,Action,502,サイレシャ,20,PC w/ Highest Will
 13,*,101,イレイザー,1,Action,522,ウェボーン,2,Random PC
 14,*,101,イレイザー,1,Action,12,チェックメイト,3,PC w/ Most HP
-1,*,102,要塞将兵,0,Branch,5,Magic Dmg. Last Turn?,12,Go to 12
+1,*,102,要塞将兵,0,Branch,5,Got Hit by Spell?,12,Go to 12
 2,*,102,要塞将兵,0,Branch,38,Any EC HP < 50%,8,Go to 8
 3,*,102,要塞将兵,0,Branch,25,Rating 50%,15,Go to 15
 4,*,102,要塞将兵,0,Branch,24,Rating 40%,17,Go to 17
@@ -1400,7 +1400,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 7,*,102,要塞将兵,0,Branch,30,Always,16,Go to 16
 8,*,102,要塞将兵,0,Branch,23,Rating 30%,18,Go to 18
 9,*,102,要塞将兵,0,Branch,24,Rating 40%,17,Go to 17
-10,*,102,要塞将兵,0,Branch,31,Used Sacri Line?,12,Go to 12
+10,*,102,要塞将兵,0,Branch,31,Used Sacri Spells ≥ 1,12,Go to 12
 11,*,102,要塞将兵,0,Branch,30,Always,16,Go to 16
 12,*,102,要塞将兵,0,Branch,24,Rating 40%,15,Go to 15
 13,*,102,要塞将兵,0,Branch,25,Rating 50%,17,Go to 17
@@ -1413,7 +1413,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 1,*,103,要塞煌兵,0,Branch,11,Turn 1,4,Go to 4
 2,*,103,要塞煌兵,0,Branch,12,Turn 2,4,Go to 4
 3,*,103,要塞煌兵,0,Branch,30,Always,12,Go to 12
-4,*,103,要塞煌兵,0,Branch,35,Used Spells ≥ 1,7,Go to 7
+4,*,103,要塞煌兵,0,Branch,35,Used State Spells ≥ 1,7,Go to 7
 5,*,103,要塞煌兵,0,Branch,24,Rating 40%,20,Go to 20
 6,*,103,要塞煌兵,0,Branch,25,Rating 50%,21,Go to 21
 7,*,103,要塞煌兵,0,Branch,22,Rating 20%,25,Go to 25
@@ -1421,7 +1421,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 9,*,103,要塞煌兵,0,Branch,21,Rating 10%,19,Go to 19
 10,*,103,要塞煌兵,0,Branch,25,Rating 50%,24,Go to 24
 11,*,103,要塞煌兵,0,Branch,30,Always,23,Go to 23
-12,*,103,要塞煌兵,0,Branch,31,Used Sacri Line?,7,Go to 7
+12,*,103,要塞煌兵,0,Branch,31,Used Sacri Spells ≥ 1,7,Go to 7
 13,*,103,要塞煌兵,0,Branch,1,HP < 50%,16,Go to 16
 14,*,103,要塞煌兵,0,Branch,39,Any EC HP < 25%,16,Go to 16
 15,*,103,要塞煌兵,0,Branch,30,Always,7,Go to 7
@@ -1435,7 +1435,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 23,*,103,要塞煌兵,1,Action,531,ウェイベス,2,Random PC
 24,*,103,要塞煌兵,1,Action,528,グラシェス,2,Random PC
 25,*,103,要塞煌兵,1,Action,37,ガッツ,-1,None
-1,*,104,要塞兵,0,Branch,42,Used Sacri Crystal Line?,5,Go to 5
+1,*,104,要塞兵,0,Branch,42,Used Sacri Crystals ≥ 1,5,Go to 5
 2,*,104,要塞兵,0,Branch,38,Any EC HP < 50%,4,Go to 4
 3,*,104,要塞兵,0,Branch,30,Always,5,Go to 5
 4,*,104,要塞兵,0,Branch,22,Rating 20%,9,Go to 9
@@ -1450,7 +1450,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,105,ベレーザ兵,1,Action,550,Attack,2,Random PC
 4,*,105,ベレーザ兵,1,Action,70,手りゅう弾,2,Random PC
 5,*,105,ベレーザ兵,1,Action,551,Guard,-1,None
-1,*,106,工作兵,0,Branch,42,Used Sacri Crystal Line?,5,Go to 5
+1,*,106,工作兵,0,Branch,42,Used Sacri Crystals ≥ 1,5,Go to 5
 2,*,106,工作兵,0,Branch,38,Any EC HP < 50%,4,Go to 4
 3,*,106,工作兵,0,Branch,30,Always,5,Go to 5
 4,*,106,工作兵,0,Branch,23,Rating 30%,9,Go to 9
@@ -1470,7 +1470,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 8,*,107,ワーン,0,Branch,25,Rating 50%,16,Go to 16
 9,*,107,ワーン,0,Branch,24,Rating 40%,17,Go to 17
 10,*,107,ワーン,0,Branch,30,Always,18,Go to 18
-11,*,107,ワーン,0,Branch,35,Used Spells ≥ 1,20,Go to 20
+11,*,107,ワーン,0,Branch,35,Used State Spells ≥ 1,20,Go to 20
 12,*,107,ワーン,0,Branch,30,Always,19,Go to 19
 13,*,107,ワーン,1,Action,550,Attack,2,Random PC
 14,*,107,ワーン,1,Action,551,Guard,-1,None
@@ -1503,7 +1503,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,109,イエルモー,0,Branch,25,Rating 50%,9,Go to 9
 3,*,109,イエルモー,0,Branch,24,Rating 40%,7,Go to 7
 4,*,109,イエルモー,0,Branch,23,Rating 30%,8,Go to 8
-5,*,109,イエルモー,0,Branch,33,Used Atk. Spell?,11,Go to 11
+5,*,109,イエルモー,0,Branch,33,Used Atk. Spells ≥ 1,11,Go to 11
 6,*,109,イエルモー,0,Branch,30,Always,10,Go to 10
 7,*,109,イエルモー,1,Action,550,Attack,2,Random PC
 8,*,109,イエルモー,1,Action,551,Guard,-1,None
@@ -1700,8 +1700,8 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 19,*,128,アントニオ,1,Action,550,Attack,2,Random PC
 20,*,128,アントニオ,1,Action,5,怒雷,2,Random PC
 21,*,128,アントニオ,1,Action,34,様子を見る,-1,None
-1,*,129,アガタウマス,0,Branch,48,Charged 2?,8,Go to 8
-2,*,129,アガタウマス,0,Branch,5,Magic Dmg. Last Turn?,6,Go to 6
+1,*,129,アガタウマス,0,Branch,48,Used Target Search?,8,Go to 8
+2,*,129,アガタウマス,0,Branch,5,Got Hit by Spell?,6,Go to 6
 3,*,129,アガタウマス,0,Branch,0,HP = 100%,6,Go to 6
 4,*,129,アガタウマス,0,Branch,26,Rating 60%,10,Go to 10
 5,*,129,アガタウマス,0,Branch,30,Always,11,Go to 11
@@ -1775,7 +1775,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 10,*,132,ガルシアン,1,Action,534,ボルテス,2,Random PC
 11,*,132,ガルシアン,1,Action,24,デヴォルヴェール,-1,None
 12,*,132,ガルシアン,1,Action,509,サプローネ,22,Self
-1,*,133,護送将兵,0,Branch,5,Magic Dmg. Last Turn?,11,Go to 11
+1,*,133,護送将兵,0,Branch,5,Got Hit by Spell?,11,Go to 11
 2,*,133,護送将兵,0,Branch,38,Any EC HP < 50%,8,Go to 8
 3,*,133,護送将兵,0,Branch,25,Rating 50%,14,Go to 14
 4,*,133,護送将兵,0,Branch,24,Rating 40%,16,Go to 16
@@ -1783,7 +1783,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 6,*,133,護送将兵,0,Branch,28,Rating 80%,18,Go to 18
 7,*,133,護送将兵,0,Branch,30,Always,15,Go to 15
 8,*,133,護送将兵,0,Branch,25,Rating 50%,17,Go to 17
-9,*,133,護送将兵,0,Branch,32,Used Sacri Line?,11,Go to 11
+9,*,133,護送将兵,0,Branch,32,Used Sacri Spells ≥ 2,11,Go to 11
 10,*,133,護送将兵,0,Branch,30,Always,15,Go to 15
 11,*,133,護送将兵,0,Branch,24,Rating 40%,14,Go to 14
 12,*,133,護送将兵,0,Branch,25,Rating 50%,16,Go to 16
@@ -1838,7 +1838,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 22,*,137,ディアトリマ,1,Action,7,パニカリング,14,PC w/o Confusion
 23,*,137,ディアトリマ,1,Action,8,スリーパリング,16,PC w/o Sleep
 1,*,138,シニストラ,0,Branch,17,ECs Alive = 1,18,Go to 18
-2,*,138,シニストラ,0,Branch,53,Charged 2?,22,Go to 22
+2,*,138,シニストラ,0,Branch,53,Used Engage?,22,Go to 22
 3,*,138,シニストラ,0,Branch,11,Turn 1,9,Go to 9
 4,*,138,シニストラ,0,Branch,12,Turn 2,12,Go to 12
 5,*,138,シニストラ,0,Branch,38,Any EC HP < 50%,16,Go to 16
@@ -1861,7 +1861,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 22,*,138,シニストラ,1,Action,54,デスマリッジ,-1,None
 23,*,138,シニストラ,1,Action,55,エンゲイジ,-1,None
 1,*,139,デクストラ,0,Branch,17,ECs Alive = 1,18,Go to 18
-2,*,139,デクストラ,0,Branch,53,Charged 2?,22,Go to 22
+2,*,139,デクストラ,0,Branch,53,Used Engage?,22,Go to 22
 3,*,139,デクストラ,0,Branch,12,Turn 2,9,Go to 9
 4,*,139,デクストラ,0,Branch,13,Turn 3,12,Go to 12
 5,*,139,デクストラ,0,Branch,38,Any EC HP < 50%,16,Go to 16
@@ -1948,7 +1948,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 22,*,144,ディーゴ,0,Branch,30,Always,43,Go to 43
 23,*,144,ディーゴ,0,Branch,26,Rating 60%,41,Go to 41
 24,*,144,ディーゴ,0,Branch,30,Always,10,Go to 10
-25,*,144,ディーゴ,0,Branch,31,Used Sacri Line?,10,Go to 10
+25,*,144,ディーゴ,0,Branch,31,Used Sacri Spells ≥ 1,10,Go to 10
 26,*,144,ディーゴ,0,Branch,30,Always,41,Go to 41
 27,*,144,ディーゴ,0,Branch,16,Has Silence?,31,Go to 31
 28,*,144,ディーゴ,0,Branch,23,Rating 30%,42,Go to 42
@@ -1997,11 +1997,11 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,*,147,ムラジ,0,Branch,30,Always,27,Go to 27
 14,*,147,ムラジ,0,Branch,25,Rating 50%,28,Go to 28
 15,*,147,ムラジ,0,Branch,30,Always,12,Go to 12
-16,*,147,ムラジ,0,Branch,35,Used Spells ≥ 1,18,Go to 18
+16,*,147,ムラジ,0,Branch,35,Used State Spells ≥ 1,18,Go to 18
 17,*,147,ムラジ,0,Branch,30,Always,28,Go to 28
 18,*,147,ムラジ,0,Branch,25,Rating 50%,32,Go to 32
 19,*,147,ムラジ,0,Branch,30,Always,12,Go to 12
-20,*,147,ムラジ,0,Branch,36,Used Spells ≥ 2,4,Go to 4
+20,*,147,ムラジ,0,Branch,36,Used State Spells ≥ 2,4,Go to 4
 21,*,147,ムラジ,0,Branch,30,Always,32,Go to 32
 22,*,147,ムラジ,0,Branch,25,Rating 50%,30,Go to 30
 23,*,147,ムラジ,0,Branch,30,Always,6,Go to 6
@@ -2131,7 +2131,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 7,*,152,ラミレス,0,Branch,30,Always,14,Go to 14
 8,*,152,ラミレス,0,Branch,25,Rating 50%,20,Go to 20
 9,*,152,ラミレス,0,Branch,30,Always,12,Go to 12
-10,*,152,ラミレス,0,Branch,35,Used Spells ≥ 1,12,Go to 12
+10,*,152,ラミレス,0,Branch,35,Used State Spells ≥ 1,12,Go to 12
 11,*,152,ラミレス,0,Branch,30,Always,20,Go to 20
 12,*,152,ラミレス,0,Branch,22,Rating 20%,22,Go to 22
 13,*,152,ラミレス,0,Branch,30,Always,19,Go to 19
@@ -2160,7 +2160,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,*,153,ラミレス,0,Branch,30,Always,18,Go to 18
 14,*,153,ラミレス,0,Branch,25,Rating 50%,54,Go to 54
 15,*,153,ラミレス,0,Branch,30,Always,34,Go to 34
-16,*,153,ラミレス,0,Branch,35,Used Spells ≥ 1,34,Go to 34
+16,*,153,ラミレス,0,Branch,35,Used State Spells ≥ 1,34,Go to 34
 17,*,153,ラミレス,0,Branch,30,Always,54,Go to 54
 18,*,153,ラミレス,0,Branch,56,All PCs Have Weak?,20,Go to 20
 19,*,153,ラミレス,0,Branch,22,Rating 20%,54,Go to 54
@@ -2204,9 +2204,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 57,*,153,ラミレス,1,Action,48,銀の無限凍土,2,Random PC
 58,*,153,ラミレス,1,Action,90,銀色の光と闇,-1,None
 59,*,153,ラミレス,1,Action,94,銀の恵み,-1,None
-1,*,154,ラプラタヌス,0,Branch,48,Charged 2?,8,Go to 8
+1,*,154,ラプラタヌス,0,Branch,48,Used Target Search?,8,Go to 8
 2,*,154,ラプラタヌス,0,Branch,11,Turn 1,11,Go to 11
-3,*,154,ラプラタヌス,0,Branch,5,Magic Dmg. Last Turn?,11,Go to 11
+3,*,154,ラプラタヌス,0,Branch,5,Got Hit by Spell?,11,Go to 11
 4,*,154,ラプラタヌス,0,Branch,23,Rating 30%,11,Go to 11
 5,*,154,ラプラタヌス,0,Branch,22,Rating 20%,12,Go to 12
 6,*,154,ラプラタヌス,0,Branch,22,Rating 20%,13,Go to 13
@@ -2217,7 +2217,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 11,*,154,ラプラタヌス,1,Action,9,ターゲットサーチ,-1,None
 12,*,154,ラプラタヌス,1,Action,99,ブラスター,2,Random PC
 13,*,154,ラプラタヌス,1,Action,31,ソリッドレーザー,13,PC w/o Stone
-1,*,155,ドブラ,0,Branch,55,Charged 1?,17,Go to 17
+1,*,155,ドブラ,0,Branch,55,Used Digest?,17,Go to 17
 2,*,155,ドブラ,0,Branch,11,Turn 1,7,Go to 7
 3,*,155,ドブラ,0,Branch,12,Turn 2,7,Go to 7
 4,*,155,ドブラ,0,Branch,38,Any EC HP < 50%,9,Go to 9
@@ -2225,7 +2225,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 6,*,155,ドブラ,0,Branch,26,Rating 60%,13,Go to 13
 7,*,155,ドブラ,0,Branch,22,Rating 20%,14,Go to 14
 8,*,155,ドブラ,0,Branch,30,Always,16,Go to 16
-9,*,155,ドブラ,0,Branch,32,Used Sacri Line?,11,Go to 11
+9,*,155,ドブラ,0,Branch,32,Used Sacri Spells ≥ 2,11,Go to 11
 10,*,155,ドブラ,0,Branch,28,Rating 80%,15,Go to 15
 11,*,155,ドブラ,0,Branch,22,Rating 20%,15,Go to 15
 12,*,155,ドブラ,0,Branch,30,Always,6,Go to 6
@@ -2237,7 +2237,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 1,*,156,ウォン三兄弟,0,Branch,21,Rating 10%,8,Go to 8
 2,*,156,ウォン三兄弟,0,Branch,25,Rating 50%,4,Go to 4
 3,*,156,ウォン三兄弟,0,Branch,30,Always,7,Go to 7
-4,*,156,ウォン三兄弟,0,Branch,34,Used Atk. Spell?,6,Go to 6
+4,*,156,ウォン三兄弟,0,Branch,34,Used Atk. Spells ≥ 2,6,Go to 6
 5,*,156,ウォン三兄弟,0,Branch,30,Always,9,Go to 9
 6,*,156,ウォン三兄弟,0,Branch,25,Rating 50%,9,Go to 9
 7,*,156,ウォン三兄弟,1,Action,550,Attack,2,Random PC
@@ -2259,7 +2259,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 14,*,157,ラミレス,0,Branch,30,Always,19,Go to 19
 15,*,157,ラミレス,0,Branch,25,Rating 50%,36,Go to 36
 16,*,157,ラミレス,0,Branch,30,Always,38,Go to 38
-17,*,157,ラミレス,0,Branch,35,Used Spells ≥ 1,38,Go to 38
+17,*,157,ラミレス,0,Branch,35,Used State Spells ≥ 1,38,Go to 38
 18,*,157,ラミレス,0,Branch,30,Always,36,Go to 36
 19,*,157,ラミレス,0,Branch,50,Used S-Move Last Turn?,22,Go to 22
 20,*,157,ラミレス,0,Branch,23,Rating 30%,38,Go to 38
