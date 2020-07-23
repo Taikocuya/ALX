@@ -170,7 +170,7 @@ VOC.configure do |_v|
   _v.states[12] = 'State 13'
   _v.states[13] = 'State 14'
   _v.states[14] = 'State 15'
-  _v.states[15] = 'State 16'
+  _v.states[15] = 'Danger'
 
 #------------------------------------------------------------------------------
 # Defined string
@@ -592,7 +592,7 @@ VOC.configure do |_v|
   _v.branches[51] = 'Used Focus?'
   _v.branches[52] = 'Used Charge'
   _v.branches[53] = 'Used Engage?'
-  _v.branches[54] = 'ECs Alive < 4'
+  _v.branches[54] = 'ECs Alive ≤ 3'
   _v.branches[55] = 'Used Digest?'
   _v.branches[56] = "All PCs Have #{_v.states[8]}?"
   _v.branches[57] = 'Any PC Has Strengthen?'
@@ -600,13 +600,14 @@ VOC.configure do |_v|
   _v.branches[59] = 'Any PC Has Regenerate?'
   _v.branches[60] = 'Destruction on Recharge?'
   _v.branches[61] = 'Has Regenerate?'
-  _v.branches[62] = 'PCs Alive = 1'
-  _v.branches[63] = 'PCs Alive ≤ 2'
-  _v.branches[64] = 'PCs Alive ≤ 3'
-  _v.branches[65] = 'PCs Alive ≤ 4'
+  _v.branches[62] = 'PCs Alive ≥ 1'
+  _v.branches[63] = 'PCs Alive ≥ 2'
+  _v.branches[64] = 'PCs Alive ≥ 3'
+  _v.branches[65] = 'PCs Alive ≥ 4'
   _v.branches[66] = 'ECs Alive ≥ 3'
   _v.branches[67] = 'Used Legendary Charge?'
   _v.branches[68] = 'Used Target Search?'
+  _v.branches[69] = "EC Slots < 8 and #{_v.states[15]} ≤ 3000"
 
   _v.branch_params = Hash.new do |_h, _k|
     _h[_k] = sprintf('Go to %d', _k)
