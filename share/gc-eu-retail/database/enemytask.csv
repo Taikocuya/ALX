@@ -693,23 +693,23 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 18,*,45,モペール,Flyst,1,Action,511,Noxus,-1,None
 19,*,45,モペール,Flyst,1,Action,100,Magic?,-1,None
 20,*,45,モペール,Flyst,1,Action,551,Guard,-1,None
-1,*,46,メスカリナ,Medullizk,0,Branch,11,Turn 1,4,Go to 4
-2,*,46,メスカリナ,Medullizk,0,Branch,12,Turn 2,5,Go to 5
-3,*,46,メスカリナ,Medullizk,0,Branch,30,Always,6,Go to 6
-4,*,46,メスカリナ,Medullizk,0,Branch,22,Rating 20%,15,Go to 15
-5,*,46,メスカリナ,Medullizk,0,Branch,22,Rating 20%,9,Go to 9
-6,*,46,メスカリナ,Medullizk,0,Branch,26,Rating 60%,13,Go to 13
-7,*,46,メスカリナ,Medullizk,0,Branch,28,Rating 80%,11,Go to 11
-8,*,46,メスカリナ,Medullizk,0,Branch,30,Always,14,Go to 14
-9,*,46,メスカリナ,Medullizk,0,Branch,49,Used Spell Last Turn?,17,Go to 17
-10,*,46,メスカリナ,Medullizk,0,Branch,30,Always,15,Go to 15
-11,*,46,メスカリナ,Medullizk,0,Branch,49,Used Spell Last Turn?,17,Go to 17
-12,*,46,メスカリナ,Medullizk,0,Branch,30,Always,16,Go to 16
-13,*,46,メスカリナ,Medullizk,1,Action,550,Attack,2,Random PC
-14,*,46,メスカリナ,Medullizk,1,Action,552,Run,-1,None
-15,*,46,メスカリナ,Medullizk,1,Action,505,Drilnos,-1,None
-16,*,46,メスカリナ,Medullizk,1,Action,521,Wevles,2,Random PC
-17,*,46,メスカリナ,Medullizk,1,Action,100,Magic?,-1,None
+1,*,46,メスカリナ,Medulizk,0,Branch,11,Turn 1,4,Go to 4
+2,*,46,メスカリナ,Medulizk,0,Branch,12,Turn 2,5,Go to 5
+3,*,46,メスカリナ,Medulizk,0,Branch,30,Always,6,Go to 6
+4,*,46,メスカリナ,Medulizk,0,Branch,22,Rating 20%,15,Go to 15
+5,*,46,メスカリナ,Medulizk,0,Branch,22,Rating 20%,9,Go to 9
+6,*,46,メスカリナ,Medulizk,0,Branch,26,Rating 60%,13,Go to 13
+7,*,46,メスカリナ,Medulizk,0,Branch,28,Rating 80%,11,Go to 11
+8,*,46,メスカリナ,Medulizk,0,Branch,30,Always,14,Go to 14
+9,*,46,メスカリナ,Medulizk,0,Branch,49,Used Spell Last Turn?,17,Go to 17
+10,*,46,メスカリナ,Medulizk,0,Branch,30,Always,15,Go to 15
+11,*,46,メスカリナ,Medulizk,0,Branch,49,Used Spell Last Turn?,17,Go to 17
+12,*,46,メスカリナ,Medulizk,0,Branch,30,Always,16,Go to 16
+13,*,46,メスカリナ,Medulizk,1,Action,550,Attack,2,Random PC
+14,*,46,メスカリナ,Medulizk,1,Action,552,Run,-1,None
+15,*,46,メスカリナ,Medulizk,1,Action,505,Drilnos,-1,None
+16,*,46,メスカリナ,Medulizk,1,Action,521,Wevles,2,Random PC
+17,*,46,メスカリナ,Medulizk,1,Action,100,Magic?,-1,None
 1,*,47,プラニナ,Lucich,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
 2,*,47,プラニナ,Lucich,0,Branch,30,Always,4,Go to 4
 3,*,47,プラニナ,Lucich,0,Branch,26,Rating 60%,17,Go to 17
