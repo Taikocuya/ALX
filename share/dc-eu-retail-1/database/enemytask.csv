@@ -177,7 +177,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 4,*,15,ヌール,Ghastling,0,Branch,0,HP = 100%,7,Go to 7
 5,*,15,ヌール,Ghastling,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
 6,*,15,ヌール,Ghastling,0,Branch,29,Rating 90%,15,Go to 15
-7,*,15,ヌール,Ghastling,0,Branch,9,???,11,Go to 11
+7,*,15,ヌール,Ghastling,0,Branch,9,Any PC Distance >= 3,11,Go to 11
 8,*,15,ヌール,Ghastling,0,Branch,27,Rating 70%,14,Go to 14
 9,*,15,ヌール,Ghastling,0,Branch,28,Rating 80%,16,Go to 16
 10,*,15,ヌール,Ghastling,0,Branch,30,Always,17,Go to 17
@@ -2169,8 +2169,8 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 22,*,153,ラミレス,Ramirez,0,Branch,30,Always,26,Go to 26
 23,*,153,ラミレス,Ramirez,0,Branch,25,Rating 50%,59,Go to 59
 24,*,153,ラミレス,Ramirez,0,Branch,30,Always,34,Go to 34
-25,*,153,ラミレス,Ramirez,0,Branch,61,Has Regenerate?,59,Go to 59
-26,*,153,ラミレス,Ramirez,0,Branch,61,Has Regenerate?,28,Go to 28
+25,*,153,ラミレス,Ramirez,0,Branch,61,Has Not Regenerate?,59,Go to 59
+26,*,153,ラミレス,Ramirez,0,Branch,61,Has Not Regenerate?,28,Go to 28
 27,*,153,ラミレス,Ramirez,0,Branch,30,Always,34,Go to 34
 28,*,153,ラミレス,Ramirez,0,Branch,2,HP < 25%,31,Go to 31
 29,*,153,ラミレス,Ramirez,0,Branch,1,HP < 50%,32,Go to 32

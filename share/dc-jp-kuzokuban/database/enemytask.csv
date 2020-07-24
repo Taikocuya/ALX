@@ -150,7 +150,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 4,*,15,ヌール,0,Branch,0,HP = 100%,7,Go to 7
 5,*,15,ヌール,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
 6,*,15,ヌール,0,Branch,28,Rating 80%,14,Go to 14
-7,*,15,ヌール,0,Branch,9,???,11,Go to 11
+7,*,15,ヌール,0,Branch,9,Any PC Distance >= 3,11,Go to 11
 8,*,15,ヌール,0,Branch,26,Rating 60%,14,Go to 14
 9,*,15,ヌール,0,Branch,26,Rating 60%,14,Go to 14
 10,*,15,ヌール,0,Branch,30,Always,16,Go to 16

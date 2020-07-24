@@ -249,7 +249,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 4,*,15,ヌール,Ghastling,0,Branch,0,HP = 100%,7,Go to 7
 5,*,15,ヌール,Ghastling,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
 6,*,15,ヌール,Ghastling,0,Branch,29,Rating 90%,15,Go to 15
-7,*,15,ヌール,Ghastling,0,Branch,9,???,11,Go to 11
+7,*,15,ヌール,Ghastling,0,Branch,9,Any PC Distance >= 3,11,Go to 11
 8,*,15,ヌール,Ghastling,0,Branch,27,Rating 70%,14,Go to 14
 9,*,15,ヌール,Ghastling,0,Branch,28,Rating 80%,16,Go to 16
 10,*,15,ヌール,Ghastling,0,Branch,30,Always,17,Go to 17
@@ -261,7 +261,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 16,*,15,ヌール,Ghastling,1,Action,552,Run,-1,None
 17,*,15,ヌール,Ghastling,1,Action,551,Guard,-1,None
 1,ecinit015.dat,15,ヌルコンドウ,Ghastling,0,Branch,2,HP < 25%,10,Go to 10
-2,ecinit015.dat,15,ヌルコンドウ,Ghastling,0,Branch,9,???,6,Go to 6
+2,ecinit015.dat,15,ヌルコンドウ,Ghastling,0,Branch,9,Any PC Distance >= 3,6,Go to 6
 3,ecinit015.dat,15,ヌルコンドウ,Ghastling,0,Branch,26,Rating 60%,9,Go to 9
 4,ecinit015.dat,15,ヌルコンドウ,Ghastling,0,Branch,26,Rating 60%,10,Go to 10
 5,ecinit015.dat,15,ヌルコンドウ,Ghastling,0,Branch,30,Always,11,Go to 11
@@ -2360,8 +2360,8 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 22,*,153,ラミレス,Ramirez,0,Branch,30,Always,26,Go to 26
 23,*,153,ラミレス,Ramirez,0,Branch,25,Rating 50%,59,Go to 59
 24,*,153,ラミレス,Ramirez,0,Branch,30,Always,34,Go to 34
-25,*,153,ラミレス,Ramirez,0,Branch,61,Has Regenerate?,59,Go to 59
-26,*,153,ラミレス,Ramirez,0,Branch,61,Has Regenerate?,28,Go to 28
+25,*,153,ラミレス,Ramirez,0,Branch,61,Has Not Regenerate?,59,Go to 59
+26,*,153,ラミレス,Ramirez,0,Branch,61,Has Not Regenerate?,28,Go to 28
 27,*,153,ラミレス,Ramirez,0,Branch,30,Always,34,Go to 34
 28,*,153,ラミレス,Ramirez,0,Branch,2,HP < 25%,31,Go to 31
 29,*,153,ラミレス,Ramirez,0,Branch,1,HP < 50%,32,Go to 32
@@ -3819,11 +3819,11 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 13,*,178,タラ,Tara,0,Branch,30,Always,14,Go to 14
 14,*,178,タラ,Tara,0,Branch,64,PCs Alive ≥ 3,17,Go to 17
 15,*,178,タラ,Tara,0,Branch,50,Used S-Move Last Turn?,17,Go to 17
-16,*,178,タラ,Tara,0,Branch,66,ECs Alive ≥ 3,19,Go to 19
+16,*,178,タラ,Tara,0,Branch,66,ECs Alive = 3,19,Go to 19
 17,*,178,タラ,Tara,1,Action,550,Attack,2,Random PC
 18,*,178,タラ,Tara,1,Action,551,Guard,-1,None
 19,*,178,タラ,Tara,1,Action,280,Chak Mol,-1,None
-1,ebinit050.dat,178,タラ,Tara,0,Branch,66,ECs Alive ≥ 3,7,Go to 7
+1,ebinit050.dat,178,タラ,Tara,0,Branch,66,ECs Alive = 3,7,Go to 7
 2,ebinit050.dat,178,タラ,Tara,0,Branch,1,HP < 50%,5,Go to 5
 3,ebinit050.dat,178,タラ,Tara,0,Branch,27,Rating 70%,14,Go to 14
 4,ebinit050.dat,178,タラ,Tara,0,Branch,30,Always,13,Go to 13
@@ -3853,11 +3853,11 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 13,*,179,タラ,Tara,0,Branch,30,Always,14,Go to 14
 14,*,179,タラ,Tara,0,Branch,64,PCs Alive ≥ 3,17,Go to 17
 15,*,179,タラ,Tara,0,Branch,50,Used S-Move Last Turn?,17,Go to 17
-16,*,179,タラ,Tara,0,Branch,66,ECs Alive ≥ 3,19,Go to 19
+16,*,179,タラ,Tara,0,Branch,66,ECs Alive = 3,19,Go to 19
 17,*,179,タラ,Tara,1,Action,550,Attack,2,Random PC
 18,*,179,タラ,Tara,1,Action,551,Guard,-1,None
 19,*,179,タラ,Tara,1,Action,280,Chak Mol,-1,None
-1,ebinit051.dat,179,タラ,Tara,0,Branch,66,ECs Alive ≥ 3,7,Go to 7
+1,ebinit051.dat,179,タラ,Tara,0,Branch,66,ECs Alive = 3,7,Go to 7
 2,ebinit051.dat,179,タラ,Tara,0,Branch,1,HP < 50%,5,Go to 5
 3,ebinit051.dat,179,タラ,Tara,0,Branch,27,Rating 70%,14,Go to 14
 4,ebinit051.dat,179,タラ,Tara,0,Branch,30,Always,13,Go to 13
@@ -3887,11 +3887,11 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 13,*,180,タラ,Tara,0,Branch,30,Always,14,Go to 14
 14,*,180,タラ,Tara,0,Branch,64,PCs Alive ≥ 3,17,Go to 17
 15,*,180,タラ,Tara,0,Branch,50,Used S-Move Last Turn?,17,Go to 17
-16,*,180,タラ,Tara,0,Branch,66,ECs Alive ≥ 3,19,Go to 19
+16,*,180,タラ,Tara,0,Branch,66,ECs Alive = 3,19,Go to 19
 17,*,180,タラ,Tara,1,Action,550,Attack,2,Random PC
 18,*,180,タラ,Tara,1,Action,551,Guard,-1,None
 19,*,180,タラ,Tara,1,Action,280,Chak Mol,-1,None
-1,ebinit052.dat,180,タラ,Tara,0,Branch,66,ECs Alive ≥ 3,7,Go to 7
+1,ebinit052.dat,180,タラ,Tara,0,Branch,66,ECs Alive = 3,7,Go to 7
 2,ebinit052.dat,180,タラ,Tara,0,Branch,1,HP < 50%,5,Go to 5
 3,ebinit052.dat,180,タラ,Tara,0,Branch,27,Rating 70%,14,Go to 14
 4,ebinit052.dat,180,タラ,Tara,0,Branch,30,Always,13,Go to 13
@@ -3921,11 +3921,11 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 13,*,181,タラ,Tara,0,Branch,30,Always,14,Go to 14
 14,*,181,タラ,Tara,0,Branch,64,PCs Alive ≥ 3,17,Go to 17
 15,*,181,タラ,Tara,0,Branch,50,Used S-Move Last Turn?,17,Go to 17
-16,*,181,タラ,Tara,0,Branch,66,ECs Alive ≥ 3,19,Go to 19
+16,*,181,タラ,Tara,0,Branch,66,ECs Alive = 3,19,Go to 19
 17,*,181,タラ,Tara,1,Action,550,Attack,2,Random PC
 18,*,181,タラ,Tara,1,Action,551,Guard,-1,None
 19,*,181,タラ,Tara,1,Action,280,Chak Mol,-1,None
-1,ebinit053.dat,181,タラ,Tara,0,Branch,66,ECs Alive ≥ 3,7,Go to 7
+1,ebinit053.dat,181,タラ,Tara,0,Branch,66,ECs Alive = 3,7,Go to 7
 2,ebinit053.dat,181,タラ,Tara,0,Branch,1,HP < 50%,5,Go to 5
 3,ebinit053.dat,181,タラ,Tara,0,Branch,27,Rating 70%,14,Go to 14
 4,ebinit053.dat,181,タラ,Tara,0,Branch,30,Always,13,Go to 13
@@ -3955,11 +3955,11 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 13,*,182,タラ,Tara,0,Branch,30,Always,14,Go to 14
 14,*,182,タラ,Tara,0,Branch,64,PCs Alive ≥ 3,17,Go to 17
 15,*,182,タラ,Tara,0,Branch,50,Used S-Move Last Turn?,17,Go to 17
-16,*,182,タラ,Tara,0,Branch,66,ECs Alive ≥ 3,19,Go to 19
+16,*,182,タラ,Tara,0,Branch,66,ECs Alive = 3,19,Go to 19
 17,*,182,タラ,Tara,1,Action,550,Attack,2,Random PC
 18,*,182,タラ,Tara,1,Action,551,Guard,-1,None
 19,*,182,タラ,Tara,1,Action,280,Chak Mol,-1,None
-1,ebinit054.dat,182,タラ,Tara,0,Branch,66,ECs Alive ≥ 3,7,Go to 7
+1,ebinit054.dat,182,タラ,Tara,0,Branch,66,ECs Alive = 3,7,Go to 7
 2,ebinit054.dat,182,タラ,Tara,0,Branch,1,HP < 50%,5,Go to 5
 3,ebinit054.dat,182,タラ,Tara,0,Branch,27,Rating 70%,14,Go to 14
 4,ebinit054.dat,182,タラ,Tara,0,Branch,30,Always,13,Go to 13
@@ -6139,7 +6139,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 33,*,228,盗掘王シモン,Lord Bane,0,Branch,54,ECs Alive ≤ 3,45,Go to 45
 34,*,228,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,36,Go to 36
 35,*,228,盗掘王シモン,Lord Bane,0,Branch,30,Always,40,Go to 40
-36,*,228,盗掘王シモン,Lord Bane,0,Branch,61,Has Regenerate?,55,Go to 55
+36,*,228,盗掘王シモン,Lord Bane,0,Branch,61,Has Not Regenerate?,55,Go to 55
 37,*,228,盗掘王シモン,Lord Bane,0,Branch,26,Rating 60%,57,Go to 57
 38,*,228,盗掘王シモン,Lord Bane,0,Branch,27,Rating 70%,51,Go to 51
 39,*,228,盗掘王シモン,Lord Bane,0,Branch,30,Always,53,Go to 53
@@ -6195,7 +6195,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 32,ebinit100.dat,228,盗掘王シモン,Lord Bane,0,Branch,54,ECs Alive ≤ 3,45,Go to 45
 33,ebinit100.dat,228,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,35,Go to 35
 34,ebinit100.dat,228,盗掘王シモン,Lord Bane,0,Branch,30,Always,39,Go to 39
-35,ebinit100.dat,228,盗掘王シモン,Lord Bane,0,Branch,61,Has Regenerate?,48,Go to 48
+35,ebinit100.dat,228,盗掘王シモン,Lord Bane,0,Branch,61,Has Not Regenerate?,48,Go to 48
 36,ebinit100.dat,228,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,44,Go to 44
 37,ebinit100.dat,228,盗掘王シモン,Lord Bane,0,Branch,29,Rating 90%,46,Go to 46
 38,ebinit100.dat,228,盗掘王シモン,Lord Bane,0,Branch,30,Always,50,Go to 50
@@ -6246,7 +6246,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 33,*,229,盗掘王シモン,Lord Bane,0,Branch,54,ECs Alive ≤ 3,45,Go to 45
 34,*,229,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,36,Go to 36
 35,*,229,盗掘王シモン,Lord Bane,0,Branch,30,Always,40,Go to 40
-36,*,229,盗掘王シモン,Lord Bane,0,Branch,61,Has Regenerate?,55,Go to 55
+36,*,229,盗掘王シモン,Lord Bane,0,Branch,61,Has Not Regenerate?,55,Go to 55
 37,*,229,盗掘王シモン,Lord Bane,0,Branch,26,Rating 60%,57,Go to 57
 38,*,229,盗掘王シモン,Lord Bane,0,Branch,27,Rating 70%,51,Go to 51
 39,*,229,盗掘王シモン,Lord Bane,0,Branch,30,Always,53,Go to 53
@@ -6302,7 +6302,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 32,ebinit101.dat,229,盗掘王シモン,Lord Bane,0,Branch,54,ECs Alive ≤ 3,45,Go to 45
 33,ebinit101.dat,229,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,35,Go to 35
 34,ebinit101.dat,229,盗掘王シモン,Lord Bane,0,Branch,30,Always,39,Go to 39
-35,ebinit101.dat,229,盗掘王シモン,Lord Bane,0,Branch,61,Has Regenerate?,48,Go to 48
+35,ebinit101.dat,229,盗掘王シモン,Lord Bane,0,Branch,61,Has Not Regenerate?,48,Go to 48
 36,ebinit101.dat,229,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,44,Go to 44
 37,ebinit101.dat,229,盗掘王シモン,Lord Bane,0,Branch,29,Rating 90%,46,Go to 46
 38,ebinit101.dat,229,盗掘王シモン,Lord Bane,0,Branch,30,Always,50,Go to 50
@@ -6353,7 +6353,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 33,*,230,盗掘王シモン,Lord Bane,0,Branch,54,ECs Alive ≤ 3,45,Go to 45
 34,*,230,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,36,Go to 36
 35,*,230,盗掘王シモン,Lord Bane,0,Branch,30,Always,40,Go to 40
-36,*,230,盗掘王シモン,Lord Bane,0,Branch,61,Has Regenerate?,55,Go to 55
+36,*,230,盗掘王シモン,Lord Bane,0,Branch,61,Has Not Regenerate?,55,Go to 55
 37,*,230,盗掘王シモン,Lord Bane,0,Branch,26,Rating 60%,57,Go to 57
 38,*,230,盗掘王シモン,Lord Bane,0,Branch,27,Rating 70%,51,Go to 51
 39,*,230,盗掘王シモン,Lord Bane,0,Branch,30,Always,53,Go to 53
@@ -6409,7 +6409,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 32,ebinit102.dat,230,盗掘王シモン,Lord Bane,0,Branch,54,ECs Alive ≤ 3,45,Go to 45
 33,ebinit102.dat,230,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,35,Go to 35
 34,ebinit102.dat,230,盗掘王シモン,Lord Bane,0,Branch,30,Always,39,Go to 39
-35,ebinit102.dat,230,盗掘王シモン,Lord Bane,0,Branch,61,Has Regenerate?,48,Go to 48
+35,ebinit102.dat,230,盗掘王シモン,Lord Bane,0,Branch,61,Has Not Regenerate?,48,Go to 48
 36,ebinit102.dat,230,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,44,Go to 44
 37,ebinit102.dat,230,盗掘王シモン,Lord Bane,0,Branch,29,Rating 90%,46,Go to 46
 38,ebinit102.dat,230,盗掘王シモン,Lord Bane,0,Branch,30,Always,50,Go to 50
@@ -6460,7 +6460,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 33,*,231,盗掘王シモン,Lord Bane,0,Branch,54,ECs Alive ≤ 3,45,Go to 45
 34,*,231,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,36,Go to 36
 35,*,231,盗掘王シモン,Lord Bane,0,Branch,30,Always,40,Go to 40
-36,*,231,盗掘王シモン,Lord Bane,0,Branch,61,Has Regenerate?,55,Go to 55
+36,*,231,盗掘王シモン,Lord Bane,0,Branch,61,Has Not Regenerate?,55,Go to 55
 37,*,231,盗掘王シモン,Lord Bane,0,Branch,26,Rating 60%,57,Go to 57
 38,*,231,盗掘王シモン,Lord Bane,0,Branch,27,Rating 70%,51,Go to 51
 39,*,231,盗掘王シモン,Lord Bane,0,Branch,30,Always,53,Go to 53
@@ -6516,7 +6516,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 32,ebinit103.dat,231,盗掘王シモン,Lord Bane,0,Branch,54,ECs Alive ≤ 3,45,Go to 45
 33,ebinit103.dat,231,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,35,Go to 35
 34,ebinit103.dat,231,盗掘王シモン,Lord Bane,0,Branch,30,Always,39,Go to 39
-35,ebinit103.dat,231,盗掘王シモン,Lord Bane,0,Branch,61,Has Regenerate?,48,Go to 48
+35,ebinit103.dat,231,盗掘王シモン,Lord Bane,0,Branch,61,Has Not Regenerate?,48,Go to 48
 36,ebinit103.dat,231,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,44,Go to 44
 37,ebinit103.dat,231,盗掘王シモン,Lord Bane,0,Branch,29,Rating 90%,46,Go to 46
 38,ebinit103.dat,231,盗掘王シモン,Lord Bane,0,Branch,30,Always,50,Go to 50
@@ -6567,7 +6567,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 33,*,232,盗掘王シモン,Lord Bane,0,Branch,54,ECs Alive ≤ 3,45,Go to 45
 34,*,232,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,36,Go to 36
 35,*,232,盗掘王シモン,Lord Bane,0,Branch,30,Always,40,Go to 40
-36,*,232,盗掘王シモン,Lord Bane,0,Branch,61,Has Regenerate?,55,Go to 55
+36,*,232,盗掘王シモン,Lord Bane,0,Branch,61,Has Not Regenerate?,55,Go to 55
 37,*,232,盗掘王シモン,Lord Bane,0,Branch,26,Rating 60%,57,Go to 57
 38,*,232,盗掘王シモン,Lord Bane,0,Branch,27,Rating 70%,51,Go to 51
 39,*,232,盗掘王シモン,Lord Bane,0,Branch,30,Always,53,Go to 53
@@ -6623,7 +6623,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 32,ebinit104.dat,232,盗掘王シモン,Lord Bane,0,Branch,54,ECs Alive ≤ 3,45,Go to 45
 33,ebinit104.dat,232,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,35,Go to 35
 34,ebinit104.dat,232,盗掘王シモン,Lord Bane,0,Branch,30,Always,39,Go to 39
-35,ebinit104.dat,232,盗掘王シモン,Lord Bane,0,Branch,61,Has Regenerate?,48,Go to 48
+35,ebinit104.dat,232,盗掘王シモン,Lord Bane,0,Branch,61,Has Not Regenerate?,48,Go to 48
 36,ebinit104.dat,232,盗掘王シモン,Lord Bane,0,Branch,25,Rating 50%,44,Go to 44
 37,ebinit104.dat,232,盗掘王シモン,Lord Bane,0,Branch,29,Rating 90%,46,Go to 46
 38,ebinit104.dat,232,盗掘王シモン,Lord Bane,0,Branch,30,Always,50,Go to 50
