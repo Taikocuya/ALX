@@ -113,7 +113,7 @@ VOC.configure do |_v|
   _v.gold              = 'Gold'
   _v.hit               = 'Hit%'
   _v.hp                = 'HP'
-  _v.lv                = 'LV'
+  _v.level             = 'Level'
   _v.limit             = 'Limit'
   _v.magdef            = 'MagDef'
   _v.maxhp             = 'MAXHP'
@@ -587,8 +587,8 @@ VOC.configure do |_v|
   _v.branches[41] = 'Used Tremble?'
   _v.branches[42] = 'Used Sacri Crystals ≥ 1'
   _v.branches[43] = 'Used Sacri Crystals ≥ 2'
-  _v.branches[44] = "1st PC Δ#{_v.lv} > 3"
-  _v.branches[45] = "1st PC Δ#{_v.lv} > 7"
+  _v.branches[44] = "1st PC Δ#{_v.level} > 3"
+  _v.branches[45] = "1st PC Δ#{_v.level} > 7"
   _v.branches[46] = 'Used HP Absorbs ≥ 1'
   _v.branches[47] = 'Used HP Absorbs ≥ 2'
   _v.branches[48] = 'Used Target Search?'
@@ -631,11 +631,11 @@ VOC.configure do |_v|
   _v.action_params[ 3] = 'PC w/ Most HP'
   _v.action_params[ 4] = 'PC w/ Least HP'
   _v.action_params[ 5] = 'Random EC'
-  _v.action_params[ 6] = '???' ###################
-  _v.action_params[ 7] = 'Injured EC' ############
+  _v.action_params[ 6] = 'EC w/ Most HP'
+  _v.action_params[ 7] = 'EC w/ Least HP'
   _v.action_params[ 8] = 'EC w/ Highest ID'
   _v.action_params[11] = 'EC w/o Strengthen'
-  _v.action_params[12] = 'Same EC, Not Self' ############
+  _v.action_params[12] = 'EC Nearby'
   _v.action_params[13] = "PC w/o Stone"
   _v.action_params[14] = "PC w/o Confusion"
   _v.action_params[15] = "PC w/o Silence"

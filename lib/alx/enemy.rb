@@ -169,7 +169,7 @@ class Enemy < Entry
     self[VOC.state_name ] = StrProp.new( nil, '', dmy: true)
     self[VOC.state_miss ] = IntProp.new( :i8,  0           )
     self[padding_hdr    ] = IntProp.new( :i8, -1           )
-    self[VOC.lv         ] = IntProp.new(:i16,  0           )
+    self[VOC.level      ] = IntProp.new(:i16,  0           )
     self[VOC.will       ] = IntProp.new(:i16,  0           )
     self[VOC.vigor      ] = IntProp.new(:i16,  0           )
     self[VOC.agile      ] = IntProp.new(:i16,  0           )

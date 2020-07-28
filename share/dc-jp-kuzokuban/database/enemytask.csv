@@ -8,19 +8,19 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 4,*,1,航行士,0,Branch,30,Always,8,Go to 8
 5,*,1,航行士,0,Branch,25,Rating 50%,7,Go to 7
 6,*,1,航行士,1,Action,550,Attack,2,Random PC
-7,*,1,航行士,1,Action,79,薬草,7,Injured EC
+7,*,1,航行士,1,Action,79,薬草,7,EC w/ Least HP
 8,*,1,航行士,1,Action,551,Guard,-1,None
-1,*,2,ミクラステル,0,Branch,45,1st PC ΔLV > 7,3,Go to 3
+1,*,2,ミクラステル,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
 2,*,2,ミクラステル,0,Branch,30,Always,4,Go to 4
 3,*,2,ミクラステル,0,Branch,28,Rating 80%,10,Go to 10
-4,*,2,ミクラステル,0,Branch,44,1st PC ΔLV > 3,6,Go to 6
+4,*,2,ミクラステル,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
 5,*,2,ミクラステル,0,Branch,30,Always,7,Go to 7
 6,*,2,ミクラステル,0,Branch,24,Rating 40%,10,Go to 10
 7,*,2,ミクラステル,0,Branch,24,Rating 40%,9,Go to 9
 8,*,2,ミクラステル,1,Action,550,Attack,1,Same PC
 9,*,2,ミクラステル,1,Action,4,レーザー,0,Random PC
 10,*,2,ミクラステル,1,Action,552,Run,-1,None
-1,*,3,マロッカ,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,3,マロッカ,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,3,マロッカ,0,Branch,30,Always,4,Go to 4
 3,*,3,マロッカ,0,Branch,26,Rating 60%,8,Go to 8
 4,*,3,マロッカ,0,Branch,1,HP < 50%,7,Go to 7
@@ -59,12 +59,12 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 18,*,7,煌術処刑士,0,Branch,30,Always,25,Go to 25
 19,*,7,煌術処刑士,1,Action,550,Attack,1,Same PC
 20,*,7,煌術処刑士,1,Action,500,アパ,8,EC w/ Highest ID
-21,*,7,煌術処刑士,1,Action,506,サプラ,7,Injured EC
+21,*,7,煌術処刑士,1,Action,506,サプラ,7,EC w/ Least HP
 22,*,7,煌術処刑士,1,Action,506,サプラ,8,EC w/ Highest ID
 23,*,7,煌術処刑士,1,Action,526,グラシャ,2,Random PC
 24,*,7,煌術処刑士,1,Action,37,ためる,-1,None
 25,*,7,煌術処刑士,1,Action,551,Guard,-1,None
-1,*,8,レトモニケ,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,8,レトモニケ,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,8,レトモニケ,0,Branch,30,Always,4,Go to 4
 3,*,8,レトモニケ,0,Branch,28,Rating 80%,16,Go to 16
 4,*,8,レトモニケ,0,Branch,2,HP < 25%,12,Go to 12
@@ -80,7 +80,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 14,*,8,レトモニケ,1,Action,550,Attack,1,Same PC
 15,*,8,レトモニケ,1,Action,551,Guard,-1,None
 16,*,8,レトモニケ,1,Action,552,Run,-1,None
-1,*,9,パラミス,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,9,パラミス,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,9,パラミス,0,Branch,30,Always,4,Go to 4
 3,*,9,パラミス,0,Branch,29,Rating 90%,16,Go to 16
 4,*,9,パラミス,0,Branch,2,HP < 25%,12,Go to 12
@@ -108,7 +108,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 7,*,11,フォカラルガ,1,Action,551,Guard,-1,None
 8,*,11,フォカラルガ,1,Action,503,パニカ,14,PC w/o Confusion
 9,*,11,フォカラルガ,1,Action,527,グラシィ,2,Random PC
-1,*,13,アスフール,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,13,アスフール,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,13,アスフール,0,Branch,30,Always,4,Go to 4
 3,*,13,アスフール,0,Branch,27,Rating 70%,15,Go to 15
 4,*,13,アスフール,0,Branch,25,Rating 50%,13,Go to 13
@@ -144,7 +144,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 14,*,14,盗掘者,1,Action,550,Attack,4,PC w/ Least HP
 15,*,14,盗掘者,1,Action,22,発破,2,Random PC
 16,*,14,盗掘者,1,Action,552,Run,-1,None
-1,*,15,ヌール,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,15,ヌール,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,15,ヌール,0,Branch,30,Always,4,Go to 4
 3,*,15,ヌール,0,Branch,28,Rating 80%,16,Go to 16
 4,*,15,ヌール,0,Branch,0,HP = 100%,7,Go to 7
@@ -160,7 +160,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 14,*,15,ヌール,1,Action,550,Attack,1,Same PC
 15,*,15,ヌール,1,Action,210,ＨＰ吸収,3,PC w/ Most HP
 16,*,15,ヌール,1,Action,552,Run,-1,None
-1,*,17,ヴァンピレッサ,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,17,ヴァンピレッサ,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,17,ヴァンピレッサ,0,Branch,30,Always,4,Go to 4
 3,*,17,ヴァンピレッサ,0,Branch,24,Rating 40%,11,Go to 11
 4,*,17,ヴァンピレッサ,0,Branch,0,HP = 100%,7,Go to 7
@@ -173,7 +173,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 11,*,17,ヴァンピレッサ,1,Action,552,Run,-1,None
 12,*,17,ヴァンピレッサ,1,Action,211,ＨＰ吸収,3,PC w/ Most HP
 13,*,17,ヴァンピレッサ,1,Action,532,ボルタ,2,Random PC
-1,*,18,セベスク,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,18,セベスク,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,18,セベスク,0,Branch,30,Always,4,Go to 4
 3,*,18,セベスク,0,Branch,24,Rating 40%,13,Go to 13
 4,*,18,セベスク,0,Branch,40,Used Gather Strength?,15,Go to 15
@@ -188,13 +188,13 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,*,18,セベスク,1,Action,552,Run,-1,None
 14,*,18,セベスク,1,Action,20,ためる,-1,None
 15,*,18,セベスク,1,Action,170,針乱射,2,Random PC
-1,*,19,ユールマラー,0,Branch,45,1st PC ΔLV > 7,3,Go to 3
+1,*,19,ユールマラー,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
 2,*,19,ユールマラー,0,Branch,30,Always,4,Go to 4
 3,*,19,ユールマラー,0,Branch,24,Rating 40%,6,Go to 6
 4,*,19,ユールマラー,0,Branch,21,Rating 10%,6,Go to 6
 5,*,19,ユールマラー,1,Action,550,Attack,1,Same PC
 6,*,19,ユールマラー,1,Action,552,Run,-1,None
-1,*,20,レトモニケ２,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,20,レトモニケ２,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,20,レトモニケ２,0,Branch,30,Always,4,Go to 4
 3,*,20,レトモニケ２,0,Branch,28,Rating 80%,16,Go to 16
 4,*,20,レトモニケ２,0,Branch,2,HP < 25%,12,Go to 12
@@ -210,10 +210,10 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 14,*,20,レトモニケ２,1,Action,550,Attack,1,Same PC
 15,*,20,レトモニケ２,1,Action,551,Guard,-1,None
 16,*,20,レトモニケ２,1,Action,552,Run,-1,None
-1,*,23,メア・ヘスア,0,Branch,45,1st PC ΔLV > 7,3,Go to 3
+1,*,23,メア・ヘスア,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
 2,*,23,メア・ヘスア,0,Branch,30,Always,4,Go to 4
 3,*,23,メア・ヘスア,0,Branch,26,Rating 60%,12,Go to 12
-4,*,23,メア・ヘスア,0,Branch,44,1st PC ΔLV > 3,6,Go to 6
+4,*,23,メア・ヘスア,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
 5,*,23,メア・ヘスア,0,Branch,30,Always,7,Go to 7
 6,*,23,メア・ヘスア,0,Branch,23,Rating 30%,12,Go to 12
 7,*,23,メア・ヘスア,0,Branch,11,Turn 1,10,Go to 10
@@ -240,7 +240,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 8,*,25,イアールト２,1,Action,525,バーネス,-1,None
 9,*,25,イアールト２,1,Action,100,Ж術詠唱？,-1,None
 10,*,25,イアールト２,1,Action,552,Run,-1,None
-1,*,26,ザダムレステル,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,26,ザダムレステル,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,26,ザダムレステル,0,Branch,30,Always,4,Go to 4
 3,*,26,ザダムレステル,0,Branch,29,Rating 90%,16,Go to 16
 4,*,26,ザダムレステル,0,Branch,2,HP < 25%,12,Go to 12
@@ -297,7 +297,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 7,*,30,エルモ２,1,Action,500,アパ,8,EC w/ Highest ID
 8,*,30,エルモ２,1,Action,551,Guard,-1,None
 9,*,30,エルモ２,1,Action,552,Run,-1,None
-1,*,31,ヘムヘム,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,31,ヘムヘム,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,31,ヘムヘム,0,Branch,30,Always,4,Go to 4
 3,*,31,ヘムヘム,0,Branch,28,Rating 80%,15,Go to 15
 4,*,31,ヘムヘム,0,Branch,17,ECs Alive = 1,9,Go to 9
@@ -317,10 +317,10 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,32,汎用兵Ｂ１,1,Action,550,Attack,2,Random PC
 4,*,32,汎用兵Ｂ１,1,Action,70,手榴弾,2,Random PC
 5,*,32,汎用兵Ｂ１,1,Action,551,Guard,-1,None
-1,*,37,ヤック,0,Branch,45,1st PC ΔLV > 7,3,Go to 3
+1,*,37,ヤック,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
 2,*,37,ヤック,0,Branch,30,Always,4,Go to 4
 3,*,37,ヤック,0,Branch,26,Rating 60%,12,Go to 12
-4,*,37,ヤック,0,Branch,44,1st PC ΔLV > 3,6,Go to 6
+4,*,37,ヤック,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
 5,*,37,ヤック,0,Branch,30,Always,7,Go to 7
 6,*,37,ヤック,0,Branch,23,Rating 30%,12,Go to 12
 7,*,37,ヤック,0,Branch,11,Turn 1,10,Go to 10
@@ -352,10 +352,10 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 8,*,57,イアールト,1,Action,523,バーナ,-1,None
 9,*,57,イアールト,1,Action,100,Ж術詠唱？,-1,None
 10,*,57,イアールト,1,Action,552,Run,-1,None
-1,*,63,メタルクリオネ,0,Branch,45,1st PC ΔLV > 7,3,Go to 3
+1,*,63,メタルクリオネ,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
 2,*,63,メタルクリオネ,0,Branch,30,Always,4,Go to 4
 3,*,63,メタルクリオネ,0,Branch,29,Rating 90%,15,Go to 15
-4,*,63,メタルクリオネ,0,Branch,44,1st PC ΔLV > 3,6,Go to 6
+4,*,63,メタルクリオネ,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
 5,*,63,メタルクリオネ,0,Branch,30,Always,7,Go to 7
 6,*,63,メタルクリオネ,0,Branch,24,Rating 40%,15,Go to 15
 7,*,63,メタルクリオネ,0,Branch,0,HP = 100%,10,Go to 10
@@ -370,10 +370,10 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 16,*,63,メタルクリオネ,1,Action,210,ＨＰ吸収,3,PC w/ Most HP
 17,*,63,メタルクリオネ,1,Action,511,プワゾーク,19,PC w/o Poison
 18,*,63,メタルクリオネ,1,Action,100,Ж術詠唱？,-1,None
-1,*,64,ぶちクリオネ,0,Branch,45,1st PC ΔLV > 7,3,Go to 3
+1,*,64,ぶちクリオネ,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
 2,*,64,ぶちクリオネ,0,Branch,30,Always,4,Go to 4
 3,*,64,ぶちクリオネ,0,Branch,28,Rating 80%,15,Go to 15
-4,*,64,ぶちクリオネ,0,Branch,44,1st PC ΔLV > 3,6,Go to 6
+4,*,64,ぶちクリオネ,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
 5,*,64,ぶちクリオネ,0,Branch,30,Always,7,Go to 7
 6,*,64,ぶちクリオネ,0,Branch,24,Rating 40%,15,Go to 15
 7,*,64,ぶちクリオネ,0,Branch,0,HP = 100%,10,Go to 10
@@ -404,12 +404,12 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 5,*,72,警備士,0,Branch,24,Rating 40%,8,Go to 8
 6,*,72,警備士,0,Branch,30,Always,9,Go to 9
 7,*,72,警備士,1,Action,550,Attack,2,Random PC
-8,*,72,警備士,1,Action,80,薬草,7,Injured EC
+8,*,72,警備士,1,Action,80,薬草,7,EC w/ Least HP
 9,*,72,警備士,1,Action,551,Guard,-1,None
-1,*,86,はぐれクリオネ,0,Branch,45,1st PC ΔLV > 7,3,Go to 3
+1,*,86,はぐれクリオネ,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
 2,*,86,はぐれクリオネ,0,Branch,30,Always,4,Go to 4
 3,*,86,はぐれクリオネ,0,Branch,29,Rating 90%,16,Go to 16
-4,*,86,はぐれクリオネ,0,Branch,44,1st PC ΔLV > 3,6,Go to 6
+4,*,86,はぐれクリオネ,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
 5,*,86,はぐれクリオネ,0,Branch,30,Always,7,Go to 7
 6,*,86,はぐれクリオネ,0,Branch,26,Rating 60%,16,Go to 16
 7,*,86,はぐれクリオネ,0,Branch,0,HP = 100%,10,Go to 10
@@ -426,13 +426,13 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 18,*,86,はぐれクリオネ,1,Action,519,ジェドーサ,19,PC w/o Poison
 19,*,86,はぐれクリオネ,1,Action,100,Ж術詠唱？,-1,None
 20,*,86,はぐれクリオネ,1,Action,56,電撃,-1,None
-1,*,88,ユールマラー２,0,Branch,45,1st PC ΔLV > 7,3,Go to 3
+1,*,88,ユールマラー２,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
 2,*,88,ユールマラー２,0,Branch,30,Always,4,Go to 4
 3,*,88,ユールマラー２,0,Branch,24,Rating 40%,6,Go to 6
 4,*,88,ユールマラー２,0,Branch,21,Rating 10%,6,Go to 6
 5,*,88,ユールマラー２,1,Action,550,Attack,1,Same PC
 6,*,88,ユールマラー２,1,Action,552,Run,-1,None
-1,*,90,ヴァンピレッサ２,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,90,ヴァンピレッサ２,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,90,ヴァンピレッサ２,0,Branch,30,Always,4,Go to 4
 3,*,90,ヴァンピレッサ２,0,Branch,24,Rating 40%,11,Go to 11
 4,*,90,ヴァンピレッサ２,0,Branch,0,HP = 100%,7,Go to 7
@@ -445,7 +445,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 11,*,90,ヴァンピレッサ２,1,Action,552,Run,-1,None
 12,*,90,ヴァンピレッサ２,1,Action,211,ＨＰ吸収,3,PC w/ Most HP
 13,*,90,ヴァンピレッサ２,1,Action,533,ボルティ,2,Random PC
-1,*,92,ヘムヘム２,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,92,ヘムヘム２,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,92,ヘムヘム２,0,Branch,30,Always,4,Go to 4
 3,*,92,ヘムヘム２,0,Branch,28,Rating 80%,15,Go to 15
 4,*,92,ヘムヘム２,0,Branch,17,ECs Alive = 1,9,Go to 9
@@ -460,7 +460,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,*,92,ヘムヘム２,1,Action,82,仲間を呼ぶ,-1,None
 14,*,92,ヘムヘム２,1,Action,98,仲間を呼ぶ,-1,None
 15,*,92,ヘムヘム２,1,Action,552,Run,-1,None
-1,*,95,セベスク２,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,95,セベスク２,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,95,セベスク２,0,Branch,30,Always,4,Go to 4
 3,*,95,セベスク２,0,Branch,24,Rating 40%,13,Go to 13
 4,*,95,セベスク２,0,Branch,40,Used Gather Strength?,15,Go to 15
@@ -475,7 +475,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,*,95,セベスク２,1,Action,552,Run,-1,None
 14,*,95,セベスク２,1,Action,20,ためる,-1,None
 15,*,95,セベスク２,1,Action,170,針乱射,2,Random PC
-1,*,96,ロッキ,0,Branch,44,1st PC ΔLV > 3,3,Go to 3
+1,*,96,ロッキ,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,96,ロッキ,0,Branch,30,Always,4,Go to 4
 3,*,96,ロッキ,0,Branch,28,Rating 80%,7,Go to 7
 4,*,96,ロッキ,0,Branch,27,Rating 70%,6,Go to 6
@@ -578,7 +578,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],Type ID,[Type Name],Task ID,[Task Name],P
 12,*,133,護送将兵,0,Branch,25,Rating 50%,16,Go to 16
 13,*,133,護送将兵,0,Branch,30,Always,17,Go to 17
 14,*,133,護送将兵,1,Action,550,Attack,2,Random PC
-15,*,133,護送将兵,1,Action,506,サプラ,7,Injured EC
+15,*,133,護送将兵,1,Action,506,サプラ,7,EC w/ Least HP
 16,*,133,護送将兵,1,Action,533,ボルティ,2,Random PC
 17,*,133,護送将兵,1,Action,19,反撃の構え,-1,None
 18,*,133,護送将兵,1,Action,551,Guard,-1,None
