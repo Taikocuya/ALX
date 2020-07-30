@@ -1655,7 +1655,6 @@ SYS.configure do |_s|
     gs(/\A(TONE(?>\.{lwrw}{3,4})?)\z/n, '\1'),
     gs(/\A(tone(?>\.{lwrw}{3,4})?)\z/n, '\1'),
     gs(/\A(treasure)\z/n, '\1'),
-    gs(/\A(treasure)\z/n, '\1'),
     gs(/\A(ts{dgtw}{6}{lwrw}?(?>\.{lwrw}{3})?)\z/n, '\1'),
     gs(/\A(TS{dgtw}{6}{uprw}?(?>\.{uprw}{3})?)\z/n, '\1'),
     gs(/\A(TW{dgtw}{6})\z/n, '\1'),
