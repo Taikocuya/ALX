@@ -1,120 +1,120 @@
-Entry ID,Item ID,[Item Name],Item Amount
-0,240,Sap Leaf,3
-1,240,Sap Leaf,3
-2,244,Amber,2
-3,513,Gold,150
-4,258,Moonberry,1
-5,514,Gold,200
-6,490,修復材,3
-7,241,Saprum Leaf,2
-8,258,Moonberry,1
-9,244,Amber,3
-10,281,睡眠の杖,1
-11,515,Gold,300
-12,258,Moonberry,1
-13,122,ドラクマＳＰ,1
-14,184,無毒の首飾り,1
-15,55,発掘アーム,1
-16,258,Moonberry,1
-17,275,回復の杖,1
-18,260,Power Berry,1
-19,240,Sap Leaf,25
-20,264,Speed Berry,1
-21,258,Moonberry,1
-22,520,Gold,1827
-23,258,Moonberry,1
-24,258,Moonberry,1
-25,87,Pirate Clothes,3
-26,522,Gold,2248
-27,258,Moonberry,1
-28,524,Gold,3000
-29,131,ラーの煌布,1
-30,258,Moonberry,1
-31,258,Moonberry,1
-32,131,ラーの煌布,1
-33,258,Moonberry,1
-34,240,Sap Leaf,1
-35,240,Sap Leaf,2
-36,512,Gold,50
-37,244,Amber,2
-38,240,Sap Leaf,2
-39,258,Moonberry,1
-40,241,Saprum Leaf,2
-41,267,炎の杖,1
-42,125,銀の服,1
-43,249,治癒薬,3
-44,4,処刑の剣,1
-45,516,Gold,527
-46,126,清掃ツナギ,1
-47,241,Saprum Leaf,3
-48,25,遊牧民の飛刀,1
-49,517,Gold,774
-50,258,Moonberry,1
-51,244,Amber,5
-52,283,Bag of Spices,1
-53,518,Gold,800
-54,127,天女の羽衣,1
-55,258,Moonberry,1
-56,262,Vigor Berry,1
-57,411,３インチ副砲改,1
-58,54,デ式ドリル,1
-59,249,治癒薬,4
-60,252,攻防ＵＰ薬,4
-61,254,ＨＰターン回復薬,2
-62,253,素早さＵＰ薬,4
-63,56,古代アーム,1
-64,284,金塊,1
-65,136,ＥＣ宝レア４,1
-66,258,Moonberry,1
-67,261,Mind Berry,1
-68,519,Gold,1186
-69,243,Sapocine Leaf,2
-70,10,大地の剣,1
-71,250,復活１薬,3
-72,243,Sapocine Leaf,2
-73,17,ガルウィング,1
-74,521,Gold,2001
-75,247,Ｈ＆Ｍ回復１薬,1
-76,128,ダカットの服,1
-77,244,Amber,4
-78,124,ギルダーＳＰ,2
-79,245,Amber Ball,1
-80,258,Moonberry,1
-81,258,Moonberry,1
-82,250,復活１薬,2
-83,274,稲妻の杖,1
-84,265,Life Berry,1
-85,248,Ｈ＆Ｍ回復２薬,1
-86,258,Moonberry,1
-87,256,睡眠ガス弾,1
-88,258,Moonberry,1
-89,11,夢追いの剣,1
-90,266,Magic Berry,1
-91,129,レオナルドの服,1
-92,258,Moonberry,1
-93,255,手りゅう弾,1
-94,246,ガッツ回復薬,1
-95,523,Gold,2731
-96,258,Moonberry,1
-97,19,氷の翼,1
-98,257,毒ガス弾,1
-99,62,紫氷刀,1
-100,258,Moonberry,1
-101,258,Moonberry,1
-102,245,Amber Ball,2
-103,525,Gold,4000
-104,258,Moonberry,1
-105,242,Sapres Leaf,2
-106,409,Ｘ主砲,1
-107,60,王家の宝刀,1
-108,243,Sapocine Leaf,3
-109,258,Moonberry,1
-110,293,ダミーアイテム,1
-111,258,Moonberry,1
-112,258,Moonberry,1
-113,263,Agile Berry,1
-114,258,Moonberry,1
-115,240,Sap Leaf,4
-116,244,Amber,4
-117,243,Sapocine Leaf,4
-118,242,Sapres Leaf,3
+Entry ID,[Location],Item ID,[Item Name],Item Amount
+0,Pirate Isle Village,240,Sap Leaf,3
+1,Pirate Isle Village,240,Sap Leaf,3
+2,Pirate Isle Village,244,Amber,2
+3,Pirate Isle Underground,513,Gold,150
+4,Pirate Isle Underground,258,Moonberry,1
+5,Pirate Isle Underground,514,Gold,200
+6,Sailors‘ Island,490,修復材,3
+7,Lower City,241,Saprum Leaf,2
+8,Lower City,258,Moonberry,1
+9,Maramba,244,Amber,3
+10,Maramba,281,睡眠の杖,1
+11,Maramba,515,Gold,300
+12,Maramba,258,Moonberry,1
+13,Maramba,122,ドラクマＳＰ,1
+14,Maramba,184,無毒の首飾り,1
+15,Maramba,55,発掘アーム,1
+16,Horteka,258,Moonberry,1
+17,Horteka,275,回復の杖,1
+18,Horteka,260,Power Berry,1
+19,Horteka,240,Sap Leaf,25
+20,Nasrad,264,Speed Berry,1
+21,Deserted Island,258,Moonberry,1
+22,Deserted Island,520,Gold,1827
+23,Nasrad,258,Moonberry,1
+24,Esparanza,258,Moonberry,1
+25,Esparanza,87,Pirate Clothes,3
+26,Esparanza,522,Gold,2248
+27,Yafutoma,258,Moonberry,1
+28,Yafutoma,524,Gold,3000
+29,Great Silver Shrine,131,ラーの煌布,1
+30,Great Silver Shrine,258,Moonberry,1
+31,Great Silver Shrine,258,Moonberry,1
+32,Great Silver Shrine,131,ラーの煌布,1
+33,Delphinus,258,Moonberry,1
+34,Valuan Battle Ship,240,Sap Leaf,1
+35,Valuan Battle Ship,240,Sap Leaf,2
+36,Valuan Battle Ship,512,Gold,50
+37,Valuan Battle Ship,244,Amber,2
+38,Shrine Island,240,Sap Leaf,2
+39,Shrine Island,258,Moonberry,1
+40,Shrine Island,241,Saprum Leaf,2
+41,Catacombs,267,炎の杖,1
+42,Catacombs,125,銀の服,1
+43,Catacombs,249,治癒薬,3
+44,Catacombs,4,処刑の剣,1
+45,Temple of Pyrynn,516,Gold,527
+46,Temple of Pyrynn,126,清掃ツナギ,1
+47,Temple of Pyrynn,241,Saprum Leaf,3
+48,Temple of Pyrynn,25,遊牧民の飛刀,1
+49,Temple of Pyrynn,517,Gold,774
+50,Temple of Pyrynn,258,Moonberry,1
+51,Temple of Pyrynn,244,Amber,5
+52,Temple of Pyrynn,283,Bag of Spices,1
+53,Moonstone Mountain,518,Gold,800
+54,Moonstone Mountain,127,天女の羽衣,1
+55,Moonstone Mountain,258,Moonberry,1
+56,Moonstone Mountain,262,Vigor Berry,1
+57,Moonstone Mountain,411,３インチ副砲改,1
+58,Moonstone Mountain,54,デ式ドリル,1
+59,Moonstone Mountain,249,治癒薬,4
+60,Moonstone Mountain,252,攻防ＵＰ薬,4
+61,Moonstone Mountain,254,ＨＰターン回復薬,2
+62,Moonstone Mountain,253,素早さＵＰ薬,4
+63,Rixis,56,古代アーム,1
+64,Rixis,284,金塊,1
+65,Rixis,136,ＥＣ宝レア４,1
+66,Rixis,258,Moonberry,1
+67,Rixis,261,Mind Berry,1
+68,Rixis,519,Gold,1186
+69,Rixis,243,Sapocine Leaf,2
+70,Rixis,10,大地の剣,1
+71,Rixis,250,復活１薬,3
+72,Daccat's Island,243,Sapocine Leaf,2
+73,Daccat's Island,17,ガルウィング,1
+74,Daccat's Island,521,Gold,2001
+75,Daccat's Island,247,Ｈ＆Ｍ回復１薬,1
+76,Daccat's Island,128,ダカットの服,1
+77,Daccat's Island,244,Amber,4
+78,Daccat's Island,124,ギルダーＳＰ,2
+79,Daccat's Island,245,Amber Ball,1
+80,Daccat's Island,258,Moonberry,1
+81,Daccat's Island,258,Moonberry,1
+82,Daccat's Island,250,復活１薬,2
+83,Daccat's Island,274,稲妻の杖,1
+84,Daccat's Island,265,Life Berry,1
+85,Grand Fortress,248,Ｈ＆Ｍ回復２薬,1
+86,Grand Fortress,258,Moonberry,1
+87,Mount Kazai,256,睡眠ガス弾,1
+88,Mount Kazai,258,Moonberry,1
+89,The Dark Rift,11,夢追いの剣,1
+90,The Dark Rift,266,Magic Berry,1
+91,The Dark Rift,129,レオナルドの服,1
+92,The Dark Rift,258,Moonberry,1
+93,The Dark Rift,255,手りゅう弾,1
+94,The Dark Rift,246,ガッツ回復薬,1
+95,The Dark Rift,523,Gold,2731
+96,The Dark Rift,258,Moonberry,1
+97,Glacia,19,氷の翼,1
+98,Glacia,257,毒ガス弾,1
+99,Glacia,62,紫氷刀,1
+100,Glacia,258,Moonberry,1
+101,Glacia,258,Moonberry,1
+102,Hydra,245,Amber Ball,2
+103,Dangral Island,525,Gold,4000
+104,Dangral Island,258,Moonberry,1
+105,Dangral Island,242,Sapres Leaf,2
+106,Hydra,409,Ｘ主砲,1
+107,Dangral Island,60,王家の宝刀,1
+108,Hydra,243,Sapocine Leaf,3
+109,Hydra,258,Moonberry,1
+110,Soltis,293,ダミーアイテム,1
+111,Soltis,258,Moonberry,1
+112,Soltis,258,Moonberry,1
+113,Maw of Tartas,263,Agile Berry,1
+114,Maw of Tartas,258,Moonberry,1
+115,Catacombs,240,Sap Leaf,4
+116,Catacombs,244,Amber,4
+117,Yafutoma,243,Sapocine Leaf,4
+118,The Dark Rift,242,Sapres Leaf,3

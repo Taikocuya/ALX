@@ -75,6 +75,8 @@ class TreasureChest < StdEntry
   
   # Initialize the entry properties.
   def init_props
+    self[VOC.location] = StrProp.new(nil, '', dmy: true)
+      
     if product_id != '6107110 06' && product_id != '6107810'
       self[VOC.item_id[-1]    ] = IntProp.new(:i32, -1           )
       self[VOC.item_name[-1]  ] = StrProp.new( nil, '', dmy: true)
@@ -85,9 +87,14 @@ class TreasureChest < StdEntry
       self[VOC.item_amount[-1]] = IntProp.new(:i16, -1           )
     end
   end
-  
+
   # Initialize the entry procs.
   def init_procs
+    fetch(VOC.id).proc = Proc.new do |_id|
+      _name = voc(:treasure_chests, id.to_s) || '???'
+      self[VOC.location] = _name
+    end
+
     fetch(VOC.item_id[-1]).proc = Proc.new do |_id|
       if _id != -1
         if _id >= 510
