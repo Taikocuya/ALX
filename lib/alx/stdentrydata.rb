@@ -292,12 +292,9 @@ class StdEntryData < EntryData
       _descriptor = find_descriptor(@data_file, _filename)
       @data.each do |_id, _entry|
         _f.pos = _descriptor.convert((_id - @id_range.begin) * _size)
-        if !_descriptor.include?(_f.pos, _size) || 
-           !id_valid?(_id, @id_range, _descriptor)
-          next
-        end
-        unless _entry.expired
-          LOG.info(sprintf(VOC.dup, _id - @id_range.begin, _f.pos))
+        if !_descriptor.include?(_f.pos, _size)    || 
+           !id_valid?(_id, @id_range, _descriptor) ||
+           !_entry.expired
           next
         end
         
@@ -346,11 +343,7 @@ class StdEntryData < EntryData
         end
         
         _f.pos = _pos
-        unless _descriptor.include?(_f.pos, _size)
-          next
-        end
-        unless _entry.expired
-          LOG.info(sprintf(VOC.dup, _id - @id_range.begin, _pos))
+        if !_descriptor.include?(_f.pos, _size) || !_entry.expired
           next
         end
         
@@ -399,11 +392,7 @@ class StdEntryData < EntryData
         end
         
         _f.pos = _pos
-        unless _descriptor.include?(_f.pos, _size)
-          next
-        end
-        unless _entry.expired
-          LOG.info(sprintf(VOC.dup, _id - @id_range.begin, _pos))
+        if !_descriptor.include?(_f.pos, _size) || !_entry.expired
           next
         end
         

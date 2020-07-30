@@ -255,7 +255,11 @@ module Serializable
       _str.gsub!('”', ']')
     end
     
-    _str.encode!(_encoding)
+    if _encoding == 'ASCII-8BIT'
+      _str.force_encoding('ASCII-8BIT')
+    else
+      _str.encode!(_encoding)
+    end
 
     if _size > 0
       if _str.bytesize + 1 > _size

@@ -44,7 +44,6 @@ VOC.configure do |_v|
   _v.country_id      = 'Country ID'
   _v.description     = 'Description'
   _v.done            = 'done'
-  _v.dup             = 'Unchanged entry #%s @ 0x%x'
   _v.exists          = 'exists'
   _v.failed          = 'failed'
   _v.identified      = 'identified'

@@ -209,11 +209,7 @@ class EnemyShipData < StdEntryData
           end
           
           _f.pos = _pos
-          unless _descriptor.include?(_f.pos, _size - 1)
-            next
-          end
-          unless _entry.expired
-            LOG.info(sprintf(VOC.dup, _id - @id_range.begin, _pos))
+          if !_descriptor.include?(_f.pos, _size - 1) || !_entry.expired
             next
           end
           

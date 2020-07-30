@@ -164,11 +164,7 @@ class DefinedStringData < EntryData
         _str      = _entry[VOC.string_value   ]
         
         _f.pos = _pos
-        unless _descriptor.include?(_f.pos, _size)
-          next
-        end
-        if !_entry.expired || _encoding == 'ASCII-8BIT'
-          LOG.info(sprintf(VOC.dup, _id, _pos))
+        if !_descriptor.include?(_f.pos, _size) || !_entry.expired
           next
         end
         

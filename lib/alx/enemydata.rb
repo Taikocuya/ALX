@@ -472,11 +472,7 @@ class EnemyData < EntryData
         end
         
         _f.pos = _descriptor.convert(_id - @event_bgm_id_range.begin)
-        unless _descriptor.include?(_f.pos)
-          next
-        end
-        unless _entry.expired
-          LOG.info(sprintf(VOC.dup, _id - @event_bgm_id_range.begin, _f.pos))
+        if !_descriptor.include?(_f.pos) || !_entry.expired
           next
         end
         
