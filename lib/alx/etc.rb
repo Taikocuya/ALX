@@ -42,7 +42,7 @@ class ETC
 
   # Configuration directories
   CONFIG_DIRS = [
-    File.dirname(__FILE__), File.join(File.dirname(__FILE__), '../../etc'),
+    File.dirname(__FILE__), File.join(File.dirname(__FILE__), '../../config'),
   ]
   
   # Configuration files

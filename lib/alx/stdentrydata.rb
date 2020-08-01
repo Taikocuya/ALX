@@ -475,7 +475,7 @@ class StdEntryData < EntryData
   # Reads all entries from CSV files (CSV files first, TPL files last).
   def load_csv
     load_csv_data(File.join(root.dirname , @csv_file)      )
-    load_csv_data(File.join(SYS.share_dir, @tpl_file), true)
+    load_csv_data(File.join(SYS.build_dir, @tpl_file), true)
   end
 
   # Writes all data entries to a CSV file.

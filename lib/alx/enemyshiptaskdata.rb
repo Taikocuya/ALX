@@ -176,7 +176,7 @@ class EnemyShipTaskData < EntryData
 
   # Reads all entries from CSV files (TPL files first, CSV files last).
   def load_csv
-    load_csv_data(File.join(SYS.share_dir, @tpl_file), true)
+    load_csv_data(File.join(SYS.build_dir, @tpl_file), true)
     load_csv_data(File.join(root.dirname , @csv_file)      )
   end
 

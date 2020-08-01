@@ -75,7 +75,7 @@ class ShtManager
   
   # Removes all snapshots.
   def delete_snaps
-    _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
+    _dirname  = File.join(@root.dirname, SYS.cache_dir)
     _filename = sprintf(SHT_FILE, @name, '*').downcase
     FileUtils.rm(Dir.glob(File.join(_dirname, _filename)))
   end
@@ -85,7 +85,7 @@ class ShtManager
   # @return [Object] Object instance
   def load_sht_data(_sym)
     _sym      = _sym.to_sym
-    _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
+    _dirname  = File.join(@root.dirname, SYS.cache_dir)
     _filename = sprintf(SHT_FILE, @name, _sym).downcase
     _filename = File.join(_dirname, _filename)
 
@@ -129,7 +129,7 @@ class ShtManager
       _obj.default_proc = nil
     end
 
-    _dirname  = File.join(@root.dirname, SYS.snapshot_dir)
+    _dirname  = File.join(@root.dirname, SYS.cache_dir)
     _filename = sprintf(SHT_FILE, @name, _sym).downcase
     _filename = File.join(_dirname, _filename)
 

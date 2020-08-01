@@ -28,7 +28,7 @@
 * [Google Translator](https://translate.google.de/) — Translator
 * [SourceForge](https://sourceforge.net/) — Project hosting
 
-## See also
+## See Also
 
 * [@AresArcadia](https://twitter.com/AresArcadia)
 * [Skies of Arcadia Wiki](https://skiesofarcadia.gamepedia.com/)

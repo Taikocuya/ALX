@@ -59,7 +59,7 @@ SYS.configure do |_s|
   _s.log_level = 'info'
   
 #------------------------------------------------------------------------------
-# Cache
+# Snapshots
 #------------------------------------------------------------------------------
 
   # Enables or disables the use of cache storage. If you disable the use of 

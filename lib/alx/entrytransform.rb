@@ -89,10 +89,10 @@ class EntryTransform
     end
   end
   
-  # Collects and validates several game subdirectories in +SYS.share_dir+ by 
+  # Collects and validates several game subdirectories in +SYS.build_dir+ by 
   # default.
   def exec
-    collect(SYS.share_dir)
+    collect(SYS.build_dir)
   end
   
   # Returns +true+ if all necessary commands and files exist, otherwise 

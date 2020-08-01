@@ -764,19 +764,19 @@ class EnemyData < EntryData
 
   # Reads all entries from CSV files (TPL files first, CSV files last).
 	def load_csv
-	  _share = SYS.share_dir
+	  _build = SYS.build_dir
     _root  = root.dirname
 	  
-    load_csv_enemies(File.join(_share, @enemy_tpl_file), true)
+    load_csv_enemies(File.join(_build, @enemy_tpl_file), true)
     load_csv_enemies(File.join(_root , @enemy_csv_file)      )
 
-    load_csv_tasks(File.join(_share, @task_tpl_file), true)
+    load_csv_tasks(File.join(_build, @task_tpl_file), true)
     load_csv_tasks(File.join(_root , @task_csv_file)      )
     
-    load_csv_events(File.join(_share, @event_tpl_file), true)
+    load_csv_events(File.join(_build, @event_tpl_file), true)
     load_csv_events(File.join(_root , @event_csv_file)      )
     
-    load_csv_encounters(File.join(_share, @encounter_tpl_file), true)
+    load_csv_encounters(File.join(_build, @encounter_tpl_file), true)
     load_csv_encounters(File.join(_root , @encounter_csv_file)      )
 	end
 	
