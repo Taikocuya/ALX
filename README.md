@@ -5,7 +5,7 @@ game data from Skies of Arcadia, Skies of Arcadia Legends, Eternal Arcadia
 (エターナルアルカディア) and Eternal Arcadia Legends (エターナルアルカディアレジェンド). It 
 is able to export and import the data to and from CSV files.
 
-![ALX — Skies of Arcadia Legends Examiner](doc/cli.png)
+![ALX — Skies of Arcadia Legends Examiner](/doc/cli.png)
 
 ## Features
 
@@ -89,10 +89,9 @@ build
 To obtain the game data for the `root` directory, you need a corresponding 
 image (ISO, GCM or GDI) and the appropriate data extraction tool.
 
-| Platform  | Download                                                     |
-|:----------|:-------------------------------------------------------------|
-| Dreamcast | [GDRom Explorer](https://www.romhacking.net/utilities/1459/) |
-| Gamecube  | [GCRebuilder](http://www.romhacking.net/utilities/619/)      |
+* ![](/doc/dc.png) [GD-ROM Explorer](/vendor/GDROM-Explorer)
+* ![](/doc/dc.png) [GDIbuilder](/vendor/GDIbuilder)
+* ![](/doc/gc.png) [GCRebuilder](/vendor/GCRebuilder)
 
 ## Commands
 
@@ -236,18 +235,19 @@ build
 
 ## Resources
 
-![Enemy Stats](doc/enemy.png)
-![Enemy Action Patterns](doc/enemytask.png)
-![Enemy Super Moves](doc/enemysupermove.png)
-![Usable Items](doc/usableitem.png)
-![Shops](doc/shop.png)
+![Enemy Stats](/doc/enemy.png)
+![Enemy Action Patterns](/doc/enemytask.png)
+![Enemy Super Moves](/doc/enemysupermove.png)
+![Usable Items](/doc/usableitem.png)
+![Shops](/doc/shop.png)
+![Defined Strings](/doc/definedstring.png)
 
 ## Acknowledgments
 
-See [CREDITS.md](CREDITS.md) for a full list of the awesome people, groups and 
+See [CREDITS.md](/CREDITS.md) for a full list of the awesome people, groups and 
 software that made this project possible.
 
 ## License
 
 Copyright (C) 2020 Marcel Renner. ALX is licensed under the GNU General Public 
-License, Version 3.0. See [LICENSE.md](LICENSE.md) for the full license text.
+License, Version 3.0. See [LICENSE.md](/LICENSE.md) for the full license text.

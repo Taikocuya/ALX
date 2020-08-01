@@ -24,10 +24,9 @@ build
 To obtain the game data for the `root` directory, you need a corresponding 
 image (ISO, GCM or GDI) and the appropriate data extraction tool.
 
-| Platform  | Download                                                     |
-|:----------|:-------------------------------------------------------------|
-| Dreamcast | [GDRom Explorer](https://www.romhacking.net/utilities/1459/) |
-| Gamecube  | [GCRebuilder](http://www.romhacking.net/utilities/619/)      |
+* ![](/doc/dc.png) [GD-ROM Explorer](/vendor/GDROM-Explorer)
+* ![](/doc/dc.png) [GDIbuilder](/vendor/GDIbuilder)
+* ![](/doc/gc.png) [GCRebuilder](/vendor/GCRebuilder)
 
 ## Commands
 

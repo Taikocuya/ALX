@@ -1,0 +1,160 @@
+____________________________________________________
+
+ GDROM Explorer - v1.6.3
+                        by japanese_cake 2010 - 2016
+____________________________________________________
+
+v1.6.3 (2016/03/03):
+ - Fixed: After extraction, data can be corrupted. Thanks tormod!
+ - Testing: no regression test added.
+
+v1.6.2 (2014/08/30):
+ - Fixed: Drag'n drop for file extraction (missing flag in the release build).
+ - Fixed: UI messages and typos.
+ - Fixed: Unable to open some CDI v3.5 files.
+ - Fixed: Horizontal scrolling in the file explorer.
+ - Fixed: IP.BIN TOC viewer does not display the right LBAs and sizes.
+ - Fixed: Cannot open any files when the app is in a network shared folder.
+ - Added: NAOMI binary encryption (for those that would like to test hacks).
+ - Added: Export GDI for GDEMU, with region-free and VGA patches (and also
+          EDC/ECC data re-generation).
+ - Added: Edit menu to see possible user actions for a selection.
+ - Added: GDI track checks to ensure tracks are continuous and do not overlap.
+ - Improved: UI responsiveness when opening folders with hundreds of files.
+ - Cleanup: UI code.
+
+v1.6.1 (2014/03/29):
+ - Fixed: ¨No valid file-system found" error.
+ - Fixed: Some Naomi images are detected as Dreamcast images.
+ - Fixed: Weird behaviour when clicking on '+' and '-' in the tree.
+
+v1.6 (2014/03/17):
+ - Added: a nice IP.BIN viewer (game settings, images, libraries and a lot more).
+ - Added: Primary Volume Descriptor viewer.
+ - Added: MR image conversion and extraction.
+ - Added: File extraction via Drag'n Drop operation.
+ - Added: Status bar to show the program last event.
+ - Added: Padus DiscJuggler image (.CDI) support.
+ - Added: Disc track extraction.
+ - Added: Settings menu for mostly the file associations.
+ - Added: Auto-load NAOMI DES key
+ - Fixed: IP.BIN parsing errors.
+ - Fixed: Progress bar flickering.
+ - Fixed: Support data/data images.
+ - Fixed: Memory leakages.
+ - Fixed: Typos here and there
+ - Improved: UI colors, remove and add some icons.
+ - Improved: Try reading image even if IP.BIN missing.
+ - Improved: Error handling for non-compliant images.
+ - Improved: Explicit error messages upon IP.BIN parsing errors.
+ - Improved: Code robustness.
+ - Testing: Add unit tests for IP.BIN parsing.
+
+v1.5.1 (2013/04/21):
+ - Fixed: IP.BIN is truncated on extraction.
+ - Fixed: Main binary file highlighting isn't always working.
+ - Fixed: Nagivate through the directories using the keyboard doesn't work.
+
+v1.5.0 (2013/03/17):
+ - Added: Multi image-formats support (.gdi, .bin and .iso).
+ - Added: The application is resizable.
+ - Added: User can cancel extraction/convertion operations.
+ - Added: GDDA conversion from external file.
+ - Added: Show the ip as a file in the folder tree.
+ - Added: Show folder information when the cursor is on an item.
+ - Added: Explicit error messages when opening an image.
+ - Fixed: Memory consumption overload.
+ - Fixed: GDI file parsing errors (now covered by unit tests) 
+ - Fixed: Application crashed if the specified input file
+          doesn't exist.
+ - Fixed: No consistent file dialogs' paths.
+ - Fixed: Minor parsing error with the ISO9660 file-system.
+ - Fixed: Better DES key error handling.
+ - Removed: Support of zipped archives.
+ - Cleanup: Refactor most of the code
+ - Testing: Add unit tests for data extraction and input file parsing operations.
+
+v1.4 beta (2011/12/07):
+ - Added: Now support reading compressed GDI archives (ZIP) but
+          it can still not extract data from them.
+ - Fixed: Cannot parse GDI file with tabulation chars.
+ - Fixed: Unable to extract directories when their relative name
+          is like another ones in an highest path.
+ - Fixed: The 2 seconds pause at the end of each CD-DA tracks is
+          not well removed.
+ - Fixed: An extracted directory datetime do not match with iso
+          datetime.
+ - Fixed: File association does not support long filenames.
+ - Fixed: The UI does not clean some fields when a loading error
+          occures.
+ - Fixed: The right-click menu option "Convert all GDDA" appears
+          even if there is no GDDA track.
+ - Cleanup: UI's code and debugging information
+  
+v1.3.0.1 - beta to v1.3.1.2 (2010/09/08):
+ - Fixed: Some loading errors
+ - Fixed: Create a folder "trackXX" while extracting a data track
+ - Added: Open a save dialog box while extrating a file
+ - Added: Auto-paste PIC DES key if presents in the clipboard
+ - Cleanup: GDIUtils's code
+
+v1.2 to v1.3.0.1 - beta (2010/09/07):
+ - Fixed: Less memory consumption while extracting files
+ - Fixed: Clean up some parts of code
+ - Fixed: Do not count directories in the session information frame
+ - Fixed: Do not highlight Naomi bootfile in file list
+ - Fixed: Crash when converting CDDA if the session does not have one
+ - Added: Ask for a prefix while generating the "sorttxt.txt" file
+ - Added: Can decrypt a Naomi binary (need a PIC DES key per game)
+          from an external file or from a file inside a GDI image
+
+v1.1.3 to v1.2 (2010/07/04):
+ - Removed: GDI2CUE Converter (not useful anymore)
+ - Added: Allow columns sorting in the list view
+ - Added: Extract ip when extracting the whole disc
+ - Added: File loading improvements
+ - Added: GDDA to CDDA conversion (using the tree view or
+          conversion menu)
+ - Added: Highlight bootfile in file list
+ - Added: CUE file export
+
+v1.1.2 to v1.1.3 (2010/06/11):
+ - Fixed: After extraction, some files are corrupted
+ - Fixed: Disc tree navigation don't show the current opened
+          directory
+ - Added: Show GDDA tracks
+ - Added: Drag & drop with .gdi files
+
+v1.1 fixed to v1.1.2 (2010/03/11):
+ - Added: IP.BIN & IP0000.BIN extraction.
+ - Added: Messagebox after extracting the boot file or
+          the sorttxt.txt file.
+ - Added: Newer version of GDI2CUE Converter (v1.3.0.1)
+
+v1.1 to v1.1 fixed (2010/03/04):
+ - Fixed: Cannot extract multiple files
+ - Fixed: Association button crashes programs
+ - Fixed: Unhandled WinForms exceptions
+ - Added: The sorttxt.txt file generation
+ - Added: An icon when GDI files are associated with GDI Explorer
+ - Added: New explorer icons
+
+v1.0b to v1.1 (2010/02/20):
+ - Improved: Exception handling
+ - Fixed: File access date.
+ - Fixed: Extracting process failed when an app is reading a file/dir
+ - Fixed: Extracting progress-bar doesn't count correctly
+ - Added: Loading window
+ - Added: List multiple selection
+ - Added: You can now associate *.gdi files with GDI Explorer
+ - Added: A GDI file icon
+
+v1.0b :
+ - First public beta
+
+____________________________________________________
+
+                                  jc.dcdev@gmail.com
+                       japanese-cake.livejournal.com
+____________________________________________________
+

@@ -25,4 +25,6 @@ Thumbs.db
 /log/
 /tmp/
 /vendor/*
-!/vendor/gcr
+!/vendor/GCRebuilder
+!/vendor/GDIbuilder
+!/vendor/GDROM-Explorer
