@@ -15,14 +15,14 @@ Thumbs.db
 .~lock.*#
 
 # ALX
-/build
+/build/*
 !/build/README.md
 /config/*.rb
 /dist/*/backup
 /dist/*/cache
 /dist/*/image
 /dist/*/root
-/log
-/tmp
-/vendor
+/log/
+/tmp/
+/vendor/*
 !/vendor/gcr
