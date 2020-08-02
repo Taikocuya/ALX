@@ -24,4 +24,5 @@ Thumbs.db
 /dist/*/root
 /log/
 /tmp/
-/vendor/
+/vendor/*
+!/vendor/GCRebuilder

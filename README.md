@@ -87,15 +87,15 @@ build
 ```
 
 To obtain the game data for the `root` directory, you need a corresponding 
-image (ISO, GCM or GDI) and the appropriate data extraction tool.
+image (ISO, GCM or GDI) and the appropriate data extraction tool:
 
-* ![SEGA Dreamcast](/doc/sdc16.png)
-  [GD-ROM Explorer](https://www.romhacking.net/utilities/1459/)
-* ![SEGA Dreamcast](/doc/sdc16.png)
-  [GDIbuilder](https://github.com/Sappharad/GDIbuilder)
-* ![Nintendo GameCube](/doc/ngc16.png)
+* ![GameCube](/doc/ngc16.png)
   [GCRebuilder](http://www.romhacking.net/utilities/619/)
-
+* ![Dreamcast](/doc/sdc16.png)
+  [GD-ROM Explorer](https://www.romhacking.net/utilities/1459/)
+* ![Dreamcast](/doc/sdc16.png)
+  [GDIbuilder](https://github.com/Sappharad/GDIbuilder)
+  
 ## Commands
 
 All commands and utilities can be found in the `bin` directory.
@@ -191,10 +191,10 @@ build
 
 ### rebuildimage.rb
 
-Rebuilds a bootable GameCube image in the `image` directory. The destination 
-directory is created automatically if required. This utility expects 
-[GCRebuilder](http://www.romhacking.net/utilities/619/) in the 
-`/vendor/GCRebuilder` directory, which only supports Windows.
+Rebuilds a bootable GameCube image in the `image` directory. The 
+destination directory is created automatically if required. This 
+utility uses [GCRebuilder](http://www.romhacking.net/utilities/619/) 
+in the `/vendor/GCRebuilder` directory, which only supports Windows.
 
 ```bash
 build

@@ -13,20 +13,22 @@
 
 ## Software
 
-* [Dolphin Emulator](https://dolphin-emu.org/) — GameCube emulator
-* [Eclipse](https://www.eclipse.org/) — Source code editor
+* [Dolphin Emulator](https://dolphin-emu.org/) — GameCube Emulator
+* [Eclipse](https://www.eclipse.org/) — Source Code Editor
 * [Free Hex Editor Neo](https://www.hhdsoftware.com/free-hex-editor) — 
-  HEX editor
-* [GCRebuilder](http://www.romhacking.net/utilities/619/) — GCM/ISO editor
-* [LibreOffice](https://www.libreoffice.org/) — CSV editor
-* [WinMerge](https://winmerge.org/) — File comparison tool
+  HEX Editor
+* [GCRebuilder](http://www.romhacking.net/utilities/619/) — GCM/ISO Editor
+* [GD-ROM Explorer](https://www.romhacking.net/utilities/1459/) — GDI Editor
+* [GDIbuilder](https://github.com/Sappharad/GDIbuilder) — GDI Editor
+* [LibreOffice](https://www.libreoffice.org/) — CSV Editor
+* [WinMerge](https://winmerge.org/) — File Comparison Tool
 
 ## Web Services
 
 * [DeepL Translator](https://www.deepl.com/) — Translator
-* [GitHub](https://github.com/) — Project hosting
+* [GitHub](https://github.com/) — Project Hosting
 * [Google Translator](https://translate.google.de/) — Translator
-* [SourceForge](https://sourceforge.net/) — Project hosting
+* [SourceForge](https://sourceforge.net/) — Project Hosting
 
 ## See Also
 
