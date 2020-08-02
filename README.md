@@ -89,19 +89,22 @@ build
 To obtain the game data for the `root` directory, you need a corresponding 
 image (ISO, GCM or GDI) and the appropriate data extraction tool.
 
-* ![](/doc/dc.png) [GD-ROM Explorer](/vendor/GDROM-Explorer)
-* ![](/doc/dc.png) [GDIbuilder](/vendor/GDIbuilder)
-* ![](/doc/gc.png) [GCRebuilder](/vendor/GCRebuilder)
+* ![SEGA Dreamcast](/doc/sdc16.png)
+  [GD-ROM Explorer](https://www.romhacking.net/utilities/1459/)
+* ![SEGA Dreamcast](/doc/sdc16.png)
+  [GDIbuilder](https://github.com/Sappharad/GDIbuilder)
+* ![Nintendo GameCube](/doc/ngc16.png)
+  [GCRebuilder](http://www.romhacking.net/utilities/619/)
 
 ## Commands
 
-All commands can be found in the `bin` directory.
+All commands and utilities can be found in the `bin` directory.
 
 ### createbackup.rb
 
 Creates a backup of the `root` directory and stores it in the `backup` 
 directory. The destination directory is created automatically if required. 
-This command only considers files that can actually be examined by ALX. It is 
+This utility only considers files that can actually be examined by ALX. It is 
 not recommended for a complete backup of all files.
 
 ```bash
@@ -167,7 +170,7 @@ build
 ### restorebackup.rb
 
 Restores the backup from the `backup` directory and overwrites existing files 
-in the `root` directory. The destination directory must exist. This command 
+in the `root` directory. The destination directory must exist. This utility 
 only considers files that can actually be examined by ALX.
 
 ```bash
@@ -189,10 +192,9 @@ build
 ### rebuildimage.rb
 
 Rebuilds a bootable GameCube image in the `image` directory. The destination 
-directory is created automatically if required. Unfortunately, this command is 
-only supported on Windows. Other platforms or Dreamcast images are not 
-supported. This command is only for testing anyway and you probably won't need 
-it.
+directory is created automatically if required. This utility expects 
+[GCRebuilder](http://www.romhacking.net/utilities/619/) in the 
+`/vendor/GCRebuilder` directory, which only supports Windows.
 
 ```bash
 build
@@ -215,7 +217,7 @@ build
 Clears the cache storage in the `cache` directory. If you clear the cache 
 storage, snapshots will not be loaded and differences will not be detected, 
 which enormously increases the next runtime. Normally, you will not need this 
-command, however, it can be used to force a recompilation of all files.
+utility, however, it can be used to force a recompilation of all files.
 
 ```bash
 build

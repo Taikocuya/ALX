@@ -24,7 +24,4 @@ Thumbs.db
 /dist/*/root
 /log/
 /tmp/
-/vendor/*
-!/vendor/GCRebuilder
-!/vendor/GDIbuilder
-!/vendor/GDROM-Explorer
+/vendor/

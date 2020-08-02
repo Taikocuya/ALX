@@ -24,13 +24,16 @@ build
 To obtain the game data for the `root` directory, you need a corresponding 
 image (ISO, GCM or GDI) and the appropriate data extraction tool.
 
-* ![](/doc/dc.png) [GD-ROM Explorer](/vendor/GDROM-Explorer)
-* ![](/doc/dc.png) [GDIbuilder](/vendor/GDIbuilder)
-* ![](/doc/gc.png) [GCRebuilder](/vendor/GCRebuilder)
+* ![SEGA Dreamcast](/doc/sdc16.png)
+  [GD-ROM Explorer](https://www.romhacking.net/utilities/1459/)
+* ![SEGA Dreamcast](/doc/sdc16.png)
+  [GDIbuilder](https://github.com/Sappharad/GDIbuilder)
+* ![Nintendo GameCube](/doc/ngc16.png)
+  [GCRebuilder](http://www.romhacking.net/utilities/619/)
 
 ## Commands
 
-All commands can be found in the `bin` directory.
+All commands and utilities can be found in the `bin` directory.
 
 ### export.rb
 
