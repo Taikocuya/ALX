@@ -5,7 +5,7 @@ game data from Skies of Arcadia, Skies of Arcadia Legends, Eternal Arcadia
 (エターナルアルカディア) and Eternal Arcadia Legends (エターナルアルカディアレジェンド). It 
 is able to export and import the data to and from CSV files.
 
-![ALX — Skies of Arcadia Legends Examiner](/doc/cli.png)
+![ALX — Skies of Arcadia Legends Examiner](/doc/cli.gif)
 
 ## Features
 
