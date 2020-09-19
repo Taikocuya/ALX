@@ -94,11 +94,56 @@ image (ISO, GCM or GDI) and the appropriate data extraction tool:
 * ![Dreamcast](/doc/sdc16.png)
   [GD-ROM Explorer](https://www.romhacking.net/utilities/1459/)
 * ![Dreamcast](/doc/sdc16.png)
-  [GDIbuilder](https://github.com/Sappharad/GDIbuilder)
+  [GDIBuilder](https://github.com/Sappharad/GDIbuilder)
   
 ## Commands
 
 All commands and utilities can be found in the `bin` directory.
+
+### buildimage.rb
+
+Builds a bootable GameCube image in the `image` directory. The destination 
+directory is created automatically if required. This utility only supports 
+Windows.
+
+```bash
+build
+└── custom-name-1
+│   ├── image  #=> Image Folder
+│   └── root   #=> Game Data
+└── custom-name-2
+│   ├── image  #=> Image Folder
+│   └── root   #=> Game Data
+└── custom-name-3
+│   ├── image  #=> Image Folder
+│   └── root   #=> Game Data
+└── custom-name-n
+    ├── image  #=> Image Folder
+    └── root   #=> Game Data
+```
+
+### clearcache.rb
+
+Clears the cache storage in the `cache` directory. If you clear the cache 
+storage, snapshots will not be loaded and differences will not be detected, 
+which enormously increases the next runtime. Normally, you will not need this 
+utility, however, it can be used to force a recompilation of all files.
+
+```bash
+build
+└── custom-name-1
+│   ├── cache  #=> Cache Storage
+│   └── root   #=> Game Data
+└── custom-name-2
+│   ├── cache  #=> Cache Storage
+│   └── root   #=> Game Data
+└── custom-name-3
+│   ├── cache  #=> Cache Storage
+│   └── root   #=> Game Data
+└── custom-name-n
+    ├── cache  #=> Cache Storage
+    └── root   #=> Game Data
+```
 
 ### createbackup.rb
 
@@ -187,52 +232,6 @@ build
 └── custom-name-n
     ├── backup  #=> Backup Files
     └── root    #=> Game Data
-```
-
-### rebuildimage.rb
-
-Rebuilds a bootable GameCube image in the `image` directory. The 
-destination directory is created automatically if required. This 
-utility uses [GCRebuilder](http://www.romhacking.net/utilities/619/) 
-in the `/vendor/GCRebuilder` directory, which only supports Windows.
-
-```bash
-build
-└── custom-name-1
-│   ├── image  #=> Image Folder
-│   └── root   #=> Game Data
-└── custom-name-2
-│   ├── image  #=> Image Folder
-│   └── root   #=> Game Data
-└── custom-name-3
-│   ├── image  #=> Image Folder
-│   └── root   #=> Game Data
-└── custom-name-n
-    ├── image  #=> Image Folder
-    └── root   #=> Game Data
-```
-
-### clearcache.rb
-
-Clears the cache storage in the `cache` directory. If you clear the cache 
-storage, snapshots will not be loaded and differences will not be detected, 
-which enormously increases the next runtime. Normally, you will not need this 
-utility, however, it can be used to force a recompilation of all files.
-
-```bash
-build
-└── custom-name-1
-│   ├── cache  #=> Cache Storage
-│   └── root   #=> Game Data
-└── custom-name-2
-│   ├── cache  #=> Cache Storage
-│   └── root   #=> Game Data
-└── custom-name-3
-│   ├── cache  #=> Cache Storage
-│   └── root   #=> Game Data
-└── custom-name-n
-    ├── cache  #=> Cache Storage
-    └── root   #=> Game Data
 ```
 
 ## Resources
