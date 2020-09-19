@@ -102,9 +102,9 @@ All commands and utilities can be found in the `bin` directory.
 
 ### buildimage.rb
 
-Builds a bootable GameCube image in the `image` directory. The destination 
-directory is created automatically if required. This utility only supports 
-Windows.
+Builds a bootable Dreamcast or GameCube image in the `image` directory. The 
+destination directory is created automatically if required. This utility only 
+supports Windows.
 
 ```bash
 build
