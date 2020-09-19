@@ -136,8 +136,8 @@ class EpFile
     @root.dc?
   end
 
-  # Returns +true+ if the platform is a Gamecube, otherwise +false+.
-  # @return [Boolean] +true+ if platform is a Gamecube, otherwise +false+.
+  # Returns +true+ if the platform is a GameCube, otherwise +false+.
+  # @return [Boolean] +true+ if platform is a GameCube, otherwise +false+.
   def gc?
     @root.gc?
   end

@@ -53,7 +53,7 @@ class GameRoot
   # Platforms for validation
   PLATFORMS = {
     'DC' => 'Dreamcast',
-    'GC' => 'Gamecube' ,
+    'GC' => 'GameCube' ,
   }
   # Countries for validation
   COUNTRIES = ['EU', 'JP', 'US']
@@ -125,8 +125,8 @@ class GameRoot
     @platform_id == 'DC'
   end
 
-  # Returns +true+ if the platform is a Gamecube, otherwise +false+.
-  # @return [Boolean] +true+ if platform is a Gamecube, otherwise +false+.
+  # Returns +true+ if the platform is a GameCube, otherwise +false+.
+  # @return [Boolean] +true+ if platform is a GameCube, otherwise +false+.
   def gc?
     @platform_id == 'GC'
   end
