@@ -33,6 +33,8 @@ VOC.configure do |_v|
 # CLI
 #------------------------------------------------------------------------------
 
+  _v.build_gcm       = 'Build GCM image: %s'
+  _v.build_gdi       = 'Build GDI image: %s'
   _v.check_bnr       = 'Check BNR file: %s'
   _v.check_dir       = 'Check for existing directory: %s'
   _v.check_file      = 'Check for existing file: %s'

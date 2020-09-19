@@ -33,6 +33,9 @@ SYS.configure do |_s|
 # ALX
 #------------------------------------------------------------------------------
 
+  # Required version of Ruby
+  _s.ruby_version = '2.7.0'
+  
   # Path to 'build' directory
   _s.build_dir  = expand('build')
   # Path to 'doc' directory
@@ -43,9 +46,11 @@ SYS.configure do |_s|
   _s.tool_dir   = expand('tool')
   # Path to 'vendor' directory
   _s.vendor_dir = expand('vendor')
-  
-  # Required version of Ruby
-  _s.ruby_version = '2.7.0'
+
+  # Path to GCRebuilder executable file
+  _s.gcm_builder_exe = join(_s.vendor_dir, 'GCRebuilder/gcr.exe')
+  # Path to GDIBuilder executable file
+  _s.gdi_builder_exe = join(_s.vendor_dir, 'GDIBuilder/buildgdi.exe')
 
 #------------------------------------------------------------------------------
 # Logging
@@ -83,6 +88,8 @@ SYS.configure do |_s|
   _s.data_dir   = 'data'
   # Path to 'image' directory relative to the game directory.
   _s.image_dir  = 'image'
+  # Path to 'meta' directory relative to the game directory.
+  _s.meta_dir   = 'meta'
   # Path to 'root' directory relative to the game directory.
   _s.root_dir   = 'root'
 
@@ -91,7 +98,7 @@ SYS.configure do |_s|
   # Path to HDR file relative to +SYS.root_dir+.
   _s.hdr_file = join(_s.root_dir, '&&systemdata/ISO.hdr')
   # Path to IP.BIN file relative to +SYS.root_dir+.
-  _s.ip_file  = join(_s.root_dir, 'IP.BIN')
+  _s.ip_file  = join(_s.meta_dir, 'IP.BIN')
   
   # Path to executable file relative to +SYS.root_dir+.
   _s.exec_file = {
