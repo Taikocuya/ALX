@@ -56,6 +56,7 @@ class EntryTransform
     @class   = _class
     @data    = []
     @command = 'alx.rb'
+    @failed  = false
   end
   
   # Creates an entry data object.
@@ -70,9 +71,12 @@ class EntryTransform
   def store(_path)
     _root = GameRoot.new
     _root.load(_path)
-    if _root.valid? && valid?(_root)
-      @data << create_entry_data(_root)
+    
+    if !_root.valid? || !valid?(_root)
+      raise(IOError, 'game directory invalid')
     end
+    
+    @data << create_entry_data(_root)
   end
   
   # Collects and validates several game subdirectories in a given directory.
@@ -87,12 +91,6 @@ class EntryTransform
         store(_p)
       end
     end
-  end
-  
-  # Collects and validates several game subdirectories in +SYS.build_dir+ by 
-  # default.
-  def exec
-    collect(SYS.build_dir)
   end
   
   # Returns +true+ if all necessary commands and files exist, otherwise 
@@ -115,6 +113,12 @@ class EntryTransform
     end
     
     _valid
+  end
+  
+  # Collects and validates several game subdirectories in +SYS.build_dir+ by 
+  # default.
+  def exec
+    collect(SYS.build_dir)
   end
   
 #------------------------------------------------------------------------------
