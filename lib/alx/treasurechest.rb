@@ -51,7 +51,7 @@ class TreasureChest < StdEntry
   end
 
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   attr_reader :items

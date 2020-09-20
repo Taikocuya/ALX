@@ -212,7 +212,7 @@ class EnemyShipTaskData < EntryData
   end
 
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   attr_accessor :tec_file

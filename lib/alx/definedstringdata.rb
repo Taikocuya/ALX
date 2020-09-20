@@ -261,7 +261,7 @@ class DefinedStringData < EntryData
   end
 
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   attr_accessor :data_file

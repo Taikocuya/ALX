@@ -139,7 +139,7 @@ class DefinedStringDetector
   end
 
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   attr_accessor :root

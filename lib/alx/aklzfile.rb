@@ -111,7 +111,7 @@ class AklzFile < BinaryStringIO
   end
 
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   # @see BinaryStringIO#string=

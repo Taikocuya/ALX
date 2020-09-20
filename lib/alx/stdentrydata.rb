@@ -510,7 +510,7 @@ class StdEntryData < EntryData
   end
 
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   attr_accessor :id_range

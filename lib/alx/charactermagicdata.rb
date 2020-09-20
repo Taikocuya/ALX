@@ -197,7 +197,7 @@ class CharacterMagicData < StdEntryData
   end
 
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   attr_accessor :ship_dscr_file

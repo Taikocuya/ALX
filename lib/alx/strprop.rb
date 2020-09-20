@@ -128,7 +128,7 @@ class StrProp < Prop
   end
 
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   attr_accessor :escape

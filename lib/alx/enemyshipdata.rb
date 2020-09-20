@@ -233,7 +233,7 @@ class EnemyShipData < StdEntryData
   end
 
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   attr_accessor :arm_name_file

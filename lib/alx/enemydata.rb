@@ -897,7 +897,7 @@ class EnemyData < EntryData
 	end
 
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   attr_accessor :eb_file

@@ -51,7 +51,7 @@ class PlayableShip < StdEntry
   end
 
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   attr_reader   :ship_cannons

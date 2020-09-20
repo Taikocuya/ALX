@@ -51,7 +51,7 @@ class EnemyEvent < Entry
   end
 
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   attr_reader :enemies

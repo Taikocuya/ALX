@@ -51,7 +51,7 @@ class MagicExpCurve < StdEntry
   end
 
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   attr_reader :characters

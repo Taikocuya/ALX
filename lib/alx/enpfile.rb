@@ -330,7 +330,7 @@ class EnpFile < EpFile
   end
   
 #------------------------------------------------------------------------------
-# Public member variables
+# Public Member Variables
 #------------------------------------------------------------------------------
 
   attr_accessor :encounters
