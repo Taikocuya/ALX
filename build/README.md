@@ -36,7 +36,7 @@ image (ISO, GCM or GDI) and the appropriate data extraction tool:
 * ![Dreamcast](/doc/sdc16.png)
   [GD-ROM Explorer](https://www.romhacking.net/utilities/1459/)
 * ![Dreamcast](/doc/sdc16.png)
-  [GDIbuilder](https://github.com/Sappharad/GDIbuilder)
+  [GDIBuilder](https://github.com/Sappharad/GDIbuilder)
 
 ## Commands
 
