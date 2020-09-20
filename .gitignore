@@ -26,3 +26,4 @@ Thumbs.db
 /tmp/
 /vendor/*
 !/vendor/GCRebuilder
+!/vendor/GDIBuilder
