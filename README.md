@@ -65,25 +65,24 @@ Pre-exported CSV files with complete game data can already be found in the
 | `dc-us-magazine`  | Dreamcast | NTSC-U  | Official Magazine Vol. 9  |
 | `dc-us-retail-1`  | Dreamcast | NTSC-U  | Retail (1/2)              |
 | `dc-us-retail-2`  | Dreamcast | NTSC-U  | Retail (2/2)              |
-| `gc-eu-retail`    | Gamecube  | PAL-E   | Retail                    |
-| `gc-jp-retail`    | Gamecube  | NTSC-J  | Retail                    |
-| `gc-us-retail`    | Gamecube  | NTSC-U  | Retail                    |
+| `gc-eu-retail`    | GameCube  | PAL-E   | Retail                    |
+| `gc-jp-retail`    | GameCube  | NTSC-J  | Retail                    |
+| `gc-us-retail`    | GameCube  | NTSC-U  | Retail                    |
 
 If you want to import and export the game data by yourself, you need in the 
 `build` directory at least one extracted image of Skies of Arcadia, Skies of 
 Arcadia Legends, Eternal Arcadia (エターナルアルカディア) or Eternal Arcadia Legends 
-(エターナルアルカディアレジェンド). The directory structure should look like this. 
+(エターナルアルカディアレジェンド). The directory structure should look like this 
+depending on the platform. 
 
 ```bash
 build
-└── custom-name-1
-│   └── root  #=> Data of Game 1
-└── custom-name-2
-│   └── root  #=> Data of Game 2
-└── custom-name-3
-│   └── root  #=> Data of Game 3
-└── custom-name-n
-    └── root  #=> Data of Game N
+└── custom-name-dc  #=> Dreamcast Game
+│   ├── meta        #=> Meta Files
+│   │   └── IP.BIN  #=> IP.BIN File
+│   └── root        #=> Game Data
+└── custom-name-gc  #=> GameCube Game
+    └── root        #=> Game Data
 ```
 
 To obtain the game data for the `root` directory, you need a corresponding 
@@ -108,17 +107,12 @@ supports Windows.
 
 ```bash
 build
-└── custom-name-1
-│   ├── image  #=> Image Folder
+└── custom-name-dc
+│   ├── image  #=> GDI Folder
+│   ├── meta   #=> IP.BIN File
 │   └── root   #=> Game Data
-└── custom-name-2
-│   ├── image  #=> Image Folder
-│   └── root   #=> Game Data
-└── custom-name-3
-│   ├── image  #=> Image Folder
-│   └── root   #=> Game Data
-└── custom-name-n
-    ├── image  #=> Image Folder
+└── custom-name-gc
+    ├── image  #=> GCM Folder
     └── root   #=> Game Data
 ```
 
@@ -131,16 +125,11 @@ utility, however, it can be used to force a recompilation of all files.
 
 ```bash
 build
-└── custom-name-1
+└── custom-name-dc
 │   ├── cache  #=> Cache Storage
+│   ├── meta   #=> IP.BIN File
 │   └── root   #=> Game Data
-└── custom-name-2
-│   ├── cache  #=> Cache Storage
-│   └── root   #=> Game Data
-└── custom-name-3
-│   ├── cache  #=> Cache Storage
-│   └── root   #=> Game Data
-└── custom-name-n
+└── custom-name-gc
     ├── cache  #=> Cache Storage
     └── root   #=> Game Data
 ```
@@ -154,16 +143,11 @@ not recommended for a complete backup of all files.
 
 ```bash
 build
-└── custom-name-1
+└── custom-name-dc
 │   ├── backup  #=> Backup Files
+│   ├── meta    #=> IP.BIN File
 │   └── root    #=> Game Data
-└── custom-name-2
-│   ├── backup  #=> Backup Files
-│   └── root    #=> Game Data
-└── custom-name-3
-│   ├── backup  #=> Backup Files
-│   └── root    #=> Game Data
-└── custom-name-n
+└── custom-name-gc
     ├── backup  #=> Backup Files
     └── root    #=> Game Data
 ```
@@ -176,16 +160,11 @@ is created automatically if required.
 
 ```bash
 build
-└── custom-name-1
+└── custom-name-dc
 │   ├── data  #=> CSV Files
+│   ├── meta  #=> IP.BIN File
 │   └── root  #=> Game Data
-└── custom-name-2
-│   ├── data  #=> CSV Files
-│   └── root  #=> Game Data
-└── custom-name-3
-│   ├── data  #=> CSV Files
-│   └── root  #=> Game Data
-└── custom-name-n
+└── custom-name-gc
     ├── data  #=> CSV Files
     └── root  #=> Game Data
 ```
@@ -198,16 +177,11 @@ must exist.
 
 ```bash
 build
-└── custom-name-1
+└── custom-name-dc
 │   ├── data  #=> CSV Files
+│   ├── meta  #=> IP.BIN File
 │   └── root  #=> Game Data
-└── custom-name-2
-│   ├── data  #=> CSV Files
-│   └── root  #=> Game Data
-└── custom-name-3
-│   ├── data  #=> CSV Files
-│   └── root  #=> Game Data
-└── custom-name-n
+└── custom-name-gc
     ├── data  #=> CSV Files
     └── root  #=> Game Data
 ```
@@ -220,16 +194,11 @@ only considers files that can actually be examined by ALX.
 
 ```bash
 build
-└── custom-name-1
+└── custom-name-dc
 │   ├── backup  #=> Backup Files
+│   ├── meta    #=> IP.BIN File
 │   └── root    #=> Game Data
-└── custom-name-2
-│   ├── backup  #=> Backup Files
-│   └── root    #=> Game Data
-└── custom-name-3
-│   ├── backup  #=> Backup Files
-│   └── root    #=> Game Data
-└── custom-name-n
+└── custom-name-gc
     ├── backup  #=> Backup Files
     └── root    #=> Game Data
 ```
