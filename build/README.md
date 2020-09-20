@@ -6,19 +6,26 @@ Please note that pre-exported CSV files with complete game data can already be
 found in the `dist` directory. If you want to import and export the game data 
 by yourself, you need in the `build` directory at least one extracted image of 
 Skies of Arcadia, Skies of Arcadia Legends, Eternal Arcadia (エターナルアルカディア) 
-or Eternal Arcadia Legends (エターナルアルカディアレジェンド). The directory structure 
-should look like this. 
+or Eternal Arcadia Legends (エターナルアルカディアレジェンド). Depending on the platform 
+the directory structure should look like this.
 
-```bash
+```
 build
-└── custom-name-1
-│   └── root  #=> Data of Game 1
-└── custom-name-2
-│   └── root  #=> Data of Game 2
-└── custom-name-3
-│   └── root  #=> Data of Game 3
-└── custom-name-n
-    └── root  #=> Data of Game N
+├── custom-name-dc
+│   ├── meta
+│   │   └── IP.BIN
+│   └── root
+│       ├── BATTLE
+│       ├── FIELD
+│       ├── 1ST_READ.BIN
+│       └── ...
+└── custom-name-gc
+    └── root
+        ├── &&systemdata
+        ├── battle
+        ├── field
+        ├── opening.bnr
+        └── ...
 ```
 
 To obtain the game data for the `root` directory, you need a corresponding 
@@ -41,20 +48,15 @@ Executes all export commands in `bin` except `exportdefinedstring.rb`. Exports
 everything from the `root` to the `data` directory. The destination directory 
 is created automatically if required.
 
-```bash
+```
 build
-└── custom-name-1
-│   ├── data  #=> CSV Files
-│   └── root  #=> Game Data
-└── custom-name-2
-│   ├── data  #=> CSV Files
-│   └── root  #=> Game Data
-└── custom-name-3
-│   ├── data  #=> CSV Files
-│   └── root  #=> Game Data
-└── custom-name-n
-    ├── data  #=> CSV Files
-    └── root  #=> Game Data
+├── custom-name-dc
+│   ├── data
+│   ├── meta
+│   └── root
+└── custom-name-gc
+    ├── data
+    └── root
 ```
 
 ### import.rb
@@ -63,18 +65,13 @@ Executes all import commands in `bin` except `importdefinedstring.rb`. Imports
 everything from the `data` to the `root` directory. The destination directory 
 must exist.
 
-```bash
+```
 build
-└── custom-name-1
-│   ├── data  #=> CSV Files
-│   └── root  #=> Game Data
-└── custom-name-2
-│   ├── data  #=> CSV Files
-│   └── root  #=> Game Data
-└── custom-name-3
-│   ├── data  #=> CSV Files
-│   └── root  #=> Game Data
-└── custom-name-n
-    ├── data  #=> CSV Files
-    └── root  #=> Game Data
+├── custom-name-dc
+│   ├── data
+│   ├── meta
+│   └── root
+└── custom-name-gc
+    ├── data
+    └── root
 ```

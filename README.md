@@ -72,17 +72,26 @@ Pre-exported CSV files with complete game data can already be found in the
 If you want to import and export the game data by yourself, you need in the 
 `build` directory at least one extracted image of Skies of Arcadia, Skies of 
 Arcadia Legends, Eternal Arcadia (エターナルアルカディア) or Eternal Arcadia Legends 
-(エターナルアルカディアレジェンド). The directory structure should look like this 
-depending on the platform. 
+(エターナルアルカディアレジェンド). Depending on the platform the directory structure 
+should look like this.
 
-```bash
+```
 build
-└── custom-name-dc  #=> Dreamcast Game
-│   ├── meta        #=> Meta Files
-│   │   └── IP.BIN  #=> IP.BIN File
-│   └── root        #=> Game Data
-└── custom-name-gc  #=> GameCube Game
-    └── root        #=> Game Data
+├── custom-name-dc
+│   ├── meta
+│   │   └── IP.BIN
+│   └── root
+│       ├── BATTLE
+│       ├── FIELD
+│       ├── 1ST_READ.BIN
+│       └── ...
+└── custom-name-gc
+    └── root
+        ├── &&systemdata
+        ├── battle
+        ├── field
+        ├── opening.bnr
+        └── ...
 ```
 
 To obtain the game data for the `root` directory, you need a corresponding 
@@ -105,15 +114,15 @@ Builds a bootable Dreamcast or GameCube image in the `image` directory. The
 destination directory is created automatically if required. This utility only 
 supports Windows.
 
-```bash
+```
 build
-└── custom-name-dc
-│   ├── image  #=> GDI Folder
-│   ├── meta   #=> IP.BIN File
-│   └── root   #=> Game Data
+├── custom-name-dc
+│   ├── image
+│   ├── meta
+│   └── root
 └── custom-name-gc
-    ├── image  #=> GCM Folder
-    └── root   #=> Game Data
+    ├── image
+    └── root
 ```
 
 ### clearcache.rb
@@ -123,15 +132,15 @@ storage, snapshots will not be loaded and differences will not be detected,
 which enormously increases the next runtime. Normally, you will not need this 
 utility, however, it can be used to force a recompilation of all files.
 
-```bash
+```
 build
-└── custom-name-dc
-│   ├── cache  #=> Cache Storage
-│   ├── meta   #=> IP.BIN File
-│   └── root   #=> Game Data
+├── custom-name-dc
+│   ├── cache
+│   ├── meta
+│   └── root
 └── custom-name-gc
-    ├── cache  #=> Cache Storage
-    └── root   #=> Game Data
+    ├── cache
+    └── root
 ```
 
 ### createbackup.rb
@@ -141,15 +150,15 @@ directory. The destination directory is created automatically if required.
 This utility only considers files that can actually be examined by ALX. It is 
 not recommended for a complete backup of all files.
 
-```bash
+```
 build
-└── custom-name-dc
-│   ├── backup  #=> Backup Files
-│   ├── meta    #=> IP.BIN File
-│   └── root    #=> Game Data
+├── custom-name-dc
+│   ├── backup
+│   ├── meta
+│   └── root
 └── custom-name-gc
-    ├── backup  #=> Backup Files
-    └── root    #=> Game Data
+    ├── backup
+    └── root
 ```
 
 ### export.rb
@@ -158,15 +167,15 @@ Executes all export commands in `bin` except `exportdefinedstring.rb`. Exports
 everything from the `root` to the `data` directory. The destination directory 
 is created automatically if required.
 
-```bash
+```
 build
-└── custom-name-dc
-│   ├── data  #=> CSV Files
-│   ├── meta  #=> IP.BIN File
-│   └── root  #=> Game Data
+├── custom-name-dc
+│   ├── data
+│   ├── meta
+│   └── root
 └── custom-name-gc
-    ├── data  #=> CSV Files
-    └── root  #=> Game Data
+    ├── data
+    └── root
 ```
 
 ### import.rb
@@ -175,15 +184,15 @@ Executes all import commands in `bin` except `importdefinedstring.rb`. Imports
 everything from the `data` to the `root` directory. The destination directory 
 must exist.
 
-```bash
+```
 build
-└── custom-name-dc
-│   ├── data  #=> CSV Files
-│   ├── meta  #=> IP.BIN File
-│   └── root  #=> Game Data
+├── custom-name-dc
+│   ├── data
+│   ├── meta
+│   └── root
 └── custom-name-gc
-    ├── data  #=> CSV Files
-    └── root  #=> Game Data
+    ├── data
+    └── root
 ```
 
 ### restorebackup.rb
@@ -192,15 +201,15 @@ Restores the backup from the `backup` directory and overwrites existing files
 in the `root` directory. The destination directory must exist. This utility 
 only considers files that can actually be examined by ALX.
 
-```bash
+```
 build
-└── custom-name-dc
-│   ├── backup  #=> Backup Files
-│   ├── meta    #=> IP.BIN File
-│   └── root    #=> Game Data
+├── custom-name-dc
+│   ├── backup
+│   ├── meta
+│   └── root
 └── custom-name-gc
-    ├── backup  #=> Backup Files
-    └── root    #=> Game Data
+    ├── backup
+    └── root
 ```
 
 ## Resources
