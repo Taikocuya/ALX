@@ -1,4 +1,4 @@
-Entry ID,JP Entry Name,PC ID,[PC Name],Retail Price in %,Order by Prio.,JP Order by ABC,Effect ID,[Effect Name],Purchase Price,Attack,Hit%,Feat. ID,[Feat. Name],Pad. 1,Feat. Value,[ JP Descr. Pos.],[ JP Descr. Size],JP Descr. Str.
+Entry ID,JP Entry Name,PCID,[PCName],Retail Price in %,Order by Prio.,JP Order by ABC,Effect ID,[Effect Name],Purchase Price,Attack,Hit%,Feat.ID,[Feat.Name],Pad. 1,Feat.Value,[JP Descr. Pos.],[JP Descr. Size],JP Descr. Str.
 0,カトラス,0,Vyse,50,0,5,-1,None,60,21,90,-1,None,0,0,0x2aeeac,92,ヴァイスが愛用する両方の手に持つ、二刀流の剣だ。\n遠くの敵には、カマイタチで攻撃できるぞ!!
 1,空賊のナイフ,0,Vyse,50,1,13,-1,None,121,29,90,-1,None,0,0,0x2aef08,32,ヴァイスの武器。両手に持つ。\n
 2,シーカトラス,0,Vyse,50,2,20,-1,None,120,29,90,-1,None,0,0,0x2aef28,96,屈強な空の男たちが魚をさばくのにも使う、切れ味が\n抜群のカトラスだ。これでさばいた魚は美味いぞ。
@@ -7,7 +7,7 @@ Entry ID,JP Entry Name,PC ID,[PC Name],Retail Price in %,Order by Prio.,JP Order
 5,天空のカトラス,0,Vyse,50,13,45,-1,None,5000,160,120,-1,None,0,0,0x2aef88,92,某帝国軍で開発された、雷の力を秘めたカトラスだ。\nこれさえあれば、どんな敵もイチコロだぞ!!
 6,聖なる剣,0,Vyse,50,7,25,-1,None,2377,117,90,-1,None,0,0,0x0,0,""
 7,ナスルソード,0,Vyse,50,4,35,-1,None,800,71,90,-1,None,0,0,0x0,0,""
-8,ダカットの剣,0,Vyse,50,8,28,1,Sleep 50%,2796,126,90,-1,None,0,0,0x0,0,""
+8,ダカットの剣,0,Vyse,50,8,28,1,Sleep 10%,2796,126,90,-1,None,0,0,0x0,0,""
 9,ディスカバリー,0,Vyse,50,5,30,-1,None,1276,88,90,-1,None,0,0,0x0,0,""
 10,大地の剣,0,Vyse,50,6,27,-1,None,1876,105,90,-1,None,0,0,0x0,0,""
 11,夢追いの剣,0,Vyse,50,10,68,-1,None,3413,138,90,49,Unconscious,0,16,0x0,0,""
@@ -30,15 +30,15 @@ Entry ID,JP Entry Name,PC ID,[PC Name],Retail Price in %,Order by Prio.,JP Order
 28,風神の翼,1,Aika,50,30,60,-1,None,4659,159,110,-1,None,0,0,0x0,0,""
 29,バルウィング,1,Aika,50,31,40,-1,None,5189,167,110,-1,None,0,0,0x0,0,""
 30,スカルボーン,1,Aika,50,24,24,-1,None,1510,95,110,48,Poison,0,32,0x0,0,""
-31,舞梅蘭,1,Aika,50,29,61,3,Confusion 25%,4221,152,110,-1,None,0,0,0x0,0,""
+31,舞梅蘭,1,Aika,50,29,61,3,Confusion 10%,4221,152,110,-1,None,0,0,0x0,0,""
 32,キュピル１,2,Fina,0,32,44,-1,None,557,60,100,-1,None,0,0,0x2af0a8,28,ファイナの武器。かわいい。\n
 33,キュピルナイト,2,Fina,0,33,33,-1,None,60,20,100,-1,None,0,0,0x2af0c4,96,ファイナを守るために戦う、かわいいペットだ。\nヤリ以外にも、いろいろな形状に変化するらしいぞ。
 34,キュピル３,2,Fina,0,34,46,-1,None,928,76,100,-1,None,0,0,0x0,0,""
 35,キュピル４,2,Fina,0,35,47,-1,None,1154,84,100,-1,None,0,0,0x0,0,""
-36,キュピル５,2,Fina,0,36,48,4,Silence 50%,1407,92,100,-1,None,0,0,0x0,0,""
-37,キュピル６,2,Fina,0,37,49,4,Silence 50%,1687,100,100,-1,None,0,0,0x0,0,""
-38,キュピル７,2,Fina,0,38,50,4,Silence 50%,1996,108,100,-1,None,0,0,0x0,0,""
-39,キュピル８,2,Fina,0,39,51,4,Silence 50%,2334,116,100,-1,None,0,0,0x0,0,""
+36,キュピル５,2,Fina,0,36,48,4,Silence 10%,1407,92,100,-1,None,0,0,0x0,0,""
+37,キュピル６,2,Fina,0,37,49,4,Silence 10%,1687,100,100,-1,None,0,0,0x0,0,""
+38,キュピル７,2,Fina,0,38,50,4,Silence 10%,1996,108,100,-1,None,0,0,0x0,0,""
+39,キュピル８,2,Fina,0,39,51,4,Silence 10%,2334,116,100,-1,None,0,0,0x0,0,""
 40,キュピル９,2,Fina,0,40,52,-1,None,2701,124,100,20,Dodge%,0,5,0x0,0,""
 41,キュピル１０,2,Fina,0,41,53,-1,None,3097,132,100,20,Dodge%,0,5,0x0,0,""
 42,キュピル１１,2,Fina,0,42,54,-1,None,3524,140,100,20,Dodge%,0,5,0x0,0,""
@@ -52,14 +52,14 @@ Entry ID,JP Entry Name,PC ID,[PC Name],Retail Price in %,Order by Prio.,JP Order
 50,モーニングスター,3,Drachma,50,56,66,-1,None,12135,246,20,-1,None,0,0,0x0,0,""
 51,デ式アーム,3,Drachma,50,52,31,-1,None,1404,92,80,-1,None,0,0,0x0,0,""
 52,ギルガメッシュ,3,Drachma,50,55,10,-1,None,6415,184,80,-1,None,0,0,0x0,0,""
-53,パロットアーム,3,Drachma,50,51,42,5,Confusion 25%,1122,83,80,-1,None,0,0,0x0,0,""
+53,パロットアーム,3,Drachma,50,51,42,5,Confusion 20%,1122,83,80,-1,None,0,0,0x0,0,""
 54,デ式ドリル,3,Drachma,50,53,32,6,Unconscious 10%,1722,101,80,-1,None,0,0,0x0,0,""
 55,発掘アーム,3,Drachma,50,50,38,-1,None,874,74,80,-1,None,0,0,0x0,0,""
 56,古代アーム,3,Drachma,50,54,16,-1,None,2075,110,80,48,Poison,0,32,0x0,0,""
 57,シルバーアーム,3,Drachma,50,57,23,-1,None,7125,193,80,37,Silver,0,16,0x0,0,""
 58,レイピア,4,Enrique,50,58,70,-1,None,2122,111,120,-1,None,0,0,0x2af140,32,エンリックの武器。貴族っぽい。\n
 59,レアルブレード,4,Enrique,50,62,69,-1,None,4162,151,120,-1,None,0,0,0x0,0,""
-60,王家の宝刀,4,Enrique,50,61,2,7,Silence 25%,3751,144,120,-1,None,0,0,0x0,0,""
+60,王家の宝刀,4,Enrique,50,61,2,7,Silence 10%,3751,144,120,-1,None,0,0,0x0,0,""
 61,古代戦士の刀,4,Enrique,50,63,17,8,Stone 10%,4596,158,120,-1,None,0,0,0x0,0,""
 62,紫氷刀,4,Enrique,50,60,21,-1,None,3152,133,120,34,Purple,0,16,0x0,0,""
 63,青波刀,4,Enrique,50,59,26,-1,None,2609,122,120,35,Blue,0,16,0x0,0,""
@@ -67,8 +67,8 @@ Entry ID,JP Entry Name,PC ID,[PC Name],Retail Price in %,Order by Prio.,JP Order
 65,ナスル式拳銃,5,Gilder,50,65,34,-1,None,2162,112,100,33,Red,0,16,0x0,0,""
 66,古代勇者の拳銃,5,Gilder,50,70,19,-1,None,5821,176,100,1,Will,0,5,0x0,0,""
 67,バルア式拳銃,5,Gilder,50,66,39,-1,None,2334,116,100,-1,None,0,0,0x0,0,""
-68,暗殺短銃,5,Gilder,50,69,0,10,Unconscious 25%,1888,105,180,-1,None,0,0,0x0,0,""
-69,ダカットの拳銃,5,Gilder,50,67,29,9,Sleep 50%,2514,120,100,-1,None,0,0,0x0,0,""
+68,暗殺短銃,5,Gilder,50,69,0,10,Unconscious 20%,1888,105,180,-1,None,0,0,0x0,0,""
+69,ダカットの拳銃,5,Gilder,50,67,29,9,Sleep 10%,2514,120,100,-1,None,0,0,0x0,0,""
 70,ギルダーＳＰ,5,Gilder,50,68,11,-1,None,5257,168,110,-1,None,0,0,0x0,0,""
 71,ダミー武器,0,Vyse,0,-1,-1,-1,None,0,0,0,-1,None,0,0,0x2af184,16,ダミーです。\n
 72,ダミー武器,0,Vyse,0,-1,-1,-1,None,0,0,0,-1,None,0,0,0x0,0,""

@@ -114,7 +114,7 @@ module ALX
     _empty = ''
     _format.sub!('%d', '%s')
     
-    if _format =~ /^\[?.*[^A-Z]+%s/
+    if _format =~ /^\[?.*[^\[A-Z]+%s/
       _enum = ' ' + _enum
     end
     if _format =~ /%s[^\]]+\]?$/
@@ -126,7 +126,7 @@ module ALX
       if (_k.is_a?(Integer) && _k > -1) || (_k.is_a?(String) && !_k.empty?)
         _str = sprintf(_enum, _k)
       else
-        _str = _empty
+        #_str = _empty
       end
       
       _h[_k] = sprintf(_format, _str)

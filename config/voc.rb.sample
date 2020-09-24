@@ -85,6 +85,7 @@ VOC.configure do |_v|
   _v.location = '[Location]'
   
   _v.message_id     = hdr('%sMessage ID'        )
+  _v.name_opt       = hdr('[%sEntry Name]'      )
   _v.name_pos       = hdr('[%sEntry Name Pos.]' )
   _v.name_size      = hdr('[%sEntry Name Size]' )
   _v.name_str       = hdr('%sEntry Name'        )
@@ -344,27 +345,6 @@ VOC.configure do |_v|
   _v.effects[117] = 'Recover MP'
   _v.effects[255] = 'None'
 
-  _v.weapon_effects     = Hash.new('???')
-  _v.weapon_effects[-1] = 'None'
-  _v.weapon_effects[ 0] = 'Poison 10%'
-  _v.weapon_effects[ 1] = 'Sleep 50%'
-  _v.weapon_effects[ 2] = 'Weak 10%'
-  _v.weapon_effects[ 3] = 'Confusion 25%'
-  _v.weapon_effects[ 4] = 'Silence 50%'
-  _v.weapon_effects[ 5] = 'Confusion 25%'
-  _v.weapon_effects[ 6] = 'Unconscious 10%'
-  _v.weapon_effects[ 7] = 'Silence 25%'
-  _v.weapon_effects[ 8] = 'Stone 10%'
-  _v.weapon_effects[ 9] = 'Sleep 50%'
-  _v.weapon_effects[10] = 'Unconscious 25%'
-  _v.weapon_effects[11] = 'Confusion 90%'
-  _v.weapon_effects[12] = 'Silence 25%'
-  _v.weapon_effects[13] = 'Stone 10%'
-  _v.weapon_effects[14] = 'Confusion 25%'
-  _v.weapon_effects[15] = 'Sleep 10%'
-  _v.weapon_effects[16] = 'Unconscious 10%'
-  _v.weapon_effects[17] = 'Sleep 10%'
-  
 #------------------------------------------------------------------------------
 # Menu
 #------------------------------------------------------------------------------

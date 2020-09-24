@@ -23,8 +23,7 @@
 #==============================================================================
 
 require_relative('stdentrydata.rb')
-require_relative('weapon.rb')
-require_relative('weaponeffectdata.rb')
+require_relative('weaponeffect.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,8 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle weapons from binary and/or CSV files.
-class WeaponData < StdEntryData
+# Class to handle weapon effects from binary and/or CSV files.
+class WeaponEffectData < StdEntryData
 
 #==============================================================================
 #                                   PUBLIC
@@ -43,35 +42,17 @@ class WeaponData < StdEntryData
 
   public
 
-  # Constructs a WeaponData.
+  # Constructs a WeaponEffectData.
   # @param _root [GameRoot] Game root
   def initialize(_root)
-    super(Weapon, _root)
-    self.id_range       = sys(:weapon_id_range)
-    self.data_file      = sys(:weapon_data_files)
-    self.name_file      = sys(:weapon_name_files)
-    self.dscr_file      = sys(:weapon_dscr_files)
-    self.csv_file       = SYS.weapon_csv_file
-    self.tpl_file       = SYS.weapon_tpl_file
-    @weapon_effect_data = WeaponEffectData.new(_root)
+    super(WeaponEffect, _root)
+    self.id_range  = sys(:weapon_effect_id_range)
+    self.data_file = sys(:weapon_effect_data_files)
+    self.csv_file  = SYS.weapon_effect_csv_file
+    self.tpl_file  = SYS.weapon_effect_tpl_file
   end
 
-  # Creates an entry.
-  # @param _id [Integer] Entry ID
-  # @return [Entry] Entry object
-  def create_entry(_id = -1)
-    _entry                = super
-    _entry.weapon_effects = @weapon_effect_data.data
-    _entry
-  end
-  
-  # Reads all entries from binary files.
-  def load_bin
-    @weapon_effect_data.load_bin
-    super
-  end
-  
-end # class WeaponData
+end # class WeaponEffectData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

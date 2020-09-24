@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2020 Marcel Renner
@@ -22,9 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('stdentrydata.rb')
-require_relative('weapon.rb')
-require_relative('weaponeffectdata.rb')
+require_relative('../lib/alx/weaponeffecttransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,8 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle weapons from binary and/or CSV files.
-class WeaponData < StdEntryData
+# Class to import weapon effects from CSV files.
+class WeaponEffectImporter < WeaponEffectTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -43,36 +42,28 @@ class WeaponData < StdEntryData
 
   public
 
-  # Constructs a WeaponData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(Weapon, _root)
-    self.id_range       = sys(:weapon_id_range)
-    self.data_file      = sys(:weapon_data_files)
-    self.name_file      = sys(:weapon_name_files)
-    self.dscr_file      = sys(:weapon_dscr_files)
-    self.csv_file       = SYS.weapon_csv_file
-    self.tpl_file       = SYS.weapon_tpl_file
-    @weapon_effect_data = WeaponEffectData.new(_root)
+  def valid?(_root)
+    _result   = super
+    _result &&= has_file?(_root.dirname, SYS.weapon_effect_csv_file)
+    _result
   end
 
-  # Creates an entry.
-  # @param _id [Integer] Entry ID
-  # @return [Entry] Entry object
-  def create_entry(_id = -1)
-    _entry                = super
-    _entry.weapon_effects = @weapon_effect_data.data
-    _entry
-  end
-  
-  # Reads all entries from binary files.
-  def load_bin
-    @weapon_effect_data.load_bin
+  def exec
     super
+    transform_csv_to_bin
   end
-  
-end # class WeaponData
+
+end	# class WeaponEffectImporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end # module ALX
+end	# module ALX
+
+# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+
+if __FILE__ == $0 || Object.const_defined?('ALX::Importer')
+  ALX::Main.call do
+    _importer = ALX::WeaponEffectImporter.new
+    _importer.exec
+  end
+end

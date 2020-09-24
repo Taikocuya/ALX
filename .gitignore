@@ -21,6 +21,7 @@ Thumbs.db
 /dist/*/backup
 /dist/*/cache
 /dist/*/image
+/dist/*/meta
 /dist/*/root
 /log/
 /tmp/

@@ -45,8 +45,20 @@ class Weapon < StdEntry
   # @param _root [GameRoot] Game root
   def initialize(_root)
     super
+    init_attrs
     init_props
     init_procs
+  end
+
+#------------------------------------------------------------------------------
+# Public Member Variables
+#------------------------------------------------------------------------------
+
+  attr_reader :weapon_effects
+
+  def weapon_effects=(_weapon_effects)
+    @weapon_effects = _weapon_effects
+    fetch(VOC.effect_id)&.call_proc
   end
 
 #==============================================================================
@@ -55,6 +67,12 @@ class Weapon < StdEntry
 
   protected
 
+  # Initialize the entry attributes.
+  def init_attrs
+    super
+    @weapon_effects ||= {}
+  end
+  
   # Initialize the entry properties.
   def init_props
     add_name_props
@@ -89,7 +107,17 @@ class Weapon < StdEntry
     end
     
     fetch(VOC.effect_id).proc = Proc.new do |_id|
-      self[VOC.effect_name] = VOC.weapon_effects[_id]
+      if _id != -1
+        _entry = @weapon_effects[_id]
+        _name  = '???'
+        if _entry
+          _hit  = 100 - _entry[VOC.state_miss]
+          _name = sprintf('%s %d%%', _entry[VOC.state_name], _hit)
+        end
+      else
+        _name = 'None'
+      end
+      self[VOC.effect_name] = _name
     end
     
     fetch(VOC.feature_id[-1]).proc = Proc.new do |_id|

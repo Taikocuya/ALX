@@ -22,9 +22,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('stdentrydata.rb')
-require_relative('weapon.rb')
-require_relative('weaponeffectdata.rb')
+require_relative('stdentry.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,8 +32,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle weapons from binary and/or CSV files.
-class WeaponData < StdEntryData
+# Class to handle a weapon effect.
+class WeaponEffect < Entry
 
 #==============================================================================
 #                                   PUBLIC
@@ -43,36 +41,43 @@ class WeaponData < StdEntryData
 
   public
 
-  # Constructs a WeaponData.
+  # Constructs a WeaponEffect.
   # @param _root [GameRoot] Game root
   def initialize(_root)
-    super(Weapon, _root)
-    self.id_range       = sys(:weapon_id_range)
-    self.data_file      = sys(:weapon_data_files)
-    self.name_file      = sys(:weapon_name_files)
-    self.dscr_file      = sys(:weapon_dscr_files)
-    self.csv_file       = SYS.weapon_csv_file
-    self.tpl_file       = SYS.weapon_tpl_file
-    @weapon_effect_data = WeaponEffectData.new(_root)
+    super
+    init_props
+    init_procs
   end
 
-  # Creates an entry.
-  # @param _id [Integer] Entry ID
-  # @return [Entry] Entry object
-  def create_entry(_id = -1)
-    _entry                = super
-    _entry.weapon_effects = @weapon_effect_data.data
-    _entry
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry properties.
+  def init_props
+    self[VOC.name_str['JP']] = StrProp.new( 17, ''           )
+    self[VOC.effect_id     ] = IntProp.new(:i8, -1           )
+    self[VOC.effect_name   ] = StrProp.new(nil, '', dmy: true)
+    self[VOC.state_id      ] = IntProp.new(:i8,  0           )
+    self[VOC.state_name    ] = StrProp.new(nil, '', dmy: true)
+    self[VOC.state_miss    ] = IntProp.new(:i8,  0           )
   end
   
-  # Reads all entries from binary files.
-  def load_bin
-    @weapon_effect_data.load_bin
-    super
+  # Initialize the entry procs.
+  def init_procs
+    fetch(VOC.effect_id).proc = Proc.new do |_id|
+      self[VOC.effect_name] = VOC.effects[_id]
+    end
+    
+    fetch(VOC.state_id).proc = Proc.new do |_id|
+      self[VOC.state_name] = VOC.states[_id]
+    end
   end
-  
-end # class WeaponData
+
+end	# class WeaponEffect
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end # module ALX
+end	# module ALX

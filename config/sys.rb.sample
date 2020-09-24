@@ -219,6 +219,8 @@ SYS.configure do |_s|
   _s.usable_item_csv_file          = "#{_s.data_dir}/usableitem.csv"
   # Path to CSV file of weapons relative to +SYS.data_dir+.
   _s.weapon_csv_file               = "#{_s.data_dir}/weapon.csv"
+  # Path to CSV file of weapon effects relative to +SYS.data_dir+.
+  _s.weapon_effect_csv_file        = "#{_s.data_dir}/weaponeffect.csv"
 
 #------------------------------------------------------------------------------
 # TPL Paths
@@ -276,6 +278,8 @@ SYS.configure do |_s|
   _s.usable_item_tpl_file          = 'usableitem.tpl.csv'
   # Path to TPL file of weapons relative to +SYS.build_dir+.
   _s.weapon_tpl_file               = 'weapon.tpl.csv'
+  # Path to TPL file of weapon effects relative to +SYS.build_dir+.
+  _s.weapon_effect_tpl_file        = 'weaponeffect.tpl.csv'
 
 #------------------------------------------------------------------------------
 # Game Root Directory
@@ -3377,6 +3381,30 @@ SYS.configure do |_s|
     'GC-US-GEA'                         => rd(
       _s.exec_file['GC'], 0x2c7d9c...0x2c9714
     ),
+  }
+
+
+#------------------------------------------------------------------------------
+# Weapon Effect Data
+#------------------------------------------------------------------------------
+
+  # Range of weapon effect IDs
+  _s.weapon_effect_id_range = 0x0...0x15
+  
+  # Offset ranges of weapon effect data
+  _s.weapon_effect_data_files = {
+    'DC-EU-8320062 50'        => rd(_s.exec_file['DC'], 0x335e34...0x335fd8),
+    'DC-EU-MK-51052-20001115' => rd(_s.exec_file['DC'], 0x361f4c...0x3620f0),
+    'DC-EU-MK-51052-20010306' => rd(_s.exec_file['DC'], 0x333dc8...0x333f6c),
+    'DC-JP-6107110 06'        => rd(_s.exec_file['DC'], 0x35d7c4...0x35d968),
+    'DC-JP-6107810'           => rd(_s.exec_file['DC'], 0x35cf44...0x35d0e8),
+    'DC-JP-HDR-0076'          => rd(_s.exec_file['DC'], 0x341420...0x3415c4),
+    'DC-JP-HDR-0119'          => rd(_s.exec_file['DC'], 0x345a28...0x345bcc),
+    'DC-US-IGN9'              => rd(_s.exec_file['DC'], 0x3398c0...0x339a64),
+    'DC-US-MK-51052'          => rd(_s.exec_file['DC'], 0x33f370...0x33f514),
+    'GC-EU-GEA'               => rd(_s.exec_file['GC'], 0x2c40a8...0x2c424c),
+    'GC-JP-GEA'               => rd(_s.exec_file['GC'], 0x2c3f88...0x2c412c),
+    'GC-US-GEA'               => rd(_s.exec_file['GC'], 0x2c4a90...0x2c4c34),
   }
 
 end # class SYS
