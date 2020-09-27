@@ -1,4 +1,4 @@
-Entry ID,JP Entry Name,PC Flags,[ V],[ A],[ F],[ D],[ E],[ G],Retail Price in %,Order by Prio.,JP Order by ABC,Pad. 1,Purchase Price,Feat. 1 ID,[Feat. 1 Name],Pad. 2,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 3,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 4,Feat. 3 Value,Feat. 4 ID,[Feat. 4 Name],Pad. 5,Feat. 4 Value,[ JP Descr. Pos.],[ JP Descr. Size],JP Descr. Str.
+Entry ID,JP Entry Name,PC Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order by Prio.,JP Order by ABC,Pad. 1,Purchase Price,Feat. 1 ID,[Feat. 1 Name],Pad. 2,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 3,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 4,Feat. 3 Value,Feat. 4 ID,[Feat. 4 Name],Pad. 5,Feat. 4 Value,[JP Descr. Pos.],[JP Descr. Size],JP Descr. Str.
 80,ヴァイス服,0x27,X,"","",X,X,X,50,0,5,0,52,17,Defense,0,22,18,MagDef,0,18,-1,None,0,0,-1,None,0,0,0x2af878,24,ヴァイスの服。弱い。\n
 81,アイカ服,0x18,"",X,X,"","","",50,1,1,0,60,17,Defense,0,18,18,MagDef,0,22,-1,None,0,0,-1,None,0,0,0x2af890,24,アイカの服。黄色い。\n
 82,シルクのローブ,0x1a,"",X,X,"",X,"",50,3,47,0,65,17,Defense,0,16,18,MagDef,0,24,-1,None,0,0,-1,None,0,0,0x2af8a8,92,Ж術に対する耐久力が高いという繊維を編み込んだ、\n真っ白なローブだ。高いЖ防力を発揮するぞ。

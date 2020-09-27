@@ -1,4 +1,4 @@
-Entry ID,US Entry Name,PS Flags,[L1],[L2],[D1],[D2],[D3],Type ID,[Type Name],Element ID,[Element Name],Attack,Hit%,Limit,SP,Feat. ID,[Feat. Name],Pad. 1,Feat. Value,Pad. 2,Pad. 3,Purchase Price,Pad. 4,Pad. 5,Retail Price in %,Order by Prio.,US Order by ABC,Pad. 6,[ US Descr. Pos.],[ US Descr. Size],US Descr. Str.
+Entry ID,US Entry Name,PS Flags,[L1],[L2],[D1],[D2],[D3],Type ID,[Type Name],Element ID,[Element Name],Attack,Hit%,Limit,SP,Feat. ID,[Feat. Name],Pad. 1,Feat. Value,Pad. 2,Pad. 3,Purchase Price,Pad. 4,Pad. 5,Retail Price in %,Order by Prio.,US Order by ABC,Pad. 6,[US Descr. Pos.],[US Descr. Size],US Descr. Str.
 400,Main Cannon,0x30,X,X,"","","",0,Main Cannon,6,Neutral,70,80,0,4,-1,None,0,0,0,0,450,0,0,50,0,0,0,0x334340,60,The Little Jack's main gun. It is old\nin good condition.
 401,汎主砲,0x30,X,X,"","","",0,Main Cannon,6,Neutral,40,83,0,4,-1,None,0,0,0,0,1000,0,0,50,1,1,0,0x33437c,76,リトルジャックが装備できる大砲。\nバルアからの流出品。バルアでは一般的な砲。
 402,汎主砲改,0x30,X,X,"","","",0,Main Cannon,6,Neutral,45,85,0,5,-1,None,0,0,0,0,1900,0,0,50,2,2,0,0x3343c8,72,リトルジャックが装備できる大砲。\n一般的な砲を改造し、火力を上げている。

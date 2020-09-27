@@ -1,4 +1,4 @@
-Entry ID,JP Entry Name,PC Flags,[ V],[ A],[ F],[ D],[ E],[ G],Retail Price in %,Order by Prio.,JP Order by ABC,Pad. 1,Purchase Price,Feat. 1 ID,[Feat. 1 Name],Pad. 2,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 3,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 4,Feat. 3 Value,Feat. 4 ID,[Feat. 4 Name],Pad. 5,Feat. 4 Value,[ JP Descr. Pos.],[ JP Descr. Size],JP Descr. Str.
+Entry ID,JP Entry Name,PC Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order by Prio.,JP Order by ABC,Pad. 1,Purchase Price,Feat. 1 ID,[Feat. 1 Name],Pad. 2,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 3,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 4,Feat. 3 Value,Feat. 4 ID,[Feat. 4 Name],Pad. 5,Feat. 4 Value,[JP Descr. Pos.],[JP Descr. Size],JP Descr. Str.
 160,Ж防の指輪１,0x3f,X,X,X,X,X,X,50,2,27,0,25,18,MagDef,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x2afae4,44,指輪です。Ж術関係中心のアクセサリーです。\n
 161,Ж防の指輪２,0x3f,X,X,X,X,X,X,50,20,28,0,202,18,MagDef,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 162,気力のリング,0x3f,X,X,X,X,X,X,50,3,14,0,30,1,Will,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x2afb10,88,北方の老Ж術使いたちが、Ж樹の枝から彫り上げた\n手作りの指輪だ。気力が少しだけ上がるぞ。

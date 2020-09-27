@@ -1,4 +1,4 @@
-Entry ID,US Entry Name,Occ. Flags,[M],[B],[S],Ship Effect ID,[Ship Effect Name],Ship Effect Turns,Consume%,Pad. 1,Pad. 2,Pad. 3,Purchase Price,Pad. 4,Pad. 5,Retail Price in %,Order by Prio.,US Order by ABC,Pad. 6,Ship Effect Amount,Element ID,[Element Name],Unk. 1,Unk. 2,Hit%,[ US Descr. Pos.],[ US Descr. Size],US Descr. Str.
+Entry ID,US Entry Name,Occ. Flags,[M],[B],[S],Ship Effect ID,[Ship Effect Name],Ship Effect Turns,Consume%,Pad. 1,Pad. 2,Pad. 3,Purchase Price,Pad. 4,Pad. 5,Retail Price in %,Order by Prio.,US Order by ABC,Pad. 6,Ship Effect Amount,Element ID,[Element Name],Unk. 1,Unk. 2,Hit%,[US Descr. Pos.],[US Descr. Size],US Descr. Str.
 480,爆弾,0x1,"","",X,107,Damage,-1,100,0,0,0,100,0,0,50,0,23,0,80,6,Neutral,0,0,0,0x3355a8,48,相手にダメージを与える。\n一般的な炸裂式の爆弾。
 481,大爆弾,0x1,"","",X,107,Damage,-1,100,0,0,0,150,0,0,50,1,18,0,120,6,Neutral,0,0,0,0x3355d8,48,相手にダメージを与える。\n大きい炸裂式の爆弾。
 482,特大爆弾,0x1,"","",X,107,Damage,-1,100,0,0,0,200,0,0,50,2,19,0,150,6,Neutral,0,0,0,0x335608,52,相手にダメージを与える。\n特別発注の炸裂式の爆弾。

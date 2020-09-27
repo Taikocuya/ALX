@@ -1,4 +1,4 @@
-Entry ID,JP Entry Name,Occ. Flags,[M],[B],[S],Effect ID,[Effect Name],Scope ID,[Scope Name],Consume%,Retail Price in %,Order by Prio.,JP Order by ABC,Purchase Price,Pad. 1,Pad. 2,Effect Value,Element ID,[Element Name],Type ID,[Type Name],State ID,[State Name],State Miss%,[ JP Descr. Pos.],[ JP Descr. Size],JP Descr. Str.
+Entry ID,JP Entry Name,Occ. Flags,[M],[B],[S],Effect ID,[Effect Name],Scope ID,[Scope Name],Consume%,Retail Price in %,Order by Prio.,JP Order by ABC,Purchase Price,Pad. 1,Pad. 2,Effect Value,Element ID,[Element Name],Type ID,[Type Name],State ID,[State Name],State Miss%,[JP Descr. Pos.],[JP Descr. Size],JP Descr. Str.
 240,サプの葉,0x6,X,X,"",31,Recover HP,1,Single PC,100,50,0,30,20,0,0,500,-1,None,-1,None,0,Poison,0,0x3387d4,96,世界中に自生するサプ科植物の葉っぱ。不思議な\n香りで、仲間ひとりのＨＰを500ポイント回復する。
 241,サプガンの葉,0x6,X,X,"",31,Recover HP,1,Single PC,100,50,1,29,60,0,0,1000,-1,None,-1,None,0,Poison,0,0x338834,100,北の大地に群生するサプ科植物の葉っぱ。濃縮された\n香りで、仲間ひとりのＨＰを1000ポイント回復する。
 242,サプハネの葉,0x6,X,X,"",31,Recover HP,2,All PCs,100,50,2,31,600,0,0,1000,-1,None,-1,None,0,Poison,0,0x338898,96,熱帯でのみ採れるサプ科植物の葉っぱ。香りが一気に\n広がり、仲間全員のＨＰを1000ポイント回復する。
