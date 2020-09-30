@@ -213,6 +213,8 @@ SYS.configure do |_s|
   _s.special_item_csv_file         = "#{_s.data_dir}/specialitem.csv"
   # Path to CSV file of spirit curves relative to +SYS.data_dir+.
   _s.spirit_curve_csv_file         = "#{_s.data_dir}/spiritcurve.csv"
+  # Path to CSV file of swashbuckler ratings relative to +SYS.data_dir+.
+  _s.swashbuckler_csv_file         = "#{_s.data_dir}/swashbuckler.csv"
   # Path to CSV file of treasure chests relative to +SYS.data_dir+.
   _s.treasure_chest_csv_file       = "#{_s.data_dir}/treasurechest.csv"
   # Path to CSV file of usable items relative to +SYS.data_dir+.
@@ -272,7 +274,9 @@ SYS.configure do |_s|
   _s.special_item_tpl_file         = 'specialitem.tpl.csv'
   # Path to TPL file of spirit curves relative to +SYS.build_dir+.
   _s.spirit_curve_tpl_file         = 'spiritcurve.tpl.csv'
-  # Path to TPL file of treasure chests relative to game root
+  # Path to TPL file of swashbuckler ratings relative to +SYS.build_dir+.
+  _s.swashbuckler_tpl_file         = 'swashbuckler.tpl.csv'
+  # Path to TPL file of treasure chests relative to +SYS.build_dir+.
   _s.treasure_chest_tpl_file       = 'treasurechest.tpl.csv'
   # Path to TPL file of usable items relative to +SYS.build_dir+.
   _s.usable_item_tpl_file          = 'usableitem.tpl.csv'
@@ -3099,6 +3103,66 @@ SYS.configure do |_s|
     'GC-EU-GEA'               => rd(_s.exec_file['GC'], 0x2c4aa0...0x2c4f44),
     'GC-JP-GEA'               => rd(_s.exec_file['GC'], 0x2c567c...0x2c5b20),
     'GC-US-GEA'               => rd(_s.exec_file['GC'], 0x2c6184...0x2c6628),
+  }
+
+#------------------------------------------------------------------------------
+# Swashbuckler Data
+#------------------------------------------------------------------------------
+
+  # Range of swashbuckler IDs
+  _s.swashbuckler_id_range = {
+    'DC' => 0x0...0x10,
+    'GC' => 0x0...0x18,
+  }
+
+  # Offset ranges of swashbuckler data
+  _s.swashbuckler_data_files = {
+    'DC-EU-8320062 50'        => rd(_s.exec_file['DC'], 0x3605ec...0x3606ec),
+    'DC-EU-MK-51052-20001115' => rd(_s.exec_file['DC'], 0x3b7c90...0x3b7d90),
+    'DC-EU-MK-51052-20010306' => rd(_s.exec_file['DC'], 0x35e54c...0x35e64c),
+    'DC-JP-6107110 06'        => rd(_s.exec_file['DC'], 0x35eb88...0x35eda8),
+    'DC-JP-6107810'           => rd(_s.exec_file['DC'], 0x35e308...0x35e528),
+    'DC-JP-HDR-0076'          => rd(_s.exec_file['DC'], 0x3427e4...0x342a04),
+    'DC-JP-HDR-0119'          => rd(_s.exec_file['DC'], 0x346dec...0x34700c),
+    'DC-US-IGN9'              => rd(_s.exec_file['DC'], 0x33ac84...0x33aea4),
+    'DC-US-MK-51052'          => rd(_s.exec_file['DC'], 0x340734...0x340954),
+    'GC-EU-GEA'               => rd(_s.exec_file['GC'], 0x2f4e68...0x2f4fe8),
+    'GC-JP-GEA'               => rd(_s.exec_file['GC'], 0x2c534c...0x2c567c),
+    'GC-US-GEA'               => rd(_s.exec_file['GC'], 0x2c5e54...0x2c6184),
+  }
+  
+  # Offset ranges of swashbuckler names
+  _s.swashbuckler_name_files = {
+    'DC-EU-8320062 50'                  => [
+      rd(_s.sot_file_de['DC'], 0x1b271...0x1b3a5),
+      rd(_s.sot_file_es['DC'], 0x1afde...0x1b0fd),
+      rd(_s.sot_file_fr['DC'], 0x1b372...0x1b481),
+      rd(_s.sot_file_gb['DC'], 0x1ab27...0x1ac42),
+    ],
+    'DC-EU-MK-51052-20001115-GD-ROM1/2' => [
+      rd(_s.sot_file_de['DC'], 0x1abad...0x1acc8),
+      rd(_s.sot_file_es['DC'], 0x1b0be...0x1b1d9),
+      rd(_s.sot_file_fr['DC'], 0x1b530...0x1b64b),
+      rd(_s.sot_file_gb['DC'], 0x1ab7d...0x1ac98),
+    ],
+    'DC-EU-MK-51052-20001115-GD-ROM2/2' => [
+      rd(_s.sot_file_de['DC'], 0x1abad...0x1acc8),
+      rd(_s.sot_file_es['DC'], 0x1b0be...0x1b1d9),
+      rd(_s.sot_file_fr['DC'], 0x1b530...0x1b64b),
+      rd(_s.sot_file_gb['DC'], 0x1abad...0x1acc8),
+    ],
+    'DC-EU-MK-51052-20010306'           => [
+      rd(_s.sot_file_de['DC'], 0x1b060...0x1b194),
+      rd(_s.sot_file_es['DC'], 0x1afab...0x1b0ca),
+      rd(_s.sot_file_fr['DC'], 0x1b2e1...0x1b3f0),
+      rd(_s.sot_file_gb['DC'], 0x1ab16...0x1ac31),
+    ],
+    'GC-EU-GEA'                         => [
+      rd(_s.sot_file_de['GC'], 0x1e2b1...0x1e49d),
+      rd(_s.sot_file_es['GC'], 0x1e028...0x1e1f2),
+      rd(_s.sot_file_fr['GC'], 0x1e2a2...0x1e466),
+      rd(_s.sot_file_gb['GC'], 0x1d929...0x1daef),
+    ],
   }
 
 #------------------------------------------------------------------------------

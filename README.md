@@ -20,6 +20,7 @@ is able to export and import the data to and from CSV files.
   Special Items, Usable Items and Weapons)
 * Playable Ship Stats
 * Shops
+* Swashbuckler Ratings
 * Treasure Chests
 
 ## Requirements

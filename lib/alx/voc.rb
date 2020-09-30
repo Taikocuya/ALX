@@ -83,6 +83,7 @@ VOC.configure do |_v|
   _v.id       = 'Entry ID'
   _v.filter   = '[Filter]'
   _v.location = '[Location]'
+  _v.rating   = 'Rating'
   
   _v.message_id     = hdr('%s Message ID'        )
   _v.name_opt       = hdr('[%s Entry Name]'      )
@@ -125,6 +126,7 @@ VOC.configure do |_v|
   _v.movement_flags    = 'Movement Flags'
   _v.power             = 'Power'
   _v.quick             = 'Quick'
+  _v.run               = 'Run%'
   _v.sp                = hdr('SP %d'   )
   _v.value             = 'Value'
   _v.vigor             = 'Vigor'
@@ -676,7 +678,6 @@ VOC.configure do |_v|
 
   _v.task_cond_id    = 'Cond. ID'
   _v.task_cond_name  = '[Cond. Name]'
-  _v.task_rating     = 'Rating'
   _v.task_type_id    = hdr('T%d Type ID')
   _v.task_type_name  = hdr('[T%d Type Name]')
   _v.task_arm_id     = hdr('T%d Arm. ID')
