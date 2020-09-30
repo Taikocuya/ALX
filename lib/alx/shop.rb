@@ -58,7 +58,7 @@ class Shop < StdEntry
 
   def items=(_items)
     @items = _items
-    fetch(VOC.item_id[-1])&.call_proc
+    fetch(VOC.item_id[nil])&.call_proc
   end
   
 #==============================================================================

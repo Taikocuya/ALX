@@ -78,17 +78,17 @@ class UsableItem < StdEntry
       self[padding_hdr] = IntProp.new(:i8, 0)
     end
     
-    self[VOC.purchase_price  ] = IntProp.new(:u16,  0           )
-    self[padding_hdr         ] = IntProp.new( :i8,  0           )
-    self[padding_hdr         ] = IntProp.new( :i8,  0           )
-    self[VOC.effect_value[-1]] = IntProp.new(:i16,  0           )
-    self[VOC.element_id      ] = IntProp.new( :i8,  0           )
-    self[VOC.element_name    ] = StrProp.new( nil, '', dmy: true)
-    self[VOC.type_id         ] = IntProp.new( :i8,  0           )
-    self[VOC.type_name       ] = StrProp.new( nil, '', dmy: true)
-    self[VOC.state_id        ] = IntProp.new(:i16,  0           )
-    self[VOC.state_name      ] = StrProp.new( nil, '', dmy: true)
-    self[VOC.state_miss      ] = IntProp.new(:i16,  0           )
+    self[VOC.purchase_price   ] = IntProp.new(:u16,  0           )
+    self[padding_hdr          ] = IntProp.new( :i8,  0           )
+    self[padding_hdr          ] = IntProp.new( :i8,  0           )
+    self[VOC.effect_value[nil]] = IntProp.new(:i16,  0           )
+    self[VOC.element_id       ] = IntProp.new( :i8,  0           )
+    self[VOC.element_name     ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.type_id          ] = IntProp.new( :i8,  0           )
+    self[VOC.type_name        ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.state_id         ] = IntProp.new(:i16,  0           )
+    self[VOC.state_name       ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.state_miss       ] = IntProp.new(:i16,  0           )
     
     add_dscr_props
   end

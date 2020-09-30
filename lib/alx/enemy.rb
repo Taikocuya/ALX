@@ -136,9 +136,9 @@ class Enemy < Entry
     self[VOC.name_str['JP']] = StrProp.new(21, ''           )
 
     if us?
-      self[VOC.enemy_name_us[-1]] = StrProp.new(nil, '', dmy: true)
+      self[VOC.enemy_name_us[nil]] = StrProp.new(nil, '', dmy: true)
     elsif eu?
-      self[VOC.enemy_name_eu[-1]] = StrProp.new(nil, '', dmy: true)
+      self[VOC.enemy_name_eu[nil]] = StrProp.new(nil, '', dmy: true)
     end
 
     self[VOC.width         ] = IntProp.new( :i8,   0           )
@@ -149,7 +149,7 @@ class Enemy < Entry
     self[padding_hdr       ] = IntProp.new( :i8,  -1           )
     self[VOC.movement_flags] = IntProp.new(:i16,   0, base: 16 )
     self[VOC.counter       ] = IntProp.new(:i16,   0           )
-    self[VOC.exp[-1]       ] = IntProp.new(:u16,   0           )
+    self[VOC.exp[nil]       ] = IntProp.new(:u16,   0           )
     self[VOC.gold          ] = IntProp.new(:u16,   0           )
     self[padding_hdr       ] = IntProp.new( :i8,  -1           )
     self[padding_hdr       ] = IntProp.new( :i8,  -1           )
@@ -195,12 +195,12 @@ class Enemy < Entry
     if us?
       fetch(VOC.id).proc = Proc.new do |_id|
         _name = voc(:enemies, id.to_s) || '???'
-        self[VOC.enemy_name_us[-1]] = _name
+        self[VOC.enemy_name_us[nil]] = _name
       end
     elsif eu?
       fetch(VOC.id).proc = Proc.new do |_id|
         _name = voc(:enemies, id.to_s) || '???'
-        self[VOC.enemy_name_eu[-1]] = _name
+        self[VOC.enemy_name_eu[nil]] = _name
       end
     end
 

@@ -3096,9 +3096,9 @@ SYS.configure do |_s|
     'DC-JP-HDR-0119'          => rd(_s.exec_file['DC'], 0x34700c...0x3474b0),
     'DC-US-IGN9'              => rd(_s.exec_file['DC'], 0x33aea4...0x33b348),
     'DC-US-MK-51052'          => rd(_s.exec_file['DC'], 0x340954...0x340df8),
-    'GC-EU'                   => rd(_s.exec_file['GC'], 0x2c4aa0...0x2c4f44),
-    'GC-JP'                   => rd(_s.exec_file['GC'], 0x2c567c...0x2c5b20),
-    'GC-US'                   => rd(_s.exec_file['GC'], 0x2c6184...0x2c6628),
+    'GC-EU-GEA'               => rd(_s.exec_file['GC'], 0x2c4aa0...0x2c4f44),
+    'GC-JP-GEA'               => rd(_s.exec_file['GC'], 0x2c567c...0x2c5b20),
+    'GC-US-GEA'               => rd(_s.exec_file['GC'], 0x2c6184...0x2c6628),
   }
 
 #------------------------------------------------------------------------------

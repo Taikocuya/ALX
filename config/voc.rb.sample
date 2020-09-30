@@ -77,24 +77,24 @@ VOC.configure do |_v|
 # Common CSV Headers
 #------------------------------------------------------------------------------
 
-  _v.unknown = hdr('Unk.%d')
-  _v.padding = hdr('Pad.%d')
+  _v.unknown = hdr('Unk. %d')
+  _v.padding = hdr('Pad. %d')
   
   _v.id       = 'Entry ID'
   _v.filter   = '[Filter]'
   _v.location = '[Location]'
   
-  _v.message_id     = hdr('%sMessage ID'        )
-  _v.name_opt       = hdr('[%sEntry Name]'      )
-  _v.name_pos       = hdr('[%sEntry Name Pos.]' )
-  _v.name_size      = hdr('[%sEntry Name Size]' )
-  _v.name_str       = hdr('%sEntry Name'        )
-  _v.dscr_pos       = hdr('[%sDescr. Pos.]'     )
-  _v.dscr_size      = hdr('[%sDescr. Size]'     )
-  _v.dscr_str       = hdr('%sDescr. Str.'       )
-  _v.ship_dscr_pos  = hdr('[%sShip Descr. Pos.]')
-  _v.ship_dscr_size = hdr('[%sShip Descr. Size]')
-  _v.ship_dscr_str  = hdr('%sShip Descr. Str.'  )
+  _v.message_id     = hdr('%s Message ID'        )
+  _v.name_opt       = hdr('[%s Entry Name]'      )
+  _v.name_pos       = hdr('[%s Entry Name Pos.]' )
+  _v.name_size      = hdr('[%s Entry Name Size]' )
+  _v.name_str       = hdr('%s Entry Name'        )
+  _v.dscr_pos       = hdr('[%s Descr. Pos.]'     )
+  _v.dscr_size      = hdr('[%s Descr. Size]'     )
+  _v.dscr_str       = hdr('%s Descr. Str.'       )
+  _v.ship_dscr_pos  = hdr('[%s Ship Descr. Pos.]')
+  _v.ship_dscr_size = hdr('[%s Ship Descr. Size]')
+  _v.ship_dscr_str  = hdr('%s Ship Descr. Str.'  )
 
   _v.age               = 'Age'
   _v.agile             = 'Agile'
@@ -121,11 +121,11 @@ VOC.configure do |_v|
   _v.magdef            = 'MagDef'
   _v.maxhp             = 'MAXHP'
   _v.maxmp             = 'MAXMP'
-  _v.maxsp             = hdr('MAXSP%d')
+  _v.maxsp             = hdr('MAXSP %d')
   _v.movement_flags    = 'Movement Flags'
   _v.power             = 'Power'
   _v.quick             = 'Quick'
-  _v.sp                = hdr('SP%d'   )
+  _v.sp                = hdr('SP %d'   )
   _v.value             = 'Value'
   _v.vigor             = 'Vigor'
   _v.width             = 'Width'
@@ -255,7 +255,7 @@ VOC.configure do |_v|
   _v.effect_id       = 'Effect ID'
   _v.effect_name     = '[Effect Name]'
   _v.effect_spirit   = 'Effect SP'
-  _v.effect_value    = hdr('Effect Value%d')
+  _v.effect_value    = hdr('Effect Value %d')
   _v.effect_priority = 'Effect Prio.'
 
   _v.ship_effect_id     = 'Ship Effect ID'
@@ -359,15 +359,15 @@ VOC.configure do |_v|
   _v.occasions[1] = _v.occasion_battle
   _v.occasions[2] = _v.occasion_ship
 
-  _v.order_abc  = hdr('%sOrder by ABC')
+  _v.order_abc  = hdr('%s Order by ABC')
   _v.order_prio = 'Order by Prio.'
 
   _v.retail_price   = 'Retail Price in %'
   _v.purchase_price = 'Purchase Price'
 
-  _v.feature_id    = hdr('Feat.%dID'    )
-  _v.feature_name  = hdr('[Feat.%dName]')
-  _v.feature_value = hdr('Feat.%dValue' )
+  _v.feature_id    = hdr('Feat. %d ID'    )
+  _v.feature_name  = hdr('[Feat. %d Name]')
+  _v.feature_value = hdr('Feat. %d Value' )
 
   _v.accessory_features     = Hash.new('???')
   _v.accessory_features[-1] = 'None'
@@ -435,11 +435,11 @@ VOC.configure do |_v|
 # Character
 #------------------------------------------------------------------------------
 
-  _v.character_id    = hdr('PC%dID'    )
-  _v.character_name  = hdr('[PC%dName]')
-  _v.character_x     = hdr('PC%dX'     )
-  _v.character_z     = hdr('PC%dZ'     )
-  _v.character_opt   = hdr('[%s]'      )
+  _v.character_id    = hdr('PC%d ID'    )
+  _v.character_name  = hdr('[PC%d Name]')
+  _v.character_x     = hdr('PC%d X'     )
+  _v.character_z     = hdr('PC%d Z'     )
+  _v.character_opt   = hdr('[%s]'       )
   _v.character_flags = 'PC Flags'
 
   _v.gender_id   = 'Gender ID'
@@ -454,17 +454,17 @@ VOC.configure do |_v|
   _v.weapon_name    = '[Weapon Name]'
   _v.armor_id       = 'Armor ID'
   _v.armor_name     = '[Armor Name]'
-  _v.accessory_id   = hdr('Accessory%dID')
-  _v.accessory_name = hdr('[Accessory%dName]')
+  _v.accessory_id   = hdr('Accessory %d ID')
+  _v.accessory_name = hdr('[Accessory %d Name]')
 
-  _v.exp        = hdr('EXP%d'       )
+  _v.exp        = hdr('EXP %d'       )
   _v.magic_exp  = 'Magic EXP'
-  _v.green_exp  = hdr('Green EXP%d' )
-  _v.red_exp    = hdr('Red EXP%d'   )
-  _v.purple_exp = hdr('Purple EXP%d')
-  _v.blue_exp   = hdr('Blue EXP%d'  )
-  _v.yellow_exp = hdr('Yellow EXP%d')
-  _v.silver_exp = hdr('Silver EXP%d')
+  _v.green_exp  = hdr('Green EXP %d' )
+  _v.red_exp    = hdr('Red EXP %d'   )
+  _v.purple_exp = hdr('Purple EXP %d')
+  _v.blue_exp   = hdr('Blue EXP %d'  )
+  _v.yellow_exp = hdr('Yellow EXP %d')
+  _v.silver_exp = hdr('Silver EXP %d')
 
 #------------------------------------------------------------------------------
 # Ship
@@ -478,8 +478,8 @@ VOC.configure do |_v|
   _v.ships[3]   = '[D2]'
   _v.ships[4]   = '[D3]'
   
-  _v.cannon_id   = hdr('Cannon%dID'    )
-  _v.cannon_name = hdr('[Cannon%dName]')
+  _v.cannon_id   = hdr('Cannon %d ID'    )
+  _v.cannon_name = hdr('[Cannon %d Name]')
 
   _v.position_id   = 'Pos. ID'
   _v.position_name = '[Pos. Name]'
@@ -501,18 +501,18 @@ VOC.configure do |_v|
 # Enemy
 #------------------------------------------------------------------------------
 
-  _v.enemy_id       = hdr('EC%dID'       )
+  _v.enemy_id       = hdr('EC%d ID'       )
   _v.enemy_ref      = '[EC ID]'
-  _v.enemy_name_jp  = hdr('[JP EC%dName]')
-  _v.enemy_name_us  = hdr('[US EC%dName]')
-  _v.enemy_name_eu  = hdr('[EU EC%dName]')
-  _v.enemy_x        = hdr('EC%dX'        )
-  _v.enemy_z        = hdr('EC%dZ'        )
+  _v.enemy_name_jp  = hdr('[JP EC%d Name]')
+  _v.enemy_name_us  = hdr('[US EC%d Name]')
+  _v.enemy_name_eu  = hdr('[EU EC%d Name]')
+  _v.enemy_x        = hdr('EC%d X'        )
+  _v.enemy_z        = hdr('EC%d Z'        )
 
-  _v.item_probability = hdr('Item%dProb.' )
-  _v.item_amount      = hdr('Item%dAmount')
-  _v.item_id          = hdr('Item%dID'    )
-  _v.item_name        = hdr('[Item%dName]')
+  _v.item_probability = hdr('Item %d Prob.' )
+  _v.item_amount      = hdr('Item %d Amount')
+  _v.item_id          = hdr('Item %d ID'    )
+  _v.item_name        = hdr('[Item %d Name]')
 
   _v.task_id    = 'Task ID'
   _v.task_name  = '[Task Name]'
@@ -637,33 +637,33 @@ VOC.configure do |_v|
   _v.enemy_ship_id   = '[ES ID]'
   _v.enemy_ship_name = '[ES Name]'
 
-  _v.arm_name_eu = hdr('EU Arm.%dName')
-  _v.arm_name_jp = hdr('JP Arm.%dName')
-  _v.arm_name_us = hdr('US Arm.%dName')
+  _v.arm_name_eu = hdr('EU Arm. %d Name')
+  _v.arm_name_jp = hdr('JP Arm. %d Name')
+  _v.arm_name_us = hdr('US Arm. %d Name')
 
-  _v.arm_name_de_pos  = hdr('[DE Arm.%dName Pos.]')
-  _v.arm_name_de_size = hdr('[DE Arm.%dName Size]')
-  _v.arm_name_de_str  = hdr('DE Arm.%dName Str.'  )
-  _v.arm_name_es_pos  = hdr('[ES Arm.%dName Pos.]')
-  _v.arm_name_es_size = hdr('[ES Arm.%dName Size]')
-  _v.arm_name_es_str  = hdr('ES Arm.%dName Str.'  )
-  _v.arm_name_fr_pos  = hdr('[FR Arm.%dName Pos.]')
-  _v.arm_name_fr_size = hdr('[FR Arm.%dName Size]')
-  _v.arm_name_fr_str  = hdr('FR Arm.%dName Str.'  )
-  _v.arm_name_gb_pos  = hdr('[GB Arm.%dName Pos.]')
-  _v.arm_name_gb_size = hdr('[GB Arm.%dName Size]')
-  _v.arm_name_gb_str  = hdr('GB Arm.%dName Str.'  )
+  _v.arm_name_de_pos  = hdr('[DE Arm. %d Name Pos.]')
+  _v.arm_name_de_size = hdr('[DE Arm. %d Name Size]')
+  _v.arm_name_de_str  = hdr('DE Arm. %d Name Str.'  )
+  _v.arm_name_es_pos  = hdr('[ES Arm. %d Name Pos.]')
+  _v.arm_name_es_size = hdr('[ES Arm. %d Name Size]')
+  _v.arm_name_es_str  = hdr('ES Arm. %d Name Str.'  )
+  _v.arm_name_fr_pos  = hdr('[FR Arm. %d Name Pos.]')
+  _v.arm_name_fr_size = hdr('[FR Arm. %d Name Size]')
+  _v.arm_name_fr_str  = hdr('FR Arm. %d Name Str.'  )
+  _v.arm_name_gb_pos  = hdr('[GB Arm. %d Name Pos.]')
+  _v.arm_name_gb_size = hdr('[GB Arm. %d Name Size]')
+  _v.arm_name_gb_str  = hdr('GB Arm. %d Name Str.'  )
 
-  _v.arm_attack       = hdr('Arm.%dAttack'        )
-  _v.arm_type_id      = hdr('Arm.%dType ID'       )
-  _v.arm_type_name    = hdr('[Arm.%dType name]'   )
-  _v.arm_hit          = hdr('Arm.%dHit%%'         )
-  _v.arm_range        = hdr('Arm.%dRange'         )
-  _v.arm_element_id   = hdr('Arm.%dElement ID'    )
-  _v.arm_element_name = hdr('[Arm.%dElement Name]')
+  _v.arm_attack       = hdr('Arm. %d Attack'        )
+  _v.arm_type_id      = hdr('Arm. %d Type ID'       )
+  _v.arm_type_name    = hdr('[Arm. %d Type name]'   )
+  _v.arm_hit          = hdr('Arm. %d Hit%%'         )
+  _v.arm_range        = hdr('Arm. %d Range'         )
+  _v.arm_element_id   = hdr('Arm. %d Element ID'    )
+  _v.arm_element_name = hdr('[Arm. %d Element Name]')
 
-  _v.item_drop_id   = hdr('Item Drop%dID'    )
-  _v.item_drop_name = hdr('[Item Drop%dName]')
+  _v.item_drop_id   = hdr('Item Drop %d ID'    )
+  _v.item_drop_name = hdr('[Item Drop %d Name]')
 
   _v.drops     = Hash.new('???')
   _v.drops[-1] = 'None'
@@ -677,13 +677,13 @@ VOC.configure do |_v|
   _v.task_cond_id    = 'Cond. ID'
   _v.task_cond_name  = '[Cond. Name]'
   _v.task_rating     = 'Rating'
-  _v.task_type_id    = hdr('T%dType ID')
-  _v.task_type_name  = hdr('[T%dType Name]')
-  _v.task_arm_id     = hdr('T%dArm. ID')
-  _v.task_arm_name   = hdr('[T%dArm. Name]')
-  _v.task_param_id   = hdr('T%dParam. ID')
-  _v.task_param_name = hdr('[T%dParam. Name]')
-  _v.task_range      = hdr('T%dArm. Range')
+  _v.task_type_id    = hdr('T%d Type ID')
+  _v.task_type_name  = hdr('[T%d Type Name]')
+  _v.task_arm_id     = hdr('T%d Arm. ID')
+  _v.task_arm_name   = hdr('[T%d Arm. Name]')
+  _v.task_param_id   = hdr('T%d Param. ID')
+  _v.task_param_name = hdr('[T%d Param. Name]')
+  _v.task_range      = hdr('T%d Arm. Range')
 
   _v.ship_task_types     = Hash.new('???')
   _v.ship_task_types[-1] = 'None'

@@ -32,6 +32,20 @@ require_relative('substitute.rb')
 module ALX
 
 #==============================================================================
+#                                  CONSTANTS
+#==============================================================================
+
+  # Regular expression for ::Kernel#sprintf
+  SPRINTF_REGEXP = /
+    (?<!%)(?>%%)*%
+    (?>[\-\+0\ \#])?
+    (?>\d+|\*)?
+    (?>\.\*|\.\d+)?
+    (?>[hjLltz]|[hl]{1,2})?
+    (?>[AacdEeFfGginopsuXx])
+  /x
+
+#==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
@@ -104,32 +118,24 @@ module ALX
   # @param _format [String] Header format
   # @return [Hash] Dynamic CSV header
   def self.hdr(_format)
-    _size = _format.scan(/%[ds]/).size
+    _size = _format.scan(SPRINTF_REGEXP).size
     if _size != 1
       _msg = "wrong number of fields in format sequence (#{_size} for 1)"
       raise(ArgumentError, _msg, caller(1))
     end
-    
-    _enum  = '%s'
-    _empty = ''
-    _format.sub!('%d', '%s')
-    
-    if _format =~ /^\[?.*[^\[A-Z]+%s/
-      _enum = ' ' + _enum
-    end
-    if _format =~ /%s[^\]]+\]?$/
-      _enum  = _enum + ' '
-      _empty = ' '
-    end
-    
+
     Hash.new do |_h, _k|
-      if (_k.is_a?(Integer) && _k > -1) || (_k.is_a?(String) && !_k.empty?)
-        _str = sprintf(_enum, _k)
+      if _k
+        _str = sprintf(_format, _k)
       else
-        _str = _empty
+        _str = _format.sub(SPRINTF_REGEXP, '')
       end
+      _str.squeeze!(' ')
+      _str.strip!
+      _str.sub!(/\[ +/, '[')
+      _str.sub!(/ +\]/, ']')
       
-      _h[_k] = sprintf(_format, _str)
+      _h[_k] = _str
     end
   end
 

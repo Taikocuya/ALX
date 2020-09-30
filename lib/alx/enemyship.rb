@@ -64,7 +64,7 @@ class EnemyShip < StdEntry
         fetch(VOC.item_id[_i])&.call_proc
       end
     else
-      fetch(VOC.item_id[-1])&.call_proc
+      fetch(VOC.item_id[nil])&.call_proc
     end
   end
   
@@ -144,10 +144,10 @@ class EnemyShip < StdEntry
       self[padding_hdr] = IntProp.new(:i16, 0)
       self[padding_hdr] = IntProp.new(:i16, 0)
     else
-      self[VOC.padding[-1]] = IntProp.new(:i16, 0)
+      self[VOC.padding[nil]] = IntProp.new(:i16, 0)
     end
     
-    self[VOC.exp[-1]] = IntProp.new(:i32, -1)
+    self[VOC.exp[nil]] = IntProp.new(:i32, -1)
     self[VOC.gold   ] = IntProp.new(:i32, -1)
 
     if product_id != '6107110 06' && product_id != '6107810'
@@ -158,10 +158,10 @@ class EnemyShip < StdEntry
         self[VOC.item_name[_i]     ] = StrProp.new( nil, '', dmy: true)
       end
     else
-      self[VOC.item_drop_id[-1]  ] = IntProp.new(:i16, -1           )
-      self[VOC.item_drop_name[-1]] = StrProp.new( nil, '', dmy: true)
-      self[VOC.item_id[-1]       ] = IntProp.new(:i16, -1           )
-      self[VOC.item_name[-1]     ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.item_drop_id[nil]  ] = IntProp.new(:i16, -1           )
+      self[VOC.item_drop_name[nil]] = StrProp.new( nil, '', dmy: true)
+      self[VOC.item_id[nil]       ] = IntProp.new(:i16, -1           )
+      self[VOC.item_name[nil]     ] = StrProp.new( nil, '', dmy: true)
     end
   end
   
@@ -203,11 +203,11 @@ class EnemyShip < StdEntry
         end
       end
     else
-      fetch(VOC.item_drop_id[-1]).proc = Proc.new do |_id|
-        self[VOC.item_drop_name[-1]] = VOC.drops[_id]
+      fetch(VOC.item_drop_id[nil]).proc = Proc.new do |_id|
+        self[VOC.item_drop_name[nil]] = VOC.drops[_id]
       end
 
-      fetch(VOC.item_id[-1]).proc = Proc.new do |_id|
+      fetch(VOC.item_id[nil]).proc = Proc.new do |_id|
         if _id != -1
           _entry = @items[_id]
           _name  = '???'
@@ -217,7 +217,7 @@ class EnemyShip < StdEntry
         else
           _name = 'None'
         end
-        self[VOC.item_name[-1]] = _name
+        self[VOC.item_name[nil]] = _name
       end
     end
   end

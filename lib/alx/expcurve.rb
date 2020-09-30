@@ -75,7 +75,7 @@ class ExpCurve < StdEntry
   
   # Initialize the entry properties.
   def init_props
-    self[VOC.character_name[-1]] = StrProp.new(nil, '', dmy: true)
+    self[VOC.character_name[nil]] = StrProp.new(nil, '', dmy: true)
     (1..99).each do |_i|
       self[VOC.exp[_i]] = IntProp.new(:i32, 0)
     end
@@ -89,7 +89,7 @@ class ExpCurve < StdEntry
       if _chara
         _name = _chara[VOC.name_str[cid]]
       end
-      self[VOC.character_name[-1]] = _name
+      self[VOC.character_name[nil]] = _name
     end
   end
 

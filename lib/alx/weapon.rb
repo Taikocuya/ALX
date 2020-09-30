@@ -77,33 +77,33 @@ class Weapon < StdEntry
   def init_props
     add_name_props
     
-    self[VOC.character_id[-1]  ] = IntProp.new(:i8,  0           )
-    self[VOC.character_name[-1]] = StrProp.new(nil, '', dmy: true)
-    self[VOC.retail_price      ] = IntProp.new(:i8,  0           )
-    self[VOC.order_prio        ] = IntProp.new(:i8, -1           )
-    self[VOC.order_abc[cid]    ] = IntProp.new(:i8, -1           )
-    self[VOC.effect_id         ] = IntProp.new(:i8, -1           )
-    self[VOC.effect_name       ] = StrProp.new(nil, '', dmy: true)
+    self[VOC.character_id[nil]  ] = IntProp.new(:i8,  0           )
+    self[VOC.character_name[nil]] = StrProp.new(nil, '', dmy: true)
+    self[VOC.retail_price       ] = IntProp.new(:i8,  0           )
+    self[VOC.order_prio         ] = IntProp.new(:i8, -1           )
+    self[VOC.order_abc[cid]     ] = IntProp.new(:i8, -1           )
+    self[VOC.effect_id          ] = IntProp.new(:i8, -1           )
+    self[VOC.effect_name        ] = StrProp.new(nil, '', dmy: true)
     
     if eu?
       self[padding_hdr] = IntProp.new(:i8, 0)
     end
     
-    self[VOC.purchase_price   ] = IntProp.new(:u16,  0           )
-    self[VOC.attack           ] = IntProp.new(:i16,  0           )
-    self[VOC.hit              ] = IntProp.new(:i16,  0           )
-    self[VOC.feature_id[-1]   ] = IntProp.new( :i8,  0           )
-    self[VOC.feature_name[-1] ] = StrProp.new( nil, '', dmy: true)
-    self[padding_hdr          ] = IntProp.new( :i8,  0           )
-    self[VOC.feature_value[-1]] = IntProp.new(:i16,  0           )
+    self[VOC.purchase_price    ] = IntProp.new(:u16,  0           )
+    self[VOC.attack            ] = IntProp.new(:i16,  0           )
+    self[VOC.hit               ] = IntProp.new(:i16,  0           )
+    self[VOC.feature_id[nil]   ] = IntProp.new( :i8,  0           )
+    self[VOC.feature_name[nil] ] = StrProp.new( nil, '', dmy: true)
+    self[padding_hdr           ] = IntProp.new( :i8,  0           )
+    self[VOC.feature_value[nil]] = IntProp.new(:i16,  0           )
     
     add_dscr_props
   end
   
   # Initialize the entry procs.
   def init_procs
-    fetch(VOC.character_id[-1]).proc = Proc.new do |_id|
-      self[VOC.character_name[-1]] = VOC.characters[_id]
+    fetch(VOC.character_id[nil]).proc = Proc.new do |_id|
+      self[VOC.character_name[nil]] = VOC.characters[_id]
     end
     
     fetch(VOC.effect_id).proc = Proc.new do |_id|
@@ -120,8 +120,8 @@ class Weapon < StdEntry
       self[VOC.effect_name] = _name
     end
     
-    fetch(VOC.feature_id[-1]).proc = Proc.new do |_id|
-      self[VOC.feature_name[-1]] = VOC.accessory_features[_id]
+    fetch(VOC.feature_id[nil]).proc = Proc.new do |_id|
+      self[VOC.feature_name[nil]] = VOC.accessory_features[_id]
     end
   end
 

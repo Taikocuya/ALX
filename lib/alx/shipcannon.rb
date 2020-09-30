@@ -75,14 +75,14 @@ class ShipCannon < StdEntry
         self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      self[VOC.attack           ] = IntProp.new(:i16,  0           )
-      self[VOC.hit              ] = IntProp.new(:u16,  0           )
-      self[VOC.limit            ] = IntProp.new( :i8,  0           )
-      self[VOC.sp[-1]           ] = IntProp.new( :i8,  0           )
-      self[VOC.feature_id[-1]   ] = IntProp.new( :i8,  0           )
-      self[VOC.feature_name[-1] ] = StrProp.new( nil, '', dmy: true)
-      self[padding_hdr          ] = IntProp.new( :i8,  0           )
-      self[VOC.feature_value[-1]] = IntProp.new(:i16,  0           )
+      self[VOC.attack            ] = IntProp.new(:i16,  0           )
+      self[VOC.hit               ] = IntProp.new(:u16,  0           )
+      self[VOC.limit             ] = IntProp.new( :i8,  0           )
+      self[VOC.sp[nil]           ] = IntProp.new( :i8,  0           )
+      self[VOC.feature_id[nil]   ] = IntProp.new( :i8,  0           )
+      self[VOC.feature_name[nil] ] = StrProp.new( nil, '', dmy: true)
+      self[padding_hdr           ] = IntProp.new( :i8,  0           )
+      self[VOC.feature_value[nil]] = IntProp.new(:i16,  0           )
   
       if dc?
         self[padding_hdr] = IntProp.new(:i8, 0)
@@ -103,7 +103,7 @@ class ShipCannon < StdEntry
       if dc? || eu?
         self[padding_hdr] = IntProp.new(:i8, 0)
       else
-        self[VOC.padding[-1]] = IntProp.new(:i8, 0)
+        self[VOC.padding[nil]] = IntProp.new(:i8, 0)
       end
     
       add_dscr_props
@@ -116,7 +116,7 @@ class ShipCannon < StdEntry
       self[VOC.attack        ] = IntProp.new(:i16, 0)
       self[VOC.hit           ] = IntProp.new(:u16, 0)
       self[VOC.limit         ] = IntProp.new( :i8, 0)
-      self[VOC.sp[-1]        ] = IntProp.new( :i8, 0)
+      self[VOC.sp[nil]       ] = IntProp.new( :i8, 0)
   
       (1..4).each do |_i|
         self[VOC.feature_id[_i]   ] = IntProp.new( :i8,  0           )
@@ -149,8 +149,8 @@ class ShipCannon < StdEntry
     end
 
     if product_id != '6107110 06' && product_id != '6107810'
-      fetch(VOC.feature_id[-1]).proc = Proc.new do |_id|
-        self[VOC.feature_name[-1]] = VOC.ship_accessory_features[_id]
+      fetch(VOC.feature_id[nil]).proc = Proc.new do |_id|
+        self[VOC.feature_name[nil]] = VOC.ship_accessory_features[_id]
       end
     else
       (1..4).each do |_i|

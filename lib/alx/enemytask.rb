@@ -188,14 +188,14 @@ class EnemyTask < Entry
   
   # Initialize the entry properties.
   def init_props
-    self[VOC.filter           ] = AryProp.new(      [], dmy: true)
-    self[VOC.enemy_ref        ] = IntProp.new(:u32, -1, dmy: true)
-    self[VOC.enemy_name_jp[-1]] = StrProp.new( nil, '', dmy: true)
+    self[VOC.filter            ] = AryProp.new(      [], dmy: true)
+    self[VOC.enemy_ref         ] = IntProp.new(:u32, -1, dmy: true)
+    self[VOC.enemy_name_jp[nil]] = StrProp.new( nil, '', dmy: true)
     
     if us?
-      self[VOC.enemy_name_us[-1]] = StrProp.new(nil, '', dmy: true)
+      self[VOC.enemy_name_us[nil]] = StrProp.new(nil, '', dmy: true)
     elsif eu?
-      self[VOC.enemy_name_eu[-1]] = StrProp.new(nil, '', dmy: true)
+      self[VOC.enemy_name_eu[nil]] = StrProp.new(nil, '', dmy: true)
     end
     
     self[VOC.type_id   ] = IntProp.new(:i16, -1           )
@@ -217,11 +217,11 @@ class EnemyTask < Entry
         _name_jp  = '???'
         _name_voc = '???'
       end
-      self[VOC.enemy_name_jp[-1]] = _name_jp
+      self[VOC.enemy_name_jp[nil]] = _name_jp
       if us?
-        self[VOC.enemy_name_us[-1]] = _name_voc
+        self[VOC.enemy_name_us[nil]] = _name_voc
       elsif eu?
-        self[VOC.enemy_name_eu[-1]] = _name_voc
+        self[VOC.enemy_name_eu[nil]] = _name_voc
       end
     end
     

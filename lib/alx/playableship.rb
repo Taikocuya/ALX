@@ -99,8 +99,8 @@ class PlayableShip < StdEntry
     self[VOC.maxhp] = IntProp.new(:u32, 0)
     
     if product_id != '6107110 06' && product_id != '6107810'
-      self[VOC.maxsp[-1]] = IntProp.new(:i16, 0)
-      self[VOC.sp[-1]   ] = IntProp.new(:i16, 0)
+      self[VOC.maxsp[nil]] = IntProp.new(:i16, 0)
+      self[VOC.sp[nil]   ] = IntProp.new(:i16, 0)
     end
     
     self[VOC.defense] = IntProp.new(:i16, 0)
