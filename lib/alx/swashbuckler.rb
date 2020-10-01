@@ -73,10 +73,10 @@ class Swashbuckler < StdEntry
       self[padding_hdr] = IntProp.new(:i8, 0)
     end
     
-    self[VOC.attack ] = IntProp.new(:i16, 0)
-    self[VOC.defense] = IntProp.new(:i16, 0)
-    self[VOC.dodge  ] = IntProp.new(:i16, 0)
-    self[VOC.run    ] = IntProp.new(:i16, 0)
+    self[VOC.attack      ] = IntProp.new(:i16, 0)
+    self[VOC.unknown[nil]] = IntProp.new(:i16, 0)
+    self[VOC.dodge       ] = IntProp.new(:i16, 0)
+    self[VOC.run         ] = IntProp.new(:i16, 0)
     
     if eu?
       self[padding_hdr] = IntProp.new(:i16, 0)

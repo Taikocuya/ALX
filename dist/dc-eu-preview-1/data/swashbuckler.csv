@@ -1,4 +1,4 @@
-Entry ID,EU Message ID,[DE Entry Name Pos.],[DE Entry Name Size],DE Entry Name,[ES Entry Name Pos.],[ES Entry Name Size],ES Entry Name,[FR Entry Name Pos.],[FR Entry Name Size],FR Entry Name,[GB Entry Name Pos.],[GB Entry Name Size],GB Entry Name,Rating,Pad. 1,Attack,Defense,Dodge%,Run%,Pad. 2
+Entry ID,EU Message ID,[DE Entry Name Pos.],[DE Entry Name Size],DE Entry Name,[ES Entry Name Pos.],[ES Entry Name Size],ES Entry Name,[FR Entry Name Pos.],[FR Entry Name Size],FR Entry Name,[GB Entry Name Pos.],[GB Entry Name Size],GB Entry Name,Rating,Pad. 1,Attack,Unk.,Dodge%,Run%,Pad. 2
 0,0x8c373b00,0x1abad,15,Vyse the Ninny,0x1b0be,15,Vyse the Ninny,0x1b530,15,Vyse the Ninny,0x1ab7d,15,Vyse the Ninny,5,0,0,0,50,200,0
 1,0x8c373b10,0x1abbc,16,Vyse the Coward,0x1b0cd,16,Vyse the Coward,0x1b53f,16,Vyse the Coward,0x1ab8c,16,Vyse the Coward,95,0,-1,-1,1,10,0
 2,0x8c373b20,0x1abcc,22,Vyse the Unimpressive,0x1b0dd,22,Vyse the Unimpressive,0x1b54f,22,Vyse the Unimpressive,0x1ab9c,22,Vyse the Unimpressive,105,0,0,0,0,0,0
