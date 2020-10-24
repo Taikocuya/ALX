@@ -71,10 +71,10 @@ class ShipAccessory < StdEntry
 
     if product_id != '6107110 06' && product_id != '6107810'
       (1..4).each do |_i|
-        self[VOC.feature_id[_i]   ] = IntProp.new( :i8,  0           )
-        self[VOC.feature_name[_i] ] = StrProp.new( nil, '', dmy: true)
-        self[padding_hdr          ] = IntProp.new( :i8,  0           )
-        self[VOC.feature_value[_i]] = IntProp.new(:i16,  0           )
+        self[VOC.trait_id[_i]   ] = IntProp.new( :i8,  0           )
+        self[VOC.trait_name[_i] ] = StrProp.new( nil, '', dmy: true)
+        self[padding_hdr        ] = IntProp.new( :i8,  0           )
+        self[VOC.trait_value[_i]] = IntProp.new(:i16,  0           )
       end
   
       if dc?
@@ -82,36 +82,36 @@ class ShipAccessory < StdEntry
         self[padding_hdr] = IntProp.new(:i8, 0)
       end
   
-      self[VOC.purchase_price] = IntProp.new(:u16, 0)
+      self[VOC.buy] = IntProp.new(:u16, 0)
       
       if dc?
         self[padding_hdr] = IntProp.new(:i8, 0)
         self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      self[VOC.retail_price  ] = IntProp.new(:i8,  0)
-      self[VOC.order_prio    ] = IntProp.new(:i8, -1)
+      self[VOC.sell          ] = IntProp.new(:i8,  0)
+      self[VOC.order_123     ] = IntProp.new(:i8, -1)
       self[VOC.order_abc[cid]] = IntProp.new(:i8, -1)
       self[padding_hdr       ] = IntProp.new(:i8,  0)
   
       add_dscr_props
     else
-      self[padding_hdr       ] = IntProp.new( :i8, 0)
-      self[padding_hdr       ] = IntProp.new( :i8, 0)
-      self[VOC.purchase_price] = IntProp.new(:u16, 0)
-      self[padding_hdr       ] = IntProp.new( :i8, 0)
-      self[padding_hdr       ] = IntProp.new( :i8, 0)
-      self[VOC.retail_price  ] = IntProp.new( :i8, 0)
-      self[padding_hdr       ] = IntProp.new( :i8, 0)
+      self[padding_hdr] = IntProp.new( :i8, 0)
+      self[padding_hdr] = IntProp.new( :i8, 0)
+      self[VOC.buy    ] = IntProp.new(:u16, 0)
+      self[padding_hdr] = IntProp.new( :i8, 0)
+      self[padding_hdr] = IntProp.new( :i8, 0)
+      self[VOC.sell   ] = IntProp.new( :i8, 0)
+      self[padding_hdr] = IntProp.new( :i8, 0)
       
       (1..4).each do |_i|
-        self[VOC.feature_id[_i]   ] = IntProp.new( :i8,  0           )
-        self[VOC.feature_name[_i] ] = StrProp.new( nil, '', dmy: true)
-        self[padding_hdr          ] = IntProp.new( :i8,  0           )
-        self[VOC.feature_value[_i]] = IntProp.new(:i16,  0           )
+        self[VOC.trait_id[_i]   ] = IntProp.new( :i8,  0           )
+        self[VOC.trait_name[_i] ] = StrProp.new( nil, '', dmy: true)
+        self[padding_hdr        ] = IntProp.new( :i8,  0           )
+        self[VOC.trait_value[_i]] = IntProp.new(:i16,  0           )
       end
       
-      self[VOC.order_prio    ] = IntProp.new(:i8, -1)
+      self[VOC.order_123     ] = IntProp.new(:i8, -1)
       self[VOC.order_abc[cid]] = IntProp.new(:i8, -1)
     end
   end
@@ -125,8 +125,8 @@ class ShipAccessory < StdEntry
     end
 
     (1..4).each do |_i|
-      fetch(VOC.feature_id[_i]).proc = Proc.new do |_id|
-        self[VOC.feature_name[_i]] = VOC.ship_accessory_features[_id]
+      fetch(VOC.trait_id[_i]).proc = Proc.new do |_id|
+        self[VOC.trait_name[_i]] = VOC.ship_traits[_id]
       end
     end
   end

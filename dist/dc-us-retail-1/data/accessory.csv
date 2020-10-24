@@ -1,4 +1,4 @@
-Entry ID,US Entry Name,PC Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order by Prio.,US Order by ABC,Pad. 1,Purchase Price,Feat. 1 ID,[Feat. 1 Name],Pad. 2,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 3,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 4,Feat. 3 Value,Feat. 4 ID,[Feat. 4 Name],Pad. 5,Feat. 4 Value,[US Descr. Pos.],[US Descr. Size],US Descr. Str.
+Entry ID,US Entry Name,PC Flags,[V],[A],[F],[D],[E],[G],Sell%,Ord by 123,US Ord by ABC,Pad 1,Buy,Trait 1 ID,[Trait 1 Name],Pad 2,Trait 1 Value,Trait 2 ID,[Trait 2 Name],Pad 3,Trait 2 Value,Trait 3 ID,[Trait 3 Name],Pad 4,Trait 3 Value,Trait 4 ID,[Trait 4 Name],Pad 5,Trait 4 Value,[US Descr Pos],[US Descr Size],US Descr Str
 160,Gemstone Ring,0x3a,X,X,X,"",X,"",50,1,23,0,150,18,MagDef,0,21,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x335548,84,"A finely crafted ring engraved with runes,\nthat protect the wearer against magic."
 161,Prophet's Sand,0x3a,X,X,X,"",X,"",50,3,39,0,890,18,MagDef,0,63,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x33559c,96,A ring created from enchanted sand found around\nMoon Stones. Protects the wearer against Magic.
 162,Meditation Ring,0x3a,X,X,X,"",X,"",50,0,33,0,100,1,Will,0,8,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x3355fc,84,A ring crafted from weaving the sprigs of magic\ntrees. Increases the wearer's Will.
@@ -29,7 +29,7 @@ Entry ID,US Entry Name,PC Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order 
 187,Revered Voice,0x3f,X,X,X,X,X,X,100,26,42,0,100,53,Silence,0,-10,34,Purple,0,-2,17,Defense,0,5,18,MagDef,0,5,0x335df4,88,"Boosts Defense & Magic Defense, especially to\nPurple Magic, & protects against Silence."
 188,Everlasting Gem,0x3f,X,X,X,X,X,X,100,28,17,0,100,54,Fatigue,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,0x335e4c,64,"Boosts Defense & Magic Defense, & protects\nagainst Fatigue. "
 189,Behemoth's Ring,0x3f,X,X,X,X,X,X,100,27,2,0,100,56,Weak,0,-10,36,Yellow,0,-2,17,Defense,0,5,18,MagDef,0,5,0x335e8c,88,"Boosts Defense & Magic Defense, especially to\nYellow Magic, & protects against Weak."
-190,Constitution Gem,0x3f,X,X,X,X,X,X,100,31,9,0,1000,79,Block Neg. States,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,0x335ee4,92,"A miraculous stone that prevents all adverse\neffects, and boosts Defense & Magic Defense."
+190,Constitution Gem,0x3f,X,X,X,X,X,X,100,31,9,0,1000,79,Block Neg States,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,0x335ee4,92,"A miraculous stone that prevents all adverse\neffects, and boosts Defense & Magic Defense."
 191,Nomadic Veil,0x3f,X,X,X,X,X,X,50,34,37,0,640,17,Defense,0,9,18,MagDef,0,9,-1,None,0,0,-1,None,0,0,0x335f40,80,A veil worn by tribes of nomads in Nasr.\nImproves Defense and Magic Defense.
 192,Radiant Fur,0x3f,X,X,X,X,X,X,50,39,41,0,3580,17,Defense,0,24,18,MagDef,0,24,-1,None,0,0,-1,None,0,0,0x335f90,96,"A thick fur, designed to protect sailors from \nthe cold. Improves Defense and Magic Defense."
 193,Sand Storm Ring,0x3f,X,X,X,X,X,X,50,35,44,0,770,16,Attack,0,9,1,Will,0,9,-1,None,0,0,-1,None,0,0,0x335ff0,76,An enchanted ring worn by desert nomads.\nImproves Attack Power and Will.
@@ -46,8 +46,8 @@ Entry ID,US Entry Name,PC Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order 
 204,Skyseer Goggles,0x30,X,X,"","","","",50,46,49,0,40,19,Hit%,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x336344,72,A pair of goggles that can zoom in on distant\ntargets. Improves Hit%.
 205,Nocturnal Sight,0x30,X,X,"","","","",50,47,36,0,1930,19,Hit%,0,60,16,Attack,0,6,-1,None,0,0,-1,None,0,0,0x33638c,68,An enchantment that allows a fighter to detect\ntargets at night.
 206,Critical Vision,0x30,X,X,"","","","",50,48,12,0,6660,19,Hit%,0,50,16,Attack,0,19,1,Will,0,19,-1,None,0,0,0x3363d0,72,An enchantment that allows a fighter to detect\nan enemy's weak points.
-207,Gem of Purity,0x5,"","","",X,"",X,50,49,22,0,300,79,Block Neg. States,0,-3,17,Defense,0,8,-1,None,0,0,-1,None,0,0,0x336418,92,An enchanted gem that protects the bearer.\nBoosts Defense & Resistance to Adverse Effects.
-208,Shard of Purity,0x5,"","","",X,"",X,50,51,45,0,4760,79,Block Neg. States,0,-9,17,Defense,0,38,-1,None,0,0,-1,None,0,0,0x336474,96,"An enchanted Moon Shard that protects the wearer\nfrom Adverse Effects, and improves Defense."
+207,Gem of Purity,0x5,"","","",X,"",X,50,49,22,0,300,79,Block Neg States,0,-3,17,Defense,0,8,-1,None,0,0,-1,None,0,0,0x336418,92,An enchanted gem that protects the bearer.\nBoosts Defense & Resistance to Adverse Effects.
+208,Shard of Purity,0x5,"","","",X,"",X,50,51,45,0,4760,79,Block Neg States,0,-9,17,Defense,0,38,-1,None,0,0,-1,None,0,0,0x336474,96,"An enchanted Moon Shard that protects the wearer\nfrom Adverse Effects, and improves Defense."
 209,Fortune Ring,0x18,"",X,X,"","","",50,16,20,0,2860,20,Dodge%,0,100,17,Defense,0,8,-1,None,0,0,-1,None,0,0,0x3364d4,92,A mysterious ring that allows the wearer to\navoid most normal Attacks. Improves Defense.
 210,Black Map,0x20,X,"","","","","",100,56,4,0,777,84,Random Encounter%,0,100,80,First Strike%,0,25,82,???,0,0,83,EC Run%,0,0,0x336530,88,A map that leads enemy creatures to the holder.\nAlso improves chances for First Strike.
 211,White Map,0x20,X,"","","","","",100,57,61,0,666,84,Random Encounter%,0,5,80,First Strike%,0,0,82,???,0,0,81,PC Run%,0,100,0x336588,88,A map that leads the holder away from enemies.\nAlso improves chances of running away.
@@ -58,10 +58,10 @@ Entry ID,US Entry Name,PC Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order 
 216,Imperial Crest,0x2,"","","","",X,"",100,55,27,0,1000,17,Defense,0,20,18,MagDef,0,20,-1,None,0,0,-1,None,0,0,0x33672c,84,Given to protect members of the Royal Family.\nImproves Defense and Magic Defense.
 217,Gilder's Amulet,0x31,X,X,"","","",X,100,54,24,0,500,17,Defense,0,11,18,MagDef,0,11,16,Attack,0,11,1,Will,0,11,0x336780,84,"Worn around Gilder's neck. Improves Defense,\nMagic Defense, Attack Power, and Will."
 218,Valuan Medallion,0x3f,X,X,X,X,X,X,100,60,57,0,5000,49,Unconscious,0,-10,17,Defense,0,30,18,MagDef,0,30,-1,None,0,0,0x3367d4,76,Enchanted medallion worn by officers in the\nArmada. Negates Eterni spells.
-219,Immunity Ring,0x5,"","","",X,"",X,50,50,26,0,1490,79,Block Neg. States,0,-6,17,Defense,0,21,-1,None,0,0,-1,None,0,0,0x336820,64,Sacred Ring. Boosts Defense and Resistance to\nadverse effects.
+219,Immunity Ring,0x5,"","","",X,"",X,50,50,26,0,1490,79,Block Neg States,0,-6,17,Defense,0,21,-1,None,0,0,-1,None,0,0,0x336820,64,Sacred Ring. Boosts Defense and Resistance to\nadverse effects.
 220,Thermo Ring,0x3f,X,X,X,X,X,X,50,58,53,0,2080,33,Red,0,-5,34,Purple,0,-5,-1,None,0,0,-1,None,0,0,0x336860,64,A ring that increases resistance to Red and \nPurple Attacks.
 221,Slayer Ring,0x3f,X,X,X,X,X,X,50,59,50,0,1010,1,Will,0,8,17,Defense,0,8,19,Hit%,0,10,4,Quick,0,8,0x3368a0,68,"Raises Defense, Hit%, Will, and Quick.\nIts background is unknown."
-222,Chance Ring,0x3f,X,X,X,X,X,X,100,32,8,0,1000,79,Block Neg. States,0,90,17,Defense,0,75,18,MagDef,0,75,-1,None,0,0,0x3368e4,88,"Boosts Defense and Magic Defense, but leaves\nthe wearer susceptible to adverse effects."
+222,Chance Ring,0x3f,X,X,X,X,X,X,100,32,8,0,1000,79,Block Neg States,0,90,17,Defense,0,75,18,MagDef,0,75,-1,None,0,0,0x3368e4,88,"Boosts Defense and Magic Defense, but leaves\nthe wearer susceptible to adverse effects."
 223,ダミーアクセサリ,0x0,"","","","","","",0,63,63,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 224,ダミーアクセサリ,0x0,"","","","","","",0,64,64,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 225,ダミーアクセサリ,0x0,"","","","","","",0,65,65,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""

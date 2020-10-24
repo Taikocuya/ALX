@@ -1,4 +1,4 @@
-Entry ID,EU Message ID,[DE Entry Name Pos.],[DE Entry Name Size],DE Entry Name,[ES Entry Name Pos.],[ES Entry Name Size],ES Entry Name,[FR Entry Name Pos.],[FR Entry Name Size],FR Entry Name,[GB Entry Name Pos.],[GB Entry Name Size],GB Entry Name,Rating,Pad. 1,Attack,Unk.,Dodge%,Run%,Pad. 2
+Entry ID,EU Message ID,[DE Entry Name Pos],[DE Entry Name Size],DE Entry Name,[ES Entry Name Pos],[ES Entry Name Size],ES Entry Name,[FR Entry Name Pos],[FR Entry Name Size],FR Entry Name,[GB Entry Name Pos],[GB Entry Name Size],GB Entry Name,Rating,Pad 1,Attack,Unk,Dodge%,Run%,Pad 2
 0,0x802c78b0,0x1e2b1,17,"Vyse, der Tölpel",0x1e028,14,Vyse el Tonto,0x1e2a2,15,Vyse le Nigaud,0x1d929,15,Vyse the Ninny,5,0,0,0,50,200,0
 1,0x802c78c0,0x1e2c2,19,"Vyse, der Feigling",0x1e036,16,Vyse el Cobarde,0x1e2b1,15,Vyse le Couard,0x1d938,16,Vyse the Coward,95,0,-1,-1,1,10,0
 2,0x802c78d0,0x1e2d5,22,"Vyse, der Langweilige",0x1e046,23,Vyse el Insignificante,0x1e2c0,15,Vyse le Simple,0x1d948,22,Vyse the Unimpressive,105,0,0,0,0,0,0

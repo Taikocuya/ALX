@@ -1,4 +1,4 @@
-Entry ID,[Str. Pos.],[Str. Size],[Str. Encoding],Str. Value,[Str. Data]
+Entry ID,[Str Pos],[Str Size],[Str Enc],Str Value,[Str Data]
 0,0x30,17,Shift_JIS,Lib Handle Start,"""Lib Handle Start"""
 1,0x57cc,12,Shift_JIS,GINXFER.BIN,"""GINXFER.BIN"""
 2,0x57d8,23,Shift_JIS,\\MANIFEST\\MANIFEST.BIN,"""\\MANIFEST\\MANIFEST.BIN"""

@@ -1,4 +1,4 @@
-Entry ID,[Str. Pos.],[Str. Size],[Str. Encoding],Str. Value,[Str. Data]
+Entry ID,[Str Pos],[Str Size],[Str Enc],Str Value,[Str Data]
 0,0x30,17,Shift_JIS,Lib Handle Start,"""Lib Handle Start"""
 1,0x6960,44,Shift_JIS,\nntUtl Ver 3.00 Build:May 12 2000 14:29:55\n,"""\nntUtl Ver 3.00 Build:May 12 2000 14:29:55\n"""
 2,0x6990,44,Shift_JIS,\nntInf Ver 4.01 Build:May 12 2000 14:29:56\n,"""\nntInf Ver 4.01 Build:May 12 2000 14:29:56\n"""

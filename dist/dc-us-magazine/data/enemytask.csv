@@ -1,4 +1,4 @@
-Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,[Task Name],Param. ID,[Param. Name]
+Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,[Task Name],Param ID,[Param Name]
 1,*,0,軍艦兵,Battleship Soldier,0,Branch,21,Rating 10%,3,Go to 3
 2,*,0,軍艦兵,Battleship Soldier,1,Action,550,Attack,2,Random PC
 3,*,0,軍艦兵,Battleship Soldier,1,Action,551,Guard,-1,None
@@ -28,7 +28,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 6,*,3,マロッカ,Marocca,1,Action,551,Guard,-1,None
 7,*,3,マロッカ,Marocca,1,Action,550,Attack,1,Same PC
 8,*,3,マロッカ,Marocca,1,Action,552,Run,-1,None
-1,*,4,アーアペプ,Grouder,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
+1,*,4,アーアペプ,Grouder,0,Branch,33,Used Attack Spells ≥ 1,3,Go to 3
 2,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,10,Go to 10
 3,*,4,アーアペプ,Grouder,0,Branch,36,Used State Spells ≥ 2,5,Go to 5
 4,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,9,Go to 9
@@ -58,9 +58,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,
 17,*,7,煌術処刑士,Magic Executor,0,Branch,25,Rating 50%,21,Go to 21
 18,*,7,煌術処刑士,Magic Executor,0,Branch,30,Always,25,Go to 25
 19,*,7,煌術処刑士,Magic Executor,1,Action,550,Attack,1,Same PC
-20,*,7,煌術処刑士,Magic Executor,1,Action,500,Increm,8,EC w/ Highest ID
+20,*,7,煌術処刑士,Magic Executor,1,Action,500,Increm,8,EC w/ Largest ID
 21,*,7,煌術処刑士,Magic Executor,1,Action,506,Sacri,7,EC w/ Least HP
-22,*,7,煌術処刑士,Magic Executor,1,Action,506,Sacri,8,EC w/ Highest ID
+22,*,7,煌術処刑士,Magic Executor,1,Action,506,Sacri,8,EC w/ Largest ID
 23,*,7,煌術処刑士,Magic Executor,1,Action,526,Crystali,2,Random PC
 24,*,7,煌術処刑士,Magic Executor,1,Action,37,Reform,-1,None
 25,*,7,煌術処刑士,Magic Executor,1,Action,551,Guard,-1,None

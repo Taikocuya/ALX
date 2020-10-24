@@ -1,4 +1,4 @@
-Entry ID,US Entry Name,PC Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order by Prio.,US Order by ABC,Pad. 1,Purchase Price,Feat. 1 ID,[Feat. 1 Name],Pad. 2,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 3,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 4,Feat. 3 Value,Feat. 4 ID,[Feat. 4 Name],Pad. 5,Feat. 4 Value,[US Descr. Pos.],[US Descr. Size],US Descr. Str.
+Entry ID,US Entry Name,PC Flags,[V],[A],[F],[D],[E],[G],Sell%,Ord by 123,US Ord by ABC,Pad 1,Buy,Trait 1 ID,[Trait 1 Name],Pad 2,Trait 1 Value,Trait 2 ID,[Trait 2 Name],Pad 3,Trait 2 Value,Trait 3 ID,[Trait 3 Name],Pad 4,Trait 3 Value,Trait 4 ID,[Trait 4 Name],Pad 5,Trait 4 Value,[US Descr Pos],[US Descr Size],US Descr Str
 160,Ж防の指輪１,0x3f,X,X,X,X,X,X,50,2,27,0,25,18,MagDef,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x33356c,44,指輪です。Ж術関係中心のアクセサリーです。\n
 161,Ж防の指輪２,0x3f,X,X,X,X,X,X,50,20,28,0,202,18,MagDef,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 162,Ring of Oak,0x3f,X,X,X,X,X,X,50,3,14,0,30,1,Will,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x333598,100,A ring made from enchanted wood by magicians in\nthe North.This ring will increase your strength.
@@ -35,10 +35,10 @@ Entry ID,US Entry Name,PC Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order 
 193,攻めの首飾り２,0x3f,X,X,X,X,X,X,50,38,32,0,1931,16,Attack,0,45,1,Will,0,45,-1,None,0,0,-1,None,0,0,0x0,0,""
 194,万能の首飾り１,0x3f,X,X,X,X,X,X,50,10,43,0,85,17,Defense,0,5,18,MagDef,0,5,16,Attack,0,5,1,Will,0,5,0x0,0,""
 195,万能の首飾り２,0x3f,X,X,X,X,X,X,50,40,44,0,1931,17,Defense,0,40,18,MagDef,0,40,16,Attack,0,40,1,Will,0,40,0x0,0,""
-196,生命力の首飾り,0x3f,X,X,X,X,X,X,50,25,30,0,202,2,???,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
-197,器用さの首飾り,0x3f,X,X,X,X,X,X,50,26,13,0,71,3,???,0,10,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
+196,生命力の首飾り,0x3f,X,X,X,X,X,X,50,25,30,0,202,2,Vigor,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
+197,器用さの首飾り,0x3f,X,X,X,X,X,X,50,26,13,0,71,3,Agile,0,10,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 198,素早さの首飾り,0x3f,X,X,X,X,X,X,50,27,29,0,202,4,Quick,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
-199,奇跡の首飾り,0x3f,X,X,X,X,X,X,50,44,12,0,2,79,Block Neg. States,0,1,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
+199,奇跡の首飾り,0x3f,X,X,X,X,X,X,50,44,12,0,2,79,Block Neg States,0,1,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 200,肉弾の首飾り,0x3f,X,X,X,X,X,X,50,35,37,0,607,68,Reduce SP,0,1,-1,None,0,35,-1,None,0,35,-1,None,0,10,0x0,0,""
 201,Ribbon,0x19,"",X,X,"","",X,50,0,8,0,25,4,Quick,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x333764,72,An accessory to tie up long hair.It allows you\nto move with more ease
 202,髪飾り２,0x19,"",X,X,"","",X,50,33,9,0,371,4,Quick,0,30,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x3337ac,32,髪飾りです。素早さを高めます。\n

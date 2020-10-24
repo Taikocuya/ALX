@@ -169,7 +169,7 @@ class EnemyShip < StdEntry
   def init_procs
     (1..4).each do |_i|
       fetch(VOC.arm_type_id[_i]).proc = Proc.new do |_id|
-        self[VOC.arm_type_name[_i]] = VOC.ship_cannon_types[_id]
+        self[VOC.arm_type_name[_i]] = VOC.cannon_types[_id]
       end
       
       fetch(VOC.arm_element_id[_i]).proc = Proc.new do |_id|

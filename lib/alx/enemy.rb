@@ -149,7 +149,7 @@ class Enemy < Entry
     self[padding_hdr       ] = IntProp.new( :i8,  -1           )
     self[VOC.movement_flags] = IntProp.new(:i16,   0, base: 16 )
     self[VOC.counter       ] = IntProp.new(:i16,   0           )
-    self[VOC.exp[nil]       ] = IntProp.new(:u16,   0           )
+    self[VOC.exp[nil]      ] = IntProp.new(:u16,   0           )
     self[VOC.gold          ] = IntProp.new(:u16,   0           )
     self[padding_hdr       ] = IntProp.new( :i8,  -1           )
     self[padding_hdr       ] = IntProp.new( :i8,  -1           )
@@ -159,11 +159,12 @@ class Enemy < Entry
     (0...6).each do |_i|
       self[VOC.elements[_i]] = IntProp.new(:i16, 0)
     end
-    (0...16).each do |_i|
+    (0...15).each do |_i|
       self[VOC.states[_i]  ] = IntProp.new(:i16, 0)
     end
 
-    self[VOC.effect_id  ] = IntProp.new( :i8, -1           )
+    self[VOC.danger     ] = IntProp.new(:i16,  0           )
+    self[VOC.effect_id  ] = IntProp.new( :u8, -1           )
     self[VOC.effect_name] = StrProp.new( nil, '', dmy: true)
     self[VOC.state_id   ] = IntProp.new( :i8,  0           )
     self[VOC.state_name ] = StrProp.new( nil, '', dmy: true)

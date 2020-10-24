@@ -1,4 +1,4 @@
-Entry ID,[Str. Pos.],[Str. Size],[Str. Encoding],Str. Value,[Str. Data]
+Entry ID,[Str Pos],[Str Size],[Str Enc],Str Value,[Str Data]
 0,0x30,17,Shift_JIS,Lib Handle Start,"""Lib Handle Start"""
 1,0x577c,44,Shift_JIS,\nntInf Ver 2.00 Build:Mar 31 1999 14:13:50\n,"""\nntInf Ver 2.00 Build:Mar 31 1999 14:13:50\n"""
 2,0x5d88,5,Shift_JIS,SEGA,"""SEGA"""

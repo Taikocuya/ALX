@@ -1,4 +1,4 @@
-Entry ID,JP Entry Name,PC Flags,[V],[A],[F],[D],[E],[G],Retail Price in %,Order by Prio.,JP Order by ABC,Pad. 1,Purchase Price,Feat. 1 ID,[Feat. 1 Name],Pad. 2,Feat. 1 Value,Feat. 2 ID,[Feat. 2 Name],Pad. 3,Feat. 2 Value,Feat. 3 ID,[Feat. 3 Name],Pad. 4,Feat. 3 Value,Feat. 4 ID,[Feat. 4 Name],Pad. 5,Feat. 4 Value,[JP Descr. Pos.],[JP Descr. Size],JP Descr. Str.
+Entry ID,JP Entry Name,PC Flags,[V],[A],[F],[D],[E],[G],Sell%,Ord by 123,JP Ord by ABC,Pad 1,Buy,Trait 1 ID,[Trait 1 Name],Pad 2,Trait 1 Value,Trait 2 ID,[Trait 2 Name],Pad 3,Trait 2 Value,Trait 3 ID,[Trait 3 Name],Pad 4,Trait 3 Value,Trait 4 ID,[Trait 4 Name],Pad 5,Trait 4 Value,[JP Descr Pos],[JP Descr Size],JP Descr Str
 80,青空賊の服,0x31,X,X,"","","",X,50,0,1,0,60,17,Defense,0,20,18,MagDef,0,20,-1,None,0,0,-1,None,0,0,0x335b4c,92,青の空賊であることを強烈に主張する真っ青な服。\n若い頃ダインが着ていたものを仕立て直した。
 81,ショートパンツ,0x18,"",X,X,"","","",50,1,19,0,50,17,Defense,0,19,18,MagDef,0,21,-1,None,0,0,-1,None,0,0,0x335ba8,84,アイカお気に入りのキュートな半ズボン。\nヴァイスの母が若い頃はいていたのをもらった。
 82,シルクのローブ,0x1a,"",X,X,"",X,"",50,11,21,0,510,17,Defense,0,55,18,MagDef,0,64,-1,None,0,0,-1,None,0,0,0x335bfc,96,清楚なファイナにとてもよく似合う真っ白なローブ。\n敵のЖ術によるダメージをやわらげる効果がある。

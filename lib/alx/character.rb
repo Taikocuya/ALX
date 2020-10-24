@@ -108,33 +108,34 @@ class Character < StdEntry
     self[VOC.movement_flags     ] = IntProp.new(:i16,   0, base: 16 )
     self[VOC.hp                 ] = IntProp.new(:i16,   0           )
     self[VOC.maxhp              ] = IntProp.new(:i16,   0           )
-    self[VOC.base_hp_incr       ] = IntProp.new(:i16,   0           )
+    self[VOC.hp_growth          ] = IntProp.new(:i16,   0           )
     self[VOC.sp[nil]            ] = IntProp.new(:i16,   0           )
     self[VOC.maxsp[nil]         ] = IntProp.new(:i16,   0           )
     self[VOC.counter            ] = IntProp.new(:i16,   0           )
     self[padding_hdr            ] = IntProp.new(:i16,   0           )
     self[VOC.exp[nil]           ] = IntProp.new(:u32,   0           )
-    self[VOC.base_mp_incr       ] = FltProp.new(:f32, 0.0           )
+    self[VOC.mp_growth          ] = FltProp.new(:f32, 0.0           )
     self[unknown_hdr            ] = FltProp.new(:f32, 0.0           )
     
     (0...6).each do |_i|
       self[VOC.elements[_i]] = IntProp.new(:i16, 0)
     end
-    (0...16).each do |_i|
+    (0...15).each do |_i|
       self[VOC.states[_i]  ] = IntProp.new(:i16, 0)
     end
 
+    self[VOC.danger         ] = IntProp.new(:i16,   0)
     self[VOC.power          ] = IntProp.new(:i16,   0)
     self[VOC.will           ] = IntProp.new(:i16,   0)
     self[VOC.vigor          ] = IntProp.new(:i16,   0)
     self[VOC.agile          ] = IntProp.new(:i16,   0)
     self[VOC.quick          ] = IntProp.new(:i16,   0)
     self[padding_hdr        ] = IntProp.new(:i16,   0)
-    self[VOC.base_power_incr] = FltProp.new(:f32, 0.0)
-    self[VOC.base_will_incr ] = FltProp.new(:f32, 0.0)
-    self[VOC.base_vigor_incr] = FltProp.new(:f32, 0.0)
-    self[VOC.base_agile_incr] = FltProp.new(:f32, 0.0)
-    self[VOC.base_quick_incr] = FltProp.new(:f32, 0.0)
+    self[VOC.power_growth   ] = FltProp.new(:f32, 0.0)
+    self[VOC.will_growth    ] = FltProp.new(:f32, 0.0)
+    self[VOC.vigor_growth   ] = FltProp.new(:f32, 0.0)
+    self[VOC.agile_growth   ] = FltProp.new(:f32, 0.0)
+    self[VOC.quick_growth   ] = FltProp.new(:f32, 0.0)
     self[VOC.green_exp[nil] ] = IntProp.new(:i32,   0)
     self[VOC.red_exp[nil]   ] = IntProp.new(:i32,   0)
     self[VOC.purple_exp[nil]] = IntProp.new(:i32,   0)

@@ -1,20 +1,20 @@
-Entry ID,JP Entry Name,Pos. ID,[Pos. Name],Feat. ID,[Feat. Name],Pad. 1,Feat. Value,Ship Effect ID,[Ship Effect Name],Ship Effect Turns,Ship Effect Amount,Unk. 1,Pad. 2,Pad. 3,Pad. 4,Pad. 5
+Entry ID,JP Entry Name,Pos ID,[Pos Name],Trait ID,[Trait Name],Pad 1,Trait Value,Ship Eff ID,[Ship Eff Name],Ship Eff Turns,Ship Eff Base,Unk 1,Pad 2,Pad 3,Pad 4,Pad 5
 0,ロレンス,0,Helmsman,-1,None,0,0,131,???,4,0,0,0,0,0,0
 1,ドン,0,Helmsman,-1,None,0,0,132,???,8,0,0,0,0,0,0
 2,ブラバム,1,Engineer,2,Defense,0,100,255,None,-1,0,0,0,0,0,0
 3,ハンス,1,Engineer,-1,None,0,0,135,???,-1,0,0,0,0,0,0
-4,ベル,2,Gunner,48,Main Cannon Atk.,0,100,255,None,-1,0,0,0,0,0,0
+4,ベル,2,Gunner,48,Main Cannon Atk,0,100,255,None,-1,0,0,0,0,0,0
 5,カシム,2,Gunner,32,???,0,100,255,None,-1,0,0,0,0,0,0
 6,ティカティカ,3,Lookout,-1,None,0,0,139,???,4,0,0,0,0,0,0
 7,ドミンゴ,3,Lookout,-1,None,0,0,255,None,-1,0,0,0,0,0,0
 8,オスマン,4,Merchant,-1,None,0,0,255,None,-1,0,0,0,0,0,0
 9,カリファ,4,Merchant,-1,None,0,0,255,None,-1,0,0,0,0,0,0
-10,イズレール,5,Builder,-1,None,0,0,101,Recover HP 100%,0,0,1,0,0,0,0
+10,イズレール,5,Builder,-1,None,0,0,101,Recover HP by 100%,0,0,1,0,0,0,0
 11,キララ,5,Builder,-1,None,0,0,102,Recover SP,4,3000,1,0,0,0,0
-12,ポリー,6,Cook,-1,None,0,-1,104,Quickened,0,0,141,0,0,0,0
-13,ウララ,6,Cook,-1,None,0,-1,105,Strengthen,4,20,141,0,0,0,0
+12,ポリー,6,Cook,-1,None,0,-1,104,Incr Quick,0,0,141,0,0,0,0
+13,ウララ,6,Cook,-1,None,0,-1,105,Incr Attack + Defense,4,20,141,0,0,0,0
 14,リュウカン,7,Artisan,-1,None,0,-1,154,???,8,0,0,0,0,0,0
-15,アルキュミス,7,Artisan,64,Sec. Cannon Atk.,0,100,255,None,-1,0,0,0,0,0,0
+15,アルキュミス,7,Artisan,64,Sec Cannon Atk,0,100,255,None,-1,0,0,0,0,0,0
 16,マルコ,8,Sailor,2,Defense,0,100,255,None,-1,0,0,0,0,0,0
 17,ロビンソン,8,Sailor,3,MagDef,0,100,255,None,-1,0,0,0,0,0,0
 18,パウ,9,Jester,-1,None,0,0,129,???,-1,50,0,0,0,0,0

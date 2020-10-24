@@ -65,21 +65,21 @@ class Armor < StdEntry
       self[VOC.character_opt[_name.chr]] = StrProp.new(nil, '', dmy: true)
     end
 
-    self[VOC.retail_price  ] = IntProp.new(:i8,  0)
-    self[VOC.order_prio    ] = IntProp.new(:i8, -1)
+    self[VOC.sell          ] = IntProp.new(:i8,  0)
+    self[VOC.order_123     ] = IntProp.new(:i8, -1)
     self[VOC.order_abc[cid]] = IntProp.new(:i8, -1)
     
     if jp? || us?
       self[padding_hdr] = IntProp.new(:i8, 0)
     end
 
-    self[VOC.purchase_price] = IntProp.new(:u16, 0)
+    self[VOC.buy] = IntProp.new(:u16, 0)
     
     (1..4).each do |_i|
-      self[VOC.feature_id[_i]   ] = IntProp.new( :i8,  0           )
-      self[VOC.feature_name[_i] ] = StrProp.new( nil, '', dmy: true)
-      self[padding_hdr          ] = IntProp.new( :i8,  0           )
-      self[VOC.feature_value[_i]] = IntProp.new(:i16,  0           )
+      self[VOC.trait_id[_i]   ] = IntProp.new( :i8,  0           )
+      self[VOC.trait_name[_i] ] = StrProp.new( nil, '', dmy: true)
+      self[padding_hdr        ] = IntProp.new( :i8,  0           )
+      self[VOC.trait_value[_i]] = IntProp.new(:i16,  0           )
     end
 
     if eu?
@@ -100,8 +100,8 @@ class Armor < StdEntry
     end
     
     (1..4).each do |_i|
-      fetch(VOC.feature_id[_i]).proc = Proc.new do |_id|
-        self[VOC.feature_name[_i]] = VOC.accessory_features[_id]
+      fetch(VOC.trait_id[_i]).proc = Proc.new do |_id|
+        self[VOC.trait_name[_i]] = VOC.traits[_id]
       end
     end
   end

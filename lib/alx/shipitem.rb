@@ -66,7 +66,7 @@ class ShipItem < StdEntry
         self[_occasion] = StrProp.new(nil, '', dmy: true)
       end
       
-      self[VOC.ship_effect_id   ] = IntProp.new(:i8,  0           )
+      self[VOC.ship_effect_id   ] = IntProp.new(:u8,  0           )
       self[VOC.ship_effect_name ] = StrProp.new(nil, '', dmy: true)
       self[VOC.ship_effect_turns] = IntProp.new(:i8,  0           )
       self[VOC.consume          ] = IntProp.new(:i8,  0           )
@@ -80,15 +80,15 @@ class ShipItem < StdEntry
         self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      self[VOC.purchase_price] = IntProp.new(:u16, 0)
+      self[VOC.buy] = IntProp.new(:u16, 0)
   
       if dc?
         self[padding_hdr] = IntProp.new(:i8, 0)
         self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      self[VOC.retail_price  ] = IntProp.new(:i8,  0)
-      self[VOC.order_prio    ] = IntProp.new(:i8, -1)
+      self[VOC.sell          ] = IntProp.new(:i8,  0)
+      self[VOC.order_123     ] = IntProp.new(:i8, -1)
       self[VOC.order_abc[cid]] = IntProp.new(:i8, -1)
       self[padding_hdr       ] = IntProp.new(:i8,  0)
       
@@ -97,36 +97,36 @@ class ShipItem < StdEntry
         self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      self[VOC.ship_effect_value] = IntProp.new(:i16,  0           )
-      self[VOC.element_id       ] = IntProp.new( :i8,  0           )
-      self[VOC.element_name     ] = StrProp.new( nil, '', dmy: true)
-      self[unknown_hdr          ] = IntProp.new( :i8,  0           )
-      self[unknown_hdr          ] = IntProp.new(:i16,  0           )
-      self[VOC.hit              ] = IntProp.new(:i16,  0           )
+      self[VOC.ship_effect_base] = IntProp.new(:i16,  0           )
+      self[VOC.element_id      ] = IntProp.new( :i8,  0           )
+      self[VOC.element_name    ] = StrProp.new( nil, '', dmy: true)
+      self[unknown_hdr         ] = IntProp.new( :i8,  0           )
+      self[unknown_hdr         ] = IntProp.new(:i16,  0           )
+      self[VOC.hit             ] = IntProp.new(:i16,  0           )
   
       add_dscr_props
     else
       self[padding_hdr       ] = IntProp.new( :i8, 0          )
       self[padding_hdr       ] = IntProp.new( :i8, 0          )
       self[padding_hdr       ] = IntProp.new( :i8, 0          )
-      self[VOC.purchase_price] = IntProp.new(:u16, 0          )
+      self[VOC.buy           ] = IntProp.new(:u16, 0          )
       self[padding_hdr       ] = IntProp.new( :i8, 0          )
       self[padding_hdr       ] = IntProp.new( :i8, 0          )
-      self[VOC.retail_price  ] = IntProp.new( :i8, 0          )
+      self[VOC.sell          ] = IntProp.new( :i8, 0          )
       self[VOC.occasion_flags] = IntProp.new( :u8, 0, base: 16)
 
       VOC.occasions.each do |_id, _occasion|
         self[_occasion] = StrProp.new(nil, '', dmy: true)
       end
       
-      self[VOC.ship_effect_id   ] = IntProp.new( :i8,  0           )
+      self[VOC.ship_effect_id   ] = IntProp.new( :u8,  0           )
       self[VOC.ship_effect_name ] = StrProp.new( nil, '', dmy: true)
       self[VOC.ship_effect_turns] = IntProp.new( :i8,  0           )
       self[VOC.consume          ] = IntProp.new( :i8,  0           )
-      self[VOC.order_prio       ] = IntProp.new( :i8, -1           )
+      self[VOC.order_123        ] = IntProp.new( :i8, -1           )
       self[VOC.order_abc[cid]   ] = IntProp.new( :i8, -1           )
       self[padding_hdr          ] = IntProp.new( :i8,  0           )
-      self[VOC.ship_effect_value] = IntProp.new(:i16,  0           )
+      self[VOC.ship_effect_base ] = IntProp.new(:i16,  0           )
       self[unknown_hdr          ] = IntProp.new( :i8,  0           )
       self[unknown_hdr          ] = IntProp.new( :i8,  0           )
       self[unknown_hdr          ] = IntProp.new( :i8,  0           )

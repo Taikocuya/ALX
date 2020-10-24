@@ -67,24 +67,24 @@ class CrewMember < StdEntry
         self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      self[VOC.feature_id[nil]    ] = IntProp.new( :i8, -1           )
-      self[VOC.feature_name[nil]  ] = StrProp.new( nil, '', dmy: true)
-      self[padding_hdr            ] = IntProp.new( :i8,  0           )
-      self[VOC.feature_value[nil] ] = IntProp.new(:i16,  0           )
-      self[VOC.ship_effect_id     ] = IntProp.new( :i8, -1           )
-      self[VOC.ship_effect_name   ] = StrProp.new( nil, '', dmy: true)
-      self[VOC.ship_effect_spirit ] = IntProp.new( :i8, -1           )
-      self[VOC.ship_effect_turns  ] = IntProp.new( :i8, -1           )
-      self[padding_hdr            ] = IntProp.new( :i8,  0           )
-      self[padding_hdr            ] = IntProp.new( :i8,  0           )
-      self[padding_hdr            ] = IntProp.new( :i8,  0           )
+      self[VOC.trait_id[nil]    ] = IntProp.new( :i8, -1           )
+      self[VOC.trait_name[nil]  ] = StrProp.new( nil, '', dmy: true)
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      self[VOC.trait_value[nil] ] = IntProp.new(:i16,  0           )
+      self[VOC.ship_effect_id   ] = IntProp.new( :u8, -1           )
+      self[VOC.ship_effect_name ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.ship_effect_sp   ] = IntProp.new( :i8, -1           )
+      self[VOC.ship_effect_turns] = IntProp.new( :i8, -1           )
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
       
       if gc? && jp?
-        self[VOC.unknown[nil]      ] = IntProp.new(:i16, 0)
-        self[VOC.ship_effect_value] = IntProp.new(:i16, 0)
+        self[VOC.unknown[nil]    ] = IntProp.new(:i16, 0)
+        self[VOC.ship_effect_base] = IntProp.new(:i16, 0)
       else
-        self[VOC.ship_effect_value] = IntProp.new(:i16, 0)
-        self[VOC.unknown[nil]      ] = IntProp.new(:i16, 0)
+        self[VOC.ship_effect_base] = IntProp.new(:i16, 0)
+        self[VOC.unknown[nil]    ] = IntProp.new(:i16, 0)
       end
   
       self[padding_hdr] = IntProp.new(:i8, 0)
@@ -94,19 +94,19 @@ class CrewMember < StdEntry
       
       add_dscr_props
     else
-      self[VOC.feature_id[nil]   ] = IntProp.new( :i8, -1           )
-      self[VOC.feature_name[nil] ] = StrProp.new( nil, '', dmy: true)
-      self[padding_hdr           ] = IntProp.new( :i8,  0           )
-      self[VOC.feature_value[nil]] = IntProp.new(:i16,  0           )
-      self[VOC.ship_effect_id    ] = IntProp.new( :u8, -1           )
-      self[VOC.ship_effect_name  ] = StrProp.new( nil, '', dmy: true)
-      self[VOC.ship_effect_turns ] = IntProp.new( :i8, -1           )
-      self[VOC.ship_effect_value ] = IntProp.new(:i16, -1           )
-      self[unknown_hdr           ] = IntProp.new(:i16,  0           )
-      self[padding_hdr           ] = IntProp.new( :i8,  0           )
-      self[padding_hdr           ] = IntProp.new( :i8,  0           )
-      self[padding_hdr           ] = IntProp.new( :i8,  0           )
-      self[padding_hdr           ] = IntProp.new( :i8,  0           )
+      self[VOC.trait_id[nil]    ] = IntProp.new( :i8, -1           )
+      self[VOC.trait_name[nil]  ] = StrProp.new( nil, '', dmy: true)
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      self[VOC.trait_value[nil] ] = IntProp.new(:i16,  0           )
+      self[VOC.ship_effect_id   ] = IntProp.new( :u8, -1           )
+      self[VOC.ship_effect_name ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.ship_effect_turns] = IntProp.new( :i8, -1           )
+      self[VOC.ship_effect_base ] = IntProp.new(:i16, -1           )
+      self[unknown_hdr          ] = IntProp.new(:i16,  0           )
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      self[padding_hdr          ] = IntProp.new( :i8,  0           )
     end
   end
   
@@ -116,8 +116,8 @@ class CrewMember < StdEntry
       self[VOC.position_name] = VOC.positions[_id]
     end
 
-    fetch(VOC.feature_id[nil]).proc = Proc.new do |_id|
-      self[VOC.feature_name[nil]] = VOC.ship_accessory_features[_id]
+    fetch(VOC.trait_id[nil]).proc = Proc.new do |_id|
+      self[VOC.trait_name[nil]] = VOC.ship_traits[_id]
     end
 
     fetch(VOC.ship_effect_id).proc = Proc.new do |_id|

@@ -68,7 +68,7 @@ class EnemySuperMove < StdEntry
     
     self[VOC.category_id  ] = IntProp.new(:i8,  0           )
     self[VOC.category_name] = StrProp.new(nil, '', dmy: true)
-    self[VOC.effect_id    ] = IntProp.new(:i8, -1           )
+    self[VOC.effect_id    ] = IntProp.new(:u8, -1           )
     self[VOC.effect_name  ] = StrProp.new(nil, '', dmy: true)
     self[VOC.scope_id     ] = IntProp.new(:u8,  0           )
     self[VOC.scope_name   ] = StrProp.new(nil, '', dmy: true)
@@ -77,8 +77,8 @@ class EnemySuperMove < StdEntry
       self[padding_hdr] = IntProp.new(:i8, 0)
     end
     
-    self[VOC.effect_value[1]] = IntProp.new(:u16, 0           )
-    self[VOC.effect_value[2]] = IntProp.new(:u16, 0           )
+    self[VOC.effect_param[1]] = IntProp.new(:u16, 0           )
+    self[VOC.effect_param[2]] = IntProp.new(:u16, 0           )
     self[VOC.element_id     ] = IntProp.new( :i8, 0           )
     self[VOC.element_name   ] = StrProp.new(nil, '', dmy: true)
     self[VOC.type_id        ] = IntProp.new( :i8, 0           )

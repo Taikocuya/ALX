@@ -126,22 +126,22 @@ class PlayableShip < StdEntry
     end
 
     if product_id != '6107110 06' && product_id != '6107810'
-      self[VOC.value            ] = IntProp.new(:u32, 0)
-      self[padding_hdr          ] = IntProp.new(:i16, 0)
-      self[padding_hdr          ] = IntProp.new(:i16, 0)
-      self[VOC.base_hp_incr     ] = IntProp.new(:i32, 0)
-      self[padding_hdr          ] = IntProp.new(:i16, 0)
-      self[padding_hdr          ] = IntProp.new(:i16, 0)
-      self[VOC.base_defense_incr] = IntProp.new(:i16, 0)
-      self[VOC.base_magdef_incr ] = IntProp.new(:i16, 0)
-      self[VOC.base_quick_incr  ] = IntProp.new(:i16, 0)
-      self[padding_hdr          ] = IntProp.new(:i16, 0)
-      self[padding_hdr          ] = IntProp.new(:i16, 0)
-      self[padding_hdr          ] = IntProp.new(:i16, 0)
-      self[padding_hdr          ] = IntProp.new(:i16, 0)
-      self[padding_hdr          ] = IntProp.new(:i16, 0)
-      self[padding_hdr          ] = IntProp.new(:i16, 0)
-      self[padding_hdr          ] = IntProp.new(:i16, 0)
+      self[VOC.value         ] = IntProp.new(:u32, 0)
+      self[padding_hdr       ] = IntProp.new(:i16, 0)
+      self[padding_hdr       ] = IntProp.new(:i16, 0)
+      self[VOC.hp_growth     ] = IntProp.new(:i32, 0)
+      self[padding_hdr       ] = IntProp.new(:i16, 0)
+      self[padding_hdr       ] = IntProp.new(:i16, 0)
+      self[VOC.defense_growth] = IntProp.new(:i16, 0)
+      self[VOC.magdef_growth ] = IntProp.new(:i16, 0)
+      self[VOC.quick_growth  ] = IntProp.new(:i16, 0)
+      self[padding_hdr       ] = IntProp.new(:i16, 0)
+      self[padding_hdr       ] = IntProp.new(:i16, 0)
+      self[padding_hdr       ] = IntProp.new(:i16, 0)
+      self[padding_hdr       ] = IntProp.new(:i16, 0)
+      self[padding_hdr       ] = IntProp.new(:i16, 0)
+      self[padding_hdr       ] = IntProp.new(:i16, 0)
+      self[padding_hdr       ] = IntProp.new(:i16, 0)
     end
   end
   

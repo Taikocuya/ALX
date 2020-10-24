@@ -123,7 +123,7 @@ class EnemyShipTask < Entry
     self[VOC.enemy_ship_id  ] = StrProp.new( nil,    '', dmy: true)
     self[VOC.enemy_ship_name] = StrProp.new( nil,    '', dmy: true)
     self[VOC.task_cond_id   ] = IntProp.new(:i16,     0           )
-    self[VOC.task_cond_name ] = StrProp.new( nil, '???', dmy: true)
+    # self[VOC.task_cond_name ] = StrProp.new( nil, '???', dmy: true)
     self[VOC.rating         ] = IntProp.new(:i16,     0           )
     
     (1..2).each do |_i|

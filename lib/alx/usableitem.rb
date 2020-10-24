@@ -65,30 +65,30 @@ class UsableItem < StdEntry
       self[_occasion] = StrProp.new(nil, '', dmy: true)
     end
     
-    self[VOC.effect_id     ] = IntProp.new(:i8,  0           )
+    self[VOC.effect_id     ] = IntProp.new(:u8,  0           )
     self[VOC.effect_name   ] = StrProp.new(nil, '', dmy: true)
     self[VOC.scope_id      ] = IntProp.new(:u8,  0           )
     self[VOC.scope_name    ] = StrProp.new(nil, '', dmy: true)
     self[VOC.consume       ] = IntProp.new(:i8,  0           )
-    self[VOC.retail_price  ] = IntProp.new(:i8,  0           )
-    self[VOC.order_prio    ] = IntProp.new(:i8, -1           )
+    self[VOC.sell          ] = IntProp.new(:i8,  0           )
+    self[VOC.order_123     ] = IntProp.new(:i8, -1           )
     self[VOC.order_abc[cid]] = IntProp.new(:i8, -1           )
     
     if eu?
       self[padding_hdr] = IntProp.new(:i8, 0)
     end
     
-    self[VOC.purchase_price   ] = IntProp.new(:u16,  0           )
-    self[padding_hdr          ] = IntProp.new( :i8,  0           )
-    self[padding_hdr          ] = IntProp.new( :i8,  0           )
-    self[VOC.effect_value[nil]] = IntProp.new(:i16,  0           )
-    self[VOC.element_id       ] = IntProp.new( :i8,  0           )
-    self[VOC.element_name     ] = StrProp.new( nil, '', dmy: true)
-    self[VOC.type_id          ] = IntProp.new( :i8,  0           )
-    self[VOC.type_name        ] = StrProp.new( nil, '', dmy: true)
-    self[VOC.state_id         ] = IntProp.new(:i16,  0           )
-    self[VOC.state_name       ] = StrProp.new( nil, '', dmy: true)
-    self[VOC.state_miss       ] = IntProp.new(:i16,  0           )
+    self[VOC.buy         ] = IntProp.new(:u16,  0           )
+    self[padding_hdr     ] = IntProp.new( :i8,  0           )
+    self[padding_hdr     ] = IntProp.new( :i8,  0           )
+    self[VOC.effect_base ] = IntProp.new(:i16,  0           )
+    self[VOC.element_id  ] = IntProp.new( :i8,  0           )
+    self[VOC.element_name] = StrProp.new( nil, '', dmy: true)
+    self[VOC.type_id     ] = IntProp.new( :i8,  0           )
+    self[VOC.type_name   ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.state_id    ] = IntProp.new(:i16,  0           )
+    self[VOC.state_name  ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.state_miss  ] = IntProp.new(:i16,  0           )
     
     add_dscr_props
   end

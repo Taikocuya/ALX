@@ -1,4 +1,4 @@
-Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,[Task Name],Param. ID,[Param. Name]
+Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,[Task Name],Param ID,[Param Name]
 1,*,0,軍艦兵,Ferratus,0,Branch,21,Rating 10%,3,Go to 3
 2,*,0,軍艦兵,Ferratus,1,Action,550,Attack,2,Random PC
 3,*,0,軍艦兵,Ferratus,1,Action,551,Guard,-1,None
@@ -37,7 +37,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 2,ecinit003.dat,3,マロッカ,Marocca,0,Branch,28,Rating 80%,4,Go to 4
 3,ecinit003.dat,3,マロッカ,Marocca,1,Action,551,Guard,-1,None
 4,ecinit003.dat,3,マロッカ,Marocca,1,Action,550,Attack,1,Same PC
-1,*,4,アーアペプ,Grouder,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
+1,*,4,アーアペプ,Grouder,0,Branch,33,Used Attack Spells ≥ 1,3,Go to 3
 2,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,10,Go to 10
 3,*,4,アーアペプ,Grouder,0,Branch,36,Used State Spells ≥ 2,5,Go to 5
 4,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,9,Go to 9
@@ -50,7 +50,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 11,*,4,アーアペプ,Grouder,1,Action,57,Eerie Wail,2,Random PC
 1,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,25,Rating 50%,7,Go to 7
 2,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,25,Rating 50%,8,Go to 8
-3,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,33,Used Atk. Spells ≥ 1,5,Go to 5
+3,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,33,Used Attack Spells ≥ 1,5,Go to 5
 4,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,30,Always,9,Go to 9
 5,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,25,Rating 50%,10,Go to 10
 6,ecinit004.dat,4,アーアペプ,Grouder,0,Branch,30,Always,9,Go to 9
@@ -75,9 +75,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 15,*,7,Ж術処刑士,Venificus,0,Branch,25,Rating 50%,20,Go to 20
 16,*,7,Ж術処刑士,Venificus,0,Branch,30,Always,23,Go to 23
 17,*,7,Ж術処刑士,Venificus,1,Action,550,Attack,1,Same PC
-18,*,7,Ж術処刑士,Venificus,1,Action,500,Increm,8,EC w/ Highest ID
+18,*,7,Ж術処刑士,Venificus,1,Action,500,Increm,8,EC w/ Largest ID
 19,*,7,Ж術処刑士,Venificus,1,Action,506,Sacri,7,EC w/ Least HP
-20,*,7,Ж術処刑士,Venificus,1,Action,506,Sacri,8,EC w/ Highest ID
+20,*,7,Ж術処刑士,Venificus,1,Action,506,Sacri,8,EC w/ Largest ID
 21,*,7,Ж術処刑士,Venificus,1,Action,526,Crystali,2,Random PC
 22,*,7,Ж術処刑士,Venificus,1,Action,37,Focus,-1,None
 23,*,7,Ж術処刑士,Venificus,1,Action,551,Guard,-1,None
@@ -100,9 +100,9 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 17,ecinit007.dat,7,煌術兵Ａ１,Venificus,0,Branch,25,Rating 50%,22,Go to 22
 18,ecinit007.dat,7,煌術兵Ａ１,Venificus,0,Branch,30,Always,25,Go to 25
 19,ecinit007.dat,7,煌術兵Ａ１,Venificus,1,Action,550,Attack,1,Same PC
-20,ecinit007.dat,7,煌術兵Ａ１,Venificus,1,Action,500,Increm,8,EC w/ Highest ID
+20,ecinit007.dat,7,煌術兵Ａ１,Venificus,1,Action,500,Increm,8,EC w/ Largest ID
 21,ecinit007.dat,7,煌術兵Ａ１,Venificus,1,Action,506,Sacri,7,EC w/ Least HP
-22,ecinit007.dat,7,煌術兵Ａ１,Venificus,1,Action,506,Sacri,8,EC w/ Highest ID
+22,ecinit007.dat,7,煌術兵Ａ１,Venificus,1,Action,506,Sacri,8,EC w/ Largest ID
 23,ecinit007.dat,7,煌術兵Ａ１,Venificus,1,Action,526,Crystali,2,Random PC
 24,ecinit007.dat,7,煌術兵Ａ１,Venificus,1,Action,37,Focus,-1,None
 25,ecinit007.dat,7,煌術兵Ａ１,Venificus,1,Action,551,Guard,-1,None
@@ -154,7 +154,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 1,*,10,カイライ,Dementis,0,Branch,21,Rating 10%,3,Go to 3
 2,*,10,カイライ,Dementis,1,Action,550,Attack,1,Same PC
 3,*,10,カイライ,Dementis,1,Action,551,Guard,-1,None
-1,*,11,フォカラルガ,Walrenk,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
+1,*,11,フォカラルガ,Walrenk,0,Branch,33,Used Attack Spells ≥ 1,3,Go to 3
 2,*,11,フォカラルガ,Walrenk,0,Branch,22,Rating 20%,9,Go to 9
 3,*,11,フォカラルガ,Walrenk,0,Branch,35,Used State Spells ≥ 1,5,Go to 5
 4,*,11,フォカラルガ,Walrenk,0,Branch,22,Rating 20%,8,Go to 8
@@ -297,7 +297,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 4,*,17,ツィツィ,Tsirat,0,Branch,0,HP = 100%,7,Go to 7
 5,*,17,ツィツィ,Tsirat,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
 6,*,17,ツィツィ,Tsirat,0,Branch,25,Rating 50%,13,Go to 13
-7,*,17,ツィツィ,Tsirat,0,Branch,33,Used Atk. Spells ≥ 1,9,Go to 9
+7,*,17,ツィツィ,Tsirat,0,Branch,33,Used Attack Spells ≥ 1,9,Go to 9
 8,*,17,ツィツィ,Tsirat,0,Branch,24,Rating 40%,14,Go to 14
 9,*,17,ツィツィ,Tsirat,0,Branch,21,Rating 10%,12,Go to 12
 10,*,17,ツィツィ,Tsirat,0,Branch,21,Rating 10%,15,Go to 15
@@ -421,7 +421,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 8,*,24,デシェレト,Magma Tiki,1,Action,47,Tremble,-1,None
 9,*,24,デシェレト,Magma Tiki,1,Action,180,Lava Storm,1,Same PC
 10,*,24,デシェレト,Magma Tiki,1,Action,551,Guard,-1,None
-1,*,25,イアールト,Salamander,0,Branch,33,Used Atk. Spells ≥ 1,5,Go to 5
+1,*,25,イアールト,Salamander,0,Branch,33,Used Attack Spells ≥ 1,5,Go to 5
 2,*,25,イアールト,Salamander,0,Branch,28,Rating 80%,9,Go to 9
 3,*,25,イアールト,Salamander,0,Branch,25,Rating 50%,10,Go to 10
 4,*,25,イアールト,Salamander,0,Branch,30,Always,13,Go to 13
@@ -484,7 +484,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 2,*,29,エルモ,Looper,0,Branch,25,Rating 50%,9,Go to 9
 3,*,29,エルモ,Looper,0,Branch,24,Rating 40%,7,Go to 7
 4,*,29,エルモ,Looper,0,Branch,23,Rating 30%,8,Go to 8
-5,*,29,エルモ,Looper,0,Branch,33,Used Atk. Spells ≥ 1,11,Go to 11
+5,*,29,エルモ,Looper,0,Branch,33,Used Attack Spells ≥ 1,11,Go to 11
 6,*,29,エルモ,Looper,0,Branch,30,Always,10,Go to 10
 7,*,29,エルモ,Looper,1,Action,550,Attack,2,Random PC
 8,*,29,エルモ,Looper,1,Action,551,Guard,-1,None
@@ -526,7 +526,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 3,*,32,調査兵,Enforca,1,Action,550,Attack,2,Random PC
 4,*,32,調査兵,Enforca,1,Action,70,Grenade,2,Random PC
 5,*,32,調査兵,Enforca,1,Action,551,Guard,-1,None
-1,*,33,ガランガラン,Serpantis,0,Branch,34,Used Atk. Spells ≥ 2,3,Go to 3
+1,*,33,ガランガラン,Serpantis,0,Branch,34,Used Attack Spells ≥ 2,3,Go to 3
 2,*,33,ガランガラン,Serpantis,0,Branch,22,Rating 20%,7,Go to 7
 3,*,33,ガランガラン,Serpantis,0,Branch,26,Rating 60%,6,Go to 6
 4,*,33,ガランガラン,Serpantis,0,Branch,28,Rating 80%,8,Go to 8
@@ -563,7 +563,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 6,*,35,クチュ,Que'lak,0,Branch,30,Always,8,Go to 8
 7,*,35,クチュ,Que'lak,0,Branch,24,Rating 40%,13,Go to 13
 8,*,35,クチュ,Que'lak,0,Branch,21,Rating 10%,14,Go to 14
-9,*,35,クチュ,Que'lak,0,Branch,34,Used Atk. Spells ≥ 2,11,Go to 11
+9,*,35,クチュ,Que'lak,0,Branch,34,Used Attack Spells ≥ 2,11,Go to 11
 10,*,35,クチュ,Que'lak,0,Branch,23,Rating 30%,12,Go to 12
 11,*,35,クチュ,Que'lak,1,Action,550,Attack,2,Random PC
 12,*,35,クチュ,Que'lak,1,Action,524,Pyres,-1,None
@@ -766,7 +766,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 6,*,50,ブブロッカ,Burocca,1,Action,551,Guard,-1,None
 7,*,50,ブブロッカ,Burocca,1,Action,550,Attack,1,Same PC
 8,*,50,ブブロッカ,Burocca,1,Action,552,Run,-1,None
-1,*,51,アイガムハ,Drogerp,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
+1,*,51,アイガムハ,Drogerp,0,Branch,33,Used Attack Spells ≥ 1,3,Go to 3
 2,*,51,アイガムハ,Drogerp,0,Branch,22,Rating 20%,10,Go to 10
 3,*,51,アイガムハ,Drogerp,0,Branch,36,Used State Spells ≥ 2,5,Go to 5
 4,*,51,アイガムハ,Drogerp,0,Branch,22,Rating 20%,9,Go to 9
@@ -843,7 +843,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 26,*,54,カネヅル,Kanezl,1,Action,49,Call Allies,-1,None
 27,*,54,カネヅル,Kanezl,1,Action,100,Magic?,-1,None
 28,*,54,カネヅル,Kanezl,1,Action,113,Call Allies,-1,None
-1,*,55,メメゾーレ,Mantoid,0,Branch,34,Used Atk. Spells ≥ 2,3,Go to 3
+1,*,55,メメゾーレ,Mantoid,0,Branch,34,Used Attack Spells ≥ 2,3,Go to 3
 2,*,55,メメゾーレ,Mantoid,0,Branch,22,Rating 20%,7,Go to 7
 3,*,55,メメゾーレ,Mantoid,0,Branch,26,Rating 60%,6,Go to 6
 4,*,55,メメゾーレ,Mantoid,0,Branch,28,Rating 80%,8,Go to 8
@@ -879,7 +879,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 25,*,56,ヒュドラ煌兵,Sorcerer,1,Action,529,Crystalen,2,Random PC
 26,*,56,ヒュドラ煌兵,Sorcerer,1,Action,535,Electrulen,2,Random PC
 27,*,56,ヒュドラ煌兵,Sorcerer,1,Action,37,Focus,-1,None
-1,*,57,イラブ,Slithar,0,Branch,33,Used Atk. Spells ≥ 1,5,Go to 5
+1,*,57,イラブ,Slithar,0,Branch,33,Used Attack Spells ≥ 1,5,Go to 5
 2,*,57,イラブ,Slithar,0,Branch,26,Rating 60%,9,Go to 9
 3,*,57,イラブ,Slithar,0,Branch,28,Rating 80%,10,Go to 10
 4,*,57,イラブ,Slithar,0,Branch,30,Always,13,Go to 13
@@ -967,7 +967,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 7,*,63,シュリヌール,Ghrost,0,Branch,0,HP = 100%,10,Go to 10
 8,*,63,シュリヌール,Ghrost,0,Branch,46,Used HP Absorbs ≥ 1,10,Go to 10
 9,*,63,シュリヌール,Ghrost,0,Branch,29,Rating 90%,19,Go to 19
-10,*,63,シュリヌール,Ghrost,0,Branch,34,Used Atk. Spells ≥ 2,12,Go to 12
+10,*,63,シュリヌール,Ghrost,0,Branch,34,Used Attack Spells ≥ 2,12,Go to 12
 11,*,63,シュリヌール,Ghrost,0,Branch,23,Rating 30%,21,Go to 21
 12,*,63,シュリヌール,Ghrost,0,Branch,22,Rating 20%,22,Go to 22
 13,*,63,シュリヌール,Ghrost,0,Branch,23,Rating 30%,20,Go to 20
@@ -1024,7 +1024,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 16,*,65,マウルティア,Shrilp,1,Action,551,Guard,-1,None
 17,*,65,マウルティア,Shrilp,1,Action,505,Drilnos,-1,None
 18,*,65,マウルティア,Shrilp,1,Action,212,HP Absorb,3,PC w/ Most HP
-1,*,66,ギャルブ,Cerosik,0,Branch,33,Used Atk. Spells ≥ 1,3,Go to 3
+1,*,66,ギャルブ,Cerosik,0,Branch,33,Used Attack Spells ≥ 1,3,Go to 3
 2,*,66,ギャルブ,Cerosik,0,Branch,22,Rating 20%,9,Go to 9
 3,*,66,ギャルブ,Cerosik,0,Branch,35,Used State Spells ≥ 1,5,Go to 5
 4,*,66,ギャルブ,Cerosik,0,Branch,22,Rating 20%,8,Go to 8
@@ -1084,7 +1084,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 8,*,72,警備士,Custos,0,Branch,25,Rating 50%,16,Go to 16
 9,*,72,警備士,Custos,0,Branch,25,Rating 50%,11,Go to 11
 10,*,72,警備士,Custos,0,Branch,30,Always,13,Go to 13
-11,*,72,警備士,Custos,0,Branch,33,Used Atk. Spells ≥ 1,15,Go to 15
+11,*,72,警備士,Custos,0,Branch,33,Used Attack Spells ≥ 1,15,Go to 15
 12,*,72,警備士,Custos,0,Branch,30,Always,18,Go to 18
 13,*,72,警備士,Custos,0,Branch,42,Used Sacri Crystals ≥ 1,15,Go to 15
 14,*,72,警備士,Custos,0,Branch,30,Always,19,Go to 19
@@ -1101,7 +1101,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 6,*,73,採掘士,Fossor,0,Branch,21,Rating 10%,13,Go to 13
 7,*,73,採掘士,Fossor,0,Branch,26,Rating 60%,11,Go to 11
 8,*,73,採掘士,Fossor,0,Branch,24,Rating 40%,12,Go to 12
-9,*,73,採掘士,Fossor,0,Branch,33,Used Atk. Spells ≥ 1,11,Go to 11
+9,*,73,採掘士,Fossor,0,Branch,33,Used Attack Spells ≥ 1,11,Go to 11
 10,*,73,採掘士,Fossor,0,Branch,30,Always,14,Go to 14
 11,*,73,採掘士,Fossor,1,Action,550,Attack,2,Random PC
 12,*,73,採掘士,Fossor,1,Action,551,Guard,-1,None
@@ -1235,7 +1235,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 7,*,84,シデンクワイ,Kilite,0,Branch,30,Always,13,Go to 13
 8,*,84,シデンクワイ,Kilite,0,Branch,27,Rating 70%,16,Go to 16
 9,*,84,シデンクワイ,Kilite,0,Branch,30,Always,17,Go to 17
-10,*,84,シデンクワイ,Kilite,0,Branch,33,Used Atk. Spells ≥ 1,12,Go to 12
+10,*,84,シデンクワイ,Kilite,0,Branch,33,Used Attack Spells ≥ 1,12,Go to 12
 11,*,84,シデンクワイ,Kilite,0,Branch,30,Always,15,Go to 15
 12,*,84,シデンクワイ,Kilite,1,Action,550,Attack,2,Random PC
 13,*,84,シデンクワイ,Kilite,1,Action,551,Guard,-1,None
@@ -1321,7 +1321,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 5,*,89,アークエルモ,Arclooper,0,Branch,25,Rating 50%,12,Go to 12
 6,*,89,アークエルモ,Arclooper,0,Branch,24,Rating 40%,9,Go to 9
 7,*,89,アークエルモ,Arclooper,0,Branch,23,Rating 30%,10,Go to 10
-8,*,89,アークエルモ,Arclooper,0,Branch,33,Used Atk. Spells ≥ 1,13,Go to 13
+8,*,89,アークエルモ,Arclooper,0,Branch,33,Used Attack Spells ≥ 1,13,Go to 13
 9,*,89,アークエルモ,Arclooper,1,Action,550,Attack,2,Random PC
 10,*,89,アークエルモ,Arclooper,1,Action,551,Guard,-1,None
 11,*,89,アークエルモ,Arclooper,1,Action,552,Run,-1,None
@@ -1333,7 +1333,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 4,*,90,キュキュ,Tsorok,0,Branch,0,HP = 100%,7,Go to 7
 5,*,90,キュキュ,Tsorok,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
 6,*,90,キュキュ,Tsorok,0,Branch,25,Rating 50%,13,Go to 13
-7,*,90,キュキュ,Tsorok,0,Branch,33,Used Atk. Spells ≥ 1,9,Go to 9
+7,*,90,キュキュ,Tsorok,0,Branch,33,Used Attack Spells ≥ 1,9,Go to 9
 8,*,90,キュキュ,Tsorok,0,Branch,24,Rating 40%,14,Go to 14
 9,*,90,キュキュ,Tsorok,0,Branch,21,Rating 10%,12,Go to 12
 10,*,90,キュキュ,Tsorok,0,Branch,21,Rating 10%,15,Go to 15
@@ -1472,7 +1472,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 9,*,100,アサシン,Umbra,0,Branch,30,Always,11,Go to 11
 10,*,100,アサシン,Umbra,1,Action,550,Attack,4,PC w/ Least HP
 11,*,100,アサシン,Umbra,1,Action,551,Guard,-1,None
-12,*,100,アサシン,Umbra,1,Action,502,Sylenis,20,PC w/ Highest Will
+12,*,100,アサシン,Umbra,1,Action,502,Sylenis,20,PC w/ Most Will
 13,*,100,アサシン,Umbra,1,Action,522,Wevlen,2,Random PC
 14,*,100,アサシン,Umbra,1,Action,12,Death Strike,3,PC w/ Most HP
 1,*,101,イレイザー,Assassinata,0,Branch,11,Turn 1,4,Go to 4
@@ -1486,7 +1486,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 9,*,101,イレイザー,Assassinata,0,Branch,30,Always,11,Go to 11
 10,*,101,イレイザー,Assassinata,1,Action,550,Attack,4,PC w/ Least HP
 11,*,101,イレイザー,Assassinata,1,Action,551,Guard,-1,None
-12,*,101,イレイザー,Assassinata,1,Action,502,Sylenis,20,PC w/ Highest Will
+12,*,101,イレイザー,Assassinata,1,Action,502,Sylenis,20,PC w/ Most Will
 13,*,101,イレイザー,Assassinata,1,Action,522,Wevlen,2,Random PC
 14,*,101,イレイザー,Assassinata,1,Action,12,Death Strike,3,PC w/ Most HP
 1,*,102,要塞将兵,Executor,0,Branch,5,Got Hit by Spell?,12,Go to 12
@@ -1601,7 +1601,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 2,*,109,イエルモー,Yulooper,0,Branch,25,Rating 50%,9,Go to 9
 3,*,109,イエルモー,Yulooper,0,Branch,24,Rating 40%,7,Go to 7
 4,*,109,イエルモー,Yulooper,0,Branch,23,Rating 30%,8,Go to 8
-5,*,109,イエルモー,Yulooper,0,Branch,33,Used Atk. Spells ≥ 1,11,Go to 11
+5,*,109,イエルモー,Yulooper,0,Branch,33,Used Attack Spells ≥ 1,11,Go to 11
 6,*,109,イエルモー,Yulooper,0,Branch,30,Always,10,Go to 10
 7,*,109,イエルモー,Yulooper,1,Action,550,Attack,2,Random PC
 8,*,109,イエルモー,Yulooper,1,Action,551,Guard,-1,None
@@ -2082,7 +2082,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 15,*,141,ビゴロ,Vigoro,0,Branch,25,Rating 50%,17,Go to 17
 16,*,141,ビゴロ,Vigoro,0,Branch,30,Always,18,Go to 18
 17,*,141,ビゴロ,Vigoro,1,Action,550,Attack,1,Same PC
-18,*,141,ビゴロ,Vigoro,1,Action,550,Attack,21,PC w/ Highest Attack
+18,*,141,ビゴロ,Vigoro,1,Action,550,Attack,21,PC w/ Most Attack
 19,*,141,ビゴロ,Vigoro,1,Action,60,Vigoro's Charm,23,Aika
 20,*,141,ビゴロ,Vigoro,1,Action,551,Guard,-1,None
 1,*,142,ブラキロフス,Dralkor Lacus,0,Branch,50,Used S-Move Last Turn?,4,Go to 4
@@ -2207,7 +2207,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 21,*,148,ニルヴィナス,Veltarn,0,Branch,30,Always,25,Go to 25
 22,*,148,ニルヴィナス,Veltarn,1,Action,550,Attack,2,Random PC
 23,*,148,ニルヴィナス,Veltarn,1,Action,33,Death Laser,2,Random PC
-24,*,148,ニルヴィナス,Veltarn,1,Action,33,Death Laser,21,PC w/ Highest Attack
+24,*,148,ニルヴィナス,Veltarn,1,Action,33,Death Laser,21,PC w/ Most Attack
 25,*,148,ニルヴィナス,Veltarn,1,Action,42,Avalauncher,2,Random PC
 1,*,149,ビゴロ,Vigoro,0,Branch,50,Used S-Move Last Turn?,5,Go to 5
 2,*,149,ビゴロ,Vigoro,0,Branch,22,Rating 20%,8,Go to 8
@@ -2428,7 +2428,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 1,*,156,ウォン三兄弟,Furiosus,0,Branch,21,Rating 10%,8,Go to 8
 2,*,156,ウォン三兄弟,Furiosus,0,Branch,25,Rating 50%,4,Go to 4
 3,*,156,ウォン三兄弟,Furiosus,0,Branch,30,Always,7,Go to 7
-4,*,156,ウォン三兄弟,Furiosus,0,Branch,34,Used Atk. Spells ≥ 2,6,Go to 6
+4,*,156,ウォン三兄弟,Furiosus,0,Branch,34,Used Attack Spells ≥ 2,6,Go to 6
 5,*,156,ウォン三兄弟,Furiosus,0,Branch,30,Always,9,Go to 9
 6,*,156,ウォン三兄弟,Furiosus,0,Branch,25,Rating 50%,9,Go to 9
 7,*,156,ウォン三兄弟,Furiosus,1,Action,550,Attack,2,Random PC
@@ -4413,7 +4413,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 32,*,193,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,43,Go to 43
 33,*,193,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,53,Go to 53
 34,*,193,ダイコクヤ,Daikokuya,0,Branch,30,Always,48,Go to 48
-35,*,193,ダイコクヤ,Daikokuya,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,40,Go to 40
+35,*,193,ダイコクヤ,Daikokuya,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,40,Go to 40
 36,*,193,ダイコクヤ,Daikokuya,0,Branch,24,Rating 40%,52,Go to 52
 37,*,193,ダイコクヤ,Daikokuya,0,Branch,25,Rating 50%,51,Go to 51
 38,*,193,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,48,Go to 48
@@ -4503,7 +4503,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 32,*,194,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,43,Go to 43
 33,*,194,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,53,Go to 53
 34,*,194,ダイコクヤ,Daikokuya,0,Branch,30,Always,48,Go to 48
-35,*,194,ダイコクヤ,Daikokuya,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,40,Go to 40
+35,*,194,ダイコクヤ,Daikokuya,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,40,Go to 40
 36,*,194,ダイコクヤ,Daikokuya,0,Branch,24,Rating 40%,52,Go to 52
 37,*,194,ダイコクヤ,Daikokuya,0,Branch,25,Rating 50%,51,Go to 51
 38,*,194,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,48,Go to 48
@@ -4593,7 +4593,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 32,*,195,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,43,Go to 43
 33,*,195,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,53,Go to 53
 34,*,195,ダイコクヤ,Daikokuya,0,Branch,30,Always,48,Go to 48
-35,*,195,ダイコクヤ,Daikokuya,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,40,Go to 40
+35,*,195,ダイコクヤ,Daikokuya,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,40,Go to 40
 36,*,195,ダイコクヤ,Daikokuya,0,Branch,24,Rating 40%,52,Go to 52
 37,*,195,ダイコクヤ,Daikokuya,0,Branch,25,Rating 50%,51,Go to 51
 38,*,195,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,48,Go to 48
@@ -4683,7 +4683,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 32,*,196,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,43,Go to 43
 33,*,196,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,53,Go to 53
 34,*,196,ダイコクヤ,Daikokuya,0,Branch,30,Always,48,Go to 48
-35,*,196,ダイコクヤ,Daikokuya,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,40,Go to 40
+35,*,196,ダイコクヤ,Daikokuya,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,40,Go to 40
 36,*,196,ダイコクヤ,Daikokuya,0,Branch,24,Rating 40%,52,Go to 52
 37,*,196,ダイコクヤ,Daikokuya,0,Branch,25,Rating 50%,51,Go to 51
 38,*,196,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,48,Go to 48
@@ -4773,7 +4773,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 32,*,197,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,43,Go to 43
 33,*,197,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,53,Go to 53
 34,*,197,ダイコクヤ,Daikokuya,0,Branch,30,Always,48,Go to 48
-35,*,197,ダイコクヤ,Daikokuya,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,40,Go to 40
+35,*,197,ダイコクヤ,Daikokuya,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,40,Go to 40
 36,*,197,ダイコクヤ,Daikokuya,0,Branch,24,Rating 40%,52,Go to 52
 37,*,197,ダイコクヤ,Daikokuya,0,Branch,25,Rating 50%,51,Go to 51
 38,*,197,ダイコクヤ,Daikokuya,0,Branch,27,Rating 70%,48,Go to 48
@@ -6148,7 +6148,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 42,*,228,盗掘王シモン,Lord Bane,0,Branch,26,Rating 60%,57,Go to 57
 43,*,228,盗掘王シモン,Lord Bane,0,Branch,28,Rating 80%,51,Go to 51
 44,*,228,盗掘王シモン,Lord Bane,0,Branch,30,Always,53,Go to 53
-45,*,228,盗掘王シモン,Lord Bane,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,52,Go to 52
+45,*,228,盗掘王シモン,Lord Bane,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,52,Go to 52
 46,*,228,盗掘王シモン,Lord Bane,0,Branch,23,Rating 30%,53,Go to 53
 47,*,228,盗掘王シモン,Lord Bane,0,Branch,23,Rating 30%,54,Go to 54
 48,*,228,盗掘王シモン,Lord Bane,0,Branch,24,Rating 40%,51,Go to 51
@@ -6255,7 +6255,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 42,*,229,盗掘王シモン,Lord Bane,0,Branch,26,Rating 60%,57,Go to 57
 43,*,229,盗掘王シモン,Lord Bane,0,Branch,28,Rating 80%,51,Go to 51
 44,*,229,盗掘王シモン,Lord Bane,0,Branch,30,Always,53,Go to 53
-45,*,229,盗掘王シモン,Lord Bane,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,52,Go to 52
+45,*,229,盗掘王シモン,Lord Bane,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,52,Go to 52
 46,*,229,盗掘王シモン,Lord Bane,0,Branch,23,Rating 30%,53,Go to 53
 47,*,229,盗掘王シモン,Lord Bane,0,Branch,23,Rating 30%,54,Go to 54
 48,*,229,盗掘王シモン,Lord Bane,0,Branch,24,Rating 40%,51,Go to 51
@@ -6362,7 +6362,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 42,*,230,盗掘王シモン,Lord Bane,0,Branch,26,Rating 60%,57,Go to 57
 43,*,230,盗掘王シモン,Lord Bane,0,Branch,28,Rating 80%,51,Go to 51
 44,*,230,盗掘王シモン,Lord Bane,0,Branch,30,Always,53,Go to 53
-45,*,230,盗掘王シモン,Lord Bane,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,52,Go to 52
+45,*,230,盗掘王シモン,Lord Bane,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,52,Go to 52
 46,*,230,盗掘王シモン,Lord Bane,0,Branch,23,Rating 30%,53,Go to 53
 47,*,230,盗掘王シモン,Lord Bane,0,Branch,23,Rating 30%,54,Go to 54
 48,*,230,盗掘王シモン,Lord Bane,0,Branch,24,Rating 40%,51,Go to 51
@@ -6469,7 +6469,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 42,*,231,盗掘王シモン,Lord Bane,0,Branch,26,Rating 60%,57,Go to 57
 43,*,231,盗掘王シモン,Lord Bane,0,Branch,28,Rating 80%,51,Go to 51
 44,*,231,盗掘王シモン,Lord Bane,0,Branch,30,Always,53,Go to 53
-45,*,231,盗掘王シモン,Lord Bane,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,52,Go to 52
+45,*,231,盗掘王シモン,Lord Bane,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,52,Go to 52
 46,*,231,盗掘王シモン,Lord Bane,0,Branch,23,Rating 30%,53,Go to 53
 47,*,231,盗掘王シモン,Lord Bane,0,Branch,23,Rating 30%,54,Go to 54
 48,*,231,盗掘王シモン,Lord Bane,0,Branch,24,Rating 40%,51,Go to 51
@@ -6576,7 +6576,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 42,*,232,盗掘王シモン,Lord Bane,0,Branch,26,Rating 60%,57,Go to 57
 43,*,232,盗掘王シモン,Lord Bane,0,Branch,28,Rating 80%,51,Go to 51
 44,*,232,盗掘王シモン,Lord Bane,0,Branch,30,Always,53,Go to 53
-45,*,232,盗掘王シモン,Lord Bane,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,52,Go to 52
+45,*,232,盗掘王シモン,Lord Bane,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,52,Go to 52
 46,*,232,盗掘王シモン,Lord Bane,0,Branch,23,Rating 30%,53,Go to 53
 47,*,232,盗掘王シモン,Lord Bane,0,Branch,23,Rating 30%,54,Go to 54
 48,*,232,盗掘王シモン,Lord Bane,0,Branch,24,Rating 40%,51,Go to 51
@@ -6659,7 +6659,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 18,*,233,ガンナーム,Gunarm,0,Branch,24,Rating 40%,29,Go to 29
 19,*,233,ガンナーム,Gunarm,0,Branch,26,Rating 60%,25,Go to 25
 20,*,233,ガンナーム,Gunarm,0,Branch,30,Always,28,Go to 28
-21,*,233,ガンナーム,Gunarm,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,26,Go to 26
+21,*,233,ガンナーム,Gunarm,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,26,Go to 26
 22,*,233,ガンナーム,Gunarm,0,Branch,24,Rating 40%,29,Go to 29
 23,*,233,ガンナーム,Gunarm,0,Branch,26,Rating 60%,25,Go to 25
 24,*,233,ガンナーム,Gunarm,0,Branch,30,Always,28,Go to 28
@@ -6712,7 +6712,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 18,*,234,ガンナーム,Gunarm,0,Branch,24,Rating 40%,29,Go to 29
 19,*,234,ガンナーム,Gunarm,0,Branch,26,Rating 60%,25,Go to 25
 20,*,234,ガンナーム,Gunarm,0,Branch,30,Always,28,Go to 28
-21,*,234,ガンナーム,Gunarm,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,26,Go to 26
+21,*,234,ガンナーム,Gunarm,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,26,Go to 26
 22,*,234,ガンナーム,Gunarm,0,Branch,24,Rating 40%,29,Go to 29
 23,*,234,ガンナーム,Gunarm,0,Branch,26,Rating 60%,25,Go to 25
 24,*,234,ガンナーム,Gunarm,0,Branch,30,Always,28,Go to 28
@@ -6765,7 +6765,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 18,*,235,ガンナーム,Gunarm,0,Branch,24,Rating 40%,29,Go to 29
 19,*,235,ガンナーム,Gunarm,0,Branch,26,Rating 60%,25,Go to 25
 20,*,235,ガンナーム,Gunarm,0,Branch,30,Always,28,Go to 28
-21,*,235,ガンナーム,Gunarm,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,26,Go to 26
+21,*,235,ガンナーム,Gunarm,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,26,Go to 26
 22,*,235,ガンナーム,Gunarm,0,Branch,24,Rating 40%,29,Go to 29
 23,*,235,ガンナーム,Gunarm,0,Branch,26,Rating 60%,25,Go to 25
 24,*,235,ガンナーム,Gunarm,0,Branch,30,Always,28,Go to 28
@@ -6818,7 +6818,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 18,*,236,ガンナーム,Gunarm,0,Branch,24,Rating 40%,29,Go to 29
 19,*,236,ガンナーム,Gunarm,0,Branch,26,Rating 60%,25,Go to 25
 20,*,236,ガンナーム,Gunarm,0,Branch,30,Always,28,Go to 28
-21,*,236,ガンナーム,Gunarm,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,26,Go to 26
+21,*,236,ガンナーム,Gunarm,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,26,Go to 26
 22,*,236,ガンナーム,Gunarm,0,Branch,24,Rating 40%,29,Go to 29
 23,*,236,ガンナーム,Gunarm,0,Branch,26,Rating 60%,25,Go to 25
 24,*,236,ガンナーム,Gunarm,0,Branch,30,Always,28,Go to 28
@@ -6871,7 +6871,7 @@ Entry ID,[Filter],[EC ID],[JP EC Name],[EU EC Name],Type ID,[Type Name],Task ID,
 18,*,237,ガンナーム,Gunarm,0,Branch,24,Rating 40%,29,Go to 29
 19,*,237,ガンナーム,Gunarm,0,Branch,26,Rating 60%,25,Go to 25
 20,*,237,ガンナーム,Gunarm,0,Branch,30,Always,28,Go to 28
-21,*,237,ガンナーム,Gunarm,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,26,Go to 26
+21,*,237,ガンナーム,Gunarm,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,26,Go to 26
 22,*,237,ガンナーム,Gunarm,0,Branch,24,Rating 40%,29,Go to 29
 23,*,237,ガンナーム,Gunarm,0,Branch,26,Rating 60%,25,Go to 25
 24,*,237,ガンナーム,Gunarm,0,Branch,30,Always,28,Go to 28

@@ -79,23 +79,23 @@ class Weapon < StdEntry
     
     self[VOC.character_id[nil]  ] = IntProp.new(:i8,  0           )
     self[VOC.character_name[nil]] = StrProp.new(nil, '', dmy: true)
-    self[VOC.retail_price       ] = IntProp.new(:i8,  0           )
-    self[VOC.order_prio         ] = IntProp.new(:i8, -1           )
+    self[VOC.sell               ] = IntProp.new(:i8,  0           )
+    self[VOC.order_123          ] = IntProp.new(:i8, -1           )
     self[VOC.order_abc[cid]     ] = IntProp.new(:i8, -1           )
-    self[VOC.effect_id          ] = IntProp.new(:i8, -1           )
+    self[VOC.effect_id          ] = IntProp.new(:u8, -1           )
     self[VOC.effect_name        ] = StrProp.new(nil, '', dmy: true)
     
     if eu?
       self[padding_hdr] = IntProp.new(:i8, 0)
     end
     
-    self[VOC.purchase_price    ] = IntProp.new(:u16,  0           )
-    self[VOC.attack            ] = IntProp.new(:i16,  0           )
-    self[VOC.hit               ] = IntProp.new(:i16,  0           )
-    self[VOC.feature_id[nil]   ] = IntProp.new( :i8,  0           )
-    self[VOC.feature_name[nil] ] = StrProp.new( nil, '', dmy: true)
-    self[padding_hdr           ] = IntProp.new( :i8,  0           )
-    self[VOC.feature_value[nil]] = IntProp.new(:i16,  0           )
+    self[VOC.buy             ] = IntProp.new(:u16,  0           )
+    self[VOC.attack          ] = IntProp.new(:i16,  0           )
+    self[VOC.hit             ] = IntProp.new(:i16,  0           )
+    self[VOC.trait_id[nil]   ] = IntProp.new( :i8,  0           )
+    self[VOC.trait_name[nil] ] = StrProp.new( nil, '', dmy: true)
+    self[padding_hdr         ] = IntProp.new( :i8,  0           )
+    self[VOC.trait_value[nil]] = IntProp.new(:i16,  0           )
     
     add_dscr_props
   end
@@ -120,8 +120,8 @@ class Weapon < StdEntry
       self[VOC.effect_name] = _name
     end
     
-    fetch(VOC.feature_id[nil]).proc = Proc.new do |_id|
-      self[VOC.feature_name[nil]] = VOC.accessory_features[_id]
+    fetch(VOC.trait_id[nil]).proc = Proc.new do |_id|
+      self[VOC.trait_name[nil]] = VOC.traits[_id]
     end
   end
 
