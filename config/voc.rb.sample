@@ -86,13 +86,14 @@ VOC.configure do |_v|
   _v.rating   = 'Rating'
   
   _v.message_id     = hdr('%s Message ID'       )
-  _v.name_opt       = hdr('[%s Entry Name]'     )
   _v.name_pos       = hdr('[%s Entry Name Pos]' )
   _v.name_size      = hdr('[%s Entry Name Size]')
   _v.name_str       = hdr('%s Entry Name'       )
+  _v.name_opt       = hdr('[%s Entry Name]'     )
   _v.dscr_pos       = hdr('[%s Descr Pos]'      )
   _v.dscr_size      = hdr('[%s Descr Size]'     )
   _v.dscr_str       = hdr('%s Descr Str'        )
+  _v.dscr_opt       = hdr('[%s Descr Str]'      )
   _v.ship_dscr_pos  = hdr('[%s Ship Descr Pos]' )
   _v.ship_dscr_size = hdr('[%s Ship Descr Size]')
   _v.ship_dscr_str  = hdr('%s Ship Descr Str'   )
@@ -367,8 +368,6 @@ VOC.configure do |_v|
   _v.effects[116] = "#{_v.silence} by 100%"
   _v.effects[117] = 'Recover MP'
   _v.effects[255] = 'None'
-
-  _v.weapon_effect = '%s by %d%%'
   
 #------------------------------------------------------------------------------
 # Menu

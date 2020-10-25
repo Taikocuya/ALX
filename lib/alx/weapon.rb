@@ -111,8 +111,7 @@ class Weapon < StdEntry
         _entry = @weapon_effects[_id]
         _name  = '???'
         if _entry
-          _hit  = 100 - _entry[VOC.state_miss]
-          _name = sprintf(VOC.weapon_effect, _entry[VOC.state_name], _hit)
+          _name = _entry[VOC.dscr_opt[cid]]
         end
       else
         _name = 'None'

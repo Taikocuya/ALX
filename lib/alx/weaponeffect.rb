@@ -58,6 +58,7 @@ class WeaponEffect < Entry
   # Initialize the entry properties.
   def init_props
     self[VOC.name_str['JP']] = StrProp.new( 17, ''           )
+    self[VOC.dscr_opt[cid] ] = StrProp.new(nil, '', dmy: true)
     self[VOC.effect_id     ] = IntProp.new(:i8, -1           )
     self[VOC.effect_name   ] = StrProp.new(nil, '', dmy: true)
     self[VOC.state_id      ] = IntProp.new(:i8,  0           )
@@ -69,10 +70,22 @@ class WeaponEffect < Entry
   def init_procs
     fetch(VOC.effect_id).proc = Proc.new do |_id|
       self[VOC.effect_name] = VOC.effects[_id]
+      fetch(VOC.state_miss)&.call_proc
     end
     
     fetch(VOC.state_id).proc = Proc.new do |_id|
       self[VOC.state_name] = VOC.states[_id]
+      fetch(VOC.state_miss)&.call_proc
+    end
+    
+    fetch(VOC.state_miss).proc = Proc.new do |_miss|
+      if self[VOC.effect_id] > 0 && self[VOC.state_id] != -1
+        _hit  = 100 - self[VOC.state_miss]
+        _dscr = sprintf('%s by %d%%', self[VOC.state_name], _hit)
+      else
+        _dscr = 'None'
+      end
+      self[VOC.dscr_opt[cid]] = _dscr
     end
   end
 

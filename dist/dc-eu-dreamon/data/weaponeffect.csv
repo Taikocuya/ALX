@@ -1,22 +1,22 @@
-Entry ID,JP Entry Name,Effect ID,[Effect Name],State ID,[State Name],State Miss%
-0,毒,4,Poison + Damage,0,Poison,90
-1,睡眠,69,Sleep + Damage,3,Sleep,50
-2,全能力低下,73,Weak + Damage,8,Weak,90
-3,混乱,70,Confusion + Damage,4,Confusion,80
-4,沈黙,71,Silence + Damage,5,Silence,80
-5,混乱,70,Confusion + Damage,4,Confusion,80
-6,即死,68,Unconscious + Damage B,1,Unconscious,90
-7,沈黙,71,Silence + Damage,5,Silence,80
-8,人形,8,Stone + Damage,2,Stone,90
-9,睡眠,69,Sleep + Damage,3,Sleep,50
-10,即死,68,Unconscious + Damage B,1,Unconscious,80
-11,混乱,70,Confusion + Damage,4,Confusion,0
-12,沈黙,71,Silence + Damage,5,Silence,80
-13,人形化,8,Stone + Damage,2,Stone,90
-14,混乱,70,Confusion + Damage,4,Confusion,80
-15,睡眠,69,Sleep + Damage,3,Sleep,90
-16,即死,68,Unconscious + Damage B,1,Unconscious,95
-17,睡眠,69,Sleep + Damage,3,Sleep,95
-18,"",0,Damage,0,Poison,0
-19,"",0,Damage,0,Poison,0
-20,"",0,Damage,0,Poison,0
+Entry ID,JP Entry Name,[EU Descr Str],Effect ID,[Effect Name],State ID,[State Name],State Miss%
+0,毒,Poison by 10%,4,Poison + Damage,0,Poison,90
+1,睡眠,Sleep by 50%,69,Sleep + Damage,3,Sleep,50
+2,全能力低下,Weak by 10%,73,Weak + Damage,8,Weak,90
+3,混乱,Confusion by 20%,70,Confusion + Damage,4,Confusion,80
+4,沈黙,Silence by 20%,71,Silence + Damage,5,Silence,80
+5,混乱,Confusion by 20%,70,Confusion + Damage,4,Confusion,80
+6,即死,Unconscious by 10%,68,Unconscious + Damage B,1,Unconscious,90
+7,沈黙,Silence by 20%,71,Silence + Damage,5,Silence,80
+8,人形,Stone by 10%,8,Stone + Damage,2,Stone,90
+9,睡眠,Sleep by 50%,69,Sleep + Damage,3,Sleep,50
+10,即死,Unconscious by 20%,68,Unconscious + Damage B,1,Unconscious,80
+11,混乱,Confusion by 100%,70,Confusion + Damage,4,Confusion,0
+12,沈黙,Silence by 20%,71,Silence + Damage,5,Silence,80
+13,人形化,Stone by 10%,8,Stone + Damage,2,Stone,90
+14,混乱,Confusion by 20%,70,Confusion + Damage,4,Confusion,80
+15,睡眠,Sleep by 10%,69,Sleep + Damage,3,Sleep,90
+16,即死,Unconscious by 5%,68,Unconscious + Damage B,1,Unconscious,95
+17,睡眠,Sleep by 5%,69,Sleep + Damage,3,Sleep,95
+18,"",None,0,Damage,0,Poison,0
+19,"",None,0,Damage,0,Poison,0
+20,"",None,0,Damage,0,Poison,0
