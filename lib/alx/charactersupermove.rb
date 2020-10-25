@@ -95,7 +95,7 @@ class CharacterSuperMove < StdEntry
     self[VOC.ship_occasion_id  ] = IntProp.new( :i8,  0           )
     self[VOC.ship_occasion_name] = StrProp.new( nil, '', dmy: true)
     self[padding_hdr           ] = IntProp.new( :i8,  0           )
-    self[VOC.ship_effect_id    ] = IntProp.new(:u16, -1           )
+    self[VOC.ship_effect_id    ] = IntProp.new(:i16, -1           )
     self[VOC.ship_effect_name  ] = StrProp.new( nil, '', dmy: true)
     self[VOC.ship_effect_sp    ] = IntProp.new( :i8, -1           )
     self[VOC.ship_effect_turns ] = IntProp.new( :i8, -1           )

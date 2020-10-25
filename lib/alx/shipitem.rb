@@ -66,7 +66,7 @@ class ShipItem < StdEntry
         self[_occasion] = StrProp.new(nil, '', dmy: true)
       end
       
-      self[VOC.ship_effect_id   ] = IntProp.new(:u8,  0           )
+      self[VOC.ship_effect_id   ] = IntProp.new(:i8, -1           )
       self[VOC.ship_effect_name ] = StrProp.new(nil, '', dmy: true)
       self[VOC.ship_effect_turns] = IntProp.new(:i8,  0           )
       self[VOC.consume          ] = IntProp.new(:i8,  0           )
