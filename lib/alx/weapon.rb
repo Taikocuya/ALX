@@ -82,7 +82,7 @@ class Weapon < StdEntry
     self[VOC.sell               ] = IntProp.new(:i8,  0           )
     self[VOC.order_123          ] = IntProp.new(:i8, -1           )
     self[VOC.order_abc[cid]     ] = IntProp.new(:i8, -1           )
-    self[VOC.effect_id          ] = IntProp.new(:u8, -1           )
+    self[VOC.effect_id          ] = IntProp.new(:i8, -1           )
     self[VOC.effect_name        ] = StrProp.new(nil, '', dmy: true)
     
     if eu?
@@ -112,7 +112,7 @@ class Weapon < StdEntry
         _name  = '???'
         if _entry
           _hit  = 100 - _entry[VOC.state_miss]
-          _name = sprintf('%s %d%%', _entry[VOC.state_name], _hit)
+          _name = sprintf(VOC.weapon_effect, _entry[VOC.state_name], _hit)
         end
       else
         _name = 'None'

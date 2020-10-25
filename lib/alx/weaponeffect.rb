@@ -58,7 +58,7 @@ class WeaponEffect < Entry
   # Initialize the entry properties.
   def init_props
     self[VOC.name_str['JP']] = StrProp.new( 17, ''           )
-    self[VOC.effect_id     ] = IntProp.new(:u8, -1           )
+    self[VOC.effect_id     ] = IntProp.new(:i8, -1           )
     self[VOC.effect_name   ] = StrProp.new(nil, '', dmy: true)
     self[VOC.state_id      ] = IntProp.new(:i8,  0           )
     self[VOC.state_name    ] = StrProp.new(nil, '', dmy: true)

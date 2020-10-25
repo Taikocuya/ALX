@@ -73,7 +73,7 @@ class CharacterSuperMove < StdEntry
       self[_occasion] = StrProp.new(nil, '', dmy: true)
     end
 
-    self[VOC.effect_id         ] = IntProp.new( :u8, -1           )
+    self[VOC.effect_id         ] = IntProp.new( :i8, -1           )
     self[VOC.effect_name       ] = StrProp.new( nil, '', dmy: true)
     self[VOC.scope_id          ] = IntProp.new( :u8,  0           )
     self[VOC.scope_name        ] = StrProp.new( nil, '', dmy: true)

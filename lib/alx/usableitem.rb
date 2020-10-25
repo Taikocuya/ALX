@@ -65,7 +65,7 @@ class UsableItem < StdEntry
       self[_occasion] = StrProp.new(nil, '', dmy: true)
     end
     
-    self[VOC.effect_id     ] = IntProp.new(:u8,  0           )
+    self[VOC.effect_id     ] = IntProp.new(:i8,  0           )
     self[VOC.effect_name   ] = StrProp.new(nil, '', dmy: true)
     self[VOC.scope_id      ] = IntProp.new(:u8,  0           )
     self[VOC.scope_name    ] = StrProp.new(nil, '', dmy: true)

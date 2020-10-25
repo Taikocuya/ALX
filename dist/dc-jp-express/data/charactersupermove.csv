@@ -13,14 +13,14 @@ Entry ID,JP Entry Name,Element ID,[Element Name],Ord by 123,Occasion Flags,[M],[
 47,ラ・コロナシオン,6,Neutral,242,0x2,"",X,"",0,Damage,4,All ECs,4,Enrique,1,30,0,0,150,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af2b0,60,エンリック攻撃技の第２弾です。\nＥＣ全体に対する攻撃技です。
 48,ハデにやろうぜ,6,Neutral,250,0x2,"",X,"",0,Damage,43,EC Triangle 60°,5,Gilder,1,10,0,0,30,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af2ec,60,ギルダー攻撃技の第１弾です。\nＥＣ範囲に対する攻撃技です。
 49,俺がギルダーだ！,6,Neutral,252,0x2,"",X,"",0,Damage,4,All ECs,5,Gilder,1,30,0,0,80,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x0,0,""
-50,リヴェンジ,6,Neutral,301,0x2,"",X,"",38,Counter% to 100% + Guard,5,The User,0,Vyse,2,10,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af328,64,ヴァイス防御技の第１弾です。\n防御効果に加え、確実に反撃します。
+50,リヴェンジ,6,Neutral,301,0x2,"",X,"",38,Counter% to 100% + Guard,5,Self,0,Vyse,2,10,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af328,64,ヴァイス防御技の第１弾です。\n防御効果に加え、確実に反撃します。
 51,スカルシールド,6,Neutral,303,0x2,"",X,"",46,Counter% to 100% + Block Attack,2,All PCs,0,Vyse,2,15,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af368,60,ヴァイス防御技の第２弾です。\nＥＣの直接攻撃を無効化します。
 52,デルタシールド,6,Neutral,311,0x2,"",X,"",39,Block Magic,2,All PCs,1,Aika,2,12,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af3a4,60,アイカ防御技の第１弾です。\nＥＣのЖ術攻撃を無効化します。
 53,ユプシロンミラー,6,Neutral,313,0x2,"",X,"",40,Invulnerable (Undef),2,All PCs,1,Aika,2,24,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af3e0,56,アイカ防御技の第２弾です。\nＥＣのЖ術攻撃を反射します。
 54,月の恵み,6,Neutral,321,0x2,"",X,"",33,Regenerate,2,All PCs,2,Fina,2,8,0,0,4,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af418,56,ファイナ防御技の第１弾です。\n毎ターンＨＰが回復します。
 55,月の浄化,6,Neutral,322,0x2,"",X,"",30,Rem Neg States B,2,All PCs,2,Fina,2,12,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af450,68,ファイナ防御技の第２弾です。\nＰＣ全員のステータス異常を解除します。
 56,月の大いなるЖき,6,Neutral,324,0x2,"",X,"",47,Recover HP & MP + Rem Neg States,2,All PCs,2,Fina,2,30,0,0,9999,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af494,64,ファイナ防御技の第３弾です。\nＰＣ全員を復活、完全回復します。
-57,怒！,6,Neutral,331,0x2,"",X,"",41,Recover SP by 200% + Guard,5,The User,3,Drachma,2,0,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af4d4,64,ドラクマの防御技です。\n防御効果に加え、ガッツを２倍回復します。
+57,怒！,6,Neutral,331,0x2,"",X,"",41,Recover SP by 200% + Guard,5,Self,3,Drachma,2,0,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af4d4,64,ドラクマの防御技です。\n防御効果に加え、ガッツを２倍回復します。
 58,エスクード,6,Neutral,341,0x2,"",X,"",1,Guard,2,All PCs,4,Enrique,2,8,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af514,56,エンリックの防御技です。\nＰＣ全員に防御効果があります。
 59,効かねえなあ,6,Neutral,351,0x2,"",X,"",42,Block Neg States,2,All PCs,5,Gilder,2,8,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x2af54c,68,ギルダーの防御技です。\nＰＣ全員にステータス異常バリアを張ります。
 60,クルー召喚,6,Neutral,-1,0x2,"",X,"",66,Crew Special B,6,All PCs & ECs,0,Vyse,-1,-1,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x0,0,""
