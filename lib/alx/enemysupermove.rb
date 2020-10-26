@@ -77,19 +77,21 @@ class EnemySuperMove < StdEntry
       self[padding_hdr] = IntProp.new(:i8, 0)
     end
     
-    self[VOC.effect_param[1]] = IntProp.new(:u16, 0           )
-    self[VOC.effect_param[2]] = IntProp.new(:u16, 0           )
-    self[VOC.element_id     ] = IntProp.new( :i8, 0           )
-    self[VOC.element_name   ] = StrProp.new(nil, '', dmy: true)
-    self[VOC.type_id        ] = IntProp.new( :i8, 0           )
-    self[VOC.type_name      ] = StrProp.new(nil, '', dmy: true)
-    self[unknown_hdr        ] = IntProp.new( :i8, 0           )
-    self[unknown_hdr        ] = IntProp.new( :i8, 0           )
-    self[VOC.state_id       ] = IntProp.new( :i8, 0           )
-    self[VOC.state_name     ] = StrProp.new(nil, '', dmy: true)
-    self[VOC.state_miss     ] = IntProp.new( :i8, 0           )
-    self[padding_hdr        ] = IntProp.new( :i8, 0           )
-    self[padding_hdr        ] = IntProp.new( :i8, 0           )
+    self[VOC.effect_param[1]      ] = IntProp.new(:u16, 0           )
+    self[VOC.effect_param[2]      ] = IntProp.new(:u16, 0           )
+    self[VOC.element_id           ] = IntProp.new( :i8, 0           )
+    self[VOC.element_name         ] = StrProp.new(nil, '', dmy: true)
+    self[VOC.type_id              ] = IntProp.new( :i8, 0           )
+    self[VOC.type_name            ] = StrProp.new(nil, '', dmy: true)
+    self[VOC.state_infliction_id  ] = IntProp.new( :i8, 0           )
+    self[VOC.state_infliction_name] = StrProp.new(nil, '', dmy: true)
+    self[VOC.state_resistance_id  ] = IntProp.new( :i8, 0           )
+    self[VOC.state_resistance_name] = StrProp.new(nil, '', dmy: true)
+    self[VOC.state_id             ] = IntProp.new( :i8, 0           )
+    self[VOC.state_name           ] = StrProp.new(nil, '', dmy: true)
+    self[VOC.state_miss           ] = IntProp.new( :i8, 0           )
+    self[padding_hdr              ] = IntProp.new( :i8, 0           )
+    self[padding_hdr              ] = IntProp.new( :i8, 0           )
   end
   
   # Initialize the entry procs.
@@ -112,6 +114,14 @@ class EnemySuperMove < StdEntry
 
     fetch(VOC.type_id).proc = Proc.new do |_id|
       self[VOC.type_name] = VOC.types[_id]
+    end
+    
+    fetch(VOC.state_infliction_id).proc = Proc.new do |_id|
+      self[VOC.state_infliction_name] = VOC.traits[_id]
+    end
+    
+    fetch(VOC.state_resistance_id).proc = Proc.new do |_id|
+      self[VOC.state_resistance_name] = VOC.traits[_id]
     end
 
     fetch(VOC.state_id).proc = Proc.new do |_id|

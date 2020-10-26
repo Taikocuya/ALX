@@ -156,10 +156,14 @@ VOC.configure do |_v|
   _v.elements[ 5] = 'Silver'
   _v.elements[ 6] = 'Neutral'
 
-  _v.state_id   = 'State ID'
-  _v.state_name = '[State Name]'
-  _v.state_miss = 'State Miss%'
-  
+  _v.state_id              = 'State ID'
+  _v.state_name            = '[State Name]'
+  _v.state_miss            = 'State Miss%'
+  _v.state_infliction_id   = 'State Inflict ID'
+  _v.state_infliction_name = 'State Inflict Name'
+  _v.state_resistance_id   = 'State Resist ID'
+  _v.state_resistance_name = 'State Resist Name'
+
   _v.states      = Hash.new('???')
   _v.states[-1]  = 'None'
   _v.states[ 0]  = 'Poison'
