@@ -89,6 +89,13 @@ class Entry
     _result
   end
 
+  # Refreshes all entry properties to force a call of entry procs.
+  def refresh
+    @props.each_value do |_p|
+      _p.call_proc
+    end
+  end
+
   # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
   # differs from the snapshot, otherwise nothing happens. Returns +true+ if 
   # the entry matches the snapshot, otherwise +false+.

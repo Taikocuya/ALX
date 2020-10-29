@@ -69,7 +69,11 @@ class EnemySuperMoveData < StdEntryData
   
   # Reads all entries from binary files.
   def load_bin
-    @enemy_data&.load_bin
+    if depend
+      @enemy_data.load_bin
+      refresh
+    end
+    
     super
   end
 

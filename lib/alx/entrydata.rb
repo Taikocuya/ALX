@@ -49,16 +49,53 @@ class EntryData
   # @param _root   [GameRoot] Game root
   # @param _depend [Boolean]  Resolve dependencies
   def initialize(_class, _root, _depend = true)
-    @class  = _class
-    @root   = _root
-    @depend = _depend
-    @sht    = ShtManager.new(_root, self.class.name.split('::').last)
+    @@cache ||= {}
+    @class    = _class
+    @root     = _root
+    @depend   = _depend
+    @sht      = ShtManager.new(_root, self.class.name.split('::').last)
   end
-
+  
   # Creates an entry.
   # @return [Entry] Entry object
   def create_entry
     @class.new(@root)
+  end
+
+  # Returns an object from cache for the given symbol. If the symbol cannot 
+  # be found, then default will be stored in cache and returned.
+  # 
+  # @param _sym     [Symbol] Object symbol
+  # @param _default [Object] Object instance
+  # 
+  # @return [Object] Object instance
+  def fetch_cache(_sym, _default)
+    _luid = sprintf('%s-%s', luid, _sym.to_s)
+    _data = @@cache[_luid]
+    
+    if depend && !_data
+      @@cache[_luid] = _default
+    end
+    
+    _data || _default
+  end
+
+  # Refreshes all objects in cache to force an update of entry properties.
+  def refresh
+    @@cache.each do |_sym, _obj|
+      if _sym.start_with?(luid)
+        case _obj
+        when Array
+          _obj.each do |_entry|
+            _entry.refresh
+          end
+        when Hash
+          _obj.each_value do |_entry|
+            _entry.refresh
+          end
+        end
+      end
+    end
   end
 
   # @see GameRoot#etc

@@ -86,31 +86,12 @@ class EnemyData < EntryData
       @usable_item_data      = UsableItemData.new(_root)
       @weapon_data           = WeaponData.new(_root)
     end
-    
-    @@cache     ||= {}
-    @items        = {}
-    @enemies      = fetch_cache(:enemies   , [])
-    @tasks        = fetch_cache(:tasks     , [])
-    @events       = fetch_cache(:events    , [])
-    @encounters   = fetch_cache(:encounters, [])
-  end
 
-  # Returns an object from cache for the given symbol. If the symbol cannot 
-  # be found, then default will be stored in cache and returned.
-  # 
-  # @param _sym [Symbol] Object symbol
-  # @param _obj [Object] Object instance
-  # 
-  # @return [Object] Object instance
-  def fetch_cache(_sym, _obj)
-    _luid = sprintf('%s-%s', luid, _sym.to_s)
-    _data = @@cache[_luid]
-    
-    if depend && !_data
-      @@cache[_luid] = _obj
-    end
-    
-    _data || _obj
+    @items      = {}
+    @enemies    = fetch_cache(:enemies   , [])
+    @tasks      = fetch_cache(:tasks     , [])
+    @events     = fetch_cache(:events    , [])
+    @encounters = fetch_cache(:encounters, [])
   end
 
   # Does nothing.

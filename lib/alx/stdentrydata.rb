@@ -49,24 +49,18 @@ class StdEntryData < EntryData
   # @param _depend [Boolean]  Resolve dependencies
   def initialize(_class, _root, _depend = true)
     super
-    @@cache    ||= {}
-    @id_range    = ALX.rng(0x0..)
-    @data_file   = nil
-    @name_file   = nil
-    @dscr_file   = nil
-    @msg_table   = {}
-    @csv_file    = ''
-    @tpl_file    = ''
+    @id_range  = ALX.rng(0x0..)
+    @data_file = nil
+    @name_file = nil
+    @dscr_file = nil
+    @msg_table = {}
+    @csv_file  = ''
+    @tpl_file  = ''
 
-    @data = @@cache[luid]
-    unless @data
-      @data = Hash.new do |_h, _k|
-        _h[_k] = create_entry(_k)
-      end
-      if depend
-        @@cache[luid] = @data
-      end
+    _data = Hash.new do |_h, _k|
+      _h[_k] = create_entry(_k)
     end
+    @data = fetch_cache(:data, _data)
   end
 
   # Creates an entry.
