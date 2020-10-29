@@ -8,7 +8,7 @@ Entry ID,US Entry Name,Pad 1,Pad 2,Pad 3,Pad 4,Category ID,[Category Name],Effec
 6,Sacri,0,0,0,0,1,Magic,31,Recover HP,3,Single EC,250,HP,68,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 7,サプリィ,0,0,0,0,1,Magic,31,Recover HP,3,Single EC,500,HP,68,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 8,Sacrum,0,0,0,0,1,Magic,31,Recover HP,4,All ECs,500,HP,68,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
-9,サプローネ,0,0,0,0,1,Magic,32,Recover HP of 100%,3,Single EC,-15536,HP,68,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
+9,サプローネ,0,0,0,0,1,Magic,32,Recover HP of 100%,3,Single EC,50000,HP,68,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 10,Noxi,0,0,0,0,1,Magic,4,Poison + Damage,1,Single PC,1,Will,20,0,Green,1,Magical,1,Will,18,MagDef,0,Poison,50,0,0
 11,プワゾーク,0,0,0,0,1,Magic,4,Poison + Damage,2,All PCs,1,Will,130,0,Green,1,Magical,1,Will,18,MagDef,0,Poison,50,0,0
 12,スリーパ,0,0,0,0,1,Magic,9,Sleep,2,All PCs,0,Power,0,0,Green,0,Physical,1,Will,18,MagDef,3,Sleep,50,0,0

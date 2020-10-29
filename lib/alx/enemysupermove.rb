@@ -96,9 +96,9 @@ class EnemySuperMove < StdEntry
       self[padding_hdr] = IntProp.new(:i8, 0)
     end
     
-    self[VOC.effect_param_id      ] = IntProp.new(:i16,  0           )
+    self[VOC.effect_param_id      ] = IntProp.new(:u16,  0           )
     self[VOC.effect_param_name    ] = StrProp.new( nil, '', dmy: true)
-    self[VOC.effect_base          ] = IntProp.new(:i16,  0           )
+    self[VOC.effect_base          ] = IntProp.new(:u16,  0           )
     self[VOC.element_id           ] = IntProp.new( :i8,  0           )
     self[VOC.element_name         ] = StrProp.new( nil, '', dmy: true)
     self[VOC.type_id              ] = IntProp.new( :i8,  0           )

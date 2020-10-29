@@ -40,7 +40,7 @@ Entry ID,JP Entry Name,Pad 1,Pad 2,Pad 3,Pad 4,Category ID,[Category Name],Effec
 38,永久凍結,0,0,0,0,0,S-Move,0,Damage,2,All PCs,16,Attack,12,2,Purple,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 39,落雷,0,0,0,0,0,S-Move,0,Damage,1,Single PC,16,Attack,20,4,Yellow,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 40,疲労かぶり,0,0,0,0,0,S-Move,72,Fatigue + Damage,1,Single PC,16,Attack,15,0,Green,0,Physical,16,Attack,17,Defense,6,Fatigue,20,0,0
-41,おやすみなさい,0,0,0,0,0,S-Move,63,Regenerate + Sleep,5,Self,400,HP,-1,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
+41,おやすみなさい,0,0,0,0,0,S-Move,63,Regenerate + Sleep,5,Self,400,HP,65535,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 42,アバランチャー,0,0,0,0,0,S-Move,0,Damage,102,PC Ray S5,16,Attack,35,2,Purple,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 43,銀色の光と闇,0,0,0,0,0,S-Move,0,Damage,2,All PCs,16,Attack,25,5,Silver,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 44,フリムーン,0,0,0,0,0,S-Move,26,Decr All Attr,1,Single PC,0,Power,0,0,Green,0,Physical,16,Attack,17,Defense,8,Weak,0,0,0

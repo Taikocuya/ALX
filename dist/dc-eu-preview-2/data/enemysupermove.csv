@@ -40,7 +40,7 @@ Entry ID,EU Message ID,[DE Entry Name Pos],[DE Entry Name Size],DE Entry Name,[E
 38,0x8c385c4c,0x153a,15,Eternal Freeze,0x1571,13,Hielo Eterno,0x1561,12,Gel Éternel,0x153a,15,Eternal Freeze,0,S-Move,0,Damage,2,All PCs,0,16,Attack,12,2,Purple,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 39,0x8c385c5c,0x1549,17,Lightning Strike,0x157e,15,Golpe del Rayo,0x156d,15,Coup de Foudre,0x1549,17,Lightning Strike,0,S-Move,0,Damage,1,Single PC,0,16,Attack,20,4,Yellow,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 40,0x8c385c70,0x155a,14,Terrible Bite,0x158d,17,Mordisco Temible,0x157c,17,Terrible Morsure,0x155a,14,Terrible Bite,0,S-Move,72,Fatigue + Damage,1,Single PC,0,16,Attack,15,0,Green,0,Physical,16,Attack,17,Defense,6,Fatigue,20,0,0
-41,0x8c385c80,0x1568,11,Deep Sleep,0x159e,15,Sueño Profundo,0x158d,16,Profond Sommeil,0x1568,11,Deep Sleep,0,S-Move,63,Regenerate + Sleep,5,Self,0,400,HP,-1,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
+41,0x8c385c80,0x1568,11,Deep Sleep,0x159e,15,Sueño Profundo,0x158d,16,Profond Sommeil,0x1568,11,Deep Sleep,0,S-Move,63,Regenerate + Sleep,5,Self,0,400,HP,65535,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 42,0x8c385c8c,0x1573,12,Avalauncher,0x15ad,12,Avalauncher,0x159d,11,Avalanceur,0x1573,12,Avalauncher,0,S-Move,0,Damage,102,PC Ray S5,0,16,Attack,35,2,Purple,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 43,0x8c385c98,0x157f,15,Silver Eclipse,0x15b9,17,Eclipse de Plata,0x15a8,17,Éclipse d'argent,0x157f,15,Silver Eclipse,0,S-Move,0,Damage,2,All PCs,0,16,Attack,25,5,Silver,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 44,0x8c385ca8,0x158e,6,Drain,0x15ca,8,Desecar,0x15b9,11,Épuisement,0x158e,6,Drain,0,S-Move,26,Decr All Attr,1,Single PC,0,0,Power,0,0,Green,0,Physical,16,Attack,17,Defense,8,Weak,0,0,0
