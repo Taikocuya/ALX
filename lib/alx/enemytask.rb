@@ -99,19 +99,19 @@ class EnemyTask < Entry
   attr_reader :super_moves
 
   def enemies=(_enemies)
-    @enemies = _enemies
+    @enemies = _enemies || []
     
     fetch(VOC.enemy_ref)&.call_proc
   end
   
   def magics=(_magics)
-    @magics = _magics
+    @magics = _magics || {}
     
     fetch(VOC.param_id)&.call_proc
   end
 
   def super_moves=(_super_moves)
-    @super_moves = _super_moves
+    @super_moves = _super_moves || {}
     
     fetch(VOC.param_id)&.call_proc
   end

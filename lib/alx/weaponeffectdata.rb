@@ -43,9 +43,10 @@ class WeaponEffectData < StdEntryData
   public
 
   # Constructs a WeaponEffectData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(WeaponEffect, _root)
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(WeaponEffect, _root, _depend)
     self.id_range  = sys(:weapon_effect_id_range)
     self.data_file = sys(:weapon_effect_data_files)
     self.csv_file  = SYS.weapon_effect_csv_file

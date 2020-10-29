@@ -43,9 +43,10 @@ class AccessoryData < StdEntryData
   public
 
   # Constructs an AccessoryData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(Accessory, _root)
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(Accessory, _root, _depend)
     self.id_range  = sys(:accessory_id_range)
     self.data_file = sys(:accessory_data_files)
     self.name_file = sys(:accessory_name_files)

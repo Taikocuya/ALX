@@ -45,16 +45,20 @@ class CharacterData < StdEntryData
   public
 
   # Constructs a CharacterData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(Character, _root)
-    self.id_range   = sys(:character_id_range)
-    self.data_file  = sys(:character_data_files)
-    self.csv_file   = SYS.character_csv_file
-    self.tpl_file   = SYS.character_tpl_file
-    @weapon_data    = WeaponData.new(_root)
-    @armor_data     = ArmorData.new(_root)
-    @accessory_data = AccessoryData.new(_root)
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(Character, _root, _depend)
+    self.id_range  = sys(:character_id_range)
+    self.data_file = sys(:character_data_files)
+    self.csv_file  = SYS.character_csv_file
+    self.tpl_file  = SYS.character_tpl_file
+    
+    if depend
+      @weapon_data    = WeaponData.new(_root)
+      @armor_data     = ArmorData.new(_root)
+      @accessory_data = AccessoryData.new(_root)
+    end
   end
 
   # Creates an entry.
@@ -62,17 +66,17 @@ class CharacterData < StdEntryData
   # @return [Entry] Entry object
   def create_entry(_id = -1)
     _entry             = super
-    _entry.weapons     = @weapon_data.data
-    _entry.armors      = @armor_data.data
-    _entry.accessories = @accessory_data.data
+    _entry.weapons     = @weapon_data&.data
+    _entry.armors      = @armor_data&.data
+    _entry.accessories = @accessory_data&.data
     _entry
   end
   
   # Reads all entries from binary files.
   def load_bin
-    @weapon_data.load_bin
-    @armor_data.load_bin
-    @accessory_data.load_bin
+    @weapon_data&.load_bin
+    @armor_data&.load_bin
+    @accessory_data&.load_bin
     super
   end
 

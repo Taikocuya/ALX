@@ -59,17 +59,17 @@ class Character < StdEntry
   attr_reader :accessories
 
   def weapons=(_weapons)
-    @weapons = _weapons
+    @weapons = _weapons || {}
     fetch(VOC.weapon_id)&.call_proc
   end
   
   def armors=(_armors)
-    @armors = _armors
+    @armors = _armors || {}
     fetch(VOC.armor_id)&.call_proc
   end
   
   def accessories=(_accessories)
-    @accessories = _accessories
+    @accessories = _accessories || {}
     fetch(VOC.accessory_id[nil])&.call_proc
   end
   

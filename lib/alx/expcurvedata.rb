@@ -44,14 +44,18 @@ class ExpCurveData < StdEntryData
   public
 
   # Constructs an ExpCurveData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(ExpCurve, _root)
-    self.id_range   = sys(:exp_curve_id_range)
-    self.data_file  = sys(:exp_curve_data_files)
-    self.csv_file   = SYS.exp_curve_csv_file
-    self.tpl_file   = SYS.exp_curve_tpl_file
-    @character_data = CharacterData.new(_root)
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(ExpCurve, _root, _depend)
+    self.id_range  = sys(:exp_curve_id_range)
+    self.data_file = sys(:exp_curve_data_files)
+    self.csv_file  = SYS.exp_curve_csv_file
+    self.tpl_file  = SYS.exp_curve_tpl_file
+        
+    if depend
+      @character_data = CharacterData.new(_root)
+    end
   end
 
   # Creates an entry.
@@ -59,13 +63,13 @@ class ExpCurveData < StdEntryData
   # @return [Entry] Entry object
   def create_entry(_id = -1)
     _entry            = super
-    _entry.characters = @character_data.data
+    _entry.characters = @character_data&.data
     _entry
   end
   
   # Reads all entries from binary files.
   def load_bin
-    @character_data.load_bin
+    @character_data&.load_bin
     super
   end
 

@@ -59,14 +59,14 @@ class PlayableShip < StdEntry
   attr_reader   :ship_accessories
 
   def ship_cannons=(_ship_cannons)
-    @ship_cannons = _ship_cannons
+    @ship_cannons = _ship_cannons || {}
     (1..@ship_cannon_size).each do |_i|
       fetch(VOC.cannon_id[_i])&.call_proc
     end
   end
   
   def ship_accessories=(_ship_accessories)
-    @ship_accessories = _ship_accessories
+    @ship_accessories = _ship_accessories || {}
     (1..3).each do |_i|
       fetch(VOC.accessory_id[_i])&.call_proc
     end

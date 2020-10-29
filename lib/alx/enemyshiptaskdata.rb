@@ -45,15 +45,20 @@ class EnemyShipTaskData < EntryData
   public
 
   # Constructs an EnemyShipTaskData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(EnemyShipTask, _root)
-    @tec_file             = sys(:tec_file)
-    @csv_file             = SYS.enemy_ship_task_csv_file
-    @tpl_file             = SYS.enemy_ship_task_tpl_file
-    @character_magic_data = CharacterMagicData.new(_root)
-    @enemy_ship_data      = EnemyShipData.new(_root)
-    @data                 = []
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(EnemyShipTask, _root, _depend)
+    @tec_file = sys(:tec_file)
+    @csv_file = SYS.enemy_ship_task_csv_file
+    @tpl_file = SYS.enemy_ship_task_tpl_file    
+    
+    if depend
+      @character_magic_data = CharacterMagicData.new(_root)
+      @enemy_ship_data      = EnemyShipData.new(_root)
+    end
+    
+    @data = []
   end
 
   # Creates an entry.
@@ -62,8 +67,8 @@ class EnemyShipTaskData < EntryData
   def create_entry(_id = -1)
     _entry             = super()
     _entry.id          = _id
-    _entry.magics      = @character_magic_data.data
-    _entry.enemy_ships = @enemy_ship_data.data
+    _entry.magics      = @character_magic_data&.data
+    _entry.enemy_ships = @enemy_ship_data&.data
     _entry
   end
   
@@ -84,16 +89,16 @@ class EnemyShipTaskData < EntryData
   def load_bin_data(_filename)
     meta.check_mtime(_filename)
     _file             = TecFile.new(root)
-    _file.magics      = @character_magic_data.data
-    _file.enemy_ships = @enemy_ship_data.data
+    _file.magics      = @character_magic_data&.data
+    _file.enemy_ships = @enemy_ship_data&.data
     _file.load(_filename)
     @data.concat(_file.tasks)
   end
 
   # Reads all entries from binary files.
   def load_bin
-    @character_magic_data.load_bin
-    @enemy_ship_data.load_bin
+    @character_magic_data&.load_bin
+    @enemy_ship_data&.load_bin
     
     glob(@tec_file) do |_p|
       if File.file?(_p)
@@ -111,8 +116,8 @@ class EnemyShipTaskData < EntryData
     end
     
     FileUtils.mkdir_p(File.dirname(_filename))
-    _file           = TecFile.new(root)
-    _file.tasks     = @data
+    _file       = TecFile.new(root)
+    _file.tasks = @data
     _file.save(_filename)
   end
 

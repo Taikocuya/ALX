@@ -44,9 +44,10 @@ class StdEntryData < EntryData
   public
 
   # Constructs a StdEntryData.
-  # @param _class [Entry]    Entry object
-  # @param _root  [GameRoot] Game root
-  def initialize(_class, _root)
+  # @param _class  [Entry]    Entry object
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_class, _root, _depend = true)
     super
     @@cache    ||= {}
     @id_range    = ALX.rng(0x0..)
@@ -62,7 +63,9 @@ class StdEntryData < EntryData
       @data = Hash.new do |_h, _k|
         _h[_k] = create_entry(_k)
       end
-      @@cache[luid] = @data
+      if depend
+        @@cache[luid] = @data
+      end
     end
   end
 

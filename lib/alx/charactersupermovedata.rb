@@ -43,9 +43,10 @@ class CharacterSuperMoveData < StdEntryData
   public
 
   # Constructs a CharacterSuperMoveData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(CharacterSuperMove, _root)
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(CharacterSuperMove, _root, _depend)
     self.id_range  = sys(:character_super_move_id_range)
     self.data_file = sys(:character_super_move_data_files)
     self.name_file = sys(:character_super_move_name_files)

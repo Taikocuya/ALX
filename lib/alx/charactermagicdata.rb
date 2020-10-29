@@ -23,7 +23,7 @@
 #==============================================================================
 
 require_relative('charactermagic.rb')
-require_relative('stdentrydata.rb')
+require_relative('enemydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -43,9 +43,10 @@ class CharacterMagicData < StdEntryData
   public
 
   # Constructs a CharacterMagicData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(CharacterMagic, _root)
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(CharacterMagic, _root, _depend)
     self.id_range   = sys(:character_magic_id_range)
     self.data_file  = sys(:character_magic_data_files)
     self.name_file  = sys(:character_magic_name_files)

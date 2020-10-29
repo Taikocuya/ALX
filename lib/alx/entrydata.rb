@@ -45,12 +45,14 @@ class EntryData
   public
 
   # Constructs an EntryData.
-  # @param _class [Entry]    Entry object
-  # @param _root  [GameRoot] Game root
-  def initialize(_class, _root)
-    @class = _class
-    @root  = _root
-    @sht   = ShtManager.new(_root, self.class.name.split('::').last)
+  # @param _class  [Entry]    Entry object
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_class, _root, _depend = true)
+    @class  = _class
+    @root   = _root
+    @depend = _depend
+    @sht    = ShtManager.new(_root, self.class.name.split('::').last)
   end
 
   # Creates an entry.
@@ -130,6 +132,7 @@ class EntryData
 #------------------------------------------------------------------------------
 
   attr_reader :root
+  attr_reader :depend
   attr_reader :sht
 
   def luid

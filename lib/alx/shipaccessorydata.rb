@@ -43,9 +43,10 @@ class ShipAccessoryData < StdEntryData
   public
 
   # Constructs a ShipAccessoryData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(ShipAccessory, _root)
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(ShipAccessory, _root, _depend)
     self.id_range  = sys(:ship_accessory_id_range)
     self.data_file = sys(:ship_accessory_data_files)
     self.name_file = sys(:ship_accessory_name_files)

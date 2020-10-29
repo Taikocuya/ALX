@@ -11,7 +11,7 @@ Entry ID,JP Entry Name,Occasion Flags,[M],[B],[S],Effect ID,[Effect Name],Scope 
 249,治癒薬,0x2,"",X,"",30,Rem Neg States B,1,Single PC,100,50,10,31,30,0,0,0,0,Green,0,Physical,-1,None,-1,0x2af9d4,32,戦闘中の不利な状態を直します。\n
 250,復活１薬,0x2,"",X,"",27,Revive w/ HP of 50%,1,Single PC,100,50,11,39,60,0,0,0,0,Green,0,Physical,-1,None,69,0x2af9f4,48,戦闘不能のキャラを５０％の確率で復活させます。\n
 251,復活２薬,0x2,"",X,"",28,Revive w/ HP of 100%,1,Single PC,100,50,12,40,120,0,0,0,0,Green,0,Physical,-1,None,-1,0x2afa24,40,戦闘不能のキャラを必ず復活させます。\n
-252,攻防ＵＰ薬,0x2,"",X,"",21,Incr Attack + Defense,1,Single PC,100,50,13,12,40,0,0,0,0,Green,0,Physical,-1,None,-1,0x2afa4c,32,パワーアップの状態になります。\n
+252,攻防ＵＰ薬,0x2,"",X,"",21,Incr Attack & Defense,1,Single PC,100,50,13,12,40,0,0,0,0,Green,0,Physical,-1,None,-1,0x2afa4c,32,パワーアップの状態になります。\n
 253,素早さＵＰ薬,0x2,"",X,"",20,Incr Quick,1,Single PC,100,50,14,26,40,0,0,0,0,Green,0,Physical,-1,None,-1,0x2afa6c,36,スピードアップの状態になります。\n
 254,ＨＰターン回復薬,0x2,"",X,"",33,Regenerate,1,Single PC,100,50,15,3,160,0,0,4,0,Green,0,Physical,0,Poison,0,0x2afa90,36,ＨＰターン回復の状態になります。\n
 255,手りゅう弾,0x2,"",X,"",0,Damage,32,EC Square S3,100,50,78,78,20,0,0,200,1,Red,0,Physical,0,Poison,0,0x2afab4,16,カットです。\n

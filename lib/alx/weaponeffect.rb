@@ -70,11 +70,13 @@ class WeaponEffect < Entry
   def init_procs
     fetch(VOC.effect_id).proc = Proc.new do |_id|
       self[VOC.effect_name] = VOC.effects[_id]
+      
       fetch(VOC.state_miss)&.call_proc
     end
     
     fetch(VOC.state_id).proc = Proc.new do |_id|
       self[VOC.state_name] = VOC.states[_id]
+      
       fetch(VOC.state_miss)&.call_proc
     end
     

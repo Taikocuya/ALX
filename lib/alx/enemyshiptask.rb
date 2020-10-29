@@ -77,7 +77,7 @@ class EnemyShipTask < Entry
   attr_reader   :magics
 
   def enemy_ships=(_enemy_ships)
-    @enemy_ships = _enemy_ships
+    @enemy_ships = _enemy_ships || {}
     
     fetch(VOC.filter)&.call_proc
     if eu?
@@ -88,7 +88,7 @@ class EnemyShipTask < Entry
   end
   
   def magics=(_magics)
-    @magics = _magics
+    @magics = _magics || {}
     
     (1..2).each do |_i|
       fetch(VOC.task_param_id[_i])&.call_proc

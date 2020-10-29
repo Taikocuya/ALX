@@ -57,7 +57,8 @@ class EnemyEvent < Entry
   attr_reader :enemies
 
   def enemies=(_enemies)
-    @enemies = _enemies
+    @enemies = _enemies || []
+    
     (1..7).each do |_i|
       fetch(VOC.enemy_id[_i])&.call_proc
     end

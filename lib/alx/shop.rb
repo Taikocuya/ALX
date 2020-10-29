@@ -57,7 +57,7 @@ class Shop < StdEntry
   attr_reader :items
 
   def items=(_items)
-    @items = _items
+    @items = _items || {}
     fetch(VOC.item_id[nil])&.call_proc
   end
   

@@ -43,9 +43,10 @@ class ShipItemData < StdEntryData
   public
 
   # Constructs a ShipItemData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(ShipItem, _root)
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(ShipItem, _root, _depend)
     self.id_range  = sys(:ship_item_id_range)
     self.data_file = sys(:ship_item_data_files)
     self.name_file = sys(:ship_item_name_files)

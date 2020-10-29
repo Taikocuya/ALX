@@ -51,23 +51,27 @@ class TreasureChestData < StdEntryData
   public
 
   # Constructs a TreasureChestData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(TreasureChest, _root)
-    self.id_range   = sys(:treasure_chest_id_range)
-    self.data_file  = sys(:treasure_chest_data_files)
-    self.csv_file   = SYS.treasure_chest_csv_file
-    self.tpl_file   = SYS.treasure_chest_tpl_file
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(TreasureChest, _root, _depend)
+    self.id_range  = sys(:treasure_chest_id_range)
+    self.data_file = sys(:treasure_chest_data_files)
+    self.csv_file  = SYS.treasure_chest_csv_file
+    self.tpl_file  = SYS.treasure_chest_tpl_file
+        
+    if depend
+      @accessory_data      = AccessoryData.new(_root)
+      @armor_data          = ArmorData.new(_root)
+      @ship_accessory_data = ShipAccessoryData.new(_root)
+      @ship_cannon_data    = ShipCannonData.new(_root)
+      @ship_item_data      = ShipItemData.new(_root)
+      @special_item_data   = SpecialItemData.new(_root)
+      @usable_item_data    = UsableItemData.new(_root)
+      @weapon_data         = WeaponData.new(_root)
+    end
     
-    @accessory_data        = AccessoryData.new(_root)
-    @armor_data            = ArmorData.new(_root)
-    @ship_accessory_data   = ShipAccessoryData.new(_root)
-    @ship_cannon_data      = ShipCannonData.new(_root)
-    @ship_item_data        = ShipItemData.new(_root)
-    @special_item_data     = SpecialItemData.new(_root)
-    @usable_item_data      = UsableItemData.new(_root)
-    @weapon_data           = WeaponData.new(_root)
-    @items                 = {}
+    @items = {}
   end
 
   # Creates an entry.
@@ -81,23 +85,25 @@ class TreasureChestData < StdEntryData
   
   # Reads all entries from binary files.
   def load_bin
-    @accessory_data.load_bin
-    @armor_data.load_bin
-    @ship_accessory_data.load_bin
-    @ship_cannon_data.load_bin
-    @ship_item_data.load_bin
-    @special_item_data.load_bin
-    @usable_item_data.load_bin
-    @weapon_data.load_bin
+    @accessory_data&.load_bin
+    @armor_data&.load_bin
+    @ship_accessory_data&.load_bin
+    @ship_cannon_data&.load_bin
+    @ship_item_data&.load_bin
+    @special_item_data&.load_bin
+    @usable_item_data&.load_bin
+    @weapon_data&.load_bin
     
-    @items.merge!(@accessory_data.data)
-    @items.merge!(@armor_data.data)
-    @items.merge!(@ship_accessory_data.data)
-    @items.merge!(@ship_cannon_data.data)
-    @items.merge!(@ship_item_data.data)
-    @items.merge!(@special_item_data.data)
-    @items.merge!(@usable_item_data.data)
-    @items.merge!(@weapon_data.data)
+    if depend
+      @items.merge!(@accessory_data.data)
+      @items.merge!(@armor_data.data)
+      @items.merge!(@ship_accessory_data.data)
+      @items.merge!(@ship_cannon_data.data)
+      @items.merge!(@ship_item_data.data)
+      @items.merge!(@special_item_data.data)
+      @items.merge!(@usable_item_data.data)
+      @items.merge!(@weapon_data.data)
+    end
     
     super
   end

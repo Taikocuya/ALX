@@ -54,10 +54,11 @@ class EnemyData < EntryData
   public
 
   # Constructs an EnemyData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(Object, _root)
-    
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(Object, _root, _depend)
+
     @eb_file            = sys(:eb_file)
     @ec_file            = sys(:ec_file)
     @enp_file           = sys(:enp_file)
@@ -72,23 +73,44 @@ class EnemyData < EntryData
     @event_tpl_file     = SYS.enemy_event_tpl_file
     @encounter_csv_file = SYS.enemy_encounter_csv_file
     @encounter_tpl_file = SYS.enemy_encounter_tpl_file
-    
-    @accessory_data        = AccessoryData.new(_root)
-    @armor_data            = ArmorData.new(_root)
-    @enemy_magic_data      = EnemyMagicData.new(_root)
-    @enemy_super_move_data = EnemySuperMoveData.new(_root)
-    @ship_accessory_data   = ShipAccessoryData.new(_root)
-    @ship_cannon_data      = ShipCannonData.new(_root)
-    @ship_item_data        = ShipItemData.new(_root)
-    @special_item_data     = SpecialItemData.new(_root)
-    @usable_item_data      = UsableItemData.new(_root)
-    @weapon_data           = WeaponData.new(_root)
-    @items                 = {}
 
-    @enemies    = []
-    @tasks      = []
-    @events     = []
-    @encounters = []
+    if depend
+      @accessory_data        = AccessoryData.new(_root)
+      @armor_data            = ArmorData.new(_root)
+      @enemy_magic_data      = EnemyMagicData.new(_root, false)
+      @enemy_super_move_data = EnemySuperMoveData.new(_root, false)
+      @ship_accessory_data   = ShipAccessoryData.new(_root)
+      @ship_cannon_data      = ShipCannonData.new(_root)
+      @ship_item_data        = ShipItemData.new(_root)
+      @special_item_data     = SpecialItemData.new(_root)
+      @usable_item_data      = UsableItemData.new(_root)
+      @weapon_data           = WeaponData.new(_root)
+    end
+    
+    @@cache     ||= {}
+    @items        = {}
+    @enemies      = fetch_cache(:enemies   , [])
+    @tasks        = fetch_cache(:tasks     , [])
+    @events       = fetch_cache(:events    , [])
+    @encounters   = fetch_cache(:encounters, [])
+  end
+
+  # Returns an object from cache for the given symbol. If the symbol cannot 
+  # be found, then default will be stored in cache and returned.
+  # 
+  # @param _sym [Symbol] Object symbol
+  # @param _obj [Object] Object instance
+  # 
+  # @return [Object] Object instance
+  def fetch_cache(_sym, _obj)
+    _luid = sprintf('%s-%s', luid, _sym.to_s)
+    _data = @@cache[_luid]
+    
+    if depend && !_data
+      @@cache[_luid] = _obj
+    end
+    
+    _data || _obj
   end
 
   # Does nothing.
@@ -113,8 +135,8 @@ class EnemyData < EntryData
     _task             = EnemyTask.new(root)
     _task.id          = _id
     _task.enemies     = @enemies
-    _task.magics      = @enemy_magic_data.data
-    _task.super_moves = @enemy_super_move_data.data
+    _task.magics      = @enemy_magic_data&.data
+    _task.super_moves = @enemy_super_move_data&.data
     _task
   end
 
@@ -318,8 +340,8 @@ class EnemyData < EntryData
     meta.check_mtime(_filename)
     _file             = EvpFile.new(root)
     _file.items       = @items
-    _file.magics      = @enemy_magic_data.data
-    _file.super_moves = @enemy_super_move_data.data
+    _file.magics      = @enemy_magic_data&.data
+    _file.super_moves = @enemy_super_move_data&.data
     _file.load(_filename)
     @events.concat(_file.events)
     concat_enemies(_file.enemies)
@@ -365,8 +387,8 @@ class EnemyData < EntryData
     meta.check_mtime(_filename)
     _file             = EnpFile.new(root)
     _file.items       = @items
-    _file.magics      = @enemy_magic_data.data
-    _file.super_moves = @enemy_super_move_data.data
+    _file.magics      = @enemy_magic_data&.data
+    _file.super_moves = @enemy_super_move_data&.data
     _file.load(_filename)
     @encounters.concat(_file.encounters)
     concat_enemies(_file.enemies)
@@ -379,8 +401,8 @@ class EnemyData < EntryData
     meta.check_mtime(_filename)
     _file             = DatFile.new(root)
     _file.items       = @items
-    _file.magics      = @enemy_magic_data.data
-    _file.super_moves = @enemy_super_move_data.data
+    _file.magics      = @enemy_magic_data&.data
+    _file.super_moves = @enemy_super_move_data&.data
     _file.load(_filename)
     concat_enemies(_file.enemies)
     concat_tasks(_file.tasks)
@@ -388,25 +410,31 @@ class EnemyData < EntryData
   
   # Reads all entries from binary files.
   def load_bin
-    @accessory_data.load_bin
-    @armor_data.load_bin
-    @enemy_magic_data.load_bin
-    @enemy_super_move_data.load_bin
-    @ship_accessory_data.load_bin
-    @ship_cannon_data.load_bin
-    @ship_item_data.load_bin
-    @special_item_data.load_bin
-    @usable_item_data.load_bin
-    @weapon_data.load_bin
+    if !@enemies.empty? || !@tasks.empty?
+      return
+    end
+
+    @accessory_data&.load_bin
+    @armor_data&.load_bin
+    @enemy_magic_data&.load_bin
+    @enemy_super_move_data&.load_bin
+    @ship_accessory_data&.load_bin
+    @ship_cannon_data&.load_bin
+    @ship_item_data&.load_bin
+    @special_item_data&.load_bin
+    @usable_item_data&.load_bin
+    @weapon_data&.load_bin
     
-    @items.merge!(@accessory_data.data)
-    @items.merge!(@armor_data.data)
-    @items.merge!(@ship_accessory_data.data)
-    @items.merge!(@ship_cannon_data.data)
-    @items.merge!(@ship_item_data.data)
-    @items.merge!(@special_item_data.data)
-    @items.merge!(@usable_item_data.data)
-    @items.merge!(@weapon_data.data)
+    if depend
+      @items.merge!(@accessory_data.data)
+      @items.merge!(@armor_data.data)
+      @items.merge!(@ship_accessory_data.data)
+      @items.merge!(@ship_cannon_data.data)
+      @items.merge!(@ship_item_data.data)
+      @items.merge!(@special_item_data.data)
+      @items.merge!(@usable_item_data.data)
+      @items.merge!(@weapon_data.data)
+    end
 
     # DOL and EVP files
     load_evp_data(@evp_file)
@@ -523,6 +551,10 @@ class EnemyData < EntryData
 
   # Writes all entries to binary files.
   def save_bin
+    if @enemies.empty? || @tasks.empty?
+      return
+    end
+  
     # DOL and EVP files
     save_evp_data(@evp_file)
     each_descriptor(@event_bgm_file) do |_d|

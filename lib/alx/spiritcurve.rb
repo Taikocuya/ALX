@@ -57,7 +57,7 @@ class SpiritCurve < StdEntry
   attr_reader :characters
 
   def characters=(_characters)
-    @characters = _characters
+    @characters = _characters || {}
     fetch(VOC.id)&.call_proc
   end
   

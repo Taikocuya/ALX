@@ -260,12 +260,13 @@ VOC.configure do |_v|
   _v.scopes[200] = 'PCs Nearby S1'
   _v.scopes[201] = 'PCs Nearby S1'
     
-  _v.effect_id    = 'Effect ID'
-  _v.effect_name  = '[Effect Name]'
-  _v.effect_sp    = 'Effect SP'
-  _v.effect_base  = 'Effect Base'
-  _v.effect_param = hdr('Effect Param %d')
-  _v.effect_speed = 'Effect Speed'
+  _v.effect_id         = 'Effect ID'
+  _v.effect_name       = '[Effect Name]'
+  _v.effect_sp         = 'Effect SP'
+  _v.effect_base       = 'Effect Base'
+  _v.effect_param_id   = 'Effect Param ID'
+  _v.effect_param_name = 'Effect Param Name'
+  _v.effect_speed      = 'Effect Speed'
 
   _v.ship_effect_id    = 'Ship Eff ID'
   _v.ship_effect_name  = '[Ship Eff Name]'
@@ -296,7 +297,7 @@ VOC.configure do |_v|
   _v.effects[ 18] = 'Incr Attack (Undef)'
   _v.effects[ 19] = 'Incr Defense (Undef)'
   _v.effects[ 20] = 'Incr Quick'
-  _v.effects[ 21] = 'Incr Attack + Defense'
+  _v.effects[ 21] = 'Incr Attack & Defense'
   _v.effects[ 22] = 'Incr All Attr (Undef)'
   _v.effects[ 23] = 'Decr Attack (Undef)'
   _v.effects[ 24] = 'Decr Defense (Undef)'
@@ -352,7 +353,7 @@ VOC.configure do |_v|
   _v.effects[ 75] = 'Evolve Cupil Now'
   _v.effects[ 76] = 'Reset Cupil'
   _v.effects[ 77] = 'Recover MP + Invulnerable'
-  _v.effects[ 78] = 'Regenerate + Incr Atk + Def + Qck'
+  _v.effects[ 78] = 'Regenerate + Incr Atk, Def & Qck'
   _v.effects[100] = 'Recover HP'
   _v.effects[101] = 'Recover HP by 100%'
   _v.effects[102] = 'Recover SP'
@@ -372,7 +373,7 @@ VOC.configure do |_v|
   _v.effects[116] = "#{_v.silence} by 100%"
   _v.effects[117] = 'Recover MP'
   _v.effects[255] = 'None'
-  
+
 #------------------------------------------------------------------------------
 # Menu
 #------------------------------------------------------------------------------

@@ -57,7 +57,7 @@ class EnemyShip < StdEntry
   attr_reader :items
 
   def items=(_items)
-    @items = _items
+    @items = _items || {}
     
     if product_id != '6107110 06' && product_id != '6107810'
       (1..3).each do |_i|

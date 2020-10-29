@@ -43,9 +43,10 @@ class ShipCannonData < StdEntryData
   public
 
   # Constructs a ShipCannonData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(ShipCannon, _root)
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(ShipCannon, _root, _depend)
     self.id_range  = sys(:ship_cannon_id_range)
     self.data_file = sys(:ship_cannon_data_files)
     self.name_file = sys(:ship_cannon_name_files)

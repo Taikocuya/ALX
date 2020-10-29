@@ -43,9 +43,10 @@ class CrewMemberData < StdEntryData
   public
 
   # Constructs a CrewMemberData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(CrewMember, _root)
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(CrewMember, _root, _depend)
     self.id_range  = sys(:crew_member_id_range)
     self.data_file = sys(:crew_member_data_files)
     self.name_file = sys(:crew_member_name_files)

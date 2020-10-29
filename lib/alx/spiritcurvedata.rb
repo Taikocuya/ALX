@@ -44,14 +44,18 @@ class SpiritCurveData < StdEntryData
   public
 
   # Constructs a SpiritCurveData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(SpiritCurve, _root)
-    self.id_range   = sys(:spirit_curve_id_range)
-    self.data_file  = sys(:spirit_curve_data_files)
-    self.csv_file   = SYS.spirit_curve_csv_file
-    self.tpl_file   = SYS.spirit_curve_tpl_file
-    @character_data = CharacterData.new(_root)
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(SpiritCurve, _root, _depend)
+    self.id_range  = sys(:spirit_curve_id_range)
+    self.data_file = sys(:spirit_curve_data_files)
+    self.csv_file  = SYS.spirit_curve_csv_file
+    self.tpl_file  = SYS.spirit_curve_tpl_file
+    
+    if depend
+      @character_data = CharacterData.new(_root)
+    end
   end
 
   # Creates an entry.
@@ -59,13 +63,13 @@ class SpiritCurveData < StdEntryData
   # @return [Entry] Entry object
   def create_entry(_id = -1)
     _entry            = super
-    _entry.characters = @character_data.data
+    _entry.characters = @character_data&.data
     _entry
   end
   
   # Reads all entries from binary files.
   def load_bin
-    @character_data.load_bin
+    @character_data&.load_bin
     super
   end
 

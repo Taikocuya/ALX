@@ -83,7 +83,7 @@ class CharacterSuperMove < StdEntry
     self[VOC.effect_sp         ] = IntProp.new( :i8, -1           )
     self[padding_hdr           ] = IntProp.new( :i8,  0           )
     self[padding_hdr           ] = IntProp.new( :i8,  0           )
-    self[VOC.effect_base       ] = IntProp.new(:u16,  0           )
+    self[VOC.effect_base       ] = IntProp.new(:i16,  0           )
     self[VOC.type_id           ] = IntProp.new( :i8,  0           )
     self[VOC.type_name         ] = StrProp.new( nil, '', dmy: true)
     self[VOC.state_id          ] = IntProp.new( :i8,  0           )

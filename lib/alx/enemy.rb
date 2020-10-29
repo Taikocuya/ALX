@@ -75,7 +75,7 @@ class Enemy < Entry
   attr_reader :items
 
   def items=(_items)
-    @items = _items
+    @items = _items || {}
     
     (1..4).each do |_i|
       fetch(VOC.item_id[_i])&.call_proc

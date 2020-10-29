@@ -57,7 +57,7 @@ class Weapon < StdEntry
   attr_reader :weapon_effects
 
   def weapon_effects=(_weapon_effects)
-    @weapon_effects = _weapon_effects
+    @weapon_effects = _weapon_effects || {}
     fetch(VOC.effect_id)&.call_proc
   end
 

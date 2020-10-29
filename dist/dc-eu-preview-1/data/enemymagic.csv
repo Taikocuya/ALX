@@ -1,37 +1,37 @@
-Entry ID,EU Message ID,[DE Entry Name Pos],[DE Entry Name Size],DE Entry Name,[ES Entry Name Pos],[ES Entry Name Size],ES Entry Name,[FR Entry Name Pos],[FR Entry Name Size],FR Entry Name,[GB Entry Name Pos],[GB Entry Name Size],GB Entry Name,Category ID,[Category Name],Effect ID,[Effect Name],Scope ID,[Scope Name],Pad 1,Effect Param 1,Effect Param 2,Element ID,[Element Name],Type ID,[Type Name],State Inflict ID,State Inflict Name,State Resist ID,State Resist Name,State ID,[State Name],State Miss%,Pad 2,Pad 3
-0,0x8c385974,0x1276,7,Increm,0x1279,7,Increm,0x127c,7,Increm,0x1246,7,Increm,1,Magic,21,Incr Attack + Defense,3,Single EC,0,0,0,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
-1,0x8c38597c,0x127d,9,Incremus,0x1280,9,Incremus,0x1283,9,Incremus,0x124d,9,Incremus,1,Magic,21,Incr Attack + Defense,4,All ECs,0,0,0,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
-2,0x8c385988,0x1286,8,Sylenis,0x1289,8,Sylenis,0x128c,8,Sylenis,0x1256,8,Sylenis,1,Magic,12,Silence,1,Single PC,0,0,0,0,Green,0,Physical,1,Will,1,Will,5,Silence,40,0,0
-3,0x8c385990,0x128e,7,Panika,0x1291,7,Panika,0x1294,7,Panika,0x125e,7,Panika,1,Magic,11,Confusion,1,Single PC,0,0,0,0,Green,0,Physical,1,Will,1,Will,4,Confusion,40,0,0
-4,0x8c385998,0x1295,6,Driln,0x1298,6,Driln,0x129b,6,Driln,0x1265,6,Driln,1,Magic,26,Decr All Attr,1,Single PC,0,0,0,0,Green,0,Physical,1,Will,1,Will,8,Weak,40,0,0
-5,0x8c3859a0,0x129b,8,Drilnos,0x129e,8,Drilnos,0x12a1,8,Drilnos,0x126b,8,Drilnos,1,Magic,26,Decr All Attr,2,All PCs,0,0,0,0,Green,0,Physical,1,Will,1,Will,8,Weak,60,0,0
-6,0x8c3859a8,0x12a3,6,Sacri,0x12a6,6,Sacri,0x12a9,6,Sacri,0x1273,6,Sacri,1,Magic,31,Recover HP,3,Single EC,0,500,68,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
-7,0x8c3859b0,0x12a9,7,Sacres,0x12ac,7,Sacres,0x12af,7,Sacres,0x1279,7,Sacres,1,Magic,31,Recover HP,3,Single EC,0,1000,68,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
-8,0x8c3859b8,0x12b0,7,Sacrum,0x12b3,7,Sacrum,0x12b6,7,Sacrum,0x1280,7,Sacrum,1,Magic,31,Recover HP,4,All ECs,0,1000,68,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
-9,0x8c3859c0,0x12b7,9,Sacrulen,0x12ba,9,Sacrulen,0x12bd,9,Sacrulen,0x1287,9,Sacrulen,1,Magic,32,Recover HP of 100%,3,Single EC,0,10000,68,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
-10,0x8c3859cc,0x12c0,5,Noxi,0x12c3,5,Noxi,0x12c6,5,Noxi,0x1290,5,Noxi,1,Magic,4,Poison + Damage,1,Single PC,0,1,60,0,Green,1,Magical,1,Will,1,Will,0,Poison,40,0,0
-11,0x8c3859d4,0x12c5,6,Noxus,0x12c8,6,Noxus,0x12cb,6,Noxus,0x1295,6,Noxus,1,Magic,4,Poison + Damage,2,All PCs,0,1,100,0,Green,1,Magical,1,Will,1,Will,0,Poison,60,0,0
-12,0x8c3859dc,0x12cb,8,Slipara,0x12ce,8,Slipara,0x12d1,8,Slipara,0x129b,8,Slipara,1,Magic,9,Sleep,2,All PCs,0,0,0,0,Green,0,Physical,1,Will,1,Will,3,Sleep,60,0,0
-13,0x8c3859e4,0x12d3,6,Quika,0x12d6,6,Quika,0x12d9,6,Quika,0x12a3,6,Quika,1,Magic,20,Incr Quick,4,All ECs,0,0,0,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
-14,0x8c3859ec,0x12d9,6,Curia,0x12dc,6,Curia,0x12df,6,Curia,0x12a9,6,Curia,1,Magic,30,Rem Neg States B,3,Single EC,0,0,0,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
-15,0x8c3859f4,0x12df,6,Risan,0x12e2,6,Risan,0x12e5,6,Risan,0x12af,6,Risan,1,Magic,27,Revive w/ HP of 50%,3,Single EC,0,0,0,0,Green,0,Physical,55,Revival,55,Revival,7,Revival,50,0,0
-16,0x8c3859fc,0x12e5,8,Riselem,0x12e8,8,Riselem,0x12eb,8,Riselem,0x12b5,8,Riselem,1,Magic,28,Revive w/ HP of 100%,3,Single EC,0,0,0,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
-17,0x8c385a04,0x12ed,7,Eterni,0x12f0,7,Eterni,0x12f3,7,Eterni,0x12bd,7,Eterni,1,Magic,5,Unconscious,1,Single PC,0,0,0,0,Green,0,Physical,1,Will,1,Will,1,Unconscious,60,0,0
-18,0x8c385a0c,0x12f4,8,Eternes,0x12f7,8,Eternes,0x12fa,8,Eternes,0x12c4,8,Eternes,1,Magic,5,Unconscious,2,All PCs,0,0,0,0,Green,0,Physical,1,Will,1,Will,1,Unconscious,80,0,0
-19,0x8c385a14,0x12fc,8,Eternum,0x12ff,8,Eternum,0x1302,8,Eternum,0x12cc,8,Eternum,1,Magic,6,Unconscious + Damage A,1,Single PC,0,1,250,5,Silver,1,Magical,1,Will,1,Will,1,Unconscious,0,0,0
-20,0x8c385a1c,0x1304,6,Wevli,0x1307,6,Wevli,0x130a,6,Wevli,0x12d4,6,Wevli,1,Magic,0,Damage,96,PC Square S3,0,1,60,3,Blue,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-21,0x8c385a24,0x130a,7,Wevles,0x130d,7,Wevles,0x1310,7,Wevles,0x12da,7,Wevles,1,Magic,0,Damage,97,PC Square S5,0,1,105,3,Blue,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-22,0x8c385a2c,0x1311,7,Wevlen,0x1314,7,Wevlen,0x1317,7,Wevlen,0x12e1,7,Wevlen,1,Magic,0,Damage,98,PC Square S7,0,1,195,3,Blue,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-23,0x8c385a34,0x1318,5,Pyri,0x131b,5,Pyri,0x131e,5,Pyri,0x12e8,5,Pyri,1,Magic,0,Damage,2,All PCs,0,1,50,1,Red,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-24,0x8c385a3c,0x131d,6,Pyres,0x1320,6,Pyres,0x1323,6,Pyres,0x12ed,6,Pyres,1,Magic,0,Damage,2,All PCs,0,1,85,1,Red,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-25,0x8c385a44,0x1323,6,Pyrum,0x1326,6,Pyrum,0x1329,6,Pyrum,0x12f3,6,Pyrum,1,Magic,0,Damage,2,All PCs,0,1,120,1,Red,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-26,0x8c385a4c,0x1329,9,Crystali,0x132c,9,Crystali,0x132f,9,Crystali,0x12f9,9,Crystali,1,Magic,0,Damage,1,Single PC,0,1,70,2,Purple,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-27,0x8c385a58,0x1332,10,Crystales,0x1335,10,Crystales,0x1338,10,Crystales,0x1302,10,Crystales,1,Magic,0,Damage,1,Single PC,0,1,120,2,Purple,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-28,0x8c385a64,0x133c,10,Crystalum,0x133f,10,Crystalum,0x1342,10,Crystalum,0x130c,10,Crystalum,1,Magic,0,Damage,1,Single PC,0,1,170,2,Purple,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-29,0x8c385a70,0x1346,10,Crystalen,0x1349,10,Crystalen,0x134c,10,Crystalen,0x1316,10,Crystalen,1,Magic,0,Damage,1,Single PC,0,1,220,2,Purple,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-30,0x8c385a7c,0x1350,8,Pyrulen,0x1353,8,Pyrulen,0x1356,8,Pyrulen,0x1320,8,Pyrulen,1,Magic,0,Damage,2,All PCs,0,1,155,1,Red,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-31,0x8c385a84,0x1358,7,Wevlum,0x135b,7,Wevlum,0x135e,7,Wevlum,0x1328,7,Wevlum,1,Magic,0,Damage,97,PC Square S5,0,1,150,3,Blue,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-32,0x8c385a8c,0x135f,8,Electri,0x1362,8,Electri,0x1365,8,Electri,0x132f,8,Electri,1,Magic,0,Damage,100,PC Ray S1,0,1,60,4,Yellow,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-33,0x8c385a94,0x1367,9,Electres,0x136a,9,Electres,0x136d,9,Electres,0x1337,9,Electres,1,Magic,0,Damage,101,PC Ray S3,0,1,105,4,Yellow,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-34,0x8c385aa0,0x1370,9,Electrum,0x1373,9,Electrum,0x1376,9,Electrum,0x1340,9,Electrum,1,Magic,0,Damage,101,PC Ray S3,0,1,150,4,Yellow,1,Magical,0,Power,0,Power,0,Poison,0,0,0
-35,0x8c385aac,0x1379,11,Electrulen,0x137c,11,Electrulen,0x137f,11,Electrulen,0x1349,11,Electrulen,1,Magic,0,Damage,102,PC Ray S5,0,1,195,4,Yellow,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+Entry ID,EU Message ID,[DE Entry Name Pos],[DE Entry Name Size],DE Entry Name,[ES Entry Name Pos],[ES Entry Name Size],ES Entry Name,[FR Entry Name Pos],[FR Entry Name Size],FR Entry Name,[GB Entry Name Pos],[GB Entry Name Size],GB Entry Name,Category ID,[Category Name],Effect ID,[Effect Name],Scope ID,[Scope Name],Pad 1,Effect Param ID,Effect Param Name,Effect Base,Element ID,[Element Name],Type ID,[Type Name],State Inflict ID,State Inflict Name,State Resist ID,State Resist Name,State ID,[State Name],State Miss%,Pad 2,Pad 3
+0,0x8c385974,0x1276,7,Increm,0x1279,7,Increm,0x127c,7,Increm,0x1246,7,Increm,1,Magic,21,Incr Attack & Defense,3,Single EC,0,0,Power,0,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
+1,0x8c38597c,0x127d,9,Incremus,0x1280,9,Incremus,0x1283,9,Incremus,0x124d,9,Incremus,1,Magic,21,Incr Attack & Defense,4,All ECs,0,0,Power,0,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
+2,0x8c385988,0x1286,8,Sylenis,0x1289,8,Sylenis,0x128c,8,Sylenis,0x1256,8,Sylenis,1,Magic,12,Silence,1,Single PC,0,0,Power,0,0,Green,0,Physical,1,Will,1,Will,5,Silence,40,0,0
+3,0x8c385990,0x128e,7,Panika,0x1291,7,Panika,0x1294,7,Panika,0x125e,7,Panika,1,Magic,11,Confusion,1,Single PC,0,0,Power,0,0,Green,0,Physical,1,Will,1,Will,4,Confusion,40,0,0
+4,0x8c385998,0x1295,6,Driln,0x1298,6,Driln,0x129b,6,Driln,0x1265,6,Driln,1,Magic,26,Decr All Attr,1,Single PC,0,0,Power,0,0,Green,0,Physical,1,Will,1,Will,8,Weak,40,0,0
+5,0x8c3859a0,0x129b,8,Drilnos,0x129e,8,Drilnos,0x12a1,8,Drilnos,0x126b,8,Drilnos,1,Magic,26,Decr All Attr,2,All PCs,0,0,Power,0,0,Green,0,Physical,1,Will,1,Will,8,Weak,60,0,0
+6,0x8c3859a8,0x12a3,6,Sacri,0x12a6,6,Sacri,0x12a9,6,Sacri,0x1273,6,Sacri,1,Magic,31,Recover HP,3,Single EC,0,500,HP,68,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
+7,0x8c3859b0,0x12a9,7,Sacres,0x12ac,7,Sacres,0x12af,7,Sacres,0x1279,7,Sacres,1,Magic,31,Recover HP,3,Single EC,0,1000,HP,68,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
+8,0x8c3859b8,0x12b0,7,Sacrum,0x12b3,7,Sacrum,0x12b6,7,Sacrum,0x1280,7,Sacrum,1,Magic,31,Recover HP,4,All ECs,0,1000,HP,68,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
+9,0x8c3859c0,0x12b7,9,Sacrulen,0x12ba,9,Sacrulen,0x12bd,9,Sacrulen,0x1287,9,Sacrulen,1,Magic,32,Recover HP of 100%,3,Single EC,0,10000,HP,68,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
+10,0x8c3859cc,0x12c0,5,Noxi,0x12c3,5,Noxi,0x12c6,5,Noxi,0x1290,5,Noxi,1,Magic,4,Poison + Damage,1,Single PC,0,1,Will,60,0,Green,1,Magical,1,Will,1,Will,0,Poison,40,0,0
+11,0x8c3859d4,0x12c5,6,Noxus,0x12c8,6,Noxus,0x12cb,6,Noxus,0x1295,6,Noxus,1,Magic,4,Poison + Damage,2,All PCs,0,1,Will,100,0,Green,1,Magical,1,Will,1,Will,0,Poison,60,0,0
+12,0x8c3859dc,0x12cb,8,Slipara,0x12ce,8,Slipara,0x12d1,8,Slipara,0x129b,8,Slipara,1,Magic,9,Sleep,2,All PCs,0,0,Power,0,0,Green,0,Physical,1,Will,1,Will,3,Sleep,60,0,0
+13,0x8c3859e4,0x12d3,6,Quika,0x12d6,6,Quika,0x12d9,6,Quika,0x12a3,6,Quika,1,Magic,20,Incr Quick,4,All ECs,0,0,Power,0,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
+14,0x8c3859ec,0x12d9,6,Curia,0x12dc,6,Curia,0x12df,6,Curia,0x12a9,6,Curia,1,Magic,30,Rem Neg States B,3,Single EC,0,0,Power,0,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
+15,0x8c3859f4,0x12df,6,Risan,0x12e2,6,Risan,0x12e5,6,Risan,0x12af,6,Risan,1,Magic,27,Revive w/ HP of 50%,3,Single EC,0,0,Power,0,0,Green,0,Physical,55,Revival,55,Revival,7,Revival,50,0,0
+16,0x8c3859fc,0x12e5,8,Riselem,0x12e8,8,Riselem,0x12eb,8,Riselem,0x12b5,8,Riselem,1,Magic,28,Revive w/ HP of 100%,3,Single EC,0,0,Power,0,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
+17,0x8c385a04,0x12ed,7,Eterni,0x12f0,7,Eterni,0x12f3,7,Eterni,0x12bd,7,Eterni,1,Magic,5,Unconscious,1,Single PC,0,0,Power,0,0,Green,0,Physical,1,Will,1,Will,1,Unconscious,60,0,0
+18,0x8c385a0c,0x12f4,8,Eternes,0x12f7,8,Eternes,0x12fa,8,Eternes,0x12c4,8,Eternes,1,Magic,5,Unconscious,2,All PCs,0,0,Power,0,0,Green,0,Physical,1,Will,1,Will,1,Unconscious,80,0,0
+19,0x8c385a14,0x12fc,8,Eternum,0x12ff,8,Eternum,0x1302,8,Eternum,0x12cc,8,Eternum,1,Magic,6,Unconscious + Damage A,1,Single PC,0,1,Will,250,5,Silver,1,Magical,1,Will,1,Will,1,Unconscious,0,0,0
+20,0x8c385a1c,0x1304,6,Wevli,0x1307,6,Wevli,0x130a,6,Wevli,0x12d4,6,Wevli,1,Magic,0,Damage,96,PC Square S3,0,1,Will,60,3,Blue,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+21,0x8c385a24,0x130a,7,Wevles,0x130d,7,Wevles,0x1310,7,Wevles,0x12da,7,Wevles,1,Magic,0,Damage,97,PC Square S5,0,1,Will,105,3,Blue,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+22,0x8c385a2c,0x1311,7,Wevlen,0x1314,7,Wevlen,0x1317,7,Wevlen,0x12e1,7,Wevlen,1,Magic,0,Damage,98,PC Square S7,0,1,Will,195,3,Blue,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+23,0x8c385a34,0x1318,5,Pyri,0x131b,5,Pyri,0x131e,5,Pyri,0x12e8,5,Pyri,1,Magic,0,Damage,2,All PCs,0,1,Will,50,1,Red,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+24,0x8c385a3c,0x131d,6,Pyres,0x1320,6,Pyres,0x1323,6,Pyres,0x12ed,6,Pyres,1,Magic,0,Damage,2,All PCs,0,1,Will,85,1,Red,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+25,0x8c385a44,0x1323,6,Pyrum,0x1326,6,Pyrum,0x1329,6,Pyrum,0x12f3,6,Pyrum,1,Magic,0,Damage,2,All PCs,0,1,Will,120,1,Red,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+26,0x8c385a4c,0x1329,9,Crystali,0x132c,9,Crystali,0x132f,9,Crystali,0x12f9,9,Crystali,1,Magic,0,Damage,1,Single PC,0,1,Will,70,2,Purple,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+27,0x8c385a58,0x1332,10,Crystales,0x1335,10,Crystales,0x1338,10,Crystales,0x1302,10,Crystales,1,Magic,0,Damage,1,Single PC,0,1,Will,120,2,Purple,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+28,0x8c385a64,0x133c,10,Crystalum,0x133f,10,Crystalum,0x1342,10,Crystalum,0x130c,10,Crystalum,1,Magic,0,Damage,1,Single PC,0,1,Will,170,2,Purple,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+29,0x8c385a70,0x1346,10,Crystalen,0x1349,10,Crystalen,0x134c,10,Crystalen,0x1316,10,Crystalen,1,Magic,0,Damage,1,Single PC,0,1,Will,220,2,Purple,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+30,0x8c385a7c,0x1350,8,Pyrulen,0x1353,8,Pyrulen,0x1356,8,Pyrulen,0x1320,8,Pyrulen,1,Magic,0,Damage,2,All PCs,0,1,Will,155,1,Red,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+31,0x8c385a84,0x1358,7,Wevlum,0x135b,7,Wevlum,0x135e,7,Wevlum,0x1328,7,Wevlum,1,Magic,0,Damage,97,PC Square S5,0,1,Will,150,3,Blue,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+32,0x8c385a8c,0x135f,8,Electri,0x1362,8,Electri,0x1365,8,Electri,0x132f,8,Electri,1,Magic,0,Damage,100,PC Ray S1,0,1,Will,60,4,Yellow,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+33,0x8c385a94,0x1367,9,Electres,0x136a,9,Electres,0x136d,9,Electres,0x1337,9,Electres,1,Magic,0,Damage,101,PC Ray S3,0,1,Will,105,4,Yellow,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+34,0x8c385aa0,0x1370,9,Electrum,0x1373,9,Electrum,0x1376,9,Electrum,0x1340,9,Electrum,1,Magic,0,Damage,101,PC Ray S3,0,1,Will,150,4,Yellow,1,Magical,0,Power,0,Power,0,Poison,0,0,0
+35,0x8c385aac,0x1379,11,Electrulen,0x137c,11,Electrulen,0x137f,11,Electrulen,0x1349,11,Electrulen,1,Magic,0,Damage,102,PC Ray S5,0,1,Will,195,4,Yellow,1,Magical,0,Power,0,Power,0,Poison,0,0,0

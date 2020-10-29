@@ -43,9 +43,10 @@ class UsableItemData < StdEntryData
   public
 
   # Constructs an UsableItemData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(UsableItem, _root)
+  # @param _root   [GameRoot] Game root
+  # @param _depend [Boolean]  Resolve dependencies
+  def initialize(_root, _depend = true)
+    super(UsableItem, _root, _depend)
     self.id_range  = sys(:usable_item_id_range)
     self.data_file = sys(:usable_item_data_files)
     self.name_file = sys(:usable_item_name_files)
