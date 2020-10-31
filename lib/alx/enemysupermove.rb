@@ -146,7 +146,7 @@ class EnemySuperMove < StdEntry
           if jp?
             _name = _entry[VOC.name_str['JP']]
           else
-            _name = voc(:enemies, _id.to_s) || '???'
+            _name = _entry[VOC.name_opt[cid] ]
           end
         end
 

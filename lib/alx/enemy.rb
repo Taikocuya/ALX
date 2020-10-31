@@ -135,10 +135,8 @@ class Enemy < Entry
     self[VOC.filter        ] = AryProp.new(    [], dmy: true)
     self[VOC.name_str['JP']] = StrProp.new(21, ''           )
 
-    if us?
-      self[VOC.enemy_name_us[nil]] = StrProp.new(nil, '', dmy: true)
-    elsif eu?
-      self[VOC.enemy_name_eu[nil]] = StrProp.new(nil, '', dmy: true)
+    if us? || eu?
+      self[VOC.name_opt[cid]] = StrProp.new(nil, '', dmy: true)
     end
 
     self[VOC.width         ] = IntProp.new( :i8,   0           )
@@ -193,15 +191,10 @@ class Enemy < Entry
   
   # Initialize the entry procs.
   def init_procs
-    if us?
+    if us? || eu?
       fetch(VOC.id).proc = Proc.new do |_id|
         _name = voc(:enemies, id.to_s) || '???'
-        self[VOC.enemy_name_us[nil]] = _name
-      end
-    elsif eu?
-      fetch(VOC.id).proc = Proc.new do |_id|
-        _name = voc(:enemies, id.to_s) || '???'
-        self[VOC.enemy_name_eu[nil]] = _name
+        self[VOC.name_opt[cid]] = _name
       end
     end
 

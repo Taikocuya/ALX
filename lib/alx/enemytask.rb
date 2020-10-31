@@ -212,16 +212,16 @@ class EnemyTask < Entry
       _entry = @enemies.find { |_enemy| _enemy.id == _id }
       if _entry
         _name_jp  = _entry[VOC.name_str['JP']]
-        _name_voc = voc(:enemies, _id.to_s) || '???'
+        _name_opt = _entry[VOC.name_opt[cid] ]
       else
         _name_jp  = '???'
-        _name_voc = '???'
+        _name_opt = '???'
       end
       self[VOC.enemy_name_jp[nil]] = _name_jp
       if us?
-        self[VOC.enemy_name_us[nil]] = _name_voc
+        self[VOC.enemy_name_us[nil]] = _name_opt
       elsif eu?
-        self[VOC.enemy_name_eu[nil]] = _name_voc
+        self[VOC.enemy_name_eu[nil]] = _name_opt
       end
     end
     

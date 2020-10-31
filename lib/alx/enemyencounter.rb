@@ -110,20 +110,20 @@ class EnemyEncounter < Entry
           _entry = @enemies.find { |_enemy| _enemy.id == _id }
           if _entry
             _name_jp  = _entry[VOC.name_str['JP']]
-            _name_voc = voc(:enemies, _id.to_s) || '???'
+            _name_opt = _entry[VOC.name_opt[cid] ]
           else
             _name_jp  = '???'
-            _name_voc = '???'
+            _name_opt = '???'
           end
         else
           _name_jp  = 'None'
-          _name_voc = 'None'
+          _name_opt = 'None'
         end
         self[VOC.enemy_name_jp[_i]] = _name_jp
         if us?
-          self[VOC.enemy_name_us[_i]] = _name_voc
+          self[VOC.enemy_name_us[_i]] = _name_opt
         elsif eu?
-          self[VOC.enemy_name_eu[_i]] = _name_voc
+          self[VOC.enemy_name_eu[_i]] = _name_opt
         end
       end
     end
