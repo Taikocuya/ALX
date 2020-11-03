@@ -144,6 +144,22 @@ class EnemyTask < Entry
     self[VOC.type_id] = _type_id
   end
 
+  def task_id
+    self[VOC.task_id] || -1
+  end
+  
+  def task_id=(_task_id)
+    self[VOC.task_id] = _task_id
+  end
+
+  def param_id
+    self[VOC.param_id] || -1
+  end
+  
+  def param_id=(_param_id)
+    self[VOC.param_id] = _param_id
+  end
+
   def order
     _order    = 0xff
     _enp_file = File.basename(sys(:enp_file))
@@ -237,7 +253,7 @@ class EnemyTask < Entry
       _type_id    = self[VOC.type_id]
       _task_id    = self[VOC.task_id]
       _type_name  = VOC.task_types[_type_id]
-      _task_name  = (_task_id != -1) ? '???' : 'None'
+      _task_name  = (_task_id  != -1) ? '???' : 'None'
       _param_name = (_param_id != -1) ? '???' : 'None'
       
       case _type_id

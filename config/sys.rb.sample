@@ -2122,6 +2122,15 @@ SYS.configure do |_s|
   ]
 
 #------------------------------------------------------------------------------
+# Enemy Data
+#------------------------------------------------------------------------------
+
+  # Enables or disables the summary of enemy filters. If you enable the 
+  # summary of enemy filters, the longest filter of the same enemy line 
+  # will be summarized with an asterisk.
+  _s.enemy_summarize_filter = true
+
+#------------------------------------------------------------------------------
 # Enemy Encounter Data
 #------------------------------------------------------------------------------
 
@@ -2173,15 +2182,6 @@ SYS.configure do |_s|
     'GC-JP-GEA'               => rd(_s.exec_file['GC'], 0x2e1200...0x2e123b),
     'GC-US-GEA'               => rd(_s.exec_file['GC'], 0x2e16e0...0x2e171b),
   }
-
-#------------------------------------------------------------------------------
-# Enemy Data
-#------------------------------------------------------------------------------
-
-  # Enables or disables the summary of enemy filters. If you enable the 
-  # summary of enemy filters, the longest filter of the same enemy line 
-  # will be summarized with an asterisk.
-  _s.enemy_summarize_filter = true
 
 #------------------------------------------------------------------------------
 # Enemy Magic Data
@@ -2443,6 +2443,11 @@ SYS.configure do |_s|
   # summary of enemy task filters, the longest filter of the same enemy task 
   # line will be summarized with an asterisk.
   _s.enemy_task_summarize_filter = true
+
+  # Multiplies this base to each enemy task ID. This can be useful, for 
+  # example, to have unused task IDs available and to insert additional 
+  # branches or actions without much effort.
+  _s.enemy_task_id_base = 1
   
   # Maximum number of tasks in enemy task data
   _s.enemy_task_num_tasks = {

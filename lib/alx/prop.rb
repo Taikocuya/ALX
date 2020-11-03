@@ -72,7 +72,7 @@ class Prop
   # If Prop::new was invoked with a block, call that block.
   def call_proc
     if @proc.is_a?(Proc)
-      @proc.call(@value)
+      @proc.call(@value, self)
     end
   end
   
@@ -138,7 +138,7 @@ class Prop
     @proc = _proc
     call_proc
   end
-  
+
   def value=(_value)
     if @value != _value
       @value = _value

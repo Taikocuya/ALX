@@ -264,20 +264,35 @@ class EpFile
       raise(IOError, "task quota of #{_num_tasks} exceeded")
     end
 
-    _empty = create_task
-    _last  = nil
-    (0..._num_tasks).each do |_i|
-      _task = _tasks[_i]
-      unless _task
-        _task = _empty
-      else
-        if _last && _task.id != _last.id + 1
-          _msg = 'task ID invalid (given %s, expected %s)'
-          raise(IOError, sprintf(_msg, _task.id, _last.id + 1))
-        end
+    _map = {}
+    _tasks.each do |_task|
+      if _task.id < 1
+        _msg = 'task ID invalid (given %s)'
+        raise(IOError, sprintf(_msg, _task.id))
+      elsif _map.has_key?(_task.id)
+        _msg = 'task ID not unique (given %s)'
+        raise(IOError, sprintf(_msg, _task.id))
       end
+      
+      _map[_task.id] = _map.size + 1
+    end
+
+    _tasks.each do |_task|
+      _task.id = _map[_task.id]
+      if _task.type_id == 0
+        if _task.param_id < 1 || !_map.has_key?(_task.param_id)
+          _msg = 'task param ID invalid (given %s)'
+          raise(IOError, sprintf(_msg, _task.param_id))
+        end
+        _task.param_id = _map[_task.param_id]
+      end
+
       _task.write_bin(_f)
-      _last = _task
+    end
+    
+    _empty = create_task
+    (_size..._num_tasks).each do
+      _empty.write_bin(_f)
     end
 
     _f.write_int(EOF_MARK, :i16)

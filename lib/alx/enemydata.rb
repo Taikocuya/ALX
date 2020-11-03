@@ -278,20 +278,28 @@ class EnemyData < EntryData
       _comp
     end
 
-    if SYS.enemy_task_summarize_filter
+    if SYS.enemy_task_id_base > 1 || SYS.enemy_task_summarize_filter
       _last = nil
       _lock = false
       @tasks.each do |_task|
-        if _last && _last.enemy_id != _task.enemy_id
-          _last = nil
-          _lock = false
+        if SYS.enemy_task_id_base > 1
+          _task.id *= SYS.enemy_task_id_base
+          if _task.type_id == 0
+            _task.param_id *= SYS.enemy_task_id_base
+          end
         end
-        if _last && _last.id >= _task.id
-          _lock = true
-        end
-        if !_lock && _task.order <= 2
-          _last       = _task
-          _last.files = ['*']
+        if SYS.enemy_task_summarize_filter
+          if _last && _last.enemy_id != _task.enemy_id
+            _last = nil
+            _lock = false
+          end
+          if _last && _last.id >= _task.id
+            _lock = true
+          end
+          if !_lock && _task.order <= 2
+            _last       = _task
+            _last.files = ['*']
+          end
         end
       end
     end
