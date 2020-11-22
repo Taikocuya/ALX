@@ -83,11 +83,17 @@ class EntryTransform
   # @param _path [String] Directory with game subdirectories inside it
   def collect(_path)
     if has_ruby?(SYS.ruby_version) && has_dir?(_path)
-      Dir.glob(File.join(_path, '*')).each do |_p|
-        unless File.directory?(_p)
+      _game_dirs = [
+        SYS.backup_dir, SYS.cache_dir, SYS.data_dir, 
+        SYS.image_dir , SYS.meta_dir , SYS.root_dir,
+      ].join(',')
+      _game_dirs = sprintf('{%s}', _game_dirs)
+      
+      Dir.glob(File.join(_path, '**/')).each do |_p|
+        if Dir.glob(File.join(_p, _game_dirs, '/')).empty?
           next
         end
-        
+
         store(_p)
       end
     end

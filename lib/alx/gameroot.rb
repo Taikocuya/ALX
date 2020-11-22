@@ -72,6 +72,7 @@ class GameRoot
   # Clear all attributes to their default values.
   def clear
     @dirname         = ''
+    @luid            = ''
     @platform_id     = ''
     @platform_name   = ''
     @product_id      = ''
@@ -326,6 +327,7 @@ class GameRoot
 #------------------------------------------------------------------------------
 
   attr_reader :dirname
+  attr_reader :luid
   attr_reader :platform_id
   attr_reader :platform_name
   attr_reader :product_id
@@ -351,6 +353,7 @@ class GameRoot
   # @return [Boolean] +true+ if directory is valid, otherwise +false+.
   def init_dir(_dirname)
     @dirname  = _dirname
+    @luid     = Digest::SHA2.hexdigest(@dirname)
     _result   = true
     _result &&= has_dir?(@dirname)
     _result &&= has_dir?(@dirname, SYS.root_dir)

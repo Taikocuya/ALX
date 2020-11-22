@@ -18,11 +18,11 @@ Thumbs.db
 /build/*
 !/build/README.md
 /config/*.rb
-/dist/*/backup
-/dist/*/cache
-/dist/*/image
-/dist/*/meta
-/dist/*/root
+/dist/**/backup
+/dist/**/cache
+/dist/**/image
+/dist/**/meta
+/dist/**/root
 /log/
 /tmp/
 /vendor/*

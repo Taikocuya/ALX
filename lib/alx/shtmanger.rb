@@ -56,8 +56,7 @@ class ShtManager
   def initialize(_root, _name)
     @root = _root
     @name = _name
-    @luid = sprintf('%s-%s', File.basename(@root.dirname), @name).downcase
-    
+    @luid = sprintf('%s-%s', @root.luid, @name).downcase
     clear_meta
     clear_snaps
   end

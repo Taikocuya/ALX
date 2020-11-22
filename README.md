@@ -50,25 +50,22 @@ The CSV files in the `build` and `dist` directories require:
 Pre-exported CSV files with complete game data can already be found in the 
 `dist` directory.
 
-| Folder            | Platform  | Region  | Notes                     |
-|:------------------|:----------|:--------|:--------------------------|
-| `dc-eu-dreamon`   | Dreamcast | PAL-E   | Dreamon Vol. 20           |
-| `dc-eu-preview-1` | Dreamcast | PAL-E   | Beta Preview (1/2)        |
-| `dc-eu-preview-2` | Dreamcast | PAL-E   | Beta Preview (1/2)        |
-| `dc-eu-retail-1`  | Dreamcast | PAL-E   | Retail (1/2)              |
-| `dc-eu-retail-2`  | Dreamcast | PAL-E   | Retail (2/2)              |
-| `dc-jp-barai-1`   | Dreamcast | NTSC-J  | @barai (1/2)              |
-| `dc-jp-barai-2`   | Dreamcast | NTSC-J  | @barai (2/2)              |
-| `dc-jp-express`   | Dreamcast | NTSC-J  | Dreamcast Express Vol. 6  |
-| `dc-jp-kuzokuban` | Dreamcast | NTSC-J  | Kuzokuban (Trial Edition) |
-| `dc-jp-retail-1`  | Dreamcast | NTSC-J  | Retail (1/2)              |
-| `dc-jp-retail-2`  | Dreamcast | NTSC-J  | Retail (2/2)              |
-| `dc-us-magazine`  | Dreamcast | NTSC-U  | Official Magazine Vol. 9  |
-| `dc-us-retail-1`  | Dreamcast | NTSC-U  | Retail (1/2)              |
-| `dc-us-retail-2`  | Dreamcast | NTSC-U  | Retail (2/2)              |
-| `gc-eu-retail`    | GameCube  | PAL-E   | Retail                    |
-| `gc-jp-retail`    | GameCube  | NTSC-J  | Retail                    |
-| `gc-us-retail`    | GameCube  | NTSC-U  | Retail                    |
+| Folder                   | Description                                     |
+|:-------------------------|:------------------------------------------------|
+| `2000-03-03-dc-jp-demo`  | Kuzokuban (Trial Edition)                       |
+| `2000-04-07-dc-jp-demo`  | Dreamcast Express Vol. 6                        |
+| `2000-08-21-dc-us-demo`  | Official Sega Dreamcast Magazine Vol. 9         |
+| `2000-08-23-dc-jp-barai` | @barai Version                                  |
+| `2000-08-28-dc-jp-final` | Final JP Build                                  |
+| `2000-09-07-dc-us-proto` | V0.830 Prototype                                |
+| `2000-09-14-dc-us-proto` | V0.840 Prototype                                |
+| `2000-09-18-dc-us-final` | Final US Build                                  |
+| `2000-11-15-dc-eu-proto` | Beta Preview                                    |
+| `2001-02-13-dc-eu-demo`  | Dreamon Vol. 20                                 |
+| `2001-02-19-dc-eu-final` | Final EU Build                                  |
+| `2002-11-12-gc-jp-final` | Final JP Build                                  |
+| `2002-12-19-gc-us-final` | Final US Build                                  |
+| `2003-03-05-gc-eu-final` | Final EU Build                                  |
 
 If you want to import and export the game data by yourself, you need in the 
 `build` directory at least one extracted image of Skies of Arcadia, Skies of 
@@ -219,8 +216,8 @@ build
 
 ## Acknowledgments
 
-See [CREDITS.md](/CREDITS.md) for a full list of the awesome people, groups and 
-software that made this project possible.
+See [CREDITS.md](/CREDITS.md) for a full list of the awesome people, groups 
+and software that made this project possible.
 
 ## License
 
