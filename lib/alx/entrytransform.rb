@@ -79,17 +79,16 @@ class EntryTransform
     @data << create_entry_data(_root)
   end
   
-  # Collects and validates several game subdirectories in a given directory.
-  # @param _path [String] Directory with game subdirectories inside it
-  def collect(_path)
-    if has_ruby?(SYS.ruby_version) && has_dir?(_path)
+  # Collects and validates several game directories in +SYS.build_dir+.
+  def collect
+    if has_ruby?(SYS.ruby_version) && has_dir?(SYS.build_dir)
       _game_dirs = [
         SYS.backup_dir, SYS.cache_dir, SYS.data_dir, 
         SYS.image_dir , SYS.meta_dir , SYS.root_dir,
       ].join(',')
       _game_dirs = sprintf('{%s}', _game_dirs)
-      
-      Dir.glob(File.join(_path, '**/')).each do |_p|
+
+      Dir.glob(File.join(SYS.build_dir, SYS.gameroot_dir, '/')).each do |_p|
         if Dir.glob(File.join(_p, _game_dirs, '/')).empty?
           next
         end
@@ -121,10 +120,9 @@ class EntryTransform
     _valid
   end
   
-  # Collects and validates several game subdirectories in +SYS.build_dir+ by 
-  # default.
+  # Collects and validates several game directories in +SYS.build_dir+.
   def exec
-    collect(SYS.build_dir)
+    collect
   end
   
 #------------------------------------------------------------------------------

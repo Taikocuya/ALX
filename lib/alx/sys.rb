@@ -80,7 +80,7 @@ SYS.configure do |_s|
 # Game Paths
 #------------------------------------------------------------------------------
 
-  # Glob pattern to match game subdirectories relative to +SYS.build_dir+. 
+  # Glob pattern for filtering game directories relative to +SYS.build_dir+.
   # This can be useful, for example, to quickly restrict to specific 
   # directories.
   _s.gameroot_dir = '**'
