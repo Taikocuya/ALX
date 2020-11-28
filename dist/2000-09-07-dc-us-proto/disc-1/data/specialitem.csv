@@ -1,0 +1,81 @@
+Entry ID,US Entry Name,Sell%,Ord by 123,US Ord by ABC,Buy,[US Descr Pos],[US Descr Size],US Descr Str
+320,Green Crystal,0,7,2,0,0x3668e8,92,An ancient gem that contains the power of life.\nIt has the power to summon the Green Gigas.
+321,Red Crystal,0,6,20,0,0x366944,92,An ancient gem that contains the power of fire.\nIt has the power to summon the Red Gigas.
+322,Purple Crystal,0,9,16,0,0x3669a0,92,An ancient gem that contains the power of ice.\nIt has the power to summon the Purple Gigas.
+323,Blue Crystal,0,8,14,0,0x3669fc,92,An ancient gem with the power of wind and water.\nIt has the power to summon the Blue Gigas.
+324,Yellow Crystal,0,10,27,0,0x366a58,92,An ancient gem with the power of lightning.\nIt has the power to summon the Yellow Gigas.
+325,銀月晶,0,38,38,0,0x366ab4,12,カット。\n
+326,Green Moon Stone,0,0,31,0,0x366ac0,84,A Moon Stone from the Green Moon. It can infuse\nweapons with the powers of nature.
+327,Red Moon Stone,0,1,1,0,0x366b14,80,A Moon Stone from the Red Moon. It can infuse\nweapons with the powers of fire.
+328,Purple MoonStone,0,2,32,0,0x366b64,84,A Moon Stone from the Purple Moon. It can infuse\nweapons with the powers of ice.
+329,Blue Moon Stone,0,3,0,0,0x366bb8,92,A Moon Stone from the Blue Moon. It can infuse\nweapons with the powers of wind an water.
+330,Yellow MoonStone,0,4,5,0,0x366c14,88,A Moon Stone from the Yellow Moon. It can infuse\nweapons with the powers of lightning.
+331,Silver MoonStone,0,5,8,0,0x366c6c,92,A Moon Stone from the Silver Moon. It can infuse\nweapons with the powers of life and death.
+332,Underwater Suit,0,26,35,0,0x366cc8,68,Using a Blue Moon Stone\nallows the wearer to breathe underwater.
+333,Note in a Bottle,0,12,28,0,0x366d0c,76,A note found in a bottle that says\nPlease send warriors to help us fight.
+334,Cannon Room Key,0,24,33,0,0x366d58,56,A large\nGrand Fortress. It is embossed with a dragon.
+335,Ship Schematics,0,28,18,0,0x366d90,84,Design for a ship that can submerge under the\nGreat Cloud Sea and go into Deep Sky.
+336,Gonzales' Map,0,21,13,0,0x366de4,88,Map found on the remains of Gonzales. It appears\nthat the map has been ripped in half.
+337,Pedro's Map,0,22,30,0,0x366e3c,92,Map receieved from Pedro while in Nasrad. It\nappears that the map has been ripped in half.
+338,アルフォンソの鍵,0,39,39,0,0x0,0,""
+339,Golden Man's Eye,0,16,26,0,0x366e98,40,A beautiful\nof the Golden Man statue.
+340,Great Bird's Eye,0,17,22,0,0x366ec0,32,A beautiful\nof the Great Bird.
+341,Raw Moon Stone,0,11,34,0,0x366ee0,84,A rock containing Moon Stone ore found on Shrine\nIsland. Unusable unless refined.
+342,Daccat's Coin,100,23,19,20000,0x366f34,52,A gold coin minted by the great air pirate\nDaccat
+343,Kabal Skewer,0,35,15,0,0x366f68,16,コンバート。\n
+344,Kabal,0,32,21,0,0x366f78,76,The meat of a desert beast of burden\nconsidered by many to be very tasty.
+345,Gentum,0,33,23,500,0x366fc4,88,A fragrant fruit from northern Nasr.\nSecret ingredient used in making Kabal Skewers.
+346,Khale,0,34,10,0,0x36701c,68,An expensive spice\nSecret ingredient used in making Kabal Skewers.
+347,Mom's Skewer,0,36,6,0,0x0,0,""
+348,Valuan Passport,0,13,25,0,0x367060,92,A passport necessary to enter the Valuan Empire.\nReceived from a Nasr merchant as a gift.
+349,Moon Stone Fuel,0,15,24,0,0x3670bc,100,A Moon Stone refined for use as fuel for a ship.\nGiven to Vyse by Hans when they met in Horteka.
+350,Clara's Purse,0,19,9,0,0x367120,72,A bright pink purse containing money given to\nAika and Fina by Clara.
+351,Book of Polarity,0,27,17,0,0x367168,100,An old Yafutoman text explaining the process of\nenabling ships to fly to high and low altitudes.
+352,Velorium,0,29,3,0,0x3671cc,88,A rare type of metal found in Deep Sky.\nIt is many times stronger than normal steel.
+353,Velorium,0,30,4,0,0x0,0,""
+354,最終兵器３,0,37,37,0,0x0,0,""
+355,Harbor Key,0,25,11,0,0x367224,48,A small\nharbor. It has a dragon embossed on it.
+356,Magic Cannon,0,14,12,0,0x367254,84,A device attached to cannons that allows them\nto fire shots empowered with magic.
+357,Wages,0,20,7,0,0x3672a8,64,Contains the 5\nearned while working at the tavern in Nasrad.
+358,Grapor Meat,0,18,29,0,0x3672e8,72,Meat from the rare fish\nis only found in the forests of Crescent Isle.
+359,Domingo's Title,0,31,36,0,0x367330,88,"A certificate from Domingo proclaiming Vyse to\nbe a ""Treasure Hunter Extraordinaire."""
+360,ダミークリア,0,-1,-1,0,0x0,0,""
+361,ダミークリア,0,-1,-1,0,0x0,0,""
+362,ダミークリア,0,-1,-1,0,0x0,0,""
+363,ダミークリア,0,-1,-1,0,0x0,0,""
+364,ダミークリア,0,-1,-1,0,0x0,0,""
+365,ダミークリア,0,-1,-1,0,0x0,0,""
+366,ダミークリア,0,-1,-1,0,0x0,0,""
+367,ダミークリア,0,-1,-1,0,0x0,0,""
+368,ダミークリア,0,-1,-1,0,0x0,0,""
+369,ダミークリア,0,-1,-1,0,0x0,0,""
+370,ダミークリア,0,-1,-1,0,0x0,0,""
+371,ダミークリア,0,-1,-1,0,0x0,0,""
+372,ダミークリア,0,-1,-1,0,0x0,0,""
+373,ダミークリア,0,-1,-1,0,0x0,0,""
+374,ダミークリア,0,-1,-1,0,0x0,0,""
+375,ダミークリア,0,-1,-1,0,0x0,0,""
+376,ダミークリア,0,-1,-1,0,0x0,0,""
+377,ダミークリア,0,-1,-1,0,0x0,0,""
+378,ダミークリア,0,-1,-1,0,0x0,0,""
+379,ダミークリア,0,-1,-1,0,0x0,0,""
+380,ダミークリア,0,-1,-1,0,0x0,0,""
+381,ダミークリア,0,-1,-1,0,0x0,0,""
+382,ダミークリア,0,-1,-1,0,0x0,0,""
+383,ダミークリア,0,-1,-1,0,0x0,0,""
+384,ダミークリア,0,-1,-1,0,0x0,0,""
+385,ダミークリア,0,-1,-1,0,0x0,0,""
+386,ダミークリア,0,-1,-1,0,0x0,0,""
+387,ダミークリア,0,-1,-1,0,0x0,0,""
+388,ダミークリア,0,-1,-1,0,0x0,0,""
+389,ダミークリア,0,-1,-1,0,0x0,0,""
+390,ダミークリア,0,-1,-1,0,0x0,0,""
+391,ダミークリア,0,-1,-1,0,0x0,0,""
+392,ダミークリア,0,-1,-1,0,0x0,0,""
+393,ダミークリア,0,-1,-1,0,0x0,0,""
+394,ダミークリア,0,-1,-1,0,0x0,0,""
+395,ダミークリア,0,-1,-1,0,0x0,0,""
+396,ダミークリア,0,-1,-1,0,0x0,0,""
+397,ダミークリア,0,-1,-1,0,0x0,0,""
+398,ダミークリア,0,-1,-1,0,0x0,0,""
+399,ダミークリア,0,-1,-1,0,0x0,0,""
