@@ -86,17 +86,17 @@ VOC.configure do |_v|
   _v.rating   = 'Rating'
   
   _v.message_id     = hdr('%s Message ID'       )
-  _v.name_pos       = hdr('[%s Entry Name Pos]' )
-  _v.name_size      = hdr('[%s Entry Name Size]')
-  _v.name_str       = hdr('%s Entry Name'       )
-  _v.name_opt       = hdr('[%s Entry Name]'     )
+  _v.name_pos       = hdr('[Entry %s Name Pos]' )
+  _v.name_size      = hdr('[Entry %s Name Size]')
+  _v.name_str       = hdr('Entry %s Name'       )
+  _v.name_opt       = hdr('[Entry %s Name]'     )
   _v.dscr_pos       = hdr('[%s Descr Pos]'      )
   _v.dscr_size      = hdr('[%s Descr Size]'     )
   _v.dscr_str       = hdr('%s Descr Str'        )
   _v.dscr_opt       = hdr('[%s Descr Str]'      )
-  _v.ship_dscr_pos  = hdr('[%s Ship Descr Pos]' )
-  _v.ship_dscr_size = hdr('[%s Ship Descr Size]')
-  _v.ship_dscr_str  = hdr('%s Ship Descr Str'   )
+  _v.ship_dscr_pos  = hdr('[Ship %s Descr Pos]' )
+  _v.ship_dscr_size = hdr('[Ship %s Descr Size]')
+  _v.ship_dscr_str  = hdr('Ship %s Descr Str'   )
 
   _v.age            = 'Age'
   _v.agile          = 'Agile'
@@ -543,9 +543,9 @@ VOC.configure do |_v|
 
   _v.enemy_id       = hdr('EC%d ID'       )
   _v.enemy_ref      = '[EC ID]'
-  _v.enemy_name_jp  = hdr('[JP EC%d Name]')
-  _v.enemy_name_us  = hdr('[US EC%d Name]')
-  _v.enemy_name_eu  = hdr('[EU EC%d Name]')
+  _v.enemy_name_jp  = hdr('[EC%d JP Name]')
+  _v.enemy_name_us  = hdr('[EC%d US Name]')
+  _v.enemy_name_eu  = hdr('[EC%d EU Name]')
   _v.enemy_x        = hdr('EC%d X'        )
   _v.enemy_z        = hdr('EC%d Z'        )
 
@@ -677,22 +677,22 @@ VOC.configure do |_v|
   _v.enemy_ship_id   = '[ES ID]'
   _v.enemy_ship_name = '[ES Name]'
 
-  _v.arm_name_eu = hdr('EU Arm %d Name')
-  _v.arm_name_jp = hdr('JP Arm %d Name')
-  _v.arm_name_us = hdr('US Arm %d Name')
+  _v.arm_name_eu = hdr('Arm %d EU Name')
+  _v.arm_name_jp = hdr('Arm %d JP Name')
+  _v.arm_name_us = hdr('Arm %d US Name')
 
-  _v.arm_name_de_pos  = hdr('[DE Arm %d Name Pos]' )
-  _v.arm_name_de_size = hdr('[DE Arm %d Name Size]')
-  _v.arm_name_de_str  = hdr('DE Arm %d Name Str'   )
-  _v.arm_name_es_pos  = hdr('[ES Arm %d Name Pos]' )
-  _v.arm_name_es_size = hdr('[ES Arm %d Name Size]')
-  _v.arm_name_es_str  = hdr('ES Arm %d Name Str'   )
-  _v.arm_name_fr_pos  = hdr('[FR Arm %d Name Pos]' )
-  _v.arm_name_fr_size = hdr('[FR Arm %d Name Size]')
-  _v.arm_name_fr_str  = hdr('FR Arm %d Name Str'   )
-  _v.arm_name_gb_pos  = hdr('[GB Arm %d Name Pos]' )
-  _v.arm_name_gb_size = hdr('[GB Arm %d Name Size]')
-  _v.arm_name_gb_str  = hdr('GB Arm %d Name Str'   )
+  _v.arm_name_de_pos  = hdr('[Arm %d DE Name Pos]' )
+  _v.arm_name_de_size = hdr('[Arm %d DE Name Size]')
+  _v.arm_name_de_str  = hdr('Arm %d DE Name Str'   )
+  _v.arm_name_es_pos  = hdr('[Arm %d ES Name Pos]' )
+  _v.arm_name_es_size = hdr('[Arm %d ES Name Size]')
+  _v.arm_name_es_str  = hdr('Arm %d ES Name Str'   )
+  _v.arm_name_fr_pos  = hdr('[Arm %d FR Name Pos]' )
+  _v.arm_name_fr_size = hdr('[Arm %d FR Name Size]')
+  _v.arm_name_fr_str  = hdr('Arm %d FR Name Str'   )
+  _v.arm_name_gb_pos  = hdr('[Arm %d GB Name Pos]' )
+  _v.arm_name_gb_size = hdr('[Arm %d GB Name Size]')
+  _v.arm_name_gb_str  = hdr('Arm %d GB Name Str'   )
 
   _v.arm_attack       = hdr('Arm %d Attack'        )
   _v.arm_type_id      = hdr('Arm %d Type ID'       )

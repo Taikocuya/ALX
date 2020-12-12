@@ -1,4 +1,4 @@
-Entry ID,JP Entry Name,PS Flags,[L1],[L2],[D1],[D2],[D3],Pad 1,Pad 2,Buy,Pad 3,Pad 4,Sell%,Pad 5,Trait 1 ID,[Trait 1 Name],Pad 6,Trait 1 Value,Trait 2 ID,[Trait 2 Name],Pad 7,Trait 2 Value,Trait 3 ID,[Trait 3 Name],Pad 8,Trait 3 Value,Trait 4 ID,[Trait 4 Name],Pad 9,Trait 4 Value,Ord by 123,JP Ord by ABC
+Entry ID,Entry JP Name,PS Flags,[L1],[L2],[D1],[D2],[D3],Pad 1,Pad 2,Buy,Pad 3,Pad 4,Sell%,Pad 5,Trait 1 ID,[Trait 1 Name],Pad 6,Trait 1 Value,Trait 2 ID,[Trait 2 Name],Pad 7,Trait 2 Value,Trait 3 ID,[Trait 3 Name],Pad 8,Trait 3 Value,Trait 4 ID,[Trait 4 Name],Pad 9,Trait 4 Value,Ord by 123,JP Ord by ABC
 440,船首像0,0x3e,X,X,X,X,X,0,0,1000,0,0,50,0,3,MagDef,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0
 441,船首像1,0x3e,X,X,X,X,X,0,0,1200,0,0,50,0,3,MagDef,0,40,-1,None,0,0,-1,None,0,0,-1,None,0,0,1,1
 442,船首像2,0x3e,X,X,X,X,X,0,0,1500,0,0,50,0,3,MagDef,0,60,-1,None,0,0,-1,None,0,0,-1,None,0,0,2,2

@@ -1,4 +1,4 @@
-Entry ID,[Filter],[EC ID],[JP EC Name],[US EC Name],Type ID,[Type Name],Task ID,[Task Name],Param ID,[Param Name]
+Entry ID,[Filter],[EC ID],[EC JP Name],[EC US Name],Type ID,[Type Name],Task ID,[Task Name],Param ID,[Param Name]
 1,*,0,軍艦兵,Soldier,0,Branch,21,Rating 10%,3,Go to 3
 2,*,0,軍艦兵,Soldier,1,Action,550,Attack,2,Random PC
 3,*,0,軍艦兵,Soldier,1,Action,551,Guard,-1,None

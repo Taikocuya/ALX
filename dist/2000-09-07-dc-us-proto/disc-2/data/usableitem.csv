@@ -1,4 +1,4 @@
-Entry ID,US Entry Name,Occasion Flags,[M],[B],[S],Effect ID,[Effect Name],Scope ID,[Scope Name],Consume%,Sell%,Ord by 123,US Ord by ABC,Buy,Pad 1,Pad 2,Effect Base,Element ID,[Element Name],Type ID,[Type Name],State ID,[State Name],State Miss%,[US Descr Pos],[US Descr Size],US Descr Str
+Entry ID,Entry US Name,Occasion Flags,[M],[B],[S],Effect ID,[Effect Name],Scope ID,[Scope Name],Consume%,Sell%,Ord by 123,US Ord by ABC,Buy,Pad 1,Pad 2,Effect Base,Element ID,[Element Name],Type ID,[Type Name],State ID,[State Name],State Miss%,[US Descr Pos],[US Descr Size],US Descr Str
 240,Sacri Crystal,0x6,X,X,"",31,Recover HP,1,Single PC,100,50,0,30,20,0,0,500,-1,None,-1,None,0,Poison,0,0x3653bc,88,An enchanted crystal created by Mages of the\nGreen Moon. Restores 500 HP for one ally.
 241,Sacres Crystal,0x6,X,X,"",31,Recover HP,1,Single PC,100,50,1,29,60,0,0,1000,-1,None,-1,None,0,Poison,0,0x365414,68,An enchanted crystal created by Mages of the\nGreen Moon. Restores 1
 242,Sacrum Crystal,0x6,X,X,"",31,Recover HP,2,All PCs,100,50,2,31,600,0,0,1000,-1,None,-1,None,0,Poison,0,0x0,0,""

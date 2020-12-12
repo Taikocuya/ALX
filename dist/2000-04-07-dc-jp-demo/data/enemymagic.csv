@@ -1,4 +1,4 @@
-Entry ID,JP Entry Name,Pad 1,Pad 2,Pad 3,Pad 4,Category ID,[Category Name],Effect ID,[Effect Name],Scope ID,[Scope Name],Effect Param ID,Effect Param Name,Effect Base,Element ID,[Element Name],Type ID,[Type Name],State Inflict ID,State Inflict Name,State Resist ID,State Resist Name,State ID,[State Name],State Miss%,Pad 5,Pad 6
+Entry ID,Entry JP Name,Pad 1,Pad 2,Pad 3,Pad 4,Category ID,[Category Name],Effect ID,[Effect Name],Scope ID,[Scope Name],Effect Param ID,Effect Param Name,Effect Base,Element ID,[Element Name],Type ID,[Type Name],State Inflict ID,State Inflict Name,State Resist ID,State Resist Name,State ID,[State Name],State Miss%,Pad 5,Pad 6
 0,アパ,0,0,0,0,1,Magic,21,Incr Attack & Defense,3,Single EC,0,Power,0,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 1,アポス,0,0,0,0,1,Magic,21,Incr Attack & Defense,4,All ECs,0,Power,0,0,Green,0,Physical,0,Power,0,Power,0,Poison,0,0,0
 2,サイレシャ,0,0,0,0,1,Magic,12,Silence,1,Single PC,0,Power,0,0,Green,0,Physical,1,Will,18,MagDef,5,Silence,40,0,0

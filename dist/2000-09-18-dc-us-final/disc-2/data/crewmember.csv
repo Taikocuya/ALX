@@ -1,4 +1,4 @@
-Entry ID,US Entry Name,Pos ID,[Pos Name],Trait ID,[Trait Name],Pad 1,Trait Value,Ship Eff ID,[Ship Eff Name],Ship Eff SP,Ship Eff Turns,Pad 2,Pad 3,Pad 4,Ship Eff Base,Unk,Pad 5,Pad 6,Pad 7,Pad 8,[US Descr Pos],[US Descr Size],US Descr Str
+Entry ID,Entry US Name,Pos ID,[Pos Name],Trait ID,[Trait Name],Pad 1,Trait Value,Ship Eff ID,[Ship Eff Name],Ship Eff SP,Ship Eff Turns,Pad 2,Pad 3,Pad 4,Ship Eff Base,Unk,Pad 5,Pad 6,Pad 7,Pad 8,[US Descr Pos],[US Descr Size],US Descr Str
 0,Lawrence,0,Helmsman,4,Quick,0,30,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x33ba34,96,"A mercenary-for-hire, he sails the skies for a\nsteep price. He will increase your ship's Quick."
 1,Don,0,Helmsman,6,Dodge%,0,15,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x33ba94,68,Having Don in your active crew will increase\nyour ship's Dodge%.
 2,Brabham,1,Engineer,2,Defense,0,20,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x33bad8,72,Having Brabham in your active crew will increase\nyour ship's Defense.

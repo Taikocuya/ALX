@@ -111,7 +111,7 @@ class Weapon < StdEntry
         _entry = @weapon_effects[_id]
         _name  = '???'
         if _entry
-          _name = _entry[VOC.dscr_opt[cid]]
+          _name = _entry[VOC.dscr_opt[nil]]
         end
       else
         _name = 'None'

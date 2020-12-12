@@ -1,4 +1,4 @@
-Entry ID,JP Entry Name,[EU Descr Str],Effect ID,[Effect Name],State ID,[State Name],State Miss%
+Entry ID,Entry JP Name,[Descr Str],Effect ID,[Effect Name],State ID,[State Name],State Miss%
 0,毒,Poison by 10%,4,Poison + Damage,0,Poison,90
 1,睡眠,Sleep by 50%,69,Sleep + Damage,3,Sleep,50
 2,全能力低下,Weak by 10%,73,Weak + Damage,8,Weak,90

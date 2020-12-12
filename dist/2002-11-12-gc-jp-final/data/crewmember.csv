@@ -1,4 +1,4 @@
-Entry ID,JP Entry Name,Pos ID,[Pos Name],Trait ID,[Trait Name],Pad 1,Trait Value,Ship Eff ID,[Ship Eff Name],Ship Eff SP,Ship Eff Turns,Pad 2,Pad 3,Pad 4,Unk,Ship Eff Base,Pad 5,Pad 6,Pad 7,Pad 8,[JP Descr Pos],[JP Descr Size],JP Descr Str
+Entry ID,Entry JP Name,Pos ID,[Pos Name],Trait ID,[Trait Name],Pad 1,Trait Value,Ship Eff ID,[Ship Eff Name],Ship Eff SP,Ship Eff Turns,Pad 2,Pad 3,Pad 4,Unk,Ship Eff Base,Pad 5,Pad 6,Pad 7,Pad 8,[JP Descr Pos],[JP Descr Size],JP Descr Str
 0,ロレンス,0,Helmsman,4,Quick,0,30,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x2d0dcc,88,船乗り稼業をビジネスと割りきる航海士。\n手なれた操艦で、砲撃戦時のスピードを上昇させる。
 1,ドン,0,Helmsman,6,Dodge%,0,15,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x2d0e24,100,元はバルアの貴族とのウワサもある酔いどれ航海士。\nそのフラフラした操艦は、船の回避率を上昇させる。
 2,ブラバム,1,Engineer,2,Defense,0,20,-1,None,-1,-1,0,0,0,0,0,0,0,0,0,0x2d0e88,96,老いてますます機械への情熱を燃やす熟練の機関士。\n装甲をメンテしてくれ、船の防御力が上昇する。

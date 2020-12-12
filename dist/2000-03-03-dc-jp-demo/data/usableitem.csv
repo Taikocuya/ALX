@@ -1,4 +1,4 @@
-Entry ID,JP Entry Name,Occasion Flags,[M],[B],[S],Effect ID,[Effect Name],Scope ID,[Scope Name],Consume%,Sell%,Ord by 123,JP Ord by ABC,Buy,Pad 1,Pad 2,Effect Base,Element ID,[Element Name],Type ID,[Type Name],State ID,[State Name],State Miss%,[JP Descr Pos],[JP Descr Size],JP Descr Str
+Entry ID,Entry JP Name,Occasion Flags,[M],[B],[S],Effect ID,[Effect Name],Scope ID,[Scope Name],Consume%,Sell%,Ord by 123,JP Ord by ABC,Buy,Pad 1,Pad 2,Effect Base,Element ID,[Element Name],Type ID,[Type Name],State ID,[State Name],State Miss%,[JP Descr Pos],[JP Descr Size],JP Descr Str
 240,サプの葉,0x6,X,X,"",31,Recover HP,1,Single PC,100,75,1,18,20,0,0,250,-1,None,-1,None,0,Poison,0,0x2af74c,88,世界中に生息するサプ科植物の葉だ。不思議な\n香りで、味方１人のＨＰを２５０ｐ回復するぞ。
 241,サプガンの葉,0x6,X,X,"",31,Recover HP,1,Single PC,100,75,2,19,40,0,0,500,-1,None,-1,None,0,Poison,0,0x2af7a4,92,北の大地に群生するサプ科植物の葉だ。濃縮された\n香りで、味方１人のＨＰを５００ｐ回復するぞ。
 242,サプハネの葉,0x6,X,X,"",31,Recover HP,2,All PCs,100,75,3,20,80,0,0,500,-1,None,-1,None,0,Poison,0,0x2af800,92,熱帯でのみ取れるサプ科植物の葉だ。香りが一気に\n広がり、味方全体のＨＰを５００ｐ回復するぞ。

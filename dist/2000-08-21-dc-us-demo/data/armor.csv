@@ -1,4 +1,4 @@
-Entry ID,US Entry Name,PC Flags,[V],[A],[F],[D],[E],[G],Sell%,Ord by 123,US Ord by ABC,Pad 1,Buy,Trait 1 ID,[Trait 1 Name],Pad 2,Trait 1 Value,Trait 2 ID,[Trait 2 Name],Pad 3,Trait 2 Value,Trait 3 ID,[Trait 3 Name],Pad 4,Trait 3 Value,Trait 4 ID,[Trait 4 Name],Pad 5,Trait 4 Value,[US Descr Pos],[US Descr Size],US Descr Str
+Entry ID,Entry US Name,PC Flags,[V],[A],[F],[D],[E],[G],Sell%,Ord by 123,US Ord by ABC,Pad 1,Buy,Trait 1 ID,[Trait 1 Name],Pad 2,Trait 1 Value,Trait 2 ID,[Trait 2 Name],Pad 3,Trait 2 Value,Trait 3 ID,[Trait 3 Name],Pad 4,Trait 3 Value,Trait 4 ID,[Trait 4 Name],Pad 5,Trait 4 Value,[US Descr Pos],[US Descr Size],US Descr Str
 80,ヴァイス服,0x27,X,"","",X,X,X,50,0,5,0,52,17,Defense,0,22,18,MagDef,0,18,-1,None,0,0,-1,None,0,0,0x33337c,24,ヴァイスの服。弱い。\n
 81,アイカ服,0x18,"",X,X,"","","",50,1,1,0,60,17,Defense,0,18,18,MagDef,0,22,-1,None,0,0,-1,None,0,0,0x333394,24,アイカの服。黄色い。\n
 82,Silk Robe,0x1a,"",X,X,"",X,"",50,3,47,0,65,17,Defense,0,16,18,MagDef,0,24,-1,None,0,0,-1,None,0,0,0x3333ac,96,A white robe made of silk mixed with blessed\nfabric that increases one's resistance to magic.
