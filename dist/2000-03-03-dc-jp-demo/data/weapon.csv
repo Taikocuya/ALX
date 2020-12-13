@@ -1,4 +1,4 @@
-Entry ID,Entry JP Name,PC ID,[PC Name],Sell%,Ord by 123,JP Ord by ABC,Effect ID,[Effect Name],Buy,Attack,Hit%,Trait ID,[Trait Name],Pad 1,Trait Value,[JP Descr Pos],[JP Descr Size],JP Descr Str
+Entry ID,Entry JP Name,PC ID,[PC Name],Sell%,JP Order 1,JP Order 2,Effect ID,[Effect Name],Buy,Attack,Hit%,Trait ID,[Trait Name],Pad 1,Trait Value,[JP Descr Pos],[JP Descr Size],JP Descr Str
 0,カトラス,0,Vyse,50,0,5,-1,None,60,21,90,-1,None,0,0,0x2aeeac,92,ヴァイスが愛用する両方の手に持つ、二刀流の剣だ。\n遠くの敵には、カマイタチで攻撃できるぞ!!
 1,空賊のナイフ,0,Vyse,50,1,13,-1,None,121,29,90,-1,None,0,0,0x2aef08,32,ヴァイスの武器。両手に持つ。\n
 2,シーカトラス,0,Vyse,50,2,20,-1,None,120,29,90,-1,None,0,0,0x2aef28,96,屈強な空の男たちが魚をさばくのにも使う、切れ味が\n抜群のカトラスだ。これでさばいた魚は美味いぞ。

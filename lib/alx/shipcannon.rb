@@ -96,9 +96,9 @@ class ShipCannon < StdEntry
         self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      self[VOC.sell          ] = IntProp.new( :i8, 0)
-      self[VOC.order_123     ] = IntProp.new(:i8, -1)
-      self[VOC.order_abc[cid]] = IntProp.new(:i8, -1)
+      self[VOC.sell           ] = IntProp.new(:i8,  0)
+      self[VOC.order[[cid, 1]]] = IntProp.new(:i8, -1)
+      self[VOC.order[[cid, 2]]] = IntProp.new(:i8, -1)
   
       if dc? || eu?
         self[padding_hdr] = IntProp.new(:i8, 0)
@@ -125,10 +125,10 @@ class ShipCannon < StdEntry
         self[VOC.trait_value[_i]] = IntProp.new(:i16,  0           )
       end
   
-      self[VOC.order_123     ] = IntProp.new(:i8, -1)
-      self[VOC.order_abc[cid]] = IntProp.new(:i8, -1)
-      self[padding_hdr       ] = IntProp.new(:i8,  0)
-      self[padding_hdr       ] = IntProp.new(:i8,  0)
+      self[VOC.order[[cid, 1]]] = IntProp.new(:i8, -1)
+      self[VOC.order[[cid, 2]]] = IntProp.new(:i8, -1)
+      self[padding_hdr        ] = IntProp.new(:i8,  0)
+      self[padding_hdr        ] = IntProp.new(:i8,  0)
     end
   end
   

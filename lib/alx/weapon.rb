@@ -80,8 +80,8 @@ class Weapon < StdEntry
     self[VOC.character_id[nil]  ] = IntProp.new(:i8,  0           )
     self[VOC.character_name[nil]] = StrProp.new(nil, '', dmy: true)
     self[VOC.sell               ] = IntProp.new(:i8,  0           )
-    self[VOC.order_123          ] = IntProp.new(:i8, -1           )
-    self[VOC.order_abc[cid]     ] = IntProp.new(:i8, -1           )
+    self[VOC.order[[cid, 1]]    ] = IntProp.new(:i8, -1           )
+    self[VOC.order[[cid, 2]]    ] = IntProp.new(:i8, -1           )
     self[VOC.effect_id          ] = IntProp.new(:i8, -1           )
     self[VOC.effect_name        ] = StrProp.new(nil, '', dmy: true)
     

@@ -87,10 +87,10 @@ class ShipItem < StdEntry
         self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      self[VOC.sell          ] = IntProp.new(:i8,  0)
-      self[VOC.order_123     ] = IntProp.new(:i8, -1)
-      self[VOC.order_abc[cid]] = IntProp.new(:i8, -1)
-      self[padding_hdr       ] = IntProp.new(:i8,  0)
+      self[VOC.sell           ] = IntProp.new(:i8,  0)
+      self[VOC.order[[cid, 1]]] = IntProp.new(:i8, -1)
+      self[VOC.order[[cid, 2]]] = IntProp.new(:i8, -1)
+      self[padding_hdr        ] = IntProp.new(:i8,  0)
       
       if gc? && eu?
         self[padding_hdr] = IntProp.new(:i8, 0)
@@ -123,8 +123,8 @@ class ShipItem < StdEntry
       self[VOC.ship_effect_name ] = StrProp.new( nil, '', dmy: true)
       self[VOC.ship_effect_turns] = IntProp.new( :i8,  0           )
       self[VOC.consume          ] = IntProp.new( :i8,  0           )
-      self[VOC.order_123        ] = IntProp.new( :i8, -1           )
-      self[VOC.order_abc[cid]   ] = IntProp.new( :i8, -1           )
+      self[VOC.order[[cid, 1]]  ] = IntProp.new( :i8, -1           )
+      self[VOC.order[[cid, 2]]  ] = IntProp.new( :i8, -1           )
       self[padding_hdr          ] = IntProp.new( :i8,  0           )
       self[VOC.ship_effect_base ] = IntProp.new(:i16,  0           )
       self[unknown_hdr          ] = IntProp.new( :i8,  0           )

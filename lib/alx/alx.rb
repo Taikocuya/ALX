@@ -118,23 +118,23 @@ module ALX
   # @param _format [String] Header format
   # @return [Hash] Dynamic CSV header
   def self.hdr(_format)
-    _size = _format.scan(SPRINTF_REGEXP).size
-    if _size != 1
-      _msg = "wrong number of fields in format sequence (#{_size} for 1)"
-      raise(ArgumentError, _msg, caller(1))
-    end
-
     Hash.new do |_h, _k|
-      if _k
-        _str = sprintf(_format, _k)
-      else
-        _str = _format.sub(SPRINTF_REGEXP, '')
+      _args = [_k].flatten
+      _str  = _format.gsub(SPRINTF_REGEXP).with_index do |_field, _id|
+        _arg = _args[_id]
+        if _arg
+          sprintf(_field, _arg)
+        else
+          ''
+        end
       end
+
       _str.squeeze!(' ')
       _str.strip!
       _str.sub!(/\[ +/, '[')
       _str.sub!(/ +\]/, ']')
-      
+      _str.sub!(/%%/  , '%')
+
       _h[_k] = _str
     end
   end

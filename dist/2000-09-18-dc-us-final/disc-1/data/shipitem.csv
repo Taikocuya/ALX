@@ -1,4 +1,4 @@
-Entry ID,Entry US Name,Occasion Flags,[M],[B],[S],Ship Eff ID,[Ship Eff Name],Ship Eff Turns,Consume%,Pad 1,Pad 2,Pad 3,Buy,Pad 4,Pad 5,Sell%,Ord by 123,US Ord by ABC,Pad 6,Ship Eff Base,Element ID,[Element Name],Unk 1,Unk 2,Hit%,[US Descr Pos],[US Descr Size],US Descr Str
+Entry ID,Entry US Name,Occasion Flags,[M],[B],[S],Ship Eff ID,[Ship Eff Name],Ship Eff Turns,Consume%,Pad 1,Pad 2,Pad 3,Buy,Pad 4,Pad 5,Sell%,US Order 1,US Order 2,Pad 6,Ship Eff Base,Element ID,[Element Name],Unk 1,Unk 2,Hit%,[US Descr Pos],[US Descr Size],US Descr Str
 480,Bomb,0x1,"","",X,107,Damage,-1,100,0,0,0,100,0,0,50,0,3,0,80,6,Neutral,0,0,0,0x33a730,48,"A common bomb, designed to damage the enemy.\n"
 481,Big Bomb,0x1,"","",X,107,Damage,-1,100,0,0,0,150,0,0,50,1,2,0,120,6,Neutral,0,0,0,0x33a760,84,"A larger bomb, packed with more gunpowder for a\nbigger blast. Damages the enemy."
 482,Concussion Bomb,0x1,"","",X,107,Damage,-1,100,0,0,0,200,0,0,50,2,6,0,150,6,Neutral,0,0,0,0x33a7b4,80,A bomb that packs double the firepower of a\nstandard bomb. Damages the enemy.

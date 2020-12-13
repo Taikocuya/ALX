@@ -65,14 +65,14 @@ class UsableItem < StdEntry
       self[_occasion] = StrProp.new(nil, '', dmy: true)
     end
     
-    self[VOC.effect_id     ] = IntProp.new(:i8,  0           )
-    self[VOC.effect_name   ] = StrProp.new(nil, '', dmy: true)
-    self[VOC.scope_id      ] = IntProp.new(:u8,  0           )
-    self[VOC.scope_name    ] = StrProp.new(nil, '', dmy: true)
-    self[VOC.consume       ] = IntProp.new(:i8,  0           )
-    self[VOC.sell          ] = IntProp.new(:i8,  0           )
-    self[VOC.order_123     ] = IntProp.new(:i8, -1           )
-    self[VOC.order_abc[cid]] = IntProp.new(:i8, -1           )
+    self[VOC.effect_id      ] = IntProp.new(:i8,  0           )
+    self[VOC.effect_name    ] = StrProp.new(nil, '', dmy: true)
+    self[VOC.scope_id       ] = IntProp.new(:u8,  0           )
+    self[VOC.scope_name     ] = StrProp.new(nil, '', dmy: true)
+    self[VOC.consume        ] = IntProp.new(:i8,  0           )
+    self[VOC.sell           ] = IntProp.new(:i8,  0           )
+    self[VOC.order[[cid, 1]]] = IntProp.new(:i8, -1           )
+    self[VOC.order[[cid, 2]]] = IntProp.new(:i8, -1           )
     
     if eu?
       self[padding_hdr] = IntProp.new(:i8, 0)

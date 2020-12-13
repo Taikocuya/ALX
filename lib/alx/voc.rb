@@ -396,11 +396,9 @@ VOC.configure do |_v|
   _v.ship_occasions[ 0] = 'Magic Cannon'
   _v.ship_occasions[ 1] = 'Always'
   
-  _v.order_abc = hdr('%s Ord by ABC')
-  _v.order_123 = 'Ord by 123'
-
-  _v.buy  = 'Buy'
-  _v.sell = 'Sell%'
+  _v.order = hdr('%s Order %d')
+  _v.buy   = 'Buy'
+  _v.sell  = 'Sell%'
 
   _v.trait_id    = hdr('Trait %d ID'    )
   _v.trait_name  = hdr('[Trait %d Name]')

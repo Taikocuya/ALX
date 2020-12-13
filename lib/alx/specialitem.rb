@@ -58,9 +58,9 @@ class SpecialItem < StdEntry
   def init_props
     add_name_props
 
-    self[VOC.sell          ] = IntProp.new(:i8,  0)
-    self[VOC.order_123     ] = IntProp.new(:i8, -1)
-    self[VOC.order_abc[cid]] = IntProp.new(:i8, -1)
+    self[VOC.sell           ] = IntProp.new(:i8,  0)
+    self[VOC.order[[cid, 1]]] = IntProp.new(:i8, -1)
+    self[VOC.order[[cid, 2]]] = IntProp.new(:i8, -1)
     
     if eu?
       self[padding_hdr] = IntProp.new(:i8, 0)

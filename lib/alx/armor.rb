@@ -65,9 +65,9 @@ class Armor < StdEntry
       self[VOC.character_opt[_name.chr]] = StrProp.new(nil, '', dmy: true)
     end
 
-    self[VOC.sell          ] = IntProp.new(:i8,  0)
-    self[VOC.order_123     ] = IntProp.new(:i8, -1)
-    self[VOC.order_abc[cid]] = IntProp.new(:i8, -1)
+    self[VOC.sell           ] = IntProp.new(:i8,  0)
+    self[VOC.order[[cid, 1]]] = IntProp.new(:i8, -1)
+    self[VOC.order[[cid, 2]]] = IntProp.new(:i8, -1)
     
     if jp? || us?
       self[padding_hdr] = IntProp.new(:i8, 0)

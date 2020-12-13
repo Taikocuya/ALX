@@ -1,4 +1,4 @@
-Entry ID,Entry JP Name,PC ID,[PC Name],Sell%,Ord by 123,JP Ord by ABC,Effect ID,[Effect Name],Buy,Attack,Hit%,Trait ID,[Trait Name],Pad 1,Trait Value,[JP Descr Pos],[JP Descr Size],JP Descr Str
+Entry ID,Entry JP Name,PC ID,[PC Name],Sell%,JP Order 1,JP Order 2,Effect ID,[Effect Name],Buy,Attack,Hit%,Trait ID,[Trait Name],Pad 1,Trait Value,[JP Descr Pos],[JP Descr Size],JP Descr Str
 0,カトラス,0,Vyse,50,0,4,-1,None,70,20,90,-1,None,0,0,0x33869c,96,父であるダイン船長からもらった大小２本組の剣。\n短い方が特にお気に入りで、肌身離さず持っている。
 1,空賊のカトラス,0,Vyse,50,1,24,-1,None,220,33,90,-1,None,0,0,0x3386fc,88,オーシャン周辺に暮らす空賊が持つ一般的な剣。\n軽くて刀身が短いため、とても扱いやすい。
 2,スカイカトラス,0,Vyse,50,2,36,-1,None,450,45,90,-1,None,0,0,0x338754,96,屈強な空の男たちが持つ切れ味抜群のカトラス。\n長い船旅の際、船上で魚をさばく時などは重宝する。

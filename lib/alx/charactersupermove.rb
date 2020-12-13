@@ -66,7 +66,7 @@ class CharacterSuperMove < StdEntry
       self[padding_hdr] = IntProp.new(:i8, 0)
     end
     
-    self[VOC.order_123     ] = IntProp.new(:i16, -1          )
+    self[VOC.order[nil]    ] = IntProp.new(:i16, -1          )
     self[VOC.occasion_flags] = IntProp.new( :u8,  0, base: 16)
     
     VOC.occasions.each do |_id, _occasion|
