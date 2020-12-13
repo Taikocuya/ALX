@@ -46,12 +46,18 @@ class FltProp < Prop
   # 
   # @param _type  [Symbol]  Type
   # @param _value [Integer] Value
+  # @param width  [Integer] Pad with zeros (CSV only)
+  # @param prec   [Integer] Precision after decimal point (CSV only)
   # @param comp   [Boolean] Is comparable
   # @param dmy    [Boolean] Set +comp+ and +ext+ to +true+
   # @param ext    [Boolean] Serialize externally
-  def initialize(_type, _value, comp: true, dmy: false, ext: false)
+  def initialize(
+    _type, _value, width: 0, prec: 0, comp: true, dmy: false, ext: false
+  )
     super(_value.to_f, comp: comp, dmy: dmy, ext: ext)
-    @type = _type
+    @type  = _type
+    @width = width
+    @prec  = prec
   end
 
   # Reads one entry from a binary I/O stream.
@@ -85,14 +91,26 @@ class FltProp < Prop
   # @param _header [String]   Column header
   # @param _row    [CSV::Row] CSV row
   def write_csv(_header, _row)
-    _row[_header] = value
+    if @width > 0 || @prec > 0
+      _format  = '%'
+      _format << "0#{@width}" if @width > 0
+      _format << ".0#{@prec}" if @prec  > 0
+      _format << 'f'
+      _value = sprintf(_format, value)
+    else
+      _value = value.to_s
+    end
+
+    _row[_header] = _value
   end
 
   # Provides marshalling support for use by the Marshal library.
   # @return [Hash] Hash object
   def marshal_dump
-    _hash         = super
-    _hash[:@type] = @type
+    _hash          = super
+    _hash[:@type]  = @type
+    _hash[:@width] = @width
+    _hash[:@prec]  = @prec
     _hash
   end
 
@@ -101,9 +119,19 @@ class FltProp < Prop
 #------------------------------------------------------------------------------
 
   attr_accessor :type
+  attr_reader   :width
+  attr_reader   :prec
 
   def value=(_value)
     super(_value.to_f)
+  end
+  
+  def width=(_width)
+    @width = [0, _width.to_i].max
+  end
+  
+  def prec=(_prec)
+    @prec = [0, _prec.to_i].max
   end
   
   alias flt    value

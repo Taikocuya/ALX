@@ -47,13 +47,17 @@ class IntProp < Prop
   # @param _type  [Symbol]  Type
   # @param _value [Integer] Value
   # @param base   [Integer] Base
+  # @param width  [Integer] Pad with zeros (CSV only)
   # @param comp   [Boolean] Is comparable
   # @param dmy    [Boolean] Set +comp+ and +ext+ to +true+
   # @param ext    [Boolean] Serialize externally
-  def initialize(_type, _value, base: 10, comp: true, dmy: false, ext: false)
+  def initialize(
+    _type, _value, base: 10, width: 0, comp: true, dmy: false, ext: false
+  )
     super(_value.to_i, comp: comp, dmy: dmy, ext: ext)
-    @type = _type
-    @base = base
+    @type  = _type
+    @base  = base
+    @width = width
   end
 
   # Reads one entry from a binary I/O stream.
@@ -92,26 +96,39 @@ class IntProp < Prop
   # @param _header [String]   Column header
   # @param _row    [CSV::Row] CSV row
   def write_csv(_header, _row)
-    _value = value.to_s(@base)
-    
     case @base
     when 2
-      _value.sub!(/^(-?)/, '\10b')
+      _value = sprintf("%+0#{@width}b", value)
+      _value.sub!('+', _value.size <= @width ? '0' : '')
+      _value.sub!(/^(-)?(0{1,2}(?!$))?/, '\10b')
     when 8
-      _value.sub!(/^(-?)/, '\10o')
+      _value = sprintf("%+0#{@width}o", value)
+      _value.sub!('+', _value.size <= @width ? '0' : '')
+      _value.sub!(/^(-)?(0{1,2}(?!$))?/, '\10o')
     when 16
-      _value.sub!(/^(-?)/, '\10x')
-    end
+      _value = sprintf("%+0#{@width}x", value)
+      _value.sub!('+', _value.size <= @width ? '0' : '')
+      _value.sub!(/^(-)?(0{1,2}(?!$))?/, '\10x')
+    else
+      _value = value.to_s(@base)
+      _value = _value.rjust(@width, '0')
     
+      if @width > 0 && value < 0
+        _value.sub!(/-/, '0')
+        _value.sub!(/^(?>0|)/, '-')
+      end
+    end
+
     _row[_header] = _value
   end
 
   # Provides marshalling support for use by the Marshal library.
   # @return [Hash] Hash object
   def marshal_dump
-    _hash         = super
-    _hash[:@type] = @type
-    _hash[:@base] = @base
+    _hash          = super
+    _hash[:@type ] = @type
+    _hash[:@base ] = @base
+    _hash[:@width] = @width
     _hash
   end
 
@@ -121,9 +138,14 @@ class IntProp < Prop
 
   attr_accessor :type
   attr_accessor :base
+  attr_reader   :width
 
   def value=(_value)
     super(_value.to_i)
+  end
+  
+  def width=(_width)
+    @width = [0, _width.to_i].max
   end
   
   alias int      value
