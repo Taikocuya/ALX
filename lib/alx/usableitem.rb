@@ -59,7 +59,7 @@ class UsableItem < StdEntry
   def init_props
     add_name_props
     
-    self[VOC.occasion_flags] = IntProp.new(:u8, 0, base: 16)
+    self[VOC.occasion_flags] = IntProp.new(:u8, 0, base: 2, width: 6)
     
     VOC.occasions.each do |_id, _occasion|
       self[_occasion] = StrProp.new(nil, '', dmy: true)

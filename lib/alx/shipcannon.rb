@@ -59,7 +59,7 @@ class ShipCannon < StdEntry
   def init_props
     add_name_props
 
-    self[VOC.ship_flags] = IntProp.new(:u8, 0, base: 16)
+    self[VOC.ship_flags] = IntProp.new(:u8, 0, base: 2, width: 10)
 
     VOC.ships.each_value do |_ship|
       self[_ship] = StrProp.new(nil, '', dmy: true)

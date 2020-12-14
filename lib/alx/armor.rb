@@ -59,7 +59,7 @@ class Armor < StdEntry
   def init_props
     add_name_props
 
-    self[VOC.character_flags] = IntProp.new(:u8, 0, base: 16)
+    self[VOC.character_flags] = IntProp.new(:u8, 0, base: 2, width: 10)
 
     VOC.characters.each_value do |_name|
       self[VOC.character_opt[_name.chr]] = StrProp.new(nil, '', dmy: true)

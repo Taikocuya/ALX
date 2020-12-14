@@ -60,7 +60,7 @@ class ShipItem < StdEntry
     add_name_props
 
     if product_id != '6107110 06' && product_id != '6107810'
-      self[VOC.occasion_flags] = IntProp.new(:u8, 0, base: 16)
+      self[VOC.occasion_flags] = IntProp.new(:u8, 0, base: 2, width: 6)
 
       VOC.occasions.each do |_id, _occasion|
         self[_occasion] = StrProp.new(nil, '', dmy: true)
@@ -106,14 +106,14 @@ class ShipItem < StdEntry
   
       add_dscr_props
     else
-      self[padding_hdr       ] = IntProp.new( :i8, 0          )
-      self[padding_hdr       ] = IntProp.new( :i8, 0          )
-      self[padding_hdr       ] = IntProp.new( :i8, 0          )
-      self[VOC.buy           ] = IntProp.new(:u16, 0          )
-      self[padding_hdr       ] = IntProp.new( :i8, 0          )
-      self[padding_hdr       ] = IntProp.new( :i8, 0          )
-      self[VOC.sell          ] = IntProp.new( :i8, 0          )
-      self[VOC.occasion_flags] = IntProp.new( :u8, 0, base: 16)
+      self[padding_hdr       ] = IntProp.new( :i8, 0                   )
+      self[padding_hdr       ] = IntProp.new( :i8, 0                   )
+      self[padding_hdr       ] = IntProp.new( :i8, 0                   )
+      self[VOC.buy           ] = IntProp.new(:u16, 0                   )
+      self[padding_hdr       ] = IntProp.new( :i8, 0                   )
+      self[padding_hdr       ] = IntProp.new( :i8, 0                   )
+      self[VOC.sell          ] = IntProp.new( :i8, 0                   )
+      self[VOC.occasion_flags] = IntProp.new( :u8, 0, base: 2, width: 6)
 
       VOC.occasions.each do |_id, _occasion|
         self[_occasion] = StrProp.new(nil, '', dmy: true)
