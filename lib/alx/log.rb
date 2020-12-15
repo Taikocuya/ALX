@@ -57,8 +57,11 @@ module LOG
     else
       _log_file = nil
     end
-    
+
     @@std_out = Logger.new(STDOUT, level: SYS.log_level, progname: _prog_name)
+    @@std_out.formatter = Proc.new do |_severity, _, _, _msg|
+      sprintf("%s -- %s\r\n", _severity[0], _msg)
+    end
     @@log_out = nil
 
     if _log_file
