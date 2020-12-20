@@ -135,6 +135,20 @@ VOC.configure do |_v|
   _v.width          = 'Width'
   _v.will           = 'Will'
 
+  _v.movements     = Hash.new('[???]')
+  _v.movements[ 0] = '[May Dodge]'
+  _v.movements[ 1] = '[Unk Damage]'
+  _v.movements[ 2] = '[Unk Ranged]'
+  _v.movements[ 3] = '[Unk Melee]'
+  _v.movements[ 4] = '[Ranged Atk]'
+  _v.movements[ 5] = '[Melee Atk]'
+  _v.movements[ 6] = '[Ranged Only]'
+  _v.movements[ 7] = '[Take Cover]'
+  _v.movements[ 8] = '[In Air]'
+  _v.movements[ 9] = '[On Ground]'
+  _v.movements[10] = '[Reserved]'
+  _v.movements[11] = '[May Move]'
+
   _v.characters    = Hash.new('???')
   _v.characters[0] = 'Vyse'
   _v.characters[1] = 'Aika'
@@ -383,7 +397,7 @@ VOC.configure do |_v|
   _v.occasion_battle = '[B]'
   _v.occasion_ship   = '[S]'
 
-  _v.occasions    = Hash.new('???')
+  _v.occasions    = Hash.new('[???]')
   _v.occasions[0] = _v.occasion_menu
   _v.occasions[1] = _v.occasion_battle
   _v.occasions[2] = _v.occasion_ship
@@ -509,7 +523,7 @@ VOC.configure do |_v|
 #------------------------------------------------------------------------------
 
   _v.ship_flags = 'PS Flags'
-  _v.ships      = Hash.new('???')
+  _v.ships      = Hash.new('[???]')
   _v.ships[0]   = '[L1]'
   _v.ships[1]   = '[L2]'
   _v.ships[2]   = '[D1]'
@@ -771,8 +785,8 @@ VOC.configure do |_v|
   _v.defeats[2] = 'May Lose'
   
   _v.escapes    = Hash.new('???')
-  _v.escapes[0] = 'Can Escape'
-  _v.escapes[1] = 'Cannot Escape'
+  _v.escapes[0] = 'May Escape'
+  _v.escapes[1] = 'Must Not Escape'
 
 #------------------------------------------------------------------------------
 # Enemy Names

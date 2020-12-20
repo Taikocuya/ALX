@@ -146,13 +146,18 @@ class Enemy < Entry
     self[padding_hdr       ] = IntProp.new( :i8,  -1                    )
     self[padding_hdr       ] = IntProp.new( :i8,  -1                    )
     self[VOC.movement_flags] = IntProp.new(:i16,   0, base: 2, width: 14)
-    self[VOC.counter       ] = IntProp.new(:i16,   0                    )
-    self[VOC.exp[nil]      ] = IntProp.new(:u16,   0                    )
-    self[VOC.gold          ] = IntProp.new(:u16,   0                    )
-    self[padding_hdr       ] = IntProp.new( :i8,  -1                    )
-    self[padding_hdr       ] = IntProp.new( :i8,  -1                    )
-    self[VOC.maxhp         ] = IntProp.new(:i32,   0                    )
-    self[unknown_hdr       ] = FltProp.new(:f32, 0.0                    )
+    
+    VOC.movements.each do |_id, _movement|
+      self[_movement] = StrProp.new(nil, '', dmy: true)
+    end
+
+    self[VOC.counter ] = IntProp.new(:i16,   0)
+    self[VOC.exp[nil]] = IntProp.new(:u16,   0)
+    self[VOC.gold    ] = IntProp.new(:u16,   0)
+    self[padding_hdr ] = IntProp.new( :i8,  -1)
+    self[padding_hdr ] = IntProp.new( :i8,  -1)
+    self[VOC.maxhp   ] = IntProp.new(:i32,   0)
+    self[unknown_hdr ] = FltProp.new(:f32, 0.0)
 
     (0...6).each do |_i|
       self[VOC.elements[_i]] = IntProp.new(:i16, 0)
@@ -195,6 +200,12 @@ class Enemy < Entry
       fetch(VOC.id).proc = Proc.new do |_id|
         _name = voc(:enemies, id.to_s) || '???'
         self[VOC.name_opt[cid]] = _name
+      end
+    end
+
+    fetch(VOC.movement_flags).proc = Proc.new do |_flags|
+      VOC.movements.each do |_id, _movement|
+        self[_movement] = (_flags & (0x800 >> _id) != 0) ? 'X' : ''
       end
     end
 
