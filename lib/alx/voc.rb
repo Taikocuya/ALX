@@ -125,7 +125,6 @@ VOC.configure do |_v|
   _v.maxhp          = 'MAXHP'
   _v.maxmp          = 'MAXMP'
   _v.maxsp          = hdr('MAXSP %d')
-  _v.movement_flags = 'Movement Flags'
   _v.power          = 'Power'
   _v.quick          = 'Quick'
   _v.run            = 'Run%'
@@ -135,6 +134,8 @@ VOC.configure do |_v|
   _v.width          = 'Width'
   _v.will           = 'Will'
 
+  _v.movement_flags = 'Movement Flags'
+  
   _v.movements     = Hash.new('[???]')
   _v.movements[ 0] = '[May Dodge]'
   _v.movements[ 1] = '[Unk Damage]'
@@ -393,14 +394,11 @@ VOC.configure do |_v|
 #------------------------------------------------------------------------------
 
   _v.occasion_flags  = 'Occasion Flags'
-  _v.occasion_menu   = '[M]'
-  _v.occasion_battle = '[B]'
-  _v.occasion_ship   = '[S]'
 
   _v.occasions    = Hash.new('[???]')
-  _v.occasions[0] = _v.occasion_menu
-  _v.occasions[1] = _v.occasion_battle
-  _v.occasions[2] = _v.occasion_ship
+  _v.occasions[0] = '[M]'
+  _v.occasions[1] = '[B]'
+  _v.occasions[2] = '[S]'
 
   _v.ship_occasion_id   = 'Ship Occ ID'
   _v.ship_occasion_name = '[Ship Occ Name]'
