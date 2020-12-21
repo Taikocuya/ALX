@@ -108,7 +108,7 @@ module ALX
 
     Range.new(_min, _max, true)
   end
-  
+
   # @see Substitute::new
   def self.gs(...)
     Substitute.new(...)
