@@ -60,7 +60,7 @@ class EnemyEncounter < Entry
     @enemies = _enemies || []
     
     (1..8).each do |_i|
-      fetch(VOC.enemy_id[_i])&.call_proc
+      fetch(VOC.enemy_id(_i))&.call_proc
     end
   end
   
@@ -91,13 +91,11 @@ class EnemyEncounter < Entry
     self[VOC.magic_exp ] = IntProp.new(:u8,  0           )
 
     (1..8).each do |_i|
-      self[VOC.enemy_id[_i]     ] = IntProp.new(:u8,  0           )
-      self[VOC.enemy_name_jp[_i]] = StrProp.new(nil, '', dmy: true)
+      self[VOC.enemy_id(_i)      ] = IntProp.new(:u8,  0           )
+      self[VOC.enemy_name(_i, jp)] = StrProp.new(nil, '', dmy: true)
       
-      if us?
-        self[VOC.enemy_name_us[_i]] = StrProp.new(nil, '', dmy: true)
-      elsif eu?
-        self[VOC.enemy_name_eu[_i]] = StrProp.new(nil, '', dmy: true)
+      if us? || eu?
+        self[VOC.enemy_name(_i, cid)] = StrProp.new(nil, '', dmy: true)
       end
     end
   end
@@ -105,12 +103,12 @@ class EnemyEncounter < Entry
   # Initialize the entry procs.
   def init_procs
     (1..8).each do |_i|
-      fetch(VOC.enemy_id[_i]).proc = Proc.new do |_id|
+      fetch(VOC.enemy_id(_i)).proc = Proc.new do |_id|
         if _id != 255
           _entry = @enemies.find { |_enemy| _enemy.id == _id }
           if _entry
-            _name_jp  = _entry[VOC.name_str['JP']]
-            _name_opt = _entry[VOC.name_opt[cid] ]
+            _name_jp  = _entry[VOC.name_str(jp )]
+            _name_opt = _entry[VOC.name_opt(cid)]
           else
             _name_jp  = '???'
             _name_opt = '???'
@@ -119,11 +117,9 @@ class EnemyEncounter < Entry
           _name_jp  = 'None'
           _name_opt = 'None'
         end
-        self[VOC.enemy_name_jp[_i]] = _name_jp
-        if us?
-          self[VOC.enemy_name_us[_i]] = _name_opt
-        elsif eu?
-          self[VOC.enemy_name_eu[_i]] = _name_opt
+        self[VOC.enemy_name(_i, jp)] = _name_jp
+        if us? || eu?
+          self[VOC.enemy_name(_i, cid)] = _name_opt
         end
       end
     end

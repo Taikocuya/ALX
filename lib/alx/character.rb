@@ -70,7 +70,7 @@ class Character < StdEntry
   
   def accessories=(_accessories)
     @accessories = _accessories || {}
-    fetch(VOC.accessory_id[nil])&.call_proc
+    fetch(VOC.accessory_id(nil))&.call_proc
   end
   
 #==============================================================================
@@ -89,7 +89,7 @@ class Character < StdEntry
   
   # Initialize the entry properties.
   def init_props
-    self[VOC.name_str[cid]      ] = StrProp.new(  11,  ''                    )
+    self[VOC.name_str(cid)      ] = StrProp.new(  11,  ''                    )
     self[VOC.age                ] = IntProp.new( :i8,   0                    )
     self[VOC.gender_id          ] = IntProp.new( :i8,   0                    )
     self[VOC.gender_name        ] = StrProp.new( nil,  '', dmy: true         )
@@ -103,8 +103,8 @@ class Character < StdEntry
     self[VOC.weapon_name        ] = StrProp.new( nil,  '', dmy: true         )
     self[VOC.armor_id           ] = IntProp.new(:u16,   0                    )
     self[VOC.armor_name         ] = StrProp.new( nil,  '', dmy: true         )
-    self[VOC.accessory_id[nil]  ] = IntProp.new(:u16,   0                    )
-    self[VOC.accessory_name[nil]] = StrProp.new( nil,  '', dmy: true         )
+    self[VOC.accessory_id(nil)  ] = IntProp.new(:u16,   0                    )
+    self[VOC.accessory_name(nil)] = StrProp.new( nil,  '', dmy: true         )
     self[VOC.movement_flags     ] = IntProp.new(:i16,   0, base: 2, width: 14)
     
     VOC.movements.each do |_id, _movement|
@@ -114,19 +114,19 @@ class Character < StdEntry
     self[VOC.hp                 ] = IntProp.new(:i16,   0)
     self[VOC.maxhp              ] = IntProp.new(:i16,   0)
     self[VOC.hp_growth          ] = IntProp.new(:i16,   0)
-    self[VOC.sp[nil]            ] = IntProp.new(:i16,   0)
-    self[VOC.maxsp[nil]         ] = IntProp.new(:i16,   0)
+    self[VOC.sp(nil)            ] = IntProp.new(:i16,   0)
+    self[VOC.maxsp(nil)         ] = IntProp.new(:i16,   0)
     self[VOC.counter            ] = IntProp.new(:i16,   0)
     self[padding_hdr            ] = IntProp.new(:i16,   0)
-    self[VOC.exp[nil]           ] = IntProp.new(:u32,   0)
+    self[VOC.exp(nil)           ] = IntProp.new(:u32,   0)
     self[VOC.mp_growth          ] = FltProp.new(:f32, 0.0)
     self[unknown_hdr            ] = FltProp.new(:f32, 0.0)
     
     (0...6).each do |_i|
-      self[VOC.elements[_i]] = IntProp.new(:i16, 0)
+      self[VOC.elements(_i)] = IntProp.new(:i16, 0)
     end
     (0...15).each do |_i|
-      self[VOC.states[_i]  ] = IntProp.new(:i16, 0)
+      self[VOC.states(_i)  ] = IntProp.new(:i16, 0)
     end
 
     self[VOC.danger         ] = IntProp.new(:i16,   0)
@@ -141,22 +141,22 @@ class Character < StdEntry
     self[VOC.vigor_growth   ] = FltProp.new(:f32, 0.0)
     self[VOC.agile_growth   ] = FltProp.new(:f32, 0.0)
     self[VOC.quick_growth   ] = FltProp.new(:f32, 0.0)
-    self[VOC.green_exp[nil] ] = IntProp.new(:i32,   0)
-    self[VOC.red_exp[nil]   ] = IntProp.new(:i32,   0)
-    self[VOC.purple_exp[nil]] = IntProp.new(:i32,   0)
-    self[VOC.blue_exp[nil]  ] = IntProp.new(:i32,   0)
-    self[VOC.yellow_exp[nil]] = IntProp.new(:i32,   0)
-    self[VOC.silver_exp[nil]] = IntProp.new(:i32,   0)
+    self[VOC.green_exp(nil) ] = IntProp.new(:i32,   0)
+    self[VOC.red_exp(nil)   ] = IntProp.new(:i32,   0)
+    self[VOC.purple_exp(nil)] = IntProp.new(:i32,   0)
+    self[VOC.blue_exp(nil)  ] = IntProp.new(:i32,   0)
+    self[VOC.yellow_exp(nil)] = IntProp.new(:i32,   0)
+    self[VOC.silver_exp(nil)] = IntProp.new(:i32,   0)
   end
   
   # Initialize the entry procs.
   def init_procs
     fetch(VOC.gender_id).proc = Proc.new do |_id|
-      self[VOC.gender_name] = VOC.genders[_id]
+      self[VOC.gender_name] = VOC.genders(_id)
     end
     
     fetch(VOC.element_id).proc = Proc.new do |_id|
-      self[VOC.element_name] = VOC.elements[_id]
+      self[VOC.element_name] = VOC.elements(_id)
     end
 
     fetch(VOC.weapon_id).proc = Proc.new do |_id|
@@ -165,9 +165,9 @@ class Character < StdEntry
         _name  = '???'
         if _entry
           if jp? || us?
-            _name = _entry[VOC.name_str[cid]]
+            _name = _entry[VOC.name_str(cid)]
           elsif eu?
-            _name = _entry[VOC.name_str['GB']]
+            _name = _entry[VOC.name_str('GB')]
           end
         end
       else
@@ -182,9 +182,9 @@ class Character < StdEntry
         _name  = '???'
         if _entry
           if jp? || us?
-            _name = _entry[VOC.name_str[cid]]
+            _name = _entry[VOC.name_str(cid)]
           elsif eu?
-            _name = _entry[VOC.name_str['GB']]
+            _name = _entry[VOC.name_str('GB')]
           end
         end
       else
@@ -193,21 +193,21 @@ class Character < StdEntry
       self[VOC.armor_name] = _name
     end
 
-    fetch(VOC.accessory_id[nil]).proc = Proc.new do |_id|
+    fetch(VOC.accessory_id(nil)).proc = Proc.new do |_id|
       if _id != -1
         _entry = @accessories[_id]
         _name  = '???'
         if _entry
           if jp? || us?
-            _name = _entry[VOC.name_str[cid]]
+            _name = _entry[VOC.name_str(cid)]
           elsif eu?
-            _name = _entry[VOC.name_str['GB']]
+            _name = _entry[VOC.name_str('GB')]
           end
         end
       else
         _name = 'None'
       end
-      self[VOC.accessory_name[nil]] = _name
+      self[VOC.accessory_name(nil)] = _name
     end
     
     fetch(VOC.movement_flags).proc = Proc.new do |_flags|

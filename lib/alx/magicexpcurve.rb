@@ -75,25 +75,25 @@ class MagicExpCurve < StdEntry
   
   # Initialize the entry properties.
   def init_props
-    self[VOC.character_name[nil]] = StrProp.new(nil, '', dmy: true)
+    self[VOC.character_name(nil)] = StrProp.new(nil, '', dmy: true)
     
     (1..6).each do |_i|
-      self[VOC.green_exp[_i] ] = IntProp.new(:u16, 0)
+      self[VOC.green_exp(_i) ] = IntProp.new(:u16, 0)
     end
     (1..6).each do |_i|
-      self[VOC.red_exp[_i]   ] = IntProp.new(:u16, 0)
+      self[VOC.red_exp(_i)   ] = IntProp.new(:u16, 0)
     end
     (1..6).each do |_i|
-      self[VOC.purple_exp[_i]] = IntProp.new(:u16, 0)
+      self[VOC.purple_exp(_i)] = IntProp.new(:u16, 0)
     end
     (1..6).each do |_i|
-      self[VOC.blue_exp[_i]  ] = IntProp.new(:u16, 0)
+      self[VOC.blue_exp(_i)  ] = IntProp.new(:u16, 0)
     end
     (1..6).each do |_i|
-      self[VOC.yellow_exp[_i]] = IntProp.new(:u16, 0)
+      self[VOC.yellow_exp(_i)] = IntProp.new(:u16, 0)
     end
     (1..6).each do |_i|
-      self[VOC.silver_exp[_i]] = IntProp.new(:u16, 0)
+      self[VOC.silver_exp(_i)] = IntProp.new(:u16, 0)
     end
   end
   
@@ -103,9 +103,9 @@ class MagicExpCurve < StdEntry
       _chara = @characters[id]
       _name  = '???'
       if _chara
-        _name = _chara[VOC.name_str[cid]]
+        _name = _chara[VOC.name_str(cid)]
       end
-      self[VOC.character_name[nil]] = _name
+      self[VOC.character_name(nil)] = _name
     end
   end
 

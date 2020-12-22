@@ -129,7 +129,7 @@ class EvpFile < EpFile
     @events.each_with_index do |_event, _id|
       _expired ||= _event.expired
       (1..7).each do |_i|
-        _enemy_id = _event[VOC.enemy_id[_i]]
+        _enemy_id = _event[VOC.enemy_id(_i)]
         if _enemy_id != 255
           _enemy = find_enemy(_enemy_id, _filename)
           if _enemy

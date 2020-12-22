@@ -58,7 +58,7 @@ class Shop < StdEntry
 
   def items=(_items)
     @items = _items || {}
-    fetch(VOC.item_id[nil])&.call_proc
+    fetch(VOC.item_id(nil))&.call_proc
   end
   
 #==============================================================================
@@ -77,34 +77,34 @@ class Shop < StdEntry
   def init_props
     self[VOC.id             ] = IntProp.new(:u16, 0          )
     self[padding_hdr        ] = IntProp.new(:i16, 0          )
-    self[VOC.message_id[cid]] = IntProp.new(:u32, 0, base: 16)
+    self[VOC.message_id(cid)] = IntProp.new(:u32, 0, base: 16)
 
     add_dscr_props
     
     (1..48).each do |_i|
-      self[VOC.item_id[_i]  ] = IntProp.new(:i16, -1           )
-      self[VOC.item_name[_i]] = StrProp.new( nil, '', dmy: true)
+      self[VOC.item_id(_i)  ] = IntProp.new(:i16, -1           )
+      self[VOC.item_name(_i)] = StrProp.new( nil, '', dmy: true)
     end
   end
   
   # Initialize the entry procs.
   def init_procs
     (1..48).each do |_i|
-      fetch(VOC.item_id[_i]).proc = Proc.new do |_id|
+      fetch(VOC.item_id(_i)).proc = Proc.new do |_id|
         if _id != -1
           _entry = @items[_id]
           _name  = '???'
           if _entry
             if jp? || us?
-              _name = _entry[VOC.name_str[cid]]
+              _name = _entry[VOC.name_str(cid)]
             elsif eu?
-              _name = _entry[VOC.name_str['GB']]
+              _name = _entry[VOC.name_str('GB')]
             end
           end
         else
           _name = 'None'
         end
-        self[VOC.item_name[_i]] = _name
+        self[VOC.item_name(_i)] = _name
       end
     end
   end

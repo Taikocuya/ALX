@@ -131,7 +131,16 @@ class ETC
       end
 
       singleton_class.class_eval(%Q{
-        attr_reader :#{_method}
+        def #{_method}(*_args)
+          if _args.size > 1
+            @#{_method}[_args]
+          elsif _args.size == 1
+            @#{_method}[*_args]
+          else
+            @#{_method}
+          end
+        end
+
         def #{_method}=(_value)
           _src = @#{_method}
           _dst = _value

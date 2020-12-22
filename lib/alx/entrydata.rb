@@ -284,6 +284,42 @@ class EntryData
     end
   end
 
+#------------------------------------------------------------------------------
+# Protected Member Variables
+#------------------------------------------------------------------------------
+
+  def eu
+    'EU'
+  end
+
+  def jp
+    'JP'
+  end
+
+  def us
+    'US'
+  end
+    
+  def languages
+    SYS.language_names.keys
+  end
+  
+  def de
+    'DE'
+  end
+
+  def es
+    'ES'
+  end
+
+  def fr
+    'FR'
+  end
+
+  def gb
+    'GB'
+  end
+  
 end # class EntryData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

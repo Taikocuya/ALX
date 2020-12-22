@@ -145,12 +145,12 @@ class ShipItem < StdEntry
     end
     
     fetch(VOC.ship_effect_id).proc = Proc.new do |_id|
-      self[VOC.ship_effect_name] = VOC.effects[_id]
+      self[VOC.ship_effect_name] = VOC.effects(_id)
     end
 
     if product_id != '6107110 06' && product_id != '6107810'
       fetch(VOC.element_id).proc = Proc.new do |_id|
-        self[VOC.element_name] = VOC.elements[_id]
+        self[VOC.element_name] = VOC.elements(_id)
       end
     end
   end

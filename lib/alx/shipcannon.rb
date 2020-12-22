@@ -78,11 +78,11 @@ class ShipCannon < StdEntry
       self[VOC.attack          ] = IntProp.new(:i16,  0           )
       self[VOC.hit             ] = IntProp.new(:u16,  0           )
       self[VOC.limit           ] = IntProp.new( :i8,  0           )
-      self[VOC.sp[nil]         ] = IntProp.new( :i8,  0           )
-      self[VOC.trait_id[nil]   ] = IntProp.new( :i8,  0           )
-      self[VOC.trait_name[nil] ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.sp(nil)         ] = IntProp.new( :i8,  0           )
+      self[VOC.trait_id(nil)   ] = IntProp.new( :i8,  0           )
+      self[VOC.trait_name(nil) ] = StrProp.new( nil, '', dmy: true)
       self[padding_hdr         ] = IntProp.new( :i8,  0           )
-      self[VOC.trait_value[nil]] = IntProp.new(:i16,  0           )
+      self[VOC.trait_value(nil)] = IntProp.new(:i16,  0           )
   
       if dc?
         self[padding_hdr] = IntProp.new(:i8, 0)
@@ -103,7 +103,7 @@ class ShipCannon < StdEntry
       if dc? || eu?
         self[padding_hdr] = IntProp.new(:i8, 0)
       else
-        self[VOC.padding[nil]] = IntProp.new(:i8, 0)
+        self[VOC.padding(nil)] = IntProp.new(:i8, 0)
       end
     
       add_dscr_props
@@ -116,13 +116,13 @@ class ShipCannon < StdEntry
       self[VOC.attack ] = IntProp.new(:i16, 0)
       self[VOC.hit    ] = IntProp.new(:u16, 0)
       self[VOC.limit  ] = IntProp.new( :i8, 0)
-      self[VOC.sp[nil]] = IntProp.new( :i8, 0)
+      self[VOC.sp(nil)] = IntProp.new( :i8, 0)
   
       (1..4).each do |_i|
-        self[VOC.trait_id[_i]   ] = IntProp.new( :i8,  0           )
-        self[VOC.trait_name[_i] ] = StrProp.new( nil, '', dmy: true)
+        self[VOC.trait_id(_i)   ] = IntProp.new( :i8,  0           )
+        self[VOC.trait_name(_i) ] = StrProp.new( nil, '', dmy: true)
         self[padding_hdr        ] = IntProp.new( :i8,  0           )
-        self[VOC.trait_value[_i]] = IntProp.new(:i16,  0           )
+        self[VOC.trait_value(_i)] = IntProp.new(:i16,  0           )
       end
   
       self[VOC.order[[cid, 1]]] = IntProp.new(:i8, -1)
@@ -141,21 +141,21 @@ class ShipCannon < StdEntry
     end
     
     fetch(VOC.type_id).proc = Proc.new do |_id|
-      self[VOC.type_name] = VOC.cannon_types[_id]
+      self[VOC.type_name] = VOC.cannon_types(_id)
     end
 
     fetch(VOC.element_id).proc = Proc.new do |_id|
-      self[VOC.element_name] = VOC.elements[_id]
+      self[VOC.element_name] = VOC.elements(_id)
     end
 
     if product_id != '6107110 06' && product_id != '6107810'
-      fetch(VOC.trait_id[nil]).proc = Proc.new do |_id|
-        self[VOC.trait_name[nil]] = VOC.ship_traits[_id]
+      fetch(VOC.trait_id(nil)).proc = Proc.new do |_id|
+        self[VOC.trait_name(nil)] = VOC.ship_traits(_id)
       end
     else
       (1..4).each do |_i|
-        fetch(VOC.trait_id[_i]).proc = Proc.new do |_id|
-          self[VOC.trait_name[_i]] = VOC.ship_traits[_id]
+        fetch(VOC.trait_id(_i)).proc = Proc.new do |_id|
+          self[VOC.trait_name(_i)] = VOC.ship_traits(_id)
         end
       end
     end

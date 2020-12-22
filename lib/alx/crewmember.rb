@@ -67,10 +67,10 @@ class CrewMember < StdEntry
         self[padding_hdr] = IntProp.new(:i8, 0)
       end
       
-      self[VOC.trait_id[nil]    ] = IntProp.new( :i8, -1           )
-      self[VOC.trait_name[nil]  ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.trait_id(nil)    ] = IntProp.new( :i8, -1           )
+      self[VOC.trait_name(nil)  ] = StrProp.new( nil, '', dmy: true)
       self[padding_hdr          ] = IntProp.new( :i8,  0           )
-      self[VOC.trait_value[nil] ] = IntProp.new(:i16,  0           )
+      self[VOC.trait_value(nil) ] = IntProp.new(:i16,  0           )
       self[VOC.ship_effect_id   ] = IntProp.new( :i8, -1           )
       self[VOC.ship_effect_name ] = StrProp.new( nil, '', dmy: true)
       self[VOC.ship_effect_sp   ] = IntProp.new( :i8, -1           )
@@ -80,11 +80,11 @@ class CrewMember < StdEntry
       self[padding_hdr          ] = IntProp.new( :i8,  0           )
       
       if gc? && jp?
-        self[VOC.unknown[nil]    ] = IntProp.new(:i16, 0)
+        self[VOC.unknown(nil)    ] = IntProp.new(:i16, 0)
         self[VOC.ship_effect_base] = IntProp.new(:i16, 0)
       else
         self[VOC.ship_effect_base] = IntProp.new(:i16, 0)
-        self[VOC.unknown[nil]    ] = IntProp.new(:i16, 0)
+        self[VOC.unknown(nil)    ] = IntProp.new(:i16, 0)
       end
   
       self[padding_hdr] = IntProp.new(:i8, 0)
@@ -94,10 +94,10 @@ class CrewMember < StdEntry
       
       add_dscr_props
     else
-      self[VOC.trait_id[nil]    ] = IntProp.new( :i8, -1           )
-      self[VOC.trait_name[nil]  ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.trait_id(nil)    ] = IntProp.new( :i8, -1           )
+      self[VOC.trait_name(nil)  ] = StrProp.new( nil, '', dmy: true)
       self[padding_hdr          ] = IntProp.new( :i8,  0           )
-      self[VOC.trait_value[nil] ] = IntProp.new(:i16,  0           )
+      self[VOC.trait_value(nil) ] = IntProp.new(:i16,  0           )
       self[VOC.ship_effect_id   ] = IntProp.new( :i8, -1           )
       self[VOC.ship_effect_name ] = StrProp.new( nil, '', dmy: true)
       self[VOC.ship_effect_turns] = IntProp.new( :i8, -1           )
@@ -113,15 +113,15 @@ class CrewMember < StdEntry
   # Initialize the entry procs.
   def init_procs
     fetch(VOC.position_id).proc = Proc.new do |_id|
-      self[VOC.position_name] = VOC.positions[_id]
+      self[VOC.position_name] = VOC.positions(_id)
     end
 
-    fetch(VOC.trait_id[nil]).proc = Proc.new do |_id|
-      self[VOC.trait_name[nil]] = VOC.ship_traits[_id]
+    fetch(VOC.trait_id(nil)).proc = Proc.new do |_id|
+      self[VOC.trait_name(nil)] = VOC.ship_traits(_id)
     end
 
     fetch(VOC.ship_effect_id).proc = Proc.new do |_id|
-      self[VOC.ship_effect_name] = VOC.effects[_id]
+      self[VOC.ship_effect_name] = VOC.effects(_id)
     end
   end
 

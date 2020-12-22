@@ -82,7 +82,7 @@ class EnemyShipTask < Entry
     fetch(VOC.filter)&.call_proc
     if eu?
       (1..2).each do |_i|
-        fetch(VOC.task_arm_id[_i])&.call_proc
+        fetch(VOC.task_arm_id(_i))&.call_proc
       end
     end
   end
@@ -91,7 +91,7 @@ class EnemyShipTask < Entry
     @magics = _magics || {}
     
     (1..2).each do |_i|
-      fetch(VOC.task_param_id[_i])&.call_proc
+      fetch(VOC.task_param_id(_i))&.call_proc
     end
   end
   
@@ -127,17 +127,17 @@ class EnemyShipTask < Entry
     self[VOC.rating         ] = IntProp.new(:i16,     0           )
     
     (1..2).each do |_i|
-      self[VOC.task_type_id[_i]  ] = IntProp.new(:i16,  0           )
-      self[VOC.task_type_name[_i]] = StrProp.new( nil, '', dmy: true)
-      self[VOC.task_arm_id[_i]   ] = IntProp.new(:i16,  0           )
+      self[VOC.task_type_id(_i)  ] = IntProp.new(:i16,  0           )
+      self[VOC.task_type_name(_i)] = StrProp.new( nil, '', dmy: true)
+      self[VOC.task_arm_id(_i)   ] = IntProp.new(:i16,  0           )
       
       if eu?
-        self[VOC.task_arm_name[_i]] = StrProp.new(nil, '', dmy: true)
+        self[VOC.task_arm_name(_i)] = StrProp.new(nil, '', dmy: true)
       end
       
-      self[VOC.task_param_id[_i]  ] = IntProp.new(:i16,  0           )
-      self[VOC.task_param_name[_i]] = StrProp.new( nil, '', dmy: true)
-      self[VOC.task_range[_i]     ] = IntProp.new(:i16,  0           )
+      self[VOC.task_param_id(_i)  ] = IntProp.new(:i16,  0           )
+      self[VOC.task_param_name(_i)] = StrProp.new( nil, '', dmy: true)
+      self[VOC.task_range(_i)     ] = IntProp.new(:i16,  0           )
     end
   end
   
@@ -157,9 +157,9 @@ class EnemyShipTask < Entry
       _enemy_ship = (@enemy_id != -1) ? @enemy_ships[@enemy_id] : nil
       if _enemy_ship
         if jp? || us?
-          _name = _enemy_ship[VOC.name_str[cid]]
+          _name = _enemy_ship[VOC.name_str(cid)]
         elsif eu?
-          _name = _enemy_ship[VOC.name_str['GB']]
+          _name = _enemy_ship[VOC.name_str('GB')]
         end
       end
       self[VOC.enemy_ship_name] = _name
@@ -167,28 +167,28 @@ class EnemyShipTask < Entry
 
     (1..2).each do |_i|
       if eu?
-        fetch(VOC.task_arm_id[_i]).proc = Proc.new do |_id|
+        fetch(VOC.task_arm_id(_i)).proc = Proc.new do |_id|
           _name       = '???'
           _enemy_ship = (@enemy_id != -1) ? @enemy_ships[@enemy_id] : nil
           if _enemy_ship
-            _id = self[VOC.task_arm_id[_i]]
+            _id = self[VOC.task_arm_id(_i)]
             if _id > -1
-              _name = _enemy_ship[VOC.arm_name_gb_str[_id + 1]]
+              _name = _enemy_ship[VOC.arm_name_str(_id + 1, gb)]
             else
               _name = 'None'
             end
           end
-          self[VOC.task_arm_name[_i]] = _name
+          self[VOC.task_arm_name(_i)] = _name
         end
       end
 
-      fetch(VOC.task_type_id[_i]).proc = Proc.new do
-        fetch(VOC.task_param_id[_i])&.call_proc
+      fetch(VOC.task_type_id(_i)).proc = Proc.new do
+        fetch(VOC.task_param_id(_i))&.call_proc
       end
       
-      fetch(VOC.task_param_id[_i]).proc = Proc.new do |_param_id|
-        _type_id    = self[VOC.task_type_id[_i]]
-        _type_name  = VOC.ship_task_types[_type_id]
+      fetch(VOC.task_param_id(_i)).proc = Proc.new do |_param_id|
+        _type_id    = self[VOC.task_type_id(_i)]
+        _type_name  = VOC.ship_task_types(_type_id)
         _param_name = (_param_id != -1) ? '???' : 'None'
         
         case _type_id
@@ -198,21 +198,21 @@ class EnemyShipTask < Entry
           _entry = @magics[_param_id]
           if _entry
             if jp? || us?
-              _param_name = _entry[VOC.name_str[cid]]
+              _param_name = _entry[VOC.name_str(cid)]
             elsif eu?
-              _param_name = _entry[VOC.name_str['GB']]
+              _param_name = _entry[VOC.name_str('GB')]
             end
           end
         when 2
-          _param_name = VOC.focus_ship_tasks[_param_id]
+          _param_name = VOC.focus_ship_tasks(_param_id)
         when 3
-          _param_name = VOC.guard_ship_tasks[_param_id]
+          _param_name = VOC.guard_ship_tasks(_param_id)
         when 4
-          _param_name = VOC.nothing_ship_tasks[_param_id]
+          _param_name = VOC.nothing_ship_tasks(_param_id)
         end
         
-        self[VOC.task_type_name[_i] ] = _type_name
-        self[VOC.task_param_name[_i]] = _param_name
+        self[VOC.task_type_name(_i) ] = _type_name
+        self[VOC.task_param_name(_i)] = _param_name
       end
     end
   end

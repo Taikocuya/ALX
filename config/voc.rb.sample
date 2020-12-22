@@ -551,13 +551,11 @@ VOC.configure do |_v|
 # Enemy
 #------------------------------------------------------------------------------
 
-  _v.enemy_id       = hdr('EC%d ID'       )
-  _v.enemy_ref      = '[EC ID]'
-  _v.enemy_name_jp  = hdr('[EC%d JP Name]')
-  _v.enemy_name_us  = hdr('[EC%d US Name]')
-  _v.enemy_name_eu  = hdr('[EC%d EU Name]')
-  _v.enemy_x        = hdr('EC%d X'        )
-  _v.enemy_z        = hdr('EC%d Z'        )
+  _v.enemy_id   = hdr('EC%d ID'       )
+  _v.enemy_ref  = '[EC ID]'
+  _v.enemy_name = hdr('[EC%d %s Name]')
+  _v.enemy_x    = hdr('EC%d X'        )
+  _v.enemy_z    = hdr('EC%d Z'        )
 
   _v.item_probability = hdr('Item %d Prob' )
   _v.item_amount      = hdr('Item %d Amount')
@@ -687,22 +685,9 @@ VOC.configure do |_v|
   _v.enemy_ship_id   = '[ES ID]'
   _v.enemy_ship_name = '[ES Name]'
 
-  _v.arm_name_eu = hdr('Arm %d EU Name')
-  _v.arm_name_jp = hdr('Arm %d JP Name')
-  _v.arm_name_us = hdr('Arm %d US Name')
-
-  _v.arm_name_de_pos  = hdr('[Arm %d DE Name Pos]' )
-  _v.arm_name_de_size = hdr('[Arm %d DE Name Size]')
-  _v.arm_name_de_str  = hdr('Arm %d DE Name Str'   )
-  _v.arm_name_es_pos  = hdr('[Arm %d ES Name Pos]' )
-  _v.arm_name_es_size = hdr('[Arm %d ES Name Size]')
-  _v.arm_name_es_str  = hdr('Arm %d ES Name Str'   )
-  _v.arm_name_fr_pos  = hdr('[Arm %d FR Name Pos]' )
-  _v.arm_name_fr_size = hdr('[Arm %d FR Name Size]')
-  _v.arm_name_fr_str  = hdr('Arm %d FR Name Str'   )
-  _v.arm_name_gb_pos  = hdr('[Arm %d GB Name Pos]' )
-  _v.arm_name_gb_size = hdr('[Arm %d GB Name Size]')
-  _v.arm_name_gb_str  = hdr('Arm %d GB Name Str'   )
+  _v.arm_name_pos  = hdr('[Arm %d %s Name Pos]' )
+  _v.arm_name_size = hdr('[Arm %d %s Name Size]')
+  _v.arm_name_str  = hdr('Arm %d %s Name Str'   )
 
   _v.arm_attack       = hdr('Arm %d Attack'        )
   _v.arm_type_id      = hdr('Arm %d Type ID'       )

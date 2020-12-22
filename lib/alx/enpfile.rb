@@ -223,7 +223,7 @@ class EnpFile < EpFile
       _found.each do |_encounter|
         _expired ||= _encounter.expired
         (1..8).each do |_i|
-          _enemy_id = _encounter[VOC.enemy_id[_i]]
+          _enemy_id = _encounter[VOC.enemy_id(_i)]
           if _enemy_id != 255
             _enemy = find_enemy(_enemy_id, _segname)
             if _enemy

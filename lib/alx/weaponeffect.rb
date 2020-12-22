@@ -57,25 +57,25 @@ class WeaponEffect < Entry
 
   # Initialize the entry properties.
   def init_props
-    self[VOC.name_str['JP']] = StrProp.new( 17, ''           )
-    self[VOC.dscr_opt[nil] ] = StrProp.new(nil, '', dmy: true)
-    self[VOC.effect_id     ] = IntProp.new(:i8, -1           )
-    self[VOC.effect_name   ] = StrProp.new(nil, '', dmy: true)
-    self[VOC.state_id      ] = IntProp.new(:i8,  0           )
-    self[VOC.state_name    ] = StrProp.new(nil, '', dmy: true)
-    self[VOC.state_miss    ] = IntProp.new(:i8,  0           )
+    self[VOC.name_str(jp) ] = StrProp.new( 17, ''           )
+    self[VOC.dscr_opt(nil)] = StrProp.new(nil, '', dmy: true)
+    self[VOC.effect_id    ] = IntProp.new(:i8, -1           )
+    self[VOC.effect_name  ] = StrProp.new(nil, '', dmy: true)
+    self[VOC.state_id     ] = IntProp.new(:i8,  0           )
+    self[VOC.state_name   ] = StrProp.new(nil, '', dmy: true)
+    self[VOC.state_miss   ] = IntProp.new(:i8,  0           )
   end
   
   # Initialize the entry procs.
   def init_procs
     fetch(VOC.effect_id).proc = Proc.new do |_id|
-      self[VOC.effect_name] = VOC.effects[_id]
+      self[VOC.effect_name] = VOC.effects(_id)
       
       fetch(VOC.state_miss)&.call_proc
     end
     
     fetch(VOC.state_id).proc = Proc.new do |_id|
-      self[VOC.state_name] = VOC.states[_id]
+      self[VOC.state_name] = VOC.states(_id)
       
       fetch(VOC.state_miss)&.call_proc
     end
@@ -87,7 +87,7 @@ class WeaponEffect < Entry
       else
         _dscr = 'None'
       end
-      self[VOC.dscr_opt[nil]] = _dscr
+      self[VOC.dscr_opt(nil)] = _dscr
     end
   end
 

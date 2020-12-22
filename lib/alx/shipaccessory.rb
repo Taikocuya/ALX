@@ -71,10 +71,10 @@ class ShipAccessory < StdEntry
 
     if product_id != '6107110 06' && product_id != '6107810'
       (1..4).each do |_i|
-        self[VOC.trait_id[_i]   ] = IntProp.new( :i8,  0           )
-        self[VOC.trait_name[_i] ] = StrProp.new( nil, '', dmy: true)
+        self[VOC.trait_id(_i)   ] = IntProp.new( :i8,  0           )
+        self[VOC.trait_name(_i) ] = StrProp.new( nil, '', dmy: true)
         self[padding_hdr        ] = IntProp.new( :i8,  0           )
-        self[VOC.trait_value[_i]] = IntProp.new(:i16,  0           )
+        self[VOC.trait_value(_i)] = IntProp.new(:i16,  0           )
       end
   
       if dc?
@@ -105,10 +105,10 @@ class ShipAccessory < StdEntry
       self[padding_hdr] = IntProp.new( :i8, 0)
       
       (1..4).each do |_i|
-        self[VOC.trait_id[_i]   ] = IntProp.new( :i8,  0           )
-        self[VOC.trait_name[_i] ] = StrProp.new( nil, '', dmy: true)
+        self[VOC.trait_id(_i)   ] = IntProp.new( :i8,  0           )
+        self[VOC.trait_name(_i) ] = StrProp.new( nil, '', dmy: true)
         self[padding_hdr        ] = IntProp.new( :i8,  0           )
-        self[VOC.trait_value[_i]] = IntProp.new(:i16,  0           )
+        self[VOC.trait_value(_i)] = IntProp.new(:i16,  0           )
       end
       
       self[VOC.order[[cid, 1]]] = IntProp.new(:i8, -1)
@@ -125,8 +125,8 @@ class ShipAccessory < StdEntry
     end
 
     (1..4).each do |_i|
-      fetch(VOC.trait_id[_i]).proc = Proc.new do |_id|
-        self[VOC.trait_name[_i]] = VOC.ship_traits[_id]
+      fetch(VOC.trait_id(_i)).proc = Proc.new do |_id|
+        self[VOC.trait_name(_i)] = VOC.ship_traits(_id)
       end
     end
   end

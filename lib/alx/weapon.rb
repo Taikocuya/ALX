@@ -77,8 +77,8 @@ class Weapon < StdEntry
   def init_props
     add_name_props
     
-    self[VOC.character_id[nil]  ] = IntProp.new(:i8,  0           )
-    self[VOC.character_name[nil]] = StrProp.new(nil, '', dmy: true)
+    self[VOC.character_id(nil)  ] = IntProp.new(:i8,  0           )
+    self[VOC.character_name(nil)] = StrProp.new(nil, '', dmy: true)
     self[VOC.sell               ] = IntProp.new(:i8,  0           )
     self[VOC.order[[cid, 1]]    ] = IntProp.new(:i8, -1           )
     self[VOC.order[[cid, 2]]    ] = IntProp.new(:i8, -1           )
@@ -92,18 +92,18 @@ class Weapon < StdEntry
     self[VOC.buy             ] = IntProp.new(:u16,  0           )
     self[VOC.attack          ] = IntProp.new(:i16,  0           )
     self[VOC.hit             ] = IntProp.new(:i16,  0           )
-    self[VOC.trait_id[nil]   ] = IntProp.new( :i8,  0           )
-    self[VOC.trait_name[nil] ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.trait_id(nil)   ] = IntProp.new( :i8,  0           )
+    self[VOC.trait_name(nil) ] = StrProp.new( nil, '', dmy: true)
     self[padding_hdr         ] = IntProp.new( :i8,  0           )
-    self[VOC.trait_value[nil]] = IntProp.new(:i16,  0           )
+    self[VOC.trait_value(nil)] = IntProp.new(:i16,  0           )
     
     add_dscr_props
   end
   
   # Initialize the entry procs.
   def init_procs
-    fetch(VOC.character_id[nil]).proc = Proc.new do |_id|
-      self[VOC.character_name[nil]] = VOC.characters[_id]
+    fetch(VOC.character_id(nil)).proc = Proc.new do |_id|
+      self[VOC.character_name(nil)] = VOC.characters(_id)
     end
     
     fetch(VOC.effect_id).proc = Proc.new do |_id|
@@ -111,7 +111,7 @@ class Weapon < StdEntry
         _entry = @weapon_effects[_id]
         _name  = '???'
         if _entry
-          _name = _entry[VOC.dscr_opt[nil]]
+          _name = _entry[VOC.dscr_opt(nil)]
         end
       else
         _name = 'None'
@@ -119,8 +119,8 @@ class Weapon < StdEntry
       self[VOC.effect_name] = _name
     end
     
-    fetch(VOC.trait_id[nil]).proc = Proc.new do |_id|
-      self[VOC.trait_name[nil]] = VOC.traits[_id]
+    fetch(VOC.trait_id(nil)).proc = Proc.new do |_id|
+      self[VOC.trait_name(nil)] = VOC.traits(_id)
     end
   end
 

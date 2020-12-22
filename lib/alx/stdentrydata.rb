@@ -149,9 +149,9 @@ class StdEntryData < EntryData
           else
             _lang = find_lang(_filename)
           end
-          _pos  = _entry.fetch(VOC.name_pos[_lang])
-          _size = _entry.fetch(VOC.name_size[_lang])
-          _name = _entry.fetch(VOC.name_str[_lang])
+          _pos  = _entry.fetch(VOC.name_pos(_lang))
+          _size = _entry.fetch(VOC.name_size(_lang))
+          _name = _entry.fetch(VOC.name_str(_lang))
       
           if _msgtbl
             _msg = @msg_table[_msgid]
@@ -215,9 +215,9 @@ class StdEntryData < EntryData
           elsif eu?
             _lang = find_lang(_filename)
           end
-          _pos  = _entry.fetch(VOC.dscr_pos[_lang])
-          _size = _entry.fetch(VOC.dscr_size[_lang])
-          _dscr = _entry.fetch(VOC.dscr_str[_lang])
+          _pos  = _entry.fetch(VOC.dscr_pos(_lang))
+          _size = _entry.fetch(VOC.dscr_size(_lang))
+          _dscr = _entry.fetch(VOC.dscr_str(_lang))
           
           if _msgtbl
             _msg = @msg_table[_msgid]
@@ -331,9 +331,9 @@ class StdEntryData < EntryData
           _lang = find_lang(_filename)
         end
         if _lang
-          _pos  = _entry[VOC.name_pos[_lang]]
-          _size = _entry[VOC.name_size[_lang]]
-          _name = _entry[VOC.name_str[_lang]]
+          _pos  = _entry[VOC.name_pos(_lang)]
+          _size = _entry[VOC.name_size(_lang)]
+          _name = _entry[VOC.name_str(_lang)]
         else
           _pos  = -1
           _size = 0
@@ -380,9 +380,9 @@ class StdEntryData < EntryData
           _lang = find_lang(_filename)
         end
         if _lang
-          _pos  = _entry[VOC.dscr_pos[_lang]]
-          _size = _entry[VOC.dscr_size[_lang]]
-          _dscr = _entry[VOC.dscr_str[_lang]]
+          _pos  = _entry[VOC.dscr_pos(_lang)]
+          _size = _entry[VOC.dscr_size(_lang)]
+          _dscr = _entry[VOC.dscr_str(_lang)]
         else
           _pos  = -1
           _size = 0
@@ -529,11 +529,11 @@ class StdEntryData < EntryData
   # @param _filename [String] Filename
   # @return [String] PAL-E language
   def find_lang(_filename)
-    return 'DE' if _filename.include?(glob(:sot_file_de))
-    return 'ES' if _filename.include?(glob(:sot_file_es))
-    return 'FR' if _filename.include?(glob(:sot_file_fr))
-    return 'GB' if _filename.include?(glob(:sot_file_gb))
-    return ''
+    return de if _filename.include?(glob(:sot_file_de))
+    return es if _filename.include?(glob(:sot_file_es))
+    return fr if _filename.include?(glob(:sot_file_fr))
+    return gb if _filename.include?(glob(:sot_file_gb))
+    nil
   end
   
 end # class StdEntryData

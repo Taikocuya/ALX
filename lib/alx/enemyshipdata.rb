@@ -109,25 +109,11 @@ class EnemyShipData < StdEntryData
           _entry = @data[_id]
 
           (1..4).each do |_i|
-            case find_lang(_filename)
-            when 'DE'
-              _pos  = _entry.fetch(VOC.arm_name_de_pos[_i] )
-              _size = _entry.fetch(VOC.arm_name_de_size[_i])
-              _name = _entry.fetch(VOC.arm_name_de_str[_i] )
-            when 'ES'
-              _pos  = _entry.fetch(VOC.arm_name_es_pos[_i] )
-              _size = _entry.fetch(VOC.arm_name_es_size[_i])
-              _name = _entry.fetch(VOC.arm_name_es_str[_i] )
-            when 'FR'
-              _pos  = _entry.fetch(VOC.arm_name_fr_pos[_i] )
-              _size = _entry.fetch(VOC.arm_name_fr_size[_i])
-              _name = _entry.fetch(VOC.arm_name_fr_str[_i] )
-            when 'GB'
-              _pos  = _entry.fetch(VOC.arm_name_gb_pos[_i] )
-              _size = _entry.fetch(VOC.arm_name_gb_size[_i])
-              _name = _entry.fetch(VOC.arm_name_gb_str[_i] )
-            end
-            
+            _lang = find_lang(_filename)
+            _pos  = _entry.fetch(VOC.arm_name_pos(_i, _lang) )
+            _size = _entry.fetch(VOC.arm_name_size(_i, _lang))
+            _name = _entry.fetch(VOC.arm_name_str(_i, _lang) )
+
             LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
             
             _pos.int  = _f.pos
@@ -192,28 +178,16 @@ class EnemyShipData < StdEntryData
         end
         
         (1..4).each do |_i|
-          case find_lang(_filename)
-          when 'DE'
-            _pos  = _entry[VOC.arm_name_de_pos[_i] ]
-            _size = _entry[VOC.arm_name_de_size[_i]]
-            _name = _entry[VOC.arm_name_de_str[_i] ]
-          when 'ES'
-            _pos  = _entry[VOC.arm_name_es_pos[_i] ]
-            _size = _entry[VOC.arm_name_es_size[_i]]
-            _name = _entry[VOC.arm_name_es_str[_i] ]
-          when 'FR'
-            _pos  = _entry[VOC.arm_name_fr_pos[_i] ]
-            _size = _entry[VOC.arm_name_fr_size[_i]]
-            _name = _entry[VOC.arm_name_fr_str[_i] ]
-          when 'GB'
-            _pos  = _entry[VOC.arm_name_gb_pos[_i] ]
-            _size = _entry[VOC.arm_name_gb_size[_i]]
-            _name = _entry[VOC.arm_name_gb_str[_i] ]
+          _lang = find_lang(_filename)
+          if _lang
+            _pos  = _entry[VOC.arm_name_pos(_i, _lang) ]
+            _size = _entry[VOC.arm_name_size(_i, _lang)]
+            _name = _entry[VOC.arm_name_str(_i, _lang) ]
           else
             _pos  = -1
             _size = 0
           end
-          
+
           _f.pos = _pos
           if !_descriptor.include?(_f.pos, _size - 1) || !_entry.expired
             next

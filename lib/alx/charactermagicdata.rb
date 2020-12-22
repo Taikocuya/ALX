@@ -88,9 +88,9 @@ class CharacterMagicData < StdEntryData
           elsif eu?
             _lang = find_lang(_filename)
           end
-          _pos  = _entry.fetch(VOC.ship_dscr_pos[_lang])
-          _size = _entry.fetch(VOC.ship_dscr_size[_lang])
-          _dscr = _entry.fetch(VOC.ship_dscr_str[_lang])
+          _pos  = _entry.fetch(VOC.ship_dscr_pos(_lang))
+          _size = _entry.fetch(VOC.ship_dscr_size(_lang))
+          _dscr = _entry.fetch(VOC.ship_dscr_str(_lang))
 
           if _msgtbl
             _msg = @msg_table[_msgid]
@@ -162,9 +162,9 @@ class CharacterMagicData < StdEntryData
           _lang = find_lang(_filename)
         end
         if _lang
-          _pos  = _entry[VOC.ship_dscr_pos[_lang]]
-          _size = _entry[VOC.ship_dscr_size[_lang]]
-          _dscr = _entry[VOC.ship_dscr_str[_lang]]
+          _pos  = _entry[VOC.ship_dscr_pos(_lang)]
+          _size = _entry[VOC.ship_dscr_size(_lang)]
+          _dscr = _entry[VOC.ship_dscr_str(_lang)]
         else
           _pos  = -1
           _size = 0

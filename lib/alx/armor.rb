@@ -62,7 +62,7 @@ class Armor < StdEntry
     self[VOC.character_flags] = IntProp.new(:u8, 0, base: 2, width: 10)
 
     VOC.characters.each_value do |_name|
-      self[VOC.character_opt[_name.chr]] = StrProp.new(nil, '', dmy: true)
+      self[VOC.character_opt(_name.chr)] = StrProp.new(nil, '', dmy: true)
     end
 
     self[VOC.sell           ] = IntProp.new(:i8,  0)
@@ -76,10 +76,10 @@ class Armor < StdEntry
     self[VOC.buy] = IntProp.new(:u16, 0)
     
     (1..4).each do |_i|
-      self[VOC.trait_id[_i]   ] = IntProp.new( :i8,  0           )
-      self[VOC.trait_name[_i] ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.trait_id(_i)   ] = IntProp.new( :i8,  0           )
+      self[VOC.trait_name(_i) ] = StrProp.new( nil, '', dmy: true)
       self[padding_hdr        ] = IntProp.new( :i8,  0           )
-      self[VOC.trait_value[_i]] = IntProp.new(:i16,  0           )
+      self[VOC.trait_value(_i)] = IntProp.new(:i16,  0           )
     end
 
     if eu?
@@ -94,14 +94,14 @@ class Armor < StdEntry
   def init_procs
     fetch(VOC.character_flags).proc = Proc.new do |_flags|
       VOC.characters.each do |_id, _name|
-        _key       = VOC.character_opt[_name.chr]
+        _key       = VOC.character_opt(_name.chr)
         self[_key] = (_flags & (0x20 >> _id) != 0) ? 'X' : ''
       end
     end
     
     (1..4).each do |_i|
-      fetch(VOC.trait_id[_i]).proc = Proc.new do |_id|
-        self[VOC.trait_name[_i]] = VOC.traits[_id]
+      fetch(VOC.trait_id(_i)).proc = Proc.new do |_id|
+        self[VOC.trait_name(_i)] = VOC.traits(_id)
       end
     end
   end

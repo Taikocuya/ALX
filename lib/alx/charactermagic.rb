@@ -55,7 +55,7 @@ class CharacterMagic < CharacterSuperMove
         self[_size[cid]] = IntProp.new(:u32,  0,           ext: true)
         self[_str[cid] ] = StrProp.new( nil, '',           ext: true)
       elsif eu?
-        ['DE', 'ES', 'FR', 'GB'].each do |_l|
+        languages.each do |_l|
           self[_pos[_l] ] = IntProp.new(:u32,  0, base: 16, ext: true)
           self[_size[_l]] = IntProp.new(:u32,  0,           ext: true)
           self[_str[_l] ] = StrProp.new( nil, '',           ext: true)

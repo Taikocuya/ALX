@@ -326,6 +326,42 @@ class Entry
   def unknown_hdr
     VOC.unknown[@unknown_id += 1]
   end
+
+#------------------------------------------------------------------------------
+# Protected Member Variables
+#------------------------------------------------------------------------------
+
+  def eu
+    'EU'
+  end
+
+  def jp
+    'JP'
+  end
+
+  def us
+    'US'
+  end
+  
+  def languages
+    SYS.language_names.keys
+  end
+  
+  def de
+    'DE'
+  end
+
+  def es
+    'ES'
+  end
+
+  def fr
+    'FR'
+  end
+
+  def gb
+    'GB'
+  end
   
 end	# class Entry
 

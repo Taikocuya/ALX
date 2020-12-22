@@ -204,14 +204,12 @@ class EnemyTask < Entry
   
   # Initialize the entry properties.
   def init_props
-    self[VOC.filter            ] = AryProp.new(      [], dmy: true)
-    self[VOC.enemy_ref         ] = IntProp.new(:u32, -1, dmy: true)
-    self[VOC.enemy_name_jp[nil]] = StrProp.new( nil, '', dmy: true)
+    self[VOC.filter             ] = AryProp.new(      [], dmy: true)
+    self[VOC.enemy_ref          ] = IntProp.new(:u32, -1, dmy: true)
+    self[VOC.enemy_name(nil, jp)] = StrProp.new( nil, '', dmy: true)
     
-    if us?
-      self[VOC.enemy_name_us[nil]] = StrProp.new(nil, '', dmy: true)
-    elsif eu?
-      self[VOC.enemy_name_eu[nil]] = StrProp.new(nil, '', dmy: true)
+    if us? || eu?
+      self[VOC.enemy_name(nil, cid)] = StrProp.new(nil, '', dmy: true)
     end
     
     self[VOC.type_id   ] = IntProp.new(:i16, -1           )
@@ -227,17 +225,15 @@ class EnemyTask < Entry
     fetch(VOC.enemy_ref).proc = Proc.new do |_id|
       _entry = @enemies.find { |_enemy| _enemy.id == _id }
       if _entry
-        _name_jp  = _entry[VOC.name_str['JP']]
-        _name_opt = _entry[VOC.name_opt[cid] ]
+        _name_jp  = _entry[VOC.name_str(jp )]
+        _name_opt = _entry[VOC.name_opt(cid)]
       else
         _name_jp  = '???'
         _name_opt = '???'
       end
-      self[VOC.enemy_name_jp[nil]] = _name_jp
-      if us?
-        self[VOC.enemy_name_us[nil]] = _name_opt
-      elsif eu?
-        self[VOC.enemy_name_eu[nil]] = _name_opt
+      self[VOC.enemy_name(nil, 'JP')] = _name_jp
+      if us? || eu?
+        self[VOC.enemy_name(nil, cid)] = _name_opt
       end
     end
     
@@ -252,21 +248,21 @@ class EnemyTask < Entry
     fetch(VOC.param_id).proc = Proc.new do |_param_id|
       _type_id    = self[VOC.type_id]
       _task_id    = self[VOC.task_id]
-      _type_name  = VOC.task_types[_type_id]
+      _type_name  = VOC.task_types(_type_id)
       _task_name  = (_task_id  != -1) ? '???' : 'None'
       _param_name = (_param_id != -1) ? '???' : 'None'
       
       case _type_id
       # Branch
       when 0
-        _task_name  = VOC.branches[_task_id]
-        _param_name = VOC.branch_params[_param_id]
+        _task_name  = VOC.branches(_task_id)
+        _param_name = VOC.branch_params(_param_id)
       # Action
       when 1
         # Type
         _entry = nil
         if _task_id >= 550
-          _task_name = VOC.actions[_task_id]
+          _task_name = VOC.actions(_task_id)
         elsif _task_id >= 500
           _entry = @magics[_task_id - 500]
         elsif _task_id >= 0
@@ -274,14 +270,14 @@ class EnemyTask < Entry
         end
         if _entry
           if jp? || us?
-            _task_name = _entry[VOC.name_str[cid]]
+            _task_name = _entry[VOC.name_str(cid)]
           elsif eu?
-            _task_name = _entry[VOC.name_str['GB']]
+            _task_name = _entry[VOC.name_str('GB')]
           end
         end
       
         # Target
-        _param_name = VOC.action_params[_param_id]
+        _param_name = VOC.action_params(_param_id)
       end
 
       self[VOC.type_name ] = _type_name

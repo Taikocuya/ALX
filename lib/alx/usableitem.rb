@@ -102,23 +102,23 @@ class UsableItem < StdEntry
     end
 
     fetch(VOC.effect_id).proc = Proc.new do |_id|
-      self[VOC.effect_name] = VOC.effects[_id]
+      self[VOC.effect_name] = VOC.effects(_id)
     end
 
     fetch(VOC.scope_id).proc = Proc.new do |_id|
-      self[VOC.scope_name] = VOC.scopes[_id]
+      self[VOC.scope_name] = VOC.scopes(_id)
     end
 
     fetch(VOC.element_id).proc = Proc.new do |_id|
-      self[VOC.element_name] = VOC.elements[_id]
+      self[VOC.element_name] = VOC.elements(_id)
     end
 
     fetch(VOC.type_id).proc = Proc.new do |_id|
-      self[VOC.type_name] = VOC.types[_id]
+      self[VOC.type_name] = VOC.types(_id)
     end
 
     fetch(VOC.state_id).proc = Proc.new do |_id|
-      self[VOC.state_name] = VOC.states[_id]
+      self[VOC.state_name] = VOC.states(_id)
     end
   end
 

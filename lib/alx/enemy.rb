@@ -78,7 +78,7 @@ class Enemy < Entry
     @items = _items || {}
     
     (1..4).each do |_i|
-      fetch(VOC.item_id[_i])&.call_proc
+      fetch(VOC.item_id(_i))&.call_proc
     end
   end
 
@@ -132,11 +132,11 @@ class Enemy < Entry
   
   # Initialize the entry properties.
   def init_props
-    self[VOC.filter        ] = AryProp.new(    [], dmy: true)
-    self[VOC.name_str['JP']] = StrProp.new(21, ''           )
+    self[VOC.filter      ] = AryProp.new(    [], dmy: true)
+    self[VOC.name_str(jp)] = StrProp.new(21, ''           )
 
     if us? || eu?
-      self[VOC.name_opt[cid]] = StrProp.new(nil, '', dmy: true)
+      self[VOC.name_opt(cid)] = StrProp.new(nil, '', dmy: true)
     end
 
     self[VOC.width         ] = IntProp.new( :i8,   0                    )
@@ -152,7 +152,7 @@ class Enemy < Entry
     end
 
     self[VOC.counter ] = IntProp.new(:i16,   0)
-    self[VOC.exp[nil]] = IntProp.new(:u16,   0)
+    self[VOC.exp(nil)] = IntProp.new(:u16,   0)
     self[VOC.gold    ] = IntProp.new(:u16,   0)
     self[padding_hdr ] = IntProp.new( :i8,  -1)
     self[padding_hdr ] = IntProp.new( :i8,  -1)
@@ -160,10 +160,10 @@ class Enemy < Entry
     self[unknown_hdr ] = FltProp.new(:f32, 0.0)
 
     (0...6).each do |_i|
-      self[VOC.elements[_i]] = IntProp.new(:i16, 0)
+      self[VOC.elements(_i)] = IntProp.new(:i16, 0)
     end
     (0...15).each do |_i|
-      self[VOC.states[_i]  ] = IntProp.new(:i16, 0)
+      self[VOC.states(_i)  ] = IntProp.new(:i16, 0)
     end
 
     self[VOC.danger     ] = IntProp.new(:i16,  0           )
@@ -187,10 +187,10 @@ class Enemy < Entry
     self[padding_hdr    ] = IntProp.new( :i8, -1           )
 
     (1..4).each do |_i|
-      self[VOC.item_probability[_i]] = IntProp.new(:i16, -1           )
-      self[VOC.item_amount[_i]     ] = IntProp.new(:i16, -1           )
-      self[VOC.item_id[_i]         ] = IntProp.new(:i16, -1           )
-      self[VOC.item_name[_i]       ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.item_probability(_i)] = IntProp.new(:i16, -1           )
+      self[VOC.item_amount(_i)     ] = IntProp.new(:i16, -1           )
+      self[VOC.item_id(_i)         ] = IntProp.new(:i16, -1           )
+      self[VOC.item_name(_i)       ] = StrProp.new( nil, '', dmy: true)
     end
   end
   
@@ -199,7 +199,7 @@ class Enemy < Entry
     if us? || eu?
       fetch(VOC.id).proc = Proc.new do |_id|
         _name = voc(:enemies, id.to_s) || '???'
-        self[VOC.name_opt[cid]] = _name
+        self[VOC.name_opt(cid)] = _name
       end
     end
 
@@ -210,33 +210,33 @@ class Enemy < Entry
     end
 
     fetch(VOC.element_id).proc = Proc.new do |_id|
-      self[VOC.element_name] = VOC.elements[_id]
+      self[VOC.element_name] = VOC.elements(_id)
     end
     
     fetch(VOC.effect_id).proc = Proc.new do |_id|
-      self[VOC.effect_name] = VOC.effects[_id]
+      self[VOC.effect_name] = VOC.effects(_id)
     end
 
     fetch(VOC.state_id).proc = Proc.new do |_id|
-      self[VOC.state_name] = VOC.states[_id]
+      self[VOC.state_name] = VOC.states(_id)
     end
 
     (1..4).each do |_i|
-      fetch(VOC.item_id[_i]).proc = Proc.new do |_id|
+      fetch(VOC.item_id(_i)).proc = Proc.new do |_id|
         if _id != -1
           _entry = @items[_id]
           _name  = '???'
           if _entry
             if jp? || us?
-              _name = _entry[VOC.name_str[cid]]
+              _name = _entry[VOC.name_str(cid)]
             elsif eu?
-              _name = _entry[VOC.name_str['GB']]
+              _name = _entry[VOC.name_str('GB')]
             end
           end
         else
           _name = 'None'
         end
-        self[VOC.item_name[_i]] = _name
+        self[VOC.item_name(_i)] = _name
       end
     end
   end

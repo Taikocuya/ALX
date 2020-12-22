@@ -58,7 +58,7 @@ class TreasureChest < StdEntry
 
   def items=(_items)
     @items = _items || {}
-    fetch(VOC.item_id[nil])&.call_proc
+    fetch(VOC.item_id(nil))&.call_proc
   end
   
 #==============================================================================
@@ -78,13 +78,13 @@ class TreasureChest < StdEntry
     self[VOC.location] = StrProp.new(nil, '', dmy: true)
       
     if product_id != '6107110 06' && product_id != '6107810'
-      self[VOC.item_id[nil]    ] = IntProp.new(:i32, -1           )
-      self[VOC.item_name[nil]  ] = StrProp.new( nil, '', dmy: true)
-      self[VOC.item_amount[nil]] = IntProp.new(:i32, -1           )
+      self[VOC.item_id(nil)    ] = IntProp.new(:i32, -1           )
+      self[VOC.item_name(nil)  ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.item_amount(nil)] = IntProp.new(:i32, -1           )
     else
-      self[VOC.item_id[nil]    ] = IntProp.new(:i16, -1           )
-      self[VOC.item_name[nil]  ] = StrProp.new( nil, '', dmy: true)
-      self[VOC.item_amount[nil]] = IntProp.new(:i16, -1           )
+      self[VOC.item_id(nil)    ] = IntProp.new(:i16, -1           )
+      self[VOC.item_name(nil)  ] = StrProp.new( nil, '', dmy: true)
+      self[VOC.item_amount(nil)] = IntProp.new(:i16, -1           )
     end
   end
 
@@ -95,7 +95,7 @@ class TreasureChest < StdEntry
       self[VOC.location] = _name
     end
 
-    fetch(VOC.item_id[nil]).proc = Proc.new do |_id|
+    fetch(VOC.item_id(nil)).proc = Proc.new do |_id|
       if _id != -1
         if _id >= 510
           _name = VOC.gold
@@ -104,16 +104,16 @@ class TreasureChest < StdEntry
           _name  = '???'
           if _entry
             if jp? || us?
-              _name = _entry[VOC.name_str[cid]]
+              _name = _entry[VOC.name_str(cid)]
             elsif eu?
-              _name = _entry[VOC.name_str['GB']]
+              _name = _entry[VOC.name_str('GB')]
             end
           end
         end
       else
         _name = 'None'
       end
-      self[VOC.item_name[nil]] = _name
+      self[VOC.item_name(nil)] = _name
     end
   end
 

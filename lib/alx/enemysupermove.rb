@@ -117,21 +117,21 @@ class EnemySuperMove < StdEntry
   # Initialize the entry procs.
   def init_procs
     fetch(VOC.category_id).proc = Proc.new do |_id|
-      self[VOC.category_name] = VOC.enemy_skill_categories[_id]
+      self[VOC.category_name] = VOC.enemy_skill_categories(_id)
     end
 
     fetch(VOC.effect_id).proc = Proc.new do |_id|
-      self[VOC.effect_name] = VOC.effects[_id]
+      self[VOC.effect_name] = VOC.effects(_id)
       
       fetch(VOC.effect_param_id)&.call_proc
     end
 
     fetch(VOC.scope_id).proc = Proc.new do |_id|
-      self[VOC.scope_name] = VOC.scopes[_id]
+      self[VOC.scope_name] = VOC.scopes(_id)
     end
 
     fetch(VOC.element_id).proc = Proc.new do |_id|
-      self[VOC.element_name] = VOC.elements[_id]
+      self[VOC.element_name] = VOC.elements(_id)
     end
 
     fetch(VOC.effect_param_id).proc = Proc.new do |_id|
@@ -144,32 +144,32 @@ class EnemySuperMove < StdEntry
         
         if _entry
           if jp?
-            _name = _entry[VOC.name_str['JP']]
+            _name = _entry[VOC.name_str(jp )]
           else
-            _name = _entry[VOC.name_opt[cid] ]
+            _name = _entry[VOC.name_opt(cid)]
           end
         end
 
         self[VOC.effect_param_name] = _name
       else
-        self[VOC.effect_param_name] = VOC.traits[_id]
+        self[VOC.effect_param_name] = VOC.traits(_id)
       end
     end
 
     fetch(VOC.type_id).proc = Proc.new do |_id|
-      self[VOC.type_name] = VOC.types[_id]
+      self[VOC.type_name] = VOC.types(_id)
     end
     
     fetch(VOC.state_infliction_id).proc = Proc.new do |_id|
-      self[VOC.state_infliction_name] = VOC.traits[_id]
+      self[VOC.state_infliction_name] = VOC.traits(_id)
     end
     
     fetch(VOC.state_resistance_id).proc = Proc.new do |_id|
-      self[VOC.state_resistance_name] = VOC.traits[_id]
+      self[VOC.state_resistance_name] = VOC.traits(_id)
     end
 
     fetch(VOC.state_id).proc = Proc.new do |_id|
-      self[VOC.state_name] = VOC.states[_id]
+      self[VOC.state_name] = VOC.states(_id)
     end
   end
 

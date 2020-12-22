@@ -75,10 +75,10 @@ class SpiritCurve < StdEntry
   
   # Initialize the entry properties.
   def init_props
-    self[VOC.character_name[nil]] = StrProp.new(nil, '', dmy: true)
+    self[VOC.character_name(nil)] = StrProp.new(nil, '', dmy: true)
     (1..99).each do |_i|
-      self[VOC.sp[_i]   ] = IntProp.new(:i8, 0)
-      self[VOC.maxsp[_i]] = IntProp.new(:i8, 0)
+      self[VOC.sp(_i)   ] = IntProp.new(:i8, 0)
+      self[VOC.maxsp(_i)] = IntProp.new(:i8, 0)
     end
   end
   
@@ -88,9 +88,9 @@ class SpiritCurve < StdEntry
       _chara = @characters[id]
       _name  = '???'
       if _chara
-        _name = _chara[VOC.name_str[cid]]
+        _name = _chara[VOC.name_str(cid)]
       end
-      self[VOC.character_name[nil]] = _name
+      self[VOC.character_name(nil)] = _name
     end
   end
 

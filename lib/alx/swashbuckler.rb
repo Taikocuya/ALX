@@ -57,13 +57,13 @@ class Swashbuckler < StdEntry
   # Initialize the entry properties.
   def init_props
     if jp? || us?
-      self[VOC.name_str[cid]] = StrProp.new(25, '')
+      self[VOC.name_str(cid)] = StrProp.new(25, '')
     elsif eu?
-      self[VOC.message_id[cid]] = IntProp.new(:u32, 0, base: 16)
-      ['DE', 'ES', 'FR', 'GB'].each do |_l|
-        self[VOC.name_pos[_l] ] = IntProp.new(:u32,  0, base: 16, ext: true)
-        self[VOC.name_size[_l]] = IntProp.new(:u32,  0,           ext: true)
-        self[VOC.name_str[_l] ] = StrProp.new( nil, '',           ext: true)
+      self[VOC.message_id(cid)] = IntProp.new(:u32, 0, base: 16)
+      languages.each do |_l|
+        self[VOC.name_pos(_l) ] = IntProp.new(:u32,  0, base: 16, ext: true)
+        self[VOC.name_size(_l)] = IntProp.new(:u32,  0,           ext: true)
+        self[VOC.name_str(_l) ] = StrProp.new( nil, '',           ext: true)
       end
     end
     
@@ -74,7 +74,7 @@ class Swashbuckler < StdEntry
     end
     
     self[VOC.attack      ] = IntProp.new(:i16, 0)
-    self[VOC.unknown[nil]] = IntProp.new(:i16, 0)
+    self[VOC.unknown(nil)] = IntProp.new(:i16, 0)
     self[VOC.dodge       ] = IntProp.new(:i16, 0)
     self[VOC.run         ] = IntProp.new(:i16, 0)
     

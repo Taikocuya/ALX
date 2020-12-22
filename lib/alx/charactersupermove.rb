@@ -66,7 +66,7 @@ class CharacterSuperMove < StdEntry
       self[padding_hdr] = IntProp.new(:i8, 0)
     end
     
-    self[VOC.order[nil]    ] = IntProp.new(:i16, -1                   )
+    self[VOC.order(nil)    ] = IntProp.new(:i16, -1                   )
     self[VOC.occasion_flags] = IntProp.new( :u8,  0, base: 2, width: 6)
     
     VOC.occasions.each do |_id, _occasion|
@@ -100,7 +100,7 @@ class CharacterSuperMove < StdEntry
     self[VOC.ship_effect_sp    ] = IntProp.new( :i8, -1           )
     self[VOC.ship_effect_turns ] = IntProp.new( :i8, -1           )
     self[VOC.ship_effect_base  ] = IntProp.new(:i16,  0           )
-    self[VOC.unknown[nil]      ] = IntProp.new( :i8, -1           )
+    self[VOC.unknown(nil)      ] = IntProp.new( :i8, -1           )
     self[padding_hdr           ] = IntProp.new( :i8,  0           )
     self[padding_hdr           ] = IntProp.new( :i8,  0           )
     self[padding_hdr           ] = IntProp.new( :i8,  0           )
@@ -111,7 +111,7 @@ class CharacterSuperMove < StdEntry
   # Initialize the entry procs.
   def init_procs
     fetch(VOC.element_id).proc = Proc.new do |_id|
-      self[VOC.element_name] = VOC.elements[_id]
+      self[VOC.element_name] = VOC.elements(_id)
     end
     
     fetch(VOC.occasion_flags).proc = Proc.new do |_flags|
@@ -121,31 +121,31 @@ class CharacterSuperMove < StdEntry
     end
     
     fetch(VOC.effect_id).proc = Proc.new do |_id|
-      self[VOC.effect_name] = VOC.effects[_id]
+      self[VOC.effect_name] = VOC.effects(_id)
     end
     
     fetch(VOC.scope_id).proc = Proc.new do |_id|
-      self[VOC.scope_name] = VOC.scopes[_id]
+      self[VOC.scope_name] = VOC.scopes(_id)
     end
     
     fetch(VOC.category_id).proc = Proc.new do |_id|
-      self[VOC.category_name] = VOC.character_skill_categories[_id]
+      self[VOC.category_name] = VOC.character_skill_categories(_id)
     end
     
     fetch(VOC.type_id).proc = Proc.new do |_id|
-      self[VOC.type_name] = VOC.types[_id]
+      self[VOC.type_name] = VOC.types(_id)
     end
 
     fetch(VOC.state_id).proc = Proc.new do |_id|
-      self[VOC.state_name] = VOC.states[_id]
+      self[VOC.state_name] = VOC.states(_id)
     end
     
     fetch(VOC.ship_occasion_id).proc = Proc.new do |_id|
-      self[VOC.ship_occasion_name] = VOC.ship_occasions[_id]
+      self[VOC.ship_occasion_name] = VOC.ship_occasions(_id)
     end
     
     fetch(VOC.ship_effect_id).proc = Proc.new do |_id|
-      self[VOC.ship_effect_name] = VOC.effects[_id]
+      self[VOC.ship_effect_name] = VOC.effects(_id)
     end
   end
 
