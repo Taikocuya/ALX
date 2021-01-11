@@ -32,7 +32,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle a integer property.
+# Class to handle an integer property.
 class IntProp < Prop
   
 #==============================================================================
@@ -49,7 +49,7 @@ class IntProp < Prop
   # @param base   [Integer] Base
   # @param width  [Integer] Pad with zeros (CSV only)
   # @param comp   [Boolean] Is comparable
-  # @param dmy    [Boolean] Set +comp+ and +ext+ to +true+
+  # @param dmy    [Boolean] Set +comp+ to +false+ and +ext+ to +true+
   # @param ext    [Boolean] Serialize externally
   def initialize(
     _type, _value, base: 10, width: 0, comp: true, dmy: false, ext: false
@@ -84,12 +84,7 @@ class IntProp < Prop
   # @param _header [String]   Column header
   # @param _row    [CSV::Row] CSV row
   def read_csv(_header, _row)
-    case @base
-    when 2, 10, 16
-      self.value = Integer(_row[_header] || value)
-    else
-      self.value = (_row[_header] || value).to_i(@base)
-    end
+    self.value = Integer(_row[_header] || value, @base)
   end
 
   # Writes one entry to a CSV row.

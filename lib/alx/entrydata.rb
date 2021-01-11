@@ -262,7 +262,7 @@ class EntryData
 
   # Finds the range descriptor with given filename.
   # @param _descriptor [RangeDescriptor,Array] Range descriptor(s)
-  # @param _filename   [String]                Filename
+  # @param _filename   [String]                File name
   # @return [RangeDescriptor] Range descriptor
   def find_descriptor(_descriptor, _filename)
     if _descriptor.is_a?(Array)

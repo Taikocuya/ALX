@@ -107,13 +107,13 @@ class EnemyTask < Entry
   def magics=(_magics)
     @magics = _magics || {}
     
-    fetch(VOC.param_id)&.call_proc
+    fetch(VOC.param_id(nil))&.call_proc
   end
 
   def super_moves=(_super_moves)
     @super_moves = _super_moves || {}
     
-    fetch(VOC.param_id)&.call_proc
+    fetch(VOC.param_id(nil))&.call_proc
   end
   
   def files
@@ -153,11 +153,11 @@ class EnemyTask < Entry
   end
 
   def param_id
-    self[VOC.param_id] || -1
+    self[VOC.param_id(nil)] || -1
   end
   
   def param_id=(_param_id)
-    self[VOC.param_id] = _param_id
+    self[VOC.param_id(nil)] = _param_id
   end
 
   def order
@@ -212,12 +212,12 @@ class EnemyTask < Entry
       self[VOC.enemy_name(nil, cid)] = StrProp.new(nil, '', dmy: true)
     end
     
-    self[VOC.type_id   ] = IntProp.new(:i16, -1           )
-    self[VOC.type_name ] = StrProp.new( nil, '', dmy: true)
-    self[VOC.task_id   ] = IntProp.new(:i16, -1           )
-    self[VOC.task_name ] = StrProp.new( nil, '', dmy: true)
-    self[VOC.param_id  ] = IntProp.new(:i16, -1           )
-    self[VOC.param_name] = StrProp.new( nil, '', dmy: true)
+    self[VOC.type_id        ] = IntProp.new(:i16, -1           )
+    self[VOC.type_name      ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.task_id        ] = IntProp.new(:i16, -1           )
+    self[VOC.task_name      ] = StrProp.new( nil, '', dmy: true)
+    self[VOC.param_id(nil)  ] = IntProp.new(:i16, -1           )
+    self[VOC.param_name(nil)] = StrProp.new( nil, '', dmy: true)
   end
   
   # Initialize the entry procs.
@@ -238,14 +238,14 @@ class EnemyTask < Entry
     end
     
     fetch(VOC.type_id).proc = Proc.new do
-      fetch(VOC.param_id)&.call_proc
+      fetch(VOC.param_id(nil))&.call_proc
     end
   
     fetch(VOC.task_id).proc = Proc.new do
-      fetch(VOC.param_id)&.call_proc
+      fetch(VOC.param_id(nil))&.call_proc
     end
 
-    fetch(VOC.param_id).proc = Proc.new do |_param_id|
+    fetch(VOC.param_id(nil)).proc = Proc.new do |_param_id|
       _type_id    = self[VOC.type_id]
       _task_id    = self[VOC.task_id]
       _type_name  = VOC.task_types(_type_id)
@@ -282,7 +282,7 @@ class EnemyTask < Entry
 
       self[VOC.type_name ] = _type_name
       self[VOC.task_name ] = _task_name
-      self[VOC.param_name] = _param_name
+      self[VOC.param_name(nil)] = _param_name
     end
   end
 

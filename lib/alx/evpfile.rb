@@ -155,8 +155,8 @@ class EvpFile < EpFile
 
     CompressedFile.open(root, _filename, 'wb') do |_f|
       # Events
-      _dummy   = create_event
-      _f.pos   = _num_enemies * 0x8
+      _dummy = create_event
+      _f.pos = _num_enemies * 0x8
       if @events.size > _num_events
         raise(IOError, "event quota of #{_num_events} exceeded")
       end

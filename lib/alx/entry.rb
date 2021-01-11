@@ -26,6 +26,7 @@ require('csv')
 require_relative('binarystringio.rb')
 require_relative('aryprop.rb')
 require_relative('fltprop.rb')
+require_relative('dynprop.rb')
 require_relative('intprop.rb')
 require_relative('main.rb')
 require_relative('strprop.rb')
@@ -204,6 +205,10 @@ class Entry
   attr_reader   :props
   attr_accessor :expired
 
+  def clear
+    @props.clear
+  end
+  
   def [](_key)
     @props[_key]&.value
   end
@@ -231,6 +236,10 @@ class Entry
     end
     
     @props[_key] = _prop
+  end
+  
+  def delete(_key)
+    @props.delete(_key)
   end
   
   def id

@@ -281,8 +281,8 @@ class GameRoot
     _files = Dir.glob(_path)
 
     if block_given?
-      _files.each do |_p|
-        yield(_p)
+      _files.each_with_index do |_p|
+        yield _p
       end
     else
       if _files.empty?

@@ -89,7 +89,7 @@ class EnemyShipData < StdEntryData
   def load_arm_name_from_bin(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @id_range.begin
       _descriptor = find_descriptor(@arm_name_file, _filename)
@@ -117,7 +117,7 @@ class EnemyShipData < StdEntryData
             LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
             
             _pos.int  = _f.pos
-            _name.str = _f.read_str(0xff, 0x1, 'Windows-1252')
+            _name.str = _f.read_str(nil, 0x1, 'Windows-1252')
             _size.int = _f.pos - _pos.int
           end
         end

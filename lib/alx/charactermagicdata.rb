@@ -61,7 +61,7 @@ class CharacterMagicData < StdEntryData
   def load_ship_dscr_from_bin(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @id_range.begin
       _descriptor = find_descriptor(@ship_dscr_file, _filename)
@@ -106,9 +106,9 @@ class CharacterMagicData < StdEntryData
           
           _pos.int = _f.pos
           if jp? || us?
-            _dscr.str = _f.read_str(0xff, 0x4)
+            _dscr.str = _f.read_str(nil, 0x4)
           else
-            _dscr.str = _f.read_str(0xff, 0x1, 'Windows-1252')
+            _dscr.str = _f.read_str(nil, 0x1, 'Windows-1252')
           end
           _size.int = _f.pos - _pos.int
 

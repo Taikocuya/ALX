@@ -23,7 +23,7 @@
 #==============================================================================
 
 require_relative('rangedescriptor.rb')
-require_relative('substitute.rb')
+require_relative('substitution.rb')
 
 #==============================================================================
 #                                   MODULE
@@ -109,9 +109,9 @@ module ALX
     Range.new(_min, _max, true)
   end
 
-  # @see Substitute::new
+  # @see Substitution::new
   def self.gs(...)
-    Substitute.new(...)
+    Substitution.new(...)
   end
 
   # Creates a dynamic CSV header.

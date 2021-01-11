@@ -98,6 +98,12 @@ VOC.configure do |_v|
   _v.ship_dscr_size = hdr('[Ship %s Descr Size]')
   _v.ship_dscr_str  = hdr('Ship %s Descr Str'   )
 
+  _v.task_id     = 'Task ID'
+  _v.task_name   = '[Task Name]'
+  _v.param_id    = hdr('Param %d ID'    )
+  _v.param_value = hdr('Param %d Val'   )
+  _v.param_name  = hdr('[Param %d Name]')
+
   _v.age            = 'Age'
   _v.agile          = 'Agile'
   _v.attack         = 'Attack'
@@ -216,6 +222,23 @@ VOC.configure do |_v|
   _v.string_value    = 'Str Value'
   _v.string_data     = '[Str Data]'
   _v.string_filter   = '[Str Filter]'
+  
+#------------------------------------------------------------------------------
+# Scripts
+#------------------------------------------------------------------------------
+
+  _v.year       = 'Year'
+  _v.month      = 'Month'
+  _v.day        = 'Day'
+  _v.version    = 'Version'
+  _v.event_id   = '[Event ID]'
+  _v.event_name = '[Event Name]'
+  
+  _v.script_tasks                  = Hash.new('???')
+  _v.script_tasks[[0x4000000, 17]] = 'Set Bit'
+  _v.script_tasks[[0x4000000, 18]] = 'Unset Bit'
+  _v.script_tasks[[0x4000000, 19]] = 'Invert Bit'
+  _v.script_tasks[[0x4000000, 20]] = 'Get Item'
 
 #------------------------------------------------------------------------------
 # Effects
@@ -561,11 +584,6 @@ VOC.configure do |_v|
   _v.item_amount      = hdr('Item %d Amount')
   _v.item_id          = hdr('Item %d ID'    )
   _v.item_name        = hdr('[Item %d Name]')
-
-  _v.task_id    = 'Task ID'
-  _v.task_name  = '[Task Name]'
-  _v.param_id   = 'Param ID'
-  _v.param_name = '[Param Name]'
 
   _v.task_types     = Hash.new('???')
   _v.task_types[-1] = 'None'

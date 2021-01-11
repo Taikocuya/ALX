@@ -33,10 +33,8 @@ module Serializable
 #                                  CONSTANTS
 #==============================================================================
 
-  # Byte order mark
-  BO_MARK    = 0xfeff
   # Endianness of this host (do not edit).
-  ENDIANNESS = ([BO_MARK].pack('s') == [BO_MARK].pack('n') ? :be : :le)
+  ENDIANNESS  = ([0xfeff].pack('s') == [0xfeff].pack('n') ? :be : :le)
 
 #==============================================================================
 #                                   PUBLIC
@@ -209,31 +207,63 @@ module Serializable
     write([_flt].pack(_format))
   end
 
-  # Reads a null-terminated string from the file.
+  # Reads a string from the file. If +_size+ is omitted or +_block+ is given,
+  # the string have to be null-terminated.
+  # 
   # @param _size     [Integer] Desired number of bytes to read.
   # @param _blocks   [Integer] Block size in bytes
   # @param _encoding [String]  Character encoding
+  # 
   # @return [String] String from the file, which has been read.
-  def read_str(_size, _blocks = nil, _encoding = 'Shift_JIS')
-    _str = ''.force_encoding('ASCII-8BIT')
-    
-    if _size > 0
+  def read_str(_size = nil, _blocks = nil, _encoding = 'Shift_JIS')
+    if _size
       if _blocks && _blocks > 0
-        begin
-          _blk  = read(_blocks).unpack('Z*').first
-          _str << _blk
-        end while _blk.size == _blocks && _str.bytesize < _size
-      else
-        _str << read(_size).unpack('Z*').first
+        if _size % _blocks != 0
+          _msg = sprintf(
+            'string size invalid (given %#x, expected %#x or %#x)',
+            _size,
+            _size - _size % _blocks,
+            _size + (_blocks - _size % _blocks)
+          )
+          raise(IOError, _msg)
+        end
       end
-
-      if _encoding == 'Windows-1252'
-        _str.gsub!("\x81\x63".force_encoding('ASCII-8BIT'), "\x85")
+    else
+      _blocks ||= 0x1
+    end
+    
+    _beg = pos
+    _str = ''.force_encoding('ASCII-8BIT')
+    if _size
+      _str << read(_size)
+    else
+      _str  << readline("\x00")
+      _diff  = pos - _beg
+      if _blocks && _diff % _blocks != 0
+        _str << read(_blocks - _diff % _blocks)
       end
-      
-      _str.force_encoding(_encoding)
+    end
+    _str = _str.unpack('Z*').first
+    
+    _diff = pos - _beg
+    if _blocks && _blocks > 0 && _diff % _blocks != 0
+      _msg = sprintf(
+        'string size invalid (given %#x, expected %#x)',
+        _size,
+        _diff + (_blocks - _diff % _blocks)
+      )
+      raise(IOError, _msg)
     end
 
+    if _str.empty?
+      return _str
+    end
+    
+    if _encoding == 'Windows-1252'
+      _str.gsub!("\x81\x63".force_encoding('ASCII-8BIT'), "\x85")
+    end
+    
+    _str.force_encoding(_encoding)
     _str.encode!('UTF-8')
     
     if _encoding == 'Windows-1252'
@@ -244,12 +274,17 @@ module Serializable
     _str
   end
 
-  # Writes a null-terminated string to the file.
+  # Writes a string to the file. If +_size+ is omitted or +_block+ is given,
+  # the string will be null-terminated. If the string is less than +_size+
+  # and +_block+ is given, the string is additionally padded with spaces.
+  # 
   # @param _str      [String]  String which will be written to the stream.
   # @param _size     [Integer] Desired number of bytes to write.
   # @param _blocks   [Integer] Block size in bytes
   # @param _encoding [String]  Character encoding
-  def write_str(_str, _size, _blocks = nil, _encoding = 'Shift_JIS')
+  def write_str(_str, _size = nil, _blocks = nil, _encoding = 'Shift_JIS')
+    _str = _str.dup
+
     if _encoding == 'Windows-1252'
       _str.gsub!('“', '[')
       _str.gsub!('”', ']')
@@ -261,28 +296,47 @@ module Serializable
       _str.encode!(_encoding)
     end
 
-    if _size > 0
-      if _str.bytesize + 1 > _size
-        _msg = 'string size invalid (given %s, expected %s)'
-        raise(IOError, sprintf(_msg, _str.bytesize + 1, _size))
+    if _size
+      if _str.bytesize > _size
+        _msg = 'string size invalid (given %#x, expected %#x)'
+        _exp = _str.bytesize
+        if _blocks && _blocks > 0
+          _exp += _blocks - _str.bytesize % _blocks
+        end
+        raise(IOError, sprintf(_msg, _size, _exp))
       end
       if _blocks && _blocks > 0
-        _1st_part = [_str].pack("A#{_size}")
-        _2nd_part = [_str].pack("Z#{_size}")
+        if _str.bytesize + (_blocks - _str.bytesize % _blocks) > _size
+          _msg = sprintf(
+            'string size invalid (given %#x, expected %#x)',
+            _size,
+            _str.bytesize + (_blocks - _str.bytesize % _blocks)
+          )
+          raise(IOError, _msg)
+        end
+        if _size % _blocks != 0
+          _msg = sprintf(
+            'string size invalid (given %#x, expected %#x or %#x)',
+            _size,
+            _size - _size % _blocks,
+            _size + (_blocks - _size % _blocks)
+          )
+          raise(IOError, _msg)
+        end
         
-        _1st_part.slice!(_size - _blocks, _blocks)
-        _2nd_part.slice!(0, _size - _blocks)
-        _2nd_part[-1] = "\0"
-    
-        write(_1st_part)
-        write(_2nd_part)
-      else
-        write([_str].pack("Z#{_size - 1}"))
-        write_int(0, :u8)
+        _str = _str.ljust(_size - _blocks)
       end
+    else
+      _size     = _str.bytesize
+      _blocks ||= 0x1
+      _size    += _blocks - _size % _blocks
+    end
+
+    if _size > 0
+      write([_str].pack("Z#{_size}"))
     end
   end
-  
+
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------

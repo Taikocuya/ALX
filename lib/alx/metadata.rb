@@ -77,16 +77,15 @@ class MetaData
     _result
   end
 
-  # Returns +true+ if the metadata has modified, otherwise +false+.
-  # @return [Boolean] +true+ if metadata has modified, otherwise +false+.
+  # Returns +true+ if the metadata has been modified, otherwise +false+.
+  # @return [Boolean] +true+ if metadata has been modified, otherwise +false+.
   def updated?
     @modified > @created
   end
 
-  # Checks the modification time of the given file and updates #modified if it 
-  # is newer.
+  # Stores the modification time of the given file.
   # @param _filename [String] File name
-  def check_mtime(_filename)
+  def store_mtime(_filename)
     _mtime = File.mtime(_filename)
     if _mtime > @modified
       @modified = _mtime

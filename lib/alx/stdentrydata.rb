@@ -89,7 +89,7 @@ class StdEntryData < EntryData
   def load_bin_data(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _size       = create_entry.size
       _last_id    = @id_range.begin
@@ -122,7 +122,7 @@ class StdEntryData < EntryData
   def load_bin_names(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @id_range.begin
       _descriptor = find_descriptor(@name_file, _filename)
@@ -166,7 +166,7 @@ class StdEntryData < EntryData
           LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
           
           _pos.int  = _f.pos
-          _name.str = _f.read_str(0xff, 0x1, 'Windows-1252')
+          _name.str = _f.read_str(nil, 0x1, 'Windows-1252')
           _size.int = _f.pos - _pos.int
 
           if _msgtbl
@@ -188,7 +188,7 @@ class StdEntryData < EntryData
   def load_bin_dscr(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @id_range.begin
       _descriptor = find_descriptor(@dscr_file, _filename)
@@ -233,9 +233,9 @@ class StdEntryData < EntryData
           
           _pos.int = _f.pos
           if jp? || us?
-            _dscr.str = _f.read_str(0xff, 0x4)
+            _dscr.str = _f.read_str(nil, 0x4)
           else
-            _dscr.str = _f.read_str(0xff, 0x1, 'Windows-1252')
+            _dscr.str = _f.read_str(nil, 0x1, 'Windows-1252')
           end
           _size.int = _f.pos - _pos.int
 
@@ -434,7 +434,7 @@ class StdEntryData < EntryData
   
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
       _snapshot = snaps[:data].dup
       

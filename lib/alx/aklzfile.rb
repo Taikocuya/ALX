@@ -252,7 +252,7 @@ class AklzFile < BinaryStringIO
       end
 
       if @buffio.size != _file_size
-        _msg = 'file size invalid (given %s, expected %s)'
+        _msg = 'file size invalid (given %#x, expected %#x)'
         raise(IOError, sprintf(_msg, @buffio.size, _file_size))
       end
     end

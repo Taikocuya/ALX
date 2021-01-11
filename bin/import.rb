@@ -59,7 +59,9 @@ class Importer
     super
     @exec_files = Dir.glob(EXEC_FILES)
     @exec_files.select! do |_p|
-      File.file?(_p) && File.basename(_p) != 'importdefinedstring.rb'
+      _result   = File.file?(_p)
+      _result &&= File.basename(_p) != 'importdefinedstring.rb'
+      _result &&= File.basename(_p) != 'importscripttask.rb'
     end
   end
   

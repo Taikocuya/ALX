@@ -83,7 +83,7 @@ class DefinedStringData < EntryData
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _descriptor = find_descriptor(@data_file, _filename)
       _descriptor.each do |_range|
@@ -115,7 +115,7 @@ class DefinedStringData < EntryData
           _entry[VOC.string_data    ] = _detect.dump
           
           if SYS.defined_string_append_filter
-            _entry[VOC.string_filter] = _detect.substitute
+            _entry[VOC.string_filter] = _detect.substitution
           end
           
           @data << _entry
@@ -196,7 +196,7 @@ class DefinedStringData < EntryData
 
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
       _snapshot = snaps[:data].dup
 

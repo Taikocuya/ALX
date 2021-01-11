@@ -206,13 +206,17 @@ class EpFile
   # @param _filename [String]  File name
   # @return [Array] Enemy tasks
   def find_tasks(_id, _filename)
-    _tasks = @tasks.find_all do |_task|
-      _task.enemy_id == _id && _task.files.include?(File.basename(_filename))
+    _basename = File.basename(_filename)
+    _tasks    = @tasks.find_all do |_task|
+      _task.enemy_id == _id && _task.files.include?(_basename)
     end
     if _tasks.empty?
       _tasks = @tasks.find_all do |_task|
         _task.enemy_id == _id && _task.files.include?('*')
       end
+    end
+    _tasks.sort! do |_a, _b|
+      _a.id <=> _b.id
     end
     
     _tasks

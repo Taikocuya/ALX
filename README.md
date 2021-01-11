@@ -19,6 +19,7 @@ is able to export and import the data to and from CSV files.
 * Items (Accessories, Armors, Ship Cannons, Ship Accessories, Ship Items, 
   Special Items, Usable Items and Weapons)
 * Playable Ship Stats
+* Map Scripts (Events, Tasks and Versions)
 * Shops
 * Swashbuckler Ratings
 * Treasure Chests
@@ -161,9 +162,9 @@ build
 
 ### export.rb
 
-Executes all export commands in `bin` except `exportdefinedstring.rb`. Exports 
-everything from the `root` to the `data` directory. The destination directory 
-is created automatically if required.
+Executes all export commands in `bin` except `exportdefinedstring.rb` and 
+`importscripttask.rb`. Exports everything from the `root` to the `data` 
+directory. The destination directory is created automatically if required.
 
 ```
 build
@@ -178,9 +179,9 @@ build
 
 ### import.rb
 
-Executes all import commands in `bin` except `importdefinedstring.rb`. Imports 
-everything from the `data` to the `root` directory. The destination directory 
-must exist.
+Executes all import commands in `bin` except `importdefinedstring.rb` and 
+`importscripttask.rb`. Imports everything from the `data` to the `root` 
+directory. The destination directory must exist.
 
 ```
 build

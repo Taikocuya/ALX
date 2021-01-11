@@ -76,6 +76,9 @@ class BackupCreator < EntryTransform
         Dir.glob(_root.sys(:ec_file)).each do |_p|
           create_backup(_root, _p)
         end
+        Dir.glob(_root.sys(:sct_file)).each do |_p|
+          create_backup(_root, _p)
+        end
         Dir.glob(_root.sys(:tec_file)).each do |_p|
           create_backup(_root, _p)
         end

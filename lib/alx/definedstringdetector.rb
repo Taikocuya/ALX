@@ -63,20 +63,27 @@ class DefinedStringDetector
 
   # Clear all attributes to their default values.
   def clear
-    @valid      = false
-    @pos        = 0
-    @real_pos   = 0
-    @bytes      = ''
-    @real_bytes = ''
-    @substitute = ''
-    @string     = ''
-    @encoding   = ''
+    @valid        = false
+    @pos          = 0
+    @real_pos     = 0
+    @shifted      = 0
+    @bytes        = ''
+    @real_bytes   = ''
+    @substitution = ''
+    @string       = ''
+    @encoding     = ''
   end
 
   # Returns +true+ if the string is valid, otherwise +false+.
   # @return [Boolean] +true+ if string is valid, otherwise +false+.
   def valid?
     @valid
+  end
+
+  # Returns +true+ if the string is shifted, otherwise +false+.
+  # @return [Boolean] +true+ if string is shifted, otherwise +false+.
+  def shifted?
+    @shifted != 0
   end
 
   # Detects the next null-terminated string from a binary I/O stream. If a 
@@ -155,8 +162,9 @@ class DefinedStringDetector
   attr_accessor :min_byte_size
   attr_accessor :min_char_size
   attr_accessor :pos
+  attr_accessor :shifted
   attr_accessor :bytes
-  attr_accessor :substitute
+  attr_accessor :substitution
   attr_accessor :string
   attr_accessor :encoding
   
@@ -209,9 +217,10 @@ class DefinedStringDetector
       return
     end
   
-    _pos    = (_pos - 1) / @beg_alignment * @beg_alignment + @beg_alignment
-    @pos   += _pos
-    @bytes  = @bytes[[_pos, @bytes.size].min..-1]
+    _pos      = (_pos - 1) / @beg_alignment * @beg_alignment + @beg_alignment
+    @pos     += _pos
+    @shifted += _pos
+    @bytes    = @bytes[[_pos, @bytes.size].min..-1]
   end
 
   # Retrieves the next available null-terminated string from the cache if 
@@ -245,15 +254,20 @@ class DefinedStringDetector
   def next_from_file(_f)
     _result = false
     while !_result && !_f.eof? && @range.include?(_f.pos)
-      _pos = _f.pos
-      if _pos % @beg_alignment != 0
-        _f.pos = (_pos - 1) / @beg_alignment * @beg_alignment + @beg_alignment
+      if _f.pos % @beg_alignment != 0
+        @shifted = @beg_alignment - _f.pos % @beg_alignment
+        _f.pos   = _f.pos + @shifted
       end
     
-      @pos    = _f.pos
-      @bytes  = _f.readline("\x00")
-      @bytes  = @bytes[0...-1]
-      _result = @bytes.size >= @min_byte_size
+      @pos   = _f.pos
+      @bytes = _f.readline("\x00")
+      if !_f.eof? && _f.pos % @end_alignment != 0
+        @bytes << _f.read(@end_alignment - _f.pos % @end_alignment)
+      end
+      
+      _result   = _f.pos % @end_alignment == 0
+      _result &&= !!@bytes.slice!(/\x00+\z/n)
+      _result &&= @bytes.size >= @min_byte_size
     end
 
     _result &&= @range.include?(_f.pos - 1)
@@ -313,7 +327,7 @@ class DefinedStringDetector
     end
 
     _bytes = @bytes.dup
-    @filters.each_with_index do |_sub, _id|
+    @filters.each do |_sub|
       _str      = nil
       _platform = _sub.platform
       _country  = _sub.country
@@ -334,23 +348,27 @@ class DefinedStringDetector
         next
       end
 
-      if @bytes.end_with?(_str)
-        _beg = @bytes.size - _str.size
-        if _beg > 0
-          shift_beg(_beg)
-          verify
-        end
-        @substitute = _sub.source
-        
-        if _sub.stop
-          break
+      if _sub.verify
+        if @bytes.end_with?(_str)
+          _beg = @bytes.size - _str.size
+          if _beg > 0
+            shift_beg(_beg)
+            verify
+          end
+          @substitution = _sub.source
+          
+          if _sub.stop
+            break
+          end
+        else
+          _msg = sprintf(
+            'gsub replacement invalid - %s (given %s, expected %s)',
+            _sub.pattern.inspect, _str.dump, @bytes.dump
+          )
+          raise(RegexpError, _msg)
         end
       else
-        _msg = sprintf(
-          'gsub replacement invalid - %s (given %s, expected %s)',
-          _sub.pattern.inspect, _str.dump, @bytes.dump
-        )
-        raise(RegexpError, _msg)
+        @bytes.gsub!(_sub.pattern, _sub.replacement)
       end
     end
 

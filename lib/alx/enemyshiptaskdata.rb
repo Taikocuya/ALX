@@ -87,7 +87,7 @@ class EnemyShipTaskData < EntryData
   # Reads all entries from a binary file.
   # @param _filename [String] File name
   def load_bin_data(_filename)
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     _file             = TecFile.new(root)
     _file.magics      = @character_magic_data&.data
     _file.enemy_ships = @enemy_ship_data&.data
@@ -151,7 +151,7 @@ class EnemyShipTaskData < EntryData
 
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
       _snapshot = snaps[:data].dup
 

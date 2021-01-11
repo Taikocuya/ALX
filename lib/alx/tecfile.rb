@@ -85,14 +85,14 @@ class TecFile
       end
 
       if _f.pos > _f.size - 0x4
-        _msg = 'file size invalid (given %s, expected %s)'
+        _msg = 'file size invalid (given %#x, expected %#x)'
         raise(IOError, sprintf(_msg, _f.pos + 0x4, _f.size))
       end
       
-      _eofCheck1 = _f.read_int(:i16)
-      _eofCheck2 = _f.read_int(:i16)
+      _eof_check1 = _f.read_int(:i16)
+      _eof_check2 = _f.read_int(:i16)
       
-      if _eofCheck1 != EOF_MARK or _eofCheck2 != EOF_MARK
+      if _eof_check1 != EOF_MARK or _eof_check2 != EOF_MARK
         raise(EOFError, 'EOF mark not found')
       end
     end

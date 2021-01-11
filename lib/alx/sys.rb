@@ -159,6 +159,12 @@ SYS.configure do |_s|
     'DC' => join(_s.root_dir, 'BATTLE/EPEVENT.BIN'),
     'GC' => join(_s.root_dir, 'battle/epevent.evp'),
   }
+  # Path to script files relative to +SYS.root_dir+. A single asterisk must 
+  # be used.
+  _s.sct_file = {
+    'DC' => glob(_s.root_dir, 'FIELD/*.SCT'),
+    'GC' => glob(_s.root_dir, 'field/*.sct'),
+  }
   # Path to enemy ship task files relative to +SYS.root_dir+. A single 
   # asterisk must be used.
   _s.tec_file = {
@@ -206,6 +212,11 @@ SYS.configure do |_s|
   _s.magic_exp_curve_csv_file      = "#{_s.data_dir}/magicexpcurve.csv"
   # Path to CSV file of playable ships relative to +SYS.data_dir+.
   _s.playable_ship_csv_file        = "#{_s.data_dir}/playableship.csv"
+  # Path to CSV file of script tasks relative to +SYS.data_dir+. A single 
+  # asterisk must be used.
+  _s.script_task_csv_file          = "#{_s.data_dir}/scripttask/*.csv"
+  # Path to CSV file of script versions relative to +SYS.data_dir+.
+  _s.script_version_csv_file       = "#{_s.data_dir}/scriptversion.csv"
   # Path to CSV file of ship accessories relative to +SYS.data_dir+.
   _s.ship_accessory_csv_file       = "#{_s.data_dir}/shipaccessory.csv"
   # Path to CSV file of ship cannons relative to +SYS.data_dir+.
@@ -1106,9 +1117,9 @@ SYS.configure do |_s|
   _s.defined_string_diff_support  = false
 
   # Alignment requirement for the begin of defined strings
-  _s.defined_string_beg_alignment = 1
+  _s.defined_string_beg_alignment = 0x1
   # Alignment requirement for the end of defined strings
-  _s.defined_string_end_alignment = 1
+  _s.defined_string_end_alignment = 0x1
   # Minimum byte size of defined strings
   _s.defined_string_min_byte_size = 2
   # Minimum character size of defined strings
@@ -1301,7 +1312,8 @@ SYS.configure do |_s|
         {ldia}{lwrw}|
         {udia}{lwrw}|
         {lwrw}{ldia}|
-        {uprw}{ldia}
+        {uprw}{ldia}|
+        \xab{anyw}+\xbb
       ).*)
       {anyw}+
     \z/mnx),

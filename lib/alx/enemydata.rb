@@ -326,7 +326,7 @@ class EnemyData < EntryData
   # Reads all entries from an EVP file.
   # @param _filename [String] File name
   def load_evp_data(_filename)
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     _file             = EvpFile.new(root)
     _file.items       = @items
     _file.magics      = @enemy_magic_data&.data
@@ -342,7 +342,7 @@ class EnemyData < EntryData
   def load_bin_bgms(_filename)
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @event_bgm_id_range.begin
       _descriptor = find_descriptor(@event_bgm_file, _filename)
@@ -373,7 +373,7 @@ class EnemyData < EntryData
   # Reads all entries from an ENP file.
   # @param _filename [String] File name
   def load_enp_data(_filename)
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     _file             = EnpFile.new(root)
     _file.items       = @items
     _file.magics      = @enemy_magic_data&.data
@@ -387,7 +387,7 @@ class EnemyData < EntryData
   # Reads all entries from a DAT file.
   # @param _filename [String] File name
   def load_dat_data(_filename)
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     _file             = DatFile.new(root)
     _file.items       = @items
     _file.magics      = @enemy_magic_data&.data
@@ -605,7 +605,7 @@ class EnemyData < EntryData
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
       # If the methods #load_csv_enemies and #load_csv_tasks are called 
       # in the wrong order, each enemy is forced to be saved. Snapshots are 
@@ -654,7 +654,7 @@ class EnemyData < EntryData
 
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
       # If the methods #load_csv_enemies and #load_csv_tasks are called in 
       # the wrong order, each enemy is forced to be saved. Snapshots are not 
@@ -714,7 +714,7 @@ class EnemyData < EntryData
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
       _snapshot = snaps[:events].dup
       
@@ -755,7 +755,7 @@ class EnemyData < EntryData
     
     LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
 
-    meta.check_mtime(_filename)
+    meta.store_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
       _snapshot = snaps[:encounters].dup
       
@@ -910,12 +910,12 @@ class EnemyData < EntryData
   end
 
   # Writes all entries to CSV files.
-	def save_csv
+  def save_csv
     save_csv_enemy(glob(@enemy_csv_file))
     save_csv_task(glob(@task_csv_file))
     save_csv_event(glob(@event_csv_file))
     save_csv_encounter(glob(@encounter_csv_file))
-	end
+  end
 
 #------------------------------------------------------------------------------
 # Public Member Variables

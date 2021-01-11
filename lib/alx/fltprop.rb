@@ -49,7 +49,7 @@ class FltProp < Prop
   # @param width  [Integer] Pad with zeros (CSV only)
   # @param prec   [Integer] Precision after decimal point (CSV only)
   # @param comp   [Boolean] Is comparable
-  # @param dmy    [Boolean] Set +comp+ and +ext+ to +true+
+  # @param dmy    [Boolean] Set +comp+ to +false+ and +ext+ to +true+
   # @param ext    [Boolean] Serialize externally
   def initialize(
     _type, _value, width: 0, prec: 0, comp: true, dmy: false, ext: false

@@ -104,7 +104,7 @@ class AryProp < Prop
   alias ary=   value=
   alias array= value=
 
-end # class StrProp
+end # class AryProp
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
