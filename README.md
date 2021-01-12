@@ -222,5 +222,5 @@ and software that made this project possible.
 
 ## License
 
-Copyright (C) 2020 Marcel Renner. ALX is licensed under the GNU General Public 
+Copyright (C) 2021 Marcel Renner. ALX is licensed under the GNU General Public 
 License, Version 3.0. See [LICENSE.md](/LICENSE.md) for the full license text.
