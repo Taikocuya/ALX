@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2020 Marcel Renner
+# Copyright (C) 2021 Marcel Renner
 # 
 # This file is part of ALX.
 # 
