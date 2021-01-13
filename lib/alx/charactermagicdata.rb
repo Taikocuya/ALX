@@ -106,9 +106,9 @@ class CharacterMagicData < StdEntryData
           
           _pos.int = _f.pos
           if jp? || us?
-            _dscr.str = _f.read_str(nil, 0x4)
+            _dscr.str = _f.read_str(blocks: 0x4)
           else
-            _dscr.str = _f.read_str(nil, 0x1, 'Windows-1252')
+            _dscr.str = _f.read_str(blocks: 0x1, enc: 'Windows-1252')
           end
           _size.int = _f.pos - _pos.int
 
@@ -178,9 +178,9 @@ class CharacterMagicData < StdEntryData
         LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
         
         if jp? || us?
-          _f.write_str(_dscr, _size, 0x4)
+          _f.write_str(_dscr, length: _size, blocks: 0x4)
         else
-          _f.write_str(_dscr, _size, 0x1, 'Windows-1252')
+          _f.write_str(_dscr, length: _size, blocks: 0x1, enc: 'Windows-1252')
         end
       end
     end

@@ -253,8 +253,8 @@ class SctFile
     
     _events = []
     (0..._num_events).each do |_id|
-      _pos  = _f.read_int(:i32           )
-      _name = _f.read_str(EVENT_NAME_SIZE)
+      _pos  = _f.read_int(:i32                 )
+      _name = _f.read_str(length: EVENT_NAME_SIZE)
       if _name.empty?
         _msg = 'event name invalid (given %s)'
         raise(IOError, sprintf(_msg, _name))
@@ -477,8 +477,8 @@ class SctFile
           raise(IOError, _msg)
         end
     
-      _f.write_int(_event.pos , :i32           )
-      _f.write_str(_event.name, EVENT_NAME_SIZE)
+      _f.write_int(_event.pos , :i32                   )
+      _f.write_str(_event.name, length: EVENT_NAME_SIZE)
     end
   end
 

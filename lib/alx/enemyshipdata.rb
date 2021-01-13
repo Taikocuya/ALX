@@ -117,7 +117,7 @@ class EnemyShipData < StdEntryData
             LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
             
             _pos.int  = _f.pos
-            _name.str = _f.read_str(nil, 0x1, 'Windows-1252')
+            _name.str = _f.read_str(blocks: 0x1, enc: 'Windows-1252')
             _size.int = _f.pos - _pos.int
           end
         end
@@ -195,7 +195,7 @@ class EnemyShipData < StdEntryData
           
           LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
           
-          _f.write_str(_name, _size, 0x1, 'Windows-1252')
+          _f.write_str(_name, length: _size, blocks: 0x1, enc: 'Windows-1252')
         end
       end
     end

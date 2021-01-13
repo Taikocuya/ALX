@@ -58,22 +58,22 @@ class IPFile
   def load(_filename)
     BinaryFile.open(_filename, 'rb', little_endian: true) do |_f|
       _f.pos           = 0x10
-      @maker_id        = _f.read_str(0x10).strip
+      @maker_id        = _f.read_str(length: 0x10).strip
       
       _f.pos           = 0x24
-      @description     = _f.read_str(0xc).strip
+      @description     = _f.read_str(length: 0x0c).strip
       
       _f.pos           = 0x30
-      @region_id       = _f.read_str(0x8).strip
+      @region_id       = _f.read_str(length: 0x08).strip
 
       _f.pos           = 0x40
-      @product_id      = _f.read_str(0xa).strip
-      @product_version = _f.read_str(0x6).strip
-      @product_date    = _f.read_str(0x10).strip
+      @product_id      = _f.read_str(length: 0x0a).strip
+      @product_version = _f.read_str(length: 0x06).strip
+      @product_date    = _f.read_str(length: 0x10).strip
       
       _f.pos           = 0x70
-      @maker_name      = _f.read_str(0x10).strip
-      @product_name    = _f.read_str(0x80).strip
+      @maker_name      = _f.read_str(length: 0x10).strip
+      @product_name    = _f.read_str(length: 0x80).strip
     end
   end
 

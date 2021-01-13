@@ -12,7 +12,7 @@ Entry ID,Entry US Name,Sell%,US Order 1,US Order 2,Buy,[US Descr Pos],[US Descr 
 330,Yellow MoonStone,0,4,5,0,0x3383a4,88,A Moon Stone from the Yellow Moon. It can infuse\nweapons with the powers of lightning.
 331,Silver MoonStone,0,5,8,0,0x3383fc,92,A Moon Stone from the Silver Moon. It can infuse\nweapons with the powers of life and death.
 332,Underwater Suit,0,26,35,0,0x338458,88,"Using a Blue Moon Stone, this water-proof suit\nallows the wearer to breathe underwater."
-333,Note in a Bottle,0,12,28,0,0x3384b0,88,"A note found in a bottle that says, [Quetya…\nPlease send warriors to help us fight.]"
+333,Note in a Bottle,0,12,28,0,0x3384b0,88,"A note found in a bottle that says, “Quetya…\nPlease send warriors to help us fight.”"
 334,Cannon Room Key,0,24,33,0,0x338508,92,"A large, steel key to the Cannon Room of the\nGrand Fortress. It is embossed with a dragon."
 335,Ship Schematics,0,28,18,0,0x338564,84,Design for a ship that can submerge under the\nGreat Cloud Sea and go into Deep Sky.
 336,Gonzales' Map,0,21,13,0,0x3385b8,88,Map found on the remains of Gonzales. It appears\nthat the map has been ripped in half.
@@ -38,7 +38,7 @@ Entry ID,Entry US Name,Sell%,US Order 1,US Order 2,Buy,[US Descr Pos],[US Descr 
 356,Magic Cannon,0,14,12,0,0x338ad0,84,A device attached to cannons that allows them\nto fire shots empowered with magic.
 357,Wages,0,20,7,0,0x338b24,92,"Contains the 5,000 gold that Aika and Fina\nearned while working at the tavern in Nasrad."
 358,Grapor Meat,0,18,29,0,0x338b80,96,"Meat from the rare fish, the Grapor. This fish\nis only found in the forests of Crescent Isle."
-359,Domingo's Title,0,31,36,0,0x338be0,88,A certificate from Domingo proclaiming Vyse to\nbe a [Treasure Hunter Extraordinaire.]
+359,Domingo's Title,0,31,36,0,0x338be0,88,A certificate from Domingo proclaiming Vyse to\nbe a “Treasure Hunter Extraordinaire.”
 360,ダミークリア,0,-1,-1,0,0x0,0,""
 361,ダミークリア,0,-1,-1,0,0x0,0,""
 362,ダミークリア,0,-1,-1,0,0x0,0,""

@@ -12,7 +12,7 @@ Entry ID,Entry US Name,Sell%,US Order 1,US Order 2,Buy,[US Descr Pos],[US Descr 
 330,Yellow MoonStone,0,4,34,0,0x2cd818,88,A Moon Stone from the Yellow Moon. It can infuse\nweapons with the powers of lightning.
 331,Silver MoonStone,0,5,27,0,0x2cd870,92,A Moon Stone from the Silver Moon. It can infuse\nweapons with the powers of life and death.
 332,Underwater Suit,0,26,28,0,0x2cd8cc,88,"Using a Blue Moon Stone, this water-proof suit\nallows the wearer to breathe underwater."
-333,Note in a Bottle,0,12,19,0,0x2cd924,88,"A note found in a bottle that says, [Quetya…\nPlease send warriors to help us fight.]"
+333,Note in a Bottle,0,12,19,0,0x2cd924,88,"A note found in a bottle that says, “Quetya…\nPlease send warriors to help us fight.”"
 334,Cannon Room Key,0,24,3,0,0x2cd97c,92,"A large, steel key to the Cannon Room of the\nGrand Fortress. It is embossed with a dragon."
 335,Ship Schematics,0,28,26,0,0x2cd9d8,84,Design for a ship that can submerge under the\nGreat Cloud Sea and go into Deep Sky.
 336,Gonzales' Map,0,21,9,0,0x2cda2c,88,Map found on the remains of Gonzales. It appears\nthat the map has been ripped in half.
@@ -38,7 +38,7 @@ Entry ID,Entry US Name,Sell%,US Order 1,US Order 2,Buy,[US Descr Pos],[US Descr 
 356,Magic Cannon,0,14,17,0,0x2cdf44,84,A device attached to cannons that allows them\nto fire shots empowered with magic.
 357,Wages,0,20,32,0,0x2cdf98,92,"Contains the 5,000 gold that Aika and Fina\nearned while working at the tavern in Nasrad."
 358,Grapor Meat,0,18,10,0,0x2cdff4,96,"Meat from the rare fish, the Grapor. This fish\nis only found in the forests of Crescent Isle."
-359,Domingo's Title,0,31,6,0,0x2ce054,88,A certificate from Domingo proclaiming Vyse to\nbe a [Treasure Hunter Extraordinaire.]
+359,Domingo's Title,0,31,6,0,0x2ce054,88,A certificate from Domingo proclaiming Vyse to\nbe a “Treasure Hunter Extraordinaire.”
 360,Moonfish,0,43,-2,0,0x2ce0ac,88,A fish that is invisible to the naked eye. It\nseems to be Maria's bird's favorite food.
 361,Black Spot,0,39,-6,0,0x2ce104,96,"A note written in red ink, on jet black paper.\n""I await you, west of Sailors' Island -Piastol"""
 362,Black Spot,0,40,-5,0,0x2ce164,96,"A note written in red ink, on jet black paper.\n""I await you at the place we fought. -Piastol"""

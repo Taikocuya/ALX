@@ -61,17 +61,18 @@ class BnrFile
   # @param _filename [String] File name
   def load(_filename)
     BinaryFile.open(_filename, 'rb', big_endian: true) do |_f|
-      _file_sig  = _f.read_str(0x3)
-      _file_vers = _f.read_str(0x1)
+      _file_sig  = _f.read_str(length: 0x3)
+      _file_vers = _f.read_str(length: 0x1)
       if _file_sig != FILE_SIG || !FILE_VERS.include?(_file_vers)
         raise(IOError, 'signature invalid')
       end
       
       _f.pos        = 0x1820
-      @product_name = _f.read_str(32).strip
-      @maker_name   = _f.read_str(32).strip
+      @product_name = _f.read_str(length:  32).strip
+      @maker_name   = _f.read_str(length:  32).strip
+      
       _f.pos        = 0x18e0
-      @description  = _f.read_str(128).strip
+      @description  = _f.read_str(length: 128).strip
     end
   end
   

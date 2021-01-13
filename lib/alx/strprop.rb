@@ -95,7 +95,7 @@ class StrProp < Prop
       return 
     end
 
-    _value = _f.read_str(@size, @blocks, @encoding)
+    _value = _f.read_str(length: @size, blocks: @blocks, enc: @encoding)
     format(__method__, _value)
     
     self.value = _value
@@ -111,7 +111,7 @@ class StrProp < Prop
     _value = value.dup
     format(__method__, _value)
     
-    _f.write_str(_value, @size, @blocks, @encoding)
+    _f.write_str(_value, length: @size, blocks: @blocks, enc: @encoding)
   end
 
   # Reads one entry from a CSV row.

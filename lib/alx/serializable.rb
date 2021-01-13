@@ -207,50 +207,51 @@ module Serializable
     write([_flt].pack(_format))
   end
 
-  # Reads a string from the file. If +_size+ is omitted or +_block+ is given,
+  # Reads a string from the file. If +length+ is omitted or +_block+ is given,
   # the string have to be null-terminated.
   # 
-  # @param _size     [Integer] Desired number of bytes to read.
-  # @param _blocks   [Integer] Block size in bytes
-  # @param _encoding [String]  Character encoding
+  # @param length [Integer] Desired number of bytes to read.
+  # @param blocks [Integer] Block size in bytes
+  # @param enc    [String]  Character encoding
+  # @param tr     [Boolean] Translate [] by “” characters
   # 
   # @return [String] String from the file, which has been read.
-  def read_str(_size = nil, _blocks = nil, _encoding = 'Shift_JIS')
-    if _size
-      if _blocks && _blocks > 0
-        if _size % _blocks != 0
+  def read_str(length: nil, blocks: nil, enc: 'Shift_JIS', tr: true)
+    if length
+      if blocks && blocks > 0
+        if length % blocks != 0
           _msg = sprintf(
             'string size invalid (given %#x, expected %#x or %#x)',
-            _size,
-            _size - _size % _blocks,
-            _size + (_blocks - _size % _blocks)
+            length,
+            length - length % blocks,
+            length + (blocks - length % blocks)
           )
           raise(IOError, _msg)
         end
       end
     else
-      _blocks ||= 0x1
+      blocks ||= 0x1
     end
     
     _beg = pos
     _str = ''.force_encoding('ASCII-8BIT')
-    if _size
-      _str << read(_size)
+    if length
+      _str << read(length)
     else
       _str  << readline("\x00")
       _diff  = pos - _beg
-      if _blocks && _diff % _blocks != 0
-        _str << read(_blocks - _diff % _blocks)
+      if blocks && _diff % blocks != 0
+        _str << read(blocks - _diff % blocks)
       end
     end
     _str = _str.unpack('Z*').first
     
     _diff = pos - _beg
-    if _blocks && _blocks > 0 && _diff % _blocks != 0
+    if blocks && blocks > 0 && _diff % blocks != 0
       _msg = sprintf(
         'string size invalid (given %#x, expected %#x)',
-        _size,
-        _diff + (_blocks - _diff % _blocks)
+        length,
+        _diff + (blocks - _diff % blocks)
       )
       raise(IOError, _msg)
     end
@@ -259,81 +260,80 @@ module Serializable
       return _str
     end
     
-    if _encoding == 'Windows-1252'
+    if enc == 'Windows-1252'
       _str.gsub!("\x81\x63".force_encoding('ASCII-8BIT'), "\x85")
     end
     
-    _str.force_encoding(_encoding)
+    _str.force_encoding(enc)
     _str.encode!('UTF-8')
     
-    if _encoding == 'Windows-1252'
-      _str.gsub!('[', '“')
-      _str.gsub!(']', '”')
+    if tr
+      _str.tr!('[]', '“”')
     end
     
     _str
   end
 
-  # Writes a string to the file. If +_size+ is omitted or +_block+ is given,
-  # the string will be null-terminated. If the string is less than +_size+
+  # Writes a string to the file. If +length+ is omitted or +_block+ is given,
+  # the string will be null-terminated. If the string is less than +length+
   # and +_block+ is given, the string is additionally padded with spaces.
   # 
-  # @param _str      [String]  String which will be written to the stream.
-  # @param _size     [Integer] Desired number of bytes to write.
-  # @param _blocks   [Integer] Block size in bytes
-  # @param _encoding [String]  Character encoding
-  def write_str(_str, _size = nil, _blocks = nil, _encoding = 'Shift_JIS')
+  # @param _str   [String]  String which will be written to the stream.
+  # @param length [Integer] Desired number of bytes to write.
+  # @param blocks [Integer] Block size in bytes
+  # @param enc    [String]  Character encoding
+  # @param tr     [Boolean] Translate “” by [] characters
+  def write_str(_str, length: nil, blocks: nil, enc: 'Shift_JIS', tr: true)
     _str = _str.dup
-
-    if _encoding == 'Windows-1252'
-      _str.gsub!('“', '[')
-      _str.gsub!('”', ']')
+    
+    if tr
+      _str.tr!('“”', '[]')
     end
     
-    if _encoding == 'ASCII-8BIT'
+    if enc == 'ASCII-8BIT'
       _str.force_encoding('ASCII-8BIT')
     else
-      _str.encode!(_encoding)
+      _str.encode!(enc)
     end
 
-    if _size
-      if _str.bytesize > _size
+    if length
+      if _str.bytesize > length
         _msg = 'string size invalid (given %#x, expected %#x)'
         _exp = _str.bytesize
-        if _blocks && _blocks > 0
-          _exp += _blocks - _str.bytesize % _blocks
+        if blocks && blocks > 0
+          _exp += blocks - _str.bytesize % blocks
         end
-        raise(IOError, sprintf(_msg, _size, _exp))
+        raise(IOError, sprintf(_msg, length, _exp))
       end
-      if _blocks && _blocks > 0
-        if _str.bytesize + (_blocks - _str.bytesize % _blocks) > _size
+      if blocks && blocks > 0
+        if _str.bytesize + (blocks - _str.bytesize % blocks) > length
           _msg = sprintf(
             'string size invalid (given %#x, expected %#x)',
-            _size,
-            _str.bytesize + (_blocks - _str.bytesize % _blocks)
+            length,
+            _str.bytesize + (blocks - _str.bytesize % blocks)
           )
           raise(IOError, _msg)
         end
-        if _size % _blocks != 0
+        if length % blocks != 0
           _msg = sprintf(
             'string size invalid (given %#x, expected %#x or %#x)',
-            _size,
-            _size - _size % _blocks,
-            _size + (_blocks - _size % _blocks)
+            length,
+            length - length % blocks,
+            length + (blocks - length % blocks)
           )
           raise(IOError, _msg)
         end
         
-        _str = _str.ljust(_size - _blocks)
+        _str = _str.ljust(length - blocks)
       end
     else
-      _size     = _str.bytesize
-      _blocks ||= 0x1
-      _size    += _blocks - _size % _blocks
+      length     = _str.bytesize
+      blocks ||= 0x1
+      length    += blocks - length % blocks
     end
 
-    if _size > 0
-      write([_str].pack("Z#{_size}"))
+    if length > 0
+      write([_str].pack("Z#{length}"))
     end
   end
 

@@ -108,7 +108,7 @@ class EnpFile < EpFile
 
         _segments = {}
         (0..._size).each do |_|
-          _segname = _f.read_str(SEG_NAME_SIZE)
+          _segname = _f.read_str(length: SEG_NAME_SIZE)
           _pos     = _f.read_int(:i32)
           _size    = _f.read_int(:i32)
           _check   = _f.read_int(:i32)
@@ -318,10 +318,10 @@ class EnpFile < EpFile
             _segname = _segname.sub(/\.enp$/, '.bin')
           end
           
-          _f.write_str(_segname, SEG_NAME_SIZE)
-          _f.write_int(_seg.pos  , :i32)
-          _f.write_int(_seg.size , :i32)
-          _f.write_int(0xffffffff, :i32)
+          _f.write_str(_segname  , length: SEG_NAME_SIZE)
+          _f.write_int(_seg.pos  , :i32                 )
+          _f.write_int(_seg.size , :i32                 )
+          _f.write_int(0xffffffff, :i32                 )
         end
       end
     end

@@ -53,11 +53,12 @@ class HdrFile
   # @param _filename [String] File name
   def load(_filename)
     BinaryFile.open(_filename, 'rb', big_endian: true) do |_f|
-      @product_id   = _f.read_str(0x3)
-      @region_id    = _f.read_str(0x1)
-      @maker_id     = _f.read_str(0x2)
+      @product_id   = _f.read_str(length: 0x03)
+      @region_id    = _f.read_str(length: 0x01)
+      @maker_id     = _f.read_str(length: 0x02)
+      
       _f.pos        = 0x20
-      @product_name = _f.read_str(0x64).strip
+      @product_name = _f.read_str(length: 0x64).strip
     end
   end
 

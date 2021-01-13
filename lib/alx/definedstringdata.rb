@@ -169,7 +169,9 @@ class DefinedStringData < EntryData
         end
         
         LOG.info(sprintf(VOC.write, _id, _pos))
-        _f.write_str(_str, _size, 0x1, _encoding)
+        _f.write_str(
+          _str, length: _size, blocks: 0x1, enc: _encoding, tr: false
+        )
       end
     end
 
