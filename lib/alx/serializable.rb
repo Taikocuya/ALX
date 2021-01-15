@@ -34,7 +34,9 @@ module Serializable
 #==============================================================================
 
   # Endianness of this host (do not edit).
-  ENDIANNESS  = ([0xfeff].pack('s') == [0xfeff].pack('n') ? :be : :le)
+  ENDIANNESS = ([0xfeff].pack('s') == [0xfeff].pack('n') ? :be : :le)
+  # Translation of string characters by swapping +TRANSL[0]+ to +TRANSL[1]+.
+  TRANSL     = ['[]', '“”']
 
 #==============================================================================
 #                                   PUBLIC
@@ -213,7 +215,7 @@ module Serializable
   # @param length [Integer] Desired number of bytes to read.
   # @param blocks [Integer] Block size in bytes
   # @param enc    [String]  Character encoding
-  # @param tr     [Boolean] Translate [] by “” characters
+  # @param tr     [Boolean] Translate +TRANSL[0]+ by +TRANSL[1]+ characters
   # 
   # @return [String] String from the file, which has been read.
   def read_str(length: nil, blocks: nil, enc: 'Shift_JIS', tr: true)
@@ -268,7 +270,7 @@ module Serializable
     _str.encode!('UTF-8')
     
     if tr
-      _str.tr!('[]', '“”')
+      _str.tr!(TRANSL[0], TRANSL[1])
     end
     
     _str
@@ -282,12 +284,12 @@ module Serializable
   # @param length [Integer] Desired number of bytes to write.
   # @param blocks [Integer] Block size in bytes
   # @param enc    [String]  Character encoding
-  # @param tr     [Boolean] Translate “” by [] characters
+  # @param tr     [Boolean] Translate +TRANSL[1]+ by +TRANSL[0]+ characters
   def write_str(_str, length: nil, blocks: nil, enc: 'Shift_JIS', tr: true)
     _str = _str.dup
     
     if tr
-      _str.tr!('“”', '[]')
+      _str.tr!(TRANSL[1], TRANSL[0])
     end
     
     if enc == 'ASCII-8BIT'

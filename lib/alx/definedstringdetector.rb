@@ -38,6 +38,13 @@ module ALX
 class DefinedStringDetector
 
 #==============================================================================
+#                                  CONSTANTS
+#==============================================================================
+
+  # Translation of string characters by swapping +TRANSL[0]+ to +TRANSL[1]+.
+  TRANSL = Serializable::TRANSL
+
+#==============================================================================
 #                                   PUBLIC
 #==============================================================================
 
@@ -419,6 +426,7 @@ class DefinedStringDetector
         verify
         retry
       end
+      @string.tr!(TRANSL[0], TRANSL[1])
     else
       _encoding = 'ASCII-8BIT'
       @string   = @bytes.dump.gsub!(/(?>\A"|"\z)/, '')

@@ -59,7 +59,7 @@ Entry ID,[Str Pos],[Str Size],[Str Enc],Str Value,[Str Data]
 57,0x2a9b84,9,Shift_JIS,/battle/,"""/battle/"""
 58,0x2a9b90,12,Shift_JIS,stsicon.mld,"""stsicon.mld"""
 59,0x2a9c18,11,Shift_JIS,MA%03d.MLD,"""MA%03d.MLD"""
-60,0x2a9c24,28,Shift_JIS,incorrect load chara No[%d],"""incorrect load chara No[%d]"""
+60,0x2a9c24,28,Shift_JIS,incorrect load chara No“%d”,"""incorrect load chara No[%d]"""
 61,0x2a9c40,11,Shift_JIS,MB%03d.MLD,"""MB%03d.MLD"""
 62,0x2a9c4c,11,Shift_JIS,MG%03d.MLD,"""MG%03d.MLD"""
 63,0x2a9c58,13,Shift_JIS,E1800000.MLD,"""E1800000.MLD"""
