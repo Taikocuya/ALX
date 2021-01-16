@@ -28,7 +28,8 @@ is able to export and import the data to and from CSV files.
 
 The commands in the `bin` directory require:
 
-* [Ruby](https://www.ruby-lang.org/) 2.7+
+* ![Linux](/doc/linux16.png)![macOS](/doc/mac16.png)
+  [Ruby](https://www.ruby-lang.org/) 2.7+
 * Extracted image of Skies of Arcadia, Skies of Arcadia Legends, Eternal 
   Arcadia (エターナルアルカディア) or Eternal Arcadia Legends (エターナルアルカディアレジェンド)
 
@@ -105,9 +106,13 @@ image (ISO, GCM or GDI) and the appropriate data extraction tool:
   
 ## Commands
 
-All commands and utilities can be found in the `bin` directory.
+All commands and utilities can be found in the `bin` directory. In 
+![Linux](/doc/linux16.png) Linux and ![macOS](/doc/mac16.png) macOS, you have 
+to install Ruby first in order to be able to run the RB scripts. 
+![Windows](/doc/win16.png) Windows users can optionally do this as well or 
+simply use the CMD scripts which use the included Ruby.
 
-### buildimage.rb
+### buildimage.cmd & buildimage.rb
 
 Builds a bootable Dreamcast or GameCube image in the `image` directory. The 
 destination directory is created automatically if required. This utility only 
@@ -124,7 +129,7 @@ build
     └── root
 ```
 
-### clearcache.rb
+### clearcache.cmd & clearcache.rb
 
 Clears the cache storage in the `cache` directory. If you clear the cache 
 storage, snapshots will not be loaded and differences will not be detected, 
@@ -142,7 +147,7 @@ build
     └── root
 ```
 
-### createbackup.rb
+### createbackup.cmd & createbackup.rb
 
 Creates a backup of the `root` directory and stores it in the `backup` 
 directory. The destination directory is created automatically if required. 
@@ -160,28 +165,12 @@ build
     └── root
 ```
 
-### export.rb
+### export.cmd & export.rb
 
-Executes all export commands in `bin` except `exportdefinedstring.rb` and 
-`importscripttask.rb`. Exports everything from the `root` to the `data` 
-directory. The destination directory is created automatically if required.
-
-```
-build
-├── custom-name-dc
-│   ├── data
-│   ├── meta
-│   └── root
-└── custom-name-gc
-    ├── data
-    └── root
-```
-
-### import.rb
-
-Executes all import commands in `bin` except `importdefinedstring.rb` and 
-`importscripttask.rb`. Imports everything from the `data` to the `root` 
-directory. The destination directory must exist.
+Executes all export commands in `bin` except `exportdefinedstring.cmd`, 
+`exportdefinedstring.rb`, `exportscripttask.cmd` and `exportscripttask.rb`. 
+Exports everything from the `root` to the `data` directory. The destination 
+directory is created automatically if required.
 
 ```
 build
@@ -194,7 +183,25 @@ build
     └── root
 ```
 
-### restorebackup.rb
+### import.cmd & import.rb
+
+Executes all import commands in `bin` except `importdefinedstring.cmd`, 
+`importdefinedstring.rb`, `importscripttask.cmd` and `importscripttask.rb`. 
+Imports everything from the `data` to the `root` directory. The destination 
+directory must exist.
+
+```
+build
+├── custom-name-dc
+│   ├── data
+│   ├── meta
+│   └── root
+└── custom-name-gc
+    ├── data
+    └── root
+```
+
+### restorebackup.cmd & restorebackup.rb
 
 Restores the backup from the `backup` directory and overwrites existing files 
 in the `root` directory. The destination directory must exist. This utility 

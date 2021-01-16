@@ -42,11 +42,12 @@ image (ISO, GCM or GDI) and the appropriate data extraction tool:
 
 All commands and utilities can be found in the `bin` directory.
 
-### export.rb
+### export.cmd & export.rb
 
-Executes all export commands in `bin` except `exportdefinedstring.rb`. Exports 
-everything from the `root` to the `data` directory. The destination directory 
-is created automatically if required.
+Executes all export commands in `bin` except `exportdefinedstring.cmd`, 
+`exportdefinedstring.rb`, `exportscripttask.cmd` and `exportscripttask.rb`. 
+Exports everything from the `root` to the `data` directory. The destination 
+directory is created automatically if required.
 
 ```
 build
@@ -59,11 +60,12 @@ build
     └── root
 ```
 
-### import.rb
+### import.cmd & import.rb
 
-Executes all import commands in `bin` except `importdefinedstring.rb`. Imports 
-everything from the `data` to the `root` directory. The destination directory 
-must exist.
+Executes all import commands in `bin` except `importdefinedstring.cmd`, 
+`importdefinedstring.rb`, `importscripttask.cmd` and `importscripttask.rb`. 
+Imports everything from the `data` to the `root` directory. The destination 
+directory must exist.
 
 ```
 build

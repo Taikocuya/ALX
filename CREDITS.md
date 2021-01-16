@@ -21,6 +21,7 @@
 * [GD-ROM Explorer](https://www.romhacking.net/utilities/1459/) — GDI Editor
 * [GDIBuilder](https://github.com/Sappharad/GDIbuilder) — GDI Editor
 * [LibreOffice](https://www.libreoffice.org/) — CSV Editor
+* [Ruby Packer](https://github.com/pmq20/ruby-packer) — Packaging Tool
 * [ShareX](https://getsharex.com/) — Screen Capture Tool
 * [WinMerge](https://winmerge.org/) — File Comparison Tool
 

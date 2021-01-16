@@ -13,6 +13,7 @@
 /vendor/*
 !/vendor/GCRebuilder
 !/vendor/GDIBuilder
+!/vendor/Ruby
 
 # Eclipse
 .project
