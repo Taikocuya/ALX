@@ -1,9 +1,10 @@
 # ALX — Skies of Arcadia Legends Examiner
 
-ALX is a simple, fast and cross-platform command line tool to extract the 
-game data from Skies of Arcadia, Skies of Arcadia Legends, Eternal Arcadia 
-(エターナルアルカディア) and Eternal Arcadia Legends (エターナルアルカディアレジェンド). It 
-is able to export and import the data to and from CSV files.
+ALX is a command line tool to extract the game data from Skies of Arcadia, 
+Skies of Arcadia Legends, Eternal Arcadia (エターナルアルカディア) and Eternal 
+Arcadia Legends (エターナルアルカディアレジェンド). The purpose of this is to allow a 
+convenient mechanism to export and import CSV files on Linux, macOS and 
+Windows.
 
 ![CLI](/doc/cli.gif)
 
@@ -28,8 +29,7 @@ is able to export and import the data to and from CSV files.
 
 The commands in the `bin` directory require:
 
-* ![Linux](/doc/linux16.png)![macOS](/doc/mac16.png)
-  [Ruby](https://www.ruby-lang.org/) 2.7+
+* [Ruby](https://www.ruby-lang.org/) 2.7+ (Linux and macOS only)
 * Extracted image of Skies of Arcadia, Skies of Arcadia Legends, Eternal 
   Arcadia (エターナルアルカディア) or Eternal Arcadia Legends (エターナルアルカディアレジェンド)
 
@@ -106,11 +106,10 @@ image (ISO, GCM or GDI) and the appropriate data extraction tool:
   
 ## Commands
 
-All commands and utilities can be found in the `bin` directory. In 
-![Linux](/doc/linux16.png) Linux and ![macOS](/doc/mac16.png) macOS, you have 
-to install Ruby first in order to be able to run the RB scripts. 
-![Windows](/doc/win16.png) Windows users can optionally do this as well or 
-simply run the CMD scripts which use the included Ruby.
+All commands and utilities can be found in the `bin` directory. On Linux and 
+macOS, you have to install Ruby first to run the RB scripts. Windows users 
+can optionally do this as well or simply run the CMD scripts which use the 
+included Ruby.
 
 ### buildimage.cmd & buildimage.rb
 
