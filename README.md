@@ -2,7 +2,7 @@
 
 ALX is a command line tool for Linux, macOS and Windows to export and import 
 the game data of Skies of Arcadia, Skies of Arcadia Legends, Eternal Arcadia 
-(エターナルアルカディア) and Eternal Arcadia Legends (エターナルアルカディアレジェンド).
+(エターナルアルカディア), and Eternal Arcadia Legends (エターナルアルカディアレジェンド).
 
 ![CLI](/doc/cli.gif)
 
