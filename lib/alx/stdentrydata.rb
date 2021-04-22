@@ -44,10 +44,9 @@ class StdEntryData < EntryData
   public
 
   # Constructs a StdEntryData.
-  # @param _class  [Entry]    Entry object
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_class, _root, _depend = true)
+  # @param _class  [Entry]   Entry object
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_class, _depend = true)
     super
     @id_range  = ALX.rng(0x0..)
     @data_file = nil
@@ -56,11 +55,9 @@ class StdEntryData < EntryData
     @msg_table = {}
     @csv_file  = ''
     @tpl_file  = ''
-
-    _data = Hash.new do |_h, _k|
+    @data      = Hash.new do |_h, _k|
       _h[_k] = create_entry(_k)
     end
-    @data = fetch_cache(:data, _data)
   end
 
   # Creates an entry.
@@ -71,25 +68,126 @@ class StdEntryData < EntryData
     _entry.id = _id
     _entry
   end
-  
-  # Reads all snaphots (instance variables) from SHT files.
-  def load_sht
-    super
-    load_sht_data(:data)
-  end
-  
-  # Writes all snaphots (instance variables) to SHT files.
-  def save_sht
-    super
-    save_sht_data(:data, @data)
-  end
+
+  # Reads all entries from binary files.
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
+  def load_bin
+    unless @data.empty?
+      return false
+    end
+
+    load_cache
+    if cache.valid?
+      return false
+    end
     
+    each_descriptor(@data_file) do |_d|
+      load_bin_data(glob(_d.name))
+    end
+    each_descriptor(@name_file) do |_d|
+      load_bin_names(glob(_d.name))
+    end
+    each_descriptor(@dscr_file) do |_d|
+      load_bin_dscr(glob(_d.name))
+    end
+    
+    true
+  end
+
+  # Writes all entries to binary files.
+  # @return [Boolean] +true+ if writing was successful, otherwise +false+.
+  def save_bin
+    if @data.empty?
+      return false
+    end
+    if cache.valid?
+      return false
+    end
+
+    each_descriptor(@data_file) do |_d|
+      save_bin_data(glob(_d.name))
+    end
+    each_descriptor(@name_file) do |_d|
+      save_bin_name(glob(_d.name))
+    end
+    each_descriptor(@dscr_file) do |_d|
+      save_bin_dscr(glob(_d.name))
+    end
+    save_cache
+    
+    true
+  end
+
+  # Reads all entries from CSV files (CSV files first, TPL files last).
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
+  def load_csv
+    load_cache
+    if cache.valid?
+      return false
+    end
+    
+    load_csv_data(@csv_file)
+    load_csv_data(@tpl_file, true)
+    
+    true
+  end
+
+  # Writes all entries to CSV files.
+  # @return [Boolean] +true+ if writing was successful, otherwise +false+.
+  def save_csv
+    if @data.empty?
+      return false
+    end
+    if cache.valid?
+      return false
+    end
+    
+    save_csv_data(@csv_file)
+    save_cache
+    
+    true
+  end
+
+#------------------------------------------------------------------------------
+# Public Member Variables
+#------------------------------------------------------------------------------
+
+  attr_accessor :id_range
+  attr_accessor :data_file
+  attr_accessor :name_file
+  attr_accessor :dscr_file
+  attr_accessor :msg_table
+  attr_accessor :csv_file
+  attr_accessor :tpl_file
+  attr_accessor :data
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initializes the cache descriptors.
+  def init_cache_descriptors
+    super
+    cache.add_descriptor(:bin, @data_file)
+    cache.add_descriptor(:bin, @name_file)
+    cache.add_descriptor(:bin, @dscr_file)
+    cache.add_descriptor(:csv, @csv_file )
+    cache.add_descriptor(:csv, @tpl_file )
+  end
+
+  # Initializes the cache storage.
+  def init_cache_storage
+    super
+    cache.add_storage(:@data, @data)
+  end
+
   # Reads all data entries from a binary file.
   # @param _filename [String] File name
   def load_bin_data(_filename)
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.load, VOC.open_data, _filename))
 
-    meta.store_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _size       = create_entry.size
       _last_id    = @id_range.begin
@@ -106,23 +204,18 @@ class StdEntryData < EntryData
             next
           end
 
-          LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
-          
           _entry = @data[_id]
           _entry.read_bin(_f)
         end
       end
     end
-    
-    LOG.info(sprintf(VOC.close, _filename))
   end
     
   # Reads all name entries from a binary file.
   # @param _filename [String] File name
   def load_bin_names(_filename)
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
+    LOG.info(sprintf(VOC.load, VOC.open_name, _filename))
 
-    meta.store_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @id_range.begin
       _descriptor = find_descriptor(@name_file, _filename)
@@ -163,8 +256,6 @@ class StdEntryData < EntryData
             end
           end
 
-          LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
-          
           _pos.int  = _f.pos
           _name.str = _f.read_str(blocks: 0x1, enc: 'Windows-1252')
           _size.int = _f.pos - _pos.int
@@ -179,16 +270,13 @@ class StdEntryData < EntryData
         end
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
   end
   
   # Reads all description entries from a binary file.
   # @param _filename [String] File name
   def load_bin_dscr(_filename)
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
+    LOG.info(sprintf(VOC.load, VOC.open_dscr, _filename))
 
-    meta.store_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @id_range.begin
       _descriptor = find_descriptor(@dscr_file, _filename)
@@ -229,8 +317,6 @@ class StdEntryData < EntryData
             end
           end
 
-          LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
-          
           _pos.int = _f.pos
           if jp? || us?
             _dscr.str = _f.read_str(blocks: 0x4)
@@ -249,39 +335,12 @@ class StdEntryData < EntryData
         end
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
   end
 
-  # Reads all entries from binary files.
-  def load_bin
-    unless @data.empty?
-      return
-    end
-
-    each_descriptor(@data_file) do |_d|
-      load_bin_data(glob(_d.name))
-    end
-    each_descriptor(@name_file) do |_d|
-      load_bin_names(glob(_d.name))
-    end
-    each_descriptor(@dscr_file) do |_d|
-      load_bin_dscr(glob(_d.name))
-    end
-  end
-    
   # Writes all data entries to a binary file.
   # @param _filename [String] File name
   def save_bin_data(_filename)
-    if @data.empty?
-      return
-    end
-    unless meta.updated?
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
-      return
-    end
-    
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.save, VOC.open_data, _filename))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
@@ -290,32 +349,19 @@ class StdEntryData < EntryData
       @data.each do |_id, _entry|
         _f.pos = _descriptor.convert((_id - @id_range.begin) * _size)
         if !_descriptor.include?(_f.pos, _size)    || 
-           !id_valid?(_id, @id_range, _descriptor) ||
-           !_entry.expired
+           !id_valid?(_id, @id_range, _descriptor)
           next
         end
-        
-        LOG.info(sprintf(VOC.write, _id - @id_range.begin, _f.pos))
-        
+
         _entry.write_bin(_f)
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
   end
     
   # Writes all name entries to a binary file.
   # @param _filename [String] File name
   def save_bin_name(_filename)
-    if @data.empty?
-      return
-    end
-    unless meta.updated?
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_name))
-      return
-    end
-    
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_name))
+    LOG.info(sprintf(VOC.save, VOC.open_name, _filename))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
@@ -340,31 +386,19 @@ class StdEntryData < EntryData
         end
         
         _f.pos = _pos
-        if !_descriptor.include?(_f.pos, _size) || !_entry.expired
+        if !_descriptor.include?(_f.pos, _size)
           next
         end
-        
-        LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
-        
+
         _f.write_str(_name, length: _size, blocks: 0x1, enc: 'Windows-1252')
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
   end
   
   # Writes all description entries to a binary file.
   # @param _filename [String] File name
   def save_bin_dscr(_filename)
-    if @data.empty?
-      return
-    end
-    unless meta.updated?
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_dscr))
-      return
-    end
-    
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_dscr))
+    LOG.info(sprintf(VOC.save, VOC.open_dscr, _filename))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
@@ -389,37 +423,16 @@ class StdEntryData < EntryData
         end
         
         _f.pos = _pos
-        if !_descriptor.include?(_f.pos, _size) || !_entry.expired
+        if !_descriptor.include?(_f.pos, _size)
           next
         end
-        
-        LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
-        
+
         if jp? || us?
-          _f.write_str(_dscr, _size, 0x4)
+          _f.write_str(_dscr, length: _size, blocks: 0x4)
         else
-          _f.write_str(_dscr, _size, 0x1, 'Windows-1252')
+          _f.write_str(_dscr, length: _size, blocks: 0x1, enc: 'Windows-1252')
         end
       end
-    end
-
-    LOG.info(sprintf(VOC.close, _filename))
-  end
-    
-  # Writes all entries to binary files.
-  def save_bin
-    if @data.empty?
-      return
-    end
-
-    each_descriptor(@data_file) do |_d|
-      save_bin_data(glob(_d.name))
-    end
-    each_descriptor(@name_file) do |_d|
-      save_bin_name(glob(_d.name))
-    end
-    each_descriptor(@dscr_file) do |_d|
-      save_bin_dscr(glob(_d.name))
     end
   end
 
@@ -432,14 +445,10 @@ class StdEntryData < EntryData
       return
     end
   
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.load, VOC.open_file, _filename))
 
-    meta.store_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
-      _snapshot = snaps[:data].dup
-      
       while !_f.eof?
-        LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _row   = _f.shift
         _entry = create_entry
         _entry.read_csv(_row, _force)
@@ -451,73 +460,24 @@ class StdEntryData < EntryData
         else
           @data[_entry.id] = _entry
         end
-        
-        if _snapshot
-          _result = false
-          _snapshot.reject! do |_, _sht|
-            if _result
-              break
-            end
-            _result = _entry.check_expiration(_sht)
-          end
-        else
-          _entry.expired = true
-        end
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
-  end
-
-  # Reads all entries from CSV files (CSV files first, TPL files last).
-  def load_csv
-    load_csv_data(File.join(root.dirname , @csv_file)      )
-    load_csv_data(File.join(SYS.build_dir, @tpl_file), true)
   end
 
   # Writes all data entries to a CSV file.
   # @param _filename [String] File name
   def save_csv_data(_filename)
-    if @data.empty?
-      return
-    end
-    if File.exist?(_filename) && !meta.updated?
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
-      return
-    end
-    
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.save, VOC.open_file, _filename))
 
     _header = create_entry.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @data.each do |_id, _entry|
-        LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _entry.write_csv(_f)
       end
     end
-    
-    LOG.info(sprintf(VOC.close, _filename))
   end
-
-  # Writes all entries to CSV files.
-  def save_csv
-    save_csv_data(glob(@csv_file))
-  end
-
-#------------------------------------------------------------------------------
-# Public Member Variables
-#------------------------------------------------------------------------------
-
-  attr_accessor :id_range
-  attr_accessor :data_file
-  attr_accessor :name_file
-  attr_accessor :dscr_file
-  attr_accessor :msg_table
-  attr_accessor :csv_file
-  attr_accessor :tpl_file
-  attr_accessor :data
 
 #==============================================================================
 #                                   PRIVATE
@@ -525,8 +485,8 @@ class StdEntryData < EntryData
 
   private
 
-  # Finds the PAL-E language for the given filename.
-  # @param _filename [String] Filename
+  # Finds the PAL-E language for the given file name.
+  # @param _filename [String] File name
   # @return [String] PAL-E language
   def find_lang(_filename)
     return de if _filename.include?(glob(:sot_file_de))

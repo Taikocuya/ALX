@@ -44,19 +44,18 @@ class PlayableShipData < StdEntryData
   public
 
   # Constructs a PlayableShipData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(PlayableShip, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(PlayableShip, _depend)
     self.id_range  = sys(:playable_ship_id_range)
     self.data_file = sys(:playable_ship_data_files)
     self.name_file = sys(:playable_ship_name_files)
-    self.csv_file  = SYS.playable_ship_csv_file
-    self.tpl_file  = SYS.playable_ship_tpl_file
+    self.csv_file  = join(SYS.playable_ship_csv_file)
+    self.tpl_file  = File.join(SYS.build_dir, SYS.playable_ship_tpl_file)
         
     if depend
-      @ship_cannon_data    = ShipCannonData.new(_root)
-      @ship_accessory_data = ShipAccessoryData.new(_root)
+      @ship_cannon_data    = ShipCannonData.new
+      @ship_accessory_data = ShipAccessoryData.new
     end
   end
 
@@ -71,6 +70,7 @@ class PlayableShipData < StdEntryData
   end
   
   # Reads all entries from binary files.
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
   def load_bin
     @ship_cannon_data&.load_bin
     @ship_accessory_data&.load_bin

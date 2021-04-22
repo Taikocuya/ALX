@@ -45,96 +45,83 @@ class ImageBuilder < EntryTransform
 
   # Constructs an ImageBuilder.
   def initialize
-    super(GameRoot)
+    super(nil)
   end
   
-  # Creates an entry data object.
-  # @param _root [GameRoot] Game root
-  # @return [EntryData] Entry data object
-  def create_entry_data(_root)
-    _root
-  end
-
-  def valid?(_root)
+  def valid?
     _result = super
-    if _root.dc?
-      _result &&= has_file?(_root.dirname, SYS.image_dir, 'game.gdi')
+    if Root.dc?
+      _result &&= has_file?(Root.dirname, SYS.image_dir, 'game.gdi')
     end
     _result
   end
 
-  def exec
+  # This method is called before #update respectively as first in #exec.
+  # @see #exec
+  def startup
+    super
+    
+    # Image building is very write intensive. Therefore, only one active and 
+    # passive worker process is allowed.
+    Worker.limit = 2
+  end
+
+  # This method is called after #startup and before #shutdown in #exec. It 
+  # will be re-executed as long as #repeat is true.
+  # @see #exec
+  def update
     super
 
-    data.each do |_root|
-      if _root.dc?
-        build_gdi(_root)
-      elsif _root.gc?
-        build_gcm(_root)
+    if Worker.child?
+      if dc?
+        build_gdi
+      elsif gc?
+        build_gcm
       end
     end
   end
 
   # Builds a GDI image.
-  # @param _root [GameRoot] Game root
-  def build_gdi(_root)
-    _root_dir  = ALX.join(_root.dirname, SYS.root_dir )
-    _image_dir = ALX.join(_root.dirname, SYS.image_dir)
-    _gdi_file  = ALX.join(_image_dir   , 'game.gdi'   )
-    _ip_file   = ALX.join(_root.dirname, SYS.ip_file  )
+  def build_gdi
+    _root_dir  = ALX.join(Root.dirname, SYS.root_dir )
+    _image_dir = ALX.join(Root.dirname, SYS.image_dir)
+    _gdi_file  = ALX.join(_image_dir  , 'game.gdi'   )
+    _ip_file   = ALX.join(Root.dirname, SYS.ip_file  )
 
-    begin
-      FileUtils.mkdir_p(_image_dir)
-      _result = true
-      Open3.popen3(
-        SYS.gdi_builder_exe,
-        '-data'  , _root_dir ,
-        '-gdi'   , _gdi_file ,
-        '-ip'    , _ip_file  ,
-        '-output', _image_dir
-      ) do |_, _stdout, _, _thread|
-        _thread.pid
-        _result = /Done!/.match?(_stdout.gets)
-      end
-    rescue StandardError
-      _result = false
-    end
+    LOG.info(sprintf(VOC.build_gdi, _gdi_file))
 
-    _msg = sprintf(VOC.build_gdi, _gdi_file)
-    if _result
-      _msg += sprintf(' - %s', VOC.done)
-      ALX::LOG.info(_msg)
-    else
-      _msg += sprintf(' - %s', VOC.failed)
-      ALX::LOG.error(_msg)
+    FileUtils.mkdir_p(_image_dir)
+    _stdout, _stderr, _status = Open3.capture3(
+      SYS.gdi_builder_exe,
+      '-data'  , _root_dir ,
+      '-gdi'   , _gdi_file ,
+      '-ip'    , _ip_file  ,
+      '-output', _image_dir
+    )
+
+    unless _status.success?
+      _stderr.strip!
+      _stderr.gsub!(/\s+/, ' ')
+      raise(IOError, _stderr)
     end
   end
   
   # Builds a GCM image.
-  # @param _root [GameRoot] Game root
-  def build_gcm(_root)
-    _root_dir  = ALX.join(_root.dirname, SYS.root_dir )
-    _image_dir = ALX.join(_root.dirname, SYS.image_dir)
-    _gcm_file  = ALX.join(_image_dir   , 'game.iso'   )
+  def build_gcm
+    _root_dir  = ALX.join(Root.dirname, SYS.root_dir )
+    _image_dir = ALX.join(Root.dirname, SYS.image_dir)
+    _gcm_file  = ALX.join(_image_dir  , 'game.iso'   )
 
-    begin
-      FileUtils.mkdir_p(_image_dir)
-      if File.exist?(_gcm_file)
-        FileUtils.remove_file(_gcm_file)
-      end
-      system(SYS.gcm_builder_exe, _root_dir, _gcm_file)
-      _result = File.size?(_gcm_file)
-    rescue StandardError
-      _result = false
+    LOG.info(sprintf(VOC.build_gcm, _gcm_file))
+
+    if File.exist?(_abs)
+      File.unlink(_abs)
     end
-
-    _msg = sprintf(VOC.build_gcm, _gcm_file)
-    if _result
-      _msg += sprintf(' - %s', VOC.done)
-      ALX::LOG.info(_msg)
-    else
-      _msg += sprintf(' - %s', VOC.failed)
-      ALX::LOG.error(_msg)
+    FileUtils.mkdir_p(_image_dir)
+    system(SYS.gcm_builder_exe, _root_dir, _gcm_file)
+    
+    unless File.size?(_gcm_file)
+      raise(IOError, 'image invalid')
     end
   end
 

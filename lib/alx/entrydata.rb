@@ -23,9 +23,8 @@
 #==============================================================================
 
 require('fileutils')
+require_relative('cachefile.rb')
 require_relative('executable.rb')
-require_relative('metadata.rb')
-require_relative('shtmanger.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -45,201 +44,109 @@ class EntryData
   public
 
   # Constructs an EntryData.
-  # @param _class  [Entry]    Entry object
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_class, _root, _depend = true)
-    @@cache ||= {}
-    @class    = _class
-    @root     = _root
-    @depend   = _depend
-    @sht      = ShtManager.new(_root, self.class.name.split('::').last)
+  # @param _class  [Entry]   Entry object
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_class, _depend = true)
+    @@memory ||= {}
+    @class     = _class
+    @depend    = _depend
+    @cache     = CacheFile.new
   end
-  
+
   # Creates an entry.
   # @return [Entry] Entry object
   def create_entry
-    @class.new(@root)
+    @class.new
   end
 
-  # Returns an object from cache for the given symbol. If the symbol cannot 
-  # be found, then default will be stored in cache and returned.
-  # 
-  # @param _sym     [Symbol] Object symbol
-  # @param _default [Object] Object instance
-  # 
-  # @return [Object] Object instance
-  def fetch_cache(_sym, _default)
-    _luid = sprintf('%s-%s', luid, _sym.to_s)
-    _data = @@cache[_luid]
-    
-    if depend && !_data
-      @@cache[_luid] = _default
-    end
-    
-    _data || _default
+  # @see Root#etc
+  def etc(...)
+    Root.etc(...)
   end
 
-  # Refreshes all objects in cache to force an update of entry properties.
-  def refresh
-    @@cache.each do |_sym, _obj|
-      if _sym.start_with?(luid)
-        case _obj
-        when Array
-          _obj.each do |_entry|
-            _entry.refresh
-          end
-        when Hash
-          _obj.each_value do |_entry|
-            _entry.refresh
-          end
-        end
-      end
-    end
+  # @see Root#sys
+  def sys(...)
+    Root.sys(...)
   end
 
-  # @see GameRoot#etc
-  def etc(*_args)
-    @root.etc(*_args)
+  # @see Root#voc
+  def voc(...)
+    Root.voc(...)
   end
 
-  # @see GameRoot#sys
-  def sys(*_args)
-    @root.sys(*_args)
+  # @see Root#join
+  def join(...)
+    Root.join(...)
   end
 
-  # @see GameRoot#voc
-  def voc(*_args)
-    @root.voc(*_args)
+  # @see Root#glob
+  def glob(...)
+    Root.glob(...)
   end
 
-  # @see GameRoot#join
-  def join(*_args)
-    @root.join(*_args)
-  end
-
-  # @see GameRoot#glob
-  def glob(*_args, &_block)
-    @root.glob(*_args, &_block)
-  end
-
-  # Reads an object from a SHT file and returns it.
-  # @param _sym [Symbol] Object symbol
-  # @return [Object] Object instance
-  def load_sht_data(_sym)
-    unless SYS.snapshot_use_cache
-      return nil
-    end
-    
-    @sht.load_sht_data(_sym)
-  end
-
-  # Reads all snaphots (instance variables) from SHT files.
-  def load_sht
-    unless SYS.snapshot_use_cache
-      return
-    end
-    
-    @sht.load_sht_meta
-  end
-
-  # Writes an object to a SHT file and returns it.
-  # @param _sym [Symbol] Object symbol
-  # @param _obj [Object] Object instance
-  # @return [Object] Object instance
-  def save_sht_data(_sym, _obj)
-    unless SYS.snapshot_use_cache
-      return nil
-    end
-
-    @sht.save_sht_data(_sym, _obj)
-  end
-
-  # Writes all snaphots (instance variables) to SHT files.
-  def save_sht
-    unless SYS.snapshot_use_cache
-      return
-    end
-    
-    @sht.save_sht_meta
-  end
-  
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
 
-  attr_reader :root
   attr_reader :depend
-  attr_reader :sht
+  attr_reader :cache
 
-  def luid
-    @sht.luid
-  end
-  
-  def meta
-    @sht.meta
-  end
-  
-  def snaps
-    @sht.snaps
-  end
-  
   def product_id
-    @root.product_id
+    Root.product_id
   end
   alias pid product_id
   
   def country_id
-    @root.country_id
+    Root.country_id
   end
   alias cid country_id
 
   # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
   # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.
   def dc?
-    @root.dc?
+    Root.dc?
   end
 
   # Returns +true+ if the platform is a GameCube, otherwise +false+.
   # @return [Boolean] +true+ if platform is a GameCube, otherwise +false+.
   def gc?
-    @root.gc?
+    Root.gc?
   end
 
   # Returns +true+ if the country is 'EU', otherwise +false+.
   # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
   def eu?
-    @root.eu?
+    Root.eu?
   end
 
   # Returns +true+ if the country is 'JP', otherwise +false+.
   # @return [Boolean] +true+ if country is 'JP', otherwise +false+.
   def jp?
-    @root.jp?
+    Root.jp?
   end
 
   # Returns +true+ if the country is 'US', otherwise +false+.
   # @return [Boolean] +true+ if country is 'US', otherwise +false+.
   def us?
-    @root.us?
+    Root.us?
   end
 
   # Returns +:big+ or +:little+ depending on the platform endianness.
   # @return [Symbol] +:big+ or +:little+ depending on endianness.
   def endianness
-    @root.endianness
+    Root.endianness
   end
 
   # Returns +true+ if the endianness is big-endian, otherwise +false+.
   # @return [Boolean] +true+ if endianness is big-endian, otherwise +false+.
   def big_endian?
-    @root.big_endian?
+    Root.big_endian?
   end
 
   # Returns +true+ if the endianness is little-endian, otherwise +false+.
   # @return [Boolean] +true+ if endianness is little-endian, otherwise +false+.
   def little_endian?
-    @root.little_endian?
+    Root.little_endian?
   end
 
 #==============================================================================
@@ -247,6 +154,76 @@ class EntryData
 #==============================================================================
 
   protected
+
+  # Initializes the cache file. This method calls #init_cache_key, 
+  # #init_cache_dummies, #init_cache_descriptors and #init_cache_storage.
+  def init_cache
+    init_cache_object
+    init_cache_key
+    init_cache_dummies
+    init_cache_descriptors
+    init_cache_storage
+  end
+
+  # Initializes the cache object.
+  def init_cache_object
+    @cache.clear
+  end
+  
+  # Initializes the cache key.
+  def init_cache_key
+    @cache.prefix = @class.name.split('::').last.downcase
+  end
+  
+  # Initializes the cache dummies.
+  def init_cache_dummies
+    @cache.dummies.clear
+    @cache.add_dummy(create_entry)
+  end
+
+  # Initializes the cache descriptors.
+  def init_cache_descriptors
+    @cache.descriptors.clear
+  end
+
+  # Initializes the cache storage.
+  def init_cache_storage
+    @cache.storage.clear
+  end
+
+  # Assigns the objects from the cache storage beginning with @-characters to 
+  # existing instance variables.
+  # @param _force [Boolean] Force overwrite even if empty or obsolete
+  def assign_cache(_force = false)
+    if !_force && @cache.obsolete?
+      return
+    end
+
+    @cache.storage.each do |_sym, _obj|
+      if _sym.to_s.start_with?('@') && instance_variable_defined?(_sym)
+        instance_variable_set(_sym, _obj)
+      end
+    end
+  end
+
+  # Reads all entries from a cache file.
+  # @param _pool [Symbol] Range descriptor pool
+  def load_cache(_pool = nil)
+    init_cache
+    @cache.load(_pool)
+    assign_cache
+  end
+
+  # Writes all entries to a cache file.
+  # @param _pool [Symbol] Range descriptor pool
+  def save_cache(_pool = nil)
+    if @cache
+      init_cache_storage
+    else
+      init_cache
+    end
+    @cache.save(_pool)
+  end
 
   # Returns +true+ if entry ID is valid, otherwise +false+.
   # @param _id         [Integer]         Entry ID
@@ -269,7 +246,8 @@ class EntryData
       _descriptor = _descriptor.find { |_r| _filename.include?(_r.name) }
     end
     unless _descriptor.is_a?(RangeDescriptor)
-      raise(TypeError, sprintf('%s is not a range descriptor', _descriptor))
+      _msg = '%s is not a range descriptor'
+      raise(TypeError, sprintf(_msg, _descriptor.inspect))
     end
     _descriptor ||= RangeDescriptor.new('', 0x0..0xffffffff)
     _descriptor

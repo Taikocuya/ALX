@@ -26,7 +26,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Mixin for every command line tool.
+# Mixin for command-line tool.
 module Fileable
  
 #==============================================================================

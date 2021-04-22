@@ -50,29 +50,28 @@ class EnemyShipData < StdEntryData
   public
 
   # Constructs an EnemyShipData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(EnemyShip, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(EnemyShip, _depend)
     self.id_range  = sys(:enemy_ship_id_range)
     self.data_file = sys(:enemy_ship_data_files)
     self.name_file = sys(:enemy_ship_name_files)
-    self.csv_file  = SYS.enemy_ship_csv_file
-    self.tpl_file  = SYS.enemy_ship_tpl_file
+    self.csv_file  = join(SYS.enemy_ship_csv_file)
+    self.tpl_file  = File.join(SYS.build_dir, SYS.enemy_ship_tpl_file)
     @arm_name_file = sys(:enemy_ship_arm_name_files)
         
     if depend
-      @accessory_data      = AccessoryData.new(_root)
-      @armor_data          = ArmorData.new(_root)
-      @ship_accessory_data = ShipAccessoryData.new(_root)
-      @ship_cannon_data    = ShipCannonData.new(_root)
-      @ship_item_data      = ShipItemData.new(_root)
-      @special_item_data   = SpecialItemData.new(_root)
-      @usable_item_data    = UsableItemData.new(_root)
-      @weapon_data         = WeaponData.new(_root)
+      @accessory_data      = AccessoryData.new
+      @armor_data          = ArmorData.new
+      @ship_accessory_data = ShipAccessoryData.new
+      @ship_cannon_data    = ShipCannonData.new
+      @ship_item_data      = ShipItemData.new
+      @special_item_data   = SpecialItemData.new
+      @usable_item_data    = UsableItemData.new
+      @weapon_data         = WeaponData.new
     end
     
-    @items  = {}
+    @items = {}
   end
 
   # Creates an entry.
@@ -84,12 +83,73 @@ class EnemyShipData < StdEntryData
     _entry
   end
 
+  # Reads all entries from binary files.
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
+  def load_bin
+    @accessory_data&.load_bin
+    @armor_data&.load_bin
+    @ship_accessory_data&.load_bin
+    @ship_cannon_data&.load_bin
+    @ship_item_data&.load_bin
+    @special_item_data&.load_bin
+    @usable_item_data&.load_bin
+    @weapon_data&.load_bin
+    
+    if depend
+      @items.merge!(@accessory_data.data)
+      @items.merge!(@armor_data.data)
+      @items.merge!(@ship_accessory_data.data)
+      @items.merge!(@ship_cannon_data.data)
+      @items.merge!(@ship_item_data.data)
+      @items.merge!(@special_item_data.data)
+      @items.merge!(@usable_item_data.data)
+      @items.merge!(@weapon_data.data)
+    end
+
+    unless super
+      return false
+    end
+
+    each_descriptor(@arm_name_file) do |_d|
+      load_arm_name_from_bin(glob(_d.name))
+    end
+  end
+  
+  # Writes all entries to binary files.
+  # @return [Boolean] +true+ if writing was successful, otherwise +false+.
+  def save_bin
+    unless super
+      return false
+    end
+  
+    each_descriptor(@arm_name_file) do |_d|
+      save_bin_arm_name(glob(_d.name))
+    end
+  end
+
+#------------------------------------------------------------------------------
+# Public Member Variables
+#------------------------------------------------------------------------------
+
+  attr_accessor :arm_name_file
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initializes the cache descriptors.
+  def init_cache_descriptors
+    super
+    cache.add_descriptor(:bin, @arm_name_file)
+  end
+
   # Reads all armament name entries from a binary file.
   # @param _filename [String] File name
   def load_arm_name_from_bin(_filename)
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_name))
+    LOG.info(sprintf(VOC.load, VOC.open_name, _filename))
 
-    meta.store_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @id_range.begin
       _descriptor = find_descriptor(@arm_name_file, _filename)
@@ -114,8 +174,6 @@ class EnemyShipData < StdEntryData
             _size = _entry.fetch(VOC.arm_name_size(_i, _lang))
             _name = _entry.fetch(VOC.arm_name_str(_i, _lang) )
 
-            LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
-            
             _pos.int  = _f.pos
             _name.str = _f.read_str(blocks: 0x1, enc: 'Windows-1252')
             _size.int = _f.pos - _pos.int
@@ -123,51 +181,16 @@ class EnemyShipData < StdEntryData
         end
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
   end
 
-  # Reads all entries from binary files.
-  def load_bin
-    @accessory_data&.load_bin
-    @armor_data&.load_bin
-    @ship_accessory_data&.load_bin
-    @ship_cannon_data&.load_bin
-    @ship_item_data&.load_bin
-    @special_item_data&.load_bin
-    @usable_item_data&.load_bin
-    @weapon_data&.load_bin
-    
-    if depend
-      @items.merge!(@accessory_data.data)
-      @items.merge!(@armor_data.data)
-      @items.merge!(@ship_accessory_data.data)
-      @items.merge!(@ship_cannon_data.data)
-      @items.merge!(@ship_item_data.data)
-      @items.merge!(@special_item_data.data)
-      @items.merge!(@usable_item_data.data)
-      @items.merge!(@weapon_data.data)
-    end
-    
-    super
-  
-    each_descriptor(@arm_name_file) do |_d|
-      load_arm_name_from_bin(glob(_d.name))
-    end
-  end
-  
   # Writes all armament name entries to a binary file.
   # @param _filename [String] File name
   def save_bin_arm_name(_filename)
     if @data.empty?
       return
     end
-    unless meta.updated?
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_name))
-      return
-    end
-    
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_name))
+
+    LOG.info(sprintf(VOC.save, VOC.open_name, _filename))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
@@ -189,34 +212,15 @@ class EnemyShipData < StdEntryData
           end
 
           _f.pos = _pos
-          if !_descriptor.include?(_f.pos, _size - 1) || !_entry.expired
+          if !_descriptor.include?(_f.pos, _size - 1)
             next
           end
-          
-          LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
-          
+
           _f.write_str(_name, length: _size, blocks: 0x1, enc: 'Windows-1252')
         end
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
   end
-    
-  # Writes all entries to binary files.
-  def save_bin
-    super
-  
-    each_descriptor(@arm_name_file) do |_d|
-      save_bin_arm_name(glob(_d.name))
-    end
-  end
-
-#------------------------------------------------------------------------------
-# Public Member Variables
-#------------------------------------------------------------------------------
-
-  attr_accessor :arm_name_file
 
 end # class EnemyShipData
 

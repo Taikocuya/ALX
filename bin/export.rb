@@ -16,14 +16,15 @@
 # details.
 # 
 # You should have received a copy of the GNU General Public License along 
-# with ALX.  If not, see <http://www.gnu.org/licenses/>.
+# with ALX.  If not, see <httprio://www.gnu.org/licenses/>.
 #******************************************************************************
 
 #==============================================================================
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/executable.rb')
+require('ostruct')
+require_relative('../lib/alx/entrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,21 +34,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to export weapons to CSV files.
-class Exporter
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Executable)
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Executables of exporters
-  EXEC_FILES = File.join(File.dirname(__FILE__), 'export[a-z]*.rb')
+# Class to execute all export commands.
+class Exporter < EntryTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -56,33 +44,68 @@ class Exporter
   public
   
   def initialize
-    super
-    @exec_files = Dir.glob(EXEC_FILES)
-    @exec_files.select! do |_p|
-      _result   = File.file?(_p)
-      _result &&= File.basename(_p) != 'exportdefinedstring.rb'
-      _result &&= File.basename(_p) != 'exportscripttask.rb'
-    end
-  end
-  
-  def valid?
-    _valid = true
-    @exec_files.each do |_p|
-      _valid &&= has_file?(_p)
-    end
+    super(nil)
 
-    _valid
+    @files  = []
+    @files << OpenStruct.new(prio: 20, file: 'exportaccessory.rb')
+    @files << OpenStruct.new(prio: 20, file: 'exportarmor.rb')
+    @files << OpenStruct.new(prio: 30, file: 'exportcharacter.rb')
+    @files << OpenStruct.new(prio: 40, file: 'exportcharactermagic.rb')
+    @files << OpenStruct.new(prio: 40, file: 'exportcharactersupermove.rb')
+    @files << OpenStruct.new(prio: 20, file: 'exportcrewmember.rb')
+    @files << OpenStruct.new(prio: 30, file: 'exportenemy.rb')
+    @files << OpenStruct.new(prio: 40, file: 'exportenemymagic.rb')
+    @files << OpenStruct.new(prio: 30, file: 'exportenemyship.rb')
+    @files << OpenStruct.new(prio: 30, file: 'exportenemyshiptask.rb')
+    @files << OpenStruct.new(prio: 40, file: 'exportenemysupermove.rb')
+    @files << OpenStruct.new(prio: 40, file: 'exportexpcurve.rb')
+    @files << OpenStruct.new(prio: 40, file: 'exportmagicexpcurve.rb')
+    @files << OpenStruct.new(prio: 30, file: 'exportplayableship.rb')
+    @files << OpenStruct.new(prio: 20, file: 'exportshipaccessory.rb')
+    @files << OpenStruct.new(prio: 20, file: 'exportshipcannon.rb')
+    @files << OpenStruct.new(prio: 20, file: 'exportshipitem.rb')
+    @files << OpenStruct.new(prio: 30, file: 'exportshop.rb')
+    @files << OpenStruct.new(prio: 20, file: 'exportspecialitem.rb')
+    @files << OpenStruct.new(prio: 40, file: 'exportspiritcurve.rb')
+    @files << OpenStruct.new(prio: 20, file: 'exportswashbuckler.rb')
+    @files << OpenStruct.new(prio: 30, file: 'exporttreasurechest.rb')
+    @files << OpenStruct.new(prio: 20, file: 'exportusableitem.rb')
+    @files << OpenStruct.new(prio: 20, file: 'exportweapon.rb')
+    @files << OpenStruct.new(prio: 10, file: 'exportweaponeffect.rb')
+    
+    @files.sort! do |_a, _b|
+      _comp = (_a.prio <=> _b.prio)
+      _comp = (_a.file <=> _b.file) if _comp == 0
+      _comp
+    end
+    @files.collect! do |_f|
+      File.join(File.dirname(__FILE__), _f.file)
+    end
   end
-  
-  def exec
-    if valid?
-      @exec_files.each do |_p|
+
+  def valid?
+    _result = super
+    
+    if Worker.parent?
+      @files.each do |_p|
+        _result &&= has_file?(_p)
+      end
+    end
+    
+    _result
+  end
+
+  def update
+    super
+    
+    if Worker.child?
+      @files.each do |_p|
         require(_p)
       end
     end
   end
 
-end	# class WeaponExporter
+end	# class Exporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

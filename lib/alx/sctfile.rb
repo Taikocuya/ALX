@@ -59,9 +59,7 @@ class SctFile
   public
 
   # Constructs a SctFile.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    @root     = _root
+  def initialize
     @versions = []
     @tasks    = []
   end
@@ -71,7 +69,7 @@ class SctFile
   # @param _filename [String]  File name
   # @return [Entry] ScriptVersion object
   def create_version(_id = -1, _filename = '*')
-    _version      = ScriptVersion.new(@root)
+    _version      = ScriptVersion.new
     _version.id   = _id
     _version.file = File.basename(_filename)
     _version
@@ -91,7 +89,7 @@ class SctFile
   # @param _filename [String]  File name
   # @return [Entry] ScriptTask object
   def create_task(_id = -1, _filename = '*')
-    _task      = ScriptTask.new(@root)
+    _task      = ScriptTask.new
     _task.id   = _id
     _task.file = File.basename(_filename)
     _task
@@ -109,9 +107,9 @@ class SctFile
   # Reads a SCT file.
   # @param _filename [String] File name
   def load(_filename)
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.load, VOC.open_file, _filename))
 
-    CompressedFile.open(@root, _filename, 'rb') do |_f|
+    CompressedFile.open(_filename, 'rb') do |_f|
       # Version
       _version = create_version(@versions.size, _filename)
       _version.read_bin(_f)
@@ -145,33 +143,30 @@ class SctFile
         end
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes a TEC file.
   # @param _filename [String] File name
   def save(_filename)
     _basename = File.basename(_filename)
-    _expired  = false
+    _modified = false
     _tasks    = @tasks.find_all do |_task|
       _result = (_task.file == _basename)
       if _result
-        _expired ||= _task.expired
+        _modified ||= _task.modified
       end
       _result
     end
     if _tasks.empty?
       return
     end
-    unless _expired
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+    unless _modified
       return
     end
 
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.save, VOC.open_file, _filename))
 
-    CompressedFile.open(@root, _filename, 'wb') do |_f|
+    CompressedFile.open(_filename, 'wb') do |_f|
       # Version
       _version = @versions.find do |_v|
         _v.file == _basename
@@ -208,17 +203,70 @@ class SctFile
       _f.pos = _version.size
       save_events(_f, _events)
     end
-    
-    LOG.info(sprintf(VOC.close, _filename))
   end
   
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :root
   attr_accessor :versions
   attr_accessor :tasks
+
+  def product_id
+    Root.product_id
+  end
+  
+  def country_id
+    Root.country_id
+  end
+
+  # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
+  # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.
+  def dc?
+    Root.dc?
+  end
+
+  # Returns +true+ if the platform is a GameCube, otherwise +false+.
+  # @return [Boolean] +true+ if platform is a GameCube, otherwise +false+.
+  def gc?
+    Root.gc?
+  end
+
+  # Returns +true+ if the country is 'EU', otherwise +false+.
+  # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
+  def eu?
+    Root.eu?
+  end
+
+  # Returns +true+ if the country is 'JP', otherwise +false+.
+  # @return [Boolean] +true+ if country is 'JP', otherwise +false+.
+  def jp?
+    Root.jp?
+  end
+
+  # Returns +true+ if the country is 'US', otherwise +false+.
+  # @return [Boolean] +true+ if country is 'US', otherwise +false+.
+  def us?
+    Root.us?
+  end
+
+  # Returns +:big+ or +:little+ depending on the platform endianness.
+  # @return [Symbol] +:big+ or +:little+ depending on endianness.
+  def endianness
+    Root.endianness
+  end
+
+  # Returns +true+ if the endianness is big-endian, otherwise +false+.
+  # @return [Boolean] +true+ if endianness is big-endian, otherwise +false+.
+  def big_endian?
+    Root.big_endian?
+  end
+
+  # Returns +true+ if the endianness is little-endian, otherwise +false+.
+  # @return [Boolean] +true+ if endianness is little-endian, otherwise +false+.
+  def little_endian?
+    Root.little_endian?
+  end
 
 #==============================================================================
 #                                  PROTECTED
@@ -340,13 +388,11 @@ class SctFile
   # @param _events   [Array]  Script events
   # @param _filename [String] File name
   def load_tasks(_f, _events, _filename)
-    _buf = BinaryStringIO.new('', 'rb', endianness: @root.endianness)
+    _buf = BinaryStringIO.new('', 'rb', endianness: endianness)
     
     _events.each.with_index do |_event, _event_id|
       _f.pos = _event.pos
-
-      LOG.info(sprintf(VOC.read, _event_id, _f.pos))
-
+      
       _buf.string = _f.read(_event.size) || ''
       if _buf.size != _event.size
         _msg = 'event size invalid - %s (given %#x, expected %#x)'
@@ -490,8 +536,6 @@ class SctFile
     _beg = _f.pos
   
     _events.each_with_index do |_event, _event_id|
-      LOG.info(sprintf(VOC.write, _event_id, _f.pos))
-      
       _last        = nil
       _event.pos   = _f.pos - _beg
       _event_tasks = find_tasks(_filename, _event.name)
@@ -520,8 +564,6 @@ class SctFile
       end
     end
 
-    LOG.info(sprintf(VOC.write, _events.size, _f.pos))
-    
     _event_tasks = find_tasks(_filename, '')
     _event_tasks.each do |_task|
       _task.write_bin(_f)
@@ -542,7 +584,7 @@ class SctFile
   # Clears the string detector.
   def clear_detector
     unless @detector
-      @detector                = DefinedStringDetector.new(@root)
+      @detector                = DefinedStringDetector.new
       @detector.char_table     = @detector.char_table.dup << 0x7f
       @detector.filters        = [gs(/\x7f/n, ' ', verify: false)]
       @detector.ignore_filter  = false
@@ -552,6 +594,7 @@ class SctFile
       @detector.end_alignment  = 0x4
       @detector.min_byte_size  = 1
       @detector.min_char_size  = 1
+      @detector.translate      = true
     else
       @detector.clear
     end

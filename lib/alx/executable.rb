@@ -24,7 +24,7 @@
 
 require('date')
 require_relative('fileable.rb')
-require_relative('main.rb')
+require_relative('worker.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,7 +34,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Mixin for every command line tool.
+# Mixin for command-line tool.
 module Executable
 
 #==============================================================================
@@ -48,9 +48,9 @@ module Executable
 #==============================================================================
 
   # Version of ALX
-  VERSION = '5.0.0-B2'.freeze
+  VERSION  = '5.0.0-B3'.freeze
   # Date of ALX
-  DATE    = Date.new(2021, 1, 13).freeze
+  DATE     = Date.new(2021, 4, 21).freeze
 
 #==============================================================================
 #                                   PUBLIC
@@ -60,9 +60,17 @@ module Executable
 
   # Constructs an Executable.
   def initialize
-    show_version
+    @repeat = false
+    if Worker.parent?
+      show_version
+    end
   end
-
+  
+  # Destructs an Executable.
+  def self.finalize(name)
+    proc { IL.DeleteImages(1, [name]) }
+  end
+  
   # Displays version of ALX.
   def show_version
     LOG.info(DATE.strftime("ALX #{VERSION} (%Y-%m-%d)"))
@@ -85,6 +93,49 @@ module Executable
     end
     
     _result
+  end
+
+  # Executes #startup, #update and #shutdown. The #update method will be 
+  # re-executed as long as #repeat is true.
+  def exec
+    startup
+    
+    loop do
+      update
+      unless @repeat
+        break
+      end
+    end
+    
+    shutdown
+  end
+  
+#------------------------------------------------------------------------------
+# Public Member Variables
+#------------------------------------------------------------------------------
+
+    attr_accessor :repeat
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # This method is called before #update respectively as first in #exec.
+  # @see #exec
+  def startup
+  end
+  
+  # This method is called after #startup and before #shutdown in #exec. It 
+  # will be re-executed as long as #repeat is true.
+  # @see #exec
+  def update
+  end
+  
+  # This method is called after #update respectively as last in #exec.
+  # @see #exec
+  def shutdown
   end
 
 end # class Executable

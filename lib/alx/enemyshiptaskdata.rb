@@ -45,17 +45,16 @@ class EnemyShipTaskData < EntryData
   public
 
   # Constructs an EnemyShipTaskData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(EnemyShipTask, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(EnemyShipTask, _depend)
     @tec_file = sys(:tec_file)
-    @csv_file = SYS.enemy_ship_task_csv_file
-    @tpl_file = SYS.enemy_ship_task_tpl_file    
+    @csv_file = join(SYS.enemy_ship_task_csv_file)
+    @tpl_file = File.join(SYS.build_dir, SYS.enemy_ship_task_tpl_file)
     
     if depend
-      @character_magic_data = CharacterMagicData.new(_root)
-      @enemy_ship_data      = EnemyShipData.new(_root)
+      @character_magic_data = CharacterMagicData.new
+      @enemy_ship_data      = EnemyShipData.new
     end
     
     @data = []
@@ -71,58 +70,41 @@ class EnemyShipTaskData < EntryData
     _entry.enemy_ships = @enemy_ship_data&.data
     _entry
   end
-  
-  # Reads all snaphots (instance variables) from SHT files.
-  def load_sht
-    super
-    load_sht_data(:data)
-  end
-  
-  # Writes all snaphots (instance variables) to SHT files.
-  def save_sht
-    super
-    save_sht_data(:data, @data)
-  end
-
-  # Reads all entries from a binary file.
-  # @param _filename [String] File name
-  def load_bin_data(_filename)
-    meta.store_mtime(_filename)
-    _file             = TecFile.new(root)
-    _file.magics      = @character_magic_data&.data
-    _file.enemy_ships = @enemy_ship_data&.data
-    _file.load(_filename)
-    @data.concat(_file.tasks)
-  end
 
   # Reads all entries from binary files.
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
   def load_bin
+    unless @data.empty?
+      return false
+    end
+
     @character_magic_data&.load_bin
     @enemy_ship_data&.load_bin
+    
+    load_cache
+    if cache.valid?
+      return false
+    end
     
     glob(@tec_file) do |_p|
       if File.file?(_p)
         load_bin_data(_p)
       end
     end
-  end
-
-  # Writes all entries to a binary file.
-  # @param _filename [String] File name
-  def save_bin_data(_filename)
-    unless meta.updated?
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
-      return
-    end
     
-    FileUtils.mkdir_p(File.dirname(_filename))
-    _file       = TecFile.new(root)
-    _file.tasks = @data
-    _file.save(_filename)
+    true
   end
 
   # Writes all entries to binary files.
+  # @return [Boolean] +true+ if writing was successful, otherwise +false+.
   def save_bin
+    if @data.empty?
+      return false
+    end
+    if cache.valid?
+      return false
+    end
+    
     _files = []
     @data.each do |_entry|
       _filename = _entry.file
@@ -136,6 +118,93 @@ class EnemyShipTaskData < EntryData
     _files.each do |_filename|
       save_bin_data(glob(_dirname, _filename))
     end
+    save_cache
+    
+    true
+  end
+
+  # Reads all entries from CSV files (TPL files first, CSV files last).
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
+  def load_csv
+    load_cache
+    if cache.valid?
+      return false
+    end
+
+    load_csv_data(@csv_file)
+    load_csv_data(@tpl_file, true)
+
+    true
+  end
+
+  # Writes all entries to CSV files.
+  # @return [Boolean] +true+ if writing was successful, otherwise +false+.
+  def save_csv
+    if @data.empty?
+      return false
+    end
+    if cache.valid?
+      return false
+    end
+    
+    save_csv_data(@csv_file)
+    save_cache
+    
+    true
+  end
+
+#------------------------------------------------------------------------------
+# Public Member Variables
+#------------------------------------------------------------------------------
+
+  attr_accessor :tec_file
+  attr_accessor :csv_file
+  attr_accessor :tpl_file
+  attr_accessor :data
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initializes the cache descriptors.
+  def init_cache_descriptors
+    super
+
+    glob(@tec_file) do |_p|
+      if File.file?(_p)
+        cache.add_descriptor(:bin, _p)
+      end
+    end
+
+    cache.add_descriptor(:csv, @csv_file)
+    cache.add_descriptor(:csv, @tpl_file)
+  end
+
+  # Initializes the cache storage.
+  def init_cache_storage
+    super
+    cache.add_storage(:@data, @data)
+  end
+
+  # Reads all entries from a binary file.
+  # @param _filename [String] File name
+  def load_bin_data(_filename)
+    _file             = TecFile.new
+    _file.magics      = @character_magic_data&.data
+    _file.enemy_ships = @enemy_ship_data&.data
+    _file.load(_filename)
+    @data.concat(_file.tasks)
+  end
+
+  # Writes all entries to a binary file.
+  # @param _filename [String] File name
+  def save_bin_data(_filename)
+    FileUtils.mkdir_p(File.dirname(_filename))
+    _file       = TecFile.new
+    _file.tasks = @data
+    _file.save(_filename)
   end
 
   # Reads all data entries from a CSV file.
@@ -149,81 +218,37 @@ class EnemyShipTaskData < EntryData
       return
     end
 
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.load, VOC.open_file, _filename))
 
-    meta.store_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
-      _snapshot = snaps[:data].dup
-
+      _cache = cache.data
       while !_f.eof?
-        LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _entry = create_entry
         _entry.read_csv(_f)
 
-        if _snapshot
-          _result = false
-          _snapshot.reject! do |_sht|
-            if _result
-              break
-            end
-            _result = _entry.check_expiration(_sht)
-          end
-        else
-          _entry.expired = true
+        unless _cache.include?(_entry)
+          _entry.modified = true
         end
         
         @data << _entry
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
-  end
-
-  # Reads all entries from CSV files (TPL files first, CSV files last).
-  def load_csv
-    load_csv_data(File.join(SYS.build_dir, @tpl_file), true)
-    load_csv_data(File.join(root.dirname , @csv_file)      )
   end
 
   # Writes all data entries to a CSV file.
   # @param _filename [String] File name
   def save_csv_data(_filename)
-    if @data.empty?
-      return
-    end
-    if File.exist?(_filename) && !meta.updated?
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
-      return
-    end
-    
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.save, VOC.open_file, _filename))
 
     _header = create_entry.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @data.each do |_entry|
-        LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _entry.write_csv(_f)
       end
     end
-    
-    LOG.info(sprintf(VOC.close, _filename))
   end
-
-  # Writes all entries to CSV files.
-  def save_csv
-    save_csv_data(glob(@csv_file))
-  end
-
-#------------------------------------------------------------------------------
-# Public Member Variables
-#------------------------------------------------------------------------------
-
-  attr_accessor :tec_file
-  attr_accessor :csv_file
-  attr_accessor :tpl_file
-  attr_accessor :data
 
 end # class EnemyShipTaskData
 

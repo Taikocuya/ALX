@@ -50,9 +50,7 @@ class EpFile
   public
 
   # Constructs an EpFile.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    @root        = _root
+  def initialize
     @enemies     = []
     @tasks       = []
     @items       = {}
@@ -65,7 +63,7 @@ class EpFile
   # @param _filename [String]  File name
   # @return [Entry] Enemy object
   def create_enemy(_id = -1, _filename = '*')
-    _enemy        = Enemy.new(@root)
+    _enemy        = Enemy.new
     _enemy.id     = _id
     _enemy.files << File.basename(_filename)
     _enemy.items  = @items
@@ -77,7 +75,7 @@ class EpFile
   # @param _filename [String]  File name
   # @return [Entry] EnemyTask object
   def create_task(_id = -1, _filename = '*')
-    _task              = EnemyTask.new(@root)
+    _task              = EnemyTask.new
     _task.id           = _id
     _task.files       << File.basename(_filename)
     _task.enemies      = @enemies
@@ -86,36 +84,35 @@ class EpFile
     _task
   end
 
-  # @see GameRoot#etc
-  def etc(*_args)
-    @root.etc(*_args)
+  # @see Root#etc
+  def etc(...)
+    Root.etc(...)
   end
 
-  # @see GameRoot#sys
-  def sys(*_args)
-    @root.sys(*_args)
+  # @see Root#sys
+  def sys(...)
+    Root.sys(...)
   end
 
-  # @see GameRoot#voc
-  def voc(*_args)
-    @root.voc(*_args)
+  # @see Root#voc
+  def voc(...)
+    Root.voc(...)
   end
 
-  # @see GameRoot#join
-  def join(*_args)
-    @root.join(*_args)
+  # @see Root#join
+  def join(...)
+    Root.join(...)
   end
 
-  # @see GameRoot#glob
-  def glob(*_args, &_block)
-    @root.glob(*_args, &_block)
+  # @see Root#glob
+  def glob(...)
+    Root.glob(...)
   end
 
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :root
   attr_accessor :enemies
   attr_accessor :tasks
   attr_accessor :items
@@ -123,59 +120,59 @@ class EpFile
   attr_accessor :super_moves
 
   def product_id
-    @root.product_id
+    Root.product_id
   end
   
   def country_id
-    @root.country_id
+    Root.country_id
   end
 
   # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
   # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.
   def dc?
-    @root.dc?
+    Root.dc?
   end
 
   # Returns +true+ if the platform is a GameCube, otherwise +false+.
   # @return [Boolean] +true+ if platform is a GameCube, otherwise +false+.
   def gc?
-    @root.gc?
+    Root.gc?
   end
 
   # Returns +true+ if the country is 'EU', otherwise +false+.
   # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
   def eu?
-    @root.eu?
+    Root.eu?
   end
 
   # Returns +true+ if the country is 'JP', otherwise +false+.
   # @return [Boolean] +true+ if country is 'JP', otherwise +false+.
   def jp?
-    @root.jp?
+    Root.jp?
   end
 
   # Returns +true+ if the country is 'US', otherwise +false+.
   # @return [Boolean] +true+ if country is 'US', otherwise +false+.
   def us?
-    @root.us?
+    Root.us?
   end
 
   # Returns +:big+ or +:little+ depending on the platform endianness.
   # @return [Symbol] +:big+ or +:little+ depending on endianness.
   def endianness
-    @root.endianness
+    Root.endianness
   end
 
   # Returns +true+ if the endianness is big-endian, otherwise +false+.
   # @return [Boolean] +true+ if endianness is big-endian, otherwise +false+.
   def big_endian?
-    @root.big_endian?
+    Root.big_endian?
   end
 
   # Returns +true+ if the endianness is little-endian, otherwise +false+.
   # @return [Boolean] +true+ if endianness is little-endian, otherwise +false+.
   def little_endian?
-    @root.little_endian?
+    Root.little_endian?
   end
 
 #==============================================================================
@@ -189,10 +186,11 @@ class EpFile
   # @param _filename [String]  File name
   # @return [Enemy] Enemy object
   def find_enemy(_id, _filename)
-    _enemies = @enemies.find_all { |_enemy| _enemy.id == _id }
+    _basename = File.basename(_filename)
+    _enemies  = @enemies.find_all { |_enemy| _enemy.id == _id }
     
     _enemy ||= _enemies.find do |_entry|
-      _entry.files.include?(File.basename(_filename))
+      _entry.files.include?(_basename)
     end
     _enemy ||= _enemies.find do |_entry|
       _entry.files.include?('*')
@@ -271,10 +269,10 @@ class EpFile
     _map = {}
     _tasks.each do |_task|
       if _task.id < 1
-        _msg = 'task ID invalid (given %s)'
+        _msg = 'enemy task ID invalid (given %s)'
         raise(IOError, sprintf(_msg, _task.id))
       elsif _map.has_key?(_task.id)
-        _msg = 'task ID not unique (given %s)'
+        _msg = 'enemy task ID not unique (given %s)'
         raise(IOError, sprintf(_msg, _task.id))
       end
       
@@ -285,7 +283,7 @@ class EpFile
       _task.id = _map[_task.id]
       if _task.type_id == 0
         if _task.param_id < 1 || !_map.has_key?(_task.param_id)
-          _msg = 'task param ID invalid (given %s)'
+          _msg = 'enemy task param ID invalid (given %s)'
           raise(IOError, sprintf(_msg, _task.param_id))
         end
         _task.param_id = _map[_task.param_id]

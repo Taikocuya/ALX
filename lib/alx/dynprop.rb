@@ -71,7 +71,7 @@ class DynProp < Prop
     if @proc.is_a?(Proc)
       @prop = @proc.call(@value, self)
       unless @prop.is_a?(Prop)
-        raise(TypeError, sprintf('%s is not a prop', @prop))
+        raise(TypeError, sprintf('%s is not a prop', @prop.inspect))
       end
     end
   end

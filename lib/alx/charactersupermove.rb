@@ -42,8 +42,7 @@ class CharacterSuperMove < StdEntry
   public
 
   # Constructs a CharacterSuperMove.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
     init_props
     init_procs

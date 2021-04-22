@@ -210,12 +210,12 @@ class StrProp < Prop
       return
     end
     unless _format.is_a?(Array)
-      raise(TypeError, sprintf('%s is not an array', _format))
+      raise(TypeError, sprintf('%s is not an array', _format.inspect))
     end
 
     _format.each do |_sub|
       unless _sub.is_a?(Substitution)
-        raise(TypeError, sprintf('%s is not a substitution', _sub))
+        raise(TypeError, sprintf('%s is not a substitution', _sub.inspect))
       end
 
       _result = _str.gsub!(_sub.pattern, _sub.replacement)

@@ -43,16 +43,15 @@ class ArmorData < StdEntryData
   public
 
   # Constructs an ArmorData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(Armor, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(Armor, _depend)
     self.id_range  = sys(:armor_id_range)
     self.data_file = sys(:armor_data_files)
     self.name_file = sys(:armor_name_files)
     self.dscr_file = sys(:armor_dscr_files)
-    self.csv_file  = SYS.armor_csv_file
-    self.tpl_file  = SYS.armor_tpl_file
+    self.csv_file  = join(SYS.armor_csv_file)
+    self.tpl_file  = File.join(SYS.build_dir, SYS.armor_tpl_file)
   end
 
 end # class ArmorData

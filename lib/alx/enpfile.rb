@@ -54,8 +54,7 @@ class EnpFile < EpFile
   public
 
   # Constructs an EnpFile.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
     @encounters = []
   end
@@ -81,7 +80,7 @@ class EnpFile < EpFile
   # @param _filename [String]  File name
   # @return [Entry] EnemyEncounter object
   def create_encounter(_id = -1, _filename = '*')
-    _encounter         = EnemyEncounter.new(@root)
+    _encounter         = EnemyEncounter.new
     _encounter.id      = _id
     _encounter.enemies = enemies
     _encounter.file    = File.basename(_filename)
@@ -94,9 +93,9 @@ class EnpFile < EpFile
     _num_enemies    = sys(:enemy_encounter_num_enemies)
     _num_encounters = sys(:enemy_encounter_num_encounters)
     
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.load, VOC.open_file, _filename))
 
-    CompressedFile.open(root, _filename, 'rb') do |_f|
+    CompressedFile.open(_filename, 'rb') do |_f|
       # Segments
       _signature = _f.read(0x4)
       if _signature == FILE_SIG
@@ -151,7 +150,6 @@ class EnpFile < EpFile
           raise(IOError, "encounter quota of #{_num_encounters} exceeded")
         end
         (0..._size).each do |_id|
-          LOG.info(sprintf(VOC.read, _id, _f.pos))
           _encounter = create_encounter(_id, _segname)
           _encounter.read_bin(_f)
           @encounters << _encounter
@@ -162,8 +160,7 @@ class EnpFile < EpFile
           _id    = _node.id
           _pos   = _node.pos
           _f.pos = _pos
-          
-          LOG.info(sprintf(VOC.read, _id, _pos))
+
           load_enemy(_f, _id, _segname)
         end
       
@@ -178,8 +175,6 @@ class EnpFile < EpFile
         _encounter.enemies = enemies
       end
     end
-    
-    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes an ENP file.
@@ -187,12 +182,11 @@ class EnpFile < EpFile
   def save(_filename)
     _num_enemies    = sys(:enemy_encounter_num_enemies)
     _num_encounters = sys(:enemy_encounter_num_encounters)
-    
-    _basename   = File.basename(_filename)
-    _segments   = {}
-    _enemies    = {}
-    _encounters = {}
-    _expired    = false
+    _basename       = File.basename(_filename)
+    _segments       = {}
+    _enemies        = {}
+    _encounters     = {}
+    _modified       = false
     @encounters.each do |_encounter|
       _segname = _encounter.file
       if _segname == _basename
@@ -221,7 +215,7 @@ class EnpFile < EpFile
       _encounters[_segname] = _found
       
       _found.each do |_encounter|
-        _expired ||= _encounter.expired
+        _modified ||= _encounter.modified
         (1..8).each do |_i|
           _enemy_id = _encounter[VOC.enemy_id(_i)]
           if _enemy_id != 255
@@ -229,8 +223,8 @@ class EnpFile < EpFile
             if _enemy
               _entries = _enemies[_segname]
               unless _entries.include?(_enemy)
-                _expired ||= _enemy.expired
-                _entries     << _enemy
+                _modified ||= _enemy.modified
+                _entries   << _enemy
               end
             else
               raise(IOError, "enemy ##{_enemy_id} not found")
@@ -242,14 +236,13 @@ class EnpFile < EpFile
     if _segments.empty?
       return
     end
-    unless _expired
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+    unless _modified
       return
     end
 
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.save, VOC.open_file, _filename))
 
-    CompressedFile.open(root, _filename, 'wb') do |_f|
+    CompressedFile.open(_filename, 'wb') do |_f|
       # Segments (pre-processing)
       if _segments.size > 1
         _f.pos = _segments.size * 0x20 + 0x8
@@ -264,7 +257,6 @@ class EnpFile < EpFile
           raise(IOError, "encounter quota of #{_num_encounters} exceeded")
         end
         (0..._entries.size).each do |_id|
-          LOG.info(sprintf(VOC.write, _id, _f.pos))
           _encounter = _entries[_id]
           _encounter.write_bin(_f)
         end
@@ -278,8 +270,7 @@ class EnpFile < EpFile
         _entries.each do |_enemy|
           _id  = _enemy.id
           _pos = _f.pos
-            
-          LOG.info(sprintf(VOC.write, _id, _pos))
+
           _nodes << create_node(_id, _pos - _beg)
           save_enemy(_f, _enemy, _filename)
         end
@@ -325,8 +316,6 @@ class EnpFile < EpFile
         end
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
   end
   
 #------------------------------------------------------------------------------

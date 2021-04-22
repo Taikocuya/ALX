@@ -49,32 +49,13 @@ class ScriptTask < Entry
   public
 
   # Constructs an ScriptTask.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
     init_attrs
     init_props
     init_procs
   end
   
-  # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
-  # differs from the snapshot, otherwise nothing happens. Returns +true+ if 
-  # the entry matches the snapshot, otherwise +false+.
-  # @param _entry [Entry] Entry object
-  # @return [Boolean] +true+ if entry matches the snapshot, otherwise +false+.
-  def check_expiration(_entry)
-    _found   = true
-    _found &&= _entry.is_a?(ScriptTask)
-    _found &&= (id   == _entry.id  )
-    _found &&= (file == _entry.file)
-
-    if _found
-      super
-    end
-
-    _found
-  end
-
   # Refreshes the predecessors by considering the last +PREDECESSOR_MAX+ 
   # script tasks.
   # @param _tasks [Array] Script tasks
@@ -206,7 +187,7 @@ class ScriptTask < Entry
       
       unless _prop
         _msg = '%s is not a float, an integer nor a string'
-        raise(TypeError, sprintf(_msg, _id))
+        raise(TypeError, sprintf(_msg, _id.inspect))
       end
       
       _prop.proc = _proc

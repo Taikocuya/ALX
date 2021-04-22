@@ -45,19 +45,18 @@ class CharacterData < StdEntryData
   public
 
   # Constructs a CharacterData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(Character, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(Character, _depend)
     self.id_range  = sys(:character_id_range)
     self.data_file = sys(:character_data_files)
-    self.csv_file  = SYS.character_csv_file
-    self.tpl_file  = SYS.character_tpl_file
+    self.csv_file  = join(SYS.character_csv_file)
+    self.tpl_file  = File.join(SYS.build_dir, SYS.character_tpl_file)
     
     if depend
-      @weapon_data    = WeaponData.new(_root)
-      @armor_data     = ArmorData.new(_root)
-      @accessory_data = AccessoryData.new(_root)
+      @weapon_data    = WeaponData.new
+      @armor_data     = ArmorData.new
+      @accessory_data = AccessoryData.new
     end
   end
 
@@ -73,6 +72,7 @@ class CharacterData < StdEntryData
   end
   
   # Reads all entries from binary files.
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
   def load_bin
     @weapon_data&.load_bin
     @armor_data&.load_bin

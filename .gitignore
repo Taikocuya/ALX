@@ -9,7 +9,8 @@
 /dist/**/root
 /dist/**/scripttask
 /log/
-/tmp/
+/misc/
+/temp/
 /vendor/*
 !/vendor/GCRebuilder
 !/vendor/GDIBuilder

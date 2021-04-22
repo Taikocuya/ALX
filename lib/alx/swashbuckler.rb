@@ -42,8 +42,7 @@ class Swashbuckler < StdEntry
   public
 
   # Constructs a Swashbuckler.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
     init_props
   end

@@ -26,7 +26,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to read and write in files depending on GameRoot#compression.
+# Class to read and write in files depending on Root#compression.
 module CompressedFile
 
 #==============================================================================
@@ -35,39 +35,29 @@ module CompressedFile
 
   public
   
-  # Returns a file object depending on GameRoot#compression. 
-  # @return [Object] File object depending on GameRoot#compression
-  # @param _root [GameRoot] Game root
+  # Returns a file object depending on Root#compression. 
+  # @return [Object] File object depending on Root#compression
   # @see ::BinaryFile::new
   # @see ::BinaryStringIO::new
-  def self.new(_root, *_args)
-    unless _root.is_a?(GameRoot)
-      raise(TypeError, sprintf('%s is not a %s', _root, GameRoot.name))
-    end
-    
-    _class = _root.compression
+  def self.new(*_args)
+    _class = Root.compression
     unless _class.included_modules.include?(Serializable)
       raise(TypeError, sprintf('%s is not %s', _class, Serializable.name))
     end
     
-    _class.new(*_args, **{ endianness: _root.endianness })
+    _class.new(*_args, **{ endianness: Root.endianness })
   end
 
-  # Opens a file depending on GameRoot#compression.
-  # @param _root [GameRoot] Game root
+  # Opens a file depending on Root#compression.
   # @see ::BinaryFile::open
   # @see ::BinaryStringIO::open
-  def self.open(_root, *_args, &_block)
-    unless _root.is_a?(GameRoot)
-      raise(TypeError, sprintf('%s is not a %s', _root, GameRoot.name))
-    end
-    
-    _class = _root.compression
+  def self.open(*_args, &_block)
+    _class = Root.compression
     unless _class.included_modules.include?(Serializable)
       raise(TypeError, sprintf('%s is not %s', _class, Serializable.name))
     end
     
-    _class.open(*_args, **{ endianness: _root.endianness }, &_block)
+    _class.open(*_args, **{ endianness: Root.endianness }, &_block)
   end
 
 end # module CompressedFile

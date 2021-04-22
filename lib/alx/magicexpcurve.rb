@@ -42,8 +42,7 @@ class MagicExpCurve < StdEntry
   public
 
   # Constructs a MagicExpCurve.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
     init_attrs
     init_props

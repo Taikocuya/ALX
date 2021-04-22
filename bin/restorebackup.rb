@@ -45,86 +45,69 @@ class BackupRestorer < EntryTransform
 
   # Constructs a BackupRestorer.
   def initialize
-    super(GameRoot)
+    super(nil)
   end
 
-  # Creates an entry data object.
-  # @param _root [GameRoot] Game root
-  # @return [EntryData] Entry data object
-  def create_entry_data(_root)
-    _root
-  end
-
-  def exec
+  def update
     super
     
-    data.each do |_root|
-      Dir.chdir(_root.dirname) do
-        Dir.glob(_root.sys(:exec_file)).each do |_p|
-          restore_backup(_root, _p)
+    if Worker.child?
+      Dir.chdir(Root.dirname) do
+        Dir.glob(sys(:exec_file)).each do |_p|
+          restore_backup(_p)
         end
         
-        restore_backup(_root, _root.sys(:evp_file))
-        restore_backup(_root, _root.sys(:level_file))
+        restore_backup(sys(:evp_file))
+        restore_backup(sys(:level_file))
         
-        Dir.glob(_root.sys(:enp_file)).each do |_p|
-          restore_backup(_root, _p)
+        Dir.glob(sys(:enp_file)).each do |_p|
+          restore_backup(_p)
         end
-        Dir.glob(_root.sys(:eb_file)).each do |_p|
-          restore_backup(_root, _p)
+        Dir.glob(sys(:eb_file)).each do |_p|
+          restore_backup(_p)
         end
-        Dir.glob(_root.sys(:ec_file)).each do |_p|
-          restore_backup(_root, _p)
+        Dir.glob(sys(:ec_file)).each do |_p|
+          restore_backup(_p)
         end
-        Dir.glob(_root.sys(:sct_file)).each do |_p|
-          restore_backup(_root, _p)
+        Dir.glob(sys(:sct_file)).each do |_p|
+          restore_backup(_p)
         end
-        Dir.glob(_root.sys(:tec_file)).each do |_p|
-          restore_backup(_root, _p)
+        Dir.glob(sys(:tec_file)).each do |_p|
+          restore_backup(_p)
         end
         
-        Dir.glob(_root.sys(:sot_file_de)).each do |_p|
-          restore_backup(_root, _p)
+        Dir.glob(sys(:sot_file_de)).each do |_p|
+          restore_backup(_p)
         end
-        Dir.glob(_root.sys(:sot_file_es)).each do |_p|
-          restore_backup(_root, _p)
+        Dir.glob(sys(:sot_file_es)).each do |_p|
+          restore_backup(_p)
         end
-        Dir.glob(_root.sys(:sot_file_fr)).each do |_p|
-          restore_backup(_root, _p)
+        Dir.glob(sys(:sot_file_fr)).each do |_p|
+          restore_backup(_p)
         end
-        Dir.glob(_root.sys(:sot_file_gb)).each do |_p|
-          restore_backup(_root, _p)
+        Dir.glob(sys(:sot_file_gb)).each do |_p|
+          restore_backup(_p)
         end
       end
     end
   end
 
   # Restores a backup.
-  # @param _root      [GameRoot] Game root
-  # @param _filename  [String]   Backup to create
-  def restore_backup(_root, _filename)
-    _dst_file = File.expand_path(_filename, _root.dirname)
-    _base_dir = Pathname.new(File.expand_path(SYS.root_dir, _root.dirname))
+  # @param _filename [String] File name
+  def restore_backup(_filename)
+    _dst_file = File.expand_path(_filename, Root.dirname)
+    _base_dir = Pathname.new(File.expand_path(SYS.root_dir, Root.dirname))
     _root_dir = Pathname.new(_dst_file)
     _src_file = File.expand_path(
       _root_dir.relative_path_from(_base_dir),
-      File.join(_root.dirname, SYS.backup_dir)
+      File.join(Root.dirname, SYS.backup_dir)
     )
 
+    LOG.info(sprintf(VOC.restore, VOC.open_backup, _dst_file))
     begin
       FileUtils.cp(_src_file, _dst_file)
-      _result = File.exist?(_dst_file)
     rescue StandardError
-      _result = false
-    end
-
-    _msg = sprintf('Restore backup: %s', _dst_file)
-    if _result
-      _msg += sprintf(' - %s', VOC.done)
-      ALX::LOG.info(_msg)
-    else
-      _msg += sprintf(' - %s', VOC.failed)
-      ALX::LOG.error(_msg)
+      # Nothing to do.
     end
   end
 

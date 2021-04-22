@@ -43,22 +43,14 @@ class StdEntryTransform < EntryTransform
 
   # Reads all entries from binary files and writes all entries to CSV files.
   def transform_bin_to_csv
-    data.each do |_d|
-      _d.load_sht
-      _d.load_bin
-      _d.save_csv
-      _d.save_sht
-    end
+    data.load_bin
+    data.save_csv
   end
 
   # Reads all entries from CSV files and writes all entries to binary files.
   def transform_csv_to_bin
-    data.each do |_d|
-      _d.load_sht
-      _d.load_csv
-      _d.save_bin
-      _d.save_sht
-    end
+    data.load_csv
+    data.save_bin
   end
 
 end # class StdEntryTransform

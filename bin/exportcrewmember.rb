@@ -42,9 +42,14 @@ class CrewMemberExporter < CrewMemberTransform
 
   public
 
-  def exec
+  # This method is called after #startup and before #shutdown in #exec. It 
+  # will be re-executed as long as #repeat is true.
+  # @see #exec
+  def update
     super
-    transform_bin_to_csv
+    if Worker.child?
+      transform_bin_to_csv
+    end
   end
 
 end	# class CrewMemberExporter

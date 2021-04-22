@@ -43,16 +43,15 @@ class SpecialItemData < StdEntryData
   public
 
   # Constructs a SpecialItemData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(SpecialItem, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(SpecialItem, _depend)
     self.id_range   = sys(:special_item_id_range)
     self.data_file = sys(:special_item_data_files)
     self.name_file = sys(:special_item_name_files)
     self.dscr_file = sys(:special_item_dscr_files)
-    self.csv_file   = SYS.special_item_csv_file
-    self.tpl_file   = SYS.special_item_tpl_file
+    self.csv_file   = join(SYS.special_item_csv_file)
+    self.tpl_file   = File.join(SYS.build_dir, SYS.special_item_tpl_file)
   end
 
 end # class SpecialItemData

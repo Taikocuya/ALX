@@ -42,8 +42,7 @@ class EnemySuperMove < StdEntry
   public
 
   # Constructs an EnemySuperMove.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
     init_attrs
     init_props

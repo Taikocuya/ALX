@@ -63,14 +63,11 @@ class DatFile < EpFile
       return
     end
     
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.load, VOC.open_file, _filename))
 
-    CompressedFile.open(root, _filename, 'rb') do |_f|
-      LOG.info(sprintf(VOC.read, _id, _f.pos))
+    CompressedFile.open(_filename, 'rb') do |_f|
       load_enemy(_f, _id, _filename)
     end
-    
-    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes a DAT file.
@@ -100,19 +97,15 @@ class DatFile < EpFile
       return
     end
 
-    unless _enemy.expired
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+    unless _enemy.modified
       return
     end
     
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.save, VOC.open_file, _filename))
 
-    CompressedFile.open(root, _filename, 'wb') do |_f|
-      LOG.info(sprintf(VOC.write, _id, _f.pos))
+    CompressedFile.open(_filename, 'wb') do |_f|
       save_enemy(_f, _enemy, _filename)
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
   end
 
 end # class DatFile

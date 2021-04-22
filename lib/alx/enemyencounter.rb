@@ -42,8 +42,7 @@ class EnemyEncounter < Entry
   public
 
   # Constructs an Enemy.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
     init_attrs
     init_props

@@ -43,25 +43,65 @@ class CharacterMagicData < StdEntryData
   public
 
   # Constructs a CharacterMagicData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(CharacterMagic, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(CharacterMagic, _depend)
     self.id_range   = sys(:character_magic_id_range)
     self.data_file  = sys(:character_magic_data_files)
     self.name_file  = sys(:character_magic_name_files)
     self.dscr_file  = sys(:character_magic_dscr_files)
-    self.csv_file   = SYS.character_magic_csv_file
-    self.tpl_file   = SYS.character_magic_tpl_file
+    self.csv_file   = join(SYS.character_magic_csv_file)
+    self.tpl_file   = File.join(SYS.build_dir, SYS.character_magic_tpl_file)
     @ship_dscr_file = sys(:character_magic_ship_dscr_files)
+  end
+
+  # Reads all entries from binary files.
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
+  def load_bin
+    unless super
+      return false
+    end
+
+    each_descriptor(@ship_dscr_file) do |_d|
+      load_ship_dscr_from_bin(glob(_d.name))
+    end
+  end
+
+  # Writes all entries to binary files.
+  # @return [Boolean] +true+ if writing was successful, otherwise +false+.
+  def save_bin
+    unless super
+      return false
+    end
+
+    each_descriptor(@ship_dscr_file) do |_d|
+      save_bin_ship_dscr(glob(_d.name))
+    end
+  end
+
+#------------------------------------------------------------------------------
+# Public Member Variables
+#------------------------------------------------------------------------------
+
+  attr_accessor :ship_dscr_file
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initializes the cache descriptors.
+  def init_cache_descriptors
+    super
+    cache.add_descriptor(:bin, @ship_dscr_file)
   end
 
   # Reads all ship description entries from a binary file.
   # @param _filename [String] File name
   def load_ship_dscr_from_bin(_filename)
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_dscr))
+    LOG.info(sprintf(VOC.load, VOC.open_dscr, _filename))
 
-    meta.store_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @id_range.begin
       _descriptor = find_descriptor(@ship_dscr_file, _filename)
@@ -102,8 +142,6 @@ class CharacterMagicData < StdEntryData
             end
           end
 
-          LOG.info(sprintf(VOC.read, _id - @id_range.begin, _f.pos))
-          
           _pos.int = _f.pos
           if jp? || us?
             _dscr.str = _f.read_str(blocks: 0x4)
@@ -122,17 +160,6 @@ class CharacterMagicData < StdEntryData
         end
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
-  end
-
-  # Reads all entries from binary files.
-  def load_bin
-    super
-
-    each_descriptor(@ship_dscr_file) do |_d|
-      load_ship_dscr_from_bin(glob(_d.name))
-    end
   end
 
   # Writes all ship description entries to a binary file.
@@ -141,12 +168,8 @@ class CharacterMagicData < StdEntryData
     if @data.empty?
       return
     end
-    unless meta.updated?
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_dscr))
-      return
-    end
-    
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_dscr))
+
+    LOG.info(sprintf(VOC.save, VOC.open_dscr, _filename))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
@@ -171,12 +194,10 @@ class CharacterMagicData < StdEntryData
         end
         
         _f.pos = _pos
-        if !_descriptor.include?(_f.pos, _size) || !_entry.expired
+        if !_descriptor.include?(_f.pos, _size)
           next
         end
-        
-        LOG.info(sprintf(VOC.write, _id - @id_range.begin, _pos))
-        
+
         if jp? || us?
           _f.write_str(_dscr, length: _size, blocks: 0x4)
         else
@@ -184,24 +205,7 @@ class CharacterMagicData < StdEntryData
         end
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
   end
-    
-  # Writes all entries to binary files.
-  def save_bin
-    super
-
-    each_descriptor(@ship_dscr_file) do |_d|
-      save_bin_ship_dscr(glob(_d.name))
-    end
-  end
-
-#------------------------------------------------------------------------------
-# Public Member Variables
-#------------------------------------------------------------------------------
-
-  attr_accessor :ship_dscr_file
 
 end # class CharacterMagicData
 

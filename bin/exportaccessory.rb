@@ -42,9 +42,11 @@ class AccessoryExporter < AccessoryTransform
 
   public
 
-  def exec
+  def update
     super
-    transform_bin_to_csv
+    if Worker.child?
+      transform_bin_to_csv
+    end
   end
 
 end # class AccessoryExporter

@@ -42,8 +42,7 @@ class TreasureChest < StdEntry
   public
 
   # Constructs a TreasureChest.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
     init_attrs
     init_props

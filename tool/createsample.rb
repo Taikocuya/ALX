@@ -39,7 +39,7 @@ class SampleCreator < EntryTransform
 #==============================================================================
 #                                  CONSTANTS
 #==============================================================================
-  
+
   # Configuration files
   CONFIG_FILES = ETC::CONFIG_FILES
 
@@ -51,27 +51,26 @@ class SampleCreator < EntryTransform
 
   # Constructs an SampleCreator.
   def initialize
-    super(Object)
+    super(nil)
+  end
+
+  # This method is called before #update respectively as first in #exec.
+  # @see #exec
+  def startup
   end
   
-  # Creates an entry data object.
-  # @param _root [GameRoot] Game root
-  # @return [EntryData] Entry data object
-  def create_entry_data(_root)
-    nil
-  end
-  
-  def exec
-    unless has_ruby?(SYS.ruby_version)
-      return
-    end
-  
+  # This method is called after #startup and before #shutdown in #exec. It 
+  # will be re-executed as long as #repeat is true.
+  # @see #exec
+  def update
+    super
+
     CONFIG_FILES.each_value do |_basename|
       _src = File.join(
         File.dirname(__FILE__), '../lib/alx', _basename
       )
       _dst = File.join(
-        File.dirname(__FILE__), '../config'    , _basename + '.sample'
+        File.dirname(__FILE__), '../config' , _basename + '.sample'
       )
       create_sample(_src, _dst)
     end
@@ -81,21 +80,8 @@ class SampleCreator < EntryTransform
   # @param _src [String] Source path
   # @param _dst [String] Destination path
   def create_sample(_src, _dst)
-    begin
-      FileUtils.cp(_src, _dst)
-      _result = File.exist?(_dst)
-    rescue
-      _result = false
-    end
-
-    _msg = sprintf('Create configuration sample: %s', _dst)
-    if _result
-      _msg += sprintf(' - %s', VOC.done)
-      ALX::LOG.info(_msg)
-    else
-      _msg += sprintf(' - %s', VOC.failed)
-      ALX::LOG.error(_msg)
-    end
+    LOG.info(sprintf(VOC.save, VOC.open_file, _dst))
+    FileUtils.cp(_src, _dst)
   end
 
 end # class SampleCreator

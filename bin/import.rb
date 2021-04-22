@@ -23,7 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/executable.rb')
+require_relative('../lib/alx/entrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -33,21 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to import weapons from CSV files.
-class Importer
-  
-#==============================================================================
-#                                   INCLUDES
-#==============================================================================
-
-  include(Executable)
-
-#==============================================================================
-#                                  CONSTANTS
-#==============================================================================
-
-  # Executables of importers
-  EXEC_FILES = File.join(File.dirname(__FILE__), 'import[a-z]*.rb')
+# Class to execute all import commands.
+class Importer < EntryTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -56,33 +43,67 @@ class Importer
   public
   
   def initialize
-    super
-    @exec_files = Dir.glob(EXEC_FILES)
-    @exec_files.select! do |_p|
-      _result   = File.file?(_p)
-      _result &&= File.basename(_p) != 'importdefinedstring.rb'
-      _result &&= File.basename(_p) != 'importscripttask.rb'
+    super(nil)
+    
+    @files  = []
+    @files << OpenStruct.new(prio: 20, file: 'importaccessory.rb')
+    @files << OpenStruct.new(prio: 20, file: 'importarmor.rb')
+    @files << OpenStruct.new(prio: 30, file: 'importcharacter.rb')
+    @files << OpenStruct.new(prio: 40, file: 'importcharactermagic.rb')
+    @files << OpenStruct.new(prio: 40, file: 'importcharactersupermove.rb')
+    @files << OpenStruct.new(prio: 20, file: 'importcrewmember.rb')
+    @files << OpenStruct.new(prio: 30, file: 'importenemy.rb')
+    @files << OpenStruct.new(prio: 40, file: 'importenemymagic.rb')
+    @files << OpenStruct.new(prio: 30, file: 'importenemyship.rb')
+    @files << OpenStruct.new(prio: 30, file: 'importenemyshiptask.rb')
+    @files << OpenStruct.new(prio: 40, file: 'importenemysupermove.rb')
+    @files << OpenStruct.new(prio: 40, file: 'importexpcurve.rb')
+    @files << OpenStruct.new(prio: 40, file: 'importmagicexpcurve.rb')
+    @files << OpenStruct.new(prio: 30, file: 'importplayableship.rb')
+    @files << OpenStruct.new(prio: 20, file: 'importshipaccessory.rb')
+    @files << OpenStruct.new(prio: 20, file: 'importshipcannon.rb')
+    @files << OpenStruct.new(prio: 20, file: 'importshipitem.rb')
+    @files << OpenStruct.new(prio: 30, file: 'importshop.rb')
+    @files << OpenStruct.new(prio: 20, file: 'importspecialitem.rb')
+    @files << OpenStruct.new(prio: 40, file: 'importspiritcurve.rb')
+    @files << OpenStruct.new(prio: 20, file: 'importswashbuckler.rb')
+    @files << OpenStruct.new(prio: 30, file: 'importtreasurechest.rb')
+    @files << OpenStruct.new(prio: 20, file: 'importusableitem.rb')
+    @files << OpenStruct.new(prio: 20, file: 'importweapon.rb')
+    @files << OpenStruct.new(prio: 10, file: 'importweaponeffect.rb')
+    
+    @files.sort! do |_a, _b|
+      _comp = (_a.prio <=> _b.prio)
+      _comp = (_a.file <=> _b.file) if _comp == 0
+    end
+    @files.collect! do |_f|
+      File.join(File.dirname(__FILE__), _f.file)
     end
   end
   
   def valid?
-    _valid = true
-    @exec_files.each do |_p|
-      _valid &&= has_file?(_p)
+    _result = super
+    
+    if Worker.parent?
+      @files.each do |_p|
+        _result &&= has_file?(File.join(File.dirname(__FILE__), _p))
+      end
     end
-
-    _valid
+    
+    _result
   end
   
-  def exec
-    if valid?
-      @exec_files.each do |_p|
+  def update
+    super
+    
+    if Worker.child?
+      @files.each do |_p|
         require(_p)
       end
     end
   end
 
-end	# class WeaponImporter
+end	# class Importer
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

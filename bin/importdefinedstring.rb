@@ -42,15 +42,17 @@ class DefinedStringImporter < DefinedStringTransform
 
   public
 
-  def valid?(_root)
+  def valid?
     _result   = super
-    _result &&= has_file?(_root.dirname, SYS.defined_string_csv_file)
+    _result &&= has_file?(Root.dirname, SYS.defined_string_csv_file)
     _result
   end
 
-  def exec
+  def update
     super
-    transform_csv_to_bin
+    if Worker.child?
+      transform_csv_to_bin
+    end
   end
 
 end	# class DefinedStringImporter

@@ -43,8 +43,7 @@ class EvpFile < EpFile
   public
 
   # Constructs an EvpFile.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
     @events = []
   end
@@ -61,7 +60,7 @@ class EvpFile < EpFile
   # @param _id [Integer] Event ID
   # @return [Entry] EnemyEvent object
   def create_event(_id = -1)
-    _event         = EnemyEvent.new(@root)
+    _event         = EnemyEvent.new
     _event.id      = _id
     _event.enemies = enemies
     _event
@@ -73,9 +72,9 @@ class EvpFile < EpFile
     _num_enemies = sys(:enemy_event_num_enemies)
     _num_events  = sys(:enemy_event_num_events)
     
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.load, VOC.open_file, _filename))
 
-    CompressedFile.open(root, _filename, 'rb') do |_f|
+    CompressedFile.open(_filename, 'rb') do |_f|
       # Header
       _nodes = []
       (0..._num_enemies).each do
@@ -90,7 +89,6 @@ class EvpFile < EpFile
       # Events
       _dummy = create_event
       (0..._num_events).each do |_id|
-        LOG.info(sprintf(VOC.read, _id, _f.pos))
         _event = create_event(_id)
         _event.read_bin(_f)
         
@@ -104,8 +102,7 @@ class EvpFile < EpFile
         _id    = _node.id
         _pos   = _node.pos
         _f.pos = _pos
-        
-        LOG.info(sprintf(VOC.read, _id, _pos))
+
         load_enemy(_f, _id, _filename)
       end
       
@@ -114,28 +111,29 @@ class EvpFile < EpFile
         _event.enemies = enemies
       end
     end
-    
-    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes an EVP file.
   # @param _filename [String] File name
   def save(_filename)
+    if @events.empty?
+      return
+    end
+    
     _num_enemies = sys(:enemy_event_num_enemies)
     _num_events  = sys(:enemy_event_num_events)
-    
-    _enemies = []
-    _expired = false
+    _enemies     = []
+    _modified    = false
     @events.each_with_index do |_event, _id|
-      _expired ||= _event.expired
+      _modified ||= _event.modified
       (1..7).each do |_i|
         _enemy_id = _event[VOC.enemy_id(_i)]
         if _enemy_id != 255
           _enemy = find_enemy(_enemy_id, _filename)
           if _enemy
             unless _enemies.include?(_enemy)
-              _expired ||= _enemy.expired
-              _enemies << _enemy
+              _modified ||= _enemy.modified
+              _enemies   << _enemy
             end
           else
             raise(IOError, "enemy ##{_enemy_id} not found")
@@ -143,17 +141,13 @@ class EvpFile < EpFile
         end
       end
     end
-    if @events.empty?
-      return
-    end
-    unless _expired
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+    unless _modified
       return
     end
 
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.save, VOC.open_file, _filename))
 
-    CompressedFile.open(root, _filename, 'wb') do |_f|
+    CompressedFile.open(_filename, 'wb') do |_f|
       # Events
       _dummy = create_event
       _f.pos = _num_enemies * 0x8
@@ -161,7 +155,6 @@ class EvpFile < EpFile
         raise(IOError, "event quota of #{_num_events} exceeded")
       end
       (0..._num_events).each do |_id|
-        LOG.info(sprintf(VOC.write, _id, _f.pos))
         _event = @events[_id]
         if _event
           _event.write_bin(_f)
@@ -178,8 +171,7 @@ class EvpFile < EpFile
       _enemies.each do |_enemy|
         _id  = _enemy.id
         _pos = _f.pos
-          
-        LOG.info(sprintf(VOC.write, _id, _pos))
+
         _nodes << create_node(_id, _pos)
         save_enemy(_f, _enemy, _filename)
       end
@@ -197,8 +189,6 @@ class EvpFile < EpFile
         end
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
   end
   
 #------------------------------------------------------------------------------

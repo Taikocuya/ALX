@@ -24,7 +24,7 @@
 
 require('ostruct')
 require_relative('binarystringio.rb')
-require_relative('shtmanger.rb')
+require_relative('cachefile.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -51,9 +51,7 @@ class DefinedStringDetector
   public
 
   # Constructs a StringDetector.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    @root           = _root
+  def initialize
     @range          = ALX.rng(0x0..0xffffffff)
     @char_table     = SYS.defined_string_char_table
     @char_encodings = SYS.defined_string_char_encodings
@@ -65,10 +63,13 @@ class DefinedStringDetector
     @end_alignment  = SYS.defined_string_end_alignment
     @min_byte_size  = SYS.defined_string_min_byte_size
     @min_char_size  = SYS.defined_string_min_char_size
-    clear
+    @translate      = false
+    @cache          = CacheFile.new(self.class.name.split('::').last.downcase)
+    @dictionary     = nil
+    @enum           = nil
   end
 
-  # Clear all attributes to their default values.
+  # Clears all attributes to their default values.
   def clear
     @valid        = false
     @pos          = 0
@@ -118,45 +119,52 @@ class DefinedStringDetector
     @valid
   end
 
-  # Initializes and reads the cache if available. If you use the cache for 
-  # defined strings, all valid strings are cached even before the filter 
-  # #apply_filter is applied. This cache will be used later to skip the entire 
-  # string detection in future runs. This can be useful, for example, to 
-  # quickly check the effects of filter changes without scanning the whole 
-  # file again.
-  def load_cache
-    @sht = ShtManager.new(@root, self.class.name.split('::').last)
-    @sht.load_sht_meta
+  # Initializes and reads the dictionary if available. If you use the 
+  # dictionary for defined strings, all valid strings are cached even before 
+  # the filter #apply_filter is applied. This dictionary will be used later to 
+  # skip the entire string detection in future runs. This can be useful, for 
+  # example, to quickly check the effects of filter changes without scanning 
+  # the whole file again.
+  # 
+  # @param _descriptor [RangeDescriptor,String] Range descriptor or file name
+  def load_dictionary(_descriptor)
+    @cache.clear
+    @cache.add_dummy(@range        )
+    @cache.add_dummy(@char_table   )
+    @cache.add_dummy(@beg_alignment)
+    @cache.add_dummy(@end_alignment)
+    @cache.add_dummy(@min_byte_size)
+    @cache.add_dummy(create_dictionary_entry)
+    @cache.add_descriptor(:bin, _descriptor)
+    @cache.add_storage(:dictionary, @dictionary)
+    @cache.load
     
-    @cache = @sht.load_sht_data(:cache) || []
-    if !@cache.empty?
-      @enum = @cache.each
+    if @cache.valid?
+      @dictionary = @cache.dictionary
+      @enum       = @dictionary.each
+    else
+      @dictionary = []
+      @enum       = nil
     end
   end
 
-  # Writes the cache if available. If you use the cache for defined strings, 
-  # all valid strings are cached even before the filter #apply_filter is 
-  # applied. This cache will be used later to skip the entire string detection 
-  # in future runs. This can be useful, for example, to quickly check the 
-  # effects of filter changes without scanning the whole file again.
-  def save_cache
-    unless @sht
+  # Writes the dictionary if available. If you use the dictionary for defined 
+  # strings, all valid strings are cached even before the filter #apply_filter 
+  # is applied. This dictionary will be used later to skip the entire string 
+  # detection in future runs. This can be useful, for example, to quickly 
+  # check the effects of filter changes without scanning the whole file again.
+  def save_dictionary
+    unless @dictionary
       return
     end
-  
-    @sht.save_sht_meta
-    @sht.save_sht_data(:cache, @cache)
-
-    if @cache && !@cache.empty?
-      @enum = @cache.each
-    end
+    @cache.add_storage(:dictionary, @dictionary)
+    @cache.save
   end
 
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :root
   attr_accessor :range
   attr_accessor :char_table
   attr_accessor :char_encodings
@@ -168,6 +176,7 @@ class DefinedStringDetector
   attr_accessor :end_alignment
   attr_accessor :min_byte_size
   attr_accessor :min_char_size
+  attr_accessor :translate
   attr_accessor :pos
   attr_accessor :shifted
   attr_accessor :bytes
@@ -232,9 +241,12 @@ class DefinedStringDetector
 
   # Retrieves the next available null-terminated string from the cache if 
   # available.
+  # 
   # @param _f [IO] Binary I/O stream
+  # 
+  # @return [Boolean] +true+ if string is valid, otherwise +false+.
   def next_from_cache(_f)
-    if !@enum || (@cache && @cache.empty?)
+    if !@enum || (@dictionary && @dictionary.empty?)
       return false
     end
 
@@ -257,7 +269,10 @@ class DefinedStringDetector
 
   # Searches the next available null-terminated string from a binary I/O 
   # stream.
+  # 
   # @param _f [IO] Binary I/O stream
+  # 
+  # @return [Boolean] +true+ if string is valid, otherwise +false+.
   def next_from_file(_f)
     _result = false
     while !_result && !_f.eof? && @range.include?(_f.pos)
@@ -281,6 +296,7 @@ class DefinedStringDetector
   end
 
   # Verifies the string.
+  # @return [Boolean] +true+ if string is valid, otherwise +false+.
   def verify
     _beg  = 0
     _skip = false
@@ -315,19 +331,29 @@ class DefinedStringDetector
     @bytes.size >= @min_byte_size
   end
 
+  # Creates a dictionary entry.
+  # @param _pos   [Integer] I/O position
+  # @param _bytes [String]  Binary string
+  # @return [OpenStruct] OpenStruct object
+  def create_dictionary_entry(_pos = 0, _bytes = 0)
+    OpenStruct.new(pos: @real_pos, bytes: @real_bytes) 
+  end
+
   # Stores the string in the cache (if available).
+  # @return [Boolean] +true+ if string is valid, otherwise +false+.
   def store_in_cache
     @real_pos   = @pos
     @real_bytes = @bytes.dup
 
-    if @cache && !@enum
-      @cache << OpenStruct.new(pos: @real_pos, bytes: @real_bytes) 
+    if @dictionary && !@enum
+      @dictionary << create_dictionary_entry(@real_pos, @real_bytes)
     end
 
     true
   end
 
   # Applies the filters to the string according to the regular expressions.
+  # @return [Boolean] +true+ if string is valid, otherwise +false+.
   def apply_filter
     if @ignore_filter
       return true
@@ -339,10 +365,10 @@ class DefinedStringDetector
       _platform = _sub.platform
       _country  = _sub.country
       
-      if !_platform.empty? && _platform != @root.platform_id
+      if !_platform.empty? && _platform != Root.platform_id
         next
       end
-      if !_country.empty?  && _country  != @root.country_id 
+      if !_country.empty?  && _country  != Root.country_id 
         next
       end
 
@@ -390,6 +416,8 @@ class DefinedStringDetector
 
   # Inverts the results if required. If you enable the filter inversion in 
   # #invert_filter, only the rejected strings will be collected.
+  # 
+  # @return [Boolean] +true+ if string is valid, otherwise +false+.
   def invert_results
     if @invert_filter
       @valid = !@valid
@@ -402,6 +430,7 @@ class DefinedStringDetector
   end
 
   # Encodes the string.
+  # @return [Boolean] +true+ if string is valid, otherwise +false+.
   def encode
     _encoding = @char_encodings.find do |_, _sub|
       _sub.pattern.match?(@bytes)
@@ -426,7 +455,9 @@ class DefinedStringDetector
         verify
         retry
       end
-      @string.tr!(TRANSL[0], TRANSL[1])
+      if @translate
+        @string.tr!(TRANSL[0], TRANSL[1])
+      end
     else
       _encoding = 'ASCII-8BIT'
       @string   = @bytes.dump.gsub!(/(?>\A"|"\z)/, '')
@@ -447,6 +478,8 @@ class DefinedStringDetector
   # #diff_support, even empty and rejected strings will also be collected. 
   # This can be useful, for example, to compare the impact of filter changes 
   # with a diff utility.
+  # 
+  # @return [Boolean] +true+ if string is valid, otherwise +false+.
   def keep_all_results
     if @diff_support && !@valid
       @valid = true

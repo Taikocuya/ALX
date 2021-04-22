@@ -27,8 +27,9 @@ require_relative('binarystringio.rb')
 require_relative('aryprop.rb')
 require_relative('fltprop.rb')
 require_relative('dynprop.rb')
+require_relative('etc.rb')
 require_relative('intprop.rb')
-require_relative('main.rb')
+require_relative('log.rb')
 require_relative('strprop.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -49,16 +50,14 @@ class Entry
   public
 
   # Constructs an Entry.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    @root = _root
+  def initialize
     init_attrs
   end
 
   # Returns the file size of the entry.
   # @return [Integer] Size of entry
   def size
-    _strio = BinaryStringIO.new('', 'wb', endianness: @root.endianness)
+    _strio = BinaryStringIO.new('', 'wb', endianness: endianness)
     write_bin(_strio)
     _strio.pos
   end
@@ -76,7 +75,8 @@ class Entry
   def ==(_entry)
     _result   = true
     _result &&= _entry.is_a?(self.class)
-    _result &&= (id == _entry.id)
+    _result &&= (id     == _entry.id    )
+    _result &&= (header == _entry.header)
     _result &&= @props.all? do |_k, _p|
       _other = _entry.fetch(_k)
 
@@ -97,46 +97,29 @@ class Entry
     end
   end
 
-  # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
-  # differs from the snapshot, otherwise nothing happens. Returns +true+ if 
-  # the entry matches the snapshot, otherwise +false+.
-  # @param _entry [Entry] Entry object
-  # @return [Boolean] +true+ if entry matches the snapshot, otherwise +false+.
-  def check_expiration(_entry)
-    _found   = true
-    _found &&= _entry.is_a?(Entry)
-    _found &&= (id == _entry.id)
-
-    if _found && self != _entry
-      @expired = true
-    end
-    
-    _found
+  # @see Root#etc
+  def etc(...)
+    Root.etc(...)
   end
 
-  # @see GameRoot#etc
-  def etc(*_args)
-    @root.etc(*_args)
+  # @see Root#sys
+  def sys(...)
+    Root.sys(...)
   end
 
-  # @see GameRoot#sys
-  def sys(*_args)
-    @root.sys(*_args)
+  # @see Root#voc
+  def voc(...)
+    Root.voc(...)
   end
 
-  # @see GameRoot#voc
-  def voc(*_args)
-    @root.voc(*_args)
+  # @see Root#join
+  def join(...)
+    Root.join(...)
   end
 
-  # @see GameRoot#join
-  def join(*_args)
-    @root.join(*_args)
-  end
-
-  # @see GameRoot#glob
-  def glob(*_args, &_block)
-    @root.glob(*_args, &_block)
+  # @see Root#glob
+  def glob(...)
+    Root.glob(...)
   end
 
   # Reads one entry from a binary I/O stream.
@@ -190,7 +173,6 @@ class Entry
   # @return [Hash] Hash object
   def marshal_dump
     _hash               = {}
-    _hash[:@root      ] = @root
     _hash[:@props     ] = @props
     _hash[:@padding_id] = @padding_id
     _hash[:@unknown_id] = @unknown_id
@@ -201,9 +183,8 @@ class Entry
 # Public Member Variables
 #------------------------------------------------------------------------------
 
-  attr_reader   :root
   attr_reader   :props
-  attr_accessor :expired
+  attr_accessor :modified
 
   def clear
     @props.clear
@@ -232,7 +213,7 @@ class Entry
   
   def store(_key, _prop)
     unless _prop.is_a?(Prop)
-      raise(TypeError, sprintf('%s is not a prop', _prop))
+      raise(TypeError, sprintf('%s is not a prop', _prop.inspect))
     end
     
     @props[_key] = _prop
@@ -251,61 +232,61 @@ class Entry
   end
 
   def product_id
-    @root.product_id
+    Root.product_id
   end
   alias pid product_id
   
   def country_id
-    @root.country_id
+    Root.country_id
   end
   alias cid country_id
   
   # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
   # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.
   def dc?
-    @root.dc?
+    Root.dc?
   end
 
   # Returns +true+ if the platform is a GameCube, otherwise +false+.
   # @return [Boolean] +true+ if platform is a GameCube, otherwise +false+.
   def gc?
-    @root.gc?
+    Root.gc?
   end
 
   # Returns +true+ if the country is 'EU', otherwise +false+.
   # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
   def eu?
-    @root.eu?
+    Root.eu?
   end
 
   # Returns +true+ if the country is 'JP', otherwise +false+.
   # @return [Boolean] +true+ if country is 'JP', otherwise +false+.
   def jp?
-    @root.jp?
+    Root.jp?
   end
 
   # Returns +true+ if the country is 'US', otherwise +false+.
   # @return [Boolean] +true+ if country is 'US', otherwise +false+.
   def us?
-    @root.us?
+    Root.us?
   end
 
   # Returns +:big+ or +:little+ depending on the platform endianness.
   # @return [Symbol] +:big+ or +:little+ depending on endianness.
   def endianness
-    @root.endianness
+    Root.endianness
   end
 
   # Returns +true+ if the endianness is big-endian, otherwise +false+.
   # @return [Boolean] +true+ if endianness is big-endian, otherwise +false+.
   def big_endian?
-    @root.big_endian?
+    Root.big_endian?
   end
 
   # Returns +true+ if the endianness is little-endian, otherwise +false+.
   # @return [Boolean] +true+ if endianness is little-endian, otherwise +false+.
   def little_endian?
-    @root.little_endian?
+    Root.little_endian?
   end
 
 #==============================================================================
@@ -319,7 +300,7 @@ class Entry
     @props      ||= { VOC.id => IntProp.new(:u32, -1, dmy: true) }
     @padding_id ||= 0
     @unknown_id ||= 0
-    @expired    ||= false
+    @modified   ||= false
   end
   
   # Returns a CSV header with "Padding" as description and an unique 

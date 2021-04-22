@@ -42,15 +42,17 @@ class EnemyExporter < EnemyTransform
 
   public
 
-  def valid?(_root)
+  def valid?
     _result   = super
-    _result &&= has_file?(_root.dirname, _root.sys(:evp_file))
+    _result &&= has_file?(Root.dirname, sys(:evp_file))
     _result
   end
   
-  def exec
+  def update
     super
-    transform_bin_to_csv
+    if Worker.child?
+      transform_bin_to_csv
+    end
   end
 
 end	# class EnemyExporter

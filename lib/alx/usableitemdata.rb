@@ -43,16 +43,15 @@ class UsableItemData < StdEntryData
   public
 
   # Constructs an UsableItemData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(UsableItem, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(UsableItem, _depend)
     self.id_range  = sys(:usable_item_id_range)
     self.data_file = sys(:usable_item_data_files)
     self.name_file = sys(:usable_item_name_files)
     self.dscr_file = sys(:usable_item_dscr_files)
-    self.csv_file  = SYS.usable_item_csv_file
-    self.tpl_file  = SYS.usable_item_tpl_file
+    self.csv_file  = join(SYS.usable_item_csv_file)
+    self.tpl_file  = File.join(SYS.build_dir, SYS.usable_item_tpl_file)
   end
 
 end # class UsableItemData

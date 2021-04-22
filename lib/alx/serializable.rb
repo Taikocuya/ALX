@@ -164,7 +164,7 @@ module Serializable
   # @param _type [Symbol]  Type of the integer, which will be written.
   def write_int(_int, _type)
     unless _int.is_a?(Integer)
-      raise(TypeError, sprintf('%s is not an integer', _int))
+      raise(TypeError, sprintf('%s is not an integer', _int.inspect))
     end
 
     _format = int_directive(_type)
@@ -198,7 +198,8 @@ module Serializable
   #                       written.
   def write_flt(_flt, _type)
     unless _flt.is_a?(Float)
-      raise(TypeError, sprintf('%s is not a floating-point value', _flt))
+      _msg = '%s is not a floating-point value'
+      raise(TypeError, sprintf(_msg, _flt.inspect))
     end
     
     if _type == :f32
@@ -292,25 +293,25 @@ module Serializable
       _str.tr!(TRANSL[1], TRANSL[0])
     end
     
-    if enc == 'ASCII-8BIT'
-      _str.force_encoding('ASCII-8BIT')
-    else
+    if enc != 'ASCII-8BIT'
       _str.encode!(enc)
     end
+    _str.force_encoding('ASCII-8BIT')
 
     if length
       if _str.bytesize > length
-        _msg = 'string size invalid (given %#x, expected %#x)'
+        _msg = 'string size invalid - %s (given %#x, expected %#x)'
         _exp = _str.bytesize
         if blocks && blocks > 0
           _exp += blocks - _str.bytesize % blocks
         end
-        raise(IOError, sprintf(_msg, length, _exp))
+        raise(IOError, sprintf(_msg, _str.inspect, length, _exp))
       end
       if blocks && blocks > 0
         if _str.bytesize + (blocks - _str.bytesize % blocks) > length
           _msg = sprintf(
-            'string size invalid (given %#x, expected %#x)',
+            'string size invalid - %s (given %#x, expected %#x)',
+            _str.inspect, 
             length,
             _str.bytesize + (blocks - _str.bytesize % blocks)
           )
@@ -318,20 +319,21 @@ module Serializable
         end
         if length % blocks != 0
           _msg = sprintf(
-            'string size invalid (given %#x, expected %#x or %#x)',
+            'string size invalid - %s (given %#x, expected %#x or %#x)',
+            _str.inspect, 
             length,
             length - length % blocks,
             length + (blocks - length % blocks)
           )
           raise(IOError, _msg)
         end
-        
+
         _str = _str.ljust(length - blocks)
       end
     else
-      length     = _str.bytesize
+      length   = _str.bytesize
       blocks ||= 0x1
-      length    += blocks - length % blocks
+      length  += blocks - length % blocks
     end
 
     if length > 0
@@ -370,7 +372,8 @@ module Serializable
   # @see ::String#unpack
   def int_directive(_type)
     if !_type.is_a?(String) && !_type.is_a?(Symbol)
-      raise(TypeError, sprintf('%s is not a symbol nor a string', _type))
+      _msg = '%s is not a symbol nor a string'
+      raise(TypeError, sprintf(_msg, _type.inspect))
     end
 
     _type = _type.to_sym
@@ -392,7 +395,7 @@ module Serializable
     when :u64
       big_endian? ? 'Q>' : 'Q<'
     else
-      raise(TypeError, sprintf('%s is not an integer type', _type))
+      raise(TypeError, sprintf('%s is not an integer type', _type.inspect))
     end
   end
 
@@ -404,7 +407,8 @@ module Serializable
   # @see ::String#unpack
   def flt_directive(_type)
     if !_type.is_a?(String) && !_type.is_a?(Symbol)
-      raise(TypeError, sprintf('%s is not a symbol nor a string', _type))
+      _msg = '%s is not a symbol nor a string'
+      raise(TypeError, sprintf(_msg, _type.inspect))
     end
 
     _type = _type.to_sym
@@ -414,7 +418,8 @@ module Serializable
     when :f64
       big_endian? ? 'G' : 'E'
     else
-      raise(TypeError, sprintf('%s is not a floating-point type', _type))
+      _msg = '%s is not a floating-point type'
+      raise(TypeError, sprintf(_msg, _type.inspect))
     end
   end
 

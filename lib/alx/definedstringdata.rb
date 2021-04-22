@@ -44,11 +44,10 @@ class DefinedStringData < EntryData
   public
 
   # Constructs a DefinedStringData.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    super(DefinedString, _root)
+  def initialize
+    super(DefinedString)
     @data_file = sys(:defined_string_data_files)
-    @csv_file  = SYS.defined_string_csv_file
+    @csv_file  = join(SYS.defined_string_csv_file)
     @data      = []
   end
 
@@ -60,32 +59,113 @@ class DefinedStringData < EntryData
     _entry.id = _id
     _entry
   end
-  
-  # Reads all snaphots (instance variables) from SHT files.
-  def load_sht
-    super
-    load_sht_data(:data)
+
+  # Reads all entries from binary files.
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
+  def load_bin
+    unless @data.empty?
+      return false
+    end
+
+    load_cache
+    if cache.valid? && !SYS.defined_string_use_dictionary
+      return false
+    end
+
+    each_descriptor(@data_file) do |_d|
+      load_bin_data(glob(_d.name))
+    end
+    
+    true
   end
-  
-  # Writes all snaphots (instance variables) to SHT files.
-  def save_sht
+
+  # Writes all entries to binary files.
+  # @return [Boolean] +true+ if writing was successful, otherwise +false+.
+  def save_bin
+    if @data.empty?
+      return false
+    end
+    if cache.valid?
+      return false
+    end
+    
+    each_descriptor(@data_file) do |_d|
+      save_bin_data(glob(_d.name))
+    end
+    save_cache
+    
+    true
+  end
+
+  # Reads all entries from CSV files (TPL files first, CSV files last).
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
+  def load_csv
+    load_cache
+    if cache.valid?
+      return false
+    end
+    
+    load_csv_data(@csv_file)
+    
+    true
+  end
+
+  # Writes all entries to CSV files.
+  # @return [Boolean] +true+ if writing was successful, otherwise +false+.
+  def save_csv
+    if @data.empty?
+      return false
+    end
+    if cache.valid? && !SYS.defined_string_use_dictionary
+      return false
+    end
+    
+    save_csv_data(@csv_file)
+    save_cache
+    
+    true
+  end
+
+#------------------------------------------------------------------------------
+# Public Member Variables
+#------------------------------------------------------------------------------
+
+  attr_accessor :data_file
+  attr_accessor :csv_file
+  attr_accessor :data
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initializes the cache descriptors.
+  def init_cache_descriptors
     super
-    save_sht_data(:data, @data)
+    
+    cache.add_descriptor(:bin, @data_file)
+    cache.add_descriptor(:csv, @csv_file )
+  end
+
+  # Initializes the cache storage.
+  def init_cache_storage
+    super
+    cache.add_storage(:@data, @data)
   end
 
   # Reads all entries from a binary file.
   # @param _filename [String] File name
   def load_bin_data(_filename)
-    _detect = DefinedStringDetector.new(root)
-    if SYS.defined_string_use_cache
-      _detect.load_cache
+    _descriptor = find_descriptor(@data_file, _filename)
+    _detect     = DefinedStringDetector.new
+    if SYS.defined_string_use_dictionary
+      _detect.load_dictionary(_descriptor)
     end
     
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.load, VOC.open_file, _filename))
 
-    meta.store_mtime(_filename)
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
-      _descriptor = find_descriptor(@data_file, _filename)
       _descriptor.each do |_range|
         _f.pos        = _range.begin
         _detect.range = _range
@@ -94,8 +174,6 @@ class DefinedStringData < EntryData
           if _f.eof? || !_descriptor.include?(_f.pos)
             break
           end
-
-          LOG.info(sprintf(VOC.search, _id, _f.pos))
 
           _detect.clear
           while !_f.eof? && _descriptor.include?(_f.pos)
@@ -123,36 +201,15 @@ class DefinedStringData < EntryData
       end
     end
 
-    LOG.info(sprintf(VOC.close, _filename))
-
-    if SYS.defined_string_use_cache
-      _detect.save_cache
-    end
-  end
-
-  # Reads all entries from binary files.
-  def load_bin
-    unless @data.empty?
-      return
-    end
-
-    each_descriptor(@data_file) do |_d|
-      load_bin_data(glob(_d.name))
+    if SYS.defined_string_use_dictionary
+      _detect.save_dictionary
     end
   end
 
   # Writes all entries to a binary file.
   # @param _filename [String] File name
   def save_bin_data(_filename)
-    if @data.empty?
-      return
-    end
-    unless meta.updated?
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
-      return
-    end
-    
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.save, VOC.open_file, _filename))
 
     FileUtils.mkdir_p(File.dirname(_filename))
     BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
@@ -164,28 +221,14 @@ class DefinedStringData < EntryData
         _str      = _entry[VOC.string_value   ]
         
         _f.pos = _pos
-        if !_descriptor.include?(_f.pos, _size) || !_entry.expired
+        if !_descriptor.include?(_f.pos, _size)
           next
         end
         
-        LOG.info(sprintf(VOC.write, _id, _pos))
         _f.write_str(
           _str, length: _size, blocks: 0x1, enc: _encoding, tr: false
         )
       end
-    end
-
-    LOG.info(sprintf(VOC.close, _filename))
-  end
-
-  # Writes all entries to binary files.
-  def save_bin
-    if @data.empty?
-      return
-    end
-
-    each_descriptor(@data_file) do |_d|
-      save_bin_data(glob(_d.name))
     end
   end
 
@@ -196,79 +239,33 @@ class DefinedStringData < EntryData
       return
     end
 
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.load, VOC.open_file, _filename))
 
-    meta.store_mtime(_filename)
     CSV.open(_filename, headers: true) do |_f|
-      _snapshot = snaps[:data].dup
-
       while !_f.eof?
-        LOG.info(sprintf(VOC.read, [0, _f.lineno - 1].max, _f.pos))
         _entry = create_entry
         _entry.read_csv(_f)
-
-        if _snapshot
-          _result = false
-          _snapshot.reject! do |_sht|
-            if _result
-              break
-            end
-            _result = _entry.check_expiration(_sht)
-          end
-        else
-          _entry.expired = true
-        end
-        
         @data << _entry
       end
     end
-
-    LOG.info(sprintf(VOC.close, _filename))
-  end
-
-  # Reads all entries from CSV files (TPL files first, CSV files last).
-  def load_csv
-    load_csv_data(File.join(root.dirname, @csv_file))
+    
+    
   end
 
   # Writes all data entries to a CSV file.
   # @param _filename [String] File name
   def save_csv_data(_filename)
-    if @data.empty?
-      return
-    end
-    if File.exist?(_filename) && !meta.updated?
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
-      return
-    end
-
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.save, VOC.open_file, _filename))
   
     _header = create_entry.header
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       @data.each do |_entry|
-        LOG.info(sprintf(VOC.write, [0, _f.lineno - 1].max, _f.pos))
         _entry.write_csv(_f)
       end
     end
-    
-    LOG.info(sprintf(VOC.close, _filename))
   end
-
-  # Writes all entries to CSV files.
-  def save_csv
-    save_csv_data(glob(@csv_file))
-  end
-
-#------------------------------------------------------------------------------
-# Public Member Variables
-#------------------------------------------------------------------------------
-
-  attr_accessor :data_file
-  attr_accessor :csv_file
-  attr_accessor :data
 
 end # class DefinedStringData
 

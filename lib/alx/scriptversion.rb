@@ -42,28 +42,9 @@ class ScriptVersion < Entry
   public
 
   # Constructs an ScriptVersion.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
     init_props
-  end
-  
-  # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
-  # differs from the snapshot, otherwise nothing happens. Returns +true+ if 
-  # the entry matches the snapshot, otherwise +false+.
-  # @param _entry [Entry] Entry object
-  # @return [Boolean] +true+ if entry matches the snapshot, otherwise +false+.
-  def check_expiration(_entry)
-    _found   = true
-    _found &&= _entry.is_a?(ScriptVersion)
-    _found &&= (id   == _entry.id  )
-    _found &&= (file == _entry.file)
-
-    if _found
-      super
-    end
-
-    _found
   end
   
   # Returns +true+ if the script version is valid, otherwise +false+.

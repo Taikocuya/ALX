@@ -23,7 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../../lib/alx/entrytransform.rb')
+require_relative('../lib/alx/entrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -52,25 +52,24 @@ class StringEncoder < EntryTransform
 
   # Constructs an StringEncoder.
   def initialize
-    super(Object)
+    super(nil)
+  end
+
+  # This method is called before #update respectively as first in #exec.
+  # @see #exec
+  def startup
   end
   
-  # Creates an entry data object.
-  # @param _root [GameRoot] Game root
-  # @return [EntryData] Entry data object
-  def create_entry_data(_root)
-    nil
-  end
+  # This method is called after #startup and before #shutdown in #exec. It 
+  # will be re-executed as long as #repeat is true.
+  # @see #exec
+  def update
+    super
   
-  def exec
-    unless has_ruby?(SYS.ruby_version)
-      return
-    end
-  
-    ALX::LOG.info(sprintf('Input string in %s: %s', IN_STR.encoding, IN_STR))
+    LOG.info(sprintf('Input string in %s: %s', IN_STR.encoding, IN_STR))
     _output = IN_STR.each_byte.map { |_b| sprintf('%02x', _b) }
     _output = _output.join(' ')
-    ALX::LOG.info(sprintf('Output string in hexadecimal: %s', _output))
+    LOG.info(sprintf('Output string in hexadecimal: %s', _output))
   end
 
 end # class StringEncoder

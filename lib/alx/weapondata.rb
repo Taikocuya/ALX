@@ -44,19 +44,18 @@ class WeaponData < StdEntryData
   public
 
   # Constructs a WeaponData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(Weapon, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(Weapon, _depend)
     self.id_range  = sys(:weapon_id_range)
     self.data_file = sys(:weapon_data_files)
     self.name_file = sys(:weapon_name_files)
     self.dscr_file = sys(:weapon_dscr_files)
-    self.csv_file  = SYS.weapon_csv_file
-    self.tpl_file  = SYS.weapon_tpl_file
+    self.csv_file  = join(SYS.weapon_csv_file)
+    self.tpl_file  = File.join(SYS.build_dir, SYS.weapon_tpl_file)
     
     if depend
-      @weapon_effect_data = WeaponEffectData.new(_root)
+      @weapon_effect_data = WeaponEffectData.new
     end
   end
 
@@ -70,6 +69,7 @@ class WeaponData < StdEntryData
   end
   
   # Reads all entries from binary files.
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
   def load_bin
     @weapon_effect_data&.load_bin
     super

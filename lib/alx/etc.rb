@@ -23,7 +23,9 @@
 #==============================================================================
 
 require('digest')
+require('etc')
 require_relative('alx.rb')
+require_relative('main.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -92,7 +94,7 @@ class ETC
     if @@initialized
       return @@initialized
     end
-    
+
     CONFIG_FILES.each do |_sym, _basename|
       ALX.const_set(_sym, ETC.new(_sym, _basename))
       CONFIG_DIRS.each do |_dirname|
@@ -186,9 +188,6 @@ end # module ALX
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-begin
+ALX::Main.call do
   ALX::ETC.init
-rescue => _e
-  print(_e.message, "\n", _e.backtrace.join("\n"), "\n")
-  exit(1)
 end

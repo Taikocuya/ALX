@@ -48,14 +48,15 @@ class RangeDescriptor
   # @param msgtbl [Boolean]     Use message table
   def initialize(_name = '', _addr = [], excl: [], msgtbl: false)
     unless _name.is_a?(String)
-      raise(TypeError, sprintf('%s is not a string', _name))
+      raise(TypeError, sprintf('%s is not a string', _name.inspect))
     end
     if !_addr.is_a?(Array) && !_addr.is_a?(Range)
-      raise(TypeError, sprintf('%s is not an array nor a range', _addr))
+      _msg = '%s is not an array nor a range'
+      raise(TypeError, sprintf(_msg, _addr.inspect))
     end
     if !excl.is_a?(Array) && !excl.is_a?(Integer) && !excl.is_a?(Range)
       _msg = '%s is not an array, an integer nor a range'
-      raise(TypeError, sprintf(_msg, excl))
+      raise(TypeError, sprintf(_msg, excl.inspect))
     end
 
     unless _addr.is_a?(Array)
@@ -86,7 +87,25 @@ class RangeDescriptor
     @excl.uniq!
     @excl.sort!
   end
-  
+
+  # Compares two range descriptors based on properties. Returns +true+ if all 
+  # properties are equal, or +false+ otherwise.
+  # @param _dscr [RangeDescriptor] RangeDescriptor object
+  # @return [Boolean] +true+ if all properties are equal, otherwise +false+.
+  def ==(_dscr)
+    _result   = true
+    _result &&= _dscr.is_a?(self.class)
+    _result &&= (@name   == _dscr.name  )
+    _result &&= (@addr   == _dscr.addr  )
+    _result &&= (@beg    == _dscr.beg   )
+    _result &&= (@end    == _dscr.end   )
+    _result &&= (@min    == _dscr.min   )
+    _result &&= (@max    == _dscr.max   )
+    _result &&= (@excl   == _dscr.excl  )
+    _result &&= (@msgtbl == _dscr.msgtbl)
+    _result
+  end
+
   # Returns +true+ if position is valid, otherwise +false+.
   # @param _pos  [Integer] Position
   # @param _size [Integer] Size
@@ -100,8 +119,10 @@ class RangeDescriptor
   # Calls the given block once for each element in #addr, passing that range 
   # as a parameter.
   # @see Array#each
-  def each(&_block)
-    @addr.each(&_block)
+  def each
+    @addr.each do |_range|
+      yield _range
+    end
   end
 
   # Converts a relative position starting from zero into an absolute position 
@@ -145,7 +166,7 @@ class RangeDescriptor
   # @param _range [Range] Range
   def init_range(_range)
     unless _range.is_a?(Range)
-      raise(TypeError, sprintf('%s is not a range', _range))
+      raise(TypeError, sprintf('%s is not a range', _range.inspect))
     end
     
     _range = ALX.rng(_range)
@@ -181,7 +202,8 @@ class RangeDescriptor
   # @param _excl [Integer,Range] Exclusion
   def init_excl(_excl)
     if !_excl.is_a?(Integer) && !_excl.is_a?(Range)
-      raise(TypeError, sprintf('%s is not an integer nor a range', _excl))
+      _msg = '%s is not an integer nor a range'
+      raise(TypeError, sprintf(_msg, _excl.inspect))
     end
 
     case _excl

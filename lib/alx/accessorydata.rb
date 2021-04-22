@@ -43,16 +43,15 @@ class AccessoryData < StdEntryData
   public
 
   # Constructs an AccessoryData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(Accessory, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(Accessory, _depend)
     self.id_range  = sys(:accessory_id_range)
     self.data_file = sys(:accessory_data_files)
     self.name_file = sys(:accessory_name_files)
     self.dscr_file = sys(:accessory_dscr_files)
-    self.csv_file  = SYS.accessory_csv_file
-    self.tpl_file  = SYS.accessory_tpl_file
+    self.csv_file  = join(SYS.accessory_csv_file)
+    self.tpl_file  = File.join(SYS.build_dir, SYS.accessory_tpl_file)
   end
 
 end # class AccessoryData

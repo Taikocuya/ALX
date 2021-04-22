@@ -34,14 +34,20 @@ SYS.configure do |_s|
 #------------------------------------------------------------------------------
 
   # Required version of Ruby
-  _s.ruby_version = '2.7.0'
-  
+  _s.ruby_version   = '2.7.0'
+  # Maximum number of worker processes
+  _s.worker_max     = Etc.nprocessors
+  # Timeout per worker process in seconds 
+  _s.worker_timeout = 0
+
   # Path to 'build' directory
   _s.build_dir  = expand('build')
   # Path to 'doc' directory
   _s.doc_dir    = expand('doc')
   # Path to 'log' directory
   _s.log_dir    = expand('log')
+  # Path to 'temp' directory
+  _s.temp_dir   = expand('temp')
   # Path to 'tool' directory
   _s.tool_dir   = expand('tool')
   # Path to 'vendor' directory
@@ -51,6 +57,8 @@ SYS.configure do |_s|
   _s.gcm_builder_exe = join(_s.vendor_dir, 'GCRebuilder/gcr.exe')
   # Path to GDIBuilder executable file
   _s.gdi_builder_exe = join(_s.vendor_dir, 'GDIBuilder/buildgdi.exe')
+  # Path to Ruby executable file
+  _s.ruby_exe        = join(_s.vendor_dir, 'Ruby/ruby.exe')
 
 #------------------------------------------------------------------------------
 # Logging
@@ -67,15 +75,11 @@ SYS.configure do |_s|
 # Cache
 #------------------------------------------------------------------------------
 
-  # Enables or disables the use of cache storage. If you disable the use of 
-  # cache storage, snapshots will not be loaded and differences will not be 
-  # detected, which enormously increases the total runtime.
-  _s.snapshot_use_cache    = true
-  # Enables or disables the watching of configuration files. If you enable the 
-  # watching of configuration files, the cache storage respectively snapshots 
-  # will be recreated if configuration changes have occured.
-  _s.snapshot_watch_config = true
-  
+  # Enables or disables caching.
+  _s.cache             = true
+  # Compression level of cache
+  _s.cache_compression = 1
+
 #------------------------------------------------------------------------------
 # Game Paths
 #------------------------------------------------------------------------------
@@ -347,13 +351,14 @@ SYS.configure do |_s|
     
   # Region IDs
   _s.region_ids = {
-    'DC-E'  => 'PAL-E' ,
-    'DC-J'  => 'NTSC-J',
-    'DC-U'  => 'NTSC-U',
-    'DC-UE' => 'PAL-E' ,
-    'GC-E'  => 'NTSC-U',
-    'GC-J'  => 'NTSC-J',
-    'GC-P'  => 'PAL-E' ,
+    'DC-E'   => 'PAL-E' ,
+    'DC-J'   => 'NTSC-J',
+    'DC-U'   => 'NTSC-U',
+    'DC-UE'  => 'PAL-E' ,
+    'DC-JUE' => 'NTSC-U',
+    'GC-E'   => 'NTSC-U',
+    'GC-J'   => 'NTSC-J',
+    'GC-P'   => 'PAL-E' ,
   }
 
   # Country IDs
@@ -1029,7 +1034,7 @@ SYS.configure do |_s|
       rd(_s.sot_file_gb['GC'], 0x1e3dd...0x1e473),
     ],
   }
-  
+
   # Offset ranges of crew member descriptions
   _s.crew_member_dscr_files = {
     'DC-EU-8320062 50'                  => [
@@ -1092,29 +1097,29 @@ SYS.configure do |_s|
 # Defined String Data
 #------------------------------------------------------------------------------
 
-  # Enables or disables the cache for defined strings. If you enable the 
-  # cache, all valid strings are cached even before the filter 
-  # +SYS.defined_string_filters+ is applied. This cache will be used later to 
-  # skip the entire string detection in future runs. This can be useful, for 
-  # example, to quickly check the effects of filter changes without scanning 
-  # the whole file again.
-  _s.defined_string_use_cache     = true
+  # Enables or disables the dictionary for defined strings. If you enable the 
+  # dictionary, all valid strings are cached even before the filter 
+  # +SYS.defined_string_filters+ is applied. This dictionary will be used 
+  # later to skip the entire string detection in future runs. This can be 
+  # useful, for example, to quickly check the effects of filter changes 
+  # without scanning the whole file again.
+  _s.defined_string_use_dictionary = false
   # Enables or disables the filter avoidance. If you enable the filter 
   # avoidance, no filters are applied.
-  _s.defined_string_ignore_filter = false
+  _s.defined_string_ignore_filter  = false
   # Enables or disables the filter inversion. If you enable the filter 
   # inversion, only the rejected strings will be collected.
-  _s.defined_string_invert_filter = false
+  _s.defined_string_invert_filter  = false
   # Enables or disables the appending of filters. If you enable the appending 
   # of filters, the applied filters will also be stored. This can be useful, 
   # for example, to determine which filter of +SYS.defined_string_filters+ has 
   # been finally selected.
-  _s.defined_string_append_filter = false
+  _s.defined_string_append_filter  = false
   # Enables or disables the diff utility support. If you enable the diff 
   # utility support, even empty and rejected strings will also be collected. 
   # This can be useful, for example, to compare the impact of filter changes 
   # with a diff utility.
-  _s.defined_string_diff_support  = false
+  _s.defined_string_diff_support   = false
 
   # Alignment requirement for the begin of defined strings
   _s.defined_string_beg_alignment = 0x1

@@ -18,13 +18,6 @@
 # with ALX.  If not, see <http://www.gnu.org/licenses/>.
 #******************************************************************************
 
-#==============================================================================
-#                                 REQUIREMENTS
-#==============================================================================
-
-require_relative('etc.rb')
-require_relative('log.rb')
-
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
 module ALX
@@ -42,28 +35,53 @@ module Main
 
   public
 
-  # Executes the given block in the main function.
-  def self.call
-    begin
-      yield
-    rescue Exception => _exception
-      exception(_exception)
-    end
+  # Returns formatted strings of the exception line by line as array. The 
+  # returned string is formatted using the same format that Ruby uses when 
+  # printing an uncaught exceptions to +stderr+.
+  # 
+  # @param _exception [Exception] Exception object
+  # @param highlight  [Boolean]   Format colored messages
+  # @param chomp      [Boolean]   Remove line endings in each line
+  # 
+  # @return [Array] Full message
+  def self.trace(_exception, highlight: true, chomp: true)
+    _exception.full_message(highlight: highlight).lines(chomp: chomp)
   end
 
   # Raises an excepetion.
   # @param _exception [Exception] Exception object
   def self.exception(_exception)
     begin
-      ALX::LOG.fatal(_exception.message)
-      _exception.backtrace.each do |_trace|
-        ALX::LOG.fatal(_trace)
+      _std_trace = trace(_exception, highlight: true )
+      _log_trace = trace(_exception, highlight: false)
+      _zip_trace = _std_trace.zip(_log_trace).flatten.compact
+
+      if ALX.const_defined?(:LOG)
+        _zip_trace.each_slice(2) do |_a, _b|
+          LOG.fatal(_a, _b)
+        end
+      else
+        raise(_exception)
       end
-    rescue StandardError => _fallback
-      print(_exception.message, "\n", _exception.backtrace.join("\n"), "\n")
-      print( _fallback.message, "\n",  _fallback.backtrace.join("\n"), "\n")
+    rescue Exception => _fallback
+      _bak_trace = trace(_fallback , highlight: true, chomp: false)
+      _bak_trace.each do |_trace|
+        print(_trace)
+      end
     ensure
+      if ALX.const_defined?(:Worker)
+        Worker.kill
+      end
       exit(1)
+    end
+  end
+  
+  # Executes the given block in the main function.
+  def self.call
+    begin
+      yield
+    rescue Exception => _exception
+      exception(_exception)
     end
   end
   

@@ -24,6 +24,8 @@
 
 require('fileutils')
 require('logger')
+require_relative('main.rb')
+require_relative('worker.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -34,7 +36,7 @@ module ALX
 #==============================================================================
 
 # Class to handle the logging.
-module LOG
+class LOG
 
 #==============================================================================
 #                                   PUBLIC
@@ -42,97 +44,112 @@ module LOG
 
   public
 
-  # Initializes the logging.
-  # @see ::Logger::new
-  def self.init
-    @@initialized ||= false
-    if @@initialized
-      return @@initialized
-    end
+  # Constructs a LOG.
+  def initialize
+    ObjectSpace.define_finalizer(self, finalize)
 
-    _prog_name = File.basename($0)
-    if $0 && Object.const_defined?('ALX::SYS') && SYS.log
-      _log_file = File.basename($0, '.*') + '.log'
-      _log_file = File.join(SYS.log_dir, _log_file)
-    else
-      _log_file = nil
+    @std = Logger.new(STDOUT, level: SYS.log_level)
+    @std.formatter = Proc.new do |_severity, _, _, _msg|
+      sprintf("%s [#%d] -- %s\r\n", _severity[0], Worker.pid, _msg)
     end
-
-    @@std_out = Logger.new(STDOUT, level: SYS.log_level, progname: _prog_name)
-    @@std_out.formatter = Proc.new do |_severity, _, _, _msg|
-      sprintf("%s -- %s\r\n", _severity[0], _msg)
-    end
-    @@log_out = nil
-
-    if _log_file
-      FileUtils.mkdir_p(File.dirname(_log_file))
-      if File.exist?(_log_file)
-        _mdate    = File.mtime(_log_file)
-        _basename = File.basename(_log_file, '.*')
-        _rdate    = _mdate.strftime('-%Y-%m-%dT%H-%M-%S')
-        _filename = _basename + _rdate + '.log'
-        _filename = File.join(File.dirname(_log_file), _filename)
-        FileUtils.mv(_log_file, _filename)
+    
+    if Object.const_defined?('ALX::SYS') && SYS.log
+      _filename = File.join(SYS.log_dir, Worker.pid_base + '.log')
+      
+      FileUtils.mkdir_p(File.dirname(SYS.log_dir))
+      if Worker.parent? && File.exist?(_filename)
+        _mdate = File.mtime(_filename)
+        _rdate = _mdate.strftime('-%Y-%m-%dT%H-%M-%S')
+        _rname = File.join(SYS.log_dir, Worker.pid_base + _rdate + '.log')
+        FileUtils.mv(_filename, _rname)
 
         _glob  = File.join(
-          SYS.log_dir, _basename + '-[0-9]*[0-9]T[0-9]*[0-9].log'
+          SYS.log_dir, Worker.pid_base + '-[0-9]*[0-9]T[0-9]*[0-9].log'
         )
         _files = Dir.glob(_glob).sort.reverse
         while _files.size > SYS.log_keep
           FileUtils.rm(_files.pop)
         end
       end
-      @@log_out = Logger.new(
-        _log_file, level: SYS.log_level, progname: _prog_name
-      )
-    end
 
-    @@initialized = true
+      _file      = File.open(_filename, 'a+')
+      _file.sync = true
+      
+      @log = Logger.new(_file, level: SYS.log_level, progname: Worker.pid_base)
+    else
+      @log = nil
+    end
   end
 
+  # Initializes the LOG.
+  def self.init
+    @@initialized ||= false
+    if @@initialized
+      return @@initialized
+    end
+
+    ALX.send(:remove_const, self.name.split('::').last)
+    ALX.send(:const_set   , self.name.split('::').last, self.new)
+    
+    @@initialized = true
+  end
+  
   # @see ::Logger#level=
-  def self.level=(_severity)
-    @@std_out&.level = _severity
-    @@log_out&.level = _severity
+  def level=(_severity)
+    @std&.level = _severity
+    @log&.level = _severity
   end
 
   # @see ::Logger#unknown
-  def self.unknown(*_args, &_block)
-    @@std_out&.unknown(*_args, &_block)
-    @@log_out&.unknown(*_args, &_block)
+  def unknown(_std_msg, _log_msg = nil)
+    @std&.unknown(_std_msg            )
+    @log&.unknown(_log_msg || _std_msg)
   end
 
   # @see ::Logger#debug
-  def self.debug(*_args, &_block)
-    @@std_out&.debug(*_args, &_block)
-    @@log_out&.debug(*_args, &_block)
+  def debug(_std_msg, _log_msg = nil)
+    @std&.debug(_std_msg            )
+    @log&.debug(_log_msg || _std_msg)
   end
 
   # @see ::Logger#info
-  def self.info(*_args, &_block)
-    @@std_out&.info(*_args, &_block)
-    @@log_out&.info(*_args, &_block)
+  def info(_std_msg, _log_msg = nil)
+    @std&.info(_std_msg            )
+    @log&.info(_log_msg || _std_msg)
   end
 
   # @see ::Logger#warn
-  def self.warn(*_args, &_block)
-    @@std_out&.warn(*_args, &_block)
-    @@log_out&.warn(*_args, &_block)
+  def warn(_std_msg, _log_msg = nil)
+    @std&.warn(_std_msg            )
+    @log&.warn(_log_msg || _std_msg)
   end
 
   # @see ::Logger#error
-  def self.error(*_args, &_block)
-    @@std_out&.error(*_args, &_block)
-    @@log_out&.error(*_args, &_block)
+  def error(_std_msg, _log_msg = nil)
+    @std&.error(_std_msg            )
+    @log&.error(_log_msg || _std_msg)
   end
 
   # @see ::Logger#fatal
-  def self.fatal(*_args, &_block)
-    @@std_out&.fatal(*_args, &_block)
-    @@log_out&.fatal(*_args, &_block)
+  def fatal(_std_msg, _log_msg = nil)
+    @std&.fatal(_std_msg            )
+    @log&.fatal(_log_msg || _std_msg)
   end
 
-end # module LOG
+#==============================================================================
+#                                   PRIVATE
+#==============================================================================
+
+  private
+
+  # Destructs a Worker.
+  def finalize
+    Proc.new do
+      @log&.close
+    end
+  end
+
+end # class LOG
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -140,9 +157,6 @@ end # module ALX
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-begin
+ALX::Main.call do
   ALX::LOG.init
-rescue => _e
-  print(_e.message, "\n", _e.backtrace.join("\n"), "\n")
-  exit(1)
 end

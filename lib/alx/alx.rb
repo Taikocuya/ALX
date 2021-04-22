@@ -95,7 +95,7 @@ module ALX
   # @return [Range] Range
   def self.rng(_range)
     unless _range.is_a?(Range)
-      raise(TypeError, sprintf('%s is not a range', _range))
+      raise(TypeError, sprintf('%s is not a range', _range.inspect))
     end
 
     if _range.size > 0

@@ -43,15 +43,14 @@ class SwashbucklerData < StdEntryData
   public
 
   # Constructs a SwashbucklerData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(Swashbuckler, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(Swashbuckler, _depend)
     self.id_range  = sys(:swashbuckler_id_range)
     self.data_file = sys(:swashbuckler_data_files)
     self.name_file = sys(:swashbuckler_name_files)
-    self.csv_file  = SYS.swashbuckler_csv_file
-    self.tpl_file  = SYS.swashbuckler_tpl_file
+    self.csv_file  = join(SYS.swashbuckler_csv_file)
+    self.tpl_file  = File.join(SYS.build_dir, SYS.swashbuckler_tpl_file)
   end
 
 end # class SwashbucklerData

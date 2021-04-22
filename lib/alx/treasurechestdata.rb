@@ -51,24 +51,23 @@ class TreasureChestData < StdEntryData
   public
 
   # Constructs a TreasureChestData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(TreasureChest, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(TreasureChest, _depend)
     self.id_range  = sys(:treasure_chest_id_range)
     self.data_file = sys(:treasure_chest_data_files)
-    self.csv_file  = SYS.treasure_chest_csv_file
-    self.tpl_file  = SYS.treasure_chest_tpl_file
+    self.csv_file  = join(SYS.treasure_chest_csv_file)
+    self.tpl_file  = File.join(SYS.build_dir, SYS.treasure_chest_tpl_file)
         
     if depend
-      @accessory_data      = AccessoryData.new(_root)
-      @armor_data          = ArmorData.new(_root)
-      @ship_accessory_data = ShipAccessoryData.new(_root)
-      @ship_cannon_data    = ShipCannonData.new(_root)
-      @ship_item_data      = ShipItemData.new(_root)
-      @special_item_data   = SpecialItemData.new(_root)
-      @usable_item_data    = UsableItemData.new(_root)
-      @weapon_data         = WeaponData.new(_root)
+      @accessory_data      = AccessoryData.new
+      @armor_data          = ArmorData.new
+      @ship_accessory_data = ShipAccessoryData.new
+      @ship_cannon_data    = ShipCannonData.new
+      @ship_item_data      = ShipItemData.new
+      @special_item_data   = SpecialItemData.new
+      @usable_item_data    = UsableItemData.new
+      @weapon_data         = WeaponData.new
     end
     
     @items = {}
@@ -84,6 +83,7 @@ class TreasureChestData < StdEntryData
   end
   
   # Reads all entries from binary files.
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
   def load_bin
     @accessory_data&.load_bin
     @armor_data&.load_bin

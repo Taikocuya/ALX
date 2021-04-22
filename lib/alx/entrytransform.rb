@@ -22,9 +22,10 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
+require_relative('etc.rb')
 require_relative('executable.rb')
-require_relative('gameroot.rb')
-require_relative('main.rb')
+require_relative('log.rb')
+require_relative('root.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -54,32 +55,55 @@ class EntryTransform
   def initialize(_class)
     super()
     @class   = _class
-    @data    = []
+    @data    = nil
     @command = 'alx.rb'
-    @failed  = false
   end
   
   # Creates an entry data object.
-  # @param _root [GameRoot] Game root
   # @return [EntryData] Entry data object
-  def create_entry_data(_root)
-    @class.new(_root)
+  def create_entry_data
+    @class&.new
   end
   
-  # Stores and validates a game directory.
+  # @see Root#etc
+  def etc(...)
+    Root.etc(...)
+  end
+
+  # @see Root#sys
+  def sys(...)
+    Root.sys(...)
+  end
+
+  # @see Root#voc
+  def voc(...)
+    Root.voc(...)
+  end
+
+  # @see Root#join
+  def join(...)
+    Root.join(...)
+  end
+
+  # @see Root#glob
+  def glob(...)
+    Root.glob(...)
+  end
+
+  # Loads and validates a game directory.
   # @param _path [String] Game directory
-  def store(_path)
-    _root = GameRoot.new
-    _root.load(_path)
+  def load(_path)
+    Root.load(_path)
     
-    if !_root.valid? || !valid?(_root)
+    if !Root.valid? || !valid?
       raise(IOError, 'game directory invalid')
     end
     
-    @data << create_entry_data(_root)
+    @data = create_entry_data
   end
   
-  # Collects and validates several game directories in +SYS.build_dir+.
+  # Collects the game directories in +SYS.build_dir+ and spawns worker 
+  # processes for them.
   def collect
     if has_ruby?(SYS.ruby_version) && has_dir?(SYS.build_dir)
       _game_dirs = [
@@ -93,44 +117,108 @@ class EntryTransform
           next
         end
 
-        store(_p)
+        Worker.wait(SYS.worker_max + 1)
+        Worker.spawn(_p)
       end
+      Worker.wait
     end
   end
   
   # Returns +true+ if all necessary commands and files exist, otherwise 
   # +false+.
   # 
-  # @param _root [GameRoot] Game root
-  #
   # @return [Boolean] +true+ if all necessary commands and files exist, 
   #                   otherwise +false+.
-  def valid?(_root)
+  def valid?
     _valid   = true
-    _valid &&= has_file?(_root.dirname, _root.sys(:exec_file))
-    _valid &&= has_file?(_root.dirname, _root.sys(:level_file))
+    _valid &&= has_file?(Root.dirname, sys(:exec_file))
+    _valid &&= has_file?(Root.dirname, sys(:level_file))
     
-    if _root.eu?
-      _valid &&= has_file?(_root.dirname, _root.sys(:sot_file_gb))
-      _valid &&= has_file?(_root.dirname, _root.sys(:sot_file_de))
-      _valid &&= has_file?(_root.dirname, _root.sys(:sot_file_es))
-      _valid &&= has_file?(_root.dirname, _root.sys(:sot_file_fr))
+    if Root.eu?
+      _valid &&= has_file?(Root.dirname, sys(:sot_file_gb))
+      _valid &&= has_file?(Root.dirname, sys(:sot_file_de))
+      _valid &&= has_file?(Root.dirname, sys(:sot_file_es))
+      _valid &&= has_file?(Root.dirname, sys(:sot_file_fr))
     end
     
     _valid
   end
   
-  # Collects and validates several game directories in +SYS.build_dir+.
-  def exec
-    collect
+  # This method is called before #update respectively as first in #exec.
+  # @see #exec
+  def startup
+    super
+    if Worker.parent?
+      collect
+    else
+      load(Worker.key)
+    end
   end
-  
+
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
   
   attr_reader   :data
   attr_accessor :command
+
+  def product_id
+    Root.product_id
+  end
+  alias pid product_id
+  
+  def country_id
+    Root.country_id
+  end
+  alias cid country_id
+
+  # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
+  # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.
+  def dc?
+    Root.dc?
+  end
+
+  # Returns +true+ if the platform is a GameCube, otherwise +false+.
+  # @return [Boolean] +true+ if platform is a GameCube, otherwise +false+.
+  def gc?
+    Root.gc?
+  end
+
+  # Returns +true+ if the country is 'EU', otherwise +false+.
+  # @return [Boolean] +true+ if country is 'EU', otherwise +false+.
+  def eu?
+    Root.eu?
+  end
+
+  # Returns +true+ if the country is 'JP', otherwise +false+.
+  # @return [Boolean] +true+ if country is 'JP', otherwise +false+.
+  def jp?
+    Root.jp?
+  end
+
+  # Returns +true+ if the country is 'US', otherwise +false+.
+  # @return [Boolean] +true+ if country is 'US', otherwise +false+.
+  def us?
+    Root.us?
+  end
+
+  # Returns +:big+ or +:little+ depending on the platform endianness.
+  # @return [Symbol] +:big+ or +:little+ depending on endianness.
+  def endianness
+    Root.endianness
+  end
+
+  # Returns +true+ if the endianness is big-endian, otherwise +false+.
+  # @return [Boolean] +true+ if endianness is big-endian, otherwise +false+.
+  def big_endian?
+    Root.big_endian?
+  end
+
+  # Returns +true+ if the endianness is little-endian, otherwise +false+.
+  # @return [Boolean] +true+ if endianness is little-endian, otherwise +false+.
+  def little_endian?
+    Root.little_endian?
+  end
 
 end # class EntryTransform
 

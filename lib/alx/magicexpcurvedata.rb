@@ -44,17 +44,16 @@ class MagicExpCurveData < StdEntryData
   public
 
   # Constructs a MagicExpCurveData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(MagicExpCurve, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(MagicExpCurve, _depend)
     self.id_range  = sys(:magic_exp_curve_id_range)
     self.data_file = sys(:magic_exp_curve_data_files)
-    self.csv_file  = SYS.magic_exp_curve_csv_file
-    self.tpl_file  = SYS.magic_exp_curve_tpl_file   
+    self.csv_file  = join(SYS.magic_exp_curve_csv_file)
+    self.tpl_file  = File.join(SYS.build_dir, SYS.magic_exp_curve_tpl_file)
     
     if depend
-      @character_data = CharacterData.new(_root)
+      @character_data = CharacterData.new
     end
   end
 
@@ -68,6 +67,7 @@ class MagicExpCurveData < StdEntryData
   end
   
   # Reads all entries from binary files.
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
   def load_bin
     @character_data&.load_bin
     super

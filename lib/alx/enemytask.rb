@@ -42,8 +42,7 @@ class EnemyTask < Entry
   public
 
   # Constructs an EnemyShipTask.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
     init_attrs
     init_props
@@ -59,6 +58,7 @@ class EnemyTask < Entry
     _result &&= _entry.is_a?(self.class)
     _result &&= (id       == _entry.id      )
     _result &&= (enemy_id == _entry.enemy_id)
+    _result &&= (header   == _entry.header  )
     _result &&= @props.all? do |_k, _p|
       _other = _entry.fetch(_k)
       if _other && _p.is_a?(Prop) && _p.comparable?
@@ -69,25 +69,6 @@ class EnemyTask < Entry
     end
     
     _result
-  end
-
-  # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
-  # differs from the snapshot, otherwise nothing happens. Returns +true+ if 
-  # the entry matches the snapshot, otherwise +false+.
-  # @param _entry [Entry] Entry object
-  # @return [Boolean] +true+ if entry matches the snapshot, otherwise +false+.
-  def check_expiration(_entry)
-    _found   = true
-    _found &&= _entry.is_a?(self.class)
-    _found &&= (id       == _entry.id      )
-    _found &&= (enemy_id == _entry.enemy_id)
-    _found &&= (files    == _entry.files   )
-
-    if _found
-      super
-    end
-    
-    _found
   end
 
 #------------------------------------------------------------------------------

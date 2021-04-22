@@ -42,8 +42,7 @@ class EnemyEvent < Entry
   public
 
   # Constructs an EnemyEvent.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
     init_attrs
     init_props

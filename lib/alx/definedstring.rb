@@ -42,8 +42,7 @@ class DefinedString < Entry
   public
 
   # Constructs a DefinedString.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
 
     self[VOC.string_pos     ] = IntProp.new(:u32,  0, base: 16, ext: true )

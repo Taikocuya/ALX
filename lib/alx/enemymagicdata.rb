@@ -43,18 +43,17 @@ class EnemyMagicData < StdEntryData
   public
 
   # Constructs an EnemyMagicData.
-  # @param _root   [GameRoot] Game root
-  # @param _depend [Boolean]  Resolve dependencies
-  def initialize(_root, _depend = true)
-    super(EnemyMagic, _root, _depend)
+  # @param _depend [Boolean] Resolve dependencies
+  def initialize(_depend = true)
+    super(EnemyMagic, _depend)
     self.id_range  = sys(:enemy_magic_id_range)
     self.data_file = sys(:enemy_magic_data_files)
     self.name_file = sys(:enemy_magic_name_files)
-    self.csv_file  = SYS.enemy_magic_csv_file
-    self.tpl_file  = SYS.enemy_magic_tpl_file
+    self.csv_file  = join(SYS.enemy_magic_csv_file)
+    self.tpl_file  = File.join(SYS.build_dir, SYS.enemy_magic_tpl_file)
     
     if depend
-      @enemy_data = EnemyData.new(_root)
+      @enemy_data = EnemyData.new
     end
   end
 
@@ -68,6 +67,7 @@ class EnemyMagicData < StdEntryData
   end
   
   # Reads all entries from binary files.
+  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
   def load_bin
     @enemy_data&.load_bin
     super

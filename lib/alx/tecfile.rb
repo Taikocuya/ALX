@@ -49,9 +49,7 @@ class TecFile
   public
 
   # Constructs a TecFile.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
-    @root        = _root
+  def initialize
     @tasks       = []
     @enemy_ships = {}
     @magics      = {}
@@ -62,7 +60,7 @@ class TecFile
   # @param _filename [String]  File name
   # @return [Entry] EnemyShipTask object
   def create_task(_id = -1, _filename = '*')
-    _task             = EnemyShipTask.new(@root)
+    _task             = EnemyShipTask.new
     _task.id          = _id
     _task.file        = File.basename(_filename)
     _task.enemy_ships = @enemy_ships
@@ -73,12 +71,11 @@ class TecFile
   # Reads a TEC file.
   # @param _filename [String] File name
   def load(_filename)
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_read, VOC.open_data))
+    LOG.info(sprintf(VOC.load, VOC.open_file, _filename))
 
-    CompressedFile.open(@root, _filename, 'rb') do |_f|
+    CompressedFile.open(_filename, 'rb') do |_f|
       _size = (_f.size - 0x4) / create_task.size
       (0..._size).each do |_id|
-        LOG.info(sprintf(VOC.read, _id, _f.pos))
         _task = create_task(_id, _filename)
         _task.read_bin(_f)
         @tasks << _task
@@ -96,36 +93,32 @@ class TecFile
         raise(EOFError, 'EOF mark not found')
       end
     end
-    
-    LOG.info(sprintf(VOC.close, _filename))
   end
 
   # Writes a TEC file.
   # @param _filename [String] File name
   def save(_filename)
     _basename = File.basename(_filename)
-    _expired  = false
+    _modified = false
     _tasks    = @tasks.find_all do |_task|
       _result = (_task.file == _basename)
       if _result
-        _expired ||= _task.expired
+        _modified ||= _task.modified
       end
       _result
     end
     if _tasks.empty?
       return
     end
-    unless _expired
-      LOG.info(sprintf(VOC.skip, _filename, VOC.open_data))
+    unless _modified
       return
     end
 
-    LOG.info(sprintf(VOC.open, _filename, VOC.open_write, VOC.open_data))
+    LOG.info(sprintf(VOC.save, VOC.open_file, _filename))
 
-    CompressedFile.open(@root, _filename, 'wb') do |_f|
+    CompressedFile.open(_filename, 'wb') do |_f|
       _last = nil
       (0..._tasks.size).each do |_id|
-        LOG.info(sprintf(VOC.write, _id, _f.pos))
         _task = _tasks[_id]
         if _last && _task.id != _last.id + 1
           _msg = 'task ID invalid (given %s, expected %s)'
@@ -138,15 +131,12 @@ class TecFile
       _f.write_int(EOF_MARK, :i16)
       _f.write_int(EOF_MARK, :i16)
     end
-    
-    LOG.info(sprintf(VOC.close, _filename))
   end
   
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
 
-  attr_accessor :root
   attr_accessor :tasks
   attr_accessor :enemy_ships
   attr_accessor :magics

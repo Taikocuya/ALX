@@ -24,6 +24,7 @@
 #==============================================================================
 
 require('pathname')
+require_relative('../lib/alx/cachefile.rb')
 require_relative('../lib/alx/entrydata.rb')
 require_relative('../lib/alx/entrytransform.rb')
 
@@ -46,53 +47,34 @@ class CacheClearer < EntryTransform
 
   # Constructs a CacheClearer.
   def initialize
-    super(GameRoot)
+    super(nil)
   end
 
-  # Creates an entry data object.
-  # @param _root [GameRoot] Game root
-  # @return [EntryData] Entry data object
-  def create_entry_data(_root)
-    _root
-  end
-
-  def exec
+  # This method is called after #startup and before #shutdown in #exec. It 
+  # will be re-executed as long as #repeat is true.
+  # @see #exec
+  def update
     super
-    
-    _sht_pattern = sprintf(ShtManager::SHT_FILE, '*', '*')
-    data.each do |_root|
-      Dir.glob(_root.join(:cache_dir, _sht_pattern)).each do |_p|
-        remove_snapshot(_p)
+
+    if Worker.child?
+      _pattern = sprintf(CacheFile::CACHE_FILE, '*')
+      Dir.glob(join(:cache_dir, _pattern)).each do |_p|
+        remove_cache(_p)
       end
     end
   end
 
-  # Removes a snapshot.
-  # @param _filename [String] Snapshot to remove
-  def remove_snapshot(_filename)
-    begin
-      FileUtils.rm(_filename)
-      _result = !File.exist?(_filename)
-    rescue StandardError
-      _result = false
+  # Removes a cache file.
+  # @param _filename [String] File name
+  def remove_cache(_filename)
+    LOG.info(sprintf(VOC.remove, VOC.open_cache, _filename))
+    if File.exist?(_filename)
+      File.unlink(_filename)
     end
 
-    _msg = sprintf('Remove snapshot: %s', _filename)
-    if _result
-      _msg += sprintf(' - %s', VOC.done)
-      ALX::LOG.info(_msg)
-    else
-      _msg += sprintf(' - %s', VOC.failed)
-      ALX::LOG.error(_msg)
-    end
-
-    begin
-      _dirname = File.dirname(_filename)
-      if Dir.empty?(_dirname)
-        Dir.rmdir(_dirname) 
-      end
-    rescue StandardError
-      # Nothing to do.
+    _dirname = File.dirname(_filename)
+    if Dir.empty?(_dirname)
+      Dir.rmdir(_dirname) 
     end
   end
 

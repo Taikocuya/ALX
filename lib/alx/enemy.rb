@@ -42,32 +42,13 @@ class Enemy < Entry
   public
 
   # Constructs an Enemy.
-  # @param _root [GameRoot] Game root
-  def initialize(_root)
+  def initialize
     super
     init_attrs
     init_props
     init_procs
   end
-  
-  # Checks the entry with a snapshot. Assigns +true+ to #expired if the entry 
-  # differs from the snapshot, otherwise nothing happens. Returns +true+ if 
-  # the entry matches the snapshot, otherwise +false+.
-  # @param _entry [Entry] Entry object
-  # @return [Boolean] +true+ if entry matches the snapshot, otherwise +false+.
-  def check_expiration(_entry)
-    _found   = true
-    _found &&= _entry.is_a?(Enemy)
-    _found &&= (id    == _entry.id   )
-    _found &&= (files == _entry.files)
 
-    if _found
-      super
-    end
-
-    _found
-  end
-  
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
