@@ -12,9 +12,9 @@
 /misc/
 /temp/
 /vendor/*
-!/vendor/GCRebuilder
-!/vendor/GDIBuilder
-!/vendor/Ruby
+!/vendor/gcrebuilder
+!/vendor/gdibuilder
+!/vendor/ruby
 
 # Eclipse
 .project

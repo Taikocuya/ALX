@@ -54,11 +54,11 @@ SYS.configure do |_s|
   _s.vendor_dir = expand('vendor')
 
   # Path to GCRebuilder executable file
-  _s.gcm_builder_exe = join(_s.vendor_dir, 'GCRebuilder/gcr.exe')
+  _s.gcm_builder_exe = join(_s.vendor_dir, 'gcrebuilder/gcr.exe')
   # Path to GDIBuilder executable file
-  _s.gdi_builder_exe = join(_s.vendor_dir, 'GDIBuilder/buildgdi.exe')
+  _s.gdi_builder_exe = join(_s.vendor_dir, 'gdibuilder/buildgdi.exe')
   # Path to Ruby executable file
-  _s.ruby_exe        = join(_s.vendor_dir, 'Ruby/ruby.exe')
+  _s.ruby_exe        = join(_s.vendor_dir, 'ruby/ruby.exe')
 
 #------------------------------------------------------------------------------
 # Logging
