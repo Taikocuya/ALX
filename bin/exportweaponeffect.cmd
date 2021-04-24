@@ -18,4 +18,4 @@
 :: with ALX.  If not, see <http://www.gnu.org/licenses/>.
 ::*****************************************************************************
 
-@%~dp0..\vendor\Ruby\ruby.exe "%~dp0%~n0.rb"
+@%~dp0..\vendor\ruby\ruby.exe "%~dp0%~n0.rb"
