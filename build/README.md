@@ -40,11 +40,10 @@ image (ISO, GCM or GDI) and the appropriate data extraction tool:
 
 ## Commands
 
-All commands and utilities can be found in the `bin` directory. In 
-![Linux](/doc/linux16.png) Linux and ![macOS](/doc/mac16.png) macOS, you have 
-to install Ruby first in order to be able to run the RB scripts. 
-![Windows](/doc/win16.png) Windows users can optionally do this as well or 
-simply run the CMD scripts which use the included Ruby.
+All commands and utilities can be found in the `bin` directory. On Linux and 
+macOS, you have to install Ruby first to run the RB scripts. Windows users 
+can optionally do this as well or simply run the CMD scripts which use the 
+included Ruby.
 
 ### export.cmd & export.rb
 
