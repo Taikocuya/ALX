@@ -13,6 +13,7 @@
 
 ## Software
 
+* [7-Zip](https://www.7-zip.org/) — File Archiver
 * [Dolphin Emulator](https://dolphin-emu.org/) — GameCube Emulator
 * [Eclipse](https://www.eclipse.org/) — Source Code Editor
 * [Free Hex Editor Neo](https://www.hhdsoftware.com/free-hex-editor) — 

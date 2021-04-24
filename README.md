@@ -128,10 +128,8 @@ build
 
 ### clearcache.cmd & clearcache.rb
 
-Clears the cache storage in the `cache` directory. If you clear the cache 
-storage, snapshots will not be loaded and differences will not be detected, 
-which enormously increases the next runtime. Normally, you will not need this 
-utility, however, it can be used to force a recompilation of all files.
+Clears the cache storage in the `cache` directory. Normally, you will not need 
+this utility, however, it can be used to force a recompilation of all files.
 
 ```
 build
