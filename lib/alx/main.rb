@@ -70,7 +70,7 @@ module Main
       end
     ensure
       if ALX.const_defined?(:Worker)
-        Worker.kill
+        Worker.kill(false)
       end
       exit(1)
     end

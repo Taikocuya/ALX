@@ -102,14 +102,11 @@ class Worker
   # @return [Boolean] +true+ if process ID is running, otherwise +false+.
   def running?(_pid)
     begin
-      Process.kill(0, _pid)
-    rescue Errno::EPERM
-      # Nothing to do.
-    rescue Errno::ESRCH, TypeError
-      return false
+      _int = Process.kill(0, _pid)
+      true
+    rescue Errno::ESRCH
+      false
     end
-    
-    true
   end
   
   # Calls the given block once for each worker process ID and process file, 
@@ -153,14 +150,18 @@ class Worker
 
   # Sends the +SIGKILL+ signal to all other worker processes except for 
   # itself.
-  def kill
-    each do |_pid|
+  # 
+  # @param _wait [Boolean] Wait for exit
+  def kill(_wait = true)
+    each do |_pid, _pid_file|
       if _pid != pid && running?(_pid)
         Process.kill('KILL', _pid)
+        delete_pid(_pid_file)
       end
     end
-    wait
-    purge_pid(true)
+    if _wait
+      wait
+    end
   end
 
 #------------------------------------------------------------------------------
