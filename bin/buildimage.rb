@@ -59,11 +59,10 @@ class ImageBuilder < EntryTransform
   # This method is called before #update respectively as first in #exec.
   # @see #exec
   def startup
-    super
-    
     # Image building is very write intensive. Therefore, only one active and 
     # passive worker process is allowed.
     Worker.limit = 2
+    super
   end
 
   # This method is called after #startup and before #shutdown in #exec. It 
@@ -114,8 +113,8 @@ class ImageBuilder < EntryTransform
 
     LOG.info(sprintf(VOC.build_gcm, _gcm_file))
 
-    if File.exist?(_abs)
-      File.unlink(_abs)
+    if File.exist?(_gcm_file)
+      File.unlink(_gcm_file)
     end
     FileUtils.mkdir_p(_image_dir)
     system(SYS.gcm_builder_exe, _root_dir, _gcm_file)
