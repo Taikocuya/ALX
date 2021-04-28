@@ -48,9 +48,9 @@ module Executable
 #==============================================================================
 
   # Version of ALX
-  VERSION = '5.0.0'.freeze
+  VERSION = '5.0.0-RC1'.freeze
   # Date of ALX
-  DATE    = Date.new(2021, 4, 24).freeze
+  DATE    = Date.new(2021, 4, 28).freeze
 
 #==============================================================================
 #                                   PUBLIC
