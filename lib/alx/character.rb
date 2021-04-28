@@ -110,16 +110,16 @@ class Character < StdEntry
       self[_movement] = StrProp.new(nil, '', dmy: true)
     end
 
-    self[VOC.hp                 ] = IntProp.new(:i16,   0)
-    self[VOC.maxhp              ] = IntProp.new(:i16,   0)
-    self[VOC.hp_growth          ] = IntProp.new(:i16,   0)
-    self[VOC.sp(nil)            ] = IntProp.new(:i16,   0)
-    self[VOC.maxsp(nil)         ] = IntProp.new(:i16,   0)
-    self[VOC.counter            ] = IntProp.new(:i16,   0)
-    self[padding_hdr            ] = IntProp.new(:i16,   0)
-    self[VOC.exp(nil)           ] = IntProp.new(:u32,   0)
-    self[VOC.mp_growth          ] = FltProp.new(:f32, 0.0)
-    self[unknown_hdr            ] = FltProp.new(:f32, 0.0)
+    self[VOC.hp          ] = IntProp.new(:i16,   0)
+    self[VOC.maxhp       ] = IntProp.new(:i16,   0)
+    self[VOC.maxhp_growth] = IntProp.new(:i16,   0)
+    self[VOC.sp(nil)     ] = IntProp.new(:i16,   0)
+    self[VOC.maxsp(nil)  ] = IntProp.new(:i16,   0)
+    self[VOC.counter     ] = IntProp.new(:i16,   0)
+    self[padding_hdr     ] = IntProp.new(:i16,   0)
+    self[VOC.exp(nil)    ] = IntProp.new(:u32,   0)
+    self[VOC.maxmp_growth] = FltProp.new(:f32, 0.0)
+    self[unknown_hdr     ] = FltProp.new(:f32, 0.0)
     
     (0...6).each do |_i|
       self[VOC.elements(_i)] = IntProp.new(:i16, 0)
