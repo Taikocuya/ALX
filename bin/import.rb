@@ -75,6 +75,7 @@ class Importer < EntryTransform
     @files.sort! do |_a, _b|
       _comp = (_a.prio <=> _b.prio)
       _comp = (_a.file <=> _b.file) if _comp == 0
+      _comp
     end
     @files.collect! do |_f|
       File.join(File.dirname(__FILE__), _f.file)
