@@ -897,7 +897,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,*,64,デモンヌール,0,Branch,25,Rating 50%,24,Go to 24
 14,*,64,デモンヌール,0,Branch,25,Rating 50%,21,Go to 21
 15,*,64,デモンヌール,0,Branch,24,Rating 40%,22,Go to 22
-16,*,64,デモンヌール,0,Branch,65,PCs Alive ≥ 4,18,Go to 18
+16,*,64,デモンヌール,0,Branch,65,PCs Alive = 4,18,Go to 18
 17,*,64,デモンヌール,0,Branch,30,Always,26,Go to 26
 18,*,64,デモンヌール,0,Branch,35,Used State Spells ≥ 1,26,Go to 26
 19,*,64,デモンヌール,0,Branch,24,Rating 40%,25,Go to 25
@@ -1683,7 +1683,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 2,*,128,アントニオ,0,Branch,12,Turn 2,11,Go to 11
 3,*,128,アントニオ,0,Branch,13,Turn 3,13,Go to 13
 4,*,128,アントニオ,0,Branch,14,Turn 4,13,Go to 13
-5,*,128,アントニオ,0,Branch,62,PCs Alive ≥ 1,16,Go to 16
+5,*,128,アントニオ,0,Branch,62,PCs Alive = 1,16,Go to 16
 6,*,128,アントニオ,0,Branch,2,HP < 25%,9,Go to 9
 7,*,128,アントニオ,0,Branch,27,Rating 70%,19,Go to 19
 8,*,128,アントニオ,0,Branch,30,Always,20,Go to 20
@@ -2083,10 +2083,10 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 20,*,151,ガルシアン,0,Branch,59,Any PC Has Regenerate?,22,Go to 22
 21,*,151,ガルシアン,0,Branch,30,Always,23,Go to 23
 22,*,151,ガルシアン,0,Branch,23,Rating 30%,61,Go to 61
-23,*,151,ガルシアン,0,Branch,62,PCs Alive ≥ 1,50,Go to 50
+23,*,151,ガルシアン,0,Branch,62,PCs Alive = 1,50,Go to 50
 24,*,151,ガルシアン,0,Branch,49,Used Spell Last Turn?,37,Go to 37
-25,*,151,ガルシアン,0,Branch,65,PCs Alive ≥ 4,28,Go to 28
-26,*,151,ガルシアン,0,Branch,64,PCs Alive ≥ 3,31,Go to 31
+25,*,151,ガルシアン,0,Branch,65,PCs Alive = 4,28,Go to 28
+26,*,151,ガルシアン,0,Branch,64,PCs Alive = 3,31,Go to 31
 27,*,151,ガルシアン,0,Branch,30,Always,34,Go to 34
 28,*,151,ガルシアン,0,Branch,22,Rating 20%,56,Go to 56
 29,*,151,ガルシアン,0,Branch,21,Rating 10%,57,Go to 57
@@ -2178,9 +2178,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 31,*,153,ラミレス,0,Branch,21,Rating 10%,59,Go to 59
 32,*,153,ラミレス,0,Branch,21,Rating 10%,59,Go to 59
 33,*,153,ラミレス,0,Branch,22,Rating 20%,59,Go to 59
-34,*,153,ラミレス,0,Branch,65,PCs Alive ≥ 4,38,Go to 38
-35,*,153,ラミレス,0,Branch,64,PCs Alive ≥ 3,39,Go to 39
-36,*,153,ラミレス,0,Branch,63,PCs Alive ≥ 2,40,Go to 40
+34,*,153,ラミレス,0,Branch,65,PCs Alive = 4,38,Go to 38
+35,*,153,ラミレス,0,Branch,64,PCs Alive = 3,39,Go to 39
+36,*,153,ラミレス,0,Branch,63,PCs Alive = 2,40,Go to 40
 37,*,153,ラミレス,0,Branch,30,Always,49,Go to 49
 38,*,153,ラミレス,0,Branch,22,Rating 20%,58,Go to 58
 39,*,153,ラミレス,0,Branch,21,Rating 10%,58,Go to 58
@@ -2253,7 +2253,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 8,*,157,ラミレス,0,Branch,59,Any PC Has Regenerate?,10,Go to 10
 9,*,157,ラミレス,0,Branch,30,Always,11,Go to 11
 10,*,157,ラミレス,0,Branch,22,Rating 20%,40,Go to 40
-11,*,157,ラミレス,0,Branch,62,PCs Alive ≥ 1,32,Go to 32
+11,*,157,ラミレス,0,Branch,62,PCs Alive = 1,32,Go to 32
 12,*,157,ラミレス,0,Branch,11,Turn 1,15,Go to 15
 13,*,157,ラミレス,0,Branch,12,Turn 2,17,Go to 17
 14,*,157,ラミレス,0,Branch,30,Always,19,Go to 19
