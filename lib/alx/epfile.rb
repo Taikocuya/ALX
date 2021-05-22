@@ -279,8 +279,15 @@ class EpFile
       _map[_task.id] = _map.size + 1
     end
 
-    _tasks.each do |_task|
-      _task.id = _map[_task.id]
+    _tasks.each do |_orig|
+      _task          = create_task(_orig.id)
+      _task.id       = _map[_orig.id]
+      _task.files    = _orig.files.dup
+      _task.enemy_id = _orig.enemy_id
+      _task.type_id  = _orig.type_id
+      _task.task_id  = _orig.task_id
+      _task.param_id = _orig.param_id
+      
       if _task.type_id == 0
         if _task.param_id < 1 || !_map.has_key?(_task.param_id)
           _msg = 'enemy task param ID invalid (given %s)'
