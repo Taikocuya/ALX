@@ -644,8 +644,8 @@ VOC.configure do |_v|
   _v.branches[46] = 'Used HP Absorbs ≥ 1'
   _v.branches[47] = 'Used HP Absorbs ≥ 2'
   _v.branches[48] = 'Used Target Search?'
-  _v.branches[49] = 'Used Spell Last Turn?'
-  _v.branches[50] = 'Used S-Move Last Turn?'
+  _v.branches[49] = 'Used Spell'
+  _v.branches[50] = 'Used S-Move'
   _v.branches[51] = 'Used Focus?'
   _v.branches[52] = 'Used Charge'
   _v.branches[53] = 'Used Engage?'
@@ -731,15 +731,25 @@ VOC.configure do |_v|
   _v.drops[ 6] = 'Kalifa'
   _v.drops[ 7] = 'Osman'
 
-  _v.task_cond_id    = 'Cond ID'
-  _v.task_cond_name  = '[Cond Name]'
+  _v.round = 'Round'
+  _v.turn  = 'Turn'
+  
+  _v.task_cond_id    = 'T1 Cond ID'
+  _v.task_cond_name  = '[T1 Cond Name]'
+  _v.task_cond_param = 'T1 Cond Param'
   _v.task_type_id    = hdr('T%d Type ID')
   _v.task_type_name  = hdr('[T%d Type Name]')
   _v.task_arm_id     = hdr('T%d Arm ID')
   _v.task_arm_name   = hdr('[T%d Arm Name]')
   _v.task_param_id   = hdr('T%d Param ID')
   _v.task_param_name = hdr('[T%d Param Name]')
-  _v.task_range      = hdr('T%d Arm Range')
+  _v.task_duration   = hdr('T%d Arm Dur')
+
+  _v.task_conditions     = Hash.new('???')
+  _v.task_conditions[-1] = 'None'
+  _v.task_conditions[ 0] = 'PS HP ≤'
+  _v.task_conditions[ 1] = 'ES HP ≤'
+  _v.task_conditions[ 3] = 'Rating'
 
   _v.ship_task_types     = Hash.new('???')
   _v.ship_task_types[-1] = 'None'

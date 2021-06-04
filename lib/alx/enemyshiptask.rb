@@ -103,9 +103,11 @@ class EnemyShipTask < Entry
     self[VOC.filter         ] = StrProp.new( nil,    '', ext: true)
     self[VOC.enemy_ship_id  ] = StrProp.new( nil,    '', dmy: true)
     self[VOC.enemy_ship_name] = StrProp.new( nil,    '', dmy: true)
+    self[VOC.round          ] = IntProp.new(:u32,     0, dmy: true)
+    self[VOC.turn           ] = IntProp.new(:u32,     0, dmy: true)
     self[VOC.task_cond_id   ] = IntProp.new(:i16,     0           )
-    # self[VOC.task_cond_name ] = StrProp.new( nil, '???', dmy: true)
-    self[VOC.rating         ] = IntProp.new(:i16,     0           )
+    self[VOC.task_cond_name ] = StrProp.new( nil, '???', dmy: true)
+    self[VOC.task_cond_param] = IntProp.new(:i16,     0           )
     
     (1..2).each do |_i|
       self[VOC.task_type_id(_i)  ] = IntProp.new(:i16,  0           )
@@ -118,12 +120,17 @@ class EnemyShipTask < Entry
       
       self[VOC.task_param_id(_i)  ] = IntProp.new(:i16,  0           )
       self[VOC.task_param_name(_i)] = StrProp.new( nil, '', dmy: true)
-      self[VOC.task_range(_i)     ] = IntProp.new(:i16,  0           )
+      self[VOC.task_duration(_i)  ] = IntProp.new(:i16,  0           )
     end
   end
   
   # Initialize the entry procs.
   def init_procs
+    fetch(VOC.id).proc = Proc.new do |_id|
+      self[VOC.round] = _id / 4
+      self[VOC.turn ] = _id % 4
+    end
+
     fetch(VOC.filter).proc = Proc.new do |_filter|
       _match = SYS.enemy_ship_tasks.find do |_, _array|
         _array.any? do |_task_id|
@@ -146,6 +153,10 @@ class EnemyShipTask < Entry
       self[VOC.enemy_ship_name] = _name
     end
 
+    fetch(VOC.task_cond_id).proc = Proc.new do |_id|
+      self[VOC.task_cond_name] = VOC.task_conditions(_id)
+    end
+    
     (1..2).each do |_i|
       if eu?
         fetch(VOC.task_arm_id(_i)).proc = Proc.new do |_id|
