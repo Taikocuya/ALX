@@ -145,22 +145,14 @@ class SctFile
     end
   end
 
-  # Writes a TEC file.
+  # Writes a SCT file.
   # @param _filename [String] File name
   def save(_filename)
     _basename = File.basename(_filename)
-    _modified = false
     _tasks    = @tasks.find_all do |_task|
-      _result = (_task.file == _basename)
-      if _result
-        _modified ||= _task.modified
-      end
-      _result
+      _task.file == _basename
     end
     if _tasks.empty?
-      return
-    end
-    unless _modified
       return
     end
 
@@ -301,7 +293,7 @@ class SctFile
     
     _events = []
     (0..._num_events).each do |_id|
-      _pos  = _f.read_int(:i32                 )
+      _pos  = _f.read_int(:i32                   )
       _name = _f.read_str(length: EVENT_NAME_SIZE)
       if _name.empty?
         _msg = 'event name invalid (given %s)'
@@ -464,7 +456,7 @@ class SctFile
           when MARKS[:FLT]
             _task_id = _buf.read_flt(:f32)
           else
-            _task_id = _buf.read_int(:i32)
+            _task_id = _buf.read_int(:u32)
           end
         end
 

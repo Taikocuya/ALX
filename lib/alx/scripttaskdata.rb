@@ -136,7 +136,7 @@ class ScriptTaskData < EntryData
           
           _filename = _files.first
           _versions = find_versions(_filename)
-          if !@cache.valid? || !(@cache.versions & _versions).empty?
+          if !@cache.valid? || (@cache.versions & _versions).empty?
             save_bin_data(sct_path(_filename))
             save_cache
           end
