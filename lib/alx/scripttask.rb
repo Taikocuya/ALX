@@ -215,7 +215,7 @@ class ScriptTask < Entry
   end
 
   def int_prop(_value)
-    IntProp.new(:i32, (_value))
+    IntProp.new(:u32, (_value))
   end
 
   def str_prop(_value)
