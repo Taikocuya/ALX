@@ -153,7 +153,7 @@ module Serializable
     _int    = read(_size)
 
     if _int && _int.size == _size
-      _int.unpack(_format).first
+      _int.unpack1(_format)
     else
       nil
     end
@@ -180,12 +180,7 @@ module Serializable
     _flt    = read(_size)
     
     if _flt && _flt.size == _size
-      _flt = _flt.unpack(_format).first
-      if _type == :f32
-        _flt = _flt.round(6)
-      end
-      
-      _flt
+      _flt.unpack1(_format)
     else
       nil
     end
@@ -200,10 +195,6 @@ module Serializable
     unless _flt.is_a?(Float)
       _msg = '%s is not a floating-point value'
       raise(TypeError, sprintf(_msg, _flt.inspect))
-    end
-    
-    if _type == :f32
-      _flt = _flt.round(6)
     end
 
     _format = flt_directive(_type)
@@ -247,7 +238,7 @@ module Serializable
         _str << read(blocks - _diff % blocks)
       end
     end
-    _str = _str.unpack('Z*').first
+    _str = _str.unpack1('Z*')
     
     _diff = pos - _beg
     if blocks && blocks > 0 && _diff % blocks != 0

@@ -132,13 +132,13 @@ class Enemy < Entry
       self[_movement] = StrProp.new(nil, '', dmy: true)
     end
 
-    self[VOC.counter ] = IntProp.new(:i16,   0)
-    self[VOC.exp(nil)] = IntProp.new(:u16,   0)
-    self[VOC.gold    ] = IntProp.new(:u16,   0)
-    self[padding_hdr ] = IntProp.new( :i8,  -1)
-    self[padding_hdr ] = IntProp.new( :i8,  -1)
-    self[VOC.maxhp   ] = IntProp.new(:i32,   0)
-    self[unknown_hdr ] = FltProp.new(:f32, 0.0)
+    self[VOC.counter ] = IntProp.new(:i16,   0         )
+    self[VOC.exp(nil)] = IntProp.new(:u16,   0         )
+    self[VOC.gold    ] = IntProp.new(:u16,   0         )
+    self[padding_hdr ] = IntProp.new( :i8,  -1         )
+    self[padding_hdr ] = IntProp.new( :i8,  -1         )
+    self[VOC.maxhp   ] = IntProp.new(:i32,   0         )
+    self[unknown_hdr ] = FltProp.new(:f32, 0.0, prec: 1)
 
     (0...6).each do |_i|
       self[VOC.elements(_i)] = IntProp.new(:i16, 0)

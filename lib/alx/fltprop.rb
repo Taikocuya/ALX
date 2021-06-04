@@ -91,14 +91,20 @@ class FltProp < Prop
   # @param _header [String]   Column header
   # @param _row    [CSV::Row] CSV row
   def write_csv(_header, _row)
+    _value = value
     if @width > 0 || @prec > 0
-      _format  = '%'
-      _format << "0#{@width}" if @width > 0
-      _format << ".0#{@prec}" if @prec  > 0
+      _format = '%'
+      if @width > 0
+        _format << "0#{@width}"
+      end
+      if @prec  > 0
+        _value = _value.round(@prec, half: :even)
+        _format << ".0#{@prec}"
+      end
       _format << 'f'
-      _value = sprintf(_format, value)
+      _value = sprintf(_format, _value)
     else
-      _value = value.to_s
+      _value = _value.to_s
     end
 
     _row[_header] = _value

@@ -42,7 +42,7 @@ class ArchiveCreator < EntryTransform
 #==============================================================================
 
   # Path to 7-Zip executable file
-  SEVENZIP_EXE = File.join(SYS.vendor_dir, '7-Zip/7za.exe')
+  SEVENZIP_EXE = File.join(SYS.vendor_dir, '7za/7za.exe')
   # Configuration files
   CONFIG_FILES = ETC::CONFIG_FILES
 
