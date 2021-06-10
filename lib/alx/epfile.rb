@@ -268,10 +268,7 @@ class EpFile
 
     _map = {}
     _tasks.each do |_task|
-      if _task.id < 1
-        _msg = 'enemy task ID invalid (given %s)'
-        raise(IOError, sprintf(_msg, _task.id))
-      elsif _map.has_key?(_task.id)
+      if _map.has_key?(_task.id)
         _msg = 'enemy task ID not unique (given %s)'
         raise(IOError, sprintf(_msg, _task.id))
       end
