@@ -239,10 +239,13 @@ VOC.configure do |_v|
   _v.event_name = '[Event Name]'
   
   _v.script_tasks                  = Hash.new('???')
-  _v.script_tasks[[0x4000000, 17]] = 'Set Bit'
-  _v.script_tasks[[0x4000000, 18]] = 'Unset Bit'
-  _v.script_tasks[[0x4000000, 19]] = 'Invert Bit'
-  _v.script_tasks[[0x4000000, 20]] = 'Get Item'
+  _v.script_tasks[[0x4000000,  17]] = 'Set Bit'
+  _v.script_tasks[[0x4000000,  18]] = 'Unset Bit'
+  _v.script_tasks[[0x4000000,  19]] = 'Invert Bit'
+  _v.script_tasks[[0x4000000,  20]] = 'Get Item'
+  _v.script_tasks[[0x4000000, 157]] = 'Add Party Member'
+  _v.script_tasks[[0x4000000, 158]] = 'Rem Party Member'
+  _v.script_tasks[[0x4000000, 181]] = 'Call Shop'
 
 #------------------------------------------------------------------------------
 # Effects
@@ -644,10 +647,10 @@ VOC.configure do |_v|
   _v.branches[46] = 'Used HP Absorbs ≥ 1'
   _v.branches[47] = 'Used HP Absorbs ≥ 2'
   _v.branches[48] = 'Used Target Search?'
-  _v.branches[49] = 'Used Spell'
-  _v.branches[50] = 'Used S-Move'
+  _v.branches[49] = 'Used Spell?'
+  _v.branches[50] = 'Used S-Move?'
   _v.branches[51] = 'Used Focus?'
-  _v.branches[52] = 'Used Charge'
+  _v.branches[52] = 'Used Charge?'
   _v.branches[53] = 'Used Engage?'
   _v.branches[54] = 'ECs Alive ≤ 3'
   _v.branches[55] = 'Used Digest?'
