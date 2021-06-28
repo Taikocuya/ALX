@@ -131,8 +131,8 @@ class EnemyShipTaskData < EntryData
       return false
     end
 
-    load_csv_data(@csv_file)
     load_csv_data(@tpl_file, true)
+    load_csv_data(@csv_file)
 
     true
   end
