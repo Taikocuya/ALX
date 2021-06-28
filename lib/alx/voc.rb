@@ -736,8 +736,8 @@ VOC.configure do |_v|
   _v.drops[ 6] = 'Kalifa'
   _v.drops[ 7] = 'Osman'
 
-  _v.turn  = 'Turn'
-  _v.phase = 'Phase'
+  _v.turn_id  = 'Turn ID'
+  _v.phase_id = 'Phase ID'
   
   _v.cond_id         = 'Cond ID'
   _v.cond_name       = '[Cond Name]'
@@ -750,8 +750,8 @@ VOC.configure do |_v|
   _v.conditions[ 1] = 'ES HP ≤'
   _v.conditions[ 2] = 'SP ≤'
   _v.conditions[ 3] = 'Rating'
-  _v.conditions[ 4] = 'Previous T Type ID in Same Turn ='
-  _v.conditions[ 5] = 'Previous T Type ID ='
+  _v.conditions[ 4] = 'Last Task Type in Same Turn ='
+  _v.conditions[ 5] = 'Last Task Type w/ Last Turn ='
   _v.conditions[ 6] = 'PS Has Quickened in Same Turn?'
   _v.conditions[ 7] = 'PS Used S-Cannon in Same Turn?'
   _v.conditions[ 8] = 'PS Phase Actions ≥ 3'

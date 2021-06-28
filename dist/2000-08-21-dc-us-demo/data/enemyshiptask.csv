@@ -1,4 +1,4 @@
-Entry ID,[Filter],[ES ID],[ES Name],Turn,Phase,Cond ID,[Cond Name],Cond Param ID,[Cond Param Name],T1 Type ID,[T1 Type Name],T1 Arm ID,T1 Param ID,[T1 Param Name],T1 Arm Dur,T2 Type ID,[T2 Type Name],T2 Arm ID,T2 Param ID,[T2 Param Name],T2 Arm Dur
+Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Param ID,[Cond Param Name],T1 Type ID,[T1 Type Name],T1 Arm ID,T1 Param ID,[T1 Param Name],T1 Arm Dur,T2 Type ID,[T2 Type Name],T2 Arm ID,T2 Param ID,[T2 Param Name],T2 Arm Dur
 0,R500A.BIN,23,Blackbeard,0,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 1,R500A.BIN,23,Blackbeard,0,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 2,R500A.BIN,23,Blackbeard,0,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0

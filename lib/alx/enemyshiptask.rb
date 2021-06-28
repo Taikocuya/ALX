@@ -103,8 +103,8 @@ class EnemyShipTask < Entry
     self[VOC.filter         ] = StrProp.new( nil,    '', ext: true)
     self[VOC.enemy_ship_id  ] = StrProp.new( nil,    '', dmy: true)
     self[VOC.enemy_ship_name] = StrProp.new( nil,    '', dmy: true)
-    self[VOC.turn           ] = IntProp.new(:u32,     0, dmy: true)
-    self[VOC.phase          ] = IntProp.new(:u32,     0, dmy: true)
+    self[VOC.turn_id        ] = IntProp.new(:u32,     0, dmy: true)
+    self[VOC.phase_id       ] = IntProp.new(:u32,     0, dmy: true)
     self[VOC.cond_id        ] = IntProp.new(:i16,     0           )
     self[VOC.cond_name      ] = StrProp.new( nil, '???', dmy: true)
     self[VOC.cond_param_id  ] = IntProp.new(:i16,     0           )
@@ -128,8 +128,8 @@ class EnemyShipTask < Entry
   # Initialize the entry procs.
   def init_procs
     fetch(VOC.id).proc = Proc.new do |_id|
-      self[VOC.turn ] = _id / 4
-      self[VOC.phase] = _id % 4
+      self[VOC.turn_id ] = _id / 4
+      self[VOC.phase_id] = _id % 4
     end
 
     fetch(VOC.filter).proc = Proc.new do |_filter|
