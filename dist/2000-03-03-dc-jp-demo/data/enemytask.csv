@@ -509,7 +509,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 9,*,106,汎用兵Ｂ２,1,Action,72,薬草３,-1,None
 10,*,106,汎用兵Ｂ２,1,Action,551,Guard,-1,None
 1,*,128,アントニオ,0,Branch,2,HP < 25%,9,Go to 9
-2,*,128,アントニオ,0,Branch,20,Party SP ≤ 25%,6,Go to 6
+2,*,128,アントニオ,0,Branch,20,SP ≤ 25%,6,Go to 6
 3,*,128,アントニオ,0,Branch,26,Rating 60%,11,Go to 11
 4,*,128,アントニオ,0,Branch,28,Rating 80%,12,Go to 12
 5,*,128,アントニオ,0,Branch,30,Always,13,Go to 13
@@ -532,7 +532,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 9,*,129,アガタウマス,1,Action,99,ブラスター,2,Random PC
 1,*,130,イマゴタリア,0,Branch,11,Turn 1,8,Go to 8
 2,*,130,イマゴタリア,0,Branch,5,Got Hit by Spell?,8,Go to 8
-3,*,130,イマゴタリア,0,Branch,20,Party SP ≤ 25%,10,Go to 10
+3,*,130,イマゴタリア,0,Branch,20,SP ≤ 25%,10,Go to 10
 4,*,130,イマゴタリア,0,Branch,37,Turn ≥ 5,10,Go to 10
 5,*,130,イマゴタリア,0,Branch,22,Rating 20%,15,Go to 15
 6,*,130,イマゴタリア,0,Branch,24,Rating 40%,14,Go to 14

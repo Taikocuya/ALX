@@ -17,7 +17,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 4,*,2,ミクラステル,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
 5,*,2,ミクラステル,0,Branch,30,Always,7,Go to 7
 6,*,2,ミクラステル,0,Branch,24,Rating 40%,11,Go to 11
-7,*,2,ミクラステル,0,Branch,50,Used S-Move,9,Go to 9
+7,*,2,ミクラステル,0,Branch,50,Used S-Move?,9,Go to 9
 8,*,2,ミクラステル,0,Branch,24,Rating 40%,10,Go to 10
 9,*,2,ミクラステル,1,Action,550,Attack,2,Random PC
 10,*,2,ミクラステル,1,Action,4,レーザー,2,Random PC
@@ -216,9 +216,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,14,盗掘者シモン,0,Branch,30,Always,8,Go to 8
 4,*,14,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
 5,*,14,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-6,*,14,盗掘者シモン,0,Branch,50,Used S-Move,14,Go to 14
+6,*,14,盗掘者シモン,0,Branch,50,Used S-Move?,14,Go to 14
 7,*,14,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-8,*,14,盗掘者シモン,0,Branch,50,Used S-Move,11,Go to 11
+8,*,14,盗掘者シモン,0,Branch,50,Used S-Move?,11,Go to 11
 9,*,14,盗掘者シモン,0,Branch,23,Rating 30%,14,Go to 14
 10,*,14,盗掘者シモン,0,Branch,30,Always,15,Go to 15
 11,*,14,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
@@ -600,7 +600,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,38,レジボン,0,Branch,30,Always,5,Go to 5
 4,*,38,レジボン,0,Branch,25,Rating 50%,10,Go to 10
 5,*,38,レジボン,0,Branch,21,Rating 10%,11,Go to 11
-6,*,38,レジボン,0,Branch,50,Used S-Move,8,Go to 8
+6,*,38,レジボン,0,Branch,50,Used S-Move?,8,Go to 8
 7,*,38,レジボン,0,Branch,24,Rating 40%,9,Go to 9
 8,*,38,レジボン,1,Action,550,Attack,2,Random PC
 9,*,38,レジボン,1,Action,260,アースシェイク,-1,None
@@ -609,7 +609,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 1,*,39,ミラドール,0,Branch,21,Rating 10%,3,Go to 3
 2,*,39,ミラドール,1,Action,550,Attack,1,Same PC
 3,*,39,ミラドール,1,Action,551,Guard,-1,None
-1,*,40,ラフレシア,0,Branch,50,Used S-Move,5,Go to 5
+1,*,40,ラフレシア,0,Branch,50,Used S-Move?,5,Go to 5
 2,*,40,ラフレシア,0,Branch,25,Rating 50%,7,Go to 7
 3,*,40,ラフレシア,0,Branch,26,Rating 60%,9,Go to 9
 4,*,40,ラフレシア,0,Branch,30,Always,10,Go to 10
@@ -701,9 +701,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 6,*,46,メスカリナ,0,Branch,26,Rating 60%,13,Go to 13
 7,*,46,メスカリナ,0,Branch,28,Rating 80%,11,Go to 11
 8,*,46,メスカリナ,0,Branch,30,Always,14,Go to 14
-9,*,46,メスカリナ,0,Branch,49,Used Spell,17,Go to 17
+9,*,46,メスカリナ,0,Branch,49,Used Spell?,17,Go to 17
 10,*,46,メスカリナ,0,Branch,30,Always,15,Go to 15
-11,*,46,メスカリナ,0,Branch,49,Used Spell,17,Go to 17
+11,*,46,メスカリナ,0,Branch,49,Used Spell?,17,Go to 17
 12,*,46,メスカリナ,0,Branch,30,Always,16,Go to 16
 13,*,46,メスカリナ,1,Action,550,Attack,2,Random PC
 14,*,46,メスカリナ,1,Action,552,Run,-1,None
@@ -1033,7 +1033,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 7,*,66,ギャルブ,1,Action,551,Guard,-1,None
 8,*,66,ギャルブ,1,Action,503,パニカ,14,PC w/o Confusion
 9,*,66,ギャルブ,1,Action,528,グラシェス,2,Random PC
-1,*,67,ガジュマ,0,Branch,50,Used S-Move,5,Go to 5
+1,*,67,ガジュマ,0,Branch,50,Used S-Move?,5,Go to 5
 2,*,67,ガジュマ,0,Branch,25,Rating 50%,7,Go to 7
 3,*,67,ガジュマ,0,Branch,26,Rating 60%,9,Go to 9
 4,*,67,ガジュマ,0,Branch,30,Always,10,Go to 10
@@ -1051,7 +1051,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 6,*,68,ヴァルガンド,1,Action,551,Guard,-1,None
 7,*,68,ヴァルガンド,1,Action,552,Run,-1,None
 1,*,69,デ式特機兵,1,Action,550,Attack,2,Random PC
-1,*,70,ガンドロフス,0,Branch,50,Used S-Move,4,Go to 4
+1,*,70,ガンドロフス,0,Branch,50,Used S-Move?,4,Go to 4
 2,*,70,ガンドロフス,0,Branch,24,Rating 40%,6,Go to 6
 3,*,70,ガンドロフス,0,Branch,30,Always,7,Go to 7
 4,*,70,ガンドロフス,0,Branch,27,Rating 70%,6,Go to 6
@@ -1193,13 +1193,13 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,81,ヌックア,0,Branch,30,Always,5,Go to 5
 4,*,81,ヌックア,0,Branch,25,Rating 50%,10,Go to 10
 5,*,81,ヌックア,0,Branch,21,Rating 10%,11,Go to 11
-6,*,81,ヌックア,0,Branch,50,Used S-Move,8,Go to 8
+6,*,81,ヌックア,0,Branch,50,Used S-Move?,8,Go to 8
 7,*,81,ヌックア,0,Branch,24,Rating 40%,9,Go to 9
 8,*,81,ヌックア,1,Action,550,Attack,2,Random PC
 9,*,81,ヌックア,1,Action,260,アースシェイク,-1,None
 10,*,81,ヌックア,1,Action,41,おやすみなさい,22,Self
 11,*,81,ヌックア,1,Action,551,Guard,-1,None
-1,*,82,サムンドラ,0,Branch,50,Used S-Move,5,Go to 5
+1,*,82,サムンドラ,0,Branch,50,Used S-Move?,5,Go to 5
 2,*,82,サムンドラ,0,Branch,22,Rating 20%,8,Go to 8
 3,*,82,サムンドラ,0,Branch,25,Rating 50%,9,Go to 9
 4,*,82,サムンドラ,0,Branch,30,Always,10,Go to 10
@@ -1280,7 +1280,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 7,*,86,ブライヌール,0,Branch,0,HP = 100%,10,Go to 10
 8,*,86,ブライヌール,0,Branch,46,Used HP Absorbs ≥ 1,10,Go to 10
 9,*,86,ブライヌール,0,Branch,26,Rating 60%,17,Go to 17
-10,*,86,ブライヌール,0,Branch,50,Used S-Move,12,Go to 12
+10,*,86,ブライヌール,0,Branch,50,Used S-Move?,12,Go to 12
 11,*,86,ブライヌール,0,Branch,23,Rating 30%,18,Go to 18
 12,*,86,ブライヌール,0,Branch,21,Rating 10%,16,Go to 16
 13,*,86,ブライヌール,0,Branch,22,Rating 20%,15,Go to 15
@@ -1297,9 +1297,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 6,*,87,クベンシス,0,Branch,26,Rating 60%,13,Go to 13
 7,*,87,クベンシス,0,Branch,28,Rating 80%,11,Go to 11
 8,*,87,クベンシス,0,Branch,30,Always,14,Go to 14
-9,*,87,クベンシス,0,Branch,49,Used Spell,17,Go to 17
+9,*,87,クベンシス,0,Branch,49,Used Spell?,17,Go to 17
 10,*,87,クベンシス,0,Branch,30,Always,15,Go to 15
-11,*,87,クベンシス,0,Branch,49,Used Spell,17,Go to 17
+11,*,87,クベンシス,0,Branch,49,Used Spell?,17,Go to 17
 12,*,87,クベンシス,0,Branch,30,Always,16,Go to 16
 13,*,87,クベンシス,1,Action,550,Attack,2,Random PC
 14,*,87,クベンシス,1,Action,552,Run,-1,None
@@ -1342,7 +1342,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,*,90,キュキュ,1,Action,211,ＨＰ吸収,3,PC w/ Most HP
 14,*,90,キュキュ,1,Action,533,ボルティ,2,Random PC
 15,*,90,キュキュ,1,Action,551,Guard,-1,None
-1,*,91,デ式レイバー,0,Branch,52,Used Charge,12,Go to 12
+1,*,91,デ式レイバー,0,Branch,52,Used Charge?,12,Go to 12
 2,*,91,デ式レイバー,0,Branch,11,Turn 1,6,Go to 6
 3,*,91,デ式レイバー,0,Branch,27,Rating 70%,9,Go to 9
 4,*,91,デ式レイバー,0,Branch,24,Rating 40%,10,Go to 10
@@ -1454,7 +1454,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,*,98,マセラウト,1,Action,507,サプリィ,7,EC w/ Least HP
 14,*,98,マセラウト,1,Action,513,クイッカ,-1,None
 15,*,98,マセラウト,1,Action,100,Ж術？,-1,None
-1,*,99,アルシノ,0,Branch,50,Used S-Move,4,Go to 4
+1,*,99,アルシノ,0,Branch,50,Used S-Move?,4,Go to 4
 2,*,99,アルシノ,0,Branch,23,Rating 30%,6,Go to 6
 3,*,99,アルシノ,0,Branch,30,Always,7,Go to 7
 4,*,99,アルシノ,0,Branch,27,Rating 70%,6,Go to 6
@@ -1614,7 +1614,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 4,*,110,シュルラット,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
 5,*,110,シュルラット,0,Branch,30,Always,7,Go to 7
 6,*,110,シュルラット,0,Branch,24,Rating 40%,11,Go to 11
-7,*,110,シュルラット,0,Branch,50,Used S-Move,9,Go to 9
+7,*,110,シュルラット,0,Branch,50,Used S-Move?,9,Go to 9
 8,*,110,シュルラット,0,Branch,24,Rating 40%,10,Go to 10
 9,*,110,シュルラット,1,Action,550,Attack,2,Random PC
 10,*,110,シュルラット,1,Action,4,レーザー,2,Random PC
@@ -1624,9 +1624,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,111,盗掘者シモン,0,Branch,30,Always,8,Go to 8
 4,*,111,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
 5,*,111,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-6,*,111,盗掘者シモン,0,Branch,50,Used S-Move,14,Go to 14
+6,*,111,盗掘者シモン,0,Branch,50,Used S-Move?,14,Go to 14
 7,*,111,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-8,*,111,盗掘者シモン,0,Branch,50,Used S-Move,11,Go to 11
+8,*,111,盗掘者シモン,0,Branch,50,Used S-Move?,11,Go to 11
 9,*,111,盗掘者シモン,0,Branch,23,Rating 30%,14,Go to 14
 10,*,111,盗掘者シモン,0,Branch,30,Always,15,Go to 15
 11,*,111,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
@@ -1640,9 +1640,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,112,盗掘者シモン,0,Branch,30,Always,8,Go to 8
 4,*,112,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
 5,*,112,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-6,*,112,盗掘者シモン,0,Branch,50,Used S-Move,14,Go to 14
+6,*,112,盗掘者シモン,0,Branch,50,Used S-Move?,14,Go to 14
 7,*,112,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-8,*,112,盗掘者シモン,0,Branch,50,Used S-Move,11,Go to 11
+8,*,112,盗掘者シモン,0,Branch,50,Used S-Move?,11,Go to 11
 9,*,112,盗掘者シモン,0,Branch,23,Rating 30%,14,Go to 14
 10,*,112,盗掘者シモン,0,Branch,30,Always,15,Go to 15
 11,*,112,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
@@ -1656,9 +1656,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,113,盗掘者シモン,0,Branch,30,Always,8,Go to 8
 4,*,113,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
 5,*,113,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-6,*,113,盗掘者シモン,0,Branch,50,Used S-Move,14,Go to 14
+6,*,113,盗掘者シモン,0,Branch,50,Used S-Move?,14,Go to 14
 7,*,113,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-8,*,113,盗掘者シモン,0,Branch,50,Used S-Move,11,Go to 11
+8,*,113,盗掘者シモン,0,Branch,50,Used S-Move?,11,Go to 11
 9,*,113,盗掘者シモン,0,Branch,23,Rating 30%,14,Go to 14
 10,*,113,盗掘者シモン,0,Branch,30,Always,15,Go to 15
 11,*,113,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
@@ -1672,9 +1672,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,114,盗掘者シモン,0,Branch,30,Always,8,Go to 8
 4,*,114,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
 5,*,114,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-6,*,114,盗掘者シモン,0,Branch,50,Used S-Move,14,Go to 14
+6,*,114,盗掘者シモン,0,Branch,50,Used S-Move?,14,Go to 14
 7,*,114,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-8,*,114,盗掘者シモン,0,Branch,50,Used S-Move,11,Go to 11
+8,*,114,盗掘者シモン,0,Branch,50,Used S-Move?,11,Go to 11
 9,*,114,盗掘者シモン,0,Branch,23,Rating 30%,14,Go to 14
 10,*,114,盗掘者シモン,0,Branch,30,Always,15,Go to 15
 11,*,114,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
@@ -1688,9 +1688,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,115,盗掘者シモン,0,Branch,30,Always,8,Go to 8
 4,*,115,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
 5,*,115,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-6,*,115,盗掘者シモン,0,Branch,50,Used S-Move,14,Go to 14
+6,*,115,盗掘者シモン,0,Branch,50,Used S-Move?,14,Go to 14
 7,*,115,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-8,*,115,盗掘者シモン,0,Branch,50,Used S-Move,11,Go to 11
+8,*,115,盗掘者シモン,0,Branch,50,Used S-Move?,11,Go to 11
 9,*,115,盗掘者シモン,0,Branch,23,Rating 30%,14,Go to 14
 10,*,115,盗掘者シモン,0,Branch,30,Always,15,Go to 15
 11,*,115,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
@@ -1704,9 +1704,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,116,盗掘者シモン,0,Branch,30,Always,8,Go to 8
 4,*,116,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
 5,*,116,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-6,*,116,盗掘者シモン,0,Branch,50,Used S-Move,14,Go to 14
+6,*,116,盗掘者シモン,0,Branch,50,Used S-Move?,14,Go to 14
 7,*,116,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-8,*,116,盗掘者シモン,0,Branch,50,Used S-Move,11,Go to 11
+8,*,116,盗掘者シモン,0,Branch,50,Used S-Move?,11,Go to 11
 9,*,116,盗掘者シモン,0,Branch,23,Rating 30%,14,Go to 14
 10,*,116,盗掘者シモン,0,Branch,30,Always,15,Go to 15
 11,*,116,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
@@ -1720,9 +1720,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,117,盗掘王シモン,0,Branch,30,Always,8,Go to 8
 4,*,117,盗掘王シモン,0,Branch,27,Rating 70%,13,Go to 13
 5,*,117,盗掘王シモン,0,Branch,30,Always,14,Go to 14
-6,*,117,盗掘王シモン,0,Branch,50,Used S-Move,13,Go to 13
+6,*,117,盗掘王シモン,0,Branch,50,Used S-Move?,13,Go to 13
 7,*,117,盗掘王シモン,0,Branch,30,Always,14,Go to 14
-8,*,117,盗掘王シモン,0,Branch,50,Used S-Move,11,Go to 11
+8,*,117,盗掘王シモン,0,Branch,50,Used S-Move?,11,Go to 11
 9,*,117,盗掘王シモン,0,Branch,23,Rating 30%,13,Go to 13
 10,*,117,盗掘王シモン,0,Branch,30,Always,14,Go to 14
 11,*,117,盗掘王シモン,0,Branch,27,Rating 70%,13,Go to 13
@@ -1735,7 +1735,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 4,*,118,シュルラット,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
 5,*,118,シュルラット,0,Branch,30,Always,7,Go to 7
 6,*,118,シュルラット,0,Branch,24,Rating 40%,11,Go to 11
-7,*,118,シュルラット,0,Branch,50,Used S-Move,9,Go to 9
+7,*,118,シュルラット,0,Branch,50,Used S-Move?,9,Go to 9
 8,*,118,シュルラット,0,Branch,24,Rating 40%,10,Go to 10
 9,*,118,シュルラット,1,Action,550,Attack,2,Random PC
 10,*,118,シュルラット,1,Action,4,レーザー,2,Random PC
@@ -1784,7 +1784,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 8,*,128,アントニオ,0,Branch,30,Always,20,Go to 20
 9,*,128,アントニオ,0,Branch,25,Rating 50%,19,Go to 19
 10,*,128,アントニオ,0,Branch,30,Always,20,Go to 20
-11,*,128,アントニオ,0,Branch,50,Used S-Move,19,Go to 19
+11,*,128,アントニオ,0,Branch,50,Used S-Move?,19,Go to 19
 12,*,128,アントニオ,0,Branch,30,Always,20,Go to 20
 13,*,128,アントニオ,0,Branch,26,Rating 60%,19,Go to 19
 14,*,128,アントニオ,0,Branch,25,Rating 50%,20,Go to 20
@@ -1809,11 +1809,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 12,*,129,アガタウマス,1,Action,99,ブラスター,2,Random PC
 1,*,130,イマゴタリア,0,Branch,11,Turn 1,5,Go to 5
 2,*,130,イマゴタリア,0,Branch,12,Turn 2,7,Go to 7
-3,*,130,イマゴタリア,0,Branch,50,Used S-Move,17,Go to 17
+3,*,130,イマゴタリア,0,Branch,50,Used S-Move?,17,Go to 17
 4,*,130,イマゴタリア,0,Branch,30,Always,14,Go to 14
 5,*,130,イマゴタリア,0,Branch,25,Rating 50%,20,Go to 20
 6,*,130,イマゴタリア,0,Branch,30,Always,19,Go to 19
-7,*,130,イマゴタリア,0,Branch,50,Used S-Move,9,Go to 9
+7,*,130,イマゴタリア,0,Branch,50,Used S-Move?,9,Go to 9
 8,*,130,イマゴタリア,0,Branch,25,Rating 50%,21,Go to 21
 9,*,130,イマゴタリア,0,Branch,24,Rating 40%,21,Go to 21
 10,*,130,イマゴタリア,0,Branch,30,Always,19,Go to 19
@@ -1830,11 +1830,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 21,*,130,イマゴタリア,1,Action,25,毒ゲロ,-1,None
 1,ebinit002.dat,130,イマゴタリア,0,Branch,11,Turn 1,5,Go to 5
 2,ebinit002.dat,130,イマゴタリア,0,Branch,12,Turn 2,7,Go to 7
-3,ebinit002.dat,130,イマゴタリア,0,Branch,50,Used S-Move,11,Go to 11
+3,ebinit002.dat,130,イマゴタリア,0,Branch,50,Used S-Move?,11,Go to 11
 4,ebinit002.dat,130,イマゴタリア,0,Branch,30,Always,14,Go to 14
 5,ebinit002.dat,130,イマゴタリア,0,Branch,25,Rating 50%,18,Go to 18
 6,ebinit002.dat,130,イマゴタリア,0,Branch,30,Always,17,Go to 17
-7,ebinit002.dat,130,イマゴタリア,0,Branch,50,Used S-Move,9,Go to 9
+7,ebinit002.dat,130,イマゴタリア,0,Branch,50,Used S-Move?,9,Go to 9
 8,ebinit002.dat,130,イマゴタリア,0,Branch,25,Rating 50%,19,Go to 19
 9,ebinit002.dat,130,イマゴタリア,0,Branch,22,Rating 20%,19,Go to 19
 10,ebinit002.dat,130,イマゴタリア,0,Branch,30,Always,17,Go to 17
@@ -1855,18 +1855,18 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 6,*,131,獄長,0,Branch,30,Always,13,Go to 13
 7,*,131,獄長,0,Branch,25,Rating 50%,35,Go to 35
 8,*,131,獄長,0,Branch,30,Always,37,Go to 37
-9,*,131,獄長,0,Branch,50,Used S-Move,11,Go to 11
+9,*,131,獄長,0,Branch,50,Used S-Move?,11,Go to 11
 10,*,131,獄長,0,Branch,30,Always,36,Go to 36
 11,*,131,獄長,0,Branch,25,Rating 50%,35,Go to 35
 12,*,131,獄長,0,Branch,30,Always,38,Go to 38
-13,*,131,獄長,0,Branch,50,Used S-Move,17,Go to 17
+13,*,131,獄長,0,Branch,50,Used S-Move?,17,Go to 17
 14,*,131,獄長,0,Branch,24,Rating 40%,37,Go to 37
 15,*,131,獄長,0,Branch,27,Rating 70%,36,Go to 36
 16,*,131,獄長,0,Branch,30,Always,35,Go to 35
 17,*,131,獄長,0,Branch,25,Rating 50%,35,Go to 35
 18,*,131,獄長,0,Branch,28,Rating 80%,38,Go to 38
 19,*,131,獄長,0,Branch,30,Always,39,Go to 39
-20,*,131,獄長,0,Branch,50,Used S-Move,25,Go to 25
+20,*,131,獄長,0,Branch,50,Used S-Move?,25,Go to 25
 21,*,131,獄長,0,Branch,22,Rating 20%,35,Go to 35
 22,*,131,獄長,0,Branch,24,Rating 40%,37,Go to 37
 23,*,131,獄長,0,Branch,28,Rating 80%,36,Go to 36
@@ -1874,7 +1874,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 25,*,131,獄長,0,Branch,25,Rating 50%,35,Go to 35
 26,*,131,獄長,0,Branch,26,Rating 60%,37,Go to 37
 27,*,131,獄長,0,Branch,30,Always,39,Go to 39
-28,*,131,獄長,0,Branch,50,Used S-Move,31,Go to 31
+28,*,131,獄長,0,Branch,50,Used S-Move?,31,Go to 31
 29,*,131,獄長,0,Branch,25,Rating 50%,36,Go to 36
 30,*,131,獄長,0,Branch,30,Always,37,Go to 37
 31,*,131,獄長,0,Branch,24,Rating 40%,35,Go to 35
@@ -1894,11 +1894,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 6,ebinit003.dat,131,獄長,0,Branch,30,Always,13,Go to 13
 7,ebinit003.dat,131,獄長,0,Branch,25,Rating 50%,28,Go to 28
 8,ebinit003.dat,131,獄長,0,Branch,30,Always,30,Go to 30
-9,ebinit003.dat,131,獄長,0,Branch,50,Used S-Move,11,Go to 11
+9,ebinit003.dat,131,獄長,0,Branch,50,Used S-Move?,11,Go to 11
 10,ebinit003.dat,131,獄長,0,Branch,30,Always,29,Go to 29
 11,ebinit003.dat,131,獄長,0,Branch,25,Rating 50%,28,Go to 28
 12,ebinit003.dat,131,獄長,0,Branch,30,Always,31,Go to 31
-13,ebinit003.dat,131,獄長,0,Branch,50,Used S-Move,17,Go to 17
+13,ebinit003.dat,131,獄長,0,Branch,50,Used S-Move?,17,Go to 17
 14,ebinit003.dat,131,獄長,0,Branch,24,Rating 40%,30,Go to 30
 15,ebinit003.dat,131,獄長,0,Branch,27,Rating 70%,29,Go to 29
 16,ebinit003.dat,131,獄長,0,Branch,30,Always,28,Go to 28
@@ -1975,7 +1975,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 12,*,134,ラァス,1,Action,550,Attack,2,Random PC
 13,*,134,ラァス,1,Action,0,火山弾乱舞,-1,None
 14,*,134,ラァス,1,Action,1,石化灰噴霧,13,PC w/o Stone
-1,*,136,アントニオＪｒ,0,Branch,50,Used S-Move,4,Go to 4
+1,*,136,アントニオＪｒ,0,Branch,50,Used S-Move?,4,Go to 4
 2,*,136,アントニオＪｒ,0,Branch,23,Rating 30%,6,Go to 6
 3,*,136,アントニオＪｒ,0,Branch,30,Always,7,Go to 7
 4,*,136,アントニオＪｒ,0,Branch,27,Rating 70%,6,Go to 6
@@ -1985,7 +1985,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 1,*,137,ディアトリマ,0,Branch,11,Turn 1,11,Go to 11
 2,*,137,ディアトリマ,0,Branch,12,Turn 2,11,Go to 11
 3,*,137,ディアトリマ,0,Branch,1,HP < 50%,15,Go to 15
-4,*,137,ディアトリマ,0,Branch,50,Used S-Move,6,Go to 6
+4,*,137,ディアトリマ,0,Branch,50,Used S-Move?,6,Go to 6
 5,*,137,ディアトリマ,0,Branch,30,Always,15,Go to 15
 6,*,137,ディアトリマ,0,Branch,22,Rating 20%,22,Go to 22
 7,*,137,ディアトリマ,0,Branch,22,Rating 20%,23,Go to 23
@@ -2016,7 +2016,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 9,*,138,シニストラ,0,Branch,25,Rating 50%,23,Go to 23
 10,*,138,シニストラ,0,Branch,25,Rating 50%,20,Go to 20
 11,*,138,シニストラ,0,Branch,30,Always,21,Go to 21
-12,*,138,シニストラ,0,Branch,50,Used S-Move,14,Go to 14
+12,*,138,シニストラ,0,Branch,50,Used S-Move?,14,Go to 14
 13,*,138,シニストラ,0,Branch,30,Always,15,Go to 15
 14,*,138,シニストラ,0,Branch,25,Rating 50%,20,Go to 20
 15,*,138,シニストラ,0,Branch,30,Always,21,Go to 21
@@ -2039,7 +2039,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 9,*,139,デクストラ,0,Branch,25,Rating 50%,23,Go to 23
 10,*,139,デクストラ,0,Branch,25,Rating 50%,20,Go to 20
 11,*,139,デクストラ,0,Branch,30,Always,21,Go to 21
-12,*,139,デクストラ,0,Branch,50,Used S-Move,14,Go to 14
+12,*,139,デクストラ,0,Branch,50,Used S-Move?,14,Go to 14
 13,*,139,デクストラ,0,Branch,30,Always,15,Go to 15
 14,*,139,デクストラ,0,Branch,25,Rating 50%,20,Go to 20
 15,*,139,デクストラ,0,Branch,30,Always,21,Go to 21
@@ -2065,7 +2065,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 12,*,140,ラミレス,1,Action,519,ジェドーサ,2,Random PC
 13,*,140,ラミレス,1,Action,43,銀色の光と闇,-1,None
 14,*,140,ラミレス,1,Action,509,サプローネ,22,Self
-1,*,141,ビゴロ,0,Branch,50,Used S-Move,5,Go to 5
+1,*,141,ビゴロ,0,Branch,50,Used S-Move?,5,Go to 5
 2,*,141,ビゴロ,0,Branch,11,Turn 1,9,Go to 9
 3,*,141,ビゴロ,0,Branch,14,Turn 4,9,Go to 9
 4,*,141,ビゴロ,0,Branch,30,Always,13,Go to 13
@@ -2085,24 +2085,24 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 18,*,141,ビゴロ,1,Action,550,Attack,21,PC w/ Most Attack
 19,*,141,ビゴロ,1,Action,60,投げキッス,23,Aika
 20,*,141,ビゴロ,1,Action,551,Guard,-1,None
-1,*,142,ブラキロフス,0,Branch,50,Used S-Move,4,Go to 4
+1,*,142,ブラキロフス,0,Branch,50,Used S-Move?,4,Go to 4
 2,*,142,ブラキロフス,0,Branch,22,Rating 20%,6,Go to 6
 3,*,142,ブラキロフス,0,Branch,30,Always,7,Go to 7
 4,*,142,ブラキロフス,0,Branch,28,Rating 80%,6,Go to 6
 5,*,142,ブラキロフス,0,Branch,30,Always,7,Go to 7
 6,*,142,ブラキロフス,1,Action,550,Attack,2,Random PC
 7,*,142,ブラキロフス,1,Action,30,スプレーキャノン,2,Random PC
-1,*,144,ディーゴ,0,Branch,18,Party SP = 100%,43,Go to 43
-2,*,144,ディーゴ,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,144,ディーゴ,0,Branch,18,SP = 100%,43,Go to 43
+2,*,144,ディーゴ,0,Branch,19,SP ≤ 50%,4,Go to 4
 3,*,144,ディーゴ,0,Branch,30,Always,16,Go to 16
-4,*,144,ディーゴ,0,Branch,20,Party SP ≤ 25%,6,Go to 6
+4,*,144,ディーゴ,0,Branch,20,SP ≤ 25%,6,Go to 6
 5,*,144,ディーゴ,0,Branch,30,Always,17,Go to 17
 6,*,144,ディーゴ,0,Branch,11,Turn 1,19,Go to 19
 7,*,144,ディーゴ,0,Branch,12,Turn 2,21,Go to 21
 8,*,144,ディーゴ,0,Branch,13,Turn 3,23,Go to 23
 9,*,144,ディーゴ,0,Branch,14,Turn 4,25,Go to 25
-10,*,144,ディーゴ,0,Branch,50,Used S-Move,27,Go to 27
-11,*,144,ディーゴ,0,Branch,49,Used Spell,33,Go to 33
+10,*,144,ディーゴ,0,Branch,50,Used S-Move?,27,Go to 27
+11,*,144,ディーゴ,0,Branch,49,Used Spell?,33,Go to 33
 12,*,144,ディーゴ,0,Branch,24,Rating 40%,44,Go to 44
 13,*,144,ディーゴ,0,Branch,27,Rating 70%,42,Go to 42
 14,*,144,ディーゴ,0,Branch,23,Rating 30%,43,Go to 43
@@ -2112,7 +2112,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 18,*,144,ディーゴ,0,Branch,30,Always,6,Go to 6
 19,*,144,ディーゴ,0,Branch,24,Rating 40%,43,Go to 43
 20,*,144,ディーゴ,0,Branch,30,Always,36,Go to 36
-21,*,144,ディーゴ,0,Branch,50,Used S-Move,11,Go to 11
+21,*,144,ディーゴ,0,Branch,50,Used S-Move?,11,Go to 11
 22,*,144,ディーゴ,0,Branch,30,Always,43,Go to 43
 23,*,144,ディーゴ,0,Branch,26,Rating 60%,41,Go to 41
 24,*,144,ディーゴ,0,Branch,30,Always,10,Go to 10
@@ -2136,14 +2136,14 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 42,*,144,ディーゴ,1,Action,522,ウェボーン,2,Random PC
 43,*,144,ディーゴ,1,Action,36,ナンジャー,-1,None
 44,*,144,ディーゴ,1,Action,66,フィサーン,-1,None
-1,*,145,ジャオ,0,Branch,50,Used S-Move,4,Go to 4
+1,*,145,ジャオ,0,Branch,50,Used S-Move?,4,Go to 4
 2,*,145,ジャオ,0,Branch,24,Rating 40%,6,Go to 6
 3,*,145,ジャオ,0,Branch,30,Always,7,Go to 7
 4,*,145,ジャオ,0,Branch,26,Rating 60%,6,Go to 6
 5,*,145,ジャオ,0,Branch,30,Always,7,Go to 7
 6,*,145,ジャオ,1,Action,550,Attack,2,Random PC
 7,*,145,ジャオ,1,Action,230,イラナギュン,2,Random PC
-1,*,146,マオ,0,Branch,50,Used S-Move,4,Go to 4
+1,*,146,マオ,0,Branch,50,Used S-Move?,4,Go to 4
 2,*,146,マオ,0,Branch,22,Rating 20%,6,Go to 6
 3,*,146,マオ,0,Branch,30,Always,7,Go to 7
 4,*,146,マオ,0,Branch,28,Rating 80%,6,Go to 6
@@ -2190,18 +2190,18 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 4,*,148,ニルヴィナス,0,Branch,30,Always,11,Go to 11
 5,*,148,ニルヴィナス,0,Branch,27,Rating 70%,25,Go to 25
 6,*,148,ニルヴィナス,0,Branch,30,Always,22,Go to 22
-7,*,148,ニルヴィナス,0,Branch,50,Used S-Move,9,Go to 9
+7,*,148,ニルヴィナス,0,Branch,50,Used S-Move?,9,Go to 9
 8,*,148,ニルヴィナス,0,Branch,30,Always,25,Go to 25
 9,*,148,ニルヴィナス,0,Branch,27,Rating 70%,23,Go to 23
 10,*,148,ニルヴィナス,0,Branch,30,Always,22,Go to 22
-11,*,148,ニルヴィナス,0,Branch,50,Used S-Move,15,Go to 15
+11,*,148,ニルヴィナス,0,Branch,50,Used S-Move?,15,Go to 15
 12,*,148,ニルヴィナス,0,Branch,21,Rating 10%,22,Go to 22
 13,*,148,ニルヴィナス,0,Branch,26,Rating 60%,23,Go to 23
 14,*,148,ニルヴィナス,0,Branch,30,Always,25,Go to 25
 15,*,148,ニルヴィナス,0,Branch,23,Rating 30%,22,Go to 22
 16,*,148,ニルヴィナス,0,Branch,23,Rating 30%,23,Go to 23
 17,*,148,ニルヴィナス,0,Branch,30,Always,25,Go to 25
-18,*,148,ニルヴィナス,0,Branch,50,Used S-Move,15,Go to 15
+18,*,148,ニルヴィナス,0,Branch,50,Used S-Move?,15,Go to 15
 19,*,148,ニルヴィナス,0,Branch,23,Rating 30%,24,Go to 24
 20,*,148,ニルヴィナス,0,Branch,22,Rating 20%,23,Go to 23
 21,*,148,ニルヴィナス,0,Branch,30,Always,25,Go to 25
@@ -2209,7 +2209,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 23,*,148,ニルヴィナス,1,Action,33,デスレーザー,2,Random PC
 24,*,148,ニルヴィナス,1,Action,33,デスレーザー,21,PC w/ Most Attack
 25,*,148,ニルヴィナス,1,Action,42,アバランチャー,2,Random PC
-1,*,149,ビゴロ,0,Branch,50,Used S-Move,5,Go to 5
+1,*,149,ビゴロ,0,Branch,50,Used S-Move?,5,Go to 5
 2,*,149,ビゴロ,0,Branch,22,Rating 20%,8,Go to 8
 3,*,149,ビゴロ,0,Branch,24,Rating 40%,9,Go to 9
 4,*,149,ビゴロ,0,Branch,30,Always,10,Go to 10
@@ -2219,7 +2219,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 8,*,149,ビゴロ,1,Action,550,Attack,2,Random PC
 9,*,149,ビゴロ,1,Action,17,乱射キャノン,2,Random PC
 10,*,149,ビゴロ,1,Action,27,大艦巨砲キャノン,2,Random PC
-1,*,150,ホルシ−ド,0,Branch,50,Used S-Move,5,Go to 5
+1,*,150,ホルシ−ド,0,Branch,50,Used S-Move?,5,Go to 5
 2,*,150,ホルシ−ド,0,Branch,22,Rating 20%,8,Go to 8
 3,*,150,ホルシ−ド,0,Branch,25,Rating 50%,9,Go to 9
 4,*,150,ホルシ−ド,0,Branch,30,Always,10,Go to 10
@@ -2236,7 +2236,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 5,*,151,ガルシアン,0,Branch,24,Rating 40%,56,Go to 56
 6,*,151,ガルシアン,0,Branch,25,Rating 50%,57,Go to 57
 7,*,151,ガルシアン,0,Branch,30,Always,58,Go to 58
-8,*,151,ガルシアン,0,Branch,50,Used S-Move,10,Go to 10
+8,*,151,ガルシアン,0,Branch,50,Used S-Move?,10,Go to 10
 9,*,151,ガルシアン,0,Branch,30,Always,59,Go to 59
 10,*,151,ガルシアン,0,Branch,24,Rating 40%,60,Go to 60
 11,*,151,ガルシアン,0,Branch,25,Rating 50%,56,Go to 56
@@ -2252,7 +2252,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 21,*,151,ガルシアン,0,Branch,30,Always,23,Go to 23
 22,*,151,ガルシアン,0,Branch,23,Rating 30%,61,Go to 61
 23,*,151,ガルシアン,0,Branch,62,PCs Alive = 1,50,Go to 50
-24,*,151,ガルシアン,0,Branch,49,Used Spell,37,Go to 37
+24,*,151,ガルシアン,0,Branch,49,Used Spell?,37,Go to 37
 25,*,151,ガルシアン,0,Branch,65,PCs Alive = 4,28,Go to 28
 26,*,151,ガルシアン,0,Branch,64,PCs Alive = 3,31,Go to 31
 27,*,151,ガルシアン,0,Branch,30,Always,34,Go to 34
@@ -2265,9 +2265,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 34,*,151,ガルシアン,0,Branch,21,Rating 10%,56,Go to 56
 35,*,151,ガルシアン,0,Branch,21,Rating 10%,57,Go to 57
 36,*,151,ガルシアン,0,Branch,22,Rating 20%,58,Go to 58
-37,*,151,ガルシアン,0,Branch,50,Used S-Move,44,Go to 44
-38,*,151,ガルシアン,0,Branch,20,Party SP ≤ 25%,41,Go to 41
-39,*,151,ガルシアン,0,Branch,19,Party SP ≤ 50%,42,Go to 42
+37,*,151,ガルシアン,0,Branch,50,Used S-Move?,44,Go to 44
+38,*,151,ガルシアン,0,Branch,20,SP ≤ 25%,41,Go to 41
+39,*,151,ガルシアン,0,Branch,19,SP ≤ 50%,42,Go to 42
 40,*,151,ガルシアン,0,Branch,30,Always,43,Go to 43
 41,*,151,ガルシアン,0,Branch,21,Rating 10%,60,Go to 60
 42,*,151,ガルシアン,0,Branch,21,Rating 10%,60,Go to 60
@@ -2376,9 +2376,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 38,*,153,ラミレス,0,Branch,22,Rating 20%,58,Go to 58
 39,*,153,ラミレス,0,Branch,21,Rating 10%,58,Go to 58
 40,*,153,ラミレス,0,Branch,21,Rating 10%,58,Go to 58
-41,*,153,ラミレス,0,Branch,49,Used Spell,43,Go to 43
+41,*,153,ラミレス,0,Branch,49,Used Spell?,43,Go to 43
 42,*,153,ラミレス,0,Branch,23,Rating 30%,55,Go to 55
-43,*,153,ラミレス,0,Branch,50,Used S-Move,45,Go to 45
+43,*,153,ラミレス,0,Branch,50,Used S-Move?,45,Go to 45
 44,*,153,ラミレス,0,Branch,25,Rating 50%,57,Go to 57
 45,*,153,ラミレス,0,Branch,23,Rating 30%,58,Go to 58
 46,*,153,ラミレス,0,Branch,25,Rating 50%,57,Go to 57
@@ -2452,12 +2452,12 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 16,*,157,ラミレス,0,Branch,30,Always,38,Go to 38
 17,*,157,ラミレス,0,Branch,35,Used State Spells ≥ 1,38,Go to 38
 18,*,157,ラミレス,0,Branch,30,Always,36,Go to 36
-19,*,157,ラミレス,0,Branch,50,Used S-Move,22,Go to 22
+19,*,157,ラミレス,0,Branch,50,Used S-Move?,22,Go to 22
 20,*,157,ラミレス,0,Branch,23,Rating 30%,38,Go to 38
 21,*,157,ラミレス,0,Branch,24,Rating 40%,39,Go to 39
 22,*,157,ラミレス,0,Branch,56,All PCs Have Weak?,24,Go to 24
 23,*,157,ラミレス,0,Branch,22,Rating 20%,36,Go to 36
-24,*,157,ラミレス,0,Branch,49,Used Spell,26,Go to 26
+24,*,157,ラミレス,0,Branch,49,Used Spell?,26,Go to 26
 25,*,157,ラミレス,0,Branch,22,Rating 20%,37,Go to 37
 26,*,157,ラミレス,0,Branch,23,Rating 30%,35,Go to 35
 27,*,157,ラミレス,0,Branch,21,Rating 10%,36,Go to 36
@@ -2476,11 +2476,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 40,*,157,ラミレス,1,Action,86,銀世界の終〒,-1,None
 1,*,158,ピアストル,0,Branch,2,HP < 25%,23,Go to 23
 2,*,158,ピアストル,0,Branch,17,ECs Alive = 1,26,Go to 26
-3,*,158,ピアストル,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,158,ピアストル,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,158,ピアストル,0,Branch,30,Always,26,Go to 26
 5,*,158,ピアストル,0,Branch,1,HP < 50%,16,Go to 16
-6,*,158,ピアストル,0,Branch,50,Used S-Move,15,Go to 15
-7,*,158,ピアストル,0,Branch,49,Used Spell,12,Go to 12
+6,*,158,ピアストル,0,Branch,50,Used S-Move?,15,Go to 15
+7,*,158,ピアストル,0,Branch,49,Used Spell?,12,Go to 12
 8,*,158,ピアストル,0,Branch,23,Rating 30%,33,Go to 33
 9,*,158,ピアストル,0,Branch,26,Rating 60%,32,Go to 32
 10,*,158,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
@@ -2499,8 +2499,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 23,*,158,ピアストル,0,Branch,25,Rating 50%,33,Go to 33
 24,*,158,ピアストル,0,Branch,22,Rating 20%,36,Go to 36
 25,*,158,ピアストル,0,Branch,30,Always,34,Go to 34
-26,*,158,ピアストル,0,Branch,50,Used S-Move,30,Go to 30
-27,*,158,ピアストル,0,Branch,49,Used Spell,28,Go to 28
+26,*,158,ピアストル,0,Branch,50,Used S-Move?,30,Go to 30
+27,*,158,ピアストル,0,Branch,49,Used Spell?,28,Go to 28
 28,*,158,ピアストル,0,Branch,28,Rating 80%,33,Go to 33
 29,*,158,ピアストル,0,Branch,30,Always,32,Go to 32
 30,*,158,ピアストル,0,Branch,26,Rating 60%,34,Go to 34
@@ -2512,8 +2512,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 36,*,158,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit030.dat,158,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit030.dat,158,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit030.dat,158,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit030.dat,158,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit030.dat,158,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit030.dat,158,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit030.dat,158,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit030.dat,158,ピアストル,0,Branch,27,Rating 70%,23,Go to 23
 7,ebinit030.dat,158,ピアストル,0,Branch,28,Rating 80%,25,Go to 25
@@ -2539,11 +2539,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 27,ebinit030.dat,158,ピアストル,1,Action,551,Guard,-1,None
 1,*,159,ピアストル,0,Branch,2,HP < 25%,23,Go to 23
 2,*,159,ピアストル,0,Branch,17,ECs Alive = 1,26,Go to 26
-3,*,159,ピアストル,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,159,ピアストル,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,159,ピアストル,0,Branch,30,Always,26,Go to 26
 5,*,159,ピアストル,0,Branch,1,HP < 50%,16,Go to 16
-6,*,159,ピアストル,0,Branch,50,Used S-Move,15,Go to 15
-7,*,159,ピアストル,0,Branch,49,Used Spell,12,Go to 12
+6,*,159,ピアストル,0,Branch,50,Used S-Move?,15,Go to 15
+7,*,159,ピアストル,0,Branch,49,Used Spell?,12,Go to 12
 8,*,159,ピアストル,0,Branch,23,Rating 30%,33,Go to 33
 9,*,159,ピアストル,0,Branch,26,Rating 60%,32,Go to 32
 10,*,159,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
@@ -2562,8 +2562,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 23,*,159,ピアストル,0,Branch,25,Rating 50%,33,Go to 33
 24,*,159,ピアストル,0,Branch,22,Rating 20%,36,Go to 36
 25,*,159,ピアストル,0,Branch,30,Always,34,Go to 34
-26,*,159,ピアストル,0,Branch,50,Used S-Move,30,Go to 30
-27,*,159,ピアストル,0,Branch,49,Used Spell,28,Go to 28
+26,*,159,ピアストル,0,Branch,50,Used S-Move?,30,Go to 30
+27,*,159,ピアストル,0,Branch,49,Used Spell?,28,Go to 28
 28,*,159,ピアストル,0,Branch,28,Rating 80%,33,Go to 33
 29,*,159,ピアストル,0,Branch,30,Always,32,Go to 32
 30,*,159,ピアストル,0,Branch,26,Rating 60%,34,Go to 34
@@ -2575,8 +2575,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 36,*,159,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit031.dat,159,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit031.dat,159,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit031.dat,159,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit031.dat,159,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit031.dat,159,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit031.dat,159,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit031.dat,159,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit031.dat,159,ピアストル,0,Branch,27,Rating 70%,23,Go to 23
 7,ebinit031.dat,159,ピアストル,0,Branch,28,Rating 80%,25,Go to 25
@@ -2602,11 +2602,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 27,ebinit031.dat,159,ピアストル,1,Action,551,Guard,-1,None
 1,*,160,ピアストル,0,Branch,2,HP < 25%,23,Go to 23
 2,*,160,ピアストル,0,Branch,17,ECs Alive = 1,26,Go to 26
-3,*,160,ピアストル,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,160,ピアストル,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,160,ピアストル,0,Branch,30,Always,26,Go to 26
 5,*,160,ピアストル,0,Branch,1,HP < 50%,16,Go to 16
-6,*,160,ピアストル,0,Branch,50,Used S-Move,15,Go to 15
-7,*,160,ピアストル,0,Branch,49,Used Spell,12,Go to 12
+6,*,160,ピアストル,0,Branch,50,Used S-Move?,15,Go to 15
+7,*,160,ピアストル,0,Branch,49,Used Spell?,12,Go to 12
 8,*,160,ピアストル,0,Branch,23,Rating 30%,33,Go to 33
 9,*,160,ピアストル,0,Branch,26,Rating 60%,32,Go to 32
 10,*,160,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
@@ -2625,8 +2625,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 23,*,160,ピアストル,0,Branch,25,Rating 50%,33,Go to 33
 24,*,160,ピアストル,0,Branch,22,Rating 20%,36,Go to 36
 25,*,160,ピアストル,0,Branch,30,Always,34,Go to 34
-26,*,160,ピアストル,0,Branch,50,Used S-Move,30,Go to 30
-27,*,160,ピアストル,0,Branch,49,Used Spell,28,Go to 28
+26,*,160,ピアストル,0,Branch,50,Used S-Move?,30,Go to 30
+27,*,160,ピアストル,0,Branch,49,Used Spell?,28,Go to 28
 28,*,160,ピアストル,0,Branch,28,Rating 80%,33,Go to 33
 29,*,160,ピアストル,0,Branch,30,Always,32,Go to 32
 30,*,160,ピアストル,0,Branch,26,Rating 60%,34,Go to 34
@@ -2638,8 +2638,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 36,*,160,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit032.dat,160,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit032.dat,160,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit032.dat,160,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit032.dat,160,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit032.dat,160,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit032.dat,160,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit032.dat,160,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit032.dat,160,ピアストル,0,Branch,27,Rating 70%,23,Go to 23
 7,ebinit032.dat,160,ピアストル,0,Branch,28,Rating 80%,25,Go to 25
@@ -2665,11 +2665,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 27,ebinit032.dat,160,ピアストル,1,Action,551,Guard,-1,None
 1,*,161,ピアストル,0,Branch,2,HP < 25%,23,Go to 23
 2,*,161,ピアストル,0,Branch,17,ECs Alive = 1,26,Go to 26
-3,*,161,ピアストル,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,161,ピアストル,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,161,ピアストル,0,Branch,30,Always,26,Go to 26
 5,*,161,ピアストル,0,Branch,1,HP < 50%,16,Go to 16
-6,*,161,ピアストル,0,Branch,50,Used S-Move,15,Go to 15
-7,*,161,ピアストル,0,Branch,49,Used Spell,12,Go to 12
+6,*,161,ピアストル,0,Branch,50,Used S-Move?,15,Go to 15
+7,*,161,ピアストル,0,Branch,49,Used Spell?,12,Go to 12
 8,*,161,ピアストル,0,Branch,23,Rating 30%,33,Go to 33
 9,*,161,ピアストル,0,Branch,26,Rating 60%,32,Go to 32
 10,*,161,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
@@ -2688,8 +2688,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 23,*,161,ピアストル,0,Branch,25,Rating 50%,33,Go to 33
 24,*,161,ピアストル,0,Branch,22,Rating 20%,36,Go to 36
 25,*,161,ピアストル,0,Branch,30,Always,34,Go to 34
-26,*,161,ピアストル,0,Branch,50,Used S-Move,30,Go to 30
-27,*,161,ピアストル,0,Branch,49,Used Spell,28,Go to 28
+26,*,161,ピアストル,0,Branch,50,Used S-Move?,30,Go to 30
+27,*,161,ピアストル,0,Branch,49,Used Spell?,28,Go to 28
 28,*,161,ピアストル,0,Branch,28,Rating 80%,33,Go to 33
 29,*,161,ピアストル,0,Branch,30,Always,32,Go to 32
 30,*,161,ピアストル,0,Branch,26,Rating 60%,34,Go to 34
@@ -2701,8 +2701,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 36,*,161,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit033.dat,161,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit033.dat,161,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit033.dat,161,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit033.dat,161,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit033.dat,161,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit033.dat,161,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit033.dat,161,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit033.dat,161,ピアストル,0,Branch,27,Rating 70%,23,Go to 23
 7,ebinit033.dat,161,ピアストル,0,Branch,28,Rating 80%,25,Go to 25
@@ -2728,11 +2728,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 27,ebinit033.dat,161,ピアストル,1,Action,551,Guard,-1,None
 1,*,162,ピアストル,0,Branch,2,HP < 25%,23,Go to 23
 2,*,162,ピアストル,0,Branch,17,ECs Alive = 1,26,Go to 26
-3,*,162,ピアストル,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,162,ピアストル,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,162,ピアストル,0,Branch,30,Always,26,Go to 26
 5,*,162,ピアストル,0,Branch,1,HP < 50%,16,Go to 16
-6,*,162,ピアストル,0,Branch,50,Used S-Move,15,Go to 15
-7,*,162,ピアストル,0,Branch,49,Used Spell,12,Go to 12
+6,*,162,ピアストル,0,Branch,50,Used S-Move?,15,Go to 15
+7,*,162,ピアストル,0,Branch,49,Used Spell?,12,Go to 12
 8,*,162,ピアストル,0,Branch,23,Rating 30%,33,Go to 33
 9,*,162,ピアストル,0,Branch,26,Rating 60%,32,Go to 32
 10,*,162,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
@@ -2751,8 +2751,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 23,*,162,ピアストル,0,Branch,25,Rating 50%,33,Go to 33
 24,*,162,ピアストル,0,Branch,22,Rating 20%,36,Go to 36
 25,*,162,ピアストル,0,Branch,30,Always,34,Go to 34
-26,*,162,ピアストル,0,Branch,50,Used S-Move,30,Go to 30
-27,*,162,ピアストル,0,Branch,49,Used Spell,28,Go to 28
+26,*,162,ピアストル,0,Branch,50,Used S-Move?,30,Go to 30
+27,*,162,ピアストル,0,Branch,49,Used Spell?,28,Go to 28
 28,*,162,ピアストル,0,Branch,28,Rating 80%,33,Go to 33
 29,*,162,ピアストル,0,Branch,30,Always,32,Go to 32
 30,*,162,ピアストル,0,Branch,26,Rating 60%,34,Go to 34
@@ -2764,8 +2764,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 36,*,162,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit034.dat,162,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit034.dat,162,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit034.dat,162,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit034.dat,162,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit034.dat,162,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit034.dat,162,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit034.dat,162,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit034.dat,162,ピアストル,0,Branch,27,Rating 70%,23,Go to 23
 7,ebinit034.dat,162,ピアストル,0,Branch,28,Rating 80%,25,Go to 25
@@ -2789,14 +2789,14 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 25,ebinit034.dat,162,ピアストル,1,Action,517,ジェダ,2,Random PC
 26,ebinit034.dat,162,ピアストル,1,Action,520,ウェイバ,2,Random PC
 27,ebinit034.dat,162,ピアストル,1,Action,551,Guard,-1,None
-1,*,163,ピアストル,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,163,ピアストル,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,163,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
 3,*,163,ピアストル,0,Branch,28,Rating 80%,35,Go to 35
 4,*,163,ピアストル,0,Branch,2,HP < 25%,24,Go to 24
 5,*,163,ピアストル,0,Branch,17,ECs Alive = 1,27,Go to 27
 6,*,163,ピアストル,0,Branch,1,HP < 50%,19,Go to 19
-7,*,163,ピアストル,0,Branch,50,Used S-Move,16,Go to 16
-8,*,163,ピアストル,0,Branch,49,Used Spell,13,Go to 13
+7,*,163,ピアストル,0,Branch,50,Used S-Move?,16,Go to 16
+8,*,163,ピアストル,0,Branch,49,Used Spell?,13,Go to 13
 9,*,163,ピアストル,0,Branch,23,Rating 30%,34,Go to 34
 10,*,163,ピアストル,0,Branch,26,Rating 60%,33,Go to 33
 11,*,163,ピアストル,0,Branch,24,Rating 40%,35,Go to 35
@@ -2815,8 +2815,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 24,*,163,ピアストル,0,Branch,25,Rating 50%,34,Go to 34
 25,*,163,ピアストル,0,Branch,24,Rating 40%,37,Go to 37
 26,*,163,ピアストル,0,Branch,30,Always,35,Go to 35
-27,*,163,ピアストル,0,Branch,50,Used S-Move,31,Go to 31
-28,*,163,ピアストル,0,Branch,49,Used Spell,29,Go to 29
+27,*,163,ピアストル,0,Branch,50,Used S-Move?,31,Go to 31
+28,*,163,ピアストル,0,Branch,49,Used Spell?,29,Go to 29
 29,*,163,ピアストル,0,Branch,28,Rating 80%,34,Go to 34
 30,*,163,ピアストル,0,Branch,30,Always,33,Go to 33
 31,*,163,ピアストル,0,Branch,26,Rating 60%,35,Go to 35
@@ -2828,8 +2828,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 37,*,163,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit035.dat,163,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit035.dat,163,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit035.dat,163,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit035.dat,163,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit035.dat,163,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit035.dat,163,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit035.dat,163,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit035.dat,163,ピアストル,0,Branch,27,Rating 70%,23,Go to 23
 7,ebinit035.dat,163,ピアストル,0,Branch,28,Rating 80%,25,Go to 25
@@ -2853,14 +2853,14 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 25,ebinit035.dat,163,ピアストル,1,Action,517,ジェダ,2,Random PC
 26,ebinit035.dat,163,ピアストル,1,Action,521,ウェイビィ,2,Random PC
 27,ebinit035.dat,163,ピアストル,1,Action,551,Guard,-1,None
-1,*,164,ピアストル,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,164,ピアストル,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,164,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
 3,*,164,ピアストル,0,Branch,28,Rating 80%,35,Go to 35
 4,*,164,ピアストル,0,Branch,2,HP < 25%,24,Go to 24
 5,*,164,ピアストル,0,Branch,17,ECs Alive = 1,27,Go to 27
 6,*,164,ピアストル,0,Branch,1,HP < 50%,19,Go to 19
-7,*,164,ピアストル,0,Branch,50,Used S-Move,16,Go to 16
-8,*,164,ピアストル,0,Branch,49,Used Spell,13,Go to 13
+7,*,164,ピアストル,0,Branch,50,Used S-Move?,16,Go to 16
+8,*,164,ピアストル,0,Branch,49,Used Spell?,13,Go to 13
 9,*,164,ピアストル,0,Branch,23,Rating 30%,34,Go to 34
 10,*,164,ピアストル,0,Branch,26,Rating 60%,33,Go to 33
 11,*,164,ピアストル,0,Branch,24,Rating 40%,35,Go to 35
@@ -2879,8 +2879,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 24,*,164,ピアストル,0,Branch,25,Rating 50%,34,Go to 34
 25,*,164,ピアストル,0,Branch,24,Rating 40%,37,Go to 37
 26,*,164,ピアストル,0,Branch,30,Always,35,Go to 35
-27,*,164,ピアストル,0,Branch,50,Used S-Move,31,Go to 31
-28,*,164,ピアストル,0,Branch,49,Used Spell,29,Go to 29
+27,*,164,ピアストル,0,Branch,50,Used S-Move?,31,Go to 31
+28,*,164,ピアストル,0,Branch,49,Used Spell?,29,Go to 29
 29,*,164,ピアストル,0,Branch,28,Rating 80%,34,Go to 34
 30,*,164,ピアストル,0,Branch,30,Always,33,Go to 33
 31,*,164,ピアストル,0,Branch,26,Rating 60%,35,Go to 35
@@ -2892,8 +2892,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 37,*,164,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit036.dat,164,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit036.dat,164,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit036.dat,164,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit036.dat,164,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit036.dat,164,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit036.dat,164,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit036.dat,164,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit036.dat,164,ピアストル,0,Branch,27,Rating 70%,23,Go to 23
 7,ebinit036.dat,164,ピアストル,0,Branch,28,Rating 80%,25,Go to 25
@@ -2917,14 +2917,14 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 25,ebinit036.dat,164,ピアストル,1,Action,517,ジェダ,2,Random PC
 26,ebinit036.dat,164,ピアストル,1,Action,521,ウェイビィ,2,Random PC
 27,ebinit036.dat,164,ピアストル,1,Action,551,Guard,-1,None
-1,*,165,ピアストル,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,165,ピアストル,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,165,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
 3,*,165,ピアストル,0,Branch,28,Rating 80%,35,Go to 35
 4,*,165,ピアストル,0,Branch,2,HP < 25%,24,Go to 24
 5,*,165,ピアストル,0,Branch,17,ECs Alive = 1,27,Go to 27
 6,*,165,ピアストル,0,Branch,1,HP < 50%,19,Go to 19
-7,*,165,ピアストル,0,Branch,50,Used S-Move,16,Go to 16
-8,*,165,ピアストル,0,Branch,49,Used Spell,13,Go to 13
+7,*,165,ピアストル,0,Branch,50,Used S-Move?,16,Go to 16
+8,*,165,ピアストル,0,Branch,49,Used Spell?,13,Go to 13
 9,*,165,ピアストル,0,Branch,23,Rating 30%,34,Go to 34
 10,*,165,ピアストル,0,Branch,26,Rating 60%,33,Go to 33
 11,*,165,ピアストル,0,Branch,24,Rating 40%,35,Go to 35
@@ -2943,8 +2943,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 24,*,165,ピアストル,0,Branch,25,Rating 50%,34,Go to 34
 25,*,165,ピアストル,0,Branch,24,Rating 40%,37,Go to 37
 26,*,165,ピアストル,0,Branch,30,Always,35,Go to 35
-27,*,165,ピアストル,0,Branch,50,Used S-Move,31,Go to 31
-28,*,165,ピアストル,0,Branch,49,Used Spell,29,Go to 29
+27,*,165,ピアストル,0,Branch,50,Used S-Move?,31,Go to 31
+28,*,165,ピアストル,0,Branch,49,Used Spell?,29,Go to 29
 29,*,165,ピアストル,0,Branch,28,Rating 80%,34,Go to 34
 30,*,165,ピアストル,0,Branch,30,Always,33,Go to 33
 31,*,165,ピアストル,0,Branch,26,Rating 60%,35,Go to 35
@@ -2956,8 +2956,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 37,*,165,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit037.dat,165,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit037.dat,165,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit037.dat,165,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit037.dat,165,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit037.dat,165,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit037.dat,165,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit037.dat,165,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit037.dat,165,ピアストル,0,Branch,27,Rating 70%,23,Go to 23
 7,ebinit037.dat,165,ピアストル,0,Branch,28,Rating 80%,25,Go to 25
@@ -2981,14 +2981,14 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 25,ebinit037.dat,165,ピアストル,1,Action,517,ジェダ,2,Random PC
 26,ebinit037.dat,165,ピアストル,1,Action,521,ウェイビィ,2,Random PC
 27,ebinit037.dat,165,ピアストル,1,Action,551,Guard,-1,None
-1,*,166,ピアストル,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,166,ピアストル,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,166,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
 3,*,166,ピアストル,0,Branch,28,Rating 80%,35,Go to 35
 4,*,166,ピアストル,0,Branch,2,HP < 25%,24,Go to 24
 5,*,166,ピアストル,0,Branch,17,ECs Alive = 1,27,Go to 27
 6,*,166,ピアストル,0,Branch,1,HP < 50%,19,Go to 19
-7,*,166,ピアストル,0,Branch,50,Used S-Move,16,Go to 16
-8,*,166,ピアストル,0,Branch,49,Used Spell,13,Go to 13
+7,*,166,ピアストル,0,Branch,50,Used S-Move?,16,Go to 16
+8,*,166,ピアストル,0,Branch,49,Used Spell?,13,Go to 13
 9,*,166,ピアストル,0,Branch,23,Rating 30%,34,Go to 34
 10,*,166,ピアストル,0,Branch,26,Rating 60%,33,Go to 33
 11,*,166,ピアストル,0,Branch,24,Rating 40%,35,Go to 35
@@ -3007,8 +3007,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 24,*,166,ピアストル,0,Branch,25,Rating 50%,34,Go to 34
 25,*,166,ピアストル,0,Branch,24,Rating 40%,37,Go to 37
 26,*,166,ピアストル,0,Branch,30,Always,35,Go to 35
-27,*,166,ピアストル,0,Branch,50,Used S-Move,31,Go to 31
-28,*,166,ピアストル,0,Branch,49,Used Spell,29,Go to 29
+27,*,166,ピアストル,0,Branch,50,Used S-Move?,31,Go to 31
+28,*,166,ピアストル,0,Branch,49,Used Spell?,29,Go to 29
 29,*,166,ピアストル,0,Branch,28,Rating 80%,34,Go to 34
 30,*,166,ピアストル,0,Branch,30,Always,33,Go to 33
 31,*,166,ピアストル,0,Branch,26,Rating 60%,35,Go to 35
@@ -3020,8 +3020,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 37,*,166,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit038.dat,166,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit038.dat,166,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit038.dat,166,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit038.dat,166,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit038.dat,166,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit038.dat,166,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit038.dat,166,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit038.dat,166,ピアストル,0,Branch,27,Rating 70%,23,Go to 23
 7,ebinit038.dat,166,ピアストル,0,Branch,28,Rating 80%,25,Go to 25
@@ -3045,14 +3045,14 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 25,ebinit038.dat,166,ピアストル,1,Action,517,ジェダ,2,Random PC
 26,ebinit038.dat,166,ピアストル,1,Action,521,ウェイビィ,2,Random PC
 27,ebinit038.dat,166,ピアストル,1,Action,551,Guard,-1,None
-1,*,167,ピアストル,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,167,ピアストル,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,167,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
 3,*,167,ピアストル,0,Branch,28,Rating 80%,35,Go to 35
 4,*,167,ピアストル,0,Branch,2,HP < 25%,24,Go to 24
 5,*,167,ピアストル,0,Branch,17,ECs Alive = 1,27,Go to 27
 6,*,167,ピアストル,0,Branch,1,HP < 50%,19,Go to 19
-7,*,167,ピアストル,0,Branch,50,Used S-Move,16,Go to 16
-8,*,167,ピアストル,0,Branch,49,Used Spell,13,Go to 13
+7,*,167,ピアストル,0,Branch,50,Used S-Move?,16,Go to 16
+8,*,167,ピアストル,0,Branch,49,Used Spell?,13,Go to 13
 9,*,167,ピアストル,0,Branch,23,Rating 30%,34,Go to 34
 10,*,167,ピアストル,0,Branch,26,Rating 60%,33,Go to 33
 11,*,167,ピアストル,0,Branch,24,Rating 40%,35,Go to 35
@@ -3071,8 +3071,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 24,*,167,ピアストル,0,Branch,25,Rating 50%,34,Go to 34
 25,*,167,ピアストル,0,Branch,24,Rating 40%,37,Go to 37
 26,*,167,ピアストル,0,Branch,30,Always,35,Go to 35
-27,*,167,ピアストル,0,Branch,50,Used S-Move,31,Go to 31
-28,*,167,ピアストル,0,Branch,49,Used Spell,29,Go to 29
+27,*,167,ピアストル,0,Branch,50,Used S-Move?,31,Go to 31
+28,*,167,ピアストル,0,Branch,49,Used Spell?,29,Go to 29
 29,*,167,ピアストル,0,Branch,28,Rating 80%,34,Go to 34
 30,*,167,ピアストル,0,Branch,30,Always,33,Go to 33
 31,*,167,ピアストル,0,Branch,26,Rating 60%,35,Go to 35
@@ -3084,8 +3084,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 37,*,167,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit039.dat,167,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit039.dat,167,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit039.dat,167,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit039.dat,167,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit039.dat,167,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit039.dat,167,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit039.dat,167,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit039.dat,167,ピアストル,0,Branch,27,Rating 70%,23,Go to 23
 7,ebinit039.dat,167,ピアストル,0,Branch,28,Rating 80%,25,Go to 25
@@ -3111,11 +3111,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 27,ebinit039.dat,167,ピアストル,1,Action,551,Guard,-1,None
 1,*,168,ピアストル,0,Branch,2,HP < 25%,23,Go to 23
 2,*,168,ピアストル,0,Branch,17,ECs Alive = 1,26,Go to 26
-3,*,168,ピアストル,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,168,ピアストル,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,168,ピアストル,0,Branch,30,Always,26,Go to 26
 5,*,168,ピアストル,0,Branch,1,HP < 50%,18,Go to 18
-6,*,168,ピアストル,0,Branch,50,Used S-Move,15,Go to 15
-7,*,168,ピアストル,0,Branch,49,Used Spell,12,Go to 12
+6,*,168,ピアストル,0,Branch,50,Used S-Move?,15,Go to 15
+7,*,168,ピアストル,0,Branch,49,Used Spell?,12,Go to 12
 8,*,168,ピアストル,0,Branch,22,Rating 20%,35,Go to 35
 9,*,168,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
 10,*,168,ピアストル,0,Branch,28,Rating 80%,36,Go to 36
@@ -3134,8 +3134,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 23,*,168,ピアストル,0,Branch,24,Rating 40%,35,Go to 35
 24,*,168,ピアストル,0,Branch,25,Rating 50%,36,Go to 36
 25,*,168,ピアストル,0,Branch,30,Always,37,Go to 37
-26,*,168,ピアストル,0,Branch,50,Used S-Move,31,Go to 31
-27,*,168,ピアストル,0,Branch,49,Used Spell,29,Go to 29
+26,*,168,ピアストル,0,Branch,50,Used S-Move?,31,Go to 31
+27,*,168,ピアストル,0,Branch,49,Used Spell?,29,Go to 29
 28,*,168,ピアストル,0,Branch,30,Always,37,Go to 37
 29,*,168,ピアストル,0,Branch,27,Rating 70%,35,Go to 35
 30,*,168,ピアストル,0,Branch,30,Always,36,Go to 36
@@ -3150,8 +3150,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 39,*,168,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit040.dat,168,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit040.dat,168,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit040.dat,168,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit040.dat,168,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit040.dat,168,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit040.dat,168,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit040.dat,168,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit040.dat,168,ピアストル,0,Branch,25,Rating 50%,25,Go to 25
 7,ebinit040.dat,168,ピアストル,0,Branch,29,Rating 90%,23,Go to 23
@@ -3178,11 +3178,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 28,ebinit040.dat,168,ピアストル,1,Action,551,Guard,-1,None
 1,*,169,ピアストル,0,Branch,2,HP < 25%,23,Go to 23
 2,*,169,ピアストル,0,Branch,17,ECs Alive = 1,26,Go to 26
-3,*,169,ピアストル,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,169,ピアストル,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,169,ピアストル,0,Branch,30,Always,26,Go to 26
 5,*,169,ピアストル,0,Branch,1,HP < 50%,18,Go to 18
-6,*,169,ピアストル,0,Branch,50,Used S-Move,15,Go to 15
-7,*,169,ピアストル,0,Branch,49,Used Spell,12,Go to 12
+6,*,169,ピアストル,0,Branch,50,Used S-Move?,15,Go to 15
+7,*,169,ピアストル,0,Branch,49,Used Spell?,12,Go to 12
 8,*,169,ピアストル,0,Branch,22,Rating 20%,35,Go to 35
 9,*,169,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
 10,*,169,ピアストル,0,Branch,28,Rating 80%,36,Go to 36
@@ -3201,8 +3201,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 23,*,169,ピアストル,0,Branch,24,Rating 40%,35,Go to 35
 24,*,169,ピアストル,0,Branch,25,Rating 50%,36,Go to 36
 25,*,169,ピアストル,0,Branch,30,Always,37,Go to 37
-26,*,169,ピアストル,0,Branch,50,Used S-Move,31,Go to 31
-27,*,169,ピアストル,0,Branch,49,Used Spell,29,Go to 29
+26,*,169,ピアストル,0,Branch,50,Used S-Move?,31,Go to 31
+27,*,169,ピアストル,0,Branch,49,Used Spell?,29,Go to 29
 28,*,169,ピアストル,0,Branch,30,Always,37,Go to 37
 29,*,169,ピアストル,0,Branch,27,Rating 70%,35,Go to 35
 30,*,169,ピアストル,0,Branch,30,Always,36,Go to 36
@@ -3217,8 +3217,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 39,*,169,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit041.dat,169,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit041.dat,169,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit041.dat,169,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit041.dat,169,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit041.dat,169,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit041.dat,169,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit041.dat,169,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit041.dat,169,ピアストル,0,Branch,25,Rating 50%,25,Go to 25
 7,ebinit041.dat,169,ピアストル,0,Branch,29,Rating 90%,23,Go to 23
@@ -3245,11 +3245,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 28,ebinit041.dat,169,ピアストル,1,Action,551,Guard,-1,None
 1,*,170,ピアストル,0,Branch,2,HP < 25%,23,Go to 23
 2,*,170,ピアストル,0,Branch,17,ECs Alive = 1,26,Go to 26
-3,*,170,ピアストル,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,170,ピアストル,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,170,ピアストル,0,Branch,30,Always,26,Go to 26
 5,*,170,ピアストル,0,Branch,1,HP < 50%,18,Go to 18
-6,*,170,ピアストル,0,Branch,50,Used S-Move,15,Go to 15
-7,*,170,ピアストル,0,Branch,49,Used Spell,12,Go to 12
+6,*,170,ピアストル,0,Branch,50,Used S-Move?,15,Go to 15
+7,*,170,ピアストル,0,Branch,49,Used Spell?,12,Go to 12
 8,*,170,ピアストル,0,Branch,22,Rating 20%,35,Go to 35
 9,*,170,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
 10,*,170,ピアストル,0,Branch,28,Rating 80%,36,Go to 36
@@ -3268,8 +3268,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 23,*,170,ピアストル,0,Branch,24,Rating 40%,35,Go to 35
 24,*,170,ピアストル,0,Branch,25,Rating 50%,36,Go to 36
 25,*,170,ピアストル,0,Branch,30,Always,37,Go to 37
-26,*,170,ピアストル,0,Branch,50,Used S-Move,31,Go to 31
-27,*,170,ピアストル,0,Branch,49,Used Spell,29,Go to 29
+26,*,170,ピアストル,0,Branch,50,Used S-Move?,31,Go to 31
+27,*,170,ピアストル,0,Branch,49,Used Spell?,29,Go to 29
 28,*,170,ピアストル,0,Branch,30,Always,37,Go to 37
 29,*,170,ピアストル,0,Branch,27,Rating 70%,35,Go to 35
 30,*,170,ピアストル,0,Branch,30,Always,36,Go to 36
@@ -3284,8 +3284,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 39,*,170,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit042.dat,170,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit042.dat,170,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit042.dat,170,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit042.dat,170,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit042.dat,170,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit042.dat,170,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit042.dat,170,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit042.dat,170,ピアストル,0,Branch,25,Rating 50%,25,Go to 25
 7,ebinit042.dat,170,ピアストル,0,Branch,29,Rating 90%,23,Go to 23
@@ -3312,11 +3312,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 28,ebinit042.dat,170,ピアストル,1,Action,551,Guard,-1,None
 1,*,171,ピアストル,0,Branch,2,HP < 25%,23,Go to 23
 2,*,171,ピアストル,0,Branch,17,ECs Alive = 1,26,Go to 26
-3,*,171,ピアストル,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,171,ピアストル,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,171,ピアストル,0,Branch,30,Always,26,Go to 26
 5,*,171,ピアストル,0,Branch,1,HP < 50%,18,Go to 18
-6,*,171,ピアストル,0,Branch,50,Used S-Move,15,Go to 15
-7,*,171,ピアストル,0,Branch,49,Used Spell,12,Go to 12
+6,*,171,ピアストル,0,Branch,50,Used S-Move?,15,Go to 15
+7,*,171,ピアストル,0,Branch,49,Used Spell?,12,Go to 12
 8,*,171,ピアストル,0,Branch,22,Rating 20%,35,Go to 35
 9,*,171,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
 10,*,171,ピアストル,0,Branch,28,Rating 80%,36,Go to 36
@@ -3335,8 +3335,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 23,*,171,ピアストル,0,Branch,24,Rating 40%,35,Go to 35
 24,*,171,ピアストル,0,Branch,25,Rating 50%,36,Go to 36
 25,*,171,ピアストル,0,Branch,30,Always,37,Go to 37
-26,*,171,ピアストル,0,Branch,50,Used S-Move,31,Go to 31
-27,*,171,ピアストル,0,Branch,49,Used Spell,29,Go to 29
+26,*,171,ピアストル,0,Branch,50,Used S-Move?,31,Go to 31
+27,*,171,ピアストル,0,Branch,49,Used Spell?,29,Go to 29
 28,*,171,ピアストル,0,Branch,30,Always,37,Go to 37
 29,*,171,ピアストル,0,Branch,27,Rating 70%,35,Go to 35
 30,*,171,ピアストル,0,Branch,30,Always,36,Go to 36
@@ -3351,8 +3351,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 39,*,171,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit043.dat,171,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit043.dat,171,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit043.dat,171,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit043.dat,171,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit043.dat,171,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit043.dat,171,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit043.dat,171,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit043.dat,171,ピアストル,0,Branch,25,Rating 50%,25,Go to 25
 7,ebinit043.dat,171,ピアストル,0,Branch,29,Rating 90%,23,Go to 23
@@ -3379,11 +3379,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 28,ebinit043.dat,171,ピアストル,1,Action,551,Guard,-1,None
 1,*,172,ピアストル,0,Branch,2,HP < 25%,23,Go to 23
 2,*,172,ピアストル,0,Branch,17,ECs Alive = 1,26,Go to 26
-3,*,172,ピアストル,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,172,ピアストル,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,172,ピアストル,0,Branch,30,Always,26,Go to 26
 5,*,172,ピアストル,0,Branch,1,HP < 50%,18,Go to 18
-6,*,172,ピアストル,0,Branch,50,Used S-Move,15,Go to 15
-7,*,172,ピアストル,0,Branch,49,Used Spell,12,Go to 12
+6,*,172,ピアストル,0,Branch,50,Used S-Move?,15,Go to 15
+7,*,172,ピアストル,0,Branch,49,Used Spell?,12,Go to 12
 8,*,172,ピアストル,0,Branch,22,Rating 20%,35,Go to 35
 9,*,172,ピアストル,0,Branch,24,Rating 40%,34,Go to 34
 10,*,172,ピアストル,0,Branch,28,Rating 80%,36,Go to 36
@@ -3402,8 +3402,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 23,*,172,ピアストル,0,Branch,24,Rating 40%,35,Go to 35
 24,*,172,ピアストル,0,Branch,25,Rating 50%,36,Go to 36
 25,*,172,ピアストル,0,Branch,30,Always,37,Go to 37
-26,*,172,ピアストル,0,Branch,50,Used S-Move,31,Go to 31
-27,*,172,ピアストル,0,Branch,49,Used Spell,29,Go to 29
+26,*,172,ピアストル,0,Branch,50,Used S-Move?,31,Go to 31
+27,*,172,ピアストル,0,Branch,49,Used Spell?,29,Go to 29
 28,*,172,ピアストル,0,Branch,30,Always,37,Go to 37
 29,*,172,ピアストル,0,Branch,27,Rating 70%,35,Go to 35
 30,*,172,ピアストル,0,Branch,30,Always,36,Go to 36
@@ -3418,8 +3418,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 39,*,172,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit044.dat,172,ピアストル,0,Branch,2,HP < 25%,20,Go to 20
 2,ebinit044.dat,172,ピアストル,0,Branch,1,HP < 50%,15,Go to 15
-3,ebinit044.dat,172,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit044.dat,172,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit044.dat,172,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit044.dat,172,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit044.dat,172,ピアストル,0,Branch,23,Rating 30%,24,Go to 24
 6,ebinit044.dat,172,ピアストル,0,Branch,25,Rating 50%,25,Go to 25
 7,ebinit044.dat,172,ピアストル,0,Branch,29,Rating 90%,23,Go to 23
@@ -3446,12 +3446,12 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 28,ebinit044.dat,172,ピアストル,1,Action,551,Guard,-1,None
 1,*,173,ピアストル,0,Branch,2,HP < 25%,25,Go to 25
 2,*,173,ピアストル,0,Branch,17,ECs Alive = 1,28,Go to 28
-3,*,173,ピアストル,0,Branch,19,Party SP ≤ 50%,6,Go to 6
+3,*,173,ピアストル,0,Branch,19,SP ≤ 50%,6,Go to 6
 4,*,173,ピアストル,0,Branch,26,Rating 60%,37,Go to 37
 5,*,173,ピアストル,0,Branch,30,Always,38,Go to 38
 6,*,173,ピアストル,0,Branch,1,HP < 50%,20,Go to 20
-7,*,173,ピアストル,0,Branch,50,Used S-Move,16,Go to 16
-8,*,173,ピアストル,0,Branch,49,Used Spell,13,Go to 13
+7,*,173,ピアストル,0,Branch,50,Used S-Move?,16,Go to 16
+8,*,173,ピアストル,0,Branch,49,Used Spell?,13,Go to 13
 9,*,173,ピアストル,0,Branch,22,Rating 20%,37,Go to 37
 10,*,173,ピアストル,0,Branch,24,Rating 40%,38,Go to 38
 11,*,173,ピアストル,0,Branch,24,Rating 40%,36,Go to 36
@@ -3471,8 +3471,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 25,*,173,ピアストル,0,Branch,24,Rating 40%,37,Go to 37
 26,*,173,ピアストル,0,Branch,25,Rating 50%,38,Go to 38
 27,*,173,ピアストル,0,Branch,30,Always,28,Go to 28
-28,*,173,ピアストル,0,Branch,50,Used S-Move,33,Go to 33
-29,*,173,ピアストル,0,Branch,49,Used Spell,31,Go to 31
+28,*,173,ピアストル,0,Branch,50,Used S-Move?,33,Go to 33
+29,*,173,ピアストル,0,Branch,49,Used Spell?,31,Go to 31
 30,*,173,ピアストル,0,Branch,30,Always,39,Go to 39
 31,*,173,ピアストル,0,Branch,27,Rating 70%,37,Go to 37
 32,*,173,ピアストル,0,Branch,30,Always,38,Go to 38
@@ -3488,8 +3488,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 42,*,173,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit045.dat,173,ピアストル,0,Branch,2,HP < 25%,21,Go to 21
 2,ebinit045.dat,173,ピアストル,0,Branch,1,HP < 50%,16,Go to 16
-3,ebinit045.dat,173,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit045.dat,173,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit045.dat,173,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit045.dat,173,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit045.dat,173,ピアストル,0,Branch,23,Rating 30%,25,Go to 25
 6,ebinit045.dat,173,ピアストル,0,Branch,25,Rating 50%,26,Go to 26
 7,ebinit045.dat,173,ピアストル,0,Branch,29,Rating 90%,24,Go to 24
@@ -3518,12 +3518,12 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 30,ebinit045.dat,173,ピアストル,1,Action,551,Guard,-1,None
 1,*,174,ピアストル,0,Branch,2,HP < 25%,25,Go to 25
 2,*,174,ピアストル,0,Branch,17,ECs Alive = 1,28,Go to 28
-3,*,174,ピアストル,0,Branch,19,Party SP ≤ 50%,6,Go to 6
+3,*,174,ピアストル,0,Branch,19,SP ≤ 50%,6,Go to 6
 4,*,174,ピアストル,0,Branch,26,Rating 60%,37,Go to 37
 5,*,174,ピアストル,0,Branch,30,Always,38,Go to 38
 6,*,174,ピアストル,0,Branch,1,HP < 50%,20,Go to 20
-7,*,174,ピアストル,0,Branch,50,Used S-Move,16,Go to 16
-8,*,174,ピアストル,0,Branch,49,Used Spell,13,Go to 13
+7,*,174,ピアストル,0,Branch,50,Used S-Move?,16,Go to 16
+8,*,174,ピアストル,0,Branch,49,Used Spell?,13,Go to 13
 9,*,174,ピアストル,0,Branch,22,Rating 20%,37,Go to 37
 10,*,174,ピアストル,0,Branch,24,Rating 40%,38,Go to 38
 11,*,174,ピアストル,0,Branch,24,Rating 40%,36,Go to 36
@@ -3543,8 +3543,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 25,*,174,ピアストル,0,Branch,24,Rating 40%,37,Go to 37
 26,*,174,ピアストル,0,Branch,25,Rating 50%,38,Go to 38
 27,*,174,ピアストル,0,Branch,30,Always,28,Go to 28
-28,*,174,ピアストル,0,Branch,50,Used S-Move,33,Go to 33
-29,*,174,ピアストル,0,Branch,49,Used Spell,31,Go to 31
+28,*,174,ピアストル,0,Branch,50,Used S-Move?,33,Go to 33
+29,*,174,ピアストル,0,Branch,49,Used Spell?,31,Go to 31
 30,*,174,ピアストル,0,Branch,30,Always,39,Go to 39
 31,*,174,ピアストル,0,Branch,27,Rating 70%,37,Go to 37
 32,*,174,ピアストル,0,Branch,30,Always,38,Go to 38
@@ -3560,8 +3560,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 42,*,174,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit046.dat,174,ピアストル,0,Branch,2,HP < 25%,21,Go to 21
 2,ebinit046.dat,174,ピアストル,0,Branch,1,HP < 50%,16,Go to 16
-3,ebinit046.dat,174,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit046.dat,174,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit046.dat,174,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit046.dat,174,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit046.dat,174,ピアストル,0,Branch,23,Rating 30%,25,Go to 25
 6,ebinit046.dat,174,ピアストル,0,Branch,25,Rating 50%,26,Go to 26
 7,ebinit046.dat,174,ピアストル,0,Branch,29,Rating 90%,24,Go to 24
@@ -3590,12 +3590,12 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 30,ebinit046.dat,174,ピアストル,1,Action,551,Guard,-1,None
 1,*,175,ピアストル,0,Branch,2,HP < 25%,25,Go to 25
 2,*,175,ピアストル,0,Branch,17,ECs Alive = 1,28,Go to 28
-3,*,175,ピアストル,0,Branch,19,Party SP ≤ 50%,6,Go to 6
+3,*,175,ピアストル,0,Branch,19,SP ≤ 50%,6,Go to 6
 4,*,175,ピアストル,0,Branch,26,Rating 60%,37,Go to 37
 5,*,175,ピアストル,0,Branch,30,Always,38,Go to 38
 6,*,175,ピアストル,0,Branch,1,HP < 50%,20,Go to 20
-7,*,175,ピアストル,0,Branch,50,Used S-Move,16,Go to 16
-8,*,175,ピアストル,0,Branch,49,Used Spell,13,Go to 13
+7,*,175,ピアストル,0,Branch,50,Used S-Move?,16,Go to 16
+8,*,175,ピアストル,0,Branch,49,Used Spell?,13,Go to 13
 9,*,175,ピアストル,0,Branch,22,Rating 20%,37,Go to 37
 10,*,175,ピアストル,0,Branch,24,Rating 40%,38,Go to 38
 11,*,175,ピアストル,0,Branch,24,Rating 40%,36,Go to 36
@@ -3615,8 +3615,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 25,*,175,ピアストル,0,Branch,24,Rating 40%,37,Go to 37
 26,*,175,ピアストル,0,Branch,25,Rating 50%,38,Go to 38
 27,*,175,ピアストル,0,Branch,30,Always,28,Go to 28
-28,*,175,ピアストル,0,Branch,50,Used S-Move,33,Go to 33
-29,*,175,ピアストル,0,Branch,49,Used Spell,31,Go to 31
+28,*,175,ピアストル,0,Branch,50,Used S-Move?,33,Go to 33
+29,*,175,ピアストル,0,Branch,49,Used Spell?,31,Go to 31
 30,*,175,ピアストル,0,Branch,30,Always,39,Go to 39
 31,*,175,ピアストル,0,Branch,27,Rating 70%,37,Go to 37
 32,*,175,ピアストル,0,Branch,30,Always,38,Go to 38
@@ -3632,8 +3632,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 42,*,175,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit047.dat,175,ピアストル,0,Branch,2,HP < 25%,21,Go to 21
 2,ebinit047.dat,175,ピアストル,0,Branch,1,HP < 50%,16,Go to 16
-3,ebinit047.dat,175,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit047.dat,175,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit047.dat,175,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit047.dat,175,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit047.dat,175,ピアストル,0,Branch,23,Rating 30%,25,Go to 25
 6,ebinit047.dat,175,ピアストル,0,Branch,25,Rating 50%,26,Go to 26
 7,ebinit047.dat,175,ピアストル,0,Branch,29,Rating 90%,24,Go to 24
@@ -3662,12 +3662,12 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 30,ebinit047.dat,175,ピアストル,1,Action,551,Guard,-1,None
 1,*,176,ピアストル,0,Branch,2,HP < 25%,25,Go to 25
 2,*,176,ピアストル,0,Branch,17,ECs Alive = 1,28,Go to 28
-3,*,176,ピアストル,0,Branch,19,Party SP ≤ 50%,6,Go to 6
+3,*,176,ピアストル,0,Branch,19,SP ≤ 50%,6,Go to 6
 4,*,176,ピアストル,0,Branch,26,Rating 60%,37,Go to 37
 5,*,176,ピアストル,0,Branch,30,Always,38,Go to 38
 6,*,176,ピアストル,0,Branch,1,HP < 50%,20,Go to 20
-7,*,176,ピアストル,0,Branch,50,Used S-Move,16,Go to 16
-8,*,176,ピアストル,0,Branch,49,Used Spell,13,Go to 13
+7,*,176,ピアストル,0,Branch,50,Used S-Move?,16,Go to 16
+8,*,176,ピアストル,0,Branch,49,Used Spell?,13,Go to 13
 9,*,176,ピアストル,0,Branch,22,Rating 20%,37,Go to 37
 10,*,176,ピアストル,0,Branch,24,Rating 40%,38,Go to 38
 11,*,176,ピアストル,0,Branch,24,Rating 40%,36,Go to 36
@@ -3687,8 +3687,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 25,*,176,ピアストル,0,Branch,24,Rating 40%,37,Go to 37
 26,*,176,ピアストル,0,Branch,25,Rating 50%,38,Go to 38
 27,*,176,ピアストル,0,Branch,30,Always,28,Go to 28
-28,*,176,ピアストル,0,Branch,50,Used S-Move,33,Go to 33
-29,*,176,ピアストル,0,Branch,49,Used Spell,31,Go to 31
+28,*,176,ピアストル,0,Branch,50,Used S-Move?,33,Go to 33
+29,*,176,ピアストル,0,Branch,49,Used Spell?,31,Go to 31
 30,*,176,ピアストル,0,Branch,30,Always,39,Go to 39
 31,*,176,ピアストル,0,Branch,27,Rating 70%,37,Go to 37
 32,*,176,ピアストル,0,Branch,30,Always,38,Go to 38
@@ -3704,8 +3704,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 42,*,176,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit048.dat,176,ピアストル,0,Branch,2,HP < 25%,21,Go to 21
 2,ebinit048.dat,176,ピアストル,0,Branch,1,HP < 50%,16,Go to 16
-3,ebinit048.dat,176,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit048.dat,176,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit048.dat,176,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit048.dat,176,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit048.dat,176,ピアストル,0,Branch,23,Rating 30%,25,Go to 25
 6,ebinit048.dat,176,ピアストル,0,Branch,25,Rating 50%,26,Go to 26
 7,ebinit048.dat,176,ピアストル,0,Branch,29,Rating 90%,24,Go to 24
@@ -3734,12 +3734,12 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 30,ebinit048.dat,176,ピアストル,1,Action,551,Guard,-1,None
 1,*,177,ピアストル,0,Branch,2,HP < 25%,25,Go to 25
 2,*,177,ピアストル,0,Branch,17,ECs Alive = 1,28,Go to 28
-3,*,177,ピアストル,0,Branch,19,Party SP ≤ 50%,6,Go to 6
+3,*,177,ピアストル,0,Branch,19,SP ≤ 50%,6,Go to 6
 4,*,177,ピアストル,0,Branch,26,Rating 60%,37,Go to 37
 5,*,177,ピアストル,0,Branch,30,Always,38,Go to 38
 6,*,177,ピアストル,0,Branch,1,HP < 50%,20,Go to 20
-7,*,177,ピアストル,0,Branch,50,Used S-Move,16,Go to 16
-8,*,177,ピアストル,0,Branch,49,Used Spell,13,Go to 13
+7,*,177,ピアストル,0,Branch,50,Used S-Move?,16,Go to 16
+8,*,177,ピアストル,0,Branch,49,Used Spell?,13,Go to 13
 9,*,177,ピアストル,0,Branch,22,Rating 20%,37,Go to 37
 10,*,177,ピアストル,0,Branch,24,Rating 40%,38,Go to 38
 11,*,177,ピアストル,0,Branch,24,Rating 40%,36,Go to 36
@@ -3759,8 +3759,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 25,*,177,ピアストル,0,Branch,24,Rating 40%,37,Go to 37
 26,*,177,ピアストル,0,Branch,25,Rating 50%,38,Go to 38
 27,*,177,ピアストル,0,Branch,30,Always,28,Go to 28
-28,*,177,ピアストル,0,Branch,50,Used S-Move,33,Go to 33
-29,*,177,ピアストル,0,Branch,49,Used Spell,31,Go to 31
+28,*,177,ピアストル,0,Branch,50,Used S-Move?,33,Go to 33
+29,*,177,ピアストル,0,Branch,49,Used Spell?,31,Go to 31
 30,*,177,ピアストル,0,Branch,30,Always,39,Go to 39
 31,*,177,ピアストル,0,Branch,27,Rating 70%,37,Go to 37
 32,*,177,ピアストル,0,Branch,30,Always,38,Go to 38
@@ -3776,8 +3776,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 42,*,177,ピアストル,1,Action,551,Guard,-1,None
 1,ebinit049.dat,177,ピアストル,0,Branch,2,HP < 25%,21,Go to 21
 2,ebinit049.dat,177,ピアストル,0,Branch,1,HP < 50%,16,Go to 16
-3,ebinit049.dat,177,ピアストル,0,Branch,50,Used S-Move,12,Go to 12
-4,ebinit049.dat,177,ピアストル,0,Branch,49,Used Spell,9,Go to 9
+3,ebinit049.dat,177,ピアストル,0,Branch,50,Used S-Move?,12,Go to 12
+4,ebinit049.dat,177,ピアストル,0,Branch,49,Used Spell?,9,Go to 9
 5,ebinit049.dat,177,ピアストル,0,Branch,23,Rating 30%,25,Go to 25
 6,ebinit049.dat,177,ピアストル,0,Branch,25,Rating 50%,26,Go to 26
 7,ebinit049.dat,177,ピアストル,0,Branch,29,Rating 90%,24,Go to 24
@@ -3804,7 +3804,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 28,ebinit049.dat,177,ピアストル,1,Action,519,ジェドーサ,2,Random PC
 29,ebinit049.dat,177,ピアストル,1,Action,531,ウェイベス,2,Random PC
 30,ebinit049.dat,177,ピアストル,1,Action,551,Guard,-1,None
-1,*,178,タラ,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,178,タラ,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,178,タラ,0,Branch,28,Rating 80%,14,Go to 14
 3,*,178,タラ,0,Branch,30,Always,18,Go to 18
 4,*,178,タラ,0,Branch,39,Any EC HP < 25%,9,Go to 9
@@ -3818,7 +3818,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 12,*,178,タラ,0,Branch,26,Rating 60%,18,Go to 18
 13,*,178,タラ,0,Branch,30,Always,14,Go to 14
 14,*,178,タラ,0,Branch,64,PCs Alive = 3,17,Go to 17
-15,*,178,タラ,0,Branch,50,Used S-Move,17,Go to 17
+15,*,178,タラ,0,Branch,50,Used S-Move?,17,Go to 17
 16,*,178,タラ,0,Branch,66,ECs Alive = 3,19,Go to 19
 17,*,178,タラ,1,Action,550,Attack,2,Random PC
 18,*,178,タラ,1,Action,551,Guard,-1,None
@@ -3838,7 +3838,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,ebinit050.dat,178,タラ,1,Action,551,Guard,-1,None
 14,ebinit050.dat,178,タラ,1,Action,550,Attack,2,Random PC
 15,ebinit050.dat,178,タラ,1,Action,280,チャックモール,-1,None
-1,*,179,タラ,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,179,タラ,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,179,タラ,0,Branch,28,Rating 80%,14,Go to 14
 3,*,179,タラ,0,Branch,30,Always,18,Go to 18
 4,*,179,タラ,0,Branch,39,Any EC HP < 25%,9,Go to 9
@@ -3852,7 +3852,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 12,*,179,タラ,0,Branch,26,Rating 60%,18,Go to 18
 13,*,179,タラ,0,Branch,30,Always,14,Go to 14
 14,*,179,タラ,0,Branch,64,PCs Alive = 3,17,Go to 17
-15,*,179,タラ,0,Branch,50,Used S-Move,17,Go to 17
+15,*,179,タラ,0,Branch,50,Used S-Move?,17,Go to 17
 16,*,179,タラ,0,Branch,66,ECs Alive = 3,19,Go to 19
 17,*,179,タラ,1,Action,550,Attack,2,Random PC
 18,*,179,タラ,1,Action,551,Guard,-1,None
@@ -3872,7 +3872,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,ebinit051.dat,179,タラ,1,Action,551,Guard,-1,None
 14,ebinit051.dat,179,タラ,1,Action,550,Attack,2,Random PC
 15,ebinit051.dat,179,タラ,1,Action,280,チャックモール,-1,None
-1,*,180,タラ,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,180,タラ,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,180,タラ,0,Branch,28,Rating 80%,14,Go to 14
 3,*,180,タラ,0,Branch,30,Always,18,Go to 18
 4,*,180,タラ,0,Branch,39,Any EC HP < 25%,9,Go to 9
@@ -3886,7 +3886,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 12,*,180,タラ,0,Branch,26,Rating 60%,18,Go to 18
 13,*,180,タラ,0,Branch,30,Always,14,Go to 14
 14,*,180,タラ,0,Branch,64,PCs Alive = 3,17,Go to 17
-15,*,180,タラ,0,Branch,50,Used S-Move,17,Go to 17
+15,*,180,タラ,0,Branch,50,Used S-Move?,17,Go to 17
 16,*,180,タラ,0,Branch,66,ECs Alive = 3,19,Go to 19
 17,*,180,タラ,1,Action,550,Attack,2,Random PC
 18,*,180,タラ,1,Action,551,Guard,-1,None
@@ -3906,7 +3906,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,ebinit052.dat,180,タラ,1,Action,551,Guard,-1,None
 14,ebinit052.dat,180,タラ,1,Action,550,Attack,2,Random PC
 15,ebinit052.dat,180,タラ,1,Action,280,チャックモール,-1,None
-1,*,181,タラ,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,181,タラ,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,181,タラ,0,Branch,28,Rating 80%,14,Go to 14
 3,*,181,タラ,0,Branch,30,Always,18,Go to 18
 4,*,181,タラ,0,Branch,39,Any EC HP < 25%,9,Go to 9
@@ -3920,7 +3920,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 12,*,181,タラ,0,Branch,26,Rating 60%,18,Go to 18
 13,*,181,タラ,0,Branch,30,Always,14,Go to 14
 14,*,181,タラ,0,Branch,64,PCs Alive = 3,17,Go to 17
-15,*,181,タラ,0,Branch,50,Used S-Move,17,Go to 17
+15,*,181,タラ,0,Branch,50,Used S-Move?,17,Go to 17
 16,*,181,タラ,0,Branch,66,ECs Alive = 3,19,Go to 19
 17,*,181,タラ,1,Action,550,Attack,2,Random PC
 18,*,181,タラ,1,Action,551,Guard,-1,None
@@ -3940,7 +3940,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 13,ebinit053.dat,181,タラ,1,Action,551,Guard,-1,None
 14,ebinit053.dat,181,タラ,1,Action,550,Attack,2,Random PC
 15,ebinit053.dat,181,タラ,1,Action,280,チャックモール,-1,None
-1,*,182,タラ,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,182,タラ,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,182,タラ,0,Branch,28,Rating 80%,14,Go to 14
 3,*,182,タラ,0,Branch,30,Always,18,Go to 18
 4,*,182,タラ,0,Branch,39,Any EC HP < 25%,9,Go to 9
@@ -3954,7 +3954,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 12,*,182,タラ,0,Branch,26,Rating 60%,18,Go to 18
 13,*,182,タラ,0,Branch,30,Always,14,Go to 14
 14,*,182,タラ,0,Branch,64,PCs Alive = 3,17,Go to 17
-15,*,182,タラ,0,Branch,50,Used S-Move,17,Go to 17
+15,*,182,タラ,0,Branch,50,Used S-Move?,17,Go to 17
 16,*,182,タラ,0,Branch,66,ECs Alive = 3,19,Go to 19
 17,*,182,タラ,1,Action,550,Attack,2,Random PC
 18,*,182,タラ,1,Action,551,Guard,-1,None
@@ -3986,9 +3986,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 10,*,183,リラ,0,Branch,30,Always,17,Go to 17
 11,*,183,リラ,0,Branch,26,Rating 60%,13,Go to 13
 12,*,183,リラ,0,Branch,27,Rating 70%,21,Go to 21
-13,*,183,リラ,0,Branch,49,Used Spell,4,Go to 4
+13,*,183,リラ,0,Branch,49,Used Spell?,4,Go to 4
 14,*,183,リラ,0,Branch,30,Always,19,Go to 19
-15,*,183,リラ,0,Branch,49,Used Spell,4,Go to 4
+15,*,183,リラ,0,Branch,49,Used Spell?,4,Go to 4
 16,*,183,リラ,0,Branch,30,Always,18,Go to 18
 17,*,183,リラ,1,Action,550,Attack,4,PC w/ Least HP
 18,*,183,リラ,1,Action,508,サプレス,-1,None
@@ -4024,9 +4024,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 10,*,184,リラ,0,Branch,30,Always,17,Go to 17
 11,*,184,リラ,0,Branch,26,Rating 60%,13,Go to 13
 12,*,184,リラ,0,Branch,27,Rating 70%,21,Go to 21
-13,*,184,リラ,0,Branch,49,Used Spell,4,Go to 4
+13,*,184,リラ,0,Branch,49,Used Spell?,4,Go to 4
 14,*,184,リラ,0,Branch,30,Always,19,Go to 19
-15,*,184,リラ,0,Branch,49,Used Spell,4,Go to 4
+15,*,184,リラ,0,Branch,49,Used Spell?,4,Go to 4
 16,*,184,リラ,0,Branch,30,Always,18,Go to 18
 17,*,184,リラ,1,Action,550,Attack,4,PC w/ Least HP
 18,*,184,リラ,1,Action,508,サプレス,-1,None
@@ -4062,9 +4062,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 10,*,185,リラ,0,Branch,30,Always,17,Go to 17
 11,*,185,リラ,0,Branch,26,Rating 60%,13,Go to 13
 12,*,185,リラ,0,Branch,27,Rating 70%,21,Go to 21
-13,*,185,リラ,0,Branch,49,Used Spell,4,Go to 4
+13,*,185,リラ,0,Branch,49,Used Spell?,4,Go to 4
 14,*,185,リラ,0,Branch,30,Always,19,Go to 19
-15,*,185,リラ,0,Branch,49,Used Spell,4,Go to 4
+15,*,185,リラ,0,Branch,49,Used Spell?,4,Go to 4
 16,*,185,リラ,0,Branch,30,Always,18,Go to 18
 17,*,185,リラ,1,Action,550,Attack,4,PC w/ Least HP
 18,*,185,リラ,1,Action,508,サプレス,-1,None
@@ -4100,9 +4100,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 10,*,186,リラ,0,Branch,30,Always,17,Go to 17
 11,*,186,リラ,0,Branch,26,Rating 60%,13,Go to 13
 12,*,186,リラ,0,Branch,27,Rating 70%,21,Go to 21
-13,*,186,リラ,0,Branch,49,Used Spell,4,Go to 4
+13,*,186,リラ,0,Branch,49,Used Spell?,4,Go to 4
 14,*,186,リラ,0,Branch,30,Always,19,Go to 19
-15,*,186,リラ,0,Branch,49,Used Spell,4,Go to 4
+15,*,186,リラ,0,Branch,49,Used Spell?,4,Go to 4
 16,*,186,リラ,0,Branch,30,Always,18,Go to 18
 17,*,186,リラ,1,Action,550,Attack,4,PC w/ Least HP
 18,*,186,リラ,1,Action,508,サプレス,-1,None
@@ -4138,9 +4138,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 10,*,187,リラ,0,Branch,30,Always,17,Go to 17
 11,*,187,リラ,0,Branch,26,Rating 60%,13,Go to 13
 12,*,187,リラ,0,Branch,27,Rating 70%,21,Go to 21
-13,*,187,リラ,0,Branch,49,Used Spell,4,Go to 4
+13,*,187,リラ,0,Branch,49,Used Spell?,4,Go to 4
 14,*,187,リラ,0,Branch,30,Always,19,Go to 19
-15,*,187,リラ,0,Branch,49,Used Spell,4,Go to 4
+15,*,187,リラ,0,Branch,49,Used Spell?,4,Go to 4
 16,*,187,リラ,0,Branch,30,Always,18,Go to 18
 17,*,187,リラ,1,Action,550,Attack,4,PC w/ Least HP
 18,*,187,リラ,1,Action,508,サプレス,-1,None
@@ -4164,7 +4164,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 15,ebinit059.dat,187,リラ,1,Action,507,サプリィ,7,EC w/ Least HP
 16,ebinit059.dat,187,リラ,1,Action,511,プワゾーク,-1,None
 17,ebinit059.dat,187,リラ,1,Action,551,Guard,-1,None
-1,*,188,プラ,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,188,プラ,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,188,プラ,0,Branch,26,Rating 60%,17,Go to 17
 3,*,188,プラ,0,Branch,15,Turn 8,15,Go to 15
 4,*,188,プラ,0,Branch,12,Turn 2,19,Go to 19
@@ -4207,7 +4207,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 19,ebinit060.dat,188,プラ,1,Action,502,サイレシャ,15,PC w/o Silence
 20,ebinit060.dat,188,プラ,1,Action,504,ダウナ,17,PC w/o Weak
 21,ebinit060.dat,188,プラ,1,Action,551,Guard,-1,None
-1,*,189,プラ,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,189,プラ,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,189,プラ,0,Branch,26,Rating 60%,17,Go to 17
 3,*,189,プラ,0,Branch,15,Turn 8,15,Go to 15
 4,*,189,プラ,0,Branch,12,Turn 2,19,Go to 19
@@ -4250,7 +4250,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 19,ebinit061.dat,189,プラ,1,Action,502,サイレシャ,15,PC w/o Silence
 20,ebinit061.dat,189,プラ,1,Action,504,ダウナ,17,PC w/o Weak
 21,ebinit061.dat,189,プラ,1,Action,551,Guard,-1,None
-1,*,190,プラ,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,190,プラ,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,190,プラ,0,Branch,26,Rating 60%,17,Go to 17
 3,*,190,プラ,0,Branch,15,Turn 8,15,Go to 15
 4,*,190,プラ,0,Branch,12,Turn 2,19,Go to 19
@@ -4293,7 +4293,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 19,ebinit062.dat,190,プラ,1,Action,502,サイレシャ,15,PC w/o Silence
 20,ebinit062.dat,190,プラ,1,Action,504,ダウナ,17,PC w/o Weak
 21,ebinit062.dat,190,プラ,1,Action,551,Guard,-1,None
-1,*,191,プラ,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,191,プラ,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,191,プラ,0,Branch,26,Rating 60%,17,Go to 17
 3,*,191,プラ,0,Branch,15,Turn 8,15,Go to 15
 4,*,191,プラ,0,Branch,12,Turn 2,19,Go to 19
@@ -4336,7 +4336,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 19,ebinit063.dat,191,プラ,1,Action,502,サイレシャ,15,PC w/o Silence
 20,ebinit063.dat,191,プラ,1,Action,504,ダウナ,17,PC w/o Weak
 21,ebinit063.dat,191,プラ,1,Action,551,Guard,-1,None
-1,*,192,プラ,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,192,プラ,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,192,プラ,0,Branch,26,Rating 60%,17,Go to 17
 3,*,192,プラ,0,Branch,15,Turn 8,15,Go to 15
 4,*,192,プラ,0,Branch,12,Turn 2,19,Go to 19
@@ -4379,7 +4379,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 19,ebinit064.dat,192,プラ,1,Action,502,サイレシャ,15,PC w/o Silence
 20,ebinit064.dat,192,プラ,1,Action,504,ダウナ,17,PC w/o Weak
 21,ebinit064.dat,192,プラ,1,Action,551,Guard,-1,None
-1,*,193,ダイコクヤ,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,193,ダイコクヤ,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,193,ダイコクヤ,0,Branch,30,Always,43,Go to 43
 3,*,193,ダイコクヤ,0,Branch,2,HP < 25%,25,Go to 25
 4,*,193,ダイコクヤ,0,Branch,17,ECs Alive = 1,35,Go to 35
@@ -4413,7 +4413,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 32,*,193,ダイコクヤ,0,Branch,27,Rating 70%,43,Go to 43
 33,*,193,ダイコクヤ,0,Branch,27,Rating 70%,53,Go to 53
 34,*,193,ダイコクヤ,0,Branch,30,Always,48,Go to 48
-35,*,193,ダイコクヤ,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,40,Go to 40
+35,*,193,ダイコクヤ,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,40,Go to 40
 36,*,193,ダイコクヤ,0,Branch,24,Rating 40%,52,Go to 52
 37,*,193,ダイコクヤ,0,Branch,25,Rating 50%,51,Go to 51
 38,*,193,ダイコクヤ,0,Branch,27,Rating 70%,48,Go to 48
@@ -4421,7 +4421,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 40,*,193,ダイコクヤ,0,Branch,1,HP < 50%,54,Go to 54
 41,*,193,ダイコクヤ,0,Branch,25,Rating 50%,50,Go to 50
 42,*,193,ダイコクヤ,0,Branch,30,Always,54,Go to 54
-43,*,193,ダイコクヤ,0,Branch,50,Used S-Move,45,Go to 45
+43,*,193,ダイコクヤ,0,Branch,50,Used S-Move?,45,Go to 45
 44,*,193,ダイコクヤ,0,Branch,30,Always,49,Go to 49
 45,*,193,ダイコクヤ,0,Branch,24,Rating 40%,52,Go to 52
 46,*,193,ダイコクヤ,0,Branch,25,Rating 50%,51,Go to 51
@@ -4469,7 +4469,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 34,ebinit065.dat,193,ダイコクヤ,1,Action,518,ジェデス,-1,None
 35,ebinit065.dat,193,ダイコクヤ,1,Action,535,ボルドーラ,3,PC w/ Most HP
 36,ebinit065.dat,193,ダイコクヤ,1,Action,512,スリーパ,-1,None
-1,*,194,ダイコクヤ,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,194,ダイコクヤ,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,194,ダイコクヤ,0,Branch,30,Always,43,Go to 43
 3,*,194,ダイコクヤ,0,Branch,2,HP < 25%,25,Go to 25
 4,*,194,ダイコクヤ,0,Branch,17,ECs Alive = 1,35,Go to 35
@@ -4503,7 +4503,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 32,*,194,ダイコクヤ,0,Branch,27,Rating 70%,43,Go to 43
 33,*,194,ダイコクヤ,0,Branch,27,Rating 70%,53,Go to 53
 34,*,194,ダイコクヤ,0,Branch,30,Always,48,Go to 48
-35,*,194,ダイコクヤ,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,40,Go to 40
+35,*,194,ダイコクヤ,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,40,Go to 40
 36,*,194,ダイコクヤ,0,Branch,24,Rating 40%,52,Go to 52
 37,*,194,ダイコクヤ,0,Branch,25,Rating 50%,51,Go to 51
 38,*,194,ダイコクヤ,0,Branch,27,Rating 70%,48,Go to 48
@@ -4511,7 +4511,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 40,*,194,ダイコクヤ,0,Branch,1,HP < 50%,54,Go to 54
 41,*,194,ダイコクヤ,0,Branch,25,Rating 50%,50,Go to 50
 42,*,194,ダイコクヤ,0,Branch,30,Always,54,Go to 54
-43,*,194,ダイコクヤ,0,Branch,50,Used S-Move,45,Go to 45
+43,*,194,ダイコクヤ,0,Branch,50,Used S-Move?,45,Go to 45
 44,*,194,ダイコクヤ,0,Branch,30,Always,49,Go to 49
 45,*,194,ダイコクヤ,0,Branch,24,Rating 40%,52,Go to 52
 46,*,194,ダイコクヤ,0,Branch,25,Rating 50%,51,Go to 51
@@ -4559,7 +4559,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 34,ebinit066.dat,194,ダイコクヤ,1,Action,518,ジェデス,-1,None
 35,ebinit066.dat,194,ダイコクヤ,1,Action,535,ボルドーラ,3,PC w/ Most HP
 36,ebinit066.dat,194,ダイコクヤ,1,Action,512,スリーパ,-1,None
-1,*,195,ダイコクヤ,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,195,ダイコクヤ,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,195,ダイコクヤ,0,Branch,30,Always,43,Go to 43
 3,*,195,ダイコクヤ,0,Branch,2,HP < 25%,25,Go to 25
 4,*,195,ダイコクヤ,0,Branch,17,ECs Alive = 1,35,Go to 35
@@ -4593,7 +4593,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 32,*,195,ダイコクヤ,0,Branch,27,Rating 70%,43,Go to 43
 33,*,195,ダイコクヤ,0,Branch,27,Rating 70%,53,Go to 53
 34,*,195,ダイコクヤ,0,Branch,30,Always,48,Go to 48
-35,*,195,ダイコクヤ,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,40,Go to 40
+35,*,195,ダイコクヤ,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,40,Go to 40
 36,*,195,ダイコクヤ,0,Branch,24,Rating 40%,52,Go to 52
 37,*,195,ダイコクヤ,0,Branch,25,Rating 50%,51,Go to 51
 38,*,195,ダイコクヤ,0,Branch,27,Rating 70%,48,Go to 48
@@ -4601,7 +4601,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 40,*,195,ダイコクヤ,0,Branch,1,HP < 50%,54,Go to 54
 41,*,195,ダイコクヤ,0,Branch,25,Rating 50%,50,Go to 50
 42,*,195,ダイコクヤ,0,Branch,30,Always,54,Go to 54
-43,*,195,ダイコクヤ,0,Branch,50,Used S-Move,45,Go to 45
+43,*,195,ダイコクヤ,0,Branch,50,Used S-Move?,45,Go to 45
 44,*,195,ダイコクヤ,0,Branch,30,Always,49,Go to 49
 45,*,195,ダイコクヤ,0,Branch,24,Rating 40%,52,Go to 52
 46,*,195,ダイコクヤ,0,Branch,25,Rating 50%,51,Go to 51
@@ -4649,7 +4649,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 34,ebinit067.dat,195,ダイコクヤ,1,Action,518,ジェデス,-1,None
 35,ebinit067.dat,195,ダイコクヤ,1,Action,535,ボルドーラ,3,PC w/ Most HP
 36,ebinit067.dat,195,ダイコクヤ,1,Action,512,スリーパ,-1,None
-1,*,196,ダイコクヤ,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,196,ダイコクヤ,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,196,ダイコクヤ,0,Branch,30,Always,43,Go to 43
 3,*,196,ダイコクヤ,0,Branch,2,HP < 25%,25,Go to 25
 4,*,196,ダイコクヤ,0,Branch,17,ECs Alive = 1,35,Go to 35
@@ -4683,7 +4683,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 32,*,196,ダイコクヤ,0,Branch,27,Rating 70%,43,Go to 43
 33,*,196,ダイコクヤ,0,Branch,27,Rating 70%,53,Go to 53
 34,*,196,ダイコクヤ,0,Branch,30,Always,48,Go to 48
-35,*,196,ダイコクヤ,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,40,Go to 40
+35,*,196,ダイコクヤ,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,40,Go to 40
 36,*,196,ダイコクヤ,0,Branch,24,Rating 40%,52,Go to 52
 37,*,196,ダイコクヤ,0,Branch,25,Rating 50%,51,Go to 51
 38,*,196,ダイコクヤ,0,Branch,27,Rating 70%,48,Go to 48
@@ -4691,7 +4691,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 40,*,196,ダイコクヤ,0,Branch,1,HP < 50%,54,Go to 54
 41,*,196,ダイコクヤ,0,Branch,25,Rating 50%,50,Go to 50
 42,*,196,ダイコクヤ,0,Branch,30,Always,54,Go to 54
-43,*,196,ダイコクヤ,0,Branch,50,Used S-Move,45,Go to 45
+43,*,196,ダイコクヤ,0,Branch,50,Used S-Move?,45,Go to 45
 44,*,196,ダイコクヤ,0,Branch,30,Always,49,Go to 49
 45,*,196,ダイコクヤ,0,Branch,24,Rating 40%,52,Go to 52
 46,*,196,ダイコクヤ,0,Branch,25,Rating 50%,51,Go to 51
@@ -4739,7 +4739,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 34,ebinit068.dat,196,ダイコクヤ,1,Action,518,ジェデス,-1,None
 35,ebinit068.dat,196,ダイコクヤ,1,Action,535,ボルドーラ,3,PC w/ Most HP
 36,ebinit068.dat,196,ダイコクヤ,1,Action,512,スリーパ,-1,None
-1,*,197,ダイコクヤ,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,197,ダイコクヤ,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,197,ダイコクヤ,0,Branch,30,Always,43,Go to 43
 3,*,197,ダイコクヤ,0,Branch,2,HP < 25%,25,Go to 25
 4,*,197,ダイコクヤ,0,Branch,17,ECs Alive = 1,35,Go to 35
@@ -4773,7 +4773,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 32,*,197,ダイコクヤ,0,Branch,27,Rating 70%,43,Go to 43
 33,*,197,ダイコクヤ,0,Branch,27,Rating 70%,53,Go to 53
 34,*,197,ダイコクヤ,0,Branch,30,Always,48,Go to 48
-35,*,197,ダイコクヤ,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,40,Go to 40
+35,*,197,ダイコクヤ,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,40,Go to 40
 36,*,197,ダイコクヤ,0,Branch,24,Rating 40%,52,Go to 52
 37,*,197,ダイコクヤ,0,Branch,25,Rating 50%,51,Go to 51
 38,*,197,ダイコクヤ,0,Branch,27,Rating 70%,48,Go to 48
@@ -4781,7 +4781,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 40,*,197,ダイコクヤ,0,Branch,1,HP < 50%,54,Go to 54
 41,*,197,ダイコクヤ,0,Branch,25,Rating 50%,50,Go to 50
 42,*,197,ダイコクヤ,0,Branch,30,Always,54,Go to 54
-43,*,197,ダイコクヤ,0,Branch,50,Used S-Move,45,Go to 45
+43,*,197,ダイコクヤ,0,Branch,50,Used S-Move?,45,Go to 45
 44,*,197,ダイコクヤ,0,Branch,30,Always,49,Go to 49
 45,*,197,ダイコクヤ,0,Branch,24,Rating 40%,52,Go to 52
 46,*,197,ダイコクヤ,0,Branch,25,Rating 50%,51,Go to 51
@@ -4847,7 +4847,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 16,*,198,ルピー,0,Branch,30,Always,26,Go to 26
 17,*,198,ルピー,0,Branch,17,ECs Alive = 1,23,Go to 23
 18,*,198,ルピー,0,Branch,63,PCs Alive = 2,21,Go to 21
-19,*,198,ルピー,0,Branch,50,Used S-Move,21,Go to 21
+19,*,198,ルピー,0,Branch,50,Used S-Move?,21,Go to 21
 20,*,198,ルピー,0,Branch,27,Rating 70%,25,Go to 25
 21,*,198,ルピー,0,Branch,26,Rating 60%,31,Go to 31
 22,*,198,ルピー,0,Branch,30,Always,26,Go to 26
@@ -4892,7 +4892,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 16,*,199,ルピー,0,Branch,30,Always,30,Go to 30
 17,*,199,ルピー,0,Branch,17,ECs Alive = 1,23,Go to 23
 18,*,199,ルピー,0,Branch,63,PCs Alive = 2,21,Go to 21
-19,*,199,ルピー,0,Branch,50,Used S-Move,21,Go to 21
+19,*,199,ルピー,0,Branch,50,Used S-Move?,21,Go to 21
 20,*,199,ルピー,0,Branch,27,Rating 70%,25,Go to 25
 21,*,199,ルピー,0,Branch,26,Rating 60%,31,Go to 31
 22,*,199,ルピー,0,Branch,30,Always,26,Go to 26
@@ -4937,7 +4937,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 16,*,200,ルピー,0,Branch,30,Always,30,Go to 30
 17,*,200,ルピー,0,Branch,17,ECs Alive = 1,23,Go to 23
 18,*,200,ルピー,0,Branch,63,PCs Alive = 2,21,Go to 21
-19,*,200,ルピー,0,Branch,50,Used S-Move,21,Go to 21
+19,*,200,ルピー,0,Branch,50,Used S-Move?,21,Go to 21
 20,*,200,ルピー,0,Branch,27,Rating 70%,25,Go to 25
 21,*,200,ルピー,0,Branch,26,Rating 60%,31,Go to 31
 22,*,200,ルピー,0,Branch,30,Always,26,Go to 26
@@ -4982,7 +4982,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 16,*,201,ルピー,0,Branch,30,Always,30,Go to 30
 17,*,201,ルピー,0,Branch,17,ECs Alive = 1,23,Go to 23
 18,*,201,ルピー,0,Branch,63,PCs Alive = 2,21,Go to 21
-19,*,201,ルピー,0,Branch,50,Used S-Move,21,Go to 21
+19,*,201,ルピー,0,Branch,50,Used S-Move?,21,Go to 21
 20,*,201,ルピー,0,Branch,27,Rating 70%,25,Go to 25
 21,*,201,ルピー,0,Branch,26,Rating 60%,31,Go to 31
 22,*,201,ルピー,0,Branch,30,Always,26,Go to 26
@@ -5028,7 +5028,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 17,*,202,ルピー,0,Branch,30,Always,36,Go to 36
 18,*,202,ルピー,0,Branch,17,ECs Alive = 1,24,Go to 24
 19,*,202,ルピー,0,Branch,63,PCs Alive = 2,22,Go to 22
-20,*,202,ルピー,0,Branch,50,Used S-Move,22,Go to 22
+20,*,202,ルピー,0,Branch,50,Used S-Move?,22,Go to 22
 21,*,202,ルピー,0,Branch,27,Rating 70%,29,Go to 29
 22,*,202,ルピー,0,Branch,26,Rating 60%,35,Go to 35
 23,*,202,ルピー,0,Branch,30,Always,30,Go to 30
@@ -5354,7 +5354,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 25,ebinit084.dat,212,バーツ,1,Action,285,名門伝統のパンチ,6,EC w/ Most HP
 26,ebinit084.dat,212,バーツ,1,Action,286,名門伝統の気合い,-1,None
 27,ebinit084.dat,212,バーツ,1,Action,551,Guard,-1,None
-1,*,213,バイス,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,213,バイス,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,213,バイス,0,Branch,30,Always,15,Go to 15
 3,*,213,バイス,0,Branch,2,HP < 25%,12,Go to 12
 4,*,213,バイス,0,Branch,1,HP < 50%,9,Go to 9
@@ -5394,7 +5394,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 14,ebinit085.dat,213,バイス,1,Action,288,カトラスブギ,2,Random PC
 15,ebinit085.dat,213,バイス,1,Action,289,リベンジ,-1,None
 16,ebinit085.dat,213,バイス,1,Action,551,Guard,-1,None
-1,*,214,バイス,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,214,バイス,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,214,バイス,0,Branch,30,Always,15,Go to 15
 3,*,214,バイス,0,Branch,2,HP < 25%,12,Go to 12
 4,*,214,バイス,0,Branch,1,HP < 50%,9,Go to 9
@@ -5434,7 +5434,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 14,ebinit086.dat,214,バイス,1,Action,288,カトラスブギ,2,Random PC
 15,ebinit086.dat,214,バイス,1,Action,289,リベンジ,-1,None
 16,ebinit086.dat,214,バイス,1,Action,551,Guard,-1,None
-1,*,215,バイス,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,215,バイス,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,215,バイス,0,Branch,30,Always,15,Go to 15
 3,*,215,バイス,0,Branch,2,HP < 25%,12,Go to 12
 4,*,215,バイス,0,Branch,1,HP < 50%,9,Go to 9
@@ -5474,7 +5474,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 14,ebinit087.dat,215,バイス,1,Action,288,カトラスブギ,2,Random PC
 15,ebinit087.dat,215,バイス,1,Action,289,リベンジ,-1,None
 16,ebinit087.dat,215,バイス,1,Action,551,Guard,-1,None
-1,*,216,バイス,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,216,バイス,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,216,バイス,0,Branch,30,Always,15,Go to 15
 3,*,216,バイス,0,Branch,2,HP < 25%,12,Go to 12
 4,*,216,バイス,0,Branch,1,HP < 50%,9,Go to 9
@@ -5514,7 +5514,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 14,ebinit088.dat,216,バイス,1,Action,288,カトラスブギ,2,Random PC
 15,ebinit088.dat,216,バイス,1,Action,289,リベンジ,-1,None
 16,ebinit088.dat,216,バイス,1,Action,551,Guard,-1,None
-1,*,217,バイス,0,Branch,19,Party SP ≤ 50%,3,Go to 3
+1,*,217,バイス,0,Branch,19,SP ≤ 50%,3,Go to 3
 2,*,217,バイス,0,Branch,30,Always,15,Go to 15
 3,*,217,バイス,0,Branch,2,HP < 25%,12,Go to 12
 4,*,217,バイス,0,Branch,1,HP < 50%,9,Go to 9
@@ -5556,7 +5556,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 16,ebinit089.dat,217,バイス,1,Action,551,Guard,-1,None
 1,*,218,アニタ,0,Branch,15,Turn 8,23,Go to 23
 2,*,218,アニタ,0,Branch,11,Turn 1,23,Go to 23
-3,*,218,アニタ,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,218,アニタ,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,218,アニタ,0,Branch,28,Rating 80%,21,Go to 21
 5,*,218,アニタ,0,Branch,5,Got Hit by Spell?,7,Go to 7
 6,*,218,アニタ,0,Branch,30,Always,8,Go to 8
@@ -5599,7 +5599,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 19,ebinit090.dat,218,アニタ,1,Action,551,Guard,-1,None
 1,*,219,アニタ,0,Branch,15,Turn 8,23,Go to 23
 2,*,219,アニタ,0,Branch,11,Turn 1,23,Go to 23
-3,*,219,アニタ,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,219,アニタ,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,219,アニタ,0,Branch,28,Rating 80%,21,Go to 21
 5,*,219,アニタ,0,Branch,5,Got Hit by Spell?,7,Go to 7
 6,*,219,アニタ,0,Branch,30,Always,8,Go to 8
@@ -5642,7 +5642,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 19,ebinit091.dat,219,アニタ,1,Action,551,Guard,-1,None
 1,*,220,アニタ,0,Branch,15,Turn 8,23,Go to 23
 2,*,220,アニタ,0,Branch,11,Turn 1,23,Go to 23
-3,*,220,アニタ,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,220,アニタ,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,220,アニタ,0,Branch,28,Rating 80%,21,Go to 21
 5,*,220,アニタ,0,Branch,5,Got Hit by Spell?,7,Go to 7
 6,*,220,アニタ,0,Branch,30,Always,8,Go to 8
@@ -5685,7 +5685,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 19,ebinit092.dat,220,アニタ,1,Action,551,Guard,-1,None
 1,*,221,アニタ,0,Branch,15,Turn 8,23,Go to 23
 2,*,221,アニタ,0,Branch,11,Turn 1,23,Go to 23
-3,*,221,アニタ,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,221,アニタ,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,221,アニタ,0,Branch,28,Rating 80%,21,Go to 21
 5,*,221,アニタ,0,Branch,5,Got Hit by Spell?,7,Go to 7
 6,*,221,アニタ,0,Branch,30,Always,8,Go to 8
@@ -5728,7 +5728,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 19,ebinit093.dat,221,アニタ,1,Action,551,Guard,-1,None
 1,*,222,アニタ,0,Branch,15,Turn 8,23,Go to 23
 2,*,222,アニタ,0,Branch,11,Turn 1,23,Go to 23
-3,*,222,アニタ,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+3,*,222,アニタ,0,Branch,19,SP ≤ 50%,5,Go to 5
 4,*,222,アニタ,0,Branch,28,Rating 80%,21,Go to 21
 5,*,222,アニタ,0,Branch,5,Got Hit by Spell?,7,Go to 7
 6,*,222,アニタ,0,Branch,30,Always,8,Go to 8
@@ -5771,7 +5771,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 19,ebinit094.dat,222,アニタ,1,Action,551,Guard,-1,None
 1,*,223,フィーラ,0,Branch,2,HP < 25%,17,Go to 17
 2,*,223,フィーラ,0,Branch,39,Any EC HP < 25%,24,Go to 24
-3,*,223,フィーラ,0,Branch,19,Party SP ≤ 50%,6,Go to 6
+3,*,223,フィーラ,0,Branch,19,SP ≤ 50%,6,Go to 6
 4,*,223,フィーラ,0,Branch,27,Rating 70%,34,Go to 34
 5,*,223,フィーラ,0,Branch,30,Always,35,Go to 35
 6,*,223,フィーラ,0,Branch,15,Turn 8,28,Go to 28
@@ -5838,7 +5838,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 32,ebinit095.dat,223,フィーラ,1,Action,511,プワゾーク,-1,None
 1,*,224,フィーラ,0,Branch,2,HP < 25%,17,Go to 17
 2,*,224,フィーラ,0,Branch,39,Any EC HP < 25%,24,Go to 24
-3,*,224,フィーラ,0,Branch,19,Party SP ≤ 50%,6,Go to 6
+3,*,224,フィーラ,0,Branch,19,SP ≤ 50%,6,Go to 6
 4,*,224,フィーラ,0,Branch,27,Rating 70%,34,Go to 34
 5,*,224,フィーラ,0,Branch,30,Always,35,Go to 35
 6,*,224,フィーラ,0,Branch,15,Turn 8,28,Go to 28
@@ -5905,7 +5905,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 32,ebinit096.dat,224,フィーラ,1,Action,511,プワゾーク,-1,None
 1,*,225,フィーラ,0,Branch,2,HP < 25%,17,Go to 17
 2,*,225,フィーラ,0,Branch,39,Any EC HP < 25%,24,Go to 24
-3,*,225,フィーラ,0,Branch,19,Party SP ≤ 50%,6,Go to 6
+3,*,225,フィーラ,0,Branch,19,SP ≤ 50%,6,Go to 6
 4,*,225,フィーラ,0,Branch,27,Rating 70%,34,Go to 34
 5,*,225,フィーラ,0,Branch,30,Always,35,Go to 35
 6,*,225,フィーラ,0,Branch,15,Turn 8,28,Go to 28
@@ -5972,7 +5972,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 32,ebinit097.dat,225,フィーラ,1,Action,511,プワゾーク,-1,None
 1,*,226,フィーラ,0,Branch,2,HP < 25%,17,Go to 17
 2,*,226,フィーラ,0,Branch,39,Any EC HP < 25%,24,Go to 24
-3,*,226,フィーラ,0,Branch,19,Party SP ≤ 50%,6,Go to 6
+3,*,226,フィーラ,0,Branch,19,SP ≤ 50%,6,Go to 6
 4,*,226,フィーラ,0,Branch,27,Rating 70%,34,Go to 34
 5,*,226,フィーラ,0,Branch,30,Always,35,Go to 35
 6,*,226,フィーラ,0,Branch,15,Turn 8,28,Go to 28
@@ -6039,7 +6039,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 32,ebinit098.dat,226,フィーラ,1,Action,511,プワゾーク,-1,None
 1,*,227,フィーラ,0,Branch,2,HP < 25%,17,Go to 17
 2,*,227,フィーラ,0,Branch,39,Any EC HP < 25%,24,Go to 24
-3,*,227,フィーラ,0,Branch,19,Party SP ≤ 50%,6,Go to 6
+3,*,227,フィーラ,0,Branch,19,SP ≤ 50%,6,Go to 6
 4,*,227,フィーラ,0,Branch,27,Rating 70%,34,Go to 34
 5,*,227,フィーラ,0,Branch,30,Always,35,Go to 35
 6,*,227,フィーラ,0,Branch,15,Turn 8,28,Go to 28
@@ -6148,7 +6148,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 42,*,228,盗掘王シモン,0,Branch,26,Rating 60%,57,Go to 57
 43,*,228,盗掘王シモン,0,Branch,28,Rating 80%,51,Go to 51
 44,*,228,盗掘王シモン,0,Branch,30,Always,53,Go to 53
-45,*,228,盗掘王シモン,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,52,Go to 52
+45,*,228,盗掘王シモン,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,52,Go to 52
 46,*,228,盗掘王シモン,0,Branch,23,Rating 30%,53,Go to 53
 47,*,228,盗掘王シモン,0,Branch,23,Rating 30%,54,Go to 54
 48,*,228,盗掘王シモン,0,Branch,24,Rating 40%,51,Go to 51
@@ -6255,7 +6255,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 42,*,229,盗掘王シモン,0,Branch,26,Rating 60%,57,Go to 57
 43,*,229,盗掘王シモン,0,Branch,28,Rating 80%,51,Go to 51
 44,*,229,盗掘王シモン,0,Branch,30,Always,53,Go to 53
-45,*,229,盗掘王シモン,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,52,Go to 52
+45,*,229,盗掘王シモン,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,52,Go to 52
 46,*,229,盗掘王シモン,0,Branch,23,Rating 30%,53,Go to 53
 47,*,229,盗掘王シモン,0,Branch,23,Rating 30%,54,Go to 54
 48,*,229,盗掘王シモン,0,Branch,24,Rating 40%,51,Go to 51
@@ -6362,7 +6362,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 42,*,230,盗掘王シモン,0,Branch,26,Rating 60%,57,Go to 57
 43,*,230,盗掘王シモン,0,Branch,28,Rating 80%,51,Go to 51
 44,*,230,盗掘王シモン,0,Branch,30,Always,53,Go to 53
-45,*,230,盗掘王シモン,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,52,Go to 52
+45,*,230,盗掘王シモン,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,52,Go to 52
 46,*,230,盗掘王シモン,0,Branch,23,Rating 30%,53,Go to 53
 47,*,230,盗掘王シモン,0,Branch,23,Rating 30%,54,Go to 54
 48,*,230,盗掘王シモン,0,Branch,24,Rating 40%,51,Go to 51
@@ -6469,7 +6469,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 42,*,231,盗掘王シモン,0,Branch,26,Rating 60%,57,Go to 57
 43,*,231,盗掘王シモン,0,Branch,28,Rating 80%,51,Go to 51
 44,*,231,盗掘王シモン,0,Branch,30,Always,53,Go to 53
-45,*,231,盗掘王シモン,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,52,Go to 52
+45,*,231,盗掘王シモン,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,52,Go to 52
 46,*,231,盗掘王シモン,0,Branch,23,Rating 30%,53,Go to 53
 47,*,231,盗掘王シモン,0,Branch,23,Rating 30%,54,Go to 54
 48,*,231,盗掘王シモン,0,Branch,24,Rating 40%,51,Go to 51
@@ -6576,7 +6576,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 42,*,232,盗掘王シモン,0,Branch,26,Rating 60%,57,Go to 57
 43,*,232,盗掘王シモン,0,Branch,28,Rating 80%,51,Go to 51
 44,*,232,盗掘王シモン,0,Branch,30,Always,53,Go to 53
-45,*,232,盗掘王シモン,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,52,Go to 52
+45,*,232,盗掘王シモン,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,52,Go to 52
 46,*,232,盗掘王シモン,0,Branch,23,Rating 30%,53,Go to 53
 47,*,232,盗掘王シモン,0,Branch,23,Rating 30%,54,Go to 54
 48,*,232,盗掘王シモン,0,Branch,24,Rating 40%,51,Go to 51
@@ -6659,7 +6659,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 18,*,233,ガンナーム,0,Branch,24,Rating 40%,29,Go to 29
 19,*,233,ガンナーム,0,Branch,26,Rating 60%,25,Go to 25
 20,*,233,ガンナーム,0,Branch,30,Always,28,Go to 28
-21,*,233,ガンナーム,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,26,Go to 26
+21,*,233,ガンナーム,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,26,Go to 26
 22,*,233,ガンナーム,0,Branch,24,Rating 40%,29,Go to 29
 23,*,233,ガンナーム,0,Branch,26,Rating 60%,25,Go to 25
 24,*,233,ガンナーム,0,Branch,30,Always,28,Go to 28
@@ -6712,7 +6712,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 18,*,234,ガンナーム,0,Branch,24,Rating 40%,29,Go to 29
 19,*,234,ガンナーム,0,Branch,26,Rating 60%,25,Go to 25
 20,*,234,ガンナーム,0,Branch,30,Always,28,Go to 28
-21,*,234,ガンナーム,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,26,Go to 26
+21,*,234,ガンナーム,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,26,Go to 26
 22,*,234,ガンナーム,0,Branch,24,Rating 40%,29,Go to 29
 23,*,234,ガンナーム,0,Branch,26,Rating 60%,25,Go to 25
 24,*,234,ガンナーム,0,Branch,30,Always,28,Go to 28
@@ -6765,7 +6765,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 18,*,235,ガンナーム,0,Branch,24,Rating 40%,29,Go to 29
 19,*,235,ガンナーム,0,Branch,26,Rating 60%,25,Go to 25
 20,*,235,ガンナーム,0,Branch,30,Always,28,Go to 28
-21,*,235,ガンナーム,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,26,Go to 26
+21,*,235,ガンナーム,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,26,Go to 26
 22,*,235,ガンナーム,0,Branch,24,Rating 40%,29,Go to 29
 23,*,235,ガンナーム,0,Branch,26,Rating 60%,25,Go to 25
 24,*,235,ガンナーム,0,Branch,30,Always,28,Go to 28
@@ -6818,7 +6818,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 18,*,236,ガンナーム,0,Branch,24,Rating 40%,29,Go to 29
 19,*,236,ガンナーム,0,Branch,26,Rating 60%,25,Go to 25
 20,*,236,ガンナーム,0,Branch,30,Always,28,Go to 28
-21,*,236,ガンナーム,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,26,Go to 26
+21,*,236,ガンナーム,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,26,Go to 26
 22,*,236,ガンナーム,0,Branch,24,Rating 40%,29,Go to 29
 23,*,236,ガンナーム,0,Branch,26,Rating 60%,25,Go to 25
 24,*,236,ガンナーム,0,Branch,30,Always,28,Go to 28
@@ -6871,7 +6871,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 18,*,237,ガンナーム,0,Branch,24,Rating 40%,29,Go to 29
 19,*,237,ガンナーム,0,Branch,26,Rating 60%,25,Go to 25
 20,*,237,ガンナーム,0,Branch,30,Always,28,Go to 28
-21,*,237,ガンナーム,0,Branch,69,EC Slots < 8 & Danger ≤ 3000,26,Go to 26
+21,*,237,ガンナーム,0,Branch,69,EC Slots < 8 and Danger ≤ 3000,26,Go to 26
 22,*,237,ガンナーム,0,Branch,24,Rating 40%,29,Go to 29
 23,*,237,ガンナーム,0,Branch,26,Rating 60%,25,Go to 25
 24,*,237,ガンナーム,0,Branch,30,Always,28,Go to 28
@@ -6904,10 +6904,10 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 22,ebinit109.dat,237,ガンナーム,1,Action,299,明日なき暴走,3,PC w/ Most HP
 23,ebinit109.dat,237,ガンナーム,1,Action,300,バルア横流し爆雷,-1,None
 24,ebinit109.dat,237,ガンナーム,1,Action,301,目標サーチ,-1,None
-1,*,238,ビゴロ,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,238,ビゴロ,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,238,ビゴロ,0,Branch,26,Rating 60%,20,Go to 20
 3,*,238,ビゴロ,0,Branch,30,Always,21,Go to 21
-4,*,238,ビゴロ,0,Branch,50,Used S-Move,15,Go to 15
+4,*,238,ビゴロ,0,Branch,50,Used S-Move?,15,Go to 15
 5,*,238,ビゴロ,0,Branch,11,Turn 1,11,Go to 11
 6,*,238,ビゴロ,0,Branch,14,Turn 4,11,Go to 11
 7,*,238,ビゴロ,0,Branch,24,Rating 40%,21,Go to 21
@@ -6926,7 +6926,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 20,*,238,ビゴロ,1,Action,17,乱射キャノン,4,PC w/ Least HP
 21,*,238,ビゴロ,1,Action,27,大艦巨砲キャノン,3,PC w/ Most HP
 22,*,238,ビゴロ,1,Action,60,投げキッス,23,Aika
-1,ebinit110.dat,238,ビゴロ,0,Branch,50,Used S-Move,12,Go to 12
+1,ebinit110.dat,238,ビゴロ,0,Branch,50,Used S-Move?,12,Go to 12
 2,ebinit110.dat,238,ビゴロ,0,Branch,11,Turn 1,8,Go to 8
 3,ebinit110.dat,238,ビゴロ,0,Branch,14,Turn 4,8,Go to 8
 4,ebinit110.dat,238,ビゴロ,0,Branch,21,Rating 10%,16,Go to 16
@@ -6945,10 +6945,10 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 17,ebinit110.dat,238,ビゴロ,1,Action,17,乱射キャノン,2,Random PC
 18,ebinit110.dat,238,ビゴロ,1,Action,27,大艦巨砲キャノン,2,Random PC
 19,ebinit110.dat,238,ビゴロ,1,Action,60,投げキッス,23,Aika
-1,*,239,ビゴロ,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,239,ビゴロ,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,239,ビゴロ,0,Branch,26,Rating 60%,20,Go to 20
 3,*,239,ビゴロ,0,Branch,30,Always,21,Go to 21
-4,*,239,ビゴロ,0,Branch,50,Used S-Move,15,Go to 15
+4,*,239,ビゴロ,0,Branch,50,Used S-Move?,15,Go to 15
 5,*,239,ビゴロ,0,Branch,11,Turn 1,11,Go to 11
 6,*,239,ビゴロ,0,Branch,14,Turn 4,11,Go to 11
 7,*,239,ビゴロ,0,Branch,24,Rating 40%,21,Go to 21
@@ -6967,7 +6967,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 20,*,239,ビゴロ,1,Action,17,乱射キャノン,4,PC w/ Least HP
 21,*,239,ビゴロ,1,Action,27,大艦巨砲キャノン,3,PC w/ Most HP
 22,*,239,ビゴロ,1,Action,60,投げキッス,23,Aika
-1,ebinit111.dat,239,ビゴロ,0,Branch,50,Used S-Move,12,Go to 12
+1,ebinit111.dat,239,ビゴロ,0,Branch,50,Used S-Move?,12,Go to 12
 2,ebinit111.dat,239,ビゴロ,0,Branch,11,Turn 1,8,Go to 8
 3,ebinit111.dat,239,ビゴロ,0,Branch,14,Turn 4,8,Go to 8
 4,ebinit111.dat,239,ビゴロ,0,Branch,21,Rating 10%,16,Go to 16
@@ -6986,10 +6986,10 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 17,ebinit111.dat,239,ビゴロ,1,Action,17,乱射キャノン,2,Random PC
 18,ebinit111.dat,239,ビゴロ,1,Action,27,大艦巨砲キャノン,2,Random PC
 19,ebinit111.dat,239,ビゴロ,1,Action,60,投げキッス,23,Aika
-1,*,240,ビゴロ,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,240,ビゴロ,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,240,ビゴロ,0,Branch,26,Rating 60%,20,Go to 20
 3,*,240,ビゴロ,0,Branch,30,Always,21,Go to 21
-4,*,240,ビゴロ,0,Branch,50,Used S-Move,15,Go to 15
+4,*,240,ビゴロ,0,Branch,50,Used S-Move?,15,Go to 15
 5,*,240,ビゴロ,0,Branch,11,Turn 1,11,Go to 11
 6,*,240,ビゴロ,0,Branch,14,Turn 4,11,Go to 11
 7,*,240,ビゴロ,0,Branch,24,Rating 40%,21,Go to 21
@@ -7008,7 +7008,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 20,*,240,ビゴロ,1,Action,17,乱射キャノン,4,PC w/ Least HP
 21,*,240,ビゴロ,1,Action,27,大艦巨砲キャノン,3,PC w/ Most HP
 22,*,240,ビゴロ,1,Action,60,投げキッス,23,Aika
-1,ebinit112.dat,240,ビゴロ,0,Branch,50,Used S-Move,12,Go to 12
+1,ebinit112.dat,240,ビゴロ,0,Branch,50,Used S-Move?,12,Go to 12
 2,ebinit112.dat,240,ビゴロ,0,Branch,11,Turn 1,8,Go to 8
 3,ebinit112.dat,240,ビゴロ,0,Branch,14,Turn 4,8,Go to 8
 4,ebinit112.dat,240,ビゴロ,0,Branch,21,Rating 10%,16,Go to 16
@@ -7027,10 +7027,10 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 17,ebinit112.dat,240,ビゴロ,1,Action,17,乱射キャノン,2,Random PC
 18,ebinit112.dat,240,ビゴロ,1,Action,27,大艦巨砲キャノン,2,Random PC
 19,ebinit112.dat,240,ビゴロ,1,Action,60,投げキッス,23,Aika
-1,*,241,ビゴロ,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,241,ビゴロ,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,241,ビゴロ,0,Branch,26,Rating 60%,20,Go to 20
 3,*,241,ビゴロ,0,Branch,30,Always,21,Go to 21
-4,*,241,ビゴロ,0,Branch,50,Used S-Move,15,Go to 15
+4,*,241,ビゴロ,0,Branch,50,Used S-Move?,15,Go to 15
 5,*,241,ビゴロ,0,Branch,11,Turn 1,11,Go to 11
 6,*,241,ビゴロ,0,Branch,14,Turn 4,11,Go to 11
 7,*,241,ビゴロ,0,Branch,24,Rating 40%,21,Go to 21
@@ -7049,7 +7049,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 20,*,241,ビゴロ,1,Action,17,乱射キャノン,4,PC w/ Least HP
 21,*,241,ビゴロ,1,Action,27,大艦巨砲キャノン,3,PC w/ Most HP
 22,*,241,ビゴロ,1,Action,60,投げキッス,23,Aika
-1,ebinit113.dat,241,ビゴロ,0,Branch,50,Used S-Move,12,Go to 12
+1,ebinit113.dat,241,ビゴロ,0,Branch,50,Used S-Move?,12,Go to 12
 2,ebinit113.dat,241,ビゴロ,0,Branch,11,Turn 1,8,Go to 8
 3,ebinit113.dat,241,ビゴロ,0,Branch,14,Turn 4,8,Go to 8
 4,ebinit113.dat,241,ビゴロ,0,Branch,21,Rating 10%,16,Go to 16
@@ -7068,7 +7068,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 17,ebinit113.dat,241,ビゴロ,1,Action,17,乱射キャノン,2,Random PC
 18,ebinit113.dat,241,ビゴロ,1,Action,27,大艦巨砲キャノン,2,Random PC
 19,ebinit113.dat,241,ビゴロ,1,Action,60,投げキッス,23,Aika
-1,*,242,鬼ビゴロ,0,Branch,50,Used S-Move,12,Go to 12
+1,*,242,鬼ビゴロ,0,Branch,50,Used S-Move?,12,Go to 12
 2,*,242,鬼ビゴロ,0,Branch,11,Turn 1,8,Go to 8
 3,*,242,鬼ビゴロ,0,Branch,14,Turn 4,8,Go to 8
 4,*,242,鬼ビゴロ,0,Branch,24,Rating 40%,18,Go to 18
@@ -7087,7 +7087,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 17,*,242,鬼ビゴロ,1,Action,17,乱射キャノン,4,PC w/ Least HP
 18,*,242,鬼ビゴロ,1,Action,27,大艦巨砲キャノン,3,PC w/ Most HP
 19,*,242,鬼ビゴロ,1,Action,60,投げキッス,23,Aika
-1,ebinit114.dat,242,ビゴロ,0,Branch,50,Used S-Move,12,Go to 12
+1,ebinit114.dat,242,ビゴロ,0,Branch,50,Used S-Move?,12,Go to 12
 2,ebinit114.dat,242,ビゴロ,0,Branch,11,Turn 1,8,Go to 8
 3,ebinit114.dat,242,ビゴロ,0,Branch,14,Turn 4,8,Go to 8
 4,ebinit114.dat,242,ビゴロ,0,Branch,21,Rating 10%,16,Go to 16
@@ -7107,7 +7107,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 18,ebinit114.dat,242,ビゴロ,1,Action,27,大艦巨砲キャノン,2,Random PC
 19,ebinit114.dat,242,ビゴロ,1,Action,60,投げキッス,23,Aika
 1,*,243,デスハウンド,0,Branch,17,ECs Alive = 1,22,Go to 22
-2,*,243,デスハウンド,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+2,*,243,デスハウンド,0,Branch,19,SP ≤ 50%,4,Go to 4
 3,*,243,デスハウンド,0,Branch,28,Rating 80%,24,Go to 24
 4,*,243,デスハウンド,0,Branch,38,Any EC HP < 50%,19,Go to 19
 5,*,243,デスハウンド,0,Branch,11,Turn 1,8,Go to 8
@@ -7172,7 +7172,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 36,ebinit115.dat,243,デスハウンド,1,Action,510,プワザ,19,PC w/o Poison
 37,ebinit115.dat,243,デスハウンド,1,Action,506,サプラ,7,EC w/ Least HP
 1,*,244,デスバウンド,0,Branch,17,ECs Alive = 1,22,Go to 22
-2,*,244,デスバウンド,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+2,*,244,デスバウンド,0,Branch,19,SP ≤ 50%,4,Go to 4
 3,*,244,デスバウンド,0,Branch,28,Rating 80%,24,Go to 24
 4,*,244,デスバウンド,0,Branch,38,Any EC HP < 50%,19,Go to 19
 5,*,244,デスバウンド,0,Branch,11,Turn 1,8,Go to 8
@@ -7237,7 +7237,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 36,ebinit116.dat,244,デスハウンド,1,Action,510,プワザ,19,PC w/o Poison
 37,ebinit116.dat,244,デスハウンド,1,Action,506,サプラ,7,EC w/ Least HP
 1,*,245,デスバウンド,0,Branch,17,ECs Alive = 1,23,Go to 23
-2,*,245,デスバウンド,0,Branch,19,Party SP ≤ 50%,5,Go to 5
+2,*,245,デスバウンド,0,Branch,19,SP ≤ 50%,5,Go to 5
 3,*,245,デスバウンド,0,Branch,24,Rating 40%,25,Go to 25
 4,*,245,デスバウンド,0,Branch,30,Always,28,Go to 28
 5,*,245,デスバウンド,0,Branch,38,Any EC HP < 50%,20,Go to 20
@@ -7304,7 +7304,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 37,ebinit117.dat,245,デスハウンド,1,Action,506,サプラ,7,EC w/ Least HP
 1,*,246,デスバウンド,0,Branch,17,ECs Alive = 1,24,Go to 24
 2,*,246,デスバウンド,0,Branch,39,Any EC HP < 25%,26,Go to 26
-3,*,246,デスバウンド,0,Branch,19,Party SP ≤ 50%,6,Go to 6
+3,*,246,デスバウンド,0,Branch,19,SP ≤ 50%,6,Go to 6
 4,*,246,デスバウンド,0,Branch,24,Rating 40%,28,Go to 28
 5,*,246,デスバウンド,0,Branch,30,Always,31,Go to 31
 6,*,246,デスバウンド,0,Branch,38,Any EC HP < 50%,21,Go to 21
@@ -7378,7 +7378,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 5,*,247,ヨウジン,1,Action,21,イアイチュン,-1,None
 6,*,247,ヨウジン,1,Action,250,ヤマナージャ,2,Random PC
 7,*,247,ヨウジン,1,Action,551,Guard,-1,None
-1,*,248,ヨウジン,0,Branch,19,Party SP ≤ 50%,4,Go to 4
+1,*,248,ヨウジン,0,Branch,19,SP ≤ 50%,4,Go to 4
 2,*,248,ヨウジン,0,Branch,28,Rating 80%,12,Go to 12
 3,*,248,ヨウジン,0,Branch,30,Always,8,Go to 8
 4,*,248,ヨウジン,0,Branch,24,Rating 40%,12,Go to 12
@@ -7417,7 +7417,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 1,*,250,ボゥ,0,Branch,38,Any EC HP < 50%,21,Go to 21
 2,*,250,ボゥ,0,Branch,11,Turn 1,9,Go to 9
 3,*,250,ボゥ,0,Branch,12,Turn 2,12,Go to 12
-4,*,250,ボゥ,0,Branch,19,Party SP ≤ 50%,6,Go to 6
+4,*,250,ボゥ,0,Branch,19,SP ≤ 50%,6,Go to 6
 5,*,250,ボゥ,0,Branch,30,Always,17,Go to 17
 6,*,250,ボゥ,0,Branch,22,Rating 20%,19,Go to 19
 7,*,250,ボゥ,0,Branch,22,Rating 20%,20,Go to 20
@@ -7456,9 +7456,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,251,盗掘者シモン,0,Branch,30,Always,8,Go to 8
 4,*,251,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
 5,*,251,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-6,*,251,盗掘者シモン,0,Branch,50,Used S-Move,14,Go to 14
+6,*,251,盗掘者シモン,0,Branch,50,Used S-Move?,14,Go to 14
 7,*,251,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-8,*,251,盗掘者シモン,0,Branch,50,Used S-Move,11,Go to 11
+8,*,251,盗掘者シモン,0,Branch,50,Used S-Move?,11,Go to 11
 9,*,251,盗掘者シモン,0,Branch,26,Rating 60%,14,Go to 14
 10,*,251,盗掘者シモン,0,Branch,30,Always,15,Go to 15
 11,*,251,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
@@ -7472,9 +7472,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,ebinit123.dat,251,盗掘者シモン,0,Branch,30,Always,8,Go to 8
 4,ebinit123.dat,251,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
 5,ebinit123.dat,251,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-6,ebinit123.dat,251,盗掘者シモン,0,Branch,50,Used S-Move,14,Go to 14
+6,ebinit123.dat,251,盗掘者シモン,0,Branch,50,Used S-Move?,14,Go to 14
 7,ebinit123.dat,251,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-8,ebinit123.dat,251,盗掘者シモン,0,Branch,50,Used S-Move,11,Go to 11
+8,ebinit123.dat,251,盗掘者シモン,0,Branch,50,Used S-Move?,11,Go to 11
 9,ebinit123.dat,251,盗掘者シモン,0,Branch,23,Rating 30%,14,Go to 14
 10,ebinit123.dat,251,盗掘者シモン,0,Branch,30,Always,15,Go to 15
 11,ebinit123.dat,251,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
@@ -7488,9 +7488,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,*,252,盗掘者シモン,0,Branch,30,Always,8,Go to 8
 4,*,252,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
 5,*,252,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-6,*,252,盗掘者シモン,0,Branch,50,Used S-Move,14,Go to 14
+6,*,252,盗掘者シモン,0,Branch,50,Used S-Move?,14,Go to 14
 7,*,252,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-8,*,252,盗掘者シモン,0,Branch,50,Used S-Move,11,Go to 11
+8,*,252,盗掘者シモン,0,Branch,50,Used S-Move?,11,Go to 11
 9,*,252,盗掘者シモン,0,Branch,26,Rating 60%,14,Go to 14
 10,*,252,盗掘者シモン,0,Branch,30,Always,15,Go to 15
 11,*,252,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
@@ -7504,9 +7504,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 3,ebinit124.dat,252,盗掘者シモン,0,Branch,30,Always,8,Go to 8
 4,ebinit124.dat,252,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14
 5,ebinit124.dat,252,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-6,ebinit124.dat,252,盗掘者シモン,0,Branch,50,Used S-Move,14,Go to 14
+6,ebinit124.dat,252,盗掘者シモン,0,Branch,50,Used S-Move?,14,Go to 14
 7,ebinit124.dat,252,盗掘者シモン,0,Branch,30,Always,15,Go to 15
-8,ebinit124.dat,252,盗掘者シモン,0,Branch,50,Used S-Move,11,Go to 11
+8,ebinit124.dat,252,盗掘者シモン,0,Branch,50,Used S-Move?,11,Go to 11
 9,ebinit124.dat,252,盗掘者シモン,0,Branch,23,Rating 30%,14,Go to 14
 10,ebinit124.dat,252,盗掘者シモン,0,Branch,30,Always,15,Go to 15
 11,ebinit124.dat,252,盗掘者シモン,0,Branch,27,Rating 70%,14,Go to 14

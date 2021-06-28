@@ -618,9 +618,9 @@ VOC.configure do |_v|
   _v.branches[15] = 'Turn 8'
   _v.branches[16] = "Has #{_v.silence}?"
   _v.branches[17] = 'ECs Alive = 1'
-  _v.branches[18] = 'Party SP = 100%'
-  _v.branches[19] = 'Party SP ≤ 50%'
-  _v.branches[20] = 'Party SP ≤ 25%'
+  _v.branches[18] = 'SP = 100%'
+  _v.branches[19] = 'SP ≤ 50%'
+  _v.branches[20] = 'SP ≤ 25%'
   _v.branches[21] = 'Rating 10%'
   _v.branches[22] = 'Rating 20%'
   _v.branches[23] = 'Rating 30%'
@@ -669,7 +669,7 @@ VOC.configure do |_v|
   _v.branches[66] = 'ECs Alive = 3'
   _v.branches[67] = 'Used Legendary Charge?'
   _v.branches[68] = 'Used Target Search?'
-  _v.branches[69] = "EC Slots < 8 & #{_v.danger} ≤ 3000"
+  _v.branches[69] = "EC Slots < 8 and #{_v.danger} ≤ 3000"
 
   _v.branch_params = Hash.new do |_h, _k|
     _h[_k] = sprintf('Go to %d', _k)
@@ -736,25 +736,34 @@ VOC.configure do |_v|
   _v.drops[ 6] = 'Kalifa'
   _v.drops[ 7] = 'Osman'
 
-  _v.round = 'Round'
   _v.turn  = 'Turn'
+  _v.phase = 'Phase'
   
-  _v.task_cond_id    = 'T1 Cond ID'
-  _v.task_cond_name  = '[T1 Cond Name]'
-  _v.task_cond_param = 'T1 Cond Param'
-  _v.task_type_id    = hdr('T%d Type ID')
-  _v.task_type_name  = hdr('[T%d Type Name]')
-  _v.task_arm_id     = hdr('T%d Arm ID')
-  _v.task_arm_name   = hdr('[T%d Arm Name]')
-  _v.task_param_id   = hdr('T%d Param ID')
-  _v.task_param_name = hdr('[T%d Param Name]')
-  _v.task_duration   = hdr('T%d Arm Dur')
+  _v.cond_id         = 'Cond ID'
+  _v.cond_name       = '[Cond Name]'
+  _v.cond_param_id   = 'Cond Param ID'
+  _v.cond_param_name = '[Cond Param Name]'
 
-  _v.task_conditions     = Hash.new('???')
-  _v.task_conditions[-1] = 'None'
-  _v.task_conditions[ 0] = 'PS HP ≤'
-  _v.task_conditions[ 1] = 'ES HP ≤'
-  _v.task_conditions[ 3] = 'Rating'
+  _v.conditions     = Hash.new('???')
+  _v.conditions[-1] = 'None'
+  _v.conditions[ 0] = 'PS HP ≤'
+  _v.conditions[ 1] = 'ES HP ≤'
+  _v.conditions[ 2] = 'SP ≤'
+  _v.conditions[ 3] = 'Rating'
+  _v.conditions[ 4] = 'Previous T Type ID in Same Turn ='
+  _v.conditions[ 5] = 'Previous T Type ID ='
+  _v.conditions[ 6] = 'PS Has Quickened in Same Turn?'
+  _v.conditions[ 7] = 'PS Used S-Cannon in Same Turn?'
+  _v.conditions[ 8] = 'PS Phase Actions ≥ 3'
+  _v.conditions[ 9] = 'PS Phase Actions ≥ 2 or Used S-Cannon?'
+
+  _v.task_type_id         = hdr('T%d Type ID')
+  _v.task_type_name       = hdr('[T%d Type Name]')
+  _v.task_arm_id          = hdr('T%d Arm ID')
+  _v.task_arm_name        = hdr('[T%d Arm Name]')
+  _v.task_param_id        = hdr('T%d Param ID')
+  _v.task_param_name      = hdr('[T%d Param Name]')
+  _v.task_duration        = hdr('T%d Arm Dur')
 
   _v.ship_task_types     = Hash.new('???')
   _v.ship_task_types[-1] = 'None'

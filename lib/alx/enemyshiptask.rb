@@ -103,11 +103,12 @@ class EnemyShipTask < Entry
     self[VOC.filter         ] = StrProp.new( nil,    '', ext: true)
     self[VOC.enemy_ship_id  ] = StrProp.new( nil,    '', dmy: true)
     self[VOC.enemy_ship_name] = StrProp.new( nil,    '', dmy: true)
-    self[VOC.round          ] = IntProp.new(:u32,     0, dmy: true)
     self[VOC.turn           ] = IntProp.new(:u32,     0, dmy: true)
-    self[VOC.task_cond_id   ] = IntProp.new(:i16,     0           )
-    self[VOC.task_cond_name ] = StrProp.new( nil, '???', dmy: true)
-    self[VOC.task_cond_param] = IntProp.new(:i16,     0           )
+    self[VOC.phase          ] = IntProp.new(:u32,     0, dmy: true)
+    self[VOC.cond_id        ] = IntProp.new(:i16,     0           )
+    self[VOC.cond_name      ] = StrProp.new( nil, '???', dmy: true)
+    self[VOC.cond_param_id  ] = IntProp.new(:i16,     0           )
+    self[VOC.cond_param_name] = StrProp.new( nil, '???', dmy: true)
     
     (1..2).each do |_i|
       self[VOC.task_type_id(_i)  ] = IntProp.new(:i16,  0           )
@@ -127,8 +128,8 @@ class EnemyShipTask < Entry
   # Initialize the entry procs.
   def init_procs
     fetch(VOC.id).proc = Proc.new do |_id|
-      self[VOC.round] = _id / 4
-      self[VOC.turn ] = _id % 4
+      self[VOC.turn ] = _id / 4
+      self[VOC.phase] = _id % 4
     end
 
     fetch(VOC.filter).proc = Proc.new do |_filter|
@@ -153,8 +154,25 @@ class EnemyShipTask < Entry
       self[VOC.enemy_ship_name] = _name
     end
 
-    fetch(VOC.task_cond_id).proc = Proc.new do |_id|
-      self[VOC.task_cond_name] = VOC.task_conditions(_id)
+    fetch(VOC.cond_id).proc = Proc.new do |_id|
+      self[VOC.cond_name] = VOC.conditions(_id)
+      
+      fetch(VOC.cond_param_id)&.call_proc
+    end
+    
+    fetch(VOC.cond_param_id).proc = Proc.new do |_id|
+      case self[VOC.cond_id]
+      when 0, 1
+        self[VOC.cond_param_name] = '%'
+      when 2
+        self[VOC.cond_param_name] = VOC.sp(nil)
+      when 3
+        self[VOC.cond_param_name] = '%'
+      when 4, 5
+        self[VOC.cond_param_name] = VOC.ship_task_types[_id]
+      else
+        self[VOC.cond_param_name] = VOC.conditions[-1]
+      end
     end
     
     (1..2).each do |_i|
@@ -163,8 +181,9 @@ class EnemyShipTask < Entry
           _name       = '???'
           _enemy_ship = (@enemy_id != -1) ? @enemy_ships[@enemy_id] : nil
           if _enemy_ship
-            _id = self[VOC.task_arm_id(_i)]
-            if _id > -1
+            _type_id = self[VOC.task_type_id(_i)]
+            _id      = self[VOC.task_arm_id(_i)]
+            if _type_id == 0 && _id > -1
               _name = _enemy_ship[VOC.arm_name_str(_id + 1, gb)]
             else
               _name = 'None'
@@ -176,6 +195,7 @@ class EnemyShipTask < Entry
 
       fetch(VOC.task_type_id(_i)).proc = Proc.new do
         fetch(VOC.task_param_id(_i))&.call_proc
+        fetch(VOC.task_arm_id(_i))&.call_proc
       end
       
       fetch(VOC.task_param_id(_i)).proc = Proc.new do |_param_id|

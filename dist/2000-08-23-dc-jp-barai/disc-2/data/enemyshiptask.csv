@@ -1,917 +1,917 @@
-Entry ID,[Filter],[ES ID],[ES Name],Round,Turn,T1 Cond ID,[T1 Cond Name],T1 Cond Param,T1 Type ID,[T1 Type Name],T1 Arm ID,T1 Param ID,[T1 Param Name],T1 Arm Dur,T2 Type ID,[T2 Type Name],T2 Arm ID,T2 Param ID,[T2 Param Name],T2 Arm Dur
-0,R513A.BIN,35,ロック鳥,0,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-1,R513A.BIN,35,ロック鳥,0,1,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-2,R513A.BIN,35,ロック鳥,0,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-3,R513A.BIN,35,ロック鳥,0,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-4,R513A.BIN,35,ロック鳥,1,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-5,R513A.BIN,35,ロック鳥,1,1,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-6,R513A.BIN,35,ロック鳥,1,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-7,R513A.BIN,35,ロック鳥,1,3,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-8,R513A.BIN,35,ロック鳥,2,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-9,R513A.BIN,35,ロック鳥,2,1,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-10,R513A.BIN,35,ロック鳥,2,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-11,R513A.BIN,35,ロック鳥,2,3,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-12,R513A.BIN,35,ロック鳥,3,0,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-13,R513A.BIN,35,ロック鳥,3,1,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-14,R513A.BIN,35,ロック鳥,3,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-15,R513A.BIN,35,ロック鳥,3,3,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-16,R513A.BIN,35,ロック鳥,4,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-17,R513A.BIN,35,ロック鳥,4,1,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-18,R513A.BIN,35,ロック鳥,4,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-19,R513A.BIN,35,ロック鳥,4,3,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-20,R513A.BIN,35,ロック鳥,5,0,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-21,R513A.BIN,35,ロック鳥,5,1,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-22,R513A.BIN,35,ロック鳥,5,2,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-23,R513A.BIN,35,ロック鳥,5,3,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-24,R513A.BIN,35,ロック鳥,6,0,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-25,R513A.BIN,35,ロック鳥,6,1,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-26,R513A.BIN,35,ロック鳥,6,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-27,R513A.BIN,35,ロック鳥,6,3,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-28,R513A.BIN,35,ロック鳥,7,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-29,R513A.BIN,35,ロック鳥,7,1,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-30,R513A.BIN,35,ロック鳥,7,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-31,R513A.BIN,35,ロック鳥,7,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-32,R513A.BIN,35,ロック鳥,8,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-33,R513A.BIN,35,ロック鳥,8,1,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-34,R513A.BIN,35,ロック鳥,8,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-35,R513A.BIN,35,ロック鳥,8,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-0,R523A.BIN,32,オビスポー,0,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-1,R523A.BIN,32,オビスポー,0,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-2,R523A.BIN,32,オビスポー,0,2,3,Rating,50,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-3,R523A.BIN,32,オビスポー,0,3,4,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-4,R523A.BIN,32,オビスポー,1,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-5,R523A.BIN,32,オビスポー,1,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-6,R523A.BIN,32,オビスポー,1,2,1,ES HP ≤,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-7,R523A.BIN,32,オビスポー,1,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-8,R523A.BIN,32,オビスポー,2,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-9,R523A.BIN,32,オビスポー,2,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-10,R523A.BIN,32,オビスポー,2,2,1,ES HP ≤,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-11,R523A.BIN,32,オビスポー,2,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-12,R523A.BIN,32,オビスポー,3,0,1,ES HP ≤,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-13,R523A.BIN,32,オビスポー,3,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-14,R523A.BIN,32,オビスポー,3,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-15,R523A.BIN,32,オビスポー,3,3,1,ES HP ≤,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-16,R523A.BIN,32,オビスポー,4,0,1,ES HP ≤,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-17,R523A.BIN,32,オビスポー,4,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-18,R523A.BIN,32,オビスポー,4,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-19,R523A.BIN,32,オビスポー,4,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-20,R523A.BIN,32,オビスポー,5,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-21,R523A.BIN,32,オビスポー,5,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-22,R523A.BIN,32,オビスポー,5,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-23,R523A.BIN,32,オビスポー,5,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-0,R524A.BIN,29,アンギーラ,0,0,3,Rating,50,0,Attack,1,-1,None,0,3,Guard,-1,-1,None,0
-1,R524A.BIN,29,アンギーラ,0,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-2,R524A.BIN,29,アンギーラ,0,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-3,R524A.BIN,29,アンギーラ,0,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-4,R524A.BIN,29,アンギーラ,1,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-5,R524A.BIN,29,アンギーラ,1,1,3,Rating,60,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-6,R524A.BIN,29,アンギーラ,1,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-7,R524A.BIN,29,アンギーラ,1,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-8,R524A.BIN,29,アンギーラ,2,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-9,R524A.BIN,29,アンギーラ,2,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-10,R524A.BIN,29,アンギーラ,2,2,3,Rating,40,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-11,R524A.BIN,29,アンギーラ,2,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-12,R524A.BIN,29,アンギーラ,3,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-13,R524A.BIN,29,アンギーラ,3,1,3,Rating,20,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-14,R524A.BIN,29,アンギーラ,3,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-15,R524A.BIN,29,アンギーラ,3,3,3,Rating,70,0,Attack,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0
-16,R524A.BIN,29,アンギーラ,4,0,-1,None,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-17,R524A.BIN,29,アンギーラ,4,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-18,R524A.BIN,29,アンギーラ,4,2,3,Rating,60,3,Guard,-1,-1,None,0,2,Focus,-1,2,Preparing Attack,0
-19,R524A.BIN,29,アンギーラ,4,3,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-20,R524A.BIN,29,アンギーラ,5,0,3,Rating,70,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-21,R524A.BIN,29,アンギーラ,5,1,-1,None,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-22,R524A.BIN,29,アンギーラ,5,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-23,R524A.BIN,29,アンギーラ,5,3,-1,None,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-24,R524A.BIN,29,アンギーラ,6,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-25,R524A.BIN,29,アンギーラ,6,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-26,R524A.BIN,29,アンギーラ,6,2,3,Rating,70,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-27,R524A.BIN,29,アンギーラ,6,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-28,R524A.BIN,29,アンギーラ,7,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-29,R524A.BIN,29,アンギーラ,7,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-30,R524A.BIN,29,アンギーラ,7,2,3,Rating,80,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-31,R524A.BIN,29,アンギーラ,7,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-32,R524A.BIN,29,アンギーラ,8,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-33,R524A.BIN,29,アンギーラ,8,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-34,R524A.BIN,29,アンギーラ,8,2,3,Rating,30,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-35,R524A.BIN,29,アンギーラ,8,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-36,R524A.BIN,29,アンギーラ,9,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-37,R524A.BIN,29,アンギーラ,9,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-38,R524A.BIN,29,アンギーラ,9,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-39,R524A.BIN,29,アンギーラ,9,3,-1,None,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-40,R524A.BIN,29,アンギーラ,10,0,-1,None,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-41,R524A.BIN,29,アンギーラ,10,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-42,R524A.BIN,29,アンギーラ,10,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-43,R524A.BIN,29,アンギーラ,10,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-44,R524A.BIN,29,アンギーラ,11,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-45,R524A.BIN,29,アンギーラ,11,1,3,Rating,60,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-46,R524A.BIN,29,アンギーラ,11,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-47,R524A.BIN,29,アンギーラ,11,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-48,R524A.BIN,29,アンギーラ,12,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-49,R524A.BIN,29,アンギーラ,12,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-50,R524A.BIN,29,アンギーラ,12,2,3,Rating,70,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
-51,R524A.BIN,29,アンギーラ,12,3,3,Rating,50,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-52,R524A.BIN,29,アンギーラ,13,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-53,R524A.BIN,29,アンギーラ,13,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-54,R524A.BIN,29,アンギーラ,13,2,3,Rating,80,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-55,R524A.BIN,29,アンギーラ,13,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-56,R524A.BIN,29,アンギーラ,14,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-57,R524A.BIN,29,アンギーラ,14,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-58,R524A.BIN,29,アンギーラ,14,2,3,Rating,30,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-59,R524A.BIN,29,アンギーラ,14,3,-1,None,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-60,R524A.BIN,29,アンギーラ,15,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-61,R524A.BIN,29,アンギーラ,15,1,3,Rating,50,0,Attack,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0
-62,R524A.BIN,29,アンギーラ,15,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-63,R524A.BIN,29,アンギーラ,15,3,-1,None,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-0,R527A.BIN,36,ヒュージエルモ,0,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-1,R527A.BIN,36,ヒュージエルモ,0,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-2,R527A.BIN,36,ヒュージエルモ,0,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-3,R527A.BIN,36,ヒュージエルモ,0,3,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-4,R527A.BIN,36,ヒュージエルモ,1,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-5,R527A.BIN,36,ヒュージエルモ,1,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-6,R527A.BIN,36,ヒュージエルモ,1,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-7,R527A.BIN,36,ヒュージエルモ,1,3,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-8,R527A.BIN,36,ヒュージエルモ,2,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-9,R527A.BIN,36,ヒュージエルモ,2,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-10,R527A.BIN,36,ヒュージエルモ,2,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-11,R527A.BIN,36,ヒュージエルモ,2,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-12,R527A.BIN,36,ヒュージエルモ,3,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-13,R527A.BIN,36,ヒュージエルモ,3,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-14,R527A.BIN,36,ヒュージエルモ,3,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-15,R527A.BIN,36,ヒュージエルモ,3,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-16,R527A.BIN,36,ヒュージエルモ,4,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-17,R527A.BIN,36,ヒュージエルモ,4,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-18,R527A.BIN,36,ヒュージエルモ,4,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-19,R527A.BIN,36,ヒュージエルモ,4,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-0,R532A.BIN,37,アラーニャ,0,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-1,R532A.BIN,37,アラーニャ,0,1,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-2,R532A.BIN,37,アラーニャ,0,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-3,R532A.BIN,37,アラーニャ,0,3,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-4,R532A.BIN,37,アラーニャ,1,0,3,Rating,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-5,R532A.BIN,37,アラーニャ,1,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-6,R532A.BIN,37,アラーニャ,1,2,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-7,R532A.BIN,37,アラーニャ,1,3,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-8,R532A.BIN,37,アラーニャ,2,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-9,R532A.BIN,37,アラーニャ,2,1,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-10,R532A.BIN,37,アラーニャ,2,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-11,R532A.BIN,37,アラーニャ,2,3,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-12,R532A.BIN,37,アラーニャ,3,0,3,Rating,70,0,Attack,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-13,R532A.BIN,37,アラーニャ,3,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-14,R532A.BIN,37,アラーニャ,3,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-15,R532A.BIN,37,アラーニャ,3,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-16,R532A.BIN,37,アラーニャ,4,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-17,R532A.BIN,37,アラーニャ,4,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-18,R532A.BIN,37,アラーニャ,4,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-19,R532A.BIN,37,アラーニャ,4,3,3,Rating,30,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-20,R532A.BIN,37,アラーニャ,5,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-21,R532A.BIN,37,アラーニャ,5,1,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-22,R532A.BIN,37,アラーニャ,5,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-23,R532A.BIN,37,アラーニャ,5,3,3,Rating,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-24,R532A.BIN,37,アラーニャ,6,0,3,Rating,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-25,R532A.BIN,37,アラーニャ,6,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-26,R532A.BIN,37,アラーニャ,6,2,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-27,R532A.BIN,37,アラーニャ,6,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-0,R535A.BIN,27,イェラーガ,0,0,3,Rating,80,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-1,R535A.BIN,27,イェラーガ,0,1,3,Rating,20,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-2,R535A.BIN,27,イェラーガ,0,2,0,PS HP ≤,40,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,0
-3,R535A.BIN,27,イェラーガ,0,3,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-4,R535A.BIN,27,イェラーガ,1,0,-1,None,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-5,R535A.BIN,27,イェラーガ,1,1,3,Rating,35,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-6,R535A.BIN,27,イェラーガ,1,2,0,PS HP ≤,10,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
-7,R535A.BIN,27,イェラーガ,1,3,3,Rating,60,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-8,R535A.BIN,27,イェラーガ,2,0,-1,None,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-9,R535A.BIN,27,イェラーガ,2,1,3,Rating,60,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-10,R535A.BIN,27,イェラーガ,2,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-11,R535A.BIN,27,イェラーガ,2,3,3,Rating,50,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,2,Preparing Attack,0
-12,R535A.BIN,27,イェラーガ,3,0,0,PS HP ≤,30,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
-13,R535A.BIN,27,イェラーガ,3,1,3,Rating,60,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-14,R535A.BIN,27,イェラーガ,3,2,-1,None,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-15,R535A.BIN,27,イェラーガ,3,3,0,PS HP ≤,10,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-16,R535A.BIN,27,イェラーガ,4,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-17,R535A.BIN,27,イェラーガ,4,1,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-18,R535A.BIN,27,イェラーガ,4,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-19,R535A.BIN,27,イェラーガ,4,3,7,???,0,4,Nothing,-1,1,Target Lost,0,0,Attack,2,-1,None,0
-20,R535A.BIN,27,イェラーガ,5,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-21,R535A.BIN,27,イェラーガ,5,1,3,Rating,50,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
-22,R535A.BIN,27,イェラーガ,5,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-23,R535A.BIN,27,イェラーガ,5,3,3,Rating,50,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
-24,R535A.BIN,27,イェラーガ,6,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-25,R535A.BIN,27,イェラーガ,6,1,0,PS HP ≤,10,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
-26,R535A.BIN,27,イェラーガ,6,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-27,R535A.BIN,27,イェラーガ,6,3,0,PS HP ≤,0,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,0
-28,R535A.BIN,27,イェラーガ,7,0,0,PS HP ≤,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-29,R535A.BIN,27,イェラーガ,7,1,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-30,R535A.BIN,27,イェラーガ,7,2,0,PS HP ≤,10,2,Focus,-1,2,Preparing Attack,0,0,Attack,1,-1,None,0
-31,R535A.BIN,27,イェラーガ,7,3,0,PS HP ≤,30,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
-32,R535A.BIN,27,イェラーガ,8,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-33,R535A.BIN,27,イェラーガ,8,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-34,R535A.BIN,27,イェラーガ,8,2,0,PS HP ≤,10,2,Focus,-1,2,Preparing Attack,0,0,Attack,1,-1,None,0
-35,R535A.BIN,27,イェラーガ,8,3,7,???,0,4,Nothing,-1,1,Target Lost,0,0,Attack,2,-1,None,0
-36,R535A.BIN,27,イェラーガ,9,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-37,R535A.BIN,27,イェラーガ,9,1,0,PS HP ≤,30,2,Focus,-1,2,Preparing Attack,0,0,Attack,1,-1,None,0
-38,R535A.BIN,27,イェラーガ,9,2,0,PS HP ≤,15,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-39,R535A.BIN,27,イェラーガ,9,3,7,???,0,4,Nothing,-1,1,Target Lost,0,0,Attack,2,-1,None,0
-40,R535A.BIN,27,イェラーガ,10,0,3,Rating,80,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-41,R535A.BIN,27,イェラーガ,10,1,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-42,R535A.BIN,27,イェラーガ,10,2,3,Rating,80,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-43,R535A.BIN,27,イェラーガ,10,3,0,PS HP ≤,10,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
-44,R535A.BIN,27,イェラーガ,11,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-45,R535A.BIN,27,イェラーガ,11,1,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-46,R535A.BIN,27,イェラーガ,11,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-47,R535A.BIN,27,イェラーガ,11,3,7,???,0,4,Nothing,-1,1,Target Lost,0,0,Attack,2,-1,None,0
-48,R535A.BIN,27,イェラーガ,12,0,3,Rating,80,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-49,R535A.BIN,27,イェラーガ,12,1,-1,None,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-50,R535A.BIN,27,イェラーガ,12,2,3,Rating,60,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-51,R535A.BIN,27,イェラーガ,12,3,3,Rating,40,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-52,R535A.BIN,27,イェラーガ,13,0,-1,None,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-53,R535A.BIN,27,イェラーガ,13,1,3,Rating,80,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-54,R535A.BIN,27,イェラーガ,13,2,3,Rating,50,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-55,R535A.BIN,27,イェラーガ,13,3,3,Rating,80,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
-0,R537A.BIN,30,ラージャ,0,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-1,R537A.BIN,30,ラージャ,0,1,3,Rating,70,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-2,R537A.BIN,30,ラージャ,0,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-3,R537A.BIN,30,ラージャ,0,3,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-4,R537A.BIN,30,ラージャ,1,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-5,R537A.BIN,30,ラージャ,1,1,-1,None,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-6,R537A.BIN,30,ラージャ,1,2,3,Rating,50,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-7,R537A.BIN,30,ラージャ,1,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-8,R537A.BIN,30,ラージャ,2,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-9,R537A.BIN,30,ラージャ,2,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-10,R537A.BIN,30,ラージャ,2,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-11,R537A.BIN,30,ラージャ,2,3,-1,None,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-12,R537A.BIN,30,ラージャ,3,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-13,R537A.BIN,30,ラージャ,3,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-14,R537A.BIN,30,ラージャ,3,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-15,R537A.BIN,30,ラージャ,3,3,3,Rating,20,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-16,R537A.BIN,30,ラージャ,4,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-17,R537A.BIN,30,ラージャ,4,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-18,R537A.BIN,30,ラージャ,4,2,3,Rating,50,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-19,R537A.BIN,30,ラージャ,4,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-20,R537A.BIN,30,ラージャ,5,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-21,R537A.BIN,30,ラージャ,5,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-22,R537A.BIN,30,ラージャ,5,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-23,R537A.BIN,30,ラージャ,5,3,3,Rating,80,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-24,R537A.BIN,30,ラージャ,6,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-25,R537A.BIN,30,ラージャ,6,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-26,R537A.BIN,30,ラージャ,6,2,3,Rating,50,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-27,R537A.BIN,30,ラージャ,6,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-28,R537A.BIN,30,ラージャ,7,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-29,R537A.BIN,30,ラージャ,7,1,-1,None,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-30,R537A.BIN,30,ラージャ,7,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-31,R537A.BIN,30,ラージャ,7,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-32,R537A.BIN,30,ラージャ,8,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-33,R537A.BIN,30,ラージャ,8,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-34,R537A.BIN,30,ラージャ,8,2,3,Rating,60,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-35,R537A.BIN,30,ラージャ,8,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-36,R537A.BIN,30,ラージャ,9,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-37,R537A.BIN,30,ラージャ,9,1,3,Rating,60,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-38,R537A.BIN,30,ラージャ,9,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-39,R537A.BIN,30,ラージャ,9,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-40,R537A.BIN,30,ラージャ,10,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-41,R537A.BIN,30,ラージャ,10,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-42,R537A.BIN,30,ラージャ,10,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-43,R537A.BIN,30,ラージャ,10,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-0,R538A.BIN,31,ラージャエンブラ,0,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-1,R538A.BIN,31,ラージャエンブラ,0,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-2,R538A.BIN,31,ラージャエンブラ,0,2,-1,None,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-3,R538A.BIN,31,ラージャエンブラ,0,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-4,R538A.BIN,31,ラージャエンブラ,1,0,-1,None,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-5,R538A.BIN,31,ラージャエンブラ,1,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-6,R538A.BIN,31,ラージャエンブラ,1,2,3,Rating,60,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-7,R538A.BIN,31,ラージャエンブラ,1,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-8,R538A.BIN,31,ラージャエンブラ,2,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-9,R538A.BIN,31,ラージャエンブラ,2,1,0,PS HP ≤,50,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-10,R538A.BIN,31,ラージャエンブラ,2,2,-1,None,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-11,R538A.BIN,31,ラージャエンブラ,2,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-12,R538A.BIN,31,ラージャエンブラ,3,0,-1,None,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-13,R538A.BIN,31,ラージャエンブラ,3,1,5,???,0,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
-14,R538A.BIN,31,ラージャエンブラ,3,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-15,R538A.BIN,31,ラージャエンブラ,3,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-16,R538A.BIN,31,ラージャエンブラ,4,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-17,R538A.BIN,31,ラージャエンブラ,4,1,3,Rating,50,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-18,R538A.BIN,31,ラージャエンブラ,4,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-19,R538A.BIN,31,ラージャエンブラ,4,3,-1,None,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-20,R538A.BIN,31,ラージャエンブラ,5,0,0,PS HP ≤,30,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-21,R538A.BIN,31,ラージャエンブラ,5,1,3,Rating,50,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-22,R538A.BIN,31,ラージャエンブラ,5,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-23,R538A.BIN,31,ラージャエンブラ,5,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-24,R538A.BIN,31,ラージャエンブラ,6,0,3,Rating,60,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-25,R538A.BIN,31,ラージャエンブラ,6,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-26,R538A.BIN,31,ラージャエンブラ,6,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-27,R538A.BIN,31,ラージャエンブラ,6,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-28,R538A.BIN,31,ラージャエンブラ,7,0,3,Rating,70,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-29,R538A.BIN,31,ラージャエンブラ,7,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-30,R538A.BIN,31,ラージャエンブラ,7,2,3,Rating,40,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-31,R538A.BIN,31,ラージャエンブラ,7,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-32,R538A.BIN,31,ラージャエンブラ,8,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-33,R538A.BIN,31,ラージャエンブラ,8,1,3,Rating,30,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-34,R538A.BIN,31,ラージャエンブラ,8,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-35,R538A.BIN,31,ラージャエンブラ,8,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-36,R538A.BIN,31,ラージャエンブラ,9,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-37,R538A.BIN,31,ラージャエンブラ,9,1,0,PS HP ≤,40,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-38,R538A.BIN,31,ラージャエンブラ,9,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-39,R538A.BIN,31,ラージャエンブラ,9,3,3,Rating,50,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-40,R538A.BIN,31,ラージャエンブラ,10,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-41,R538A.BIN,31,ラージャエンブラ,10,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-42,R538A.BIN,31,ラージャエンブラ,10,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-43,R538A.BIN,31,ラージャエンブラ,10,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-0,R540A.BIN,14,カミュレオン,0,0,3,Rating,70,0,Attack,2,-1,None,2,2,Focus,-1,-1,None,0
-1,R540A.BIN,14,カミュレオン,0,1,3,Rating,80,0,Attack,0,-1,None,3,0,Attack,1,-1,None,2
-2,R540A.BIN,14,カミュレオン,0,2,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-3,R540A.BIN,14,カミュレオン,0,3,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-4,R540A.BIN,14,カミュレオン,1,0,3,Rating,30,0,Attack,1,-1,None,1,0,Attack,2,-1,None,1
-5,R540A.BIN,14,カミュレオン,1,1,-1,None,0,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
-6,R540A.BIN,14,カミュレオン,1,2,-1,None,0,0,Attack,2,-1,None,1,-1,None,-1,-1,None,0
-7,R540A.BIN,14,カミュレオン,1,3,-1,None,0,4,Nothing,-1,1,Target Lost,0,-1,None,-1,-1,None,0
-8,R540A.BIN,14,カミュレオン,2,0,-1,None,0,0,Attack,2,-1,None,2,-1,None,-1,-1,None,0
-9,R540A.BIN,14,カミュレオン,2,1,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-10,R540A.BIN,14,カミュレオン,2,2,3,Rating,80,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-11,R540A.BIN,14,カミュレオン,2,3,-1,None,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
-0,R541A.BIN,14,カミュレオン,0,0,3,Rating,30,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,1
-1,R541A.BIN,14,カミュレオン,0,1,3,Rating,50,1,Magic,-1,2,サイレシャ,0,0,Attack,0,-1,None,0
-2,R541A.BIN,14,カミュレオン,0,2,3,Rating,10,1,Magic,-1,24,バーニィ,0,0,Attack,1,-1,None,1
-3,R541A.BIN,14,カミュレオン,0,3,3,Rating,20,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
-4,R541A.BIN,14,カミュレオン,1,0,3,Rating,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
-5,R541A.BIN,14,カミュレオン,1,1,3,Rating,65,0,Attack,1,-1,None,1,1,Magic,-1,5,ダウノス,0
-6,R541A.BIN,14,カミュレオン,1,2,1,ES HP ≤,70,1,Magic,-1,7,サプリィ,0,1,Magic,-1,24,バーニィ,0
-7,R541A.BIN,14,カミュレオン,1,3,3,Rating,30,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-8,R541A.BIN,14,カミュレオン,2,0,3,Rating,80,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
-9,R541A.BIN,14,カミュレオン,2,1,3,Rating,50,1,Magic,-1,24,バーニィ,0,0,Attack,0,-1,None,0
-10,R541A.BIN,14,カミュレオン,2,2,3,Rating,50,1,Magic,-1,24,バーニィ,0,0,Attack,2,-1,None,1
-11,R541A.BIN,14,カミュレオン,2,3,3,Rating,50,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
-0,R542A.BIN,4,バルア戦艦,0,0,-1,None,0,2,Focus,-1,0,Focus,0,-1,None,-1,0,???,0
-1,R542A.BIN,4,バルア戦艦,0,1,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-2,R542A.BIN,4,バルア戦艦,0,2,-1,None,0,0,Attack,1,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-3,R542A.BIN,4,バルア戦艦,0,3,-1,None,0,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
-4,R542A.BIN,4,バルア戦艦,1,0,3,Rating,50,2,Focus,-1,-1,None,0,0,Attack,2,-1,None,3
-5,R542A.BIN,4,バルア戦艦,1,1,-1,None,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
-6,R542A.BIN,4,バルア戦艦,1,2,-1,None,0,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-7,R542A.BIN,4,バルア戦艦,1,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-8,R542A.BIN,4,バルア戦艦,2,0,3,Rating,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
-9,R542A.BIN,4,バルア戦艦,2,1,-1,None,0,0,Attack,1,-1,None,1,-1,None,-1,-1,None,0
-10,R542A.BIN,4,バルア戦艦,2,2,-1,None,0,0,Attack,2,-1,None,1,-1,None,-1,-1,None,0
-11,R542A.BIN,4,バルア戦艦,2,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-12,R542A.BIN,4,バルア戦艦,3,0,-1,None,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
-13,R542A.BIN,4,バルア戦艦,3,1,-1,None,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
-14,R542A.BIN,4,バルア戦艦,3,2,-1,None,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
-15,R542A.BIN,4,バルア戦艦,3,3,-1,None,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-0,R543A.BIN,5,バルアЖ戦艦,0,0,3,Rating,30,0,Attack,2,-1,None,3,-1,None,-1,0,???,0
-1,R543A.BIN,5,バルアЖ戦艦,0,1,3,Rating,20,2,Focus,0,-1,None,0,0,Attack,2,0,None,2
-2,R543A.BIN,5,バルアЖ戦艦,0,2,-1,None,0,0,Attack,1,-1,None,1,0,Attack,0,-1,None,0
-3,R543A.BIN,5,バルアЖ戦艦,0,3,3,Rating,15,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
-4,R543A.BIN,5,バルアЖ戦艦,1,0,3,Rating,50,0,Attack,0,-1,None,1,1,Magic,-1,13,クイッカ,0
-5,R543A.BIN,5,バルアЖ戦艦,1,1,3,Rating,50,0,Attack,1,-1,None,0,1,Magic,-1,4,ダウナ,0
-6,R543A.BIN,5,バルアЖ戦艦,1,2,3,Rating,15,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
-7,R543A.BIN,5,バルアЖ戦艦,1,3,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-8,R543A.BIN,5,バルアЖ戦艦,2,0,3,Rating,80,0,Attack,2,-1,None,3,0,Attack,2,-1,None,2
-9,R543A.BIN,5,バルアЖ戦艦,2,1,3,Rating,50,1,Magic,-1,34,ボルテス,0,1,Magic,-1,27,グラシィ,0
-10,R543A.BIN,5,バルアЖ戦艦,2,2,3,Rating,30,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
-11,R543A.BIN,5,バルアЖ戦艦,2,3,-1,None,0,1,Magic,-1,34,ボルテス,0,-1,None,-1,-1,None,0
-12,R543A.BIN,5,バルアЖ戦艦,3,0,-1,None,0,0,Attack,2,-1,None,2,0,Attack,2,-1,None,3
-13,R543A.BIN,5,バルアЖ戦艦,3,1,3,Rating,50,0,Attack,1,-1,None,0,3,Guard,-1,-1,None,0
-14,R543A.BIN,5,バルアЖ戦艦,3,2,3,Rating,50,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
-15,R543A.BIN,5,バルアЖ戦艦,3,3,3,Rating,80,2,Focus,-1,34,Preparing Attack,0,0,Attack,1,-1,None,0
-16,R543A.BIN,5,バルアЖ戦艦,4,0,-1,None,0,0,Attack,2,-1,None,2,0,Attack,2,-1,None,3
-17,R543A.BIN,5,バルアЖ戦艦,4,1,3,Rating,50,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
-18,R543A.BIN,5,バルアЖ戦艦,4,2,3,Rating,50,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
-19,R543A.BIN,5,バルアЖ戦艦,4,3,-1,None,0,1,Magic,-1,27,グラシィ,0,-1,None,-1,-1,None,0
-0,R544A.BIN,8,ガルシアン親衛艦,0,0,5,???,0,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
-1,R544A.BIN,8,ガルシアン親衛艦,0,1,3,Rating,90,0,Attack,0,-1,None,0,0,Attack,1,0,None,2
-2,R544A.BIN,8,ガルシアン親衛艦,0,2,3,Rating,30,0,Attack,1,-1,None,1,0,Attack,0,-1,None,0
-3,R544A.BIN,8,ガルシアン親衛艦,0,3,3,Rating,60,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-4,R544A.BIN,8,ガルシアン親衛艦,1,0,3,Rating,30,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
-5,R544A.BIN,8,ガルシアン親衛艦,1,1,3,Rating,20,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,1,-1,None,3
-6,R544A.BIN,8,ガルシアン親衛艦,1,2,-1,None,0,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-7,R544A.BIN,8,ガルシアン親衛艦,1,3,3,Rating,40,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
-8,R544A.BIN,8,ガルシアン親衛艦,2,0,3,Rating,50,0,Attack,2,-1,None,2,2,Focus,-1,0,Focus,0
-9,R544A.BIN,8,ガルシアン親衛艦,2,1,-1,None,0,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-10,R544A.BIN,8,ガルシアン親衛艦,2,2,-1,None,0,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
-11,R544A.BIN,8,ガルシアン親衛艦,2,3,5,???,0,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-12,R544A.BIN,8,ガルシアン親衛艦,3,0,-1,None,0,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
-13,R544A.BIN,8,ガルシアン親衛艦,3,1,3,Rating,80,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
-14,R544A.BIN,8,ガルシアン親衛艦,3,2,3,Rating,30,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
-15,R544A.BIN,8,ガルシアン親衛艦,3,3,5,???,0,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-16,R544A.BIN,8,ガルシアン親衛艦,4,0,3,Rating,50,0,Attack,2,-1,None,2,4,Nothing,-1,0,Awaiting Orders,0
-17,R544A.BIN,8,ガルシアン親衛艦,4,1,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,0,-1,None,0
-18,R544A.BIN,8,ガルシアン親衛艦,4,2,3,Rating,50,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
-19,R544A.BIN,8,ガルシアン親衛艦,4,3,-1,None,0,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-0,R545A.BIN,18,ヒュドラ,0,0,-1,None,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-1,R545A.BIN,18,ヒュドラ,0,1,-1,None,0,0,Attack,1,-1,None,1,0,Attack,1,-1,None,1
-2,R545A.BIN,18,ヒュドラ,0,2,3,Rating,50,0,Attack,2,-1,None,0,2,Focus,-1,-1,None,0
-3,R545A.BIN,18,ヒュドラ,0,3,4,???,0,2,Focus,-1,-1,None,0,0,Attack,2,-1,None,0
-4,R545A.BIN,18,ヒュドラ,1,0,3,Rating,80,3,Guard,-1,-1,None,0,0,Attack,1,-1,None,1
-5,R545A.BIN,18,ヒュドラ,1,1,3,Rating,20,0,Attack,2,-1,None,1,2,Focus,-1,-1,None,0
-6,R545A.BIN,18,ヒュドラ,1,2,4,???,0,3,Guard,-1,-1,None,0,0,Attack,2,-1,None,1
-7,R545A.BIN,18,ヒュドラ,1,3,1,ES HP ≤,50,1,Magic,-1,7,サプリィ,0,2,Focus,-1,-1,None,0
-8,R545A.BIN,18,ヒュドラ,2,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-9,R545A.BIN,18,ヒュドラ,2,1,3,Rating,60,0,Attack,2,-1,None,1,3,Guard,-1,-1,None,0
-10,R545A.BIN,18,ヒュドラ,2,2,3,Rating,80,3,Guard,-1,-1,None,0,2,Focus,-1,-1,None,0
-11,R545A.BIN,18,ヒュドラ,2,3,1,ES HP ≤,70,0,Attack,1,-1,None,0,3,Guard,-1,-1,None,0
-12,R545A.BIN,18,ヒュドラ,3,0,-1,None,0,0,Attack,1,-1,None,1,0,Attack,1,-1,None,1
-13,R545A.BIN,18,ヒュドラ,3,1,-1,None,0,2,Focus,-1,-1,None,0,2,Focus,-1,-1,None,0
-14,R545A.BIN,18,ヒュドラ,3,2,-1,None,0,1,Magic,-1,7,サプリィ,0,1,Magic,-1,7,サプリィ,0
-15,R545A.BIN,18,ヒュドラ,3,3,1,ES HP ≤,30,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
-16,R545A.BIN,18,ヒュドラ,4,0,-1,None,0,0,Attack,1,-1,None,1,2,Focus,-1,-1,None,0
-17,R545A.BIN,18,ヒュドラ,4,1,4,???,0,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,1
-18,R545A.BIN,18,ヒュドラ,4,2,-1,None,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-19,R545A.BIN,18,ヒュドラ,4,3,3,Rating,50,0,Attack,0,-1,None,0,1,Magic,-1,7,サプリィ,0
-20,R545A.BIN,18,ヒュドラ,5,0,-1,None,0,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-21,R545A.BIN,18,ヒュドラ,5,1,0,PS HP ≤,70,0,Attack,0,-1,None,0,0,Attack,1,-1,None,1
-22,R545A.BIN,18,ヒュドラ,5,2,-1,None,0,2,Focus,-1,-1,None,0,2,Focus,-1,-1,None,0
-23,R545A.BIN,18,ヒュドラ,5,3,-1,None,0,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
-24,R545A.BIN,18,ヒュドラ,6,0,5,???,50,3,Guard,-1,-1,None,0,0,Attack,1,-1,None,1
-25,R545A.BIN,18,ヒュドラ,6,1,4,???,0,3,Guard,-1,-1,None,0,0,Attack,1,-1,None,0
-26,R545A.BIN,18,ヒュドラ,6,2,3,Rating,50,0,Attack,2,-1,None,1,2,Focus,-1,-1,None,0
-27,R545A.BIN,18,ヒュドラ,6,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-28,R545A.BIN,18,ヒュドラ,7,0,-1,None,0,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
-29,R545A.BIN,18,ヒュドラ,7,1,3,Rating,20,0,Attack,2,-1,None,1,2,Focus,-1,-1,None,0
-30,R545A.BIN,18,ヒュドラ,7,2,4,???,0,2,Focus,-1,-1,None,0,0,Attack,2,-1,None,1
-31,R545A.BIN,18,ヒュドラ,7,3,-1,None,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-32,R545A.BIN,18,ヒュドラ,8,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-33,R545A.BIN,18,ヒュドラ,8,1,3,Rating,60,0,Attack,2,-1,None,1,3,Guard,-1,-1,None,0
-34,R545A.BIN,18,ヒュドラ,8,2,-1,None,0,2,Focus,-1,-1,None,0,2,Focus,-1,-1,None,0
-35,R545A.BIN,18,ヒュドラ,8,3,-1,None,0,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
-0,R547A.BIN,28,ジェロス,0,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-1,R547A.BIN,28,ジェロス,0,1,3,Rating,80,1,Magic,-1,4,ダウナ,0,1,Magic,-1,2,サイレシャ,0
-2,R547A.BIN,28,ジェロス,0,2,-1,None,0,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
-3,R547A.BIN,28,ジェロス,0,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-4,R547A.BIN,28,ジェロス,1,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-5,R547A.BIN,28,ジェロス,1,1,3,Rating,80,1,Magic,-1,4,ダウナ,0,1,Magic,-1,2,サイレシャ,0
-6,R547A.BIN,28,ジェロス,1,2,3,Rating,50,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
-7,R547A.BIN,28,ジェロス,1,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-8,R547A.BIN,28,ジェロス,2,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-9,R547A.BIN,28,ジェロス,2,1,-1,None,0,1,Magic,-1,2,サイレシャ,0,0,Attack,0,-1,None,0
-10,R547A.BIN,28,ジェロス,2,2,3,Rating,50,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
-11,R547A.BIN,28,ジェロス,2,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-12,R547A.BIN,28,ジェロス,3,0,-1,None,0,1,Magic,-1,13,クイッカ,0,0,Attack,0,-1,None,0
-13,R547A.BIN,28,ジェロス,3,1,3,Rating,50,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
-14,R547A.BIN,28,ジェロス,3,2,3,Rating,50,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
-15,R547A.BIN,28,ジェロス,3,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-16,R547A.BIN,28,ジェロス,4,0,-1,None,0,1,Magic,-1,13,クイッカ,0,0,Attack,0,-1,None,0
-17,R547A.BIN,28,ジェロス,4,1,3,Rating,50,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
-18,R547A.BIN,28,ジェロス,4,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-19,R547A.BIN,28,ジェロス,4,3,9,???,0,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-20,R547A.BIN,28,ジェロス,5,0,3,Rating,80,1,Magic,-1,4,ダウナ,0,1,Magic,-1,2,サイレシャ,0
-21,R547A.BIN,28,ジェロス,5,1,3,Rating,50,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
-22,R547A.BIN,28,ジェロス,5,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-23,R547A.BIN,28,ジェロス,5,3,9,???,0,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-24,R547A.BIN,28,ジェロス,6,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-25,R547A.BIN,28,ジェロス,6,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-26,R547A.BIN,28,ジェロス,6,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-27,R547A.BIN,28,ジェロス,6,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-28,R547A.BIN,28,ジェロス,7,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-29,R547A.BIN,28,ジェロス,7,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-30,R547A.BIN,28,ジェロス,7,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-31,R547A.BIN,28,ジェロス,7,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-32,R547A.BIN,28,ジェロス,8,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-33,R547A.BIN,28,ジェロス,8,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-34,R547A.BIN,28,ジェロス,8,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-35,R547A.BIN,28,ジェロス,8,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-36,R547A.BIN,28,ジェロス,9,0,-1,None,0,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-37,R547A.BIN,28,ジェロス,9,1,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
-38,R547A.BIN,28,ジェロス,9,2,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
-39,R547A.BIN,28,ジェロス,9,3,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
-40,R547A.BIN,28,ジェロス,10,0,-1,None,0,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-41,R547A.BIN,28,ジェロス,10,1,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
-42,R547A.BIN,28,ジェロス,10,2,-1,None,0,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-43,R547A.BIN,28,ジェロス,10,3,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
-44,R547A.BIN,28,ジェロス,11,0,-1,None,0,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-45,R547A.BIN,28,ジェロス,11,1,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
-46,R547A.BIN,28,ジェロス,11,2,-1,None,0,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-47,R547A.BIN,28,ジェロス,11,3,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
-48,R547A.BIN,28,ジェロス,12,0,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
-49,R547A.BIN,28,ジェロス,12,1,-1,None,0,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-50,R547A.BIN,28,ジェロス,12,2,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
-51,R547A.BIN,28,ジェロス,12,3,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
-52,R547A.BIN,28,ジェロス,13,0,-1,None,0,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-53,R547A.BIN,28,ジェロス,13,1,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
-54,R547A.BIN,28,ジェロス,13,2,-1,None,0,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-55,R547A.BIN,28,ジェロス,13,3,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
-56,R547A.BIN,28,ジェロス,14,0,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-57,R547A.BIN,28,ジェロス,14,1,-1,None,0,1,Magic,-1,4,ダウナ,0,0,Attack,0,-1,None,0
-58,R547A.BIN,28,ジェロス,14,2,-1,None,0,1,Magic,-1,13,クイッカ,0,0,Attack,0,-1,None,0
-59,R547A.BIN,28,ジェロス,14,3,0,PS HP ≤,50,0,Attack,1,-1,None,0,0,Attack,3,-1,None,0
-60,R547A.BIN,28,ジェロス,15,0,-1,None,0,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-61,R547A.BIN,28,ジェロス,15,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-62,R547A.BIN,28,ジェロス,15,2,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-63,R547A.BIN,28,ジェロス,15,3,9,???,0,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-64,R547A.BIN,28,ジェロス,16,0,-1,None,0,1,Magic,-1,13,クイッカ,0,0,Attack,0,-1,None,0
-65,R547A.BIN,28,ジェロス,16,1,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-66,R547A.BIN,28,ジェロス,16,2,9,???,0,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-67,R547A.BIN,28,ジェロス,16,3,0,PS HP ≤,50,0,Attack,1,-1,None,0,0,Attack,3,-1,None,0
-68,R547A.BIN,28,ジェロス,17,0,0,PS HP ≤,50,4,Nothing,-1,2,Assessing Damage,0,1,Magic,-1,4,ダウナ,0
-69,R547A.BIN,28,ジェロス,17,1,3,Rating,50,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
-70,R547A.BIN,28,ジェロス,17,2,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
-71,R547A.BIN,28,ジェロス,17,3,-1,None,0,0,Attack,2,-1,None,0,0,Attack,0,-1,None,0
-72,R547A.BIN,28,ジェロス,18,0,3,Rating,50,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,29,グラゾーバ,0
-73,R547A.BIN,28,ジェロス,18,1,-1,None,0,0,Attack,2,-1,None,0,0,Attack,0,-1,None,0
-74,R547A.BIN,28,ジェロス,18,2,3,Rating,50,1,Magic,-1,30,バーノーン,0,1,Magic,-1,35,ボルドーラ,0
-75,R547A.BIN,28,ジェロス,18,3,-1,None,0,0,Attack,2,-1,None,0,0,Attack,0,-1,None,0
-0,R550A.BIN,21,黒空賊船,0,0,3,Rating,80,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
-1,R550A.BIN,21,黒空賊船,0,1,4,???,2,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
-2,R550A.BIN,21,黒空賊船,0,2,4,???,2,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-3,R550A.BIN,21,黒空賊船,0,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-4,R550A.BIN,21,黒空賊船,1,0,3,Rating,70,0,Attack,1,0,None,3,3,Guard,-1,0,Evasive Action,0
-5,R550A.BIN,21,黒空賊船,1,1,3,Rating,80,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
-6,R550A.BIN,21,黒空賊船,1,2,3,Rating,70,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-7,R550A.BIN,21,黒空賊船,1,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-8,R550A.BIN,21,黒空賊船,2,0,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-9,R550A.BIN,21,黒空賊船,2,1,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-10,R550A.BIN,21,黒空賊船,2,2,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-11,R550A.BIN,21,黒空賊船,2,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-12,R550A.BIN,21,黒空賊船,3,0,3,Rating,98,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-13,R550A.BIN,21,黒空賊船,3,1,3,Rating,50,2,Focus,-1,0,Focus,0,0,Attack,1,0,None,2
-14,R550A.BIN,21,黒空賊船,3,2,3,Rating,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-15,R550A.BIN,21,黒空賊船,3,3,3,Rating,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-0,R551A.BIN,21,黒空賊船,0,0,3,Rating,80,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
-1,R551A.BIN,21,黒空賊船,0,1,4,???,2,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
-2,R551A.BIN,21,黒空賊船,0,2,4,???,2,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-3,R551A.BIN,21,黒空賊船,0,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-4,R551A.BIN,21,黒空賊船,1,0,3,Rating,70,0,Attack,1,0,None,3,3,Guard,-1,0,Evasive Action,0
-5,R551A.BIN,21,黒空賊船,1,1,3,Rating,80,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
-6,R551A.BIN,21,黒空賊船,1,2,3,Rating,70,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-7,R551A.BIN,21,黒空賊船,1,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-8,R551A.BIN,21,黒空賊船,2,0,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-9,R551A.BIN,21,黒空賊船,2,1,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-10,R551A.BIN,21,黒空賊船,2,2,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-11,R551A.BIN,21,黒空賊船,2,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-12,R551A.BIN,21,黒空賊船,3,0,3,Rating,98,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-13,R551A.BIN,21,黒空賊船,3,1,3,Rating,50,2,Focus,-1,0,Focus,0,0,Attack,1,0,None,2
-14,R551A.BIN,21,黒空賊船,3,2,3,Rating,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-15,R551A.BIN,21,黒空賊船,3,3,3,Rating,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-0,R552A.BIN,21,黒空賊船,0,0,3,Rating,80,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
-1,R552A.BIN,21,黒空賊船,0,1,4,???,2,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
-2,R552A.BIN,21,黒空賊船,0,2,4,???,2,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-3,R552A.BIN,21,黒空賊船,0,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-4,R552A.BIN,21,黒空賊船,1,0,3,Rating,70,0,Attack,1,0,None,3,3,Guard,-1,0,Evasive Action,0
-5,R552A.BIN,21,黒空賊船,1,1,3,Rating,80,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
-6,R552A.BIN,21,黒空賊船,1,2,3,Rating,70,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-7,R552A.BIN,21,黒空賊船,1,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-8,R552A.BIN,21,黒空賊船,2,0,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-9,R552A.BIN,21,黒空賊船,2,1,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-10,R552A.BIN,21,黒空賊船,2,2,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-11,R552A.BIN,21,黒空賊船,2,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-12,R552A.BIN,21,黒空賊船,3,0,3,Rating,98,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-13,R552A.BIN,21,黒空賊船,3,1,3,Rating,50,2,Focus,-1,0,Focus,0,0,Attack,1,0,None,2
-14,R552A.BIN,21,黒空賊船,3,2,3,Rating,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-15,R552A.BIN,21,黒空賊船,3,3,3,Rating,80,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-0,R560A.BIN,1,バルアЖ駆逐艦,0,0,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-1,R560A.BIN,1,バルアЖ駆逐艦,0,1,-1,None,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
-2,R560A.BIN,1,バルアЖ駆逐艦,0,2,3,Rating,75,1,Magic,-1,24,バーニィ,0,0,Attack,0,-1,None,0
-3,R560A.BIN,1,バルアЖ駆逐艦,0,3,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-4,R560A.BIN,1,バルアЖ駆逐艦,1,0,-1,None,0,0,Attack,0,-1,None,0,-1,None,1,-1,None,0
-5,R560A.BIN,1,バルアЖ駆逐艦,1,1,3,Rating,50,2,Focus,-1,0,Focus,0,0,Attack,1,-1,None,0
-6,R560A.BIN,1,バルアЖ駆逐艦,1,2,3,Rating,50,0,Attack,0,1,None,0,3,Guard,-1,0,Evasive Action,0
-7,R560A.BIN,1,バルアЖ駆逐艦,1,3,-1,None,0,1,Magic,-1,24,バーニィ,0,-1,None,-1,-1,None,0
-8,R560A.BIN,1,バルアЖ駆逐艦,2,0,-1,None,0,1,Magic,-1,24,バーニィ,0,-1,None,-1,-1,None,0
-9,R560A.BIN,1,バルアЖ駆逐艦,2,1,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-10,R560A.BIN,1,バルアЖ駆逐艦,2,2,3,Rating,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
-11,R560A.BIN,1,バルアЖ駆逐艦,2,3,3,Rating,50,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
-12,R560A.BIN,1,バルアЖ駆逐艦,3,0,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-13,R560A.BIN,1,バルアЖ駆逐艦,3,1,3,Rating,80,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
-14,R560A.BIN,1,バルアЖ駆逐艦,3,2,3,Rating,65,0,Attack,1,-1,None,1,4,Nothing,-1,0,Awaiting Orders,0
-15,R560A.BIN,1,バルアЖ駆逐艦,3,3,-1,None,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
-16,R560A.BIN,1,バルアЖ駆逐艦,4,0,3,Rating,50,2,Focus,-1,-1,None,0,4,Nothing,-1,-1,None,0
-17,R560A.BIN,1,バルアЖ駆逐艦,4,1,3,Rating,40,1,Magic,-1,7,サプリィ,0,0,Attack,0,-1,None,0
-18,R560A.BIN,1,バルアЖ駆逐艦,4,2,3,Rating,65,1,Magic,-1,24,バーニィ,0,3,Guard,-1,-1,None,0
-19,R560A.BIN,1,バルアЖ駆逐艦,4,3,3,Rating,50,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,0
-0,R563A.BIN,5,バルアЖ戦艦,0,0,1,ES HP ≤,99,2,Focus,-1,0,Focus,0,1,Magic,-1,13,クイッカ,0
-1,R563A.BIN,5,バルアЖ戦艦,0,1,3,Rating,50,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,グラシィ,0
-2,R563A.BIN,5,バルアЖ戦艦,0,2,3,Rating,50,2,Focus,-1,0,Focus,0,1,Magic,-1,34,ボルテス,0
-3,R563A.BIN,5,バルアЖ戦艦,0,3,3,Rating,50,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
-4,R563A.BIN,5,バルアЖ戦艦,1,0,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
-5,R563A.BIN,5,バルアЖ戦艦,1,1,-1,None,0,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,グラシィ,0
-6,R563A.BIN,5,バルアЖ戦艦,1,2,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
-7,R563A.BIN,5,バルアЖ戦艦,1,3,0,PS HP ≤,90,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,4,ダウナ,0
-8,R563A.BIN,5,バルアЖ戦艦,2,0,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
-9,R563A.BIN,5,バルアЖ戦艦,2,1,3,Rating,50,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,34,ボルテス,0
-10,R563A.BIN,5,バルアЖ戦艦,2,2,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
-11,R563A.BIN,5,バルアЖ戦艦,2,3,3,Rating,50,2,Focus,-1,0,Focus,0,1,Magic,-1,34,ボルテス,0
-12,R563A.BIN,5,バルアЖ戦艦,3,0,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
-13,R563A.BIN,5,バルアЖ戦艦,3,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-14,R563A.BIN,5,バルアЖ戦艦,3,2,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
-15,R563A.BIN,5,バルアЖ戦艦,3,3,1,ES HP ≤,40,1,Magic,-1,4,ダウナ,0,1,Magic,-1,27,グラシィ,0
-16,R563A.BIN,5,バルアЖ戦艦,4,0,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
-17,R563A.BIN,5,バルアЖ戦艦,4,1,3,Rating,50,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,グラシィ,0
-18,R563A.BIN,5,バルアЖ戦艦,4,2,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
-19,R563A.BIN,5,バルアЖ戦艦,4,3,1,ES HP ≤,40,1,Magic,-1,13,クイッカ,0,1,Magic,-1,27,グラシィ,0
-0,R564A.BIN,1,バルアЖ駆逐艦,0,0,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-1,R564A.BIN,1,バルアЖ駆逐艦,0,1,-1,None,0,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
-2,R564A.BIN,1,バルアЖ駆逐艦,0,2,3,Rating,75,1,Magic,-1,24,バーニィ,0,0,Attack,0,-1,None,0
-3,R564A.BIN,1,バルアЖ駆逐艦,0,3,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-4,R564A.BIN,1,バルアЖ駆逐艦,1,0,-1,None,0,0,Attack,0,-1,None,0,-1,None,1,-1,None,0
-5,R564A.BIN,1,バルアЖ駆逐艦,1,1,3,Rating,50,2,Focus,-1,0,Focus,0,0,Attack,1,-1,None,0
-6,R564A.BIN,1,バルアЖ駆逐艦,1,2,3,Rating,50,0,Attack,0,1,None,0,3,Guard,-1,0,Evasive Action,0
-7,R564A.BIN,1,バルアЖ駆逐艦,1,3,-1,None,0,1,Magic,-1,24,バーニィ,0,-1,None,-1,-1,None,0
-8,R564A.BIN,1,バルアЖ駆逐艦,2,0,-1,None,0,1,Magic,-1,24,バーニィ,0,-1,None,-1,-1,None,0
-9,R564A.BIN,1,バルアЖ駆逐艦,2,1,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-10,R564A.BIN,1,バルアЖ駆逐艦,2,2,3,Rating,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
-11,R564A.BIN,1,バルアЖ駆逐艦,2,3,3,Rating,50,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
-12,R564A.BIN,1,バルアЖ駆逐艦,3,0,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
-13,R564A.BIN,1,バルアЖ駆逐艦,3,1,3,Rating,80,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
-14,R564A.BIN,1,バルアЖ駆逐艦,3,2,3,Rating,65,0,Attack,1,-1,None,1,4,Nothing,-1,0,Awaiting Orders,0
-15,R564A.BIN,1,バルアЖ駆逐艦,3,3,-1,None,0,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
-16,R564A.BIN,1,バルアЖ駆逐艦,4,0,3,Rating,50,2,Focus,-1,-1,None,0,4,Nothing,-1,-1,None,0
-17,R564A.BIN,1,バルアЖ駆逐艦,4,1,3,Rating,40,1,Magic,-1,7,サプリィ,0,0,Attack,0,-1,None,0
-18,R564A.BIN,1,バルアЖ駆逐艦,4,2,3,Rating,65,1,Magic,-1,24,バーニィ,0,3,Guard,-1,-1,None,0
-19,R564A.BIN,1,バルアЖ駆逐艦,4,3,3,Rating,50,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,0
-0,R565A.BIN,22,Ж黒空賊船,0,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
-1,R565A.BIN,22,Ж黒空賊船,0,1,3,Rating,20,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
-2,R565A.BIN,22,Ж黒空賊船,0,2,3,Rating,80,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-3,R565A.BIN,22,Ж黒空賊船,0,3,4,???,2,1,Magic,-1,6,サプラ,0,0,Attack,0,-1,None,0
-4,R565A.BIN,22,Ж黒空賊船,1,0,3,Rating,70,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
-5,R565A.BIN,22,Ж黒空賊船,1,1,3,Rating,85,1,Magic,0,25,バーネス,0,1,Magic,-1,6,サプラ,0
-6,R565A.BIN,22,Ж黒空賊船,1,2,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-7,R565A.BIN,22,Ж黒空賊船,1,3,-1,None,0,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
-8,R565A.BIN,22,Ж黒空賊船,2,0,-1,None,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-9,R565A.BIN,22,Ж黒空賊船,2,1,-1,None,0,1,Magic,0,25,バーネス,1,-1,None,-1,-1,None,0
-10,R565A.BIN,22,Ж黒空賊船,2,2,-1,None,0,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
-11,R565A.BIN,22,Ж黒空賊船,2,3,3,Rating,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-12,R565A.BIN,22,Ж黒空賊船,3,0,-1,None,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
-13,R565A.BIN,22,Ж黒空賊船,3,1,-1,None,0,0,Attack,1,-1,None,2,4,Nothing,-1,-1,None,0
-14,R565A.BIN,22,Ж黒空賊船,3,2,-1,None,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-15,R565A.BIN,22,Ж黒空賊船,3,3,-1,None,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-16,R565A.BIN,22,Ж黒空賊船,4,0,3,Rating,50,0,Attack,1,-1,None,2,0,Attack,1,-1,None,3
-17,R565A.BIN,22,Ж黒空賊船,4,1,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-18,R565A.BIN,22,Ж黒空賊船,4,2,-1,None,0,1,Magic,0,25,バーネス,0,-1,None,-1,-1,None,0
-19,R565A.BIN,22,Ж黒空賊船,4,3,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-20,R565A.BIN,22,Ж黒空賊船,5,0,-1,None,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
-21,R565A.BIN,22,Ж黒空賊船,5,1,-1,None,0,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
-22,R565A.BIN,22,Ж黒空賊船,5,2,-1,None,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-23,R565A.BIN,22,Ж黒空賊船,5,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-0,R566A.BIN,7,バルアЖ新鋭艦,0,0,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
-1,R566A.BIN,7,バルアЖ新鋭艦,0,1,1,ES HP ≤,30,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
-2,R566A.BIN,7,バルアЖ新鋭艦,0,2,1,ES HP ≤,30,0,Attack,1,-1,None,0,1,Magic,-1,34,ボルテス,0
-3,R566A.BIN,7,バルアЖ新鋭艦,0,3,1,ES HP ≤,30,1,Magic,-1,6,サプラ,0,2,Focus,-1,0,Focus,0
-4,R566A.BIN,7,バルアЖ新鋭艦,1,0,-1,None,0,1,Magic,-1,34,ボルテス,0,1,Magic,-1,34,ボルテス,0
-5,R566A.BIN,7,バルアЖ新鋭艦,1,1,-1,None,0,1,Magic,-1,34,ボルテス,0,1,Magic,-1,34,ボルテス,0
-6,R566A.BIN,7,バルアЖ新鋭艦,1,2,1,ES HP ≤,30,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
-7,R566A.BIN,7,バルアЖ新鋭艦,1,3,1,ES HP ≤,30,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
-8,R566A.BIN,7,バルアЖ新鋭艦,2,0,3,Rating,10,1,Magic,-1,13,クイッカ,0,2,Focus,-1,0,Focus,0
-9,R566A.BIN,7,バルアЖ新鋭艦,2,1,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
-10,R566A.BIN,7,バルアЖ新鋭艦,2,2,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
-11,R566A.BIN,7,バルアЖ新鋭艦,2,3,1,ES HP ≤,30,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
-12,R566A.BIN,7,バルアЖ新鋭艦,3,0,1,ES HP ≤,30,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
-13,R566A.BIN,7,バルアЖ新鋭艦,3,1,1,ES HP ≤,30,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
-14,R566A.BIN,7,バルアЖ新鋭艦,3,2,1,ES HP ≤,30,2,Focus,-1,0,Focus,0,1,Magic,-1,34,ボルテス,0
-15,R566A.BIN,7,バルアЖ新鋭艦,3,3,1,ES HP ≤,30,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
-0,R567A.BIN,6,バルア新鋭艦,0,0,3,Rating,50,0,Attack,1,-1,None,1,4,Nothing,0,-1,None,0
-1,R567A.BIN,6,バルア新鋭艦,0,1,3,Rating,70,0,Attack,0,-1,None,0,2,Focus,0,-1,None,0
-2,R567A.BIN,6,バルア新鋭艦,0,2,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,2,-1,None,1
-3,R567A.BIN,6,バルア新鋭艦,0,3,3,Rating,70,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-4,R567A.BIN,6,バルア新鋭艦,1,0,1,ES HP ≤,30,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,2
-5,R567A.BIN,6,バルア新鋭艦,1,1,3,Rating,30,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
-6,R567A.BIN,6,バルア新鋭艦,1,2,3,Rating,50,0,Attack,0,-1,None,0,2,Focus,-1,-1,None,0
-7,R567A.BIN,6,バルア新鋭艦,1,3,3,Rating,30,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
-8,R567A.BIN,6,バルア新鋭艦,2,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
-9,R567A.BIN,6,バルア新鋭艦,2,1,3,Rating,30,0,Attack,2,-1,None,1,0,Attack,1,-1,None,2
-10,R567A.BIN,6,バルア新鋭艦,2,2,3,Rating,50,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-11,R567A.BIN,6,バルア新鋭艦,2,3,3,Rating,50,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-12,R567A.BIN,6,バルア新鋭艦,3,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
-13,R567A.BIN,6,バルア新鋭艦,3,1,1,ES HP ≤,30,3,Guard,-1,0,Evasive Action,0,4,Nothing,-1,0,Awaiting Orders,0
-14,R567A.BIN,6,バルア新鋭艦,3,2,3,Rating,50,2,Focus,-1,0,Focus,0,0,Attack,2,-1,None,1
-15,R567A.BIN,6,バルア新鋭艦,3,3,3,Rating,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
-0,R568A.BIN,22,Ж黒空賊船,0,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
-1,R568A.BIN,22,Ж黒空賊船,0,1,3,Rating,20,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
-2,R568A.BIN,22,Ж黒空賊船,0,2,3,Rating,80,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-3,R568A.BIN,22,Ж黒空賊船,0,3,4,???,2,1,Magic,-1,6,サプラ,0,0,Attack,0,-1,None,0
-4,R568A.BIN,22,Ж黒空賊船,1,0,3,Rating,70,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
-5,R568A.BIN,22,Ж黒空賊船,1,1,3,Rating,85,1,Magic,0,25,バーネス,0,1,Magic,-1,6,サプラ,0
-6,R568A.BIN,22,Ж黒空賊船,1,2,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-7,R568A.BIN,22,Ж黒空賊船,1,3,-1,None,0,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
-8,R568A.BIN,22,Ж黒空賊船,2,0,-1,None,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-9,R568A.BIN,22,Ж黒空賊船,2,1,-1,None,0,1,Magic,0,25,バーネス,1,-1,None,-1,-1,None,0
-10,R568A.BIN,22,Ж黒空賊船,2,2,-1,None,0,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
-11,R568A.BIN,22,Ж黒空賊船,2,3,3,Rating,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-12,R568A.BIN,22,Ж黒空賊船,3,0,-1,None,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
-13,R568A.BIN,22,Ж黒空賊船,3,1,-1,None,0,0,Attack,1,-1,None,2,4,Nothing,-1,-1,None,0
-14,R568A.BIN,22,Ж黒空賊船,3,2,-1,None,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-15,R568A.BIN,22,Ж黒空賊船,3,3,-1,None,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-16,R568A.BIN,22,Ж黒空賊船,4,0,3,Rating,50,0,Attack,1,-1,None,2,0,Attack,1,-1,None,3
-17,R568A.BIN,22,Ж黒空賊船,4,1,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-18,R568A.BIN,22,Ж黒空賊船,4,2,-1,None,0,1,Magic,0,25,バーネス,0,-1,None,-1,-1,None,0
-19,R568A.BIN,22,Ж黒空賊船,4,3,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-20,R568A.BIN,22,Ж黒空賊船,5,0,-1,None,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
-21,R568A.BIN,22,Ж黒空賊船,5,1,-1,None,0,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
-22,R568A.BIN,22,Ж黒空賊船,5,2,-1,None,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-23,R568A.BIN,22,Ж黒空賊船,5,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-0,R569A.BIN,5,バルアЖ戦艦,0,0,1,ES HP ≤,99,2,Focus,-1,0,Focus,0,1,Magic,-1,13,クイッカ,0
-1,R569A.BIN,5,バルアЖ戦艦,0,1,3,Rating,50,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,グラシィ,0
-2,R569A.BIN,5,バルアЖ戦艦,0,2,3,Rating,50,2,Focus,-1,0,Focus,0,1,Magic,-1,34,ボルテス,0
-3,R569A.BIN,5,バルアЖ戦艦,0,3,3,Rating,50,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
-4,R569A.BIN,5,バルアЖ戦艦,1,0,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
-5,R569A.BIN,5,バルアЖ戦艦,1,1,-1,None,0,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,グラシィ,0
-6,R569A.BIN,5,バルアЖ戦艦,1,2,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
-7,R569A.BIN,5,バルアЖ戦艦,1,3,0,PS HP ≤,90,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,4,ダウナ,0
-8,R569A.BIN,5,バルアЖ戦艦,2,0,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
-9,R569A.BIN,5,バルアЖ戦艦,2,1,3,Rating,50,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,34,ボルテス,0
-10,R569A.BIN,5,バルアЖ戦艦,2,2,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
-11,R569A.BIN,5,バルアЖ戦艦,2,3,3,Rating,50,2,Focus,-1,0,Focus,0,1,Magic,-1,34,ボルテス,0
-12,R569A.BIN,5,バルアЖ戦艦,3,0,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
-13,R569A.BIN,5,バルアЖ戦艦,3,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-14,R569A.BIN,5,バルアЖ戦艦,3,2,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
-15,R569A.BIN,5,バルアЖ戦艦,3,3,1,ES HP ≤,40,1,Magic,-1,4,ダウナ,0,1,Magic,-1,27,グラシィ,0
-16,R569A.BIN,5,バルアЖ戦艦,4,0,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
-17,R569A.BIN,5,バルアЖ戦艦,4,1,3,Rating,50,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,グラシィ,0
-18,R569A.BIN,5,バルアЖ戦艦,4,2,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
-19,R569A.BIN,5,バルアЖ戦艦,4,3,1,ES HP ≤,40,1,Magic,-1,13,クイッカ,0,1,Magic,-1,27,グラシィ,0
-0,R572A.BIN,22,Ж黒空賊船,0,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
-1,R572A.BIN,22,Ж黒空賊船,0,1,3,Rating,20,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
-2,R572A.BIN,22,Ж黒空賊船,0,2,3,Rating,80,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-3,R572A.BIN,22,Ж黒空賊船,0,3,4,???,2,1,Magic,-1,6,サプラ,0,0,Attack,0,-1,None,0
-4,R572A.BIN,22,Ж黒空賊船,1,0,3,Rating,70,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
-5,R572A.BIN,22,Ж黒空賊船,1,1,3,Rating,85,1,Magic,0,25,バーネス,0,1,Magic,-1,6,サプラ,0
-6,R572A.BIN,22,Ж黒空賊船,1,2,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-7,R572A.BIN,22,Ж黒空賊船,1,3,-1,None,0,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
-8,R572A.BIN,22,Ж黒空賊船,2,0,-1,None,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-9,R572A.BIN,22,Ж黒空賊船,2,1,-1,None,0,1,Magic,0,25,バーネス,1,-1,None,-1,-1,None,0
-10,R572A.BIN,22,Ж黒空賊船,2,2,-1,None,0,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
-11,R572A.BIN,22,Ж黒空賊船,2,3,3,Rating,50,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
-12,R572A.BIN,22,Ж黒空賊船,3,0,-1,None,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
-13,R572A.BIN,22,Ж黒空賊船,3,1,-1,None,0,0,Attack,1,-1,None,2,4,Nothing,-1,-1,None,0
-14,R572A.BIN,22,Ж黒空賊船,3,2,-1,None,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-15,R572A.BIN,22,Ж黒空賊船,3,3,-1,None,0,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
-16,R572A.BIN,22,Ж黒空賊船,4,0,3,Rating,50,0,Attack,1,-1,None,2,0,Attack,1,-1,None,3
-17,R572A.BIN,22,Ж黒空賊船,4,1,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-18,R572A.BIN,22,Ж黒空賊船,4,2,-1,None,0,1,Magic,0,25,バーネス,0,-1,None,-1,-1,None,0
-19,R572A.BIN,22,Ж黒空賊船,4,3,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-20,R572A.BIN,22,Ж黒空賊船,5,0,-1,None,0,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
-21,R572A.BIN,22,Ж黒空賊船,5,1,-1,None,0,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
-22,R572A.BIN,22,Ж黒空賊船,5,2,-1,None,0,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
-23,R572A.BIN,22,Ж黒空賊船,5,3,-1,None,0,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
-0,R573A.BIN,43,ブラックベアード,0,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-1,R573A.BIN,43,ブラックベアード,0,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-2,R573A.BIN,43,ブラックベアード,0,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-3,R573A.BIN,43,ブラックベアード,0,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-4,R573A.BIN,43,ブラックベアード,1,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-5,R573A.BIN,43,ブラックベアード,1,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-6,R573A.BIN,43,ブラックベアード,1,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-7,R573A.BIN,43,ブラックベアード,1,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-8,R573A.BIN,43,ブラックベアード,2,0,-1,None,0,4,Nothing,-1,1,Target Lost,0,0,Attack,0,-1,None,0
-9,R573A.BIN,43,ブラックベアード,2,1,-1,None,0,4,Nothing,-1,1,Target Lost,0,0,Attack,0,-1,None,0
-10,R573A.BIN,43,ブラックベアード,2,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-11,R573A.BIN,43,ブラックベアード,2,3,-1,None,0,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
-12,R573A.BIN,43,ブラックベアード,3,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-13,R573A.BIN,43,ブラックベアード,3,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-14,R573A.BIN,43,ブラックベアード,3,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-15,R573A.BIN,43,ブラックベアード,3,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-16,R573A.BIN,43,ブラックベアード,4,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-17,R573A.BIN,43,ブラックベアード,4,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-18,R573A.BIN,43,ブラックベアード,4,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-19,R573A.BIN,43,ブラックベアード,4,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-0,R574A.BIN,6,バルア新鋭艦,0,0,3,Rating,50,0,Attack,1,-1,None,1,4,Nothing,0,-1,None,0
-1,R574A.BIN,6,バルア新鋭艦,0,1,3,Rating,70,0,Attack,0,-1,None,0,2,Focus,0,-1,None,0
-2,R574A.BIN,6,バルア新鋭艦,0,2,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,2,-1,None,1
-3,R574A.BIN,6,バルア新鋭艦,0,3,3,Rating,70,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
-4,R574A.BIN,6,バルア新鋭艦,1,0,1,ES HP ≤,30,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,2
-5,R574A.BIN,6,バルア新鋭艦,1,1,3,Rating,30,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
-6,R574A.BIN,6,バルア新鋭艦,1,2,3,Rating,50,0,Attack,0,-1,None,0,2,Focus,-1,-1,None,0
-7,R574A.BIN,6,バルア新鋭艦,1,3,3,Rating,30,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
-8,R574A.BIN,6,バルア新鋭艦,2,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
-9,R574A.BIN,6,バルア新鋭艦,2,1,3,Rating,30,0,Attack,2,-1,None,1,0,Attack,1,-1,None,2
-10,R574A.BIN,6,バルア新鋭艦,2,2,3,Rating,50,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-11,R574A.BIN,6,バルア新鋭艦,2,3,3,Rating,50,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-12,R574A.BIN,6,バルア新鋭艦,3,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
-13,R574A.BIN,6,バルア新鋭艦,3,1,1,ES HP ≤,30,3,Guard,-1,0,Evasive Action,0,4,Nothing,-1,0,Awaiting Orders,0
-14,R574A.BIN,6,バルア新鋭艦,3,2,3,Rating,50,2,Focus,-1,0,Focus,0,0,Attack,2,-1,None,1
-15,R574A.BIN,6,バルア新鋭艦,3,3,3,Rating,50,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
-0,R575A.BIN,7,バルアЖ新鋭艦,0,0,3,Rating,50,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
-1,R575A.BIN,7,バルアЖ新鋭艦,0,1,1,ES HP ≤,30,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
-2,R575A.BIN,7,バルアЖ新鋭艦,0,2,1,ES HP ≤,30,0,Attack,1,-1,None,0,1,Magic,-1,34,ボルテス,0
-3,R575A.BIN,7,バルアЖ新鋭艦,0,3,1,ES HP ≤,30,1,Magic,-1,6,サプラ,0,2,Focus,-1,0,Focus,0
-4,R575A.BIN,7,バルアЖ新鋭艦,1,0,-1,None,0,1,Magic,-1,34,ボルテス,0,1,Magic,-1,34,ボルテス,0
-5,R575A.BIN,7,バルアЖ新鋭艦,1,1,-1,None,0,1,Magic,-1,34,ボルテス,0,1,Magic,-1,34,ボルテス,0
-6,R575A.BIN,7,バルアЖ新鋭艦,1,2,1,ES HP ≤,30,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
-7,R575A.BIN,7,バルアЖ新鋭艦,1,3,1,ES HP ≤,30,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
-8,R575A.BIN,7,バルアЖ新鋭艦,2,0,3,Rating,10,1,Magic,-1,13,クイッカ,0,2,Focus,-1,0,Focus,0
-9,R575A.BIN,7,バルアЖ新鋭艦,2,1,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
-10,R575A.BIN,7,バルアЖ新鋭艦,2,2,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
-11,R575A.BIN,7,バルアЖ新鋭艦,2,3,1,ES HP ≤,30,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
-12,R575A.BIN,7,バルアЖ新鋭艦,3,0,1,ES HP ≤,30,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
-13,R575A.BIN,7,バルアЖ新鋭艦,3,1,1,ES HP ≤,30,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
-14,R575A.BIN,7,バルアЖ新鋭艦,3,2,1,ES HP ≤,30,2,Focus,-1,0,Focus,0,1,Magic,-1,34,ボルテス,0
-15,R575A.BIN,7,バルアЖ新鋭艦,3,3,1,ES HP ≤,30,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
-0,R576A.BIN,35,ロック鳥,0,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-1,R576A.BIN,35,ロック鳥,0,1,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-2,R576A.BIN,35,ロック鳥,0,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-3,R576A.BIN,35,ロック鳥,0,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-4,R576A.BIN,35,ロック鳥,1,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-5,R576A.BIN,35,ロック鳥,1,1,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-6,R576A.BIN,35,ロック鳥,1,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-7,R576A.BIN,35,ロック鳥,1,3,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-8,R576A.BIN,35,ロック鳥,2,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-9,R576A.BIN,35,ロック鳥,2,1,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-10,R576A.BIN,35,ロック鳥,2,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-11,R576A.BIN,35,ロック鳥,2,3,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-12,R576A.BIN,35,ロック鳥,3,0,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-13,R576A.BIN,35,ロック鳥,3,1,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-14,R576A.BIN,35,ロック鳥,3,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-15,R576A.BIN,35,ロック鳥,3,3,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-16,R576A.BIN,35,ロック鳥,4,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-17,R576A.BIN,35,ロック鳥,4,1,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-18,R576A.BIN,35,ロック鳥,4,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-19,R576A.BIN,35,ロック鳥,4,3,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-20,R576A.BIN,35,ロック鳥,5,0,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-21,R576A.BIN,35,ロック鳥,5,1,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-22,R576A.BIN,35,ロック鳥,5,2,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-23,R576A.BIN,35,ロック鳥,5,3,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-24,R576A.BIN,35,ロック鳥,6,0,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-25,R576A.BIN,35,ロック鳥,6,1,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-26,R576A.BIN,35,ロック鳥,6,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-27,R576A.BIN,35,ロック鳥,6,3,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-28,R576A.BIN,35,ロック鳥,7,0,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-29,R576A.BIN,35,ロック鳥,7,1,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-30,R576A.BIN,35,ロック鳥,7,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
-31,R576A.BIN,35,ロック鳥,7,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-32,R576A.BIN,35,ロック鳥,8,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-33,R576A.BIN,35,ロック鳥,8,1,-1,None,0,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
-34,R576A.BIN,35,ロック鳥,8,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-35,R576A.BIN,35,ロック鳥,8,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-0,R577A.BIN,32,オビスポー,0,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-1,R577A.BIN,32,オビスポー,0,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-2,R577A.BIN,32,オビスポー,0,2,3,Rating,50,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-3,R577A.BIN,32,オビスポー,0,3,4,???,0,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-4,R577A.BIN,32,オビスポー,1,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-5,R577A.BIN,32,オビスポー,1,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-6,R577A.BIN,32,オビスポー,1,2,1,ES HP ≤,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-7,R577A.BIN,32,オビスポー,1,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-8,R577A.BIN,32,オビスポー,2,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-9,R577A.BIN,32,オビスポー,2,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-10,R577A.BIN,32,オビスポー,2,2,1,ES HP ≤,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-11,R577A.BIN,32,オビスポー,2,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-12,R577A.BIN,32,オビスポー,3,0,1,ES HP ≤,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-13,R577A.BIN,32,オビスポー,3,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-14,R577A.BIN,32,オビスポー,3,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-15,R577A.BIN,32,オビスポー,3,3,1,ES HP ≤,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-16,R577A.BIN,32,オビスポー,4,0,1,ES HP ≤,30,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-17,R577A.BIN,32,オビスポー,4,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
-18,R577A.BIN,32,オビスポー,4,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-19,R577A.BIN,32,オビスポー,4,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-20,R577A.BIN,32,オビスポー,5,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-21,R577A.BIN,32,オビスポー,5,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-22,R577A.BIN,32,オビスポー,5,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-23,R577A.BIN,32,オビスポー,5,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-0,R578A.BIN,36,ヒュージエルモ,0,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-1,R578A.BIN,36,ヒュージエルモ,0,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-2,R578A.BIN,36,ヒュージエルモ,0,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-3,R578A.BIN,36,ヒュージエルモ,0,3,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-4,R578A.BIN,36,ヒュージエルモ,1,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-5,R578A.BIN,36,ヒュージエルモ,1,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-6,R578A.BIN,36,ヒュージエルモ,1,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-7,R578A.BIN,36,ヒュージエルモ,1,3,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-8,R578A.BIN,36,ヒュージエルモ,2,0,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-9,R578A.BIN,36,ヒュージエルモ,2,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-10,R578A.BIN,36,ヒュージエルモ,2,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-11,R578A.BIN,36,ヒュージエルモ,2,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-12,R578A.BIN,36,ヒュージエルモ,3,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-13,R578A.BIN,36,ヒュージエルモ,3,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-14,R578A.BIN,36,ヒュージエルモ,3,2,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-15,R578A.BIN,36,ヒュージエルモ,3,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-16,R578A.BIN,36,ヒュージエルモ,4,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-17,R578A.BIN,36,ヒュージエルモ,4,1,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-18,R578A.BIN,36,ヒュージエルモ,4,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-19,R578A.BIN,36,ヒュージエルモ,4,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-0,R579A.BIN,37,アラーニャ,0,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-1,R579A.BIN,37,アラーニャ,0,1,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-2,R579A.BIN,37,アラーニャ,0,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-3,R579A.BIN,37,アラーニャ,0,3,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-4,R579A.BIN,37,アラーニャ,1,0,3,Rating,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-5,R579A.BIN,37,アラーニャ,1,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-6,R579A.BIN,37,アラーニャ,1,2,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-7,R579A.BIN,37,アラーニャ,1,3,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-8,R579A.BIN,37,アラーニャ,2,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-9,R579A.BIN,37,アラーニャ,2,1,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-10,R579A.BIN,37,アラーニャ,2,2,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-11,R579A.BIN,37,アラーニャ,2,3,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-12,R579A.BIN,37,アラーニャ,3,0,3,Rating,70,0,Attack,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-13,R579A.BIN,37,アラーニャ,3,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-14,R579A.BIN,37,アラーニャ,3,2,3,Rating,50,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-15,R579A.BIN,37,アラーニャ,3,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-16,R579A.BIN,37,アラーニャ,4,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-17,R579A.BIN,37,アラーニャ,4,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-18,R579A.BIN,37,アラーニャ,4,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-19,R579A.BIN,37,アラーニャ,4,3,3,Rating,30,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
-20,R579A.BIN,37,アラーニャ,5,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-21,R579A.BIN,37,アラーニャ,5,1,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-22,R579A.BIN,37,アラーニャ,5,2,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-23,R579A.BIN,37,アラーニャ,5,3,3,Rating,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-24,R579A.BIN,37,アラーニャ,6,0,3,Rating,50,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
-25,R579A.BIN,37,アラーニャ,6,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
-26,R579A.BIN,37,アラーニャ,6,2,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-27,R579A.BIN,37,アラーニャ,6,3,-1,None,0,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
-0,R580A.BIN,40,ガディアノス,0,0,-1,None,0,4,Nothing,-1,-1,None,0,4,Nothing,-1,-1,None,0
-1,R580A.BIN,40,ガディアノス,0,1,-1,None,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-2,R580A.BIN,40,ガディアノス,0,2,3,Rating,30,4,Nothing,-1,-1,None,0,2,Focus,-1,-1,None,0
-3,R580A.BIN,40,ガディアノス,0,3,-1,None,0,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-0,R581A.BIN,41,ガディタウス,0,0,-1,None,0,4,Nothing,-1,-1,None,0,4,Nothing,-1,-1,None,0
-1,R581A.BIN,41,ガディタウス,0,1,3,Rating,30,4,Nothing,-1,-1,None,0,2,Focus,-1,-1,None,0
-2,R581A.BIN,41,ガディタウス,0,2,3,Rating,70,4,Nothing,-1,-1,None,0,2,Focus,-1,-1,None,0
-3,R581A.BIN,41,ガディタウス,0,3,-1,None,0,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-0,R582A.BIN,40,ガディアノス,0,0,0,PS HP ≤,-1,4,Nothing,-1,-1,None,0,4,Nothing,-1,-1,None,0
-1,R582A.BIN,40,ガディアノス,0,1,0,PS HP ≤,70,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
-2,R582A.BIN,40,ガディアノス,0,2,0,PS HP ≤,-1,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-3,R582A.BIN,40,ガディアノス,0,3,0,PS HP ≤,-1,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
-0,R583A.BIN,40,ガディアノス,0,0,0,PS HP ≤,-1,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
-1,R583A.BIN,40,ガディアノス,0,1,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-2,R583A.BIN,40,ガディアノス,0,2,3,Rating,50,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
-3,R583A.BIN,40,ガディアノス,0,3,0,PS HP ≤,-1,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+Entry ID,[Filter],[ES ID],[ES Name],Turn,Phase,Cond ID,[Cond Name],Cond Param ID,[Cond Param Name],T1 Type ID,[T1 Type Name],T1 Arm ID,T1 Param ID,[T1 Param Name],T1 Arm Dur,T2 Type ID,[T2 Type Name],T2 Arm ID,T2 Param ID,[T2 Param Name],T2 Arm Dur
+0,R513A.BIN,35,ロック鳥,0,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+1,R513A.BIN,35,ロック鳥,0,1,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+2,R513A.BIN,35,ロック鳥,0,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+3,R513A.BIN,35,ロック鳥,0,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+4,R513A.BIN,35,ロック鳥,1,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+5,R513A.BIN,35,ロック鳥,1,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+6,R513A.BIN,35,ロック鳥,1,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+7,R513A.BIN,35,ロック鳥,1,3,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+8,R513A.BIN,35,ロック鳥,2,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+9,R513A.BIN,35,ロック鳥,2,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+10,R513A.BIN,35,ロック鳥,2,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+11,R513A.BIN,35,ロック鳥,2,3,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+12,R513A.BIN,35,ロック鳥,3,0,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+13,R513A.BIN,35,ロック鳥,3,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+14,R513A.BIN,35,ロック鳥,3,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+15,R513A.BIN,35,ロック鳥,3,3,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+16,R513A.BIN,35,ロック鳥,4,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+17,R513A.BIN,35,ロック鳥,4,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+18,R513A.BIN,35,ロック鳥,4,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+19,R513A.BIN,35,ロック鳥,4,3,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+20,R513A.BIN,35,ロック鳥,5,0,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+21,R513A.BIN,35,ロック鳥,5,1,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+22,R513A.BIN,35,ロック鳥,5,2,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+23,R513A.BIN,35,ロック鳥,5,3,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+24,R513A.BIN,35,ロック鳥,6,0,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+25,R513A.BIN,35,ロック鳥,6,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+26,R513A.BIN,35,ロック鳥,6,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+27,R513A.BIN,35,ロック鳥,6,3,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+28,R513A.BIN,35,ロック鳥,7,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+29,R513A.BIN,35,ロック鳥,7,1,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+30,R513A.BIN,35,ロック鳥,7,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+31,R513A.BIN,35,ロック鳥,7,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+32,R513A.BIN,35,ロック鳥,8,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+33,R513A.BIN,35,ロック鳥,8,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+34,R513A.BIN,35,ロック鳥,8,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+35,R513A.BIN,35,ロック鳥,8,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+0,R523A.BIN,32,オビスポー,0,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+1,R523A.BIN,32,オビスポー,0,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+2,R523A.BIN,32,オビスポー,0,2,3,Rating,50,%,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+3,R523A.BIN,32,オビスポー,0,3,4,Previous T Type ID in Same Turn =,0,Attack,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+4,R523A.BIN,32,オビスポー,1,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+5,R523A.BIN,32,オビスポー,1,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+6,R523A.BIN,32,オビスポー,1,2,1,ES HP ≤,30,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+7,R523A.BIN,32,オビスポー,1,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+8,R523A.BIN,32,オビスポー,2,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+9,R523A.BIN,32,オビスポー,2,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+10,R523A.BIN,32,オビスポー,2,2,1,ES HP ≤,30,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+11,R523A.BIN,32,オビスポー,2,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+12,R523A.BIN,32,オビスポー,3,0,1,ES HP ≤,30,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+13,R523A.BIN,32,オビスポー,3,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+14,R523A.BIN,32,オビスポー,3,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R523A.BIN,32,オビスポー,3,3,1,ES HP ≤,30,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+16,R523A.BIN,32,オビスポー,4,0,1,ES HP ≤,30,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+17,R523A.BIN,32,オビスポー,4,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+18,R523A.BIN,32,オビスポー,4,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+19,R523A.BIN,32,オビスポー,4,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+20,R523A.BIN,32,オビスポー,5,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+21,R523A.BIN,32,オビスポー,5,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+22,R523A.BIN,32,オビスポー,5,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+23,R523A.BIN,32,オビスポー,5,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+0,R524A.BIN,29,アンギーラ,0,0,3,Rating,50,%,0,Attack,1,-1,None,0,3,Guard,-1,-1,None,0
+1,R524A.BIN,29,アンギーラ,0,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+2,R524A.BIN,29,アンギーラ,0,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+3,R524A.BIN,29,アンギーラ,0,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+4,R524A.BIN,29,アンギーラ,1,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+5,R524A.BIN,29,アンギーラ,1,1,3,Rating,60,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+6,R524A.BIN,29,アンギーラ,1,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+7,R524A.BIN,29,アンギーラ,1,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+8,R524A.BIN,29,アンギーラ,2,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+9,R524A.BIN,29,アンギーラ,2,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+10,R524A.BIN,29,アンギーラ,2,2,3,Rating,40,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+11,R524A.BIN,29,アンギーラ,2,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+12,R524A.BIN,29,アンギーラ,3,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+13,R524A.BIN,29,アンギーラ,3,1,3,Rating,20,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+14,R524A.BIN,29,アンギーラ,3,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+15,R524A.BIN,29,アンギーラ,3,3,3,Rating,70,%,0,Attack,1,-1,None,0,2,Focus,-1,2,Preparing Attack,0
+16,R524A.BIN,29,アンギーラ,4,0,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+17,R524A.BIN,29,アンギーラ,4,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+18,R524A.BIN,29,アンギーラ,4,2,3,Rating,60,%,3,Guard,-1,-1,None,0,2,Focus,-1,2,Preparing Attack,0
+19,R524A.BIN,29,アンギーラ,4,3,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+20,R524A.BIN,29,アンギーラ,5,0,3,Rating,70,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+21,R524A.BIN,29,アンギーラ,5,1,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+22,R524A.BIN,29,アンギーラ,5,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+23,R524A.BIN,29,アンギーラ,5,3,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+24,R524A.BIN,29,アンギーラ,6,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+25,R524A.BIN,29,アンギーラ,6,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+26,R524A.BIN,29,アンギーラ,6,2,3,Rating,70,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+27,R524A.BIN,29,アンギーラ,6,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+28,R524A.BIN,29,アンギーラ,7,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+29,R524A.BIN,29,アンギーラ,7,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+30,R524A.BIN,29,アンギーラ,7,2,3,Rating,80,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+31,R524A.BIN,29,アンギーラ,7,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+32,R524A.BIN,29,アンギーラ,8,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+33,R524A.BIN,29,アンギーラ,8,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+34,R524A.BIN,29,アンギーラ,8,2,3,Rating,30,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+35,R524A.BIN,29,アンギーラ,8,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+36,R524A.BIN,29,アンギーラ,9,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+37,R524A.BIN,29,アンギーラ,9,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+38,R524A.BIN,29,アンギーラ,9,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+39,R524A.BIN,29,アンギーラ,9,3,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+40,R524A.BIN,29,アンギーラ,10,0,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+41,R524A.BIN,29,アンギーラ,10,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+42,R524A.BIN,29,アンギーラ,10,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+43,R524A.BIN,29,アンギーラ,10,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+44,R524A.BIN,29,アンギーラ,11,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+45,R524A.BIN,29,アンギーラ,11,1,3,Rating,60,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+46,R524A.BIN,29,アンギーラ,11,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+47,R524A.BIN,29,アンギーラ,11,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+48,R524A.BIN,29,アンギーラ,12,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+49,R524A.BIN,29,アンギーラ,12,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+50,R524A.BIN,29,アンギーラ,12,2,3,Rating,70,%,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
+51,R524A.BIN,29,アンギーラ,12,3,3,Rating,50,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+52,R524A.BIN,29,アンギーラ,13,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+53,R524A.BIN,29,アンギーラ,13,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+54,R524A.BIN,29,アンギーラ,13,2,3,Rating,80,%,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+55,R524A.BIN,29,アンギーラ,13,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+56,R524A.BIN,29,アンギーラ,14,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+57,R524A.BIN,29,アンギーラ,14,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+58,R524A.BIN,29,アンギーラ,14,2,3,Rating,30,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+59,R524A.BIN,29,アンギーラ,14,3,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+60,R524A.BIN,29,アンギーラ,15,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+61,R524A.BIN,29,アンギーラ,15,1,3,Rating,50,%,0,Attack,0,-1,None,0,2,Focus,-1,2,Preparing Attack,0
+62,R524A.BIN,29,アンギーラ,15,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+63,R524A.BIN,29,アンギーラ,15,3,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+0,R527A.BIN,36,ヒュージエルモ,0,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+1,R527A.BIN,36,ヒュージエルモ,0,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+2,R527A.BIN,36,ヒュージエルモ,0,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+3,R527A.BIN,36,ヒュージエルモ,0,3,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+4,R527A.BIN,36,ヒュージエルモ,1,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+5,R527A.BIN,36,ヒュージエルモ,1,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+6,R527A.BIN,36,ヒュージエルモ,1,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+7,R527A.BIN,36,ヒュージエルモ,1,3,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+8,R527A.BIN,36,ヒュージエルモ,2,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+9,R527A.BIN,36,ヒュージエルモ,2,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+10,R527A.BIN,36,ヒュージエルモ,2,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+11,R527A.BIN,36,ヒュージエルモ,2,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+12,R527A.BIN,36,ヒュージエルモ,3,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+13,R527A.BIN,36,ヒュージエルモ,3,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+14,R527A.BIN,36,ヒュージエルモ,3,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R527A.BIN,36,ヒュージエルモ,3,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+16,R527A.BIN,36,ヒュージエルモ,4,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+17,R527A.BIN,36,ヒュージエルモ,4,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+18,R527A.BIN,36,ヒュージエルモ,4,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+19,R527A.BIN,36,ヒュージエルモ,4,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+0,R532A.BIN,37,アラーニャ,0,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+1,R532A.BIN,37,アラーニャ,0,1,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+2,R532A.BIN,37,アラーニャ,0,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+3,R532A.BIN,37,アラーニャ,0,3,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+4,R532A.BIN,37,アラーニャ,1,0,3,Rating,50,%,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+5,R532A.BIN,37,アラーニャ,1,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+6,R532A.BIN,37,アラーニャ,1,2,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+7,R532A.BIN,37,アラーニャ,1,3,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+8,R532A.BIN,37,アラーニャ,2,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+9,R532A.BIN,37,アラーニャ,2,1,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+10,R532A.BIN,37,アラーニャ,2,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+11,R532A.BIN,37,アラーニャ,2,3,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+12,R532A.BIN,37,アラーニャ,3,0,3,Rating,70,%,0,Attack,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+13,R532A.BIN,37,アラーニャ,3,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+14,R532A.BIN,37,アラーニャ,3,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+15,R532A.BIN,37,アラーニャ,3,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+16,R532A.BIN,37,アラーニャ,4,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+17,R532A.BIN,37,アラーニャ,4,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+18,R532A.BIN,37,アラーニャ,4,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+19,R532A.BIN,37,アラーニャ,4,3,3,Rating,30,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+20,R532A.BIN,37,アラーニャ,5,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+21,R532A.BIN,37,アラーニャ,5,1,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+22,R532A.BIN,37,アラーニャ,5,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+23,R532A.BIN,37,アラーニャ,5,3,3,Rating,50,%,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+24,R532A.BIN,37,アラーニャ,6,0,3,Rating,50,%,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+25,R532A.BIN,37,アラーニャ,6,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+26,R532A.BIN,37,アラーニャ,6,2,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+27,R532A.BIN,37,アラーニャ,6,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+0,R535A.BIN,27,イェラーガ,0,0,3,Rating,80,%,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+1,R535A.BIN,27,イェラーガ,0,1,3,Rating,20,%,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+2,R535A.BIN,27,イェラーガ,0,2,0,PS HP ≤,40,%,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,0
+3,R535A.BIN,27,イェラーガ,0,3,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+4,R535A.BIN,27,イェラーガ,1,0,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+5,R535A.BIN,27,イェラーガ,1,1,3,Rating,35,%,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+6,R535A.BIN,27,イェラーガ,1,2,0,PS HP ≤,10,%,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
+7,R535A.BIN,27,イェラーガ,1,3,3,Rating,60,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+8,R535A.BIN,27,イェラーガ,2,0,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+9,R535A.BIN,27,イェラーガ,2,1,3,Rating,60,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+10,R535A.BIN,27,イェラーガ,2,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+11,R535A.BIN,27,イェラーガ,2,3,3,Rating,50,%,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,2,Preparing Attack,0
+12,R535A.BIN,27,イェラーガ,3,0,0,PS HP ≤,30,%,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
+13,R535A.BIN,27,イェラーガ,3,1,3,Rating,60,%,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+14,R535A.BIN,27,イェラーガ,3,2,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+15,R535A.BIN,27,イェラーガ,3,3,0,PS HP ≤,10,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+16,R535A.BIN,27,イェラーガ,4,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+17,R535A.BIN,27,イェラーガ,4,1,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+18,R535A.BIN,27,イェラーガ,4,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+19,R535A.BIN,27,イェラーガ,4,3,7,PS Used S-Cannon in Same Turn?,0,None,4,Nothing,-1,1,Target Lost,0,0,Attack,2,-1,None,0
+20,R535A.BIN,27,イェラーガ,5,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+21,R535A.BIN,27,イェラーガ,5,1,3,Rating,50,%,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
+22,R535A.BIN,27,イェラーガ,5,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+23,R535A.BIN,27,イェラーガ,5,3,3,Rating,50,%,2,Focus,-1,2,Preparing Attack,0,3,Guard,-1,0,Evasive Action,0
+24,R535A.BIN,27,イェラーガ,6,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+25,R535A.BIN,27,イェラーガ,6,1,0,PS HP ≤,10,%,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
+26,R535A.BIN,27,イェラーガ,6,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+27,R535A.BIN,27,イェラーガ,6,3,0,PS HP ≤,0,%,3,Guard,-1,0,Evasive Action,0,0,Attack,1,-1,None,0
+28,R535A.BIN,27,イェラーガ,7,0,0,PS HP ≤,0,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+29,R535A.BIN,27,イェラーガ,7,1,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+30,R535A.BIN,27,イェラーガ,7,2,0,PS HP ≤,10,%,2,Focus,-1,2,Preparing Attack,0,0,Attack,1,-1,None,0
+31,R535A.BIN,27,イェラーガ,7,3,0,PS HP ≤,30,%,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
+32,R535A.BIN,27,イェラーガ,8,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+33,R535A.BIN,27,イェラーガ,8,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+34,R535A.BIN,27,イェラーガ,8,2,0,PS HP ≤,10,%,2,Focus,-1,2,Preparing Attack,0,0,Attack,1,-1,None,0
+35,R535A.BIN,27,イェラーガ,8,3,7,PS Used S-Cannon in Same Turn?,0,None,4,Nothing,-1,1,Target Lost,0,0,Attack,2,-1,None,0
+36,R535A.BIN,27,イェラーガ,9,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+37,R535A.BIN,27,イェラーガ,9,1,0,PS HP ≤,30,%,2,Focus,-1,2,Preparing Attack,0,0,Attack,1,-1,None,0
+38,R535A.BIN,27,イェラーガ,9,2,0,PS HP ≤,15,%,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+39,R535A.BIN,27,イェラーガ,9,3,7,PS Used S-Cannon in Same Turn?,0,None,4,Nothing,-1,1,Target Lost,0,0,Attack,2,-1,None,0
+40,R535A.BIN,27,イェラーガ,10,0,3,Rating,80,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+41,R535A.BIN,27,イェラーガ,10,1,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+42,R535A.BIN,27,イェラーガ,10,2,3,Rating,80,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+43,R535A.BIN,27,イェラーガ,10,3,0,PS HP ≤,10,%,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
+44,R535A.BIN,27,イェラーガ,11,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+45,R535A.BIN,27,イェラーガ,11,1,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+46,R535A.BIN,27,イェラーガ,11,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+47,R535A.BIN,27,イェラーガ,11,3,7,PS Used S-Cannon in Same Turn?,0,None,4,Nothing,-1,1,Target Lost,0,0,Attack,2,-1,None,0
+48,R535A.BIN,27,イェラーガ,12,0,3,Rating,80,%,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+49,R535A.BIN,27,イェラーガ,12,1,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+50,R535A.BIN,27,イェラーガ,12,2,3,Rating,60,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+51,R535A.BIN,27,イェラーガ,12,3,3,Rating,40,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+52,R535A.BIN,27,イェラーガ,13,0,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+53,R535A.BIN,27,イェラーガ,13,1,3,Rating,80,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+54,R535A.BIN,27,イェラーガ,13,2,3,Rating,50,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+55,R535A.BIN,27,イェラーガ,13,3,3,Rating,80,%,4,Nothing,-1,2,Assessing Damage,0,2,Focus,-1,2,Preparing Attack,0
+0,R537A.BIN,30,ラージャ,0,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+1,R537A.BIN,30,ラージャ,0,1,3,Rating,70,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+2,R537A.BIN,30,ラージャ,0,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+3,R537A.BIN,30,ラージャ,0,3,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+4,R537A.BIN,30,ラージャ,1,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+5,R537A.BIN,30,ラージャ,1,1,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+6,R537A.BIN,30,ラージャ,1,2,3,Rating,50,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+7,R537A.BIN,30,ラージャ,1,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+8,R537A.BIN,30,ラージャ,2,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+9,R537A.BIN,30,ラージャ,2,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+10,R537A.BIN,30,ラージャ,2,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+11,R537A.BIN,30,ラージャ,2,3,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+12,R537A.BIN,30,ラージャ,3,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+13,R537A.BIN,30,ラージャ,3,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+14,R537A.BIN,30,ラージャ,3,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R537A.BIN,30,ラージャ,3,3,3,Rating,20,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+16,R537A.BIN,30,ラージャ,4,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+17,R537A.BIN,30,ラージャ,4,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+18,R537A.BIN,30,ラージャ,4,2,3,Rating,50,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+19,R537A.BIN,30,ラージャ,4,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+20,R537A.BIN,30,ラージャ,5,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+21,R537A.BIN,30,ラージャ,5,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+22,R537A.BIN,30,ラージャ,5,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+23,R537A.BIN,30,ラージャ,5,3,3,Rating,80,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+24,R537A.BIN,30,ラージャ,6,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+25,R537A.BIN,30,ラージャ,6,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+26,R537A.BIN,30,ラージャ,6,2,3,Rating,50,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+27,R537A.BIN,30,ラージャ,6,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+28,R537A.BIN,30,ラージャ,7,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+29,R537A.BIN,30,ラージャ,7,1,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+30,R537A.BIN,30,ラージャ,7,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+31,R537A.BIN,30,ラージャ,7,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+32,R537A.BIN,30,ラージャ,8,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+33,R537A.BIN,30,ラージャ,8,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+34,R537A.BIN,30,ラージャ,8,2,3,Rating,60,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+35,R537A.BIN,30,ラージャ,8,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+36,R537A.BIN,30,ラージャ,9,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+37,R537A.BIN,30,ラージャ,9,1,3,Rating,60,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+38,R537A.BIN,30,ラージャ,9,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+39,R537A.BIN,30,ラージャ,9,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+40,R537A.BIN,30,ラージャ,10,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+41,R537A.BIN,30,ラージャ,10,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+42,R537A.BIN,30,ラージャ,10,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+43,R537A.BIN,30,ラージャ,10,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+0,R538A.BIN,31,ラージャエンブラ,0,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+1,R538A.BIN,31,ラージャエンブラ,0,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+2,R538A.BIN,31,ラージャエンブラ,0,2,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+3,R538A.BIN,31,ラージャエンブラ,0,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+4,R538A.BIN,31,ラージャエンブラ,1,0,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+5,R538A.BIN,31,ラージャエンブラ,1,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+6,R538A.BIN,31,ラージャエンブラ,1,2,3,Rating,60,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+7,R538A.BIN,31,ラージャエンブラ,1,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+8,R538A.BIN,31,ラージャエンブラ,2,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+9,R538A.BIN,31,ラージャエンブラ,2,1,0,PS HP ≤,50,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+10,R538A.BIN,31,ラージャエンブラ,2,2,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+11,R538A.BIN,31,ラージャエンブラ,2,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+12,R538A.BIN,31,ラージャエンブラ,3,0,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+13,R538A.BIN,31,ラージャエンブラ,3,1,5,Previous T Type ID =,0,Attack,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
+14,R538A.BIN,31,ラージャエンブラ,3,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+15,R538A.BIN,31,ラージャエンブラ,3,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+16,R538A.BIN,31,ラージャエンブラ,4,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+17,R538A.BIN,31,ラージャエンブラ,4,1,3,Rating,50,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+18,R538A.BIN,31,ラージャエンブラ,4,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+19,R538A.BIN,31,ラージャエンブラ,4,3,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+20,R538A.BIN,31,ラージャエンブラ,5,0,0,PS HP ≤,30,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+21,R538A.BIN,31,ラージャエンブラ,5,1,3,Rating,50,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+22,R538A.BIN,31,ラージャエンブラ,5,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+23,R538A.BIN,31,ラージャエンブラ,5,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+24,R538A.BIN,31,ラージャエンブラ,6,0,3,Rating,60,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+25,R538A.BIN,31,ラージャエンブラ,6,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+26,R538A.BIN,31,ラージャエンブラ,6,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+27,R538A.BIN,31,ラージャエンブラ,6,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+28,R538A.BIN,31,ラージャエンブラ,7,0,3,Rating,70,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+29,R538A.BIN,31,ラージャエンブラ,7,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+30,R538A.BIN,31,ラージャエンブラ,7,2,3,Rating,40,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+31,R538A.BIN,31,ラージャエンブラ,7,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+32,R538A.BIN,31,ラージャエンブラ,8,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+33,R538A.BIN,31,ラージャエンブラ,8,1,3,Rating,30,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+34,R538A.BIN,31,ラージャエンブラ,8,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+35,R538A.BIN,31,ラージャエンブラ,8,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+36,R538A.BIN,31,ラージャエンブラ,9,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+37,R538A.BIN,31,ラージャエンブラ,9,1,0,PS HP ≤,40,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+38,R538A.BIN,31,ラージャエンブラ,9,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+39,R538A.BIN,31,ラージャエンブラ,9,3,3,Rating,50,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+40,R538A.BIN,31,ラージャエンブラ,10,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+41,R538A.BIN,31,ラージャエンブラ,10,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+42,R538A.BIN,31,ラージャエンブラ,10,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+43,R538A.BIN,31,ラージャエンブラ,10,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+0,R540A.BIN,14,カミュレオン,0,0,3,Rating,70,%,0,Attack,2,-1,None,2,2,Focus,-1,-1,None,0
+1,R540A.BIN,14,カミュレオン,0,1,3,Rating,80,%,0,Attack,0,-1,None,3,0,Attack,1,-1,None,2
+2,R540A.BIN,14,カミュレオン,0,2,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+3,R540A.BIN,14,カミュレオン,0,3,-1,None,0,None,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+4,R540A.BIN,14,カミュレオン,1,0,3,Rating,30,%,0,Attack,1,-1,None,1,0,Attack,2,-1,None,1
+5,R540A.BIN,14,カミュレオン,1,1,-1,None,0,None,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
+6,R540A.BIN,14,カミュレオン,1,2,-1,None,0,None,0,Attack,2,-1,None,1,-1,None,-1,-1,None,0
+7,R540A.BIN,14,カミュレオン,1,3,-1,None,0,None,4,Nothing,-1,1,Target Lost,0,-1,None,-1,-1,None,0
+8,R540A.BIN,14,カミュレオン,2,0,-1,None,0,None,0,Attack,2,-1,None,2,-1,None,-1,-1,None,0
+9,R540A.BIN,14,カミュレオン,2,1,-1,None,0,None,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+10,R540A.BIN,14,カミュレオン,2,2,3,Rating,80,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+11,R540A.BIN,14,カミュレオン,2,3,-1,None,0,None,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
+0,R541A.BIN,14,カミュレオン,0,0,3,Rating,30,%,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,1
+1,R541A.BIN,14,カミュレオン,0,1,3,Rating,50,%,1,Magic,-1,2,サイレシャ,0,0,Attack,0,-1,None,0
+2,R541A.BIN,14,カミュレオン,0,2,3,Rating,10,%,1,Magic,-1,24,バーニィ,0,0,Attack,1,-1,None,1
+3,R541A.BIN,14,カミュレオン,0,3,3,Rating,20,%,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
+4,R541A.BIN,14,カミュレオン,1,0,3,Rating,50,%,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
+5,R541A.BIN,14,カミュレオン,1,1,3,Rating,65,%,0,Attack,1,-1,None,1,1,Magic,-1,5,ダウノス,0
+6,R541A.BIN,14,カミュレオン,1,2,1,ES HP ≤,70,%,1,Magic,-1,7,サプリィ,0,1,Magic,-1,24,バーニィ,0
+7,R541A.BIN,14,カミュレオン,1,3,3,Rating,30,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+8,R541A.BIN,14,カミュレオン,2,0,3,Rating,80,%,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
+9,R541A.BIN,14,カミュレオン,2,1,3,Rating,50,%,1,Magic,-1,24,バーニィ,0,0,Attack,0,-1,None,0
+10,R541A.BIN,14,カミュレオン,2,2,3,Rating,50,%,1,Magic,-1,24,バーニィ,0,0,Attack,2,-1,None,1
+11,R541A.BIN,14,カミュレオン,2,3,3,Rating,50,%,3,Guard,-1,0,Evasive Action,0,0,Attack,0,-1,None,0
+0,R542A.BIN,4,バルア戦艦,0,0,-1,None,0,None,2,Focus,-1,0,Focus,0,-1,None,-1,0,???,0
+1,R542A.BIN,4,バルア戦艦,0,1,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+2,R542A.BIN,4,バルア戦艦,0,2,-1,None,0,None,0,Attack,1,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+3,R542A.BIN,4,バルア戦艦,0,3,-1,None,0,None,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
+4,R542A.BIN,4,バルア戦艦,1,0,3,Rating,50,%,2,Focus,-1,-1,None,0,0,Attack,2,-1,None,3
+5,R542A.BIN,4,バルア戦艦,1,1,-1,None,0,None,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
+6,R542A.BIN,4,バルア戦艦,1,2,-1,None,0,None,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+7,R542A.BIN,4,バルア戦艦,1,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+8,R542A.BIN,4,バルア戦艦,2,0,3,Rating,50,%,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
+9,R542A.BIN,4,バルア戦艦,2,1,-1,None,0,None,0,Attack,1,-1,None,1,-1,None,-1,-1,None,0
+10,R542A.BIN,4,バルア戦艦,2,2,-1,None,0,None,0,Attack,2,-1,None,1,-1,None,-1,-1,None,0
+11,R542A.BIN,4,バルア戦艦,2,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+12,R542A.BIN,4,バルア戦艦,3,0,-1,None,0,None,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
+13,R542A.BIN,4,バルア戦艦,3,1,-1,None,0,None,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
+14,R542A.BIN,4,バルア戦艦,3,2,-1,None,0,None,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
+15,R542A.BIN,4,バルア戦艦,3,3,-1,None,0,None,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+0,R543A.BIN,5,バルアЖ戦艦,0,0,3,Rating,30,%,0,Attack,2,-1,None,3,-1,None,-1,0,???,0
+1,R543A.BIN,5,バルアЖ戦艦,0,1,3,Rating,20,%,2,Focus,0,-1,None,0,0,Attack,2,0,None,2
+2,R543A.BIN,5,バルアЖ戦艦,0,2,-1,None,0,None,0,Attack,1,-1,None,1,0,Attack,0,-1,None,0
+3,R543A.BIN,5,バルアЖ戦艦,0,3,3,Rating,15,%,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
+4,R543A.BIN,5,バルアЖ戦艦,1,0,3,Rating,50,%,0,Attack,0,-1,None,1,1,Magic,-1,13,クイッカ,0
+5,R543A.BIN,5,バルアЖ戦艦,1,1,3,Rating,50,%,0,Attack,1,-1,None,0,1,Magic,-1,4,ダウナ,0
+6,R543A.BIN,5,バルアЖ戦艦,1,2,3,Rating,15,%,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
+7,R543A.BIN,5,バルアЖ戦艦,1,3,-1,None,0,None,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+8,R543A.BIN,5,バルアЖ戦艦,2,0,3,Rating,80,%,0,Attack,2,-1,None,3,0,Attack,2,-1,None,2
+9,R543A.BIN,5,バルアЖ戦艦,2,1,3,Rating,50,%,1,Magic,-1,34,ボルテス,0,1,Magic,-1,27,グラシィ,0
+10,R543A.BIN,5,バルアЖ戦艦,2,2,3,Rating,30,%,3,Guard,-1,0,Evasive Action,0,2,Focus,-1,0,Focus,0
+11,R543A.BIN,5,バルアЖ戦艦,2,3,-1,None,0,None,1,Magic,-1,34,ボルテス,0,-1,None,-1,-1,None,0
+12,R543A.BIN,5,バルアЖ戦艦,3,0,-1,None,0,None,0,Attack,2,-1,None,2,0,Attack,2,-1,None,3
+13,R543A.BIN,5,バルアЖ戦艦,3,1,3,Rating,50,%,0,Attack,1,-1,None,0,3,Guard,-1,-1,None,0
+14,R543A.BIN,5,バルアЖ戦艦,3,2,3,Rating,50,%,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
+15,R543A.BIN,5,バルアЖ戦艦,3,3,3,Rating,80,%,2,Focus,-1,34,Preparing Attack,0,0,Attack,1,-1,None,0
+16,R543A.BIN,5,バルアЖ戦艦,4,0,-1,None,0,None,0,Attack,2,-1,None,2,0,Attack,2,-1,None,3
+17,R543A.BIN,5,バルアЖ戦艦,4,1,3,Rating,50,%,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
+18,R543A.BIN,5,バルアЖ戦艦,4,2,3,Rating,50,%,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
+19,R543A.BIN,5,バルアЖ戦艦,4,3,-1,None,0,None,1,Magic,-1,27,グラシィ,0,-1,None,-1,-1,None,0
+0,R544A.BIN,8,ガルシアン親衛艦,0,0,5,Previous T Type ID =,0,Attack,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+1,R544A.BIN,8,ガルシアン親衛艦,0,1,3,Rating,90,%,0,Attack,0,-1,None,0,0,Attack,1,0,None,2
+2,R544A.BIN,8,ガルシアン親衛艦,0,2,3,Rating,30,%,0,Attack,1,-1,None,1,0,Attack,0,-1,None,0
+3,R544A.BIN,8,ガルシアン親衛艦,0,3,3,Rating,60,%,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+4,R544A.BIN,8,ガルシアン親衛艦,1,0,3,Rating,30,%,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
+5,R544A.BIN,8,ガルシアン親衛艦,1,1,3,Rating,20,%,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,1,-1,None,3
+6,R544A.BIN,8,ガルシアン親衛艦,1,2,-1,None,0,None,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+7,R544A.BIN,8,ガルシアン親衛艦,1,3,3,Rating,40,%,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+8,R544A.BIN,8,ガルシアン親衛艦,2,0,3,Rating,50,%,0,Attack,2,-1,None,2,2,Focus,-1,0,Focus,0
+9,R544A.BIN,8,ガルシアン親衛艦,2,1,-1,None,0,None,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+10,R544A.BIN,8,ガルシアン親衛艦,2,2,-1,None,0,None,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
+11,R544A.BIN,8,ガルシアン親衛艦,2,3,5,Previous T Type ID =,0,Attack,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+12,R544A.BIN,8,ガルシアン親衛艦,3,0,-1,None,0,None,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
+13,R544A.BIN,8,ガルシアン親衛艦,3,1,3,Rating,80,%,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
+14,R544A.BIN,8,ガルシアン親衛艦,3,2,3,Rating,30,%,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
+15,R544A.BIN,8,ガルシアン親衛艦,3,3,5,Previous T Type ID =,0,Attack,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+16,R544A.BIN,8,ガルシアン親衛艦,4,0,3,Rating,50,%,0,Attack,2,-1,None,2,4,Nothing,-1,0,Awaiting Orders,0
+17,R544A.BIN,8,ガルシアン親衛艦,4,1,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,0,-1,None,0
+18,R544A.BIN,8,ガルシアン親衛艦,4,2,3,Rating,50,%,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
+19,R544A.BIN,8,ガルシアン親衛艦,4,3,-1,None,0,None,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+0,R545A.BIN,18,ヒュドラ,0,0,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+1,R545A.BIN,18,ヒュドラ,0,1,-1,None,0,None,0,Attack,1,-1,None,1,0,Attack,1,-1,None,1
+2,R545A.BIN,18,ヒュドラ,0,2,3,Rating,50,%,0,Attack,2,-1,None,0,2,Focus,-1,-1,None,0
+3,R545A.BIN,18,ヒュドラ,0,3,4,Previous T Type ID in Same Turn =,0,Attack,2,Focus,-1,-1,None,0,0,Attack,2,-1,None,0
+4,R545A.BIN,18,ヒュドラ,1,0,3,Rating,80,%,3,Guard,-1,-1,None,0,0,Attack,1,-1,None,1
+5,R545A.BIN,18,ヒュドラ,1,1,3,Rating,20,%,0,Attack,2,-1,None,1,2,Focus,-1,-1,None,0
+6,R545A.BIN,18,ヒュドラ,1,2,4,Previous T Type ID in Same Turn =,0,Attack,3,Guard,-1,-1,None,0,0,Attack,2,-1,None,1
+7,R545A.BIN,18,ヒュドラ,1,3,1,ES HP ≤,50,%,1,Magic,-1,7,サプリィ,0,2,Focus,-1,-1,None,0
+8,R545A.BIN,18,ヒュドラ,2,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+9,R545A.BIN,18,ヒュドラ,2,1,3,Rating,60,%,0,Attack,2,-1,None,1,3,Guard,-1,-1,None,0
+10,R545A.BIN,18,ヒュドラ,2,2,3,Rating,80,%,3,Guard,-1,-1,None,0,2,Focus,-1,-1,None,0
+11,R545A.BIN,18,ヒュドラ,2,3,1,ES HP ≤,70,%,0,Attack,1,-1,None,0,3,Guard,-1,-1,None,0
+12,R545A.BIN,18,ヒュドラ,3,0,-1,None,0,None,0,Attack,1,-1,None,1,0,Attack,1,-1,None,1
+13,R545A.BIN,18,ヒュドラ,3,1,-1,None,0,None,2,Focus,-1,-1,None,0,2,Focus,-1,-1,None,0
+14,R545A.BIN,18,ヒュドラ,3,2,-1,None,0,None,1,Magic,-1,7,サプリィ,0,1,Magic,-1,7,サプリィ,0
+15,R545A.BIN,18,ヒュドラ,3,3,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+16,R545A.BIN,18,ヒュドラ,4,0,-1,None,0,None,0,Attack,1,-1,None,1,2,Focus,-1,-1,None,0
+17,R545A.BIN,18,ヒュドラ,4,1,4,Previous T Type ID in Same Turn =,0,Attack,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,1
+18,R545A.BIN,18,ヒュドラ,4,2,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+19,R545A.BIN,18,ヒュドラ,4,3,3,Rating,50,%,0,Attack,0,-1,None,0,1,Magic,-1,7,サプリィ,0
+20,R545A.BIN,18,ヒュドラ,5,0,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+21,R545A.BIN,18,ヒュドラ,5,1,0,PS HP ≤,70,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,1
+22,R545A.BIN,18,ヒュドラ,5,2,-1,None,0,None,2,Focus,-1,-1,None,0,2,Focus,-1,-1,None,0
+23,R545A.BIN,18,ヒュドラ,5,3,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
+24,R545A.BIN,18,ヒュドラ,6,0,5,Previous T Type ID =,50,???,3,Guard,-1,-1,None,0,0,Attack,1,-1,None,1
+25,R545A.BIN,18,ヒュドラ,6,1,4,Previous T Type ID in Same Turn =,0,Attack,3,Guard,-1,-1,None,0,0,Attack,1,-1,None,0
+26,R545A.BIN,18,ヒュドラ,6,2,3,Rating,50,%,0,Attack,2,-1,None,1,2,Focus,-1,-1,None,0
+27,R545A.BIN,18,ヒュドラ,6,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+28,R545A.BIN,18,ヒュドラ,7,0,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
+29,R545A.BIN,18,ヒュドラ,7,1,3,Rating,20,%,0,Attack,2,-1,None,1,2,Focus,-1,-1,None,0
+30,R545A.BIN,18,ヒュドラ,7,2,4,Previous T Type ID in Same Turn =,0,Attack,2,Focus,-1,-1,None,0,0,Attack,2,-1,None,1
+31,R545A.BIN,18,ヒュドラ,7,3,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+32,R545A.BIN,18,ヒュドラ,8,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+33,R545A.BIN,18,ヒュドラ,8,1,3,Rating,60,%,0,Attack,2,-1,None,1,3,Guard,-1,-1,None,0
+34,R545A.BIN,18,ヒュドラ,8,2,-1,None,0,None,2,Focus,-1,-1,None,0,2,Focus,-1,-1,None,0
+35,R545A.BIN,18,ヒュドラ,8,3,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
+0,R547A.BIN,28,ジェロス,0,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+1,R547A.BIN,28,ジェロス,0,1,3,Rating,80,%,1,Magic,-1,4,ダウナ,0,1,Magic,-1,2,サイレシャ,0
+2,R547A.BIN,28,ジェロス,0,2,-1,None,0,None,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
+3,R547A.BIN,28,ジェロス,0,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+4,R547A.BIN,28,ジェロス,1,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+5,R547A.BIN,28,ジェロス,1,1,3,Rating,80,%,1,Magic,-1,4,ダウナ,0,1,Magic,-1,2,サイレシャ,0
+6,R547A.BIN,28,ジェロス,1,2,3,Rating,50,%,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
+7,R547A.BIN,28,ジェロス,1,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+8,R547A.BIN,28,ジェロス,2,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+9,R547A.BIN,28,ジェロス,2,1,-1,None,0,None,1,Magic,-1,2,サイレシャ,0,0,Attack,0,-1,None,0
+10,R547A.BIN,28,ジェロス,2,2,3,Rating,50,%,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
+11,R547A.BIN,28,ジェロス,2,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+12,R547A.BIN,28,ジェロス,3,0,-1,None,0,None,1,Magic,-1,13,クイッカ,0,0,Attack,0,-1,None,0
+13,R547A.BIN,28,ジェロス,3,1,3,Rating,50,%,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
+14,R547A.BIN,28,ジェロス,3,2,3,Rating,50,%,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
+15,R547A.BIN,28,ジェロス,3,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+16,R547A.BIN,28,ジェロス,4,0,-1,None,0,None,1,Magic,-1,13,クイッカ,0,0,Attack,0,-1,None,0
+17,R547A.BIN,28,ジェロス,4,1,3,Rating,50,%,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
+18,R547A.BIN,28,ジェロス,4,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+19,R547A.BIN,28,ジェロス,4,3,9,PS Phase Actions ≥ 2 or Used S-Cannon?,0,None,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+20,R547A.BIN,28,ジェロス,5,0,3,Rating,80,%,1,Magic,-1,4,ダウナ,0,1,Magic,-1,2,サイレシャ,0
+21,R547A.BIN,28,ジェロス,5,1,3,Rating,50,%,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
+22,R547A.BIN,28,ジェロス,5,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+23,R547A.BIN,28,ジェロス,5,3,9,PS Phase Actions ≥ 2 or Used S-Cannon?,0,None,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+24,R547A.BIN,28,ジェロス,6,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+25,R547A.BIN,28,ジェロス,6,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+26,R547A.BIN,28,ジェロス,6,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+27,R547A.BIN,28,ジェロス,6,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+28,R547A.BIN,28,ジェロス,7,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+29,R547A.BIN,28,ジェロス,7,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+30,R547A.BIN,28,ジェロス,7,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+31,R547A.BIN,28,ジェロス,7,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+32,R547A.BIN,28,ジェロス,8,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+33,R547A.BIN,28,ジェロス,8,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+34,R547A.BIN,28,ジェロス,8,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+35,R547A.BIN,28,ジェロス,8,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+36,R547A.BIN,28,ジェロス,9,0,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+37,R547A.BIN,28,ジェロス,9,1,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
+38,R547A.BIN,28,ジェロス,9,2,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
+39,R547A.BIN,28,ジェロス,9,3,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
+40,R547A.BIN,28,ジェロス,10,0,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+41,R547A.BIN,28,ジェロス,10,1,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
+42,R547A.BIN,28,ジェロス,10,2,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+43,R547A.BIN,28,ジェロス,10,3,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
+44,R547A.BIN,28,ジェロス,11,0,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+45,R547A.BIN,28,ジェロス,11,1,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
+46,R547A.BIN,28,ジェロス,11,2,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+47,R547A.BIN,28,ジェロス,11,3,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
+48,R547A.BIN,28,ジェロス,12,0,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
+49,R547A.BIN,28,ジェロス,12,1,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+50,R547A.BIN,28,ジェロス,12,2,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
+51,R547A.BIN,28,ジェロス,12,3,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
+52,R547A.BIN,28,ジェロス,13,0,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+53,R547A.BIN,28,ジェロス,13,1,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
+54,R547A.BIN,28,ジェロス,13,2,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+55,R547A.BIN,28,ジェロス,13,3,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
+56,R547A.BIN,28,ジェロス,14,0,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+57,R547A.BIN,28,ジェロス,14,1,-1,None,0,None,1,Magic,-1,4,ダウナ,0,0,Attack,0,-1,None,0
+58,R547A.BIN,28,ジェロス,14,2,-1,None,0,None,1,Magic,-1,13,クイッカ,0,0,Attack,0,-1,None,0
+59,R547A.BIN,28,ジェロス,14,3,0,PS HP ≤,50,%,0,Attack,1,-1,None,0,0,Attack,3,-1,None,0
+60,R547A.BIN,28,ジェロス,15,0,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+61,R547A.BIN,28,ジェロス,15,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+62,R547A.BIN,28,ジェロス,15,2,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+63,R547A.BIN,28,ジェロス,15,3,9,PS Phase Actions ≥ 2 or Used S-Cannon?,0,None,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+64,R547A.BIN,28,ジェロス,16,0,-1,None,0,None,1,Magic,-1,13,クイッカ,0,0,Attack,0,-1,None,0
+65,R547A.BIN,28,ジェロス,16,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+66,R547A.BIN,28,ジェロス,16,2,9,PS Phase Actions ≥ 2 or Used S-Cannon?,0,None,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+67,R547A.BIN,28,ジェロス,16,3,0,PS HP ≤,50,%,0,Attack,1,-1,None,0,0,Attack,3,-1,None,0
+68,R547A.BIN,28,ジェロス,17,0,0,PS HP ≤,50,%,4,Nothing,-1,2,Assessing Damage,0,1,Magic,-1,4,ダウナ,0
+69,R547A.BIN,28,ジェロス,17,1,3,Rating,50,%,1,Magic,-1,30,バーノーン,0,1,Magic,-1,29,グラゾーバ,0
+70,R547A.BIN,28,ジェロス,17,2,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,35,ボルドーラ,0
+71,R547A.BIN,28,ジェロス,17,3,-1,None,0,None,0,Attack,2,-1,None,0,0,Attack,0,-1,None,0
+72,R547A.BIN,28,ジェロス,18,0,3,Rating,50,%,1,Magic,-1,31,ウェイベス,0,1,Magic,-1,29,グラゾーバ,0
+73,R547A.BIN,28,ジェロス,18,1,-1,None,0,None,0,Attack,2,-1,None,0,0,Attack,0,-1,None,0
+74,R547A.BIN,28,ジェロス,18,2,3,Rating,50,%,1,Magic,-1,30,バーノーン,0,1,Magic,-1,35,ボルドーラ,0
+75,R547A.BIN,28,ジェロス,18,3,-1,None,0,None,0,Attack,2,-1,None,0,0,Attack,0,-1,None,0
+0,R550A.BIN,21,黒空賊船,0,0,3,Rating,80,%,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
+1,R550A.BIN,21,黒空賊船,0,1,4,Previous T Type ID in Same Turn =,2,Focus,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
+2,R550A.BIN,21,黒空賊船,0,2,4,Previous T Type ID in Same Turn =,2,Focus,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+3,R550A.BIN,21,黒空賊船,0,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+4,R550A.BIN,21,黒空賊船,1,0,3,Rating,70,%,0,Attack,1,0,None,3,3,Guard,-1,0,Evasive Action,0
+5,R550A.BIN,21,黒空賊船,1,1,3,Rating,80,%,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
+6,R550A.BIN,21,黒空賊船,1,2,3,Rating,70,%,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+7,R550A.BIN,21,黒空賊船,1,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+8,R550A.BIN,21,黒空賊船,2,0,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+9,R550A.BIN,21,黒空賊船,2,1,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+10,R550A.BIN,21,黒空賊船,2,2,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+11,R550A.BIN,21,黒空賊船,2,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+12,R550A.BIN,21,黒空賊船,3,0,3,Rating,98,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+13,R550A.BIN,21,黒空賊船,3,1,3,Rating,50,%,2,Focus,-1,0,Focus,0,0,Attack,1,0,None,2
+14,R550A.BIN,21,黒空賊船,3,2,3,Rating,80,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+15,R550A.BIN,21,黒空賊船,3,3,3,Rating,80,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+0,R551A.BIN,21,黒空賊船,0,0,3,Rating,80,%,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
+1,R551A.BIN,21,黒空賊船,0,1,4,Previous T Type ID in Same Turn =,2,Focus,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
+2,R551A.BIN,21,黒空賊船,0,2,4,Previous T Type ID in Same Turn =,2,Focus,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+3,R551A.BIN,21,黒空賊船,0,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+4,R551A.BIN,21,黒空賊船,1,0,3,Rating,70,%,0,Attack,1,0,None,3,3,Guard,-1,0,Evasive Action,0
+5,R551A.BIN,21,黒空賊船,1,1,3,Rating,80,%,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
+6,R551A.BIN,21,黒空賊船,1,2,3,Rating,70,%,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+7,R551A.BIN,21,黒空賊船,1,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+8,R551A.BIN,21,黒空賊船,2,0,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+9,R551A.BIN,21,黒空賊船,2,1,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+10,R551A.BIN,21,黒空賊船,2,2,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+11,R551A.BIN,21,黒空賊船,2,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+12,R551A.BIN,21,黒空賊船,3,0,3,Rating,98,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+13,R551A.BIN,21,黒空賊船,3,1,3,Rating,50,%,2,Focus,-1,0,Focus,0,0,Attack,1,0,None,2
+14,R551A.BIN,21,黒空賊船,3,2,3,Rating,80,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+15,R551A.BIN,21,黒空賊船,3,3,3,Rating,80,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+0,R552A.BIN,21,黒空賊船,0,0,3,Rating,80,%,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
+1,R552A.BIN,21,黒空賊船,0,1,4,Previous T Type ID in Same Turn =,2,Focus,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
+2,R552A.BIN,21,黒空賊船,0,2,4,Previous T Type ID in Same Turn =,2,Focus,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+3,R552A.BIN,21,黒空賊船,0,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+4,R552A.BIN,21,黒空賊船,1,0,3,Rating,70,%,0,Attack,1,0,None,3,3,Guard,-1,0,Evasive Action,0
+5,R552A.BIN,21,黒空賊船,1,1,3,Rating,80,%,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
+6,R552A.BIN,21,黒空賊船,1,2,3,Rating,70,%,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+7,R552A.BIN,21,黒空賊船,1,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+8,R552A.BIN,21,黒空賊船,2,0,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+9,R552A.BIN,21,黒空賊船,2,1,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+10,R552A.BIN,21,黒空賊船,2,2,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+11,R552A.BIN,21,黒空賊船,2,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+12,R552A.BIN,21,黒空賊船,3,0,3,Rating,98,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+13,R552A.BIN,21,黒空賊船,3,1,3,Rating,50,%,2,Focus,-1,0,Focus,0,0,Attack,1,0,None,2
+14,R552A.BIN,21,黒空賊船,3,2,3,Rating,80,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+15,R552A.BIN,21,黒空賊船,3,3,3,Rating,80,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+0,R560A.BIN,1,バルアЖ駆逐艦,0,0,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+1,R560A.BIN,1,バルアЖ駆逐艦,0,1,-1,None,0,None,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
+2,R560A.BIN,1,バルアЖ駆逐艦,0,2,3,Rating,75,%,1,Magic,-1,24,バーニィ,0,0,Attack,0,-1,None,0
+3,R560A.BIN,1,バルアЖ駆逐艦,0,3,-1,None,0,None,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+4,R560A.BIN,1,バルアЖ駆逐艦,1,0,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,1,-1,None,0
+5,R560A.BIN,1,バルアЖ駆逐艦,1,1,3,Rating,50,%,2,Focus,-1,0,Focus,0,0,Attack,1,-1,None,0
+6,R560A.BIN,1,バルアЖ駆逐艦,1,2,3,Rating,50,%,0,Attack,0,1,None,0,3,Guard,-1,0,Evasive Action,0
+7,R560A.BIN,1,バルアЖ駆逐艦,1,3,-1,None,0,None,1,Magic,-1,24,バーニィ,0,-1,None,-1,-1,None,0
+8,R560A.BIN,1,バルアЖ駆逐艦,2,0,-1,None,0,None,1,Magic,-1,24,バーニィ,0,-1,None,-1,-1,None,0
+9,R560A.BIN,1,バルアЖ駆逐艦,2,1,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+10,R560A.BIN,1,バルアЖ駆逐艦,2,2,3,Rating,50,%,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
+11,R560A.BIN,1,バルアЖ駆逐艦,2,3,3,Rating,50,%,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
+12,R560A.BIN,1,バルアЖ駆逐艦,3,0,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+13,R560A.BIN,1,バルアЖ駆逐艦,3,1,3,Rating,80,%,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
+14,R560A.BIN,1,バルアЖ駆逐艦,3,2,3,Rating,65,%,0,Attack,1,-1,None,1,4,Nothing,-1,0,Awaiting Orders,0
+15,R560A.BIN,1,バルアЖ駆逐艦,3,3,-1,None,0,None,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
+16,R560A.BIN,1,バルアЖ駆逐艦,4,0,3,Rating,50,%,2,Focus,-1,-1,None,0,4,Nothing,-1,-1,None,0
+17,R560A.BIN,1,バルアЖ駆逐艦,4,1,3,Rating,40,%,1,Magic,-1,7,サプリィ,0,0,Attack,0,-1,None,0
+18,R560A.BIN,1,バルアЖ駆逐艦,4,2,3,Rating,65,%,1,Magic,-1,24,バーニィ,0,3,Guard,-1,-1,None,0
+19,R560A.BIN,1,バルアЖ駆逐艦,4,3,3,Rating,50,%,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,0
+0,R563A.BIN,5,バルアЖ戦艦,0,0,1,ES HP ≤,99,%,2,Focus,-1,0,Focus,0,1,Magic,-1,13,クイッカ,0
+1,R563A.BIN,5,バルアЖ戦艦,0,1,3,Rating,50,%,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,グラシィ,0
+2,R563A.BIN,5,バルアЖ戦艦,0,2,3,Rating,50,%,2,Focus,-1,0,Focus,0,1,Magic,-1,34,ボルテス,0
+3,R563A.BIN,5,バルアЖ戦艦,0,3,3,Rating,50,%,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
+4,R563A.BIN,5,バルアЖ戦艦,1,0,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
+5,R563A.BIN,5,バルアЖ戦艦,1,1,-1,None,0,None,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,グラシィ,0
+6,R563A.BIN,5,バルアЖ戦艦,1,2,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
+7,R563A.BIN,5,バルアЖ戦艦,1,3,0,PS HP ≤,90,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,4,ダウナ,0
+8,R563A.BIN,5,バルアЖ戦艦,2,0,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
+9,R563A.BIN,5,バルアЖ戦艦,2,1,3,Rating,50,%,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,34,ボルテス,0
+10,R563A.BIN,5,バルアЖ戦艦,2,2,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
+11,R563A.BIN,5,バルアЖ戦艦,2,3,3,Rating,50,%,2,Focus,-1,0,Focus,0,1,Magic,-1,34,ボルテス,0
+12,R563A.BIN,5,バルアЖ戦艦,3,0,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
+13,R563A.BIN,5,バルアЖ戦艦,3,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+14,R563A.BIN,5,バルアЖ戦艦,3,2,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
+15,R563A.BIN,5,バルアЖ戦艦,3,3,1,ES HP ≤,40,%,1,Magic,-1,4,ダウナ,0,1,Magic,-1,27,グラシィ,0
+16,R563A.BIN,5,バルアЖ戦艦,4,0,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
+17,R563A.BIN,5,バルアЖ戦艦,4,1,3,Rating,50,%,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,グラシィ,0
+18,R563A.BIN,5,バルアЖ戦艦,4,2,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
+19,R563A.BIN,5,バルアЖ戦艦,4,3,1,ES HP ≤,40,%,1,Magic,-1,13,クイッカ,0,1,Magic,-1,27,グラシィ,0
+0,R564A.BIN,1,バルアЖ駆逐艦,0,0,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+1,R564A.BIN,1,バルアЖ駆逐艦,0,1,-1,None,0,None,0,Attack,1,-1,None,0,-1,None,-1,-1,None,0
+2,R564A.BIN,1,バルアЖ駆逐艦,0,2,3,Rating,75,%,1,Magic,-1,24,バーニィ,0,0,Attack,0,-1,None,0
+3,R564A.BIN,1,バルアЖ駆逐艦,0,3,-1,None,0,None,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+4,R564A.BIN,1,バルアЖ駆逐艦,1,0,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,1,-1,None,0
+5,R564A.BIN,1,バルアЖ駆逐艦,1,1,3,Rating,50,%,2,Focus,-1,0,Focus,0,0,Attack,1,-1,None,0
+6,R564A.BIN,1,バルアЖ駆逐艦,1,2,3,Rating,50,%,0,Attack,0,1,None,0,3,Guard,-1,0,Evasive Action,0
+7,R564A.BIN,1,バルアЖ駆逐艦,1,3,-1,None,0,None,1,Magic,-1,24,バーニィ,0,-1,None,-1,-1,None,0
+8,R564A.BIN,1,バルアЖ駆逐艦,2,0,-1,None,0,None,1,Magic,-1,24,バーニィ,0,-1,None,-1,-1,None,0
+9,R564A.BIN,1,バルアЖ駆逐艦,2,1,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+10,R564A.BIN,1,バルアЖ駆逐艦,2,2,3,Rating,50,%,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
+11,R564A.BIN,1,バルアЖ駆逐艦,2,3,3,Rating,50,%,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
+12,R564A.BIN,1,バルアЖ駆逐艦,3,0,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,3,Guard,-1,0,Evasive Action,0
+13,R564A.BIN,1,バルアЖ駆逐艦,3,1,3,Rating,80,%,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
+14,R564A.BIN,1,バルアЖ駆逐艦,3,2,3,Rating,65,%,0,Attack,1,-1,None,1,4,Nothing,-1,0,Awaiting Orders,0
+15,R564A.BIN,1,バルアЖ駆逐艦,3,3,-1,None,0,None,2,Focus,-1,0,Focus,0,-1,None,-1,-1,None,0
+16,R564A.BIN,1,バルアЖ駆逐艦,4,0,3,Rating,50,%,2,Focus,-1,-1,None,0,4,Nothing,-1,-1,None,0
+17,R564A.BIN,1,バルアЖ駆逐艦,4,1,3,Rating,40,%,1,Magic,-1,7,サプリィ,0,0,Attack,0,-1,None,0
+18,R564A.BIN,1,バルアЖ駆逐艦,4,2,3,Rating,65,%,1,Magic,-1,24,バーニィ,0,3,Guard,-1,-1,None,0
+19,R564A.BIN,1,バルアЖ駆逐艦,4,3,3,Rating,50,%,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,0
+0,R565A.BIN,22,Ж黒空賊船,0,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
+1,R565A.BIN,22,Ж黒空賊船,0,1,3,Rating,20,%,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
+2,R565A.BIN,22,Ж黒空賊船,0,2,3,Rating,80,%,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+3,R565A.BIN,22,Ж黒空賊船,0,3,4,Previous T Type ID in Same Turn =,2,Focus,1,Magic,-1,6,サプラ,0,0,Attack,0,-1,None,0
+4,R565A.BIN,22,Ж黒空賊船,1,0,3,Rating,70,%,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
+5,R565A.BIN,22,Ж黒空賊船,1,1,3,Rating,85,%,1,Magic,0,25,バーネス,0,1,Magic,-1,6,サプラ,0
+6,R565A.BIN,22,Ж黒空賊船,1,2,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+7,R565A.BIN,22,Ж黒空賊船,1,3,-1,None,0,None,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
+8,R565A.BIN,22,Ж黒空賊船,2,0,-1,None,0,None,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+9,R565A.BIN,22,Ж黒空賊船,2,1,-1,None,0,None,1,Magic,0,25,バーネス,1,-1,None,-1,-1,None,0
+10,R565A.BIN,22,Ж黒空賊船,2,2,-1,None,0,None,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
+11,R565A.BIN,22,Ж黒空賊船,2,3,3,Rating,50,%,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+12,R565A.BIN,22,Ж黒空賊船,3,0,-1,None,0,None,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
+13,R565A.BIN,22,Ж黒空賊船,3,1,-1,None,0,None,0,Attack,1,-1,None,2,4,Nothing,-1,-1,None,0
+14,R565A.BIN,22,Ж黒空賊船,3,2,-1,None,0,None,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+15,R565A.BIN,22,Ж黒空賊船,3,3,-1,None,0,None,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+16,R565A.BIN,22,Ж黒空賊船,4,0,3,Rating,50,%,0,Attack,1,-1,None,2,0,Attack,1,-1,None,3
+17,R565A.BIN,22,Ж黒空賊船,4,1,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+18,R565A.BIN,22,Ж黒空賊船,4,2,-1,None,0,None,1,Magic,0,25,バーネス,0,-1,None,-1,-1,None,0
+19,R565A.BIN,22,Ж黒空賊船,4,3,-1,None,0,None,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+20,R565A.BIN,22,Ж黒空賊船,5,0,-1,None,0,None,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
+21,R565A.BIN,22,Ж黒空賊船,5,1,-1,None,0,None,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
+22,R565A.BIN,22,Ж黒空賊船,5,2,-1,None,0,None,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+23,R565A.BIN,22,Ж黒空賊船,5,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+0,R566A.BIN,7,バルアЖ新鋭艦,0,0,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+1,R566A.BIN,7,バルアЖ新鋭艦,0,1,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
+2,R566A.BIN,7,バルアЖ新鋭艦,0,2,1,ES HP ≤,30,%,0,Attack,1,-1,None,0,1,Magic,-1,34,ボルテス,0
+3,R566A.BIN,7,バルアЖ新鋭艦,0,3,1,ES HP ≤,30,%,1,Magic,-1,6,サプラ,0,2,Focus,-1,0,Focus,0
+4,R566A.BIN,7,バルアЖ新鋭艦,1,0,-1,None,0,None,1,Magic,-1,34,ボルテス,0,1,Magic,-1,34,ボルテス,0
+5,R566A.BIN,7,バルアЖ新鋭艦,1,1,-1,None,0,None,1,Magic,-1,34,ボルテス,0,1,Magic,-1,34,ボルテス,0
+6,R566A.BIN,7,バルアЖ新鋭艦,1,2,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
+7,R566A.BIN,7,バルアЖ新鋭艦,1,3,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
+8,R566A.BIN,7,バルアЖ新鋭艦,2,0,3,Rating,10,%,1,Magic,-1,13,クイッカ,0,2,Focus,-1,0,Focus,0
+9,R566A.BIN,7,バルアЖ新鋭艦,2,1,-1,None,0,None,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
+10,R566A.BIN,7,バルアЖ新鋭艦,2,2,-1,None,0,None,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+11,R566A.BIN,7,バルアЖ新鋭艦,2,3,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
+12,R566A.BIN,7,バルアЖ新鋭艦,3,0,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
+13,R566A.BIN,7,バルアЖ新鋭艦,3,1,1,ES HP ≤,30,%,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
+14,R566A.BIN,7,バルアЖ新鋭艦,3,2,1,ES HP ≤,30,%,2,Focus,-1,0,Focus,0,1,Magic,-1,34,ボルテス,0
+15,R566A.BIN,7,バルアЖ新鋭艦,3,3,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
+0,R567A.BIN,6,バルア新鋭艦,0,0,3,Rating,50,%,0,Attack,1,-1,None,1,4,Nothing,0,-1,None,0
+1,R567A.BIN,6,バルア新鋭艦,0,1,3,Rating,70,%,0,Attack,0,-1,None,0,2,Focus,0,-1,None,0
+2,R567A.BIN,6,バルア新鋭艦,0,2,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,2,-1,None,1
+3,R567A.BIN,6,バルア新鋭艦,0,3,3,Rating,70,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+4,R567A.BIN,6,バルア新鋭艦,1,0,1,ES HP ≤,30,%,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,2
+5,R567A.BIN,6,バルア新鋭艦,1,1,3,Rating,30,%,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
+6,R567A.BIN,6,バルア新鋭艦,1,2,3,Rating,50,%,0,Attack,0,-1,None,0,2,Focus,-1,-1,None,0
+7,R567A.BIN,6,バルア新鋭艦,1,3,3,Rating,30,%,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
+8,R567A.BIN,6,バルア新鋭艦,2,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
+9,R567A.BIN,6,バルア新鋭艦,2,1,3,Rating,30,%,0,Attack,2,-1,None,1,0,Attack,1,-1,None,2
+10,R567A.BIN,6,バルア新鋭艦,2,2,3,Rating,50,%,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+11,R567A.BIN,6,バルア新鋭艦,2,3,3,Rating,50,%,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+12,R567A.BIN,6,バルア新鋭艦,3,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
+13,R567A.BIN,6,バルア新鋭艦,3,1,1,ES HP ≤,30,%,3,Guard,-1,0,Evasive Action,0,4,Nothing,-1,0,Awaiting Orders,0
+14,R567A.BIN,6,バルア新鋭艦,3,2,3,Rating,50,%,2,Focus,-1,0,Focus,0,0,Attack,2,-1,None,1
+15,R567A.BIN,6,バルア新鋭艦,3,3,3,Rating,50,%,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
+0,R568A.BIN,22,Ж黒空賊船,0,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
+1,R568A.BIN,22,Ж黒空賊船,0,1,3,Rating,20,%,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
+2,R568A.BIN,22,Ж黒空賊船,0,2,3,Rating,80,%,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+3,R568A.BIN,22,Ж黒空賊船,0,3,4,Previous T Type ID in Same Turn =,2,Focus,1,Magic,-1,6,サプラ,0,0,Attack,0,-1,None,0
+4,R568A.BIN,22,Ж黒空賊船,1,0,3,Rating,70,%,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
+5,R568A.BIN,22,Ж黒空賊船,1,1,3,Rating,85,%,1,Magic,0,25,バーネス,0,1,Magic,-1,6,サプラ,0
+6,R568A.BIN,22,Ж黒空賊船,1,2,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+7,R568A.BIN,22,Ж黒空賊船,1,3,-1,None,0,None,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
+8,R568A.BIN,22,Ж黒空賊船,2,0,-1,None,0,None,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+9,R568A.BIN,22,Ж黒空賊船,2,1,-1,None,0,None,1,Magic,0,25,バーネス,1,-1,None,-1,-1,None,0
+10,R568A.BIN,22,Ж黒空賊船,2,2,-1,None,0,None,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
+11,R568A.BIN,22,Ж黒空賊船,2,3,3,Rating,50,%,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+12,R568A.BIN,22,Ж黒空賊船,3,0,-1,None,0,None,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
+13,R568A.BIN,22,Ж黒空賊船,3,1,-1,None,0,None,0,Attack,1,-1,None,2,4,Nothing,-1,-1,None,0
+14,R568A.BIN,22,Ж黒空賊船,3,2,-1,None,0,None,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+15,R568A.BIN,22,Ж黒空賊船,3,3,-1,None,0,None,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+16,R568A.BIN,22,Ж黒空賊船,4,0,3,Rating,50,%,0,Attack,1,-1,None,2,0,Attack,1,-1,None,3
+17,R568A.BIN,22,Ж黒空賊船,4,1,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+18,R568A.BIN,22,Ж黒空賊船,4,2,-1,None,0,None,1,Magic,0,25,バーネス,0,-1,None,-1,-1,None,0
+19,R568A.BIN,22,Ж黒空賊船,4,3,-1,None,0,None,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+20,R568A.BIN,22,Ж黒空賊船,5,0,-1,None,0,None,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
+21,R568A.BIN,22,Ж黒空賊船,5,1,-1,None,0,None,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
+22,R568A.BIN,22,Ж黒空賊船,5,2,-1,None,0,None,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+23,R568A.BIN,22,Ж黒空賊船,5,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+0,R569A.BIN,5,バルアЖ戦艦,0,0,1,ES HP ≤,99,%,2,Focus,-1,0,Focus,0,1,Magic,-1,13,クイッカ,0
+1,R569A.BIN,5,バルアЖ戦艦,0,1,3,Rating,50,%,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,グラシィ,0
+2,R569A.BIN,5,バルアЖ戦艦,0,2,3,Rating,50,%,2,Focus,-1,0,Focus,0,1,Magic,-1,34,ボルテス,0
+3,R569A.BIN,5,バルアЖ戦艦,0,3,3,Rating,50,%,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
+4,R569A.BIN,5,バルアЖ戦艦,1,0,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
+5,R569A.BIN,5,バルアЖ戦艦,1,1,-1,None,0,None,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,グラシィ,0
+6,R569A.BIN,5,バルアЖ戦艦,1,2,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
+7,R569A.BIN,5,バルアЖ戦艦,1,3,0,PS HP ≤,90,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,4,ダウナ,0
+8,R569A.BIN,5,バルアЖ戦艦,2,0,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
+9,R569A.BIN,5,バルアЖ戦艦,2,1,3,Rating,50,%,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,34,ボルテス,0
+10,R569A.BIN,5,バルアЖ戦艦,2,2,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
+11,R569A.BIN,5,バルアЖ戦艦,2,3,3,Rating,50,%,2,Focus,-1,0,Focus,0,1,Magic,-1,34,ボルテス,0
+12,R569A.BIN,5,バルアЖ戦艦,3,0,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
+13,R569A.BIN,5,バルアЖ戦艦,3,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+14,R569A.BIN,5,バルアЖ戦艦,3,2,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
+15,R569A.BIN,5,バルアЖ戦艦,3,3,1,ES HP ≤,40,%,1,Magic,-1,4,ダウナ,0,1,Magic,-1,27,グラシィ,0
+16,R569A.BIN,5,バルアЖ戦艦,4,0,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
+17,R569A.BIN,5,バルアЖ戦艦,4,1,3,Rating,50,%,3,Guard,-1,0,Evasive Action,0,1,Magic,-1,27,グラシィ,0
+18,R569A.BIN,5,バルアЖ戦艦,4,2,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,34,ボルテス,0
+19,R569A.BIN,5,バルアЖ戦艦,4,3,1,ES HP ≤,40,%,1,Magic,-1,13,クイッカ,0,1,Magic,-1,27,グラシィ,0
+0,R572A.BIN,22,Ж黒空賊船,0,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
+1,R572A.BIN,22,Ж黒空賊船,0,1,3,Rating,20,%,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
+2,R572A.BIN,22,Ж黒空賊船,0,2,3,Rating,80,%,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+3,R572A.BIN,22,Ж黒空賊船,0,3,4,Previous T Type ID in Same Turn =,2,Focus,1,Magic,-1,6,サプラ,0,0,Attack,0,-1,None,0
+4,R572A.BIN,22,Ж黒空賊船,1,0,3,Rating,70,%,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
+5,R572A.BIN,22,Ж黒空賊船,1,1,3,Rating,85,%,1,Magic,0,25,バーネス,0,1,Magic,-1,6,サプラ,0
+6,R572A.BIN,22,Ж黒空賊船,1,2,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+7,R572A.BIN,22,Ж黒空賊船,1,3,-1,None,0,None,2,Focus,-1,-1,None,0,-1,None,-1,-1,None,0
+8,R572A.BIN,22,Ж黒空賊船,2,0,-1,None,0,None,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+9,R572A.BIN,22,Ж黒空賊船,2,1,-1,None,0,None,1,Magic,0,25,バーネス,1,-1,None,-1,-1,None,0
+10,R572A.BIN,22,Ж黒空賊船,2,2,-1,None,0,None,4,Nothing,-1,-1,None,0,-1,None,-1,-1,None,0
+11,R572A.BIN,22,Ж黒空賊船,2,3,3,Rating,50,%,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
+12,R572A.BIN,22,Ж黒空賊船,3,0,-1,None,0,None,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
+13,R572A.BIN,22,Ж黒空賊船,3,1,-1,None,0,None,0,Attack,1,-1,None,2,4,Nothing,-1,-1,None,0
+14,R572A.BIN,22,Ж黒空賊船,3,2,-1,None,0,None,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+15,R572A.BIN,22,Ж黒空賊船,3,3,-1,None,0,None,3,Guard,-1,0,Evasive Action,0,-1,None,-1,-1,None,0
+16,R572A.BIN,22,Ж黒空賊船,4,0,3,Rating,50,%,0,Attack,1,-1,None,2,0,Attack,1,-1,None,3
+17,R572A.BIN,22,Ж黒空賊船,4,1,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+18,R572A.BIN,22,Ж黒空賊船,4,2,-1,None,0,None,1,Magic,0,25,バーネス,0,-1,None,-1,-1,None,0
+19,R572A.BIN,22,Ж黒空賊船,4,3,-1,None,0,None,4,Nothing,-1,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+20,R572A.BIN,22,Ж黒空賊船,5,0,-1,None,0,None,0,Attack,1,-1,None,2,-1,None,-1,-1,None,0
+21,R572A.BIN,22,Ж黒空賊船,5,1,-1,None,0,None,0,Attack,0,-1,None,1,-1,None,-1,-1,None,0
+22,R572A.BIN,22,Ж黒空賊船,5,2,-1,None,0,None,4,Nothing,0,0,Awaiting Orders,0,-1,None,-1,-1,None,0
+23,R572A.BIN,22,Ж黒空賊船,5,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
+0,R573A.BIN,43,ブラックベアード,0,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+1,R573A.BIN,43,ブラックベアード,0,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+2,R573A.BIN,43,ブラックベアード,0,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+3,R573A.BIN,43,ブラックベアード,0,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+4,R573A.BIN,43,ブラックベアード,1,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+5,R573A.BIN,43,ブラックベアード,1,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+6,R573A.BIN,43,ブラックベアード,1,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+7,R573A.BIN,43,ブラックベアード,1,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+8,R573A.BIN,43,ブラックベアード,2,0,-1,None,0,None,4,Nothing,-1,1,Target Lost,0,0,Attack,0,-1,None,0
+9,R573A.BIN,43,ブラックベアード,2,1,-1,None,0,None,4,Nothing,-1,1,Target Lost,0,0,Attack,0,-1,None,0
+10,R573A.BIN,43,ブラックベアード,2,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+11,R573A.BIN,43,ブラックベアード,2,3,-1,None,0,None,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
+12,R573A.BIN,43,ブラックベアード,3,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+13,R573A.BIN,43,ブラックベアード,3,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+14,R573A.BIN,43,ブラックベアード,3,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R573A.BIN,43,ブラックベアード,3,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+16,R573A.BIN,43,ブラックベアード,4,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+17,R573A.BIN,43,ブラックベアード,4,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+18,R573A.BIN,43,ブラックベアード,4,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+19,R573A.BIN,43,ブラックベアード,4,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+0,R574A.BIN,6,バルア新鋭艦,0,0,3,Rating,50,%,0,Attack,1,-1,None,1,4,Nothing,0,-1,None,0
+1,R574A.BIN,6,バルア新鋭艦,0,1,3,Rating,70,%,0,Attack,0,-1,None,0,2,Focus,0,-1,None,0
+2,R574A.BIN,6,バルア新鋭艦,0,2,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,2,-1,None,1
+3,R574A.BIN,6,バルア新鋭艦,0,3,3,Rating,70,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+4,R574A.BIN,6,バルア新鋭艦,1,0,1,ES HP ≤,30,%,3,Guard,-1,0,Evasive Action,0,0,Attack,2,-1,None,2
+5,R574A.BIN,6,バルア新鋭艦,1,1,3,Rating,30,%,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
+6,R574A.BIN,6,バルア新鋭艦,1,2,3,Rating,50,%,0,Attack,0,-1,None,0,2,Focus,-1,-1,None,0
+7,R574A.BIN,6,バルア新鋭艦,1,3,3,Rating,30,%,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
+8,R574A.BIN,6,バルア新鋭艦,2,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
+9,R574A.BIN,6,バルア新鋭艦,2,1,3,Rating,30,%,0,Attack,2,-1,None,1,0,Attack,1,-1,None,2
+10,R574A.BIN,6,バルア新鋭艦,2,2,3,Rating,50,%,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+11,R574A.BIN,6,バルア新鋭艦,2,3,3,Rating,50,%,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+12,R574A.BIN,6,バルア新鋭艦,3,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
+13,R574A.BIN,6,バルア新鋭艦,3,1,1,ES HP ≤,30,%,3,Guard,-1,0,Evasive Action,0,4,Nothing,-1,0,Awaiting Orders,0
+14,R574A.BIN,6,バルア新鋭艦,3,2,3,Rating,50,%,2,Focus,-1,0,Focus,0,0,Attack,2,-1,None,1
+15,R574A.BIN,6,バルア新鋭艦,3,3,3,Rating,50,%,2,Focus,-1,0,Focus,0,3,Guard,-1,0,Evasive Action,0
+0,R575A.BIN,7,バルアЖ新鋭艦,0,0,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+1,R575A.BIN,7,バルアЖ新鋭艦,0,1,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
+2,R575A.BIN,7,バルアЖ新鋭艦,0,2,1,ES HP ≤,30,%,0,Attack,1,-1,None,0,1,Magic,-1,34,ボルテス,0
+3,R575A.BIN,7,バルアЖ新鋭艦,0,3,1,ES HP ≤,30,%,1,Magic,-1,6,サプラ,0,2,Focus,-1,0,Focus,0
+4,R575A.BIN,7,バルアЖ新鋭艦,1,0,-1,None,0,None,1,Magic,-1,34,ボルテス,0,1,Magic,-1,34,ボルテス,0
+5,R575A.BIN,7,バルアЖ新鋭艦,1,1,-1,None,0,None,1,Magic,-1,34,ボルテス,0,1,Magic,-1,34,ボルテス,0
+6,R575A.BIN,7,バルアЖ新鋭艦,1,2,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
+7,R575A.BIN,7,バルアЖ新鋭艦,1,3,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
+8,R575A.BIN,7,バルアЖ新鋭艦,2,0,3,Rating,10,%,1,Magic,-1,13,クイッカ,0,2,Focus,-1,0,Focus,0
+9,R575A.BIN,7,バルアЖ新鋭艦,2,1,-1,None,0,None,4,Nothing,-1,0,Awaiting Orders,0,1,Magic,-1,27,グラシィ,0
+10,R575A.BIN,7,バルアЖ新鋭艦,2,2,-1,None,0,None,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+11,R575A.BIN,7,バルアЖ新鋭艦,2,3,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
+12,R575A.BIN,7,バルアЖ新鋭艦,3,0,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,1,Magic,-1,27,グラシィ,0
+13,R575A.BIN,7,バルアЖ新鋭艦,3,1,1,ES HP ≤,30,%,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
+14,R575A.BIN,7,バルアЖ新鋭艦,3,2,1,ES HP ≤,30,%,2,Focus,-1,0,Focus,0,1,Magic,-1,34,ボルテス,0
+15,R575A.BIN,7,バルアЖ新鋭艦,3,3,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,1,Magic,-1,34,ボルテス,0
+0,R576A.BIN,35,ロック鳥,0,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+1,R576A.BIN,35,ロック鳥,0,1,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+2,R576A.BIN,35,ロック鳥,0,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+3,R576A.BIN,35,ロック鳥,0,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+4,R576A.BIN,35,ロック鳥,1,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+5,R576A.BIN,35,ロック鳥,1,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+6,R576A.BIN,35,ロック鳥,1,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+7,R576A.BIN,35,ロック鳥,1,3,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+8,R576A.BIN,35,ロック鳥,2,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+9,R576A.BIN,35,ロック鳥,2,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+10,R576A.BIN,35,ロック鳥,2,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+11,R576A.BIN,35,ロック鳥,2,3,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+12,R576A.BIN,35,ロック鳥,3,0,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+13,R576A.BIN,35,ロック鳥,3,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+14,R576A.BIN,35,ロック鳥,3,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+15,R576A.BIN,35,ロック鳥,3,3,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+16,R576A.BIN,35,ロック鳥,4,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+17,R576A.BIN,35,ロック鳥,4,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+18,R576A.BIN,35,ロック鳥,4,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+19,R576A.BIN,35,ロック鳥,4,3,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+20,R576A.BIN,35,ロック鳥,5,0,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+21,R576A.BIN,35,ロック鳥,5,1,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+22,R576A.BIN,35,ロック鳥,5,2,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+23,R576A.BIN,35,ロック鳥,5,3,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+24,R576A.BIN,35,ロック鳥,6,0,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+25,R576A.BIN,35,ロック鳥,6,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+26,R576A.BIN,35,ロック鳥,6,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+27,R576A.BIN,35,ロック鳥,6,3,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+28,R576A.BIN,35,ロック鳥,7,0,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+29,R576A.BIN,35,ロック鳥,7,1,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+30,R576A.BIN,35,ロック鳥,7,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,3,Guard,-1,0,Evasive Action,0
+31,R576A.BIN,35,ロック鳥,7,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+32,R576A.BIN,35,ロック鳥,8,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+33,R576A.BIN,35,ロック鳥,8,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+34,R576A.BIN,35,ロック鳥,8,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+35,R576A.BIN,35,ロック鳥,8,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+0,R577A.BIN,32,オビスポー,0,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+1,R577A.BIN,32,オビスポー,0,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+2,R577A.BIN,32,オビスポー,0,2,3,Rating,50,%,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+3,R577A.BIN,32,オビスポー,0,3,4,Previous T Type ID in Same Turn =,0,Attack,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+4,R577A.BIN,32,オビスポー,1,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+5,R577A.BIN,32,オビスポー,1,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+6,R577A.BIN,32,オビスポー,1,2,1,ES HP ≤,30,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+7,R577A.BIN,32,オビスポー,1,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+8,R577A.BIN,32,オビスポー,2,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+9,R577A.BIN,32,オビスポー,2,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+10,R577A.BIN,32,オビスポー,2,2,1,ES HP ≤,30,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+11,R577A.BIN,32,オビスポー,2,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+12,R577A.BIN,32,オビスポー,3,0,1,ES HP ≤,30,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+13,R577A.BIN,32,オビスポー,3,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+14,R577A.BIN,32,オビスポー,3,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R577A.BIN,32,オビスポー,3,3,1,ES HP ≤,30,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+16,R577A.BIN,32,オビスポー,4,0,1,ES HP ≤,30,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+17,R577A.BIN,32,オビスポー,4,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
+18,R577A.BIN,32,オビスポー,4,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+19,R577A.BIN,32,オビスポー,4,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+20,R577A.BIN,32,オビスポー,5,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+21,R577A.BIN,32,オビスポー,5,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+22,R577A.BIN,32,オビスポー,5,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+23,R577A.BIN,32,オビスポー,5,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+0,R578A.BIN,36,ヒュージエルモ,0,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+1,R578A.BIN,36,ヒュージエルモ,0,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+2,R578A.BIN,36,ヒュージエルモ,0,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+3,R578A.BIN,36,ヒュージエルモ,0,3,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+4,R578A.BIN,36,ヒュージエルモ,1,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+5,R578A.BIN,36,ヒュージエルモ,1,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+6,R578A.BIN,36,ヒュージエルモ,1,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+7,R578A.BIN,36,ヒュージエルモ,1,3,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+8,R578A.BIN,36,ヒュージエルモ,2,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+9,R578A.BIN,36,ヒュージエルモ,2,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+10,R578A.BIN,36,ヒュージエルモ,2,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+11,R578A.BIN,36,ヒュージエルモ,2,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+12,R578A.BIN,36,ヒュージエルモ,3,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+13,R578A.BIN,36,ヒュージエルモ,3,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+14,R578A.BIN,36,ヒュージエルモ,3,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R578A.BIN,36,ヒュージエルモ,3,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+16,R578A.BIN,36,ヒュージエルモ,4,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+17,R578A.BIN,36,ヒュージエルモ,4,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+18,R578A.BIN,36,ヒュージエルモ,4,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+19,R578A.BIN,36,ヒュージエルモ,4,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+0,R579A.BIN,37,アラーニャ,0,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+1,R579A.BIN,37,アラーニャ,0,1,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+2,R579A.BIN,37,アラーニャ,0,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+3,R579A.BIN,37,アラーニャ,0,3,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+4,R579A.BIN,37,アラーニャ,1,0,3,Rating,50,%,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+5,R579A.BIN,37,アラーニャ,1,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+6,R579A.BIN,37,アラーニャ,1,2,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+7,R579A.BIN,37,アラーニャ,1,3,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+8,R579A.BIN,37,アラーニャ,2,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+9,R579A.BIN,37,アラーニャ,2,1,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+10,R579A.BIN,37,アラーニャ,2,2,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+11,R579A.BIN,37,アラーニャ,2,3,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+12,R579A.BIN,37,アラーニャ,3,0,3,Rating,70,%,0,Attack,1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
+13,R579A.BIN,37,アラーニャ,3,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+14,R579A.BIN,37,アラーニャ,3,2,3,Rating,50,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+15,R579A.BIN,37,アラーニャ,3,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+16,R579A.BIN,37,アラーニャ,4,0,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+17,R579A.BIN,37,アラーニャ,4,1,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+18,R579A.BIN,37,アラーニャ,4,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+19,R579A.BIN,37,アラーニャ,4,3,3,Rating,30,%,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+20,R579A.BIN,37,アラーニャ,5,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+21,R579A.BIN,37,アラーニャ,5,1,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+22,R579A.BIN,37,アラーニャ,5,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+23,R579A.BIN,37,アラーニャ,5,3,3,Rating,50,%,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+24,R579A.BIN,37,アラーニャ,6,0,3,Rating,50,%,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+25,R579A.BIN,37,アラーニャ,6,1,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
+26,R579A.BIN,37,アラーニャ,6,2,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+27,R579A.BIN,37,アラーニャ,6,3,-1,None,0,None,4,Nothing,-1,2,Assessing Damage,0,4,Nothing,-1,2,Assessing Damage,0
+0,R580A.BIN,40,ガディアノス,0,0,-1,None,0,None,4,Nothing,-1,-1,None,0,4,Nothing,-1,-1,None,0
+1,R580A.BIN,40,ガディアノス,0,1,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+2,R580A.BIN,40,ガディアノス,0,2,3,Rating,30,%,4,Nothing,-1,-1,None,0,2,Focus,-1,-1,None,0
+3,R580A.BIN,40,ガディアノス,0,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+0,R581A.BIN,41,ガディタウス,0,0,-1,None,0,None,4,Nothing,-1,-1,None,0,4,Nothing,-1,-1,None,0
+1,R581A.BIN,41,ガディタウス,0,1,3,Rating,30,%,4,Nothing,-1,-1,None,0,2,Focus,-1,-1,None,0
+2,R581A.BIN,41,ガディタウス,0,2,3,Rating,70,%,4,Nothing,-1,-1,None,0,2,Focus,-1,-1,None,0
+3,R581A.BIN,41,ガディタウス,0,3,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+0,R582A.BIN,40,ガディアノス,0,0,0,PS HP ≤,-1,%,4,Nothing,-1,-1,None,0,4,Nothing,-1,-1,None,0
+1,R582A.BIN,40,ガディアノス,0,1,0,PS HP ≤,70,%,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
+2,R582A.BIN,40,ガディアノス,0,2,0,PS HP ≤,-1,%,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
+3,R582A.BIN,40,ガディアノス,0,3,0,PS HP ≤,-1,%,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+0,R583A.BIN,40,ガディアノス,0,0,0,PS HP ≤,-1,%,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
+1,R583A.BIN,40,ガディアノス,0,1,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+2,R583A.BIN,40,ガディアノス,0,2,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+3,R583A.BIN,40,ガディアノス,0,3,0,PS HP ≤,-1,%,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
