@@ -1,6 +1,6 @@
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2021 Marcel Renner
+# Copyright (C) 2022 Marcel Renner
 # 
 # This file is part of ALX.
 # 
@@ -91,19 +91,27 @@ module ALX
   end
   
   # Initializes and normalizes a range to an accurate begin and end value.
-  # @param _range [Range] Range
+  # @param _range [Integer,Range] Range
+  # @param _size  [Integer] Size if range is an integer
   # @return [Range] Range
-  def self.rng(_range)
-    unless _range.is_a?(Range)
-      raise(TypeError, sprintf('%s is not a range', _range.inspect))
+  def self.rng(_range, _size = 0x1)
+    if !_range.is_a?(Integer) && !_range.is_a?(Range)
+      _msg = '%s is not an integer nor a range'
+      raise(TypeError, sprintf(_msg, _range.inspect))
     end
 
-    if _range.size > 0
-      _min =  _range.begin ? _range.min : 0x0
-      _max = (_range.end   ? _range.max : 0xffffffff) + 0x1
-    else
-      _min = _range.begin
-      _max = _range.end
+    case _range
+    when Integer
+      _min = _range
+      _max = _range + _size
+    when Range
+      if _range.size > 0
+        _min =  _range.begin ? _range.min : 0x0
+        _max = (_range.end   ? _range.max : 0xffffffff) + 0x1
+      else
+        _min = _range.begin
+        _max = _range.end
+      end
     end
 
     Range.new(_min, _max, true)

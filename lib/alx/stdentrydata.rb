@@ -1,6 +1,6 @@
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2021 Marcel Renner
+# Copyright (C) 2022 Marcel Renner
 # 
 # This file is part of ALX.
 # 
@@ -219,11 +219,11 @@ class StdEntryData < EntryData
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @id_range.begin
       _descriptor = find_descriptor(@name_file, _filename)
-      _msgtbl     = _descriptor.msgtbl
+      _msgt       = _descriptor.msgt
       
       _descriptor.each do |_range|
         _f.pos = _range.begin
-        _split = (!_msgtbl || _range.end != _descriptor.end)
+        _split = (!_msgt || _range.end != _descriptor.end)
         
         (_last_id...@id_range.end).each do |_id|
           if _split && ( _f.eof? || !_descriptor.include?(_f.pos))
@@ -246,7 +246,7 @@ class StdEntryData < EntryData
           _size = _entry.fetch(VOC.name_size(_lang))
           _name = _entry.fetch(VOC.name_str(_lang))
       
-          if _msgtbl
+          if _msgt
             _msg = @msg_table[_msgid]
             if _msg
               _pos.int  = _msg.pos
@@ -260,7 +260,7 @@ class StdEntryData < EntryData
           _name.str = _f.read_str(blocks: 0x1, enc: 'Windows-1252')
           _size.int = _f.pos - _pos.int
 
-          if _msgtbl
+          if _msgt
             _msg               = Message.new
             _msg.pos           = _pos.int
             _msg.size          = _size.int
@@ -280,11 +280,11 @@ class StdEntryData < EntryData
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @id_range.begin
       _descriptor = find_descriptor(@dscr_file, _filename)
-      _msgtbl     = _descriptor.msgtbl
+      _msgt       = _descriptor.msgt
       
       _descriptor.each do |_range|
         _f.pos = _range.begin
-        _split = (!_msgtbl || _range.end != _descriptor.end)
+        _split = (!_msgt || _range.end != _descriptor.end)
         
         (_last_id...@id_range.end).each do |_id|
           if _split && ( _f.eof? || !_descriptor.include?(_f.pos))
@@ -307,7 +307,7 @@ class StdEntryData < EntryData
           _size = _entry.fetch(VOC.dscr_size(_lang))
           _dscr = _entry.fetch(VOC.dscr_str(_lang))
           
-          if _msgtbl
+          if _msgt
             _msg = @msg_table[_msgid]
             if _msg
               _pos.int  = _msg.pos
@@ -325,7 +325,7 @@ class StdEntryData < EntryData
           end
           _size.int = _f.pos - _pos.int
 
-          if _msgtbl
+          if _msgt
             _msg               = Message.new
             _msg.pos           = _pos.int
             _msg.size          = _size.int

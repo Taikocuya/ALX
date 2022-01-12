@@ -1,6 +1,6 @@
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2021 Marcel Renner
+# Copyright (C) 2022 Marcel Renner
 # 
 # This file is part of ALX.
 # 
@@ -196,12 +196,12 @@ class CacheFile
 
     @descriptors << _descriptor
     @descriptors.sort! do |_a, _b|
-      _comp = (_a.pool   <=> _b.pool  )
-      _comp = (_a.name   <=> _b.name  ) if _comp == 0
-      _comp = (_a.beg    <=> _b.beg   ) if _comp == 0
-      _comp = (_a.end    <=> _b.end   ) if _comp == 0
-      _comp = (_a.excl   <=> _b.excl  ) if _comp == 0
-      _comp = (_a.msgtbl <=> _b.msgtbl) if _comp == 0
+      _comp = (_a.pool <=> _b.pool)
+      _comp = (_a.name <=> _b.name) if _comp == 0
+      _comp = (_a.beg  <=> _b.beg ) if _comp == 0
+      _comp = (_a.end  <=> _b.end ) if _comp == 0
+      _comp = (_a.excl <=> _b.excl) if _comp == 0
+      _comp = (_a.msgt <=> _b.msgt) if _comp == 0
       _comp
     end
   end

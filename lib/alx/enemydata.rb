@@ -1,6 +1,6 @@
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2021 Marcel Renner
+# Copyright (C) 2022 Marcel Renner
 # 
 # This file is part of ALX.
 # 
@@ -217,7 +217,7 @@ class EnemyData < EntryData
     # BIN and EVP files
     save_evp_data(@evp_file)
     each_descriptor(@event_bgm_file) do |_d|
-      save_bin_bgm(glob(_d.name))
+      save_bin_bgms(glob(_d.name))
     end
 
     # ENP files
@@ -587,8 +587,7 @@ class EnemyData < EntryData
             next
           end
 
-          _entry = @events[_id]
-
+          _entry             = @events[_id]
           _entry[VOC.bgm_id] = _f.read_int(:i8)
         end
       end
@@ -633,7 +632,7 @@ class EnemyData < EntryData
 
   # Writes all BGM entries to a binary file.
   # @param _filename [String] File name
-  def save_bin_bgm(_filename)
+  def save_bin_bgms(_filename)
     LOG.info(sprintf(VOC.save, VOC.open_bgms, _filename))
 
     FileUtils.mkdir_p(File.dirname(_filename))

@@ -1,6 +1,6 @@
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2021 Marcel Renner
+# Copyright (C) 2022 Marcel Renner
 # 
 # This file is part of ALX.
 # 
@@ -42,16 +42,17 @@ class RangeDescriptor
   public
 
   # Constructs a RangeDescriptor.
-  # @param _name  [String]      Name
-  # @param _addr  [Array,Range] Offset range(s)
-  # @param excl   [Array]       Exclusion list
-  # @param msgtbl [Boolean]     Use message table
-  def initialize(_name = '', _addr = [], excl: [], msgtbl: false)
+  # @param _name [String]              Name
+  # @param _addr [Array,Integer,Range] Offset range(s)
+  # @param excl  [Array,Integer,Range] Exclusion list
+  # @param msgt  [Boolean]             Use message table
+  # @param size  [Integer]             Size if offset range is an integer
+  def initialize(_name = '', _addr = [], excl: [], msgt: false, size: 0x1)
     unless _name.is_a?(String)
       raise(TypeError, sprintf('%s is not a string', _name.inspect))
     end
-    if !_addr.is_a?(Array) && !_addr.is_a?(Range)
-      _msg = '%s is not an array nor a range'
+    if !_addr.is_a?(Array) && !_addr.is_a?(Range) && !_addr.is_a?(Range)
+      _msg = '%s is not an array, an integer nor a range'
       raise(TypeError, sprintf(_msg, _addr.inspect))
     end
     if !excl.is_a?(Array) && !excl.is_a?(Integer) && !excl.is_a?(Range)
@@ -66,14 +67,15 @@ class RangeDescriptor
       excl = [excl]
     end
     
-    @name   = _name
-    @addr   = []
-    @beg    = nil
-    @end    = nil
-    @min    = nil
-    @max    = nil
-    @excl   = []
-    @msgtbl = msgtbl
+    @name = _name
+    @addr = []
+    @beg  = nil
+    @end  = nil
+    @min  = nil
+    @max  = nil
+    @excl = []
+    @msgt = msgt
+    @size = size
 
     _addr.each do |_range|
       init_range(_range)
@@ -95,14 +97,14 @@ class RangeDescriptor
   def ==(_dscr)
     _result   = true
     _result &&= _dscr.is_a?(self.class)
-    _result &&= (@name   == _dscr.name  )
-    _result &&= (@addr   == _dscr.addr  )
-    _result &&= (@beg    == _dscr.beg   )
-    _result &&= (@end    == _dscr.end   )
-    _result &&= (@min    == _dscr.min   )
-    _result &&= (@max    == _dscr.max   )
-    _result &&= (@excl   == _dscr.excl  )
-    _result &&= (@msgtbl == _dscr.msgtbl)
+    _result &&= (@name == _dscr.name)
+    _result &&= (@addr == _dscr.addr)
+    _result &&= (@beg  == _dscr.beg )
+    _result &&= (@end  == _dscr.end )
+    _result &&= (@min  == _dscr.min )
+    _result &&= (@max  == _dscr.max )
+    _result &&= (@excl == _dscr.excl)
+    _result &&= (@msgt == _dscr.msgt)
     _result
   end
 
@@ -154,7 +156,7 @@ class RangeDescriptor
   attr_reader :min
   attr_reader :max
   attr_reader :excl
-  attr_reader :msgtbl
+  attr_reader :msgt
 
 #==============================================================================
 #                                   PRIVATE
@@ -163,13 +165,14 @@ class RangeDescriptor
   private
 
   # Initializes the offset range(s).
-  # @param _range [Range] Range
+  # @param _range [Integer,Range] Range
   def init_range(_range)
-    unless _range.is_a?(Range)
-      raise(TypeError, sprintf('%s is not a range', _range.inspect))
+    if !_range.is_a?(Integer) && !_range.is_a?(Range)
+      _msg = '%s is not an integer nor a range'
+      raise(TypeError, sprintf(_msg, _range.inspect))
     end
     
-    _range = ALX.rng(_range)
+    _range = ALX.rng(_range, @size)
     _beg   = _range.begin
     _end   = _range.end
     _min   = _range.min
