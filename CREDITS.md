@@ -8,6 +8,7 @@
 
 * [@Aditu_V](https://twitter.com/Aditu_V)
 * [@AresArcadia](https://twitter.com/AresArcadia)
+* [@Jahorta](https://github.com/jahorta)
 * [@ncktdl7](https://twitter.com/ncktdl7)
 * [@TheRealNoseguy](https://twitter.com/TheRealNoseguy)
 
@@ -36,4 +37,5 @@
 ## See Also
 
 * [@AresArcadia](https://twitter.com/AresArcadia)
+* [Skies of Arcadia Community Discord](https://discord.gg/wMnXkhu)
 * [Skies of Arcadia Wiki](https://skiesofarcadia.gamepedia.com/)
