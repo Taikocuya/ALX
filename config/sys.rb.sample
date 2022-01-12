@@ -1,6 +1,6 @@
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2021 Marcel Renner
+# Copyright (C) 2022 Marcel Renner
 # 
 # This file is part of ALX.
 # 
@@ -670,6 +670,47 @@ SYS.configure do |_s|
     'GC-EU-GEA'               => rd(_s.exec_file['GC'], 0x2c2ff0...0x2c3380),
     'GC-JP-GEA'               => rd(_s.exec_file['GC'], 0x2c0d58...0x2c10e8),
     'GC-US-GEA'               => rd(_s.exec_file['GC'], 0x2c1860...0x2c1bf0),
+  }
+
+  # Offset ranges of character boosts (actually only EXP) after the attack on 
+  # Crescent Isle.
+  _s.character_boost_files = {
+    'DC-EU-8320062 50'        => rd(
+      _s.exec_file['DC'], [0x335920, 0x33593c, 0x335958], excl: [0..2], size: 4
+    ),
+    'DC-EU-MK-51052-20001115' => rd(
+      _s.exec_file['DC'], [0x361a54, 0x361a70, 0x361a8c], excl: [0..2], size: 4
+    ),
+    'DC-EU-MK-51052-20010306' => rd(
+      _s.exec_file['DC'], [0x3338b4, 0x3338d0, 0x3338ec], excl: [0..2], size: 4
+    ),
+    'DC-JP-HDR-0076'          => rd(
+      _s.exec_file['DC'], [0x3328d8, 0x3328f4, 0x332910], excl: [0..2], size: 4
+    ),
+    'DC-JP-HDR-0119'          => rd(
+      _s.exec_file['DC'], [0x336ee0, 0x336efc, 0x336f18], excl: [0..2], size: 4
+    ),
+    'DC-US-IGN9'              => rd(
+      _s.exec_file['DC'], [0x332058, 0x332074, 0x332090], excl: [0..2], size: 4
+    ),
+    'DC-US-MK-51052-20000905' => rd(
+      _s.exec_file['DC'], [0x360710, 0x36072c, 0x360748], excl: [0..2], size: 4
+    ),
+    'DC-US-MK-51052-20000914' => rd(
+      _s.exec_file['DC'], [0x33125c, 0x331278, 0x331294], excl: [0..2], size: 4
+    ),
+    'DC-US-MK-51052-20001010' => rd(
+      _s.exec_file['DC'], [0x331358, 0x331374, 0x331390], excl: [0..2], size: 4
+    ),
+    'GC-EU-GEA'               => rd(
+      _s.exec_file['GC'], [0x2cffd0, 0x2cffec, 0x2d0008], excl: [0..2], size: 4
+    ),
+    'GC-JP-GEA'               => rd(
+      _s.exec_file['GC'], [0x2d1614, 0x2d1630, 0x2d164c], excl: [0..2], size: 4
+    ),
+    'GC-US-GEA'               => rd(
+      _s.exec_file['GC'], [0x2d1638, 0x2d1654, 0x2d1670], excl: [0..2], size: 4
+    ),
   }
 
 #------------------------------------------------------------------------------
@@ -3063,28 +3104,28 @@ SYS.configure do |_s|
       rd(_s.sot_file_gb['DC'], 0xd990...0xdc3b),
     ],
     'DC-JP-6107110 06'                  => rd(
-      _s.exec_file['DC'], 0x2b571c...0x2b5750, msgtbl: true
+      _s.exec_file['DC'], 0x2b571c...0x2b5750, msgt: true
     ),
     'DC-JP-6107810'                     => rd(
-      _s.exec_file['DC'], 0x2b4e6c...0x2b4ea0, msgtbl: true
+      _s.exec_file['DC'], 0x2b4e6c...0x2b4ea0, msgt: true
     ),
     'DC-JP-HDR-0076'                    => rd(
-      _s.exec_file['DC'], 0x34e0f0...0x34e2dc, msgtbl: true
+      _s.exec_file['DC'], 0x34e0f0...0x34e2dc, msgt: true
     ),
     'DC-JP-HDR-0119'                    => rd(
-      _s.exec_file['DC'], 0x3526f8...0x3528e4, msgtbl: true
+      _s.exec_file['DC'], 0x3526f8...0x3528e4, msgt: true
     ),
     'DC-US-IGN9'                        => rd(
-      _s.exec_file['DC'], 0x34679c...0x3467d4, msgtbl: true
+      _s.exec_file['DC'], 0x34679c...0x3467d4, msgt: true
      ),
     'DC-US-MK-51052-20000905'           => rd(
-      _s.exec_file['DC'], 0x37aeb8...0x37b098, msgtbl: true
+      _s.exec_file['DC'], 0x37aeb8...0x37b098, msgt: true
     ),
     'DC-US-MK-51052-20000914'           => rd(
-      _s.exec_file['DC'], 0x34befc...0x34c0dc, msgtbl: true
+      _s.exec_file['DC'], 0x34befc...0x34c0dc, msgt: true
     ),
     'DC-US-MK-51052-20001010'           => rd(
-      _s.exec_file['DC'], 0x34c034...0x34c210, msgtbl: true
+      _s.exec_file['DC'], 0x34c034...0x34c210, msgt: true
     ),
     'GC-EU-GEA'                         => [
       rd(_s.sot_file_de['GC'], 0x10c7c...0x10f00),
@@ -3093,10 +3134,10 @@ SYS.configure do |_s|
       rd(_s.sot_file_gb['GC'], 0x10580...0x1082b),
     ],
     'GC-JP-GEA'                         => rd(
-      _s.exec_file['GC'], 0x2b6158...0x2b6344, msgtbl: true
+      _s.exec_file['GC'], 0x2b6158...0x2b6344, msgt: true
     ),
     'GC-US-GEA'                         => rd(
-      _s.exec_file['GC'], 0x2b6554...0x2b6730, msgtbl: true
+      _s.exec_file['GC'], 0x2b6554...0x2b6730, msgt: true
     ),
   }
 

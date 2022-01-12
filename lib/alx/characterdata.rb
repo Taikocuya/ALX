@@ -1,6 +1,6 @@
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2021 Marcel Renner
+# Copyright (C) 2022 Marcel Renner
 # 
 # This file is part of ALX.
 # 
@@ -52,6 +52,7 @@ class CharacterData < StdEntryData
     self.data_file = sys(:character_data_files)
     self.csv_file  = join(SYS.character_csv_file)
     self.tpl_file  = File.join(SYS.build_dir, SYS.character_tpl_file)
+    @boost_file    = sys(:character_boost_files)
     
     if depend
       @weapon_data    = WeaponData.new
@@ -77,9 +78,101 @@ class CharacterData < StdEntryData
     @weapon_data&.load_bin
     @armor_data&.load_bin
     @accessory_data&.load_bin
-    super
+
+    unless super
+      return false
+    end
+
+    each_descriptor(@boost_file) do |_d|
+      load_bin_boosts(glob(_d.name))
+    end
   end
 
+  # Writes all entries to binary files.
+  # @return [Boolean] +true+ if writing was successful, otherwise +false+.
+  def save_bin
+    unless super
+      return false
+    end
+
+    each_descriptor(@boost_file) do |_d|
+      save_bin_boosts(glob(_d.name))
+    end
+  end
+
+#------------------------------------------------------------------------------
+# Public Member Variables
+#------------------------------------------------------------------------------
+
+  attr_accessor :boost_file
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initializes the cache descriptors.
+  def init_cache_descriptors
+    super
+    cache.add_descriptor(:bin, @boost_file)
+  end
+
+  # Reads all character boost entries from a binary file.
+  # @param _filename [String] File name
+  def load_bin_boosts(_filename)
+    LOG.info(sprintf(VOC.load, VOC.open_boosts, _filename))
+
+    BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
+      _last_id    = id_range.begin
+      _descriptor = find_descriptor(@boost_file, _filename)
+      
+      _descriptor.each do |_range|
+        _f.pos = _range.begin
+
+        (_last_id...id_range.end).each do |_id|
+          if _f.eof? || !_descriptor.include?(_f.pos)
+            _last_id = _id
+            break
+          end
+          unless id_valid?(_id, id_range, _descriptor)
+            next
+          end
+
+          _entry                = data[_id]
+          _entry[VOC.exp_boost] = _f.read_int(:u32)
+        end
+      end
+    end
+  end
+  
+  # Writes all character boost entries to a binary file.
+  # @param _filename [String] File name
+  def save_bin_boosts(_filename)
+    LOG.info(sprintf(VOC.save, VOC.open_boosts, _filename))
+
+    FileUtils.mkdir_p(File.dirname(_filename))
+    BinaryFile.open(_filename, 'r+b', endianness: endianness) do |_f|
+      _real_id    = id_range.begin
+      _descriptor = find_descriptor(@boost_file, _filename)
+      data.each do |_id, _entry|
+        unless id_valid?(_id, id_range, _descriptor)
+          next
+        end
+        
+        _f.pos = _descriptor.convert((_real_id - id_range.begin) * 0x4)
+        if !_descriptor.include?(_f.pos)
+          next
+        end
+
+        _boost = _entry[VOC.exp_boost]
+        _f.write_int(_boost, :u32)
+        
+        _real_id += 1
+      end
+    end
+  end
+  
 end # class CharacterData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

@@ -1,6 +1,6 @@
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2021 Marcel Renner
+# Copyright (C) 2022 Marcel Renner
 # 
 # This file is part of ALX.
 # 
@@ -57,6 +57,7 @@ VOC.configure do |_v|
   _v.not_matched     = 'not matched'
   _v.open_backup     = 'backup'
   _v.open_bgms       = 'BGMs'
+  _v.open_boosts     = 'boosts'
   _v.open_cache      = 'cache'
   _v.open_data       = 'data'
   _v.open_dscr       = 'descriptions'
@@ -111,6 +112,7 @@ VOC.configure do |_v|
   _v.agile_growth      = 'Agile Growth'
   _v.defense_growth    = 'Defense Growth'
   _v.dodge_growth      = 'Dodge% Growth'
+  _v.exp_boost         = 'EXP Boost'
   _v.magdef_growth     = 'MagDef Growth'
   _v.maxhp_growth      = 'MAXHP Growth'
   _v.maxsp_growth      = 'MAXSP Growth'
@@ -240,7 +242,7 @@ VOC.configure do |_v|
   _v.event_id   = '[Event ID]'
   _v.event_name = '[Event Name]'
   
-  _v.script_tasks                  = Hash.new('???')
+  _v.script_tasks                   = Hash.new('???')
   _v.script_tasks[[0x4000000,  17]] = 'Set Bit'
   _v.script_tasks[[0x4000000,  18]] = 'Unset Bit'
   _v.script_tasks[[0x4000000,  19]] = 'Invert Bit'
