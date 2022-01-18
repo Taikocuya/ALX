@@ -22,10 +22,8 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('armordata.rb')
-require_relative('accessorydata.rb')
-require_relative('character.rb')
-require_relative('weapondata.rb')
+require_relative('expboostdata.rb')
+require_relative('stdentrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,8 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle characters from binary and/or CSV files.
-class CharacterData < StdEntryData
+# Base class to export and/or import EXP boosts to and/or from CSV files.
+class ExpBoostTransform < StdEntryTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -44,43 +42,12 @@ class CharacterData < StdEntryData
 
   public
 
-  # Constructs a CharacterData.
-  # @param _depend [Boolean] Resolve dependencies
-  def initialize(_depend = true)
-    super(Character, _depend)
-    self.id_range  = sys(:character_id_range)
-    self.data_file = sys(:character_data_files)
-    self.csv_file  = join(SYS.character_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.character_tpl_file)
-
-    if depend
-      @weapon_data    = WeaponData.new
-      @armor_data     = ArmorData.new
-      @accessory_data = AccessoryData.new
-    end
+  # Constructs an ExpBoostTransform.
+  def initialize
+    super(ExpBoostData)
   end
 
-  # Creates an entry.
-  # @param _id [Integer] Entry ID
-  # @return [Entry] Entry object
-  def create_entry(_id = -1)
-    _entry             = super
-    _entry.weapons     = @weapon_data&.data
-    _entry.armors      = @armor_data&.data
-    _entry.accessories = @accessory_data&.data
-    _entry
-  end
-  
-  # Reads all entries from binary files.
-  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
-  def load_bin
-    @weapon_data&.load_bin
-    @armor_data&.load_bin
-    @accessory_data&.load_bin
-    super
-  end
-
-end # class CharacterData
+end # class ExpBoostTransform
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

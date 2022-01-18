@@ -210,6 +210,8 @@ SYS.configure do |_s|
   _s.enemy_super_move_csv_file     = "#{_s.data_dir}/enemysupermove.csv"
   # Path to CSV file of enemy tasks relative to +SYS.data_dir+.
   _s.enemy_task_csv_file           = "#{_s.data_dir}/enemytask.csv"
+  # Path to CSV file of EXP boost relative to +SYS.data_dir+.
+  _s.exp_boost_csv_file            = "#{_s.data_dir}/expboost.csv"
   # Path to CSV file of EXP curves relative to +SYS.data_dir+.
   _s.exp_curve_csv_file            = "#{_s.data_dir}/expcurve.csv"
   # Path to CSV file of magic EXP curves relative to +SYS.data_dir+.
@@ -276,6 +278,8 @@ SYS.configure do |_s|
   _s.enemy_super_move_tpl_file     = 'enemysupermove.tpl.csv'
   # Path to TPL file of enemy tasks relative to +SYS.build_dir+.
   _s.enemy_task_tpl_file           = 'enemytask.tpl.csv'
+  # Path to TPL file of EXP boost relative to +SYS.build_dir+.
+  _s.exp_boost_tpl_file            = 'expboost.tpl.csv'
   # Path to TPL file of EXP curves relative to +SYS.build_dir+.
   _s.exp_curve_tpl_file            = 'expcurve.tpl.csv'
   # Path to TPL file of magic EXP curves relative to +SYS.build_dir+.
@@ -670,47 +674,6 @@ SYS.configure do |_s|
     'GC-EU-GEA'               => rd(_s.exec_file['GC'], 0x2c2ff0...0x2c3380),
     'GC-JP-GEA'               => rd(_s.exec_file['GC'], 0x2c0d58...0x2c10e8),
     'GC-US-GEA'               => rd(_s.exec_file['GC'], 0x2c1860...0x2c1bf0),
-  }
-
-  # Offset ranges of character boosts (actually only EXP) after the attack on 
-  # Crescent Isle.
-  _s.character_boost_files = {
-    'DC-EU-8320062 50'        => rd(
-      _s.exec_file['DC'], [0x335920, 0x33593c, 0x335958], excl: [0..2], size: 4
-    ),
-    'DC-EU-MK-51052-20001115' => rd(
-      _s.exec_file['DC'], [0x361a54, 0x361a70, 0x361a8c], excl: [0..2], size: 4
-    ),
-    'DC-EU-MK-51052-20010306' => rd(
-      _s.exec_file['DC'], [0x3338b4, 0x3338d0, 0x3338ec], excl: [0..2], size: 4
-    ),
-    'DC-JP-HDR-0076'          => rd(
-      _s.exec_file['DC'], [0x3328d8, 0x3328f4, 0x332910], excl: [0..2], size: 4
-    ),
-    'DC-JP-HDR-0119'          => rd(
-      _s.exec_file['DC'], [0x336ee0, 0x336efc, 0x336f18], excl: [0..2], size: 4
-    ),
-    'DC-US-IGN9'              => rd(
-      _s.exec_file['DC'], [0x332058, 0x332074, 0x332090], excl: [0..2], size: 4
-    ),
-    'DC-US-MK-51052-20000905' => rd(
-      _s.exec_file['DC'], [0x360710, 0x36072c, 0x360748], excl: [0..2], size: 4
-    ),
-    'DC-US-MK-51052-20000914' => rd(
-      _s.exec_file['DC'], [0x33125c, 0x331278, 0x331294], excl: [0..2], size: 4
-    ),
-    'DC-US-MK-51052-20001010' => rd(
-      _s.exec_file['DC'], [0x331358, 0x331374, 0x331390], excl: [0..2], size: 4
-    ),
-    'GC-EU-GEA'               => rd(
-      _s.exec_file['GC'], [0x2cffd0, 0x2cffec, 0x2d0008], excl: [0..2], size: 4
-    ),
-    'GC-JP-GEA'               => rd(
-      _s.exec_file['GC'], [0x2d1614, 0x2d1630, 0x2d164c], excl: [0..2], size: 4
-    ),
-    'GC-US-GEA'               => rd(
-      _s.exec_file['GC'], [0x2d1638, 0x2d1654, 0x2d1670], excl: [0..2], size: 4
-    ),
   }
 
 #------------------------------------------------------------------------------
@@ -2605,6 +2568,29 @@ SYS.configure do |_s|
     '*'                => 64,
     'DC-JP-6107110 06' => 32,
     'DC-JP-6107810'    => 32,
+  }
+
+#------------------------------------------------------------------------------
+# EXP Boost Data
+#------------------------------------------------------------------------------
+
+  # Range of EXP boost IDs
+  _s.exp_boost_id_range = 0x3...0x6
+
+  # Offset ranges of EXP boost data
+  _s.exp_boost_data_files = {
+    'DC-EU-8320062 50'        => rd(_s.exec_file['DC'], 0x335920...0x335974),
+    'DC-EU-MK-51052-20001115' => rd(_s.exec_file['DC'], 0x361a54...0x361aa8),
+    'DC-EU-MK-51052-20010306' => rd(_s.exec_file['DC'], 0x3338b4...0x333908),
+    'DC-JP-HDR-0076'          => rd(_s.exec_file['DC'], 0x3328d8...0x33292c),
+    'DC-JP-HDR-0119'          => rd(_s.exec_file['DC'], 0x336ee0...0x336f34),
+    'DC-US-IGN9'              => rd(_s.exec_file['DC'], 0x332058...0x3320ac),
+    'DC-US-MK-51052-20000905' => rd(_s.exec_file['DC'], 0x360710...0x360764),
+    'DC-US-MK-51052-20000914' => rd(_s.exec_file['DC'], 0x33125c...0x3312b0),
+    'DC-US-MK-51052-20001010' => rd(_s.exec_file['DC'], 0x331358...0x3313ac),
+    'GC-EU-GEA'               => rd(_s.exec_file['GC'], 0x2cffd0...0x2d0024),
+    'GC-JP-GEA'               => rd(_s.exec_file['GC'], 0x2d1614...0x2d1668),
+    'GC-US-GEA'               => rd(_s.exec_file['GC'], 0x2d1638...0x2d168c),
   }
 
 #------------------------------------------------------------------------------

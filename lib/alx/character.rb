@@ -146,10 +146,6 @@ class Character < StdEntry
     self[VOC.blue_exp(nil)  ] = IntProp.new(:i32,   0         )
     self[VOC.yellow_exp(nil)] = IntProp.new(:i32,   0         )
     self[VOC.silver_exp(nil)] = IntProp.new(:i32,   0         )
-
-    if product_id != '6107110 06' && product_id != '6107810'
-      self[VOC.exp_boost] = IntProp.new(:u32, 0, ext: true)
-    end
   end
   
   # Initialize the entry procs.

@@ -9,7 +9,8 @@ the game data of Skies of Arcadia, Skies of Arcadia Legends, Eternal Arcadia
 ## Features
 
 * Character Skills (Super Moves and Magic)
-* Character Stats (EXP Curves, Magic EXP Curves, Parameters and Spirit Curves)
+* Character Stats (EXP Boosts, EXP Curves, Magic EXP Curves, Parameters and 
+  Spirit Curves)
 * Crew Members
 * Defined Strings (Detector for Shift_JIS and Windows-1252 Strings)
 * Enemy Ship Stats (Action Patterns and Parameters)

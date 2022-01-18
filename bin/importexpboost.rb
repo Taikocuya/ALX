@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
 # Copyright (C) 2022 Marcel Renner
@@ -22,10 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('armordata.rb')
-require_relative('accessorydata.rb')
-require_relative('character.rb')
-require_relative('weapondata.rb')
+require_relative('../lib/alx/expboosttransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,8 +33,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle characters from binary and/or CSV files.
-class CharacterData < StdEntryData
+# Class to import EXP boosts from CSV files.
+class ExpBoostImporter < ExpBoostTransform
 
 #==============================================================================
 #                                   PUBLIC
@@ -44,44 +42,30 @@ class CharacterData < StdEntryData
 
   public
 
-  # Constructs a CharacterData.
-  # @param _depend [Boolean] Resolve dependencies
-  def initialize(_depend = true)
-    super(Character, _depend)
-    self.id_range  = sys(:character_id_range)
-    self.data_file = sys(:character_data_files)
-    self.csv_file  = join(SYS.character_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.character_tpl_file)
+  def valid?
+    _result   = super
+    _result &&= has_file?(Root.dirname, SYS.exp_boost_csv_file)
+    _result
+  end
 
-    if depend
-      @weapon_data    = WeaponData.new
-      @armor_data     = ArmorData.new
-      @accessory_data = AccessoryData.new
+  def update
+    super
+    if Worker.child?
+      transform_csv_to_bin
     end
   end
 
-  # Creates an entry.
-  # @param _id [Integer] Entry ID
-  # @return [Entry] Entry object
-  def create_entry(_id = -1)
-    _entry             = super
-    _entry.weapons     = @weapon_data&.data
-    _entry.armors      = @armor_data&.data
-    _entry.accessories = @accessory_data&.data
-    _entry
-  end
-  
-  # Reads all entries from binary files.
-  # @return [Boolean] +true+ if reading was successful, otherwise +false+.
-  def load_bin
-    @weapon_data&.load_bin
-    @armor_data&.load_bin
-    @accessory_data&.load_bin
-    super
-  end
-
-end # class CharacterData
+end	# class ExpBoostImporter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end # module ALX
+end	# module ALX
+
+# -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+
+if __FILE__ == $0 || Object.const_defined?('ALX::Importer')
+  ALX::Main.call do
+    _importer = ALX::ExpBoostImporter.new
+    _importer.exec
+  end
+end

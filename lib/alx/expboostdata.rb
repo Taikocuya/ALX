@@ -22,10 +22,9 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('armordata.rb')
-require_relative('accessorydata.rb')
-require_relative('character.rb')
-require_relative('weapondata.rb')
+require_relative('characterdata.rb')
+require_relative('expboost.rb')
+require_relative('stdentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -35,8 +34,8 @@ module ALX
 #                                    CLASS
 #==============================================================================
 
-# Class to handle characters from binary and/or CSV files.
-class CharacterData < StdEntryData
+# Class to handle EXP boosts from binary and/or CSV files.
+class ExpBoostData < StdEntryData
 
 #==============================================================================
 #                                   PUBLIC
@@ -44,19 +43,17 @@ class CharacterData < StdEntryData
 
   public
 
-  # Constructs a CharacterData.
+  # Constructs an ExpBoostData.
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
-    super(Character, _depend)
-    self.id_range  = sys(:character_id_range)
-    self.data_file = sys(:character_data_files)
-    self.csv_file  = join(SYS.character_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.character_tpl_file)
-
+    super(ExpBoost, _depend)
+    self.id_range  = sys(:exp_boost_id_range)
+    self.data_file = sys(:exp_boost_data_files)
+    self.csv_file  = join(SYS.exp_boost_csv_file)
+    self.tpl_file  = File.join(SYS.build_dir, SYS.exp_boost_tpl_file)
+        
     if depend
-      @weapon_data    = WeaponData.new
-      @armor_data     = ArmorData.new
-      @accessory_data = AccessoryData.new
+      @character_data = CharacterData.new
     end
   end
 
@@ -64,23 +61,19 @@ class CharacterData < StdEntryData
   # @param _id [Integer] Entry ID
   # @return [Entry] Entry object
   def create_entry(_id = -1)
-    _entry             = super
-    _entry.weapons     = @weapon_data&.data
-    _entry.armors      = @armor_data&.data
-    _entry.accessories = @accessory_data&.data
+    _entry            = super
+    _entry.characters = @character_data&.data
     _entry
   end
   
   # Reads all entries from binary files.
   # @return [Boolean] +true+ if reading was successful, otherwise +false+.
   def load_bin
-    @weapon_data&.load_bin
-    @armor_data&.load_bin
-    @accessory_data&.load_bin
+    @character_data&.load_bin
     super
   end
 
-end # class CharacterData
+end # class ExpBoostData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
