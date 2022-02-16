@@ -489,8 +489,9 @@ VOC.configure do |_v|
   _v.traits[77] = 'Recover SP'
   _v.traits[78] = 'Regenerate'
   _v.traits[79] = 'Block Neg States'
-  _v.traits[80] = 'First Strike%'
+  _v.traits[80] = 'PC 1st Strike%'
   _v.traits[81] = 'PC Run%'
+  _v.traits[82] = 'EC 1st Strike%'
   _v.traits[83] = 'EC Run%'
   _v.traits[84] = 'Random Encounter%'
   

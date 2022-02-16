@@ -36,7 +36,7 @@ Entry ID,Entry US Name,PC Flags,[V],[A],[F],[D],[E],[G],Sell%,US Order 1,US Orde
 194,Skull Cap,0b00111111,X,X,X,X,X,X,50,40,41,0,4300,16,Attack,0,24,1,Will,0,24,-1,None,0,0,-1,None,0,0,0x364bd8,84,A unique hat sometimes worn by Eastern Air\nPirates. Improves Attack Power & Will.
 195,Mage's Bane,0b00111111,X,X,X,X,X,X,50,33,28,0,480,17,Defense,0,4,18,MagDef,0,4,16,Attack,0,4,1,Will,0,4,0x364c2c,52,A helm that increases the wearer's Attacks\nDefense
 196,Blue Rogue Patch,0b00111111,X,X,X,X,X,X,50,41,0,0,6820,17,Defense,0,18,18,MagDef,0,18,16,Attack,0,18,1,Will,0,18,0x364c60,52,Can be worn to show determination. Improves\nAttacks
-197,Assassin Ring,0b00111111,X,X,X,X,X,X,50,36,2,0,3200,80,First Strike%,0,40,19,Hit%,0,40,-1,None,0,0,-1,None,0,0,0x364c94,60,A ring crafted in Nasr. Improves chances for\na First Strike
+197,Assassin Ring,0b00111111,X,X,X,X,X,X,50,36,2,0,3200,80,PC 1st Strike%,0,40,19,Hit%,0,40,-1,None,0,0,-1,None,0,0,0x364c94,60,A ring crafted in Nasr. Improves chances for\na First Strike
 198,Stealth Ring,0b00111111,X,X,X,X,X,X,50,37,31,0,3000,81,PC Run%,0,100,4,Quick,0,10,20,Dodge%,0,10,-1,None,0,0,0x364cd0,56,A ring that improves Agile and Dodge%. In\nmost cases
 199,Dhabu Hide,0b00111111,X,X,X,X,X,X,50,38,21,0,2800,4,Quick,0,50,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x364d08,44,A folded piece of cured Dhabu hide\narmor.
 200,Ominous Mask,0b00100101,X,"","",X,"",X,50,42,45,0,4760,68,Reduce SP,0,1,16,Attack,0,75,17,Defense,0,75,-1,None,0,0,0x364d34,88,Gives a large boost to Attack Power and Defense\nbut reduces the party's Spirit to zero.
@@ -49,8 +49,8 @@ Entry ID,Entry US Name,PC Flags,[V],[A],[F],[D],[E],[G],Sell%,US Order 1,US Orde
 207,Gem of Purity,0b00000101,"","","",X,"",X,50,49,8,0,300,79,Block Neg States,0,-3,17,Defense,0,8,-1,None,0,0,-1,None,0,0,0x364ee8,92,An enchanted gem that protects the bearer.\nBoosts Defense & Resistance to Adverse Effects.
 208,Shard of Purity,0b00000101,"","","",X,"",X,50,51,38,0,4760,79,Block Neg States,0,-9,17,Defense,0,38,-1,None,0,0,-1,None,0,0,0x364f44,72,An enchanted Moon Shard that protects the wearer\nfrom Adverse Effects
 209,Fortune Ring,0b00011000,"",X,X,"","","",50,16,20,0,2860,20,Dodge%,0,100,17,Defense,0,8,-1,None,0,0,-1,None,0,0,0x364f8c,92,A mysterious ring that allows the wearer to\navoid most normal Attacks. Improves Defense.
-210,Berserker Ring,0b00100000,X,"","","","","",100,56,51,0,777,84,Random Encounter%,0,100,80,First Strike%,0,25,82,???,0,0,83,EC Run%,0,0,0x364fe8,88,A mystic force that attracts enemy creatures.\nAlso improves chances for First Strike.
-211,Phantom Ring,0b00100000,X,"","","","","",100,57,56,0,666,84,Random Encounter%,0,5,80,First Strike%,0,0,82,???,0,0,81,PC Run%,0,100,0x365040,84,A mystic force that repels enemy creatures.\nAlso improves chances of running away.
+210,Berserker Ring,0b00100000,X,"","","","","",100,56,51,0,777,84,Random Encounter%,0,100,80,PC 1st Strike%,0,25,82,EC 1st Strike%,0,0,83,EC Run%,0,0,0x364fe8,88,A mystic force that attracts enemy creatures.\nAlso improves chances for First Strike.
+211,Phantom Ring,0b00100000,X,"","","","","",100,57,56,0,666,84,Random Encounter%,0,5,80,PC 1st Strike%,0,0,82,EC 1st Strike%,0,0,81,PC Run%,0,100,0x365040,84,A mystic force that repels enemy creatures.\nAlso improves chances of running away.
 212,Captain's Hat,0b00100000,X,"","","","","",100,61,17,0,10,16,Attack,0,80,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x365094,72,A hat given to Vyse by the Delphinus' crew. \nIt improves Attack Power.
 213,Mesh Tights,0b00010000,"",X,"","","","",100,62,3,0,10,16,Attack,0,40,1,Will,0,40,-1,None,0,0,-1,None,0,0,0x3650dc,80,Given to Aika by a secret admirer. Magic Cloth.\nImproves Attack Power and Will.
 214,Black Eyepatch,0b00100101,X,"","",X,"",X,100,52,22,0,10,16,Attack,0,7,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x36512c,80,Drachma's old leather eyepatch\nhide of a wild beast. Increases Attack Power.
