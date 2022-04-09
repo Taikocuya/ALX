@@ -38,7 +38,7 @@ Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Pa
 0,R523A.BIN,32,オビスポー,0,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
 1,R523A.BIN,32,オビスポー,0,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 2,R523A.BIN,32,オビスポー,0,2,3,Rating,50,%,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-3,R523A.BIN,32,オビスポー,0,3,4,Prev Task Type in Same Turn =,0,Attack,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+3,R523A.BIN,32,オビスポー,0,3,4,ES Previous Task Type =,0,Attack,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
 4,R523A.BIN,32,オビスポー,1,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
 5,R523A.BIN,32,オビスポー,1,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 6,R523A.BIN,32,オビスポー,1,2,1,ES HP ≤,30,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
@@ -284,7 +284,7 @@ Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Pa
 10,R538A.BIN,31,ラージャエンブラ,2,2,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
 11,R538A.BIN,31,ラージャエンブラ,2,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 12,R538A.BIN,31,ラージャエンブラ,3,0,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
-13,R538A.BIN,31,ラージャエンブラ,3,1,5,Prev Task Type w/ Last Turn =,0,Attack,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
+13,R538A.BIN,31,ラージャエンブラ,3,1,5,PS Current Task Type =,0,Attack,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
 14,R538A.BIN,31,ラージャエンブラ,3,2,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,2,Focus,-1,2,Preparing Attack,0
 15,R538A.BIN,31,ラージャエンブラ,3,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 16,R538A.BIN,31,ラージャエンブラ,4,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
@@ -375,7 +375,7 @@ Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Pa
 17,R543A.BIN,5,バルアЖ戦艦,4,1,3,Rating,50,%,0,Attack,1,-1,None,0,2,Focus,-1,0,Focus,0
 18,R543A.BIN,5,バルアЖ戦艦,4,2,3,Rating,50,%,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
 19,R543A.BIN,5,バルアЖ戦艦,4,3,-1,None,0,None,1,Magic,-1,27,グラシィ,0,-1,None,-1,-1,None,0
-0,R544A.BIN,8,ガルシアン親衛艦,0,0,5,Prev Task Type w/ Last Turn =,0,Attack,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
+0,R544A.BIN,8,ガルシアン親衛艦,0,0,5,PS Current Task Type =,0,Attack,4,Nothing,-1,0,Awaiting Orders,0,2,Focus,-1,0,Focus,0
 1,R544A.BIN,8,ガルシアン親衛艦,0,1,3,Rating,90,%,0,Attack,0,-1,None,0,0,Attack,1,0,None,2
 2,R544A.BIN,8,ガルシアン親衛艦,0,2,3,Rating,30,%,0,Attack,1,-1,None,1,0,Attack,0,-1,None,0
 3,R544A.BIN,8,ガルシアン親衛艦,0,3,3,Rating,60,%,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
@@ -386,11 +386,11 @@ Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Pa
 8,R544A.BIN,8,ガルシアン親衛艦,2,0,3,Rating,50,%,0,Attack,2,-1,None,2,2,Focus,-1,0,Focus,0
 9,R544A.BIN,8,ガルシアン親衛艦,2,1,-1,None,0,None,0,Attack,0,-1,None,0,4,Nothing,-1,0,Awaiting Orders,0
 10,R544A.BIN,8,ガルシアン親衛艦,2,2,-1,None,0,None,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
-11,R544A.BIN,8,ガルシアン親衛艦,2,3,5,Prev Task Type w/ Last Turn =,0,Attack,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+11,R544A.BIN,8,ガルシアン親衛艦,2,3,5,PS Current Task Type =,0,Attack,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
 12,R544A.BIN,8,ガルシアン親衛艦,3,0,-1,None,0,None,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
 13,R544A.BIN,8,ガルシアン親衛艦,3,1,3,Rating,80,%,2,Focus,-1,0,Focus,0,0,Attack,0,-1,None,0
 14,R544A.BIN,8,ガルシアン親衛艦,3,2,3,Rating,30,%,2,Focus,-1,0,Focus,0,4,Nothing,-1,0,Awaiting Orders,0
-15,R544A.BIN,8,ガルシアン親衛艦,3,3,5,Prev Task Type w/ Last Turn =,0,Attack,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
+15,R544A.BIN,8,ガルシアン親衛艦,3,3,5,PS Current Task Type =,0,Attack,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
 16,R544A.BIN,8,ガルシアン親衛艦,4,0,3,Rating,50,%,0,Attack,2,-1,None,2,4,Nothing,-1,0,Awaiting Orders,0
 17,R544A.BIN,8,ガルシアン親衛艦,4,1,3,Rating,50,%,4,Nothing,-1,0,Awaiting Orders,0,0,Attack,0,-1,None,0
 18,R544A.BIN,8,ガルシアン親衛艦,4,2,3,Rating,50,%,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
@@ -398,10 +398,10 @@ Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Pa
 0,R545A.BIN,18,ヒュドラ,0,0,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
 1,R545A.BIN,18,ヒュドラ,0,1,-1,None,0,None,0,Attack,1,-1,None,1,0,Attack,1,-1,None,1
 2,R545A.BIN,18,ヒュドラ,0,2,3,Rating,50,%,0,Attack,2,-1,None,0,2,Focus,-1,-1,None,0
-3,R545A.BIN,18,ヒュドラ,0,3,4,Prev Task Type in Same Turn =,0,Attack,2,Focus,-1,-1,None,0,0,Attack,2,-1,None,0
+3,R545A.BIN,18,ヒュドラ,0,3,4,ES Previous Task Type =,0,Attack,2,Focus,-1,-1,None,0,0,Attack,2,-1,None,0
 4,R545A.BIN,18,ヒュドラ,1,0,3,Rating,80,%,3,Guard,-1,-1,None,0,0,Attack,1,-1,None,1
 5,R545A.BIN,18,ヒュドラ,1,1,3,Rating,20,%,0,Attack,2,-1,None,1,2,Focus,-1,-1,None,0
-6,R545A.BIN,18,ヒュドラ,1,2,4,Prev Task Type in Same Turn =,0,Attack,3,Guard,-1,-1,None,0,0,Attack,2,-1,None,1
+6,R545A.BIN,18,ヒュドラ,1,2,4,ES Previous Task Type =,0,Attack,3,Guard,-1,-1,None,0,0,Attack,2,-1,None,1
 7,R545A.BIN,18,ヒュドラ,1,3,1,ES HP ≤,50,%,1,Magic,-1,7,サプリィ,0,2,Focus,-1,-1,None,0
 8,R545A.BIN,18,ヒュドラ,2,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 9,R545A.BIN,18,ヒュドラ,2,1,3,Rating,60,%,0,Attack,2,-1,None,1,3,Guard,-1,-1,None,0
@@ -412,20 +412,20 @@ Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Pa
 14,R545A.BIN,18,ヒュドラ,3,2,-1,None,0,None,1,Magic,-1,7,サプリィ,0,1,Magic,-1,7,サプリィ,0
 15,R545A.BIN,18,ヒュドラ,3,3,1,ES HP ≤,30,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
 16,R545A.BIN,18,ヒュドラ,4,0,-1,None,0,None,0,Attack,1,-1,None,1,2,Focus,-1,-1,None,0
-17,R545A.BIN,18,ヒュドラ,4,1,4,Prev Task Type in Same Turn =,0,Attack,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,1
+17,R545A.BIN,18,ヒュドラ,4,1,4,ES Previous Task Type =,0,Attack,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,1
 18,R545A.BIN,18,ヒュドラ,4,2,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
 19,R545A.BIN,18,ヒュドラ,4,3,3,Rating,50,%,0,Attack,0,-1,None,0,1,Magic,-1,7,サプリィ,0
 20,R545A.BIN,18,ヒュドラ,5,0,-1,None,0,None,3,Guard,-1,-1,None,0,3,Guard,-1,-1,None,0
 21,R545A.BIN,18,ヒュドラ,5,1,0,PS HP ≤,70,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,1
 22,R545A.BIN,18,ヒュドラ,5,2,-1,None,0,None,2,Focus,-1,-1,None,0,2,Focus,-1,-1,None,0
 23,R545A.BIN,18,ヒュドラ,5,3,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
-24,R545A.BIN,18,ヒュドラ,6,0,5,Prev Task Type w/ Last Turn =,50,???,3,Guard,-1,-1,None,0,0,Attack,1,-1,None,1
-25,R545A.BIN,18,ヒュドラ,6,1,4,Prev Task Type in Same Turn =,0,Attack,3,Guard,-1,-1,None,0,0,Attack,1,-1,None,0
+24,R545A.BIN,18,ヒュドラ,6,0,5,PS Current Task Type =,50,???,3,Guard,-1,-1,None,0,0,Attack,1,-1,None,1
+25,R545A.BIN,18,ヒュドラ,6,1,4,ES Previous Task Type =,0,Attack,3,Guard,-1,-1,None,0,0,Attack,1,-1,None,0
 26,R545A.BIN,18,ヒュドラ,6,2,3,Rating,50,%,0,Attack,2,-1,None,1,2,Focus,-1,-1,None,0
 27,R545A.BIN,18,ヒュドラ,6,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 28,R545A.BIN,18,ヒュドラ,7,0,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,3,-1,None,0
 29,R545A.BIN,18,ヒュドラ,7,1,3,Rating,20,%,0,Attack,2,-1,None,1,2,Focus,-1,-1,None,0
-30,R545A.BIN,18,ヒュドラ,7,2,4,Prev Task Type in Same Turn =,0,Attack,2,Focus,-1,-1,None,0,0,Attack,2,-1,None,1
+30,R545A.BIN,18,ヒュドラ,7,2,4,ES Previous Task Type =,0,Attack,2,Focus,-1,-1,None,0,0,Attack,2,-1,None,1
 31,R545A.BIN,18,ヒュドラ,7,3,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,1,-1,None,0
 32,R545A.BIN,18,ヒュドラ,8,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 33,R545A.BIN,18,ヒュドラ,8,1,3,Rating,60,%,0,Attack,2,-1,None,1,3,Guard,-1,-1,None,0
@@ -508,8 +508,8 @@ Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Pa
 74,R547A.BIN,28,ジェロス,18,2,3,Rating,50,%,1,Magic,-1,30,バーノーン,0,1,Magic,-1,35,ボルドーラ,0
 75,R547A.BIN,28,ジェロス,18,3,-1,None,0,None,0,Attack,2,-1,None,0,0,Attack,0,-1,None,0
 0,R550A.BIN,21,黒空賊船,0,0,3,Rating,80,%,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
-1,R550A.BIN,21,黒空賊船,0,1,4,Prev Task Type in Same Turn =,2,Focus,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
-2,R550A.BIN,21,黒空賊船,0,2,4,Prev Task Type in Same Turn =,2,Focus,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+1,R550A.BIN,21,黒空賊船,0,1,4,ES Previous Task Type =,2,Focus,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
+2,R550A.BIN,21,黒空賊船,0,2,4,ES Previous Task Type =,2,Focus,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
 3,R550A.BIN,21,黒空賊船,0,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
 4,R550A.BIN,21,黒空賊船,1,0,3,Rating,70,%,0,Attack,1,0,None,3,3,Guard,-1,0,Evasive Action,0
 5,R550A.BIN,21,黒空賊船,1,1,3,Rating,80,%,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
@@ -524,8 +524,8 @@ Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Pa
 14,R550A.BIN,21,黒空賊船,3,2,3,Rating,80,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
 15,R550A.BIN,21,黒空賊船,3,3,3,Rating,80,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
 0,R551A.BIN,21,黒空賊船,0,0,3,Rating,80,%,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
-1,R551A.BIN,21,黒空賊船,0,1,4,Prev Task Type in Same Turn =,2,Focus,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
-2,R551A.BIN,21,黒空賊船,0,2,4,Prev Task Type in Same Turn =,2,Focus,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+1,R551A.BIN,21,黒空賊船,0,1,4,ES Previous Task Type =,2,Focus,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
+2,R551A.BIN,21,黒空賊船,0,2,4,ES Previous Task Type =,2,Focus,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
 3,R551A.BIN,21,黒空賊船,0,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
 4,R551A.BIN,21,黒空賊船,1,0,3,Rating,70,%,0,Attack,1,0,None,3,3,Guard,-1,0,Evasive Action,0
 5,R551A.BIN,21,黒空賊船,1,1,3,Rating,80,%,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
@@ -540,8 +540,8 @@ Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Pa
 14,R551A.BIN,21,黒空賊船,3,2,3,Rating,80,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
 15,R551A.BIN,21,黒空賊船,3,3,3,Rating,80,%,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
 0,R552A.BIN,21,黒空賊船,0,0,3,Rating,80,%,0,Attack,1,-1,None,3,2,Focus,-1,0,Focus,0
-1,R552A.BIN,21,黒空賊船,0,1,4,Prev Task Type in Same Turn =,2,Focus,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
-2,R552A.BIN,21,黒空賊船,0,2,4,Prev Task Type in Same Turn =,2,Focus,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
+1,R552A.BIN,21,黒空賊船,0,1,4,ES Previous Task Type =,2,Focus,0,Attack,1,-1,None,1,2,Focus,-1,0,Focus,0
+2,R552A.BIN,21,黒空賊船,0,2,4,ES Previous Task Type =,2,Focus,0,Attack,0,-1,None,0,3,Guard,-1,0,Evasive Action,0
 3,R552A.BIN,21,黒空賊船,0,3,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
 4,R552A.BIN,21,黒空賊船,1,0,3,Rating,70,%,0,Attack,1,0,None,3,3,Guard,-1,0,Evasive Action,0
 5,R552A.BIN,21,黒空賊船,1,1,3,Rating,80,%,0,Attack,1,-1,None,2,0,Attack,0,-1,None,0
@@ -618,7 +618,7 @@ Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Pa
 0,R565A.BIN,22,Ж黒空賊船,0,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
 1,R565A.BIN,22,Ж黒空賊船,0,1,3,Rating,20,%,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
 2,R565A.BIN,22,Ж黒空賊船,0,2,3,Rating,80,%,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-3,R565A.BIN,22,Ж黒空賊船,0,3,4,Prev Task Type in Same Turn =,2,Focus,1,Magic,-1,6,サプラ,0,0,Attack,0,-1,None,0
+3,R565A.BIN,22,Ж黒空賊船,0,3,4,ES Previous Task Type =,2,Focus,1,Magic,-1,6,サプラ,0,0,Attack,0,-1,None,0
 4,R565A.BIN,22,Ж黒空賊船,1,0,3,Rating,70,%,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
 5,R565A.BIN,22,Ж黒空賊船,1,1,3,Rating,85,%,1,Magic,0,25,バーネス,0,1,Magic,-1,6,サプラ,0
 6,R565A.BIN,22,Ж黒空賊船,1,2,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
@@ -674,7 +674,7 @@ Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Pa
 0,R568A.BIN,22,Ж黒空賊船,0,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
 1,R568A.BIN,22,Ж黒空賊船,0,1,3,Rating,20,%,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
 2,R568A.BIN,22,Ж黒空賊船,0,2,3,Rating,80,%,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-3,R568A.BIN,22,Ж黒空賊船,0,3,4,Prev Task Type in Same Turn =,2,Focus,1,Magic,-1,6,サプラ,0,0,Attack,0,-1,None,0
+3,R568A.BIN,22,Ж黒空賊船,0,3,4,ES Previous Task Type =,2,Focus,1,Magic,-1,6,サプラ,0,0,Attack,0,-1,None,0
 4,R568A.BIN,22,Ж黒空賊船,1,0,3,Rating,70,%,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
 5,R568A.BIN,22,Ж黒空賊船,1,1,3,Rating,85,%,1,Magic,0,25,バーネス,0,1,Magic,-1,6,サプラ,0
 6,R568A.BIN,22,Ж黒空賊船,1,2,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
@@ -718,7 +718,7 @@ Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Pa
 0,R572A.BIN,22,Ж黒空賊船,0,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,-1,-1,None,0
 1,R572A.BIN,22,Ж黒空賊船,0,1,3,Rating,20,%,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,2
 2,R572A.BIN,22,Ж黒空賊船,0,2,3,Rating,80,%,0,Attack,0,-1,None,0,2,Focus,-1,0,Focus,0
-3,R572A.BIN,22,Ж黒空賊船,0,3,4,Prev Task Type in Same Turn =,2,Focus,1,Magic,-1,6,サプラ,0,0,Attack,0,-1,None,0
+3,R572A.BIN,22,Ж黒空賊船,0,3,4,ES Previous Task Type =,2,Focus,1,Magic,-1,6,サプラ,0,0,Attack,0,-1,None,0
 4,R572A.BIN,22,Ж黒空賊船,1,0,3,Rating,70,%,0,Attack,1,-1,None,3,2,Focus,-1,-1,None,0
 5,R572A.BIN,22,Ж黒空賊船,1,1,3,Rating,85,%,1,Magic,0,25,バーネス,0,1,Magic,-1,6,サプラ,0
 6,R572A.BIN,22,Ж黒空賊船,1,2,-1,None,0,None,0,Attack,0,-1,None,0,-1,None,-1,-1,None,0
@@ -830,7 +830,7 @@ Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Pa
 0,R577A.BIN,32,オビスポー,0,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
 1,R577A.BIN,32,オビスポー,0,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 2,R577A.BIN,32,オビスポー,0,2,3,Rating,50,%,0,Attack,0,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
-3,R577A.BIN,32,オビスポー,0,3,4,Prev Task Type in Same Turn =,0,Attack,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
+3,R577A.BIN,32,オビスポー,0,3,4,ES Previous Task Type =,0,Attack,4,Nothing,-1,2,Assessing Damage,0,0,Attack,0,-1,None,0
 4,R577A.BIN,32,オビスポー,1,0,-1,None,0,None,2,Focus,-1,2,Preparing Attack,0,0,Attack,0,-1,None,0
 5,R577A.BIN,32,オビスポー,1,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
 6,R577A.BIN,32,オビスポー,1,2,1,ES HP ≤,30,%,3,Guard,-1,-1,None,0,4,Nothing,-1,2,Assessing Damage,0
