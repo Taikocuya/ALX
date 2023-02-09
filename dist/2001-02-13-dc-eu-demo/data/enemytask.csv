@@ -8,7 +8,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 4,*,1,航行士,Praeses,0,Branch,30,Always,8,Go to 8
 5,*,1,航行士,Praeses,0,Branch,25,Rating 50%,7,Go to 7
 6,*,1,航行士,Praeses,1,Action,550,Attack,2,Random PC
-7,*,1,航行士,Praeses,1,Action,79,Sacri Crystal,7,EC w/ Least HP
+7,*,1,航行士,Praeses,1,Action,79,Sacri Crystal,7,EC With Lowest HP
 8,*,1,航行士,Praeses,1,Action,551,Guard,-1,None
 1,*,2,ミクラステル,Latro,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
 2,*,2,ミクラステル,Latro,0,Branch,30,Always,4,Go to 4
@@ -27,7 +27,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 4,*,3,マロッカ,Marocca,0,Branch,1,HP < 50%,7,Go to 7
 5,*,3,マロッカ,Marocca,0,Branch,28,Rating 80%,7,Go to 7
 6,*,3,マロッカ,Marocca,1,Action,551,Guard,-1,None
-7,*,3,マロッカ,Marocca,1,Action,550,Attack,1,Same PC
+7,*,3,マロッカ,Marocca,1,Action,550,Attack,1,Nearest PC
 8,*,3,マロッカ,Marocca,1,Action,552,Run,-1,None
 1,*,4,アーアペプ,Grouder,0,Branch,33,Used Attack Spells ≥ 1,3,Go to 3
 2,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,10,Go to 10
@@ -37,7 +37,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 6,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,8,Go to 8
 7,*,4,アーアペプ,Grouder,1,Action,550,Attack,2,Random PC
 8,*,4,アーアペプ,Grouder,1,Action,551,Guard,-1,None
-9,*,4,アーアペプ,Grouder,1,Action,503,Panika,14,PC w/o Confusion
+9,*,4,アーアペプ,Grouder,1,Action,503,Panika,14,PC W/O Confusion
 10,*,4,アーアペプ,Grouder,1,Action,520,Wevli,2,Random PC
 11,*,4,アーアペプ,Grouder,1,Action,57,Eerie Wail,2,Random PC
 1,*,7,煌術処刑士,Venificus,0,Branch,17,ECs Alive = 1,23,Go to 23
@@ -56,10 +56,10 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 14,*,7,煌術処刑士,Venificus,0,Branch,24,Rating 40%,22,Go to 22
 15,*,7,煌術処刑士,Venificus,0,Branch,25,Rating 50%,20,Go to 20
 16,*,7,煌術処刑士,Venificus,0,Branch,30,Always,23,Go to 23
-17,*,7,煌術処刑士,Venificus,1,Action,550,Attack,1,Same PC
-18,*,7,煌術処刑士,Venificus,1,Action,500,Increm,8,EC w/ Largest ID
-19,*,7,煌術処刑士,Venificus,1,Action,506,Sacri,7,EC w/ Least HP
-20,*,7,煌術処刑士,Venificus,1,Action,506,Sacri,8,EC w/ Largest ID
+17,*,7,煌術処刑士,Venificus,1,Action,550,Attack,1,Nearest PC
+18,*,7,煌術処刑士,Venificus,1,Action,500,Increm,8,EC With Highest Attack
+19,*,7,煌術処刑士,Venificus,1,Action,506,Sacri,7,EC With Lowest HP
+20,*,7,煌術処刑士,Venificus,1,Action,506,Sacri,8,EC With Highest Attack
 21,*,7,煌術処刑士,Venificus,1,Action,526,Crystali,2,Random PC
 22,*,7,煌術処刑士,Venificus,1,Action,37,Focus,-1,None
 23,*,7,煌術処刑士,Venificus,1,Action,551,Guard,-1,None
@@ -76,7 +76,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,8,レトモニケ,Flestik,0,Branch,30,Always,16,Go to 16
 12,*,8,レトモニケ,Flestik,0,Branch,24,Rating 40%,16,Go to 16
 13,*,8,レトモニケ,Flestik,0,Branch,30,Always,9,Go to 9
-14,*,8,レトモニケ,Flestik,1,Action,550,Attack,1,Same PC
+14,*,8,レトモニケ,Flestik,1,Action,550,Attack,1,Nearest PC
 15,*,8,レトモニケ,Flestik,1,Action,551,Guard,-1,None
 16,*,8,レトモニケ,Flestik,1,Action,552,Run,-1,None
 1,*,9,レイチア,Basallish,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
@@ -92,11 +92,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,9,レイチア,Basallish,0,Branch,30,Always,16,Go to 16
 12,*,9,レイチア,Basallish,0,Branch,25,Rating 50%,16,Go to 16
 13,*,9,レイチア,Basallish,0,Branch,30,Always,9,Go to 9
-14,*,9,レイチア,Basallish,1,Action,550,Attack,1,Same PC
+14,*,9,レイチア,Basallish,1,Action,550,Attack,1,Nearest PC
 15,*,9,レイチア,Basallish,1,Action,551,Guard,-1,None
 16,*,9,レイチア,Basallish,1,Action,552,Run,-1,None
 1,*,10,カイライ,Dementis,0,Branch,21,Rating 10%,3,Go to 3
-2,*,10,カイライ,Dementis,1,Action,550,Attack,1,Same PC
+2,*,10,カイライ,Dementis,1,Action,550,Attack,1,Nearest PC
 3,*,10,カイライ,Dementis,1,Action,551,Guard,-1,None
 1,*,11,フォカラルガ,Walrenk,0,Branch,33,Used Attack Spells ≥ 1,3,Go to 3
 2,*,11,フォカラルガ,Walrenk,0,Branch,22,Rating 20%,9,Go to 9
@@ -105,7 +105,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 5,*,11,フォカラルガ,Walrenk,0,Branch,21,Rating 10%,7,Go to 7
 6,*,11,フォカラルガ,Walrenk,1,Action,550,Attack,2,Random PC
 7,*,11,フォカラルガ,Walrenk,1,Action,551,Guard,-1,None
-8,*,11,フォカラルガ,Walrenk,1,Action,503,Panika,14,PC w/o Confusion
+8,*,11,フォカラルガ,Walrenk,1,Action,503,Panika,14,PC W/O Confusion
 9,*,11,フォカラルガ,Walrenk,1,Action,527,Crystales,2,Random PC
 1,*,12,ギジェリガー,Varkris,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,12,ギジェリガー,Varkris,0,Branch,30,Always,4,Go to 4
@@ -131,7 +131,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 22,*,12,ギジェリガー,Varkris,0,Branch,30,Always,28,Go to 28
 23,*,12,ギジェリガー,Varkris,1,Action,550,Attack,2,Random PC
 24,*,12,ギジェリガー,Varkris,1,Action,513,Quika,-1,None
-25,*,12,ギジェリガー,Varkris,1,Action,512,Slipara,16,PC w/o Sleep
+25,*,12,ギジェリガー,Varkris,1,Action,512,Slipara,16,PC W/O Sleep
 26,*,12,ギジェリガー,Varkris,1,Action,62,Call Allies,-1,None
 27,*,12,ギジェリガー,Varkris,1,Action,107,Call Allies,-1,None
 28,*,12,ギジェリガー,Varkris,1,Action,552,Run,-1,None
@@ -168,7 +168,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,27,Rating 70%,14,Go to 14
 12,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,26,Rating 60%,15,Go to 15
 13,*,14,盗掘者シモン,Zivilyn Bane,0,Branch,30,Always,16,Go to 16
-14,*,14,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+14,*,14,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC With Lowest HP
 15,*,14,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
 16,*,14,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
 1,*,15,ヌール,Ghastling,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
@@ -177,15 +177,15 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 4,*,15,ヌール,Ghastling,0,Branch,0,HP = 100%,7,Go to 7
 5,*,15,ヌール,Ghastling,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
 6,*,15,ヌール,Ghastling,0,Branch,29,Rating 90%,15,Go to 15
-7,*,15,ヌール,Ghastling,0,Branch,9,Any PC Distance >= 3,11,Go to 11
+7,*,15,ヌール,Ghastling,0,Branch,9,Any PC Distance ≥ 3,11,Go to 11
 8,*,15,ヌール,Ghastling,0,Branch,27,Rating 70%,14,Go to 14
 9,*,15,ヌール,Ghastling,0,Branch,28,Rating 80%,16,Go to 16
 10,*,15,ヌール,Ghastling,0,Branch,30,Always,17,Go to 17
 11,*,15,ヌール,Ghastling,0,Branch,27,Rating 70%,14,Go to 14
 12,*,15,ヌール,Ghastling,0,Branch,28,Rating 80%,15,Go to 15
 13,*,15,ヌール,Ghastling,0,Branch,30,Always,17,Go to 17
-14,*,15,ヌール,Ghastling,1,Action,550,Attack,1,Same PC
-15,*,15,ヌール,Ghastling,1,Action,210,HP Absorb,3,PC w/ Most HP
+14,*,15,ヌール,Ghastling,1,Action,550,Attack,1,Nearest PC
+15,*,15,ヌール,Ghastling,1,Action,210,HP Absorb,3,PC With Highest HP
 16,*,15,ヌール,Ghastling,1,Action,552,Run,-1,None
 17,*,15,ヌール,Ghastling,1,Action,551,Guard,-1,None
 1,*,16,モクズ,Florast,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
@@ -204,7 +204,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 14,*,16,モクズ,Florast,0,Branch,30,Always,20,Go to 20
 15,*,16,モクズ,Florast,1,Action,550,Attack,2,Random PC
 16,*,16,モクズ,Florast,1,Action,552,Run,-1,None
-17,*,16,モクズ,Florast,1,Action,504,Driln,17,PC w/o Weak
+17,*,16,モクズ,Florast,1,Action,504,Driln,17,PC W/O Weak
 18,*,16,モクズ,Florast,1,Action,511,Noxus,-1,None
 19,*,16,モクズ,Florast,1,Action,100,Magic?,-1,None
 20,*,16,モクズ,Florast,1,Action,551,Guard,-1,None
@@ -220,7 +220,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 10,*,17,ツィツィ,Tsirat,0,Branch,21,Rating 10%,15,Go to 15
 11,*,17,ツィツィ,Tsirat,1,Action,550,Attack,2,Random PC
 12,*,17,ツィツィ,Tsirat,1,Action,552,Run,-1,None
-13,*,17,ツィツィ,Tsirat,1,Action,211,HP Absorb,3,PC w/ Most HP
+13,*,17,ツィツィ,Tsirat,1,Action,211,HP Absorb,3,PC With Highest HP
 14,*,17,ツィツィ,Tsirat,1,Action,532,Electri,2,Random PC
 15,*,17,ツィツィ,Tsirat,1,Action,551,Guard,-1,None
 1,*,18,セベスク,Thorkryn,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
@@ -243,7 +243,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 3,*,19,ユールマラー,Scorfly,0,Branch,24,Rating 40%,7,Go to 7
 4,*,19,ユールマラー,Scorfly,0,Branch,21,Rating 10%,7,Go to 7
 5,*,19,ユールマラー,Scorfly,0,Branch,21,Rating 10%,8,Go to 8
-6,*,19,ユールマラー,Scorfly,1,Action,550,Attack,1,Same PC
+6,*,19,ユールマラー,Scorfly,1,Action,550,Attack,1,Nearest PC
 7,*,19,ユールマラー,Scorfly,1,Action,552,Run,-1,None
 8,*,19,ユールマラー,Scorfly,1,Action,551,Guard,-1,None
 1,*,20,イルドゥス,Centralk,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
@@ -259,7 +259,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,20,イルドゥス,Centralk,0,Branch,30,Always,16,Go to 16
 12,*,20,イルドゥス,Centralk,0,Branch,24,Rating 40%,16,Go to 16
 13,*,20,イルドゥス,Centralk,0,Branch,30,Always,9,Go to 9
-14,*,20,イルドゥス,Centralk,1,Action,550,Attack,1,Same PC
+14,*,20,イルドゥス,Centralk,1,Action,550,Attack,1,Nearest PC
 15,*,20,イルドゥス,Centralk,1,Action,551,Guard,-1,None
 16,*,20,イルドゥス,Centralk,1,Action,552,Run,-1,None
 1,*,21,ベルクロード,Feralisk,0,Branch,36,Used State Spells ≥ 2,9,Go to 9
@@ -277,7 +277,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 13,*,21,ベルクロード,Feralisk,1,Action,550,Attack,2,Random PC
 14,*,21,ベルクロード,Feralisk,1,Action,551,Guard,-1,None
 15,*,21,ベルクロード,Feralisk,1,Action,501,Incremus,-1,None
-16,*,21,ベルクロード,Feralisk,1,Action,510,Noxi,16,PC w/o Sleep
+16,*,21,ベルクロード,Feralisk,1,Action,510,Noxi,16,PC W/O Sleep
 17,*,21,ベルクロード,Feralisk,1,Action,88,Call Allies,-1,None
 18,*,21,ベルクロード,Feralisk,1,Action,115,Call Allies,-1,None
 1,*,22,ベルハウンド,Ferlith,0,Branch,36,Used State Spells ≥ 2,9,Go to 9
@@ -295,7 +295,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 13,*,22,ベルハウンド,Ferlith,1,Action,550,Attack,2,Random PC
 14,*,22,ベルハウンド,Ferlith,1,Action,551,Guard,-1,None
 15,*,22,ベルハウンド,Ferlith,1,Action,501,Incremus,-1,None
-16,*,22,ベルハウンド,Ferlith,1,Action,510,Noxi,16,PC w/o Sleep
+16,*,22,ベルハウンド,Ferlith,1,Action,510,Noxi,16,PC W/O Sleep
 17,*,22,ベルハウンド,Ferlith,1,Action,89,Call Allies,-1,None
 18,*,22,ベルハウンド,Ferlith,1,Action,115,Call Allies,-1,None
 1,*,23,ガトー,Crylhound,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
@@ -319,9 +319,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 4,*,24,デシェレト,Magma Tiki,0,Branch,1,HP < 50%,8,Go to 8
 5,*,24,デシェレト,Magma Tiki,0,Branch,24,Rating 40%,8,Go to 8
 6,*,24,デシェレト,Magma Tiki,0,Branch,21,Rating 10%,10,Go to 10
-7,*,24,デシェレト,Magma Tiki,1,Action,550,Attack,1,Same PC
+7,*,24,デシェレト,Magma Tiki,1,Action,550,Attack,1,Nearest PC
 8,*,24,デシェレト,Magma Tiki,1,Action,47,Tremble,-1,None
-9,*,24,デシェレト,Magma Tiki,1,Action,180,Lava Storm,1,Same PC
+9,*,24,デシェレト,Magma Tiki,1,Action,180,Lava Storm,1,Nearest PC
 10,*,24,デシェレト,Magma Tiki,1,Action,551,Guard,-1,None
 1,*,25,イアールト,Salamander,0,Branch,33,Used Attack Spells ≥ 1,5,Go to 5
 2,*,25,イアールト,Salamander,0,Branch,28,Rating 80%,9,Go to 9
@@ -349,7 +349,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,26,パラミス,Baroo,0,Branch,30,Always,16,Go to 16
 12,*,26,パラミス,Baroo,0,Branch,25,Rating 50%,16,Go to 16
 13,*,26,パラミス,Baroo,0,Branch,30,Always,9,Go to 9
-14,*,26,パラミス,Baroo,1,Action,550,Attack,1,Same PC
+14,*,26,パラミス,Baroo,1,Action,550,Attack,1,Nearest PC
 15,*,26,パラミス,Baroo,1,Action,551,Guard,-1,None
 16,*,26,パラミス,Baroo,1,Action,552,Run,-1,None
 1,*,27,コロガス,Oestrus,0,Branch,17,ECs Alive = 1,15,Go to 15
@@ -370,8 +370,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 16,*,27,コロガス,Oestrus,0,Branch,25,Rating 50%,22,Go to 22
 17,*,27,コロガス,Oestrus,0,Branch,30,Always,23,Go to 23
 18,*,27,コロガス,Oestrus,1,Action,550,Attack,2,Random PC
-19,*,27,コロガス,Oestrus,1,Action,504,Driln,17,PC w/o Weak
-20,*,27,コロガス,Oestrus,1,Action,512,Slipara,16,PC w/o Sleep
+19,*,27,コロガス,Oestrus,1,Action,504,Driln,17,PC W/O Weak
+20,*,27,コロガス,Oestrus,1,Action,512,Slipara,16,PC W/O Sleep
 21,*,27,コロガス,Oestrus,1,Action,28,Call Allies,-1,None
 22,*,27,コロガス,Oestrus,1,Action,110,Call Allies,-1,None
 23,*,27,コロガス,Oestrus,1,Action,552,Run,-1,None
@@ -379,8 +379,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 1,*,28,マータ,Deatth,0,Branch,26,Rating 60%,4,Go to 4
 2,*,28,マータ,Deatth,0,Branch,28,Rating 80%,5,Go to 5
 3,*,28,マータ,Deatth,0,Branch,30,Always,6,Go to 6
-4,*,28,マータ,Deatth,1,Action,550,Attack,1,Same PC
-5,*,28,マータ,Deatth,1,Action,15,Stone Breath,13,PC w/o Stone
+4,*,28,マータ,Deatth,1,Action,550,Attack,1,Nearest PC
+5,*,28,マータ,Deatth,1,Action,15,Stone Breath,13,PC W/O Stone
 6,*,28,マータ,Deatth,1,Action,551,Guard,-1,None
 1,*,29,エルモ,Looper,0,Branch,1,HP < 50%,9,Go to 9
 2,*,29,エルモ,Looper,0,Branch,25,Rating 50%,9,Go to 9
@@ -404,7 +404,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 9,*,30,エルモック,Loopalon,1,Action,550,Attack,2,Random PC
 10,*,30,エルモック,Loopalon,1,Action,551,Guard,-1,None
 11,*,30,エルモック,Loopalon,1,Action,552,Run,-1,None
-12,*,30,エルモック,Loopalon,1,Action,500,Increm,11,EC w/o Strengthen
+12,*,30,エルモック,Loopalon,1,Action,500,Increm,11,EC W/O Strengthen
 13,*,30,エルモック,Loopalon,1,Action,100,Magic?,-1,None
 1,*,31,ヘムヘム,Tsurak,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,31,ヘムヘム,Tsurak,0,Branch,30,Always,4,Go to 4
@@ -435,7 +435,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 5,*,33,ガランガラン,Serpantis,0,Branch,30,Always,9,Go to 9
 6,*,33,ガランガラン,Serpantis,1,Action,550,Attack,2,Random PC
 7,*,33,ガランガラン,Serpantis,1,Action,524,Pyres,-1,None
-8,*,33,ガランガラン,Serpantis,1,Action,40,Terrible Bite,1,Same PC
+8,*,33,ガランガラン,Serpantis,1,Action,40,Terrible Bite,1,Nearest PC
 9,*,33,ガランガラン,Serpantis,1,Action,551,Guard,-1,None
 1,*,34,マブルール,Dralnog,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,34,マブルール,Dralnog,0,Branch,30,Always,4,Go to 4
@@ -455,7 +455,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 16,*,34,マブルール,Dralnog,1,Action,550,Attack,2,Random PC
 17,*,34,マブルール,Dralnog,1,Action,552,Run,-1,None
 18,*,34,マブルール,Dralnog,1,Action,271,Poison Explode,-1,None
-19,*,34,マブルール,Dralnog,1,Action,517,Eterni,1,Same PC
+19,*,34,マブルール,Dralnog,1,Action,517,Eterni,1,Nearest PC
 20,*,34,マブルール,Dralnog,1,Action,100,Magic?,-1,None
 1,*,35,クチュ,Que'lak,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
 2,*,35,クチュ,Que'lak,0,Branch,30,Always,4,Go to 4
@@ -469,7 +469,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 10,*,35,クチュ,Que'lak,0,Branch,23,Rating 30%,12,Go to 12
 11,*,35,クチュ,Que'lak,1,Action,550,Attack,2,Random PC
 12,*,35,クチュ,Que'lak,1,Action,524,Pyres,-1,None
-13,*,35,クチュ,Que'lak,1,Action,506,Sacri,7,EC w/ Least HP
+13,*,35,クチュ,Que'lak,1,Action,506,Sacri,7,EC With Lowest HP
 14,*,35,クチュ,Que'lak,1,Action,551,Guard,-1,None
 15,*,35,クチュ,Que'lak,1,Action,552,Run,-1,None
 1,*,36,ソピローテ,Pinalisk,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
@@ -509,7 +509,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 10,*,38,レジボン,Slothstra,1,Action,41,Deep Sleep,22,Self
 11,*,38,レジボン,Slothstra,1,Action,551,Guard,-1,None
 1,*,39,ミラドール,Polraxis,0,Branch,21,Rating 10%,3,Go to 3
-2,*,39,ミラドール,Polraxis,1,Action,550,Attack,1,Same PC
+2,*,39,ミラドール,Polraxis,1,Action,550,Attack,1,Nearest PC
 3,*,39,ミラドール,Polraxis,1,Action,551,Guard,-1,None
 1,*,40,ラフレシア,Roseln,0,Branch,50,Used S-Move?,5,Go to 5
 2,*,40,ラフレシア,Roseln,0,Branch,25,Rating 50%,7,Go to 7
@@ -531,7 +531,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 8,*,41,エルモンテ,Elooper,1,Action,550,Attack,2,Random PC
 9,*,41,エルモンテ,Elooper,1,Action,551,Guard,-1,None
 10,*,41,エルモンテ,Elooper,1,Action,552,Run,-1,None
-11,*,41,エルモンテ,Elooper,1,Action,507,Sacres,7,EC w/ Least HP
+11,*,41,エルモンテ,Elooper,1,Action,507,Sacres,7,EC With Lowest HP
 12,*,41,エルモンテ,Elooper,1,Action,100,Magic?,-1,None
 1,*,42,フードン,Grapor,0,Branch,23,Rating 30%,4,Go to 4
 2,*,42,フードン,Grapor,0,Branch,21,Rating 10%,5,Go to 5
@@ -571,7 +571,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 22,*,44,プジョット,Iridzu,0,Branch,30,Always,28,Go to 28
 23,*,44,プジョット,Iridzu,1,Action,550,Attack,2,Random PC
 24,*,44,プジョット,Iridzu,1,Action,513,Quika,-1,None
-25,*,44,プジョット,Iridzu,1,Action,512,Slipara,16,PC w/o Sleep
+25,*,44,プジョット,Iridzu,1,Action,512,Slipara,16,PC W/O Sleep
 26,*,44,プジョット,Iridzu,1,Action,87,Call Allies,-1,None
 27,*,44,プジョット,Iridzu,1,Action,107,Call Allies,-1,None
 28,*,44,プジョット,Iridzu,1,Action,552,Run,-1,None
@@ -591,7 +591,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 14,*,45,モペール,Flyst,0,Branch,30,Always,20,Go to 20
 15,*,45,モペール,Flyst,1,Action,550,Attack,2,Random PC
 16,*,45,モペール,Flyst,1,Action,552,Run,-1,None
-17,*,45,モペール,Flyst,1,Action,504,Driln,17,PC w/o Weak
+17,*,45,モペール,Flyst,1,Action,504,Driln,17,PC W/O Weak
 18,*,45,モペール,Flyst,1,Action,511,Noxus,-1,None
 19,*,45,モペール,Flyst,1,Action,100,Magic?,-1,None
 20,*,45,モペール,Flyst,1,Action,551,Guard,-1,None
@@ -630,7 +630,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 16,*,47,プラニナ,Lucich,1,Action,550,Attack,2,Random PC
 17,*,47,プラニナ,Lucich,1,Action,552,Run,-1,None
 18,*,47,プラニナ,Lucich,1,Action,270,Self-destruct,-1,None
-19,*,47,プラニナ,Lucich,1,Action,517,Eterni,1,Same PC
+19,*,47,プラニナ,Lucich,1,Action,517,Eterni,1,Nearest PC
 20,*,47,プラニナ,Lucich,1,Action,100,Magic?,-1,None
 1,*,48,デ式ディガー,Digger,0,Branch,11,Turn 1,6,Go to 6
 2,*,48,デ式ディガー,Digger,0,Branch,24,Rating 40%,10,Go to 10
@@ -643,7 +643,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 9,*,48,デ式ディガー,Digger,0,Branch,30,Always,13,Go to 13
 10,*,48,デ式ディガー,Digger,1,Action,550,Attack,2,Random PC
 11,*,48,デ式ディガー,Digger,1,Action,551,Guard,-1,None
-12,*,48,デ式ディガー,Digger,1,Action,162,Fatigue Gas,18,PC w/o Fatigue
+12,*,48,デ式ディガー,Digger,1,Action,162,Fatigue Gas,18,PC W/O Fatigue
 13,*,48,デ式ディガー,Digger,1,Action,220,Rapid Fire,2,Random PC
 1,*,49,レナウト,Fiendo,0,Branch,11,Turn 1,6,Go to 6
 2,*,49,レナウト,Fiendo,0,Branch,12,Turn 2,9,Go to 9
@@ -657,7 +657,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 10,*,49,レナウト,Fiendo,0,Branch,30,Always,13,Go to 13
 11,*,49,レナウト,Fiendo,1,Action,550,Attack,2,Random PC
 12,*,49,レナウト,Fiendo,1,Action,551,Guard,-1,None
-13,*,49,レナウト,Fiendo,1,Action,507,Sacres,7,EC w/ Least HP
+13,*,49,レナウト,Fiendo,1,Action,507,Sacres,7,EC With Lowest HP
 14,*,49,レナウト,Fiendo,1,Action,513,Quika,-1,None
 15,*,49,レナウト,Fiendo,1,Action,100,Magic?,-1,None
 1,*,50,ブブロッカ,Burocca,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
@@ -666,7 +666,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 4,*,50,ブブロッカ,Burocca,0,Branch,1,HP < 50%,7,Go to 7
 5,*,50,ブブロッカ,Burocca,0,Branch,28,Rating 80%,7,Go to 7
 6,*,50,ブブロッカ,Burocca,1,Action,551,Guard,-1,None
-7,*,50,ブブロッカ,Burocca,1,Action,550,Attack,1,Same PC
+7,*,50,ブブロッカ,Burocca,1,Action,550,Attack,1,Nearest PC
 8,*,50,ブブロッカ,Burocca,1,Action,552,Run,-1,None
 1,*,51,アイガムハ,Drogerp,0,Branch,33,Used Attack Spells ≥ 1,3,Go to 3
 2,*,51,アイガムハ,Drogerp,0,Branch,22,Rating 20%,10,Go to 10
@@ -676,7 +676,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 6,*,51,アイガムハ,Drogerp,0,Branch,22,Rating 20%,8,Go to 8
 7,*,51,アイガムハ,Drogerp,1,Action,550,Attack,2,Random PC
 8,*,51,アイガムハ,Drogerp,1,Action,551,Guard,-1,None
-9,*,51,アイガムハ,Drogerp,1,Action,503,Panika,14,PC w/o Confusion
+9,*,51,アイガムハ,Drogerp,1,Action,503,Panika,14,PC W/O Confusion
 10,*,51,アイガムハ,Drogerp,1,Action,521,Wevles,2,Random PC
 11,*,51,アイガムハ,Drogerp,1,Action,57,Eerie Wail,2,Random PC
 1,*,52,ニウニウ,Nadnarb,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
@@ -696,8 +696,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 15,*,52,ニウニウ,Nadnarb,1,Action,550,Attack,2,Random PC
 16,*,52,ニウニウ,Nadnarb,1,Action,551,Guard,-1,None
 17,*,52,ニウニウ,Nadnarb,1,Action,552,Run,-1,None
-18,*,52,ニウニウ,Nadnarb,1,Action,500,Increm,11,EC w/o Strengthen
-19,*,52,ニウニウ,Nadnarb,1,Action,52,Stone Ooze,13,PC w/o Stone
+18,*,52,ニウニウ,Nadnarb,1,Action,500,Increm,11,EC W/O Strengthen
+19,*,52,ニウニウ,Nadnarb,1,Action,52,Stone Ooze,13,PC W/O Stone
 1,*,53,ニャカラガ,Nairad,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,53,ニャカラガ,Nairad,0,Branch,30,Always,4,Go to 4
 3,*,53,ニャカラガ,Nairad,0,Branch,28,Rating 80%,17,Go to 17
@@ -716,7 +716,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 16,*,53,ニャカラガ,Nairad,1,Action,551,Guard,-1,None
 17,*,53,ニャカラガ,Nairad,1,Action,552,Run,-1,None
 18,*,53,ニャカラガ,Nairad,1,Action,501,Incremus,-1,None
-19,*,53,ニャカラガ,Nairad,1,Action,52,Stone Ooze,13,PC w/o Stone
+19,*,53,ニャカラガ,Nairad,1,Action,52,Stone Ooze,13,PC W/O Stone
 1,*,54,カネヅル,Kanezl,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
 2,*,54,カネヅル,Kanezl,0,Branch,30,Always,4,Go to 4
 3,*,54,カネヅル,Kanezl,0,Branch,30,Always,23,Go to 23
@@ -752,7 +752,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 5,*,55,メメゾーレ,Mantoid,0,Branch,30,Always,9,Go to 9
 6,*,55,メメゾーレ,Mantoid,1,Action,550,Attack,2,Random PC
 7,*,55,メメゾーレ,Mantoid,1,Action,525,Pyrum,-1,None
-8,*,55,メメゾーレ,Mantoid,1,Action,40,Terrible Bite,1,Same PC
+8,*,55,メメゾーレ,Mantoid,1,Action,40,Terrible Bite,1,Nearest PC
 9,*,55,メメゾーレ,Mantoid,1,Action,551,Guard,-1,None
 1,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,51,Used Focus?,18,Go to 18
 2,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,11,Turn 1,5,Go to 5
@@ -773,10 +773,10 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 17,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,30,Always,7,Go to 7
 18,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,26,Rating 60%,24,Go to 24
 19,*,56,ヒュドラ煌兵,Sorcerer,0,Branch,30,Always,7,Go to 7
-20,*,56,ヒュドラ煌兵,Sorcerer,1,Action,550,Attack,1,Same PC
+20,*,56,ヒュドラ煌兵,Sorcerer,1,Action,550,Attack,1,Nearest PC
 21,*,56,ヒュドラ煌兵,Sorcerer,1,Action,551,Guard,-1,None
-22,*,56,ヒュドラ煌兵,Sorcerer,1,Action,502,Sylenis,15,PC w/o Silence
-23,*,56,ヒュドラ煌兵,Sorcerer,1,Action,507,Sacres,7,EC w/ Least HP
+22,*,56,ヒュドラ煌兵,Sorcerer,1,Action,502,Sylenis,15,PC W/O Silence
+23,*,56,ヒュドラ煌兵,Sorcerer,1,Action,507,Sacres,7,EC With Lowest HP
 24,*,56,ヒュドラ煌兵,Sorcerer,1,Action,518,Eternes,2,Random PC
 25,*,56,ヒュドラ煌兵,Sorcerer,1,Action,529,Crystalen,2,Random PC
 26,*,56,ヒュドラ煌兵,Sorcerer,1,Action,535,Electrulen,2,Random PC
@@ -811,9 +811,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 4,*,59,ナマトヌカ,Alusphere,0,Branch,22,Rating 20%,9,Go to 9
 5,*,59,ナマトヌカ,Alusphere,0,Branch,22,Rating 20%,9,Go to 9
 6,*,59,ナマトヌカ,Alusphere,0,Branch,21,Rating 10%,8,Go to 8
-7,*,59,ナマトヌカ,Alusphere,1,Action,550,Attack,13,PC w/o Stone
+7,*,59,ナマトヌカ,Alusphere,1,Action,550,Attack,13,PC W/O Stone
 8,*,59,ナマトヌカ,Alusphere,1,Action,551,Guard,-1,None
-9,*,59,ナマトヌカ,Alusphere,1,Action,44,Drain,17,PC w/o Weak
+9,*,59,ナマトヌカ,Alusphere,1,Action,44,Drain,17,PC W/O Weak
 1,*,60,モノノフ,Mereo,0,Branch,23,Rating 30%,6,Go to 6
 2,*,60,モノノフ,Mereo,0,Branch,23,Rating 30%,5,Go to 5
 3,*,60,モノノフ,Mereo,0,Branch,21,Rating 10%,7,Go to 7
@@ -839,7 +839,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 16,*,61,ヴィヒム,Delzool,1,Action,550,Attack,2,Random PC
 17,*,61,ヴィヒム,Delzool,1,Action,552,Run,-1,None
 18,*,61,ヴィヒム,Delzool,1,Action,270,Self-destruct,-1,None
-19,*,61,ヴィヒム,Delzool,1,Action,518,Eternes,1,Same PC
+19,*,61,ヴィヒム,Delzool,1,Action,518,Eternes,1,Nearest PC
 20,*,61,ヴィヒム,Delzool,1,Action,100,Magic?,-1,None
 1,*,62,ヒュドラ将兵,Defensor,0,Branch,5,Got Hit by Spell?,12,Go to 12
 2,*,62,ヒュドラ将兵,Defensor,0,Branch,38,Any EC HP < 50%,8,Go to 8
@@ -856,7 +856,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 13,*,62,ヒュドラ将兵,Defensor,0,Branch,25,Rating 50%,17,Go to 17
 14,*,62,ヒュドラ将兵,Defensor,0,Branch,30,Always,18,Go to 18
 15,*,62,ヒュドラ将兵,Defensor,1,Action,550,Attack,2,Random PC
-16,*,62,ヒュドラ将兵,Defensor,1,Action,509,Sacrulen,7,EC w/ Least HP
+16,*,62,ヒュドラ将兵,Defensor,1,Action,509,Sacrulen,7,EC With Lowest HP
 17,*,62,ヒュドラ将兵,Defensor,1,Action,534,Electrum,2,Random PC
 18,*,62,ヒュドラ将兵,Defensor,1,Action,19,Counter Stance,-1,None
 19,*,62,ヒュドラ将兵,Defensor,1,Action,551,Guard,-1,None
@@ -878,8 +878,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 16,*,63,シュリヌール,Ghrost,1,Action,550,Attack,2,Random PC
 17,*,63,シュリヌール,Ghrost,1,Action,552,Run,-1,None
 18,*,63,シュリヌール,Ghrost,1,Action,551,Guard,-1,None
-19,*,63,シュリヌール,Ghrost,1,Action,210,HP Absorb,3,PC w/ Most HP
-20,*,63,シュリヌール,Ghrost,1,Action,510,Noxi,19,PC w/o Poison
+19,*,63,シュリヌール,Ghrost,1,Action,210,HP Absorb,3,PC With Highest HP
+20,*,63,シュリヌール,Ghrost,1,Action,510,Noxi,19,PC W/O Poison
 21,*,63,シュリヌール,Ghrost,1,Action,511,Noxus,-1,None
 22,*,63,シュリヌール,Ghrost,1,Action,100,Magic?,-1,None
 1,*,64,デモンヌール,Graver,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
@@ -905,7 +905,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 21,*,64,デモンヌール,Graver,1,Action,550,Attack,2,Random PC
 22,*,64,デモンヌール,Graver,1,Action,551,Guard,-1,None
 23,*,64,デモンヌール,Graver,1,Action,552,Run,-1,None
-24,*,64,デモンヌール,Graver,1,Action,210,HP Absorb,3,PC w/ Most HP
+24,*,64,デモンヌール,Graver,1,Action,210,HP Absorb,3,PC With Highest HP
 25,*,64,デモンヌール,Graver,1,Action,519,Eternum,2,Random PC
 26,*,64,デモンヌール,Graver,1,Action,100,Magic?,-1,None
 1,*,65,マウルティア,Shrilp,0,Branch,36,Used State Spells ≥ 2,7,Go to 7
@@ -925,7 +925,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 15,*,65,マウルティア,Shrilp,1,Action,550,Attack,2,Random PC
 16,*,65,マウルティア,Shrilp,1,Action,551,Guard,-1,None
 17,*,65,マウルティア,Shrilp,1,Action,505,Drilnos,-1,None
-18,*,65,マウルティア,Shrilp,1,Action,212,HP Absorb,3,PC w/ Most HP
+18,*,65,マウルティア,Shrilp,1,Action,212,HP Absorb,3,PC With Highest HP
 1,*,66,ギャルブ,Cerosik,0,Branch,33,Used Attack Spells ≥ 1,3,Go to 3
 2,*,66,ギャルブ,Cerosik,0,Branch,22,Rating 20%,9,Go to 9
 3,*,66,ギャルブ,Cerosik,0,Branch,35,Used State Spells ≥ 1,5,Go to 5
@@ -933,7 +933,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 5,*,66,ギャルブ,Cerosik,0,Branch,21,Rating 10%,7,Go to 7
 6,*,66,ギャルブ,Cerosik,1,Action,550,Attack,2,Random PC
 7,*,66,ギャルブ,Cerosik,1,Action,551,Guard,-1,None
-8,*,66,ギャルブ,Cerosik,1,Action,503,Panika,14,PC w/o Confusion
+8,*,66,ギャルブ,Cerosik,1,Action,503,Panika,14,PC W/O Confusion
 9,*,66,ギャルブ,Cerosik,1,Action,528,Crystalum,2,Random PC
 1,*,67,ガジュマ,Carnilak,0,Branch,50,Used S-Move?,5,Go to 5
 2,*,67,ガジュマ,Carnilak,0,Branch,25,Rating 50%,7,Go to 7
@@ -973,9 +973,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,71,テンコウ,Tenkou,0,Branch,30,Always,13,Go to 13
 12,*,71,テンコウ,Tenkou,1,Action,550,Attack,2,Random PC
 13,*,71,テンコウ,Tenkou,1,Action,551,Guard,-1,None
-14,*,71,テンコウ,Tenkou,1,Action,116,Power Potion,11,EC w/o Strengthen
+14,*,71,テンコウ,Tenkou,1,Action,116,Power Potion,11,EC W/O Strengthen
 15,*,71,テンコウ,Tenkou,1,Action,117,Speed Potion,-1,None
-16,*,71,テンコウ,Tenkou,1,Action,118,Sacres Crystal,7,EC w/ Least HP
+16,*,71,テンコウ,Tenkou,1,Action,118,Sacres Crystal,7,EC With Lowest HP
 1,*,72,警備士,Custos,0,Branch,11,Turn 1,4,Go to 4
 2,*,72,警備士,Custos,0,Branch,12,Turn 2,6,Go to 6
 3,*,72,警備士,Custos,0,Branch,30,Always,7,Go to 7
@@ -993,7 +993,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 15,*,72,警備士,Custos,1,Action,550,Attack,2,Random PC
 16,*,72,警備士,Custos,1,Action,551,Guard,-1,None
 17,*,72,警備士,Custos,1,Action,513,Quika,-1,None
-18,*,72,警備士,Custos,1,Action,532,Electri,7,EC w/ Least HP
+18,*,72,警備士,Custos,1,Action,532,Electri,7,EC With Lowest HP
 19,*,72,警備士,Custos,1,Action,80,Sacres Crystal,2,Random PC
 1,*,73,採掘士,Fossor,0,Branch,11,Turn 1,4,Go to 4
 2,*,73,採掘士,Fossor,0,Branch,12,Turn 2,6,Go to 6
@@ -1008,7 +1008,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,73,採掘士,Fossor,1,Action,550,Attack,2,Random PC
 12,*,73,採掘士,Fossor,1,Action,551,Guard,-1,None
 13,*,73,採掘士,Fossor,1,Action,513,Quika,-1,None
-14,*,73,採掘士,Fossor,1,Action,527,Crystales,7,EC w/ Least HP
+14,*,73,採掘士,Fossor,1,Action,527,Crystales,7,EC With Lowest HP
 1,*,74,アスヒモス,Gelu Vermis,0,Branch,1,HP < 50%,7,Go to 7
 2,*,74,アスヒモス,Gelu Vermis,0,Branch,23,Rating 30%,12,Go to 12
 3,*,74,アスヒモス,Gelu Vermis,0,Branch,22,Rating 20%,13,Go to 13
@@ -1022,7 +1022,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,74,アスヒモス,Gelu Vermis,0,Branch,30,Always,16,Go to 16
 12,*,74,アスヒモス,Gelu Vermis,1,Action,550,Attack,2,Random PC
 13,*,74,アスヒモス,Gelu Vermis,1,Action,551,Guard,-1,None
-14,*,74,アスヒモス,Gelu Vermis,1,Action,503,Panika,14,PC w/o Confusion
+14,*,74,アスヒモス,Gelu Vermis,1,Action,503,Panika,14,PC W/O Confusion
 15,*,74,アスヒモス,Gelu Vermis,1,Action,529,Crystalen,2,Random PC
 16,*,74,アスヒモス,Gelu Vermis,1,Action,38,Eternal Freeze,-1,None
 1,*,75,デ式レーダー,Eversor,0,Branch,11,Turn 1,9,Go to 9
@@ -1056,7 +1056,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,77,テンペリオス,Susceptor,1,Action,550,Attack,2,Random PC
 12,*,77,テンペリオス,Susceptor,1,Action,9,Target Search,-1,None
 13,*,77,テンペリオス,Susceptor,1,Action,99,Blaster,2,Random PC
-14,*,77,テンペリオス,Susceptor,1,Action,32,Crypt Laser,13,PC w/o Stone
+14,*,77,テンペリオス,Susceptor,1,Action,32,Crypt Laser,13,PC W/O Stone
 15,*,77,テンペリオス,Susceptor,1,Action,551,Guard,-1,None
 1,*,78,テルヴァ,Telsor,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
 2,*,78,テルヴァ,Telsor,0,Branch,30,Always,4,Go to 4
@@ -1079,7 +1079,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 9,*,79,ドゥムス,Dorntak,1,Action,550,Attack,2,Random PC
 10,*,79,ドゥムス,Dorntak,1,Action,551,Guard,-1,None
 11,*,79,ドゥムス,Dorntak,1,Action,552,Run,-1,None
-12,*,79,ドゥムス,Dorntak,1,Action,61,Laser Blast,13,PC w/o Stone
+12,*,79,ドゥムス,Dorntak,1,Action,61,Laser Blast,13,PC W/O Stone
 1,*,80,ニンギルス,Linark,0,Branch,1,HP < 50%,5,Go to 5
 2,*,80,ニンギルス,Linark,0,Branch,25,Rating 50%,8,Go to 8
 3,*,80,ニンギルス,Linark,0,Branch,22,Rating 20%,9,Go to 9
@@ -1109,7 +1109,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 6,*,82,サムンドラ,Dracolurg,0,Branch,25,Rating 50%,9,Go to 9
 7,*,82,サムンドラ,Dracolurg,0,Branch,30,Always,10,Go to 10
 8,*,82,サムンドラ,Dracolurg,1,Action,550,Attack,2,Random PC
-9,*,82,サムンドラ,Dracolurg,1,Action,64,Terrible Bite,18,PC w/o Fatigue
+9,*,82,サムンドラ,Dracolurg,1,Action,64,Terrible Bite,18,PC W/O Fatigue
 10,*,82,サムンドラ,Dracolurg,1,Action,184,Frost Breath,2,Random PC
 1,*,83,ギラロッシ,Garagor,0,Branch,11,Turn 1,3,Go to 3
 2,*,83,ギラロッシ,Garagor,0,Branch,30,Always,4,Go to 4
@@ -1127,7 +1127,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 14,*,83,ギラロッシ,Garagor,1,Action,551,Guard,-1,None
 15,*,83,ギラロッシ,Garagor,1,Action,505,Drilnos,-1,None
 16,*,83,ギラロッシ,Garagor,1,Action,529,Crystalen,2,Random PC
-17,*,83,ギラロッシ,Garagor,1,Action,213,HP Absorb,3,PC w/ Most HP
+17,*,83,ギラロッシ,Garagor,1,Action,213,HP Absorb,3,PC With Highest HP
 1,*,84,シデンクワイ,Kilite,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,84,シデンクワイ,Kilite,0,Branch,30,Always,4,Go to 4
 3,*,84,シデンクワイ,Kilite,0,Branch,27,Rating 70%,14,Go to 14
@@ -1189,7 +1189,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 14,*,86,ブライヌール,Lurker,1,Action,550,Attack,2,Random PC
 15,*,86,ブライヌール,Lurker,1,Action,552,Run,-1,None
 16,*,86,ブライヌール,Lurker,1,Action,551,Guard,-1,None
-17,*,86,ブライヌール,Lurker,1,Action,210,HP Absorb,3,PC w/ Most HP
+17,*,86,ブライヌール,Lurker,1,Action,210,HP Absorb,3,PC With Highest HP
 18,*,86,ブライヌール,Lurker,1,Action,56,Thunder Storm,-1,None
 1,*,87,クベンシス,Jellikra,0,Branch,11,Turn 1,4,Go to 4
 2,*,87,クベンシス,Jellikra,0,Branch,12,Turn 2,5,Go to 5
@@ -1213,7 +1213,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 3,*,88,エリュオン,Scorpon,0,Branch,24,Rating 40%,7,Go to 7
 4,*,88,エリュオン,Scorpon,0,Branch,21,Rating 10%,7,Go to 7
 5,*,88,エリュオン,Scorpon,0,Branch,21,Rating 10%,8,Go to 8
-6,*,88,エリュオン,Scorpon,1,Action,550,Attack,1,Same PC
+6,*,88,エリュオン,Scorpon,1,Action,550,Attack,1,Nearest PC
 7,*,88,エリュオン,Scorpon,1,Action,552,Run,-1,None
 8,*,88,エリュオン,Scorpon,1,Action,551,Guard,-1,None
 1,*,89,アークエルモ,Arclooper,0,Branch,1,HP < 50%,11,Go to 11
@@ -1227,7 +1227,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 9,*,89,アークエルモ,Arclooper,1,Action,550,Attack,2,Random PC
 10,*,89,アークエルモ,Arclooper,1,Action,551,Guard,-1,None
 11,*,89,アークエルモ,Arclooper,1,Action,552,Run,-1,None
-12,*,89,アークエルモ,Arclooper,1,Action,502,Sylenis,15,PC w/o Silence
+12,*,89,アークエルモ,Arclooper,1,Action,502,Sylenis,15,PC W/O Silence
 13,*,89,アークエルモ,Arclooper,1,Action,100,Magic?,-1,None
 1,*,90,キュキュ,Tsorok,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
 2,*,90,キュキュ,Tsorok,0,Branch,30,Always,4,Go to 4
@@ -1241,7 +1241,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 10,*,90,キュキュ,Tsorok,0,Branch,21,Rating 10%,15,Go to 15
 11,*,90,キュキュ,Tsorok,1,Action,550,Attack,2,Random PC
 12,*,90,キュキュ,Tsorok,1,Action,552,Run,-1,None
-13,*,90,キュキュ,Tsorok,1,Action,211,HP Absorb,3,PC w/ Most HP
+13,*,90,キュキュ,Tsorok,1,Action,211,HP Absorb,3,PC With Highest HP
 14,*,90,キュキュ,Tsorok,1,Action,533,Electres,2,Random PC
 15,*,90,キュキュ,Tsorok,1,Action,551,Guard,-1,None
 1,*,91,デ式レイバー,Sentree,0,Branch,52,Used Charge?,12,Go to 12
@@ -1291,8 +1291,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 16,*,93,ヘベレル,Scarabée,0,Branch,25,Rating 50%,22,Go to 22
 17,*,93,ヘベレル,Scarabée,0,Branch,30,Always,23,Go to 23
 18,*,93,ヘベレル,Scarabée,1,Action,550,Attack,2,Random PC
-19,*,93,ヘベレル,Scarabée,1,Action,504,Driln,17,PC w/o Weak
-20,*,93,ヘベレル,Scarabée,1,Action,512,Slipara,16,PC w/o Sleep
+19,*,93,ヘベレル,Scarabée,1,Action,504,Driln,17,PC W/O Weak
+20,*,93,ヘベレル,Scarabée,1,Action,512,Slipara,16,PC W/O Sleep
 21,*,93,ヘベレル,Scarabée,1,Action,78,Call Allies,-1,None
 22,*,93,ヘベレル,Scarabée,1,Action,111,Call Allies,-1,None
 23,*,93,ヘベレル,Scarabée,1,Action,552,Run,-1,None
@@ -1353,7 +1353,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 10,*,98,マセラウト,Monstrum,0,Branch,30,Always,13,Go to 13
 11,*,98,マセラウト,Monstrum,1,Action,550,Attack,2,Random PC
 12,*,98,マセラウト,Monstrum,1,Action,551,Guard,-1,None
-13,*,98,マセラウト,Monstrum,1,Action,507,Sacres,7,EC w/ Least HP
+13,*,98,マセラウト,Monstrum,1,Action,507,Sacres,7,EC With Lowest HP
 14,*,98,マセラウト,Monstrum,1,Action,513,Quika,-1,None
 15,*,98,マセラウト,Monstrum,1,Action,100,Magic?,-1,None
 1,*,99,アルシノ,Kantor,0,Branch,50,Used S-Move?,4,Go to 4
@@ -1372,11 +1372,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 7,*,100,アサシン,Umbra,0,Branch,25,Rating 50%,13,Go to 13
 8,*,100,アサシン,Umbra,0,Branch,27,Rating 70%,14,Go to 14
 9,*,100,アサシン,Umbra,0,Branch,30,Always,11,Go to 11
-10,*,100,アサシン,Umbra,1,Action,550,Attack,4,PC w/ Least HP
+10,*,100,アサシン,Umbra,1,Action,550,Attack,4,PC With Lowest HP
 11,*,100,アサシン,Umbra,1,Action,551,Guard,-1,None
-12,*,100,アサシン,Umbra,1,Action,502,Sylenis,20,PC w/ Most Will
+12,*,100,アサシン,Umbra,1,Action,502,Sylenis,20,PC W/O Silence and Highest Will
 13,*,100,アサシン,Umbra,1,Action,522,Wevlen,2,Random PC
-14,*,100,アサシン,Umbra,1,Action,12,Death Strike,3,PC w/ Most HP
+14,*,100,アサシン,Umbra,1,Action,12,Death Strike,3,PC With Highest HP
 1,*,101,イレイザー,Assassinata,0,Branch,11,Turn 1,4,Go to 4
 2,*,101,イレイザー,Assassinata,0,Branch,12,Turn 2,5,Go to 5
 3,*,101,イレイザー,Assassinata,0,Branch,30,Always,6,Go to 6
@@ -1386,11 +1386,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 7,*,101,イレイザー,Assassinata,0,Branch,21,Rating 10%,13,Go to 13
 8,*,101,イレイザー,Assassinata,0,Branch,27,Rating 70%,14,Go to 14
 9,*,101,イレイザー,Assassinata,0,Branch,30,Always,11,Go to 11
-10,*,101,イレイザー,Assassinata,1,Action,550,Attack,4,PC w/ Least HP
+10,*,101,イレイザー,Assassinata,1,Action,550,Attack,4,PC With Lowest HP
 11,*,101,イレイザー,Assassinata,1,Action,551,Guard,-1,None
-12,*,101,イレイザー,Assassinata,1,Action,502,Sylenis,20,PC w/ Most Will
+12,*,101,イレイザー,Assassinata,1,Action,502,Sylenis,20,PC W/O Silence and Highest Will
 13,*,101,イレイザー,Assassinata,1,Action,522,Wevlen,2,Random PC
-14,*,101,イレイザー,Assassinata,1,Action,12,Death Strike,3,PC w/ Most HP
+14,*,101,イレイザー,Assassinata,1,Action,12,Death Strike,3,PC With Highest HP
 1,*,102,要塞将兵,Executor,0,Branch,5,Got Hit by Spell?,12,Go to 12
 2,*,102,要塞将兵,Executor,0,Branch,38,Any EC HP < 50%,8,Go to 8
 3,*,102,要塞将兵,Executor,0,Branch,25,Rating 50%,15,Go to 15
@@ -1406,7 +1406,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 13,*,102,要塞将兵,Executor,0,Branch,25,Rating 50%,17,Go to 17
 14,*,102,要塞将兵,Executor,0,Branch,30,Always,18,Go to 18
 15,*,102,要塞将兵,Executor,1,Action,550,Attack,2,Random PC
-16,*,102,要塞将兵,Executor,1,Action,507,Sacres,7,EC w/ Least HP
+16,*,102,要塞将兵,Executor,1,Action,507,Sacres,7,EC With Lowest HP
 17,*,102,要塞将兵,Executor,1,Action,534,Electrum,2,Random PC
 18,*,102,要塞将兵,Executor,1,Action,19,Counter Stance,-1,None
 19,*,102,要塞将兵,Executor,1,Action,551,Guard,-1,None
@@ -1427,11 +1427,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 15,*,103,要塞煌兵,Custodiae,0,Branch,30,Always,7,Go to 7
 16,*,103,要塞煌兵,Custodiae,0,Branch,24,Rating 40%,22,Go to 22
 17,*,103,要塞煌兵,Custodiae,0,Branch,30,Always,7,Go to 7
-18,*,103,要塞煌兵,Custodiae,1,Action,550,Attack,1,Same PC
+18,*,103,要塞煌兵,Custodiae,1,Action,550,Attack,1,Nearest PC
 19,*,103,要塞煌兵,Custodiae,1,Action,551,Guard,-1,None
-20,*,103,要塞煌兵,Custodiae,1,Action,502,Sylenis,15,PC w/o Silence
-21,*,103,要塞煌兵,Custodiae,1,Action,504,Driln,17,PC w/o Weak
-22,*,103,要塞煌兵,Custodiae,1,Action,507,Sacres,7,EC w/ Least HP
+20,*,103,要塞煌兵,Custodiae,1,Action,502,Sylenis,15,PC W/O Silence
+21,*,103,要塞煌兵,Custodiae,1,Action,504,Driln,17,PC W/O Weak
+22,*,103,要塞煌兵,Custodiae,1,Action,507,Sacres,7,EC With Lowest HP
 23,*,103,要塞煌兵,Custodiae,1,Action,531,Wevlum,2,Random PC
 24,*,103,要塞煌兵,Custodiae,1,Action,528,Crystalum,2,Random PC
 25,*,103,要塞煌兵,Custodiae,1,Action,37,Focus,-1,None
@@ -1442,7 +1442,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 5,*,104,要塞兵,Veles,0,Branch,21,Rating 10%,10,Go to 10
 6,*,104,要塞兵,Veles,0,Branch,23,Rating 30%,8,Go to 8
 7,*,104,要塞兵,Veles,1,Action,550,Attack,2,Random PC
-8,*,104,要塞兵,Veles,1,Action,71,Poison Gas,19,PC w/o Poison
+8,*,104,要塞兵,Veles,1,Action,71,Poison Gas,19,PC W/O Poison
 9,*,104,要塞兵,Veles,1,Action,72,Sacrum Crystal,-1,None
 10,*,104,要塞兵,Veles,1,Action,551,Guard,-1,None
 1,*,105,ベレーザ兵,Red Praeses,0,Branch,21,Rating 10%,5,Go to 5
@@ -1457,7 +1457,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 5,*,106,工作兵,Praeses Elite,0,Branch,21,Rating 10%,10,Go to 10
 6,*,106,工作兵,Praeses Elite,0,Branch,23,Rating 30%,8,Go to 8
 7,*,106,工作兵,Praeses Elite,1,Action,550,Attack,2,Random PC
-8,*,106,工作兵,Praeses Elite,1,Action,71,Poison Gas,19,PC w/o Poison
+8,*,106,工作兵,Praeses Elite,1,Action,71,Poison Gas,19,PC W/O Poison
 9,*,106,工作兵,Praeses Elite,1,Action,72,Sacrum Crystal,-1,None
 10,*,106,工作兵,Praeses Elite,1,Action,551,Guard,-1,None
 1,*,107,ワーン,Jynnus,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
@@ -1495,7 +1495,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 13,*,108,ヒュドラ巨兵,Hydra,0,Branch,25,Rating 50%,17,Go to 17
 14,*,108,ヒュドラ巨兵,Hydra,0,Branch,30,Always,15,Go to 15
 15,*,108,ヒュドラ巨兵,Hydra,1,Action,550,Attack,2,Random PC
-16,*,108,ヒュドラ巨兵,Hydra,1,Action,119,Death Tackle,3,PC w/ Most HP
+16,*,108,ヒュドラ巨兵,Hydra,1,Action,119,Death Tackle,3,PC With Highest HP
 17,*,108,ヒュドラ巨兵,Hydra,1,Action,251,Sonic Wave,2,Random PC
 18,*,108,ヒュドラ巨兵,Hydra,1,Action,535,Electrulen,2,Random PC
 19,*,108,ヒュドラ巨兵,Hydra,1,Action,551,Guard,-1,None
@@ -1534,7 +1534,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,27,Rating 70%,14,Go to 14
 12,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,26,Rating 60%,15,Go to 15
 13,*,111,盗掘者シモン,Zivilyn Bane,0,Branch,30,Always,16,Go to 16
-14,*,111,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+14,*,111,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC With Lowest HP
 15,*,111,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
 16,*,111,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
 1,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,11,Turn 1,4,Go to 4
@@ -1550,7 +1550,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,27,Rating 70%,14,Go to 14
 12,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,26,Rating 60%,15,Go to 15
 13,*,112,盗掘者シモン,Zivilyn Bane,0,Branch,30,Always,16,Go to 16
-14,*,112,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+14,*,112,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC With Lowest HP
 15,*,112,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
 16,*,112,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
 1,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,11,Turn 1,4,Go to 4
@@ -1566,7 +1566,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,27,Rating 70%,14,Go to 14
 12,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,26,Rating 60%,15,Go to 15
 13,*,113,盗掘者シモン,Zivilyn Bane,0,Branch,30,Always,16,Go to 16
-14,*,113,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+14,*,113,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC With Lowest HP
 15,*,113,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
 16,*,113,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
 1,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,11,Turn 1,4,Go to 4
@@ -1582,7 +1582,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,27,Rating 70%,14,Go to 14
 12,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,26,Rating 60%,15,Go to 15
 13,*,114,盗掘者シモン,Zivilyn Bane,0,Branch,30,Always,16,Go to 16
-14,*,114,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+14,*,114,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC With Lowest HP
 15,*,114,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
 16,*,114,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
 1,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,11,Turn 1,4,Go to 4
@@ -1598,7 +1598,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,27,Rating 70%,14,Go to 14
 12,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,26,Rating 60%,15,Go to 15
 13,*,115,盗掘者シモン,Zivilyn Bane,0,Branch,30,Always,16,Go to 16
-14,*,115,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+14,*,115,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC With Lowest HP
 15,*,115,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
 16,*,115,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
 1,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,11,Turn 1,4,Go to 4
@@ -1614,7 +1614,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,27,Rating 70%,14,Go to 14
 12,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,26,Rating 60%,15,Go to 15
 13,*,116,盗掘者シモン,Zivilyn Bane,0,Branch,30,Always,16,Go to 16
-14,*,116,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+14,*,116,盗掘者シモン,Zivilyn Bane,1,Action,550,Attack,4,PC With Lowest HP
 15,*,116,盗掘者シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
 16,*,116,盗掘者シモン,Zivilyn Bane,1,Action,551,Guard,-1,None
 1,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,11,Turn 1,4,Go to 4
@@ -1629,7 +1629,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 10,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,30,Always,14,Go to 14
 11,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,27,Rating 70%,13,Go to 13
 12,*,117,盗掘王シモン,Zivilyn Bane,0,Branch,26,Rating 60%,14,Go to 14
-13,*,117,盗掘王シモン,Zivilyn Bane,1,Action,550,Attack,4,PC w/ Least HP
+13,*,117,盗掘王シモン,Zivilyn Bane,1,Action,550,Attack,4,PC With Lowest HP
 14,*,117,盗掘王シモン,Zivilyn Bane,1,Action,22,Burst,2,Random PC
 1,*,118,シュルラット,Hunta,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
 2,*,118,シュルラット,Hunta,0,Branch,30,Always,4,Go to 4
@@ -1663,7 +1663,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 9,*,120,ドゥムス,Hopril,1,Action,550,Attack,2,Random PC
 10,*,120,ドゥムス,Hopril,1,Action,551,Guard,-1,None
 11,*,120,ドゥムス,Hopril,1,Action,552,Run,-1,None
-12,*,120,ドゥムス,Hopril,1,Action,61,Laser Blast,13,PC w/o Stone
+12,*,120,ドゥムス,Hopril,1,Action,61,Laser Blast,13,PC W/O Stone
 1,*,121,エルシアン,Elcian,0,Branch,37,Turn ≥ 5,5,Go to 5
 2,*,121,エルシアン,Elcian,0,Branch,24,Rating 40%,8,Go to 8
 3,*,121,エルシアン,Elcian,0,Branch,25,Rating 50%,11,Go to 11
@@ -1759,7 +1759,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 26,*,131,獄長,Carcer,0,Branch,25,Rating 50%,29,Go to 29
 27,*,131,獄長,Carcer,0,Branch,30,Always,30,Go to 30
 28,*,131,獄長,Carcer,1,Action,550,Attack,2,Random PC
-29,*,131,獄長,Carcer,1,Action,11,Tackle,3,PC w/ Most HP
+29,*,131,獄長,Carcer,1,Action,11,Tackle,3,PC With Highest HP
 30,*,131,獄長,Carcer,1,Action,251,Sonic Wave,2,Random PC
 31,*,131,獄長,Carcer,1,Action,533,Electres,2,Random PC
 32,*,131,獄長,Carcer,1,Action,551,Guard,-1,None
@@ -1789,7 +1789,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 12,*,133,護送将兵,Sceptrum Praeses,0,Branch,25,Rating 50%,16,Go to 16
 13,*,133,護送将兵,Sceptrum Praeses,0,Branch,30,Always,17,Go to 17
 14,*,133,護送将兵,Sceptrum Praeses,1,Action,550,Attack,2,Random PC
-15,*,133,護送将兵,Sceptrum Praeses,1,Action,506,Sacri,7,EC w/ Least HP
+15,*,133,護送将兵,Sceptrum Praeses,1,Action,506,Sacri,7,EC With Lowest HP
 16,*,133,護送将兵,Sceptrum Praeses,1,Action,533,Electres,2,Random PC
 17,*,133,護送将兵,Sceptrum Praeses,1,Action,19,Counter Stance,-1,None
 18,*,133,護送将兵,Sceptrum Praeses,1,Action,551,Guard,-1,None
@@ -1806,7 +1806,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 11,*,134,ラァス,Rokwyrm,0,Branch,30,Always,12,Go to 12
 12,*,134,ラァス,Rokwyrm,1,Action,550,Attack,2,Random PC
 13,*,134,ラァス,Rokwyrm,1,Action,0,Volcanic Blast,-1,None
-14,*,134,ラァス,Rokwyrm,1,Action,1,Cinder Storm,13,PC w/o Stone
+14,*,134,ラァス,Rokwyrm,1,Action,1,Cinder Storm,13,PC W/O Stone
 1,*,136,アントニオＪｒ,Antonio 2,0,Branch,50,Used S-Move?,4,Go to 4
 2,*,136,アントニオＪｒ,Antonio 2,0,Branch,23,Rating 30%,6,Go to 6
 3,*,136,アントニオＪｒ,Antonio 2,0,Branch,30,Always,7,Go to 7
@@ -1832,11 +1832,11 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 16,*,137,ディアトリマ,Rik'talish,0,Branch,24,Rating 40%,23,Go to 23
 17,*,137,ディアトリマ,Rik'talish,0,Branch,27,Rating 70%,21,Go to 21
 18,*,137,ディアトリマ,Rik'talish,0,Branch,30,Always,19,Go to 19
-19,*,137,ディアトリマ,Rik'talish,1,Action,550,Attack,16,PC w/o Sleep
+19,*,137,ディアトリマ,Rik'talish,1,Action,550,Attack,16,PC W/O Sleep
 20,*,137,ディアトリマ,Rik'talish,1,Action,551,Guard,-1,None
 21,*,137,ディアトリマ,Rik'talish,1,Action,2,Feather Slash,2,Random PC
-22,*,137,ディアトリマ,Rik'talish,1,Action,7,Circle of Panic,14,PC w/o Confusion
-23,*,137,ディアトリマ,Rik'talish,1,Action,8,Ring of Sleep,16,PC w/o Sleep
+22,*,137,ディアトリマ,Rik'talish,1,Action,7,Circle of Panic,14,PC W/O Confusion
+23,*,137,ディアトリマ,Rik'talish,1,Action,8,Ring of Sleep,16,PC W/O Sleep
 1,*,138,シニストラ,Sinistra,0,Branch,17,ECs Alive = 1,18,Go to 18
 2,*,138,シニストラ,Sinistra,0,Branch,53,Used Engage?,22,Go to 22
 3,*,138,シニストラ,Sinistra,0,Branch,11,Turn 1,9,Go to 9
@@ -1913,8 +1913,8 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 14,*,141,ビゴロ,Vigoro,0,Branch,21,Rating 10%,20,Go to 20
 15,*,141,ビゴロ,Vigoro,0,Branch,25,Rating 50%,17,Go to 17
 16,*,141,ビゴロ,Vigoro,0,Branch,30,Always,18,Go to 18
-17,*,141,ビゴロ,Vigoro,1,Action,550,Attack,1,Same PC
-18,*,141,ビゴロ,Vigoro,1,Action,550,Attack,21,PC w/ Most Attack
+17,*,141,ビゴロ,Vigoro,1,Action,550,Attack,1,Nearest PC
+18,*,141,ビゴロ,Vigoro,1,Action,550,Attack,21,PC W/O Weak and Highest Attack
 19,*,141,ビゴロ,Vigoro,1,Action,60,Vigoro's Charm,23,Aika
 20,*,141,ビゴロ,Vigoro,1,Action,551,Guard,-1,None
 1,*,142,ブラキロフス,Dralkor Lacus,0,Branch,50,Used S-Move?,4,Go to 4
@@ -2010,9 +2010,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 26,*,147,ムラジ,Muraji,1,Action,531,Wevlum,2,Random PC
 27,*,147,ムラジ,Muraji,1,Action,551,Guard,-1,None
 28,*,147,ムラジ,Muraji,1,Action,500,Increm,22,Self
-29,*,147,ムラジ,Muraji,1,Action,500,Increm,11,EC w/o Strengthen
+29,*,147,ムラジ,Muraji,1,Action,500,Increm,11,EC W/O Strengthen
 30,*,147,ムラジ,Muraji,1,Action,507,Sacres,22,Self
-31,*,147,ムラジ,Muraji,1,Action,507,Sacres,7,EC w/ Least HP
+31,*,147,ムラジ,Muraji,1,Action,507,Sacres,7,EC With Lowest HP
 32,*,147,ムラジ,Muraji,1,Action,513,Quika,-1,None
 33,*,147,ムラジ,Muraji,1,Action,67,Call Allies,-1,None
 34,*,147,ムラジ,Muraji,1,Action,114,Call Allies,-1,None
@@ -2039,7 +2039,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 21,*,148,ニルヴィナス,Veltarn,0,Branch,30,Always,25,Go to 25
 22,*,148,ニルヴィナス,Veltarn,1,Action,550,Attack,2,Random PC
 23,*,148,ニルヴィナス,Veltarn,1,Action,33,Death Laser,2,Random PC
-24,*,148,ニルヴィナス,Veltarn,1,Action,33,Death Laser,21,PC w/ Most Attack
+24,*,148,ニルヴィナス,Veltarn,1,Action,33,Death Laser,21,PC W/O Weak and Highest Attack
 25,*,148,ニルヴィナス,Veltarn,1,Action,42,Avalauncher,2,Random PC
 1,*,149,ビゴロ,Vigoro,0,Branch,50,Used S-Move?,5,Go to 5
 2,*,149,ビゴロ,Vigoro,0,Branch,22,Rating 20%,8,Go to 8
@@ -2059,7 +2059,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 6,*,150,ホルシ−ド,Dracoslyth,0,Branch,25,Rating 50%,9,Go to 9
 7,*,150,ホルシ−ド,Dracoslyth,0,Branch,30,Always,10,Go to 10
 8,*,150,ホルシ−ド,Dracoslyth,1,Action,550,Attack,2,Random PC
-9,*,150,ホルシ−ド,Dracoslyth,1,Action,64,Terrible Bite,18,PC w/o Fatigue
+9,*,150,ホルシ−ド,Dracoslyth,1,Action,64,Terrible Bite,18,PC W/O Fatigue
 10,*,150,ホルシ−ド,Dracoslyth,1,Action,181,Blast Breath,2,Random PC
 1,*,151,ガルシアン,Galcian,0,Branch,11,Turn 1,4,Go to 4
 2,*,151,ガルシアン,Galcian,0,Branch,12,Turn 2,8,Go to 8
@@ -2073,7 +2073,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 10,*,151,ガルシアン,Galcian,0,Branch,24,Rating 40%,60,Go to 60
 11,*,151,ガルシアン,Galcian,0,Branch,25,Rating 50%,56,Go to 56
 12,*,151,ガルシアン,Galcian,0,Branch,30,Always,57,Go to 57
-13,*,151,ガルシアン,Galcian,0,Branch,60,Destruction on Recharge?,23,Go to 23
+13,*,151,ガルシアン,Galcian,0,Branch,60,Turns Since Destruction ≤ 2,23,Go to 23
 14,*,151,ガルシアン,Galcian,0,Branch,57,Any PC Has Strengthen?,16,Go to 16
 15,*,151,ガルシアン,Galcian,0,Branch,30,Always,17,Go to 17
 16,*,151,ガルシアン,Galcian,0,Branch,23,Rating 30%,61,Go to 61
@@ -2145,7 +2145,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 21,*,152,ラミレス,Ramirez,1,Action,519,Eternum,2,Random PC
 22,*,152,ラミレス,Ramirez,1,Action,43,Silver Eclipse,-1,None
 23,*,152,ラミレス,Ramirez,1,Action,509,Sacrulen,22,Self
-1,*,153,ラミレス,Ramirez,0,Branch,60,Destruction on Recharge?,11,Go to 11
+1,*,153,ラミレス,Ramirez,0,Branch,60,Turns Since Destruction ≤ 2,11,Go to 11
 2,*,153,ラミレス,Ramirez,0,Branch,57,Any PC Has Strengthen?,4,Go to 4
 3,*,153,ラミレス,Ramirez,0,Branch,30,Always,5,Go to 5
 4,*,153,ラミレス,Ramirez,0,Branch,23,Rating 30%,56,Go to 56
@@ -2216,7 +2216,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 10,*,154,ラプラタヌス,Eliminator,1,Action,550,Attack,2,Random PC
 11,*,154,ラプラタヌス,Eliminator,1,Action,9,Target Search,-1,None
 12,*,154,ラプラタヌス,Eliminator,1,Action,99,Blaster,2,Random PC
-13,*,154,ラプラタヌス,Eliminator,1,Action,31,Laser Blast,13,PC w/o Stone
+13,*,154,ラプラタヌス,Eliminator,1,Action,31,Laser Blast,13,PC W/O Stone
 1,*,155,ドブラ,Gordo,0,Branch,55,Used Digest?,17,Go to 17
 2,*,155,ドブラ,Gordo,0,Branch,11,Turn 1,7,Go to 7
 3,*,155,ドブラ,Gordo,0,Branch,12,Turn 2,7,Go to 7
@@ -2243,7 +2243,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 7,*,156,ウォン三兄弟,Furiosus,1,Action,550,Attack,2,Random PC
 8,*,156,ウォン三兄弟,Furiosus,1,Action,551,Guard,-1,None
 9,*,156,ウォン三兄弟,Furiosus,1,Action,524,Pyres,-1,None
-1,*,157,ラミレス,Ramirez,0,Branch,60,Destruction on Recharge?,11,Go to 11
+1,*,157,ラミレス,Ramirez,0,Branch,60,Turns Since Destruction ≤ 2,11,Go to 11
 2,*,157,ラミレス,Ramirez,0,Branch,57,Any PC Has Strengthen?,4,Go to 4
 3,*,157,ラミレス,Ramirez,0,Branch,30,Always,5,Go to 5
 4,*,157,ラミレス,Ramirez,0,Branch,22,Rating 20%,40,Go to 40
@@ -2280,7 +2280,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 35,*,157,ラミレス,Ramirez,1,Action,550,Attack,2,Random PC
 36,*,157,ラミレス,Ramirez,1,Action,505,Drilnos,-1,None
 37,*,157,ラミレス,Ramirez,1,Action,519,Eternum,2,Random PC
-38,*,157,ラミレス,Ramirez,1,Action,83,Silver Nightmare,24,???
+38,*,157,ラミレス,Ramirez,1,Action,83,Silver Nightmare,24,PC W/O Stone
 39,*,157,ラミレス,Ramirez,1,Action,84,Silver Binds,2,Random PC
 40,*,157,ラミレス,Ramirez,1,Action,86,Destruction,-1,None
 1,*,158,軍艦兵,Ferratus,0,Branch,21,Rating 10%,3,Go to 3

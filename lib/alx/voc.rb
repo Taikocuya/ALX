@@ -9,8 +9,8 @@
 # Foundation, either version 3 of the License, or (at your option) any later 
 # version.
 # 
-# ALX is distributed in the hope that it will be useful, but WITHOUT ANY 
-# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
+# ALX is distributed in the hope that it will be useful, but W/OUT ANY 
+# WARRANTY; W/Out even the implied warranty of MERCHANTABILITY or FITNESS 
 # FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more 
 # details.
 # 
@@ -350,8 +350,8 @@ VOC.configure do |_v|
   _v.effects[ 24] = 'Decr Defense (Undef)'
   _v.effects[ 25] = 'Decr Quick (Undef)'
   _v.effects[ 26] = 'Decr All Attr'
-  _v.effects[ 27] = 'Revive w/ HP of 50%'
-  _v.effects[ 28] = 'Revive w/ HP of 100%'
+  _v.effects[ 27] = 'Revive With HP of 50%'
+  _v.effects[ 28] = 'Revive With HP of 100%'
   _v.effects[ 29] = 'Rem Neg States A'
   _v.effects[ 30] = 'Rem Neg States B'
   _v.effects[ 31] = 'Recover HP'
@@ -609,8 +609,8 @@ VOC.configure do |_v|
   _v.branches[ 5] = 'Got Hit by Spell?'
   _v.branches[ 6] = 'Any PC Distance > 2'
   _v.branches[ 7] = 'Any PC Distance > 3'
-  _v.branches[ 8] = 'Any PC Distance >= 2'
-  _v.branches[ 9] = 'Any PC Distance >= 3'
+  _v.branches[ 8] = 'Any PC Distance ≥ 2'
+  _v.branches[ 9] = 'Any PC Distance ≥ 3'
   _v.branches[10] = _v.branches[7]
   _v.branches[11] = 'Turn 1'
   _v.branches[12] = 'Turn 2'
@@ -661,7 +661,7 @@ VOC.configure do |_v|
   _v.branches[57] = 'Any PC Has Strengthen?'
   _v.branches[58] = 'Any PC Has Quickened?'
   _v.branches[59] = 'Any PC Has Regenerate?'
-  _v.branches[60] = 'Destruction on Recharge?'
+  _v.branches[60] = 'Turns Since Destruction ≤ 2'
   _v.branches[61] = 'Has No Regenerate?'
   _v.branches[62] = 'PCs Alive = 1'
   _v.branches[63] = 'PCs Alive = 2'
@@ -683,28 +683,31 @@ VOC.configure do |_v|
   
   _v.action_params     = Hash.new('???')
   _v.action_params[-1] = 'None'
-  _v.action_params[ 0] = 'Random PC'
-  _v.action_params[ 1] = 'Same PC'
+  _v.action_params[ 0] = 'Furthest PC'
+  _v.action_params[ 1] = 'Nearest PC'
   _v.action_params[ 2] = 'Random PC'
-  _v.action_params[ 3] = 'PC w/ Most HP'
-  _v.action_params[ 4] = 'PC w/ Least HP'
+  _v.action_params[ 3] = "PC With Highest #{_v.hp}"
+  _v.action_params[ 4] = "PC With Lowest #{_v.hp}"
   _v.action_params[ 5] = 'Random EC'
-  _v.action_params[ 6] = 'EC w/ Most HP'
-  _v.action_params[ 7] = 'EC w/ Least HP'
-  _v.action_params[ 8] = 'EC w/ Largest ID'
-  _v.action_params[11] = 'EC w/o Strengthen'
-  _v.action_params[12] = 'EC Nearby'
-  _v.action_params[13] = "PC w/o #{_v.stone}"
-  _v.action_params[14] = "PC w/o #{_v.confusion}"
-  _v.action_params[15] = "PC w/o #{_v.silence}"
-  _v.action_params[16] = "PC w/o #{_v.sleep}"
-  _v.action_params[17] = "PC w/o #{_v.weak}"
-  _v.action_params[18] = "PC w/o #{_v.fatigue}"
-  _v.action_params[19] = "PC w/o #{_v.poison}"
-  _v.action_params[20] = 'PC w/ Most Will'
-  _v.action_params[21] = 'PC w/ Most Attack'
+  _v.action_params[ 6] = "EC With Highest #{_v.hp}"
+  _v.action_params[ 7] = "EC With Lowest #{_v.hp}"
+  _v.action_params[ 8] = "EC With Highest #{_v.attack}"
+  _v.action_params[ 9] = "EC With Highest #{_v.defense}"
+  _v.action_params[10] = "EC With Highest #{_v.quick}"
+  _v.action_params[11] = 'EC W/O Strengthen'
+  _v.action_params[12] = 'Nearest EC'
+  _v.action_params[13] = "PC W/O #{_v.stone}"
+  _v.action_params[14] = "PC W/O #{_v.confusion}"
+  _v.action_params[15] = "PC W/O #{_v.silence}"
+  _v.action_params[16] = "PC W/O #{_v.sleep}"
+  _v.action_params[17] = "PC W/O #{_v.weak}"
+  _v.action_params[18] = "PC W/O #{_v.fatigue}"
+  _v.action_params[19] = "PC W/O #{_v.poison}"
+  _v.action_params[20] = "PC W/O #{_v.silence} and Highest #{_v.will}"
+  _v.action_params[21] = "PC W/O #{_v.weak} and Highest #{_v.attack}"
   _v.action_params[22] = 'Self'
   _v.action_params[23] = "#{_v.characters[1]}"
+  _v.action_params[24] = "PC W/O #{_v.stone}"
   
 #------------------------------------------------------------------------------
 # Enemy Ship
