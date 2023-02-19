@@ -96,7 +96,7 @@ class TreasureChest < StdEntry
 
     fetch(VOC.item_id(nil)).proc = Proc.new do |_id|
       if _id != -1
-        if _id > 0x200
+        if _id >= 0x200
           _name = VOC.gold
         else
           _entry = @items[_id]
