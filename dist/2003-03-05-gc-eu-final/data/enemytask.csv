@@ -4858,7 +4858,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 27,*,198,ルピー,Rupee,1,Action,500,Increm,11,EC W/O Strengthen
 28,*,198,ルピー,Rupee,1,Action,505,Drilnos,-1,None
 29,*,198,ルピー,Rupee,1,Action,503,Panika,14,PC W/O Confusion
-30,*,198,ルピー,Rupee,1,Action,506,Sacri,12,Nearest EC
+30,*,198,ルピー,Rupee,1,Action,506,Sacri,12,Nearest PC/EC
 31,*,198,ルピー,Rupee,1,Action,525,Pyrum,-1,None
 1,ebinit070.dat,198,ルピー,Rupee,0,Branch,1,HP < 50%,14,Go to 14
 2,ebinit070.dat,198,ルピー,Rupee,0,Branch,15,Turn 8,6,Go to 6
@@ -4903,7 +4903,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 27,*,199,ルピー,Rupee,1,Action,500,Increm,11,EC W/O Strengthen
 28,*,199,ルピー,Rupee,1,Action,505,Drilnos,-1,None
 29,*,199,ルピー,Rupee,1,Action,503,Panika,14,PC W/O Confusion
-30,*,199,ルピー,Rupee,1,Action,506,Sacri,12,Nearest EC
+30,*,199,ルピー,Rupee,1,Action,506,Sacri,12,Nearest PC/EC
 31,*,199,ルピー,Rupee,1,Action,525,Pyrum,-1,None
 1,ebinit071.dat,199,ルピー,Rupee,0,Branch,1,HP < 50%,14,Go to 14
 2,ebinit071.dat,199,ルピー,Rupee,0,Branch,15,Turn 8,6,Go to 6
@@ -4948,7 +4948,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 27,*,200,ルピー,Rupee,1,Action,500,Increm,11,EC W/O Strengthen
 28,*,200,ルピー,Rupee,1,Action,505,Drilnos,-1,None
 29,*,200,ルピー,Rupee,1,Action,503,Panika,14,PC W/O Confusion
-30,*,200,ルピー,Rupee,1,Action,506,Sacri,12,Nearest EC
+30,*,200,ルピー,Rupee,1,Action,506,Sacri,12,Nearest PC/EC
 31,*,200,ルピー,Rupee,1,Action,525,Pyrum,-1,None
 1,ebinit072.dat,200,ルピー,Rupee,0,Branch,1,HP < 50%,14,Go to 14
 2,ebinit072.dat,200,ルピー,Rupee,0,Branch,15,Turn 8,6,Go to 6
@@ -4993,7 +4993,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 27,*,201,ルピー,Rupee,1,Action,500,Increm,11,EC W/O Strengthen
 28,*,201,ルピー,Rupee,1,Action,505,Drilnos,-1,None
 29,*,201,ルピー,Rupee,1,Action,503,Panika,14,PC W/O Confusion
-30,*,201,ルピー,Rupee,1,Action,506,Sacri,12,Nearest EC
+30,*,201,ルピー,Rupee,1,Action,506,Sacri,12,Nearest PC/EC
 31,*,201,ルピー,Rupee,1,Action,525,Pyrum,-1,None
 1,ebinit073.dat,201,ルピー,Rupee,0,Branch,1,HP < 50%,14,Go to 14
 2,ebinit073.dat,201,ルピー,Rupee,0,Branch,15,Turn 8,6,Go to 6
@@ -5042,9 +5042,9 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 31,*,202,ルピー,Rupee,1,Action,500,Increm,11,EC W/O Strengthen
 32,*,202,ルピー,Rupee,1,Action,505,Drilnos,-1,None
 33,*,202,ルピー,Rupee,1,Action,503,Panika,14,PC W/O Confusion
-34,*,202,ルピー,Rupee,1,Action,509,Sacrulen,12,Nearest EC
+34,*,202,ルピー,Rupee,1,Action,509,Sacrulen,12,Nearest PC/EC
 35,*,202,ルピー,Rupee,1,Action,525,Pyrum,-1,None
-36,*,202,ルピー,Rupee,1,Action,507,Sacres,12,Nearest EC
+36,*,202,ルピー,Rupee,1,Action,507,Sacres,12,Nearest PC/EC
 1,ebinit074.dat,202,ルピー,Rupee,0,Branch,1,HP < 50%,14,Go to 14
 2,ebinit074.dat,202,ルピー,Rupee,0,Branch,15,Turn 8,6,Go to 6
 3,ebinit074.dat,202,ルピー,Rupee,0,Branch,14,Turn 4,12,Go to 12
@@ -5099,7 +5099,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 23,*,208,バーツ,Barta,0,Branch,30,Always,24,Go to 24
 24,*,208,バーツ,Barta,1,Action,550,Attack,2,Random PC
 25,*,208,バーツ,Barta,1,Action,284,Legendary Fire,2,Random PC
-26,*,208,バーツ,Barta,1,Action,287,Sacri Crystal,12,Nearest EC
+26,*,208,バーツ,Barta,1,Action,287,Sacri Crystal,12,Nearest PC/EC
 27,*,208,バーツ,Barta,1,Action,285,Legendary Punch,3,PC With Highest HP
 28,*,208,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 29,*,208,バーツ,Barta,1,Action,551,Guard,-1,None
@@ -5155,7 +5155,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 23,*,209,バーツ,Barta,0,Branch,30,Always,24,Go to 24
 24,*,209,バーツ,Barta,1,Action,550,Attack,2,Random PC
 25,*,209,バーツ,Barta,1,Action,284,Legendary Fire,2,Random PC
-26,*,209,バーツ,Barta,1,Action,287,Sacri Crystal,12,Nearest EC
+26,*,209,バーツ,Barta,1,Action,287,Sacri Crystal,12,Nearest PC/EC
 27,*,209,バーツ,Barta,1,Action,285,Legendary Punch,3,PC With Highest HP
 28,*,209,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 29,*,209,バーツ,Barta,1,Action,551,Guard,-1,None
@@ -5211,7 +5211,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 23,*,210,バーツ,Barta,0,Branch,30,Always,24,Go to 24
 24,*,210,バーツ,Barta,1,Action,550,Attack,2,Random PC
 25,*,210,バーツ,Barta,1,Action,284,Legendary Fire,2,Random PC
-26,*,210,バーツ,Barta,1,Action,287,Sacri Crystal,12,Nearest EC
+26,*,210,バーツ,Barta,1,Action,287,Sacri Crystal,12,Nearest PC/EC
 27,*,210,バーツ,Barta,1,Action,285,Legendary Punch,3,PC With Highest HP
 28,*,210,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 29,*,210,バーツ,Barta,1,Action,551,Guard,-1,None
@@ -5267,7 +5267,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 23,*,211,バーツ,Barta,0,Branch,30,Always,24,Go to 24
 24,*,211,バーツ,Barta,1,Action,550,Attack,2,Random PC
 25,*,211,バーツ,Barta,1,Action,284,Legendary Fire,2,Random PC
-26,*,211,バーツ,Barta,1,Action,287,Sacri Crystal,12,Nearest EC
+26,*,211,バーツ,Barta,1,Action,287,Sacri Crystal,12,Nearest PC/EC
 27,*,211,バーツ,Barta,1,Action,285,Legendary Punch,3,PC With Highest HP
 28,*,211,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 29,*,211,バーツ,Barta,1,Action,551,Guard,-1,None
@@ -5323,7 +5323,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 23,*,212,バーツ,Barta,0,Branch,30,Always,24,Go to 24
 24,*,212,バーツ,Barta,1,Action,550,Attack,2,Random PC
 25,*,212,バーツ,Barta,1,Action,284,Legendary Fire,2,Random PC
-26,*,212,バーツ,Barta,1,Action,287,Sacri Crystal,12,Nearest EC
+26,*,212,バーツ,Barta,1,Action,287,Sacri Crystal,12,Nearest PC/EC
 27,*,212,バーツ,Barta,1,Action,285,Legendary Punch,3,PC With Highest HP
 28,*,212,バーツ,Barta,1,Action,286,Legendary Charge,-1,None
 29,*,212,バーツ,Barta,1,Action,551,Guard,-1,None
@@ -7133,7 +7133,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 25,*,243,デスハウンド,DeathHound,1,Action,551,Guard,-1,None
 26,*,243,デスハウンド,DeathHound,1,Action,501,Incremus,-1,None
 27,*,243,デスハウンド,DeathHound,1,Action,510,Noxi,19,PC W/O Poison
-28,*,243,デスハウンド,DeathHound,1,Action,506,Sacri,12,Nearest EC
+28,*,243,デスハウンド,DeathHound,1,Action,506,Sacri,12,Nearest PC/EC
 1,ebinit115.dat,243,デスハウンド,DeathHound,0,Branch,39,Any EC HP < 25%,25,Go to 25
 2,ebinit115.dat,243,デスハウンド,DeathHound,0,Branch,38,Any EC HP < 50%,22,Go to 22
 3,ebinit115.dat,243,デスハウンド,DeathHound,0,Branch,13,Turn 3,14,Go to 14
@@ -7198,7 +7198,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 25,*,244,デスバウンド,DeathHound,1,Action,551,Guard,-1,None
 26,*,244,デスバウンド,DeathHound,1,Action,501,Incremus,-1,None
 27,*,244,デスバウンド,DeathHound,1,Action,510,Noxi,19,PC W/O Poison
-28,*,244,デスバウンド,DeathHound,1,Action,507,Sacres,12,Nearest EC
+28,*,244,デスバウンド,DeathHound,1,Action,507,Sacres,12,Nearest PC/EC
 1,ebinit116.dat,244,デスハウンド,DeathHound,0,Branch,39,Any EC HP < 25%,25,Go to 25
 2,ebinit116.dat,244,デスハウンド,DeathHound,0,Branch,38,Any EC HP < 50%,22,Go to 22
 3,ebinit116.dat,244,デスハウンド,DeathHound,0,Branch,13,Turn 3,14,Go to 14
@@ -7264,7 +7264,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 26,*,245,デスバウンド,DeathHound,1,Action,551,Guard,-1,None
 27,*,245,デスバウンド,DeathHound,1,Action,501,Incremus,-1,None
 28,*,245,デスバウンド,DeathHound,1,Action,511,Noxus,-1,None
-29,*,245,デスバウンド,DeathHound,1,Action,507,Sacres,12,Nearest EC
+29,*,245,デスバウンド,DeathHound,1,Action,507,Sacres,12,Nearest PC/EC
 1,ebinit117.dat,245,デスハウンド,DeathHound,0,Branch,39,Any EC HP < 25%,25,Go to 25
 2,ebinit117.dat,245,デスハウンド,DeathHound,0,Branch,38,Any EC HP < 50%,22,Go to 22
 3,ebinit117.dat,245,デスハウンド,DeathHound,0,Branch,13,Turn 3,14,Go to 14
@@ -7333,7 +7333,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 29,*,246,デスバウンド,DeathHound,1,Action,551,Guard,-1,None
 30,*,246,デスバウンド,DeathHound,1,Action,501,Incremus,-1,None
 31,*,246,デスバウンド,DeathHound,1,Action,511,Noxus,-1,None
-32,*,246,デスバウンド,DeathHound,1,Action,508,Sacrum,12,Nearest EC
+32,*,246,デスバウンド,DeathHound,1,Action,508,Sacrum,12,Nearest PC/EC
 1,ebinit118.dat,246,デスハウンド,DeathHound,0,Branch,39,Any EC HP < 25%,25,Go to 25
 2,ebinit118.dat,246,デスハウンド,DeathHound,0,Branch,38,Any EC HP < 50%,22,Go to 22
 3,ebinit118.dat,246,デスハウンド,DeathHound,0,Branch,13,Turn 3,14,Go to 14
@@ -7434,7 +7434,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],[EC EU Name],Type ID,[Type Name],Task ID,
 18,*,250,ボゥ,Boo,1,Action,551,Guard,-1,None
 19,*,250,ボゥ,Boo,1,Action,116,Power Potion,11,EC W/O Strengthen
 20,*,250,ボゥ,Boo,1,Action,117,Speed Potion,-1,None
-21,*,250,ボゥ,Boo,1,Action,118,Sacres Crystal,12,Nearest EC
+21,*,250,ボゥ,Boo,1,Action,118,Sacres Crystal,12,Nearest PC/EC
 1,ebinit122.dat,250,ボゥ,Boo,0,Branch,11,Turn 1,4,Go to 4
 2,ebinit122.dat,250,ボゥ,Boo,0,Branch,12,Turn 2,7,Go to 7
 3,ebinit122.dat,250,ボゥ,Boo,0,Branch,30,Always,8,Go to 8

@@ -695,7 +695,7 @@ VOC.configure do |_v|
   _v.action_params[ 9] = "EC With Highest #{_v.defense}"
   _v.action_params[10] = "EC With Highest #{_v.quick}"
   _v.action_params[11] = 'EC W/O Strengthen'
-  _v.action_params[12] = 'Nearest EC'
+  _v.action_params[12] = 'Nearest PC/EC'
   _v.action_params[13] = "PC W/O #{_v.stone}"
   _v.action_params[14] = "PC W/O #{_v.confusion}"
   _v.action_params[15] = "PC W/O #{_v.silence}"
