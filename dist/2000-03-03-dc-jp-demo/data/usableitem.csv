@@ -9,8 +9,8 @@ Entry ID,Entry JP Name,Occasion Flags,[M],[B],[S],Effect ID,[Effect Name],Scope 
 247,Ｈ＆Ｍ回復１薬,0b0101,X,"",X,50,Recover HP & MP by 100% A,1,Single PC,100,50,8,1,100,0,0,500,10,???,0,Physical,0,Poison,0,0x2af994,28,ＨＰとＭＰを回復します。\n
 248,Ｈ＆Ｍ回復２薬,0b0101,X,"",X,51,Recover HP & MP by 100% B,1,Single PC,100,50,9,2,400,0,0,9999,99,???,0,Physical,0,Poison,0,0x2af9b0,36,ＨＰとＭＰをたくさん回復します。\n
 249,治癒薬,0b0010,"",X,"",30,Rem Neg States B,1,Single PC,100,50,10,31,30,0,0,0,0,Green,0,Physical,-1,None,-1,0x2af9d4,32,戦闘中の不利な状態を直します。\n
-250,復活１薬,0b0010,"",X,"",27,Revive w/ HP of 50%,1,Single PC,100,50,11,39,60,0,0,0,0,Green,0,Physical,-1,None,69,0x2af9f4,48,戦闘不能のキャラを５０％の確率で復活させます。\n
-251,復活２薬,0b0010,"",X,"",28,Revive w/ HP of 100%,1,Single PC,100,50,12,40,120,0,0,0,0,Green,0,Physical,-1,None,-1,0x2afa24,40,戦闘不能のキャラを必ず復活させます。\n
+250,復活１薬,0b0010,"",X,"",27,Revive With HP of 50%,1,Single PC,100,50,11,39,60,0,0,0,0,Green,0,Physical,-1,None,69,0x2af9f4,48,戦闘不能のキャラを５０％の確率で復活させます。\n
+251,復活２薬,0b0010,"",X,"",28,Revive With HP of 100%,1,Single PC,100,50,12,40,120,0,0,0,0,Green,0,Physical,-1,None,-1,0x2afa24,40,戦闘不能のキャラを必ず復活させます。\n
 252,攻防ＵＰ薬,0b0010,"",X,"",21,Incr Attack & Defense,1,Single PC,100,50,13,12,40,0,0,0,0,Green,0,Physical,-1,None,-1,0x2afa4c,32,パワーアップの状態になります。\n
 253,素早さＵＰ薬,0b0010,"",X,"",20,Incr Quick,1,Single PC,100,50,14,26,40,0,0,0,0,Green,0,Physical,-1,None,-1,0x2afa6c,36,スピードアップの状態になります。\n
 254,ＨＰターン回復薬,0b0010,"",X,"",33,Regenerate,1,Single PC,100,50,15,3,160,0,0,4,0,Green,0,Physical,0,Poison,0,0x2afa90,36,ＨＰターン回復の状態になります。\n
@@ -36,7 +36,7 @@ Entry ID,Entry JP Name,Occasion Flags,[M],[B],[S],Effect ID,[Effect Name],Scope 
 274,稲妻の杖,0b0010,"",X,"",0,Damage,37,EC Ray S3,10,10,32,7,600,0,0,600,4,Yellow,1,Magical,0,Poison,0,0x0,0,""
 275,回復の杖,0b0010,"",X,"",31,Recover HP,1,Single PC,0,10,33,8,400,0,0,500,-1,None,-1,None,0,Poison,0,0x0,0,""
 276,幸福の杖,0b0010,"",X,"",31,Recover HP,2,All PCs,10,10,34,14,600,0,0,1200,-1,None,-1,None,0,Poison,0,0x0,0,""
-277,復活の杖,0b0010,"",X,"",28,Revive w/ HP of 100%,1,Single PC,25,10,35,41,800,0,0,0,0,Green,0,Physical,-1,None,-1,0x0,0,""
+277,復活の杖,0b0010,"",X,"",28,Revive With HP of 100%,1,Single PC,25,10,35,41,800,0,0,0,0,Green,0,Physical,-1,None,-1,0x0,0,""
 278,沈黙の杖,0b0010,"",X,"",12,Silence,3,Single EC,5,10,36,32,300,0,0,0,0,Green,0,Physical,5,Silence,60,0x0,0,""
 279,混乱の杖,0b0010,"",X,"",11,Confusion,4,All ECs,15,10,37,16,600,0,0,0,0,Green,0,Physical,4,Confusion,60,0x0,0,""
 280,脱力の杖,0b0010,"",X,"",26,Decr All Attr,3,Single EC,5,10,38,30,300,0,0,0,0,Green,0,Physical,8,Weak,40,0x0,0,""

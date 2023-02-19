@@ -9,8 +9,8 @@ Entry ID,Entry US Name,Occasion Flags,[M],[B],[S],Effect ID,[Effect Name],Scope 
 247,Soul Crystal,0b0000,"","","",-1,None,0,None,0,100,49,54,3000,0,0,0,0,Green,0,Physical,0,Poison,0,0x365598,64,A valuable treasure sought by Zivilyn Bane on\nDaccat's Island.
 248,Unholy Dagger,0b0000,"","","",-1,None,0,None,0,100,50,51,4000,0,0,0,0,Green,0,Physical,0,Poison,0,0x3655d8,68,A valuable treasure sought by Zivilyn Bane in\nthe Grand Fortress.
 249,Curia Crystal,0b0010,"",X,"",30,Rem Neg States B,1,Single PC,100,50,7,18,30,0,0,0,0,Green,0,Physical,7,Revival,0,0x36561c,68,An ensorcelled crystal that cures all adverse\naffects on one ally
-250,Risan Crystal,0b0010,"",X,"",27,Revive w/ HP of 50%,1,Single PC,100,50,8,72,150,0,0,0,0,Green,0,Physical,7,Revival,50,0x365660,68,An ensorcelled crystal that has a 50% chance of\nreviving one ally
-251,Riselem Crystal,0b0010,"",X,"",28,Revive w/ HP of 100%,1,Single PC,100,50,9,73,450,0,0,0,0,Green,0,Physical,7,Revival,0,0x3656a4,60,An ensorcelled crystal that will revive an ally\nat Max HP.
+250,Risan Crystal,0b0010,"",X,"",27,Revive With HP of 50%,1,Single PC,100,50,8,72,150,0,0,0,0,Green,0,Physical,7,Revival,50,0x365660,68,An ensorcelled crystal that has a 50% chance of\nreviving one ally
+251,Riselem Crystal,0b0010,"",X,"",28,Revive With HP of 100%,1,Single PC,100,50,9,73,450,0,0,0,0,Green,0,Physical,7,Revival,0,0x3656a4,60,An ensorcelled crystal that will revive an ally\nat Max HP.
 252,Glyph of Might,0b0010,"",X,"",21,Incr Attack & Defense,1,Single PC,100,50,10,3,100,0,0,0,0,Green,0,Physical,7,Revival,0,0x3656e0,72,Developed by De Loco's Researchers.\nIncreases the Strength of one ally.
 253,Glyph of Speed,0b0010,"",X,"",20,Incr Quick,2,All PCs,100,50,11,21,100,0,0,0,0,Green,0,Physical,7,Revival,0,0x365728,72,Developed by De Loco's Researchers.\nIncreases the Speed of one ally.
 254,Healing Salve,0b0010,"",X,"",33,Regenerate,1,Single PC,100,50,12,74,50,0,0,250,0,Green,0,Physical,0,Poison,0,0x365770,76,Developed by De Loco's Researchers.\nAllows one ally to regenerate wounds.
@@ -36,7 +36,7 @@ Entry ID,Entry US Name,Occasion Flags,[M],[B],[S],Effect ID,[Effect Name],Scope 
 274,Electrum Box,0b0010,"",X,"",0,Damage,37,EC Ray S3,16,1,31,5,1200,0,0,420,4,Yellow,1,Magical,0,Poison,0,0x365cf8,88,A mage of the Yellow Moon has enchanted a box\nwith the spell Electrum. 5 or 6 charges.
 275,Sacri Box,0b0010,"",X,"",31,Recover HP,1,Single PC,8,1,32,12,800,0,0,500,-1,None,-1,None,0,Poison,0,0x365d50,92,A mage of the Green Moon has enchanted a box\nwith the spell Sacri. It has several charges.
 276,Sacrulen Box,0b0010,"",X,"",31,Recover HP,2,All PCs,16,1,33,13,1200,0,0,1000,-1,None,-1,None,0,Poison,0,0x365dac,88,A mage of the Green Moon has enchanted a box\nwith the spell Sacrulen. 5 or 6 charges.
-277,Riselem Box,0b0010,"",X,"",28,Revive w/ HP of 100%,1,Single PC,32,1,34,38,2400,0,0,0,0,Green,0,Physical,7,Revival,0,0x365e04,92,A mage of the Silver Moon has enchanted a box\nwith the spell Riselem. This box is fragile!
+277,Riselem Box,0b0010,"",X,"",28,Revive With HP of 100%,1,Single PC,32,1,34,38,2400,0,0,0,0,Green,0,Physical,7,Revival,0,0x365e04,92,A mage of the Silver Moon has enchanted a box\nwith the spell Riselem. This box is fragile!
 278,Sylenis Box,0b0010,"",X,"",12,Silence,3,Single EC,12,1,35,47,600,0,0,0,0,Green,0,Physical,5,Silence,30,0x365e60,88,A mage of the Purple Moon has enchanted a box\nwith the spell Sylenis. 7 or 8 charges.
 279,Panika Box,0b0010,"",X,"",11,Confusion,3,Single EC,24,1,36,28,1200,0,0,0,0,Green,0,Physical,4,Confusion,30,0x365eb8,88,A mage of the Purple Moon has enchanted a box\nwith the spell Panika. 3 or 4 charges.
 280,Driln Box,0b0010,"",X,"",26,Decr All Attr,3,Single EC,12,1,37,43,600,0,0,0,0,Green,0,Physical,8,Weak,50,0x365f10,84,A mage of the Yellow Moon has enchanted a box\nwith the spell Driln. 7 or 8 charges.
