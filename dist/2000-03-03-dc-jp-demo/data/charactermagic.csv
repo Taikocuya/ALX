@@ -14,8 +14,8 @@ Entry ID,Entry JP Name,Element ID,[Element Name],Order,Occasion Flags,[M],[B],[S
 12,スリーパ,3,Blue,110,0b0010,"",X,"",9,Sleep,4,All ECs,6,Magic,0,2,0,0,0,0,Physical,3,Sleep,50,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae264,48,睡眠Ж術です。\nＥＣ全体を一定確率で眠らせます。
 13,クイッカ,3,Blue,70,0b0011,"",X,X,20,Incr Quick,2,All PCs,6,Magic,0,2,0,0,0,0,Physical,-1,None,0,0,0,0,1,Always,0,108,Incr All Attr,5,8,100,-1,0,0,0,0x2ae294,56,すばやさアップЖ術です。\nＰＣ１人の素早さを上げます。
 14,キュア,5,Silver,80,0b0010,"",X,"",30,Rem Neg States B,1,Single PC,6,Magic,0,2,0,0,0,0,Physical,-1,None,0,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae2cc,60,治療Ж術です。\nＰＣ１人の毒、眠り、混乱を確実に解除します。
-15,ライザ,5,Silver,90,0b0010,"",X,"",27,Revive w/ HP of 50%,1,Single PC,6,Magic,0,5,0,0,0,0,Physical,-1,None,40,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae308,68,復活Ж術の第１段階です。\nＰＣ１人の戦闘不能を一定確率で解除します。
-16,ライゾン,5,Silver,91,0b0010,"",X,"",28,Revive w/ HP of 100%,1,Single PC,6,Magic,0,10,0,0,0,0,Physical,-1,None,0,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae34c,64,復活Ж術の第２段階です。\nＰＣ１人の戦闘不能を確実に解除します。
+15,ライザ,5,Silver,90,0b0010,"",X,"",27,Revive With HP of 50%,1,Single PC,6,Magic,0,5,0,0,0,0,Physical,-1,None,40,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae308,68,復活Ж術の第１段階です。\nＰＣ１人の戦闘不能を一定確率で解除します。
+16,ライゾン,5,Silver,91,0b0010,"",X,"",28,Revive With HP of 100%,1,Single PC,6,Magic,0,10,0,0,0,0,Physical,-1,None,0,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae34c,64,復活Ж術の第２段階です。\nＰＣ１人の戦闘不能を確実に解除します。
 17,ジェダ,5,Silver,100,0b0010,"",X,"",5,Unconscious,3,Single EC,6,Magic,0,4,0,0,0,0,Physical,1,Unconscious,70,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae38c,64,即死Ж術の第１段階です。\nＥＣ単体を一定確率で戦闘不能にします。
 18,ジェデス,5,Silver,101,0b0010,"",X,"",5,Unconscious,4,All ECs,6,Magic,0,10,0,0,0,0,Physical,1,Unconscious,70,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae3cc,64,即死Ж術の第２段階です。\nＥＣ全体を一定確率で戦闘不能にします。
 19,ジェドーサ,5,Silver,102,0b0010,"",X,"",6,Unconscious + Damage A,3,Single EC,6,Magic,0,25,0,0,250,1,Magical,1,Unconscious,0,0,0,0,-1,Never,0,-1,None,0,-1,0,-1,0,0,0,0x2ae40c,60,即死Ж術の第３段階です。\nＥＣ単体を確実に戦闘不能にします。
