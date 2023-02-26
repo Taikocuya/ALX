@@ -1472,7 +1472,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 9,*,100,アサシン,0,Branch,30,Always,11,Go to 11
 10,*,100,アサシン,1,Action,550,Attack,4,PC With Lowest HP
 11,*,100,アサシン,1,Action,551,Guard,-1,None
-12,*,100,アサシン,1,Action,502,サイレシャ,20,PC W/O Silence and Highest Will
+12,*,100,アサシン,1,Action,502,サイレシャ,20,PC W/O Silence but Highest Will
 13,*,100,アサシン,1,Action,522,ウェボーン,2,Random PC
 14,*,100,アサシン,1,Action,12,チェックメイト,3,PC With Highest HP
 1,*,101,イレイザー,0,Branch,11,Turn 1,4,Go to 4
@@ -1486,7 +1486,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 9,*,101,イレイザー,0,Branch,30,Always,11,Go to 11
 10,*,101,イレイザー,1,Action,550,Attack,4,PC With Lowest HP
 11,*,101,イレイザー,1,Action,551,Guard,-1,None
-12,*,101,イレイザー,1,Action,502,サイレシャ,20,PC W/O Silence and Highest Will
+12,*,101,イレイザー,1,Action,502,サイレシャ,20,PC W/O Silence but Highest Will
 13,*,101,イレイザー,1,Action,522,ウェボーン,2,Random PC
 14,*,101,イレイザー,1,Action,12,チェックメイト,3,PC With Highest HP
 1,*,102,要塞将兵,0,Branch,5,Got Hit by Spell?,12,Go to 12
@@ -2082,7 +2082,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 15,*,141,ビゴロ,0,Branch,25,Rating 50%,17,Go to 17
 16,*,141,ビゴロ,0,Branch,30,Always,18,Go to 18
 17,*,141,ビゴロ,1,Action,550,Attack,1,Nearest PC
-18,*,141,ビゴロ,1,Action,550,Attack,21,PC W/O Weak and Highest Attack
+18,*,141,ビゴロ,1,Action,550,Attack,21,PC W/O Weak but Highest Attack
 19,*,141,ビゴロ,1,Action,60,投げキッス,23,Aika
 20,*,141,ビゴロ,1,Action,551,Guard,-1,None
 1,*,142,ブラキロフス,0,Branch,50,Used S-Move?,4,Go to 4
@@ -2207,7 +2207,7 @@ Entry ID,[Filter],[EC ID],[EC JP Name],Type ID,[Type Name],Task ID,[Task Name],P
 21,*,148,ニルヴィナス,0,Branch,30,Always,25,Go to 25
 22,*,148,ニルヴィナス,1,Action,550,Attack,2,Random PC
 23,*,148,ニルヴィナス,1,Action,33,デスレーザー,2,Random PC
-24,*,148,ニルヴィナス,1,Action,33,デスレーザー,21,PC W/O Weak and Highest Attack
+24,*,148,ニルヴィナス,1,Action,33,デスレーザー,21,PC W/O Weak but Highest Attack
 25,*,148,ニルヴィナス,1,Action,42,アバランチャー,2,Random PC
 1,*,149,ビゴロ,0,Branch,50,Used S-Move?,5,Go to 5
 2,*,149,ビゴロ,0,Branch,22,Rating 20%,8,Go to 8

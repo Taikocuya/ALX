@@ -703,8 +703,8 @@ VOC.configure do |_v|
   _v.action_params[17] = "PC W/O #{_v.weak}"
   _v.action_params[18] = "PC W/O #{_v.fatigue}"
   _v.action_params[19] = "PC W/O #{_v.poison}"
-  _v.action_params[20] = "PC W/O #{_v.silence} and Highest #{_v.will}"
-  _v.action_params[21] = "PC W/O #{_v.weak} and Highest #{_v.attack}"
+  _v.action_params[20] = "PC W/O #{_v.silence} but Highest #{_v.will}"
+  _v.action_params[21] = "PC W/O #{_v.weak} but Highest #{_v.attack}"
   _v.action_params[22] = 'Self'
   _v.action_params[23] = "#{_v.characters[1]}"
   _v.action_params[24] = "PC W/O #{_v.stone}"
