@@ -1,0 +1,93 @@
+Entry ID,[Filter],[ES ID],[ES Name],Turn ID,Phase ID,Cond ID,[Cond Name],Cond Param ID,[Cond Param Name],T1 Type ID,[T1 Type Name],T1 Arm ID,T1 Param ID,[T1 Param Name],T1 Arm Dur,T2 Type ID,[T2 Type Name],T2 Arm ID,T2 Param ID,[T2 Param Name],T2 Arm Dur
+0,R500A.BIN,23,Blackbeard,0,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+1,R500A.BIN,23,Blackbeard,0,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+2,R500A.BIN,23,Blackbeard,0,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+3,R500A.BIN,23,Blackbeard,0,3,0,PS HP ≤,0,%,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+4,R500A.BIN,23,Blackbeard,1,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+5,R500A.BIN,23,Blackbeard,1,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+6,R500A.BIN,23,Blackbeard,1,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+7,R500A.BIN,23,Blackbeard,1,3,0,PS HP ≤,0,%,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+8,R500A.BIN,23,Blackbeard,2,0,-1,None,0,None,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+9,R500A.BIN,23,Blackbeard,2,1,-1,None,0,None,2,Focus,-1,-1,None,0,0,Attack,0,-1,None,0
+10,R500A.BIN,23,Blackbeard,2,2,-1,None,0,None,3,Guard,-1,-1,None,0,0,Attack,0,-1,None,0
+11,R500A.BIN,23,Blackbeard,2,3,0,PS HP ≤,0,%,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+12,R500A.BIN,23,Blackbeard,3,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+13,R500A.BIN,23,Blackbeard,3,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+14,R500A.BIN,23,Blackbeard,3,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+15,R500A.BIN,23,Blackbeard,3,3,0,PS HP ≤,0,%,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+16,R500A.BIN,23,Blackbeard,4,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+17,R500A.BIN,23,Blackbeard,4,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+18,R500A.BIN,23,Blackbeard,4,2,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+19,R500A.BIN,23,Blackbeard,4,3,0,PS HP ≤,0,%,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+0,R510A.BIN,4,Baluan Battleship,0,0,3,Rating,50,%,2,Focus,-1,-1,None,0,0,Attack,1,-1,None,0
+1,R510A.BIN,4,Baluan Battleship,0,1,3,Rating,70,%,2,Focus,-1,-1,None,0,3,Guard,-1,-1,None,0
+2,R510A.BIN,4,Baluan Battleship,0,2,4,ES Previous Task Type =,3,Guard,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+3,R510A.BIN,4,Baluan Battleship,0,3,0,PS HP ≤,0,%,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+4,R510A.BIN,4,Baluan Battleship,1,0,-1,None,0,None,0,Attack,2,-1,None,2,0,Attack,2,-1,None,2
+5,R510A.BIN,4,Baluan Battleship,1,1,3,Rating,30,%,0,Attack,1,-1,None,0,2,Focus,-1,-1,None,0
+6,R510A.BIN,4,Baluan Battleship,1,2,4,ES Previous Task Type =,0,Attack,3,Guard,-1,-1,None,0,0,Attack,1,-1,None,0
+7,R510A.BIN,4,Baluan Battleship,1,3,0,PS HP ≤,0,%,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+8,R510A.BIN,4,Baluan Battleship,2,0,3,Rating,50,%,0,Attack,2,-1,None,2,3,Guard,-1,-1,None,0
+9,R510A.BIN,4,Baluan Battleship,2,1,-1,None,0,None,2,Focus,-1,-1,None,0,2,Focus,-1,-1,None,0
+10,R510A.BIN,4,Baluan Battleship,2,2,3,Rating,50,%,3,Guard,-1,-1,None,0,0,Attack,1,-1,None,0
+11,R510A.BIN,4,Baluan Battleship,2,3,0,PS HP ≤,0,%,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+12,R510A.BIN,4,Baluan Battleship,3,0,3,Rating,50,%,3,Guard,-1,-1,None,0,2,Focus,-1,-1,None,0
+13,R510A.BIN,4,Baluan Battleship,3,1,3,Rating,80,%,2,Focus,-1,-1,None,0,3,Guard,-1,-1,None,0
+14,R510A.BIN,4,Baluan Battleship,3,2,3,Rating,50,%,0,Attack,0,-1,None,0,0,Attack,1,-1,None,0
+15,R510A.BIN,4,Baluan Battleship,3,3,0,PS HP ≤,0,%,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+16,R510A.BIN,4,Baluan Battleship,4,0,3,Rating,70,%,0,Attack,1,-1,None,0,0,Attack,2,-1,None,2
+17,R510A.BIN,4,Baluan Battleship,4,1,-1,None,0,None,2,Focus,-1,-1,None,0,2,Focus,-1,-1,None,0
+18,R510A.BIN,4,Baluan Battleship,4,2,3,Rating,80,%,0,Attack,0,-1,None,0,3,Guard,-1,-1,None,0
+19,R510A.BIN,4,Baluan Battleship,4,3,0,PS HP ≤,0,%,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+20,R510A.BIN,4,Baluan Battleship,5,0,3,Rating,70,%,0,Attack,2,-1,None,1,3,Guard,-1,-1,None,0
+21,R510A.BIN,4,Baluan Battleship,5,1,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+22,R510A.BIN,4,Baluan Battleship,5,2,3,Rating,50,%,0,Attack,1,-1,None,0,3,Guard,-1,-1,None,0
+23,R510A.BIN,4,Baluan Battleship,5,3,0,PS HP ≤,0,%,0,Attack,0,0,None,0,0,Attack,0,0,None,0
+0,R513A.BIN,35,Roc,0,0,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+1,R513A.BIN,35,Roc,0,1,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+2,R513A.BIN,35,Roc,0,2,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+3,R513A.BIN,35,Roc,0,3,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+4,R513A.BIN,35,Roc,1,0,3,Rating,50,%,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
+5,R513A.BIN,35,Roc,1,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+6,R513A.BIN,35,Roc,1,2,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+7,R513A.BIN,35,Roc,1,3,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+8,R513A.BIN,35,Roc,2,0,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+9,R513A.BIN,35,Roc,2,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+10,R513A.BIN,35,Roc,2,2,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+11,R513A.BIN,35,Roc,2,3,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+12,R513A.BIN,35,Roc,3,0,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+13,R513A.BIN,35,Roc,3,1,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+14,R513A.BIN,35,Roc,3,2,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+15,R513A.BIN,35,Roc,3,3,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+16,R513A.BIN,35,Roc,4,0,3,Rating,50,%,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
+17,R513A.BIN,35,Roc,4,1,3,Rating,50,%,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
+18,R513A.BIN,35,Roc,4,2,3,Rating,50,%,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
+19,R513A.BIN,35,Roc,4,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+20,R513A.BIN,35,Roc,5,0,3,Rating,50,%,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
+21,R513A.BIN,35,Roc,5,1,3,Rating,50,%,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
+22,R513A.BIN,35,Roc,5,2,3,Rating,50,%,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
+23,R513A.BIN,35,Roc,5,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+24,R513A.BIN,35,Roc,6,0,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+25,R513A.BIN,35,Roc,6,1,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+26,R513A.BIN,35,Roc,6,2,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+27,R513A.BIN,35,Roc,6,3,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+28,R513A.BIN,35,Roc,7,0,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+29,R513A.BIN,35,Roc,7,1,-1,None,0,None,0,Attack,1,-1,None,0,0,Attack,0,-1,None,0
+30,R513A.BIN,35,Roc,7,2,3,Rating,50,%,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
+31,R513A.BIN,35,Roc,7,3,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+32,R513A.BIN,35,Roc,8,0,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+33,R513A.BIN,35,Roc,8,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+34,R513A.BIN,35,Roc,8,2,3,Rating,50,%,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
+35,R513A.BIN,35,Roc,8,3,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+36,R513A.BIN,35,Roc,9,0,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+37,R513A.BIN,35,Roc,9,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+38,R513A.BIN,35,Roc,9,2,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+39,R513A.BIN,35,Roc,9,3,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+40,R513A.BIN,35,Roc,10,0,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+41,R513A.BIN,35,Roc,10,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+42,R513A.BIN,35,Roc,10,2,3,Rating,50,%,4,Nothing,-1,-1,None,0,3,Guard,-1,-1,None,0
+43,R513A.BIN,35,Roc,10,3,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+44,R513A.BIN,35,Roc,11,0,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0
+45,R513A.BIN,35,Roc,11,1,-1,None,0,None,0,Attack,3,-1,None,0,0,Attack,0,-1,None,0
+46,R513A.BIN,35,Roc,11,2,3,Rating,50,%,4,Nothing,-1,-1,None,0,0,Attack,0,-1,None,0
+47,R513A.BIN,35,Roc,11,3,-1,None,0,None,0,Attack,0,-1,None,0,0,Attack,0,-1,None,0

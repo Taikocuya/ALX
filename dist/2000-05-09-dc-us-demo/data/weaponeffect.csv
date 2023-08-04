@@ -1,0 +1,22 @@
+Entry ID,Entry JP Name,[Descr Str],Effect ID,[Effect Name],State ID,[State Name],State Miss%
+0,毒,Poison by 10%,4,Poison + Damage,0,Poison,90
+1,睡眠,Sleep by 10%,69,Sleep + Damage,3,Sleep,90
+2,全能力低下,Weak by 10%,73,Weak + Damage,8,Weak,90
+3,混乱,Confusion by 10%,70,Confusion + Damage,4,Confusion,90
+4,沈黙,Silence by 10%,71,Silence + Damage,5,Silence,90
+5,混乱,Confusion by 20%,70,Confusion + Damage,4,Confusion,80
+6,即死,Unconscious by 10%,68,Unconscious + Damage B,1,Unconscious,90
+7,沈黙,Silence by 10%,71,Silence + Damage,5,Silence,90
+8,人形,Stone by 10%,8,Stone + Damage,2,Stone,90
+9,睡眠,Sleep by 10%,69,Sleep + Damage,3,Sleep,90
+10,即死,Unconscious by 20%,68,Unconscious + Damage B,1,Unconscious,80
+11,"",None,0,Damage,0,Poison,0
+12,"",None,0,Damage,0,Poison,0
+13,"",None,0,Damage,0,Poison,0
+14,"",None,0,Damage,0,Poison,0
+15,"",None,0,Damage,0,Poison,0
+16,"",None,0,Damage,0,Poison,0
+17,"",None,0,Damage,0,Poison,0
+18,"",None,0,Damage,0,Poison,0
+19,"",None,0,Damage,0,Poison,0
+20,"",None,0,Damage,0,Poison,0

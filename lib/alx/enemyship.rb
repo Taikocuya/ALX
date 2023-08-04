@@ -58,7 +58,9 @@ class EnemyShip < StdEntry
   def items=(_items)
     @items = _items || {}
     
-    if product_id != '6107110 06' && product_id != '6107810'
+    if product_id != '6107110 06' && 
+       product_id != '6107810'    && 
+       product_id != 'HDR-0000'
       (1..3).each do |_i|
         fetch(VOC.item_id(_i))&.call_proc
       end
@@ -88,7 +90,8 @@ class EnemyShip < StdEntry
     self[VOC.defense] = IntProp.new(:i16, -1)
     self[VOC.magdef ] = IntProp.new(:i16, -1)
 
-    if product_id != '6107110 06' && product_id != '6107810'
+    if product_id != '6107110 06' && 
+       product_id != '6107810'
       self[VOC.quick] = IntProp.new(:i16, -1)
       self[VOC.agile] = IntProp.new(:i16, -1)
       self[VOC.dodge] = IntProp.new(:i16, -1)
@@ -118,7 +121,8 @@ class EnemyShip < StdEntry
       self[VOC.arm_element_name(_i)] = StrProp.new( nil, '', dmy: true)
     end
     
-    if product_id != '6107110 06' && product_id != '6107810'
+    if product_id != '6107110 06' && 
+       product_id != '6107810'
       self[padding_hdr] = IntProp.new(:i16, 0)
       self[padding_hdr] = IntProp.new(:i16, 0)
       self[padding_hdr] = IntProp.new(:i16, 0)
@@ -132,7 +136,9 @@ class EnemyShip < StdEntry
     self[VOC.exp(nil)] = IntProp.new(:i32, -1)
     self[VOC.gold   ] = IntProp.new(:i32, -1)
 
-    if product_id != '6107110 06' && product_id != '6107810'
+    if product_id != '6107110 06' && 
+       product_id != '6107810'    && 
+       product_id != 'HDR-0000'
       (1..3).each do |_i|
         self[VOC.item_drop_id(_i)  ] = IntProp.new(:i16, -1           )
         self[VOC.item_drop_name(_i)] = StrProp.new( nil, '', dmy: true)
@@ -159,7 +165,9 @@ class EnemyShip < StdEntry
       end
     end
 
-    if product_id != '6107110 06' && product_id != '6107810'
+    if product_id != '6107110 06' && 
+       product_id != '6107810'    && 
+       product_id != 'HDR-0000'
       (1..3).each do |_i|
         fetch(VOC.item_drop_id(_i)).proc = Proc.new do |_id|
           self[VOC.item_drop_name(_i)] = VOC.drops(_id)

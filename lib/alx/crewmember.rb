@@ -61,7 +61,9 @@ class CrewMember < StdEntry
     self[VOC.position_id  ] = IntProp.new(:i8, -1           )
     self[VOC.position_name] = StrProp.new(nil, '', dmy: true)
 
-    if product_id != '6107110 06' && product_id != '6107810'
+    if product_id != '6107110 06' && 
+       product_id != '6107810'    && 
+       product_id != 'HDR-0000'
       if eu?
         self[padding_hdr] = IntProp.new(:i8, 0)
       end
@@ -106,6 +108,10 @@ class CrewMember < StdEntry
       self[padding_hdr          ] = IntProp.new( :i8,  0           )
       self[padding_hdr          ] = IntProp.new( :i8,  0           )
       self[padding_hdr          ] = IntProp.new( :i8,  0           )
+      
+      if product_id == 'HDR-0000'
+        add_dscr_props
+      end
     end
   end
   

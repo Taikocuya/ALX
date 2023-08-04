@@ -1,0 +1,23 @@
+Entry ID,Entry US Name,Pos ID,[Pos Name],Trait ID,[Trait Name],Pad 1,Trait Value,Ship Eff ID,[Ship Eff Name],Ship Eff Turns,Ship Eff Base,Unk 1,Pad 2,Pad 3,Pad 4,Pad 5,[US Descr Pos],[US Descr Size],US Descr Str
+0,ロレンス,1,Engineer,4,Quick,0,200,-1,None,-1,0,0,0,0,0,0,0x2edca0,12,\n航海士。
+1,ドン,1,Engineer,6,Dodge%,0,50,-1,None,-1,0,0,0,0,0,0,0x0,0,""
+2,ブラバム,0,Helmsman,2,Defense,0,100,-1,None,-1,0,0,0,0,0,0,0x2edcac,12,\n機関士。
+3,ハンス,0,Helmsman,3,MagDef,0,200,-1,None,-1,0,0,0,0,0,0,0x0,0,""
+4,ベル,2,Gunner,64,Sec Cannon Atk,0,100,-1,None,-1,0,0,0,0,0,0,0x2edcb8,8,\n砲手。
+5,カシム,2,Gunner,48,Main Cannon Atk,0,100,-1,None,-1,0,0,0,0,0,0,0x0,0,""
+6,ティカティカ,3,Lookout,81,Torpedo Hit%,0,100,-1,None,-1,0,0,0,0,0,0,0x2edcc0,12,\n見張り。
+7,ドミンゴ,3,Lookout,-1,None,0,0,112,Incr Critical%,0,0,0,0,0,0,0,0x0,0,""
+8,オスマン,4,Merchant,-1,None,0,0,-1,None,-1,0,0,0,0,0,0,0x2edccc,8,\n商人。
+9,カリファ,4,Merchant,-1,None,0,0,-1,None,-1,0,0,0,0,0,0,0x0,0,""
+10,イズレール,5,Builder,96,Special Attack,0,100,-1,None,-1,0,0,0,0,0,0,0x2edcd4,8,\n大工。
+11,キララ,5,Builder,-1,None,0,0,101,Recover HP by 100%,0,0,1,0,0,0,0,0x0,0,""
+12,ポリー,6,Cook,-1,None,0,0,117,Recover MP,-1,10,130,0,0,0,0,0x2edcdc,12,\nコック。
+13,ウララ,6,Cook,-1,None,0,0,103,Recover SP by 100%,-1,0,9,0,0,0,0,0x0,0,""
+14,リュウカン,7,Artisan,-1,None,0,0,105,Incr Attack + Defense,8,0,0,0,0,0,0,0x2edce8,12,\n鍛冶屋。
+15,アルキュミス,9,Jester,-1,None,0,0,108,Incr All Attr,8,50,0,0,0,0,0,0x0,0,""
+16,マルコ,8,Sailor,-1,None,0,0,114,Recover SP by 200%,-1,0,0,0,0,0,0,0x2edcf4,8,\n水夫。
+17,ロビンソン,8,Sailor,-1,None,0,0,111,Incr First Strike%,0,0,0,0,0,0,0,0x0,0,""
+18,パウ,7,Artisan,-1,None,0,0,113,Consume SP by 50%,0,0,0,0,0,0,0,0x2edcfc,12,\n人気者。
+19,メリダ,9,Jester,7,Value,0,10000,-100,???,-1,0,0,0,0,0,0,0x0,0,""
+20,モエギ,10,Delegate,-1,None,0,0,110,Block Magic,0,0,0,0,0,0,0,0x2edd08,12,\nゲスト。
+21,ピンタ,10,Delegate,-1,None,0,0,109,Block Attack,0,0,0,0,0,0,0,0x0,0,""
