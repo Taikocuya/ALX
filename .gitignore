@@ -8,9 +8,9 @@
 /dist/**/meta
 /dist/**/root
 /dist/**/scripttask
-/log/
-/misc/
-/temp/
+/log
+/misc
+/temp
 /vendor/*
 !/vendor/gcrebuilder
 !/vendor/gdibuilder
