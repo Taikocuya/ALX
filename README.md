@@ -55,7 +55,7 @@ Pre-exported CSV files with complete game data can already be found in the
 |:-------------------------|:------------------------------------------------|
 | `2000-03-03-dc-jp-demo`  | Kuzokuban (Trial Edition)                       |
 | `2000-04-07-dc-jp-demo`  | Dreamcast Express Vol. 6                        |
-| `2000-05-09-dc-us-demo`  | E3 Prototype                                |
+| `2000-05-09-dc-us-demo`  | E3 Prototype                                    |
 | `2000-08-21-dc-us-demo`  | Official Sega Dreamcast Magazine Vol. 9         |
 | `2000-08-23-dc-jp-barai` | @barai Version                                  |
 | `2000-08-28-dc-jp-final` | Final JP Build                                  |

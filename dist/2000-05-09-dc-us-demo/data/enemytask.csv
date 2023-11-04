@@ -1,0 +1,598 @@
+Entry ID,[Filter],[EC ID],[EC JP Name],[EC US Name],Type ID,[Type Name],Task ID,[Task Name],Param ID,[Param Name]
+1,*,0,軍艦兵,Battleship Soldier,0,Branch,21,Rating 10%,3,Go to 3
+2,*,0,軍艦兵,Battleship Soldier,1,Action,550,Attack,2,Random PC
+3,*,0,軍艦兵,Battleship Soldier,1,Action,551,Guard,-1,None
+1,*,1,航行士,Sailor,0,Branch,42,Used Sacri Crystals ≥ 1,6,Go to 6
+2,*,1,航行士,Sailor,0,Branch,39,Any EC HP < 25%,5,Go to 5
+3,*,1,航行士,Sailor,0,Branch,29,Rating 90%,6,Go to 6
+4,*,1,航行士,Sailor,0,Branch,30,Always,8,Go to 8
+5,*,1,航行士,Sailor,0,Branch,25,Rating 50%,7,Go to 7
+6,*,1,航行士,Sailor,1,Action,550,Attack,2,Random PC
+7,*,1,航行士,Sailor,1,Action,79,Medicinal Herb,7,EC With Lowest HP
+8,*,1,航行士,Sailor,1,Action,551,Guard,-1,None
+1,*,2,ミクラステル,Micrastel,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
+2,*,2,ミクラステル,Micrastel,0,Branch,30,Always,4,Go to 4
+3,*,2,ミクラステル,Micrastel,0,Branch,28,Rating 80%,10,Go to 10
+4,*,2,ミクラステル,Micrastel,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
+5,*,2,ミクラステル,Micrastel,0,Branch,30,Always,7,Go to 7
+6,*,2,ミクラステル,Micrastel,0,Branch,24,Rating 40%,10,Go to 10
+7,*,2,ミクラステル,Micrastel,0,Branch,24,Rating 40%,9,Go to 9
+8,*,2,ミクラステル,Micrastel,1,Action,550,Attack,1,Nearest PC
+9,*,2,ミクラステル,Micrastel,1,Action,4,Laser,0,Furthest PC
+10,*,2,ミクラステル,Micrastel,1,Action,552,Run,-1,None
+1,*,3,マロッカ,Marocca,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,3,マロッカ,Marocca,0,Branch,30,Always,4,Go to 4
+3,*,3,マロッカ,Marocca,0,Branch,26,Rating 60%,8,Go to 8
+4,*,3,マロッカ,Marocca,0,Branch,1,HP < 50%,7,Go to 7
+5,*,3,マロッカ,Marocca,0,Branch,28,Rating 80%,7,Go to 7
+6,*,3,マロッカ,Marocca,1,Action,551,Guard,-1,None
+7,*,3,マロッカ,Marocca,1,Action,550,Attack,1,Nearest PC
+8,*,3,マロッカ,Marocca,1,Action,552,Run,-1,None
+1,*,4,アーアペプ,Grouder,0,Branch,33,Used Attack Spells ≥ 1,3,Go to 3
+2,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,10,Go to 10
+3,*,4,アーアペプ,Grouder,0,Branch,36,Used State Spells ≥ 2,5,Go to 5
+4,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,9,Go to 9
+5,*,4,アーアペプ,Grouder,0,Branch,23,Rating 30%,11,Go to 11
+6,*,4,アーアペプ,Grouder,0,Branch,22,Rating 20%,8,Go to 8
+7,*,4,アーアペプ,Grouder,1,Action,550,Attack,2,Random PC
+8,*,4,アーアペプ,Grouder,1,Action,551,Guard,-1,None
+9,*,4,アーアペプ,Grouder,1,Action,503,Panika,14,PC W/O Confusion
+10,*,4,アーアペプ,Grouder,1,Action,520,Wevli,2,Random PC
+11,*,4,アーアペプ,Grouder,1,Action,57,Eerie Wail,2,Random PC
+1,*,7,煌術処刑士,Magic Executor,0,Branch,17,ECs Alive = 1,19,Go to 19
+2,*,7,煌術処刑士,Magic Executor,0,Branch,35,Used State Spells ≥ 1,9,Go to 9
+3,*,7,煌術処刑士,Magic Executor,0,Branch,40,Used Gather Strength?,20,Go to 20
+4,*,7,煌術処刑士,Magic Executor,0,Branch,32,Used Sacri Spells ≥ 2,9,Go to 9
+5,*,7,煌術処刑士,Magic Executor,0,Branch,39,Any EC HP < 25%,21,Go to 21
+6,*,7,煌術処刑士,Magic Executor,0,Branch,11,Turn 1,9,Go to 9
+7,*,7,煌術処刑士,Magic Executor,0,Branch,12,Turn 2,9,Go to 9
+8,*,7,煌術処刑士,Magic Executor,0,Branch,22,Rating 20%,21,Go to 21
+9,*,7,煌術処刑士,Magic Executor,0,Branch,37,Turn ≥ 5,14,Go to 14
+10,*,7,煌術処刑士,Magic Executor,0,Branch,25,Rating 50%,23,Go to 23
+11,*,7,煌術処刑士,Magic Executor,0,Branch,26,Rating 60%,19,Go to 19
+12,*,7,煌術処刑士,Magic Executor,0,Branch,25,Rating 50%,20,Go to 20
+13,*,7,煌術処刑士,Magic Executor,0,Branch,30,Always,25,Go to 25
+14,*,7,煌術処刑士,Magic Executor,0,Branch,24,Rating 40%,23,Go to 23
+15,*,7,煌術処刑士,Magic Executor,0,Branch,24,Rating 40%,19,Go to 19
+16,*,7,煌術処刑士,Magic Executor,0,Branch,24,Rating 40%,24,Go to 24
+17,*,7,煌術処刑士,Magic Executor,0,Branch,25,Rating 50%,21,Go to 21
+18,*,7,煌術処刑士,Magic Executor,0,Branch,30,Always,25,Go to 25
+19,*,7,煌術処刑士,Magic Executor,1,Action,550,Attack,1,Nearest PC
+20,*,7,煌術処刑士,Magic Executor,1,Action,500,Increm,8,EC With Highest Attack
+21,*,7,煌術処刑士,Magic Executor,1,Action,506,Sacri,7,EC With Lowest HP
+22,*,7,煌術処刑士,Magic Executor,1,Action,506,Sacri,8,EC With Highest Attack
+23,*,7,煌術処刑士,Magic Executor,1,Action,526,Crystali,2,Random PC
+24,*,7,煌術処刑士,Magic Executor,1,Action,37,Reform,-1,None
+25,*,7,煌術処刑士,Magic Executor,1,Action,551,Guard,-1,None
+1,*,8,レトモニケ,Flestik,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,8,レトモニケ,Flestik,0,Branch,30,Always,4,Go to 4
+3,*,8,レトモニケ,Flestik,0,Branch,28,Rating 80%,16,Go to 16
+4,*,8,レトモニケ,Flestik,0,Branch,2,HP < 25%,12,Go to 12
+5,*,8,レトモニケ,Flestik,0,Branch,4,Got Hit?,7,Go to 7
+6,*,8,レトモニケ,Flestik,0,Branch,30,Always,9,Go to 9
+7,*,8,レトモニケ,Flestik,0,Branch,28,Rating 80%,14,Go to 14
+8,*,8,レトモニケ,Flestik,0,Branch,30,Always,15,Go to 15
+9,*,8,レトモニケ,Flestik,0,Branch,26,Rating 60%,14,Go to 14
+10,*,8,レトモニケ,Flestik,0,Branch,26,Rating 60%,15,Go to 15
+11,*,8,レトモニケ,Flestik,0,Branch,30,Always,16,Go to 16
+12,*,8,レトモニケ,Flestik,0,Branch,24,Rating 40%,16,Go to 16
+13,*,8,レトモニケ,Flestik,0,Branch,30,Always,9,Go to 9
+14,*,8,レトモニケ,Flestik,1,Action,550,Attack,1,Nearest PC
+15,*,8,レトモニケ,Flestik,1,Action,551,Guard,-1,None
+16,*,8,レトモニケ,Flestik,1,Action,552,Run,-1,None
+1,*,9,パラミス,Basallish,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,9,パラミス,Basallish,0,Branch,30,Always,4,Go to 4
+3,*,9,パラミス,Basallish,0,Branch,29,Rating 90%,16,Go to 16
+4,*,9,パラミス,Basallish,0,Branch,2,HP < 25%,12,Go to 12
+5,*,9,パラミス,Basallish,0,Branch,4,Got Hit?,7,Go to 7
+6,*,9,パラミス,Basallish,0,Branch,30,Always,9,Go to 9
+7,*,9,パラミス,Basallish,0,Branch,29,Rating 90%,14,Go to 14
+8,*,9,パラミス,Basallish,0,Branch,30,Always,16,Go to 16
+9,*,9,パラミス,Basallish,0,Branch,27,Rating 70%,14,Go to 14
+10,*,9,パラミス,Basallish,0,Branch,24,Rating 40%,15,Go to 15
+11,*,9,パラミス,Basallish,0,Branch,30,Always,16,Go to 16
+12,*,9,パラミス,Basallish,0,Branch,25,Rating 50%,16,Go to 16
+13,*,9,パラミス,Basallish,0,Branch,30,Always,9,Go to 9
+14,*,9,パラミス,Basallish,1,Action,550,Attack,1,Nearest PC
+15,*,9,パラミス,Basallish,1,Action,551,Guard,-1,None
+16,*,9,パラミス,Basallish,1,Action,552,Run,-1,None
+1,*,10,クグツムシ,Mind Stealer,0,Branch,21,Rating 10%,3,Go to 3
+2,*,10,クグツムシ,Mind Stealer,1,Action,550,Attack,1,Nearest PC
+3,*,10,クグツムシ,Mind Stealer,1,Action,551,Guard,-1,None
+1,*,11,フォカラルガ,Walrenk,0,Branch,33,Used Attack Spells ≥ 1,3,Go to 3
+2,*,11,フォカラルガ,Walrenk,0,Branch,22,Rating 20%,9,Go to 9
+3,*,11,フォカラルガ,Walrenk,0,Branch,35,Used State Spells ≥ 1,5,Go to 5
+4,*,11,フォカラルガ,Walrenk,0,Branch,22,Rating 20%,8,Go to 8
+5,*,11,フォカラルガ,Walrenk,0,Branch,21,Rating 10%,7,Go to 7
+6,*,11,フォカラルガ,Walrenk,1,Action,550,Attack,2,Random PC
+7,*,11,フォカラルガ,Walrenk,1,Action,551,Guard,-1,None
+8,*,11,フォカラルガ,Walrenk,1,Action,503,Panika,14,PC W/O Confusion
+9,*,11,フォカラルガ,Walrenk,1,Action,527,グラシィ,2,Random PC
+1,*,13,アスフール,Azbeth,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,13,アスフール,Azbeth,0,Branch,30,Always,4,Go to 4
+3,*,13,アスフール,Azbeth,0,Branch,27,Rating 70%,15,Go to 15
+4,*,13,アスフール,Azbeth,0,Branch,25,Rating 50%,13,Go to 13
+5,*,13,アスフール,Azbeth,0,Branch,24,Rating 40%,8,Go to 8
+6,*,13,アスフール,Azbeth,0,Branch,28,Rating 80%,11,Go to 11
+7,*,13,アスフール,Azbeth,0,Branch,30,Always,14,Go to 14
+8,*,13,アスフール,Azbeth,0,Branch,25,Rating 50%,16,Go to 16
+9,*,13,アスフール,Azbeth,0,Branch,24,Rating 40%,17,Go to 17
+10,*,13,アスフール,Azbeth,0,Branch,30,Always,18,Go to 18
+11,*,13,アスフール,Azbeth,0,Branch,35,Used State Spells ≥ 1,19,Go to 19
+12,*,13,アスフール,Azbeth,0,Branch,30,Always,20,Go to 20
+13,*,13,アスフール,Azbeth,1,Action,550,Attack,2,Random PC
+14,*,13,アスフール,Azbeth,1,Action,551,Guard,-1,None
+15,*,13,アスフール,Azbeth,1,Action,552,Run,-1,None
+16,*,13,アスフール,Azbeth,1,Action,200,Call Allies,-1,None
+17,*,13,アスフール,Azbeth,1,Action,201,Call Allies,-1,None
+18,*,13,アスフール,Azbeth,1,Action,108,Call Allies,-1,None
+19,*,13,アスフール,Azbeth,1,Action,517,Eterni,2,Random PC
+20,*,13,アスフール,Azbeth,1,Action,100,Magical Chant？,-1,None
+1,*,14,盗掘者,Zivilyn Bane,0,Branch,11,Turn 1,6,Go to 6
+2,*,14,盗掘者,Zivilyn Bane,0,Branch,12,Turn 2,6,Go to 6
+3,*,14,盗掘者,Zivilyn Bane,0,Branch,13,Turn 3,8,Go to 8
+4,*,14,盗掘者,Zivilyn Bane,0,Branch,14,Turn 4,8,Go to 8
+5,*,14,盗掘者,Zivilyn Bane,0,Branch,37,Turn ≥ 5,11,Go to 11
+6,*,14,盗掘者,Zivilyn Bane,0,Branch,26,Rating 60%,14,Go to 14
+7,*,14,盗掘者,Zivilyn Bane,0,Branch,30,Always,15,Go to 15
+8,*,14,盗掘者,Zivilyn Bane,0,Branch,25,Rating 50%,14,Go to 14
+9,*,14,盗掘者,Zivilyn Bane,0,Branch,28,Rating 80%,15,Go to 15
+10,*,14,盗掘者,Zivilyn Bane,0,Branch,30,Always,16,Go to 16
+11,*,14,盗掘者,Zivilyn Bane,0,Branch,23,Rating 30%,14,Go to 14
+12,*,14,盗掘者,Zivilyn Bane,0,Branch,25,Rating 50%,15,Go to 15
+13,*,14,盗掘者,Zivilyn Bane,0,Branch,30,Always,16,Go to 16
+14,*,14,盗掘者,Zivilyn Bane,1,Action,550,Attack,4,PC With Lowest HP
+15,*,14,盗掘者,Zivilyn Bane,1,Action,22,発破,2,Random PC
+16,*,14,盗掘者,Zivilyn Bane,1,Action,552,Run,-1,None
+1,*,15,ヌール,Nur,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,15,ヌール,Nur,0,Branch,30,Always,4,Go to 4
+3,*,15,ヌール,Nur,0,Branch,28,Rating 80%,16,Go to 16
+4,*,15,ヌール,Nur,0,Branch,0,HP = 100%,7,Go to 7
+5,*,15,ヌール,Nur,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
+6,*,15,ヌール,Nur,0,Branch,28,Rating 80%,14,Go to 14
+7,*,15,ヌール,Nur,0,Branch,9,Any PC Distance ≥ 3,11,Go to 11
+8,*,15,ヌール,Nur,0,Branch,26,Rating 60%,14,Go to 14
+9,*,15,ヌール,Nur,0,Branch,26,Rating 60%,14,Go to 14
+10,*,15,ヌール,Nur,0,Branch,30,Always,16,Go to 16
+11,*,15,ヌール,Nur,0,Branch,25,Rating 50%,14,Go to 14
+12,*,15,ヌール,Nur,0,Branch,25,Rating 50%,14,Go to 14
+13,*,15,ヌール,Nur,0,Branch,30,Always,16,Go to 16
+14,*,15,ヌール,Nur,1,Action,550,Attack,1,Nearest PC
+15,*,15,ヌール,Nur,1,Action,210,ＨＰ吸収,3,PC With Highest HP
+16,*,15,ヌール,Nur,1,Action,552,Run,-1,None
+1,*,17,ヴァンピレッサ,Tsirat,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,17,ヴァンピレッサ,Tsirat,0,Branch,30,Always,4,Go to 4
+3,*,17,ヴァンピレッサ,Tsirat,0,Branch,24,Rating 40%,11,Go to 11
+4,*,17,ヴァンピレッサ,Tsirat,0,Branch,0,HP = 100%,7,Go to 7
+5,*,17,ヴァンピレッサ,Tsirat,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
+6,*,17,ヴァンピレッサ,Tsirat,0,Branch,25,Rating 50%,12,Go to 12
+7,*,17,ヴァンピレッサ,Tsirat,0,Branch,33,Used Attack Spells ≥ 1,9,Go to 9
+8,*,17,ヴァンピレッサ,Tsirat,0,Branch,24,Rating 40%,13,Go to 13
+9,*,17,ヴァンピレッサ,Tsirat,0,Branch,21,Rating 10%,11,Go to 11
+10,*,17,ヴァンピレッサ,Tsirat,1,Action,550,Attack,2,Random PC
+11,*,17,ヴァンピレッサ,Tsirat,1,Action,552,Run,-1,None
+12,*,17,ヴァンピレッサ,Tsirat,1,Action,211,ＨＰ吸収,3,PC With Highest HP
+13,*,17,ヴァンピレッサ,Tsirat,1,Action,532,ボルタ,2,Random PC
+1,*,18,セベスク,Thorkryn,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,18,セベスク,Thorkryn,0,Branch,30,Always,4,Go to 4
+3,*,18,セベスク,Thorkryn,0,Branch,24,Rating 40%,13,Go to 13
+4,*,18,セベスク,Thorkryn,0,Branch,40,Used Gather Strength?,15,Go to 15
+5,*,18,セベスク,Thorkryn,0,Branch,5,Got Hit by Spell?,14,Go to 14
+6,*,18,セベスク,Thorkryn,0,Branch,1,HP < 50%,14,Go to 14
+7,*,18,セベスク,Thorkryn,0,Branch,24,Rating 40%,14,Go to 14
+8,*,18,セベスク,Thorkryn,0,Branch,28,Rating 80%,11,Go to 11
+9,*,18,セベスク,Thorkryn,0,Branch,27,Rating 70%,12,Go to 12
+10,*,18,セベスク,Thorkryn,0,Branch,30,Always,13,Go to 13
+11,*,18,セベスク,Thorkryn,1,Action,550,Attack,2,Random PC
+12,*,18,セベスク,Thorkryn,1,Action,551,Guard,-1,None
+13,*,18,セベスク,Thorkryn,1,Action,552,Run,-1,None
+14,*,18,セベスク,Thorkryn,1,Action,20,ためる,-1,None
+15,*,18,セベスク,Thorkryn,1,Action,170,針乱射,2,Random PC
+1,*,19,ユールマラー,Scorfly,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
+2,*,19,ユールマラー,Scorfly,0,Branch,30,Always,4,Go to 4
+3,*,19,ユールマラー,Scorfly,0,Branch,24,Rating 40%,6,Go to 6
+4,*,19,ユールマラー,Scorfly,0,Branch,21,Rating 10%,6,Go to 6
+5,*,19,ユールマラー,Scorfly,1,Action,550,Attack,1,Nearest PC
+6,*,19,ユールマラー,Scorfly,1,Action,552,Run,-1,None
+1,*,20,レトモニケ２,Centralk,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,20,レトモニケ２,Centralk,0,Branch,30,Always,4,Go to 4
+3,*,20,レトモニケ２,Centralk,0,Branch,28,Rating 80%,16,Go to 16
+4,*,20,レトモニケ２,Centralk,0,Branch,2,HP < 25%,12,Go to 12
+5,*,20,レトモニケ２,Centralk,0,Branch,4,Got Hit?,7,Go to 7
+6,*,20,レトモニケ２,Centralk,0,Branch,30,Always,9,Go to 9
+7,*,20,レトモニケ２,Centralk,0,Branch,28,Rating 80%,14,Go to 14
+8,*,20,レトモニケ２,Centralk,0,Branch,30,Always,15,Go to 15
+9,*,20,レトモニケ２,Centralk,0,Branch,26,Rating 60%,14,Go to 14
+10,*,20,レトモニケ２,Centralk,0,Branch,26,Rating 60%,15,Go to 15
+11,*,20,レトモニケ２,Centralk,0,Branch,30,Always,16,Go to 16
+12,*,20,レトモニケ２,Centralk,0,Branch,24,Rating 40%,16,Go to 16
+13,*,20,レトモニケ２,Centralk,0,Branch,30,Always,9,Go to 9
+14,*,20,レトモニケ２,Centralk,1,Action,550,Attack,1,Nearest PC
+15,*,20,レトモニケ２,Centralk,1,Action,551,Guard,-1,None
+16,*,20,レトモニケ２,Centralk,1,Action,552,Run,-1,None
+1,*,23,メア・ヘスア,Crylhound,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
+2,*,23,メア・ヘスア,Crylhound,0,Branch,30,Always,4,Go to 4
+3,*,23,メア・ヘスア,Crylhound,0,Branch,26,Rating 60%,12,Go to 12
+4,*,23,メア・ヘスア,Crylhound,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
+5,*,23,メア・ヘスア,Crylhound,0,Branch,30,Always,7,Go to 7
+6,*,23,メア・ヘスア,Crylhound,0,Branch,23,Rating 30%,12,Go to 12
+7,*,23,メア・ヘスア,Crylhound,0,Branch,11,Turn 1,10,Go to 10
+8,*,23,メア・ヘスア,Crylhound,0,Branch,29,Rating 90%,11,Go to 11
+9,*,23,メア・ヘスア,Crylhound,0,Branch,30,Always,12,Go to 12
+10,*,23,メア・ヘスア,Crylhound,0,Branch,22,Rating 20%,13,Go to 13
+11,*,23,メア・ヘスア,Crylhound,1,Action,550,Attack,2,Random PC
+12,*,23,メア・ヘスア,Crylhound,1,Action,552,Run,-1,None
+13,*,23,メア・ヘスア,Crylhound,1,Action,513,Quika,-1,None
+1,*,24,デシェレト,Magma Tiki,0,Branch,41,Used Tremble?,7,Go to 7
+2,*,24,デシェレト,Magma Tiki,0,Branch,5,Got Hit by Spell?,6,Go to 6
+3,*,24,デシェレト,Magma Tiki,0,Branch,1,HP < 50%,6,Go to 6
+4,*,24,デシェレト,Magma Tiki,0,Branch,24,Rating 40%,6,Go to 6
+5,*,24,デシェレト,Magma Tiki,1,Action,550,Attack,1,Nearest PC
+6,*,24,デシェレト,Magma Tiki,1,Action,47,ためる,-1,None
+7,*,24,デシェレト,Magma Tiki,1,Action,180,火炎ブレス,1,Nearest PC
+1,*,25,イアールト２,Salamander,0,Branch,33,Used Attack Spells ≥ 1,4,Go to 4
+2,*,25,イアールト２,Salamander,0,Branch,27,Rating 70%,7,Go to 7
+3,*,25,イアールト２,Salamander,0,Branch,30,Always,8,Go to 8
+4,*,25,イアールト２,Salamander,0,Branch,25,Rating 50%,7,Go to 7
+5,*,25,イアールト２,Salamander,0,Branch,27,Rating 70%,9,Go to 9
+6,*,25,イアールト２,Salamander,0,Branch,30,Always,10,Go to 10
+7,*,25,イアールト２,Salamander,1,Action,550,Attack,2,Random PC
+8,*,25,イアールト２,Salamander,1,Action,525,バーネス,-1,None
+9,*,25,イアールト２,Salamander,1,Action,100,Magical Chant？,-1,None
+10,*,25,イアールト２,Salamander,1,Action,552,Run,-1,None
+1,*,26,ザダムレステル,Baroo,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,26,ザダムレステル,Baroo,0,Branch,30,Always,4,Go to 4
+3,*,26,ザダムレステル,Baroo,0,Branch,29,Rating 90%,16,Go to 16
+4,*,26,ザダムレステル,Baroo,0,Branch,2,HP < 25%,12,Go to 12
+5,*,26,ザダムレステル,Baroo,0,Branch,4,Got Hit?,7,Go to 7
+6,*,26,ザダムレステル,Baroo,0,Branch,30,Always,9,Go to 9
+7,*,26,ザダムレステル,Baroo,0,Branch,29,Rating 90%,14,Go to 14
+8,*,26,ザダムレステル,Baroo,0,Branch,30,Always,16,Go to 16
+9,*,26,ザダムレステル,Baroo,0,Branch,27,Rating 70%,14,Go to 14
+10,*,26,ザダムレステル,Baroo,0,Branch,24,Rating 40%,15,Go to 15
+11,*,26,ザダムレステル,Baroo,0,Branch,30,Always,16,Go to 16
+12,*,26,ザダムレステル,Baroo,0,Branch,25,Rating 50%,16,Go to 16
+13,*,26,ザダムレステル,Baroo,0,Branch,30,Always,9,Go to 9
+14,*,26,ザダムレステル,Baroo,1,Action,550,Attack,1,Nearest PC
+15,*,26,ザダムレステル,Baroo,1,Action,551,Guard,-1,None
+16,*,26,ザダムレステル,Baroo,1,Action,552,Run,-1,None
+1,*,27,ヘベレル,Dung Fly,0,Branch,17,ECs Alive = 1,12,Go to 12
+2,*,27,ヘベレル,Dung Fly,0,Branch,35,Used State Spells ≥ 1,8,Go to 8
+3,*,27,ヘベレル,Dung Fly,0,Branch,24,Rating 40%,16,Go to 16
+4,*,27,ヘベレル,Dung Fly,0,Branch,24,Rating 40%,15,Go to 15
+5,*,27,ヘベレル,Dung Fly,0,Branch,24,Rating 40%,17,Go to 17
+6,*,27,ヘベレル,Dung Fly,0,Branch,26,Rating 60%,18,Go to 18
+7,*,27,ヘベレル,Dung Fly,0,Branch,30,Always,19,Go to 19
+8,*,27,ヘベレル,Dung Fly,0,Branch,25,Rating 50%,15,Go to 15
+9,*,27,ヘベレル,Dung Fly,0,Branch,24,Rating 40%,17,Go to 17
+10,*,27,ヘベレル,Dung Fly,0,Branch,26,Rating 60%,18,Go to 18
+11,*,27,ヘベレル,Dung Fly,0,Branch,30,Always,19,Go to 19
+12,*,27,ヘベレル,Dung Fly,0,Branch,24,Rating 40%,17,Go to 17
+13,*,27,ヘベレル,Dung Fly,0,Branch,25,Rating 50%,18,Go to 18
+14,*,27,ヘベレル,Dung Fly,0,Branch,30,Always,19,Go to 19
+15,*,27,ヘベレル,Dung Fly,1,Action,550,Attack,2,Random PC
+16,*,27,ヘベレル,Dung Fly,1,Action,504,ダウナ,2,Random PC
+17,*,27,ヘベレル,Dung Fly,1,Action,28,仲間を呼ぶ,-1,None
+18,*,27,ヘベレル,Dung Fly,1,Action,110,仲間を呼ぶ,-1,None
+19,*,27,ヘベレル,Dung Fly,1,Action,552,Run,-1,None
+1,*,28,屍鬼,Death's Head,0,Branch,26,Rating 60%,4,Go to 4
+2,*,28,屍鬼,Death's Head,0,Branch,28,Rating 80%,5,Go to 5
+3,*,28,屍鬼,Death's Head,0,Branch,30,Always,6,Go to 6
+4,*,28,屍鬼,Death's Head,1,Action,550,Attack,1,Nearest PC
+5,*,28,屍鬼,Death's Head,1,Action,15,石化液,13,PC W/O Stone
+6,*,28,屍鬼,Death's Head,1,Action,551,Guard,-1,None
+1,*,29,エルモ,Elmo,0,Branch,1,HP < 50%,7,Go to 7
+2,*,29,エルモ,Elmo,0,Branch,25,Rating 50%,7,Go to 7
+3,*,29,エルモ,Elmo,0,Branch,28,Rating 80%,5,Go to 5
+4,*,29,エルモ,Elmo,0,Branch,30,Always,6,Go to 6
+5,*,29,エルモ,Elmo,1,Action,550,Attack,2,Random PC
+6,*,29,エルモ,Elmo,1,Action,551,Guard,-1,None
+7,*,29,エルモ,Elmo,1,Action,552,Run,-1,None
+1,*,30,エルモ２,Loopalon,0,Branch,1,HP < 50%,9,Go to 9
+2,*,30,エルモ２,Loopalon,0,Branch,23,Rating 30%,9,Go to 9
+3,*,30,エルモ２,Loopalon,0,Branch,25,Rating 50%,7,Go to 7
+4,*,30,エルモ２,Loopalon,0,Branch,28,Rating 80%,6,Go to 6
+5,*,30,エルモ２,Loopalon,0,Branch,30,Always,8,Go to 8
+6,*,30,エルモ２,Loopalon,1,Action,550,Attack,2,Random PC
+7,*,30,エルモ２,Loopalon,1,Action,500,Increm,8,EC With Highest Attack
+8,*,30,エルモ２,Loopalon,1,Action,551,Guard,-1,None
+9,*,30,エルモ２,Loopalon,1,Action,552,Run,-1,None
+1,*,31,ヘムヘム,Tsurak,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,31,ヘムヘム,Tsurak,0,Branch,30,Always,4,Go to 4
+3,*,31,ヘムヘム,Tsurak,0,Branch,28,Rating 80%,15,Go to 15
+4,*,31,ヘムヘム,Tsurak,0,Branch,17,ECs Alive = 1,9,Go to 9
+5,*,31,ヘムヘム,Tsurak,0,Branch,25,Rating 50%,12,Go to 12
+6,*,31,ヘムヘム,Tsurak,0,Branch,25,Rating 50%,13,Go to 13
+7,*,31,ヘムヘム,Tsurak,0,Branch,26,Rating 60%,14,Go to 14
+8,*,31,ヘムヘム,Tsurak,0,Branch,30,Always,15,Go to 15
+9,*,31,ヘムヘム,Tsurak,0,Branch,25,Rating 50%,13,Go to 13
+10,*,31,ヘムヘム,Tsurak,0,Branch,25,Rating 50%,14,Go to 14
+11,*,31,ヘムヘム,Tsurak,0,Branch,30,Always,15,Go to 15
+12,*,31,ヘムヘム,Tsurak,1,Action,550,Attack,2,Random PC
+13,*,31,ヘムヘム,Tsurak,1,Action,29,仲間を呼ぶ,-1,None
+14,*,31,ヘムヘム,Tsurak,1,Action,98,仲間を呼ぶ,-1,None
+15,*,31,ヘムヘム,Tsurak,1,Action,552,Run,-1,None
+1,*,32,汎用兵Ｂ１,Enforcer,0,Branch,21,Rating 10%,5,Go to 5
+2,*,32,汎用兵Ｂ１,Enforcer,0,Branch,23,Rating 30%,4,Go to 4
+3,*,32,汎用兵Ｂ１,Enforcer,1,Action,550,Attack,2,Random PC
+4,*,32,汎用兵Ｂ１,Enforcer,1,Action,70,手榴弾,2,Random PC
+5,*,32,汎用兵Ｂ１,Enforcer,1,Action,551,Guard,-1,None
+1,*,37,ヤック,Crylbeast,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
+2,*,37,ヤック,Crylbeast,0,Branch,30,Always,4,Go to 4
+3,*,37,ヤック,Crylbeast,0,Branch,26,Rating 60%,12,Go to 12
+4,*,37,ヤック,Crylbeast,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
+5,*,37,ヤック,Crylbeast,0,Branch,30,Always,7,Go to 7
+6,*,37,ヤック,Crylbeast,0,Branch,23,Rating 30%,12,Go to 12
+7,*,37,ヤック,Crylbeast,0,Branch,11,Turn 1,10,Go to 10
+8,*,37,ヤック,Crylbeast,0,Branch,29,Rating 90%,11,Go to 11
+9,*,37,ヤック,Crylbeast,0,Branch,30,Always,12,Go to 12
+10,*,37,ヤック,Crylbeast,0,Branch,22,Rating 20%,13,Go to 13
+11,*,37,ヤック,Crylbeast,1,Action,550,Attack,2,Random PC
+12,*,37,ヤック,Crylbeast,1,Action,552,Run,-1,None
+13,*,37,ヤック,Crylbeast,1,Action,513,Quika,-1,None
+32,*,50,マロッカ２,Burocca,-1,None,-1,None,-1,None
+1,*,51,アイガムハ,Drogerp,0,Branch,33,Used Attack Spells ≥ 1,3,Go to 3
+2,*,51,アイガムハ,Drogerp,0,Branch,22,Rating 20%,10,Go to 10
+3,*,51,アイガムハ,Drogerp,0,Branch,36,Used State Spells ≥ 2,5,Go to 5
+4,*,51,アイガムハ,Drogerp,0,Branch,22,Rating 20%,9,Go to 9
+5,*,51,アイガムハ,Drogerp,0,Branch,23,Rating 30%,11,Go to 11
+6,*,51,アイガムハ,Drogerp,0,Branch,22,Rating 20%,8,Go to 8
+7,*,51,アイガムハ,Drogerp,1,Action,550,Attack,2,Random PC
+8,*,51,アイガムハ,Drogerp,1,Action,551,Guard,-1,None
+9,*,51,アイガムハ,Drogerp,1,Action,503,Panika,14,PC W/O Confusion
+10,*,51,アイガムハ,Drogerp,1,Action,521,ウェイビィ,2,Random PC
+11,*,51,アイガムハ,Drogerp,1,Action,57,Eerie Wail,2,Random PC
+1,*,57,イアールト,Slithar,0,Branch,33,Used Attack Spells ≥ 1,4,Go to 4
+2,*,57,イアールト,Slithar,0,Branch,27,Rating 70%,7,Go to 7
+3,*,57,イアールト,Slithar,0,Branch,30,Always,8,Go to 8
+4,*,57,イアールト,Slithar,0,Branch,25,Rating 50%,7,Go to 7
+5,*,57,イアールト,Slithar,0,Branch,27,Rating 70%,9,Go to 9
+6,*,57,イアールト,Slithar,0,Branch,30,Always,10,Go to 10
+7,*,57,イアールト,Slithar,1,Action,550,Attack,2,Random PC
+8,*,57,イアールト,Slithar,1,Action,523,Pyri,-1,None
+9,*,57,イアールト,Slithar,1,Action,100,Magical Chant？,-1,None
+10,*,57,イアールト,Slithar,1,Action,552,Run,-1,None
+1,*,63,メタルクリオネ,Ghrost,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
+2,*,63,メタルクリオネ,Ghrost,0,Branch,30,Always,4,Go to 4
+3,*,63,メタルクリオネ,Ghrost,0,Branch,29,Rating 90%,15,Go to 15
+4,*,63,メタルクリオネ,Ghrost,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
+5,*,63,メタルクリオネ,Ghrost,0,Branch,30,Always,7,Go to 7
+6,*,63,メタルクリオネ,Ghrost,0,Branch,24,Rating 40%,15,Go to 15
+7,*,63,メタルクリオネ,Ghrost,0,Branch,0,HP = 100%,10,Go to 10
+8,*,63,メタルクリオネ,Ghrost,0,Branch,46,Used HP Absorbs ≥ 1,10,Go to 10
+9,*,63,メタルクリオネ,Ghrost,0,Branch,29,Rating 90%,16,Go to 16
+10,*,63,メタルクリオネ,Ghrost,0,Branch,34,Used Attack Spells ≥ 2,12,Go to 12
+11,*,63,メタルクリオネ,Ghrost,0,Branch,23,Rating 30%,17,Go to 17
+12,*,63,メタルクリオネ,Ghrost,0,Branch,23,Rating 30%,18,Go to 18
+13,*,63,メタルクリオネ,Ghrost,0,Branch,24,Rating 40%,15,Go to 15
+14,*,63,メタルクリオネ,Ghrost,1,Action,550,Attack,2,Random PC
+15,*,63,メタルクリオネ,Ghrost,1,Action,552,Run,-1,None
+16,*,63,メタルクリオネ,Ghrost,1,Action,210,ＨＰ吸収,3,PC With Highest HP
+17,*,63,メタルクリオネ,Ghrost,1,Action,511,プワゾーク,19,PC W/O Poison
+18,*,63,メタルクリオネ,Ghrost,1,Action,100,Magical Chant？,-1,None
+1,*,64,ぶちクリオネ,Graver,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
+2,*,64,ぶちクリオネ,Graver,0,Branch,30,Always,4,Go to 4
+3,*,64,ぶちクリオネ,Graver,0,Branch,28,Rating 80%,15,Go to 15
+4,*,64,ぶちクリオネ,Graver,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
+5,*,64,ぶちクリオネ,Graver,0,Branch,30,Always,7,Go to 7
+6,*,64,ぶちクリオネ,Graver,0,Branch,24,Rating 40%,15,Go to 15
+7,*,64,ぶちクリオネ,Graver,0,Branch,0,HP = 100%,10,Go to 10
+8,*,64,ぶちクリオネ,Graver,0,Branch,46,Used HP Absorbs ≥ 1,10,Go to 10
+9,*,64,ぶちクリオネ,Graver,0,Branch,28,Rating 80%,16,Go to 16
+10,*,64,ぶちクリオネ,Graver,0,Branch,33,Used Attack Spells ≥ 1,12,Go to 12
+11,*,64,ぶちクリオネ,Graver,0,Branch,24,Rating 40%,17,Go to 17
+12,*,64,ぶちクリオネ,Graver,0,Branch,24,Rating 40%,18,Go to 18
+13,*,64,ぶちクリオネ,Graver,0,Branch,22,Rating 20%,15,Go to 15
+14,*,64,ぶちクリオネ,Graver,1,Action,550,Attack,2,Random PC
+15,*,64,ぶちクリオネ,Graver,1,Action,552,Run,-1,None
+16,*,64,ぶちクリオネ,Graver,1,Action,210,ＨＰ吸収,3,PC With Highest HP
+17,*,64,ぶちクリオネ,Graver,1,Action,510,Noxi,19,PC W/O Poison
+18,*,64,ぶちクリオネ,Graver,1,Action,100,Magical Chant？,-1,None
+1,*,66,ギャルブ,Cerosik,0,Branch,33,Used Attack Spells ≥ 1,3,Go to 3
+2,*,66,ギャルブ,Cerosik,0,Branch,22,Rating 20%,9,Go to 9
+3,*,66,ギャルブ,Cerosik,0,Branch,35,Used State Spells ≥ 1,5,Go to 5
+4,*,66,ギャルブ,Cerosik,0,Branch,22,Rating 20%,8,Go to 8
+5,*,66,ギャルブ,Cerosik,0,Branch,21,Rating 10%,7,Go to 7
+6,*,66,ギャルブ,Cerosik,1,Action,550,Attack,2,Random PC
+7,*,66,ギャルブ,Cerosik,1,Action,551,Guard,-1,None
+8,*,66,ギャルブ,Cerosik,1,Action,503,Panika,14,PC W/O Confusion
+9,*,66,ギャルブ,Cerosik,1,Action,528,グラシェス,2,Random PC
+1,*,72,警備士,Guard,0,Branch,1,HP < 50%,4,Go to 4
+2,*,72,警備士,Guard,0,Branch,28,Rating 80%,7,Go to 7
+3,*,72,警備士,Guard,0,Branch,30,Always,9,Go to 9
+4,*,72,警備士,Guard,0,Branch,26,Rating 60%,7,Go to 7
+5,*,72,警備士,Guard,0,Branch,24,Rating 40%,8,Go to 8
+6,*,72,警備士,Guard,0,Branch,30,Always,9,Go to 9
+7,*,72,警備士,Guard,1,Action,550,Attack,2,Random PC
+8,*,72,警備士,Guard,1,Action,80,Medicinal Herb,7,EC With Lowest HP
+9,*,72,警備士,Guard,1,Action,551,Guard,-1,None
+1,*,86,はぐれクリオネ,Lurker,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
+2,*,86,はぐれクリオネ,Lurker,0,Branch,30,Always,4,Go to 4
+3,*,86,はぐれクリオネ,Lurker,0,Branch,29,Rating 90%,16,Go to 16
+4,*,86,はぐれクリオネ,Lurker,0,Branch,44,1st PC ΔLevel > 3,6,Go to 6
+5,*,86,はぐれクリオネ,Lurker,0,Branch,30,Always,7,Go to 7
+6,*,86,はぐれクリオネ,Lurker,0,Branch,26,Rating 60%,16,Go to 16
+7,*,86,はぐれクリオネ,Lurker,0,Branch,0,HP = 100%,10,Go to 10
+8,*,86,はぐれクリオネ,Lurker,0,Branch,46,Used HP Absorbs ≥ 1,10,Go to 10
+9,*,86,はぐれクリオネ,Lurker,0,Branch,26,Rating 60%,17,Go to 17
+10,*,86,はぐれクリオネ,Lurker,0,Branch,33,Used Attack Spells ≥ 1,12,Go to 12
+11,*,86,はぐれクリオネ,Lurker,0,Branch,23,Rating 30%,18,Go to 18
+12,*,86,はぐれクリオネ,Lurker,0,Branch,23,Rating 30%,19,Go to 19
+13,*,86,はぐれクリオネ,Lurker,0,Branch,23,Rating 30%,20,Go to 20
+14,*,86,はぐれクリオネ,Lurker,0,Branch,25,Rating 50%,16,Go to 16
+15,*,86,はぐれクリオネ,Lurker,1,Action,550,Attack,2,Random PC
+16,*,86,はぐれクリオネ,Lurker,1,Action,552,Run,-1,None
+17,*,86,はぐれクリオネ,Lurker,1,Action,210,ＨＰ吸収,3,PC With Highest HP
+18,*,86,はぐれクリオネ,Lurker,1,Action,519,ジェドーサ,19,PC W/O Poison
+19,*,86,はぐれクリオネ,Lurker,1,Action,100,Magical Chant？,-1,None
+20,*,86,はぐれクリオネ,Lurker,1,Action,56,電撃,-1,None
+1,*,88,ユールマラー２,Scorpon,0,Branch,45,1st PC ΔLevel > 7,3,Go to 3
+2,*,88,ユールマラー２,Scorpon,0,Branch,30,Always,4,Go to 4
+3,*,88,ユールマラー２,Scorpon,0,Branch,24,Rating 40%,6,Go to 6
+4,*,88,ユールマラー２,Scorpon,0,Branch,21,Rating 10%,6,Go to 6
+5,*,88,ユールマラー２,Scorpon,1,Action,550,Attack,1,Nearest PC
+6,*,88,ユールマラー２,Scorpon,1,Action,552,Run,-1,None
+1,*,90,ヴァンピレッサ２,Tsorok,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,90,ヴァンピレッサ２,Tsorok,0,Branch,30,Always,4,Go to 4
+3,*,90,ヴァンピレッサ２,Tsorok,0,Branch,24,Rating 40%,11,Go to 11
+4,*,90,ヴァンピレッサ２,Tsorok,0,Branch,0,HP = 100%,7,Go to 7
+5,*,90,ヴァンピレッサ２,Tsorok,0,Branch,46,Used HP Absorbs ≥ 1,7,Go to 7
+6,*,90,ヴァンピレッサ２,Tsorok,0,Branch,25,Rating 50%,12,Go to 12
+7,*,90,ヴァンピレッサ２,Tsorok,0,Branch,33,Used Attack Spells ≥ 1,9,Go to 9
+8,*,90,ヴァンピレッサ２,Tsorok,0,Branch,24,Rating 40%,13,Go to 13
+9,*,90,ヴァンピレッサ２,Tsorok,0,Branch,21,Rating 10%,11,Go to 11
+10,*,90,ヴァンピレッサ２,Tsorok,1,Action,550,Attack,2,Random PC
+11,*,90,ヴァンピレッサ２,Tsorok,1,Action,552,Run,-1,None
+12,*,90,ヴァンピレッサ２,Tsorok,1,Action,211,ＨＰ吸収,3,PC With Highest HP
+13,*,90,ヴァンピレッサ２,Tsorok,1,Action,533,Electres,2,Random PC
+1,*,92,ヘムヘム２,Langry,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,92,ヘムヘム２,Langry,0,Branch,30,Always,4,Go to 4
+3,*,92,ヘムヘム２,Langry,0,Branch,28,Rating 80%,15,Go to 15
+4,*,92,ヘムヘム２,Langry,0,Branch,17,ECs Alive = 1,9,Go to 9
+5,*,92,ヘムヘム２,Langry,0,Branch,25,Rating 50%,12,Go to 12
+6,*,92,ヘムヘム２,Langry,0,Branch,25,Rating 50%,13,Go to 13
+7,*,92,ヘムヘム２,Langry,0,Branch,26,Rating 60%,14,Go to 14
+8,*,92,ヘムヘム２,Langry,0,Branch,30,Always,15,Go to 15
+9,*,92,ヘムヘム２,Langry,0,Branch,25,Rating 50%,13,Go to 13
+10,*,92,ヘムヘム２,Langry,0,Branch,25,Rating 50%,14,Go to 14
+11,*,92,ヘムヘム２,Langry,0,Branch,30,Always,15,Go to 15
+12,*,92,ヘムヘム２,Langry,1,Action,550,Attack,2,Random PC
+13,*,92,ヘムヘム２,Langry,1,Action,82,仲間を呼ぶ,-1,None
+14,*,92,ヘムヘム２,Langry,1,Action,98,仲間を呼ぶ,-1,None
+15,*,92,ヘムヘム２,Langry,1,Action,552,Run,-1,None
+1,*,95,セベスク２,Thryllak,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,95,セベスク２,Thryllak,0,Branch,30,Always,4,Go to 4
+3,*,95,セベスク２,Thryllak,0,Branch,24,Rating 40%,13,Go to 13
+4,*,95,セベスク２,Thryllak,0,Branch,40,Used Gather Strength?,15,Go to 15
+5,*,95,セベスク２,Thryllak,0,Branch,5,Got Hit by Spell?,14,Go to 14
+6,*,95,セベスク２,Thryllak,0,Branch,1,HP < 50%,14,Go to 14
+7,*,95,セベスク２,Thryllak,0,Branch,24,Rating 40%,14,Go to 14
+8,*,95,セベスク２,Thryllak,0,Branch,28,Rating 80%,11,Go to 11
+9,*,95,セベスク２,Thryllak,0,Branch,27,Rating 70%,12,Go to 12
+10,*,95,セベスク２,Thryllak,0,Branch,30,Always,13,Go to 13
+11,*,95,セベスク２,Thryllak,1,Action,550,Attack,2,Random PC
+12,*,95,セベスク２,Thryllak,1,Action,551,Guard,-1,None
+13,*,95,セベスク２,Thryllak,1,Action,552,Run,-1,None
+14,*,95,セベスク２,Thryllak,1,Action,20,ためる,-1,None
+15,*,95,セベスク２,Thryllak,1,Action,170,針乱射,2,Random PC
+1,*,96,ロッキ,Stonehawk,0,Branch,44,1st PC ΔLevel > 3,3,Go to 3
+2,*,96,ロッキ,Stonehawk,0,Branch,30,Always,4,Go to 4
+3,*,96,ロッキ,Stonehawk,0,Branch,28,Rating 80%,7,Go to 7
+4,*,96,ロッキ,Stonehawk,0,Branch,27,Rating 70%,6,Go to 6
+5,*,96,ロッキ,Stonehawk,0,Branch,30,Always,8,Go to 8
+6,*,96,ロッキ,Stonehawk,1,Action,550,Attack,2,Random PC
+7,*,96,ロッキ,Stonehawk,1,Action,552,Run,-1,None
+8,*,96,ロッキ,Stonehawk,1,Action,93,Fatigue Breath,2,Random PC
+1,*,104,汎用兵Ｃ１,Shock Troop,0,Branch,42,Used Sacri Crystals ≥ 1,5,Go to 5
+2,*,104,汎用兵Ｃ１,Shock Troop,0,Branch,38,Any EC HP < 50%,4,Go to 4
+3,*,104,汎用兵Ｃ１,Shock Troop,0,Branch,30,Always,5,Go to 5
+4,*,104,汎用兵Ｃ１,Shock Troop,0,Branch,22,Rating 20%,9,Go to 9
+5,*,104,汎用兵Ｃ１,Shock Troop,0,Branch,21,Rating 10%,13,Go to 13
+6,*,104,汎用兵Ｃ１,Shock Troop,0,Branch,23,Rating 30%,11,Go to 11
+7,*,104,汎用兵Ｃ１,Shock Troop,1,Action,550,Attack,2,Random PC
+8,*,104,汎用兵Ｃ１,Shock Troop,1,Action,71,毒ガス弾,19,PC W/O Poison
+9,*,104,汎用兵Ｃ１,Shock Troop,1,Action,72,薬草３,-1,None
+10,*,104,汎用兵Ｃ１,Shock Troop,1,Action,551,Guard,-1,None
+1,*,105,汎用兵Ｃ２,Red Guard,0,Branch,21,Rating 10%,5,Go to 5
+2,*,105,汎用兵Ｃ２,Red Guard,0,Branch,23,Rating 30%,4,Go to 4
+3,*,105,汎用兵Ｃ２,Red Guard,1,Action,550,Attack,2,Random PC
+4,*,105,汎用兵Ｃ２,Red Guard,1,Action,70,手榴弾,2,Random PC
+5,*,105,汎用兵Ｃ２,Red Guard,1,Action,551,Guard,-1,None
+1,*,106,汎用兵Ｂ２,Elite Guard,0,Branch,42,Used Sacri Crystals ≥ 1,5,Go to 5
+2,*,106,汎用兵Ｂ２,Elite Guard,0,Branch,38,Any EC HP < 50%,4,Go to 4
+3,*,106,汎用兵Ｂ２,Elite Guard,0,Branch,30,Always,5,Go to 5
+4,*,106,汎用兵Ｂ２,Elite Guard,0,Branch,22,Rating 20%,9,Go to 9
+5,*,106,汎用兵Ｂ２,Elite Guard,0,Branch,21,Rating 10%,13,Go to 13
+6,*,106,汎用兵Ｂ２,Elite Guard,0,Branch,23,Rating 30%,11,Go to 11
+7,*,106,汎用兵Ｂ２,Elite Guard,1,Action,550,Attack,2,Random PC
+8,*,106,汎用兵Ｂ２,Elite Guard,1,Action,71,毒ガス弾,19,PC W/O Poison
+9,*,106,汎用兵Ｂ２,Elite Guard,1,Action,72,薬草３,-1,None
+10,*,106,汎用兵Ｂ２,Elite Guard,1,Action,551,Guard,-1,None
+1,*,128,アントニオ,Antonio,0,Branch,2,HP < 25%,9,Go to 9
+2,*,128,アントニオ,Antonio,0,Branch,20,SP ≤ 25%,6,Go to 6
+3,*,128,アントニオ,Antonio,0,Branch,26,Rating 60%,11,Go to 11
+4,*,128,アントニオ,Antonio,0,Branch,28,Rating 80%,12,Go to 12
+5,*,128,アントニオ,Antonio,0,Branch,30,Always,13,Go to 13
+6,*,128,アントニオ,Antonio,0,Branch,27,Rating 70%,11,Go to 11
+7,*,128,アントニオ,Antonio,0,Branch,26,Rating 60%,12,Go to 12
+8,*,128,アントニオ,Antonio,0,Branch,30,Always,13,Go to 13
+9,*,128,アントニオ,Antonio,0,Branch,25,Rating 50%,11,Go to 11
+10,*,128,アントニオ,Antonio,0,Branch,30,Always,12,Go to 12
+11,*,128,アントニオ,Antonio,1,Action,550,Attack,2,Random PC
+12,*,128,アントニオ,Antonio,1,Action,5,Thunder of Fury,2,Random PC
+13,*,128,アントニオ,Antonio,1,Action,34,Wait,-1,None
+1,*,129,アガタウマス,Agathamaus,0,Branch,48,Used Target Search?,9,Go to 9
+2,*,129,アガタウマス,Agathamaus,0,Branch,5,Got Hit by Spell?,6,Go to 6
+3,*,129,アガタウマス,Agathamaus,0,Branch,0,HP = 100%,6,Go to 6
+4,*,129,アガタウマス,Agathamaus,0,Branch,21,Rating 10%,9,Go to 9
+5,*,129,アガタウマス,Agathamaus,0,Branch,26,Rating 60%,7,Go to 7
+6,*,129,アガタウマス,Agathamaus,0,Branch,30,Always,8,Go to 8
+7,*,129,アガタウマス,Agathamaus,1,Action,550,Attack,1,Nearest PC
+8,*,129,アガタウマス,Agathamaus,1,Action,9,Target Search,-1,None
+9,*,129,アガタウマス,Agathamaus,1,Action,99,Blaster,2,Random PC
+1,*,130,イマゴタリア,Imagotalia,0,Branch,11,Turn 1,8,Go to 8
+2,*,130,イマゴタリア,Imagotalia,0,Branch,5,Got Hit by Spell?,8,Go to 8
+3,*,130,イマゴタリア,Imagotalia,0,Branch,20,SP ≤ 25%,10,Go to 10
+4,*,130,イマゴタリア,Imagotalia,0,Branch,37,Turn ≥ 5,10,Go to 10
+5,*,130,イマゴタリア,Imagotalia,0,Branch,22,Rating 20%,15,Go to 15
+6,*,130,イマゴタリア,Imagotalia,0,Branch,24,Rating 40%,14,Go to 14
+7,*,130,イマゴタリア,Imagotalia,0,Branch,30,Always,13,Go to 13
+8,*,130,イマゴタリア,Imagotalia,0,Branch,24,Rating 40%,14,Go to 14
+9,*,130,イマゴタリア,Imagotalia,0,Branch,30,Always,13,Go to 13
+10,*,130,イマゴタリア,Imagotalia,0,Branch,22,Rating 20%,15,Go to 15
+11,*,130,イマゴタリア,Imagotalia,0,Branch,23,Rating 30%,14,Go to 14
+12,*,130,イマゴタリア,Imagotalia,0,Branch,30,Always,13,Go to 13
+13,*,130,イマゴタリア,Imagotalia,1,Action,550,Attack,2,Random PC
+14,*,130,イマゴタリア,Imagotalia,1,Action,183,Frozen Breath,-1,None
+15,*,130,イマゴタリア,Imagotalia,1,Action,25,Poisonous Bile,-1,None
+1,*,131,獄長,Warden,0,Branch,17,ECs Alive = 1,12,Go to 12
+2,*,131,獄長,Warden,0,Branch,16,Has Silence?,8,Go to 8
+3,*,131,獄長,Warden,0,Branch,21,Rating 10%,16,Go to 16
+4,*,131,獄長,Warden,0,Branch,23,Rating 30%,17,Go to 17
+5,*,131,獄長,Warden,0,Branch,23,Rating 30%,18,Go to 18
+6,*,131,獄長,Warden,0,Branch,28,Rating 80%,15,Go to 15
+7,*,131,獄長,Warden,0,Branch,30,Always,19,Go to 19
+8,*,131,獄長,Warden,0,Branch,22,Rating 20%,16,Go to 16
+9,*,131,獄長,Warden,0,Branch,24,Rating 40%,17,Go to 17
+10,*,131,獄長,Warden,0,Branch,28,Rating 80%,15,Go to 15
+11,*,131,獄長,Warden,0,Branch,30,Always,19,Go to 19
+12,*,131,獄長,Warden,0,Branch,24,Rating 40%,16,Go to 16
+13,*,131,獄長,Warden,0,Branch,25,Rating 50%,17,Go to 17
+14,*,131,獄長,Warden,0,Branch,30,Always,15,Go to 15
+15,*,131,獄長,Warden,1,Action,550,Attack,2,Random PC
+16,*,131,獄長,Warden,1,Action,11,Tackle,3,PC With Highest HP
+17,*,131,獄長,Warden,1,Action,251,Sonic Blast,2,Random PC
+18,*,131,獄長,Warden,1,Action,533,Electres,2,Random PC
+19,*,131,獄長,Warden,1,Action,551,Guard,-1,None
+1,*,133,護送将兵,Escort Officer,0,Branch,5,Got Hit by Spell?,11,Go to 11
+2,*,133,護送将兵,Escort Officer,0,Branch,38,Any EC HP < 50%,8,Go to 8
+3,*,133,護送将兵,Escort Officer,0,Branch,25,Rating 50%,14,Go to 14
+4,*,133,護送将兵,Escort Officer,0,Branch,24,Rating 40%,16,Go to 16
+5,*,133,護送将兵,Escort Officer,0,Branch,25,Rating 50%,17,Go to 17
+6,*,133,護送将兵,Escort Officer,0,Branch,28,Rating 80%,18,Go to 18
+7,*,133,護送将兵,Escort Officer,0,Branch,30,Always,15,Go to 15
+8,*,133,護送将兵,Escort Officer,0,Branch,25,Rating 50%,17,Go to 17
+9,*,133,護送将兵,Escort Officer,0,Branch,32,Used Sacri Spells ≥ 2,11,Go to 11
+10,*,133,護送将兵,Escort Officer,0,Branch,30,Always,15,Go to 15
+11,*,133,護送将兵,Escort Officer,0,Branch,24,Rating 40%,14,Go to 14
+12,*,133,護送将兵,Escort Officer,0,Branch,25,Rating 50%,16,Go to 16
+13,*,133,護送将兵,Escort Officer,0,Branch,30,Always,17,Go to 17
+14,*,133,護送将兵,Escort Officer,1,Action,550,Attack,2,Random PC
+15,*,133,護送将兵,Escort Officer,1,Action,506,Sacri,7,EC With Lowest HP
+16,*,133,護送将兵,Escort Officer,1,Action,533,Electres,2,Random PC
+17,*,133,護送将兵,Escort Officer,1,Action,19,Set for Counter,-1,None
+18,*,133,護送将兵,Escort Officer,1,Action,551,Guard,-1,None
+1,*,134,ラァス,Laas,0,Branch,1,HP < 50%,6,Go to 6
+2,*,134,ラァス,Laas,0,Branch,2,HP < 25%,9,Go to 9
+3,*,134,ラァス,Laas,0,Branch,23,Rating 30%,14,Go to 14
+4,*,134,ラァス,Laas,0,Branch,25,Rating 50%,13,Go to 13
+5,*,134,ラァス,Laas,0,Branch,30,Always,12,Go to 12
+6,*,134,ラァス,Laas,0,Branch,25,Rating 50%,14,Go to 14
+7,*,134,ラァス,Laas,0,Branch,24,Rating 40%,13,Go to 13
+8,*,134,ラァス,Laas,0,Branch,30,Always,12,Go to 12
+9,*,134,ラァス,Laas,0,Branch,22,Rating 20%,14,Go to 14
+10,*,134,ラァス,Laas,0,Branch,27,Rating 70%,13,Go to 13
+11,*,134,ラァス,Laas,0,Branch,30,Always,12,Go to 12
+12,*,134,ラァス,Laas,1,Action,550,Attack,2,Random PC
+13,*,134,ラァス,Laas,1,Action,0,Volcanic Blast,-1,None
+14,*,134,ラァス,Laas,1,Action,1,Stone Gas,13,PC W/O Stone
