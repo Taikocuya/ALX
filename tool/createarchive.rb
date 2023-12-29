@@ -52,7 +52,7 @@ class ArchiveCreator < EntryTransform
 
   public
 
-  # Constructs an SampleCreator.
+  # Constructs an ArchiveCreator.
   def initialize
     super(nil)
   end
