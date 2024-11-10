@@ -1,6 +1,6 @@
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2023 Marcel Renner
+# Copyright (C) 2024 Marcel Renner
 # 
 # This file is part of ALX.
 # 
@@ -50,7 +50,7 @@ module Executable
   # Version of ALX
   VERSION = '5.0.0-RC2'.freeze
   # Date of ALX
-  DATE    = Date.new(2023, 2, 10).freeze
+  DATE    = Date.new(2024, 11, 10).freeze
 
 #==============================================================================
 #                                   PUBLIC

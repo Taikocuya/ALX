@@ -51,23 +51,23 @@ The CSV files in the `build` and `dist` directories require:
 Pre-exported CSV files with complete game data can already be found in the 
 `dist` directory.
 
-| Folder                   | Description                                     |
-|:-------------------------|:------------------------------------------------|
-| `2000-03-03-dc-jp-demo`  | Kuzokuban (Trial Edition)                       |
-| `2000-04-07-dc-jp-demo`  | Dreamcast Express Vol. 6                        |
-| `2000-05-09-dc-us-demo`  | E3 Prototype                                    |
-| `2000-08-21-dc-us-demo`  | Official Sega Dreamcast Magazine Vol. 9         |
-| `2000-08-23-dc-jp-barai` | @barai Version                                  |
-| `2000-08-28-dc-jp-final` | Final JP Build                                  |
-| `2000-09-07-dc-us-proto` | V0.830 Prototype                                |
-| `2000-09-14-dc-us-proto` | V0.840 Prototype                                |
-| `2000-09-18-dc-us-final` | Final US Build                                  |
-| `2000-11-15-dc-eu-proto` | Beta Preview                                    |
-| `2001-02-13-dc-eu-demo`  | Dreamon Vol. 20                                 |
-| `2001-02-19-dc-eu-final` | Final EU Build                                  |
-| `2002-11-12-gc-jp-final` | Final JP Build                                  |
-| `2002-12-19-gc-us-final` | Final US Build                                  |
-| `2003-03-05-gc-eu-final` | Final EU Build                                  |
+| Folder                     | Description                                     |
+|:---------------------------|:------------------------------------------------|
+| `2000-03-03-dc-jp-demo`    | Kuzokuban (Trial Edition)                       |
+| `2000-04-07-dc-jp-demo`    | Dreamcast Express Vol. 6                        |
+| `2000-05-09-dc-us-demo`    | E3 Prototype                                    |
+| `2000-08-21-dc-us-demo`    | Official Sega Dreamcast Magazine Vol. 9         |
+| `2000-08-23-dc-jp-barai`   | @barai Version                                  |
+| `2000-08-28-dc-jp-final`   | Final JP Build                                  |
+| `2000-09-07-dc-us-proto`   | V0.830 Prototype                                |
+| `2000-09-14-dc-us-proto`   | V0.840 Prototype                                |
+| `2000-09-18-dc-us-final`   | Final US Build                                  |
+| `2000-11-15-dc-eu-proto`   | Beta Preview                                    |
+| `2001-02-13-dc-eu-demo`    | Dreamon Vol. 20                                 |
+| `2001-02-19-dc-eu-final`   | Final EU Build                                  |
+| `2002-11-12-gc-jp-final`   | Final JP Build                                  |
+| `2002-12-19-gc-us-final`   | Final US Build                                  |
+| `2003-03-05-gc-eu-final`   | Final EU Build                                  |
 
 If you want to import and export the game data by yourself, you need in the 
 `build` directory at least one extracted image of Skies of Arcadia, Skies of 
@@ -226,5 +226,5 @@ and software that made this project possible.
 
 ## License
 
-Copyright (C) 2023 Marcel Renner. ALX is licensed under the GNU General Public 
+Copyright (C) 2024 Marcel Renner. ALX is licensed under the GNU General Public 
 License, Version 3.0. See [LICENSE.md](/LICENSE.md) for the full license text.

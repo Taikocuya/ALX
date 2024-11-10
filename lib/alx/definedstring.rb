@@ -1,6 +1,6 @@
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2023 Marcel Renner
+# Copyright (C) 2024 Marcel Renner
 # 
 # This file is part of ALX.
 # 
