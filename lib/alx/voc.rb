@@ -40,6 +40,7 @@ VOC.configure do |_v|
   _v.check_etc       = 'Check ETC attribute: %s'
   _v.check_file      = 'Check for existing file: %s'
   _v.check_hdr       = 'Check HDR file: %s'
+  _v.check_ip        = 'Check IP.BIN file: %s'
   _v.check_platform  = 'Check platform: %s'
   _v.check_ruby      = 'Check Ruby version: %s'
   _v.country_id      = 'Country ID'

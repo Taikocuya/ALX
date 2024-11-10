@@ -600,7 +600,7 @@ class Root
     _result          = false
     refresh_etc
 
-    _msg = sprintf(VOC.check_hdr, VOC.product_id)
+    _msg = sprintf(VOC.check_ip, VOC.product_id)
     if @product_id =~ sys(:product_ids)
       _result  = true
       _msg    += sprintf(' - %s (%s)', VOC.valid    , @product_id)
@@ -612,7 +612,7 @@ class Root
     end
 
     if _result
-      _msg = sprintf(VOC.check_bnr, VOC.product_name)
+      _msg = sprintf(VOC.check_ip, VOC.product_name)
       if @product_name =~ sys(:product_names)
         _result  = true
         _msg    += sprintf(' - %s (%s)', VOC.valid    , @product_name)
@@ -625,19 +625,19 @@ class Root
     end
 
     if _result
-      _msg  = sprintf(VOC.check_hdr, VOC.product_version)
+      _msg  = sprintf(VOC.check_ip, VOC.product_version)
       _msg += sprintf(' - %s (%s)', VOC.valid, @product_version)
       ALX::LOG.info(_msg)
     end
 
     if _result
-      _msg  = sprintf(VOC.check_hdr, VOC.product_date)
+      _msg  = sprintf(VOC.check_ip, VOC.product_date)
       _msg += sprintf(' - %s (%s)', VOC.valid, @product_date)
       ALX::LOG.info(_msg)
     end
 
     if _result
-      _msg = sprintf(VOC.check_hdr, VOC.region_id)
+      _msg = sprintf(VOC.check_ip, VOC.region_id)
       unless @region_name.empty?
         _result  = true
         _msg    += sprintf(' - %s (%s)', VOC.valid    , @region_id)
@@ -650,13 +650,13 @@ class Root
     end
 
     if _result
-      _msg  = sprintf(VOC.check_hdr, VOC.region_name)
+      _msg  = sprintf(VOC.check_ip, VOC.region_name)
       _msg += sprintf(' - %s (%s)', VOC.valid, @region_name)
       ALX::LOG.info(_msg)
     end
 
     if _result
-      _msg = sprintf(VOC.check_hdr, VOC.maker_id)
+      _msg = sprintf(VOC.check_ip, VOC.maker_id)
       if @maker_id =~ sys(:maker_ids)
         _result  = true
         _msg    += sprintf(' - %s (%s)', VOC.valid    , @maker_id)
@@ -669,7 +669,7 @@ class Root
     end
 
     if _result
-      _msg = sprintf(VOC.check_bnr, VOC.maker_name)
+      _msg = sprintf(VOC.check_ip, VOC.maker_name)
       if @maker_name =~ sys(:maker_names)
         _result  = true
         _msg    += sprintf(' - %s (%s)', VOC.valid    , @maker_name)
@@ -682,7 +682,7 @@ class Root
     end
 
     if _result
-      _msg = sprintf(VOC.check_hdr, VOC.country_id)
+      _msg = sprintf(VOC.check_ip, VOC.country_id)
       if COUNTRIES.include?(@country_id)
         _result  = true
         _msg    += sprintf(' - %s (%s)', VOC.valid    , @country_id)
@@ -695,7 +695,7 @@ class Root
     end
 
     if _result
-      _msg  = sprintf(VOC.check_hdr, VOC.description)
+      _msg  = sprintf(VOC.check_ip, VOC.description)
       _msg += sprintf(' - %s (%s)', VOC.valid, @description)
       ALX::LOG.info(_msg)
     end
