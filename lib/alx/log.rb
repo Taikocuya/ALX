@@ -48,26 +48,26 @@ class LOG
   def initialize
     ObjectSpace.define_finalizer(self, finalize)
 
-    @std = Logger.new(STDOUT, level: SYS.log_level)
+    @std = Logger.new(STDOUT, level: CFG.log_level)
     @std.formatter = Proc.new do |_severity, _, _, _msg|
       sprintf("%s [#%d] -- %s\r\n", _severity[0], Worker.pid, _msg)
     end
     
-    if Object.const_defined?('ALX::SYS') && SYS.log
-      _filename = File.join(SYS.log_dir, Worker.pid_base + '.log')
+    if Object.const_defined?('ALX::CFG') && CFG.log
+      _filename = File.join(CFG.log_dir, Worker.pid_base + '.log')
       
-      FileUtils.mkdir_p(File.dirname(SYS.log_dir))
+      FileUtils.mkdir_p(File.dirname(CFG.log_dir))
       if Worker.parent? && File.exist?(_filename)
         _mdate = File.mtime(_filename)
         _rdate = _mdate.strftime('-%Y-%m-%dT%H-%M-%S')
-        _rname = File.join(SYS.log_dir, Worker.pid_base + _rdate + '.log')
+        _rname = File.join(CFG.log_dir, Worker.pid_base + _rdate + '.log')
         FileUtils.mv(_filename, _rname)
 
         _glob  = File.join(
-          SYS.log_dir, Worker.pid_base + '-[0-9]*[0-9]T[0-9]*[0-9].log'
+          CFG.log_dir, Worker.pid_base + '-[0-9]*[0-9]T[0-9]*[0-9].log'
         )
         _files = Dir.glob(_glob).sort.reverse
-        while _files.size > SYS.log_keep
+        while _files.size > CFG.log_keep
           FileUtils.rm(_files.pop)
         end
       end
@@ -75,7 +75,7 @@ class LOG
       _file      = File.open(_filename, 'a+')
       _file.sync = true
       
-      @log = Logger.new(_file, level: SYS.log_level, progname: Worker.pid_base)
+      @log = Logger.new(_file, level: CFG.log_level, progname: Worker.pid_base)
     else
       @log = nil
     end

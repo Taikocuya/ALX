@@ -102,9 +102,19 @@ class Entry
     Root.etc(...)
   end
 
-  # @see Root#sys
-  def sys(...)
-    Root.sys(...)
+  # @see Root#cfg
+  def cfg(...)
+    Root.cfg(...)
+  end
+
+  # @see Root#dscrptr
+  def dscrptr(...)
+    Root.dscrptr(...)
+  end
+
+  # @see Root#strdetr
+  def strdetr(...)
+    Root.strdetr(...)
   end
 
   # @see Root#voc
@@ -334,7 +344,7 @@ class Entry
   end
   
   def languages
-    SYS.language_names.keys
+    CFG.language_names.keys
   end
   
   def de

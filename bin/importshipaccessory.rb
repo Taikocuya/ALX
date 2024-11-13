@@ -44,7 +44,7 @@ class ShipAccessoryImporter < ShipAccessoryTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.ship_accessory_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.ship_accessory_csv_file)
     _result
   end
 

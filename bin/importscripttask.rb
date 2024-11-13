@@ -44,7 +44,7 @@ class ScriptTaskImporter < ScriptTaskTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.script_task_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.script_task_csv_file)
     _result
   end
 

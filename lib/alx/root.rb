@@ -166,7 +166,7 @@ class Root
   # Returns +:be+ or +:le+ depending on the platform endianness.
   # @return [Symbol] +:big+ or +:little+ depending on endianness.
   def endianness
-    sys(:platform_endianness)
+    cfg(:platform_endianness)
   end
 
   # Returns +true+ if the endianness is big-endian, otherwise +false+.
@@ -181,10 +181,10 @@ class Root
     endianness == :le
   end
 
-  # Returns the file class depending on +SYS.platform_compressions+. 
-  # @return [Class] File class depending on +SYS.platform_compressions+
+  # Returns the file class depending on +CFG.platform_compressions+. 
+  # @return [Class] File class depending on +CFG.platform_compressions+
   def compression
-    Kernel.const_get(sys(:platform_compressions))
+    Kernel.const_get(cfg(:platform_compressions))
   end
 
   # Returns the value of a ETC attribute. If the value is a Hash, the 
@@ -209,14 +209,14 @@ class Root
         _value = nil
       end
       if _ext != '*'
-        _sys_attr_ext = [_ext]
+        _etc_attr_ext = [_ext]
       else
-        _sys_attr_ext = []
+        _etc_attr_ext = []
       end
 
       unless _value
         (0...@etc_resolver.size).to_a.reverse.each do |_end|
-          _key   = (@etc_resolver[0.._end] + _sys_attr_ext).join('-')
+          _key   = (@etc_resolver[0.._end] + _etc_attr_ext).join('-')
           _value = _attr[_key]
 
           if _value
@@ -240,16 +240,40 @@ class Root
     _attr
   end
 
-  # Returns the value of a SYS attribute. If the value is a Hash, the 
+  # Returns the value of a CFG attribute. If the value is a Hash, the 
   # instance variables are considered during key selection.
   # 
-  # @param _sym  [Symbol] SYS attribute symbol
+  # @param _sym  [Symbol] CFG attribute symbol
   # @param _keys [String] Additional keys which are considered during key 
   #                       selection.
   # 
-  # @return [Object] SYS attribute object
-  def sys(_sym, *_keys)
-    etc(SYS, _sym, *_keys)
+  # @return [Object] CFG attribute object
+  def cfg(_sym, *_keys)
+    etc(CFG, _sym, *_keys)
+  end
+
+  # Returns the value of a DSCRPTR attribute. If the value is a Hash, the 
+  # instance variables are considered during key selection.
+  # 
+  # @param _sym  [Symbol] DSCRPTR attribute symbol
+  # @param _keys [String] Additional keys which are considered during key 
+  #                       selection.
+  # 
+  # @return [Object] DSCRPTR attribute object
+  def dscrptr(_sym, *_keys)
+    etc(DSCRPTR, _sym, *_keys)
+  end
+
+  # Returns the value of a STRDETR attribute. If the value is a Hash, the 
+  # instance variables are considered during key selection.
+  # 
+  # @param _sym  [Symbol] STRDETR attribute symbol
+  # @param _keys [String] Additional keys which are considered during key 
+  #                       selection.
+  # 
+  # @return [Object] STRDETR attribute object
+  def strdetr(_sym, *_keys)
+    etc(STRDETR, _sym, *_keys)
   end
 
   # Returns the value of a VOC attribute. If the value is a Hash, the 
@@ -259,34 +283,34 @@ class Root
   # @param _keys [String] Additional keys which are considered during key 
   #                       selection.
   # 
-  # @return [Object] SYS attribute object
+  # @return [Object] CFG attribute object
   def voc(_sym, *_keys)
     etc(VOC, _sym, *_keys)
   end
   
   # Returns a new path formed by joining the strings using '/' relative to 
-  # #dir. SYS symbols are resolved as well. If they contain a Hash, the game 
+  # #dir. CFG symbols are resolved as well. If they contain a Hash, the game 
   # root attributes are considered during key selection.
   # 
-  # @param _args [String,Symbol] Paths or SYS symbols
+  # @param _args [String,Symbol] Paths or CFG symbols
   # @return [String] Path
   # @see ::File::join
   def join(*_args)
     _paths = _args.collect do |_p|
-      _p.is_a?(Symbol) ? sys(_p) : _p
+      _p.is_a?(Symbol) ? cfg(_p) : _p
     end
     File.join(@dirname, *_paths)
   end
   
   # Expands glob pattern and returns a path of the first matching file or 
-  # directory relative to #dir. SYS symbols are resolved as well. If they 
+  # directory relative to #dir. CFG symbols are resolved as well. If they 
   # contain a Hash, the game root attributes are considered during key 
   # selection.
   # 
   # If a block is specified, calls the block once for each matching file or 
   # directory, passing the path as a parameter to the block. 
   # 
-  # @param _args [String,Symbol] Glob patterns or SYS attributes
+  # @param _args [String,Symbol] Glob patterns or CFG attributes
   # @return [String] First matching path
   # @see ::Dir::glob
   def glob(*_args)
@@ -370,7 +394,7 @@ class Root
     
     _result   = true
     _result &&= has_dir?(@dirname)
-    _result &&= has_dir?(@dirname, SYS.root_dir)
+    _result &&= has_dir?(@dirname, CFG.root_dir)
     _result
   end
 
@@ -379,15 +403,15 @@ class Root
   # @return [Boolean] +true+ if configuration is valid, otherwise +false+.
   def init_config
     _result   = true
-    _result &&= check_etc(SYS, :platform_files       )
-    _result &&= check_etc(SYS, :platform_endianness  )
-    _result &&= check_etc(SYS, :platform_compressions)
-    _result &&= check_etc(SYS, :region_ids           )
-    _result &&= check_etc(SYS, :country_ids          )
-    _result &&= check_etc(SYS, :maker_ids            )
-    _result &&= check_etc(SYS, :maker_names          )
-    _result &&= check_etc(SYS, :product_ids          )
-    _result &&= check_etc(SYS, :product_names        )
+    _result &&= check_etc(CFG, :platform_files       )
+    _result &&= check_etc(CFG, :platform_endianness  )
+    _result &&= check_etc(CFG, :platform_compressions)
+    _result &&= check_etc(CFG, :region_ids           )
+    _result &&= check_etc(CFG, :country_ids          )
+    _result &&= check_etc(CFG, :maker_ids            )
+    _result &&= check_etc(CFG, :maker_names          )
+    _result &&= check_etc(CFG, :product_ids          )
+    _result &&= check_etc(CFG, :product_names        )
     _result
   end
 
@@ -397,7 +421,7 @@ class Root
   def init_platform
     _result = false
     PLATFORMS.find do |_id, _name|
-      _files  = SYS.platform_files[_id]
+      _files  = CFG.platform_files[_id]
       _result = _files.all? do |_path|
         _path   = join(_path)
         _msg    = sprintf(VOC.check_file, _path)
@@ -438,7 +462,7 @@ class Root
   # +false+.
   # @return [Boolean] +true+ if BNR file is valid, otherwise +false+.
   def init_bnr
-    _path = join(SYS.bnr_file)
+    _path = join(CFG.bnr_file)
     unless has_file?(_path)
       return false
     end
@@ -453,7 +477,7 @@ class Root
     refresh_etc
 
     _msg = sprintf(VOC.check_bnr, VOC.product_name)
-    if @product_name =~ sys(:product_names)
+    if @product_name =~ cfg(:product_names)
       _result  = true
       _msg    += sprintf(' - %s (%s)', VOC.valid    , @product_name)
       ALX::LOG.info(_msg)
@@ -465,7 +489,7 @@ class Root
     
     if _result
       _msg = sprintf(VOC.check_bnr, VOC.maker_name)
-      if @maker_name =~ sys(:maker_names)
+      if @maker_name =~ cfg(:maker_names)
         _result  = true
         _msg    += sprintf(' - %s (%s)', VOC.valid    , @maker_name)
         ALX::LOG.info(_msg)
@@ -483,7 +507,7 @@ class Root
   # +false+.
   # @return [Boolean] +true+ if HDR file is valid, otherwise +false+.
   def init_hdr
-    _path = join(SYS.hdr_file)
+    _path = join(CFG.hdr_file)
     unless has_file?(_path)
       return false
     end
@@ -495,14 +519,14 @@ class Root
     @region_id   = _hdr.region_id
     refresh_etc
 
-    @region_name = sys(:region_ids)  || ''
-    @country_id  = sys(:country_ids) || ''
+    @region_name = cfg(:region_ids)  || ''
+    @country_id  = cfg(:country_ids) || ''
     @maker_id    = _hdr.maker_id
     _result      = false
     refresh_etc
 
     _msg = sprintf(VOC.check_hdr, VOC.product_id)
-    if @product_id =~ sys(:product_ids)
+    if @product_id =~ cfg(:product_ids)
       _result  = true
       _msg    += sprintf(' - %s (%s)', VOC.valid    , @product_id)
       ALX::LOG.info(_msg)
@@ -546,7 +570,7 @@ class Root
 
     if _result
       _msg = sprintf(VOC.check_hdr, VOC.maker_id)
-      if @maker_id =~ sys(:maker_ids)
+      if @maker_id =~ cfg(:maker_ids)
         _result  = true
         _msg    += sprintf(' - %s (%s)', VOC.valid    , @maker_id)
         ALX::LOG.info(_msg)
@@ -559,7 +583,7 @@ class Root
 
     if _result
       _msg = sprintf(VOC.check_hdr, VOC.product_name)
-      if _hdr.product_name =~ sys(:product_names)
+      if _hdr.product_name =~ cfg(:product_names)
         _result  = true
         _msg    += sprintf(' - %s (%s)', VOC.valid    , _hdr.product_name)
         ALX::LOG.info(_msg)
@@ -577,7 +601,7 @@ class Root
   # otherwise +false+.
   # @return [Boolean] +true+ if IP.BIN file is valid, otherwise +false+.
   def init_ip
-    _path = join(SYS.ip_file)
+    _path = join(CFG.ip_file)
     unless has_file?(_path)
       return false
     end
@@ -595,13 +619,13 @@ class Root
     @description     = _ip.description
     refresh_etc
 
-    @region_name     = sys(:region_ids)  || ''
-    @country_id      = sys(:country_ids) || ''
+    @region_name     = cfg(:region_ids)  || ''
+    @country_id      = cfg(:country_ids) || ''
     _result          = false
     refresh_etc
 
     _msg = sprintf(VOC.check_ip, VOC.product_id)
-    if @product_id =~ sys(:product_ids)
+    if @product_id =~ cfg(:product_ids)
       _result  = true
       _msg    += sprintf(' - %s (%s)', VOC.valid    , @product_id)
       ALX::LOG.info(_msg)
@@ -613,7 +637,7 @@ class Root
 
     if _result
       _msg = sprintf(VOC.check_ip, VOC.product_name)
-      if @product_name =~ sys(:product_names)
+      if @product_name =~ cfg(:product_names)
         _result  = true
         _msg    += sprintf(' - %s (%s)', VOC.valid    , @product_name)
         ALX::LOG.info(_msg)
@@ -657,7 +681,7 @@ class Root
 
     if _result
       _msg = sprintf(VOC.check_ip, VOC.maker_id)
-      if @maker_id =~ sys(:maker_ids)
+      if @maker_id =~ cfg(:maker_ids)
         _result  = true
         _msg    += sprintf(' - %s (%s)', VOC.valid    , @maker_id)
         ALX::LOG.info(_msg)
@@ -670,7 +694,7 @@ class Root
 
     if _result
       _msg = sprintf(VOC.check_ip, VOC.maker_name)
-      if @maker_name =~ sys(:maker_names)
+      if @maker_name =~ cfg(:maker_names)
         _result  = true
         _msg    += sprintf(' - %s (%s)', VOC.valid    , @maker_name)
         ALX::LOG.info(_msg)

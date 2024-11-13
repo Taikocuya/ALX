@@ -53,11 +53,11 @@ class ShopData < StdEntryData
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
     super(Shop, _depend)
-    self.id_range  = sys(:shop_id_range)
-    self.data_file = sys(:shop_data_files)
-    self.dscr_file = sys(:shop_dscr_files)
-    self.csv_file  = join(SYS.shop_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.shop_tpl_file)
+    self.id_range  = dscrptr(:shop_id_range)
+    self.data_file = dscrptr(:shop_data_files)
+    self.dscr_file = dscrptr(:shop_dscr_files)
+    self.csv_file  = join(CFG.shop_csv_file)
+    self.tpl_file  = File.join(CFG.build_dir, CFG.shop_tpl_file)
 
     if depend
       @accessory_data      = AccessoryData.new

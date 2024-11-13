@@ -34,7 +34,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
   
-# Class to create backups in +SYS.build_dir+.
+# Class to create backups in +CFG.build_dir+.
 class BackupCreator < EntryTransform
 
 #==============================================================================
@@ -53,39 +53,39 @@ class BackupCreator < EntryTransform
     
     if Worker.child?
       Dir.chdir(Root.dirname) do
-        Dir.glob(sys(:exec_file)).each do |_p|
+        Dir.glob(cfg(:exec_file)).each do |_p|
           create_backup(_p)
         end
         
-        create_backup(sys(:evp_file))
-        create_backup(sys(:level_file))
+        create_backup(cfg(:evp_file))
+        create_backup(cfg(:level_file))
 
-        Dir.glob(sys(:enp_file)).each do |_p|
+        Dir.glob(cfg(:enp_file)).each do |_p|
           create_backup(_p)
         end
-        Dir.glob(sys(:eb_file)).each do |_p|
+        Dir.glob(cfg(:eb_file)).each do |_p|
           create_backup(_p)
         end
-        Dir.glob(sys(:ec_file)).each do |_p|
+        Dir.glob(cfg(:ec_file)).each do |_p|
           create_backup(_p)
         end
-        Dir.glob(sys(:sct_file)).each do |_p|
+        Dir.glob(cfg(:sct_file)).each do |_p|
           create_backup(_p)
         end
-        Dir.glob(sys(:tec_file)).each do |_p|
+        Dir.glob(cfg(:tec_file)).each do |_p|
           create_backup(_p)
         end
         
-        Dir.glob(sys(:sot_file_de)).each do |_p|
+        Dir.glob(cfg(:sot_file_de)).each do |_p|
           create_backup(_p)
         end
-        Dir.glob(sys(:sot_file_es)).each do |_p|
+        Dir.glob(cfg(:sot_file_es)).each do |_p|
           create_backup(_p)
         end
-        Dir.glob(sys(:sot_file_fr)).each do |_p|
+        Dir.glob(cfg(:sot_file_fr)).each do |_p|
           create_backup(_p)
         end
-        Dir.glob(sys(:sot_file_gb)).each do |_p|
+        Dir.glob(cfg(:sot_file_gb)).each do |_p|
           create_backup(_p)
         end
       end
@@ -96,11 +96,11 @@ class BackupCreator < EntryTransform
   # @param _filename [String] File name
   def create_backup(_filename)
     _src_file = File.expand_path(_filename, Root.dirname)
-    _base_dir = Pathname.new(File.expand_path(SYS.root_dir, Root.dirname))
+    _base_dir = Pathname.new(File.expand_path(CFG.root_dir, Root.dirname))
     _root_dir = Pathname.new(_src_file)
     _dst_file = File.expand_path(
       _root_dir.relative_path_from(_base_dir),
-      File.join(Root.dirname, SYS.backup_dir)
+      File.join(Root.dirname, CFG.backup_dir)
     )
 
     LOG.info(sprintf(VOC.create, VOC.open_backup, _dst_file))

@@ -44,7 +44,7 @@ class SpecialItemImporter < SpecialItemTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.special_item_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.special_item_csv_file)
     _result
   end
 

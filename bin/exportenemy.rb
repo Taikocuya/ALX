@@ -44,7 +44,7 @@ class EnemyExporter < EnemyTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, sys(:evp_file))
+    _result &&= has_file?(Root.dirname, cfg(:evp_file))
     _result
   end
   

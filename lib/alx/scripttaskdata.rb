@@ -48,9 +48,9 @@ class ScriptTaskData < EntryData
   def initialize(_depend = true)
     super(ScriptTask, _depend)
 
-    @sct_file         = sys(:sct_file)
-    @version_csv_file = join(SYS.script_version_csv_file)
-    @task_csv_file    = SYS.script_task_csv_file
+    @sct_file         = cfg(:sct_file)
+    @version_csv_file = join(CFG.script_version_csv_file)
+    @task_csv_file    = CFG.script_task_csv_file
 
     @fibers   = {}
     @versions = []

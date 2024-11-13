@@ -44,7 +44,7 @@ class ExpCurveImporter < ExpCurveTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.exp_curve_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.exp_curve_csv_file)
     _result
   end
 

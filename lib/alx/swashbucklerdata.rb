@@ -46,11 +46,11 @@ class SwashbucklerData < StdEntryData
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
     super(Swashbuckler, _depend)
-    self.id_range  = sys(:swashbuckler_id_range)
-    self.data_file = sys(:swashbuckler_data_files)
-    self.name_file = sys(:swashbuckler_name_files)
-    self.csv_file  = join(SYS.swashbuckler_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.swashbuckler_tpl_file)
+    self.id_range  = dscrptr(:swashbuckler_id_range)
+    self.data_file = dscrptr(:swashbuckler_data_files)
+    self.name_file = dscrptr(:swashbuckler_name_files)
+    self.csv_file  = join(CFG.swashbuckler_csv_file)
+    self.tpl_file  = File.join(CFG.build_dir, CFG.swashbuckler_tpl_file)
   end
 
 end # class SwashbucklerData

@@ -53,12 +53,12 @@ class EnemyShipData < StdEntryData
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
     super(EnemyShip, _depend)
-    self.id_range  = sys(:enemy_ship_id_range)
-    self.data_file = sys(:enemy_ship_data_files)
-    self.name_file = sys(:enemy_ship_name_files)
-    self.csv_file  = join(SYS.enemy_ship_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.enemy_ship_tpl_file)
-    @arm_name_file = sys(:enemy_ship_arm_name_files)
+    self.id_range  = dscrptr(:enemy_ship_id_range)
+    self.data_file = dscrptr(:enemy_ship_data_files)
+    self.name_file = dscrptr(:enemy_ship_name_files)
+    self.csv_file  = join(CFG.enemy_ship_csv_file)
+    self.tpl_file  = File.join(CFG.build_dir, CFG.enemy_ship_tpl_file)
+    @arm_name_file = dscrptr(:enemy_ship_arm_name_files)
         
     if depend
       @accessory_data      = AccessoryData.new

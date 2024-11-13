@@ -53,16 +53,16 @@ class DefinedStringDetector
   # Constructs a StringDetector.
   def initialize
     @range          = ALX.rng(0x0..0xffffffff)
-    @char_table     = SYS.defined_string_char_table
-    @char_encodings = SYS.defined_string_char_encodings
-    @filters        = SYS.defined_string_filters
-    @ignore_filter  = SYS.defined_string_ignore_filter
-    @invert_filter  = SYS.defined_string_invert_filter
-    @diff_support   = SYS.defined_string_diff_support
-    @beg_alignment  = SYS.defined_string_beg_alignment
-    @end_alignment  = SYS.defined_string_end_alignment
-    @min_byte_size  = SYS.defined_string_min_byte_size
-    @min_char_size  = SYS.defined_string_min_char_size
+    @char_table     = STRDETR.defined_string_char_table
+    @char_encodings = STRDETR.defined_string_char_encodings
+    @filters        = STRDETR.defined_string_filters
+    @ignore_filter  = STRDETR.defined_string_ignore_filter
+    @invert_filter  = STRDETR.defined_string_invert_filter
+    @diff_support   = STRDETR.defined_string_diff_support
+    @beg_alignment  = STRDETR.defined_string_beg_alignment
+    @end_alignment  = STRDETR.defined_string_end_alignment
+    @min_byte_size  = STRDETR.defined_string_min_byte_size
+    @min_char_size  = STRDETR.defined_string_min_char_size
     @translate      = false
     @cache          = CacheFile.new(self.class.name.split('::').last.downcase)
     @dictionary     = nil
@@ -101,7 +101,7 @@ class DefinedStringDetector
   # @param _f [IO] Binary I/O stream
   # 
   # @return [Boolean] +true+ if string is valid, otherwise +false+. The 
-  #                   +SYS.defined_string_keep_everything+ is considered.
+  #                   +STRDETR.defined_string_diff_support+ is considered.
   def detect(_f)
     clear
     

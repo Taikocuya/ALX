@@ -46,12 +46,12 @@ class ShipAccessoryData < StdEntryData
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
     super(ShipAccessory, _depend)
-    self.id_range  = sys(:ship_accessory_id_range)
-    self.data_file = sys(:ship_accessory_data_files)
-    self.name_file = sys(:ship_accessory_name_files)
-    self.dscr_file = sys(:ship_accessory_dscr_files)
-    self.csv_file  = join(SYS.ship_accessory_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.ship_accessory_tpl_file)
+    self.id_range  = dscrptr(:ship_accessory_id_range)
+    self.data_file = dscrptr(:ship_accessory_data_files)
+    self.name_file = dscrptr(:ship_accessory_name_files)
+    self.dscr_file = dscrptr(:ship_accessory_dscr_files)
+    self.csv_file  = join(CFG.ship_accessory_csv_file)
+    self.tpl_file  = File.join(CFG.build_dir, CFG.ship_accessory_tpl_file)
   end
 
 end # class ShipAccessoryData

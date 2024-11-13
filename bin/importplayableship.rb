@@ -44,7 +44,7 @@ class PlayableShipImporter < PlayableShipTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.playable_ship_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.playable_ship_csv_file)
     _result
   end
 

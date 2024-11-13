@@ -66,7 +66,7 @@ class Worker
   def initialize
     ObjectSpace.define_finalizer(self, finalize)
     self.limit   = 0xffffffff
-    self.timeout = SYS.worker_timeout
+    self.timeout = CFG.worker_timeout
     init_worker
     init_ruby
     init_pid
@@ -144,7 +144,7 @@ class Worker
   def spawn(_worker)
     _worker   = _worker.to_s
     _pid      = Process.spawn(@ruby_exe, @script_file, '--worker', _worker)
-    _pid_file = File.join(SYS.temp_dir, sprintf(PID_FILE, @pid_base, _pid))
+    _pid_file = File.join(CFG.temp_dir, sprintf(PID_FILE, @pid_base, _pid))
     save_pid(_pid_file, _pid)
   end
 
@@ -217,7 +217,7 @@ class Worker
   # Initializes the Ruby environment.
   def init_ruby
     if Dir.exist?(MEMFS_DIR)
-      @ruby_exe = SYS.ruby_exe
+      @ruby_exe = CFG.ruby_exe
     else
       @ruby_exe = RbConfig.ruby
     end
@@ -229,8 +229,8 @@ class Worker
   def init_pid
     @pid      = Process.pid
     @pid_base = File.basename(@script_file, '.*')
-    @pid_file = File.join(SYS.temp_dir, sprintf(PID_FILE, @pid_base, @pid))
-    @pid_glob = File.join(SYS.temp_dir, sprintf(PID_FILE, @pid_base, '*' ))
+    @pid_file = File.join(CFG.temp_dir, sprintf(PID_FILE, @pid_base, @pid))
+    @pid_glob = File.join(CFG.temp_dir, sprintf(PID_FILE, @pid_base, '*' ))
     purge_pid(true)
     
     _pid = Dir.glob(@pid_glob).first
@@ -271,7 +271,7 @@ class Worker
   def save_pid(_filename = nil, _pid = nil)
     _filename ||= @pid_file
     _pid      ||= @pid
-    FileUtils.mkdir_p(SYS.temp_dir)
+    FileUtils.mkdir_p(CFG.temp_dir)
     File.open(_filename, 'w') do |_f|
       _f << _pid
     end

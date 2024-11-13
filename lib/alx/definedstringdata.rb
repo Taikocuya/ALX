@@ -46,8 +46,8 @@ class DefinedStringData < EntryData
   # Constructs a DefinedStringData.
   def initialize
     super(DefinedString)
-    @data_file = sys(:defined_string_data_files)
-    @csv_file  = join(SYS.defined_string_csv_file)
+    @data_file = strdetr(:defined_string_data_files)
+    @csv_file  = join(CFG.defined_string_csv_file)
     @data      = []
   end
 
@@ -68,7 +68,7 @@ class DefinedStringData < EntryData
     end
 
     load_cache
-    if cache.valid? && !SYS.defined_string_use_dictionary
+    if cache.valid? && !STRDETR.defined_string_use_dictionary
       return false
     end
 
@@ -116,7 +116,7 @@ class DefinedStringData < EntryData
     if @data.empty?
       return false
     end
-    if cache.valid? && !SYS.defined_string_use_dictionary
+    if cache.valid? && !STRDETR.defined_string_use_dictionary
       return false
     end
     
@@ -159,7 +159,7 @@ class DefinedStringData < EntryData
   def load_bin_data(_filename)
     _descriptor = find_descriptor(@data_file, _filename)
     _detect     = DefinedStringDetector.new
-    if SYS.defined_string_use_dictionary
+    if STRDETR.defined_string_use_dictionary
       _detect.load_dictionary(_descriptor)
     end
     
@@ -192,7 +192,7 @@ class DefinedStringData < EntryData
           _entry[VOC.string_value   ] = _detect.string
           _entry[VOC.string_data    ] = _detect.dump
           
-          if SYS.defined_string_append_filter
+          if STRDETR.defined_string_append_filter
             _entry[VOC.string_filter] = _detect.substitution
           end
           
@@ -201,7 +201,7 @@ class DefinedStringData < EntryData
       end
     end
 
-    if SYS.defined_string_use_dictionary
+    if STRDETR.defined_string_use_dictionary
       _detect.save_dictionary
     end
   end

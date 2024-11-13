@@ -46,13 +46,13 @@ class CharacterMagicData < StdEntryData
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
     super(CharacterMagic, _depend)
-    self.id_range   = sys(:character_magic_id_range)
-    self.data_file  = sys(:character_magic_data_files)
-    self.name_file  = sys(:character_magic_name_files)
-    self.dscr_file  = sys(:character_magic_dscr_files)
-    self.csv_file   = join(SYS.character_magic_csv_file)
-    self.tpl_file   = File.join(SYS.build_dir, SYS.character_magic_tpl_file)
-    @ship_dscr_file = sys(:character_magic_ship_dscr_files)
+    self.id_range   = dscrptr(:character_magic_id_range)
+    self.data_file  = dscrptr(:character_magic_data_files)
+    self.name_file  = dscrptr(:character_magic_name_files)
+    self.dscr_file  = dscrptr(:character_magic_dscr_files)
+    self.csv_file   = join(CFG.character_magic_csv_file)
+    self.tpl_file   = File.join(CFG.build_dir, CFG.character_magic_tpl_file)
+    @ship_dscr_file = dscrptr(:character_magic_ship_dscr_files)
   end
 
   # Reads all entries from binary files.

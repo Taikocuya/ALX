@@ -46,10 +46,10 @@ class WeaponEffectData < StdEntryData
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
     super(WeaponEffect, _depend)
-    self.id_range  = sys(:weapon_effect_id_range)
-    self.data_file = sys(:weapon_effect_data_files)
-    self.csv_file  = join(SYS.weapon_effect_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.weapon_effect_tpl_file)
+    self.id_range  = dscrptr(:weapon_effect_id_range)
+    self.data_file = dscrptr(:weapon_effect_data_files)
+    self.csv_file  = join(CFG.weapon_effect_csv_file)
+    self.tpl_file  = File.join(CFG.build_dir, CFG.weapon_effect_tpl_file)
   end
 
 end # class WeaponEffectData

@@ -44,7 +44,7 @@ class DefinedStringImporter < DefinedStringTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.defined_string_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.defined_string_csv_file)
     _result
   end
 

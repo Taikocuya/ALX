@@ -41,9 +41,9 @@ class FileComparator < EntryTransform
 #==============================================================================
 
   # Path to first file
-  FILE_1 = File.join(SYS.build_dir, '')
+  FILE_1 = File.join(CFG.build_dir, '')
   # Path to second file
-  FILE_2 = File.join(SYS.build_dir, '')
+  FILE_2 = File.join(CFG.build_dir, '')
   # Filter for bytes to be ignored.
   FILTER = [0x55]
 

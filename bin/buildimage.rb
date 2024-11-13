@@ -34,7 +34,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
   
-# Class to build images in +SYS.image_dir+.
+# Class to build images in +CFG.image_dir+.
 class ImageBuilder < EntryTransform
 
 #==============================================================================
@@ -51,7 +51,7 @@ class ImageBuilder < EntryTransform
   def valid?
     _result = super
     if Root.dc?
-      _result &&= has_file?(Root.dirname, SYS.image_dir, 'game.gdi')
+      _result &&= has_file?(Root.dirname, CFG.image_dir, 'game.gdi')
     end
     _result
   end
@@ -82,16 +82,16 @@ class ImageBuilder < EntryTransform
 
   # Builds a GDI image.
   def build_gdi
-    _root_dir  = ALX.join(Root.dirname, SYS.root_dir )
-    _image_dir = ALX.join(Root.dirname, SYS.image_dir)
+    _root_dir  = ALX.join(Root.dirname, CFG.root_dir )
+    _image_dir = ALX.join(Root.dirname, CFG.image_dir)
     _gdi_file  = ALX.join(_image_dir  , 'game.gdi'   )
-    _ip_file   = ALX.join(Root.dirname, SYS.ip_file  )
+    _ip_file   = ALX.join(Root.dirname, CFG.ip_file  )
 
     LOG.info(sprintf(VOC.build_gdi, _gdi_file))
 
     FileUtils.mkdir_p(_image_dir)
     _stdout, _stderr, _status = Open3.capture3(
-      SYS.gdi_builder_exe,
+      CFG.gdi_builder_exe,
       '-data'  , _root_dir ,
       '-gdi'   , _gdi_file ,
       '-ip'    , _ip_file  ,
@@ -107,8 +107,8 @@ class ImageBuilder < EntryTransform
   
   # Builds a GCM image.
   def build_gcm
-    _root_dir  = ALX.join(Root.dirname, SYS.root_dir )
-    _image_dir = ALX.join(Root.dirname, SYS.image_dir)
+    _root_dir  = ALX.join(Root.dirname, CFG.root_dir )
+    _image_dir = ALX.join(Root.dirname, CFG.image_dir)
     _gcm_file  = ALX.join(_image_dir  , 'game.iso'   )
 
     LOG.info(sprintf(VOC.build_gcm, _gcm_file))
@@ -117,7 +117,7 @@ class ImageBuilder < EntryTransform
       File.unlink(_gcm_file)
     end
     FileUtils.mkdir_p(_image_dir)
-    system(SYS.gcm_builder_exe, _root_dir, _gcm_file)
+    system(CFG.gcm_builder_exe, _root_dir, _gcm_file)
     
     unless File.size?(_gcm_file)
       raise(IOError, 'image invalid')

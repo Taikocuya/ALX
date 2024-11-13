@@ -44,7 +44,7 @@ class UsableItemImporter < UsableItemTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.usable_item_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.usable_item_csv_file)
     _result
   end
 

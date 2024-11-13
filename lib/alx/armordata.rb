@@ -46,12 +46,12 @@ class ArmorData < StdEntryData
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
     super(Armor, _depend)
-    self.id_range  = sys(:armor_id_range)
-    self.data_file = sys(:armor_data_files)
-    self.name_file = sys(:armor_name_files)
-    self.dscr_file = sys(:armor_dscr_files)
-    self.csv_file  = join(SYS.armor_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.armor_tpl_file)
+    self.id_range  = dscrptr(:armor_id_range)
+    self.data_file = dscrptr(:armor_data_files)
+    self.name_file = dscrptr(:armor_name_files)
+    self.dscr_file = dscrptr(:armor_dscr_files)
+    self.csv_file  = join(CFG.armor_csv_file)
+    self.tpl_file  = File.join(CFG.build_dir, CFG.armor_tpl_file)
   end
 
 end # class ArmorData

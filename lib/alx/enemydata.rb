@@ -58,21 +58,21 @@ class EnemyData < EntryData
   def initialize(_depend = true)
     super(Enemy, _depend)
 
-    _build              = SYS.build_dir
-    @eb_file            = sys(:eb_file)
-    @ec_file            = sys(:ec_file)
-    @enp_file           = sys(:enp_file)
+    _build              = CFG.build_dir
+    @eb_file            = cfg(:eb_file)
+    @ec_file            = cfg(:ec_file)
+    @enp_file           = cfg(:enp_file)
     @evp_file           = glob(:evp_file)
-    @event_bgm_id_range = sys(:enemy_event_bgm_id_range)
-    @event_bgm_file     = sys(:enemy_event_bgm_files)
-    @enemy_csv_file     = join(SYS.enemy_csv_file)
-    @enemy_tpl_file     = File.join(_build, SYS.enemy_tpl_file)
-    @task_csv_file      = join(SYS.enemy_task_csv_file)
-    @task_tpl_file      = File.join(_build, SYS.enemy_task_tpl_file)
-    @event_csv_file     = join(SYS.enemy_event_csv_file)
-    @event_tpl_file     = File.join(_build, SYS.enemy_event_tpl_file)
-    @encounter_csv_file = join(SYS.enemy_encounter_csv_file)
-    @encounter_tpl_file = File.join(_build, SYS.enemy_encounter_tpl_file)
+    @event_bgm_id_range = dscrptr(:enemy_event_bgm_id_range)
+    @event_bgm_file     = dscrptr(:enemy_event_bgm_files)
+    @enemy_csv_file     = join(CFG.enemy_csv_file)
+    @enemy_tpl_file     = File.join(_build, CFG.enemy_tpl_file)
+    @task_csv_file      = join(CFG.enemy_task_csv_file)
+    @task_tpl_file      = File.join(_build, CFG.enemy_task_tpl_file)
+    @event_csv_file     = join(CFG.enemy_event_csv_file)
+    @event_tpl_file     = File.join(_build, CFG.enemy_event_tpl_file)
+    @encounter_csv_file = join(CFG.enemy_encounter_csv_file)
+    @encounter_tpl_file = File.join(_build, CFG.enemy_encounter_tpl_file)
 
     if depend
       @accessory_data        = AccessoryData.new
@@ -489,7 +489,7 @@ class EnemyData < EntryData
       _comp
     end
   
-    if SYS.enemy_summarize_filter
+    if DSCRPTR.enemy_summarize_filter
       _last = nil
       _lock = false
       @enemies.each do |_enemy|
@@ -526,17 +526,17 @@ class EnemyData < EntryData
       _comp
     end
 
-    if SYS.enemy_task_id_base > 1 || SYS.enemy_task_summarize_filter
+    if DSCRPTR.enemy_task_id_base > 1 || DSCRPTR.enemy_task_summarize_filter
       _last = nil
       _lock = false
       @tasks.each do |_task|
-        if SYS.enemy_task_id_base > 1
-          _task.id *= SYS.enemy_task_id_base
+        if DSCRPTR.enemy_task_id_base > 1
+          _task.id *= DSCRPTR.enemy_task_id_base
           if _task.type_id == 0
-            _task.param_id *= SYS.enemy_task_id_base
+            _task.param_id *= DSCRPTR.enemy_task_id_base
           end
         end
-        if SYS.enemy_task_summarize_filter
+        if DSCRPTR.enemy_task_summarize_filter
           if _last && _last.enemy_id != _task.enemy_id
             _last = nil
             _lock = false

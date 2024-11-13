@@ -34,7 +34,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
   
-# Class to create archive files in +SYS.data_dir+.
+# Class to create archive files in +CFG.data_dir+.
 class ArchiveCreator < EntryTransform
 
 #==============================================================================
@@ -42,7 +42,7 @@ class ArchiveCreator < EntryTransform
 #==============================================================================
 
   # Path to 7-Zip executable file
-  SEVENZIP_EXE = File.join(SYS.vendor_dir, '7za/7za.exe')
+  SEVENZIP_EXE = File.join(CFG.vendor_dir, '7za/7za.exe')
   # Configuration files
   CONFIG_FILES = ETC::CONFIG_FILES
 
@@ -60,7 +60,7 @@ class ArchiveCreator < EntryTransform
   def valid?
     _result = super
     _result &&= has_file?(SEVENZIP_EXE)
-    _result &&= has_dir?(File.dirname(join(SYS.script_task_csv_file)))
+    _result &&= has_dir?(File.dirname(join(CFG.script_task_csv_file)))
     _result
   end
 
@@ -71,7 +71,7 @@ class ArchiveCreator < EntryTransform
     super
 
     if Worker.child?
-      create_7z(File.dirname(join(SYS.script_task_csv_file)))
+      create_7z(File.dirname(join(CFG.script_task_csv_file)))
     end
   end
 

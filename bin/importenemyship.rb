@@ -44,7 +44,7 @@ class EnemyShipImporter < EnemyShipTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.enemy_ship_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.enemy_ship_csv_file)
     _result
   end
 

@@ -69,8 +69,8 @@ class EvpFile < EpFile
   # Reads an EVP file.
   # @param _filename [String] File name
   def load(_filename)
-    _num_enemies = sys(:enemy_event_num_enemies)
-    _num_events  = sys(:enemy_event_num_events)
+    _num_enemies = dscrptr(:enemy_event_num_enemies)
+    _num_events  = dscrptr(:enemy_event_num_events)
     
     LOG.info(sprintf(VOC.load, VOC.open_file, _filename))
 
@@ -120,8 +120,8 @@ class EvpFile < EpFile
       return
     end
     
-    _num_enemies = sys(:enemy_event_num_enemies)
-    _num_events  = sys(:enemy_event_num_events)
+    _num_enemies = dscrptr(:enemy_event_num_enemies)
+    _num_events  = dscrptr(:enemy_event_num_events)
     _enemies     = []
     _modified    = false
     @events.each_with_index do |_event, _id|

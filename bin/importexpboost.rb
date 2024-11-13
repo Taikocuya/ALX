@@ -44,7 +44,7 @@ class ExpBoostImporter < ExpBoostTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.exp_boost_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.exp_boost_csv_file)
     _result
   end
 

@@ -133,7 +133,7 @@ class EnemyShipTask < Entry
     end
 
     fetch(VOC.filter).proc = Proc.new do |_filter|
-      _match = SYS.enemy_ship_tasks.find do |_, _array|
+      _match = DSCRPTR.enemy_ship_tasks.find do |_, _array|
         _array.any? do |_task_id|
           _filter.include?(_task_id.to_s)
         end

@@ -45,8 +45,8 @@ class DatFile < EpFile
   # @param _filename [String] File name
   def load(_filename)
     _basename   = File.basename(_filename)
-    _eb_pattern = File.basename(sys(:eb_file)).sub('*', '\d{3}')
-    _ec_pattern = File.basename(sys(:ec_file)).sub('*', '\d{3}')
+    _eb_pattern = File.basename(cfg(:eb_file)).sub('*', '\d{3}')
+    _ec_pattern = File.basename(cfg(:ec_file)).sub('*', '\d{3}')
     if Regexp.new(_eb_pattern) =~ _basename
       _boss = true
     elsif Regexp.new(_ec_pattern) =~ _basename
@@ -74,8 +74,8 @@ class DatFile < EpFile
   # @param _filename [String] File name
   def save(_filename)
     _basename   = File.basename(_filename)
-    _eb_pattern = File.basename(sys(:eb_file)).sub('*', '\d{3}')
-    _ec_pattern = File.basename(sys(:ec_file)).sub('*', '\d{3}')
+    _eb_pattern = File.basename(cfg(:eb_file)).sub('*', '\d{3}')
+    _ec_pattern = File.basename(cfg(:ec_file)).sub('*', '\d{3}')
     if Regexp.new(_eb_pattern) =~ _basename
       _boss = true
     elsif Regexp.new(_ec_pattern) =~ _basename

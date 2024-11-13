@@ -48,9 +48,9 @@ class EnemyShipTaskData < EntryData
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
     super(EnemyShipTask, _depend)
-    @tec_file = sys(:tec_file)
-    @csv_file = join(SYS.enemy_ship_task_csv_file)
-    @tpl_file = File.join(SYS.build_dir, SYS.enemy_ship_task_tpl_file)
+    @tec_file = cfg(:tec_file)
+    @csv_file = join(CFG.enemy_ship_task_csv_file)
+    @tpl_file = File.join(CFG.build_dir, CFG.enemy_ship_task_tpl_file)
     
     if depend
       @character_magic_data = CharacterMagicData.new

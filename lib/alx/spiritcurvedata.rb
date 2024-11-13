@@ -47,10 +47,10 @@ class SpiritCurveData < StdEntryData
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
     super(SpiritCurve, _depend)
-    self.id_range  = sys(:spirit_curve_id_range)
-    self.data_file = sys(:spirit_curve_data_files)
-    self.csv_file  = join(SYS.spirit_curve_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.spirit_curve_tpl_file)
+    self.id_range  = dscrptr(:spirit_curve_id_range)
+    self.data_file = dscrptr(:spirit_curve_data_files)
+    self.csv_file  = join(CFG.spirit_curve_csv_file)
+    self.tpl_file  = File.join(CFG.build_dir, CFG.spirit_curve_tpl_file)
     
     if depend
       @character_data = CharacterData.new

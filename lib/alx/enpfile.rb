@@ -90,8 +90,8 @@ class EnpFile < EpFile
   # Reads an ENP file.
   # @param _filename [String] File name
   def load(_filename)
-    _num_enemies    = sys(:enemy_encounter_num_enemies)
-    _num_encounters = sys(:enemy_encounter_num_encounters)
+    _num_enemies    = dscrptr(:enemy_encounter_num_enemies)
+    _num_encounters = dscrptr(:enemy_encounter_num_encounters)
     
     LOG.info(sprintf(VOC.load, VOC.open_file, _filename))
 
@@ -180,8 +180,8 @@ class EnpFile < EpFile
   # Writes an ENP file.
   # @param _filename [String] File name
   def save(_filename)
-    _num_enemies    = sys(:enemy_encounter_num_enemies)
-    _num_encounters = sys(:enemy_encounter_num_encounters)
+    _num_enemies    = dscrptr(:enemy_encounter_num_enemies)
+    _num_encounters = dscrptr(:enemy_encounter_num_encounters)
     _basename       = File.basename(_filename)
     _segments       = {}
     _enemies        = {}

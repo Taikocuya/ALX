@@ -49,8 +49,10 @@ class ETC
   
   # Configuration files
   CONFIG_FILES = {
-    :SYS => 'sys.rb',
-    :VOC => 'voc.rb',
+    :CFG     => 'cfg.rb',
+    :DSCRPTR => 'dscrptr.rb',
+    :STRDETR => 'strdetr.rb',
+    :VOC     => 'voc.rb',
   }
 
 #==============================================================================

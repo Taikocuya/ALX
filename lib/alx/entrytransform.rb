@@ -64,15 +64,25 @@ class EntryTransform
   def create_entry_data
     @class&.new
   end
-  
+
   # @see Root#etc
   def etc(...)
     Root.etc(...)
   end
 
-  # @see Root#sys
-  def sys(...)
-    Root.sys(...)
+  # @see Root#cfg
+  def cfg(...)
+    Root.cfg(...)
+  end
+
+  # @see Root#dscrptr
+  def dscrptr(...)
+    Root.dscrptr(...)
+  end
+
+  # @see Root#strdetr
+  def strdetr(...)
+    Root.strdetr(...)
   end
 
   # @see Root#voc
@@ -102,22 +112,22 @@ class EntryTransform
     @data = create_entry_data
   end
   
-  # Collects the game directories in +SYS.build_dir+ and spawns worker 
+  # Collects the game directories in +CFG.build_dir+ and spawns worker 
   # processes for them.
   def collect
-    if has_ruby?(SYS.ruby_version) && has_dir?(SYS.build_dir)
+    if has_ruby?(CFG.ruby_version) && has_dir?(CFG.build_dir)
       _game_dirs = [
-        SYS.backup_dir, SYS.cache_dir, SYS.data_dir, 
-        SYS.image_dir , SYS.meta_dir , SYS.root_dir,
+        CFG.backup_dir, CFG.cache_dir, CFG.data_dir, 
+        CFG.image_dir , CFG.meta_dir , CFG.root_dir,
       ].join(',')
       _game_dirs = sprintf('{%s}', _game_dirs)
 
-      Dir.glob(File.join(SYS.build_dir, SYS.gameroot_dir, '/')).each do |_p|
+      Dir.glob(File.join(CFG.build_dir, CFG.gameroot_dir, '/')).each do |_p|
         if Dir.glob(File.join(_p, _game_dirs, '/')).empty?
           next
         end
 
-        Worker.wait(SYS.worker_max + 1)
+        Worker.wait(CFG.worker_max + 1)
         Worker.spawn(_p)
       end
       Worker.wait
@@ -131,14 +141,14 @@ class EntryTransform
   #                   otherwise +false+.
   def valid?
     _valid   = true
-    _valid &&= has_file?(Root.dirname, sys(:exec_file))
-    _valid &&= has_file?(Root.dirname, sys(:level_file))
+    _valid &&= has_file?(Root.dirname, cfg(:exec_file))
+    _valid &&= has_file?(Root.dirname, cfg(:level_file))
     
     if Root.eu?
-      _valid &&= has_file?(Root.dirname, sys(:sot_file_gb))
-      _valid &&= has_file?(Root.dirname, sys(:sot_file_de))
-      _valid &&= has_file?(Root.dirname, sys(:sot_file_es))
-      _valid &&= has_file?(Root.dirname, sys(:sot_file_fr))
+      _valid &&= has_file?(Root.dirname, cfg(:sot_file_gb))
+      _valid &&= has_file?(Root.dirname, cfg(:sot_file_de))
+      _valid &&= has_file?(Root.dirname, cfg(:sot_file_es))
+      _valid &&= has_file?(Root.dirname, cfg(:sot_file_fr))
     end
     
     _valid

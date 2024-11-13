@@ -48,10 +48,10 @@ class CharacterData < StdEntryData
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
     super(Character, _depend)
-    self.id_range  = sys(:character_id_range)
-    self.data_file = sys(:character_data_files)
-    self.csv_file  = join(SYS.character_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.character_tpl_file)
+    self.id_range  = dscrptr(:character_id_range)
+    self.data_file = dscrptr(:character_data_files)
+    self.csv_file  = join(CFG.character_csv_file)
+    self.tpl_file  = File.join(CFG.build_dir, CFG.character_tpl_file)
 
     if depend
       @weapon_data    = WeaponData.new

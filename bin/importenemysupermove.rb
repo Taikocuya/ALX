@@ -44,7 +44,7 @@ class EnemySuperMoveImporter < EnemySuperMoveTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.enemy_super_move_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.enemy_super_move_csv_file)
     _result
   end
 

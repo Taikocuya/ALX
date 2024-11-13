@@ -36,7 +36,7 @@ module ALX
 #                                    CLASS
 #==============================================================================
   
-# Class to clear cache in +SYS.build_dir+.
+# Class to clear cache in +CFG.build_dir+.
 class CacheClearer < EntryTransform
 
 #==============================================================================

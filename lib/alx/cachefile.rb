@@ -88,11 +88,11 @@ class CacheFile
   # @param _pool [Symbol] Range descriptor pool
   def load(_pool = nil)
     @obsolete = true
-    unless SYS.cache
+    unless CFG.cache
       return
     end
 
-    _filename = Root.join(SYS.cache_dir, sprintf(CACHE_FILE, key))
+    _filename = Root.join(CFG.cache_dir, sprintf(CACHE_FILE, key))
     unless File.exist?(_filename)
       return
     end
@@ -130,7 +130,7 @@ class CacheFile
   # 
   # @param _pool [Symbol] Range descriptor pool
   def save(_pool = nil)
-    unless SYS.cache
+    unless CFG.cache
       return
     end
 
@@ -146,10 +146,10 @@ class CacheFile
       return
     end
 
-    _filename = Root.join(SYS.cache_dir, sprintf(CACHE_FILE, key))
+    _filename = Root.join(CFG.cache_dir, sprintf(CACHE_FILE, key))
     LOG.info(sprintf(VOC.save, VOC.open_cache, _filename))
-    FileUtils.mkdir_p(Root.join(SYS.cache_dir))
-    Zlib::GzipWriter.open(_filename, SYS.cache_compression) do |_f|
+    FileUtils.mkdir_p(Root.join(CFG.cache_dir))
+    Zlib::GzipWriter.open(_filename, CFG.cache_compression) do |_f|
       Marshal.dump(@version    , _f)
       Marshal.dump(@dummies    , _f)
       Marshal.dump(@descriptors, _f)

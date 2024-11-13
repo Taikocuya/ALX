@@ -44,7 +44,7 @@ class ArmorImporter < ArmorTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.armor_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.armor_csv_file)
     _result
   end
 

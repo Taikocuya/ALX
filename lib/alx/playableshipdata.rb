@@ -47,11 +47,11 @@ class PlayableShipData < StdEntryData
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
     super(PlayableShip, _depend)
-    self.id_range  = sys(:playable_ship_id_range)
-    self.data_file = sys(:playable_ship_data_files)
-    self.name_file = sys(:playable_ship_name_files)
-    self.csv_file  = join(SYS.playable_ship_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.playable_ship_tpl_file)
+    self.id_range  = dscrptr(:playable_ship_id_range)
+    self.data_file = dscrptr(:playable_ship_data_files)
+    self.name_file = dscrptr(:playable_ship_name_files)
+    self.csv_file  = join(CFG.playable_ship_csv_file)
+    self.tpl_file  = File.join(CFG.build_dir, CFG.playable_ship_tpl_file)
         
     if depend
       @ship_cannon_data    = ShipCannonData.new

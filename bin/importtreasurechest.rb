@@ -44,7 +44,7 @@ class TreasureChestImporter < TreasureChestTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.treasure_chest_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.treasure_chest_csv_file)
     _result
   end
 

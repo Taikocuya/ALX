@@ -44,7 +44,7 @@ class CharacterSuperMoveImporter < CharacterSuperMoveTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.character_super_move_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.character_super_move_csv_file)
     _result
   end
 

@@ -51,7 +51,7 @@ class DefinedString < Entry
     self[VOC.string_value   ] = StrProp.new( nil, '',           ext: true )
     self[VOC.string_data    ] = StrProp.new( nil, '',           esc: false)
 
-    if SYS.defined_string_append_filter
+    if STRDETR.defined_string_append_filter
       self[VOC.string_filter] = StrProp.new(nil, '', ext: true)
     end
   end

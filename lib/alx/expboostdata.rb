@@ -47,10 +47,10 @@ class ExpBoostData < StdEntryData
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
     super(ExpBoost, _depend)
-    self.id_range  = sys(:exp_boost_id_range)
-    self.data_file = sys(:exp_boost_data_files)
-    self.csv_file  = join(SYS.exp_boost_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.exp_boost_tpl_file)
+    self.id_range  = dscrptr(:exp_boost_id_range)
+    self.data_file = dscrptr(:exp_boost_data_files)
+    self.csv_file  = join(CFG.exp_boost_csv_file)
+    self.tpl_file  = File.join(CFG.build_dir, CFG.exp_boost_tpl_file)
         
     if depend
       @character_data = CharacterData.new

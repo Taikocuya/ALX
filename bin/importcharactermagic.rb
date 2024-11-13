@@ -44,7 +44,7 @@ class CharacterMagicImporter < CharacterMagicTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.character_magic_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.character_magic_csv_file)
     _result
   end
 

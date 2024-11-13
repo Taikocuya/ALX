@@ -54,10 +54,10 @@ class TreasureChestData < StdEntryData
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_depend = true)
     super(TreasureChest, _depend)
-    self.id_range  = sys(:treasure_chest_id_range)
-    self.data_file = sys(:treasure_chest_data_files)
-    self.csv_file  = join(SYS.treasure_chest_csv_file)
-    self.tpl_file  = File.join(SYS.build_dir, SYS.treasure_chest_tpl_file)
+    self.id_range  = dscrptr(:treasure_chest_id_range)
+    self.data_file = dscrptr(:treasure_chest_data_files)
+    self.csv_file  = join(CFG.treasure_chest_csv_file)
+    self.tpl_file  = File.join(CFG.build_dir, CFG.treasure_chest_tpl_file)
         
     if depend
       @accessory_data      = AccessoryData.new

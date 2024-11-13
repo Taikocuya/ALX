@@ -44,7 +44,7 @@ class SpiritCurveImporter < SpiritCurveTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.spirit_curve_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.spirit_curve_csv_file)
     _result
   end
 

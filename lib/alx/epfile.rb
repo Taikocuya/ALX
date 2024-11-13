@@ -89,9 +89,19 @@ class EpFile
     Root.etc(...)
   end
 
-  # @see Root#sys
-  def sys(...)
-    Root.sys(...)
+  # @see Root#cfg
+  def cfg(...)
+    Root.cfg(...)
+  end
+
+  # @see Root#dscrptr
+  def dscrptr(...)
+    Root.dscrptr(...)
+  end
+
+  # @see Root#strdetr
+  def strdetr(...)
+    Root.strdetr(...)
   end
 
   # @see Root#voc
@@ -225,7 +235,7 @@ class EpFile
   # @param _id       [Integer] Enemy ID
   # @param _filename [String]  File name
   def load_enemy(_f, _id, _filename)
-    _num_tasks = sys(:enemy_task_num_tasks)
+    _num_tasks = dscrptr(:enemy_task_num_tasks)
 
     _enemy = create_enemy(_id, _filename)
     _enemy.read_bin(_f)
@@ -252,7 +262,7 @@ class EpFile
   # @param _enemy    [Enemy]  Enemy object
   # @param _filename [String] File name
   def save_enemy(_f, _enemy, _filename)
-    _num_tasks = sys(:enemy_task_num_tasks)
+    _num_tasks = dscrptr(:enemy_task_num_tasks)
     
     _id = _enemy.id
     _enemy.write_bin(_f)

@@ -143,10 +143,10 @@ class EnemyTask < Entry
 
   def order
     _order    = 0xff
-    _enp_file = File.basename(sys(:enp_file))
-    _evp_file = File.basename(sys(:evp_file))
-    _eb_file  = File.basename(sys(:eb_file ))
-    _ec_file  = File.basename(sys(:ec_file ))
+    _enp_file = File.basename(cfg(:enp_file))
+    _evp_file = File.basename(cfg(:evp_file))
+    _eb_file  = File.basename(cfg(:eb_file ))
+    _ec_file  = File.basename(cfg(:ec_file ))
 
     self[VOC.filter].each do |_filename|
       _filename = _filename.sub(EnpFile::MULTI_REGEXP, '\1\3')

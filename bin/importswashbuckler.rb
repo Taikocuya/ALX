@@ -44,7 +44,7 @@ class SwashbucklerImporter < SwashbucklerTransform
 
   def valid?
     _result   = super
-    _result &&= has_file?(Root.dirname, SYS.weapon_effect_csv_file)
+    _result &&= has_file?(Root.dirname, CFG.weapon_effect_csv_file)
     _result
   end
 
