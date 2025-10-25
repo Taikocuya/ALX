@@ -581,7 +581,7 @@ class SctFile
       @detector.filters        = [gs(/\x7f/n, ' ', verify: false)]
       @detector.ignore_filter  = false
       @detector.invert_filter  = false
-      @detector.diff_support   = false
+      @detector.keep_all       = false
       @detector.beg_alignment  = 0x4
       @detector.end_alignment  = 0x4
       @detector.min_byte_size  = 1

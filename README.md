@@ -1,6 +1,6 @@
 # ALX — Skies of Arcadia Legends Examiner
 
-ALX is a command line tool for Linux, macOS and Windows to export and import 
+ALX is a command-line tool for Linux, macOS and Windows to export and import 
 the game data of Skies of Arcadia, Skies of Arcadia Legends, Eternal Arcadia 
 (エターナルアルカディア), and Eternal Arcadia Legends (エターナルアルカディアレジェンド).
 
@@ -58,6 +58,7 @@ Pre-exported CSV files with complete game data can already be found in the
 | `2000-05-09-dc-us-demo`    | E3 Prototype                                    |
 | `2000-08-21-dc-us-demo`    | Official Sega Dreamcast Magazine Vol. 9         |
 | `2000-08-23-dc-jp-barai`   | @barai Version                                  |
+| `2000-08-24-dc-us-proto`   | V0.800 Prototype                                |
 | `2000-08-28-dc-jp-final`   | Final JP Build                                  |
 | `2000-09-07-dc-us-proto`   | V0.830 Prototype                                |
 | `2000-09-14-dc-us-proto`   | V0.840 Prototype                                |

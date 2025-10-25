@@ -526,7 +526,7 @@ class EnemyData < EntryData
       _comp
     end
 
-    if DSCRPTR.enemy_task_id_base > 1 || DSCRPTR.enemy_task_summarize_filter
+    if DSCRPTR.enemy_task_id_base > 1 || DSCRPTR.enemy_task_filter_summary
       _last = nil
       _lock = false
       @tasks.each do |_task|
@@ -536,7 +536,7 @@ class EnemyData < EntryData
             _task.param_id *= DSCRPTR.enemy_task_id_base
           end
         end
-        if DSCRPTR.enemy_task_summarize_filter
+        if DSCRPTR.enemy_task_filter_summary
           if _last && _last.enemy_id != _task.enemy_id
             _last = nil
             _lock = false

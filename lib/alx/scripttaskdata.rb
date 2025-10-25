@@ -447,6 +447,10 @@ class ScriptTaskData < EntryData
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
       _tasks.each do |_task|
+        if DSCRPTR.script_task_text_only && !_task.task_id.is_a?(String)
+          next
+        end
+        
         _task.write_csv(_f)
       end
     end

@@ -46,6 +46,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x3407a0...0x341420),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x344da8...0x345a28),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2f02c4...0x2f0f44),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x36e43c...0x36f0bc),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x36e47c...0x36f0fc),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x338c40...0x3398c0),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x36c7ac...0x36d42c),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x33e5f4...0x33f274),
@@ -139,6 +141,12 @@ DSCRPTR.configure do |_s|
         0xcb, 0xce, 0xd0, 0xd2, 0xd3
       ]
     ),
+    'DC-US-HDR-0076-20000824'           => rd(
+      CFG.exec_file['DC'], 0x364d8c...0x366470
+    ),
+    'DC-US-HDR-0076-20000825'           => rd(
+      CFG.exec_file['DC'], 0x364dcc...0x3664b0
+    ),
     'DC-US-IGN9'                        => rd(
       CFG.exec_file['DC'], 0x33356c...0x3338a4, excl: [
         0xa1, 0xa3..0xa7, 0xa9..0xaf, 0xb1..0xb5, 0xb8..0xbf, 0xc1..0xc8, 
@@ -185,6 +193,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x33fb20...0x3407a0),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x344128...0x344da8),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2ef644...0x2f02c4),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x36d7bc...0x36e43c),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x36d7fc...0x36e47c),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x337fc0...0x338c40),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x36bb2c...0x36c7ac),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x33d974...0x33e5f4),
@@ -269,6 +279,12 @@ DSCRPTR.configure do |_s|
     'DC-US-HDR-0000'                    => rd(
       CFG.exec_file['DC'], 0x2eab28...0x2ead78, excl: [0x59, 0x5b..0x70]
     ),
+    'DC-US-HDR-0076-20000824'           => rd(
+      CFG.exec_file['DC'], 0x3637e8...0x364d8c
+    ),
+    'DC-US-HDR-0076-20000825'           => rd(
+      CFG.exec_file['DC'], 0x363828...0x364dcc
+    ),
     'DC-US-IGN9'                        => rd(
       CFG.exec_file['DC'], 0x33337c...0x33356c, excl: [0x59, 0x5b..0x70]
     ),
@@ -309,9 +325,11 @@ DSCRPTR.configure do |_s|
     'DC-EU-MK-51052-20010306' => rd(CFG.exec_file['DC'], 0x333a38...0x333dc8),
     'DC-JP-6107110 06'        => rd(CFG.exec_file['DC'], 0x35a594...0x35a924),
     'DC-JP-6107810'           => rd(CFG.exec_file['DC'], 0x359d14...0x35a0a4),
-    'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x33e1F0...0x33e580),
+    'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x33e1f0...0x33e580),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x3427f8...0x342b88),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2edd14...0x2ee0a4),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x36be8c...0x36c21c),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x36becc...0x36c25c),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x336690...0x336a20),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x36a1fc...0x36a58c),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x33c044...0x33c3d4),
@@ -338,6 +356,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x33e580...0x33ec40),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x342b88...0x343248),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2ee0a4...0x2ee764),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x36c21c...0x36c8dc),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x36c25c...0x36c91c),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x336a20...0x3370e0),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x36a58c...0x36ac4c),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x33c3d4...0x33ca94),
@@ -422,6 +442,12 @@ DSCRPTR.configure do |_s|
     'DC-US-HDR-0000'                    => rd(
       CFG.exec_file['DC'], 0x2e9848...0x2ea25c
     ),
+    'DC-US-HDR-0076-20000824'           => rd(
+      CFG.exec_file['DC'], 0x3605d0...0x361344
+    ),
+    'DC-US-HDR-0076-20000825'           => rd(
+      CFG.exec_file['DC'], 0x360610...0x361384
+    ),
     'DC-US-IGN9'                        => rd(
       CFG.exec_file['DC'], 0x3320b4...0x332ab8
     ),
@@ -483,6 +509,12 @@ DSCRPTR.configure do |_s|
     'DC-US-HDR-0000'                    => rd(
       CFG.exec_file['DC'], 0x2ed4ec...0x2edca0, excl: [0xa..0xc, 0xe..0x13     ]
     ),
+    'DC-US-HDR-0076-20000824'           => rd(
+      CFG.exec_file['DC'], 0x36ae3c...0x36b67c, excl: [0xa..0xc, 0xe..0x13     ]
+    ),
+    'DC-US-HDR-0076-20000825'           => rd(
+      CFG.exec_file['DC'], 0x36ae7c...0x36b6bc, excl: [0xa..0xc, 0xe..0x13     ]
+    ),
     'DC-US-IGN9'                        => rd(
       CFG.exec_file['DC'], 0x335c10...0x3363c4, excl: [0xa..0xc, 0xe..0x13     ]
     ),
@@ -526,6 +558,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x33ec40...0x33f120),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x343248...0x343728),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2ee764...0x2eec44),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x36c8dc...0x36cdbc),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x36c91c...0x36cdfc),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x3370e0...0x3375c0),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x36ac4c...0x36b12c),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x33ca94...0x33cf74),
@@ -610,6 +644,12 @@ DSCRPTR.configure do |_s|
     'DC-US-HDR-0000'                    => rd(
       CFG.exec_file['DC'], 0x2ea25c...0x2ea848
     ),
+    'DC-US-HDR-0076-20000824'           => rd(
+      CFG.exec_file['DC'], 0x361344...0x361d30
+    ),
+    'DC-US-HDR-0076-20000825'           => rd(
+      CFG.exec_file['DC'], 0x361384...0x361d70
+    ),
     'DC-US-IGN9'                        => rd(
       CFG.exec_file['DC'], 0x332ab8...0x333110, excl: [0x31]
     ),
@@ -653,6 +693,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x3457c4...0x345adc),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x349dcc...0x34a0e4),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2f5180...0x2f5440),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x373460...0x373778),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x3734a0...0x3737b8),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x33dc64...0x33df7c),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x3717d0...0x371ae8),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x343618...0x343930),
@@ -733,6 +775,12 @@ DSCRPTR.configure do |_s|
         0x01, 0x03, 0x05, 0x07, 0x09, 0x0b, 0x0d, 0x0f, 0x11, 0x13, 0x15
       ]
     ),
+    'DC-US-HDR-0076-20000824'           => rd(
+      CFG.exec_file['DC'], 0x36b67c...0x36be8c
+    ),
+    'DC-US-HDR-0076-20000825'           => rd(
+      CFG.exec_file['DC'], 0x36b6bc...0x36becc
+    ),
     'DC-US-IGN9'                        => rd(
       CFG.exec_file['DC'], 0x3363c4...0x336690, excl: [0x9, 0xf]
     ),
@@ -763,9 +811,9 @@ DSCRPTR.configure do |_s|
 # Enemy Data
 #------------------------------------------------------------------------------
 
-  # Enables or disables the summary of enemy filters. If you enable the 
-  # summary of enemy filters, the longest filter of the same enemy line 
-  # will be summarized with an asterisk.
+  # Enables or disables summarization of enemy filters. When enabled, multiple 
+  # identical enemy filter lines are collapsed, and the longest one is marked 
+  # with an asterisk (*).
   _s.enemy_summarize_filter = true
 
 #------------------------------------------------------------------------------
@@ -817,6 +865,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-6107110 06'        => rd(CFG.exec_file['DC'], 0x3c5a0b...0x3c5a14),
     'DC-JP-6107810'           => rd(CFG.exec_file['DC'], 0x3c5187...0x3c5190),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x3faeec...0x3faf27),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x4517f0...0x45182b),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x451830...0x45186b),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x3ef074...0x3ef0af),
     'DC-US-MK-51052-20001010' => rd(CFG.exec_file['DC'], 0x3f4eb8...0x3f4ef3),
     'GC-EU-GEA'               => rd(CFG.exec_file['GC'], 0x2e03a0...0x2e03db),
@@ -841,6 +891,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x358bd8...0x3590e8),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x35d1d8...0x35d6e8),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x303540...0x303a50),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x3877f8...0x387d08),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x387838...0x387d48),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x350fe4...0x3514f4),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x385db0...0x3862c0),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x356bc4...0x3570d4),
@@ -901,6 +953,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x3430dc...0x3445f4),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x3476e4...0x348bfc),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2f2c00...0x2f3fb0),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x370d78...0x372290),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x370db8...0x3722d0),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x33b57c...0x33ca94),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x36f0e8...0x370600),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x340f30...0x342448),
@@ -1042,6 +1096,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x3590e8...0x35b728),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x35d6e8...0x35fd28),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x303a50...0x306090),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x387d08...0x38a348),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x387d48...0x38a388),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x3514f4...0x353b34),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x3862c0...0x388900),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x3570d4...0x359714),
@@ -1089,18 +1145,19 @@ DSCRPTR.configure do |_s|
 # Enemy Task Data
 #------------------------------------------------------------------------------
 
-  # Enables or disables the summary of enemy task filters. If you enable the 
-  # summary of enemy task filters, the longest filter of the same enemy task 
-  # line will be summarized with an asterisk.
-  _s.enemy_task_summarize_filter = true
+  # Enables or disables summarization of enemy task filters. When enabled, 
+  # multiple identical enemy task filter lines are collapsed, and the longest 
+  # one is marked with an asterisk (*).
+  _s.enemy_task_filter_summary = true
 
-  # Multiplies this base to each enemy task ID. This can be useful, for 
-  # example, to have unused task IDs available and to insert additional 
-  # branches or actions without much effort.
+  # Base multiplier applied to all enemy task IDs. This allows reserving 
+  # unused ID ranges for future branches or actions without reorganizing 
+  # existing IDs.
   _s.enemy_task_id_base = 1
-  
-  # Maximum number of tasks in enemy task data
-  _s.enemy_task_num_tasks = {
+
+  # Defines the maximum number of enemy tasks allowed per game version. The 
+  # asterisk (*) value is used as the default for unspecified versions.
+  _s.enemy_task_max_count = {
     '*'                => 64,
     'DC-JP-6107110 06' => 32,
     'DC-JP-6107810'    => 32,
@@ -1121,6 +1178,8 @@ DSCRPTR.configure do |_s|
     'DC-EU-MK-51052-20010306' => rd(CFG.exec_file['DC'], 0x3338b4...0x333908),
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x3328d8...0x33292c),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x336ee0...0x336f34),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x360574...0x3605c8),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x3605b4...0x360608),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x332058...0x3320ac),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x360710...0x360764),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x33125c...0x3312b0),
@@ -1177,6 +1236,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x342ee8...0x3430dc),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x3474f0...0x3476e4),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2f2a0c...0x2f2c00),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x370b84...0x370d78),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x370bc4...0x370db8),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x33b388...0x33b57c),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x36eef4...0x36f0e8),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x340d3c...0x340f30),
@@ -1221,6 +1282,15 @@ DSCRPTR.configure do |_s|
   }
 
 #------------------------------------------------------------------------------
+# Script Task Data
+#------------------------------------------------------------------------------
+
+  # Enables or disables text-only mode for script task data. When enabled, 
+  # only plain text (without metadata) is exported. Useful for comparing game 
+  # script data between builds using a diff tool.
+  _s.script_task_text_only = false
+
+#------------------------------------------------------------------------------
 # Ship Accessory Data
 #------------------------------------------------------------------------------
 
@@ -1237,6 +1307,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x344c34...0x345314),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x34923c...0x34991c),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2f45f0...0x2f4cd0),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x3728d0...0x372fb0),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x372910...0x372ff0),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x33d0d4...0x33d7b4),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x370c40...0x371320),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x342a88...0x343168),
@@ -1315,6 +1387,12 @@ DSCRPTR.configure do |_s|
     'DC-US-HDR-0000'                    => rd(
       CFG.exec_file['DC'], 0x2ec5b8...0x2ece84
     ),
+    'DC-US-HDR-0076-20000824'           => rd(
+      CFG.exec_file['DC'], 0x3697e0...0x36a508
+    ),
+    'DC-US-HDR-0076-20000825'           => rd(
+      CFG.exec_file['DC'], 0x369820...0x36a548
+    ),
     'DC-US-IGN9'                        => rd(
       CFG.exec_file['DC'], 0x334cdc...0x3355a8
     ),
@@ -1358,6 +1436,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x3445f4...0x344c34),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x348bfc...0x34923c),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2f3fb0...0x2f45f0),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x372290...0x3728d0),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x3722d0...0x372910),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x33ca94...0x33d0d4),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x370600...0x370c40),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x342448...0x342a88),
@@ -1436,6 +1516,12 @@ DSCRPTR.configure do |_s|
     'DC-US-HDR-0000'                    => rd(
       CFG.exec_file['DC'], 0x2ebc1c...0x2ec5b8
     ),
+    'DC-US-HDR-0076-20000824'           => rd(
+      CFG.exec_file['DC'], 0x368b64...0x3697e0
+    ),
+    'DC-US-HDR-0076-20000825'           => rd(
+      CFG.exec_file['DC'], 0x368ba4...0x369820
+    ),
     'DC-US-IGN9'                        => rd(
       CFG.exec_file['DC'], 0x334340...0x334cdc
     ),
@@ -1479,6 +1565,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x345314...0x3457c4),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x34991c...0x349dcc),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2f4cd0...0x2f5180),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x372fb0...0x373460),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x372ff0...0x3734a0),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x33d7b4...0x33dc64),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x371320...0x3717d0),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x343168...0x343618),
@@ -1557,6 +1645,12 @@ DSCRPTR.configure do |_s|
     'DC-US-HDR-0000'                    => rd(
       CFG.exec_file['DC'], 0x2ece84...0x2edca0
     ),
+    'DC-US-HDR-0076-20000824'           => rd(
+      CFG.exec_file['DC'], 0x36a508...0x36ae3c
+    ),
+    'DC-US-HDR-0076-20000825'           => rd(
+      CFG.exec_file['DC'], 0x36a548...0x36ae7c
+    ),
     'DC-US-IGN9'                        => rd(
       CFG.exec_file['DC'], 0x3355a8...0x335c10
     ),
@@ -1606,6 +1700,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x3ffec0...0x401038),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x404670...0x4057e8),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x409df8...0x409f30),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x45aff8...0x45c170),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x45b038...0x45c1b0),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x3f8808...0x3f8940),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x4594f8...0x45a670),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x3fe50c...0x3ff684),
@@ -1656,6 +1752,12 @@ DSCRPTR.configure do |_s|
     'DC-US-HDR-0000'                    => rd(
       CFG.exec_file['DC'], 0x2fc450...0x2fc488, msgt: true
     ),
+    'DC-US-HDR-0076-20000824'           => rd(
+      CFG.exec_file['DC'], 0x37cb3c...0x37cd28, msgt: true
+    ),
+    'DC-US-HDR-0076-20000825'           => rd(
+      CFG.exec_file['DC'], 0x37cb7c...0x37cd68, msgt: true
+    ),
     'DC-US-IGN9'                        => rd(
       CFG.exec_file['DC'], 0x34679c...0x3467d4, msgt: true
      ),
@@ -1699,6 +1801,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x342104...0x3427e4),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x34670c...0x346dec),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2f1c28...0x2f2308),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x36fda0...0x370480),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x36fde0...0x3704c0),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x33a5a4...0x33ac84),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x36e110...0x36e7f0),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x33ff58...0x340638),
@@ -1793,6 +1897,16 @@ DSCRPTR.configure do |_s|
         0x14a, 0x14b, 0x151, 0x154
       ]
     ),
+    'DC-US-HDR-0076-20000824'           => rd(
+      CFG.exec_file['DC'], 0x368060...0x368b64, excl: [
+        0x152, 0x15b, 0x161..0x162
+      ]
+    ),
+    'DC-US-HDR-0076-20000825'           => rd(
+      CFG.exec_file['DC'], 0x3680a0...0x368ba4, excl: [
+        0x152, 0x15b, 0x161..0x162
+      ]
+    ),
     'DC-US-IGN9'                        => rd(
       CFG.exec_file['DC'], 0x334034...0x334340, excl: [
         0x14a, 0x14b, 0x151, 0x154
@@ -1848,6 +1962,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x342a04...0x342ea8),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x34700c...0x3474b0),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2f2528...0x2f29cc),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x3706a0...0x370b44),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x3706e0...0x370b84),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x33aea4...0x33b348),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x36ea10...0x36eeb4),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x340858...0x340cfc),
@@ -1877,6 +1993,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x3427e4...0x342a04),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x346dec...0x34700c),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2f2308...0x2f2528),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x370480...0x3706a0),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x3704c0...0x3706e0),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x33ac84...0x33aea4),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x36e7f0...0x36ea10),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x340638...0x340858),
@@ -1942,6 +2060,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x3308dc...0x330c94),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x334ee4...0x33529c),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2e8238...0x2e8268),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x35d0d8...0x35d490),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x35d118...0x35d4d0),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x330148...0x330500),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x35d1a0...0x35d558),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x32f298...0x32f650),
@@ -1968,6 +2088,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x3415c4...0x342104),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x345bcc...0x34670c),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2f10e8...0x2f1c28),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x36f260...0x36fda0),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x36f2a0...0x36fde0),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x339a64...0x33a5a4),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x36d5d0...0x36e110),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x33f418...0x33ff58),
@@ -2062,6 +2184,16 @@ DSCRPTR.configure do |_s|
         0x100..0x101, 0x10c..0x11a
       ]
     ),
+    'DC-US-HDR-0076-20000824'           => rd(
+      CFG.exec_file['DC'], 0x366470...0x368060, excl: [
+        0x12e..0x130
+      ]
+    ),
+    'DC-US-HDR-0076-20000825'           => rd(
+      CFG.exec_file['DC'], 0x3664b0...0x3680a0, excl: [
+        0x12e..0x130
+      ]
+    ),
     'DC-US-IGN9'                        => rd(
       CFG.exec_file['DC'], 0x3338a4...0x334034, excl: [
         0x100..0x101, 0x10c..0x11a
@@ -2117,6 +2249,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x33f120...0x33fb20),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x343728...0x344128),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2eec44...0x2ef644),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x36cdbc...0x36d7bc),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x36cdfc...0x36d7fc),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x3375c0...0x337fc0),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x36b12c...0x36bb2c),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x33cf74...0x33d974),
@@ -2210,6 +2344,12 @@ DSCRPTR.configure do |_s|
         0x3b..0x3f, 0x41..0x46
       ]
     ),
+    'DC-US-HDR-0076-20000824'           => rd(
+      CFG.exec_file['DC'], 0x361d30...0x3637e8
+    ),
+    'DC-US-HDR-0076-20000825'           => rd(
+      CFG.exec_file['DC'], 0x361d70...0x363828
+    ),
     'DC-US-IGN9'                        => rd(
       CFG.exec_file['DC'], 0x333110...0x33337c, excl: [
         0x03..0x04, 0x06..0x0f, 0x12..0x13, 0x15..0x1f, 0x22..0x2f, 0x31..0x39, 
@@ -2257,6 +2397,8 @@ DSCRPTR.configure do |_s|
     'DC-JP-HDR-0076'          => rd(CFG.exec_file['DC'], 0x341420...0x3415c4),
     'DC-JP-HDR-0119'          => rd(CFG.exec_file['DC'], 0x345a28...0x345bcc),
     'DC-US-HDR-0000'          => rd(CFG.exec_file['DC'], 0x2f0f44...0x2f10e8),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], 0x36f0bc...0x36f260),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], 0x36f0fc...0x36f2a0),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], 0x3398c0...0x339a64),
     'DC-US-MK-51052-20000905' => rd(CFG.exec_file['DC'], 0x36d42c...0x36d5d0),
     'DC-US-MK-51052-20000914' => rd(CFG.exec_file['DC'], 0x33f274...0x33f418),

@@ -191,10 +191,7 @@ class DefinedStringData < EntryData
           _entry[VOC.string_encoding] = _detect.encoding
           _entry[VOC.string_value   ] = _detect.string
           _entry[VOC.string_data    ] = _detect.dump
-          
-          if STRDETR.defined_string_append_filter
-            _entry[VOC.string_filter] = _detect.substitution
-          end
+          _entry[VOC.string_filter  ] = _detect.substitution
           
           @data << _entry
         end

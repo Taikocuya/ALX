@@ -165,7 +165,9 @@ class Entry
   def write_csv(_csv)
     _row = CSV::Row.new(header, [])
     @props.each do |_key, _prop|
-      _prop.write_csv(_key, _row)
+      if _row.header?(_key)
+        _prop.write_csv(_key, _row)
+      end
     end
     _csv << _row
   end

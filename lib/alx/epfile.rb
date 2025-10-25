@@ -235,18 +235,18 @@ class EpFile
   # @param _id       [Integer] Enemy ID
   # @param _filename [String]  File name
   def load_enemy(_f, _id, _filename)
-    _num_tasks = dscrptr(:enemy_task_num_tasks)
+    _max_tasks = dscrptr(:enemy_task_max_count)
 
     _enemy = create_enemy(_id, _filename)
     _enemy.read_bin(_f)
     @enemies << _enemy
 
     _empty = true
-    (1.._num_tasks).each do |_i|
+    (1.._max_tasks).each do |_i|
       _task          = create_task(_i, _filename)
       _task.enemy_id = _id
       _task.read_bin(_f)
-      if _task.type_id != -1 || (_empty && _i == _num_tasks)
+      if _task.type_id != -1 || (_empty && _i == _max_tasks)
         @tasks << _task
         _empty = false
       end
@@ -262,7 +262,7 @@ class EpFile
   # @param _enemy    [Enemy]  Enemy object
   # @param _filename [String] File name
   def save_enemy(_f, _enemy, _filename)
-    _num_tasks = dscrptr(:enemy_task_num_tasks)
+    _max_tasks = dscrptr(:enemy_task_max_count)
     
     _id = _enemy.id
     _enemy.write_bin(_f)
@@ -272,8 +272,8 @@ class EpFile
     if _size == 0
       raise(IOError, "tasks for enemy ##{_id} not found")
     end
-    if _size > _num_tasks
-      raise(IOError, "task quota of #{_num_tasks} exceeded")
+    if _size > _max_tasks
+      raise(IOError, "task quota of #{_max_tasks} exceeded")
     end
 
     _map = {}
@@ -307,7 +307,7 @@ class EpFile
     end
     
     _empty = create_task
-    (_size..._num_tasks).each do
+    (_size..._max_tasks).each do
       _empty.write_bin(_f)
     end
 

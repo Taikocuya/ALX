@@ -58,7 +58,7 @@ class DefinedStringDetector
     @filters        = STRDETR.defined_string_filters
     @ignore_filter  = STRDETR.defined_string_ignore_filter
     @invert_filter  = STRDETR.defined_string_invert_filter
-    @diff_support   = STRDETR.defined_string_diff_support
+    @keep_all       = STRDETR.defined_string_keep_all
     @beg_alignment  = STRDETR.defined_string_beg_alignment
     @end_alignment  = STRDETR.defined_string_end_alignment
     @min_byte_size  = STRDETR.defined_string_min_byte_size
@@ -101,7 +101,7 @@ class DefinedStringDetector
   # @param _f [IO] Binary I/O stream
   # 
   # @return [Boolean] +true+ if string is valid, otherwise +false+. The 
-  #                   +STRDETR.defined_string_diff_support+ is considered.
+  #                   +STRDETR.defined_string_keep_all+ is considered.
   def detect(_f)
     clear
     
@@ -171,7 +171,7 @@ class DefinedStringDetector
   attr_accessor :filters
   attr_accessor :ignore_filter
   attr_accessor :invert_filter
-  attr_accessor :diff_support
+  attr_accessor :keep_all
   attr_accessor :beg_alignment
   attr_accessor :end_alignment
   attr_accessor :min_byte_size
@@ -475,13 +475,13 @@ class DefinedStringDetector
   end
 
   # Keeps all results if required. If you enable the diff utility support in 
-  # #diff_support, even empty and rejected strings will also be collected. 
-  # This can be useful, for example, to compare the impact of filter changes 
-  # with a diff utility.
+  # #keep_all, even empty and rejected strings will also be collected. This 
+  # can be useful, for example, to compare the impact of filter changes with 
+  # a diff utility.
   # 
   # @return [Boolean] +true+ if string is valid, otherwise +false+.
   def keep_all_results
-    if @diff_support && !@valid
+    if @keep_all && !@valid
       @valid = true
       restore_from_cache
       clear_bytes

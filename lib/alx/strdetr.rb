@@ -33,37 +33,38 @@ STRDETR.configure do |_d|
 # Defined String Data
 #------------------------------------------------------------------------------
 
-  # Enables or disables the dictionary for defined strings. If you enable the 
-  # dictionary, all valid strings are cached even before the filter 
-  # +STRDETR.defined_string_filters+ is applied. This dictionary will be used 
-  # later to skip the entire string detection in future runs. This can be 
-  # useful, for example, to quickly check the effects of filter changes 
-  # without scanning the whole file again.
+  # Enables or disables the use of a defined string dictionary. When enabled, 
+  # all valid strings are cached before the +STRDETR.defined_string_filters+ 
+  # are applied. This dictionary allows skipping the full string detection in 
+  # subsequent runs. Useful for quickly testing filter changes without 
+  # re-scanning the file.
   _d.defined_string_use_dictionary = false
-  # Enables or disables the filter avoidance. If you enable the filter 
-  # avoidance, no filters are applied.
+  # Enables or disables filter bypassing. When enabled, no defined string 
+  # filters are applied at all.
   _d.defined_string_ignore_filter  = false
-  # Enables or disables the filter inversion. If you enable the filter 
-  # inversion, only the rejected strings will be collected.
+  # Enables or disables filter inversion. When enabled, only strings that 
+  # would normally be rejected by the filters are collected.
   _d.defined_string_invert_filter  = false
-  # Enables or disables the appending of filters. If you enable the appending 
-  # of filters, the applied filters will also be stored. This can be useful, 
-  # for example, to determine which filter of +STRDETR.defined_string_filters+ 
-  # has been finally selected.
+  # Enables or disables filter appending. When enabled, all filters that were 
+  # applied are also stored. Useful for determining which filter from
+  # +STRDETR.defined_string_filters+ was ultimately used.
   _d.defined_string_append_filter  = false
-  # Enables or disables the diff utility support. If you enable the diff 
-  # utility support, even empty and rejected strings will also be collected. 
-  # This can be useful, for example, to compare the impact of filter changes 
-  # with a diff utility.
-  _d.defined_string_diff_support   = false
+  # Enables or disables keep-all mode. When enabled, even empty or discarded 
+  # strings are retained. Useful for comparing the effects of filter changes 
+  # with a diff tool.
+  _d.defined_string_keep_all       = false
+  # Enables or disables text-only mode. When enabled, only plain text 
+  # (without metadata) is collected. Useful for comparing game data 
+  # directories using a diff tool.
+  _d.defined_string_text_only      = false
 
-  # Alignment requirement for the begin of defined strings
+  # Byte alignment requirement for the start of defined strings.
   _d.defined_string_beg_alignment = 0x1
-  # Alignment requirement for the end of defined strings
+  # Byte alignment requirement for the end of defined strings.
   _d.defined_string_end_alignment = 0x1
-  # Minimum byte size of defined strings
+  # Minimum byte size of defined strings.
   _d.defined_string_min_byte_size = 2
-  # Minimum character size of defined strings
+  # Minimum character length of defined strings.
   _d.defined_string_min_char_size = 1
 
   # Offset ranges of defined string data
@@ -130,6 +131,27 @@ STRDETR.configure do |_d|
       0x3cf268...0x3d0ca4, 0x3d1cd8...0x3d1ce3, 0x3e65d0...0x3e6681, 
       0x40aa60...0x40aa80, 0x4261dc...0x4289bf, 0x42fab4...0x42fe01, 
       0x43896c...0x438bda,
+    ]),
+    'DC-US-HDR-0076-20000824' => rd(CFG.exec_file['DC'], [
+      0x000030...0x000041, 0x00577c...0x0057a8, 0x005d88...0x005d8d,
+      0x358e60...0x379f37, 0x37b304...0x37b31a, 0x37b36c...0x3842c6,
+      0x385454...0x38bdcf, 0x38bef8...0x38cc9d, 0x38cce0...0x38d124,
+      0x38d1ac...0x38f022, 0x3936b4...0x393a4f, 0x3b3aa8...0x3b4281, 
+      0x43d6e0...0x43d9e1, 0x44644a...0x44f4fa, 0x4526c8...0x45362a, 
+      0x4567e0...0x458280, 0x459c04...0x459c0f, 0x45af08...0x45cec0, 
+      0x45fda0...0x45fdac, 0x4600b8...0x4623f4, 0x462414...0x464bb1, 
+      0x46d214...0x5932ef,
+    ]),
+    'DC-US-HDR-0076-20000825' => rd(CFG.exec_file['DC'], [
+      0x000030...0x000041, 0x00577c...0x0057a8, 0x005d88...0x005d8d,
+      0x358ea0...0x379f77, 0x37b344...0x37b35a, 0x37b3ac...0x384306, 
+      0x385494...0x38be0f, 0x38bf38...0x38ccdd, 0x38cd20...0x38d164,
+      0x38d1ec...0x38f062, 0x3936f4...0x393a8f, 0x3b3ae8...0x3b42c1, 
+      0x43d720...0x43da21, 0x44648a...0x44f53a, 0x452708...0x45366a, 
+      0x456820...0x4582c0, 0x459c44...0x459c4f, 0x45af48...0x45b021, 
+      0x45cef0...0x45cf00, 0x45fde0...0x45fdec, 0x4600f8...0x4625ed, 
+      0x46260c...0x462779, 0x462798...0x4627a4, 0x4627c4...0x464b11, 
+      0x464bec...0x464bf1, 0x46d254...0x46d4c2, 0x589524...0x59332f, 
     ]),
     'DC-US-IGN9'              => rd(CFG.exec_file['DC'], [
       0x000030...0x000041, 0x005e6c...0x005ede, 0x0063b4...0x00667e,

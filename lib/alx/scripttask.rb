@@ -55,7 +55,23 @@ class ScriptTask < Entry
     init_props
     init_procs
   end
-  
+
+  # Returns the CSV header of the entry.
+  # @return [Array] CSV header of entry
+  def header
+    _header = super
+    
+    if DSCRPTR.script_task_text_only
+      _header -= [
+        VOC.id, 
+        VOC.event_id, 
+        VOC.task_name
+      ]
+    end
+
+    _header
+  end
+
   # Refreshes the predecessors by considering the last +PREDECESSOR_MAX+ 
   # script tasks.
   # @param _tasks [Array] Script tasks

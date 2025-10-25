@@ -44,18 +44,47 @@ class DefinedString < Entry
   # Constructs a DefinedString.
   def initialize
     super
+    init_props
 
+  end
+
+  # Returns the CSV header of the entry.
+  # @return [Array] CSV header of entry
+  def header
+    _header = super
+    
+    if STRDETR.defined_string_text_only
+      _header -= [
+        VOC.id,
+        VOC.string_pos,
+        VOC.string_size,
+        VOC.string_encoding,
+        VOC.string_data,
+      ]
+    end
+    if !STRDETR.defined_string_append_filter
+      _header -= [VOC.string_filter]
+    end
+
+    _header
+  end
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry properties.
+  def init_props
     self[VOC.string_pos     ] = IntProp.new(:u32,  0, base: 16, ext: true )
     self[VOC.string_size    ] = IntProp.new(:u32,  0,           ext: true )
     self[VOC.string_encoding] = StrProp.new( nil, '',           ext: true )
     self[VOC.string_value   ] = StrProp.new( nil, '',           ext: true )
     self[VOC.string_data    ] = StrProp.new( nil, '',           esc: false)
-
-    if STRDETR.defined_string_append_filter
-      self[VOC.string_filter] = StrProp.new(nil, '', ext: true)
-    end
+    self[VOC.string_filter  ] = StrProp.new( nil, '',           ext: true )
   end
-
+  
 end	# class DefinedString
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
