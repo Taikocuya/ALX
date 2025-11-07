@@ -50,9 +50,10 @@ class StrProp < Prop
   # @param comp   [Boolean] Is comparable
   # @param dmy    [Boolean] Set +comp+ to +false+ and +ext+ to +true+
   # @param enc    [Boolean] Character encoding
-  # @param esc    [Boolean] Escape non-printing characters "\n" "\r" and "\n"
+  # @param esc    [Boolean] Escape \, \r, \x00-\x08, \x0b-\x1f, \x7f
   # @param ext    [Boolean] Serialize externally
   # @param form   [Hash]    Additional string substitutions for each method
+  # @param uesc   [Boolean] Unescape \\r\\n and \\n
   def initialize(
     _size             ,
     _value            ,
@@ -62,14 +63,16 @@ class StrProp < Prop
     enc:   'Shift_JIS',
     esc:   true       ,
     ext:   false      ,
-    form:  {}
+    form:  {}         ,
+    uesc:  false
   )
     super(_value.to_s, comp: comp, dmy: dmy, ext: ext)
-    @size     = _size
-    @blocks   = blk
-    @encoding = enc
-    @escape   = esc
-    @format   = form
+    @size      = _size
+    @blocks    = blk
+    @encoding  = enc
+    @escape    = esc
+    @format    = form
+    @unescape  = uesc
   end
 
   # Returns +true+ if property has a fixed size, otherwise +false+.
@@ -96,6 +99,12 @@ class StrProp < Prop
     end
 
     _value = _f.read_str(length: @size, blocks: @blocks, enc: @encoding)
+
+    if @unescape
+      _value.gsub!('\r\n'.b, "\n".b)
+      _value.gsub!('\n'.b  , "\n".b)
+    end
+
     format(__method__, _value)
     
     self.value = _value
@@ -109,6 +118,12 @@ class StrProp < Prop
     end
 
     _value = value.dup
+
+    if @unescape
+      _value.gsub!("\r\n".b, '\n'.b)
+      _value.gsub!("\n".b  , '\n'.b)
+    end
+
     format(__method__, _value)
     
     _f.write_str(_value, length: @size, blocks: @blocks, enc: @encoding)
@@ -120,16 +135,20 @@ class StrProp < Prop
   def read_csv(_header, _row)
     _value = _row[_header] || value.dup
     _value.force_encoding('UTF-8')
-    
+
     if @escape
-      _value.gsub!(/(?<!\\)\\n/) { "\n" }
-      _value.gsub!(/(?<!\\)\\r/) { "\r" }
-      _value.gsub!(/(?<!\\)\\t/) { "\t" }
-      _value.gsub!(/\\\\/      ) { "\\" }
+      _value.gsub!(/[\u2400-\u241f\u2421]/) do
+        _byte = Regexp.last_match(0).ord & 0xff
+        if _byte == 0x21
+          _byte = 0x7f
+        end
+        _byte.chr
+      end
+      _value.gsub!("\r\n", "\n")
     end
-    
+
     format(__method__, _value)
-    
+
     self.value = _value
   end
 
@@ -141,14 +160,17 @@ class StrProp < Prop
     _value.force_encoding('UTF-8')
     
     if @escape
-      _value.gsub!(/\\(?!x[0-9A-Fa-f]{2})/) { '\\\\' }
-      _value.gsub!(/\t/                   ) { '\t'   }
-      _value.gsub!(/\r/                   ) { '\r'   }
-      _value.gsub!(/\n/                   ) { '\n'   }
+      _value.gsub!(/[\x00-\x08\x0b-\x1f\x7f]/) do
+        _byte = Regexp.last_match(0).ord
+        if _byte == 0x7f
+          _byte = 0x21
+        end
+        (0x2400 + _byte).chr(Encoding::UTF_8)
+      end
     end
-    
+
     format(__method__, _value)
-    
+
     _row[_header] = _value
   end
 
@@ -173,6 +195,7 @@ class StrProp < Prop
   attr_accessor :encoding
   attr_accessor :escape
   attr_accessor :format
+  attr_accessor :unescape
   
   def size
     if @size
