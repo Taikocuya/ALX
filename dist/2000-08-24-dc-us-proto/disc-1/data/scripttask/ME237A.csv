@@ -1,0 +1,113 @@
+[Event Name],Task ID
+M12060000,"\h(《Ilchymis》)Well well… I never expected to get visitors way
+out here!\e"
+M12060001,"\h(《Ilchymis》)My name is Ilchymis.
+I have come to this island to further my studies
+of various medicines.\e"
+M12060002,"\h(《Vyse》)You're on this island, alone… to study?!
+You're quite strange…\e"
+M12060003,"\h(《Ilchymis》)Heh heh… you're probably right.
+I've been called strange ever since I was a
+child.\e"
+M12060004,"\h(《Ilchymis》)I was always asking questions…
+Why does water float when it freezes?
+Why is the sky blue?\e"
+M12060005,"\h(《Ilchymis》)But that calls to mind another question.
+What brings you to this island, anyway?\e"
+M12060006,"\h(《Um…》)”Nothing really… just sort of exploring.”
+”Would you like to join my crew?”\e"
+M12060007,"\h(《Vyse》)Nothing really…
+We were just exploring and decided to see what 
+was on this island.\e"
+M12060008,"\h(《Ilchymis》)Ha ha… I've been living on this island for 
+nearly 10 years now, and you are the first 
+visitors I've ever had.\e"
+M12060009,"\h(《Ilchymis》)I have nothing to offer… but you're free to
+come visit any time you wish. It's nice to hear 
+another voice every once in a while…\e"
+M12060010,"\h(《Vyse》)Actually, I would like to ask you to join my 
+crew. We are in need of a doctor…\e"
+M12060011,"\h(《Ilchymis》)Ha ha… I'm no doctor. I a chemist… I study 
+medicines and such.\e"
+M12060012,"\h(《Ilchymis》)I am very happy that you would like to take me 
+along, but I am sorry. I cannot travel with you.\e"
+M12060013,"\h(《Ilchymis》)You said your name was Vyse, correct?
+Ah yes… what is it that you would like to talk 
+about now?\e"
+M12060014,"\h(《Ilchymis》)Oh, hello. Vyse, was it?
+What brings you here again?\e"
+M12060015,"\h(《Um…》)”Nothing really.”
+”Will you join my crew?”\e"
+M12060016,"\h(《Vyse》)Well, nothing really…
+I was just wondering how you were doing, 
+that's all…\e"
+M12060017,"\h(《Ilchymis》)Ha ha… Is that so?
+Well, if anything, the one thing I've always had
+was my health.\e"
+M12060018,"\h(《Ilchymis》)I'm studying medicines… I can't let myself get 
+sick now, can I? Ha ha ha ha…\e"
+M12060019,"\h(《Vyse》)I will ask you again…
+Will you join my crew?\e"
+M12060020,"\h(《Ilchymis》)… I was not planning to leave this island 
+any time soon.\e"
+M12060021,"\h(《Ilchymis》)Well, in fact, I was once a nobleman of Valua.
+I threw all of that away…\e"
+M12060022,"\h(《Ilchymis》)… in order to come here and pursue my studies. 
+I have no intention of returning to the world.\e"
+M12060023,"\h(《Ilchymis》)The only person I will leave this island to 
+travel with is he who has a heart full of wisdom
+and love…\e"
+M12060024,"\h(《Ilchymis》)When a man capable of casting the Silver Magic 
+”Riselem” shows himself at my doorstep, I know 
+that man is the one I will follow.\e"
+M12060025,"\h(《Vyse》)”Riselem”?
+Actually, we know that spell.\e"
+M12060026,"\h(《Ilchymis》)Wh, what?!
+You learned that incredibly difficult spell?\e"
+M12060027,"\h(《Ilchymis》)…I see.
+Then that means that you have a heart full of 
+wisdom and love.\e"
+M12060028,"\h(《Ilchymis》)I've been waiting for people such as yourselves.
+Please, take me with you. I only hope that my
+research can be of some use to you…\c"
+M12060029,"\h(《》)Ilchymis has joined your crew as
+a ”Specialist.”\e"
+M12060030,"\h(《Ilchymis》)Well, Vyse… what would you like to talk to me 
+about?\e"
+Ms237a000,"\h(《Vyse》)I wonder what this machine is for? There's a
+well-polished Moon Stone attached to it…\e"
+Ms237a001,"\h(《Vyse》)Wow, that's a really thick book. I can't even
+read this thing. It's all just a bunch of
+strange symbols and some numbers.\c"
+Ms237a002,"\h(《Vyse》)An assortment of herbs and tools are scattered
+about. Maybe they're used in the making of
+various potions and things.\c"
+Ms237a003,"\h(《Vyse》)Some sort of… pot? Hm? What exactly is this
+thing, anyway?\c"
+Ms237a005,"\h(《Vyse》)This sure is an… interesting… thing. It looks
+like some sort of machine, but I can't even
+begin to comprehend what it does.\c"
+Ms237a006,"\h(《Vyse》)It looks like an ordinary windmill, but it
+probably has uses that I'd never even dream
+about.\c"
+Ms237a007,"\h(《Vyse》)There are a bunch of really thick, old books
+lined up here. These must be research materials.
+\c"
+Ms237a008,"\h(《Vyse》)Some sort of… machine. Whatever it is, it's
+moving. Maybe I shouldn't touch it…\c"
+Ms237a009,"\h(《Vyse》)Well, I'm assuming that this is a machine of
+sorts. Hm… I wonder what that pipe sticking out
+of it is for…\c"
+Ms237a010,"\h(《Vyse》)This looks like some sort of… power source…
+I think… Heh, who am I kidding? I have no idea
+what this thing does.\c"
+Ms237a011,"\h(《Vyse》)This strange little object looks like it's the
+heart of all of the machinery in this room…\e"
+Ms237a012,"\h(《Vyse》)Hm… I wonder what it's used for? There are
+so many things in here that are so new to me…
+I probably shouldn't touch anything…\c"
+Ms237a013,"\h(《What will you do?》)”Return to the Delphinus.”
+”Stay here a little while longer.”\e"
+"",m5370000
+"",M0236
+"",k8530000

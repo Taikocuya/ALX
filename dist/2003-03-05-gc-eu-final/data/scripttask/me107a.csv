@@ -1,0 +1,316 @@
+[Event Name],Task ID
+MC0100000,"\h(«Aika»)Vyse, that huge vehicle over there must be the 
+rail car.\e"
+MC0100001,"\h(«Vyse»)I think you're right, Aika.
+Looks like it can only ride on those rails. 
+I guess it would be hard to steal…\e"
+MC0100002,\h(«Vyse»)Let me get a closer look!\e
+MC0100003,\h(«Vyse»)Fina!\e
+MC0100004,"\h(«Aika»)What are you talking about?
+I thought Fina was supposed to be at the palace.\e"
+MC0100005,"\h(«Vyse»)That's what I thought, but it looks like that 
+rail car is going to the Grand Fortress.\e"
+MC0100006,"\h(«Vyse»)If she gets taken into the fortress, we'll never
+be able to get her out! We have to move… now!\e"
+MFC0100000,"\h(«Aika»)Vyse, cet énorme véhicule là-bas, ce doit être
+l'autorail.\e"
+MFC0100001,"\h(«Vyse»)Je crois que tu as raison, Aika.
+Apparemment, il ne peut rouler que sur ces
+rails. Je suppose que ce serait difficile de le
+voler……\e"
+MFC0100002,\h(«Vyse»)Laisse-moi voir de plus près !\e
+MFC0100003,\h(«Vyse»)Fina !\e
+MFC0100004,"\h(«Aika»)Qu'est-ce que tu racontes ?
+Je croyais que Fina devait être au palais.\e"
+MFC0100005,"\h(«Vyse»)C'est ce que je croyais aussi, mais apparemment
+l'autorail va à la Grande Forteresse.\e"
+MFC0100006,"\h(«Vyse»)Si elle est emmenée à la forteresse, nous ne
+pourrons jamais l'en sortir ! Il faut agir……
+tout de suite !\e"
+MGC0100000,"\h(«Aika»)Vyse, das große Fahrzeug dort drüben muss die
+Straßenbahn sein.\e"
+MGC0100001,"\h(«Vyse»)Ich glaube, du hast Recht, Aika.
+Sieht so aus, als könnte es nur auf diesen
+Schienen fahren. Lässt sich wahrscheinlich
+schwerer stehlen……\e"
+MGC0100002,\h(«Vyse»)Lass mich mal schauen!\e
+MGC0100003,\h(«Vyse»)Fina!\e
+MGC0100004,"\h(«Aika»)Wovon redest du?
+Ich dachte, Fina sollte im Palast sein.\e"
+MGC0100005,"\h(«Vyse»)Das dachte ich auch, aber es sieht so aus,
+als ginge diese Bahn zur Grand Fortress.\e"
+MGC0100006,"\h(«Vyse»)Wenn sie in die Festung gebracht wird, bekommen
+wir sie nie mehr heraus! Wir müssen jetzt……
+etwas unternehmen!\e"
+MSC0100000,"\h(«Aika»)Vyse, ese vehículo enorme de ahí debe de ser un
+tranvía.\e"
+MSC0100001,"\h(«Vyse»)Tienes razón, Aika.
+Parece que sólo puede andar sobre esos raíles.
+Creo que va a ser difícil de robar……\e"
+MSC0100002,\h(«Vyse»)¡Deja que observe de cerca!\e
+MSC0100003,\h(«Vyse»)¡Fina!\e
+MSC0100004,"\h(«Aika»)¿De qué estás hablando?
+Pensé que Fina estaba en el Palacio.\e"
+MSC0100005,"\h(«Vyse»)Eso pensé, pero da la impresión de que ese
+tranvía se dirige a la Gran Fortaleza.\e"
+MSC0100006,"\h(«Vyse»)¡Si la encierran en la fortaleza, jamás podremos
+sacarla de allí! ¡Tenemos que ponernos en
+marcha…… ya!\e"
+MC0120000,"\h(«Vyse»)It sounds like the engines are starting…
+We'll never get down there in time.\e"
+MC0120001,"\h(«Aika»)Vyse, what should we do?\e"
+MC0120002,\h(«Vyse»)We've got to jump onto the roof!\e
+MC0120003,"\h(«Aika»)What?!
+Isn't there a Plan B?\e"
+MC0120004,"\h(«Vyse»)Come on, Aika!\e"
+MC0120005,\h(«Aika»)This shouldn't be too tough.\e
+MFC0120000,"\h(«Vyse»)Il semble que les moteurs ont démarré……
+Nous n'y arriverons jamais à temps.\e"
+MFC0120001,"\h(«Aika»)Vyse, que devons-nous faire ?\e"
+MFC0120002,\h(«Vyse»)Il faut sauter sur le toit !\e
+MFC0120003,"\h(«Aika»)Quoi ?!
+Tu n'as pas un Plan B ?\e"
+MFC0120004,"\h(«Vyse»)Allez, Aika !\e"
+MFC0120005,\h(«Aika»)Ce ne devrait pas être trop dur.\e
+MGC0120000,"\h(«Vyse»)Klingt so, als ob sie die Motoren anlassen……
+Wir schaffen es nie rechtzeitig dort hinunter.\e"
+MGC0120001,"\h(«Aika»)Vyse, was sollen wir tun?\e"
+MGC0120002,\h(«Vyse»)Wir müssen aufs Dach springen!\e
+MGC0120003,"\h(«Aika»)Was?!
+Gibt es keinen Plan B?\e"
+MGC0120004,"\h(«Vyse»)Komm schon, Aika!\e"
+MGC0120005,\h(«Aika»)So schwierig wird's nicht sein.\e
+MSC0120000,"\h(«Vyse»)Ese ruido son los motores que se encienden……
+Jamás llegaremos a tiempo.\e"
+MSC0120001,"\h(«Aika»)Vyse, ¿qué hacemos?\e"
+MSC0120002,\h(«Vyse»)¡Tenemos que saltar sobre el techo!\e
+MSC0120003,"\h(«Aika»)¡¿Qué?!
+¿Es esa nuestra única posibilidad?\e"
+MSC0120004,"\h(«Vyse»)¡Vamos, Aika!\e"
+MSC0120005,\h(«Aika»)Seguro que no es tan difícil.\e
+M03020000,"\h(«Upper City Valuan»)The bathtub in my house is made out of gold, you
+know. Pure gold, of course.\e"
+M03020001,"\h(«Upper City Valuan»)But, something is still missing…\e"
+M03020002,"\h(«Upper City Valuan»)I know! I'll have my toilet made out of pure
+silver!\c"
+M03030000,"\h(«Upper City Valuan»)This is Valua's Upper City. Only those of
+wealthy stature or born of noble blood live
+here, of course…\e"
+M03030001,"\h(«Upper City Valuan»)It's a much harder life here in Upper City than 
+you think… there are so many plays, so many 
+parties… I'm a very busy person…\c"
+M03040000,"\h(«Boy»)My mommy told me that people in Lower City 
+rarely get to eat white bread.\e"
+M03040001,"\h(«Boy»)But that's stupid… If they can't eat bread,
+why don't they just eat cake? Hehehe…\c"
+M03050000,"\h(«Upper City Valuan»)Oh, are you a nobleman?
+You'll have to excuse me, but which family are
+you from?\e"
+M03050001,"\h(«What do you say?»)“I am a relative of Admiral Alfonso.”
+“I come from a poor, but noble, family.”
+“From the Dyne Family.”\e"
+M03050002,"\h(«Vyse»)I am a relative of Admiral Alfonso of the
+Imperial Armada.\e"
+M03050003,"\h(«Upper City Valuan»)Wh, what?!
+I am very sorry for my insolence.
+I did not realize you were of such import!\e"
+M03050004,"\h(«Upper City Valuan»)Now that you mention it, you do have very noble
+and elegant features! Splendid!\e"
+M03050005,"\h(«Vyse»)Me?
+I'm the only son of a poor, but noble family.\e"
+M03050006,"\h(«Upper City Valuan»)Oh… I see.
+Now that I think about it, your clothes are
+rather… old.\e"
+M03050007,"\h(«Upper City Valuan»)Enough. Please go away. I wouldn't want your
+“poorness” to rub off on me.\e"
+M03050008,"\h(«Vyse»)Me?
+I'm one of the members of the Dyne Family.\e"
+M03050009,"\h(«Upper City Valuan»)Hm… The Dyne Family, you say?
+I don't seem to recall any noble families of
+such a name…\e"
+M03050010,"\h(«Upper City Valuan»)Well, just looking at you, I can tell that you
+come from a noble military family.
+I shall try to remember that name.\c"
+MF03020000,"\h(«Habitante du Haut Valua»)Ma baignoire est en or, vous savez.
+En or massif, bien sûr.\e"
+MF03020001,"\h(«Habitante du Haut Valua»)Mais, il manque encore quelque chose……\e"
+MF03020002,"\h(«Habitante du Haut Valua»)Je sais ! Mes toilettes seront fabriquées en
+argent !\c"
+MF03030000,"\h(«Habitante du Haut Valua»)C'est le Haut Valua ici.
+Seuls les plus fortunés ou les plus nobles
+habitent ici, bien sûr……\e"
+MF03030001,"\h(«Habitante du Haut Valua»)C'est plus difficile de vivre dans le Haut Valua
+que tu ne crois…… il y a tant de pièces de
+théâtre, tant de fêtes…… je suis très occupée……\c"
+MF03040000,"\h(«Garçon»)Ma maman m'a dit que les habitants du Bas Valua
+ne mangent presque jamais de pain blanc.\e"
+MF03040001,"\h(«Garçon»)Mais c'est ridicule…… s'ils ne peuvent pas
+manger de pain, pourquoi ne mangent-ils pas des
+gâteaux ? Héhéhé……\c"
+MF03050000,"\h(«Habitant de Haut Valua»)Oh, Êtes-vous noble ?
+Je vous prie de m'excuser, mais de quelle
+famille descendez-vous ?\e"
+MF03050001,"\h(«Que direz-vous ?»)“Je suis un parent de l'Amiral Alfonso.”
+“Je descends d'une famille pauvre, mais noble.”
+“Des Dyne.”\e"
+MF03050002,"\h(«Vyse»)Je suis un parent de l'Amiral Alfonso de
+l'Armada Impériale.\e"
+MF03050003,"\h(«Habitant de Haut Valua»)Comment ?!
+Je suis vraiment désolé de mon insolence.
+Je ne savais pas que vous étiez si important !\e"
+MF03050004,"\h(«Habitant de Haut Valua»)Maintenant que vous le dites, je vois bien que
+vous avez des traits très élégants et très
+nobles ! Magnifique !\c"
+MF03050005,"\h(«Vyse»)Moi ? Je suis le fils unique d'une famille
+pauvre, mais noble.\e"
+MF03050006,"\h(«Habitant de Haut Valua»)Oh…… Je vois.
+Maintenant que j'y pense, tes habits ont plutôt
+l'air…… usés.\e"
+MF03050007,"\h(«Habitant de Haut Valua»)Assez. Allez vous-en. Je ne voudrais pas que
+votre “pauvreté” déteigne sur moi.\c"
+MF03050008,"\h(«Vyse»)Moi?
+Je suis un des membres de la famille Dyne.\e"
+MF03050009,"\h(«Habitant de Haut Valua»)Hum…… La famille Dyne, vous dites ?
+Je ne me souviens pas d'une famille noble de ce
+nom……\e"
+MF03050010,"\h(«Habitant de Haut Valua»)Rien qu'à vous regarder, je vois bien que vous
+venez d'une famille militaire noble.
+J'essaierai de me souvenir de ce nom.\c"
+MG03020000,"\h(«Upper City-Bewohner»)Die Badewanne bei mir zu Hause ist aus Gold.
+Selbstverständlich aus purem Gold.\e"
+MG03020001,\h(«Upper City-Bewohner»)Aber eine Kleinigkeit fehlt noch……\e
+MG03020002,"\h(«Upper City-Bewohner»)Ich weiß, was du meinst! Ich werde meine
+Toilette aus reinem Silber anfertigen lassen!\c"
+MG03030000,"\h(«Upper City-Bewohner»)Das ist die Upper City von Valua. Hier wohnen
+selbstverständlich nur Leute hohen Wohlstands
+oder natürlich Adlige……\e"
+MG03030001,"\h(«Upper City-Bewohner»)Das Leben hier in Upper City ist viel härter,
+als man es sich vorstellen kann……  so viele
+Veranstaltungen, so viele Partys…… Ich bin
+sehr beschäftigt……\c"
+MG03040000,"\h(«Junge»)Meine Mami hat gesagt, dass die Leute in
+Lower City selten Weißbrot zu essen bekommen.\e"
+MG03040001,"\h(«Junge»)Zu dumm…… Wenn sie kein Brot essen können,
+warum essen sie dann nicht einfach Kuchen?
+Hihihi……\c"
+MG03050000,"\h(«Upper City-Bewohner»)Oh, sind Sie Adliger?
+Ich bitte um Entschuldigung, aber aus welcher
+Familie sind Sie noch mal?\e"
+MG03050001,"\h(«Was sagst du?»)“Ich bin ein Verwandter von Admiral Alfonso”.
+“Ich entstamme einer armen Adelsfamilie.”
+“Von der Familie Dyne”.\e"
+MG03050002,"\h(«Vyse»)Ich bin ein Verwandter von Admiral Alfonso der
+Kaiserlichen Armada.\e"
+MG03050003,"\h(«Upper City-Bewohner»)Wa, was?!
+Verzeihen Sie die Anmaßung.
+Ich wusste nicht, dass Sie von so hohem Rang
+sind!\e"
+MG03050004,"\h(«Upper City-Bewohner»)Jetzt, wo Sie es sagen, Sie haben tatsächlich
+sehr adlige und elegante Gesichtszüge!
+Vortrefflich!\c"
+MG03050005,"\h(«Vyse»)Was, ich?
+Ich bin der einzige Sohn einer armen, aber
+adligen Familie.\e"
+MG03050006,"\h(«Upper City-Bewohner»)Oh…… verstehe.
+Wenn ich darüber nachdenke, Ihre Sachen sind
+ziemlich…… alt.\e"
+MG03050007,"\h(«Upper City-Bewohner»)Das reicht. Bitte gehen Sie.
+Ich möchte nicht, dass Ihre “Armut” auf mich
+abfärbt.\c"
+MG03050008,"\h(«Vyse»)Ich?
+Ich bin Mitglied der Familie Dyne.\e"
+MG03050009,"\h(«Upper City-Bewohner»)Hm…… die Familie Dyne, sagen Sie?
+Ich kann mich nicht an adlige Familien mit
+diesem Namen erinnern……\e"
+MG03050010,"\h(«Upper City-Bewohner»)Also, wenn ich Sie mir so betrachte, man sieht
+es Ihnen an, dass Sie einer adligen
+Militärfamilie entstammen. Ich werde versuchen,
+mir den Namen einzuprägen.\c"
+MS03020000,"\h(«Valuan del Centro»)En casa tengo una bañera hecha de oro, sabes.
+De oro puro, por supuesto.\e"
+MS03020001,\h(«Valuan del Centro»)Pero aun así falta algo……\e
+MS03020002,"\h(«Valuan del Centro»)¡Ya lo sé!
+¡Voy a encargar que me hagan el baño de plata!\c"
+MS03030000,"\h(«Valuan del Centro»)Esto es el Centro de Valua. Aquí sólo viven los
+que tienen mucho dinero o los que han nacido en
+el seno de una familia noble……\e"
+MS03030001,"\h(«Valuan del Centro»)Pero la vida aquí en el Centro de la Ciudad es
+mucho más dura de lo que parece…… hay tantas
+funciones, tantas fiestas……\c"
+MS03040000,"\h(«Niño»)Mi madre me contó que la gente del Arrabal de la
+Ciudad casi nunca come pan blanco.\e"
+MS03040001,"\h(«Niño»)Pero qué tontería…… Si no pueden comer pan,
+¿por qué no comen pasteles? Ja, ja……\c"
+MS03050000,"\h(«Valuan del Centro»)¿Así que desciendes de la nobleza?
+Perdona que te lo pregunte, ¿pero de qué familia
+exactamente?\e"
+MS03050001,"\h(«¿Qué vas a decir?»)“Soy pariente del Almirante Alfonso.”
+“Vengo de una familia noble, pero pobre.”
+“De la Familia Dyne.”\e"
+MS03050002,"\h(«Vyse»)Soy pariente del Almirante Alfonso de la Armada
+Imperial.\e"
+MS03050003,"\h(«Valuan del Centro»)¡¿Cómo dices?!
+Te ruego que me perdones tamaña insolencia.
+¡No sé cómo no me di cuenta de tu posición!\e"
+MS03050004,"\h(«Valuan del Centro»)¡Ahora que lo dices, se nota en tus rasgos
+faciales que procedes de noble cuna!\e"
+MS03050005,"\h(«Vyse»)¿Yo?
+Soy el único hijo de una familia pobre, pero
+noble.\e"
+MS03050006,"\h(«Valuan del Centro»)Ah…… ya te entiendo.
+Pensándolo mejor, ahora veo que la ropa
+que llevas está bastante…… raída.\e"
+MS03050007,"\h(«Valuan del Centro»)Ya está bien. Haz el favor de salir de aquí.
+No quiero que se me pegue tu “pobreza”.\e"
+MS03050008,"\h(«Vyse»)¿Yo?
+Soy miembro de la Familia Dyne.\e"
+MS03050009,"\h(«Valuan del Centro»)Mm…… ¿La familia Dyne, dices?
+No creo recordar ninguna familia de la nobleza
+que se llame así……\e"
+MS03050010,"\h(«Valuan del Centro»)Bueno, sólo de mirarte, uno se da cuenta de que
+procedes de una familia noble de militares.
+Recordaré ese nombre.\c"
+Ms107a000,"\h(«Aika»)Vyse!!
+This is no time to just sit
+around and drink tea!!!\c"
+Ms107a001,"\h(«Vyse»)I can't believe there's even a fountain here.
+I feel like I'm in a completely different
+country compared to Lower City…\c"
+MFs107a000,"\h(«Aika»)Vyse!!
+Ce n'est pas le moment de rester les bras
+croisés et de boire du thé !!!\c"
+MFs107a001,"\h(«Vyse»)J'ai du mal à croire qu'il y ait une fontaine
+ici. J'ai l'impression de me trouver dans un
+pays totalement différent de Bas Valua……\c"
+MGs107a000,"\h(«Aika»)Vyse!!
+Das ist nicht die Zeit,
+um rumzusitzen und Tee zu trinken!!!\c"
+MGs107a001,"\h(«Vyse»)Ich kann nicht fassen, dass es hier
+sogar einen Springbrunnen gibt. Wenn ich
+das hier mit Lower City vergleiche, habe ich
+das Gefühl, in einem anderen Land zu sein……\c"
+MSs107a000,"\h(«Aika»)¡¡Vyse!!
+¡¡Éste no es momento de sentarse a tomar té!!\c"
+MSs107a001,"\h(«Vyse»)Parece increíble que haya hasta una fuente
+aquí. Me da la sensación de que estoy
+en un país totalmente distinto al Arrabal……\c"
+"",me209a.sct
+"",me106c.sct
+"",M0307
+"",m5070000
+"",a107ac10.mld
+"",a107ac10.mld
+"",a107ac10_efe.mld
+"",a107ac10_efe.mld
+"",e6c010
+"",M0325
+"",a107ac10.mld
+"",a107ac10_efe.mld
+"",a107ac12.mld
+"",a107ac12.mld
+"",e6c012
+"",M0325
+"",a107ac12_efe.mld
+"",a107ac12_efe.mld
+"",a107ac12.mld
+"",a107ac12_efe.mld

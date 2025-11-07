@@ -1,0 +1,80 @@
+[Event Name],Task ID
+"",M0430
+"",f7100100S.p04
+"",f7100100S.p04
+"",me500a.sct
+"",me199f.sct
+"",\h(<What will you do?>)
+"","”Try to get behind him instead.”
+”Wait and see what he does.”\e"
+"",\h(<What will you do?>)
+"","”Maneuver behind the enemy.”
+”Wait and see what he does.”\c"
+"",f3000033
+"",f3000033
+"",k0000.mld
+"",k0000.mld
+"",k0000.mld
+"","\h(<Baltor>)Hahahaha!!!!
+I am Baltor, notorious Black Pirate and bane to
+all who sail the skies!\e"
+"","\h(<Baltor>)Now, I shall teach you to tremble in fear before
+the power of my ship, the Black Beard!
+Gahahahaha!!!\c"
+"","\h(<Drachma>)Listen up, boy!
+At the top of the screen, a 3X3 grid will
+appear. This is your input command screen.\e"
+"","\h(<Drachma>)Think of it as a time gauge of sorts. Each turn
+is divided into four parts.\e"
+"","\h(<Drachma>)For each part of each turn, you, Aika, or I can
+input one command.\e"
+"","\h(<Drachma>)However, usin' cannons and such requires Spirit
+points. If you don't have enough points, you
+need to use the ”Focus” command.\c"
+"","\h(<Drachma>)Every once in a while, you will see a column
+with a ”C!” at the top of the grid.\e"
+"","\h(<Drachma>)During that turn, you will have a tactical
+advantage over your opponent. Concentrate all of
+your firepower into that round.\e"
+"","\h(<Drachma>)Also, certain turns have a different color shown
+at the top.\e"
+"","\h(<Drachma>)These are the turns in which your enemy is goin'
+to unleash a powerful attack. Make sure to use
+your ”Defend” command effectively.\c"
+"","\h(<Baltor>)Humph! He's good…
+Vyse! Turn hard to starboard! Let's try and
+maneuver behind him!\c"
+"","\h(<Aika>)… Something's not right, Cap'n. It looks like
+he's preparing for something. I'm getting a bad
+feeling about this…\e"
+"","\h(<Drachma>)He looks like he's goin' to try to get behind
+us. Most ships have their engines in the back
+and that makes them more vulnerable from behind.\e"
+"","\h(<Drachma>)But, if he tries to get behind us, in the
+meantime, he'll be wide open. What do you want
+to do, boy?\e"
+"","\h(<Vyse>)Now's our chance!
+He won't be expecting us to try and maneuver
+around to his backside!\c"
+"","\h(<Drachma>)Good job, boy!
+His ship doesn't have any cannons in the back…
+We've got a wide open shot at his engines.\c"
+"","\h(<Vyse>)I don't want to act in haste. Let's see what he
+does…\c"
+"","\h(<Baltor>)Hahaha!!!
+Fools! You've let me get behind you! Now, you
+are mine!!\c"
+"","\h(<Drachma>)Idiot! What the hell're you doin'?!
+Now that he's behind us, he's got a wide open
+shot at our engines!!\c"
+"","\h(<Baltor>)That old ship's tough!!
+I need to get behind it!\e"
+"","\h(<Vyse>)Alright! We managed to get behind him! Now's our
+chance to attack!\c"
+"","\h(<Vyse>)Great… While I was sitting here twiddling my
+thumbs he managed to get behind me! All hands,
+prepare for impact!!!\c"
+"",me399a.sct
+"",\h(　Would you like to try again?)
+"","  Yes
+  No\c"

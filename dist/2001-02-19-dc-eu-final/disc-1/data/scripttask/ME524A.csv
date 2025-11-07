@@ -1,0 +1,257 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MA5240000,\h(«Enrique»)Wha… What is that thing?!\e
+MA5240001,"\h(«Vyse»)I don't know, but this is probably it's home.
+And it doesn't look like it going to let us
+leave without a fight!!\c"
+MA5240002,"\h(«Aika»)It keeps disappearing into that vortex!
+I can't keep a lock on that thing!\e"
+MA5240003,"\h(«Enrique»)It's impossible to hit it while he's hiding
+in there, anyway. How can you expect to hit
+it if you can't see it?\c"
+MA5240004,"\h(«Aika»)It keeps disappearing into that vortex!
+I can't keep a lock on that thing!\e"
+MA5240005,"\h(«Enrique»)It's impossible to hit it while he's hiding
+in there, anyway. How can you expect to hit
+it if you can't see it?\c"
+MA5240006,"\h(«Fina»)However, it seems that the Red Magic that we
+used earlier was quite effective. Perhaps we
+can use it more to our advantage…\c"
+MA5240007,"\h(«Vyse»)Look!
+It's coming out of the vortex!\e"
+MA5240008,"\h(«Aika»)It looks like our attacks forced it
+out into the open! Now's our chance!\c"
+MA5240009,\h(«Vyse»)Great… It went back inside…\e
+MA5240010,"\h(«Aika»)Oh well…
+I was hoping we could pull off a few more shots
+before it decided hide again…\c"
+MA5240011,"\h(«Aika»)Vyse, we're awaiting orders!
+Tell us what to do, Captain!\e"
+MA5240012,"\h(«What will you do?»)“Stay put and keep shooting.”
+“Pull back a little.”\e"
+MA5240013,"\h(«Vyse»)We might take some damage, but
+stay put and keep shooting at that thing.\e"
+MA5240014,"\h(«Aika»)Good idea! If we move around too much in this
+place, it's so dark that we might lose sight
+of our target!\c"
+MA5240015,"\h(«Vyse»)We don't know what it'll do.
+Let's back off and see what it's capable of.\c"
+MA5240016,"\h(«Enrique»)Well, we've put some space between us, but…
+Now we can't see very well. It will be hard
+for us to hit anything from here.\e"
+MA5240017,"\h(«Aika»)Yeah, it's so dark here.
+Vyse, are you sure this is what you want?\e"
+MA5240018,"\h(«What will you do?»)“Stay here and attack.”
+“Get in closer and attack.”\e"
+MA5240019,"\h(«Vyse»)Okay, I guess we'll have to get in
+closer to attack. We can't get a clear
+shot off from here.\e"
+MA5240020,"\h(«Aika»)“Attack from far away” he says… “Get closer” he
+says… Geez. I wish you'd make up your mind…\c"
+MA5240021,"\h(«Vyse»)No, we stay here and attack.
+Stations, everyone!\e"
+MA5240022,"\h(«Aika»)You know what, Vyse? You can be sooo stubborn
+sometimes. But, I guess you're the Captain.
+I hope you know what you're doing…\c"
+MSA5240000,\h(«Enrique»)¡¿Qué……?! ¡¿Qué es eso?!\e
+MSA5240001,"\h(«Vyse»)No sé, pero probablemente es su casa.
+¡¡Y no parece que nos vaya a dejar marchar
+sin pelear antes!!\c"
+MSA5240002,"\h(«Aika»)¡Sigue desapareciendo en el remolino!
+¡No puedo mantenerlo fijo en el objetivo!\e"
+MSA5240003,"\h(«Enrique»)De todas formas es imposible acertarle mientras
+está escondido ahí.
+¿Cómo vamos a dispararle si no le vemos?\c"
+MSA5240004,"\h(«Aika»)¡Sigue desapareciendo en el remolino!
+¡No puedo mantenerlo fijo en el objetivo!\e"
+MSA5240005,"\h(«Enrique»)De todas formas es imposible acertarle mientras
+está escondido ahí.
+¿Cómo vamos a dispararle si no le vemos?\c"
+MSA5240006,"\h(«Fina»)De todas formas, esa Magia Roja que usamos antes
+era bastante efectiva. Deberíamos usarla más a
+nuestro favor……\c"
+MSA5240007,"\h(«Vyse»)¡Mira!
+¡Está saliendo del remolino!\e"
+MSA5240008,"\h(«Aika»)¡Parece que nuestros ataques le han forzado a
+salir al exterior! ¡Es nuestra oportunidad!\c"
+MSA5240009,\h(«Vyse»)Genial…… Ha vuelto dentro……\e
+MSA5240010,"\h(«Aika»)En fin……
+Yo quería haberle disparado unas cuantas veces
+más antes de que se ocultara otra vez……\c"
+MSA5240011,"\h(«Aika»)Vyse, ¡esperamos tus órdenes!
+¡Dinos qué debemos hacer, Capitán!\e"
+MSA5240012,"\h(«¿Qué vas a hacer?»)“Seguir disparando.”
+“Dejarlo un poco.”\e"
+MSA5240013,"\h(«Vyse»)Es posible que recibamos algún daño,
+pero hay que seguir disparando a esa cosa.\e"
+MSA5240014,"\h(«Aika»)¡Buena idea! ¡Está tan oscuro por aquí
+que si nos movemos demasiado podemos perder
+de vista nuestro objetivo!\c"
+MSA5240015,"\h(«Vyse»)No sabemos qué va a hacer.
+Vamos a retroceder y ver de lo que es capaz.\c"
+MSA5240016,"\h(«Enrique»)Bueno, nos hemos alejado un poco y ahora……
+La verdad es que no se ve muy bien.
+Va a ser difícil acertarle desde aquí.\e"
+MSA5240017,"\h(«Aika»)Sí, está muy oscuro.
+Vyse, ¿seguro que quieres hacerlo?\e"
+MSA5240018,"\h(«¿Qué vas a hacer?»)“Quedarme aquí y atacar.”
+“Acercarme más y atacar.”\e"
+MSA5240019,"\h(«Vyse»)Vale, supongo que tendremos que acercarnos más
+para atacar. Desde aquí no podemos acertar.\e"
+MSA5240020,"\h(«Aika»)Ahora “Atacamos desde lejos”……
+Luego “Nos acercamos más”……
+¡Jesús! A ver si te aclaras……\c"
+MSA5240021,"\h(«Vyse»)No, nos quedamos aquí y atacamos.
+¡Todos a sus puestos!\e"
+MSA5240022,"\h(«Aika»)¿Sabes qué, Vyse? A veces eres tan cabezota.
+Pero supongo que eres el Capitán, y tú mandas.
+Espero que sepas lo que haces……\c"
+MFA5240000,\h(«Enrique»)Qu'…… qu'est-ce que c'est ?!\e
+MFA5240001,"\h(«Vyse»)Je ne sais pas, mais il doit vivre ici.
+Et il semble qu'il ne nous laissera pas partir
+sans se battre !!\c"
+MFA5240002,"\h(«Aika»)Il n'arrête pas de disparaître dans le vortex !
+Je n'arrive pas à viser cette créature !\e"
+MFA5240003,"\h(«Enrique»)C'est impossible de lui tirer dessus s'il se
+cache là-dedans. Comment pouvons-nous lui tirer
+dessus si nous ne le voyons pas ?\c"
+MFA5240004,"\h(«Aika»)Il n'arrête pas de disparaître dans le vortex !
+Je n'arrive pas à viser cette créature !\e"
+MFA5240005,"\h(«Enrique»)C'est impossible de lui tirer dessus s'il se
+cache là-dedans. Comment pouvons-nous lui tirer
+dessus si nous ne le voyons pas ?\c"
+MFA5240006,"\h(«Fina»)Cependant, on dirait que la Magie dont nous nous
+sommes servi tout à l'heure a été très efficace.
+Nous pourrions peut-être nous en resservir à
+notre avantage……\c"
+MFA5240007,"\h(«Vyse»)Regarde !
+Il sort du vortex !\e"
+MFA5240008,"\h(«Aika»)On dirait que notre attaque l'a forcé à sortir !
+C'est notre chance !\c"
+MFA5240009,\h(«Vyse»)Génial…… Il est rerentré……\e
+MFA5240010,"\h(«Aika»)Oh tant pis……
+J'espérais que nous pourrions tirer encore
+quelques coups avant qu'il ne décide d'aller se
+cacher……\c"
+MFA5240011,"\h(«Aika»)Vyse, nous attendons les ordres !
+Dis-nous ce qu'il faut faire, Capitaine !\e"
+MFA5240012,"\h(«Que ferez-vous ?»)“Rester en place et continuer de tirer.”
+“Se retirer un peu.”\e"
+MFA5240013,"\h(«Vyse»)Nous risquons de subir des dégâts, mais restez
+en place et continuez de lui tirer dessus.\e"
+MFA5240014,"\h(«Aika»)Bonne idée ! Si nous bougeons trop, nous
+risquons de perdre notre cible de vue car il
+fait si sombre !\c"
+MFA5240015,"\h(«Vyse»)Nous ne savons pas comment il va réagir.
+Retirons-nous pour voir de quoi il est
+capable.\c"
+MFA5240016,"\h(«Enrique»)Bon, nous sommes à distance, mais……
+Maintenant nous avons du mal à voir.
+Cela ne va pas être facile de tirer d'ici.\e"
+MFA5240017,"\h(«Aika»)Oui, il fait vraiment sombre ici.
+Vyse, es-tu sûr de vouloir faire cela ?\e"
+MFA5240018,"\h(«Que ferez-vous ?»)“Rester ici et attaquer.”
+“Se rapprocher et attaquer.”\e"
+MFA5240019,"\h(«Vyse»)OK, je suppose qu'il va falloir se rapprocher
+pour passer à l'attaque. Nous ne pouvons pas
+bien tirer d'ici.\e"
+MFA5240020,"\h(«Aika»)Il nous dit d'“attaquer de loin”…… il nous dit
+de “nous rapprocher”…… Pfut. J'aimerais que tu
+te décides……\c"
+MFA5240021,"\h(«Vyse»)Non, nous restons ici et passons à l'attaque.
+Tous à vos postes !\e"
+MFA5240022,"\h(«Aika»)Tu sais quoi, Vyse ? Tu es vraiment têtu quand
+tu t'y mets. Mais bon, c'est toi le Capitaine.
+J'espère que tu sais ce que tu fais……\c"
+MGA5240000,\h(«Enrique»)Wa…… was ist dieses Ding?!\e
+MGA5240001,"\h(«Vyse»)Ich weiß nicht, aber es ist wahrscheinlich
+hier zu Hause. Und es sieht auch nicht so
+aus, als ob es uns ohne einen Kampf gehen
+lässt!!\c"
+MGA5240002,"\h(«Aika»)Es verschwindet immer in diesen Strudel!
+Ich kann dieses Ding nicht im Auge behalten!\e"
+MGA5240003,"\h(«Enrique»)Es ist sowieso unmöglich, es zu treffen,
+solange es sich dort drinnen versteckt.
+Wie soll man es denn treffen, wenn man es
+nicht sehen kann?\c"
+MGA5240004,"\h(«Aika»)Es verschwindet immer in diesen Strudel!
+Ich kann dieses Ding nicht im Auge behalten!\e"
+MGA5240005,"\h(«Enrique»)Es ist sowieso unmöglich, es zu treffen,
+solange es sich dort drinnen versteckt.
+Wie soll man es denn treffen, wenn man es
+nicht sehen kann?\c"
+MGA5240006,"\h(«Fina»)Es sieht jedoch so aus, als sei die Red Magic,
+die wir vorhin angewendet haben, ziemlich
+wirksam. Vielleicht können wir sie noch etwas
+mehr zu unseren Vorteil einsetzen……\c"
+MGA5240007,"\h(«Vyse»)Seht mal!
+Es kommt aus dem Strudel heraus!\e"
+MGA5240008,"\h(«Aika»)Unsere Angriffe haben es wohl
+ins Freie gelockt! Das ist jetzt unsere Chance!\c"
+MGA5240009,\h(«Vyse»)Toll…… es ist wieder hineingekrochen……\e
+MGA5240010,"\h(«Aika»)Na ja……
+Ich hatte gehofft, wir könnten noch ein
+paar Schüsse abgeben, bevor es sich dazu
+entschließt, sich wieder zu verstecken……\c"
+MGA5240011,"\h(«Aika»)Vyse, wir erwarten deine Befehle!
+Sag uns, was wir machen sollen, Captain!\e"
+MGA5240012,"\h(«Was wirst du tun?»)“Dableiben und weiterschießen.”
+“Dich etwas zurückziehen.”\e"
+MGA5240013,"\h(«Vyse»)Wir erleiden vielleicht auch ein wenig Schaden,
+aber wir bleiben hier und schießen auf dieses
+Ding.\e"
+MGA5240014,"\h(«Aika»)Gute Idee! Wenn wir uns hier drin zu viel
+herumbewegen, wo es so dunkel ist, dann
+verlieren wir vielleicht unser Ziel aus
+den Augen!\c"
+MGA5240015,"\h(«Vyse»)Wir wissen nicht, was es tun wird.
+Ziehen wir uns etwas zurück und warten wir
+ab, wozu es fähig ist.\c"
+MGA5240016,"\h(«Enrique»)Nun, jetzt haben wir für etwas Entfernung
+gesorgt, aber…… jetzt können wir auch nichts
+sehen. Es wird schwer sein, von hier aus
+etwas zu treffen.\e"
+MGA5240017,"\h(«Aika»)Ja, hier ist es so dunkel.
+Vyse, bist du sicher, dass du das gewollt hast?\e"
+MGA5240018,"\h(«Was wirst du tun?»)“Hierbleiben und angreifen.”
+“Näher herangehen und angreifen.”\e"
+MGA5240019,"\h(«Vyse»)Okay, zum Angriff müssen wir wohl näher heran,
+schätze ich. Von hier aus können wir nicht
+gut zielen.\e"
+MGA5240020,"\h(«Aika»)“Aus weiter Entfernung angreifen”, sagt er……
+“Geh näher heran”, sagt er…… Du meine Güte,
+wenn du dich vielleicht mal entscheiden
+könntest……\c"
+MGA5240021,"\h(«Vyse»)Nein, wir bleiben hier und greifen an.
+Alle zu den Kampfstationen!\e"
+MGA5240022,"\h(«Aika»)Weißt du was, Vyse? Du kannst manchmal soooo
+stur sein. Aber du bist der Captain.
+Ich hoffe, du weißt, was du tust……\c"
+"",M0430
+"",k0200.mld
+"",k0200.mld
+"",f7100051s.p04
+"",k0200.mld
+"",b2901.mld
+"",b2901.mld
+"",f7100061s.p04
+"",b2901.mld
+"",f7100100S.p04
+"",me524a.sct
+"",me090a.sct
+"","
+ターン選択
+\c"
+"","ターン0
+ターン1\cターン2\cターン3\cターン4
+ターン5\cターン6\cターン7\cターン8
+ターン9\c"
+"",f3000021
+"",me122a.sct

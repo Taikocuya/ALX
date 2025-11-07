@@ -1,0 +1,62 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MA5800000,"\h(«Vyse»)Descent complete. Approaching Soltis…
+We'll try and get in through Shrine… well,
+what used to be Shrine Island.\e"
+MA5800001,"\h(«Aika»)Good idea… I don't want to find out what that
+light beam up above Soltis would do to us if
+we were to try and pass through it…\e"
+MA5800002,\h(«Fina»)Aaah!\c
+MA5800003,"\h(«Vyse»)Damn! Well… I guess things were going a little
+too smoothly. I would've been disappointed if
+we got into Soltis that easily…\c"
+MFA5800000,"\h(«Vyse»)Descente terminée. Nous approchons de Soltis……
+Nous essaierons de rentrer par le Temple……
+euh, ce qui reste de l'Île du Temple.\e"
+MFA5800001,"\h(«Aika»)Bonne idée…… Je ne préfère pas savoir ce que ce
+rayon au-dessus de Soltis nous ferait si nous
+essayions de le traverser……\e"
+MFA5800002,\h(«Fina»)Aaah !\c
+MFA5800003,"\h(«Vyse»)Fichtre ! Eh bien…… je suppose que c'était trop
+beau pour durer. J'aurais été déçu si nous
+avions pénétré dans Soltis aussi facilement……\c"
+MGA5800000,"\h(«Vyse»)Der Abstieg ist beendet. Wir nähern uns
+Soltis…… wir werden versuchen, durch Shrine……
+also, was einmal Shrine Island war,
+hineinzukommen.\e"
+MGA5800001,"\h(«Aika»)Gute Idee…… ich möchte nicht miterleben, was
+dieser Lichtstrahl über Soltis anrichtet,
+wenn wir versuchen würden, hindurchzufliegen……\e"
+MGA5800002,\h(«Fina»)Aaah!\c
+MGA5800003,"\h(«Vyse»)Verdammt! Also…… schätze, alles ist etwas zu
+reibungslos verlaufen. Ich wäre auch enttäuscht
+gewesen, wenn wir so leicht nach Soltis
+hineingekommen wären……\c"
+MSA5800000,"\h(«Vyse»)Descenso total. Nos acercamos a Soltis……
+Entraremos por la Isla del……
+Bueno, lo que antes era la Isla del Templo.\e"
+MSA5800001,"\h(«Aika»)Buena idea…… No quiero ni pensar lo que ese haz
+de luz que se cierne sobre Soltis nos haría si
+nos atreviéramos a pasar por allí……\e"
+MSA5800002,\h(«Fina»)¡Aaah!\c
+MSA5800003,"\h(«Vyse»)¡Maldición! Ya decía yo que todo iba demasiado
+bien. Habría sido un chasco poder entrar
+en Soltis sin ningún problema……\c"
+"",M0430
+"",me580a.sct
+"",me090a.sct
+"",f7100100S.p04
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",f3000029
+"",f3000030
+"",me099a.sct

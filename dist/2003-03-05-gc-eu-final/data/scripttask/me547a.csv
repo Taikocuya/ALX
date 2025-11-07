@@ -1,0 +1,395 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MA5470000,"\h(«Vyse»)Now, Ramir… no… Zelos…
+Let's finish this!!\c"
+MA5470001,"\h(«What will you do?»)“Maintain distance, and see what Zelos does.”
+“Close in on the enemy.”\c"
+MA5470002,"\h(«Vyse»)We don't know what Zelos is capable of. Let's
+keep our distance until we can formulate some
+kind of a plan.\c"
+MA5470003,"\h(«How do you want to close in?»)“Circle around the target.”
+“Fly straight toward the target.”\c"
+MA5470004,"\h(«Aika»)It looks like all of Zelos' attacks are
+coming out of that symbol in the middle…\e"
+MA5470005,"\h(«What will you do?»)“Attack from the front.”
+“Attack from the side.”\c"
+MA5470006,"\h(«Vyse»)It's dangerous, but that symbol
+may be its weak point. We've got to
+attack it from the front!\c"
+MA5470007,"\h(«Vyse»)It's too dangerous to just stay in front
+of that thing! We've got to attack it from
+the side!\c"
+MA5470008,"\h(«What will you do?»)“Attack from the front.”
+“Attack from the side.”\c"
+MA5470009,"\h(«Aika»)It looks like Zelos is slowing down! I think
+we're damaging it!!\e"
+MA5470010,"\h(«Vyse»)Alright… now's our chance to attack!
+Open fire!!\c"
+MA5470011,"\h(«Aika»)Look, Vyse!
+Zelos… it's changing shape!\e"
+MA5470012,"\h(«Fina»)Creatures of the Silver Civilization
+have no set shape, and can morph
+at will, just like Cupil…\e"
+MA5470013,"\h(«Fina»)Perhaps when they made Zelos, they gave
+it similar characteristics…\e"
+MA5470014,"\h(«Aika»)Vyse! What should we do? You're the
+Captain, here! Tell us what to do!!\e"
+MA5470015,"\h(«What will you do?»)“Play it safe and keep our distance.”
+“Continue attacking.”\c"
+MA5470016,"\h(«Vyse»)We should play it safe, and keep our distance.
+Let's back off for a little bit…\c"
+MA5470017,"\h(«Vyse»)Don't stop firing!
+We must continue attacking!\c"
+MA5470018,"\h(«What will you do?»)“Play it safe and keep our distance.”
+“Continue attacking.”\c"
+MA5470019,"\h(«Aika»)Vyse, we're counting on you!
+What should we do next?!\e"
+MA5470020,"\h(«What will you do?»)“Keep our distance!”
+“Close in on Zelos!”\c"
+MA5470021,"\h(«Vyse»)It's too dangerous to close in.
+Keep our distance!\c"
+MA5470022,"\h(«Vyse»)Close in on Zelos!
+We'll probably take a few hits, but we need to
+take a chance!!\c"
+MA5470023,"\h(«What will you do?»)“Keep our distance!”
+“Close in on Zelos!”\c"
+MA5470024,"\h(«Aika»)Good job, Vyse! Zelos' guard is letting up!
+I think we've found an opening!!!\e"
+MA5470025,"\h(«What will you do?»)“Just keep firing!”
+“Get in closer and open fire!”\c"
+MA5470026,"\h(«Vyse»)Fire! Keep firing!
+This is our chance to finish Zelos!\c"
+MA5470027,"\h(«Vyse»)Now's our chance!
+It might be dangerous, but we need to get in
+there and fire from close range!\c"
+MA5470028,"\h(«What will you do?»)“Just keep firing!”
+“Get in closer and open fire!”\c"
+MA5470029,"\h(«Fina»)Zelos' claws…
+They're falling off!\e"
+MA5470030,"\h(«Aika»)Just a little more…
+Just a little bit more!
+We've almost got him!!\e"
+MA5470031,"\h(«What will you do?»)“We need to be careful! Let's fall back!”
+“Close in! We'll finish this for good!”\c"
+MA5470032,"\h(«Vyse»)We need to be more careful! Zelos is the most
+powerful Gigas of them all… Who knows what
+he's still capable of.\e"
+MA5470033,"\h(«Vyse»)Fall back for a long-range attack! Alright,
+everyone… we can't fail now! We've come
+too far!\c"
+MA5470034,"\h(«Vyse»)This is our chance!
+Let's finish this!\e"
+MA5470035,"\h(«Vyse»)Ready the Moon Stone Cannon!
+We'll put an end to this!\c"
+MA5470036,"\h(«What will you do?»)“We need to be careful! Let's fall back!”
+“Close in! We'll finish this for good!”\c"
+MFA5470000,"\h(«Vyse»)Maintenant, Ramir…… non…… Zelos……
+Finissons-en !!\c"
+MFA5470001,"\h(«Que ferez-vous ?»)“Garder vos distances & voir ce que Zelos fera.”
+“Cerner l'ennemi.”\c"
+MFA5470002,"\h(«Vyse»)Nous ne savons pas de quoi Zelos est capable.
+Gardons nos distances jusqu'à ce que nous ayons
+un plan.\c"
+MFA5470003,"\h(«Comment voulez-vous le cerner ?»)“Tourner autour de la cible.”
+“Voler droit vers la cible.”\c"
+MFA5470004,"\h(«Aika»)Il semble que toutes les attaques de Zelos
+proviennent du symbole du milieu……\e"
+MFA5470005,"\h(«Que ferez-vous ?»)“Attaquer par devant.”
+“Attaquer par le côté.”\c"
+MFA5470006,"\h(«Vyse»)C'est dangereux, mais ce symbole
+est peut-être son point faible.
+Il faut l'attaquer par devant !\c"
+MFA5470007,"\h(«Vyse»)C'est trop dangereux de rester devant cette
+créature ! Il faut l'attaquer par le côté !\c"
+MFA5470008,"\h(«Que ferez-vous ?»)“Attaquer par devant.”
+“Attaquer par le côté.”\c"
+MFA5470009,"\h(«Aika»)Il semble que Zelos ralentisse !
+Je pense que nous l'endommageons !!\e"
+MFA5470010,"\h(«Vyse»)Allez…… c'est le moment de passer à l'attaque !
+Ouvrez le feu !!\c"
+MFA5470011,"\h(«Aika»)Regarde, Vyse !
+Zelos…… il change de forme !\e"
+MFA5470012,"\h(«Fina»)Les créatures de la Civilisation d'Argent
+n'ont pas de forme particulière, et peuvent
+changer de forme à volonté, comme Cupil……\e"
+MFA5470013,"\h(«Fina»)Ils ont peut-être créé Zelos selon les mêmes
+caractéristiques……\e"
+MFA5470014,"\h(«Aika»)Vyse ! Que doit-on faire ? C'est toi le
+Capitaine, ici ! Dis-nous quoi faire !!\e"
+MFA5470015,"\h(«Que ferez-vous ?»)“Ne pas prendre de risques, garder la distance.”
+“Continuer d'attaquer.”\c"
+MFA5470016,"\h(«Vyse»)Nous ne devrions pas prendre de risques,
+et garder nos distances.
+Retirons-nous un petit peu……\c"
+MFA5470017,"\h(«Vyse»)Continuez de tirer !
+Il faut continuer d'attaquer !\c"
+MFA5470018,"\h(«Que ferez-vous ?»)“Ne pas prendre de risques, garder la distance.”
+“Continuer d'attaquer.”\c"
+MFA5470019,"\h(«Aika»)Vyse, nous comptons sur toi !
+Que doit-on faire maintenant ?!\e"
+MFA5470020,"\h(«Que ferez-vous ?»)“Garder nos distances !”
+“Cerner Zelos !”\c"
+MFA5470021,"\h(«Vyse»)C'est trop dangereux de cerner.
+Garde nos distances !\c"
+MFA5470022,"\h(«Vyse»)Cerne Zelos !
+Nous allons certainement prendre des coups,
+mais il faut tenter notre chance !!\c"
+MFA5470023,"\h(«Que ferez-vous ?»)“Garder nos distances !”
+“Cerner Zelos !”\c"
+MFA5470024,"\h(«Aika»)Bien joué, Vyse !
+La garde de Zelos s'affaiblit ! Je pense que
+nous avons trouvé une ouverture !!!\e"
+MFA5470025,"\h(«Que ferez-vous ?»)“Continuer de faire feu !”
+“Se rapprocher et ouvrir le feu !”\c"
+MFA5470026,"\h(«Vyse»)Feu ! Continuez de faire feu !
+C'est notre chance d'achever Zelos !\c"
+MFA5470027,"\h(«Vyse»)C'est notre chance !
+Cela risque d'être dangereux, mais il faut y
+aller pour tirer de près !\c"
+MFA5470028,"\h(«Que ferez-vous ?»)“Continuer de faire feu !”
+“Se rapprocher et ouvrir le feu !”\c"
+MFA5470029,"\h(«Fina»)Les griffes de Zelos……
+Elles se mettent à tomber !\e"
+MFA5470030,"\h(«Aika»)Encore un peu……
+Encore un peu plus !
+Nous le tenons presque !!\e"
+MFA5470031,"\h(«Que ferez-vous ?»)“Il faut être prudent ! Retirons-nous !”
+“Cerner ! Nous allons l'achever pour de bon !”\c"
+MFA5470032,"\h(«Vyse»)Il faudra être plus prudent ! Zelos est le plus
+puissant de tous les Gigas…… Qui sait de quoi il
+est encore capable.\e"
+MFA5470033,"\h(«Vyse»)Retirons-nous pour l'attaquer de loin !
+Allez tout le monde…… il faut y arriver !
+Nous sommes allés trop loin !\c"
+MFA5470034,"\h(«Vyse»)C'est notre chance !
+Finissons-en !\e"
+MFA5470035,"\h(«Vyse»)Préparez le Canon Pierre de Lune !
+Nous allons mettre fin à cela !\c"
+MFA5470036,"\h(«Que ferez-vous ?»)“Il faut être prudent ! Retirons-nous !”
+“Cerner ! Nous allons l'achever pour de bon !”\c"
+MGA5470000,"\h(«Vyse»)Also, Ramir…… nein…… Zelos……
+Lass uns dieses Spiel beenden!!\c"
+MGA5470001,"\h(«Was wirst du tun?»)“Abstand halten und sehen, was Zelos macht.”
+“Auf den Feind losgehen.”\c"
+MGA5470002,"\h(«Vyse»)Wir wissen nicht, wozu Zelos fähig ist.
+Lasst uns so lange Abstand halten, bis wir
+eine Art Plan entwickeln können.\c"
+MGA5470003,"\h(«Wie willst du dich nähern?»)“Um das Ziel kreisen.”
+“Geradewegs auf das Ziel zufliegen.”\c"
+MGA5470004,"\h(«Aika»)Es sieht so aus, als ob alle Attacken von Zelos
+aus diesem Symbol in der Mitte kommen……\e"
+MGA5470005,"\h(«Was wirst du tun?»)“Von vorne angreifen.”
+“Von der Seite angreifen.”\c"
+MGA5470006,"\h(«Vyse»)Es wird gefährlich, aber dieses Symbol ist
+vielleicht sein schwachster Punkt. Wir müssen
+ihn von vorne angreifen!\c"
+MGA5470007,"\h(«Vyse»)Es ist zu gefährlich, uns vor diesem Ding zu
+platzieren! Wir müssen ihn von der Seite aus
+angreifen!\c"
+MGA5470008,"\h(«Was wirst du tun?»)“Von vorne angreifen.”
+“Von der Seite angreifen.”\c"
+MGA5470009,"\h(«Aika»)Es hat den Anschein, als würde Zelos langsamer!
+Ich glaube, dass wir ihm Schaden zufügen!!\e"
+MGA5470010,"\h(«Vyse»)Also…… das ist jetzt unsere Chance zum Angriff!
+Eröffnet das Feuer!!\c"
+MGA5470011,"\h(«Aika»)Schau mal, Vyse!
+Zelos…… er verändert seine Form!\e"
+MGA5470012,"\h(«Fina»)Lebewesen, die von der Silver Civilization
+abstammen, haben keine festgelegte Form
+und können sich nach Belieben verändern,
+genauso wie Cupil……\e"
+MGA5470013,"\h(«Fina»)Vielleicht stattete man Zelos bei seiner
+Erschaffung mit ähnlichen Merkmalen aus……\e"
+MGA5470014,"\h(«Aika»)Vyse! Was sollen wir tun? Du bist hier der
+Captain! Sag uns, was wir zu tun haben!!\e"
+MGA5470015,"\h(«Was wirst du tun?»)“Auf Nummer sicher gehen und Abstand halten.”
+“Den Angriff fortsetzen.”\c"
+MGA5470016,"\h(«Vyse»)Wir sollten auf Nummer sicher gehen und Abstand
+halten. Ziehen wir uns eine Weile zurück……\c"
+MGA5470017,"\h(«Vyse»)Stellt das Feuer nicht ein!
+Wir müssen den Angriff fortsetzen!\c"
+MGA5470018,"\h(«Was wirst du tun?»)“Auf Nummer sicher gehen und Abstand halten.”
+“Den Angriff fortsetzen.”\c"
+MGA5470019,"\h(«Aika»)Vyse, wir verlassen uns auf dich!
+Was sollen wir als Nächstes tun?!\e"
+MGA5470020,"\h(«Was wirst du tun?»)“Abstand halten!”
+“Näher an Zelos herangehen!”\c"
+MGA5470021,"\h(«Vyse»)Es ist zu gefährlich, sich zu nähern.
+Haltet Abstand!\c"
+MGA5470022,"\h(«Vyse»)Nähern wir uns Zelos!
+Wir bekommen wahrscheinlich ein paar Treffer
+ab, aber dieses Risiko müssen wir eingehen!!\c"
+MGA5470023,"\h(«Was wirst du tun?»)“Den Abstand einhalten!”
+“Näher an Zelos herangehen!”\c"
+MGA5470024,"\h(«Aika»)Gute Arbeit, Vyse! Zelos' Abwehr wird
+schwächer! Ich glaube, wir haben eine
+Schwachstelle gefunden!!!\e"
+MGA5470025,"\h(«Was wirst du tun?»)“Einfach weiterfeuern!”
+“Näher herangehen und das Feuer eröffnen!”\c"
+MGA5470026,"\h(«Vyse»)Feuer! Feuer nicht einstellen!
+Das ist unsere Chance, Zelos fertig zu machen!\c"
+MGA5470027,"\h(«Vyse»)Jetzt ist unsere Chance!
+Es mag gefährlich werden, aber wir müssen
+ihnen auf den Leib rücken und sie
+aus nächster Nähe bekämpfen!\c"
+MGA5470028,"\h(«Was wirst du tun?»)“Einfach weiterfeuern!”
+“Näher herangehen und das Feuer eröffnen!”\c"
+MGA5470029,"\h(«Fina»)Zelos' Klauen……
+Sie fallen ab!\e"
+MGA5470030,"\h(«Aika»)Nur noch ein bisschen……
+Nur noch ein kleines bisschen!
+Jetzt haben wir ihn fast!!\e"
+MGA5470031,"\h(«Was wirst du tun?»)“Seien wir vorsichtig! Ziehen wir uns zurück!”
+“Nähern wir uns! Beenden wir dieses Spiel!”\c"
+MGA5470032,"\h(«Vyse»)Wir müssen vorsichtig sein! Zelos ist der
+mächtigste Gigas von allen…… wer weiß, wozu
+er noch fähig ist.\e"
+MGA5470033,"\h(«Vyse»)Zieht euch zurück für einen Kampf auf
+Entfernung! Alle mal herhören…… wir dürfen
+jetzt keinen Fehler machen! Dazu ist es jetzt
+zu spät!\c"
+MGA5470034,"\h(«Vyse»)Das ist unsere Chance!
+Lasst es uns jetzt beenden!\e"
+MGA5470035,"\h(«Vyse»)Macht die Moon Stone Cannon fertig!
+Wir setzen dem jetzt ein Ende!\c"
+MGA5470036,"\h(«Was wirst du tun?»)“Seien wir vorsichtig! Ziehen wir uns zurück!”
+“Nähern wir uns! Bringen wir's hinter uns!”\c"
+MSA5470000,"\h(«Vyse»)Ahora, Ramír…… digo…… Zelos……
+¡¡Vamos a poner fin a todo esto!!\c"
+MSA5470001,"\h(«¿Qué vas a hacer?»)“Mantener la distancia y ver qué hace Zelos.”
+“Acercarme al enemigo.”\c"
+MSA5470002,"\h(«Vyse»)No sabemos de lo que Zelos es capaz.
+Vamos a mantener la distancia
+hasta que tengamos un plan.\c"
+MSA5470003,"\h(«¿Cómo te vas a acercar?»)“Rodeando al objetivo.”
+“Volando directo hacia el objetivo.”\c"
+MSA5470004,"\h(«Aika»)Parece que el poder de los ataques de Zelos
+procede de ese símbolo en la mitad……\e"
+MSA5470005,"\h(«¿Qué vas a hacer?»)“Atacar de frente.”
+“Atacar desde el lateral.”\c"
+MSA5470006,"\h(«Vyse»)Es arriesgado, pero puede
+que ese símbolo sea su punto débil.
+¡Tenemos que atacarle de frente!\c"
+MSA5470007,"\h(«Vyse»)¡Es demasiado peligroso ponerse
+enfrente de ese bicho!
+¡Tenemos que atacarle lateralmente!\c"
+MSA5470008,"\h(«¿Qué vas a hacer?»)“Atacar de frente.”
+“Atacar desde el lateral.”\c"
+MSA5470009,"\h(«Aika»)¡Zelos está aminorando la marcha!
+¡¡Creo que le estamos ocasionando daños!!\e"
+MSA5470010,"\h(«Vyse»)Muy bien……
+¡Ésta es nuestra oportunidad de atacar!
+¡¡Fuego!!\c"
+MSA5470011,"\h(«Aika»)¡Mira, Vyse!
+¡Zelos…… está cambiando de forma!\e"
+MSA5470012,"\h(«Fina»)Los seres de la Civilización de Plata no
+tienen una forma física definida, cambian
+de forma a su voluntad, igual que Cupil……\e"
+MSA5470013,"\h(«Fina»)A lo mejor, cuando crearon a Zelos,
+decidieron darle características similares……\e"
+MSA5470014,"\h(«Aika»)¡Vyse! ¿Qué hacemos?
+¡Eres el Capitán!
+¡¡Dinos qué debemos hacer!!\e"
+MSA5470015,"\h(«¿Qué vas a hacer?»)“Ir sobre seguro y mantenerme a distancia.”
+“Seguir atacando.”\c"
+MSA5470016,"\h(«Vyse»)Tenemos que ir sobre seguro y mantenernos
+a una distancia prudente.
+Vamos a retroceder un poco……\c"
+MSA5470017,"\h(«Vyse»)¡No detengáis el fuego!
+¡Tenemos que seguir atacando!\c"
+MSA5470018,"\h(«¿Qué vas a hacer?»)“Ir sobre seguro y mantenerme a distancia.”
+“Seguir atacando.”\c"
+MSA5470019,"\h(«Aika»)¡Vyse, contamos contigo!
+¡¿Y ahora qué hacemos?!\e"
+MSA5470020,"\h(«¿Qué vas a hacer?»)“¡Mantener la distancia!”
+“¡Acercarme a Zelos!”\c"
+MSA5470021,"\h(«Vyse»)Es demasiado peligroso acercarse.
+¡Debemos mantener la distancia!\c"
+MSA5470022,"\h(«Vyse»)¡Acerquémonos a Zelos!
+¡¡Es posible que nos produzca daños,
+pero tenemos que arriesgarnos!!\c"
+MSA5470023,"\h(«¿Qué vas a hacer?»)“¡Mantener la distancia!”
+“¡Acercarme a Zelos!”\c"
+MSA5470024,"\h(«Aika»)¡Buen trabajo, Vyse!
+¡La guardia de Zelos está decayendo!
+¡Creo que hemos encontrado un punto de ataque!\e"
+MSA5470025,"\h(«¿Qué vas a hacer?»)“¡Seguir disparando!”
+“¡Acercarme y abrir fuego!”\c"
+MSA5470026,"\h(«Vyse»)¡Fuego! ¡Seguid disparando!
+¡Es nuestra ocasión para acabar con Zelos!\c"
+MSA5470027,"\h(«Vyse»)¡Es nuestra oportunidad!
+¡Va a ser peligroso, pero necesitamos meternos
+ahí dentro y dispararle desde cerca!\c"
+MSA5470028,"\h(«¿Qué vas a hacer?»)“¡Seguir disparando!”
+“¡Acercarme más y abrir fuego!”\c"
+MSA5470029,"\h(«Fina»)Las garras de Zelos……
+¡Se le están cayendo!\e"
+MSA5470030,"\h(«Aika»)Un poco más……
+¡Sólo un poco más!
+¡¡Casi lo tenemos!!\e"
+MSA5470031,"\h(«¿Qué vas a hacer?»)“¡Debemos tener cuidado! ¡Retrocedamos!”
+“¡Acercarme! ¡Hay que rematar la faena!”\c"
+MSA5470032,"\h(«Vyse»)¡Tenemos que andar con mucho cuidado!
+Zelos es el Gigas más poderoso de todos……
+Quién sabe de lo que puede ser capaz todavía.\e"
+MSA5470033,"\h(«Vyse»)¡Retroceder para atacar a distancia!
+Atención todos…… ¡ahora no podemos fallar!
+¡Hemos llegado demasiado lejos!\c"
+MSA5470034,"\h(«Vyse»)¡Es nuestra oportunidad!
+¡Vamos a acabar con esto de una vez por todas!\e"
+MSA5470035,"\h(«Vyse»)¡Preparad el Cañón Piedraluna!
+¡Vamos a rematar la faena!\c"
+MSA5470036,"\h(«¿Qué vas a hacer?»)“¡Debemos tener cuidado! ¡Retrocedamos!”
+“¡Acercarme! ¡Hay que rematar la faena!”\c"
+"",M0463
+"",f7100100S.p04
+"",f7100104S.p04
+"",b2804.mld
+"",b2804.mld
+"",me547a.sct
+"",me090a.sct
+"",k020047.mld
+"",k020047.mld
+"",f7100051S.p04
+"",k020047.mld
+"",b2800.mld
+"",b2800.mld
+"",f3000019
+"",f3000019
+"",b2800.mld
+"",b2801.mld
+"",b2801.mld
+"",b2801.mld
+"",f3000020
+"",f3000020
+"",b2802.mld
+"",b2802.mld
+"",b2802.mld
+"",f7100054S.p04
+"",b2803.mld
+"",b2803.mld
+"",b2803.mld
+"",f7100055S.p04
+"",f3000041
+"",f3000041
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",f3000043
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",me250a.sct

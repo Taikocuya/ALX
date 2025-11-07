@@ -1,0 +1,657 @@
+[Event Name],Task ID
+M04020100,"\h(《Weapons Merchant》)Welcome! Wait… I have heard of you! Are you not
+Vyse the Ninny? Stories of your bad judgement
+are legendary!\e"
+M04020101,"\h(《Weapons Merchant》)Welcome! I sell the surplus weapons stock from
+the Valuan and Nasrean navies. Feel free to 
+browse through my wares.\e"
+M04020102,"\h(《Weapons Merchant》)Welcome! I sell the surplus weapons stock from
+the Valuan and Nasrean navies. Feel free to 
+browse through my wares.\e"
+M04020103,"\h(《Weapons Merchant》)Welcome! I sell the surplus weapons stock from
+the Valuan and Nasrean navies. Feel free to 
+browse through my wares.\e"
+M04020104,"\h(《Weapons Merchant》)Welcome! Ah… it is you, Vyse the Admirable. I
+hear many stories of your exploits, even here 
+in Maramba.\e"
+M04020105,"\h(《Weapons Merchant》)Welcome, Vyse the Bold. I recognize you from the
+stories that I have heard. Please, take your
+time here.\e"
+M04020106,"\h(《Weapons Merchant》)Welcome! Ah… you are Vyse the Valiant who
+stands against the forces of Valua! Please, I
+would be honored if you were to buy my wares.\e"
+M04020107,"\h(《Weapons Merchant》)Welcome! So, you are Vyse the Daring? Tales of 
+your bravery have spread far and wide. It is an 
+honor to meet you.\e"
+M04020108,"\h(《Weapons Merchant》)Well! It is Vyse the Dashing! I have heard many 
+stories of your exploits and adventures! I will
+be sure to tell my friends that I met you!\e"
+M04020109,"\h(《Weapons Merchant》)Welcome, Vyse the Fearless. There are few who 
+are as accomplished as yourself. I would be
+honored if you would sample my wares… \e"
+M04020110,"\h(《Weapons Merchant》)Welcome! I am honored to meet a true hero like
+yourself. I would be most honored if you were to
+to purchase some of my wares.\e"
+M04020111,"\h(《Weapons Merchant》)Great Red Moon! It is Vyse, the King of Rogues!
+I, I am so honored to meet you, sir! P, please…
+feel free to browse through my humble store…\e"
+M04020112,"\h(《Weapons Merchant》)I am honored. Even here in Nasr, your legendary
+feats are recorded in our history books, so that
+future generations may know of true bravery!\e"
+M04020000,"\h(《Weapons Dealer》)Welcome! This is the best weapons shop under the
+moons. I offer goods from both the Valuan and
+Nasrean armed forces.\e"
+M04020001,"\h(《What will you do?》)”Buy and Sell Weapons.”
+”Talk about various things.”
+”Leave.”\e"
+M04020002,"\h(《Weapons Dealer》)Ten years ago, when my father was still with us 
+and running this store, a war broke out with 
+Valua.\e"
+M04020003,"\h(《Weapons Dealer》)To keep them from being destroyed in the war, my
+father hid our merchandise and family treasures
+in the city sewer system.\e"
+M04020004,"\h(《Weapons Dealer》)But the sewer system is a complicated maze. When
+my father went back to retrieve our things after
+the war… \e"
+M04020005,"\h(《Weapons Dealer》)…he could not remember where everything was 
+hidden. After searching for weeks, he gave up.
+I wonder if it is all still down there…\c"
+M04020006,"\h(《Weapons Dealer》)I think he hid all of it in two chests in the 
+sewers, but we have not yet found them.\c"
+M04020007,"\h(《Weapons Dealer》)Farewell! And may the Red Moon always watch over
+you!\c"
+M04030100,"\h(《Item Merchant》)Welcome welcome! Hey, I have heard of you!
+You are Vyse the Ninny! HAHAHAHAHA!!!\e"
+M04030101,"\h(《Item Merchant》)Welcome welcome!
+This is the place to fill your packs with all
+that you wish!\e"
+M04030102,"\h(《Item Merchant》)Welcome welcome! This is the place to fill your
+packs with all that you wish!\e"
+M04030103,"\h(《Item Merchant》)Welcome welcome! This is the place to fill your
+packs with all that you wish!\e"
+M04030104,"\h(《Item Merchant》)Welcome welcome! I have heard tales about you,
+Vyse the Admirable! Please, purchase anything I
+have here to offer!\e"
+M04030105,"\h(《Item Merchant》)Welcome welcome! It is Vyse the Bold! I am
+honored! Please purchase any of my wares!\e"
+M04030106,"\h(《Item Merchant》)Welcome welcome! It is the infamous Vyse the
+Valiant! Come, look at my wares!\e"
+M04030107,"\h(《Item Merchant》)Hey! You are Vyse the Daring! You are so famous!
+Purchase something from me!!\e"
+M04030108,"\h(《Item Merchant》)Hey! You are Vyse the Dashing! You are so 
+famous! Please purchase something from me!!\e"
+M04030109,"\h(《Item Merchant》)Hey! You are Vyse the Fearless! Everyone is
+talking about you! You must purchase something 
+from me!!\e"
+M04030110,"\h(《Item Merchant》)Th, this is such an honor! …I get to talk to a
+true hero! I cannot believe it is really you! I,
+I am so nervous!!\e"
+M04030111,"\h(《Item Merchant》)It, it is the King of Rogues! Vyse, you must 
+purchase something from me! I would be most
+honored!!\e"
+M04030112,"\h(《Item Merchant》)It is you… You are Vyse the Legend!!
+I will tell my grandchildren that I met you!!\e"
+M04030000,"\h(《Item Merchant》)Welcome welcome! This is the place to fill your 
+packs with whatever you wish!\e"
+M04030001,"\h(《What will you do?》)”Buy and Sell Items.”
+”Talk about various things.”
+”Leave.” \e"
+M04030002,"\h(《Item Merchant》)Long ago, Valua and Nasr were locked in a 
+terrible war. Since then, political relations 
+between our two nations have been strained.\e"
+M04030003,"\h(《Item Merchant》)However, trade hasn't been affected. Many
+Merchants still travel to Valua and use Valuan
+trade routes. So we have Valuan goods, too.\e"
+M04030004,"\h(《Item Merchant》)Thank you, thank you. Yooooooowwch!! Farewell! \c"
+M04040000,"\h(《Innkeep》)Welcome to the Oasis of the Desert Inn! It is 
+120 gold a night.\e"
+M04040001,"\h(《What will you do?》)”Stay the night.”
+”Leave.”\e"
+M04040002,\h(《Innkeeper lady》)Thank you! Sleep well!\c
+M04040003,\h(《Innkeeper lady》)Farewell. May the Red Moon be with you.\c
+M04040011,"\h(《Innkeep》)…Hm?
+Hey, you do not have enough money! Come back 
+when you do.\c"
+M04040004,"\h(《Innkeeper lady》)When traveling in the desert, you must be very
+careful not to push yourself too hard.
+Please come again!\c"
+M04040005,"\h(《Innkeep》)Welcome!
+Oh, yes, Bellena mentioned you would be coming.
+Your room is ready.\e"
+M04040006,"\h(《What will you do?》)”Stay the night.”
+”Leave.”\e"
+M04040007,"\h(《Innkeeper lady》)Hah hah hah. Ever since Bellena started dancing 
+in Maramba, more and more tourists have been 
+coming and business has increased three-fold!\e"
+M04040008,"\h(《Innkeeper lady》)Since you are a friend of Bellena's, I will give
+you a special rate on your room. Sleep well.\c"
+M04040009,"\h(《Innkeeper lady》)Farewell and may the Red Moon forever light your
+path!\e"
+M04040010,"\h(《Innkeeper lady》)Well, we have plenty of vacancies, in case you
+change your mind. Please come again.\c"
+M04050000,"\h(《Tavernkeep》)Hail, sailor. You wish to see the new dancer, 
+too?\e"
+M04050001,"\h(《Tavernkeep》)Bellena's dancing is Maramba's newest star
+attraction. You definitely don't want to leave
+without seeing her. \c"
+M04050002,"\h(《Tavernkeep》)You're lucky… Tonight's the first quiet night 
+here since Bellena started. It's usually packed.\e"
+M04050003,"\h(《Tavernkeep》)She's some traveling dancer who started here two
+or three days ago. But what a piece of luck
+she's been for this old tavern!\c"
+M04050004,"\h(《Tavernkeep》)This is Bellena's day off. Oh yeah, she left a 
+message for you. She wishes you to meet her at 
+the port.\e"
+M04050005,"\h(《Tavernkeep》)What's your secret? Until now Bellena had 
+spurned every invitation she received. Well, 
+whatever it is…\c"
+M04050006,\h(《Tavernkeep》)Bellena has the day off today.\e
+M04050007,"\h(《Tavernkeep》)If you're looking for Bellena, she quit. I still
+can't believe she left, though… She used to
+bring in so many customers…\e"
+M04050008,"\h(《Tavernkeep》)She did leave a message, though. ”I decided that 
+finding out how vast the desert is will have to 
+wait for another time, handsome.”\e"
+M04050009,"\h(《Tavernkeep》)”A sailor must be prepared for any situation. 
+But, I underestimated you. I will not a second 
+time. Farewell for now… we shall meet again.”\e"
+M04050010,"\h(《Tavernkeep》)Well, that's all she wrote. I couldn't figure it
+out. Do you know what she meant?\c"
+M04050011,"\h(《Tavernkeep》)If you're looking for Bellena, she hasn't been 
+by since she quit. You think she'd at least say 
+hi every once in a rare moon…\c"
+M04060000,"\h(《Dancer》)Well, hello, handsome. I don't think I've seen 
+you around here before.\e"
+M04060001,"\h(《Dancer》)If you've come to rest your weary feet, you've
+come to the right place. Make yourself
+comfortable and stay awhile.\e"
+M04060002,"\h(《What shall I do?》)”That sounds like a great idea!”
+”Actually, I'm a little busy right now…”\e"
+M04060003,"\h(《Vyse》)That actually sounds like a great idea!
+It's been a while since we've had time to
+relax…\e"
+M04060004,"\h(《Dancer》)Please stay!
+Stay as long as you like! Sit down, sit down.\e"
+M04060005,"\h(《Vyse》)Actually, we're in a bit of a rush…
+I don't think we have time to relax here.\e"
+M04060006,"\h(《Dancer》)You know, handsome, here in the desert,
+we always say that you should always drink water
+whenever you can.\e"
+M04060007,"\h(《Dancer》)It's important to rest now and then when you're 
+traveling. Come on. Stop rushing around and sit 
+down, sit down.\c"
+M04060008,"\h(《Bellena》)Please stay at the local inn tonight.
+I know the owner and she'll give you a
+discount…\e"
+M04060009,"\h(《Bellena》)Desert travel is not easy. You'll need to get a
+good night's sleep first. Meet me at the port
+in the morning.\e"
+M04070000,"\h(《Love-sick Man》)Those slender legs… that soft, smooth skin…
+that silky, red hair… she's poetry in motion…\e"
+M04070001,"\h(《Love-sick Man》)The first time I saw her, I knew it was love. I
+have come every day just to watch her dance…\c"
+M04070002,"\h(《Love-sick Man》)Why does her dancing haunt me like this? I wish
+she would just talk to me…\c"
+M04070003,\h(《Love-sick Man》)Oh no… You mean I won't get to see her today?\c
+M04070004,"\h(《Love-sick Man》)I have even seen her dancing in my dreams
+lately…\e"
+M04070005,"\h(《Love-sick Man》)I… I just cannot forget her! I do not know what
+to do…\c"
+M04080000,\h(《Rowdy Sailor》)Hey Bellena! Over here!\e
+M04080001,"\h(《Rowdy Sailor》)Hey! Blow off! Can't you see I'm tryin' to watch
+the show here?! What? You need a ship?\e"
+M04080002,"\h(《Rowdy Sailor》)Heh, sorry kid, but I got plans of my own. See 
+that Bellena over there? I'm gonna ask her to 
+sail with me tonight. Go find a different ship.\c"
+M04080003,"\h(《Rowdy Sailor》)Hur hur hur… Who woulda thought there'd be a 
+beautiful girl like her out here in the desert? 
+I'm glad I came to Maramba tonight…\c"
+M04080004,"\h(《Rowdy Sailor》)Hey Bellena! C'mon out already! We're all 
+waitin' for you!\e"
+M04080005,"\h(《Rowdy Sailor》)Don't you just hate it how all the pretty women
+always play hard to get? Or… maybe it's just
+with me… Hm…\c"
+M04080006,"\h(《Rowdy Sailor》)If you're wonderin' why I'm still here even 
+though Bellena doesn't work here anymore…\e"
+M04080007,"\h(《Rowdy Sailor》)…it's 'cuz I've never seen a woman quite like 
+her before. And believe me… I've been lookin' 
+for a very looooong time.\c"
+M04090000,"\h(《Fortune Teller》)Welcome! I am Kalifa, Seer of the Red Moon. I am
+the most renowned fortuneteller in all of Nasr.\e"
+M04090001,"\h(《Kalifa》)Travelers from across the skies come to me
+seeking the knowledge and wisdom of the Moons…\e"
+M04090002,"\h(《Kalifa》)There is no future I do not know… no path I 
+cannot see. Hark my words and heed them in your 
+journey.\e"
+M04090003,"\h(《Kalifa》)Welcome. Hear my words and heed them in your
+journey.\e"
+M04090004,"\h(《Kalifa》)Welcome… hm? You! I have seen your face in my 
+dreams…\e"
+M04090005,"\h(《Kalifa》)It was a dream in which someone holding a 
+”Suiran Blade” beckons me into the sky…\e"
+M04090006,"\h(《Kalifa》)Perhaps it was nothing… Do you wish to know of 
+your fate?\e"
+M04090007,"\h(《Should I have my fortune told?》)”Have my fortune told.”
+”Not today.”\e"
+M04090008,\h(《Kalifa》)Hmmm…\e
+M04090009,\h(《Kalifa》)Haaa!!!\e
+M04090010,"\h(《Kalifa》)The Red Moon has spoken! To the east of here 
+lies a temple in which a sacred red jewel lies 
+buried in the hot sands!\c"
+M04090011,"\h(《Kalifa》)The Red Moon has spoken! Where the great winds 
+blow is where you will Discover the island with 
+a bird's beak!\c"
+M04090012,"\h(《Kalifa》)The Red Moon has spoken! Amidst the dark winds, 
+there lives a man stranded for many years!\c"
+M04090013,"\h(《Kalifa》)The Red Moon has spoken! Far above the city of 
+Nasrad, there is a man-made star!\c"
+M04090014,"\h(《Kalifa》)Go forth, and seek your fate. And may the Red 
+Moon watch over you…\c"
+M04090015,"\h(《Kalifa》)I see. If ever you need the guidance of the Red
+Moon, do not hesitate to return. I pray for your
+safety in your travels…\c"
+M04090016,"\h(《Kalifa》)Welcome… hm? You! I have seen your face in my 
+dreams…\e"
+M04090017,"\h(《Kalifa》)It was a dream in which someone holding a 
+”Suiran Blade” beckons me into the sky…\e"
+M04090018,\h(《Vyse》)A Suiran Blade? I've got one right here…\e
+M04090019,"\h(《Kalifa》)What?!… Then perhaps it was you who came to me
+in my dreams… It appears that the Red Moon has
+decided my fate.\e"
+M04090020,"\h(《Kalifa》)I cannot go against the will of the Moon.
+I am henceforth at your service.\e"
+M04090021,"\h(《Kalifa》)I am Kalifa, Seer of the Red Moon. I am the most
+renowned fortuneteller in all of Nasr. There is
+no future that I cannot see.\e"
+M04090022,\h(　)Kalifa has joined you as a ”Merchant.”\c
+M04100000,\h(《Kururu》)Grrfa!\e
+M04110000,"\h(《Ferryman》)Welcome my friend! Are you planning on crossing 
+to the other part of the city? Perhaps you wish 
+to ride a kururu?\e"
+M04110001,"\h(《Ferryman》)The sands of the desert are too hot to walk
+across. It's best to take a kururu.\e"
+M04110002,"\h(《Shall I take a kururu?》)”Sure, I'll take one.”
+”No thanks.”\e"
+M04110003,"\h(《Ferryman》)Kururu stands are marked with red poles. You 
+dismount your kururu wherever you see those red 
+poles.\c"
+M04110004,"\h(《Ferryman》)Alright, but I've warned you… You'll burn your 
+feet in the scorching sands if you don't take a 
+kururu, so I cannot let you outside the fence.\c"
+M04120006,"\h(《Shishkabob Lady》)You are a sailor, are you not? I could tell by 
+your smell. Hmph… You sailors are nothing but 
+trouble.\e"
+M04120007,"\h(《Shishkabob Lady》)I had a daughter, but she fell in love with this
+sailor who drifted into town one day.\e"
+M04120008,"\h(《Shishkabob Lady》)The next thing I knew she ran off with this 
+good-for-nothing sailor and left me here to run 
+this shop by myself.\e"
+M04120009,"\h(《Shishkabob lady》)I have not heard from her since. Hrumph. She's 
+probably lying dead in a gutter somewhere by 
+now.\c"
+M04120010,"\h(《Shishkabob Lady》)I never thought she'd grow up to be the kind of 
+girl that would abandon her parents to elope 
+with a sailor. Stupid girl.\c"
+M04120011,"\h(《Shishkabob Lady》)I remember you. You were that sailor that came 
+in here a little while ago. What is your wish?\e"
+M04120012,"\h(《Shishkabob Lady》)What?! M, my daughter? She's still alive?!\e"
+M04120014,"\h(《Shishkabob Lady》)…Well, good for her. Not that it means anything
+to me anymore. She does not expect me to forgive
+her and take her back now, does she?\e"
+M04120015,"\h(《Shishkabob lady》)Hrumph! She's a stupid girl. She is my daughter 
+no more. Leave my shop!\c"
+M04120016,"\h(《Shishkabob lady》)Hrumph! She's a stupid girl. She is my daughter 
+no more. Leave my shop!\c"
+M04120017,"\h(《Shishkabob lady》)You are persistent, I will give you that. What 
+is it this time? What? You wish me to taste 
+something?\e"
+M04120018,\h(《Shishkabob lady》)But it's... it's a shishkabob!\e
+M04120019,"\h(《Shishkabob lady》)What? You're telling me that that
+good-for-nothing girl who ran away from home
+made this shishkabob?\e"
+M04120020,"\h(《Shishkabob lady》)Y, you expect me to believe that? Hah! Well,
+let's at least see what it tastes like.\e"
+M04120005,\h(《Shishkabob lady》)…\e
+M04120021,"\h(《Shishkabob lady》)No, it's nothing like the shishkabob I make. The
+person who made this can't be my daughter… I
+taught her better than this…\e"
+M04120022,"\h(《Shishkabob lady》)It has an odd smell, the seasonings are bland, 
+and worst of all, the meat just is not of the 
+same quality.\c"
+M04120023,"\h(《Shishkabob lady》)That shishkabob has an odd smell, the seasonings
+are bland, and worst of all, the meat just isn't
+of the same quality.\c"
+M04120024,"\h(《Shishkabob lady》)You're back?! I said you were persistent, but 
+this is ridiculous… What? You wish me to taste 
+ANOTHER shishkabob?\e"
+M04120002,"\h(《Shishkabob lady》)Alright, alright… I give in. Let me taste it.\e"
+M04120000,"\h(《Shishkabob lady》)I, I can't believe it. Th, this tastes exactly
+like my shishkabob!\e"
+M04120025,"\h(《Aika》)Your daughter says she never once forgot about
+the times she spent with you… and she hasn't
+forgotten anything you've ever taught her.\e"
+M04120026,"\h(《Aika》)And the proof is in that shishkabob. She tried
+so hard to make it just like yours. Please…
+she's begging for your forgiveness…\e"
+M04120003,\h(《Shishkabob lady》)......... \e
+M04120027,"\h(《Shishkabob lady》)...Tell her that it'll taste even better if she
+leaves it on the fire for another 30 seconds.\e"
+M04120001,"\h(《Aika》)Huh? What do you mean by that? Are you forgiving
+her?\e"
+M04120004,"\h(《Shishkabob lady》)Yes, you've won me over. I didn't think I could 
+ever forgive her, but perhaps I was wrong. 
+Perhaps I was at fault, as well…\c"
+M04120028,"\h(《Shishkabob lady》)You won me over. I didn't think I could ever
+forgive her, but perhaps I was wrong. Perhaps I
+was at fault somewhere, as well…\c"
+M04120029,"\h(《Shishkabob lady》)Welcome, sailor. Thank you for all that you have
+done for my daughter… and for me…\e"
+M04120030,"\h(《Shishkabob lady》)That foolish daughter of mine says she's going 
+to start making shishkabobs for her tavern in 
+Esparanza.\e"
+M04120031,"\h(《Shishkabob lady》)So if you're ever in Esparanza, stop by for one 
+of my daughter's shishkabobs.\c"
+M04120032,"\h(《Shishkabob lady》)So if you're ever in Esparanza, stop by for one 
+of my daughter's shishkabobs.\c"
+M04130000,\h(《Kururu》)Grrfa!\e
+M04140000,"\h(《Trader》)Welcome, travelers, to the beautiful and
+ever-warm lands of Nasr!\e"
+M04140001,"\h(《Trader》)Enjoy Maramba, the oasis of the desert. And fear
+not while you are here, the Red Moon watches
+over us all in the lands of Nasr!\e"
+M04140002,\h(《Vyse》)Thanks. I feel welcome already.\e
+M04140003,"\h(《Trader》)The warmth of the Moon warms our hearts here in
+Nasr. I wish only to share with you that which
+I have been blessed with myself.\e"
+M04140004,"\h(《Trader》)Welcome, travelers, to the beautiful and
+ever-warm lands of Nasr!\e"
+M04140005,"\h(《Trader》)Hello there! Perhaps you've heard of this news
+already, but I recently spoke with a merchant
+from Valua and he told me something interesting.\e"
+M04140006,"\h(《Trader》)Apparently there's a vast green continent beyond
+the South Ocean that's covered by a deep forest.\e"
+M04140007,"\h(《Trader》)Of course, there've long been rumors about such
+a place. Sailors have spoken of strange leaves
+that are carried in the winds from the south…\e"
+M04140008,"\h(《Trader》)Apparently there's a vast green continent beyond
+the South Ocean that's covered by a deep 
+forest.\c"
+M04140009,"\h(《Trader》)Hello there! You seem well-traveled enough to
+know this, but I have heard rumors of a land
+covered completely in ice south of South Ocean.\e"
+M04140010,"\h(《Trader》)Here in Nasr, we almost never see ice at all.
+It's hard to imagine an entire continent covered
+in ice.\e"
+M04140011,"\h(《Trader》)Just think of the money you could make if you
+could bring all that ice back to Nasr!\e"
+M04140012,"\h(《Trader》)I have heard rumors of a land covered completely
+in ice south of South Ocean.\e"
+M04140013,"\h(《Trader》)Recently, there's been an increase in trade 
+caravans to Esparanza.\e"
+M04140014,"\h(《Trader》)In fact, not so long ago, I made the trip
+myself, and I was surprised at how lively the
+market there was.\e"
+M04140015,"\h(《Trader》)They need much material to rebuild their city, 
+so I think they'll make great trading partners.\e"
+M04140016,"\h(《Trader》)Come to think of it, a young lady I saw in a bar
+there said she was born in this city.\c"
+M04140017,"\h(《Trader》)Come to think of it, a young lady I saw in a bar
+there said she was born in this city.\c"
+M04140018,"\h(《Trader》)Hello! I noticed that there haven't been any 
+trade ships from Valua coming here in a while. 
+Did something happen?\e"
+M04140019,"\h(《Trader》)What?! Valua was destroyed by the Rains of 
+Destruction? Is it really so? I always thought 
+of the Rains of Destruction as legend.\c"
+M04140020,"\h(《Trader》)Is it true that the Rains of Destruction fell 
+upon Valua?\c"
+M04150000,"\h(《Young Maiden》)In the desert, water is life. That is why we
+must carry water every day from the well.\e"
+M04150001,"\h(《Young Maiden》)There is a well in the other part of the city,
+but it has been dry for a long time now.\c"
+M04150002,"\h(《Young Maiden》)There is a well in the other part of the city,
+but it has been dry for a long time now.\c"
+M04150003,"\h(《Young Maiden》)Esparanza is a town on the southern edge of this
+continent. I understand that it was once a
+flourishing city… \e"
+M04150004,"\h(《Young Maiden》)But there is a sky rift between us, so you
+cannot reach it by ship.\e"
+M04150005,"\h(《Young Maiden》)In olden days, kururu caravans plied the route
+over the mountains, but I have not heard of any
+caravans traveling that way lately. \c"
+M04150006,"\h(《Young Maiden》)Esparanza is a town on the southern edge of this
+continent. There is a sky rift between us, so
+you cannot reach it by ship. \c"
+M04150007,"\h(《Young Maiden》)The other day I saw a caravan from Esparanza for
+the first time in ages.\e"
+M04150008,"\h(《Young Maiden》)I have heard rumors of an oasis somewhere along
+the finger of desert that leads to Esparanza.\e"
+M04150009,"\h(《Young Maiden》)If you find it, you should visit the Sailors'
+Guild. I am sure that they will pay you well for
+such valuable information. \c"
+M04150010,"\h(《Young Maiden》)If you find the oasis, you should visit the
+Sailors' Guild.\c"
+M04160000,"\h(《Boy》)My dad's a merchant! My grandpa was a merchant!
+And my great-grandpa was a merchant, too!\e"
+M04160001,"\h(《Boy》)I'm going to become a merchant and travel the
+desert on a kururu, just like everyone else in
+my family!\c"
+M04160002,"\h(《Boy》)Nasrad's really going through some tough times!
+Nasrad burned to the ground! Nasrad suffers from
+shortages of every kind!\e"
+M04160003,"\h(《Boy》)It's the perfect chance to make lots and lots of
+money! My dad's all excited about it!\c"
+M04160004,"\h(《Boy》)Valua's really going through some tough times! 
+Valua was hit by the Rains of Destruction! 
+Valuan goods are so expensive now!\e"
+M04160005,"\h(《Boy》)It's the perfect chance to make lots and lots of
+money! My dad's all excited about it! …But what
+are the Rains of Destrucion?\c"
+M04170000,\h(《Village Elder》)And one… and two… and one… and two…\e
+M04170001,"\h(《Village Elder》)Welcome, traveler! Here, here, young desert
+traveler. Stay a moment and listen to what I
+have to tell you!\e"
+M04170002,"\h(《Hmm, should I...?》)”Stay and listen.”
+”Make an excuse and hurry on.”\e"
+M04170003,"\h(《Village Elder》)I've spent more than half of my lifetime at war
+with Valua!\e"
+M04170004,"\h(《Village Elder》)The Nasultan, our king, charged me with leading
+his fleet in an attack on the Valuan mainland.\e"
+M04170005,"\h(《Village Elder》)But those yellow-bellied Valuans hid within 
+their Grand Fortress and refused to come out.\e"
+M04170006,"\h(《Village Elder》)That's why I'm working out, so that one day I 
+can break through the gate of the Grand Fortress
+myself!\c"
+M04170007,"\h(《Village Elder》)That's the problem with young people today!
+Don't they know they should listen to what their
+elders have to say?\e"
+M04170008,\h(《Village Elder》)And one… and two… and one… and two…\e
+M04170009,"\h(《Village Elder》)I understand that Nasr's capital, Nasrad, was
+destroyed by the Valuans! Stay a moment and
+listen to what I have to tell you!\e"
+M04170010,"\h(《Hmm, should I?》)”Stay and listen.”
+”Make an excuse and hurry on.”\e"
+M04170011,"\h(《Village Elder》)Did I ever tell you about how I fought with the
+Nasr forces against Valua?\e"
+M04170012,"\h(《Village Elder》)I remember the Valuan fleet had this admiral…
+although he was still relatively young,
+he was sharp as a kururu's tooth!\e"
+M04170013,"\h(《Village Elder》)He was bold but also cautious. Whether mounting
+a frontal assault or surprise attack,
+he was a true master of strategy.\e"
+M04170014,"\h(《Village Elder》)I think his name was Galcian, and I understand
+he now commands the entire Armada!\e"
+M04170015,"\h(《Village Elder》)With a man like that in command of the Armada,
+it's no surprise that our capital fell so
+easily.\e"
+M04170016,"\h(《Village Elder》)That's the problem with young people today!
+Don't they know they should listen to what their
+elders have to say?\e"
+Ms008a000,"\h(《ヴァイス》)冷たい水がわいてる。
+この井戸があってこそ
+この街ができたんだろうな。\c"
+Ms008a001,"\h(《ヴァイス》)どっしりとしたツボだ。
+絶対、水もれしそうにないな。\c"
+Ms008a002,"\h(《ヴァイス》)んぎぎぎ……お、重い〜！
+こりゃ、人間の力じゃ
+開きそうにないな。\c"
+Ms008a003,"\h(《ヴァイス》)うっぷ、すごいニオイだ。
+クルルのエサ場だな。\c"
+Ms008a004,"\h(　)クルル乗り場
+オヤジに一声かけてください。\c"
+Ms008a005,"\h(《ヴァイス》)廃虚だ……
+ん？　地下からはしごが
+のびているぞ。\c"
+Ms008a006,\h(《ヴァイス》)「クルル倶楽部だより」……\e
+Ms008a007,"\h(《ヴァイス》)「クルルはきれい好き。
+　砂漠を渡った後は必ず
+　水浴びをさせてあげましょう」\c"
+Ms008a008,\h(《ヴァイス》)「クルル倶楽部だより」……\e
+Ms008a009,"\h(《ヴァイス》)「クルルは甘い果物が好き。
+　エサにまぜると喜びます。
+　すっぱいと逃げちゃいますよ」\c"
+Ms008a010,\h(《ヴァイス》)「クルル倶楽部だより」……\e
+Ms008a011,"\h(《ヴァイス》)「クルルはさみしがり屋。
+　ストレスで下痢をします。
+　なるべく独りにしないように」\c"
+Ms008a026,\h(《ヴァイス》)「クルル倶楽部だより」……\e
+Ms008a027,"\h(《ヴァイス》)「クルルはあまえんぼう。
+　首の後ろをなでてあげると
+　元気いっぱいになります」\c"
+Ms008a012,"\h(《ヴァイス》)だーっ！　この荷物、ジャマ！
+通れないじゃないか！\c"
+Ms008a013,"\h(　)＊＊＊＊を
+＊個、手に入れた！\c"
+Ms008a014,"\h(《ヴァイス》)ヤリ、弓、こん棒……
+こういう武器もカッコイイよな。
+まあ、俺は剣ひとすじだけどな。\c"
+Ms008a015,"\h(《ヴァイス》)うーん……うまそうな匂いだ。
+赤月Ж石の強い火力が
+この香ばしさの元なんだろうな。\c"
+Ms008a016,"\h(《ヴァイス》)シシカバブの香辛料だな。
+どれどれ……
+うおっ、辛っ！\c"
+Ms008a017,\h(　)クルル乗り場\c
+Ms008a018,"\h(《ヴァイス》)んぎぎぎ……お、重い〜！
+こりゃ、人間の力じゃ
+開きそうにないな。\c"
+Ms008a019,"\h(《ヴァイス》)酒が入ってるな。
+もう半分以上、飲まれてら。\c"
+Ms008a020,"\h(《ヴァイス》)酒がたっぷり入っている。
+わっ！　中に砂漠マムシが
+漬かってるぞ！\c"
+Ms008a021,"\h(《ヴァイス》)くんせい肉の唐辛子漬けだ。
+辛そうだが食欲をそそるなあ。
+味見、味見……\c"
+Ms008a022,"\h(《ヴァイス》)うっぷ！　すごいにおいだ……
+香辛料なんだろうか？\c"
+Ms008a023,"\h(《ヴァイス》)うっ、中でなにかが動いている。
+た、食べ物なのかな？
+見なかったことにしよう……\c"
+Ms008a024,"\h(《ヴァイス》)なんだ、このドロリとした
+ピンク色の怪しい液体は……
+いったい何に使うんだ？\c"
+Ms008a025,"\h(《ヴァイス》)甘い香りのお香だ。
+香りが強くてクラクラしてきた。\c"
+MD0030000,"\h(《Dancer》)Why, hello there, handsome.
+I've never seen you around here before.\e"
+MD0030001,"\h(《Dancer》)You must be tired.
+Sit down and stay a while.\e"
+MD0030002,"\h(《What will you say?》)”Sure!”
+”We're a little busy right now…”\e"
+MD0030003,"\h(《Vyse》)Sure!
+I suppose we could use some rest.\e"
+MD0030004,"\h(《Dancer》)Great! Sit back and enjoy the show. 
+I hope you like what you see.\e"
+MD0030005,"\h(《Vyse》)Hmm…
+We're a little busy right now…\e"
+MD0030006,"\h(《Dancer》)There is a saying here in Maramba,
+”Drink water whenever you get the chance.”\e"
+MD0030007,"\h(《Dancer》)You never know whenever you'll get another
+chance to relax.
+I suggest that you take it easy while you can.\e"
+MD0030008,"\h(《Aika》)Oh…
+In Nasr, I guess they just sit on the ground. \e"
+MD0030009,"\h(《Vyse》)Yeah, it feels good to finally sit down.\e"
+MD0030010,"\h(《Aika》)Well, we shouldn't rest too long, we gotta go
+look for a ship. I wonder where we can find one.
+Maybe we should try the docks.\e"
+MD0030011,"\h(《Aika》)I can't believe that Cap'n Drachma just left us
+here…\e"
+MD0030012,"\h(《Aika》)I'm sure he had his reasons to leave, but I wish
+he said something sooner. He didn't have to
+leave us here in the desert, right Vyse?\e"
+MD0030013,\h(《Vyse》)……\e
+MD0030014,\h(《Aika》)… Vyse?\e
+MD0030015,\h(《Aika》)……\e
+MD0030016,"\h(《Aika》)Vyse!!!
+Have you heard a single word I've said?!\e"
+MD0030017,"\h(《Vyse》)Um…
+Y… yeah. I'm listening… 
+You were talking about the desert.\e"
+MD0030018,"\h(《Aika》)You're acting like you've never seen a girl
+before… If you could pry your eyes away from
+that dancer for a few seconds…\e"
+MD0030019,"\h(《What do you say?》)”Hehe… Okay, I'll stop staring.”
+”I have no idea what you're talking about…”\e"
+MD0030020,"\h(《Vyse》)Okay, okay. It's just that she's such a good
+dancer… I didn't want to insult her by uh…
+looking away. New lands, new customs y'know.\e"
+MD0030021,"\h(《Aika》)What kind of excuse was that!? You're undressing
+her with your eyes, not that it would take that
+long. You weren't zooming in, were you?\e"
+MD0030022,"\h(《Vyse》)I'm sorry, I'm sorry. But, seriously… don't you
+think she's looked over here more than just a
+few times? I think she likes me.\e"
+MD0030023,\h(《Vyse》)I have no idea what you're talking about…\e
+MD0030024,"\h(《Aika》)I swear…
+The second a beautiful girl walks into the room,
+you turn into a babbling idiot.\e"
+MD0030025,"\h(《Vyse》)But, hey… I've caught her looking at me more
+than a few times. I think she likes me.\e"
+MD0030026,"\h(《Aika》)Yeah, right.
+Fina, will you try and talk some sense into him?\e"
+MD0030027,\h(《Fina》)… Do you really find it that hard to believe?\e
+MD0030028,"\h(《Fina》)Well, Vyse is very attractive…
+I don't think it would be strange at all if
+that dancer was looking at him.\e"
+MD0030029,"\h(《Aika》)Haha… You're kidding right? 
+Vyse wouldn't want someone like her… I mean…
+Who knows where she's been?\e"
+MD0030030,"\h(《Aika》)Oh, umm… I, so umm… Do you travel a lot?\e"
+MD0030031,"\h(《Dancer》)Tell me something… You wouldn't happen to be
+the group of Air Pirates that escaped from
+the Grand Fortress now, would you?\e"
+MD0030032,"\h(《Vyse》)Huh?!
+How did you know about that?\e"
+MD0030033,"\h(《Dancer》)Well, if you hang out in places like this,
+you overhear all kinds of things… rumors,
+local gossip, news about the other lands…\e"
+MD0030034,"\h(《Dancer》)… you even hear stories about Air Pirates
+needing a ship.\e"
+MD0030035,"\h(《Dancer》)If you want, I can give you a lift.
+What do you say?\e"
+MD0030036,"\h(《Vyse》)Really?!
+Thanks! That'll help us a lot!\e"
+MD0030037,"\h(《Aika》)Wait a second.
+Why would you help us?
+You don't even know who we are.\e"
+MD0030038,"\h(《Dancer》)Let's just say that anyone who can escape from
+the Valuan Grand Fortress, interests me.\e"
+MD0030039,"\h(《Dancer》)My name is Bellena. I'll begin making
+preparations. Meet me at the port first thing
+tomorrow morning. See you around, handsome.\e"
+"",me008b.sct
+"",k8440000
+"",k8440000
+"",k8440000
+"",k8440000
+"",M0238
+"",m5080000
+"",EVD03発生しました。\c
+"",a008ad03.mld
+"",a008ad03.mld
+"",M0238
+"",e6d003
+"",a008ad03.mld
+"",me203a.sct

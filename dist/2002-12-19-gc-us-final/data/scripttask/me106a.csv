@@ -1,0 +1,121 @@
+[Event Name],Task ID
+MC0080000,"\h(《Marco》)Wait, Vyse!\e"
+MC0080001,"\h(《Vyse》)Marco… you followed us?
+What's wrong?\e"
+MC0080002,"\h(《Marco》)Vyse…
+Don't go… please…\e"
+MC0080003,"\h(《Marco》)My… my mother… and father… were both killed
+by Valuan soldiers while they were trying to
+escape from this city!\e"
+MC0080004,"\h(《Marco》)There's no way out!
+Trying to get through the Grand Fortress… 
+It's impossible!\e"
+MC0080005,"\h(《Marco》)No one has ever escaped from Valua! 
+You're gonna die this time! 
+I just know it!\e"
+MC0080006,"\h(《Vyse》)Your parents…
+I'm… I'm sorry to hear that, Marco.\e"
+MC0080007,"\h(《Vyse》)But, I have to go… I don't have a choice. And 
+every time I hear the word “impossible”… it 
+makes me want to prove everyone wrong.\e"
+MC0080008,"\h(《Vyse》)A long time ago, a handful of sailors took a 
+small boat out into uncharted skies.\e"
+MC0080009,"\h(《Vyse》)They had no idea what they would find…
+Monsters… a maelstrom… the end of the world…\e"
+MC0080010,"\h(《Vyse》)It was because these sailors challenged the
+unknown, that new lands were discovered.\e"
+MC0080011,"\h(《Vyse》)If we challenge ourselves, and never give up,
+our own horizons will broaden… in our hearts,
+and in our minds…\e"
+MC0080012,"\h(《Vyse》)I need to push myself every day. I have to know 
+what I can accomplish… I never give up, and so 
+far, nothing has ever stopped me.\e"
+MC0080013,\h(《Marco》)But… but… Vyse…\e
+MC0080014,"\h(《Vyse》)Don't worry about me.
+I believe that we'll make it out… I will find a
+way… that's what's keeping me going.\e"
+MC0080015,"\h(《Vyse》)I'm going to prove that it's not impossible to 
+escape. Impossible is just a word to let people 
+feel good about themselves when they quit.\e"
+MC0080016,\h(《Marco》)……\e
+MC0080017,"\h(《Marco》)Vyse…
+Do you think I could ever be a sailor?
+If I could ever… sail the skies?\e"
+MC0080018,"\h(《Vyse》)Heh, of course! You've got what it takes…
+I'll be waiting for you… out there!\e"
+MC0080019,\h(《Marco》)Thank you…\e
+M01060000,"\h(《Marco》)Hey… You really did it. You rescued your
+friends. I can't believe it. You really are
+something…\e"
+M01060001,"\h(《Vyse》)Marco!
+What are you doing here?\e"
+M01060002,"\h(《Marco》)I told you before, right? I live here.
+I know everything about these sewers.\e"
+M01060003,"\h(《Marco》)This wall was built with a secret door.
+I took your friends into the secret room just
+behind me.\c"
+M01060004,"\h(《Marco》)Your friends are waiting in the room right
+behind me. Hurry up before the guards get smart
+and come looking through this area.\c"
+M01060005,"\h(《Briggs the Vice Captain》)Alright, we managed to get out of the Coliseum,
+but now what? We still have to get out of Valua.
+And that's no easy task by any measure.\c"
+M01060006,"\h(《Timmus the Gunner》)Heh… It's been a while since I've had so much
+fun! How often do we get to pound on Valuans in
+their own country?\c"
+M01060007,"\h(《Borris the Gunner》)When they were moving us, they put us on some
+sort of rail car. I've never seen anything like
+that before in my whole life.\e"
+M01060008,"\h(《Borris the Gunner》)They got these metal boxes all lined up
+one after the other, like some big, long
+bug… That's one strange way to get places.\c"
+M01060009,"\h(《Landis the Navigator》)I can't believe you actually did it, Vyse!
+You showed those Valuans a thing or two!
+Haha… You were great!\c"
+M01060010,"\h(《Luke the Raider》)You never cease to amaze me.
+I never would have thought
+I'd see you here.\e"
+M01060011,"\h(《Luke the Raider》)But I'm glad you showed up.
+We all owe you one.\c"
+M01060012,"\h(《Patch the Deckhand》)There are no signs of anyone following us. But,
+it's probably just a matter of time before they
+find this place, too.\e"
+M01060013,"\h(《Patch the Deckhand》)Now we just have to try and figure a way to get
+out of Valua. Heh… Easier said than done, I
+suppose. But, we've made it this far, at least…\c"
+M01060014,"\h(《Dyne》)Vyse! What are you doing? We need to decide on
+some sort of plan here! Everyone's lives are at
+stake! Don't go wandering around!\c"
+M01060015,"\h(《Vyse》)… Hm? Is it just me, or is the color of
+the wall here a little different from
+everywhere else? It's probably nothing.\c"
+M01060016,"\h(《Vyse》)This is where the secret door that led to Upper
+City was, but it won't budge.\e"
+M01060017,"\h(《Vyse》)Marco is probably the only person who knows how
+to open it. Oh well… I guess there isn't much I
+can do.\c"
+M01060020,"\h(《Vyse》)It looks like this ladder leads straight up into
+the Coliseum…\e"
+M01060021,"\h(《What will you do?》)“Break into the Coliseum!”
+“Finish up some preparations first.”\c"
+M01060018,"\h(《Vyse》)The Coliseum is in a state of confusion right
+now. We really need to get everyone out of here
+while we have the chance.\c"
+M01060019,"\h(《Vyse》)The Coliseum is probably crawling with guards.
+I'd rather not get caught right now, so it's
+probably better not to climb up the ladder.\c"
+"",me230a.sct
+"",me106c.sct
+"",me005b.sct
+"",me106b.sct
+"",M0325
+"",M0249
+"",m5060000
+"",a106ac08.mld
+"",a106ac08.mld
+"",a106ac08_efe.mld
+"",a106ac08_efe.mld
+"",e6c008
+"",M0318
+"",a106ac08.mld
+"",a106ac08_efe.mld

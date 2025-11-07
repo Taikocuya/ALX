@@ -1,0 +1,70 @@
+[Event Name],Task ID
+MAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5730000,"\h(《Baltor》)Gwahahaha!
+How do you like the power of the new
+and improved Blackbeard?\e"
+MA5730001,"\h(《Baltor》)This ship is equipped with nothing but the best
+stuff that stolen money can buy! It's the
+ultimate Black Pirate ship! Hahahaha!!!\c"
+MA5730002,"\h(《Baltor》)All right men, full speed ahead!
+Let's get behind him!\c"
+MA5730003,"\h(《Aika》)Vyse, Baltor's trying to get behind us.
+What should we do?\e"
+MA5730004,"\h(《What will you do?》)“Try and get behind him, instead.”
+“Wait and see what he does.”\e"
+MA5730005,"\h(《Vyse》)Try and get behind him instead!
+Set engines to full speed!\c"
+MA5730006,"\h(《Baltor's Crewman》)Captain Baltor!
+He's trying to get behind us,
+just like you said he would!\e"
+MA5730007,"\h(《Balboa》)Gwahahahaha!
+You fell for my trap, Vyse!
+I can read you like a book!\e"
+MA5730008,"\h(《Balboa》)I call that maneuver “the Blackbeard's Revenge!”
+Now, you're mine, Vyse!!!\c"
+MA5730009,"\h(《Aika》)Oh no!
+We walked… er… sailed right into a trap!\e"
+MA5730010,"\h(《Aika》)And here we were, thinking he was just an idiot
+with a beard… Maybe he's got something in his
+head, afterall!\c"
+MA5730011,"\h(《Vyse》)I've got a bad feeling about this.
+Let's wait for a minute.\e"
+MA5730012,"\h(《Baltor》)Alright, now's our chance! It's time to use
+my new strategy! Now, I'll lure Vyse to try and
+get behind me… and I'll get behind him instead!\e"
+MA5730013,"\h(《Balboa》)I call his maneuver “the Blackbeard's Revenge!”
+Now, Vyse… you will meet your doom!!!\c"
+MA5730014,"\h(《Baltor》)… Wha, what happened?!
+Why aren't they following behind us?!\e"
+MA5730015,"\h(《Baltor's Crewman》)Captain, we're in trouble!
+The enemy ship just stood in place! We're
+facing the wrong direction now!\e"
+MA5730016,"\h(《Balboa》)Arrgg! How come “the Blackbeard's Revenge”
+didn't work? That's… That's impossible!!
+How could Vyse know what to do?!\e"
+MA5730017,"\h(《Baltor's Crewman》)Oh, come on, Captain… You've got to think of a
+better strategy than that!!\c"
+MA5730018,"\h(《Baltor》)F, full speed ahead!
+I'll get him with “the Blackbeard's Revenge!”\e"
+MA5730019,"\h(《What will you do?》)“Try and get behind him.”
+“Wait and see what he does.”\e"
+MA5730020,"\h(《Baltor》)Gahaha! You fell for it, Vyse!
+Alright, men! Get behind his ship!\c"
+MA5730021,"\h(《Baltor's Crewman》)C, Captain! He's not falling for it!
+“The Blackbeard's Revenge” didn't work!\e"
+MA5730022,"\h(《Baltor》)Arrgg!
+I don't care what you have to do…
+just kill him!\c"
+"",M0430
+"",f7100100S.p04
+"",f7100100S.p04
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",me573a.sct
+"",me090a.sct
+"",f3000033
+"",f3000033
+"",me205a.sct

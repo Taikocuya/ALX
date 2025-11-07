@@ -1,0 +1,94 @@
+[Event Name],Task ID
+MI0040000,\h(《Vyse》)This looks like it's the last door.\e
+MI0040001,"\h(《Aika》)The fog is so thick… I can barely see what's in
+front of me…\e"
+MI0040002,\h(《Fina》)It's so cold… even the air is freezing…\e
+MI0040003,"\h(《Vyse》)Well, we can't let that stop us.\e"
+MI0040004,\h(《Vyse》)Aaaahhh!!!\e
+MI0040005,\h(《Fina》)…Vyse?\e
+MI0040006,"\h(《Aika》)… Hey!
+Where'd Vyse go?\e"
+MI0040007,\h(《Vyse》)… I'm down here…\e
+MI0040008,"\h(《Aika》)Vyse?!
+What happened?!\e"
+MI0040009,\h(《Vyse》)That was close… \e
+MI0040010,"\h(《Vyse》)If we can see the sky through the floor… that
+means we're at the bottom!\e"
+MI0040011,\h(《Fina》)Hey… the fog is starting to lift.\e
+MI0040012,\h(《Enrique》)Oh… I never imagined that we'd find this…\e
+MI0040013,"\h(《Aika》)Wow…
+There are buildings shaped like icicles hanging
+from the ceiling!\e"
+MI0040014,"\h(《Fina》)…This is Glacia, in the Old World,
+it was the capital of this region.\e"
+MI0040015,"\h(《Fina》)The people that lived here were powerful mages…
+Using the powers of the Purple Moon, they built
+this city.\e"
+MI0040016,"\h(《Fina》)And because this city was built below the ice,
+it was unharmed by the Rains of Destruction.\e"
+MI0040017,"\h(《Fina》)So, Glacia is as it was during the time of the
+Old World.\e"
+MI0040018,"\h(《Aika》)But wait…
+Then what happened to the people that were
+living here?\e"
+MI0040019,"\h(《Fina》)… I, I don't know.
+According to the legends, the people of Glacia
+just disappeared.\e"
+MI0040020,"\h(《Fina》)Nobody knows where they went, or why they left.\e"
+MI0040021,"\h(《Fina》)Maybe they left their city to invade another
+land… \e"
+MI0040022,\h(《Fina》)And they perished in the war and in the Rains…\e
+MI0040023,"\h(《Aika》)I can't imagine an entire culture becoming
+extinct.\e"
+MI0040024,"\h(《Aika》)Think of all of the knowledge that was lost… 
+Everything that these people worked so hard for
+is going to stay buried here forever.\e"
+MI0040025,"\h(《Vyse》)…Let's go.
+We should find the Purple Moon Crystal, 
+before we get buried here forever.\e"
+M01230000,"\h(《ヴァイス》)……開かないな。
+何だか、不思議な力で
+閉ざされているみたいだ。\c"
+M01230001,"\h(《語り石》)グラシアを訪れんとする者よ……
+わが問いに答え
+その道を自ら開け……\e"
+M01230002,"\h(《ヴァイス》)な、なんだ？
+石がしゃべりはじめたぞ!?\e"
+M01230003,"\h(《語り石》)紫の月Ж石、その内に
+大いなる月の力を秘めたり。
+その力とは何ぞや？\e"
+M01230004,"\h(《紫の月Ж石の力？》)「炎の力だな」
+「氷の力だな」
+「雷の力だな」\c"
+M01230005,"\h(《語り石》)グラシアを訪れんとする者よ……
+わが問いに答え
+その道を自ら開け……\e"
+M01230006,"\h(《語り石》)紫の紋章には、とある数が
+秘められたり。
+その数を答えよ。\c"
+M01230007,"\h(《紋章に秘められた数？》)「ニかな？」
+「四かな？」
+「六かな？」\c"
+M01230008,"\h(《語り石》)グラシアを訪れんとする者よ……
+最後の問いに答え
+その道を自ら開け……\e"
+M01230009,"\h(《語り石》)紫の月Ж石、生きとし生ける者の
+能力に影響を及ぼす。\e"
+M01230010,"\h(《語り石》)われらグラシアの民が
+もっとも重んじる
+その能力とは何ぞや？\e"
+M01230011,"\h(《能力？》)「腕力と武勇だ」
+「気力と精神だ」
+「生命力と治癒力だ」\e"
+M01230012,"\h(《どうする？》)「デルフィナスに帰艦する」
+「探索をつづける」\c"
+"",me123c.sct
+"",me123a.sct
+"",M0246
+"",m5230000
+"",I04発生しました。\c
+"",a123bi04.mld
+"",a123bi04.mld
+"",M0246
+"",e6i004
+"",a123bi04.mld

@@ -1,0 +1,79 @@
+[Event Name],Task ID
+MA0020011,"\h(《Valua Soldier》)Cursed Air Pirate!
+Can't you see that we're 
+Valuan Imperial Troops!? \e"
+MA0020012,"\h(《Vyse》)Of course! We only deal with 
+Imperial and armed ships. \e"
+MA0020013,"\h(《Vyse》)I'm Vyse, of the Blue Rogues. 
+And I will be relieving you of 
+all your treasures and valuables shortly! \e"
+MA0020014,"\h(《Valua Soldier》)Hehe. You've got guts to march 
+in here alone. Prepare to take a long 
+trip… downward! \e"
+MA0020015,"\h(《Aika》)Hey!
+W... wait for me!! \e"
+MA0020016,"\h(《Aika》)Did you forget about me, Vyse? I wouldn't 
+want to let you have all the fun. \e"
+MA0020017,"\h(《Aika》)I'm Aika, a Blue Rogue 
+like Vyse. \e"
+MA0020018,"\h(《Valua Soldier》)You dare mock the Valua Empire with 
+your insolence?! Kill them! Don't let 
+them go alive!! \e"
+"",me405x.sct
+"",e6o001
+"",a400x_eff.mld
+"",a400x_ef3.mld
+"",a400x_ef2.mld
+"",a400x_ef2.mld
+"",a400x_eff.mld
+"",a400x_ef3.mld
+"",a201aa02c.mld
+"",a201aa02c.mld
+"",a201aa02a.mld
+"",a201aa02a.mld
+"",a201aa02_efe.mld
+"",\h(キザそうな男)フフフ、追いつめましたね。\c
+"","\h(副長)アルフォンソ提督。
+目標を、主砲の射程に
+とらえました。\c"
+"","\h(アルフォンソ)ハハハ、バルア帝国がほこる
+この重戦艦から
+逃げられるとでも思いましたか？\c"
+"",\h(アルフォンソ)主砲、発射！\e
+"","ただし、娘は傷つけないように。
+船の足を止めて
+生け捕りにしたまえ。\c"
+"",a201aa02c.mld
+"",a201aa02c.mld
+"",a201aa02c.mld
+"","\h(副長)アルフォンソ提督。
+娘の収容を完了しました。\c"
+"","\h(アルフォンソ)フフフ……よろしい。
+意外に手こずりましたね。\c"
+"","\h(アルフォンソ)……何ですか、今の衝撃は？
+状況を報告したまえ。\c"
+"","\h(測量兵)か、艦底に被弾！
+何者かが、本艦を
+砲撃しています！\c"
+"",a201aa02a.mld
+"",a201aa02b.mld
+"","\h(アルフォンソ)ほ、砲撃だと!?
+い……いったい何者だ!?\c"
+"","\h(測量兵)左舷方向の雲内に艦影を確認！
+雲の中に船がいます！\c"
+"",a201aa02b.mld
+"",a201aa02e.mld
+"","\h(測量兵)未確認艦、雲内より浮上！
+……！
+あ、あの旗は……\e"
+"",a201aa02e.mld
+"",a201aa02f.mld
+"",く……空賊です！\c
+"",a201aa02f.mld
+"",M0305
+"",e6o001
+"",a201aa02e.mld
+"",a201aa02b.mld
+"",a201aa02d.mld
+"",a201aa02d.mld
+"",a201aa02b.mld

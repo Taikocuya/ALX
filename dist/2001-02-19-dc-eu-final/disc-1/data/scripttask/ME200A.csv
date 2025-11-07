@@ -1,0 +1,73 @@
+[Event Name],Task ID
+MA0030000,"\h(«Vyse»)There's no point in resisting. Throw down your 
+weapons and hand over your ship.\e"
+MA0030001,"\h(«Valuan Soldier»)Imbeciles!
+What do the two of you think you can do against
+the five of us? Take 'em out.\e"
+MA0030002,\h(«Dyne»)I think you miscounted. I only see four of you.\e
+MA0030003,\h(«Vyse»)Dad!\e
+MA0030004,"\h(«Dyne»)We'll take care of these guys. Make your way to 
+the bridge and shut down the engines.\e"
+MA0030005,"\h(«Dyne»)And, when we're out here, remember, it's 
+“Captain” …not “Dad.” Got it?\e"
+MA0030006,"\h(«Vyse»)Yeah, yeah… Aye aye, “Captain.”
+Heh… Aika, shall we go introduce ourselves to 
+the captain of this ship?\e"
+MA0030007,\h(«Aika»)I'm ready when you are!\e
+MA0030008,\h(«Vyse»)Alright! Let's go find the bridge!\e
+MSA0030000,"\h(«Vyse»)Es inútil que os resistáis. Deponed las armas y
+entregad vuestro buque.\e"
+MSA0030001,"\h(«Soldado Valuan»)¡Necios!
+¿Creéis que vosotros dos podéis vencernos a
+nosotros cinco? Acabemos con ellos.\e"
+MSA0030002,\h(«Dyne»)Creo que has contado mal. Yo sólo veo cuatro.\e
+MSA0030003,\h(«Vyse»)¡Papá!\e
+MSA0030004,"\h(«Dyne»)Nos ocuparemos de estos hombres. Id hacia el
+puente de mando y apagad los motores.\e"
+MSA0030005,"\h(«Dyne»)Y cuando salgamos de aquí, recuerda que se dice
+“Capitán”…… no “papá”. ¿Entendido?\e"
+MSA0030006,"\h(«Vyse»)Sí, sí…… “Capitán”.
+Esto…… Aika, ¿no deberíamos presentarnos al
+capitán del barco?\e"
+MSA0030007,\h(«Aika»)¡Cuando quieras!\e
+MSA0030008,\h(«Vyse»)¡Muy bien! ¡Vamos a buscar el puente de mando!\e
+MFA0030000,"\h(«Vyse»)Il est inutile de résister. Jetez vos armes et
+rendez vous!\e"
+MFA0030001,"\h(«Soldat Valuan»)Imbéciles !
+Qu'est-ce que vous croyez pouvoir faire contre
+nous cinq ? Emmenez-les.\e"
+MFA0030002,"\h(«Dyne»)Je crois que vous avez mal compté.
+Je n'en vois plus que quatre !\e"
+MFA0030003,\h(«Vyse»)Papa !\e
+MFA0030004,"\h(«Dyne»)Nous allons nous occuper d'eux.
+Va sur le pont et éteins les moteurs.\e"
+MFA0030005,"\h(«Dyne»)Et, tant que nous sommes ici, n'oublie pas,
+appelle-moi “Capitaine”…… pas “Papa”. Compris ?\e"
+MFA0030006,"\h(«Vyse»)OK OK…… À vos ordres, “Capitaine”.
+Hé…… Aika, est-ce que nous devrions aller nous
+présenter au capitaine de ce navire ?\e"
+MFA0030007,\h(«Aika»)Quand tu veux !\e
+MFA0030008,\h(«Vyse»)D'accord ! Allons trouver la passerelle !\e
+MGA0030000,"\h(«Vyse»)Es hat keinen Zweck, sich uns zu widersetzen.
+Werft eure Waffen weg und übergebt euer Schiff.\e"
+MGA0030001,"\h(«Valua-Soldat»)Dummköpfe!
+Was glaubt ihr beiden wohl, gegen uns fünf
+ausrichten zu können? Holt sie euch.\e"
+MGA0030002,"\h(«Dyne»)Ich glaub, du hast dich verzählt. Ich sehe nur
+vier von euch.\e"
+MGA0030003,\h(«Vyse»)Dad!\e
+MGA0030004,"\h(«Dyne»)Wir kümmern uns um die Typen. Schlagt euch zur
+Brücke durch und stellt die Motoren ab.\e"
+MGA0030005,"\h(«Dyne»)Und, vergiss' nicht, hier draußen heißt das
+“Captain”……  nicht “Dad”. Verstanden?\e"
+MGA0030006,"\h(«Vyse»)Ok, OK… Aye aye, “Captain”.
+He……  Aika, sollen wir uns mal dem Kapitän
+dieses Schiffs vorstellen?\e"
+MGA0030007,\h(«Aika»)Wann immer du willst!\e
+MGA0030008,\h(«Vyse»)Gut! Lass' uns die Brücke suchen!\e
+"",me101b.sct
+"",a200aa03.mld
+"",a200aa03.mld
+"",M0269
+"",e6a003
+"",a200aa03.mld

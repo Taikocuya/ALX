@@ -1,0 +1,25 @@
+[Event Name],Task ID
+M01300000,"\h(《Enrique》)Vyse,
+I'll be waiting here.\e"
+M01300001,"\h(《Enrique》)I've brought plenty of medicines and healing
+crystals with me, so if you get wounded,
+just let me know and I'll take care of you.\e"
+M01300002,"\h(《What will you do?》)“Ask for first aid.”
+“Nothing for now.”\e"
+M01300003,"\h(《Vyse》)Thanks, Enrique..
+Some medicine would really help right now.\e"
+M01300004,"\h(《Enrique》)No problem.
+Okay, hold still.\e"
+M01300005,"\h(《Enrique》)All right, there you go.
+Good luck, Vyse!\c"
+M01300006,"\h(《Vyse》)Thanks, but maybe later.\e"
+M01300007,"\h(《Enrique》)Okay, but be sure to let me know
+whenever you need a little help.
+Good luck!\c"
+M01300008,"\h(《Enrique》)Do you need some first aid, Vyse?\e"
+M01300009,"\h(《What will you do?》)“Ask for first aid.”
+“Nothing for now.”\e"
+M01300010,"\h(《Vyse》)We're not leaving this ship
+until we've defeated Galcian!\c"
+"",me130b.sct
+"",M0252

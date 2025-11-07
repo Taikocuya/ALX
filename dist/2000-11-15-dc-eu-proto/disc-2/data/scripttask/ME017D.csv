@@ -1,0 +1,377 @@
+[Event Name],Task ID
+Ms017d000,"\h(«Vyse»)Vases, lamps… She's got expensive things from
+all over the place. I really don't know where
+she gets this stuff…\e"
+Ms017d009,"\h(«Vyse»)But, this stuff isn't for sale. It's all Osman's
+personal stuff. I guess she just likes showing
+it off…\c"
+Ms017d001,"\h(«Vyse»)Small animals preserved in jars…
+There's all kinds of creepy stuff here.
+Fina would probably faint if she saw this.\c"
+Ms017d002,"\h(«Vyse»)I wonder what this pink liquid is for?
+I sure hope it's not medicine…\c"
+Ms017d003,"\h(«Vyse»)Hmm…
+I don't know what language this is written in.
+I can't read a single word of it.\c"
+Ms017d004,"\h(«Vyse»)There's all kinds of chemicals here.
+Ilchymis must really know his stuff
+to be able to use all of these.\c"
+Ms017d005,"\h(«Vyse»)Fish, plants…
+What the…?! An eyeball?!\c"
+Ms017d006,"\h(«Vyse»)Ryu-kan said that this was a suit of armor
+worn by a Yafutoman admiral long ago.
+The horns on the helmet look menacing.\c"
+Ms017d007,"\h(«Vyse»)Hmm… there's string wrapped around the grip.
+That must prevent slipping by making it easier
+to hold on to.\c"
+Ms017d008,"\h(«Vyse»)So this is Ryu-kan's hearth.
+This is where he works his craft. I've never
+seen a more skilled swordsmith in my life.\c"
+Ms017d010,"\h(«Vyse»)Ropes are all-important for voyages.
+Even the Delphinus uses rope for a lot
+of various things.\c"
+Ms017d011,"\h(«Vyse»)It's full of materials and tools.
+They're important for quick repairs
+during voyages.\c"
+Ms017d012,"\h(«Vyse»)There's a large stash of
+food and other supplies
+for long voyages.\c"
+Ms017d013,"\h(«Vyse»)Aika said this box “contains things essential
+to the survival of women while travelling.”
+What exactly is in this thing, anyway?\c"
+Ms017d014,"\h(«Vyse»)We use Moon Stones for just about everything…
+They're especially important for long voyages.
+So, it's always good to have a little extra.\c"
+Ms017d015,"\h(«Vyse»)It's ammunition for the Delphinus.
+The cannonballs so big that there wasn't
+enough space at the harbor, I guess.\c"
+Ms017d016,"\h(«Vyse»)Loqua never lasted very long back on Pirate
+Isle, but my new crew doesn't drink it up
+quite as fast.\c"
+Ms017d017,"\h(«Vyse»)It's full of preserved food. These
+are emergency rations, so I probably
+shouldn't eat any of it…\c"
+Ms017d018,"\h(«Vyse»)We use Moon Stones for just about everything…
+They're especially important for long voyages.
+So, it's always good to have a little extra.\c"
+Ms017d019,"\h(«Vyse»)It's some clothes and other everyday supplies.
+Some of it's bought, some of it's stolen…\c"
+Ms017d020,"\h(«Vyse»)It's Izmael's toolbox. If anyone touches it, he
+starts yelling and swinging his hammer around at
+everyone. It's actually pretty funny to watch.\c"
+Ms017d021,"\h(«Vyse»)Ladders come in handy during voyages.
+You can also use them to board
+enemy ships in a fight.\c"
+Ms017d022,"\h(«Vyse»)Huh? What is this supposed to be?
+A backdrop?\c"
+Ms017d023,"\h(«Vyse»)Is this cloth from Yafutoma?
+I swear… all Osman ever does is show off her
+stuff. She never actually sells it…\c"
+Ms017d024,"\h(«Vyse»)This is Nasr pottery.
+It's probably from her shop
+back in Nasrad.\e"
+Ms017d025,"\h(«Vyse»)It's pretty impressive how much stuff
+she was able to save during the Valuan
+attack on Nasrad.\c"
+Ms017d026,"\h(«Vyse»)It's the same kind of sword that the
+Yafutoman soldiers were using. Yafutoman
+swords have such interesting shapes.\c"
+Ms017d027,"\h(«Vyse»)It's a blade used by Yafutoman
+swordsmen. It's got an intricate
+design etched into the handguard.\c"
+Ms017d028,"\h(«Vyse»)Is this a Valuan book? Hmm… Nope, I can't
+understand any of this. Well, to be honest,
+I didn't think I actually would, anway.\c"
+Ms017d029,"\h(«Vyse»)“Medical Encyclopedia,” “Anatomy,”
+“The Moon and Alchemy…”
+These are too complicated for me.\c"
+Ms017d030,"\h(«Vyse»)These are Ilchymis' notebooks.
+Ugh, they're full of mathematical formulas
+and long words I can't even pronounce.\c"
+Ms017d031,"\h(«Vyse»)It's a strange-colored liquid.
+I wonder if he's going to use
+this to make medicine?\c"
+Ms017d032,"\h(«Vyse»)I guess he's brought some books from his
+island that he hasn't even opened yet.
+How much stuff did he bring, anyway?\c"
+M06310014,"\h(«Osman»)Damn Valuans! 
+They already burned down my shop once!\e"
+M06310015,"\h(«Osman»)How long are you going to let the Armada run 
+around blowing things up? Stop wasting time
+talking to me and go after them!\c"
+M06310000,"\h(«Osman»)Greetings! I have a plethora of items 
+for you and your crew.\e"
+M06310001,"\h(«What do you want to do?»)“Buy and sell items.”
+“Talk to Osman.”
+“Leave.”\e"
+M06310002,\h(«Osman»)This shop is a little dull for my taste!\e
+M06310003,"\h(«Osman»)I want a bigger shop! A shop that is more
+befitting of a merchant as grand as myself!
+I'll need 2,000 gold to remodel this place!\e"
+M06310004,"\h(«What will you do?»)“Give Osman the 2,000 gold to remodel.”
+“Nothing.”\e"
+M06310005,"\h( )You gave 2,000 gold to Osman.\e"
+M06310006,"\h(«Osman»)Thank you Captain, you've got great taste!
+I'll use my looks to try and scare up 
+a few new items.\c"
+M06310007,"\h(«Osman»)Wait, you don't have enough money! You don't
+even have 2,000 gold?! I thought you were
+the captain around here! Go get some more gold!\e"
+M06310008,"\h(«Osman»)Captain, you're awfully stingy. 
+I guess that explains your outfit.\e"
+M06310009,"\h(«Osman»)Please come again! And be sure to bring
+plenty of gold with you, too!\c"
+M06310010,"\h(«Osman»)I'll build you a shop worthy of this island 
+base. Our base IS quite impressive, you know.\c"
+M06310011,"\h(«Osman»)Please, take a look around. 
+I've got items galore!\e"
+M06310012,"\h(«What do you want to do?»)“Buy and sell items.”
+“Talk to Osman.”
+“Leave.”\e"
+M06310016,"\h(«Osman»)I'm sorry, Captain, but you're not my type.\e"
+M06310017,"\h(«Osman»)I would prefer not to speak to one as…
+cowardly… as yourself.\c"
+M06310018,"\h(«Osman»)Well, Captain… you want to speak with me? 
+I guess I haven't lost my girlish charm…\e"
+M06310019,"\h(«Osman»)But I'm terribly sorry… You're not quite up to
+my standards for men. I like my men a little…
+more courageous.\c"
+M06310020,"\h(«Osman»)Well, well, well… You may be young, but you've
+become quite a man of the world. I simply cannot
+wait until you're a little more… mature.\e"
+M06310021,"\h(«Osman»)But don't worry… come back and see me 
+later. I'll make a real man out of you.\c"
+M06310022,"\h(«Osman»)Let me tell you, Captain… I feel so lucky to be
+part of your crew. There aren't quite as many
+men like you in the world anymore…\e"
+M06310023,"\h(«Osman»)But just give me the sign… and I'll show you
+just how womanly I can be… heh heh…\c"
+M06310013,"\h(«Osman»)Please come again! And be sure to bring
+plenty of gold with you, too!\c"
+M14030029,"\h(«Ryu-kan»)What? There's nothing going on here. 
+Perhaps you would be more useful
+somewhere else.\c"
+M14030001,"\h(«What are you going to do?»)“Buy and sell weapons.”
+“Talk to Ryu-kan.”
+“Leave.”\e"
+M14030000,"\h(«Ryu-kan»)I've got a collection of some of the 
+finest weapons that you'll ever see.\e"
+M14030100,"\h(«Ryu-kan»)Captain, I am a little tired right now. 
+My… youth is escaping me.\e"
+M14030101,"\h(«Ryu-kan»)If you return later, when my strength returns, 
+I shall forge you a blade worthy of legends.\c"
+M14030002,"\h(«Ryu-kan»)I cannot work in this paltry environment! 
+How can you expect me to forge legendary
+weapons in these conditions?!\e"
+M14030003,"\h(«Ryu-kan»)I require more sophisticated tools! All of the 
+modifications that I need to make this area
+adequate will cost 4,000 gold.\e"
+M14030004,"\h(«What will you do?»)“Give 4,000 gold to Ryu-kan.”
+“Nothing.”\e"
+M14030005,"\h( )You gave 4,000 gold to Ryu-kan.\e"
+M14030006,"\h(«Ryu-kan»)It's good to know that you appreciate quality.
+I'll have my shop remodeled by the time 
+you return to the island.\c"
+M14030007,"\h(«Ryu-kan»)It will require more gold than you have. 
+Come back again when you have enough and we'll
+talk.\e"
+M14030008,"\h(«Ryu-kan»)It's a pity…
+A good blade can save your life.\e"
+M14030009,"\h(«Ryu-kan»)A warrior who neglects his weapons is living on
+borrowed time.\c"
+M14030010,"\h(«Ryu-kan»)The modifications will be complete by the time
+you return to the island.\c"
+M14030011,"\h(«Ryu-kan»)Now that I have an adequate forge, I can make
+weapons befitting of your crew. Would you like
+to purchase something from me?\e"
+M14030012,"\h(«What are you going to do?»)“Buy and sell weapons.”
+“Talk to Ryu-kan.”
+“Leave.”\e"
+M14030013,"\h(«Ryu-kan»)Vyse, have you ever heard of “Velorium?”
+It's rumored to be lighter than a feather, and
+harder than a diamond.\e"
+M14030014,"\h(«Ryu-kan»)Velorium, even in the hands of a mediocre
+swordsmith, would produce superior weapons.\e"
+M14030015,"\h(«Ryu-kan»)If you are able to acquire some “Velorium,”
+and bring it to me, I will be able to craft
+weapons of legendary quality.\c"
+M14030016,"\h(«Ryu-kan»)Find me some “Velorium”, and I shall 
+craft a blade worthy of legends.\c"
+M14030030,\h(«Ryu-kan»)You have “Velorium?!”\e
+M14030031,"\h(«Ryu-kan»)I am sorry… there isn't enough to forge a 
+blade. If you could find some more, I will 
+be able to craft a blade for you.\c"
+M14030017,"\h(«Ryu-kan»)A great weapon is only as good as 
+the warrior who wields it… unless
+the weapon was created by me.\c"
+M14030018,"\h(«Ryu-kan»)You have “Velorium!”
+You are worthy of my finest blade!\e"
+M14030019,"\h(«Ryu-kan»)I shall begin forging your blade at once!
+This will be my greatest creation!
+May it serve you well.\c"
+M14030020,"\h(«Ryu-kan»)Genius should never be rushed.
+Please come back later.\c"
+M14030021,"\h(«Ryu-kan»)Vyse, I have finished forging the
+finest blade I have ever crafted. I
+present to you, the Vorlik Blade.\e"
+M14030022,\h( )You received the “Vorlik Blade.”\e
+M14030023,"\h(«Ryu-kan»)Since this blade was crafted solely for you, 
+I customized the guard and the pommel to fit
+your hand.\c"
+M14030024,"\h(«Ryu-kan»)This is the finest blade that I have ever
+created. May it serve you well.\c"
+M14030025,\h(«Ryu-kan»)Are you looking for weapons?\e
+M14030026,"\h(«What are you going to do?»)“Buy and sell weapons.”
+“Talk to Ryu-kan.”
+“Leave.”\e"
+M14030027,"\h(«Ryu-kan»)I hope that you are putting the Vorlik Blade
+to good use. It has no equal in this world…\c"
+M14030028,"\h(«Ryu-kan»)A great weapon in the hands of a novice, 
+will eventually find the hands of an expert.\c"
+M14060042,"\h(«Ilchymis»)Oh, Vyse… last night was terrible. 
+Most of the base was destroyed.\e"
+M14060043,"\h(«Ilchymis»)We were fortunate that no one 
+was seriously hurt.\c"
+M14060000,"\h(«Ilchymis»)Hello Vyse, can I help you?\e"
+M14060001,"\h(«What do you want to do?»)“Buy and sell items.”
+“Talk to Ilchymis.”
+“Leave.”\e"
+M14060002,"\h(«Ilchymis»)Hmm, this shop is adequate, but it's 
+lacking some of the more sophisticated 
+equipment.\e"
+M14060003,"\h(«Ilchymis»)If I could purchase some, it would be
+possible to make better medicines, but it will
+cost 1,000 gold to upgrade everything.\e"
+M14060004,"\h(«What will you do?»)“Give 1,000 gold to Ilchymis.”
+“Nothing.”\e"
+M14060005,"\h(«Ilchymis»)Really, are you sure? Thank you very much!  
+I'll get started on renovating the lab, 
+right away.\c"
+M14060006,"\h(«Ilchymis»)Umm… I appreciate your generous offer, 
+but you don't seem to have enough gold.\e"
+M14060007,"\h(«Ilchymis»)If I had better equipment, I'd be able to make 
+more sophisticated medicines… \e"
+M14060008,"\h(«Ilchymis»)Thank you very much. 
+I hope I can help you!\e"
+M14060009,"\h(«Ilchymis»)I'll be finished remodeling by the time 
+you return to the island.\c"
+M14060049,"\h(«Ilchymis»)Oh, hello Vyse. Thanks to you, I have this
+wonderful lab where I can create medicines
+for you and your crew.\e"
+M14060050,\h(«Vyse»)I'm glad you like it.\e
+M14060051,"\h(«Vyse»)Ilchymis, I've been wanting to ask you… 
+Why did you decide to devote your entire
+life to medicine?\e"
+M14060052,"\h(«Vyse»)Before you joined my crew, you lived on that
+little island all by yourself, mixing 
+ingredients, and making potions.\e"
+M14060026,"\h(«Ilchymis»)Hahaha… You've been wondering why I decided to
+become a hermit?\e"
+M14060027,"\h(«Ilchymis»)Well, I will tell you. Perhaps you will
+understand why I chose this life.\e"
+M14060028,"\h(«Ilchymis»)My parents were both nobles from Upper City. 
+So, during my childhood, I was well taken care
+of.\e"
+M14060029,"\h(«Ilchymis»)Because of my family's wealth, I was able to buy
+all of the books I wanted.
+I read all the time, you see.\e"
+M14060030,"\h(«Ilchymis»)One day, on my way to the bookstore, I saw a 
+very sick man from Lower City. He crawled into 
+Upper City on his hands and knees.\e"
+M14060031,"\h(«Ilchymis»)He was begging for money, so he could buy 
+medicine. But no one would help him. I ran
+to the shop to try and help the man…\e"
+M14060032,"\h(«Ilchymis»)When I returned, he was already… dead. I felt
+so helpless. From that day on, I decided that
+I would devote my life to helping others.\e"
+M14060033,"\h(«Ilchymis»)I spent days alone in my room reading about all
+the different types of medicines and potions. In
+time, I became one of Valua's best researchers.\e"
+M14060034,"\h(«Ilchymis»)I wanted to make medicines that the people
+in Lower City could afford. I wanted to help
+people, but Valua had other plans for me.\e"
+M14060035,"\h(«Ilchymis»)They wanted me to make weapons for their
+military… Shortly after, I fled Valua and found
+an island where I could continue my studies.\e"
+M14060036,"\h(«Ilchymis»)Sorry, if my story seemed a bit long… \e"
+M14060037,"\h(«Ilchymis»)I believe in you, Vyse. Although you are a 
+warrior, you are fighting for the right cause.\c"
+M14060038,"\h(«Ilchymis»)And that is why I want to aid you in 
+your fight. I will do everything in my power 
+to assist you and your crew.\e"
+M14060010,"\h(«Ilchymis»)Hello Vyse, can I help you?\e"
+M14060011,"\h(«What do you want to do?»)“Buy and sell items.”
+“Talk to Ilchymis.”
+“Leave.”\e"
+M14060060,"\h(«Ilchymis»)That reminds me… I've come up with a new little
+concoction that I'm rather proud of.\e"
+M14060061,"\h(«Ilchymis»)It will heal your entire party and regenerate
+all of your magic power at once. Heh… I've
+named it the “Ilchymix.” Like the name?\e"
+M14060062,"\h(«Ilchymis»)Heh… Well, it takes a few moments for it to
+take effect, so it won't be of any use to you
+while you are in battle.\e"
+M14060063,"\h(«Ilchymis»)It's a little expensive to make, but I've gotten
+the whole process… pardon the expression… down
+to a science. It will cost 4,000 gold for 10.\e"
+M14060064,"\h(«What will you do?»)“Ilchymix? Heh… sounds great! I'll take them.”
+“Maybe some other time, Ilchymis.”\e"
+M14060065,"\h(«Ilchymis»)Alright! Just remember, you won't be able to use
+them during battle, so be careful, okay?\e"
+M14060066,\h( )You received 10 “Ilchymixes.”\e
+M14060067,"\h(«Ilchymis»)Hmm… It looks like you do not have enough gold.
+It's alright, though. Just come back when you've
+saved enough and I'll sell them to you.\e"
+M14060069,"\h(«Ilchymis»)It looks like you're already carrying as many
+as you can. Let's not get too greedy…\c"
+M14060070,"\h(«Ilchymis»)Alright, just let me know when you want 
+to purchase some. I've made enough 
+to last a long time.\c"
+M14060068,"\h(«Ilchymis»)Thank you very much.
+Please come again!\c"
+M14060071,"\h(«Ilchymis»)Welcome, Vyse. I just made a new batch of
+Ilchymixes. It's 4,000 gold for 10 of them.\c"
+M14060012,"\h(«Ilchymis»)Vyse, do you know anything about \c\c\c?"
+M14060013,"\h(«Ilchymis»)When you add xxxxxx and xxxxxx to this,
+I heard that you can make the ultimate medicine.\e"
+M14060014,"\h(«Ilchymis»)If you can get these material, I can make you
+very strong items.\e"
+M14060015,\h(«Ilchymis»)Thank you very much. I hope it will help you.\e
+M14060016,"\h(«Ilchymis»)Captain, if I am not mistaken, are they… so you
+found all the material needed at last!\e"
+M14060017,"\h(«Ilchymis»)I'll start making the medicine immediately.
+You can look forward to it.\e"
+M14060018,"\h(«Ilchymis»)It's going to take a little more time to finish
+the ultimate medicine, so come back again later.\e"
+M14060019,"\h(«Ilchymis»)Oh, Vyse, I was waiting for you! This is the
+xxxxx.\e"
+M14060020,\h( )You got one ultimate heeling potion xxxxx!\e
+M14060021,"\h(«Ilchymis»)I figured out the components of this potion,
+so I can sell it at my store too from now on.\e"
+M14060022,"\h(«Ilchymis»)Hello Vyse, can I help you?\e"
+M14060023,"\h(«What do you want to do?»)“Buy and sell items.”
+“Talk to Ilchymis.”
+“Leave.”\e"
+M14060044,"\h(«Ilchymis»)Something that will completely heal you and
+regenerate your magic power? Hm… It will cost
+you xx gold. Is that okay?\e"
+"",a017d_ob.mld
+"",a017d_oa.mld
+"",a017d_ib.mld
+"",a017d_ia.mld
+"",a017d_ab.mld
+"",a017d_aa.mld
+"",me017h.sct
+"",me017i.sct
+"",me017b.sct
+"",me017f.sct
+"",me017e.sct
+"",a017d_ob.mld
+"",a017d_oa.mld
+"",a017d_ib.mld
+"",a017d_ia.mld
+"",a017d_ab.mld
+"",a017d_aa.mld
+"",M0242
+"",M0243
+"",M5170000

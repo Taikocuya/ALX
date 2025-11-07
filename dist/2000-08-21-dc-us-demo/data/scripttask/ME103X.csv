@@ -1,0 +1,28 @@
+[Event Name],Task ID
+MA0190000,"\h(《Aika》)Vyse!
+Look, over there…
+There's smoke! \e"
+MA0190001,"\h(《Vyse》)Looks like the Moon Stone 
+fell through the roof. It's 
+probably inside the shrine… \e"
+MA0190002,"\h(《Vyse》)Well, then. 
+We've got no choice but to go in! \e"
+MA0190003,"\h(《Aika》)Oh, before we go… Is there 
+anything left you wanted to do, like 
+look for Moonberries? \e"
+MA0190004,"\h(《Aika》)This is the final destination in 
+this mini-adventure. You 
+won't be able to turn back once you enter. \e"
+MA0190005,"\h(《Vyse》)Oh… Then maybe it would be a good idea to
+head back out and explore a little 
+bit more. \e"
+MA0190006,"\h(《Vyse》)When we're ready, we'll head into 
+the shrine and get the 
+Moon Stone! \e"
+"",m5030000
+"",k8010000
+"",me103y.sct
+"",me099a.sct
+"",a103xa19.mld
+"",e6a019
+"",a103xa19.mld

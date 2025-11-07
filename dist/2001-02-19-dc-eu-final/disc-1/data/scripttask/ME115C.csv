@@ -1,0 +1,523 @@
+[Event Name],Task ID
+MF0270000,"\h(«Gilder»)Hey, Vyse!
+I believe that's what we came here for!
+Heh, Daccat's Treasure.\e"
+MF0270001,"\h(«Vyse»)That's got to be it!
+Heh, now I can buy my ship.\e"
+MF0270002,"\h(«Aika»)Wow! Look, Fina! Look!!!
+That treasure chest is HUGE!!!\e"
+MF0270003,"\h(«Fina»)Oh, yes… I see it!
+Do you think it's Captain Daccat's Treasure?\e"
+MF0270004,\h(«Vyse»)Who's there?!\e
+MF0270005,\h(«Aika»)Who's there yourself?\e
+MF0270006,"\h(«Aika»)Oh!!!
+Vyse…! It's Vyse!!\e"
+MF0270007,\h(«Fina»)Vyse!!\e
+MF0270008,"\h(«Vyse»)Aika!
+Fina!
+You're both okay!!\e"
+MF0270009,\h(«Aika»)Vyse!!!\e
+MF0270010,"\h(«Aika»)You're alive! We raised enough money to buy a 
+boat and we were gonna go looking for you! 
+As soon as we got the treasure, of course.\e"
+MF0270011,"\h(«Fina»)Vyse…
+I'm so glad that you are alright…\e"
+MF0270012,"\h(«Fina»)Oh, I'm sorry…
+I'm a little emotional right now.
+I'm just so happy!!!\e"
+MF0270013,"\h(«Vyse»)Aika… Fina…
+I was so worried. I was gonna buy a boat to look
+for you, too.\e"
+MF0270014,\h(«Gilder»)Heh! Well look at you… \e
+MF0270015,"\h(«Gilder»)On top of that, I didn't know that your partner 
+was the cutie that I met in Nasr!\e"
+MF0270016,\h(«Aika»)We're all together again!\e
+MF0270017,\h(«Vyse»)Aww… Now what?!\e
+MF0270018,\h( )Aika and Fina have joined your party.\e
+MSF0270000,"\h(«Gilder»)¡Eh, Vyse!
+¡Creo que para eso hemos venido aquí!
+Eh, el Tesoro de Daccat.\e"
+MSF0270001,"\h(«Vyse»)¡Tiene que ser eso!
+Al fin podré comprar mi navío.\e"
+MSF0270002,"\h(«Aika»)¡Caracoles! ¡Mira, Fina! ¡¡¡Mira!!!
+¡¡¡Ese cofre del tesoro es ENORME!!!\e"
+MSF0270003,"\h(«Fina»)Oh, sí…… ¡Ya lo veo!
+¿Tú crees que ése es el Tesoro del Capitán
+Daccat?\e"
+MSF0270004,\h(«Vyse»)¡¿Quién anda ahí?!\e
+MSF0270005,\h(«Aika»)¿Quién eres tú?\e
+MSF0270006,"\h(«Aika»)¡¡¡Oh!!!
+¡Vyse……! ¡¡Es Vyse!!\e"
+MSF0270007,\h(«Fina»)¡¡Vyse!!\e
+MSF0270008,"\h(«Vyse»)¡Aika!
+¡Fina!
+¡¡Estáis las dos bien!!\e"
+MSF0270009,\h(«Aika»)¡¡¡Vyse!!!\e
+MSF0270010,"\h(«Aika»)¡Estás vivo! ¡Reunimos bastante dinero para
+comprar un barco y te íbamos a buscar!
+Cuando encontramos el tesoro, claro.\e"
+MSF0270011,"\h(«Fina»)Vyse……
+Me alegro tanto de que estéis bien……\e"
+MSF0270012,"\h(«Fina»)Oh, lo siento……
+Estoy un poco emocionada ahora mismo.
+¡¡¡Soy tan feliz!!!\e"
+MSF0270013,"\h(«Vyse»)Aika…… Fina……
+Estaba tan preocupado. Yo también iba a comprar
+un barco para buscaros.\e"
+MSF0270014,\h(«Gilder»)¡Eh! Mírate……\e
+MSF0270015,"\h(«Gilder»)¡No sabía que tu socia era esa monada que conocí
+en Nasr!\e"
+MSF0270016,\h(«Aika»)¡Estamos todos juntos otra vez!\e
+MSF0270017,\h(«Vyse»)Ah…… ¡¿Y ahora qué?!\e
+MSF0270018,\h( )Aika y Fina se han unido a tu grupo.\e
+MFF0270000,"\h(«Gilder»)Hé, Vyse !
+Je crois que c'est ce que nous sommes venus
+chercher ! Hé, le Trésor de Daccat.\e"
+MFF0270001,"\h(«Vyse»)C'est sûrement ça !
+Hé, je vais enfin pouvoir acheter mon navire.\e"
+MFF0270002,"\h(«Aika»)Oaouh ! Regardez, Fina ! Regardez !!!
+Ce coffre est ÉNORME !!!\e"
+MFF0270003,"\h(«Fina»)Oh, oui…… Je le vois ! Vous croyez que c'est le
+Trésor du Capitaine Daccat ?\e"
+MFF0270004,\h(«Vyse»)Qui va là ?!\e
+MFF0270005,\h(«Aika»)Qui va là ?\e
+MFF0270006,"\h(«Aika»)Oh !!!
+Vyse……! C'est Vyse !!\e"
+MFF0270007,\h(«Fina»)Vyse !!\e
+MFF0270008,"\h(«Vyse»)Aika !
+Fina !
+Vous êtes toutes les deux en vie !!\e"
+MFF0270009,\h(«Aika»)Vyse !!!\e
+MFF0270010,"\h(«Aika»)Tu es en vie ! Nous avons gagné assez d'argent
+pour acheter un bateau et nous allions partir à
+ta recherche !
+Après avoir trouvé le trésor évidemment.\e"
+MFF0270011,"\h(«Fina»)Vyse……
+Je suis tellement contente que tu sois en vie……\e"
+MFF0270012,"\h(«Fina»)Oh, je suis désolée……
+Je suis un peu émue.
+Je suis tellement heureuse !!!\e"
+MFF0270013,"\h(«Vyse»)Aika…… Fina……
+J'étais tellement inquiet. Moi aussi, j'allais
+acheter un bateau pour partir à votre recherche.\e"
+MFF0270014,\h(«Gilder»)Hé ! Regardez……\e
+MFF0270015,"\h(«Gilder»)En plus de ça, je ne savais pas que ton
+partenaire était la mignonne que j'ai rencontrée
+à Nasr !\e"
+MFF0270016,\h(«Aika»)Nous sommes tous ensemble maintenant !\e
+MFF0270017,\h(«Vyse»)Ooh…… Qu'est-ce que c'est encore ?!\e
+MFF0270018,\h( )Aika et Fina vous ont rejoints.\e
+MGF0270000,"\h(«Gilder»)He, Vyse!
+Ich glaube, danach haben wir gesucht!
+Daccats Schatz!.\e"
+MGF0270001,"\h(«Vyse»)Das muss er sein!
+He, jetzt kann ich mein Schiff kaufen!\e"
+MGF0270002,"\h(«Aika»)Wow! Schau, Fina! Schau her!!!
+Diese Schatztruhe ist RIESIG!!!\e"
+MGF0270003,"\h(«Fina»)Oh, ja…… ich sehe sie!
+Meinst du, es ist Captain Daccats Schatz?\e"
+MGF0270004,\h(«Vyse»)Wer ist da?!\e
+MGF0270005,\h(«Aika»)Wer ist denn DA?\e
+MGF0270006,"\h(«Aika»)Oh!!!
+Vyse……! Es ist Vyse!!\e"
+MGF0270007,\h(«Fina»)Vyse!!\e
+MGF0270008,"\h(«Vyse»)Aika!
+Fina!
+Ihr seid beide wohlauf!!\e"
+MGF0270009,\h(«Aika»)Vyse!!!\e
+MGF0270010,"\h(«Aika»)Du lebst! Wir haben genügend Geld für ein
+Boot besorgt und wollten nach dir suchen!
+Sobald wir den Schatz gefunden hätten natürlich.\e"
+MGF0270011,"\h(«Fina»)Vyse……
+Ich bin so froh, dass es dir gut geht……\e"
+MGF0270012,"\h(«Fina»)Oh, tut mir leid!
+Meine Gefühle gehen mit mir durch.
+Ich bin einfach so glücklich!!!\e"
+MGF0270013,"\h(«Vyse»)Aika……  Fina……
+Ich habe mir solche Sorgen gemacht. Ich wollte
+auch ein Boot kaufen, um nach euch zu suchen.\e"
+MGF0270014,"\h(«Gilder»)He! Na, da schau her……\e"
+MGF0270015,"\h(«Gilder»)Und zu allem Überfluss hatte ich nicht gewusst,
+dass deine Partnerin diese süße Biene ist,
+die ich in Nasr kennen gelernt habe!\e"
+MGF0270016,\h(«Aika»)Jetzt sind wir wieder alle zusammen!\e
+MGF0270017,\h(«Vyse»)Hmmm…… Und jetzt?!\e
+MGF0270018,"\h( )Aika und Fina haben sich deiner Gruppe
+angeschlossen.\e"
+MF0380000,"\h(«Gilder»)Heh…
+Let's see what the greatest Air Pirate of all 
+time has to offer.\e"
+MF0380001,\h(«Gilder»)… What?\e
+MF0380002,\h(«Gilder»)What's this?!\e
+MF0380003,\h(«Vyse»)What the?!\e
+MF0380004,"\h(«Aika»)A piece of paper…
+And a single gold coin?\e"
+MF0380005,"\h(«Vyse»)“Brave souls that come seeking my treasure, do 
+not be discouraged. You already have the most 
+valuable treasures in the world.”\e"
+MF0380006,"\h(«Vyse»)“Comrades, trust, and cooperation.
+Those are the only true treasures in this world.
+                                         Daccat”\e"
+MF0380007,\h(«Vyse»)“Daccat”…\e
+MF0380008,\h(«Vyse»)I don't believe this…\e
+MF0380009,\h(«Aika»)That's it? No gems… No jewels?!\e
+MF0380010,"\h(«Gilder»)HAHAHAHAHA!!!
+I didn't know that Daccat had such a great sense
+of humor. \e"
+MF0380011,"\h(«Gilder»)I haven't laughed this hard in a long time! A 
+good laugh beats a bunch of gold any day.\e"
+MF0380012,"\h(«Fina»)Well, this treasure has brought us all back 
+together… and friends are more important 
+than any treasure.\e"
+MF0380013,"\h(«Aika»)I understand that friends are important… but he
+could've at least threw in a little something 
+for our trouble!\e"
+MF0380014,"\h(«Aika»)First it was the Lost City… then it was
+Daccat's Treasure… All of these old legends
+haven't paid off one bit.\e"
+MF0380015,"\h(«Vyse»)Hahaha! I'll bet the greatest Air Pirate of all
+time spent all of his gold while he was still 
+alive. You can't take it with you, y'know.\e"
+MF0380016,"\h(«Aika»)Some old bag of bones is in his grave laughing 
+at us right now!!! We ran around like idiots the
+whole time. And we're still poor!\e"
+MF0380017,\h( )You received “Daccat's Coin.”\e
+MSF0380000,"\h(«Gilder»)Eh……
+Vamos a ver lo que tiene que ofrecer el más
+grande Pirata Aéreo de todos los tiempos.\e"
+MSF0380001,\h(«Gilder»)…… ¿Qué?\e
+MSF0380002,\h(«Gilder»)¡¿Qué es esto?!\e
+MSF0380003,\h(«Vyse»)¡¿Pero qué?!\e
+MSF0380004,"\h(«Aika»)Un pedazo de papel……
+¿y una moneda de oro?\e"
+MSF0380005,"\h(«Vyse»)“Las almas valerosas que van en busca de mi
+tesoro no deben descorazonarse. Ya poseen el
+tesoro más valioso que existe en el mundo.”\e"
+MSF0380006,"\h(«Vyse»)“Camaradas, confianza y cooperación.
+Esos son los únicos tesoros que hay en el mundo.
+Daccat”\e"
+MSF0380007,\h(«Vyse»)“Daccat”……\e
+MSF0380008,\h(«Vyse»)No me lo creo……\e
+MSF0380009,\h(«Aika»)¿Eso es todo? ¡¿Nada de gemas…… ni joyas?!\e
+MSF0380010,"\h(«Gilder»)¡¡¡JAJAJAJAJA!!!
+No sabía que Daccat tenía tanto sentido del
+humor.\e"
+MSF0380011,"\h(«Gilder»)¡Hacía siglos que no me reía tanto! Una buena
+carcajada es mejor que un puñado de oro.\e"
+MSF0380012,"\h(«Fina»)Bueno, este tesoro nos ha vuelto a reunir……
+y los amigos son más importantes que cualquier
+tesoro.\e"
+MSF0380013,"\h(«Aika»)Comprendo que los amigos son importantes……
+¡pero por lo menos podía haber dejado algo para
+un caso de necesidad!\e"
+MSF0380014,"\h(«Aika»)Primero la Ciudad Perdida…… luego el Tesoro de
+Daccat…… Todas estas míticas leyendas no nos han
+reportado el más mínimo beneficio.\e"
+MSF0380015,"\h(«Vyse»)¡Jajaja! Me apuesto a que el mejor Pirata Aéreo
+de todos los tiempos se gastó todo su oro en
+vida. No puedes llevártelo contigo al más allá,
+sabes.\e"
+MSF0380016,"\h(«Aika»)¡¡¡Ahora mismo, alguien se está riendo de
+nosotros desde la tumba!!! Hemos estado viajando
+sin parar. ¡Y seguimos tan pobres como las
+ratas!\e"
+MSF0380017,\h( )Tienes la “Moneda de Daccat”.\e
+MFF0380000,"\h(«Gilder»)Hé……
+Voyons ce que le plus grand Pirate de l'Air de
+tous les temps nous offre.\e"
+MFF0380001,\h(«Gilder»)…… Quoi ?\e
+MFF0380002,\h(«Gilder»)Qu'est-ce que c'est ?!\e
+MFF0380003,\h(«Vyse»)Hein ?!\e
+MFF0380004,"\h(«Aika»)Un bout de papier……
+Et une seule pièce d'or ?\e"
+MFF0380005,"\h(«Vyse»)“Braves âmes qui venez chercher mon trésor, ne
+vous découragez pas. Vous possédez déjà le plus
+précieux des trésors au monde.”\e"
+MFF0380006,"\h(«Vyse»)“Camaraderie, confiance, et coopération.
+Ce sont les seuls vrais trésors.
+                                         Daccat”\e"
+MFF0380007,\h(«Vyse»)“Daccat”……\e
+MFF0380008,\h(«Vyse»)Je n'y crois pas……\e
+MFF0380009,\h(«Aika»)C'est tout ? Pas de gemmes…… Pas de bijoux ?!\e
+MFF0380010,"\h(«Gilder»)HAHAHAHAHA !!!
+Je ne savais pas que Daccat avait autant
+d'humour.\e"
+MFF0380011,"\h(«Gilder»)Je n'ai pas autant ri depuis longtemps !
+Une bonne crise de rire vaut bien un peu d'or.\e"
+MFF0380012,"\h(«Fina»)Bon, ce trésor nous a réunis…… et les amis sont
+plus importants que n'importe quel trésor.\e"
+MFF0380013,"\h(«Aika»)Je comprends que les amis sont importants…… mais
+il aurait au moins pu laisser un petit quelque
+chose pour la peine que l'on s'est donnée !\e"
+MFF0380014,"\h(«Aika»)D'abord la Cité Perdue…… puis le Trésor de
+Daccat…… Toutes ces vieilles légendes ne nous
+ont rien apporté du tout.\e"
+MFF0380015,"\h(«Vyse»)Hahaha ! Je parie que le plus grand Pirate de
+l'Air de tous les temps a dépensé tout son or de
+son vivant. On ne l'emporte pas avec nous, vous
+savez.\e"
+MFF0380016,"\h(«Aika»)Cette vieille carcasse doit être en train de
+rire dans sa tombe !!! Nous avons couru dans
+tous les sens comme des idiots. Et nous sommes
+toujours aussi pauvres !\e"
+MFF0380017,\h( )Vous avez reçu la “Pièce de Daccat.”\e
+MGF0380000,"\h(«Gilder»)Also……
+Mal sehen, was der größte Luftpirat der Welt
+so alles kann.\e"
+MGF0380001,\h(«Gilder»)…… Was?\e
+MGF0380002,\h(«Gilder»)Was ist das?!\e
+MGF0380003,\h(«Vyse»)Was zum……?!\e
+MGF0380004,"\h(«Aika»)Ein Blatt Papier……
+Und eine einzige Goldmünze?\e"
+MGF0380005,"\h(«Vyse»)“Ihr tapferen Gemüter, die ihr nach meinem
+Schatz sucht, lasst euch nicht entmutigen.
+Ihr besitzt bereits die wertvollsten Schätze
+der Welt.”\e"
+MGF0380006,"\h(«Vyse»)“Freunde, Vertrauen und Zusammenarbeit.
+Das sind die einzig wahren Schätze dieser Welt.
+                                         Daccat”\e"
+MGF0380007,\h(«Vyse»)“Daccat”……\e
+MGF0380008,\h(«Vyse»)Das glaube ich nicht……\e
+MGF0380009,"\h(«Aika»)Das soll alles sein? Keine Edelsteine……
+Keine Juwelen?!\e"
+MGF0380010,"\h(«Gilder»)HAHAHAHAHA!!!
+Ich wusste gar nicht, dass Daccat Sinn für Humor
+hatte!\e"
+MGF0380011,"\h(«Gilder»)Ich hab schon lange nicht mehr so sehr gelacht!
+Einmal so richtig lachen ist sowieso mehr
+wert als ein Haufen Gold.\e"
+MGF0380012,"\h(«Fina»)Nun, dieser Schatz hat uns alle wieder
+vereint…… und Freunde sind wichtiger als
+jeder Schatz.\e"
+MGF0380013,"\h(«Aika»)Ich weiß, Freunde sind wichtig…… aber er
+hätte ja wenigstens eine Kleinigkeit für
+unsere Mühe hinterlassen können!\e"
+MGF0380014,"\h(«Aika»)Zuerst die Lost City…… dann Daccats Schatz……
+All diese alten Legenden haben uns nur
+irregeführt!\e"
+MGF0380015,"\h(«Vyse»)Hahaha! Ich wette, der größte Luftpirat aller
+Zeiten hat all sein Gold bereits zu Lebzeiten
+ausgegeben. Man kann's sowieso nicht mit
+ins Grab nehmen.\e"
+MGF0380016,"\h(«Aika»)Da liegt das alte Knochengerüst in seinem
+Grab und lacht uns aus!!! Wir sind die ganze
+Zeit wie verrückt umhergelaufen. Und arm sind
+wir noch immer!\e"
+MGF0380017,\h( )Du erhieltst “Daccats Münze.”\e
+M01150000,"\h(«Aika»)Hey! Why won't this door open?! It won't even
+budge!!\e"
+M01150001,"\h(«Fina»)There's something written here… It's an old
+language, but I think I can read it…\e"
+M01150002,"\h(«Fina»)“When the two become one, the path will
+reveal itself to you…”\e"
+M01150003,"\h(«Aika»)What's that supposed to mean?! Why is Daccat
+being so stingy?! It's not like any of his gold
+means anything to him anymore!!!\c"
+M01150004,"\h(«Aika»)Oh, great! More doors that won't open!
+I really don't get what Daccat was thinking when
+he built this place…\c"
+M01150005,"\h(«Vyse»)Another door…
+Damn… This one won't budge either.\c"
+M01150006,\h(«Vyse»)A lever? I wonder what it's for…\c
+M01150007,"\h(«Aika»)Doors that open by themselves… Levers that we
+have no idea what they do… I really, really
+don't get this place.\c"
+M01150008,"\h(«Aika»)Another door?  Just great… But wait, what's
+this stone tablet on the ground for?\c"
+M01150009,"\h(«Vyse»)Hmm… There's probably some trick to opening
+this door, too.\c"
+M01150010,"\h(«Aika»)Another door with a stone tablet on the ground.
+Well, it worked when we stepped on the tablet
+last time…\c"
+M01150011,"\h(«Vyse»)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01150012,"\h(«Aika»)Another door with a stone tablet on the ground.
+Well, it worked when we stepped on the tablet
+last time…\c"
+M01150013,"\h(«Vyse»)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01150014,"\h(«Aika»)Another door with a stone tablet on the ground.
+Well, it worked when we stepped on the tablet
+last time…\c"
+M01150015,"\h(«Vyse»)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01150016,"\h(«Vyse»)It seems like the legendary Air Pirate
+Daccat had a pretty good sense of humor.\c"
+M01150017,"\h(«What do you want to do?»)“Return to your ship.”
+“Stay here for a little while longer.”\c"
+M01150018,"\h(«What do you want to do?»)“Return to your ship.”
+“Stay here for a little while longer.”\c"
+M01150019,"\h(«What do you want to do?»)“Return to the Delphinus.”
+“Stay here for a little while longer.”\c"
+MS01150000,"\h(«Aika»)¡Pero bueno! ¡¿Por qué esta puerta no quiere
+abrirse?! ¡¡Ni siquiera la puedo mover!!\e"
+MS01150001,"\h(«Fina»)Aquí hay algo escrito…… En un lenguaje antiguo,
+pero creo que puedo leerlo……\e"
+MS01150002,"\h(«Fina»)“Cuando los dos sean uno, el sendero se te
+revelará por sí solo……”\e"
+MS01150003,"\h(«Aika»)¡¿Y eso qué rayos significa?! ¡Pues sí que es
+mísero ese Daccat! ¡¡¡A estas alturas no creo
+que el oro le vaya a servir de mucho!!!\c"
+MS01150004,"\h(«Aika»)¡Ah, genial! ¡Más puertas que no se abren!
+De verdad que no sé en qué estaba pensando
+Daccat cuando construyó este sitio……\c"
+MS01150005,"\h(«Vyse»)Otra puerta……
+Maldición…… Ésta tampoco se abre.\c"
+MS01150006,\h(«Vyse»)¿Una palanca? Me pregunto para qué sirve……\c
+MS01150007,"\h(«Aika»)Puertas que se abren solas…… Palancas que no se
+sabe para qué sirven…… De verdad que no entiendo
+nada, nada de lo que pasa aquí.\c"
+MS01150008,"\h(«Aika»)¿Otra puerta? Genial…… Pero un momento,
+¿para qué sirve esta losa del suelo?\c"
+MS01150009,"\h(«Vyse»)Mmm…… Seguro que hay algún truco para abrir la
+puerta.\c"
+MS01150010,"\h(«Aika»)Otra puerta con una losa en el suelo.
+Bueno, cuando pisé sobre la otra losa funcionó……\c"
+MS01150011,"\h(«Vyse»)Por lo visto tengo que pisar sobre las losas
+para abrir la puerta. Creo que hay que esperar
+un rato……\c"
+MS01150012,"\h(«Aika»)Otra puerta con una losa en el suelo.
+Bueno, cuando pisé sobre la otra losa funcionó……\c"
+MS01150013,"\h(«Vyse»)Por lo visto tengo que pisar sobre las losas
+para abrir la puerta. Creo que hay que esperar
+un rato……\c"
+MS01150014,"\h(«Aika»)Otra puerta con una losa en el suelo.
+Bueno, cuando pisé sobre la otra losa funcionó……\c"
+MS01150015,"\h(«Vyse»)Por lo visto tengo que pisar sobre las losas
+para abrir la puerta. Creo que hay que esperar
+un rato……\c"
+MS01150016,"\h(«Vyse»)Parece que el legendario Pirata Aéreo
+Daccat tenía un gran sentido del humor.\c"
+MS01150017,"\h(«¿Qué quieres hacer?»)“Volver al barco.”
+“Quedarme aquí un poco más.”\c"
+MS01150018,"\h(«¿Qué quieres hacer?»)“Volver al barco.”
+“Quedarme aquí un poco más.”\c"
+MS01150019,"\h(«¿Qué quieres hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un poco más.”\c"
+MF01150000,"\h(«Aika»)Hé ! Pourquoi cette porte ne s'ouvre pas ?!
+Elle ne bouge même pas !!\e"
+MF01150001,"\h(«Fina»)Il y a une inscription…… C'est un vieux langage,
+mais je crois pouvoir le lire……\e"
+MF01150002,"\h(«Fina»)“Quand les deux ne font plus qu'un, le chemin
+vous apparaîtra……”\e"
+MF01150003,"\h(«Aika»)Qu'est-ce que cela veut dire ?! Pourquoi Daccat
+est aussi avare ?! Après tout son or ne signifie
+plus rien pour lui !!!\c"
+MF01150004,"\h(«Aika»)Oh, génial ! Encore des portes qui ne s'ouvrent
+pas ! Je me demande vraiment à quoi pensait
+Daccat en construisant cet endroit……\c"
+MF01150005,"\h(«Vyse»)Encore une porte……
+Sacrebleu…… Celle-ci ne bouge pas non plus.\c"
+MF01150006,\h(«Vyse»)Un levier ? Je me demande à quoi il sert……\c
+MF01150007,"\h(«Aika»)Des portes qui s'ouvrent toutes seules……
+Des leviers dont on ne connaît pas l'usage……
+Cet endroit est un véritable mystère.\c"
+MF01150008,"\h(«Aika»)Encore une porte ?  Génial…… Mais attendez,
+quelle est cette tablette de pierre au sol ?\c"
+MF01150009,"\h(«Vyse»)Humm…… Il doit aussi y avoir une astuce pour
+ouvrir cette porte.\c"
+MF01150010,"\h(«Aika»)Une autre porte avec une tablette de pierre au
+sol. Bon, cela a fonctionné la dernière fois que
+nous avons marché sur la tablette……\c"
+MF01150011,"\h(«Vyse»)Apparemment, il faut marcher sur cette tablette
+pour ouvrir la porte. Je crois que je dois
+rester debout ici pendant un certain temps……\c"
+MF01150012,"\h(«Aika»)Une autre porte avec une tablette de pierre au
+sol. Bon, cela a fonctionné la dernière fois que
+nous avons marché sur la tablette……\c"
+MF01150013,"\h(«Vyse»)Apparemment, il faut marcher sur cette tablette
+pour ouvrir la porte. Je crois que je dois
+rester debout ici pendant un certain temps……\c"
+MF01150014,"\h(«Aika»)Une autre porte avec une tablette de pierre au
+sol. Bon, cela a fonctionné la dernière fois que
+nous avons marché sur la tablette……\c"
+MF01150015,"\h(«Vyse»)Apparemment, il faut marcher sur cette tablette
+pour ouvrir la porte. Je crois que je dois
+rester debout ici pendant un certain temps……\c"
+MF01150016,"\h(«Vyse»)On dirait que le Pirate de l'Air Daccat avait un
+bon sens de l'humour.\c"
+MF01150017,"\h(«Que voulez-vous faire ?»)“Vous retournerez sur votre navire.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MF01150018,"\h(«Que voulez-vous faire ?»)“Vous retournerez sur votre navire.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MF01150019,"\h(«Que voulez-vous faire ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MG01150000,"\h(«Aika»)He! Warum geht diese Tür nicht auf?! Sie
+bewegt sich überhaupt nicht!!\e"
+MG01150001,"\h(«Fina»)Hier steht etwas geschrieben…… es ist in
+einer alten Sprache, aber ich glaube, ich
+kann es lesen……\e"
+MG01150002,"\h(«Fina»)“Wenn die beiden eins werden, wird sich dir
+der Weg eröffnen”.\e"
+MG01150003,"\h(«Aika»)Was soll denn das heißen?! Warum ist Daccat
+so knauserig?! Er hat doch sowieso nichts
+mehr von seinem Gold!!!\c"
+MG01150004,"\h(«Aika»)Na toll! Noch mehr Türen, die sich nicht
+öffnen! Ich verstehe wirklich nicht, was
+sich Daccat dabei gedacht hat, als er das
+hier gebaut hat……\c"
+MG01150005,"\h(«Vyse»)Noch eine Tür……
+Verdammt…… die öffnet sich auch nicht.\c"
+MG01150006,\h(«Vyse»)Ein Hebel? Wozu ist der wohl gut?\c
+MG01150007,"\h(«Aika»)Türen, die sich von selbst öffnen…… Hebel,
+von denen wir keine Ahnung haben, wozu sie
+dienen…… ich verstehe das hier wirklich nicht.\c"
+MG01150008,"\h(«Aika»)Noch eine Tür?  Wunderbar…… aber warte,
+wozu ist diese steinerne Tafel auf dem Boden?\c"
+MG01150009,"\h(«Vyse»)Hmm…… für diese Tür gibt es wahrscheinlich
+auch einen Trick, um sie zu öffnen.\c"
+MG01150010,"\h(«Aika»)Noch eine Tür mit einer steinernen Tafel am
+Boden. Also, das letzte Mal, als wir auf die
+Tafel traten, hat es ja geklappt……\c"
+MG01150011,"\h(«Vyse»)Ich muss wohl auf diese Tafel treten, damit
+sich die Tür öffnet. Ich glaube, ich muss
+nur eine bestimmte Zeit hier stehen bleiben……\c"
+MG01150012,"\h(«Aika»)Noch eine Tür mit einer steinernen Tafel am
+Boden. Also, das letzte Mal, als wir auf die
+Tafel traten, hat es ja geklappt……\c"
+MG01150013,"\h(«Vyse»)Ich muss wohl auf diese Tafel treten, damit
+sich die Tür öffnet. Ich glaube, ich muss
+nur eine bestimmte Zeit hier stehen bleiben……\c"
+MG01150014,"\h(«Aika»)Noch eine Tür mit einer steinernen Tafel am
+Boden. Also, das letzte Mal, als wir auf die
+Tafel traten, hat es ja geklappt……\c"
+MG01150015,"\h(«Vyse»)Ich muss wohl auf diese Tafel treten, damit
+sich die Tür öffnet. Ich glaube, ich muss
+nur eine bestimmte Zeit hier stehen bleiben……\c"
+MG01150016,"\h(«Vyse»)Sieht so aus, als hätte der legendäre Luftpirat
+Daccat einen ziemlich guten Sinn für Humor.\c"
+MG01150017,"\h(«Was willst du tun?»)“Zu deinem Schiff zurückkehren.”
+“Noch eine Weile hier bleiben.”\c"
+MG01150018,"\h(«Was willst du tun?»)“Zu deinem Schiff zurückkehren.”
+“Noch eine Weile hier bleiben.”\c"
+MG01150019,"\h(«Was willst du tun?»)“Zur Delphinus zurückkehren.”
+“Noch eine Weile hier bleiben.”\c"
+"",戦闘終了\c
+"",戦闘終了\c
+"",me115b.sct
+"",me115b.sct
+"",M0250
+"",M0249
+"",m5150000
+"",F27発生しました。\c
+"",a115cf27.mld
+"",a115cf27.mld
+"",a115cf27_efe.mld
+"",a115cf27_efe.mld
+"",M0250
+"",M0316
+"",e6f027
+"",M0326
+"",a115cf27.mld
+"",a115cf27_efe.mld
+"",F38発生しました。\c
+"",a115cf38.mld
+"",a115cf38.mld
+"",e6f038
+"",M0250
+"",M0312
+"",M0312
+"",a115cf38.mld

@@ -1,0 +1,557 @@
+[Event Name],Task ID
+M01060000,"\h(«Marco»)Hey… You really did it. You rescued your
+friends. I can't believe it. You really are
+something…\e"
+M01060001,"\h(«Vyse»)Marco!
+What are you doing here?\e"
+M01060002,"\h(«Marco»)I told you before, right? I live here.
+I know everything about these sewers.\e"
+M01060003,"\h(«Marco»)This wall was built with a secret door.
+I took your friends into the secret room just
+behind me.\c"
+M01060004,"\h(«Marco»)Your friends are waiting in the room right
+behind me. Hurry up before the guards get smart
+and come looking through this area.\c"
+M01060005,"\h(«Briggs the Vice Captain»)Alright, we managed to get out of the Coliseum,
+but now what? We still have to get out of Valua.
+And that's no easy task by any measure.\c"
+M01060006,"\h(«Timmus the Gunner»)Heh… It's been a while since I've had so much
+fun! How often do we get to pound on Valuans in
+their own country?\c"
+M01060007,"\h(«Borris the Gunner»)When they were moving us, they put us on some
+sort of rail car. I've never seen anything like
+that before in my whole life.\e"
+M01060008,"\h(«Borris the Gunner»)They got these metal boxes all lined up
+one after the other, like some big, long
+bug… That's one strange way to get places.\c"
+M01060009,"\h(«Landis the Navigator»)I can't believe you actually did it, Vyse!
+You showed those Valuans a thing or two!
+Haha… You were great!\c"
+M01060010,"\h(«Luke the Raider»)You never cease to amaze me.
+I never would have thought
+I'd see you here.\e"
+M01060011,"\h(«Luke the Raider»)But I'm glad you showed up.
+We all owe you one.\c"
+M01060012,"\h(«Patch the Deckhand»)There are no signs of anyone following us. But,
+it's probably just a matter of time before they
+find this place, too.\e"
+M01060013,"\h(«Patch the Deckhand»)Now we just have to try and figure a way to get
+out of Valua. Heh… Easier said than done, I
+suppose. But, we've made it this far, at least…\c"
+M01060014,"\h(«Dyne»)Vyse! What are you doing? We need to decide on
+some sort of plan here! Everyone's lives are at
+stake! Don't go wandering around!\c"
+M01060015,"\h(«Vyse»)… Hm? Is it just me, or is the color of
+the wall here a little different from
+everywhere else? It's probably nothing.\c"
+M01060016,"\h(«Vyse»)This is where the secret door that led to Upper
+City was, but it won't budge.\e"
+M01060017,"\h(«Vyse»)Marco is probably the only person who knows how
+to open it. Oh well… I guess there isn't much I
+can do.\c"
+M01060020,"\h(«Vyse»)It looks like this ladder leads straight up into
+the Coliseum…\e"
+M01060021,"\h(«What will you do?»)“Break into the Coliseum!”
+“Finish up some preparations first.”\c"
+M01060018,"\h(«Vyse»)The Coliseum is in a state of confusion right
+now. We really need to get everyone out of here
+while we have the chance.\c"
+M01060019,"\h(«Vyse»)The Coliseum is probably crawling with guards.
+I'd rather not get caught right now, so it's
+probably better not to climb up the ladder.\c"
+MF01060000,"\h(«Marco»)Hé…… Vous avez réussi. Vous avez sauvé vos amis.
+C'est incroyable. Vous êtes exceptionnel……\e"
+MF01060001,"\h(«Vyse»)Marco !
+Que faites-vous ici ?\e"
+MF01060002,"\h(«Marco»)Je vous l'ai déjà dit, non ? J'habite ici.
+Je connais ces égouts par coeur.\e"
+MF01060003,"\h(«Marco»)Une porte secrète a été construite dans le mur.
+J'ai emmené vos amis dans la pièce secrète
+derrière moi.\c"
+MF01060004,"\h(«Marco»)Vos amis attendent dans la pièce juste derrière
+moi. Dépêchez-vous avant que les gardes
+comprennent et viennent chercher par ici.\c"
+MF01060005,"\h(«Briggs le Vice Capitaine»)Très bien, nous avons réussi à sortir du
+Coliseum, et maintenant ? Il faut sortir de
+Valua. Et ce n'est certainement pas chose
+facile.\c"
+MF01060006,"\h(«Timmus le Canonnier»)Hé…… Je ne m'étais pas autant amusé depuis
+longtemps ! Ce n'est pas tous les jours que nous
+écrasons les Valuans sur leur propre
+territoire !\c"
+MF01060007,"\h(«Borris le Canonnier»)Pour nous transférer, ils nous ont mis sur une
+sorte d'autorail. Je n'ai jamais rien vu de
+pareil de ma vie.\e"
+MF01060008,"\h(«Borris le Canonnier»)Ils ont des boîtes métalliques alignées les unes
+après les autres, comme une sorte de grosse
+chenille…… C'est un étrange moyen de
+transport.\c"
+MF01060009,"\h(«Landis le Navigateur»)Je n'arrive pas à croire que vous ayez réussi,
+Vyse ! Vous leur avez appris à vivre à ces
+Valuans ! Haha…… Vous avez été formidable !\c"
+MF01060010,"\h(«Luke le Braqueur»)Vous m'étonnerez toujours.
+Je ne pensais pas vous voir un jour ici.\e"
+MF01060011,"\h(«Luke le Braqueur»)Mais je suis content que vous soyez venu.
+Nous vous redevrons cela.\c"
+MF01060012,"\h(«Patch le Matelot»)Personne n'est à nos trousses. Mais, ils ne vont
+probablement pas tarder à trouver cet endroit.\e"
+MF01060013,"\h(«Patch le Matelot»)Maintenant il faut trouver un moyen de sortir de
+Valua. Hé…… C'est plus facile à dire qu'à faire,
+j'imagine. Mais, au moins nous sommes arrivés
+jusque là……\c"
+MF01060014,"\h(«Dyne»)Vyse ! Que faites-vous ? Il faut élaborer un
+plan ! Nos vies sont en jeu ! N'allez pas à
+droite et à gauche !\c"
+MF01060015,"\h(«Vyse»)…… Hum ? C'est mon imagination ou est-ce que la
+couleur du mur est un peu différente ici ?
+C'est sûrement rien.\c"
+MF01060016,"\h(«Vyse»)C'est là qu'il y avait la porte secrète qui
+menait à Haut Valua, mais elle ne bouge pas.\e"
+MF01060017,"\h(«Vyse»)Marco doit être la seule personne à savoir
+l'ouvrir. Oh tant pis…… Je suppose que je n'y
+peux pas grand chose.\c"
+MF01060020,"\h(«Vyse»)On dirait que cette échelle mène tout droit au
+Coliseum……\e"
+MF01060021,"\h(«Que ferez-vous ?»)“Vous entrerez par effraction dans le Coliseum!”
+“Vous finirez d'abord quelques préparations.”\c"
+MF01060018,"\h(«Vyse»)C'est la panique au Coliseum. Il faut vraiment
+faire sortir tout le monde d'ici tant que nous
+en avons l'occasion.\c"
+MF01060019,"\h(«Vyse»)Ça doit grouiller de gardes au Coliseum.
+Je n'ai pas envie de me faire prendre, donc il
+ne vaut mieux pas monter à l'échelle.\c"
+MG01060000,"\h(«Marco»)He…… du hast es geschafft. Du hast deine
+Freunde gerettet. Ich kann's nicht glauben.
+Du hast wirklich was auf dem Kasten……\e"
+MG01060001,"\h(«Vyse»)Marco!
+Was machst du denn hier?\e"
+MG01060002,"\h(«Marco»)Habe ich dir doch schon gesagt, oder?
+Ich wohne hier. Ich weiß alles über diese
+unterirdischen Gänge.\e"
+MG01060003,"\h(«Marco»)In dieser Wand ist eine Geheimtür.
+Ich habe deine Freunde mit in das Geheimzimmer
+gleich hinter mir genommen.\c"
+MG01060004,"\h(«Marco»)Deine Freunde warten im Zimmer direkt hinter
+mir. Beeil dich, bevor die Wachen etwas
+bemerken und diesen Bereich durchsuchen.\c"
+MG01060005,"\h(«Briggs, der Vizekapitän»)Also, wir haben es geschafft, aus dem Coliseum
+zu entfliehen, aber was jetzt? Wir müssen nach
+wie vor aus Valua heraus. Und das ist in
+keinerlei Hinsicht einfach.\c"
+MG01060006,"\h(«Timmus, der Kanonier»)He…… es ist schon lange her, dass ich so viel
+Spaß hatte! Wie oft haben wir schon Gelegenheit,
+den Valuanern in ihrem eigenen Land eine Tracht
+Prügel zu verpassen?\c"
+MG01060007,"\h(«Borris, der Kanonier»)Zum Transport haben sie
+uns in so eine Art Schienenwagen gesetzt.
+Ich habe so etwas noch nie zuvor gesehen.\e"
+MG01060008,"\h(«Borris, der Kanonier»)Da war ein Haufen Metallkästen, einer nach dem
+anderen aneinander gereiht, so wie ein großer,
+langer Käfer…… eine seltsame Art zu reisen.\c"
+MG01060009,"\h(«Landis, der Navigator»)Ich kann's nicht glauben, dass du es geschafft
+hast, Vyse! Du hast es diesen Valuanern
+vielleicht gezeigt! Haha…… Du warst toll!\c"
+MG01060010,"\h(«Luke, der Räuber»)Du kannst einen vielleicht überraschen.
+Ich hätte nie gedacht, dass ich dich hier
+antreffen würde.\e"
+MG01060011,"\h(«Luke, der Räuber»)Aber ich bin froh, dass du gekommen bist.
+Wir stehen alle in deiner Schuld.\c"
+MG01060012,"\h(«Patch, der Hilfsmatrose»)Es sieht nicht so aus, als würden wir verfolgt.
+Aber es ist wahrscheinlich nur eine Frage der
+Zeit, bevor sie auch das hier finden.\e"
+MG01060013,"\h(«Patch, der Hilfsmatrose»)Jetzt müssen wir erst einmal versuchen, aus
+Valua herauszukommen. He…… leichter gesagt als
+getan, würde ich sagen. Aber bis hier haben wir
+es jedenfalls geschafft……\c"
+MG01060014,"\h(«Dyne»)Vyse! Was machst du? Wir müssen uns für
+irgendeinen Plan entscheiden! Unser aller Leben
+steht auf dem Spiel! Lauf nicht einfach in der
+Gegend herum!\c"
+MG01060015,"\h(«Vyse»)……Hm? Sehe ich schlecht, oder sieht die Farbe
+dort an der Wand etwas anders aus? Das hat
+wahrscheinlich nichts zu bedeuten.\c"
+MG01060016,"\h(«Vyse»)Das ist die Stelle, wo die Geheimtür war, die
+nach Upper City führte, aber sie gibt nicht
+nach.\e"
+MG01060017,"\h(«Vyse»)Marco ist wahrscheinlich der Einzige, der
+sie öffnen kann. Na ja…… schätze, da kann
+man nicht viel machen.\c"
+MG01060020,"\h(«Vyse»)Es sieht so aus, als führte diese Leiter direkt
+ins Coliseum……\e"
+MG01060021,"\h(«Was wirst du tun?»)“Ins Coliseum einbrechen!”
+“Erst einige Vorbereitungen treffen.”\c"
+MG01060018,"\h(«Vyse»)Das Coliseum ist im Moment im Zustand der
+Verwirrung. Wir müssen wirklich alle
+herausbekommen, solange wir die Gelegenheit
+haben.\c"
+MG01060019,"\h(«Vyse»)Das Coliseum wimmelt wahrscheinlich vor
+Wachen. Ich möchte nicht gefangen werden,
+also wäre es wahrscheinlich besser, nicht
+die Leiter hinaufzusteigen.\c"
+MS01060000,"\h(«Marco»)Lo has conseguido…… Has rescatado a tus amigos.
+No puedo creerlo. Desde luego eres increíble.\e"
+MS01060001,"\h(«Vyse»)¡Marco!
+¿Qué haces aquí?\e"
+MS01060002,"\h(«Marco»)Ya te lo he dicho, ¿no lo recuerdas? Vivo aquí.
+Conozco estas alcantarillas como la palma de mi
+mano.\e"
+MS01060003,"\h(«Marco»)En este muro edificaron una puerta secreta.
+A tus amigos los he llevado a una habitación
+secreta que está justo detrás de mí.\c"
+MS01060004,"\h(«Marco»)Tus amigos te esperan en la habitación que está
+detrás de mí. Date prisa no vaya a ser que los
+guardias se enteren y vengan a mirar aquí.\c"
+MS01060005,"\h(«El Vicecapitán Briggs»)Muy bien, nos las hemos arreglado para escapar
+del Coliseo, ¿y ahora qué? Aún tenemos que huir
+de Valua. Y eso no va a ser nada fácil.\c"
+MS01060006,"\h(«Timmus el Cañonero»)Je…… ¡Hacía tiempo que no me lo pasaba tan bien!
+¿Cuántas ocasiones hay para batir a los Valuan
+en su propia casa?\c"
+MS01060007,"\h(«Borris el Cañonero»)Cuando nos trasladaron, nos pusieron en una
+especie de coche por raíles. En mi vida había
+visto nada semejante.\e"
+MS01060008,"\h(«Borris el Cañonero»)Alinearon estas cajas metálicas, una detrás de
+otra, e hicieron como un gusano enorme…… Me
+pareció una forma rarísima de moverse.\c"
+MS01060009,"\h(«Landis el Navegante»)¡No puedo creer que llegaras a hacerlo, Vyse!
+¡Les has dado una buena lección a esos Valuan!
+Ja, ja, ja…… ¡Has estado genial!\c"
+MS01060010,"\h(«Luke el Corsario»)Nunca dejas de sorprenderme.
+Nunca hubiera pensado que te encontraría aquí.\e"
+MS01060011,"\h(«Luke el Corsario»)Pero me alegro de verte.
+Sabes que te debemos una.\c"
+MS01060012,"\h(«Patch el Cabo»)No hay señales de que nos sigan. Pero es
+cuestión de tiempo que encuentren este sitio.\e"
+MS01060013,"\h(«Patch el Cabo»)Ahora sólo tenemos que planear el modo de salir
+de Valua. Es fácil decirlo pero no hacerlo.
+Al menos hemos llegado hasta aquí……\c"
+MS01060014,"\h(«Dyne»)¡Vyse! ¿Qué haces? ¡Tenemos que trazar algún
+plan! ¡Hay muchas vidas en juego! ¡No puedes
+perder el tiempo divagando!\c"
+MS01060015,"\h(«Vyse»)…… Esto…… ¿Son imaginaciones mías o el color de
+la pared es un poco distinto por aquí?
+Probablemente no sea nada importante.\c"
+MS01060016,"\h(«Vyse»)Aquí está la puerta secreta que llevaba
+al Centro de la Ciudad, pero no se abre.\e"
+MS01060017,"\h(«Vyse»)Marco es la única persona que sabe cómo abrirla.
+Bueno…… creo que no podemos hacer mucho más.\c"
+MS01060020,\h(«Vyse»)Esta escalera lleva directamente al Coliseo……\e
+MS01060021,"\h(«¿Qué vas a hacer?»)“¡Entrar en el Coliseo!”
+“Terminar antes con otros preparativos.”\c"
+MS01060018,"\h(«Vyse»)En estos momentos el Coliseo se halla sumido en
+la confusión. Tenemos que sacarlos a todos de
+aquí, ahora que tenemos la oportunidad.\c"
+MS01060019,"\h(«Vyse»)El Coliseo estará plagado de guardias. No quiero
+me cojan ahora, así que mejor será no subir por
+la escalera en este momento.\c"
+MC0070000,"\h(«Dyne»)You were a little late, Vyse…
+If you were any later, I'd be a whole head 
+shorter right now.\e"
+MC0070001,"\h(«Dyne»)Vyse, I always knew you were tough, but breaking
+into a public execution and freeing all of us…
+Now, I think you're crazy too!\e"
+MC0070002,"\h(«Vyse»)Heh heh… what can I say? I'm not ready to take
+over as head of the Dyne Family just yet.\e"
+MC0070003,"\h(«Vyse»)Wait a minute…
+Where's Fina?\e"
+MC0070004,"\h(«Dyne»)Fina?
+When they captured us from Pirate Isle, 
+they took her somewhere else.\e"
+MC0070005,"\h(«Dyne»)I overheard some soldiers talking about her… 
+sounded like she was taken to the Valuan 
+Imperial Palace.\e"
+MC0070006,"\h(«Vyse»)What?!
+Why was she taken to the palace?\e"
+MC0070007,"\h(«Dyne»)It appears that the Empress herself wanted to 
+meet Fina.\e"
+MC0070008,"\h(«Dyne»)I've got a feeling that there's more to that 
+girl than meets the eye. She knows something 
+important enough to have Valua after her.\e"
+MC0070009,\h(«Vyse»)Fina…\e
+MC0070010,"\h(«Dyne»)… Vyse, what are you going to do?\e"
+MC0070011,"\h(«What will you do?»)“We have to go save Fina!”
+“Let's lay low for a little while…”\e"
+MC0070012,"\h(«Vyse»)Of course we have to go save Fina! 
+The guards are scattered…
+The whole island is in chaos.\e"
+MC0070013,"\h(«Dyne»)Hmm…
+It'll be dangerous, but it looks like now is our
+best chance to strike.\e"
+MC0070014,"\h(«Vyse»)We should lay low for a little while. If we 
+start combing the palace, we'll be spotted for 
+sure.\e"
+MC0070015,"\h(«Dyne»)You've still got lots to learn. This is Valua…
+we'll be discovered sooner or later, whether or
+not we remain in hiding.\e"
+MC0070016,"\h(«Dyne»)This may be our only chance to save Fina… right
+now, the Imperial troops are more concerned 
+about finding us!\e"
+MC0070017,"\h(«Drachma»)I will take all of the Air Pirates back to the 
+Little Jack. We'll be waitin' for you.\e"
+MC0070018,"\h(«Vyse»)I know…
+When the gates open, it's our only chance to 
+escape.\e"
+MC0070019,"\h(«Drachma»)First, you'll want to go to Upper City. You 
+might be able to sneak aboard a rail car that's
+on its way to the Palace.\e"
+MC0070020,"\h(«Vyse»)I see… Upper City, huh?
+Marco, how do I get to Upper City from here?\e"
+MC0070021,"\h(«Marco»)Um…
+If you go down that tunnel over there, 
+you'll reach Upper City.\e"
+MC0070022,"\h(«Vyse»)Let's go, Aika!
+We gotta save Fina!\e"
+MC0070023,"\h(«Drachma»)You need to be at the Little Jack when they open
+the gates!\e"
+MC0070024,"\h(«Marco»)But there are tons of guards in Upper City! 
+You shouldn't go! It's too dangerous!\e"
+MC0070025,"\h(«Vyse»)I'm ready for anything, Marco. In the midst of
+the storm, I can see the one path that will get
+us out of Valua. I've got to try.\e"
+MC0070026,\h( )Drachma has left the party.\e
+MC0070027,"\h(«Dyne»)Here, take this with you, Vyse. It's a little
+early to be giving this to you, but considering
+the circumstances, I'll make an exception.\e"
+MC0070028,"\h(«Vyse»)Wow! It's your Yellow Moon Stone! Thanks, Dad!\e"
+MC0070029,"\h(«Dyne»)If you use it with your weapons, they'll take on
+the properties of lightning.\e"
+MC0070030,\h( )You received the “Yellow Moon Stone” from Dyne.\e
+MFC0070000,"\h(«Dyne»)Tu étais un peu en retard, Vyse……
+Un peu plus et j'aurais rapetissé
+d'une tête.\e"
+MFC0070001,"\h(«Dyne»)Vyse, j'ai toujours su que tu étais un dur, mais
+de là à faire irruption au milieu d'une
+exécution et nous libérer tous……
+Je crois que tu es devenu fou !\e"
+MFC0070002,"\h(«Vyse»)Hé hé…… Que veux-tu que je te dise ? Je ne suis
+pas encore prêt à prendre la tête de la
+famille.\e"
+MFC0070003,"\h(«Vyse»)Attendez une minute……
+Où est Fina ?\e"
+MFC0070004,"\h(«Dyne»)Fina ?
+Lors de notre capture sur l'Île des Pirates, ils
+l'ont emmenée ailleurs.\e"
+MFC0070005,"\h(«Dyne»)J'ai entendu des soldats parler d'elle…… je
+crois qu'ils l'ont emmenée au Palais Impérial
+Valuan.\e"
+MFC0070006,"\h(«Vyse»)Quoi ?!
+Pourquoi l'ont-ils emmenée au palais ?\e"
+MFC0070007,"\h(«Dyne»)Apparemment l'Impératrice en personne voulait
+la rencontrer.\e"
+MFC0070008,"\h(«Dyne»)J'ai l'impression que cette fille cache quelque
+chose. Elle doit détenir des informations
+importantes pour que Valua la recherche.\e"
+MFC0070009,\h(«Vyse»)Fina……\e
+MFC0070010,"\h(«Dyne»)…… Vyse, que vas-tu faire ?\e"
+MFC0070011,"\h(«Que ferez-vous ?»)“Nous devons sauver Fina !”
+“Faisons-nous oublier pendant quelques temps……”\e"
+MFC0070012,"\h(«Vyse»)Évidemment qu'il faut aller sauver Fina !
+Les gardes sont dispersés……
+C'est le chaos sur toute l'île.\e"
+MFC0070013,"\h(«Dyne»)Humm…… Cela serait dangereux, mais il semble
+que ce soit le moment opportun pour intervenir.\e"
+MFC0070014,"\h(«Vyse»)Nous devrions nous faire oublier pendant
+quelques temps. Si nous commençons à fouiller le
+palais, nous serons certainement repérés.\e"
+MFC0070015,"\h(«Dyne»)Il te reste beaucoup à apprendre. C'est Valua……
+nous serons découverts tôt ou tard, que nous
+restions cachés ou non.\e"
+MFC0070016,"\h(«Dyne»)C'est peut-être notre seule chance de sauver
+Fina… pour le moment, les troupes impériales
+sont plus préoccupées de nous retrouver !\e"
+MFC0070017,"\h(«Drachma»)Je ramènerai tous les Pirates de l'Air sur le
+Little Jack. Nous vous attendrons.\e"
+MFC0070018,"\h(«Vyse»)Je sais……
+Quand les portes s'ouvriront, ça sera notre
+seule chance de nous échapper.\e"
+MFC0070019,"\h(«Drachma»)D'abord, vous devrez aller dans le Haut Valua.
+Vous pourrez peut-être vous glisser à bord d'un
+autorail en route vers le Palais.\e"
+MFC0070020,"\h(«Vyse»)Je vois…… le Haut Valua, hein ?
+Marco, comment puis-je me rendre à Haut Valua
+depuis ici ?\e"
+MFC0070021,"\h(«Marco»)Um……
+Si vous descendez par ce tunnel là-bas, vous
+atteindrez le Haut Valua.\e"
+MFC0070022,"\h(«Vyse»)Allons-y, Aika !
+Il faut sauver Fina !\e"
+MFC0070023,"\h(«Drachma»)Il faut que vous soyez au Little Jack dès
+l'ouverture des portes !\e"
+MFC0070024,"\h(«Marco»)Mais il y a des tas de gardes dans le Haut
+Valua ! Vous ne devriez pas y aller !
+C'est trop dangereux !\e"
+MFC0070025,"\h(«Vyse»)Je suis prêt à tout, Marco. Au beau milieu de
+la tempête, je discerne le seul chemin qui nous
+sortira de Valua. Je dois tenter ma chance.\e"
+MFC0070026,\h( )Drachma est parti.\e
+MFC0070027,"\h(«Dyne»)Voilà, prends-ça, Vyse. C'est un peu tôt pour te
+la donner, mais étant donné les circonstances,
+je vais faire une exception.\e"
+MFC0070028,"\h(«Vyse»)Oh ! C'est ta Pierre de Lune Jaune !
+Merci, Papa !\e"
+MFC0070029,"\h(«Dyne»)Si tu l'utilises avec tes armes, elles auront
+les mêmes propriétés que l'éclair.\e"
+MFC0070030,"\h( )Vous avez reçu la “Pierre de Lune Jaune” de
+Dyne.\e"
+MGC0070000,"\h(«Dyne»)Das war knapp, Vyse……
+Noch ein bisschen später, und ich wäre
+einen Kopf kürzer.\e"
+MGC0070001,"\h(«Dyne»)Vyse, ich wusste ja, dass du abgebrüht
+bist, aber eine öffentliche Hinrichtung zu
+unterbrechen und uns alle zu befreien……
+Jetzt glaube ich eher, dass du verrückt bist!\e"
+MGC0070002,"\h(«Vyse»)He, he…… Was soll ich dazu sagen? Ich bin noch
+nicht bereit, Anführer der Dyne-Familie
+zu werden.\e"
+MGC0070003,"\h(«Vyse»)Einen Augenblick……
+Wo ist Fina?\e"
+MGC0070004,"\h(«Dyne»)Fina?
+Als sie uns auf Pirate Isle gefangen nahmen,
+haben sie sie woanders hin gebracht.\e"
+MGC0070005,"\h(«Dyne»)Ich hörte, wie sich einige Soldaten über sie
+unterhielten…… es hörte sich so an, als hätte
+man sie zum Valua Imperial Palace gebracht.\e"
+MGC0070006,"\h(«Vyse»)Was?!
+Warum brachte man sie zum Palast?\e"
+MGC0070007,"\h(«Dyne»)Es sieht so aus, als wollte die Kaiserin selbst
+Fina kennen lernen.\e"
+MGC0070008,"\h(«Dyne»)Ich hab das Gefühl, dass sich hinter diesem
+Mädchen mehr verbirgt, als man annimmt. Sie
+weiß etwas, das so wichtig ist, dass Valua
+hinter ihr her ist.\e"
+MGC0070009,\h(«Vyse»)Fina……\e
+MGC0070010,"\h(«Dyne»)…… Vyse, was wirst du tun?\e"
+MGC0070011,"\h(«Was wirst du tun?»)“Wir müssen Fina retten!”
+“Wir verhalten uns 'ne Weile ruhig……”\e"
+MGC0070012,"\h(«Vyse»)Natürlich müssen wir losgehen und Fina retten!
+Die Wächter sind verwirrt…… Die ganze Insel
+befindet sich im Chaos.\e"
+MGC0070013,"\h(«Dyne»)Hmm…
+Es wird gefährlich werden, aber es sieht so
+aus, als wäre jetzt unsere beste
+Angriffschance.\e"
+MGC0070014,"\h(«Vyse»)Wir sollten uns 'ne Weile ruhig verhalten. Wenn
+wir anfangen, den Palast zu durchsuchen, werden
+wir bestimmt erwischt.\e"
+MGC0070015,"\h(«Dyne»)Ihr müsst noch viel lernen. Das hier ist Valua……
+Früher oder später werden wir entdeckt, ob wir
+uns verstecken oder nicht.\e"
+MGC0070016,"\h(«Dyne»)Dies ist vielleicht die einzige Chance, Fina
+zu retten…… im Moment sind die Kaiserlichen
+Truppen mehr damit beschäftigt, uns zu finden!\e"
+MGC0070017,"\h(«Drachma»)Ich nehme alle Luftpiraten mit zur Little Jack.
+Wir werden auf euch warten.\e"
+MGC0070018,"\h(«Vyse»)Ich weiß……
+Wenn sich die Tore öffnen, ist das unsere
+einzige Chance zu entkommen.\e"
+MGC0070019,"\h(«Drachma»)Zuerst müsst ihr zur Upper City gehen.
+Vielleicht könnt ihr euch in eine Straßenbahn
+schleichen, die zum Palast fährt.\e"
+MGC0070020,"\h(«Vyse»)Ach so……  Upper City, wie?
+Marco, wie komme ich von hier zur Upper City?\e"
+MGC0070021,"\h(«Marco»)Em……
+Wenn ihr diesen Tunnel dort hinunter geht,
+werdet ihr Upper City erreichen.\e"
+MGC0070022,"\h(«Vyse»)Lass uns gehen, Aika!
+Wir müssen Fina retten!\e"
+MGC0070023,"\h(«Drachma»)Ihr müsst bei der Little Jack sein, wenn sie
+die Tore öffnen!\e"
+MGC0070024,"\h(«Marco»)Aber es gibt massenweise Wachen in Upper City!
+Ihr solltet nicht gehen! Es ist zu gefährlich!\e"
+MGC0070025,"\h(«Vyse»)Ich bin auf alles gefasst, Marco. Mitten im
+Sturm sehe ich den Weg, der uns aus Valua
+herausführen wird. Ich muss es versuchen.\e"
+MGC0070026,\h( )Drachma hat die Gruppe verlassen.\e
+MGC0070027,"\h(«Dyne»)Hier, nimm das an dich, Vyse. Es ist etwas
+verfrüht, dir das zu geben, aber unter den
+gegebenen Umständen mache ich eine Ausnahme.\e"
+MGC0070028,"\h(«Vyse»)Wow! Dein Yellow Moon Stone! Danke, Dad!\e"
+MGC0070029,"\h(«Dyne»)Wenn du ihn zusammen mit deinen Waffen benutzt,
+nehmen diese Blitz-Eigenschaften an.\e"
+MGC0070030,"\h( )Du hast den “Yellow Moon Stone” von Dyne
+erhalten.\e"
+MSC0070000,"\h(«Dyne»)Has llegado un poco tarde, Vyse……
+Si te retrasas un poco más, ahora tendría una
+cabeza de menos.\e"
+MSC0070001,"\h(«Dyne»)Vyse, siempre supe que eras valiente, pero
+interrumpir una ejecución pública y liberarnos
+a todos……
+¡Ahora creo que estás loco!\e"
+MSC0070002,"\h(«Vyse»)¿Eh eh……? Todavía no estoy preparado para ser el
+cabeza de familia de los Dyne.\e"
+MSC0070003,"\h(«Vyse»)Espera un momento……
+¿Dónde está Fina?\e"
+MSC0070004,"\h(«Dyne»)¿Fina?
+Cuando nos capturaron en la Isla del Pirata,
+a ella se la llevaron a otro lugar.\e"
+MSC0070005,"\h(«Dyne»)Oí a algunos soldados hablar sobre ella…… algo
+así como que se la habían llevado al Palacio
+Imperial de Valua.\e"
+MSC0070006,"\h(«Vyse»)¡¿Qué?!
+¿Por qué se la llevaron al palacio?\e"
+MSC0070007,"\h(«Dyne»)Por lo visto, la mismísima Emperatriz quería ver
+a Fina.\e"
+MSC0070008,"\h(«Dyne»)Tengo la sensación de que esa chica sabe más de
+lo que parece. Conoce un secreto tan importante
+como para tener a Valua detrás suyo.\e"
+MSC0070009,\h(«Vyse»)Fina……\e
+MSC0070010,"\h(«Dyne»)……Vyse, ¿qué vas a hacer?\e"
+MSC0070011,"\h(«¿Qué vas a hacer?»)“¡Tenemos que salvar a Fina!”
+“Vamos a dejarlo por un rato……”\e"
+MSC0070012,"\h(«Vyse»)¡Claro que tenemos que salvar a Fina!
+Los guardias están dispersos……
+Toda la isla está en caos.\e"
+MSC0070013,"\h(«Dyne»)Mmm……
+Es arriesgado, pero es la única oportunidad para
+actuar.\e"
+MSC0070014,"\h(«Vyse»)Deberíamos dejarlo por un rato. Si empezamos a
+examinar todo el palacio, nos van a ver seguro.\e"
+MSC0070015,"\h(«Dyne»)Todavía te queda mucho que aprender. Esto es
+Valua…… tarde o temprano nos van a descubrir,
+tanto si nos escondemos como si no.\e"
+MSC0070016,"\h(«Dyne»)Ésta puede ser la única oportunidad de salvar a
+Fina…… ¡Ahora mismo las tropas Imperiales están
+más preocupadas con encontrarnos a nosotros!\e"
+MSC0070017,"\h(«Drachma»)Yo llevaré a todos los Piratas Aéreos al Little
+Jack. Os estaremos esperando.\e"
+MSC0070018,"\h(«Vyse»)Lo sé……
+Cuando las puertas se abran, será nuestra única
+oportunidad de escapar.\e"
+MSC0070019,"\h(«Drachma»)Primero inténtalo en el Centro de la Ciudad.
+Allí puedes intentar colarte en un tranvía que
+vaya hacia el Palacio.\e"
+MSC0070020,"\h(«Vyse»)Entiendo…… Al Centro de la Ciudad, ¿eh?
+Marco, ¿cómo puedo llegar hasta el centro de la
+ciudad desde aquí?\e"
+MSC0070021,"\h(«Marco»)Um……
+Si bajas por ese túnel de ahí, llegarás al
+Centro de la Ciudad.\e"
+MSC0070022,"\h(«Vyse»)¡Vamos, Aika!
+¡Tenemos que salvar a Fina!\e"
+MSC0070023,"\h(«Drachma»)¡Tenéis que estar en el Little Jack cuando se
+abran las puertas!\e"
+MSC0070024,"\h(«Marco»)¡Pero hay cientos de guardias en el Centro de la
+Ciudad! ¡No deberíais ir! ¡Es muy peligroso!\e"
+MSC0070025,"\h(«Vyse»)Estoy dispuesto a cualquier cosa, Marco. En
+medio de la tormenta, veo el sendero que nos
+hará salir de Valua. Tengo que intentarlo.\e"
+MSC0070026,\h( )Drachma ha abandonado el grupo.\e
+MSC0070027,"\h(«Dyne»)Llévate esto, Vyse. Es un poco pronto para
+entregártelo, pero dadas las circunstancias, voy
+a hacer una excepción.\e"
+MSC0070028,"\h(«Vyse»)¡Guau! ¡Es tu Piedra Amarilla! ¡Gracias,
+papá!\e"
+MSC0070029,"\h(«Dyne»)Si la utilizas con tus armas, éstas podrán
+lanzar rayos.\e"
+MSC0070030,"\h( )Has conseguido la “Piedra Amarilla” de
+Dyne.\e"
+"",me106a.sct
+"",me107a.sct
+"",me107a.sct
+"",me106a.sct
+"",m5060000
+"",M0249
+"",e6c007
+"",M0374
+"",a106cc07.mld
+"",a106cc07.mld

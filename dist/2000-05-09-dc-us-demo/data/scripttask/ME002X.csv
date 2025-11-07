@@ -1,0 +1,437 @@
+[Event Name],Task ID
+MA0130000,"\h(《Aika》)Vyse!
+Vy-se! \e"
+MA0130001,"\h(《Aika》)Good morning! 
+We're going to Shrine Island
+today, right? \e"
+MA0130002,"\h(《Vyse》)Yeah. I'll be right
+down. Hang on a second. \e"
+MA0130003,"\h(《Aika》)G'morning, Fina!
+Did you sleep well? \e"
+MA0130004,\h(《Fina》)Yes. Thank you. \e
+MA0130005,"\h(《Vyse》)Fina, we're heading over to Shrine
+Island to find the Moon Stone 
+right now…\e"
+MA0130006,"\h(《Vyse》)Would you like to come
+with us? \e"
+MA0130007,"\h(《Fina》)Yes.
+I'd love to go. \e"
+MA0130008,"\h(《Aika》)Alright Vyse, let's get going. 
+I've already prepared the boat on the
+top wharf. \e"
+MA0130009,"\h(《Aika》)Oh, Vyse.
+I've already prepared the boat on the 
+top wharf. \e"
+MA0130010,"\h(《Vyse》)The top wharf?  Gotcha. 
+Thanks! \e"
+M00010000,"\h(《Boy》)Oh, hey Vyse!
+Play hide-and-seek
+with us! \e"
+M00010001,"\h(《Boy》)If you can find Pow and the
+three of us, we'll tell you
+a secret! \e"
+M00010002,"\h(《Well…》)“Sure, let's play!”
+“Maybe next time”\e"
+M00010003,"\h(《Vyse》)Hmm… hide-and-seek?
+Heh… sure, let's play! \e"
+M00010004,"\h(《Boy》)Great!
+Alright then… Vyse, you're it! \e"
+M00010005,"\h(《Boy》)When we say “ready”, find the 
+three of us and Pow!\c"
+M00010017,\h(《Boy》)Ready!\c
+M00010006,"\h(《Vyse》)Sorry guys, I'm kinda busy…
+I'll play next time. \e"
+M00010007,"\h(《Boy》)Oh… that's alright.
+We'll see you later then! \c"
+M00010008,"\h(《Boy》)Oh, man! You found me!
+Shucks! \e"
+M00010009,"\h(《Boy》)But we still win if you don't find
+everyone! \e"
+M00010010,"\h(《Vyse》)Okay, I think that's everyone. \e"
+M00010011,"\h(《Boy》)Aw man… you found everyone…
+Well, a promise is a promise.
+I guess we have to tell you the secret… \e"
+M00010012,"\h(《Boy》)There's a mysterious statue on
+a small island between “Forest
+Island” and “Sand Island”. \e"
+M00010013,"\h(《Boy》)I overheard my dad talking about it.
+If you pass by it on your ship,
+you should check it out! \c"
+M00010014,"\h(《Boy》)We win if you don't find
+everyone! \c"
+M00010015,"\h(《Boy》)There's a mysterious statue on 
+a small island between “Forest 
+Island” and “Sand Island”. \e"
+M00010016,"\h(《Boy》)I overheard my dad talking about it.
+If you pass by it on your ship,
+you should check it out! \c"
+M00020000,"\h(《Boy》)Vyse, are you going to go look for
+Moon Stones now? \e"
+M00020001,"\h(《Boy》)You're so lucky that you get your own ship. 
+When I grow up, I want to be a sailor, too! \c"
+M00020002,"\h(《Boy》)You're so lucky that you get your own ship. 
+When I grow up, I want to be a sailor, too! \c"
+M00020003,"\h(《Boy》)Oh no. You found me.
+I was hoping that you 
+wouldn't find me here. \c"
+M00020004,\h(《Boy》)Where are the others hiding? \c
+M00020005,"\h(《Boy》)Oh, that was fun!
+Let's play again! \c"
+M00030000,"\h(《Girl》)Oh, Vyse! I was playing tag
+with everyone and Pow just now! \e"
+M00030001,"\h(《Girl》)Let's play together next time,
+okay!?
+Bye-bye! \c"
+M00030002,"\h(《Girl》)Let's play together next time,
+okay!? \c"
+M00030003,"\h(《Girl》)Oh! You found me!
+I should've hidden some place
+else! \c"
+M00030004,"\h(《Girl》)You haven't found everyone 
+yet, right?
+Good luck! \c"
+M00030005,"\h(《Vyse》)Are you going to Shrine 
+Island? Good luck! \c"
+M00040000,\h(《Pow》)Pow-pow!\e
+M00040001,"\h(《Vyse》)Pow, are you having fun with everyone?
+Good for you.\e"
+M00040002,\h(《Pow》)Po-w!\c
+M00040003,\h(《Pow》)Pow-pow!\c
+M00040004,"\h(《Vyse》)Oh, Pow…
+You were here.\e"
+M00040005,\h(《Pow》)Pa-hew…\e
+M00040006,"\h(《Vyse》)Pow, wait.
+I'll find the others.\e"
+M00040007,\h(《Pow》)Pow-pow. Po-w!\c
+M00040008,"\h(《Vyse》)Well, Pow.
+We'll play again.\e"
+M00040009,\h(《Pow》)Pow-pow. Pow!\c
+M00050000,"\h(《Woman》)Treasure chests have been filled with supplies 
+around the island, in case of emergency.\e"
+M00050001,"\h(《Woman》)There are 3 chests placed in various places 
+around the village.  Why don't you look 
+for them?\c"
+M00050002,"\h(《Woman》)There are 3 chests placed in various places 
+around the village.  Why don't you look for 
+them?\c"
+M00060000,"\h(《Woman》)Even the imperial troops don't
+know this peaceful-looking island is
+the HQ for the Air Pirates.\e"
+M00060001,"\h(《Woman》)Air Pirate ships are hidden in
+the underground port, so there
+is no way they'll ever find out.\c"
+M00070000,"\h(《Air Pirate》)Oh, that Ben!
+He locked the port door and just left! \e"
+M00070001,"\h(《Air Pirate》)Vyse, would you please go find Ben and bring me 
+the key to the underground port?\c"
+M00070002,"\h(《Air Pirate》)Great. You got the keys 
+from Ben! \e"
+M00070003,"\h(《Air Pirate》)You're a savior, Vyse!
+Now I can go down to the
+underground port! \c"
+M00080000,"\h(《Mother》)Oh, no…
+I forgot. I don't have any fish for 
+dinner tonight. \e"
+M00080001,"\h(《Mother》)Vyse, will you please go out
+and catch 10 sky 
+sardines? \c"
+M00080002,\h(　)I handed over 10 “sky sardines”. \e
+M00080003,"\h(《Mother》)You brought me 10 sky sardines?
+Why, thank you Vyse. \e"
+M00080004,"\h(《Mother》)Here… Take this with you.
+Eat it later. \e"
+M00080005,\h(　)I received one “Moon Berry”. \c
+M00080006,"\h(《Mother》)We're having fried sky sardines
+tonight.
+Don't be out too late.\c"
+M00090000,"\h(《Young Lady》)I think it's very important for everyone, 
+including air pirates,to have a home to return 
+to and rest their tired souls.\e"
+M00090001,"\h(《Young Lady》)Nothing keeps you stronger
+than knowing that there's a place to
+return to and someone waiting there… \c"
+M00100000,"\h(《Old Lady》)We're able to live the way we do thanks to 
+the blessed moon. \e"
+M00100001,"\h(《Old Lady》)It is because of the moon that our ships can 
+float and we are able to build great fires. \e"
+M00100002,"\h(《Old Lady》)It's a blessing.
+It's a blessing. \c"
+M00100003,"\h(《Old Lady》)It's a blessing.
+It's a blessing. \c"
+M00110000,"\h(《Air Pirate》)Hey, Vyse!
+Wanna learn a few 
+things about fighting? \e"
+M00110001,"\h(《Well…》)“Show me the ropes on fighting” 
+“Tell me about weapons”
+“No, it's okay” \e"
+M00110002,"\h(《Vyse》)Well…
+Could you show me the ropes on fighting? \e"
+M00110003,"\h(《Air Pirate》)Sure!
+The most important thing in a fight is 
+how you use your “spirit”! \e"
+M00110004,"\h(《Air Pirate》)Think of “spirit” as the 
+energy used when performing 
+a super move. \e"
+M00110005,"\h(《Air Pirate》)In a battle, the entire 
+party gathers their spirit 
+as one in order to fight. \e"
+M00110006,"\h(《Air Pirate》)That’s why each character can 
+focus and build up their spirit.\e"
+M00110007,"\h(《Air Pirate》)You can use their spirit to 
+perform powerful “super moves”
+and collaborated attacks! \e"
+M00110008,"\h(《Air Pirate》)Oh, and one more thing… courage can't be 
+used up.You gain courage at the beginning of 
+every round.\e"
+M00110009,"\h(《Air Pirate》)So, don't spare courage when
+fighting. It's better to use a
+lot of it. \c"
+M00110010,"\h(《Vyse》)Tell me about weapons.
+Aren’t our weapons made out of 
+Moon Stones? \e"
+M00110011,"\h(《Air Pirate》)That's right. Their attack 
+properties depend on the 
+color of the Moon Stone it was made from. \e"
+M00110012,"\h(《Air Pirate》)Red Moon Stone weapons have the power of fire, 
+and yellow, the power of thunder.\e"
+M00110013,"\h(《Air Pirate》)If the colored weapons are 
+used properly, you can cause 
+extra damage to the enemy. \c"
+M00110014,"\h(《Vyse》)No, it's okay.\e"
+M00110015,"\h(《Air Pirate》)Okay then.
+Well, they say best way is to 
+learn anything is through experience. \c"
+M00120000,"\h(《Air Pirate》)If “magic” and “super moves”
+are used appropriately, winning
+fights will be much easier. \e"
+M00120001,"\h(《Air Pirate》)So, will you like to hear
+more about “magic” and 
+“super moves”? \e"
+M00120002,"\h(《Well…》)“Teach me about magic” 
+“Teach me about super moves” 
+“I don’t need to hear about it” \e"
+M00120003,"\h(《Vyse》)Teach me about “magic”. 
+Is it actual magic? \e"
+M00120004,"\h(《Air Pirate》)That’s right. The power of the 
+magic that you can use depends on the 
+how much “spirit” you have built up. \e"
+M00120005,"\h(《Air Pirate》)You can’t go wrong by thinking
+that magic using more
+spirit is more powerful. \e"
+M00120006,"\h(《Air Pirate》)Each time you use magic, 
+your MP will decrease by 1
+no matter what kind it is. \e"
+M00120007,"\h(《Air Pirate》)MP will decrease when using magic 
+regardless. So, you might as well use
+as much spirit as you can…\e"
+M00120008,"\h(《Air Pirate》)So, it's more advantageous to 
+use a more powerful spell. \e"
+M00120009,"\h(《Air Pirate》)There are 6 colors of magic.  Depending on the 
+color of your weapon, you will learn the 
+various colors of magic at different speeds. \e"
+M00120010,"\h(《Air Pirate》)Change the weapon color to 
+match the type of magic you want 
+to learn more quickly. \c"
+M00120011,"\h(《Vyse》)Teach me about “super moves”.
+Are “super moves” sort of like
+special attacks? \e"
+M00120012,"\h(《Air Pirate》)That's right.  However, unlike magic, your 
+super moves only use courage, Vyse.
+No MP is needed.\e"
+M00120014,"\h(《Air Pirate》)Since it is overwhelmingly 
+powerful, you should use it 
+when you need the extra “punch”. \e"
+M00120015,"\h(《Air Pirate》)There are fruits with strange 
+powers called “Moon Berries” 
+in this world. \e"
+M00120016,"\h(《Air Pirate》)By eating these “Moon Berries”
+you can learn new techniques.
+Find as many Moon Berries as you can! \c"
+M00120017,"\h(《Vyse》)No, it's okay. \e"
+M00120018,"\h(《Air Pirate》)What? That's disappointing. Well, 
+don't hesitate to ask if you 
+have any questions later. \c"
+M01150000,"\h(《Owner of Temporary Shop》)Hi! This is your general store 
+handling everything from 
+medicine to weapons! \e"
+M01150001,"\h(《Owner of Temporary Shop》)This really is Aika's house, 
+but we opened a shop 
+here just for this occasion! \e"
+M00150000,"\h(《Air Pirate》)Hey, Vyse!
+Are you leaving for 
+Shrine Island? \e"
+M00150001,"\h(《Air Pirate》)To get to Shrine Island,
+you need to take that boat behind me.\e"
+M00150002,"\h(《Air Pirate》)Once in the sky, go straight to
+the north. You will run into Shrine
+Island soon enough! \c"
+M00150003,"\h(《Air Pirate》)To get to Shrine Island,
+you need to take that boat behind me. \e"
+M00150004,"\h(《Air Pirate》)Once in the sky, go straight to
+the north. You will run into Shrine
+Island soon enough! \c"
+M00190000,"\h(《Air Pirate》)This is Lookout Island. We 
+work in shifts looking out for enemy
+ships. \e"
+M00190001,"\h(《Air Pirate》)It's tough to stand out here early in 
+the morning because of the cold, but this is 
+one of our duties as Air Pirates. \c"
+M002a0000,"\h(《Vyse》)It's a supply box for small 
+boats. Looks like it's 
+empty now. \c"
+M002a0001,\h(《Vyse》)Oh look… a butterfly. \e
+M002a0002,"\h(《Vyse》)That reminds me, I've heard of 
+a migrating butterfly that 
+lives somewhere in the world. \c"
+M002a0003,"\h(《Vyse》)It's a bag of Moon stones. 
+Looks like it's a supply to 
+load on the ship. \c"
+M002a0004,"\h(《Vyse》)In the underground port, 
+baggage is raised and lowered 
+using this windmill's power. \e"
+M002a0005,"\h(《Vyse》)We can’t waste Moon stones. 
+Wherever possible, power sources like 
+windmills must be used. \c"
+M002a0006,"\h(《Vyse》)It's a box of rifle bullets.
+I only use swords, so it 
+isn't necessary. \c"
+M002a0007,"\h(《Vyse》)In the underground port, 
+baggage is raised and lowered 
+using this windmill's power. \e"
+M002a0008,"\h(《Vyse》)We can’t waste Moon stones. 
+Wherever possible, power sources like 
+windmills must be used. \c"
+M002a0009,"\h(《Vyse》)It's a well-used fireplace. 
+Aika throws in gunpowder when 
+it isn't lit. \c"
+M002a0010,"\h(《Vyse》)Excuse me. No matter what, one
+must not open a lady's 
+dresser without permission. \e"
+M002a0011,"\h(《Vyse》)Air pirates are gentlemen. 
+We may steal treasure, but 
+we do NOT steal ladies underwear… \c"
+M002a0012,"\h(《Vyse》)Oh, is this Aika's vanity?
+I guess even she can be pretty feminine at 
+times. \c"
+M002a0013,"\h(《Vyse》)Aika's parents died when she 
+was still little. \e"
+M002a0014,"\h(《Vyse》)So, there's only one bed.
+She tosses and turns in her 
+sleep, so she has a big bed.\c"
+M002a0015,"\h(《Vyse》)It's a Valuan shield we stole. 
+Air pirates do not use shields, 
+so it's just used for decor. \c"
+M002a0016,"\h(《Vyse》)When you light the tip of the spear 
+and throw it at your enemy's ship, it can 
+cause a lot of damage.  It's a great weapon. \c"
+M002a0017,"\h(《Vyse》)This pillar can be very useful in fights. 
+Especially when a melee breaks out 
+on deck in a small ship. \c"
+M002a0018,"\h(《Vyse》)Even though I'm an air 
+pirate, I would never steal 
+from granny's chest… \c"
+M002a0019,"\h(《Vyse》)This smell…
+This has to be salted fish… \c"
+M002a0020,"\h(《Vyse》)The bread that granny bakes in 
+the fireplace is really
+delicious. \e"
+M002a0021,"\h(《Vyse》)She used to bake it often when 
+Aika and I were little… \c"
+M002a0022,"\h(《Vyse》)What's this…
+Yuck, it's the cleaning solution
+for her dentures! \c"
+M002a0023,\h(《Vyse》)There is plenty of water in it. \c
+M002a0024,"\h(《Vyse》)In the jar is…
+pickled turnips. \c"
+M002a0025,"\h(《Vyse》)A bandana and a striped shirt…
+It's filled with clothing for 
+air pirates. \c"
+M002a0026,"\h(《Vyse》)It's a big fireplace.
+It even has a stand to place
+a pot. \c"
+M002a0027,"\h(《Vyse》)It's a water jar.
+Looks like it's used for 
+cooking. \c"
+M002a0028,"\h(《Vyse》)It's filled with tableware. 
+There is even some kids' tableware too. \c"
+M002a0029,"\h(《Vyse》)After returning from sailing, 
+the most relaxing moment is 
+when one gets into his bed. \c"
+M002a0030,"\h(《Vyse》)It's a map of the airspace in 
+this area. Also, it's a map of 
+the turf of the Dyne Family. \c"
+M002a0031,"\h(《Vyse》)My old man sails a lot, so 
+this bed isn't used very 
+much. \c"
+M002a0032,"\h(《Vyse》)This is the fireplace that 
+Mother lights daily. \c"
+M002a0033,"\h(《Vyse》)The silver plate that Mother bought
+when she got married is still 
+preciously kept here. \c"
+M002a0034,"\h(《Vyse》)It's my bed, but…
+I sail a lot, so I only use it 6 
+months out of the year. \c"
+M002a0035,"\h(《Vyse》)It's a book that was stolen. 
+Books are valuables that we 
+can only rarely obtain. \e"
+M002a0036,"\h(《Vyse》)I once read a book on the art of 
+navigation over and over 
+again until the bindings were all worn out…\c"
+M002a0037,"\h(《Vyse》)Oops… The papers I was using when 
+I was studying about stars are 
+scattered about. \e"
+M002a0038,"\h(《Vyse》)To know where you are, sailors 
+must know all about stars. \c"
+M002a0039,"\h(《Vyse》)It says “Windmill Island”. 
+This island is marked on every 
+map with the same name too. \e"
+M002a0040,"\h(《Vyse》)But, it’s really only a cover name. It is
+actually the HQ of the Dyne 
+Family, “Pirate Isle”. \c"
+M002a0041,"\h(《Vyse》)It's the island's valuable 
+well. One time, Aika fell into it a long 
+time ago and caused a huge commotion. \c"
+M002a0042,"\h(《Vyse》)It's the box the women often come out 
+and sit on when resting after drawing water. \c"
+M002a0043,"\h(《Vyse》)You could never tell from the way 
+Aika swings her boomerang that she 
+has the tenderness to raise such flowers…\e"
+M002a0044,"\h(《Vyse》)Aika even surprises 
+me sometimes. \c"
+M002a0045,"\h(《Vyse》)It's always breezy on this 
+island so the laundry 
+dries easily. \c"
+M002a0046,"\h(《Vyse》)It's always breezy on this 
+island so the laundry 
+dries easily. \c"
+M002a0047,"\h(《Vyse》)Isn't this the laundry tub? 
+Who left it out here? \c"
+M002a0048,"\h(《Vyse》)…Vegetables are an important 
+source of nutrients for sailors.
+Everyone raises them with care \c"
+M002a0049,"\h(《Vyse》)Is this the incinerator? 
+Looks like it's connected to 
+the fireplace inside. \c"
+M002a0050,"\h(《Vyse》)It's easy to get scurvy when you're sailing… 
+there just aren't enough vegetables around.  
+That's why turnips are so important to us. \e"
+M002a0051,"\h(《Vyse》)But, we have pickled turnips 
+day after day when sailing… 
+I can't stand them anymore… \c"
+M002a0052,"\h(《Vyse》)There's a secret path to the 
+underground port behind this. 
+It can't be opened from above ground. \c"
+M002a0053,\h(《Vyse》)It's locked… \c
+"",M0234
+"",m5020000
+"",me002y.sct
+"",me099a.sct
+"",a002ae.mld
+"",a002ae.mld
+"",a002xa13.mld
+"",a002xa13.mld
+"",M0234
+"",e6a013
+"",M0234
+"",a002aa13.mld
+"",a002ae.mld

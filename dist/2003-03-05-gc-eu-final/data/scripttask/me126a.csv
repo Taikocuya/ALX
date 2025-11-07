@@ -1,0 +1,340 @@
+[Event Name],Task ID
+M01260000,"\h(«Vyse»)Hm?
+I can hear someone talking…\e"
+M01260001,"\h(«Valuan Soldier»)Moon Energy System operating within normal
+parameters. Power supply to the entire base
+is flowing smoothly.\e"
+M01260002,"\h(«Valuan Soldier»)Okay, the inspection for this area is done.
+Let's go to the next one.\e"
+M01260003,"\h(«Vyse»)(I think that's the control area
+for the base's power.)\c"
+M01260004,"\h(«Vyse»)(I think that's the control area
+for the base's power.)\c"
+M01260005,"\h(«Vyse»)It's a fan. It's probably for ventilation.
+I don't think I should get too close…\e"
+M01260006,"\h(«Vyse»)But, it looks like there's a passageway behind
+it. Hmm… I wonder if there's a way to stop the
+fan…\c"
+M01260007,"\h(«Vyse»)Whoa, now that's scary…
+This must be an elevator shaft.\c"
+M01260008,"\h(«Vyse»)Hm, it won't open…
+It's probably locked or barred from the
+other side.\c"
+M01260009,"\h(«Enrique»)Gregorio!
+Gregorio!!\e"
+M01260010,"\h(«Vyse»)It's no use…
+It's locked from
+the other side.\c"
+M01260011,"\h(«Galcian»)Stop, Air Pirate!\e"
+M01260012,"\h(«Vyse»)Hm?
+I can hear someone talking…\e"
+M01260013,"\h(«Valuan Soldier»)So, these are the schematics that Lord De Loco
+designed. With his new design, his ship is
+supposed to be able to fly into Deep Sky?\e"
+M01260014,"\h(«Valuan Soldier»)That's what I hear. But it's not like I
+can understand any of it anyway. It all looks
+like scribbles to me.\c"
+M01260015,"\h(«Valuan Soldier»)Well, I heard that Lord De Loco was going to
+take Lord Galcian to take a look around the
+Chameleon today…\c"
+M01260016,"\h(«Valuan Soldier»)What!? If they see us slacking off
+here we're done for! Let's get out of here!\c"
+M01260017,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+M01260018,"\h(«Vyse»)It's no use…
+It's locked from
+the other side.\e"
+M01260019,"\h(«Vyse»)We can't let Gregorio's sacrifice be in vain!
+We need to get out of here now!!\c"
+M01260020,"\h(«Vyse»)Damn! It won't open!
+Something's holding the door shut!\e"
+M01260021,"\h(«Aika»)Vyse, we don't have time!
+Let's get out of here!!\c"
+M01260022,"\h(«Vyse»)Hm?
+I can hear someone talking…\e"
+M01260023,"\h(«Valuan Soldier»)I still don't get why they would build a base
+down here. What's the point? There's nothing
+down here other than wind.\e"
+M01260024,"\h(«Valuan Soldier»)I hear they're trying to build
+an elevator that goes all the way into
+Deep Sky…\e"
+M01260025,"\h(«Valuan Soldier»)D, Deep Sky?!
+My mom told me when I was a kid that Deep Sky
+is the land of the dead!!\c"
+M01260026,"\h(«Valuan Solider»)An elevator that goes into Deep Sky?
+Unbelievable…\c"
+M01260027,"\h(«Valuan Soldier»)Intruders!!
+Get them!!\c"
+M01260028,"\h(«Vyse»)Hm?
+I can hear someone talking…\e"
+M01260029,"\h(«Valuan Soldier»)Hey, did you hear?
+Lord Galcian is building a new
+top-secret flagship.\c"
+M01260030,"\h(«Valuan Soldier»)It'll probably be even more powerful than his
+old ship, the Serpent. I swear… that Lord
+Galcian really is something.\e"
+M01260031,"\h(«Valuan Soldier»)Did you know that Lord Galcian has never been
+defeated in battle? He's a military genius!\c"
+M01260032,"\h(«Valuan Soldier»)As long as Lord Galcian is around to lead us,
+we'll be fine. I doubt there's anyone who could
+defeat him.\c"
+M01260033,"\h(«Valuan Soldier»)You… you're Vyse!?
+What are you doing here!?\c"
+M01260034,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MF01260000,"\h(«Vyse»)Hum ?
+J'entends quelqu'un parler……\e"
+MF01260001,"\h(«Soldat Valuan»)Le Système d'Énergie Lunaire opère dans les
+paramètres normaux. La distribution de l'énergie
+dans la base toute entière se passe sans
+problème.\e"
+MF01260002,"\h(«Soldat Valuan»)OK, l'inspection de cette zone est terminée.
+Passons à la suivante.\e"
+MF01260003,"\h(«Vyse»)(Je crois que c'est la zone de contrôle
+pour la puissance de la base.)\c"
+MF01260004,"\h(«Vyse»)(Je crois que c'est la zone de contrôle
+pour la puissance de la base.)\c"
+MF01260005,"\h(«Vyse»)C'est un ventilateur, sûrement pour l'aération.
+Je ne devrais pas trop m'approcher……\e"
+MF01260006,"\h(«Vyse»)Mais, on dirait qu'il y a un passage derrière.
+Humm…… Je me demande s'il y a un moyen d'arrêter
+le ventilateur……\c"
+MF01260007,"\h(«Vyse»)Oh là là, c'est effrayant……
+Ce doit être une cage d'ascenseur.\c"
+MF01260008,"\h(«Vyse»)Hum, elle ne veut pas s'ouvrir……
+Elle doit être fermée de l'intérieur ou il doit
+y avoir une barre de l'autre côté.\c"
+MF01260009,"\h(«Enrique»)Gregorio !
+Gregorio !!\e"
+MF01260010,"\h(«Vyse»)C'est inutile……
+C'est fermé
+de l'intérieur.\c"
+MF01260011,"\h(«Galcian»)Stop, Pirate de l'Air !\e"
+MF01260012,"\h(«Vyse»)Hum ?
+J'entends quelqu'un parler……\e"
+MF01260013,"\h(«Soldat Valuan»)Alors, ce sont les schémas que le Seigneur De
+Loco a dessinés. Avec ce nouveau design, ce
+navire est censé pouvoir voler dans les
+Profondeurs ?\e"
+MF01260014,"\h(«Soldat Valuan»)C'est ce que j'ai entendu dire. Mais de toute
+façon je n'y comprends rien. C'est du
+gribouillage pour moi.\c"
+MF01260015,"\h(«Soldat Valuan»)J'ai appris que le Seigneur De Loco allait
+emmener le Seigneur Galcian voir le Caméléon
+aujourd'hui……\c"
+MF01260016,"\h(«Soldat Valuan»)Comment !? Nous sommes fichus s'ils nous voient
+nous détendre ! Partons d'ici !\c"
+MF01260017,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MF01260018,"\h(«Vyse»)C'est inutile……
+C'est fermé
+de l'intérieur.\c"
+MF01260019,"\h(«Vyse»)Le sacrifice de Gregorio ne doit pas être vain.
+On ne peut pas rester sans rien faire. Il faut
+tout de suite partir d'ici !!\c"
+MF01260020,"\h(«Vyse»)Sapristi ! Elle est bloquée !
+Quelque chose empêche la porte de s'ouvrir !\e"
+MF01260021,"\h(«Aika»)Vyse, nous n'avons pas le temps !
+Partons d'ici !!\c"
+MF01260022,"\h(«Vyse»)Hum ?
+J'entends quelqu'un parler……\e"
+MF01260023,"\h(«Soldat Valuan»)Je ne comprends toujours pas pourquoi ils ont
+construit une base ici. Quel est l'intérêt ?
+Il n'y a que du vent ici.\e"
+MF01260024,"\h(«Soldat Valuan»)J'ai appris qu'ils essaient de construire
+un ascenseur qui descend dans le
+les Profondeurs……\e"
+MF01260025,"\h(«Soldat Valuan»)Les, les Profondeurs ?!
+Quand j'étais petit, ma mère m'a dit que les
+Profondeurs est le pays des morts !!\c"
+MF01260026,"\h(«Soldat Valuan»)un ascenseur qui descend dans les Profondeurs ?
+Incroyable……\c"
+MF01260027,"\h(«Soldat Valuan»)Intrus !!
+Attrapez-les !!\c"
+MF01260028,"\h(«Vyse»)Hum ?
+J'entends quelqu'un parler……\e"
+MF01260029,"\h(«Soldat Valuan»)Hé, vous le saviez ?
+Le Seigneur Galcian construit un nouveau
+navire amiral top-secret.\c"
+MF01260030,"\h(«Soldat Valuan»)Il sera certainement encore plus puissant que
+l'ancien, le Serpent. Je vous jure…… ce Seigneur
+Galcian, c'est quelqu'un !\e"
+MF01260031,"\h(«Soldat Valuan»)Saviez-vous que le Seigneur Galcian n'a jamais
+été vaincu pendant une bataille ? C'est un génie
+militaire !\c"
+MF01260032,"\h(«Soldat Valuan»)Tant que le Seigneur Galcian est là pour nous
+diriger, tout ira bien. Je doute que quelqu'un
+puisse le vaincre.\c"
+MF01260033,"\h(«Soldat Valuan»)Vous…… vous êtes Vyse !?
+Que faites-vous ici !?\c"
+MF01260034,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MG01260000,"\h(«Vyse»)Hm?
+Ich kann jemanden reden hören……\e"
+MG01260001,"\h(«Valuanischer Soldat»)Das Mondenergie-System arbeitet innerhalb der
+normalen Parameter. Die Energieversorgung für
+den gesamten Stützpunkt läuft reibungslos.\e"
+MG01260002,"\h(«Valuanischer Soldat»)Also, die Inspektion dieses Bereiches ist
+abgeschlossen. Gehen wir zum nächsten.\e"
+MG01260003,"\h(«Vyse»)(Ich glaube, das ist der Kontrollbereich
+für die Kraftstoffzufuhr des Stützpunkts.)\c"
+MG01260004,"\h(«Vyse»)(Ich glaube, das ist der Kontrollbereich
+für die Kraftstoffzufuhr des Stützpunkts.)\c"
+MG01260005,"\h(«Vyse»)Es ist ein Ventilator. Wahrscheinlich zur
+Belüftung. Ich sollte besser nicht zu nahe
+herangehen……\e"
+MG01260006,"\h(«Vyse»)Aber es sieht so aus, als gäbe es dahinter
+einen Gang. Hmm…… Ob man den Ventilator
+wohl irgendwie anhalten kann?\c"
+MG01260007,"\h(«Vyse»)Also, das ist jetzt wirklich beängstigend……
+Das muss ein Liftschacht sein.\c"
+MG01260008,"\h(«Vyse»)Hm, sie geht nicht auf……
+Sie ist wahrscheinlich von der anderen Seite
+abgeschlossen oder verrammelt.\c"
+MG01260009,"\h(«Enrique»)Gregorio!
+Gregorio!!\e"
+MG01260010,"\h(«Vyse»)Es hat keinen Zweck……
+Sie ist von der anderen Seite verschlossen.\c"
+MG01260011,"\h(«Galcian»)Halt, Luftpirat!\e"
+MG01260012,"\h(«Vyse»)Hm?
+Ich höre jemanden reden……\e"
+MG01260013,"\h(«Valuanischer Soldat»)Dies sind also die Pläne, die Lord De Loco
+entworfen hat. Mit seinem neuen Design soll
+sein Schiff in der Lage sein, in den Deep
+Sky zu fliegen?\e"
+MG01260014,"\h(«Valuanischer Soldat»)So erzählt man es mir. Aber ich verstehe
+sowieso nichts davon. Für mich sieht es
+wie Hieroglyphen aus.\c"
+MG01260015,"\h(«Valuanischer Soldat»)Also, ich habe gehört, dass Lord De Loco
+Lord Galcian heute mit zu einer Tour über die
+Chameleon nehmen würde……\c"
+MG01260016,"\h(«Valuanischer Soldat»)Was!? Wenn sie sehen, dass wir hier herumstehen,
+sind wir dran! Lass uns abhauen!\c"
+MG01260017,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Noch eine Weile hierbleiben.”\c"
+MG01260018,"\h(«Vyse»)Es hat keinen Zweck……
+Sie ist von der anderen Seite verschlossen.\e"
+MG01260019,"\h(«Vyse»)Gregorios Opfer kann nicht umsonst gewesen sein!
+Wir müssen auf der Stelle hier raus!!\c"
+MG01260020,"\h(«Vyse»)Verdammt! Sie öffnet sich nicht!
+Etwas hält die Tür verschlossen!\e"
+MG01260021,"\h(«Aika»)Vyse, wir haben keine Zeit!
+Lass uns gehen!!\c"
+MG01260022,"\h(«Vyse»)Hm?
+Ich höre jemanden reden……\e"
+MG01260023,"\h(«Valuanischer Soldat»)Ich verstehe immer noch nicht, warum sie hier
+unten einen Stützpunkt bauen wollten. Wozu?
+Hier unten gibt es nichts außer Wind.\e"
+MG01260024,"\h(«Valuanischer Soldat»)Ich höre, dass sie einen Aufzug bauen wollen,
+der bis zum Deep Sky reicht……\e"
+MG01260025,"\h(«Valuanischer Soldat»)D, Deep Sky?!
+Als Kind hat mir meine Mutter immer gesagt,
+dass Deep Sky das Land der Toten sei!!\c"
+MG01260026,"\h(«Valuanischer Soldat»)Ein Aufzug, der bis in den Deep Sky geht?
+Unglaublich……\c"
+MG01260027,"\h(«Valuanischer Soldat»)Eindringlinge!!
+Schnapp sie dir!!\c"
+MG01260028,"\h(«Vyse»)Hm?
+Ich höre jemanden reden……\e"
+MG01260029,"\h(«Valuanischer Soldat»)He, hast du gehört?
+Lord Galcian baut ein neues, streng geheimes
+Flaggschiff.\c"
+MG01260030,"\h(«Valuanischer Soldat»)Es wird wahrscheinlich noch leistungsfähiger
+als sein altes Schiff, die Serpent. Ich sag's
+dir…… dieser Lord Galcian hat was drauf.\e"
+MG01260031,"\h(«Valuanischer Soldat»)Wusstest du, dass Lord Galcian noch nie in
+einer Schlacht unterlegen ist? Er ist ein
+militärisches Genie!\c"
+MG01260032,"\h(«Valuanischer Soldat»)Solange Lord Galcian hier ist, um uns
+anzuführen, ist alles ok. Ich bezweifle, dass
+ihn jemand besiegen kann.\c"
+MG01260033,"\h(«Valuanischer Soldat»)Du…… du bist Vyse!?
+Was suchst du denn hier!?\c"
+MG01260034,"\h(«Möchtest du es nochmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MS01260000,"\h(«Vyse»)¿Mm?
+Oigo hablar a alguien……\e"
+MS01260001,"\h(«Soldado Valuan»)El Sistema de Energía Lunar opera bajo los
+parámetros normales. El suministro de energía
+fluye con normalidad a toda la base.\e"
+MS01260002,"\h(«Soldado Valuan»)Bueno, la inspección de esta zona está hecha.
+Pasemos a la siguiente.\e"
+MS01260003,"\h(«Vyse»)“Creo que eso es la zona de control de la
+energía de la base.”\c"
+MS01260004,"\h(«Vyse»)“Creo que eso es la zona de control de la
+energía de la base.”\c"
+MS01260005,"\h(«Vyse»)Es un ventilador. Probablemente para la
+ventilación. No quiero acercarme demasiado……\e"
+MS01260006,"\h(«Vyse»)Pero parece que hay un pasaje por detrás. Mm……
+Si encontrara la forma de parar el ventilador……\c"
+MS01260007,"\h(«Vyse»)Anda, eso sí que da miedo……
+Esto debe ser el hueco de un ascensor.\c"
+MS01260008,"\h(«Vyse»)Mm, no se abre……
+Debe estar cerrado desde el otro lado.\c"
+MS01260009,"\h(«Enrique»)¡Gregorio!
+¡¡Gregorio!!\e"
+MS01260010,"\h(«Vyse»)No hay forma……
+Está cerrado por
+el otro lado.\c"
+MS01260011,"\h(«Galcian»)¡Detente, Pirata Aéreo!\e"
+MS01260012,"\h(«Vyse»)¿Eh?
+Oigo hablar a alguien……\e"
+MS01260013,"\h(«Soldado Valuan»)Estos son los planos que ha diseñado Lord De
+Loco. ¿Podrá este navío volar en el Cielo
+Profundo gracias al nuevo diseño?\e"
+MS01260014,"\h(«Soldado Valuan»)Eso dicen. Pero yo de todos modos no entiendo
+nada. A mí me parece un jeroglífico
+indescifrable.\c"
+MS01260015,"\h(«Soldado Valuan»)He oído que Lord De Loco iba a llevar a Lord
+Galcian para que viese el Camaleón hoy……\c"
+MS01260016,"\h(«Soldado Valuan»)¿¡Cómo!? ¡Si nos ven bajar la guardia lo
+llevamos claro! ¡Vámonos de aquí!\c"
+MS01260017,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un poco más.”\c"
+MS01260018,"\h(«Vyse»)Es inútil……
+Está cerrado por
+el otro lado.\e"
+MS01260019,"\h(«Vyse»)¡No permitiremos que la vida de Gregorio se haya
+sacrificado en vano!
+¡¡Tenemos que salir de aquí inmediatamente!!\c"
+MS01260020,"\h(«Vyse»)¡Jesús! ¡No abre!
+¡Hay algo que sujeta la puerta por detrás!\e"
+MS01260021,"\h(«Aika»)¡Vyse, no hay tiempo!
+¡¡Vámonos de aquí!!\c"
+MS01260022,"\h(«Vyse»)¿Mm?
+Oigo hablar a alguien……\e"
+MS01260023,"\h(«Soldado Valuan»)Lo que no entiendo es por qué iban a construir
+una base aquí. ¿Para qué? Aquí no hay nada, sólo
+hace un viento horrible.\e"
+MS01260024,"\h(«Soldado Valuan»)Dicen que van a construir un ascensor que vaya
+hasta el Cielo Profundo……\e"
+MS01260025,"\h(«Soldado Valuan»)¡¿El Cielo Profundo?!
+¡Cuando era niño, mi madre me decía que el Cielo
+Profundo era la tierra de los muertos!\c"
+MS01260026,"\h(«Soldado Valuan»)¿Un ascensor que vaya hasta el Cielo Profundo?
+Venga ya……\c"
+MS01260027,"\h(«Soldado Valuan»)¡¡Intrusos!!
+¡¡Cogedlos!!\c"
+MS01260028,"\h(«Vyse»)¿Mmmmm?
+Oigo hablar a alguien……\e"
+MS01260029,"\h(«Soldado Valuan»)Oye, ¿te has enterado?
+Lord Galcian está construyendo un nuevo buque
+insignia que es ultra secreto.\c"
+MS01260030,"\h(«Soldado Valuan»)Va a ser más potente aún que su viejo navío,
+la Serpiente. De verdad…… ese Lord Galcian es
+asombroso.\e"
+MS01260031,"\h(«Soldado Valuan»)¿Sabíais que a Lord Galcian nunca le han
+derrotado en una batalla? ¡Es un genio
+militar!\c"
+MS01260032,"\h(«Soldado Valuan»)Mientras tengamos a Lord Galcian que nos guíe,
+todo irá bien. No creo que nadie sea capaz de
+vencerle.\c"
+MS01260033,"\h(«Soldado Valuan»)¿¡Tú…… eres Vyse!?
+¿¡Qué estás haciendo aquí!?\c"
+MS01260034,"\h(«¿Quieres probar otra vez?»)“¡Nunca me rindo!”
+“Me rindo.”\c"
+"",me126d.sct
+"",me126b.sct
+"",me126d.sct
+"",M0252
+"",M5260000

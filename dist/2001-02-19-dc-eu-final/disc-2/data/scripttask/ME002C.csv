@@ -1,0 +1,2917 @@
+[Event Name],Task ID
+M00010000,"\h(«Jimmy»)Vyse, we took care of the island real good
+while you were gone!\e"
+M00010001,"\h(«Jimmy»)Aren't you proud of us? We did almost all this
+by ourselves!\c"
+M00010002,"\h(«Jimmy»)From now on, we're gonna help protect Pirate
+Isle, too!\c"
+M00010003,"\h(«Jimmy»)I'm so jealous of you, Vyse… I can't wait 'til
+my dad let's me go sailing, too!\c"
+M00010004,"\h(«Jimmy»)Hey, Vyse! Guess what? Guess what?
+They let me on the Albatross the other day!\e"
+M00010005,"\h(«Jimmy»)Well, actually, I was just helping my dad
+move some boxes… hehe.\e"
+M00010006,"\h(«Jimmy»)But, you gotta learn the little things like that
+before you can become a sailor, right? I'm gonna
+be the best sailor in the whole wide world!!\c"
+M00010007,"\h(«Jimmy»)Is it really true that you sailed all the way
+around the world, Vyse? It is?! Wow!!!\e"
+M00010008,"\h(«Jimmy»)I'm gonna sail around the world, too, someday!
+You just watch! I'm gonna be just like you
+when I grow up!!\c"
+M00010009,"\h(«Jimmy»)Wh, where'd that island come from?!
+Where'd Shrine Island go?!
+Vyse, what's going on?!\c"
+M00010010,"\h(«Jimmy»)Actually, I wanted to go with you on your
+journey, but my dad told me that I was too
+young to be able to go out on my own yet.\e"
+M00010011,"\h(«Jimmy»)So, I'll cheering for you guys from here, okay?
+You better not let those bad guys beat you!!\c"
+M00020000,"\h(«Alan»)While you were gone, I fixed a bunch of stuff
+here on the island!\e"
+M00020001,"\h(«Alan»)Heh… Now I feel like I can do anything!
+Well… almost anything. Your mom helped
+me move some boxes and stuff…\c"
+M00020002,"\h(«Alan»)You know what? I actually had fun rebuilding
+everything! It felt sorta good to make
+something with my own hands!\e"
+M00020003,"\h(«Alan»)Maybe I'll be a carpenter when I grow up!
+I'm still a little young… but I guess it can't
+hurt to dream, right Vyse!\c"
+M00020004,"\h(«Alan»)Right now, all the grownups
+are busy rebuilding the Albatross.\e"
+M00020005,"\h(«Alan»)And you know what? I did such a good job helping
+everyone rebuild the town that they're letting
+me help rebuild the ship, too!\c"
+M00020006,\h(«Alan»)Hey Vyse! Long time no see!\e
+M00020007,"\h(«Alan»)You should come home more often! I want to hear
+all about your adventures and stuff! I bet
+you've seen some really neat stuff!\c"
+M00020008,"\h(«Alan»)Really? There's a country called Yafutoma where
+the houses are built right on the water?\e"
+M00020009,"\h(«Alan»)Wow… I'd really like to try building something
+like that! Of course… there isn't a whole lot
+of water around here…\c"
+M00020010,"\h(«Alan»)Vyse! There was this big roaring sound and that
+island came up from inside the clouds and I was
+so scared and I didn't know what to do!\c"
+M00020011,"\h(«Alan»)Everybody's gone right now. They all sailed off
+in the Albatross. But, I'm not scared anymore!\e"
+M00020012,"\h(«Alan»)We'll be okay! We're going to defend the island
+while all the grownups are off fighting! Just
+leave everything to us, okay?\c"
+M00030000,\h(«Lindsi»)Vyse! You're home! You made it back!!\e
+M00030001,"\h(«Lindsi»)I missed you so much… I was so worried that you
+wouldn't make it back…\c"
+M00030002,"\h(«Lindsi»)Welcome home, Vyse! You should come back and
+visit us more often, okay? We miss you!\c"
+M00030003,"\h(«Lindsi»)Wow… That's a really nice ship, Vyse!
+Where'd you get that thing from? You better
+let me ride in it someday!\c"
+M00030004,"\h(«Lindsi»)Alright, Pow… You better take good
+care of Vyse, okay?\c"
+M00030005,"\h(«Lindsi»)Really?! You sailed all the way
+around the world?!\e"
+M00030006,"\h(«Lindsi»)But, my mommy told me that there are scary
+monsters at the edge of the world! Did any
+of them try to hurt you?\c"
+M00030007,"\h(«Lindsi»)Vyse… Jimmy told me that there are bad people
+on that island… Is that true?\e"
+M00030008,"\h(«Lindsi»)Whenever I think about that island at night…
+I… I get scared and I can't go to sleep…\c"
+M00030009,"\h(«Lindsi»)You better not let them beat you, Vyse! You
+can't let the bad guys win!!\e"
+M00030010,"\h(«Lindsi»)You better promise that you'll come home
+safely, okay? Promise!!\c"
+M00040000,\h(«Pow»)Pow pow!\e
+M00040001,"\h(«Vyse»)How are you doing there, little guy! You seem
+happy enough to see us… Hehe… Have you been
+taking care of everyone while I've been gone?\e"
+M00040002,\h(«Pow»)Pow pow pow!!\c
+M00040003,\h(«Pow»)Pow pow!\c
+M00040004,\h(«Pow»)Pow pow!\c
+M00040005,"\h(«Jimmy»)Umm… Vyse, we wanted to ask you to do
+something for us…\e"
+M00040006,"\h(«Jimmy»)We really wish we could go with you and help
+out… but we're still too young, I guess. Well,
+that's what our parents say…\e"
+M00040007,"\h(«Jimmy»)So, instead, we want you to take Pow with you.
+He'll help you out instead!\e"
+M00040008,\h(«Pow»)Pow pow!\c
+M00040009,"\h(«Alan»)Pow has always been there for us… Whenever we
+needed someone to cheer us up, he was there.\e"
+M00040010,"\h(«Alan»)And we were just thinking that maybe if Pow
+could go with you, he could cheer you up
+whenever you needed it, you know?\e"
+M00040011,"\h(«Vyse»)Haha… I see.
+Well, then… Pow, looks like you're the newest
+member of my crew!\e"
+M00040012,"\h(«Lindsi»)You hear that, Pow? Vyse is going to take you
+with him! You're going to get to sail on that
+big ship with his crew!\e"
+M00040013,\h(«Pow»)Pow! Pow pow!!\c
+M00050000,"\h(«Martha»)Vyse… I just wanted to thank you for bringing
+my husband home. I know that lazy bum couldn't
+have saved himself even if he tried.\e"
+M00050001,"\h(«Martha»)He may be a lazy bum… but… I still love him.
+I realized that when he was gone. I missed him
+so much… But you better not tell him that!!\c"
+M00050002,"\h(«Martha»)Can you believe it?! That good-for-nothing
+husband of mine is so ungrateful! Do you know
+what he told me?!\e"
+M00050003,"\h(«Martha»)“The women that I saw in Valua were some of the
+most beautiful women I've ever seen…”
+THAT'S what he said!!!\e"
+M00050004,"\h(«Martha»)Here I was, worried sick about him… And all he
+could do was admire the “beautiful women” in
+Valua?! I can't believe him!!\c"
+M00050005,"\h(«Martha»)Can you believe it?! That good-for-nothing
+husband of mine is so ungrateful! Do you know
+what he told me?!\e"
+M00050006,"\h(«Martha»)“The whole time I was in Valua, I couldn't stop
+thinking about sailing… I wanted to be out in
+the sky. Oh, and I… uh… missed you, too…”\e"
+M00050007,"\h(«Martha»)Can you believe him?! “Oh, and I… uh… missed
+you, too…” Here I was, worried to death, and
+all he could think about was sailing!!\c"
+M00050008,"\h(«Martha»)Can you believe it?! That good-for-nothing
+husband of mine is so ungrateful! Do you know
+what he told me?!\e"
+M00050009,"\h(«Martha»)“I really feel at home when I'm out sailing.
+It's so relaxing… I have so much freedom…
+Oh, but I don't mean anything by that…”\e"
+M00050010,"\h(«Martha»)Can you believe him?! How could he NOT mean
+anything by that?! I swear, I should lock him
+inside the house from now on…\c"
+M00050011,"\h(«Martha»)Can you believe it?! That good-for-nothing
+husband of mine is so ungrateful! Do you know
+what he told me?!\e"
+M00050012,"\h(«Martha»)“My goal in life is to sail around the world
+like Vyse and meet all kinds of beautiful women.
+Oh, I mean, I think you're beautiful, too.”\e"
+M00050013,"\h(«Martha»)Can you believe that he actually said that to
+me?! I swear… one more comment like that, and
+he's never going sailing again!!\c"
+M00050014,"\h(«Martha»)Do you know what that good-for-nothing husband
+of mine just told me? He looked off in the
+distance at that new island and said…\e"
+M00050015,"\h(«Martha»)“Don't worry, Martha. Even if it means my life,
+I will protect you and the others from whatever
+happens. This, I swear to you.”\e"
+M00050016,"\h(«Martha»)I… I guess he really does love me. Sometimes I
+really wonder, but… at times like this, I feel
+more loved than anyone else in the world…\c"
+M00050017,"\h(«Martha»)Do you know what that good-for-nothing husband
+of mine just told me? Right before he sailed off
+with the others, he turned to me and said…\e"
+M00050018,"\h(«Martha»)“Don't worry… I'll be home before you know it.
+And when I come back, I'm going to be a hero! So
+make sure and fix a feast for my return!!”\e"
+M00050019,"\h(«Martha»)I don't know… Maybe he just doesn't know how to
+word things right. I guess that's just how he
+shows his love.\c"
+M00060000,"\h(«Barbara»)Welcome home, Vyse. I hear that you caused quite
+the commotion over in Valua. Haha… Your father
+must be quite proud of you.\e"
+M00060001,"\h(«Barbara»)Don't tell her I told you this, but your mother
+was worried sick about you while you were gone.
+She was so happy that you came home safely.\c"
+M00060002,"\h(«Barbara»)So how does it feel to have gone on your
+first adventure? It must feel great to
+be out on your own…\e"
+M00060003,"\h(«Barbara»)But, I always knew that you weren't the type
+to sit still for very long. I knew it was only a
+matter of time before you left here.\c"
+M00060004,"\h(«Barbara»)All the men have been busy with preparations
+for battle ever since that strange island
+appeared over by Shrine Island.\e"
+M00060005,"\h(«Barbara»)I hope they know what they're doing… I get a
+bad feeling every time I look at that island…\c"
+M00060006,"\h(«Barbara»)Is it true? Was Valua wiped out by the Rains of
+Destruction?\e"
+M00060007,"\h(«Barbara»)That's horrible… I'm sure that not all Valuans
+were bad people… I can't bear to think of all
+the innocent lives lost…\e"
+M00060008,"\h(«Barbara»)Vyse! You can't let them get away with
+this! Show them that they can't mess
+with the Blue Rogues!\c"
+M00070000,"\h(«Briggs the Vice Captain»)You know, for a while there, I was actually
+beginning to think that I'd never live to see
+this place again.\e"
+M00070001,"\h(«Briggs the Vice Captain»)I owe you one, Vyse. Looks like I'll be
+able to go on being an Air Pirate for
+a little while longer.\c"
+M00070002,"\h(«Briggs the Vice Captain»)Unlike in Valua, there's always such a nice
+breeze blowing on Pirate Isle. Ahhh!\c"
+M00070003,"\h(«Briggs the Vice Captain»)Go take a look in the underground harbor.
+The new Albatross II is being constructed
+right now.\e"
+M00070004,"\h(«Briggs the Vice Captain»)It's about 90% finished. It won't be long before
+it's ready for its maiden voyage. I can't wait
+to go sailing again!!\c"
+M00070005,"\h(«Briggs the Vice Captain»)Hey there, Vyse! I heard that you not only
+managed to escape from Valua again, but you
+stole one of their best ships as well?\e"
+M00070006,"\h(«Briggs the Vice Captain»)That's incredible! But we've got a new ship,
+too! We just finished the last preparations
+on the Albatross II!\e"
+M00070007,"\h(«Briggs the Vice Captain»)We've been working on it for a long time in the
+underground port, and it's finally finished! I
+can't wait to take her sailing!!\c"
+M00070008,"\h(«Briggs the Vice Captain»)Hey there, Vyse! How've you been? The new
+Albatross flies like the wind… hehe.\e"
+M00070009,"\h(«Briggs the Vice Captain»)What?! You sailed around the world?! Y, you mean
+that the world isn't flat?! Man… You really are
+something, Vyse. I'm impressed…\c"
+M00080000,"\h(«Vyse's Mother»)Oh! You're home! Did you want to rest for a
+little while?\c"
+M00080001,"\h(«What will you say?»)“Sure, I could use a little rest.”
+“Nah… I'll be fine. I'm not that tired.”\e"
+M00080002,"\h(«Vyse»)Sure, I could use a little rest.\e"
+M00080003,"\h(«Vyse's Mother»)Great! I'll prepare a nice dinner for you,
+okay? Just go upstairs and relax… I'll let you
+know when dinner's ready.\c"
+M00080004,"\h(«Vyse's Mother»)Good morning! You just be careful out
+there, okay? And make sure you bundle
+up if it gets cold!\c"
+M00080005,"\h(«Vyse's Mother»)Good morning! You just be careful out
+there, okay? I pray that the Moons will
+watch over you…\c"
+M00080006,"\h(«Vyse»)Sorry, Mom… but not tonight. I'll stay some
+other time, okay?\e"
+M00080007,"\h(«Vyse's Mother»)Really? Well, alright. But, just remember that
+you're always welcome to stay whenever you
+want, okay? Be careful out there!\c"
+M00090000,"\h(«Jessica»)I owe you so much, Vyse. You actually brought
+my husband home safely. I… I can't believe it.\e"
+M00090001,"\h(«Jessica»)But, just between you and me, I still haven't
+finished that scarf that I was knitting. I
+have to hurry up and finish it up!\c"
+M00090002,"\h(«Jessica»)I finally finished that scarf that I was working
+on, but I didn't like the color, so I'm starting
+over from scratch. \e"
+M00090003,"\h(«Jessica»)I know it's really my own fault, but I'm
+starting to wonder when I'm ever going to
+finish the thing…\c"
+M00090004,"\h(«Jessica»)Oh hey, Vyse. I finished that scarf I was
+working on, finally. What am I stitching
+now, you ask?\e"
+M00090005,"\h(«Jessica»)Well, to tell you the truth…
+I'm having a baby!!!\e"
+M00090006,"\h(«Jessica»)So now I'm knitting clothes for the baby.
+Oh, I can't wait to see my baby wearing the
+clothes that I make!\c"
+M00090007,"\h(«Jessica»)It sounded like something terrible was happening
+outside! There was a big blast of wind… Then
+a rumbling sound… I don't know what to do…\c"
+M00090008,"\h(«Jessica»)My husband went off to join the fight. He said
+it was important for him to fight for our unborn
+baby… He's so sweet…\e"
+M00090009,"\h(«Jessica»)So, I will stay here and pray that he will
+come home safely after the the battle is won.\c"
+M00100000,"\h(«Granny»)They say there are six Moons in this world:
+Red, Yellow, Green, Blue, Purple, and Silver.\e"
+M00100001,"\h(«Granny»)Remember to pray to each of them before you
+start on your next journey. It is always best
+to be in favor of all the Moons…\c"
+M00100002,"\h(«Granny»)It is said that many, many years ago, there was
+a great civilization that once flourished among
+the clouds.\e"
+M00100003,"\h(«Granny»)The people achieved wonders in technology and
+had an advanced culture like no other. However,
+they grew proud and spiteful of others.\e"
+M00100004,"\h(«Granny»)As punishment, the Moons cast the whole
+civilization down beneath the clouds into Deep
+Sky, never to be seen again.\c"
+M00100005,"\h(«Granny»)I… I never thought that the legend of the lost
+civilization was true, but it… it appears that
+I was wrong… Moons, help us…\c"
+M00100006,"\h(«Granny»)It seems like yesterday that you were but a
+little baby, crying in your mother's arms…\e"
+M00100007,"\h(«Granny»)But now, you stand here before me, a fully grown
+man. Go, Vyse… Go and fulfill your destiny. I
+will be here praying for you…\c"
+M00110000,"\h(«Timmus the Gunner»)During battle, your enemies can do more than
+physical damage to your party. If you want, I
+can teach you about these adverse effects.\e"
+M00110001,"\h(«What would you like to learn about?»)“Ask about Sleep, Confuse, and Silence.”
+“Ask about Poison, Fatigue, and Stone.”
+“Nothing.”\e"
+M00110002,"\h(«Timmus the Gunner»)If an enemy puts you to “Sleep,” you will be
+unable to take any further actions until either
+the effect wears off or you are hit.\e"
+M00110003,"\h(«Timmus the Gunner»)But, the length of time you will be asleep will
+vary. Sometimes you will wake up right away, and
+other times it might take a while.\c"
+M00110004,"\h(«Timmus the Gunner»)“Confuse” refers to a state where you can no
+longer distinguish between friend and foe and
+you strike out at the nearest target.\e"
+M00110005,"\h(«Timmus the Gunner»)If a character with high attack power is
+confused, it can be disastrous for the entire
+party. You need to be especially careful, Vyse.\e"
+M00110006,"\h(«Timmus the Gunner»)“Silence” is a very bad condition to be in. It
+prevents you from being able to cast any magic
+spells until you are cured of it.\e"
+M00110007,"\h(«Timmus the Gunner»)At that point, you'll really need to watch your
+health. Since you won't be able to cast any
+healing spells, you'll have to use items.\e"
+M00110008,"\h(«Timmus the Gunner»)If you or any of your party members is ever
+“Poisoned,” then you'll steadily take damage
+throughout the battle.\e"
+M00110009,"\h(«Timmus the Gunner»)The longer the battle drags on, the more damage
+you will take. So, if it looks like it's going
+to be a long battle, you should cure yourself.\e"
+M00110010,"\h(«Timmus the Gunner»)If one of you is ever in a state of “Fatigue,”
+then you will be unable to recover any of your
+Spirit Points.\e"
+M00110011,"\h(«Timmus the Gunner»)Without Spirit, it's impossible to cast magic or
+other special techniques. This is probably not
+something you want to happen to you.\e"
+M00110012,"\h(«Timmus the Gunner»)And then there's “Stone.” When this happens,
+your entire body is turned to stone and you
+will be unable to move.\e"
+M00110013,"\h(«Timmus the Gunner»)You'll be stuck like that for several turns. The
+only other way to cure the condition is through
+magic or by using certain items.\e"
+M00110014,"\h(«Timmus the Gunner»)Really? Alright, then. I guess you'll just have
+to learn by experiencing them firsthand!!
+Hahaha!!\e"
+M00110015,"\h(«Timmus the Gunner»)Oh yeah, one more thing. Once the battle is
+over, any impairments that you were suffering
+from will disappear immediately.\e"
+M00110016,"\h(«Timmus the Gunner»)So don't bother trying to cure yourself after
+the battles are done. You'll just be wasting
+your time.\c"
+M00110017,"\h(«Timmus the Gunner»)It sounds like trouble's brewing…
+Heh… I've been aching for some action!
+I say, “Bring it on!!”\c"
+M00120000,"\h(«Borris the Gunner»)Hey Vyse, did you know that there are six
+different colors of Magic? I could teach you
+them if you want…\e"
+M00120001,"\h(«What would you like to learn about?»)“Ask about Green, Red, and Purple spells.”
+“Ask about Blue, Yellow, and Silver spells.”
+“Nothing.”\e"
+M00120002,"\h(«Borris the Gunner»)Green Magic uses the powers of nature to heal
+the recipient's body. The “Sacri” line of spells
+are all healing spells.\e"
+M00120003,"\h(«Borris the Gunner»)However, there is also the “Noxi” line of Green
+spells that use the powers of nature to poison
+your enemy.\e"
+M00120004,"\h(«Borris the Gunner»)Red spells are fire-based spells. The “Pyri”
+line of spells will consume all enemies in sight
+with intense flames.\e"
+M00120005,"\h(«Borris the Gunner»)There is also the “Increm” line of spells that
+will intensify the recipient's fighting skills,
+increasing their attack power and defense.\e"
+M00120006,"\h(«Borris the Gunner»)I don't know too much about Purple spells, but I
+understand there is a line of ice spells called
+“Crystali.”\e"
+M00120007,"\h(«Borris the Gunner»)I've also heard rumors of a Purple spell that 
+has the power to affect the mind of its target.\c"
+M00120008,"\h(«Borris the Gunner»)I don't know too much about the Blue spells…
+Rumor has it that they include spells that slow
+your enemy down or put him to sleep…\e"
+M00120009,"\h(«Borris the Gunner»)Also, I have heard that there are spells called
+“Wevli” that can summon a small vortex to damage
+a small group of enemies…\e"
+M00120010,"\h(«Borris the Gunner»)The Yellow spells are lightning spells. One
+useful group of spells is “Electri.” It attacks
+all enemies in a straight line.\e"
+M00120011,"\h(«Borris the Gunner»)There's also one called Driln that reduces
+your enemy's Agile as well as all of his
+other combat abilities.\e"
+M00120012,"\h(«Borris the Gunner»)And finally, there're the Silver spells…
+Very few people have studied these spells,
+so there isn't much known about them.\e"
+M00120013,"\h(«Borris the Gunner»)But, what I do know is that there is
+supposedly a spell that can cure any
+kind of physical ailment…\e"
+M00120014,"\h(«Borris the Gunner»)And I've heard there's a spell to revive someone
+who has been knocked unconscious, as well as one
+that can actually kill your enemy instantly…\c"
+M00120015,"\h(«Borris the Gunner»)Well, aren't we a little confident. Heh… That's
+okay, though. But if you think of any questions,
+don't be too proud to ask, okay?\c"
+M00120016,"\h(«Borris the Gunner»)I've taught you everything that I know, Vyse.
+There isn't much more that you can learn from
+me now.\e"
+M00120017,"\h(«Borris the Gunner»)You know enough to keep yourself alive out in
+the skies. Use that knowledge wisely!\c"
+M00190000,"\h(«Patch the Deckhand»)I owe everything to you guys. If it wasn't for
+your bravery, none of us would have ever made
+it home to Pirate Isle.\e"
+M00190001,"\h(«Patch the Deckhand»)I just wanted to let you know that… I'm
+grateful. Your father raised you well, Vyse.\c"
+M00190002,"\h(«Patch the Deckhand»)You can count on me to keep a sharp lookout!
+I may only be a deckhand, but Ben tells me that
+I'm a great lookout, too!\e"
+M00190003,"\h(«Patch the Deckhand»)I've got a precious little wife to protect. No
+way am I going to let the Valuans attack this
+island again.\c"
+M00190004,"\h(«Patch the Deckhand»)I was standing on watch like always, when
+suddenly the wind started picking up rapidly
+and nearly blew me off Lookout Island!\e"
+M00190005,"\h(«Patch the Deckhand»)And then these huge clumps of land started
+rising up one after another from beneath the
+clouds, and they turned into that huge island!\c"
+MS00010000,"\h(«Jimmy»)¡Vyse, nos hemos ocupado de la isla mientras tú
+estabas fuera!\e"
+MS00010001,"\h(«Jimmy»)¿Es que no estás orgulloso de nosotros?
+¡Lo hicimos prácticamente solos!\c"
+MS00010002,"\h(«Jimmy»)¡De ahora en adelante, también te vamos a ayudar
+a proteger la Isla del Pirata!\c"
+MS00010003,"\h(«Jimmy»)Me das una envidia, Vyse…… ¡Espero que mi padre
+me de permiso para ir a navegar pronto!\c"
+MS00010004,"\h(«Jimmy»)¡Oye, Vyse! Adivina. ¿Sabes qué?
+¡El otro día me dejaron subir al Albatross!\e"
+MS00010005,"\h(«Jimmy»)Bueno, la verdad es que estaba ayudando a mi
+padre a mover unas cajas…… je, je.\e"
+MS00010006,"\h(«Jimmy»)Pero para ser marino tienes que aprender primero
+estas pequeñas cosas, ¿no? ¡¡Voy a ser el mejor
+marino del mundo entero!!\c"
+MS00010007,"\h(«Jimmy»)¿Es cierto que has navegado por todo el mundo,
+Vyse? ¡¿Es verdad?! ¡Oh!\e"
+MS00010008,"\h(«Jimmy»)¡Yo también voy a navegar por el mundo entero
+algún día! ¡Fíjate en mí! ¡Cuando sea mayor, voy
+a ser como tú!\c"
+MS00010009,"\h(«Jimmy»)¡¿De dónde ha salido esa isla?!
+¡¿Y qué ha pasado con la Isla del Templo?!
+Vyse, ¡¿qué pasa aquí?!\c"
+MS00010010,"\h(«Jimmy»)Yo quería irme de viaje contigo, pero mi padre
+ha dicho que todavía soy muy pequeño para irme
+yo solo.\e"
+MS00010011,"\h(«Jimmy»)Así que os saludaré desde aquí, ¿eh?
+¡¡Como os dejéis ganar por los tipos malos!!\c"
+MS00020000,"\h(«Alan»)¡Mientras estabas fuera, he arreglado unas
+cosillas en la isla!\e"
+MS00020001,"\h(«Alan»)Je…… ¡Me siento como si pudiera hacerlo todo!
+Bueno…… casi todo. Tu madre me ha ayudado a
+mover cajas y esas cosas……\c"
+MS00020002,"\h(«Alan»)¿Sabes qué? ¡Ha sido muy divertido reconstruirlo
+todo! ¡Estoy satisfecho de construir cosas con
+mis propias manos!\e"
+MS00020003,"\h(«Alan»)¡A lo mejor me hago carpintero cuando sea mayor!
+Aún soy muy pequeño…… ¡pero soñar no hace daño a
+nadie! ¿Que opinas, Vyse?\c"
+MS00020004,"\h(«Alan»)En este momento, todas las personas mayores
+están ocupadas reconstruyendo el Albatross.\e"
+MS00020005,"\h(«Alan»)¿Y sabes una cosa? ¡Trabajé tan bien en la
+reconstrucción de la ciudad, que me han dejado
+ayudar a reconstruir el navío también!\c"
+MS00020006,"\h(«Alan»)¡Eh, Vyse! ¡Cuánto tiempo sin verte!\e"
+MS00020007,"\h(«Alan»)¡Deberías venir a casa más a menudo! ¡Quiero que
+me cuentes tus aventuras por ahí! ¡Apuesto a que
+has visto muchas cosas!\c"
+MS00020008,"\h(«Alan»)¿En serio? ¿Es verdad que hay un país llamado
+Yafutoma donde se construyen los edificios
+encima del agua?\e"
+MS00020009,"\h(«Alan»)Ooh…… ¡Me encantaría poder construir algo así!
+Claro…… que aquí no tenemos mucha agua donde
+hacerlo……\c"
+MS00020010,"\h(«Alan»)¡Vyse! ¡Oí un rugido horrible que venía de esa
+isla encima de las nubes y me asusté tanto que
+no sabía qué hacer!\c"
+MS00020011,"\h(«Alan»)Ahora no queda nadie. Se fueron todos a navegar
+en el Albatross. ¡Pero ya no estoy asustado!\e"
+MS00020012,"\h(«Alan»)¡Todo irá bien! ¡Nosotros defenderemos esta isla
+mientras los mayores están fuera combatiendo!
+¡Dejadlo en nuestras manos!\c"
+MS00030000,\h(«Lindsi»)¡Vyse! ¡Estás en casa! ¡¡Has vuelto!!\e
+MS00030001,"\h(«Lindsi»)Te he echado tanto de menos…… Estaba preocupada
+de que no volvieras……\c"
+MS00030002,"\h(«Lindsi»)¡Bienvenido a casa, Vyse! ¡Deberías venir a
+visitarnos más a menudo! ¡Te hemos echado de
+menos!\c"
+MS00030003,"\h(«Lindsi»)Ooh…… ¡Qué navío tan bonito, Vyse!
+¿De dónde lo has sacado? ¡Tienes que dejarme
+montar un día de estos!\c"
+MS00030004,"\h(«Lindsi»)Oye, Pow…… Tienes que ocuparte de Vyse, ¿vale?\c"
+MS00030005,"\h(«Lindsi»)¡¿En serio?!
+¡¿Habéis navegado por todo el mundo?!\e"
+MS00030006,"\h(«Lindsi»)¡Mi madre me ha contado que hay monstruos
+horribles en el borde del mundo!
+¿Os atacó alguno?\c"
+MS00030007,"\h(«Lindsi»)Vyse…… Jimmy me contó que hay gente malvada en
+esa isla…… ¿Es verdad?\e"
+MS00030008,"\h(«Lindsi»)Por las noches, cuando pienso en esa isla……
+Me…… Me entra tanto miedo que no puedo dormir……\c"
+MS00030009,"\h(«Lindsi»)¡Será mejor que no les dejes ganar, Vyse!
+¡¡No permitas que ganen los malos!!\e"
+MS00030010,"\h(«Lindsi»)Prométeme que volverás a casa sano y salvo,
+¿vale? ¡Promételo!\c"
+MS00040000,\h(«Pow»)¡Pow pow!\e
+MS00040001,"\h(«Vyse»)¡Qué tal andas, pequeñajo! Cómo te alegras de
+vernos…… Je, je…… ¿Has cuidado de todos mientras
+estaba fuera?\e"
+MS00040002,\h(«Pow»)¡¡Pow pow pow!!\c
+MS00040003,\h(«Pow»)¡Pow pow!\c
+MS00040004,\h(«Pow»)¡Pow pow!\c
+MS00040005,"\h(«Jimmy»)Umm…… Vyse, te quería pedir que hicieras algo
+por nosotros……\e"
+MS00040006,"\h(«Jimmy»)Todos deseamos ir contigo para ayudarte un
+poco…… pero aún somos muy pequeños, supongo.
+Por lo menos eso dicen nuestros padres……\e"
+MS00040007,"\h(«Jimmy»)Así que, en lugar de eso, ¡queremos que te
+lleves a Pow!\e"
+MS00040008,\h(«Pow»)¡Pow pow!\c
+MS00040009,"\h(«Alan»)Siempre hemos podido contar con Pow……
+Él siempre ha estado disponible cuando
+necesitábamos un poco de alegría.\e"
+MS00040010,"\h(«Alan»)Y estábamos pensando que quizá, si Pow
+va contigo, también te puede alegrar el día
+cuando lo necesites, ¿sabes?\e"
+MS00040011,"\h(«Vyse»)Ja, ja…… entiendo.
+Bueno, entonces…… Pow, ¡eres el miembro más
+reciente de mi tripulación!\e"
+MS00040012,"\h(«Lindsi»)¿Has oído eso, Pow? Vyse te va a llevar con él
+de viaje. ¡Vas a ir a navegar en ese barco tan
+grande con su tripulación!\e"
+MS00040013,\h(«Pow»)¡Pow! ¡Pow pow!\c
+MS00040014,"\h( )Pow se ha unido a tu tripulación como
+“Bufón”…… o algo así.\c"
+MS00050000,"\h(«Martha»)Vyse…… Quería darte las gracias por traer a mi
+marido a casa. Sé que ese zángano no se habría
+salvado él solo ni aun intentándolo.\e"
+MS00050001,"\h(«Martha»)Aunque sea un zángano…… le quiero.
+Me he dado cuenta mientras estaba fuera.
+Le he echado de menos…… ¡Pero no se lo digas!\c"
+MS00050002,"\h(«Martha»)¡¿Puedes creerlo?! Ese holgazán de mi marido
+encima es un ingrato.
+¡¿Sabes lo que me ha dicho?!\e"
+MS00050003,"\h(«Martha»)“En Valua vi a las mujeres más bellas que he
+visto en mi vida……”
+¡ESO es lo que ha dicho!\e"
+MS00050004,"\h(«Martha»)Here I was, worried sick about him… And all he
+could do was admire the “beautiful women” in
+Valua?! I can't believe him!!\c"
+MS00050005,"\h(«Martha»)¡¿Te lo puedes creer?! Ese gandul de mi marido
+no sabe lo que es la gratitud. ¡¿Sabes lo que me
+dice?!\e"
+MS00050006,"\h(«Martha»)“En Valua no podía apartar mi mente del viaje……
+Sólo pensaba en navegar. Ah, y…… esto…… te
+echaba de mucho menos, claro……”\e"
+MS00050007,"\h(«Martha»)¡¿Te lo puedes creer?! “Ah, y…… esto…… te echaba
+de mucho menos, claro……” ¡Y yo preocupada
+mientras él pensaba en navegar!\c"
+MS00050008,"\h(«Martha»)¡¿Te lo puedes creer?! Ese inútil de mi marido
+encima es un ingrato. ¿¡Sabes lo que me ha
+dicho?!\e"
+MS00050009,"\h(«Martha»)“Cuando navego me siento como en casa.
+Es tan relajante…… Me siento tan libre……
+Oh, pero eso no significa nada……”\e"
+MS00050010,"\h(«Martha»)¿¡No te parece increíble?! ¡¿Cómo que eso NO
+significa nada?! Te juro que a partir de ahora
+le encierro en casa a cal y canto……\c"
+MS00050011,"\h(«Martha»)¡¿Puedes creerlo?! ¡Ese holgazán de mi marido es
+un ingrato! ¡¿Sabes lo que me ha dicho?!\e"
+MS00050012,"\h(«Martha»)“Mi meta en la vida es navegar por todo el mundo
+como Vyse y conocer a muchas mujeres guapas.
+Esto…… tú también eres muy mona.”\e"
+MS00050013,"\h(«Martha»)¡¿Puedes creerte que me lo dijera?!
+Te juro que…… ¡otro comentario como ése y no
+vuelve a navegar en la vida!\c"
+MS00050014,"\h(«Martha»)¿Sabes lo que acaba de decirme esa piraña de mi
+marido? Miró en lontananza, en dirección a la
+nueva isla y dijo……\e"
+MS00050015,"\h(«Martha»)“Tú tranquila, Martha. Aunque tenga que
+sacrificar mi propia vida, os protegeré a ti y a
+los demás de cualquier cosa. Te lo juro.”\e"
+MS00050016,"\h(«Martha»)Supongo…… que me quiere de verdad. A veces me lo
+pregunto, pero…… en momentos como éste, me
+siento la mujer más querida del mundo……\c"
+MS00050017,"\h(«Martha»)¿Sabes lo que me acaba de decir ese vago de mi
+marido? Justo antes de partir con los demás, se
+da la vuelta y me dice……\e"
+MS00050018,"\h(«Martha»)“No te preocupes…… estaré de vuelta antes de que
+te des cuenta. ¡Y regresaré como un héroe!
+¡Prepara un buen banquete en mi honor!”\e"
+MS00050019,"\h(«Martha»)No sé…… A lo mejor no sabe cómo expresarse
+claramente. Supongo que es la única manera que
+tiene de expresar su amor.\c"
+MS00060000,"\h(«Barbara»)Bienvenido, Vyse. Me han dicho que provocaste
+toda una conmoción en Valua. Ja, ja…… Tu padre
+debe estar orgulloso de ti.\e"
+MS00060001,"\h(«Barbara»)No le digas que te lo he contado, pero tu madre
+estaba preocupadísima.
+Estaba tan feliz de verte otra vez.\c"
+MS00060002,"\h(«Barbara»)¿Cómo te sientes después de tu primera aventura?
+Debe ser genial viajar por tu cuenta……\e"
+MS00060003,"\h(«Barbara»)Siempre supe que no eres el tipo de persona que
+se sienta a esperar. Sabía que irte de aquí era
+una cuestión de tiempo.\c"
+MS00060004,"\h(«Barbara»)Desde que esa extraña isla apareció sobre la
+Isla del Templo, todos los hombres han estado
+ocupados en preparativos para la batalla.\e"
+MS00060005,"\h(«Barbara»)Espero que sepan lo que hacen…… Me da mala
+espina cada vez que veo esa isla……\c"
+MS00060006,"\h(«Barbara»)¿Es eso cierto? ¿Valua fue devastada por las
+Lluvias Destructoras?\e"
+MS00060007,"\h(«Barbara»)Es horrible…… Estoy segura de que no todos los
+Valuan eran mala gente…… Cuando pienso en todas
+las vidas inocentes que se perdieron……\e"
+MS00060008,"\h(«Barbara»)¡Vyse! ¡No puedes permitir que se salgan con la
+suya! ¡Demuéstrales que con los Bandidos Azules
+no se bromea!\c"
+MS00070000,"\h(«El Vicecapitán Briggs»)Sabes, durante un tiempo, empecé a pensar que no
+iba a vivir para ver este lugar otra vez.\e"
+MS00070001,"\h(«El Vicecapitán Briggs»)Te debo una, Vyse. Por lo visto voy a seguir
+siendo un Pirata Aéreo durante mucho tiempo.\c"
+MS00070002,"\h(«El Vicecapitán Briggs»)A diferencia de Valua, siempre sopla una brisa
+de lo más agradable en la Isla del Pirata.
+¡Ahhh!\c"
+MS00070003,"\h(«El Vicecapitán Briggs»)Ve a echar un vistazo al embarcadero
+subterráneo.
+Están construyendo el nuevo Albatross II.\e"
+MS00070004,"\h(«El Vicecapitán Briggs»)Se ha construido el 90%. Dentro de poco estará
+listo para su viaje inaugural.
+¡¡Estoy impaciente por salir a navegar!!\c"
+MS00070005,"\h(«El Vicecapitán Briggs»)¡Eh, Vyse! He oído que no sólo te las compusiste
+para huir de Valua una vez más, encima les
+robaste uno de sus mejores navíos.\e"
+MS00070006,"\h(«El Vicecapitán Briggs»)¡Es increíble! ¡Pero nosotros también tenemos un
+navío nuevo! ¡Acabamos de terminar los últimos
+preparativos para el Albatross II!\e"
+MS00070007,"\h(«El Vicecapitán Briggs»)¡Llevamos mucho tiempo trabajando en el puerto
+subterráneo y por fin está terminado!
+¡¡Estoy impaciente por sacar el barco!!\c"
+MS00070008,"\h(«El Vicecapitán Briggs»)¡Oye, Vyse! ¿Qué tal estás? El nuevo Albatross
+vuela como el viento…… je, je.\e"
+MS00070009,"\h(«El Vicecapitán Briggs»)¡¿Qué?! ¡¿Has navegado por todo el mundo?!
+¡¿Quieres decir que el mundo no es plano?
+Hombre, Vyse…… Estoy impresionado……\c"
+MS00080000,"\h(«Madre de Vyse»)¡Oh! ¡Estás en casa! ¿Quieres descansar un
+ratito?\c"
+MS00080001,"\h(«¿Qué vas a decir?»)“Claro, me vendría bien un descanso.”
+“No…… Estoy bien. No estoy tan cansado.”\e"
+MS00080002,"\h(«Vyse»)Claro, me vendría bien un descanso.\e"
+MS00080003,"\h(«El Vicecapitán Briggs»)¡Genial! Te voy a hacer una cena muy rica,
+¿vale? Tú vete arriba y ponte cómodo…… Cuando la
+cena esté lista te aviso.\c"
+MS00080004,"\h(«Madre de Vyse»)¡Buenos días! Ten mucho cuidado por ahí, ¿eh?
+¡Y haz el favor de abrigarte bien si hace frío!\c"
+MS00080005,"\h(«El Vicecapitán Briggs»)¡Buenos días! Ten mucho cuidado por ahí, ¿eh?
+Rezaré por que las Lunas te protejan……\c"
+MS00080006,"\h(«Vyse»)Mamá, perdona…… pero esta noche no.
+Ya me quedaré otro día, ¿eh?\e"
+MS00080007,"\h(«Madre de Vyse»)¿En serio? Bueno, está bien. Pero acuérdate de
+que puedes quedarte aquí siempre que quieras
+¿eh? ¡Ten mucho cuidado!\c"
+MS00090000,"\h(«Jessica»)Te debo tanto, Vyse. Has traído a mi marido a
+casa sano y salvo. No…… no puedo creerlo.\e"
+MS00090001,"\h(«Jessica»)Pero, entre tú yo, aún no he terminado esa
+bufanda que estaba tejiendo. ¡Tengo que darme
+prisa y terminarla!\c"
+MS00090002,"\h(«Jessica»)Por fin he acabado esa bufanda que estaba
+haciendo, pero como el color no me convencía, la
+he empezado otra vez desde el principio.\e"
+MS00090003,"\h(«Jessica»)Sé que es culpa mía, pero empiezo a pensar que
+no voy a terminarla jamás……\c"
+MS00090004,"\h(«Jessica»)Hombre, Vyse. Por fin he terminado esa bufanda
+que estaba haciendo. Si quieres que te teja algo
+no tienes más que pedirlo.\e"
+MS00090005,"\h(«Jessica»)Bueno, si quieres que te diga la verdad……
+¡¡Voy a tener un hijo!!\e"
+MS00090006,"\h(«Jessica»)Ahora tengo que tejer las ropitas del niño.
+¡Estoy impaciente por ver a mi niño vestidito
+con todo lo que le estoy haciendo!\c"
+MS00090007,"\h(«Jessica»)¡Parecía que algo terrible estuviese sucediendo
+afuera! Hubo una ráfaga de viento…… Luego un
+terrible rugido…… No sé qué hacer……\c"
+MS00090008,"\h(«Jessica»)Mi marido se fue a la batalla. Dijo que para él
+era importante luchar por nuestro hijo que aún
+no ha nacido…… Es una monada……\e"
+MS00090009,"\h(«Jessica»)Así que yo me quedaré aquí rezando para que
+vuelva a casa sano y salvo después de ganar la
+batalla.\c"
+MS00100000,"\h(«Abuela»)Dicen que hay seis Lunas en este mundo:
+la Roja, la Amarilla, la Verde, la Azul, la
+Púrpura y la de Plata.\e"
+MS00100001,"\h(«Abuela»)Acuérdate de rezar a cada una de ellas antes de
+empezar un nuevo viaje. Siempre es mejor que
+todas las Lunas velen por ti……\c"
+MS00100002,"\h(«Abuela»)Dicen que hace muchos, muchos años, hubo una
+gran civilización que florecía entre las nubes.\e"
+MS00100003,"\h(«Abuela»)Sus gentes lograron crear maravillas
+tecnológicas y una cultura muy avanzada.
+Pero el orgullo y el rencor acabó con ellos.\e"
+MS00100004,"\h(«Abuela»)Como castigo, las Lunas arrojaron a la
+civilización entera bajo de las nubes, en el
+Cielo Profundo y quedó oculta para siempre.\c"
+MS00100005,"\h(«Abuela»)Nunca…… pensé que esa leyenda sobre la
+civilización perdida fuera cierta, pero…… me
+equivoqué…… Que las Lunas nos ayuden……\c"
+MS00100006,"\h(«Abuela»)Parece que fue ayer cuando eras un bebé que
+lloraba en brazos de su madre……\e"
+MS00100007,"\h(«Abuela»)Y ahora estás aquí delante de mí, hecho un
+hombre adulto. Ve, Vyse…… Ve a realizar tu
+destino. Yo rezaré por ti……\c"
+MS00110000,"\h(«Timmus el Cañonero»)En la batalla, tus enemigos pueden hacer otras
+cosas aparte de daño físico en tu grupo.
+Yo te puedo enseñar algunas técnicas.\e"
+MS00110001,"\h(«¿Sobre qué te gustaría aprender?»)“Sobre Sueño, Confusión y Silencio.”
+“Sobre Veneno, Fatiga y Petrificación.”
+“No quiero aprender nada.”\e"
+MS00110002,"\h(«Timmus el Cañonero»)Si el enemigo te contagia el “Sueño” no podrás
+seguir luchando hasta que se pase el efecto o
+hasta que seas acertado por el enemigo.\e"
+MS00110003,"\h(«Timmus el Cañonero»)Pero el tiempo que pasas dormido varía. A veces
+te vas a despertar enseguida, y otras veces
+puede que te lleve un rato.\c"
+MS00110004,"\h(«Timmus el Cañonero»)“Confusión” se refiere a un estado en el que ya
+no puedes distinguir entre un amigo y un
+enemigo, y disparas al objetivo más cercano.\e"
+MS00110005,"\h(«Timmus el Cañonero»)Si un personaje con un alto poder de ataque está
+confuso, puede resultar desastroso para todo el
+grupo. Ten mucho cuidado, Vyse.\e"
+MS00110006,"\h(«Timmus el Cañonero»)El “Silencio” es una condición muy mala.
+Te impide conjurar cualquier hechizo mágico
+hasta que te hayas curado.\e"
+MS00110007,"\h(«Timmus el Cañonero»)Tendrás que cuidar mucho tu salud. Como no
+podrás conjurar ningún hechizo, tendrás que usar
+los objetos.\e"
+MS00110008,"\h(«Timmus el Cañonero»)Si tú o cualquiera de los miembros de tu grupo
+es “Envenenado”, recibirás daños de forma
+continuada a lo largo de la batalla.\e"
+MS00110009,"\h(«Timmus el Cañonero»)Cuanto más dure la batalla, más daño recibirás.
+O sea, que si crees que la batalla va a ser
+larga, mejor será que te cures.\e"
+MS00110010,"\h(«Timmus el Cañonero»)Si uno de vosotros se encuentra alguna vez en un
+estado de “Fatiga”, no podrá recuperar los
+puntos de Espíritu.\e"
+MS00110011,"\h(«Timmus el Cañonero»)Sin Espíritu, es imposible conjurar magia o
+cualquier otra técnica especial. No te interesa
+que eso te suceda.\e"
+MS00110012,"\h(«Timmus el Cañonero»)Además tienes la “Petrificación”. Cuando sucede
+eso, tu cuerpo se convierte en piedra y no
+puedes moverte.\e"
+MS00110013,"\h(«Timmus el Cañonero»)Y te quedas así durante varios turnos. La única
+forma de curar esa condición es con magia o
+usando algunos objetos.\e"
+MS00110014,"\h(«Timmus el Cañonero»)¿En serio? Está bien. ¡Creo que tendrás que
+aprender viviéndolo tú mismo! ¡¡Ja, ja, ja!!\e"
+MS00110015,"\h(«Timmus el Cañonero»)Ah, otra cosa. Una vez haya terminado la
+batalla, cualquier condición negativa que estés
+sufriendo remite inmediatamente.\e"
+MS00110016,"\h(«Timmus el Cañonero»)Así que no te molestes en curarte después de una
+batalla, porque estarás perdiendo el tiempo.\c"
+MS00110017,"\h(«Timmus el Cañonero»)Me parece que se avecinan problemas……
+Eh…… ¡Estoy impaciente por un poco de acción!
+“¡¡Vamos allá!!”\c"
+MS00120000,"\h(«Borris el Cañonero»)Vyse, ¿sabías que existen seis tipos distintos
+de Magia? Puedo enseñártelos si quieres……\e"
+MS00120001,"\h(«¿Sobre qué quieres aprender?»)“Sobre los hechizos Verde, Rojo y Púrpura.”
+“Sobre los hechizos Azul, Amarillo y Plata.”
+“No quiero aprender sobre nada.”\e"
+MS00120002,"\h(«Borris el Cañonero»)La Magia Verde usa los poderes de la naturaleza
+para curar el cuerpo del que la recibe.
+Los hechizos “Sacri” son curativos.\e"
+MS00120003,"\h(«Borris el Cañonero»)Pero también existen los hechizos de Magia Verde
+“Noxi”, que usan los poderes de la naturaleza
+para envenenar al enemigo.\e"
+MS00120004,"\h(«Borris el Cañonero»)Los hechizos Rojos utilizan el fuego.
+Los hechizos “Pyri” consumen con llamas intensas
+a todos los enemigos que haya a la vista.\e"
+MS00120005,"\h(«Borris el Cañonero»)Y están los hechizos “Increm”, que aumenta las
+habilidades combativas del que lo recibe y
+aumenta su poder de ataque y defensa.\e"
+MS00120006,"\h(«Borris el Cañonero»)No sé mucho acerca de los hechizos Púrpura, pero
+creo que hay una línea de hechizos de hielo
+llamada “Crystali”.\e"
+MS00120007,"\h(«Borris el Cañonero»)También he oído hablar de un hechizo Púrpura que
+tiene el poder de afectar a la mente del
+objetivo.\c"
+MS00120008,"\h(«Borris el Cañonero»)No sé mucho sobre hechizos Azules……
+Según los rumores incluyen hechizos que
+ralentizan a tu enemigo o le ponen a dormir……\e"
+MS00120009,"\h(«Borris el Cañonero»)También he oído que hay hechizos “Wevli” que
+pueden convocar un remolino pequeño para hacer
+daño a un grupo reducido de enemigos……\e"
+MS00120010,"\h(«Borris el Cañonero»)Los hechizos Amarillos son hechizos de rayo y
+reciben el nombre de “Electri”. Atacan a todos
+los enemigos en línea recta.\e"
+MS00120011,"\h(«Borris el Cañonero»)Hay otro hechizo, el Driln, que reduce la
+Agilidad de tu enemigo y todas su habilidades de
+combate.\e"
+MS00120012,"\h(«Borris el Cañonero»)Y por último, están los hechizos de Plata……
+Muy poca gente ha estudiado estos hechizos,
+así que no se sabe mucho sobre ellos.\e"
+MS00120013,"\h(«Borris el Cañonero»)Pero sé que hay un hechizo que supuestamente
+puede curar toda clase de dolencias corporales……\e"
+MS00120014,"\h(«Borris el Cañonero»)Y he oído que hay un hechizo que revive a quien
+esté inconsciente, y otro que puede matar a tu
+enemigo instantáneamente……\c"
+MS00120015,"\h(«Borris el Cañonero»)Bueno, sí que te veo seguro de ti mismo……
+Me parece bien, pero si te surge alguna duda, no
+dudes en preguntarme, ¿de acuerdo?\c"
+MS00120016,"\h(«Borris el Cañonero»)Te he enseñado todo lo que sé, Vyse.
+Ya no queda mucho más que yo te pueda enseñar.\e"
+MS00120017,"\h(«Borris el Cañonero»)Has aprendido lo suficiente para sobrevivir por
+ahí en los cielos. ¡Usa tus nuevos conocimientos
+con criterio!\c"
+MS00190000,"\h(«Patch el Marino»)Os debo mucho, chicos. Si no fuera por vuestra
+valentía, ninguno de nosotros habría logrado
+regresar a la Isla del Pirata.\e"
+MS00190001,"\h(«Patch el Marino»)Sólo quería que supieras que…… te estoy muy
+agradecido. Tu padre hizo un buen trabajo
+contigo, Vyse.\c"
+MS00190002,"\h(«Patch el Marino»)¡Podéis contar conmigo para seguir vigilando!
+¡Puede que sólo sea un Marino, pero según Ben,
+tampoco se me daría mal ser el centinela!\e"
+MS00190003,"\h(«Patch el Marino»)Tengo una preciosa mujercita a la que proteger.
+No voy a permitir que esos Valuan vuelvan a
+atacar esta isla.\c"
+MS00190004,"\h(«Patch el Marino»)¡Estaba vigilando como siempre, cuando de
+repente el viento empezó a soplar fuerte y casi
+me arrastró de la Isla Centinela!\e"
+MS00190005,"\h(«Patch el Marino»)¡Y entonces masas de tierra se levantaron una
+detrás de otra de debajo de las nubes y se
+transformaron en esa isla tan enorme!\c"
+MF00010000,"\h(«Jimmy»)Vyse, nous nous sommes bien occupés de l'île
+pendant ton absence !\e"
+MF00010001,"\h(«Jimmy»)Es-tu fier de nous ? Nous avons fait tout cela
+presque tout seuls !\c"
+MF00010002,"\h(«Jimmy»)À partir d'aujourd'hui, nous aussi nous aiderons
+à protéger l'Île des Pirates !\c"
+MF00010003,"\h(«Jimmy»)Je t'envie vraiment, Vyse…… Il me tarde que mon
+père me laisse naviguer moi aussi !\c"
+MF00010004,"\h(«Jimmy»)Hé, Vyse ! Devine ? Devine ? Ils m'ont laissé
+monter à bord de l'Albatros l'autre jour !\e"
+MF00010005,"\h(«Jimmy»)Euh, en fait, j'aidais juste mon père à
+transporter des caisses…… hihi.\e"
+MF00010006,"\h(«Jimmy»)Mais, il faut apprendre à faire ces petites
+corvées avant de devenir marin, n'est-ce pas ?
+Je vais devenir le meilleur marin au monde !!\c"
+MF00010007,"\h(«Jimmy»)Est-ce que c'est vrai que tu as fait le tour du
+monde en navire, Vyse ? C'est vrai ?! Oaouh !!!\e"
+MF00010008,"\h(«Jimmy»)Je vais faire le tour du monde en navire, moi
+aussi, un jour ! Tu verras ! Je serai comme toi
+quand je serai grand !!\c"
+MF00010009,"\h(«Jimmy»)D'où vient cette île ?!
+Où est passée l'Île du Temple ?!
+Vyse, que se passe t-il ?!\c"
+MF00010010,"\h(«Jimmy»)En fait, je voulais t'accompagner pendant ton
+voyage, mais mon père m'a dit que j'étais encore
+trop jeune pour partir tout seul.\e"
+MF00010011,"\h(«Jimmy»)Alors je vous encouragerai d'ici, OK ?
+Ne vous laissez pas faire par ces méchants !!\c"
+MF00020000,"\h(«Alan»)Pendant ton absence, j'ai réparé des trucs sur
+l'île !\e"
+MF00020001,"\h(«Alan»)Je me sens capable de tout faire maintenant !
+Euh…… presque tout. Ta mère m'a aidé à déplacer
+des caisses……\c"
+MF00020002,"\h(«Alan»)Tu sais quoi ? En fait, je me suis bien amusé à
+tout reconstruire ! J'ai bien aimé travailler de
+mes mains !\e"
+MF00020003,"\h(«Alan»)Je serai peut-être charpentier plus tard !
+Je suis encore un peu jeune…… mais cela ne coûte
+rien de rêver, hein Vyse !\c"
+MF00020004,"\h(«Alan»)En ce moment, tous les adultes sont en train de
+reconstruire l'Albatros.\e"
+MF00020005,"\h(«Alan»)Et tu sais quoi ? Comme j'ai bien aidé tout le
+monde à reconstruire la ville, ils me permettent
+aussi de les aider à reconstruire le navire !\c"
+MF00020006,\h(«Alan»)Hé Vyse ! Je ne t'ai pas vu depuis longtemps !\e
+MF00020007,"\h(«Alan»)Tu devrais passer plus souvent ! Je veux que tu
+me racontes toutes tes aventures ! Je parie que
+tu as vu des choses incroyables !\c"
+MF00020008,"\h(«Alan»)Vraiment ? Il existe un pays qui s'appelle
+Yafutoma où les maisons sont construites sur
+l'eau ?\e"
+MF00020009,"\h(«Alan»)Oaouh…… J'aimerais bien construire quelque chose
+comme ça ! Bien sûr…… il n'y a pas beaucoup
+d'eau ici……\c"
+MF00020010,"\h(«Alan»)Vyse ! Il y a eu un grondement et cette île a
+surgi des nuages et j'avais peur et je ne savais
+pas quoi faire !\c"
+MF00020011,"\h(«Alan»)Tout le monde est parti maintenant. Ils se sont
+tous envolés sur l'Albatros. Mais, je n'ai plus
+peur !\e"
+MF00020012,"\h(«Alan»)Ça va aller ! Nous défendrons l'île pendant que
+les grands se battent ! Laisse-nous faire, OK ?\c"
+MF00030000,\h(«Lindsi»)Vyse ! Te revoilà ! Tu es revenu !!\e
+MF00030001,"\h(«Lindsi»)Tu m'as tellement manqué…… J'avais tellement
+peur que tu ne reviennes pas……\c"
+MF00030002,"\h(«Lindsi»)Bienvenue, Vyse ! Tu devrais venir nous rendre
+visite plus souvent, d'accord ?
+Tu nous manques !\c"
+MF00030003,"\h(«Lindsi»)Oaouh…… Ce navire est magnifique, Vyse !
+Où l'as-tu trouvé ? T'as intérêt de me laisser
+le naviguer un jour !\c"
+MF00030004,"\h(«Lindsi»)OK, Pow…… Occupe-toi bien de Vyse, d'accord ?\c"
+MF00030005,"\h(«Lindsi»)Vraiment ?! Tu as fait le tour du monde en
+navire ?!\e"
+MF00030006,"\h(«Lindsi»)Mais, ma maman m'a dit qu'il y avait des
+monstres affreux au bout du monde ! Est-ce
+qu'ils ont essayé de te faire du mal ?\c"
+MF00030007,"\h(«Lindsi»)Vyse…… Jimmy m'a dit qu'il y a des gens méchants
+sur cette île…… C'est vrai ?\e"
+MF00030008,"\h(«Lindsi»)Quand je pense à cette île la nuit…… J'ai…… j'ai
+peur et je n'arrive pas à m'endormir……\c"
+MF00030009,"\h(«Lindsi»)Ne te laisse pas faire, Vyse !
+Ne laisse pas les méchants gagner !!\e"
+MF00030010,"\h(«Lindsi»)Promets-moi que tu rentreras sain et sauf,
+d'accord ? Promis !!\c"
+MF00040000,\h(«Pow»)Pow pow !\e
+MF00040001,"\h(«Vyse»)Comment ça va, petit ! Tu as l'air content de
+nous revoir…… Héhé…… Tu t'es bien occupé de tout
+le monde pendant mon absence ?\e"
+MF00040002,\h(«Pow»)Pow pow pow !!\c
+MF00040003,\h(«Pow»)Pow pow !\c
+MF00040004,\h(«Pow»)Pow pow !\c
+MF00040005,"\h(«Jimmy»)Umm…… Vyse, nous voulions te demander un
+service……\e"
+MF00040006,"\h(«Jimmy»)On aimerait bien venir avec toi pour t'aider……
+mais nous sommes encore trop jeunes, j'imagine.
+Enfin, c'est ce que nos parents disent……\e"
+MF00040007,"\h(«Jimmy»)Alors, à la place, nous voulons que tu emmènes
+Pow. Il t'aidera !\e"
+MF00040008,\h(«Pow»)Pow pow !\c
+MF00040009,"\h(«Alan»)Pow a toujours été là pour nous…… Il a toujours
+été là pour nous remonter le moral.\e"
+MF00040010,"\h(«Alan»)Et nous pensions que si Pow t'accompagnait, il
+pourrait te remonter le moral quand tu en aurais
+besoin ?\e"
+MF00040011,"\h(«Vyse»)Haha…… Je vois.
+Bon…… Pow, c'est toi le tout dernier membre de
+mon équipe !\e"
+MF00040012,"\h(«Lindsi»)Tu entends ça, Pow ? Vyse va t'emmener avec
+lui ! Tu vas naviguer à bord de ce gros navire
+avec son équipage !\e"
+MF00040013,\h(«Pow»)Pow ! Pow pow !!\c
+MF00040014,"\h( )Pow a rejoint votre équipage, c'est une sorte de
+“Bouffon.”……\c"
+MF00050000,"\h(«Martha»)Vyse…… Je voulais te remercier pour avoir ramené
+mon mari à la maison. Je sais que ce fainéant
+n'aurait pas pu se sauver sans ton aide.\e"
+MF00050001,"\h(«Martha»)C'est peut-être un fainéant…… mais…… je l'aime
+encore. Je m'en suis rendue compte quand il est
+parti. Il m'a tellement manqué…… Mais il vaut
+mieux pas que tu le lui dises !!\c"
+MF00050002,"\h(«Martha»)Tu le crois ?! Mon bon à rien de mari est
+vraiment ingrat ! Tu sais ce qu'il m'a dit ?!\e"
+MF00050003,"\h(«Martha»)“Les femmes de Valua sont les plus jolies femmes
+que je n'ai jamais vues……”
+VOILÀ ce qu'il a dit !!!\e"
+MF00050004,"\h(«Martha»)J'étais là, à me faire du mauvais sang…… Pendant
+que monsieur admirait les “jolies femmes” de
+Valua ?! Je n'arrive pas à le croire!!\c"
+MF00050005,"\h(«Martha»)Tu le crois ?! Mon bon à rien de mari est
+vraiment ingrat ! Tu sais ce qu'il m'a dit ?!\e"
+MF00050006,"\h(«Martha»)“Pendant que j'étais à Valua, je n'arrêtais pas
+de penser aux voyages…… Je voulais être dans le
+ciel. Oh, et tu…… uh…… m'as manqué, aussi……”\e"
+MF00050007,"\h(«Martha»)Tu le crois ??! “Oh, et tu…… uh…… m'as manqué,
+aussi……” J'étais là, à mourir d'inquiétude, et
+lui ne pensait qu'à naviguer !!\c"
+MF00050008,"\h(«Martha»)Tu le crois ?! Mon bon à rien de mari est
+vraiment ingrat ! Tu sais ce qu'il m'a dit ?!\e"
+MF00050009,"\h(«Martha»)“Je suis vraiment dans mon élément quand je
+navigue. Cela me détend…… Je me sens tellement
+libre…… Oh, mais je n'insinue rien……”\e"
+MF00050010,"\h(«Martha»)Tu le crois ?! Comment ne PAS insinuer quelque
+chose en disant cela ?! Je te jure, je devrais
+l'enfermer à clé dans la maison désormais……\c"
+MF00050011,"\h(«Martha»)Tu le crois ?! Mon bon à rien de mari est
+vraiment ingrat ! Tu sais ce qu'il m'a dit ?!\e"
+MF00050012,"\h(«Martha»)“Mon but dans la vie, c'est de faire le tour du
+monde en navire comme Vyse et de rencontrer
+plein de jolies femmes, je veux dire, je te
+trouve très belle aussi.”\e"
+MF00050013,"\h(«Martha»)Je ne peux pas croire qu'il m'ait dit cela ?!
+Je te jure…… une autre remarque de ce genre, et
+il ne naviguera jamais plus !!\c"
+MF00050014,"\h(«Martha»)Sais-tu ce que mon bon à rien de mari m'a dit ?
+Il a regardé au loin en direction de cette
+nouvelle île et m'a dit……\e"
+MF00050015,"\h(«Martha»)“Ne t'inquiète pas, Martha. Même si cela me
+coûte la vie, je te protègerai toi et les
+autres, quoiqu'il arrive. Je te le jure.”\e"
+MF00050016,"\h(«Martha»)J…… j'imagine qu'il m'aime vraiment. Parfois je
+me demande vraiment, mais…… dans les moments
+comme ça, je me sens la femme la plus aimée au
+monde……\c"
+MF00050017,"\h(«Martha»)Sais-tu ce que mon bon à rien de mari m'a dit ?
+Juste avant de partir avec les autres, il s'est
+tourné vers moi et m'a dit……\e"
+MF00050018,"\h(«Martha»)“Ne t'inquiète pas…… Je serai très bientôt de
+retour. Et je reviendrai en héros ! Alors
+prépare un festin pour mon retour !!”\e"
+MF00050019,"\h(«Martha»)Je ne sais pas…… Peut-être qu'il ne sait pas
+bien s'exprimer. C'est sa façon à lui de montrer
+qu'il m'aime.\c"
+MF00060000,"\h(«Barbara»)Bienvenue, Vyse. On dit que tu as semé la
+pagaille à Valua. Haha…… Ton père doit être
+vraiment fier de toi.\e"
+MF00060001,"\h(«Barbara»)Ne lui dis pas que je te l'ai dit, mais ta mère
+était morte d'inquiétude à ton sujet.
+Elle est tellement contente que tu sois revenu
+sain et sauf.\c"
+MF00060002,"\h(«Barbara»)Alors ? Qu'est-ce que cela fait d'avoir vécu ta
+première aventure ?
+Ce doit être formidable d'être tout seul……\e"
+MF00060003,"\h(«Barbara»)Mais, j'ai toujours su que tu n'étais pas du
+genre à rester sans rien faire. Je savais que tu
+ne tarderais pas à partir.\c"
+MF00060004,"\h(«Barbara»)Tous les hommes s'affairent aux préparations de
+la bataille depuis que cette île étrange est
+apparue au-dessus de l'Île du Temple.\e"
+MF00060005,"\h(«Barbara»)J'espère qu'ils savent ce qu'ils font…… J'ai un
+mauvais pressentiment chaque fois que je regarde
+cette île……\c"
+MF00060006,"\h(«Barbara»)C'est vrai ? Est-ce que Valua a été détruite par
+les Pluies de la Destruction ?\e"
+MF00060007,"\h(«Barbara»)C'est horrible…… Je suis sûre que tous les
+Valuans n'étaient pas mauvais…… Je ne préfère
+pas penser à tous ses innocents qui sont morts……\e"
+MF00060008,"\h(«Barbara»)Vyse ! Tu dois les faire payer ! Montre-leur qui
+sont les Voleurs Bleus !\c"
+MF00070000,"\h(«Briggs le Vice Capitaine»)Tu sais, à un moment donné, j'ai commencé à
+croire que je ne reverrais jamais cette île.\e"
+MF00070001,"\h(«Briggs le Vice Capitaine»)Je te redevrai cela, Vyse. Je vais pouvoir
+continuer à jouer les Pirates de l'Air encore un
+peu.\c"
+MF00070002,"\h(«Briggs le Vice Capitaine»)Il y a toujours une brise légère qui souffle sur
+l'Île des Pirates, pas comme à Valua. Ahhh !\c"
+MF00070003,"\h(«Briggs le Vice Capitaine»)Va voir dans le port souterrain. Ils sont en
+train de construire le nouvel Albatros II.\e"
+MF00070004,"\h(«Briggs le Vice Capitaine»)Il est presque fini. Il sera bientôt prêt pour
+son premier voyage. Il me tarde de repartir
+naviguer !!\c"
+MF00070005,"\h(«Briggs le Vice Capitaine»)Hé, Vyse ! On raconte que tu t'es encore échappé
+de Valua, et qu'en plus tu as volé un de leurs
+meilleurs navires ?\e"
+MF00070006,"\h(«Briggs le Vice Capitaine»)C'est incroyable ! Mais nous avons aussi un
+nouveau navire ! Nous venons juste de terminer
+les dernières préparations de l'Albatros II !\e"
+MF00070007,"\h(«Briggs le Vice Capitaine»)Nous travaillons dessus depuis un bout de temps
+dans le port souterrain, et il est enfin
+terminé ! Il me tarde de le mettre à l'eau !!\c"
+MF00070008,"\h(«Briggs le Vice Capitaine»)Hé, Vyse ! Comment vas-tu ? Le nouvel Albatros
+vole comme le vent…… héhé.\e"
+MF00070009,"\h(«Briggs le Vice Capitaine»)Quoi ?! Tu as fait le tour du monde en navire ?!
+Tu veux dire que le monde n'est pas plat ?!
+Oh…… Tu es vraiment unique, Vyse.
+Tu m'impressionnes……\c"
+MF00080000,"\h(«Mère de Vyse»)Oh ! Tu es de retour !
+Tu voulais te reposer un peu ?\c"
+MF00080001,"\h(«Que direz-vous ?»)“Une petite sieste me ferait du bien.”
+“Non………… Ça ira. Je ne suis pas très fatigué.”\e"
+MF00080002,\h(«Vyse»)Une petite sieste me ferait du bien.\e
+MF00080003,"\h(«Mère de Vyse»)Bien ! Je vais te préparer à dîner, d'accord ?
+Monte te reposer…… Je te préviendrai quand ce
+sera prêt.\c"
+MF00080004,"\h(«Mère de Vyse»)Bonjour ! Sois prudent là-bas, d'accord ?
+Et couvre-toi bien s'il fait froid !\c"
+MF00080005,"\h(«Mère de Vyse»)Bonjour ! Sois prudent là-bas, d'accord ?
+Je prie pour que les Lunes te gardent……\c"
+MF00080006,"\h(«Vyse»)Désolé, Maman…… mais pas ce soir. Je resterai
+une autre fois, d'accord ?\e"
+MF00080007,"\h(«Mère de Vyse»)C'est vrai ? Bon, d'accord. Mais, n'oublie pas
+que tu es toujours le bienvenu. Sois prudent
+là-bas !\c"
+MF00090000,"\h(«Jessica»)Je te dois tellement, Vyse. Tu as ramené mon
+mari sain et sauf. Je…… je n'arrive pas à le
+croire.\e"
+MF00090001,"\h(«Jessica»)Mais, pour tout te dire, je n'ai pas fini de
+tricoter son écharpe. Je dois me dépêcher de la
+finir !\c"
+MF00090002,"\h(«Jessica»)J'ai enfin terminé de tricoter l'écharpe, mais
+la couleur ne me plaisait pas, donc je
+recommence à zéro.\e"
+MF00090003,"\h(«Jessica»)Je sais que c'est ma faute, mais je commence à
+me demander si je la finirai un jour……\c"
+MF00090004,"\h(«Jessica»)Oh hé, Vyse. J'ai enfin terminé l'écharpe que je
+tricotais. Tu veux savoir ce que je suis en
+train de tricoter ?\e"
+MF00090005,"\h(«Jessica»)Eh bien, à vrai dire……
+Je suis enceinte !!!\e"
+MF00090006,"\h(«Jessica»)Alors je tricote des vêtements pour le bébé.
+Oh, il me tarde de le voir porter ces habits !\c"
+MF00090007,"\h(«Jessica»)On aurait dit qu'il se passait quelque chose de
+terrible dehors ! Il y a eu une énorme rafale de
+vent…… Puis un grondement…… je ne sais pas quoi
+faire……\c"
+MF00090008,"\h(«Jessica»)Mon mari est parti se battre avec les autres.
+Il a dit que c'était important qu'il se batte
+pour notre nouveau né…… Il est si gentil……\e"
+MF00090009,"\h(«Jessica»)Je vais rester ici et prier pour qu'il revienne
+sain et sauf après la victoire.\c"
+MF00100000,"\h(«Grand-mère»)On dit qu'il existe six Lunes dans ce monde:
+Rouge, Jaune, Verte, Bleue, Mauve, et Argent.\e"
+MF00100001,"\h(«Grand-mère»)N'oublie pas de prier pour elles avant ton
+prochain voyage. Il vaut mieux être de leur
+côté……\c"
+MF00100002,"\h(«Grand-mère»)On raconte qu'il y a bien, bien longtemps, il
+existait une civilisation extraordinaire qui
+s'est développée au milieu des nuages.\e"
+MF00100003,"\h(«Grand-mère»)Les habitants ont accompli des merveilles
+technologiques et leur culture était extrêmement
+en avance. Cependant, ils sont devenus fiers et
+se sont mis à se mépriser.\e"
+MF00100004,"\h(«Grand-mère»)Pour les punir, les Lunes ont envoyé leur
+civilisation sous les nuages dans le Ciel
+Profond, et personne ne l'a jamais revue.\c"
+MF00100005,"\h(«Grand-mère»)Je…… je n'ai jamais cru que la légende de la
+civilisation perdue était vraie, mais il…… il
+semble que j'avais tort…… Lunes, aidez-nous……\c"
+MF00100006,"\h(«Grand-mère»)Hier encore tu n'étais qu'un petit bébé, en
+larmes dans les bras de sa maman……\e"
+MF00100007,"\h(«Grand-mère»)Mais maintenant, tu es là devant moi, un homme
+adulte. Va, Vyse…… Va remplir ta destinée.
+Je prierai pour toi……\c"
+MF00110000,"\h(«Timmus le Canonnier»)Lors des batailles, tes ennemis ne causent pas
+que des dégâts physiques à ton équipe. Si tu
+veux, je peux t'enseigner ces effets néfastes.\e"
+MF00110001,"\h(«Que voudriez-vous qu'il vous apprenne ?»)“Le Sommeil, la Tromperie, et le Silence.”
+“Le Poison, la Fatigue, et la Pierre.”
+“Rien.”\e"
+MF00110002,"\h(«Timmus le Canonnier»)Si un ennemi t'“Endort,” tu ne pourras plus
+bouger jusqu'à ce que l'effet se dissipe ou que
+tu sois touché.\e"
+MF00110003,"\h(«Timmus le Canonnier»)Mais, ton sommeil durera plus ou moins
+longtemps. Parfois tu te réveilleras tout de
+suite, et parfois cela prendra du temps.\c"
+MF00110004,"\h(«Timmus le Canonnier»)“Tromperie” désigne un état qui t'empêche de
+distinguer tes amis de tes ennemis donc tu tires
+sur la cible la plus proche.\e"
+MF00110005,"\h(«Timmus le Canonnier»)Si un personnage au pouvoir d'attaque élevé se
+trompe, cela peut être catastrophique pour toute
+l'équipe. Tu dois être très prudent, Vyse.\e"
+MF00110006,"\h(«Timmus le Canonnier»)Il vaut mieux éviter de tomber dans le
+“Silence”. Cela t'empêche de jeter des sorts
+magiques jusqu'a ce que tu sois guéri.\e"
+MF00110007,"\h(«Timmus le Canonnier»)À ce niveau là, tu devras vraiment faire
+attention à ta vie. Étant donné que tu ne
+pourras pas jeter de sort de guérison, tu devras
+te servir d'articles.\e"
+MF00110008,"\h(«Timmus le Canonnier»)Si toi ou un des membres de ton équipe est
+“Empoisonné,” tu subiras des dommages tout au
+long de la bataille.\e"
+MF00110009,"\h(«Timmus le Canonnier»)Plus la bataille durera, plus tu subiras de
+dommages. Donc si la bataille s'annonce longue,
+tu devrais te guérir.\e"
+MF00110010,"\h(«Timmus le Canonnier»)Si l'un d'entre vous est en état de “Fatigue,”
+tu ne pourras pas récupérer tes Points Esprit.\e"
+MF00110011,"\h(«Timmus le Canonnier»)Sans Esprit, c'est impossible de faire de la
+magie ou d'utiliser d'autres techniques. Tu ne
+veux pas en arriver là.\e"
+MF00110012,"\h(«Timmus le Canonnier»)Pour finir, il y a la “Pierre.” Dans ce cas,
+tout ton corps se change en pierre et tu ne peux
+plus bouger.\e"
+MF00110013,"\h(«Timmus le Canonnier»)cela durera plusieurs tours. Tu pourras guérir
+grâce à la magie ou à d'autres articles.\e"
+MF00110014,"\h(«Timmus le Canonnier»)C'est vrai ? Bon d'accord. Tu apprendras sur le
+tas alors !! Hahaha!!\e"
+MF00110015,"\h(«Timmus le Canonnier»)Oh, encore une chose. À la fin de la bataille,
+tous ces handicaps disparaîtront.\e"
+MF00110016,"\h(«Timmus le Canonnier»)Donc tu n'as pas besoin d'essayer de te guérir à
+la fin d'une bataille. Tu perdrais ton temps.\c"
+MF00110017,"\h(«Timmus le Canonnier»)On dirait qu'il va y avoir du grabuge……
+Hé…… Il me tarde de passer à l'action !
+“Venez me chercher !!”\c"
+MF00120000,"\h(«Borris le Canonnier»)Hé Vyse, savais-tu qu'il existait six
+couleurs différentes de Magie ? Je pourrais te
+les enseigner si tu veux……\e"
+MF00120001,"\h(«Que voudriez-vous apprendre ?»)“Les sorts Mauve, Rouge, Vert.”
+“Les sorts Argent, Jaune, Bleu.”
+“Rien.”\e"
+MF00120002,"\h(«Borris le Canonnier»)La Magie Verte se sert des pouvoirs de la nature
+pour guérir l'hôte. Tous les sorts “Sacri” sont
+des sorts de guérison.\e"
+MF00120003,"\h(«Borris le Canonnier»)Cependant, il existe aussi tous les sorts Verts
+“Noxi” qui se servent des pouvoirs de la nature
+pour empoisonner tes ennemis.\e"
+MF00120004,"\h(«Borris le Canonnier»)Les sorts Rouges se servent du feu. Tous les
+sorts “Pyri” consumeront les ennemis en vue dans
+un incendie intense.\e"
+MF00120005,"\h(«Borris le Canonnier»)Il existe aussi tous les sorts “Increm” qui
+intensifient les techniques de combat de l'hôte,
+en augmentant son pouvoir d'attaque et de
+défense.\e"
+MF00120006,"\h(«Borris le Canonnier»)Je ne sais pas grand chose sur les sorts Mauves,
+mais je sais qu'il existe une série de sorts
+appelés “Crystali.”\e"
+MF00120007,"\h(«Borris le Canonnier»)J'ai aussi entendu des rumeurs au sujet d'un
+sort Mauve qui a le pouvoir d'affecter l'esprit
+de sa cible.\c"
+MF00120008,"\h(«Borris le Canonnier»)Je ne sais pas grand chose sur les sorts Bleus……
+D'après la rumeur, certains d'entre eux ont le
+pouvoir de ralentir ou d'endormir l'ennemi……\e"
+MF00120009,"\h(«Borris le Canonnier»)J'ai aussi entendu parler de sorts “Wevli” qui
+peuvent invoquer un petit vortex pour endommager
+un petit groupe d'ennemis……\e"
+MF00120010,"\h(«Borris le Canonnier»)Les sorts Jaunes sont les sorts Éclair.
+Les sorts “Electri” sont très utiles. Ils
+attaquent tous les ennemis sur la même ligne.\e"
+MF00120011,"\h(«Borris le Canonnier»)Le sort Driln réduit l'Agilité de tes ennemis
+ainsi que toutes ses techniques de combat.\e"
+MF00120012,"\h(«Borris le Canonnier»)Et pour finir, il existe les sorts Argent……
+Très peu de gens ont étudié ces sorts,
+donc on ne les connaît pas très bien.\e"
+MF00120013,"\h(«Borris le Canonnier»)Mais, par contre je sais qu'il existe soi-disant
+un sort qui peut tout guérir……\e"
+MF00120014,"\h(«Borris le Canonnier»)Et j'ai entendu dire qu'il existe un sort qui
+peut ranimer une personne inconsciente, et aussi
+un qui peut tuer tes ennemis instantanément……\c"
+MF00120015,"\h(«Borris le Canonnier»)Oh, je vois que tu es sûr de toi.
+Hé…… ce n'est pas grave. Mais si tu as des
+questions, n'aie pas honte de demander, OK ?\c"
+MF00120016,"\h(«Borris le Canonnier»)Je t'ai appris tout ce que je savais, Vyse.
+Tu n'as plus grand chose à apprendre de moi.\e"
+MF00120017,"\h(«Borris le Canonnier»)Tu en sais assez pour survivre dans les cieux.
+Sers-toi intelligemment de tes connaissances !\c"
+MF00190000,"\h(«Patch le Matelot»)Je vous dois tout. Si tu n'avais pas été brave,
+nul d'entre nous ne serait rentré sur l'Île des
+Pirates.\e"
+MF00190001,"\h(«Patch le Matelot»)Je voulais que tu saches…… que je te suis très
+reconnaissant. Ton père t'a bien élevé, Vyse.\c"
+MF00190002,"\h(«Patch le Matelot»)Tu peux compter sur moi pour assurer une bonne
+surveillance ! Je ne suis peut-être qu'un
+matelot, mais Ben dit que je fais aussi une très
+bonne vigie !\e"
+MF00190003,"\h(«Patch le Matelot»)Je dois protéger ma chère petite femme. Je ne
+laisserai pas les Valuans attaquer cette île
+encore une fois.\c"
+MF00190004,"\h(«Patch le Matelot»)Je faisais le guet comme d'habitude, quand les
+vents se sont mis à souffler et ils ont failli
+m'emporter au large de l'Île Vigie !\e"
+MF00190005,"\h(«Patch le Matelot»)Ensuite ces gros morceaux de terre sont apparus
+de dessous les nuages, pour former cette île
+gigantesque !\c"
+MG00010000,"\h(«Jimmy»)Vyse, wir haben uns wirklich gut um die Insel
+gekümmert, während du weg warst!\e"
+MG00010001,"\h(«Jimmy»)Bist du nicht stolz auf uns? Das alles haben
+wir fast allein gemacht!\c"
+MG00010002,"\h(«Jimmy»)Von jetzt an werden wir auch dabei helfen,
+Pirate Isle zu beschützen!\c"
+MG00010003,"\h(«Jimmy»)Ich beneide dich wirklich, Vyse……  Ich kann's
+nicht erwarten, bis mein Vater mich auch
+zur See fahren lässt!\c"
+MG00010004,"\h(«Jimmy»)Heh, Vyse! Weißt du was! Weißt du was! Neulich
+durfte ich auf die Albatross!\e"
+MG00010005,"\h(«Jimmy»)Also, in Wirklichkeit habe ich meinem Vater
+dabei geholfen, ein paar Kisten zu stapeln……
+hihi.\e"
+MG00010006,"\h(«Jimmy»)Aber diese kleinen Dinge muss man wohl lernen,
+bevor man Seeman wird, nicht? Ich werde der
+beste Seemann auf der großen weiten Welt!!\c"
+MG00010007,"\h(«Jimmy»)Ist es wirklich wahr, dass du um die ganze
+Welt gereist bist, Vyse? Wirklich?! Wow!!!\e"
+MG00010008,"\h(«Jimmy»)Ich werde eines Tages auch um die Welt segeln!
+Warte es nur ab! Wenn ich groß bin, werde ich
+genauso sein wie du!!\c"
+MG00010009,"\h(«Jimmy»)Wo kommt denn diese Insel her?!
+Wo ist Shrine Island hin?!
+Vyse, was ist los?!\c"
+MG00010010,"\h(«Jimmy»)Ich wollte eigentlich mit dir auf Reisen
+gehen, aber mein Vater hat gesagt, dass ich
+zu jung sei, um allein fort zu gehen.\e"
+MG00010011,"\h(«Jimmy»)Also werde ich euch von hier aus zujubeln, ok?
+Lasst euch ja nicht von diesen Schurken
+schlagen!!\c"
+MG00020000,"\h(«Alan»)Während du weg warst, habe ich 'ne Menge
+auf der Insel repariert!\e"
+MG00020001,"\h(«Alan»)He…… Jetzt habe ich das Gefühl, ich kann alles!
+Naja…… fast alles. Deine Mutter hat mir
+geholfen, einige Kisten und so'n Zeug zu
+tragen……\e"
+MG00020002,"\h(«Alan»)Weißt du was? Es hat mir Spaß gemacht, alles
+neu zu bauen! Es hat sich irgendwie gut
+angefühlt, etwas mit den Händen zu machen!\e"
+MG00020003,"\h(«Alan»)Vielleicht werde ich Zimmermann, wenn ich
+groß bin! Ich bin noch etwas jung…… aber
+man kann ja davon träumen, nicht wahr, Vyse?\c"
+MG00020004,"\h(«Alan»)Im Moment sind alle Erwachsenen damit
+beschäftigt, die Albatross wieder aufzubauen.\e"
+MG00020005,"\h(«Alan»)Und weißt du was? Ich habe beim Neuaufbau der
+Stadt so gute Arbeit geleistet, dass die mich
+jetzt auch mit am Schiff arbeiten lassen!\c"
+MG00020006,"\h(«Alan»)He, Vyse! Lange nicht gesehen!\e"
+MG00020007,"\h(«Alan»)Du solltest öfter nach Hause kommen! Ich
+möchte von deinen Abenteuern hören und so!
+Ich wette, du hast tolle Sachen erlebt!\c"
+MG00020008,"\h(«Alan»)Wirklich? Es gibt ein Land Yafutoma, wo die
+Häuser direkt auf dem Wasser gebaut sind?\e"
+MG00020009,"\h(«Alan»)Wow…… Ich würde wirklich gern einmal versuchen,
+so etwas zu bauen! Aber leider…… gibt es ja
+hier nicht viel Wasser……\c"
+MG00020010,"\h(«Alan»)Vyse! Da war plötzlich dieses donnernde
+Geräusch, und diese Insel kam aus den
+Wolken zum Vorschein. Ich hatte solche Angst,
+ich wusste nicht, was ich machen sollte!\c"
+MG00020011,"\h(«Alan»)Jetzt sind sie alle weg. Sie sind alle mit
+der Albatross gesegelt. Aber ich habe keine
+Angst mehr!\e"
+MG00020012,"\h(«Alan»)Wir werden es schon machen! Wir werden die
+Insel verteidigen, während alle Erwachsenen
+beim Kampf sind! Überlasst einfach alles uns,
+ok?\c"
+MG00030000,\h(«Lindsi»)Vyse! Du bist zurück! Du hast es geschafft!!\e
+MG00030001,"\h(«Lindsi»)Ich habe dich so vermisst…… Ich war so
+besorgt, dass du es nicht schaffen würdest……\c"
+MG00030002,"\h(«Lindsi»)Willkommen wieder zu Hause, Vyse! Du solltest
+öfter zurückkommen und uns besuchen!
+Wir vermissen dich!\c"
+MG00030003,"\h(«Lindsi»)Wow…… Das ist ein wirklich schönes Schiff, Vyse!
+Wo hast du dieses Ding her? Du musst mich
+irgendwann mal mitfahren lassen!\c"
+MG00030004,"\h(«Lindsi»)Also, Pow……  Pass schön auf Vyse auf, ja?\c"
+MG00030005,"\h(«Lindsi»)Echt?! Du bist einmal um die ganze Welt
+gesegelt?!\e"
+MG00030006,"\h(«Lindsi»)Aber meine Mutti hat mir doch erzählt, es gäbe
+fürchterliche Monster am Ende der Welt! Haben
+sie versucht, dir wehzutun?\c"
+MG00030007,"\h(«Lindsi»)Vyse…… Jimmy hat mir erzählt, es gäbe böse
+Leute auf dieser Insel…… Stimmt das?\e"
+MG00030008,"\h(«Lindsi»)Immer wenn ich nachts an diese Insel denke……
+dann…… bekomme ich Angst, und ich kann nicht
+einschlafen.\c"
+MG00030009,"\h(«Lindsi»)Lass dich nicht von ihnen schlagen, Vyse! Du
+kannst doch diese Halunken nicht gewinnen
+lassen!!\e"
+MG00030010,"\h(«Lindsi»)Dass du mir ja versprichst, heil nach Hause
+zu kommen, ok? Versprich es!!\c"
+MG00040000,\h(«Pow»)Pau pau!\e
+MG00040001,"\h(«Vyse»)Was machst du denn hier, mein Kleiner! Du freust
+dich wohl, uns zu sehen…… Hihi…… Hast du auch
+auf alle aufgepasst, während wir weg waren?\e"
+MG00040002,\h(«Pow»)Pau pau pau!!\c
+MG00040003,\h(«Pow»)Pau pau!\c
+MG00040004,\h(«Pow»)Pau pau!\c
+MG00040005,"\h(«Jimmy»)Emm…… Vyse, wir wollten dich um etwas bitten……\e"
+MG00040006,"\h(«Jimmy»)Wir möchten so gern mit dir kommen und dir
+helfen…… aber schätze, wir sind noch zu jung
+dazu. Das sagen jedenfalls unsere Eltern……\e"
+MG00040007,"\h(«Jimmy»)Deshalb sollst du stattdessen Pow mitnehmen.
+Er wird dir an unserer Stelle helfen!\e"
+MG00040008,\h(«Pow»)Pau pau!\c
+MG00040009,"\h(«Alan»)Pow war immer für uns da…… Immer, wenn wir
+jemanden zum Aufmuntern brauchten, war er da.\e"
+MG00040010,"\h(«Alan»)Also haben wir uns gedacht, wenn Pow vielleicht
+mit dir gehen könnte, könnte er dich stets
+aufmuntern, weißt du?\e"
+MG00040011,"\h(«Vyse»)Haha…… verstehe.
+Nun, denn…… Pow, sieht so aus, als wärst du
+das neueste Mitglied meiner Crew!\e"
+MG00040012,"\h(«Lindsi»)Hörst du, Pow? Vyse wird dich mitnehmen!
+Du wirst auf diesem großen Schiff und seiner
+Crew mitfahren!\e"
+MG00040013,\h(«Pow»)Pau! Pau pau!!\c
+MG00040014,"\h( )Pow hat sich sozusagen als “Narr” zu
+deiner Crew gesellt.\c"
+MG00050000,"\h(«Martha»)Vyse……  ich wollte mich nur bei dir bedanken,
+dass du meinen Mann zurück nach Hause gebracht
+hast. Ich weiß, dass dieses faule Stück sich
+nicht hätte allein helfen können.\e"
+MG00050001,"\h(«Martha»)Er mag zwar faul sein…… aber…… ich liebe ihn
+trotzdem. Das habe ich gemerkt, als er weg
+war. Ich habe ihn so vermisst…… Aber das
+brauchst du ihm nicht sagen!!\c"
+MG00050002,"\h(«Martha»)Es ist nicht zu fassen! Mein Mann, dieser
+Tunichtgut, ist so undankbar! Weißt du, was
+er mir erzählt hat?!\e"
+MG00050003,"\h(«Martha»)“Die Frauen in Valua waren die schönsten,
+die ich je gesehen habe……”
+DAS hat er gesagt!!!\e"
+MG00050004,"\h(«Martha»)Ich saß hier und hab mir fürchterliche Sorgen
+um ihn gemacht…… während er den “schönen Frauen”
+in Valua hinterherguckt?! Ich kann's nicht
+fassen!!\c"
+MG00050005,"\h(«Martha»)Es ist nicht zu fassen! Mein Mann, dieser
+Tunichtgut, ist so undankbar! Weißt du, was
+er mir erzählt hat?!\e"
+MG00050006,"\h(«Martha»)“Ich konnte die ganze Zeit in Valua nicht
+aufhören, über die Seefahrt nachzudenken……
+ich sollte oben am Himmel sein. Oh, und ich……
+em…… habe dich auch vermisst……”\e"
+MG00050007,"\h(«Martha»)Glaubst du das?! “Oh, und ich…… em…… habe dich
+auch vermisst……” Ich saß hier und habe mir
+fürchterliche Sorgen um ihn gemacht, und er
+dachte nur an die Seefahrt!!\c"
+MG00050008,"\h(«Martha»)Es ist nicht zu fassen! Mein Mann, dieser
+Tunichtgut, ist so undankbar! Weiß du, was
+er mir erzählt hat?!\e"
+MG00050009,"\h(«Martha»)“Ich fühle mich wirklich in meinem Element,
+wenn ich zur See fahre. Es ist so entspannend……
+Ich habe solche Freiheit……  Oh, aber das soll
+nichts heißen……”\e"
+MG00050010,"\h(«Martha»)Glaubst du das?! Wie konnte das NICHTS heißen?!
+Von nun an sollte ich ihn wohl zu Hause
+einschließen.\c"
+MG00050011,"\h(«Martha»)Es ist nicht zu fassen! Mein Mann, dieser
+Tunichtgut, ist so undankbar! Weißt du, was
+er mir erzählt hat?!\e"
+MG00050012,"\h(«Martha»)“Mein Lebensziel ist es, wie Vyse um die ganze
+Welt zu segeln und allerhand schöne Frauen zu
+treffen. Oh, und ich finde dich natürlich auch
+schön”.\e"
+MG00050013,"\h(«Martha»)Ist das zu glauben, dass er mir das tatsächlich
+gesagt hat?! Ich schwör's…… noch so ein
+Kommentar, und er fährt nie mehr zur See!!\c"
+MG00050014,"\h(«Martha»)Weißt du, was mein Mann, dieser Tunichtgut, mir
+gerade gesagt hat? Er schaute in die Ferne zu
+dieser neuen Insel und sagte……\e"
+MG00050015,"\h(«Martha»)“Keine Sorge, Martha. Selbst wenn es mich mein
+Leben kostet, werde ich dich und die anderen
+vor allen Gefahren beschützen. Das schwöre ich
+dir”.\e"
+MG00050016,"\h(«Martha»)Ich…… ich nehme an, er liebt mich wirklich.
+Manchmal frage ich mich wirklich, aber…… zu
+Zeiten wie diesen fühle ich mich mehr geliebt
+als alle anderen auf der Welt……\c"
+MG00050017,"\h(«Martha»)Weißt du, was mein Mann, dieser Tunichtgut,
+gesagt hat? Kurz bevor er mit den anderen
+abreiste, sagte er zu mir……\e"
+MG00050018,"\h(«Martha»)“Keine Sorge…… ich bin zurück, bevor du dich
+versiehst. Wenn ich komme, bin ich ein Held!
+Kümmere dich um ein Fest für meine Rückkehr!!”\e"
+MG00050019,"\h(«Martha»)Ich weiß nicht…… vielleicht weiß er einfach
+nicht, wie er sich ausdrücken soll. Das ist
+wohl ein Zeichen seiner Liebe.\c"
+MG00060000,"\h(«Barbara»)Willkommen zu Hause, Vyse. Wie ich hörte, hast
+du in Valua für ziemlich viel Aufregung
+gesorgt. Haha…… dein Vater muss sehr stolz
+auf dich sein.\e"
+MG00060001,"\h(«Barbara»)Sag ihr nicht, dass ich es dir erzählt habe,
+aber deine Mutter war ganz krank vor Sorge, als
+du weg warst. Sie hat sich so gefreut, dass du
+heil nach Hause gekommen bist.\c"
+MG00060002,"\h(«Barbara»)Na, wie war denn dein erstes Abenteuer?
+Es muss sich toll anfühlen, allein zur See
+zu fahren……\e"
+MG00060003,"\h(«Barbara»)Aber ich habe schon immer gewusst, dass du
+nicht der Typ bist, der lange untätig
+herumsitzt. Ich wusste, es war nur eine Frage
+der Zeit, bevor du von hier weggehst.\c"
+MG00060004,"\h(«Barbara»)Alle Männer sind mit Vorbereitungen zum Kampf
+beschäftigt, seit diese seltsame Insel über
+Shrine Island ist.\e"
+MG00060005,"\h(«Barbara»)Ich hoffe, sie wissen, was sie tun…… Ich
+bekomme jedesmal ein schlechtes Gefühl, wenn
+ich zu dieser Insel hinüberschaue…\c"
+MG00060006,"\h(«Barbara»)Ist es wahr? Wurde Valua von den Rains of
+Destruction ausgelöscht?\e"
+MG00060007,"\h(«Barbara»)Das ist ja furchtbar…… Ich bin sicher, nicht
+alle Valuaner waren schlecht…… Ich kann gar
+nicht an all die unschuldigen Leben denken,
+die dabei verloren gingen……\e"
+MG00060008,"\h(«Barbara»)Vyse! Das darfst du nicht durchgehen lassen!
+Zeig ihnen, dass sie sich nicht mit den Blue
+Rogues anlegen können!\c"
+MG00070000,"\h(«Briggs, der Vizekapitän»)Weißt du, da draußen habe ich fast geglaubt,
+dass ich diesen Ort niemals lebend wiedersehe.\e"
+MG00070001,"\h(«Briggs, der Vizekapitän»)Ich stehe in deiner Schuld, Vyse. Sieht fast
+so aus, als könnte ich noch eine Weile
+Luftpirat bleiben.\c"
+MG00070002,"\h(«Briggs, der Vizekapitän»)Im Gegensatz zu Valua weht auf Pirate Isle
+immer so eine nette Brise. Ahhh!\c"
+MG00070003,"\h(«Briggs, der Vizekapitän»)Schau mal im Untergrundhafen vorbei. Die neue
+Albatross II ist dort in Konstruktion.\e"
+MG00070004,"\h(«Briggs the Vice Captain»)Es ist zu 90% fertig. Es wird bald für seine
+Jungfernfahrt fertig sein. Ich kann es gar nicht
+erwarten, wieder segeln zu gehen!!\c"
+MG00070005,"\h(«Briggs, der Vizekapitän»)Hallo, Vyse! Ich höre, du bist nicht nur
+wieder einmal aus Valua geflohen, du hast
+auch eines ihrer besten Schiffe gestohlen, was?\e"
+MG00070006,"\h(«Briggs, der Vizekapitän»)Das ist unglaublich! Aber wir haben auch ein
+neues Schiff! Wir haben gerade die letzten
+Arbeiten an der Albatross II abgeschlossen!\e"
+MG00070007,"\h(«Briggs, der Vizekapitän»)Wir arbeiten schon lange an ihr im Untergrund-
+Hafen, und jetzt ist sie endlich fertig! Ich
+kann's nicht erwarten, mit ihr zu segeln!!\c"
+MG00070008,"\h(«Briggs, der Vizekapitän»)Hallo, Vyse! Wie geht's? Die neue
+Albatross fliegt wie der Wind…… hihi.\e"
+MG00070009,"\h(«Briggs, der Vizekapitän»)Was?! Du bist um die Welt gesegelt?! W……
+willst du sagen, die Welt ist nicht flach?!
+Mann, du hast was auf dem Kasten, Vyse. Ich bin
+beeindruckt……\c"
+MG00080000,"\h(«Vyses Mutter»)Ach, du bist wieder da! Wolltest du dich
+ein bisschen ausruhen?\c"
+MG00080001,"\h(«Was wirst du sagen?»)“Klar, ich könnte ein bisschen Ruhe vertragen”.
+“Nö…… schon in Ordnung. So müde bin ich nicht”.\e"
+MG00080002,"\h(«Vyse»)Klar, ich könnte ein bisschen Ruhe vertragen.\e"
+MG00080003,"\h(«Vyses Mutter»)Wunderbar! Ich werde dir ein schönes
+Abendessen machen, ja? Geh einfach hinauf
+und entspann dich ein wenig. Ich ruf dich,
+wenn das Essen fertig ist.\c"
+MG00080004,"\h(«Vyses Mutter»)Guten Morgen! Du musst dort draußen vorsichtig
+sein, ja? Und zieh dich ja warm an, wenn es kalt
+wird!\c"
+MG00080005,"\h(«Vyses Mutter»)Guten Morgen! Du musst dort draußen vorsichtig
+sein, ja? Ich werde beten,
+damit dich die Monde beschützen.\c"
+MG00080006,"\h(«Vyse»)Tut mir leid, Mama, aber heute Abend kann ich
+nicht. Ich bleibe ein andermal, ok?\e"
+MG00080007,"\h(«Vyses Mutter»)Wirklich? Na, in Ordnung. Aber denk dran,
+du kannst immer hier übernachten, wenn du
+willst, ok? Sei vorsichtig dort draußen!\c"
+MG00090000,"\h(«Jessica»)Ich verdanke dir so viel, Vyse. Du hast meinen
+Mann heil wiedergebracht. Ich…… ich kann's
+nicht glauben.\e"
+MG00090001,"\h(«Jessica»)Aber, unter uns, ich habe den Schal, den ich
+gestrickt habe, noch nicht ganz fertig. Ich
+muss mich jetzt beeilen, damit er fertig wird!\c"
+MG00090002,"\h(«Jessica»)Ich habe den Schal, den ich gestrickt habe,
+endlich fertig, aber mir gefällt die Farbe
+nicht, also fange ich wieder von vorn an.\e"
+MG00090003,"\h(«Jessica»)Ich weiß, es liegt an mir, aber ich frage mich
+langsam, ob ich ihn je fertig kriegen werde……\e"
+MG00090004,"\h(«Jessica»)Ach, hallo, Vyse. Ich habe endlich den Schal
+fertig, an dem ich arbeitete. Du fragst, was
+ich da jetzt mache?\e"
+MG00090005,"\h(«Jessica»)Nun, um die Wahrheit zu sagen……
+Ich bekomme ein Baby!!!\e"
+MG00090006,"\h(«Jessica»)Jetzt stricke ich also Sachen fürs Baby.
+Oh, ich kann's nicht erwarten, mein Baby in
+den Kleidern zu sehen, die ich für es mache!\c"
+MG00090007,"\h(«Jessica»)Es hörte sich an, als wäre draußen etwas
+Furchtbares passiert! Es hat einen starken
+Windstoß gegeben…… dann ein Donnern……
+Ich weiß nicht, was ich machen soll……\c"
+MG00090008,"\h(«Jessica»)Mein Mann hat sich dem Kampf angeschlossen.
+Er sagte, es wäre ihm wichtig, für unser
+ungeborenes Baby zu kämpfen…… Er ist wirklich
+süß……\e"
+MG00090009,"\h(«Jessica»)Also werde ich hierbleiben und beten, dass er
+nach gewonnener Schlacht unversehrt
+zurückkehrt.\c"
+MG00100000,"\h(«Oma»)Man sagt, es gibt sechs Monde auf dieser Welt:
+Rot, Gelb, Grün, Blau, Lila und Silber.\e"
+MG00100001,"\h(«Oma»)Man darf nicht vergessen, jeden von ihnen
+anzubeten, bevor man sich auf die Reise begibt.
+Es zahlt sich immer aus, in der Gunst der
+Monde zu stehen……\c"
+MG00100002,"\h(«Oma»)Man sagt, dass es vor vielen Jahren eine
+hoch entwickelte Zivilisation gab, die zwischen
+den Wolken groß wurde.\e"
+MG00100003,"\h(«Oma»)Das Volk schuf wahre Wunder der Technologie
+und hatte eine fortschrittliche Kultur wie kein
+anderes. Aber es wurde stolz und boshaft
+gegenüber den anderen.\e"
+MG00100004,"\h(«Oma»)Zur Strafe warfen die Monde die gesamte
+Zivilisation unter die Wolken in den Deep Sky,
+wo sie nie wiedergesehen wurde.\c"
+MG00100005,"\h(«Oma»)Ich…… ich hätte nie gedacht, dass die Legende
+der verlorenen Zivilisation wahr ist, aber ich
+hatte wohl Unrecht……  O Monde, helft uns……\c"
+MG00100006,"\h(«Oma»)Mir ist, als wärst du gestern noch ein
+kleines Baby gewesen, das in den Armen seiner
+Mutter weint……\e"
+MG00100007,"\h(«Oma»)Und jetzt stehst du als ausgewachsener Mann
+vor mir. Geh, Vyse…… geh und erfülle dein
+Schicksal. Ich werde hier sein und für dich
+beten.\c"
+MG00110000,"\h(«Timmus, der Kanonier»)Während der Schlacht kann der Feind deiner
+Gruppe mehr als nur physischen Schaden zufügen.
+Wenn du willst, kann ich dir über diese
+negativen Effekte erzählen.\e"
+MG00110001,"\h(«Was möchtest du gerne lernen?»)“Frag nach Sleep, Confuse und Silence”.
+“Frag nach Poison, Fatigue und Stone”.
+“Nichts”.\e"
+MG00110002,"\h(«Timmus, der Kanonier»)Wenn dich ein Feind mit “Sleep” belegt, kannst
+du nichts weiter tun, bis der Effekt
+verfliegt oder du getroffen wirst.\e"
+MG00110003,"\h(«Timmus, der Kanonier»)Aber die Zeitspanne, während der du schläfst,
+ist unterschiedlich. Manchmal wachst du gleich
+wieder auf, ein anderes Mal dauert es eine
+Weile.\c"
+MG00110004,"\h(«Timmus, der Kanonier»)“Confuse” bewirkt einen Zustand, in dem
+du nicht mehr zwischen Freund und Feind
+unterscheiden kannst und das nächstliegende
+Ziel angreifst.\e"
+MG00110005,"\h(«Timmus, der Kanonier»)Ist eine Person mit hoher Angriffskraft
+verwirrt, kann es für die gesamte Gruppe
+verheerend sein. Du musst besonders vorsichtig
+sein, Vyse.\e"
+MG00110006,"\h(«Timmus, der Kanonier»)“Silence” ist ein sehr schlechter Zustand.
+Er lässt nicht zu, dass du Zaubersprüche
+aussprichst, bevor du geheilt bist.\e"
+MG00110007,"\h(«Timmus, der Kanonier»)An dem Punkt musst du besonders auf deine
+Gesundheit achten. Da du nicht in der Lage
+bist, Heil-Zaubersprüche auszusprechen, musst
+du Objekte verwenden.\e"
+MG00110008,"\h(«Timmus, der Kanonier»)Wirst du oder ein anderes Gruppenmitglied je
+“Poisoned”, dann nimmst du während des
+Kampfes mehr und mehr Schaden.\e"
+MG00110009,"\h(«Timmus, der Kanonier»)Je länger sich die Schlacht hinzieht, desto
+mehr Schaden nimmst du. Wenn es also
+so aussieht, als würde es eine lange Schlacht,
+solltest du dich selbst heilen.\e"
+MG00110010,"\h(«Timmus, der Kanonier»)Befindet sich einer von euch je in einem
+Zustand von “Fatigue”, könnt ihr
+keinerlei Spirit Points wiedererlangen.\e"
+MG00110011,"\h(«Timmus, der Kanonier»)Ohne Spirit ist es nicht möglich, Zauber oder
+andere speziellen Techniken zu benutzen.
+Du willst sicher nicht, dass dir das passiert.\e"
+MG00110012,"\h(«Timmus, der Kanonier»)Und dann ist da noch “Stone”. Wenn das
+passiert, verwandelt sich dein ganzer Körper
+in Stein, und du kannst dich nicht mehr bewegen.\e"
+MG00110013,"\h(«Timmus, der Kanonier»)So steckst du für einige Runden fest.
+Die einzige Möglichkeit, diesem Zustand
+abzuhelfen, ist durch Zauber oder durch den
+Gebrauch bestimmter anderer Objekte.\e"
+MG00110014,"\h(«Timmus, der Kanonier»)Tatsächlich? Ist in Ordnung.  Dann wirst du
+die Erfahrung wohl aus erster Hand machen
+müssen!! Hahaha!!\e"
+MG00110015,"\h(«Timmus, der Kanonier»)Ach so, und noch etwas. Sobald die Schlacht
+vorbei ist, gehen alle Behinderungen, unter
+denen du gelitten hast, sofort weg.\e"
+MG00110016,"\h(«Timmus, der Kanonier»)Also brauchst du gar nicht erst versuchen,
+dich nach dem Ende der Schlacht zu heilen.
+Du verschwendest damit deine Zeit.\c"
+MG00110017,"\h(«Timmus, der Kanonier»)Sieht so aus, als bekämen wir Ärger……
+Heh…… mir ist nach ein wenig Action!
+Also, nehmen wir es in Angriff!!\c"
+MG00120000,"\h(«Borris, der Kanonier»)He, Vyse, wusstest du, dass es sechs
+verschiedene Farben von Magic gibt? Ich könnte
+sie dir beibringen, wenn du willst……\e"
+MG00120001,"\h(«Was möchtest du gerne lernen?»)“Frag nach grünem, rotem und lila Zauber.”
+“Frag nach blauem, gelbem und silbernem Zauber.”
+“Nichts.”\e"
+MG00120002,"\h(«Borris, der Kanonier»)Green Magic macht sich die Kraft der Natur zu
+eigen, um den Körper des Empfängers zu heilen.
+Die “Sacri-” Zaubersprüche gehören alle zu den
+Heilzaubern.\e"
+MG00120003,"\h(«Borris, der Kanonier»)Es gibt jedoch auch die Reihe von “Noxi-”
+grünen Zaubersprüchen, die die Kraft der Natur
+verwenden, um den Feind zu vergiften.\e"
+MG00120004,"\h(«Borris, der Kanonier»)Rote Zaubersprüche basieren auf dem Feuer.
+Die “Pyri-” Zaubersprüche hüllen alle Feinde
+in Sichtweite in lodernde Flammen.\e"
+MG00120005,"\h(«Borris, der Kanonier»)Es gibt noch die “Increm-” Zauberspruchreihe,
+die die Kampffähigkeit des Empfängers erhöht,
+indem sie seine Angriffskraft und Verteidigung
+stärkt.\e"
+MG00120006,"\h(«Borris, der Kanonier»)Ich weiß nicht viel über lila Zaubersprüche,
+aber es soll eine Reihe von Eis-Zaubersprüchen
+geben, die “Crystali” genannt werden.\e"
+MG00120007,"\h(«Borris, der Kanonier»)Ich habe auch schon Gerüchte über lila Zauber-
+sprüche gehört, die die Macht besitzen, das
+Gehirn der Zielperson zu beeinflussen.\c"
+MG00120008,"\h(«Borris, der Kanonier»)Über die blauben Zaubersprüche weiß ich nicht
+gut Bescheid…… Man sagt, dass sie den Feind
+verlangsamen und ihn zum Einschlafen bringen……\e"
+MG00120009,"\h(«Borris, der Kanonier»)Außerdem habe ich von “Wevli-” Zaubersprüchen
+gehört, die einen kleinen Wirbelsturm
+hervorrufen können, um eine kleine Feindgruppe
+zu schädigen……\e"
+MG00120010,"\h(«Borris, der Kanonier»)Die gelben Zaubersprüche sind für Blitze.
+Eine nützliche Gruppe sind die “Electri”.
+Sie greifen alle Feinde in einer geraden
+Linie an.\e"
+MG00120011,"\h(«Borris, der Kanonier»)Dann gibt es noch einen, der “Driln” genannt
+wird; er reduziert die Beweglichkeit deines
+Feindes sowie alle seine weiteren
+Kampffähigkeiten.\e"
+MG00120012,"\h(«Borris, der Kanonier»)Und zum Schluss sind da die silbernen
+Zaubersprüche…… sehr wenig Leute haben sich
+mit ihnen befasst, also ist nicht viel über
+sie bekannt.\e"
+MG00120013,"\h(«Borris, der Kanonier»)Was ich allerdings weiß, ist, dass es einen
+Zauberspruch gibt, der jede Art von
+physischem Leiden heilen kann……\e"
+MG00120014,"\h(«Borris, der Kanonier»)Und ich habe gehört, dass es einen Zauberspruch
+gibt, der dich wiederbelebt, wenn du
+bewusstlos bist, sowie einen, der deinen Feind
+an Ort und Stelle töten kann……\c"
+MG00120015,"\h(«Borris, der Kanonier»)Nun, wir sind uns unserer Sache wohl sehr
+sicher…… He…… aber das macht nichts. Wenn
+dir noch Fragen einfallen, dann frag nur, ok?\c"
+MG00120016,"\h(«Borris, der Kanonier»)Ich habe dir alles gesagt, was ich weiß, Vyse.
+Es gibt nicht viel mehr, was ich dir
+jetzt noch beibringen kann.\e"
+MG00120017,"\h(«Borris, der Kanonier»)Du weißt Bescheid, wie du dich dort draußen
+im Himmel am Leben erhalten kannst. Benutz
+dein Wissen mit Bedacht!\c"
+MG00190000,"\h(«Patch, der Matrose»)Ich verdanke euch alles. Wenn ich nicht so
+tapfer gewesen wärt, hätte es keiner von uns
+je nach Pirate Isle zurück geschafft.\e"
+MG00190001,"\h(«Patch, der Matrose»)Ich wollte euch nur sagen, dass…… ich euch
+dankbar bin. Dein Vater hat dich gut erzogen,
+Vyse.\c"
+MG00190002,"\h(«Patch, der Matrose»)Ihr könnt euch auf mich verlassen, ich pass
+gut auf! Ich bin zwar nur ein Hilfsmatrose, aber
+Ben meint, ich wäre auch ein guter Wachtposten!\e"
+MG00190003,"\h(«Patch, der Matrose»)Ich muss meine süße kleine Frau beschützen.
+Ich lasse auf keinen Fall zu, dass die Valuaner
+diese Insel noch einmal angreifen.\c"
+MG00190004,"\h(«Patch, der Matrose»)Ich stand wie immer Wache, und plötzlich erhob
+sich ein starker Wind, der mich fast von
+Lookout Island gefegt hätte!\e"
+MG00190005,"\h(«Patch, der Matrose»)Und dann erschienen diese riesigen Klumpen
+von Land einer nach dem anderen aus den Wolken
+und verwandelten sich in eine riesige Insel!\c"
+Ms002c000,"\h(«Vyse»)It's a small supply box. There are usually all
+sorts of fishing and sailing equipment piled up
+in here, but it's empty right now.\c"
+Ms002c001,"\h(«Vyse»)I guess the butterflies have returned now that
+everything's been fixed and all the flowers
+have been replanted.\c"
+Ms002c002,"\h(«Vyse»)It's a bag full of Moon Stones. I think these
+are going to be loaded onto the ship. They're
+probably going to be used as fuel.\c"
+Ms002c003,"\h(«Vyse»)We use this windmill as a power source to raise
+and lower heavy cargo in and out of our ship
+in the underground port.\e"
+Ms002c004,"\h(«Vyse»)While they aren't necessarily rare, we try to
+conserve Moon Stones whenever we can. So, we use
+wind power for some things instead.\c"
+Ms002c005,"\h(«Vyse»)It's a box full of bullets. My father is really
+the only one that uses a gun around here. I
+prefer using cutlasses.\c"
+Ms002c006,"\h(«Vyse»)We use this windmill as a power source to raise
+and lower heavy cargo in and out of our ship
+in the underground port.\e"
+Ms002c007,"\h(«Vyse»)While they aren't necessarily rare, we try to
+conserve Moon Stones whenever we can. So, we use
+wind power for some things instead.\c"
+Ms002c008,"\h(«Vyse»)This fireplace seems well used. Wait… is that
+gunpowder I smell? Geez… Aika probably throws
+gunpowder in this thing for fun. She's crazy…\c"
+Ms002c009,"\h(«Vyse»)Wait a second there… I may be an Air Pirate,
+but I am a gentleman. I refuse to look through
+a lady's dresser without permission.\e"
+Ms002c010,"\h(«Vyse»)Heh… This is that ragged, old doll that Aika
+used to carry around when she was a kid. I
+guess she still has it.\c"
+Ms002c011,"\h(«Vyse»)What's this? I didn't know Aika had a vanity.
+I guess even she can be feminine at times.\c"
+Ms002c012,"\h(«Vyse»)Both of Aika's parents passed away when we
+were still little kids.\e"
+Ms002c013,"\h(«Vyse»)So, there's only one bed here in her place.
+She tosses and turns in her sleep a lot, so
+she needs a rather large bed.\c"
+Ms002c014,"\h(«Vyse»)It's a shield that we got from a Valuan ship
+some time ago. Shields are too cumbersome to be
+useful to us, so we just use it as decoration.\c"
+Ms002c015,"\h(«Vyse»)Spears can be really useful when raiding wooden
+ships. All you have to do is light the tip on
+fire and it can cause a lot of damage.\c"
+Ms002c016,"\h(«Vyse»)We use this pillar to practice punching and
+kicking. A lot of raids break out into melees,
+so we all need to know how to fight.\c"
+Ms002c017,"\h(«Vyse»)Hey, I may be an Air Pirate, but I would never
+steal from an old lady's dresser.\c"
+Ms002c018,"\h(«Vyse»)This smell…
+Oh man, this has to be salted fish.
+I regret even looking in here…\c"
+Ms002c019,"\h(«Vyse»)Granny used to cook bread in this fireplace for
+me and Aika all the time when we were kids. She
+really does make the best bread.\e"
+Ms002c020,"\h(«Vyse»)But, ever since Lindsi, Alan, and Jimmy were
+born, they get to eat everything that Granny
+makes.\c"
+Ms002c021,"\h(«Vyse»)What's this…?
+Yuck!!! It's her denture cleaning solution!\c"
+Ms002c022,"\h(«Vyse»)It's full of fresh water. I wonder who left it
+here…\c"
+Ms002c023,"\h(«Vyse»)The jar is filled with pickled turnips. Every
+time I smell turnips, I always think of
+sailing… That's all we ever eat out there…\c"
+Ms002c024,"\h(«Vyse»)It's filled with all sorts of tableware.
+There're even some smaller utensils, probably
+for the little kids.\c"
+Ms002c025,"\h(«Vyse»)It's just a fireplace. I remember many times as
+a kid warming myself to a fire here, after being
+outside all day during the cold season.\c"
+Ms002c026,"\h(«Vyse»)A water jar used for cooking. We all get our
+water from the well, so we need containers to
+store the water before we use it.\c"
+Ms002c027,"\h(«Vyse»)A bandana… a striped shirt… It's filled with
+old, worn-out clothes. Some people just get
+attached to their stuff, I guess…\c"
+Ms002c028,"\h(«Vyse»)After returning from a long voyage, there's
+nothing quite like collapsing in your own bed.
+It's the best feeling in the world.\c"
+Ms002c029,"\h(«Vyse»)My old man is always out sailing, so his bed
+isn't very worn in. It looks almost brand new.\c"
+Ms002c030,"\h(«Vyse»)This is our fireplace. Mom uses it daily to cook
+for herself… and for us when we're actually
+home and not out sailing.\c"
+Ms002c031,"\h(«Vyse»)It's my bed. But, I've been out sailing with my
+dad a lot lately, so I really only sleep in it
+on occasion.\c"
+Ms002c032,"\h(«Vyse»)It's a book that we picked up on one of our
+raids. Books are really hard to come by, so
+they're one of our most treasured finds.\e"
+Ms002c033,"\h(«Vyse»)I once read a book on the art of navigation over
+and over again until the bindings were all worn 
+out. I hope the knowledge will come in handy…\c"
+Ms002c034,"\h(«Vyse»)Oops… I left my papers all over the place. I'm
+surprised Mom didn't get on my case about the
+mess that I left.\e"
+Ms002c035,"\h(«Vyse»)Well, I was only studying about the stars. She
+should be happy that I'm not just sitting around
+doing nothing, I suppose.\c"
+Ms002c036,"\h(«Vyse»)It says “Windmill Island.” That's what this
+island is called on most maps. But, nobody that
+lives here actually calls it by that name.\e"
+Ms002c037,"\h(«Vyse»)This place's real name is “Pirate Isle.” We only
+use Windmill Island as a cover name to avoid
+getting caught by the Valuan Empire.\c"
+Ms002c038,"\h(«Vyse»)This is our well. It's very valuable to us here
+on Pirate Isle. Actually, one time when we were
+still kids, Aika fell inside the well…\c"
+Ms002c039,"\h(«Vyse»)The ladies of the town often use these boxes to
+sit and rest on while drawing water from the
+well. It's sort of the town gossip area.\c"
+Ms002c040,"\h(«Vyse»)I used to climb this tree all the time when I
+was a little kid. It was destroyed during the
+Armada's attack and had to be cut down.\c"
+Ms002c041,"\h(«Vyse»)Heh… It looks like someone's already replanted
+all the flowers that were destroyed during the
+Armada's attack.\c"
+Ms002c042,"\h(«Vyse»)There's always a steady breeze that blows
+through this region, so our laundry dries
+really quickly.\c"
+Ms002c043,"\h(«Vyse»)There's always a steady breeze that blows
+through this region, so our laundry dries
+really quickly.\c"
+Ms002c044,"\h(«Vyse»)Isn't this the laundry tub?
+Who left it just sitting out here like this?\c"
+Ms002c049,\h( )“Please do not step on the garden.”\e
+Ms002c045,"\h(«Vyse»)… Vegetables are an important source of
+nutrients for sailors. Everyone takes great care
+to make sure and grow them properly.\c"
+Ms002c046,"\h(«Vyse»)This is our incinerator. It's connected to the
+fireplace inside. That way, they both can use
+the same chimney.\c"
+Ms002c047,"\h(«Vyse»)It's easy to get scurvy when you're always out
+sailing. It's hard to get enough vegetables, so
+that's why pickled turnips are so important.\c"
+Ms002c048,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MSs002c000,"\h(«Vyse»)Es una caja de provisiones pequeña. Suele
+tener todo tipo de instrumentos de pesca y
+navegación, pero ahora mismo está vacía.\c"
+MSs002c001,"\h(«Vyse»)Supongo que las mariposas han vuelto ahora que
+todo ha vuelto a la normalidad y se han plantado
+todas las flores.\c"
+MSs002c002,"\h(«Vyse»)Es una bolsa llena de Piedras Lunares. Creo
+que las van a llevar al navío. Seguramente
+las utilizarán como combustible.\c"
+MSs002c003,"\h(«Vyse»)Usamos este molino de viento como una fuente
+de energía para cargar y descargar la mercancía
+pesada del navío en el puerto.\e"
+MSs002c004,"\h(«Vyse»)Aunque no son precisamente raras, intentamos
+reservar las Piedras Lunares. Por eso
+aprovechamos el viento siempre que podemos.\c"
+MSs002c005,"\h(«Vyse»)Es una caja llena de balas. En realidad,
+mi padre es el único que tiene una pistola
+por aquí. Yo prefiero usar sable.\c"
+MSs002c006,"\h(«Vyse»)Usamos este molino de viento como una fuente
+de energía para cargar y descargar la mercancía
+pesada del navío en el puerto.\e"
+MSs002c007,"\h(«Vyse»)Aunque no son precisamente raras, intentamos
+reservar las Piedras Lunares. Por eso
+aprovechamos el viento siempre que podemos.\c"
+MSs002c008,"\h(«Vyse»)Parece que a esta chimenea se le da buen uso.
+Espera…… ¿No huele a pólvora? Aika estará
+jugando por aquí con la pólvora. Está loca……\c"
+MSs002c009,"\h(«Vyse»)Oye, oye…… Puede que sea un Pirata Aéreo,
+pero soy un caballero. Me niego a husmear
+en la cómoda de una dama sin permiso.\c"
+MSs002c010,"\h(«Vyse»)Je, je…… Ésta es la muñeca harapienta y vieja
+que Aika siempre llevaba a todas partes cuando
+era pequeña. Creo que todavía la tiene.\c"
+MSs002c011,"\h(«Vyse»)¿Qué es esto? No sabía que Aika era vanidosa.
+Supongo que ella también es femenina a veces.\c"
+MSs002c012,"\h(«Vyse»)Los padres de Aika murieron cuando
+los dos éramos muy pequeños.\e"
+MSs002c013,"\h(«Vyse»)Así que sólo hay una cama en su casa.
+Ella da muchas vueltas cuando duerme,
+así que necesita una cama grande.\c"
+MSs002c014,"\h(«Vyse»)Es un escudo que cogimos en un asalto a un navío
+Valuan hace tiempo. Los escudos son un estorbo,
+así que lo tenemos de decoración.\c"
+MSs002c015,"\h(«Vyse»)Los arpones son muy útiles para abordar navíos
+de madera. Sólo tienes que prenderle fuego
+a la punta para que cause aún más daño.\c"
+MSs002c016,"\h(«Vyse»)Con este pilar practicamos los golpes y
+las patadas. Muchos asaltos acaban en pelea,
+así que debemos saber luchar bien.\c"
+MSs002c017,"\h(«Vyse»)Oye, puede que sea un Pirata Aéreo,
+pero nunca robaría nada de la cómoda
+de una anciana.\c"
+MSs002c018,"\h(«Vyse»)¿A qué huele……?
+¡No! Esto tiene que ser pescado salado.
+¡Para qué me habré molestado en mirar……!\c"
+MSs002c019,"\h(«Vyse»)Mi abuela nos hacía pan a mí y a Aika
+en esta chimenea cuando éramos pequeños.
+Hacía el mejor pan del mundo.\e"
+MSs002c020,"\h(«Vyse»)Pero cuando nacieron Lindsi, Alan y Jimmy,
+ellos siempre se comían lo que la abuela hacía.\c"
+MSs002c021,"\h(«Vyse»)¿Qué es esto?……
+¡¡¡Qué asco!!!
+¡Es su solución para limpiar los dientes!\c"
+MSs002c022,"\h(«Vyse»)Está lleno de agua fresca.
+Quién lo habrá dejado por aquí……\c"
+MSs002c023,"\h(«Vyse»)El frasco está lleno de nabos en vinagre. Su
+olor me recuerda a cuando navego…… Es lo
+único que comemos……\c"
+MSs002c024,"\h(«Vyse»)Está lleno de todo tipo de servicios de mesa.
+Incluso trae unos pequeños utensilios.
+Seguramente para los más pequeños.\c"
+MSs002c025,"\h(«Vyse»)Es sólo una chimenea. Recuerdo que pequeño me
+acercaba para calentarme, después de haber
+estado todo el día fuera en invierno.\c"
+MSs002c026,"\h(«Vyse»)Un jarro de agua para cocinar.
+Todos cogemos agua del pozo, por lo que
+necesitamos jarras para guardarla.\c"
+MSs002c027,"\h(«Vyse»)Un pañuelo para la cabeza…… Una camisa de
+rayas…… Está lleno de ropa vieja. Supongo que la
+gente coge mucho cariño a sus cosas……\c"
+MSs002c028,"\h(«Vyse»)Después de un largo viaje, no hay nada
+como quedarte tieso en tu cama.
+Es lo mejor del mundo.\c"
+MSs002c029,"\h(«Vyse»)El anciano siempre está navegando por ahí,
+así que no ha usado casi su cama.
+Parece casi nueva.\c"
+MSs002c030,"\h(«Vyse»)Ésta es nuestra chimenea. Mi madre la utiliza
+todos los días para cocinar para ella……
+y para nosotros cuando estamos en casa.\c"
+MSs002c031,"\h(«Vyse»)Es mi cama. Pero últimamente he estado
+navegando mucho con mi padre, así que no
+la he usado mucho.\c"
+MSs002c032,"\h(«Vyse»)Es un libro que cogimos en uno de nuestros
+asaltos. Los libros no se encuentran así como
+así, por eso son muy preciados.\e"
+MSs002c033,"\h(«Vyse»)Una vez leí un libro sobre el arte de navegar.
+Lo leí tantas veces, que la portada debe de
+estar toda gastada. Espero recordar algo……\c"
+MSs002c034,"\h(«Vyse»)¡Uy! He dejado mis papeles por todas partes.
+Me sorprende que mi madre no me ha echado
+la charla por el desorden.\e"
+MSs002c035,"\h(«Vyse»)Bueno, sólo estaba estudiando las estrellas.
+Supongo que debería estar contenta de que
+no esté cruzado de brazos sin hacer nada.\c"
+MSs002c036,"\h(«Vyse»)Dice “Isla del Molino”. Es el nombre de esta
+isla en casi todos los mapas. Pero los que viven
+aquí no la llaman así.\e"
+MSs002c037,"\h(«Vyse»)El verdadero nombre de este sitio es “Isla del
+Pirata”. Isla del Molino es sólo la tapadera
+para burlar al Imperio Valuan.\c"
+MSs002c038,"\h(«Vyse»)Este es nuestro pozo. Tiene mucho valor para
+nosotros en la Isla del Pirata. Una vez, cuando
+éramos pequeños, Aika se cayó en él……\c"
+MSs002c039,"\h(«Vyse»)Las mujeres del pueblo utilizan estas cajas
+para sentarse, mientras sacan agua del pozo.
+Es como la zona de cotilleos de la ciudad.\c"
+MSs002c040,"\h(«Vyse»)Cuando era pequeño siempre me subía a este
+árbol. Quedó destruido durante el ataque
+de la Armada y tuvieron que cortarlo.\c"
+MSs002c041,"\h(«Vyse»)Oye…… Parece que alguien ha vuelto a plantar
+todas las flores que quedaron destruidas
+durante el ataque de la Armada.\c"
+MSs002c042,"\h(«Vyse»)Hay una brisa continua en esta región, por eso
+la ropa se seca muy rápido.\c"
+MSs002c043,"\h(«Vyse»)Hay una brisa continua en esta región, por eso
+la ropa se seca muy rápido.\c"
+MSs002c044,"\h(«Vyse»)¿Éste no es el cubo de la colada?
+¿Quién lo ha dejado ahí tirado?\c"
+MSs002c049,\h( )“No pises en el jardín.”\e
+MSs002c045,"\h(«Vyse»)……Las verduras son una fuente de nutrientes
+importante para los marineros. Todos nos
+preocupamos de que crezcan bien.\c"
+MSs002c046,"\h(«Vyse»)Éste es nuestro incinerador. Está conectado a la
+chimenea por dentro. Así, los dos pueden usar la
+misma salida.\c"
+MSs002c047,"\h(«Vyse»)Es fácil coger escorbuto cuando navegas. Cuesta
+mucho encontrar verduras, por eso los nabos en
+vinagre son tan importantes.\c"
+MSs002c048,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un rato más.”\c"
+MFs002c000,"\h(«Vyse»)Voici une petite boîte d'équipement. En général,
+on y trouve tous types d'outils de pêche et de
+navigation. Mais pour l'instant, elle est vide.\c"
+MFs002c001,"\h(«Vyse»)Je pense que les papillons sont revenues
+maintenant que tout a été réparé et que les
+fleurs ont été replantées.\c"
+MFs002c002,"\h(«Vyse»)Voici un sac plein de Pierres de Lune. Je crois
+qu'elles vont être chargées à bord du navire
+pour servir de carburant.\c"
+MFs002c003,"\h(«Vyse»)Nous nous servons de la force issue de ce moulin
+à vent pour charger ou décharger la cargaison
+dans les ports souterrains.\e"
+MFs002c004,"\h(«Vyse»)Même si elles ne sont pas nécessairement rares,
+nous essayons de conserver les Pierres de Lune
+dès que possible. Ainsi, nous utilisons parfois
+la force du vent à la place.\c"
+MFs002c005,"\h(«Vyse»)Voici une boîte pleine de balles. Mon père est
+la seule personne qui utilise un pistolet par
+ici. Je préfère utiliser des sabres.\c"
+MFs002c006,"\h(«Vyse»)Nous nous servons de la force issue de ce moulin
+à vent pour charger ou décharger la cargaison
+dans les ports souterrains.\e"
+MFs002c007,"\h(«Vyse»)Même si elles ne sont pas nécessairement rares,
+nous essayons de conserver les Pierres de Lune
+dès que possible. Ainsi, nous utilisons parfois
+la force du vent à la place.\c"
+MFs002c008,"\h(«Vyse»)Cette cheminée semble être bien utilisée. Mais……
+je sens l'odeur de poudre à canon ? Aika est
+sans doute en train d'en jeter pour s'amuser.
+Elle est folle…… !\c"
+MFs002c009,"\h(«Vyse»)Attends un instant…… Je suis peut-être un Pirate
+de l'Air, mais je suis un gentleman. Je refuse
+de fouiller dans les affaires d'une femme sans
+sa permission.\c"
+MFs002c010,"\h(«Vyse»)Hé, c'est la vieille poupée que Aika emmenait
+partout quand elle était enfant. Je pense
+qu'elle l'a encore.\c"
+MFs002c011,"\h(«Vyse»)Qu'est-ce que c'est ? Je ne savais pas qu'Aika
+était vaniteuse. Elle peut être très féminine
+par moments.\c"
+MFs002c012,"\h(«Vyse»)Les deux parents d'Aika sont morts lorsque nous
+étions encore enfants.\e"
+MFs002c013,"\h(«Vyse»)Il n'y a qu'un seul lit chez elle. Elle remue
+beaucoup dans son sommeil alors elle a besoin
+d'un grand lit.\c"
+MFs002c014,"\h(«Vyse»)Voici un bouclier que nous avons trouvé sur un
+vaisseau Valuan il y a quelque temps. Les
+boucliers sont trop encombrants pour la bataille
+alors ils ne servent que de décoration.\c"
+MFs002c015,"\h(«Vyse»)Les lances peuvent être très utiles lors d'une
+attaque d'un vaisseau en bois. Il suffit
+d'allumer l'extrémité pour causer des dégâts
+considérables.\c"
+MFs002c016,"\h(«Vyse»)Nous utilisons ce pilier pour nous entraîner aux
+coups de pieds et aux coups de poings. De
+nombreuses attaques se terminent en mêlées. Il
+est donc important de savoir se battre.\c"
+MFs002c017,"\h(«Vyse»)Je suis peut-être un Pirate de l'Air, mais
+jamais je n'oserai voler une vieille dame.\c"
+MFs002c018,"\h(«Vyse»)Quelle odeur……
+Ce doit être du poisson salé.
+Je regrette d'avoir regardé là dedans !\c"
+MFs002c019,"\h(«Vyse»)Quand nous étions petits, Grand-mère nous
+faisait du pain dans cette cheminée. Elle
+faisait le meilleur pain qu'il soit !\e"
+MFs002c020,"\h(«Vyse»)Mais depuis la naissance de Lindsi, Alan et
+Jimmy, ils mangent tout ce que prépare
+Grand-mère.\c"
+MFs002c021,"\h(«Vyse»)Qu'est-ce que c'est…… ?
+Berk !!! C'est le produit dans lequel elle met
+son dentier !\c"
+MFs002c022,"\h(«Vyse»)C'est plein d'eau fraîche. Je me demande qui l'a
+laissée là……\c"
+MFs002c023,"\h(«Vyse»)Ce pot contient des navets macérés dans le
+vinaigre. Chaque fois que je sens des navets, je
+pense aux voyages…… C'est tout ce que l'on
+mangeait lorsque l'on naviguait.\c"
+MFs002c024,"\h(«Vyse»)Il y a plein de vaisselle différente. Il y a
+même des ustensiles plus petits, certainement
+pour les enfants.\c"
+MFs002c025,"\h(«Vyse»)Ce n'est qu'une cheminée. Quand j'étais petit,
+je me souviens que je me réchauffais au coin du
+feu, après avoir passé la journée dehors en
+plein hiver.\c"
+MFs002c026,"\h(«Vyse»)Un pot à eau utilisé pour cuisiner…… Nous
+utilisons tous l'eau du puits. Nous avons donc
+besoin de containers pour conserver l'eau avant
+de l'utiliser.\c"
+MFs002c027,"\h(«Vyse»)Un bandana…… un T-shirt à rayures…… Il y a des
+tas de vieux vêtements usés. Je pense que les
+gens s'attachent à leurs affaires…\c"
+MFs002c028,"\h(«Vyse»)Après un long voyage, il n'y a rien de tel que
+retrouver un bon lit. C'est un sentiment très
+agréable.\c"
+MFs002c029,"\h(«Vyse»)Mon père est toujours en voyage. Son lit n'est
+donc pas beaucoup utilisé. On dirait qu'il est
+encore tout neuf.\c"
+MFs002c030,"\h(«Vyse»)Voici notre cheminée. Ma mère l'utilise tous les
+jours pour faire à manger pour elle et pour nous
+lorsque nous ne sommes pas en voyage.\c"
+MFs002c031,"\h(«Vyse»)Voici mon lit. Mais j'ai beaucoup voyagé avec
+mon père ces derniers temps, alors je ne
+l'utilise pas beaucoup.\c"
+MFs002c032,"\h(«Vyse»)Voici un livre que nous avons récupéré lors de
+l'un de nos voyages. Il est difficile d'en
+trouver alors les livres sont de véritables
+objets précieux pour nous.\e"
+MFs002c033,"\h(«Vyse»)Une fois, j'ai lu un livre sur l'art de
+naviguer. Je l'ai tellement lu que la reliure
+était toute abîmée. J'espère pouvoir utiliser
+tout ce que j'ai appris dans ce livre……\c"
+MFs002c034,"\h(«Vyse»)Zut…… j'ai laissé mes papiers partout. Je suis
+surpris que ma mère n'ai rien dit, avec tout ce
+désordre……\e"
+MFs002c035,"\h(«Vyse»)Eh bien, j'étudiais les étoiles. Elle devrait
+être contente. Au moins, je ne passe pas mon
+temps à ne rien faire……\c"
+MFs002c036,"\h(«Vyse»)Il est indiqué “Île du Moulin.” C'est le nom que
+cette île porte sur la plupart des cartes. Mais
+ses habitants ne l'appellent pas comme ça.\e"
+MFs002c037,"\h(«Vyse»)Le vrai nom de cet endroit est “l'Île des
+Pirates.” Le nom Île du Moulin est une
+couverture pour éviter que l'Empire Valuan
+s'empare de nous.\c"
+MFs002c038,"\h(«Vyse»)Voici notre puits. Il est très précieux pour
+nous sur l'Île des Pirates. Et lorsque nous
+étions petit, Aika est même tombée dedans…\c"
+MFs002c039,"\h(«Vyse»)Les femmes de la ville utilisent souvent ces
+caisses pour s'asseoir et se reposer
+lorsqu'elles tirent de l'eau du puits. C'est un
+peu le quartier des commérages.\c"
+MFs002c040,"\h(«Vyse»)Lorsque j'étais petit, je grimpais sans cesse à
+cet arbre. Il a été détruit pendant l'attaque de
+l'Armada et il a dû être coupé.\c"
+MFs002c041,"\h(«Vyse»)Hé…… On dirait que quelqu'un a déjà replanté
+toutes les fleurs qui ont été détruites pendant
+l'attaque de l'Armada.\c"
+MFs002c042,"\h(«Vyse»)Un petit vent souffle toujours sur cette région.
+Ainsi, notre linge sèche très rapidement.\c"
+MFs002c043,"\h(«Vyse»)Un petit vent souffle toujours sur cette région.
+Ainsi, notre linge sèche très rapidement.\c"
+MFs002c044,"\h(«Vyse»)Mais, c'est le bac à linge ?
+Qui l'a laissé traîner comme ça ?\c"
+MFs002c049,\h( )“Veuillez ne pas marcher dans le jardin.”\e
+MFs002c045,"\h(«Vyse»)…… Les légumes sont un aliment important pour
+les marins. Chacun fait bien attention qu'ils
+poussent correctement.\c"
+MFs002c046,"\h(«Vyse»)Voici notre incinérateur. Il est relié à la
+cheminée à l'intérieur de la maison. Ainsi, ils
+peuvent utiliser la même cheminée.\c"
+MFs002c047,"\h(«Vyse»)Lorsque l'on part en voyage, il est facile
+d'attraper le scorbut. Il est difficile d'avoir
+suffisamment de légumes, c'est pourquoi les
+navets sont si importants.\c"
+MFs002c048,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez encore un peu ici.”\c"
+MGs002c000,"\h(«Vyse»)Es ist eine kleine Vorratskiste. Enthält
+normalerweise allerlei Ausrüstung für
+Fischerei und Seefahrt, ist aber im
+Moment leer.\c"
+MGs002c001,"\h(«Vyse»)Die Schmetterlinge sind wohl zurückgekommen,
+jetzt wo alles repariert ist und neue Blumen
+gepflanzt wurden.\c"
+MGs002c002,"\h(«Vyse»)Ein ganzer Sack voller Mondsteine. Ich glaube,
+die sollen auf das Schiff geladen werden.
+Sie werden wahrscheinlich als Treibstoff
+verwendet.\c"
+MGs002c003,"\h(«Vyse»)Wir benutzen diese Windmühle als Energiequelle,
+um schwere Ladung vom Schiff in den
+unterirdischen Hafen zu verfrachten.\e"
+MGs002c004,"\h(«Vyse»)Auch wenn Mondsteine nicht gerade selten sind,
+versuchen wir trotzdem, sparsam damit umzugehen.
+Wo es geht, setzen wir deshalb Windenergie ein.\c"
+MGs002c005,"\h(«Vyse»)Eine ganze Kiste mit Munition. Mein Vater ist
+jedoch der Einzige, der hier eine Pistole
+benutzt. Ich bevorzuge Entermesser.\c"
+MGs002c006,"\h(«Vyse»)Wir benutzen diese Windmühle als Energiequelle,
+um schwere Ladung vom Schiff in den
+unterirdischen Hafen zu verfrachten.\e"
+MGs002c007,"\h(«Vyse»)Auch wenn Mondsteine nicht gerade selten sind,
+versuchen wir trotzdem, sparsam damit umzugehen.
+Wo es geht, setzen wir deshalb Windenergie ein.\c"
+MGs002c008,"\h(«Vyse»)Dieser Kamin sieht viel benutzt aus. Moment……
+ist das der Geruch von Schießpulver? He……
+Aika wirft anscheinend aus Spaß Schießpulver
+hinein. Sie ist verrückt……\c"
+MGs002c009,"\h(«Vyse»)Moment mal…… Ich bin vielleicht ein Luftpirat,
+aber trotzdem ein Gentleman. Ich schaue nicht
+ohne Erlaubnis in den Schrank einer Dame.\c"
+MGs002c010,"\h(«Vyse»)Heh…… das ist doch die lumpige, alte Puppe,
+die Aika als Kind überallhin mitgeschleppt hat.
+Sie hat sie wohl immer noch.\c"
+MGs002c011,"\h(«Vyse»)Nanu? Ich wusste gar nicht, dass Aika eitel ist.
+Manchmal hat offenbar auch sie weibliche Züge.\c"
+MGs002c012,"\h(«Vyse»)Aikas Eltern starben beide,
+als wir noch klein waren.\e"
+MGs002c013,"\h(«Vyse»)Deshalb gibt es in ihrem Haus auch nur ein Bett.
+Sie wälzt sich oft im Schlaf hin und her,
+so dass sie ein ziemlich großes Bett braucht.\c"
+MGs002c014,"\h(«Vyse»)Ein Schild, den wir einmal bei einem Überfall
+auf ein valuanisches Schlachtschiff erbeutet
+haben. Schilde stören uns bloß im Kampf,
+deshalb benutzen wir ihn als Dekoration.\c"
+MGs002c015,"\h(«Vyse»)Speere sind sehr praktisch bei Überfällen auf
+Holzschiffe. Man muss nur die Spitze anzünden
+und kann so großen Schaden anrichten.\c"
+MGs002c016,"\h(«Vyse»)An diesem Pfeiler üben wir Schlagen und Treten.
+Viele Überfälle enden in einem Handgemenge,
+also muss jeder von uns kämpfen können.\c"
+MGs002c017,"\h(«Vyse»)He, ich bin vielleicht ein Pirat,
+aber ich würde nie etwas aus dem
+Schrank einer Dame stehlen.\c"
+MGs002c018,"\h(«Vyse»)Das stinkt……
+Oh Mann, das muss gesalzener Fisch sein.
+Hier hätte ich besser nicht reingeschaut……\c"
+MGs002c019,"\h(«Vyse»)Meine Oma hat in diesem Kamin immer Brot für
+mich und Aika gebacken, als wir klein waren.
+Ihr Brot ist immer noch das beste.\e"
+MGs002c020,"\h(«Vyse»)Aber seit Lindsi, Alan und Jimmy auf der Welt
+sind, kriegen sie immer alles, was Oma macht.\c"
+MGs002c021,"\h(«Vyse»)Was ist das……?
+Igitt!!! Das ist ihr Gebissreiniger!\c"
+MGs002c022,"\h(«Vyse»)Er ist mit frischem Wasser gefüllt.
+Wie der wohl hierher kommt……\c"
+MGs002c023,"\h(«Vyse»)Der Krug ist mit eingelegten Rüben gefüllt.
+Wenn ich Rüben rieche, muss ich immer an
+die Seefahrt denken…… Das ist das Einzige, was
+wir auf See bekommen……\c"
+MGs002c024,"\h(«Vyse»)Da ist allerlei Geschirr drin, sogar ein paar
+kleinere Sachen. Wahrscheinlich für
+kleine Kinder.\c"
+MGs002c025,"\h(«Vyse»)Nur ein Kamin. Ich weiß noch, wie ich mich als
+Kind im Winter hier immmer am Feuer gewärmt
+habe, nachdem ich den ganzen Tag draußen
+gewesen war.\c"
+MGs002c026,"\h(«Vyse»)Ein Wasserkrug zum Kochen. Wir holen unser
+Wasser vom Brunnen und brauchen deshalb
+Behälter, in denen wir das Wasser aufbewahren
+können, bis wir es brauchen.\c"
+MGs002c027,"\h(«Vyse»)Ein buntes Tuch…… ein gestreiftes Hemd……
+Da ist lauter alte, abgetragene Kleidung drin.
+Manche Leute hängen wohl sehr an ihren Sachen……\c"
+MGs002c028,"\h(«Vyse»)Nach einer langen Reise gibt es nichts
+Schöneres als ins eigene Bett zu fallen.
+Ein herrliches Gefühl.\c"
+MGs002c029,"\h(«Vyse»)Mein Vater ist ständig auf See und benutzt
+sein Bett nur selten. Sieht fast wie neu aus.\c"
+MGs002c030,"\h(«Vyse»)Das ist unser Kamin. Mutter benutzt ihn täglich,
+um für sich zu kochen…… und für uns,
+wenn wir ausnahmsweise mal zu Hause sind.\c"
+MGs002c031,"\h(«Vyse»)Mein Bett. Allerdings bin ich in letzter Zeit
+viel mit meinem Vater auf See und schlafe
+nur gelegentlich darin.\c"
+MGs002c032,"\h(«Vyse»)Ein Buch von einem unserer Beutezüge.
+Bücher sind schwer zu bekommen und
+deshalb besonders wertvoll.\e"
+MGs002c033,"\h(«Vyse»)Ich hab mal ein Buch über Navigation so oft
+gelesen, bis es auseinanderfiel.Ich hoffe,
+dass ich das Wissen einmal gebrauchen kann……\c"
+MGs002c034,"\h(«Vyse»)Huch…… Ich habe ja überall Papiere liegen
+lassen. Komisch, dass Mutter gar nichts gesagt
+hat zu dieser Unordnung.\e"
+MGs002c035,"\h(«Vyse»)Ich hab ja nur etwas über die Sterne gelernt.
+Ich denke, sie kann froh sein, dass ich nicht
+nur untätig rumsitze.\c"
+MGs002c036,"\h(«Vyse»)Da steht “Windmill Island.” So heißt diese
+Insel auf den meisten Karten. Aber keiner,
+der hier wohnt, nennt sie wirklich so.\e"
+MGs002c037,"\h(«Vyse»)Dieser Ort heißt eigentlich “Pirate Isle.” Wir
+benutzen Windmill Island nur als Decknamen,
+damit uns die Valuaner nicht finden.\c"
+MGs002c038,"\h(«Vyse»)Das ist unser Brunnen. Er ist sehr wertvoll für
+alle hier auf Pirate Isle. Einmal als wir noch
+klein waren, fiel Aika hinein……\c"
+MGs002c039,"\h(«Vyse»)Die Frauen der Stadt ruhen sich oft auf diesen
+Kisten aus, wenn sie Wasser vom Brunnen holen.
+Hier gibt es den neuesten Klatsch.\c"
+MGs002c040,"\h(«Vyse»)Als Kind bin ich immer auf diesen Baum
+geklettert. Er wurde beim Angriff der Armada
+getroffen und musste gefällt werden.\c"
+MGs002c041,"\h(«Vyse»)Heh…… sieht aus als hätte schon jemand
+die ganzen Blumen, die beim Angriff der
+Armada vernichtet wurden, neu gepflanzt.\c"
+MGs002c042,"\h(«Vyse»)In dieser Gegend weht immer ein starker Wind,
+so dass die Wäsche schnell trocknet.\c"
+MGs002c043,"\h(«Vyse»)In dieser Gegend weht immer ein starker Wind,
+so dass die Wäsche schnell trocknet.\c"
+MGs002c044,"\h(«Vyse»)Ist das nicht der Waschtrog?
+Wer hat ihn denn einfach hier stehen lassen?\c"
+MGs002c049,\h( )“Bitte die Beete nicht betreten.”\e
+MGs002c045,"\h(«Vyse»)…… Gemüse ist eine wichtige Nahrungsquelle
+für Seeleute. Jeder bemüht sich, damit es
+anständig wachsen kann.\c"
+MGs002c046,"\h(«Vyse»)Das ist unser Ofen. Er ist mit dem Kamin drinnen
+verbunden, damit beide den gleichen Abzug
+benutzen können.\c"
+MGs002c047,"\h(«Vyse»)Wenn man ständig auf See ist, bekommt man
+leicht Skorbut. Man kriegt kaum genug Gemüse,
+deshalb sind eingelegte Rüben so wichtig.\c"
+MGs002c048,"\h(«Was wirst du tun?»)“Zurück zur Delphinus gehen.”
+“Noch etwas hier bleiben.”\c"
+MC0190000,"\h(«Fina»)Vyse… Aika…
+Captain Drachma…\e"
+MC0190001,\h(«Fina»)I… just wanted to tell you how much I… I…\e
+MC0190002,"\h(«Vyse»)Heh… don't worry about it. The Valuans went 
+through a lot of trouble to capture you. We just
+like making them mad.\e"
+MC0190003,"\h(«Aika»)Vyse is just kidding, Fina. You're our friend
+now. But while we were there, I did want to grab
+some more loot…\e"
+MC0190004,"\h(«Vyse»)What? Aika! You wanted to stay in Valua!? 
+We barely made it out of there!\e"
+MC0190005,"\h(«Aika»)Hey! It's an Air Pirate's duty to liberate any 
+treasure that can help the needy.\e"
+MC0190006,"\h(«Vyse»)Umm…
+Fina… there's something I want to ask you…
+What is this mission that you're on?\e"
+MC0190007,"\h(«Vyse»)What are you looking for? And why is the Valuan 
+Empire after you? We might be able to help…\e"
+MC0190008,\h(«Fina»)……\e
+MC0190009,\h(«Fina»)…Alright. I'll tell you…\e
+MC0190010,"\h(«Fina»)I am a Silvite, a descendant of the Silver 
+Civilization.\e"
+MC0190011,\h(«Aika»)Silver Civilization?\e
+MC0190012,"\h(«Fina»)Hundreds of generations ago, the world's 
+population was divided into 6 civilizations.\e"
+MC0190013,"\h(«Fina»)One existed under each of the Moons
+in the sky… Green, Red, Blue, Purple, Yellow,
+and Silver.\e"
+MC0190014,"\h(«Fina»)Each civilization harnessed the power of its 
+moon by learning how to use Moon Stones as a 
+source of energy.\e"
+MC0190015,"\h(«Fina»)The entire world went through a technological 
+revolution. But technology advanced faster than
+the people wielding it.\e"
+MC0190016,"\h(«Fina»)The leaders of each of the civilizations became
+corrupt… and their ambition led them to war.
+They used their technology to create weapons.\e"
+MC0190017,"\h(«Fina»)These weapons were called “Gigas.” They were 
+gigantic living weapons that were capable of 
+destroying whole islands.\e"
+MC0190018,"\h(«Aika»)I've heard about these Gigas before.
+There's a giant, and a dragon…\e"
+MC0190019,"\h(«Aika»)But, I thought those were all tales parents told
+their children… I never thought that they were 
+real.\e"
+MC0190020,"\h(«Fina»)Oh, Aika, they are very real. When the Ancient 
+Civilizations went to war, they unleashed the 
+Gigas on each other. So many people died…\e"
+MC0190021,"\h(«Fina»)Then something happened…
+the Rains of Destruction fell…
+No one knows exactly what caused it…\e"
+MC0190022,"\h(«Fina»)Moon Stones fell from each of the Moons… They
+fell for what seemed like an eternity. Thousands
+of Stones fell at a time… Like a rainstorm…\e"
+MC0190023,"\h(«Fina»)It was almost as if the Moons wanted to make
+sure that their powers would never be misused
+again. Millions died in the Rains…\e"
+MC0190024,"\h(«Fina»)The stones battered the lands and leveled the 
+cities… All of the Ancient Civilizations were 
+destroyed. Only a few survivors remained.\e"
+MC0190025,"\h(«Fina»)But even if the Rains of Destruction never 
+happened, the Gigas would have destroyed the 
+world anyway.\e"
+MC0190026,"\h(«Fina»)Now, there are people who are trying to reawaken
+the Gigas.\e"
+MC0190027,"\h(«Vyse»)You mean…
+The Valuan Empire?\e"
+MC0190028,"\h(«Fina»)Yes. But, to command the Gigas, it is necessary 
+to find the Moon Crystals. A Moon Crystal is a 
+highly concentrated form of Moon Stone.\e"
+MC0190029,"\h(«Fina»)The original Moon Crystals used to control the 
+Gigas are scattered throughout the world.\e"
+MC0190030,"\h(«Fina»)Valua is searching for those Crystals so they 
+can reawaken the Gigas!\e"
+MC0190031,"\h(«Aika»)And that's why the Valuan Empire kidnapped you…
+to find out where they were hidden!\e"
+MC0190032,"\h(«Fina»)Yes. I was sent here to gather the Crystals 
+before the Valuans could find them and put them 
+somewhere where they can never be used again.\e"
+MC0190033,"\h(«Fina»)… Vyse… Aika…
+I know I have caused you enough trouble, but I 
+have another favor to ask of you.\e"
+MC0190034,"\h(«Fina»)I would like you to go with me. 
+Help me travel the world in search of the 
+Crystals.\e"
+MC0190035,"\h(«Fina»)Please… without my ship, I can't do it… and if
+Valua gets the Crystals… I don't even want to
+think about what would happen…\e"
+MC0190036,"\h(«What will you say?»)“Leave everything to us!”
+“I need to think about this…”\e"
+MC0190037,"\h(«Vyse»)Heh… leave everything to us!
+We'll go with you and find those Crystals!\e"
+MC0190038,"\h(«Aika»)Yeah, Vyse… I guess this is your chance to see
+what lies beyond the sunset!\e"
+MC0190039,"\h(«Vyse»)You're right, Aika…\e"
+MC0190040,"\h(«Fina»)Thank you so much!
+If you two were to come with me, I would be so 
+honored!\e"
+MC0190041,"\h(«Vyse»)Let me think about it for a little.
+It's all so sudden…\e"
+MC0190042,"\h(«Aika»)Vyse! What are you talking about!
+Stop being such a coward! Valua will find the 
+Crystals first if we don't help her!\e"
+MC0190043,"\h(«Aika»)And Vyse…
+Have you forgotten what you used to always tell 
+me?\e"
+MC0190044,"\h(«Aika»)“One day, I want to see what lies beyond the
+sunset”, is what you've been saying since we
+were kids! This is your chance!\e"
+MC0190045,"\h(«Vyse»)Yeah…
+Now that you put it that way, I suppose you're 
+right…\e"
+MC0190046,"\h(«Vyse»)Alright, Fina… we'll help you find those 
+Crystals!\e"
+MC0190047,"\h(«Fina»)Thank you so much! If you two were to come with 
+me, I'd be so honored!\e"
+MC0190048,"\h(«Aika»)Huh?
+Vyse, what was that noise? 
+Was that your stomach?\e"
+MC0190049,"\h(«Fina»)Oh… I'm sorry. 
+It's okay, you can come out now.\e"
+MC0190050,\h(«Vyse»)Huh…?!\e
+MC0190051,"\h(«Aika»)Wh… what is that thing?!
+Where'd it come from?\e"
+MC0190052,\h(«Fina»)It's been with me ever since I was a baby.\e
+MC0190053,"\h(«Fina»)It's from my homeland… It can change its
+shape… And it's usually shaped like a bracelet
+around my arm.\e"
+MC0190054,"\h(«Aika»)Heh… actually, the thing is kind of cute. 
+What's its name?\e"
+MC0190055,"\h(«Aika»)It's so cute! I'm very pleased to meet you, 
+Cupil!\e"
+MC0190056,"\h(«Vyse»)Well, Fina, we've got a long journey ahead of 
+us. We'll do our best to help you get the 
+Crystals.\e"
+MC0190057,\h(«Fina»)Thank you… I'm so glad that you're helping me.\e
+MC0190058,"\h(«Aika»)Now, the only problem left is Cap'n Dyne… 
+I wonder if he'll let us go.\e"
+MC0190059,"\h(«Vyse»)What are you worried about? Even if he does say 
+no, we'll just go anyway!\e"
+MC0190060,"\h(«Vyse»)Alright!
+Once we're finished getting everything ready, 
+we'll leave from the underground port!\e"
+MC0190061,"\h(«Fina»)Its name is Cupil. Come, Cupil… say hello to 
+everyone.\e"
+MC0190062,\h( )Fina has joined your party!\e
+MC0190063,\h( )You received the “Silver Moon Stone” from Fina.\e
+MSC0190000,"\h(«Fina»)Vyse…… Aika……
+Capitán Drachma……\e"
+MSC0190001,\h(«Fina»)Yo…… sólo quería decir lo mucho que yo…… yo……\e
+MSC0190002,"\h(«Vyse»)Eh…… no te preocupes. Los Valuan pasaron
+incontables calamidades para capturarte.
+Y nos encanta llevarles la contraria.\e"
+MSC0190003,"\h(«Aika»)Lo dice en broma, Fina. Eres nuestra amiga.
+Pero mientras estábamos allí, me habría gustado
+coger un botín mayor…… Qué pena que tuviéramos
+que irnos tan pronto……\e"
+MSC0190004,"\h(«Vyse»)¿Qué? ¡Aika! ¿¡Querías quedarte en Valua!?
+¡Conseguimos escapar de puro milagro!\e"
+MSC0190005,"\h(«Aika»)¡Eh! El deber de todo Pirata Aéreo es coger
+cualquier tesoro que pueda servir a los
+necesitados.\e"
+MSC0190006,"\h(«Vyse»)Esto…… Fina…… quisiera hacerte una pregunta……
+¿Cuál es tu misión?\e"
+MSC0190007,"\h(«Vyse»)¿Qué estás buscando? ¿Y por qué te persigue el
+Imperio Valuan? Quizá te podamos ayudar……\e"
+MSC0190008,\h(«Fina»)……\e
+MSC0190009,\h(«Fina»)……Muy bien. Os lo voy a decir……\e
+MSC0190010,"\h(«Fina»)Soy una Silvite, una descendiente de la
+Civilización de Plata.\e"
+MSC0190011,\h(«Aika»)¿Civilización de Plata?\e
+MSC0190012,"\h(«Fina»)Hace cientos de generaciones, la población
+mundial se dividía en 6 civilizaciones.\e"
+MSC0190013,"\h(«Fina»)Cada una vivía bajo una de las Lunas……
+Verde, Roja, Azul, Púrpura, Amarilla y de Plata.\e"
+MSC0190014,"\h(«Fina»)Estas civilizaciones aprovechaban el poder de
+sus respectivas Lunas aprendiendo a usar las
+Piedras Lunares como fuente de energía.\e"
+MSC0190015,"\h(«Fina»)El mundo entero atravesó una revolución
+tecnológica. Pero la tecnología avanzó más
+deprisa que la gente.\e"
+MSC0190016,"\h(«Fina»)Los líderes de estas civilizaciones se volvieron
+corruptos…… y su ambición les llevó a la guerra.
+Utilizaron su tecnología para crear armas.\e"
+MSC0190017,"\h(«Fina»)A estas armas se las llamó “Gigas”.
+Eran gigantescas armas con vida propia capaces
+de destruir islas enteras.\e"
+MSC0190018,"\h(«Aika»)Ya había oído hablar de estos Gigas antes.
+Hay un gigante y un dragón……\e"
+MSC0190019,"\h(«Aika»)Pero pensé que sólo eran historias que los
+padres contaban a sus hijos…… Nunca creí que
+fueran reales.\e"
+MSC0190020,"\h(«Fina»)Oh, Aika, sí que son verdaderas. Cuando las
+Civilizaciones Antiguas fueron a la guerra,
+utilizaron los Gigas los unos contra los otros.
+Murieron muchas personas……\e"
+MSC0190021,"\h(«Fina»)Entonces…… cayó la Lluvia Destructora……
+Nadie sabe exactamente la causa……\e"
+MSC0190022,"\h(«Fina»)De las Lunas cayeron Piedras Lunares……
+Estuvieron cayendo durante una eternidad……
+Miles de piedras cayeron a la vez…… Como en una
+tormenta……\e"
+MSC0190023,"\h(«Fina»)Era como si las Lunas quisieran asegurarse de
+que sus poderes no volverían a ser utilizados de
+forma equivocada. Durante las Lluvias murieron
+millones de personas……\e"
+MSC0190024,"\h(«Fina»)Las piedras destrozaron las tierras y arrasaron
+las ciudades…… Todas las Civilizaciones Antiguas
+fueron destruidas. Muy pocos sobrevivieron.\e"
+MSC0190025,"\h(«Fina»)Pero aunque las Lluvias Destructoras no hubieran
+caído, los Gigas habrían destruido el mundo de
+todas formas.\e"
+MSC0190026,"\h(«Fina»)Hay personas que intentan volver a despertar a
+los Gigas.\e"
+MSC0190027,"\h(«Vyse»)Quieres decir……
+¿el Imperio Valuan?\e"
+MSC0190028,"\h(«Fina»)Sí. Pero para utilizar los Gigas hay que
+encontrar los Cristales Lunares. Un Cristal
+Lunar es una concentración alta de Piedra
+Lunar.\e"
+MSC0190029,"\h(«Fina»)Los Cristales Lunares que originalmente servían
+para controlar los Gigas están repartidos por
+todo el mundo.\e"
+MSC0190030,"\h(«Fina»)¡Valua busca esos Cristales para poder despertar
+a los Gigas!\e"
+MSC0190031,"\h(«Aika»)Por eso el Imperio Valuan te secuestró……
+¡para descubrir dónde están escondidos!\e"
+MSC0190032,"\h(«Fina»)Sí. Me enviaron aquí para reunir los Cristales
+antes de que los Valuan los encontraran.
+Debo guardarlos en un lugar donde no puedan
+utilizarse nunca más.\e"
+MSC0190033,"\h(«Fina»)Vyse…… Aika……
+Sé que ya os he causado bastantes problemas,
+pero tengo que pediros otro favor.\e"
+MSC0190034,"\h(«Fina»)Me gustaría que vinierais conmigo.
+Que me ayudárais a recorrer el mundo en busca de
+los Cristales.\e"
+MSC0190035,"\h(«Fina»)Por favor…… sin mi barco no puedo hacerlo……
+y si Valua encuentra los Cristales……
+No quiero ni pensar lo que pasaría……\e"
+MSC0190036,"\h(«¿Qué dirías?»)“¡Déjanoslo a nosotros!”
+“¡Tengo que pensármelo……!”\e"
+MSC0190037,"\h(«Vyse»)Eh…… ¡Déjanoslo a nosotros!
+¡Iremos contigo y encontraremos esos Cristales!\e"
+MSC0190038,"\h(«Aika»)Sí, Vyse…… ¡Creo que ésta es tu oportunidad para
+descubrir qué hay más allá de la puesta de sol!\e"
+MSC0190039,"\h(«Vyse»)Claro que sí, Aika……\e"
+MSC0190040,"\h(«Fina»)¡Muchas gracias!
+¡Es un honor que los dos queráis acompañarme!\e"
+MSC0190041,"\h(«Vyse»)Deja que me lo piense un momento.
+Es tan repentino……\e"
+MSC0190042,"\h(«Aika»)¡Vyse! ¡Pero qué dices!
+¡Deja de ser un cobarde! ¡Valua va a encontrar
+esos Cristales antes que nosotros!\e"
+MSC0190043,"\h(«Aika»)Y Vyse……
+¿has olvidado lo que me decías siempre?\e"
+MSC0190044,"\h(«Aika»)“Algún día veré lo que hay más allá del
+atardecer”, ¡es lo que siempre has dicho desde
+que éramos niños! ¡Ésta es tu oportunidad!\e"
+MSC0190045,"\h(«Vyse»)Sí……
+Ahora que lo dices, supongo que tienes razón……\e"
+MSC0190046,"\h(«Vyse»)Muy bien, Fina…… ¡Te ayudaremos a encontrar esos
+Cristales!\e"
+MSC0190047,"\h(«Fina»)¡Muchas gracias! ¡Será un honor que los dos
+decidierais acompañarme!\e"
+MSC0190048,"\h(«Aika»)¿Eh?
+Vyse, ¿qué ha sido ese ruido?
+¿Eran tus tripas?\e"
+MSC0190049,"\h(«Fina»)Oh…… Lo siento.
+Está bien, ya puedes salir.\e"
+MSC0190050,\h(«Vyse»)¡¿Qué……?!\e
+MSC0190051,"\h(«Aika»)¡¿Qué…… qué es eso?!
+¿De dónde ha salido?\e"
+MSC0190052,\h(«Fina»)Lo llevo conmigo desde que era una niña.\e
+MSC0190053,"\h(«Fina»)Viene de mi país…… Puede cambiar de forma……
+Normalmente tiene la forma de una pulsera que
+llevo en el brazo.\e"
+MSC0190054,"\h(«Aika»)Eh…… en realidad, es bastante gracioso.
+¿Cómo se llama?\e"
+MSC0190055,"\h(«Aika»)¡Es tan mono! ¡Encantada de conocerte, Cupil!\e"
+MSC0190056,"\h(«Vyse»)Bueno, Fina, tenemos un largo viaje por delante.
+Haremos todo lo que podamos para ayudarte a
+encontrar los Cristales.\e"
+MSC0190057,\h(«Fina»)Gracias…… Estoy tan contenta de que me ayudéis.\e
+MSC0190058,"\h(«Aika»)El único problema ahora es el Capitán Dyne……
+No sé si nos dejará irnos.\e"
+MSC0190059,"\h(«Vyse»)¿De qué te preocupas? Da igual que diga que no,
+¡nos vamos y ya está!\e"
+MSC0190060,"\h(«Vyse»)¡Muy bien!
+¡Una vez que hayamos terminado y esté todo
+listo, partiremos desde el puerto del subsuelo!\e"
+MSC0190061,"\h(«Fina»)Se llama Cupil. Vamos, Cupil…… saluda a todos.\e"
+MSC0190062,\h( )｡Fina se ha unido al grupo!\e
+MSC0190063,\h( )Has recibido la “Piedra Lunar de Plata” de Fina.\e
+MFC0190000,"\h(«Fina»)Vyse…… Aika……
+Capitaine Drachma……\e"
+MFC0190001,\h(«Fina»)Je…… voulais juste vous dire combien je…… je……\e
+MFC0190002,"\h(«Vyse»)Hé…… vous en faites pas. Les Valuans ont eu
+beaucoup de difficultés à vous capturer.
+Nous, cela nous amuse de les faire enrager.\e"
+MFC0190003,"\h(«Aika»)Vyse plaisante, Fina. Vous êtes notre amie
+maintenant. Mais tant que nous étions là-bas,
+j'aurais voulu ramasser un plus gros butin……
+Dommage que nous soyons partis si tôt……\e"
+MFC0190004,"\h(«Vyse»)Quoi ? Aika ! Tu voulais rester à Valua !?
+Nous nous sommes échappés de justesse !\e"
+MFC0190005,"\h(«Aika»)Hé ! C'est le devoir d'un Pirate de l'Air de
+libérer les trésors qui peuvent aider les
+indigents.\e"
+MFC0190006,"\h(«Vyse»)Umm…… Fina…… je voulais vous demander quelque
+chose…… En quoi consiste votre mission ?\e"
+MFC0190007,"\h(«Vyse»)Que cherchez-vous ?
+Et pourquoi l'Empire Valuan vous recherche ?
+Nous pouvons peut-être vous aider……\e"
+MFC0190008,\h(«Fina»)……\e
+MFC0190009,\h(«Fina»)……Entendu. Je vais vous le dire……\e
+MFC0190010,"\h(«Fina»)Je suis une Silvite, une descendante de la
+Civilisation d'Argent.\e"
+MFC0190011,\h(«Aika»)Civilisation d'Argent ?\e
+MFC0190012,"\h(«Fina»)Il y a des centaines de générations de cela, le
+monde était divisé en 6 civilisations.\e"
+MFC0190013,"\h(«Fina»)Il en existait une sous chaque Lune dans le
+ciel…… Verte, Rouge, Bleue, Mauve, Jaune, et
+Argent.\e"
+MFC0190014,"\h(«Fina»)Chaque civilisation exploitait le pouvoir de sa
+lune en apprenant à se servir des Pierres de
+Lune comme source d'énergie.\e"
+MFC0190015,"\h(«Fina»)Le monde entier a connu une révolution
+technologique. Mais cette technologie s'est
+développée plus vite que ceux qui s'en
+servaient.\e"
+MFC0190016,"\h(«Fina»)Les chefs de chaque civilisation ont été
+corrompus…… et leur ambition les a menés à la
+guerre. Ils se sont servis de leur technologie
+pour créer des armes.\e"
+MFC0190017,"\h(«Fina»)Ils ont appelé ces armes “Gigas”. C'étaient des
+armes vivantes gigantesques, capables de
+détruire des îles entières.\e"
+MFC0190018,"\h(«Aika»)J'ai déjà entendu parler de ces Gigas.
+Il y a un géant, et un dragon……\e"
+MFC0190019,"\h(«Aika»)Mais, je croyais que c'était des histoires que
+les parents racontaient à leurs enfants……
+Je n'ai jamais vraiment cru à leur existence.\e"
+MFC0190020,"\h(«Fina»)Oh, Aika, ils existent vraiment. Lorsque les
+Civilisations Anciennes sont entrées en guerre,
+elles ont toutes lâché leurs Gigas.
+Il y a eu tellement de morts……\e"
+MFC0190021,"\h(«Fina»)Puis il s'est passé quelque chose…… la Pluie de
+la Destruction est tombée… Personne n'en connaît
+la cause exacte…\e"
+MFC0190022,"\h(«Fina»)Des Pierres de Lune sont tombées des 6 Lunes……
+Cela a duré une éternité…… Des milliers de
+Pierres sont tombées à la fois…… Comme une pluie
+torrentielle……\e"
+MFC0190023,"\h(«Fina»)On aurait dit que les Lunes voulaient s'assurer
+que plus personne n'abuserait de leurs pouvoirs.
+Des millions de gens périrent sous cette Pluie……\e"
+MFC0190024,"\h(«Fina»)Les pierres ont ravagé les terres et rasé les
+villes…… Toutes les Anciennes Civilisations ont
+été détruites. Il n'y a eu qu'une poignée de
+survivants.\e"
+MFC0190025,"\h(«Fina»)Mais même si la Pluie de la Destruction n'était
+jamais tombée, les Gigas auraient détruit le
+monde de toute façon.\e"
+MFC0190026,"\h(«Fina»)Aujourd'hui, il y a des gens qui essaient de
+faire renaître les Gigas.\e"
+MFC0190027,"\h(«Vyse»)Vous voulez dire……
+L'Empire Valuan ?\e"
+MFC0190028,"\h(«Fina»)Oui. Mais, pour commander les Gigas, il faut
+trouver les Cristaux de Lune. Un Cristal de Lune
+est une forme très concentrée de Pierre de Lune.\e"
+MFC0190029,"\h(«Fina»)Les Cristaux de Lune originaux, qui servent à
+contrôler les Gigas, sont dispersés dans le
+monde entier.\e"
+MFC0190030,"\h(«Fina»)Valua cherche ces Cristaux pour pouvoir faire
+renaître les Gigas !\e"
+MFC0190031,"\h(«Aika»)Voilà pourquoi l'Empire Valuan vous a
+kidnappée…… pour découvrir où ils se cachent !\e"
+MFC0190032,"\h(«Fina»)Oui. J'ai été envoyé ici pour réunir les
+Cristaux avant que les Valuans ne les trouvent
+et pour les mettre en lieu sûr.\e"
+MFC0190033,"\h(«Fina»)…… Vyse…… Fina……
+Je sais que je vous ai causé assez de problèmes
+comme ça, mais j'ai un autre service à vous
+demander.\e"
+MFC0190034,"\h(«Fina»)Je voudrais que vous m'accompagniez.
+Aidez-moi à parcourir le monde à la recherche
+des Cristaux.\e"
+MFC0190035,"\h(«Fina»)Je vous en prie…… sans mon navire, je n'y
+arriverai jamais…… et si Valua trouve les
+Cristaux…… Je ne veux même pas imaginer ce qu'il
+se passera……\e"
+MFC0190036,"\h(«Que direz-vous ?»)“Nous t'accompagnons !”
+“J'ai besoin d'y réfléchir……”\e"
+MFC0190037,"\h(«Vyse»)Hé…… Nous t'accompagnons !
+Nous venons avec toi et trouverons ces
+Cristaux !\e"
+MFC0190038,"\h(«Aika»)D'accord, Vyse…… Je suppose que c'est notre
+chance de voir ce qui se cache derrière le
+coucher du soleil !\e"
+MFC0190039,\h(«Vyse»)Tu as raison Aika……\e
+MFC0190040,"\h(«Fina»)Merci beaucoup !
+Si vous veniez avec moi, je serais vraiment
+honorée !\e"
+MFC0190041,"\h(«Vyse»)Laisse-moi y réfléchir un petit peu.
+C'est si soudain……\e"
+MFC0190042,"\h(«Aika»)Vyse ! De quoi tu parles !
+Arrête de jouer les lâches ! Valua trouvera les
+Cristaux en premier si nous ne l'aidons pas !\e"
+MFC0190043,"\h(«Aika»)Et Vyse……
+As-tu oublié ce que tu me répétais sans cesse ?\e"
+MFC0190044,"\h(«Aika»)“Un jour, je veux voir ce qui se cache derrière
+le coucher du soleil”, c'est ce que tu répètes
+depuis que nous sommes petits !
+C'est ta chance !\e"
+MFC0190045,"\h(«Vyse»)Oui……
+Maintenant que tu me le dis, je crois que tu as
+raison……\e"
+MFC0190046,"\h(«Vyse»)D'accord, Fina…… nous allons t'aider à trouver
+ces Cristaux !\e"
+MFC0190047,"\h(«Fina»)Merci beaucoup ! Si vous m'accompagniez, je
+serais très honorée !\e"
+MFC0190048,"\h(«Aika»)Hein ?
+Vyse, c'était quoi ce bruit ?
+Ton estomac ?\e"
+MFC0190049,"\h(«Fina»)Oh…… Je suis désolée.
+C'est bon, tu peux sortir maintenant.\e"
+MFC0190050,\h(«Vyse»)Hein……?!\e
+MFC0190051,"\h(«Aika»)Qu'est…… qu'est ce que c'est ?!
+D'où vient-il ?\e"
+MFC0190052,\h(«Fina»)Il m'accompagne depuis que je suis bébé.\e
+MFC0190053,"\h(«Fina»)Il vient de ma terre natale…… Il peut changer de
+forme…… Et en principe il prend la forme d'un
+bracelet que je mets à mon poignet.\e"
+MFC0190054,"\h(«Aika»)Hé…… en fait, c'est plutôt mignon.
+Comment s'appelle t-il ?\e"
+MFC0190055,"\h(«Aika»)Il est trop mignon ! Enchantée de faire ta
+connaissance, Cupil !\e"
+MFC0190056,"\h(«Vyse»)Bon, Fina, un long voyage nous attend.
+Nous ferons tout notre possible pour vous aider
+à retrouver les Cristaux.\e"
+MFC0190057,\h(«Fina»)Merci…… Je suis si contente que vous m'aidiez.\e
+MFC0190058,"\h(«Aika»)Maintenant, notre seul problème, c'est Cap'taine
+Dyne…… Je me demande s'il nous laissera partir.\e"
+MFC0190059,"\h(«Vyse»)Pourquoi t'inquiètes-tu ?
+Nous partirons même s'il dit non !\e"
+MFC0190060,"\h(«Vyse»)C'est d'accord ! Une fois que nous aurons
+terminé tous les préparatifs, nous partirons de
+l'île !\e"
+MFC0190061,"\h(«Fina»)Il s'appelle Cupil. Viens, Cupil…… dis bonjour à
+tout le monde.\e"
+MFC0190062,\h( )Fina vous a rejoint !\e
+MFC0190063,\h( )Fina vous a donné la “Pierre de Lune Argent”.\e
+MGC0190000,"\h(«Fina»)Vyse……  Aika……
+Captain Drachma……\e"
+MGC0190001,"\h(«Fina»)Ich……  wollte euch nur sagen, wie sehr ich……\e"
+MGC0190002,"\h(«Vyse»)He…… mach dir keine Gedanken. Die Valuaner
+hatten ihre Mühe, dich zu kriegen. Es macht uns
+einfach Spaß, sie zu reizen.\e"
+MGC0190003,"\h(«Aika»)Vyse macht nur Spaß, Fina. Du bist jetzt unsere
+Freundin. Aber als wir dort waren, hätte ich
+gern noch etwas mehr Beute eingesteckt. Schade,
+dass wir schon so bald wegfahren mussten……\e"
+MGC0190004,"\h(«Vyse»)Was? Aika! Du wolltest in Valua bleiben!?
+Wir sind gerade noch so rausgekommen!\e"
+MGC0190005,"\h(«Aika»)He! Es ist die Pflicht eines jeden Luftpiraten,
+alles an Beute zu ergattern, was den Armen
+helfen könnte.\e"
+MGC0190006,"\h(«Vyse»)Emm……  Fina…… ich wollte dich etwas fragen……
+Was ist das für eine Mission, auf der du
+dich befindest?\e"
+MGC0190007,"\h(«Vyse»)Wonach suchst du? Und warum ist das Valua Empire
+hinter dir her? Vielleicht können wir helfen……\e"
+MGC0190008,\h(«Fina»)……\e
+MGC0190009,"\h(«Fina»)…… OK, ich werd's euch sagen.\e"
+MGC0190010,"\h(«Fina»)Ich bin Silviterin, ein Abkömmling der Silver
+Civilization.\e"
+MGC0190011,\h(«Aika»)Silver Civilization?\e
+MGC0190012,"\h(«Fina»)Vor Hunderten von Generationen war die Welt
+in 6 Zivilisationen unterteilt.\e"
+MGC0190013,"\h(«Fina»)Jeweils eine existierte unter den Monden des
+Himmels…… Grün, Rot, Blau, Purpur, Gelb und
+Silber.\e"
+MGC0190014,"\h(«Fina»)Jede Zivilisation machte sich die Macht ihres
+Mondes zunutze, indem sie lernte, Moon Stones
+als Energiequelle zu verwenden.\e"
+MGC0190015,"\h(«Fina»)Die ganze Welt erfuhr eine technologische
+Revolution. Aber die Technologie entwickelte
+sich schneller als die Leute, die sie
+handhabten.\e"
+MGC0190016,"\h(«Fina»)Die Anführer jeder der Zivilisationen wurden
+korrupt…… und ihre Ambitionen führten zum
+Krieg. Sie benutzten ihre Technologie dazu,
+Waffen herzustellen.\e"
+MGC0190017,"\h(«Fina»)Diese Waffen wurden “Gigas” genannt. Es waren
+gigantische lebendige Waffen, die in der Lage
+waren, ganze Inseln zu zerstören.\e"
+MGC0190018,"\h(«Aika»)Von diesen Gigas habe ich schon gehört.
+Es gibt einen Riesen, und einen Drachen……\e"
+MGC0190019,"\h(«Aika»)Ich habe aber immer geglaubt, dass das
+Ammenmärchen sind…… Ich hätte nie gedacht,
+dass sie wahr sind.\e"
+MGC0190020,"\h(«Fina»)Ach, Aika, sie sind nur zu wahr. Als die
+Ancient Civilizations in den Krieg zogen,
+ließen sie die Gigas gegeneinander los.
+So viele Menschen starben……\e"
+MGC0190021,"\h(«Fina»)Dann ist etwas passiert. Der Rain of Destruction
+fiel…… Niemand weiß genau, was ihn verursacht
+hat……\e"
+MGC0190022,"\h(«Fina»)Von jedem der sechs Monde fielen Moon Stones……
+Sie fielen, so schien es, für eine Ewigkeit……
+Tausende von Steinen fielen auf einmal……
+wie ein stürmischer Regen……\e"
+MGC0190023,"\h(«Fina»)Es war fast so, als wollten die Monde sicher-
+stellen, dass ihre Macht nie wieder missbraucht
+würde. Millionen kamen bei diesem Regen um……\e"
+MGC0190024,"\h(«Fina»)Die Steine zertrümmerten das Land und machten
+die Städte dem Erdboden gleich…… Alle Ancient
+Civilizations wurden zerstört. Es gab nur eine
+Hand voll Überlebende.\e"
+MGC0190025,"\h(«Fina»)Aber wenn es den Rain of Destruction nie
+gegeben hätte, hätten die Gigas die
+Welt zerstört.\e"
+MGC0190026,"\h(«Fina»)Jetzt gibt es Leute, die die Gigas wieder zum
+Leben erwecken wollen.\e"
+MGC0190027,"\h(«Vyse»)Meinst du……
+Das Reich der Valua?\e"
+MGC0190028,"\h(«Fina»)Aber um die Gigas beherrschen zu können, muss
+man erst die Moon Crystals finden. Ein Moon
+Crystal ist eine hoch konzentrierte Form von
+Moon Stone.\e"
+MGC0190029,"\h(«Fina»)Die ursprünglichen Moon Crystals, mit denen die
+Gigas kontrolliert wurden, sind über die ganze
+Welt verstreut.\e"
+MGC0190030,"\h(«Fina»)Valua sucht nach diesen Kristallen, damit es
+die Gigas wieder zum Leben erwecken kann!\e"
+MGC0190031,"\h(«Aika»)Und deshalb entführte dich das Reich der Valua……
+um herauszufinden, wo sie versteckt sind!\e"
+MGC0190032,"\h(«Fina»)Ja. Ich wurde hierher geschickt, um die
+Kristalle einzusammeln, bevor sie die Valuaner
+finden konnten und sie an einen Ort zu bringen,
+wo sie nie mehr benutzt werden können.\e"
+MGC0190033,"\h(«Fina»)…… Vyse……  Aika……
+Ich weiß, ich habe euch schon genug Umstände
+gemacht, aber ich möchte euch um noch einen
+Gefallen bitten.\e"
+MGC0190034,"\h(«Fina»)Ich möchte, dass ihr mit mir kommt.
+Helft mir, durch die Welt zu reisen und
+die Kristalle zu suchen.\e"
+MGC0190035,"\h(«Fina»)Bitte…… ohne mein Schiff kann ich das nicht……
+und wenn Valua die Kristalle bekommt…… Ich darf
+gar nicht dran denken, was dann passiert……\e"
+MGC0190036,"\h(«Was wirst du sagen?»)“Lass uns das nur machen!”
+“Ich muss darüber nachdenken……”\e"
+MGC0190037,"\h(«Vyse»)He…… Lass uns das machen! Wir gehen mit
+dir und finden die Kristalle!\e"
+MGC0190038,"\h(«Aika»)Tja, Vyse……  Schätze, das ist deine Chance,
+zu sehen, was hinter dem Horizont liegt!\e"
+MGC0190039,"\h(«Vyse»)Stimmt, Aika……\e"
+MGC0190040,"\h(«Fina»)Vielen Dank!
+Es ist mir eine große Ehre,
+wenn ihr beide mit mir kommt!\e"
+MGC0190041,"\h(«Vyse»)Lass mich erst darüber nachdenken.
+Das kommt alles so plötzlich.\e"
+MGC0190042,"\h(«Aika»)Vyse! Was redest du da!
+Sei kein Feigling! Valua bekommt
+die Kristalle als erstes,
+wenn wir ihr nicht helfen!\e"
+MGC0190043,"\h(«Aika»)Und Vyse……
+Hast du vergessen, was du mir immer erzählt
+hast?\e"
+MGC0190044,"\h(«Aika»)“Eines Tages möchte ich sehen, was hinter dem
+Horizont liegt”, das sagst du, seit wir
+klein sind! Dies ist deine Chance!\e"
+MGC0190045,"\h(«Vyse»)Tja……
+So wie du's sagst,
+stimmt das wohl……\e"
+MGC0190046,"\h(«Vyse»)OK, Fina…… Wir helfen dir, diese Kristalle
+zu finden!\e"
+MGC0190047,"\h(«Fina»)Vielen Dank!
+Es ist mir eine große Ehre,
+wenn ihr beide mit mir kommt!\e"
+MGC0190048,"\h(«Aika»)Huch?
+Vyse, was war das für ein Geräusch?
+War das dein Magen?\e"
+MGC0190049,"\h(«Fina»)Oh……  Tut mir leid.
+Schon gut, du kannst jetzt rauskommen.\e"
+MGC0190050,\h(«Vyse»)Eh…?!\e
+MGC0190051,"\h(«Aika»)Wa…… was ist das denn für ein Ding?!
+Wo kommt das her?\e"
+MGC0190052,"\h(«Fina»)Ich habe es bei mir, seit ich ein Baby bin.\e"
+MGC0190053,"\h(«Fina»)Es ist von zu Hause…… Es kann seine Form
+ändern…… Und normalerweise legt es sich wie ein
+Armband um meinen Arm.\e"
+MGC0190054,"\h(«Aika»)He… das Ding ist eigentlich ganz süß.
+Wie heißt es denn?\e"
+MGC0190055,"\h(«Aika»)Es ist so süß! Nett, dich kennen zu lernen,
+Cupil!\e"
+MGC0190056,"\h(«Vyse»)Also, Fina, wir haben eine lange Reise vor uns.
+Wir versuchen alles, um dir zu helfen, die
+Kristalle zu finden.\e"
+MGC0190057,"\h(«Fina»)Danke…… ich bin so froh, dass ihr mir helft.\e"
+MGC0190058,"\h(«Aika»)Jetzt haben wir nur noch ein Problem -- Captain
+Dyne…… ob er uns wohl weg lässt?\e"
+MGC0190059,"\h(«Vyse»)Was macht ihr euch Sorgen? Selbst wenn er nein
+sagt, gehen wir trotzdem!\e"
+MGC0190060,"\h(«Vyse»)OK! Sobald alle fertig sind, fahren wir vom
+Untergrund-Hafen ab!\e"
+MGC0190061,"\h(«Fina»)Er heißt Cupil. Komm, Cupil, sag allen
+Guten Tag.\e"
+MGC0190062,\h( )Fina ist zu deiner Gruppe gestoßen!\e
+MGC0190063,"\h( )Du hast den “Silver Moon Stone” von Fina
+erhalten.\e"
+"",me002e.sct
+"",me002d.sct
+"",me002e.sct
+"",me002d.sct
+"",M0234
+"",m5020000
+"",k8000000
+"",k8020000
+"",EVC19発生しました。\c
+"",a002cc19.mld
+"",a002cc19.mld
+"",a002cc19_efe.mld
+"",a002cc19_efe.mld
+"",M0316
+"",e6c019
+"",M0328
+"",M0308
+"",M0308
+"",a002cc19.mld
+"",a002cc19_efe.mld

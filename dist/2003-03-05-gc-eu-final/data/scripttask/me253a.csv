@@ -1,0 +1,104 @@
+[Event Name],Task ID
+MC0110000,"\h(«Valuan Soldier»)Lord Galcian! We've just received a message from
+Central Station in Upper City… They've spotted 
+some Air Pirates snooping around the rail cars.\e"
+MC0110001,\h(«Galcian»)What?\e
+MC0110002,"\h(«Galcian»)And the Air Pirates who escaped the execution…
+Are they still free?\e"
+MC0110003,"\h(«Valuan Soldier»)Yes, Lord Galcian. 
+My humblest apologies…\e"
+MC0110004,\h(«Galcian»)It matters not…\e
+MC0110005,"\h(«Valuan Soldier»)I'll summon the City Guards and sweep all of the
+rail cars. We'll find them.\e"
+MC0110006,"\h(«Galcian»)That won't be necessary. We know where they are 
+heading… they are going to try to rescue the 
+girl.\e"
+MC0110007,\h(«Galcian»)What's the status of the Grand Fortress gates?\e
+MC0110008,"\h(«Valuan Soldier»)They're currently open, sire.
+They aren't scheduled to close for a while.\e"
+MC0110009,"\h(«Galcian»)Close the gates immediately. 
+Place all ships in the bay on full alert.\e"
+MC0110010,"\h(«Galcian»)Dispatch the Imperial Rail Car immediately. 
+I shall deal with these pirates myself.\e"
+MC0110011,"\h(«Valuan Guard»)Yes, Lord Galcian.\e"
+MFC0110000,"\h(«Soldat Valuan»)Seigneur Galcian ! Nous venons juste de recevoir
+un message du Commissariat Central du Haut
+Valua…… Ils ont repéré des Pirates de l'Air
+en train de tourner autour des autorails.\e"
+MFC0110001,\h(«Galcian»)Quoi ?\e
+MFC0110002,"\h(«Galcian»)Et les Pirates de l'Air qui ont échappé à
+l'exécution…… Sont-ils toujours en fuite ?\e"
+MFC0110003,"\h(«Soldat Valuan»)Oui, Seigneur Galcian.
+Mes plus humbles excuses……\e"
+MFC0110004,\h(«Galcian»)Cela n'a pas d'importance……\e
+MFC0110005,"\h(«Soldat Valuan»)Je vais ordonner aux Gardes de la Cité de
+fouiller tous les autorails. Nous les
+trouverons.\e"
+MFC0110006,"\h(«Galcian»)Ce ne sera pas nécessaire. Nous savons où ils
+sont allés…… ils vont essayer de sauver la
+fille.\e"
+MFC0110007,"\h(«Galcian»)Les portes de la Grande Forteresse sont-elles
+ouvertes ou fermées ?\e"
+MFC0110008,"\h(«Soldat Valuan»)Elles sont ouvertes, Sire.
+Il n'est pas encore prévu de les fermer.\e"
+MFC0110009,"\h(«Galcian»)Fermez immédiatement les portes.
+Mettez tous les navires de la baie en état
+d'alerte.\e"
+MFC0110010,"\h(«Galcian»)Allons immédiatement sur l'Autorail Impérial.
+Je vais m'occuper personnellement de ces
+pirates.\e"
+MFC0110011,"\h(«Garde Valuan»)Oui, Seigneur Galcian.\e"
+MGC0110000,"\h(«Valua-Soldat»)Lord Galcian! Wir haben gerade von der Zentrale
+in Upper City gehört…… Sie haben ein paar
+Luftpiraten entdeckt, die in Straßenbahnen
+herumschnüffeln.\e"
+MGC0110001,\h(«Galcian»)Was?\e
+MGC0110002,"\h(«Galcian»)Und die Luftpiraten, die vor der Hinrichtung
+geflohen sind…… Sind sie noch auf freiem Fuß?\e"
+MGC0110003,"\h(«Valua-Soldat»)Ja, Lord Galcian.
+Ich entschuldige mich untertänigst……\e"
+MGC0110004,\h(«Galcian»)Das hilft auch nichts mehr……\e
+MGC0110005,"\h(«Valua-Soldat»)Ich werde die City Guards rufen und alle
+Straßenbahnen durchsuchen lassen. Wir werden
+sie finden.\e"
+MGC0110006,"\h(«Galcian»)Das wird nicht nötig sein. Wir wissen, wo sie
+hin wollen…… Sie werden versuchen, das Mädchen
+zu retten.\e"
+MGC0110007,\h(«Galcian»)Wie ist die Lage bei den Grand Fortress-Toren?\e
+MGC0110008,"\h(«Valua-Soldat»)Im Augenblick sind sie offen, mein Herr.
+Es ist nicht vorgesehen, sie bald zu schließen.\e"
+MGC0110009,"\h(«Galcian»)Schließt sofort die Tore. Bringt alle Schiffe in
+der Bucht in Alarmbereitschaft.\e"
+MGC0110010,"\h(«Galcian»)Sendet sofort die Kaiserliche Straßenbahn.
+Ich werde mir diese Piraten selbst vornehmen.\e"
+MGC0110011,"\h(«Valua-Wache»)Jawohl, Lord Galcian.\e"
+MSC0110000,"\h(«Soldado Valuan»)¡Lord Galcian! Acabamos de recibir un mensaje de
+la Estación Central en el Centro de la Ciudad……
+Han visto a algunos Piratas Aéreos husmeando
+alrededor de los tranvías.\e"
+MSC0110001,\h(«Galcian»)¿Qué?\e
+MSC0110002,"\h(«Galcian»)Y los Piratas Aéreos que escaparon de la
+ejecución……
+¿Aún están libres?\e"
+MSC0110003,"\h(«Soldado Valuan»)Sí, Lord Galcian.
+Mis humildes disculpas……\e"
+MSC0110004,\h(«Galcian»)No tiene importancia……\e
+MSC0110005,"\h(«Soldado Valuan»)Reuniré a los Guardias de la Ciudad y registraré
+todos los tranvías. Los encontraremos.\e"
+MSC0110006,"\h(«Galcian»)No será necesario. Sabemos adónde se dirigen……
+Intentan rescatar a la chica.\e"
+MSC0110007,"\h(«Galcian»)¿Cuál es el estado de las puertas de la Gran
+Fortaleza?\e"
+MSC0110008,"\h(«Soldado Valuan»)Están abiertas, señor.
+Van a estar abiertas durante un rato.\e"
+MSC0110009,"\h(«Galcian»)Cierra las puertas enseguida.
+Que todos los navíos estén en estado de alerta.\e"
+MSC0110010,"\h(«Galcian»)Envía el Tranvía Imperial de inmediato.
+Yo mismo me ocuparé de estos piratas.\e"
+MSC0110011,"\h(«Guardia Valuan»)Sí, Lord Galcian.\e"
+"",me107d.sct
+"",a253ac11.mld
+"",a253ac11.mld
+"",e6c011
+"",M0326
+"",a253ac11.mld

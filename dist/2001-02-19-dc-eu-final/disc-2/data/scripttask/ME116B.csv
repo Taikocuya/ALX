@@ -1,0 +1,61 @@
+[Event Name],Task ID
+MG0300000,"\h(«Vyse»)What the…
+This cannon's new… and it's HUGE!!!\e"
+MG0300001,\h(«Aika»)This thing is big enough to wipe out an island!\e
+MG0300002,\h(«Vyse»)We can run through the barrel to the other side.\e
+MG0300003,\h(«Vyse»)… Hey. What happened to Gilder?\e
+MG0300004,\h(«Gilder»)Sorry about that. Let's get moving!\e
+MG0300005,"\h(«Vyse»)Hey, where did you go?\e"
+MG0300006,"\h(«Gilder»)I just had to take care of something.
+Heh, don't worry about it.\e"
+MG0300007,"\h(«Gilder»)We should get out of this dump.
+My men are about to attack.\e"
+MSG0300000,"\h(«Vyse»)Qué……
+Este cañón es nuevo…… ¡¡¡y es ENORME!!!\e"
+MSG0300001,"\h(«Aika»)¡Este aparato es lo bastante grande para
+llevarse la isla por delante!\e"
+MSG0300002,"\h(«Vyse»)Podemos atravesar el cañón y salir por el otro
+lado.\e"
+MSG0300003,\h(«Vyse»)…… Eh. ¿Qué ha pasado con Gilder?\e
+MSG0300004,\h(«Gilder»)Perdona. ¡Vamos para allá!\e
+MSG0300005,"\h(«Vyse»)Eh, ¿dónde te habías metido?\e"
+MSG0300006,"\h(«Gilder»)Me tenía que ocupar de un asunto.
+Nada de lo que tengas que preocuparte.\e"
+MSG0300007,"\h(«Gilder»)Tenemos que salir de este agujero.
+Mis hombres están a punto de atacar.\e"
+MFG0300000,"\h(«Vyse»)Qu'est-ce que……
+Ce canon est nouveau…… et il est ÉNORME !!!\e"
+MFG0300001,"\h(«Aika»)Il est assez gros pour détruire une île
+entière !\e"
+MFG0300002,"\h(«Vyse»)Nous pouvons traverser le tube du canon et
+sortir par l'autre côté.\e"
+MFG0300003,\h(«Vyse»)…… Hé. Qu'est-il arrivé à Gilder ?\e
+MFG0300004,\h(«Gilder»)Désolé. Allons-y !\e
+MFG0300005,"\h(«Vyse»)Hé, où étiez-vous passé ?\e"
+MFG0300006,"\h(«Gilder»)J'avais une affaire à régler.
+Hé, ne t'en fais pas.\e"
+MFG0300007,"\h(«Gilder»)Il faut sortir de ce trou.
+Mes hommes ne vont pas tarder à attaquer.\e"
+MGG0300000,"\h(«Vyse»)Was zum……
+Diese Kanone ist neu…… und sie ist RIESIG!!!\e"
+MGG0300001,"\h(«Aika»)Dieses Ding ist groß genug, um eine ganze
+Insel auszuradieren!\e"
+MGG0300002,"\h(«Vyse»)Wir können durch den Lauf auf die andere Seite
+gelangen.\e"
+MGG0300003,\h(«Vyse»)…… He. Was ist mit Gilder?\e
+MGG0300004,\h(«Gilder»)Tut mir leid. Lasst uns gehen!\e
+MGG0300005,"\h(«Vyse»)He, wo warst du?\e"
+MGG0300006,"\h(«Gilder»)Ich musste nur etwas erledigen.
+He, mach dir keine Gedanken.\e"
+MGG0300007,"\h(«Gilder»)Wir sollten raus aus diesem Rattenloch.
+Meine Leute greifen gleich an.\e"
+"",me116a.sct
+"",me116c.sct
+"",M0252
+"",m5160000
+"",EV_G30発生しました。\c
+"",a116bg30.mld
+"",a116bg30.mld
+"",M0376
+"",e6g030
+"",a116bg30.mld

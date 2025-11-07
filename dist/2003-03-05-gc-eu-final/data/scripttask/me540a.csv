@@ -1,0 +1,79 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MA5400000,"\h(«De Loco»)Vyse, Vyse, Vyse!
+The day for you to die
+is finally here!\e"
+MA5400001,"\h(«De Loco»)I'll destroy you… and your ship… and your
+crew… and… and… um… and I'll kill you!!
+GAHAHAHAHA!!!\c"
+MA5400002,"\h(«Aika»)Vyse! The visibility is too poor!
+I can't see anything! I don't know
+what's going on outside!!\e"
+MA5400003,"\h(«Enrique»)If the enemy's ship is too far away, it will be
+impossible to see it through the clouds. We'll
+never be able to lock on with our cannons…\e"
+MA5400004,"\h(«Enrique»)Our only chance is to wait
+until De Loco comes close to us.
+Watch his manuevering patterns closely!\c"
+MFA5400000,"\h(«De Loco»)Vyse, Vyse, Vyse !
+Le jour de votre mort
+est enfin arrivé !\e"
+MFA5400001,"\h(«De Loco»)Je vais vous détruire…… ainsi que votre navire……
+et votre équipage…… et…… et…… hum…… et je
+vous tuerai !! GAHAHAHAHA!!!\c"
+MFA5400002,"\h(«Aika»)Vyse ! La visibilité est faible !
+Je ne vois rien !
+Je ne sais pas ce qu'il se passe dehors !!\e"
+MFA5400003,"\h(«Enrique»)Si le navire ennemi est trop éloigné, il sera
+impossible de le voir à travers les nuages.
+Nous ne pourrons pas viser avec nos canons……\e"
+MFA5400004,"\h(«Enrique»)Notre seule chance est d'attendre
+que De Loco se rapproche de nous.
+Observez bien ses méthodes de manoeuvre !\c"
+MGA5400000,"\h(«De Loco»)Vyse, Vyse, Vyse!
+Nun ist endlich der Tag gekommen,
+an dem du stirbst!\e"
+MGA5400001,"\h(«De Loco»)Ich werde dich…… dein Schiff…… und deine Crew……
+vernichten und…… em…… und ich werde dir den
+Garaus machen!! GAHAHAHAHA!!!\c"
+MGA5400002,"\h(«Aika»)Vyse! Die Sicht ist zu schlecht!
+Ich kann nichts sehen! Ich weiß nicht,
+was draußen passiert!!\e"
+MGA5400003,"\h(«Enrique»)Wenn das feindliche Schiff zu weit entfernt
+ist, kann man es durch die Wolken nicht
+ausmachen. Dann bekommen wir es nie ins
+Schussfeld unserer Kanonen……\e"
+MGA5400004,"\h(«Enrique»)Unsere einzige Chance ist, zu warten,
+bis De Loco sich uns nähert. Behalte seine
+Manöver im Auge!\c"
+MSA5400000,"\h(«De Loco»)¡Vyse, Vyse, Vyse!
+¡Ha llegado tu hora!\e"
+MSA5400001,"\h(«De Loco»)Voy a acabar contigo…… y con tu navío……
+y con la tripulación…… y…… ¡y te voy a matar!
+¡¡¡JA, JA, JA, JA, JA!!!\c"
+MSA5400002,"\h(«Aika»)¡Vyse! ¡La visibilidad es escasa!
+¡No se ve nada!
+¡¡No sé qué está pasando!!\e"
+MSA5400003,"\h(«Enrique»)Si el navío enemigo está demasiado lejos,
+será imposible verlo a través de las nubes.
+No podremos fijar el objetivo……\e"
+MSA5400004,"\h(«Enrique»)Nuestra única posibilidad es esperar a que De
+Loco se acerque.
+¡Observa atentamente todas sus maniobras!\c"
+"",M0465
+"",me540a.sct
+"",me090a.sct
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",f7100100S.p04
+"",「a」\c「b」\c「c」\c
+"",me127b.sct

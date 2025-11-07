@@ -1,0 +1,256 @@
+[Event Name],Task ID
+MH0080000,"\h(《Mikado》)So, you came from the land where the sun sets.
+Welcome to Yafutoma.\e"
+MH0080001,"\h(《Mikado》)My daughter, Moegi, has always been intrigued
+with the West. Haven't you, my dear?\e"
+MH0080002,"\h(《Moegi》)Yes, father.
+Please, I would love to hear all about your
+homeland.\e"
+MH0080003,"\h(《Moegi》)And if there is anything that we can do for you,
+just ask.\e"
+MH0080004,"\h(《Aika》)Sure, but I don't want to be too much of a
+burden. \e"
+MH0080005,"\h(《Kangan》)King Mikado… as an advisor of the Royal Court,
+I must say that I am opposed to the idea of
+foreigners entering our lands.\e"
+MH0080006,"\h(《Kangan》)Foreigners have only brought us disaster. We
+must cleanse them from our lands immediately!\e"
+MH0080007,"\h(《Muraji》)I agree with my father!
+The Westerners can only bring us trouble. 
+We should dispose of them at once.\e"
+MH0080008,"\h(《Mikado》)They are our guests. We must welcome them. They 
+can teach us a great deal about the West. And 
+there is much we can teach them as well.\e"
+MH0080009,"\h(《Mikado》)…But I would like to know why you have traveled
+to Yafutoma.\e"
+MH0080010,"\h(《Vyse》)We're searching for the Moon Crystals to prevent
+our enemies from using them to destroy the
+world.\e"
+MH0080020,\h(《Vyse》)It is rumored that the Blue Crystal is here.\e
+MH0080011,"\h(《Mikado》)The Blue Crystal?
+Hmm… I think you are referring to the jewel
+that has the powers of the Blue Moon.\e"
+MH0080012,"\h(《Mikado》)The object that you are searching for lies 
+underneath Mount Kazai. Here in Yafutoma, 
+we refer to the object as the Maga Sphere.\e"
+MH0080013,"\h(《Mikado》)Mount Kazai is considered by our people to be 
+a holy mountain. And deep within the mountain… 
+lies an azure-colored jewel.\e"
+MH0080014,"\h(《Mikado》)Our ancestors passed the jewel to the successors
+of the throne. After the cataclysm, the jewel 
+was sealed inside Mount Kazai.\e"
+MH0080015,"\h(《Aika》)An azure-colored jewel?
+Vyse! That has to be the Moon Crystal!\e"
+MH0080016,"\h(《Mikado》)At one time, Mount Kazai was a volcano, and 
+there is no known way inside. The Maga Sphere 
+has been lost since the days of the Old World…\e"
+MH0080017,"\h(《Mikado》)If you were to retrieve it for us, we would be
+eternally grateful…\e"
+MH0080018,"\h(《Vyse》)So, the Maga Sphere is at the bottom of that
+huge mountain? Leave it to us.\e"
+MH0080019,\h(《Vyse》)Don't worry… we'll get it back for you!\e
+MH0100000,"\h(《Mikado》)You have done exceptionally well!
+No one in Yafutoma has seen the Maga Sphere
+since the days of the Old World.\e"
+MH0100001,"\h(《Mikado》)You are the first to make it back alive from 
+the depths of Mount Kazai. How can I 
+repay you for risking your lives to recover it?\e"
+MH0100002,"\h(《Vyse》)Well… as we mentioned earlier, we were
+wondering if it would be alright if we
+borrowed it.\e"
+MH0100003,"\h(《Mikado》)Hmm… 
+But it is the symbol of royal succession…\e"
+MH0100004,"\h(《Mikado》)I would like to keep it in my possession at
+least while you remain in Yafutoma.\e"
+MH0100005,\h(《Vyse》)Umm… Sure…\e
+MH0100006,"\h(《Aika》)Symbol of royal succession, huh?
+That makes sense why they want to keep it.\e"
+MH0100007,"\h(《Aika》)Moegi… you're Lord Mikado's daughter, right?
+So does that make you the successor to
+the throne?\e"
+MH0100008,\h(《Mikado》)Um…\e
+MH0100009,\h(《Moegi》)……\e
+MH0100010,"\h(《Mikado》)Well, thank you for retrieving the Maga Sphere!\e"
+MH0100011,"\h(《Mikado》)Let us begin the preparations for the feast!
+Make yourselves at home and enjoy the
+festivities!\e"
+MH0100012,"\h(《Aika》)Alright! That's more like it!
+I can't wait to taste the gourmet cooking of
+Yafutoma!\e"
+MH0100013,"\h(《Vyse》)We would be honored to join you,
+especially Aika.\e"
+MH0100014,\h(《Enrique》)……\e
+MH0100015,\h(《Enrique》)Princess… Hmm…\e
+MH0100016,"\h(　)You handed the “Blue Moon Crystal” over
+to Lord Mikado.\e"
+MH0120000,"\h(《Mikado》)Good morning, Vyse.
+Did you rest well?\e"
+MH0120001,"\h(《Vyse》)Yes, I slept like a rock.
+That was my first time sleeping on a… 
+floor… mattress… thing.\e"
+MH0120002,"\h(《Mikado》)Hahaha, I see.
+I am glad you were comfortable.\e"
+MH0120003,\h(《Yafutoman Soldier》)Lord Mikado! It's an emergency!\e
+MH0120004,"\h(《Yafutoman Soldier》)Black ships have surrounded the city! And 
+what appears to be their flagship is 
+attempting to dock in our harbor.\e"
+MH0120005,\h(《Mikado》)What?!\e
+MH0120006,\h(《Vyse》)Black ships…? Oh no…\e
+MH0120007,"\h(《Aika》)It must be the Armada!!
+Vyse, let's hurry back to the port!\e"
+MH0120008,\h(《Muraji》)Father…\e
+MH0120009,\h(《Kangan》)Yes… Yes… I know…\e
+MH0150000,"\h(《Mikado》)No! I will never let the Valuans occupy
+Yafutoma!\e"
+MH0150001,"\h(《Belleza》)But, King Mikado… you do realize that your 
+country's pitiful army wouldn't last 
+a day against the Armada.\e"
+MH0150002,"\h(《Belleza》)To prevent unnecessary bloodshed,
+I recommend that you surrender.\e"
+MH0150003,"\h(《Mikado》)We will never surrender! We will never hand
+Yafutoma over to a band of bloodthirsty
+warlords like yourselves.\e"
+MH0150004,"\h(《Mikado》)We are protected by the Blue Moon. In the past,
+whenever our country was threatened, the Blue
+Winds came to our aid and saved our lands.\e"
+MH0150005,"\h(《Mikado》)If you attack us, the winds will blow you into 
+the Dark Rift. Valua will never occupy Yafutoma.
+Do you hear me? Never!\e"
+MH0150006,"\h(《Belleza》)I'm sorry you didn't see things our way.
+It appears that this meeting is at an end.\e"
+MH0150007,"\h(《Belleza》)Then, I will gain possession of Yafutoma…
+by my own means.\e"
+MH0150008,\h(《Mikado》)What sort of treachery is this?!\e
+MH0150009,"\h(《Muraji》)Heh heh heh…
+If you do not keep quiet, you'll be a head
+shorter.\e"
+MH0150010,\h(《Mikado》)Muraji… You traitor!\e
+MH0150011,"\h(《Kangan》)Belleza, in accordance with our meeting last
+night, this country will fall under the rule
+of the Valuan Empire.\e"
+MH0150012,\h(《Mikado》)Kangan! What are you saying?!\e
+MH0150013,"\h(《Kangan》)King Mikado… as Lady Belleza stated, 
+we have no hope of winning a war against Valua.\e"
+MH0150014,"\h(《Kangan》)To save our people, we shall usurp your power
+and assume our role as leaders of Yafutoma.\e"
+MH0150015,"\h(《Vigoro》)Wow!
+Belleza… I'm glad we're on the same side!\e"
+MH0150016,"\h(《Belleza》)Don't relax yet, big guy.
+Not while the kid is still around.\e"
+MH0150017,"\h(《Belleza》)Take King Mikado prisoner and find those
+Air Pirates.\e"
+MH0280000,"\h(《Mikado》)Brave adventurers from the West… 
+I thank you for saving Yafutoma.\e"
+MH0280001,\h(《Enrique》)But it was my country that caused all of this…\e
+MH0280002,"\h(《Enrique》)I am terribly sorry for all of the trouble
+caused by the Valuans… I don't know how I can
+make it up to you.\e"
+MH0280003,"\h(《Mikado》)Prince Enrique, please… raise your head.
+Daigo has explained everything to me.\e"
+MH0280004,"\h(《Mikado》)You feel responsible because you are a 
+Valuan Prince, but it is not your fault.\e"
+MH0280005,"\h(《Enrique》)Thank you for understanding… but we have 
+only won the battle. As we speak, 
+the Armada is regrouping…\e"
+MH0280006,"\h(《Enrique》)Until Valua sets itself back down the path of
+righteousness, I will continue to fight them.\e"
+MH0280007,"\h(《Mikado》)I see… very well then.
+I will pray for your well being.\e"
+MH0280008,"\h(《Mikado》)And perhaps the Maga Sphere will aid you in your
+fight. Take it with you.\e"
+MH0280009,"\h(《Aika》)Really? Are you sure it's okay? Didn't you say
+it's necessary in appointing a successor to the
+throne?\e"
+MH0280010,"\h(《Mikado》)Hahaha… it doesn't matter.
+Even without a symbol, I have such an
+accomplished successor already.\e"
+MH0280011,"\h(《Daigo》)I've also decided to return to my father and
+accept the responsibility of defending my
+people.\e"
+MH0280012,"\h(《Vyse》)That's great…
+Hey, what happened to Kangan and Muraji?\e"
+MH0280013,\h(《Daigo》)They were exiled to Tenkou Island.\e
+MH0280014,"\h(《Daigo》)We figured that if they spent some time in
+exile, they'd realize what they've done and
+become better people. Or kill each other.\e"
+MH0280015,"\h(《Aika》)Ahaha, I like that plan!
+It serves them right!\e"
+MH0280016,"\h(《Daigo》)That reminds me, I noticed that your ship isn't
+capable of going to great heights or depths.\e"
+MH0280017,"\h(《Daigo》)Here, take this with you.\e"
+MH0280018,"\h(《Daigo》)This is from my people. It contains all of the
+knowledge necessary to enable your ship to fly
+higher or lower than you've ever imagined.\e"
+MH0280019,\h(　)Moegi has joined your crew as a “Delegate.”\c
+MH0280020,\h(《Vyse》)Wow! Thank you!\e
+MH0280021,\h(《Vyse》)I'll make sure we put it to good use!\e
+MH0280022,\h(《Moegi》)……\e
+MH0280023,"\h(《Moegi》)…Father.
+I have something to ask of you.\e"
+MH0280024,"\h(《Moegi》)I…
+Please, let me go with these people.\e"
+MH0280025,\h(《Mikado》)What?!\e
+MH0280026,"\h(《Moegi》)If what they say is true, then there are 
+matters of great importance occurring 
+in the West.\e"
+MH0280027,"\h(《Moegi》)You and Daigo both said you will stay here to
+protect our country.\e"
+MH0280028,"\h(《Moegi》)But I am helping defend our country…
+by helping these people on their quest.\e"
+MH0280029,\h(《Mikado》)Hmmm…\e
+MH0280030,"\h(《Daigo》)Well said, Moegi.
+I am proud to have you as a sister.\e"
+MH0280031,"\h(《Daigo》)Prince Enrique… I speak to you not as a fellow
+prince, but as a brother concerned for his
+sister's well being. Please take care of her…\e"
+MH0280032,"\h(《Enrique》)You have my word.
+I will defend her with my life.\e"
+MH0280033,"\h(《Enrique》)Princess…
+Let us join forces and return peace to
+this world.\e"
+MH0280034,"\h(《Moegi》)Yes.
+Prince Enrique…
+I entrust my life to you.\e"
+MH0280035,"\h(《Mikado》)Very well then…
+It appears I do not have much choice in this
+matter anyway.\e"
+MH0280036,"\h(《Aika》)Enrique! You're getting much more reliable by
+the minute!\e"
+MH0280037,"\h(《Aika》)You seem like a different person! Just until
+recently, all I ever saw of you was the back of
+your head leaning over the railing of the ship!\e"
+MH0280038,"\h(《Enrique》)AIKA!!!
+Do you have to constantly remind me about that?!\e"
+MH0280039,"\h(《Vyse》)Ahahahaha!!!
+She's right, Enrique!\e"
+MH0280040,\h(《Vyse》)Alright! Let's go home!\e
+MH0280041,"\h(　)You received the “Blue Moon Crystal.”
+You received the “Book on Polarity.”\c"
+"",me019d.sct
+"",me019d.sct
+"",me019d.sct
+"",me019d.sct
+"",me019d.sct
+"",a232ah08.mld
+"",e6h008
+"",M0244
+"",a232ah08.mld
+"",a232ah10.mld
+"",e6h010
+"",M0244
+"",a232ah10.mld
+"",a232ah12.mld
+"",e6h012
+"",M0244
+"",M0325
+"",a232ah12.mld
+"",a232ah15.mld
+"",e6h015
+"",M0322
+"",M0326
+"",M0326
+"",a232ah15.mld
+"",a232ah28.mld
+"",e6h028
+"",M0244
+"",a232ah28.mld

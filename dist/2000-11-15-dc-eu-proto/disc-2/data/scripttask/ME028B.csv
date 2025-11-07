@@ -1,0 +1,38 @@
+[Event Name],Task ID
+Ms028b000,"\h(«Aika»)Wow… So this is what the Great Silver Shrine
+looks like. It's… It's amazing…\e"
+Ms028b001,\h(«Fina»)Vyse… Do you see that building over there?\e
+Ms028b002,"\h(«Fina»)That is the “Room of the Elders.”
+It is the heart of this shrine.\e"
+Ms028b003,"\h(«Fina»)To get there, we must travel through the “Path
+of Emptiness.” But be careful… or else you
+might lose all sense of direction in there.\e"
+Ms028b004,"\h(«Gilder»)Great… This sounds like it's going to be loads
+of fun. Well, I guess all we have to do is just
+not get lost, right? C'mon, Vyse!\c"
+Ms028b005,"\h(«Elder Prime's Voice»)Island-dwellers…
+If you wish, I can send you back to the
+entrance of the shrine.\e"
+Ms028b006,"\h(«What will you say?»)“That would be great.”
+“No thanks… We can walk.”\e"
+Ms028b007,"\h(«Elder Prime's Voice»)Very well.
+Hold still…\c"
+Ms028b008,"\h(«Elder Prime's Voice»)I see. Very well, then. If you change your
+mind, return here and I will extend the same
+offer as before.\c"
+"",a028b_e0.mld
+"",a028b_e1.mld
+"",me028a.sct
+"",me028a.sct
+"",me028c.sct
+"",me028a.sct
+"",\h(《デバッグなのだ》)\e
+"","「はじめから」
+「大広間直前」
+「その他」\e"
+"","「移動床下」
+「移動床上」
+「前に戻る」\e"
+"",M0247
+"",M5280000
+"",k8570000

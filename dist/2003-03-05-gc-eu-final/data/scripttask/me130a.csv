@@ -1,0 +1,91 @@
+[Event Name],Task ID
+M01300000,"\h(«Enrique»)Vyse,
+I'll be waiting here.\e"
+M01300001,"\h(«Enrique»)I've brought plenty of medicines and healing
+crystals with me, so if you get wounded,
+just let me know and I'll take care of you.\e"
+M01300002,"\h(«What will you do?»)“Ask for first aid.”
+“Nothing for now.”\e"
+M01300003,"\h(«Vyse»)Thanks, Enrique.
+Some medicine would really help right now.\e"
+M01300004,"\h(«Enrique»)No problem.
+Okay, hold still.\e"
+M01300005,"\h(«Enrique»)All right, there you go.
+Good luck, Vyse!\c"
+M01300006,"\h(«Vyse»)Thanks, but maybe later.\e"
+M01300007,"\h(«Enrique»)Okay, but be sure to let me know
+whenever you need a little help.
+Good luck!\c"
+M01300008,"\h(«Enrique»)Do you need some first aid, Vyse?\e"
+M01300009,"\h(«What will you do?»)“Ask for first aid.”
+“Nothing for now.”\e"
+M01300010,"\h(«Vyse»)We're not leaving this ship
+until we've defeated Galcian!\c"
+MF01300000,"\h(«Enrique»)Vyse,
+je vous attends ici.\e"
+MF01300001,"\h(«Enrique»)J'ai apporté plein de médicaments et de cristaux
+guérisseurs, alors si vous êtes blessé,
+dites-le-moi et je vous soignerai.\e"
+MF01300002,"\h(«Que ferez-vous ?»)“Vous demanderez les premiers soins.”
+“Rien pour le moment.”\e"
+MF01300003,"\h(«Vyse»)Merci, Enrique.
+Quelques médicaments nous aideraient bien en ce
+moment.\e"
+MF01300004,"\h(«Enrique»)Pas de problème.
+OK, ne bougez pas.\e"
+MF01300005,"\h(«Enrique»)Allez, voilà.
+Bonne chance, Vyse !\c"
+MF01300006,"\h(«Vyse»)Merci, mais peut-être plus tard.\e"
+MF01300007,"\h(«Enrique»)OK, mais surtout dites-moi quand vous aurez
+besoin d'aide. Bonne chance !\c"
+MF01300008,"\h(«Enrique»)Vous avez besoin de premiers soins, Vyse ?\e"
+MF01300009,"\h(«Que ferez-vous ?»)“Vous demanderez les premiers soins.”
+“Rien pour le moment.”\e"
+MF01300010,"\h(«Vyse»)Nous ne partirons pas de ce navire
+avant d'avoir vaincu Galcian !\c"
+MG01300000,"\h(«Enrique»)Vyse,
+ich werde hier warten.\e"
+MG01300001,"\h(«Enrique»)Ich habe eine Menge Medizin und Heilkristalle
+mitgebracht, wenn du also verwundet wirst,
+sag Bescheid, und ich werde mich um dich
+kümmern.\e"
+MG01300002,"\h(«Was wirst du tun?»)“Um Erste Hilfe bitten.”
+“Im Moment nichts.”\e"
+MG01300003,"\h(«Vyse»)Danke, Enrique……
+Im Moment käme Medizin gerade richtig.\e"
+MG01300004,"\h(«Enrique»)Kein Problem.
+In Ordnung, also stillhalten.\e"
+MG01300005,"\h(«Enrique»)Also, bitte sehr.
+Viel Glück, Vyse!\c"
+MG01300006,"\h(«Vyse»)Nein danke, aber später vielleicht.\e"
+MG01300007,"\h(«Enrique»)Ok, aber sag Bescheid, wenn du
+Hilfe gebrauchen kannst.
+Viel Glück!\c"
+MG01300008,"\h(«Enrique»)Brauchst du Erste Hilfe, Vyse?\e"
+MG01300009,"\h(«Was wirst du tun?»)“Um Erste Hilfe bitten.”
+“Im Moment nichts.”\e"
+MG01300010,"\h(«Vyse»)Wir gehen nicht von diesem Schiff,
+bis wir Galcian besiegt haben!\c"
+MS01300000,"\h(«Enrique»)Vyse,
+yo te espero aquí.\e"
+MS01300001,"\h(«Enrique»)He traído un montón de medicinas y cristales
+curativos, así que si te hieren, me lo
+dices y yo te curaré.\e"
+MS01300002,"\h(«¿Qué vas a hacer?»)“Solicitar primeros auxilios.”
+“De momento nada.”\e"
+MS01300003,"\h(«Vyse»)Gracias, Enrique.
+No me vendrían mal algunas medicinas.\e"
+MS01300004,"\h(«Enrique»)No hay problema.
+Espera un segundo.\e"
+MS01300005,"\h(«Enrique»)Muy bien, ahí tienes.
+¡Suerte, Vyse!\c"
+MS01300006,"\h(«Vyse»)Ahora no, a lo mejor luego.\e"
+MS01300007,"\h(«Enrique»)Vale, pero avísame si necesitas ayuda.
+¡Buena suerte!\c"
+MS01300008,"\h(«Enrique»)¿Necesitas primeros auxilios, Vyse?\e"
+MS01300009,"\h(«¿Qué vas a hacer?»)“Pedir primeros auxilios.”
+“De momento nada.”\e"
+MS01300010,"\h(«Vyse»)¡No vamos a abandonar este barco hasta que
+derrotemos a Galcian!\c"
+"",me130b.sct
+"",M0252

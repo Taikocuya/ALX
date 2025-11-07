@@ -1,0 +1,103 @@
+[Event Name],Task ID
+MC0130000,\h(《Aika》)Aah!\e
+MC0130001,"\h(《Aika》)Who's that?! Vyse, there's something about this 
+guy… I'm not sure what it is, but I don't think
+we can take him.\e"
+MC0130002,"\h(《Vyse》)Yeah…
+And he looks really mad too!
+\e"
+MC0130003,"\h(《Vyse》)Aika, here's the plan…
+Run!!!
+We have to get Fina before he catches us!\e"
+MC0150000,"\h(《Aika》)I'm so glad you're safe, Fina!
+We were worried about you.\e"
+MC0150001,"\h(《Fina》)Vyse…
+Aika…
+How did you… Why?\e"
+MC0150002,"\h(《Vyse》)Why do you think?
+We're here to save you!\e"
+MC0150003,\h(《Fina》)You mean… you did all this… just for… me?\e
+MC0150004,"\h(《Aika》)Aww, Fina…
+We're friends! 
+We weren't going to let them take you from us.\e"
+MC0150005,\h(《Fina》)Thank you both so much!\e
+MC0150006,"\h(《Fina》)Honestly,
+I… I was so scared… I was all alone…
+I was afraid that they were going to hurt me.\e"
+MC0150007,"\h(《Fina》)Oh, thank you… I'm… I'm so grateful!\e"
+MC0150008,"\h(《Vyse》)Everything is okay now, Fina.
+Now, let's get out of here!\e"
+MC0150009,\h(《Galcian》)I can't allow that.\e
+MC0150010,"\h(《Vyse》)What?!
+He found us!\e"
+MC0150011,"\h(《Galcian》)I am Galcian, Lord of the Imperial Armada.\e"
+MC0150012,"\h(《Galcian》)You have caused us a great deal of trouble, boy.
+What is your name?\e"
+MC0150013,"\h(《Vyse》)I'm Vyse of the Blue Rogues.
+I just thought you were the guy that cleaned the
+rail cars.\e"
+MC0150014,"\h(《Galcian》)Ah… so you are the one who made a fool out of 
+Alfonso.\e"
+MC0150015,"\h(《Galcian》)That girl is worth nothing to you Air Pirates. 
+Hand her over to me.\e"
+MC0150016,"\h(《Galcian》)I guarantee that your lives, as well as that of 
+the girl, will be spared. Is it a deal?\e"
+MC0150017,"\h(《What will you do?》)”Never!”
+”… Sounds fair…”\e"
+MC0150018,"\h(《Vyse》)Never!
+I don't know what you want with her…\e"
+MC0150019,"\h(《Vyse》)But you're Valuans. Whatever it is, 
+it can't be good.\e"
+MC0150020,"\h(《Galcian》)Do you honestly think that after attacking the 
+Valuan Armada, that you'll be able to fly the 
+skies freely?\e"
+MC0150021,"\h(《Vyse》)We're Air Pirates. We don't need your permission
+for anything…
+If we see something we want, we take it.\e"
+MC0150022,"\h(《Galcian》)That's very disappointing.
+I'm afraid you leave me no choice…
+I must destroy you.\e"
+MC0150023,"\h(《Vyse》)…Sounds fair…
+We'll hand over Fina if you can guarantee that 
+she won't be harmed.\e"
+MC0150024,\h(《Aika》)How can you do that Vyse?! Are you crazy!? \e
+MC0150025,\h(《Aika》)You can't have her!\e
+MC0150026,"\h(《Galcian》)That's very disappointing.
+I'm afraid you leave me no choice…
+I will destroy you both.\e"
+MC0150027,\h(《Vyse》)The Little Jack!\e
+MC0250006,"\h(《Vyse》)Fina should be at the front of the rail car. 
+Let's go!\e"
+"",me243a.sct
+"",me107d.sct
+"",me253a.sct
+"",EVC13発生しました。\c
+"",a209ac13.mld
+"",a209ac13.mld
+"",a209ac13_efe.mld
+"",a209ac13_efe.mld
+"",M0252
+"",e6c013
+"",a209ac13.mld
+"",a209ac13_efe.mld
+"","EV_C15は男気処理があります。
+キャンセルできません。\c"
+"",M0309
+"",e6c015
+"",a209ac15.mld
+"",a209ac15.mld
+"",a209ac15eff.mld
+"",a209ac15eff.mld
+"",M0314
+"",M0305
+"",a209ac15eff.mld
+"",a209ac15.mld
+"",EVc25発生しました。\c
+"",a209ac25.mld
+"",a209ac25.mld
+"",a209ac25_efe.mld
+"",a209ac25_efe.mld
+"",M0252
+"",e6c025
+"",a209ac25.mld
+"",a209ac25_efe.mld

@@ -1,0 +1,282 @@
+[Event Name],Task ID
+MG0100000,\h(«Aika»)What's going on!?\e
+MG0100001,\h(«Vyse»)Hey! Look!\e
+MG0100002,\h(«Gilder»)The fortress is rotating.\e
+MG0100003,"\h(«Gilder»)Now's our chance. We should find a ship and get
+out of here.\e"
+MSG0100000,\h(«Aika»)¿¡Qué pasa!?\e
+MSG0100001,\h(«Vyse»)¡Eh! ¡Mira!\e
+MSG0100002,\h(«Gilder»)La fortaleza está rotando.\e
+MSG0100003,"\h(«Gilder»)Ésta es nuestra oportunidad. Tenemos que
+encontrar un navío y salir de aquí.\e"
+MFG0100000,\h(«Aika»)Que se passe-t-il !?\e
+MFG0100001,\h(«Vyse»)Hé ! Regardez !\e
+MFG0100002,\h(«Gilder»)La forteresse tourne.\e
+MFG0100003,"\h(«Gilder»)C'est notre chance. Nous devrions trouver un
+navire et partir d'ici.\e"
+MGG0100000,\h(«Aika»)Was ist los!?\e
+MGG0100001,\h(«Vyse»)He! Schau mal!\e
+MGG0100002,\h(«Gilder»)Die Festung dreht sich.\e
+MGG0100003,"\h(«Gilder»)Das ist unsere Chance. Nehmen wir uns ein Schiff
+und hauen wir ab.\e"
+M01160000,"\h(«Vyse»)There isn't even a pillow. Well, I suppose these
+beds are meant for prisoners, so there's no
+reason for them to make the beds comfortable…\c"
+M01160001,"\h(«Vyse»)It's disturbing to think of how many people
+probably died in this prison… Or… even… in
+this bed…\c"
+M01160002,"\h(«Vyse»)The only thing I can see from here is the
+dark skies of Valua…\c"
+M01160003,"\h(«Vyse»)There's two beds, but…
+Where's Fina?\e"
+M01160004,"\h(«Aika»)I don't know. They split us up before we even
+got here… I've been alone the whole time…
+Well, until macho-man came along, that is…\e"
+M01160005,"\h(«Vyse»)It's the same kind of bed that Gilder and I had.
+I guess the Valuans don't believe in treating
+ladies like ladies…\c"
+M01160006,"\h(«Vyse»)This is probably the area right
+above our own cell…\c"
+M01160007,"\h(«Vyse»)…Damn. It won't open.
+It's locked.\c"
+M01160008,\h( )Used the “Cannon Room Key” to open the door.\c
+M01160009,"\h(«An elevator switch…»)“Prisoner Block 200      2nd Floor”
+“Fortress Cannon Room   Battery 28”
+“Don't get on the elevator.”\c"
+M01160010,"\h(«An elevator switch…»)“Prisoner Block 100      1st Floor”
+“Fortress Cannon Room   Battery 28”
+“Don't get on the elevator.”\c"
+M01160011,"\h(«An elevator switch…»)“Prisoner Block 200      2nd Floor”
+“Prisoner Block 100      1st Floor”
+“Don't get on the elevator.”\c"
+M01160012,"\h(«Vyse»)…Nope, it won't open.
+The “Cannon Room Key” won't work either.
+I guess we need a different key…\c"
+M01160013,\h( )Used the “Harbor Key” to open the door.\c
+M01160014,"\h(«Vyse»)Great… This door's locked.
+And it doesn't look like there's a keyhole…\e"
+M01160015,"\h(«Gilder»)It probably leads towards the center of the
+Fortress. I don't know about you, but I'd rather
+get out of here than go exploring. Let's go.\c"
+M01160016,"\h(«Gilder»)It probably leads towards the center of the
+Fortress. We're probably better off not going
+that way. Let's look somewhere else.\c"
+M01160017,"\h(«Vyse»)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01160018,"\h(«Gilder»)Heh… Good job guys. Looks like my crew is
+causing quite a commotion. It should be enough
+for us to sneak out of here…\c"
+M01160019,"\h(«Vyse»)…Hm?
+This switch isn't doing anything.\e"
+M01160020,"\h(«Gilder»)This elevator is probably stuck on another floor
+or somebody else might already be inside it.
+Let's not stick around to find out which, okay?\c"
+M01160021,\h(«Aika»)Aaaaaaaaaaaaaaaaack!\e
+M01160022,\h(«Vyse»)… Hey! That sounded like Aika!!\c
+M01160023,"\h(«Vigoro»)Ugh… That hurt, Red…\c"
+M01160024,"\h( )You found the “Harbor Key” in the pocket
+of the Valuan Soldier.\c"
+MS01160000,"\h(«Vyse»)Ni siquiera hay almohada. Bueno, supongo que
+estas camas están pensadas para prisioneros, así
+que habrán querido hacerlas cómodas……\c"
+MS01160001,"\h(«Vyse»)Es horrible pensar en la cantidad de gente que
+ha debido morir en esta prisión…… e incluso en
+esta misma cama……\c"
+MS01160002,"\h(«Vyse»)Lo único que se ve desde aquí son los cielos
+oscuros de Valua……\c"
+MS01160003,"\h(«Vyse»)Hay dos camas, pero……
+¿Dónde está Fina?\e"
+MS01160004,"\h(«Aika»)No sé. Nos separaron antes de que entráramos
+aquí…… He estado sola todo el tiempo…… Bueno,
+hasta que apareció el machote……\e"
+MS01160005,"\h(«Vyse»)Es el mismo tipo de cama que teníamos Gilder y
+yo. Supongo que los Valuan no dan un trato
+especial a las damas……\c"
+MS01160006,"\h(«Vyse»)Seguro que esto está justo encima de nuestra
+celda……\c"
+MS01160007,"\h(«Vyse»)…… Maldición. No abre.
+Está cerrada.\c"
+MS01160008,"\h( )Has usado la “Llave del Cañón” para abrir la
+puerta.\c"
+MS01160009,"\h(«Botón del Ascensor……»)“Prisionero del Bloque 200 en la 2a Planta.”
+“Fortaleza de la Sala de Cañones, batería 28.”
+“No subas al ascensor.”\c"
+MS01160010,"\h(«Botón del Ascensor……»)“Prisionero del Bloque 100 en la 1a Planta.”
+“Fortaleza de la Sala de Cañones, batería 28.”
+“No subas al ascensor.”\c"
+MS01160011,"\h(«Botón del Ascensor……»)“Prisionero del Bloque 200 en la 2a Planta.”
+“Prisionero del Bloque 100 en la 1a Planta.”
+“No subas al ascensor.”\c"
+MS01160012,"\h(«Vyse»)…… No, no se abre.
+La “Llave del Cañón” tampoco funciona.
+Creo que necesito una llave distinta……\c"
+MS01160013,"\h( )Usa la llave del “Puerto Clave” para abrir la
+puerta.\c"
+MS01160014,"\h(«Vyse»)Genial…… Esta puerta está cerrada.
+Y no parece que haya una cerradura……\e"
+MS01160015,"\h(«Gilder»)Debe llevar al centro de la Fortaleza. No sé tú,
+pero yo prefiero largarme de aquí antes que ir
+de exploración. Vámonos.\c"
+MS01160016,"\h(«Gilder»)Debe llevar al centro de la Fortaleza. Es mejor
+que no vayamos por ahí. Vamos a buscar otro
+camino.\c"
+MS01160017,"\h(«Vyse»)Por lo visto tengo que pisar en esta losa para
+abrir la puerta. Creo que hay que esperar un
+rato……\c"
+MS01160018,"\h(«Gilder»)Buen trabajo, chicos. Mi tripulación está
+causando bastante jaleo. Lo bastante para que
+podamos escabullirnos de aquí……\c"
+MS01160019,"\h(«Vyse»)…… ¿Mm?
+Este botón no sirve de nada.\e"
+MS01160020,"\h(«Gilder»)El ascensor debe estar atascado en otra planta o
+quizá esté ocupado. No tenemos por qué
+averiguarlo, mejor será que nos vayamos.\c"
+MS01160021,\h(«Aika»)¡Aaaaaaaaaaaaaaaaah!\e
+MS01160022,\h(«Vyse»)…… ¡Oye! ¡¡Me ha parecido Aika!!\c
+MS01160023,"\h(«Vigoro»)Ah…… Qué daño, pelirroja……\c"
+MS01160024,"\h( )Has encontrado la llave del “Puerto Clave” en el
+bolsillo del Soldado Valuan.\c"
+MF01160000,"\h(«Vyse»)Il n'y a même pas d'oreiller. Bon, je suppose
+que ce sont des lits de prisonniers, donc il n'y
+a pas de raison pour qu'ils soient
+confortables……\c"
+MF01160001,"\h(«Vyse»)C'est perturbant de penser à tous les gens qui
+ont dû mourir dans cette prison…… Ou…… même……
+dans ce lit……\c"
+MF01160002,"\h(«Vyse»)Je ne peux voir que les cieux noirs de Valua
+d'ici……\c"
+MF01160003,"\h(«Vyse»)Il y a deux lits, mais……
+Où est Fina ?\e"
+MF01160004,"\h(«Aika»)Je ne sais pas. Nous avons été séparés avant de
+venir ici…… J'étais toute seule pendant tout ce
+temps…… Euh, jusqu'à ce que monsieur macho
+arrive, évidemment……\e"
+MF01160005,"\h(«Vyse»)C'est le même genre de lit que Gilder et moi
+avions. J'imagine que les Valuans ne traitent
+pas les dames comme il se doit……\c"
+MF01160006,"\h(«Vyse»)C'est sûrement l'endroit
+juste au-dessus de notre cellule……\c"
+MF01160007,"\h(«Vyse»)……Sacrebleu. Ça ne s'ouvre pas.
+C'est fermé à clé.\c"
+MF01160008,"\h( )A utilisé la “Clé Pièce Canon” pour
+ouvrir la porte.\c"
+MF01160009,"\h(«Un bouton d'ascenseur……»)“Bloc Prisonnier 200      2e étage”
+“Pièce au Canon de la Forteresse   Batterie 28”
+“Ne montez pas dans l'ascenseur.”\c"
+MF01160010,"\h(«Un bouton d'ascenseur……»)“Bloc Prisonnier 100      1er étage”
+“Pièce au Canon de la Forteresse   Batterie 28”
+“Ne montez pas dans l'ascenseur.”\c"
+MF01160011,"\h(«Un bouton d'ascenseur……»)“Bloc Prisonnier 200      2e étage”
+“Bloc Prisonnier 100      1er étage”
+“Ne montez pas dans l'ascenseur.”\c"
+MF01160012,"\h(«Vyse»)……Non, impossible de l'ouvrir.
+La “Clé Pièce Canon” ne marche pas non
+plus. J'imagine qu'il nous faut une clé
+différente……\c"
+MF01160013,"\h( )A utilisé la “Clé du Port” pour ouvrir la
+porte.\c"
+MF01160014,"\h(«Vyse»)Génial…… Cette porte est fermée à clé.
+Et on dirait qu'il n'y a pas de serrure……\e"
+MF01160015,"\h(«Gilder»)Cela mène certainement au centre de la
+Forteresse. Je ne sais pas ce que vous en
+pensez, mais je préfère partir d'ici que d'aller
+explorer. Allons-y.\c"
+MF01160016,"\h(«Gilder»)Cela mène certainement au centre de la
+Forteresse. Il vaut mieux ne pas passer par là.
+Allons voir ailleurs.\c"
+MF01160017,"\h(«Vyse»)Apparemment, il faut marcher sur cette tablette
+pour ouvrir la porte. Je crois que je dois
+rester debout ici pendant un certain temps……\c"
+MF01160018,"\h(«Gilder»)Hé…… Bon travail les gars. On dirait que mon
+équipage a semé la panique. Cela devrait nous
+permettre de partir en douce……\c"
+MF01160019,"\h(«Vyse»)……Hum ?
+Ce bouton ne sert pas à grand chose.\e"
+MF01160020,"\h(«Gilder»)Cet ascenseur doit être coincé à un autre étage
+ou quelqu'un est peut-être déjà à l'intérieur.
+Partons avant de le découvrir, OK ?\c"
+MF01160021,\h(«Aika»)Aaaaaaaaaaaaaaaaack !\e
+MF01160022,\h(«Vyse»)…… Hé ! On aurait dit Aika !!\c
+MF01160023,"\h(«Vigoro»)Ugh…… Ça fait mal, la Rouquine……\c"
+MF01160024,"\h( )Vous avez trouvé la “Clé du Port” dans la poche
+du soldat Valuan.\c"
+MG01160000,"\h(«Vyse»)Da ist noch nicht einmal ein Kopfkissen.
+Naja, diese Betten sind wohl für
+Gefangene gedacht, warum sollten sie dann
+bequem sein……\c"
+MG01160001,"\h(«Vyse»)Ziemlich beunruhigend, wenn man daran denkt,
+wie viele Leute wahrscheinlich in diesem
+Gefängnis umgekommen sind…… Oder…… sogar……
+in diesem Bett……\c"
+MG01160002,"\h(«Vyse»)Das Einzige, was ich von hier aus sehen kann,
+ist der dunkle Himmel von Valua……\c"
+MG01160003,"\h(«Vyse»)Da sind zwei Betten, aber……
+Wo ist Fina?\e"
+MG01160004,"\h(«Aika»)Ich weiß nicht. Wir wurden getrennt, noch bevor
+wir hierher kamen…… ich war die ganze Zeit
+über allein…… das heißt, bis dieser Macho
+hereinkam……\e"
+MG01160005,"\h(«Vyse»)Es ist dasselbe Bett, das Gilder und ich hatten.
+Schätze, die Valuaner halten nicht viel davon,
+Damen als solche zu behandeln……\c"
+MG01160006,"\h(«Vyse»)Das ist wahrscheinlich der Bereich
+genau über unserer eigenen Zelle……\c"
+MG01160007,"\h(«Vyse»)……Verdammt. Sie lässt sich nicht öffnen.
+Sie ist verschlossen.\c"
+MG01160008,"\h( )Du hast den “Kanonenschlüssel” benutzt,
+um die Tür zu öffnen.\c"
+MG01160009,"\h(«Ein Aufzugsschalter……»)“Gefängnisblock 200      2. Stock”
+“Kanonenraum Festung   Batterie 28”
+“Nicht in den Aufzug steigen.”\c"
+MG01160010,"\h(«Ein Aufzugsschalter……»)“Gefängnisblock 100      1. Stock”
+“Kanonenraum Festung   Batterie 28”
+“Nicht in den Aufzug steigen.”\c"
+MG01160011,"\h(«Ein Aufzugsschalter……»)“Gefängnisblock 200      2. Stock”
+“Gefängnisblock 100      1. Stock”
+“Nicht in den Aufzug steigen.”\c"
+MG01160012,"\h(«Vyse»)……Nein, sie geht nicht auf.
+Der “Kanonenschlüssel” geht auch nicht.
+Schätze, wir brauchen einen anderen
+Schlüssel……\c"
+MG01160013,"\h( )Du hast den “Hafenschlüssel” benutzt, um die
+Tür zu öffnen.\c"
+MG01160014,"\h(«Vyse»)Na toll…… diese Tür ist verschlossen.
+Und es sieht nicht so aus, als hätte sie
+ein Schlüsselloch……\e"
+MG01160015,"\h(«Gilder»)Sie führt wahrscheinlich zum Herzen der Festung.
+Was meinst du? Ich würde lieber verschwinden,
+als hier weiter herumzuforschen. Gehen wir.\c"
+MG01160016,"\h(«Gilder»)Sie führt wahrscheinlich zum Herzen der Festung.
+Es ist sicher besser, wenn wir nicht dort
+entlang gehen. Schauen wir uns woanders um.\c"
+MG01160017,"\h(«Vyse»)Ich muss wohl auf diese Tafel treten, damit
+sich die Tür öffnet. Ich glaube, ich muss
+nur eine bestimmte Zeit hier stehen bleiben……\c"
+MG01160018,"\h(«Gilder»)He…… gute Arbeit, Leute. Meine Crew scheint
+ganz schön Aufruhr zu machen. Das sollte
+reichen, damit wir uns hier rausschleichen
+können……\c"
+MG01160019,"\h(«Vyse»)……Hm?
+An diesem Schalter passiert nichts.\e"
+MG01160020,"\h(«Gilder»)Dieser Aufzug ist wahrscheinlich auf einem
+anderen Stockwerk stecken geblieben, oder
+jemand anderes ist bereits drin. Lass uns
+nicht so lange warten, bis wir es wissen, ok?\c"
+MG01160021,\h(«Aika»)Aaaaaaaaaaaaaaaaack!\e
+MG01160022,\h(«Vyse»)……He! Das hat sich wie Aika angehört!!\c
+MG01160023,"\h(«Vigoro»)Urgh…… das hat wehgetan, Rotschopf……\c"
+MG01160024,"\h( )Du hast den “Hafenschlüssel” in der Tasche
+des valuanischen Soldaten gefunden.\c"
+"",me116e.sct
+"",me116d.sct
+"",me116h.sct
+"",M0252
+"",m5160000
+"",k8160000
+"",イベントＧ１０が発生しました。\c
+"",a116gg10.mld
+"",a116gg10.mld
+"",M0252
+"",e6g010
+"",a116gg10.mld

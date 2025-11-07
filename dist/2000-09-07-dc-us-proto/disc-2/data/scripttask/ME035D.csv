@@ -1,0 +1,636 @@
+[Event Name],Task ID
+Ms034a008,"\h(《ヴァイス》)でっかいバルアのエンブレムだ。
+うーん、ここに俺たちの空賊旗を
+どーんと飾るかな！\c"
+Ms034a009,"\h(《ヴァイス》)俺のデザインした空賊旗だ。
+いつか船長になったら……って
+ガキの頃から考えてたんだよな。\c"
+Ms034a010,"\h(《ヴァイス》)俺たちの空賊旗だ。
+アイカのヤツ、なかなか
+イカす旗を考えてくれたよな。\c"
+Ms034a011,"\h(《ヴァイス》)俺たちの空賊旗だ。
+ファイナが考えただけあって
+きれいにまとまっているぜ！\c"
+Ms034a012,"\h(《ヴァイス》)ここにマルコが隠れてたんだ。
+あいつも大胆なことをやるよな。
+空賊に向いてるかもしれない。\c"
+Ms034a013,"\h(《ヴァイス》)ここは船長席だ。
+まあ、俺は舵を取ってるほうが
+性に合ってるから必要ないけど。\c"
+Ms034a014,"\h(《ヴァイス》)さすがはバルアの皇子用に
+作られた艦だけのことはあるな。
+計器は最新のものばかりだ。\c"
+Ms034a015,"\h(《ギルダー》)おっと、出港は
+ちょいと待ってくれや。
+おまえに話があるんだ。\c"
+Ms034a016,"\h(《ヴァイス》)さて、と……
+そろそろ出発するかな？\e"
+Ms034a017,"\h(《出発しようかな？》)「出発するぜ！」
+「もう少し船内をうろつこう」\e"
+Ms034a018,"\h(《ヴァイス》)よーし、行くぜ！
+デルフィナス、全速前進！\c"
+Ms034a019,"\h(《ヴァイス》)せっかくだから
+もう少し船内を
+うろついてみるかな。\c"
+Ms034a020,"\h(《さて、と……》)「よし、発進するか」
+「もう少し艦内をうろつくか」\c"
+Ms034a021,"\h(《ヴァイス》)敵の旗艦に横づけされたまま
+艦を動かすのは危険だ。
+甲板戦で相手を撃退しよう！\c"
+M00040000,"\h(《Pow》)Pow pow!
+Pow pow!\c"
+M01110000,"\h(《Lawrence》)You want to go to Cresent Isle, right?
+It's to the north of Nasr.
+Do you want to take the wheel?\e"
+M01110001,"\h(《Lawrence》)Esparanza is to the south of Nasr.
+Do you want to take the wheel now?\e"
+M01110002,"\h(《Lawrence》)There should be calm spot somewhere in the Dark
+Rift… we should be able to get through there.
+Do you want to take the wheel now?\e"
+M01110003,"\h(《Lawrence》)If we continue to the east from here, we should 
+reach Yafutoma… Do you want to take the wheel?\e"
+M01110004,"\h(《Lawrence》)I'll take it from here.
+You better hurry up and get on deck.\c"
+M01110005,"\h(《Lawrence》)You want to head to the Land of Ice, right?
+I believe it's south of South Ocean.
+Do you want to take the wheel?\e"
+M01110006,"\h(《Lawrence》)You want to go beneath Valua?
+Sure… do you want to take the wheel?\e"
+M01110007,"\h(《Lawrence》)You want to go to Dangral Island? It's beneath 
+the clouds to the southwest of Sailors' Island, 
+right? Do you want to take the wheel then?\e"
+M01110008,"\h(《Lawrence》)Beneath the Great Cloud Sea by the vortex near 
+Shrine Island, right?
+Do you want to take the wheel?\e"
+M01110009,"\h(《Lawrence》)Go to Sailors' Island?
+Do you want to take the wheel?\e"
+M01110010,"\h(《Lawrence》)We have to go to the island that appeared in
+Mid Ocean, right? Do you want to take the wheel 
+now?\e"
+M01110011,"\h(《What will you do?》)”Take the wheel.”
+”Look around the ship some more.”\e"
+M01110012,"\h(《Lawrence》)Alright. Here, take the wheel.\c"
+M01110013,\h(《Lawrence》)I see.\c
+M01110014,"\h(《Lawrence》)If I had known how big this job was going to be,
+I would've asked for more than 10,000 gold…\e"
+M01110015,"\h(《Lawrence》)So, do you want to take the wheel?\e"
+M01110016,"\h(《What will you do?》)”Take the wheel.”
+”Look around the ship some more.”\e"
+M01110017,"\h(《Lawrence》)Alright, I leave the ship in your hands, 
+Captain Vyse.\c"
+M01110018,"\h(《Lawrence》)Very well then. I will continue flying the ship
+for now. You should probably go around and talk
+to the rest of the crew.\c"
+M01140002,"\h(《Pinta》)Esparanza was a rather prosperous city…
+Until Valua abandoned it.\e"
+M01140003,"\h(《Pinta》)Since then, all trade with Esparanza stopped. 
+The place is full of rusted metal and sailors 
+who've lost all hope.\c"
+M01140004,"\h(《Pinta》)When Esparanza was at it's peak, there were
+travelers coming from all over, tempting fate,
+trying to pass through the Dark Rift.\e"
+M01140005,"\h(《Pinta》)And I've heard that there were plenty of thieves
+and crooked merchants that gathered there, as
+well, to prey upon the optimistic sailors.\c"
+M01140006,"\h(《Pinta》)We made it through the Dark Rift! I can search 
+for items in this part of the world now, too!\c"
+M01140007,"\h(《Pinta》)In Valua, there was once a scholar that claimed 
+the world was round. However, he was shunned as 
+a lunatic by some, and a heretic by others.\c"
+M01140008,"\h(《Pinta》)So, in order to prove his theory, the scholar 
+set out to sail around the world… but he was 
+killed in the Dark Rift.\c"
+M01140009,"\h(《Pinta》)I've heard that the Nasultan sends a personal
+retainer to the Lands of Ice once a year to
+bring back as much ice as he can.\e"
+M01140010,"\h(《Pinta》)Having ice in Nasr is the ultimate luxury. Only 
+the Nasultan himself is rich enough to actually
+enjoy it… and that's only once a year.\c"
+M01140011,"\h(《Pinta》)The temple at the Maw of Tartas is probably the
+biggest mystery in all of Valua.\e"
+M01140012,"\h(《Pinta》)There are stories of earthquakes on that part of
+the island. But if the island is floating, what
+is causing it to shake?\c"
+M01140013,"\h(《Pinta》)I've heard stories that Valua is building some 
+sort of elevator to reach below the Great Cloud 
+Sea.\e"
+M01140014,"\h(《Pinta》)However, nobody knows where that elevator 
+actually stops… or how deep it actually goes.\c"
+M01140015,"\h(《Pinta》)People say all sorts of things about the world
+under the clouds. Some say it's the land of the
+dead, others say that it's a land of pure gold.\e"
+M01140016,"\h(《Pinta》)But, nobody has actually ever seen Deep Sky 
+before. It's all a big mystery.\c"
+M01140017,"\h(《Pinta》)The Valuans promised a reward for anyone who 
+could find Enrique and safely take him back… 
+Valuan Bounty Hunters were searching for him.\e"
+M01140018,"\h(《Pinta》)But, nobody expected him to come back of his own
+accord. The Bounty Hunters were upset, to say
+the least.\c"
+M01140019,"\h(《Pinta》)So, there really is a shrine far above the sky?\e"
+M01140020,"\h(《Pinta》)Heh… Not even I knew about that. I'd really
+like to see it once with my own eyes!\c"
+M01140021,"\h(《Pinta》)I can't believe that an island actually rose up 
+from beneath the clouds!\c"
+M01140022,"\h(《Pinta》)Vyse, if you win this fight and make it home 
+safely…\e"
+M01140023,"\h(《Pinta》)I will spread tales of your adventures! Everyone
+will know of Vyse, the Air Pirate equalled only
+by Daccat, himself!\c"
+M01140024,"\h(《Pinta》)Enemies are trying to board us?! Oh no!
+We need to prepare for battle!\c"
+M05100000,"\h(《Hans》)This ship is amazing!
+The sheer power required just to propel it must 
+be astronomical!\c"
+M05100001,"\h(《Hans》)Wow… the exterior of the Delphinus is so
+durable that you could probably fly right
+through stone reefs or even through glaciers!\c"
+M05100002,"\h(《Hans》)That ship… That was Drachma's Little Jack, 
+right?\e"
+M05100003,"\h(《Hans》)My father was saying that even though the ship
+is old, it is well loved and well taken care of.
+He said it was a very good ship.\c"
+M05100004,"\h(《Hans》)Vyse, let's explore everywhere we can! Now that 
+we can go to high and low altitudes, we should 
+take as much advantage of it as possible!\e"
+M05100005,"\h(《Hans》)I really can't wait to see how the newly 
+upgraded Delphinus will perform!\c"
+M05100006,"\h(《Hans》)You got a hold of the Valuan schematics for the
+new engine? Wow, I'd really like to take a look
+at those!\c"
+M05100007,"\h(《Hans》)I can't wait to see what lies beneath the Great
+Cloud Sea! Let's hurry up and test the
+submerging capabilities of the Delphinus!\c"
+M05100008,"\h(《Hans》)It's a little disheartening to think that once
+we return, Enrique will be leaving us to go back
+to Valua…\c"
+M05100009,"\h(《Hans》)So, Fina's ship can reach great altitudes, 
+right? I wonder what kind of engine it uses…\c"
+M05100010,"\h(《Hans》)I wonder how much power was required to raise
+Soltis out of Deep Sky.\c"
+M05100011,"\h(《Hans》)There was a bright light that came from that 
+island! I wonder what the source of the light 
+was…\c"
+M05100012,"\h(《Hans》)The Delphinus is completely repaired! Let's go, 
+Captain Vyse!\c"
+M07060000,"\h(《Don》)We should probably head back to Cresent Isle.
+Do you want to take the wheel?\e"
+M07060001,"\h(《Don》)Hmm… The Land of Ice should be a little farther
+south than South Ocean. Do you want to take the
+wheel now?\e"
+M07060002,"\h(《Don》)We were supposed to head over to Valua and check
+out what's beneath it, right? Maybe you should
+take the wheel now…\e"
+M07060003,"\h(《Don》)Dangral Island should be beneath the clouds to 
+the southwest of Sailors' Island. You want to
+take the wheel now?\e"
+M07060004,"\h(《Don》)The vortex that will take us into Deep Sky is
+near Shrine Island, right? That means it should
+be somewhere in Mid Ocean.\e"
+M07060005,"\h(《Don》)Sailors' Island is in Mid Ocean, right? So, 
+Captain… do you want to take the wheel now?\e"
+M07060006,"\h(《Don》)You mean we're going to that island that 
+appeared in Mid Ocean? Oh man… 
+I've got a bad feeling about this…\e"
+M07060007,"\h(《Don》)Well, then. I'll be relaxing downstairs in the 
+mess hall. I leave the ship in your hands, Vyse.\c"
+M07060008,"\h(《Don》)Heh… Well, I guess that means I can fly the
+ship for a little while longer.\c"
+M07060009,"\h(《Don》)We're going to fly into that island, right? Do
+you want to take the wheel then, Captain Vyse?\c"
+M07060010,"\h(《What will you do?》)”Take the wheel.”
+”Look around the ship a little longer.”\e"
+M07060011,"\h(《Don》)Alright then. Good luck, Captain!\c"
+M07060012,"\h(《Don》)Alright, I'll take care of the ship for now. Go
+down and talk with the rest of the crew then.\c"
+M08070000,"\h(《Moegi》)I… I don't know much about sailing, or even the
+world outside of Yafutoma…\e"
+M08070001,"\h(《Moegi》)… but I promise that I will try my hardest to 
+help everyone as much as I can.\c"
+M08070002,"\h(《Moegi》)A land totally covered in ice…
+I never would have imagined that places like 
+that actually existed.\c"
+M08070003,"\h(《Moegi》)Prince Enrique told me about the man named 
+Drachma.\e"
+M08070004,"\h(《Moegi》)He has been through so much. I hope he will find
+peace.\c"
+M08070005,"\h(《Moegi》)Although, I know we're not actually going inside
+the city of Valua, I still feel nervous… for 
+Enrique.\c"
+M08070006,"\h(《Moegi》)Vyse, you've gathered all of the Moon Crystals! 
+Congratulations!\e"
+M08070007,"\h(《Moegi》)I am worried about Fina… she doesn't look too 
+well. Perhaps she is just tired.\c"
+M08070008,"\h(《Moegi》)Ever since we returned from Dangral Island, 
+Enrique has been so quiet… I hope that he 
+is okay…\c"
+M08070009,"\h(《Moegi》)Vyse… I, I know that I am a member of this crew
+and my loyalties lie with you but…\e"
+M08070010,"\h(《Moegi》)… there is a part of me that wishes we never 
+reach Sailors' Island. I have a feeling that 
+something bad is going to happen to Enrique.\c"
+M08070011,"\h(《Moegi》)Prince Enrique is fighting bravely on his own in
+Valua… I, too, must fight and do my best to
+help!\c"
+M08070012,"\h(《Moegi》)That island that rose up from beneath the clouds
+… something is… strange about it. I sense a 
+great power coming from the island…\c"
+M08070013,"\h(《Moegi》)I, I thought I heard Prince Enrique calling out
+just now. I'm sorry, it must be my imagination…
+I feel terrible…\e"
+M08070014,\h(《Moegi》)Vyse… I know something bad has happened…\c
+M08070015,"\h(《Moegi》)Let us carry on, Vyse!
+I may not be very strong, but I will do my best 
+to help fight!\c"
+M08070016,"\h(《Brabham》)That Yafutoman book is amazing! I can't believe 
+how advanced they are!\e"
+M08070023,"\h(《Brabham》)I'll be an expert on this stuff by the time we 
+get back from the Land of Ice.\c"
+M08070017,"\h(《Brabham》)Now, with the engine specs that I learned from 
+the Yafutomans, we can fly all over the damn 
+place!\c"
+M08070018,"\h(《Brabham》)Hmm… Enrique looks upset. Back in my day, we 
+used to pick up on the ladies… They go crazy 
+for sailors! That'd cheer us right up! Yessiree!\c"
+M08070019,"\h(《Brabham》)Building that Great Cloud Sea Engine was the
+hardest thing I've done in a long time! My back
+still hurts from all of that hard labor!\e"
+M08070020,"\h(《Brabham》)I never thought I'd see an engine that powerful 
+in my life… You'd never guess that I'm 147.\c"
+M08070021,\h(《Brabham》)That crazy island… it came from Deep Sky!\c
+M08070022,"\h(《Brabham》)The Delphinus is running better than ever! 
+I love this ship! Ain't it a beaut?\c"
+Mp0010003,"\h(《Aika》)This is great, huh Vyse? We can finally make it 
+through the sky rifts!\c"
+Mp0010004,"\h(《Aika》)I can't believe it! I know there's so much to 
+see out there!\c"
+Mp0010005,"\h(《Aika》)So, we're trying to get through the Dark Rift,
+huh? I wonder what it's really like in there. As
+much as I hate to admit it…I'm a little scared.\c"
+Mp0010006,"\h(《Aika》)Vyse, you did it!
+We made it through the Dark Rift!\e"
+Mp0010007,"\h(《Aika》)Now we can see what kind of place Yafutoma 
+really is! I hope they don't try to eat us with
+sticks. Fina better hide Cupil… \e"
+Mp0010008,"\h(《Aika》)Vyse! The enemy's preparing to board us! We need
+you on deck fast!\c"
+Mp0010009,"\h(《Aika》)The Tenkou, huh?
+I guess that even Yafutoma has a little Air 
+Pirate problem of their own…\c"
+Mp0010010,"\h(《Aika》)If we continue due east from here and we reach 
+Crescent Isle, that would only mean one thing…\e"
+Mp0010011,"\h(《Aika》)…that the edges of the world are connected!
+But, then I suppose they wouldn't really be the
+edges of the world…\c"
+Mp0010012,"\h(《Aika》)The whole island is frozen! Hehe… one Vysicle 
+coming right up! You'd better be careful, 
+I didn't bring a chisel.\c"
+Mp0010013,"\h(《Aika》)Cap'n Drachma…
+I hope he's going to be okay… \c"
+Mp0010014,"\h(《Aika》)Well, since we can reach high and low altitudes 
+now, we'll be able to go just about anywhere!\c"
+Mp0010015,"\h(《Aika》)We've collected all of the Moon Crystals!
+Let's hurry up and get back to Crescent Isle!\c"
+Mp0010016,"\h(《Aika》)Dangral Island, huh…
+It should be beneath the clouds southwest 
+of Sailors' Island…\c"
+Mp0010017,"\h(《Aika》)I feel so bad for Enrique. He must feel awful. 
+I think we should leave him alone for a while.\e"
+Mp0010018,"\h(《Aika》)We should be able to go down into Deep Sky 
+through the vortex near Shrine Island. Let's go,
+Vyse!\c"
+Mp0010019,"\h(《Aika》)I guess we have to say our good-byes to Enrique
+once we get back to Sailors' Island… I hate
+good-byes…\e"
+Mp0010020,"\h(《Aika》)If we don't stop Galcian, who knows what'll
+happen! Vyse, we have to hurry and get to 
+Dangral Island!\c"
+Mp0010021,"\h(《Aika》)Who would've guessed that there used to be an
+island that big in Mid Ocean… And right next to
+our very own Pirate Isle…\c"
+Mp0010022,"\h(《Aika》)Vyse…
+We should return to Crescent Isle soon.\e"
+Mp0010023,"\h(《Aika》)I hate to admit it, but… I don't think we can
+do anything against that island right now.\c"
+Mp0010024,"\h(《Aika》)Well, I guess it's time to settle this.
+I'd be lying if I said I wasn't scared…\e"
+Mp0010025,"\h(《Aika》)But, when I look at how great of a captain
+you've become, Vyse, I feel better. Look at how
+many people have come to follow you into battle!\e"
+Mp0010026,"\h(《Aika》)They all believe in you… they all trust you… 
+just like I do. We have to win, right? Captain 
+Vyse?\c"
+Mp0020002,"\h(《Fina》)The city of Esparanza…
+We should head there first. It is located on the
+southern tip of Nasr.\c"
+Mp0020003,"\h(《Fina》)If we can get through the Dark Rift, the country
+of Yafutoma should be on the other side.\c"
+Mp0020004,"\h(《Fina》)We've finally made it to the skies of the Blue
+Moon… The lands of Yafutoma should be close
+by…\c"
+Mp0020005,"\h(《Fina》)Vyse! It's too dangerous to go out on deck 
+without being prepared for battle!\c"
+Mp0020006,"\h(《Fina》)It's so strange…
+I am a Silvite. I was born and raised in the 
+Great Silver Shrine…\e"
+Mp0020007,"\h(《Fina》)But, somehow, I feel more at home on Crescent 
+Isle than any place else…\c"
+Mp0020008,"\h(《Fina》)The Land of Ice…
+Somewhere, buried beneath all that ice, lies the
+Purple Crystal, I hope we can find it…\c "
+Mp0020009,"\h(《Fina》)Vyse…
+Let us return to Crescent Isle.\c"
+Mp0020010,"\h(《Fina》)I never thought we could enter Valua through 
+the Maw of Tartas…\c"
+Mp0020011,"\h(《Fina》)At last, we have the fifth Crystal!\e"
+Mp0020012,"\h(《Fina》)If we can find the blueprints for that Valuan 
+ship on Dangral Island, we could make our way 
+into Deep Sky and search for my ship…\c"
+Mp0020013,"\h(《Fina》)Enrique… He's been so quiet lately. I am a 
+little concerned about him…\c"
+Mp0020014,\h(《Fina》)I was attacked by Valua near Pirate Isle…\e
+Mp0020015,"\h(《Fina》)My ship must be somewhere in Deep Sky around 
+there.\c"
+Mp0020016,"\h(《Fina》)Enrique will at last be able to return to his 
+homeland…\c"
+Mp0020017,"\h(《Fina》)Ramirez… we must stop him!
+We must hurry to Dangral Island!\c"
+Mp0020018,\h(《Fina》)Ramirez… I wonder what he's doing on Soltis!\e
+Mp0020019,"\h(《Fina》)…!!
+No… he, he wouldn't…\c"
+Mp0020020,"\h(《Fina》)Why, Vyse… Why?\c"
+Mp0020021,"\h(《Fina》)Vyse, let's go!
+We've got to go to Soltis!\e"
+Mp0020022,"\h(《Fina》)I will fight with you!
+Ramirez must be stopped.\c"
+Ma0040000,\h(《Pow》)Pow! Pow! Pow!\e
+Ma1110000,\h(《Lawrence》)Do you want to take the wheel?\e
+Ma1110001,"\h(《What will you do?》)”Take the wheel.”
+”Look around the ship some more.”\e"
+Ma1110002,"\h(《Lawrence》)Alright, I leave the ship in your hands then.\c"
+Ma1110003,\h(《Lawrence》)I see. Very well then.\c
+Ma1110004,"\h(《Lawrence》)I've been chased all over by all sorts of
+ships… But I've never been chased into Deep Sky
+before. Heh… First time for everything I guess.\e"
+Ma1110005,"\h(《What will you do?》)”Take the wheel.”
+”Look around the ship some more.”\e"
+Ma1110006,"\h(《Lawrence》)Visibility is bad right now. Just be careful 
+where you fly.\c"
+Ma1110007,\h(《Lawrence》)I see. Very well then.\c
+Ma1140000,"\h(《Pinta》)The remains of so many ships are down here. It's
+kind of scary when you think about it.\c"
+Ma1140001,"\h(《Pinta》)Many adventurers have tried to travel through 
+Valua by going through the cracks and fissures 
+beneath it.\e"
+Ma1140002,"\h(《Pinta》)But their ships couldn't fly low enough to reach
+the entrance.\c"
+Ma1140003,"\h(《Pinta》)I'm happy to have been one of the chosen few to
+see Deep Sky…\e"
+Ma1140004,"\h(《Pinta》)But, my one regret was that it was not aboard my
+own ship. I suppose you can't have everything…\c"
+Ma2000000,"\h(《Marco》)This place gives me the creeps… Let's hurry up
+and finish what we came here to do so we can get
+out!\c"
+Ma2000001,"\h(《Marco》)The city I used to live in is above us right
+now. I never thought I'd get out of there…\c"
+Ma2000002,"\h(《Marco》)Brabham told me that the reason why we have to
+keep the shutters closed while we're down here
+is so we don't see the ghosts outside…\e"
+Ma2000003,\h(《Marco》)I wonder if there really are ghosts down here…\c
+Ma5100000,"\h(《Hans》)This ship is probably the first ship to ever 
+make it through the Maw of Tartas. That's quite 
+an accomplishment in itself.\c"
+Ma5100001,"\h(《Hans》)The engine checks out okay. It's so amazing that
+someone actually built a ship of this power and
+magnitude! I'm definitely impressed…\c"
+Ma5100002,"\h(《Hans》)So, this is the infamous Dark Rift that's
+claimed so many lives… And the Delphinus
+doesn't even sway in the winds… Amazing…\c"
+Ma5210000,"\h(《Tikatika》)There are too many rocks. This place is ugly. 
+Maybe that's why Valuans think so many ugly 
+thoughts.\c"
+Ma5210001,"\h(《Tikatika》)I can't see much. But I sense some very bad 
+things here.\c"
+Ma5210002,"\h(《Tikatika》)There are a lot of sunken ships down here. I 
+wonder if there's a lot of treasure…\c"
+Ma7060000,"\h(《Don》)It's so hard to see down here… It's almost 
+impossible to tell where we're going. 
+Huh? Did you want to take the wheel, Captain?\e"
+Ma7060001,"\h(《What will you do?》)”Take the wheel.”
+”Look around the ship some more.”\e"
+Ma7060002,"\h(《Don》)Alright. Just make sure not to run into anything
+and you should be fine.\c"
+Ma7060003,"\h(《Don》)Oh well… I guess that means I have to stay here
+and keep us alive. Back to work, back to work…\c"
+Ma7060004,"\h(《Don》)Visibility is horrible, we don't know where
+we're going, and you're still making me fly this
+thing!! Hurry up and take the wheel, will ya?\e"
+Ma7060005,"\h(《What will you do?》)”Take the wheel.”
+”Look around the ship some more.”\e"
+Ma7060006,"\h(《Don》)Thank the Moons! I can finally relax. Just be
+careful and don't get us all killed, okay,
+Captain?\c"
+Ma7060007,"\h(《Don》)What?! Oh, alright… I'll try to keep us alive 
+for a little while longer I guess.\c"
+Ma7060008,"\h(《Don》)So, this is what the Dark Rift looks like from 
+the inside… So many of my friends met their 
+fate here… Maybe you should take the wheel…\e"
+Ma7060009,"\h(《What will you do?》)”Take the wheel.”
+”Look around the ship some more.”\e"
+Ma7060010,"\h(《Don》)Thank you, Vyse. I'll be down in the galley. 
+This is a little hard for me to deal with…\c"
+Ma7060011,"\h(《Don》)Alright, Captain… I'll try my best.\c"
+Ma8070000,"\h(《Moegi》)It's hard to believe that we are under Prince 
+Enrique's homeland right now.\c"
+Ma8070001,"\h(《Moegi》)In Yafutoma, there are tales of demons that live
+beneath the clouds and eat bad children.\e"
+Ma8070002,"\h(《Moegi》)But looking at how dark the world is down here,
+I can almost believe those children's stories…\c"
+Ma8070003,"\h(《Moegi》)This storm… I believe you called it the Dark 
+Rift… It is what kept Yafutoma separated from
+the rest of the world…\c"
+Ma4000000,"\h(《Brabham》)This is probably the only ship in the whole 
+world that can survive the trip into Deep Sky.\e"
+Ma4000001,"\h(《Brabham》)And just think! The Delphinus is the first ship
+to enter the Maw of Tartas, too!!\c"
+Ma4000002,"\h(《Brabham》)The engine checks out okay! We're still holding
+up strong!\c"
+Ma4000003,"\h(《Brabham》)The Dark Rift shouldn't be a problem for the 
+Delphinus. We should be able to fly straight 
+through!\c"
+Ma4050000,"\h(《Domingo》)When I think of the fact that not even the 
+Valuans themselves have seen the inside of the 
+Maw of Tartas…\e"
+Ma4050001,"\h(《Domingo》)… it makes even the walls of this place look… 
+valuable, for some reason. Wouldn't you agree, 
+Vyse?\c"
+Ma4050002,"\h(《Domingo》)Take a look around, Vyse…
+Nobody has ever set foot in this place before…
+Think about it, we're actually in Deep Sky…\e"
+Ma4050003,"\h(《Domingo》)It sort of brings a little color to this 
+otherwise drab place, doesn't it? Just think of 
+all the sunken treasure that's down here…\c"
+Ma4050004,"\h(《Domingo》)There's quite a few sunken ships down here. I 
+wonder how many of those ships are Air Pirate 
+ships…\e"
+Ma4050005,"\h(《Domingo》)Heh… It sort of makes one want to go out and 
+search the wreckage for treasure, doesn't it?\c"
+Ma4060000,"\h(《Ilchymis》)So, this is the Maw of Tartas, huh?
+Heh… I bet the other scientists of Valua would 
+worship me if they knew I was actually in here…\c"
+Ma4060001,"\h(《Ilchymis》)This place is amazing… The raw energy that 
+is brewing in this place is… magnificent.\c"
+Ma4060002,"\h(《Ilchymis》)So… this is the infamous Dark Rift. So many 
+people have lost their lives in these winds…\c"
+Maa010000,"\h(《Aika》)Wow… Look at all of those sunken ships. There 
+are probably a lot of ghosts roaming around 
+outside… Vyse! Let's get out of here soon!\c"
+Maa010001,"\h(《Aika》)If we can make our way through all of these 
+crevices, then we should be able to reach the 
+area beneath the Great Seal, right?\c"
+Maa010002,"\h(《Aika》)We have to find Fina's ship.
+When something shows up on the sonar, you have 
+to use the claw to try and get it, okay?\c"
+Maa010003,"\h(《Aika》)Wow… That thing sure was tough. Let's hurry up 
+and find Fina's ship so we can get back to 
+Crescent Isle!\c"
+Maa010004,"\h(《Aika》)This place sure gives me the creeps… No matter 
+how many times we come here. Can we go home now,
+Vyse?\c"
+Maa010005,"\h(《Aika》)The air down here even looks like it's hard to 
+breathe… But, I have to admit that it's kinda 
+interesting down here, though.\c"
+Maa020000,"\h(《Fina》)If we can safely get through the Dark Rift, the
+country of Yafutoma should be somewhere on the
+other side.\c"
+Maa020001,"\h(《Fina》)It… it saddens me to think of all the brave
+sailors that lost their lives in this maelstrom.\c"
+Maa020002,"\h(《Fina》)The Yellow Gigas sleeps somewhere in the Maw of 
+Tartas…\e"
+Maa020003,"\h(《Fina》)If the stories are correct, the Yellow Crystal 
+will be embedded into the body of the Yellow 
+Gigas. We must use extreme caution…\c"
+Maa020004,"\h(《Fina》)It feels a little strange to be flying inside 
+the actual island of Valua, doesn't it?\c"
+Maa020005,"\h(《Fina》)This… this place is amazing.
+I wonder if we'll really be able to find my ship
+down here…\c"
+Maa020006,"\h(《Fina》)This place frightens me, no matter how many 
+times we come here…\c"
+Maa040000,"\h(《Enrique》)Ungh… The ship is rocking… so much…
+Please don't bother me right now… I… I feel 
+rather ill.\c"
+Maa040001,"\h(《Enrique》)The Armada couldn't even make it through the
+Dark Rift, and here we are…\c"
+Maa040002,"\h(《Enrique》)I never dreamed that I would actually be flying 
+inside the lands of Valua…\e"
+Maa040003,"\h(《Enrique》)I would never have seen sights such as this had 
+I remained cooped up in the palace…\c"
+Maa040004,"\h(《Enrique》)The view is amazing… I never imagined that a 
+world such as this existed beneath the clouds.\e"
+Maa040005,"\h(《Enrique》)What is the Armada trying to accomplish by 
+building ships that can travel down here? I 
+wonder what Galcian is up to…\c"
+Maa040006,"\h(《Enrique》)Soon, the battle will be over. We must defeat 
+Ramirez and bring peace back to the people of 
+this world!\c"
+Maa040007,"\h(《Enrique》)Vyse, take me with you. Let me go with you into 
+Soltis.\e"
+Maa040008,"\h(《Will you take Enrique with you?》)”Of course, Enrique.”
+”Sorry, but we need you here.”\e"
+Maa040009,"\h(《Vyse》)Of course, Enrique.
+It would be an honor for you to join us.\e"
+Maa040010,"\h(《Enrique》)Thank you, Vyse!
+I'll fight to the best of my ability! I will not
+let you down…\e"
+Maa040011,\h(　)Enrique has joined your party.\c
+Maa040012,"\h(《Enrique》)I see.
+Well, if you change your mind, just let me know.
+I am ready to fight at a moment's notice.\c"
+Mg0040000,"\h(《Pow》)Pow pow!
+Pow pow!\c"
+Mg1110000,"\h(《Lawrence》)You want to go to Cresent Isle, right?
+Hmm… to the north of Nasr?
+Do you want to take the wheel?\e"
+Mg1110001,"\h(《What will you do?》)”Take the wheel.”
+”Look around a bit more.”\e"
+Mg1110002,\h(《Lawrence》)Very well. I will leave everything to you.\c
+Mg1110003,"\h(《Lawrence》)Very well. I will man the helm for a little
+while longer.\c"
+Mg1140000,"\h(《Pinta》)Prince Enrique's ship was to be the strongest 
+boat in the entire Valuan Armada! It was made 
+using Valua's newest alloys and technologies!\e"
+Mg1140001,"\h(《Pinta》)And not only did you manage to steal the ship, 
+Vyse, you also managed to steal the prince away 
+from Valua! You've become quite famous!\c"
+Mg2000000,"\h(《Vyse》)What's this?
+Is something in here?\e"
+Mg2000001,"\h(《Marco》)*Yawn*
+Oh man, it feels so good to finally get out of 
+there.\e"
+Mg2000002,"\h(《Marco》)Heh… Long time no see, Vyse!\e"
+Mg2000003,"\h(《Vyse》)Marco!
+What are you doing here?!\e"
+Mg2000004,"\h(《Marco》)I heard that the prince's ship was finished and 
+was being prepared for departure.\e"
+Mg2000005,"\h(《Marco》)So, I snuck on board and I was planning on 
+escaping Valua in it.\e"
+Mg2000006,"\h(《Marco》)Well, I'd heard that the prince was a really 
+nice guy, so I figured he wouldn't kill me for 
+trying to escape. Well, at least not right away.\e"
+Mg2000007,"\h(《Marco》)But I never would've thought that you, of all
+people, would get your hands on this ship! At
+least now I don't have to go looking for you!\e"
+Mg2000008,"\h(《Marco》)I'm gonna travel along with you whether you like
+it or not. But don't worry… I'll stay outta
+your way, okay?\e"
+Mg2000009,"\h(《Vyse》)Heh… You're pretty pushy there, kid. Ah, why 
+not… I'll make you my first crew member!\e"
+Mg2000010,\h(　)Marco has joined your crew as a ”Sailor.”\c
+Mgg050000,"\h(《Gilder》)Hey, Vyse.
+I don't know where it's coming from, but I keep 
+hearing this strange noise up here…\e"
+Mgg050001,"\h(《Gilder》)I've looked around, but couldn't find where it
+was coming from. Maybe you'll have better luck.
+Oh, and when you're done, I need to talk to you.\c"
+Mgg050002,"\h(《Gilder》)Hey there, Vyse. Have you finished looking 
+around the ship? There's something that I need 
+to talk to you about.\e"
+Mgg050003,"\h(《What do you say?》)”Actually, I'm not quite finished yet.”
+”I've pretty much seen everything I wanted to.”\e"
+Mgg050004,"\h(《Vyse》)Actually, I'm not quite finished looking around 
+yet…\e"
+Mgg050005,"\h(《Gilder》)That's no problem. Just take your time. But, 
+when you're finished, I still need to talk to 
+you, okay?\e"
+Mgg050006,"\h(《Vyse》)I've pretty much seen everything that I wanted 
+to. What did you want to talk to me about?\e"
+Mgg050007,"\h(《Gilder》)Well, actually…\e"
+Mgg010000,"\h(《Aika》)This Crescent Isle that we're heading towards is
+the island that you were stranded on, right? I
+can't wait to see what it looks like!\e"
+Mgg010001,"\h(《Aika》)But, I still can't believe it… We're actually 
+going to have our own headquarters! Just like 
+Pirate Isle! Is this exciting or what?!\e"
+Mgg010002,"\h(《Aika》)We should just concentrate on saving up 100,000 
+gold. Having a base is more important than 
+getting the Crystals right away!\c"
+Mgg020000,"\h(《Fina》)Haha… I've been curious as to what sort of 
+island you were stranded on.\c"
+Mgg020001,"\h(《Fina》)We should try and save up some money so that 
+Brabham can make the necessary modifications to 
+this ship. It shouldn't take that long…\c"
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",me035e.sct
+"",me122a.sct
+"",me125a.sct
+"",me125b.sct
+"",me125d.sct
+"",me127a.sct
+"",me127b.sct
+"",M0255
+"",M0255
+"",M0250
+"",m5340000

@@ -1,0 +1,124 @@
+[Event Name],Task ID
+MC0080000,"\h(《Marco》)Wait, Vyse!\e"
+MC0080001,"\h(《Vyse》)Marco… you followed us?
+What's wrong?\e"
+MC0080002,"\h(《Marco》)Vyse…
+Don't go… please…\e"
+MC0080003,"\h(《Marco》)My… my mother… and father… were both killed
+by Valuan soldiers while they were trying to
+escape from this city!\e"
+MC0080004,"\h(《Marco》)There's no way out!
+Trying to get through the Grand Fortress… 
+It's impossible!\e"
+MC0080005,"\h(《Marco》)No one has ever escaped from Valua! 
+You're gonna die this time! 
+I just know it!\e"
+MC0080006,"\h(《Vyse》)Your parents…
+I'm… I'm sorry to hear that, Marco.\e"
+MC0080007,"\h(《Vyse》)But, I have to go… I don't have a choice. And 
+every time I here the word ”impossible”… it 
+makes me want to prove everyone wrong.\e"
+MC0080008,"\h(《Vyse》)A long time ago, a handful of sailors took a 
+small boat out into uncharted skies.\e"
+MC0080009,"\h(《Vyse》)They had no idea what they would find…
+Monsters… a maelstrom… the end of the world…\e"
+MC0080010,"\h(《Vyse》)It was because these sailors challenged the
+unknown, that new lands were discovered.\e"
+MC0080011,"\h(《Vyse》)If we challenge ourselves, and never give up,
+our own horizons will broaden… in our hearts,
+and in our minds…\e"
+MC0080012,"\h(《Vyse》)I need to push myself every day. I have to know 
+what I can accomplish… I never give up, and so 
+far, nothing has ever stopped me.\e"
+MC0080013,\h(《Marco》)But… but… Vyse…\e
+MC0080014,"\h(《Vyse》)Don't worry about me.
+I believe that we'll make it out… I will find a
+way… that's what's keeping me going.\e"
+MC0080015,"\h(《Vyse》)I'm going to prove that it's not impossible to 
+escape. Impossible is just a word to let people 
+feel good about themselves when they quit.\e"
+MC0080016,\h(《Marco》)……\e
+MC0080017,"\h(《Marco》)Vyse…
+Do you think I could ever be a sailor?
+If I could ever… sail the skies?\e"
+MC0080018,"\h(《Vyse》)Heh, of course! You've got what it takes…
+I'll be waiting for you… out there!\e"
+MC0080019,\h(《Marco》)Thank you…\e
+M01060000,"\h(《マルコ》)よ、よお。
+その……さっきは、けっこう
+すごかったじゃねえか。\e"
+M01060001,"\h(《ヴァイス》)マルコ！
+どうしたんだ、こんなところで。\e"
+M01060002,"\h(《マルコ》)前にも言ったろ、おいらは
+このカタコンベに住んでるんだ。
+ここのことは何でも知ってるぜ。\e"
+M01060003,"\h(《マルコ》)この壁は、隠し扉になってんだ。
+にいちゃんの仲間たちは
+この奥の隠し部屋にいるぜ。\c"
+M01060004,"\h(《マルコ》)にいちゃんの仲間たちなら
+この奥の隠し部屋にいるぜ。
+はやく行ってやれよ。\c"
+M01060005,"\h(《ロビン副長》)コロシアムからは逃げられたが
+どうやって、このバルアから
+脱出したものか……\c"
+M01060006,"\h(《首蹴りのタイロン》)いやあ、久々に体を動かせたぜ！
+なにしろ、捕まってる間は
+ずっと縛られてたからよ。\c"
+M01060007,"\h(《刀傷のビリー》)護送される時に、はじめて
+「列車」ってもんに乗ったぜ。\e"
+M01060008,"\h(《刀傷のビリー》)鉄の箱がいくつもつながって
+イモ虫のように走るんだ。
+ケッタイな乗り物だったな。\c"
+M01060009,"\h(《タル腹のガン》)さすが、ヴァイスの兄貴っス！
+バルアの連中をあそこまで
+蹴散らすなんて、すごいっス！\c"
+M01060010,"\h(《風読みのルーク》)まったく、おまえには
+いつも驚かされるよ。まさか
+こんな所にまで来るとはな。\e"
+M01060011,"\h(《風読みのルーク》)だが、おかげで助かった。
+礼を言うぜ。\c"
+M01060012,"\h(《船底くぐりのパッチ》)まだ、追っ手の気配はねえな。
+だが、ここが見つかるのも
+時間の問題だ……\e"
+M01060013,"\h(《船底くぐりのパッチ》)これから、どう行動するのか……
+バルアを脱出できるかどうかは
+そこにかかってるな。\c"
+M01060014,"\h(《ダイン》)こら、ヴァイス！
+今後の作戦を話しあうぞ。
+勝手にウロチョロするな。\c"
+M01060015,"\h(《ヴァイス》)……気のせいかな？
+ここだけ、壁の色が
+まわりと違う気がするけど……\c"
+M01060016,"\h(《ヴァイス》)ここは確か、上級都市に通じる
+隠し扉だったけど……
+うーん、ビクともしねえな。\e"
+M01060017,"\h(《ヴァイス》)やっぱ、マルコじゃねえと
+開けるのはムリみたいだな。
+しかたない、あきらめるか。\c"
+M01060020,"\h(《ヴァイス》)このはしごの上は
+どうやらコロシアムに
+通じているようだな……\e"
+M01060021,"\h(《どうする？》)「いざ、乗りこむぜ！」
+「準備を整えてからにしよう」\c"
+M01060018,"\h(《ヴァイス》)今、上は大さわぎだ。
+このスキに、みんなを連れて
+ここから逃げださねえと。\c"
+M01060019,"\h(《ヴァイス》)この上はコロシアムか……
+兵士に見つかるとやっかいだな。
+上がるのはやめておこう。\c"
+"",me230a.sct
+"",me106c.sct
+"",me005b.sct
+"",me106b.sct
+"",M0325
+"",M0249
+"",m5060000
+"",C08発生しました。\c
+"",a106ac08.mld
+"",a106ac08.mld
+"",a106ac08_efe.mld
+"",a106ac08_efe.mld
+"",M0318
+"",e6c008
+"",a106ac08.mld
+"",a106ac08_efe.mld

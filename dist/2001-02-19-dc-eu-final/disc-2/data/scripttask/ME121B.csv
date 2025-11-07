@@ -1,0 +1,179 @@
+[Event Name],Task ID
+M01210000,"\h(«Vyse»)What's this rock?
+It looks like some sort of switch…\e"
+M01210001,"\h(«Enrique»)It looks like it triggered some
+sort of water release valve…\e"
+M01210002,"\h(«Vyse»)Ah… I see. The switch is probably here to fill
+this area with water. Hmm…\c"
+M01210003,"\h(«Vyse»)I've already pushed this switch.
+The rock is shining brightly.\c"
+M01210004,"\h(«Vyse»)It appears that this switch was here to
+fill this area with water…\c"
+M01210005,"\h(«Vyse»)I don't know where, but I think this switch
+probably opened a water valve somewhere in
+these ruins…\c"
+M01210006,"\h(«Vyse»)I don't know where, but I think this switch
+probably opened a water valve somewhere in
+these ruins…\c"
+M01210007,"\h(«Vyse»)I don't know where, but I think this switch
+probably opened a water valve somewhere in
+these ruins…\c"
+M01210008,"\h(«Vyse»)I guess this passageway and this trap were
+both built to prevent people from going any
+deeper into this place…\c"
+M01210009,"\h(«Vyse»)The room on the other side of this door
+is probably filled with the water
+we poured in before.\c"
+M01210010,"\h(«Vyse»)It's the stone pedestal where
+the Blue Moon Crystal was.
+There's nothing there now.\c"
+M01210011,"\h(«Ship Parts Merchant»)If you ever want to head back to Yafutoma,
+just let me know.\e"
+M01210012,"\h(«What will you do?»)“Head back to Yafutoma.”
+“Stay here a little while longer.”\e"
+M01210013,"\h(«Vyse»)We wanted to head back to Yafutoma for
+a little bit. Could you give us a lift?\e"
+M01210014,"\h(«Ship Parts Merchant»)No problem.
+Just climb on board.\c"
+M01210015,"\h(«Vyse»)We're fine for now, but we'll let
+you know if we change out minds.\e"
+M01210016,"\h(«Ship Parts Merchant»)No problem.
+Any time you want to go back,
+just let me know.\c"
+M01210017,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MS01210000,"\h(«Vyse»)¿Qué es esta roca?
+Parece un interruptor……\e"
+MS01210001,\h(«Enrique»)El interruptor ha abierto una válvula del agua……\e
+MS01210002,"\h(«Vyse»)Ya entiendo. El interruptor sirve para llenar
+esta zona de agua. Mmm……\c"
+MS01210003,"\h(«Vyse»)He pulsado el interruptor.
+La roca desprende una luz brillante.\c"
+MS01210004,"\h(«Vyse»)Por lo que parece este interruptor sirve para
+llenar esta zona de agua……\c"
+MS01210005,"\h(«Vyse»)No sé dónde, pero creo que este interruptor ha
+abierto una válvula de agua en algún lugar de
+estas ruinas……\c"
+MS01210006,"\h(«Vyse»)No sé dónde, pero creo que este interruptor ha
+abierto una válvula de agua en algún lugar de
+estas ruinas……\c"
+MS01210007,"\h(«Vyse»)No sé dónde, pero creo que este interruptor ha
+abierto una válvula de agua en algún lugar de
+estas ruinas……\c"
+MS01210008,"\h(«Vyse»)Supongo que este pasaje y la trampa fueron
+construidos para evitar que se entrara en el
+interior de este lugar……\c"
+MS01210009,"\h(«Vyse»)La habitación que está al otro lado de esta
+puerta debe estar llena del agua que hemos
+liberado antes.\c"
+MS01210010,"\h(«Vyse»)Éste es el pedestal de piedra donde estaba el
+Cristal Azul. Ahora está vacío.\c"
+MS01210011,"\h(«Mercader de Repuestos de Navío»)Si queréis volver a Yafutoma,
+decídmelo.\e"
+MS01210012,"\h(«¿Qué vas a hacer?»)“Volver a Yafutoma.”
+“Quedarme aquí un rato más.”\e"
+MS01210013,"\h(«Vyse»)Queremos volver a Yafutoma por un tiempo.
+¿Nos puedes llevar allí?\e"
+MS01210014,"\h(«Mercader de Repuestos de Navío»)Pues claro.
+Subid a bordo.\c"
+MS01210015,"\h(«Vyse»)De momento estamos bien, pero si cambiamos de
+idea ya te lo diremos.\e"
+MS01210016,"\h(«Mercader de Repuestos de Navío»)Muy bien.
+Cuando os apetezca volver,
+me lo decís.\c"
+MS01210017,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un rato más.”\c"
+MF01210000,"\h(«Vyse»)Qu'est-ce que ce rocher ?
+On dirait un bouton……\e"
+MF01210001,"\h(«Enrique»)On dirait que cela a déclenché une
+sorte de valve pour ouvrir l'eau……\e"
+MF01210002,"\h(«Vyse»)Ah…… Je vois. Le bouton doit servir à remplir
+cet endroit d'eau. Humm……\c"
+MF01210003,"\h(«Vyse»)J'ai déjà appuyé sur ce bouton.
+Le rocher brille d'une lumière intense.\c"
+MF01210004,"\h(«Vyse»)Le bouton devait servir à remplir cet
+endroit d'eau……\c"
+MF01210005,"\h(«Vyse»)Je ne sais pas où, mais je pense que ce bouton a
+dû ouvrir une valve d'eau quelque part dans ces
+ruines……\c"
+MF01210006,"\h(«Vyse»)Je ne sais pas où, mais je pense que ce bouton a
+dû ouvrir une valve d'eau quelque part dans ces
+ruines……\c"
+MF01210007,"\h(«Vyse»)Je ne sais pas où, mais je pense que ce bouton a
+dû ouvrir une valve d'eau quelque part dans ces
+ruines……\c"
+MF01210008,"\h(«Vyse»)J'imagine que ce passage et cette trappe ont été
+construits pour empêcher les gens d'aller plus
+avant……\c"
+MF01210009,"\h(«Vyse»)La pièce de l'autre côté de cette porte doit
+être remplie de l'eau que nous avons versée tout
+à l'heure.\c"
+MF01210010,"\h(«Vyse»)C'est le piédestal de pierre où
+se trouvait le Cristal de Lune Bleu.
+Il n'y a plus rien maintenant.\c"
+MF01210011,"\h(«Armateur»)Faites-moi signe si un jour vous voulez
+retourner sur Yafutoma.\e"
+MF01210012,"\h(«Que ferez-vous ?»)“Vous reviendrez à Yafutoma.”
+“Vous resterez ici un peu plus longtemps.”\e"
+MF01210013,"\h(«Vyse»)Nous voudrions retourner à Yafutoma pour
+quelques temps. Pouvez-vous nous y emmener ?\e"
+MF01210014,"\h(«Armateur»)Pas de problème.
+Montez à bord.\c"
+MF01210015,"\h(«Vyse»)C'est bon pour le moment, mais nous vous dirons
+si nous changeons d'avis.\e"
+MF01210016,"\h(«Armateur»)Pas de problème.
+Faites-moi signe,
+si vous voulez y revenir.\c"
+MF01210017,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MG01210000,"\h(«Vyse»)Was ist mit diesem Felsen?
+Er sieht wie eine Art Schalter aus……\e"
+MG01210001,"\h(«Enrique»)Er muss eine Art Wasserhahn
+geöffnet haben……\e"
+MG01210002,"\h(«Vyse»)Ah…… verstehe. Der Schalter ist wahrscheinlich
+dazu da, diesen Bereich mit Wasser zu füllen.
+Hmm……\c"
+MG01210003,"\h(«Vyse»)Ich habe diesen Schalter schon gedrückt.
+Der Fels strahlt ganz hell.\c"
+MG01210004,"\h(«Vyse»)Anscheinend war dieser Schalter
+dazu da, diesen Bereich mit Wasser zu
+füllen……\c"
+MG01210005,"\h(«Vyse»)Ich weiß nicht genau, wo, aber dieser Schalter
+hat wahrscheinlich irgendwo in diesen Ruinen
+ein Wasserventil geöffnet……\c"
+MG01210006,"\h(«Vyse»)Ich weiß nicht genau, wo, aber dieser Schalter
+hat wahrscheinlich irgendwo in diesen Ruinen
+ein Wasserventil geöffnet……\c"
+MG01210007,"\h(«Vyse»)Ich weiß nicht genau, wo, aber dieser Schalter
+hat wahrscheinlich irgendwo in diesen Ruinen
+ein Wasserventil geöffnet……\c"
+MG01210008,"\h(«Vyse»)Ich nehme an, sowohl dieser Gang als auch
+diese Falle wurden zu dem Zweck gebaut, um
+Eindringlinge daran zu hindern, tiefer in den
+Palast einzudringen……\c"
+MG01210009,"\h(«Vyse»)Der Raum auf der anderen Seite dieser Tür
+ist wahrscheinlich voll mit dem Wasser, das wir
+vorhin hineinlaufen gelassen haben.\c"
+MG01210010,"\h(«Vyse»)Es ist der steinerne Sockel, auf dem
+sich der Blue Moon Crystal befand.
+Im Moment ist nichts darauf.\c"
+MG01210011,"\h(«Schiffsteilehändler»)Wenn ihr mal nach Yafutoma zurück wollt,
+sagt Bescheid.\e"
+MG01210012,"\h(«Was wirst du tun?»)“Nach Yafutoma zurückfahren.”
+“Noch eine Weile hier bleiben.”\e"
+MG01210013,"\h(«Vyse»)Wir wollen für eine Weile zurück nach Yafutoma.
+Könnten Sie uns mitnehmen?\e"
+MG01210014,"\h(«Schiffsteilehändler»)Kein Problem.
+Steigt einfach ein.\c"
+MG01210015,"\h(«Vyse»)Im Moment nicht, aber wir sagen Bescheid,
+wenn wir unsere Meinung ändern.\e"
+MG01210016,"\h(«Schiffsteilehändler»)Kein Problem.
+Wenn ihr irgendwann zurückwollt,
+lasst es mich einfach wissen.\c"
+MG01210017,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Noch eine Weile hier bleiben.”\c"
+"",me121a.sct
+"",me121c.sct
+"",me121c.sct
+"",M0250
+"",m5210000

@@ -1,0 +1,93 @@
+[Event Name],Task ID
+MF0270000,"\h(《Gilder》)Vyse!  Look
+There's a huge treasure chest! \e"
+MF0270001,"\h(《Vyse》)I see it!
+Is that the legendary Captain Tagatt's 
+treasure!? \e"
+MF0270002,"\h(《Aika》)Wow! Look, Fina！
+I see a huge treasure chest 
+just beyond the opening!! \e"
+MF0270003,"\h(《Fina》)Oh, yes… I see it!
+Do you think that's Captain 
+Tagatt's riches!? \e"
+MF0270004,\h(《Vyse》)Who's there!? \e
+MF0270005,"\h(《Aika》)Who, who is it!? \e"
+MF0270006,"\h(《Aika》)Oh!!
+Vyse… It's Vyse!! \e"
+MF0270007,\h(《Fina》)Vyse!! \e
+MF0270008,"\h(《Vyse》)Aika！
+Fina!!
+You're both okay!! \e"
+MF0270009,\h(《Aika》)Vyse!!\e
+MF0270010,"\h(《Aika》)You’re still alive！
+It’s a miracle that we found you here!! \e"
+MF0270011,"\h(《Fina》)Vyse…
+I’m so glad that
+that you are alright… \e"
+MF0270012,"\h(《Fina》)Oh. I’m sorry… 
+I’m happy, but my tears…
+they just won’t stop. \e"
+MF0270013,"\h(《Vyse》)Aika…
+Fina…\e"
+MF0270014,"\h(《Gilder》)Heh!
+I envy you, Vyse.
+Reunited… It’s so touching… \e"
+MF0270015,"\h(《Gilder》)But we digress from the task at hand.
+The treasure awaits!\c"
+MF0270017,\h(《Vyse》)Wha- What!? \e
+MF0380000,"\h(《Gilder》)Hehe…
+We're finally going to see 
+Tagatt's treasures! \e"
+MF0380001,\h(《Gilder》)…Huh? \e
+MF0380002,\h(《Gilder》)What… What's that!? \e
+MF0380003,\h(《Vyse》)This… Could it be!? \e
+"",me401x.sct
+"",e6o003
+"",a404x_eff.mld
+"",a400x_ef3.mld
+"",a404x_ef2.mld
+"",a404x_ef2.mld
+"",a404x_eff.mld
+"",a400x_ef3.mld
+"",e6o003
+"",M0250
+"",M0316
+"",a115cf27.mld
+"",a115cf27.mld
+"",a115cf27.mld
+"","\h(《アイカ》)また、みんな一緒に
+航海をつづけられるね！
+よかったーっ!!\c"
+"",\h(《ヴァイス》)な、何だ!?\c
+"",a115cf27.mld
+"",a115cf38.mld
+"",a115cf38.mld
+"",a115cf38.mld
+"","\h(アイカ)紙っきれと……
+金貨、１枚だけ!?\c"
+"","\h(ヴァイス)『宝をもとめし勇者よ
+失望するなかれ。
+なんじはすでに宝を得たり。\e仲間の信頼と協力。
+これこそが、真の宝なり。
+　　　　　　　ダカット』\c"
+"",\h(ヴァイス)何だこりゃ……\c
+"","\h(アイカ)まさか、宝って……
+これだけなの!?\c"
+"","\h(ギルダー)ワハハハハハハ！
+ダカットも、なかなか
+シャレがきついヤツじゃねえか！\eいやー、俺は満足だ。
+こっちのほうが、金銀財宝よりも
+よっぽど気がきいてるぜ。\c"
+"","\h(ファイナ)こうして再会できた仲間こそ
+何よりの宝物ですね。\c"
+"","\h(アイカ)仲間が大事、ってのは
+わかるけど……お宝もいっしょに
+入れといてくれてもいーじゃん！\e今回といい、ドラドといい
+最近『伝説の〜』に
+だまされっぱなしだよ〜!!\c"
+"","\h(ヴァイス)ハハハハ！
+じゃ、そろそろナスラードへ
+もどるとするか！\c"
+"","\h(アイカ)なに納得してんのよ
+バカ!!\c"
+"",a115cf38.mld

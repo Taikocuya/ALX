@@ -1,0 +1,102 @@
+[Event Name],Task ID
+MA5670000,"\h(«Valuan Destroyer»)Skies are clear, with strong winds, sir…
+Wait! And nidentified vessel has been spotted
+dead ahead. All hands to battlestations!\c"
+MA5670001,"\h(«Valuan Destroyer»)These new ships are great!
+The armor and weaponry are leaps and bounds
+ahead of those older vessels!\c"
+MA5670002,"\h(«Valuan Destroyer»)Air Pirate vessel spotted off the starboard bow!
+All hands to battlestations!\c"
+MA5670003,"\h(«Aika»)Vyse! What do you want us to do?
+Awaiting your orders!\e"
+MA5670004,"\h(«Let's see…»)“Take a risk and on the aggressive.”
+“Play it safe and approach the enemy slowly.”\e"
+MA5670005,"\h(«Vyse»)We'll never going get anywhere by just playing
+it safe. Full speed ahead and open fire! Let's
+show 'em what we're made of!!\e"
+MA5670006,"\h(«Aika»)Aye, aye!
+Let's try to get into position to fire the
+Moon Stone Cannon!\c"
+MA5670007,"\h(«Vyse»)We shouldn't take too many risks.
+We'll take it nice and slow.\e"
+MA5670008,"\h(«Aika»)Aye, aye!
+We'll keep our distance and engage them with 
+long-distance attacks!\c"
+MSA5670000,"\h(«Destructor Valuan»)¡El cielo está despejado y el viento sopla con
+fuerza, señor! ¡Un momento! ¡Buque a la vista!
+¡Todos a sus puestos de combate!\c"
+MSA5670001,"\h(«Destructor Valuan»)¡Estos navíos nuevos son estupendos!
+¡El armazón y los cañones están años luz por
+delante de esos viejos buques!\c"
+MSA5670002,"\h(«Destructor Valuan»)¡Buque de Piratas Aéreos a la vista a estribor!
+¡Todos a sus puestos de combate!\c"
+MSA5670003,"\h(«Aika»)¡Vyse! ¿Qué quieres que hagamos?
+¡Esperamos tus órdenes!\e"
+MSA5670004,"\h(«Vamos a ver……»)“Arriesgar y atacar.”
+“Acercarnos con cautela.”\e"
+MSA5670005,"\h(«Vyse»)Con cautela no vamos a ninguna parte.
+¡Adelante a toda máquina y fuego!
+¡¡Vamos a darles una buena lección!!\e"
+MSA5670006,"\h(«Aika»)¡Sí, Capitán!
+¡Vamos a ponernos en posición para disparar
+el Cañón Piedraluna!\c"
+MSA5670007,"\h(«Vyse»)No debemos correr demasiados riesgos.
+Vamos a tomárnoslo con calma.\e"
+MSA5670008,"\h(«Aika»)¡Sí, Capitán!
+¡Mantendremos la distancia
+y les atacamos desde lejos!\c"
+MFA5670000,"\h(«Destroyer Valuan»)Les cieux sont clairs et les vents forts,
+capitaine…… Attendez ! Navire non-identifié
+droit devant. Tous à vos postes de combat !\c"
+MFA5670001,"\h(«Destroyer Valuan»)Ces nouveaux navires sont formidables !
+L'armure et l'armement sont ultra-modernes
+comparés à ces vieux vaisseaux !\c"
+MFA5670002,"\h(«Destroyer Valuan»)Vaisseau Pirate de l'Air par tribord devant !
+Tous à vos postes de combat !\c"
+MFA5670003,"\h(«Aika»)Vyse ! Que veux-tu que nous fassions ?
+Nous attendons tes ordres !\e"
+MFA5670004,"\h(«Voyons……»)“Prendre des risques et passer à l'attaque.”
+“S'approcher lentement de l'ennemi.”\e"
+MFA5670005,"\h(«Vyse»)Nous n'arriverons à rien sans prendre de
+risques. En avant toute et ouvrez le feu !
+Montrons-leur de quoi nous sommes capables !!\e"
+MFA5670006,"\h(«Aika»)À vos ordres !
+Essayons de nous mettre en position pour tirer
+le Canon Pierre de Lune !\c"
+MFA5670007,"\h(«Vyse»)Nous ne devrions pas prendre trop de risques.
+Nous allons prendre notre temps.\e"
+MFA5670008,"\h(«Aika»)À vos ordres !
+Nous garderons nos distances et ne les
+attaquerons que de loin !\c"
+MGA5670000,"\h(«Valuanischer Zerstörer»)Der Himmel ist wolkenlos, mit starkem Wind,
+Sir…… wartet! Ein fremdes Schiff wurde
+genau vor uns gesichtet. Alle Mann an die
+Kampfstationen!\c"
+MGA5670001,"\h(«Valuanischer Zerstörer»)Diese neuen Schiffe sind toll!
+Die Panzerung und die Bewaffnung sind denen
+der älteren Schiffe Längen voraus!\c"
+MGA5670002,"\h(«Valuanischer Zerstörer»)Luftpiratenschiff vor Steuerbord-Bug gesichtet!
+Alle Mann an die Kampfstationen!\c"
+MGA5670003,"\h(«Aika»)Vyse! Was sollen wir machen?
+Wir erwarten deine Befehle!\e"
+MGA5670004,"\h(«Mal sehen……»)“Risiko eingehen und aggressiv handeln.”
+“Sichergehen und dich dem Feind langsam nähern.”\e"
+MGA5670005,"\h(«Vyse»)Wenn wir immer auf Nummer Sicher gehen, kommen
+wir nicht weit. Volle Kraft voraus und Feuer
+eröffnen! Zeigen wir ihnen, was wir können!!\e"
+MGA5670006,"\h(«Aika»)Zu Befehl!
+Versuchen wir, die Position zum Abfeuern der
+Moon Stone Cannon einzunehmen!\c"
+MGA5670007,"\h(«Vyse»)Wir sollten nicht zu viele Risiken eingehen.
+Wir gehen die Sache langsam an.\e"
+MGA5670008,"\h(«Aika»)Zu Befehl!
+Wir halten Abstand und greifen sie aus großer
+Entfernung an!\c"
+"",M0430
+"",me090a.sct
+"",f7100100S.p04
+"",f7100100S.p04
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld

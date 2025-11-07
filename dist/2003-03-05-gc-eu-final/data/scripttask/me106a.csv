@@ -1,0 +1,448 @@
+[Event Name],Task ID
+MC0080000,"\h(«Marco»)Wait, Vyse!\e"
+MC0080001,"\h(«Vyse»)Marco… you followed us?
+What's wrong?\e"
+MC0080002,"\h(«Marco»)Vyse…
+Don't go… please…\e"
+MC0080003,"\h(«Marco»)My… my mother… and father… were both killed
+by Valuan soldiers while they were trying to
+escape from this city!\e"
+MC0080004,"\h(«Marco»)There's no way out!
+Trying to get through the Grand Fortress… 
+It's impossible!\e"
+MC0080005,"\h(«Marco»)No one has ever escaped from Valua! 
+You're gonna die this time! 
+I just know it!\e"
+MC0080006,"\h(«Vyse»)Your parents…
+I'm… I'm sorry to hear that, Marco.\e"
+MC0080007,"\h(«Vyse»)But, I have to go… I don't have a choice. And 
+every time I hear the word “impossible”… it 
+makes me want to prove everyone wrong.\e"
+MC0080008,"\h(«Vyse»)A long time ago, a handful of sailors took a 
+small boat out into uncharted skies.\e"
+MC0080009,"\h(«Vyse»)They had no idea what they would find…
+Monsters… a maelstrom… the end of the world…\e"
+MC0080010,"\h(«Vyse»)It was because these sailors challenged the
+unknown, that new lands were discovered.\e"
+MC0080011,"\h(«Vyse»)If we challenge ourselves, and never give up,
+our own horizons will broaden… in our hearts,
+and in our minds…\e"
+MC0080012,"\h(«Vyse»)I need to push myself every day. I have to know 
+what I can accomplish… I never give up, and so 
+far, nothing has ever stopped me.\e"
+MC0080013,\h(«Marco»)But… but… Vyse…\e
+MC0080014,"\h(«Vyse»)Don't worry about me.
+I believe that we'll make it out… I will find a
+way… that's what's keeping me going.\e"
+MC0080015,"\h(«Vyse»)I'm going to prove that it's not impossible to 
+escape. Impossible is just a word to let people 
+feel good about themselves when they quit.\e"
+MC0080016,\h(«Marco»)……\e
+MC0080017,"\h(«Marco»)Vyse…
+Do you think I could ever be a sailor?
+If I could ever… sail the skies?\e"
+MC0080018,"\h(«Vyse»)Heh, of course! You've got what it takes…
+I'll be waiting for you… out there!\e"
+MC0080019,\h(«Marco»)Thank you…\e
+MFC0080000,"\h(«Marco»)Attends, Vyse !\e"
+MFC0080001,"\h(«Vyse»)Marco…… tu nous a suivis ?
+Qu'y a-t-il ?\e"
+MFC0080002,"\h(«Marco»)Vyse……
+N'y va pas…… s'il te plaît……\e"
+MFC0080003,"\h(«Marco»)Ma…… ma mère…… et mon père…… ont été tous les
+deux tués par des soldats Valuans en essayant de
+s'échapper de cette ville !\e"
+MFC0080004,"\h(«Marco»)Il n'y a pas de sortie !
+Essayer de pénétrer dans la Grande Forteresse……
+C'est impossible !\e"
+MFC0080005,"\h(«Marco»)Jamais personne n'a réussi à s'échapper de
+Valua ! Cette fois tu vas mourir !
+Je le sais !\e"
+MFC0080006,"\h(«Vyse»)Tes parents……
+Je…… je suis désolé d'apprendre ça, Marco.\e"
+MFC0080007,"\h(«Vyse»)Mais, je dois y aller…… Je n'ai pas le choix. Et
+chaque fois que j'entends le mot “impossible”……
+cela me donne envie de prouver le contraire à
+tout le monde.\e"
+MFC0080008,"\h(«Vyse»)Il y a bien longtemps, une poignée de marins est
+partie en bateau dans des cieux inexplorés.\e"
+MFC0080009,"\h(«Vyse»)Ils ne savaient pas du tout ce qu'ils allaient
+trouver…
+Des monstres…… un maelström…… le bout du monde……\e"
+MFC0080010,"\h(«Vyse»)C'est grâce à ces marins qui ont défié l'inconnu
+que de nouvelles terres ont été découvertes.\e"
+MFC0080011,"\h(«Vyse»)En se lançant des défis, et en persévérant, nos
+propres horizons vont s'élargir…… dans nos
+coeurs, et dans nos têtes……\e"
+MFC0080012,"\h(«Vyse»)J'ai besoin de repousser mes limites chaque
+jour. J'ai besoin de savoir de quoi je suis
+capable…… Je n'abandonne jamais, et jusqu'à
+présent, rien ne m'a arrêté.\e"
+MFC0080013,\h(«Marco»)Mais…… mais…… Vyse……\e
+MFC0080014,"\h(«Vyse»)Ne t'inquiète pas pour moi.
+Je sais que nous nous en sortirons……
+Je trouverai un moyen…… c'est ce qui me donne
+envie de continuer.\e"
+MFC0080015,"\h(«Vyse»)Je vais prouver que ce n'est pas impossible de
+s'échapper. Impossible est un mot qui sert
+d'excuse aux gens qui abandonnent.\e"
+MFC0080016,\h(«Marco»)……\e
+MFC0080017,"\h(«Marco»)Vyse……
+Tu crois que je serai marin un jour ?
+Que je pourrai…… parcourir les cieux ?\e"
+MFC0080018,"\h(«Vyse»)Hé, bien sûr ! Tu es fait pour ça…
+Je t'attendrai…… !\e"
+MFC0080019,\h(«Marco»)Merci……\e
+MGC0080000,"\h(«Marco»)Warte, Vyse!\e"
+MGC0080001,"\h(«Vyse»)Marco…… du bist uns gefolgt?
+Stimmt was nicht?\e"
+MGC0080002,"\h(«Marco»)Vyse……
+Geh nicht…… bitte……\e"
+MGC0080003,"\h(«Marco»)Meine……Mutter…… und mein Vater…… wurden beide
+von Valua-Soldaten getötet, als sie aus dieser
+Stadt zu fliehen versuchten!\e"
+MGC0080004,"\h(«Marco»)Es gibt keinen Ausweg!
+Durch die Grand Fortress durchzukommen……
+Es ist unmöglich!\e"
+MGC0080005,"\h(«Marco»)Noch nie ist jemand aus Valua entkommen!
+Du wirst dabei sterben!
+Da bin ich mir sicher!\e"
+MGC0080006,"\h(«Vyse»)Deine Eltern……
+Das…… tut mir aber Leid, Marco.\e"
+MGC0080007,"\h(«Vyse»)Aber ich muss gehen…… Ich habe keine Wahl.
+Und jedesmal, wenn ich das Wort “unmöglich”
+höre…… möchte ich jedem das Gegenteil beweisen.\e"
+MGC0080008,"\h(«Vyse»)Vor langer Zeit reiste eine Hand voll Matrosen
+mit einem kleinen Boot in unerforschtem
+Luftraum.\e"
+MGC0080009,"\h(«Vyse»)Sie hatten keine Ahnung, was sie dort vorfinden
+würden…… Monster, einen Wirbelsturm…… das Ende
+der Welt……\e"
+MGC0080010,"\h(«Vyse»)Nur weil diese Matrosen das Ungewisse heraus-
+forderten, konnten neue Länder entdeckt werden.\e"
+MGC0080011,"\h(«Vyse»)Wenn wir uns Herausforderungen stellen und nie
+aufgeben, wird sich unser Horizont erweitern……
+in unseren Herzen und in unseren Köpfen……\e"
+MGC0080012,"\h(«Vyse»)Ich muss jeden Tag einen Schritt weiter gehen.
+Ich muss wissen, wozu ich fähig bin…… Ich gebe
+nie auf, und bisher konnte mich nichts stoppen.\e"
+MGC0080013,\h(«Marco»)Aber…… aber…… Vyse……\e
+MGC0080014,"\h(«Vyse»)Kümmere dich nicht um mich.
+Ich bin überzeugt, dass wir ins Freie kommen……
+Ich werde einen Weg finden…… das ist es, was
+mich weiter bringt.\e"
+MGC0080015,"\h(«Vyse»)Ich werde beweisen, dass es nicht unmöglich ist,
+zu entkommen. Unmöglich ist lediglich ein Wort,
+um Leute zu trösten, wenn sie aufgeben.\e"
+MGC0080016,\h(«Marco»)……\e
+MGC0080017,"\h(«Marco»)Vyse……
+Meinst du, ich kann Matrose werden?
+Dass ich die…… Himmel befahren kann?\e"
+MGC0080018,"\h(«Vyse»)He, na klar! Du hast das Zeug dazu……
+Ich werde auf dich warten…… dort draußen!\e"
+MGC0080019,\h(«Marco»)Vielen Dank……\e
+MSC0080000,"\h(«Marco»)¡Espera, Vyse!\e"
+MSC0080001,"\h(«Vyse»)Marco…… ¿nos has estado siguiendo?
+¿Qué pasa?\e"
+MSC0080002,"\h(«Marco»)Vyse……
+No te vayas…… por favor……\e"
+MSC0080003,"\h(«Marco»)Mi…… mi madre…… y mi padre…… ¡Los soldados
+Valuan los mataron mientras intentaban escapar
+de esta ciudad!\e"
+MSC0080004,"\h(«Marco»)¡No hay salida!
+Cruzar la Gran Fortaleza……
+¡es imposible!\e"
+MSC0080005,"\h(«Marco»)¡Nadie ha logrado escapar de Valua!
+¡Esta vez vas a morir!
+¡Lo sé!\e"
+MSC0080006,"\h(«Vyse»)Tus padres……
+Siento…… Siento mucho oír eso, Marco.\e"
+MSC0080007,"\h(«Vyse»)Pero tengo que irme…… No tengo elección. Cada
+vez que oigo la palabra “imposible”…… me entran
+ganas de demostrar a todos que se equivocan.\e"
+MSC0080008,"\h(«Vyse»)Hace muchos años, un puñado de marinos fletó un
+pequeño bote en los cielos inexplorados.\e"
+MSC0080009,"\h(«Vyse»)No tenían ni idea de qué se iban a encontrar……
+monstruos…… un remolino…… el límite del mundo……\e"
+MSC0080010,"\h(«Vyse»)Gracias a que estos marinos desafiaron lo
+desconocido, estas tierras fueron descubiertas.\e"
+MSC0080011,"\h(«Vyse»)Si nos ponemos retos y no abandonamos nunca, se
+amplían nuestros propios horizontes…… en
+nuestros corazones y en nuestras mentes……\e"
+MSC0080012,"\h(«Vyse»)Todos los días me esfuerzo por superarme. Tengo
+que saber de lo que soy capaz…… Nunca me rindo
+y, hasta ahora, nada ha logrado detenerme.\e"
+MSC0080013,\h(«Marco»)Pero…… pero…… Vyse……\e
+MSC0080014,"\h(«Vyse»)No te preocupes por mí.
+Creo que lo lograremos…… Encontraré la manera……
+Eso es lo que me mantiene con vida.\e"
+MSC0080015,"\h(«Vyse»)Te demostraré que no es imposible escapar.
+Imposible es una palabra creada para que la
+gente que se rinde se sienta aliviada.\e"
+MSC0080016,\h(«Marco»)……\e
+MSC0080017,"\h(«Marco»)Vyse……
+¿crees que alguna vez podría ser un marino?
+¿Podré algún día…… surcar los cielos?\e"
+MSC0080018,"\h(«Vyse»)¡Eh, por supuesto! Tienes lo que hay que tener……
+Te estaré esperando…… ¡ahí fuera!\e"
+MSC0080019,\h(«Marco»)Gracias……\e
+M01060000,"\h(«Marco»)Hey… You really did it. You rescued your
+friends. I can't believe it. You really are
+something…\e"
+M01060001,"\h(«Vyse»)Marco!
+What are you doing here?\e"
+M01060002,"\h(«Marco»)I told you before, right? I live here.
+I know everything about these sewers.\e"
+M01060003,"\h(«Marco»)This wall was built with a secret door.
+I took your friends into the secret room just
+behind me.\c"
+M01060004,"\h(«Marco»)Your friends are waiting in the room right
+behind me. Hurry up before the guards get smart
+and come looking through this area.\c"
+M01060005,"\h(«Briggs the Vice Captain»)Alright, we managed to get out of the Coliseum,
+but now what? We still have to get out of Valua.
+And that's no easy task by any measure.\c"
+M01060006,"\h(«Timmus the Gunner»)Heh… It's been a while since I've had so much
+fun! How often do we get to pound on Valuans in
+their own country?\c"
+M01060007,"\h(«Borris the Gunner»)When they were moving us, they put us on some
+sort of rail car. I've never seen anything like
+that before in my whole life.\e"
+M01060008,"\h(«Borris the Gunner»)They got these metal boxes all lined up
+one after the other, like some big, long
+bug… That's one strange way to get places.\c"
+M01060009,"\h(«Landis the Navigator»)I can't believe you actually did it, Vyse!
+You showed those Valuans a thing or two!
+Haha… You were great!\c"
+M01060010,"\h(«Luke the Raider»)You never cease to amaze me.
+I never would have thought
+I'd see you here.\e"
+M01060011,"\h(«Luke the Raider»)But I'm glad you showed up.
+We all owe you one.\c"
+M01060012,"\h(«Patch the Deckhand»)There are no signs of anyone following us. But,
+it's probably just a matter of time before they
+find this place, too.\e"
+M01060013,"\h(«Patch the Deckhand»)Now we just have to try and figure a way to get
+out of Valua. Heh… Easier said than done, I
+suppose. But, we've made it this far, at least…\c"
+M01060014,"\h(«Dyne»)Vyse! What are you doing? We need to decide on
+some sort of plan here! Everyone's lives are at
+stake! Don't go wandering around!\c"
+M01060015,"\h(«Vyse»)… Hm? Is it just me, or is the color of
+the wall here a little different from
+everywhere else? It's probably nothing.\c"
+M01060016,"\h(«Vyse»)This is where the secret door that led to Upper
+City was, but it won't budge.\e"
+M01060017,"\h(«Vyse»)Marco is probably the only person who knows how
+to open it. Oh well… I guess there isn't much I
+can do.\c"
+M01060020,"\h(«Vyse»)It looks like this ladder leads straight up into
+the Coliseum…\e"
+M01060021,"\h(«What will you do?»)“Break into the Coliseum!”
+“Finish up some preparations first.”\c"
+M01060018,"\h(«Vyse»)The Coliseum is in a state of confusion right
+now. We really need to get everyone out of here
+while we have the chance.\c"
+M01060019,"\h(«Vyse»)The Coliseum is probably crawling with guards.
+I'd rather not get caught right now, so it's
+probably better not to climb up the ladder.\c"
+MF01060000,"\h(«Marco»)Hé…… Vous avez réussi. Vous avez sauvé vos amis.
+C'est incroyable. Vous êtes exceptionnel……\e"
+MF01060001,"\h(«Vyse»)Marco !
+Que faites-vous ici ?\e"
+MF01060002,"\h(«Marco»)Je vous l'ai déjà dit, non ? J'habite ici.
+Je connais ces égouts par coeur.\e"
+MF01060003,"\h(«Marco»)Une porte secrète a été construite dans le mur.
+J'ai emmené vos amis dans la pièce secrète
+derrière moi.\c"
+MF01060004,"\h(«Marco»)Vos amis attendent dans la pièce juste derrière
+moi. Dépêchez-vous avant que les gardes
+comprennent et viennent chercher par ici.\c"
+MF01060005,"\h(«Briggs le Vice Capitaine»)Très bien, nous avons réussi à sortir du
+Coliseum, et maintenant ? Il faut sortir de
+Valua. Et ce n'est certainement pas chose
+facile.\c"
+MF01060006,"\h(«Timmus le Canonnier»)Hé…… Je ne m'étais pas autant amusé depuis
+longtemps ! Ce n'est pas tous les jours que nous
+écrasons les Valuans sur leur propre
+territoire !\c"
+MF01060007,"\h(«Borris le Canonnier»)Pour nous transférer, ils nous ont mis sur une
+sorte d'autorail. Je n'ai jamais rien vu de
+pareil de ma vie.\e"
+MF01060008,"\h(«Borris le Canonnier»)Ils ont des boîtes métalliques alignées les unes
+après les autres, comme une sorte de grosse
+chenille…… C'est un étrange moyen de
+transport.\c"
+MF01060009,"\h(«Landis le Navigateur»)Je n'arrive pas à croire que vous ayez réussi,
+Vyse ! Vous leur avez appris à vivre à ces
+Valuans ! Haha…… Vous avez été formidable !\c"
+MF01060010,"\h(«Luke le Braqueur»)Vous m'étonnerez toujours.
+Je ne pensais pas vous voir un jour ici.\e"
+MF01060011,"\h(«Luke le Braqueur»)Mais je suis content que vous soyez venu.
+Nous vous redevrons cela.\c"
+MF01060012,"\h(«Patch le Matelot»)Personne n'est à nos trousses. Mais, ils ne vont
+probablement pas tarder à trouver cet endroit.\e"
+MF01060013,"\h(«Patch le Matelot»)Maintenant il faut trouver un moyen de sortir de
+Valua. Hé…… C'est plus facile à dire qu'à faire,
+j'imagine. Mais, au moins nous sommes arrivés
+jusque là……\c"
+MF01060014,"\h(«Dyne»)Vyse ! Que faites-vous ? Il faut élaborer un
+plan ! Nos vies sont en jeu ! N'allez pas à
+droite et à gauche !\c"
+MF01060015,"\h(«Vyse»)…… Hum ? C'est mon imagination ou est-ce que la
+couleur du mur est un peu différente ici ?
+C'est sûrement rien.\c"
+MF01060016,"\h(«Vyse»)C'est là qu'il y avait la porte secrète qui
+menait à Haut Valua, mais elle ne bouge pas.\e"
+MF01060017,"\h(«Vyse»)Marco doit être la seule personne à savoir
+l'ouvrir. Oh tant pis…… Je suppose que je n'y
+peux pas grand chose.\c"
+MF01060020,"\h(«Vyse»)On dirait que cette échelle mène tout droit au
+Coliseum……\e"
+MF01060021,"\h(«Que ferez-vous ?»)“Vous entrerez par effraction dans le Coliseum!”
+“Vous finirez d'abord quelques préparations.”\c"
+MF01060018,"\h(«Vyse»)C'est la panique au Coliseum. Il faut vraiment
+faire sortir tout le monde d'ici tant que nous
+en avons l'occasion.\c"
+MF01060019,"\h(«Vyse»)Ça doit grouiller de gardes au Coliseum.
+Je n'ai pas envie de me faire prendre, donc il
+ne vaut mieux pas monter à l'échelle.\c"
+MG01060000,"\h(«Marco»)He…… du hast es geschafft. Du hast deine
+Freunde gerettet. Ich kann's nicht glauben.
+Du hast wirklich was auf dem Kasten……\e"
+MG01060001,"\h(«Vyse»)Marco!
+Was machst du denn hier?\e"
+MG01060002,"\h(«Marco»)Habe ich dir doch schon gesagt, oder?
+Ich wohne hier. Ich weiß alles über diese
+unterirdischen Gänge.\e"
+MG01060003,"\h(«Marco»)In dieser Wand ist eine Geheimtür.
+Ich habe deine Freunde mit in das Geheimzimmer
+gleich hinter mir genommen.\c"
+MG01060004,"\h(«Marco»)Deine Freunde warten im Zimmer direkt hinter
+mir. Beeil dich, bevor die Wachen etwas
+bemerken und diesen Bereich durchsuchen.\c"
+MG01060005,"\h(«Briggs, der Vizekapitän»)Also, wir haben es geschafft, aus dem Coliseum
+zu entfliehen, aber was jetzt? Wir müssen nach
+wie vor aus Valua heraus. Und das ist in
+keinerlei Hinsicht einfach.\c"
+MG01060006,"\h(«Timmus, der Kanonier»)He…… es ist schon lange her, dass ich so viel
+Spaß hatte! Wie oft haben wir schon Gelegenheit,
+den Valuanern in ihrem eigenen Land eine Tracht
+Prügel zu verpassen?\c"
+MG01060007,"\h(«Borris, der Kanonier»)Zum Transport haben sie
+uns in so eine Art Schienenwagen gesetzt.
+Ich habe so etwas noch nie zuvor gesehen.\e"
+MG01060008,"\h(«Borris, der Kanonier»)Da war ein Haufen Metallkästen, einer nach dem
+anderen aneinander gereiht, so wie ein großer,
+langer Käfer…… eine seltsame Art zu reisen.\c"
+MG01060009,"\h(«Landis, der Navigator»)Ich kann's nicht glauben, dass du es geschafft
+hast, Vyse! Du hast es diesen Valuanern
+vielleicht gezeigt! Haha…… Du warst toll!\c"
+MG01060010,"\h(«Luke, der Räuber»)Du kannst einen vielleicht überraschen.
+Ich hätte nie gedacht, dass ich dich hier
+antreffen würde.\e"
+MG01060011,"\h(«Luke, der Räuber»)Aber ich bin froh, dass du gekommen bist.
+Wir stehen alle in deiner Schuld.\c"
+MG01060012,"\h(«Patch, der Hilfsmatrose»)Es sieht nicht so aus, als würden wir verfolgt.
+Aber es ist wahrscheinlich nur eine Frage der
+Zeit, bevor sie auch das hier finden.\e"
+MG01060013,"\h(«Patch, der Hilfsmatrose»)Jetzt müssen wir erst einmal versuchen, aus
+Valua herauszukommen. He…… leichter gesagt als
+getan, würde ich sagen. Aber bis hier haben wir
+es jedenfalls geschafft……\c"
+MG01060014,"\h(«Dyne»)Vyse! Was machst du? Wir müssen uns für
+irgendeinen Plan entscheiden! Unser aller Leben
+steht auf dem Spiel! Lauf nicht einfach in der
+Gegend herum!\c"
+MG01060015,"\h(«Vyse»)……Hm? Sehe ich schlecht, oder sieht die Farbe
+dort an der Wand etwas anders aus? Das hat
+wahrscheinlich nichts zu bedeuten.\c"
+MG01060016,"\h(«Vyse»)Das ist die Stelle, wo die Geheimtür war, die
+nach Upper City führte, aber sie gibt nicht
+nach.\e"
+MG01060017,"\h(«Vyse»)Marco ist wahrscheinlich der Einzige, der
+sie öffnen kann. Na ja…… schätze, da kann
+man nicht viel machen.\c"
+MG01060020,"\h(«Vyse»)Es sieht so aus, als führte diese Leiter direkt
+ins Coliseum……\e"
+MG01060021,"\h(«Was wirst du tun?»)“Ins Coliseum einbrechen!”
+“Erst einige Vorbereitungen treffen.”\c"
+MG01060018,"\h(«Vyse»)Das Coliseum ist im Moment im Zustand der
+Verwirrung. Wir müssen wirklich alle
+herausbekommen, solange wir die Gelegenheit
+haben.\c"
+MG01060019,"\h(«Vyse»)Das Coliseum wimmelt wahrscheinlich vor
+Wachen. Ich möchte nicht gefangen werden,
+also wäre es wahrscheinlich besser, nicht
+die Leiter hinaufzusteigen.\c"
+MS01060000,"\h(«Marco»)Lo has conseguido…… Has rescatado a tus amigos.
+No puedo creerlo. Desde luego eres increíble.\e"
+MS01060001,"\h(«Vyse»)¡Marco!
+¿Qué haces aquí?\e"
+MS01060002,"\h(«Marco»)Ya te lo he dicho, ¿no lo recuerdas? Vivo aquí.
+Conozco estas alcantarillas como la palma de mi
+mano.\e"
+MS01060003,"\h(«Marco»)En este muro edificaron una puerta secreta.
+A tus amigos los he llevado a una habitación
+secreta que está justo detrás de mí.\c"
+MS01060004,"\h(«Marco»)Tus amigos te esperan en la habitación que está
+detrás de mí. Date prisa no vaya a ser que los
+guardias se enteren y vengan a mirar aquí.\c"
+MS01060005,"\h(«El Vicecapitán Briggs»)Muy bien, nos las hemos arreglado para escapar
+del Coliseo, ¿y ahora qué? Aún tenemos que huir
+de Valua. Y eso no va a ser nada fácil.\c"
+MS01060006,"\h(«Timmus el Cañonero»)Je…… ¡Hacía tiempo que no me lo pasaba tan bien!
+¿Cuántas ocasiones hay para batir a los Valuan
+en su propia casa?\c"
+MS01060007,"\h(«Borris el Cañonero»)Cuando nos trasladaron, nos pusieron en una
+especie de coche por raíles. En mi vida había
+visto nada semejante.\e"
+MS01060008,"\h(«Borris el Cañonero»)Alinearon estas cajas metálicas, una detrás de
+otra, e hicieron como un gusano enorme…… Me
+pareció una forma rarísima de moverse.\c"
+MS01060009,"\h(«Landis el Navegante»)¡No puedo creer que llegaras a hacerlo, Vyse!
+¡Les has dado una buena lección a esos Valuan!
+Ja, ja, ja…… ¡Has estado genial!\c"
+MS01060010,"\h(«Luke el Corsario»)Nunca dejas de sorprenderme.
+Nunca hubiera pensado que te encontraría aquí.\e"
+MS01060011,"\h(«Luke el Corsario»)Pero me alegro de verte.
+Sabes que te debemos una.\c"
+MS01060012,"\h(«Patch el Cabo»)No hay señales de que nos sigan. Pero es
+cuestión de tiempo que encuentren este sitio.\e"
+MS01060013,"\h(«Patch el Cabo»)Ahora sólo tenemos que planear el modo de salir
+de Valua. Es fácil decirlo pero no hacerlo.
+Al menos hemos llegado hasta aquí……\c"
+MS01060014,"\h(«Dyne»)¡Vyse! ¿Qué haces? ¡Tenemos que trazar algún
+plan! ¡Hay muchas vidas en juego! ¡No puedes
+perder el tiempo divagando!\c"
+MS01060015,"\h(«Vyse»)…… Esto…… ¿Son imaginaciones mías o el color de
+la pared es un poco distinto por aquí?
+Probablemente no sea nada importante.\c"
+MS01060016,"\h(«Vyse»)Aquí está la puerta secreta que llevaba
+al Centro de la Ciudad, pero no se abre.\e"
+MS01060017,"\h(«Vyse»)Marco es la única persona que sabe cómo abrirla.
+Bueno…… creo que no podemos hacer mucho más.\c"
+MS01060020,\h(«Vyse»)Esta escalera lleva directamente al Coliseo……\e
+MS01060021,"\h(«¿Qué vas a hacer?»)“¡Entrar en el Coliseo!”
+“Terminar antes con otros preparativos.”\c"
+MS01060018,"\h(«Vyse»)En estos momentos el Coliseo se halla sumido en
+la confusión. Tenemos que sacarlos a todos de
+aquí, ahora que tenemos la oportunidad.\c"
+MS01060019,"\h(«Vyse»)El Coliseo estará plagado de guardias. No quiero
+me cojan ahora, así que mejor será no subir por
+la escalera en este momento.\c"
+"",me230a.sct
+"",me106c.sct
+"",me005b.sct
+"",me106b.sct
+"",M0325
+"",M0249
+"",m5060000
+"",a106ac08.mld
+"",a106ac08.mld
+"",a106ac08_efe.mld
+"",a106ac08_efe.mld
+"",e6c008
+"",M0318
+"",a106ac08.mld
+"",a106ac08_efe.mld

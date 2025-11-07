@@ -1,0 +1,2163 @@
+[Event Name],Task ID
+Ms017c000,"\h(«Vyse»)It's a model of the Delphinus
+that Brabham made, based on
+some designs he found on board.\c"
+Ms017c001,"\h(«Vyse»)These are all books that Enrique brought
+from Valua. This must be why he knows
+so many tidbits of information.\c"
+Ms017c002,"\h(«Vyse»)“Crew Talent Show”
+“Cleanup Duties of the Underground Harbor”
+… Interesting.\c"
+Ms017c003,"\h(«Vyse»)Now that's a big painting… Enrique said that
+his mother had this painted for him when they
+started building the Delphinus.\c"
+Ms017c004,"\h(«Vyse»)This is the treasure we stole.
+The treasure box was full of Moon Stones…
+Not a bad catch, if I do say so myself!\c"
+Ms017c005,"\h(«Vyse»)There's maps from all over the world.
+Maps are really valuable to any sailor,
+so they need to be stored carefully.\c"
+Ms017c006,"\h(«Vyse»)It's my travel log. All bridge officers keep
+their own logs. Aika and Fina both have one,
+although I don't know where they keep them.\c"
+MFs017c000,"\h(«Vyse»)Voici une maquette du Delphinus construite par
+Brabham. Il s'est basé sur des plans qu'il a
+trouvés à bord.\c"
+MFs017c001,"\h(«Vyse»)Ce sont tous les livres qu'Enrique a rapportés
+de Valua. Voilà sûrement pourquoi il sait tant
+de choses.\c"
+MFs017c002,"\h(«Vyse»)“Spectacle de l'équipage”
+“Corvée de nettoyage du Port Souterrain”
+…… Intéressant.\c"
+MFs017c003,"\h(«Vyse»)Eh bien, voici une grande peinture…… D'après
+Enrique, sa mère l'a faite peindre pour lui
+quand ils ont commencé à construire le
+Delphinus.\c"
+MFs017c004,"\h(«Vyse»)C'est le trésor que nous avons volé.
+Le coffre était plein de Pierres de Lune……
+Ce n'est pas une mauvaise prise, si je peux
+m'exprimer ainsi !\c"
+MFs017c005,"\h(«Vyse»)Il y a des cartes du monde entier.
+Les cartes sont très précieuses pour les
+marins, c'est pourquoi elles doivent être
+rangées avec soin.\c"
+MFs017c006,"\h(«Vyse»)C'est mon journal de bord. Tous les officiers de
+pont tiennent un journal de bord. Aika et Fina
+en ont un, bien que je ne sache pas où elles le
+rangent.\c"
+MGs017c000,"\h(«Vyse»)Es ist ein Modell der Delphinus, das
+Brabham gemacht hat. Es basiert auf einigen
+Entwürfen, die er an Bord gefunden hat.\c"
+MGs017c001,"\h(«Vyse»)Das sind alles Bücher, die Enrique von
+Valua mitgebracht hat. Deshalb kennt
+er wahrscheinlich auch so viele Sachen.\c"
+MGs017c002,"\h(«Vyse»)“Crew-Talentshow”
+“Aufräumaufgaben für den Untergrundhafen”
+…… Interessant.\c"
+MGs017c003,"\h(«Vyse»)Nun, das ist ein großes Bild…… Enrique
+erzählte, dass seine Mutter es für ihn malen
+ließ, als sie anfingen, die Delphinus zu bauen.\c"
+MGs017c004,"\h(«Vyse»)Das ist unser erbeuteter Schatz.
+Die Schatzkiste war voller Moon Stones……
+Kein schlechter Fang, wenn ich das sagen darf!\c"
+MGs017c005,"\h(«Vyse»)Karten von der ganzen Welt. Karten sind
+für jeden Segler von hohem Wert, deshalb müssen
+sie sicher gelagert werden.\c"
+MGs017c006,"\h(«Vyse»)Das ist mein Reise-Logbuch. Alle Offiziere der
+Kommandobrücke haben ihre eigenen Logbücher.
+Aika and Fina haben beide eins. Obwohl ich nicht
+weiß, wo sie sie aufbewahren.\c"
+MSs017c000,"\h(«Vyse»)Es un modelo del Delphinus que hizo Brabham,
+basándose en diseños que encontró a bordo.\c"
+MSs017c001,"\h(«Vyse»)Todos estos libros los trajo Enrique de Valua.
+Por eso debe de saber tanto.\c"
+MSs017c002,"\h(«Vyse»)“Los talentos de la Tripulación.”
+“Turnos de Limpieza del Puerto.”
+Qué interesante……\c"
+MSs017c003,"\h(«Vyse»)¡Qué pintura más grande! Enrique dijo
+que su madre pintó esto para él cuando
+empezaron a construir el Delphinus.\c"
+MSs017c004,"\h(«Vyse»)Éste es el tesoro que robamos. El cofre del
+tesoro estaba lleno de Piedras Lunares.
+¡Un buen botín, a decir verdad!\c"
+MSs017c005,"\h(«Vyse»)Hay mapas de todo el mundo. Los mapas son
+muy valiosos para cualquier marinero,
+así que se deben guardar con cuidado.\c"
+MSs017c006,"\h(«Vyse»)Es mi cuaderno de bitácora. Todos los oficiales
+de mando tienen uno. Aika y Fina también
+tienen, aunque no sé dónde lo guardan.\c"
+M14050000,"\h(«Domingo»)Hey Vyse, how's it going? 
+Still trying to explore as much of the world as
+you can, I see.\e"
+M14050001,\h(«Domingo»)Well then… let me check out your Discovery Log.\e
+M14050002,"\h(«Domingo»)Ah, you've made xx Discoveries!\e"
+M14050003,"\h(«Domingo»)I'm disappointed in you, Vyse! If this is the 
+best you can do, you'll never be 
+remembered as a great explorer.\e"
+M14050004,"\h(«Domingo»)If you find any more artifacts, or make any more
+discoveries, come back and see me. If you 
+impress me, I'll make sure you are rewarded.\c"
+M14050005,\h(«Domingo»)Hmm… You've made xx Discoveries.\e
+M14050006,\h(«Domingo»)You haven't found much since I last saw you.\e
+M14050007,\h(«Domingo»)I'll give you something when you find some more.\e
+M14050008,"\h(«Domingo»)Not bad, you've made \c Discoveries!\e"
+M14050009,"\h(«Domingo»)That's much better, Vyse. You've done 
+extraordinarily well. I wouldn't expect less 
+from a renowned sailor like yourself.\e"
+M14050010,"\h(«Domingo»)As I promised, I'll reward you.\e"
+M14050011,\h( )You got (gift at 30)!\e
+M14050012,"\h(«Domingo»)If you make some more Discoveries, 
+I'll reward you again.\e"
+M14050013,"\h(«Domingo»)Wow, you've made xx Discoveries!\e"
+M14050014,"\h(«Domingo»)That's the spirit! Finding someone with 
+a Discovery Log as full as yours would be 
+a discovery in itself.\e"
+M14050015,"\h(«Domingo»)Like I promised… here's a little
+something I put together for you.\e"
+M14050016,"\h( )You received a “Paranta Seed,” “Icyl Seed,”
+“Zaal Seed,” and a “Sylph Seed.”\e"
+M14050017,"\h(«Domingo»)Once you make 64 Discoveries, I'll give you
+another present.\c"
+M14050018,\h(«Domingo»)Whoa! You've made xx Discoveries!\e
+M14050019,"\h(«Domingo»)Now THAT'S impressive! 
+You really are something else!\e"
+M14050020,"\h(«Domingo»)You're one of the greatest explorers 
+of our time. You've earned this!\e"
+M14050021,\h( )You received 1 “White Map.”\e
+M14050022,"\h(«Domingo»)Now, if you can completely fill up your
+Discovery Log, then I will give you 
+my most prized possession!\c"
+M14050118,"\h(ｫDomingoｻ)Wow!
+You've made ＊＊ Discoveries already!\e"
+M14050119,"\h(«Domingo»)You really are great, Vyse!
+Not many people can boast discovering this many
+things a single lifetime, you know.\e"
+M14050120,"\h(«Domingo»)You really are the greatest Air Pirate that ever
+lived! Well, I believe so, anyway. But, like I
+promised, here's your gift!\e"
+M14050121,"\h( )You received a “Paranta Seed,” “Icyl Seed,”
+“Zaal Seed,” and a “Sylph Seed.”\e"
+M14050122,\h( )You received 1 “White Map.”\e
+M14050123,"\h(«Domingo»)Now, if you can completely fill up your
+Discovery Log, then I will give you my
+most prized possession.\c"
+M14050023,\h(«Domingo»)Vyse! You've completely filled your Log Book!\e
+M14050024,\h(«Domingo»)You're amazing!\e
+M14050025,"\h(«Domingo»)Vyse, you are one of the greatest explorers in 
+history! Not even the Legendary Daccat can
+measure up to you!\e"
+M14050026,"\h(«Domingo»)You are worthy of my most prized possession!
+You can have my title as “Treasure Hunter
+Extraordinaire!”\e"
+M14050027,\h( )You got (gift at 30)!\e
+M14050028,"\h( )You received a “Paranta Seed,” “Icyl Seed,”
+“Zaal Seed,” and a “Sylph Seed.”\e"
+M14050029,\h( )You received 1 “White Map.”\e
+M14050030,\h( )You received “Domingo's Title.”\c
+M14050031,\h(«Domingo»)Vyse! You've completely filled your Log Book!\e
+M14050032,\h(«Domingo»)You're amazing!\e
+M14050033,"\h(«Domingo»)Vyse, you are one of the greatest explorers in 
+history! Not even the Legendary Daccat can
+measure up to you!\e"
+M14050034,"\h(«Domingo»)You are worthy of my most prized possession!
+You can have my title as “Treasure Hunter
+Extraordinaire!”\e"
+M14050035,"\h( )You received a “Paranta Seed,” “Icyl Seed,”
+“Zaal Seed,” and a “Sylph Seed.”\e"
+M14050036,\h( )You received 1 “White Map.”\e
+M14050037,\h( )You received “Domingo's Title.”\c
+M14050038,\h(«Domingo»)Vyse! You've completely filled your Log Book!\e
+M14050039,\h(«Domingo»)You're amazing!\e
+M14050040,"\h(«Domingo»)Vyse, you are one of the greatest explorers in 
+history! Not even the Legendary Daccat can
+measure up to you!\e"
+M14050041,"\h(«Domingo»)You are worthy of my most prized possession!
+You can have my title as “Treasure Hunter
+Extraordinaire!”\e"
+M14050042,\h( )You received a “White Map.”\e
+M14050043,\h( )You received “Domingo's Title.”\c
+M14050044,\h(«Domingo»)Vyse! You've completely filled your Log Book!\e
+M14050045,\h(«Domingo»)You're amazing!\e
+M14050046,"\h(«Domingo»)Vyse, you are one of the greatest explorers in 
+history! Not even the Legendary Daccat can
+measure up to you!\e"
+M14050047,"\h(«Domingo»)You are worthy of my most prized possession!
+You can have my title as “Treasure Hunter
+Extraordinaire!”\e"
+M14050048,\h( )You received “Domingo's Title.”\c
+M14050049,"\h(«Domingo»)Vyse! You are the greatest explorer the world
+has ever known!\e"
+M14050050,\h(«Domingo»)It is an honor to have met you.\c
+MF14050000,"\h(«Domingo»)Hé Vyse, comment ça va ?
+Je vois que vous avez toujours l'intention
+d'explorer le monde entier.\e"
+MF14050001,"\h(«Domingo»)Bon…… alors laissez-moi voir votre Registre des
+Découvertes.\e"
+MF14050002,"\h(«Domingo»)Ah, vous avez fait \c Découvertes !\e"
+MF14050003,"\h(«Domingo»)Vous me décevez, Vyse ! Si c'est tout ce dont
+vous êtes capable, on ne se souviendra jamais de
+vous en tant que grand explorateur.\e"
+MF14050004,"\h(«Domingo»)Si vous pouvez trouver d'autres artefacts, ou
+faites d'autres découvertes, revenez me voir. Si
+vous arrivez à m'impressionner, vous serez
+récompensé.\c"
+MF14050005,\h(«Domingo»)Humm…… Vous avez fait \c Découvertes.\e
+MF14050006,"\h(«Domingo»)Vous n'avez pas trouvé grand chose depuis la
+dernière fois que je vous ai vu.\e"
+MF14050007,"\h(«Domingo»)Je vous donnerai quelque chose en échange quand
+vous en trouverez d'autres.\e"
+MF14050008,"\h(«Domingo»)Pas mal, vous avez fait \c Découvertes !\e"
+MF14050009,"\h(«Domingo»)C'est beaucoup mieux, Vyse. Vous avez fait du
+bon travail. Je n'en attendais pas moins d'un
+marin aussi réputé.\e"
+MF14050010,"\h(«Domingo»)Comme promis, je vais vous récompenser.\e"
+MF14050011,\h( )Vous avez obtenu un (cadeau à 30) !\e
+MF14050012,"\h(«Domingo»)Si vous faites d'autres Découvertes,
+je vous récompenserai.\e"
+MF14050013,"\h(«Domingo»)Oh là là, vous avez fait \c Découvertes !\e"
+MF14050014,"\h(«Domingo»)Je préfère ça ! Trouver quelqu'un avec un
+Registre des Découvertes comme le vôtre, c'est
+déjà une découverte.\e"
+MF14050015,\h(«Domingo»)Comme promis…… voilà ce que je vous ai gardé.\e
+MF14050016,"\h( )Vous avez reçu une “Graine Paranta,” une “Graine
+Icyl,” une “Graine Zaal,” et une “Graine
+Sylph.”\e"
+MF14050017,"\h(«Domingo»)Quand vous aurez 64 Découvertes, je vous ferai
+un autre cadeau.\c"
+MF14050018,\h(«Domingo»)Oh là là ! Vous avez fait \c Découvertes !\e
+MF14050019,"\h(«Domingo»)ÇA c'est impressionnant !
+Vous êtes de sacrés pirates !\e"
+MF14050020,"\h(«Domingo»)Vous êtes les plus grands explorateurs de notre
+époque. Vous avez mérité ça !\e"
+MF14050021,\h( )Vous avez reçu “Carte Blanche.” x 1 !\e
+MF14050022,"\h(«Domingo»)Si vous pouvez compléter votre Registre des
+Découvertes, je vous donnerai ce que j'ai de
+plus précieux !\c"
+MF14050118,"\h(«Domingo»)Oh là là !
+Vous avez déjà fait \c Découvertes !\e"
+MF14050119,"\h(«Domingo»)Vous êtes formidable, Vyse !
+Peu de gens peuvent se vanter d'avoir fait
+autant de découvertes dans une vie, vous savez.\e"
+MF14050120,"\h(«Domingo»)Vous êtes vraiment le meilleur Pirate de l'Air
+qui ait jamais existé ! En tout cas, c'est ce
+que je pense. Mais, comme promis, voilà votre
+cadeau !\e"
+MF14050121,"\h( )Vous avez reçu une “Graine Paranta,” une
+“Graine Icyl,” une “Graine Zaal,” et une
+“Graine Sylph.”\e"
+MF14050122,\h( )Vous avez reçu “Carte Blanche.” x 1 !\e
+MF14050123,"\h(«Domingo»)Si vous pouvez compléter votre Registre des
+Découvertes, je vous donnerai ce que j'ai de
+plus précieux !\c"
+MF14050023,\h(«Domingo»)Vyse ! Vous avez complété le Registre !\e
+MF14050024,\h(«Domingo»)Vous êtes incroyable !\e
+MF14050025,"\h(«Domingo»)Vyse, vous êtes le plus grand explorateur de
+l'histoire ! Même le Légendaire Daccat ne vous
+arrive pas à la cheville !\e"
+MF14050026,"\h(«Domingo»)Vous valez bien tout ce que j'ai de plus
+précieux ! Vous pouvez avoir mon titre
+d'“Extraordinaire Chasseur de trésors !”\e"
+MF14050027,\h( )Vous avez obtenu un (cadeau à 30) !\e
+MF14050028,"\h( )Vous avez reçu une “Graine Paranta,” une
+“Graine Icyl,” une “Graine Zaal,” et une
+“Graine Sylph.”\e"
+MF14050029,\h( )Vous avez reçu “Carte Blanche.” x 1 !\e
+MF14050030,\h( )Vous avez reçu le “Titre de Domingo.”\c
+MF14050031,\h(«Domingo»)Vyse ! Vous avez complété le Registre !\e
+MF14050032,\h(«Domingo»)Vous êtes incroyable !\e
+MF14050033,"\h(«Domingo»)Vyse, vous êtes le plus grand explorateur de
+l'histoire ! Même le Légendaire Daccat ne vous
+arrive pas à la cheville !\e"
+MF14050034,"\h(«Domingo»)Vous valez bien tout ce que j'ai de plus
+précieux ! Vous pouvez avoir mon titre
+d'“Extraordinaire Chasseur de trésors !”\e"
+MF14050035,"\h( )Vous avez reçu une “Graine Paranta,” une
+“Graine Icyl,” une “Graine Zaal,” et une
+“Graine Sylph.”\e"
+MF14050036,\h( )Vous avez reçu “Carte Blanche.” x 1 !\e
+MF14050037,\h( )Vous avez reçu le “Titre de Domingo.”\c
+MF14050038,\h(«Domingo»)Vyse ! Vous avez complété le Registre !\e
+MF14050039,\h(«Domingo»)Vous êtes incroyable !\e
+MF14050040,"\h(«Domingo»)Vyse, vous êtes le plus grand explorateur de
+l'histoire ! Même le Légendaire Daccat ne vous
+arrive pas à la cheville !\e"
+MF14050041,"\h(«Domingo»)Vous valez bien tout ce que j'ai de plus
+précieux ! Vous pouvez avoir mon titre
+d'“Extraordinaire Chasseur de trésors !”\e"
+MF14050042,\h( )Vous avez reçu “Carte Blanche.” x 1 !\e
+MF14050043,\h( )Vous avez reçu le “Titre de Domingo.”\c
+MF14050044,\h(«Domingo»)Vyse ! Vous avez complété le Registre !\e
+MF14050045,\h(«Domingo»)Vous êtes incroyable !\e
+MF14050046,"\h(«Domingo»)Vyse, vous êtes le plus grand explorateur de
+l'histoire ! Même le Légendaire Daccat ne vous
+arrive pas à la cheville !\e"
+MF14050047,"\h(«Domingo»)Vous valez bien tout ce que j'ai de plus
+précieux ! Vous pouvez avoir mon titre
+d'“Extraordinaire Chasseur de trésors !”\e"
+MF14050048,\h( )Vous avez reçu le “Titre de Domingo.”\c
+MF14050049,"\h(«Domingo»)Vyse ! Vous êtes le plus grand explorateur que
+le monde ait jamais connu !\e"
+MF14050050,\h(«Domingo»)Je suis honoré de vous avoir rencontré.\c
+MG14050000,"\h(«Domingo»)He, Vyse, wie geht's?
+Versuchst du noch immer, so viel wie möglich von
+der Welt zu sehen?\e"
+MG14050001,"\h(«Domingo»)Also dann…… lass mal dein Discovery Log
+sehen.\e"
+MG14050002,"\h(«Domingo»)Ah, du hast \c Entdeckungen gemacht!\e"
+MG14050003,"\h(«Domingo»)Ich bin enttäuscht von dir, Vyse! Wenn das
+alles ist, was du kannst, wird man dich nie
+als großen Entdecker in Erinnerung behalten.\e"
+MG14050004,"\h(«Domingo»)Wenn du noch irgendwelche Gegenstände findest
+oder Entdeckungen machst, komm zurück zu mir.
+Wenn du mich beeindrucken kannst, wirst du
+garantiert belohnt werden.\c"
+MG14050005,\h(«Domingo»)Hmm…… Du hast \c Entdeckungen gemacht.\e
+MG14050006,"\h(«Domingo»)Du hast nicht viel gefunden, seit ich dich
+zum letzten Mal gesehen habe.\e"
+MG14050007,"\h(«Domingo»)Ich werde dir etwas geben, wenn du mehr
+gefunden hast.\e"
+MG14050008,"\h(«Domingo»)Nicht schlecht, du hast \c Entdeckungen gemacht!\e"
+MG14050009,"\h(«Domingo»)Schon viel besser, Vyse. Das ist
+außerordentlich gut. Von einem berühmten
+Seemann wie dir würde ich auch nichts anderes
+erwarten.\e"
+MG14050010,"\h(«Domingo»)Wie versprochen, werde ich dich belohnen.\e"
+MG14050011,\h( )Du hast ein (Geschenk bei 30) erhalten!\e
+MG14050012,"\h(«Domingo»)Wenn du noch mehr Entdeckungen machst,
+werde ich dich erneut belohnen.\e"
+MG14050013,"\h(«Domingo»)Wow, du hast \c Entdeckungen gemacht!\e"
+MG14050014,"\h(«Domingo»)So ist's richtig! Jemanden mit einem so vollen
+Discovery Log zu finden, ist
+für sich schon eine Entdeckung.\e"
+MG14050015,"\h(«Domingo»)Wie versprochen…… hier ist eine Kleinigkeit,
+die ich für dich vorbereitet habe.\e"
+MG14050016,"\h( )Du hast einen “Paranta Seed”, “Icyl Seed”,
+“Zaal Seed” und einen “Sylph Seed” erhalten.\e"
+MG14050017,"\h(«Domingo»)Wenn du 64 Entdeckungen macht, gebe ich
+dir noch ein Geschenk.\c"
+MG14050018,\h(«Domingo»)Wow! Du hast \c Entdeckungen gemacht!\e
+MG14050019,"\h(«Domingo»)Also, DAS ist eindrucksvoll!
+Du bist wirklich erstaunlich!\e"
+MG14050020,"\h(«Domingo»)Du bist einer der größten Entdecker der
+heutigen Zeit. Du hast es verdient!\e"
+MG14050021,\h( )Du erhieltst “Weiße Karte” x 1!\e
+MG14050022,"\h(«Domingo»)Also, wenn du dein Discovery Log vollständig
+füllen kannst, werde ich dir meinen
+wertvollsten Besitz geben!\c"
+MG14050118,"\h(«Domingo»)Wow!
+Du hast schon wieder ?? Entdeckungen gemacht!\e"
+MG14050119,"\h(«Domingo»)Du bist wirklich toll, Vyse!
+Nicht viele Leute können sich rühmen, Zeit
+ihres Lebens so viele Entdeckungen gemacht
+zu haben, weißt du.\e"
+MG14050120,"\h(«Domingo»)Du bist wirklich der größte Luftpirat, den es
+je gab! Das ist jedenfalls meine Meinung.
+Nun, wie versprochen, dein Geschenk!\e"
+MG14050121,"\h( )Du hast einen “Paranta Seed”, “Icyl Seed”,
+“Zaal Seed” und einen “Sylph Seed” erhalten.\e"
+MG14050122,\h( )Du erhieltst “Weiße Karte” x 1!\e
+MG14050123,"\h(«Domingo»)Also, wenn du dein Discovery Log vollständig
+füllen kannst, werde ich dir meinen
+wertvollsten Besitz geben!\c"
+MG14050023,\h(«Domingo»)Vyse! Dein Logbuch ist ganz voll!\e
+MG14050024,\h(«Domingo»)Du bist fantastisch!\e
+MG14050025,"\h(«Domingo»)Vyse, du bist einer der größten Entdecker
+der Geschichte! Noch nicht einmal der
+legendäre Daccat kann sich mit dir messen!\e"
+MG14050026,"\h(«Domingo»)Du bist es wert, meinen wertvollsten Besitz
+zu erhalten! Du kannst meinen Titel als
+“Schatzjäger par excellence” bekommen!\e"
+MG14050027,\h( )Du hast ein (Geschenk bei 30) erhalten!\e
+MG14050028,"\h( )Du hast einen “Paranta Seed”, “Icyl Seed”,
+“Zaal Seed” und einen “Sylph Seed” erhalten.\e"
+MG14050029,\h( )Du erhieltst “Weiße Karte” x 1!\e
+MG14050030,\h( )Du hast “Domingos Papiere” erhalten.\c
+MG14050031,\h(«Domingo»)Vyse! Dein Logbuch ist ganz voll!\e
+MG14050032,\h(«Domingo»)Du bist fantastisch!\e
+MG14050033,"\h(«Domingo»)Vyse, du bist einer der größten Entdecker
+der Geschichte! Noch nicht einmal der
+legendäre Daccat kann sich mit dir messen!\e"
+MG14050034,"\h(«Domingo»)Du bist es wert, meinen wertvollsten Besitz
+zu erhalten! Du kannst meinen Titel als
+“Schatzjäger par excellence” bekommen!\e"
+MG14050035,"\h( )Du hast einen “Paranta Seed”, “Icyl Seed”,
+“Zaal Seed” und einen “Sylph Seed” erhalten.\e"
+MG14050036,\h( )Du erhieltst “Weiße Karte” x 1!\e
+MG14050037,\h( )Du hast “Domingos Papiere” erhalten.\c
+MG14050038,\h(«Domingo»)Vyse! Dein Logbuch ist ganz voll!\e
+MG14050039,\h(«Domingo»)Du bist fantastisch!\e
+MG14050040,"\h(«Domingo»)Vyse, du bist einer der größten Entdecker
+der Geschichte! Noch nicht einmal der
+legendäre Daccat kann sich mit dir messen!\e"
+MG14050041,"\h(«Domingo»)Du bist es wert, meinen wertvollsten Besitz
+zu erhalten! Du kannst meinen Titel als
+“Schatzjäger par excellence” bekommen!\e"
+MG14050042,\h( )Du erhieltst “Weiße Karte” x 1!\e
+MG14050043,\h( )Du hast “Domingos Papiere” erhalten.\c
+MG14050044,\h(«Domingo»)Vyse! Dein Logbuch ist ganz voll!\e
+MG14050045,\h(«Domingo»)Du bist fantastisch!\e
+MG14050046,"\h(«Domingo»)Vyse, du bist einer der größten Entdecker
+der Geschichte! Noch nicht einmal der
+legendäre Daccat kann sich mit dir messen!\e"
+MG14050047,"\h(«Domingo»)Du bist es wert, meinen wertvollsten Besitz
+zu erhalten! Du kannst meinen Titel als
+“Schatzjäger par excellence” bekommen!\e"
+MG14050048,\h( )Du hast “Domingos Papiere” erhalten.\c
+MG14050049,"\h(«Domingo»)Vyse! Du bist der größte Entdecker, den die
+Welt je gesehen hat!\e"
+MG14050050,"\h(«Domingo»)Es ist mir eine Ehre, dich kennen gelernt zu
+haben.\c"
+MS14050000,"\h(«Domingo»)Eh, Vyse, ¿cómo va eso?
+Veo que sigues intentando explorar tantos
+lugares como puedas.\e"
+MS14050001,"\h(«Domingo»)Pues entonces…… déjame ver tu Diario de
+Hallazgos.\e"
+MS14050002,"\h(«Domingo»)¡Ah, has hecho \c Hallazgos!\e"
+MS14050003,"\h(«Domingo»)¡Me has decepcionado, Vyse! Si esto es todo de
+lo que eres capaz, no vas a pasar a la historia
+como un gran explorador.\e"
+MS14050004,"\h(«Domingo»)Si encuentras más artefactos o haces más
+descubrimientos, ven a verme. Si consigues
+impresionarme, te recompensaré con creces.\c"
+MS14050005,\h(«Domingo»)Mmm…… Has hecho \c Hallazgos.\e
+MS14050006,"\h(«Domingo»)No has encontrado gran cosa desde la última vez
+que te vi.\e"
+MS14050007,\h(«Domingo»)Cuando encuentres más cosas ya te recompensaré.\e
+MS14050008,"\h(«Domingo»)¡No está mal, has hecho \c Hallazgos!\e"
+MS14050009,"\h(«Domingo»)Mucho mejor, Vyse. Te ha ido excepcionalmente
+bien. Aunque no esperaba menos de un reconocido
+marino como tú.\e"
+MS14050010,\h(«Domingo»)Te gratificaré como te prometí.\e
+MS14050011,\h( )｡Te han hecho un “regalo de 30”!\e
+MS14050012,"\h(«Domingo»)Si haces más Hallazgos,
+te volveré a recompensar.\e"
+MS14050013,"\h(«Domingo»)¡Caray, has hecho \c Hallazgos!\e"
+MS14050014,"\h(«Domingo»)¡Así se hace! Encontrar a alguien con un Diario
+de Hallazgos tan lleno como el tuyo sería
+un descubrimiento en sí.\e"
+MS14050015,"\h(«Domingo»)Tal y como te prometí…… aquí tienes una pequeña
+recompensa.\e"
+MS14050016,"\h( )Has recibido una “Semilla Paranta”, una
+“Semilla de Icyl”, una “Semilla de Zeal” y una
+“Semilla de Sylph”.\e"
+MS14050017,"\h(«Domingo»)Cuando hayas hecho 64 Hallazgos te haré
+otro regalo.\c"
+MS14050018,\h(«Domingo»)¡Vaya! ¡Has hecho \c Hallazgos!\e
+MS14050019,"\h(«Domingo»)¡ESO sí que es impresionante!
+¡Desde luego eres increíble!\e"
+MS14050020,"\h(«Domingo»)Eres uno de los mejores exploradores de nuestro
+tiempo. ¡Te has ganado esto!\e"
+MS14050021,\h( )｡Has recibido “Mapa Blanco” x 1!\e
+MS14050022,"\h(«Domingo»)¡Si consigues llenar completamente tu Diario de
+Hallazgos, te entregaré mi posesión más
+preciada!\c"
+MS14050118,"\h(«Domingo»)¡Caray!
+¡Ya has hecho ?? Hallazgos!\e"
+MS14050119,"\h(«Domingo»)¡Eres verdaderamente genial, Vyse!
+Hay pocos que puedan jactarse de haber
+descubierto todas estas cosas.\e"
+MS14050120,"\h(«Domingo»)¡Sin duda eres el mejor Pirata Aéreo que
+jamás ha existido! Bueno, eso es lo que yo creo.
+Como te prometí, ¡aquí está tu regalo!\e"
+MS14050121,"\h( )Has recibido una “Semilla Paranta”, una
+“Semilla de Icyl”, una “Semilla de Zeal” y una
+“Semilla de Sylph”.\e"
+MS14050122,\h( )｡Has recibido “Mapa Blanco” x 1!\e
+MS14050123,"\h(«Domingo»)¡Si consigues completar tu Diario de
+Hallazgos, te entregaré mi posesión más
+preciada!\c"
+MS14050023,"\h(«Domingo»)¡Vyse! ¡Has completado tu Diario de
+Hallazgos!\e"
+MS14050024,\h(«Domingo»)¡Eres asombroso!\e
+MS14050025,"\h(«Domingo»)¡Vyse, eres uno de los más grandes exploradores
+de la historia! ¡Ni siquiera el Legendario
+Daccat puede compararse contigo!\e"
+MS14050026,"\h(«Domingo»)¡Eres digno de recibir mi posesión más preciada!
+¡Te otorgaré mi título de “Extraordinario
+Buscador de Tesoros”!\e"
+MS14050027,\h( )｡Te han hecho un “regalo de 30”!\e
+MS14050028,"\h( )Has recibido una “Semilla Paranta”, una
+“Semilla de Icyl”, una “Semilla de Zeal” y una
+“Semilla de Sylph”.\e"
+MS14050029,\h( )｡Has recibido “Mapa Blanco” x 1!\e
+MS14050030,\h( )Has recibido el “Certificado”.\c
+MS14050031,"\h(«Domingo»)¡Vyse! ¡Has completado tu Diario de
+Hallazgos!\e"
+MS14050032,\h(«Domingo»)¡Eres asombroso!\e
+MS14050033,"\h(«Domingo»)¡Vyse, eres uno de los más grandes exploradores
+de la historia! ¡Ni siquiera el Legendario
+Daccat puede compararse contigo!\e"
+MS14050034,"\h(«Domingo»)¡Eres digno de recibir mi posesión más preciada!
+¡Te otorgaré mi título de “Extraordinario
+Buscador de Tesoros”!\e"
+MS14050035,"\h( )Has recibido una “Semilla Paranta”, una
+“Semilla de Icyl”, una “Semilla de Zeal” y una
+“Semilla de Sylph”.\e"
+MS14050036,\h( )｡Has recibido “Mapa Blanco” x 1!\e
+MS14050037,\h( )Has recibido el “Certificado”.\c
+MS14050038,"\h(«Domingo»)¡Vyse! ¡Has completado tu Diario de
+Hallazgos!\e"
+MS14050039,\h(«Domingo»)¡Eres asombroso!\e
+MS14050040,"\h(«Domingo»)¡Vyse, eres uno de los más grandes exploradores
+de la historia! ¡Ni siquiera el Legendario
+Daccat puede compararse contigo!\e"
+MS14050041,"\h(«Domingo»)¡Eres digno de recibir mi posesión más preciada!
+¡Te otorgaré mi título de “Extraordinario
+Buscador de Tesoros”!\e"
+MS14050042,\h( )｡Has recibido “Mapa Blanco” x 1!\e
+MS14050043,\h( )Has recibido el “Certificado”.\c
+MS14050044,"\h(«Domingo»)¡Vyse! ¡Has completado tu Diario de
+Hallazgos!\e"
+MS14050045,\h(«Domingo»)¡Eres asombroso!\e
+MS14050046,"\h(«Domingo»)¡Vyse, eres uno de los más grandes exploradores
+de la historia! ¡Ni siquiera el Legendario
+Daccat puede compararse contigo!\e"
+MS14050047,"\h(«Domingo»)¡Eres digno de recibir mi posesión más preciada!
+¡Te otorgaré mi título de “Extraordinario
+Buscador de Tesoros”!\e"
+MS14050048,\h( )Has recibido el “Certificado”.\c
+MS14050049,"\h(«Domingo»)¡Vyse! ¡Eres el mejor explorador que ha conocido
+la faz de la tierra!\e"
+MS14050050,\h(«Domingo»)Es un honor haberte conocido.\c
+MI0020000,"\h(«Vyse»)Hmm…
+It's still hard for me to believe that Izmael
+turned this deserted island into a base.\e"
+MI0020001,"\h(«Fina»)Vyse…
+Aika…
+Enrique…\e"
+MI0020002,"\h(«Fina»)Thank you for everything you've done. So far,
+we've managed to get three of the Moon Crystals.\e"
+MI0020003,"\h(«Fina»)I never would have made it this far on my own. 
+Thank you so much.\e"
+MI0020004,"\h(«Aika»)Come on, Fina!
+You don't have to thank us!\e"
+MI0020005,"\h(«Vyse»)Yeah, if it wasn't for you, I don't think we
+would've ever gotten the chance to sail around
+the world! We should be thanking you!\e"
+MI0020006,"\h(«Enrique»)Fina, I don't know if you realized it yet, but
+your mission has helped us all. And we've all
+grown to be such good friends.\e"
+MI0020007,\h(«Fina»)Yes… Thank you… I mean you're welcome.\e
+MI0020008,"\h(«Fina»)Until recently, I lived a sheltered life. I was
+scared when the Elders asked me to search
+for the Crystals… And I was alone.\e"
+MI0020009,"\h(«Fina»)Since then, I've made some great friends,
+and I get excited when we explore new lands…
+Even the ones with monsters.\e"
+MI0020010,"\h(«Aika»)Yeah… when you first heard what we did for a
+living, you seemed really surprised… almost
+intimidated.\e"
+MI0020011,"\h(«Vyse»)You're sounding more like an Air Pirate every
+day. Before you know it, you'll be dressing like
+us… and Cupil will be wearing an eye patch.\e"
+MI0020012,"\h(«Vyse»)Hey, that reminds me.
+Do you know where we should go to get the next
+Moon Crystal?\e"
+MI0020013,"\h(«Fina»)Yes, I do.\e"
+MI0020014,"\h(«Fina»)To the far south, lies a land that basks in the 
+cold light of the Purple Moon. 
+It is known as the Land of Ice.\e"
+MI0020015,\h(«Fina»)The Purple Moon Crystal should be hidden there.\e
+MI0020016,\h(«Vyse»)Land of Ice?\e
+MI0020017,"\h(«Fina»)The Purple Moon is the source of power for 
+all Ice Magic.\e"
+MI0020018,"\h(«Fina»)And because of that, the lands under the moon 
+have become encased in ice.\e"
+MI0020019,"\h(«Aika»)I've heard stories about that place… Some of 
+the others back home used to tell me about 
+the rumors they'd hear.\e"
+MI0020020,"\h(«Aika»)I heard that the air is so cold, that anyone who
+goes there will be frozen solid in a matter of
+seconds…\e"
+MI0020021,"\h(«Aika»)I don't want to have to chisel you out of the
+ice, Vyse.\e"
+MI0020022,"\h(«Vyse»)Where do you get these stories? First, I was 
+going to catch on fire, then people were going 
+to eat us with sticks, now I'm going to freeze.\e"
+MI0020023,"\h(«Vyse»)Getting the Crystal is not going to be easy, 
+but I think your overactive imagination is 
+getting the best of you.\e"
+MI0020024,"\h(«Aika»)What do you mean?!
+Alright… fine. When you become a Vysicle,
+don't come crying to me!\e"
+MI0020025,"\h(«Fina»)Hahaha…
+I'm sure everything will be alright.
+I doubt it's that cold, Aika.\e"
+MI0020026,"\h(«Enrique»)Well, according to our Valuan archaeologists…\e"
+MI0020027,"\h(«Enrique»)Beneath the layers of ice, lies the ruins of an
+ancient city. The ruins have been undisturbed
+since the Old World.\e"
+MI0020028,"\h(«Enrique»)Unfortunately, no one has ever been able to
+break through the ice… All we have been able to
+do is observe the ruins from the sky.\e"
+MI0020029,"\h(«Vyse»)So we don't really need to go there because 
+it's impossible to get the Crystal.\e"
+MI0020030,"\h(«Enrique»)Well, I was thinking…
+Brabham said that the hull had been reinforced,
+right?\e"
+MI0020031,"\h(«Enrique»)If the hull is strong enough to break
+through stone reefs, perhaps it is strong
+enough to break through the ice!\e"
+MI0020032,"\h(«Vyse»)That might work! We could bust through the ice
+with the Delphinus!\e"
+MI0020033,"\h(«Fina»)If the Delphinus can get through the ice, 
+then we can get the Crystal.\e"
+MI0020034,"\h(«Vyse»)Yeah.
+Then it looks like our next destination is to
+the south… to the Land of Ice!\e"
+MI0020035,"\h(«Vyse»)Well, it looks like we've got a long journey
+ahead of us. I think we should take the rest of
+the day off and celebrate!\e"
+MI0020036,\h(«Everyone»)Aye Aye!\e
+MFI0020000,"\h(«Vyse»)Humm……
+J'ai encore du mal à croire qu'Izmael ait
+transformé cette île déserte en base.\e"
+MFI0020001,"\h(«Fina»)Vyse……
+Aika……
+Enrique……\e"
+MFI0020002,"\h(«Fina»)Merci de tout ce que vous avez fait. Jusque là,
+nous avons réussi à rassembler trois Cristaux de
+Lune.\e"
+MFI0020003,"\h(«Fina»)Je n'y serais jamais arrivée toute seule.
+Merci beaucoup.\e"
+MFI0020004,"\h(«Aika»)Allez, Fina !
+Ce n'est pas la peine de nous remercier !\e"
+MFI0020005,"\h(«Vyse»)Oui, c'est grâce à toi que nous avons pu faire
+le tour du monde ! C'est plutôt à nous de te
+remercier !\e"
+MFI0020006,"\h(«Enrique»)Fina, je ne sais pas si vous vous en rendez
+compte, mais votre mission nous a beaucoup
+aidés. Et nous sommes tous devenus de très bons
+amis.\e"
+MFI0020007,\h(«Fina»)Oui…… Merci…… enfin de rien.\e
+MFI0020008,"\h(«Fina»)Jusqu'à lors, je vivais recluse. J'ai eu peur
+quand les anciens m'ont demandé d'aller
+chercher les Cristaux…… Et j'étais seule.\e"
+MFI0020009,"\h(«Fina»)Depuis, je me suis fait des amis formidables,
+et j'adore explorer de nouveaux pays……
+Même ceux où il y a des monstres.\e"
+MFI0020010,"\h(«Aika»)Oui…… quand tu as découvert ce que l'on
+faisait dans la vie, tu as vraiment eu l'air
+surprise…… presque intimidée.\e"
+MFI0020011,"\h(«Vyse»)Tu parles de plus en plus comme un Pirate de
+l'Air. Bientôt, tu t'habilleras comme
+nous…… et Cupil portera un cache-oeil.\e"
+MFI0020012,"\h(«Vyse»)Mais j'y pense.
+Sais-tu où aller chercher le Cristal de Lune
+suivant ?\e"
+MFI0020013,\h(«Fina»)Oui.\e
+MFI0020014,"\h(«Fina»)À l'extrême sud, il y a une terre où brille la
+lumière froide de la Lune Mauve.
+C'est le Pays des Glaces.\e"
+MFI0020015,"\h(«Fina»)Le Cristal de la Lune Mauve devrait se cacher
+là-bas.\e"
+MFI0020016,\h(«Vyse»)Pays des Glaces ?\e
+MFI0020017,"\h(«Fina»)La Lune Mauve est la source de pouvoir de la
+Magie des Glaces.\e"
+MFI0020018,"\h(«Fina»)Et voilà pourquoi, les terres qui se trouvent
+sous cette lune sont prisonnières des glaces.\e"
+MFI0020019,"\h(«Aika»)J'ai entendu parler de cet endroit…… Les gens de
+chez moi me racontaient des rumeurs.\e"
+MFI0020020,"\h(«Aika»)On m'a dit que l'air est si froid que ceux qui
+y vont, gèlent en quelques secondes……\e"
+MFI0020021,"\h(«Aika»)Je n'ai pas envie de te sortir de la glace au
+burin, Vyse.\e"
+MFI0020022,"\h(«Vyse»)Où vas-tu chercher tout ça ? D'abord, j'allais
+prendre feu, après les gens allaient nous manger
+avec des baguettes, et maintenant je vais
+geler.\e"
+MFI0020023,"\h(«Vyse»)Cela ne va pas être facile de récupérer le
+Cristal, mais je crois que ton imagination
+débordante te joue des tours.\e"
+MFI0020024,"\h(«Aika»)Qu'est-ce que tu veux dire ?!
+OK…… OK. Quand tu seras devenu un glaçon
+ne viens pas pleurnicher !\e"
+MFI0020025,"\h(«Fina»)Hahaha…… Je suis sûre que tout se passera bien.
+Je ne crois pas qu'il fasse si froid que ça,
+Aika.\e"
+MFI0020026,"\h(«Enrique»)Bon, d'après nos archéologues Valuans……\e"
+MFI0020027,"\h(«Enrique»)Sous les couches de glace, se trouvent les
+ruines d'une ancienne cité. Les ruines sont
+restées intactes depuis l'Ancien Monde.\e"
+MFI0020028,"\h(«Enrique»)Malheureusement, jamais personne n'a réussi à
+percer la glace…… Nous n'avons pu qu'observer
+les ruines du ciel.\e"
+MFI0020029,"\h(«Vyse»)Donc nous n'avons pas vraiment besoin d'y aller
+puisque c'est impossible de récupérer le
+Cristal.\e"
+MFI0020030,"\h(«Enrique»)Eh bien, je me disais……
+Brabham a dit qu'il a renforcé la coque,
+n'est ce pas ?\e"
+MFI0020031,"\h(«Enrique»)Si la coque est assez solide pour traverser les
+récifs, peut-être qu'elle peut percer la glace !\e"
+MFI0020032,"\h(«Vyse»)Cela peut marcher ! Nous pourrions faire
+exploser la glace avec le Delphinus !\e"
+MFI0020033,"\h(«Fina»)Si le Delphinus peut traverser la glace,
+nous pourrons atteindre le Cristal.\e"
+MFI0020034,"\h(«Vyse»)Oui.
+Dans ce cas notre prochaine destination sera le
+sud…… vers le Pays des Glaces !\e"
+MFI0020035,"\h(«Vyse»)Bon, un long voyage nous attend. Je pense que
+nous devrions arrêter de travailler pour
+aujourd'hui et faire la fête !\e"
+MFI0020036,\h(«Tous»)À vos ordres !\e
+MGI0020000,"\h(«Vyse»)Hmm……
+Ich kann es immer noch nicht fassen,
+dass Izmael diese einsame Insel in einen
+Fliegerhorst verwandelt hat.\e"
+MGI0020001,"\h(«Fina»)Vyse……
+Aika……
+Enrique……\e"
+MGI0020002,"\h(«Fina»)Danke für alles, was ihr getan habt. Bis jetzt
+ist es uns gelungen, drei der Moon Crystals
+zu finden.\e"
+MGI0020003,"\h(«Fina»)Das hätte ich allein nie geschafft.
+Habt vielen Dank.\e"
+MGI0020004,"\h(«Aika»)Aber, aber, Fina!
+Du brauchst uns doch nicht zu danken!\e"
+MGI0020005,"\h(«Vyse»)Genau! Wenn du nicht gewesen wärst, hätten wir
+nie die Gelegenheit gehabt, die Welt zu
+umsegeln! Wir sollten dir danken!\e"
+MGI0020006,"\h(«Enrique»)Fina, ich weiß nicht, ob du es schon bemerkt
+hast, aber deine Mission hat uns allen
+geholfen. Und wir sind alle so gute Freunde
+geworden.\e"
+MGI0020007,"\h(«Fina»)Ja…… danke…… oder besser, gern geschehen.\e"
+MGI0020008,"\h(«Fina»)Bis vor kurzem habe ich ein wohlbehütetes
+Leben geführt. Ich habe mich gefürchtet, als
+die Elders mich baten, nach den Kristallen zu
+suchen…… und ich war so allein.\e"
+MGI0020009,"\h(«Fina»)Seitdem habe ich tolle Freundschaften
+geschlossen, und ich finde es aufregend,
+neue Länder zu entdecken…… sogar welche
+mit Monstern.\e"
+MGI0020010,"\h(«Aika»)Ja…… als du damals gehört hast, wie wir leben,
+warst du richtig überrascht…… fast etwas
+eingeschüchtert.\e"
+MGI0020011,"\h(«Vyse»)Du hörst dich von Tag zu Tag mehr wie ein
+Luftpirat an. Bevor du dich's versiehst,
+kleidest du dich wie einer von uns…… und
+Cupil bekommt eine Augenklappe.\e"
+MGI0020012,"\h(«Vyse»)He, da fällt mir etwas ein.
+Weißt du, wo wir hingehen müssen, um den
+nächsten Moon Crystal zu finden?\e"
+MGI0020013,"\h(«Fina»)Ja, das weiß ich.\e"
+MGI0020014,"\h(«Fina»)Tief im Süden liegt ein Land, das sich im
+kalten Licht des Purple Moon sonnt. Es ist
+als das Land of Ice bekannt.\e"
+MGI0020015,"\h(«Fina»)Der Purple Moon Crystal müsste dort versteckt
+sein.\e"
+MGI0020016,\h(«Vyse»)Land of Ice?\e
+MGI0020017,"\h(«Fina»)Der Purple Moon ist die Kraftquelle für alle
+Ice Magic.\e"
+MGI0020018,"\h(«Fina»)Und deshalb wurde das Land unter diesem Mond
+in Eis eingebettet.\e"
+MGI0020019,"\h(«Aika»)Ich habe Geschichten über diesen Ort gehört……
+Die Leute daheim haben mir die Gerüchte
+erzählt, die sie aufgeschnappt haben.\e"
+MGI0020020,"\h(«Aika»)Die Luft soll so kalt sein, dass jeder,
+der dort hingeht, innerhalb von Sekunden
+völlig zu Eis erstarrt……\e"
+MGI0020021,"\h(«Aika»)Ich möchte dich nicht aus dem Eis
+herausschlagen müssen, Vyse.\e"
+MGI0020022,"\h(«Vyse»)Woher hast du bloß all diese Geschichten?
+Erst sollte ich Feuer fangen, dann sollten
+sie uns mit Stäbchen verspeisen, und jetzt
+werde ich auch noch erfrieren.\e"
+MGI0020023,"\h(«Vyse»)Es wird nicht so einfach sein, den Kristall zu
+bekommen, aber ich glaube, deine Fantasie
+geht langsam mit dir durch.\e"
+MGI0020024,"\h(«Aika»)Was willst du damit sagen?!
+Na schön. Aber wenn du zu einem Vyse-Zapfen
+gefrierst, dann komm nicht zu mir
+und beschwer dich!\e"
+MGI0020025,"\h(«Fina»)Hahaha……
+Das wird schon gut gehen.
+Ich kann mir nicht vorstellen, dass es so
+kalt ist, Aika.\e"
+MGI0020026,"\h(«Enrique»)Nun, nach dem, was die valuanischen
+Archäologen behaupten……\e"
+MGI0020027,"\h(«Enrique»)Unter den Eisschichten liegen die Ruinen einer
+altertümlichen Stadt. Sie sind seit der Alten
+Welt nicht mehr aufgesucht worden.\e"
+MGI0020028,"\h(«Enrique»)Leider ist es nie jemandem gelungen, durch das
+Eis hindurch zu kommen…… Wir konnten die Ruinen
+lediglich vom Himmel aus beobachten.\e"
+MGI0020029,"\h(«Vyse»)Also brauchen wir nicht dorthin fahren, wenn
+es sowieso unmöglich ist, den Kristall
+herauszubekommen.\e"
+MGI0020030,"\h(«Enrique»)Ich dachte nur……
+Brabham hat doch gesagt, dass er den Rumpf
+verstärkt hätte, oder?\e"
+MGI0020031,"\h(«Enrique»)Wenn der Rumpf stark genug ist, um durch
+Felsklippen zu fliegen, dann ist er vielleicht
+auch stark genug, um das Eis aufzubrechen!\e"
+MGI0020032,"\h(«Vyse»)Das könnte gehen! Wir könnten das Eis mit der
+Delphinus aufbrechen!\e"
+MGI0020033,"\h(«Fina»)Wenn die Delphinus es schafft, das Eis
+aufzubrechen, können wir uns den Kristall
+holen.\e"
+MGI0020034,"\h(«Vyse»)Genau.
+Sieht so aus, als müssten wir südwärts fliegen……
+zum Land of Ice!\e"
+MGI0020035,"\h(«Vyse»)Dann haben wir eine lange Reise vor uns.
+Ich finde, wir sollten den restlichen Tag
+frei nehmen und ein bisschen feiern!\e"
+MGI0020036,\h(«Alle»)Aye Aye!\e
+MSI0020000,"\h(«Vyse»)Vaya……
+Todavía me cuesta creer que Izmael
+haya convertido una isla desierta en esta base.\e"
+MSI0020001,"\h(«Fina»)Vyse……
+Aika……
+Enrique……\e"
+MSI0020002,"\h(«Fina»)Gracias por todo lo que habéis hecho.
+Hasta ahora, nos las hemos arreglado para
+conseguir tres Cristales Lunares.\e"
+MSI0020003,"\h(«Fina»)Nunca habría conseguido todo esto yo sola.
+Os estoy profundamente agradecida.\e"
+MSI0020004,"\h(«Aika»)¡Venga ya, Fina!
+¡No tienes que darnos las gracias!\e"
+MSI0020005,"\h(«Vyse»)¡Sí, si no fuera por ti, no creo que hubiéramos
+tenido la oportunidad de navegar alrededor del
+mundo! ¡Nosotros te damos las gracias a ti!\e"
+MSI0020006,"\h(«Enrique»)Fina, no sé si te has dado cuenta todavía, pero
+tu misión nos ha ayudado a todos.
+Y, además, nos hemos hecho muy buenos amigos.\e"
+MSI0020007,"\h(«Fina»)Sí…… Gracias…… Es decir, de nada.\e"
+MSI0020008,"\h(«Fina»)Hasta hace poco vivía lejos del mundo. Temía que
+los Ancianos me pidieran que fuera en busca de
+los Cristales…… Yo sola.\e"
+MSI0020009,"\h(«Fina»)Desde entonces, he hecho muy buenos amigos y me
+encanta explorar nuevas tierras……
+Hasta las que tienen monstruos.\e"
+MSI0020010,"\h(«Aika»)Sí…… la primera vez que te dijimos a qué nos
+dedicábamos, te sorprendiste mucho…… incluso te
+daba un poco de miedo.\e"
+MSI0020011,"\h(«Vyse»)Y ahora cada día que pasa te pareces más a un
+Pirata Aéreo. Antes de que te des cuenta, te
+vestirás como nosotros…… y Cupil llevará un
+parche en el ojo.\e"
+MSI0020012,"\h(«Vyse»)Eso me recuerda algo.
+¿Sabes dónde tenemos que ir ahora para conseguir
+el siguiente Cristal Lunar?\e"
+MSI0020013,"\h(«Fina»)Sí, lo sé.\e"
+MSI0020014,"\h(«Fina»)Al sur hay un país que reluce en la fría luz de
+la Luna Púrpura.
+Se le conoce como las Tierras de Hielo.\e"
+MSI0020015,\h(«Fina»)El Cristal Púrpura debe estar oculto allí.\e
+MSI0020016,\h(«Vyse»)¿Las Tierras de Hielo?\e
+MSI0020017,"\h(«Fina»)La Luna Púrpura es la fuente del poder de toda
+Magia de Hielo.\e"
+MSI0020018,"\h(«Fina»)Y, por ese motivo, las tierras que se encuentran
+bajo la luna han quedado rodeadas por el hielo.\e"
+MSI0020019,"\h(«Aika»)He oído algunas historias sobre ese lugar……
+La gente del lugar de donde vengo solía contarme
+esos rumores.\e"
+MSI0020020,"\h(«Aika»)Me contaron que el aire es tan frío, que allí
+cualquier persona queda totalmente congelada en
+cuestión de segundos……\e"
+MSI0020021,"\h(«Aika»)No quiero estar picando hielo para sacarte de un
+bloque de hielo, Vyse.\e"
+MSI0020022,"\h(«Vyse»)¿De dónde sacas esos cuentos? Primero decías que
+iba a salir ardiendo, luego que íbamos a ser
+devorados y ahora que voy a acabar congelado.\e"
+MSI0020023,"\h(«Vyse»)Conseguir el Cristal no va a ser fácil, pero
+creo que tu imaginación está más activa que
+nunca.\e"
+MSI0020024,"\h(«Aika»)¡¿Qué quieres decir con eso?!
+Vale…… muy bien. ¡Cuando te hayas convertido en
+un cubito de hielo, no me vengas llorando!\e"
+MSI0020025,"\h(«Fina»)Ja, ja……
+Seguro que todo irá bien.
+Dudo mucho que haga tanto frío allí, Aika.\e"
+MSI0020026,"\h(«Enrique»)Bueno, según nuestros arqueólogos Valuan……\e"
+MSI0020027,"\h(«Enrique»)Bajo las capas de hielo se encuentran las ruinas
+de una ciudad antigua. Esas ruinas no han
+cambiado desde el Mundo Antiguo.\e"
+MSI0020028,"\h(«Enrique»)Desgraciadamente, nadie ha conseguido jamás
+romper el hielo…… Tan sólo se han podido
+observar las ruinas desde el cielo.\e"
+MSI0020029,"\h(«Vyse»)Así que no hace falta ir hasta allí porque es
+imposible conseguir el Cristal.\e"
+MSI0020030,"\h(«Enrique»)Bueno, yo estaba pensando que……
+Brabham dijo que el casco ha sido reforzado,
+¿verdad?\e"
+MSI0020031,"\h(«Enrique»)¡Si el casco es lo bastante fuerte como para
+atravesar los arrecifes, quizá pueda atravesar
+el hielo también!\e"
+MSI0020032,"\h(«Vyse»)¡Eso podría funcionar!
+¡Podemos romper el hielo con el Delphinus!\e"
+MSI0020033,"\h(«Fina»)Si el Delphinus pudiera atravesar el hielo,
+podríamos conseguir el Cristal.\e"
+MSI0020034,"\h(«Vyse»)Sí.
+¡Entonces nos dirigimos al sur…… a las Tierras
+de Hielo!\e"
+MSI0020035,"\h(«Vyse»)Bueno, tenemos un largo viaje por delante.
+¡Creo que nos podemos tomar el resto del día
+libre para celebrarlo!\e"
+MSI0020036,"\h(«Todos»)¡Sí, sí, sí!\e"
+MI0100000,"\h(«Vyse»)Alright… we've got the Purple Crystal. 
+All that's left are Yellow and Silver.\e"
+MI0100001,"\h(«Fina»)The Silvite Elders already have the Silver 
+Crystal.\e"
+MI0100002,"\h(«Fina»)So we really only have to worry about the Yellow
+Crystal.\e"
+MI0100003,\h(«Aika»)It looks like our mission is almost finished.\e
+MI0100004,"\h(«Aika»)But wait… wasn't the Yellow Crystal located in
+the Maw of Tartas in Valua?\e"
+MI0100005,"\h(«Aika»)Last time we went there, we couldn't get in
+because the opening was sealed.\e"
+MI0100006,"\h(«Enrique»)Yes, the Valuans have made several unsuccessful
+attempts at removing the seal…\e"
+MI0100007,"\h(«Enrique»)But, perhaps we might be able to bypass the seal
+with the Delphinus' new engine.\e"
+MI0100008,"\h(«Enrique»)According to the geologists of the Valuan
+Empire…\e"
+MI0100009,"\h(«Enrique»)The lower layers of the Valuan Islands are
+filled with cracks and fissures.\e"
+MI0100010,"\h(«Enrique»)In other words, there is a whole system of 
+subterranean tunnels running through Valua.\e"
+MI0100011,"\h(«Aika»)So all we have to do is fly around underneath 
+Valua and look for an opening.\e"
+MI0100012,"\h(«Vyse»)I see…
+So, in other words, if we can't get in from the
+top, we'll try and get in from the bottom!\e"
+MI0100013,"\h(«Vyse»)We'll fly below Valua and look for an opening
+underneath the island! Once we get inside the
+tunnels, we should be able to find the Crystal.\e"
+MI0100014,"\h(«Aika»)Since we can fly higher and lower than we ever
+have before, we might as well take advantage of
+it.\e"
+MI0100015,"\h(«Vyse»)Exactly.
+Let's rest up today. We'll leave for Valua first
+thing tomorrow morning.\e"
+MFI0100000,"\h(«Vyse»)Bon…… nous avons le Cristal Mauve. Il ne nous
+reste plus qu'à trouver le Jaune et l'Argent.\e"
+MFI0100001,"\h(«Fina»)Les Anciens Silvite ont déjà le Cristal d'Argent
+en leur possession.\e"
+MFI0100002,"\h(«Fina»)Donc il faut simplement trouver le Cristal
+Jaune.\e"
+MFI0100003,\h(«Aika»)Notre mission est donc presque terminée.\e
+MFI0100004,"\h(«Aika»)Mais attendez…… le Cristal Jaune se trouve dans
+la Bouche des Tartas à Valua, n'est-ce pas ?\e"
+MFI0100005,"\h(«Aika»)La dernière fois que nous y sommes allés, nous
+n'avons pas pu rentrer car l'entrée était
+bloquée.\e"
+MFI0100006,"\h(«Enrique»)Oui, les Valuans ont tenté plusieurs fois de
+dégager l'entrée mais sans succès……\e"
+MFI0100007,"\h(«Enrique»)Mais, peut-être que nous pourrons contourner
+l'entrée maintenant que le Delphinus a un
+nouveau moteur.\e"
+MFI0100008,\h(«Enrique»)D'après les géologues de l'Empire Valuan……\e
+MFI0100009,"\h(«Enrique»)Les couches inférieures des Îles Valuannes sont
+couvertes de crevasses et de fissures.\e"
+MFI0100010,"\h(«Enrique»)En d'autres termes, il y a tout un système de
+tunnels souterrains sous Valua.\e"
+MFI0100011,"\h(«Aika»)Donc il faut voler sous Valua pour trouver un
+passage.\e"
+MFI0100012,"\h(«Vyse»)Je vois……
+Donc, en fait, si nous ne pouvons pas passer par
+le haut, nous essayerons par le bas !\e"
+MFI0100013,"\h(«Vyse»)Nous volerons sous Valua pour trouver un passage
+sous l'île ! Une fois que nous serons dans les
+tunnels, nous devrions pouvoir trouver le
+Cristal.\e"
+MFI0100014,"\h(«Aika»)Puisque nous avons la capacité de voler plus
+haut et plus bas que jamais, autant en
+profiter.\e"
+MFI0100015,"\h(«Vyse»)Exactement.
+Reposons-nous aujourd'hui. Nous partirons à
+Valua dès demain matin.\e"
+MGI0100000,"\h(«Vyse»)Also, ok…… jetzt haben wir den Purple Crystal.
+Fehlen uns nur noch der gelbe und der silberne.\e"
+MGI0100001,"\h(«Fina»)Die Elders der Silviter haben den
+Silver Crystal bereits.\e"
+MGI0100002,"\h(«Fina»)Also brauchen wir uns nur um den Yellow
+Crystal zu kümmern.\e"
+MGI0100003,"\h(«Aika»)Sieht so aus, als wäre unsere Mission fast
+beendet.\e"
+MGI0100004,"\h(«Aika»)Warte mal…… war der Yellow Crystal nicht im
+Maw of Tartas in Valua zu finden?\e"
+MGI0100005,"\h(«Aika»)Das letzte Mal, als wir da waren, konnten wir
+nicht hinein, weil der Eingang versiegelt war.\e"
+MGI0100006,"\h(«Enrique»)Ja, die Valuaner haben ein paar erfolglose
+Versuche unternommen, das Siegel zu entfernen……\e"
+MGI0100007,"\h(«Enrique»)Aber vielleicht wird es uns gelingen, das
+Siegel mit dem neuen Motor der Delphinus zu
+umgehen.\e"
+MGI0100008,\h(«Enrique»)Den Geologen des Valuan Empire zufolge……\e
+MGI0100009,"\h(«Enrique»)…… sind die unteren Schichten der valuanischen
+Inseln voller Risse und Spalten.\e"
+MGI0100010,"\h(«Enrique»)Mit anderen Worten, es gibt ein ganzes System
+von unterirdischen Tunneln, die sich durch
+Valua ziehen.\e"
+MGI0100011,"\h(«Aika»)Also brauchen wir nur unter Valua entlang
+zu fliegen und nach einer Öffnung zu suchen.\e"
+MGI0100012,"\h(«Vyse»)Verstehe……
+Anders ausgedrückt, wenn wir von oben nicht
+hineinkommen, dann probieren wir es von unten!\e"
+MGI0100013,"\h(«Vyse»)Wir fliegen unterhalb von Valua entlang und
+suchen nach einer Öffnung unter der Insel!
+Wenn wir einmal in den Tunnels sind, sollten
+wir auch den Kristall finden können.\e"
+MGI0100014,"\h(«Aika»)Da wir jetzt in der Lage sind, höher oder
+tiefer zu fliegen als je zuvor, können wir
+auch davon Gebrauch machen.\e"
+MGI0100015,"\h(«Vyse»)Genau.
+Wir sollten uns für heute ausruhen. Wir
+brechen gleich morgen früh nach Valua auf.\e"
+MSI0100000,"\h(«Vyse»)Muy bien…… tenemos el Cristal Púrpura.
+Sólo nos queda por encontrar el Amarillo y el de
+Plata.\e"
+MSI0100001,"\h(«Fina»)Los Ancianos Silvite ya tienen el Cristal de
+Plata.\e"
+MSI0100002,"\h(«Fina»)Así que sólo nos tenemos que preocupar del
+Cristal Amarillo.\e"
+MSI0100003,"\h(«Aika»)Se puede decir que nuestra misión casi ha
+terminado.\e"
+MSI0100004,"\h(«Aika»)Un momento…… ¿pero el Cristal Amarillo no estaba
+en las Fauces de Tartas, en Valua?\e"
+MSI0100005,"\h(«Aika»)La última vez que fuimos allí, no pudimos pasar
+porque la entrada estaba precintada.\e"
+MSI0100006,"\h(«Enrique»)Sí, los Valuan han intentado abrir la entrada
+varias veces, pero sin éxito……\e"
+MSI0100007,"\h(«Enrique»)Pero quizá podamos pasar al otro lado del
+precinto con el nuevo motor del Delphinus.\e"
+MSI0100008,\h(«Enrique»)De acuerdo con los geólogos del Imperio Valuan……\e
+MSI0100009,"\h(«Enrique»)Las capas inferiores de las Islas Valuan tienen
+muchas grietas y fisuras.\e"
+MSI0100010,"\h(«Enrique»)En otras palabras, hay todo un sistema de
+túneles subterráneos debajo de Valua.\e"
+MSI0100011,"\h(«Aika»)Así que tan sólo tenemos que volar por debajo de
+Valua y buscar la entrada.\e"
+MSI0100012,"\h(«Vyse»)Entiendo……
+¡En otras palabras, si no podemos entrar por
+arriba, intentaremos entrar por abajo!\e"
+MSI0100013,"\h(«Vyse»)¡Vamos a volar por debajo de Valua y buscar una
+abertura bajo la isla! Cuando entremos en los
+túneles, podremos encontrar el Cristal.\e"
+MSI0100014,"\h(«Aika»)Si podemos volar más alto y más bajo que nunca,
+tendremos que aprovecharnos, ¿no?.\e"
+MSI0100015,"\h(«Vyse»)Eso es.
+Hoy descansaremos. Mañana a primera hora
+partiremos hacia Valua.\e"
+MJ0010000,"\h(«Gilder»)Hey, long time no see!
+Wow… you've got yourself a nice little base set
+up here!\e"
+MJ0010001,\h(«Vyse»)Gilder!\e
+MJ0010002,"\h(«Gilder»)I heard that you sailed around the world! 
+As always kid, it sounds like you've been trying
+to get yourself into more trouble…\e"
+MJ0010003,"\h(«Gilder»)I came here to hear all about your travels… 
+that, and for a good meal.\e"
+MJ0010004,"\h(«Vyse»)Haha… 
+Good old Gilder… 
+Pleasure before business…\e"
+MFJ0010000,"\h(«Gilder»)Hé, on ne s'est pas vus depuis longtemps !
+Oaouh…… Tu as une jolie petite base, dis donc !\e"
+MFJ0010001,\h(«Vyse»)Gilder !\e
+MFJ0010002,"\h(«Gilder»)J'ai entendu dire que tu as fait le tour du
+monde ! Comme toujours petit, on dirait que tu
+as essayé de t'attirer des ennuis……\e"
+MFJ0010003,"\h(«Gilder»)Je suis venu pour que tu me racontes toutes tes
+histoires de voyage…… et aussi pour faire un bon
+repas.\e"
+MFJ0010004,"\h(«Vyse»)Haha……
+Sacré Gilder……
+Le plaisir avant tout……\e"
+MGJ0010000,"\h(«Gilder»)He, lange nicht gesehen!
+Wow…… ihr habt euch aber hier ein hübsches
+kleines Hauptquartier eingerichtet!\e"
+MGJ0010001,\h(«Vyse»)Gilder!\e
+MGJ0010002,"\h(«Gilder»)Ich habe gehört, dass du um die Welt gesegelt
+bist! Junge, du kriegst wohl nie genug -
+nicht mal genug Schwierigkeiten……\e"
+MGJ0010003,"\h(«Gilder»)Ich bin gekommen, um von deinen Reisen zu
+hören…… und natürlich, um ein gutes Essen
+zu bekommen.\e"
+MGJ0010004,"\h(«Vyse»)Haha……
+Immer noch der Alte, Gilder……
+Erst das Vergnügen, dann die Arbeit……\e"
+MSJ0010000,"\h(«Gilder»)¡Eh! ¡Cuánto tiempo!
+Hombre…… ¡te has montado una base muy mona aquí!\e"
+MSJ0010001,\h(«Vyse»)¡Gilder!\e
+MSJ0010002,"\h(«Gilder»)¡He oído que has navegado alrededor del mundo!
+Como de costumbre, chaval, has estado buscándote
+problemas……\e"
+MSJ0010003,"\h(«Gilder»)He venido para que me cuentes tus viajes con
+pelos y señales……
+y para conseguir una buena comida.\e"
+MSJ0010004,"\h(«Vyse»)Ja, ja……
+El bueno de Gilder……
+Siempre anteponiendo el placer al deber……\e"
+MJ0240000,"\h(«Gilder»)…so you went to Yafutoma and then on to the
+Land of Ice, huh? Just listening to your stories
+makes my adrenaline flow.\e"
+MJ0240001,"\h(«Gilder»)And so in the end, you collected the 
+five Moon Crystals… Nice work.\e"
+MJ0240002,"\h(«Aika»)Yup, we got them all!\e"
+MJ0240003,"\h(«Gilder»)And since all of them are together, I suppose 
+that means Fina will be taking them with her 
+when she heads home soon…\e"
+MJ0240004,\h(«Fina»)…Yes.\e
+MJ0240005,"\h(«Gilder»)Actually…
+There was something that was bothering me from 
+earlier…\e"
+MJ0240006,"\h(«Gilder»)Fina… where exactly did you come from? I mean, 
+where are you going home to?\e"
+MJ0240007,\h(«Fina»)……\e
+MJ0240008,\h(«Aika»)Fina?\e
+MJ0240009,"\h(«Fina»)The place to which I must return…
+The place where both Ramirez and I were born and
+raised…\e"
+MJ0240010,"\h(«Fina»)…is the Great Silver Shrine. It is in a place,
+high above the sky… \e"
+MJ0240011,\h(«Vyse»)The Great… Silver Shrine?\e
+MJ0240012,"\h(«Fina»)Long ago, when the Rains of Destruction fell 
+upon the lands, and most of the world's 
+population was killed… All seemed lost…\e"
+MJ0240013,"\h(«Fina»)The most powerful Silvite mages met at the 
+Shrine. They combined their energy to send it 
+into the sky… above the destruction.\e"
+MJ0240014,"\h(«Fina»)They escaped the horrible fate that fell upon 
+the rest of the world, by rising above the 
+destruction.\e"
+MJ0240015,"\h(«Fina»)Ever since then… from above… we have sworn to 
+protect the people of this world from the same 
+fate that our ancestors suffered.\e"
+MJ0240016,"\h(«Fina»)That is the primary mission of the remaining 
+Silvites.\e"
+MJ0240017,"\h(«Fina»)The Great Silver Shrine is high above the 
+clouds, where no ship can reach it…\e"
+MJ0240018,"\h(«Fina»)I plan to take the Moon Crystals back to the 
+Great Silver Shrine. So that no one will ever be
+able to abuse their power again.\e"
+MJ0240019,"\h(«Enrique»)But…
+How are you going to get home?\e"
+MJ0240020,"\h(«Fina»)If I can get back the ship that I came in, 
+then I should be able to make it home.\e"
+MJ0240021,"\h(«Fina»)But, when I was attacked by Valua, my ship sank
+beneath the clouds… \e"
+MJ0240022,"\h(«Vyse»)Yes, I remember… you're talking about that ship
+you were flying when Alfonso attacked you.\e"
+MJ0240023,"\h(«Enrique»)Hmm… it appears that we must find another way
+of getting Fina home.\e"
+MJ0240024,"\h(«Aika»)But…
+If we find a way to get Fina back home…\e"
+MJ0240025,"\h(«Aika»)…does that mean we'll have to say good-bye?
+We'll never get to see her again…\e"
+MJ0240026,\h(«Fina»)……\e
+MJ0240027,"\h(«Fina»)Lately…
+I sometimes find myself thinking…\e"
+MJ0240028,"\h(«Fina»)…I started thinking, if I am unable to find a
+way home…\e"
+MJ0240029,"\h(«Fina»)…that I'll be able to stay here, with everyone.\e"
+MJ0240030,"\h(«Fina»)Haha… I'm sorry… that's so silly of me.
+My orders were to gather the Moon Crystals and
+to return to the Great Silver Shrine with them…\e"
+MJ0240031,\h(«Vyse»)…\e
+MFJ0240000,"\h(«Gilder»)……Alors tu es allé à Yafutoma et après au pays
+des Glaces, hein ? Cela me donne des montées
+d'adrénaline rien que d'écouter tes histoires.\e"
+MFJ0240001,"\h(«Gilder»)Et donc à la fin, tu as rassemblé les cinq
+Cristaux…… Joli travail.\e"
+MFJ0240002,"\h(«Aika»)Oui, on les a tous !\e"
+MFJ0240003,"\h(«Gilder»)Et puisqu'il sont regroupés, je suppose
+que cela veut dire que Fina retournera avec dans
+son pays……\e"
+MFJ0240004,\h(«Fina»)……Oui.\e
+MFJ0240005,"\h(«Gilder»)En fait……
+Il y a quelque chose qui me tracassait tout à
+l'heure……\e"
+MFJ0240006,"\h(«Gilder»)Fina…… d'où venez-vous exactement ?
+Je veux dire, où repartez-vous ?\e"
+MFJ0240007,\h(«Fina»)…………\e
+MFJ0240008,\h(«Aika»)Fina ?\e
+MFJ0240009,"\h(«Fina»)Là où je dois retourner……
+Là où Ramirez et moi sommes nés et avons été
+élevés……\e"
+MFJ0240010,"\h(«Fina»)……C'est le Grand Temple d'Argent. Il se trouve
+bien haut dans le ciel……\e"
+MFJ0240011,\h(«Vyse»)Le Grand…… Temple d'Argent ?\e
+MFJ0240012,"\h(«Fina»)Il y a bien longtemps, quand les Pluies de
+Destruction se mirent à tomber, et que la
+majorité de la population mourut……
+Tout semblait perdu……\e"
+MFJ0240013,"\h(«Fina»)Les mages Silvites les plus puissants se
+retrouvèrent au Temple. Ils rassemblèrent leur
+énergie pour l'envoyer dans le ciel…… au dessus
+de la destruction.\e"
+MFJ0240014,"\h(«Fina»)Ils échappèrent au destin horrible du reste du
+monde, en s'élevant au dessus de la
+destruction.\e"
+MFJ0240015,"\h(«Fina»)Depuis…… d'en haut…… nous avons juré de protéger
+les habitants de ce monde pour qu'ils ne
+subissent pas la même fin fatale que nos
+ancêtres.\e"
+MFJ0240016,"\h(«Fina»)C'est la mission principale des Silvites qui ont
+survécu.\e"
+MFJ0240017,"\h(«Fina»)Le Grand Temple d'Argent se trouve bien au
+dessus des nuages, où nul navire ne peut voler……\e"
+MFJ0240018,"\h(«Fina»)J'ai l'intention de rapporter les Cristaux de
+Lune au Grand Temple d'Argent. Ainsi, jamais
+personne ne pourra abuser de leur pouvoir.\e"
+MFJ0240019,"\h(«Enrique»)Mais……
+Comment-vas tu rentrer chez toi ?\e"
+MFJ0240020,"\h(«Fina»)Si je peux récupérer le navire avec lequel je
+suis venue, je devrais pouvoir repartir.\e"
+MFJ0240021,"\h(«Fina»)Mais, quand j'ai été attaquée par Valua, mon
+navire s'est enfoncé sous les nuages……\e"
+MFJ0240022,"\h(«Vyse»)Oui, je me souviens…… tu parles de ce navire sur
+lequel tu naviguais quand Alfonso t'a attaquée.\e"
+MFJ0240023,"\h(«Enrique»)Humm…… il faut lui trouver un autre moyen de
+rentrer.\e"
+MFJ0240024,"\h(«Aika»)Mais……
+Si nous trouvons un moyen de renvoyer Fina chez
+elle……\e"
+MFJ0240025,"\h(«Aika»)……est-ce que cela signifie que nous devons nous
+dire au revoir ? Nous ne la reverrons jamais……\e"
+MFJ0240026,\h(«Fina»)…………\e
+MFJ0240027,"\h(«Fina»)Ces derniers temps……
+J'ai beaucoup réfléchi……\e"
+MFJ0240028,"\h(«Fina»)……J'ai réfléchi, et si je ne retrouve pas un
+moyen de rentrer……\e"
+MFJ0240029,"\h(«Fina»)……je serai obligée de rester ici, avec tout le
+monde.\e"
+MFJ0240030,"\h(«Fina»)Haha…… désolée…… je suis bête.
+J'ai reçu l'ordre de réunir les Cristaux de Lune
+et de retourner au Grand Temple d'Argent……\e"
+MFJ0240031,\h(«Vyse»)……\e
+MGJ0240000,"\h(«Gilder»)……Ihr seid nach Yafutoma und dann zum
+Land of Ice gereist, wie? Ich krieg schon vom
+bloßen Zuhören einen Adrenalin-Rausch.\e"
+MGJ0240001,"\h(«Gilder»)Also habt ihr am Ende die fünf Moon Crystals
+eingesammelt…… gute Arbeit.\e"
+MGJ0240002,"\h(«Aika»)Jawoll, wir haben sie alle!\e"
+MGJ0240003,"\h(«Gilder»)Und da sie nun alle beisammen sind, nimmt
+Fina sie wahrscheinlich mit, wenn sie bald
+zurück nach Hause fährt……\e"
+MGJ0240004,\h(«Fina»)……Stimmt.\e
+MGJ0240005,"\h(«Gilder»)Übrigens……
+Da ist noch etwas, das mich schon seit langem
+interessiert……\e"
+MGJ0240006,"\h(«Gilder»)Fina…… wo genau stammst du her? Ich meine,
+wohin gehst du, wenn du nach Hause gehst?\e"
+MGJ0240007,\h(«Fina»)……\e
+MGJ0240008,\h(«Aika»)Fina?\e
+MGJ0240009,"\h(«Fina»)Der Ort, zu dem ich zurückkehren muss……
+Der Ort, an dem Ramirez und ich geboren wurden
+und aufgewachsen sind……\e"
+MGJ0240010,"\h(«Fina»)……ist der Great Silver Shrine. Er steht an
+einem Ort, hoch über dem Himmel……\e"
+MGJ0240011,\h(«Vyse»)Der große…… silberne Schrein?\e
+MGJ0240012,"\h(«Fina»)Vor langer Zeit, als die Rains of Destruction
+auf das Land niederfielen und der Großteil
+der Weltbevölkerung getötet wurde…… schien
+alles verloren……\e"
+MGJ0240013,"\h(«Fina»)Da trafen sich die mächtigsten Silviter-Magier
+beim Schrein. Sie konzentrierten ihre gesamte
+Energie, um ihn in den Himmel zu erheben……
+hoch über die Zerstörung.\e"
+MGJ0240014,"\h(«Fina»)Sie sind dem furchtbaren Schicksal entronnen,
+das den Rest der Welt befiel, indem sie sich
+über die Verwüstung erhoben.\e"
+MGJ0240015,"\h(«Fina»)Damals…… haben wir von oben geschworen……
+die Völker dieser Welt vor dem Schicksal zu
+bewahren, das unsere Vorfahren traf.\e"
+MGJ0240016,"\h(«Fina»)Das ist die wichtigste Mission der
+verbleibenden Silviter.\e"
+MGJ0240017,"\h(«Fina»)Der Great Silver Shrine ist hoch über den
+Wolken, wo ihn kein Schiff erreichen kann……\e"
+MGJ0240018,"\h(«Fina»)Ich habe vor, die Moon Crystals zurück zum
+Great Silver Shrine zu bringen. Damit niemand
+je wieder ihre Macht missbrauchen kann.\e"
+MGJ0240019,"\h(«Enrique»)Aber……
+Wie willst du denn nach Hause kommen?\e"
+MGJ0240020,"\h(«Fina»)Wenn ich das Schiff wiederkriegen kann, mit
+dem ich gekommen bin, sollte ich es
+schaffen.\e"
+MGJ0240021,"\h(«Fina»)Aber als ich von Valua angegriffen wurde,
+sank mein Schiff unter die Wolkendecke……\e"
+MGJ0240022,"\h(«Vyse»)Ja, ich erinnere mich. Du sprachst von dem
+Schiff, mit dem du geflogen bist, als du von
+Alfonso angegriffen wurdest.\e"
+MGJ0240023,"\h(«Enrique»)Hmm……  sieht so aus, als müssten wir eine
+andere Möglichkeit finden, damit Fina nach
+Hause kommt.\e"
+MGJ0240024,"\h(«Aika»)Aber……
+Wenn wir eine Möglichkeit fänden, Fina nach
+Hause zu bringen……\e"
+MGJ0240025,"\h(«Aika»)……würde das denn bedeuten, dass wir uns von
+ihr verabschieden müssen…… und wir sie nie
+wieder sehen werden……\e"
+MGJ0240026,\h(«Fina»)……\e
+MGJ0240027,"\h(«Fina»)Neuerdings……
+…… ertappe ich mich bei dem Gedanken……\e"
+MGJ0240028,\h(«Fina»)……wenn ich den Weg nach Hause nicht fände……\e
+MGJ0240029,\h(«Fina»)……könnte ich mit euch allen hierbleiben.\e
+MGJ0240030,"\h(«Fina»)Haha…… Tut mir Leid…… wie dumm von mir.
+Ich hatte den Befehl, die Moon Crystals
+einzusammeln und mit ihnen zum Great Silver
+Shrine zurückzukehren.\e"
+MGJ0240031,\h(«Vyse»)……\e
+MSJ0240000,"\h(«Gilder»)…… ¿Os habéis ido a Yafutoma y luego a las
+Tierras de Hielo, eh? Sólo de oír vuestras
+aventuras se me pone la carne de gallina.\e"
+MSJ0240001,"\h(«Gilder»)Así que al final, habéis recogido los cinco
+Cristales Lunares…… Buen trabajo.\e"
+MSJ0240002,"\h(«Aika»)¡Pues sí, los tenemos todos!\e"
+MSJ0240003,"\h(«Gilder»)Y puesto que ya los hemos reunido todos, Fina se
+los tendrá que llevar cuando regrese a su hogar,
+dentro de poco……\e"
+MSJ0240004,\h(«Fina»)…… Sí.\e
+MSJ0240005,"\h(«Gilder»)La verdad es que……
+Hay algo que ardo en deseos de preguntarte desde
+hace tiempo……\e"
+MSJ0240006,"\h(«Gilder»)Fina…… ¿de dónde vienes exactamente?
+Quiero decir, ¿dónde está tu hogar?\e"
+MSJ0240007,\h(«Fina»)……\e
+MSJ0240008,\h(«Aika»)¿Fina?\e
+MSJ0240009,"\h(«Fina»)El lugar al que tengo que volver……
+El lugar donde crecimos Ramírez y yo……\e"
+MSJ0240010,"\h(«Fina»)…… es el Gran Relicario de Plata. Está en un
+lugar en lo alto del cielo……\e"
+MSJ0240011,\h(«Vyse»)¿El Gran…… Relicario de Plata?\e
+MSJ0240012,"\h(«Fina»)Hace mucho tiempo, cuando cayeron las Lluvias
+Destructoras y la mayoría de la población
+mundial desapareció…… todo parecía perdido……\e"
+MSJ0240013,"\h(«Fina»)Los magos Silvite más poderosos se reunieron en
+el Templo y unieron sus fuerzas para elevarlo al
+cielo…… y evitar su destrucción.\e"
+MSJ0240014,"\h(«Fina»)Ellos evitaron la horrible hecatombe que se
+ensañó con el resto del mundo, elevándolo por
+encima de la destrucción.\e"
+MSJ0240015,"\h(«Fina»)Desde entonces…… ahí arriba…… juramos proteger a
+las gentes de este mundo para que no sufran el
+mismo destino que nuestros antepasados.\e"
+MSJ0240016,"\h(«Fina»)Ésa es la misión primordial de los Silvites que
+hemos sobrevivido.\e"
+MSJ0240017,"\h(«Fina»)El Gran Relicario de Plata está sobre las nubes,
+donde ningún navío puede llegar……\e"
+MSJ0240018,"\h(«Fina»)Mi plan es devolver los Cristales Lunares al
+Gran Relicario de Plata para que nadie vuelva a
+utilizar sus poderes con fines malvados.\e"
+MSJ0240019,"\h(«Enrique»)Pero……
+¿Cómo vas a regresar a tu hogar?\e"
+MSJ0240020,"\h(«Fina»)Si puedo recuperar la nave en la que viajaba
+cuando vine, podré regresar a casa.\e"
+MSJ0240021,"\h(«Fina»)Pero, cuando me atacaron los Valuan, mi nave se
+hundió por debajo de las nubes……\e"
+MSJ0240022,"\h(«Vyse»)Sí, me acuerdo…… te refieres a ese navío en el
+que ibas volando cuando te capturó Alfonso.\e"
+MSJ0240023,"\h(«Enrique»)Mmm…… parece que tenemos que encontrar otra
+forma de llevar a Fina a casa.\e"
+MSJ0240024,"\h(«Aika»)Pero……
+si encontramos la forma de llevar a Fina a
+casa……\e"
+MSJ0240025,"\h(«Aika»)…… ¿vamos a tener que separarnos de ella?
+Nunca volveremos a verla……\e"
+MSJ0240026,\h(«Fina»)……\e
+MSJ0240027,"\h(«Fina»)Últimamente……
+A veces me sorprendo a mí misma cuando pienso……\e"
+MSJ0240028,"\h(«Fina»)…… empiezo a pensar en qué pasaría si no pudiera
+volver a casa……\e"
+MSJ0240029,\h(«Fina»)…… podría quedarme aquí con todos vosotros.\e
+MSJ0240030,"\h(«Fina»)Ja, ja…… Perdonad…… Qué tonta soy.
+Tenía órdenes de reunir los Cristales Lunares y
+volver al Gran Relicario de Plata……\e"
+MSJ0240031,\h(«Vyse»)……\e
+MK0050000,\h(«Fina»)…Yes?\e
+MK0050001,"\h(«Vyse»)It's me…
+I came by to see if you're okay.\e"
+MK0050002,\h(«Fina»)Oh… Vyse…\e
+MK0050003,"\h(«Fina»)I'm sorry, but…
+Could I just be alone for a while?\e"
+MK0050004,\h(«Vyse»)Fina…\e
+MK0050005,"\h(«What will you say?»)“I understand…”
+“Everyone's worried about you…”\e"
+MK0050006,"\h(«Vyse»)I understand if you still need to work things 
+out.\e"
+MK0050007,"\h(«Vyse»)Fina, everyone is worried about you. 
+If there's anything we can do to help…\e"
+MK0050008,"\h(«Fina»)…I know… but, I… I need to sort out a few
+things before I can… talk to anyone.\e"
+MK0050009,"\h(«Fina»)I'm sorry to have worried you…
+But, please… I need just a little more time to 
+myself.\e"
+MK0050010,\h(«Vyse»)… Okay.\e
+MK0050011,"\h(«Vyse»)I'll be back later.
+Fina… don't give up, okay?\e"
+MK0050012,"\h(«Fina»)Elders…
+Was Ramirez speaking the truth?\e"
+MK0050013,"\h(«Fina»)What…
+What am I supposed to do?
+Who am I supposed to believe?\e"
+MK0050014,"\h(«Aika»)Alright everyone!
+Lift on three, okay?\e"
+MK0050015,"\h(«Izmael»)As soon as we get this rubble out of the way, 
+we can start building again! I can't wait…\e"
+MK0050016,"\h(«Gilder»)Hey! I'm a guest here!!
+Why… why am I stuck…
+doing this kind of… work?!\e"
+MK0050017,\h(«Aika»)Aww… quit… your… griping! \e
+MK0050018,\h(«Marco»)This reminds me of Lower City… \e
+MK0050019,"\h(«Clara»)What are you talking about?
+Everyone is safe! We should be happy that nobody
+was seriously hurt… \e"
+MK0050020,"\h(«Brabham»)Nothin' lasts forever… that's why we build new 
+stuff. In my prime, I would have rebuilt half of
+the island already! \e"
+MK0050021,"\h(«Lawrence»)They're too quick!
+Somebody cast a spell or something!\e"
+MK0050022,"\h(«Belle»)Ouch! 
+I'm so tired… \e"
+MK0050023,\h(«Fina»)Maybe my life is better now than it ever was… \e
+MFK0050000,\h(«Fina»)……Oui ?\e
+MFK0050001,"\h(«Vyse»)C'est moi……
+Je suis venu voir comment tu vas.\e"
+MFK0050002,\h(«Fina»)Oh…… Vyse……\e
+MFK0050003,"\h(«Fina»)Je suis désolée, mais……
+Est-ce que je peux rester seule un moment ?\e"
+MFK0050004,\h(«Vyse»)Fina……\e
+MFK0050005,"\h(«Que direz-vous ?»)“Je comprends……”
+“Tout le monde s'inquiète pour toi……”\e"
+MFK0050006,\h(«Vyse»)Je comprends que tu veuilles réfléchir.\e
+MFK0050007,"\h(«Vyse»)Fina, tout le monde s'inquiète pour toi.
+Est-ce que nous pouvons faire quelque chose pour
+toi……\e"
+MFK0050008,"\h(«Fina»)……Je sais…… mais, j'ai…… j'ai besoin de mettre
+au point plusieurs choses avant…… de pouvoir
+vous parler.\e"
+MFK0050009,"\h(«Fina»)Je suis désolée de vous avoir crée du souci……
+Mais, s'il te plaît…… j'ai besoin de rester
+encore un peu seule.\e"
+MFK0050010,\h(«Vyse»)…… OK.\e
+MFK0050011,"\h(«Vyse»)Je reviendrai plus tard.
+Fina…… n'abandonne pas, OK ?\e"
+MFK0050012,"\h(«Fina»)Anciens……
+Est-ce que Ramirez disait la vérité ?\e"
+MFK0050013,"\h(«Fina»)Quoi……
+Que suis-je censée faire ?
+Qui suis-je censée croire ?\e"
+MFK0050014,"\h(«Aika»)Allez tout le monde !
+On soulève à trois, OK ?\e"
+MFK0050015,"\h(«Izmael»)Dès que nous aurons dégagé ces décombres,
+nous pourrons commencer la reconstruction !
+Il me tarde……\e"
+MFK0050016,"\h(«Gilder»)Hé ! Je suis un invité ici !!
+Pourquoi…… pourquoi est-ce que je dois……
+faire ce genre de…… travail ?!\e"
+MFK0050017,\h(«Aika»)Oh…… arrêtez…… de…… ronchonner !\e
+MFK0050018,\h(«Marco»)Cela me rappelle le Bas Valua……\e
+MFK0050019,"\h(«Clara»)Qu'est-ce que tu racontes ?
+Tout le monde est sain et sauf ! Nous devrions
+être contents qu'il n'y ait pas de blessés……\e"
+MFK0050020,"\h(«Brabham»)Rien n'est éternel…… c'est pour cela que nous
+construisons sans arrêt. Si j'étais jeune,
+j'aurais déjà fini de reconstruire la moitié de
+cette île !\e"
+MFK0050021,"\h(«Lawrence»)Ils sont trop rapides !
+Quelqu'un a jeté un sort ou quoi !\e"
+MFK0050022,"\h(«Belle»)Aïe !
+Je suis fatiguée……\e"
+MFK0050023,\h(«Fina»)Peut-être que ma vie n'a jamais été aussi bien……\e
+MGK0050000,\h(«Fina»)…… Ja?\e
+MGK0050001,"\h(«Vyse»)Ich bin's……
+Ich wollte nur nach dir sehen.\e"
+MGK0050002,\h(«Fina»)Oh……  Vyse……\e
+MGK0050003,"\h(«Fina»)Es tut mir Leid, aber……
+Kann ich für eine Weile allein sein?\e"
+MGK0050004,\h(«Vyse»)Fina……\e
+MGK0050005,"\h(«Was wirst du sagen?»)“Das kann ich verstehen……”
+“Alle machen sich Sorgen um dich……”\e"
+MGK0050006,"\h(«Vyse»)Ich verstehe, wenn du noch Zeit brauchst,
+um über die Dinge nachzudenken.\e"
+MGK0050007,"\h(«Vyse»)Fina, alle machen sich um dich Sorgen.
+Wenn wir dir irgendwie helfen können……\e"
+MGK0050008,"\h(«Fina»)…… Ich weiß…… aber ich…… muss mir noch über
+ein paar Dinge klar werden, bevor ich…… mit
+jemandem reden kann.\e"
+MGK0050009,"\h(«Fina»)Tut mir Leid, dass ihr euch meinetwegen Sorgen
+macht. Aber bitte…… ich brauche noch ein wenig
+Zeit für mich allein.\e"
+MGK0050010,\h(«Vyse»)……Okay.\e
+MGK0050011,"\h(«Vyse»)Ich komme später noch einmal vorbei.
+Fina…… nicht den Kopf hängen lassen, ok?\e"
+MGK0050012,"\h(«Fina»)Elders……
+Hat Ramirez die Wahrheit gesagt?\e"
+MGK0050013,"\h(«Fina»)Was……
+Was soll ich machen?
+Wem soll ich glauben?\e"
+MGK0050014,"\h(«Aika»)Alles herhören!
+Bei drei hebt ihr an, ok?\e"
+MGK0050015,"\h(«Izmael»)Sobald wir diesen Schutt beseitigt haben,
+können wir wieder mit dem Bauen anfangen!
+Ich kann's kaum erwarten……\e"
+MGK0050016,"\h(«Gilder»)He! Ich bin hier Gast!!
+Warum…… warum bin ich dazu verurteilt,
+diese Art von…… Arbeit zu verrichten?!\e"
+MGK0050017,\h(«Aika»)Mann…… hör…… hör auf zu meckern!\e
+MGK0050018,\h(«Marco»)Das erinnert mich an Lower City……\e
+MGK0050019,"\h(«Clara»)Wovon redest du?
+Alle sind in Sicherheit! Wir sollten uns
+freuen, dass niemand ernsthaft verletzt wurde!\e"
+MGK0050020,"\h(«Brabham»)Nichts währt ein Leben lang…… deshalb bauen
+wir immer wieder neu. Wenn ich noch jünger
+wäre, hätte ich schon die halbe Insel neu
+aufgebaut!\e"
+MGK0050021,"\h(«Lawrence»)Sie sind zu schnell!
+Hat sie jemand verzaubert!?\e"
+MGK0050022,"\h(«Belle»)Autsch!
+Ich bin so müde……\e"
+MGK0050023,"\h(«Fina»)Vielleicht habe ich jetzt ein besseres Leben
+als je zuvor……\e"
+MSK0050000,\h(«Fina»)…… ¿Sí?\e
+MSK0050001,"\h(«Vyse»)Soy yo……
+Vengo a ver qué tal estás.\e"
+MSK0050002,\h(«Fina»)Oh…… Vyse……\e
+MSK0050003,"\h(«Fina»)Perdona, pero……
+¿Podría estar sola un rato?\e"
+MSK0050004,\h(«Vyse»)Fina……\e
+MSK0050005,"\h(«¿Qué vas a decir?»)“Claro que no, lo comprendo……”
+“Estamos un poco preocupados por ti……”\e"
+MSK0050006,"\h(«Vyse»)Lo entiendo, tienes muchas cosas en las que
+pensar.\e"
+MSK0050007,"\h(«Vyse»)Fina, estamos todos preocupados por ti.
+Si te puedo ayudar en algo……\e"
+MSK0050008,"\h(«Fina»)…… Ya sé…… pero yo…… necesito solucionar algunas
+cosas antes de poder…… hablar sobre ello.\e"
+MSK0050009,"\h(«Fina»)Siento que estés preocupado……
+Pero, si no te importa…… necesito estar sola.\e"
+MSK0050010,\h(«Vyse»)…… Vale.\e
+MSK0050011,"\h(«Vyse»)Volveré más tarde.
+Fina…… no te vas a rendir, ¿verdad?\e"
+MSK0050012,"\h(«Fina»)Los Ancianos……
+¿Estaba Ramírez diciendo la verdad?\e"
+MSK0050013,"\h(«Fina»)Qué……
+¿Qué voy a hacer ahora?
+¿Quién dice la verdad y quién miente?\e"
+MSK0050014,"\h(«Aika»)¡Muy bien, todos!
+Hay que levantar a la de tres, ¿vale?\e"
+MSK0050015,"\h(«Izmael»)En cuanto quitemos estos escombros de en medio,
+¡empezamos a edificar otra vez!
+Estoy impaciente……\e"
+MSK0050016,"\h(«Gilder»)¡Oye! ¡¡Yo estoy aquí de invitado!!
+Qué…… ¡¿por qué tengo que estar aquí con esta
+clase de trabajo……?!\e"
+MSK0050017,\h(«Aika»)Bah…… cierra…… la…… ¡déjalo ya!\e
+MSK0050018,\h(«Marco»)Lo que me recuerda al Arrabal de Valua……\e
+MSK0050019,"\h(«Clara»)¿Pero de qué estás hablando?
+¡Aquí estamos todos a salvo! Deberíamos estar
+contentos de que nadie fuera herido……\e"
+MSK0050020,"\h(«Brabham»)No hay nada que dure eternamente…… por eso hay
+que construir cosas nuevas. ¡Si fuera joven ya
+habría reconstruido toda la isla!\e"
+MSK0050021,"\h(«Lawrence»)¡Son demasiado rápidos!
+¡Que alguien conjure un hechizo!\e"
+MSK0050022,"\h(«Belle»)¡Aú!
+Qué cansada estoy……\e"
+MSK0050023,"\h(«Fina»)En cierto modo, nunca he sido tan feliz como
+ahora……\e"
+ML0030000,"\h(«Moegi»)Vyse…
+I… I heard that something terrible
+has happened…\e"
+ML0030001,"\h(«Vyse»)Moegi… I'm afraid… that… Galcian used the
+Rains of Destruction on Valua… \e"
+ML0030002,"\h(«Moegi»)What?!
+But… but what about Enrique?!
+Is he…?\e"
+ML0030003,\h(«Moegi»)No… he… he can't be…\e
+ML0030004,"\h(«Fina»)Vyse, if we don't do something soon, Galcian
+will destroy the world one island at a time.
+We have to stop him.\e"
+ML0030005,\h(«Vyse»)I know… I'm working on it.\e
+ML0030006,\h(«Aika»)How are we supposed to stop him?!\e
+ML0030007,"\h(«Aika»)His base is an entire continent, and there's 
+that shield around it… \e"
+ML0030008,"\h(«Gilder»)Looks like there's not much we can do except
+take on Galcian himself.\e"
+ML0030009,"\h(«Gilder»)But, we can't even get to him…\e"
+ML0030010,\h(«Vyse»)Damn! There's nothing we can do! \e
+ML0030011,"\h( )Oh, yes there is.\e"
+ML0030012,"\h(«Enrique»)I leave you guys alone for a few days,
+and you're ready to surrender?\e"
+ML0030013,"\h(«Vyse»)Enrique, you're alive!!!\e"
+ML0030014,\h(«Moegi»)Enrique!!!\e
+ML0030015,"\h(«Enrique»)Moegi…
+It's alright, I'm okay.\e"
+ML0030016,\h(«Moegi»)I was so worried about you… \e
+ML0030017,"\h(«Enrique»)We were in Valua when the Rains hit.
+Belleza saved me. I owe her my life.\e"
+ML0030018,"\h(«Enrique»)My mother, and so many others were killed… \e"
+ML0030019,"\h(«Enrique»)We can't let this happen again! We must stop
+Galcian… \e"
+ML0030020,\h(«Aika»)But… how?\e
+ML0030021,"\h(«Belleza»)Lord Galcian wants to rule the world,
+not destroy it. Valua was just an example.\e"
+ML0030022,"\h(«Belleza»)Now that he's made his example, he can demand
+allegiance from all of the other countries… \e"
+ML0030023,"\h(«Belleza»)He will send his Armada to each of the countries
+as a show of force, and demand that they
+surrender. He will most likely go with them.\e"
+ML0030024,"\h(«Vyse»)You're right! Once he's out of his base, we'll
+have a shot at him.\e"
+ML0030025,"\h(«Gilder»)Vyse, I know that you aren't too keen on giving
+up, but we need to be realistic here.\e"
+ML0030026,"\h(«Gilder»)There's no way the Delphinus can take out
+Galcian's entire fleet.\e"
+ML0030027,"\h(«Belleza»)He's right. If you fought him alone, you would
+lose.\e"
+ML0030028,"\h(«Aika»)But, there has to be a way… \e"
+ML0030029,\h(«Aika»)We can't just give up… \e
+ML0030030,\h(«Vyse»)Dammit!\e
+ML0030031,"\h( )What's wrong with you, boy?\e"
+ML0030033,"\h(«Vyse»)……!
+That voice!\e"
+ML0030034,"\h(«Drachma»)Boy…
+It's been a long time.\e"
+ML0030035,\h(«Vyse»)Captain!\e
+ML0030036,\h(«Drachma»)Soltis is the root of all of our problems… \e
+ML0030037,"\h(«Drachma»)We've got to send that place back to Deep Sky,
+where it belongs!\e"
+ML0030038,\h(«Vyse»)But… \e
+ML0030039,"\h(«Fina»)But…
+We don't stand a chance against the entire
+Armada.\e"
+ML0030041,\h(«Fina»)Clara!\e
+ML0030042,"\h(«Clara»)Don't forget, I'm an Air Pirate, too!
+I can't just sit around and let Galcian take
+over the world!\e"
+ML0030043,"\h(«Gordo»)That new continent has driven away all of the
+food… Now I don't have any customers!
+That's more than enough reason for me to fight!\e"
+ML0030044,"\h(«Centime»)Vyse, I heard what was going on.
+We must fight together, for the future of this
+world!\e"
+ML0030045,"\h( )Humph!
+I can't believe I'm doin' this!\e"
+ML0030046,\h(«Vyse»)Baltor?!\e
+ML0030047,"\h(«Baltor»)Don't get the wrong idea.
+I'm only helping you because I hate Galcian
+more than I hate you.\e"
+ML0030048,"\h(«Baltor»)As soon as we kick his arse,
+I'm coming after ya!\e"
+ML0030049,"\h(«Daigo»)If there's a fight to be fought, then you can
+count us in.\e"
+ML0030050,"\h(«Daigo»)You saved our country…
+Now, it is time to return the debt of honor!\e"
+ML0030051,"\h(«Jao»)We, the Tenkou…\e"
+ML0030052,\h(«Mao»)…will also aid you.\e
+ML0030053,\h(«Fina»)Vyse…\e
+ML0030054,"\h(«Aika»)With this many ships, we may just stand a chance
+against the Armada!\e"
+ML0030056,\h(«Vyse»)Dad!!\e
+ML0030057,"\h(«Dyne»)Vyse…
+You've done quite a bit of growing up since I
+last saw you.\e"
+ML0030058,"\h(«Dyne»)If you have this many allies, you must be quite
+a Captain! I'm proud of you son.\e"
+ML0030059,\h(«Vyse»)Thank you!\e
+ML0030060,"\h(«Gilder»)Alright! Captain, we await your orders!\e"
+ML0030061,\h(«Vyse»)Okay!\e
+ML0030062,"\h(«What will you say?»)“We can't let Galcian get away with this!”
+“Let's show Galcian what we're made of!”\e"
+ML0030063,\h(«Vyse»)We can't let Galcian get away with this!\e
+ML0030064,"\h(«Vyse»)We need to take back the skies and free the
+world!\e"
+ML0030065,"\h(«Vyse»)Let's send him and Soltis into Deep Sky… 
+forever!\e"
+ML0030066,\h(«Vyse»)Let's show Galcian what we're made of!!\e
+ML0030067,\h( )Yeah!\e
+ML0030068,"\h(«Vyse»)Tonight, I want everyone to rest up.
+Tomorrow, we make history!!!\e"
+ML0030069,"\h(«Aika»)It looks like this is it! 
+I think I'm going to like this!\e"
+MFL0030000,"\h(«Moegi»)Vyse……
+On…… on m'a dit qu'il s'est passé quelque chose
+de terrible……\e"
+MFL0030001,"\h(«Vyse»)Moegi…… j'ai bien peur…… que…… Galcian se soit
+servi des Pluies de la Destruction sur Valua……\e"
+MFL0030002,"\h(«Moegi»)Quoi ?!
+Mais…… mais Enrique alors ?!
+Il est……?\e"
+MFL0030003,\h(«Moegi»)Non…… ce…… ce n'est pas possible……\e
+MFL0030004,"\h(«Fina»)Vyse, si nous n'agissons pas rapidement, Galcian
+détruira le monde, une île après l'autre.
+Il faut l'en empêcher.\e"
+MFL0030005,\h(«Vyse»)Je sais…… je réfléchis.\e
+MFL0030006,\h(«Aika»)Comment sommes-nous censés l'arrêter ?!\e
+MFL0030007,"\h(«Aika»)Sa base est aussi grande qu'un continent, et
+elle est protégée par ce Dôme……\e"
+MFL0030008,"\h(«Gilder»)Il n'y a pas grand chose à faire à part attaquer
+Galcian en personne.\e"
+MFL0030009,"\h(«Gilder»)Mais, nous ne pouvons même pas l'atteindre……\e"
+MFL0030010,\h(«Vyse»)Malédiction ! Il n'y a rien à faire !\e
+MFL0030011,"\h( )Oh, que si.\e"
+MFL0030012,"\h(«Enrique»)Je vous abandonne quelques jours,
+et vous êtes prêts à vous rendre ?\e"
+MFL0030013,"\h(«Vyse»)Enrique, vous êtes vivant !!!\e"
+MFL0030014,\h(«Moegi»)Enrique !!!\e
+MFL0030015,"\h(«Enrique»)Moegi……
+Ça va, tout va bien.\e"
+MFL0030016,\h(«Moegi»)J'étais si inquiète……\e
+MFL0030017,"\h(«Enrique»)Nous étions à Valua quand les Pluies sont
+tombées. Belleza m'a sauvé. Je lui dois ma vie.\e"
+MFL0030018,"\h(«Enrique»)Ma mère, et beaucoup d'autres ont été tués……\e"
+MFL0030019,"\h(«Enrique»)Il ne faut pas que cela se reproduise !
+Il faut arrêter Galcian……\e"
+MFL0030020,\h(«Aika»)Mais…… comment ?\e
+MFL0030021,"\h(«Belleza»)Le Seigneur Galcian veut régner sur le monde,
+pas le détruire. Valua a servi d'exemple.\e"
+MFL0030022,"\h(«Belleza»)Maintenant qu'il a donné l'exemple, il peut
+exiger l'allégeance de tous les autres pays……\e"
+MFL0030023,"\h(«Belleza»)Il enverra son Armada dans chaque pays pour
+montrer sa force, et exigera qu'ils se rendent.
+Il l'accompagnera certainement.\e"
+MFL0030024,"\h(«Vyse»)Vous avez raison ! Une fois sorti de sa base,
+nous pourrons l'attaquer.\e"
+MFL0030025,"\h(«Gilder»)Vyse, je sais que tu n'aimes pas trop baisser
+les bras, mais il faut être réaliste.\e"
+MFL0030026,"\h(«Gilder»)Le Delphinus ne pourra jamais vaincre toute la
+flotte de Galcian.\e"
+MFL0030027,"\h(«Belleza»)Il a raison. Si vous vous battez seuls, vous
+perdrez.\e"
+MFL0030028,"\h(«Aika»)Mais, il doit exister un moyen……\e"
+MFL0030029,\h(«Aika»)Nous ne pouvons pas baisser les bras……\e
+MFL0030030,\h(«Vyse»)Malédiction !\e
+MFL0030031,"\h( )Qu'est-ce que tu as, mon garçon ?\e"
+MFL0030032,"\h( )“Quoi qu'il arrive, je n'abandonnerai jamais !”
+Tu m'as dit cela un jour…… ou bien as-tu déjà
+oublié ?!\e"
+MFL0030033,"\h(«Vyse»)……!
+Cette voix !\e"
+MFL0030034,"\h(«Drachma»)Mon garçon…… Nous ne nous sommes pas vus depuis
+si longtemps.\e"
+MFL0030035,\h(«Vyse»)Capitaine !\e
+MFL0030036,\h(«Drachma»)Soltis est à l'origine de tous nos problèmes……\e
+MFL0030037,"\h(«Drachma»)Il faut le renvoyer dans les Profondeurs,
+là d'où il vient !\e"
+MFL0030038,\h(«Vyse»)Mais……\e
+MFL0030039,"\h(«Fina»)Mais……
+Nous n'avons aucune chance face à l'Armada
+entière.\e"
+MFL0030040,"\h( )Eh bien, Fina……
+M'as-tu déjà oubliée ?\e"
+MFL0030041,\h(«Fina»)Clara !\e
+MFL0030042,"\h(«Clara»)N'oublie pas, moi aussi, je suis une Pirate de
+l'Air ! Je ne peux pas laisser Galcian s'emparer
+du monde !\e"
+MFL0030043,"\h(«Gordo»)Il ne reste plus rien à manger à cause de ce
+nouveau continent…… Je n'ai plus de clients !
+C'est une raison suffisante pour que je me
+batte !\e"
+MFL0030044,"\h(«Centime»)Vyse, j'ai entendu ce qui se passait.
+Nous devons nous battre ensemble, pour l'avenir
+de ce monde !\e"
+MFL0030045,"\h( )Pfut !
+Je n'arrive pas à croire que je vais faire ça !\e"
+MFL0030046,\h(«Vyse»)Baltor ?!\e
+MFL0030047,"\h(«Baltor»)Ne vous méprenez pas.
+Je vous aide seulement parce que je hais Galcian
+plus que vous.\e"
+MFL0030048,"\h(«Baltor»)Dès que nous lui aurons fait la peau,
+ce sera votre tour !\e"
+MFL0030049,"\h(«Daigo»)S'il y a une bataille, vous pouvez compter sur
+nous.\e"
+MFL0030050,"\h(«Daigo»)Vous avez sauvé notre pays…… L'heure est venue
+de régler notre dette d'honneur !\e"
+MFL0030051,"\h(«Jao»)Nous, les Tenkous……\e"
+MFL0030052,\h(«Mao»)……nous vous aiderons aussi.\e
+MFL0030053,\h(«Fina»)Vyse……\e
+MFL0030054,"\h(«Aika»)Avec tous ces navires, nous avons peut-être une
+chance contre l'Armada !\e"
+MFL0030055,"\h( )Aika, tu ne vas tout de même pas nous oublier…
+parce que nous sommes en retard.\e"
+MFL0030056,\h(«Vyse»)Papa !!\e
+MFL0030057,"\h(«Dyne»)Vyse……
+Tu as bien mûri depuis la dernière fois que je
+t'ai vu.\e"
+MFL0030058,"\h(«Dyne»)Si tu as autant d'alliés, tu dois être un sacré
+Capitaine ! Je suis fier de toi mon fils.\e"
+MFL0030059,\h(«Vyse»)Merci !\e
+MFL0030060,"\h(«Gilder»)Bien ! Capitaine, nous attendons vos ordres !\e"
+MFL0030061,\h(«Vyse»)OK !\e
+MFL0030062,"\h(«Que direz-vous ?»)“Galcian ne peut pas s'en sortir comme ça !”
+“Montrons-lui de quoi nous sommes capables !”\e"
+MFL0030063,"\h(«Vyse»)Nous ne pouvons pas laisser Galcian s'en sortir
+comme cela !\e"
+MFL0030064,"\h(«Vyse»)Nous devons récupérer les cieux et délivrer le
+monde !\e"
+MFL0030065,"\h(«Vyse»)Envoyons-le avec Soltis dans les Profondeurs……
+pour toujours !\e"
+MFL0030066,"\h(«Vyse»)Montrons à Galcian de quoi nous sommes
+capables !!\e"
+MFL0030067,\h( )Super !\e
+MFL0030068,"\h(«Vyse»)Ce soir, je veux que tout le monde se repose.
+Demain, nous entrons dans l'histoire !!!\e"
+MFL0030069,"\h(«Aika»)Voilà, tout est prêt !
+Je crois que je vais m'amuser !\e"
+MGL0030000,"\h(«Moegi»)Vyse……
+Ich…… ich habe gehört, dass etwas
+Furchtbares passiert ist……\e"
+MGL0030001,"\h(«Vyse»)Moegi…… ich befürchte,…… dass…… Galcian die
+Rains of Destruction auf Valua losgelassen
+hat……\e"
+MGL0030002,"\h(«Moegi»)Was?!
+Aber…… was ist dann mit Enrique?!
+Ist er……?\e"
+MGL0030003,\h(«Moegi»)Nein…… das…… kann nicht sein……\e
+MGL0030004,"\h(«Fina»)Vyse, wenn wir nicht bald etwas unternehmen,
+zerstört Galcian eine Insel nach der anderen und
+schließlich die ganze Welt. Wir müssen ihn
+aufhalten.\e"
+MGL0030005,\h(«Vyse»)Ich weiß…… Ich arbeite dran.\e
+MGL0030006,\h(«Aika»)Wie sollen wir ihn bloß aufhalten?!\e
+MGL0030007,"\h(«Aika»)Sein Stützpunkt ist ein ganzer Kontinent,
+und drum herum befindet sich dieses Schild……\e"
+MGL0030008,"\h(«Gilder»)Sieht so aus, als könnten wir nicht viel 
+machen, außer es mit Galcian selbst aufzunehmen.\e"
+MGL0030009,"\h(«Gilder»)Verdammt, aber wir kommen doch gar nicht an ihn
+heran……\e"
+MGL0030010,\h(«Vyse»)Verdammt! Wir können gar nichts tun!\e
+MGL0030011,"\h( )Oh doch, da gibt es etwas.\e"
+MGL0030012,"\h(«Enrique»)Ich brauch euch bloß ein paar Tage allein zu
+lassen, und schon wollt ihr euch ergeben?\e"
+MGL0030013,"\h(«Vyse»)Enrique, du lebst!!!\e"
+MGL0030014,\h(«Moegi»)Enrique!!!\e
+MGL0030015,"\h(«Enrique»)Moegi……
+Es ist alles in Ordnung. Es geht mir gut.\e"
+MGL0030016,\h(«Moegi»)Ich habe mir solche Sorgen um dich gemacht……\e
+MGL0030017,"\h(«Enrique»)Wir waren in Valua, als die Rains einschlugen.
+Belleza hat mich gerettet. Ich verdanke ihr
+mein Leben.\e"
+MGL0030018,"\h(«Enrique»)Meine Mutter und viele andere wurden dabei
+getötet……\e"
+MGL0030019,"\h(«Enrique»)Wir können nicht zulassen, dass das noch einmal
+passiert! Wir müssen Galcian aufhalten……\e"
+MGL0030020,\h(«Aika»)Aber…… wie?\e
+MGL0030021,"\h(«Belleza»)Lord Galcian möchte die Welt regieren,
+nicht zerstören. Valua war nur eine Warnung.\e"
+MGL0030022,"\h(«Belleza»)Jetzt, wo er ein Exempel statuiert hat,
+kann er von allen anderen Völkern völlige
+Ergebenheit verlangen……\e"
+MGL0030023,"\h(«Belleza»)Zum Beweis seiner Macht wird er seine Armada
+in jedes einzelne Land schicken und die
+Kapitulation verlangen. Wahrscheinlich ist er
+selbst mit an Bord.\e"
+MGL0030024,"\h(«Vyse»)Du hast Recht! Sobald er seinen Stützpunkt
+verlässt, haben wir eine Chance.\e"
+MGL0030025,"\h(«Gilder»)Vyse, ich weiß, dass du nicht gerne aufgibst,
+aber wir müssen realistisch sein.\e"
+MGL0030026,"\h(«Gilder»)Die Delphinus kann unmöglich Galcians gesamte
+Flotte außer Gefecht setzen.\e"
+MGL0030027,"\h(«Belleza»)Er hat Recht. Wenn du dich ihm allein
+stellst, wirst du verlieren.\e"
+MGL0030028,\h(«Aika»)Aber es muss doch eine Möglichkeit geben……\e
+MGL0030029,\h(«Aika»)Wir können doch nicht einfach aufgeben……\e
+MGL0030030,\h(«Vyse»)Verdammt noch mal!\e
+MGL0030031,"\h( )Stimmt was nicht, Junge?\e"
+MGL0030033,"\h(«Vyse»)…………!
+Diese Stimme!\e"
+MGL0030034,"\h(«Drachma»)Mein Junge……
+Es ist lange her.\e"
+MGL0030035,\h(«Vyse»)Captain!\e
+MGL0030036,"\h(«Drachma»)Soltis ist die Ursache für all unser
+Missgeschick……\e"
+MGL0030037,"\h(«Drachma»)Wir müssen dieses Ding wieder zurück in den
+Deep Sky befördern, wo es hingehört!\e"
+MGL0030038,\h(«Vyse»)Aber……\e
+MGL0030039,"\h(«Fina»)Aber……
+Gegen die gesamte Armada können wir überhaupt
+nichts ausrichten.\e"
+MGL0030041,\h(«Fina»)Clara!\e
+MGL0030042,"\h(«Clara»)Vergiss nicht, auch ich bin Luftpiratin!
+Ich kann mich nicht einfach hinsetzen und
+zuschauen, wie Galcian die Welt erobert!\e"
+MGL0030043,"\h(«Gordo»)Dieser neue Kontinent hat das ganze Essen
+weggefegt…… Jetzt habe ich keine Kunden mehr!
+Das ist für mich Grund genug, in den Kampf
+zu ziehen!\e"
+MGL0030044,"\h(«Centime»)Vyse, ich habe gehört, was los ist.
+Wir müssen Seite an Seite kämpfen, für die
+Zukunft dieser Welt!\e"
+MGL0030045,"\h( )Hmpf!
+Warum mache ich das eigentlich!\e"
+MGL0030046,\h(«Vyse»)Baltor?!\e
+MGL0030047,"\h(«Baltor»)Versteh mich nicht falsch.
+Ich helfe dir nur, weil ich Galcian noch mehr
+hasse als dich.\e"
+MGL0030048,"\h(«Baltor»)Sobald wir mit ihm fertig sind, werde ich mir
+dich vorknöpfen!\e"
+MGL0030049,"\h(«Daigo»)Wenn es eine Schlacht zu schlagen gibt,
+kannst du immer mit uns rechnen.\e"
+MGL0030050,"\h(«Daigo»)Du hast unser Land gerettet……
+Jetzt können wir diese Ehrenschuld
+zurückzahlen!\e"
+MGL0030051,"\h(«Jao»)Wir, die Tenkou……\e"
+MGL0030052,\h(«Mao»)……werden euch auch zur Seite stehen.\e
+MGL0030053,\h(«Fina»)Vyse……\e
+MGL0030054,"\h(«Aika»)Mit so vielen Schiffen haben wir vielleicht
+sogar eine Chance gegen die Armada!\e"
+MGL0030055,"\h( )Aika, nur weil wir etwas spät kommen……
+brauchst du uns nicht auszuschließen.\e"
+MGL0030056,\h(«Vyse»)Dad!!\e
+MGL0030057,"\h(«Dyne»)Vyse……
+Du bist ganz schön erwachsen geworden, seit
+ich dich das letzte Mal sah.\e"
+MGL0030058,"\h(«Dyne»)Wenn du so viele Verbündete hast, musst du ja
+ein richtig guter Captain sein! Ich bin stolz
+auf dich, mein Sohn.\e"
+MGL0030059,\h(«Vyse»)Danke!\e
+MGL0030060,"\h(«Gilder»)Ok! Captain, wir warten auf deine Befehle!\e"
+MGL0030061,\h(«Vyse»)Okay!\e
+MGL0030062,"\h(«Was wirst du sagen?»)“Das lassen wir Galcian nicht durchgehen!”
+“Lasst es uns Galcian zeigen!”\e"
+MGL0030063,\h(«Vyse»)Das können wir Galcian nicht durchgehen lassen!\e
+MGL0030064,"\h(«Vyse»)Wir müssen den Himmel zurückerobern und die
+Welt befreien!\e"
+MGL0030065,"\h(«Vyse»)Wir werden ihn und Soltis in den Deep Sky
+verbannen…… für immer!\e"
+MGL0030066,\h(«Vyse»)Wir werden es Galcian zeigen!!\e
+MGL0030067,\h( )Ja!\e
+MGL0030068,"\h(«Vyse»)Heute Nacht sollt ihr euch alle ausruhen.
+Morgen werden wir Geschichte schreiben!!!\e"
+MGL0030069,"\h(«Aika»)Jetzt kommt's drauf an!
+Ich glaube, das wird mir gefallen!\e"
+MSL0030000,"\h(«Moegi»)Vyse……
+He oído…… he oído que ha sucedido algo
+terrible……\e"
+MSL0030001,"\h(«Vyse»)Moegi…… me temo que…… Galcian ha traído las
+Lluvias Destructoras sobre Valua……\e"
+MSL0030002,"\h(«Moegi»)¡¿Qué?!
+Pero…… ¡¿y Enrique?!
+¿Se ha……?\e"
+MSL0030003,\h(«Moegi»)No…… no es posible……\e
+MSL0030004,"\h(«Fina»)Vyse, si no hacemos algo, y pronto, Galcian va a
+destruir todas las islas del mundo una por una.
+Tenemos que detenerle.\e"
+MSL0030005,\h(«Vyse»)Lo sé…… Estoy en ello.\e
+MSL0030006,\h(«Aika»)¡¿Pero cómo vamos a poder detenerle?!\e
+MSL0030007,"\h(«Aika»)Su base es un continente entero, que tiene un
+escudo protector a su alrededor……\e"
+MSL0030008,"\h(«Gilder»)Nuestra única posibilidad sería atacar a
+Galcian.\e"
+MSL0030009,\h(«Gilder»)Pero ni siquiera podemos llegar hasta él……\e
+MSL0030010,\h(«Vyse»)¡Maldición! ¡No podemos hacer nada!\e
+MSL0030011,"\h( )Oh, sí que podéis.\e"
+MSL0030012,"\h(«Enrique»)Os dejo solos unos días,
+¿y ya os preparáis para rendiros?\e"
+MSL0030013,"\h(«Vyse»)¡¡¡Enrique, estás vivo!!!\e"
+MSL0030014,\h(«Moegi»)¡¡¡Enrique!!!\e
+MSL0030015,"\h(«Enrique»)Moegi……
+No pasa nada, estoy bien.\e"
+MSL0030016,\h(«Moegi»)Estaba tan preocupada por ti……\e
+MSL0030017,"\h(«Enrique»)Estábamos en Valua cuando cayeron las Lluvias.
+Belleza me salvó. Le debo la vida.\e"
+MSL0030018,"\h(«Enrique»)Mi madre, y otros muchos, murieron……\e"
+MSL0030019,"\h(«Enrique»)¡No podemos permitir que esto vuelva a suceder!
+Tenemos que detener a Galcian……\e"
+MSL0030020,\h(«Aika»)Pero…… ¿cómo?\e
+MSL0030021,"\h(«Belleza»)Lord Galcian quiere dominar el mundo,
+no destruirlo. Valua sólo ha servido como
+ejemplo.\e"
+MSL0030022,"\h(«Belleza»)Ahora que ha sentado un precedente, puede exigir
+la lealtad de los demás países……\e"
+MSL0030023,"\h(«Belleza»)Va a enviar su Armada a cada uno de los países
+como muestra de su poder, para exigir su
+rendición. Probablemente él irá con ellos.\e"
+MSL0030024,"\h(«Vyse»)¡Eso es! En cuanto haya abandonado la base,
+podremos atacarle.\e"
+MSL0030025,"\h(«Gilder»)Vyse, sé que no te rindes fácilmente, pero
+tienes que ser un poco realista.\e"
+MSL0030026,"\h(«Gilder»)Es imposible que el Delphinus pueda combatir
+contra una flota entera.\e"
+MSL0030027,"\h(«Belleza»)Tiene razón. Si lucharas tú solo contra él,
+perderías.\e"
+MSL0030028,\h(«Aika»)Tiene que haber alguna forma……\e
+MSL0030029,\h(«Aika»)No podemos rendirnos……\e
+MSL0030030,\h(«Vyse»)¡Maldición!\e
+MSL0030031,"\h( )ｿTienes problemas, muchacho?\e"
+MSL0030033,"\h(«Vyse»)¡……!
+¡Esa voz me suena!\e"
+MSL0030034,"\h(«Drachma»)Muchacho……
+Ha pasado mucho tiempo.\e"
+MSL0030035,\h(«Vyse»)¡Capitán!\e
+MSL0030036,\h(«Drachma»)Soltis es la raíz de todos nuestros problemas……\e
+MSL0030037,"\h(«Drachma»)¡Tenemos que devolver ese sitio al Cielo
+Profundo, que es donde debería estar!\e"
+MSL0030038,\h(«Vyse»)Pero……\e
+MSL0030039,"\h(«Fina»)Pero……
+No tenemos ninguna oportunidad de vencer a la
+Armada al completo.\e"
+MSL0030040,"\h( )Bueno, Fina……
+¿Es que ya te has olvidado de mí?\e"
+MSL0030041,\h(«Fina»)¡Clara!\e
+MSL0030042,"\h(«Clara»)¡Yo también soy una Pirata Aérea!
+¡No puedo quedarme de brazos cruzados mientras
+veo cómo Galcian conquista el mundo entero!\e"
+MSL0030043,"\h(«Gordo»)Ya no queda nada de comer por culpa de ese
+continente…… ¡Ya no nos queda ningún cliente!
+¡Para mí es una razón suficiente para luchar!\e"
+MSL0030044,"\h(«Centime»)Vyse, me enteré de lo que pasaba.
+¡Por el futuro de este mundo, debemos luchar
+juntos!\e"
+MSL0030045,"\h( )｡Vaya!
+｡No puedo creer lo que estoy viendo!\e"
+MSL0030046,\h(«Vyse»)¡¿Baltor?!\e
+MSL0030047,"\h(«Baltor»)No te equivoques.
+La única razón por la que te ayudo es que odio a
+Galcian aún más de lo que te odio a ti.\e"
+MSL0030048,"\h(«Baltor»)¡En cuanto acabemos con él,
+te toca a ti!\e"
+MSL0030049,"\h(«Daigo»)Si hay que luchar, puedes contar con nosotros.\e"
+MSL0030050,"\h(«Daigo»)Tú salvaste nuestro país……
+¡Ahora es el momento de devolverte esa deuda de
+honor!\e"
+MSL0030051,\h(«Jao»)Nosotros los Tenkou……\e
+MSL0030052,\h(«Mao»)……también vamos a ayudarte.\e
+MSL0030053,\h(«Fina»)Vyse……\e
+MSL0030054,"\h(«Aika»)¡Con todos estos navíos, tenemos más
+posibilidades de ganar a la Armada!\e"
+MSL0030055,"\h( )Aika, sólo porque llegamos tarde……
+no podéis dejarnos fuera de esto.\e"
+MSL0030056,\h(«Vyse»)¡¡Papá!!\e
+MSL0030057,"\h(«Dyne»)Vyse……
+Has crecido mucho desde la última vez que nos
+vimos.\e"
+MSL0030058,"\h(«Dyne»)¡Debes ser un gran Capitán si tienes todos estos
+aliados! Estoy orgulloso de ti, hijo mío.\e"
+MSL0030059,\h(«Vyse»)¡Gracias!\e
+MSL0030060,"\h(«Gilder»)¡Bueno! ¡Capitán, esperamos sus órdenes!\e"
+MSL0030061,\h(«Vyse»)¡Genial!\e
+MSL0030062,"\h(«¿Qué vas a decir?»)“¡Galcian no se saldrá con la suya!”
+“¡Demostrémosle a Galcian quiénes somos!”\e"
+MSL0030063,"\h(«Vyse»)¡No vamos a dejar que Galcian se salga con la
+suya!\e"
+MSL0030064,"\h(«Vyse»)¡Tenemos que reclamar los cielos y liberar el
+mundo!\e"
+MSL0030065,"\h(«Vyse»)¡Vamos a mandarles a él y a Soltis al Cielo
+Profundo…… para siempre!\e"
+MSL0030066,"\h(«Vyse»)¡¡Vamos a enseñar a ese Galcian de lo que somos
+capaces!!\e"
+MSL0030067,\h( )¡Sí!\e
+MSL0030068,"\h(«Vyse»)Esta noche quiero que todo el mundo descanse.
+¡¡¡Mañana haremos historia!!!\e"
+MSL0030069,"\h(«Aika»)¡Creo que esta vez es la definitiva!
+¡Esto me va a gustar!\e"
+"",me017b.sct
+"",me017f.sct
+"",me017b.sct
+"",me017f.sct
+"",me017b.sct
+"",me017f.sct
+"",me017b.sct
+"",me017f.sct
+"",me243a.sct
+"",me126f.sct
+"",me017b.sct
+"",me017f.sct
+"",me017h.sct
+"",me017i.sct
+"",me017b.sct
+"",me017f.sct
+"",M0242
+"",M0243
+"",M5170000
+"",a017ci02.mld
+"",a017ci02.mld
+"",e6i002
+"",M0370
+"",a017ci02.mld
+"",a017ci10.mld
+"",a017ci10.mld
+"",e6i010
+"",M0370
+"",a017ci10.mld
+"",a017cj01.mld
+"",a017cj01.mld
+"",e6j001
+"",M0312
+"",a017cj01.mld
+"",a017cj24.mld
+"",a017cj24.mld
+"",e6j024
+"",M0309
+"",a017cj24.mld
+"",a017ck05.mld
+"",a017ck05.mld
+"",e6k005
+"",M0318
+"",a017ck05_h.mld
+"",a017ck05_h.mld
+"",a017ck05_i.mld
+"",a017ck05_i.mld
+"",a017ck05_bou.mld
+"",a017ck05_bou.mld
+"",a017ck05_h.mld
+"",a017ck05_i.mld
+"",a017ck05_bou.mld
+"",a017ck05.mld
+"",a017cl03.mld
+"",a017cl03.mld
+"",a017cl03i.mld
+"",a017cl03i.mld
+"",a017cl03_efe.mld
+"",a017cl03_efe.mld
+"",e6l003
+"",M0324
+"",M0322
+"",M0305
+"",M0305
+"",a017cl03a.mld
+"",a017cl03g.mld
+"",a017cl03a.mld
+"",a017cl03g.mld
+"",a017cl03a.mld
+"",a017cl03g.mld
+"",a017cl03a.mld
+"",a017cl03g.mld
+"",a017cl03a.mld
+"",a017cl03g.mld
+"",a017cl03a.mld
+"",a017cl03g.mld
+"",a017cl03b.mld
+"",a017cl03b.mld
+"",a017cl03d.mld
+"",a017cl03d.mld
+"",a017cl03b.mld
+"",a017cl03c.mld
+"",a017cl03c.mld
+"",a017cl03c.mld
+"",a017cl03d.mld
+"",a017cl03g.mld
+"",a017cl03g.mld
+"",a017cl03a.mld
+"",a017cl03a.mld
+"",a017cl03a.mld
+"",a017cl03a.mld
+"",a017cl03a.mld
+"",a017cl03a.mld
+"",a017cl03e.mld
+"",a017cl03e.mld
+"",a017cl03e.mld
+"",a017cl03e.mld
+"",a017cl03g.mld
+"",a017cl03e.mld
+"",a017cl03h.mld
+"",a017cl03h.mld
+"",a017cl03a.mld
+"",a017cl03e.mld
+"",a017cl03g.mld
+"",a017cl03j.mld
+"",a017cl03j.mld
+"",a017cl03j.mld
+"",a017cl03j.mld
+"",a017cl03j.mld
+"",a017cl03.mld
+"",a017cl03j.mld
+"",a017cl03j.mld
+"",a017cl03j.mld
+"",a017cl03j.mld
+"",a017cl03_efe.mld
+"",a017cl03h.mld
+"",a017cl03i.mld

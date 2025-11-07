@@ -1,0 +1,702 @@
+[Event Name],Task ID
+MF0110000,\h(«Vyse»)I'm… I'm alive?\e
+MF0110001,"\h(«Vyse»)It looks like I've been separated from Aika and
+Fina… I hope they're okay.\e"
+MF0110002,\h(«Vyse»)Where am I?\e
+MF0110003,"\h( )Aika, Fina, and Drachma have left the party.\e"
+MF0120000,"\h(«Vyse»)Well, I guess I'm not the first guy to get 
+shipwrecked on this island. From the look of 
+his clothes, he was probably a sailor, too.\e"
+MF0120001,\h(«Vyse»)Looks like he's been dead for a long time.\e
+MF0120002,"\h(«Vyse»)There's something embroidered on his collar… 
+“Gonzales.” I guess that was his name.\e"
+MF0120003,"\h(«Vyse»)…Hmm?
+There's something in his pocket…\e"
+MF0120004,"\h(«Vyse»)It's a map!
+It's a little old. Maybe it's a map of this 
+island.\e"
+MF0120005,"\h(«Vyse»)Hmm… there aren't any of the same landmarks…
+It's probably a map of a different island.\e"
+MF0120006,"\h(«Vyse»)It may come in handy some day.
+I'll just hold onto this map for a while.\e"
+MF0120007,\h( )You received “Gonzales' Map.”\e
+MF0120008,"\h(«Vyse»)Well, I'll give you a proper burial, so you'll 
+finally be able to rest in peace.\e"
+MF0120009,"\h(«Vyse»)… There… 
+Well, I guess I should find some high ground so 
+I can check out the rest of the island.\e"
+MF0130000,"\h(«Vyse»)Well, I'm definitely on an island…
+And an uninhabited one at that.\e"
+MF0130001,"\h(«Vyse»)Hmm… looks like a storm is coming in. 
+I should find some shelter.\e"
+MF0130002,"\h(«Vyse»)There was a cave next to the spot where 
+I buried Gonzales. Maybe I should check it out.\e"
+MF0170000,"\h(«Vyse»)Aika… Fina…
+Are you looking at the same Moon right now?
+I hope you're alright.\e"
+MF0170001,"\h(«Vyse»)And so I spent my first night alone on the 
+deserted island.\e"
+MF0170002,"\h(«Vyse»)I woke up to some fresh, clean air and a warm 
+sun. \e"
+MF0170003,"\h(«Vyse»)Ah, that felt great!
+But, I'm really hungry right now…\e"
+MF0170004,"\h(«Vyse»)If Gonzales survived long enough to settle into 
+that cave, there's got to be food on this 
+island. It's time to go hunting…\e"
+MF0180000,"\h(«Vyse»)Oh man, I ate so much.
+Those things actually taste pretty good.\e"
+MF0180001,"\h(«Vyse»)I should have enough food to last me for a 
+while.\e"
+MF0180002,"\h(«Vyse»)I wonder if this island is near any of the trade
+routes… A ship has got to pass by here sooner
+or later.\e"
+MF0180003,"\h(«Vyse»)I should prepare some sort of signal fire in 
+case I see any ships.\e"
+MF0180004,"\h(«Vyse»)I spent my second day gathering food. 
+Lucky for me that the island was inhabited by 
+animals…\e"
+MF0180005,"\h(«Vyse»)I started my third day with a big breakfast… 
+Now it was time to get to work.\e"
+MF0190000,\h(«Vyse»)… What?\e
+MF0190001,\h(«Vyse»)… A ship!\e
+MF0190002,"\h(«Vyse»)Heh… why couldn't it have come a little
+earlier? I wouldn't have spent all that time 
+working on the boat!\e"
+MF0190003,"\h(«Vyse»)Yes!!! They saw me!! Well, looks like I'm 
+finally getting off of this rock.\e"
+MF0320000,"\h(«Vyse»)I went to the highest point of the island that I
+could reach and cleared away an area for a 
+signal fire.\e"
+MF0320001,"\h(«Vyse»)If a ship passes by, all I need to do is light 
+it and they'll probably see it.\e"
+MF0320002,"\h(«Vyse»)I've been stranded on this island for three 
+days.\e"
+MF0320003,"\h(«Vyse»)That night…
+I had a dream about Aika, Fina, and even 
+Drachma…\e"
+MF0320004,\h(«Vyse»)On the fourth day…\e
+MF0320005,"\h(«Vyse»)Ahh… this place isn't so bad…
+Let's see…\e"
+MF0320006,\h(«Vyse»)I need to gather some firewood…\e
+MF0320007,"\h(«Vyse»)Hmm… they're dry and they're just about the 
+right size. I should look for more sticks like 
+these.\e"
+MF0340000,"\h(«Vyse»)Well, it's been raining all day. 
+I guess I won't get much done.
+I'll just rest for now.\e"
+MF0340001,"\h(«Vyse»)I don't just want to sit around all day, 
+hoping for a ship to pass by…\e"
+MF0340002,"\h(«Vyse»)I wonder if I can fix the lifeboat 
+from the Little Jack?\e"
+MF0340003,"\h(«Vyse»)It rained all day.
+I spent most of the day resting in the cave.\e"
+MF0340004,"\h(«Vyse»)This is my fifth night on this island…
+First thing tomorrow, I'll try to fix 
+the lifeboat!\e"
+MF0340005,"\h(«Vyse»)Another good night's rest. It actually does feel
+good to take a break from fighting monsters. 
+Well, I better get started on fixing the boat!\e"
+MF0340006,"\h(«Vyse»)Since this island has been deserted for a while,
+there should be some Moon Stones lying around. 
+The rain probably unearthed a bunch of them.\e"
+MF0340007,"\h(«Vyse»)Here's one!
+But I'll need more than one
+to fly to the next island.\e"
+MF0340008,\h(«Vyse»)Time to look for some more!\e
+MF0360000,"\h(«Vyse»)Alright…
+That should just about do it.\e"
+MF0360001,"\h(«Vyse»)I'm finally going to be able to get off this 
+island tomorrow!\e"
+MF0370002,"\h(«Vyse»)Aika… Fina…
+Wherever you are…
+I hope you guys are safe…\e"
+MF0370001,"\h(«Vyse»)Well, it doesn't look like I have much of a 
+choice, so I might as well set up camp in here 
+and get some rest.\e"
+MF0370000,"\h(«Vyse»)I guess my friend Gonzales had the same idea.
+It looks like he was living here for quite a
+while too.\e"
+MG0180000,"\h(«Aika»)Vyse, this is pretty amazing, huh?\e"
+MG0180001,"\h(«Aika»)Hey, Enrique…
+How does it feel to be outside the Imperial
+Palace?\e"
+MG0180002,\h(«Enrique»)Huh? Oh…\e
+MG0180003,"\h(«Enrique»)Everything is so… ungh… so… beautiful.
+I've never seen anything like it before.\e"
+MG0180004,\h(«Aika»)Looks like someone is a little airsick.\e
+MG0180005,"\h(«Aika»)Perhaps all of this traveling is a little rough 
+for our sheltered Prince.\e"
+MG0180006,"\h(«Enrique»)Yes… Aika… you are correct…
+I… I never realized that sailing could be so… 
+so… rough.\e"
+MG0180007,"\h(«Enrique»)But this was my… decision…
+I can't let a little airsickness…
+slow me down…\e"
+MG0180008,\h(«Enrique»)Ungh…!!!\e
+MG0180009,"\h(«Fina»)Enrique…
+Are you going to be alright?\e"
+MG0180010,"\h(«Vyse»)Well, it looks like this is going to be a long
+trip for Enrique.\e"
+MG0180011,"\h(«Aika»)Yeah, don't worry Enrique. Once you get used to
+sailing, you won't get sick as easy. I'm sure
+you'll be okay.\e"
+MG0180012,"\h(«A gangly old man's voice»)Hey!
+It took you guys long enough to get here!\e"
+MG0180013,"\h(«Small Old Man»)Hey! Hey!
+It's good to meet you!
+You're Vyse, right?!\e"
+MG0180014,"\h(«Gangly Old Man»)Gilder told us that you needed a crew. 
+We're here to report for duty.\e"
+MG0180015,"\h(«Brabham»)I'm Brabham!
+If anything's broke, I can fix it! I'm the
+greatest engineer that ever lived!\e"
+MG0180016,"\h(«Brabham»)That's a nice lookin' ship! If you want, I can
+get it running smoother than ever! Crank it up a
+few notches… give it more power…\e"
+MG0180017,"\h(«Izmael»)Ba-ba-bam! I'm Izmael. You want something built?
+I build it. You don't want something built?
+I build it anyway.\e"
+MG0180018,"\h(«Izmael»)I'll build some buildings for you! You're going
+to need a base, right? \e"
+MG0180019,\h(«Vyse»)Uhh… sure… thank you.\e
+MG0180020,"\h(«Brabham»)Leave it up to us!!
+… But, before we get started, we'll need some
+funds to cover expenses and labor.\e"
+MG0180021,"\h(«Brabham»)First, I'll fortify the hull of your ship so you
+will be able to pass through the stone reefs.\e"
+MG0180022,"\h(«Brabham»)Then, I will upgrade your engine so… You'll be
+powering through sky rifts in no time.\e"
+MG0180023,"\h(«Brabham»)But it will cost you…
+25,000 gold.\e"
+MG0180024,"\h(«Izmael»)I plan to build you a port and some living
+quarters first.\e"
+MG0180025,"\h(«Izmael»)Let's see…
+Cha-ching! I'll need about 75,000 gold. 
+What a bargain!\e"
+MG0180026,"\h(«Aika»)What?!
+So all together, we'll need to give you 100,000
+gold?!\e"
+MG0180027,"\h(«Enrique»)Well, the Delphinus does need some
+modifications, and we are going to need more
+than a couple of caves to call this a base…\e"
+MG0180028,"\h(«Vyse»)Enrique is right. Let's put off our search for
+the other Moon Crystals until we can get 100,000
+gold to pay these… umm… gentlemen.\e"
+MG0190000,"\h(«Aika»)Oh! I just remembered!
+We were talking about making a new flag, right?\e"
+MG0190001,"\h(«Aika»)If everyone is finished, we can decide on one.\e"
+MG0190002,"\h(«Enrique»)I'd forgotten all about that.
+Alright, Vyse… you first.\e"
+MG0190003,\h(«Vyse»)What? Me first?\e
+MG0190004,"\h(«Vyse»)Um… well, I put a lot of thought into this.
+Don't laugh, people…\e"
+MG0190005,"\h(«Vyse»)This is what I drew.
+Being Air Pirates and all, I figured we should
+at least have a skull in the flag…\e"
+MG0190006,"\h(«Vyse»)And since most pirates use swords, 
+I figured we should have one 
+of those on the flag, too.\e"
+MG0190007,"\h(«Aika»)Hey!
+That's pretty good!\e"
+MG0190008,"\h(«Enrique»)Alright… Aika, you're next.\e"
+MG0190009,"\h(«Aika»)I figured the skull thing was overdone, so I
+tried to go with something quick and cunning.
+That's why I drew a cat.\e"
+MG0190010,"\h(«Aika»)I drew some gold to show people that we'd sneak
+up on them and steal their gold before they knew
+what happened.\e"
+MG0190011,"\h(«Fina»)Haha…
+Aika, that cat looks just like you!\e"
+MG0190012,"\h(«Aika»)Well, I had to give the cat some personality. 
+Do you think I got a little carried away?\e"
+MG0190013,"\h(«Vyse»)Waaay too carried away. Heh heh…
+Alright, Fina… it's your turn.\e"
+MG0190014,"\h(«Fina»)Well… I felt that skulls were a little too
+scary, so I wanted to make something happier.\e"
+MG0190015,"\h(«Fina»)The word Delphinus refers to an ancient creature
+that lived in the seas. I drew one of them to
+show everyone what our ship was named after.\e"
+MG0190016,"\h(«Aika»)There's no reason to be embarassed, Fina!
+I don't think there's ever been an Air Pirate
+flag that looked like this! I like it.\e"
+MG0190017,"\h(«Enrique»)Well, that's all of them.\e"
+MG0190018,"\h(«Enrique»)Vyse, you're the Captain…
+Which one do you like?\e"
+MG0190019,"\h(«Which one will you pick?»)“Sorry, but I like the one I made.”
+“Aika's flag is good.”
+“I've decided on Fina's flag.”\e"
+MG0190020,"\h(«Vyse»)…I hope I don't sound too selfish saying this,
+but I'd like to stick with my flag. It shows
+everyone that we mean business.\e"
+MG0190021,"\h(«Enrique»)I don't think there's anything wrong with that. 
+It's very straightforward and it shows 
+what the Blue Rogues are all about.\e"
+MG0190022,"\h(«Aika»)I agree!
+Then we'll use Vyse's.\e"
+MG0190023,"\h(«Fina»)I'll make a big one and put it inside the
+bridge!\e"
+MG0190024,"\h(«Vyse»)I think Aika's flag will lift the spirits of the
+crew… \e"
+MG0190025,"\h(«Enrique»)Yes, I agree. I like what it stands for, and it
+is pretty funny.\e"
+MG0190026,\h(«Aika»)Thanks! I'm glad you like it.\e
+MG0190027,\h(«Fina»)I'll make a big one and put it on the bridge.\e
+MG0190028,"\h(«Vyse»)I think I like Fina's flag. It's very original
+and people will remember the name of our ship.\e"
+MG0190029,"\h(«Vyse»)It doesn't exactly strike fear into the hearts
+of anyone, but it shows our good intentions.\e"
+MG0190030,"\h(«Fina»)Oh, thank you.
+I'm so glad… when I first drew it, I thought it
+might be a little strange…\e"
+MG0190031,"\h(«Aika»)Well then, I'll hang one up in the bridge, too!!\e"
+MG0190032,"\h(«Vyse»)Oh, it's getting late…
+I'm starting to get hungry, too.\e"
+MG0190033,"\h(«Brabham»)Hey, everyone!
+Dinner is ready!\e"
+MG0190034,\h(«Aika»)Great timing!\e
+MG0190035,"\h(«Vyse»)Well, it looks like we're spending the night at
+our new headquarters… Crescent Isle.\e"
+MG0200000,"\h(«Aika»)Well, the improvements to our ship are almost 
+finished. And pretty soon, we'll have an actual 
+base on this island.\e"
+MG0200001,"\h(«Vyse»)Yeah.
+Starting tomorrow, we should start searching for
+the remaining Moon Crystals.\e"
+MG0200002,\h(«Enrique»)Yes… but I hope this time I won't get airsick…\e
+MG0200003,\h(«Vyse»)Hahaha… You'll have to get over that!\e
+MG0200004,"\h(«Aika»)Oh, Fina, there's something that I wanted to ask
+you.\e"
+MG0200005,"\h(«Aika»)That Admiral… umm… what was his name? Ramirez?
+How do you know him?\e"
+MG0200006,\h(«Fina»)What?\e
+MG0200007,"\h(«Aika»)When we met him in Nasrad, you seemed to know an
+awful lot about him.\e"
+MG0200008,\h(«Fina»)……\e
+MG0200009,"\h(«Aika»)If you don't feel like telling me, it's okay…
+Don't worry about it.\e"
+MG0200010,"\h(«Fina»)…No, I'm sorry. I should have told all of you
+about him sooner.\e"
+MG0200011,"\h(«Fina»)I will tell you everything I know about…
+Ramirez.\e"
+MG0200012,"\h(«Fina»)You know that I am a Silvite… a descendant of
+the Silver Civilization…\e"
+MG0200013,\h(«Fina»)Ramirez is a Silvite as well.\e
+MG0200014,\h(«Vyse»)What?!\e
+MG0200015,"\h(«Fina»)Ramirez was our best warrior. He can channel the
+power of the Silver Moon through his blade,
+making it sharp enough to cut through light.\e"
+MG0200016,"\h(«Fina»)We grew up together… A long time ago,
+he was one of my best friends.\e"
+MG0200017,"\h(«Fina»)He didn't used to be so… so heartless and
+cruel.\e"
+MG0200018,\h(«Fina»)He used to care for me like a little sister.\e
+MG0200019,"\h(«Fina»)When we heard that the Valuans were trying to
+reawaken the Gigas, Ramirez volunteered to come
+down here to stop them.\e"
+MG0200020,"\h(«Fina»)He went on a journey to search for the
+Crystals… alone.\e"
+MG0200021,"\h(«Fina»)Shortly after he started his quest,
+we lost track of him.\e"
+MG0200022,"\h(«Fina»)We never even dreamed that he would join forces
+with the Valuan Empire. Those were the people
+that he was sent here to stop.\e"
+MG0200023,\h(«Fina»)I don't know why he changed.\e
+MG0200024,"\h(«Fina»)I hope that the Ramirez I knew isn't gone
+forever.\e"
+MG0200025,"\h(«Enrique»)Admiral Ramirez. Not only is he one of Valua's
+greatest swordsmen, but he is also a master
+strategist.\e"
+MG0200026,"\h(«Enrique»)He used to be Galcian's Vice Captain. But, I
+don't even think Galcian knows Ramirez's past.\e"
+MG0200027,\h(«Aika»)Fina…\e
+MG0200028,\h(«Vyse»)……\e
+MG0200029,"\h(«What will you do?»)“Instill her with confidence.”
+“Try and cheer her up.”\e"
+MG0200030,"\h(«Vyse»)Fina… I'm sure we'll find out what happened to
+Ramirez… \e"
+MG0200031,"\h(«Vyse»)What's important now is to keep pushing forward.
+Don't ever forget that.\e"
+MG0200032,\h(«Fina»)Vyse…\e
+MG0200033,"\h(«Vyse»)Don't give up, Fina.
+You aren't alone. 
+We're here with you now.\e"
+MG0200034,"\h(«Aika»)Yeah, Fina!
+You're one of our friends now.\e"
+MG0200035,"\h(«Enrique»)I've only known you for a short while, but I,
+too, consider you my friend.\e"
+MG0200036,"\h(«Vyse»)Cheer up, Fina!
+We're here with you now!\e"
+MG0200037,"\h(«Vyse»)Two Air Pirates, a Silvite, two crazy old men,
+a snot-nosed brat, and an airsick Prince! Valua
+doesn't stand a chance against us.\e"
+MG0200038,"\h(«Vyse»)There's no other ship that can boast a more
+motley crew!\e"
+MG0200039,\h(«Fina»)Vyse…\e
+MG0200040,"\h(«Aika»)Fina, what Vyse is trying to say… 
+is that you aren't alone… \e"
+MG0200041,"\h(«Enrique»)I'm not sure if I appreciate his comment about
+the airsickness, but we're all together now.\e"
+MG0200042,"\h(«Fina»)Vyse…
+Aika… 
+Enrique…\e"
+MG0200043,"\h(«Fina»)When I came here, I was all alone… 
+Now I have so many wonderful friends… 
+Thank you so much.\e"
+MG0200044,"\h(«Fina»)Thank you all.
+I… I will do my best.\e"
+MG0200045,"\h(«Vyse»)Alright! So, tomorrow, we continue our search
+for the rest of the Moon Crystals! We'll start
+early.\e"
+MG0200046,"\h(«Aika»)Oh, Enrique… 
+Are you sure you can get up on time without a
+servant to wake you?\e"
+MG0200047,"\h(«Enrique»)Hey! I always get up on my own! I don't need any
+servants…\e"
+MF0330000,\h(«Vyse»)Well I have enough firewood to last me a while.\e
+MF0330001,"\h(«Vyse»)It looks like it's going to rain soon… 
+I should call it quits for today.\e"
+MF0330002,"\h(«Vyse»)Well, it was my fourth day on this island and 
+I'm really starting to miss sailing.\e"
+MF0330003,"\h(«Vyse»)I suppose I just have to think of this as some
+sort of vacation and deal with it…\e"
+MF0330004,\h(«Vyse»)On the fifth day…\e
+MF0350000,"\h(«Vyse»)These Moon Stones haven't been processed yet. 
+They may not give off much power, but it should 
+be enough to power this little lifeboat.\e"
+MF0350001,"\h(«Vyse»)It looks like I'll finally make it off of this 
+island.\e"
+MF0350002,"\h(«Vyse»)I started working on the boat.
+This island is full of trees, so I won't have to
+worry about running out of materials.\e"
+MF0350003,"\h(«Vyse»)Eating the food that I saved up, I spent the 
+next few days hard at work on the boat.\e"
+MF0350004,\h(«Vyse»)One week passed…\e
+M14000000,"\h(«Brabham»)So, do you have the 25,000 gold that I need
+to modify your ship?\e"
+M14000001,"\h(«What will you do?»)“Give 25,000 gold to Brabham.”
+“Have him take care of it later.”\e"
+M14000002,"\h( )You gave Brabham 25,000 gold.\e"
+M14000003,"\h(«Brabham»)Yippee!
+Now I can fortify the hull
+of the Delphinus for you!\e"
+M14000004,"\h(«Brabham»)You'll be going through stone reefs and 
+sky rifts in no time!\e"
+M14000005,"\h(«Brabham»)Heh… This will probably take all night.
+But don't you worry, I'll make sure that the
+ship will be ready to go by tomorrow morning!\e"
+M14000006,\h(«Vyse»)I'm counting on you Brabham!\e
+M14000007,"\h(«Aika»)Now we'll be able to go after the rest 
+of the Moon Crystals!\c"
+M14000008,"\h(«Brabham»)Huh? 
+Hey, I wasn't born yesterday, you know. \e"
+M14000009,"\h(«Brabham»)When you get the 25,000 gold together,
+gimme a holler!\c"
+M14000010,"\h(«Brabham»)I'm itchin' to get started on the hull 
+for your ship. Stop by when you're ready!
+\c"
+M14000011,"\h(«Brabham»)Just you wait, Skipper! You'll be flyin' through
+those stone reefs and sky rifts like 
+they were nothin'.\c"
+M14000012,"\h(«Brabham»)Hey, Captain Vyse. 
+How's the Delphinus doing? That's a mighty 
+fine lookin' ship if ya ask me!\c"
+M14010000,"\h(«Izmael»)I'll need 75,000 gold to start building your
+headquarters.\e"
+M14010001,"\h(«What will you do?»)“Give 75,000 gold to Izmael.”
+“Give it to him later.”\e"
+M14010002,"\h( )You gave Izmael 75,000 gold.\e"
+M14010003,"\h(«Izmael»)Don't worry… This will be the best investment
+of your life!\e"
+M14010004,"\h(«Izmael»)I wish this base wasn't so secret! 
+I want everyone to see how great it's
+going to be!\e"
+M14010005,"\h(«Izmael»)The new hull of Delphinus will be done by 
+tomorrow morning.  Then you'll be able to
+go after those Crystals!\c"
+M14010006,\h(«Vyse»)I'm counting on you Izmael!\e
+M14010007,"\h(«Aika»)Vyse, I'm so excited! We're going to have our 
+own base and the Delphinus will be able to go 
+just about anywhere!\c"
+M14010008,\h(«Izmael»)It looks like you don't have enough gold.\e
+M14010009,"\h(«Izmael»)That's too bad… Well, when you have
+75,000 gold, come back and talk to me again. 
+I'll make ya the best base ever!\c"
+M14010010,"\h(«Izmael»)That's too bad… Well, when you have
+75,000 gold, just come and talk to me again. 
+I'll make ya proud!\c"
+M14000013,"\h(«Izmael»)I'll be sure to build you a base that 
+you can be proud of! \c"
+M14010011,"\h(«Izmael»)Building a base is going to take a while. I need
+to start with the foundation and work my way 
+up! It will be worth the wait, trust me!\e"
+M14010012,"\h(«Izmael»)So, if you're goin' after them Moon Crystals, 
+now's a good time. I should have the base 
+finished by the time you get back.\c"
+Ms017a000,"\h(«Vyse»)It's the lifeboat I came here on. It doesn't
+look like it's in very good shape…
+I wonder what happened to everyone else…\c"
+Ms017a001,"\h(«Vyse»)Gonzales…
+Don't worry, I'll make you a grave as
+soon as I get the chance.\c"
+Ms017a002,"\h(«Vyse»)Gonzales…
+I'm sorry it's such a simple grave,
+but I hope now you can rest in peace.\c"
+Ms017a024,"\h(«Vyse»)Gonzales…
+I'll find that treasure
+you were looking for!\c"
+Ms017a025,"\h(«Vyse»)Gonzales… Just to let you know…
+Daccat said that the most valuable treasure
+in the world is comradery…\e"
+Ms017a026,"\h(«Vyse»)I hear that you had a good friend named Pedro.
+Well then, I suppose you didn't need to find
+Daccat's Island after all…\c"
+Ms017a003,"\h(«Vyse»)I guess now I just have to wait
+for a ship to pass by
+and notice the signal fire.\c"
+Ms017a027,"\h(«Vyse»)This is where I lit the signal fire.
+If it weren't for this, Gilder probably
+never would have found me.\c"
+Ms017a028,"\h(«Vyse»)It looks like someone used to live in here…
+Well, before I settle down, I should probably
+check out the rest of the island…\c"
+Ms017a004,"\h(«Vyse»)It looks like a diary…
+Maybe it's Gonzales'…\e"
+Ms017a005,"\h(«What will you do?»)“Read the diary.”
+“Nothing.”\e"
+Ms017a006,"\h(«Gonzales' Diary»)“It's been 20 years since I landed here…
+No ships pass by, and I have no means to
+build my own.”\e"
+Ms017a007,"\h(«Gonzales' Diary»)“Living as a sailor, I knew that there was a
+possibility that this could happen one day.
+But…”\e"
+Ms017a008,"\h(«Gonzales' Diary»)“My only regret is that I could not fulfill
+my promise…”\c"
+Ms017a009,\h(«Vyse»)Hmm… Maybe later.\c
+Ms017a010,\h( )You received ????!\c
+Ms017a029,"\h(«Vyse»)It looks like someone used to live in here…
+Well, before I settle down, I should probably
+check out the rest of the island…\c"
+Ms017a011,"\h(«Vyse»)It's a bed made out of a torn sail, draped over
+some dried grass… It's not much, but it's
+better than sleeping on the floor, I guess.\c"
+Ms017a030,"\h(«Vyse»)It's the bed that Gonzales made.
+Maybe I should rest for a bit.\e"
+Ms017a031,"\h(«What will you do?»)“Take a little break.”
+“Walk around the island some more.”\e"
+Ms017a032,"\h(«Vyse»)I feel a little rested now.
+Time to get to work…\c"
+Ms017a033,"\h(«Vyse»)I'm not really that tired yet. Maybe I'll
+look around the island some more first.\c"
+Ms017a034,"\h(«Vyse»)It looks like someone used to live in here…
+Well, before I settle down, I should probably
+check out the rest of the island…\c"
+Ms017a012,"\h(«Vyse»)Gonzales must have been
+counting the days on this wall.\e"
+Ms017a013,"\h(«Vyse»)Man… He spent all that time waiting for a ship
+and he never made it off this island. I don't
+plan to let that happen to me…\c"
+Ms017a035,"\h(«Vyse»)These are marks Gonzales made,
+to count the days…\e"
+Ms017a036,"\h(«Vyse»)It's a fate worse than death
+for a sailor to lose his wings,
+and not be able to fly.\c"
+Ms017a014,"\h(«Vyse»)Hmm…
+This looks like it's about the right size
+for making a fire.\c"
+Ms017a015,"\h(«Vyse»)This one's nice and dry…
+There's more here than I thought.\c"
+Ms017a016,"\h(«Vyse»)Okay, this is the third one.
+If I can find just two more,
+I'll be able to start a fire.\c"
+Ms017a017,"\h(«Vyse»)This is a good size.
+Alright, one more.\c"
+Ms017a018,"\h(«Vyse»)This should be enough to build a
+decent sized fire!\c"
+Ms017a019,"\h(«Vyse»)Hey, found one! I guess I'm pretty lucky that it
+rained yesterday, otherwise I'd probably never
+have found any of these Moon Stones!\c"
+Ms017a020,"\h(«Vyse»)Here's another one. I'm lucky this is a deserted
+island, or else these Moon Stones probably would
+have been found a long time ago…\c"
+Ms017a021,"\h(«Vyse»)Oh, here's one.
+It's a Red Moon Stone…
+Which means I'm probably somewhere near Nasr…\c"
+Ms017a022,"\h(«Vyse»)Heh… found another one.
+Hmm… One more would probably
+be enough.\c"
+Ms017a023,"\h(«Vyse»)Last one!
+Man, I'm so lucky that there were plenty of
+Moon Stones on this island…\c"
+Ms017a037,"\h(«Aika»)What's this?
+It looks like a grave…\c"
+Ms017a038,"\h(«Aika»)It looks like someone lit a signal fire here
+recently. Was there someone living on this
+island or something?\c"
+Ms017a040,"\h(«Aika»)It looks like a diary.
+I guess the person who lived here wrote it.
+I wonder what it says…\e"
+Ms017a041,"\h(«What will you do?»)“Read the diary.”
+“Nothing.”\e"
+Ms017a042,"\h(«Castaway's Diary»)“It's been 20 years since I landed here…
+No ships pass by, and I have no means to
+build my own.”\e"
+Ms017a043,"\h(«Castaway's Diary»)“Living as a sailor, I knew that there was a
+possibility that this could happen one day.
+But…”\e"
+Ms017a044,"\h(«Castaway's Diary»)“My only regret is that I could not fulfill
+my promise…”\c"
+Ms017a045,\h(«Aika»)Hmm… Maybe not. We should probably get going.\c
+Ms017a046,"\h(«Aika»)Ooh… There's a bed.
+Maybe we should take a break.\e"
+Ms017a047,"\h(«What will you do?»)“Rest for a little while.”
+“Get going.”\e"
+Ms017a048,"\h(«Aika»)Oh man, I feel so much better!
+Well, now that we're fully rested,
+we should probably get going!\c"
+Ms017a049,"\h(«Aika»)Well, I'm not actually all that tired, and
+we should probably get going…\c"
+Ms017a050,"\h(«Aika»)There's a lot of marks on the wall…
+I guess whoever lived here
+was counting the days.\c"
+Ms017a051,"\h(«What do you want to do?»)“Head to Daccat's Island!”
+“Stay on this island a little longer.”\c"
+Ms017a052,"\h(«Well, then…»)“Head to Daccat's Island!”
+“Stay on this island a little longer.”\c"
+Ms017a053,"\h(«Well, then…»)“Return to the Delphinus.”
+“Stay on this island a little longer.”\c"
+Ms017a055,"\h(«Well, then…»)“Let's leave.”
+“Let's stay on this island a little longer.”\c"
+Ms017a054,"\h(«Vyse»)Hm… This meat looks
+pretty tasty.
+Maybe I'll look for some more.\c"
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",me222a.sct
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017a00.mld
+"",me219a.sct
+"",\h(　)
+"","F11無人島漂着イベント
+このマップを歩く\c"
+"",a017a00.mld
+"",a017a00.mld
+"","\h(　)戦闘が出来ないので、
+５回戦ったことにします。\c"
+"",a017a00.mld
+"",a017a00.mld
+"",me034a.sct
+"",a017a00.mld
+"",a017a00.mld
+"",me034a.sct
+"",M0242
+"",m5140000
+"",k8140000
+"",EV_f11発生しました。\c
+"",a017af11.mld
+"",a017a00.mld
+"",e6f011
+"",a017af11.mld
+"",a017a00.mld
+"",EV_f12発生しました。\c
+"",a017af12.mld
+"",a017a00.mld
+"",M0242
+"",e6f012
+"",a017af12.mld
+"",a017a00.mld
+"",EV_f12発生しました。\c
+"",a017af13.mld
+"",a017a00.mld
+"",M0242
+"",e6f013
+"",a017af13.mld
+"",a017a00.mld
+"",イベントＦ１７が発生しました。\c
+"",a017af17.mld
+"",a017a01.mld
+"",e6f017
+"",a017a01.mld
+"",a017a00.mld
+"",a017af17.mld
+"",a017a00.mld
+"",F18発生しました。\c
+"",a017af18.mld
+"",a017a01.mld
+"",e6f018
+"",a017af18.mld
+"",a017a01.mld
+"",イベントＦ１９が発生しました。\c
+"",a017af19.mld
+"",a017a00.mld
+"",M0232
+"",e6f019
+"",a017af19.mld
+"",a017a00.mld
+"",F32発生しました。\c
+"",a017af32.mld
+"",a017a00.mld
+"",M0242
+"",e6f032
+"",a017af32.mld
+"",a017a00.mld
+"",F34発生しました。\c
+"",a017af34.mld
+"",a017af34.mld
+"",a017af34ten.mld
+"",a017af34ten.mld
+"",e6f034
+"",a017af34ten.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017af34.mld
+"",a017a00.mld
+"",F36発生しました。\c
+"",a017af36.mld
+"",a017a00.mld
+"",M0242
+"",e6f036
+"",a017a00.mld
+"",a017a01.mld
+"",a017af36.mld
+"",a017a01.mld
+"",イベントＦ３７が発生しました。\c
+"",a017af37.mld
+"",e6f037
+"",a017af37.mld
+"",G18発生しました。\c
+"",a017ag18.mld
+"",a017ag18.mld
+"",a017a00.mld
+"",a017a00.mld
+"",M0308
+"",e6g018
+"",a017ag18.mld
+"",a017a00.mld
+"",M0373
+"",e6g019
+"",a017ag19.mld
+"",a017ag19.mld
+"",a017ag19.mld
+"",EVg20発生しました。\c
+"",M0315
+"",e6g020
+"",a017a01.mld
+"",a017a01.mld
+"",a017ag20.mld
+"",a017ag20.mld
+"",a017ag20.mld

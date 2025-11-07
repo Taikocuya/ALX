@@ -1,0 +1,146 @@
+[Event Name],Task ID
+Ms034b000,"\h(《ヴァイス》)緊急時用のロープや工具が
+収納されてる箱だ。最新鋭艦でも
+非常事態の備えは必要だもんな。\c"
+Ms034b100,"\h(《ヴァイス》)伝声管だ。
+どうやら、ブリッジに
+つながってるらしいな。\e"
+Ms034b101,"\h(《ギルダー》)いよう、ヴァイス。
+こちら、ブリッジだ。
+どこをほっつき歩いてんだ？\c"
+Ms034b001,"\h(《ヴァイス》)伝声管だ。
+ブリッジにつながっている。\e"
+Ms034b002,"\h(《ファイナ》)はい、ブリッジです。
+あ、ヴァイスさんでしたか。
+見張り台は気持ちいいですよね。\c"
+Ms034b003,"\h(《ヴァイス》)伝声管だ。
+ブリッジにつながっている。\e"
+Ms034b004,"\h(《ファイナ》)はい、ブリッジです！
+ヴァイスさん、何してるんです？
+船は危険な状態なんですよ！\c"
+Ms034b015,"\h(《ヴァイス》)見張り台は異常なし！
+これより甲板の敵を
+ぶったおしに行くぜ！\c"
+Ms034b005,"\h(《ヴァイス》)このサーチライトのおかげで
+夜間もガンガン飛べる。\c"
+Ms034b006,"\h(《ヴァイス》)緊急時用のロープや工具が
+収納されてる箱だ。最新鋭艦でも
+非常事態の備えは必要だもんな。\c"
+Ms034b007,"\h(《ヴァイス》)たまには武器を虫干ししないと
+さやの中でさびついたり
+皮袋のなかで臭くなったりする。\c"
+Ms034b106,"\h(《ヴァイス》)伝声管だ。
+ブリッジにつながっている。\c"
+Ms034b107,"\h(《アイカ》)はーい、こちらブリッジ！
+なんだ、ヴァイスなの？
+遊んでないで戻ってきなよ〜。\c"
+Ms034b008,"\h(《ヴァイス》)伝声管だ。
+ブリッジにつながっている。\c"
+Ms034b009,"\h(《アイカ》)はい、こちらブリッジ！
+ヴァイス、なにやってんの？
+さっさと船を修理しなさいよ！\c"
+Ms034b010,"\h(《ヴァイス》)やっぱり船の上だと
+洗たく物の乾きが早いな。
+雲の上なら天気の心配もないし。\c"
+Ms034b011,"\h(《ヴァイス》)クルーたちの昼メシだ。
+立派なキッチンがあるから
+空の上でもけっこう豪華だ。\c"
+Ms034b012,"\h(《ヴァイス》)かなりハデにやられちまった。
+これ以上、戦闘を重ねると
+沈没の危険性があるな……\c"
+Ms034b013,"\h(《ヴァイス》)サロンの扉を閉鎖しやがったな。
+とにかく、ムラジがいるはずの
+ブリッジを確保しなければ！\c"
+Ms034b014,"\h(《ヴァイス》)ちっ、閉鎖されてる。
+まずはムラジがいるはずの
+ブリッジに急ごう！\c"
+Ms034a020,"\h(《ヴァイス》)この空域では
+うかつに外に出るのは危険だ。
+この扉は閉鎖しておこう。\c"
+M00040000,"\h(《Pow》)Pow pow pow pow pow!
+Pow pow pow pow!\c"
+M14110000,\h(《Marco》)Damn! Damn! This fire just won't go out!!\e
+M05030000,"\h(《Merida》)Hot hot hot!
+Captain, hurry! The ship needs repairs! We're 
+going to crash!!!\c"
+M05210000,"\h(《Tikatika》)Hmm… The ship is on fire. I think it would
+probably be good to fix the ship. I don't think
+it is good for the ship to be on fire.\c"
+M06330000,"\h(《Khazim》)Don't just stand there gawking!
+Hurry up and put the fire out!
+We'll crash if you don't hurry!\e"
+M06330001,\h(《Khazim's Men》)Yessir! Right away sir!\c
+M06340000,"\h(《Khazim's Gunner》)C'mon!
+Fire, just go out already!
+Ouch! Hot hot hot!\c"
+M06350000,\h(《Khazim's Gunner》)Hah! I'm not going to quit now!\c
+M08150000,"\h(《Kirala》)I can do some emergency repairs to seal up some
+of the holes in the hull, but the ship's in need
+of more than that, Captain!\c"
+M14010000,"\h(《Izmael》)The damage is too great for these makeshift 
+repairs to do any good!\e"
+M14010001,"\h(《Izmael》)If we don't take some drastic measures soon, 
+this ship is finished!\c"
+M14020000,"\h(《Belle》)Take that! And that! Oh, go out already!!! Why 
+won't these fires just go out!?!\c"
+M14090000,"\h(《Lilly》)Ahh! Captain! Do something will ya?! The ship is
+gonna crash!!\c"
+M14100000,"\h(《Nara》)\ecough, cough\e It's too hot! I, I can't getclose enough! Captain, do something!!\c"
+M14050000,"\h(《Domingo》)Hey hey… Vyse!
+Your ship is on fire. Don't you think you should
+do something about all this?\c"
+Mp0040000,"\h(《Enrique》)Vyse, if we continue fighting much longer in 
+this state, we will surely die.\c"
+Mp0040001,"\h(《Enrique》)Vyse, if we continue fighting much longer in 
+this state, we will surely die.\c"
+Mp0040002,"\h(《Enrique》)Vyse, let me go with you. Let me fight by 
+your side.\e"
+Mp0040003,"\h(《Will you take Enrique with you?》)”Of course.”
+”Sorry, I need you to stay here.”\e"
+Mp0040004,"\h(《Vyse》)Of course, Enrique.
+C'mon, I need you to help me defeat Ramirez.\e"
+Mp0040005,"\h(《Enrique》)Thank you, Vyse!
+I will fight to the best of my abilities. 
+I will not let you down.\e"
+Mp0040006,\h(　)Enrique has joined your party.\c
+Mp0040007,"\h(《Enrique》)Oh… I see. Well, if you change your mind, just 
+let me know. I'm always ready to fight.\c"
+Mp0030000,"\h(《Drachma》)Vyse, your ship has taken too much damage. You
+must do somethin' to fix the ship or else we're
+finished.\c"
+Mp0030001,"\h(《Drachma》)You're goin' to go into that island, boy? You're
+crazier than I thought…\e"
+Mp0030002,"\h(《Drachma》)… But if you insist on goin', I can't let you 
+go alone.\e"
+Mp0030003,"\h(《Will you take Drachma with you?》)”C'mon, Captain!”
+”Sorry, but I need you to stay here.”\e"
+Mp0030004,"\h(《Vyse》)I'm counting on you, Captain!
+With your experience, and that arm of yours,
+Ramirez doesn't stand a chance!\e"
+Mp0030005,"\h(《Drachma》)Hrmph… I can't believe I'm fightin' with you 
+again…\e"
+Mp0030006,\h(　)Drachma has joined your party.\c
+Mp0030007,"\h(《Drachma》)I see.
+I don't like it, but if you change your mind, 
+let me know.\c"
+Mp0050000,"\h(《Gilder》)Hey, Vyse.
+Um… the ship's looking a little… bad.
+Maybe you should fix it or something…\c"
+Mp0050001,"\h(《Gilder》)I know we're close to ending this thing, but 
+don't you think you should at least fix your 
+ship first?\c"
+Mp0050002,"\h(《Gilder》)Hey, Vyse. This sounds like fun. Count me in.\e"
+Mp0050003,"\h(《Will you take Gilder with you?》)”Of course, who else would I take?”
+”Sorry, but I need you to stay here.”\e"
+Mp0050004,"\h(《Vyse》)Of course, who else would I take?
+I need you to help me defeat Ramirez!\e"
+Mp0050005,"\h(《Gilder》)Heh… I figured as much. Looks like it's finally
+time to get a little serious.\e"
+Mp0050006,\h(　)Gilder has joined the party.\c
+Mp0050007,"\h(《Gilder》)Hey, don't get my hopes up like that. If you
+change your mind, I'll be right here. Besides, I
+don't really have anything better to do.\c"
+"",me034i.sct
+"",me034g.sct
+"",M0233
+"",m5340000

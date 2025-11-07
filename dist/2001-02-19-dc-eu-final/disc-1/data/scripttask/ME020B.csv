@@ -1,0 +1,816 @@
+[Event Name],Task ID
+MH0170000,\h(«Vyse»)This must be it!\e
+MH0170001,\h(«Deep Voice»)Trespassers…\e
+MH0170002,\h(«Deep Voice»)…halt.\e
+MH0170003,\h(«Jao»)Westerners…\e
+MH0170004,\h(«Mao»)…it appears that we meet again.\e
+MH0170005,"\h(«Vyse»)Aww, not them again!
+What are you doing here?!\e"
+MH0170006,\h(«Jao»)This is the headquarters…\e
+MH0170007,\h(«Mao»)…of the Tenkou.\e
+MH0170008,\h(«Jao»)It was very foolish…\e
+MH0170009,\h(«Mao»)…for you to come here.\e
+MH0170010,\h(«Jao»)The time has come…\e
+MH0170011,\h(«Mao»)…for us to finish you.\e
+MH0170012,\h(«Loud Voice»)Halt!!\e
+MH0170013,"\h(«Warrior»)Jao, Mao… Who's there?\e"
+MH0170014,\h(«Jao»)Lord Daigo…\e
+MH0170015,\h(«Mao»)These are the Westerners…\e
+MH0170016,\h(«Jao»)…that dared to defy us.\e
+MH0170017,\h(«Mao»)They came through the Dark Rift… \e
+MH0170018,"\h(«Vyse»)I'm Vyse of the Blue Rogues.
+You're the leader of the Tenkou?\e"
+MH0170019,\h(«Moegi»)Daigo!\e
+MH0170020,\h(«Vyse»)What?! He's your brother?\e
+MH0170021,"\h(«Aika»)Huh?!
+This is Prince Daigo!?\e"
+MH0170022,"\h(«Daigo»)Moegi!
+How have you been?\e"
+MH0170023,"\h(«Daigo»)I never would have thought that you would bring
+foreigners to my temple.\e"
+MH0170024,"\h(«Moegi»)I never thought I would, either.
+But what are the Tenkou doing here?!\e"
+MH0170025,"\h(«Daigo»)A long time ago, the twins challenged me to a
+fight. They wanted my sword, so I beat them
+senseless.\e"
+MH0170026,"\h(«Daigo»)And for some strange reason, they pledged their
+loyalty to me. I've been their leader ever
+since.\e"
+MH0170027,"\h(«Daigo»)And I figured, as their leader, I could control
+them a little, so they'd stop attacking
+everyone.\e"
+MH0170028,"\h(«Daigo»)Besides, who else do you know that has twin
+bodyguards?! Hahahaha!\e"
+MH0170029,"\h(«Aika»)Moegi… Is he really your brother? It's hard to
+imagine that the two of you are related.\e"
+MH0170030,"\h(«Fina»)I know he is a Prince… like Enrique… but it
+seems that Princes in Yafutoma act differently
+than Princes in Valua.\e"
+MH0170031,"\h(«Daigo»)…But what is the purpose of your visit, Moegi?
+Has Father changed his mind?\e"
+MH0170032,\h(«Moegi»)Daigo… he…\e
+MH0170033,"\h(«Daigo»)…What's wrong?
+Did something happen to him?!\e"
+MSH0170000,\h(«Vyse»)¡Esto es el fin!\e
+MSH0170001,\h(«Voz Grave»)Intrusos……\e
+MSH0170002,\h(«Voz Grave»)……Alto.\e
+MSH0170003,\h(«Jao»)Occidentales……\e
+MSH0170004,\h(«Mao»)……nos volvemos a encontrar.\e
+MSH0170005,"\h(«Vyse»)¡Oh, no! ¡Ellos otra vez no!
+¡¿Qué hacéis aquí?!\e"
+MSH0170006,\h(«Jao»)Éste es el cuartel general……\e
+MSH0170007,\h(«Mao»)……de Tenkou.\e
+MSH0170008,\h(«Jao»)Ha sido una tontería por vuestra parte……\e
+MSH0170009,\h(«Mao»)……venir hasta aquí.\e
+MSH0170010,\h(«Jao»)Ha llegado la hora……\e
+MSH0170011,\h(«Mao»)……de que acabemos con vosotros.\e
+MSH0170012,\h(«Voz Alta»)¡¡Alto!!\e
+MSH0170013,"\h(«Guerrero»)Jao, Mao…… ¿Quién está ahí?\e"
+MSH0170014,\h(«Jao»)Lord Daigo……\e
+MSH0170015,\h(«Mao»)Estos son los occidentales……\e
+MSH0170016,\h(«Jao»)……que osaron desafiarnos.\e
+MSH0170017,\h(«Mao»)Llegaron a través de la Gruta Oscura……\e
+MSH0170018,"\h(«Vyse»)Soy Vyse de los Bandidos Azules.
+¿Eres tú el líder de los Tenkou?\e"
+MSH0170019,\h(«Moegi»)¡Daigo!\e
+MSH0170020,\h(«Vyse»)¡¿Cómo?! ¿Es tu hermano?\e
+MSH0170021,"\h(«Aika»)¡¿Eh?!
+¿¡Éste es el Príncipe Daigo!?\e"
+MSH0170022,"\h(«Daigo»)¡Moegi!
+¿Qué tal estás?\e"
+MSH0170023,"\h(«Daigo»)Jamás pensé que traerías extranjeros a mi
+templo.\e"
+MSH0170024,"\h(«Moegi»)Yo tampoco lo pensé.
+¡¿Pero qué hacen los Tenkou aquí?!\e"
+MSH0170025,"\h(«Daigo»)Hace mucho tiempo, los gemelos me retaron.
+Querían quedarse con mi sable, pero les di una
+buena paliza.\e"
+MSH0170026,"\h(«Daigo»)Y después de eso, por alguna extraña razón, me
+prometieron lealtad. Desde entonces he sido su
+líder.\e"
+MSH0170027,"\h(«Daigo»)Así que he pensado que, como su líder, podría
+controlarlos un poco, para que dejaran de atacar
+a todo el mundo.\e"
+MSH0170028,"\h(«Daigo»)Además, ¡¿conoces a otra persona que tenga unos
+guardaespaldas gemelos?! ¡Ja, ja, ja!\e"
+MSH0170029,"\h(«Aika»)Moegi…… ¿De verdad que es tu hermano?
+Es difícil de imaginar que seáis parientes.\e"
+MSH0170030,"\h(«Fina»)Ya sé que es un Príncipe…… como Enrique…… pero
+parece que los Príncipes de Yafutoma se
+comportan distinto de los Príncipes de Valua.\e"
+MSH0170031,"\h(«Daigo»)……Pero, ¿cuál es el motivo de tu visita, Moegi?
+¿Es que Padre ha cambiado de opinión?\e"
+MSH0170032,\h(«Moegi»)Daigo…… él……\e
+MSH0170033,"\h(«Daigo»)¿Qué ha pasado?
+¡¿Le ha sucedido algo?!\e"
+MFH0170000,\h(«Vyse»)C'est sûrement ici !\e
+MFH0170001,\h(«Voix Grave»)Intrus……\e
+MFH0170002,\h(«Voix Grave»)……halte-là.\e
+MFH0170003,\h(«Jao»)Occidentaux……\e
+MFH0170004,\h(«Mao»)……nos chemins se croisent encore.\e
+MFH0170005,"\h(«Vyse»)Oh non, encore eux !
+Que faites-vous ici ?!\e"
+MFH0170006,\h(«Jao»)Ce sont les quartiers généraux……\e
+MFH0170007,\h(«Mao»)……des Tenkou.\e
+MFH0170008,\h(«Jao»)Vous êtes vraiment stupides……\e
+MFH0170009,\h(«Mao»)……d'être venus.\e
+MFH0170010,\h(«Jao»)Le moment est venu……\e
+MFH0170011,\h(«Mao»)……d'en finir avec vous.\e
+MFH0170012,\h(«Voix Forte»)Halte-là !!\e
+MFH0170013,"\h(«Guerrier»)Jao, Mao…… Qui va là ?\e"
+MFH0170014,\h(«Jao»)Seigneur Daigo……\e
+MFH0170015,\h(«Mao»)Ce sont les Occidentaux……\e
+MFH0170016,\h(«Jao»)……qui ont osé nous défier.\e
+MFH0170017,\h(«Mao»)Ils sont passés par le Récif Noir…… \e
+MFH0170018,"\h(«Vyse»)Je suis Vyse des Voleurs Bleus.
+Vous êtes le chef des Tenkou ?\e"
+MFH0170019,\h(«Moegi»)Daigo !\e
+MFH0170020,\h(«Vyse»)Quoi ?! C'est votre frère ?\e
+MFH0170021,"\h(«Aika»)Hein ?!
+C'est le Prince Daigo !?\e"
+MFH0170022,"\h(«Daigo»)Moegi !
+Comment vas-tu ?\e"
+MFH0170023,"\h(«Daigo»)Je n'aurais jamais cru que tu emmènerais des
+étrangers dans mon temple.\e"
+MFH0170024,"\h(«Moegi»)Moi non plus.
+Mais que font les Tenkou ici ?!\e"
+MFH0170025,"\h(«Daigo»)Il y a bien longtemps, les jumeaux m'ont défié
+dans un combat. Ils voulaient mon épée, alors
+je leur ai fait la peau.\e"
+MFH0170026,"\h(«Daigo»)Et je ne sais pas pourquoi, ils m'ont juré
+loyauté. Depuis ce jour, je suis leur chef.\e"
+MFH0170027,"\h(«Daigo»)Et je m'étais dit, qu'étant leur chef, je
+pourrais les contrôler un peu, pour qu'ils
+arrêtent d'attaquer les gens.\e"
+MFH0170028,"\h(«Daigo»)Et puis, vous connaissez quelqu'un qui a des
+gardes du corps jumeaux ?! Hahahaha !\e"
+MFH0170029,"\h(«Aika»)Moegi…… C'est vraiment votre frère ?
+C'est difficile d'imaginer que vous êtes de la
+même famille.\e"
+MFH0170030,"\h(«Fina»)Je sais qu'il est Prince…… comme Enrique…… mais
+il semble que les Princes de Yafutoma se
+comportent différemment des Princes de Valua.\e"
+MFH0170031,"\h(«Daigo»)……Mais quel est le but de ta visite, Moegi ?
+Père a-t-il changé d'avis ?\e"
+MFH0170032,\h(«Moegi»)Daigo…… il……\e
+MFH0170033,"\h(«Daigo»)……Qu'est-ce qu'il y a ?
+Lui est-il arrivé quelque chose ?!\e"
+MGH0170000,\h(«Vyse»)Das muss es sein!\e
+MGH0170001,\h(«Tiefe Stimme»)Grenzüberschreiter……\e
+MGH0170002,\h(«Tiefe Stimme»)…… Stop!\e
+MGH0170003,\h(«Jao»)Leute aus dem Westen……\e
+MGH0170004,\h(«Mao»)……so trifft man sich also wieder.\e
+MGH0170005,"\h(«Vyse»)O Gott, nicht schon wieder die!
+Was macht ihr hier?!\e"
+MGH0170006,\h(«Jao»)Dies ist die Zentrale……\e
+MGH0170007,\h(«Mao»)…… der Tenkou.\e
+MGH0170008,\h(«Jao»)Es war sehr dumm……\e
+MGH0170009,"\h(«Mao»)…… von euch, hierher zu kommen.\e"
+MGH0170010,\h(«Jao»)Die Zeit ist reif……\e
+MGH0170011,\h(«Mao»)……um euch zu erledigen.\e
+MGH0170012,\h(«Laute Stimme»)Halt!!\e
+MGH0170013,"\h(«Krieger»)Jao, Mao…… Wer ist da?\e"
+MGH0170014,\h(«Jao»)Lord Daigo……\e
+MGH0170015,\h(«Mao»)Das sind die Leute aus dem Westen……\e
+MGH0170016,"\h(«Jao»)…… die es gewagt haben, sich uns zu
+widersetzen.\e"
+MGH0170017,\h(«Mao»)Sie sind durch das Dark Rift gekommen……\e
+MGH0170018,"\h(«Vyse»)Ich bin Vyse von den Blue Rogues.
+Du bist der Anführer der Tenkou?\e"
+MGH0170019,\h(«Moegi»)Daigo!\e
+MGH0170020,\h(«Vyse»)Was?! Er ist dein Bruder?\e
+MGH0170021,"\h(«Aika»)Was?!
+Das ist Prinz Daigo!?\e"
+MGH0170022,"\h(«Daigo»)Moegi!
+Wie ist es dir ergangen?\e"
+MGH0170023,"\h(«Daigo»)Ich hätte nie gedacht, dass du Fremde zu
+meinem Tempel bringen würdest.\e"
+MGH0170024,"\h(«Moegi»)Ich auch nicht.
+Aber was machen die Tenkou hier?!\e"
+MGH0170025,"\h(«Daigo»)Vor langer Zeit forderten mich die Zwillinge
+zu einem Kampf heraus. Sie wollten mein
+Schwert, und ich habe es ihnen gezeigt.\e"
+MGH0170026,"\h(«Daigo»)Und aus irgendeinem Grund haben sie mir ihren
+Gehorsam geschworen. Seitdem bin ich ihr
+Anführer.\e"
+MGH0170027,"\h(«Daigo»)Ich habe mir gedacht, als ihr Anführer könnte
+ich sie ein wenig unter Kontrolle halten,
+so dass sie nicht mehr jeden angreifen.\e"
+MGH0170028,"\h(«Daigo»)Außerdem, weißt du sonst noch jemanden, der
+Zwillinge als Leibwächter hat?! Hahahaha!\e"
+MGH0170029,"\h(«Aika»)Moegi…… ist das wirklich dein Bruder?
+Man kann sich nur schwer vorstellen, dass ihr
+beide verwandt seid.\e"
+MGH0170030,"\h(«Fina»)Ich weiß, dass er ein Prinz ist…… wie
+Enrique……, aber es hat den Anschein, dass
+Prinzen in Yafutoma sich anders benehmen als
+Prinzen in Valua.\e"
+MGH0170031,"\h(«Daigo»)…Aber was ist der Grund deines Besuchs, Moegi?
+Hat Vater es sich anders überlegt?\e"
+MGH0170032,\h(«Moegi»)Daigo…… er……\e
+MGH0170033,"\h(«Daigo»)…… Ist was?
+Ist ihm etwas zugestoßen?!\e"
+MH0180000,"\h(«Daigo»)Kangan… that little runt! How could he backstab
+our father and hand our country over to the
+Valuans?!\e"
+MH0180001,\h(«Moegi»)Daigo…\e
+MH0180002,"\h(«Daigo»)Moegi… I'm sorry. If I was still there, this
+would never have happened. When I was exiled,
+I welcomed the freedom!\e"
+MH0180003,"\h(«Daigo»)I disregarded all of my duties and did whatever
+I wanted, here in this temple.\e"
+MH0180004,"\h(«Daigo»)But, now my people need me. I must go back there
+and reclaim my title as Prince of Yafutoma!\e"
+MH0180005,"\h(«Daigo»)Vyse, I can't thank you enough for saving my
+sister.\e"
+MH0180006,"\h(«Daigo»)Now, I must get ready for battle. I will fight
+against Valua and give Yafutoma back to the
+people!\e"
+MH0180007,\h(«Daigo»)I would be honored if you'd fight alongside me.\e
+MH0180008,"\h(«What will you say?»)“Of course!”
+“I don't know about helping the Tenkou.”\e"
+MH0180009,\h(«Vyse»)Of course we'll help! We share the same enemy.\e
+MH0180010,"\h(«Daigo»)Excellent!
+We will fight together and reclaim Yafutoma and
+the Maga Sphere!\e"
+MH0180011,\h(«Vyse»)I don't know about helping the Tenkou…\e
+MH0180012,"\h(«Daigo»)What are you saying?!
+Aren't you a pirate as well?\e"
+MH0180013,"\h(«Daigo»)It is Jao and Mao's mission to gather weapons,
+so they only attack armed ships. They might be
+pirates, but they do have honor.\e"
+MH0180014,"\h(«Daigo»)From what I've heard about the Blue Rogues, you
+guys are one and the same! Gahahahaha!!!\e"
+MH0180015,"\h(«Daigo»)Also, Lord Enrique…
+I heard that you defended my sister from Muraji.\e"
+MH0180016,\h(«Daigo»)My family thanks you for your bravery.\e
+MH0180017,"\h(«Enrique»)I did only what is expected of a gentleman.
+Think nothing of it.\e"
+MH0180018,"\h(«Enrique»)…And, Prince Daigo, I know how you feel.
+I, too, have been exiled from my lands.\e"
+MH0180019,"\h(«Enrique»)I wish to change the views of my country by
+changing the world around it.\e"
+MH0180020,"\h(«Enrique»)And that is why I wish to aid you… 
+from one exiled prince to another.\e"
+MH0180021,"\h(«Enrique»)Also, the fleet that you are about to face… the
+Armada… was sent here by my mother, Empress
+Teodora.\e"
+MH0180022,"\h(«Enrique»)As a Valuan Prince, it is my duty to stop them.
+This is not only your battle… it is mine as
+well.\e"
+MH0180023,\h(«Daigo»)…I understand. I will gladly accept your aid.\e
+MH0180024,"\h(«Daigo»)Prince Enrique… you are a very noble man. 
+Much more noble than I.\e"
+MH0180025,"\h(«Daigo»)If a man such as yourself were to be at my
+sister's side, I would sleep well at night.\e"
+MH0180026,"\h(«Enrique»)Um…
+I… um…\e"
+MH0180027,\h(«Moegi»)Daigo…!\e
+MH0180028,"\h(«Daigo»)And from the looks of it, the two of you
+wouldn't mind either.\e"
+MH0180029,"\h(«Daigo»)Now then… Vyse. I need to prepare for the
+battle… Meet me at the port. We will depart for
+Yafutoma as soon as you are ready.\e"
+MSH0180000,"\h(«Daigo»)Kangan…… ¡Ese enano! ¡¿Cómo pudo traicionar a mi
+padre y entregar nuestro país a los Valuan?!\e"
+MSH0180001,\h(«Moegi»)Daigo……\e
+MSH0180002,"\h(«Daigo»)Moegi…… lo siento. Esto no habría sucedido nunca
+si yo hubiera estado allí. ¡Cuando me mandaron
+al exilio, me alegré de ser libre por fin!\e"
+MSH0180003,"\h(«Daigo»)No hice caso de mis obligaciones e hice lo que
+me apetecía, aquí en este templo.\e"
+MSH0180004,"\h(«Daigo»)Pero, ahora el pueblo me necesita.
+¡Debo regresar y reclamar mi cargo de Príncipe
+de Yafutoma!\e"
+MSH0180005,"\h(«Daigo»)Vyse, no sé cómo agradecerte que hayas salvado a
+mi hermana.\e"
+MSH0180006,"\h(«Daigo»)Y ahora, tengo que prepararme para la batalla.
+¡Lucharé contra Valua y devolveré Yafutoma a su
+pueblo!\e"
+MSH0180007,"\h(«Daigo»)Me sentiría honrado si vosotros luchárais en mi
+bando.\e"
+MSH0180008,"\h(«¿Qué vas a decir?»)“¡Pues claro!”
+“No sé si quiero ayudar a los Tenkou.”\e"
+MSH0180009,"\h(«Vyse»)¡Claro que te ayudaremos! Tenemos un enemigo
+común.\e"
+MSH0180010,"\h(«Daigo»)¡Estupendo!
+¡Lucharemos juntos para recuperar Yafutoma y la
+Mega Esfera!\e"
+MSH0180011,\h(«Vyse»)No estoy seguro de querer ayudar a los Tenkou……\e
+MSH0180012,"\h(«Daigo»)¡¿Pero qué dices?!
+¿No eres un pirata como ellos?\e"
+MSH0180013,"\h(«Daigo»)La misión de Jao y Mao es robar armas, así que
+sólo atacan a los navíos armados. Puede que sean
+piratas, pero también tienen su dignidad.\e"
+MSH0180014,"\h(«Daigo»)¡Por lo que he oído sobre los Bandidos Azules,
+sois todos de ver para creer! ¡¡¡Ja, ja!!!\e"
+MSH0180015,"\h(«Daigo»)Además, Lord Enrique……
+he oído que defendiste a mi hermana de Muraji.\e"
+MSH0180016,\h(«Daigo»)En nombre de mi familia te doy las gracias.\e
+MSH0180017,"\h(«Enrique»)Sólo hice lo que se espera de un caballero.
+No hay que darle importancia.\e"
+MSH0180018,"\h(«Enrique»)Y…… Príncipe Daigo, sé como te sientes.
+Yo también estoy exiliado de mi país.\e"
+MSH0180019,"\h(«Enrique»)Quisiera cambiar mi país cambiando el mundo que
+hay a su alrededor.\e"
+MSH0180020,"\h(«Enrique»)Y por eso quiero ayudarte……
+de un príncipe exiliado a otro.\e"
+MSH0180021,"\h(«Enrique»)Además, mi madre la Emperatriz Teodora envió la
+flota a la que os vais a enfrentar ahora…… la
+Armada……\e"
+MSH0180022,"\h(«Enrique»)Como Príncipe Valuan, es mi deber detenerlos. 
+No es sólo tu lucha…… también es la mía.\e"
+MSH0180023,\h(«Daigo»)Comprendo…… Acepto tu ayuda encantado.\e
+MSH0180024,"\h(«Daigo»)Príncipe Enrique…… eres un hombre muy noble.
+Tu nobleza me abruma.\e"
+MSH0180025,"\h(«Daigo»)Si un hombre como tú estuviese junto a mi
+hermana, dormiría tranquilo todas las noches.\e"
+MSH0180026,"\h(«Enrique»)Um……
+Yo…… esto……\e"
+MSH0180027,\h(«Moegi»)¡Daigo……!\e
+MSH0180028,"\h(«Daigo»)Y por lo que parece, a vosotros tampoco os
+molestaría.\e"
+MSH0180029,"\h(«Daigo»)Y ahora…… Vyse. Tengo que prepararme para la
+batalla…… Nos encontramos en el puerto. Quiero
+partir hacia Yafutoma en cuanto sea posible.\e"
+MFH0180000,"\h(«Daigo»)Kangan…… ce petit avorton ! Comment a-t-il pu
+trahir notre père et donner notre pays aux
+Valuans ?!\e"
+MFH0180001,\h(«Moegi»)Daigo……\e
+MFH0180002,"\h(«Daigo»)Moegi…… je suis désolé. Si j'étais resté là-bas,
+ce ne serait jamais arrivé. Quand j'ai été
+exilé, j'ai vraiment apprécié ma liberté !\e"
+MFH0180003,"\h(«Daigo»)J'ai abandonné tous mes devoirs et fait tout ce
+qui me plaisait, ici dans ce temple.\e"
+MFH0180004,"\h(«Daigo»)Mais, à présent mon peuple a besoin de moi.
+Je dois y retourner et récupérer mon titre de
+Prince de Yafutoma !\e"
+MFH0180005,"\h(«Daigo»)Vyse, je ne te remercierai jamais assez d'avoir
+sauvé ma soeur.\e"
+MFH0180006,"\h(«Daigo»)Je dois me préparer pour la bataille.
+Je me battrai contre Valua et rendrai
+Yafutoma au peuple !\e"
+MFH0180007,"\h(«Daigo»)Je serai honoré si vous vous battiez à mes
+côtés.\e"
+MFH0180008,"\h(«Que direz-vous ?»)“Bien sûr !”
+“Je ne sais pas si je veux aider les Tenkou.”\e"
+MFH0180009,"\h(«Vyse»)Bien sûr nous vous aiderons !
+Nous avons un ennemi commun.\e"
+MFH0180010,"\h(«Daigo»)Excellent !
+Nous nous battrons ensemble pour reprendre
+Yafutoma et récupérer la Sphère Maga !\e"
+MFH0180011,\h(«Vyse»)Je ne sais pas si je veux aider les Tenkou……\e
+MFH0180012,"\h(«Daigo»)Que dites-vous ?!
+N'êtes-vous pas aussi pirate ?\e"
+MFH0180013,"\h(«Daigo»)C'est la mission de Jao et Mao de rassembler des
+armes, c'est pour cela qu'ils n'attaquent que
+des navires armés. Ce sont peut-être des
+pirates, mais ils ont le sens de l'honneur.\e"
+MFH0180014,"\h(«Daigo»)D'après ce que j'ai entendu sur les Voleurs
+Bleus, vous êtes tous les mêmes !
+Gahahahaha !!!\e"
+MFH0180015,"\h(«Daigo»)Et aussi, Seigneur Enrique……
+J'ai entendu dire que vous avez défendu ma soeur
+contre Muraji.\e"
+MFH0180016,\h(«Daigo»)Ma famille vous remercie de votre bravoure.\e
+MFH0180017,"\h(«Enrique»)Je n'ai fait que me comporter en gentleman.
+Ce n'est rien.\e"
+MFH0180018,"\h(«Enrique»)……Et, Prince Daigo, je sais ce que vous
+ressentez. Moi aussi j'ai été exilé de mes
+terres.\e"
+MFH0180019,"\h(«Enrique»)Je souhaite changer la façon dont mon pays voit
+les choses, en changeant le monde autour de lui.\e"
+MFH0180020,"\h(«Enrique»)Voilà pourquoi je veux vous apporter mon aide……
+d'un prince exilé à un autre.\e"
+MFH0180021,"\h(«Enrique»)De plus, la flotte que vous allez affronter……
+l'Armada…… a été envoyée par ma mère,
+l'Impératrice Teodora.\e"
+MFH0180022,"\h(«Enrique»)En tant que Prince Valuan, il est de mon devoir
+de les arrêter. Ce n'est pas seulement votre
+bataille…… c'est aussi la mienne.\e"
+MFH0180023,"\h(«Daigo»)……Je comprends. J'accepte votre aide avec
+plaisir.\e"
+MFH0180024,"\h(«Daigo»)Prince Enrique…… vous êtes très noble.
+Beaucoup plus que je ne le suis.\e"
+MFH0180025,"\h(«Daigo»)Si un homme comme vous était aux côtés de ma
+soeur, je dormirais tranquille.\e"
+MFH0180026,"\h(«Enrique»)Um……
+Je…… um……\e"
+MFH0180027,\h(«Moegi»)Daigo……!\e
+MFH0180028,"\h(«Daigo»)Et apparemment, cela ne vous dérangerait pas,
+tous les deux.\e"
+MFH0180029,"\h(«Daigo»)Bon…… Vyse. Je dois me préparer pour la
+bataille…… Retrouvez-moi au port. Nous partirons
+de Yafutoma dès que vous serez prêts.\e"
+MGH0180000,"\h(«Daigo»)Kangan…… dieser gemeine Zwerg! Wie konnte er
+unserem Vater in den Rücken fallen und unser
+Land den Valuanern ausliefern?!\e"
+MGH0180001,\h(«Moegi»)Daigo……\e
+MGH0180002,"\h(«Daigo»)Moegi…… Es tut mir leid. Wenn ich noch da
+wäre, wäre das nie passiert. Als ich verbannt
+wurde, habe ich mich über die Freiheit gefreut!\e"
+MGH0180003,"\h(«Daigo»)Ich ließ all meine Pflichten sein und tat,
+was ich wollte, hier in diesem Tempel.\e"
+MGH0180004,"\h(«Daigo»)Aber jetzt braucht mein Volk mich. Ich muss
+zurückgehen und meinen Titel als Prinz von
+Yafutoma wiedererlangen!\e"
+MGH0180005,"\h(«Daigo»)Vyse, ich kann dir nicht genug dafür danken,
+dass du meine Schwester gerettet hast.\e"
+MGH0180006,"\h(«Daigo»)Jetzt muss ich mich zum Kampf bereitmachen.
+Ich werde gegen Valua kämpfen und Yafutoma
+dem Volk zurückgeben!\e"
+MGH0180007,"\h(«Daigo»)Ich würde mich geehrt fühlen, wenn ihr an
+meiner Seite kämpft.\e"
+MGH0180008,"\h(«Was wirst du sagen?»)“Selbstverständlich!”
+“Ich weiß nicht, ob ich den Tenkou helfen will.”\e"
+MGH0180009,"\h(«Vyse»)Selbstverständlich helfen wir! Wir stehen ja
+schließlich demselben Feind gegenüber.\e"
+MGH0180010,"\h(«Daigo»)Ausgezeichnet!
+Wir werden zusammen kämpfen und Yafutoma und
+die Maga Sphere zurückerobern!\e"
+MGH0180011,"\h(«Vyse»)Ich weiß nicht, ob ich den Tenkou helfen will……\e"
+MGH0180012,"\h(«Daigo»)Was sagst du da?!
+Bist du nicht auch Pirat?\e"
+MGH0180013,"\h(«Daigo»)Es ist Jao und Maos Aufgabe, Waffen zu sammeln,
+also greifen sie nur bewaffnete Schiffe an.
+Sie sind zwar Piraten, aber sie haben eine
+gewisse Ehre.\e"
+MGH0180014,"\h(«Daigo»)Nach dem zu urteilen, was ich von den Blue
+Rogues gehört habe, seid ihr genauso!
+Gahahahaha!!!\e"
+MGH0180015,"\h(«Daigo»)Ach, und Lord Enrique……
+Ich habe gehört, dass Sie meine Schwester vor
+Muraji beschützt haben.\e"
+MGH0180016,\h(«Daigo»)Meine Familie dankt Ihnen für Ihre Tapferkeit.\e
+MGH0180017,"\h(«Enrique»)Ich habe nur getan, was von einem Gentleman
+erwartet wird. Es ist nicht der Rede wert.\e"
+MGH0180018,"\h(«Enrique»)……Und, Prinz Daigo, ich weiß, wie Sie sich
+fühlen müssen. Auch ich wurde von meinem Land
+verbannt.\e"
+MGH0180019,"\h(«Enrique»)Ich möchte die Einstellung meines Landes
+ändern, indem ich die Welt drumherum ändere.\e"
+MGH0180020,"\h(«Enrique»)Und deshalb möchte ich Ihnen helfen……
+von einem verbannten Prinzen zum anderen.\e"
+MGH0180021,"\h(«Enrique»)Die Flotte, der Sie gegenüberstehen…… die
+Armada…… wurde außerdem von meiner Mutter,
+der Kaiserin Teodora, gesandt.\e"
+MGH0180022,"\h(«Enrique»)Als Prinz von Valua ist es meine Pflicht,
+sie aufzuhalten. Es ist nicht nur euer Kampf……
+es ist auch der meinige.\e"
+MGH0180023,"\h(«Daigo»)……Das verstehe ich. Ich nehme Ihre Hilfe
+gerne an.\e"
+MGH0180024,"\h(«Daigo»)Prinz Enrique…… Sie sind ein sehr ehrenwerter
+Mann. Viel ehrenwerter als ich.\e"
+MGH0180025,"\h(«Daigo»)Wenn ein Mann wie Sie an der Seite meiner
+Schwester wäre, könnte ich nachts ruhig
+schlafen.\e"
+MGH0180026,"\h(«Enrique»)Emm……
+Ich…… emm……\e"
+MGH0180027,\h(«Moegi»)Daigo!……\e
+MGH0180028,"\h(«Daigo»)Und wie man sieht, würde euch beiden das auch
+nichts ausmachen.\e"
+MGH0180029,"\h(«Daigo»)Also, dann, Vyse. Ich muss mich auf den Kampf
+vorbereiten…… Wir treffen uns am Hafen. Wir
+starten in Richtung Yafutoma, sobald wir
+fertig sind.\e"
+M09000000,"\h(«Tenkou»)This is our headquarters where our leader, Lord
+Daigo, resides. When preparing for battles, Lord
+Daigo gathers all of the Tenkou here.\e"
+M09000001,"\h(«Tenkou»)Just a little while ago, Lord Daigo issued an
+order for all the Tenkou to assemble.
+It smells like a war…\e"
+M09000002,"\h(«Tenkou»)It appears that Lord Daigo will be returning to
+Yafutoma. From now on, Jao and Mao will be
+leading the Tenkou.\e"
+M09000003,"\h(«Tenkou»)We have decided that we should only take weapons
+from those with evil intent.
+You Blue Rogues have inspired us…\e"
+M09010000,"\h(«Elder Tenkou»)We, the Tenkou, are citizens of Yafutoma.
+No matter how long you live away from it, you
+never forget your love for your country.\e"
+M09010001,"\h(«Elder Tenkou»)So, we consider Kangan's treason to be a very
+serious matter. I know you are not even from
+Yafutoma… but, please… we need your help.\e"
+M09010002,"\h(«Elder Tenkou»)I never would have thought that the Winds of
+Retribution would be the winds caused by Bluheim
+flapping its wings…\e"
+M09010003,"\h(«Elder Tenkou»)Even though they are from the same islands,
+Bluheim is quite different from the little
+Hamachous living around here.\c"
+M09010004,"\h(«Elder Tenkou»)Our leaders Jao and Mao, as well as the other
+Tenkou, are not here right now. I think they
+flew westward.\e"
+M09010005,"\h(«Elder Tenkou»)They said that an important war had begun in a
+country to the west…\e"
+M09020000,"\h(«Tenkou»)Heh heh… a battle!
+We haven't had a decent fight in a long time!\e"
+M09020001,"\h(«Tenkou»)The Armada? I don't know who they think they
+are, but they'll learn not to underestimate us!\e"
+M09020002,"\h(«Tenkou»)You guys are pretty tough!
+I can't believe you defeated that huge bird!\e"
+M09020003,"\h(«Tenkou»)I didn't realize that there were warriors as
+tough as you guys outside of Yafutoma!
+You're really something!\e"
+M09030000,\h(«Hamachou»)Kii kii!\e
+M09030001,\h(«Hamachou»)Kak kak!\e
+M09030002,"\h(«Hamachou»)Kii kii kii, kii!\e"
+M09040000,"\h(«Kangan»)I, I don't believe that I've been exiled to a
+place like… this!\e"
+M09040001,"\h(«Kangan»)I, I am not supposed to be treated like this!! I
+am the Royal Advisor! This is unheard of!\c"
+M09040002,"\h(«Kangan»)King Mikado sent a messenger here just a little
+while ago. It appears that in his sovereign
+wisdom, he has forgiven us.\e"
+M09040003,"\h(«Kangan»)I… I cannot believe that he had the compassion
+to forgive such traitorous villains like
+ourselves…\e"
+M09040004,"\h(«Kangan»)We cannot disappoint him. We will return to
+Yafutoma and work for the betterment of the
+country. We must… for King Mikado.\c"
+M09040005,"\h(«Kangan»)We will return to Yafutoma and work for the
+betterment of the country.\c"
+M09050000,"\h(«Muraji»)Daigo has commanded us to clean this shrine
+every day!\e"
+M09050001,"\h(«Muraji»)Why does someone of my status have to clean such
+a filthy thing?!\e"
+M09050002,"\h(«Muraji»)I used to be against touching anything that I
+deemed filthy.
+I thought it was below my station…\e"
+M09050003,"\h(«Muraji»)But recently, I've learned the value of working
+with one's hands.
+It makes me feel… alive.\e"
+M09050004,"\h(«Muraji»)When we return to Yafutoma, I plan to try and
+make something of myself… without my father's
+help.\e"
+M09050005,"\h(«Muraji»)When we return to Yafutoma, I plan to try and
+make something of myself… without my father's
+help.\e"
+MS09000000,"\h(«Tenkou»)Éste es el cuartel general donde vive Lord
+Daigo, nuestro líder. Para preparar una batalla,
+Lord Daigo reúne aquí a los Tenkou.\e"
+MS09000001,"\h(«Tenkou»)Precisamente, hace un rato, Lord Daigo ha hecho
+pública una orden de asamblea a todos los
+Tenkou. Esto me huele a guerra……\e"
+MS09000002,"\h(«Tenkou»)Parece ser que Lord Daigo va a regresar a
+Yafutoma. A partir de ahora Jao y Mao van a
+gobernar a los Tenkou.\e"
+MS09000003,"\h(«Tenkou»)Hemos decidido robar las armas sólo de aquellos
+con malvadas intenciones.
+Los Bandidos Azules sois nuestro ejemplo……\e"
+MS09010000,"\h(«Anciano Tenkou»)Nosotros, los Tenkou, somos ciudadanos de
+Yafutoma. No importa la distancia, nunca
+olvidamos el amor por nuestro país.\e"
+MS09010001,"\h(«Anciano Tenkou»)Por eso la traición de Kangan ha sido algo muy
+grave. Ya sé que ni siquiera sois de Yafutoma……
+pero…… necesitamos vuestra ayuda.\e"
+MS09010002,"\h(«Anciano Tenkou»)Nunca pensé que los Bluheim al batir las alas
+provocaban los Vientos de Retribución……\e"
+MS09010003,"\h(«Anciano Tenkou»)Aunque procedan de las mismas islas, los
+Bluheim son distintos de los pequeños Hamachou
+que viven por aquí.\c"
+MS09010004,"\h(«Anciano Tenkou»)Nuestros líderes Jao y Mao, así como los demás
+Tenkou, no están ahora mismo. Creo que volaron
+en dirección oeste.\e"
+MS09010005,"\h(«Anciano Tenkou»)Dijeron que en un país que se encuentra en
+dirección oeste había empezado una guerra muy
+importante……\e"
+MS09020000,"\h(«Tenkou»)Je, je, je…… ¡Una batalla!
+¡Hace mucho tiempo que no hemos tenido una buena
+lucha!\e"
+MS09020001,"\h(«Tenkou»)¿La Armada? ¡No sé qué se han creído, pero ya
+aprenderán a no subestimarnos!\e"
+MS09020002,"\h(«Tenkou»)¡Desde luego sois unos tipos duros!
+¡No puedo creer que hayáis derrotado a ese
+pájaro tan enorme!\e"
+MS09020003,"\h(«Tenkou»)¡No me había dado cuenta de que había guerreros
+tan duros como vosotros fuera de Yafutoma!
+¡Sois la pera!\e"
+MS09030000,\h(«Hamachou»)¡Pi pi!\e
+MS09030001,\h(«Hamachou»)¡Ka ka!\e
+MS09030002,\h(«Hamachou»)¡Pii pii pii pii!\e
+MS09040000,"\h(«Kangan»)No puedo creer que me hayan exiliado a un……
+lugar como éste.\e"
+MS09040001,"\h(«Kangan»)¡¡No deberían tratarme así!! ¡Soy el Consejero
+Real! ¡Esto es inaudito!\c"
+MS09040002,"\h(«Kangan»)El Rey Mikado ha mandado un mensajero hace un
+rato. Por lo visto, en su soberana sabiduría, ha
+decidido perdonarnos.\e"
+MS09040003,"\h(«Kangan»)No…… no puedo creer que se apiade de unos
+traidores tan malvados como nosotros……\e"
+MS09040004,"\h(«Kangan»)No podemos decepcionarle. Volvamos a Yafutoma y
+trabajemos en mejoras para el país. Es nuestro
+deber…… para con el Rey Mikado.\c"
+MS09040005,"\h(«Kangan»)Volveremos a Yafutoma y trabajaremos para
+mejorar el país.\c"
+MS09050000,"\h(«Muraji»)¡Daigo nos ha ordenado limpiar este templo todos
+los días!\e"
+MS09050001,"\h(«Muraji»)¡¿Por qué alguien de mi posición se ve rebajado
+a limpiar una asquerosidad semejante?!\e"
+MS09050002,"\h(«Muraji»)Antes me oponía a tocar cualquier cosa que
+juzgara asquerosa. Lo consideraba una tarea por
+debajo de mi rango……\e"
+MS09050003,"\h(«Muraji»)Pero últimamente, he aprendido el valor de
+trabajar con mis propias manos.
+Me hace sentir…… vivo.\e"
+MS09050004,"\h(«Muraji»)Cuando volvamos a Yafutoma, haré las cosas por
+mí mismo…… sin ayuda de mi padre.\e"
+MS09050005,"\h(«Muraji»)Cuando volvamos a Yafutoma, haré las cosas por
+mí mismo…… sin ayuda de mi padre.\e"
+MF09000000,"\h(«Tenkou»)Ce sont les quartiers généraux où notre leader,
+Seigneur Daigo, réside. Seigneur Daigo réunit
+tous les Tenkou ici avant une bataille.\e"
+MF09000001,"\h(«Tenkou»)Dernièrement, Seigneur Daigo a ordonné que tous
+les Tenkou se rassemblent. Ça sent la guerre……\e"
+MF09000002,"\h(«Tenkou»)Il semble que le Seigneur Daigo va retourner à
+Yafutoma. À partir d'aujourd'hui, Jao et Mao
+vont commander les Tenkou.\e"
+MF09000003,"\h(«Tenkou»)Nous avons décidé de ne prendre que les armes de
+ceux qui ont de mauvaises intentions. C'est vous
+les Voleurs Bleus qui m'avez inspiré……\e"
+MF09010000,"\h(«Ancien Tenkou»)Nous, les Tenkou, sommes des citoyens de
+Yafutoma. Peu importe si vous avez quitté votre
+pays depuis longtemps, vous n'oubliez jamais
+l'amour que vous lui portez.\e"
+MF09010001,"\h(«Ancien Tenkou»)C'est pour cela que nous prenons la trahison de
+Kangan très au sérieux. Je sais que vous n'êtes
+même pas de Yafutoma…… mais, je vous en prie……
+nous avons besoin de votre aide.\e"
+MF09010002,"\h(«Ancien Tenkou»)Je n'aurais jamais cru que les Vents du
+Châtiment seraient causés par Bluheim
+en agitant ses ailes……\e"
+MF09010003,"\h(«Ancien Tenkou»)Même s'ils sont des mêmes îles,
+Bluheim est vraiment très différent des petits
+Hamachous qui vivent par ici.\c"
+MF09010004,"\h(«Ancien Tenkou»)Nos leaders Jao et Mao, ainsi que les autres
+Tenkou, ne sont pas ici pour le moment.
+Je crois qu'ils se sont envolés vers l'est.\e"
+MF09010005,"\h(«Ancien Tenkou»)Ils ont dit qu'une grande guerre avait éclaté
+dans un pays de l'ouest……\e"
+MF09020000,"\h(«Tenkou»)Hé hé…… une bataille ! Nous n'avons pas eu une
+bonne bagarre depuis longtemps !\e"
+MF09020001,"\h(«Tenkou»)L'Armada ? Je ne sais pas pour qui ils se
+prennent, mais ils vont apprendre à ne pas nous
+sous-estimer !\e"
+MF09020002,"\h(«Tenkou»)Vous êtes plutôt forts ! Je n'arrive pas à
+croire que vous ayez vaincu cet énorme oiseau !\e"
+MF09020003,"\h(«Tenkou»)Je ne m'étais pas rendu compte qu'il existait
+des guerriers aussi acharnés, ailleurs qu'à
+Yafutoma ! Vous êtes de sacrés guerriers !\e"
+MF09030000,\h(«Hamachou»)Kii kii !\e
+MF09030001,\h(«Hamachou»)Kak kak !\e
+MF09030002,"\h(«Hamachou»)Kii kii kii, kii !\e"
+MF09040000,"\h(«Kangan»)Je ne peux pas croire qu'ils m'ont exilé dans un
+tel…… endroit !\e"
+MF09040001,"\h(«Kangan»)Je ne devrais pas être traité ainsi !! Je suis
+le conseiller Royal ! Cela ne s'est jamais vu !\c"
+MF09040002,"\h(«Kangan»)Le roi Mikado a envoyé récemment un messager
+ici. Il semble que malgré sa sagesse de
+souverain, il nous a oublié.\e"
+MF09040003,"\h(«Kangan»)Je…… je n'arrive pas à croire qu'il a eu assez
+de compassion pour pardonner des traîtres de
+notre espèce……\e"
+MF09040004,"\h(«Kangan»)Nous ne devons pas le décevoir. Nous
+retournerons à Yafutoma et nous nous efforcerons
+d'améliorer le pays. Il le faut…… pour le roi
+Mikado.\c"
+MF09040005,"\h(«Kangan»)Nous retournerons à Yafutoma et nous nous
+efforcerons d'améliorer le pays.\c"
+MF09050000,"\h(«Muraji»)Daigo nous a ordonné de nettoyer ce temple tous
+les jours !\e"
+MF09050001,"\h(«Muraji»)Pourquoi est-ce que quelqu'un de mon rang est
+obligé de nettoyer un tel dépotoir ?!\e"
+MF09050002,"\h(«Muraji»)Avant je n'aurais jamais touché quelque chose
+que je jugeais sale.
+Je pensais que c'était m'abaisser……\e"
+MF09050003,"\h(«Muraji»)Mais récemment, j'ai appris la valeur du travail
+manuel. Cela me donne le sentiment d'être…… en
+vie.\e"
+MF09050004,"\h(«Muraji»)Quand nous serons rentrés à Yafutoma, j'ai
+l'intention de faire quelque chose de ma vie……
+sans l'aide de mon père.\e"
+MF09050005,"\h(«Muraji»)Quand nous serons rentrés à Yafutoma, j'ai
+l'intention de faire quelque chose de ma vie……
+sans l'aide de mon père.\e"
+MG09000000,"\h(«Tenkou»)Dies ist unser Hauptquartier, wo sich unser
+Anführer, Lord Daigo, aufhält. Wenn er sich
+auf eine Schlacht vorbereitet, versammelt
+Lord Daigo hier alle Tenkou.\e"
+MG09000001,"\h(«Tenkou»)Vor nicht allzu langer Zeit erließ Lord Daigo
+einen Befehl an alle Tenkou, sich zu
+versammeln. Es sieht nach Krieg aus……\e"
+MG09000002,"\h(«Tenkou»)Es sieht so aus, als würde Lord Daigo nach
+Yafutoma zurückkehren. Von nun an werden Jao
+und Mao die Tenkou anführen.\e"
+MG09000003,"\h(«Tenkou»)Wir haben beschlossen, nur Leuten mit bösen
+Absichten die Waffen abzunehmen.
+Ihr Blue Rogues habt uns inspiriert……\c"
+MG09010000,"\h(«Elder Tenkou»)Wir, die Tenkou, sind Bürger von Yafutoma.
+Egal, wie weit du davon entfernt bist, die
+Liebe zu deinem Land wirst du nie aufgeben.\e"
+MG09010001,"\h(«Elder Tenkou»)Also empfinden wir Kangans Verrat als sehr
+gravierend. Ich weiß, ihr kommt selbst
+nicht aus Yafutoma…… aber bitte…… wir
+brauchen eure Hilfe.\e"
+MG09010002,"\h(«Elder Tenkou»)Ich hätte nie angenommen, dass die Winds of
+Retribution (Vergeltungswinde) durch Bluheims
+Flattern mit den Flügeln verursacht würden……\e"
+MG09010003,"\h(«Elder Tenkou»)Obwohl sie von den gleichen Inseln abstammen,
+unterscheidet sich Bluheim doch gewaltig von
+den kleinen Hamachous, die hier in der Gegend
+leben.\c"
+MG09010004,"\h(«Elder Tenkou»)Unsere Anführer Jao und Mao und die anderen
+Tenkou sind im Moment nicht hier. Ich glaube,
+sie sind nach Westen geflogen.\e"
+MG09010005,"\h(«Elder Tenkou»)Sie meinten, in einem Land im Westen hätte
+ein bedeutender Krieg begonnen……\c"
+MG09020000,"\h(«Tenkou»)Hoho…… eine Schlacht!
+Wir haben schon lange keinen vernünftigen
+Kampf mehr gehabt!\e"
+MG09020001,"\h(«Tenkou»)Die Armada? Wer glauben die wohl, wer sie
+sind…… aber wir werden es ihnen zeigen, uns
+zu unterschätzen!\c"
+MG09020002,"\h(«Tenkou»)Ihr seid ziemlich harte Typen!
+Wie ihr diesen riesigen Vogel besiegt habt!\e"
+MG09020003,"\h(«Tenkou»)Ich wusste nicht, dass es so gute Krieger wie
+euch außerhalb von Yafutoma gibt! Ihr könnt
+euch sehen lassen!\c"
+MG09030000,\h(«Hamachou»)Kii kii!\c
+MG09030001,\h(«Hamachou»)Kak kak!\c
+MG09030002,"\h(«Hamachou»)Kii kii kii, kii!\c"
+MG09040000,"\h(«Kangan»)Ich…… kann nicht fassen, dass man mich an
+einen solchen Ort verbannt hat……\e"
+MG09040001,"\h(«Kangan»)Das gehört sich nicht!! Ich bin der Berater
+des Königs! Es ist unerhört!\c"
+MG09040002,"\h(«Kangan»)König Mikado hat erst vor kurzem einen Boten
+entsandt. Es scheint, dass er uns in seiner
+allherrlichen Güte vergeben hat.\e"
+MG09040003,"\h(«Kangan»)Ich…… ich kann es nicht fassen, dass er
+so viel Erbarmen hatte, uns verräterischen
+Halunken zu vergeben……\e"
+MG09040004,"\h(«Kangan»)Wir dürfen ihn nicht enttäuschen. Wir müssen
+nach Yafutoma zurückkehren und uns für die
+Verbesserung des Landes einsetzen. Wir müssen
+es tun…… für König Mikado.\c"
+MG09040005,"\h(«Kangan»)Wir werden nach Yafutoma zurückkehren und uns
+für die Verbesserung des Landes einsetzen.\c"
+MG09050000,"\h(«Muraji»)Daigo hat angeordnet, diesen Schrein jeden
+Tag zu säubern!\e"
+MG09050001,"\h(«Muraji»)Warum muss jemand meines Ranges so ein
+schmutziges Ding säubern?!\c"
+MG09050002,"\h(«Muraji»)Ich habe früher nie etwas angefasst, das ich
+für schmutzig hielt. Ich dachte, es wäre meiner
+nicht würdig……\e"
+MG09050003,"\h(«Muraji»)Aber vor kurzen habe ich gelernt, die Arbeit
+meiner Hände zu schätzen. Es gibt mir das
+Gefühl…… am Leben zu sein.\e"
+MG09050004,"\h(«Muraji»)Wenn wir nach Yafutoma zurückkehren, habe ich
+vor, etwas ganz allein anzufertigen…… ohne
+die Hilfe meines Vaters.\c"
+MG09050005,"\h(«Muraji»)Wenn wir nach Yafutoma zurückkehren, habe ich
+vor, etwas ganz allein anzufertigen…… ohne
+die Hilfe meines Vaters.\c"
+Ms020b000,"\h(«Vyse»)Ack! That's an ugly looking statue.
+Is it some sort of Yafutoman god?\c"
+Ms020b001,"\h(«Vyse»)Wow… Now that's a big spear. The Tenkou were
+collecting weapons, so I suppose that's one of
+their trohpies…\c"
+Ms020b002,"\h(«Vyse»)The doors are sealed shut.
+I don't see any way to open them, either.\c"
+MSs020b000,"\h(«Vyse»)¡Ah! Qué estatua más fea.
+¿Será algún dios de Yafutoma?\c"
+MSs020b001,"\h(«Vyse»)¡Vaya! ¡Qué arpón más grande! Los Tenkou
+coleccionaban armas, así que me imagino
+que será uno de sus trofeos.\c"
+MSs020b002,"\h(«Vyse»)Las puertas están completamente cerradas.
+No sé cómo puedo abrirlas.\c"
+MFs020b000,"\h(«Vyse»)Bah ! Quelle horrible statue.
+Est-ce une sorte de dieu Yafutoman ?\c"
+MFs020b001,"\h(«Vyse»)Oaouh……  Voilà une grande lance. Les Tenkou
+collectionnent les armes, donc je suppose que
+c'est un de leurs trophées……\c"
+MFs020b002,"\h(«Vyse»)Les portes ont été scellées.
+Je ne vois pas comment on pourrait les ouvrir.\c"
+MGs020b000,"\h(«Vyse»)Gah! Das ist eine hässliche Statue.
+Ist das irgendein yafutomanischer Gott?\c"
+MGs020b001,"\h(«Vyse»)Wow…… Na, das ist ein großer Speer.
+Die Tenkou haben Waffen gesammelt,
+schätze, das ist eine ihrer Trophäen……\c"
+MGs020b002,"\h(«Vyse»)Die Türen sind versiegelt.
+Ich weiß nicht, wie ich sie öffnen soll.\c"
+"",me020a.sct
+"",M0245
+"",k8210000
+"",m5200000
+"",H17発生しました。\c
+"",a020bh17.mld
+"",a020bh17.mld
+"",M0245
+"",e6h017
+"",a020bh17.mld
+"",H18発生しました。\c
+"",a020bh18.mld
+"",a020bh18.mld
+"",M0322
+"",e6h018
+"",M0311
+"",a020bh18.mld

@@ -1,0 +1,77 @@
+[Event Name],Task ID
+MAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5000000,"\h(《Baltor》)Gahahahaha!
+How do you like that! Feel the power of
+my ship, the Blackbeard!\e"
+MA5000001,"\h(《Baltor》)Now, I shall teach you to tremble in fear before
+the power of the Black Pirates!
+Gahahahaha!!!\c"
+MA5000002,"\h(《Drachma》)Listen up, boy!
+At the top of the screen, a 3X3 grid will
+appear. This is your input command screen.\e"
+MA5000003,"\h(《Drachma》)Think of it as a time gauge of sorts.
+Each turn is divided into three parts.\e"
+MA5000004,"\h(《Drachma》)For each part of each turn, you,
+Aika, or I can input one command.\c"
+MA5000005,"\h(《Drachma》)Every once in a while, you will see a column
+with a “C!” at the top of the grid.\e"
+MA5000006,"\h(《Drachma》)During that turn, you will have a tactical
+advantage over your opponent. Concentrate
+all of your firepower into that round.\e"
+MA5000007,"\h(《Drachma》)Also, certain turns have a different color
+shown at the top.\e"
+MA5000008,"\h(《Drachma》)These are the turns in which your enemy is goin'
+to unleash a powerful attack. Make sure to use
+your “Defend” command effectively.\c"
+MA5000009,"\h(《Drachma》)Hrumph! He's good…
+Vyse! Turn hard to starboard! Let's
+try and maneuver behind him!\c"
+MA5000010,"\h(《Aika》)… Something's not right, Cap'n. It looks like
+he's preparing for something. I'm getting a bad
+feeling about this…\e"
+MA5000011,"\h(《Drachma》)He looks like he's goin' to try to get behind
+us. Most ships have their engines in the back
+and that makes them more vulnerable from behind.\e"
+MA5000012,"\h(《Drachma》)But, if he tries to get behind us, in the
+meantime, he'll be wide open. What do you
+want to do, boy?\e"
+MA5000013,"\h(《What will you do?》)“Try to get behind him instead.”
+“Wait and see what he does.”\c"
+MA5000014,"\h(《Vyse》)Now's our chance!
+He won't be expecting us to try and maneuver
+around to his backside!\c"
+MA5000015,"\h(《Drachma》)Good job, boy!
+His ship doesn't have any cannons in the back…
+We've got a wide open shot at his engines.\c"
+MA5000016,"\h(《Vyse》)I don't want to act in haste.
+Let's see what he does…\c"
+MA5000017,"\h(《Baltor》)Hahaha!!!
+Fools! You've let me get behind you!
+Now, you are mine!!\c"
+MA5000018,"\h(《Drachma》)Idiot! What're you doin'?!
+Now that he's behind us, he's got
+a wide open shot at our engines!!\c"
+MA5000019,"\h(《Baltor》)That old ship's tough!!
+I need to get behind it!\e"
+MA5000020,"\h(《What will you do?》)“Maneuver behind the enemy.”
+“Wait and see what he does.”\c"
+MA5000021,"\h(《Vyse》)Alright! We managed to get behind him!
+Now's our chance to attack!\c"
+MA5000022,"\h(《Vyse》)Great… While I was sitting here twiddling my
+thumbs he managed to get behind me! All hands,
+prepare for impact!!!\c"
+"",M0430
+"",f7100100S.p04
+"",f7100100S.p04
+"",me500a.sct
+"",me090a.sct
+"",f3000033
+"",f3000033
+"",k0000.mld
+"",k0000.mld
+"",k0000.mld
+"","\h(《ドラクマ》)//バカ者、何をやっとる！
+//後ろをとられると、相手に絶好の
+//攻撃機会を与えてしまうのだぞ！\c"
+"",me205a.sct

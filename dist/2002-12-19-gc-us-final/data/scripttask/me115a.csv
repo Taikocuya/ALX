@@ -1,0 +1,80 @@
+[Event Name],Task ID
+MF0400000,"\h(《Vyse》)This door is huge!
+I don't know how the two of us can open it.\e"
+MF0400001,"\h(《Gilder》)There's probably some sort of trick to opening 
+it.\e"
+MF0400002,"\h(《Gilder》)What?!
+What was that!?\e"
+MF0400003,\h(《Fina》)Aaaahhhh!\e
+MF0400004,\h(《Aika》)What was that!?\e
+MF0400005,"\h(《Fina》)Whatever it was, it just opened the door.\e"
+MF0400006,\h(《Aika》)I don't know if that's good or bad.\e
+MF0400007,\h(《Vyse》)I didn't touch anything… Did you?\e
+MF0400008,"\h(《Gilder》)Hmm…
+The map said something like…
+“When the two pieces come together…”\e"
+MF0400009,"\h(《Gilder》)I wonder if anyone else is here?
+Heh… nevermind… what are the chances of that?\e"
+MF0400010,\h(《Fina》)Aika… what do you think we should do?\e
+MF0400011,"\h(《Aika》)I'm not sure how, but the door opened, and 
+there's treasure inside. We should go!\e"
+M01150000,"\h(《Aika》)Hey! Why won't this door open?! It won't even
+budge!!\e"
+M01150001,"\h(《Fina》)There's something written here… It's an old
+language, but I think I can read it…\e"
+M01150002,"\h(《Fina》)“When the two become one, the path will
+reveal itself to you…”\e"
+M01150003,"\h(《Aika》)What's that supposed to mean?! Why is Daccat
+being so stingy?! It's not like any of his gold
+means anything to him anymore!!!\c"
+M01150004,"\h(《Aika》)Oh, great! More doors that won't open!
+I really don't get what Daccat was thinking when
+he built this place…\c"
+M01150005,"\h(《Vyse》)Another door…
+Damn… This one won't budge either.\c"
+M01150006,\h(《Vyse》)A lever? I wonder what it's for…\c
+M01150007,"\h(《Aika》)Doors that open by themselves… Levers that we
+have no idea what they do… I really, really
+don't get this place.\c"
+M01150008,"\h(《Aika》)Another door? Just great… But wait, what's
+this stone tablet on the ground for?\c"
+M01150009,"\h(《Vyse》)Hmm… There's probably some trick to opening
+this door, too.\c"
+M01150010,"\h(《Aika》)Another door with a stone tablet on the ground.
+Well, it worked when we stepped on the tablet
+last time…\c"
+M01150011,"\h(《Vyse》)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01150012,"\h(《Aika》)Another door with a stone tablet on the ground.
+Well, it worked when we stepped on the tablet
+last time…\c"
+M01150013,"\h(《Vyse》)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01150014,"\h(《Aika》)Another door with a stone tablet on the ground.
+Well, it worked when we stepped on the tablet
+last time…\c"
+M01150015,"\h(《Vyse》)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01150016,"\h(《Vyse》)It seems like the legendary Air Pirate
+Daccat had a pretty good sense of humor.\c"
+M01150017,"\h(《What do you want to do?》)“Return to your ship.”
+“Stay here for a little while longer.”\c"
+M01150018,"\h(《What do you want to do?》)“Return to your ship.”
+“Stay here for a little while longer.”\c"
+M01150019,"\h(《What do you want to do?》)“Return to the Delphinus.”
+“Stay here for a little while longer.”\c"
+"",me115b.sct
+"",me115b.sct
+"",me115b.sct
+"",me115b.sct
+"",me013a.sct
+"",me115b.sct
+"",m5150000
+"",k8140000
+"",a115af40.mld
+"",a115af40.mld
+"",e6f040
+"",a115af40.mld

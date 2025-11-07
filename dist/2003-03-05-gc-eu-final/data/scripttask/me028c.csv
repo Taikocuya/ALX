@@ -1,0 +1,618 @@
+[Event Name],Task ID
+MK0110000,"\h(«Gilder»)Umm… Fina?
+Where are we?\e"
+MK0110001,\h(«Fina»)We are in the Chamber of Elders.\e
+MK0110003,\h(«Elder Prime»)I trust you have completed your mission.\e
+MK0110004,"\h(«Fina»)I'm sorry… 
+I collected the Crystals, but they were stolen 
+by Ramirez.\e"
+MK0110005,\h(«Elder Prime»)…What?!\e
+MK0110006,\h(«Aika»)Fina? Who… What is that?\e
+MK0110007,"\h(«Elder Prime»)I see you've brought some of the island-dwellers
+back with you, how amusing.\e"
+MK0110008,"\h(«Gilder»)Hey…
+Looks like there's a bunch of them.\e"
+MK0110009,"\h(«Elder Halos»)I see…
+So Ramirez has turned, after all.\e"
+MK0110010,"\h(«Elder Cross»)When he stopped contacting us, we feared the
+worst…\e"
+MK0110011,"\h(«Elder Stout»)When he was here in the Shrine, he was so
+loyal… I can't imagine what made him change.\e"
+MK0110012,"\h(«Elder Halos»)If he gave the Crystals to island dwellers, 
+this is very grave news indeed…\e"
+MK0110013,"\h(«Elder Orbis»)If he has turned, and he has all six Crystals. 
+He may release the seal on Zelos. That would
+be… tragic.\e"
+MK0110014,"\h(«Gilder»)Zelos? What's grave news?
+What are you talking about?\e"
+MK0110015,"\h(«Fina»)Elder Prime, please, I want to know the truth… \e"
+MK0110016,"\h(«Fina»)Ramirez said that he was gathering the Moon 
+Crystals to raise the Lost Continent, to unleash
+the Rains of Destruction… \e"
+MK0110017,"\h(«Fina»)He told me that the Silvites called down the 
+Rains of Destruction on the Old World.\e"
+MK0110018,"\h(«Fina»)Is that true?
+Is that what the Crystals are used for?\e"
+MK0110019,"\h(«Elder Prime»)So… Young Fina, you have discovered the truth 
+about the Crystals… \e"
+MK0110020,"\h(«Elder Prime»)I suppose the time has come to tell you 
+everything.\e"
+MK0110021,"\h(«Elder Prime»)I shall take you to the Hall of Knowledge, where
+you will find the truth.\e"
+MK0110022,"\h(«Aika»)Hey! What's happening to us?
+I don't like thi………\e"
+MFK0110000,"\h(«Gilder»)Umm…… Fina ?
+Où sommes-nous ?\e"
+MFK0110001,\h(«Fina»)Nous sommes dans la Chambre des Anciens.\e
+MFK0110003,\h(«Ancien Prime»)Je suppose que tu as accompli ta mission.\e
+MFK0110004,"\h(«Fina»)Je suis désolée……
+J'ai rassemblé les Cristaux, mais Ramirez me les
+a volés.\e"
+MFK0110005,\h(«Ancien Prime»)……Comment ?!\e
+MFK0110006,\h(«Aika»)Fina ? Qui…… Qu'est-ce que c'est ?\e
+MFK0110007,"\h(«Ancien Prime»)Je vois que tu es revenue avec des habitants de
+l'île, très amusant.\e"
+MFK0110008,"\h(«Gilder»)Hé……
+Il y en a tout un groupe.\e"
+MFK0110009,"\h(«Ancien Halos»)Je vois……
+Alors en fin de compte Ramirez a changé de
+bord.\e"
+MFK0110010,"\h(«Ancien Cross»)Quand il a cessé de nous contacter, nous avons
+craint le pire……\e"
+MFK0110011,"\h(«Ancien Stout»)Quand il était au Temple, il était si loyal……
+je ne comprends pas ce qui l'a fait changer.\e"
+MFK0110012,"\h(«Ancien Halos»)S'il a donné les Cristaux aux habitants des
+îles, c'est vraiment très grave……\e"
+MFK0110013,"\h(«Ancien Orbis»)S'il a changé de bord, et qu'il a les six
+Cristaux. Il risque de libérer Zelos.
+Ce serait…… tragique.\e"
+MFK0110014,"\h(«Gilder»)Zelos ? Qu'est-ce qui est grave ?
+De quoi parlez-vous ?\e"
+MFK0110015,"\h(«Fina»)Ancien Prime, je vous en prie, dites-moi la
+vérité……\e"
+MFK0110016,"\h(«Fina»)Ramirez a dit qu'il rassemblait les Cristaux de
+Lune pour élever le Continent Perdu, pour
+déclencher les Pluies de la Destruction……\e"
+MFK0110017,"\h(«Fina»)Il m'a dit que les Silvites avaient invoqué les
+Pluies de la Destruction sur l'Ancien Monde.\e"
+MFK0110018,"\h(«Fina»)Est-ce la vérité ?
+Est-ce à cela que les Cristaux servent ?\e"
+MFK0110019,"\h(«Ancien Prime»)Alors…… Jeune Fina, tu as découvert la vérité
+sur les Cristaux……\e"
+MFK0110020,"\h(«Ancien Prime»)Je suppose que le moment est venu de te dire
+toute la vérité.\e"
+MFK0110021,"\h(«Ancien Prime»)Je vais t'emmener dans la salle des
+connaissances, où tu trouveras la vérité.\e"
+MFK0110022,"\h(«Aika»)Hé ! Que nous arrive t-il ?
+Je n'aime pas ce………\e"
+MGK0110000,"\h(«Gilder»)Ähmm…… Fina?
+Wo sind wir hier?\e"
+MGK0110001,\h(«Fina»)Wir sind in der Chamber of Elders.\e
+MGK0110003,"\h(«Höchster Elder»)Ich hoffe, du hast deine Mission erfüllt.\e"
+MGK0110004,"\h(«Fina»)Tut mir Leid……
+Ich habe die Kristalle eingesammelt, aber sie
+wurden von Ramirez gestohlen.\e"
+MGK0110005,\h(«Elder Prime»)……Was?!\e
+MGK0110006,\h(«Aika»)Fina? Wer…… Was ist das?\e
+MGK0110007,"\h(«Elder Prime»)Wie ich sehe, hast du ein paar Inselbewohner
+mitgebracht, wie amüsant.\e"
+MGK0110008,"\h(«Gilder»)He……
+Sieht so aus, als seien sie zu mehreren.\e"
+MGK0110009,"\h(«Elder Halos»)Verstehe……
+Also hat Ramirez schließlich doch
+übergewechselt.\e"
+MGK0110010,"\h(«Elder Cross»)Als er uns nicht mehr kontaktierte, haben wir
+das Schlimmste angenommen……\e"
+MGK0110011,"\h(«Elder Stout»)Solange er hier im Schrein war, war er so
+ergeben…… ich kann mir nicht vorstellen, was
+ihn dazu bewogen hat, sich zu ändern.\e"
+MGK0110012,"\h(«Elder Halos»)Wenn er den Inselbewohnern die Kristalle
+übergeben hat, so ist das wahrlich eine böse
+Nachricht……\e"
+MGK0110013,"\h(«Elder Orbis»)Wenn er übergewechselt ist und alle sechs
+Kristalle besitzt, löst er womöglich das
+Siegel bei Zelos. Das wäre…… tragisch.\e"
+MGK0110014,"\h(«Gilder»)Zelos? Was für eine böse Nachricht?
+Wovon redet ihr?\e"
+MGK0110015,"\h(«Fina»)Elder Prime, bitte, sagt mir die Wahrheit……\e"
+MGK0110016,"\h(«Fina»)Ramirez hat gesagt, dass er die Moon Crystals
+sammle, um den Lost Continent ausfindig zu
+machen und die Rains of Destruction
+auszulösen……\e"
+MGK0110017,"\h(«Fina»)Er hat mir erzählt, die Silviter hätten die
+Rains of Destruction auf die Alte Welt
+losgelassen.\e"
+MGK0110018,"\h(«Fina»)Ist das die Wahrheit?
+Ist das der wahre Zweck der Kristalle?\e"
+MGK0110019,"\h(«Elder Prime»)Sieh an…… junge Fina, du hast die Wahrheit
+über die Kristalle herausbekommen……\e"
+MGK0110020,"\h(«Elder Prime»)Ich nehme an, es ist Zeit, dir alles zu
+erzählen.\e"
+MGK0110021,"\h(«Elder Prime»)Ich werde dich zur Hall of Knowledge führen,
+wo du die Wahrheit herausfinden wirst.\e"
+MGK0110022,"\h(«Aika»)He! Was ist denn hier los?
+Das gefällt mir gar ni……\e"
+MSK0110000,"\h(«Gilder»)Umm…… ¿Fina?
+¿Dónde estamos?\e"
+MSK0110001,\h(«Fina»)Estamos en la Cámara de Ancianos.\e
+MSK0110003,\h(«Gran Anciano»)Confío en que habrás cumplido la misión.\e
+MSK0110004,"\h(«Fina»)De verdad que lo siento…… 
+Reuní los Cristales, pero Ramírez los robó.\e"
+MSK0110005,\h(«Gran Anciano»)…… ¡¿Cómo?!\e
+MSK0110006,\h(«Aika»)¿Fina? ¿Quién……? ¿Qué es eso?\e
+MSK0110007,"\h(«Gran Anciano»)Veo que te has traído algunos isleños contigo.
+¡Impresionante!\e"
+MSK0110008,"\h(«Gilder»)Eh……
+Parece que hables de muchos.\e"
+MSK0110009,"\h(«Anciano Halos»)Comprendo……
+Así que Ramírez os traicionó finalmente.\e"
+MSK0110010,"\h(«Anciano Cruz»)Cuando dejó de estar en contacto con nosotros,
+nos temimos lo peor……\e"
+MSK0110011,\h(«Anciano Vigoroso»)Aquí era tan leal…… No entiendo por qué cambió.\e
+MSK0110012,"\h(«Anciano Halos»)Si es cierto que entregó los Cristales a unos
+isleños, desde luego se trata de algo muy
+grave……\e"
+MSK0110013,"\h(«Anciano Orbis»)Si nos ha traicionado, y además tiene los seis
+Cristales, podría abrir el precinto de Zelos.
+Y eso sería…… terrible.\e"
+MSK0110014,"\h(«Gilder»)¿Zelos? ¿Qué es lo que sería terrible?
+¿De qué están hablando?\e"
+MSK0110015,"\h(«Fina»)Gran Anciano, por favor, quiero saber la
+verdad……\e"
+MSK0110016,"\h(«Fina»)Ramírez dijo que reunía los Cristales Lunares
+para elevar el Continente Perdido, para liberar
+las Lluvias Destructoras……\e"
+MSK0110017,"\h(«Fina»)Me contó que los Silvites convocaron las Lluvias
+Destructoras en los tiempos del Mundo Antiguo.\e"
+MSK0110018,"\h(«Fina»)¿Es verdad eso?
+¿Es eso para lo que sirven los Cristales?\e"
+MSK0110019,"\h(«Gran Anciano»)Así es que…… Joven Fina, has descubierto la
+verdad sobre los Cristales……\e"
+MSK0110020,"\h(«Gran Anciano»)Supongo que ha llegado el momento de contártelo
+todo.\e"
+MSK0110021,"\h(«Gran Anciano»)Te llevaré a la Entrada del Saber, allí
+descubrirás la verdad.\e"
+MSK0110022,"\h(«Aika»)¡Ehh! ¿Pero qué nos pasa?
+No me gusta este………\e"
+MK0130000,"\h(«Elder Prime»)So now, you understand the truth.\e"
+MK0130001,"\h(«Elder Prime»)Fina… when we sent you on your mission, it was
+not to stop Valua from using the Gigas… \e"
+MK0130002,"\h(«Elder Prime»)It was to once again call down the Rains of
+Destruction.\e"
+MK0130003,\h(«Aika»)You used her… That's horrible… \e
+MK0130004,"\h(«Elder Prime»)Fina, you saw with your own eyes.
+The anger… The hate… The suffering…
+The death…\e"
+MK0130005,"\h(«Elder Prime»)Their quest for power would only consume them… 
+We must cleanse the world.\e"
+MK0130006,"\h(«Elder Prime»)Vyse… we see in your heart that you have helped
+Fina on her quest.\e"
+MK0130007,"\h(«Elder Prime»)I will allow you stay here in the Great Silver
+Shrine and live in the new world we are about
+to create. Will you aid us?\e"
+MK0130008,"\h(«What will you say?»)“Who do you think you are?!”
+“Let me think about it…”\e"
+MK0130009,"\h(«Vyse»)Who do you think you are?!
+You think you can just ask us to forget everyone
+that we care about?!\e"
+MK0130010,\h(«Vyse»)You are no different from Galcian.\e
+MK0130011,"\h(«Vyse»)If the world isn't meeting your standards,
+then you feel that you can destroy it!?\e"
+MK0130012,\h(«Vyse»)I won't allow it!\e
+MK0130013,"\h(«Vyse»)It's all so sudden…
+I… I need some time to think about it…\e"
+MK0130014,"\h(«Aika»)What are you saying, Vyse?!
+Are you just going to let all of our friends
+and family die?!\e"
+MK0130015,"\h(«Elder Prime»)Fina…
+You are one of us… you understand… \e"
+MK0130016,\h(«Fina»)……\e
+MK0130017,"\h(«Fina»)… No. I do not understand! Elders… you are all
+wrong! How can you think like this?!\e"
+MK0130018,\h(«Elder Prime»)What?!\e
+MK0130019,\h(«Fina»)Vyse and the others have taught me something…\e
+MK0130020,"\h(«Fina»)I learned that no matter what happens,
+you have to be strong.\e"
+MK0130021,"\h(«Fina»)Even if your home is burned to the ground…
+Even if you're facing impossible odds… 
+And even when you don't know who to trust… \e"
+MK0130022,"\h(«Fina»)You have to be strong and fight for a better
+future!\e"
+MK0130023,"\h(«Fina»)I… I believe in what I have learned.
+As long as the people of the world have that
+strength in their hearts…\e"
+MK0130024,\h(«Fina»)…they will be able to overcome anything.\e
+MK0130025,"\h(«Fina»)There has to be a way to return peace to the
+world without having to call down the Rains of
+Destruction!\e"
+MK0130026,\h(«Elder Prime»)Fina…\e
+MK0130029,\h(«Vyse»)Galcian!\e
+MK0130030,\h(«Aika»)How did he get here?!\e
+MK0130031,"\h(«Galcian»)Heh heh… Did you forget, little girl,
+that Ramirez is also a Silvite?\e"
+MK0130032,"\h(«Galcian»)He, too, has a ship capable 
+of reaching this place.\e"
+MK0130033,\h(«Galcian»)I have come to claim the Silver Crystal.\e
+MK0130034,\h(«Vyse»)What?!\e
+MK0130035,\h(«Gilder»)Look out!\e
+MK0130036,\h(«Fina»)NO!!!!!\e
+MK0130037,"\h(«Ramirez»)Elders, I understand your wish to mold the world
+into how you see fit.\e"
+MK0130038,"\h(«Ramirez»)But…
+You will not be the ones with the power to make
+that decision.\e"
+MK0130039,"\h(«Galcian»)Ramirez is much too valuable to me. 
+I could not take the Crystal from his body.\e"
+MK0130040,"\h(«Galcian»)I thought of taking the Crystal from you, Fina,
+but…\e"
+MK0130041,"\h(«Galcian»)I realized that there was a much easier way of
+getting one!! Haha ha ha ha!!\e"
+MK0130042,"\h(«Galcian»)Now, the six Crystals are in my possession.
+Watch as the world bows before me.\e"
+MK0130043,\h(«Vyse»)Damn… Galcian!\e
+MK0130044,\h(«Fina»)Elder Prime…\e
+MK0130045,"\h(«Elder Stout»)Do not cry, Fina… 
+Elder Prime is now free… 
+He has returned to a state of nothingness.\e"
+MK0130046,"\h(«Elder Halos»)But, Ramirez has acquired all six of the
+Crystals…\e"
+MK0130047,"\h(«Elder Orbis»)The world will crumble before them…
+All is lost… \e"
+MK0130048,"\h(«Fina»)…No!
+I refuse to give up!\e"
+MK0130049,"\h(«Fina»)I can't sit here and watch the people of the
+world be slaughtered!!!\e"
+MK0130050,"\h(«Fina»)We will stop them! We can't let them unleash
+the Rains of Destruction.\e"
+MK0130051,\h(«Elder Helos»)Fina… It is hopeless… \e
+MK0130052,"\h(«Fina»)Vyse, we've got to go back to Deep Sky 
+to find Soltis!\e"
+MK0130053,\h(«Fina»)Galcian and Ramirez must be stopped.\e
+MK0130054,"\h(«Vyse»)Alright everyone, you heard Fina, 
+we've got to stop them.\e"
+MFK0130000,\h(«Ancien Prime»)Alors maintenant tu comprends la vérité.\e
+MFK0130001,"\h(«Ancien Prime»)Fina…… quand nous t'avons envoyée en mission, ce
+n'était pas pour empêcher Valua d'utiliser les
+Gigas……\e"
+MFK0130002,"\h(«Ancien Prime»)C'était pour invoquer de nouveau les Pluies de
+la Destruction.\e"
+MFK0130003,\h(«Aika»)Vous vous êtes servis d'elle…… C'est horrible……\e
+MFK0130004,"\h(«Ancien Prime»)Fina, tu l'as vu de tes propres yeux.
+La colère…… La haine…… Les souffrances……
+La mort……\e"
+MFK0130005,"\h(«Ancien Prime»)Leur quête du pouvoir ne peut que les
+consumer…… Il faut purifier le monde.\e"
+MFK0130006,"\h(«Ancien Prime»)Vyse…… nous lisons dans votre coeur que vous
+avez aidé Fina dans sa quête.\e"
+MFK0130007,"\h(«Ancien Prime»)Je vous permets de rester ici dans le Grand
+Temple d'Argent et de vivre dans le nouveau
+monde que nous allons créer.
+Nous aiderez-vous ?\e"
+MFK0130008,"\h(«Que direz-vous ?»)“Pour qui vous prenez-vous ?!”
+“Laissez-moi y réfléchir……”\e"
+MFK0130009,"\h(«Vyse»)Pour qui vous prenez-vous ?!
+Vous croyez que vous pouvez nous demander
+d'oublier ceux que l'on aime comme ça ?!\e"
+MFK0130010,\h(«Vyse»)Vous ne valez pas mieux que Galcian.\e
+MFK0130011,"\h(«Vyse»)Si le monde ne répond pas à vos attentes,
+alors vous pensez que vous pouvez le
+détruire !?\e"
+MFK0130012,\h(«Vyse»)Je ne vous le permettrai pas !\e
+MFK0130013,"\h(«Vyse»)Tout est arrivé si vite……
+J'ai…… j'ai besoin d'y réfléchir……\e"
+MFK0130014,"\h(«Aika»)Qu'est-ce que tu racontes, Vyse ?!
+Vas-tu laisser tes amis et ta famille mourir ?!\e"
+MFK0130015,"\h(«Ancien Prime»)Fina……
+Tu fais partie des nôtres…… tu nous comprends……\e"
+MFK0130016,\h(«Fina»)……\e
+MFK0130017,"\h(«Fina»)…… Non. Je ne vous comprends pas !
+Anciens…… vous avez tous tort !
+Comment pouvez-vous penser ces choses-là ?!\e"
+MFK0130018,\h(«Ancien Prime»)Comment ?!\e
+MFK0130019,\h(«Fina»)Vyse et les autres m'ont appris quelque chose……\e
+MFK0130020,"\h(«Fina»)J'ai appris que quoiqu'il arrive,
+il faut être fort.\e"
+MFK0130021,"\h(«Fina»)Même si votre maison est entièrement brûlée……
+Même si vous n'avez vraiment pas de chance……
+Et même quand vous ne savez pas à qui faire
+confiance……\e"
+MFK0130022,"\h(«Fina»)Il faut être fort et se battre pour un meilleur
+avenir !\e"
+MFK0130023,"\h(«Fina»)Je…… je crois aux principes que j'ai appris.
+Tant que les habitants de ce monde ont cette
+force dans leurs coeurs……\e"
+MFK0130024,\h(«Fina»)……ils pourront tout affronter.\e
+MFK0130025,"\h(«Fina»)Il doit exister un moyen de rétablir la paix
+dans le monde sans invoquer les Pluies de la
+Destruction !\e"
+MFK0130026,\h(«Ancien Prime»)Fina……\e
+MFK0130027,"\h( )Hé hé hé……
+Désolé, mais ce monde m'appartient maintenant.\e"
+MFK0130029,\h(«Vyse»)Galcian !\e
+MFK0130030,\h(«Aika»)Comment est-il arrivé ici ?!\e
+MFK0130031,"\h(«Galcian»)Hé hé…… As-tu oublié, Petite,
+que Ramirez est aussi Silvite ?\e"
+MFK0130032,\h(«Galcian»)Son navire aussi est capable de voler jusqu'ici.\e
+MFK0130033,\h(«Galcian»)Je suis venu chercher le Cristal de Lune.\e
+MFK0130034,\h(«Vyse»)Quoi ?!\e
+MFK0130035,\h(«Gilder»)Attention !\e
+MFK0130036,\h(«Fina»)NON !!!!!\e
+MFK0130037,"\h(«Ramirez»)Anciens, je comprends que vous vouliez façonner
+le monde à votre idée.\e"
+MFK0130038,"\h(«Ramirez»)Mais……
+Vous n'aurez pas le pouvoir pour prendre cette
+décision.\e"
+MFK0130039,"\h(«Galcian»)Ramirez m'est bien trop précieux. Je ne pouvais
+pas prendre le Cristal de son corps.\e"
+MFK0130040,"\h(«Galcian»)J'ai pensé te prendre le Cristal, Fina,
+mais……\e"
+MFK0130041,"\h(«Galcian»)Je me suis rendu compte qu'il y avait un moyen
+bien plus simple d'en prendre un !
+Haha ha ha ha !!\e"
+MFK0130042,"\h(«Galcian»)Maintenant les six Cristaux sont en ma
+possession. Assistez à l'assujettissement du
+monde.\e"
+MFK0130043,\h(«Vyse»)Fichtre…… Galcian !\e
+MFK0130044,\h(«Fina»)Ancien Prime……\e
+MFK0130045,"\h(«Ancien Stout»)Ne pleure pas, Fina……
+Ancien Prime est libre à présent……
+Il est retourné à un état de néant.\e"
+MFK0130046,"\h(«Ancien Halos»)Mais, Ramirez s'est emparé des six Cristaux……\e"
+MFK0130047,"\h(«Ancien Orbis»)Le monde s'effondrera devant leurs yeux……
+Tout est perdu……\e"
+MFK0130048,"\h(«Fina»)……Non !
+Je refuse d'abandonner !\e"
+MFK0130049,"\h(«Fina»)Je ne peux pas regarder tous les habitants du
+monde se faire massacrer sans rien faire !!!\e"
+MFK0130050,"\h(«Fina»)Nous les arrêterons ! Nous ne pouvons pas les
+laisser déclencher les Pluies de la
+Destruction.\e"
+MFK0130051,\h(«Ancien Helos»)Fina…… C'est perdu d'avance……\e
+MFK0130052,"\h(«Fina»)Vyse, il faut retourner dans les Profondeurs
+pour trouver Soltis !\e"
+MFK0130053,\h(«Fina»)Il faut arrêter Galcian et Ramirez.\e
+MFK0130054,"\h(«Vyse»)Allez tout le monde, vous avez entendu Fina,
+il faut les arrêter.\e"
+MGK0130000,\h(«Elder Prime»)Jetzt versteht ihr also die Wahrheit.\e
+MGK0130001,"\h(«Elder Prime»)Fina…… als wir dich auf deine Mission schickten,
+so nicht, um Valua davon abzuhalten, die
+Gigas zu benutzen……\e"
+MGK0130002,"\h(«Elder Prime»)……sondern vielmehr, um noch einmal die Rains
+of Destruction auszulösen.\e"
+MGK0130003,\h(«Aika»)Ihr habt sie benutzt…… das ist ja furchtbar……\e
+MGK0130004,"\h(«Elder Prime»)Fina, du hast es mit eigenen Augen gesehen.
+Die Wut…… den Hass…… das Leid…… den Tod……\e"
+MGK0130005,"\h(«Elder Prime»)Ihre Sucht nach Macht kann sie nur selbst
+zerstören…… Wir müssen die Welt rein machen.\e"
+MGK0130006,"\h(«Elder Prime»)Vyse…… wir können es dir ansehen, dass du Fina
+bei ihrer Suche geholfen hast.\e"
+MGK0130007,"\h(«Elder Prime»)Ich gestatte dir, hier im Great Silver Shrine
+zu bleiben und in der neuen Welt zu leben,
+die wir erschaffen wollen. Willst du uns
+dabei helfen?\e"
+MGK0130008,"\h(«Was wirst du sagen?»)“Wer meinen Sie denn, wer Sie sind?!”
+“Lassen Sie mich darüber nachdenken……”\e"
+MGK0130009,"\h(«Vyse»)Wer meinen Sie denn, wer Sie sind?!
+Meinen Sie, wir könnten einfach alle Leute
+vergessen, die uns am Herzen liegen?\e"
+MGK0130010,\h(«Vyse»)Sie sind ja kaum anders als Galcian.\e
+MGK0130011,"\h(«Vyse»)Wenn die Welt nicht Ihren Grundsätzen
+entspricht, meinen Sie, sie zerstören zu
+dürfen!?\e"
+MGK0130012,\h(«Vyse»)Das werde ich nicht zulassen!\e
+MGK0130013,"\h(«Vyse»)Es ging alles so schnell……
+Ich…… ich brauche einige Zeit, um darüber
+nachzudenken……\e"
+MGK0130014,"\h(«Aika»)Was sagst du da, Vyse?!
+Willst du einfach alle deine Freunde und deine
+Familie sterben lassen?!\e"
+MGK0130015,"\h(«Elder Prime»)Fina……
+Du bist eine von uns…… du verstehst……\e"
+MGK0130016,\h(«Fina»)…………\e
+MGK0130017,"\h(«Fina»)…… Nein. Ich verstehe nicht! Elders…… ihr seid
+alle im Unrecht! Wie könnt ihr nur so denken?!\e"
+MGK0130018,\h(«Ältester Elder»)Was?!\e
+MGK0130019,\h(«Fina»)Vyse und die anderen haben mich etwas gelehrt……\e
+MGK0130020,"\h(«Fina»)Ich habe gelernt, egal, was passiert,
+man muss stark sein.\e"
+MGK0130021,"\h(«Fina»)Selbst wenn dein Haus abbrennt……
+Selbst wenn du nicht die geringste Chance hast……
+Und selbst wenn du nicht weißt, wem du
+vertrauen kannst……\e"
+MGK0130022,"\h(«Fina»)Musst du stark sein und um eine bessere
+Zukunft kämpfen!\e"
+MGK0130023,"\h(«Fina»)Ich…… ich glaube an das, was ich gelernt habe.
+Solange die Menschen dieser Welt diese
+innere Kraft aufbringen……\e"
+MGK0130024,"\h(«Fina»)……wird es ihnen gelingen, alles zu überstehen.\e"
+MGK0130025,"\h(«Fina»)Es muss doch einen Weg geben, der Welt wieder
+Frieden zu bringen, ohne die Rains of
+Destruction auszulösen!\e"
+MGK0130026,\h(«Ältester Elder»)Fina……\e
+MGK0130027,"\h( )Hachacha……
+Tut mir Leid, aber diese Welt gehört jetzt
+mir.\e"
+MGK0130029,\h(«Vyse»)Galcian!\e
+MGK0130030,\h(«Aika»)Wie kommt der denn hierher?!\e
+MGK0130031,"\h(«Galcian»)Hihi…… hast du kleines Ding vergessen,
+dass Ramirez auch ein Silviter ist?\e"
+MGK0130032,"\h(«Galcian»)Auch er hat ein Schiff, das in der Lage ist,
+hierher zu reisen.\e"
+MGK0130033,"\h(«Galcian»)Ich bin gekommen, den Silver Crystal von euch
+zu fordern.\e"
+MGK0130034,\h(«Vyse»)Was?!\e
+MGK0130035,\h(«Gilder»)Pass auf!\e
+MGK0130036,\h(«Fina»)NEIN!!!!!\e
+MGK0130037,"\h(«Ramirez»)Elders, ich verstehe euren Wunsch, die Welt
+nach euren Vorstellungen zu prägen.\e"
+MGK0130038,"\h(«Ramirez»)Aber……
+Aber ihr werdet nicht die nötige Macht haben,
+um diese Entscheidung zu treffen.\e"
+MGK0130039,"\h(«Galcian»)Ramirez ist viel zu wertvoll für mich.
+Ich könnte den Kristall nicht aus seinem
+Körper entnehmen.\e"
+MGK0130040,"\h(«Galcian»)Ich wollte den Kristall von dir nehmen, Fina,
+aber……\e"
+MGK0130041,"\h(«Galcian»)Mir wurde bewusst, dass es einen viel
+einfacheren Weg gibt, einen zu bekommen!
+Haha ha ha ha!!\e"
+MGK0130042,"\h(«Galcian»)Jetzt befinden sich die sechs Kristalle in
+meinem Besitz. Du kannst zuschauen, wie sich
+die Welt vor mir verneigt.\e"
+MGK0130043,\h(«Vyse»)Verdammt…… Galcian!\e
+MGK0130044,\h(«Fina»)Elder Prime……\e
+MGK0130045,"\h(«Elder Stout»)Weine nicht, Fina……
+Der Elder ist jetzt erlöst……
+Er ist wieder zurück im Zustand des Nichts.\e"
+MGK0130046,"\h(«Elder Halos»)Aber Ramirez hat sich alle sechs Kristalle
+angeeignet……\e"
+MGK0130047,"\h(«Elder Orbis»)Sie werden die Welt vernichten……
+Es ist alles verloren……\e"
+MGK0130048,"\h(«Fina»)……Nein!
+Ich werde nicht aufgeben!\e"
+MGK0130049,"\h(«Fina»)Ich kann nicht einfach hier rumsitzen und
+zusehen, wie die Menschen der Welt
+abgeschlachtet werden!!!\e"
+MGK0130050,"\h(«Fina»)Wir werden sie aufhalten! Wir können nicht
+zulassen, dass sie die Rains of Destruction
+auslösen.\e"
+MGK0130051,\h(«Elder Helos»)Fina…… es ist hoffnungslos……\e
+MGK0130052,"\h(«Fina»)Vyse, wir müssen zurück nach Deep Sky,
+um Soltis zu finden!\e"
+MGK0130053,\h(«Fina»)Galcian und Ramirez müssen aufgehalten werden.\e
+MGK0130054,"\h(«Vyse»)Alles herhören! Ihr habt gehört, was Fina
+gesagt hat, wir müssen sie aufhalten.\e"
+MSK0130000,\h(«Gran Anciano»)Ahora conocéis la verdad.\e
+MSK0130001,"\h(«Gran Anciano»)Fina…… cuando te enviamos a tu misión, el
+objetivo no era que impidieras que Valua
+reanimara al Gigas……\e"
+MSK0130002,"\h(«Gran Anciano»)Sino convocar las Lluvias Destructoras una vez
+más.\e"
+MSK0130003,\h(«Aika»)La habéis utilizado…… Eso es horrible……\e
+MSK0130004,"\h(«Gran Anciano»)Fina, lo has visto con tus propios ojos.
+La furia…… El odio…… El sufrimiento……
+La muerte……\e"
+MSK0130005,"\h(«Gran Anciano»)Su afán de poder les está consumiendo……
+Debemos limpiar el mundo.\e"
+MSK0130006,"\h(«Gran Anciano»)Vyse…… vemos en tu corazón que has ayudado mucho
+a Fina en su búsqueda.\e"
+MSK0130007,"\h(«Gran Anciano»)Podrás quedarte aquí en el Gran Relicario de
+Plata y vivir en el nuevo mundo que vamos a
+crear. ¿Vas a ayudarnos?\e"
+MSK0130008,"\h(«¿Qué vas a decir?»)“¡¿Pero quién te has creído que eres?!”
+“Me lo pensaré……”\e"
+MSK0130009,"\h(«Vyse»)¡¿Pero tú qué te has creído?!
+¡¿Crees que vamos a olvidarnos de todos nuestros
+seres queridos por que tú lo pides?!\e"
+MSK0130010,\h(«Vyse»)No hay ninguna diferencia entre Galcian y tú.\e
+MSK0130011,"\h(«Vyse»)¡¿Te crees que puedes destruir el mundo,
+sólo porque no está hecho a tu gusto?!\e"
+MSK0130012,\h(«Vyse»)¡No lo permitiré!\e
+MSK0130013,"\h(«Vyse»)Todo ha sido tan repentino……
+Yo…… necesito algún tiempo para pensarlo……\e"
+MSK0130014,"\h(«Aika»)¡¿Pero qué dices, Vyse?!
+¡¿Es que vas a dejar que mueran todos nuestros
+amigos y nuestra familia?!\e"
+MSK0130015,"\h(«Gran Anciano»)Fina……
+Tú eres una de nosotros…… tú lo entiendes……\e"
+MSK0130016,\h(«Fina»)……\e
+MSK0130017,"\h(«Fina»)…… No. ¡No entiendo nada! Ancianos…… ¡os
+equivocáis todos! ¡¿Cómo podéis pensar eso?!\e"
+MSK0130018,\h(«Gran Anciano»)¡¿Cómo?!\e
+MSK0130019,\h(«Fina»)Vyse y los demás me han enseñado algo……\e
+MSK0130020,"\h(«Fina»)Que no importa lo que suceda,
+tengo que ser fuerte.\e"
+MSK0130021,"\h(«Fina»)Incluso si queman tu hogar por completo……
+Si te enfrentas a obstáculos insuperables……
+Hasta cuando no sabes en quién confiar……\e"
+MSK0130022,"\h(«Fina»)¡Hay que ser fuerte y luchar por construir un
+futuro mejor!\e"
+MSK0130023,"\h(«Fina»)Creo…… que he aprendido cosas muy útiles.
+Mientras la gente tenga esa fortaleza en su
+corazón……\e"
+MSK0130024,\h(«Fina»)…… podrá vencer cualquier obstáculo.\e
+MSK0130025,"\h(«Fina»)¡Debe haber alguna forma de devolver la paz al
+mundo sin tener que convocar las Lluvias
+Destructoras!\e"
+MSK0130026,\h(«Gran Anciano»)Fina……\e
+MSK0130028,"\h( )Voy a traer un nuevo orden mundial……
+¡y todos tendréis que respetarme!\e"
+MSK0130029,\h(«Vyse»)¡Galcian!\e
+MSK0130030,\h(«Aika»)¡¿Cómo has llegado hasta aquí?!\e
+MSK0130031,"\h(«Galcian»)Je, je, je…… ¿Es que te has olvidado, jovencita,
+de que Ramírez también es un Silvite?\e"
+MSK0130032,"\h(«Galcian»)Él también tiene una nave que
+puede llegar a este lugar.\e"
+MSK0130033,\h(«Galcian»)He venido a reclamar el Cristal de Plata.\e
+MSK0130034,\h(«Vyse»)¡¿Cómo?!\e
+MSK0130035,\h(«Gilder»)¡Cuidado!\e
+MSK0130036,\h(«Fina»)¡¡¡¡¡NO!!!!!\e
+MSK0130037,"\h(«Ramírez»)Ancianos, según tengo entendido queréis hacer
+con el mundo lo que os da la gana.\e"
+MSK0130038,"\h(«Ramírez»)Pero……
+Vosotros no vais a tener el poder de tomar esa
+decisión.\e"
+MSK0130039,"\h(«Galcian»)Ramírez es demasiado valioso para mí.
+No voy a tomar el Cristal de su cuerpo.\e"
+MSK0130040,"\h(«Galcian»)Pensé en tomar el Cristal de tu cuerpo, Fina,
+pero……\e"
+MSK0130041,"\h(«Galcian»)¡Me he dado cuenta de que hay una forma mucho
+mejor de conseguir uno! ¡¡Ja, ja, ja, ja!!\e"
+MSK0130042,"\h(«Galcian»)Ahora, los seis Cristales están en mi poder.
+Vais a ser testigos de cómo el mundo se
+arrodilla ante mí.\e"
+MSK0130043,\h(«Vyse»)¡Maldición…… Galcian!\e
+MSK0130044,\h(«Fina»)Gran Anciano……\e
+MSK0130045,"\h(«Gran Anciano»)No llores, Fina……
+El Gran Anciano por fin es libre……
+Ha regresado a un estado de inexistencia.\e"
+MSK0130046,"\h(«Anciano Halos»)Pero, si Ramírez tiene los seis Cristales en su
+poder……\e"
+MSK0130047,"\h(«Anciano Orbis»)El mundo se derrumbará ante ellos……
+Es el fin……\e"
+MSK0130048,"\h(«Fina»)…… ¡No!
+¡No me voy a rendir!\e"
+MSK0130049,"\h(«Fina»)¡¡¡No voy a quedarme de brazos cruzados viendo
+cómo toda la población mundial es masacrada!!!\e"
+MSK0130050,"\h(«Fina»)¡Vamos a detenerlos! No podemos permitirles
+desencadenar las Lluvias Destructoras.\e"
+MSK0130051,\h(«Anciano Helos»)Fina…… No hay solución……\e
+MSK0130052,"\h(«Fina»)Vyse, ¡tenemos que volver al Cielo Profundo y
+encontrar Soltis!\e"
+MSK0130053,\h(«Fina»)Hay que detener a Galcian y Ramírez.\e
+MSK0130054,"\h(«Vyse»)Ya habéis oído a Fina,
+tenemos que detenerles.\e"
+"",me250a.sct
+"",me028b.sct
+"",M0247
+"",a028ck11.mld
+"",a028ck11.mld
+"",e6k011
+"",a028ck11_efe.mld
+"",a028ck11_efe.mld
+"",a028ck11.mld
+"",a028ck11_efe.mld
+"",a028ck13.mld
+"",a028ck13.mld
+"",e6k013
+"",M0374
+"",M0247
+"",a028ck13_efe.mld
+"",a028ck13_efe.mld
+"",M0309
+"",M0309
+"",M0313
+"",M0313
+"",M0313
+"",M0313
+"",M0313
+"",M0318
+"",M0318
+"",M0318
+"",M0318
+"",M0376
+"",M0376
+"",M0318
+"",M0318
+"",a028ck13.mld
+"",a028ck13_efe.mld

@@ -1,0 +1,35 @@
+[Event Name],Task ID
+MAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5190000,"\h(《Enrique》)Vyse, just to let you know, the Delphinus is
+equipped with Valua's newest, most powerful
+weapon.\e"
+MA5190001,"\h(《Enrique》)It's called the Moon Stone Cannon. Until
+recently, it was only an experimental weapon
+under development by Lord De Loco.\e"
+MA5190002,"\h(《Enrique》)He used data collected from the Red and Green
+Gigas to develop it. He says that this cannon's
+power rivals the power of the Gigas themselves…\e"
+MA5190003,"\h(《Enrique》)But, the manufacturing cost of this cannon is
+so immense that this ship is the only ship in
+the entire Armada equipped with one.\e"
+MA5190004,"\h(《Aika》)Wow!! 
+That means this ship is as powerful as a Gigas
+then! I can't believe it!!!\e"
+MA5190005,"\h(《Gilder》)Well then… Vyse, let's give her a test run,
+shall we? Just use the “S.Cannon” command
+and we'll be good to go.\c"
+"",M0430
+"",me116f.sct
+"",me519a.sct
+"",me090a.sct
+"",f7100100S.p04
+"",k020019.mld
+"",b3800.mld
+"",k020019.mld
+"",b3800.mld
+"",f7100051S.p04
+"",k020019.mld
+"",b3800.mld
+"",f3000036
+"",me116f.sct

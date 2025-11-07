@@ -1,0 +1,88 @@
+[Event Name],Task ID
+MH0220000,\h(《Kangan》)How fares the battle?\e
+MH0220001,"\h(《Yafutoman Soldier》)My Lord… the Tenkou are swarming all around 
+the Valuans, but the Armada is holding their 
+position. We seem to be at a stalemate.\e"
+MH0220002,"\h(《Kangan》)Heh heh… I see. Very well. 
+It is time for us to join the battle 
+and end this… once and for all!\e"
+MH0290000,"\h(《Aika》)Wow!
+The water here is so calm… it looks like glass.\e"
+MH0290001,"\h(《Enrique》)It's hard to imagine that this was a volcanic
+area covered in lava at one time.\e"
+MH0290002,\h(《Aika》)What is that thing?!\e
+MH0290003,"\h(《Vyse》)What?!
+It looks like a huge bird!\e"
+MH0290004,\h(《Fina》)That must be Blueheim.\e
+MH0290005,\h(《Vyse》)Bluheim?\e
+MH0290006,"\h(《Fina》)Yes, Blueheim was the Blue Gigas.\e"
+MH0290007,"\h(《Fina》)It looks like Blueheim was trapped in the lava 
+and encased in stone.\e"
+MH0290008,"\h(《Enrique》)If that thing ever got free, we'd be in trouble.
+The Gigas that you faced so far couldn't fly.
+I can't imagine how tough this one would be.\e"
+MH0290009,"\h(《Vyse》)We should secure the Blue Crystal as soon as we
+can! Let's go!\e"
+M01210000,"\h(《ヴァイス》)なんだ、この石は？
+何かのスイッチみたいだが……\e"
+M01210001,"\h(《エンリック》)正面の縦穴に
+水が流れこんでいったな……\e"
+M01210002,"\h(《ヴァイス》)なるほど、こいつは
+この縦穴に水を流しこむための
+スイッチってわけだな。\c"
+M01210003,"\h(《ヴァイス》)もう、このスイッチは押したぞ。
+石は、まばゆい光を放っている。\c"
+M01210004,"\h(《ヴァイス》)どうやら、この石は
+この部屋に水を流しこむための
+スイッチだったようだな。\c"
+M01210005,"\h(《ヴァイス》)このスイッチを押したおかげで
+この遺跡のどこかに
+水を流しこめたようだな。\c"
+M01210006,"\h(《ヴァイス》)このスイッチを押したおかげで
+この遺跡のどこかに
+水を流しこめたようだな。\c"
+M01210007,"\h(《ヴァイス》)このスイッチを押したおかげで
+この遺跡のどこかに
+水を流しこめたようだな。\c"
+M01210008,"\h(《ヴァイス》)どうやらこの通路としかけは
+奥に侵入しようとするものを
+退けるためのものらしいな。\c"
+M01210009,"\h(《ヴァイス》)この扉の向こうは
+さっき流し込んだ水で
+いっぱいのはずだ。\c"
+M01210010,"\h(《ヴァイス》)青の月晶が置かれていた
+石の台だ。
+今はもう何もない。\c"
+M01210011,"\h(《船装備屋のあるじ》)いったんヤフトマーに
+帰りたいときは、いつでも
+言ってくれるといいぜよ。\e"
+M01210012,"\h(《どうする？》)「じゃ、いったん帰るぜ」
+「今はいいや」\e"
+M01210013,"\h(《ヴァイス》)じゃ、いったん帰るぜ。
+乗せてってくれよ。\e"
+M01210014,"\h(《船装備屋のあるじ》)承知したぜよ。
+じゃ、船に乗るぜよ。\c"
+M01210015,"\h(《ヴァイス》)いや、今はいいや。
+帰りたくなったら
+そのときは頼むよ。\e"
+M01210016,"\h(《船装備屋のあるじ》)承知したぜよ。
+帰りたくなったら、いつでも
+声をかけてくれればいいぜよ。\c"
+M01210017,"\h(《どうする？》)「デルフィナスに帰艦する」
+「フガクの探索をつづける」\c"
+"",me247a.sct
+"",me121b.sct
+"",me019a.sct
+"",k8210000
+"",m5210000
+"","EV_H22発生しました。
+それはすごい戦いが数時間\c"
+"",a121ah22.mld
+"",a121ah22.mld
+"",e6h022
+"",a121ah22.mld
+"",EV_H29発生しました。\c
+"",a121ah29.mld
+"",a121ah29.mld
+"",e6h029
+"",a121ah29.mld

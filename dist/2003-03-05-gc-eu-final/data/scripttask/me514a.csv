@@ -1,0 +1,272 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MA5140000,"\h(«De Loco»)I've been waiting for you, Vyse!
+Now, you will learn the true power of the
+ever-changing Chameleon!!!\c"
+MA5140001,"\h(«Drachma»)It looks like he's serious this time, boy.
+He's trying to get behind us.\e"
+MA5140002,"\h(«Aika»)Vyse! Just make sure to watch out for that big
+cannon that he fired at King Ixa'taka!
+One hit of that and we're dead!\c"
+MA5140003,"\h(«De Loco»)Prepare to fire the Moon Stone Cannon!
+Halt all systems and redirect all power!\e"
+MA5140004,"\h(«De Loco»)Hehehe… You can't knock me off balance
+if my ship isn't moving, Vyse! Heehee…
+Now, feel the power of my Moon Stone Cannon!!\c"
+MA5140005,"\h(«Aika»)The enemy vessel has stopped!
+What's going on?!\e"
+MA5140006,"\h(«Drachma»)It looks like he's got somethin' up his sleeve.
+But, now's our chance. We need to hit him
+as hard as we can while he's stopped.\e"
+MA5140007,"\h(«Drachma»)We'll take a bit of a beating, but
+we can take this chance and
+hit him as hard as we can…\e"
+MA5140008,"\h(«Drachma»)Or, we can play it safe and back away.
+We won't be able to do as much damage,
+but neither will he.\e"
+MA5140009,"\h(«What will you do?»)“Take a chance and open fire!”
+“Play it safe and back off.”\e"
+MA5140010,"\h(«Vyse»)We need to take a chance and hit him with
+with everything we've got! Let's take him
+out for good!\e"
+MA5140011,"\h(«Drachma»)Sometimes you have to take a risk to
+win. Well, boy… open fire!!\c"
+MA5140012,"\h(«Vyse»)We can't risk taking that much damage right now.
+We need to put some distance in between us!\e"
+MA5140013,"\h(«Drachma»)Perhaps that's the safest choice for now.
+Very well… take evasive action!\c"
+MA5140014,"\h(«Aika»)They're still just sitting there!
+They probably used up too much energy
+on that last attack!\c"
+MA5140015,"\h(«Aika»)They've stopped again!
+Vyse, what should we do this time?!\e"
+MA5140016,"\h(«What will you do?»)“Take a chance and open fire!”
+“Play it safe and back off.”\c"
+MA5140017,"\h(«Aika»)They've stopped again!
+Vyse, what should we do this time?!\e"
+MA5140018,"\h(«What will you do?»)“Take a chance and open fire!”
+“Play it safe and back off.”\c"
+MA5140019,"\h(«De Loco»)What's going on?!
+Why didn't the Moon Stone
+Cannon fire?!\e"
+MA5140020,"\h(«Vice Captain»)Lord De Loco! The last blast
+nearly drained all the energy from
+the ship! We must recharge the cannon!\e"
+MA5140021,"\h(«Vice Captain»)Perhaps firing this prototype Moon Stone
+Cannon was too much for it to handle. I
+think that maybe we should…\e"
+MA5140022,"\h(«De Loco»)Silence! Silence!!!!
+I don't want to hear any excuses! Fire! Fire!!
+Fire the Moon Stone Cannon!!\c"
+MFA5140000,"\h(«De Loco»)Je vous attendais, Vyse !
+Vous allez vous rendre compte de la puissance de
+ce Caméléon !!!\c"
+MFA5140001,"\h(«Drachma»)On dirait qu'il parle sérieusement cette fois.
+Il essaie de passer derrière nous.\e"
+MFA5140002,"\h(«Aika»)Vyse ! Surtout fais attention à ce gros canon
+qu'il a tiré sur le Roi Ixa'taka !
+S'il nous atteint, ne serait-ce qu'une seule
+fois, nous sommes morts !\c"
+MFA5140003,"\h(«De Loco»)Préparez-vous à tirer le Canon Pierre de Lune !
+Stoppez tous les systèmes et réorientez toute la
+puissance !\e"
+MFA5140004,"\h(«De Loco»)Hihihi…… Vous ne pouvez pas me déstabiliser si
+mon navire est immobile, Vyse ! Hihi……
+Goûtez à la puissance de mon Canon Pierre de
+Lune !!\c"
+MFA5140005,"\h(«Aika»)Le vaisseau ennemi s'est arrêté !
+Que se passe t-il ?!\e"
+MFA5140006,"\h(«Drachma»)On dirait qu'il a plus d'un tour dans son sac.
+Mais c'est notre chance. Nous devons lui tirer
+dessus avec toute notre puissance.\e"
+MFA5140007,"\h(«Drachma»)Nous allons prendre des coups, mais
+nous pouvons prendre le risque et
+lui tirer dessus avec toute notre puissance……\e"
+MFA5140008,"\h(«Drachma»)Ou bien nous ne prenons pas de risques et nous
+nous retirons. Nous ne pourrons pas causer
+beaucoup de dégâts, mais lui non plus.\e"
+MFA5140009,"\h(«Que ferez-vous ?»)“Prendre le risque et ouvrir le feu !”
+“Ne pas prendre de risque et se retirer.”\e"
+MFA5140010,"\h(«Vyse»)Nous devons prendre le risque et lui tirer
+dessus avec toute notre puissance !
+Éliminons-le une fois pour toute !\e"
+MFA5140011,"\h(«Drachma»)Il faut savoir prendre des risques pour
+remporter des victoires.
+Eh bien…… ouvrez le feu !!\c"
+MFA5140012,"\h(«Vyse»)Nous ne pouvons pas nous permettre de subir
+autant de dégâts pour le moment.
+Il faut s'éloigner d'eux !\e"
+MFA5140013,"\h(«Drachma»)C'est peut-être le choix le plus sûr pour le
+moment. Très bien…… action évasive !\c"
+MFA5140014,"\h(«Aika»)Ils ne bougent toujours pas !
+Ils ont dû utiliser trop d'énergie
+pendant la dernière attaque !\c"
+MFA5140015,"\h(«Aika»)Ils se sont encore arrêtés !
+Vyse, que doit-on faire cette fois ?!\e"
+MFA5140016,"\h(«Que ferez-vous ?»)“Prendre le risque et ouvrir le feu !”
+“Ne pas prendre de risque et se retirer.”\c"
+MFA5140017,"\h(«Aika»)Ils se sont encore arrêtés !
+Vyse, que doit-on faire cette fois ?!\e"
+MFA5140018,"\h(«Que ferez-vous ?»)“Prendre le risque et ouvrir le feu !”
+“Ne pas prendre de risque et se retirer.”\c"
+MFA5140019,"\h(«De Loco»)Que se passe t-il ?!
+Pourquoi est-ce que le Canon Pierre de Lune
+n'a pas tiré ?!\e"
+MFA5140020,"\h(«Vice Capitaine»)Seigneur De Loco ! Le dernier coup
+a quasiment épuisé toute l'énergie
+du canon ! Il faut recharger le canon !\e"
+MFA5140021,"\h(«Vice Capitaine»)Peut-être qu'il n'a pas supporté de tirer ce
+prototype Canon Pierre de Lune.
+Je pense que nous devrions peut-être……\e"
+MFA5140022,"\h(«De Loco»)Silence ! Silence !!!!
+Je ne veux pas entendre d'excuses ! Feu ! Feu !!
+Tirez le Canon Pierre de Lune !!\c"
+MGA5140000,"\h(«De Loco»)Ich hab auf dich gewartet, Vyse!
+Jetzt lernst du die wahre Macht der sich
+stets ändernden Chameleon kennen!!!\c"
+MGA5140001,"\h(«Drachma»)Sieht so aus, als meinte er es diesmal ernst,
+Junge. Er versucht, uns in den Rücken zu
+fallen.\e"
+MGA5140002,"\h(«Aika»)Vyse! Pass bloß auf diese riesige Kanone auf,
+die er auf König Ixa'taka abgefeuert hat!
+Ein Treffer davon, und wir sind tot!\c"
+MGA5140003,"\h(«De Loco»)Macht euch bereit, die Moon Stone Cannon
+zu feuern! Haltet alle Systeme an und leitet
+allen Antrieb um!\e"
+MGA5140004,"\h(«De Loco»)Hihihi………… du kannst mich nicht aus dem
+Gleichgewicht bringen, wenn mein Schiff sich
+nicht bewegt, Vyse! Hihihi………… jetzt wirst du
+die Macht meiner Moon Stone Cannon spüren!!\c"
+MGA5140005,"\h(«Aika»)Das Feindschiff hat angehalten!
+Was ist los?!\e"
+MGA5140006,"\h(«Drachma»)Es sieht so aus, als führte er etwas im
+Schilde. Aber jetzt ist unsere Chance. Wir
+müssen ihn so oft wie möglich treffen,
+solange er still steht.\e"
+MGA5140007,"\h(«Drachma»)Wir werden wahrscheinlich etwas abbekommen,
+aber wir riskieren es und zeigen es ihm……\e"
+MGA5140008,"\h(«Drachma»)Oder wir gehen auf Nummer Sicher und ziehen
+uns zurück. Dann werden wir nicht so viel
+Schaden anrichten können, er aber auch nicht.\e"
+MGA5140009,"\h(«Was wirst du tun?»)“Das Risiko eingehen und das Feuer eröffnen!”
+“Auf Nummer Sicher gehen und dich zurückziehen.”\e"
+MGA5140010,"\h(«Vyse»)Wir müssen das Risiko eingehen und uns richtig
+ins Zeug legen! Holen wir ihn uns ein für
+alle Mal!\e"
+MGA5140011,"\h(«Drachma»)Manchmal muss man ein Risiko eingehen, um
+zu gewinnen. Also, Junge…… Feuer!!\c"
+MGA5140012,"\h(«Vyse»)Im Moment können wir nicht so
+viel Schaden riskieren. Wir müssen auf
+etwas Entfernung gehen!\e"
+MGA5140013,"\h(«Drachma»)Das ist vielleicht im Moment die beste Lösung.
+Nun gut…… Ausweichmanöver!\c"
+MGA5140014,"\h(«Aika»)Sie sind noch immer an der gleichen Stelle!
+Sie haben wahrscheinlich beim letzten Angriff
+zu viel Energie verbraucht!\c"
+MGA5140015,"\h(«Aika»)Sie haben schon wieder angehalten!
+Vyse, was sollen wir diesmal machen?!\e"
+MGA5140016,"\h(«Was wirst du tun?»)“Das Risiko eingehen und das Feuer eröffnen!”
+“Auf Nummer Sicher gehen und dich zurückziehen.”\c"
+MGA5140017,"\h(«Aika»)Sie haben schon wieder angehalten!
+Vyse, was sollen wir diesmal machen?!\e"
+MGA5140018,"\h(«Was wirst du tun?»)“Das Risiko eingehen und das Feuer eröffnen!”
+“Auf Nummer Sicher gehen und dich zurückziehen.”\c"
+MGA5140019,"\h(«De Loco»)Was ist los?!
+Warum ist die Moon Stone Cannon nicht
+losgegangen?!\e"
+MGA5140020,"\h(«Vizekapitän»)Lord De Loco! Die letzte Explosion hat fast
+die gesamte Energie des Schiffs verbraucht!
+Wir müssen die Kanone erst wieder aufladen!\e"
+MGA5140021,"\h(«Vizekapitän»)Vielleicht war das Abfeuern dieser Moon Stone
+Cannon zu viel für das Schiff. Ich glaube,
+wir sollten lieber……\e"
+MGA5140022,"\h(«De Loco»)Ruhe! Ruhe!!!!
+Ich möchte keine Entschuldigungen hören!
+Feuer! Feuer!!
+Feuert die Moon Stone Cannon ab!!\c"
+MSA5140000,"\h(«De Loco»)¡Te he estado esperando, Vyse!
+¡¡¡Ahora descubrirás el verdadero poder
+del Camaleón!!!\c"
+MSA5140001,"\h(«Drachma»)Parece que esta vez va en serio, muchacho.
+Está intentando ponerse detrás.\e"
+MSA5140002,"\h(«Aika»)¡Vyse! ¡Debemos tener cuidado con ese cañón
+enorme con el que disparó al Rey de Ixa'taka!
+¡Si nos da, estamos muertos!\c"
+MSA5140003,"\h(«De Loco»)¡Preparados para disparar el Cañón Piedraluna!
+¡Apagad todos los sistemas y redirigid
+toda la potencia!\e"
+MSA5140004,"\h(«De Loco»)Je, je…… ¡No puedes hacerme perder equilibrio
+mientras el barco no se mueve, Vyse! Je, je……
+¡¡Te vas a enterar de lo que es bueno!!\c"
+MSA5140005,"\h(«Aika»)¡El navío enemigo se ha parado!
+¡¿Qué es esto?!\e"
+MSA5140006,"\h(«Drachma»)Se ha guardado un as en la manga.
+Ésta es nuestra oportunidad. Tenemos que
+dispararle mientras su navío esté parado.\e"
+MSA5140007,"\h(«Drachma»)Corremos un gran riesgo, pero tenemos que
+aprovechar la oportunidad
+y acertarle de lleno……\e"
+MSA5140008,"\h(«Drachma»)También podemos ir sobre seguro y alejarnos.
+No podremos hacerle tanto daño,
+pero él a nosotros tampoco.\e"
+MSA5140009,"\h(«¿Qué vas a hacer?»)“¡Aprovechar la ocasión y disparar!”
+“No correr riesgos y alejarnos.”\e"
+MSA5140010,"\h(«Vyse»)¡Tenemos que correr el riesgo y dispararle con
+todo lo que tenemos! ¡Vamos a acabar con él para
+siempre!\e"
+MSA5140011,"\h(«Drachma»)A veces, para ganar hay que arriesgarse primero.
+Muy bien, muchacho…… ¡¡Abre fuego!!\c"
+MSA5140012,"\h(«Vyse»)No podemos arriesgarnos
+y recibir tanto daño ahora.
+¡Tenemos que alejarnos!\e"
+MSA5140013,"\h(«Drachma»)Es posible que sea la mejor solución
+en este momento.
+Muy bien…… ¡En retirada!\c"
+MSA5140014,"\h(«Aika»)¡Siguen ahí quietos como si tal cosa!
+¡Han debido de gastar demasiada energía
+en el último ataque!\c"
+MSA5140015,"\h(«Aika»)¡Se han parado otra vez!
+Vyse, ¡¿y qué hacemos ahora?!\e"
+MSA5140016,"\h(«¿Qué vas a hacer?»)“¡Arriesgar y abrir fuego!”
+“Retroceder y no correr riesgos.”\c"
+MSA5140017,"\h(«Aika»)¡Se han parado otra vez!
+Vyse, ¡¿y qué hacemos ahora?!\e"
+MSA5140018,"\h(«¿Qué vas a hacer?»)“¡Arriesgar y abrir fuego!”
+“Retroceder y no correr riesgos.”\c"
+MSA5140019,"\h(«De Loco»)¡¿Qué rayos pasa aquí?!
+¡¿Por qué el Cañón Piedraluna
+no ha disparado?!\e"
+MSA5140020,"\h(«Vicecapitán»)¡Lord De Loco! ¡La última explosión ha agotado
+toda la energía del navío! ¡Tenemos que recargar
+el cañón!\e"
+MSA5140021,"\h(«Vicecapitán»)Puede que disparar con un prototipo
+de Cañón Piedraluna como este era mucho pedir.
+A lo mejor deberíamos haber……\e"
+MSA5140022,"\h(«De Loco»)¡Silencio! ¡¡¡¡Silencio!!!!
+¡No quiero oír ninguna excusa! ¡Fuego!
+¡¡Fuego!! ¡¡Dispara el Cañón Piedraluna!!\c"
+"",M0465
+"",me514a.sct
+"",me090a.sct
+"",k0000.mld
+"",k0000.mld
+"",f7100050S.p04
+"",k0000.mld
+"",b1300.mld
+"",b1300.mld
+"",f7100057s.p04
+"",b1300.mld
+"","「1」\c「2」\c「3a」\c「3b」\c「4a」
+「4b」\c「5a」\c「5b」\c「6a」\c「6b」
+「7a」\c「7b」\c「2_1」\c"
+"",f7100100S.p04
+"",f7100100S.p04
+"",F7100100S.p04
+"",me215a.sct

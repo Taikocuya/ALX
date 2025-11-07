@@ -1,0 +1,26 @@
+[Event Name],Task ID
+MH0240000,"\h(《Vyse》)Muraji!
+We'll be taking back our ship now…\e"
+MH0240001,"\h(《Muraji》)!!!
+Do… do you think I'm afraid of you? 
+You aren't so tough!\e"
+MH0240002,\h(《Muraji》)Why are you fools just standing there? Get them!\e
+MH0240003,"\h(《Enrique》)You betray those that trust you and needlessly 
+endanger the lives of innocent people… 
+all for your own personal gain! \e"
+MH0240004,"\h(《Enrique》)For the honor of Princess Moegi… and for the 
+people of Yafutoma… I will strike you down! 
+Face my blade, coward!\e"
+"",me247a.sct
+"",me035b.sct
+"","「そろそろ発進させる」
+「まだ船内を見る」\c"
+"",\h(ヴァイス)デルフィナス発進！！。\c
+"",me099a.sct
+"",M0252
+"",m5340000
+"",EVh24発生しました。\c
+"",e6h024
+"",a035ah24.mld
+"",a035ah24.mld
+"",a035ah24.mld

@@ -1,0 +1,77 @@
+[Event Name],Task ID
+Ms034a008,"\h(《Vyse》)It's the emblem of the Valuan royal family.
+Heh… I think it's time to cover it up with the
+flag of the Blue Rogues!\c"
+Ms034a009,"\h(《Vyse》)It's the flag that I designed…
+I always wondered if I'd ever get to be the
+captain of my own ship since I was a kid…\c"
+Ms034a010,"\h(《Vyse》)This is our new flag. Heh… Leave it to Aika to
+design a flag like this.\c"
+Ms034a011,"\h(《Vyse》)This is our new flag. Fina's just makes me think
+of flying freely through the skies… It's a
+refreshing feeling.\c"
+Ms034a012,"\h(《Vyse》)This is where Marco snuck aboard the Delphinus.
+Heh… Maybe that kid is cut out to be an Air
+Pirate after all…\c"
+Ms034a013,"\h(《Vyse》)This is the captain's chair. I guess that means
+it's mine… I'd rather be at the helm, though. I
+wouldn't feel right just sitting here.\c"
+Ms034a014,"\h(《Vyse》)There sure didn't spare any expenses building
+this thing. All of the gauges are brand new.
+Well, it WAS meant for the prince, I suppose…\c"
+Ms034a015,"\h(《Giler》)Hey, Vyse… Before we set sail, there was
+something that I wanted to talk to you about.\c"
+Ms034a016,"\h(《Vyse》)Well… I suppose it's about time
+we set sail again…\e"
+Ms034a017,"\h(《What will you do?》)“Take the wheel.”
+“Look around the ship some more.”\e"
+Ms034a018,"\h(《Vyse》)Alright!
+Delphinus, full speed ahead!\c"
+Ms034a019,"\h(《Vyse》)Actually, now that I think about it, there
+were a few more things I wanted to take care
+of first…\c"
+Ms034a020,"\h(《What will you do?》)“Take the wheel.”
+“Look around the ship some more.”\c"
+Ms034a021,"\h(《Vyse》)It's too dangerous to try and maneuver while
+the enemy's ship is latched onto ours…
+I need to get out on deck first!\c"
+M01110000,"\h(《Lawrence》)Damn… the ship has taken a lot of damage. 
+Captain, I think I can fix it. Do you want to 
+take the wheel for now?\e"
+M01110001,"\h(《What will you do?》)“Take the wheel.”
+“Look around the ship some more.”\e"
+M01110002,"\h(《Lawrence》)Very well. I leave the ship in your hands.
+Be careful.\c"
+M01110003,"\h(《Lawrence》)Very well. But do not waste time. I need to fix 
+the ship as soon as possible.\c"
+M01110004,"\h(《Lawrence》)I'll take care of business in here. You need to 
+get yourself on deck.\c"
+M01140000,"\h(《Pinta》)No matter how much I fix, there's always more! 
+This isn't good…\c"
+M05100000,"\h(《Hans》)The ship has taken a lot of damage, Captain!
+She'll hold up for a little while, but we should
+fix the damage as soon as possible!\c"
+M07060000,"\h(《Don》)Heh… She's taken quite a beating. Captain,
+hurry up and fix the ship, will ya?\c"
+M07060001,"\h(《What will you do?》)“Take the wheel.”
+“Look around the ship some more.”\c"
+M07060002,"\h(《Don》)Good! Be careful, though… The Delphinus has 
+taken quite a bit of damage…\c"
+M07060003,"\h(《Don》)Alright. The ship'll hold up for a little while
+longer. But you really need to repair the damage
+soon.\c"
+M08070000,\h(《Moegi》)\eCough cough\e I can't get the fire out!We're… we're going to crash if this keeps up!\c
+M14000000,"\h(《Brabham》)Shiver me timbers, Captain! We've taken too much
+damage! We should stop with the fightin'…
+and start with the fixin'.\c"
+Mp0010000,"\h(《Aika》)Hey, Vyse! Quit wasting time and fix the ship 
+already!\c"
+Mp0020000,"\h(《Fina》)Vyse!
+The ship has taken too much damage!
+Please, we must repair the ship soon!\c"
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",me034h.sct
+"",M0233
+"",m5340000

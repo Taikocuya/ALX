@@ -1,0 +1,210 @@
+[Event Name],Task ID
+M01270000,"\h(《ヴァイス》)ここが、雲の底の世界か……
+不気味な雰囲気だな……\e"
+M01270001,"\h(《エンリック》)地表は、ドロでおおわれてるな。
+ファイナくんの船も
+埋もれてしまっているだろう。\e"
+M01270002,"\h(《アイカ》)そ、それじゃどうやって
+こんなだだっ広い中から
+ファイナの船を捜せばいいの？\e"
+M01270003,"\h(《エンリック》)大丈夫だ。ブラバムさんが
+「月Ж石ソナー」というものを
+作ってくれたそうだ。\e"
+M01270004,"\h(《エンリック》)これは、月Жエネルギーをもつ
+物質を探知するための装置で
+Ｂボタンで使うことができる。\e"
+M01270005,"\h(《エンリック》)Ｂボタンでソナーをうち
+月Жエネルギー反応があると
+海図に「？」が表示される。\e"
+M01270006,"\h(《エンリック》)逆に、月Жエネルギー反応が
+なければ、海図には
+何も表示されない。\e"
+M01270007,"\h(《エンリック》)まず、少しずつ場所を変えながら
+ソナーをうち、反応がある場所を
+しぼりこめ、とのことだ。\e"
+M01270008,"\h(《エンリック》)次に、場所をしぼりこんだら
+Ａボタンを押して
+クレーンを降下させるとよい。\e"
+M01270009,"\h(《エンリック》)もし、ドロの下に何かがあれば
+クレーンがそれを
+引き上げてくれるはずだ。\e"
+M01270010,"\h(《ヴァイス》)なるほど……
+ソナーで場所を探し
+クレーンで引き上げるわけだな。\e"
+M01270011,"\h(《エンリック》)ソナーは月Жエネルギーを
+大量に消費するため
+１０回までしかうてないそうだ。\e"
+M01270012,"\h(《エンリック》)ただ、雲上に浮上すれば
+エネルギーをチャージして
+また１０発うてるようになるぞ。\e"
+M01270013,"\h(《アイカ》)ソナーが切れたら
+浮上すればいいのね。
+オーケィ、それじゃ捜索開始！\c"
+M01270014,\h(　)……グルルルル！\e
+M01270015,"\h(《アイカ》)や、やばっ！
+クレーンが、ヘンな生き物を
+つかんじゃったよ！\e"
+M01270016,"\h(《ヴァイス》)しまった、ハズレだったか！
+いかん、襲ってくるぞ。
+みんな、戦闘配置だ！\c"
+M01270017,\h(　)……グルルルル！\e
+M01270018,"\h(《アイカ》)げげっ！
+またハズレだよ！\e"
+M01270019,"\h(《ヴァイス》)くそっ、また襲ってくるぞ！
+みんな、戦闘配置だ！\c"
+M01270020,\h(　)……グルルルル！\e
+M01270021,"\h(《アイカ》)もー、やだー！
+またまた出てきたよ！\e"
+M01270022,"\h(《ヴァイス》)うーん、ここじゃなかったか……
+しかたない、みんな戦闘配置だ。\c"
+M01270023,\h(　)……グルルルル！\e
+M01270024,"\h(《アイカ》)ちょっと、ヴァイス〜！
+ちゃんとソナー使って探してる？
+もうコイツと戦うの飽きたよ〜！\e"
+M01270025,"\h(《ヴァイス》)わ、悪い悪い。
+みんな、たびたびですまないが
+戦闘配置についてくれ。\c"
+M01270026,\h(　)……グルルルル！\e
+M01270027,\h(《アイカ》)…………\e
+M01270028,"\h(《ヴァイス》)あ、あの……
+みなさん、すみませんが
+戦闘配置、お願いします……\c"
+M01270029,"\h(　)「ウンデイ鉄」を１個
+　手に入れた。\c"
+M01270030,"\h(　)「ウンデイ鉄」を１個
+　手に入れた。\c"
+MJ0140000,\h(《Aika》)The crane grabbed onto something!\e
+MJ0140001,\h(《Vyse》)Pull it up!\e
+MJ0140002,"\h(《Aika》)We did it!!!
+It's Fina's ship!\e"
+MJ0140003,"\h(《Vyse》)Great job!
+Aika, hurry and get it on board!\e"
+MJ0140004,\h(《Aika》)Aye aye!\e
+MJ0140005,"\h(《Vyse》)Fina, you'll finally be able to get home with
+this!\e"
+MJ0140006,"\h(《Fina》)Yes.
+Thank you very much.\e"
+MJ0140007,\h(《Fina》)……\e
+MJ0140008,\h(《Fina》)This means that I'll have to leave you…\e
+MJ0140009,"\h(《Vyse》)Oh, Fina… I…\e"
+MJ0140010,"\h(《Vyse》)Aaahh!
+What was that?!\e"
+MJ0140011,\h(《Aika》)There was an explosion off the port bow!\e
+MJ0140012,"\h(《Aika》)Vyse!
+Something's coming!\e"
+MJ0140013,"\h(《De Loco》)Hehehehe…
+I found you, Vyse!\e"
+MJ0140014,"\h(《De Loco》)I still haven't forgotten what you did to 
+my ship, the Chameleon, at Ixa'taka!\e"
+MJ0140015,"\h(《De Loco》)This underworld will be your grave!
+I shall have my revenge!
+REVENGE!!!\e"
+MJ0140016,"\h(《Vyse》)That was the ship that De Loco was building at
+Dangral.\e"
+MJ0140017,"\h(《Vyse》)Aika, did you secure Fina's ship?\e"
+MJ0140018,\h(《Aika》)Yes. It's onboard already.\e
+MJ0140019,"\h(《Vyse》)Alright! All hands to battlestations!
+Here is our chance to finally rid the world of
+that psycho!\e"
+MJ0140020,"\h(《Vyse》)Visibility is poor, so it'll be hard to hit him
+when he's far away! Try and attack from close
+range!\e"
+MJ0180000,"\h(《De Loco》)No! No! NO! How… how could the Chameleon be 
+defeated three times?! Not one time, not two 
+times, but THREE TIMES!!!\e"
+MJ0180001,"\h(《De Loco》)This can't be! This can't be!
+This is all just a dream! Just an illusion!
+I… I refuse to believe it!\e"
+MJ0180002,"\h(《Vice Captain》)Admiral!
+Get a hold of yourself!\e"
+MJ0180003,\h(《De Loco》)……\e
+MJ0180004,"\h(《De Loco》)Hehe…
+Hehehehe…\e"
+MJ0180005,"\h(《Vice Captain》)Admiral?
+Are you alright?\e"
+MJ0180006,"\h(《De Loco》)MWAHAHAHA!!!
+This time, dear little Vyse, I've prepared 
+something special just for you!\e"
+MJ0180007,"\h(《De Loco》)It's not over yet, Vyse!
+I still have one last trick up my sleeve!!!\e"
+MJ0180008,\h(《De Loco》)Fire the De Loco Harpoon Cannon!!!\e
+MJ0180009,\h(《Vyse》)What was that?!!!\e
+MJ0180010,"\h(《De Loco》)Mwahahahaha!!!
+I shall defeat you with a Harpoon Cannon, 
+just like you defeated me!!!\e"
+MJ0180011,"\h(《De Loco》)I'll get you this time, Vyse!
+I'll get you this time, Vyse!
+I'll get you this time, Vyse!\e"
+MJ0190000,"\h(《De Loco》)Aahhhh!!
+Hot! Hot! Hot!\e"
+MJ0190001,"\h(《De Loco》)Somebody help me!!!
+Somebody tell me this is just a bad dream!!\e"
+MJ0190002,\h(《Aika》)It looks like that's the end of bubble head…\e
+MJ0190003,"\h(《Vyse》)Yeah… but that was a tough fight. 
+If we took on too much damage, 
+we would have been stuck down here.\e"
+MJ0190004,"\h(《Vyse》)Well, we retrieved Fina's ship… 
+Let's go back up! This place 
+gives me the creeps!\e"
+"",me127a.sct
+"",me537a.sct
+"",M0255
+"",k8460000
+"",m5270000
+"",イベントＪ１４が発生しました。\c
+"",a127bj14a.mld
+"",a127bj14a.mld
+"",a127bj14b.mld
+"",a127bj14b.mld
+"",a127bj14_efe.mld
+"",a127bj14_efe.mld
+"",a034ab.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ac.mld
+"",a034ad.mld
+"",a034ad.mld
+"",e6j014
+"",a127bj14b.mld
+"",M0325
+"",a127bj14c.mld
+"",a127bj14c.mld
+"",M0325
+"",a127bj14c.mld
+"",me540a.sct
+"",a127bj14a.mld
+"",a127bj14_efe.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"","イベントＪ１８が発生しました。
+チェーンデスマッチだ！\c"
+"",me541a.sct
+"",a127bj18.mld
+"",a127bj18.mld
+"",a127bj18_efe.mld
+"",a127bj18_efe.mld
+"",a034ab.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ac.mld
+"",a034ad.mld
+"",a034ad.mld
+"",M0379
+"",e6j018
+"",M0326
+"",M0326
+"",me541a.sct
+"",a127bj18.mld
+"",a127bj18_efe.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",EV_j19発生しました。\c
+"",e6j019
+"",a127bj19.mld
+"",a127bj19.mld
+"",a127bj19_efe.mld
+"",a127bj19_efe.mld
+"",a127bj19.mld
+"",a127bj19_efe.mld

@@ -1,0 +1,148 @@
+[Event Name],Task ID
+M01060000,"\h(《マルコ》)よ、よお。
+その……さっきは、けっこう
+すごかったじゃねえか。\e"
+M01060001,"\h(《ヴァイス》)マルコ！
+どうしたんだ、こんなところで。\e"
+M01060002,"\h(《マルコ》)前にも言ったろ、おいらは
+このカタコンベに住んでるんだ。
+ここのことは何でも知ってるぜ。\e"
+M01060003,"\h(《マルコ》)この壁は、隠し扉になってんだ。
+にいちゃんの仲間たちは
+この奥の隠し部屋にいるぜ。\c"
+M01060004,"\h(《マルコ》)にいちゃんの仲間たちなら
+この奥の隠し部屋にいるぜ。
+はやく行ってやれよ。\c"
+M01060005,"\h(《ロビン副長》)コロシアムからは逃げられたが
+どうやって、このバルアから
+脱出したものか……\c"
+M01060006,"\h(《首蹴りのタイロン》)いやあ、久々に体を動かせたぜ！
+なにしろ、捕まってる間は
+ずっと縛られてたからよ。\c"
+M01060007,"\h(《刀傷のビリー》)護送される時に、はじめて
+「列車」ってもんに乗ったぜ。\e"
+M01060008,"\h(《刀傷のビリー》)鉄の箱がいくつもつながって
+イモ虫のように走るんだ。
+ケッタイな乗り物だったな。\c"
+M01060009,"\h(《タル腹のガン》)さすが、ヴァイスの兄貴っス！
+バルアの連中をあそこまで
+蹴散らすなんて、すごいっス！\c"
+M01060010,"\h(《風読みのルーク》)まったく、おまえには
+いつも驚かされるよ。まさか
+こんな所にまで来るとはな。\e"
+M01060011,"\h(《風読みのルーク》)だが、おかげで助かった。
+礼を言うぜ。\c"
+M01060012,"\h(《船底くぐりのパッチ》)まだ、追っ手の気配はねえな。
+だが、ここが見つかるのも
+時間の問題だ……\e"
+M01060013,"\h(《船底くぐりのパッチ》)これから、どう行動するのか……
+バルアを脱出できるかどうかは
+そこにかかってるな。\c"
+M01060014,"\h(《ダイン》)こら、ヴァイス！
+今後の作戦を話しあうぞ。
+勝手にウロチョロするな。\c"
+M01060015,"\h(《ヴァイス》)……気のせいかな？
+ここだけ、壁の色が
+まわりと違う気がするけど……\c"
+M01060016,"\h(《ヴァイス》)ここは確か、上級都市に通じる
+隠し扉だったけど……
+うーん、ビクともしねえな。\e"
+M01060017,"\h(《ヴァイス》)やっぱ、マルコじゃねえと
+開けるのはムリみたいだな。
+しかたない、あきらめるか。\c"
+M01060020,"\h(《ヴァイス》)このはしごの上は
+どうやらコロシアムに
+通じているようだな……\e"
+M01060021,"\h(《どうする？》)「いざ、乗りこむぜ！」
+「準備を整えてからにしよう」\c"
+M01060018,"\h(《ヴァイス》)今、上は大さわぎだ。
+このスキに、みんなを連れて
+ここから逃げださねえと。\c"
+M01060019,"\h(《ヴァイス》)この上はコロシアムか……
+兵士に見つかるとやっかいだな。
+上がるのはやめておこう。\c"
+MC0070000,"\h(《Dyne》)You were a little late, Vyse…
+If you were any later, I'd be a whole head 
+shorter right now.\e"
+MC0070001,"\h(《Dyne》)Vyse, I always knew you were tough, but breaking
+into a public execution and freeing all of us…
+Now, I think you're crazy too!\e"
+MC0070002,"\h(《Vyse》)Heh heh… what can I say? I'm not ready to take
+over as head of the Dyne Family just yet.\e"
+MC0070003,"\h(《Vyse》)Wait a minute…
+Where's Fina?\e"
+MC0070004,"\h(《Dyne》)Fina?
+When they captured us from Pirate Isle, 
+they took her somewhere else.\e"
+MC0070005,"\h(《Dyne》)I overheard some soldiers talking about her… 
+sounded like she was taken to the Valuan 
+Imperial Palace.\e"
+MC0070006,"\h(《Vyse》)What?!
+Why was she taken to the palace?\e"
+MC0070007,"\h(《Dyne》)It appears that the Empress herself wanted to 
+meet Fina.\e"
+MC0070008,"\h(《Dyne》)I've got a feeling that there's more to that 
+girl than meets the eye. She knows something 
+important enough to have Valua after her.\e"
+MC0070009,\h(《Vyse》)Fina…\e
+MC0070010,"\h(《Dyne》)… Vyse, what are you going to do?\e"
+MC0070011,"\h(《What will you do?》)”We have to go save Fina!”
+”Let's lay low for a little while…”\e"
+MC0070012,"\h(《Vyse》)Of course we have to go save Fina! 
+The guards are scattered…
+The whole island is in chaos.\e"
+MC0070013,"\h(《Dyne》)Hmm…
+It'll be dangerous, but it looks like now is our
+best chance to strike.\e"
+MC0070014,"\h(《Vyse》)We should lay low for a little while. If we 
+start combing the palace, we'll be spotted for 
+sure.\e"
+MC0070015,"\h(《Dyne》)You've still got lots to learn. This is Valua…
+we'll be discovered sooner or later, whether or
+not we remain hiding.\e"
+MC0070016,"\h(《Dyne》)This may be our only chance to save Fina… right
+now, the Imperial troops are more concerned 
+about finding us!\e"
+MC0070017,"\h(《Drachma》)I will take all of the Air Pirates back to the 
+Little Jack. We'll be waitin' for you.\e"
+MC0070018,"\h(《Vyse》)I know…
+When the gates open, it's our only chance to 
+escape.\e"
+MC0070019,"\h(《Drachma》)First, you'll want to go to Upper City. You 
+might be able to sneak aboard a rail car that's
+on its way to the Palace.\e"
+MC0070020,"\h(《Vyse》)I see… Upper City, huh?
+Marco, how do I get to Upper City from here?\e"
+MC0070021,"\h(《Marco》)Um…
+If you go down that tunnel over there, 
+you'll reach Upper City.\e"
+MC0070022,"\h(《Vyse》)Let's go, Aika!
+We gotta save Fina!\e"
+MC0070023,"\h(《Drachma》)You need to be at the Little Jack when they open
+the gates!\e"
+MC0070024,"\h(《Marco》)But there are tons of guards in Upper City! 
+You shouldn't go! It's too dangerous!\e"
+MC0070025,"\h(《Vyse》)I'm ready for anything, Marco. In the midst of
+the storm, I can see the one path that will get
+us out of Valua. I've got to try.\e"
+MC0070026,\h(《》)Drachma has left the party.\e
+MC0070027,"\h(《Dyne》)Here, take this with you, Vyse. It's a little
+early to be giving this to you, but considering
+the circumstances, I'll make an exception.\e"
+MC0070028,"\h(《Vyse》)Wow! It's your Yellow Moon Stone! Thanks, Dad!\e"
+MC0070029,"\h(《Dyne》)If you use it with your weapons, they'll take on
+the properties of lightning.\e"
+MC0070030,\h(《》)You received the ”Yellow Moon Stone” from Dyne.\e
+"",me106a.sct
+"",me107a.sct
+"",me107a.sct
+"",me106a.sct
+"",m5060000
+"",M0249
+"","EV_C07発生しました。
+男気、パーティアウトがあるので
+見てください\c"
+"",M0374
+"",e6c007
+"",a106cc07.mld
+"",a106cc07.mld

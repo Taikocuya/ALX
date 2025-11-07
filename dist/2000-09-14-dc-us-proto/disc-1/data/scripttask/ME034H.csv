@@ -1,0 +1,143 @@
+[Event Name],Task ID
+Ms034b000,"\h(《Vyse》)There are all sorts of emergency supplies in
+this box. Even on a ship as powerful as the
+Delphinus, emergencies do happen, I suppose.\c"
+Ms034b100,"\h(《Vyse》)It's a talking-tube, just like the ones we used
+on the Albatross. This one is probably connected
+with the bridge.\e"
+Ms034b101,"\h(《Gilder》)Hey Vyse, this is Gilder from the bridge.
+Where are you at?\c"
+Ms034b001,"\h(《Vyse》)It's a talking-tube. This one is connected
+with the bridge.\e"
+Ms034b002,"\h(《Fina》)This is the bridge, over…
+Oh… Vyse, it's you. Are you enjoying the
+view from the lookout tower?\c"
+Ms034b003,"\h(《Vyse》)It's a talking-tube. This one is connected
+with the bridge.\e"
+Ms034b004,"\h(《Fina》)Bridge, here! Vyse, what are you doing!!
+The ship is badly damaged! You need to
+do something about it!!\c"
+Ms034b015,"\h(《Vyse》)I don't have time to go to the lookout
+tower! We're under attack! I need to get
+out on deck!\c"
+Ms034b005,"\h(《Vyse》)Thanks to this searchlight, we can fly
+safely, even at night.\c"
+Ms034b006,"\h(《Vyse》)There are all sorts of emergency supplies in
+this box. Even on a ship as powerful as the
+Delphinus, emergencies do happen, I suppose.\c"
+Ms034b007,"\h(《Vyse》)Weapons need to be constantly maintained.
+Otherwise, anything metal starts to rust and
+anything leather starts to rot…\c"
+Ms034b106,"\h(《Vyse》)It's a talking-tube. This one is connected
+with the bridge.\e"
+Ms034b107,"\h(《Aika》)This is the bridge, over…
+Oh… It's you. Quit playing around and get
+back up here, Vyse!!!\c"
+Ms034b008,"\h(《Vyse》)It's a talking-tube. This one is connected
+with the bridge.\e"
+Ms034b009,"\h(《Aika》)This is the bridge!!
+Vyse?! What are you doing there! Hurry
+up and fix this ship!!\c"
+Ms034b010,"\h(《Vyse》)I suppose this is the best place to hang
+laundry. It dries the fastest out here, even
+though it doesn't look very nice.\c"
+Ms034b011,"\h(《Vyse》)Since this ship has such a nice kitchen, the
+crew can eat home-cooked meals, even way up
+here in the sky.\c"
+Ms034b012,"\h(《Vyse》)The ship's pretty badly damaged. I better
+hurry up and fix her… If we get into another
+battle like this, we're finished.\c"
+Ms034b013,"\h(《Vyse》)It looks like Muraji's locked this door. Who's
+ship does he think this is, anyway?!\c"
+Ms034b014,"\h(《Vyse》)The door's locked. I should make my way to the
+bridge, anyway… That's where Muraji is!\c"
+Ms034a020,"\h(《Vyse》)It's too dangerous to go outside in this
+place. I should leave these doors closed
+and locked.\c"
+M00040000,"\h(《Pow》)Pow pow pow pow pow!
+Pow pow pow pow!\c"
+M14110000,\h(《Marco》)Damn! Damn! This fire just won't go out!!\e
+M05030000,"\h(《Merida》)Hot hot hot!
+Captain, hurry! The ship needs repairs! We're 
+going to crash!!!\c"
+M05210000,"\h(《Tikatika》)Hmm… The ship is on fire. I think it would
+probably be good to fix the ship. I don't think
+it is good for the ship to be on fire.\c"
+M06330000,"\h(《Khazim》)Don't just stand there gawking!
+Hurry up and put the fire out!
+We'll crash if you don't hurry!\e"
+M06330001,\h(《Khazim's Men》)Yessir! Right away sir!\c
+M06340000,"\h(《Khazim's Gunner》)C'mon!
+Fire, just go out already!
+Ouch! Hot hot hot!\c"
+M06350000,\h(《Khazim's Gunner》)Hah! I'm not going to quit now!\c
+M08150000,"\h(《Kirala》)I can do some emergency repairs to seal up some
+of the holes in the hull, but the ship's in need
+of more than that, Captain!\c"
+M14010000,"\h(《Izmael》)The damage is too great for these makeshift 
+repairs to do any good!\e"
+M14010001,"\h(《Izmael》)If we don't take some drastic measures soon, 
+this ship is finished!\c"
+M14020000,"\h(《Belle》)Take that! And that! Oh, go out already!!! Why 
+won't these fires just go out!?!\c"
+M14090000,"\h(《Lilly》)Ahh! Captain! Do something will ya?! The ship is
+gonna crash!!\c"
+M14100000,"\h(《Nara》)\ecough, cough\e It's too hot! I, I can't getclose enough! Captain, do something!!\c"
+M14050000,"\h(《Domingo》)Hey hey… Vyse!
+Your ship is on fire. Don't you think you should
+do something about all this?\c"
+Mp0040000,"\h(《Enrique》)Vyse, if we continue fighting much longer in 
+this state, we will surely die.\c"
+Mp0040001,"\h(《Enrique》)Vyse, if we continue fighting much longer in 
+this state, we will surely die.\c"
+Mp0040002,"\h(《Enrique》)Vyse, let me go with you. Let me fight by 
+your side.\e"
+Mp0040003,"\h(《Will you take Enrique with you?》)“Of course.”
+“Sorry, I need you to stay here.”\e"
+Mp0040004,"\h(《Vyse》)Of course, Enrique.
+C'mon, I need you to help me defeat Ramirez.\e"
+Mp0040005,"\h(《Enrique》)Thank you, Vyse!
+I will fight to the best of my abilities. 
+I will not let you down.\e"
+Mp0040006,\h(　)Enrique has joined your party.\c
+Mp0040007,"\h(《Enrique》)Oh… I see. Well, if you change your mind, just 
+let me know. I'm always ready to fight.\c"
+Mp0030000,"\h(《Drachma》)Vyse, your ship has taken too much damage. You
+must do somethin' to fix the ship or else we're
+finished.\c"
+Mp0030001,"\h(《Drachma》)You're goin' to go into that island, boy? You're
+crazier than I thought…\e"
+Mp0030002,"\h(《Drachma》)… But if you insist on goin', I can't let you 
+go alone.\e"
+Mp0030003,"\h(《Will you take Drachma with you?》)“C'mon, Captain!”
+“Sorry, but I need you to stay here.”\e"
+Mp0030004,"\h(《Vyse》)I'm counting on you, Captain!
+With your experience, and that arm of yours,
+Ramirez doesn't stand a chance!\e"
+Mp0030005,"\h(《Drachma》)Hrmph… I can't believe I'm fightin' with you 
+again…\e"
+Mp0030006,\h(　)Drachma has joined your party.\c
+Mp0030007,"\h(《Drachma》)I see.
+I don't like it, but if you change your mind, 
+let me know.\c"
+Mp0050000,"\h(《Gilder》)Hey, Vyse.
+Um… the ship's looking a little… bad.
+Maybe you should fix it or something…\c"
+Mp0050001,"\h(《Gilder》)I know we're close to ending this thing, but 
+don't you think you should at least fix your 
+ship first?\c"
+Mp0050002,"\h(《Gilder》)Hey, Vyse. This sounds like fun. Count me in.\e"
+Mp0050003,"\h(《Will you take Gilder with you?》)“Of course, who else would I take?”
+“Sorry, but I need you to stay here.”\e"
+Mp0050004,"\h(《Vyse》)Of course, who else would I take?
+I need you to help me defeat Ramirez!\e"
+Mp0050005,"\h(《Gilder》)Heh… I figured as much. Looks like it's finally
+time to get a little serious.\e"
+Mp0050006,\h(　)Gilder has joined the party.\c
+Mp0050007,"\h(《Gilder》)Hey, don't get my hopes up like that. If you
+change your mind, I'll be right here. Besides, I
+don't really have anything better to do.\c"
+"",me034i.sct
+"",me034g.sct
+"",M0233
+"",m5340000

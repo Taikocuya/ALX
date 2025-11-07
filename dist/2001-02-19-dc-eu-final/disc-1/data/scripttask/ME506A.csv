@@ -1,0 +1,333 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MA5060000,"\h(«Vyse»)Hey, Captain…
+Do you have any ideas on how to fight
+this thing?\e"
+MA5060001,"\h(«Drachma»)Hmm…
+You know as much about this thing as I do, boy.
+Just stay up high and see what he does for now.\c"
+MA5060002,"\h(«Aika»)What was that?!
+A few more hits like that and we're done for!!\e"
+MA5060003,"\h(«Drachma»)I… I can't believe it.
+I've never seen such destructive power before…\c"
+MA5060004,"\h(«Aika»)What are we supposed to do to beat that thing,
+Captain?! There has to be something we can do!\e"
+MA5060005,"\h(«Drachma»)Hmm… I don't know if we can destroy him, but
+perhaps we can avoid his attacks.\e"
+MA5060006,"\h(«Drachma»)If you remember when I saved… I mean, when I
+picked you kids up, I attacked it with my
+cannons and it threw it off balance.\e"
+MA5060007,"\h(«Drachma»)So, what I'm thinkin' is that if we were to
+concentrate our cannon fire right before it
+attacks, we may throw its aim off.\e"
+MA5060008,"\h(«Vyse»)I suppose it's worth a try.
+What have we got to lose?
+Let's give it a shot!!\c"
+MA5060009,"\h(«Vyse»)Yeah! We did it!
+We knocked it off balance!\e"
+MA5060010,"\h(«Aika»)Yeah, but… well… it doesn't look like we
+did any damage to it, though…\c"
+MA5060011,"\h(«Vyse»)I don't know how long we can keep this up.
+It just feels like we're only prolonging our
+own deaths… He's got to have a weakness…\e"
+MA5060012,"\h(«What will you do?»)“Concentrate fire on its heads!”
+“Let's try attacking its feet!”\e"
+MA5060013,"\h(«Vyse»)Let's try attacking its heads! We may get hit
+in the process, but we need to take a chance!
+Let's bring the Little Jack in closer!\c"
+MA5060014,"\h(«Vyse»)Try attacking its feet! They've got to be
+supporting a lot of weight… That might be
+its weakness!\c"
+MA5060015,"\h(«Vyse»)Damn… Nothing. We got in as close as we could,
+but our cannons did almost nothing to it.\c"
+MA5060016,"\h(«Vyse»)Damn… I was hoping we might be able to topple
+that thing over, but it didn't even flinch…\c"
+MA5060017,"\h(«Drachma»)It's no use, boy. The only thing we're managin'
+to do is damage our own ship. We can't continue
+fightin' like this for much longer.\e"
+MA5060018,"\h(«Drachma»)We must retreat for now. Get us out of range
+of his attacks, boy. We need to think of a new
+strategy for now.\e"
+MA5060019,"\h(«What will you do?»)“Retreat and regroup.”
+“Continue fighting.”\e"
+MA5060020,"\h(«Vyse»)… You're right, Captain.
+I suppose we've got no other choice.\e"
+MA5060021,"\h(«Drachma»)Well then, full speed ahead!
+Get out of range of that thing's attacks!\c"
+MA5060022,"\h(«Vyse»)No! We must defeat him! We can't
+run away now!!\e"
+MA5060023,"\h(«Drachma»)Idiot!
+Never question my orders aboard
+the Little Jack!\e"
+MA5060024,"\h(«Drachma»)Even if, by some miracle, we were able to
+defeat that thing, the Little Jack would
+probably be torn to shreds!\e"
+MA5060025,"\h(«Drachma»)And if that happened, do you think the lady
+admiral would just sit their while we licked our
+wounds?! We'd be a sitting target!!\e"
+MA5060026,\h(«Vyse»)Damn!\e
+MA5060027,"\h(«Drachma»)In order to fight, you need to learn first how
+to survive. There's no point if you're just
+goin' to get yourself killed, boy.\e"
+MA5060028,"\h(«Drachma»)Now, full speed ahead!
+Get us out of range of that thing's attacks!\c"
+MSA5060000,"\h(«Vyse»)Capitán……
+¿Tienes idea de cómo vamos a combatir
+contra esa cosa?\e"
+MSA5060001,"\h(«Drachma»)Bueno…… Yo sé tanto como tú, muchacho.
+De momento quédate ahí arriba
+y vigila lo que hace.\c"
+MSA5060002,"\h(«Aika»)¡¿Qué ha sido eso?!
+¡¡Otro disparo como ése y estamos perdidos!!\e"
+MSA5060003,"\h(«Drachma»)No…… no me lo puedo creer.
+En la vida había visto
+semejante poder de destrucción……\c"
+MSA5060004,"\h(«Aika»)¡¿Pero cómo vamos a vencer a semejante cosa,
+Capitán?! ¡Tiene que haber alguna solución!\e"
+MSA5060005,"\h(«Drachma»)Mmm…… No sé si vamos a poder destruirlo,
+pero podemos evitar sus ataques.\e"
+MSA5060006,"\h(«Drachma»)Si os acordáis de cuando os rescaté……
+quiero decir, os recogí, ataqué con
+los cañones y perdió el equilibrio.\e"
+MSA5060007,"\h(«Drachma»)En mi opinión, si concentramos el poder de
+nuestro cañón justo antes de que ataque,
+podríamos hacerle fallar el objetivo.\e"
+MSA5060008,"\h(«Vyse»)Supongo que merece la pena probar.
+No tenemos nada que perder.
+¡¡Vamos a intentarlo!!\c"
+MSA5060009,"\h(«Vyse»)¡Lo logramos!
+¡Ha perdido el equilibrio!\e"
+MSA5060010,"\h(«Aika»)Sí, pero…… bueno……
+No parece que le hayamos causado daño……\c"
+MSA5060011,"\h(«Vyse»)No sé cuánto tiempo vamos a aguantar así.
+Sólo estamos prolongando nuestro fin…… Hay que
+encontrarle un punto débil……\e"
+MSA5060012,"\h(«¿Qué vas a hacer?»)“¡Concentrar el fuego sobre sus cabezas!”
+“¡Atacar en los pies!”\e"
+MSA5060013,"\h(«Vyse»)¡Tenemos que atacar a las cabezas! ¡Nos
+exponemos a que nos ataque, pero tenemos que
+intentarlo! ¡Vamos a acercarnos un poco más!\c"
+MSA5060014,"\h(«Vyse»)¡Vamos a probar atacando a los pies!
+Tiene que aguantar mucho peso……
+¡Ése es su punto débil!\c"
+MSA5060015,"\h(«Vyse»)Maldita sea…… Nada.
+Nos hemos acercado todo lo posible,
+pero nuestro cañones no le han hecho nada.\c"
+MSA5060016,"\h(«Vyse»)Maldita sea……
+Tenía la esperanza de poder derribarlo,
+pero ni se ha inmutado……\c"
+MSA5060017,"\h(«Drachma»)Ha sido inútil, muchacho. Lo único que estamos
+consiguiendo son daños en nuestro navío.
+Luchando así no vamos a aguantar mucho.\e"
+MSA5060018,"\h(«Drachma»)Tenemos que retirarnos. Muchacho, sácanos
+del alcance de sus ataques. Necesitamos
+tiempo para buscar una nueva estrategia.\e"
+MSA5060019,"\h(«¿Qué vas a hacer?»)“Retirarme y recapitular.”
+“Seguir luchando.”\e"
+MSA5060020,"\h(«Vyse»)…… Tienes razón, Capitán.
+Supongo que no tenemos otra alternativa.\e"
+MSA5060021,"\h(«Drachma»)¡Entonces, a toda máquina!
+¡Tenemos que salir del alcance de sus ataques!\c"
+MSA5060022,"\h(«Vyse»)¡No! ¡Debemos derrotarlo! ¡No podemos salir
+corriendo ahora!!\e"
+MSA5060023,"\h(«Drachma»)¡Necio!
+¡No vuelvas a cuestionar mis órdenes
+cuando estemos a bordo del Little Jack!\e"
+MSA5060024,"\h(«Drachma»)¡Aunque un milagro nos ayudara a derribar
+a ese bicho, el Little Jack quedaría
+reducido a astillas!\e"
+MSA5060025,"\h(«Drachma»)Si eso sucediera, ¡¿crees que la Almirante se
+quedaría esperando a que recuperáramos las
+fuerzas?! ¡¡Seríamos un objetivo clarísimo!!\e"
+MSA5060026,\h(«Vyse»)¡Porras!\e
+MSA5060027,"\h(«Drachma»)Para luchar, tienes que aprender primero
+a sobrevivir. Si sólo consigues que te maten,
+no ganas nada, muchacho.\e"
+MSA5060028,"\h(«Drachma»)¡Ahora, a toda máquina!
+¡Tenemos que salir del alcance de sus ataques!\c"
+MFA5060000,"\h(«Vyse»)Hé, Capitaine……
+Savez-vous comment vous battre contre cette
+créature ?\e"
+MFA5060001,"\h(«Drachma»)Hum……
+Je n'en sais pas plus que vous.
+Restez bien en hauteur pour surveiller ses faits
+et gestes.\c"
+MFA5060002,"\h(«Aika»)Qu'est-ce que c'était ?!
+Encore quelques coups et nous sommes fichus !!\e"
+MFA5060003,"\h(«Drachma»)Je…… je ne peux pas le croire.
+Je n'ai jamais vu un pouvoir destructeur aussi
+grand……\c"
+MFA5060004,"\h(«Aika»)Comment sommes-nous censés vaincre cette
+créature, Capitaine ?!
+On doit pouvoir faire quelque chose !\e"
+MFA5060005,"\h(«Drachma»)Hum…… Je ne sais pas si nous pouvons le
+détruire, mais nous pouvons peut-être éviter ses
+attaques.\e"
+MFA5060006,"\h(«Drachma»)Si vous vous souvenez quand je vous ai sauvés……
+je veux dire, récupérés, je l'ai attaqué avec
+mes canons et ça lui a fait perdre l'équilibre.\e"
+MFA5060007,"\h(«Drachma»)Alors, je me disais qu'en concentrant le tir de
+notre canon juste avant qu'il n'attaque, nous
+pourrions peut-être dévier sa trajectoire.\e"
+MFA5060008,"\h(«Vyse»)Cela vaut la peine d'essayer.
+Qu'avons-nous à perdre ?
+Tentons le coup !!\c"
+MFA5060009,"\h(«Vyse»)Hourra ! On a réussi !
+Nous lui avons fait perdre l'équilibre !\e"
+MFA5060010,"\h(«Aika»)Oui, mais…… euh…… on dirait qu'il est
+indemne……\c"
+MFA5060011,"\h(«Vyse»)Je ne sais pas si on peux continuer encore
+longtemps. On dirait que nous ne faisons que
+prolonger nos propres morts……
+Il doit bien avoir un talon d'Achille……\e"
+MFA5060012,"\h(«Que ferez-vous ?»)“Concentrons le tir sur ses têtes !”
+“Essayons d'attaquer ses pieds !”\e"
+MFA5060013,"\h(«Vyse»)Essayons d'attaquer ses têtes ! Nous risquons de
+nous faire attaquer, mais il faut prendre le
+risque ! Rapprochons le Little Jack !\c"
+MFA5060014,"\h(«Vyse»)Essayons d'attaquer ses pieds !
+Ils doivent supporter un poids énorme……
+C'est peut-être sa faiblesse!\c"
+MFA5060015,"\h(«Vyse»)Bon sang…… Rien. Nous nous sommes approchés le
+plus près possible, mais nos canons n'ont
+presque pas eu d'effet.\c"
+MFA5060016,"\h(«Vyse»)Bon sang…… Je pensais que l'on pourrait peut-
+être le renverser, mais il n'a même pas
+flanché……\c"
+MFA5060017,"\h(«Drachma»)C'est inutile. Nous ne faisons qu'endommager
+notre propre navire. Nous n'allons pas pouvoir
+nous battre comme cela encore bien longtemps.\e"
+MFA5060018,"\h(«Drachma»)Il faut battre en retraite.
+Emmenez-nous hors de portée de ses attaques.
+Il faut élaborer une nouvelle stratégie.\e"
+MFA5060019,"\h(«Que ferez-vous ?»)“Battre en retraite et se ressaisir.”
+“Continuer à se battre.”\e"
+MFA5060020,"\h(«Vyse»)…… Vous avez raison, Capitaine.
+Je suppose que nous n'avons pas le choix.\e"
+MFA5060021,"\h(«Drachma»)Eh bien, en avant toute !
+Volons hors de portée des attaques de
+cette créature !\c"
+MFA5060022,"\h(«Vyse»)Non ! Il faut le vaincre !
+Nous ne pouvons pas nous enfuir !!\e"
+MFA5060023,"\h(«Drachma»)Idiot !
+Ne questionnez jamais mes ordres à bord
+du Little Jack !\e"
+MFA5060024,"\h(«Drachma»)Même si, par miracle, nous pouvions vaincre
+cette chose, le Little Jack serait sûrement
+réduit en miettes !\e"
+MFA5060025,"\h(«Drachma»)Et si cela se produisait, pensez-vous que la
+dame amiral resterait sans rien faire tandis que
+nous panserions nos plaies ?!
+Nous serions une cible statique !!\e"
+MFA5060026,\h(«Vyse»)Sacrebleu !\e
+MFA5060027,"\h(«Drachma»)Pour pouvoir vous battre, vous devez d'abord
+apprendre à survivre. C'est peine perdue si vous
+devez vous faire tuer.\e"
+MFA5060028,"\h(«Drachma»)Bon, en avant toute !
+Volons hors de portée des attaques de
+cette créature !\c"
+MGA5060000,"\h(«Vyse»)He, Captain……
+Hast du irgendeine Ahnung, wie man dieses
+Ding bekämpfen kann?\e"
+MGA5060001,"\h(«Drachma»)Hmm……
+Du weißt genauso viel über dieses Ding wie ich,
+Junge. Bleib fürs Erste hoch oben und
+beobachte, was er macht.\c"
+MGA5060002,"\h(«Aika»)Was war das?!
+Noch ein paar solche Treffer, und wir können
+einpacken!!\e"
+MGA5060003,"\h(«Drachma»)Ich…… ich kann's nicht glauben.
+So viel zerstörerische Kraft ist mir noch nie
+zuvor untergekommen……\c"
+MGA5060004,"\h(«Aika»)Was sollen wir machen, um dieses Ding zu
+schlagen, Captain?! Es muss doch einfach etwas
+geben!\e"
+MGA5060005,"\h(«Drachma»)Hmm…… ich weiß nicht, wie wir ihn vernichten
+können, aber vielleicht können wir seinen
+Angriffen ausweichen.\e"
+MGA5060006,"\h(«Drachma»)Wenn ihr euch daran erinnert, wie ich euch
+Kids gerettet…… ich meine, als ich euch
+aufgelesen habe, griff ich es mit meinen
+Kanonen an und warf es aus dem Gleichgewicht.\e"
+MGA5060007,"\h(«Drachma»)Also, was ich meine, ist, wenn wir unser
+Kanonenfeuer genau auf seinen Angriff
+konzentrieren, können wir es vielleicht
+vom Ziel abbringen.\e"
+MGA5060008,"\h(«Vyse»)Das ist eventuell einen Versuch wert.
+Was können wir dabei schon verlieren?
+Lasst es uns versuchen!!\c"
+MGA5060009,"\h(«Vyse»)Hurra! Wir haben es geschafft!
+Wir haben es aus dem Gleichgewicht gebracht!\e"
+MGA5060010,"\h(«Aika»)Ja, aber…… nun…… es sieht aber nicht so aus,
+als ob wir ihm Schaden zugefügt hätten……\c"
+MGA5060011,"\h(«Vyse»)Ich weiß nicht, wie lange wir das noch
+durchhalten. Ich habe das Gefühl, dass wir
+nur unseren eigenen Tod herauszögern……
+er muss doch eine Schwäche haben……\e"
+MGA5060012,"\h(«Was wirst du tun?»)“Das Feuer auf seine Köpfe konzentrieren!”
+“Versuchen wir, seine Füße anzugreifen!”\e"
+MGA5060013,"\h(«Vyse»)Lasst uns versuchen, seine Köpfe anzugreifen!
+Vielleicht werden wir dabei getroffen, aber
+wir müssen es einfach wagen! Bringen wir die
+Little Jack näher heran!\c"
+MGA5060014,"\h(«Vyse»)Versucht mal, seine Füße anzugreifen! Sie
+müssen viel Gewicht tragen…… das ist vielleicht
+seine Schwäche!\c"
+MGA5060015,"\h(«Vyse»)Verdammt…… nichts. Wir sind so nahe wie möglich
+herangegangen, aber unsere Kanonen haben fast
+nichts ausgerichtet.\c"
+MGA5060016,"\h(«Vyse»)Verdammt…… ich hatte gehofft, dass wir dieses
+Ding vielleicht umwerfen könnten, aber es
+hat sich noch nicht einmal bewegt……\c"
+MGA5060017,"\h(«Drachma»)Es hat keinen Zweck, Junge. Alles, was
+wir erreichen, ist, dass wir unser eigenes
+Schiff beschädigen. So können wir nicht
+länger weitermachen.\e"
+MGA5060018,"\h(«Drachma»)Wir müssen uns fürs Erste zurückziehen.
+Bring uns außerhalb seiner Reichweite, Junge.
+Wir müssen uns eine neue Strategie ausdenken.\e"
+MGA5060019,"\h(«Was wirst du tun?»)“Dich zurückziehen und neu planen.”
+“Weiterkämpfen.”\e"
+MGA5060020,"\h(«Vyse»)……Du hast Recht, Captain.
+Ich nehme an, wir haben keine andere Wahl.\e"
+MGA5060021,"\h(«Drachma»)Ok, dann mal volle Kraft voraus!
+Fliegt außer Reichweite, damit dieses Ding
+uns nicht wieder angreift!\c"
+MGA5060022,"\h(«Vyse»)Nein! Wir müssen ihn besiegen! Wir können
+jetzt nicht wegrennen!!\e"
+MGA5060023,"\h(«Drachma»)Dummkopf!
+Hinterfrage nie meine Befehle auf der
+Little Jack!\e"
+MGA5060024,"\h(«Drachma»)Selbst wenn wir dieses Ding wie durch ein
+Wunder besiegen können, würde die Little Jack
+wahrscheinlich in Stücke gerissen werden!\e"
+MGA5060025,"\h(«Drachma»)Und wenn das passieren würde, glaubt ihr, dass
+diese Dame von Admiral einfach herumsitzen
+würde, während wir unsere Wunden versorgen?!
+Wir wären leichte Beute.\e"
+MGA5060026,\h(«Vyse»)Verdammt!\e
+MGA5060027,"\h(«Drachma»)Um kämpfen zu können, müssen wir erst lernen,
+zu überleben. Das hat alles keinen Zweck,
+wenn du dich dann einfach töten lässt, Junge.\e"
+MGA5060028,"\h(«Drachma»)Jetzt also volle Kraft voraus!
+Damit wir außer Reichweite für die Angriffe
+dieses Dings sind!\c"
+"",M0465
+"",f7100100S.p04
+"",me506a.sct
+"",me090a.sct
+"",k000006.mld
+"",k000006.mld
+"",f7100050S.p04
+"",k000006.mld
+"",f3000011
+"",f3000011
+"",f3000011
+"",me033a.sct

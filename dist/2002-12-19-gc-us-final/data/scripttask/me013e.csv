@@ -1,0 +1,1305 @@
+[Event Name],Task ID
+M06000003,"\h(《Sailor》)I came intending to replenish my supplies in
+Nasrad, but the place has burned to the ground!
+What a shock!\e"
+M06000004,"\h(《Sailor》)There's almost nothing being sold in the shops,
+and even what's available is so expensive. But I
+still have to replenish my supplies somehow...\c"
+M06000005,"\h(《Sailor》)Let's see, I've bought the Moon Stones I need,
+so now I have to find 5 barrels of drinking
+water...   \e"
+M06000006,"\h(《Sailor》)The shops are finally starting to fill up again.
+Looks like I can start using Nasrad as a regular
+resupply point again.\c"
+M06010004,"\h(《Nasr Merchant》)Let us see... A box of tomatoes with one, two...
+No, this box is not any good either.\e"
+M06010005,"\h(《Nasr Merchant》)When only this many survive the fire, you cannot
+miscount even if you want to.\c"
+M06010006,"\h(《Nasr Merchant》)Ixa'takan cypress… Let us see, we have two, 
+four… \e"
+M06010007,"\h(《Nasr Merchant》)Do not talk to me now!
+I am busy with the relief supplies.\c"
+M06330011,"\h(《Khazim》)Arghh!!… Crap! Dammit all! They called me the 
+best gunner around! I was Khazim, the crack 
+shot!\e"
+M06330012,"\h(《Khazim》)But I let down my guard, and before I could do 
+anything to stop them, the enemy turned the 
+whole city to dust. \e"
+M06330013,"\h(《Khazim》)It really chaps my hide! I think I will fly 
+right over to Valua and give them a blast in the
+chops!\e"
+M06330014,"\h(《Vyse》)Calm down, calm down. You do anything like that,
+and you'll get blasted right back. It's way too
+reckless.\e"
+M06330015,"\h(《Aika》)Ha, ha. So says the man who was so reckless as
+to escape from Valua twice over.\e"
+M06330016,"\h(《Khazim》)Wh, what is that? Y, you are not… ?\e"
+M06330017,"\h(《Khazim》)Could you be that pirate Vyse who abducted the
+Valuan prince and blasted your way out of the
+Grand Fortress?\e"
+M06330018,"\h(《Vyse》)Well, I don't know about the abducted part, but 
+otherwise, yes, I am indeed Vyse. \e"
+M06330019,"\h(《Khazim》)In that case, you've got to do this for me,
+Vyse! Let me join your crew!  \e"
+M06330020,"\h(《Khazim》)I will never be satisfied until I have delivered
+a blow from my cannon to Valua!\e"
+M06330021,"\h(《Khazim》)I must join forces with you and become your 
+ship's gunner. Good! It is decided!\e"
+M06330022,"\h(《Vyse》)Well, well, it doesn't sound like you'll take no
+for an answer, so I suppose we might as well
+have you come aboard.\e"
+M06330023,\h(　)Khazim has joined your crew as a “Gunner.”\c
+M06340002,"\h(《Khazim's Man》)Our job was to defend Nasrad, but we were
+completely helpless to do anything.\e"
+M06340003,"\h(《Khazim's Man》)It makes me damn angry, and I'd sure like to go 
+beat Valua to a pulp!\c"
+M06350002,\h(《Khazim's Man》)Boss Khazim is in the turret on top of the wall!\e
+M06350003,"\h(《Khazim's Man》)Boss says he's going to attack Valua and get
+revenge even if he has to do it all by himself.\c"
+M06020100,"\h(《Ship Parts Merchant》)Well, it is Vyse the Ninny, yes?. Are you sure
+you can handle firing one of my cannons? They
+make really loud noises, you know. HAHAHAHA!!\e"
+M06020101,"\h(《Ship Parts Merchant》)Hey there! I have cannons for all of your
+destructive needs! Take a look around!\e"
+M06020102,"\h(《Ship Parts Merchant》)Hey there! I have cannons for all of your 
+destructive needs! Take a look around!\e"
+M06020103,"\h(《Ship Parts Merchant》)Hey, you are the one they call Vyse the
+Determined, yes? Buy a cannon from me. I know
+you will put it to good use!\e"
+M06020104,"\h(《Ship Parts Merchant》)Well, it is Vyse the Respected, is it not?
+Thank you for stopping by my shop! Do you wish
+to buy something while you are here?\e"
+M06020105,"\h(《Ship Parts Merchant》)Hey, it is Vyse the Admirable! I never expected
+you to visit my shop!\e"
+M06020106,"\h(《Ship Parts Merchant》)Hey, it is Vyse the Bold! I never expected to
+see you in here! Have you come to buy some
+cannons?\e"
+M06020107,"\h(《Ship Parts Merchant》)Hey, it is Vyse! You are so lucky… people call
+you “Vyse the Valiant.” I wish someone would
+call me “Valiant”… \e"
+M06020108,"\h(《Ship Parts Merchant》)Hey, it is Vyse! You are so lucky… people call
+you “Vyse the Daring.” I wish someone would
+call me “Daring”… \e"
+M06020109,"\h(《Ship Parts Merchant》)Oh! Hey, you are Vyse the Dashing! Please buy
+something from me! That way I can brag to all of
+my friends!\e"
+M06020110,"\h(《Ship Parts Merchant》)Oh, it is you! Vyse the Fearless! Hey… um… is
+it true? Did you really open the gates of the
+Grand Fortress with your bare hands?\e"
+M06020111,"\h(《Ship Parts Merchant》)V, Vyse the Hero! You are here! Well… you must
+buy something from me! It would make me feel
+like a part of history!\e"
+M06020112,"\h(《Ship Parts Merchant》)Hey, you are the King of Rogues! I am so glad
+that you are not a Black Pirate. Otherwise, I
+would probably never get any of my shipments!\e"
+M06020113,"\h(《Ship Parts Merchant》)Welcome! I am deeply honored to have you in my
+humble shop, Vyse!! You truly are a living
+legend!\e"
+M06020008,"\h(《Ship Parts Merchant》)Welcome, welcome. How goes the sailing? Perhaps
+you'd like a big cannon to blow your enemies out
+of the sky?\e"
+M06020009,"\h(《What will you do?》)“Buy and sell ship parts.”
+“Talk about various things.”
+“Leave.”\e"
+M06020010,\h(《Ship Parts Merchant》)Those Valuans are truly merciless.\e
+M06020011,"\h(《Ship Parts Merchant》)They confiscated all my merchandise. All that I
+had in this world.\e"
+M06020012,"\h(《Ship Parts Merchant》)Thank you for stopping by! May the Red Moon 
+watch over you.\c"
+M06030100,"\h(《Guildmaster》)Are you not the one they call Vyse the Ninny?
+Nice nickname. How did you earn it?\e"
+M06030101,"\h(《Guildmaster》)Welcome to the Sailors' Guild.
+We pay very well for information on Discoveries!\e"
+M06030102,"\h(《Guildmaster》)Welcome to the Sailors' Guild. We pay very well
+for information on Discoveries!\e"
+M06030103,"\h(《Guildmaster》)So, you are the guy that everyone talks about… 
+The one they call Vyse the Respected?
+Welcome to the Sailors' Guild.\e"
+M06030104,"\h(《Guildmaster》)Hey, you are Vyse the Admirable! Welcome to the
+Sailors' Guild!\e"
+M06030105,"\h(《Guildmaster》)Hey, you are Vyse the Bold, are you not! Welcome
+to the Sailors' Guild.\e"
+M06030106,"\h(《Guildmaster》)Vyse the Valiant? Of course I have heard of you.
+Everyone talks about your exploits.
+Welcome to the Sailors' Guild.\e"
+M06030107,"\h(《Guildmaster》)Vyse the Daring? Of course I have heard of you.
+Everyone talks about your exploits. 
+Welcome to the Sailors' Guild.\e"
+M06030108,"\h(《Guildmaster》)Oh, it is you! You are Vyse the Dashing!
+W, welcome to the Sailors' Guild! It is an
+honor!\e"
+M06030109,"\h(《Guildmaster》)Oh, it is you! You are Vyse the Fearless!
+W, welcome to the Sailors' Guild! It is an
+honor!\e"
+M06030110,"\h(《Guildmaster》)To think that Vyse the Hero would ever come to 
+this guild… It is truly an honor, sir.\e"
+M06030111,"\h(《Guildmaster》)To think that the King of Rogues would ever
+visit this guild… It is a true honor, sir.\e"
+M06030112,"\h(《Guildmaster》)V, Vyse the Legend?! I feel honored just to be
+able to talk to one as great as yourself!
+W, welcome to the Sailors' Guild!\e"
+M06030113,"\h(《Guildmaster》)Wait… is that the legendary “Daccat's Coin?”
+H, how did you find it?! I will pay you 20,000
+gold for it!!\e"
+M06030114,"\h(《What will you do?》)“Buy and sell Discoveries information.”
+“Sell Daccat's Coin.”
+“Leave.”\e"
+M06030115,"\h(《Guildmaster》)Really? You will sell it to me?!
+That is wonderful! People have been searching
+for this coin for ages! Thank you so much!!\e"
+M06030116,"\h(　)You sold “Daccat's Coin” for 20,000 gold.\e"
+M06030012,"\h(《Guildmaster》)Welcome to the Sailors' Guild.
+We pay very well for information about 
+Discoveries!\e"
+M06030013,"\h(《What will you do?》)“Buy and sell Discoveries information.”
+“Talk about various things.”
+“Leave.”\e"
+M06030014,"\h(《Guildmaster》)I never imagined Valua could have perfected a
+ship that could blast through the stone reef.\e"
+M06030015,"\h(《Guildmaster》)If I had known that before, I would have left 
+many moons ago. What a mistake!\e"
+M06030016,"\h(《Guildmaster》)In every port of any size, you should always 
+find a branch office of the Sailors' Guild. I 
+suggest you pay a visit.\c"
+M06230016,"\h(《Innkeeper》)Welcome, welcome! It is a terrible mess all 
+around, but this inn has survived. It will be 
+240 gold a night. Would you like a room?\e"
+M06230017,"\h(《What will you do?》)“Stay the night.”
+“Leave.”\e"
+M06230018,"\h(《Innkeeper》)Your room is at the top of the stairs.
+Sleep well.\c"
+M06230019,"\h(《Innkeeper》)Did you sleep well?
+Well, goodbye and good luck! Shakra!\c"
+M06230021,"\h(《Innkeeper》)What is this? Hey… you do not have enough
+money. I am sorry, but you will have to come
+later when you have saved up a little bit more.\c"
+M06230020,"\h(《Innkeeper》)You're leaving?
+Well, be careful not to overexert yourself.
+Come again when you're tired.\c"
+M06250100,"\h(《Weapons Merchant》)Welcome! Wait… I have heard of you! You are
+Vyse the Ninny, yes? Stories of your bad
+judgement are legendary!\e"
+M06250101,\h(《Weapons Merchant》)Welcome! This is a weapon and armor shop.\e
+M06250102,\h(《Weapons Merchant》)Welcome! This is a weapon and armor shop.\e
+M06250103,"\h(《Weapons Merchant》)Well, well. It is the infamous Vyse the
+Determined, yes? That is an interesting nickname
+people have given you.\e"
+M06250104,"\h(《Weapons Merchant》)Well! It is Vyse the Respected! I have heard of
+you. Have you come to see my wares?\e"
+M06250105,"\h(《Weapons Merchant》)Oh, hey! You are Vyse the Admirable! I have
+plenty of great weapons for you! Do you wish to
+buy something from me?\e"
+M06250106,"\h(《Weapons Merchant》)Oh, hey! You're Vyse the Bold! I have plenty of
+great weapons for you! Do you wish to buy
+something from me?\e"
+M06250107,"\h(《Weapons Merchant》)Vyse the Valiant! I cannot believe you have 
+actually come to visit my store!\e"
+M06250108,"\h(《Weapons Merchant》)I have heard of you… “Vyse the Daring.”
+I wish I had a title like that… \e"
+M06250109,"\h(《Weapons Merchant》)This is such an honor! I never would have 
+dreamed that the infamous Vyse the Dashing would
+buy weapons from me!\e"
+M06250110,"\h(《Weapons Merchant》)This is such an honor! I never would have
+dreamed that the renowned Vyse the Fearless
+would buy weapons from me!\e"
+M06250111,"\h(《Weapons Merchant》)Vyse the Hero! Stories of your exploits have
+reached people far and wide! It is an honor to 
+actually meet you in person!\e"
+M06250112,"\h(《Weapons Merchant》)The King of Rogues! Stories of your exploits 
+have reached people far and wide! It is an
+honor to actually meet you in person!\e"
+M06250113,"\h(《Weapons Merchant》)Y, you are Vyse! You are a living legend! I, I 
+cannot believe that you have taken time to visit
+my humble store… I am so deeply honored…\c"
+M06250000,"\h(《Weapons Merchant》)Welcome! This is a weapons shop. I urge you to 
+take responsibility for your own defense by 
+arming yourself with quality weapons.\e"
+M06250010,"\h(《What will you do?》)“Buy and sell weapons.”
+“Talk about various things.”
+“Leave.”\e"
+M06250011,"\h(《Weapons Merchant》)Most of the soldiers have been captured and
+taken away. The rest have been disarmed, and all
+the weapons in town have been seized.\e"
+M06250012,"\h(《Weapons Merchant》)Why was my merchandise spared? Well, as it is
+said, with enough gold, you can buy your way out
+of the Valuan Grand Fortress.\e"
+M06250013,\h(《Weapons Merchant》)May the Red Moon shine upon you! Come again!\c
+M06260012,"\h(《Nasr Merchant》)Well, well, long time no see. Judging from the
+fact that you are all together, I guess you must
+have patched things up.\e"
+M06260013,"\h(《Nasr Merchant》)Excellent, excellent! All is well. 
+Try not to fight from now on.\c"
+M06260100,"\h(《Nasr Merchant》)Well, here… take this. I wish for you to have 
+it. Consider it a token of my gratitude.\e"
+M06260101,\h(　)You received 1 “Abirik Cham.”\e
+M06260102,"\h(《Nasr Merchant》)I thought that a Moon Stone shard as beautiful
+as that would be fitting for ladies such as
+yourselves.\c"
+M06260014,"\h(《Nasr Merchant》)You seem so familiar... Ah, yes, I remember you!
+It has been a long time!\e"
+M06260015,"\h(《Nasr Merchant》)It is I, the merchant you escorted to the South
+Dannel Strait.\e"
+M06260016,"\h(《Nasr Merchant》)As you can see, Nasrad has become mere ruins.
+But we merchants are not about to let that get
+us down!\e"
+M06260017,"\h(《Nasr Merchant》)We intend to dig in and rebuild until Nasrad is
+a busy and populous trade center once more.\c"
+M06260103,"\h(《Nasr Merchant》)Well, here… take this. I wish for you to have 
+it. Consider it a token of my gratitude.\e"
+M06260104,\h(　)You received 1 “Abirik Cham.”\e
+M06260105,"\h(《Nasr Merchant》)I thought that a Moon Stone shard as beautiful
+as that would be fitting for ladies such as
+yourselves.\c"
+M06260018,"\h(《Nasr Merchant》)We intend to dig in and rebuild until Nasrad is
+a busy and populous trade center once more.\c"
+M06270100,"\h(《Item Merchant》)Welcome to my shop. Hey, you are Vyse the Ninny,
+yes? I hear that no one can from battle as fast
+as you are able! Hahahaha!!!\e"
+M06270101,"\h(《Item Merchant》)Hey… can I help you? I am in the middle of
+reorganizing everything, so I am a little busy…
+Please be prompt with your shopping.\e"
+M06270102,"\h(《Item Merchant》)Welcome!
+I have managed to salvage a lot of my wares from
+the fires! Please taka a look!\e"
+M06270103,"\h(《Item Merchant》)Welcome!
+I have managed to salvage a lot of my wares from
+the fires! Please take a look!\e"
+M06270104,"\h(《Item Merchant》)Welcome!
+I have managed to salvage a lot of my wares from
+the fires! Please take a look!\e"
+M06270105,"\h(《Item Merchant》)Welcome to my shop! I hope you find something
+that pleases you… \e"
+M06270106,"\h(《Item Merchant》)Well, it is Vyse the Bold, is it not?
+Thank you for visiting my shop! It is an
+honor to have you!\e"
+M06270107,"\h(《Item Merchant》)Welcome to my store, Vyse the Valiant. I knew
+it was you the moment you walked in. I have 
+heard many stories of your adventures.\e"
+M06270108,"\h(《Item Merchant》)Well, it is Vyse the Daring, is it not? Thank
+you for visiting my shop! It is an honor to have
+you!\e"
+M06270109,"\h(《Item Merchant》)Vyse the Dashing! It is you! Welcome, welcome!
+Please, you must buy something from my shop
+before you leave!\e"
+M06270110,"\h(《Item Merchant》)Vyse the Fearless! It is you! Welcome, welcome!
+Please, you must buy something from my store
+before you leave!\e"
+M06270111,"\h(《Item Merchant》)Ah, it is Vyse the Hero! Well, at least someone
+is fighting against the Valuans! It is about 
+time we had a true hero!\e"
+M06270112,"\h(《Item Merchant》)Y, you are the King of Rogues, are you not?! I
+have heard about all of your adventures. You
+really are something… \e"
+M06270113,"\h(《Item Merchant》)Welcome, Vyse the Legend. Stories of your 
+exploits have reached even here. Tales of your
+adventures will be told for generations to come.\e"
+M06270009,"\h(《Item Merchant》)Hello and welcome! We are open and doing 
+business with all that survived the fire. \e"
+M06270010,"\h(《What will you do?》)“Buy and sell items.”
+“Talk about various things.”
+“Leave.”\e"
+M06270011,"\h(《Item Merchant》)The Nasultan and all the soldiers were taken 
+away to Valua. We civilians are the only ones 
+left.\e"
+M06270012,"\h(《Item Merchant》)Under the Red Moon, the kingdom of Nasr was a 
+place of such glory and splendor. It is 
+astonishing to see how fragile it all was.\c"
+M06270013,"\h(《Item Merchant》)Thank you! May the Red Moon light your 
+journey!\c"
+M06270022,"\h(《Item Merchant》)What do you wish? Gentum?
+Of course I have some.\e"
+M06270023,"\h(《Item Merchant》)It is 500 gold per pouch. Do you wish to 
+purchase a bag?\e"
+M06270024,"\h(《What will you do?》)“I'll buy it!”
+“Maybe next time.”\e"
+M06270025,"\h(《Vyse》)500 gold? I'll buy it!
+I need it to help somebody out.\e"
+M06270026,\h(　)You bought “Gentum” for 500 gold.\c
+M06270027,"\h(《Item Merchant》)I am sorry, but it appears that you do not have
+enough money right now.\c"
+M06270028,"\h(《Item Merchant》)Well, I have plenty in stock, so when you wish
+to purchase some, just come back and ask.\c"
+M06280016,"\h(《Tavernkeep》)Man, I cannot believe it. How could Nasrad have 
+been reduced to this?\e"
+M06280017,"\h(《Tavernkeep》)The people who used to come here have either 
+died or left town, and there is almost no one 
+left.\e"
+M06280018,"\h(《Tavernkeep》)Perhaps there's nothing left to do but to close 
+up shop.\c"
+M06280019,"\h(《Tavernkeep》)Welcome, welcome! Come on in, young man! Sit 
+down and relax.\e"
+M06280020,"\h(《Tavernkeep》)Recently, some people have been returning to 
+town, and business is starting to pick up once 
+more!\e"
+M06280021,"\h(《Tavernkeep》)I'm glad I did not close down. I do not have a 
+lot to offer, but make yourself comfortable and 
+stay awhile.\c"
+M06290004,"\h(《Depressed Man》)Everybody's saying that the Nasultan and his
+family were all executed.\e"
+M06290005,"\h(《Depressed Man》)They say they were all dragged off to Valua, and
+they were executed in front of a huge crowd.\c"
+M06290006,"\h(《Depressed Man》)Hey! I hear the Rains of Destruction fell upon
+Valua.\e"
+M06290007,"\h(《Depressed Man》)What's did you say? The Empress and everyone
+else was killed? I wonder if the world really is
+coming to an end?\c"
+M06300007,"\h(《Sailor》)I'd heard that Nasrad was completely destroyed,
+so I thought for sure this place was also gone.\e"
+M06300008,"\h(《Sailor》)The only entertainment they've got is a shabby
+old tavernkeep, but it still makes me happy that
+they're open.\c"
+M06300009,"\h(《Sailor》)There's been a lot going on around the Ocean
+lately, what with a huge continent appearing out
+of nowhere, and Valua being destroyed.\e"
+M06300010,"\h(《Sailor》)I think maybe I'll stop traveling for a while-
+though I don't suppose there's any guarantee 
+that I'll be safe staying here, either.\c"
+M06310014,\h(《Osman》)My shop! My shop is gone! It's too much to bear!\e
+M06310015,"\h(《Osman》)My shop is nothing more than a heap of rubble,
+and my clerk ran off with all the money... I am
+completely ruined.\e"
+M06310016,"\h(《Aika》)I feel kind of sorry for her. You know, Vyse, 
+maybe we should take her with us on our ship.\e"
+M06310017,"\h(《Osman》)Ship?
+You own a ship?!\e"
+M06310018,"\h(《Osman》)How big is it? How much cargo can it hold? How
+much money do you make transporting goods?\e"
+M06310019,"\h(《Osman》)Heh heh…
+You may not look like much, but you seem to be 
+doing well for yourself.\e"
+M06310020,"\h(《Osman》)Okay, I have decided. I will go with you on your
+ship. It sounds like I can make some money!\e"
+M06310021,"\h(《Vyse》)Hold on a second! You can't just decide that all
+by yourself.\e"
+M06310022,"\h(《Osman》)I am an excellent trader. I can help you find
+treasures that would normally be almost
+impossible to find!\e"
+M06310023,"\h(《Aika》)But I seem to recall someone saying that they
+couldn't loan us even 1 gold without collateral,
+because they weren't running a charity…\e"
+M06310024,"\h(《Osman》)I, I understand. I apologize for sending you 
+away so cold-heartedly before.\e"
+M06310025,"\h(《Osman》)I will make you so much money that anything I 
+would have loaned you before will seem like Moon
+dust! Ahahahaha!\e"
+M06310026,\h(　)Osman has joined your crew as a “Merchant.”\c
+M06430004,"\h(《Young Maiden》)A massive bombing raid turned the bazaar into a 
+heap of rubble. It had to be closed because it 
+was too dangerous.\e"
+M06430005,"\h(《Young Man》)Of course, since my house was burned down and
+all my belongings were confiscated, I would not
+be able to buy her a thing, anyway.\e"
+M06430006,"\h(《Young Maiden》)Without money or a place to play, the only thing
+left for us to do is sit here and whisper sweet
+nothings to each other by the fountain.\c"
+M06430007,"\h(《Young Maiden》)The Bazaar has not yet come back, but merchants 
+and townspeople have started to return and 
+things are starting to pick up once more.\e"
+M06430008,"\h(《Young Man》)Maybe I will start a business of some kind. I 
+wish I was able to take her on some nicer dates.\e"
+M06430009,"\h(《Young Maiden》)I intend to work hard, as well. This time it is 
+my turn to give him some nice presents.\c"
+M06430010,"\h(《Young Maiden》)Oh, what news I have, traveler! I must tell you!
+My boyfriend has asked me to marry him!\e"
+M06430011,"\h(《Young Man》)My business is getting back on track, so I
+travel more often now… \e"
+M06430012,"\h(《Young Man》)and with all the disturbing happenings in the
+world these days, it worries me to leave her all
+alone in town.\e"
+M06430013,"\h(《Young Maiden》)I am going to help with his business, too. That
+way we can be together all the time, at work and
+on dates.\c"
+M06440004,"\h(《Young Maiden》)A massive bombing raid turned the bazaar into a
+heap of rubble. It had to be closed because it
+was too dangerous.\e"
+M06440005,"\h(《Young Man》)Well, since my house was burned down and all of
+my valuables were confiscated, I wouldn't really
+be able to afford anything, anyway.\e"
+M06440006,"\h(《Young Maiden》)Without money or a place to play, the only
+thing left for us to do is sit here and whisper
+sweet nothings to each other by the fountain.\c"
+M06440007,"\h(《Young Maiden》)The Bazaar has not yet come back, but merchants 
+and townspeople have started to return and 
+things are starting to pick up once more.\e"
+M06440008,"\h(《Young Man》)Maybe I will start a business of some kind. I 
+wish I was able to take her on some nicer dates.\e"
+M06440009,"\h(《Young Maiden》)I intend to work hard, as well. This time it is 
+my turn to give him some nice presents.\c"
+M06440010,"\h(《Young Maiden》)Oh, what news I have, traveler! I must tell you!
+My boyfriend has asked me to marry him!\e"
+M06440011,"\h(《Young Man》)My business is getting back on track, so I 
+travel more often now… \e"
+M06440012,"\h(《Young Man》)and with all the disturbing happenings in the
+world these days, it worries me to leave her all
+alone in town.\e"
+M06440013,"\h(《Young Maiden》)I am going to help with his business, too. That
+way we can be together all the time, at work and
+on dates.\c"
+M06450002,"\h(《Man》)I never expected the Nasrean forces to collapse
+so easily before a Valuan attack. \e"
+M06450003,"\h(《Man》)Alas, no one ever dreamed the Valuans could come
+through the North Dannel Strait, what with the
+sky rift blocking the way.\e"
+M06450004,"\h(《Man》)They were caught so completely off guard that
+the cannons on the palace walls never got off a
+single shot. Boy, was Khazim mad!\c"
+M06450005,"\h(《Man》)I am so busy nowadays! The market is starting to
+pick up again, so more and more people are
+coming through town…\e"
+M06450006,"\h(《Man》)It will not be long before Nasrad regains its
+place as a city of commerce. Start a business
+right now, and you will make a killing for sure.\c"
+M06460003,"\h(《Woman》)Whew! I was really worried about this town for a
+while, but it seems to be getting back on its
+feet.\e"
+M06460004,"\h(《Woman》)I was among those who evacuated to another 
+island for a while, but I could not stay away.\e"
+M06460005,"\h(《Woman》)I wager the city will be back to its old self in
+no time at all. After all, it is a town that 
+grew up out of nothing in the desert.\c"
+M06460006,"\h(《Woman》)I wager the city will be back to its old self in
+no time at all. After all, it is a town that 
+grew up out of nothing in the desert.\c"
+M06470001,"\h(《Girl》)Somewhere… high above the skies of Nasr… 
+A beautiful rainbow stretches
+through the clouds…\c"
+M06480004,"\h(《Sailor》)Yikes! I'm not gonna get back to my ship on 
+time! With the bazaar gone, it's a lot harder to
+get my shopping done.\e"
+M06480005,"\h(《Sailor》)I still need to get that wooden leg for the 
+Captain. Where under the Six Moons would they 
+sell something like that, anyway?\c"
+M06080002,"\h(《Former Fruit Vendor》)Gather 'round! Come see the cute monkey! Watch 
+the monkey delight and amaze you with its 
+acrobatic tricks.\e"
+M06080003,"\h(《Former Fruit Vendor》)Without the bazaar, my fruit stand is also gone.
+I can't even lay in stock to sell. \e"
+M06080004,"\h(《Former Fruit Vendor》)I'm raising some capital with my acrobatic
+monkey so I can rebuild my shop.\c"
+M06080005,"\h(《Former Fruit Vendor》)Gather 'round! Come see the cute monkey! Watch 
+the monkey delight and amaze you with its 
+acrobatic tricks.\c"
+M06060008,"\h(《Former Bazaar Clothing Stall Girl》)Hello, young man. How would you like to feel 
+completely relaxed and comfortable? I can give 
+you my personal attention.\e"
+M06060009,"\h(《What will you do?》)“N, no thanks.”
+“M, maybe I'll see what it's like.”\e"
+M06060010,"\h(《Vyse》)N, no thanks. I'll pass.\e"
+M06060011,"\h(《Aika》)Sorry, lady.
+We're in a hurry. Come on, Vyse, let's go!\e"
+M06060012,"\h(《Former Bazaar Clothing Stall Girl》)You really should not pass this up, sweetie. 
+People say my pressure-point massage works 
+wonders.\e"
+M06060013,"\h(《Former Bazaar Clothing Stall Girl》)Alas, without the bazaar and my clothing stall 
+gone, I do not know what to do.\c"
+M06060014,"\h(《Former Bazaar Clothing Stall Girl》)Alas, without the bazaar and my clothing stall 
+gone, I do not know what to do.\c"
+M90390000,"\h(《Mystery Merchant》)Hy-ho-o-o! I am known as the Mystery Merchant! I
+travel all around the world, selling my wares!\e"
+M90390001,"\h(《Mystery Merchant》)Come, see the goods for yourself. I only carry 
+rare and exotic items.\e"
+M90390002,"\h(《What will you do?》)“Buy or sell items.”
+“Talk about various things.”
+“Leave.”\e"
+M90390003,"\h(《Mystery Merchant》)Somewhere in this world, there exists an island
+upon which grows a very expensive spice called
+“Khale.”\c"
+M90390004,\h(《Mystery Merchant》)Thank you very much. Until our paths next cross.\c
+MQ0240100,"\h(《Aika》)Hey... Doesn't that guy kinda remind you a
+little of somebody? Or rather, doesn't he remind
+you A LOT of somebody???\e"
+MQ0240101,"\h(《Aika》)Those are probably the people that have been
+going around Nasrad pretending to be us!! Vyse!
+We gotta do something!\e"
+MQ0240102,"\h(《What will you do?》)“Talk to them.”
+“Avoid them.”\c"
+MQ0240103,"\h(《Vyse》)We shouldn't rush into this. Let's take our
+time... We should probably approach them later.\e"
+M06020114,"\h(《Ship Parts Merchant》)Oh! Hey, Vyse! I've been hearing bad rumors
+about you lately. What happened to you? Did ya
+hit your head on something hard?\e"
+M06020115,"\h(《Ship Parts Merchant》)Oh wow! Vyse the Bounty King! I can't believe
+you're shopping at my store! Wait until I tell
+my mom! She'll go crazy!\e"
+M06020116,"\h(《Ship Parts Merchant》)Vyse the Exploration King! I can't believe
+you're shopping at my store! Wait until I tell
+my mom! She'll go crazy!\e"
+M06020117,"\h(《Ship Parts Merchant》)Sky Battle King Vyse! You MUST buy something!
+Do you know what it will do for my business if
+I tell people that you shop here? Please!!!\e"
+M06020118,"\h(《Ship Parts Merchant》)Oh hey! It's Vyse the Fisher King! Did you come
+here to buy fishing equipment?\e"
+M06020119,"\h(《Ship Parts Merchant》)V, Vyse the Battle Lord!! Tell me... Is it true
+that you defeated someone by throwing a cannon
+ball at their ship and sinking it?\e"
+M06020120,"\h(《Ship Parts Merchant》)Vyse the Extravagant!!! I envy you... It's one
+of my dreams in life to be rich. Really rich.
+You wanna give me some money while you're here?\e"
+M06020121,"\h(《Ship Parts Merchant》)Vyse the Charismatic! I can't believe you're
+shopping at my store! Wait until I tell my mom!
+She'll go crazy!\e"
+M06030117,"\h(《Guildmaster》)Hmmm... You know what? You look an awful lot
+like one of those pirates on the Wanted List...\e"
+M06030118,"\h(《Guildmaster》)It's Vyse the Bounty King! Let me thank you on
+behalf of Mid Ocean for all the splendid work
+you have done!\e"
+M06030119,"\h(《Guildmaster》)Well, who would have thought that Exploration
+King Vyse would ever grace this Guild with his
+presence? I am honored, sir.\e"
+M06030120,"\h(《Guildmaster》)I cannot believe it... Sky Battle King Vyse is
+here. In my Guild. I am truly honored, sir.\e"
+M06030121,"\h(《Guildmaster》)Well! It's Vyse the Fisher King!
+Tell me...Do you love eating fish?
+Or do you just really hate them?\e"
+M06030122,"\h(《Guildmaster》)Vyse the Battle Lord! I... I don't know what to
+say... I... uh... Please don't hurt me.\e"
+M06030123,"\h(《Guildmaster》)Vyse the Extravagant! It's a pleasure to see
+you. I've heard much about your spending habi...
+uh... I mean your adventures!\e"
+M06030124,"\h(《Guildmaster》)I cannot believe it... Vyse the Charismatic is
+here. In my Guild. I am truly honored, sir.\e"
+M06030200,"\h(《Guildmaster》)I hear that you defeated one of the bounties!
+Well done! Here is your reward! You earned it!\e"
+M06030201,"\h(《Guildmaster》)Here you go! Your reward for your work. I've
+heard quite a bit about you lately. Keep up the
+good work. I'm counting on you.\e"
+M06030202,"\h(《Guildmaster》)Y, you defeated everyone on the Wanted List!
+Thanks to you, people can sail the skies freely
+and safely! It isn't much, but here. Take this.\e"
+M06030203,"\h(《Guildmaster》)Wait just a minute. I almost forgot. Here...
+This came here addressed to you.\e"
+M06030204,\h(　)You received a “Black Spot.”\e
+M06030205,"\h(《Guildmaster》)It's a message from the Angel of Death...
+Sounds like you're in trouble. Better watch
+your back out there.\e"
+M06250114,"\h(《Weapons Merchant》)I've heard quite a few nasty things about you...
+I hope they're not true.\e"
+M06250115,"\h(《Weapons Merchant》)Welcome, friend! I want to thank you on behalf
+of all of Nasr for bringing peace to our skies
+once again! All praise Vyse the Bounty King!\e"
+M06250116,"\h(《Weapons Merchant》)Welcome, Vyse the Exploration King! Tales of
+your exploits are well known amongst the
+merchants of Nasr! It is an honor to meet you!\e"
+M06250117,"\h(《Weapons Merchant》)Welcome, Sky Battle King Vyse! Tales of
+your exploits are well known amongst the
+merchants of Nasr! It is an honor to meet you!\e"
+M06250118,"\h(《Weapons Merchant》)Welcome to my store! Legends of your fishing
+skills have reached far and wide, Vyse the
+Fisher King! You must teach me your secrets!\e"
+M06250119,"\h(《Weapons Merchant》)Welcome, Vyse the Battle Lord! Tales of
+your exploits are well known amongst the
+merchants of Nasr! It is an honor to meet you!\e"
+M06250120,"\h(《Weapons Merchant》)Welcome! Please, come share your wealth with
+the people of this town!\e"
+M06250121,"\h(《Weapons Merchant》)Ah, welcome, Vyse the Charismatic! You have
+become quite the talk of the town! Your charm
+has won over the hearts of many!\e"
+M06270114,"\h(《Item Merchant》)I've heard all about you. Please... don't cause
+any trouble in my store. We have enough problems
+rebuilding this city as it is already...\e"
+M06270115,"\h(《Item Merhcant》)Welcome, Vyse! Thanks to you, we have been able
+to rebuild this city in relative peace without
+the constant threat of the Black Pirates!\e"
+M06270116,"\h(《Item Merchant》)Welcome, Vyse the Exploration King! I am honored
+that one so noble as yourself would grace my
+store with his presence!\e"
+M06270117,"\h(《Item Merchant》)Welcome, Sky Battle King Vyse! I am honored
+that one so noble as yourself would grace my
+store with his presence!\e"
+M06270118,"\h(《Item Merchant》)Welcome, Vyse the Fisher King! Your fishing
+skills have become quite the inspiration for
+our town! Our fisherman worship you!\e"
+M06270119,"\h(《Item Merchant》)Welcome, Vyse the Battle Lord! I am honored
+that one so noble as yourself would grace my
+store with his presence!\e"
+M06270120,"\h(《Item Merchant》)Welcome, Vyse the Extravagant! Please, share
+your wealth with this city! With your help, we
+can rebuild this place to its former glory!\e"
+M06270121,"\h(《Item Merchant》)Welcome, Vyse the Charismatic! I am honored
+that one so noble as yourself would grace my
+store with his presence!\e"
+Mwanted00,"\h(　)You received 1,000 gold for defeating
+“Baltor the Black Bearded.”\e"
+Mwanted01,"\h(　)You received 2,000 gold for defeating
+“Rupee of the Larso Clan.”\e"
+Mwanted02,"\h(　)You received 4,000 gold for defeating
+“Gordo the Round.”\e"
+Mwanted03,"\h(　)You received 5,000 gold for defeating
+“Loose Cannon Lapen.”\e"
+Mwanted04,"\h(　)You received 8,000 gold for defeating
+“The Ixa'ness Demons.”\e"
+Mwanted05,"\h(　)You received 20,000 gold for defeating
+“Vize the Imposter.”\e"
+Mwanted06,"\h(　)You received 20,000 gold for defeating
+“Daikokuya the Wealthy.”\e"
+Mwanted07,"\h(　)You received 30,000 gold for defeating
+“Lord Zivilyn Bane.”\e"
+Ms013b000,"\h(《Vyse》)That's a pretty nice fountain.
+It's strange to see them use water like this
+when it's so scarce in Nasr.\c"
+Ms013b001,"\h(《Vyse》)It's cool, clear water.
+Almost makes me want to go for a swim.
+Heh… That would be a little too embarrassing.\c"
+Ms013b002,"\h(《Vyse》)I wonder what's in the barrel?
+Hey, homemade pickles! I hope they won't mind
+if I have just a litle taste…\c"
+Ms013b003,\h(《Vyse》)“Today's lunch menu…”\e
+Ms013b004,"\h(《Vyse》)“Pasta of Pure Passion”
+“Steaming Soup of Love”
+…I'd be too embarrassed to order anything here.\c"
+Ms013b005,"\h(《Vyse》)That's the royal palace ahead. It's surrounded
+completely by water. You'd never think that
+this was a desert kingdom…\c"
+Ms013b006,"\h(　)“Enjoy the comfortable life that
+you deserve. This way to Osman's Loans.”\c"
+Ms013b007,"\h(《Vyse》)Mmm… This loqua smells great! It looks like
+someone sure knows how to pick their Loquat
+Berries right!\c"
+Ms013b008,"\h(《Vyse》)Flying Fish soaked in oil, smoked Red Sardis…
+They have all kinds of expensive foods here.\c"
+Ms013b009,"\h(《Vyse》)It says there's Valuan loqua inside.
+I guess trade is more important to
+Valua and Nasr than being enemies.\c"
+Ms013b010,"\h(《Vyse》)It's a well-made sieve.
+It looks like it was made
+by a master craftsman.\c"
+Ms013b011,"\h(《Vyse》)Hey, it's a miniature model of the palace.
+It's made pretty well.
+Hmm… almost makes me want to buy it.\c"
+Ms013b012,"\h(《Vyse》)“Nasr Dance Lessons:
+Learn the traditional dances of the desert”
+I wonder if this is where Belleza learned?\c"
+Ms013b013,"\h(《Vyse》)“Observation tower above. Leave your handprint!”
+I wonder if I can get a good view of Nasrad
+from up there?\c"
+Ms013b014,"\h(《Vyse》)Now, that looks nice…
+There's flowers floating in the fountain.\c"
+Ms013b015,\h(　)Hum dee dum dee dum…\e
+Ms013b116,"\h(《Vyse》)Oops…
+It sounds like a woman is staying in this room.
+I probably should just leave this room alone.\e"
+Ms013b117,"\h(《Vyse》)But, that voice…
+Why does it sound so familiar?\c"
+Ms013b016,"\h(《Vyse》)Now, that's an old compass. I haven't seen one
+of these in years! They sure don't make them
+like they used to…\c"
+Ms013b017,"\h(《Vyse》)It's a wanted poster… Hmm… Nope, no one
+I know. To Air Pirates, having a price on your
+own head is sort of a status thing.\c"
+Ms013b018,"\h(《Vyse》)“Navigator wanted…”
+“Treasure map for sale…”
+There's all kinds of postings.\c"
+Ms013b019,"\h(《Vyse》)Wow… This painting of the royal palace at night
+sure looks pretty.\c"
+Ms013b020,"\h(《Vyse》)“A real drink for a real man!
+A taste of the desert, Khale-Relik Loqua!”
+Huh? Who'd want to taste the desert?\c"
+Ms013b021,"\h(　)“Soft pastries made by our master chefs!
+Perfect for a light snack, any time of the day!”
+\c"
+Ms013b022,"\h(《Vyse》)So this is what Nasr rugs look like.
+I hear they're really expensive.
+…Maybe I shouldn't touch it.\c"
+Ms013b023,"\h(《Vyse》)They have all sorts of spices. I remember Mom
+used to use all kinds of different spices, too…
+But, I don't think these are the same kinds.\c"
+Ms013b024,"\h(《Vyse》)I wonder what this stuff is… It smells a little
+like medicine. Maybe they mix this with herbs
+and stuff to make medicine?\c"
+Ms013b025,"\h(《Vyse》)Ack!
+…Oh, it's just a mannequin. It's just dressed
+up in traditional Nasrean garb…\c"
+Ms013b026,"\h(《Vyse》)It's a pile of weapons and ammunition.
+I can't believe they just leave it
+out like this.\c"
+Ms013b027,"\h(《Vyse》)Hey, a Nasr long sword.
+Its long, exposed blade is unique
+to this region of the world.\c"
+Ms013b028,"\h(《Vyse》)This treasure chest is beautifully crafted!
+I don't care what's inside… I want to take it
+just for the chest itself!\c"
+Ms013b029,"\h(《Vyse》)It's an expensive-looking vase. I wonder if
+pickles made in a vase like this taste any
+better than pickles made in a normal vase…\c"
+Ms013b030,"\h(《Vyse》)It's an impressive safe…
+I almost want to try to see if I can crack it,
+but I shouldn't steal from civilians.\c"
+Ms013b031,"\h(《Vyse》)It's a picture of some kind of golden bird. I've
+never seen one of those things before… I wonder
+where it's from?\c"
+Ms013b032,"\h(《Vyse》)The sign… the cushions…
+Someone must really like cats.\c"
+Ms013b033,"\h(《Aika》)Wow, what a beautiful fountain!
+It's so weird that there's a fountain like this
+in the middle of the desert.\c"
+Ms013b034,"\h(《Aika》)The water's so cool and clear!
+Maybe I can take off my boots and splash around.
+…Or maybe not.\c"
+Ms013b035,"\h(《Aika》)Hey, pickles!
+No one's looking… Heh, maybe I'll just sneak
+a little taste… Mmm! Good!\c"
+Ms013b036,\h(《Aika》)“Today's lunch menu…”\e
+Ms013b037,"\h(《Aika》)“Romantic Moonlit Desert Steak”
+“Prince on a Dhabu Salad”
+… These names are so romantic!!\c"
+Ms013b038,"\h(《Aika》)Oh, so this is the Nasr royal palace.
+A palace floating on water…
+It's almost like a fairy tale.\c"
+Ms013b039,"\h(　)“Enjoy the comfortable life you deserve.
+This way to Osman's Loans.”\c"
+Ms013b040,"\h(《Aika》)This loqua smells so good! I wonder who made it?
+I bet the guys back home would love to have a
+glass of this stuff…\c"
+Ms013b041,"\h(《Vyse》)Flying Fish soaked in oil, smoked Red Sardis…
+It all sounds so good…\c"
+Ms013b042,"\h(《Aika》)Valuan loqua, huh?
+I bet it's hard to get Valuan loqua here in
+Nasr, so it's probably really expensive.\c"
+Ms013b043,"\h(《Aika》)This sieve's cute!
+It looks pretty sturdy, too. I want one!\c"
+Ms013b044,"\h(《Aika》)It's a model of the Nasr royal palace!
+Whoever built this must be an excellent artist!
+I wish I could make something like this!\c"
+Ms013b045,"\h(《Aika》)“Nasr Dance Lessons:
+Learn the traditional dances of the desert”
+Um… I really don't think I have the time.\c"
+Ms013b046,"\h(《Aika》)“Observation tower above. Leave your handprint!”
+I wonder if I can get a view of all of Nasrad
+from up there?\c"
+Ms013b047,"\h(《Aika》)How beautiful!
+There's flowers floating in the fountain!\e"
+Ms013b048,"\h(《Fina》)I don't think it's very polite
+to walk into other people's
+rooms, Aika.\e"
+Ms013b149,"\h(《Aika》)Oh, sorry!
+Yeah, I shouldn't just barge in.
+Bad habit!\c"
+Ms013b049,"\h(《Aika》)This compass looks pretty old.
+Vyse loves looking at
+stuff like this…\c"
+Ms013b050,"\h(《Aika》)It's a wanted poster.
+Doesn't look like they have one for Vyse…
+I don't know if that's good or bad…\c"
+Ms013b051,"\h(《Aika》)“Navigator wanted…”
+“Treasure map for sale…”
+There's all kinds of postings here.\c"
+Ms013b052,"\h(《Aika》)A night view of the royal palace, huh?
+It's kinda romantic…\c"
+Ms013b053,"\h(《Aika》)“A real drink for a real man!
+A taste of the desert-- Khale-Relik Loqua!”
+…Ugh. No thanks.\c"
+Ms013b054,"\h(　)“Soft pastries made by our master chefs!
+Perfect for a light snack, any time of the day!”
+\c"
+Ms013b055,"\h(《Aika》)Oh, this is one of those really expensive Nasr
+rugs. There's no way I could afford one.\c"
+Ms013b056,"\h(《Aika》)There's all kinds of spices. I bet that if I
+could use all of these right, I'd be a really
+good cook. I suppose that's a big IF, though…\c"
+Ms013b057,"\h(《Aika》)There's some dried… stuff. What is this stuff,
+anyway? I don't think I've ever seen anything
+like this before…\c"
+Ms013b058,"\h(《Aika》)Yaah!
+…Oh, it's just a mannequin. It's wearing some
+Nasrean clothes… It sure scared me, though.\c"
+Ms013b059,"\h(《Aika》)Weapons and ammunition…
+It's all piled here pretty randomly.\c"
+Ms013b060,"\h(《Aika》)Wow, what a nice sword! I wish I had the money
+to buy it for Vyse… I'm sure he'd love
+something like this…\c"
+Ms013b061,"\h(《Aika》)Wow, what an intricate treasure box!
+Let's see what's inside…
+Oops… It's locked. It won't open.\c"
+Ms013b062,"\h(《Aika》)Wow, this vase looks expensive.
+I'd better not touch it, just in case. Knowing
+me, I'd probably drop it.\c"
+Ms013b063,"\h(《Aika》)That's a pretty impressive safe!
+It's got so many locks…
+It's just screaming, “Open me!”\c"
+Ms013b064,"\h(《Aika》)Hmm… Some sort of golden bird…
+Maybe it's supposed to be good luck for business
+or something.\c"
+Ms013b065,"\h(《Aika》)What a cute cushion!
+The cat on the lady's head must be the model.
+She must really like cats.\c"
+Ms013b066,"\h(《Vyse》)Oh, I almost forgot…\e"
+Ms013b067,"\h(《Vyse》)Before we head off looking for Daccat's Island,
+I should warn the king about Valua's plans.\c"
+Ms013b068,"\h(《Vyse》)What's up with this picture?
+It looks like someone just
+made random strokes with a brush!\c"
+Ms013b069,"\h(《Aika》)It looks like random brushstrokes, but if you
+keep looking at it, it starts looking like
+something… I just can't figure out what…\c"
+Ms013b070,"\h(《Vyse》)Hmm… It won't open.
+I guess it's locked.\c"
+Ms013b071,"\h(《Aika》)It won't open.
+Is it locked or something?\c"
+Ms013e000,"\h(《Vyse》)This fountain used to be
+so beautiful…\c"
+Ms013e001,"\h(《Vyse》)Everything's changed so much,
+but at least the water's still flowing…\c"
+Ms013e002,"\h(《Vyse》)Whoa…
+This was the entrance to the bazaar,
+but you can't get through anymore.\c"
+Ms013e003,"\h(《Vyse》)Whoa, this isn't good…
+There's not even a trace of the shop left…\c"
+Ms013e004,"\h(《Vyse》)The cargo's all been burned.
+There's nothing edible left.\c"
+Ms013e005,"\h(《Vyse》)They've started to rebuild the town,
+but the scars are still left… I don't think
+the people of Nasr will ever forget this…\c"
+Ms013e006,"\h(《Vyse》)It's hard to read under the dirt…
+I guess they haven't rewritten the menu
+since the bombardment.\c"
+Ms013e007,"\h(《Vyse》)“Today's specials…”
+\e"
+Ms013e008,"\h(《Vyse》)“Super Stamina Energy Lunch”
+“Warm Fuzzy Feeling Salad”
+… Interesting.\c"
+Ms013e009,"\h(《Vyse》)Hey, it's a miniature model of the palace.
+It's made pretty well.
+Hmm… almost makes me want to buy it.\c"
+Ms013e010,"\h(《Vyse》)“Nasr Dance Lessons:
+Learn the traditional dances of the desert”
+They haven't changed the date since the attack.\c"
+Ms013e011,"\h(《Vyse》)“Observation tower above. Leave your handprint!”
+I wonder if I can get a good view of Nasrad
+from up there?\c"
+Ms013e012,"\h(《Vyse》)Now, that looks nice…
+There's flowers floating in the fountain.\c"
+Ms013e013,\h(《Vyse》)Hmm… It's locked.\c
+Ms013e014,"\h(《Vyse》)Now, that's an old compass. I haven't seen one
+of these in years! They sure don't make them
+like they used to…\c"
+Ms013e015,"\h(《Vyse》)It's a wanted poster… Hmm… Nope, no one
+I know. To Air Pirates, having a price on your
+own head is sort of a status thing.\c"
+Ms013e016,"\h(《Vyse》)“Navigator wanted…”
+“Treasure map for sale…”
+There's all kinds of postings.\c"
+Ms013e017,"\h(《Vyse》)Wow… This painting of the royal palace at night
+sure looks pretty.\c"
+Ms013e018,"\h(《Vyse》)“A real drink for a real man!
+A taste of the desert, Khale-Relik Loqua!”
+Huh? Who'd want to taste the desert?\c"
+Ms013e019,"\h(　)“Soft pastries made by our master chefs!
+Perfect for a light snack, any time of the day!”
+\c"
+Ms013e020,"\h(《Vyse》)So this is what Nasr rugs look like.
+I hear they're really expensive.
+…Maybe I shouldn't touch it.\c"
+Ms013e021,"\h(《Vyse》)They have all sorts of spices. I remember Mom
+used to use all kinds of different spices, too…
+But, I don't think these are the same kinds.\c"
+Ms013e022,"\h(《Vyse》)I wonder what this stuff is… It smells a little
+like medicine. Maybe they mix this with herbs
+and stuff to make medicine?\c"
+Ms013e023,"\h(《Vyse》)Ack!
+…Oh, it's just a mannequin. It's just dressed
+up in traditional Nasrean garb…\c"
+Ms013e024,"\h(《Vyse》)It's a pile of weapons and ammunition.
+I can't believe they just leave it
+out like this.\c"
+Ms013e025,"\h(《Vyse》)Hey, a Nasr long sword.
+Its long, exposed blade is unique
+to this region of the world.\c"
+MQ0240000,"\h(《A Familiar-Looking Man》)Well, well, if it isn't Vyse!
+I never thought I'd actually get to meet the
+real you! The pleasure is all mine!\e"
+MQ0240001,"\h(《Vyse》)Wh, who the heck are you guys?!\e"
+MQ0240002,"\h(《Aika》)I know! These are the creeps that've been going
+around pretending to be us!\e"
+MQ0240003,"\h(《Vize》)My name is Vize. I used to be a traveling
+entertainer. My specialty? Impersonations.\e"
+MQ0240004,"\h(《Vize》)Lately, I discovered that whenever I impersonate
+you, people just throw their money on the ground
+and run away screaming.\e"
+MQ0240005,"\h(《Vize》)It's really made my life quite simple. I don't
+do a thing, and I get rich! All thanks to you!
+It's like taking candy from a baby! Bwahahaha!\e"
+MQ0240006,"\h(《Anita》)Hey there, big boy. I'm Anita, but I'm sure
+you'll remember me after today.\e"
+MQ0240007,"\h(《Vyse》)B, b, big boy??\e"
+MQ0240008,"\h(《Anita》)Forget that red-headed man-girl and come
+with me. I'll show you the true treasures
+of this world.\e"
+MQ0240009,"\h(《Aika》)H, hey!!! This girl is starting to really get
+on my nerves!\e"
+MQ0240010,"\h(《Faina》)I'm Faina. If we kill you, we'll become the
+“real” Vyse and crew.
+And nobody will be the wiser.\e"
+MQ0240011,"\h(《Faina》)To tell you the truth, you guys are a big thorn
+in our side. We're going to have to ask you
+to die.\e"
+MQ0240012,"\h(《Vize》)...Which, you see, leaves us with very few
+alternatives. And I believe that it is fate
+that we have met you this day.\e"
+MQ0240013,"\h(《Vize》)So, in order for us to live our life of luxury,
+we're going to need to kill you. It's nothing
+personal, really.\e"
+MQ0240014,"\h(《Vyse》)Don't think we're just going to sit here while
+creeps like you just use our names for your own
+greed! We'll settle this aboard my ship!\e"
+MQ0240015,"\h(《Vize》)Heh heh, I knew you would say that. The real
+Vyse would never in his right mind think of
+endangering the lives of the townsfolk.\e"
+MQ0240016,"\h(《Vize》)And while we're out there, we might as well take
+your ship! That would complete our image like
+nothing else! Bwahahahahaha!\e"
+MQ0250000,"\h(《Vize》)Okay okay okay! We give up!! Man, you guys
+really ARE the real deal. I never imagined you
+were so strong! No, I'm being serious!\e"
+MQ0250001,"\h(《Vize》)Just please! Let us live! We promise not to do
+anything bad anymore! We're really just big fans
+of yours... You wouldn't kill your fans, right?\e"
+MQ0250002,"\h(《Anita》)Come on, big boy... Just let us go. Pleeease?\e"
+MQ0250003,"\h(《Faina》)This is pathetic. I told you we never should've
+gotten involved in this kind of stuff in the
+first place.\e"
+MQ0250004,"\h(《Vyse》)If you guys promise not to use our names to do
+evil deeds anymore, we'll let you live.\e"
+MQ0250005,"\h(《Aika》)So, what do you guys plan to do from here on?\e"
+MQ0250006,"\h(《Vize》)Well, we won't be making trouble for ourselves,
+that's for sure. And, well, we are former
+entertainers.\e"
+MQ0250007,"\h(《Vize》)I figure we can just run a Vyse and crew
+look-alike show. We could probably make a decent
+living off of that.\e"
+MQ0250008,"\h(《Aika》)I don't know whether you guys really got it
+together, or you're just a bunch of flakes.\e"
+MQ0250009,"\h(《Vize》)If you're ever in the neighborhood, please stop
+by! We'd love to have you as guest stars on our
+show! Bwahahahahahaha!\c"
+wanted000,\h(《地獄の案内人》)誰と戦う？\e
+wanted001,"\h(《誰と戦う？》)ピアストル
+ウォンテッド
+次へ\c"
+wanted002,\h(《案内人》)どの段階？\e
+wanted003,"\h(《どの段階？》)ピアストル第１段階
+ピアストル第２段階
+次へ\e"
+wanted004,"\h(《どの段階？》)ピアストル第３段階
+ピアストル第４段階
+戻る\e"
+wanted005,"\h(《誰と戦う？》)シモン
+モンテスネス
+次へ\e"
+wanted006,"\h(《誰と戦う？》)ラッペン
+ルピー
+次へ\e"
+wanted007,"\h(《誰と戦う？》)ビゴロ
+ダイコクヤ
+次へ\e"
+wanted008,"\h(《第１段階のバージョンは？》)リトルジャック
+デルフィナス・ヴァイス甲板
+戻る\e"
+wanted009,\h(《第１段階のバージョンは？》)戻る\e
+wanted010,"\h(《第２段階のバージョンは？》)デルフィナス・バルア甲板
+デルフィナス・ヴァイス甲板
+戻る\e"
+wanted011,"\h(《バージョンは？》)リトルジャック
+デルフィナス・ヴァイス甲板
+戻る\e"
+wanted012,"\h(《誰と戦う？》)バイス一行
+出る\e"
+wanted013,"\h(《どのアイテム？》)ムーンフィッシュ（２４匹）
+月の実（２５個）
+次へ\e"
+wanted014,"\h(《アイテムゲット》)ムーンフィッシュを２４匹手に入れた。
+\c"
+wanted015,"\h(《アイテムゲット》)月の実を２５個手に入れた。
+\c"
+wanted016,"\h(《バージョンは？》)ファイナルラミレス
+ファイナルガルシアン
+次へ\e"
+wanted017,"\h(《アイテムゲット》)キュピルセットを手に入れた。
+\c"
+wanted018,"\h(《アイテムゲット》)ガツガツのきのこ＆キャプテンマークを
+５０個ずつ手に入れた。
+\c"
+ship000,"\h(《カテゴリーは？》)ギガス
+アルマダ
+出る\e"
+ship001,"\h(《カテゴリーは？》)フリーバトル
+出る\e"
+ship002,"\h(《カテゴリーは？》)巨大生物
+出る\e"
+ship010,"\h(《どのギガス？》)レドキュラム（５０６）
+グリデ・ガルデ（５１５）
+次へ\e"
+ship011,"\h(《どのギガス？》)ブリュウホウ（５３１）
+イエラーガ（５３５）
+次へ\e"
+ship012,"\h(《どのギガス？》)ジェロス（５４７）
+出る\e"
+ship020,"\h(《どのアルマダ艦？》)バルア巡洋艦（５０１）
+リンクス（５０７）
+次へ\e"
+ship021,"\h(《どのアルマダ艦？》)カミュレオン（５０９）
+カミュレオン（５１４）
+次へ\e"
+ship022,"\h(《どのアルマダ艦？》)バルア戦艦（５１８）
+ガルガンチュア要塞（５１９）
+次へ\e"
+ship023,"\h(《どのアルマダ艦？》)グレゴリオ巡洋艦（５２０）
+グレゴリオ戦艦（５２１）
+次へ\e"
+ship024,"\h(《どのアルマダ艦？》)アウリーガ（５２２）
+ドラコ（５３０）
+次へ\e"
+ship025,"\h(《どのアルマダ艦？》)バルアЖ戦艦（５４３）
+ガルシアン親衛艦（５４４）
+次へ\e"
+ship026,"\h(《どのアルマダ艦？》)カミュレオン（５４１）
+ヒュドラ（５４５）
+出る\e"
+ship100,"\h(《どのイベント？》)ブラックベアード（５００）
+Жジャンク船（５２５）
+次へ\e"
+ship101,"\h(《どのイベント？》)アンギーラ（５２４）
+ブラックベアード２（５７３）
+次へ\e"
+ship102,"\h(《どのイベント？》)ガディタウス１（５８０）
+ガディタウス２（５８１）
+次へ\e"
+ship103,"\h(《どのイベント？》)ガディタウス３（５８２）
+ガディタウス４（５８３）
+出る\e"
+ship110,"\h(《どのフリーバトル？》)バルアЖ駆逐艦（５６４）
+バルアЖ巡洋艦（５５６）
+次へ\e"
+ship111,"\h(《どのフリーバトル？》)バルアЖ新鋭艦（５７５）
+黒空賊船（５５２）
+次へ\e"
+ship112,"\h(《どのフリーバトル？》)Ж黒空賊船（５６８）
+バルア戦艦１（５５８）
+次へ\e"
+ship113,"\h(《どのフリーバトル？》)バルア戦艦２（５６２）
+バルアЖ戦艦（５６９）
+次へ\e"
+ship200,"\h(《どの巨大生物？》)ロック鳥（５７６）
+オビスボー（５７７）
+次へ\e"
+ship201,"\h(《どの巨大生物？》)ヒュージーエルモ（５７８）
+アラーニャ（５７９）
+次へ\e"
+ship202,"\h(《どの巨大生物？》)ラージャ１（５３７）
+ラージャ２（５３８）
+出る\e"
+ship300,"\h(《どの船戦闘？》)バトル１（５１３〜５５０）
+バトル２（５５１〜５６０）
+バトル３（５６２〜５７２）\e"
+ship301,"\h(《どの船戦闘？》)ロック鳥（５１３）
+オビスボー（５２３）
+次へ\e"
+ship302,"\h(《どの船戦闘？》)アラーニャ（５３２）
+カミュレオン（５４０）
+次へ\e"
+ship303,"\h(《どの船戦闘？》)バルア戦艦（５４２）
+黒空賊船（５５０）
+出る\e"
+ship311,"\h(《どの船戦闘？》)黒空賊船（５５１）
+バルアЖ駆逐艦（５５３）
+次へ\e"
+ship312,"\h(《どの船戦闘？》)バルアЖ駆逐艦（５５５）
+バルア戦艦１（５５８）
+次へ\e"
+ship313,"\h(《どの船戦闘？》)Ж黒空賊船（５５９）
+バルアЖ駆逐艦（５６０）
+出る\e"
+ship321,"\h(《どの船戦闘？》)バルア戦艦２（５６２）
+バルアЖ戦艦（５６３）
+次へ\e"
+ship322,"\h(《どの船戦闘？》)バルアЖ駆逐艦（５６４）
+Ж黒空賊船（５６５）
+次へ\e"
+ship323,"\h(《どの船戦闘？》)バルアЖ新鋭艦（５６６）
+Ж黒空賊船（５７２）
+出る\e"
+ship324,"\h(《どの船戦闘？》)ガツきのこ＆キャプテンマーク
+キュピルセット
+出る\e"
+ship325,"\h(《どの船戦闘？》)イベントシップバトル
+フリーシップバトル
+出る\e"
+level000,"\h(《レベル範囲》)ピアストル１（リトルジャック）
+ＬＶ．15以下
+\c"
+level001,"\h(《レベル範囲》)ピアストル１（リトルジャック）
+ＬＶ．16〜20
+\c"
+level002,"\h(《レベル範囲》)ピアストル１（リトルジャック）
+ＬＶ．21〜25
+\c"
+level003,"\h(《レベル範囲》)ピアストル１（リトルジャック）
+ＬＶ．26〜30\c"
+level004,"\h(《レベル範囲》)ピアストル１（リトルジャック）
+ＬＶ．31以上
+\c"
+level005,"\h(《レベル範囲》)ピアストル１（バルア甲板）
+ＬＶ．15以下
+\c"
+level006,"\h(《レベル範囲》)ピアストル１（バルア甲板）
+ＬＶ．16〜20
+\c"
+level007,"\h(《レベル範囲》)ピアストル１（バルア甲板）
+ＬＶ．21〜25
+\c"
+level008,"\h(《レベル範囲》)ピアストル１（バルア甲板）
+ＬＶ．26〜30
+\c"
+level009,"\h(《レベル範囲》)ピアストル１（バルア甲板）
+ＬＶ．31以上
+\c"
+level010,"\h(《レベル範囲》)ピアストル１（デルフィナス）
+ＬＶ．15以下\c"
+level011,"\h(《レベル範囲》)ピアストル１（デルフィナス）
+ＬＶ．16〜20
+\c"
+level012,"\h(《レベル範囲》)ピアストル１（デルフィナス）
+ＬＶ．21〜25
+\c"
+level013,"\h(《レベル範囲》)ピアストル１（デルフィナス）
+ＬＶ．26〜30
+\c"
+level014,"\h(《レベル範囲》)ピアストル１（デルフィナス）
+ＬＶ．31以上
+\c"
+level015,"\h(《レベル範囲》)ピアストル２（バルア甲板）
+ＬＶ．30以下
+\c"
+level016,"\h(《レベル範囲》)ピアストル２（バルア甲板）
+ＬＶ．31〜35
+\c"
+level017,"\h(《レベル範囲》)ピアストル２（バルア甲板）
+ＬＶ．36〜40
+\c"
+level018,"\h(《レベル範囲》)ピアストル２（バルア甲板）
+ＬＶ．41〜45
+\c"
+level019,"\h(《レベル範囲》)ピアストル２（バルア甲板）
+ＬＶ．46以上
+\c"
+level020,"\h(《レベル範囲》)ピアストル２（デルフィナス）
+ＬＶ．30以下
+\c"
+level021,"\h(《レベル範囲》)ピアストル２（デルフィナス）
+ＬＶ．31〜35
+\c"
+level022,"\h(《レベル範囲》)ピアストル２（デルフィナス）
+ＬＶ．36〜40
+\c"
+level023,"\h(《レベル範囲》)ピアストル２（デルフィナス）
+ＬＶ．41〜45
+\c"
+level024,"\h(《レベル範囲》)ピアストル２（デルフィナス）
+ＬＶ．46以上
+\c"
+level025,"\h(《レベル範囲》)ピアストル３（デルフィナス）
+ＬＶ．35以下
+\c"
+level026,"\h(《レベル範囲》)ピアストル３（デルフィナス）
+ＬＶ．36〜40
+\c"
+level027,"\h(《レベル範囲》)ピアストル３（デルフィナス）
+ＬＶ．41〜45
+\c"
+level028,"\h(《レベル範囲》)ピアストル３（デルフィナス）
+ＬＶ．46〜50
+\c"
+level029,"\h(《レベル範囲》)ピアストル３（デルフィナス）
+ＬＶ．51以上
+\c"
+level030,"\h(《レベル範囲》)ピアストル４（デルフィナス）
+ＬＶ．40以下
+\c"
+level031,"\h(《レベル範囲》)ピアストル４（デルフィナス）
+ＬＶ．41〜45
+\c"
+level032,"\h(《レベル範囲》)ピアストル４（デルフィナス）
+ＬＶ．46〜50
+\c"
+level033,"\h(《レベル範囲》)ピアストル４（デルフィナス）
+ＬＶ．51〜55
+\c"
+level034,"\h(《レベル範囲》)ピアストル４（デルフィナス）
+ＬＶ．56以上
+\c"
+level035,"\h(《レベル範囲》)ルピー＆バーツ(リトルジャック)
+ＬＶ．15以下
+\c"
+level036,"\h(《レベル範囲》)ルピー＆バーツ(リトルジャック)
+ＬＶ．16〜20
+\c"
+level037,"\h(《レベル範囲》)ルピー＆バーツ(リトルジャック)
+ＬＶ．21〜25
+\c"
+level038,"\h(《レベル範囲》)ルピー＆バーツ(リトルジャック)
+ＬＶ．26〜30
+\c"
+level039,"\h(《レベル範囲》)ルピー＆バーツ(リトルジャック)
+ＬＶ．31以上
+\c"
+level040,"\h(《レベル範囲》)ルピー＆バーツ(デルフィナス)
+ＬＶ．15以下
+\c"
+level041,"\h(《レベル範囲》)ルピー＆バーツ(デルフィナス)
+ＬＶ．16〜20
+\c"
+level042,"\h(《レベル範囲》)ルピー＆バーツ(デルフィナス)
+ＬＶ．21〜25
+\c"
+level043,"\h(《レベル範囲》)ルピー＆バーツ(デルフィナス)
+ＬＶ．26〜30
+\c"
+level044,"\h(《レベル範囲》)ルピー＆バーツ(デルフィナス)
+ＬＶ．31以上
+\c"
+level045,\h(《レベル範囲》)モンテスネス　ＬＶ．35以下\c
+level046,\h(《レベル範囲》)モンテスネス　ＬＶ．36〜40\c
+level047,\h(《レベル範囲》)モンテスネス　ＬＶ．41〜45\c
+level048,\h(《レベル範囲》)モンテスネス　ＬＶ．46〜50\c
+level049,\h(《レベル範囲》)モンテスネス　ＬＶ．51以上\c
+level050,\h(《レベル範囲》)ラッペン　ＬＶ．30以下\c
+level051,\h(《レベル範囲》)ラッペン　ＬＶ．31〜35\c
+level052,\h(《レベル範囲》)ラッペン　ＬＶ．36〜40\c
+level053,\h(《レベル範囲》)ラッペン　ＬＶ．41〜45\c
+level054,\h(《レベル範囲》)ラッペン　ＬＶ．46以上\c
+level055,\h(《レベル範囲》)ダイコクヤ　ＬＶ．40以下\c
+level056,\h(《レベル範囲》)ダイコクヤ　ＬＶ．41〜45\c
+level057,\h(《レベル範囲》)ダイコクヤ　ＬＶ．46〜50\c
+level058,\h(《レベル範囲》)ダイコクヤ　ＬＶ．51〜55\c
+level059,\h(《レベル範囲》)ダイコクヤ　ＬＶ．56以上\c
+level060,\h(《レベル範囲》)バイス　ＬＶ．35以下\c
+level061,\h(《レベル範囲》)バイス　ＬＶ．36〜40\c
+level062,\h(《レベル範囲》)バイス　ＬＶ．41〜45\c
+level063,\h(《レベル範囲》)バイス　ＬＶ．46〜50\c
+level064,\h(《レベル範囲》)バイス　ＬＶ．51以上\c
+level065,\h(《レベル範囲》)シモン　ＬＶ．40以下\c
+level066,\h(《レベル範囲》)シモン　ＬＶ．41〜45\c
+level067,\h(《レベル範囲》)シモン　ＬＶ．46〜50\c
+level068,\h(《レベル範囲》)シモン　ＬＶ．51〜55\c
+level069,\h(《レベル範囲》)シモン　ＬＶ．56以上\c
+level070,\h(《レベル範囲》)ビゴロ　ＬＶ．55以下\c
+level071,\h(《レベル範囲》)ビゴロ　ＬＶ．56〜60\c
+level072,\h(《レベル範囲》)ビゴロ　ＬＶ．61〜65\c
+level073,\h(《レベル範囲》)ビゴロ　ＬＶ．66〜89\c
+level074,\h(《レベル範囲》)鬼ビゴロ　ＬＶ．90以上\c
+"",m5130000
+"",M0239
+"",me013e.sct
+"",me013d.sct
+"",m5130000
+"",M0239
+"",a013eq24.mld
+"",a013eq24.mld
+"",e6q001
+"",m0306
+"",a013eq24.mld
+"",a013eq25.mld
+"",a013eq25.mld
+"",e6q001
+"",m0306
+"",m0320
+"",a013eq25.mld

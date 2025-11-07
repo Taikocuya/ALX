@@ -1,0 +1,94 @@
+[Event Name],Task ID
+MF0040000,\h(《Vyse》)That chunk of metal is huge!!!\e
+MF0040001,"\h(《Fina》)Beneath it is ”The Maw of Tartas.” 
+It's an entrance to a series of caverns.\e   "
+MF0040002,"\h(《Fina》)These caverns are the resting place of the 
+Yellow Crystal as well as the Yellow Gigas.\e"
+MF0040003,"\h(《Fina》)This seal was built by my people after the Rains
+of Destruction in order to contain the Yellow 
+Gigas. Now the Yellow Gigas lies dormant…\e"
+MF0040004,\h(《Drachma》)Good… keep that thing locked up… \e
+MF0040005,"\h(《Aika》)Well, I know this means that the Gigas can't get
+out…\e"
+MF0040006,"\h(《Aika》)But, it also means that we can't get in!\e"
+MF0040007,"\h(《Vyse》)Hmm… I don't think there's any way we can get 
+through this seal. What should we do?\e"
+MF0040008,\h(　)Hey! Don't move!\e
+MF0040009,"\h(《Valuan Soldier》)The punishment for trespassing near the Great 
+Seal is death!\e"
+MF0050000,"\h(《Valuan Soldier》)We… we surrender!
+Please don't kill us.\e"
+MF0050001,"\h(《Aika》)Tell us how to open the seal, and we'll let you 
+live!\e"
+MF0050002,"\h(《Valuan Soldier》)That's impossible!
+Our entire army couldn't open it!\e"
+MF0050003,"\h(《Valuan Soldier》)Our commanders aren't concerned with the Yellow 
+Crystal right now because it's already in Valua 
+and it's safe from you.\e"
+MF0050004,"\h(《Drachma》)Hmm…
+That makes sense. They'll go after the other
+Crystals first…\e"
+MF0050005,"\h(《Vyse》)Something's not right… You'd think that this 
+area would be more heavily guarded. Where are 
+the rest of your men?\e"
+MF0050006,\h(《Valuan Soldier》)They're preparing for the raid on Nasrad.\e
+MF0050007,"\h(《Aika》)What?!
+Valua is going to start a war with Nasr?\e"
+MF0050008,"\h(《Valuan Soldier》)I, I think so.
+I'm just a grunt, so I don't know any of the 
+details…\e"
+MF0050009,"\h(《Valuan Soldier》)And a there was a giant arcwhale… It destroyed
+a few of our ships recently… One of our 
+Admirals is hunting it.\e"
+MF0050010,\h(《Drachma》)A giant arcwhale?!\e
+MF0050011,"\h(《Drachma》)Rhaknam is here?!
+Answer me!\e"
+MF0050012,"\h(《Valuan Soldier》)I, I don't know for certain. Some fog rolled in
+yesterday and there were sightings of a huge 
+creature!\e"
+MF0050013,\h(《Drachma》)That means it's probably still in the area.\e
+MF0050014,\h(《Drachma》)I have to go after Rhaknam…\e
+MF0050015,"\h(《Drachma》)I've been following you kids around looking for
+the Crystals all this time… but now it's your 
+turn to follow me.\e"
+MF0050016,"\h(《What will you do?》)”We understand. We'll go with you…”
+”It's too dangerous…”\e"
+MF0050017,"\h(《Vyse》)Well, it doesn't look like we'll be able to get 
+to the Yellow Crystal anytime soon. Okay 
+Drachma, we'll go with you.\e"
+MF0050018,"\h(《Drachma》)Very well… Now the time has come for me to 
+finally face Rhaknam.\e"
+MF0050019,"\h(《Drachma》)He was the reason that I got the Harpoon Cannon 
+in the first place… I'm going to kill him… or 
+die tryin'.\e"
+MF0050020,\h(《Vyse》)It's too dangerous! Rhaknam will kill us all.\e
+MF0050021,"\h(《Drachma》)If you don't come with me,
+I'm leavin' you here…
+In the hands of the Valuans. \e"
+MF0050022,"\h(《Drachma》)It looks like you don't have much of a choice… 
+boy…\e"
+M01250000,"\h(《What will you do?》)”Return to the Little Jack.”
+”Stay here a little while longer.”\c"
+M01250001,"\h(《What will you do?》)”Return to the Delphinus.”
+”Stay here a little while longer.”\c"
+M01250002,"\h(《Vyse》)Man… I can't believe that there's a Gigas
+sealed somewhere under this thing…\c"
+M01250003,"\h(《Enrique》)The Yellow Moon Crystal and the Yellow Gigas
+are sealed beneath this stone tablet. We cannot
+enter the Maw of Tartas from here, though.\e"
+M01250004,"\h(《Enrique》)But, there is an interconnected series of
+tunnels and crevasses underneath Valua. We might
+be able to get in through there.\c"
+"",k8030000
+"",M5250000
+"",EV_F04発生しました。\c
+"",a125cf04.mld
+"",a125cf04.mld
+"",M0374
+"",e6f004
+"",a125cf04.mld
+"",a125cf05.mld
+"",a125cf05.mld
+"",M0376
+"",e6f005
+"",a125cf05.mld

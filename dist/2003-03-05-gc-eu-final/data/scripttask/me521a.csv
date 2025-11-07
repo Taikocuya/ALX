@@ -1,0 +1,43 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MA5210000,"\h(«Gregorio Battleship»)You'll never defeat the 2nd Fleet
+of the Imperial Armada!\c"
+MA5210001,"\h(«What will you do?»)“Close in and look for an opening.”
+“Play it safe and continue on the same course.”\c"
+MA5210002,"\h(«What will you do this time?»)“Close in and look for an opening.”
+“Play it safe and continue on the same course.”\c"
+MFA5210000,"\h(«Cuirassé Gregorio»)Vous ne vaincrez jamais la 2ème Flotte
+de l'Armada Impériale !\c"
+MFA5210001,"\h(«Que ferez-vous ?»)“Se rapprocher et chercher une ouverture.”
+“Maintenir le cap, c'est plus sûr.”\c"
+MFA5210002,"\h(«Que ferez-vous cette fois ?»)“Se rapprocher et chercher une ouverture.”
+“Maintenir le cap, c'est plus sûr.”\c"
+MGA5210000,"\h(«Gregorio-Schlachtschiff»)Die 2. Flotte der Kaiserlichen Armada
+werdet ihr niemals besiegen!\c"
+MGA5210001,"\h(«Was wirst du tun?»)“Dich nähern und auf eine Gelegenheit warten.”
+“Sichergehen und den Kurs beibehalten.”\c"
+MGA5210002,"\h(«Was wirst du diesmal machen?»)“Dich nähern und auf eine Gelegenheit warten.”
+“Sichergehen und den Kurs beibehalten.”\c"
+MSA5210000,"\h(«Acorazado de Gregorio»)¡Jamás derrotarás
+a la Segunda Flota de la Armada Imperial!\c"
+MSA5210001,"\h(«¿Qué vas a hacer?»)“Acercarme y buscar un sitio para atacar.”
+“No correr riesgos y continuar.”\c"
+MSA5210002,"\h(«¿Qué vas a hacer?»)“Acercarme y buscar un sitio para atacar.”
+“No correr riesgos y continuar.”\c"
+"",M0430
+"",f7100100S.p04
+"",f7100100S.p04
+"",me521a.sct
+"",me090a.sct
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",me242a.sct

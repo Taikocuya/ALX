@@ -1,0 +1,77 @@
+[Event Name],Task ID
+MA0050000,"\h(《Vice Captain》)Your Excellency, the sun is up and visibility is
+good. The preparations for your escape have been
+completed.\e"
+MA0050001,"\h(《Alfonso》)Good work.
+I have finished my preparations as well…\e"
+MA0050002,\h(《Alfonso》)… preparations to dispose of a traitor.\e
+MA0050003,\h(《Vice Captain》)W… what?\e
+MA0050004,"\h(《Vice Captain》)P… please!
+Your Excellency!!!
+What are you doing?!\e"
+MA0050005,"\h(《Alfonso》)I cannot tell the Empress that I lost my ship to
+the Air Pirates in a fair fight. I am going to
+need a scapegoat and you'll do quite nicely.\e"
+MA0050006,"\h(《Alfonso》)To keep my glorious reputation from being 
+tarnished, you must be sacrificed… \e"
+MA0050007,"\h(《Vice Captain》)N… no!
+You can't do this!\e"
+MA0050008,\h(《Vice Captain》)Aaaaaaahhhh!\e
+MA0050009,"\h(《Alfonso》)Even in death, he'll serve me well. 
+I can't wait to tell the Empress…\e"
+MA0050010,"\h(《Alfonso》)“But Empress, my own Vice Captain betrayed us
+and allowed the Air Pirates on board… I could
+do naught but dispose of the traitor myself.”\e"
+MA0050011,"\h(　)So, this is how Valua treats its people…\e"
+MA0050012,\h(《Alfonso》)What?!\e
+MA0050013,"\h(《Vyse》)Now that we've taken control of your ship, we'll
+be taking the girl as well.
+There's just one more thing I need to do.\e"
+MA0050014,"\h(《Vyse》)After seeing you kill an unarmed man in cold 
+blood, I can't allow you to walk away from this.
+Draw your blade, Alfonso!\e"
+MA0050015,"\h(《Alfonso》)Hah… An uncivilized Rogue such as yourself
+wants to challenge me? \e"
+MA0050016,"\h(《Alfonso》)You aren't worth my effort, but perhaps you'd
+like to meet one of my pets.
+Come, Antonio!\e"
+MA0050017,\h(《Vyse》)What? What is that thing?!\e
+MA0050018,"\h(《Alfonso》)He's my personal war beast.
+I was going to leave him here, but it seems I've
+found a use for him after all.\e"
+MA0050019,"\h(《Alfonso》)Antonio!
+Trample the pests… and make their deaths as
+painful as possible.\e"
+MA0060000,"\h(《Alfonso》)Bah!
+Perhaps there is more to you than meets the eye.\e"
+MA0060001,"\h(《Alfonso》)Well, Vyse of the Blue Rogues…
+You will rue this day… the day you stood
+against the Valuan Empire. We shall meet again.\e"
+MA0060002,"\h(《Aika》)You coward! 
+What kind of a commander sacrifices his own men 
+and his ship to run from a fight?\e"
+MA0060003,"\h(《Aika》)Well, even though he was a coward, he was a
+coward with gold…\e"
+MA0060004,"\h(《Vyse》)True… I suppose that the ship and everything on
+it officially belong to us now.\e"
+MA0060005,"\h(《Aika》)We haven't had a catch this big for quite some 
+time! The people back home are going to be 
+impressed.\e"
+MA0060006,"\h(《Aika》)And look at this girl.
+I've never seen anyone dressed like that before.\e"
+MA0060007,"\h(《Vyse》)You're right. She sure doesn't look like she's 
+from around here. I wonder why Valua was trying 
+to kidnap this girl in the first place.\e"
+MA0060008,"\h(《Aika》)Hmm…
+I wonder where she's from…\e"
+"",me028e.sct
+"",a101ca05.mld
+"",M0314
+"",e6a005
+"",a101ca05.mld
+"","A06通過しました。
+アルフォンソが逃げた!
+ファイナを救出しました。\c"
+"",a101ca06.mld
+"",M0309
+"",e6a006

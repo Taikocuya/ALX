@@ -1,0 +1,292 @@
+[Event Name],Task ID
+MH0220000,\h(«Kangan»)How fares the battle?\e
+MH0220001,"\h(«Yafutoman Soldier»)My Lord… the Tenkou are swarming all around 
+the Valuans, but the Armada is holding their 
+position. We seem to be at a stalemate.\e"
+MH0220002,"\h(«Kangan»)Heh heh… I see. Very well. 
+It is time for us to join the battle 
+and end this… once and for all!\e"
+MSH0220000,\h(«Kangan»)¿Cómo va la batalla?\e
+MSH0220001,"\h(«Soldado Yafutoman»)Mi Lord…… los Tenkou se asientan alrededor de
+los Valuan, pero la Armada mantiene su posición.
+Estamos en un punto muerto.\e"
+MSH0220002,"\h(«Kangan»)Je, je…… Ya veo. Muy bien.
+Es hora de que nos unamos a la batalla y
+terminemos con esto…… ¡de una vez por todas!\e"
+MFH0220000,\h(«Kangan»)Comment se passe la bataille ?\e
+MFH0220001,"\h(«Soldat Yafutoman»)Mon Seigneur…… les Tenkou ont encerclé les
+Valuans, mais l'Armada tient bon. On dirait que
+nous sommes dans une impasse.\e"
+MFH0220002,"\h(«Kangan»)Hé hé…… Je vois. Très bien.
+Il est temps que nous intervenions pour mettre
+fin à la bataille…… une fois pour toute !\e"
+MGH0220000,\h(«Kangan»)Wie läuft die Schlacht?\e
+MGH0220001,"\h(«Yafutoma-Soldat»)Mein Gebieter…… die Tenkou umzingeln die
+Valuaner, aber die Armada hält ihre Stellung.
+Wir scheinen eine Sackgasse erreicht zu haben.\e"
+MGH0220002,"\h(«Kangan»)Aha…… verstehe. Also gut. Es wird Zeit, dass
+wir uns in die Schlacht einschalten und dies……
+ein für alle Mal beenden!\e"
+MH0290000,"\h(«Aika»)Wow!
+The water here is so calm… it looks like glass.\e"
+MH0290001,"\h(«Enrique»)It's hard to imagine that this was a volcanic
+area covered in lava at one time.\e"
+MH0290002,\h(«Aika»)What is that thing?!\e
+MH0290003,"\h(«Vyse»)What?!
+It looks like a huge bird!\e"
+MH0290004,\h(«Fina»)That must be Bluheim.\e
+MH0290005,\h(«Vyse»)Bluheim?\e
+MH0290006,"\h(«Fina»)Yes, Bluheim was the Blue Gigas.\e"
+MH0290007,"\h(«Fina»)It looks like Bluheim was trapped in the lava 
+and encased in stone.\e"
+MH0290008,"\h(«Enrique»)If that thing ever got free, we'd be in trouble.
+The Gigas that you faced so far couldn't fly.
+I can't imagine how tough this one would be.\e"
+MH0290009,"\h(«Vyse»)We should secure the Blue Crystal as soon as we
+can! Let's go!\e"
+MSH0290000,"\h(«Aika»)¡Oh!
+El tiempo está calmado…… el cielo parece de
+cristal.\e"
+MSH0290001,"\h(«Enrique»)Es difícil imaginar que esto una vez fuera una
+zona volcánica cubierta de lava.\e"
+MSH0290002,\h(«Aika»)¡¿Qué es eso?!\e
+MSH0290003,"\h(«Vyse»)¡¿Qué?!
+¡Parece un pájaro enorme!\e"
+MSH0290004,\h(«Fina»)Eso debe ser Bluheim.\e
+MSH0290005,\h(«Vyse»)¿Bluheim?\e
+MSH0290006,"\h(«Fina»)Sí, Bluheim era el Gigas Azul.\e"
+MSH0290007,"\h(«Fina»)Bluheim estaba atrapado en la lava y cubierto de
+piedra.\e"
+MSH0290008,"\h(«Enrique»)Si ese animal se libera, va a ser un
+problema. Los Gigas contra los que habéis
+luchado no podían volar como éste.\e"
+MSH0290009,"\h(«Vyse»)¡Tenemos que conseguir el Cristal Azul lo antes
+posible! ¡Vamos!\e"
+MFH0290000,"\h(«Aika»)Oaouh ! L'eau est vraiment calme ici…… on dirait
+du verre.\e"
+MFH0290001,"\h(«Enrique»)Ce n'est pas facile d'imaginer que jadis cet
+endroit était une région volcanique couverte de
+lave.\e"
+MFH0290002,\h(«Aika»)Qu'est-ce que c'est ?!\e
+MFH0290003,"\h(«Vyse»)Quoi ?!
+On dirait un oiseau géant !\e"
+MFH0290004,\h(«Fina»)Ce doit être Bluheim.\e
+MFH0290005,\h(«Vyse»)Bluheim ?\e
+MFH0290006,"\h(«Fina»)Oui, Bluheim était le Gigas Bleu.\e"
+MFH0290007,"\h(«Fina»)On dirait que Bluheim a été emprisonné dans la
+lave et encastré dans une pierre.\e"
+MFH0290008,"\h(«Enrique»)S'il était libéré un jour, nous aurions des
+problèmes. Les Gigas que vous avez rencontrés
+jusqu'à présent ne pouvaient pas voler.
+Celui-ci serait vraiment très fort.\e"
+MFH0290009,"\h(«Vyse»)Nous devrions mettre le plus vite possible à
+l'abri le Cristal Bleu ! Allons-y !\e"
+MGH0290000,"\h(«Aika»)Wow!
+Das Wasser hier ist so ruhig…… es sieht aus
+wie Glas.\e"
+MGH0290001,"\h(«Enrique»)Man kann sich schwer vorstellen, dass dies
+einmal ein Vulkangebiet war, das von Lava
+bedeckt war.\e"
+MGH0290002,\h(«Aika»)Was ist das für ein Ding?!\e
+MGH0290003,"\h(«Vyse»)Was?!
+Es sieht aus wie ein großer Vogel!\e"
+MGH0290004,\h(«Fina»)Das muss Bluheim sein.\e
+MGH0290005,\h(«Vyse»)Bluheim?\e
+MGH0290006,"\h(«Fina»)Ja, Bluheim war der Blue Gigas.\e"
+MGH0290007,"\h(«Fina»)Sieht so aus, als sei Bluheim in der Lava
+stecken geblieben und zu Stein erstarrt.\e"
+MGH0290008,"\h(«Enrique»)Wenn dieses Ding je frei käme, könnten wir uns
+auf etwas gefasst machen. Die Gigas, denen ihr
+bisher begegnet seid, konnten nicht fliegen.
+Kaum auszudenken, wie stark dieser wäre.\e"
+MGH0290009,"\h(«Vyse»)Wir sollten uns den Blue Crystal so bald wie
+möglich holen! Gehen wir!\e"
+M01210000,"\h(«Vyse»)What's this rock?
+It looks like some sort of switch…\e"
+M01210001,"\h(«Enrique»)It looks like it triggered some
+sort of water release valve…\e"
+M01210002,"\h(«Vyse»)Ah… I see. The switch is probably here to fill
+this area with water. Hmm…\c"
+M01210003,"\h(«Vyse»)I've already pushed this switch.
+The rock is shining brightly.\c"
+M01210004,"\h(«Vyse»)It appears that this switch was here to
+fill this area with water…\c"
+M01210005,"\h(«Vyse»)I don't know where, but I think this switch
+probably opened a water valve somewhere in
+these ruins…\c"
+M01210006,"\h(«Vyse»)I don't know where, but I think this switch
+probably opened a water valve somewhere in
+these ruins…\c"
+M01210007,"\h(«Vyse»)I don't know where, but I think this switch
+probably opened a water valve somewhere in
+these ruins…\c"
+M01210008,"\h(«Vyse»)I guess this passageway and this trap were
+both built to prevent people from going any
+deeper into this place…\c"
+M01210009,"\h(«Vyse»)The room on the other side of this door
+is probably filled with the water
+we poured in before.\c"
+M01210010,"\h(«Vyse»)It's the stone pedestal where
+the Blue Moon Crystal was.
+There's nothing there now.\c"
+M01210011,"\h(«Ship Parts Merchant»)If you ever want to head back to Yafutoma,
+just let me know.\e"
+M01210012,"\h(«What will you do?»)“Head back to Yafutoma.”
+“Stay here a little while longer.”\e"
+M01210013,"\h(«Vyse»)We wanted to head back to Yafutoma for
+a little bit. Could you give us a lift?\e"
+M01210014,"\h(«Ship Parts Merchant»)No problem.
+Just climb on board.\c"
+M01210015,"\h(«Vyse»)We're fine for now, but we'll let
+you know if we change out minds.\e"
+M01210016,"\h(«Ship Parts Merchant»)No problem.
+Any time you want to go back,
+just let me know.\c"
+M01210017,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MS01210000,"\h(«Vyse»)¿Qué es esta roca?
+Parece un interruptor……\e"
+MS01210001,\h(«Enrique»)El interruptor ha abierto una válvula del agua……\e
+MS01210002,"\h(«Vyse»)Ya entiendo. El interruptor sirve para llenar
+esta zona de agua. Mmm……\c"
+MS01210003,"\h(«Vyse»)He pulsado el interruptor.
+La roca desprende una luz brillante.\c"
+MS01210004,"\h(«Vyse»)Por lo que parece este interruptor sirve para
+llenar esta zona de agua……\c"
+MS01210005,"\h(«Vyse»)No sé dónde, pero creo que este interruptor ha
+abierto una válvula de agua en algún lugar de
+estas ruinas……\c"
+MS01210006,"\h(«Vyse»)No sé dónde, pero creo que este interruptor ha
+abierto una válvula de agua en algún lugar de
+estas ruinas……\c"
+MS01210007,"\h(«Vyse»)No sé dónde, pero creo que este interruptor ha
+abierto una válvula de agua en algún lugar de
+estas ruinas……\c"
+MS01210008,"\h(«Vyse»)Supongo que este pasaje y la trampa fueron
+construidos para evitar que se entrara en el
+interior de este lugar……\c"
+MS01210009,"\h(«Vyse»)La habitación que está al otro lado de esta
+puerta debe estar llena del agua que hemos
+liberado antes.\c"
+MS01210010,"\h(«Vyse»)Éste es el pedestal de piedra donde estaba el
+Cristal Azul. Ahora está vacío.\c"
+MS01210011,"\h(«Mercader de Repuestos de Navío»)Si queréis volver a Yafutoma,
+decídmelo.\e"
+MS01210012,"\h(«¿Qué vas a hacer?»)“Volver a Yafutoma.”
+“Quedarme aquí un rato más.”\e"
+MS01210013,"\h(«Vyse»)Queremos volver a Yafutoma por un tiempo.
+¿Nos puedes llevar allí?\e"
+MS01210014,"\h(«Mercader de Repuestos de Navío»)Pues claro.
+Subid a bordo.\c"
+MS01210015,"\h(«Vyse»)De momento estamos bien, pero si cambiamos de
+idea ya te lo diremos.\e"
+MS01210016,"\h(«Mercader de Repuestos de Navío»)Muy bien.
+Cuando os apetezca volver,
+me lo decís.\c"
+MS01210017,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un rato más.”\c"
+MF01210000,"\h(«Vyse»)Qu'est-ce que ce rocher ?
+On dirait un bouton……\e"
+MF01210001,"\h(«Enrique»)On dirait que cela a déclenché une
+sorte de valve pour ouvrir l'eau……\e"
+MF01210002,"\h(«Vyse»)Ah…… Je vois. Le bouton doit servir à remplir
+cet endroit d'eau. Humm……\c"
+MF01210003,"\h(«Vyse»)J'ai déjà appuyé sur ce bouton.
+Le rocher brille d'une lumière intense.\c"
+MF01210004,"\h(«Vyse»)Le bouton devait servir à remplir cet
+endroit d'eau……\c"
+MF01210005,"\h(«Vyse»)Je ne sais pas où, mais je pense que ce bouton a
+dû ouvrir une valve d'eau quelque part dans ces
+ruines……\c"
+MF01210006,"\h(«Vyse»)Je ne sais pas où, mais je pense que ce bouton a
+dû ouvrir une valve d'eau quelque part dans ces
+ruines……\c"
+MF01210007,"\h(«Vyse»)Je ne sais pas où, mais je pense que ce bouton a
+dû ouvrir une valve d'eau quelque part dans ces
+ruines……\c"
+MF01210008,"\h(«Vyse»)J'imagine que ce passage et cette trappe ont été
+construits pour empêcher les gens d'aller plus
+avant……\c"
+MF01210009,"\h(«Vyse»)La pièce de l'autre côté de cette porte doit
+être remplie de l'eau que nous avons versée tout
+à l'heure.\c"
+MF01210010,"\h(«Vyse»)C'est le piédestal de pierre où
+se trouvait le Cristal de Lune Bleu.
+Il n'y a plus rien maintenant.\c"
+MF01210011,"\h(«Armateur»)Faites-moi signe si un jour vous voulez
+retourner sur Yafutoma.\e"
+MF01210012,"\h(«Que ferez-vous ?»)“Vous reviendrez à Yafutoma.”
+“Vous resterez ici un peu plus longtemps.”\e"
+MF01210013,"\h(«Vyse»)Nous voudrions retourner à Yafutoma pour
+quelques temps. Pouvez-vous nous y emmener ?\e"
+MF01210014,"\h(«Armateur»)Pas de problème.
+Montez à bord.\c"
+MF01210015,"\h(«Vyse»)C'est bon pour le moment, mais nous vous dirons
+si nous changeons d'avis.\e"
+MF01210016,"\h(«Armateur»)Pas de problème.
+Faites-moi signe,
+si vous voulez y revenir.\c"
+MF01210017,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MG01210000,"\h(«Vyse»)Was ist mit diesem Felsen?
+Er sieht wie eine Art Schalter aus……\e"
+MG01210001,"\h(«Enrique»)Er muss eine Art Wasserhahn
+geöffnet haben……\e"
+MG01210002,"\h(«Vyse»)Ah…… verstehe. Der Schalter ist wahrscheinlich
+dazu da, diesen Bereich mit Wasser zu füllen.
+Hmm……\c"
+MG01210003,"\h(«Vyse»)Ich habe diesen Schalter schon gedrückt.
+Der Fels strahlt ganz hell.\c"
+MG01210004,"\h(«Vyse»)Anscheinend war dieser Schalter
+dazu da, diesen Bereich mit Wasser zu
+füllen……\c"
+MG01210005,"\h(«Vyse»)Ich weiß nicht genau, wo, aber dieser Schalter
+hat wahrscheinlich irgendwo in diesen Ruinen
+ein Wasserventil geöffnet……\c"
+MG01210006,"\h(«Vyse»)Ich weiß nicht genau, wo, aber dieser Schalter
+hat wahrscheinlich irgendwo in diesen Ruinen
+ein Wasserventil geöffnet……\c"
+MG01210007,"\h(«Vyse»)Ich weiß nicht genau, wo, aber dieser Schalter
+hat wahrscheinlich irgendwo in diesen Ruinen
+ein Wasserventil geöffnet……\c"
+MG01210008,"\h(«Vyse»)Ich nehme an, sowohl dieser Gang als auch
+diese Falle wurden zu dem Zweck gebaut, um
+Eindringlinge daran zu hindern, tiefer in den
+Palast einzudringen……\c"
+MG01210009,"\h(«Vyse»)Der Raum auf der anderen Seite dieser Tür
+ist wahrscheinlich voll mit dem Wasser, das wir
+vorhin hineinlaufen gelassen haben.\c"
+MG01210010,"\h(«Vyse»)Es ist der steinerne Sockel, auf dem
+sich der Blue Moon Crystal befand.
+Im Moment ist nichts darauf.\c"
+MG01210011,"\h(«Schiffsteilehändler»)Wenn ihr mal nach Yafutoma zurück wollt,
+sagt Bescheid.\e"
+MG01210012,"\h(«Was wirst du tun?»)“Nach Yafutoma zurückfahren.”
+“Noch eine Weile hier bleiben.”\e"
+MG01210013,"\h(«Vyse»)Wir wollen für eine Weile zurück nach Yafutoma.
+Könnten Sie uns mitnehmen?\e"
+MG01210014,"\h(«Schiffsteilehändler»)Kein Problem.
+Steigt einfach ein.\c"
+MG01210015,"\h(«Vyse»)Im Moment nicht, aber wir sagen Bescheid,
+wenn wir unsere Meinung ändern.\e"
+MG01210016,"\h(«Schiffsteilehändler»)Kein Problem.
+Wenn ihr irgendwann zurückwollt,
+lasst es mich einfach wissen.\c"
+MG01210017,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Noch eine Weile hier bleiben.”\c"
+"",me247a.sct
+"",me121b.sct
+"",me019a.sct
+"",k8210000
+"",m5210000
+"","EV_H22発生しました。
+それはすごい戦いが数時間\c"
+"",a121ah22.mld
+"",a121ah22.mld
+"",e6h022
+"",a121ah22.mld
+"",EV_H29発生しました。\c
+"",a121ah29.mld
+"",a121ah29.mld
+"",e6h029
+"",a121ah29.mld

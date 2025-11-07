@@ -1,0 +1,30 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MA5410000,"\h(«De Loco»)You won't get away from me this time, Vyse!
+Now… now… now I will kill you for sure!!!
+Mwahahaha!!!\c"
+MSA5410000,"\h(«De Loco»)¡Esta vez no vas a escaparte, Vyse!
+¡¡¡Ahora…… ahora…… te mataré seguro!!!
+¡¡¡Juaa jua juaaa!!!\c"
+MFA5410000,"\h(«De Loco»)Vous ne m'échapperez pas cette fois, Vyse !
+Maintenant…… maintenant…… maintenant je vais
+vous tuer, c'est certain !!!
+Mwahahaha !!!\c"
+MGA5410000,"\h(«De Loco»)Diesmal entkommst du mir nicht, Vyse!
+Jetzt…… jetzt…… jetzt werde ich dich sicher
+kriegen!!! Mwahahaha!!!\c"
+"",M0465
+"",me541a.sct
+"",me090a.sct
+"",このメッセージが出たら北村まで\c
+"",\h(《DebugMessage》)このメッセージが出たら北村まで\c
+"",f7100100S.p04
+"",f7100100S.p04
+"",me127b.sct

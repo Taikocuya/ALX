@@ -1,0 +1,168 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MGAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5310000,"\h(«Fina»)Bluheim is the Blue Gigas.
+It will most likely attack with wind and
+wave attacks.\e"
+MA5310001,"\h(«Vyse»)Well, we don't have much time to think of a plan
+at this point, so we'll just have to look for a
+weakness as we fight it!\c"
+MA5310002,"\h(«Vyse»)I can't believe how fast that thing is! I never
+thought something so big could move so fast!\c"
+MA5310003,"\h(«Enrique»)What an incredible blast of wind! It's blown
+us completely off course!\e"
+MA5310004,"\h(«Fina»)Watch out! Bluheim is preparing
+its next attack!\e"
+MA5310005,"\h(«Enrique»)This must be its strategy… Using that
+burst of wind, it pushes its enemy
+into position for its next attack.\e"
+MA5310006,"\h(«Aika»)Unless we can do something to counter that wind
+attack, we'll be helpless against this thing!
+We need to try and think of a plan!!\c"
+MA5310007,"\h(«Enrique»)We've been blown off course again!
+Isn't there anything we can do
+against this thing?!\e"
+MA5310008,"\h(«Aika»)Hey… I've got an idea… Why don't we try
+going into a defensive posture before it
+attacks? It might just work…\c"
+MA5310009,"\h(«Vyse»)Alright!
+We got thrown back a little bit, but
+we're still in attack position!\e"
+MA5310010,"\h(«Aika»)Yeah! It looks like the ship can handle
+that big bird's wind attack if we just
+brace ourselves for it!\e"
+MA5310011,"\h(«Enrique»)Enough talk, everyone! Now is our chance!
+Vyse, we await your commands!\c"
+MA5310012,"\h(«Vyse»)Alright, we've withstood its wind attack again.
+Now it's our turn to fight back!\c"
+MSA5310000,"\h(《Fina》)Bluheim is the Blue Gigas.
+It will most likely attack with wind and
+wave attacks.\e"
+MSA5310001,"\h(《Vyse》)Well, we don't have much time to think of a plan
+at this point, so we'll just have to look for a
+weakness as we fight it!\c"
+MSA5310002,"\h(《Vyse》)I can't believe how fast that thing is! I never
+thought something so big could move so fast!\c"
+MSA5310003,"\h(《Enrique》)What an incredible blast of wind! It's blown
+us completely off course!\e"
+MSA5310004,"\h(《Fina》)Watch out! Bluheim is preparing
+its next attack!\e"
+MSA5310005,"\h(《Enrique》)This must be its strategy… Using that
+burst of wind, it pushes its enemy
+into position for its next attack.\e"
+MSA5310006,"\h(《Aika》)Unless we can do something to counter that wind
+attack, we'll be helpless against this thing!
+We need to try and think of a plan!!\c"
+MSA5310007,"\h(《Enrique》)We've been blown off course again!
+Isn't there anything we can do
+against this thing?!\e"
+MSA5310008,"\h(《Aika》)Hey… I've got an idea… Why don't we try
+going into a defensive posture before it
+attacks? It might just work…\c"
+MSA5310009,"\h(《Vyse》)Alright!
+We got thrown back a little bit, but
+we're still in attack position!\e"
+MSA5310010,"\h(《Aika》)Yeah! It looks like the ship can handle
+that big bird's wind attack if we just
+brace ourselves for it!\e"
+MSA5310011,"\h(《Enrique》)Enough talk, everyone! Now is our chance!
+Vyse, we await your commands!\c"
+MSA5310012,"\h(《Vyse》)Alright, we've withstood its wind attack again.
+Now it's our turn to fight back!\c"
+MFA5310000,"\h(《Fina》)Bluheim is the Blue Gigas.
+It will most likely attack with wind and
+wave attacks.\e"
+MFA5310001,"\h(《Vyse》)Well, we don't have much time to think of a plan
+at this point, so we'll just have to look for a
+weakness as we fight it!\c"
+MFA5310002,"\h(《Vyse》)I can't believe how fast that thing is! I never
+thought something so big could move so fast!\c"
+MFA5310003,"\h(《Enrique》)What an incredible blast of wind! It's blown
+us completely off course!\e"
+MFA5310004,"\h(《Fina》)Watch out! Bluheim is preparing
+its next attack!\e"
+MFA5310005,"\h(《Enrique》)This must be its strategy… Using that
+burst of wind, it pushes its enemy
+into position for its next attack.\e"
+MFA5310006,"\h(《Aika》)Unless we can do something to counter that wind
+attack, we'll be helpless against this thing!
+We need to try and think of a plan!!\c"
+MFA5310007,"\h(《Enrique》)We've been blown off course again!
+Isn't there anything we can do
+against this thing?!\e"
+MFA5310008,"\h(《Aika》)Hey… I've got an idea… Why don't we try
+going into a defensive posture before it
+attacks? It might just work…\c"
+MFA5310009,"\h(《Vyse》)Alright!
+We got thrown back a little bit, but
+we're still in attack position!\e"
+MFA5310010,"\h(《Aika》)Yeah! It looks like the ship can handle
+that big bird's wind attack if we just
+brace ourselves for it!\e"
+MFA5310011,"\h(《Enrique》)Enough talk, everyone! Now is our chance!
+Vyse, we await your commands!\c"
+MFA5310012,"\h(《Vyse》)Alright, we've withstood its wind attack again.
+Now it's our turn to fight back!\c"
+MGA5310000,"\h(《Fina》)Bluheim is the Blue Gigas.
+It will most likely attack with wind and
+wave attacks.\e"
+MGA5310001,"\h(《Vyse》)Well, we don't have much time to think of a plan
+at this point, so we'll just have to look for a
+weakness as we fight it!\c"
+MGA5310002,"\h(《Vyse》)I can't believe how fast that thing is! I never
+thought something so big could move so fast!\c"
+MGA5310003,"\h(《Enrique》)What an incredible blast of wind! It's blown
+us completely off course!\e"
+MGA5310004,"\h(《Fina》)Watch out! Bluheim is preparing
+its next attack!\e"
+MGA5310005,"\h(《Enrique》)This must be its strategy… Using that
+burst of wind, it pushes its enemy
+into position for its next attack.\e"
+MGA5310006,"\h(《Aika》)Unless we can do something to counter that wind
+attack, we'll be helpless against this thing!
+We need to try and think of a plan!!\c"
+MGA5310007,"\h(《Enrique》)We've been blown off course again!
+Isn't there anything we can do
+against this thing?!\e"
+MGA5310008,"\h(《Aika》)Hey… I've got an idea… Why don't we try
+going into a defensive posture before it
+attacks? It might just work…\c"
+MGA5310009,"\h(《Vyse》)Alright!
+We got thrown back a little bit, but
+we're still in attack position!\e"
+MGA5310010,"\h(《Aika》)Yeah! It looks like the ship can handle
+that big bird's wind attack if we just
+brace ourselves for it!\e"
+MGA5310011,"\h(《Enrique》)Enough talk, everyone! Now is our chance!
+Vyse, we await your commands!\c"
+MGA5310012,"\h(《Vyse》)Alright, we've withstood its wind attack again.
+Now it's our turn to fight back!\c"
+"",M0465
+"",me531a.sct
+"",me090a.sct
+"",f7100102s.p04
+"",f7100100s.p04
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",f7100052S.p04
+"",f7100052S.p04
+"",b2600.mld
+"",b2600.mld
+"",b2600.mld
+"",b2601.mld
+"",b2601.mld
+"",f3000015
+"",b2601.mld
+"",b2602.mld
+"",b2602.mld
+"",f3000016
+"",b2602.mld
+"",me247a.sct

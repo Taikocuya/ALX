@@ -1,0 +1,40 @@
+[Event Name],Task ID
+MAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5440000,"\h(《Galcian's Elite Vessel》)Infidels! We will not let you past here!
+You will get no closer to Lord Galcian!\e"
+MA5440001,"\h(《Galcian's Elite Vessel》)All hands to battlestations!
+Do whatever you have to do, just
+make sure they don't get past us!\c"
+MA5440002,"\h(《Aika》)Look!
+The enemy's running away!\e"
+MA5440003,"\h(《What will you do?》)“Pursue and attack!”
+“Stay put. We shouldn't just rush in…”\e"
+MA5440004,"\h(《Vyse》)Alright, let's go after them!
+Full speed ahead!\c"
+MA5440005,"\h(《Galcian's Elite Vessel》)Alright, they've taken the bait!
+Slow to half speed, and prepare to attack!\e"
+MA5440006,"\h(《Galcian Elite Vessel》)We must protect our lord at all costs!
+Prepare yourselves, Air Pirates!\c"
+MA5440007,"\h(《Vyse》)No, we shouldn't rush in after them.
+Maintain present course and speed,
+and continue attacking.\e"
+MA5440008,"\h(《Gilder》)You're right. There's no way that
+an elite unit like that
+would just turn tail and run.\e"
+MA5440009,"\h(《Aika》)So that was just a trick
+to try and lure us in?\e"
+MA5440010,"\h(《Gilder》)Yep. But we've got the upper hand now.
+Now's our chance to attack!\c"
+"",M0430
+"",me034a.sct
+"",me544a
+"",me090a.sct
+"",f7100100S.p04
+"",f7100100S.p04
+"",f7100100S.p04
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",me034a.sct

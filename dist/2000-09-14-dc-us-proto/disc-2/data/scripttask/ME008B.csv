@@ -1,0 +1,296 @@
+[Event Name],Task ID
+M90390000,"\h(《Mystery Merchant》)I am known as the Mystery Merchant. I bring
+goods from around the world. Many of these you 
+may never see again!\e"
+M90390001,"\h(《Mystery Merchant》)I only carry rare and exotic items.
+Come! See my wares for yourself!\e"
+M90390002,"\h(《What will you do?》)“Buy and Sell Items.”
+“Talk about various things.”
+“Leave.”\e"
+M90390003,"\h(《Mystery Merchant》)There exists in this world a rare type of Moon 
+Stone shard called an “Abirik Cham”.\e"
+M90390004,"\h(《Mystery Merchant》)Thank you very much. Perhaps our paths shall
+cross again some day.\e"
+M04000100,"\h(《Ship Parts Merchant》)Welcome. How goes the sailing? You wish to buy
+cannons to blast your enemies out of the skies?\e"
+M04000101,"\h(《Vyse》)Well, we don't even have our own ship right now,
+to be honest.\e"
+M04000102,"\h(《Ship Parts Merchant》)Well, that is very unfortunate. I wished to show
+you my newest weapon called a “Torpedo.”\e"
+M04000103,"\h(《Ship Parts Merchant》)You can even set which round it will strike! It
+is perfect for concentrating much firepower into
+a short period of time.\c"
+M04000104,"\h(《Ship Parts Merchant》)Well well… Is it not Vyse the Ninny? Who are
+you running from this time? Or perhaps you need
+a bigger cannon to feel safe?\e"
+M04000105,"\h(《Ship Parts Merchant》)Hey, kid. How goes the sailing? I have cannons 
+for all of your destructive needs!\e"
+M04000106,"\h(《Ship Parts Merchant》)Hey, kid. How goes the sailing? I have cannons 
+for all of your destructive needs!\e"
+M04000107,"\h(《Ship Parts Merchant》)Hey… are you not Vyse the Determined? Yes, I 
+thought so. Keep up the good work. Do you wish 
+to buy a cannon while you are here?\e"
+M04000108,"\h(《Ship Parts Merchant》)You are Vyse, are you not? I have heard about 
+you. It is time someone put those Valuans in 
+line. I respect that.\e"
+M04000109,"\h(《Ship Parts Merchant》)Oh, it is Vyse the Admirable! Do you wish to buy
+a cannon or two from my humble shop? I would be
+so happy!\e"
+M04000110,"\h(《Ship Parts Merchant》)Oh, it is Vyse the Bold! Do you wish to buy a
+cannon or two from my humble shop? I would be so
+happy!\e"
+M04000111,"\h(《Ship Parts Merchant》)Ah, it is Vyse!
+Heh… I wish that I were known as “the Valiant”
+like you… \e"
+M04000112,"\h(《Ship Parts Merchant》)Ah, it is Vyse!
+Heh… I wish that I were known as “the Daring”
+like you… \e"
+M04000113,"\h(《Ship Parts Merchant》)Oh, it is Vyse the Dashing! Do you wish to buy a
+cannon or two from my humble shop? I would be so
+happy!\e"
+M04000114,"\h(《Ship Parts Merchant》)Oh, Vyse! Er… I mean, Vyse the Fearless!
+I would be honored if you bought something
+from me!\e"
+M04000115,"\h(《Ship Parts Merchant》)The Red Moon be praised… I cannot believe that 
+an actual hero is shopping in my humble store. 
+It is an honor!\e"
+M04000116,"\h(《Ship Parts Merchant》)The Red Moon be praised… I cannot believe that 
+the King of Rogues is shopping in my humble 
+store. It is an honor!\e"
+M04000117,"\h(《Ship Parts Merchant》)V, Vyse! You are a legend! I would be so honored
+if you wished to buy something from me… It
+would make me feel so… important.\e"
+M04000000,"\h(《Ship Parts Merchant》)Hey, kid. How goes the sailing? I have cannons 
+for all your destructive needs!\e"
+M04000001,"\h(《What will you do?》)“Buy and Sell Ship Parts.”
+“Talk about various things.”
+“Leave.”\e"
+M04000003,"\h(《Ship Parts Merchant》)Check out my new weapons. They're called 
+“Torpedoes!”\e"
+M04000004,"\h(《Ship Parts Merchant》)After firing, you will not hit the target until 
+the following turn, and sometimes you can even 
+delay it further, by a round or two!\e"
+M04000005,"\h(《Ship Parts Merchant》)It often misses but it is much more powerful 
+than most cannons. I highly recommend it.\c"
+M04000006,"\h(《Ship Parts Merchant》)You heard that Nasrad was attacked by Valua and 
+burned to the ground, yes?\e"
+M04000007,"\h(《Ship Parts Merchant》)Well, apparently the Valuans developed an engine
+that allows them to cut through sky rifts,
+and they launched a surprise attack.\e"
+M04000008,"\h(《Ship Parts Merchant》)It normally would not occur to anyone that they 
+could make it through the sky rifts, so I guess 
+the defenses were lax.\c"
+M04000009,"\h(《Ship Parts Merchant》)I heard a rumor that the Rains of Destruction 
+fell upon Valua. Is it really so?\c"
+M04000010,"\h(《Ship Parts Merchant》)Thank you!
+May the Red Moon watch over you.\c"
+M04010100,"\h(《Guildmaster》)Are you not the one they call Vyse the Ninny? 
+Nice nickname. How did you earn it?\e"
+M04010101,"\h(《Guildmaster》)Welcome to the Sailors' Guild. We pay very well 
+for information on Discoveries!\e"
+M04010102,"\h(《Guildmaster》)Welcome to the Sailors' Guild. We pay very well 
+for information on Discoveries!\e"
+M04010103,"\h(《Guildmaster》)So, you're the guy that everyone has been 
+talking about? The one they call Vyse the 
+Respected? Welcome to the Sailors' Guild.\e"
+M04010104,"\h(《Guildmaster》)Hey, it's Vyse the Admirable! Welcome to the
+Sailors' Guild!\e"
+M04010105,"\h(《Guildmaster》)Hey, you are Vyse the Bold, yes? Welcome to the 
+Sailors' Guild!\e"
+M04010106,"\h(《Guildmaster》)Vyse the Valiant? Of course I have heard of you.
+Everyone has been talking of your exploits.
+Welcome to the Sailors' Guild.\e"
+M04010107,"\h(《Guildmaster》)Vyse the Daring? Of course I have heard of you. 
+Everyone has been talking of your exploits. 
+Welcome to the Sailors' Guild.\e "
+M04010108,"\h(《Guildmaster》)Oh, it is you! You are Vyse the Dashing!
+Welcome to the Sailors' Guild! It is an honor!\e "
+M04010109,"\h(《Guildmaster》)Oh, it is you! You are Vyse the Fearless!
+Welcome to the Sailors' Guild! It is an honor!\e "
+M04010110,"\h(《Guildmaster》)To think that Vyse the Hero would ever come to 
+this guild… It is a true honor, sir.\e"
+M04010111,"\h(《Guildmaster》)To think that the King of Rogues would ever come
+to this guild… It's a true honor, sir.\e"
+M04010112,"\h(《Guildmaster》)V, Vyse the Legend?! I feel honored just to be 
+able to talk to one as great as yourself! W, 
+welcome to the Sailors' Guild!\e"
+M04010000,"\h(《Guildmaster》)Welcome to the Sailor's Guild. We pay very well 
+for information on Discoveries!\e"
+M04010001,"\h(《What will you do?》)“Buy and Sell Discovery information.”
+“Talk about various things.”
+“Leave.”\e"
+M04010002,"\h(《Guildmaster》)What happened? Were you left behind by your
+ship? That is an unfortunate tale.\e"
+M04010003,"\h(《Guildmaster》)Hmm… I'm sorry. I know of no one who may have a
+ship available for rent right now.\e"
+M04010004,"\h(《Guildmaster》)Well, since you are here without much choice,
+you may as well try to enjoy your stay.\e"
+M04010005,"\h(《Guildmaster》)I hear there is a beautiful new dancer at the
+tavern.\c"
+M04010006,"\h(《Guildmaster》)Well, since you are here without much choice, 
+you may as well try to enjoy your stay.\e "
+M04010007,"\h(《Guildmaster》)I hear there is a beautiful new dancer at the 
+tavern.\e"
+M04010008,"\h(《Guildmaster》)You're searching for ruins in the desert?
+If you find them, I hope you'll let me know.
+I pay quite well for information on such things.\e"
+M04010009,"\h(《Guildmaster》)You are seeking Discoveries? Well, there is 
+another named Domingo who is also searching the 
+world for Discoveries.\e"
+M04010010,"\h(《Guildmaster》)I have heard that he is one of the world's best
+treasure hunters. You should try to stay a
+Dhabu's length ahead of him.\c"
+M04010011,"\h(《Guildmaster》)In every port of any size, you should always 
+find a branch office of the Sailors' Guild. I 
+suggest you pay a visit.\c"
+M90390005,"\h(《Mystery Merchant》)You should try feeding Abirik Chams to Silver 
+animals. It will make them grow much faster.\c"
+Ms008b000,"\h(《Vyse》)This jar looks like it was unloaded from this
+ship. It's labeled “Spices.” It's got an
+interesting smell… I can't quite describe it.\c"
+Ms008b001,"\h(《Vyse》)It says here that it contains Valuan gold. You
+figure they wouldn't label the boxes like that…
+well, it just makes us Air Pirates' jobs easier.\c"
+Ms008b002,"\h(《Vyse》)Weapons, explosives…  Moon Stones… Yikes.
+Maybe I shouldn't touch this box. That doesn't
+sound like a very stable combination of things…\c"
+Ms008b003,"\h(《Vyse》)A box of Nasr pottery… Nasr pottery is
+supposedly the best in the world. I wonder
+how much each pot is worth…\c"
+Ms008b004,"\h(《Vyse》)It's a Nasr merchant ship. I wonder if I could…
+Nah. I shouldn't just sneak on board. Who knows
+what they'd do to me when they found me.\c"
+Ms008b005,"\h(《Vyse》)It's a huge bonfire. I suppose it won't ever
+burn out because they're using Red Moon Stones
+to keep it hot…\c"
+Ms008b006,"\h(《Vyse》)There're a whole lot of crates stacked up in
+here. They're labeled with country names from
+all over. I wonder what's in them…\c"
+Ms008b007,\h(《Vyse》)Heh… It's locked.\c
+Ms008b008,"\h(《Vyse》)It looks like this anchor has gone
+through it's share of use and abuse.\c"
+Ms008b009,"\h(《Vyse》)It's some sort of cannon.
+Looks like a fire-powered gun,
+common here in Nasr.\c"
+Ms008b010,"\h(《What will you do?》)“Set sail for the Temple of Pyrynn.”
+“Stay here a little while longer.”\c"
+Ms008b011,"\h(《What will you do?》)“Return to the Little Jack.”
+“Stay here a little while longer.”\c"
+Ms008b012,"\h(《What will you do?》)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MD0020000,"\h(《Vyse》)So this is Maramba…
+It's so… hot!\e"
+MD0020001,"\h(《Aika》)…Huh?
+Where'd the Cap'n go?\e"
+MD0020002,\h(《Vyse》)Hey!\e
+MD0020003,"\h(《Aika》)W… wait!
+Cap'n! Where are you going?!\e"
+MD0020004,"\h(《Drachma》)This is where we part company.
+I've got my own quest to worry about. 
+I've got to find Rhaknam.\e"
+MD0020005,"\h(《Aika》)What?!
+W… wait a second!\e"
+MD0020006,"\h(《Aika》)What are we supposed to do?
+We're in the middle of a desert without a ship.
+How are we supposed to continue on our mission?\e"
+MD0020007,"\h(《Drachma》)That is not of my concern.
+I have no interest in crystals or temples.\e"
+MD0020008,"\h(《Drachma》)I must find Rhaknam. 
+I cannot waste any more time babysittin'.\e"
+MD0020009,"\h(《Aika》)Hey! Come back here,
+you eye-patch wearing freak! You rusty old man. 
+Hey! Are you listening to me?!\e"
+MD0020010,"\h(《Fina》)Oh, my!
+This isn't good at all.
+What should we do?\e"
+MD0020011,"\h(《Aika》)We can't even get out of the city, 
+let alone make it to the temple! 
+We're stuck here.\e"
+MD0020012,"\h(《Vyse》)Well, we have no choice right now other than to
+start exploring the city. Maybe we can find
+someone who can take us to the temple.\e"
+MD0020013,"\h(《Vyse》)That's all we can do… for now.
+\e"
+MD0020014,\h(　)Drachma has left the party.\e
+MD0050000,"\h(《Bellena》)Good morning.
+I trust you slept well last night…\e"
+MD0050001,"\h(《Vyse》)It was the best night's sleep I've had in a long
+time. So, I guess we should get ready start
+exploring the desert?\e"
+MD0050002,"\h(《Bellena》)“Only those who have walked through the desert
+can truly know its size”, is a saying we have
+here in Nasr. \e"
+MD0050003,"\h(《Bellena》)It's too difficult to cross the desert on foot,
+because of the heat. A mere half day's walk can
+be deadly… You'll need a ship to cross it.\e"
+MD0050004,"\h(《Vyse》)A ship, huh?
+Is this one yours?\e"
+MD0050005,"\h(《Bellena》)Ah, yes.
+It's not much, but it's very reliable.\e"
+MD0050006,\h(《Aika》)Hmph…\e
+MD0050007,"\h(《Aika》)… Umm, Bellena, why are you going out of your
+way to give us a ride? You don't even know us.\e"
+MD0050008,"\h(《Bellena》)You aren't very grateful are you? If you were
+dying of thirst, and someone offered you water,
+you would probably ask where it came from first.\e"
+MD0050009,\h(《Aika》)What?!!! \e
+MD0050010,"\h(《Bellena》)… Alright.
+If you must know, then I'll tell you.\e"
+MD0050011,"\h(《Bellena》)… My father was a soldier. He was a poor man
+and sometimes a little short-tempered,
+but he was a good man… and a good father.\e"
+MD0050012,"\h(《Bellena》)We struggled to get by, and my father was barely
+able to support us. We had nothing to rely on
+but each other… But we were happy…\e"
+MD0050013,\h(《Bellena》)Until that day… 20 years ago…\e
+MD0050014,"\h(《Bellena》)20 years ago, Valua and Nasr declared war on
+each other.
+And my… my father was killed in battle.\e"
+MD0050015,"\h(《Bellena》)When he died, we had nothing… no food…
+nobody to support us… nobody to raise us…
+We had to live on the streets.\e"
+MD0050016,"\h(《Bellena》)Some say that you can't die from a broken heart,
+but they're wrong… My mother died shortly after
+my father… She was so sad… \e"
+MD0050017,"\h(《Bellena》)I was alone… and scared. I had to fend for
+myself on the streets. And that is how I ended
+up living like… this.\e"
+MD0050018,\h(《Fina》)Oh… Bellena… We're so sorry… We had no idea…\e
+MD0050019,"\h(《Bellena》)Ever since then, I've hated war. Hundreds of
+people die… Hundreds more families have to go
+through what I went through.\e"
+MD0050020,"\h(《Bellena》)And that is why, I'm letting you… 
+No, I want you to use my ship. Please…\e"
+MD0050021,"\h(《How will you answer?》)“We'll do it!”
+“Hm… what should we do?”\e"
+MD0050022,\h(《Vyse》)We'll do it!\e
+MD0050023,"\h(《Bellena》)…Thank you, oh so much…\e"
+MD0050024,\h(《Vyse》)Hm… what should we do?\e
+MD0050025,"\h(《Aika》)… Vyse, let's use her ship. We… we know her
+reasons… She's doing us a huge favor and it's
+the least we can do for her.\e"
+MD0050026,"\h(《Aika》)Bellena…
+I… I'm sorry for… what I said earlier.
+I… I shouldn't have spoken to you that way.\e"
+MD0050027,"\h(《Aika》)I lost my parents when I was young, too. 
+I know what you went through…\e"
+MD0050028,"\h(《Bellena》)Heh heh… that's quite alright.
+As long as you understand and don't take my
+generosity for granted.\e"
+MD0050029,"\h(《Bellena》)Alright everyone, get on board.
+The Temple of Pyrynn lies far to the east,
+in the middle of the desert. Let's go!\e"
+"",me008a.sct
+"",M0238
+"",m5080000
+"",k8000004
+"",EV_D02発生しました。\c
+"",e6d002
+"",a008bd02.mld
+"",a008bd02.mld
+"",a008bd02.mld
+"",a008bd05.mld
+"",a008bd05.mld
+"",M0327
+"",e6d005
+"",a008bd05.mld

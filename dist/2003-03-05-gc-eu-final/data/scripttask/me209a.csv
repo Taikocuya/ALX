@@ -1,0 +1,307 @@
+[Event Name],Task ID
+MC0130000,\h(«Aika»)Aah!\e
+MC0130001,"\h(«Aika»)Who's that?! Vyse, there's something about this 
+guy… I'm not sure what it is, but I don't think
+we can take him.\e"
+MC0130002,"\h(«Vyse»)Yeah…
+And he looks really mad too!
+\e"
+MC0130003,"\h(«Vyse»)Aika, here's the plan…
+Run!!!
+We have to get Fina before he catches us!\e"
+MFC0130000,\h(«Aika»)Aah !\e
+MFC0130001,"\h(«Aika»)Qui est-ce ?! Vyse, je trouve cet homme
+étrange…… Je ne sais pas pourquoi, mais je ne
+crois pas que nous puissions le vaincre.\e"
+MFC0130002,"\h(«Vyse»)Tu as raison……
+En plus, il a l'air vraiment furieux !\e"
+MFC0130003,"\h(«Vyse»)Aika, voilà notre plan……
+Cours !!!
+Il faut aller chercher Fina avant qu'il ne nous
+attrape !\e"
+MGC0130000,\h(«Aika»)Aah!\e
+MGC0130001,"\h(«Aika»)Wer ist denn das?! Vyse, mit dem Typ ist
+irgendwas nicht in Ordnung……
+Ich weiß nicht genau, was, aber wir
+können ihn nicht mitnehmen.\e"
+MGC0130002,"\h(«Vyse»)Ja……
+Und er sieht auch echt wütend aus!\e"
+MGC0130003,"\h(«Vyse»)Aika, hier der Plan…… Renn!!!
+Wir müssen Fina kriegen, bevor er uns erwischt!\e"
+MSC0130000,\h(«Aika»)¡Aah!\e
+MSC0130001,"\h(«Aika»)¡¿Quién está ahí?! Vyse, hay un problema con
+este chico…… No sé muy bien qué es, pero no creo
+que podamos llevarle con nosotros.\e"
+MSC0130002,"\h(«Vyse»)Sí……
+¡Además parece que esté loco!\e"
+MSC0130003,"\h(«Vyse»)Aika, tengo una idea……
+¡¡¡Corre!!!
+¡Tenemos que llegar hasta Fina antes de que nos
+coja!\e"
+MC0150000,"\h(«Aika»)I'm so glad you're safe, Fina!
+We were worried about you.\e"
+MC0150001,"\h(«Fina»)Vyse…
+Aika…
+How did you… Why?\e"
+MC0150002,"\h(«Vyse»)Why do you think?
+We're here to save you!\e"
+MC0150003,\h(«Fina»)You mean… you did all this… just for… me?\e
+MC0150004,"\h(«Aika»)Aww, Fina…
+We're friends! 
+We weren't going to let them take you from us.\e"
+MC0150005,\h(«Fina»)Thank you both so much!\e
+MC0150006,"\h(«Fina»)Honestly,
+I… I was so scared… I was all alone…
+I was afraid that they were going to hurt me.\e"
+MC0150007,"\h(«Fina»)Oh, thank you… I'm… I'm so grateful!\e"
+MC0150008,"\h(«Vyse»)Everything is okay now, Fina.
+Now, let's get out of here!\e"
+MC0150009,\h(«Galcian»)I can't allow that.\e
+MC0150010,"\h(«Vyse»)What?!
+He found us!\e"
+MC0150011,"\h(«Galcian»)I am Galcian, Lord of the Imperial Armada.\e"
+MC0150012,"\h(«Galcian»)You have caused us a great deal of trouble, boy.
+What is your name?\e"
+MC0150013,"\h(«Vyse»)I'm Vyse of the Blue Rogues.
+I just thought you were the guy that cleaned the
+rail cars.\e"
+MC0150014,"\h(«Galcian»)Ah… so you are the one who made a fool out of 
+Alfonso.\e"
+MC0150015,"\h(«Galcian»)That girl is worth nothing to you Air Pirates. 
+Hand her over to me.\e"
+MC0150016,"\h(«Galcian»)I guarantee that your lives, as well as that of 
+the girl, will be spared. Is it a deal?\e"
+MC0150017,"\h(«What will you do?»)“Never!”
+“… Sounds fair…”\e"
+MC0150018,"\h(«Vyse»)Never!
+I don't know what you want with her…\e"
+MC0150019,"\h(«Vyse»)But you're Valuans. Whatever it is, 
+it can't be good.\e"
+MC0150020,"\h(«Galcian»)Do you honestly think that after attacking the 
+Valuan Armada you'll be able to fly the 
+skies freely?\e"
+MC0150021,"\h(«Vyse»)We're Air Pirates. We don't need your permission
+for anything…
+If we see something we want, we take it.\e"
+MC0150022,"\h(«Galcian»)That's very disappointing.
+I'm afraid you leave me no choice…
+I must destroy you.\e"
+MC0150023,"\h(«Vyse»)…Sounds fair…
+We'll hand over Fina if you can guarantee that 
+she won't be harmed.\e"
+MC0150024,\h(«Aika»)How can you do that Vyse?! Are you crazy!? \e
+MC0150025,\h(«Aika»)You can't have her!\e
+MC0150026,"\h(«Galcian»)That's very disappointing.
+I'm afraid you leave me no choice…
+I will destroy you both.\e"
+MC0150027,\h(«Vyse»)The Little Jack!\e
+MFC0150000,"\h(«Aika»)Je suis contente que tu sois en vie, Fina !
+Nous étions si inquiets pour toi.\e"
+MFC0150001,"\h(«Fina»)Vyse……
+Aika……
+Comment êtes-vous…… Pourquoi ?\e"
+MFC0150002,"\h(«Vyse»)Qu'est-ce que tu crois ?
+Nous sommes venus vous sauver !\e"
+MFC0150003,"\h(«Fina»)Vous voulez dire que…… vous avez fait tout ça……
+pour…… moi ?\e"
+MFC0150004,"\h(«Aika»)Oh, Fina……
+Nous sommes amis !
+Nous n'allions pas les laisser vous emmener.\e"
+MFC0150005,\h(«Fina»)Merci beaucoup à tous les deux !\e
+MFC0150006,"\h(«Fina»)Franchement, j'ai…… j'ai eu si peur…… J'étais
+toute seule…… J'ai eu peur qu'ils me fassent du
+mal.\e"
+MFC0150007,"\h(«Fina»)Oh, merci…… Je…… Je vous suis tellement
+reconnaissante !\e"
+MFC0150008,"\h(«Vyse»)Tout va bien maintenant, Fina.
+Partons d'ici !\e"
+MFC0150009,\h(«Galcian»)Je ne vous laisserai pas faire ça.\e
+MFC0150010,"\h(«Vyse»)Quoi ?!
+Il nous a retrouvés !\e"
+MFC0150011,"\h(«Galcian»)Je suis Galcian, Seigneur de l'Armada Impériale.\e"
+MFC0150012,"\h(«Galcian»)Vous nous avez causé beaucoup de problèmes,
+jeune homme. Comment vous appellez-vous ?\e"
+MFC0150013,"\h(«Vyse»)Je suis Vyse des Voleurs Bleus.
+Je croyais que vous étiez seulement le laveur
+d'autorails.\e"
+MFC0150014,"\h(«Galcian»)Ah…… alors c'est vous qui avez ridiculisé
+Alfonso.\e"
+MFC0150015,"\h(«Galcian»)Cette fille ne vous sert à rien à vous les
+Pirates de l'Air. Rendez-la moi.\e"
+MFC0150016,"\h(«Galcian»)Je vous garantis que vos vies, ainsi que celle
+de la fille, seront épargnées. Marché conclu ?\e"
+MFC0150017,"\h(«Que ferez-vous ?»)“Jamais !”
+“…… Cela paraît équitable……”\e"
+MFC0150018,"\h(«Vyse»)Jamais !
+Je ne sais pas ce que vous lui voulez……\e"
+MFC0150019,"\h(«Vyse»)Mais vous êtes un Valuan. Quelles que soient vos
+intentions, elles sont sûrement mauvaises.\e"
+MFC0150020,"\h(«Galcian»)Vous pensez vraiment qu'après avoir attaqué
+l'Armada Valuanne, vous pourrez voler librement
+dans les cieux ?\e"
+MFC0150021,"\h(«Vyse»)Nous sommes des Pirates de l'Air.
+Nous n'avons pas besoin de votre permission……
+Si nous voulons quelque chose, nous le prenons.\e"
+MFC0150022,"\h(«Galcian»)C'est très décevant.
+J'ai bien peur que vous ne me laissiez pas le
+choix…… Je dois vous éliminer.\e"
+MFC0150023,"\h(«Vyse»)……Cela paraît équitable……
+Nous vous rendrons Fina si vous pouvez nous
+garantir que vous ne lui ferez pas de mal.\e"
+MFC0150024,\h(«Aika»)Comment peux-tu faire ça Vyse ?! Es-tu fou !?\e
+MFC0150025,\h(«Aika»)Vous ne l'aurez pas !\e
+MFC0150026,"\h(«Galcian»)C'est très décevant
+J'ai bien peur que vous ne me laissiez pas le
+choix…… Je dois vous éliminer tous les deux.\e"
+MFC0150027,\h(«Vyse»)Le Little Jack !\e
+MGC0150000,"\h(«Aika»)Ich bin so froh, dass du in Sicherheit bist,
+Fina! Wir haben uns Sorgen um dich gemacht.\e"
+MGC0150001,"\h(«Fina»)Vyse……
+Aika……
+Wie seid ihr…… warum?\e"
+MGC0150002,"\h(«Vyse»)Was meinst du wohl?
+Wir sind hier, um dich zu retten!\e"
+MGC0150003,"\h(«Fina»)Willst du sagen…… ihr habt all das…… nur für……
+mich gemacht?\e"
+MGC0150004,"\h(«Aika»)Wirklich, Fina……
+Wir sind Freunde! Wir hätten es nicht
+zugelassen, dass sie dich einfach mitnehmen.\e"
+MGC0150005,\h(«Fina»)Ich danke euch beiden so sehr!\e
+MGC0150006,"\h(«Fina»)Ehrlich…… ich…… ich fürchtete mich so…… ich war
+ganz allein…… ich hatte Angst, sie würden mir
+wehtun.\e"
+MGC0150007,"\h(«Fina»)Ach, danke…… Ich…… ich bin so dankbar!\e"
+MGC0150008,"\h(«Vyse»)Jetzt ist alles wieder gut, Fina.
+Lass uns von hier verschwinden!\e"
+MGC0150009,\h(«Galcian»)Versucht es gar nicht erst.\e
+MGC0150010,"\h(«Vyse»)Was?!
+Er hat uns gefunden!\e"
+MGC0150011,"\h(«Galcian»)Ich bin Galcian, Lord der Kaiserlichen Armada.\e"
+MGC0150012,"\h(«Galcian»)Du hast uns eine Menge Schwierigkeiten bereitet,
+mein Junge. Wie heißt du?\e"
+MGC0150013,"\h(«Vyse»)Ich bin Vyse von den Blue Rogues.
+Ich dachte, Sie wären der Typ, der die
+Straßenbahnen säubert.\e"
+MGC0150014,"\h(«Galcian»)Ah…… also du bist derjenige, der
+Alfonso blamiert hat.\e"
+MGC0150015,"\h(«Galcian»)Dieses Mädchen ist für euch Luftpiraten nichts
+wert. Übergebt sie mir.\e"
+MGC0150016,"\h(«Galcian»)Ich garantiere euch, dass eure Leben und das
+des Mädchens verschont werden. Abgemacht?\e"
+MGC0150017,"\h(«Was wirst du tun?»)“Niemals!”
+“…… Hört sich in Ordnung an……”\e"
+MGC0150018,"\h(«Vyse»)Niemals!
+Ich weiß nicht, was ihr von ihr wollt……\e"
+MGC0150019,"\h(«Vyse»)Ihr seid doch Valuaner. Was immer es ist,
+es kann nichts Gutes sein.\e"
+MGC0150020,"\h(«Galcian»)Glaubst du wirklich, dass du nach deinem
+Angriff auf die Armada von Valua
+als freier Mann davonfliegen kannst?\e"
+MGC0150021,"\h(«Vyse»)Wir sind Luftpiraten…… Wir brauchen keine
+Erlaubnis…… Wenn wir etwas sehen, das uns
+gefällt, nehmen wir es uns.\e"
+MGC0150022,"\h(«Galcian»)Das ist sehr enttäuschend.
+Leider lasst ihr mir keine Wahl……
+Ich muss euch vernichten.\e"
+MGC0150023,"\h(«Vyse»)……Hört sich in Ordnung an……
+Wir händigen Fina aus, wenn du garantierst,
+dass ihr nichts geschieht.\e"
+MGC0150024,"\h(«Aika»)Wie kannst du so was machen, Vyse?!
+Bist du verrückt?!\e"
+MGC0150025,\h(«Aika»)Ihr könnt sie nicht haben!\e
+MGC0150026,"\h(«Galcian»)Das ist sehr enttäuschend.
+Leider lasst ihr mir keine Wahl……
+Ich werde euch beide vernichten.\e"
+MGC0150027,\h(«Vyse»)Die “Little Jack”!\e
+MSC0150000,"\h(«Aika»)¡Estoy tan contenta de que estés a salvo, Fina!
+Estábamos preocupados por ti.\e"
+MSC0150001,"\h(«Fina»)Vyse……
+Aika……
+¿Cómo habéis……? ¿Por qué?\e"
+MSC0150002,"\h(«Vyse»)¿Tú qué crees?
+¡Estamos aquí para rescatarte!\e"
+MSC0150003,"\h(«Fina»)Quieres decir……
+¿hicistéis todo esto…… sólo por…… mí?\e"
+MSC0150004,"\h(«Aika»)Oh, Fina……
+¡Somos amigos!
+No íbamos a dejarles que te alejaran de
+nosotros.\e"
+MSC0150005,\h(«Fina»)¡Muchas gracias a los dos!\e
+MSC0150006,"\h(«Fina»)De verdad, estaba…… tan asustada…… y sola……
+Tenía miedo de que me hicieran daño.\e"
+MSC0150007,"\h(«Fina»)Oh, gracias…… ¡Os…… os estoy tan agradecida!\e"
+MSC0150008,"\h(«Vyse»)Ya ha pasado todo, Fina.
+¡Vámonos de aquí!\e"
+MSC0150009,\h(«Galcian»)No lo permitiré.\e
+MSC0150010,"\h(«Vyse»)¡¿Qué?!
+¡Nos ha encontrado!\e"
+MSC0150011,"\h(«Galcian»)Soy Galcian, Lord de la Armada Imperial.\e"
+MSC0150012,"\h(«Galcian»)Nos has causado muchos problemas, chico.
+¿Cómo te llamas?\e"
+MSC0150013,"\h(«Vyse»)Soy Vyse, de los Bandidos Azules.
+Pensé que tú eras el que limpiaba los tranvías.\e"
+MSC0150014,"\h(«Galcian»)Ah…… Así que tú eres el que hizo que Alfonso
+quedara como un patán.\e"
+MSC0150015,"\h(«Galcian»)Esa chica no tiene nada que ver con vosotros,
+Piratas Aéreos. Entregádmela.\e"
+MSC0150016,"\h(«Galcian»)Os garantizo que tanto vosotros como la chica,
+salvaréis la vida. ¿Trato hecho?\e"
+MSC0150017,"\h(«¿Qué vas a hacer?»)“¡Jamás!”
+“…… Parece justo……”\e"
+MSC0150018,"\h(«Vyse»)¡Jamás!
+No sé lo que queréis hacer con ella……\e"
+MSC0150019,"\h(«Vyse»)Pero sois Valuan. Sea lo que sea, no puede ser
+nada bueno.\e"
+MSC0150020,"\h(«Galcian»)¿De verdad crees que después de atacar la Armada
+Valuan, vas a poder volar por los cielos
+libremente?\e"
+MSC0150021,"\h(«Vyse»)Somos Piratas Aéreos. No necesitamos tu permiso
+para hacer nada……
+Si queremos algo, lo cogemos.\e"
+MSC0150022,"\h(«Galcian»)Me decepcionas enormemente.
+Me temo que no me dejas otra alternativa……
+Me veo obligado a acabar contigo.\e"
+MSC0150023,"\h(«Vyse»)Suena justo……
+Os entregaremos a Fina si puedes garantizarnos
+que no le vais a hacer daño.\e"
+MSC0150024,"\h(«Aika»)¡¿Cómo puedes hacerlo, Vyse?! ¿¡Estás loco!?\e"
+MSC0150025,\h(«Aika»)¡Nunca la cogeréis!\e
+MSC0150026,"\h(«Galcian»)Me decepcionáis.
+No me dejáis elección……
+Os liquidaré a los dos.\e"
+MSC0150027,\h(«Vyse»)¡El Little Jack!\e
+MC0250006,"\h(«Vyse»)Fina should be at the front of the rail car. 
+Let's go!\e"
+MFC0250006,"\h(«Vyse»)Fina devrait être en tête de l'autorail.
+Allons-y !\e"
+MGC0250006,\h(«Vyse»)Fina müsste vorn im Wagen sein. Gehen wir!\e
+MSC0250006,\h(«Vyse»)Fina debe ir en la cabeza del tranvía. ¡Vamos!\e
+"",me243a.sct
+"",me107d.sct
+"",me253a.sct
+"",a209ac13.mld
+"",a209ac13.mld
+"",a209ac13_efe.mld
+"",a209ac13_efe.mld
+"",e6c013
+"",M0252
+"",a209ac13.mld
+"",a209ac13_efe.mld
+"",e6c015
+"",M0309
+"",a209ac15.mld
+"",a209ac15.mld
+"",a209ac15eff.mld
+"",a209ac15eff.mld
+"",M0314
+"",M0305
+"",a209ac15eff.mld
+"",a209ac15.mld
+"",a209ac25.mld
+"",a209ac25.mld
+"",a209ac25_efe.mld
+"",a209ac25_efe.mld
+"",e6c025
+"",M0252
+"",a209ac25.mld
+"",a209ac25_efe.mld

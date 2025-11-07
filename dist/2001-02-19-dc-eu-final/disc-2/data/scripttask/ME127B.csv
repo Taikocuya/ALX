@@ -1,0 +1,612 @@
+[Event Name],Task ID
+M01270000,"\h(«Vyse»)So this is the world beneath the clouds…
+It's kinda creepy…\e"
+M01270001,"\h(«Enrique»)The surface is covered with a thick layer
+of mud. Fina's ship is probably stuck in
+it somewhere.\e"
+M01270002,"\h(«Aika»)How are we supposed to look for Fina's ship
+down here? It could be anywhere!\e"
+M01270003,"\h(«Enrique»)Don't worry. Brabham told me before we left that
+he installed something he called “Moon Stone
+Sonar” into the Delphinus.\e"
+M01270004,"\h(«Enrique»)It's a device that uses the energy from Moon
+Stones to detect physical objects. You can use
+it by pressing the B button.\e"
+M01270005,"\h(«Enrique»)Once you press the button, the sonar will send
+out a wave of energy. If it detects anything,
+a “?” will appear on the map.\e"
+M01270006,"\h(«Enrique»)But, if it doesn't find anything, nothing will
+happen.\e"
+M01270007,"\h(«Enrique»)You'll need to send out a few sonar waves as we
+move around in order to try and pinpoint where
+the object is.\e"
+M01270008,"\h(«Enrique»)Then, once we've narrowed the location down,
+press the A button to lower the crane.\e"
+M01270009,"\h(«Enrique»)If there's something under the mud,
+the crane should pull it out.\e"
+M01270010,"\h(«Vyse»)I see…
+Find it with the sonar,
+then pull it out with the crane, huh?\e"
+M01270011,"\h(«Enrique»)The sonar uses a lot of energy,
+so we can only use it 10 times.\e"
+M01270012,"\h(«Enrique»)But if we go back above the clouds, we can
+recharge the sonar to be able to use it for
+10 more tries.\e"
+M01270013,"\h(«Aika»)So if we run out of sonar charges,
+we just go back up, huh?
+Okay, let's start searching!\c"
+M01270015,"\h(«Aika»)Oh, no!
+The crane grabbed some kind of
+strange creature!\e"
+M01270016,"\h(«Vyse»)I must've searched in the wrong place!
+Battlestations, everyone! It looks like it's
+going to attack!!!\c"
+M01270018,"\h(«Aika»)Oh no, not again!\e"
+M01270019,"\h(«Vyse»)We're going to get attacked again!
+Battlestations, everyone!\c"
+M01270021,"\h(«Aika»)Vyse! You idiot!!!
+I can't believe this!
+Don't you know how to use that thing?!\e"
+M01270022,"\h(«Vyse»)Great, looks like this wasn't the right place,
+either… Well, you all know the routine…
+Battlestations…\c"
+M01270024,"\h(«Aika»)Come on, Vyse!
+I'm getting tired of this!
+Maybe I should be captain!\e"
+M01270025,"\h(«Vyse»)S, sorry Aika.
+Hate to put you all through this again, but…
+battlestations, everyone.\c"
+M01270027,\h(«Aika»)…………………\e
+M01270028,"\h(«Vyse»)Um…
+Sorry… um… well… yeah.
+Battlestations…… Please?\c"
+M01270029,\h( )You received 1 piece of “Velorium.”\c
+M01270030,\h( )You received 1 piece of “Velorium.”\c
+MS01270000,"\h(«Vyse»)Éste es el mundo que existe bajo las nubes……
+Es un poco siniestro……\e"
+MS01270001,"\h(«Enrique»)La superficie está cubierta por una gruesa capa
+de barro. El navío de Fina debe estar encallado
+por aquí.\e"
+MS01270002,"\h(«Aika»)¿Cómo vamos a buscar el navío de Fina aquí?
+¡Vete tú a saber dónde andará!\e"
+MS01270003,"\h(«Enrique»)No te preocupes. Antes de irnos, Brabham me dijo
+que había instalado un aparato llamado “Sonar de
+Piedras Lunares” en el Delphinus.\e"
+MS01270004,"\h(«Enrique»)Es un aparato que usa la energía de las Piedras
+Lunares para detectar objetos físicos. Se activa
+pulsado el botón B.\e"
+MS01270005,"\h(«Enrique»)Al apretar el botón, la senda de ultrasonidos
+libera ondas de energía. Si detecta algo,
+aparecerá una “?” en el mapa.\e"
+MS01270006,"\h(«Enrique»)Pero si no encuentra nada, no se verá nada.\e"
+MS01270007,"\h(«Enrique»)Tendréis que enviar algunas ondas con el sonar
+para poder indicarnos dónde se encuentra el
+objeto.\e"
+MS01270008,"\h(«Enrique»)Luego, una vez hayamos cerrado el cerco sobre la
+zona, pulsa el botón A para descender la grúa.\e"
+MS01270009,"\h(«Enrique»)Si hay algo bajo el barro,
+lo sacaremos con la grúa.\e"
+MS01270010,"\h(«Vyse»)Entiendo……
+Lo encontramos con el sonar y
+luego lo sacamos con la grúa.\e"
+MS01270011,"\h(«Enrique»)El sonar consume mucha energía,
+así que sólo se puede usar 10 veces.\e"
+MS01270012,"\h(«Enrique»)Pero si volvemos a la zona sobre las nubes,
+podemos recargar el sonar para utilizarlo otras
+10 veces.\e"
+MS01270013,"\h(«Aika»)Así que si se nos acaba la energía para el
+sonar, no tenemos más que subir, ¿no?
+¡Pues vamos a empezar a buscar!\c"
+MS01270015,"\h(«Aika»)¡Oh, no!
+¡La grúa ha recogido una especie de bicho raro!\e"
+MS01270016,"\h(«Vyse»)¡Creo que he estado buscando en el sitio
+equivocado! ¡Todos a sus puestos de combate!
+¡Parece que nos va a atacar!\c"
+MS01270018,"\h(«Aika»)¡Oh, no! ¡Otra vez no!\e"
+MS01270019,"\h(«Vyse»)¡Nos atacan de nuevo!
+¡Todos a sus puestos de combate!\c"
+MS01270021,"\h(«Aika»)¡Vyse! ¡¡Idiota!!
+¡No lo puedo creer!
+¡¿No sabes cómo se usa eso?!\e"
+MS01270022,"\h(«Vyse»)Genial, parece que éste tampoco es el sitio……
+Bueno, pues ya sabéis qué hay que hacer……
+A los puestos de combate……\c"
+MS01270024,"\h(«Aika»)¡Venga ya, Vyse!
+¡Estoy harta!
+¡Creo que voy a tomar el mando yo!\e"
+MS01270025,"\h(«Vyse»)Per…… perdona, Aika.
+Detesto hacerte pasar otra vez por esto, pero……
+a los puestos de combate, chicos.\c"
+MS01270027,\h(«Aika»)…………………\e
+MS01270028,"\h(«Vyse»)Esto……
+Eh…… um…… o sea…… bueno.
+Si no os importa…… ¿a los puestos de combate?\c"
+MS01270029,\h( )｡Has recibido “Velorium” x 1!\c
+MS01270030,\h( )｡Has recibido “Velorium” x 1!\c
+MF01270000,"\h(«Vyse»)Alors voilà le monde sous les nuages……
+C'est terrifiant……\e"
+MF01270001,"\h(«Enrique»)La surface est recouverte d'une épaisse couche
+de boue. Le navire de Fina doit être coincé
+quelque part par là.\e"
+MF01270002,"\h(«Aika»)Comment sommes-nous censés trouver le navire de
+Fina ici ? Il peut être n'importe où !\e"
+MF01270003,"\h(«Enrique»)Ne vous en faites pas. Brabham m'a dit avant de
+partir qu'il a installé sur le Delphinus ce
+qu'il appelle “Sonar Pierre de Lune”.\e"
+MF01270004,"\h(«Enrique»)C'est un appareil qui utilise l'énergie des
+Pierres de Lune pour détecter des objets. Vous
+pouvez l'utiliser en appuyant sur le bouton B.\e"
+MF01270005,"\h(«Enrique»)En appuyant sur le bouton, le sonar enverra une
+vague d'énergie. S'il détecte quelque chose,
+un “?” apparaîtra sur la carte.\e"
+MF01270006,"\h(«Enrique»)Mais, s'il ne trouve rien, il ne se passera
+rien.\e"
+MF01270007,"\h(«Enrique»)Vous devrez envoyer quelques vagues de sonar
+tout en avançant pour essayer de localiser
+l'objet.\e"
+MF01270008,"\h(«Enrique»)Après avoir trouvé l'emplacement,
+appuyez sur le bouton A pour faire descendre la
+grue.\e"
+MF01270009,"\h(«Enrique»)S'il y a quelque chose sous la boue,
+la grue devrait l'extraire.\e"
+MF01270010,"\h(«Vyse»)Je vois……
+Le trouver avec le sonar,
+puis le sortir avec la grue, hein ?\e"
+MF01270011,"\h(«Enrique»)Le sonar consomme beaucoup d'énergie,
+alors nous ne pouvons l'utiliser que 10 fois.\e"
+MF01270012,"\h(«Enrique»)Mais si nous retournons au-dessus des nuages,
+nous pouvons recharger le sonar pour pouvoir
+l'utiliser encore 10 fois.\e"
+MF01270013,"\h(«Aika»)Donc si le sonar a besoin d'être rechargé,
+nous remontons en surface, hein ?
+Ok, commençons à chercher !\c"
+MF01270015,"\h(«Aika»)Oh, non !
+La grue a attrapé une sorte
+d'étrange créature !\e"
+MF01270016,"\h(«Vyse»)Je n'ai pas dû chercher au bon endroit !
+Tous à vos postes de combat !
+On dirait qu'il va attaquer !!!\c"
+MF01270018,"\h(«Aika»)Oh non, encore !\e"
+MF01270019,"\h(«Vyse»)Nous allons encore être attaqués !
+Tous à vos postes de combat !\c"
+MF01270021,"\h(«Aika»)Vyse ! Imbécile !!!
+Je n'arrive pas à le croire !
+Tu ne sais donc pas t'en servir ?!\e"
+MF01270022,"\h(«Vyse»)Super, apparemment ce n'était pas non plus le
+bon endroit…… Bon, vous connaissez tous la
+routine…… À vos postes de combat……\c"
+MF01270024,"\h(«Aika»)Allez, Vyse !
+Je commence à en avoir assez !
+Je devrais peut-être être le capitaine !\e"
+MF01270025,"\h(«Vyse»)D, désolé Aika.
+Je n'aime pas te faire subir cela une nouvelle
+fois, mais…… Tous à vos postes de combat.\c"
+MF01270027,\h(«Aika»)…………………\e
+MF01270028,"\h(«Vyse»)Um……
+Désolé…… um…… bon…… oui.
+À vos postes de combat………… S'il vous plaît ?\c"
+MF01270029,\h( )Vous avez reçu “Velorium” x 1 !\c
+MF01270030,\h( )Vous avez reçu “Velorium” x 1 !\c
+MG01270000,"\h(«Vyse»)Das ist also die Welt unter den Wolken……
+Ziemlich unheimlich……\e"
+MG01270001,"\h(«Enrique»)Die Oberfläche ist mit einer dichten
+Schlammschicht überzogen. Finas Schiff
+steckt wahrscheinlich irgendwo dort drin.\e"
+MG01270002,"\h(«Aika»)Wie sollen wir da unten nach Finas Schiff
+suchen? Es könnte überall sein!\e"
+MG01270003,"\h(«Enrique»)Keine Sorge. Brabham erzählte mir, bevor er
+ging, dass er so etwas wie einen “Moon Stone-
+Sonar” in die Delphinus eingebaut hat.\e"
+MG01270004,"\h(«Enrique»)Das ist ein Gerät, das sich die Energie von Moon
+Stones zunutze macht, um Objekte zu orten.
+Man kann es anwenden, indem man auf die
+Taste B drückt.\e"
+MG01270005,"\h(«Enrique»)Sowie man die Taste drückt, sendet das Gerät
+eine Energiewelle aus. Wenn es etwas ortet,
+erscheint ein “?” auf der Karte.\e"
+MG01270006,"\h(«Enrique»)Wenn es jedoch nichts aufspürt, passiert
+auch nichts.\e"
+MG01270007,"\h(«Enrique»)Ihr müsst jedesmal, wenn wir uns weiterbewegen,
+ein paar Sonarwellen aussenden, um
+herauszufinden, wo das Objekt ist.\e"
+MG01270008,"\h(«Enrique»)Sobald wir die Position dann
+eingegrenzt haben, drück Taste A und
+lass den Kran hinunter.\e"
+MG01270009,"\h(«Enrique»)Wenn sich etwas unter dem Schlamm befindet,
+wird der Kran es herausheben.\e"
+MG01270010,"\h(«Vyse»)Verstehe……
+Erst müssen wir es mit dem Sonargerät finden,
+dann heben wir es mit dem Kran heraus, ja?\e"
+MG01270011,"\h(«Enrique»)Das Sonargerät verbraucht eine Menge Energie,
+also können wir es nur 10 Mal benutzen.\e"
+MG01270012,"\h(«Enrique»)Aber wenn wir über die Wolken aufsteigen,
+können wir das Gerät wieder aufladen und es
+weitere 10 Mal benutzen.\e"
+MG01270013,"\h(«Aika»)Wenn wir also keine Sonarladungen mehr haben,
+steigen wir einfach wieder in die Höhe, ok?
+In Ordnung, beginnen wir mit der Suche!\c"
+MG01270015,"\h(«Aika»)O nein!
+Der Kran hat eine eigenartige Kreatur
+hochgezogen!\e"
+MG01270016,"\h(«Vyse»)Ich muss an der falschen Stelle gesucht haben!
+Alle auf die Kampfstationen! Sieht so aus,
+als würde es angreifen!!!\c"
+MG01270018,"\h(«Aika»)Nein, nicht schon wieder!\e"
+MG01270019,"\h(«Vyse»)Wir werden schon wieder angegriffen!
+Alle Mann auf Kampfstation!\c"
+MG01270021,"\h(«Aika»)Vyse! Du Idiot!!!
+Ich glaub's ja nicht!
+Weißt du denn nicht, wie man das benutzt?!\e"
+MG01270022,"\h(«Vyse»)Na toll, sieht so aus, als wäre das auch nicht
+die richtige Stelle…… Tja, ihr kennt ja die
+Routine…… Kampfstationen……\c"
+MG01270024,"\h(«Aika»)Komm schon, Vyse!
+Ich werde langsam etwas müde!
+Vielleicht sollte ich mal Kapitän sein!\e"
+MG01270025,"\h(«Vyse»)Tu……tut mir leid, Aika.
+Ich würde euch das gern ersparen, aber……
+Kampfstationen, alle Mann.\c"
+MG01270027,\h(«Aika»)………………\e
+MG01270028,"\h(«Vyse»)Em……
+Bedaure…… em…… nun…… ja.
+Kampfstationen……… Bitte?\c"
+MG01270029,\h( )Du erhieltst “Velorium” x 1!\c
+MG01270030,\h( )Du erhieltst “Velorium” x 1!\c
+MJ0140000,\h(«Aika»)The crane grabbed onto something!\e
+MJ0140001,\h(«Vyse»)Pull it up!\e
+MJ0140002,"\h(«Aika»)We did it!!!
+It's Fina's ship!\e"
+MJ0140003,"\h(«Vyse»)Great job!
+Aika, hurry and get it on board!\e"
+MJ0140004,\h(«Aika»)Aye aye!\e
+MJ0140005,"\h(«Vyse»)Fina, you'll finally be able to get home with
+this!\e"
+MJ0140006,"\h(«Fina»)Yes.
+Thank you very much.\e"
+MJ0140007,\h(«Fina»)……\e
+MJ0140008,\h(«Fina»)This means that I'll have to leave you…\e
+MJ0140009,"\h(«Vyse»)Oh, Fina… I…\e"
+MJ0140010,"\h(«Vyse»)Aaahh!
+What was that?!\e"
+MJ0140011,\h(«Aika»)There was an explosion off the port bow!\e
+MJ0140012,"\h(«Aika»)Vyse!
+Something's coming!\e"
+MJ0140013,"\h(«De Loco»)Hehehehe…
+I found you, Vyse!\e"
+MJ0140014,"\h(«De Loco»)I still haven't forgotten what you did to 
+my ship, the Chameleon, at Ixa'taka!\e"
+MJ0140015,"\h(«De Loco»)This underworld will be your grave!
+I shall have my revenge!
+REVENGE!!!\e"
+MJ0140016,"\h(«Vyse»)That was the ship that De Loco was building at
+Dangral.\e"
+MJ0140017,"\h(«Vyse»)Aika, did you secure Fina's ship?\e"
+MJ0140018,\h(«Aika»)Yes. It's onboard already.\e
+MJ0140019,"\h(«Vyse»)Alright! All hands to battlestations!
+Here is our chance to finally rid the world of
+that psycho!\e"
+MJ0140020,"\h(«Vyse»)Visibility is poor, so it'll be hard to hit him
+when he's far away! Try and attack from close
+range!\e"
+MSJ0140000,\h(«Aika»)¡Hay algo en el pescante!\e
+MSJ0140001,\h(«Vyse»)¡Súbelo!\e
+MSJ0140002,"\h(«Aika»)¡¡¡Lo conseguimos!!!
+¡El navío de Fina!\e"
+MSJ0140003,"\h(«Vyse»)¡Buen trabajo!
+¡Aika, date prisa y súbelo a la cubierta!\e"
+MSJ0140004,\h(«Aika»)¡Muy bien!\e
+MSJ0140005,"\h(«Vyse»)¡Con esto por fin vas a poder volver a tu casa,
+Fina!\e"
+MSJ0140006,"\h(«Fina»)Sí.
+Muchas gracias.\e"
+MSJ0140007,\h(«Fina»)……\e
+MSJ0140008,\h(«Fina»)Eso significa que voy a tener que dejarte……\e
+MSJ0140009,"\h(«Vyse»)Oh, Fina…… Yo……\e"
+MSJ0140010,"\h(«Vyse»)¡Aaahh!
+¡¿Qué ha sido eso?!\e"
+MSJ0140011,\h(«Aika»)¡Una explosión por la parte de la proa!\e
+MSJ0140012,"\h(«Aika»)¡Vyse!
+¡Algo se acerca!\e"
+MSJ0140013,"\h(«De Loco»)Je, je, je……
+¡Por fin te he encontrado, Vyse!\e"
+MSJ0140014,"\h(«De Loco»)¡Aún no he olvidado lo que le hiciste a mi
+navío, el Camaleón, cuando estábamos en
+Ixa'taka!\e"
+MSJ0140015,"\h(«De Loco»)¡Este mundo subterráneo será tu tumba!
+¡Me vengaré de todas tus ofensas!
+¡¡¡VENGANZA!!!\e"
+MSJ0140016,"\h(«Vyse»)Ése era el navío que De Loco estaba construyendo
+en Dangral.\e"
+MSJ0140017,"\h(«Vyse»)Aika, ¿estás segura de que tienes el navío de
+Fina?\e"
+MSJ0140018,\h(«Aika»)Sí. Ya está a bordo de nuestro barco.\e
+MSJ0140019,"\h(«Vyse»)¡Muy bien! ¡Todos a sus puestos de combate!
+¡Es una oportunidad única de librar al mundo de
+ese lunático!\e"
+MSJ0140020,"\h(«Vyse»)¡Hay poca visibilidad, así que va a ser difícil
+acertarle si se aleja! ¡Hay que atacarle a
+quemarropa!\e"
+MFJ0140000,\h(«Aika»)La grue a accroché quelque chose !\e
+MFJ0140001,\h(«Vyse»)Relève-la !\e
+MFJ0140002,"\h(«Aika»)Nous l'avons trouvé!
+C'est le vaisseau de Fina !\e"
+MFJ0140003,"\h(«Vyse»)Bon travail !
+Aika, dépêche-toi de le mettre à bord !\e"
+MFJ0140004,\h(«Aika»)À vos ordres !\e
+MFJ0140005,"\h(«Vyse»)Fina, tu vas enfin pouvoir rentrer chez toi !\e"
+MFJ0140006,"\h(«Fina»)Oui.
+Merci beaucoup.\e"
+MFJ0140007,\h(«Fina»)…………\e
+MFJ0140008,\h(«Fina»)Ce qui veut dire que je dois vous laisser……\e
+MFJ0140009,"\h(«Vyse»)Oh, Fina…… je……\e"
+MFJ0140010,"\h(«Vyse»)Aaahh !
+Que s'est-il passé ?!\e"
+MFJ0140011,\h(«Aika»)Il y a eu une explosion à bâbord ?????!\e
+MFJ0140012,"\h(«Aika»)Vyse !
+Quelque chose approche !\e"
+MFJ0140013,"\h(«De Loco»)Héhéhéhé……
+Je t'ai retrouvé, Vyse !\e"
+MFJ0140014,"\h(«De Loco»)Je n'ai pas oublié ce que tu as fait à mon
+navire, le Caméléon, à Ixa'taka !\e"
+MFJ0140015,"\h(«De Loco»)Cet enfer te servira de tombe !
+J'aurai ma vengeance !
+VENGEANCE !!!\e"
+MFJ0140016,"\h(«Vyse»)C'est le navire que De Loco construisait à
+Dangral.\e"
+MFJ0140017,"\h(«Vyse»)Aika, tu as bien récupéré le navire de Fina ?\e"
+MFJ0140018,\h(«Aika»)Oui. Il est déjà à bord.\e
+MFJ0140019,"\h(«Vyse»)Bien ! Tous à vos postes de combat !
+C'est l'occasion de débarrasser le monde de ce
+malade mental !\e"
+MFJ0140020,"\h(«Vyse»)La visibilité est faible, alors ce sera
+difficile de lui tirer dessus de loin !
+Essayez de tirer dès qu'il est à portée !\e"
+MGJ0140000,\h(«Aika»)Der Kran hat etwas aufgegriffen!\e
+MGJ0140001,\h(«Vyse»)Zieht es hoch!\e
+MGJ0140002,"\h(«Aika»)Wir haben es!!!
+Es ist Finas Schiff!\e"
+MGJ0140003,"\h(«Vyse»)Toll!
+Aika, beeil dich und komm an Bord!\e"
+MGJ0140004,\h(«Aika»)Aye aye!\e
+MGJ0140005,"\h(«Vyse»)Fina, jetzt kannst du endlich damit nach
+Hause fahren!\e"
+MGJ0140006,"\h(«Fina»)Ja.
+Vielen Dank.\e"
+MGJ0140007,\h(«Fina»)……\e
+MGJ0140008,"\h(«Fina»)Das heißt, dass ich euch verlassen muss……\e"
+MGJ0140009,"\h(«Vyse»)Oh, Fina…… ich……\e"
+MGJ0140010,"\h(«Vyse»)Aaahh!
+Was war das?!\e"
+MGJ0140011,\h(«Aika»)Da war eine Explosion backbord voraus!\e
+MGJ0140012,"\h(«Aika»)Vyse!
+Da nähert sich etwas!\e"
+MGJ0140013,"\h(«De Loco»)Hihihihi……
+Hab ich dich doch gefunden, Vyse!\e"
+MGJ0140014,"\h(«De Loco»)Ich habe noch immer nicht vergessen, was du
+damals meinem Schiff, der Chameleon, bei
+Ixa'taka angetan hast!\e"
+MGJ0140015,"\h(«De Loco»)Die Unterwelt wird dein Grab!
+Ich werde Rache nehmen!
+RACHE!!!\e"
+MGJ0140016,"\h(«Vyse»)Das war das Schiff, das De Loco in Dangral
+gebaut hat.\e"
+MGJ0140017,"\h(«Vyse»)Aika, hast du Finas Schiff sicher geborgen?\e"
+MGJ0140018,\h(«Aika»)Ja. Es ist schon an Bord.\e
+MGJ0140019,"\h(«Vyse»)Ok! Alle man an die Waffen! Das ist unsere
+Chance, die Welt ein und für alle Mal von
+diesem Psychopathen zu befreien!\e"
+MGJ0140020,"\h(«Vyse»)Die Sicht ist nicht gut, also wird es schwer
+sein, ihn zu treffen, wenn er zu weit weg
+ist. Versucht ihn von nahem zu kriegen!\e"
+MJ0180000,"\h(«De Loco»)No! No! NO! How… how could the Chameleon be 
+defeated three times?! Not one time, not two 
+times, but THREE TIMES!!!\e"
+MJ0180001,"\h(«De Loco»)This can't be! This can't be!
+This is all just a dream! Just an illusion!
+I… I refuse to believe it!\e"
+MJ0180002,"\h(«Vice Captain»)Admiral!
+Get a hold of yourself!\e"
+MJ0180003,\h(«De Loco»)……\e
+MJ0180004,"\h(«De Loco»)Hehe…
+Hehehehe…\e"
+MJ0180005,"\h(«Vice Captain»)Admiral?
+Are you alright?\e"
+MJ0180006,"\h(«De Loco»)MWAHAHAHA!!!
+This time, dear little Vyse, I've prepared 
+something special just for you!\e"
+MJ0180007,"\h(«De Loco»)It's not over yet, Vyse!
+I still have one last trick up my sleeve!!!\e"
+MJ0180008,\h(«De Loco»)Fire the De Loco Harpoon Cannon!!!\e
+MJ0180009,\h(«Vyse»)What was that?!!!\e
+MJ0180010,"\h(«De Loco»)Mwahahahaha!!!
+I shall defeat you with a Harpoon Cannon, 
+just like you defeated me!!!\e"
+MJ0180011,"\h(«De Loco»)I'll get you this time, Vyse!
+I'll get you!
+I'll get you!\e"
+MSJ0180000,"\h(«De Loco»)¡No! ¡No! ¡NO! ¡¿Cómo…… cómo es posible que el
+Camaleón haya sido derrotado tres veces?!
+No una vez, ni dos, ¡¡¡sino TRES VECES!!!\e"
+MSJ0180001,"\h(«De Loco»)¡No puede ser! ¡Es imposible!
+¡Estoy soñando! ¡Son imaginaciones mías!
+¡Me niego a creerlo!\e"
+MSJ0180002,"\h(«Vicecapitán»)¡Almirante!
+¡Contrólese!\e"
+MSJ0180003,\h(«De Loco»)……\e
+MSJ0180004,"\h(«De Loco»)Je, je……
+Je, je……\e"
+MSJ0180005,"\h(«Vicecapitán»)¿Almirante?
+¿Le pasa algo?\e"
+MSJ0180006,"\h(«De Loco»)¡¡¡JA, JA, JA, JA!!!
+¡Esta vez, querido Vyse, he preparado algo muy
+especial, en exclusiva para ti!\e"
+MSJ0180007,"\h(«De Loco»)¡Esto no acaba aquí, Vyse!
+¡¡¡Aún me queda una carta en la manga!!!\e"
+MSJ0180008,\h(«De Loco»)¡¡¡Disparen el Cañón Arpón De Loco!!!\e
+MSJ0180009,\h(«Vyse»)¡¡¡¿Qué ha sido eso?!!!\e
+MSJ0180010,"\h(«De Loco»)¡¡¡Jajajaja!!!
+¡¡¡Te voy a derrotar con mi Cañón Arpón,
+igual que tú me derrotaste a mí!!!\e"
+MSJ0180011,"\h(«De Loco»)¡Esta vez voy a por ti, Vyse!
+¡Voy a por ti!
+¡Voy a por ti!\e"
+MFJ0180000,"\h(«De Loco»)Non ! Non! NON ! Comment…… comment est-ce qu'ils
+ont pu vaincre le Caméléon trois fois ?!
+Pas une fois, pas deux, mais TROIS FOIS !!!\e"
+MFJ0180001,"\h(«De Loco»)C'est impossible ! C'est impossible !
+Ce n'est qu'un rêve ! Juste une illusion !
+Je…… je refuse d'y croire !\e"
+MFJ0180002,\h(«Vice Capitaine»)Reprenez vous Amiral !\e
+MFJ0180003,\h(«De Loco»)……\e
+MFJ0180004,"\h(«De Loco»)Héhé……
+Héhéhéhé……\e"
+MFJ0180005,"\h(«Vice Capitaine»)Amiral ?
+Ça va ?\e"
+MFJ0180006,"\h(«De Loco»)MWAHAHAHA !!!
+Cette fois, cher petit Vyse, je t'ai préparé une
+petite surprise !\e"
+MFJ0180007,"\h(«De Loco»)Ce n'est pas terminé, Vyse !
+Il me reste plus d'un tour dans mon sac !!!\e"
+MFJ0180008,\h(«De Loco»)Tirez le Canon Harpon De Loco !!!\e
+MFJ0180009,\h(«Vyse»)Qu'est-ce que c'était ?!!!\e
+MFJ0180010,"\h(«De Loco»)Mwahahahaha !!!
+Je te vaincrai avec un Canon Harpon,
+comme tu m'as vaincu !!!\e"
+MFJ0180011,"\h(«De Loco»)Je t'aurai cette fois, Vyse !
+Je t'aurai !
+Je t'aurai !\e"
+MGJ0180000,"\h(«De Loco»)Nein! Dreimal nein! Wie…… konnte die Chameleon
+dreimal besiegt werden?! Nicht einmal, nicht
+zweimal, sondern DREIMAL!!!\e"
+MGJ0180001,"\h(«De Loco»)Das kann nicht sein! Das kann nicht sein!
+Das ist alles nur ein Traum! Nur eine Illusion!
+Ich…… weigere mich, daran zu glauben!\e"
+MGJ0180002,"\h(«Vizekapitän»)Admiral!
+Reißen Sie sich zusammen!\e"
+MGJ0180003,\h(«De Loco»)……\e
+MGJ0180004,"\h(«De Loco»)Hihi……
+Hihihihi……\e"
+MGJ0180005,"\h(«Vizekapitän»)Admiral?
+Sind Sie wohlauf?\e"
+MGJ0180006,"\h(«De Loco»)MWAHAHAHA!!!
+Diesmal, mein lieber kleiner Vyse, habe ich
+für dich persönlich etwas ganz Besonderes
+vorbereitet!\e"
+MGJ0180007,"\h(«De Loco»)Es ist noch nicht vorüber, Vyse!
+Ich habe noch einen Trumpf in der Hinterhand!!!\e"
+MGJ0180008,\h(«De Loco»)Feuert die De Loco Harpoon Cannon ab!!!\e
+MGJ0180009,\h(«Vyse»)Was war denn das?!!!\e
+MGJ0180010,"\h(«De Loco»)Mwahahahaha!!!
+Ich werde dich mit einer Harpoon Cannon
+besiegen, genauso, wie du mich besiegt hast!!!\e"
+MGJ0180011,"\h(«De Loco»)Diesmal krieg ich dich, Vyse!
+Ich krieg dich!
+Ich krieg dich!\e"
+MJ0190000,"\h(«De Loco»)Aahhhh!!
+Hot! Hot! Hot!\e"
+MJ0190001,"\h(«De Loco»)Somebody help me!!!
+Somebody tell me this is just a bad dream!!\e"
+MJ0190002,\h(«Aika»)It looks like that's the end of bubble head…\e
+MJ0190003,"\h(«Vyse»)Yeah… but that was a tough fight. 
+If we took on too much damage, 
+we would have been stuck down here.\e"
+MJ0190004,"\h(«Vyse»)Well, we retrieved Fina's ship… 
+Let's go back up! This place 
+gives me the creeps!\e"
+MSJ0190000,"\h(«De Loco»)¡¡Aahhhh!!
+¡Quema! ¡Quema! ¡Quema!\e"
+MSJ0190001,"\h(«De Loco»)¡¡¡Que alguien me ayude!!!
+¡¡Que alguien me diga que sólo es una
+pesadilla!!\e"
+MSJ0190002,\h(«Aika»)Creo que éste es el fin del cabeza regadera……\e
+MSJ0190003,"\h(«Vyse»)Sí…… pero ha sido una batalla difícil.
+Si nos hubieran alcanzado más,
+nos habríamos quedado aquí abajo.\e"
+MSJ0190004,"\h(«Vyse»)Bueno, hemos recuperado el navío de Fina……
+¡Vamos a volver arriba! ¡Este sitio me resulta
+siniestro!\e"
+MFJ0190000,"\h(«De Loco»)Aahhhh !!
+Chaud ! Chaud ! Chaud !\e"
+MFJ0190001,"\h(«De Loco»)À l'aide !!!
+Dites-moi que je fais un cauchemar !!\e"
+MFJ0190002,\h(«Aika»)On dirait que c'en est terminé de tête d'oeuf…\e
+MFJ0190003,"\h(«Vyse»)Oui… mais la bataille n'a pas été facile.
+Si notre navire avait davantage souffert,
+nous serions restés coincés ici pour toujours.\e"
+MFJ0190004,"\h(«Vyse»)Bon, nous avons récupéré le navire de Fina…
+Remontons ! Cet endroit me donne la chair de
+poule !\e"
+MGJ0190000,"\h(«De Loco»)Aahhhh!!
+Heiß! Heiß! Heiß!\e"
+MGJ0190001,"\h(«De Loco»)Hilfe!!!
+Sagt mir, dass das nur ein böser Traum ist!!\e"
+MGJ0190002,"\h(«Aika»)Sieht so aus, als wäre dies das Ende des alten
+Hitzkopfs……\e"
+MGJ0190003,"\h(«Vyse»)Ja…… aber es war ein harter Kampf.
+Wenn wir zu sehr beschädigt worden wären,
+wären wir hier unten geblieben.\e"
+MGJ0190004,"\h(«Vyse»)Wir haben auf jeden Fall Finas Schiff geborgen……
+Lasst uns wieder auftauchen! Ich krieg hier
+das Grausen!\e"
+"",me127a.sct
+"",me537a.sct
+"",M0255
+"",k8460000
+"",m5270000
+"",イベントＪ１４が発生しました。\c
+"",a127bj14a.mld
+"",a127bj14a.mld
+"",a127bj14b.mld
+"",a127bj14b.mld
+"",a127bj14_efe.mld
+"",a127bj14_efe.mld
+"",a034ab.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ac.mld
+"",a034ad.mld
+"",a034ad.mld
+"",e6j014
+"",a127bj14b.mld
+"",M0325
+"",a127bj14c.mld
+"",a127bj14c.mld
+"",M0325
+"",a127bj14c.mld
+"",me540a.sct
+"",a127bj14a.mld
+"",a127bj14_efe.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"","イベントＪ１８が発生しました。
+チェーンデスマッチだ！\c"
+"",me541a.sct
+"",a127bj18.mld
+"",a127bj18.mld
+"",a127bj18_efe.mld
+"",a127bj18_efe.mld
+"",a034ab.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ac.mld
+"",a034ad.mld
+"",a034ad.mld
+"",M0379
+"",e6j018
+"",M0326
+"",M0326
+"",me541a.sct
+"",a127bj18.mld
+"",a127bj18_efe.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",EV_j19発生しました。\c
+"",e6j019
+"",a127bj19.mld
+"",a127bj19.mld
+"",a127bj19_efe.mld
+"",a127bj19_efe.mld
+"",a127bj19.mld
+"",a127bj19_efe.mld

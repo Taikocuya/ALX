@@ -1,0 +1,131 @@
+[Event Name],Task ID
+MAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5470000,"\h(《Vyse》)Now, Ramir… no… Zelos…
+Let's finish this!!\c"
+MA5470001,"\h(《What will you do?》)“Maintain distance, and see what Zelos does.”
+“Close in on the enemy.”\c"
+MA5470002,"\h(《Vyse》)We don't know what Zelos is capable of. Let's
+keep our distance until we can formulate some
+kind of a plan.\c"
+MA5470003,"\h(《How do you want to close in?》)“Circle around the target.”
+“Fly straight toward the target.”\c"
+MA5470004,"\h(《Aika》)It looks like all of Zelos' attacks are
+coming out of that symbol in the middle…\e"
+MA5470005,"\h(《What will you do?》)“Attack from the front.”
+“Attack from the side.”\c"
+MA5470006,"\h(《Vyse》)It's dangerous, but that symbol
+may be its weak point. We've got to
+attack it from the front!\c"
+MA5470007,"\h(《Vyse》)It's too dangerous to just stay in front
+of that thing! We've got to attack it from
+the side!\c"
+MA5470008,"\h(《What will you do?》)“Attack from the front.”
+“Attack from the side.”\c"
+MA5470009,"\h(《Aika》)It looks like Zelos is slowing down! I think
+we're damaging it!!\e"
+MA5470010,"\h(《Vyse》)Alright… now's our chance to attack!
+Open fire!!\c"
+MA5470011,"\h(《Aika》)Look, Vyse!
+Zelos… it's changing shape!\e"
+MA5470012,"\h(《Fina》)Creatures of the Silver Civilization
+have no set shape, and can morph
+at will, just like Cupil…\e"
+MA5470013,"\h(《Fina》)Perhaps when they made Zelos, they gave
+it similar characteristics…\e"
+MA5470014,"\h(《Aika》)Vyse! What should we do? You're the
+Captain, here! Tell us what to do!!\e"
+MA5470015,"\h(《What will you do?》)“Play it safe and keep our distance.”
+“Continue attacking.”\c"
+MA5470016,"\h(《Vyse》)We should play it safe, and keep our distance.
+Let's back off for a little bit…\c"
+MA5470017,"\h(《Vyse》)Don't stop firing!
+We must continue attacking!\c"
+MA5470018,"\h(《What will you do?》)“Play it safe and keep our distance.”
+“Continue attacking.”\c"
+MA5470019,"\h(《Aika》)Vyse, we're counting on you!
+What should we do next?!\e"
+MA5470020,"\h(《What will you do?》)“Keep our distance!”
+“Close in on Zelos!”\c"
+MA5470021,"\h(《Vyse》)It's too dangerous to close in.
+Keep our distance!\c"
+MA5470022,"\h(《Vyse》)Close in on Zelos!
+We'll probably take a few hits, but we need to
+take a chance!!\c"
+MA5470023,"\h(《What will you do?》)“Keep our distance!”
+“Close in on Zelos!”\c"
+MA5470024,"\h(《Aika》)Good job, Vyse! Zelos' guard is letting up!
+I think we've found an opening!!!\e"
+MA5470025,"\h(《What will you do?》)“Just keep firing!”
+“Get in closer and open fire!”\c"
+MA5470026,"\h(《Vyse》)Fire! Keep firing!
+This is our chance to finish Zelos!\c"
+MA5470027,"\h(《Vyse》)Now's our chance!
+It might be dangerous, but we need to get in
+there and fire from close range!\c"
+MA5470028,"\h(《What will you do?》)“Just keep firing!”
+“Get in closer and open fire!”\c"
+MA5470029,"\h(《Fina》)Zelos' claws…
+They're falling off!\e"
+MA5470030,"\h(《Aika》)Just a little more…
+Just a little bit more!
+We've almost got him!!\e"
+MA5470031,"\h(《What will you do?》)“We need to be careful! Let's fall back!”
+“Close in! We'll finish this for good!”\c"
+MA5470032,"\h(《Vyse》)We need to be more careful! Zelos is the most
+powerful Gigas of them all… Who knows what
+he's still capable of.\e"
+MA5470033,"\h(《Vyse》)Fall back for a long-range attack! Alright,
+everyone… we can't fail now! We've come
+too far!\c"
+MA5470034,"\h(《Vyse》)This is our chance!
+Let's finish this!\e"
+MA5470035,"\h(《Vyse》)Ready the Moon Stone Cannon!
+We'll put an end to this!\c"
+MA5470036,"\h(《What will you do?》)“We need to be careful! Let's fall back!”
+“Close in! We'll finish this for good!”\c"
+"",M0463
+"",f7100100S.p04
+"",f7100104S.p04
+"",b2804.mld
+"",b2804.mld
+"",me547a.sct
+"",me090a.sct
+"",k020047.mld
+"",k020047.mld
+"",f7100051S.p04
+"",k020047.mld
+"",b2800.mld
+"",b2800.mld
+"",f3000019
+"",f3000019
+"",b2800.mld
+"",b2801.mld
+"",b2801.mld
+"",b2801.mld
+"",f3000020
+"",f3000020
+"",b2802.mld
+"",b2802.mld
+"",b2802.mld
+"",f7100054S.p04
+"",b2803.mld
+"",b2803.mld
+"",b2803.mld
+"",f7100055S.p04
+"",f3000041
+"",f3000041
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",f3000043
+"",B2820.mld
+"",B2820.mld
+"",B2820.mld
+"",me250a.sct

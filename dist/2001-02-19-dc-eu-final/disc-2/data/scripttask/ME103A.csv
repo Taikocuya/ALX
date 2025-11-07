@@ -1,0 +1,132 @@
+[Event Name],Task ID
+MA0190000,"\h(«Aika»)Vyse! Over there!
+Look at the size of that hole!\e"
+MA0190001,"\h(«Vyse»)The Moon Stone must have caused that. 
+It must be huge… Aika look!  
+Water is flowing into the Shrine!\e"
+MA0190002,"\h(«Vyse»)In the Old World, this island was a sacred 
+place. These ruins used to be some sort of 
+temple. Nobody's been here for generations.\e"
+MA0190003,"\h(«Aika»)Yeah, I've heard stories about this place, too.
+I've heard that there are monsters crawling
+around inside.\e"
+MA0190004,"\h(«Aika»)But Moon Stones that big are rare! 
+We've got to go in and get it!
+You know how I can't pass up a treasure hunt.\e"
+MA0190005,"\h(«Aika»)Besides, how bad can it possibly be?\e"
+MA0190006,"\h(«Vyse»)You're right.
+We're going treasure hunting!\e"
+MSA0190000,"\h(«Aika»)¡Vyse! ¡Por allí!
+¡Mira qué agujero tan grande!\e"
+MSA0190001,"\h(«Vyse»)Una Piedra Lunar debe de haber caído allí.
+Debe de ser enorme…… ¡Mira, Aika!
+¡El Templo se está llenando de agua!\e"
+MSA0190002,"\h(«Vyse»)En el Mundo Antiguo esta isla era un lugar
+sagrado. Estas ruinas solían ser un templo.
+Nadie ha estado aquí en muchas generaciones.\e"
+MSA0190003,"\h(«Aika»)Sí, yo también he oído historias sobre este
+lugar. He oído que hay monstruos merodeando por
+dentro.\e"
+MSA0190004,"\h(«Aika»)¡Pero Piedras Lunares tan grandes!
+¡Tenemos que entrar y llevárnosla!
+Sabes que nunca dejo escapar un buen botín.\e"
+MSA0190005,\h(«Aika»)¿Crees que será tan peligroso como dicen?\e
+MSA0190006,"\h(«Vyse»)Tienes razón.
+¡Vamos a la búsqueda del tesoro!\e"
+MFA0190000,"\h(«Aika»)Vyse ! Là-bas !
+Regarde la taille de ce trou !\e"
+MFA0190001,"\h(«Vyse»)La Pierre de Lune a dû le creuser.
+Elle doit être énorme……  Aika regarde !
+L'eau coule dans le Temple !\e"
+MFA0190002,"\h(«Vyse»)Dans l'Ancien Monde, cette île était un lieu
+sacré. Ces ruines étaient une sorte de temple.
+Il n'y a plus personne depuis des générations.\e"
+MFA0190003,"\h(«Aika»)Oui, moi aussi j'ai entendu parler de cet
+endroit. J'ai entendu dire qu'il y a des
+monstres qui grouillent à l'intérieur.\e"
+MFA0190004,"\h(«Aika»)Mais les Pierres de Lune aussi grosses sont
+rares ! Il faut descendre la chercher !
+Tu sais que je suis toujours partante pour une
+chasse au trésor.\e"
+MFA0190005,"\h(«Aika»)Et puis, ça ne peut pas être si difficile……\e"
+MFA0190006,"\h(«Vyse»)Tu as raison.
+Partons à la chasse au trésor !\e"
+MGA0190000,"\h(«Aika»)Vyse! Da drüben!
+Sieh nur, wie groß dieses Loch ist!\e"
+MGA0190001,"\h(«Vyse»)Das war bestimmt der Moon Stone.
+Er muss riesig sein……   Aika, sieh dir das an!
+Hier fließt Wasser in den Schrein!\e"
+MGA0190002,"\h(«Vyse»)In der Alten Welt war die Insel ein heiliger
+Ort. Diese Ruinen waren einmal so eine Art
+Tempel. Hier ist seit Generationen niemand
+gewesen.\e"
+MGA0190003,"\h(«Aika»)Ja, ich habe auch Geschichten über diesen Ort
+gehört. Ich habe gehört, das im Innern Monster
+ihr Unwesen treiben sollen.\e"
+MGA0190004,"\h(«Aika»)Aber Moon Stones dieser Größe sind rar!
+Wir müssen rein und ihn holen! Du weißt,
+ich kann keine Schatzsuche auslassen.\e"
+MGA0190005,"\h(«Aika»)Außerdem, so schlimm kann es ja nicht sein oder?\e"
+MGA0190006,"\h(«Vyse»)Du hast Recht.
+Wir gehen auf Schatzsuche!\e"
+M01030000,"\h(«Vyse»)It won't budge. The door seems to be stuck. It
+probably got jarred shut when this island
+collided with Soltis.\c"
+M01030001,"\h(«What will you do?»)“Return to your ship.”
+“Continue searching the island.”\c"
+M01030002,"\h(«What will you do?»)“Return to the Little Jack.”
+“Continue searching the island”\c"
+M01030003,"\h(«What will you do?»)“Return to the Delphinus.”
+“Continue searching the island”\c"
+M01030004,"\h(«Vyse»)What's this thing made of? I've never seen this
+material before. It looks almost like… gold.
+It doesn't feel like gold, though…\c"
+MS01030000,"\h(«Vyse»)Ni siquiera se entreabre. Esta puerta está
+atascada. Debió quedarse atrancada cuando la
+isla colisionó con Soltis.\c"
+MS01030001,"\h(«¿Qué vas a hacer?»)“Volver al navío.”
+“Seguir buscando la isla.”\c"
+MS01030002,"\h(«¿Qué vas a hacer?»)“Volver al Little Jack.”
+“Seguir buscando la isla.”\c"
+MS01030003,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Seguir buscando la isla.”\c"
+MS01030004,"\h(«Vyse»)¿De qué está hecho esto? Nunca había visto este
+material. Es parecido al…… oro.
+Pero no creo que sea oro……\c"
+MF01030000,"\h(«Vyse»)Elle ne bouge pas. La porte semble bloquée.
+Elle a dû se coincer quand cette île a heurté
+Soltis.\c"
+MF01030001,"\h(«Que ferez-vous ?»)“Vous retournerez sur votre navire.”
+“Vous continuerez à fouiller l'île.”\c"
+MF01030002,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Little Jack.”
+“Vous continuerez à fouiller l'île.”\c"
+MF01030003,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous continuerez à fouiller l'île.”\c"
+MF01030004,"\h(«Vyse»)En quoi elle est faite ? Je n'ai jamais vu ce
+matériau. Cela ressemble presque à…… de l'or.
+Mais on ne dirait pas de l'or au toucher……\c"
+MG01030000,"\h(«Vyse»)Sie bewegt sich nicht. Die Tür scheint zu
+klemmen. Sie klemmt wahrscheinlich, seit
+diese Insel mit Soltis kollidiert ist.\c"
+MG01030001,"\h(«Was wirst du tun?»)“Zu deinem Schiff zurückkehren.”
+“Die Insel weiter durchsuchen.”\c"
+MG01030002,"\h(«Was wirst du tun?»)“Zur Little Jack zurückkehren.”
+“Die Insel weiter durchsuchen.”\c"
+MG01030003,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Die Insel weiter durchsuchen.”\c"
+MG01030004,"\h(«Vyse»)Woraus besteht das? Dieses Material habe ich
+noch nie zuvor gesehen. Es sieht fast wie……
+Gold aus. Es fühlt sich aber nicht so an……\c"
+"",a103a00.mld
+"",a103a01.mld
+"",a103a02.mld
+"",me103b.sct
+"",me103b.sct
+"",me103b.sct
+"",m5030000
+"",k8030000
+"","A19発生。
+神殿島へようこそ\c"
+"",a103aa19.mld
+"",e6a019
+"",a103aa19.mld

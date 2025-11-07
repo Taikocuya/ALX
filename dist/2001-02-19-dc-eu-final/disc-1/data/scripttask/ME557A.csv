@@ -1,0 +1,48 @@
+[Event Name],Task ID
+MA5620000,"\h(«Valuan Gunboat»)Hey! You're the one who defeated Admiral
+Belleza! You'll pay for your treachery!!\c"
+MA5620001,"\h(«Valuan Gunboat»)The Imperial Armada is invicible! You will
+learn to bow before the might of Valua!\c"
+MA5620002,"\h(«Valuan Gunboat»)Air Pirates!! It's about time the Valuan Empire
+rid the skies of your kind…\c"
+MA5620003,"\h(«What will you do?»)“Fight defensively, and maintain distance.”
+“Fight aggressively, and close in on the enemy.”\c"
+MSA5620000,"\h(«Cañonero Valuan»)¡Oye! ¡Tú eres el que ha derrotado a la
+Almirante Belleza!
+¡¡Pagarás tu traición, bellaco!!\c"
+MSA5620001,"\h(«Cañonero Valuan»)¡La Armada Imperial es invencible!
+¡Vas a tener que aprender a doblegarte
+ante el poder de Valua!\c"
+MSA5620002,"\h(«Cañonero Valuan»)¡¡Piratas Aéreos!! Ha llegado el momento de que
+el Imperio Valuan limpie los cielos de basura
+como vosotros……\e"
+MSA5620003,"\h(«¿Qué vas a hacer?»)“Defender y mantener la distancia.”
+“Atacar y acercarnos.”\c"
+MFA5620000,"\h(«Canonnière Valuan»)Hé ! Vous êtes celui qui a vaincu l'Amiral
+Belleza ! Vous paierez pour votre trahison !!\c"
+MFA5620001,"\h(«Canonnière Valuan»)L'Armada Impériale est invincible !
+Vous apprendrez à vous prosterner devant la
+toute puissance de Valua !\c"
+MFA5620002,"\h(«Canonnière Valuan»)Des Pirates de l'Air !! Il est grand temps que
+l'Empire Valuan débarrasse les cieux de votre
+espèce……\c"
+MFA5620003,"\h(«Que ferez-vous ?»)“Passer à l'offensive & maintenir la distance.”
+“Se battre agressivement & cerner l'ennemi.” \c"
+MGA5620000,"\h(«Valuanisches Kanonenboot»)He! Du bist doch der, der Admiral
+Belleza besiegt hat! Du wirst für deinen
+Verrat bezahlen!!\c"
+MGA5620001,"\h(«Valuanisches Kanonenboot»)Die Kaiserliche Armada ist unbesiegbar!
+Wir werden euch lehren, euch vor Valuas
+Macht zu beugen!\c"
+MGA5620002,"\h(«Valuanisches Kanonenboot»)Luftpiraten!! Es wird Zeit, dass das
+Valuan Empire den Himmel von euch Gesindel
+reinigt……\c"
+MGA5620003,"\h(«Was wirst du tun?»)“Defensiv kämpfen und Entfernung einhalten.”
+“Angreifen und den Feind umkreisen.”\c"
+"",M0430
+"",me090a.sct
+"",F7100100S.p04
+"",k0000.mld
+"",k0000.mld
+"",f7100050S.p04
+"",k0000.mld

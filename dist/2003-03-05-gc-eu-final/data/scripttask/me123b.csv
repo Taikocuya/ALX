@@ -1,0 +1,339 @@
+[Event Name],Task ID
+MI0040000,\h(«Vyse»)This looks like it's the last door.\e
+MI0040001,"\h(«Aika»)The fog is so thick… I can barely see what's in
+front of me…\e"
+MI0040002,\h(«Fina»)It's so cold… even the air is freezing…\e
+MI0040003,"\h(«Vyse»)Well, we can't let that stop us.\e"
+MI0040004,\h(«Vyse»)Aaaahhh!!!\e
+MI0040005,\h(«Fina»)…Vyse?\e
+MI0040006,"\h(«Aika»)… Hey!
+Where'd Vyse go?\e"
+MI0040007,\h(«Vyse»)… I'm down here…\e
+MI0040008,"\h(«Aika»)Vyse?!
+What happened?!\e"
+MI0040009,\h(«Vyse»)That was close… \e
+MI0040010,"\h(«Vyse»)If we can see the sky through the floor… that
+means we're at the bottom!\e"
+MI0040011,\h(«Fina»)Hey… the fog is starting to lift.\e
+MI0040012,\h(«Enrique»)Oh… I never imagined that we'd find this…\e
+MI0040013,"\h(«Aika»)Wow…
+There are buildings shaped like icicles hanging
+from the ceiling!\e"
+MI0040014,"\h(«Fina»)…This is Glacia. In the Old World,
+it was the capital of this region.\e"
+MI0040015,"\h(«Fina»)The people that lived here were powerful mages…
+Using the powers of the Purple Moon, they built
+this city.\e"
+MI0040016,"\h(«Fina»)And because this city was built below the ice,
+it was unharmed by the Rains of Destruction.\e"
+MI0040017,"\h(«Fina»)So, Glacia is as it was during the time of the
+Old World.\e"
+MI0040018,"\h(«Aika»)But wait…
+Then what happened to the people that were
+living here?\e"
+MI0040019,"\h(«Fina»)… I, I don't know.
+According to the legends, the people of Glacia
+just disappeared.\e"
+MI0040020,"\h(«Fina»)Nobody knows where they went, or why they left.\e"
+MI0040021,"\h(«Fina»)Maybe they left their city to invade another
+land… \e"
+MI0040022,\h(«Fina»)And they perished in the war and in the Rains…\e
+MI0040023,"\h(«Aika»)I can't imagine an entire culture becoming
+extinct.\e"
+MI0040024,"\h(«Aika»)Think of all of the knowledge that was lost… 
+Everything that these people worked so hard for
+is going to stay buried here forever.\e"
+MI0040025,"\h(«Vyse»)…Let's go.
+We should find the Purple Moon Crystal, 
+before we get buried here forever.\e"
+MFI0040000,\h(«Vyse»)Ce doit être la dernière porte.\e
+MFI0040001,"\h(«Aika»)Le brouillard est tellement dense…… Je ne vois
+rien……\e"
+MFI0040002,\h(«Fina»)Il fait si froid…… même l'air est glacé……\e
+MFI0040003,\h(«Vyse»)Bon il ne faut pas se laisser abattre.\e
+MFI0040004,\h(«Vyse»)Aaaahhh !!!\e
+MFI0040005,\h(«Fina»)……Vyse ?\e
+MFI0040006,"\h(«Aika»)…… Hé !
+Où est passé Vyse ?\e"
+MFI0040007,\h(«Vyse»)…… Je suis là……\e
+MFI0040008,"\h(«Aika»)Vyse ?!
+Que s'est-il passé ?!\e"
+MFI0040009,\h(«Vyse»)Je l'ai échappé belle……\e
+MFI0040010,"\h(«Vyse»)Si nous pouvons voir le ciel d'ici…… cela veut
+dire que nous sommes au fond !\e"
+MFI0040011,\h(«Fina»)Hé…… le brouillard commence à se lever.\e
+MFI0040012,\h(«Enrique»)Oh…… je n'aurais imaginé trouver ça……\e
+MFI0040013,"\h(«Aika»)Oaouh……
+Il y a des bâtiments en forme de stalactites !\e"
+MFI0040014,"\h(«Fina»)……C'est Glacia. Dans l'Ancien Monde,
+c'était la capitale de cette région.\e"
+MFI0040015,"\h(«Fina»)Des mages tous puissants vivaient ici……
+Ils ont construit cette cité en utilisant les
+pouvoirs de la Lune Mauve.\e"
+MFI0040016,"\h(«Fina»)Et parce que cette cité fut construite sous la
+glace, elle fut épargnée par les Pluies de la
+Destruction.\e"
+MFI0040017,"\h(«Fina»)Donc Glacia est restée intacte depuis l'Ancien
+Monde.\e"
+MFI0040018,"\h(«Aika»)Mais attends……
+Qu'est-il arrivé aux gens qui vivaient ici ?\e"
+MFI0040019,"\h(«Fina»)…… Je, je ne sais pas.
+D'après les légendes, les habitants de Glacia
+ont simplement disparu.\e"
+MFI0040020,"\h(«Fina»)Personne ne sait où ils sont allés, ou pourquoi
+ils sont partis.\e"
+MFI0040021,"\h(«Fina»)Peut-être qu'ils ont quitté cette cité pour en
+envahir une autre……\e"
+MFI0040022,"\h(«Fina»)Et ils ont péri pendant la guerre sous les
+Pluies……\e"
+MFI0040023,"\h(«Aika»)Je n'arrive pas à imaginer la disparition de
+toute une civilisation.\e"
+MFI0040024,"\h(«Aika»)Imaginez toutes les connaissances qui ont été
+perdues…… Tout ce que ces gens se sont efforcés
+de construire va rester enseveli à jamais.\e"
+MFI0040025,"\h(«Vyse»)……Allons-y.
+Il faut trouver le Cristal de Lune Mauve,
+avant de se faire ensevelir pour toujours.\e"
+MGI0040000,\h(«Vyse»)Das müsste die letzte Tür sein.\e
+MGI0040001,"\h(«Aika»)Der Nebel ist so dick…… ich kann kaum
+ausmachen, was vor mir liegt……\e"
+MGI0040002,"\h(«Fina»)Es ist so kalt……  sogar die Luft ist
+gefroren……\e"
+MGI0040003,"\h(«Vyse»)Nun, davon können wir uns nicht abhalten
+lassen.\e"
+MGI0040004,\h(«Vyse»)Aaaahhh!!!\e
+MGI0040005,\h(«Fina»)……Vyse?\e
+MGI0040006,"\h(«Aika»)……He!
+Wo ist Vyse hin?\e"
+MGI0040007,\h(«Vyse»)……Ich bin hier unten……\e
+MGI0040008,"\h(«Aika»)Vyse?!
+Was ist los?!\e"
+MGI0040009,\h(«Vyse»)Das war knapp……\e
+MGI0040010,"\h(«Vyse»)Wenn wir den Himmel durch den Fußboden sehen
+können…… bedeutet das wohl, dass wir auf dem
+Grund sind!\e"
+MGI0040011,\h(«Fina»)He……  der Nebel löst sich allmählich auf.\e
+MGI0040012,"\h(«Enrique»)Oh…… ich hätte nie gedacht, dass wir das hier……
+finden würden.\e"
+MGI0040013,"\h(«Aika»)Wow……
+Da sind Gebäude, die so aussehen wie Eiszapfen,
+die von der Decke hängen!\e"
+MGI0040014,"\h(«Fina»)…… Das ist Glacia. In der Alten Welt war dies
+die Hauptstadt dieser Region.\e"
+MGI0040015,"\h(«Fina»)Die Leute, die hier lebten, waren mächtige
+Magier…… Indem sie sich die Macht des Purple
+Moon zu Eigen machten, bauten sie diese Stadt.\e"
+MGI0040016,"\h(«Fina»)Und weil diese Stadt unter einer Eisschicht
+gebaut wurde, blieb sie von den Rains of
+Destruction verschont.\e"
+MGI0040017,"\h(«Fina»)Also ist Glacia noch immer so, wie es zur Zeit
+der Alten Welt war.\e"
+MGI0040018,"\h(«Aika»)Warte mal……
+Was geschah dann mit den Leuten, die hier
+lebten?\e"
+MGI0040019,"\h(«Fina»)…… Ich, ich weiß nicht. Der Legende zufolge
+ist das Volk von Glacia einfach verschwunden.\e"
+MGI0040020,"\h(«Fina»)Niemand weiß, wohin oder warum sie gegangen
+sind.\e"
+MGI0040021,"\h(«Fina»)Vielleicht verließen sie ihre Stadt, um in
+ein anderes Land einzufallen……\e"
+MGI0040022,"\h(«Fina»)…… und sind im Krieg und im giftigen Regen
+umgekommen……\e"
+MGI0040023,"\h(«Aika»)Ich kann mir nicht vorstellen, dass eine
+gesamte Kultur einfach ausstirbt.\e"
+MGI0040024,"\h(«Aika»)All das Wissen, das dabei verloren ging……
+Alles, wofür diese Leute so hart gearbeitet
+haben, bleibt für immer hier begraben.\e"
+MGI0040025,"\h(«Vyse»)……Gehen wir.
+Wir sollten den Purple Moon Crystal suchen
+gehen, bevor wir hier für immer begraben
+werden.\e"
+MSI0040000,\h(«Vyse»)Creo que ésta es la última puerta.\e
+MSI0040001,"\h(«Aika»)La niebla es tan densa…… Apenas puedo ver lo que
+tengo enfrente……\e"
+MSI0040002,\h(«Fina»)Hace tanto frío…… que hasta el aire se congela……\e
+MSI0040003,\h(«Vyse»)Pero no vamos a detenernos por eso.\e
+MSI0040004,\h(«Vyse»)¡¡¡Aaaahhh!!!\e
+MSI0040005,\h(«Fina»)…… ¿Vyse?\e
+MSI0040006,"\h(«Aika»)…… ¡Eh!
+¿Dónde se ha ido Vyse?\e"
+MSI0040007,\h(«Vyse»)…… Estoy aquí abajo……\e
+MSI0040008,"\h(«Aika»)¡¿Vyse?!
+¡¿Qué ha pasado?!\e"
+MSI0040009,\h(«Vyse»)Por poco……\e
+MSI0040010,"\h(«Vyse»)Si podemos ver el cielo a través del suelo……
+¡eso significa que estamos en el fondo!\e"
+MSI0040011,\h(«Fina»)Eh…… la niebla empieza a levantarse.\e
+MSI0040012,\h(«Enrique»)Oh…… nunca pensé que podríamos ver esto……\e
+MSI0040013,"\h(«Aika»)Oh……
+¡Hay edificios con la forma de estalactitas!\e"
+MSI0040014,"\h(«Fina»)…… Esto es Glacia. Era la capital de esta región
+en el Mundo Antiguo.\e"
+MSI0040015,"\h(«Fina»)Los habitantes de esta región eran magos con
+grandes poderes…… Utilizaron los poderes de la
+Luna Púrpura para edificar esta ciudad.\e"
+MSI0040016,"\h(«Fina»)Y como esta ciudad fue construida bajo el hielo,
+las Lluvias Destructoras no le afectaron.\e"
+MSI0040017,"\h(«Fina»)Así que Glacia se conserva igual desde los
+tiempos del Mundo Antiguo.\e"
+MSI0040018,"\h(«Aika»)Un momento……
+¿Y qué pasó con las personas que vivían aquí?\e"
+MSI0040019,"\h(«Fina»)No lo sé……
+Según la leyenda, los habitantes de Glacia
+desaparecieron como por encanto.\e"
+MSI0040020,\h(«Fina»)Nadie sabe adónde fueron o por qué se marcharon.\e
+MSI0040021,"\h(«Fina»)Quizá se marcharan de esta ciudad para invadir
+otras tierras……\e"
+MSI0040022,"\h(«Fina»)Y perecieran en la guerra y durante las
+Lluvias……\e"
+MSI0040023,"\h(«Aika»)No me puedo imaginar cómo toda una civilización
+puede extinguirse así como así.\e"
+MSI0040024,"\h(«Aika»)Pensad en los conocimientos que se perdieron……
+Todo lo que estas gentes se esforzaron por crear
+quedó enterrado en hielo para siempre.\e"
+MSI0040025,"\h(«Vyse»)…… Vamos.
+Tenemos que encontrar el Cristal Púrpura
+antes de quedar sepultados aquí para siempre.\e"
+M01230000,"\h(«Vyse»)…It won't open.
+It feels like something's holding it shut, but
+I can't tell what…\c"
+M01230001,"\h(«Guardian Stone»)Visitor to Glacia…
+Answer my query
+and open your own path…\e"
+M01230002,"\h(«Vyse»)What?!
+Did that rock just say something?!\e"
+M01230003,"\h(«Guardian Stone»)Deep within the Purple Moon Stone lies the power
+to hold the world still. What is this power?\e"
+M01230004,"\h(«What is the Purple Moon Stone's power?»)“The power of Fire.”
+“The power of Ice.”
+“The power of Lightning.”\c"
+M01230005,"\h(«Guardian Stone»)Visitor to Glacia…
+Answer my query
+and open your own path…\e"
+M01230006,"\h(«Guardian Stone»)The Purple Crest hides a certain number.
+What is that number?\c"
+M01230007,"\h(«What number is hidden in the Crest?»)“Maybe two?”
+“Maybe four?”
+“Maybe six?”\c"
+M01230008,"\h(«Guardian Stone»)Visitor to Glacia…
+Answer the last query
+and open your own path…\e"
+M01230009,"\h(«Guardian Stone»)Purple Moon Stones affect the abilities
+of living things.\e"
+M01230010,"\h(«Guardian Stone»)What are the abilities most valued
+by the people of Glacia?\e"
+M01230011,"\h(«Which abilities?»)“Power and courage.”
+“Will and spirit.”
+“Life and healing.”\c"
+M01230012,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MF01230000,"\h(«Vyse»)……Elle ne veut pas s'ouvrir.
+On dirait que quelque chose l'empêche de
+s'ouvrir, mais je ne sais pas ce que c'est……\c"
+MF01230001,"\h(«Gardien de la Pierre»)Vous qui visitez Glacia……
+Répondez à ma question
+et ouvrez votre chemin……\e"
+MF01230002,"\h(«Vyse»)Comment ?!
+Est-ce que ce roc a parlé ?!\e"
+MF01230003,"\h(«Gardien de la Pierre»)Le pouvoir de garder le monde immobile est
+enfoui dans la Pierre de Lune Mauve.
+Quel est ce pouvoir ?\e"
+MF01230004,"\h(«Quel est ce pouvoir ?»)“Le pouvoir du Feu.”
+“Le pouvoir de la Glace.”
+“Le pouvoir de l'Éclair.”\c"
+MF01230005,"\h(«Gardien de la Pierre»)Vous qui visitez Glacia……
+Répondez à ma question
+et ouvrez votre chemin……\e"
+MF01230006,"\h(«Gardien de la Pierre»)Les Armoiries Mauves cachent un certain nombre.
+Quel est ce nombre ?\c"
+MF01230007,"\h(«Quel est le nombre caché dans les Armoiries ?»)“Peut-être deux ?”
+“Peut-être quatre ?”
+“Peut-être six ?”\c"
+MF01230008,"\h(«Gardien de la Pierre»)Visiteur de Glacia……
+Répondez à ma question
+et ouvrez votre chemin……\e"
+MF01230009,"\h(«Gardien de la Pierre»)Les Pierres de Lune Mauve affectent les
+capacités des êtres vivants.\e"
+MF01230010,"\h(«Gardien de la Pierre»)Quelles sont les capacités les plus prisées des
+habitants de Glacia ?\e"
+MF01230011,"\h(«Quelles capacités ?»)“Pouvoir et courage.”
+“Volonté et Esprit.”
+“Vie et Guérison.”\c"
+MF01230012,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MG01230000,"\h(«Vyse»)……Sie geht nicht auf.
+Es fühlt sich so an, als ob sich irgendetwas
+dagegenstemmt, aber ich weiß nicht, was……\c"
+MG01230001,"\h(«Stein am Eingang»)Besucher in Glacia……
+Beantworte meine Frage und
+öffne dir selbst den Weg……\e"
+MG01230002,"\h(«Vyse»)Was?!
+Hat dieser Felsen gerade gesprochen?!\e"
+MG01230003,"\h(«Stein am Eingang»)Tief im Innern des Purple Moon Stone liegt
+die Kraft vergraben, die die Welt anhalten
+kann. Was ist das für eine Kraft?\e"
+MG01230004,"\h(«Was ist die Kraft des Purple Moon Stone?»)“Die Kraft des Feuers.”
+“Die Kraft des Eises.”
+“Die Kraft des Blitzes.”\c"
+MG01230005,"\h(«Stein am Eingang»)Besucher in Glacia……
+Beantworte meine Frage und
+öffne dir selbst den Weg……\e"
+MG01230006,"\h(«Stein am Eingang»)Im Purple Crest ist eine bestimmte
+Zahl versteckt. Welche ist das?\c"
+MG01230007,"\h(«Welche Zahl versteckt sich in dem Wappen?»)“Vielleicht zwei?”
+“Vielleicht vier?”
+“Vielleicht sechs?”\c"
+MG01230008,"\h(«Stein am Eingang»)Besucher in Glacia……
+Beantworte meine Frage und
+öffne dir selbst den Weg……\e"
+MG01230009,"\h(«Stein am Eingang»)Purple Moon Stones beeinflussen die Fähigkeiten
+von Lebewesen.\e"
+MG01230010,"\h(«Stein am Eingang»)Welches sind die Fähigkeiten, die das Volk
+von Glacia am meisten schätzt?\e"
+MG01230011,"\h(«Welche Fähigkeiten?»)“Kraft und Mut.”
+“Wille und Geist.”
+“Leben und Heilen.”\c"
+MG01230012,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Noch eine Weile hier bleiben.”\c"
+MS01230000,"\h(«Vyse»)…… No se abre.
+Parece que hay algo sujetándola, no sé qué puede
+ser……\c"
+MS01230001,"\h(«Piedra Vigilante»)Visitante de Glacia……
+Responde a mi acertijo
+y abre tu propio sendero……\e"
+MS01230002,"\h(«Vyse»)¡¿Cómo?!
+¿Esa roca acaba de hablar?!\e"
+MS01230003,"\h(«Piedra Vigilante»)Dentro de la Luna Púrpura yace el poder de
+paralizar el mundo. ¿Cuál es este poder?\e"
+MS01230004,"\h(«¿Cuál es el poder de la Luna Púrpura?»)“El poder del Fuego.”
+“El poder del Hielo.”
+“El poder del Rayo.”\c"
+MS01230005,"\h(«Piedra Vigilante»)Visitante de Glacia……
+Responde a mi acertijo
+y abre tu propio sendero……\e"
+MS01230006,"\h(«Piedra Vigilante»)El Escudo Púrpura oculta una cifra.
+¿Qué número?\c"
+MS01230007,"\h(«¿Qué cifra se oculta en el Escudo?»)“¿Quizá dos?”
+“¿Quizá cuatro?”
+“¿Quizá seis?”\c"
+MS01230008,"\h(«Piedra Vigilante»)Visitante de Glacia……
+Responde al último acertijo
+y abre tu propio sendero……\e"
+MS01230009,"\h(«Piedra Vigilante»)La Piedras Púrpuras afectan a los atributos
+de los seres vivos.\e"
+MS01230010,"\h(«Piedra Vigilante»)¿Cuáles son las cualidades más apreciadas
+por los habitantes de Glacia?\e"
+MS01230011,"\h(«¿Qué cualidades?»)“Poder y coraje.”
+“Voluntad y espíritu.”
+“Vida y curación.”\c"
+MS01230012,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un poco más.”\c"
+"",me123c.sct
+"",me123a.sct
+"",M0246
+"",m5230000
+"",a123bi04.mld
+"",a123bi04.mld
+"",e6i004
+"",M0246
+"",a123bi04.mld

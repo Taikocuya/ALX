@@ -1,0 +1,153 @@
+[Event Name],Task ID
+MF0270000,"\h(《Gilder》)Hey, Vyse!
+I believe that's what we came here for!
+Heh, Daccat's Treasure.\e"
+MF0270001,"\h(《Vyse》)That's got to be it!
+Heh, now I can buy my ship.\e"
+MF0270002,"\h(《Aika》)Wow! Look, Fina! Look!!!
+That treasure chest is HUGE!!!\e"
+MF0270003,"\h(《Fina》)Oh, yes… I see it!
+Do you think it's Captain Daccat's Treasure?\e"
+MF0270004,\h(《Vyse》)Who's there?!\e
+MF0270005,\h(《Aika》)Who's there yourself?\e
+MF0270006,"\h(《Aika》)Oh!!!
+Vyse…! It's Vyse!!\e"
+MF0270007,\h(《Fina》)Vyse!!\e
+MF0270008,"\h(《Vyse》)Aika!
+Fina!
+You're both okay!!\e"
+MF0270009,\h(《Aika》)Vyse!!!\e
+MF0270010,"\h(《Aika》)You're alive! We raised enough money to buy a 
+boat and we were gonna go looking for you! 
+As soon as we got the treasure, of course.\e"
+MF0270011,"\h(《Fina》)Vyse…
+I'm so glad that you are alright…\e"
+MF0270012,"\h(《Fina》)Oh, I'm sorry…
+I'm a little emotional right now.
+I'm just so happy!!!\e"
+MF0270013,"\h(《Vyse》)Aika… Fina…
+I was so worried. I was gonna buy a boat to look
+for you, too.\e"
+MF0270014,\h(《Gilder》)Heh! Well look at you… \e
+MF0270015,"\h(《Gilder》)On top of that, I didn't know that your partner 
+was the cutie that I met in Nasr!\e"
+MF0270016,\h(《Aika》)We're all together again!\e
+MF0270017,\h(《Vyse》)Aww… Now what?!\e
+MF0270018,\h(《》)Aika and Fina have joined your party.\e
+MF0380000,"\h(《Gilder》)Heh…
+Let's see what the greatest Air Pirate of all 
+time has to offer.\e"
+MF0380001,\h(《Gilder》)… What?\e
+MF0380002,\h(《Gilder》)What's this?!\e
+MF0380003,\h(《Vyse》)What the?!\e
+MF0380004,"\h(《Aika》)A piece of paper…
+And a single gold coin?\e"
+MF0380005,"\h(《Vyse》)”Brave souls that come seeking my treasure, do 
+not be disparaged. You already have the most 
+valuable treasures in the world.”\e"
+MF0380006,"\h(《Vyse》)”Comrades, trust, and cooperation.
+Those are the only true treasures in this world.
+                                Daccat”\e"
+MF0380007,\h(《Vyse》)”Daccat”…\e
+MF0380008,\h(《Vyse》)I don't believe this…\e
+MF0380009,\h(《Aika》)That's it? No gems… No jewels?!\e
+MF0380010,"\h(《Gilder》)HAHAHAHAHA!!!
+I didn't know that Daccat had such a great sense
+of humor. \e"
+MF0380011,"\h(《Gilder》)I haven't laughed this hard in a long time! A 
+good laugh beats a bunch of gold any day.\e"
+MF0380012,"\h(《Fina》)Well, this treasure has brought us all back 
+together… and friends are more important 
+than any treasure.\e"
+MF0380013,"\h(《Aika》)I understand that friends are important… but he
+could've at least threw in a little something 
+for our trouble!\e"
+MF0380014,"\h(《Aika》)First it was the Lost City… then it was
+Daccat's Treasure… All of these old legends
+haven't paid off one bit.\e"
+MF0380015,"\h(《Vyse》)Hahaha! I'll bet the greatest Air Pirate of all
+time spent all of his gold while he was still 
+alive. You can't take it with you, y'know.\e"
+MF0380016,"\h(《Aika》)Some old bag of bones is in his grave laughing 
+at us right now!!! We ran around like idiots the
+whole time. And we're still poor!\e"
+MF0380017,\h(《》)You received ”Daccat's Coin.”\e
+M01150000,"\h(《アイカ》)なに、このデッカい扉……
+押しても引いても
+ビクともしないよ！\e"
+M01150001,"\h(《ファイナ》)古い文字で、何か
+書いてありますね……\e"
+M01150002,"\h(《ファイナ》)「離れし二つの力を一つにし
+　道を開くべし……」\e"
+M01150003,"\h(《アイカ》)もー、ダカット船長のケチンボ！
+島の中にぐらい
+入れてくれたっていいじゃん！\c"
+M01150004,"\h(《アイカ》)もー！
+また開かない扉があるよ。\c"
+M01150005,"\h(《ヴァイス》)また、扉か……
+こいつも、押しても引いても
+ビクともしないな。\c"
+M01150006,"\h(《ヴァイス》)何かのしかけを動かす
+レバーみたいだが……\c"
+M01150007,"\h(《アイカ》)開かない扉が勝手に開いたり
+意味わかんないレバーがあったり
+ホンット、ヘンな島！\c"
+M01150008,"\h(《アイカ》)今度の扉は、何？
+なんか、足元に
+ヘンな石板がはまってるけど……\c"
+M01150009,"\h(《ヴァイス》)この扉も、きっと
+なにかのしかけで
+開くんだろうな……\c"
+M01150010,"\h(《アイカ》)また、足元に石板がある扉だよ。
+どーも、この石板に乗ることが
+大事みたいね。\c"
+M01150011,"\h(《ヴァイス》)どうやら、この石板に
+何かのタイミングで乗ることで
+扉が開くようだな。\c"
+M01150012,"\h(《アイカ》)また、足元に石板がある扉だよ。
+どーも、この石板に乗ることが
+大事みたいね。\c"
+M01150013,"\h(《ヴァイス》)どうやら、この石板に
+何かのタイミングで乗ることで
+扉が開くようだな。\c"
+M01150014,"\h(《アイカ》)また、足元に石板がある扉だよ。
+どーも、この石板に乗ることが
+大事みたいね。\c"
+M01150015,"\h(《ヴァイス》)どうやら、この石板に
+何かのタイミングで乗ることで
+扉が開くようだな。\c"
+M01150016,"\h(《ヴァイス》)伝説の大空賊・ダカットも
+なかなかシャレがわかる
+やつだったみたいだな。\c"
+M01150017,"\h(《どーしよっかな？》)「出航する」
+「島の探索をつづける」\c"
+M01150018,"\h(《どうする？》)「出航する」
+「島の探索をつづける」\c"
+M01150019,"\h(《どうする？》)「デルフィナスに帰艦する」
+「島の探索をつづける」\c"
+"",戦闘終了\c
+"",戦闘終了\c
+"",me115b.sct
+"",me115b.sct
+"",M0250
+"",M0249
+"",m5150000
+"",F27発生しました。\c
+"",a115cf27.mld
+"",a115cf27.mld
+"",a115cf27_efe.mld
+"",a115cf27_efe.mld
+"",M0250
+"",M0316
+"",e6f027
+"",M0326
+"",a115cf27.mld
+"",a115cf27_efe.mld
+"",F38発生しました。\c
+"",a115cf38.mld
+"",a115cf38.mld
+"",e6f038
+"",M0250
+"",M0312
+"",M0312
+"",a115cf38.mld

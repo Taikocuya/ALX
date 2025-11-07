@@ -1,0 +1,43 @@
+[Event Name],Task ID
+MA0190000,"\h(《Aika》)Vyse! Over there!
+Look at the size of that hole!\e"
+MA0190001,"\h(《Vyse》)The Moon Stone must have caused that. 
+It must be huge…  Aika look!  
+Water is flowing into the Shrine!\e"
+MA0190002,"\h(《Vyse》)In the Old World, this island was a sacred 
+place. These ruins used to be some sort of 
+temple. Nobody's been here for generations.\e"
+MA0190003,"\h(《Aika》)Yeah, I've heard stories about this place, too.
+I've heard that there are monsters crawling
+around inside.\e"
+MA0190004,"\h(《Aika》)But Moon Stones that big are rare! 
+We've got to go in and get it!
+You know how I can't pass up a treasure hunt.\e"
+MA0190005,"\h(《Aika》)Besides, how bad can it possibly be?\e"
+MA0190006,"\h(《Vyse》)You're right.
+We're going treasure hunting!\e"
+M01030000,"\h(《Vyse》)It won't budge. The door seems to be stuck. It
+probably got jarred shut when this island
+collided with Soltis.\c"
+M01030001,"\h(《What will you do?》)“Return to your ship.”
+“Continue searching the island.”\c"
+M01030002,"\h(《What will you do?》)“Return to the Little Jack.”
+“Continue searching the island”\c"
+M01030003,"\h(《What will you do?》)“Return to the Delphinus.”
+“Continue searching the island”\c"
+M01030004,"\h(《Vyse》)What's this thing made of? I've never seen this
+material before. It looks almost like… gold.
+It doesn't feel like gold, though…\c"
+"",a103a00.mld
+"",a103a01.mld
+"",a103a02.mld
+"",me103b.sct
+"",me103b.sct
+"",me103b.sct
+"",m5030000
+"",k8030000
+"","A19発生。
+神殿島へようこそ\c"
+"",a103aa19.mld
+"",e6a019
+"",a103aa19.mld

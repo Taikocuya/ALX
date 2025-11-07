@@ -1,0 +1,80 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MA5250000,"\h(«Tenkou Ship»)Unlike your primitive ship,
+our vessel can fly at high altitudes!
+Behold the power of the East!\c"
+MA5250001,"\h(«Tenkou Ship»)Do not think you can defeat us here in our
+own skies! Prepare to meet your doom, strangers!\c"
+MA5250002,"\h(«Tenkou Ship»)Hahaha… Do you really think you can defeat us
+with that big block of steel you call a ship?!
+Prepare yourselves, strangers!!\c"
+MA5250003,"\h(«Fina»)It appears that Yafutoman ships can climb to
+great altitudes. Our cannons can't reach them…\e"
+MA5250004,"\h(«Aika»)Vyse, our cannons may not be able to, but I'll
+bet that our torpedos can! We should try firing
+those as often as possible!\c"
+MSA5250000,"\h(«Navío Tenkou»)¡A diferencia de vuestro primitivo navío,
+nuestro buque puede volar a gran altitud!
+¡Contemplad el poder del Este!\c"
+MSA5250001,"\h(«Navío Tenkou»)¡No creáis que vais a derrotarnos en nuestro
+propio cielo! ¡Preparaos a encontrar vuestro
+destino!\c"
+MSA5250002,"\h(«Navío Tenkou»)Ja, ja, ja…… ¿De verdad crees que podéis
+derrotarnos con esa mole de acero a la que
+llamáis navío? ¡¡Preparaos, forasteros!!\c"
+MSA5250003,"\h(«Fina»)Los navíos Yafutoman pueden elevarse
+a gran altitud.
+Nuestros cañones no pueden alcanzarlos……\e"
+MSA5250004,"\h(«Aika»)Vyse, a lo mejor nuestros cañones no,
+¡¿pero qué me dices de nuestros torpedos!?
+¡Vamos a dispararlos en cuanto sea posible!\c"
+MFA5250000,"\h(«Navire Tenkou»)Notre vaisseau peut voler à hautes altitudes,
+pas comme votre navire primitif !
+Voici la puissance de l'Est !\c"
+MFA5250001,"\h(«Navire Tenkou»)N'allez pas vous imaginer que vous pouvez nous
+vaincre dans nos propres cieux ! Préparez-vous à
+faire face à votre destin, étrangers !\c"
+MFA5250002,"\h(«Navire Tenkou»)Hahaha…… Vous croyez vraiment pouvoir nous
+vaincre avec ce bloc d'acier que vous prenez
+pour un navire ! Préparez-vous, étrangers !!\c"
+MFA5250003,"\h(«Fina»)On dirait que les navires Yafutoman peuvent
+monter à très haute altitude. Nos canons ne
+peuvent pas les atteindre……\e"
+MFA5250004,"\h(«Aika»)Vyse, nos canons ne peuvent peut-être pas mais
+je parie que nos torpilles le pourront !
+Il faut essayer de les lancer le plus souvent
+possible !\c"
+MGA5250000,"\h(«Tenkou-Schiff»)Im Gegensatz zu eurem primitiven Schiff kann
+unser Schiff in großen Höhen fliegen!
+Da sieht man mal wieder die Macht des Ostens!\c"
+MGA5250001,"\h(«Tenkou-Schiff»)Glaubt ja nicht, ihr könntet uns hier in
+unserem eigenen Luftraum schlagen! Macht euch
+auf euren Untergang gefasst, Fremde!\c"
+MGA5250002,"\h(«Tenkou-Schiff»)Hahaha…… glaubt ihr wirklich, dass ihr uns
+mit diesem großen Stahlblock besiegen könnt,
+den ihr als Schiff bezeichnet?! Macht euch auf
+etwas gefasst, Fremde!!\c"
+MGA5250003,"\h(«Fina»)Es scheint, yafutomanische Schiffe können auf
+große Höhen aufsteigen. Dort werden sie von
+unseren Kanonen nicht erreicht……\e"
+MGA5250004,"\h(«Aika»)Vyse, unsere Kanonen reichen da vielleicht
+nicht heran, aber unsere Torpedos schon!
+Wir sollten sie so oft wie möglich abfeuern!\c"
+"",M0430
+"",me525a.sct
+"",me090a.sct
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",f7100100S.p04
+"",f7100100S.p04
+"",「1」\c「2」\c「3a」\c「3b」\c「4a」\c
+"",me099a.sct

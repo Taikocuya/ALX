@@ -1,0 +1,191 @@
+[Event Name],Task ID
+ME0170000,"\h(《Vyse》)Well, it looks like the Crystal is probably
+sealed in here…\e"
+ME0170001,"\h(《Aika》)Hey everyone… Look over here!
+The person on this wall looks like Fina!\e"
+ME0170002,"\h(《Vyse》)You're right…
+I wonder if this is that “Quetya” the villagers
+were talking about…\e"
+ME0170003,"\h(《Fina》)“We, who have come from the Temple of the
+Silver Moon…”\e"
+ME0170004,\h(《Vyse》)… Fina?\e
+ME0170005,"\h(《Fina》)“We, who have come from the Temple of the
+Silver Moon…”\e"
+ME0170006,"\h(《Fina》)“have sealed within the forests, after the Rains
+of Destruction washed away the lands, the
+unsleeping giant, Grendel…”\e"
+ME0170007,"\h(《Fina》)“And upon his sealing, the Green Crystal was
+kept within these walls…”\e"
+ME0170008,"\h(《Fina》)This is written in the holy language of the
+Silver Temple. The Silvites must have inscribed
+these words when they were here.\e"
+ME0170009,"\h(《Vyse》)These are the ruins of Ixa'taka, right?
+Why would Silvites come here?\e"
+ME0170010,"\h(《Fina》)The Rains of Destruction nearly destroyed the
+Green Civilization.\e"
+ME0170011,"\h(《Fina》)But even after the Rains fell, Grendel still
+terrorized the lands for many generations to
+follow. The Silvites came here to contain him.\e"
+ME0170012,"\h(《Fina》)But they came too late. The Green Civilization
+was destroyed and the people were reduced to a
+few primitive tribes of scavengers.\e"
+ME0170013,"\h(《Drachma》)The people from that village probably thought
+the Silvites were Gods because they were able
+to contain Grendel.\e"
+ME0170014,"\h(《Aika》)It all makes sense now… That's why they thought
+Fina was one of the “Quetya”.\e"
+ME0170015,"\h(《Vyse》)But… it says the Green Crystal is kept 
+within these walls, right?\e"
+ME0170016,"\h(《Vyse》)But I don't see the Crystal anywhere. 
+I wonder where it is…\e"
+ME0170017,\h(《Fina》)You're right… it should be here.\e
+ME0170018,\h(《Drachma》)Who's there?!\e
+ME0170019,"\h(《Drachma》)Don't let him get away!
+He might have the Crystal!\e"
+ME0280000,\h(《Vyse》)What's that rumbling sound?\e
+ME0280001,"\h(《Vyse》)Oh, no… not again!!!\e"
+ME0280002,\h(《Fina》)Someone is summoning Grendel!\e
+ME0290000,"\h(《Fina》)Why would they awaken him?
+Don't they understand that the entire Valuan
+Armada will retaliate against them?\e"
+ME0290001,"\h(《Vyse》)Everyone! Back to the Little Jack!
+We have to stop that thing!\e"
+ME0300000,\h(《Aika》)So this is the “ghost”…\e
+ME0300001,"\h(《Drachma》)Who are you?
+And why are you following us?\e"
+ME0300002,"\h(《High Priest》)Please don't kill me!!!
+I'm a High Priest of Ixa'taka!\e"
+ME0300003,"\h(《Vyse》)A High Priest?
+So you followed us all the way from Horteka?\e"
+ME0300004,"\h(《High Priest》)No… I didn't follow you.
+I… I've been here… for a long time.
+It is my duty to guard these ruins.\e"
+ME0300005,"\h(《High Priest》)If anyone tries to loot what's in these ruins, 
+or steal the Sacred Green Stone, 
+I contact King Ixa'taka.\e"
+ME0300006,"\h(《Aika》)Wait a minute… you mean to tell me that the
+king knew where the Lost City was all
+this time?\e"
+ME0300007,"\h(《High Priest》)Yes.
+We figured out Isapa's riddle… 
+and we found Rixis.\e"
+ME0300008,"\h(《High Priest》)And here, we found the Sacred Green Stone. The 
+king and Isapa were very happy, because we 
+could use the Stone to stop the Valuans.\e"
+ME0300009,"\h(《Fina》)Stop the Valuans?
+You aren't going to…\e"
+ME0300010,\h(《High Priest》)……\e
+ME0300011,"\h(《Drachma》)Tell us!
+Or do you want me to crack your skull?\e"
+ME0300012,"\h(《High Priest》)Alright, alright!
+I'll tell you!\e"
+ME0300013,"\h(《High Priest》)The king and Isapa said that the Sacred Green
+Stone had the power to awaken the Giant.\e"
+ME0300014,"\h(《High Priest》)If the Giant were to come, he would chase the
+Valuans back to the eastern skies and we would
+be safe.\e"
+ME0300015,\h(《Vyse》)What?!\e
+M01120000,"\h(《Fina》)“We, who have come from the
+Temple of the Silver Moon…”\e"
+M01120001,"\h(《Fina》)“… have sealed within the forests, after the
+Rains of Destruction washed away the lands,
+the unsleeping giant, Grendel…”\e"
+M01120002,"\h(《Fina》)“And upon his sealing, the Green Crystal was
+kept within these walls…”\c"
+M01120003,"\h(《Fina》)This is written in the holy language
+of the Silver Temple.\e"
+M01120004,"\h(《Fina》)The Silvites must have inscribed these
+words when they were here.\c"
+M01120005,"\h(《Vyse》)So, this Quetya person that all the Ixa'takans
+keep talking about was probably a Silvite just
+like Fina.\e"
+M01120006,"\h(《Aika》)That would explain why everyone mistook Fina
+for Quetya… whoever he or she is.\c"
+M01120007,"\h(《Vyse》)There some kind of writing on the walls, but
+I can't read it. I have no idea what it says…\c"
+M01120008,"\h(《Vyse》)There are pictures of people wearing masks.
+They're probably ancestors of the Ixa'takans.\c"
+M01120009,"\h(《Vyse》)This is the pedestal where the Moon Crystal was.
+There's an empty spot where it used to be.\c"
+ME0150000,"\h(《Vyse》)There's an indentation just big enough
+to fit a small gem…\e"
+ME0150001,"\h(《What will you do?》)“Let's try putting in the Golden Man's Eye gem.”
+“Let's try putting in the Great Bird's Eye gem.”
+“It might be dangerous… let's not touch it.”\e"
+ME0150002,"\h(《Vyse》)The Golden Man's Eye is giving off a strange
+light now…\e"
+ME0150003,"\h(《Vyse》)The Great Bird's Eye is set into an indentation
+in the statue…\e"
+ME0150004,"\h(《What will you do?》)“Switch it with the Golden Man's Eye.”
+“Just take the Great Bird's Eye out.”
+“Leave it as it is.”\e"
+ME0150005,"\h(《Vyse》)There's an indentation just big enough
+to fit a small gem…\e"
+ME0150006,"\h(《What will you do?》)“Let's try putting in the Golden Man's Eye gem.”
+“Let's try putting in the Great Bird's Eye gem.”
+“It might be dangerous… let's not touch it.”\e"
+ME0150007,"\h(《Vyse》)The Golden Man's Eye is set into an indentation
+in the statue…\e"
+ME0150008,"\h(《What will you do?》)“Just take the Golden Man's Eye out.”
+“Switch it with the Great Bird's Eye.”
+“Leave it as it is.”\e"
+ME0150009,"\h(《Vyse》)The Great Bird's Eye is giving off a strange
+light now…\e"
+M01120010,"\h(《Vyse》)This statue…
+It looks like the statues that were at the
+entrance to Rixis…\c"
+M01120011,"\h(《Vyse》)……!
+Who's that!?\e"
+M01120012,"\h(《Aika》)That's it!
+That's the ghost that
+I saw earlier!\c"
+M01120013,"\h(《Fina》)Oh…
+It's running away!\e"
+M01120014,"\h(《Drachma》)Who'd be lurkin' around in a place like this?!
+Don't let him get away, boy!\c"
+M01120015,"\h(《What do you want to do?》)“Return to the Little Jack.”
+“Stay in Rixis a little while longer.”\c"
+M01120016,"\h(《What do you want to do?》)“Return to the Delphinus.”
+“Stay in Rixis a little while longer.”\c"
+M01120017,"\h(《What will you do?》)“Take out the Golden Man's Eye gem.”
+“Leave it the way it is.”\c"
+M01120018,"\h(《What will you do?》)“Take out the Great Bird's Eye gem.”
+“Leave it the way it is.”\c"
+"",ME208A.sct
+"",ME241A.sct
+"",ME215A.sct
+"",me112b.sct
+"",ME215A.sct
+"",me112b.sct
+"",m5120000
+"",k8510000
+"",M0325
+"",M0251
+"",EV_E17発生しました。\c
+"",a112ce17.mld
+"",a112ce17.mld
+"",a112ce17_eff.mld
+"",a112ce17_eff.mld
+"",M0251
+"",e6e017
+"",M0325
+"",M0325
+"",a112ce17.mld
+"",a112ce17_eff.mld
+"",EV_E28発生しました。\c
+"",a112ce28.mld
+"",a112ce28.mld
+"",e6e028
+"",a112ce28.mld
+"",EV_E29発生しました。\c
+"",a112ce29.mld
+"",a112ce29.mld
+"",M0325
+"",e6e029
+"",a112ce29.mld
+"",EV_E30発生しました。\c
+"",a112ce30.mld
+"",a112ce30.mld
+"",M0322
+"",e6e030
+"",a112ce30.mld

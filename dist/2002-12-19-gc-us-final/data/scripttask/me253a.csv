@@ -1,0 +1,29 @@
+[Event Name],Task ID
+MC0110000,"\h(《Valuan Soldier》)Lord Galcian! We've just received a message from
+Central Station in Upper City… They've spotted 
+some Air Pirates snooping around the rail cars.\e"
+MC0110001,\h(《Galcian》)What?\e
+MC0110002,"\h(《Galcian》)And the Air Pirates who escaped the execution…
+Are they still free?\e"
+MC0110003,"\h(《Valuan Soldier》)Yes, Lord Galcian. 
+My humblest apologies…\e"
+MC0110004,\h(《Galcian》)It matters not…\e
+MC0110005,"\h(《Valuan Soldier》)I'll summon the City Guards and sweep all of the
+rail cars. We'll find them.\e"
+MC0110006,"\h(《Galcian》)That won't be necessary. We know where they are 
+heading… they are going to try to rescue the 
+girl.\e"
+MC0110007,\h(《Galcian》)What's the status of the Grand Fortress gates?\e
+MC0110008,"\h(《Valuan Soldier》)They're currently open, sire.
+They aren't scheduled to close for a while.\e"
+MC0110009,"\h(《Galcian》)Close the gates immediately. 
+Place all ships in the bay on full alert.\e"
+MC0110010,"\h(《Galcian》)Dispatch the Imperial Rail Car immediately. 
+I shall deal with these pirates myself.\e"
+MC0110011,"\h(《Valuan Guard》)Yes, Lord Galcian.\e"
+"",me107d.sct
+"",a253ac11.mld
+"",a253ac11.mld
+"",e6c011
+"",M0326
+"",a253ac11.mld

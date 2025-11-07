@@ -1,0 +1,36 @@
+[Event Name],Task ID
+MAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5010000,"\h(《Valuan Cruiser》)We got a warning about you Air Pirates
+from the Coliseum guards.
+You're not getting through here!\c"
+MA5010001,"\h(《Drachma》)Boy, he Harpoon Cannon takes a lot of Spirit
+Points to fire. Also, you can only fire it
+when the target is in the right place.\e"
+MA5010002,"\h(《Drachma》)So, attack the enemy with your normal cannons
+and build up your Spirit. And when the time is
+right, unleash the Harpoon Cannon!\c"
+MA5010003,"\h(《Drachma》)In order to use the Harpoon Cannon, after you've
+built up enough Spirit Points, you need to use
+the “Special Attack” command.\e"
+MA5010004,"\h(《Drachma》)But, regardless of your spirit level, you won't
+be able to use the “Special Attack” command
+unless you have a clear shot at your enemy.\e"
+MA5010005,"\h(《Drachma》)You can only use the “Special Attack” command on
+turns with a special marker at the top of the
+column. So keep your eyes open!\c"
+"",M0430
+"",k000001.mld
+"",k000001.mld
+"",f7100050S.p04
+"",k000001.mld
+"",f7100100S.p04
+"",f7100100S.p04
+"",me501a.sct
+"",me090a.sct
+"","
+ターン選択
+\c"
+"","ターン0
+ターン1\cターン2\c"
+"",me243a.sct

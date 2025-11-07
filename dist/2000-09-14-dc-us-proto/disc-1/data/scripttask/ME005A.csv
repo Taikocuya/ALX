@@ -1,0 +1,192 @@
+[Event Name],Task ID
+MC0240000,"\h(《Aika》)Hmm… Lower City looks worse up close.
+Everything is so dirty and run down… and it
+smells like… garbage.\e"
+MC0240001,"\h(《Vyse》)We still need to check the place out. 
+We need to find a way to save Dad and 
+the others.\e"
+MC0240002,"\h(《Vyse》)Captain, what do you think we should do?\e"
+MC0240003,"\h(《Drachma》)I'm returnin' to the docks…
+I'll be overseein' the installation of the 
+Harpoon Cannon.\e"
+MC0240004,"\h(《Vyse》)Let's split up. Aika and I will check out the 
+city, while you get your cannon.  When we're 
+done, let's meet back at the inn.\e"
+MC0240005,"\h(《Drachma》)Sure.
+I'll see you two later then.\e"
+M02000000,"\h(《Young Boy》)Hm?
+Who're you?\e"
+M02000001,"\h(《Little Boy》)You guys look like sailors…
+Stupid ones, at that. Why else would you come
+all this way to see a dump like Lower City?\e"
+M02000002,"\h(《Aika》)Well, well… aren't we a little obnoxious…
+Kind of reminds me of a particular someone when
+they were little.\e"
+M02000003,"\h(《Vyse》)Hey! I wasn't this annoying when I was little!
+Give me some credit here!\e"
+M02000004,"\h(《Young Boy》)What did you say?!
+Are you trying trying to start a fight with me?!\e"
+M02000005,"\h(《Young Boy》)The name is Marco!
+Everybody who is anybody in this town knows who
+I am!\e"
+M02000006,"\h(《Vyse》)Haha… For such a short kid, you sure know how
+to talk big!\e"
+M02000007,"\h(《Vyse》)Sorry, boy, but we don't have time to play with
+little kids right now.\e"
+M02000008,"\h(《Marco》)What did you say?!
+I'll remember this! Fools!\e"
+M02000009,"\h(《Marco》)You'll regret having made me angry!
+I'll remember this!!\e"
+M02010000,"\h(《Lower City Valuan》)This is Lower City.
+The people of Valua are forced to live in
+certain areas, depending on their status.\e"
+M02010001,"\h(《Lower City Valuan》)So, this desolate place is where all of us poor
+people are forced to live…\e"
+M02010002,"\h(《Lower City Valuan》)This happened quite a while ago, but once,
+there were these Air Pirates that came here to
+rescue their friends and family…\e"
+M02010003,"\h(《Lower City Valuan》)…And they broke them out of the Coliseum! It
+was great… They were such good fighters. Well,
+I guess you had to be there to understand…\c"
+M02020000,"\h(《Lower City Valuan》)Excuse me, but have you seen my husband?\e"
+M02020001,"\h(《Lower City Valuan》)He should've been home by now! I wonder where
+he's wandered off to now… I hope he's okay.
+I told him not to stay out too long after dark…\c"
+M02020002,"\h(《Lower City Valuan》)That reminds me…
+I haven't seen that kid, Marco, in a while.
+I wonder where he's run off to…\c"
+M02030000,"\h(《Lower City Valuan》)\esigh\eThose rich nobles… they're so lucky that they
+get to live in Upper City on the other shore…"
+M02030001,"\h(《Lower City Valuan》)They get to eat good food…
+wear nice clothes…
+live in big houses…\e"
+M02030002,"\h(《Lower City Valuan》)Sigh…
+Why did I have to be born in
+this awful place?\c"
+M02030003,"\h(《Lower City Valuan》)Sigh…
+Why was I born on this side of the bay?\c"
+M02040000,"\h(《Dog-like Animal》)Parurururu…
+Pow pow!\e"
+M02050000,"\h(《Tavernkeep》)Did you hear?
+Tomorrow at noon, there's going to be an
+execution at the Coliseum.\e"
+M02050001,"\h(《Tavernkeep》)I heard that they will be executing some
+Air Pirates that the Armada captured.\e"
+M02050002,"\h(《Vyse》)Wh, what?!
+Is that true?!\e"
+M02050003,"\h(《Bar Owner》)Yeah. There was a soldier in here earlier
+telling everyone about it. Heh… it's been a
+while since we've had an interesting show.\e"
+M02050004,"\h(《Vyse》)They make executions into shows?
+This place is horrible…\e"
+M02050005,"\h(《Aika》)Vyse…
+We have no time to waste.\e"
+M02050006,"\h(《Tavernkeep》)It sounds like the Air Pirates will be saying
+goodbye to their heads… so sad.\c"
+M02050007,"\h(《Tavernkeep》)I heard that there was a commotion of some sort
+over at the Grand Fortress.\e"
+M02050008,"\h(《Tavernkeep》)Well, it's not like that has much to do with us
+here in Lower City, so it probably doesn't
+matter anyway.\c"
+M02060000,"\h(《Lower City Valuan》)Day after day… all I ever do is build Valuan
+battleships until I can hardly stand…\e"
+M02060001,"\h(《Lower City Valuan》)I don't feel like doing anything anymore…
+Why can't I live like the people in Upper City?
+They get to play everyday… It's just not fair.\e"
+M02070000,"\h(《Lower City Valuan》)I'm tired…
+Just leave me alone…\e"
+M02080000,"\h(《Weapons Merchant》)Welcome to my store.
+This is the weapons and armor shop.\e"
+M02080001,"\h(《What will you do?》)“Buy and sell weapons and armor.”
+“Talk about various things.”
+“Leave.”\e"
+M02080002,"\h(《Weapons Merchant》)A lot of our wares are handed down from the
+Valuan Armada, but I guarantee their quality.\c"
+M02080003,"\h(《Weapons Merchant》)Thank you!
+Please come again!\c"
+M02090000,"\h(《Item Merchant》)Welcome. We don't have a whole lot in this city,
+but will you please buy something… anything…
+please…\e"
+M02090001,"\h(《What will you do?》)“Buy and sell items.”
+“Talk about various things.”
+“Leave.”\e"
+M02090002,"\h(《Item Merchant》)If you're looking for the Ship Parts Merchant,
+he's been at the docks a lot recently.\e"
+M02090003,"\h(《Item Merchant》)Ever since he started selling Harpoon Cannons,
+the customers have been coming in droves.\c"
+M02090004,"\h(《Item Merchant》)Thank you very much!
+I hope you will shop here again!\c"
+M02100000,"\h(《Lower City Valuan》)Well, even though life here is hard… really
+hard… and there aren't many pleasantries…\e"
+M02100001,"\h(《Lower City Valuan》)… I never want to forget how to smile.
+If you forget how to smile, you'll never have
+anything to look forward to again.\e"
+M02110000,"\h(《Drachma》)I will be overseeing the modifications that are
+being done to the Little Jack. You go on ahead
+to the inn.\e"
+Ms005a000,"\h(《Vyse》)Ugh, rotting garbage.
+They've got garbage cans, but it doesn't look
+like anyone collects the trash.\c"
+Ms005a001,"\h(《Vyse》)The drum is all rusted and the edges are jagged.
+I probably shouldn't touch it…\c"
+Ms005a002,"\h(《Vyse》)Hmm… There's a passage on the other side,
+but it doesn't look like I can get
+through this chain-link fence.\c"
+Ms005a003,"\h(《Vyse》)It smells old and moldy…
+They probably haven't cleaned it in a while.\c"
+Ms005a004,"\h(《Vyse》)Is this a boiler?
+The meter keeps vibrating too much…
+It doesn't look very accurate.\c"
+Ms005a005,"\h(《Vyse》)It's an electric stove.
+It looks a lot simpler than a fireplace.
+But there's grease all over it.\c"
+Ms005a006,"\h(《Vyse》)Hmm… The dishes have dust all over them…
+They probably haven't been used in a
+very long time…\c"
+Ms005a007,"\h(《Vyse》)This is the boiler, I think.
+The meter is going crazy.
+I hope that's not a bad sign…\c"
+Ms005a008,"\h(《Vyse》)It smells like old and dirty water.
+It looks like it hasn't been emptied out in
+a while…\c"
+Ms005a009,"\h(《Vyse》)This is the boiler, I think.
+The meter is going crazy.
+I hope that's not a bad sign…\c"
+Ms005a010,"\h(《Vyse》)It's an electric stove. It's relatively clean,
+but it looks really old. I wonder if it still
+even works…\c"
+Ms005a011,"\h(《Vyse》)Hey, there's no dust at all!
+It's kinda surprising to find
+something clean in this city.\c"
+Ms005a012,"\h(《Vyse》)There's a picture of a handsome, young man.
+Maybe he's her husband? It looks like there's
+a hint of sadness in his eyes…\c"
+Ms005a013,"\h(《Vyse》)It's an old mop, but the floors are clean in
+comparison to the rest of the city, so I guess
+it's being used pretty often.\c"
+Ms005a014,"\h(《Vyse》)Is this a boiler?
+The meter keeps vibrating too much…
+It doesn't look very accurate.\c"
+Ms005a015,"\h(《Vyse》)That mop has a disgusting color to it. Someone
+must've just cleaned up a spill and didn't
+bother to wash the mop off…\c"
+Ms005a019,"\h(《Vyse》)I can't leave yet… I need to rescue everyone.
+I promised Lindsi that I would bring
+everyone home safely…\c"
+Ms005a016,"\h(《Vyse》)I haven't found Dad or Fina yet.
+I can't leave now!\c"
+Ms005a017,"\h(《Vyse》)The Little Jack is being prepared for
+our escape. In the meantime, we need
+to hurry and rescue Fina!\c"
+Ms005a018,"\h(《What will you do?》)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+"",me005b.sct
+"",me005b.sct
+"",M0237
+"",m5050000
+"",EV_C24発生しました。\c
+"",M0237
+"",e6c024
+"",a005ac24.mld
+"",a005ac24.mld
+"",a005ac24.mld

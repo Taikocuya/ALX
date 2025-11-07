@@ -1,0 +1,235 @@
+[Event Name],Task ID
+MH0070000,"\h(《Aika》)The water is so clear… it's beautiful…
+I wonder where we are?\e"
+MH0070001,\h(《Vyse》)Huh?\e
+MH0070002,"\h(《Yafutoman》)Wow…
+That ship, it's so huge!\e"
+MH0070003,"\h(《Yafutoman》)Are those Westerners?
+They dress funny…\e"
+MH0070004,"\h(《Yafutoman》)Hey, look!
+Their hair isn't black!\e"
+MH0070005,"\h(《Yafutoman》)I wonder what they eat to make their hair that
+color?\e"
+MH0070006,"\h(《Aika》)Haha…
+My hair is really going to stand out over here.\e"
+MH0070007,\h(《Loud Voice》)Invaders! Why have you come to Yafutoma?!\e
+MH0070008,"\h(《Yafutoman Soldier》)These lands are protected by Mount Kazai and the
+Blue Moon! Under the sovereign reign of Lord 
+Mikado, invaders will be punished!\e"
+MH0070009,"\h(《Aika》)Yafutoma?
+Is this really Yafutoma?\e"
+MH0070010,\h(《Yafutoman Soldier》)Yes… you have invaded Yafutoman Lands.\e
+MH0070011,"\h(《Aika》)We did it! We did it!
+We're in Yafutoma!!!!!\e"
+MH0070012,"\h(《Enrique》)Well done, Vyse!
+This will be recorded in the history books!\e"
+MH0070013,"\h(《Yafutoman Soldier》)How dare you invade our lands! 
+I shall strike you down where you stand!\e"
+MH0070014,\h(《Loud Voice》)Wait! Don't attack them!\e
+MH0070015,"\h(《Yafutoman Soldier》)Visitors, our primary responsibility is to
+defend Yafutoma. Please forgive our rush to
+arms.\e"
+MH0070016,"\h(《Yafutoman Soldier》)Lord Mikado has said that he would like 
+to speak with you. Please, if you would 
+come with me.\e"
+MH0070017,"\h(《Vyse》)Lord Mikado?
+I suppose that he is probably the king of these
+lands. We should follow him.\e"
+MH0130000,\h(《Vyse》)No!!!\e
+MH0130001,"\h(《Vyse》)Belleza!
+… And Vigoro?!\e"
+MH0130002,"\h(《Belleza》)Well, well… hello there, handsome. 
+Haven't seen you in a while.\e"
+MH0130003,"\h(《Vigoro》)Hey, Red!
+It looks like fate has brought us together
+again.\e"
+MH0130004,"\h(《Aika》)Oh, no!!
+What's he doing here?!\e"
+MH0130005,"\h(《Vigoro》)It's so cute how she pretends that she doesn't
+want me. Come aboard my ship, maybe the two of
+us can rock the boat.\e"
+MH0130006,"\h(《Belleza》)Vigoro, please… 
+We are in the presence of Prince Enrique.\e"
+MH0130007,"\h(《Belleza》)Prince Enrique, I trust you are in good health.\e"
+MH0130008,"\h(《Belleza》)If you are wondering how we got here, we 
+blasted a hole in the stone reef near 
+Ixa'taka and travelled west.\e"
+MH0130009,"\h(《Belleza》)Our goal is the same, my Prince.
+We also seek the Blue Crystal.\e"
+MH0130010,\h(《Enrique》)What?!\e
+MH0130011,"\h(《Vyse》)Belleza…
+Do you plan to burn down Yafutoma as well?!\e"
+MH0130012,"\h(《Belleza》)Relax, handsome.
+As I told you before, I am against unnecessary
+destruction.\e"
+MH0130013,"\h(《Belleza》)We have no intention of fighting with you.
+We were merely planning to dock and speak with
+the king of these lands.\e"
+MH0130014,"\h(《Vyse》)You are wasting your time. King Mikado is an
+honorable man. There's no way he would strike a
+deal with the Valuan Armada.\e"
+MH0130015,\h(《Belleza》)We'll see about that…\e
+MH0130016,"\h(《Belleza》)Everyone has their limits, their codes, their
+morals. But everyone also has a weakness. \e"
+MH0130017,"\h(《Belleza》)If you find that weakness and exploit it, those
+limits, codes, and morals seem to fade away.\e"
+MH0130018,"\h(《Belleza》)I'd love to chat longer, but I have an
+appointment with the king. Stay out of our way.\e"
+MH0130019,\h(《Vyse》)…\e
+MH0130020,"\h(《Aika》)Vyse!
+Shouldn't we stop them?!\e"
+MH0130021,"\h(《What will you do?》)“Stop them by force!”
+“Wait and see what happens.”\e"
+MH0130022,"\h(《Vyse》)We can't let Belleza manipulate the king.
+We've got to stop them… \e"
+MH0130023,"\h(《Enrique》)Wait, Vyse! There are too many Valuan Soldiers
+here. There's no way we can win.\e"
+MH0130024,"\h(《Enrique》)Belleza and Vigoro are here as Imperial
+Emissaries. If we attack them during a
+diplomatic meeting, we'll lose the king's trust.\e"
+MH0130025,\h(《Vyse》)… I suppose it's no use.\e
+MH0130026,"\h(《Enrique》)Let's return to our quarters. We should wait
+there until we have a chance to talk to the
+king. \e"
+MH0130027,"\h(《Vyse》)Sorry, but there's nothing we can do right now.
+There's no way we can take on all of these
+soldiers.\e"
+MH0130028,\h(《Aika》)We can't even get to the Delphinus right now…\e
+MH0130029,"\h(《Enrique》)Belleza and Vigoro are here as Imperial
+representatives. Attacking them during a
+diplomatic meeting would make us criminals.\e"
+MH0130030,"\h(《Enrique》)Let's return to our quarters. There we will wait
+until they have concluded their talks.\e"
+M08020000,"\h(《Ship Parts Merchant》)I understand that you wish to go to Mt. Kazai?
+Lord Mikado has commanded me to escort you.\e"
+M08020001,"\h(《Ship Parts Merchant》)Before departing, would you like to buy some
+Ship Parts? Let me know when you are ready. We
+can start any time you wish.\e"
+M08020002,"\h(《What will you do?》)“Buy and sell ship parts.”
+“Proceed to Mt. Kazai.”
+“Leave.”\e"
+M08020003,"\h(《Ship Parts Merchant》)Then let's get going to Mt. Kazai. I'll get the
+ship under way, so you guys can just sit back
+and take it easy.\e"
+M08020004,"\h(《Ship Parts Merchant》)Oops, I almost forgot. If we're going to go
+inside Mt. Kazai, I'd better take this along.\e"
+M08020005,\h(　)You received the “Underwater Suit.”\e
+M08020006,"\h(《Ship Parts Merchant》)Deep inside Mt. Kazai is a cavern, and in some
+places there will be water.
+This Underwater Suit should come in handy.\e"
+M08020028,"\h(《Aika》)What?! We have to go underwater?!
+But I can't swim!!!\e"
+M08020029,"\h(《Ship Parts Merchant》)Do not worry… As long as you are using the
+Underwater Suit, you should be fine. Just be
+sure to breathe normally.\e"
+M08020007,"\h(《Ship Parts Merchant》)Well, then, shall we be going?
+Make way for Mt. Kazai!\c"
+M08020008,"\h(《Ship Parts Merchant》)Oh? So you don't want to go to Mt. Kazai after
+all? Well, I'll be right here, so if you decide
+to go later just give me a holler. \e"
+M08020009,"\h(《Ship Parts Merchant》)Have you completed your preparations for
+Mt. Kazai? We can depart any time you wish.\e"
+M08020010,"\h(《What will you do?》)“Buy and sell ship parts.”
+“Proceed to Mt. Kazai.”
+“Leave.”\e"
+M08020011,"\h(《Ship Parts Merchant》)All right, then, let's get under way to
+Mt. Kazai!\e"
+M08020012,"\h(《Ship Parts Merchant》)Oh? So you don't want to go to Mt. Kazai after
+all? Well, I'll be right here, so if you decide
+to go later just give me a holler. \e"
+M08020013,"\h(《Ship Parts Merchant》)You were actually able to return from Mt. Kazai
+with the legendary Maga Sphere. I couldn't be
+more pleased to have taken you.\e"
+M08020014,"\h(《What will you do?》)“Buy and sell ship parts.”
+“Talk about various things.”
+“Leave.”\e"
+M08020015,"\h(《Ship Parts Merchant》)All this time I thought that business about the
+Maga Sphere was just an old fairy tale.
+I can hardly believe they really exist.\e"
+M08020016,"\h(《Ship Parts Merchant》)Well, don't be wasting your time, then. Hurry up
+and take the Maga Sphere to Lord Mikado.\c"
+M08020017,"\h(《Ship Parts Merchant》)I've heard that a strange fleet of black steel
+ships has appeared off the coast. Just to be
+safe, you might want to buy some ship parts. \e"
+M08020018,"\h(《What will you do?》)“Buy and sell ship parts.”
+“Talk about various things.”
+“Leave.”\e"
+M08020019,"\h(《Ship Parts Merchant》)You could say the same thing about your ships,
+but those steel ships of the Westerners are
+completely different from our ships. \e"
+M08020020,"\h(《Ship Parts Merchant》)Still, even your ships can't seem to climb as
+high into the sky as our ships can. \e"
+M08020021,"\h(《Ship Parts Merchant》)Thanks for stopping by.
+Come again.\e"
+M08020022,"\h(《Ship Parts Merchant》)Not only did you folks manage to rout that black
+steel fleet, you crushed that monstrous bird as
+well! Will wonders never cease?!\e"
+M08020023,"\h(《Ship Parts Merchant》)I don't suppose my merchandise is of much
+interest to you folks at the moment, but you
+still might want to take a look around.\e"
+M08020024,"\h(《What will you do?》)“Buy and sell ship parts.”
+“Talk about various things.”
+“Leave.”\e"
+M08020025,"\h(《Ship Parts Merchant》)In a battle between ships, it's not just a
+matter of numbers. What really counts is how
+powerful the main ships are.\e"
+M08020026,"\h(《Ship Parts Merchant》)Once you've shot down the enemy's flagship and
+heavy battleships, the rest of the fleet will
+crumble easily.\e"
+M08020027,\h(《Ship Parts Merchant》)Thanks for stopping by! Come again!\e
+M08160000,"\h(《Fisherman》)I got one, I got one, I got one! Don't talk to
+me now! I've gotta land him this time!\e"
+M08160001,"\h(《Fisherman》)For fish that taste as good as sashimi, you have
+to go into the water. I'm gonna catch me a few
+and have them for dinner tonight!\c"
+M08160002,"\h(《Fisherman》)For fish that taste as good as sashimi, you have
+to go into the water. I'm gonna catch me a few
+and have them for dinner tonight!\c"
+M08160003,"\h(《Fisherman》)In the skies high above Yafutoma, you can
+sometimes find rare fish called “Hamahai
+fish.”\e"
+M08160004,"\h(《Fisherman》)On the other hand, there are also fish down
+below Yafutoma as well. I wish I could catch one
+of those fish at least once in my life…\c"
+Ms019a000,"\h(《Vyse》)This is a strange container.
+It's packed full of small, white
+grains…\c"
+Ms019a001,"\h(《Vyse》)Hmm… An interesting looking barrel. And it
+looks like it's filled with…! Loqua!
+I guess they drink loqua here, too.\c"
+Ms019a002,"\h(《Vyse》)Whoa, look at the face on this statue.
+It sort of reminds me of Pow… Just a whole lot
+scarier. I wonder if it's a Yafutoman animal…\c"
+Ms019a003,"\h(《Vyse》)Actually, Yafutoman ships aren't all that
+different from ours. The difference is probably
+the Moon Stones that they use as fuel, then.\c"
+Ms019a004,"\h(《Vyse》)What a strange suit of armor.
+I wonder if the Yafutomans actually wear
+that thing in battle…\c"
+Ms019a005,"\h(《Vyse》)It's a Yafutoman diving suit, made of scales and
+oiled paper. It's looks so heavy… It's probably
+hard to walk on land while wearing that thing.\c"
+Ms019a006,"\h(《Vyse》)The Delphinus can't fly at high altitudes,
+so while we're here, we may as well use
+Yafutoman ships.\c"
+Ms019a007,"\h(《What will you do?》)“Return to the Delphinus.”
+“Stay here a little longer.”\c"
+"",me232a.sct
+"",me232a.sct
+"",me019b.sct
+"",me034a.sct
+"",me121a.sct
+"",M0325
+"",M0244
+"",M5190000
+"",k8590000
+"",a019ah07.mld
+"",a019ah07.mld
+"",e6h007
+"",M0244
+"",a019ah07.mld
+"",a019ah13.mld
+"",a019ah13.mld
+"",e6h013
+"",M0324
+"",a019ah13.mld

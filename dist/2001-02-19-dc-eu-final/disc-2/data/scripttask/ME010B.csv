@@ -1,0 +1,957 @@
+[Event Name],Task ID
+ME0030000,"\h(«Boy»)Hello…
+You don't look like you're from Horteka…\e"
+ME0030001,"\h(«Vyse»)We're not. Actually, we had to cross
+the South Ocean to get here. 
+My name's Vyse.\e"
+ME0030002,"\h(«Hans»)Wow! You were able to cross the South Ocean? 
+That's impressive.
+My name is Hans. It's good to meet you.\e"
+ME0030003,"\h(«Hans»)We're Blue Rogues under the command of Captain 
+Centime. We had to crash land here after a 
+hurricane knocked us off course.\e"
+ME0030004,"\h(«Drachma»)Centime…
+He's the Blue Rogue that takes in orphans and 
+trains them.\e"
+ME0030005,\h(«Drachma»)I also heard that he's a brilliant engineer.\e
+ME0030006,"\h(«Hans»)Yeah, he was… 
+I mean is. The Valuans kidnapped him and are 
+forcing him to build weapons for them.\e"
+ME0030007,"\h(«Hans»)We're staying here and working on the ship until
+he returns.\e"
+ME0030008,\h(«Fina»)Oh… I hope he returns soon… \e
+ME0030009,"\h(«Aika»)Hey! 
+Hans, I was wondering if you could help out some
+fellow Blue Rogues…\e"
+ME0030010,"\h(«Aika»)We burned all of our fuel crossing South Ocean.
+Do you think you could spare a few Moon Stones?\e"
+ME0030011,"\h(«Hans»)Of course. 
+We've got plenty to spare… 
+Here, take these.\e"
+ME0030012,\h( )You received the “Moon Stone Fuel.”\e
+ME0030013,"\h(«Vyse»)Thanks! We owe you one.
+You really helped us out a lot.\e"
+ME0030014,"\h(«Hans»)You're welcome.
+Well, I need to get back to work.
+Good luck!\e"
+MSE0030000,"\h(«Chico»)Hola……
+No tenéis pinta de ser de Horteka……\e"
+MSE0030001,"\h(«Vyse»)No lo somos. En realidad, tuvimos que cruzar el
+Océano Sur para llegar hasta aquí.
+Me llamo Vyse.\e"
+MSE0030002,"\h(«Hans»)¡Vaya! ¿Habéis cruzado el Océano Sur?
+Eso es impresionante.
+Me llamo Hans. Encantado de conoceros.\e"
+MSE0030003,"\h(«Hans»)Somos Bandidos Azules al mando del Capitán
+Centime. Tuvimos que aterrizar aquí cuando un
+huracán nos desvío de nuestro curso.\e"
+MSE0030004,"\h(«Drachma»)Centime……
+El Bandido Azul que adopta a niños huérfanos y
+los entrena.\e"
+MSE0030005,\h(«Drachma»)También he oído que es un ingeniero magnífico.\e
+MSE0030006,"\h(«Hans»)Sí, era……
+O sea, es. Los Valuan lo secuestraron y ahora
+le obligan a fabricar armas para ellos.\e"
+MSE0030007,"\h(«Hans»)Nos vamos a quedar aquí reparando el navío hasta
+que regrese.\e"
+MSE0030008,\h(«Fina»)Oh…… Espero que vuelva pronto……\e
+MSE0030009,"\h(«Aika»)¡Eh!
+Hans, me preguntaba si tú podrías ayudar a tus
+colegas Bandidos Azules……\e"
+MSE0030010,"\h(«Aika»)Agotamos el combustible cruzando el Océano Sur.
+¿Podrías darnos unas Piedras Lunares?\e"
+MSE0030011,"\h(«Hans»)Por supuesto.
+Tenemos de sobra……
+Tomad éstas.\e"
+MSE0030012,\h( )Has recibido “Gasolina Lunar”.\e
+MSE0030013,"\h(«Vyse»)¡Gracias! Te debemos una.
+Agradecemos tu ayuda.\e"
+MSE0030014,"\h(«Hans»)No hay de qué.
+Bueno, tengo que volver al trabajo.
+¡Buena suerte!\e"
+MFE0030000,"\h(«Garçon»)Bonjour……
+Vous n'avez pas l'air d'être d'Horteka……\e"
+MFE0030001,"\h(«Vyse»)En effet. En fait, nous avons dû traverser
+l'Océan Sud pour arriver jusqu'ici.
+Je m'appelle Vyse.\e"
+MFE0030002,"\h(«Hans»)Ooooh ! Vous avez réussi à traverser l'Océan
+Sud ? Impressionnant !
+Je m'appelle Hans. Enchanté.\e"
+MFE0030003,"\h(«Hans»)Nous sommes des Voleurs Bleus sous le
+commandement du Capitaine Centime. Nous avons
+fait un atterrissage forçé ici après qu'un
+ouragan nous ait fait perdre le cap.\e"
+MFE0030004,"\h(«Drachma»)Centime……
+C'est le Voleur Bleu qui prend des orphelins à
+bord pour les former.\e"
+MFE0030005,"\h(«Drachma»)Et j'ai aussi entendu dire que c'est un
+excellent ingénieur.\e"
+MFE0030006,"\h(«Hans»)C'est vrai, il était……
+Je veux dire, il est. Les Valuans l'ont kidnappé
+et l'obligent à construire des armes pour eux.\e"
+MFE0030007,"\h(«Hans»)Nous restons ici pour réparer le navire jusqu'à
+son retour.\e"
+MFE0030008,\h(«Fina»)Oh…… J'espère qu'il reviendra bientôt……\e
+MFE0030009,"\h(«Aika»)Hé !
+Hans, je me demandais si tu pouvais venir en
+aide à d'autres Voleurs Bleus……\e"
+MFE0030010,"\h(«Aika»)Nous avons consommé tout notre carburant en
+traversant l'Océan Sud.
+Est-ce que tu pourrais nous donner quelques
+Pierres de Lune ?\e"
+MFE0030011,"\h(«Hans»)Bien sûr.
+Nous en avons de réserve……
+Voilà, prenez celles-là.\e"
+MFE0030012,\h( )Vous avez reçu la “Pierre de Lune Carburant.”\e
+MFE0030013,"\h(«Vyse»)Merci ! Nous te redevrons ça.
+Tu nous as rendu un grand service.\e"
+MFE0030014,"\h(«Hans»)De rien.
+Bon, je dois retourner travailler.
+Bonne chance !\e"
+MGE0030000,"\h(«Junge»)Hallo……
+Ihr seht nicht so aus, als ob ihr aus Horteka
+seid……\e"
+MGE0030001,"\h(«Vyse»)Sind wir auch nicht. Wir mussten
+den South Ocean überqueren, um hierher zu
+gelangen. Mein Name ist Vyse.\e"
+MGE0030002,"\h(«Hans»)Wow! Ihr habt den South Ocean überquert? Das
+ist beeindruckend. Mein Name ist Hans.
+Nett, euch kennen zu lernen.\e"
+MGE0030003,"\h(«Hans»)Wir sind Blue Rogues unter dem Kommando von
+Captain Centime. Wir sind hier notgelandet,
+als uns ein Hurrikan vom Kurs abgebracht hat.\e"
+MGE0030004,"\h(«Drachma»)Centime……
+Das ist der Blue Rogue, der Waisen aufnimmt und
+sie ausbildet.\e"
+MGE0030005,"\h(«Drachma»)Ich habe auch gehört, er sei ein ausgezeichneter
+Ingenieur.\e"
+MGE0030006,"\h(«Hans»)Ja, das war er……
+Ich meine, ist er. Die Valuaner haben ihn
+entführt und zwingen ihn, für sie Waffen
+herzustellen.\e"
+MGE0030007,"\h(«Hans»)Wir bleiben hier und arbeiten am Schiff, bis
+er zurückkehrt.\e"
+MGE0030008,"\h(«Fina»)Oh…… ich hoffe, er kommt bald zurück……\e"
+MGE0030009,"\h(«Aika»)He!
+Hans, ob du wohl ein paar Blue Rogue-
+Kameraden helfen kannst? \e"
+MGE0030010,"\h(«Aika»)Wir haben all unseren Sprit verbraucht, als
+wir den South Ocean überquerten. Könntest du
+wohl einige Moon Stones entbehren?\e"
+MGE0030011,"\h(«Hans»)Natürlich.
+Wir haben viele übrig……
+Hier, nimmt diese.\e"
+MGE0030012,\h( )Du hast den “Mondsteinsprit” erhalten.\e
+MGE0030013,"\h(«Vyse»)Danke! Wir sind dir was schuldig.
+Du hast uns wirklich sehr geholfen.\e"
+MGE0030014,"\h(«Hans»)Gern geschehen. Tja, ich muss zurück an die
+Arbeit. Viel Glück!\e"
+M90080000,"\h(«Centime»)Ahh, hello, Mr. Vyse! Thanks to you, 
+I was able to return to my family.\e"
+M90080001,"\h(«Centime»)This is hardly an adequate expression of my 
+gratitude, but perhaps you could use this.\e"
+M90080002,\h( )You received “Twin Propellers” x 1!\c
+M90080014,"\h(«Centime»)I never would have been able to see my family 
+again if it wasn't for you, Mr. Vyse.\c"
+M90080003,"\h(«Centime»)Hello, Mr. Vyse! That sure was a fierce battle, 
+wasn't it? It made my Air Pirate's blood tingle.\e"
+M90080004,"\h(«Centime»)I have no desire to fight anymore except to 
+protect my children.\e"
+M90080005,"\h(«Centime»)But my son Hans seems to have adopted you as his
+hero.\e"
+M90080006,"\h(«Centime»)It won't be long now before Hans is all grown 
+up. I imagine he'll be striking out on his own 
+into the wild blue yonder sometime soon.\e"
+M90080007,"\h(«Centime»)It won't be long now before Hans is all grown 
+up. I imagine he'll be striking out on his own 
+into the wild blue yonder sometime soon.\e"
+M90080008,"\h(«Centime»)Well, hello, Mr. Vyse! Long time no see.\e"
+M90080009,\h(«Centime»)I see you now have a ship of your own. \e
+M90080010,"\h(«Centime»)The captain has an obligation to protect his 
+ship and his crew. It's a weighty job. I wish 
+you well.\e"
+M90080011,"\h(«Centime»)The captain has an obligation to protect his 
+ship and his crew. It's a weighty job. I wish 
+you well.\e"
+M90080012,"\h(«Centime»)Ahh, Mr. Vyse! Hans is very eager to see you. 
+Please talk to him.\c"
+M90080013,"\h(«Centime»)Please take good care of Hans, Mr. Vyse.\e"
+M05090000,"\h(«Woman»)To judge from your appearance… I gather you
+came from over Ocean way?\c"
+M05090001,"\h(«Centime's Wife»)My husband was too concerned about the children 
+to put up any resistance to the Valuans, and he 
+was taken away to work in the mines.\e"
+M05090002,"\h(«Centime's Wife»)He smiled and told me not to worry, but I can't 
+help it. I'm worried to death…\c"
+M05090003,"\h(«Centime's Wife»)My husband was taken away to work in the Valuan 
+mines. I'm worried to death about him…\c"
+M05090004,"\h(«Centime's Wife»)Mr. Vyse! My husband has come back from the 
+Valuan mines!\e"
+M05090005,"\h(«Centime's Wife»)I understand you were the one who rescued him.
+I can't thank you enough!\c"
+M05090006,"\h(«Centime's Wife»)I understand you were the one who rescued him.
+I can't thank you enough!\c"
+M05090007,"\h(«Centime's Wife»)Oh, I'm so relieved, Mr. Vyse! I was afraid you 
+might get hurt!\e"
+M05090008,"\h(«Centime's Wife»)I was so scared! What in the world could it have
+been? That giant?\c"
+M05090009,"\h(«Centime's Wife»)I was so scared! What in the world could it have
+been? That giant?\c"
+M05090010,"\h(«Centime's Wife»)Well, hello there, Mr. Vyse. Long time no see.
+Why don't you make yourself comfortable and stay
+awhile.\e"
+M05090011,"\h(«Centime's Wife»)Oh, Mr. Vyse! Hans is eager to see you. Please 
+talk to him right away.\c"
+M05090012,"\h(«Centime's Wife»)Please take good care of Hans, Mr. Vyse.\e"
+M05100000,"\h(«Youth»)Hello. You don't seem to be from this town. 
+Who are you?\e"
+M05100001,"\h(«Hans»)I'm repairing ships here while I wait for my 
+father to come home.\e"
+M05100002,"\h(«Hans»)Hello, Mr. Vyse! Thank you so much for rescuing 
+my father!\e"
+M05100003,"\h(«Hans»)Mr. Vyse is really great. He barged his way into
+the Valuan mines and rescued my father.\e"
+M05100004,"\h(«Hans»)I'm learning from my father how to be a ship's 
+engineer.\e"
+M05100005,\h(«Hans»)Someday I'd sure like to work on your ship.\c
+M05100006,"\h(«Hans»)Someday, I'd sure like to work on your
+ship, Vyse. Perhaps if you ever need
+an engineer…\c"
+M05100007,"\h(«Hans»)Hello, Mr. Vyse! That was a really fierce 
+battle, wasn't it!\e"
+M05100008,"\h(«Hans»)The way you defeated the Armada and that 
+giant… I was really amazed by what you did!\e"
+M05100009,"\h(«Hans»)Someday I'd sure like to work as an engineer on 
+your ship.\c"
+M05100010,"\h(«Hans»)Someday I'd sure like to work as an engineer on 
+your ship.\c"
+M05100011,\h(«Hans»)Oh! Mr. Vyse! Hello!\e
+M05100012,"\h(«Hans»)You're a captain, now, aren't you Mr. Vyse? 
+Congratulations!\e"
+M05100013,"\h(«Hans»)Right now I'm working as a factory technician, 
+but when my stint here is over… er… that is…\e"
+M05100014,"\h(«Hans»)I wonder if you would be willing to take me on
+as part of your crew? I'd like to be your ship's
+engineer.\e"
+M05100015,"\h(«What does Vyse say?»)“Of course, Hans.”
+“Sorry, Hans, I don't think so.”\e"
+M05100016,"\h(«Vyse»)Of course, Hans! It'd be great to have you 
+aboard!\e"
+M05100017,"\h(«Hans»)Really, Mr. Vyse? I can be your engineer? Thank
+you very much. I'm so excited to be working with
+you!\e"
+M05100018,"\h(«Vyse»)Sorry, Hans, I don't think so. I think your
+family probably needs you to stay.\e"
+M05100019,"\h(«Hans»)Oh, not at all, sir. My dad and my mom and my 
+little brothers have all said I could go.\e"
+M05100020,"\h(«Hans»)My father taught me well, and I know I'll be a 
+good engineer. Please, Mr. Vyse!?\e"
+M05100021,"\h(«Vyse»)Well, okay then. It'll be great to have you 
+aboard, Hans!\e"
+M05100022,"\h(«Hans»)Yes, sir! Thank you very much, sir!\e"
+M05100023,"\h(«Hans»)When my stint as a factory technician is over, 
+I'm going to join up with Mr. Vyse.\e"
+M05100024,"\h(«Hans»)Oh, Mr. Vyse! I'm finished with my job as a 
+factory technician!\e"
+M05100025,"\h(«Hans»)I'm ready to join the crew of the Delphinus like
+we agreed!\e"
+M05100026,"\h(«Vyse»)All right, Hans. It'll be great to have you 
+aboard!\e"
+M05100027,"\h(«Hans»)Thank you, sir! I won't let you down, Captain
+Vyse!\e"
+M05100028,\h( )Hans has joined your crew as an “Engineer.”\c
+M05110000,\h(«Boy»)Who are you? My father's not here.\e
+M05110001,"\h(«Boy»)Most of the people in this village seem to be 
+afraid of us or something and they always stay 
+away from us.\e"
+M05110002,"\h(«Boy»)But this girl's our friend. She's teaching us
+how to dance.\c"
+M05110003,"\h(«Boy»)This girl's our friend. She's teaching us how to
+dance.\c"
+M05110004,\h(«Boy»)Daddy Centime is home!\e
+M05110005,"\h(«Boy»)He told me that you were the one who set him 
+free, Mr. Vyse. Thank you!\e"
+M05110006,"\h(«Boy»)The villagers have been a little more friendly 
+to us ever since the captives came home.\e"
+M05110007,"\h(«Boy»)They come and talk with us now, and they 
+sometimes bring us fruit and other things to 
+eat.\c"
+M05110008,"\h(«Boy»)Oh, Mr. Vyse! Hello!\e"
+M05110009,"\h(«Boy»)I want you to tell Hans not to worry. We're
+going to protect this ship no matter what!\c"
+M05110010,"\h(«Boy»)Oh, it's Mr. Vyse! How have you been?\c"
+M05120000,\h(«Boy»)Who are you?\e
+M05120001,"\h(«Boy»)We were orphans, but then Daddy Centime adopted 
+us.\e"
+M05120002,\h(«Boy»)Our real mommy and daddy are dead… \e
+M05120003,"\h(«Boy»)But we have Daddy Centime and Brother Hans so 
+we're not lonely anymore.\e"
+M05120004,\h(«Boy»)Daddy… I sure wish you'd come home soon…\c
+M05120005,\h(«Boy»)Daddy Centime is home!\e
+M05120006,"\h(«Boy»)You mean it was Mr. Vyse who defeated that huge,
+green monster?\e"
+M05120007,"\h(«Boy»)Wow! I can't believe it! Mr. Vyse is really 
+great!\c"
+M05120008,"\h(«Boy»)I saw Mr. Vyse coming this way in his fancy new 
+ship! It's nothing like our old beater!\e"
+M05120009,"\h(«Boy»)But, you know, I kind of like my dad's old 
+beater!\e"
+M05120010,"\h(«Boy»)Please tell Brother Hans that we're all well and
+doing fine.\e"
+M05120011,"\h(«Boy»)What? There's another country to the west of 
+here? I don't believe you!\c"
+M05130000,\h(«Girl»)…Who are you?\c
+M05130001,"\h(«Girl»)Everyone says that I shouldn't play with the 
+Easterners… That I mustn't play with Centime's 
+kids.\e"
+M05130002,"\h(«Girl»)But… they're all very nice. I don't know why 
+everyone doesn't want me to play with them…\e"
+M05130003,"\h(«Girl»)Please… Centime, come home soon…\e"
+M05130004,"\h(«Girl»)Please… Centime, come home soon…\e"
+M05130005,\h(«Girl»)Centime came home. I'm so happy!\e
+M05130006,"\h(«Girl»)Now everyone says it's okay to play with Centime
+and his family!\e"
+M05130007,\h(«Girl»)Is Hans well? I'm happy if Hans is happy!\e
+M05130009,"\h(«Girl»)Everyone in the village finally said I can play 
+with Centime and the other children. I'm so 
+happy…\c"
+M05130008,\h(«Girl»)The forest… it's restless… I'm so scared…\e
+MS90080000,"\h(«Centime»)¡Hola, Vyse! Gracias a ti,
+he podido volver con mi familia.\e"
+MS90080001,"\h(«Centime»)Aunque esto no demuestra toda mi gratitud,
+creo que te podría venir bien.\e"
+MS90080002,\h( )¡Has recibido “Hélices Gemelas” x 1!\c
+MS90080014,"\h(«Centime»)De no ser por usted, jamás habría podido volver
+a ver a mi familia, Sr. Vyse.\c"
+MS90080003,"\h(«Centime»)¡Hola, Sr. Vyse! Eso sí que fue una batalla a
+muerte, ¿eh? Se me estremeció hasta la última
+fibra de Pirata Aéreo.\e"
+MS90080004,"\h(«Centime»)No tengo intención de luchar más a no ser para
+proteger a los niños.\e"
+MS90080005,"\h(«Centime»)Pero mi hijo Hans parece haberte tomado como su
+héroe.\e"
+MS90080006,"\h(«Centime»)No falta mucho para que Hans se haga un adulto.
+Me imagino que muy pronto se hará independiente
+y se lanzará al cielo azul.\e"
+MS90080007,"\h(«Centime»)No falta mucho para que Hans se haga un adulto.
+Me imagino que muy pronto se hará independiente
+y se lanzará al cielo azul.\e"
+MS90080008,"\h(«Centime»)¡Hola, Sr. Vyse! ¡Cuánto tiempo sin verle!\e"
+MS90080009,\h(«Centime»)Veo que ya tiene su propio barco.\e
+MS90080010,"\h(«Centime»)El capitán tiene la obligación de proteger su
+navío y a su tripulación. Es un trabajo de peso.
+Espero que os vaya bien.\e"
+MS90080011,"\h(«Centime»)El capitán tiene la obligación de proteger su
+navío y a su tripulación. Es un trabajo de peso.
+Espero que os vaya bien.\e"
+MS90080012,"\h(«Centime»)¡Hombre, el Sr. Vyse! Hans está de lo más
+impaciente por verle.
+Hable con él, por favor.\c"
+MS90080013,"\h(«Centime»)Cuide bien de mi Hans, Sr. Vyse, se lo ruego.\e"
+MS05090000,"\h(«Mujer»)A juzgar por tu aspecto…… me da la impresión de
+que vienes del Océano.\e"
+MS05090001,"\h(«Esposa de Centime»)Mi marido estaba tan preocupado por los
+niños que no ofreció resistencia a los Valuan.
+Se lo llevaron a trabajar en las minas.\e"
+MS05090002,"\h(«Esposa de Centime»)Me sonrió y me dijo que no me preocupara, pero
+no puedo evitarlo. Me muero de la preocupación……\e"
+MS05090003,"\h(«Esposa de Centime»)Los Valuan se llevaron a mi marido para
+obligarle a trabajar en las minas. Estoy
+preocupadísima por él……\e"
+MS05090004,"\h(«Esposa de Centime»)¡Sr. Vyse! ¡Mi marido ha regresado de las minas
+Valuan!\e"
+MS05090005,"\h(«Esposa de Centime»)¡Según creo, fue usted quien le rescató!
+¡No sé cómo darle las gracias!\c"
+MS05090006,"\h(«Esposa de Centime»)¡Según creo, fue usted quien le rescató!
+¡No sé cómo darle las gracias!\c"
+MS05090007,"\h(«Esposa de Centime»)¡Qué alivio, Sr. Vyse!
+¡Tenía miedo de que se hubiera hecho daño!\e"
+MS05090008,"\h(«Esposa de Centime»)¡Tenía mucho miedo! ¿Qué podría ser eso?
+¿Ese gigante?\c"
+MS05090009,"\h(«Esposa de Centime»)¡Tenía mucho miedo! ¿Qué podría ser eso?
+¿Ese gigante?\c"
+MS05090010,"\h(«Esposa de Centime»)Hombre, cómo esta usted, Sr. Vyse. Cuánto
+tiempo. ¿Por qué no se pone cómodo y se queda un
+rato?\e"
+MS05090011,"\h(«Esposa de Centime»)¡Anda, Sr. Vyse! Hans está impaciente por verle.
+Vaya a hablar con él.\c"
+MS05090012,"\h(«Esposa de Centime»)Cuide de mi Hans, Sr. Vyse, se lo ruego.\c"
+MS05100000,"\h(«Joven»)Hola. No parecéis de esta ciudad.
+¿De dónde viene?\e"
+MS05100001,"\h(«Hans»)Me dedico a reparar navíos mientras espero a que
+mi padre vuelva a casa.\e"
+MS05100002,"\h(«Hans»)¡Hola, Sr. Vyse!
+¡Muchas gracias por rescatar a mi padre!\e"
+MS05100003,"\h(«Hans»)Vyse es el mejor. Se las arregló para
+irrumpir en las minas Valuan y rescatar a mi
+padre.\e"
+MS05100004,\h(«Hans»)Estoy aprendiendo a ser mecánico de barcos.\e
+MS05100005,"\h(«Hans»)Desde luego, me encantaría arreglar su navío
+algún día.\c"
+MS05100006,"\h(«Hans»)Algún día, me gustaría trabajar en su navío,
+Sr. Vyse. Quién sabe, si alguna vez necesita un
+mecánico……\c"
+MS05100007,"\h(«Hans»)¡Hola, Sr. Vyse!
+Ha sido una batalla dura, ¿eh?\e"
+MS05100008,"\h(«Hans»)La forma en que derrotó a la Armada y a ese
+gigante…… ¡me pareció asombroso!\e"
+MS05100009,"\h(«Hans»)Desde luego, me encantaría arreglar su navío
+algún día.\c"
+MS05100010,"\h(«Hans»)Desde luego, me encantaría arreglar su navío
+algún día.\c"
+MS05100011,\h(«Hans»)¡Oh! ¡Es Vyse! ¡Hola!\e
+MS05100012,"\h(«Hans»)Ya es capitán, ¿no es verdad, Sr. Vyse?
+¡Enhorabuena!\e"
+MS05100013,"\h(«Hans»)En este momento trabajo como técnico en una
+fábrica, pero cuando se me acabe el contrato……
+esto…… claro que……\e"
+MS05100014,"\h(«Hans»)Me gustaría saber si estaría dispuesto a
+aceptarme como parte de su tripulación.
+Quisiera ser el mecánico de su navío.\e"
+MS05100015,"\h(«¿Qué vas a decir?»)“Pues claro, Hans.”
+“Lo siento, Hans, pero esta vez no.”\e"
+MS05100016,"\h(«Vyse»)¡Pues claro, Hans!
+¡Sería genial tenerte a bordo!\e"
+MS05100017,"\h(«Hans»)¿Lo dice en serio? ¿Voy a ser su mecánico?
+Muchas gracias. ¡Estoy tan contento de trabajar
+para usted!\e"
+MS05100018,"\h(«Vyse»)Perdona, Hans, pero creo que no. Tu familia te
+necesita aquí.\e"
+MS05100019,"\h(«Hans»)No, que va. Mi padre y mi madre y
+mis hermanitos dicen que me puedo ir.\e"
+MS05100020,"\h(«Hans»)Mi padre me ha preparado bien y sé que voy a
+ser un buen mecánico. ¿¡Qué me dice, Sr. Vyse!?\e"
+MS05100021,"\h(«Vyse»)Vale, muy bien. ¡Será estupendo tenerte a bordo,
+Hans!\e"
+MS05100022,"\h(«Hans»)¡Sí, señor! ¡Muchas gracias, señor!\e"
+MS05100023,"\h(«Hans»)Cuando se acabe mi contrato como técnico de la
+fábrica, me voy a unir a la tripulación del
+Sr. Vyse.\e"
+MS05100024,"\h(«Hans»)¡Sr. Vyse! ¡Mi contrato como técnico de la
+fábrica ha terminado!\e"
+MS05100025,"\h(«Hans»)¡Estoy listo para unirme a la tripulación del
+Delphinus tal y como acordamos!\e"
+MS05100026,"\h(«Vyse»)Muy bien, Hans. ¡Será estupendo tenerte a bordo!\e"
+MS05100027,"\h(«Hans»)¡Gracias, señor! ¡No le decepcionaré, Capitán
+Vyse!\e"
+MS05100028,"\h( )Hans se ha unido a tu tripulación como
+“Técnico”.\c"
+MS05110000,\h(«Niño»)¿Quién eres? Mi padre no está.\e
+MS05110001,"\h(«Niño»)La mayoría de la gente de esta aldea parece
+estar asustada de nosotros o algo así, porque
+siempre nos está rehuyendo.\e"
+MS05110002,"\h(«Niño»)Pero esta niña es amiga nuestra.
+Nos está enseñando a bailar.\c"
+MS05110003,"\h(«Niño»)Esta niña es amiga nuestra. Nos está enseñando a
+bailar.\c"
+MS05110004,\h(«Niño»)¡Papá Centime está en casa!\e
+MS05110005,"\h(«Niño»)Y me dijo que usted fue quien le liberó,
+Sr. Vyse. ¡Gracias!\e"
+MS05110006,"\h(«Niño»)Los aldeanos están un poco más amigables con
+nosotros desde que los prisioneros regresaron a
+sus casas.\e"
+MS05110007,"\h(«Niño»)Ahora vienen a hablar con nosotros y a veces
+nos traen fruta y otras cosas de comer.\c"
+MS05110008,"\h(«Niño»)¡Anda, el Sr. Vyse! ¡Hola!\e"
+MS05110009,"\h(«Niño»)Quiero que le diga a Hans que no se preocupe.
+¡Vamos a proteger este barco pasa lo que pase!\c"
+MS05110010,\h(«Niño»)¡Pero si es el Sr. Vyse! ¿Qué tal le va?\c
+MS05120000,\h(«Niño»)¿Quién eres?\e
+MS05120001,"\h(«Niño»)Éramos huérfanos, pero llegó Papá Centime y nos
+adoptó.\e"
+MS05120002,\h(«Niño»)Nuestros verdaderos papás se murieron……\e
+MS05120003,"\h(«Niño»)Pero ahora tenemos a Papá Centime y al Hermano
+Hans, y ya no estamos solos.\e"
+MS05120004,"\h(«Niño»)Papá…… Cómo me gustaría que volvieras pronto a
+casa……\c"
+MS05120005,\h(«Niño»)¡Papá Centime ya está en casa!\e
+MS05120006,"\h(«Niño»)¿O sea que fue el Sr. Vyse quién venció a ese
+enorme monstruo verde?\e"
+MS05120007,"\h(«Niño»)¡Caray! ¡No me lo puedo creer!
+¡El Sr. Vyse es el mejor!\c"
+MS05120008,"\h(«Niño»)¡He visto al Sr. Vyse venir hacia aquí en su
+flamante navío! ¡Nada que ver con la vieja
+cafetera!\e"
+MS05120009,"\h(«Niño»)¡Pero, sabes una cosa, a mí no me disgusta la
+vieja cafetera de papá!\e"
+MS05120010,"\h(«Niño»)Por favor, dile al Hermano Hans que todos
+estamos bien.\e"
+MS05120011,"\h(«Niño»)¿Cómo? ¿Existe otro país al oeste de aquí?
+¡No me lo creo!\c"
+MS05130000,\h(«Niña»)…… ¿Y tú quién eres?\c
+MS05130001,"\h(«Niña»)Todos me dicen que no juegue con los extranjeros
+del Este…… Que no juegue con los
+niños de Centime.\e"
+MS05130002,"\h(«Niña»)Pero…… son todos muy simpáticos. No sé por qué
+la gente se empeña en que no juegue con ellos……\e"
+MS05130003,"\h(«Niña»)Por favor…… Centime, vuelve pronto……\e"
+MS05130004,"\h(«Niña»)Por favor…… Centime, vuelve pronto……\e"
+MS05130005,\h(«Niña»)Centime ha vuelto a casa. ¡Soy tan feliz!\e
+MS05130006,"\h(«Niña»)¡Ahora todos dicen que puedo jugar con Centime y
+su familia!\e"
+MS05130007,"\h(«Niña»)¿Hans está bien? ¡Si Hans está contento, yo
+también lo estoy!\e"
+MS05130009,"\h(«Niña»)Todos en la aldea han dicho que puedo jugar con
+Centime y los otros niños. Qué contenta
+estoy……\c"
+MS05130008,\h(«Niña»)El bosque…… está tan agitado…… Qué miedo……\e
+MF90080000,"\h(«Centime»)Ahh, bonjour, Mr. Vyse ! Grâce à vous,
+j'ai pu rentrer chez moi.\e"
+MF90080001,"\h(«Centime»)Cela n'est pas vraiment représentatif de ma
+gratitude, mais cela vous sera peut-être utile.\e"
+MF90080002,\h( )Vous avez reçu “Twin Propellers” x 1 !\c
+MF90080014,"\h(«Centime»)Sans vous, je n'aurais jamais pu revoir ma
+famille, Mr. Vyse.\c"
+MF90080003,"\h(«Centime»)Bonjour, Mr. Vyse ! C'était une bataille féroce,
+n'est-ce pas ? Cela m'a donné des frissons.\e"
+MF90080004,"\h(«Centime»)Je n'ai plus envie de me battre, à part si je
+dois protéger mes enfants.\e"
+MF90080005,"\h(«Centime»)Mais je crois que vous êtes devenu le héros de
+mon fils Hans.\e"
+MF90080006,"\h(«Centime»)Il sera bientôt un homme. J'imagine qu'il ne va
+pas tarder à mettre les voiles là-bas sur le
+grand ciel bleu.\e"
+MF90080007,"\h(«Centime»)Il sera bientôt un homme. J'imagine qu'il ne va
+pas tarder à mettre les voiles là-bas sur le
+grand ciel bleu.\e"
+MF90080008,"\h(«Centime»)Tiens, bonjour, Mr. Vyse ! On ne vous a pas vu
+depuis longtemps.\e"
+MF90080009,"\h(«Centime»)Je vois que vous avez votre propre navire
+maintenant.\e"
+MF90080010,"\h(«Centime»)Le capitaine a le devoir de protéger son navire
+et son équipage. C'est beaucoup de travail.
+Bonne chance.\e"
+MF90080011,"\h(«Centime»)Le capitaine a le devoir de protéger son navire
+et son équipage. C'est beaucoup de travail.
+Bonne chance.\e"
+MF90080012,"\h(«Centime»)Ahh, Mr. Vyse ! Hans est impatient de vous voir.
+Pouvez-vous aller lui parler ?\c"
+MF90080013,"\h(«Centime»)Occupez-vous bien de Hans, Mr. Vyse.\e"
+MF05090000,"\h(«Femme»)À en juger par votre apparence…… j'en conclus
+que vous venez de par delà l'Océan ?\e"
+MF05090001,"\h(«Épouse de Centime»)Mon mari était trop inquiet au sujet des enfants
+pour résister aux Valuans, et ils l'ont emmené
+travailler dans les mines.\e"
+MF05090002,"\h(«Épouse de Centime»)Il a souri et m'a dit de ne pas m'inquiéter,
+mais je ne peux pas m'en empêcher. Je suis morte
+d'inquiétude……\e"
+MF05090003,"\h(«Épouse de Centime»)Ils ont emmené mon mari travailler dans les
+mines. Je suis morte d'inquiétude à son sujet……\e"
+MF05090004,"\h(«Épouse de Centime»)Mr. Vyse ! Mon mari est revenu des mines
+Valuan !\e"
+MF05090005,"\h(«Épouse de Centime»)Je sais que c'est vous qui l'avez sauvé.
+Je ne vous remercierai jamais assez !\c"
+MF05090006,"\h(«Épouse de Centime»)Je sais que c'est vous qui l'avez sauvé.
+Je ne vous remercierai jamais assez !\c"
+MF05090007,"\h(«Épouse de Centime»)Oh, je suis vraiment soulagée, Mr. Vyse !
+J'avais peur qu'il vous arrive quelque chose !\e"
+MF05090008,"\h(«Épouse de Centime»)J'ai eu tellement peur ! Qu'est ce que c'était
+que ce géant ?\c"
+MF05090009,"\h(«Épouse de Centime»)J'ai eu tellement peur ! Qu'est ce que c'était
+que ce géant ?\c"
+MF05090010,"\h(«Épouse de Centime»)Tiens, bonjour, Mr. Vyse. On ne vous a pas vu
+depuis longtemps. Installez-vous et restez un
+peu.\e"
+MF05090011,"\h(«Épouse de Centime»)Ahh, Mr. Vyse ! Hans est impatient de vous voir.
+Pouvez-vous aller lui parler tout de suite ?\c"
+MF05090012,"\h(«Épouse de Centime»)Occupez-vous bien de Hans, Mr. Vyse.\e"
+MF05100000,"\h(«Un jeune»)Bonjour. Vous n'avez pas l'air d'être d'ici.
+Qui êtes-vous ?\e"
+MF05100001,"\h(«Hans»)Je répare des navires en attendant que mon père
+revienne.\e"
+MF05100002,"\h(«Hans»)Bonjour, Mr. Vyse ! Merci beaucoup d'avoir sauvé
+mon père !\e"
+MF05100003,"\h(«Hans»)Mr. Vyse est vraiment formidable. Il a foncé
+dans les mines Valuan et a sauvé mon père.\e"
+MF05100004,\h(«Hans»)Mon père m'apprend à être un ingénieur naval.\e
+MF05100005,"\h(«Hans»)Un jour, j'aimerais vraiment travailler sur un
+navire.\c"
+MF05100006,"\h(«Hans»)Un jour, j'aimerais vraiment travailler sur un
+navire, Vyse. Peut-être que si vous avez besoin
+d'un ingénieur……\c"
+MF05100007,"\h(«Hans»)Bonjour, Mr. Vyse ! La bataille était vraiment
+féroce, n'est-ce pas !\e"
+MF05100008,"\h(«Hans»)La manière dont vous avez vaincu l'Armada et ce
+géant…… Vous m'avez vraiment épaté !\e"
+MF05100009,"\h(«Hans»)Un jour, j'aimerais vraiment travailler comme
+ingénieur sur votre navire.\c"
+MF05100010,"\h(«Hans»)Un jour, j'aimerais vraiment travailler comme
+ingénieur sur votre navire.\c"
+MF05100011,\h(«Hans»)Oh ! Mr. Vyse ! Bonjour !\e
+MF05100012,"\h(«Hans»)Vous êtes capitaine, à présent, n'est-ce pas Mr.
+Vyse ? Félicitations !\e"
+MF05100013,"\h(«Hans»)En ce moment je travaille comme technicien dans
+une usine, mais quand j'en aurai terminé ici……
+euh…… c'est-à-dire……\e"
+MF05100014,"\h(«Hans»)Je me demande si vous voudriez me prendre dans
+votre équipage ? J'aimerais être l'ingénieur de
+votre navire.\e"
+MF05100015,"\h(«Que dit Vyse ?»)“Bien sûr, Hans.”
+“Désolé, Hans, je ne crois pas.”\e"
+MF05100016,"\h(«Vyse»)Bien sûr, Hans! Ce serait formidable de t'avoir
+à bord !\e"
+MF05100017,"\h(«Hans»)Vraiment, Mr. Vyse ? Je peux être votre
+ingénieur ? Merci beaucoup. Je suis trop content
+de travailler avec vous !\e"
+MF05100018,"\h(«Vyse»)Désolé, Hans, je ne crois pas. Je pense que ta
+famille a besoin de toi ici.\e"
+MF05100019,"\h(«Hans»)Oh, pas du tout, monsieur. Mon père et ma mère
+et mes petits frères m'ont dit que je pouvais y
+aller.\e"
+MF05100020,"\h(«Hans»)Mon père m'a tout enseigné, et je sais que je
+ferais un bon ingénieur. S'il vous plaît, Mr.
+Vyse !?\e"
+MF05100021,"\h(«Vyse»)Bon, d'accord. Ce sera formidable de t'avoir à
+bord, Hans !\e"
+MF05100022,"\h(«Hans»)Oui, monsieur ! Merci beaucoup, monsieur !\e"
+MF05100023,"\h(«Hans»)Quand mon travail de technicien sera terminé à
+l'usine, je rejoindrai Mr. Vyse.\e"
+MF05100024,"\h(«Hans»)Oh, Mr. Vyse ! J'en ai terminé de mon travail de
+technicien à l'usine !\e"
+MF05100025,"\h(«Hans»)Je suis prêt à rejoindre l'équipage du Delphinus
+comme convenu !\e"
+MF05100026,"\h(«Vyse»)D'accord, Hans. Ce sera formidable de t'avoir à
+bord !\e"
+MF05100027,"\h(«Hans»)Merci, monsieur ! Je ne vous décevrai pas,
+Capitaine Vyse !\e"
+MF05100028,\h( )Hans l'“Ingénieur” a rejoint votre équipage.\c
+MF05110000,\h(«Garçon»)Qui êtes-vous ? Mon père n'est pas là.\e
+MF05110001,"\h(«Garçon»)La plupart des gens du village ont l'air d'avoir
+peur de nous et ils nous évitent.\e"
+MF05110002,"\h(«Garçon»)Mais cette fille est notre amie. Elle nous
+apprend à danser.\c"
+MF05110003,"\h(«Garçon»)Mais cette fille est notre amie. Elle nous
+apprend à danser.\c"
+MF05110004,\h(«Garçon»)Papa Centime est revenu !\e
+MF05110005,"\h(«Garçon»)Il m'a dit que c'était vous qui l'aviez libéré,
+Mr. Vyse. Merci !\e"
+MF05110006,"\h(«Garçon»)Les villageois ont été un peu plus gentils avec
+nous depuis que les captifs sont revenus.\e"
+MF05110007,"\h(«Garçon»)Ils viennent nous parler maintenant, et ils nous
+apportent des fruits et d'autres choses à
+manger.\c"
+MF05110008,"\h(«Garçon»)Oh, Mr. Vyse ! Bonjour !\e"
+MF05110009,"\h(«Garçon»)Je veux que vous disiez à Hans de ne pas
+s'inquiéter. Nous protègerons ce navire coûte
+que coûte !\c"
+MF05110010,"\h(«Garçon»)Oh, c'est Mr. Vyse ! Comment allez-vous ?\c"
+MF05120000,\h(«Garçon»)Qui êtes-vous ?\e
+MF05120001,"\h(«Garçon»)Nous étions orphelins, mais Papa Centime nous a
+adoptés.\e"
+MF05120002,\h(«Garçon»)Nos vrais papa et maman sont morts……\e
+MF05120003,"\h(«Garçon»)Mais maintenant nous avons Papa Centime et frère
+Hans alors nous ne sommes plus seuls.\e"
+MF05120004,"\h(«Garçon»)Papa…… J'aurais voulu que tu reviennes plus
+tôt……\c"
+MF05120005,\h(«Garçon»)Papa Centime est de retour !\e
+MF05120006,"\h(«Garçon»)Tu veux dire que c'est Mr. Vyse qui a vaincu cet
+énorme monstre vert ?\e"
+MF05120007,"\h(«Garçon»)Wow ! Incroyable ! Mr. Vyse est vraiment
+formidable !\c"
+MF05120008,"\h(«Garçon»)J'ai vu Mr. Vyse venir dans cette direction à
+bord de son tout nouveau navire ! Rien à voir
+avec notre vieux rafiot !\e"
+MF05120009,"\h(«Garçon»)Mais, vous savez, j'aime bien le vieux rafiot de
+mon père !\e"
+MF05120010,\h(«Garçon»)Pouvez-vous dire à frère Hans que tout va bien.\e
+MF05120011,"\h(«Garçon»)Comment ? Il existe un autre pays situé à l'est
+? Je ne vous crois pas !\c"
+MF05130000,\h(«Fille»)……Qui êtes-vous ?\c
+MF05130001,"\h(«Fille»)Tout le monde dit que je ne devrais pas jouer
+avec les gens de l'est…… Que je ne dois pas
+jouer avec les enfants de Centime.\e"
+MF05130002,"\h(«Fille»)Mais…… ils sont tous très gentils. Je ne sais
+pas pourquoi personne ne veut jouer avec eux……\e"
+MF05130003,"\h(«Fille»)S'il te plaît…… Centime, reviens vite à la
+maison……\c"
+MF05130004,"\h(«Fille»)S'il te plaît…… Centime, reviens vite à la
+maison……\e"
+MF05130005,"\h(«Fille»)Centime est revenu chez lui. Je suis vraiment
+contente !\e"
+MF05130006,"\h(«Fille»)Maintenant tout le monde dit que l'on peut jouer
+avec Centime et sa famille !\c"
+MF05130007,"\h(«Fille»)Est-ce que Hans va bien ? Je suis contente du
+moment que Hans l'est !\c"
+MF05130009,"\h(«Fille»)Tout le monde au village dit que je peux jouer
+avec Centime et les autres enfants ! Je suis
+vraiment contente……\c"
+MF05130008,\h(«Fille»)La forêt…… est agitée…… J'ai très peur……\c
+MG90080000,"\h(«Centime»)Ach, hallo, Herr Vyse! Ihnen habe ich es
+zu verdanken, dass ich zu meiner Familie
+zurückkehren konnte.\e"
+MG90080001,"\h(«Centime»)Das ist kaum ein angemessener Dank, aber
+vielleicht können Sie dies gebrauchen.\e"
+MG90080002,\h( )Du erhieltst “Doppelpropeller” x 1!\c
+MG90080014,"\h(«Centime»)Ich hätte meine Familie nie wiedersehen können,
+wenn Sie nicht gewesen wären, Herr Vyse.\c"
+MG90080003,"\h(«Centime»)Hallo, Herr Vyse! Das war aber eine hitzige
+Schlacht, nicht? Sie hat mein Luftpiratenblut
+zum Sieden gebracht.\e"
+MG90080004,"\h(«Centime»)Ich möchte nur noch kämpfen, um meine
+Kinder zu beschützen.\e"
+MG90080005,"\h(«Centime»)Aber mein Sohn Hans scheint Sie als seinen
+Helden angenommen zu haben.\e"
+MG90080006,"\h(«Centime»)Es wird nicht lange dauern, bis Hans erwachsen
+ist. Ich könnte mir vorstellen, dass es ihn bald
+selbst in die Lüfte zieht.\e"
+MG90080007,"\h(«Centime»)Es wird nicht lange dauern, bis Hans erwachsen
+ist. Ich könnte mir vorstellen, dass es ihn bald
+selbst in die Lüfte zieht.\e"
+MG90080008,"\h(«Centime»)Ach, hallo, Herr Vyse! Lange nicht gesehen.\e"
+MG90080009,"\h(«Centime»)Wie ich sehe, haben Sie jetzt selbst ein Schiff.\e"
+MG90080010,"\h(«Centime»)Der Kapitän hat die Pflicht, sein Schiff und
+seine Mannschaft zu beschützen. Es ist ein
+verantwortungsvoller Job. Ich wünsche Ihnen
+alles Gute.\e"
+MG90080011,"\h(«Centime»)Der Kapitän hat die Pflicht, sein Schiff und
+seine Mannschaft zu beschützen. Es ist ein
+verantwortungsvoller Job. Ich wünsche Ihnen
+alles Gute.\e"
+MG90080012,"\h(«Centime»)Ahh, Herr Vyse! Hans liegt sehr viel daran,
+Sie treffen. Bitte sprechen Sie mit ihm.\c"
+MG90080013,"\h(«Centime»)Passen Sie gut auf Hans auf, Herr Vyse.\e"
+MG05090000,"\h(«Frau»)Nach Ihrem Aussehen zu urteilen………… kommen Sie
+von der anderen Seite des Ozeans?\e"
+MG05090001,"\h(«Centimes Frau»)Mein Mann hatte zu große Angst um die Kinder,
+deshalb hat er den Valuanern keinen Widerstand
+geleistet. So nahm man ihn mit, um ihn in den
+Minen arbeiten zu lassen.\e"
+MG05090002,"\h(«Centimes Frau»)Er lächelte und sagte, ich solle mir keine
+Sorgen machen, aber ich kann nicht anders.
+Ich habe Todesangst……\e"
+MG05090003,"\h(«Centimes Frau»)Sie nahmen meinen Mann mit, um ihn in den
+valuanischen Minen arbeiten zu lassen.
+Ich stehe Todesängste aus……\e"
+MG05090004,"\h(«Centimes Frau»)Herr Vyse! Mein Mann ist von den valuanischen
+Minen heimgekehrt!\e"
+MG05090005,"\h(«Centimes Frau»)Man sagt, Sie wären derjenige, der ihn gerettet
+hat. Ich kann Ihnen nicht genug danken!\c"
+MG05090006,"\h(«Centimes Frau»)Man sagt, Sie wären derjenige, der ihn gerettet
+hat. Ich kann Ihnen nicht genug danken!\c"
+MG05090007,"\h(«Centimes Frau»)Oh, ich bin so erleichtert, Herr Vyse! Ich
+hatte Angst, Sie würden verletzt!\e"
+MG05090008,"\h(«Centimes Frau»)Ich hatte solche Angst! Was in aller
+Welt hätte das sein können? Der Riese?\c"
+MG05090009,"\h(«Centimes Frau»)Ich hatte solche Angst! Was in aller
+Welt hätte das sein können? Der Riese?\c"
+MG05090010,"\h(«Centimes Frau»)Ach, hallo, Herr Vyse. Lange nicht gesehen.
+Warum machen Sie es sich nicht bequem und
+bleiben Sie eine Weile.\e"
+MG05090011,"\h(«Centimes Frau»)Oh, Herr Vyse! Hans möchte Sie gerne sehen.
+Bitte sprechen Sie doch gleich mal mit ihm.\c"
+MG05090012,"\h(«Centimes Frau»)Bitte passen Sie gut auf Hans auf, Herr Vyse.\e"
+MG05100000,"\h(«Jugendlicher»)Hallo. Sie scheinen nicht von hier zu sein.
+Wer sind Sie?\e"
+MG05100001,"\h(«Hans»)Ich repariere hier Schiffe, während ich darauf
+warte, dass mein Vater nach Hause kommt.\e"
+MG05100002,"\h(«Hans»)Hallo, Herr Vyse! Vielen Dank, dass Sie meinen
+Vater gerettet haben.\e"
+MG05100003,"\h(«Hans»)Herr Vyse ist wirklich toll. Er ist einfach
+in die valuanischen Minen gestürmt und
+hat meinen Vater gerettet.\e"
+MG05100004,"\h(«Hans»)Ich lerne den Beruf des Schiffsingenieurs
+von meinem Vater.\e"
+MG05100005,"\h(«Hans»)Eines Tages möchte ich gern auf Ihrem Schiff
+arbeiten.\c"
+MG05100006,"\h(«Hans»)Eines Tages möchte ich gern auf Ihrem Schiff
+arbeiten, Herr Vyse. Wenn Sie je einen Ingenieur
+benötigen……\c"
+MG05100007,"\h(«Hans»)Hallo, Herr Vyse! Das war wirklich ein hitziger
+Kampf, nicht wahr?\e"
+MG05100008,"\h(«Hans»)Wie Sie die Armada und diesen Riesen besiegt
+haben…… das hat mich wirklich beeindruckt!\e"
+MG05100009,"\h(«Hans»)Eines Tages möchte ich gern als Ingenieur
+auf Ihrem Schiff arbeiten.\c"
+MG05100010,"\h(«Hans»)Eines Tages möchte ich gern als Ingenieur
+auf Ihrem Schiff arbeiten.\c"
+MG05100011,\h(«Hans»)Oh! Herr Vyse! Hallo!\e
+MG05100012,"\h(«Hans»)Sie sind jetzt Kapitän, nicht wahr, Herr Vyse?
+Herzlichen Glückwunsch!\e"
+MG05100013,"\h(«Hans»)Im Moment arbeite ich als Techniker in einer
+Fabrik, aber wenn meine Zeit hier vorbei ist……
+äh…… das heißt……\e"
+MG05100014,"\h(«Hans»)Wären Sie gewillt, mich in Ihrer
+Mannschaft zu akzeptieren? Ich möchte Ihr
+Schiffsingenieur werden.\e"
+MG05100015,"\h(«Was wird Vyse sagen?»)“Selbstverständlich, Hans”.
+“Tut mit leid, Hans, ich glaube kaum”.\e"
+MG05100016,"\h(«Vyse»)Selbstverständlich, Hans! Es wäre toll, dich
+an Bord zu haben!\e"
+MG05100017,"\h(«Hans»)Tatsächlich, Herr Vyse? Ich darf Ihr Ingenieur
+sein? Vielen Dank. Ich freue mich so, mit
+Ihnen arbeiten zu können!\e"
+MG05100018,"\h(«Vyse»)Tut mir leid, Hans, aber ich glaube kaum. Ich
+nehme an, deine Familie braucht dich hier.\e"
+MG05100019,"\h(«Hans»)Oh, überhaupt nicht, Sir. Mein Vater und
+meine Mutter und meine kleinen Brüder haben
+alle gesagt, ich könnte gehen.\e"
+MG05100020,"\h(«Hans»)Mein Vater hat mich gut ausgebildet, und ich
+weiß, ich werde ein guter Ingenieur sein.
+Bitte, Herr Vyse!?\e"
+MG05100021,"\h(«Vyse»)Also, dann in Ordnung. Ich würde mich freuen,
+dich an Bord zu haben, Hans!\e"
+MG05100022,"\h(«Hans»)Jawohl, Sir! Vielen Dank, Sir!\e"
+MG05100023,"\h(«Hans»)Wenn meine Zeit als Fabriktechniker vorbei ist,
+werde ich mich Herrn Vyse anschließen.\e"
+MG05100024,"\h(«Hans»)Oh, Herr Vyse! Ich habe meinen Job als
+Fabriktechniker abgeschlossen!\e"
+MG05100025,"\h(«Hans»)Ich bin bereit, wie abgemacht der Crew der
+Delphinus beizutreten!\e"
+MG05100026,"\h(«Vyse»)In Ordnung, Hans. Ich freue mich,
+dich an Bord zu haben!\e"
+MG05100027,"\h(«Hans»)Danke, Sir! Ich werde Sie nicht enttäuschen,
+Captain Vyse!\e"
+MG05100028,"\h( )Hans ist als “Ingenieur” zu deiner Mannschaft
+gestoßen.\c"
+MG05110000,\h(«Junge»)Wer sind Sie? Mein Vater ist nicht hier.\e
+MG05110001,"\h(«Junge»)Die meisten Leute im Dorf scheinen Angst vor
+uns zu haben und halten sich immer fern von
+uns.\e"
+MG05110002,"\h(«Junge»)Aber dieses Mädchen ist unsere Freundin.
+Sie bringt uns das Tanzen bei.\c"
+MG05110003,"\h(«Junge»)Dieses Mädchen ist unsere Freundin. 
+Sie bringt uns das Tanzen bei.\c"
+MG05110004,\h(«Junge»)Daddy Centime ist wieder da!\e
+MG05110005,"\h(«Junge»)Er hat mir erzählt, dass Sie es waren,
+der ihn befreit hat, Herr Vyse. Vielen Dank!\e"
+MG05110006,"\h(«Junge»)Die Leute aus dem Dorf verhalten sich jetzt
+etwas freundlicher, seit die Gefangenen
+zurückgekehrt sind.\e"
+MG05110007,"\h(«Junge»)Sie kommen jetzt und sprechen mit uns, und
+manchmal bringen sie uns Obst und andere
+Sachen zum Essen.\c"
+MG05110008,"\h(«Junge»)Oh, Herr Vyse! Hallo!\e"
+MG05110009,"\h(«Junge»)Ich möchte, dass du Hans sagst, er soll sich
+keine Sorgen machen. Ich werde dieses Schiff
+beschützen, was immer auch geschieht!\c"
+MG05110010,"\h(«Junge»)Oh, Herr Vyse! Wie geht's?\c"
+MG05120000,\h(«Junge»)Wer sind Sie?\e
+MG05120001,"\h(«Junge»)Wir waren Waisenkinder, aber dann hat uns
+Daddy Centime adoptiert.\e"
+MG05120002,\h(«Junge»)Unsere richtigen Eltern sind tot……\e
+MG05120003,"\h(«Junge»)Aber wir haben Daddy Centime und Bruder Hans,
+also brauchen wir nicht mehr einsam zu sein.\e"
+MG05120004,"\h(«Junge»)Daddy…… wenn du doch bloß bald wieder nach
+Hause kommen würdest……\c"
+MG05120005,\h(«Junge»)Daddy Centime ist wieder da!\e
+MG05120006,"\h(«Junge»)Du meinst, es war Herr Vyse, der dieses
+riesige grüne Monster besiegt hat?\e"
+MG05120007,"\h(«Junge»)Wow! Ich kann's nicht fassen! Herr Vyse ist
+wirklich toll!\c"
+MG05120008,"\h(«Junge»)Ich sah, wie Herr Vyse in seinem großen,
+prächtigen Schiff hier ankam! Kann man mit
+unserem alten Kahn gar nicht vergleichen!\e"
+MG05120009,"\h(«Junge»)Aber eigentlich mag ich die alte Mühle von
+meinem Vater!\e"
+MG05120010,"\h(«Junge»)Bitte sagen Sie Bruder Hans, dass es uns
+allen gut geht.\e"
+MG05120011,"\h(«Junge»)Was? Es gibt noch ein anderes Land westlich von
+hier? Das glaube ich nicht!\c"
+MG05130000,\h(«Mädchen»)……Wer seid ihr?\c
+MG05130001,"\h(«Mädchen»)Alle sagen sie, dass ich nicht mit den Leuten
+aus dem Osten reden soll…… dass ich mit
+Centimes Kindern nicht spielen soll.\e"
+MG05130002,"\h(«Mädchen»)Aber…… sie sind alle sehr nett. Ich weiß nicht,
+warum alle sagen, ich solle nicht mit ihnen
+spielen……\e"
+MG05130003,"\h(«Mädchen»)Bitte…… Centime, komm bald heim……\e"
+MG05130004,"\h(«Mädchen»)Bitte…… Centime, komm bald heim……\e"
+MG05130005,\h(«Mädchen»)Centime ist heimgekehrt. Ich bin so glücklich!\e
+MG05130006,"\h(«Mädchen»)Jetzt sagen sie plötzlich alle, es wäre ok,
+mit Centime und seiner Familie zu spielen!\e"
+MG05130007,"\h(«Mädchen»)Geht es Hans gut? Ich bin glücklich, wenn Hans
+glücklich ist!\e"
+MG05130009,"\h(«Mädchen»)Endlich erlauben mir alle im Dorf, mit
+Centime und den anderen Kindern zu spielen.
+Ich bin so glücklich……\c"
+MG05130008,"\h(«Mädchen»)Der Wald…… er ist unruhig…… ich hab solche
+Angst……\e"
+Ms010b000,"\h(«Vyse»)It's a white bedsheet. Hm… It's a little faint,
+but it looks like there's a yellow stain here.
+Looks like someone had an accident… hehe…\c"
+Ms010b001,"\h(«Vyse»)It's a box of tools and various ship parts.
+It must be great to be able to keep everything
+this organized…\c"
+Ms010b002,"\h(«Vyse»)There's some drinking water and preserved foods.
+This must be from the ship's supply storage.\c"
+Ms010b003,"\h(«Vyse»)Heh… Parts from all kinds of different ships
+have been used in rebuilding this thing.\e"
+Ms010b004,"\h(«Vyse»)It must take a lot of skill to build something
+with such a random selection of parts…\c"
+Ms010b005,"\h(«Vyse»)All the repair methods and replacement
+parts are listed in amazing detail.
+Talk about organized!\c"
+Ms010b006,"\h(«Vyse»)Ha ha ha…
+They're using their mast as a clothesline.
+Very creative.\c"
+MSs010b000,"\h(«Vyse»)Es una sábana blanca. Está un poco gastada,
+pero parece que tiene una mancha amarilla.
+Alguien tuvo un escape…… Je, je……\c"
+MSs010b001,"\h(«Vyse»)Es una caja llena de instrumentos y varias
+piezas de navíos. Debe de ser increíble poder
+tener todo tan organizado.\c"
+MSs010b002,"\h(«Vyse»)Hay un poco de agua potable y comida preparada.
+Debe de ser del almacén de provisiones del
+navío.\c"
+MSs010b003,"\h(«Vyse»)Je…… Se ha reconstruido esta cosa con piezas de
+diferentes tipos de navíos.\e"
+MSs010b004,"\h(«Vyse»)Hay que ser muy hábil para construir algo con
+piezas tan distintas……\c"
+MSs010b005,"\h(«Vyse»)Todos los métodos de reparación y las piezas
+de repuesto están nombradas con mucho cuidado.
+¡Qué orden!\c"
+MSs010b006,"\h(«Vyse»)Ja, ja, ja……
+Utilizan el mástil como una cuerda
+para tender la ropa. Muy creativo.\c"
+MFs010b000,"\h(«Vyse»)C'est un drap blanc. Hm…… Il est un peu pâle
+mais il y a une tâche jaune dessus. On dirait
+que quelqu'un a eu un petit accident, hé hé !\c"
+MFs010b001,"\h(«Vyse»)C'est une boîte à outils qui contient aussi
+des pièces de navire.
+Ça doit être génial de pouvoir tout organiser
+ainsi……\c"
+MFs010b002,"\h(«Vyse»)Il y a de l'eau potable et de la nourriture en
+conserves.
+Cela vient sûrement des réserves du navire.\c"
+MFs010b003,"\h(«Vyse»)Hé…… Des pièces de différents navires ont été
+utilisés pour reconstruire cet engin.\e"
+MFs010b004,"\h(«Vyse»)Il faut vraiment être un expert pour construire
+quelque chose avec des pièces si variées…\c"
+MFs010b005,"\h(«Vyse»)Toutes les méthodes de réparation et de
+remplacement sont détaillées de manière
+surprenante.
+Si ça, ce n'est pas de l'organisation !\c"
+MFs010b006,"\h(«Vyse»)Ha ha ha……
+Ils utilisent leur mât pour étendre leur linge.
+Quelle créativité !\c"
+MGs010b000,"\h(«Vyse»)Ein weißes Betttuch. Hm……
+Es ist ein bisschen bleich, aber hier ist wohl
+ein gelber Fleck. Wahrscheinlich hatte da
+jemand einen Unfall…… hihi……\c"
+MGs010b001,"\h(«Vyse»)Das ist eine Werkzeugkiste und
+verschiedene Schiffsteile. Es muss großartig
+sein, alles so aufgeräumt zu halten……\c"
+MGs010b002,"\h(«Vyse»)Trinkwasser und konservierte Nahrungsmittel.
+Die kommen bestimmt aus der Vorratskammer
+des Schiffes.\c"
+MGs010b003,"\h(«Vyse»)Heh…… Teile verschiedenster Schiffe sind
+für die Wiederherstellung dieses Dinges
+gebraucht worden.\e"
+MGs010b004,"\h(«Vyse»)Man braucht eine große Fertigkeit,
+etwas aus einer so zufälligen Auswahl von
+Teilen zu konstruieren……\c"
+MGs010b005,"\h(«Vyse»)Vorgehensweise und Ersatzteile sind
+außerordentlich detailliert aufgelistet.
+So was von organisiert!\c"
+MGs010b006,"\h(«Vyse»)Ha ha ha……
+Sie benutzen ihren Mast als Wäscheleine.
+Sehr kreativ.\c"
+"",me010a.sct
+"",M0241
+"",m5100000
+"",E03発生しました。\c
+"",a010be03.mld
+"",a010be03.mld
+"",M0241
+"",e6e003
+"",a010be03.mld

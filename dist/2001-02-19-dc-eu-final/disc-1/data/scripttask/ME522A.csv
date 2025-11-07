@@ -1,0 +1,141 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MA5220000,"\h(«Gregorio»)Prince Enrique…
+Please forgive me for taking up arms against
+you, but you leave me no choice.\e"
+MA5220001,"\h(«Gregorio»)I will not allow you to escape! You will
+not get passed the Auriga!!\c"
+MA5220002,"\h(«Enrique»)As I stated before, Gregorio has been nicknamed
+“Ironwall” by his peers. He is the Armada's best
+defense tactician…\e"
+MA5220003,"\h(«Enrique»)I have heard that he sets up a tight defense
+and waits for his enemy to make even the
+smallest mistake. It is then that he attacks.\c"
+MA5220004,"\h(«Vyse»)I can't believe it! He just rammed us
+with his entire ship! He's crazy!!\e"
+MA5220005,"\h(«Aika»)Vyse, watch out! He's not letting up on
+the cannon fire, either!\c"
+MA5220006,"\h(«Vyse»)Damn… We need to do something
+about that ram attack…\c"
+MA5220007,"\h(«Enrique»)Only Gregorio's heavily armored Auriga can
+pull off an attack like that…\e"
+MA5220008,"\h(«Aika»)Maybe we can dodge his attack if we can
+somehow increase our speed…\e"
+MA5220009,"\h(«Fina»)Perhaps we could increase our speed
+with magic or some other method
+before he tries to ram us?\c"
+MA5220010,"\h(«Vyse»)Yeah! We dodged his ram attack!
+Now he's gonna pay…\e"
+MA5220011,"\h(«Aika»)The enemy vessel's wide open!
+Let 'em have it, Vyse!\c"
+MSA5220000,"\h(«Gregorio»)Príncipe Enrique……
+Perdóname por levantarme en armas contra ti,
+pero no me dejas alternativa.\e"
+MSA5220001,"\h(«Gregorio»)¡No permitiré que escapes!
+¡¡Nunca podrás pasar por El Auriga!!\c"
+MSA5220002,"\h(«Enrique»)Ya he contado otras veces que a Gregorio le
+apodan “Murodehierro”. Sin duda es el mejor
+estratega defensivo de la Armada……\e"
+MSA5220003,"\h(«Enrique»)Dicen que utiliza una defensa muy cerrada
+sobre su enemigo. Aguarda paciente a que
+cometa un pequeño error, y entonces ataca.\c"
+MSA5220004,"\h(«Vyse»)¡No me lo creo!
+¡Viene a por nosotros!
+¡¡Está totalmente chalado!!\e"
+MSA5220005,"\h(«Aika»)Vyse, ¡atención!
+¡Tampoco va a dejar de disparar!\c"
+MSA5220006,"\h(«Vyse»)Rayos…… Tenemos que hacer algo contra este
+ataque frontal……\c"
+MSA5220007,"\h(«Enrique»)El Auriga de Gregorio está muy bien equipado y
+sólo él puede realizar un ataque semejante……\e"
+MSA5220008,"\h(«Aika»)Si pudiéramos ir más rápido a lo mejor
+podíamos evitar su ataque……\e"
+MSA5220009,"\h(«Fina»)¿Y si aumentáramos la velocidad usando magia
+o algún método especial antes
+de que nos embista?\c"
+MSA5220010,"\h(«Vyse»)¡Sí! ¡Hemos logrado esquivar su embestida!
+Ahora nos las va a pagar……\e"
+MSA5220011,"\h(«Aika»)¡El buque enemigo está expuesto!
+¡Se van a enterar de lo que es bueno, Vyse!\c"
+MFA5220000,"\h(«Gregorio»)Prince Enrique……
+Pardonnez-moi de prendre les armes pour vous
+affronter, mais vous ne me laissez pas le choix.\e"
+MFA5220001,"\h(«Gregorio»)Je ne vous permettrais pas de vous échapper !
+Vous ne dépasserez pas l'Auriga !!\c"
+MFA5220002,"\h(«Enrique»)Comme je l'ai dit tout à l'heure, Gregorio a été
+renommé “Mur de Fer” par ses pairs. Il est le
+meilleur tacticien de défense de l'Armada……\e"
+MFA5220003,"\h(«Enrique»)On raconte qu'il met en place une défense serrée
+et attend que son ennemi commette la moindre
+erreur. Et il attaque à ce moment-là.\c"
+MFA5220004,"\h(«Vyse»)C'est incroyable ! Il nous a percuté de l'avant
+avec l'intégralité de son navire !
+Il est fou !!\e"
+MFA5220005,"\h(«Aika»)Vyse, attention ! Il remet ça avec le canon !\c"
+MFA5220006,"\h(«Vyse»)Fichtre…… Il faut agir pour
+enrayer cette attaque……\c"
+MFA5220007,"\h(«Enrique»)Seul l'Auriga de Gregorio avec son blindage
+épais est capable d'une telle attaque……\e"
+MFA5220008,"\h(«Aika»)Nous pouvons peut-être éviter son attaque
+en augmentant notre vitesse……\e"
+MFA5220009,"\h(«Fina»)Nous pourrions peut-être accélérer
+en utilisant de la magie ou une autre méthode
+avant qu'il essaie de nous percuter ?\c"
+MFA5220010,"\h(«Vyse»)Génial ! Nous avons évité son attaque !
+Maintenant il va payer……\e"
+MFA5220011,"\h(«Aika»)Le vaisseau ennemi est grand ouvert !
+Ils vont voir, Vyse !\c"
+MGA5220000,"\h(«Gregorio»)Prinz Enrique……
+Bitte vergebt mir, dass ich gegen Euch die
+Waffen erhebe, aber Ihr lasst mir keine
+andere Wahl.\e"
+MGA5220001,"\h(«Gregorio»)Ich werde Euch nicht gestatten, zu entkommen!
+Ihr werdet nicht an der Auriga vorbeikommen!!\c"
+MGA5220002,"\h(«Enrique»)Wie bereits erwähnt, erhielt Gregorio den
+Beinamen “Ironwall” von seinen Mitstreitern.
+Er ist der beste Abwehrtaktiker der Armada……\e"
+MGA5220003,"\h(«Enrique»)Ich habe gehört, dass er eine undurchdringliche
+Verteidigung aufbaut und dann darauf wartet,
+dass der Feind den kleinsten Fehler begeht.
+Erst dann greift er an.\c"
+MGA5220004,"\h(«Vyse»)Ich kann's nicht fassen! Er hat uns gerade
+mit seiner ganzen Schiffslänge gerammt!
+Er ist verrückt!!\e"
+MGA5220005,"\h(«Aika»)Vyse, pass auf! Er hört auch nicht mit dem
+Kanonenfeuer auf!\c"
+MGA5220006,"\h(«Vyse»)Verdammt…… wir müssen etwas wegen dieser
+Rammattacke unternehmen……\c"
+MGA5220007,"\h(«Enrique»)Nur Gregorios schwer bewaffnete Auriga kann
+so eine Attacke starten……\e"
+MGA5220008,"\h(«Aika»)Vielleicht können wir seiner Attacke
+ausweichen, indem wir irgendwie unsere
+Geschwindigkeit erhöhen……\e"
+MGA5220009,"\h(«Fina»)Vielleicht könnten wir unsere Geschwindigkeit
+mit Zauber oder einer anderen Methode erhöhen,
+bevor er versucht, uns zu rammen?\c"
+MGA5220010,"\h(«Vyse»)Ja! Wir sind seiner Rammattacke ausgewichen!
+Jetzt wird er dafür bezahlen……\e"
+MGA5220011,"\h(«Aika»)Das feindliche Schiff ist völlig schutzlos!
+Holen wir sie uns, Vyse!\c"
+"",M0465
+"",me522a.sct
+"",me090a.sct
+"",\h(《DebugMessage》)エラーです\c
+"",f7100100S.p04
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",b1600.mld
+"",b1600.mld
+"",b1600.mld
+"",f3000037
+"",f3000037
+"",me034a.sct

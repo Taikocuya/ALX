@@ -1,0 +1,208 @@
+[Event Name],Task ID
+MC0010000,"\h(《Valua National Guard Fleet》)You are entering Valuan airspace.
+Present your Entry Passport.\e"
+MC0010001,"\h(《Valua National Guard Fleet》)Without the proper credentials, you must leave 
+immediately or we will destroy your ship.\e"
+MC0010002,"\h(《Vyse》)Oh, if it's a passport you want, we have one.
+Here…\e"
+MC0010003,"\h(《Valua National Guard Fleet》)…Hmm. I can see you just left Valua recently. 
+Welcome back.\e"
+MC0010004,\h(《Valua National Guard Fleet》)We will escort you inside.\e
+MC0010005,"\h(《Aika》)Looks like we made it through. We just passed a 
+Valuan Security Checkpoint. That's quite 
+an accomplishment, don't you think?\e"
+MC0010006,"\h(《Vyse》)Yeah…
+I thought getting into Valua would be a lot
+tougher. Now all we have to do is sneak into…\e"
+MC0010007,\h(《Vyse》)…!\e
+MC0010008,"\h(《Aika》)Huh?
+What's that?!\e"
+MC0010009,"\h(《Drachma》)It's the only entrance into the city of Valua…
+The “Grand Fortress.”\e"
+MC0010010,"\h(《Drachma》)Valua is surrounded by impassable mountains… 
+so that is the only way in or out.\e"
+MC0010011,"\h(《Vyse》)Wow…
+I can't believe they actually built something 
+that big…\e"
+MC0010012,"\h(《Drachma》)During the Valua-Nasr War, over 100 Nasr
+warships bombarded this fortress for days.\e"
+MC0010013,"\h(《Drachma》)However, all the shells were repelled by
+these walls. The Fortress may be the strongest
+structure of the new world.\e"
+MC0010014,"\h(《Aika》)Look!
+It's moving!!!\e"
+MC0010015,"\h(《Drachma》)The door of the fortress opens only once a day
+to allow ships to pass through.\e"
+MC0010016,"\h(《Drachma》)The backside of that wall is completely lined
+with cannons. It was those cannons that nearly
+wiped out the entire Nasr fleet.\e"
+MC0010017,"\h(《Vyse》)Defense and offense all in one…
+It's an invincible fortress.\e"
+MC0010018,"\h(《Aika》)That's where they're holding Captain Dyne… 
+and Fina!\e"
+MC0010019,\h(《Drachma》)No prisoner has ever escaped from that fortress.\e
+MC0010020,"\h(《Drachma》)Although, I've heard that there's one way out.\e"
+MC0010021,\h(《Vyse》)Really? Then it's possible?\e
+MC0010022,"\h(《Drachma》)Yeah. 
+After they execute prisoners, their corpses are
+thrown off of the island. \e"
+MC0010023,\h(《Aika》)That's just great! What are we going to do now?\e
+MC0010024,"\h(《Vyse》)Hah!
+No one's ever escaped, because I've never tried!
+I love a challenge!\e"
+MC0010025,"\h(《Vyse》)Don't worry. I will rescue our friends and 
+escape from that fortress. Just watch me!\e"
+MC0030000,"\h(《Vyse》)So, this is the capital of Valua, huh?
+It's impressive…\e"
+MC0030001,"\h(《Aika》)It's beautiful…
+But the skies are so gloomy…\e"
+MC0030002,"\h(《Drachma》)Valua is a beautiful city, but because of the
+fierce thunderstorms caused by the Yellow Moon,
+the city is shrouded in eternal darkness.\e"
+MC0030003,"\h(《Drachma》)That's the Imperial Palace straight ahead of us.
+The area on the left shore is called Upper City.\e"
+MC0030004,\h(《Vyse》)Upper City?\e
+MC0030005,"\h(《Drachma》)The people of Valua are either very rich, or 
+very poor and they detest each other. Only the 
+richest people in Valua can live in Upper City. \e"
+MC0030006,"\h(《Drachma》)The less fortunate are confined to Lower City. 
+It's on the right shore.\e"
+MC0030007,"\h(《Aika》)It doesn't seem right to force them to live in 
+poverty like that!\e"
+MC0030008,"\h(《Vyse》)Hey, Captain…
+Where should we land?\e"
+MC0030009,"\h(《Drachma》)In Lower City.
+There is a dock there that repairs and remodels 
+ships.\e"
+MC0030010,"\h(《Vyse》)Aye aye.
+I'll bring us into the Lower City Port.\e"
+MC0160000,"\h(《Dyne》)You were late, Vyse.
+We decided to come get you and from the looks of
+it, we were just in time.\e"
+MC0160001,"\h(《Dyne》)Fina, are you alright?\e"
+MC0160002,"\h(《Fina》)Yes.
+Thank you very much.\e"
+MC0160003,"\h(《Fina》)… I'm very grateful that you've gone through 
+so much trouble to rescue me…\e"
+MC0160004,"\h(《Aika》)Relax Fina… We're all okay right now…
+Save the mushy stuff for later…\e"
+MC0160005,"\h(《Drachma》)She is right. We can all be thankful after 
+we've gotten out of Valua.\e"
+MC0160006,"\h(《Timmus the Gunner》)Captain, emergency!
+They're closing the gates!!!\e"
+MC0160007,"\h(《Drachma》)If the gate closes, we're all dead!\e"
+MC0160008,"\h(《Timmus the Gunner》)We're under attack!
+Valuan ships, dead ahead!
+They're blocking the entrance!\e"
+MC0160009,"\h(《Drachma》)We've got to act fast!
+We need to take out that blockade!\e"
+MC0160010,"\h(《Drachma》)Looks like I'm goin' to be able to test out the
+Harpoon Cannon earlier than I thought!
+All hands to battle stations!\e"
+MC0160011,\h(　)Drachma has joined the party… again.\e
+MC0170000,"\h(《Vyse》)Looks like that was the last of them!
+Now we just need to get through that gate!\e"
+MC0170001,\h(《Aika》)Vyse! It's closing! Hurry!!!\e
+MC0170002,"\h(《Vyse》)Come on!!! Come on, Little Jack!!!!!\e"
+MC0170003,\h(《Vyse》)Woohoo!!! We did it!!!\e
+MC0170004,"\h(《Aika》)Alright!!! I knew you could do it Vyse! 
+You're the greatest!\e"
+MC0170005,"\h(《Dyne》)You got us through there by the skin of our 
+teeth. You had me worried for a second there.\e"
+MC0170006,\h(《Vyse》)We can finally say good-bye to Valua!\e
+MC0170007,\h(《Vyse》)Alright! Let's go back home to Pirate Isle!\e
+MG0140000,\h(《Vyse》)We did it!\e
+MG0140001,"\h(《Aika》)I can't believe it! We just broke through the
+Grand Fortress.\e"
+MG0140002,\h(《Gilder》)You sure know how to break in a new ship.\e
+MG0140003,"\h(《Fina》)Now, we can finally continue on our search for
+the other Moon Crystals!!\e"
+MG0140004,"\h(《Enrique》)Well, Valua, it looks like this is goodbye for
+now…\e"
+MJ0200000,"\h(《Galcian》)Ramirez… what is the status on the construction
+of Dangral Island?\e"
+MJ0200001,"\h(《Ramirez》)The construction of the port is complete. And
+De Loco's Flagship is currently being fitted so
+that it will be able to submerge into Deep Sky.\e"
+MJ0200002,"\h(《Ramirez》)I've also received word that the elevator
+leading to the bottom of Deep Sky has been
+completed as well.\e"
+MJ0200003,"\h(《Galcian》)Excellent.
+The time grows near…\e"
+MJ0200004,"\h(《Galcian》)Soon, the foolish Empress and the rest of the
+people of the world will bow before my might…\e"
+MJ0200005,"\h(《Galcian》)No…
+Not just the people…\e"
+MJ0200006,"\h(《Galcian》)The people… and even those revered Moons…
+Soon, they will all be in my grasp.\e"
+MJ0200007,"\h(《Galcian》)The people, the lands, and even the Moons…
+They will belong to me…\e"
+MJ0200008,"\h(《Ramirez》)You shall reign supreme, Lord Galcian…\e"
+MJ0200009,"\h(《Galcian》)Tomorrow morning, I will leave for Dangral. 
+I wish to oversee the final stages of the 
+construction myself.\e"
+MJ0200010,"\h(《Galcian》)And tell the other Admirals to assemble at 
+Dangral. I wish to know where they stand…\e"
+MJ0200011,"\h(《Ramirez》)Yes, Lord Galcian…\e"
+MJ0200012,"\h(《Galcian》)I walk the path of death and destruction…
+I know you are a Silvite… If you wish to change
+your mind, now is the time.\e"
+MJ0200013,"\h(《Ramirez》)I chose long ago to walk the path that you walk
+upon, Lord Galcian. I shall forever be at your
+side.\e"
+MJ0200014,"\h(《Ramirez》)And I will cut down any of those that block our 
+path. It is my duty… It is my purpose…\e"
+"",me002c.sct
+"",me005a.sct
+"",me116d.sct
+"",me017b.sct
+"",me017f.sct
+"",me116d.sct
+"",e6c001
+"",M0314
+"",a243ac01.mld
+"",a243ac01.mld
+"",a243ac01.mld
+"",e6c003
+"",M0307
+"",a243ac03.mld
+"",a243ac03.mld
+"",a243ac03.mld
+"",e6c016
+"",M0330
+"",a243aC16.mld
+"",a243aC16.mld
+"",me501a.sct
+"",a243aC16.mld
+"",a243ac17.mld
+"",e6c017
+"",M0330
+"",M0370
+"",a243ac17.mld
+"",e6c018
+"",M0377
+"",a243ac18.mld
+"",a243ac18.mld
+"",a243ac18efe.mld
+"",a243ac18efe.mld
+"",a243ac18.mld
+"",a243ac18efe.mld
+"",e6g014
+"",M0329
+"",a243ag14a.mld
+"",a243ag14a.mld
+"",a243ag14b.mld
+"",a243ag14b.mld
+"",a243ag14b.mld
+"",a243ag14d.mld
+"",a243ag14d.mld
+"",a243ag14c.mld
+"",a243ag14c.mld
+"",a243ag14a.mld
+"",a243ag14c.mld
+"",a243ag14d.mld
+"",e6j020
+"",M0313
+"",a243aj20.mld
+"",a243aj20.mld
+"",a243aj20.mld

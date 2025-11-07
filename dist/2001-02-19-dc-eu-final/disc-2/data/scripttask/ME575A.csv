@@ -1,0 +1,49 @@
+[Event Name],Task ID
+MA5660000,"\h(«Valuan Spectre Spellship»)That flag… it's Vyse, the Air Pirate!
+We'll all be promoted if we defeat him!\c"
+MA5660001,"\h(«Valuan Spectre Spellship»)Impudent Air Pirate, you dare challenge the
+Armada!? You will learn to fear the Magic
+Cannons aboard these these new Spellships!\c"
+MA5660002,"\h(«Valuan Spectre Spellship»)Only specially-trained, elite troops man these
+Spectre-class Spellships! Now, you will know the
+true might of the Valuan Armada!\c"
+MSA5660000,"\h(«MagiNave Valuan Espectral»)Esa bandera…… ¡es la de Vyse, el Pirata Aéreo!
+¡Si acabamos con él nos van a ascender
+de rango a todos!\c"
+MSA5660001,"\h(«MagiNave Valuan Espectral»)Desvergonzado Pirata Aéreo, ¡¿osas desafiar
+a la Armada?! ¡Vas a comprobar el poder
+de los Cañones Mágicos que tenemos a bordo!\c"
+MSA5660002,"\h(«MagiNave Valuan Espectral»)¡Estas MagiNaves están tripuladas por tropas
+de elite con un entrenamiento especial!
+¡Conocerás el poder de la Armada Valuan!\c"
+MFA5660000,"\h(«Navire Enchanté Spectre Valuan»)Ce drapeau…… c'est Vyse, le Pirate de l'Air !
+Nous serons tous promus si nous le vainquons !\c"
+MFA5660001,"\h(«Navire Enchanté Spectre Valuan»)Impudent Pirate de l'Air, vous osez défier
+l'Armada !? Vous apprendrez à craindre les
+Canons Magiques à bord de ces nouveaux Navires
+Enchantés !\c"
+MFA5660002,"\h(«Navire Enchanté Spectre Valuan»)Seules des troupes d'élite ayant reçu une
+formation spéciale arment ces Navires Enchantés
+Spectre ! Maintenant, vous connaîtrez la vraie
+puissance de l'Armada Valuan !\c"
+MGA5660000,"\h(«Valuanisches Zauberschiff»)Diese Flagge…… es ist Vyse, der Luftpirat!
+Wir werden alle befördert, wenn wir ihn
+besiegen!\c"
+MGA5660001,"\h(«Valuanisches Zauberschiff»)Unverschämte Luftpiraten, ihr wagt es, die
+Armada herauszufordern!? Wir werden euch
+lehren, die neuen Magic Cannons an Bord
+dieser neuen Zauberschiffe zu fürchten!\c"
+MGA5660002,"\h(«Valuanisches Zauberschiff»)Diese Zauberschiffe der Gespenster-Klasse
+sind mit speziell ausgebildeten Elitetruppen
+bemannt! Jetzt erfahrt ihr die wahre Macht der
+valuanischen Armada!\c"
+"",M0430
+"",me090a.sct
+"",\h(《DebugMessage》)このメッセージが出たら北村まで\c
+"",\h(《DebugMessage》)やられイベント\c
+"",f7100100S.p04
+"",f7100100S.p04
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld

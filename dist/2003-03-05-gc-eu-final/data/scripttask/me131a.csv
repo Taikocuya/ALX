@@ -1,0 +1,33 @@
+[Event Name],Task ID
+M01310020,"\h(«Vyse»)Hngh… It won't open!
+Something's holding the door shut!
+It won't budge!!\e"
+M01310021,"\h(«Aika»)Vyse, we don't have time!
+Let's get out of here!!\c"
+M01310022,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MF01310020,"\h(«Vyse»)Hngh…… Elle ne veut pas s'ouvrir !
+On dirait que quelque chose la bloque !
+Elle ne bouge pas !!\c"
+MF01310021,"\h(«Aika»)Vyse, nous n'avons pas le temps !
+Partons vite d'ici !!\c"
+MF01310022,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MG01310020,"\h(«Vyse»)Hmm…… sie öffnet sich nicht!
+Irgendwas hält die Tür verschlossen!
+Sie bewegt sich nicht!!\e"
+MG01310021,"\h(«Aika»)Vyse, wir haben keine Zeit!
+Lass uns abhauen!!\c"
+MG01310022,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Noch eine Weile hier bleiben.”\c"
+MS01310020,"\h(«Vyse»)Ahh…… ¡No se abre!
+¡Hay algo que cierra la puerta desde el otro
+lado!
+¡Ni siquiera se entreabre……!\c"
+MS01310021,"\h(«Aika»)¡Vyse, no hay tiempo!
+¡¡Vámonos de aquí!!\c"
+MS01310022,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un poco más.”\c"
+"",me103b.sct
+"",m5030000
+"",k8310000

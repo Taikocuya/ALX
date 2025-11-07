@@ -1,0 +1,61 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MGAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5800000,"\h(«Vyse»)Descent complete. Approaching Soltis…
+We'll try and get in through Shrine… well,
+what used to be Shrine Island.\e"
+MA5800001,"\h(«Aika»)Good idea… I don't want to find out what that
+light beam up above Soltis would do to us if
+we were to try and pass through it…\e"
+MA5800002,\h(«Fina»)Aaah!\c
+MA5800003,"\h(«Vyse»)Damn! Well… I guess things were going a little
+too smoothly. I would've been disappointed if
+we got into Soltis that easily…\c"
+MSA5800000,"\h(《Vyse》)Descent complete. Approaching Soltis…
+We'll try and get in through Shrine… well,
+what used to be Shrine Island.\e"
+MSA5800001,"\h(《Aika》)Good idea… I don't want to find out what that
+light beam up above Soltis would do to us if
+we were to try and pass through it…\e"
+MSA5800002,\h(《Fina》)Aaah!\c
+MSA5800003,"\h(《Vyse》)Damn! Well… I guess things were going a little
+too smoothly. I would've been disappointed if
+we got into Soltis that easily…\c"
+MFA5800000,"\h(《Vyse》)Descent complete. Approaching Soltis…
+We'll try and get in through Shrine… well,
+what used to be Shrine Island.\e"
+MFA5800001,"\h(《Aika》)Good idea… I don't want to find out what that
+light beam up above Soltis would do to us if
+we were to try and pass through it…\e"
+MFA5800002,\h(《Fina》)Aaah!\c
+MFA5800003,"\h(《Vyse》)Damn! Well… I guess things were going a little
+too smoothly. I would've been disappointed if
+we got into Soltis that easily…\c"
+MGA5800000,"\h(《Vyse》)Descent complete. Approaching Soltis…
+We'll try and get in through Shrine… well,
+what used to be Shrine Island.\e"
+MGA5800001,"\h(《Aika》)Good idea… I don't want to find out what that
+light beam up above Soltis would do to us if
+we were to try and pass through it…\e"
+MGA5800002,\h(《Fina》)Aaah!\c
+MGA5800003,"\h(《Vyse》)Damn! Well… I guess things were going a little
+too smoothly. I would've been disappointed if
+we got into Soltis that easily…\c"
+"",M0430
+"",me583a.sct
+"",me090a.sct
+"",f7100100s.p04
+"",f7100100s.p04
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",f3000029
+"",f3000030
+"",me099a.sct

@@ -1,0 +1,3995 @@
+[Event Name],Task ID
+MF0160000,"\h(«Owner of the Inn»)It will cost you 10 gold to stay for the night.
+Would you like to stay?\e"
+MF0160001,"\h(«What will you do?»)“We'll come back later!”
+“Let's stay the night here!”\e"
+MF0160002,"\h(«Aika»)We're not quite ready to sleep right now. 
+We'll be come later!\e"
+MF0160003,"\h(«Aika»)Sounds great!
+Well, actually, could you do us a favor?\e"
+MF0160004,"\h(«Aika»)We're planning on staying for a while, so would 
+it be alright if we paid you when we check out?\e"
+MF0160005,"\h(«Owner of the Inn»)No problem.
+In that case, go ahead and use the room upstairs
+and down the hall.\e"
+MF0160006,"\h(«Aika»)Looks like we're going to be stuck in Nasrad for
+a little while.\e"
+MF0160007,\h(«Fina»)What are we going to do tomorrow?\e
+MF0160008,"\h(«Aika»)Well, I was thinking about looking for a place 
+to work. We have to save up some gold.\e"
+MF0160009,"\h(«Aika»)Let's put aside the money that we got from 
+Clara. If we save up some more, we can buy 
+a small ship and go looking for Vyse.\e"
+MF0160010,"\h(«Aika»)What do you think, Fina?\e"
+MF0160011,"\h(«Fina»)Yes!
+That sounds like a good plan.\e"
+MF0160012,"\h(«Aika»)Well, tonight let's just get some rest and hope 
+for the best!\e"
+MF0160013,"\h(«Aika»)But I wonder where Vyse is, though…\e"
+MF0160014,"\h(«Fina»)Vyse…
+I wonder if you're looking at the same moon 
+right now…\e"
+MFF0160000,"\h(«Propriétaire de l'Auberge»)Cela fera 10 pièces en or pour la nuit.
+Voulez-vous prendre la chambre ?\e"
+MFF0160001,"\h(«Que ferez-vous ?»)“Nous reviendrons plus tard !”
+“Passons la nuit ici !”\e"
+MFF0160002,"\h(«Aika»)Nous n'avons pas vraiment sommeil pour le
+moment. Nous reviendrons plus tard !\e"
+MFF0160003,"\h(«Aika»)C'est parfait ! Eh bien, en fait, pouvez-vous
+nous rendre un service ?\e"
+MFF0160004,"\h(«Aika»)Nous avons l'intention de rester quelques temps,
+alors est-ce que nous pouvons vous payer en
+partant ?\e"
+MFF0160005,"\h(«Propriétaire de l'Auberge»)Aucun problème.
+Dans ce cas, vous pouvez dormir dans la chambre
+du haut, au bout du hall.\e"
+MFF0160006,"\h(«Aika»)Il semble que nous allons rester à Nasrad
+quelques temps.\e"
+MFF0160007,\h(«Fina»)Qu'allons-nous faire demain ?\e
+MFF0160008,"\h(«Aika»)Eh bien, je pensais aller chercher du travail.
+Il faut gagner notre pain.\e"
+MFF0160009,"\h(«Aika»)Mettons de côté l'argent que Clara nous a donné.
+Si nous économisons plus, nous pourrons acheter
+un petit navire et partir à la recherche de
+Vyse.\e"
+MFF0160010,"\h(«Aika»)Qu'en penses-tu, Fina ?\e"
+MFF0160011,"\h(«Fina»)D'accord !
+C'est une bonne idée.\e"
+MFF0160012,"\h(«Aika»)Bon, ce soir reposons-nous et espérons que tout
+ira bien !\e"
+MFF0160013,\h(«Aika»)Mais je me demande où est Vyse……\e
+MFF0160014,"\h(«Fina»)Vyse……
+Je me demande si tu admires la même lune que
+nous en ce moment……\e"
+MGF0160000,"\h(«Gastwirt»)Die Übernachtung kostet 10 Goldstücke.
+Möchtet ihr übernachten?\e"
+MGF0160001,"\h(«Was wirst du tun?»)“Wir kommen später zurück!”
+“Lass uns hier übernachten!”\e"
+MGF0160002,"\h(«Aika»)Es ist noch zu früh zum Schlafen.
+Wir kommen später wieder!\e"
+MGF0160003,"\h(«Aika»)Hört sich gut an!
+Übrigens, könnten Sie uns einen Gefallen tun?\e"
+MGF0160004,"\h(«Aika»)Wir haben vor, länger zu bleiben. Wäre es
+möglich, dass wir bei unserer Abreise bezahlen?\e"
+MGF0160005,"\h(«Gastwirt»)Kein Problem.
+In dem Fall könnt ihr den Raum oben am Ende des
+Ganges benutzen.\e"
+MGF0160006,"\h(«Aika»)Sieht aus, als würden wir für eine Weile in
+Nasrad festhängen.\e"
+MGF0160007,\h(«Fina»)Was sollen wir morgen machen?\e
+MGF0160008,"\h(«Aika»)Nun, ich habe daran gedacht, einen Job zu
+suchen.
+Wir müssen etwas Gold zusammensparen.\e"
+MGF0160009,"\h(«Aika»)Lass uns das Geld, das wir von Clara bekommen
+haben, zurücklegen. Wenn wir noch ein bisschen
+sparen, können wir ein kleines Schiff kaufen
+und nach Vyse Ausschau halten.\e"
+MGF0160010,"\h(«Aika»)Was hältst du davon, Fina?\e"
+MGF0160011,"\h(«Fina»)Ja!
+Hört sich nach einem guten Plan an.\e"
+MGF0160012,"\h(«Aika»)Also, lass uns heute noch etwas ausruhen und
+das Beste hoffen!\e"
+MGF0160013,"\h(«Aika»)Ich frage mich trotzdem, wo Vyse ist……\e"
+MGF0160014,"\h(«Fina»)Vyse……
+Ob du wohl jetzt gerade den selben Mond
+ansiehst……\e"
+MSF0160000,"\h(«Dueña de la Posada»)Son 10 piezas de oro por noche.
+¿Os vais a quedar?\e"
+MSF0160001,"\h(«¿Qué vas a hacer?»)“¡Luego venimos!”
+“¡Vamos a pasar aquí la noche!”\e"
+MSF0160002,"\h(«Aika»)Aún no queremos dormir.
+¡Luego venimos!\e"
+MSF0160003,"\h(«Aika»)¡Suena genial!
+Pero, en realidad, ¿nos puede hacer un favor?\e"
+MSF0160004,"\h(«Aika»)Estamos pensando en quedarnos por un tiempo,
+¿le importaría que pagáramos al irnos?\e"
+MSF0160005,"\h(«Dueña de la Posada»)Muy bien.
+En ese caso, poneos cómodas e instalaos en la
+habitación de arriba al fondo.\e"
+MSF0160006,"\h(«Aika»)Por lo visto vamos a quedarnos en Nasrad por un
+tiempo.\e"
+MSF0160007,\h(«Fina»)¿Qué vamos a hacer mañana?\e
+MSF0160008,"\h(«Aika»)Estaba pensando en buscar un sitio donde
+trabajar. Tenemos que ahorrar un poco de oro.\e"
+MSF0160009,"\h(«Aika»)Podemos guardar el dinero que nos dio Clara.
+Si ahorramos un poco más, podemos comprar un
+navío pequeño y empezar a buscar a Vyse.\e"
+MSF0160010,"\h(«Aika»)¿Tú qué opinas, Fina?\e"
+MSF0160011,"\h(«Fina»)¡Sí!
+Parece un buen plan.\e"
+MSF0160012,"\h(«Aika»)¡Bueno, esta noche nos dedicaremos a descansar y
+esperemos que todo vaya bien!\e"
+MSF0160013,\h(«Aika»)Pero me pregunto dónde estará Vyse……\e
+MSF0160014,"\h(«Fina»)Vyse……
+Me pregunto si estarás mirando a la misma luna
+que yo en este momento……\e"
+MF0220000,"\h(«Owner of the Inn»)It's 10 gold for a night.
+Would you like to stay?\e"
+MF0220001,"\h(«What shall we do?»)“We'll be back later.”
+“We'll stay here.”\e"
+MF0220002,"\h(«Vyse»)Hmm… I think we're going to look around town a 
+little bit more. We'll back a little later.\e"
+MF0220003,"\h(«Vyse»)We'll stay here.
+Oh, I have one more person with me, so we'll 
+need a room for two.\e"
+MF0220004,"\h(«Owner of the Inn»)That's quite alright.
+You can use first room at the top of the stairs.\e"
+MF0220005,"\h(«Vyse»)This looks like the room.
+I guess I just have to wait for Gilder here.\e"
+MF0220006,"\h(«Aika»)It's payday!!!
+Working as a waitress was actually more fun 
+than I thought!\e"
+MF0220007,"\h(«Fina»)I… I've never worked for gold before. 
+It's… it's rather exciting actually.\e"
+MF0220008,"\h(«Aika»)With the rest of our pay, we'll finally have the
+10,000 gold we need to buy a ship! 
+Let's stop by the tavern and pick up our gold!\e"
+MFF0220000,"\h(«Propriétaire de l'Auberge»)C'est 10 pièces d'or la nuit.
+Vous souhaitez pendre une chambre ?\e"
+MFF0220001,"\h(«Que faut-il faire ?»)“Nous reviendrons plus tard.”
+“Nous la prenons.”\e"
+MFF0220002,"\h(«Vyse»)Humm…… Je pense que nous allons d'abord faire un
+tour en ville. Nous reviendrons plus tard.\e"
+MFF0220003,"\h(«Vyse»)Nous la prenons.
+Oh, il y a une personne de plus avec moi, alors
+il me faut une chambre double.\e"
+MFF0220004,"\h(«Propriétaire de l'Auberge»)Cela ne pose pas de problème.
+Vous pouvez prendre la première chambre en haut
+des escaliers.\e"
+MFF0220005,"\h(«Vyse»)Ce doit être la chambre.
+Je n'ai plus qu'à attendre Gilder ici.\e"
+MFF0220006,"\h(«Aika»)C'est le jour de la paye !!!
+En fait, on s'amuse plus que je ne l'aurais cru
+en travaillant comme serveuse !\e"
+MFF0220007,"\h(«Fina»)Je…… je n'ai jamais travaillé pour de l'or.
+C'est…… c'est plutôt excitant.\e"
+MFF0220008,"\h(«Aika»)Avec le reste de ta paye, nous avons enfin
+amassé les 10,000 pièces d'or nécessaires pour
+acheter un navire !
+Passons prendre notre or à la taverne !\e"
+MGF0220000,"\h(«Gastwirt»)Das macht 10 Goldstücke pro Übernachtung.
+Möchtet ihr hier bleiben?\e"
+MGF0220001,"\h(«Was sollen wir tun?»)“Wir kommen später wieder.”
+“Wir bleiben hier.”\e"
+MGF0220002,"\h(«Vyse»)Hmm…… ich glaube, wir sehen uns noch eine Weile
+in der Stadt um. Wir kommen später wieder.\e"
+MGF0220003,"\h(«Vyse»)Wir bleiben hier.
+Oh, ich habe noch jemanden mitgebracht, also
+brauchen wir ein Doppelzimmer.\e"
+MGF0220004,"\h(«Gastwirt»)Das ist in Ordnung.
+Sie können das erste Zimmer benutzen, gleich
+wenn Sie die Treppe hinaufkommen.\e"
+MGF0220005,"\h(«Vyse»)Das muss das Zimmer sein. Ich denke, ich
+warte einfach hier auf Gilder.\e"
+MGF0220006,"\h(«Aika»)Es ist Zahltag!!!
+Als Kellnerin zu arbeiten, hat mir mehr Spaß
+gemacht, als ich dachte!\e"
+MGF0220007,"\h(«Fina»)Ich…… ich hab' noch nie zuvor für Gold
+gearbeitet. Es…… ist eigentlich ganz spannend.\e"
+MGF0220008,"\h(«Aika»)Mit dem Rest unseres Lohns haben wir endlich die
+10.000 Goldstücke zusammen, die wir brauchen, um
+ein Schiff zu kaufen! Lass uns bei der Taverne
+vorbeischauen und unser Gold abholen!\e"
+MSF0220000,"\h(«Dueño de la Posada»)Son 10 piezas de oro por noche.
+¿Os vais a quedar?\e"
+MSF0220001,"\h(«¿Qué vamos a hacer?»)“Venimos luego.”
+“Nos quedamos.”\e"
+MSF0220002,"\h(«Vyse»)Mmm…… Creo que vamos a seguir dando una vuelta
+por la ciudad. Luego volvemos.\e"
+MSF0220003,"\h(«Vyse»)Nos quedamos aquí.
+Ah, viene otra persona conmigo, así que
+necesitaremos una habitación doble.\e"
+MSF0220004,"\h(«Dueño de la Posada»)Perfecto.
+Podéis quedaros en la primera habitación al
+final de las escaleras.\e"
+MSF0220005,"\h(«Vyse»)Se parece a una habitación.
+Supongo que tendré que esperar aquí a Gilder.\e"
+MSF0220006,"\h(«Aika»)¡¡¡Es día de paga!!!
+¡Trabajar de camarera es más divertido de lo que
+pensaba en un principio!\e"
+MSF0220007,"\h(«Fina»)Es…… es la primera vez que cobro por trabajar.
+Es…… muy emocionante.\e"
+MSF0220008,"\h(«Aika»)¡Con el resto de la paga reunimos las 10.000
+piezas de oro que necesitamos para comprar un
+navío! ¡Vamos a la taberna para cobrar el oro!\e"
+MF0230000,"\h(«Aika»)Sir!
+What's wrong?!
+Do you need help?\e"
+MF0230001,"\h(«Old Man»)Ugh…
+Starving… Thirsty…
+Need water… Need food…\e"
+MF0230002,"\h(«Aika»)Alright, just hang on.
+I'll bring you inside, we'll take care of you.\e"
+MF0230003,"\h(«Old Man»)Thank you for your kindness.
+My name is Pedro. 
+I'm not sure how I can repay you.\e"
+MF0230004,"\h(«Aika»)That's quite alright. Don't give it another 
+thought. Helping people in distress is what we 
+Blue Rogues live for.\e"
+MF0230005,"\h(«Pedro»)Oh…!
+You're an Air Pirate?\e"
+MF0230006,"\h(«Pedro»)I can't do much to repay you, but please accept 
+this…\e"
+MF0230007,"\h(«Aika»)What's this?
+It looks like an old map…\e"
+MF0230008,"\h(«Pedro»)I, I used to be a sailor.
+I used to travel with my friend, Gonzales…\e"
+MF0230009,"\h(«Pedro»)One day, we were lucky enough to find this… 
+“Daccat's Map.”\e"
+MF0230010,\h(«Fina»)Daccat's… Map?\e
+MF0230011,"\h(«Pedro»)About 5 generations ago, long before my time… 
+There was a great Air Pirate named Daccat that 
+terrorized the world.\e"
+MF0230012,"\h(«Pedro»)And this map supposedly shows where Captain
+Daccat hid all of his treasures… 
+“Daccat's Island.”\e"
+MF0230013,"\h(«Aika»)But, half of the map is missing!\e"
+MF0230014,"\h(«Pedro»)Well, Gonzales and I promised each other to look
+for it together someday…\e"
+MF0230015,"\h(«Pedro»)We tore the map in half and we each carried a 
+piece with us.\e"
+MF0230016,"\h(«Pedro»)Right after we found the map, we were attacked
+by Black Pirates.\e"
+MF0230017,"\h(«Pedro»)We had to abandon ship.
+I don't know what happened to Gonzales, but I 
+ended up here in Nasrad.\e"
+MF0230018,"\h(«Pedro»)I've been waiting for him in this town for a 
+very long time… I don't think I'll ever see him
+again.\e"
+MF0230019,\h(«Fina»)That's very sad…\e
+MF0230020,"\h(«Pedro»)Now I am too old to be going off looking 
+for buried treasure.\e"
+MF0230021,"\h(«Pedro»)I'm sure that Gonzales would have been happy if
+you found the treasure…\e"
+MF0230022,"\h(«Pedro»)…Thank you for saving me.
+Good luck finding that treasure.\e"
+MF0230023,"\h(«Aika»)Fina, what do you think? 
+Do you think this map is worth anything?\e"
+MF0230024,"\h(«Fina»)Hmm…
+He didn't appear to be the kind of person that 
+would lie.\e"
+MF0230025,"\h(«Aika»)Yeah, that story did seem a little farfetched, 
+but it might be worth checking out.\e"
+MF0230026,"\h(«Aika»)Hey…
+Do you want to go searching for the treasure?\e"
+MF0230027,"\h(«Fina»)Sure, I would like that very much.
+It sounds interesting.\e"
+MF0230028,"\h(«Aika»)Sounds like a plan. 
+Let's pay the innkeeper and get going!\e"
+MF0230029,"\h(«Gilder»)Why hello there. Do you want to grab a bite to 
+eat? I have a friend that can come along too.\e"
+MF0230030,"\h(«Aika»)We'd love to, but we're about to go on a trip. 
+Maybe some other time.\e"
+MF0230031,"\h(«Gilder»)I see. Well, that's too bad.
+Safe travels.\e"
+MF0230032,\h(«Aika»)Thank you. Maybe we'll run into you later.\e
+MF0230033,"\h(«Gilder»)Hey, we just got into town, and you've got your 
+face buried in that map. 
+Have a little fun, will ya?\e"
+MF0230034,\h(«Gilder»)Hey! Where'd you get that map?!\e
+MF0230035,\h(«Vyse»)I found it on that deserted island I was on. \e
+MF0230036,"\h(«Gilder»)That's the map to the hidden treasure of the 
+legendary Air Pirate, Daccat!\e"
+MF0230037,"\h(«Gilder»)It is said that he traveled the world and has 
+seen all six Moons with his own eyes.\e"
+MF0230038,"\h(«Gilder»)And it is also said that all the treasures that 
+he accumulated on his adventures are hidden 
+somewhere on a small island.\e"
+MF0230039,"\h(«Gilder»)And this is a map of that island.
+Vyse… you certainly know how to pick your maps!\e"
+MF0230040,"\h(«Vyse»)Hmm…
+But how do we know it's real?\e"
+MF0230041,"\h(«Gilder»)Look… it's Daccat's seal. 
+It isn't easy to duplicate that seal.\e"
+MF0230042,"\h(«Gilder»)It's no fake, Vyse.
+This is a real treasure map!\e"
+MF0230043,"\h(«Gilder»)We can't just sit here…
+We have to leave right away!\e"
+MF0230044,"\h(«Vyse»)But Gilder, didn't you say something about 
+meeting women and having some fun?\e"
+MF0230045,"\h(«Gilder»)Which do you think is more important? Women? Or 
+Daccat's Treasure? Besides, with Daccat's 
+Treasure, we'll be able to get more women.\e"
+MF0230046,"\h(«Gilder»)C'mon, Vyse… let's go!\e"
+MF0230047,\h( )You received “Pedro's Map.”\e
+MFF0230000,"\h(«Aika»)Monsieur !
+Qu'est-ce qui ne va pas ?!
+Vous avez besoin d'aide ?\e"
+MFF0230001,"\h(«Vieux Monsieur»)Ugh……
+Affamé…… Assoiffé……
+De l'eau…… À manger……\e"
+MFF0230002,"\h(«Aika»)D'accord, un instant. Je vais vous aider à
+rentrer, nous allons nous occuper de vous.\e"
+MFF0230003,"\h(«Vieux Monsieur»)Merci de votre gentillesse.
+Je m'appelle Pedro.
+Comment puis-je vous remercier ?\e"
+MFF0230004,"\h(«Aika»)Ce n'est rien. N'y pensez plus. Les Voleurs
+Bleus sont là pour aider les gens.\e"
+MFF0230005,"\h(«Pedro»)Oh……!
+Vous êtes Pirate de l'Air ?\e"
+MFF0230006,"\h(«Pedro»)Je n'ai pas grand chose à vous donner pour vous
+remercier, mais prenez ça s'il vous plaît……\e"
+MFF0230007,"\h(«Aika»)Qu'est-ce que c'est ?
+On dirait une vieille carte……\e"
+MFF0230008,"\h(«Pedro»)J'étais marin avant.
+Je voyageais avec mon ami, Gonzales……\e"
+MFF0230009,"\h(«Pedro»)Un jour, nous avons eu la chance de trouver
+cette…… “Carte de Daccat.”\e"
+MFF0230010,\h(«Fina»)Carte de…… Daccat ?\e
+MFF0230011,"\h(«Pedro»)Il y a 5 générations de cela, bien avant ma
+naissance…… Il y avait un grand Pirate de l'Air
+nommé Daccat qui terrorisait le monde.\e"
+MFF0230012,"\h(«Pedro»)Et cette carte est censée indiquer l'endroit où
+se trouvent tous les trésors cachés du Capitaine
+Daccat…… “Île de Daccat.”\e"
+MFF0230013,"\h(«Aika»)Mais, il manque l'autre moitié de la carte !\e"
+MFF0230014,"\h(«Pedro»)Eh bien, nous nous sommes promis avec Gonzales
+d'aller la chercher ensemble un jour……\e"
+MFF0230015,"\h(«Pedro»)Nous avons déchiré la carte en deux et gardé
+chacun un morceau.\e"
+MFF0230016,"\h(«Pedro»)Après avoir trouvé la carte, nous avons été
+attaqués par des Pirates Noirs.\e"
+MFF0230017,"\h(«Pedro»)Nous avons dû abandonner le navire.
+Je ne sais pas ce qu'il est advenu de Gonzales,
+moi j'ai atterri ici à Nasrad.\e"
+MFF0230018,"\h(«Pedro»)Cela fait très longtemps que je l'attends dans
+cette ville…… Je ne pense pas le revoir un jour.\e"
+MFF0230019,\h(«Fina»)C'est triste……\e
+MFF0230020,"\h(«Pedro»)Maintenant je suis trop vieux pour partir à la
+chasse aux trésors enfouis.\e"
+MFF0230021,"\h(«Pedro»)Je suis certain que cela aurait fait plaisir à
+Gonzales si vous trouviez le trésor……\e"
+MFF0230022,"\h(«Pedro»)……Merci de m'avoir sauvé.
+Bonne chance pour trouver le trésor.\e"
+MFF0230023,"\h(«Aika»)Fina, qu'en pensez-vous ?
+Vous croyez que cette carte a de la valeur ?\e"
+MFF0230024,"\h(«Fina»)Humm……
+Il n'a pas l'air d'être un menteur.\e"
+MFF0230025,"\h(«Aika»)Oui, cette histoire avait l'air un peu tirée par
+les cheveux,  mais cela vaut la peine de
+vérifier.\e"
+MFF0230026,"\h(«Aika»)Hé……
+Vous voulez partir à la recherche du trésor ?\e"
+MFF0230027,"\h(«Fina»)Bien sûr, j'aimerais beaucoup.
+Ça a l'air intéressant.\e"
+MFF0230028,"\h(«Aika»)C'est une bonne idée. Allons payer l'aubergiste
+et mettons nous en route !\e"
+MFF0230029,"\h(«Gilder»)Bonjour. Vous voulez manger quelque chose ?
+J'ai un ami qui pourrait se joindre à nous.\e"
+MFF0230030,"\h(«Aika»)On aimerait bien, mais nous allons partir en
+voyage. Peut-être une prochaine fois.\e"
+MFF0230031,"\h(«Gilder»)Je vois. Bien, c'est dommage.
+Faites bon voyage.\e"
+MFF0230032,"\h(«Aika»)Merci. Peut-être que nous nous reverrons plus
+tard.\e"
+MFF0230033,"\h(«Gilder»)Hé, nous venons juste d'arriver en ville, et tu
+as déjà le nez plongé dans cette carte.
+Amuse-toi un peu, hein ?\e"
+MFF0230034,\h(«Gilder»)Hé ! Où as-tu trouvé cette carte ?!\e
+MFF0230035,"\h(«Vyse»)Je l'ai trouvée sur l'île déserte où j'avais
+échoué.\e"
+MFF0230036,"\h(«Gilder»)C'est la carte du trésor caché du légendaire
+Pirate de l'Air, Daccat !\e"
+MFF0230037,"\h(«Gilder»)On raconte qu'il a voyagé dans le monde entier
+et qu'il a vu les six lunes de ses propres yeux.\e"
+MFF0230038,"\h(«Gilder»)Et on raconte aussi qu'il a caché tous les
+trésors accumulés lors de ses aventures sur une
+petite île.\e"
+MFF0230039,"\h(«Gilder»)Et voilà la carte de cette île.
+Vyse…… tu choisis bien tes cartes !\e"
+MFF0230040,"\h(«Vyse»)Humm……
+Mais comment savoir si c'est la bonne ?\e"
+MFF0230041,"\h(«Gilder»)Regarde…… c'est le sceau de Daccat.
+Ce n'est pas facile d'en faire un double.\e"
+MFF0230042,"\h(«Gilder»)Ce n'est pas un faux, Vyse.
+C'est une vraie carte au trésor !\e"
+MFF0230043,"\h(«Gilder»)Nous ne pouvons pas rester ici……
+Il faut partir tout de suite !\e"
+MFF0230044,"\h(«Vyse»)Mais Gilder, vous m'aviez dit que vous vouliez
+retrouver des femmes et vous amuser ?\e"
+MFF0230045,"\h(«Gilder»)Qu'est-ce qui est plus important d'après toi ?
+Les femmes ? Ou le trésor de Daccat ? Et puis,
+avec le trésor de Daccat, nous rencontrerons
+encore plus de femmes.\e"
+MFF0230046,"\h(«Gilder»)Allez, Vyse…… Allons-y !\e"
+MFF0230047,\h( )Vous avez reçu la “Carte de Pedro.”\e
+MGF0230000,"\h(«Aika»)Sir!
+Stimmt was nicht?!
+Brauchen Sie Hilfe?\e"
+MGF0230001,"\h(«Alter Mann»)Uhh……
+Hunger…… Durst……
+brauche Wasser…… brauche Essen……\e"
+MGF0230002,"\h(«Aika»)OK, warten Sie mal.
+Ich bringe Sie hinein, wir kümmern uns um
+Sie.\e"
+MGF0230003,"\h(«Alter Mann»)Danke für eure Liebenswürdigkeit.
+Mein Name ist Pedro.
+Ich weiß nicht, wie ich es euch vergelten soll.\e"
+MGF0230004,"\h(«Aika»)Gern geschehen. Machen Sie sich keine
+Gedanken. Leuten in einer Notlage zu helfen,
+dafür leben wir Blue Rogues.\e"
+MGF0230005,"\h(«Pedro»)Oh……!
+Du bist Luftpiratin?\e"
+MGF0230006,"\h(«Pedro»)Ich kann nicht viel tun, um es wieder gut-
+zumachen, aber bitte nehmt dies……\e"
+MGF0230007,"\h(«Aika»)Was ist das?
+Sieht aus wie eine alte Karte……\e"
+MGF0230008,"\h(«Pedro»)Ich, ich war einmal Seemann. Ich bin immer mit
+meinem Freund Gonzales gereist……\e"
+MGF0230009,"\h(«Pedro»)Eines Tages hatten wir das Glück, das hier zu
+finden…… “Daccats Map.”\e"
+MGF0230010,\h(«Fina»)Daccats…… Karte?\e
+MGF0230011,"\h(«Pedro»)Vor etwa 5 Generationen, lange vor meiner Zeit,
+gab es einen großen Luftpiraten namens Daccat,
+der die Welt in Schrecken versetzte.\e"
+MGF0230012,"\h(«Pedro»)Und diese Karte weist angeblich darauf hin, wo
+Captain Daccat alle seine Schätze versteckt
+hat…… “Daccats Island.”\e"
+MGF0230013,\h(«Aika»)Aber die Hälfte der Karte fehlt ja!\e
+MGF0230014,"\h(«Pedro»)Tja, Gonzales und ich haben einander
+geschworen, dass wir eines Tages danach
+suchen würden……\e"
+MGF0230015,"\h(«Pedro»)Wir zerrissen die Karte in zwei Hälften und
+nahmen jeder eine Hälfte mit.\e"
+MGF0230016,"\h(«Pedro»)Kurz nachdem wir die Karte gefunden hatten,
+wurden wir von Black Pirates angegriffen.\e"
+MGF0230017,"\h(«Pedro»)Wir mussten unser Schiff aufgeben.
+Ich weiß nicht, was mit Gonzales passiert ist,
+aber ich bin hier in Nasrad gelandet.\e"
+MGF0230018,"\h(«Pedro»)Ich warte schon sehr lange auf ihn in dieser
+Stadt…… Ich glaube nicht, dass ich ihn je
+wieder sehen werde.\e"
+MGF0230019,\h(«Fina»)Das ist sehr traurig……\e
+MGF0230020,"\h(«Pedro»)Jetzt bin ich zu alt dazu, um loszuziehen und
+vergrabene Schätze zu suchen.\e"
+MGF0230021,"\h(«Pedro»)Ich bin sicher, dass Gonzales froh darüber
+gewesen wäre, wenn ihr den Schatz fändet……\e"
+MGF0230022,"\h(«Pedro»)……Danke, dass ihr mich gerettet habt.
+Viel Glück bei der Schatzsuche.\e"
+MGF0230023,"\h(«Aika»)Fina, was meinst du?
+Glaubst du, diese Karte ist etwas wert?\e"
+MGF0230024,"\h(«Fina»)Hmm……
+Er sah nicht so aus wie jemand, der lügt.\e"
+MGF0230025,"\h(«Aika»)Tja, diese Geschichte schien etwas weit
+hergeholt, aber vielleicht lohnt es sich,
+mal nachzuforschen.\e"
+MGF0230026,"\h(«Aika»)He……
+Willst du nach dem Schatz suchen gehen?\e"
+MGF0230027,"\h(«Fina»)Klar, würde ich gerne.
+Hört sich interessant an.\e"
+MGF0230028,"\h(«Aika»)Abgemacht.
+Lass uns den Gastwirt bezahlen und uns auf
+den Weg machen!\e"
+MGF0230029,"\h(«Gilder»)Ach, hallo. Möchtet ihr gern einen Happen
+essen? Ich kann noch einen Freund mitbringen.\e"
+MGF0230030,"\h(«Aika»)Wirklich gern, aber wir reisen gerade ab.
+Vielleicht das nächste Mal.\e"
+MGF0230031,"\h(«Gilder»)Verstehe. Das ist zu schade.
+Na dann, gute Reise.\e"
+MGF0230032,"\h(«Aika»)Danke. Vielleicht treffen wir uns irgendwo
+einmal wieder.\e"
+MGF0230033,"\h(«Gilder»)He, du bist gerade in der Stadt angekommen
+und vergräbst dein Gesicht in dieser Karte.
+Amüsier dich ein bisschen, ja?\e"
+MGF0230034,\h(«Gilder»)He! Woher hast du die Karte?!\e
+MGF0230035,"\h(«Vyse»)Ich fand sie auf der einsamen Insel, auf der
+ich war.\e"
+MGF0230036,"\h(«Gilder»)Das ist die Karte zum versteckten Schatz des
+legendären Luftpiraten Daccat!\e"
+MGF0230037,"\h(«Gilder»)Man sagt, dass er die Welt bereist hat und
+alle sechs Monde mit eigenen Augen gesehen hat.\e"
+MGF0230038,"\h(«Gilder»)Und außerdem sagt man, dass all die Schätze,
+die er bei seinen Abenteuern angehäuft hat,
+irgendwo auf einer kleinen Insel versteckt
+sind.\e"
+MGF0230039,"\h(«Gilder»)Und das ist eine Karte dieser Insel.
+Vyse…… du hast eine glückliche Hand bei der
+Auswahl deiner Karten!\e"
+MGF0230040,"\h(«Vyse»)Hmm……
+Woher weißt du, dass sie echt ist?\e"
+MGF0230041,"\h(«Gilder»)Schau…… das ist Daccats Siegel. Es ist nicht
+leicht, dieses Siegel zu fälschen.\e"
+MGF0230042,"\h(«Gilder»)Es ist keine Fälschung, Vyse.
+Das ist eine echte Schatzkarte!\e"
+MGF0230043,"\h(«Gilder»)Wir können nicht einfach hier rumsitzen……
+Wir müssen sofort los!\e"
+MGF0230044,"\h(«Vyse»)Aber, Gilder, hast du nicht etwas davon gesagt,
+du willst Frauen treffen und dich etwas
+amüsieren?\e"
+MGF0230045,"\h(«Gilder»)Was, meinst du, ist wichtiger? Frauen? Oder
+Daccats Schatz? Außerdem, mit Daccats Schatz
+können wir sowieso mehr Frauen bekommen.\e"
+MGF0230046,"\h(«Gilder»)Los, Vyse…… lass uns gehen!\e"
+MGF0230047,\h( )Du erhieltst “Pedros Karte.”\e
+MSF0230000,"\h(«Aika»)¡Señor!
+¡¿Qué pasa?!
+¿Necesita ayuda?\e"
+MSF0230001,"\h(«Anciano»)Ah……
+Me muero de hambre…… y de sed……
+Necesito agua…… Necesito comida……\e"
+MSF0230002,"\h(«Aika»)Vale, espera un momento.
+Pasa adentro y te atenderemos.\e"
+MSF0230003,"\h(«Anciano»)Gracias por tu amabilidad.
+Me llamo Pedro.
+No sé cómo pagarte.\e"
+MSF0230004,"\h(«Aika»)No pasa nada. No lo pienses.
+Para eso estamos los Bandidos Azules, para
+ayudar a quienes nos necesitan.\e"
+MSF0230005,"\h(«Pedro»)¡Oh……!
+¿Eres una Pirata Aérea?\e"
+MSF0230006,"\h(«Pedro»)No puedo hacer gran cosa por vosotros, pero si
+pudiérais aceptar esto……\e"
+MSF0230007,"\h(«Aika»)¿Qué es esto?
+Parece un mapa……\e"
+MSF0230008,"\h(«Pedro»)Antes era marino.
+Solía navegar mucho con mi amigo, González……\e"
+MSF0230009,"\h(«Pedro»)Un buen día tuvimos la suerte de encontrar
+este…… “Mapa de Daccat”.\e"
+MSF0230010,\h(«Fina»)¿Mapa de…… Daccat?\e
+MSF0230011,"\h(«Pedro»)Hace 5 generaciones, mucho antes de que yo
+naciera…… vivía un gran Pirata Aéreo que se
+llamaba Daccat. Tenía aterrorizado al mundo
+entero.\e"
+MSF0230012,"\h(«Pedro»)Y este mapa señala el lugar donde el Capitán
+Daccat escondió todos sus tesoros……
+“Isla de Daccat”.\e"
+MSF0230013,\h(«Aika»)¡Pero falta la mitad del mapa!\e
+MSF0230014,"\h(«Pedro»)Bueno, González y yo hicimos la promesa de
+buscarlos algún día……\e"
+MSF0230015,"\h(«Pedro»)Partimos el mapa por la mitad y nos llevamos
+cada uno una parte.\e"
+MSF0230016,"\h(«Pedro»)Justo después de encontrar el mapa, nos atacaron
+los Piratas Negros.\e"
+MSF0230017,"\h(«Pedro»)Tuvimos que abandonar el navío.
+No sé lo que le pasó a González y yo acabé aquí
+en Nasrad.\e"
+MSF0230018,"\h(«Pedro»)Llevo mucho tiempo esperándole en esta ciudad……
+No creo que vuelva a verle nunca más.\e"
+MSF0230019,\h(«Fina»)Eso es terrible……\e
+MSF0230020,"\h(«Pedro»)Ahora ya soy demasiado viejo para irme por ahí
+en busca de un tesoro enterrado.\e"
+MSF0230021,"\h(«Pedro»)Seguro que González se alegraría mucho si
+encontrárais el tesoro……\e"
+MSF0230022,"\h(«Pedro»)…… Gracias por salvarme.
+Buena suerte con el tesoro.\e"
+MSF0230023,"\h(«Aika»)Fina, ¿tú qué opinas?
+¿Crees que el mapa tiene algún valor?\e"
+MSF0230024,"\h(«Fina»)Mmm……
+No creo que sea el tipo de persona que miente
+sobre algo así.\e"
+MSF0230025,"\h(«Aika»)Sí, la historia suena a inventada, pero vale la
+pena probar.\e"
+MSF0230026,"\h(«Aika»)Eh……
+¿Quieres que vayamos en busca del tesoro?\e"
+MSF0230027,"\h(«Fina»)Claro, me gustaría mucho.
+Suena interesante.\e"
+MSF0230028,"\h(«Aika»)Parece un buen plan.
+¡Vamos a pagar al hostelero y nos ponemos en
+marcha!\e"
+MSF0230029,"\h(«Gilder»)Hola. ¿Os apetece picar algo para comer?
+Tengo un amigo que puede acompañarnos.\e"
+MSF0230030,"\h(«Aika»)Nos encantaría, pero nos vamos de viaje.
+Quizá en otra ocasión.\e"
+MSF0230031,"\h(«Gilder»)Ya veo. Vaya, qué pena.
+Que tengáis un buen viaje.\e"
+MSF0230032,\h(«Aika»)Gracias. Quizá nos volvamos a encontrar.\e
+MSF0230033,"\h(«Gilder»)Eh, acabamos de llegar a la ciudad y sólo tienes
+ojos para ese mapa.
+Diviértete un poco, ¿no?\e"
+MSF0230034,\h(«Gilder»)¡Eh! ¡¿De dónde sacaste ese mapa?!\e
+MSF0230035,\h(«Vyse»)Lo encontré en la isla desierta donde estuve.\e
+MSF0230036,"\h(«Gilder»)¡Ése es el mapa del tesoro escondido del
+legendario Pirata Aéreo Daccat!\e"
+MSF0230037,"\h(«Gilder»)Se dice que ha viajado por todo el mundo y que
+ha visto las seis Lunas con sus propios ojos.\e"
+MSF0230038,"\h(«Gilder»)Y también se dice que todos los tesoros que ha
+acumulado en sus aventuras están escondidos en
+alguna isla pequeña.\e"
+MSF0230039,"\h(«Gilder»)Y éste es el mapa de esa isla.
+Vyse…… ¡sí que sabes elegir los mapas!\e"
+MSF0230040,"\h(«Vyse»)Mmm……
+¿Pero cómo sabemos que no es un mapa falso?\e"
+MSF0230041,"\h(«Gilder»)Mira…… es el sello de Daccat.
+No es nada fácil copiar este sello.\e"
+MSF0230042,"\h(«Gilder»)No es un sello falso, Vyse.
+¡Es un auténtico mapa del tesoro!\e"
+MSF0230043,"\h(«Gilder»)No podemos quedarnos aquí sentados……
+¡Nos tenemos que ir enseguida!\e"
+MSF0230044,"\h(«Vyse»)Pero Gilder, ¿no decías que tenías que ver a
+unas chicas y divertirte un poco?\e"
+MSF0230045,"\h(«Gilder»)¿Qué te parece más importante? ¿Las mujeres?
+¿O el Tesoro de Daccat? Además, cuando tengamos
+el Tesoro de Daccat, ligaremos mucho más.\e"
+MSF0230046,"\h(«Gilder»)Venga, Vyse…… ¡Vamos!\e"
+MSF0230047,\h( )Tienes el “Mapa de Pedro”.\e
+MF0240000,\h(«Nasr Soldier»)Halt!\e
+MF0240001,"\h(«Nasr Soldier»)This is the Royal Palace of the Nasultan! If you
+do not have official business, then you are not 
+welcome here.\e"
+MF0240002,\h(«Vyse»)Nasultan?\e
+MF0240003,"\h(«Gilder»)The rulers of Nasr always take on the title of 
+Nasultan. And this is the Royal Palace.\e"
+MF0240004,"\h(«Vyse»)I see. 
+So, we should tell this “Nasultan” guy 
+about Valua's plan to attack.\e"
+MF0240005,"\h(«Vyse»)Please… 
+We must speak to the Nasultan right away. 
+Let us through.\e"
+MF0240006,"\h(«Nasr Soldier»)What?! You wish to speak to the Nasultan? Do you
+think we allow commoners into the Royal Palace?\e"
+MF0240007,"\h(«What will you say?»)“We have important information.”
+“You'd better let us through, or else!”\e"
+MF0240008,"\h(«Vyse»)I have important information regarding the 
+Valuan Armada. Please let us pass.\e"
+MF0240009,"\h(«Nasr Soldier»)Important information about the Valuans?
+Hmm…\e"
+MF0240010,"\h(«Nasr Soldier»)Valua is our greatest enemy. If you have 
+information about them, then perhaps we can let
+you speak to the Nasultan.\e"
+MF0240011,"\h(«Nasr Soldier»)Very well, I will grant you permission to enter
+the Royal Palace. Now, if you will follow me.\e"
+MF0240012,"\h(«Gilder»)Heh, not too shabby, kid. Who'd have thought 
+that two ruffians like us would be able to meet
+the Nasultan?\e"
+MF0240013,"\h(«Vyse»)Well, I just figured that if they knew we were
+doing them a favor, they'd let us in.\e"
+MF0240014,"\h(«Vyse»)If you don't want to get hurt, you'll let us 
+through.\e"
+MF0240015,\h(«Nasr Guard»)What did you say?!\e
+MF0240016,"\h(«Gilder»)Now, now… calm down, everyone.\e"
+MF0240017,"\h(«Gilder»)Mister uhhh… Guard, this here is Captain Vyse, 
+the only Air Pirate to have ever broken out 
+of the Grand Fortress.\e"
+MF0240018,"\h(«Gilder»)If you don't let him pass, you'll learn to
+regret it later. Is that something you want
+on your shoulders?\e"
+MF0240019,"\h(«Nasr Soldier»)What? He's the Air Pirate that escaped the Grand
+Fortress?\e"
+MF0240020,"\h(«Nasr Soldier»)My… my apologies!
+I didn't… I didn't know that I was speaking 
+to a legend! Forgive me…\e"
+MF0240021,"\h(«Nasr Guard»)Just a moment!
+I… I will announce your arrival!\e"
+MF0240022,\h(«Vyse»)Gilder…\e
+MF0240023,"\h(«Gilder»)Heh… I'm good at this sort of stuff.
+Leave it up to me.\e"
+MF0240024,"\h(«Nasultan»)So you're the Air Pirate who escaped from the 
+Grand Fortress, eh? I am the Nasultan of the 
+Nasr Kingdom. What is it that you want from me?\e"
+MF0240025,"\h(«Vyse»)Valua is planning an attack on Nasrad. 
+They are already organizing their forces.\e"
+MF0240026,"\h(«Vyse»)You should warn your people and assemble your
+fleet right away!\e"
+MF0240027,"\h(«Nasultan»)HAHAHAHAHA!!!
+You came all this way to tell me this?\e"
+MF0240028,"\h(«Nasultan»)Do not fear, our navy is powerful enough to 
+crush the Valuan Armada.\e"
+MF0240029,"\h(«Vyse»)But, Your Majesty… you shouldn't underestimate 
+them. You need to assemble your fleet or 
+many innocent lives may be lost.\e"
+MF0240030,"\h(«Nasultan»)HAHAHAHA!!!
+You seem very concerned about Nasr for 
+an Air Pirate.\e"
+MF0240031,"\h(«Nasultan»)Nasrad is shielded by mountains in the south and
+sky rifts to the east. It is impossible for them
+to invade.\e"
+MF0240032,"\h(«Nasultan»)If they were to try and invade us, it would have
+to be from the north. And that is where our 
+fleet is located.\e"
+MF0240033,"\h(«Nasultan»)The South Dannel Strait is properly guarded and 
+the maelstrom blocks off the North Dannel 
+Strait.\e"
+MF0240034,"\h(«Nasultan»)In other words, it would be impossible for 
+anyone to invade us! Hahahaha!\e"
+MF0240035,\h(«Vyse»)But…\e
+MF0240036,"\h(«Nasultan»)Do not worry… Nasr is protected by the Red
+Moon. Valua cannot touch us.\e"
+MF0240037,"\h(«Nasultan»)And besides, if someone as young as you can get
+past the Armada perhaps they're losing their 
+edge.\e"
+MF0240038,"\h(«Nasultan»)Imagine that… The once mighty Valuan Armada 
+fooled by a boy! 
+Hahahahaha!!!\e"
+MF0240039,"\h(«Gilder»)It's no use, Vyse. I don't think he'll listen to
+anything we have to say. Let's stop wasting our
+time and get to looking for Daccat's Island.\e"
+MF0240040,"\h(«Vyse»)I don't know. He seems way too overconfident, 
+but I hope for his sake that he's right. 
+C'mon, let's go.\e"
+MFF0240000,\h(«Soldat Nasr»)Halte !\e
+MFF0240001,"\h(«Soldat Nasr»)C'est le Palais Royal du Nasultan ! Si vous
+n'êtes pas venus en visite officielle, alors
+vous n'êtes pas les bienvenus.\e"
+MFF0240002,\h(«Vyse»)Nasultan ?\e
+MFF0240003,"\h(«Gilder»)Les souverains de Nasr prennent toujours le
+titre de Nasultan. Et voilà le Palais Royal.\e"
+MFF0240004,"\h(«Vyse»)Je vois.
+Alors, nous devrions dire à ce “Nasultan” que
+Valua a l'intention d'attaquer.\e"
+MFF0240005,"\h(«Vyse»)Je vous en prie……
+Nous devons absolument parler au Nasultan.
+Laissez-nous passer.\e"
+MFF0240006,"\h(«Soldat Nasr»)Quoi ?! Vous voulez parler au Nasultan ?
+Vous pensez que nous laissons entrer le petit
+peuple dans le Palais Royal ?\e"
+MFF0240007,"\h(«Que direz-vous ?»)“Nous avons des informations importantes.”
+“Vous devriez nous laisser passer, sinon !”\e"
+MFF0240008,"\h(«Vyse»)J'ai des informations importantes concernant
+l'Armada Valuan. Laissez-nous passer s'il vous
+plaît.\e"
+MFF0240009,"\h(«Soldat Nasr»)Des informations importantes sur les Valuans ?
+Humm……\e"
+MFF0240010,"\h(«Nasr Soldat»)Valua est notre pire ennemi. Si vous avez des
+informations sur eux, alors nous pouvons
+peut-être vous laisser parler au Nasultan.\e"
+MFF0240011,"\h(«Soldat Nasr»)Très bien, je vous donne la permission d'entrer
+dans le Palais Royal. Si vous voulez bien me
+suivre.\e"
+MFF0240012,"\h(«Gilder»)Hé, bien joué, petit. Qui aurait cru que deux
+bandits comme nous pourraient rencontrer le
+Nasultan ?\e"
+MFF0240013,"\h(«Vyse»)Eh bien, j'ai pensé que s'ils savaient que nous
+leur rendions service, ils nous laisseraient
+entrer.\e"
+MFF0240014,"\h(«Vyse»)Si tu ne veux pas que je te frappe, laisse-nous
+passer.\e"
+MFF0240015,\h(«Garde Nasr»)Qu'as-tu dit ?!\e
+MFF0240016,"\h(«Gilder»)Allons, allons…… calmons-nous.\e"
+MFF0240017,"\h(«Gilder»)Monsieur uhhh…… Garde, c'est le Capitaine Vyse,
+le seul Pirate de l'Air a avoir pénétré dans la
+Grande Forteresse.\e"
+MFF0240018,"\h(«Gilder»)Si vous ne le laissez pas passer, vous le
+regretterez plus tard. Est-ce que vous voulez
+en porter la responsabilité ?\e"
+MFF0240019,"\h(«Soldat Nasr»)Quoi ? C'est le Pirate de l'Air qui s'est
+échappé de la Grande Forteresse ?\e"
+MFF0240020,"\h(«Soldat Nasr»)Je…… je ne savais pas que je parlais à une
+légende ! Pardonnez-moi……\e"
+MFF0240021,"\h(«Garde Nasr»)Attendez !
+Je…… je vais annoncer votre arrivée !\e"
+MFF0240022,\h(«Vyse»)Gilder……\e
+MFF0240023,"\h(«Gilder»)Hé…… je m'en sors bien.
+Laisse-moi faire.\e"
+MFF0240024,"\h(«Nasultan»)Alors tu es le Pirate de l'Air qui s'est échappé
+de la Grande Forteresse, hein ?
+Je suis le Nasultan du Royaume Nasr.
+Que me veux-tu ?\e"
+MFF0240025,"\h(«Vyse»)Valua a l'intention d'attaquer Nasrad.
+Ils organisent leurs forces.\e"
+MFF0240026,"\h(«Vyse»)Vous devriez prévenir votre peuple et rassembler
+votre flotte immédiatement !\e"
+MFF0240027,"\h(«Nasultan»)HAHAHAHAHA !!!
+Tu as fait tout ce chemin pour me dire ça ?\e"
+MFF0240028,"\h(«Nasultan»)Ne crains rien, notre marine est assez puissante
+pour écraser l'Armada Valuan.\e"
+MFF0240029,"\h(«Vyse»)Mais, Votre Majesté…… vous ne devriez pas les
+sous-estimer. Vous devez rassembler votre flotte
+sinon de nombreux innocents périront.\e"
+MFF0240030,"\h(«Nasultan»)HAHAHAHA !!!
+Pour un Pirate de l'Air, tu t'inquiètes beaucoup
+pour Nasr.\e"
+MFF0240031,"\h(«Nasultan»)Nasrad est protégée au Sud par les montagnes et
+à l'Est par les crevasses. Ils ne pourront
+jamais nous envahir.\e"
+MFF0240032,"\h(«Nasultan»)S'ils essayaient de nous envahir, ce serait par
+le Nord. Et c'est là que se trouve notre flotte.\e"
+MFF0240033,"\h(«Nasultan»)Le Détroit de Dannel Sud est bien gardé et le
+tourbillon bloque le détroit de Dannel Nord.\e"
+MFF0240034,"\h(«Nasultan»)Bref, personne ne peut nous envahir !
+Hahahaha !\e"
+MFF0240035,\h(«Vyse»)Mais……\e
+MFF0240036,"\h(«Nasultan»)Ne t'inquiètes pas…… Nasr est protégée par la
+Lune Rouge. Valua ne peut rien contre nous.\e"
+MFF0240037,"\h(«Nasultan»)Et puis, si quelqu'un aussi jeune que toi peut
+vaincre l'Armada peut-être qu'ils perdent la
+main.\e"
+MFF0240038,"\h(«Nasultan»)Imagine…… L'Armada Valua jadis toute puissante
+battue par un gamin !
+Hahahahaha !!!\e"
+MFF0240039,"\h(«Gilder»)Cela ne sert à rien, Vyse. Je ne crois pas qu'il
+nous écoutera. Inutile de perdre notre temps.
+Partons à la recherche de l'île de Daccat.\e"
+MFF0240040,"\h(«Vyse»)Je ne sais pas. Il a l'air beaucoup trop sûr
+de lui, mais j'espère qu'il a raison.
+Allez, partons.\e"
+MGF0240000,\h(«Nasr-Soldat»)Halt!\e
+MGF0240001,"\h(«Nasr-Soldat»)Dies ist der Königliche Palast des Nasultan!
+Wenn ihr in keiner offiziellen Angelegenheit
+unterwegs seid, seid ihr nicht erwünscht.\e"
+MGF0240002,\h(«Vyse»)Nasultan?\e
+MGF0240003,"\h(«Gilder»)Die Herrscher von Nasr nehmen stets den Titel
+Nasultan an. Und dies ist der Königliche Palast.\e"
+MGF0240004,"\h(«Vyse»)Verstehe.
+Also sollten wir diesem “Nasultan” von Valuas
+Angriffsplänen berichten.\e"
+MGF0240005,"\h(«Vyse»)Bitte……
+Wir müssen sofort mit dem Nasultan sprechen.
+Lasst uns durch.\e"
+MGF0240006,"\h(«Nasr-Soldat»)Was?! Ihr wünscht den Nasultan zu sprechen?
+Glaubt ihr, wir lassen Fußvolk in den
+Königlichen Palast?\e"
+MGF0240007,"\h(«Was wirst du sagen?»)“Wir haben wichtige Informationen.”
+“Lasst uns durch, oder ihr werdet es bereuen!”\e"
+MGF0240008,"\h(«Vyse»)Ich habe wichtige Informationen bezüglich
+der Valuan Armada. Bitte lasst uns durch.\e"
+MGF0240009,"\h(«Nasr-Soldat»)Wichtige Informationen über die Valuaner?
+Hmm……\e"
+MGF0240010,"\h(«Nasr-Soldat»)Valua ist unser größter Feind. Wenn ihr
+Informationen über sie habt, können wir euch
+vielleicht zum Nasultan vorlassen.\e"
+MGF0240011,"\h(«Nasr-Soldat»)Nun gut, ich werde euch Erlaubnis gewähren,
+im Königlichen Palast vorstellig zu werden.
+Wenn ihr mir jetzt folgen wollt.\e"
+MGF0240012,"\h(«Gilder»)He, nicht zu verachten, Junge. Wer hätte
+gedacht, dass zwei Raufbolde wie wir den
+Nasultan sprechen dürfen?\e"
+MGF0240013,"\h(«Vyse»)Nun, ich dachte nur, wenn wir ihnen
+einen Gefallen tun, würden sie uns einlassen.\e"
+MGF0240014,"\h(«Vyse»)Wenn du nicht willst, dass ich dir wehtue,
+dann lässt du uns passieren.\e"
+MGF0240015,\h(«Nasr Guard»)Was hast du gesagt?!\e
+MGF0240016,\h(«Gilder»)Heh…… heh…… Jetzt mal ganz ruhig!\e
+MGF0240017,"\h(«Gilder»)Herr…… äh…… Wächter, dies hier ist Captain
+Vyse, der einzige Luftpirat, dem es je gelang,
+aus der Grand Fortress auszubrechen.\e"
+MGF0240018,"\h(«Gilder»)Wenn du ihn nicht durchlässt, wirst du es
+später bereuen. Möchtest du dich mit dem
+Gedanken herumschlagen?\e"
+MGF0240019,"\h(«Nasr-Soldat»)Was? Er ist der Luftpirat, der aus der Grand
+Fortress entflohen ist?\e"
+MGF0240020,"\h(«Nasr-Soldat»)Ent…… Entschuldigung!
+Ich wusste nicht…… ich wusste nicht, dass ich
+es mit einer Legende zu tun hatte!
+Vergebt mir……\e"
+MGF0240021,"\h(«Nasr-Wache»)Einen Moment!
+Ich…… ich werde eure Ankunft ankündigen!\e"
+MGF0240022,\h(«Vyse»)Gilder……\e
+MGF0240023,"\h(«Gilder»)He…… Ich kenn mich mit so was aus.
+Überlass es mir.\e"
+MGF0240024,"\h(«Nasultan»)Also, du bist der Luftpirat, der aus der
+Grand Fortress augebrochen ist, wie? Ich bin
+der Nasultan des Königreichs Nasr. Was wollt
+ihr von mir?\e"
+MGF0240025,"\h(«Vyse»)Valua plant einen Angriff auf Nasrad.
+Sie sind schon dabei, ihre Streitkräfte zu
+mobilisieren.\e"
+MGF0240026,"\h(«Vyse»)Sie sollten das Volk warnen und Ihre Flotte
+alarmieren!\e"
+MGF0240027,"\h(«Nasultan»)HAHAHAHAHA!!!
+Ihr seid so weit gereist, nur um mir das
+mitzuteilen?\e"
+MGF0240028,"\h(«Nasultan»)Habt keine Angst, unsere Marine ist mächtig
+genug, um die Valuan Armada zu vernichten.\e"
+MGF0240029,"\h(«Vyse»)Aber, Eure Majestät, Sie sollten sie nicht
+unterschätzen. Sie müssen Ihre Flotte
+mobilisieren,sonst setzen Sie viele unschuldige
+Menschenleben aufs Spiel.\e"
+MGF0240030,"\h(«Nasultan»)HAHAHAHA!!!
+Für einen Luftpiraten scheinst du sehr besorgt
+um Nasr zu sein.\e"
+MGF0240031,"\h(«Nasultan»)Nasrad ist im Süden von Bergen und im Osten
+von Himmelsriffen umgeben. Eine Invasion ist
+völlig ausgeschlossen.\e"
+MGF0240032,"\h(«Nasultan»)Wenn sie versuchten, bei uns einzufallen, 
+so wäre das von Norden. Und dort ist unsere
+Flotte stationiert.\e"
+MGF0240033,"\h(«Nasultan»)Die South Dannel Strait ist ausreichend
+bewacht, und der Strudel blockiert die
+North Dannel Strait.\e"
+MGF0240034,"\h(«Nasultan»)Mit anderen Worten, es ist absolut unmöglich,
+bei uns einzufallen! Hahahaha!\e"
+MGF0240035,\h(«Vyse»)Aber……\e
+MGF0240036,"\h(«Nasultan»)Keine Sorge…… Nasr wird vom Red Moon beschützt.
+Valua kann uns nichts anhaben.\e"
+MGF0240037,"\h(«Nasultan»)Und außerdem - wenn jemand in deinem Alter
+unbeschadet an der Armada vorbeikommt, dann
+steht es um sie vielleicht nicht mehr so gut.\e"
+MGF0240038,"\h(«Nasultan»)Stellt euch das vor…… die einst so mächtige
+Valuan Armada wird von einem Kind an der
+Nase herumgeführt! Hahahahaha!!!\e"
+MGF0240039,"\h(«Gilder»)Hat keinen Zweck, Vyse. Ich glaube nicht,
+dass er uns ein Wort glaubt. Lass uns keine
+Zeit mehr verschwenden und nach Daccats
+Island suchen.\e"
+MGF0240040,"\h(«Vyse»)Ich weiß nicht, er scheint viel zu sehr von
+sich überzeugt zu sein, aber ich hoffe um
+seinetwillen, dass er Recht hat. Komm,
+lass uns gehen.\e"
+MSF0240000,\h(«Soldado de Nasr»)¡Alto!\e
+MSF0240001,"\h(«Soldado de Nasr»)¡Esto es el Palacio Real del Nasultán!
+Si no venís por asuntos oficiales, no sois
+bienvenidos.\e"
+MSF0240002,\h(«Vyse»)¿Nasultán?\e
+MSF0240003,"\h(«Gilder»)Los gobernantes de Nasr siempre reciben el
+título de Nasultán. Y esto es el Palacio Real.\e"
+MSF0240004,"\h(«Vyse»)Ya veo.
+Así que tenemos que contarle al tal “Nasultán”
+que Valua está planeando atacar.\e"
+MSF0240005,"\h(«Vyse»)Por favor……
+Tenemos que hablar con el Nasultán
+inmediatamente. Déjanos pasar.\e"
+MSF0240006,"\h(«Soldado de Nasr»)¡¿Qué?! ¿Deseas hablar con el Nasultán? ¿Crees
+que permitimos el paso a la plebe en el Palacio
+Real?\e"
+MSF0240007,"\h(«¿Qué vas a decir?»)“Tenemos información importante.”
+“¡Mejor que nos dejéis pasar o no respondo!”\e"
+MSF0240008,"\h(«Vyse»)Tenemos información muy importante sobre la
+Armada Imperial. Por favor, dejadnos pasar.\e"
+MSF0240009,"\h(«Soldado de Nasr»)¿Información importante sobre los Valuan?
+Mmm……\e"
+MSF0240010,"\h(«Soldado de Nasr»)Valua es nuestro peor enemigo. Si tienes
+información sobre ellos, es posible que te
+permitamos hablar con el Nasultán.\e"
+MSF0240011,"\h(«Soldado de Nasr»)Muy bien, les permitiré entrar en el Palacio
+Real. Si son tan amables de seguirme.\e"
+MSF0240012,"\h(«Gilder»)Eh, no te pongas tonto, chico. ¿Quién hubiera
+imaginado que dos patanes como nosotros iban a
+ser recibidos por el Nasultán?\e"
+MSF0240013,"\h(«Vyse»)Bueno, pensé que si supieran que les estamos
+haciendo un favor, sí que nos dejarían pasar.\e"
+MSF0240014,"\h(«Vyse»)Dejadnos pasar si no quieres que resultar
+herido.\e"
+MSF0240015,\h(«Guardián de Nasr»)¡¿Qué has dicho?!\e
+MSF0240016,"\h(«Gilder»)Bueno, bueno…… calmaos todos.\e"
+MSF0240017,"\h(«Gilder»)Señor…… guardia, éste de aquí es el Capitán
+Vyse, el único Pirata Aéreo que ha logrado
+entrar en la Gran Fortaleza.\e"
+MSF0240018,"\h(«Gilder»)Si no le deja pasar, se arrepentirá.
+¿Qué es eso que tiene sobre los hombros?\e"
+MSF0240019,"\h(«Soldado de Nasr»)¿Qué? ¿Es el Pirata Aéreo que escapó de la Gran
+Fortaleza?\e"
+MSF0240020,"\h(«Soldado de Nasr»)¡Pido…… pido perdón!
+No me…… ¡no sabía que estaba hablando con una
+leyenda viva! Perdonadme……\e"
+MSF0240021,"\h(«Guardián de Nasr»)¡Un momento!
+¡A…… Anunciaré su llegada!\e"
+MSF0240022,\h(«Vyse»)Gilder……\e
+MSF0240023,"\h(«Gilder»)Eh…… Se me dan bien este tipo de cosas.
+Déjamelo a mí.\e"
+MSF0240024,"\h(«Nasultán»)Así que tú eres el Pirata Aéreo que logró
+escapar de la Gran Fortaleza, ¿eh? Soy el
+Nasultán del Reino de Nasr. ¿Qué deseas de mí?\e"
+MSF0240025,"\h(«Vyse»)Valua planea un ataque sobre Nasrad.
+Ya están organizando a sus tropas.\e"
+MSF0240026,"\h(«Vyse»)¡Tienes que avisar a tu pueblo y convocar a tus
+tropas ahora mismo!\e"
+MSF0240027,"\h(«Nasultán»)¡¡¡JAJAJAJAJA!!!
+¿Has venido hasta aquí para decirme eso?\e"
+MSF0240028,"\h(«Nasultán»)No temas, nuestra Marina es lo bastante poderosa
+como para aplastar a la Armada.\e"
+MSF0240029,"\h(«Vyse»)Pero, Su Majestad…… no debería subestimarles.
+Reúna a sus tropas o se perderán muchas vidas
+inocentes.\e"
+MSF0240030,"\h(«Nasultán»)¡¡¡JAJAJAJA!!!
+Para ser un Pirata Aéreo te preocupa demasiado
+Nasr.\e"
+MSF0240031,"\h(«Nasultán»)Nasrad está protegida por montañas en el Sur y
+por arrecifes al Este. Es imposible que nos
+invadan.\e"
+MSF0240032,"\h(«Nasultán»)Si intentaran invadirnos, lo harían desde el
+Norte. Y ahí es donde están nuestras tropas.\e"
+MSF0240033,"\h(«Nasultán»)El Estrecho de Dannel Sur está debidamente
+resguardado y el remolino bloquea el Estrecho de
+Dannel Norte.\e"
+MSF0240034,"\h(«Nasultán»)En otras palabras, ¡es imposible que nos
+invadan! ¡Jajajaja!\e"
+MSF0240035,\h(«Vyse»)Pero……\e
+MSF0240036,"\h(«Nasultán»)No te preocupes…… Nasr está protegida por la
+Luna Roja. Valua no es un peligro.\e"
+MSF0240037,"\h(«Nasultán»)Y además, si alguien tan joven como tú puede
+escapar de la Armada, quizá estén perdiendo
+facultades.\e"
+MSF0240038,"\h(«Nasultán»)Imagínatelo…… ¡La que una vez fuera la poderosa
+Armada Valuan engañada por un muchacho!
+¡¡¡Jajajajaja!!!\e"
+MSF0240039,"\h(«Gilder»)Es inútil, Vyse. No creo que vaya a escuchar lo
+que vas a decirle. Vamos a dejar de perder el
+tiempo y busquemos la Isla de Daccat.\e"
+MSF0240040,"\h(«Vyse»)No lo sé. Parece demasiado confiado, pero espero
+por su bien que no se equivoque.
+Anda, vamos.\e"
+MF0290000,"\h(«Aika»)I was hoping to find a bunch of gold so I could 
+buy a big ship…\e"
+MF0290001,"\h(«Fina»)Haha…
+If we all work together, perhaps you will still 
+be able to buy one, Aika.\e"
+MF0290002,\h(«Gilder»)… Huh?\e
+MF0290003,\h(«Aika»)It's the Armada!!!\e
+MF0290004,\h(«Vyse»)How'd they get here?\e
+MF0290005,\h(«Vyse»)The Royal Palace!\e
+MF0290006,"\h(«Gilder»)Looks like they're trying to make an example out
+of Nasr.\e"
+MF0290007,"\h(«Gilder»)Vyse, if we just stand around here, we're all 
+dead. Head for the docks!\e"
+MFF0290000,"\h(«Aika»)J'espérais trouver un peu d'or pour pouvoir
+acheter un gros navire……\e"
+MFF0290001,"\h(«Fina»)Haha……
+Si nous participons tous, peut-être que nous
+pourrons quand même en acheter un, Aika.\e"
+MFF0290002,\h(«Gilder»)…… Hein ?\e
+MFF0290003,\h(«Aika»)C'est l'Armada !!!\e
+MFF0290004,\h(«Vyse»)Comment sont-ils arrivés ici ?\e
+MFF0290005,\h(«Vyse»)Le Palais Royal !\e
+MFF0290006,"\h(«Gilder»)On dirait qu'ils veulent donner l'exemple à
+Nasr.\e"
+MFF0290007,"\h(«Gilder»)Vyse, si nous restons ici, nous allons mourir.
+Allons aux docks !\e"
+MGF0290000,"\h(«Aika»)Ich hatte gehofft, einen Haufen Gold zu finden,
+damit ich ein großes Schiff kaufen kann……\e"
+MGF0290001,"\h(«Fina»)Haha……
+Wenn wir alle zusammenarbeiten, kannst du dir
+vielleicht doch eins kaufen, Aika.\e"
+MGF0290002,\h(«Gilder»)…… Äh?\e
+MGF0290003,\h(«Aika»)Die Armada!!!\e
+MGF0290004,\h(«Vyse»)Wie ist die denn hierher gekommen?\e
+MGF0290005,\h(«Vyse»)Der Königliche Palast!\e
+MGF0290006,"\h(«Gilder»)Sieht so aus, als wollten sie mit Nasr ein
+Exempel statuieren.\e"
+MGF0290007,"\h(«Gilder»)Vyse, wenn wir hier nur herumstehen, sind wir
+alle tot. Zu den Docks!\e"
+MSF0290000,"\h(«Aika»)Tenía la esperanza de encontrar un poco de oro
+para comprar un navío grande……\e"
+MSF0290001,"\h(«Fina»)Jaja……
+Si trabajamos unidos, quizá te puedas comprar
+uno, Aika.\e"
+MSF0290002,\h(«Gilder»)…… ¿Qué?\e
+MSF0290003,\h(«Aika»)¡¡¡Es la Armada!!!\e
+MSF0290004,\h(«Vyse»)¿Cómo vamos a llegar allí?\e
+MSF0290005,\h(«Vyse»)¡El Palacio Real!\e
+MSF0290006,"\h(«Gilder»)Parece que quieren dar un castigo ejemplar a
+Nasr.\e"
+MSF0290007,"\h(«Gilder»)Vyse, si seguimos aquí sentados, nos van a
+cazar. ¡Vamos hacia el puerto!\e"
+M06020000,"\h(«Ship Parts Merchant»)Hey there… how goes the sailing? I have cannons
+for all your destructive needs! Feel free to 
+take a look!\e"
+M06020001,"\h(«Aika»)Well… um… actually… we don't even have our
+own ship right now…\e"
+M06020002,"\h(«Ship Parts Merchant»)So what are you doing here… window shopping?
+I don't like window shoppers…\c"
+M06020003,\h(«Ship Parts Merchant»)No window shopping allowed!!\c
+M06020004,"\h(«Ship Parts Merchant»)Hey there… how's the sailing going?
+Perhaps you'd like to buy a huge cannon to blow
+your enemies out of the sky?\e"
+M06020005,"\h(«Vyse»)Well… we don't actually have our own ship right
+now, so there's really no point in us buying
+anything…\c"
+M06020006,"\h(«Ship Parts Merchant»)So what are you doing here… window shopping?
+I don't like window shoppers…\c"
+M06020007,\h(«Ship Parts Merchant»)No window shopping allowed!!\c
+M06030000,"\h(«Guildmaster»)Welcome to the Sailors' Guild. We pay very well
+for information on Discoveries!\e"
+M06030001,"\h(«Aika»)We have no money and no ship… I don't think we
+have time to look for Discoveries…\e"
+M06030002,"\h(«Guildmaster»)Hm… That may be a problem.
+If you have no money, you can always go to the 
+moneylender and borrow some.\e"
+M06030003,"\h(«Guildmaster»)There's a moneylender here in this town named
+Osman. Just look for the building with a picture
+of a pink cat.\c"
+M06030004,"\h(«Guildmaster»)There's a moneylender here in this town named
+Osman. Just look for the building with a picture
+of a pink cat.\c"
+M06030005,"\h(«Guildmaster»)Welcome to the Sailors' Guild. We pay very well
+for information on Discoveries!\e"
+M06030006,"\h(«What will you do?»)“Buy and sell Discoveries information.”
+“Talk about various things.”
+“Leave.”\e"
+M06030007,"\h(«Guildmaster»)Actually, there was a cute girl that just came
+by here saying that she didn't have any money or
+a ship, either.\e"
+M06030008,"\h(«Guildmaster»)I told her to go talk to the money lender,
+Osman… I wonder if she's doing alright…\e"
+M06030009,"\h(«Guildmaster»)You have the Treasure Map of Daccat?
+I wonder what it will look like this time!\e"
+M06030010,"\h(«Guildmaster»)I have over 100 versions of the Treasure Map of
+Daccat! Heh… I have never actually seen the
+real one yet.\c"
+M06030011,"\h(«Guildmaster»)Every major port city has an office branch of
+the Sailors' Guild. Make sure you stop on by.\c"
+M06230000,"\h(«Innkeeper»)Welcome! This inn is 240 gold a night.
+Would you like a room?\e"
+M06230001,"\h(«Aika»)Um… We've actually been shipwrecked and we have
+no money. I'm trying to find a way to raise
+money, but…\e"
+M06230002,"\h(«Innkeeper»)Bah… You girls look like good kids.
+I trust you. I will start a tab, and you two can
+settle it when you leave, okay?\e"
+M06230003,"\h(«What will you do?»)“Stay the night.”
+“Leave.”\e"
+M06230004,"\h(«Innkeeper»)You can use the room all the way in the back on
+the second floor. I hope you sleep well.\c"
+M06230005,"\h(«Innkeeper»)I see.
+Well, do not push yourselves too hard.
+If you tire, come back here and rest.\c"
+M06230006,"\h(«Innkeeper»)Welcome back!
+I bet you're tired…\e"
+M06230007,"\h(«Innkeeper»)Welcome! This inn is 240 gold a night. 
+Would you like a room?\e"
+M06230008,"\h(«What will you do?»)“Stay the night.”
+“Leave.”\e"
+M06230009,"\h(«Innkeeper»)You can use the room at the top of the stairs on
+the second floor. I hope you sleep well.\c"
+M06230010,"\h(«Innkeeper»)I trust you slept well.
+May the Red Moon light your way.\c"
+M06230017,"\h(«Innkeeper»)Hm? It appears that you lack enough gold. I am
+very sorry, but you will have to come back later
+when you have saved up a little more.\c"
+M06230018,"\h(«Vyse»)Oh… damn.
+I don't even have enough money to get a room.\e"
+M06230019,"\h(«Vyse»)Oh well… I guess you can get the money from my
+friend who should be coming by later. His name 
+is Gilder and he's wearing red clothing.\e"
+M06230020,"\h(«Innkeeper»)Oh, you are Gilder's friend? He comes here
+often. Do not worry about it… I trust you. I 
+will ask him for the money later.\e"
+M06230021,"\h(«Innkeeper»)Go ahead and use the room directly at the top of
+the stairs. I hope you enjoy your stay here in
+Nasrad.\c"
+M06230011,"\h(«Innkeeper»)I see.
+Well, try not to push yourselves too hard.
+If you tire, come back here and rest.\c"
+M06230012,"\h(«Innkeeper»)Welcome back!
+You must be tired.\e"
+M06230013,"\h(«What will you do?»)“Stay the night.”
+“Leave.”\e"
+M06230014,"\h(«Innkeeper»)You can use the room at the top of the stairs on
+the second floor. I hope you sleep well.\c"
+M06230015,"\h(«Innkeeper»)Did you sleep well? I wish you safe travels!
+May the Red Moon light your way.\c"
+M06230016,"\h(«Innkeeper»)I see.
+Well, try not to push yourselves too hard. If 
+you tire, come back here and rest.\c"
+M06250000,"\h(«Weapons Merchant»)Welcome to Nasr's weapon store!
+We offer the same mighty weapons that Nasr 
+soldiers use!\e"
+M06250001,"\h(«Aika»)Hm… I'd like to buy some, but I don't have any
+money right now.\e"
+M06250002,"\h(«Weapons Merchant»)Well, you cannot really buy anything then.
+Sorry… But please come back when your purse is
+a little heavier!\c"
+M06250003,"\h(«Weapons Merchant»)Well, you cannot really buy anything then. 
+Sorry… But please come back when your purse is
+a little heavier!\c"
+M06250004,"\h(«Weapons Merchant»)Welcome to Nasr's weapon store!
+We offer the same mighty weapons that Nasr 
+soldiers use!\e"
+M06250005,"\h(«What will you do?»)“Buy and sell weapons.”
+“Talk about various things.”
+“Leave.”\e"
+M06250006,"\h(«Weapons Merchant»)Ha ha ha, you say Valua will attack? I have 
+heard that Valuan forces have been unusually 
+active lately.\e"
+M06250007,"\h(«Weapons Merchant»)But there is no way Valuan forces can ever break
+through the Nasrean fleet. There is no way to
+reach this city.\c"
+M06250008,\h(«Weapons Merchant»)May the Red Moon be with you! Come again!\c
+M06250009,"\h(«Weapons Merchant»)Welcome! This is the Arms Shop. We have all
+sorts of weapons here. The quality is top
+notch! Even the Nasr guards use my weapons!\e"
+M06250010,"\h(«What will you do?»)“Buy and sell weapons.”
+“Talk about various things.”
+“Leave.”\e"
+M06250011,"\h(«Weapons Merchant»)Oh, hey! You girls work over at the tavern,
+right? I have been there several times since you
+two started.\e"
+M06250012,"\h(«Weapons Merchant»)What? You quit? That is unfortunate. You guys 
+were starting to build up quite a little fan
+club over there.\c"
+M06250013,"\h(«Weapons Merchant»)Thank you very much!
+I hope you come again!\c"
+M06260000,"\h(«Nasr Merchant»)Oh! Young lady!
+You were the girl that…
+It has been many moons.\e"
+M06260001,"\h(«Nasr Merchant»)It is I… You and your friend escorted me to the
+Nasr border a little while back.\e"
+M06260002,"\h(«Nasr Merchant»)Speaking of which, where is your friend?
+You know, the one with the eye patch.
+Are you not traveling with him anymore?\e"
+M06260003,"\h(«Aika»)Oh, you mean Vyse?
+Well… it's a long story, but we were separated.\e"
+M06260004,"\h(«Nasr Merchant»)Oh… I understand.
+Perhaps you had a… um… difference of opinion.\e"
+M06260005,"\h(«Aika»)Well, no… actually, that's not it.\e"
+M06260006,"\h(«Nasr Merchant»)You do not have to pretend. It is said that the
+closer you are to one, the more they make you
+angry! Hahaha!\c"
+M06260022,"\h(«Nasr Merchant»)Well, here… take this. I want you to have it.
+Consider it a token of my gratitude.\e"
+M06260023,\h( )You received 1 “Abirik Cham.”\e
+M06260024,"\h(«Nasr Merchant»)I thought that a Moon Stone shard as beautiful
+as this would be fitting for ladies such as
+yourselves.\c"
+M06260007,"\h(«Nasr Merchant»)It is okay to fight, just be sure to make up
+afterwards! Hahaha…\c"
+M06260008,"\h(«Nasr Merchant»)Oh, young lad! It has been quite a long time!\e"
+M06260009,"\h(«Nasr Merchant»)It is I, the merchant you helped to the border 
+of Nasr!\e"
+M06260010,"\h(«Nasr Merchant»)Well, I see you still are not traveling with 
+your female friends… Perhaps you still have not
+made up.\e"
+M06260011,"\h(«Vyse»)Huh? Made up?
+What are you talking about?\e"
+M06260012,"\h(«Nasr Merchants»)Do not worry… I know, I know.
+There is no need to hide a thing. Just be sure
+to make up.\c"
+M06260013,"\h(«Nasr Merchant»)It is okay to fight, just be sure to make up 
+afterwards! Hahaha…\c"
+M06260014,"\h(«Nasr Merchant»)Oh, is it not the young lad with the eye patch? 
+It has been a while!\e"
+M06260015,"\h(«Nasr Merchant»)It is I, the merchant that you escorted to the
+Nasr border!\e"
+M06260016,"\h(«Nasr Merchant»)Hm? I could have sworn that you were traveling
+with a girl with braids when you escorted me
+here…\e"
+M06260017,"\h(«Vyse»)Oh, yeah…
+Well, it's a long story, but we were separated.\e"
+M06260018,"\h(«Nasr Merchant»)Oh… I understand.
+Perhaps you two got into an argument.\e"
+M06260019,"\h(«Vyse»)N, no…
+It's not like that, you see…\e"
+M06260020,"\h(«Nasr Merchant»)I know, I know. You do not have to hide 
+a thing. It is said that the closer you are to 
+one, the more they make you angry! Hahaha…\c"
+M06260021,"\h(«Nasr Merchant»)It is okay to fight, just be sure to make up
+afterwards! Hahaha…\c"
+M06270000,"\h(«Item Merchant»)Hello and welcome!
+This is the Nasultan's very own item shop!
+We offer all kinds of high quality goods!\e"
+M06270001,"\h(«Aika»)Hm…
+I would like to buy something, but I don't have
+any money right now…\e"
+M06270002,"\h(«Item Merchant»)I suppose that may be a problem.
+Well, please come back when you do!\c"
+M06270003,"\h(«Item Merchant»)I cannot sell you anything if you do not have
+money! Come back when you do!\c"
+M06270004,"\h(«Item Merchant»)Hello and welcome!
+This is the Nasultan's very own item shop!
+We offer all kinds of high quality goods!\e"
+M06270005,"\h(«What will you do?»)“Buy and sell items.”
+“Talk about various things.”
+“Leave.”\e"
+M06270006,"\h(«Item Merchant»)The Nasultan has many wives… and they all live
+in the palace together.\e"
+M06270007,"\h(«Item Merchant»)The Nasultan only worries when his wives argue 
+with one another. He does not concern himself 
+with the activities of Valua.\e"
+M06270008,"\h(«Item Merchant»)Thank you!
+And may the Red Moon guide your path!\c"
+M06280000,"\h(«Tavernkeep»)Welcome, young lady.
+Please, come in and relax!\e"
+M06280001,"\h(«Tavernkeep»)Nasr is the center of trade! We have beverages
+from the far corners of the world! Anything you
+may wish, we probably have!\c"
+M06280002,"\h(«Tavernkeep»)Welcome, young lad.
+Please, come in and relax!\e"
+M06280003,"\h(«Tavernkeep»)Heh… You are unlucky. Up until yesterday, I had
+two very cute girls working here… but they
+quit. Very unfortunate.\c"
+M06280004,"\h(«Tavernkeep»)Oh! It is you.
+Here you are… this is your pay. You earned it.\e"
+M06280017,"\h(«Tavernkeep»)You both worked very hard, so I decided to help
+you out with a little extra bonus. Thank you for
+everything!\e"
+M06280016,\h( )You received your “Wages.”\e
+M06280018,"\h( )You also received
+4 “Sacres Crystal” and 1 “Cham.”\e"
+M06280005,"\h(«Aika»)Wow! Thanks! With this, we finally have the
+10,000 gold that we need to buy a ship!\e"
+M06280006,"\h(«Gilder»)Well, well! I didn't know you had such pretty
+girls working here!\e"
+M06280007,"\h(«Tavernkeep»)Gilder, you scoundrel… Keep your hands off the 
+help, okay?\e"
+M06280008,"\h(«Gilder»)They just stopped working here, right?
+You don't need to get so protective…\e"
+M06280009,"\h(«Tavernkeep»)Some things never change…
+Gilder, you never were one to resist a pretty
+face…\e"
+M06280010,"\h(«Tavernkeep»)Aika… Fina… Be careful out there! You better
+take care of yourselves!\e"
+M06280111,"\h(«Aika»)Thanks for everything!
+Alright Fina, let's go back to the inn and
+pay off our bill!\c"
+M06280011,"\h(«Tavernkeep»)If you ever change your mind, you are more than
+welcome to work here whenever you want!\c"
+M06280012,"\h(«Tavernkeep»)Welcome, young lad!
+Please, sit down and relax!\e"
+M06280013,"\h(«Tavernkeep»)Nasr is the center of trade! We have loquas from
+the far corners of the world! Any loqua you may
+wish, we probably have!\c"
+M06280014,"\h(«Tavernkeep»)Aika! Fina!
+How have you ladies been? Please, relax and 
+enjoy yourselves while you are here!\c"
+M06280015,"\h(«Tavernkeep»)If you ever wish it, you guys are more than
+welcome to work here again.\c"
+M06290000,"\h(«Depressed Man»)I heard the Empress of Valua was once a
+beautiful woman…\e"
+M06290001,"\h(«Depressed Man»)But that Empress is nothing but a power hungry
+old hag now. Even the prince ran away from her!\c"
+M06290002,"\h(«Depressed Man»)Huh? Valua is launching an attack? Our border
+guards will take care of them… We don't have
+anything to worry about…\e"
+M06290003,"\h(«Depressed Man»)But I heard that one of the admirals of the
+Valuan Armada is a beauty.\c"
+M06300000,"\h(«Sailor»)The loqua and food at this joint are pretty
+good, but the problem is they lack pretty
+girls.\e"
+M06300001,"\h(«Sailor»)Gazing into the eyes of that ruddy-faced
+tavernkeep doesn't do much for my tired bones.\c"
+M06300002,"\h(«Sailor»)Wait a minute! What happened to those two girls 
+who were here before? Yoo-hoo… Where are you, 
+pretty girls?\e"
+M06300003,"\h(«Sailor»)A couple of real cute chicks work here usually,
+but I don't see them around today.\c"
+M06300004,"\h(«Sailor»)Hey there, pretty girls! Where've you been off
+to?!\e"
+M06300005,"\h(«Sailor»)The only reason I come to this joint is to see 
+you two, so you gotta be here when I come!\c"
+M06300006,"\h(«Sailor»)The only reason I come to this joint is to see 
+you two, so you gotta be here when I come!\c"
+M06310000,"\h(«Osman»)Salutations! I am the owner of this business. 
+People call me Osman.\e"
+M06310001,"\h(«Osman»)I am what you call a financier, which is to say,
+a moneylender. If you are in need of gold, I can
+help you.\e"
+M06310002,"\h(«Aika»)Will you really? Our ship was destroyed in a
+shipwreck, so we need to buy a new one.\e"
+M06310003,"\h(«Aika»)Could you lend us enough money to buy a new
+ship? We promise we'll pay it back.\e"
+M06310004,"\h(«Osman»)A shipwreck! My goodness! That must have been
+terrifying! But you will have to excuse my 
+asking… What will you offer as collateral?\e"
+M06310005,"\h(«Aika»)Co, collateral? But we only barely escaped with 
+the clothes on our back. We've got nothing to 
+our names.\e"
+M06310006,"\h(«Osman»)Shop manager! Please show these customers to the
+door!\e"
+M06310007,"\h(«Aika»)What's this about, all of a sudden? I said we'd
+pay you back. We may not have any collateral,
+but you can trust us.\e"
+M06310008,"\h(«Osman»)I am not running a charity! I will do business 
+with anyone if it will make me even a single 
+piece of gold…\e"
+M06310009,"\h(«Osman»)but I'll turn even the Nasultan away if it
+looks like I could take a loss. \e"
+M06310010,"\h(«Osman»)After all, money is my very life! O precious, 
+precious money! Be on your way! Be on your way!\c"
+M06310011,"\h(«Osman»)You won't find me lending money to just any
+young lass without collateral. Be on your way,
+I say. Be on your way!\c"
+M06310012,"\h(«Osman»)Salutations! I am the owner of this business. 
+People call me Osman.\e"
+M06310013,"\h(«Osman»)I am what you call a financier, which is to say,
+a moneylender. If you are in need of gold, I can
+help you.\e"
+M06310014,"\h(«Vyse»)Really? You say you'll lend money?
+I could sure use a new pirate ship.\e"
+M06310015,"\h(«Osman»)P, p, pirate? Clerk! Please show this
+lad to the door!\e"
+M06310016,"\h(«Osman»)You will never find me lending money to any fool
+who calls himself an Air Pirate! Not one piece
+of gold will he receive!\e"
+M06310017,"\h(«Osman»)After all, money is my very life! O precious, 
+precious money! Be on your way! Be on your 
+way!\c"
+M06310018,"\h(«Osman»)You will never find me lending money to any fool
+who calls himself an Air Pirate! Not one piece
+of gold will he receive!\c"
+M06310019,"\h(«Osman»)Welcome!
+I am the owner of this shop, Osman.\e"
+M06310020,"\h(«Osman»)I am the moneylender here in Nasrad. So, if you
+are in dire need of assistance, you have come to
+the right place… if I deem you worthy, that is.\e"
+M06310021,"\h(«Aika»)Moneylender? Well… actually, we bought a small
+ship to go looking for Vyse and Cap'n Drachma,
+but I'm still a little worried.\e"
+M06310022,"\h(«Aika»)I wish we had enough money to buy a real Air
+Pirate ship. One with cannons and stuff. But, I
+suppose we'd need A LOT more money for that…\c"
+M06310023,"\h(«Osman»)A, Air Pirates?!
+Remove yourselves from my shop!
+I do not deal with thieves!!!\e"
+M06310024,"\h(«Osman»)I would never lend money to a thief! I would
+never get any of my precious money back! You
+would probably just run off with it!!\e"
+M06310025,"\h(«Osman»)My beautiful money is too precious to just give
+away to the likes of you!!
+Now go away!!!\c"
+M06310026,"\h(«Osman»)I would never lend money to a thief! I would
+never get any of my precious money back! You
+would probably just run off with it!!\c"
+M06320000,"\h(«Osman's Clerk»)Hello, hello! Welcome to Osman Financial.\e"
+M06320001,"\h(«Osman's Clerk»)The owner, Osman, is in the back room.\c"
+M06320002,"\h(«Osman's Clerk»)The owner, Osman, is in the back room.\c"
+M06330000,"\h(«Nasr Soldier»)To the west are two straits that connect to
+Mid Ocean.\e"
+M06330001,"\h(«Nasr Soldier»)If Valua were to attack, it would no doubt come 
+by way of one of those straits… Most likely 
+the South Dannel Strait.\e"
+M06330002,"\h(«Nasr Soldier»)But the strait is constantly guarded by Nasr's 
+best naval fleet. It is absolutely impenetrable.\e"
+M06330003,"\h(«Nasr Soldier»)What about the North Dannel Strait, you ask?
+A turbulent sky rift makes that place a death
+trap for ships.\e"
+M06330004,"\h(«Nasr Soldier»)A ship has not been built that could make it 
+safely through the North Dannel, so there is no 
+need to guard it at all.\c"
+M06330005,"\h(«Nasr Soldier»)The defenses of the city of Nasrad are 
+flawless. We have absolutely nothing to fear 
+from Valua's scrap heap of a naval fleet!\c"
+M06400000,"\h(«Nasr Palace Guard»)This is the Nasultan's palace. No unauthorized 
+person is permitted to enter!\c"
+M06400001,"\h(«Nasr Palace Guard»)This is the Nasultan's palace. No unauthorized 
+person is permitted to enter!\c"
+M06400002,"\h(«Nasr Palace Guard»)You can count on the palace guard to defend the 
+capital!\c"
+M06410000,"\h(«Nasr Palace Guard»)This is the Nasultan's palace. No tourists 
+allowed!\c"
+M06410001,"\h(«Nasr Palace Guard»)This is the Nasultan's palace. No tourists 
+allowed!\c"
+M06410002,"\h(«Nasr Palace Guard»)It is unthinkable that our capital could ever be
+second to Valua!\c"
+M06420000,"\h(«Nasr Soldier»)Behold, our beautiful capital! No two cities 
+could be more different than our fair city and 
+Valua's slag heap of a town!\e"
+M06420001,"\h(«Nasr Soldier»)So long as our Nasr forces exist, we will never 
+let the likes of Valua lay a single finger upon 
+our fair city!\c"
+M06430000,"\h(«Young Maiden»)We're lovey-dovey sweethearts. Every day we meet
+at the fountain and go to the bazaar together.\e"
+M06430001,"\h(«Young Man»)At the bazaar in Nasrad, you can find exotic
+goods that have been brought here from all over
+the world.\e"
+M06430002,"\h(«Young Maiden»)So I see one item after another that I just
+cannot live without! And he is so sweet, he buys
+me anything I wish!\e"
+M06430003,"\h(«Young Man»)For you, I would spend every last gold piece I 
+had without the least regret. I love you, honey!\c"
+M06450000,"\h(«Man»)I hear there has been much unusual activity over
+Valua way lately. I wonder if we are going to
+have another war?\e"
+M06450001,"\h(«Man»)We have the Nasr Army to protect us, though, so
+I do not think they will ever actually reach
+this city.\c"
+M06460000,"\h(«Woman»)Hello! A long time ago, this town was a huge
+oasis known as the City in the Sand.\e"
+M06460001,"\h(«Woman»)Nasrad was founded by a wealthy merchant. He 
+used the oasis as his base, and built a palace 
+with a wall around it.\e"
+M06460002,"\h(«Woman»)That merchant became the first Nasultan, which 
+is the king of Nasr.\c"
+M06470000,"\h(«Girl»)Somewhere… high above the skies of Nasr…
+A beautiful rainbow stretches through the
+clouds…\c"
+M06480000,"\h(«Sailor»)Yikes! The ship's getting ready to leave!
+Let me see, I already bought fuel.
+Oh, I know! A change of underwear!\e"
+M06480001,"\h(«Sailor»)Now, where would they sell underwear? At the
+weapons shop? Ai-yi-yi, I better get a move on!\c"
+M06480002,"\h(«Sailor»)Yikes! The ship's getting ready to leave!
+Let me see, I already bought underwear.
+Oh, I know! Some pickled squid for a gift!\e"
+M06480003,"\h(«Sailor»)Now, where would they sell pickled squid?
+At the bazaar? At the item merchant?
+Ai-yi-yi, I better get a move on!\c"
+M06490000,"\h(«Gilder»)Hey there, Vyse. I am going to have a few more
+drinks, so go on back to the inn by yourself.\c"
+M06490001,"\h(«Gilder»)This must be my lucky day! I come ashore and the
+first people I meet are you fair maidens!\e"
+M06490002,"\h(«Gilder»)Let me introduce myself. I'm called Gilder. 
+Perhaps you'll do me the favor of remembering my
+name, fair maidens!\c"
+M90390000,"\h(«Mystery Merchant»)Hy-ho-o-o! I am the Mystery Merchant! I travel 
+all around the world, selling my wares!\e"
+M90390001,"\h(«Mystery Merchant»)All that I offer is rare and wondrous. Come,
+come, have a look.\e"
+M90390002,"\h(«What will you do?»)“Buy and sell items.”
+“Talk about various things.”
+“Leave.”\e"
+M90390003,"\h(«Mystery Merchant»)Somewhere in this world, there exists an island
+upon which grows a very expensive spice called
+“Pepper.”\c"
+M90390004,"\h(«Mystery Merchant»)Thank you very much.
+I be happy we meet again someday.\c"
+M06030200,"\h(«Guildmaster»)I hear that you defeated one of the bounties!
+Well done! Here is your reward! You earned it!\e"
+M06030201,"\h(«Guildmaster»)Here you go! Your reward for your work. I've
+heard quite a bit about you lately. Keep up the
+good work. I'm counting on you.\e"
+M06030202,"\h(«Guildmaster»)Y, you defeated everyone on the Wanted List!
+Thanks to you, people can sail the skies freely
+and safely! It isn't much, but here. Take this.\e"
+M06030203,"\h(«Guildmaster»)Wait just a minute. I almost forgot. Here…
+This came here addressed to you.\e"
+M06030204,\h( )You received a “Black Spot.”\e
+M06030205,"\h(«Guildmaster»)It's a message from the Angel of Death…
+Sounds like you're in trouble. Better watch
+your back out there.\e"
+Mwanted00,"\h( )You received 1,000 gold for defeating
+“Baltor the Black Bearded.”\e"
+Mwanted01,"\h( )You received 2,000 gold for defeating
+“Rupee of the Larso Clan.”\e"
+Mwanted02,"\h( )You received 4,000 gold for defeating
+“Gordo the Round.”\e"
+Mwanted03,"\h( )You received 5,000 gold for defeating
+“Loose Cannon Lapen.”\e"
+Mwanted04,"\h( )You received 8,000 gold for defeating
+“The Ixa'ness Demons.”\e"
+Mwanted05,"\h( )You received 20,000 gold for defeating
+“Vize the Imposter.”\e"
+Mwanted06,"\h( )You received 20,000 gold for defeating
+“Daikokuya the Wealthy.”\e"
+Mwanted07,"\h( )You received 30,000 gold for defeating
+“Lord Zivilyn Bane.”\e"
+M06020010,"\h(«Aika»)Well… um… actually… we don't even have our
+ship whose equipment is possible…\e"
+MF06020000,"\h(«Armateur»)Hé vous…… Comment se passent vos voyages ? J'ai
+des canons pour détruire tout ce que vous
+voulez  ! N'hésitez pas à jeter un oeil !\e"
+MF06020001,"\h(«Aika»)Euh…… um…… en fait…… nous n'avons même pas notre
+propre navire pour le moment……\e"
+MF06020002,"\h(«Armateur»)Alors que faites-vous ici…… du lèche-vitrine ?
+Je n'aime pas les gens qui se contentent de
+regarder……\c"
+MF06020003,\h(«Armateur»)Le lèche-vitrine est interdit !!\c
+MF06020004,"\h(«Armateur»)Hé vous…… Comment se passent vos voyages ?
+Vous voudriez peut-être acheter un gros canon
+pour faire exploser vos ennemis dans les airs ?\e"
+MF06020005,"\h(«Vyse»)Eh bien…… en fait, nous n'avons même pas notre
+propre navire, donc c'est inutile d'acheter
+quoique ce soit……\c"
+MF06020006,"\h(«Armateur»)Alors que faites-vous ici…… du lèche-vitrine ?
+Je n'aime pas les gens qui se contentent de
+regarder……\c"
+MF06020007,\h(«Armateur»)Le lèche-vitrine est interdit !!\c
+MF06030000,"\h(«Maître de Confrérie»)Bienvenue à la confrérie des Marins. Nous payons
+cher les informations sur les Découvertes !\e"
+MF06030001,"\h(«Aika»)Nous n'avons ni argent, ni navire…… je ne crois
+pas que nous ayons le temps de faire des
+Découvertes……\e"
+MF06030002,"\h(«Maître de Confrérie»)Hum…… Cela risque de poser un problème.
+Si vous n'avez pas d'argent, vous pouvez
+toujours emprunter de l'argent au prêteur sur
+gages.\e"
+MF06030003,"\h(«Maître de Confrérie»)Il y a une prêteuse sur gages dans cette ville,
+elle s'appelle Osman. Chercher un bâtiment où
+un chat rose est dessiné.\c"
+MF06030004,"\h(«Maître de Confrérie»)Il y a une prêteuse sur gages dans cette ville,
+elle s'appelle Osman. Chercher un bâtiment où
+un chat rose est dessiné.\c"
+MF06030005,"\h(«Maître de Confrérie»)Bienvenue à la confrérie des Marins. Nous payons
+cher les informations sur les Découvertes !\e"
+MF06030006,"\h(«Que faites-vous ?»)“Vous vendrez et achèterez des informations.”
+“Vous discutez.”
+“Vous partez.”\e"
+MF06030007,"\h(«Maître de Confrérie»)En fait, une jolie fille vient juste de passer.
+Elle a dit qu'elle n'avait ni argent, ni
+navire.\e"
+MF06030008,"\h(«Maître de Confrérie»)Je lui ai dit d'aller parler à la prêteuse sur
+gages, Osman…… Je me demande si elle l'a
+trouvée……\e"
+MF06030009,"\h(«Maître de Confrérie»)Vous avez la Carte du Trésor de Daccat ?
+Je me demande comment elle se présente cette
+fois !\e"
+MF06030010,"\h(«Maître de Confrérie»)J'ai 100 versions différentes de la Carte du
+Trésor de Daccat ! Mais je n'ai jamais vu la
+vraie.\c"
+MF06030011,"\h(«Maître de Confrérie»)Vous trouverez un bureau de la Confrérie des
+Marins dans tous les grands ports. N'oubliez pas
+d'y passer.\c"
+MF06230000,"\h(«Aubergiste»)Bienvenue ! C'est 240 pièces d'or la nuit dans
+cette auberge. Voulez-vous une chambre ?\e"
+MF06230001,"\h(«Aika»)Um…… Nous avons fait naufrage et nous n'avons
+pas d'argent. Je cherche un moyen de gagner de
+l'argent, mais……\e"
+MF06230002,"\h(«Aubergiste»)Bah…… Vous avez l'air d'être des filles bien.
+Je vous fais confiance. Je mettrai tout sur
+votre note, et vous pouvez la payer en partant,
+d'accord ?\e"
+MF06230003,"\h(«Que faites-vous ?»)“Vous passerez la nuit ici.”
+“Vous partez.”\e"
+MF06230004,"\h(«Aubergiste»)Vous pouvez prendre la chambre tout au fond au
+deuxième étage. Dormez bien.\c"
+MF06230005,"\h(«Aubergiste»)Je vois.
+Bon, ne vous fatiguez pas trop.
+Sinon, revenez ici vous reposer.\c"
+MF06230006,"\h(«Aubergiste»)Bienvenue !
+Je parie que vous êtes fatigués……\e"
+MF06230007,"\h(«Aubergiste»)Bienvenue ! C'est 240 pièces d'or la nuit dans
+cette auberge. Voulez-vous une chambre ?\e"
+MF06230008,"\h(«Que faites-vous ?»)“Vous passerez la nuit ici.”
+“Vous partez.”\e"
+MF06230009,"\h(«Aubergiste»)Vous pouvez prendre la chambre tout au fond au
+deuxième étage. Dormez bien.\c"
+MF06230010,"\h(«Aubergiste»)Je vois que vous avez bien dormi.
+Que la Lune Rouge illumine votre chemin.\c"
+MF06230017,"\h(«Aubergiste»)Hum ? Vous n'avez pas l'air d'avoir assez d'or.
+Je suis désolé, mais vous devrez revenir plus
+tard quand vous aurez économisé un peu plus.\c"
+MF06230018,"\h(«Vyse»)Oh…… bon sang. Je n'ai même pas assez d'argent
+pour une chambre.\e"
+MF06230019,"\h(«Vyse»)Oh bon…… Je suppose que mon ami peut vous donner
+l'argent plus tard. Il s'appelle Gilder et il
+porte des vêtements rouges.\e"
+MF06230020,"\h(«Aubergiste»)Oh, vous êtes l'ami de Gilder ? Il vient souvent
+ici. Ne vous inquiétez pas…… Je vous fais
+confiance. Je lui demanderai de me payer plus
+tard.\e"
+MF06230021,"\h(«Aubergiste»)Vous pouvez prendre la chambre en haut des
+escaliers. J'espère que vous passerez un bon
+séjour à Nasrad.\c"
+MF06230011,"\h(«Aubergiste»)je vois.
+Bon, ne vous fatiguez pas trop.
+Sinon revenez ici vous reposer.\c"
+MF06230012,"\h(«Aubergiste»)Bienvenue !
+Vous devez être fatigué.\e"
+MF06230013,"\h(«Que faites-vous ?»)“Vous passerez la nuit ici.”
+“Vous partez.”\e"
+MF06230014,"\h(«Aubergiste»)Vous pouvez prendre la chambre en haut des
+escaliers. Dormez bien.\c"
+MF06230015,"\h(«Aubergiste»)Avez-vous bien dormi ? Faites bon voyage !
+Que la Lune Rouge illumine votre chemin.\c"
+MF06230016,"\h(«Aubergiste»)Je vois.
+Bon, ne vous fatiguez pas trop.
+Sinon revenez ici vous reposer.\c"
+MF06250000,"\h(«Armurier»)Bienvenue dans l'Armurerie de Nasr !
+Nous offrons les mêmes armes puissantes que
+celles utilisées par les soldats de Nasr !\e"
+MF06250001,"\h(«Aika»)Hum…… J'aimerais en acheter, mais je n'ai pas
+d'argent pour le moment.\e"
+MF06250002,"\h(«Armurier»)Bon, vous ne pouvez rien acheter alors.
+Désolé…… Mais revenez quand vous aurez plus
+d'argent !\c"
+MF06250003,"\h(«Armurier»)Bon, vous ne pouvez rien acheter alors.
+Désolé…… Mais revenez quand vous aurez plus
+d'argent !\c"
+MF06250004,"\h(«Armurier»)Bienvenue dans l'Armurerie de Nasr !
+Nous offrons les mêmes armes puissantes que
+celles utilisées par les soldats de Nasr !\e"
+MF06250005,"\h(«Que faites-vous ?»)“Vous achetez et vendrez des armes”
+“Vous discutez.”
+“Vous partez.”\e"
+MF06250006,"\h(«Armurier»)Ha ha ha, vous dites que Valua va attaquer ? On
+raconte que les forces Valuannes sont très
+actives ces derniers temps, c'est inhabituel.\e"
+MF06250007,"\h(«Armurier»)Mais il n'y a aucune chance pour que les forces
+Valuannes passent la flotte Nasreane. Cette
+ville est impénétrable.\c"
+MF06250008,"\h(«Armurier»)Que la Lune Rouge soit avec vous ! Repassez un
+jour !\c"
+MF06250009,"\h(«Armurier»)Bienvenue dans l'armurerie ! Nous vendons toutes
+sortes d'armes ici, de qualité irréprochable !
+Même les gardes Nasr se servent de mes armes !\e"
+MF06250010,"\h(«Que faites-vous ?»)“Vous achetez et vendrez des armes”
+“Vous discutez.”
+“Vous partez.”\e"
+MF06250011,"\h(«Armurier»)Oh, hé les filles ! Vous travaillez à la
+taverne, n'est-ce pas ? J'y suis allé plusieurs
+fois depuis que vous avez commencé.\e"
+MF06250012,"\h(«Armurier»)Quoi ? Vous avez démissionné ? C'est dommage.
+Vous commenciez à avoir un sacré fan club.\c"
+MF06250013,"\h(«Armurier»)Merci beaucoup !
+J'espère que vous repasserez !\c"
+MF06260000,"\h(«Marchand de Nasr»)Oh ! Jeune fille !
+C'est vous la fille qui……
+Cela fait plusieurs lunes.\e"
+MF06260001,"\h(«Marchand de Nasr»)C'est moi…… Vous et votre ami m'aviez escorté
+jusqu'à la frontière Nasr, il y a quelques temps
+de cela.\e"
+MF06260002,"\h(«Marchand de Nasr»)En parlant de lui, où est votre ami ?
+Vous savez, celui qui a le cache-oeil.
+Vous ne voyagez plus ensemble ?\e"
+MF06260003,"\h(«Aika»)Oh, vous voulez dire Vyse ?
+Bon…… c'est une longue histoire, mais nous avons
+été séparés.\e"
+MF06260004,"\h(«Marchand de Nasr»)Oh…… je comprends.
+Peut-être que vous avez eu…… um…… un différend.\e"
+MF06260005,"\h(«Aika»)Euh, non…… pas du tout, en fait.\e"
+MF06260006,"\h(«Marchand de Nasr»)Inutile de faire semblant. On dit que plus l'on
+est proche des gens, et plus ils vous énervent
+! Hahaha!\c"
+MF06260022,"\h(«Marchand de Nasr»)Bon, voilà…… prenez cela. Cela me fait plaisir.
+En témoignage de ma gratitude.\e"
+MF06260023,\h( )vous avez reçu “Abirik Cham” x 1 !\e
+MF06260024,"\h(«Marchand de Nasr»)Je pensais qu'un tesson de Pierre de Lune aussi
+beau conviendrait à des dames comme vous.\c"
+MF06260007,"\h(«Marchand de Nasr»)Ce n'est pas grave de se battre, mais il faut
+faire la paix après ! Hahaha……\c"
+MF06260008,"\h(«Marchand de Nasr»)Oh, jeune homme ! Je ne t'ai pas vu depuis
+longtemps !\e"
+MF06260009,"\h(«Marchand de Nasr»)C'est moi, le marchand que vous avez raccompagné
+jusqu'à la frontière de Nasr !\e"
+MF06260010,"\h(«Marchand de Nasr»)Tiens, je vois que vous ne voyagez toujours pas
+avec vos amies…… Vous n'avez toujours pas fait
+la paix ?\e"
+MF06260011,"\h(«Vyse»)Hein ? Fait la paix ?
+De quoi parlez-vous ?\e"
+MF06260012,"\h(«Marchand de Nasr»)Ne vous inquiétez pas…… Je sais, je sais.
+Inutile de me cacher la vérité. Mais surtout,
+faites la paix avec elles.\c"
+MF06260013,"\h(«Marchand de Nasr»)Ce n'est pas grave de se battre, mais il faut
+faire la paix après ! Hahaha……\c"
+MF06260014,"\h(«Marchand de Nasr»)Oh, mais c'est le jeune homme au cache-oeil ?
+On ne vous a pas vu depuis longtemps !\e"
+MF06260015,"\h(«Marchand de Nasr»)C'est moi, le marchand que vous avez raccompagné
+jusqu'à la frontière de Nasr !\e"
+MF06260016,"\h(«Marchand de Nasr»)Hum ? J'aurai juré que vous m'aviez raccompagné
+avec une fille aux cheveux tressés……\e"
+MF06260017,"\h(«Vyse»)Oh, oui…… Bon, c'est une longue histoire, mais
+nous avons été séparés.\e"
+MF06260018,"\h(«Marchand de Nasr»)Oh…… Je comprends.
+Vous vous êtes peut-être disputés.\e"
+MF06260019,"\h(«Vyse»)N, non……
+Ce n'est pas ça du tout, vous voyez……\e"
+MF06260020,"\h(«Marchand de Nasr»)Je sais, je sais. Inutile de faire semblant. On
+dit que plus l'on est proche des gens, et plus
+ils vous énervent ! Hahaha!\c"
+MF06260021,"\h(«Marchand de Nasr»)Ce n'est pas grave de se battre, mais il faut
+faire la paix après ! Hahaha……\c"
+MF06270000,"\h(«Marchand d'Objets»)Bonjour et bienvenue ! C'est le magasin d'objets
+du Nasultan ! Nous offrons un choix de
+marchandise de qualité !\e"
+MF06270001,"\h(«Aika»)Hum……
+J'aimerais acheter quelque chose, mais je n'ai
+pas assez d'argent pour le moment……\e"
+MF06270002,"\h(«Marchand d'Objets»)Je suppose que cela va poser un problème.
+Bon, revenez quand vous en aurez !\c"
+MF06270003,"\h(«Marchand d'Objets»)Je ne peux rien vous vendre si vous n'avez pas
+d'argent ! Revenez quand vous en aurez !\c"
+MF06270004,"\h(«Marchand d'Objets»)Bonjour et bienvenue ! C'est le magasin d'objets
+de Nasultan ! Nous offrons un choix de
+marchandise de qualité !\e"
+MF06270005,"\h(«Que faites-vous ?»)“Vous achetez et vendrez des objets”
+“Vous discutez.”
+“Vous partez.”\e"
+MF06270006,"\h(«Marchand d'Objets»)Le Nasultan a plusieurs épouses…… et elles
+vivent toutes ensemble dans le palais.\e"
+MF06270007,"\h(«Marchand d'Objets»)Le Nasultan s'inquiète seulement quand ses
+épouses se disputent. Il ne se préoccupe pas des
+activités de Valua.\e"
+MF06270008,"\h(«Marchand d'Objets»)Merci !
+Et que la Lune Rouge illumine votre chemin !\c"
+MF06280000,"\h(«Tavernier»)Bienvenue jeune fille.
+Entrez je vous en prie, venez vous détendre !\e"
+MF06280001,"\h(«Tavernier»)Nasr est un pôle commercial ! Nous servons des
+boissons des quatre coins du monde ! Nous avons
+certainement ce que vous voulez !\c"
+MF06280002,"\h(«Tavernier»)Bienvenue jeune homme.
+Entrez je vous en prie, venez vous détendre !\e"
+MF06280003,"\h(«Tavernier»)Oh…… Vous n'avez pas de chance. Jusqu'à hier,
+deux jolies filles travaillaient ici…… mais
+elles ont démissionné. Vraiment pas de chance.\c"
+MF06280004,"\h(«Tavernier»)Oh ! C'est vous.
+Voilà…… c'est votre salaire. Vous l'avez gagné.\e"
+MF06280017,"\h(«Tavernier»)Vous avez travaillé dur, alors j'ai décidé de
+vous donner une petite prime en plus pour vous
+aider. Merci pour tout !\e"
+MF06280016,\h( )Vous avez reçu vos “salaires.”\e
+MF06280018,"\h( )Vous avez aussi reçu
+4 “Cristal Sacres” et 1 “Cham.”\e"
+MF06280005,"\h(«Aika»)Oaouh ! Merci ! Avec ça, nous avons les
+10,000 pièces d'or qu'il nous fallait pour
+acheter un navire !\e"
+MF06280006,"\h(«Gilder»)Tiens, tiens ! Je ne savais pas que des filles
+aussi jolies travaillaient ici !\e"
+MF06280007,"\h(«Tavernier»)Gilder, vaurien…… Pas touche, d'accord ?\e"
+MF06280008,"\h(«Gilder»)Elles ne travaillent plus ici, n'est-ce pas ?
+Inutile d'être aussi protecteur……\e"
+MF06280009,"\h(«Tavernier»)Certaines choses ne changent jamais……
+Gilder, tu n'as jamais su résister à une jolie
+frimousse……\e"
+MF06280010,"\h(«Tavernier»)Aika…… Fina…… Soyez prudentes ! Prenez soin de
+vous !\e"
+MF06280111,"\h(«Aika»)Merci pour tout !
+Allez Fina, retournons à l'auberge régler notre
+note !\c"
+MF06280011,"\h(«Tavernier»)Si vous changez d'avis un jour et que vous
+voulez revenir travailler ici, vous serez
+toujours les bienvenues !\c"
+MF06280012,"\h(«Tavernier»)Bienvenue jeune homme !
+Entrez je vous en prie, venez vous détendre !\e"
+MF06280013,"\h(«Tavernier»)Nasr est un pôle commercial ! Nous servons des
+boissons des quatre coins du monde ! Nous avons
+certainement ce que vous voulez !\c"
+MF06280014,"\h(«Tavernier»)Aika ! Fina !
+Comment allez-vous mesdemoiselles ? Venez vous 
+détendre et vous amusez tant que vous êtes là!\c"
+MF06280015,"\h(«Tavernier»)Si vous voulez retravailler ici, vous êtes les
+bienvenues.\c"
+MF06290000,"\h(«Homme Déprimé»)On dit que l'Impératrice de Valua était une très
+jolie femme jadis……\e"
+MF06290001,"\h(«Homme Déprimé»)Mais l'Impératrice est devenue une vieille
+sorcière, assoiffée de pouvoir. Même le prince
+l'a quittée !\c"
+MF06290002,"\h(«Homme Déprimé»)Hein ? Valua lance une attaque ? Nos gardes de
+frontières vont s'occuper d'eux…… Nous n'avons
+aucune raison de nous inquiéter……\e"
+MF06290003,"\h(«Homme Déprimé»)Mais j'ai entendu dire que l'une des amiraux de
+l'Armada Valuanne est une vraie beauté.\c"
+MF06300000,"\h(«Marin»)Le loqua et les plats qu'ils servent dans ce
+restau sont très bons, mais ça manque de jolies
+filles.\e"
+MF06300001,"\h(«Marin»)Cela ne me fait pas trop d'effet de regarder le
+tavernier rougeaud les yeux dans les yeux.\c"
+MF06300002,"\h(«Marin»)Attends une minute ! Qu'est-il arrivé aux deux
+filles qui étaient là avant ? Oh hé…… Où êtes-
+vous passées les filles ?\e"
+MF06300003,"\h(«Marin»)D'habitude, il y a deux jolies nanas qui
+travaillent ici mais je ne les vois pas
+aujourd'hui.\c"
+MF06300004,\h(«Marin»)Hé les jolies filles ! Où étiez-vous passées ?!\e
+MF06300005,"\h(«Marin»)C'est pour vous que je viens dans cette boîte,
+alors vous avez intérêt d'être là !\c"
+MF06300006,"\h(«Marin»)C'est pour vous que je viens dans cette boîte,
+alors vous avez intérêt d'être là !\c"
+MF06310000,"\h(«Osman»)Salutations ! Je suis la propriétaire.
+Les gens m'appellent Osman.\e"
+MF06310001,"\h(«Osman»)Je suis une financière, c'est-à-dire, une
+prêteuse sur gages. Si vous avez besoin d'or, je
+peux vous aider.\e"
+MF06310002,"\h(«Aika»)Vous feriez cela ? Notre navire s'est brisé dans
+le naufrage, alors nous devons le remplacer.\e"
+MF06310003,"\h(«Aika»)Pouvez-vous nous prêter assez d'argent pour
+acheter un navire ? Nous promettons de vous
+rembourser.\e"
+MF06310004,"\h(«Osman»)Un naufrage ! Mon dieu ! Cela a dû être
+terrifiant ! Mais pardonnez-moi de vous poser la
+question…… Que m'offrez vous en échange ?\e"
+MF06310005,"\h(«Aika»)En échange ? Mais il ne nous reste que nos
+vêtements. Nous ne possédons rien.\e"
+MF06310006,"\h(«Osman»)Garde ! Veuillez raccompagner ces clients à la
+porte !\e"
+MF06310007,"\h(«Aika»)Quel est le problème ? Je vous ai dit que l'on
+vous remboursera. Nous n'avons peut-être rien à
+offrir en échange, mais vous pouvez nous faire
+confiance.\e"
+MF06310008,"\h(«Osman»)C'est pas une oeuvre de charité ici ! Je fais
+affaire avec tout le monde, ne serait-ce que 
+pour une pièce d'or……\e"
+MF06310009,"\h(«Osman»)mais je n'aiderais même pas le Nasultan si je
+devais y perdre.\e"
+MF06310010,"\h(«Osman»)Après tout, l'argent c'est toute ma vie ! Ô
+précieux, précieux argent ! Partez ! Partez !\c"
+MF06310011,"\h(«Osman»)Vous ne me prendrez pas en train de prêter de
+l'argent au premier venu contre rien en échange.
+Partez, je vous ai dit. Partez !\c"
+MF06310012,"\h(«Osman»)Salutations ! Je suis la propriétaire.
+Les gens m'appellent Osman.\e"
+MF06310013,"\h(«Osman»)Je suis une financière, c'est-à-dire, une
+prêteuse sur gages. Si vous avez besoin d'or, je
+peux vous aider.\e"
+MF06310014,"\h(«Vyse»)Vraiment ? Vous dites que vous nous prêteriez de
+l'argent ?
+Il me faudrait bien un nouveau navire pirate.\e"
+MF06310015,"\h(«Osman»)P, p, pirate ? Garde ! Veuillez montrer la
+porte à ce jeune homme !\e"
+MF06310016,"\h(«Osman»)Je ne prêterai jamais d'argent à un idiot qui se
+dit Pirate de l'Air ! Pas une seule pièce
+d'or !\e"
+MF06310017,"\h(«Osman»)Après tout, l'argent c'est toute ma vie ! Ô
+précieux, précieux argent ! Partez ! Partez !\c"
+MF06310018,"\h(«Osman»)Je ne prêterai jamais d'argent à un idiot qui se
+dit Pirate de l'Air ! Pas une seule pièce
+d'or !\c"
+MF06310019,"\h(«Osman»)Bienvenue !
+Je suis la propriétaire, Osman.\e"
+MF06310020,"\h(«Osman»)Je suis la prêteuse sur gages de Nasrad. Alors
+si vous avez vraiment besoin d'aide, vous avez
+frappé à la bonne porte…… si j'estime que vous
+le méritez ceci dit.\e"
+MF06310021,"\h(«Aika»)Prêteuse sur gages ? Bon…… en fait, nous avons
+acheté un petit navire pour aller chercher Vyse
+et Cap'taine Drachma, mais je suis quand même un
+petit peu inquiète.\e"
+MF06310022,"\h(«Aika»)J'aimerais avoir assez d'argent pour acheter un
+vrai navire de Pirate de l'Air. Un avec des
+canons et tout. Mais je suppose qu'il nous
+faudrait BEAUCOUP plus d'argent……\c"
+MF06310023,"\h(«Osman»)P, Pirates de l'Air ?!
+Sortez de mon magasin !
+Je ne fais pas affaire avec des voleurs !!!\e"
+MF06310024,"\h(«Osman»)Je ne prêterai jamais d'argent à un voleur ! Je
+ne récupèrerai jamais mon argent ! Vous
+partiriez sûrement avec !!\e"
+MF06310025,"\h(«Osman»)Mon bel argent est trop précieux pour que je le
+donne à des gens de votre espèce !!
+Maintenant allez-vous en !!!\c"
+MF06310026,"\h(«Osman»)Mon bel argent est trop précieux pour que je le
+donne à des gens de votre espèce !!
+Maintenant allez-vous en !!!\c"
+MF06320000,"\h(«Employé d'Osman»)Bonjour, bonjour ! Bienvenue à Finances Osman.\e"
+MF06320001,"\h(«Employé d'Osman»)La patronne, Osman, est dans la salle du fond.\c"
+MF06320002,"\h(«Employé d'Osman»)La patronne, Osman, est dans la salle du fond.\c"
+MF06330000,"\h(«Soldat Nasr»)À l'ouest, il y a deux détroits qui se
+rejoignent dans l'Océan Central.\e"
+MF06330001,"\h(«Soldat Nasr»)Si Valua attaquait, ce serait certainement par
+l'un de ces détroits…… Plus probablement le
+Détroit Dannel Sud.\e"
+MF06330002,"\h(«Soldat Nasr»)Mais le détroit est gardé en permanence par la
+meilleure flotte navale de Nasr. Il est
+absolument impénétrable.\e"
+MF06330003,"\h(«Soldat Nasr»)Et le Détroit Dannel Nord, vous vous demandez ?
+C'est un piège mortel pour les navires à cause
+d'un récif céleste turbulent.\e"
+MF06330004,"\h(«Soldat Nasr»)Il n'existe aucun navire capable de traverser le
+Détroit Dannel Nord, donc c'est inutile de le
+garder.\c"
+MF06330005,"\h(«Soldat Nasr»)Les défenses de la ville de Nasrad sont
+infaillibles. Nous n'avons rien à craindre de la
+flotte navale de Valua, ce n'est qu'un tas de
+ferraille !\c"
+MF06400000,"\h(«Garde du  Palais Nasr»)C'est le palais du Nasultan. Personne ne rentre
+sans autorisation !\c"
+MF06400001,"\h(«Garde du  Palais Nasr»)C'est le palais du Nasultan. Personne ne rentre
+sans autorisation !\c"
+MF06400002,"\h(«Garde du  Palais Nasr»)Vous pouvez compter sur la garde du palais pour
+défendre la capitale !\c"
+MF06410000,"\h(«Garde du  Palais Nasr»)C'est le palais du Nasultan. L'entrée est
+interdite aux touristes !\c"
+MF06410001,"\h(«Garde du  Palais Nasr»)C'est le palais du Nasultan. L'entrée est
+interdite aux touristes !\c"
+MF06410002,"\h(«Garde du  Palais Nasr»)C'est impensable que notre capitale puisse être
+moins bien que Valua !\c"
+MF06420000,"\h(«Soldat Nasr»)Regardez, notre belle capitale ! Notre jolie
+ville n'a rien à voir avec ce tertre de Valua !\e"
+MF06420001,"\h(«Soldat Nasr»)Tant que nos forces Nasreanes existent, nous ne
+laisserons jamais Valua lever la main sur notre
+jolie ville !\c"
+MF06430000,"\h(«Jeune Fille»)Nous sommes des amoureux. Nous nous retrouvons
+tous les jours à la fontaine et allons au bazar
+ensemble.\e"
+MF06430001,"\h(«Jeune Homme»)Au bazar de Nasrad, on peut trouver des objets
+exotiques venant du monde entier.\e"
+MF06430002,"\h(«Jeune Fille»)Alors j'ai envie d'acheter tout ce que je vois !
+Et il est si gentil qu'il m'achète tout ce que
+je veux !\e"
+MF06430003,"\h(«Jeune Homme»)Pour toi, je dépenserais jusqu'à ma dernière
+pièce d'or sans aucun regret. Je t'aime, ma
+chérie !\c"
+MF06450000,"\h(«Homme»)On raconte qu'il y a une activité inhabituelle
+du côté de Valua ces derniers temps. Je me
+demande s'il va encore y avoir une guerre.\e"
+MF06450001,"\h(«Homme»)L'Armée de Nasr nous protège, donc je ne crois
+pas qu'ils viendront jusqu'ici un jour.\c"
+MF06460000,"\h(«Femme»)Bonjour ! Jadis, cette ville était une énorme
+oasis connue sous le nom de la Ville dans le
+Sable.\e"
+MF06460001,"\h(«Femme»)Nasrad fut fondée par un marchand aisé. L'oasis
+lui servait de base, et il y construisit un
+palais entouré d'un rempart.\e"
+MF06460002,"\h(«Femme»)Ce marchand devint le premier Nasultan, c'est à
+dire le roi de Nasr.\c"
+MF06470000,"\h(«Fille»)Quelque part…… bien au dessus des cieux de
+Nasr…… Un magnifique arc-en-ciel traverse les
+nuages……\c"
+MF06480000,"\h(«Marin»)Sacrebleu ! Le navire se prépare à partir !
+Voyons, j'ai déjà acheté du carburant.
+Oh, je sais ! Des sous-vêtements propres !\e"
+MF06480001,"\h(«Marin»)Bon, où puis-je acheter des sous-vêtements ?
+Chez l'armurier ? Ai-yi-yi, il faut que je me
+dépêche !\c"
+MF06480002,"\h(«Marin»)Sacrebleu ! Le navire se prépare à partir !
+Voyons, j'ai déjà acheté du carburant.
+Oh, je sais ! Des sous-vêtements propres !\e"
+MF06480003,"\h(«Marin»)Bon, où puis-je acheter des sous-vêtements ?
+Chez l'armurier ? Ai-yi-yi, il faut que je me
+dépêche !\c"
+MF06490000,"\h(«Gilder»)Hé, Vyse. Je vais encore boire un peu, alors
+va à l'auberge sans moi.\c"
+MF06490001,"\h(«Gilder»)Ce doit être mon jour de chance ! Je viens juste
+de débarquer et les premières personnes que je
+rencontre, c'est vous, deux jolies jeunes
+filles !\e"
+MF06490002,"\h(«Gilder»)Je me présente. Je m'appelle Gilder.
+Peut-être que vous serez assez gentilles pour
+vous souvenir de mon nom, jolies jeunes
+filles !\c"
+MF90390000,"\h(«Marchand Étrange»)Hy-ho-o-o! Je suis le Marchand Étrange ! Je
+voyage dans le monde entier, pour vendre ma
+marchandise !\e"
+MF90390001,"\h(«Marchand Étrange»)Tout ce que j'offre est rare et merveilleux.
+Venez, venez voir.\e"
+MF90390002,"\h(«Que faites-vous ?»)“Vous achetez et vendez des objets.”
+“Vous discutez.”
+“Vous partez.”\e"
+MF90390003,"\h(«Marchand Étrange»)Quelque part dans ce monde, existe une île où
+pousse une épice très rare appelée “Poivre.”\c"
+MF90390004,"\h(«Marchand Étrange»)Merci beaucoup.
+Cela me ferait plaisir de vous revoir un jour.\c"
+MF06030200,"\h(«Maître de Confrérie»)On dit que tu as vaincu l'un des fugitifs !
+Bien joué ! Voici ta récompense !
+Tu l'as bien méritée !\e"
+MF06030201,"\h(«Maître de Confrérie»)Voilà ! La récompense pour ton travail. J'ai
+beaucoup entendu parler de toi ces derniers
+temps. Continue comme ça. Je compte sur toi.\e"
+MF06030202,"\h(«Maître de Confrérie»)Tu, tu as vaincu tout le monde sur la liste des
+recherchés ! Grâce à toi, les gens peuvent
+naviguer dans les cieux en toute liberté et
+sécurité ! C'est peu mais tiens. Prends-ça.\e"
+MF06030203,"\h(«Maître de Confrérie»)Attends un peu. J'ai failli oublier. Tiens……
+Ceci est arrivé pour toi.\e"
+MF06030204,\h( )Tu as reçu un “Point noir.”\e
+MF06030205,"\h(«Maître de Confrérie»)C'est un message de l'Ange de la Mort……
+On dirait que tu as des ennuis.
+Fais bien attention à toi là-bas.\e"
+MFwanted00,"\h( )Vous avez reçu 1000 pièces d'or pour avoir
+vaincu “Baltor le Barbenoire.”\e"
+MFwanted01,"\h( )Vous avez reçu 2000 pièces d'or pour avoir
+vaincu “Rupee du Clan Larso.”\e"
+MFwanted02,"\h( )Vous avez reçu 4000 pièces d'or pour avoir
+vaincu “Gordo le Gros.”\e"
+MFwanted03,"\h( )Vous avez reçu 5000 pièces d'or pour avoir
+vaincu “Lapen Le Danger public.”\e"
+MFwanted04,"\h( )Vous avez reçu 8000 pièces d'or pour avoir
+vaincu “Les Démons d'Ixa'ness.”\e"
+MFwanted05,"\h( )Vous avez reçu 20000 pièces d'or pour avoir
+vaincu “Vize l'Imposteur.”\e"
+MFwanted06,"\h( )Vous avez reçu 20000 pièces d'or pour avoir
+vaincu “Daikokuya Le Fortuné.”\e"
+MFwanted07,"\h( )Vous avez reçu 30000 pièces d'or pour avoir 
+vaincu le “Seigneur Zivilyn Bane.”\e"
+MF06020010,"\h(«Aika»)Euh… Eh bien… En fait… Nous n'avons 
+même pas de navire à équiper… \e"
+MG06020000,"\h(«Schiffsteile-Händler»)He da…… wie läuft das Geschäft?
+Ich habe Kanonen für alle Ihre destruktiven
+Zwecke anzubieten! Schauen Sie sich ruhig um!\e"
+MG06020001,"\h(«Aika»)Also…… ähm…… wir…… wir haben im Moment noch
+nicht einmal ein Schiff……\e"
+MG06020002,"\h(«Schiffsteile-Händler»)Was macht ihr dann hier…… Schaufenster ansehen?
+Ich mag keine Schaufenster-Gucker……\c"
+MG06020003,\h(«Schiffsteile-Händler»)Bei mir gibt's kein Schaufenster-Gucken!!\c
+MG06020004,"\h(«Schiffsteile-Händler»)He da…… was macht das Geschäft?
+Vielleicht möchten Sie eine riesige Kanone
+kaufen, um Ihre Feinde vom Himmel zu ballern?\e"
+MG06020005,"\h(«Vyse»)Also…… wir haben im Moment eigentlich gar kein
+Schiff, also hat es auch keinen Zweck, etwas
+zu kaufen……\c"
+MG06020006,"\h(«Schiffsteile-Händler»)Was macht ihr dann hier…… Schaufenster ansehen?
+Ich mag keine Schaufenster-Gucker……\c"
+MG06020007,\h(«Schiffsteile-Händler»)Bei mir gibt's kein Schaufenster-Gucken!!\c
+MG06030000,"\h(«Gildenvorsteher»)Willkommen bei der Sailors Guild. Für
+Informationen über Entdeckungen zahlen
+wir gutes Geld!\e"
+MG06030001,"\h(«Aika»)Wir haben kein Geld und kein Schiff……
+Ich glaube nicht, dass wir Zeit haben,
+Entdeckungen zu machen……\e"
+MG06030002,"\h(«Gildenvorsteher»)Hm…… Das könnte ein Problem sein.
+Wenn ihr kein Geld habt, könnt ihr jederzeit
+zum Geldverleiher gehen und einen Kredit
+aufnehmen.\e"
+MG06030003,"\h(«Gildenvorsteher»)In dieser Stadt gibt es eine Geldverleiherin
+mit Namen Osman. Ihr braucht nur nach dem
+Haus mit dem Bild einer rosa Katze zu suchen.\c"
+MG06030004,"\h(«Gildenvorsteher»)In dieser Stadt gibt es eine Geldverleiherin
+mit Namen Osman. Ihr braucht nur nach dem
+Haus mit dem Bild einer rosa Katze zu suchen.\c"
+MG06030005,"\h(«Gildenvorsteher»)Willkommen bei der Sailors Guild. Für
+Informationen über Entdeckungen zahlen wir
+gutes Geld!\e"
+MG06030006,"\h(«Was wirst du tun?»)“Informationen kaufen und verkaufen”.
+“Über Verschiedenes sprechen”.
+“Weggehen”.\e"
+MG06030007,"\h(«Gildenvorsteher»)Übrigens, eben kam ein süßes Mädchen vorbei,
+das genau wir ihr meinte, sie hätte
+kein Geld und kein Schiff.\e"
+MG06030008,"\h(«Gildenvorsteher»)Ich hab ihr gesagt, sie solle mit der
+Geldverleiherin Osman sprechen…… Ob bei ihr
+wohl alles geklappt hat?\e"
+MG06030009,"\h(«Gildenvorsteher»)Ihr habt die Schatzkarte von Daccat?
+Was das wohl wieder sein wird?\e"
+MG06030010,"\h(«Gildenvorsteher»)Ich habe über 100 Versionen der Schatzkarte
+von Daccat! He…… die Richtige habe ich jedoch
+nie gesehen.\c"
+MG06030011,"\h(«Gildenvorsteher»)Jede bedeutende Hafenstadt verfügt über eine
+Filiale der Sailors Guild. Schaut auf jeden
+Fall mal herein.\c"
+MG06230000,"\h(«Gastwirt»)Willkommen! Hier kostet die Übernachtung 240
+Goldstücke. Möchtet ihr ein Zimmer haben?\e"
+MG06230001,"\h(«Aika»)Ähm…… wir haben Schiffbruch erlitten und sind
+völlig pleite. Ich suche eine Möglichkeit,
+an Geld zu kommen, aber……\e"
+MG06230002,"\h(«Gastwirt»)Hach…… ihr Mädels seht anständig aus.
+Ich vertraue euch. Ich werde anschreiben,
+und ihr könnt mich dann bezahlen, wenn ihr
+abreist, ok?\e"
+MG06230003,"\h(«Was wirst du tun?»)“Dort übernachten”.
+“Weggehen”.\e"
+MG06230004,"\h(«Gastwirt»)Ihr könnt das Zimmer ganz hinten im zweiten
+Stock haben. Ich hoffe, ihr schlaft gut.\c"
+MG06230005,"\h(«Gastwirt»)Verstehe.
+Also, übernehmt euch nicht.
+Wenn ihr müde werdet, kommt zurück und ruht
+euch etwas aus.\c"
+MG06230006,"\h(«Gastwirt»)Da seid ihr ja wieder! Willkommen!
+Ich wette, ihr seid müde……\e"
+MG06230007,"\h(«Gastwirt»)Willkommen! Hier kostet die Übernachtung 240
+Goldstücke. Möchtet ihr ein Zimmer haben?\e"
+MG06230008,"\h(«Was wirst du tun?»)“Dort übernachten”.
+“Weggehen”.\e"
+MG06230009,"\h(«Gastwirt»)Ihr könnt das Zimmer oben im zweiten
+Stock haben. Ich hoffe, ihr schlaft gut.\c"
+MG06230010,"\h(«Gastwirt»)Ich hoffe, Ihr habt gut geschlafen.
+Möge der Rote Mond euren Weg beleuchten.\c"
+MG06230017,"\h(«Gastwirt»)Hm? Es sieht so aus, als ob ihr nicht genug
+Gold hättet. Es tut mir Leid, aber ihr werdet
+später wiederkommen müssen, wenn ihr
+etwas gespart habt.\c"
+MG06230018,"\h(«Vyse»)Oh…… verdammt.
+Ich habe noch nicht einmal genug Geld, um mir
+ein Zimmer zu besorgen.\e"
+MG06230019,"\h(«Vyse»)Tja, also…… ich schätze, Sie können das Geld
+von meinem Freund bekommen, der etwas später
+ankommen wird. Er heißt Gilder und ist in
+Rot gekleidet.\e"
+MG06230020,"\h(«Gastwirt»)Oh, Sie sind ein Freund von Gilder? Er steigt
+oft hier ab. Machen Sie sich keine Sorgen……
+Ich vertraue Ihnen. Ich werde ihn später um
+das Geld bitten.\e"
+MG06230021,"\h(«Gastwirt»)Nehmen Sie das Zimmer, gleich wenn Sie die
+Treppe hinaufkommen. Ich hoffe, Sie haben einen
+guten Aufenthalt hier in Nasrad.\c"
+MG06230011,"\h(«Gastwirt»)Verstehe.
+Nun, ihr solltet euch nicht übernehmen.
+Wenn ihr müde werdet, kommt zurück und ruht
+euch aus.\c"
+MG06230012,"\h(«Gastwirt»)Seid gegrüßt!
+Ihr müsst müde sein.\e"
+MG06230013,"\h(«Was wirst du tun?»)“Dort übernachten”.
+“Weggehen”.\e"
+MG06230014,"\h(«Gastwirt»)Ihr könnt das Zimmer gleich oben auf dem
+zweiten Stock nehmen. Ich hoffe, ihr schlaft
+gut.\c"
+MG06230015,"\h(«Gastwirt»)Habt ihr gut geschlafen? Ich wünsche euch gute
+Reise! Möge der Rote Mond euren Weg
+beleuchten!\c"
+MG06230016,"\h(«Gastwirt»)Verstehe.
+Also, seht zu, dass ihr euch nicht verausgabt.
+Wenn ihr euch müde fühlt, kommt zurück zu mir
+und ruht euch aus.\c"
+MG06250000,"\h(«Waffenhändler»)Willkommen im Waffenladen von Nasr!
+Wir bieten dieselben leistungsfähigen Waffen
+an, die die Soldaten von Nasr benutzen!\e"
+MG06250001,"\h(«Aika»)Hm…… ich möchte gern welche kaufen, aber ich
+habe im Moment kein Geld.\e"
+MG06250002,"\h(«Waffenhändler»)Tja, dann können Sie auch nichts kaufen.
+Tut mir Leid…… bitte kommen Sie wieder,
+wenn Sie mehr im Portmonee haben!\c"
+MG06250003,"\h(«Waffenhändler»)Tja, dann können Sie auch nichts kaufen.
+Tut mir Leid…… bitte kommen Sie wieder,
+wenn Sie etwas im Portmonee haben!\c"
+MG06250004,"\h(«Waffenhändler»)Willkommen im Waffenladen von Nasr!
+Wir bieten dieselben leistungsfähigen Waffen
+an, die die Soldaten von Nasr benutzen!\e"
+MG06250005,"\h(«Was wirst du tun?»)“Waffen kaufen und verkaufen”.
+“Über Verschiedenes sprechen”.
+“Weggehen”.\e"
+MG06250006,"\h(«Waffenhändler»)Ha ha ha, ihr meint, Valua wird angreifen?
+Ich habe gehört, dass die valuanischen
+Streitkräfte in letzter Zeit ungewöhnlich
+aktiv waren.\e"
+MG06250007,"\h(«Waffenhändler»)Aber es ist schier unmöglich, dass valuanische
+Streitkräfte je die Linien der nasrischen
+Flotte durchbrechen. Es ist unmöglich,
+diese Stadt zu erreichen.\c"
+MG06250008,"\h(«Waffenhändler»)Möge euch der Rote Mond beschützen!
+Schaut bald mal wieder vorbei!\c"
+MG06250009,"\h(«Waffenhändler»)Willkommen! Dies ist der Waffenladen. Wir
+haben alle möglichen Waffen zu verkaufen.
+Alles beste Qualität! Sogar die Wachposten
+von Nasr benutzen meine Waffen!\e"
+MG06250010,"\h(«Was wirst du tun?»)“Waffen kaufen und verkaufen”.
+“Über Verschiedenes sprechen”.
+“Weggehen”.\e"
+MG06250011,"\h(«Waffenhändler»)Oh, hallo! Ihr beiden Hübschen arbeitet doch
+drüben in der Taverne, nicht wahr? Ich bin
+schon mehrere Male da gewesen, seit ihr
+angefangen habt.\e"
+MG06250012,"\h(«Waffenhändler»)Was? Ihr habt gekündigt? Das ist ja schade!
+Gerade jetzt, wo ihr angefangen habt, euren
+eigenen kleinen Fanclub zu bekommen.\c"
+MG06250013,"\h(«Waffenhändler»)Vielen Dank!
+Schaut bald mal wieder rein!\c"
+MG06260000,"\h(«Nasr-Händler»)Oh! Junge Dame!
+Sie waren es doch, die……
+Es ist schon viele Monde her.\e"
+MG06260001,"\h(«Nasr-Händler»)Ich bin es…… Sie und Ihr Freund hatten mich
+damals zurück an die Grenze von Nasr begleitet.\e"
+MG06260002,"\h(«Nasr-Händler»)Apropos…… wo ist eigentlich Ihr Freund?
+Sie wissen ja, der mit der Augenklappe.
+Sind Sie nicht mehr mit ihm unterwegs?\e"
+MG06260003,"\h(«Aika»)Oh, Sie meinen Vyse?
+Ach…… das ist eine lange Geschichte, aber wir
+wurden getrennt.\e"
+MG06260004,"\h(«Nasr-Händler»)Oh…… ich verstehe.
+Vielleicht hatten Sie eine…… ähm……
+Meinungsverschiedenheit.\e"
+MG06260005,"\h(«Aika»)O, nein…… das ist es nicht.\e"
+MG06260006,"\h(«Nasr-Händler»)Sie brauchen sich nicht so anzustrengen.
+Man sagt ja, je mehr man sich zu einer Person
+hingezogen fühlt, desto wütender kann sie
+einen machen! Hahaha!\c"
+MG06260022,"\h(«Nasr-Händler»)Oh, bitte…… nehmen Sie das hier.
+Ich möchte, dass Sie es behalten. Akzeptieren
+Sie es als Zeichen meiner Dankbarkeit.\e"
+MG06260023,\h( )Du erhieltst “Abirik Cham” x 1!\e
+MG06260024,"\h(«Nasr-Händler»)Ich dachte mir, so eine schöne Moon-Stone-
+Scherbe ist genau das Richtige für Damen wie
+Sie.\c"
+MG06260007,"\h(«Nasr-Händler»)Man kann sich ruhig mal streiten, aber nachher
+sollte man sich wieder versöhnen! Hahaha……\c"
+MG06260008,"\h(«Nasr-Händler»)Ach, junger Mann! Wir haben uns aber lange
+nicht gesehen!\e"
+MG06260009,"\h(«Nasr-Händler»)Ich bin es, der Händler, den Sie bis zur
+Grenze von Nasr geleitet haben!\e"
+MG06260010,"\h(«Nasr-Händler»)Wie ich sehe, sind Sie noch immer nicht
+wieder mit Ihren weiblichen Bekannten zusammen……
+Sie haben sich sicher noch nicht wieder
+vertragen.\e"
+MG06260011,"\h(«Vyse»)Wie? Vertragen?
+Wovon sprechen Sie?\e"
+MG06260012,"\h(«Nasr-Händler»)Keine Angst…… ich weiß schon.
+Sie brauchen mir nichts zu verbergen. Aber Sie
+sollten sichergehen, dass Sie sich wieder
+vertragen.\c"
+MG06260013,"\h(«Nasr-Händler»)Man kann sich ruhig mal streiten, aber nachher
+sollte man sich wieder versöhnen! Hahaha……\c"
+MG06260014,"\h(«Nasr-Händler»)Oh, ist das nicht der junge Bursche mit der
+Augenklappe? Schon eine Weile her!\e"
+MG06260015,"\h(«Nasr-Händler»)Ich bin es, der Händler, den Sie bis zur
+Grenze von Nasr geleitet haben!\e"
+MG06260016,"\h(«Nasr-Händler»)Hm…… ich hätte schwören können, dass Sie mit
+einem Mädchen mit Zöpfen unterwegs waren, als
+Sie mich hierher begleiteten……\e"
+MG06260017,"\h(«Vyse»)Ach ja……
+Tja, es ist eine lange Geschichte, aber wir
+wurden getrennt.\e"
+MG06260018,"\h(«Nasr-Händler»)Oh…… ich verstehe.
+Vielleicht hatten Sie beide einen Streit.\e"
+MG06260019,"\h(«Vyse»)N…nein……
+Das ist es nicht, wissen Sie……\e"
+MG06260020,"\h(«Nasr-Händler»)Ich weiß, ich weiß. Sie brauchen mir nichts zu
+erzählen. Man sagt ja, je mehr man sich zu
+einer Person hingezogen fühlt, desto wütender
+kann sie einen machen! Hahaha!\c"
+MG06260021,"\h(«Nasr-Händler»)Man kann sich ruhig mal streiten, aber nachher
+sollte man sich wieder versöhnen! Hahaha……\c"
+MG06270000,"\h(«Objekt-Verkäufer»)Hallo und herzlich willkommen!
+Dies ist der persönliche Objektladen des
+Nasultan! Wir bieten alle Arten von Artikeln
+höchster Qualität an!\e"
+MG06270001,"\h(«Aika»)Hm……
+Ich würde gern etwas kaufen, aber ich habe
+im Moment kein Geld……\e"
+MG06270002,"\h(«Objekt-Verkäufer»)Das könnte ein Problem werden.
+Dann kommen Sie doch einfach wieder, wenn
+Sie welches haben!\c"
+MG06270003,"\h(«Objekt-Verkäufer»)Ich kann Ihnen nichts verkaufen, wenn Sie kein
+Geld haben! Bitte kommen Sie wieder, wenn Sie
+welches haben!\c"
+MG06270004,"\h(«Objekt-Verkäufer»)Hallo und herzlich willkommen!
+Dies ist der persönliche Objektladen des
+Nasultan! Wir bieten alle Arten von Artikeln
+höchster Qualität an!\e"
+MG06270005,"\h(«Was wirst du tun?»)“Objekte kaufen und verkaufen”.
+“Über Verschiedenes sprechen”.
+“Weggehen”.\e"
+MG06270006,"\h(«Objekt-Verkäufer»)Der Nasultan hat viele Frauen…… sie leben alle
+gemeinsam im Palast.\e"
+MG06270007,"\h(«Objekt-Verkäufer»)Der Nasultan wird nur ärgerlich, wenn sich
+seine Frauen miteinander streiten. Er hat
+kein Interesse an Valuas Umtrieben.\e"
+MG06270008,"\h(«Objekt-Verkäufer»)Danke!
+Und möge euch der Rote Mond den Weg weisen!\c"
+MG06280000,"\h(«Taverneninhaber»)Willkommen, junge Frau.
+Bitte treten Sie ein und machen Sie es
+sich bequem!\e"
+MG06280001,"\h(«Taverneninhaber»)Nasr ist das absolute Zentrum des Handels!
+Wir führen Getränke aus den entferntesten
+Ecken der Welt! Alles, was Sie sich wünschen
+können, haben wir auf Lager!\c"
+MG06280002,"\h(«Taverneninhaber»)Willkommen, junger Mann.
+Bitte kommen Sie herein und machen Sie es
+sich bequem!\e"
+MG06280003,"\h(«Taverneninhaber»)He…… Sie haben aber Pech. Bis gestern haben
+hier noch zwei reizende Mädchen gearbeitet……
+aber sie haben gekündigt. Sehr schade.\c"
+MG06280004,"\h(«Taverneninhaber»)Oh! Ihr seid's!
+Hier, bitte…… das ist euer Lohn. Ihr habt ihn
+euch verdient.\e"
+MG06280017,"\h(«Taverneninhaber»)Ihr habt beide sehr hart gearbeitet, also habe
+ich mich entschlossen, euch einen extra Bonus
+zu zahlen. Vielen Dank für alles!\e"
+MG06280016,\h( )Du hast deinen “Lohn” erhalten.\e
+MG06280018,"\h( )Außerdem hast du
+4 “Sacres Crystal” und 1 “Cham” erhalten.\e"
+MG06280005,"\h(«Aika»)Wow! Danke! Damit haben wir endlich die
+10.000 Goldstücke zusammen, die wir brauchen,
+um ein Schiff zu kaufen!\e"
+MG06280006,"\h(«Gilder»)Schau mal an! Ich wusste ja nicht, dass hier
+so hübsche Mädchen arbeiten!\e"
+MG06280007,"\h(«Taverneninhaber»)Gilder, du alter Schuft…… lass ja die Finger
+von den Aushilfen, klar?\e"
+MG06280008,"\h(«Gilder»)Sie haben gerade aufgehört, nicht wahr?
+Du brauchst dich nicht als Schutzpatron
+aufzuführen……\e"
+MG06280009,"\h(«Taverneninhaber»)Manche Dinge ändern sich nie……
+Gilder, du hast noch nie einem hübschen
+Gesicht widerstehen können……\e"
+MG06280010,"\h(«Taverneninhaber»)Aika…… Fina…… Passt dort draußen gut auf
+euch auf! \e"
+MG06280111,"\h(«Aika»)Danke für alles!
+Ok, Fina, gehen wir zurück zum Gasthaus und
+bezahlen wir unsere Rechnung!\c"
+MG06280011,"\h(«Taverneninhaber»)Wenn ihr es euch anders überlegen solltet,
+könnt ihr jederzeit wieder hier arbeiten!\c"
+MG06280012,"\h(«Taverneninhaber»)Willkommen, junger Mann!
+Bitte, setz dich doch und mach es dir bequem!\e"
+MG06280013,"\h(«Taverneninhaber»)Nasr ist das absolute Zentrum des Handels!
+Wir führen Loqua aus aller Herren Länder!
+Welche Sorte Sie auch wünschen, wir haben sie
+wahrscheinlich auf Lager!\c"
+MG06280014,"\h(«Taverneninhaber»)Aika! Fina!
+Wie ist es euch ergangen? Bitte macht es euch
+bequem und unterhaltet euch gut, solange ihr
+hier seid!\c"
+MG06280015,"\h(«Taverneninhaber»)Und wenn ihr je den Wunsch verspüren solltet,
+könnt ihr jederzeit wieder hier arbeiten.\c"
+MG06290000,"\h(«Deprimierter Mann»)Ich habe gehört, die Kaiserin von Valua sei
+einst eine schöne Frau gewesen……\e"
+MG06290001,"\h(«Deprimierter Mann»)Aber diese Kaiserin ist heute nichts anderes
+als ein machthungriges altes Weib. Sogar
+der Prinz ist von ihr weggerannt!\c"
+MG06290002,"\h(«Deprimierter Mann»)Wie? Valua bereitet einen Angriff vor? Unsere
+Grenzposten werden sich um sie kümmern……
+Wir brauchen uns keine Sorgen zu machen……\e"
+MG06290003,"\h(«Deprimierter Mann»)Ich hörte jedoch, dass eine von den Admiralen
+der Valuan Armada eine Schönheit sei.\c"
+MG06300000,"\h(«Matrose»)Der Loqua und das Essen in diesem Laden sind
+sehr gut, aber das Problem ist, dass sie keine
+hübschen Mädels haben.\e"
+MG06300001,"\h(«Matrose»)Diesem alten betrunkenen Tavernenwirt in
+die Augen zu schauen, hilft meinen müden
+Knochen auch nicht weiter.\c"
+MG06300002,"\h(«Matrose»)Moment mal! Was ist mit diesen beiden Mädchen,
+die vorher hier waren? Huhu…… wo seid ihr,
+hübsche Mädels?\e"
+MG06300003,"\h(«Matrose»)Hier arbeiten sonst zwei richtig süße Puppen,
+aber heute scheinen sie nicht hier zu sein.\c"
+MG06300004,"\h(«Matrose»)He, ihr Süßen! Wo seid ihr denn gewesen?!\e"
+MG06300005,"\h(«Matrose»)Ich komme nur in diesen Laden, um euch beide
+zu sehen, also seid gefälligst auch
+hier, wenn ich komme!\c"
+MG06300006,"\h(«Matrose»)Ich komme nur in diesen Laden, um euch beide
+zu sehen, also seid gefälligst auch
+hier, wenn ich komme!\c"
+MG06310000,"\h(«Osman»)Ich grüße euch! Ich bin die Inhaberin dieses
+Unternehmens. Die Leute nennen mich Osman.\e"
+MG06310001,"\h(«Osman»)Ich bin, wie man so sagt, Finanzier, das heißt,
+Geldverleiherin. Wenn ihr Gold braucht, kann
+ich euch helfen.\e"
+MG06310002,"\h(«Aika»)Ach, wirklich? Wir haben
+Schiffbruch erlitten, also müssen wir ein
+Neues kaufen.\e"
+MG06310003,"\h(«Aika»)Könnten Sie uns das Geld leihen, um ein neues
+Schiff zu kaufen? Wir versprechen, dass wir
+es zurückzahlen werden.\e"
+MG06310004,"\h(«Osman»)Ein Schiffbruch! Du meine Güte! Das muss ja
+furchtbar gewesen sein! Aber ihr werdet mir
+die Frage gestatten…… was könnt ihr mir als
+zusätzliche Sicherheit anbieten?\e"
+MG06310005,"\h(«Aika»)Zu……zusätzliche Sicherheit? Aber wir sind doch
+gerade so mit dem Leben davongekommen. Wir
+besitzen nichts.\e"
+MG06310006,"\h(«Osman»)Geschäftsführer! Bitte zeigen Sie diesen
+Herrschaften den Ausgang!\e"
+MG06310007,"\h(«Aika»)Was soll denn das jetzt? Ich habe doch gesagt,
+wir zahlen es zurück. Wir mögen keine
+Sicherheiten haben, aber Sie können uns
+vertrauen.\e"
+MG06310008,"\h(«Osman»)Das ist doch hier kein Wohlfahrtsunternehmen!
+Ich gehe mit jedem Geschäfte ein, wenn es mir
+auch nur ein Goldstück einbringt……\e"
+MG06310009,"\h(«Osman»)……aber ich würde sogar den Nasultan abweisen,
+wenn es so aussähe, als würde ich dabei
+Verlust machen.\e"
+MG06310010,"\h(«Osman»)Schließlich ist Geld ja mein ganzes Leben!
+O, kostbares, kostbares Geld! Geht!
+Macht, dass ihr fortkommt!\c"
+MG06310011,"\h(«Osman»)Ihr werdet es nicht erleben, dass ich jedem
+jungen Dahergelaufenen Geld ohne Sicherheit
+leihe. Macht, dass ihr fortkommt!\c"
+MG06310012,"\h(«Osman»)Ich grüße euch! Ich bin die Inhaberin dieses
+Unternehmens. Die Leute nennen mich Osman.\e"
+MG06310013,"\h(«Osman»)Ich bin, wie man so sagt, Finanzier, das heißt,
+Geldverleiherin. Wenn ihr Gold braucht, kann
+ich euch helfen.\e"
+MG06310014,"\h(«Vyse»)Wirklich? Sie sagen, Sie wollen uns etwas
+leihen? Ich könnte ein neues Piratenschiff
+gebrauchen.\e"
+MG06310015,"\h(«Osman»)P……P……Pirat? Sekretär! Bitte zeigen Sie
+diesem Burschen die Tür!\e"
+MG06310016,"\h(«Osman»)Das wäre ja noch schöner, wenn ich jedem
+Dummkopf, der sich Luftpirat nennt, Geld
+leihen würde! Er erhält nicht ein Stück Gold!\e"
+MG06310017,"\h(«Osman»)Schließlich ist Geld ja mein ganzes Leben!
+O, kostbares, kostbares Geld! Geht!
+Macht, dass ihr fortkommt!\c"
+MG06310018,"\h(«Osman»)Das wäre ja noch schöner, wenn ich jedem
+Dummkopf, der sich Luftpirat nennt, Geld
+leihen würde! Er erhält nicht ein Stück Gold!\c"
+MG06310019,"\h(«Osman»)Willkommen!
+Ich bin die Inhaberin dieses Geschäfts, Osman.\e"
+MG06310020,"\h(«Osman»)Ich bin hier in Nasrad die Geldverleiherin.
+Wenn Sie also unbedingt Hilfe benötigen,
+sind Sie am richtigen Ort…… wenn ich Sie für
+würdig erachte, natürlich.\e"
+MG06310021,"\h(«Aika»)Geldverleiherin? Nun, wir haben ein kleines
+Schiff gekauft, um nach Vyse und Captain
+Drachma zu schauen, aber ich mache mir immer
+noch Sorgen.\e"
+MG06310022,"\h(«Aika»)Ich wünschte, wir hätten genug Geld, um ein
+richtiges Luftpiraten-Schiff zu kaufen. Eines
+mit Kanonen und allem. Aber dazu brauchen wir
+wahrscheinlich VIEL mehr Geld……\c"
+MG06310023,"\h(«Osman»)Lu……Luftpiraten?!
+Macht, dass ihr aus meinem Laden kommt!
+Ich lasse mich nicht mit Dieben ein!!!\e"
+MG06310024,"\h(«Osman»)Ich würde mein Geld nie an einen Dieb ausleihen!
+Dann würde ich mein kostbares Geld nie
+wiedersehen! Ihr würdet wahrscheinlich einfach
+abhauen!!\e"
+MG06310025,"\h(«Osman»)Mein schönes Geld ist zu kostbar, um es an
+Leute wie euch zu verschenken!! Jetzt haut
+ab!!!\c"
+MG06310026,"\h(«Osman»)Ich würde mein Geld nie an einen Dieb ausleihen!
+Dann würde ich mein kostbares Geld nie
+wieder sehen! Ihr würdet wahrscheinlich einfach
+abhauen!!\e"
+MG06320000,"\h(«Osmans Sekretär»)Halli, hallo! Willkommen beim Osman
+Finanzemporium.\e"
+MG06320001,"\h(«Osmans Sekretär»)Osman, die Inhaberin, ist im Hinterzimmer.\c"
+MG06320002,"\h(«Osmans Sekretär»)Osman, die Inhaberin, ist im Hinterzimmer.\c"
+MG06330000,"\h(«Nasr-Soldat»)Gen Westen gibt es zwei Meerengen, die eine
+direkte Verbindung zum Mid Ocean herstellen.\e"
+MG06330001,"\h(«Nasr-Soldat»)Wenn Valua angreifen würde, würden sie
+zweifellos durch eine dieser Meerengen
+kommen…… wahrscheinlich durch die
+South Dannel Strait.\e"
+MG06330002,"\h(«Nasr-Soldat»)Aber die Meerenge wird ständig durch Nasrs
+beste Marineflotte bewacht. Sie ist absolut
+unpassierbar.\e"
+MG06330003,"\h(«Nasr-Soldat»)Was ist mit der North Dannel Strait, fragst
+du? Eine starke Turbulenz am Himmel macht
+diese Gegend zur Todesfalle für Schiffe.\e"
+MG06330004,"\h(«Nasr-Soldat»)Es existiert kein Schiff, das es durch die
+North Dannel schaffen würde, also braucht
+man sie gar nicht zu bewachen.\c"
+MG06330005,"\h(«Nasr-Soldat»)Die Befestigungsanlagen der Stadt Nasrad sind
+einwandfrei. Von Valuas Schrotthaufen einer
+Marineflotte haben wir absolut nichts zu
+befürchten!\c"
+MG06400000,"\h(«Nasr Palastwache»)Dies ist der Palast des Nasultan. Niemand,
+der nicht dazu berechtigt ist, darf eintreten!\c"
+MG06400001,"\h(«Nasr Palastwache»)Dies ist der Palast des Nasultan. Niemand,
+der nicht dazu berechtigt ist, darf eintreten!\c"
+MG06400002,"\h(«Nasr-Palastwache»)Man kann sich absolut darauf verlassen,
+dass wir die Hauptstadt verteidigen.\c"
+MG06410000,"\h(«Nasr Palastwache»)Dies ist der Palast des Nasultan. Kein Zutritt
+für Touristen!\c"
+MG06410001,"\h(«Nasr Palastwache»)Dies ist der Palast des Nasultan. Kein Zutritt
+für Touristen!\c"
+MG06410002,"\h(«Nasr Palastwache»)Es ist undenkbar, dass unsere Hauptstadt jemals
+hinter Valua zurückstehen sollte!\c"
+MG06420000,"\h(«Nasr-Soldat»)Sieh da, unsere schöne Hauptstadt! Es könnte
+keinen größeren Unterschied zwischen zwei
+Städten geben als zwischen unserer herrlichen
+Stadt und Valuas Schutthaufen!\e"
+MG06420001,"\h(«Nasr-Soldat»)Solange es unsere nasrischen Streitkräfte gibt,
+werden wir es nicht zulassen, dass Länder wie
+Valua auch nur einen Finger an unsere schöne
+Stadt legen!\c"
+MG06430000,"\h(«Junges Mädchen»)Wir sind frisch verliebt. Jeden Tag treffen wir
+uns am Brunnen und gehen zusammen zum Basar.\e"
+MG06430001,"\h(«Junger Mann»)Im Basar in Nasrad findet man exotische Ware,
+die aus aller Welt hierher gebracht wurde.\e"
+MG06430002,"\h(«Junges Mädchen»)Also sehe ich eine Sache nach der anderen,
+ohne die ich nicht leben kann! Und er ist
+so süß, er kauft mir alles, was ich will!\e"
+MG06430003,"\h(«Junger Mann»)Für dich würde ich ohne Reue mein letztes
+Goldstück ausgeben. Ich liebe dich, mein
+Kleines!\c"
+MG06450000,"\h(«Mann»)Wie ich höre, geschieht in Valua neuerdings
+viel Ungewöhnliches. Ob es wohl wieder
+Krieg geben wird?\e"
+MG06450001,"\h(«Mann»)Wir haben die nasrische Armee zum Schutz,
+also glaube ich nicht, dass sie je diese Stadt
+erreichen werden.\c"
+MG06460000,"\h(«Frau»)Hallo! Vor langer Zeit war diese Stadt eine
+große Oase, die als City in the Sand bekannt
+war.\e"
+MG06460001,"\h(«Frau»)Nasrad wurde von einem wohlhabenden Händler
+gegründet. Er benutzte die Oase als
+Ausgangsbasis und baute einen Palast mit
+einer Mauer ringsherum.\e"
+MG06460002,"\h(«Frau»)Dieser Händler wurde der erste Nasultan,
+das heißt, König von Nasr.\c"
+MG06470000,"\h(«Mädchen»)Irgendwo…… hoch über dem Himmel von Nasr……
+spannt sich ein schöner Regenbogen zwischen
+den Wolken……\c"
+MG06480000,"\h(«Matrose»)Hurra! Das Schiff wird zur Abfahrt vorbereitet!
+Lass mal sehen, Treibstoff habe ich bereits
+gekauft. Ach, ja! Unterwäsche zum Wechseln!\e"
+MG06480001,"\h(«Matrose»)Also, wo gibt's wohl Unterwäsche? Im
+Waffenladen? Herrje, ich sollte mich besser
+beeilen!\c"
+MG06480002,"\h(«Matrose»)Hurra! Das Schiff wird zur Abfahrt vorbereitet!
+Lass mal sehen, Treibstoff habe ich bereits
+gekauft. Ach, ja! Tintenfisch als Geschenk!\e"
+MG06480003,"\h(«Matrose»)Also, wo verkaufen sie wohl eingelegten
+Tintenfisch? Im Basar? Beim Objekthändler?
+Ach herrje, ich sollte mich beeilen!\c"
+MG06490000,"\h(«Gilder»)Hallo, Vyse. Ich werde noch ein paar Gläser
+trinken, geh schon mal zum Gasthaus vor.\c"
+MG06490001,"\h(«Gilder»)Das muss mein Glückstag sein! Ich gehe an
+Land, und die ersten Lebewesen, die ich sehe,
+seid ihr hübschen Mädels!\e"
+MG06490002,"\h(«Gilder»)Ich möchte mich vorstellen. Man nennt mich
+Gilder. Vielleicht könnt ihr mir den Gefallen
+tun und meinen Namen behalten, Mädels!\c"
+MG90390000,"\h(«Zauberhändler»)Halli, hallo! Ich bin der Zauberhändler!
+Ich reise um die ganze Welt und verkaufe
+meine Ware!\e"
+MG90390001,"\h(«Zauberhändler»)Alles, was ich anbiete, ist rar und wundersam.
+Kommen Sie, schauen Sie sich um.\e"
+MG90390002,"\h(«Was wirst du tun?»)“Objekte kaufen und verkaufen”.
+“Über Verschiedenes sprechen”.
+“Weggehen”.\e"
+MG90390003,"\h(«Zauberhändler»)Irgendwo auf dieser Welt gibt es eine Insel,
+auf der ein sehr teures Gewürz, “Pfeffer”
+genannt, wächst.\c"
+MG90390004,"\h(«Zauberhändler»)Vielen Dank.
+Ich würde mich freuen, wenn wir uns bald
+wieder sehen.\c"
+MG06030200,"\h(«Gildenvorsteher»)Ich habe gehört, dass du einen der Gesuchten 
+besiegt hast! Gut gemacht! Hier ist deine Beloh-
+nung! Du hast sie dir verdient!\e"
+MG06030201,"\h(«Gildenvorsteher»)Bitte schön! Eine Belohnung für deine Arbeit.
+Ich habe in letzter Zeit viel über dich gehört.
+Mach weiter so. Ich zähle auf dich.\e"
+MG06030202,"\h(«Gildenvorsteher»)D, du hast alle auf der Fahndungsliste besiegt!
+Dank dir können die Leute wieder frei und si-
+cher durch den Himmel segeln! Es ist zwar nicht
+viel, aber bitte schön. Das ist für dich.\e"
+MG06030203,"\h(«Gildenvorsteher»)Moment mal. Ich hätte es fast vergessen. Hier
+…… das ist hier angekommen und an dich
+adressiert.\e"
+MG06030204,\h( )Du hast einen “Black Spot” erhalten.\e
+MG06030205,"\h(«Gildenvorsteher»)Es ist eine Nachricht vom Todesengel……
+Es sieht so aus, als stecktest du in
+Schwierigkeiten. Du solltest da draußen lieber
+aufpassen.\e"
+MGwanted00,"\h( )Du hast 1.000 Goldstücke bekommen, weil du
+“Baltor, den Schwarzbärtigen” besiegt hast.\e"
+MGwanted01,"\h( )Du hast 2.000 Goldstücke bekommen, weil du
+“Rupee vom Larso-Klan” besiegt hast.\e"
+MGwanted02,"\h( )Du hast 4.000 Goldstücke bekommen, weil du
+“den runden Gordo” besiegt hast.\e"
+MGwanted03,"\h( )Du hast 5.000 Goldstücke bekommen, weil du
+“Lapen, den Volksfeind” besiegt hast.\e"
+MGwanted04,"\h( )Du hast 8.000 Goldstücke bekommen, weil du
+“die Dämonen von Ixa'ness” besiegt hast.\e"
+MGwanted05,"\h( )Du hast 20.000 Goldstücke bekommen, weil du
+“Vize, den Betrüger” besiegt hast.\e"
+MGwanted06,"\h( )Du hast 20.000 Goldstücke bekommen, weil du
+“Daikokuya, den Reichen” besiegt hast.\e"
+MGwanted07,"\h( )Du hast 30.000 Goldstücke bekommen, weil du 
+“Lord Zivilyn Bane” besiegt hast.\e"
+MG06020010,"\h(«Aika»)Nun… äh… eigentlich… haben wir noch nicht
+mal Schiffe, die wir einsetzen könnten… \e"
+MS06020000,"\h(«Mercader de Repuestos de Navío»)Hola…… ¿qué tal va el viaje? ¡Tengo cañones para
+todas las necesidades destructivas!
+¡Mira mis artículos cuanto quieras!\e"
+MS06020001,"\h(«Aika»)Bueno…… esto……  la verdad es que ahora mismo ni
+siquiera tenemos barco propio……\e"
+MS06020002,"\h(«Mercader de Repuestos de Navío»)Entonces qué hacéis aquí…… ¿Mirar escaparates?
+No me gustan los mirones……\c"
+MS06020003,\h(«Mercader de Repuestos de Navío»)¡¡Prohibido mirar escaparates!!\c
+MS06020004,"\h(«Mercader de Repuestos de Navío»)Hola…… ¿qué tal os va el viaje?
+Quizá os vaya bien un cañón enorme para sacar a
+vuestros enemigos de este cielo.\e"
+MS06020005,"\h(«Vyse»)Bueno…… la verdad es que ahora mismo no tenemos
+barco, así que no necesitamos comprar nada……\c"
+MS06020006,"\h(«Mercader de Repuestos de Navío»)Entonces qué hacéis aquí…… ¿Mirar escaparates?
+No me gustan los mirones……\c"
+MS06020007,\h(«Mercader de Repuestos de Navío»)¡¡Prohibido mirar escaparates!!\c
+MS06030000,"\h(«Maestro del Gremio»)Bienvenido al Gremio de los Marinos. ¡Pagamos
+muy bien las informaciones sobre
+Hallazgos!\e"
+MS06030001,"\h(«Aika»)No tenemos ni barco ni dinero…… No creo que
+tengamos tiempo para buscar Hallazgos……\e"
+MS06030002,"\h(«Maestro del Gremio»)Mm…… Eso va a ser un problema.
+Si no tienes dinero, siempre puedes ir a un
+prestamista para que te deje un poco.\e"
+MS06030003,"\h(«Maestro del Gremio»)En esta ciudad hay una prestamista que se llama
+Osman. Busca el edificio con un dibujo de un
+gato rosa.\c"
+MS06030004,"\h(«Maestro del Gremio»)En esta ciudad hay una prestamista que se llama
+Osman. Busca el edificio con un dibujo de un
+gato rosa.\c"
+MS06030005,"\h(«Maestro del Gremio»)Bienvenido al Gremio de los Marinos. ¡Pagamos
+muy bien las informaciones sobre
+Hallazgos!\e"
+MS06030006,"\h(«¿Qué vas a hacer?»)“Comprar y vender datos de Hallazgos.”
+“Charlar sobre temas variados.”
+“Salir.”\e"
+MS06030007,"\h(«Maestro del Gremio»)Ahora que lo dices, una chica muy mona que acaba
+de estar aquí dijo que no tenía nada de dinero y
+tampoco navío.\e"
+MS06030008,"\h(«Maestro del Gremio»)Le dije que se fuera a hablar con la
+prestamista, Osman…… Me pregunto qué tal le
+habrá ido……\e"
+MS06030009,"\h(«Maestro del Gremio»)¿Tenéis el Mapa del Tesoro de Daccat?
+¡Me pregunto cuál será esta vez!\e"
+MS06030010,"\h(«Maestro del Gremio»)¡Tengo más de 100 versiones del Mapa del Tesoro
+de Daccat! Je…… Pero todavía no he visto el
+verdadero.\c"
+MS06030011,"\h(«Maestro del Gremio»)Hay oficinas del Gremio de los Marinos en todas
+las ciudades grandes con puerto. No te olvides
+de visitarlas.\c"
+MS06230000,"\h(«Dueña de la Posada»)¡Hola! Son 240 unidades por noche.
+¿Queréis una habitación?\e"
+MS06230001,"\h(«Aika»)Umm…… La verdad es que nuestro barco ha
+naufragado. Estoy intentando reunir un poco de
+dinero, pero……\e"
+MS06230002,"\h(«Dueña de la Posada»)Bah…… Parecéis buenas chicas.
+Me fío de vosotras. Os apunto en el registro y
+ya me pagaréis antes de iros, ¿de acuerdo?\e"
+MS06230003,"\h(«¿Qué vas a hacer?»)“Pasar la noche en la posada.”
+“Salir.”\e"
+MS06230004,"\h(«Dueña de la Posada»)Podéis usar la habitación que está al fondo de
+la segunda planta. Que durmáis bien.\c"
+MS06230005,"\h(«Dueña de la Posada»)Entiendo.
+Bueno, no trabajéis demasiado.
+Si estáis muy cansadas, venid a descansar.\c"
+MS06230006,"\h(«Dueña de la Posada»)¡Bienvenidas!
+Seguro que estáis agotadas……\e"
+MS06230007,"\h(«Dueña de la Posada»)¡Bienvenido! Son 240 unidades de oro por noche.
+¿Quieres una habitación?\e"
+MS06230008,"\h(«¿Qué vas a hacer?»)“Pasar la noche.”
+“Salir.”\e"
+MS06230009,"\h(«Dueña de la Posada»)Puedes usar la habitación al final de las
+escaleras en la segunda planta. Que descanses.\c"
+MS06230010,"\h(«Dueña de la Posada»)Espero que hayas descansado.
+Que la Luna Roja ilumine tu camino.\c"
+MS06230017,"\h(«Dueña de la Posada»)¿Mm? Parece que no tienes oro suficiente. Ya lo
+siento, pero tendrás que volver más adelante
+cuando hayas reunido algo más.\c"
+MS06230018,"\h(«Vyse»)Oh…… Maldita sea.
+Ni siquiera me llega el dinero para coger una
+habitación.\e"
+MS06230019,"\h(«Vyse»)En fin…… Supongo que mi amigo, que va a venir
+más tarde, puede darte el dinero. Se llama
+Gilder y va vestido de rojo.\e"
+MS06230020,"\h(«Dueña de la Posada»)¿Eres amigo de Gilder? Viene a menudo por aquí.
+No te preocupes…… Me fío de él. Ya le pediré
+luego el dinero.\e"
+MS06230021,"\h(«Dueña de la Posada»)Pasa y quédate en la habitación del final de las
+escaleras. Espero que disfrutéis de la estancia
+en Nasrad.\c"
+MS06230011,"\h(«Dueña de la Posada»)Ya.
+Bueno, intentad tomároslo con calma.
+Si necesitáis un descanso, venid aquí.\c"
+MS06230012,"\h(«Dueño de la Posada»)¡Bienvenidos de nuevo!
+Debéis estar cansados.\e"
+MS06230013,"\h(«¿Qué vas a hacer?»)“Pasar la noche en la posada.”
+“Salir.”\e"
+MS06230014,"\h(«Dueña de la Posada»)Quedaros en la habitación al final de las
+escaleras en la segunda planta. Que durmáis
+bien.\c"
+MS06230015,"\h(«Dueña de la Posada»)¿Habéis dormido bien? ¡Que tengáis un buen
+viaje!
+Y que la Luna Roja ilumine vuestro camino.\c"
+MS06230016,"\h(«Dueña de la Posada»)Ya.
+Bueno, intentad tomároslo con calma.
+Si necesitáis un descanso, venid aquí.\c"
+MS06250000,"\h(«Mercader de Armas»)¡Bienvenidos a la tienda de armas!
+¡Vendemos las mismas armas que utilizan
+los soldados de Nasr!\e"
+MS06250001,"\h(«Aika»)Mm…… Me encantaría comprar alguna, pero ahora no
+tengo dinero.\e"
+MS06250002,"\h(«Mercader de Armas»)Entonces no puedes comprar nada.
+Lo siento…… ¡Pero no dudes en volver cuando
+tengas el bolsillo más lleno!\c"
+MS06250003,"\h(«Mercader de Armas»)Entonces no puedes comprar nada.
+Lo siento…… ¡Pero no dudes en volver cuando
+tengas el bolsillo más lleno!\c"
+MS06250004,"\h(«Mercader de Armas»)¡Bienvenidos a la tienda de armas!
+¡Vendemos armas tan potentes como las que usan
+los soldados de Nasr!\e"
+MS06250005,"\h(«¿Qué vas a hacer?»)“Comprar y vender armas.”
+“Charlar de temas variados.”
+“Salir.”\e"
+MS06250006,"\h(«Mercader de Armas»)Ja, ja, ja, ja. ¿Dices que Valua va a atacar?
+He oído que las Fuerzas Armadas Valuan han
+desplegado una extraordinaria actividad.\e"
+MS06250007,"\h(«Mercader de Armas»)Pero no hay forma de que las fuerzas de Valua
+puedan abrirse paso a través de la flota de
+Nasr. Es imposible que lleguen a la ciudad.\c"
+MS06250008,"\h(«Mercader de Armas»)¡Que la Luna Roja esté con vosotros! ¡Volved
+pronto!\c"
+MS06250009,"\h(«Mercader de Armas»)¡Bienvenidos! Aquí vendemos todo tipo de
+armamento. ¡De inmejorable calidad! ¡Hasta los
+guardias de Nasr utilizan mis armas!\e"
+MS06250010,"\h(«¿Qué vas a hacer?»)“Comprar y vender armas.”
+“Charlar sobre temas variados.”
+“Salir.”\e"
+MS06250011,"\h(«Mercader de Armas»)¡Hola! Vosotras trabajáis en la taberna, ¿no?
+He ido varias veces desde que empezasteis a
+trabajar ahí.\e"
+MS06250012,"\h(«Mercader de Armas»)¿Cómo? ¿Lo vais a dejar? Es una lástima.
+Estabais empezando a montar un club de lo más
+divertido en esta zona.\c"
+MS06250013,"\h(«Mercader de Armas»)¡Muchas gracias!
+¡Volved pronto!\c"
+MS06260000,"\h(«Mercader de Nasr»)¡Anda! ¡Jovencita!
+Eres la chica que……
+Han pasado muchas lunas.\e"
+MS06260001,"\h(«Mercader de Nasr»)Soy yo…… Tu amigo y tú me acompañásteis hasta la
+frontera de Nasr hace mucho tiempo.\e"
+MS06260002,"\h(«Mercader de Nasr»)Ya sabes, el del parche en el ojo.
+¿Ya no viajáis juntos?\e"
+MS06260003,"\h(«Aika»)¿Te refieres a Vyse?
+Bueno…… Es una larga historia, pero el caso es
+que acabamos cada uno por su lado.\e"
+MS06260004,"\h(«Mercader de Nasr»)Oh…… Entiendo.
+A lo mejor es que…… esto…… discutísteis por
+algo.\e"
+MS06260005,"\h(«Aika»)Bueno, no…… La verdad es que no ha sido eso.\e"
+MS06260006,"\h(«Mercader de Nasr»)No tienes por qué disimular. ¡Dicen que cuanto
+más quieres a alguien, más te hará sufrir!
+¡Ja, ja, ja!\c"
+MS06260022,"\h(«Mercader de Nasr»)Toma, anda…… toma esto. Quiero que te lo quedes.
+Considéralo un pequeño obsequio en señal de
+gratitud.\e"
+MS06260023,\h( )｡Has recibido “Chum Abirik” x 1!\e
+MS06260024,"\h(«Mercader de Nasr»)Pensé que un fragmento de Piedra Lunar tan
+bonito como éste vendría que ni pintado a una
+dama de tu clase.\c"
+MS06260007,"\h(«Mercader de Nasr»)¡Está bien discutir, pero asegúrate de que
+hacéis luego las paces! Ja, ja, ja……\c"
+MS06260008,"\h(«Mercader de Nasr»)¡Hola, joven! ¡Cuánto tiempo sin verte!\e"
+MS06260009,"\h(«Mercader de Nasr»)¡Soy yo, el mercader al que le echaste una mano
+en la frontera de Nasr!\e"
+MS06260010,"\h(«Mercader de Nasr»)Vaya, veo que no viajas con tus amigas…… Igual
+es que aún no habéis hecho las paces.\e"
+MS06260011,"\h(«Vyse»)¿Cómo? ¿Hacer las paces?
+¿De qué estás hablando?\e"
+MS06260012,"\h(«Mercader de Nasr»)No te preocupes…… Lo sé, lo sé.
+No tienes que ocultarme nada. Vosotros haced las
+paces y ya está.\c"
+MS06260013,"\h(«Mercader de Nasr»)¡Está bien discutir, pero asegúrate de que
+hacéis luego las paces! Ja, ja, ja……\c"
+MS06260014,"\h(«Mercader de Nasr»)¡Anda!, ¿pues no es el joven con el parche en el
+ojo? ¡Pero cuánto tiempo!\e"
+MS06260015,"\h(«Mercader de Nasr»)¡Soy yo, el mercader al que acompañaste hasta la
+frontera de Nasr!\e"
+MS06260016,"\h(«Mercader de Nasr»)Oye, habría jurado que viajabas con una joven
+muchacha con trenzas el día que me acompañasteis
+hasta aquí……\e"
+MS06260017,"\h(«Vyse»)Ah, ya……
+Bueno, es un poco largo de contar, pero acabamos
+separados.\e"
+MS06260018,"\h(«Mercader de Nasr»)Oh…… Entiendo.
+Os habéis peleado.\e"
+MS06260019,"\h(«Vyse»)No, no……
+No es eso, no……\e"
+MS06260020,"\h(«Mercader de Nasr»)Lo sé, lo sé. No tienes que ocultarme nada.
+¡Dicen que cuanto más te quieren, más te harán
+sufrir! ¡Ja, ja……!\c"
+MS06260021,"\h(«Mercader de Nasr»)¡Está bien discutir, pero asegúrate de que
+hacéis luego las paces! Ja, ja, ja……\c"
+MS06270000,"\h(«Mercader de Objetos»)¡Hola y bienvenida!
+¡Ésta es la tienda de objetos exclusivos del
+Nasultán! ¡Vendemos artículos de calidad!\e"
+MS06270001,"\h(«Aika»)Vaya……
+Me encantaría comprar algo, pero no tengo dinero
+ahora mismo……\e"
+MS06270002,"\h(«Mercader de Objetos»)Eso puede suponer un ligero problema.
+¡Pero no dudes en volver cuando tengas algo en
+efectivo!\c"
+MS06270003,"\h(«Mercader de Objetos»)¡No puedo venderte nada si no me vas a pagar!
+¡Vuelve cuando tengas dinero!\c"
+MS06270004,"\h(«Mercader de Objetos»)¡Hola, qué tal!
+¡Ésta es la tienda de objetos exclusivos del
+Nasultán! ¡Vendemos artículos de calidad!\e"
+MS06270005,"\h(«¿Qué vas a hacer?»)“Comprar y vender objetos.”
+“Charlar sobre temas variados.”
+“Salir.”\e"
+MS06270006,"\h(«Mercader de Objetos»)El Nasultán tiene muchas esposas…… y todas ellas
+viven juntas en el palacio.\e"
+MS06270007,"\h(«Mercader de Objetos»)La única preocupación del Nasultán son las
+discusiones de sus esposas. No le preocupan los
+asuntos de estado relacionados con Valua.\e"
+MS06270008,"\h(«Mercader de Objetos»)¡Muchas gracias!
+¡Que la Luna Roja os guíe en vuestro caminar!\c"
+MS06280000,"\h(«Dueño de la Taberna»)Bienvenida, joven.
+¡Por favor, pasa y ponte cómoda!\e"
+MS06280001,"\h(«Dueño de la Taberna»)¡Nasr es el centro neurálgico del comercio!
+¡Aquí servimos bebidas procedentes de todo el
+mundo! ¡Todo lo que te imagines, lo tenemos!\c"
+MS06280002,"\h(«Dueño de la Taberna»)Hola, joven.
+¡Pasa, pasa y ponte cómodo!\e"
+MS06280003,"\h(«Dueño de la Taberna»)Vaya…… Sí que tienes mala pata. Hasta ayer,
+había unas chicas muy monas que trabajaban
+aquí…… pero se marcharon. Una pena.\c"
+MS06280004,"\h(«Dueño de la Taberna»)¡Anda! Si sois vosotras.
+Aquí tenéis…… el sueldo. Os lo habéis ganado.\e"
+MS06280017,"\h(«Dueño de la Taberna»)Como las dos habéis trabajado mucho, he pensado
+echaros una mano con un ligero aumento.
+¡Gracias por todo!\e"
+MS06280016,\h( )Has recibido los “Salarios”.\e
+MS06280018,"\h( )También has recibido 4 “Cristal Sacres” y
+1 “Chum”.\e"
+MS06280005,"\h(«Aika»)¡Oh! ¡Gracias! ¡Con esto hemos conseguido reunir
+las 10.000 unidades de oro que necesitamos para
+comprar el barco!\e"
+MS06280006,"\h(«Gilder»)¡Pero bueno! ¡No sabía que aquí trabajaban unas
+chicas tan monas!\e"
+MS06280007,"\h(«Dueño de la Taberna»)Gilder, bribón…… ¡Las manos quietas! ¿Entendido?\e"
+MS06280008,"\h(«Gilder»)Ya no trabajan aquí, ¿no?
+No tienes por qué ser tan protector……\e"
+MS06280009,"\h(«Dueño de la Taberna»)Hay cosas que no cambian nunca……
+Gilder, tú nunca has sido la clase de tipo que
+se resiste a una cara bonita……\e"
+MS06280010,"\h(«Dueño de la Taberna»)Aika…… Fina…… ¡Mucho cuidadito por ahí! ¡Andaos
+con ojo!\e"
+MS06280111,"\h(«Aika»)¡Muchas gracias por todo!
+¡Bueno, Fina, volvamos a la posada y pagaremos
+la cuenta!\c"
+MS06280011,"\h(«Dueño de la Taberna»)¡Si alguna vez cambiáis de opinión sobre el
+trabajo, aquí siempre seréis bienvenidas!\c"
+MS06280012,"\h(«Dueño de la Taberna»)¡Hola, joven!
+¡Pasa, pasa y ponte cómodo!\e"
+MS06280013,"\h(«Dueño de la Taberna»)¡Nasr es el centro neurálgico del comercio!
+¡Tenemos loqua de todo el mundo! ¡Cualquier
+loqua que se te ocurra, lo tenemos!\c"
+MS06280014,"\h(«Dueño de la Taberna»)¡Aika! ¡Fina!
+¿Qué tal estáis, chicas? ¡Pasad y poneos
+cómodas!\c"
+MS06280015,"\h(«Dueño de la Taberna»)Si alguna vez necesitáis un trabajo, ya sabéis
+que aquí siempre seréis bien recibidas.\c"
+MS06290000,"\h(«Hombre Deprimido»)He oído que la Emperatriz de Valua fue una vez
+una mujer muy bella……\e"
+MS06290001,"\h(«Hombre Deprimido»)¡Pero ahora la Emperatriz no es más que una
+vieja bruja sedienta de poder! ¡Hasta el
+príncipe ha huido de ella!\c"
+MS06290002,"\h(«Hombre Deprimido»)¿Cómo? ¿Los Valuan van a atacarnos? Nuestros
+guardias fronterizos se encargarán de ellos……
+No hay de qué preocuparse……\e"
+MS06290003,"\h(«Hombre Deprimido»)Pero he oído que una de las almirantes de la
+Armada Valuan es una belleza.\c"
+MS06300000,"\h(«Marino»)El loqua y la comida que ponen aquí son bastante
+buenos, el problema es que no hay chicas
+guapas.\e"
+MS06300001,"\h(«Marino»)Pedir el menú a esta tabernera rubicunda no
+contribuye a tonificar mis desgastados músculos.\c"
+MS06300002,"\h(«Marino»)¡Un momento! ¿Pero qué pasó con esas dos chicas
+que estaban aquí antes? Holaaa…… ¿Dónde os
+habéis metido, preciosidades?\e"
+MS06300003,"\h(«Marino»)Aquí suelen trabajar un par de chicas monísimas,
+pero hoy no las veo por ningún lado.\c"
+MS06300004,"\h(«Marino»)Eh, ¡chicas! ¡¿Dónde os habéis metido?!\e"
+MS06300005,"\h(«Marino»)¡La única razón por la que vengo a este garito
+es veros a vosotras, así que tenéis que estar
+aquí cuando yo venga!\c"
+MS06300006,"\h(«Marino»)¡La única razón por la que vengo a este garito
+es veros a vosotras, así que tenéis que estar
+aquí cuando yo venga!\c"
+MS06310000,"\h(«Osman»)¡Saludos! Soy la propietaria de este
+establecimiento.
+La gente me llama Osman.\e"
+MS06310001,"\h(«Osman»)Soy lo que llamaríais una prestamista, lo que
+quiere decir que cedo dinero. Si necesitáis
+dinero, yo os puedo ayudar.\e"
+MS06310002,"\h(«Aika»)¿Nos ayudarás? Nuestro navío quedó destrozado en
+un accidente y necesitamos comprar uno nuevo.\e"
+MS06310003,"\h(«Aika»)¿Nos podrías dejar suficiente dinero para
+comprar un barco nuevo? Prometemos
+devolvértelo.\e"
+MS06310004,"\h(«Osman»)¡Un accidente de barco! ¡Dios mío! ¡Debe haber
+sido terrorífico! Pero quisiera saber una cosa……
+¿qué vais a ofrecerme como aval?\e"
+MS06310005,"\h(«Aika»)¿Aval? Pero si apenas pudimos escapar con la
+ropa hecha un hatillo a la espalda. No nos queda
+más que el apellido.\e"
+MS06310006,"\h(«Osman»)¡Encargado! ¡Por favor, enseñe a estas clientas
+el camino a la puerta!\e"
+MS06310007,"\h(«Aika»)¿Pero qué pasa? He dicho que te lo
+devolveríamos. Puede que no tengamos aval, pero
+puedes confiar en nosotras.\e"
+MS06310008,"\h(«Osman»)¡Esto no es una institución de caridad! Yo hago
+negocios con cualquiera, a condición de que me
+reporte aunque sea una pieza de oro……\e"
+MS06310009,"\h(«Osman»)Pero rechazaría al mismísimo Nasultán si pensara
+que me iba a reportar pérdidas.\e"
+MS06310010,"\h(«Osman»)¡Al fin y al cabo, el dinero es mi vida! ¡El
+precioso, precioso dinero! ¡Largaos de aquí!
+¡Largaos!\c"
+MS06310011,"\h(«Osman»)No voy a prestar dinero a la primera jovencita
+despistada que aparezca, sin un aval. Largo
+de aquí, he dicho. ¡Largo!\c"
+MS06310012,"\h(«Osman»)¡Saludos! Soy la propietaria de este negocio.
+La gente me llama Osman.\e"
+MS06310013,"\h(«Osman»)Soy lo que llamarías una prestamista, lo que
+quiere decir que cedo dinero. Si necesitas
+dinero, yo te puedo ayudar.\e"
+MS06310014,"\h(«Vyse»)¿En serio? ¿Prestas dinero a la gente?
+Porque no me vendría nada mal un barco pirata
+nuevo.\e"
+MS06310015,"\h(«Osman»)¿Pi, pirata? ¡Asistente! ¡Haga el favor de
+acompañar a este joven a la salida!\e"
+MS06310016,"\h(«Osman»)¡Yo no presto dinero al primer idiota que
+aparece haciéndose llamar Pirata Aéreo!
+¡No pienso darte ni una pieza de oro!\e"
+MS06310017,"\h(«Osman»)¡Al fin y al cabo, el dinero es mi vida!
+¡El precioso, precioso dinero! ¡Fuera de aquí!
+¡Fuera!\c"
+MS06310018,"\h(«Osman»)¡Yo no presto dinero al primer idiota que se
+hace llamar Pirata Aéreo! ¡No pienso darte ni
+una pieza de oro!\c"
+MS06310019,"\h(«Osman»)¡Muy buenas!
+Soy Osman, la propietaria de este
+establecimiento.\e"
+MS06310020,"\h(«Osman»)Soy la prestamista de Nasrad. Si necesitáis
+ayuda desesperadamente, habéis venido al lugar
+adecuado…… Si yo así lo considero, claro.\e"
+MS06310021,"\h(«Aika»)¿Prestamista? Bueno…… de hecho hemos comprado un
+pequeño navío para buscar a Vyse y al Capitán
+Drachma, pero sigo preocupada.\e"
+MS06310022,"\h(«Aika»)Ojalá tuviéramos dinero para comprar un navío de
+Piratas Aéreos. Uno con cañones y todo eso.
+Pero para eso necesitamos MUCHO dinero……\c"
+MS06310023,"\h(«Osman»)¡¿Pi, Piratas Aéreos?!
+¡Salid de mi establecimiento!
+¡¡¡Yo no tengo nada que ver con ladrones!!!\e"
+MS06310024,"\h(«Osman»)¡Jamás prestaría dinero a un ladrón! ¡No
+recuperaría nada de mi preciado dinero! ¡¡Seguro
+que saldríais huyendo con él!!\e"
+MS06310025,"\h(«Osman»)¡¡Mi precioso dinero es demasiado especial para
+dárselo a gente de vuestra calaña!!
+¡¡¡Y ahora fuera de aquí!!!\c"
+MS06310026,"\h(«Osman»)¡Jamás prestaría dinero a un ladrón! ¡No
+recuperaría nada de mi preciado dinero! ¡¡Seguro
+que saldríais huyendo con él!!\c"
+MS06320000,"\h(«Asistente de Osman»)¡Hola, hola! ¡Bienvenidos a Financieras Osman!\e"
+MS06320001,"\h(«Asistente de Osman»)Osman, la propietaria, está en la trastienda.\c"
+MS06320002,"\h(«Asistente de Osman»)Osman, la propietaria, está en la trastienda.\c"
+MS06330000,"\h(«Soldado Nasr»)Al oeste hay dos estrechos que conectan con el
+Océano Medio.\e"
+MS06330001,"\h(«Soldado Nasr»)Si los Valuan nos fueran a atacar, sería a
+través de uno de esos estrechos…… Probablemente
+por el Estrecho de Dannel Sur.\e"
+MS06330002,"\h(«Soldado Nasr»)Pero ese estrecho está vigilado constantemente
+por la mejor flota naval de Nasr. Es totalmente 
+impenetrable.\e"
+MS06330003,"\h(«Soldado Nasr»)¿El Estrecho de Dannel Norte? Una grieta celeste
+con turbulencias convierte a ese lugar en una
+trampa mortal para los barcos.\e"
+MS06330004,"\h(«Soldado Nasr»)Todavía no se ha construido el barco que pueda
+atravesar el Estrecho de Dannel Norte, así que
+no hay necesidad de vigilar ese lugar.\c"
+MS06330005,"\h(«Soldado Nasr»)Las defensas de la ciudad de Nasrad no tienen
+fallos. ¡No hay nada que temer de ese montón de
+desecho que es la flota naval de Valua!\c"
+MS06400000,"\h(«Guardián del Palacio de Nasr»)Éste es el palacio del Nasultán. ¡No se permite
+la entrada a nadie que no esté autorizado!\c"
+MS06400001,"\h(«Guardián del Palacio de Nasr»)Éste es el palacio del Nasultán. ¡No se permite
+la entrada a nadie que no esté autorizado!\c"
+MS06400002,"\h(«Guardián del Palacio de Nasr»)¡Puedes contar con la guardia del palacio para
+defender la capital!\c"
+MS06410000,"\h(«Guardián del Palacio de Nasr»)Esto es el palacio del Nasultán. ¡No se permite
+la entrada a los turistas!\c"
+MS06410001,"\h(«Guardián del Palacio de Nasr»)Esto es el palacio del Nasultán. ¡No se permite
+la entrada a los turistas!\c"
+MS06410002,"\h(«Guardián del Palacio de Nasr»)¡Sería impensable que nuestra capital acabara
+siendo la segundona de Valua!\c"
+MS06420000,"\h(«Guardián del Palacio de Nasr»)¡Mirad, nuestra bella capital! ¡No existen dos
+ciudades más dispares que nuestra bella ciudad y
+esa montaña de chatarra que es Valua!\e"
+MS06420001,"\h(«Guardián del Palacio de Nasr»)¡Mientras existan las fuerzas armadas de Nasr,
+jamás permitirán que tipos como los Valuan
+pongan un dedo encima de nuestra bella ciudad!\c"
+MS06430000,"\h(«Joven Doncella»)Somos una pareja de tortolitos. Nos vemos todos
+los días en la fuente y vamos de compras
+juntos.\e"
+MS06430001,"\h(«Jovencito»)En el bazar de Nasrad se pueden encontrar
+artículos exóticos traídos de todos los rincones
+del mundo.\e"
+MS06430002,"\h(«Joven Doncella»)¡Ahí encuentro todas estas cosas bonitas, sin
+las que no podría vivir! ¡Y él es tan bueno, que
+me compra todo lo que quiero!\e"
+MS06430003,"\h(«Jovencito»)Por ti, me gastaría hasta la última pieza de oro
+sin pensármelo. ¡Te quiero, pichoncito!\c"
+MS06450000,"\h(«Hombre»)Por lo que he oído, últimamente están pasando
+cosas muy raras en Valua. Me pregunto si vamos a
+tener otra guerra.\e"
+MS06450001,"\h(«Hombre»)Pero teniendo al ejército de Nasr que nos
+defiende, no creo que los Valuan llegaran a
+entrar en la ciudad.\c"
+MS06460000,"\h(«Mujer»)¡Hola! Hace mucho tiempo esta ciudad era un
+enorme oasis conocido como la Ciudad de Arena.\e"
+MS06460001,"\h(«Mujer»)Un mercader rico fundó Nasrad. Utilizó el oasis
+como la base y construyó un palacio con un muro
+a su alrededor.\e"
+MS06460002,"\h(«Mujer»)Ese mercader se convirtió en el primer Nasultán,
+el rey de Nasr.\c"
+MS06470000,"\h(«Niña»)En alguna parte…… por encima de los cielos de
+Nasr…… un precioso arco iris se proyecta a
+través de las nubes……\c"
+MS06480000,"\h(«Marino»)¡Caracoles! ¡El navío se prepara para zarpar!
+Déjame ver, ya he comprado gasolina.
+¡Ah, ya sé! ¡Cambiar de muda!\e"
+MS06480001,"\h(«Marino»)¿Dónde venderán ropa interior? ¿En la tienda de
+armas? ¡Será mejor que me espabile!\c"
+MS06480002,"\h(«Marino»)¡El navío se prepara para zarpar!
+Déjame pensar, ya he comprado ropa interior.
+¡Ah, ya sé! ¡Calamar en vinagre para regalo!\e"
+MS06480003,"\h(«Marino»)¿Dónde venderán calamar en vinagre?
+¿En el bazar? ¿En la tienda de objetos?
+¡Será mejor que me espabile!\c"
+MS06490000,"\h(«Gilder»)Hombre, Vyse. Me voy a tomar otra copa, así que
+vuélvete a la posada tú solo si quieres.\c"
+MS06490001,"\h(«Gilder»)¡Debe ser mi día de suerte! ¡Nada más
+desembarcar me tropecé con tus guapas amigas!\e"
+MS06490002,"\h(«Gilder»)Permitidme que me presente. Me llamo Gilder.
+¡Quizá me hagáis el honor de recordar mi
+nombre, guapas!\c"
+MS90390000,"\h(«Mercader Enigma»)¡Hola! ¡Soy el Mercader Enigma! ¡Viajo por todo
+el mundo vendiendo mis artículos!\e"
+MS90390001,"\h(«Mercader Enigma»)Todos mis artículos son maravillosas rarezas.
+Venid y echad un vistazo.\e"
+MS90390002,"\h(«¿Qué vas a hacer?»)“Comprar y vender objetos.”
+“Charlar sobre temas variados.”
+“Irme.”\e"
+MS90390003,"\h(«Mercader Enigma»)En algún lugar del mundo, hay una isla en cuyas
+tierras crece una especia muy cara llamada
+“Pimienta”.\c"
+MS90390004,"\h(«Mercader Enigma»)Muchas gracias.
+Espero que volvamos a vernos.\c"
+MS06030200,"\h(«Maestro del Gremio»)¡He oído que venciste a uno de los fugitivos!
+¡Bien hecho! ¡Aquí tienes tu recompensa! ¡Te la
+has ganado!\e"
+MS06030201,"\h(«Maestro del Gremio»)¡Aquí tienes! La recompensa por tu trabajo. He
+oído hablar mucho sobre ti últimamente. Sigue
+así. Contamos contigo.\e"
+MS06030202,"\h(«Maestro del Gremio»)¡Ve, venciste a todos los de la Lista de
+Fugitivos! ¡Gracias a ti, la gente puede navegar
+libremente y con seguridad por los cielos! No es
+mucho, pero aquí tienes. Toma esto.\e"
+MS06030203,"\h(«Maestro del Gremio»)Espera un momento. Casi se me olvida. Toma……
+Esto va dirigido a ti.\e"
+MS06030204,\h( )Has recibido un “Punto Negro”.\e
+MS06030205,"\h(«Maestro del Gremio»)Es un mensaje del Ángel de la Muerte…… Parece
+que vas a tener problemas. Ten cuidado por ahí
+fuera.\e"
+MSwanted00,"\h( )Has recibido 1000 monedas de oro por vencer a
+“Baltor el Barbanegra”.\e"
+MSwanted01,"\h( )Has recibido 2000 monedas de oro por vencer a
+“Rupee del Clan Larso”.\e"
+MSwanted02,"\h( )Has recibido 4000 monedas de oro por vencer a
+“Gordo el Redondo”.\e"
+MSwanted03,"\h( )Has recibido 5000 monedas de oro por vencer a
+“Lapen el Peligro Público”.\e"
+MSwanted04,"\h( )Has recibido 8000 monedas de oro por vencer a
+“Los Demonios de Ixa'ness”.\e"
+MSwanted05,"\h( )Has recibido 20000 monedas de oro por vencer a
+“Vize el Impostor”.\e"
+MSwanted06,"\h( )Has recibido 20000 monedas de oro por vencer a
+“Daikokuya el Rico”.\e"
+MSwanted07,"\h( )Has recibido 30000 monedas de oro por vencer a
+“Señor Zivilyn Bane”.\e"
+MS06020010,"\h(«Aika»)Bueno… eh… de hecho… ni siquiera tenemos
+un barco…\e"
+Ms013b000,"\h(«Vyse»)That's a pretty nice fountain.
+It's strange to see them use water like this
+when it's so scarce in Nasr.\c"
+Ms013b001,"\h(«Vyse»)It's cool, clear water.
+Almost makes me want to go for a swim.
+Heh… That would be a little too embarrassing.\c"
+Ms013b002,"\h(«Vyse»)I wonder what's in the barrel?
+Hey, homemade pickles! I hope they won't mind
+if I have just a litle taste…\c"
+Ms013b003,\h(«Vyse»)“Today's lunch menu…”\e
+Ms013b004,"\h(«Vyse»)“Pasta of Pure Passion”
+“Steaming Soup of Love”
+…I'd be too embarrassed to order anything here.\c"
+Ms013b005,"\h(«Vyse»)That's the royal palace ahead. It's surrounded
+completely by water. You'd never think that
+this was a desert kingdom…\c"
+Ms013b006,"\h( )“Enjoy the comfortable life that
+you deserve. This way to Osman's Loans.”\c"
+Ms013b007,"\h(«Vyse»)Mmm… This loqua smells great! It looks like
+someone sure knows how to pick their Loquat
+Berries right!\c"
+Ms013b008,"\h(«Vyse»)Flying Fish soaked in oil, smoked Red Sardis…
+They have all kinds of expensive foods here.\c"
+Ms013b009,"\h(«Vyse»)It says there's Valuan loqua inside.
+I guess trade is more important to
+Valua and Nasr than being enemies.\c"
+Ms013b010,"\h(«Vyse»)It's a well-made sieve.
+It looks like it was made
+by a master craftsman.\c"
+Ms013b011,"\h(«Vyse»)Hey, it's a miniature model of the palace.
+It's made pretty well.
+Hmm… almost makes me want to buy it.\c"
+Ms013b012,"\h(«Vyse»)“Nasr Dance Lessons:
+Learn the traditional dances of the desert”
+I wonder if this is where Belleza learned?\c"
+Ms013b013,"\h(«Vyse»)“Observation tower above. Leave your handprint!”
+I wonder if I can get a good view of Nasrad
+from up there?\c"
+Ms013b014,"\h(«Vyse»)Now, that looks nice…
+There's flowers floating in the fountain.\c"
+Ms013b116,"\h(«Vyse»)Oops…
+It sounds like a woman is staying in this room.
+I probably should just leave this room alone.\e"
+Ms013b117,"\h(«Vyse»)But, that voice…
+Why does it sound so familiar?\c"
+Ms013b016,"\h(«Vyse»)Now, that's an old compass. I haven't seen one
+of these in years! They sure don't make them
+like they used to…\c"
+Ms013b017,"\h(«Vyse»)It's a wanted poster… Hmm… Nope, no one
+I know. To Air Pirates, having a price on your
+own head is sort of a status thing.\c"
+Ms013b018,"\h(«Vyse»)“Navigator wanted…”
+“Treasure map for sale…”
+There's all kinds of postings.\c"
+Ms013b019,"\h(«Vyse»)Wow… This painting of the royal palace at night
+sure looks pretty.\c"
+Ms013b020,"\h(«Vyse»)“A real drink for a real man!
+A taste of the desert, Khale-Relik Loqua!”
+Huh? Who'd want to taste the desert?\c"
+Ms013b021,"\h( )“Soft pastries made by our master chefs!
+Perfect for a light snack, any time of the day!”
+\c"
+Ms013b022,"\h(«Vyse»)So this is what Nasr rugs look like.
+I hear they're really expensive.
+…Maybe I shouldn't touch it.\c"
+Ms013b023,"\h(«Vyse»)They have all sorts of spices. I remember Mom
+used to use all kinds of different spices, too…
+But, I don't think these are the same kinds.\c"
+Ms013b024,"\h(«Vyse»)I wonder what this stuff is… It smells a little
+like medicine. Maybe they mix this with herbs
+and stuff to make medicine?\c"
+Ms013b025,"\h(«Vyse»)Ack!
+…Oh, it's just a mannequin. It's just dressed
+up in traditional Nasrean garb…\c"
+Ms013b026,"\h(«Vyse»)It's a pile of weapons and ammunition.
+I can't believe they just leave it
+out like this.\c"
+Ms013b027,"\h(«Vyse»)Hey, a Nasr long sword.
+Its long, exposed blade is unique
+to this region of the world.\c"
+Ms013b028,"\h(«Vyse»)This treasure chest is beautifully crafted!
+I don't care what's inside… I want to take it
+just for the chest itself!\c"
+Ms013b029,"\h(«Vyse»)It's an expensive-looking vase. I wonder if
+pickles made in a vase like this taste any
+better than pickles made in a normal vase…\c"
+Ms013b030,"\h(«Vyse»)It's an impressive safe…
+I almost want to try to see if I can crack it,
+but I shouldn't steal from civilians.\c"
+Ms013b031,"\h(«Vyse»)It's a picture of some kind of golden bird. I've
+never seen one of those things before… I wonder
+where it's from?\c"
+Ms013b032,"\h(«Vyse»)The sign… the cushions…
+Someone must really like cats.\c"
+Ms013b033,"\h(«Aika»)Wow, what a beautiful fountain!
+It's so weird that there's a fountain like this
+in the middle of the desert.\c"
+Ms013b034,"\h(«Aika»)The water's so cool and clear!
+Maybe I can take off my boots and splash around.
+…Or maybe not.\c"
+Ms013b035,"\h(«Aika»)Hey, pickles!
+No one's looking… Heh, maybe I'll just sneak
+a little taste… Mmm! Good!\c"
+Ms013b036,\h(«Aika»)“Today's lunch menu…”\e
+Ms013b037,"\h(«Aika»)“Romantic Moonlit Desert Steak”
+“Prince on a Dhabu Salad”
+… These names are so romantic!!\c"
+Ms013b038,"\h(«Aika»)Oh, so this is the Nasr royal palace.
+A palace floating on water…
+It's almost like a fairy tale.\c"
+Ms013b039,"\h( )“Enjoy the comfortable life you deserve.
+This way to Osman's Loans.”\c"
+Ms013b040,"\h(«Aika»)This loqua smells so good! I wonder who made it?
+I bet the guys back home would love to have a
+glass of this stuff…\c"
+Ms013b041,"\h(«Vyse»)Flying Fish soaked in oil, smoked Red Sardis…
+It all sounds so good…\c"
+Ms013b042,"\h(«Aika»)Valuan loqua, huh?
+I bet it's hard to get Valuan loqua here in
+Nasr, so it's probably really expensive.\c"
+Ms013b043,"\h(«Aika»)This sieve's cute!
+It looks pretty sturdy, too. I want one!\c"
+Ms013b044,"\h(«Aika»)It's a model of the Nasr royal palace!
+Whoever built this must be an excellent artist!
+I wish I could make something like this!\c"
+Ms013b045,"\h(«Aika»)“Nasr Dance Lessons:
+Learn the traditional dances of the desert”
+Um… I really don't think I have the time.\c"
+Ms013b046,"\h(«Aika»)“Observation tower above. Leave your handprint!”
+I wonder if I can get a view of all of Nasrad
+from up there?\c"
+Ms013b047,"\h(«Aika»)How beautiful!
+There's flowers floating in the fountain!\e"
+Ms013b048,"\h(«Fina»)I don't think it's very polite
+to walk into other people's
+rooms, Aika.\e"
+Ms013b149,"\h(«Aika»)Oh, sorry!
+Yeah, I shouldn't just barge in.
+Bad habit!\c"
+Ms013b049,"\h(«Aika»)This compass looks pretty old.
+Vyse loves looking at
+stuff like this…\c"
+Ms013b050,"\h(«Aika»)It's a wanted poster.
+Doesn't look like they have one for Vyse…
+I don't know if that's good or bad…\c"
+Ms013b051,"\h(«Aika»)“Navigator wanted…”
+“Treasure map for sale…”
+There's all kinds of postings here.\c"
+Ms013b052,"\h(«Aika»)A night view of the royal palace, huh?
+It's kinda romantic…\c"
+Ms013b053,"\h(«Aika»)“A real drink for a real man!
+A taste of the desert-- Khale-Relik Loqua!”
+…Ugh. No thanks.\c"
+Ms013b054,"\h( )“Soft pastries made by our master chefs!
+Perfect for a light snack, any time of the day!”
+\c"
+Ms013b055,"\h(«Aika»)Oh, this is one of those really expensive Nasr
+rugs. There's no way I could afford one.\c"
+Ms013b056,"\h(«Aika»)There's all kinds of spices. I bet that if I
+could use all of these right, I'd be a really
+good cook. I suppose that's a big IF, though…\c"
+Ms013b057,"\h(«Aika»)There's some dried… stuff. What is this stuff,
+anyway? I don't think I've ever seen anything
+like this before…\c"
+Ms013b058,"\h(«Aika»)Yaah!
+…Oh, it's just a mannequin. It's wearing some
+Nasrean clothes… It sure scared me, though.\c"
+Ms013b059,"\h(«Aika»)Weapons and ammunition…
+It's all piled here pretty randomly.\c"
+Ms013b060,"\h(«Aika»)Wow, what a nice sword! I wish I had the money
+to buy it for Vyse… I'm sure he'd love
+something like this…\c"
+Ms013b061,"\h(«Aika»)Wow, what an intricate treasure box!
+Let's see what's inside…
+Oops… It's locked. It won't open.\c"
+Ms013b062,"\h(«Aika»)Wow, this vase looks expensive.
+I'd better not touch it, just in case. Knowing
+me, I'd probably drop it.\c"
+Ms013b063,"\h(«Aika»)That's a pretty impressive safe!
+It's got so many locks…
+It's just screaming, “Open me!”\c"
+Ms013b064,"\h(«Aika»)Hmm… Some sort of golden bird…
+Maybe it's supposed to be good luck for business
+or something.\c"
+Ms013b065,"\h(«Aika»)What a cute cushion!
+The cat on the lady's head must be the model.
+She must really like cats.\c"
+Ms013b066,"\h(«Vyse»)Oh, I almost forgot…\e"
+Ms013b067,"\h(«Vyse»)Before we head off looking for Daccat's Island,
+I should warn the king about Valua's plans.\c"
+Ms013b068,"\h(«Vyse»)What's up with this picture?
+It looks like someone just
+made random strokes with a brush!\c"
+Ms013b069,"\h(«Aika»)It looks like random brushstrokes, but if you
+keep looking at it, it starts looking like
+something… I just can't figure out what…\c"
+Ms013b070,"\h(«Vyse»)Hmm… It won't open.
+I guess it's locked.\c"
+Ms013b071,"\h(«Aika»)It won't open.
+Is it locked or something?\c"
+MFs013b000,"\h(«Vyse»)C'est une fontaine plutôt jolie.
+C'est bizarre de voir qu'ils utilisent l'eau de
+cette façon, sachant que c'est une denrée
+rare à Nasr.\c"
+MFs013b001,"\h(«Vyse»)L'eau est fraîche et claire.
+J'ai presque envie d'aller nager.
+Hé…… Ce serait un peu trop embarrassant.\c"
+MFs013b002,"\h(«Vyse»)Je me demande ce qu'il y a dans le tonneau ?
+Hé, des “condiments” fait maison ! J'espère
+qu'ils ne m'en voudront pas si je les goûte……\c"
+MFs013b003,\h(«Vyse»)“Menu du jour”……\e
+MFs013b004,"\h(«Vyse»)“Pâtes de passion pure”
+“Soupe de l'amour brûlant”
+…… Ça me gênerait de commander quelque chose
+ici.\c"
+MFs013b005,"\h(«Vyse»)C'est le palais royal devant. Il est
+complètement entouré d'eau. Il est difficile
+d'imaginer que c'était autrefois un royaume du
+désert……\c"
+MFs013b006,"\h( )“Profitez pleinement de la vie que vous méritez.
+Allez chez Osman la Prêteuse.”\c"
+MFs013b007,"\h(«Vyse»)Mmm… Ce loqua sent très bon ! On dirait que
+quelqu'un sait vraiment bien choisir les baies
+de Loqua !\c"
+MFs013b008,"\h(«Vyse»)Du poisson volant mariné dans de l'huile, des
+sardis rouges fumés……
+Ils ont toutes sortes de denrées alimentaires
+qui coûtent très chères ici.\c"
+MFs013b009,"\h(«Vyse»)Il est écrit qu'il y a du loqua de Valua dedans.
+Je suppose que Valua et Nasr préfèrent faire du
+commerce plutôt que d'être ennemis.\c"
+MFs013b010,"\h(«Vyse»)C'est un tamis bien fait.
+On dirait qu'il a été fabriqué par un maître
+artisan.\c"
+MFs013b011,"\h(«Vyse»)Hé, c'est une maquette miniature du palais.
+Elle est plutôt bien faite.
+Hmm…… J'ai presque envie de l'acheter.\c"
+MFs013b013,"\h(«Vyse»)“Tour d'observation du sommet.
+Laissez l'empreinte de votre main !”
+Je me demande si je peux avoir une bonne vue de
+Nasr de là-haut ?\c"
+MFs013b014,"\h(«Vyse»)Hé, comme c'est joli……
+Des fleurs flottent dans la fontaine.\c"
+MFs013b116,"\h(«Vyse»)Oh……
+On dirait qu'une femme se trouve dans cette
+pièce. Je devrais peut-être partir.\e"
+MFs013b117,"\h(«Vyse»)Mais, cette voix……
+Pourquoi semble-t-elle si familière ?\c"
+MFs013b016,"\h(«Vyse»)Ça, c'est une vieille boussole. Je n'en ai pas
+vues de semblables depuis des années ! Ils ne
+les fabriquent vraiment plus comme avant……\c"
+MFs013b017,"\h(«Vyse»)C'est un avis de recherche…… Hmm… Non, personne
+que je connaisse. Pour les pirates de l'air,
+c'est un honneur d'avoir sa tête mise à pris.\c"
+MFs013b018,"\h(«Vyse»)“Navigateur recherché……”
+“Carte au trésor à vendre……”
+Il y a toutes sortes d'annonces.\c"
+MFs013b019,"\h(«Vyse»)Oaouh…… Cette peinture du palais royal de nuit
+est vraiment très jolie.\c"
+MFs013b020,"\h(«Vyse»)“Une boisson d'homme ! Le goût du désert: Khale-
+Relik Loqua !”
+Hein ? Qui voudrait goûter au désert ?\c"
+MFs013b021,"\h( )“Des entremets préparés par nos chefs !
+Parfait pour un en-cas à tout moment de la
+journée !”\c"
+MFs013b022,"\h(«Vyse»)Alors, voilà à quoi ressemblent les tapis de
+Nasr.
+J'ai entendu dire qu'ils sont très chers.
+…… Je ne devrais peut-être pas le toucher.\c"
+MFs013b023,"\h(«Vyse»)Ils ont des épices en tout genre. Je me souviens
+que maman se servait aussi de toutes sortes
+d'épices…… Mais je ne crois pas que celles-ci
+soient les mêmes.\c"
+MFs013b025,"\h(«Vyse»)Haa !
+… Oh, c'est juste un mannequin. Il porte un
+costume traditionnel de Nasr……\c"
+MFs013b026,"\h(«Vyse»)C'est un tas d'armes et de munitions.
+Je ne peux pas croire qu'ils les laissent à la
+vue comme ça.\c"
+MFs013b027,"\h(«Vyse»)Hé, une longue épée de Nasr.
+Sa lame longue et dénudée est propre à cette
+partie du monde.\c"
+MFs013b028,"\h(«Vyse»)Ce coffre est de toute beauté !
+Je me fiche de ce qu'il contient…… son apparence
+m'attire davantage !\c"
+MFs013b029,"\h(«Vyse»)Voilà un vase qui a l'air très cher. Je me
+demande si les condiments préparés dans un vase
+comme celui-ci ont meilleur goût que ceux qui
+sont préparés dans un vase normal……\c"
+MFs013b030,"\h(«Vyse»)Voici un coffre-fort impressionnant……
+J'ai presque envie de le forcer, mais je ne
+devrais pas voler les civils.\c"
+MFs013b031,"\h(«Vyse»)Voici l'image d'une sorte d'oiseau doré. Je n'ai
+jamais rien vu de pareil…… Je me demande
+d'où elle vient.\c"
+MFs013b032,"\h(«Vyse»)Le signe…… les coussins……
+Quelqu'un doit vraiment aimer les chats.\c"
+MFs013b033,"\h(«Aika»)Oaouh, quelle fontaine magnifique !
+C'est tellement bizarre de trouver une fontaine
+pareille au milieu du désert.\c"
+MFs013b034,"\h(«Aika»)L'eau est si fraîche et si claire !
+Je peux peut-être retirer mes bottes et
+patauger…… ou…… non peut-être pas.\c"
+MFs013b035,"\h(«Aika»)Hé, des condiments !
+Personne ne regarde…… Hé, je pourrais peut-être
+y goûter…… Mmm…… Délicieux !\c"
+MFs013b036,\h(«Aika»)“Menu du jour……”\e
+MFs013b037,"\h(«Aika»)“Steak de désert au clair de lune”
+“Prince sur une salade de Dhabu”
+…… Ces noms sont tellement romantiques !!\c"
+MFs013b038,"\h(«Aika»)Oh, voilà donc le palais royal de Nasr.
+Un palais flottant……
+C'est presque comme dans un conte de fées.\c"
+MFs013b039,"\h( )“Profitez pleinement de la vie que vous méritez.
+Allez chez Osman la Prêteuse.”\c"
+MFs013b040,"\h(«Aika»)Ce loqua sent si bon ! Je me demande qui l'a
+préparé ? Je parie qu'ils adoreraient en boire
+un verre au pays……\c"
+MFs013b041,"\h(«Vyse»)Du poisson volant mariné dans de l'huile, des
+sardis rouges fumés……
+Tout ça semble tellement bon……\c"
+MFs013b042,"\h(«Aika»)Du loqua de Valua, hein ?
+Je parie que c'est très difficile de se procurer
+du loqua Valuan à Nasr. C'est donc probablement
+très cher.\e"
+MFs013b043,"\h(«Aika»)Ce tamis est joli !
+Il semble également assez solide.
+J'en veux un !\c"
+MFs013b045,"\h(«Aika»)“Leçons de danse de Nasr:
+Apprenez les danses traditionnelles du désert”
+Um…… Je ne crois pas avoir le temps.\c"
+MFs013b046,"\h(«Vyse»)“Tour d'observation du sommet. Laissez
+l'empreinte de votre main !”
+Je me demande si je peux voir tout Nasr de là
+haut ?\c"
+MFs013b047,"\h(«Aika»)Hé, comme c'est beau……
+Des fleurs flottent dans la fontaine.\c"
+MFs013b048,"\h(«Fina»)Aika, je ne crois pas que ce soit vraiment poli
+d'entrer chez les gens comme ça.\e"
+MFs013b149,"\h(«Aika»)Oh, désolée !
+Oui, je ne devrais pas faire irruption comme ça.
+Mauvaise habitude !\c"
+MFs013b049,"\h(«Aika»)Cette boussole semble plutôt vieille.
+Vyse adore regarder les trucs comme ça……\c"
+MFs013b050,"\h(«Aika»)C'est un avis de recherche.
+Il ne semble pas y en avoir pour Vyse……
+Je ne sais pas si c'est bon ou mauvais signe……\e"
+MFs013b051,"\h(«Vyse»)“Navigateur recherché……”
+“Carte au trésor à vendre……”
+Il y a toutes sortes d'annonces.\c"
+MFs013b052,"\h(«Aika»)Une vue nocturne du palais royal, hein ?
+C'est plutôt romantique……\c"
+MFs013b053,"\h(«Aika»)“Une boisson d'hommes !
+Le goût du désert-- Khale-Relik Loqua !”
+…… Beurk ! Non merci.\c"
+MFs013b054,"\h( )“Des entremets préparés par nos chefs !
+Parfait pour un en-cas à tout moment de la
+journée !”\c"
+MFs013b055,"\h(«Aika»)Oh, voici un de ces tapis de Nasr qui sont hors
+de prix. Je ne pourrais vraiment pas m'en payer
+un.\c"
+MFs013b056,"\h(«Aika»)Il y a toutes sortes d'épices. Je parie que si
+je pouvais toutes les utiliser, je serais un
+très bon cuisinier.
+Mais cela reste à voir……\c"
+MFs013b057,"\h(«Aika»)Il y a un…… truc séché. C'est quoi ce truc ?
+Je n'ai jamais rien vu de pareil……\c"
+MFs013b058,"\h(«Aika»)Haah!
+…Oh, c'est juste un mannequin. Il est revêtu de
+vêtements Nasreans…… Qu'est-ce qu'il m'a fait
+peur.\c"
+MFs013b059,"\h(«Aika»)Des armes et des munitions……
+Elles sont entassées en pagaille.\c"
+MFs013b060,"\h(«Aika»)Oaouh, ça c'est une belle épée ! J'aimerais bien
+avoir assez d'argent pour l'offrir à Vyse…… Je
+suis sûre qu'il aimerait beaucoup quelque chose
+comme ça……\c"
+MFs013b061,"\h(«Aika»)Oaouh, quel coffre sophistiqué !
+Voyons ce qu'il contient……
+Oh oh…… Il est verrouillé. Il ne s'ouvre pas.\c"
+MFs013b062,"\h(«Aika»)Oaouh, ce vase a l'air cher.
+Il vaudrait mieux que je ne le touche pas, juste
+au cas où. Me connaissant, je pourrais le faire
+tomber.\c"
+MFs013b063,"\h(«Aika»)Voilà un coffre-fort assez impressionnant !
+Il a tellement de serrures……
+Il me crie: “Ouvre-moi !”\c"
+MFs013b064,"\h(«Aika»)Hmm… Une sorte d'oiseau doré……
+C'est peut-être un porte-bonheur pour le
+commerce, ou quelque chose comme ça.\c"
+MFs013b065,"\h(«Aika»)Quel joli coussin !
+Le chat sur la tête de la dame doit être le
+modèle. Elle doit vraiment aimer les chats.\c"
+MFs013b066,"\h(«Vyse»)Oh, j'ai presque oublié……\e"
+MFs013b067,"\h(«Vyse»)Avant de partir à la recherche de l'île de
+Daccat, je devrais avertir le roi au sujet des
+projets de Valua.\c"
+MFs013b068,"\h(«Vyse»)C'est quoi cette peinture ?
+On dirait que quelqu'un vient juste de donner
+des coups de pinceau au hasard !\c"
+MFs013b069,"\h(«Aika»)On dirait des coups de pinceau portés au hasard,
+mais si on regarde bien, ça représente quelque
+chose…… Je ne sais pas trop quoi……\c"
+MFs013b070,"\h(«Vyse»)Hmm…… Elle ne s'ouvre pas.
+Elle doit être fermée à clé.\c"
+MFs013b071,"\h(«Aika»)Elle ne s'ouvre pas.
+Est-elle fermée à clé ?\c"
+MGs013b000,"\h(«Vyse»)Das ist ein ganz schöner Springbrunnen.
+Es ist verwunderlich, sie so mit Wasser
+umgehen zu sehen, wo es doch so
+knapp in Nasr ist.\c"
+MGs013b001,"\h(«Vyse»)Es ist kaltes, klares Wasser.
+Möchte fast eine Runde schwimmen.
+Heh…… Das wäre ein bisschen zu peinlich.\c"
+MGs013b002,"\h(«Vyse»)Ich frage mich, was in dem Fass ist?
+Hey, hausgemachte Pickles! Hoffe, sie haben
+nichts dagegen, wenn ich mal probiere……\c"
+MGs013b003,\h(«Vyse»)“Das heutige Mittagsmenü…… ”\e
+MGs013b004,"\h(«Vyse»)“Pasta von Reiner Leidenschaft”
+“Dampfende Liebessuppe”
+…… Wäre mir zu peinlich, hier etwas
+zu bestellen.\c"
+MGs013b005,"\h(«Vyse»)Das da vorne ist der Königliche Palast.
+Er ist ganz von Wasser umgeben. Man kann
+sich kaum vorstellen, dass dies ein
+Wüstenkönigreich war……\c"
+MGs013b006,"\h( )“Genieße ein komfortables Leben,
+so wie du es verdienst. Hier geht es
+zu Osmans Darlehen.”\c"
+MGs013b007,"\h(«Vyse»)Mmm…… Dieser Loqua riecht klasse! Sieht
+ganz so aus, als wüsste hier jemand
+seine Loquat-Beeren richtig zu pflücken!\c"
+MGs013b008,"\h(«Vyse»)Fliegender Fisch in Öl, geräucherte Rote
+Sardis…… Die haben alle möglichen teuren
+Lebensmittel hier.\c"
+MGs013b009,"\h(«Vyse»)Hier steht, dass valuanischer Loqua drin ist.
+Schätze, Handel ist für beide, Valua
+und Nasr, wichtiger als die Feindschaft.\c"
+MGs013b010,"\h(«Vyse»)Das ist ein hochwertiges Sieb.
+Sieht aus, als sei es von einem Meister
+unter den Handwerkern hergestellt worden.\c"
+MGs013b011,"\h(«Vyse»)Hey, das ist eine Miniatur des Palastes.
+Sie ist ziemlich gut.
+Hmm…… würde sie am liebsten kaufen.\c"
+MGs013b012,"\h(«Vyse»)“Nasr-Tanzstunden:
+Lernen Sie die traditionellen Tänze der Wüste”
+Frage mich, ob Belleza hier tanzen gelernt hat?\c"
+MGs013b013,"\h(«Vyse»)“Aussichtsturm oben. Hinterlasse deinen
+Handabdruck!” Ob ich von da oben eine
+gute Ausicht über Nasrad habe?\c"
+MGs013b014,"\h(«Vyse»)Na, das sieht schön aus……
+Blumen schwimmen in dem Springbrunnen.\c"
+MGs013b116,"\h(«Vyse»)Uups……
+Klingt so, als sei eine Frau hier im Raum.
+Ich sollte den Raum besser nicht betreten.\e"
+MGs013b117,"\h(«Vyse»)Aber diese Stimme……
+Warum klingt sie so vertraut?\c"
+MGs013b016,"\h(«Vyse»)Na, das ist ein alter Kompass. Habe seit
+Jahren keinen mehr gesehen wie diesen!
+Die stellen die wirklich nicht mehr so her wie……\c"
+MGs013b017,"\h(«Vyse»)Das ist ein Steckbrief…… Hmm……  Nee,
+niemand, den ich kenne. Für Luftpiraten ist es
+eine Prestigefrage, einen Preis auf den eigenen
+Kopf ausgesetzt zu wissen.\c"
+MGs013b018,"\h(«Vyse»)“Navigator gesucht…… ”
+“Schatzkarte zum Verkauf…… ”
+Es gibt alle möglichen Anzeigen.\c"
+MGs013b019,"\h(«Vyse»)Wow…… Dieses Bild vom nächtlichen Königlichen
+Palast ist wirklich schön.\c"
+MGs013b020,"\h(«Vyse»)“Ein richtiges Getränk für einen
+richtigen Mann! Der Geschmack der
+Wüste, Khale-Relik-Loqua!”
+Huh? Wer will schon Wüste probieren?\c"
+MGs013b021,"\h( )“Kuchen, von unseren Chefköchen gebacken!
+Perfekt für einen leichten Snack, zu jeder
+Tageszeit!”\c"
+MGs013b022,"\h(«Vyse»)So sehen also nasrische Teppiche aus.
+Ich habe gehört, dass sie sehr teuer sind.
+…… Vielleicht sollte ich ihn gar nicht berühren.\c"
+MGs013b023,"\h(«Vyse»)Die haben alle möglichen Sorten von Gewürzen.
+Ich erinnere mich, dass Mutter auch viele
+verschiedene Gewürze brauchte…… Glaube
+allerdings, dass es nicht dieselben sind.\c"
+MGs013b024,"\h(«Vyse»)Ich frage mich, was das für ein Zeug ist……
+Es riecht ein bisschen wie Medizin. Vielleicht
+vermischen sie das mit Kräutern und so, um
+Medizin herzustellen?\c"
+MGs013b025,"\h(«Vyse»)Huch!
+…… Oh, es ist nur ein Puppe. Sie ist
+in ein traditionelles nasrisches Gewand
+gekleidet……\c"
+MGs013b026,"\h(«Vyse»)Ein Haufen Waffen und Munition.
+Ich kann nicht fassen, dass sie die einfach
+so liegen lassen.\c"
+MGs013b027,"\h(«Vyse»)Hey, ein nasrisches Langschwert.
+Seine lange, ungeschützte Klinge ist in
+diesem Teil der Welt einzigartig.\c"
+MGs013b028,"\h(«Vyse»)Diese Schatzruhe ist wunderschön!
+Ist mir egal, was drin ist…… Möchte
+es nur wegen der Truhe mitnehmen!\c"
+MGs013b029,"\h(«Vyse»)Der Krug sieht teuer aus. Ich frage mich, ob
+Pickles, die in einem solchen Krug gemacht
+werden, besser schmecken als Pickles
+aus einem normalen Krug……\c"
+MGs013b030,"\h(«Vyse»)Das ist ein imposanter Safe……
+Ich hätte fast Lust, auszuprobieren, ob
+ich ihn knacken kann. Ich sollte allerdings
+keine Zivilisten bestehlen.\c"
+MGs013b031,"\h(«Vyse»)Es ist ein Bild mit irgendeinem
+goldenen Vogel drauf. Ich habe noch nie
+so ein Ding vorher gesehen……
+Wo das wohl herkommt?\c"
+MGs013b032,"\h(«Vyse»)Das Zeichen…… Die Kissen……
+Jemand mag hier wirklich Katzen.\c"
+MGs013b033,"\h(«Aika»)Wow, was für ein schöner
+Springbrunnen! Es ist komisch, dass es einen
+Springbrunnen wie diesen mitten in der
+Wüste gibt.\c"
+MGs013b034,"\h(«Aika»)Das Wasser ist so kühl und klar!
+Vielleicht kann ich meine Stiefel ausziehen
+und ein bisschen rumplantschen.
+…… Vielleicht auch nicht.\c"
+MGs013b035,"\h(«Aika»)Hey, Pickles!
+Niemand guckt……  Heh, vielleicht
+probiere ich einfach mal……  Mmm! Gut!\c"
+MGs013b036,\h(«Aika»)“Das heutige Mittagsmenü…… ”\e
+MGs013b037,"\h(«Aika»)“Romantisches, mondbeschienenes Wüsten-Steak”
+“Prinz mit Dhabu Salat”
+…… Diese Namen sind so romantisch!!\c"
+MGs013b038,"\h(«Aika»)Oh, das ist also der Königliche Palast
+von Nasr. Ein Palast, der auf dem Wasser
+schwimmt…… Fast wie im Märchen.\c"
+MGs013b039,"\h( )“Genieße das komfortable Leben,
+das du verdienst. Hier geht's zu Osmans
+Darlehen.”\c"
+MGs013b040,"\h(«Aika»)Dieser Loqua riecht so gut! Ich frage
+mich, wer ihn gemacht hat? Wette, die
+Jungs zu Hause hätten liebend gern
+ein Glas von diesem Zeug……\c"
+MGs013b041,"\h(«Vyse»)Fliegender Fisch in Öl, geräucherte
+Rote Sardis…… Das klingt alles so gut……\c"
+MGs013b042,"\h(«Aika»)Valuanischer Loqua, huh?
+Ich wette, es ist schwer, valuanischen
+Loqua hier in Nasr zu bekommen, deshalb
+ist's wahrscheinlich richtig teuer.\c"
+MGs013b043,"\h(«Aika»)Dieses Sieb ist süß!
+Es sieht außerdem ziemlich robust
+aus. Ich möchte eins!\c"
+MGs013b044,"\h(«Aika»)Das ist ein Modell vom Königlichen
+Palast von Nasr! Wer es auch immer
+hergestellt hat, war ein großer Künstler!
+Ich wünschte, ich könnte so etwas machen!\c"
+MGs013b045,"\h(«Aika»)“Nasr Tanzunterricht:
+Lernen Sie die traditionellen Tänze der Wüste”
+Ähm…… Schätze, habe wirklich nicht die Zeit.\c"
+MGs013b046,"\h(«Aika»)“Aussichtsturm oben. Hinterlasse deinen
+Handabdruck!”
+Ob ich von da oben einen Blick
+auf ganz Nasrad habe?\c"
+MGs013b047,"\h(«Aika»)Wie schön!
+Blumen schwimmen auf dem Springbrunnen!\e"
+MGs013b048,"\h(«Fina»)Ich finde, es ist nicht gerade
+freundlich, einfach in fremde Zimmer
+zu gehen, Aika.\e"
+MGs013b149,"\h(«Aika»)Oh, Entschuldige!
+Ja, ich sollte nicht einfach
+hereinplatzen. Schlechte Angewohnheit!\c"
+MGs013b049,"\h(«Aika»)Dieser Kompass sieht ziemlich
+alt aus. Vyse liebt es, sich so ein
+Zeug anzusehen……\c"
+MGs013b050,"\h(«Aika»)Das ist ein Steckbrief.
+Sieht nicht so aus, als hätten sie
+einen von Vyse…… Weiß nicht,
+ob das gut oder schlecht ist……\c"
+MGs013b051,"\h(«Aika»)“Navigator gesucht…… ”
+“Schatzkarte zum Verkauf…… ”
+Es gibt alle möglichen Anzeigen hier.\c"
+MGs013b052,"\h(«Aika»)Eine nächtliche Ansicht des
+Königlichen Palastes, hm?
+Irgendwie romantisch……\c"
+MGs013b053,"\h(«Aika»)“Ein richtiges Getränk für einen richtigen Mann!
+Der Geschmack der Wüste-- Khale-Relik Loqua!”
+…Uhh. Nein, danke.\c"
+MGs013b054,"\h( )“Kuchen von unseren Chefköchen gebacken!
+Perfekt für einen leichten Snack, zu jeder
+Tageszeit!”\c"
+MGs013b055,"\h(«Aika»)Oh, das ist einer dieser richtig teuren Nasr-
+Teppiche. Könnte mir keinen leisten.\c"
+MGs013b056,"\h(«Aika»)Alle möglichen Sorten von Gewürzen. Wette,
+wenn ich die alle richtig gebrauchen könnte,
+dann wäre ich eine verdammt gute Köchin.
+Allerdings ein großes WENN……\c"
+MGs013b057,"\h(«Aika»)Getrocknetes…… Zeug. Was ist
+das für ein Zeug? Ich habe, glaub' ich, noch
+nie so ein Zeug gesehen……\c"
+MGs013b058,"\h(«Aika»)Yaah!
+…… Oh, es ist nur eine Puppe.
+Sie trägt nasrische Kleider……
+Sie hat mich ganz schön erschreckt.\c"
+MGs013b059,"\h(«Aika»)Waffen und Munition……
+Es ist hier alles wahllos aufgehäuft.\c"
+MGs013b060,"\h(«Aika»)Wow, was für ein schönes Schwert!
+Ich wünschte ich hätte das Geld, um es
+für Vyse zu kaufen…… Bin mir
+sicher, dass er so etwas mögen würde……\c"
+MGs013b061,"\h(«Aika»)Wow, was für eine feine Schatzkiste!
+Lass mal sehen, was drin ist……
+Oops…… Sie ist verschlossen.
+Sie lässt sich nicht öffnen.\c"
+MGs013b062,"\h(«Aika»)Wow, diese Vase sieht teuer aus.
+Ich berühre sie besser nicht, vorsichtshalber.
+Wie ich mich kenne, würde ich sie
+wahrscheinlich fallen lassen.\c"
+MGs013b063,"\h(«Aika»)Das ist ein ziemlich imposanter Safe!
+Er hat jede Menge Schlösser……
+Er schreit nur so, “Öffne mich!”\c"
+MGs013b064,"\h(«Aika»)Hmm…… Eine Art goldener Vogel……
+Vielleicht soll er dem Handel Glück
+bescheren oder so etwas.\c"
+MGs013b065,"\h(«Aika»)Was für ein süßes Kissen!
+Die Katze auf dem Kopf der Dame scheint
+das Modell dafür zu sein. Sie muss Katzen
+wirklich mögen.\c"
+MGs013b066,"\h(«Vyse»)Oh, fast hätte ich vergessen……\e"
+MGs013b067,"\h(«Vyse»)Bevor wir nach Daccats Island suchen,
+sollte ich den König vor Valuas Plänen warnen.\c"
+MGs013b068,"\h(«Vyse»)Was ist mit diesem Bild los?
+Sieht so aus, als hätte jemand ganz
+zufällige Pinselstriche gemacht!\c"
+MGs013b069,"\h(«Aika»)Sieht aus wie zufällige Pinselstriche,
+aber wenn du es dir länger anschaust,
+beginnt es nach etwas auszusehen……
+ich weiß nur nicht was……\c"
+MGs013b070,"\h(«Vyse»)Hmm…… Es lässt sich nicht öffnen.
+Ist wohl abgeschlossen.\c"
+MGs013b071,"\h(«Aika»)Es lässt sich nicht öffnen.
+Ist es etwa abgeschlossen?\c"
+MSs013b000,"\h(«Vyse»)¡Qué fuente tan bonita!
+Es raro que utilicen el agua de este modo,
+cuando es un recurso tan escaso en Nasr.\c"
+MSs013b001,"\h(«Vyse»)Es agua fresca y clara.
+Me dan hasta ganas de darme un chapuzón,
+pero me daría vergüenza.\c"
+MSs013b002,"\h(«Vyse»)¿Qué habrá en el barril?
+¡Fíjate, conservas caseras!
+Espero que no les importe si las pruebo……\c"
+MSs013b003,\h(«Vyse»)“Menú de almuerzo de hoy……”\e
+MSs013b004,"\h(«Vyse»)“Pasta de Pasión Pura”
+“Sopa de Amor”
+…… Me daría mucha vergüenza pedir algo aquí.\c"
+MSs013b005,"\h(«Vyse»)Ése es el Palacio Real. Está rodeado de agua.
+Nunca pensarías que éste es un reino
+en medio del desierto……\c"
+MSs013b006,"\h( )“Disfruta de la vida relajada que te mereces.
+Por aquí se va a los Préstamos Osman.”\c"
+MSs013b007,"\h(«Vyse»)Mmm…… ¡Este loqua huele muy bien!
+¡Parece que hay alguien que sabe escoger
+las bayas de Loquat muy bien!\c"
+MSs013b008,"\h(«Vyse»)Pez Volador en aceite, Sardis rojos ahumados……
+Tienen todo tipo de comidas caras aquí.\c"
+MSs013b009,"\h(«Vyse»)Hay loqua de Valua dentro.
+Supongo que el comercio entre Valua y Nasr
+es más importante que ser enemigos.\c"
+MSs013b010,"\h(«Vyse»)Es un tamiz muy bien hecho.
+Parece que lo hizo un experto en artesanía.\c"
+MSs013b011,"\h(«Vyse»)¡Mira! Es una reproducción en miniatura del
+palacio. Está muy bien hecha.
+Mmm…… me dan ganas de comprarla.\c"
+MSs013b012,"\h(«Vyse»)“Clases de baile Nasr:
+Aprende el baile tradicional del desierto”
+Me pregunto si aquí aprendió Belleza a bailar.\c"
+MSs013b013,"\h(«Vyse»)“Torre de Observación arriba. ¡Deja tu huella!”
+¿Habrá una buena vista de Nasrad
+desde ahí arriba?\c"
+MSs013b014,"\h(«Vyse»)Eso sí que es bonito.
+Hay flores flotando en la fuente.\c"
+MSs013b116,"\h(«Vyse»)¡Uy!
+Parece que hay una mujer en esta habitación.
+Creo que no debería meterme aquí.\e"
+MSs013b117,"\h(«Vyse»)Pero, esa voz……
+¿Por qué me suena tanto?\c"
+MSs013b016,"\h(«Vyse»)¡Qué brújula más antigua!
+¡Hacía años que no veía una así!
+Sin duda ya no las hacen como antes……\c"
+MSs013b017,"\h(«Vyse»)Es un cartel de “Se busca”. Mmm……
+No, no me suena la cara. Para un Pirata, que
+pongan precio a su cabeza es todo un orgullo.\c"
+MSs013b018,"\h(«Vyse»)“Se busca Navegante……”
+“Se vende Mapa del Tesoro……”
+Hay toda clase de anuncios.\c"
+MSs013b019,"\h(«Vyse»)¡Vaya! Este cuadro del Palacio Real
+por la noche es sin duda muy bonito.\c"
+MSs013b020,"\h(«Vyse»)“¡Una bebida auténtica para hombres auténticos!
+¡Un sabor del desierto: Loqua Khale-Relik!”
+¿¿Qué?? ¿Quién querría probar el desierto?\c"
+MSs013b021,"\h( )“¡Pastas suaves elaboradas por nuestros chefs!
+¡Ideales para un ligero tentempié, a cualquier
+hora del día!”\c"
+MSs013b022,"\h(«Vyse»)Entonces las alfombras en Nasr son así.
+He oído que son carísimas.
+Quizás no debería tocarla.\c"
+MSs013b023,"\h(«Vyse»)Tienen todo tipo de especias.
+Recuerdo que mi madre también usaba especias,
+pero creo que éstas no son las mismas.\c"
+MSs013b024,"\h(«Vyse»)Me pregunto qué será esto. A mí el olor me
+recuerda a medicina. A lo mejor lo mezclan con
+hierbas y otras cosas para hacer medicina.\c"
+MSs013b025,"\h(«Vyse»)¡Ah! Menos mal que sólo es un maniquí.
+Sólo está vestido con un traje típico de Nasr.\c"
+MSs013b026,"\h(«Vyse»)Es un montón de armas y municiones.
+Es increíble que lo hayan dejado ahí tirado.\c"
+MSs013b027,"\h(«Vyse»)¡Fíjate, una espada larga de Nasr!
+Su larga y afilada hoja es exclusiva
+de esta región del mundo.\c"
+MSs013b028,"\h(«Vyse»)¡Este cofre del tesoro está muy bien tallado!
+No me importa lo que haya dentro.
+¡Sólo quiero llevármelo por el cofre!\c"
+MSs013b029,"\h(«Vyse»)Este jarrón parece muy caro. Me pregunto si las
+conservas que hacen en este jarrón sabrán mejor
+que las que hacen en un tarro normal……\c"
+MSs013b030,"\h(«Vyse»)Es muy seguro……
+Me dan ganas de romperlo todo.
+Pero no debería robarle a los civiles.\c"
+MSs013b031,"\h(«Vyse»)Es una foto de una especie pájaro dorado.
+Nunca había visto uno antes.
+De dónde será……\c"
+MSs013b032,"\h(«Vyse»)La señal…… los cojines……
+Hay alguien a quien le encantan los gatos.\c"
+MSs013b033,"\h(«Aika»)¡Vaya! ¡Qué fuente tan bonita!
+Es tan raro encontrar una fuente así
+en medio del desierto.\c"
+MSs013b034,"\h(«Aika»)¡El agua está tan fresca y limpia!
+A lo mejor puedo quitarme las botas y
+chapotear. O a lo mejor no……\c"
+MSs013b035,"\h(«Aika»)¡Mira, conservas!
+Nadie nos mira. Voy a probar un poco……
+Mmm…… ¡Qué bueno!\c"
+MSs013b036,\h(«Aika»)“Menú de almuerzo de hoy……”\e
+MSs013b037,"\h(«Aika»)“Filete a la Romántica Luz del Desierto”
+“Ensalada de Príncipe en Dhabu”……
+¡Estos nombres son tan románticos!\c"
+MSs013b038,"\h(«Aika»)Así que éste es el Palacio Real de Nasr.
+Un palacio flotando en el agua.
+Parece sacado de cuento de hadas.\c"
+MSs013b039,"\h( )“Disfruta de la vida relajada que te mereces.
+Por aquí se va a los Préstamos Osman.”\c"
+MSs013b040,"\h(«Aika»)¡Qué bien huele este loqua! ¿Quién lo habrá
+hecho? Estoy seguro de que a los chicos
+en casa les encantaría probarlo……\c"
+MSs013b041,"\h(«Vyse»)Pez Volador en aceite, Sardis Rojos ahumados……
+¡Qué bueno todo!\c"
+MSs013b042,"\h(«Aika»)¿Con que loqua de Valua?
+Seguro que es difícil conseguir loqua de Valua
+aquí en Nasr. Así que debe de ser muy caro.\c"
+MSs013b043,"\h(«Aika»)¡Qué tamiz más bonito!
+Y además parece muy resistente. ¡Quiero uno!\c"
+MSs013b044,"\h(«Aika»)¡Una reproducción del Palacio Real de Nasr!
+¡El que lo haya hecho debe de ser un artista
+excelente! ¡Ojalá pudiera yo hacer algo así!\c"
+MSs013b045,"\h(«Aika»)“Clases de baile Nasr:
+Aprende el baile tradicional del desierto”
+Umm…… No creo que tenga tiempo para esto.\c"
+MSs013b046,"\h(«Aika»)“Torre de Observación arriba. ¡Deja tu huella!”
+¿Habrá una buena vista de Nasrad
+desde ahí arriba?\c"
+MSs013b047,"\h(«Aika»)¡Qué bonito!
+¡Hay flores flotando en la fuente!\e"
+MSs013b048,"\h(«Fina»)No creo que sea de buena educación entrar
+en las habitaciones de los demás, Aika.\e"
+MSs013b149,"\h(«Aika»)¡Ah, lo siento!
+Sí, no debería entrar de golpe.
+¡Mala costumbre!\c"
+MSs013b049,"\h(«Aika»)Esta brújula parece muy antigua.
+A Vyse le encantan estas cosas.\c"
+MSs013b050,"\h(«Aika»)Es un cartel de “Se busca”.
+No parece que tengan uno de Vyse.
+No sé si eso será bueno o malo.\c"
+MSs013b051,"\h(«Aika»)“Se busca Navegante……”
+“Se vende Mapa del Tesoro……”
+Hay toda clase de anuncios aquí.\c"
+MSs013b052,"\h(«Aika»)Una vista nocturna del Palacio Real……
+Es bastante romántico……\c"
+MSs013b053,"\h(«Aika»)“Una bebida auténtica para hombres auténticos.
+Un aroma del desierto: Loqua Khale-Relik”
+¡Bah! No gracias.\c"
+MSs013b054,"\h( )“¡Pastas suaves elaboradas por nuestros chefs!
+¡Ideales para un ligero tentempié, a cualquier
+hora del día!”\c"
+MSs013b055,"\h(«Aika»)Oh, ésta es una de esas alfombras caras de Nasr.
+De ningún modo podría comprarme una.\c"
+MSs013b056,"\h(«Aika»)Hay toda clase de especias. Seguro que si
+supiera usarlas, sería una buena cocinera.
+Supongo que no deja de ser una hipótesis.\c"
+MSs013b057,"\h(«Aika»)Hay algo seco aquí……
+¿Qué es esto?
+Creo que nunca he visto nada parecido.\c"
+MSs013b058,"\h(«Aika»)¡Ahhh! Ah, es sólo un maniquí.
+Le han puesto ropa típica de Nasr.
+Qué susto me ha dado.\c"
+MSs013b059,"\h(«Aika»)Armas y municiones……
+Está todo amontonado aquí y parece mezclado.\c"
+MSs013b060,"\h(«Aika»)¡Vaya! ¡Qué espada tan bonita!
+Ojalá tuviera dinero para comprársela a Vyse.
+Seguro que le encantaría.\c"
+MSs013b061,"\h(«Aika»)¡Qué cofre del tesoro más complicado!
+A ver qué hay dentro. ¡Está cerrado con llave!
+No se puede abrir.\c"
+MSs013b062,"\h(«Aika»)¡Vaya, este jarrón debe de ser muy caro!
+Mejor no lo toco, por si acaso.
+Conociéndome, seguro que se me caería.\c"
+MSs013b063,"\h(«Aika»)¡Me sorprende lo seguro que está!
+Tiene muchas cerraduras. Vamos, que me está
+pidiendo a gritos: “¡Ábreme!”\c"
+MSs013b064,"\h(«Aika»)Mmm…… Algún tipo de pájaro dorado……
+Quizá de buena suerte para los negocios
+o algo así.\c"
+MSs013b065,"\h(«Aika»)¡Qué cojín tan bonito! El gato que está en la
+cabeza de la señora debe de ser el modelo.
+Le deben de gustar mucho los gatos.\c"
+MSs013b066,"\h(«Vyse»)Oh, casi se me olvida……\e"
+MSs013b067,"\h(«Vyse»)Antes de partir hacia la Isla del Daccat,
+debería advertirle al Rey de los planes de
+Valua.\c"
+MSs013b068,"\h(«Vyse»)¿Qué le pasa a este cuadro?
+¡Parece como si alguien se hubiera dedicado
+a dar brochazos!\c"
+MSs013b069,"\h(«Aika»)Sí, parecen pintarrajos, pero si los miras
+un rato, empiezan a tomar forma,
+pero no sé qué puede ser……\c"
+MSs013b070,"\h(«Vyse»)Mmm…… No se abre.
+Supongo que está cerrado con llave.\c"
+MSs013b071,"\h(«Aika»)No se abre.
+¿Estará cerrado con llave?\c"
+"",a013b01.mld
+"",me013d.sct
+"",a013b00.mld
+"",a013b00.mld
+"",a013b00.mld
+"",a013b00.mld
+"",a013b00.mld
+"",me013a.sct
+"",me013c.sct
+"",me013c.sct
+"",me013b.sct
+"",me013b.sct
+"",me013a.sct
+"",M0238
+"",m5130000
+"",a013bf16.mld
+"",a013bf16.mld
+"",a013b00.mld
+"",a013b01.mld
+"",a013bf16.mld
+"",e6f016
+"",a013bf16.mld
+"",e6f022
+"",M0238
+"",a013bf22.mld
+"",a013bf22.mld
+"",a013bf23.mld
+"",e6f023
+"",M0238
+"",M0328
+"",a013bf23.mld
+"",e6f024
+"",M0238
+"",a013bf24.mld
+"",a013b00.mld
+"",M0239
+"",a013bf24.mld
+"",a013b00.mld
+"",e6f029
+"",M0238
+"",a013bf29.mld
+"",a013b01.mld
+"",a013bf29_efe.mld
+"",M0248
+"",M0248
+"",a013bf29.mld
+"",a013b01.mld
+"",a013bf29_efe.mld
+"",me017a.sct
+"",me013b.sct

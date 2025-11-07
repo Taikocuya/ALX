@@ -1,0 +1,81 @@
+[Event Name],Task ID
+MH0220000,\h(《Kangan》)How fares the battle?\e
+MH0220001,"\h(《Yafutoman Soldier》)My Lord… the Tenkou are swarming all around 
+the Valuans, but the Armada is holding their 
+position. We seem to be at a stalemate.\e"
+MH0220002,"\h(《Kangan》)Heh heh… I see. Very well. 
+It is time for us to join the battle 
+and end this… once and for all!\e"
+MH0290000,"\h(《Aika》)Wow!
+The water here is so calm… it looks like glass.\e"
+MH0290001,"\h(《Enrique》)It's hard to imagine that this was a volcanic
+area covered in lava at one time.\e"
+MH0290002,\h(《Aika》)What is that thing?!\e
+MH0290003,"\h(《Vyse》)What?!
+It looks like a huge bird!\e"
+MH0290004,\h(《Fina》)That must be Bluheim.\e
+MH0290005,\h(《Vyse》)Bluheim?\e
+MH0290006,"\h(《Fina》)Yes, Bluheim was the Blue Gigas.\e"
+MH0290007,"\h(《Fina》)It looks like Bluheim was trapped in the lava 
+and encased in stone.\e"
+MH0290008,"\h(《Enrique》)If that thing ever got free, we'd be in trouble.
+The Gigas that you faced so far couldn't fly.
+I can't imagine how tough this one would be.\e"
+MH0290009,"\h(《Vyse》)We should secure the Blue Crystal as soon as we
+can! Let's go!\e"
+M01210000,"\h(《Vyse》)What's this rock?
+It looks like some sort of switch…\e"
+M01210001,"\h(《Enrique》)It looks like it triggered some
+sort of water release valve…\e"
+M01210002,"\h(《Vyse》)Ah… I see. The switch is probably here to fill
+this area with water. Hmm…\c"
+M01210003,"\h(《Vyse》)I've already pushed this switch.
+The rock is shining brightly.\c"
+M01210004,"\h(《Vyse》)It appears that this switch was here to
+fill this area with water…\c"
+M01210005,"\h(《Vyse》)I don't know where, but I think this switch
+probably opened a water valve somewhere in
+these ruins…\c"
+M01210006,"\h(《Vyse》)I don't know where, but I think this switch
+probably opened a water valve somewhere in
+these ruins…\c"
+M01210007,"\h(《Vyse》)I don't know where, but I think this switch
+probably opened a water valve somewhere in
+these ruins…\c"
+M01210008,"\h(《Vyse》)I guess this passageway and this trap were
+both built to prevent people from going any
+deeper into this place…\c"
+M01210009,"\h(《Vyse》)The room on the other side of this door
+is probably filled with the water
+we poured in before.\c"
+M01210010,"\h(《Vyse》)It's the stone pedestal where
+the Blue Moon Crystal was.
+There's nothing there now.\c"
+M01210011,"\h(《Ship Parts Merchant》)If you ever want to head back to Yafutoma,
+just let me know.\e"
+M01210012,"\h(《What will you do?》)“Head back to Yafutoma.”
+“Stay here a little while longer.”\e"
+M01210013,"\h(《Vyse》)We wanted to head back to Yafutoma for
+a little bit. Could you give us a lift?\e"
+M01210014,"\h(《Ship Parts Merchant》)No problem.
+Just climb on board.\c"
+M01210015,"\h(《Vyse》)We're fine for now, but we'll let
+you know if we change out minds.\e"
+M01210016,"\h(《Ship Parts Merchant》)No problem.
+Any time you want to go back,
+just let me know.\c"
+M01210017,"\h(《What will you do?》)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+"",me247a.sct
+"",me121b.sct
+"",me019a.sct
+"",k8210000
+"",m5210000
+"",a121ah22.mld
+"",a121ah22.mld
+"",e6h022
+"",a121ah22.mld
+"",a121ah29.mld
+"",a121ah29.mld
+"",e6h029
+"",a121ah29.mld

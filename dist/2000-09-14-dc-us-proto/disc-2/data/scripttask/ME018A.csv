@@ -1,0 +1,562 @@
+[Event Name],Task ID
+MG0220000,"\h(《Pitiful Sailor》)You're not from around here, are ya?\e"
+MG0220001,"\h(《Vyse》)Actually, we just came into town and we were
+wondering if someone here could help us.\e"
+MG0220002,"\h(《Pitiful Sailor》)So you came to me… 
+Well, that's just great…\e"
+MG0220003,"\h(《Don》)By the way, the name is Don. Now ask me your
+question and be on your way.\e"
+MG0220004,"\h(《Vyse》)You know that sky rift to the east… 
+How do you get through it?\e"
+MG0220005,"\h(《Don》)So, yer lookin' for a way to cross 
+the Dark Rift, eh? \e"
+MG0220006,"\h(《Don》)MWAHAHAHAHAHA!!!!
+So, the world is still full of fools…\e"
+MG0220007,\h(《Vyse》)…?\e
+MG0220008,\h(《Aika》)What?\e
+MG0220009,"\h(《Tavernkeep》)Are you kids serious?
+You're trying to cross the Dark Rift?\e"
+MG0220010,"\h(《Sailor》)They don't stand a chance. 
+Someone better tell their parents where they
+are.\e"
+MG0220011,"\h(《Don》)Kid, that's no ordinary sky rift… \e"
+MG0220012,"\h(《Don》)During the war, this cape was discovered…
+And this city was built.\e"
+MG0220013,"\h(《Don》)This place is the edge of the world. If you try
+and go any further east, you'll be killed.
+Hundreds of men… good men… have died tryin'.\e"
+MG0220014,"\h(《Don》)But, there's always a few fools that don't 
+heed the warnin's. The Dark Rift 
+usually claims 'em…\e"
+MG0220015,"\h(《Don》)Some of the best sailors from all over the world
+tried to cross the Dark Rift. 
+They came from everywhere…\e"
+MG0220016,"\h(《Don》)One by one they tried to pass through 
+the Dark Rift. All of them failed.\e"
+MG0220017,"\h(《Don》)The ships that enter the Dark Rift are either 
+pushed away by the winds…\e"
+MG0220018,"\h(《Don》)…or they get sucked in, never to return.\e"
+MG0220019,"\h(《Don》)My crew and I lost our ship. We were lucky to
+survive. After a while, sailors stopped comin'.\e"
+MG0220020,"\h(《Don》)All we do now is sit around here, and wait to
+die…\e"
+MG0220021,"\h(《Sailor》)Some things are just impossible, kid. Why don't
+you just go back to wherever you came from and
+have your mommy tell you bedtime stories.\e"
+MG0220022,"\h(《Aika》)What's wrong with you people?!
+You've thrown your lives away! 
+Don't you care about anything?! \e"
+MG0220023,"\h(《Aika》)Vyse, let's go!
+We're just wasting our time here.\e"
+MG0220024,"\h(《Vyse》)Thanks for telling me about the Dark Rift… 
+Before I go, I just want to say that I've 
+never met a more pitiful bunch in my life.\e"
+MG0220025,"\h(《Vyse》)If you lose sight of one dream, replace it with
+another. Think about how much you could have
+accomplished in the time that you've spent here.\e"
+MG0220026,"\h(《Vyse》)Just because you couldn't cross the Dark Rift, 
+are you just going to sit here for the rest 
+of your life?\e"
+MG0220027,"\h(《Vyse》)Because you tried something once and failed, are
+you going to throw the rest of your life away?\e"
+MG0220028,"\h(《Vyse》)There's a whole world out there to see!
+Don't you have any desire to sail again?\e"
+MG0220029,\h(《Don》)……\e
+MG0220030,"\h(《Vyse》)Fina, what is it?\e"
+MG0220031,"\h(《Fina》)Vyse! Aika!
+Come to the port! Quickly!\e"
+MG0220032,\h(《Fina》)The Armada is coming!!!\e
+MG0220033,"\h(《Aika》)What?!
+What are they doing here?!\e"
+MG0220034,"\h(《Vyse》)Aika, let's move!
+We should hurry back to the port.\e"
+M07020000,"\h(《Innkeeper》)Heh… it's been many years since someone outside
+of Nasr has stayed here.\e"
+M07020001,"\h(《Innkeeper》)It's 280 gold for one night.
+Do you want to stay?\e"
+M07020002,"\h(《What will you do?》)“Stay the night.”
+“Leave.”\e"
+M07020003,"\h(《Innkeeper》)Well then, I'll prepare a room for you right
+away.\e"
+M07020004,"\h(《Innkeeper》)I hope you had a pleasant rest.
+I do not know where your travels take you,
+but may the Red Moon always watch over you.\c"
+M07020005,"\h(《Innkeeper》)I see… well, there aren't any other places to
+rest in this city. Perhaps you will change your
+mind later. Have a nice day.\c"
+M07020018,"\h(《Innkeeper》)Hey… you don't have enough money.
+Come back when you do.\c"
+M07020006,"\h(《Innkeeper》)I heard about you guys!
+You defeated the Armada with 
+just a single ship, right?\e"
+M07020007,"\h(《Innkeeper》)The Valuans are our old enemies… you have won a
+victory for us! Please… stay the night here!
+For free, of course! You are heroes!!!\e"
+M07020008,"\h(《What will you do?》)“Stay the night.”
+“Leave.”\e"
+M07020009,"\h(《Innkeeper》)You'll stay? I am honored…
+May the Red Moon watch over you in your sleep…\e"
+M07020010,"\h(《Innkeeper》)I once heard from a man that managed to survive
+a shipwreck in the Dark Rift that there are
+strange plants called “Lenautos.”\e"
+M07020019,"\h(《Innkeeper》)He said that he survived by following the paths
+on which these things grew. I wonder what they
+look like…\c"
+M07020011,"\h(《Innkeeper》)I see… that's too bad.
+Well then, I hope that the Red Moon watches
+over your journeys.\c"
+M07020012,"\h(《Innkeeper》)Hey, you're the Air Pirates that defeated the
+Armada a little while back!\e"
+M07020013,"\h(《Innkeeper》)The Valuans are our old enemies… you have won a
+victory for us! Please… stay the night here!
+For free, of course! You are heroes!!!\e"
+M07020014,"\h(《What will you do?》)“Stay the night.”
+“Leave.”\e"
+M07020015,"\h(《Innkeeper》)You'll stay? I am honored…
+Please, rest well…\e"
+M07020016,"\h(《Innkeeper》)Did you sleep well?
+Please, if the winds of fate ever blow your ship
+this way, do not hesitate to stay here again…\c"
+M07020017,"\h(《Innkeeper》)I see… Well, I do not know what fate has in
+store for you, but I hope all goes well.\c"
+M07030000,"\h(《Degenerate Ex-Valuan Soldier》)Just looking at this fortified lighthouse, you 
+can see how important this city was to Valua…\e"
+M07030001,"\h(《Degenerate Ex-Valuan Soldier》)But now, it's nothing more than just a giant 
+tower of metal… broken cannons and all.\e"
+M07030002,"\h(《Degenerate Ex-Valuan Soldier》)Well, I suppose people are the same. If you're 
+not constantly brushing up your skills, you'll 
+start to get rusty, just like this old tower…\e"
+M07030003,"\h(《Degenerate Ex-Valuan Soldier》)Well, we're the same as the scrap metal you see
+here… nothing but useless rust. Damn you, you 
+big piece of junk!\c"
+M07030004,"\h(《Degenerate Ex-Valuan Soldier》)Well, we're the same as the scrap metal you see
+here… nothing but useless rust. Damn you, you 
+big piece of junk!\c"
+M07030005,"\h(《Degenerate Ex-Valuan Soldier》)Gregorio?
+How is that old Admiral doing, anyway?\e"
+M07030006,"\h(《Degenerate Ex-Valuan Soldier》)He was such a great defensive strategist. Even
+in Valua, he was known as “Admiral Ironwall.”\e"
+M07030007,"\h(《Degenerate Ex-Valuan Soldier》)Oh, it's you guys.
+I saw your fight with the Armada from the port.\e"
+M07030008,"\h(《Degenerate Ex-Valuan Soldier》)If the cannons of the lighthouse weren't all 
+broken and rusted, I would've joined in the 
+fight.\e"
+M07030009,"\h(《Degenerate Ex-Valuan Soldier》)I've been cleaning up the tower and trying to 
+fix the cannons so they work again. That'd make 
+this place a great tourist attraction!\e"
+M07030010,"\h(《Degenerate Ex-Valuan Soldier》)But these cannons won't work, no matter what I 
+try to do! Pieces of junk!!\c"
+M07050000,"\h(《Tavernkeep》)I left Maramba with a sailor I was in love 
+with. We were planning on moving to a country 
+east of here…\e"
+M07050001,"\h(《Tavernkeep》)But, we heard that the Dark Rift is impossible
+to cross… and he changed…\e"
+M07050002,"\h(《Tavernkeep》)And then one day, he met another girl and 
+disappeared. He didn't even bother to say 
+goodbye.\e"
+M07050003,"\h(《Tavernkeep》)I was foolish.
+I fell for such a childish man and threw away a 
+good life…\e"
+M07050004,"\h(《Tavernkeep》)And I… I left my mother behind. She worked so 
+hard to take care of me as a child…
+I wonder how she is doing…\e"
+M07050005,"\h(《Tavernkeep》)You say that you saw the Armada at sea?
+Are you sure you weren't just seeing things?\e"
+M07050006,"\h(《Tavernkeep》)Are you guys serious?
+You plan on fighting the Armada?
+How do you expect to win with just one ship?\e"
+M07050007,"\h(《Tavernkeep》)You guys are something else.
+I can't believe you took on the Armada alone and
+won.\e"
+M07050008,"\h(《Tavernkeep》)If anyone can get through the Dark Rift, it
+will be you. I'm praying for your success!\c"
+M07050009,"\h(《Tavernkeep》)I heard you guys made it through the Dark Rift!!
+I knew you'd be able to do it!\e"
+M07050010,"\h(《Tavernkeep》)I have confidence in your abilities… so I have
+a favor to ask of you. I would like you to
+listen to my story first.\e"
+M07050011,"\h(《Tavernkeep》)Many years ago, I eloped and came here with a 
+sailor that I had fallen in love with.\e"
+M07050012,"\h(《Tavernkeep》)But, he found another woman and ran off with
+her… I can't believe how foolish I was to trust
+him.\e"
+M07050013,"\h(《Tavernkeep》)But, I've accepted my fate. It's not myself that
+I'm worried about… it's… my mother. I left her
+behind in Maramba.\e"
+M07050014,"\h(《Tavernkeep》)If you ever have a chance to stop by Maramba…
+could you visit the Kabal Skewer shop?\e"
+M07050015,"\h(《Tavernkeep》)I… I want her to forgive her foolish daughter…
+And I want her to know that not a day has passed
+that I haven't thought of her… \e"
+M07050016,"\h(《Tavernkeep》)If you ever have a chance to stop by Maramba… 
+could you visit the Kabal Skewer shop?\e"
+M07050017,"\h(《Tavernkeep》)I… I want her to forgive her foolish daughter…
+And I want her to know that not a day has passed
+that I haven't thought of her… \e"
+M07050018,"\h(《Tavernkeep》)What? You went to Maramba and spoke with my 
+mother?! Wh, what did she say?!\e"
+M07050019,"\h(《Tavernkeep》)…I see.
+I guess you can't expect her to forgive such a 
+selfish daughter so easily…\e"
+M07050020,"\h(《Tavernkeep》)But, I was telling the truth when I said that 
+I've never stopped thinking about her…\e"
+M07050021,"\h(《Tavernkeep》)And my mother isn't young anymore… I worry
+about her health. What can I do?\e"
+M07050022,"\h(《Aika》)Hm… that lady seemed real hard-headed, though…
+I wonder if there really is anything that
+we can do.\e"
+M07050023,"\h(《Fina》)Perhaps if we can somehow prove to your mother
+that you haven't stopped thinking about her all
+these years…\e"
+M07050024,"\h(《Aika》)Prove to her?
+Hm… Now, if only there was something we could
+show her… something to prove it…\e"
+M07050025,"\h(《Tavernkeep》)…I know a way!
+There's one thing I can show her to prove it!\e"
+M07050026,"\h(《Tavernkeep》)Kabal Skewers! When I was little, my mother
+would try and teach me her special Kabal Skewer
+recipe.\e"
+M07050027,"\h(《Aika》)Yeah! And if you can make a Kabal Skewer using
+her recipe, it'll show your mom that you haven't
+forgotten what she taught you!\e"
+M07050028,"\h(《Tavernkeep》)Would you mind waiting for a little bit? I'm 
+going to make some Kabal Skewers!\e"
+M07050029,"\h(《Tavernkeep》)It's done.
+If you can get my mother to eat this, I'm sure 
+she'll understand how I feel.\e"
+M07050030,\h(　)You received 1 Kabal Skewer.\e
+M07050031,"\h(《Tavernkeep》)Please make sure that you get my Kabal Skewer to
+my mother in Maramba. I'm begging you…\c"
+M07050032,"\h(《Tavernkeep》)What?! You ate my Kabal Skewer?
+Oh, well…\e"
+M07050033,"\h(《Tavernkeep》)Here… I made another one.
+Please bring it to my mother in Maramba.\e"
+M07050034,\h(　)You received 1 Kabal Skewer.\e
+M07050035,"\h(《Tavernkeep》)You brought the Kabal Skewer to my mother in 
+Maramba? What did she say?!\e"
+M07050036,"\h(《Tavernkeep》)…Huh?
+She said that the Kabal Skewer that I made
+didn't taste the same as hers?\e"
+M07050037,"\h(《Aika》)Um… she said that it smelled funny, it wasn't 
+spiced correctly, and the quality of the meat 
+you used is different.\e"
+M07050038,"\h(《Tavernkeep》)…She noticed, huh? There's no way I can
+duplicate my mother's Kabal Skewers with the
+ingredients in this town…\e"
+M07050039,"\h(《Tavernkeep》)I remember exactly how to cook it.
+But I don't have the same ingredients
+and spices… What should I do?\e"
+M07050040,\h(《Vyse》)Tell us what you need. We'll bring it to you.\e
+M07050041,"\h(《Tavernkeep》)Really?!
+That would be a great help!
+Here's what I need…\e"
+M07050042,"\h(《Tavernkeep》)I'll need “Gentum” for the scent,
+“Khale” for seasoning, and “Kabal” meat.\e"
+M07050043,"\h(《Tavernkeep》)Would you bring these three ingredients to me?
+If I have these, I know I will be able to make 
+my mother's special Kabal Skewer…\e"
+M07050044,"\h(《Aika》)“Gentum,” “Khale,” and “Kabal?” Leave it to us!\e"
+M07050045,"\h(《Tavernkeep》)Remember, it's “Gentum,” “Khale,” and “Kabal!”
+Please bring them to me as soon as you find them
+all!\c"
+M07050046,\h(《Tavernkeep》)What?! You found all three ingredients?\e
+M07050047,"\h(《Vyse》)Yup.
+Here you go… some Gentum, Khale, and Kabal.\e"
+M07050048,"\h(　)You gave “Gentum,” “Khale,” and “Kabal” away.\e"
+M07050049,"\h(《Tavernkeep》)Yes! This is it!
+With these ingredients, I'll be able to make my
+mother's special Kabal Skewer!\e"
+M07050050,"\h(《Tavernkeep》)Just wait here…
+I'll make some Kabal Skewers!\e"
+M07050051,"\h(《Tavernkeep》)Thanks for waiting!
+Would you please bring this to my mother in 
+Maramba now?\e"
+M07050052,\h(　)You received 1 “Mom's Skewer.”\e
+M07050053,"\h(《Tavernkeep》)This time, the Kabal Skewer should be perfect.
+Please bring it to my mother in Maramba.\e"
+M07050054,"\h(《Tavernkeep》)What?! You ate my Kabal Skewer?!
+Oh, well… I suppose I can just make another…\e"
+M07050055,"\h(《Tavernkeep》)Alright, it's done.
+Now please… make sure and bring this one to 
+my mother!\e"
+M07050056,\h(　)You received 1 “Mom's Skewer.”\e
+M07050057,"\h(《Tavernkeep》)Did you bring the Kabal Skewer to my mother in 
+Maramba like I asked? What did she say?!\e"
+M07050058,"\h(《Aika》)She said it was almost perfect! Well, actually, 
+she said you could probably cook it for about a 
+minute longer, but the taste was perfect!\e"
+M07050059,"\h(《Tavernkeep》)Really?
+I'm so happy…
+I'm sure my mother has forgiven me now!\e"
+M07050060,\h(《Tavernkeep》)I can't thank you people enough!\e
+M07050061,"\h(《Tavernkeep》)Please… take this.
+It's a token of my gratitude…\e"
+M07050062,\h(　)You received 1 “Abirik Cham.”\e
+M07050063,"\h(《Tavernkeep》)If you're ever in the area, please don't 
+hesitate to come and visit me!\c"
+M07050064,"\h(《Tavernkeep》)If you're ever in the area, please don't 
+hesitate to come and visit me!\c"
+M07050065,"\h(《Tavernkeep》)My mother came all this way to come see me. She
+spent the night last night, and we stayed up all
+evening catching up on each other's lives.\e"
+M07050066,"\h(《Tavernkeep》)I owe everything to you people. I can't thank 
+you enough.\c"
+M07050067,"\h(《Tavernkeep》)I added my mother's special Kabal Skewer to the
+menu. It's become quite popular.\e"
+M07050068,\h(《Tavernkeep》)Here… take this. Go on… it's free of charge.\e
+M07050069,\h(　)You received 1 “Mom's Skewer.”\c
+M07050070,"\h(《Tavernkeep》)Let me know whenever you finish your Kabal
+Skewer. I'll cook another one for you, okay?\e"
+M07060000,"\h(《Pitiful Sailor》)Wh, who're you guys?
+I've never seen you around here before.\e"
+M07060001,"\h(《Vyse》)Um… we were just looking around town trying to 
+get a few questions answered.\e"
+M07060002,\h(《Pitiful Sailor》)What could you possibly ask a guy like me?\e
+M07060003,"\h(《Pitiful Sailor》)My name is Don.
+I don't know what you want to ask me, but keep
+it short.\e"
+M07060004,"\h(《Vyse》)That giant sky rift to the east… is there any
+way to get past it?\e"
+M07060005,"\h(《Don》)You seriously want to try and get through that 
+thing?
+Give it up, kid.\e"
+M07060006,"\h(《Don》)I swear, kid. You're persistent…
+I'll tell you what…\e"
+M07060007,"\h(《Don》)If you guys can get through the Dark Rift and
+make it back, I'll start sailing again.\c"
+M07060008,"\h(《Don》)V, Vyse!!!  It's you!!!
+Y… you actually made it through the Dark Rift?!\e"
+M07060009,"\h(《Vyse》)Yup. And I saw everything that was beyond it, 
+too.\e"
+M07060010,"\h(《Don》)You really know how to rub it in, don't you!
+You know how much I wanted to see what was on
+the other side!!\e"
+M07060011,"\h(《Vyse》)Don, it's still not too late.
+Why don't you come with us? We can sail 
+together.\e"
+M07060012,"\h(《Don》)Heh… Well, there isn't much I can do other than
+sail, and I sure haven't done that in a while, 
+either… \e"
+M07060013,"\h(《Don》)But if it's a sailor you want, it's a sailor 
+you'll get! Let's go, Captain!\e"
+M07060014,\h(　)Don has joined your crew as a “Helmsman.”\c
+M07070000,\h(《Former Sailor》)Do you know what “Esparanza” really means?\e
+M07070001,"\h(《Former Sailor》)It means “hope.” Hopeful sailors from all over 
+gathered here to try and get to the east.\e"
+M07070002,"\h(《Former Sailor》)But now, this city is filled with nothing but
+despair!
+Oh, the irony!\c"
+M07070003,"\h(《Former Sailor》)I guess there are still naive little kids that
+talk of nothing but false dreams!\e"
+M07070004,"\h(《Former Sailor》)Heh heh… We have a saying here… the Dark Rift
+is not a place to be taken “lightly”.\e"
+M07070005,"\h(《Former Sailor》)I'm sorry!! I've been waiting forever for some 
+newcomers to tell that joke to.
+Hahahahahaha!!!!\c"
+M07070006,"\h(《Former Sailor》)I don't believe it… You guys actually defeated 
+the Armada!\e"
+M07070007,"\h(《Former Sailor》)And while you're at it, could you teach my wife
+a lesson or two? She's probably tougher than
+the whole Armada!\c"
+M07070008,"\h(《Former Sailor》)Wait… you not only got past the Dark Rift,
+but you also sailed around the whole world?\e"
+M07070009,"\h(《Former Sailor》)Me? Nah… I'm fine here. I just want to stay 
+here and drink loqua and live my life in 
+ignorant bliss!\c"
+M07100000,"\h(《Young Woman》)Hey, it's the newcomers. Let me guess… you
+came here hoping to get to the legendary lands
+to the east, right?\e"
+M07100001,"\h(《Young Woman》)My parents were the same way. When I was just a
+little girl, my parents brought me here with
+plans of going to the lands to the east.\e"
+M07100002,"\h(《Young Woman》)Our ship sank and I've been here ever since. But
+what a waste… the rest of the world will never
+be able to see how pretty I've become! Hahaha…\e"
+M07100003,"\h(《Young Woman》)…Huh? My parents?
+They went down with our ship… killed by that
+maelstrom.\c"
+M07100004,"\h(《Young Woman》)Hey, don't worry about it.
+They were foolish for thinking they could get
+through the Dark Rift anyway.\c"
+M07100005,"\h(《Young Woman》)I'd give up on trying to get through the Dark
+Rift if I were you… if you don't want to leave
+your loved ones behind, that is.\c"
+M07100006,"\h(《Young Woman》)You're actually going to try and get through
+the Dark Rift?!\e"
+M07100007,"\h(《Young Woman》)Well, I wouldn't worry too much. If anyone can
+get through that thing, it would be you guys.
+Good luck! I pray for your safety.\c"
+M07100008,"\h(《Young Woman》)Even the other men of the town have seen you
+guys fight and are starting to regain their
+courage!\c"
+M07100009,"\h(《Young Woman》)I wish I could find a guy like you!
+Thank you for everything you've done for us!\c"
+M07110000,"\h(《Old Lady》)All of our problems are from foolish people who 
+try to follow their dreams, but fail. Just keep
+your feet on the ground and you'll be alright.\e"
+M07110001,"\h(《Old Lady》)It's because people thought of going to the
+far-off lands to the east that they're stuck
+here, unable to go anywhere else. The fools…\e"
+M07110002,"\h(《Old Lady》)Do you have to go?
+I swear… young people… I don't know if they're
+brave or if they're just stupid.\e"
+M07110003,"\h(《Old Lady》)Well, just try to your heart's content. It's
+not like anything I say will stop you anyway.\e"
+M07110004,"\h(《Old Lady》)Ever since you guys came back, all of the men of
+the town have been a little inspired. They're
+gaining back the old fire that they lost.\e"
+M07110005,"\h(《Old Lady》)Maybe losing hope because you're afraid of the
+future is the same as living life with your eyes
+closed because you're afraid to see the truth…\e"
+M07130000,"\h(《Nasr Merchant》)Ah, welcome, welcome!
+Would you like to see my wares?\e"
+M07130001,"\h(《What will you do?》)“Buy or sell items.”
+“Talk to the merchant.”
+“Leave.”\e"
+M07130002,"\h(《Nasr Merchant》)I've heard that there are very rare fish that
+live in and around the Dark Rift!\e"
+M07130003,"\h(《Nasr Merchant》)In fact, there are fish that haven't changed
+since the days before the Old World! I wonder
+what they look like…\c"
+M07130004,"\h(《Nasr Merchant》)Thank you!
+Please come again!\e"
+M07140000,"\h(《Former Sailor》)The Dark Rift is a giant sky rift. It's an evil
+maelstrom.\e"
+M07140001,"\h(《Former Sailor》)I have heard that once you're inside the vortex,
+everything goes a little strange…\e"
+M07140002,"\h(《Former Sailor》)There's no light… and compasses don't work.
+Basically, it's easy to lose track of where you 
+came from.\e"
+M07140003,"\h(《Former Sailor》)Well, at least that's what some of the survivors
+said. I don't know if they're telling the truth
+or not, though…\c"
+M07140004,"\h(《Former Sailor》)I guess I wouldn't doubt it…
+Everyone has been defeated by the ultimate
+obstacle, the Dark Rift.\e"
+M07140005,"\h(《Former Sailor》)There's no way to get past that sky rift.
+All that is left in this town is a bunch of
+fools who are letting their lives pass them by.\c"
+M07140006,"\h(《Former Sailor》)I heard… you guys are going to take on Valua?
+Well, good luck… just don't get yourselves 
+killed out there.\e"
+M07140007,"\h(《Former Sailor》)I'll tell you this before you go out there, 
+though. Once the battle has started, you can't 
+depend on anything except your own strength.\e"
+M07140008,"\h(《Former Sailor》)Well, well… you did quite nicely there kid.
+You're quite strong, but that ship of yours…
+it's amazing.\e"
+M07140009,"\h(《Former Sailor》)Who knows?
+With a ship like that, you just might be able to
+make it through the Dark Rift…\e"
+M07140010,"\h(《Former Sailor》)We may have lost our youth and our dreams here…
+but perhaps you can relive them for us.\e"
+M07140011,"\h(《Former Sailor》)I heard that not only did you get past the Dark
+Rift, but you sailed around the world. That's
+quite impressive…\e"
+M07140012,"\h(《Former Sailor》)Heh… My body is getting restless! Maybe I'll 
+take to sailing again! Well, if you ever see me 
+out there sailing, be sure to say hi!\e"
+M04120000,"\h(《Shishkabob Lady》)I came here from far away to help my daughter
+out with her store.
+Well, I'm happy that she's doing alright.\e"
+M04120001,"\h(《Shishkabob Lady》)The shishkabob that she made last time wasn't 
+cooked properly. She has the spicing down, but 
+she still doesn't know how to cook it!\e"
+M04120002,"\h(《Shishkabob Lady》)Well, I have to stay here and teach this foolish
+girl how to cook my shishkabobs properly before
+I can return to Maramba!\e"
+M04120003,"\h(《Shishkabob Lady》)Well, I have to stay here and teach this foolish
+girl how to cook my shishkabobs properly before
+I can return to Maramba!\e"
+Ms018a000,"\h(《Vyse》)A shipwreck? Or was it just abandoned?
+It looks like been sitting here for a very
+long time…\c"
+Ms018a001,"\h(《Vyse》)That's a pretty old box.
+There's some drinks and canned food inside,
+but I don't know if they're still any good.\c"
+Ms018a002,"\h(《Vyse》)There's a lot of drinks and food.
+It looks like we can look forward to
+a good meal.\c"
+Ms018a003,"\h(《Vyse》)It's a gas tank. There's a date stamp, but it's
+been partially rubbed off. Looks like it's
+empty, though. Well, it's all rusted up, too.\c"
+Ms018a004,"\h(《Vyse》)It's a gas tank. There's a date stamp, but it's
+been partially rubbed off. Looks like it's
+empty, though. Well, it's all rusted up, too.\c"
+Ms018a005,"\h(《Vyse》)Hey, this bed looks comfortable.
+It's old, but fluffy. It seems like
+it's hung out in the sun every day.\c"
+Ms018a006,"\h(《Vyse》)There's a lot of old, yellowed books.
+They're all about navigation, and
+the Dark Rift.\c"
+Ms018a007,"\h(《Vyse》)Ugh, the bed's covered with dust.
+I guess it doesn't get used much.
+I wish they'd at least clean it, though.\c"
+Ms018a008,"\h(《Vyse》)A nice, fluffy mattress,
+and clean, white sheets.
+They're a little old, but nice.\c"
+Ms018a009,"\h(《Vyse》)There's a lot of dust here.
+Not only do they not get many guests,
+it doesn't even seem like they want any.\c"
+Ms018a010,"\h(《Vyse》)There's a brand new comb
+and shaving set in the drawer.\c"
+Ms018a011,"\h(《Vyse》)There's a half-finished letter
+in the drawer.\e"
+Ms018a012,"\h(《Vyse》)“I was able to trace my brother
+as far as Esparanza.”\e"
+Ms018a013,"\h(《Vyse》)“Perhaps everyone was right, and my brother
+headed into the Dark Rift…”
+… The letter ends here.\c"
+Ms018a014,"\h(《Vyse》)I suppose this is a picture from back when this
+town was still… lively. It's hard to imagine
+that a time like that existed here…\c"
+Ms018a015,"\h(《Vyse》)It's picture of when the town was more lively.
+I guess the town is going to start looking more
+like this again.\c"
+Ms018a016,"\h(《Vyse》)… It's completely rusted.
+This would probably explode if
+you tried to fire it.\c"
+Ms018a017,"\h(《Vyse》)Hey, a treasure chest… Damn, I guess not.
+It's just being used as a toolbox.\c"
+Ms018a018,"\h(《Vyse》)What's this?
+It's full of loqua and snacks.
+Looks like someone isn't eating right.\c"
+Ms018a019,"\h(《Vyse》)A campfire indoors?
+This is an… interesting
+way to cook food.\c"
+Ms018a020,"\h(《Vyse》)It's a tattered Valuan flag… That's almost…
+ironic. Especially considering that this place
+started falling apart after Valua pulled out.\c"
+Ms018a021,"\h(《Vyse》)Hmm… A gas tank, huh? Those really aren't that
+common anymore. Maybe they don't use Moon Stones
+as fuel around here…\c"
+Ms018a022,"\h(《Vyse》)There's an old newspaper at the bottom
+of the box. “The Birth of Prince Enrique!”
+…Whoa. That's an old newspaper.\c"
+Ms018a023,"\h(《Vyse》)There's some old bottles and flasks. It doesn't
+look like they've been used in a long time.\c"
+Ms018a024,"\h(《Vyse》)There's some old bottles and flasks. It doesn't
+look like they've been used in a long time.\c"
+Ms018a025,"\h(《Vyse》)Maybe there's some old invoices and
+papers… and a few dead insects in
+between the sheets.\c"
+Ms018a026,"\h(《Vyse》)There's some recent receipts in the pile of
+papers. It looks like trade has started to pick
+up around here again.\c"
+Ms018a027,"\h(《Vyse》)I should probably try to collect information
+about the Dark Rift while I'm here.
+We'll leave after that.\c"
+Ms018a028,"\h(《What will you do?》)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+"",a018az.mld
+"",a018az.mld
+"",me018b.sct
+"",me018b.sct
+"",M0240
+"",m5180000
+"",EVG22発生しました。\c
+"",M0322
+"",e6g022
+"",a018ag22.mld
+"",a018ag22.mld
+"",a018ag22.mld

@@ -1,0 +1,98 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MA5010000,"\h(«Valuan Cruiser»)We got a warning about you Air Pirates
+from the Coliseum guards.
+You're not getting through here!\c"
+MA5010001,"\h(«Drachma»)Boy, the Harpoon Cannon takes a lot of Spirit
+Points to fire. Also, you can only fire it
+when the target is in the right place.\e"
+MA5010002,"\h(«Drachma»)So, attack the enemy with your normal cannons
+and build up your Spirit. And when the time is
+right, unleash the Harpoon Cannon!\c"
+MA5010003,"\h(«Drachma»)In order to use the Harpoon Cannon, after you've
+built up enough Spirit Points, you need to use
+the “S.Cannon” command.\e"
+MA5010004,"\h(«Drachma»)But, regardless of your spirit level, you won't
+be able to use the “S.Cannon” command
+unless you have a clear shot at your enemy.\e"
+MA5010005,"\h(«Drachma»)You can only use the “S.Cannon” command on
+turns with a special marker at the top of the
+column. So keep your eyes open!\c"
+MFA5010000,"\h(«Croiseur Valuan»)Nous avons été prévenus de l'arrivée de Pirates
+de l'Air par les gardes du Coliseum.
+Vous ne passerez pas par là !\c"
+MFA5010001,"\h(«Drachma»)Le Canon Harpon utilise beaucoup de Points
+Esprit. Et vous ne pouvez tirer des coups de
+canon que lorsque la cible est au bon endroit.\e"
+MFA5010002,"\h(«Drachma»)Alors, attaquez l'ennemi avec vos canons normaux
+et accumulez votre Esprit. Et au moment venu,
+déclenchez le Canon Harpon !\c"
+MFA5010003,"\h(«Drachma»)Pour pouvoir utiliser le Canon Harpon, vous
+devez vous servir de la commande du “S-Canon”,
+après avoir accumulé suffisamment de Points
+Esprit.\e"
+MFA5010004,"\h(«Drachma»)Mais, votre niveau d'esprit mis à part,
+vous ne pourrez pas utiliser la commande du
+“S-Canon” à moins d'avoir un très bon angle de
+tir sur votre ennemi.\e"
+MFA5010005,"\h(«Drachma»)Vous ne pouvez utiliser la commande du
+“S-Canon” que pendant les tours où un indicateur
+spécial apparaît en haut de la colonne.
+Alors gardez un oeil ouvert !\c"
+MGA5010000,"\h(«Valuanisches Kreuzschiff»)Wir haben von den Coliseumwächtern eine 
+Warnung wegen euch Luftpiraten erhalten.
+Hier kommt ihr nicht durch!\c"
+MGA5010001,"\h(«Drachma»)Mann, Junge, die Harpoon Cannon verbraucht
+eine Menge Spirit Points beim Feuern. Außerdem
+kann man sie auch nur abfeuern, wenn das
+Ziel sich am richtigen Ort befindet.\e"
+MGA5010002,"\h(«Drachma»)Also greift den Feind mit euren normalen
+Kanonen an und baut euren Spirit auf. Und
+wenn die Zeit reif ist, feuert ihr die
+Harpoon Cannon ab!\c"
+MGA5010003,"\h(«Drachma»)Um die Harpoon Cannon abzufeuern, müsst ihr
+den “S-Kanone”-Befehl benutzen, nachdem ihr
+genug Spirit Points angesammelt habt.\e"
+MGA5010004,"\h(«Drachma»)Unabhängig von der Anzahl eurer Spirit Points
+könnt ihr den “S-Kanone”-Befehl jedoch nur
+dann benutzen, wenn ihr den Feind direkt im
+Schussfeld habt.\e"
+MGA5010005,"\h(«Drachma»)Den “S-Kanone”-Befehl könnt ihr nur bei Zügen
+anwenden, bei denen eine spezielle Markierung
+oben auf der Tabelle erschienen ist. Haltet
+also die Augen offen!\c"
+MSA5010000,"\h(«Crucero Valuan»)Hemos recibido un aviso de los guardias
+del Coliseo de que veníais, Piratas Aéreos.
+¡No pasaréis por aquí!\c"
+MSA5010001,"\h(«Drachma»)Muchacho, el Cañón Arpón consume mucho
+Espíritu. Además, sólo puedes disparar
+cuando el objetivo está bien colocado.\e"
+MSA5010002,"\h(«Drachma»)Es mejor atacar con los cañones normales y
+acumular tu Espíritu. ¡Y en el momento justo,
+utilizar toda la potencia del Cañón Arpón!\c"
+MSA5010003,"\h(«Drachma»)Para usar el Cañón Arpón, después de haber
+reunido suficientes Puntos de Espíritu, tienes
+que usar el comando “Cañón-S”.\e"
+MSA5010004,"\h(«Drachma»)Pero independientemente de tu nivel de Espíritu,
+no podrás usar el comando “Cañón-S” a no ser que
+estés seguro de que vas a acertar a tu enemigo.\e"
+MSA5010005,"\h(«Drachma»)Sólo puedes usar el comando del “Cañón-S”
+cuando aparezca una marca especial en la parte
+superior de la columna. ¡Estate atento!\c"
+"",M0430
+"",k000001.mld
+"",k000001.mld
+"",f7100050S.p04
+"",k000001.mld
+"",f7100100S.p04
+"",f7100100S.p04
+"",me501a.sct
+"",me090a.sct
+"",me243a.sct

@@ -1,0 +1,974 @@
+[Event Name],Task ID
+MH0080000,"\h(«Mikado»)So, you came from the land where the sun sets.
+Welcome to Yafutoma.\e"
+MH0080001,"\h(«Mikado»)My daughter, Moegi, has always been intrigued
+with the West. Haven't you, my dear?\e"
+MH0080002,"\h(«Moegi»)Yes, father.
+Please, I would love to hear all about your
+homeland.\e"
+MH0080003,"\h(«Moegi»)And if there is anything that we can do for you,
+just ask.\e"
+MH0080004,"\h(«Aika»)Sure, but I don't want to be too much of a
+burden. \e"
+MH0080005,"\h(«Kangan»)King Mikado… as an advisor of the Royal Court,
+I must say that I am opposed to the idea of
+foreigners entering our lands.\e"
+MH0080006,"\h(«Kangan»)Foreigners have only brought us disaster. We
+must cleanse them from our lands immediately!\e"
+MH0080007,"\h(«Muraji»)I agree with my father!
+The Westerners can only bring us trouble. 
+We should dispose of them at once.\e"
+MH0080008,"\h(«Mikado»)They are our guests. We must welcome them. They 
+can teach us a great deal about the West. And 
+there is much we can teach them as well.\e"
+MH0080009,"\h(«Mikado»)…But I would like to know why you have traveled
+to Yafutoma.\e"
+MH0080010,"\h(«Vyse»)We're searching for the Moon Crystals to prevent
+our enemies from using them to destroy the
+world.\e"
+MH0080020,\h(«Vyse»)It is rumored that the Blue Crystal is here.\e
+MH0080011,"\h(«Mikado»)The Blue Crystal?
+Hmm… I think you are referring to the jewel
+that has the powers of the Blue Moon.\e"
+MH0080012,"\h(«Mikado»)The object that you are searching for lies 
+underneath Mount Kazai. Here in Yafutoma, 
+we refer to the object as the Maga Sphere.\e"
+MH0080013,"\h(«Mikado»)Mount Kazai is considered by our people to be 
+a holy mountain. And deep within the mountain… 
+lies an azure-colored jewel.\e"
+MH0080014,"\h(«Mikado»)Our ancestors passed the jewel to the successors
+of the throne. After the cataclysm, the jewel 
+was sealed inside Mount Kazai.\e"
+MH0080015,"\h(«Aika»)An azure-colored jewel?
+Vyse! That has to be the Moon Crystal!\e"
+MH0080016,"\h(«Mikado»)At one time, Mount Kazai was a volcano, and 
+there is no known way inside. The Maga Sphere 
+has been lost since the days of the Old World…\e"
+MH0080017,"\h(«Mikado»)If you were to retrieve it for us, we would be
+eternally grateful…\e"
+MH0080018,"\h(«Vyse»)So, the Maga Sphere is at the bottom of that
+huge mountain? Leave it to us.\e"
+MH0080019,\h(«Vyse»)Don't worry… we'll get it back for you!\e
+MFH0080000,"\h(«Mikado»)Alors, vous venez du pays du soleil couchant.
+Bienvenue à Yafutoma.\e"
+MFH0080001,"\h(«Mikado»)Ma fille, Moegi, a toujours été intriguée par
+l'Occident. N'est-ce pas, ma chérie ?\e"
+MFH0080002,"\h(«Moegi»)Oui, Père.
+S'il vous plaît, j'aimerais que vous me parliez
+de votre terre natale.\e"
+MFH0080003,"\h(«Moegi»)Et s'il y a quelque chose que nous pouvons faire
+pour vous, demandez-le moi.\e"
+MFH0080004,"\h(«Aika»)Bien sûr, mais je ne veux pas être un fardeau.\e"
+MFH0080005,"\h(«Kangan»)Roi Mikado…… en tant que conseiller de la Cour
+Royale, je dois avouer que je suis contre le
+fait de laisser entrer des étrangers sur nos
+terres.\e"
+MFH0080006,"\h(«Kangan»)Les étrangers ont toujours été cause de
+désastre. Nous devons les chasser de nos terres
+immédiatement !\e"
+MFH0080007,"\h(«Muraji»)Je suis d'accord avec mon père !
+Les Occidentaux ne nous apportent que des
+problèmes. Nous devons nous débarrasser d'eux
+tout de suite.\e"
+MFH0080008,"\h(«Mikado»)Ils sont nos invités. Nous devons les
+accueillir. Ils peuvent nous apprendre beaucoup
+de choses sur l'Occident. Et nous pouvons aussi
+leur apprendre des choses.\e"
+MFH0080009,"\h(«Mikado»)……Mais j'aimerais savoir pourquoi vous êtes
+venus à Yafutoma.\e"
+MFH0080010,"\h(«Vyse»)Nous cherchons des Cristaux de Lune pour
+empêcher nos ennemis de s'en servir pour
+détruire le monde.
+Selon la rumeur, le Cristal Bleu se trouve ici.\e"
+MFH0080011,"\h(«Mikado»)Le Cristal Bleu ?
+Humm…… Je pense que vous voulez parler du joyau
+qui a les pouvoirs de la Lune Bleue.\e"
+MFH0080012,"\h(«Mikado»)Le joyau que vous cherchez se trouve sur le Mont
+Kazai. Ici à Yafutoma, nous l'appelons la Sphère
+Maga.\e"
+MFH0080013,"\h(«Mikado»)Notre peuple considère le Mont Kazai comme une
+montagne sacrée. Et profondément enfoui dans la
+montagne…… se trouve un joyau couleur azur.\e"
+MFH0080014,"\h(«Mikado»)Nos ancêtres passaient le joyau aux successeurs
+du trône. Après le cataclysme, le joyau a été
+enseveli sous le Mont Kazai.\e"
+MFH0080015,"\h(«Aika»)Un joyau couleur azur ?
+Vyse ! C'est certainement le Cristal de Lune !\e"
+MFH0080016,"\h(«Mikado»)Jadis, le Mont Kazai était un volcan, et
+personne ne sait comment y entrer. La Sphère
+Maga est perdue depuis l'époque de l'Ancien
+Monde……\e"
+MFH0080017,"\h(«Mikado»)Si vous pouviez la retrouver pour nous, nous
+vous serions éternellement reconnaissants……\e"
+MFH0080018,"\h(«Vyse»)Alors, la Sphère Maga se trouve au fond d'une
+énorme montagne ? Laissez-nous faire.\e"
+MFH0080019,"\h(«Vyse»)Ne vous inquiétez pas…… nous la retrouverons
+pour vous !\e"
+MGH0080000,"\h(«Mikado»)Also, ihr kommt aus dem Land, wo die Sonne
+untergeht. Willkommen in Yafutoma.\e"
+MGH0080001,"\h(«Mikado»)Meine Tochter Moegi war schon immer vom Westen
+fasziniert. Stimmt doch, meine Liebe?\e"
+MGH0080002,"\h(«Moegi»)Ja, Vater.
+Bitte, ich möchte gern alles über euer
+Heimatland erfahren.\e"
+MGH0080003,"\h(«Moegi»)Und wenn es etwas gibt, das wir für euch tun
+können, braucht ihr es nur zu sagen.\e"
+MGH0080004,"\h(«Aika»)Ok, aber ich möchte nicht zu viele Umstände
+machen.\e"
+MGH0080005,"\h(«Kangan»)König Mikado…… als Berater des Königlichen
+Hofes muss ich sagen, dass ich der Idee, dass
+Ausländer in unser Land einreisen, mit Skepsis
+gegenüberstehe.\e"
+MGH0080006,"\h(«Kangan»)Ausländer haben bisher nur Unglück gebracht.
+Wir müssen sie sofort aus unserem Land
+vertreiben!\e"
+MGH0080007,"\h(«Muraji»)Ich stimme meinem Vater zu!
+Die Leute aus dem Westen bringen uns nur
+Ärger. Wir sollten sie sofort beseitigen.\e"
+MGH0080008,"\h(«Mikado»)Sie sind unsere Gäste. Wir müssen sie
+willkommen heißen. Sie können uns eine Menge
+über den Westen beibringen. Und wir haben
+ihnen auch viel beizubringen.\e"
+MGH0080009,"\h(«Mikado»)……Aber ich würde gern wissen, warum ihr nach
+Yafutoma gereist seid.\e"
+MGH0080010,"\h(«Vyse»)Wir suchen nach Moon Crystals, um unsere Feinde
+davon abzuhalten, die Welt zu zerstören. Es
+gibt Gerüchte, dass sich der Blue Crystal hier
+befindet.\e"
+MGH0080011,"\h(«Mikado»)Der Blue Crystal?
+Hmm…… ich nehme an, du meinst den Edelstein,
+der die Macht des Blue Moon in sich vereint.\e"
+MGH0080012,"\h(«Mikado»)Der Gegenstand, nach dem ihr sucht, liegt unter
+dem Mount Kazai. Hier in Yafutoma bezeichnen wir
+diesen Gegenstand als Maga Sphere.\e"
+MGH0080013,"\h(«Mikado»)Der Mount Kazai wird von unserem Volk als
+heiliger Berg verehrt. Und tief im Innern des
+Berges…… liegt ein azurblaues Juwel.\e"
+MGH0080014,"\h(«Mikado»)Unsere Vorfahren gaben das Juwel an die
+Thronfolger weiter. Nach der Katastrophe
+wurde das Juwel im Mount Kazai eingeschlossen.\e"
+MGH0080015,"\h(«Aika»)Ein azurblaues Juwel?
+Vyse! Das muss der Moon Crystal sein!\e"
+MGH0080016,"\h(«Mikado»)Mount Kazai war einmal ein Vulkan,
+und niemand kennt den Weg dort hinein.
+Die Maga Sphere ist seit der Zeit der Alten
+Welt verloren……\e"
+MGH0080017,"\h(«Mikado»)Wenn ihr sie für uns wieder finden könntet,
+wären wir euch ewig dankbar……\e"
+MGH0080018,"\h(«Vyse»)Also, die Maga Sphere befindet sich auf dem
+Grund dieses riesigen Berges? Überlasst das nur
+uns.\e"
+MGH0080019,\h(«Vyse»)Keine Sorge…… wir holen sie euch zurück!\e
+MSH0080000,"\h(«Mikado»)Así que venís del país donde se pone el sol.
+Bienvenidos a Yafutoma.\e"
+MSH0080001,"\h(«Mikado»)A mi hija, Moegi, siempre le ha intrigado el
+Oeste. ¿Verdad, querida mía?\e"
+MSH0080002,"\h(«Moegi»)Sí, padre.
+Por favor, me encantaría que me contárais todo
+sobre vuestra tierra.\e"
+MSH0080003,"\h(«Moegi»)Y si hay algo que podemos hacer por vosotros, no
+tenéis más que preguntar.\e"
+MSH0080004,\h(«Aika»)No quisiera que os tomárais tantas molestias.\e
+MSH0080005,"\h(«Kangan»)Rey Mikado…… como consejero de la Corte Real,
+debo decir que me opongo a la idea de que haya
+extranjeros en nuestro país.\e"
+MSH0080006,"\h(«Kangan»)Los extranjeros sólo traen desgracias.
+¡Debemos limpiar nuestras tierras de extranjeros
+enseguida!\e"
+MSH0080007,"\h(«Muraji»)¡Estoy de acuerdo con mi padre!
+Los occidentales sólo pueden traernos problemas.
+Deberíamos librarnos de ellos inmediatamente.\e"
+MSH0080008,"\h(«Mikado»)Son nuestros invitados. Debemos tratarlos bien.
+Nos pueden enseñar muchas cosas sobre el Oeste.
+Y ellos también pueden aprender de nosotros.\e"
+MSH0080009,"\h(«Mikado»)…… Pero me gustaría saber por qué habéis venido
+a Yafutoma.\e"
+MSH0080010,"\h(«Vyse»)Buscamos Cristales Lunares para que nuestros
+enemigos no los usen para destruir el mundo.
+Se rumorea que el Cristal Azul está aquí.\e"
+MSH0080011,"\h(«Mikado»)¿El Cristal Azul?
+Mmm…… Creo que se refieren a la joya que tiene
+los poderes de la Luna Azul.\e"
+MSH0080012,"\h(«Mikado»)El objeto que estáis buscando yace debajo del
+Monte Kazai. Aquí en Yafutoma lo llamamos la
+Mega Esfera.\e"
+MSH0080013,"\h(«Mikado»)El Monte Kazai es una montaña sagrada para las
+gentes de nuestro país. En las profundidades de
+la montaña yace una joya de color azul celeste.\e"
+MSH0080014,"\h(«Mikado»)Nuestros antepasados han pasado la joya a sus
+sucesores en el trono. Tras el cataclismo, esa
+joya quedó enterrada en el Monte Kazai.\e"
+MSH0080015,"\h(«Aika»)¿Una joya de color azul celeste?
+¡Vyse! ¡Eso debe ser el Cristal Lunar!\e"
+MSH0080016,"\h(«Mikado»)El Monte Kazai era un volcán y no se conoce
+ningún camino a su interior. La Mega Esfera se
+perdió en los tiempos del Mundo Antiguo……\e"
+MSH0080017,"\h(«Mikado»)Si la recuperárais para nosotros, os estaríamos
+eternamente agradecidos……\e"
+MSH0080018,"\h(«Vyse»)¿O sea que la Mega Esfera está al fondo de esa
+montaña tan enorme? Déjanoslo a nosotros.\e"
+MSH0080019,\h(«Vyse»)No te preocupes…… ¡Te la traeremos!\e
+MH0100000,"\h(«Mikado»)You have done exceptionally well!
+No one in Yafutoma has seen the Maga Sphere
+since the days of the Old World.\e"
+MH0100001,"\h(«Mikado»)You are the first to make it back alive from 
+the depths of Mount Kazai. How can I 
+repay you for risking your lives to recover it?\e"
+MH0100002,"\h(«Vyse»)Well… as we mentioned earlier, we were
+wondering if it would be alright if we
+borrowed it.\e"
+MH0100003,"\h(«Mikado»)Hmm… 
+But it is the symbol of royal succession…\e"
+MH0100004,"\h(«Mikado»)I would like to keep it in my possession at
+least while you remain in Yafutoma.\e"
+MH0100005,\h(«Vyse»)Umm… Sure…\e
+MH0100006,"\h(«Aika»)Symbol of royal succession, huh?
+That makes sense why they want to keep it.\e"
+MH0100007,"\h(«Aika»)Moegi… you're Lord Mikado's daughter, right?
+So does that make you the successor to
+the throne?\e"
+MH0100008,\h(«Mikado»)Um…\e
+MH0100009,\h(«Moegi»)……\e
+MH0100010,"\h(«Mikado»)Well, thank you for retrieving the Maga Sphere!\e"
+MH0100011,"\h(«Mikado»)Let us begin the preparations for the feast!
+Make yourselves at home and enjoy the
+festivities!\e"
+MH0100012,"\h(«Aika»)Alright! That's more like it!
+I can't wait to taste the gourmet cooking of
+Yafutoma!\e"
+MH0100013,"\h(«Vyse»)We would be honored to join you,
+especially Aika.\e"
+MH0100014,\h(«Enrique»)……\e
+MH0100015,\h(«Enrique»)Princess… Hmm…\e
+MH0100016,"\h( )You handed the “Blue Moon Crystal” over
+to Lord Mikado.\e"
+MFH0100000,"\h(«Mikado»)Vous avez fait un travail remarquable !
+À Yafutoma, personne n'a vu la Sphère Maga
+depuis l'époque de l'Ancien Monde.\e"
+MFH0100001,"\h(«Mikado»)Vous êtes les premiers à revenir vivants du Mont
+Kazai. Comment puis-je vous récompenser d'avoir
+risqué vos vies pour la retrouver ?\e"
+MFH0100002,"\h(«Vyse»)Euh…… comme je vous l'ai dit tout à l'heure,
+nous nous demandions si nous pouvions
+l'emprunter.\e"
+MFH0100003,"\h(«Mikado»)Humm……
+Mais c'est le symbole de la succession royale……\e"
+MFH0100004,"\h(«Mikado»)J'aimerais la garder en ma possession au moins
+pendant la durée de votre séjour à Yafutoma.\e"
+MFH0100005,\h(«Vyse»)Umm…… Oui bien sûr……\e
+MFH0100006,"\h(«Aika»)Symbole de la succession royale, hein ?
+Je comprends pourquoi ils veulent la garder.\e"
+MFH0100007,"\h(«Aika»)Moegi…… Vous êtes la fille du Seigneur Mikado,
+n'est-ce pas ?
+Donc vous êtes l'héritière du trône ?\e"
+MFH0100008,\h(«Mikado»)Um……\e
+MFH0100009,\h(«Moegi»)……\e
+MFH0100010,"\h(«Mikado»)Bon, merci d'avoir retrouvé la Sphère Maga !\e"
+MFH0100011,"\h(«Mikado»)Commençons les préparatifs du banquet !
+Faites comme chez vous et profitez bien des
+festivités !\e"
+MFH0100012,"\h(«Aika»)Super ! Voilà ce que j'aime !
+Il me tarde de goûter à la gastronomie de
+Yafutoma !\e"
+MFH0100013,"\h(«Vyse»)Nous serions honorés de nous joindre à vous,
+surtout Aika.\e"
+MFH0100014,\h(«Enrique»)……\e
+MFH0100015,\h(«Enrique»)Princesse…… Humm……\e
+MFH0100016,"\h( )Vous avez rendu le “Cristal de Lune Bleue” au
+Seigneur Mikado.\e"
+MGH0100000,"\h(«Mikado»)Das habt ihr wirklich gut gemacht!
+Niemand in Yafutoma hat die Maga Sphere
+seit der Zeit der Alten Welt gesehen.\e"
+MGH0100001,"\h(«Mikado»)Ihr seid die Ersten, die lebend aus den
+Tiefen des Mount Kazai zurückgekehrt sind.
+Wie kann ich mich dafür revanchieren, dass ihr
+euer Leben aufs Spiel gesetzt habt?\e"
+MGH0100002,"\h(«Vyse»)Tja…… wie bereits erwähnt, haben wir uns
+gefragt, ob es wohl geht, dass wir uns den
+Kristall ausborgen.\e"
+MGH0100003,"\h(«Mikado»)Hmm……
+Aber er ist das Symbol der königlichen
+Erbfolge……\e"
+MGH0100004,"\h(«Mikado»)Ich möchte ihn zumindest so lange bei mir
+behalten, wie ihr euch in Yafutoma aufhaltet.\e"
+MGH0100005,\h(«Vyse»)Ähmm…… Selbstverständlich……\e
+MGH0100006,"\h(«Aika»)Ein Symbol der königlichen Erbfolge?
+Es ist verständlich, dass sie ihn behalten
+wollen.\e"
+MGH0100007,"\h(«Aika»)Moegi… du bist Lord Mikados Tochter, nicht?
+Bedeutet das, dass du die Thronerbin
+bist?\e"
+MGH0100008,\h(«Mikado»)Ähm……\e
+MGH0100009,\h(«Moegi»)……\e
+MGH0100010,"\h(«Mikado»)Also, danke, dass ihr die Maga Sphere
+wiedergefunden habt!\e"
+MGH0100011,"\h(«Mikado»)Lasst uns mit den Vorbereitungen für das Fest
+beginnen! Macht es euch bequem und genießt
+die Feierlichkeiten!\e"
+MGH0100012,"\h(«Aika»)Ok! Das lasse ich mir gefallen!
+Ich kann's nicht erwarten, Yafutomas
+Gourmetküche auszuprobieren!\e"
+MGH0100013,"\h(«Vyse»)Wir gesellen uns gern zu euch, vor allem
+Aika.\e"
+MGH0100014,\h(«Enrique»)……\e
+MGH0100015,\h(«Enrique»)Prinzessin……  Hmm……\e
+MGH0100016,"\h( )Du hast den “Blue Moon Crystal” Lord Mikado
+überreicht.\e"
+MSH0100000,"\h(«Mikado»)¡Habéis tenido un gran éxito!
+Nadie en Yafutoma había visto la Mega Esfera de
+los días del Mundo Antiguo.\e"
+MSH0100001,"\h(«Mikado»)Sois los primeros en volver con vida de las
+profundidades del Monte Kazai. ¿Cómo puedo
+recompensaros por arriesgar vuestras vidas?\e"
+MSH0100002,"\h(«Vyse»)Bueno…… como decía antes, nos preguntábamos si
+habría algún problema si la tomamos prestada.\e"
+MSH0100003,"\h(«Mikado»)Mmm……
+Pero es el símbolo de la Sucesión Real……\e"
+MSH0100004,"\h(«Mikado»)Me gustaría guardarla, por lo menos mientras
+estáis en Yafutoma.\e"
+MSH0100005,\h(«Vyse»)Umm…… Claro……\e
+MSH0100006,"\h(«Aika»)El símbolo de la Sucesión Real, ¿eh?
+Entiendo que quieran guardarlo.\e"
+MSH0100007,"\h(«Aika»)Moegi…… tú eres la hija de Lord Mikado, ¿no?
+¿Así que tú serás la sucesora al trono?\e"
+MSH0100008,\h(«Mikado»)Um……\e
+MSH0100009,\h(«Moegi»)……\e
+MSH0100010,"\h(«Mikado»)¡Bueno, gracias por recuperar la Mega Esfera!\e"
+MSH0100011,"\h(«Mikado»)¡Vamos a empezar los preparativos para el
+banquete!
+¡Poneos cómodos y disfrutad de la fiesta!\e"
+MSH0100012,"\h(«Aika»)¡Muy bien! ¡Así se habla!
+¡Estoy impaciente por probar la deliciosa
+gastronomía de Yafutoma!\e"
+MSH0100013,"\h(«Vyse»)Sería un honor unirse a vosotros,
+sobre todo para Aika.\e"
+MSH0100014,\h(«Enrique»)……\e
+MSH0100015,\h(«Enrique»)Princesa…… Mmm……\e
+MSH0100016,\h( )Has entregado el “Cristal Azul” a Lord Mikado.\e
+MH0120000,"\h(«Mikado»)Good morning, Vyse.
+Did you rest well?\e"
+MH0120001,"\h(«Vyse»)Yes, I slept like a rock.
+That was my first time sleeping on a… 
+floor… mattress… thing.\e"
+MH0120002,"\h(«Mikado»)Hahaha, I see.
+I am glad you were comfortable.\e"
+MH0120003,\h(«Yafutoman Soldier»)Lord Mikado! It's an emergency!\e
+MH0120004,"\h(«Yafutoman Soldier»)Black ships have surrounded the city! And 
+what appears to be their flagship is 
+attempting to dock in our harbor.\e"
+MH0120005,\h(«Mikado»)What?!\e
+MH0120006,\h(«Vyse»)Black ships…? Oh no…\e
+MH0120007,"\h(«Aika»)It must be the Armada!!
+Vyse, let's hurry back to the port!\e"
+MH0120008,\h(«Muraji»)Father…\e
+MH0120009,\h(«Kangan»)Yes… Yes… I know…\e
+MFH0120000,"\h(«Mikado»)Bonjour, Vyse.
+Vous êtes-vous bien reposé ?\e"
+MFH0120001,"\h(«Vyse»)Oui, j'ai dormi à poings fermés.
+C'est la première fois que je dormais sur une……
+sorte de…… matelas…… au sol.\e"
+MFH0120002,"\h(«Mikado»)Hahaha, je vois. Je suis content que vous ayez
+bien dormi.\e"
+MFH0120003,\h(«Soldat Yafutoman»)Seigneur Mikado ! Alerte !\e
+MFH0120004,"\h(«Soldat Yafutoman»)Des navires noirs ont encerclé la ville !
+Et on dirait que leur vaisseau amiral essaie de
+se mettre à quai dans notre port.\e"
+MFH0120005,\h(«Mikado»)Comment ?!\e
+MFH0120006,\h(«Vyse»)Des navires noirs……? Oh non……\e
+MFH0120007,"\h(«Aika»)Ce doit être l'Armada !!
+Vyse, revenons vite au port !\e"
+MFH0120008,\h(«Muraji»)Père……\e
+MFH0120009,\h(«Kangan»)Oui…… Oui…… Je sais……\e
+MGH0120000,"\h(«Mikado»)Guten Morgen, Vyse.
+Hast du gut geruht?\e"
+MGH0120001,"\h(«Vyse»)Ja, ich habe geschlafen wie ein Murmeltier.
+Das war das erste Mal, dass ich auf so einem……
+Boden…… matratzen…… ding geschlafen habe.\e"
+MGH0120002,"\h(«Mikado»)Hahaha, verstehe.
+Ich bin froh, dass du es bequem hattest.\e"
+MGH0120003,\h(«Yafutoma-Soldat»)Lord Mikado! Ein Notfall!\e
+MGH0120004,"\h(«Yafutoma-Soldat»)Schwarze Schiffe haben die Stadt umzingelt!
+Und es sieht so aus, als versuchte ihr
+Flaggschiff gerade, in unserem Hafen anzulegen.\e"
+MGH0120005,\h(«Mikado»)Was?!\e
+MGH0120006,\h(«Vyse»)Schwarze Schiffe……? O nein……\e
+MGH0120007,"\h(«Aika»)Das muss die Armada sein!!
+Vyse, lass uns schnell zurück zum Hafen!\e"
+MGH0120008,\h(«Muraji»)Vater……\e
+MGH0120009,\h(«Kangan»)Ja…… ja…… ich weiß……\e
+MSH0120000,"\h(«Mikado»)Buenos días, Vyse.
+¿Has descansado?\e"
+MSH0120001,"\h(«Vyse»)Sí, he dormido como un tronco.
+Era la primera vez que dormía sobre un……
+suelo…… colchón…… eso.\e"
+MSH0120002,"\h(«Mikado»)Ja, ja, ja. Entiendo.
+Me alegro de que estés cómodo.\e"
+MSH0120003,\h(«Soldado Yafutoman»)¡Lord Mikado! ¡Es una emergencia!\e
+MSH0120004,"\h(«Soldado Yafutoman»)¡Unos navíos negros han rodeado la ciudad!
+¡Y lo que debe ser su buque insignia intenta
+atracar en nuestro puerto!\e"
+MSH0120005,\h(«Mikado»)¡¿Qué?!\e
+MSH0120006,"\h(«Vyse»)¿Unos navíos negros……? Oh, no……\e"
+MSH0120007,"\h(«Aika»)¡¡Debe ser la Armada!!
+¡Vyse, hay que volver al puerto rápidamente!\e"
+MSH0120008,\h(«Muraji»)Padre……\e
+MSH0120009,\h(«Kangan»)Sí…… Sí…… Lo sé……\e
+MH0150000,"\h(«Mikado»)No! I will never let the Valuans occupy
+Yafutoma!\e"
+MH0150001,"\h(«Belleza»)But, King Mikado… you do realize that your 
+country's pitiful army wouldn't last 
+a day against the Armada.\e"
+MH0150002,"\h(«Belleza»)To prevent unnecessary bloodshed,
+I recommend that you surrender.\e"
+MH0150003,"\h(«Mikado»)We will never surrender! We will never hand
+Yafutoma over to a band of bloodthirsty
+warlords like yourselves.\e"
+MH0150004,"\h(«Mikado»)We are protected by the Blue Moon. In the past,
+whenever our country was threatened, the Blue
+Winds came to our aid and saved our lands.\e"
+MH0150005,"\h(«Mikado»)If you attack us, the winds will blow you into 
+the Dark Rift. Valua will never occupy Yafutoma.
+Do you hear me? Never!\e"
+MH0150006,"\h(«Belleza»)I'm sorry you didn't see things our way.
+It appears that this meeting is at an end.\e"
+MH0150007,"\h(«Belleza»)Then, I will gain possession of Yafutoma…
+by my own means.\e"
+MH0150008,\h(«Mikado»)What sort of treachery is this?!\e
+MH0150009,"\h(«Muraji»)Heh heh heh…
+If you do not keep quiet, you'll be a head
+shorter.\e"
+MH0150010,\h(«Mikado»)Muraji… You traitor!\e
+MH0150011,"\h(«Kangan»)Belleza, in accordance with our meeting last
+night, this country will fall under the rule
+of the Valuan Empire.\e"
+MH0150012,\h(«Mikado»)Kangan! What are you saying?!\e
+MH0150013,"\h(«Kangan»)King Mikado… as Lady Belleza stated, 
+we have no hope of winning a war against Valua.\e"
+MH0150014,"\h(«Kangan»)To save our people, we shall usurp your power
+and assume our role as leaders of Yafutoma.\e"
+MH0150015,"\h(«Vigoro»)Wow!
+Belleza… I'm glad we're on the same side!\e"
+MH0150016,"\h(«Belleza»)Don't relax yet, big guy.
+Not while the kid is still around.\e"
+MH0150017,"\h(«Belleza»)Take King Mikado prisoner and find those
+Air Pirates.\e"
+MFH0150000,"\h(«Mikado»)Non ! Je ne laisserai jamais les Valuans occuper
+Yafutoma !\e"
+MFH0150001,"\h(«Belleza»)Mais, Roi Mikado…… vous vous rendez compte que
+votre misérable armée ne tiendrait pas un jour
+face à l'Armada.\e"
+MFH0150002,"\h(«Belleza»)Pour éviter que le sang coule,
+je vous conseille de vous rendre.\e"
+MFH0150003,"\h(«Mikado»)Nous ne nous rendrons jamais ! Nous ne rendrons
+jamais Yafutoma à une bande de seigneurs de la
+guerre assoiffés de sang.\e"
+MFH0150004,"\h(«Mikado»)Nous sommes protégés par la Lune Bleue.
+Jadis, quand notre pays a été menacé, les Vents
+Bleus sont venus à notre secours et ont sauvé
+nos terres.\e"
+MFH0150005,"\h(«Mikado»)Si vous nous attaquez, les vents vous
+emporteront dans le Récif Noir. Valua n'occupera
+jamais Yafutoma. Vous m'entendez ? Jamais !\e"
+MFH0150006,"\h(«Belleza»)Je regrette que nous n'ayons pas la même vision
+des choses. Il semble que la réunion soit
+terminée.\e"
+MFH0150007,"\h(«Belleza»)Dans ce cas, je vais m'approprier Yafutoma……
+par mes propres moyens.\e"
+MFH0150008,\h(«Mikado»)Seriez-vous déloyaux ?!\e
+MFH0150009,"\h(«Muraji»)Hé hé hé……
+Si vous ne restez pas tranquille, vous aurez la
+tête coupée.\e"
+MFH0150010,\h(«Mikado»)Muraji…… traître !\e
+MFH0150011,"\h(«Kangan»)Belleza, comme convenu lors de notre entrevue
+hier soir, ce pays tombera sous le règne de
+l'Empire Valuan.\e"
+MFH0150012,\h(«Mikado»)Kangan ! Qu'est-ce que tu racontes ?!\e
+MFH0150013,"\h(«Kangan»)Roi Mikado…… comme Lady Belleza l'a indiqué,
+nous n'avons aucun espoir de gagner la guerre
+contre Valua.\e"
+MFH0150014,"\h(«Kangan»)Pour sauver notre peuple, il faut usurper notre
+pouvoir et assumer notre rôle de leaders de
+Yafutoma.\e"
+MFH0150015,"\h(«Vigoro»)Oaouh!
+Belleza…… Je suis content que nous soyons du
+même côté !\e"
+MFH0150016,"\h(«Belleza»)Ne te laisse pas aller, mon grand.
+Pas tant que le gamin est là.\e"
+MFH0150017,"\h(«Belleza»)Faites le Roi Mikado prisonnier et trouvez ces
+Pirates de l'Air.\e"
+MGH0150000,"\h(«Mikado»)Nein! Niemals werde ich Yafutoma von Valuanern
+besetzen lassen!\e"
+MGH0150001,"\h(«Belleza»)Aber, König Mikado…… es ist Ihnen doch wohl
+klar, dass Ihre jämmerliche Armee nicht einen
+Tag gegen die Armada bestehen könnte.\e"
+MGH0150002,"\h(«Belleza»)Um unnötiges Blutvergießen zu verhindern,
+schlage ich vor, dass Ihr Euch ergebt.\e"
+MGH0150003,"\h(«Mikado»)Wir werden uns nie ergeben. Wir werden
+Yafutoma nie einer Bande von blutrünstigen
+Kriegern wie euch überlassen.\e"
+MGH0150004,"\h(«Mikado»)Wir werden vom Blue Moon beschützt. Wann immer
+unser Land in der Vergangenheit bedroht wurde,
+kamen uns die Blue Winds zu Hilfe und retteten
+unser Land.\e"
+MGH0150005,"\h(«Mikado»)Wenn ihr uns angreift, werden euch die Winde
+in die Dark Rift hinein wehen. Valua wird
+Yafutoma nie besetzen. Hörst du mich? Nie!\e"
+MGH0150006,"\h(«Belleza»)Tut mir Leid, dass Ihr unseren Standpunkt nicht
+teilt. Wie es scheint, ist diese Zusammenkunft
+beendet.\e"
+MGH0150007,"\h(«Belleza»)Dann werde ich mir Yafutoma mit meinen eigenen
+Mitteln aneignen……\e"
+MGH0150008,\h(«Mikado»)Was ist das für eine Art von Verrat?!\e
+MGH0150009,"\h(«Muraji»)Hihihi………
+Wenn du dich nicht ruhig verhältst, bist du
+bald einen Kopf kürzer.\e"
+MGH0150010,\h(«Mikado»)Muraji…… du Verräter!\e
+MGH0150011,"\h(«Kangan»)Belleza, gemäß unserem
+Gespräch von gestern Abend wird dieses Land
+unter die Herrschaft des Valuan Empire fallen.\e"
+MGH0150012,\h(«Mikado»)Kangan! Was sagst du da?!\e
+MGH0150013,"\h(«Kangan»)König Mikado…… wie Lady Belleza erwähnte,
+haben wir nicht die geringste Chance, einen
+Krieg gegen Valua zu gewinnen.\e"
+MGH0150014,"\h(«Kangan»)Um unser Volk zu retten, werden wir uns Eure
+Macht aneignen und unsere Rolle als Führer
+von Yafutoma einnehmen.\e"
+MGH0150015,"\h(«Vigoro»)Wow!
+Belleza…… ich bin froh, dass wir auf derselben
+Seite kämpfen!\e"
+MGH0150016,"\h(«Belleza»)Freu dich nicht zu früh, Dickerchen.
+Nicht, so lange dieses Kid noch sein Unwesen
+treibt.\e"
+MGH0150017,"\h(«Belleza»)Nimm König Mikado gefangen und finde diese
+Luftpiraten.\e"
+MSH0150000,"\h(«Mikado»)¡No! ¡Jamás permitiré que los Valuan tomen
+Yafutoma!\e"
+MSH0150001,"\h(«Belleza»)Pero, Rey Mikado…… supongo que se da cuenta de
+que el patético ejército de su país no
+resistiría ni un solo día contra la Armada.\e"
+MSH0150002,"\h(«Belleza»)Le aconsejo que se rinda,
+si quiere evitar que se derrame
+sangre de inocentes.\e"
+MSH0150003,"\h(«Mikado»)¡Jamás nos rendiremos! No vamos a entregar
+Yafutoma a una panda de guerreros sedientos de
+sangre como vosotros.\e"
+MSH0150004,"\h(«Mikado»)La Luna Azul nos protege. Los Vientos Azules
+siempre nos han ayudado y han salvado nuestras
+tierras cuando hemos estado en peligro.\e"
+MSH0150005,"\h(«Mikado»)Si nos atacáis, los vientos os arrastrarán hasta
+la Gruta Oscura. Valua jamás ocupará Yafutoma.
+¿Me oís? ¡Jamás!\e"
+MSH0150006,"\h(«Belleza»)Siento que no esté de acuerdo con nosotros.
+Parece que este encuentro ha llegado a su fin.\e"
+MSH0150007,"\h(«Belleza»)Entonces, tomaré Yafutoma……
+por mis propios medios.\e"
+MSH0150008,\h(«Mikado»)¡¿Qué clase de traición es ésta?!\e
+MSH0150009,"\h(«Muraji»)Je, je, je……
+Calla o perderás la cabeza.\e"
+MSH0150010,\h(«Mikado»)Muraji…… ¡Traidor!\e
+MSH0150011,"\h(«Kangan»)Belleza, tal y como quedamos la otra noche, este
+país caerá bajo el dominio del Imperio Valuan.\e"
+MSH0150012,\h(«Mikado»)¡Kangan! ¡¿Pero qué dices?!\e
+MSH0150013,"\h(«Kangan»)Rey Mikado…… como ha dicho la señora Belleza,
+no hay esperanza de ganar una guerra contra
+Valua.\e"
+MSH0150014,"\h(«Kangan»)Para salvar a nuestro pueblo, usurparemos
+vuestro poder y ostentaremos el puesto de
+líderes de Yafutoma.\e"
+MSH0150015,"\h(«Vigoro»)¡Ooh!
+Belleza…… ¡me alegro de que estemos en el mismo
+bando!\e"
+MSH0150016,"\h(«Belleza»)No te emociones, grandullón.
+No mientras el chaval siga por aquí.\e"
+MSH0150017,"\h(«Belleza»)Tomad al Rey Mikado prisionero y encontrad a
+esos Piratas Aéreos.\e"
+MH0280000,"\h(«Mikado»)Brave adventurers from the West… 
+I thank you for saving Yafutoma.\e"
+MH0280001,\h(«Enrique»)But it was my country that caused all of this…\e
+MH0280002,"\h(«Enrique»)I am terribly sorry for all of the trouble
+caused by the Valuans… I don't know how I can
+make it up to you.\e"
+MH0280003,"\h(«Mikado»)Prince Enrique, please… raise your head.
+Daigo has explained everything to me.\e"
+MH0280004,"\h(«Mikado»)You feel responsible because you are a 
+Valuan Prince, but it is not your fault.\e"
+MH0280005,"\h(«Enrique»)Thank you for understanding… but we have 
+only won the battle. As we speak, 
+the Armada is regrouping…\e"
+MH0280006,"\h(«Enrique»)Until Valua sets itself back down the path of
+righteousness, I will continue to fight them.\e"
+MH0280007,"\h(«Mikado»)I see… very well then.
+I will pray for your well being.\e"
+MH0280008,"\h(«Mikado»)And perhaps the Maga Sphere will aid you in your
+fight. Take it with you.\e"
+MH0280009,"\h(«Aika»)Really? Are you sure it's okay? Didn't you say
+it's necessary in appointing a successor to the
+throne?\e"
+MH0280010,"\h(«Mikado»)Hahaha… it doesn't matter.
+Even without a symbol, I have such an
+accomplished successor already.\e"
+MH0280011,"\h(«Daigo»)I've also decided to return to my father and
+accept the responsibility of defending my
+people.\e"
+MH0280012,"\h(«Vyse»)That's great…
+Hey, what happened to Kangan and Muraji?\e"
+MH0280013,\h(«Daigo»)They were exiled to Tenkou Island.\e
+MH0280014,"\h(«Daigo»)We figured that if they spent some time in
+exile, they'd realize what they've done and
+become better people. Or kill each other.\e"
+MH0280015,"\h(«Aika»)Ahaha, I like that plan!
+It serves them right!\e"
+MH0280016,"\h(«Daigo»)That reminds me, I noticed that your ship isn't
+capable of going to great heights or depths.\e"
+MH0280017,"\h(«Daigo»)Here, take this with you.\e"
+MH0280018,"\h(«Daigo»)This is from my people. It contains all of the
+knowledge necessary to enable your ship to fly
+higher or lower than you've ever imagined.\e"
+MH0280019,\h( )Moegi has joined your crew as a “Delegate.”\c
+MH0280020,\h(«Vyse»)Wow! Thank you!\e
+MH0280021,\h(«Vyse»)I'll make sure we put it to good use!\e
+MH0280022,\h(«Moegi»)……\e
+MH0280023,"\h(«Moegi»)…Father.
+I have something to ask of you.\e"
+MH0280024,"\h(«Moegi»)I…
+Please, let me go with these people.\e"
+MH0280025,\h(«Mikado»)What?!\e
+MH0280026,"\h(«Moegi»)If what they say is true, then there are 
+matters of great importance occurring 
+in the West.\e"
+MH0280027,"\h(«Moegi»)You and Daigo both said you will stay here to
+protect our country.\e"
+MH0280028,"\h(«Moegi»)But I am helping defend our country…
+by helping these people on their quest.\e"
+MH0280029,\h(«Mikado»)Hmmm…\e
+MH0280030,"\h(«Daigo»)Well said, Moegi.
+I am proud to have you as a sister.\e"
+MH0280031,"\h(«Daigo»)Prince Enrique… I speak to you not as a fellow
+prince, but as a brother concerned for his
+sister's well being. Please take care of her…\e"
+MH0280032,"\h(«Enrique»)You have my word.
+I will defend her with my life.\e"
+MH0280033,"\h(«Enrique»)Princess…
+Let us join forces and return peace to
+this world.\e"
+MH0280034,"\h(«Moegi»)Yes.
+Prince Enrique…
+I entrust my life to you.\e"
+MH0280035,"\h(«Mikado»)Very well then…
+It appears I do not have much choice in this
+matter anyway.\e"
+MH0280036,"\h(«Aika»)Enrique! You're getting much more reliable by
+the minute!\e"
+MH0280037,"\h(«Aika»)You seem like a different person! Just until
+recently, all I ever saw of you was the back of
+your head leaning over the railing of the ship!\e"
+MH0280038,"\h(«Enrique»)AIKA!!!
+Do you have to constantly remind me about that?!\e"
+MH0280039,"\h(«Vyse»)Ahahahaha!!!
+She's right, Enrique!\e"
+MH0280040,\h(«Vyse»)Alright! Let's go home!\e
+MH0280041,"\h( )You received the “Blue Moon Crystal.”
+You received the “Book on Polarity.”\c"
+MFH0280000,"\h(«Mikado»)Braves aventuriers venus de l'Ouest……
+Je vous remercie d'avoir sauvé Yafutoma.\e"
+MFH0280001,"\h(«Enrique»)Mais c'est la faute de mon pays si tout cela est
+arrivé……\e"
+MFH0280002,"\h(«Enrique»)Je suis vraiment désolé de tous les malheurs que
+les Valuans vous ont causé…… Je ne sais pas
+comment nous racheter.\e"
+MFH0280003,"\h(«Mikado»)Prince Enrique, s'il vous plaît…… relevez la
+tête. Daigo m'a tout expliqué.\e"
+MFH0280004,"\h(«Mikado»)Vous vous sentez responsable parce que vous êtes
+un Prince Valuan, mais ce n'est pas votre faute.\e"
+MFH0280005,"\h(«Enrique»)Merci de votre compréhension…… mais nous avons
+seulement gagné la bataille. En ce moment même,
+l'Armada rassemble ses forces……\e"
+MFH0280006,"\h(«Enrique»)Jusqu'à ce que Valua se remette sur le droit
+chemin, je continuerai à les combattre.\e"
+MFH0280007,"\h(«Mikado»)Je vois…… très bien.
+Je prierai pour vous.\e"
+MFH0280008,"\h(«Mikado»)Et peut-être que la Sphère Maga vous aidera à
+vous battre. Prenez-là.\e"
+MFH0280009,"\h(«Aika»)Vraiment ? Vous êtes sûr ? Pourtant vous nous
+avez dit que vous en aviez besoin pour nommer le
+successeur au trône.\e"
+MFH0280010,"\h(«Mikado»)Hahaha…… cela n'a pas d'importance.
+Même sans symbole, j'ai déjà un successeur
+accompli.\e"
+MFH0280011,"\h(«Daigo»)J'ai également décidé de retourner auprès de mon
+père et accepté la responsabilité de défendre
+mon peuple.\e"
+MFH0280012,"\h(«Vyse»)C'est formidable……
+Hé, qu'est-il arrivé à Kangan et Muraji ?\e"
+MFH0280013,\h(«Daigo»)Ils ont été exilés sur l'Île Tenkou.\e
+MFH0280014,"\h(«Daigo»)Nous avons pensé que s'ils passaient quelques
+temps en exile, ils réaliseraient le mal qu'ils
+ont fait et changeraient pour le mieux. Ou bien
+s'entretueraient.\e"
+MFH0280015,"\h(«Aika»)Ahaha, c'est une bonne idée !
+C'est bien fait pour eux !\e"
+MFH0280016,"\h(«Daigo»)Mais j'y pense, j'ai remarqué que votre navire
+ne peut pas monter très haut ni descendre très
+bas.\e"
+MFH0280017,"\h(«Daigo»)Voilà, prenez-ça.\e"
+MFH0280018,"\h(«Daigo»)C'est de la part de mon peuple. Il contient
+toutes les connaissances nécessaires pour
+permettre à votre navire de voler très haut ou
+très bas.\e"
+MFH0280019,"\h( )Moegi a rejoint votre équipage en tant que
+“Délégué.”\c"
+MFH0280020,\h(«Vyse»)Oaouh ! Merci !\e
+MFH0280021,"\h(«Vyse»)Nous nous en servirons à bon escient, je vous le
+promets !\e"
+MFH0280022,\h(«Moegi»)……\e
+MFH0280023,"\h(«Moegi»)……Père.
+J'ai quelque chose à vous demander.\e"
+MFH0280024,"\h(«Moegi»)Je……
+S'il vous plaît, laissez-moi partir avec eux.\e"
+MFH0280025,\h(«Mikado»)Comment ?!\e
+MFH0280026,"\h(«Moegi»)S'ils disent la vérité, il se passe des
+choses importantes à l'Ouest.\e"
+MFH0280027,"\h(«Moegi»)Toi et Daigo aviez dit que vous resteriez pour
+protéger notre pays.\e"
+MFH0280028,"\h(«Moegi»)Mais j'aide à défendre notre pays……
+en aidant nos amis dans leur quête.\e"
+MFH0280029,\h(«Mikado»)Hummm……\e
+MFH0280030,"\h(«Daigo»)Bien dit, Moegi.
+Je suis fier de t'avoir comme soeur.\e"
+MFH0280031,"\h(«Daigo»)Prince Enrique…… Je ne vous parle pas en tant
+que prince, mais en tant que frère qui
+s'inquiète pour le bonheur de sa soeur.
+Je vous demande de veiller sur elle……\e"
+MFH0280032,"\h(«Enrique»)Vous avez ma parole.
+Je risquerais ma vie pour elle.\e"
+MFH0280033,"\h(«Enrique»)Princesse……
+Unissons nos forces pour restaurer la paix dans
+le monde.\e"
+MFH0280034,"\h(«Moegi»)Oui.
+Prince Enrique……
+Je remets ma vie entre vos mains.\e"
+MFH0280035,"\h(«Mikado»)Très bien……
+Il semble que je n'aie pas vraiment mon mot à
+dire de toute façon.\e"
+MFH0280036,"\h(«Aika»)Enrique ! Vous devenez quelqu'un sur qui on peut
+compter !\e"
+MFH0280037,"\h(«Aika»)Vous avez changé ! Encore récemment, je ne
+voyais que votre nuque penchée par dessus le
+garde-fou !\e"
+MFH0280038,"\h(«Enrique»)AIKA !!! Vous n'êtes pas obligée de me le
+rappeler sans arrêt !\e"
+MFH0280039,"\h(«Vyse»)Ahahahaha !!!
+Elle a raison, Enrique !\e"
+MFH0280040,\h(«Vyse»)Allez ! Rentrons chez nous !\e
+MFH0280041,"\h( )Vous avez reçu le “Cristal de Lune Bleue.”
+Vous avez reçu le “Livre des Polarités.”\e"
+MGH0280000,"\h(«Mikado»)Tapfere Abenteurer aus dem Westen……
+Ich danke euch, dass ihr Yafutoma gerettet
+habt.\e"
+MGH0280001,"\h(«Enrique»)Aber es ist mein Land, das all das verursacht
+hat……\e"
+MGH0280002,"\h(«Enrique»)Ich bedaure all den Ärger, den die Valuaner
+bereitet haben, ganz furchtbar…… wie kann ich
+das nur wieder gutmachen?\e"
+MGH0280003,"\h(«Mikado»)Prinz Enrique, bitte……  erhebt Euer Haupt.
+Daigo hat mir alles berichtet.\e"
+MGH0280004,"\h(«Mikado»)Ihr fühlt Euch verantwortlich, weil Ihr ein
+valuanischer Prinz seid, aber es ist nicht
+Eure Schuld.\e"
+MGH0280005,"\h(«Enrique»)Danke für Euer Verständnis…… aber wir haben
+nur eine Schlacht gewonnen. Während wir hier
+reden, formiert sich die Armada neu.\e"
+MGH0280006,"\h(«Enrique»)Bis Valua wieder auf den Pfad der Tugend
+gelangt, werde ich gegen das Reich kämpfen.\e"
+MGH0280007,"\h(«Mikado»)Verstehe…… also gut.
+Ich werde für Euer Wohlergehen beten.\e"
+MGH0280008,"\h(«Mikado»)Und vielleicht wird Euch die Maga Sphere
+bei Euren Kämpfen behilflich sein. Nehmt sie
+mit Euch.\e"
+MGH0280009,"\h(«Aika»)Wirklich? Seid Ihr sicher, das geht in Ordnung?
+Sagtet Ihr nicht, man bräuchte sie zur
+Bestimmung des Thronerben?\e"
+MGH0280010,"\h(«Mikado»)Hahaha…… das ist nicht mehr wichtig. Auch ohne
+Symbol habe ich bereits einen idealen
+Nachfolger.\e"
+MGH0280011,"\h(«Daigo»)Ich habe mich auch dazu entschlossen, zu meinem
+Vater zurückzukehren und die Verantwortung für
+die Verteidigung meines Volkes zu übernehmen.\e"
+MGH0280012,"\h(«Vyse»)Fantastisch……
+Aber was ist mit Kangan und Muraji?\e"
+MGH0280013,\h(«Daigo»)Sie wurden nach Tenkou Island verbannt.\e
+MGH0280014,"\h(«Daigo»)Wir waren der Ansicht, wenn sie eine Weile im
+Exil verbrächten, würden sie sich darüber klar
+werden, was sie getan haben, und sich bessern.
+Oder sich gegenseitig umbringen.\e"
+MGH0280015,"\h(«Aika»)Ahaha, das gefällt mir!
+Das geschieht ihnen recht!\e"
+MGH0280016,"\h(«Daigo»)Übrigens, mir ist aufgefallen, dass euer Schiff
+nicht in der Lage ist, große Höhen oder Tiefen
+zu erreichen.\e"
+MGH0280017,"\h(«Daigo»)Hier, nehmt das hier mit.\e"
+MGH0280018,"\h(«Daigo»)Ein Geschenk meines Volkes. Es enthält alles
+Wissen, das notwendig ist, um dein Schiff
+höher oder tiefer fliegen zu lassen, als du
+es je für möglich gehalten hättest.\e"
+MGH0280019,"\h( )Moegi hat sich deiner Mannschaft als ein
+“Gast” angeschlossen.\c"
+MGH0280020,\h(«Vyse»)Wow! Vielen Dank!\e
+MGH0280021,"\h(«Vyse»)Ich werde dafür sorgen, dass es richtig
+verwendet wird!\e"
+MGH0280022,\h(«Moegi»)……\e
+MGH0280023,"\h(«Moegi»)……Vater.
+Ich möchte dich um etwas bitten.\e"
+MGH0280024,"\h(«Moegi»)Ich……
+Bitte, lass mich mit diesen Leuten mitfahren.\e"
+MGH0280025,\h(«Mikado»)Was?!\e
+MGH0280026,"\h(«Moegi»)Wenn es stimmt, was sie sagen, dann geschehen
+im Westen eine Menge wichtiger Dinge.\e"
+MGH0280027,"\h(«Moegi»)Du und Daigo, ihr habt beide gesagt, dass ihr
+hier bleiben werdet, um euer Land zu beschützen.\e"
+MGH0280028,"\h(«Moegi»)Aber ich möchte helfen, unser Land zu
+beschützen…… indem ich diesen Leuten bei ihrer
+Suche helfe.\e"
+MGH0280029,\h(«Mikado»)Hmmm……\e
+MGH0280030,"\h(«Daigo»)Gut gemacht, Moegi.
+Ich bin stolz, dich als Schwester zu haben.\e"
+MGH0280031,"\h(«Daigo»)Prinz Enrique……  ich spreche zu Euch nicht
+als Prinz, sondern als ein Bruder, der sich um
+das Wohl seiner Schwester sorgt. Bitte gebt auf
+sie Acht……\e"
+MGH0280032,"\h(«Enrique»)Ihr habt mein Wort.
+Ich werde sie mit meinem Leben verteidigen.\e"
+MGH0280033,"\h(«Enrique»)Prinzessin……
+Tun wir uns zusammen und bringen wir Frieden
+auf diese Welt.\e"
+MGH0280034,"\h(«Moegi»)Ja.
+Prinz Enrique……
+Ich vertraue Ihnen mein Leben an.\e"
+MGH0280035,"\h(«Mikado»)Also gut……
+Es hat den Anschein, als hätte ich in dieser
+Angelegenheit sowieso nichts zu sagen.\e"
+MGH0280036,\h(«Aika»)Enrique! Du wirst ja immer vertrauenswürdiger!\e
+MGH0280037,"\h(«Aika»)Du bist ja ganz verwandelt! Bis vor kurzem
+sah man dich immer nur über der Schiffsreling
+hängen!\e"
+MGH0280038,"\h(«Enrique»)AIKA!!!
+Musst du mich ständig daran erinnern?!\e"
+MGH0280039,"\h(«Vyse»)Ahahahaha!!!
+Sie hat Recht, Enrique!\e"
+MGH0280040,\h(«Vyse»)Ok! Gehen wir nach Hause.\e
+MGH0280041,"\h( )Du hast den “Blue Moon Crystal” erhalten.
+Du hast das “Book of Polarity” erhalten.\c"
+MSH0280000,"\h(«Mikado»)Valerosos aventureros del Oeste……
+Gracias por salvar Yafutoma.\e"
+MSH0280001,\h(«Enrique»)Pero fue mi país el que causó todo este……\e
+MSH0280002,"\h(«Enrique»)Siento de verdad todos los problemas que los
+Valuan os han causado…… No sé cómo podré
+compensaros.\e"
+MSH0280003,"\h(«Mikado»)Príncipe Enrique, por favor…… levanta la cabeza.
+Daigo me lo ha contado todo.\e"
+MSH0280004,"\h(«Mikado»)Te sientes responsable porque eres un Príncipe
+Valuan, pero eso no es culpa tuya.\e"
+MSH0280005,"\h(«Enrique»)Gracias por tu comprensión…… pero sólo hemos
+ganado una batalla. Mientras hablamos, la Armada
+se reagrupa……\e"
+MSH0280006,"\h(«Enrique»)Hasta que Valua no vuelva al sendero del bien,
+seguiré luchando contra ellos.\e"
+MSH0280007,"\h(«Mikado»)Entiendo…… me parece bien.
+Rezaré para que estés protegido en tu empresa.\e"
+MSH0280008,"\h(«Mikado»)Y es posible que la Mega Esfera os ayude en
+vuestra lucha. Llevadla con vosotros.\e"
+MSH0280009,"\h(«Aika»)¿De verdad? ¿Seguro que está de acuerdo? ¿No la
+necesitaban para nombrar al sucesor al trono?\e"
+MSH0280010,"\h(«Mikado»)Ja ja ja…… Da lo mismo.
+Aunque no tengamos un símbolo, ya hemos
+encontrado a un magnífico sucesor.\e"
+MSH0280011,"\h(«Daigo»)He decidido volver junto a mi padre y aceptar la
+responsabilidad de defender a mi pueblo.\e"
+MSH0280012,"\h(«Vyse»)Eso es genial……
+¿Y qué ha pasado con Kangan y Muraji?\e"
+MSH0280013,\h(«Daigo»)Han sido exiliados a la Isla Tenkou.\e
+MSH0280014,"\h(«Daigo»)Hemos pensado que si pasan un tiempo en el
+exilio, se darán cuenta de lo que han hecho y
+cambiarán. Si no, se matarán el uno al otro.\e"
+MSH0280015,"\h(«Aika»)Ja, ja. ¡Como plan no está mal!
+¡Les está bien empleado!\e"
+MSH0280016,"\h(«Daigo»)Eso me recuerda que tu navío no puede navegar ni
+a mucha altitud ni a mucha profundidad.\e"
+MSH0280017,\h(«Daigo»)Lleva esto contigo.\e
+MSH0280018,"\h(«Daigo»)Es de las gentes de mi país. Contiene todos los
+conocimientos necesarios para que tu navío pueda
+volar a más altitud o mayor profundidad.\e"
+MSH0280019,"\h( )Moegi se ha unido a tu tripulación como
+“Delegado”.\e"
+MSH0280020,\h(«Vyse»)¡Ohh! ¡Muchas gracias!\e
+MSH0280021,\h(«Vyse»)¡Me aseguraré de darle un buen uso!\e
+MSH0280022,\h(«Moegi»)……\e
+MSH0280023,"\h(«Moegi»)Padre……
+Tengo que pedirte algo.\e"
+MSH0280024,"\h(«Moegi»)Yo……
+Por favor, déjame que vaya con ellos.\e"
+MSH0280025,\h(«Mikado»)¡¿Qué?!\e
+MSH0280026,"\h(«Moegi»)Si lo que cuentan es cierto, en el Oeste están
+sucediendo cosas muy importantes.\e"
+MSH0280027,"\h(«Moegi»)Daigo y tú os quedaréis aquí para proteger a
+nuestro país.\e"
+MSH0280028,"\h(«Moegi»)Pero yo quiero contribuir a defender nuestro
+país…… ayudando a estas personas en su búsqueda.\e"
+MSH0280029,\h(«Mikado»)Vaya……\e
+MSH0280030,"\h(«Daigo»)Bien dicho, Moegi.
+Estoy orgulloso de que seas mi hermana.\e"
+MSH0280031,"\h(«Daigo»)Príncipe Enrique…… no te hablo como príncipe,
+sino como un hermano preocupado por el bienestar
+de su hermana. Te ruego que la cuides.\e"
+MSH0280032,"\h(«Enrique»)Tienes mi palabra.
+La defenderé como a mi vida.\e"
+MSH0280033,"\h(«Enrique»)Princesa……
+Vamos a unir nuestras fuerzas para devolver la
+paz a este mundo.\e"
+MSH0280034,"\h(«Moegi»)Sí.
+Príncipe Enrique……
+Te confío mi seguridad.\e"
+MSH0280035,"\h(«Mikado»)Estupendo entonces……
+De todas formas no creo que mi opinión cuente
+mucho en este asunto.\e"
+MSH0280036,"\h(«Aika»)¡Enrique! ¡Cada minuto que pasa tengo más
+confianza en ti!\e"
+MSH0280037,"\h(«Aika»)¡Pareces otra persona! Hasta hace muy poco, todo
+lo que había visto de ti era tu espalda mientras
+te reclinabas sobre la barandilla del barco.\e"
+MSH0280038,"\h(«Enrique»)¡¡¡AIKA!!!
+¡¿Es que tienes que recordármelo
+constantemente?!\e"
+MSH0280039,"\h(«Vyse»)¡¡¡Ja ja ja!!!
+¡Tienes razón, Enrique!\e"
+MSH0280040,\h(«Vyse»)¡Muy bien! ¡Vámonos a casa!\e
+MSH0280041,"\h( )Has recibido el “Cristal Azul”.
+Has recibido el “Libro del Polo”.\c"
+"",me019d.sct
+"",me019d.sct
+"",me019d.sct
+"",me019d.sct
+"",me019d.sct
+"",a232ah08.mld
+"",e6h008
+"",M0244
+"",a232ah08.mld
+"",a232ah10.mld
+"",e6h010
+"",M0244
+"",a232ah10.mld
+"",a232ah12.mld
+"",e6h012
+"",M0244
+"",M0325
+"",a232ah12.mld
+"",a232ah15.mld
+"",e6h015
+"",M0322
+"",M0326
+"",M0326
+"",a232ah15.mld
+"",a232ah28.mld
+"",e6h028
+"",M0244
+"",a232ah28.mld

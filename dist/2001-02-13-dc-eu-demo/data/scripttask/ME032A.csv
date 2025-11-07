@@ -1,0 +1,699 @@
+[Event Name],Task ID
+MA0080000,\h(«Aika»)Hey!\e
+MA0080001,\h(«Aika»)Look! She's coming to…\e
+MA0080002,\h(«Girl»)Wh… where am I?\e
+MA0080003,"\h(«Vyse»)You're aboard our ship, the Albatross.\e"
+MA0080004,"\h(«Vyse»)I'm Vyse.
+Don't worry, there aren't any Valuan troops 
+around, so you'll be safe here.\e"
+MA0080005,"\h(«Girl»)Y… yes.
+Um… thank you very much.\e"
+MA0080006,"\h(«Aika»)Haha… you don't need to thank us!
+The Blue Rogues are always there to help people!\e"
+MA0080007,"\h(«Aika»)My name is Aika. It's nice to meet you. 
+Hey, could you tell us your name?\e"
+MA0080008,\h(«Girl»)My name… my name is Fina.\e
+MA0080009,"\h(«What will you say?»)“That's a great name.”
+“That's a strange name.”
+“So, where are you from, exactly?”\e"
+MA0080010,"\h(«Vyse»)Fina, huh?
+It's a great name… it's so… so feminine.\e"
+MA0080011,\h(«Fina»)R… really? You think so?\e
+MA0080012,"\h(«Vyse»)Geez, you try and compliment someone… And 
+nothing… No reaction whatsoever.\e"
+MA0080013,"\h(«Aika»)Ahahaha!
+Vyse, that wasn't much of a compliment.
+Looks like you have a lot to learn about women.\e"
+MA0080014,"\h(«Vyse»)Fina, huh?
+That's a strange name.\e"
+MA0080015,"\h(«Fina»)Really?
+Oh… I'm sorry…\e"
+MA0080016,"\h(«Aika»)That was really smooth, Vyse.
+Don't you know how to treat a lady?! Sheesh.\e"
+MA0080017,"\h(«Aika»)Didn't Cap'n Dyne teach you that sailors are 
+supposed to be gentlemen?!\e"
+MA0080018,"\h(«Vyse»)Sorry, sorry!
+I didn't mean any harm.\e"
+MA0080019,"\h(«Vyse»)Fina…
+So, where are you from, exactly?\e"
+MA0080020,\h(«Fina»)……\e
+MA0080021,"\h(«Aika»)Vyse!
+She just woke up! You don't need to start 
+interrogating her right away!\e"
+MA0080022,\h(«Aika»)See? Now she's scared.\e
+MA0080023,"\h(«Vyse»)Sorry sorry!
+I didn't mean any harm.\e"
+MA0080024,"\h(«Fina»)Umm… excuse me, but I have a question.
+What exactly is an Air… Air Pirate?\e"
+MA0080025,"\h(«Aika»)What? You were out sailing all by yourself and 
+you don't even know what Air Pirates are?\e"
+MA0080026,"\h(«Fina»)Oh… I…
+I'm sorry… it's my first time traveling.\e"
+MA0080027,"\h(«Vyse»)Basically, Air Pirates are sailors that attack 
+other ships and steal their cargo.\e"
+MA0080028,\h(«Fina»)Attack?!\e
+MA0080029,"\h(«Aika»)Ahaha… you don't have to worry about us.
+We're “Blue Rogues.”\e"
+MA0080030,"\h(«Aika»)See, Air Pirates are divided into two factions: 
+the Blue Rogues and the Black Pirates.\e"
+MA0080031,"\h(«Aika»)The Black Pirates will attack anything in the 
+sky… especially merchant vessels and unarmed 
+ships.\e"
+MA0080032,"\h(«Aika»)However, we Blue Rogues only take cargo from
+armed ships, especially the Imperial Armada.\e"
+MA0080033,"\h(«Vyse»)We rob from the rich and keep the gold. 
+But, we use the gold to save people that need 
+our help.\e"
+MA0080034,"\h(«Vyse»)That's why we helped you. Don't worry, we aren't
+trying to kidnap you or anything. Just relax and
+enjoy the trip.\e"
+MA0080035,\h(«Fina»)Umm… sure.\e
+MA0080036,"\h(«Dyne»)Vyse, Aika…
+How long are you going to sit there 
+chitchatting? Come to the bridge now.\e"
+MA0080037,"\h(«Aika»)Oh no!
+I completely lost track of time!\e"
+MA0080038,"\h(«Vyse»)Oh well… I guess that means we have to go.
+Alright Fina, we'll see you later!
+Try and get some rest.\e"
+MSA0080000,\h(«Aika»)¡Eh!\e
+MSA0080001,\h(«Aika»)¡Mira! Está volviendo……\e
+MSA0080002,\h(«Chica»)¿Dó…… dónde estoy?\e
+MSA0080003,"\h(«Vyse»)Estás a bordo de nuestra nave, el Albatross.\e"
+MSA0080004,"\h(«Vyse»)Soy Vyse.
+No te preocupes, no hay ningún soldado Valuan
+por aquí. Aquí estás segura.\e"
+MSA0080005,"\h(«Chica»)Sí…… Sí.
+Um…… Muchas gracias.\e"
+MSA0080006,"\h(«Aika»)Ja ja…… ¡No tienes que darnos las gracias!
+¡Los Bandidos Azules ayudamos a la gente!\e"
+MSA0080007,"\h(«Aika»)Me llamo Aika. Encantada de conocerte.
+Eh, ¿nos podrías decir tu nombre?\e"
+MSA0080008,\h(«Chica»)Me llamo…… me llamo Fina.\e
+MSA0080009,"\h(«¿Qué dirías?»)“Es un nombre precioso.”
+“Qué nombre tan curioso.”
+“¿Y de dónde eres, exactamente?”\e"
+MSA0080010,"\h(«Vyse»)Fina, ¿eh?
+Es un nombre precioso…… es tan…… tan femenino.\e"
+MSA0080011,\h(«Fina»)¿En…… en serio? ¿Eso crees?\e
+MSA0080012,"\h(«Vyse»)Corcho, intentas piropear a alguien…… y nada……
+Ni la más mínima reacción.\e"
+MSA0080013,"\h(«Aika»)¡Ja ja ja!
+Vyse, no ha sido un gran cumplido.
+Te queda mucho que aprender sobre las mujeres.\e"
+MSA0080014,"\h(«Vyse»)¿Fina, eh?
+Qué nombre tan curioso.\e"
+MSA0080015,\h(«Fina»)¿En serio? Oh…… lo siento……\e
+MSA0080016,"\h(«Aika»)Vaya tacto tienes, Vyse.
+¡¿Es que no sabes cómo tratar a una dama?!\e"
+MSA0080017,"\h(«Aika»)¡¿Acaso no te dijo el Capitán Dyne que los
+marinos deben ser unos caballeros?!\e"
+MSA0080018,"\h(«Vyse»)¡Perdón, perdón!
+Lo hice sin mala intención.\e"
+MSA0080019,"\h(«Vyse»)Fina……
+¿Y de dónde eres, exactamente?\e"
+MSA0080020,\h(«Fina»)……\e
+MSA0080021,"\h(«Aika»)¡Vyse!
+¡Se acaba de despertar! ¡No tienes que
+interrogarla precisamente ahora!\e"
+MSA0080022,\h(«Aika»)¿Lo ves? Ahora se ha asustado.\e
+MSA0080023,"\h(«Vyse»)¡Perdón, perdón!
+Lo hice sin mala intención.\e"
+MSA0080024,"\h(«Fina»)Umm…… perdonad. Quisiera preguntaros algo.
+¿Qué es exactamente un Pirata…… Pirata Aéreo?\e"
+MSA0080025,"\h(«Aika»)¿Qué? ¿Estabas por ahí navegando tú sola y ni
+siquiera sabes quiénes son los Piratas Aéreos?\e"
+MSA0080026,"\h(«Fina»)Oh…… Yo……
+Lo siento…… Es la primera vez que viajo……\e"
+MSA0080027,"\h(«Vyse»)Los Piratas Aéreos son marinos que atacan a
+otros buques y roban su carga.\e"
+MSA0080028,\h(«Fina»)¡¿Atacan?!\e
+MSA0080029,"\h(«Aika»)Jajaja…… No debes preocuparte.
+Somos “Bandidos Azules”.\e"
+MSA0080030,"\h(«Aika»)Los Piratas Aéreos se dividen en dos grupos: los
+Bandidos Azules y los Piratas Negros.\e"
+MSA0080031,"\h(«Aika»)Los Piratas Negros atacan cualquier cosa que
+vaya por el cielo…… Sobre todo navíos mercantes
+y buques desarmados.\e"
+MSA0080032,"\h(«Aika»)Los Bandidos Azules sólo robamos la carga de
+navíos armados, como los de la Armada Imperial.\e"
+MSA0080033,"\h(«Vyse»)Robamos a los ricos y nos quedamos con el oro.
+Pero usamos ese oro para ayudar a la gente que
+nos necesita.\e"
+MSA0080034,"\h(«Vyse»)Por eso fuimos en tu ayuda. No te preocupes, no
+vamos a intentar secuestrarte ni nada por el
+estilo. Relájate y disfruta del viaje.\e"
+MSA0080035,\h(«Fina»)Sí…… Claro.\e
+MSA0080036,"\h(«Dyne»)Vyse, Aika……
+¿Cuánto tiempo vais a estar ahí cotorreando?
+Venid al puente de mando ahora mismo.\e"
+MSA0080037,"\h(«Aika»)¡Oh, no!
+¡He perdido totalmente la noción del tiempo!\e"
+MSA0080038,"\h(«Vyse»)En fin…… Supongo que tenemos que irnos.
+Bueno, Fina…… ¡nos vemos luego!
+Intenta descansar un poco.\e"
+MFA0080000,\h(«Aika»)Hé !\e
+MFA0080001,\h(«Aika»)Regarde ! Elle revient à elle……\e
+MFA0080002,\h(«Fille»)Où…… où suis-je ?\e
+MFA0080003,"\h(«Vyse»)Vous êtes à bord d'un navire, l'Albatros.\e"
+MFA0080004,"\h(«Vyse»)Je m'appelle Vyse.
+Ne vous inquiétez pas, il n'y a aucune troupe
+Valuan ici, alors vous êtes en sécurité.\e"
+MFA0080005,"\h(«Fille»)O…… oui.
+Euh…… merci beaucoup.\e"
+MFA0080006,"\h(«Aika»)Ahah…… vous n'avez pas à nous remercier !
+Les Voleurs Bleus sont toujours là pour aider
+les gens !\e"
+MFA0080007,"\h(«Aika»)Je m'appelle Aika. Enchantée.
+Hé, pouvez-vous nous dire votre nom ?\e"
+MFA0080008,\h(«Fille»)Je m'appelle…… je m'appelle Fina.\e
+MFA0080009,"\h(«Qu'allez vous dire ?»)“C'est un joli nom”.
+“C'est un nom étrange”.
+“Alors, d'où venez-vous, exactement ?”\e"
+MFA0080010,"\h(«Vyse»)Fina, hein ?
+C'est un joli nom…… c'est très… très féminin.\e"
+MFA0080011,\h(«Fina»)V…… vraiment ? Vous trouvez ?\e
+MFA0080012,"\h(«Vyse»)Ça alors, vous essayez de faire un compliment
+à quelqu'un…… Et rien…… Pas la moindre
+réaction.\e"
+MFA0080013,"\h(«Aika»)Ahahaha ! Vyse, c'était pas vraiment un
+compliment. On dirait que tu as beaucoup à
+apprendre sur les femmes.\e"
+MFA0080014,"\h(«Vyse»)Fina, hein ?
+C'est un nom étrange.\e"
+MFA0080015,\h(«Fina»)Vraiment ? Oh…… Je suis désolée…\e
+MFA0080016,"\h(«Aika»)C'était très habile Vyse.
+Ne sais-tu donc pas comment traiter une dame ?!
+Incroyable !\e"
+MFA0080017,"\h(«Aika»)Le Capitaine Dyne ne t'a pas appris que les
+marins sont censés être des gentlemen ?!\e"
+MFA0080018,"\h(«Vyse»)Désolé, Désolé !
+Je ne voulais blesser personne.\e"
+MFA0080019,"\h(«Vyse»)Fina……
+Alors, d'où êtes-vous, exactement ?\e"
+MFA0080020,\h(«Fina»)……\e
+MFA0080021,"\h(«Aika»)Vyse !
+Elle vient juste de se réveiller !
+Inutile de l'interroger tout de suite !\e"
+MFA0080022,\h(«Aika»)Tu vois ? Maintenant elle a peur.\e
+MFA0080023,"\h(«Vyse»)Désolé, Désolé !
+Je ne voulais blesser personne.\e"
+MFA0080024,"\h(«Fina»)Umm…… excusez-moi, mais je voudrais savoir.
+Qu'est ce qu'un Pirate…… Pirate de l'Air
+exactement ?\e"
+MFA0080025,"\h(«Aika»)Quoi ? Vous naviguiez toute seule et vous ne
+connaissez même pas les Pirates de l'Air ?\e"
+MFA0080026,"\h(«Fina»)Oh…… Je……
+Je suis désolée…… C'est mon premier voyage.\e"
+MFA0080027,"\h(«Vyse»)En fait, les Pirates de l'Air sont des marins
+qui attaquent les autres navires et volent leur
+cargaison.\e"
+MFA0080028,\h(«Fina»)Attaquent ?!\e
+MFA0080029,"\h(«Aika»)Ahaha…… vous n'avez pas à avoir peur de nous.
+Nous sommes les “Voleurs Bleus”.\e"
+MFA0080030,"\h(«Aika»)Vous voyez, les Pirates de l'Air sont divisés
+en deux factions: les Voleurs Bleus et les
+Pirates Noirs.\e"
+MFA0080031,"\h(«Aika»)Les Pirates Noirs attaquent tout ce qui se
+trouve dans le ciel…… surtout les vaisseaux de
+marchandise et les navires désarmés.\e"
+MFA0080032,"\h(«Aika»)Cependant, nous les Voleurs Bleus ne prenons que
+la cargaison des navires armés, surtout celles
+de l'Armada Impériale.\e"
+MFA0080033,"\h(«Vyse»)Nous volons aux riches et gardons l'or.
+Mais, nous utilisons l'or pour sauver les gens
+qui ont besoin de notre aide.\e"
+MFA0080034,"\h(«Vyse»)Voilà pourquoi nous vous avons aidée. Ne vous
+inquiétez pas, nous n'essayons pas de vous
+kidnapper. Détendez vous et profitez du voyage.\e"
+MFA0080035,\h(«Fina»)Umm…… d'accord.\e
+MFA0080036,"\h(«Dyne»)Vyse, Aika……
+Vous allez rester encore longtemps assis à
+bavarder? Venez sur la passerelle immédiatement.\e"
+MFA0080037,"\h(«Aika»)Oh non !
+Je n'ai pas vu le temps passer !\e"
+MFA0080038,"\h(«Vyse»)Oh tant pis…… Je suppose qu'il faut y aller.
+Bon Fina, nous vous verrons plus tard !
+Essayez de vous reposer.\e"
+MGA0080000,\h(«Aika»)He!\e
+MGA0080001,\h(«Aika»)Schau mal! Sie kommt zu sich…… \e
+MGA0080002,\h(«Mädchen»)W……  wo bin ich?\e
+MGA0080003,"\h(«Vyse»)Du bist an Bord unseres Schiffs, der Albatross.\e"
+MGA0080004,"\h(«Vyse»)Ich bin Vyse.
+Keine Sorge, hier gibt es keine Valua-Soldaten,
+also bist du in Sicherheit.\e"
+MGA0080005,"\h(«Mädchen»)J……  ja.
+Em……  vielen Dank.\e"
+MGA0080006,"\h(«Aika»)Haha… du brauchst dich bei uns nicht zu
+bedanken!
+Die Blue Rogues sind immer da, um zu helfen!\e"
+MGA0080007,"\h(«Aika»)Ich heiße Aika. Nett, dich kennen zu lernen.
+He, kannst du uns deinen Namen verraten?\e"
+MGA0080008,\h(«Mädchen»)Mein Name……  mein Name ist Fina.\e
+MGA0080009,"\h(«Was wirst du sagen?»)“Das ist ein toller Name.”
+“Das ist ein komischer Name.”
+“Also, wo genau kommst du her?”\e"
+MGA0080010,"\h(«Vyse»)Fina, ja?
+Das ist ein toller Name……  so…… so feminin.\e"
+MGA0080011,\h(«Fina»)W…… wirklich? Meinst du?\e
+MGA0080012,"\h(«Vyse»)Mann, da versuchst du, jemandem ein Kompliment
+zu machen……  und nichts…… keine Reaktion.\e"
+MGA0080013,"\h(«Aika»)Ahahaha!
+Vyse, das war kein großes Kompliment.
+Du musst anscheinend noch viel über Frauen
+lernen.\e"
+MGA0080014,"\h(«Vyse»)Fina, ja?
+Komischer Name.\e"
+MGA0080015,\h(«Fina»)Wirklich? Oh……  Tut mir leid…… \e
+MGA0080016,"\h(«Aika»)Das war ja echt super, Vyse.
+Weißt du denn nicht, wie man eine Dame
+behandelt?! Also wirklich……\e"
+MGA0080017,"\h(«Aika»)Hat Cap'n Dyne dir denn nicht beigebracht,
+dass Seeleute Gentlemen zu sein haben?!\e"
+MGA0080018,"\h(«Vyse»)Tut mir leid!
+Ich hab's nicht bös gemeint.\e"
+MGA0080019,"\h(«Vyse»)Fina……
+Also, wo genau kommst du her?\e"
+MGA0080020,\h(«Fina»)……\e
+MGA0080021,"\h(«Aika»)Vyse!
+Sie ist gerade erst aufgewacht. Du brauchst sie
+nicht sofort auszufragen!\e"
+MGA0080022,\h(«Aika»)Siehst du? Jetzt hat sie Angst.\e
+MGA0080023,"\h(«Vyse»)Tut mir leid!
+Ich hab's nicht bös gemeint.\e"
+MGA0080024,"\h(«Fina»)Emm…… Entschuldigung, ich hätte eine Frage.
+Was genau ist ein Luft……  Luftpirat?\e"
+MGA0080025,"\h(«Aika»)Was? Du bist ganz allein herumgesegelt und weißt
+nicht, was ein Luftpirat ist?\e"
+MGA0080026,"\h(«Fina»)Oh…… ich……
+Tut mir leid…… ich war noch nie vorher auf
+Reisen.\e"
+MGA0080027,"\h(«Vyse»)Also, Luftpiraten sind Seeleute, die andere
+Schiffe überfallen und deren Ladung stehlen.\e"
+MGA0080028,\h(«Fina»)Überfallen?!\e
+MGA0080029,"\h(«Aika»)Ahaha…… vor uns brauchst du keine Angst zu
+haben. Wir sind “Blue Rogues”.\e"
+MGA0080030,"\h(«Aika»)Weißt du, es gibt zwei Arten von Luftpiraten:
+die Blue Rogues und die Black Pirates.\e"
+MGA0080031,"\h(«Aika»)Die Black Pirates greifen alles an, was fliegen
+kann……  besonders Handelsschiffe und
+unbewaffnete Schiffe.\e"
+MGA0080032,"\h(«Aika»)Aber wir Blue Rogues stehlen nur von bewaffneten
+Schiffen, besonders von der Kaiserlichen
+Armada.\e"
+MGA0080033,"\h(«Vyse»)Wir berauben die Reichen und behalten das Gold.
+Aber wir benutzen das Gold, um Leute zu retten,
+die unsere Hilfe brauchen.\e"
+MGA0080034,"\h(«Vyse»)Darum haben wir auch dir geholfen. Keine Sorge,
+wir versuchen nicht, dich zu entführen oder so
+was. Du kannst dich entspannen und die Fahrt
+genießen.\e"
+MGA0080035,\h(«Fina»)Ähhm…… sicher.\e
+MGA0080036,"\h(«Dyne»)Vyse, Aika……
+Wie lange wollt ihr noch da sitzen und
+quatschen? Kommt sofort auf die Brücke.\e"
+MGA0080037,"\h(«Aika»)Oh nein!
+Ich hab völlig die Zeit vergessen!\e"
+MGA0080038,"\h(«Vyse»)Nun……  das heißt wohl, wir müssen los.
+Also, Fina, bis später!
+Ruh' dich etwas aus.\e"
+M00070000,"\h(«Briggs the Vice Captain»)Oh, there you are, Vyse. You finally decided to
+join us on the bridge, huh? Well, we're heading
+back home to Pirate Isle.\e"
+M00070001,"\h(«Briggs the Vice Captain»)Pirate Isle is southeast from here. Just
+head south first and it's just past the
+valley of islands.\e"
+M00070002,"\h(«Vyse»)Head south through the valley
+of islands? Aye aye!\e"
+M00070003,"\h(«Briggs the Vice Captain»)Alright, let's get moving, then.
+Full speed ahead to Pirate Isle!\c"
+M00070004,"\h(«Briggs the Vice Captain»)Hey… we haven't reached Pirate Isle yet.
+Return to your post.\e"
+M00070005,"\h(«What will you say to Briggs?»)“Aye aye!”
+“There's something I need to take care of…”\e"
+M00070006,"\h(«Vyse»)Umm… I'll be right back. I promise. I have
+something that I need to take care of first.\e"
+M00070007,"\h(«Briggs the Vice Captain»)Alright, just go then! I have no idea what
+could be so important, but whatever it is,
+just do it quickly and hurry back!\c"
+M00070008,"\h(«Vyse»)Aye aye!
+Alright, let's head back to Pirate Isle!\c"
+M00150000,"\h(«Landis the Navigator»)When you're at the helm, watch out for “sky
+rifts.” They're those really strong downdrafts
+that surround Pirate Isle.\e"
+M00150001,"\h(«Landis the Navigator»)If your engines aren't strong enough and you fly
+into them, the wind will push you down into Deep
+Sky… the pressure down there would crush us.\c"
+M00150002,"\h(«Landis the Navigator»)Steer clear of the sky rifts. If you try and
+power though them, we'll get sucked into
+Deep Sky. But you already knew that, right?\c"
+M00170000,"\h(«Luke the Raider»)Hey, Vyse…
+That raid earlier was pretty good. It's been a
+while since we raided a Valuan ship.\e"
+M00170001,"\h(«Luke the Raider»)If you're wondering what we did with the
+Valuans… Well, when they heard their “fearless
+leader” abandoned ship, they surrendered.\e"
+M00170002,"\h(«Luke the Raider»)Captain Dyne just let them go, though.
+Well, AFTER we took their treasure, of course.
+And there was a lot of it!\e"
+M00170003,"\h(«Luke the Raider»)We'll take what we can, but we only fight when
+we need to. That's what separates us Blue
+Rogues from the Black Pirates!\c"
+M00170004,"\h(«Luke the Raider»)We'll take what we want, but we only fight when
+we need to. That's what separates us Blue
+Rogues from the Black Pirates!\c"
+M00230000,"\h(«Dyne»)You're late, Vyse.
+I told you that you need to be on time for your
+shift.\e"
+M00230001,"\h(«Dyne»)You know the routine. Swab the decks…
+And they better be clean.\e"
+M00230002,"\h(«Vyse»)But… but Dad!!
+I was only a little late!!\e"
+M00230003,"\h(«Dyne»)On a ship, being a little late can cost lives.\e"
+M00230004,"\h(«Dyne»)And one more thing… while we're on board,
+it's not “Dad,” it's “Captain,” got it?\e"
+M00230005,"\h(«Vyse»)Yeah, yeah… I got it.\e"
+M00230006,"\h(«Dyne»)We're heading home to Pirate Isle.
+Go report to Briggs… See if he needs you
+for anything.\c"
+M00230007,"\h(«Dyne»)We're heading home to Pirate Isle.
+Go report to Briggs for your orders.\c"
+M00230008,"\h(«Dyne»)Hey… where are you going? Vyse, you've got work
+to do here on the bridge.\c"
+Mh0020000,"\h(«Vyse»)Are you feeling any better, Fina?
+Oh, and don't worry… you're free to walk
+around the ship if you want.\e"
+Mh0020001,"\h(«Fina»)Oh, yes. I'm fine.
+Thank you for all that you've done for me.\c"
+Mh0020002,"\h(«Fina»)Thank you for everything that you've done
+for me.\c"
+MS00070000,"\h(«El Vicecapitán Briggs»)Oh, aquí estás, Vyse. Por fin has decidido
+venirte al puente con nosotros, ¿eh? Vamos de
+regreso a la Isla del Pirata.\e"
+MS00070001,"\h(«El Vicecapitán Briggs»)La Isla del Pirata está directo al este de aquí.
+Si sigues la brújula no tendrás ningún problema.\e"
+MS00070002,"\h(«Vyse»)¿Directo al este? ¡Sí, sí!\e"
+MS00070003,"\h(«El Vicecapitán Briggs»)Muy bien, entonces vamos a movernos.
+¡A toda máquina hacia la Isla del Pirata!\c"
+MS00070004,"\h(«El Vicecapitán Briggs»)No…… aún no hemos llegado a la Isla del Pirata.
+Vuelve a tu puesto.\e"
+MS00070005,"\h(«¿Qué vas a decirle a Briggs?»)“¡A sus órdenes, mi capitán!”
+“¡Ahora me tengo que ocupar de otra cosa……!”\e"
+MS00070006,"\h(«Vyse»)Umm…… Ahora mismo vuelvo. Lo prometo.
+Antes tengo que ocuparme de otras cosas.\e"
+MS00070007,"\h(«El Vicecapitán Briggs»)¡Entonces, ponte a ello! ¡No tengo ni idea de
+qué puede ser tan importante, pero sea lo que
+sea, hazlo rápido y vuelve deprisa!\c"
+MS00070008,"\h(«Vyse»)¡A las órdenes mi capitán!
+¡Nos dirigimos de vuelta a la Isla del Pirata!\c"
+MS00150000,"\h(«Landis el Navegante»)Cuando estés al timón ten cuidado con los
+“arrecifes celestes.” Son esas turbulencias tan
+fuertes que rodean la Isla del Pirata.\e"
+MS00150001,"\h(«Landis el Navegante»)Si el motor no es lo bastante fuerte pero tú
+sigues volando, el viento te empujará hacia el
+Cielo Profundo…… ahí abajo, el navío se quedaría
+deshecho por la presión.\c"
+MS00150002,"\h(«Landis el Navegante»)Debes dar un rodeo para evitar los arrecifes.
+Si intentas abrirte paso a través de ellos,
+serás absorbido hacia el Cielo Profundo.
+Pero eso ya lo sabías ¿no?\c"
+MS00170000,"\h(«Luke el Corsario»)Oye, Vyse……
+La vuelta que hemos dado antes no estaba nada
+mal. Hacía tiempo que no navegábamos en un navío
+Valuan.\e"
+MS00170001,"\h(«Luke el Corsario»)Si quieres saber qué hicimos con los Valuan……
+Bueno, cuando oyeron que “su valeroso líder”
+había abandonado el navío, se rindieron.\e"
+MS00170002,"\h(«Luke el Corsario»)Pero el Capitán Dyne les dejó marchar.
+Bueno, DESPUÉS de haberles cogido el tesoro,
+claro. ¡Y era un tesoro muy grande!\e"
+MS00170003,"\h(«Luke el Corsario»)Nos llevamos todo lo que podemos, pero sólo
+luchamos cuando es necesario. ¡Eso es lo que nos
+diferencia de los Piratas Negros!\c"
+MS00170004,"\h(«Luke el Corsario»)Nos llevamos lo que queremos, pero sólo luchamos
+si es necesario. ¡En eso nos diferenciamos los
+Bandidos Azules de los Piratas Negros!\c"
+MS00230000,"\h(«Dyne»)Llegas tarde, Vyse.
+Te he dicho que tenías que ser puntual para tu
+cambio de turno.\e"
+MS00230001,"\h(«Dyne»)Ya sabes lo que hay que hacer. Friega la
+cubierta…… y será mejor que quede limpia.\e"
+MS00230002,"\h(«Vyse»)Pero…… ¡¡pero Papá!!
+¡¡Sólo he llegado un poco tarde!!\e"
+MS00230003,"\h(«Dyne»)En un barco, llegar un poco tarde puede costar
+vidas.\e"
+MS00230004,"\h(«Dyne»)Y otra cosa…… mientras estamos a bordo,
+no digas “Papá,” sino “Capitán,” ¿entendido?\e"
+MS00230005,"\h(«Vyse»)Sí, claro…… entendido.\e"
+MS00230006,"\h(«Dyne»)Volvemos a casa, a la Isla del Pirata.
+Ve a dar el parte a Briggs…… Mira a ver si te
+necesita para algo.\c"
+MS00230007,"\h(«Dyne»)Nos vamos a casa, a la Isla del Pirata.
+Díselo a Briggs y espera sus órdenes.\c"
+MS00230008,"\h(«Dyne»)Eh…… ¿adónde vas? Vyse, tienes trabajo que hacer
+aquí en el puente.\c"
+MSh0020000,"\h(«Vyse»)¿Te encuentras mejor, Fina?
+Y no te preocupes…… eres libre de andar
+por el barco si quieres.\e"
+MSh0020001,"\h(«Fina»)Oh, sí. Estoy bien.
+Gracias por todo lo que habéis hecho por mí.\c"
+MSh0020002,\h(«Fina»)Gracias por todo lo que habéis hecho por mí.\c
+MF00070000,"\h(«Briggs le Vice Capitaine»)Oh, te voilà, Vyse. Tu as fini par te décider à
+nous rejoindre sur la passerelle, hein ?
+Bon, nous repartons vers l'Île des Pirates.\e"
+MF00070001,"\h(«Briggs le Vice Capitaine»)L'Île des Pirates se trouve à l'est.
+Tu devrais y arriver en suivant la boussole.\e"
+MF00070002,\h(«Vyse»)Tout droit vers l'est ? À vos ordres !\e
+MF00070003,"\h(«Briggs le Vice Capitaine»)Allez, en route.
+En avant toute vers l'Île des Pirates !\c"
+MF00070004,"\h(«Briggs le Vice Capitaine»)Hé…… nous n'avons pas encore atteint l'Île des
+Pirates. Retourne à ton poste.\e"
+MF00070005,"\h(«Que direz-vous à Briggs ?»)“À vos ordres !”
+“J'ai quelque chose à faire……”\e"
+MF00070006,"\h(«Vyse»)Umm…… Je reviens tout de suite. Promis.
+Je dois d'abord faire quelque chose.\e"
+MF00070007,"\h(«Briggs le Vice Capitaine»)Bon, alors vas-y !
+Je me demande ce que tu as de si important à
+faire, mais, dépêche-toi de revenir !\c"
+MF00070008,"\h(«Vyse»)À vos ordres !
+Allez retournons sur l'Île des Pirates !\c"
+MF00150000,"\h(«Landis le Navigateur»)Quand tu es à la barre, fais attention aux
+“récifs célestes.” Ce sont des turbulences qui
+entourent l'Île des Pirates.\e"
+MF00150001,"\h(«Landis le Navigateur»)Si tu les traverses alors que tes moteurs ne
+sont pas assez puissants, le vent te poussera
+dans Ciel Profond…… la pression d'en bas nous
+écraserait.\c"
+MF00150002,"\h(«Landis le Navigateur»)Évite les récifs célestes. Si tu les traverses à
+toute vitesse, nous serons aspirés dans le Ciel
+Profond. Mais tu le savais déjà, non ?\c"
+MF00170000,"\h(«Luke le Braqueur»)Hé, Vyse……
+Ce raid de tout à l'heure était pas mal du tout.
+Nous n'avions pas fait de raid sur un navire
+Valuan depuis longtemps.\e"
+MF00170001,"\h(«Luke le Braqueur»)Si tu te demandes ce que nous avons fait des
+Valuans…… Eh bien, quand ils ont vu que leur
+“courageux leader” avait abandonné le navire,
+ils se sont rendus.\e"
+MF00170002,"\h(«Luke le Braqueur»)Par contre Capitaine Dyne les a laissés partir.
+Euh, APRÈS avoir pris leur trésor, bien sûr.
+Et il était gros !\e"
+MF00170003,"\h(«Luke le Braqueur»)Nous prenons tout ce que nous pouvons, mais nous
+ne nous battons que si nécessaire.
+C'est ce qui différencie les Voleurs Bleus des
+Pirates Noirs !\c"
+MF00170004,"\h(«Luke le Braqueur»)Nous prenons tout ce que nous pouvons, mais nous
+ne nous battons que si nécessaire.
+C'est ce qui différencie les Voleurs Bleus des
+Pirates Noirs !\c"
+MF00230000,"\h(«Dyne»)Tu es en retard, Vyse.
+Je t'ai déjà dit que tu devais commencer à
+l'heure.\e"
+MF00230001,"\h(«Dyne»)Tu connais la routine. Nettoie les ponts……
+Et ils ont intérêt à être propres.\e"
+MF00230002,"\h(«Vyse»)Mais…… mais papa !!
+Je n'étais pas très en retard !!\e"
+MF00230003,"\h(«Dyne»)Sur un navire, cela peut coûter des vies d'être
+en retard.\e"
+MF00230004,"\h(«Dyne»)Et encore une chose…… tant que nous sommes à
+bord, ne m'appelle pas “Papa,” mais “Capitaine,”
+compris ?\e"
+MF00230005,"\h(«Vyse»)Oui, oui…… j'ai compris.\e"
+MF00230006,"\h(«Dyne»)Nous rentrons sur l'Île des Pirates.
+Va voir si Briggs a besoin de toi.\c"
+MF00230007,"\h(«Dyne»)Nous rentrons sur l'Île des Pirates.
+Va voir si Briggs a besoin de toi.\c"
+MF00230008,"\h(«Dyne»)Hé…… où vas-tu ? Vyse, tu dois nettoyer le pont.\c"
+MFh0020000,"\h(«Vyse»)Ça va mieux, Fina ?
+Oh, et ne vous inquiètez pas vous pouvez aller
+vous promener sur le pont si vous voulez.\e"
+MFh0020001,"\h(«Fina»)Oh, oui. Ça va.
+Merci de tout ce que vous avez fait pour moi.\c"
+MFh0020002,"\h(«Fina»)Oh, oui. Ça va.
+Merci de tout ce que vous avez fait pour moi.\c"
+MG00070000,"\h(«Briggs, der Vizekapitän»)Ach, da bist du ja, Vyse. Hast du dich
+endlich entschlossen, zu uns auf die Brücke
+zu kommen? Tja, wir fahren nach Pirate Isle
+zurück.\e"
+MG00070001,"\h(«Briggs, der Vizekapitän»)Pirate Isle liegt genau ostwärts von hier.
+Folge einfach dem Kompass, und du wirst keine
+Probleme haben.\e"
+MG00070002,\h(«Vyse»)Genau ostwärts? Zu Befehl!\e
+MG00070003,"\h(«Briggs, der Vizekapitän»)Ok, lasst uns losfahren.
+Volle Kraft voraus nach Pirate Isle!\c"
+MG00070004,"\h(«Briggs, der Vizekapitän»)He…… wir sind noch nicht in Pirate Isle.
+Geh zurück auf deinen Platz.\e"
+MG00070005,"\h(«Was wirst du Briggs antworten?»)“Zu Befehl!”
+“Ich habe noch etwas zu erledigen……”\e"
+MG00070006,"\h(«Vyse»)Emm…… ich komme gleich zurück. Ich versprech's.
+Ich habe zuerst noch etwas zu erledigen.\e"
+MG00070007,"\h(«Briggs, der Vizekapitän»)Na los, dann geh schon! Ich weiß nicht, was so
+wichtig sein könnte, aber egal was,
+erledige es schnell und komm wieder!\c"
+MG00070008,"\h(«Vyse»)Zu Befehl!
+Ok, lasst uns nach Pirate Isle zurückfahren!\c"
+MG00150000,"\h(«Landis, der Navigator»)Wenn du am Steuer bist, achte auf die
+“Turbulenzen”. Das sind diese wirklich starken
+Strömungen, die Pirate Isle umgeben.\e"
+MG00150001,"\h(«Landis, der Navigator»)Wenn deine Motoren nicht stark genug sind und
+du fliegst in sie hinein, reißt dich der Wind
+in den Deep Sky hinab…… der Druck dort
+unten würde uns in Stücke reißen.\c"
+MG00150002,"\h(«Landis, der Navigator»)Halte dich in sicherer Entfernung von den
+Turbulenzen. Wenn du versuchst, durch sie
+hindurch zu donnern, werden wir in den Deep Sky
+gesogen. Aber das wusstest du ja schon, oder?\c"
+MG00170000,"\h(«Luke, der Räuber»)He, Vyse……
+Dieser Überfall vorhin war nicht schlecht.
+Es ist 'ne Weile her, seit wir ein valuanisches
+Schiff überfallen haben.\e"
+MG00170001,"\h(«Luke, der Räuber»)Wenn du uns fragst, was wir mit den Valuanern
+angestellt haben…… Tja, als sie hörten, dass
+ihr “furchtloser Anführer” das Schiff verlassen
+hat, haben sie sich ergeben.\e"
+MG00170002,"\h(«Luke, der Räuber»)Captain Dyne hat sie einfach laufen gelassen.
+Na ja, natürlich NACHDEM wir die Beute
+genommen hatten. Und davon gab's eine Menge!\e"
+MG00170003,"\h(«Luke, der Räuber»)Wir nehmen, was wir können, aber wir kämpfen
+nur, wenn wir es müssen. Das ist der
+Unterschied zwischen uns Blue Rogues und den
+Black Pirates!\c"
+MG00170004,"\h(«Luke, der Räuber»)Wir nehmen, was wir wollen, aber wir kämpfen
+nur, wenn wir müssen. Das ist der Unterschied
+zwischen uns Blue Rogues und den Black Pirates!\c"
+MG00230000,"\h(«Dyne»)Du bist spät dran, Vyse.
+Ich hab dir doch gesagt, dass du zum
+Schichtanfang pünktlich da sein musst.\e"
+MG00230001,"\h(«Dyne»)Du kennst ja die Routine. Schrubb die Decks,
+die sollten nachher blitzblank sein.\e"
+MG00230002,"\h(«Vyse»)Aber…… aber Dad!!
+Ich war doch nur ein bisschen spät dran!!\e"
+MG00230003,"\h(«Dyne»)Auf einem Schiff kann auch eine kleine
+Verspätung Leben kosten.\e"
+MG00230004,"\h(«Dyne»)Und noch etwas…… solange wir an Bord sind,
+heißt es nicht “Dad”, sondern “Captain”, hast
+du das verstanden?\e"
+MG00230005,"\h(«Vyse»)Ja, ja…… hab ich.\e"
+MG00230006,"\h(«Dyne»)Wir fahren nach Haus zur Pirate Isle.
+Geh und erstatte Briggs Bericht…… Sieh zu,
+ob er dich für irgendetwas braucht.\c"
+MG00230007,"\h(«Dyne»)Wir fahren nach Haus zur Pirate Isle.
+Geh und hol dir deine Befehl von Briggs……\c"
+MG00230008,"\h(«Dyne»)He…… wohin gehst du? Vyse, du hast hier auf
+der Brücke Arbeit.\c"
+MGh0020000,"\h(«Vyse»)Fühlst du dich etwas besser, Fina?
+Übrigens, keine Sorge. Du kannst frei auf dem
+Schiff herumlaufen.\e "
+MGh0020001,"\h(«Fina»)Oh ja, danke. Es geht mir gut.
+Danke für alles, was du für mich getan hast.\c"
+MGh0020002,"\h(«Fina»)Danke für alles, was du für mich getan hast.\c"
+Ms032a000,"\h(«Vyse»)It's a talking-tube. This one is connected
+with the bridge.\e"
+Ms032a001,"\h(«Dyne»)Vyse! What are you doing?!
+Come to the bridge on the double!!\c"
+Ms032a002,"\h(«Vyse»)The barrel is stuffed with all sorts of
+preserved foods. It's important to eat right,
+especially on long voyages.\c"
+Ms032a003,"\h(«Vyse»)It's full of ammunition. We're not allowed to
+take any without my dad's permission. He's very
+strict about things like that.\c"
+Ms032a004,"\h(«Vyse»)It's one of the Albatross' main cannons. Not all
+of our cannons are attached to the ship… We can
+move this one around the ship if we need to.\c"
+Ms032a005,"\h(«Vyse»)Alright… Who left this barrel here?
+I swear… if my dad finds out, someone's
+going to be in big trouble.\c"
+Ms032a006,"\h(«Vyse»)It's a map of Mid Ocean…
+This area is considered the turf of the
+Dyne Family Blue Rogues.\c"
+MSs032a000,"\h(«Vyse»)Es un tubo para hablar.
+Éste está conectado con el puente de mando.\e"
+MSs032a001,"\h(«Dyne»)¡Vyse! ¡¿Qué estás haciendo?!
+¡¡Ven al puente enseguida!!\c"
+MSs032a002,"\h(«Vyse»)El barril está lleno de todo tipo de
+conservas. Es importante comer bien,
+especialmente en los viajes largos.\c"
+MSs032a003,"\h(«Vyse»)Está lleno de municiones. No se nos permite
+coger nada sin el permiso de mi padre.
+Es muy estricto con este tipo de cosas.\c"
+MSs032a004,"\h(«Vyse»)Es uno de los cañones principales del Albatross.
+No todos los cañones están fijos.
+Éste, por ejemplo, lo podemos mover.\c"
+MSs032a005,"\h(«Vyse»)Vale, ¿quién dejó este barril aquí?
+Mira, si mi padre lo ve, alguien
+va a pasarlo muy mal.\c"
+MSs032a006,"\h(«Vyse»)Es un mapa del Océano Medio.
+Esta zona pertenece a los Bandidos Azules
+de la Familia Dyne.\c"
+MFs032a000,"\h(«Vyse»)C'est un tuyau de communication.
+Il est relié au pont.\e"
+MFs032a001,"\h(«Dyne»)Vyse! Que fais-tu ?!
+Viens sur le pont immédiatement !!\c"
+MFs032a002,"\h(«Vyse»)Le baril est plein de tous types de conserves.
+Bien manger est important, surtout lors des
+longs voyages.\c"
+MFs032a003,"\h(«Vyse»)Il est plein de munitions. Nous n'avons pas le
+droit d'en prendre sans la permission de mon
+père. Il est très strict à ce niveau là.\c"
+MFs032a004,"\h(«Vyse»)C'est l'un des canons principaux de l'Albatros.
+Tous nos canons ne sont pas attachés au navire……
+Celui-ci peut être déplacé partout sur le
+navire.\c"
+MFs032a005,"\h(«Vyse»)Bon, qui a laissé ce baril ici ?
+Je vous jure que si mon père l'apprend, vous
+allez avoir de sérieux ennuis.\c"
+MFs032a006,"\h(«Vyse»)Voici une carte de l'Océan Central……
+Cet endroit est considéré comme le territoire
+des Voleurs Bleus de la Famille Dyne.\c"
+MGs032a000,"\h(«Vyse»)Das ist ein Sprachrohr. Es ist mit
+der Brücke verbunden.\e"
+MGs032a001,"\h(«Dyne»)Vyse! Was machst du?!
+Komm auf der Stelle auf die Brücke!!\c"
+MGs032a002,"\h(«Vyse»)Das Fass ist voller konservierter
+Nahrung. Es ist wichtig, gut zu essen.
+Besonders auf langen Reisen.\c"
+MGs032a003,"\h(«Vyse»)Es ist voller Munition. Wir dürfen
+uns ohne die Erlaubnis meines
+Vaters nichts davon nehmen.
+Er ist in solchen Sachen sehr streng.\c"
+MGs032a004,"\h(«Vyse»)Es ist eine der Hauptkanonen der
+Albatross. Nicht alle unser Kanonen sind
+fest montiert…… Wir können diese hier
+bewegen, wenn wir wollen.\c"
+MGs032a005,"\h(«Vyse»)Heda…… Wer hat das Fass hier
+gelassen? Ich schwöre…… wenn mein Vater
+das herausfindet, wird hier jemand Ärger
+bekommen.\c"
+MGs032a006,"\h(«Vyse»)Es ist eine Karte vom Mid Ocean……
+Diese Gegend ist Grund und Boden der
+Blue Rogues der Dyne-Familie.\c"
+"",\h(《デバッグなのだ》)\e
+"","「フリー移動」
+「ファイナ目覚めイベント」\e"
+"",M0373
+"",M5320000
+"",a032aa08.mld
+"",a032aa08.mld
+"",M0373
+"",e6a008
+"",a032aa08.mld

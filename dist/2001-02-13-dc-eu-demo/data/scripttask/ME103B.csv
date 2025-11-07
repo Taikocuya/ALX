@@ -1,0 +1,338 @@
+[Event Name],Task ID
+MA0210000,"\h(«Aika»)We finally made it. 
+That wasn't too bad!\e"
+MA0210001,"\h(«Vyse»)Yeah. But look at the size of that Stone! It'll 
+be an adventure and a half just to get that 
+thing back outside!\e"
+MA0210002,\h(«Aika»)Aaaahh!\e
+MA0210003,\h(«Vyse»)Aika!? What's wrong?\e
+MA0210004,"\h(«Aika»)Vyse…
+Those rocks…
+They're… they're moving!\e"
+MSA0210000,"\h(«Aika»)Por fin lo conseguimos.
+¡No ha estado mal!\e"
+MSA0210001,"\h(«Vyse»)Sí. ¡Pero mira que tamaño tiene esta Piedra!
+¡Sólo sacarla va a ser toda una odisea!\e"
+MSA0210002,\h(«Aika»)¡Aaaahh!\e
+MSA0210003,\h(«Vyse»)¿¡Aika!? ¿Qué pasa?\e
+MSA0210004,"\h(«Aika»)Vyse……
+Esas rocas……
+¡Se…… se mueven!\e"
+MFA0210000,"\h(«Aika»)Nous avons fini par y arriver.
+C'était pas si dur !\e"
+MFA0210001,"\h(«Vyse»)C'est vrai. Mais regarde la taille de cette
+Pierre ! Cela va être une sacrée aventure de la
+sortir !\e"
+MFA0210002,\h(«Aika»)Aaaahh !\e
+MFA0210003,\h(«Vyse»)Aika !? Qu'est-ce qu'il y a ?\e
+MFA0210004,"\h(«Aika»)Vyse……
+Ces rochers……
+Ils…… ils bougent !\e"
+MGA0210000,"\h(«Aika»)Wir haben es endlich geschafft.
+So schlimm war das gar nicht! \e"
+MGA0210001,"\h(«Vyse»)Ja. Aber schau dir diesen Riesen-Stein an!
+Das wird ein ganz schöner Akt,
+dieses Ding nach draußen zu schaffen!\e"
+MGA0210002,\h(«Aika»)Aaaahh!\e
+MGA0210003,\h(«Vyse»)Aika!? Was ist denn?\e
+MGA0210004,"\h(«Aika»)Vyse……
+Diese Felsen……
+Sie…… sie bewegen sich!\e"
+MA0140000,"\h(«Aika»)Whew…
+Looks like it won't be getting up anymore.
+What was that thing?\e"
+MA0140001,"\h(«Vyse»)Some kind of ancient guardian, I think.
+Who knows? Okay Aika, we need to hurry up and
+secure the Moon Stone.\e"
+MA0140002,\h(«Aika»)That's my kind of plan!\e
+MA0140003,"\h(«Aika»)Wow…
+This Moon Stone is huge!\e"
+MA0140004,"\h(«Vyse»)Yeah, it was definitely worth going through all 
+that trouble. We won't have to worry about fuel 
+for a while!\e"
+MA0140005,"\h(«Aika»)It's beautiful…
+Treasure hunting is definitely my favorite part 
+of being an Air Pirate!\e"
+MA0140006,\h(«Aika»)Wait till everyone back home sees what we found!\e
+MA0140007,\h( )You received the “Raw Moon Stone.”\e
+MSA0140000,"\h(«Aika»)Caramba……
+Parece que no se va a volver a levantar.
+¿Qué era eso?\e"
+MSA0140001,"\h(«Vyse»)Un guardián anciano, creo.
+¿Quién sabe? Bueno, Aika, tenemos que darnos
+prisa y guardar esa Piedra Lunar.\e"
+MSA0140002,\h(«Aika»)¡Eso mismo pensaba yo!\e
+MSA0140003,"\h(«Aika»)Caramba……
+¡Esta Piedra Lunar es enorme!\e"
+MSA0140004,"\h(«Vyse»)Sí, ha merecido la pena el esfuerzo.
+¡No tendremos que preocuparnos por el
+combustible durante un tiempo!\e"
+MSA0140005,"\h(«Aika»)Es preciosa……
+¡Desde luego, buscar tesoros es lo mejor de ser
+una Pirata Aérea!\e"
+MSA0140006,\h(«Aika»)¡Espera a que vean en casa lo que les llevamos!\e
+MSA0140007,\h( )Tenéis la “Piedra Lunar en bruto”.\e
+MFA0140000,"\h(«Aika»)Ouf……
+On dirait qu'il ne se relèvera pas.
+Qu'est-ce que c'était ?\e"
+MFA0140001,"\h(«Vyse»)Une sorte d'ancien gardien.
+Qui sait ?
+Aika, il faut se dépêcher et prendre la Pierre
+de Lune.\e"
+MFA0140002,\h(«Aika»)C'est une bonne idée !\e
+MFA0140003,"\h(«Aika»)Oh…
+Cette Pierre de Lune est énorme !\e"
+MFA0140004,"\h(«Vyse»)Oui, cela valait vraiment la peine de se donner
+tant de mal. Nous aurons assez de carburant pour
+un bout de temps !\e"
+MFA0140005,"\h(«Aika»)C'est magnifique……
+La chasse au trésor, c'est vraiment ce que je
+préfère chez les Pirates de l'Air !\e"
+MFA0140006,"\h(«Aika»)Les gens du village vont être contents de voir
+ce que nous avons trouvé !\e"
+MFA0140007,\h( )Vous avez reçu la “Pierre de Lune Brute”.\e
+MGA0140000,"\h(«Aika»)Puh……
+Sieht so aus, als würde es nicht mehr aufstehen.
+Was war das für ein Ding?\e"
+MGA0140001,"\h(«Vyse»)So eine Art alter Schatzhüter, glaube ich.
+Wer weiß? Ok, Aika, wir müssen uns beeilen
+und den Moon Stone sicherstellen.\e"
+MGA0140002,\h(«Aika»)Der Plan gefällt mir!\e
+MGA0140003,"\h(«Aika»)Wow……
+Dieser Moon Stone ist riesig!\e"
+MGA0140004,"\h(«Vyse»)Ja, die Mühe hat sich auf jeden Fall gelohnt.
+Um Treibstoff brauchen wir uns für 'ne Weile
+keine Sorgen zu machen.\e"
+MGA0140005,"\h(«Aika»)Er ist wunderschön……
+Die Schatzsuche ist das, was mir am Leben eines
+Luftpiraten am meisten gefällt!\e"
+MGA0140006,"\h(«Aika»)Wart erstmal ab, bis die anderen zu Hause sehen,
+was wir gefunden haben!\e"
+MGA0140007,\h( )Du hast den “Raw Moon Stone” erhalten.\e
+MA0290000,\h(«Vyse»)This is just great… The place is flooded.\e
+MA0290001,"\h(«Vyse»)… Aika!
+Look! The Moon Stone is at the bottom!\e"
+MA0290002,"\h(«Aika»)Wow! It's so bright! 
+That Moon Stone must be huge!\e"
+MA0290003,"\h(«Aika»)So, Vyse… How do you plan on getting it out of
+there? The water is getting pretty deep…\e"
+MA0290004,"\h(«What will you do?»)“Swim down to the bottom.”
+“Find a way to drain the water.”\e"
+MA0290005,"\h(«Vyse»)Let's swim down there to get it.
+I think the water is still shallow enough. 
+What do you think?\e"
+MA0290006,"\h(«Aika»)No way!
+You know I can't swim! How am I supposed to help
+you carry that thing back up here?!\e"
+MA0290007,"\h(«Vyse»)Hahaha… Ever since that one time you fell into
+the well when you were a kid, you've been afraid
+of the water.\e"
+MA0290008,"\h(«Aika»)Besides, I doubt that either of us could swim
+while carrying that Moon Stone back to the
+surface. It looks way too heavy!\e"
+MA0290009,"\h(«Vyse»)… Yeah, you're probably right!\e"
+MA0290010,"\h(«Vyse»)Let's try and drain the water from this place.
+That way we can just carry the Moon Stone out of
+here.\e"
+MA0290011,"\h(«Aika»)Well, considering that I can't swim,
+I like that plan better… \e"
+MA0290012,"\h(«Vyse»)But there's still one problem… how are we
+supposed to drain all of this water, anyway?\e"
+MA0290013,"\h(«Aika»)Hey, Vyse.
+Look over there!\e"
+MA0290014,"\h(«Aika»)There's a door over there.
+Maybe if we can find a way to open it,
+we can drain the water out of this place.\e"
+MA0290015,"\h(«Vyse»)Hmm… You might be right.
+We'll use the doors as drains.\e"
+MA0290016,"\h(«Aika»)Alright!
+Let's go!\e"
+MSA0290000,\h(«Vyse»)Estupendo…… Esto está inundado.\e
+MSA0290001,"\h(«Vyse»)¡Aika……!
+¡Mira! ¡La Piedra Lunar está en el fondo!\e"
+MSA0290002,"\h(«Aika»)¡Guau! ¡Es tan brillante!
+¡Esa Piedra Lunar debe de ser enorme!\e"
+MSA0290003,"\h(«Aika»)Pero, Vyse…… ¿Has pensado cómo vas a sacarla de
+allí? El agua es bastante profunda……\e"
+MSA0290004,"\h(«¿Qué quieres hacer?»)“Bucear hasta el fondo.”
+“Encontrar la manera de sacar el agua.”\e"
+MSA0290005,"\h(«Vyse»)Vamos a nadar hacia allí para cogerla. Creo que
+el agua todavía cubre poco.
+¿Qué te parece?\e"
+MSA0290006,"\h(«Aika»)¡Ni hablar!
+¡Ya sabes que no sé nadar! ¡¿Cómo voy a ayudarte
+a traer la piedra hasta aquí?!\e"
+MSA0290007,"\h(«Vyse»)Jajaja…… Desde aquella vez que te caíste en el
+pozo cuando eras pequeña, has tenido miedo del
+agua.\e"
+MSA0290008,"\h(«Aika»)Además, dudo mucho que ninguno de los dos pueda
+nadar y llevar esa Piedra Lunar hasta la
+superficie. ¡Tiene pinta de pesar mucho!\e"
+MSA0290009,"\h(«Vyse»)¡Sí, creo que tienes razón!\e"
+MSA0290010,"\h(«Vyse»)Vamos a intentar sacar todo el agua.
+Así podremos sacar la Piedra Lunar de ahí.\e"
+MSA0290011,"\h(«Aika»)Vale, teniendo en cuenta que no sé nadar,
+prefiero ese plan……\e"
+MSA0290012,"\h(«Vyse»)Pero aún hay un problema……
+¿Cómo vamos sacar todo este agua de aquí?\e"
+MSA0290013,"\h(«Aika»)¡Eh, Vyse!
+¡Mira eso!\e"
+MSA0290014,"\h(«Aika»)Allí hay una puerta.
+Si encontramos el modo de abrirla, podremos
+drenar todo este agua.\e"
+MSA0290015,"\h(«Vyse»)Sí…… Tienes razón.
+Utilizaremos esas puertas como desagüe.\e"
+MSA0290016,"\h(«Aika»)¡Está bien!
+¡Vamos allá!\e"
+MFA0290000,\h(«Vyse»)Génial…… il y a une inondation.\e
+MFA0290001,"\h(«Vyse»)…… Aika !
+Regarde ! La Pierre de Lune est tout au fond !\e"
+MFA0290002,"\h(«Aika»)Oh !  Elle est très lumineuse !
+Cette Pierre de Lune est énorme !\e"
+MFA0290003,"\h(«Aika»)Alors, Vyse…… Comment comptes-tu la sortir de
+là ?
+Ça a l'air assez profond……\e"
+MFA0290004,"\h(«Qu'allez-vous faire ?»)“Plonger la chercher.”
+“Trouver un moyen de vider l'eau.”\e"
+MFA0290005,"\h(«Vyse»)Nageons par là pour aller la chercher.
+Je crois que ce n'est pas si profond.
+Qu'est-ce que tu en penses ?\e"
+MFA0290006,"\h(«Aika»)Pas question !
+Tu sais que je ne sais pas nager ! Comment
+suis-je censée t'aider à la remonter ?!\e"
+MFA0290007,"\h(«Vyse»)Hahaha…… Tu as peur de l'eau depuis l'époque où,
+enfant, tu es tombée dans le puits.\e"
+MFA0290008,"\h(«Aika»)En plus, je ne crois pas que l'un d'entre nous
+puisse remonter cette Pierre Lune à la surface
+en nageant. Elle a l'air beaucoup trop lourde !\e"
+MFA0290009,"\h(«Vyse»)…… Oui, tu as certainement raison !\e"
+MFA0290010,"\h(«Vyse»)Essayons de vider l'eau. Comme ça, nous pourrons
+sortir la Pierre de Lune.\e"
+MFA0290011,"\h(«Aika»)Bien, étant donné que je ne sais pas nager, je
+préfère cette idée là……\e"
+MFA0290012,"\h(«Vyse»)Mais il reste un problème…… comment allons-nous
+évacuer l'eau ?\e"
+MFA0290013,"\h(«Aika»)Hé, Vyse.
+Regarde là-bas !\e"
+MFA0290014,"\h(«Aika»)Il y a une porte là-bas.
+Peut-être que si nous trouvons un moyen de
+l'ouvrir, on pourra vider l'eau.\e"
+MFA0290015,"\h(«Vyse»)Humm…… Tu as sûrement raison.
+Les portes nous permettront d'évacuer l'eau.\e"
+MFA0290016,"\h(«Aika»)D'accord !
+Allons-y !\e"
+MGA0290000,\h(«Vyse»)Das fehlte noch……  Hier ist alles überflutet.\e
+MGA0290001,"\h(«Vyse»)…… Aika!
+Schau mal! Der Moon Stone ist auf dem Grund!\e"
+MGA0290002,"\h(«Aika»)Wow! Es ist so hell!
+Dieser Moon Stone muss riesig sein!\e"
+MGA0290003,"\h(«Aika»)Also, Vyse……  Wie stellst du dir vor, ihn da
+herauszuholen? Das Wasser wird immer tiefer…… \e"
+MGA0290004,"\h(«Was wirst du tun?»)“Auf den Grund tauchen.”
+“Eine Möglichkeit finden das Wasser abzulassen.”\e"
+MGA0290005,"\h(«Vyse»)Lass uns hinuntertauchen, um ihn zu holen.
+Ich glaube, das Wasser ist noch flach genug.
+Was meinst du?\e"
+MGA0290006,"\h(«Aika»)Auf keinen Fall!
+Du weißt, dass ich nicht schwimmen kann. Wie
+soll ich dir helfen, das Ding nach oben zu
+bringen?!\e"
+MGA0290007,"\h(«Vyse»)Hahaha……  Seitdem du damals als Kind in den
+Brunnen gefallen bist, hast du Angst vor dem
+Wasser.\e"
+MGA0290008,"\h(«Aika»)Außerdem bezweifle ich, dass einer von uns mit
+dem Moon Stone an die Oberfläche schwimmen
+könnte. Er sieht viel zu schwer aus!\e"
+MGA0290009,"\h(«Vyse»)…… Ja, da hast du wahrscheinlich Recht!\e"
+MGA0290010,"\h(«Vyse»)Lass uns versuchen, das Wasser abzulassen. Dann
+brauchen wir den Moon Stone nur herauszutragen.\e"
+MGA0290011,"\h(«Aika»)Tja, also, da ich nicht schwimmen kann, gefällt
+mir dieser Plan besser……\e"
+MGA0290012,"\h(«Vyse»)Aber es gibt immer noch ein Problem. Wie kriegen
+wir das ganze Wasser hier raus?\e"
+MGA0290013,"\h(«Aika»)He, Vyse.
+Guck' dir das an!\e"
+MGA0290014,"\h(«Aika»)Dort drüben ist eine Tür.
+Wenn wir eine Möglichkeit finden, sie zu öffnen,
+könnten wir das Wasser ablassen.\e"
+MGA0290015,"\h(«Vyse»)Hmm… Du magst Recht haben.
+Wir benutzen die Türen als Abfluss.\e"
+MGA0290016,"\h(«Aika»)OK!
+Los geht's!\e"
+M01030000,"\h(«Vyse»)It won't budge. The door seems to be stuck. It
+probably got jarred shut when this island
+collided with Soltis.\c"
+M01030001,"\h(«What will you do?»)“Return to your ship.”
+“Continue searching the island.”\c"
+M01030002,"\h(«What will you do?»)“Return to the Little Jack.”
+“Continue searching the island”\c"
+M01030003,"\h(«What will you do?»)“Return to the Delphinus.”
+“Continue searching the island”\c"
+M01030004,"\h(«Vyse»)What's this thing made of? I've never seen this
+material before. It looks almost like… gold.
+It doesn't feel like gold, though…\c"
+MS01030000,"\h(«Vyse»)Ni siquiera se entreabre. Esta puerta está
+atascada. Debió quedarse atrancada cuando la
+isla colisionó con Soltis.\c"
+MS01030001,"\h(«¿Qué vas a hacer?»)“Volver al navío.”
+“Seguir buscando la isla.”\c"
+MS01030002,"\h(«¿Qué vas a hacer?»)“Volver al Little Jack.”
+“Seguir buscando la isla.”\c"
+MS01030003,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Seguir buscando la isla.”\c"
+MS01030004,"\h(«Vyse»)¿De qué está hecho esto? Nunca había visto este
+material. Es parecido al…… oro.
+Pero no creo que sea oro……\c"
+MF01030000,"\h(«Vyse»)Elle ne bouge pas. La porte semble bloquée.
+Elle a dû se coincer quand cette île a heurté
+Soltis.\c"
+MF01030001,"\h(«Que ferez-vous ?»)“Vous retournerez sur votre navire.”
+“Vous continuerez à fouiller l'île.”\c"
+MF01030002,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Little Jack.”
+“Vous continuerez à fouiller l'île.”\c"
+MF01030003,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous continuerez à fouiller l'île.”\c"
+MF01030004,"\h(«Vyse»)En quoi elle est faite ? Je n'ai jamais vu ce
+matériau. Cela ressemble presque à…… de l'or.
+Mais on ne dirait pas de l'or au toucher……\c"
+MG01030000,"\h(«Vyse»)Sie bewegt sich nicht. Die Tür scheint zu
+klemmen. Sie klemmt wahrscheinlich, seit
+diese Insel mit Soltis kollidiert ist.\c"
+MG01030001,"\h(«Was wirst du tun?»)“Zu deinem Schiff zurückkehren.”
+“Die Insel weiter durchsuchen.”\c"
+MG01030002,"\h(«Was wirst du tun?»)“Zur Little Jack zurückkehren.”
+“Die Insel weiter durchsuchen.”\c"
+MG01030003,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Die Insel weiter durchsuchen.”\c"
+MG01030004,"\h(«Vyse»)Woraus besteht das? Dieses Material habe ich
+noch nie zuvor gesehen. Es sieht fast wie……
+Gold aus. Es fühlt sich aber nicht so an……\c"
+"",me002a.sct
+"",me103a.sct
+"",me103c.sct
+"",me103a.sct
+"",me131a.sct
+"",me103c.sct
+"",me103c.sct
+"",me103c.sct
+"",me103c.sct
+"",me103c.sct
+"",me103c.sct
+"",me131c.sct
+"",M0250
+"",m5030000
+"","A21発生。
+たたかってしねや〜\c"
+"",a103ba21.mld
+"",M0250
+"",e6a021
+"",a103ba21.mld
+"","A14発生。
+こうしてヴァイス達は
+げっこー石を手に入れた。\c"
+"",a103ba14.mld
+"",M0250
+"",e6a014
+"",a103ba14.mld
+"","A29発生。
+あ、見て月煌石が水の中に！！\c"

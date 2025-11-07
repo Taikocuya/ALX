@@ -1,0 +1,105 @@
+[Event Name],Task ID
+MG0070000,\h(«Aika»)Aaahhh!!\e
+MG0070001,"\h(«Gilder»)My men are right on time. 
+Heh… but we're running a little late.\e"
+MG0070002,"\h(«Vyse»)Whoa! Look at that firepower!
+Hey, what about Clara?\e"
+MG0070003,"\h(«Gilder»)I'm sure she can hold her own… 
+I think.\e"
+MG0070004,\h(«Aika»)That cannon we ran through… It just exploded!\e
+MG0070005,"\h(«Vyse»)The explosion took out that whole area.
+They won't be putting that fire out any time
+soon.\e"
+MG0070006,"\h(«Gilder»)Heh… I, umm, left them a little present… \e"
+MG0070007,"\h(«Gilder»)Are you two ready?
+Here's where the real fun begins.\e"
+M01160000,"\h(«Vyse»)There isn't even a pillow. Well, I suppose these
+beds are meant for prisoners, so there's no
+reason for them to make the beds comfortable…\c"
+M01160001,"\h(«Vyse»)It's disturbing to think of how many people
+probably died in this prison… Or… even… in
+this bed…\c"
+M01160002,"\h(«Vyse»)The only thing I can see from here is the
+dark skies of Valua…\c"
+M01160003,"\h(«Vyse»)There's two beds, but…
+Where's Fina?\e"
+M01160004,"\h(«Aika»)I don't know. They split us up before we even
+got here… I've been alone the whole time…
+Well, until macho-man came along, that is…\e"
+M01160005,"\h(«Vyse»)It's the same kind of bed that Gilder and I had.
+I guess the Valuans don't believe in treating
+ladies like ladies…\c"
+M01160006,"\h(«Vyse»)This is probably the area right
+above our own cell…\c"
+M01160007,"\h(«Vyse»)…Damn. It won't open.
+It's locked.\c"
+M01160008,\h( )Used the “Cannon Room Key” to open the door.\c
+M01160009,"\h(«An elevator switch…»)“Prisoner Block 200      2nd Floor”
+“Fortress Cannon Room   Battery 28”
+“Don't get on the elevator.”\c"
+M01160010,"\h(«An elevator switch…»)“Prisoner Block 100      1st Floor”
+“Fortress Cannon Room   Battery 28”
+“Don't get on the elevator.”\c"
+M01160011,"\h(«An elevator switch…»)“Prisoner Block 200      2nd Floor”
+“Prisoner Block 100      1st Floor”
+“Don't get on the elevator.”\c"
+M01160012,"\h(«Vyse»)…Nope, it won't open.
+The “Cannon Room Key” won't work either.
+I guess we need a different key…\c"
+M01160013,\h( )Used the “Harbor Key” to open the door.\c
+M01160014,"\h(«Vyse»)Great… This door's locked.
+And it doesn't look like there's a keyhole…\e"
+M01160015,"\h(«Gilder»)It probably leads towards the center of the
+Fortress. I don't know about you, but I'd rather
+get out of here than go exploring. Let's go.\c"
+M01160016,"\h(«Gilder»)It probably leads towards the center of the
+Fortress. We're probably better off not going
+that way. Let's look somewhere else.\c"
+M01160017,"\h(«Vyse»)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01160018,"\h(«Gilder»)Heh… Good job guys. Looks like my crew is
+causing quite a commotion. It should be enough
+for us to sneak out of here…\c"
+M01160019,"\h(«Vyse»)…Hm?
+This switch isn't doing anything.\e"
+M01160020,"\h(«Gilder»)This elevator is probably stuck on another floor
+or somebody else might already be inside it.
+Let's not stick around to find out which, okay?\c"
+M01160021,\h(«Aika»)Aaaaaaaaaaaaaaaaack!\e
+M01160022,\h(«Vyse»)… Hey! That sounded like Aika!!\c
+M01160023,"\h(«Vigoro»)Ugh… That hurt, Red…\c"
+M01160024,"\h( )You found the “Harbor Key” in the pocket
+of the Valuan Soldier.\c"
+"",me116e.sct
+"",me116d.sct
+"",me116g.sct
+"",\h(セーブしますか？)
+"","はい
+いいえ\c"
+"",m5160000
+"",k8160000
+"",EV_G07発生しました。\c
+"",a116cg07ef03.mld
+"",a116cg07ef08.mld
+"",a116cg07ef09.mld
+"",a116cg07ef10.mld
+"",a116cg07ef11.mld
+"",a116cg07ef16.mld
+"",a116cg07ef17.mld
+"",a116cg07ef18.mld
+"",a116cg07_1.mld
+"",a116cg07_1.mld
+"",e6g007
+"","\h(ギルダー)「なあに、手はうってあるさ。
+　そろそろ、かな。」\c"
+"",a116cg07_1.mld
+"",a116cg07ef03.mld
+"",a116cg07ef08.mld
+"",a116cg07ef09.mld
+"",a116cg07ef10.mld
+"",a116cg07ef11.mld
+"",a116cg07ef16.mld
+"",a116cg07ef17.mld
+"",a116cg07ef18.mld
+"",a116cg07_2.mld

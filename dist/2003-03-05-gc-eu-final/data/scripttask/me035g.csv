@@ -1,0 +1,3546 @@
+[Event Name],Task ID
+MG0160000,"\h(«Vyse»)We did it! We escaped from the Grand Fortress
+twice!\e"
+MG0160001,"\h(«Fina»)Yes, and I'm happy that we're all together
+again!\e"
+MG0160002,\h(«Gilder»)Some of us are happier than others…\e
+MG0160003,"\h(«Clara»)Oh, Gilder!
+I'm so happy!
+I'll never let you go!\e"
+MG0160004,"\h(«Gilder»)Out of one prison, into the next.\e"
+MG0160005,"\h(«Aika»)Hahaha!
+What's wrong, Gilder? You guys make a cute
+couple.\e"
+MG0160006,"\h(«Fina»)I am very happy for you, Clara.\e"
+MG0160007,"\h(«Clara»)Oh, thank you, Fina!
+This is too good to be true! 
+This is the happiest day of my life!!!\e"
+MG0160008,"\h(«Gilder»)I'm really starting to miss that jail cell in
+Valua.\e"
+MG0160009,"\h(«Enrique»)Well, since we have a new ship, I believe it's
+time to decide on a captain.\e"
+MG0160010,"\h(«Enrique»)Even though this is my ship, I am not an
+experienced sailor. I would feel more
+comfortable with someone else at the helm.\e"
+MG0160011,\h(«Aika»)I know who I'd cast my vote for.\e
+MG0160012,"\h(«Aika»)Vyse…
+You're the best man for the job.\e"
+MG0160013,"\h(«Fina»)I agree with Aika. I would feel the most 
+comfortable with you as our captain.\e"
+MG0160014,"\h(«Clara»)I know that I just met you, but there's
+something about you… 
+I think you would make an excellent captain.\e"
+MG0160015,"\h(«Gilder»)You're a great sailor, Vyse, and a good leader. 
+I think you'd make a great captain.\e"
+MG0160016,"\h(«Enrique»)Well, it seems unanimous…
+Vyse, will you accept the responsibility of 
+being Captain of the Delphinus?\e"
+MG0160017,"\h(«What will you do?»)“I'll do it!”
+“I don't know if I'm up to it…”\e"
+MG0160018,"\h(«Vyse»)I'll do it!
+I won't let you down!\e"
+MG0160019,"\h(«Aika»)That's what I wanted to hear!
+Besides, wasn't it your dream to be the captain
+of your own ship someday?\e"
+MG0160020,"\h(«Vyse»)Hmm…
+To be completely honest, I don't know if I'm up
+to it. That's a lot of responsibility…\e"
+MG0160021,"\h(«Aika»)Vyse! What are you saying?!
+You've been dreaming about this moment all your
+life!\e"
+MG0160022,"\h(«Aika»)Ever since we were kids, it's been your dream
+to be the captain of your own ship. 
+Besides, you're the only one capable!\e"
+MG0160023,"\h(«Gilder»)Aika is right. Vyse, you're the best man for the
+job.\e"
+MG0160024,"\h(«Vyse»)… Alright.
+I'll do it.\e"
+MG0160025,"\h(«Vyse»)Don't worry, everyone… I won't let you down!\e"
+MG0160026,\h(«Aika»)That's more like it!\e
+MG0160027,"\h(«Aika»)Oh yeah!
+The Delphinus is going to need a new flag!\e"
+MG0160028,"\h(«Gilder»)You're right Aika! Every crew should have a flag
+that symbolizes what they stand for.\e"
+MG0160029,"\h(«Gilder»)Why don't we start working on one now?
+The Delphinus should have a flag as soon as
+possible.\e"
+MG0160030,"\h(«Enrique»)You're right. I think Vyse, Aika, and Fina
+should get together and design our new flag.\e"
+MG0160031,"\h(«Enrique»)Being a prince of Valua, I don't think it is my
+place to design an Air Pirate's flag, but I can
+judge any ideas that you have.\e"
+MG0160032,"\h(«Fina»)What? You want me to design one, too?\e"
+MG0160033,"\h(«Aika»)Sure, why not? It will be fun! Just give it a
+try.\e"
+MG0160034,"\h(«Aika»)Hey, Vyse.
+I want to take a look around the Delphinus!\e"
+MG0160035,\h(«Vyse»)I think we all should.\e
+MG0160036,"\h(«Gilder»)We should split up and check out the ship. If 
+something's wrong with it, it's better to find 
+out now, rather than in the heat of battle.\e"
+MG0160037,"\h(«Vyse»)Sounds good to me!
+Break time, everyone!
+Meet back at the bridge when you're done.\e"
+MFG0160000,"\h(«Vyse»)On a réussi ! Nous nous sommes échappés deux
+fois de la Grande Forteresse !\e"
+MFG0160001,"\h(«Fina»)Oui, et je suis contente que nous soyons tous
+réunis de nouveau !\e"
+MFG0160002,"\h(«Gilder»)Il y en a qui sont encore plus contents que
+d'autres……\e"
+MFG0160003,"\h(«Clara»)Oh, Gilder !
+Je suis si heureuse !
+Je ne te laisserai jamais partir !\e"
+MFG0160004,\h(«Gilder»)Je passe d'une prison à l'autre.\e
+MFG0160005,"\h(«Aika»)Ha ! Ha ! Ha !
+Qu'y a-t-il, Gilder ? Vous faites un beau
+couple.\e"
+MFG0160006,"\h(«Fina»)Je suis très heureuse pour vous, Clara.\e"
+MFG0160007,"\h(«Clara»)Oh, merci, Fina !
+C'est trop beau pour être vrai !
+C'est le plus beau jour de ma vie !!!\e"
+MFG0160008,"\h(«Gilder»)Je commence vraiment à regretter cette cellule à
+Valua.\e"
+MFG0160009,"\h(«Enrique»)Bon, puisque nous avons un nouveau navire, il
+est temps de choisir un capitaine.\e"
+MFG0160010,"\h(«Enrique»)Bien que ce navire m'appartienne, je n'ai aucune
+expérience en navigation. Je préférerais que
+quelqu'un d'autre prenne la barre.\e"
+MFG0160011,\h(«Aika»)Je sais qui je choisirais.\e
+MFG0160012,"\h(«Aika»)Vyse……
+Tu es l'homme qu'il faut.\e"
+MFG0160013,"\h(«Fina»)Je suis d'accord avec Aika. Je préfèrerais que
+ce soit toi notre capitaine.\e"
+MFG0160014,"\h(«Clara»)Je ne vous connais pas depuis longtemps, mais
+vous avez un je ne sais quoi…… Je crois que vous
+feriez un excellent capitaine.\e"
+MFG0160015,"\h(«Gilder»)Tu es un très bon marin, Vyse, et un bon chef.
+Je crois que tu ferais un excellent capitaine.\e"
+MFG0160016,"\h(«Enrique»)Bon, le vote est unanime……
+Vyse, acceptes-tu la responsabilité de Capitaine
+du Delphinus ?\e"
+MFG0160017,"\h(«Que ferez-vous ?»)“J'accepte !”
+“Je ne sais pas si j'en suis capable……”\e"
+MFG0160018,"\h(«Vyse»)J'accepte !
+Je ne vous laisserai pas tomber !\e"
+MFG0160019,"\h(«Aika»)C'est ce que je voulais t'entendre dire !
+Et puis, c'était ton rêve de devenir Capitaine
+de ton propre navire un jour.\e"
+MFG0160020,"\h(«Vyse»)Humm……
+Pour être franc, je ne sais pas si j'en suis
+capable. C'est une grosse responsabilité……\e"
+MFG0160021,"\h(«Aika»)Vyse ! Qu'est ce que tu racontes ?!
+Tu as rêvé toute ta vie de ce moment !\e"
+MFG0160022,"\h(«Aika»)Depuis notre enfance, tu rêves de devenir
+Capitaine de ton propre navire.
+Et, toi seul en est capable !\e"
+MFG0160023,"\h(«Gilder»)Aika a raison. Vyse, tu es l'homme qu'il nous
+faut.\e"
+MFG0160024,"\h(«Vyse»)…… D'accord.
+J'accepte.\e"
+MFG0160025,"\h(«Vyse»)Ne vous en faites pas…… Je ne vous laisserai pas
+tomber !\e"
+MFG0160026,\h(«Aika»)Je préfère ça !\e
+MFG0160027,"\h(«Aika»)Super ! Il faut trouver un nouveau drapeau pour
+le Delphinus !\e"
+MFG0160028,"\h(«Gilder»)Tu as raison Aika ! Chaque équipage devrait
+avoir son propre drapeau pour symboliser ses
+principes.\e"
+MFG0160029,"\h(«Gilder»)Pourquoi ne pas s'y mettre tout de suite ?
+Il faut trouver un drapeau pour le Delphinus le
+plus vite possible.\e"
+MFG0160030,"\h(«Enrique»)Vous avez raison. À mon avis Vyse, Aika, et Fina
+devraient essayer de créer un drapeau ensemble.\e"
+MFG0160031,"\h(«Enrique»)En tant que Prince de Valua, je suis mal placé
+pour créer un drapeau de Pirate de l'Air, mais
+je peux donner mon avis.\e"
+MFG0160032,"\h(«Fina»)Quoi ? Vous voulez que j'en crée un, moi
+aussi ?\e"
+MFG0160033,"\h(«Aika»)Oui, pourquoi pas ? On va bien s'amuser !
+Essayez au moins.\e"
+MFG0160034,"\h(«Aika»)Hé, Vyse.
+Je veux aller visiter le Delphinus !\e"
+MFG0160035,\h(«Vyse»)Nous devrions tous y aller.\e
+MFG0160036,"\h(«Gilder»)Il vaudrait mieux se séparer pour aller visiter
+le navire. S'il a un problème, il vaut mieux le
+savoir tout de suite, plutôt qu'en pleine
+bataille.\e"
+MFG0160037,"\h(«Vyse»)Bonne idée !
+Séparons-nous !
+Retrouvons-nous après sur la passerelle.\e"
+MGG0160000,"\h(«Vyse»)Fantastisch! Wir sind zweimal aus der
+Grand Fortress entkommen!\e"
+MGG0160001,"\h(«Fina»)Ja, und ich bin froh, dass wir alle wieder
+zusammen sind!\e"
+MGG0160002,\h(«Gilder»)Manche von uns freuen sich mehr als andere……\e
+MGG0160003,"\h(«Clara»)Oh, Gilder!
+Ich bin so froh!
+Ich lass dich nie wieder weg!\e"
+MGG0160004,\h(«Gilder»)Von einem Gefängnis ins nächste.\e
+MGG0160005,"\h(«Aika»)Hahaha!
+Was ist denn, Gilder? Ihr beide gebt doch
+ein schönes Paar ab.\e"
+MGG0160006,"\h(«Fina»)Ich freue mich sehr für dich, Clara.\e"
+MGG0160007,"\h(«Clara»)Oh, danke, Fina!
+Das ist zu schön, um wahr zu sein!
+Der schönste Tag in meinem Leben!!!\e"
+MGG0160008,"\h(«Gilder»)Ich fange langsam an, meine
+Gefängniszelle in Valua zu vermissen.\e"
+MGG0160009,"\h(«Enrique»)Jetzt, wo wir ein neues Schiff haben, ist es
+an der Zeit, sich für einen Captain zu
+entscheiden.\e"
+MGG0160010,"\h(«Enrique»)Das ist zwar mein Schiff, aber ich bin kein
+erfahrener Seemann. Es wäre mir lieber, wenn
+jemand anderes das Steuer übernähme.\e"
+MGG0160011,"\h(«Aika»)Ich weiß, wem ich meine Stimme geben würde.\e"
+MGG0160012,"\h(«Aika»)Vyse……
+Du bist der beste Mann für den Job.\e"
+MGG0160013,"\h(«Fina»)Ich stimme Aika zu. Ich würde mich mit dir
+als Captain am wohlsten fühlen.\e"
+MGG0160014,"\h(«Clara»)Ich weiß, ich habe dich gerade erst kennen
+gelernt, aber du hast so etwas……
+Ich glaube, du wärst ein ausgezeichneter
+Captain.\e"
+MGG0160015,"\h(«Gilder»)Du bist ein großartiger Seemann, Vyse, und ein
+guter Anführer. Ich glaube, du würdest einen
+guten Captain abgeben.\e"
+MGG0160016,"\h(«Enrique»)Nun, scheint einstimmig zu sein……
+Vyse, übernimmst du die Verantwortung,
+Captain der Delphinus zu werden?\e"
+MGG0160017,"\h(«Was wirst du tun?»)“Ich mache es!”
+“Ich weiß nicht, ob ich das kann……”\e"
+MGG0160018,"\h(«Vyse»)Ich mache es!
+Ich werde euch nicht enttäuschen!\e"
+MGG0160019,"\h(«Aika»)Das wollte ich hören!
+Und war es nicht sowieso dein Traum, eines Tages
+Kapitän deines eigenen Schiffs zu sein?\e"
+MGG0160020,"\h(«Vyse»)Hmm……
+Um ganz ehrlich zu sein, ich weiß nicht, ob
+ich das kann. Es ist eine Menge Verantwortung……\e"
+MGG0160021,"\h(«Aika»)Vyse! Was sagst du da?!
+Von diesem Moment hast du dein ganzes Leben
+geträumt!\e"
+MGG0160022,"\h(«Aika»)Seit unserer Kindheit war es dein Traum,
+Kapitän deines eigenen Schiffes zu sein.
+Außerdem bist du der einzige, der dazu in
+der Lage ist!\e"
+MGG0160023,"\h(«Gilder»)Aika hat Recht. Vyse, du bist der beste Mann
+für den Job.\e"
+MGG0160024,"\h(«Vyse»)…… Ok.
+Ich mache es.\e"
+MGG0160025,"\h(«Vyse»)Keine Sorge allerseits…… Ich werde euch nicht
+im Stich lassen!\e"
+MGG0160026,\h(«Aika»)So ist es richtig!\e
+MGG0160027,"\h(«Aika»)Ach, ja!
+Die Delphinus wird eine neue Flagge brauchen!\e"
+MGG0160028,"\h(«Gilder»)So ist es, Aika! Jede Crew sollte eine Flagge
+haben, die das Ziel symbolisiert, für das sie
+eintritt.\e"
+MGG0160029,"\h(«Gilder»)Warum fangen wir nicht gleich damit an?
+Die Delphinus sollte so bald wie möglich
+eine Flagge haben.\e"
+MGG0160030,"\h(«Enrique»)Du hast Recht. Vyse, Aika und Fina sollten
+sich zusammensetzen und eine neue Flagge
+entwerfen.\e"
+MGG0160031,"\h(«Enrique»)Als Prinz von Valua glaube ich nicht, dass
+es mir obliegt, Luftpiraten eine Flagge zu
+entwerfen, aber ich beurteile gerne eure
+Vorschläge.\e"
+MGG0160032,"\h(«Fina»)Was? Ihr wollt, dass ich mitmache?\e"
+MGG0160033,"\h(«Aika»)Klar, warum nicht? Es macht Spaß! Versuch's
+doch mal!\e"
+MGG0160034,"\h(«Aika»)He, Vyse.
+Ich möchte mich auf der Delphinus umsehen!\e"
+MGG0160035,"\h(«Vyse»)Ich glaube, das sollten wir alle machen.\e"
+MGG0160036,"\h(«Gilder»)Wir sollten uns trennen und das Schiff
+absuchen. Wenn mit ihm etwas nicht stimmt,
+dann ist es besser, wir finden es jetzt heraus,
+als mitten in einer Schlacht.\e"
+MGG0160037,"\h(«Vyse»)Hört sich gut an!
+Alle Mann Pause!
+Wenn ihr fertig seid, kommt zurück auf die
+Brücke.\e"
+MSG0160000,"\h(«Vyse»)¡Lo logramos! ¡Por segunda vez hemos escapado de
+la Gran Fortaleza!\e"
+MSG0160001,"\h(«Fina»)¡Sí, me alegro de que estemos todos juntos otra
+vez!\e"
+MSG0160002,\h(«Gilder»)Unos se alegran más que otros……\e
+MSG0160003,"\h(«Clara»)¡Oh, Gilder!
+¡Soy tan feliz!
+¡No te dejaré marchar otra vez!\e"
+MSG0160004,\h(«Gilder»)Salgo de una prisión para meterme en otra.\e
+MSG0160005,"\h(«Aika»)¡Jajaja!
+¿Qué pasa, Gilder? Hacéis muy buena pareja.\e"
+MSG0160006,"\h(«Fina»)Me alegro mucho por ti, Clara.\e"
+MSG0160007,"\h(«Clara»)¡Oh, gracias, Fina!
+¡Es demasiado bueno para ser verdad!
+¡¡¡Es el momento más feliz de mi vida!!!\e"
+MSG0160008,"\h(«Gilder»)Estoy empezando a echar de menos la cárcel de
+Valua.\e"
+MSG0160009,"\h(«Enrique»)Bueno, ya que tenemos un nuevo navío, creo que
+llegó el momento de decidir quién será el nuevo
+capitán.\e"
+MSG0160010,"\h(«Enrique»)Aunque el navío es mío, yo no tengo experiencia
+de navegación. Me sentiría más cómodo si hubiera
+otra persona al timón.\e"
+MSG0160011,\h(«Aika»)Sé a quién le daría mi voto.\e
+MSG0160012,"\h(«Aika»)Vyse……
+eres el mejor para este trabajo.\e"
+MSG0160013,"\h(«Fina»)Estoy de acuerdo con Aika. Preferiría que fueras
+tú el capitán.\e"
+MSG0160014,"\h(«Clara»)Sé que acabamos de conocernos, pero hay algo en
+ti…… creo que serías un capitán estupendo.\e"
+MSG0160015,"\h(«Gilder»)Eres un gran marino, Vyse, y un buen líder.
+Creo que serías un gran capitán.\e"
+MSG0160016,"\h(«Enrique»)Bueno, por lo visto hay unanimidad……
+Vyse, ¿vas a aceptar la responsabilidad de ser
+el Capitán del Delphinus?\e"
+MSG0160017,"\h(«¿Qué vas a hacer?»)“¡Lo haré!”
+“No sé si voy a estar a la altura……”\e"
+MSG0160018,"\h(«Vyse»)¡Lo haré!
+¡No os voy a decepcionar!\e"
+MSG0160019,"\h(«Aika»)¡Eso es precisamente lo que quería oír!
+Además, ¿no era tu sueño ser el capitán de tu
+propio navío algún día?\e"
+MSG0160020,"\h(«Vyse»)Mmm……
+Si te soy totalmente sincero, no sé si estoy a
+la altura. Es mucha responsabilidad……\e"
+MSG0160021,"\h(«Aika»)¡Vyse! ¡¿Pero qué dices?!
+¡Has estado soñando con este momento toda tu
+vida!\e"
+MSG0160022,"\h(«Aika»)Desde que éramos niños, tu sueño era ser el
+capitán de tu propio navío.
+Además, ¡tú eres el único que puede hacerlo!\e"
+MSG0160023,"\h(«Gilder»)Aika tiene razón, eres el más indicado para este
+trabajo.\e"
+MSG0160024,"\h(«Vyse»)…… Vale.
+Lo haré.\e"
+MSG0160025,\h(«Vyse»)No os preocupéis…… ¡No os voy a decepcionar!\e
+MSG0160026,\h(«Aika»)¡Eso ya es otra cosa!\e
+MSG0160027,"\h(«Aika»)¡Oh, sí!
+¡El Delphinus va a necesitar una nueva bandera!\e"
+MSG0160028,"\h(«Gilder»)¡Tienes razón, Aika! Toda tripulación debe tener
+una bandera que simbolice los ideales por los
+que lucha.\e"
+MSG0160029,"\h(«Gilder»)¿Por qué no empezamos a hacer una ahora mismo?
+El Delphinus debería tener una bandera lo más
+pronto posible.\e"
+MSG0160030,"\h(«Enrique»)Tienes razón. Creo que Vyse, Aika y Fina
+deberían ponerse a diseñar la nueva bandera.\e"
+MSG0160031,"\h(«Enrique»)Como Príncipe de Valua, no creo ser el más
+indicado para diseñar la bandera de los Piratas
+Aéreos, cuyos ideales son opuestos a Valua.\e"
+MSG0160032,\h(«Fina»)¿Qué? ¿Quieres que yo también la diseñe?\e
+MSG0160033,"\h(«Aika»)Claro, ¿por qué no? ¡Será divertido! Sólo por
+probar.\e"
+MSG0160034,"\h(«Aika»)Oye, Vyse.
+¡Quiero echar un vistazo por el Delphinus!\e"
+MSG0160035,\h(«Vyse»)Deberíamos ir todos.\e
+MSG0160036,"\h(«Gilder»)Tenemos que separarnos y registrar el barco.
+Si hay algún problema, es mejor descubrirlo
+ahora que en el fragor de la batalla.\e"
+MSG0160037,"\h(«Vyse»)¡Suena razonable!
+¡Todos a inspeccionar!
+Nos vemos en el puente cuando acabéis.\e"
+MG0170000,"\h(«Gilder»)Hey, Vyse. If you're finished taking a look 
+around the ship, there's something 
+I want to talk to you about.\e"
+MG0170001,"\h(«What will you say?»)“Could we talk later? I'm not finished yet.”
+“I'm done. What did you want to talk about?”\e"
+MG0170002,"\h(«Vyse»)Well, I actually haven't finished looking around
+yet…\e"
+MG0170003,"\h(«Gilder»)Hey… don't sweat it.
+When you're finished, come back here and
+we'll talk.\e"
+MG0170004,"\h(«Vyse»)I've pretty much seen everything that I wanted
+to. What did you want to talk about?\e"
+MG0170005,"\h(«Gilder»)Well, actually…\e"
+MG0170006,"\h(«Gilder»)I'm leaving. I'm going to head back and meet up
+with the Claudia.\e"
+MG0170007,\h(«Vyse»)What?!\e
+MG0170008,"\h(«Gilder»)I figure this is probably my only chance to
+escape from Clara.\e"
+MG0170009,\h(«Gilder»)I don't think I'm ready to settle down just yet.\e
+MG0170010,"\h(«Vyse»)Sure you are. You guys make a really cute
+couple.\e"
+MG0170011,\h(«Gilder»)Vyse! Don't even joke about that!\e
+MG0170012,"\h(«Vyse»)Hahaha… alright, alright.
+Sorry, I couldn't resist.\e"
+MG0170013,"\h(«Vyse»)But seriously, we're all going to miss you.\e"
+MG0170014,"\h(«Gilder»)Thanks. Before I go, I have three pieces of
+advice for you.\e"
+MG0170015,"\h(«Gilder»)First…
+You'll need to get a crew.\e"
+MG0170016,\h(«Vyse»)A crew?\e
+MG0170017,"\h(«Gilder»)Yes. With a ship this size, you'll need
+a lot of crew members to take care of the
+specific duties.\e"
+MG0170018,"\h(«Gilder»)Get a good watchman, a cook, a gunner…\e"
+MG0170019,"\h(«Gilder»)I'm sure there are plenty of skilled sailors out
+there who will join the fight against Valua.\e"
+MG0170020,"\h(«Gilder»)If you run into anyone who can help you, bring
+them aboard. The more crew members that you
+have, the better your ship will operate.\e"
+MG0170021,"\h(«Gilder»)Second…
+You'll need a base.\e"
+MG0170022,"\h(«Gilder»)You'll need a place to repair your ship, and
+your crew will need warm beds and warm meals
+every once in a while.\e"
+MG0170023,"\h(«Gilder»)Your father has his own base, right?
+You said it was on Pirate Isle. Well, you'll
+need your own headquarters as well.\e"
+MG0170024,"\h(«Gilder»)What about that deserted island that I found
+you on? I believe it's called Crescent Isle…\e"
+MG0170025,"\h(«Gilder»)That island looks just about right. 
+Why don't you head back there?\e"
+MG0170026,"\h(«Gilder»)And most of all…
+No matter what happens, never give up.\e"
+MG0170027,"\h(«Gilder»)I don't know if you've realized it yet, but
+you've accomplished a lot so far… especially
+for someone your age.\e"
+MG0170028,"\h(«Gilder»)You've escaped from the Valuan Coliseum, 
+crossed South Ocean, found Daccat's Treasure…\e"
+MG0170029,"\h(«Gilder»)Defeated three of the Admirals of the Armada, 
+took two of the Gigas out of commission, and 
+escaped from the Grand Fortress… twice.\e"
+MG0170030,"\h(«Gilder»)For some reason, everyone seems to follow you, 
+myself included. Even though you're a
+little crazy.\e"
+MG0170031,"\h(«Gilder»)Actually… it's because no matter what happens,
+you never give up. Anytime something stands 
+in your way, you never let it stop you.\e"
+MG0170032,"\h(«Gilder»)Your crew knows that you will always do
+everything in your power to protect them.
+I can tell by the way they all look at you.\e"
+MG0170033,"\h(«Gilder»)… And on this bridge, with this ship, you're
+going to sail around the world.\e"
+MG0170034,"\h(«Gilder»)You'll probably run into things ten times more
+dangerous than you've already faced, but no
+matter what happens, don't give up!\e"
+MG0170035,"\h(«Gilder»)If you follow my advice, you'll accomplish
+things that you've never even dreamed of…\e"
+MG0170036,\h(«Vyse»)Thank you…\e
+MG0170037,"\h(«Clara»)Oh, Gilder!
+Where are you?\e"
+MG0170038,"\h(«Gilder»)Oh no!
+It's Clara!\e"
+MG0170039,"\h(«Gilder»)Sorry, Vyse… I can't stay and chat any longer. 
+She'll catch me and it'll be all over!!\e"
+MG0170040,"\h(«Gilder»)So long, Vyse.
+I hope to see you again someday…\e"
+MG0170041,"\h(«Gilder»)I usually just sail around in search of fun,
+but the time I spent sailing with you…\e"
+MG0170042,"\h(«Gilder»)… was probably the most fun I've ever had. 
+Keep it up, kid!\e"
+MG0170043,"\h(«Vyse»)Thanks for everything, Gilder.\e"
+MG0170044,"\h(«Clara»)Oh, Vyse!
+\e"
+MG0170045,"\h(«Clara»)Hey, Vyse…
+Why did Gilder run off in such a hurry like
+that?\e"
+MG0170046,"\h(«Vyse»)Uh, um…
+He said that he was… um… going back to the
+Claudia.\e"
+MG0170047,"\h(«Clara»)What?!
+Well, I've got to catch him right away!
+He's not getting away from me that easily.\e"
+MG0170048,"\h(«Vyse»)… Well, it looks like Gilder is going to need
+more luck than me…\e"
+MG0170049,"\h(«Vyse»)I can't believe it. I'm finally the captain
+of my own ship. And the Delphinus is quite a
+ship!\e"
+MG0170050,"\h(«Vyse»)Alright… let's go!!
+Full speed to Crescent Isle!!!\e"
+MG0170051,\h( )Gilder has left the party.\e
+MG0170052,\h( )Enrique has joined the party.\e
+MFG0170000,"\h(«Gilder»)Hé, Vyse. Si tu as fini d'inspecter le navire,
+je voudrais te parler.\e"
+MFG0170001,"\h(«Que direz-vous ?»)“Peut-on parler plus tard? Je n'ai pas terminé.”
+“J'ai fini. De quoi vouliez-vous parler ?”\e"
+MFG0170002,"\h(«Vyse»)Euh, en fait je n'ai pas encore tout vu……\e"
+MFG0170003,"\h(«Gilder»)Hé…… Ne te fatigue pas trop.
+Reviens me voir quand tu auras terminé, on
+pourra parler.\e"
+MFG0170004,"\h(«Vyse»)J'ai vu presque tout ce que je voulais.
+De quoi vouliez-vous parler ?\e"
+MFG0170005,"\h(«Gilder»)Eh bien, en fait……\e"
+MFG0170006,"\h(«Gilder»)Je pars. Je vais faire demi-tour pour rejoindre
+le Claudia.\e"
+MFG0170007,\h(«Vyse»)Quoi ?!\e
+MFG0170008,"\h(«Gilder»)Je crois que c'est ma seule chance d'échapper à
+Clara.\e"
+MFG0170009,\h(«Gilder»)Je ne suis pas encore prêt à me ranger.\e
+MFG0170010,\h(«Vyse»)Mais si. Vous faites vraiment un beau couple.\e
+MFG0170011,\h(«Gilder»)Vyse ! Ne plaisante pas avec ça !\e
+MFG0170012,"\h(«Vyse»)Ha ! Ha ! Ha ! D'accord, d'accord.
+Désolé, je n'ai pas pu m'en empêcher.\e"
+MFG0170013,"\h(«Vyse»)Mais plus sérieusement, vous allez vraiment nous
+manquer.\e"
+MFG0170014,"\h(«Gilder»)Merci. Avant de partir, j'ai trois conseils à te
+donner.\e"
+MFG0170015,"\h(«Gilder»)Premièrement……
+Il te faut un équipage.\e"
+MFG0170016,\h(«Vyse»)Un équipage ?\e
+MFG0170017,"\h(«Gilder»)Oui. Avec un navire aussi grand, il te faudra
+des membres d'équipage pour chaque fonction
+différente.\e"
+MFG0170018,"\h(«Gilder»)Il te faut une bonne vigie, un cuisinier, un
+canonnier……\e"
+MFG0170019,"\h(«Gilder»)Je suis certain qu'il y a des tas de marins
+qualifiés qui voudront t'accompagner dans ta
+lutte contre Valua.\e"
+MFG0170020,"\h(«Gilder»)Si tu rencontres quelqu'un qui peut t'aider,
+prends-le à bord. Plus tu as de membres
+d'équipage, plus le navire sera opérationnel.\e"
+MFG0170021,"\h(«Gilder»)Deuxièmement……
+Il te faut une base.\e"
+MFG0170022,"\h(«Gilder»)Il te faut un endroit où tu puisses réparer ton
+navire, et où ton équipage trouvera un bon lit
+et un repas chaud si besoin est.\e"
+MFG0170023,"\h(«Gilder»)Ton père a sa propre base, non ?
+Tu as dit que c'était sur l'Île Pirate.
+Bon, tu auras aussi besoin de quartiers
+généraux.\e"
+MFG0170024,"\h(«Gilder»)Que penses-tu de l'île déserte où je t'ai
+trouvé ? Je crois qu'elle s'appelle l'Île
+Croissant……\e"
+MFG0170025,"\h(«Gilder»)Cette île m'a l'air parfaite.
+Pourquoi tu n'y retournes pas ?\e"
+MFG0170026,"\h(«Gilder»)Et surtout……
+Quoiqu'il arrive, n'abandonne jamais.\e"
+MFG0170027,"\h(«Gilder»)Je ne sais pas si tu t'en es rendu compte, mais
+tu as déjà accompli beaucoup de choses…… surtout
+pour quelqu'un de ton âge.\e"
+MFG0170028,"\h(«Gilder»)Tu t'es évadé du Coliseum Valuan,
+tu as traversé l'Océan Sud, découvert le Trésor
+de Daccat……\e"
+MFG0170029,"\h(«Gilder»)Vaincu trois Amiraux de l'Armada, réussi à
+stopper deux Gigas, et t'es évadé de la Grande
+Forteresse…… deux fois.\e"
+MFG0170030,"\h(«Gilder»)Je ne sais pas pourquoi mais les gens ont
+tendance à te suivre, même moi. Et pourtant tu
+es un peu fou.\e"
+MFG0170031,"\h(«Gilder»)En fait…… quelles que soient les circonstances,
+tu n'abandonnes jamais, voilà pourquoi. Chaque
+fois qu'un obstacle se met en travers de ton
+chemin, cela ne t'empêche pas de continuer.\e"
+MFG0170032,"\h(«Gilder»)Ton équipage sait bien que tu feras toujours
+tout ton possible pour les protéger.
+Cela se voit à la façon qu'ils ont de te
+regarder.\e"
+MFG0170033,"\h(«Gilder»)…… Et sur cette passerelle, avec ce navire, tu
+vas parcourir les océans.\e"
+MFG0170034,"\h(«Gilder»)Tu feras certainement face à des dangers
+beaucoup plus grands que tout ce que tu as connu
+jusqu'alors, mais quoiqu'il arrive, n'abandonne
+pas !\e"
+MFG0170035,"\h(«Gilder»)En suivant mes conseils, tu accompliras des
+exploits dont tu n'as même pas rêvé……\e"
+MFG0170036,\h(«Vyse»)Merci……\e
+MFG0170037,"\h(«Clara»)Oh, Gilder !
+Où es-tu ?\e"
+MFG0170038,"\h(«Gilder»)Oh non !
+C'est Clara !\e"
+MFG0170039,"\h(«Gilder»)Désolé, Vyse…… Je ne peux pas discuter plus
+longtemps. Si elle m'attrape, je suis fichu !!\e"
+MFG0170040,"\h(«Gilder»)Adieu, Vyse.
+J'espère que l'on se reverra un jour……\e"
+MFG0170041,"\h(«Gilder»)D'habitude, je navigue en quête de distractions
+mais c'est en voyageant à tes côtés……\e"
+MFG0170042,"\h(«Gilder»)…… que je me suis le plus amusé.
+Continue comme ça, petit !\e"
+MFG0170043,"\h(«Vyse»)Merci pour tout, Gilder.\e"
+MFG0170044,"\h(«Clara»)Oh, Vyse !\e"
+MFG0170045,"\h(«Clara»)Hé, Vyse…… Pourquoi est-ce que Gilder est parti
+aussi vite ?\e"
+MFG0170046,"\h(«Vyse»)Uh, um……
+Il a dit qu'il…… um…… retournait sur le
+Claudia.\e"
+MFG0170047,"\h(«Clara»)Quoi ?!
+Bon, il faut que je le rattrape tout de suite !
+Il ne m'échappera pas aussi facilement.\e"
+MFG0170048,"\h(«Vyse»)…… Oh là là, bonne chance Gilder……\e"
+MFG0170049,"\h(«Vyse»)Je n'arrive pas à le croire. Je suis enfin
+Capitaine de mon propre navire. Et le Delphinus
+n'est pas n'importe quel navire !\e"
+MFG0170050,"\h(«Vyse»)Allez…… en route !!
+En avant toute vers l'Île Croissant !!!\e"
+MFG0170051,\h( )Gilder est parti.\e
+MFG0170052,\h( )Enrique vous a rejoint.\e
+MGG0170000,"\h(«Gilder»)He, Vyse. wenn du dich auf dem Schiff
+umgesehen hast, würde ich gern mit dir über
+etwas reden.\e"
+MGG0170001,"\h(«Was wirst du sagen?»)“Bin beschäftigt, lass uns später unterhalten?”
+“Bin fertig. Worüber wolltest du reden?”\e"
+MGG0170002,"\h(«Vyse»)Hmmm, ich habe mich noch nicht überall
+umgesehen……\e"
+MGG0170003,"\h(«Gilder»)He…… kein Problem.
+Wenn du soweit bist, können wir uns ja
+unterhalten.\e"
+MGG0170004,"\h(«Vyse»)Ich habe mehr oder weniger alles gesehen.
+Worüber wolltest du dich unterhalten?\e"
+MGG0170005,"\h(«Gilder»)Nun, also……\e"
+MGG0170006,"\h(«Gilder»)Ich hau ab. Ich kehre um und gehe an Bord
+der Claudia.\e"
+MGG0170007,\h(«Vyse»)Was?!\e
+MGG0170008,"\h(«Gilder»)Ich glaube, das ist meine einzige Chance,
+von Clara wegzukommen.\e"
+MGG0170009,"\h(«Gilder»)Ich bin noch nicht dazu bereit, mich
+endgültig festzulegen.\e"
+MGG0170010,"\h(«Vyse»)Aber klar doch. Ihr beiden gebt wirklich ein
+nettes Paar ab.\e"
+MGG0170011,\h(«Gilder»)Vyse! Darüber sollte man nicht scherzen!\e
+MGG0170012,"\h(«Vyse»)Hahaha…… ok, ok.
+Tut mir Leid, ich konnte nicht anders.\e"
+MGG0170013,"\h(«Vyse»)Aber ehrlich, wir alle werden dich vermissen.\e"
+MGG0170014,"\h(«Gilder»)Danke. Bevor ich gehe, möchte ich dir drei
+Ratschläge geben.\e"
+MGG0170015,"\h(«Gilder»)Als erstes……
+Du brauchst eine Mannschaft.\e"
+MGG0170016,\h(«Vyse»)Eine Mannschaft?\e
+MGG0170017,"\h(«Gilder»)Ja. Bei einem Schiff dieser Größe braucht man
+eine große Mannschaft, um bestimmte Aufgaben
+verteilen zu können.\e"
+MGG0170018,"\h(«Gilder»)Besorg dir einen guten Wachposten, einen Koch,
+einen Kanonier……\e"
+MGG0170019,"\h(«Gilder»)Ich bin sicher, es gibt genügend ausgebildete
+Matrosen, die sich dem Kampf gegen Valua
+anschließen möchten.\e"
+MGG0170020,"\h(«Gilder»)Wenn du jemanden triffst, der dir helfen kann,
+nimm ihn mit an Bord. Je mehr Mannschafts-
+mitglieder du hast, desto besser funktioniert
+dein Schiff.\e"
+MGG0170021,"\h(«Gilder»)Zweitens……
+Du brauchst einen Stützpunkt.\e"
+MGG0170022,"\h(«Gilder»)Du brauchst einen Platz, wo du dein Schiff
+reparieren kannst, deine Mannschaft braucht
+warme Betten und ab und zu warme Mahlzeiten.\e"
+MGG0170023,"\h(«Gilder»)Dein Vater hat seinen eigenen Stützpunkt,
+nicht wahr? Du sagtest, er befände sich auf
+Pirate Isle. Nun, du brauchst dein eigenes
+Hauptquartier.\e"
+MGG0170024,"\h(«Gilder»)Was ist mit dieser einsamen Insel, auf der
+ich dich gefunden habe? Nennt man sie nicht
+Cresent Isle……\e"
+MGG0170025,"\h(«Gilder»)Diese Insel würde sich gut eignen.
+Warum fährst du nicht dorthin zurück?\e"
+MGG0170026,"\h(«Gilder»)Und vor allen Dingen……
+Egal, was passiert, gib niemals auf.\e"
+MGG0170027,"\h(«Gilder»)Ich weiß nicht, ob es dir klar ist, aber du
+hast bereits viel vollbracht…… insbesondere für
+jemanden in deinem Alter.\e"
+MGG0170028,"\h(«Gilder»)Du bist aus dem Coliseum in Valua entflohen,
+hast den South Ocean überquert und Daccats
+Treasure gefunden……\e"
+MGG0170029,"\h(«Gilder»)……hast drei Admirale der Armada besiegt, zwei
+der Gigas aus dem Verkehr gezogen und bist
+aus der Grand Fortress entflohen……
+gleich zweimal.\e"
+MGG0170030,"\h(«Gilder»)Aus irgendeinem Grund scheinen dir alle zu
+folgen, mich eingeschlossen. Obwohl du ein
+bisschen verrückt bist.\e"
+MGG0170031,"\h(«Gilder»)Weißt du…… der Grund ist, egal, was passiert,
+du gibst nie auf. Wann immer sich dir jemand
+in den Weg stellt, du lässt dich nicht
+aufhalten.\e"
+MGG0170032,"\h(«Gilder»)Deine Mannschaft weiß, dass du stets alles in
+deiner Macht Stehende tust, um sie zu schützen.
+Das merkt man daran, wie sich dich ansehen.\e"
+MGG0170033,"\h(«Gilder»)……Und auf dieser Brücke - mit diesem Schiff -
+wirst du um die Welt segeln.\e"
+MGG0170034,"\h(«Gilder»)Du wirst wahrscheinlich in Situationen geraten,
+die zehnmal so gefährlich sind wie die, die du
+bereits hinter dich gebracht hast, aber egal,
+was passiert, gib nie auf!\e"
+MGG0170035,"\h(«Gilder»)Wenn du meinem Rat folgst, wirst du Taten
+vollbringen, von denen du nie zu träumen
+wagtest……\e"
+MGG0170036,\h(«Vyse»)Ich danke dir……\e
+MGG0170037,"\h(«Clara»)Oh, Gilder!
+Wo bist du?\e"
+MGG0170038,"\h(«Gilder»)O nein!
+Es ist Clara!\e"
+MGG0170039,"\h(«Gilder»)Tut mir Leid, Vyse…… ich kann nicht bleiben
+und schwatzen. Wenn sie mich kriegt,
+ist alles aus!!\e"
+MGG0170040,"\h(«Gilder»)Mach's gut, Vyse.
+Ich hoffe, man sieht sich bald wieder……\e"
+MGG0170041,"\h(«Gilder»)Normalerweise fahre ich nur so umher, um
+meinen Spaß zu haben, aber die Zeit, die
+ich mir dir verbracht habe……\e"
+MGG0170042,"\h(«Gilder»)……war bestimmt die lustigste, die ich je
+hatte. Weiter so, Junge!\e"
+MGG0170043,"\h(«Vyse»)Vielen Dank für alles, Gilder.\e"
+MGG0170044,"\h(«Clara»)Oh, Vyse!\e"
+MGG0170045,"\h(«Clara»)He, Vyse……
+Warum ist Gilder so schnell weggerannt?\e"
+MGG0170046,"\h(«Vyse»)Äh, em……
+Er sagte, dass er…… ähm…… zurück auf die
+Claudia gehen wollte.\e"
+MGG0170047,"\h(«Clara»)Was?!
+Ich muss ihn sofort einholen!
+So einfach kommt er mir nicht davon.\e"
+MGG0170048,"\h(«Vyse»)…… Tja, sieht so aus, als hätte Gilder mehr
+als ich Glück nötig……\e"
+MGG0170049,"\h(«Vyse»)Ich kann's nicht glauben. Ich bin endlich
+Captain meines eigenen Schiffes. Und die
+Delphinus ist nicht von schlechten Eltern!\e"
+MGG0170050,"\h(«Vyse»)Ok…… Gehen wir!!
+Volle Kraft voraus nach Crescent Isle!!!\e"
+MGG0170051,\h( )Gilder hat die Gruppe verlassen.\e
+MGG0170052,\h( )Enrique ist zur Gruppe gestoßen.\e
+MSG0170000,"\h(«Gilder»)Oye, Vyse. Si has terminado de registrar el
+barco, aquí hay algo que me gustaría discutir
+contigo.\e"
+MSG0170001,"\h(«¿Qué vas a decir?»)“¿Podemos hablar luego? No he terminado aún.”
+“He terminado. ¿Qué me querías decir?”\e"
+MSG0170002,"\h(«Vyse»)Bueno, en realidad no he terminado aún de
+registrar……\e"
+MSG0170003,"\h(«Gilder»)Eh…… no te agobies.
+Cuando hayas terminado, vuelve aquí y hablamos.\e"
+MSG0170004,"\h(«Vyse»)He visto casi todo lo que quería.
+¿De qué me querías hablar?\e"
+MSG0170005,"\h(«Gilder»)Bueno, la verdad……\e"
+MSG0170006,"\h(«Gilder»)Me marcho. Voy a regresar enseguida y
+encontrarme con La Claudia.\e"
+MSG0170007,\h(«Vyse»)¡¿Qué?!\e
+MSG0170008,"\h(«Gilder»)Creo que esta es mi última oportunidad para
+escapar de Clara.\e"
+MSG0170009,"\h(«Gilder»)Creo que aún no estoy preparado para sentar la
+cabeza.\e"
+MSG0170010,\h(«Vyse»)Claro que lo estás. Hacéis una pareja estupenda.\e
+MSG0170011,\h(«Gilder»)¡Vyse! ¡No digas eso ni en broma!\e
+MSG0170012,"\h(«Vyse»)Jajaja…… Vale, vale, vale.
+Perdona, no pude resistir la tentación.\e"
+MSG0170013,"\h(«Vyse»)Pero hablando en serio, todos te vamos a echar
+de menos.\e"
+MSG0170014,"\h(«Gilder»)Gracias. Pero antes de irme, tengo tres consejos
+que darte.\e"
+MSG0170015,"\h(«Gilder»)Primero……
+Vas a necesitar una tripulación.\e"
+MSG0170016,\h(«Vyse»)¿Una tripulación?\e
+MSG0170017,"\h(«Gilder»)Sí, con un barco de este tamaño vas a necesitar
+una gran tripulación que se encargue de todas
+las tareas.\e"
+MSG0170018,"\h(«Gilder»)Consigue un buen vigía, cocinero, armero……\e"
+MSG0170019,"\h(«Gilder»)Seguro que hay muchos marinos por ahí dispuestos
+a unirse a la lucha contra Valua.\e"
+MSG0170020,"\h(«Gilder»)Si te tropiezas con alguien que pueda servirte,
+te lo traes a bordo. Cuanto más grande sea tu
+tripulación, mejor funcionará tu navío.\e"
+MSG0170021,"\h(«Gilder»)Segundo……
+Vas a necesitar una base.\e"
+MSG0170022,"\h(«Gilder»)Necesitarás un sitio donde reparar tu navío, y
+tu tripulación necesitará sábanas limpias y
+comida caliente de vez en cuando.\e"
+MSG0170023,"\h(«Gilder»)Tu padre tiene su propia base, ¿no?
+En la Isla del Pirata, dijiste. Tú también
+necesitarás tu propio cuartel general.\e"
+MSG0170024,"\h(«Gilder»)¿Qué pasó con la isla desierta donde nos vimos
+por primera vez? Creo que se llama Isla de la
+Luna……\e"
+MSG0170025,"\h(«Gilder»)Esa isla parece que está bien.
+¿Por qué no regresáis allí?\e"
+MSG0170026,"\h(«Gilder»)Y sobre todo……
+pase lo que pase, no te rindas nunca.\e"
+MSG0170027,"\h(«Gilder»)No sé si te has dado cuenta, pero has llegado
+muy lejos…… sobre todo para alguien de tu edad.\e"
+MSG0170028,"\h(«Gilder»)Has escapado del Coliseo de Valua, cruzado el
+Océano Sur, encontrado el Tesoro de Daccat……\e"
+MSG0170029,"\h(«Gilder»)Derrotado a tres Almirantes de la Armada,
+anulado dos Gigas y escapado de la Gran
+Fortaleza…… dos veces.\e"
+MSG0170030,"\h(«Gilder»)Por algún motivo, todos parecen seguirte,
+incluido yo. A pesar de que estás un poco loco.\e"
+MSG0170031,"\h(«Gilder»)Y eso es…… es porque no importa lo que pase, no
+te rindes. No dejas que nada se interponga en tu
+camino.\e"
+MSG0170032,"\h(«Gilder»)Tu tripulación sabe que harías lo que fuera para
+protegerlos.
+Lo sé por la forma en que te miran todos.\e"
+MSG0170033,"\h(«Gilder»)…… Y sobre este puente de mando, con este navío
+vas a navegar por el mundo entero.\e"
+MSG0170034,"\h(«Gilder»)¡Es probable que te veas en situaciones mucho
+más peligrosas que las que ya has vivido, pero,
+pase lo que pase, no te rindas!\e"
+MSG0170035,"\h(«Gilder»)Si sigues mi consejo, conseguirás cosas que ni
+siquiera has soñado……\e"
+MSG0170036,\h(«Vyse»)Gracias……\e
+MSG0170037,"\h(«Clara»)¡Oh, Gilder!
+¿Dónde estás?\e"
+MSG0170038,"\h(«Gilder»)¡Oh, no!
+¡Ahí está Clara!\e"
+MSG0170039,"\h(«Gilder»)Lo siento, Vyse…… No puedo quedarme a charlar.
+¡¡Si me coge se acabó todo!!\e"
+MSG0170040,"\h(«Gilder»)Hasta luego, Vyse.
+Espero volver a verte algún día……\e"
+MSG0170041,"\h(«Gilder»)Normalmente navego por diversión, pero la
+experiencia que he tenido navegando contigo……\e"
+MSG0170042,"\h(«Gilder»)…… ha sido la más divertida que he tenido nunca.
+¡Sigue así, chico!\e"
+MSG0170043,"\h(«Vyse»)Gracias por todo, Gilder.\e"
+MSG0170044,"\h(«Clara»)¡Oh, Vyse!\e"
+MSG0170045,"\h(«Clara»)Oye, Vyse……
+¿Por qué se fue Gilder huyendo con tanta prisa?\e"
+MSG0170046,"\h(«Vyse»)Esto……
+Dijo que tenía que…… um…… volver con la Claudia.\e"
+MSG0170047,"\h(«Clara»)¡¿Qué?!
+¡Tengo que alcanzarle como sea!
+No conseguirá escaparse tan fácilmente.\e"
+MSG0170048,"\h(«Vyse»)…… Bueno, por lo visto Gilder va a necesitar más
+suerte que yo……\e"
+MSG0170049,"\h(«Vyse»)No puedo creerlo. Por fin soy capitán de mi
+propio navío. ¡Y el Delphinus no es un navío
+cualquiera!\e"
+MSG0170050,"\h(«Vyse»)Muy bien…… ¡¡Vamos!!
+¡¡¡A toda velocidad hacia la Isla de la Luna!!!\e"
+MSG0170051,\h( )Gilder ha dejado el grupo.\e
+MSG0170052,\h( )Enrique se ha unido al grupo.\e
+warp_000,"\h(《どうする？》)「かじを取る」
+「もう少し船内をまわる」
+「運転をたのむ」\e"
+warp_001,"\h(《ロレンス》)わかった。
+どこへ行く？\c"
+warp_002,"\h(《どこへ行く？》)空賊島
+船乗り島
+他へ\e"
+warp_003,"\h(《どこへ行く？》)マランバ
+ナスラード
+他へ\e"
+warp_004,"\h(《どこへ行く？》)ホルテカ
+ヤフトマー
+他へ\e"
+warp_005,"\h(《どこへ行く？》)エスペランザ
+本拠地
+やめる\e"
+warp_007,"\h(《どこへ行く？》)わかった。
+超特急でいくから、
+しっかりつかまってろ。\e"
+warp_008,"\h(《どこへ行く？》)都市
+ダンジョン
+その他\e"
+warp_009,"\h(《どこへ行く？》)神殿島
+ピュラミス神殿
+他へ\e"
+warp_010,"\h(《どこへ行く？》)月Ж石鉱山
+ドラド
+他へ\e"
+warp_011,"\h(《どこへ行く？》)宝島
+サルガッソー
+他へ\e"
+warp_012,"\h(《どこへ行く？》)氷の遺跡
+タルタスの穴
+他へ\e"
+warp_013,"\h(《どこへ行く？》)ダングラール基地
+コアルーム
+やめる\e"
+warp_014,"\h(《どこへ行く？》)ハマチョウ島
+リュウカンの島
+他へ\e"
+warp_015,"\h(《どこへ行く？》)テンコウ島
+ドブラレストラン
+他へ\e"
+warp_016,"\h(《どこへ行く？》)アルキュミスの島
+王の小屋
+やめる\e"
+warp_017,"\h(《ドン》)了解、ヴァイス船長！
+どこへ行くんだ？\c"
+Ms034a008,"\h(«Vyse»)It's the emblem of the Valuan royal family.
+Heh… I think it's time to cover it up with the
+flag of the Blue Rogues!\c"
+Ms034a009,"\h(«Vyse»)It's the flag that I designed…
+I always wondered if I'd ever get to be the
+captain of my own ship since I was a kid…\c"
+Ms034a010,"\h(«Vyse»)This is our new flag. Heh… Leave it to Aika to
+design a flag like this.\c"
+Ms034a011,"\h(«Vyse»)This is our new flag. Fina's just makes me think
+of flying freely through the skies… It's a
+refreshing feeling.\c"
+Ms034a012,"\h(«Vyse»)This is where Marco snuck aboard the Delphinus.
+Heh… Maybe that kid is cut out to be an Air
+Pirate after all…\c"
+Ms034a013,"\h(«Vyse»)This is the captain's chair. I guess that means
+it's mine… I'd rather be at the helm, though. I
+wouldn't feel right just sitting here.\c"
+Ms034a014,"\h(«Vyse»)They sure didn't spare any expenses building
+this thing. All of the gauges are brand new.
+Well, it WAS meant for the prince, I suppose…\c"
+Ms034a015,"\h(«Giler»)Hey, Vyse… Before we set sail, there was
+something that I wanted to talk to you about.\c"
+Ms034a016,"\h(«Vyse»)Well… I suppose it's about time
+we set sail again…\e"
+Ms034a017,"\h(«What will you do?»)“Take the wheel.”
+“Look around the ship some more.”\e"
+Ms034a018,"\h(«Vyse»)Alright!
+Delphinus, full speed ahead!\c"
+Ms034a019,"\h(«Vyse»)Actually, now that I think about it, there
+were a few more things I wanted to take care
+of first…\c"
+Ms034a020,"\h(«What will you do?»)“Take the wheel.”
+“Look around the ship some more.”\c"
+Ms034a021,"\h(«Vyse»)It's too dangerous to try and maneuver while
+the enemy's ship is latched onto ours…
+I need to get out on deck first!\c"
+MFs034a008,"\h(«Vyse»)C'est l'emblème de la famille royale Valuanne.
+Hé…… Je crois qu'il est temps de le recouvrir
+du drapeau des Voleurs Bleus !\c"
+MFs034a009,"\h(«Vyse»)C'est le drapeau que j'ai conçu……
+Depuis que je suis petit, je me suis toujours
+demandé si je deviendrais un jour le capitaine
+de mon navire……\c"
+MFs034a010,"\h(«Vyse»)Voici notre nouveau drapeau. Hé…… Seule Aika
+peut imaginer un tel drapeau.\c"
+MFs034a011,"\h(«Vyse»)Voici notre nouveau drapeau. Celui de Fina me
+fait rêver: voler dans les airs, librement……
+C'est un sentiment très agréable.\c"
+MFs034a012,"\h(«Vyse»)C'est ici que Marco s'est faufilé à bord du
+Delphinus.
+Hé…… Peut-être que ce gamin est fait pour
+devenir Pirate de l'Air, après tout……\c"
+MFs034a013,"\h(«Vyse»)Voici le siège du capitaine. C'est donc le
+mien…… Mais je préfère tout de même tenir la
+barre. Je n'aime pas simplement être assis ici.\c"
+MFs034a014,"\h(«Vyse»)Ils ont vraiment sorti le grand jeu pour
+construire cet engin. Toutes les jauges sont
+neuves. Je pense qu'il ÉTAIT destiné au prince.\c"
+MFs034a015,"\h(«Gilder»)Hé, Vyse…… Avant de lever les voiles, je dois te
+parler de quelque chose.\c"
+MFs034a016,"\h(«Vyse»)Eh bien, je pense qu'il est temps de lever les
+voiles……\e"
+MFs034a017,"\h(«Que ferez-vous ?»)“Vous prendrez la barre.”
+“Vous vérifierez le navire encore une fois.”\e"
+MFs034a018,"\h(«Vyse»)C'est parti !
+Delphinus, levez les voiles !\c"
+MFs034a019,"\h(«Vyse»)En fait, maintenant que j'y pense, il y a
+d'autres choses que je voulais vérifier……\c"
+MFs034a020,"\h(«Que ferez-vous ?»)“Vous prendrez la barre.”
+“Vous vérifierez le navire encore une fois.”\e"
+MFs034a021,"\h(ｫVyseｻ)Il est dangereux d'essayer de man忖vrer le
+navire lorsqu'il est pris d'assaut par un
+vaisseau ennemi. Je dois aller sur le pont !\c"
+MGs034a008,"\h(«Vyse»)Es ist das Emblem der valuanischen
+Königsfamilie. Heh…… Ich finde, es wird Zeit,
+sie gegen die Flagge der Blue Rogues
+zu tauschen!\c"
+MGs034a009,"\h(«Vyse»)Es ist die Flagge, die ich entworfen habe……
+Seitdem ich ein Kind war, habe ich mich gefragt,
+ob ich jemals Kapitän meines eigenen Schiffes
+werden würde……\c"
+MGs034a010,"\h(«Vyse»)Das ist unsere neue Flagge. Heh……
+Überlass es Aika, eine Flagge wie diese
+zu entwerfen.\c"
+MGs034a011,"\h(«Vyse»)Das ist unsere neue Flagge. Finas
+gibt mir das Gefühl, frei durch die Lüfte zu
+segeln……. Ein erfrischendes Gefühl.\c"
+MGs034a012,"\h(«Vyse»)Hier hat sich Marco auf die Delphinus
+geschlichen. Heh…… Vielleicht ist
+der Junge wirklich aus dem Holz eines
+Luftpiraten geschnitten……\c"
+MGs034a013,"\h(«Vyse»)Das ist der Sitz des Kapitäns. Schätze,
+dann ist es wohl meiner…… Ich wäre ja
+lieber am Steuer. Ist irgendwie nicht in
+Ordnung, einfach hier rumzusitzen.\c"
+MGs034a014,"\h(«Vyse»)Die haben wirklich keine Kosten gescheut,
+dies Ding zu bauen. Die ganzen Messgeräte
+sind nagelneu. Nun ja, es WAR für den
+Prinzen gedacht, schätz ich……\c"
+MGs034a015,"\h(«Gilder»)Hey, Vyse…… Bevor wir die Segel
+setzen, möchte ich mit dir über etwas
+sprechen.\c"
+MGs034a016,"\h(«Vyse»)Nun ja…… Schätze, es wird Zeit,
+dass wir wieder Segel setzen……\e"
+MGs034a017,"\h(«Was wirst du tun?»)“Das Steuer nehmen.”
+“Dich noch weiter auf dem Schiff umschauen.”\e"
+MGs034a018,"\h(«Vyse»)In Ordnung!
+Delphinus, volle Fahrt voraus!\c"
+MGs034a019,"\h(«Vyse»)Eigentlich, wenn ich so drüber
+nachdenke, gibt es noch ein paar Sachen,
+um die ich mich erst noch kümmern möchte……\c"
+MGs034a020,"\h(«Was wirst du tun?»)“Das Steuer nehmen.”
+“Dich noch weiter auf dem Schiff umschauen.”\c"
+MGs034a021,"\h(«Vyse»)Es ist zu gefährlich, zu manövrieren,
+solange das feindliche Schiff
+an unserem festgemacht ist……
+Ich muss erst an Deck!\c"
+MSs034a008,"\h(«Vyse»)Es el emblema de la Familia Real de Valua.
+¡Creo que ha llegado el momento de cubrirlo
+con la bandera de los Bandidos Azules!\c"
+MSs034a009,"\h(«Vyse»)Es la bandera que yo diseñé…… Siempre
+me he preguntado si alguna vez llegaría
+a ser capitán de mi propio navío……\c"
+MSs034a010,"\h(«Vyse»)Ésta es nuestra nueva bandera.
+Deja que Aika diseñe una bandera como ésta.\c"
+MSs034a011,"\h(«Vyse»)Ésta es nuestra nueva bandera.
+Fina me hace pensar en volar libres por el
+cielo. Es un sentimiento refrescante.\c"
+MSs034a012,"\h(«Vyse»)Aquí se coló Marco en el Delphinus.
+Quizás ese chico tenga madera para
+ser Pirata Aéreo, después de todo……\c"
+MSs034a013,"\h(«Vyse»)Ésta es la silla del Capitán. Supongo que
+eso significa que es mía…… Aunque prefiero
+estar en el timón. No estaría cómodo aquí.\c"
+MSs034a014,"\h(«Vyse»)Sin duda no repararon en gastos.
+Todos los aparatos de medida son nuevos.
+Bueno, supongo que ERA para el príncipe……\c"
+MSs034a015,"\h(«Gilder»)Oye, Vyse……
+Antes de partir, quería hablarte de algo.\c"
+MSs034a016,"\h(«Vyse»)Bueno, supongo que es hora
+de que volvamos a zarpar.\c"
+MSs034a017,"\h(«¿Qué vas a hacer?»)“Tomar el timón.”
+“Dar otra vuelta por el navío.”\e"
+MSs034a018,"\h(«Vyse»)¡Bien!
+¡Adelante, Delphinus! ¡A toda marcha!\c"
+MSs034a019,"\h(«Vyse»)La verdad es que ahora que lo pienso,
+había unas cuantas cosas que quería revisar……\c"
+MSs034a020,"\h(«¿Qué vas a hacer?»)“Tomar el timón.”
+“Dar otra vuelta por el navío.”\e"
+MSs034a021,"\h(«Vyse»)Es demasiado peligroso intentar maniobrar
+cuando el navío enemigo está pegado al
+nuestro. ¡Tengo que ir a cubierta!\c"
+M00040000,"\h(«Pow»)Pow pow!
+Pow pow!\c"
+M01110000,"\h(«Lawrence»)You want to go to Crescent Isle, right?
+It's to the north of Nasr.
+Do you want to take the wheel?\e"
+M01110001,"\h(«Lawrence»)Esparanza is to the south of Nasr.
+Do you want to take the wheel now?\e"
+M01110002,"\h(«Lawrence»)There should be a calm spot somewhere in the
+Dark Rift… we should be able to get through
+there. Do you want to take the wheel now?\e"
+M01110003,"\h(«Lawrence»)If we continue to the northeast from here, we
+should reach Yafutoma… Do you want to take the
+wheel?\e"
+M01110004,"\h(«Lawrence»)I'll take it from here.
+You better hurry up and get on deck.\c"
+M01110005,"\h(«Lawrence»)You want to head to the Land of Ice, right?
+I believe it's south of South Ocean.
+Do you want to take the wheel?\e"
+M01110006,"\h(«Lawrence»)You want to go beneath Valua?
+Sure… do you want to take the wheel?\e"
+M01110007,"\h(«Lawrence»)You want to go to Dangral Island? It's beneath 
+the clouds to the southwest of Sailors' Island, 
+right? Do you want to take the wheel then?\e"
+M01110008,"\h(«Lawrence»)Beneath the Great Cloud Sea by the vortex near 
+Shrine Island, right?
+Do you want to take the wheel?\e"
+M01110009,"\h(«Lawrence»)Go to Sailors' Island?
+Do you want to take the wheel?\e"
+M01110010,"\h(«Lawrence»)We have to go to the island that appeared in
+Mid Ocean, right? Do you want to take the wheel 
+now?\e"
+M01110011,"\h(«What will you do?»)“Take the wheel.”
+“Look around the ship some more.”\e"
+M01110012,"\h(«Lawrence»)Alright. Here, take the wheel.\c"
+M01110013,\h(«Lawrence»)I see.\c
+M01110014,"\h(«Lawrence»)If I had known how big this job was going to be,
+I would've asked for more than 10,000 gold…\e"
+M01110015,"\h(«Lawrence»)So, do you want to take the wheel?\e"
+M01110016,"\h(«What will you do?»)“Take the wheel.”
+“Look around the ship some more.”\e"
+M01110017,"\h(«Lawrence»)Alright, I leave the ship in your hands, 
+Captain Vyse.\c"
+M01110018,"\h(«Lawrence»)Very well then. I will continue flying the ship
+for now. You should probably go around and talk
+to the rest of the crew.\c"
+M01140002,"\h(«Pinta»)Esparanza was a rather prosperous city…
+Until Valua abandoned it.\e"
+M01140003,"\h(«Pinta»)Since then, all trade with Esparanza stopped. 
+The place is full of rusted metal and sailors 
+who've lost all hope.\c"
+M01140004,"\h(«Pinta»)When Esparanza was at its peak, there were
+travelers coming from all over, tempting fate,
+trying to pass through the Dark Rift.\e"
+M01140005,"\h(«Pinta»)And I've heard that there were plenty of thieves
+and crooked merchants that gathered there, as
+well, to prey upon the optimistic sailors.\c"
+M01140006,"\h(«Pinta»)We made it through the Dark Rift! I can search 
+for items in this part of the world now, too!\c"
+M01140007,"\h(«Pinta»)In Valua, there was once a scholar that claimed 
+the world was round. However, he was shunned as 
+a lunatic by some, and a heretic by others.\c"
+M01140008,"\h(«Pinta»)So, in order to prove his theory, the scholar 
+set out to sail around the world… but he was 
+killed in the Dark Rift.\c"
+M01140009,"\h(«Pinta»)I've heard that the Nasultan sends a personal
+retainer to the Lands of Ice once a year to
+bring back as much ice as he can.\e"
+M01140010,"\h(«Pinta»)Having ice in Nasr is the ultimate luxury. Only 
+the Nasultan himself is rich enough to actually
+enjoy it… and that's only once a year.\c"
+M01140011,"\h(«Pinta»)The temple at the Maw of Tartas is probably the
+biggest mystery in all of Valua.\e"
+M01140012,"\h(«Pinta»)There are stories of earthquakes on that part of
+the island. But if the island is floating, what
+is causing it to shake?\c"
+M01140013,"\h(«Pinta»)I've heard stories that Valua is building some 
+sort of elevator to reach below the Great Cloud 
+Sea.\e"
+M01140014,"\h(«Pinta»)However, nobody knows where that elevator 
+actually stops… or how deep it actually goes.\c"
+M01140015,"\h(«Pinta»)People say all sorts of things about the world
+under the clouds. Some say it's the land of the
+dead, others say that it's a land of pure gold.\e"
+M01140016,"\h(«Pinta»)But, nobody has actually ever seen Deep Sky 
+before. It's all a big mystery.\c"
+M01140017,"\h(«Pinta»)The Valuans promised a reward for anyone who 
+could find Enrique and safely take him back… 
+Valuan Bounty Hunters were searching for him.\e"
+M01140018,"\h(«Pinta»)But, nobody expected him to come back of his own
+accord. The Bounty Hunters were upset, to say
+the least.\c"
+M01140019,"\h(«Pinta»)So, there really is a shrine far above the sky?\e"
+M01140020,"\h(«Pinta»)Heh… Not even I knew about that. I'd really
+like to see it once with my own eyes!\c"
+M01140021,"\h(«Pinta»)I can't believe that an island actually rose up 
+from beneath the clouds!\c"
+M01140022,"\h(«Pinta»)Vyse, if you win this fight and make it home 
+safely…\e"
+M01140023,"\h(«Pinta»)I will spread tales of your adventures! Everyone
+will know of Vyse, the Air Pirate equalled only
+by Daccat, himself!\c"
+M01140024,"\h(«Pinta»)Enemies are trying to board us?! Oh no!
+We need to prepare for battle!\c"
+M05100000,"\h(«Hans»)This ship is amazing!
+The sheer power required just to propel it must 
+be astronomical!\c"
+M05100001,"\h(«Hans»)Wow… the exterior of the Delphinus is so
+durable that you could probably fly right
+through stone reefs or even through glaciers!\c"
+M05100002,"\h(«Hans»)That ship… That was Drachma's Little Jack, 
+right?\e"
+M05100003,"\h(«Hans»)My father was saying that even though the ship
+is old, it is well loved and well taken care of.
+He said it was a very good ship.\c"
+M05100004,"\h(«Hans»)Vyse, let's explore everywhere we can! Now that 
+we can go to high and low altitudes, we should 
+take as much advantage of it as possible!\e"
+M05100005,"\h(«Hans»)I really can't wait to see how the newly 
+upgraded Delphinus will perform!\c"
+M05100006,"\h(«Hans»)You got a hold of the Valuan schematics for the
+new engine? Wow, I'd really like to take a look
+at those!\c"
+M05100007,"\h(«Hans»)I can't wait to see what lies beneath the Great
+Cloud Sea! Let's hurry up and test the
+submerging capabilities of the Delphinus!\c"
+M05100008,"\h(«Hans»)It's a little disheartening to think that once
+we return, Enrique will be leaving us to go back
+to Valua…\c"
+M05100009,"\h(«Hans»)So, Fina's ship can reach great altitudes, 
+right? I wonder what kind of engine it uses…\c"
+M05100010,"\h(«Hans»)I wonder how much power was required to raise
+Soltis out of Deep Sky.\c"
+M05100011,"\h(«Hans»)There was a bright light that came from that 
+island! I wonder what the source of the light 
+was…\c"
+M05100012,"\h(«Hans»)The Delphinus is completely repaired! Let's go, 
+Captain Vyse!\c"
+M07060000,"\h(«Don»)We should probably head back to Crescent Isle.
+Do you want to take the wheel?\e"
+M07060001,"\h(«Don»)Hmm… The Land of Ice should be a little farther
+south than South Ocean. Do you want to take the
+wheel now?\e"
+M07060002,"\h(«Don»)We were supposed to head over to Valua and check
+out what's beneath it, right? Maybe you should
+take the wheel now…\e"
+M07060003,"\h(«Don»)Dangral Island should be beneath the clouds to 
+the southwest of Sailors' Island. You want to
+take the wheel now?\e"
+M07060004,"\h(«Don»)The vortex that will take us into Deep Sky is
+near Shrine Island, right? That means it should
+be somewhere in Mid Ocean.\e"
+M07060005,"\h(«Don»)Sailors' Island is in Mid Ocean, right? So, 
+Captain… do you want to take the wheel now?\e"
+M07060006,"\h(«Don»)You mean we're going to that island that 
+appeared in Mid Ocean? Oh man… 
+I've got a bad feeling about this…\e"
+M07060007,"\h(«Don»)Well, then. I'll be relaxing downstairs in the 
+mess hall. I leave the ship in your hands, Vyse.\c"
+M07060008,"\h(«Don»)Heh… Well, I guess that means I can fly the
+ship for a little while longer.\c"
+M07060009,"\h(«Don»)We're going to fly into that island, right? Do
+you want to take the wheel then, Captain Vyse?\c"
+M07060010,"\h(«What will you do?»)“Take the wheel.”
+“Look around the ship a little longer.”\e"
+M07060011,"\h(«Don»)Alright then. Good luck, Captain!\c"
+M07060012,"\h(«Don»)Alright, I'll take care of the ship for now. Go
+down and talk with the rest of the crew then.\c"
+M08070000,"\h(«Moegi»)I… I don't know much about sailing, or even the
+world outside of Yafutoma…\e"
+M08070001,"\h(«Moegi»)… but I promise that I will try my hardest to 
+help everyone as much as I can.\c"
+M08070002,"\h(«Moegi»)A land totally covered in ice…
+I never would have imagined that places like 
+that actually existed.\c"
+M08070003,"\h(«Moegi»)Prince Enrique told me about the man named 
+Drachma.\e"
+M08070004,"\h(«Moegi»)He has been through so much. I hope he will find
+peace.\c"
+M08070005,"\h(«Moegi»)Although, I know we're not actually going inside
+the city of Valua, I still feel nervous… for 
+Enrique.\c"
+M08070006,"\h(«Moegi»)Vyse, you've gathered all of the Moon Crystals! 
+Congratulations!\e"
+M08070007,"\h(«Moegi»)I am worried about Fina… she doesn't look too 
+well. Perhaps she is just tired.\c"
+M08070008,"\h(«Moegi»)Ever since we returned from Dangral Island, 
+Enrique has been so quiet… I hope that he 
+is okay…\c"
+M08070009,"\h(«Moegi»)Vyse… I, I know that I am a member of this crew
+and my loyalties lie with you but…\e"
+M08070010,"\h(«Moegi»)… there is a part of me that wishes we never 
+reach Sailors' Island. I have a feeling that 
+something bad is going to happen to Enrique.\c"
+M08070011,"\h(«Moegi»)Prince Enrique is fighting bravely on his own in
+Valua… I, too, must fight and do my best to
+help!\c"
+M08070012,"\h(«Moegi»)That island that rose up from beneath the clouds
+… something is… strange about it. I sense a 
+great power coming from the island…\c"
+M08070013,"\h(«Moegi»)I, I thought I heard Prince Enrique calling out
+just now. I'm sorry, it must be my imagination…
+I feel terrible…\e"
+M08070014,\h(«Moegi»)Vyse… I know something bad has happened…\c
+M08070015,"\h(«Moegi»)Let us carry on, Vyse!
+I may not be very strong, but I will do my best 
+to help fight!\c"
+M08070016,"\h(«Brabham»)That Yafutoman book is amazing! I can't believe 
+how advanced they are!\e"
+M08070023,"\h(«Brabham»)I'll be an expert on this stuff by the time we 
+get back from the Land of Ice.\c"
+M08070017,"\h(«Brabham»)Now, with the engine specs that I learned from 
+the Yafutomans, we can fly all over the damn 
+place!\c"
+M08070018,"\h(«Brabham»)Hmm… Enrique looks upset. Back in my day, we 
+used to pick up on the ladies… They go crazy 
+for sailors! That'd cheer us right up! Yessiree!\c"
+M08070019,"\h(«Brabham»)Building that Great Cloud Sea Engine was the
+hardest thing I've done in a long time! My back
+still hurts from all of that hard labor!\e"
+M08070020,"\h(«Brabham»)I never thought I'd see an engine that powerful 
+in my life… You'd never guess that I'm 147.\c"
+M08070021,\h(«Brabham»)That crazy island… it came from Deep Sky!\c
+M08070022,"\h(«Brabham»)The Delphinus is running better than ever! 
+I love this ship! Ain't it a beaut?\c"
+Mp0010003,"\h(«Aika»)This is great, huh Vyse? We can finally make it 
+through the sky rifts!\c"
+Mp0010004,"\h(«Aika»)I can't believe it! I know there's so much to 
+see out there!\c"
+Mp0010005,"\h(«Aika»)So, we're trying to get through the Dark Rift,
+huh? I wonder what it's really like in there. As
+much as I hate to admit it, I'm kinda scared.\c"
+Mp0010006,"\h(«Aika»)Vyse, you did it!
+We made it through the Dark Rift!\e"
+Mp0010007,"\h(«Aika»)Now we can see what kind of place Yafutoma 
+really is! I hope they don't try to eat us with
+sticks. Fina better hide Cupil… \e"
+Mp0010008,"\h(«Aika»)Vyse! The enemy's preparing to board us! We need
+you on deck fast!\c"
+Mp0010009,"\h(«Aika»)The Tenkou, huh?
+I guess that even Yafutoma has a little Air 
+Pirate problem of their own…\c"
+Mp0010010,"\h(«Aika»)If we continue due east from here and we reach 
+Crescent Isle, that would only mean one thing…\e"
+Mp0010011,"\h(«Aika»)…that the edges of the world are connected!
+But, then I suppose they wouldn't really be the
+edges of the world…\c"
+Mp0010012,"\h(«Aika»)The whole island is frozen! Hehe… one Vysicle 
+coming right up! You'd better be careful, 
+I didn't bring a chisel.\c"
+Mp0010013,"\h(«Aika»)Cap'n Drachma…
+I hope he's going to be okay… \c"
+Mp0010014,"\h(«Aika»)Well, since we can reach high and low altitudes 
+now, we'll be able to go just about anywhere!\c"
+Mp0010015,"\h(«Aika»)We've collected all of the Moon Crystals!
+Let's hurry up and get back to Crescent Isle!\c"
+Mp0010016,"\h(«Aika»)Dangral Island, huh…
+It should be beneath the clouds southwest 
+of Sailors' Island…\c"
+Mp0010017,"\h(«Aika»)I feel so bad for Enrique. He must feel awful. 
+I think we should leave him alone for a while.\e"
+Mp0010018,"\h(«Aika»)We should be able to go down into Deep Sky 
+through the vortex near Shrine Island. Let's go,
+Vyse!\c"
+Mp0010019,"\h(«Aika»)I guess we have to say our good-byes to Enrique
+once we get back to Sailors' Island… I hate
+good-byes…\e"
+Mp0010020,"\h(«Aika»)If we don't stop Galcian, who knows what'll
+happen! Vyse, we have to hurry and get to 
+Dangral Island!\c"
+Mp0010021,"\h(«Aika»)Who would've guessed that there used to be an
+island that big in Mid Ocean… And right next to
+our very own Pirate Isle…\c"
+Mp0010022,"\h(«Aika»)Vyse…
+We should return to Crescent Isle soon.\e"
+Mp0010023,"\h(«Aika»)I hate to admit it, but… I don't think we can
+do anything against that island right now.\c"
+Mp0010024,"\h(«Aika»)Well, I guess it's time to settle this.
+I'd be lying if I said I wasn't scared…\e"
+Mp0010025,"\h(«Aika»)But, when I look at how great of a captain
+you've become, Vyse, I feel better. Look at how
+many people have come to follow you into battle!\e"
+Mp0010026,"\h(«Aika»)They all believe in you… they all trust you… 
+just like I do. We have to win, right? Captain 
+Vyse?\c"
+Mp0020002,"\h(«Fina»)The city of Esparanza…
+We should head there first. It is located on the
+southern tip of Nasr.\c"
+Mp0020003,"\h(«Fina»)If we can get through the Dark Rift, the country
+of Yafutoma should be on the other side.\c"
+Mp0020004,"\h(«Fina»)We've finally made it to the skies of the Blue
+Moon… The lands of Yafutoma should be close
+by…\c"
+Mp0020005,"\h(«Fina»)Vyse! It's too dangerous to go out on deck 
+without being prepared for battle!\c"
+Mp0020006,"\h(«Fina»)It's so strange…
+I am a Silvite. I was born and raised in the 
+Great Silver Shrine…\e"
+Mp0020007,"\h(«Fina»)But, somehow, I feel more at home on Crescent 
+Isle than any place else…\c"
+Mp0020008,"\h(«Fina»)The Land of Ice…
+Somewhere, buried beneath all that ice, lies the
+Purple Crystal, I hope we can find it…\c"
+Mp0020009,"\h(«Fina»)Vyse…
+Let us return to Crescent Isle.\c"
+Mp0020010,"\h(«Fina»)I never thought we could enter Valua through 
+the Maw of Tartas…\c"
+Mp0020011,"\h(«Fina»)At last, we have the fifth Crystal!\e"
+Mp0020012,"\h(«Fina»)If we can find the blueprints for that Valuan 
+ship on Dangral Island, we could make our way 
+into Deep Sky and search for my ship…\c"
+Mp0020013,"\h(«Fina»)Enrique… He's been so quiet lately. I am a 
+little concerned about him…\c"
+Mp0020014,\h(«Fina»)I was attacked by Valua near Pirate Isle…\e
+Mp0020015,"\h(«Fina»)My ship must be somewhere in Deep Sky around 
+there.\c"
+Mp0020016,"\h(«Fina»)Enrique will at last be able to return to his 
+homeland…\c"
+Mp0020017,"\h(«Fina»)Ramirez… we must stop him!
+We must hurry to Dangral Island!\c"
+Mp0020018,\h(«Fina»)Ramirez… I wonder what he's doing on Soltis!\e
+Mp0020019,"\h(«Fina»)…!!
+No… he, he wouldn't…\c"
+Mp0020020,"\h(«Fina»)Why, Vyse… Why?\c"
+Mp0020021,"\h(«Fina»)Vyse, let's go!
+We've got to go to Soltis!\e"
+Mp0020022,"\h(«Fina»)I will fight with you!
+Ramirez must be stopped.\c"
+Ma0040000,\h(«Pow»)Pow! Pow! Pow!\e
+Ma1110000,\h(«Lawrence»)Do you want to take the wheel?\e
+Ma1110001,"\h(«What will you do?»)“Take the wheel.”
+“Look around the ship some more.”\e"
+Ma1110002,"\h(«Lawrence»)Alright, I leave the ship in your hands then.\c"
+Ma1110003,\h(«Lawrence»)I see. Very well then.\c
+Ma1110004,"\h(«Lawrence»)I've been chased all over by all sorts of
+ships… But I've never been chased into Deep Sky
+before. Heh… First time for everything I guess.\e"
+Ma1110005,"\h(«What will you do?»)“Take the wheel.”
+“Look around the ship some more.”\e"
+Ma1110006,"\h(«Lawrence»)Visibility is bad right now. Just be careful 
+where you fly.\c"
+Ma1110007,\h(«Lawrence»)I see. Very well then.\c
+Ma1140000,"\h(«Pinta»)The remains of so many ships are down here. It's
+kind of scary when you think about it.\c"
+Ma1140001,"\h(«Pinta»)Many adventurers have tried to travel through 
+Valua by going through the cracks and fissures 
+beneath it.\e"
+Ma1140002,"\h(«Pinta»)But their ships couldn't fly low enough to reach
+the entrance.\c"
+Ma1140003,"\h(«Pinta»)I'm happy to have been one of the chosen few to
+see Deep Sky…\e"
+Ma1140004,"\h(«Pinta»)But, my one regret is that it was not aboard my
+own ship. I suppose you can't have everything…\c"
+Ma2000000,"\h(«Marco»)This place gives me the creeps… Let's hurry up
+and finish what we came here to do so we can get
+out!\c"
+Ma2000001,"\h(«Marco»)The city I used to live in is above us right
+now. I never thought I'd get out of there…\c"
+Ma2000002,"\h(«Marco»)Brabham told me that the reason why we have to
+keep the shutters closed while we're down here
+is so we don't see the ghosts outside…\e"
+Ma2000003,\h(«Marco»)I wonder if there really are ghosts down here…\c
+Ma5100000,"\h(«Hans»)This ship is probably the first ship to ever 
+make it through the Maw of Tartas. That's quite 
+an accomplishment in itself.\c"
+Ma5100001,"\h(«Hans»)The engine checks out okay. It's so amazing that
+someone actually built a ship of this power and
+magnitude! I'm definitely impressed…\c"
+Ma5100002,"\h(«Hans»)So, this is the infamous Dark Rift that's
+claimed so many lives… And the Delphinus
+doesn't even sway in the winds… Amazing…\c"
+Ma5210000,"\h(«Tikatika»)There are too many rocks. This place is ugly. 
+Maybe that's why Valuans think so many ugly 
+thoughts.\c"
+Ma5210001,"\h(«Tikatika»)I can't see much. But I sense some very bad 
+things here.\c"
+Ma5210002,"\h(«Tikatika»)There are a lot of sunken ships down here. I 
+wonder if there's a lot of treasure…\c"
+Ma7060000,"\h(«Don»)It's so hard to see down here… It's almost 
+impossible to tell where we're going. 
+Huh? Did you want to take the wheel, Captain?\e"
+Ma7060001,"\h(«What will you do?»)“Take the wheel.”
+“Look around the ship some more.”\e"
+Ma7060002,"\h(«Don»)Alright. Just make sure not to run into anything
+and you should be fine.\c"
+Ma7060003,"\h(«Don»)Oh well… I guess that means I have to stay here
+and keep us alive. Back to work, back to work…\c"
+Ma7060004,"\h(«Don»)Visibility is horrible, we don't know where
+we're going, and you're still making me fly this
+thing!! Hurry up and take the wheel, will ya?\e"
+Ma7060005,"\h(«What will you do?»)“Take the wheel.”
+“Look around the ship some more.”\e"
+Ma7060006,"\h(«Don»)Thank the Moons! I can finally relax. Just be
+careful and don't get us all killed, okay,
+Captain?\c"
+Ma7060007,"\h(«Don»)What?! Oh, alright… I'll try to keep us alive 
+for a little while longer, I guess.\c"
+Ma7060008,"\h(«Don»)So, this is what the Dark Rift looks like from 
+the inside… So many of my friends met their 
+fate here… Maybe you should take the wheel…\e"
+Ma7060009,"\h(«What will you do?»)“Take the wheel.”
+“Look around the ship some more.”\e"
+Ma7060010,"\h(«Don»)Thank you, Vyse. I'll be down in the galley. 
+This is a little hard for me to deal with…\c"
+Ma7060011,"\h(«Don»)Alright, Captain… I'll try my best.\c"
+Ma8070000,"\h(«Moegi»)It's hard to believe that we are under Prince 
+Enrique's homeland right now.\c"
+Ma8070001,"\h(«Moegi»)In Yafutoma, there are tales of demons that live
+beneath the clouds and eat bad children.\e"
+Ma8070002,"\h(«Moegi»)But looking at how dark the world is down here,
+I can almost believe those children's stories…\c"
+Ma8070003,"\h(«Moegi»)This storm… I believe you called it the Dark 
+Rift… It is what kept Yafutoma separated from
+the rest of the world…\c"
+Ma4000000,"\h(«Brabham»)This is probably the only ship in the whole 
+world that can survive the trip into Deep Sky.\e"
+Ma4000001,"\h(«Brabham»)And just think! The Delphinus is the first ship
+to enter the Maw of Tartas, too!!\c"
+Ma4000002,"\h(«Brabham»)The engine checks out okay! We're still holding
+up strong!\c"
+Ma4000003,"\h(«Brabham»)The Dark Rift shouldn't be a problem for the 
+Delphinus. We should be able to fly straight 
+through!\c"
+Ma4050000,"\h(«Domingo»)When I think of the fact that not even the 
+Valuans themselves have seen the inside of the 
+Maw of Tartas…\e"
+Ma4050001,"\h(«Domingo»)… it makes even the walls of this place look… 
+valuable, for some reason. Wouldn't you agree, 
+Vyse?\c"
+Ma4050002,"\h(«Domingo»)Take a look around, Vyse…
+Nobody has ever set foot in this place before…
+Think about it, we're actually in Deep Sky…\e"
+Ma4050003,"\h(«Domingo»)It sort of brings a little color to this 
+otherwise drab place, doesn't it? Just think of 
+all the sunken treasure that's down here…\c"
+Ma4050004,"\h(«Domingo»)There's quite a few sunken ships down here. I 
+wonder how many of those ships are Air Pirate 
+ships…\e"
+Ma4050005,"\h(«Domingo»)Heh… It sort of makes one want to go out and 
+search the wreckage for treasure, doesn't it?\c"
+Ma4060000,"\h(«Ilchymis»)So, this is the Maw of Tartas, huh?
+Heh… I bet the other scientists of Valua would 
+worship me if they knew I was actually in here…\c"
+Ma4060001,"\h(«Ilchymis»)This place is amazing… The raw energy that 
+is brewing in this place is… magnificent.\c"
+Ma4060002,"\h(«Ilchymis»)So… this is the infamous Dark Rift. So many 
+people have lost their lives in these winds…\c"
+Maa010000,"\h(«Aika»)Wow… Look at all of those sunken ships. There 
+are probably a lot of ghosts roaming around 
+outside… Vyse! Let's get out of here soon!\c"
+Maa010001,"\h(«Aika»)If we can make our way through all of these 
+crevices, then we should be able to reach the 
+area beneath the Great Seal, right?\c"
+Maa010002,"\h(«Aika»)We have to find Fina's ship.
+When something shows up on the sonar, you have 
+to use the claw to try and get it, okay?\c"
+Maa010003,"\h(«Aika»)Wow… That thing sure was tough. Let's hurry up 
+and find Fina's ship so we can get back to 
+Crescent Isle!\c"
+Maa010004,"\h(«Aika»)This place sure gives me the creeps… No matter 
+how many times we come here. Can we go home now,
+Vyse?\c"
+Maa010005,"\h(«Aika»)The air down here even looks like it's hard to 
+breathe… But, I have to admit that it's kinda 
+interesting down here, though.\c"
+Maa020000,"\h(«Fina»)If we can safely get through the Dark Rift, the
+country of Yafutoma should be somewhere on the
+other side.\c"
+Maa020001,"\h(«Fina»)It… it saddens me to think of all the brave
+sailors that lost their lives in this maelstrom.\c"
+Maa020002,"\h(«Fina»)The Yellow Gigas sleeps somewhere in the Maw of 
+Tartas…\e"
+Maa020003,"\h(«Fina»)If the stories are correct, the Yellow Crystal 
+will be embedded into the body of the Yellow 
+Gigas. We must use extreme caution…\c"
+Maa020004,"\h(«Fina»)It feels a little strange to be flying inside 
+the actual island of Valua, doesn't it?\c"
+Maa020005,"\h(«Fina»)This… this place is amazing.
+I wonder if we'll really be able to find my ship
+down here…\c"
+Maa020006,"\h(«Fina»)This place frightens me, no matter how many 
+times we come here…\c"
+Maa040000,"\h(«Enrique»)Ungh… The ship is rocking… so much…
+Please don't bother me right now… I… I feel 
+rather ill.\c"
+Maa040001,"\h(«Enrique»)The Armada couldn't even make it through the
+Dark Rift, and here we are…\c"
+Maa040002,"\h(«Enrique»)I never dreamed that I would actually be flying 
+inside the lands of Valua…\e"
+Maa040003,"\h(«Enrique»)I would never have seen sights such as this had 
+I remained cooped up in the palace…\c"
+Maa040004,"\h(«Enrique»)The view is amazing… I never imagined that a 
+world such as this existed beneath the clouds.\e"
+Maa040005,"\h(«Enrique»)What is the Armada trying to accomplish by 
+building ships that can travel down here? I 
+wonder what Galcian is up to…\c"
+Maa040006,"\h(«Enrique»)Soon, the battle will be over. We must defeat 
+Ramirez and bring peace back to the people of 
+this world!\c"
+Maa040007,"\h(«Enrique»)Vyse, take me with you. Let me go with you into 
+Soltis.\e"
+Maa040008,"\h(«Will you take Enrique with you?»)“Of course, Enrique.”
+“Sorry, but we need you here.”\e"
+Maa040009,"\h(«Vyse»)Of course, Enrique.
+It would be an honor for you to join us.\e"
+Maa040010,"\h(«Enrique»)Thank you, Vyse!
+I'll fight to the best of my ability! I will not
+let you down…\e"
+Maa040011,\h( )Enrique has joined your party.\c
+Maa040012,"\h(«Enrique»)I see.
+Well, if you change your mind, just let me know.
+I am ready to fight at a moment's notice.\c"
+Mg0040000,"\h(«Pow»)Pow pow!
+Pow pow!\c"
+Mg1110000,"\h(«Lawrence»)You want to go to Crescent Isle, right?
+Hmm… to the north of Nasr?
+Do you want to take the wheel?\e"
+Mg1110001,"\h(«What will you do?»)“Take the wheel.”
+“Look around a bit more.”\e"
+Mg1110002,\h(«Lawrence»)Very well. I will leave everything to you.\c
+Mg1110003,"\h(«Lawrence»)Very well. I will man the helm for a little
+while longer.\c"
+Mg1140000,"\h(«Pinta»)Prince Enrique's ship was to be the strongest 
+boat in the entire Valuan Armada! It was made 
+using Valua's newest alloys and technologies!\e"
+Mg1140001,"\h(«Pinta»)And not only did you manage to steal the ship, 
+Vyse, you also managed to steal the prince away 
+from Valua! You've become quite famous!\c"
+Mg2000000,"\h(«Vyse»)What's this?
+Is something in here?\e"
+Mg2000001,"\h(«Marco»)\eYawn\eOh man, it feels so good to finally get out of 
+there.\e"
+Mg2000002,"\h(«Marco»)Heh… Long time no see, Vyse!\e"
+Mg2000003,"\h(«Vyse»)Marco!
+What are you doing here?!\e"
+Mg2000004,"\h(«Marco»)I heard that the prince's ship was finished and 
+was being prepared for departure.\e"
+Mg2000005,"\h(«Marco»)So, I snuck on board and I was planning on 
+escaping Valua in it.\e"
+Mg2000006,"\h(«Marco»)Well, I'd heard that the prince was a really 
+nice guy, so I figured he wouldn't kill me for 
+trying to escape. Well, at least not right away.\e"
+Mg2000007,"\h(«Marco»)But I never would've thought that you, of all
+people, would get your hands on this ship! At
+least now I don't have to go looking for you!\e"
+Mg2000008,"\h(«Marco»)I'm gonna travel along with you whether you like
+it or not. But don't worry… I'll stay outta
+your way, okay?\e"
+Mg2000009,"\h(«Vyse»)Heh… You're pretty pushy there, kid. Ah, why 
+not… I'll make you my first crew member!\e"
+Mg2000010,\h( )Marco has joined your crew as a “Sailor.”\c
+Mgg050000,"\h(«Gilder»)Hey, Vyse.
+I don't know where it's coming from, but I keep 
+hearing this strange noise up here…\e"
+Mgg050001,"\h(«Gilder»)I've looked around, but couldn't find where it
+was coming from. Maybe you'll have better luck.
+Oh, and when you're done, I need to talk to you.\c"
+Mgg050002,"\h(«Gilder»)Hey there, Vyse. Have you finished looking 
+around the ship? There's something that I need 
+to talk to you about.\e"
+Mgg050003,"\h(«What do you say?»)“Actually, I'm not quite finished yet.”
+“I've pretty much seen everything I wanted to.”\e"
+Mgg050004,"\h(«Vyse»)Actually, I'm not quite finished looking around 
+yet…\e"
+Mgg050005,"\h(«Gilder»)That's no problem. Just take your time. But, 
+when you're finished, I still need to talk to 
+you, okay?\e"
+Mgg050006,"\h(«Vyse»)I've pretty much seen everything that I wanted 
+to. What did you want to talk to me about?\e"
+Mgg050007,"\h(«Gilder»)Well, actually…\e"
+Mgg010000,"\h(«Aika»)This Crescent Isle that we're heading towards is
+the island that you were stranded on, right? I
+can't wait to see what it looks like!\e"
+Mgg010001,"\h(«Aika»)But, I still can't believe it… We're actually 
+going to have our own headquarters! Just like 
+Pirate Isle! Is this exciting or what?!\e"
+Mgg010002,"\h(«Aika»)We should just concentrate on saving up 100,000 
+gold. Having a base is more important than 
+getting the Crystals right away!\c"
+Mgg020000,"\h(«Fina»)Haha… I've been curious as to what sort of 
+island you were stranded on.\c"
+Mgg020001,"\h(«Fina»)We should try and save up some money so that 
+Brabham can make the necessary modifications to 
+this ship. It shouldn't take that long…\c"
+MF00040000,"\h(«Pow»)Pow pow !
+Pow pow !\c"
+MF01110000,"\h(«Lawrence»)Vous voulez aller sur l'Île Croissant, n'est-ce
+pas ? C'est au nord de Nasr.
+Voulez-vous prendre la barre ?\e"
+MF01110001,"\h(«Lawrence»)Esperanza est au sud de Nasr.
+Voulez-vous prendre la barre maintenant ?\e"
+MF01110002,"\h(«Lawrence»)Il devrait y avoir un endroit plus calme dans le
+Récif Noir…… Nous devrions pouvoir passer par
+là-bas. Voulez-vous prendre la barre
+maintenant ?\e"
+MF01110003,"\h(«Lawrence»)Si nous continuons en direction du nord-est,
+nous devrions atteindre Yafutoma…… Voulez-vous
+prendre la barre ?\e"
+MF01110004,"\h(«Lawrence»)Je prends la relève.
+Vous feriez mieux de vous dépêcher de remonter
+sur le pont.\c"
+MF01110005,"\h(«Lawrence»)Vous voulez aller au Pays des Glaces, n'est-ce
+pas ? Je crois que c'est au sud de l'Océan Sud.
+Voulez-vous prendre la barre ?\e"
+MF01110006,"\h(«Lawrence»)Vous voulez aller sous Valua ? Pas de problème……
+Voulez-vous prendre la barre ?\e"
+MF01110007,"\h(«Lawrence»)Vous voulez aller sur l'Île Dangral ? Elle se
+trouve sous les nuages au sud-ouest de l'Île des
+Marins, n'est-ce pas ? Alors voulez-vous prendre
+la barre ?\e"
+MF01110008,"\h(«Lawrence»)Sous le Grand Océan de Nuages, à côté du vortex,
+près de l'Île du Temple, n'est-ce pas ?
+Voulez-vous prendre la barre ?\e"
+MF01110009,"\h(«Lawrence»)Aller sur l'Île des Marins ?
+Voulez-vous prendre la barre ?\e"
+MF01110010,"\h(«Lawrence»)Nous devons aller sur l'île qui est apparue dans
+l'Océan Central, n'est-ce pas ? Voulez-vous
+prendre la barre maintenant ?\e"
+MF01110011,"\h(«Que ferez-vous ?»)“vous prendrez la barre.”
+“Vous inspecterez un peu plus le navire.”\e"
+MF01110012,\h(«Lawrence»)Très bien. Prenez la barre.\c
+MF01110013,\h(«Lawrence»)Je vois.\c
+MF01110014,"\h(«Lawrence»)Si j'avais su qu'il y aurait autant de travail,
+j'aurais demandé plus de 10 000 pièces d'or……\e"
+MF01110015,"\h(«Lawrence»)Alors, voulez-vous prendre la barre ?\e"
+MF01110016,"\h(«Que ferez-vous ?»)“vous prendrez la barre.”
+“Vous inspecterez un peu plus le navire.”\e"
+MF01110017,"\h(«Lawrence»)Très bien, vous êtes maître à bord,
+Capitaine Vyse.\c"
+MF01110018,"\h(«Lawrence»)Entendu. Je vais rester à la barre pour le
+moment. Vous devriez aller parler aux autres
+membres de l'équipage.\c"
+MF01140002,"\h(«Pinta»)Jadis, Esperanza était une ville très prospère……
+Jusqu'à ce que Valua l'abandonne.\e"
+MF01140003,"\h(«Pinta»)Depuis ce temps-là, tout commerce avec Esperanza
+a cessé. Il ne reste plus que des vieux morceaux
+de ferraille et des marins qui ont perdu tout
+espoir.\c"
+MF01140004,"\h(«Pinta»)Quand Esperanza était à son apogée, les
+voyageurs affluaient de partout, tentant le
+destin, essayant de traverser le Récif Noir.\e"
+MF01140005,"\h(«Pinta»)Et on raconte qu'un tas de voleurs et d'escrocs
+s'y retrouvaient aussi pour s'attaquer aux
+marins optimistes.\c"
+MF01140006,"\h(«Pinta»)Nous avons réussi à traverser le Récif Noir !
+Je peux chercher des objets ici aussi
+maintenant !\c"
+MF01140007,"\h(«Pinta»)Jadis à Valua, vivait un savant qui disait que
+le monde était rond. Cependant, certains le
+considéraient comme un fou, et d'autres comme un
+hérétique.\c"
+MF01140008,"\h(«Pinta»)Donc, pour prouver sa théorie, le savant est
+parti naviguer autour du monde…… mais il a péri
+dans le Récif Noir.\c"
+MF01140009,"\h(«Pinta»)J'ai entendu dire que le Nasultan envoie une
+fois par an un serviteur aux Pays des Glaces
+pour rapporter autant de glace que possible.\e"
+MF01140010,"\h(«Pinta»)C'est un luxe à Nasr d'avoir de la glace. Seul
+le Nasultan est assez riche pour en profiter……
+et ce une seule fois par an.\c"
+MF01140011,"\h(«Pinta»)Le temple des Bouches de Tartas est probablement
+le plus grand mystère de tout Valua.\e"
+MF01140012,"\h(«Pinta»)On raconte qu'il y a des tremblements de terre
+par là-bas. Mais si c'est une île flottante,
+qu'est-ce qui la fait trembler ?\c"
+MF01140013,"\h(«Pinta»)On raconte que Valua est en train de construire
+une sorte d'ascenseur sous le Grand Océan de
+Nuages.\e"
+MF01140014,"\h(«Pinta»)Cependant, personne ne sait où cet ascenseur
+s'arrête…… ou à quelle profondeur il va.\c"
+MF01140015,"\h(«Pinta»)les gens racontent plein d'histoires au sujet du
+monde sous les nuages. Certains disent que c'est
+le pays des morts, d'autres disent que c'est un
+pays en or pur.\e"
+MF01140016,"\h(«Pinta»)Mais, personne n'a jamais vu les Profondeurs.
+C'est tout un mystère.\c"
+MF01140017,"\h(«Pinta»)Les Valuans ont promis une récompense pour celui
+ou celle qui trouvera Enrique et le ramènera
+sain et sauf…… Les chasseurs de prime Valuans le
+cherchaient.\e"
+MF01140018,"\h(«Pinta»)Mais, personne ne s'attendait à ce qu'il
+revienne de son plein gré. Les chasseurs de
+prime étaient en colère, c'est le moins qu'on
+puisse dire.\c"
+MF01140019,"\h(«Pinta»)Alors, il existe vraiment un temple haut, très
+haut dans le ciel ?\e"
+MF01140020,"\h(«Pinta»)Hé…… Même moi je ne le savais pas. J'aimerais
+bien le voir au moins une fois de mes propres
+yeux !\c"
+MF01140021,"\h(«Pinta»)Je n'arrive pas à croire qu'une île ait pu
+surgir de sous les nuages !\c"
+MF01140022,"\h(«Pinta»)Vyse, si vous gagnez cette bataille et revenez
+en un seul morceau……\e"
+MF01140023,"\h(«Pinta»)Je raconterai vos aventures partout où j'irai !
+Tout le monde connaîtra Vyse, le Pirate de l'Air
+égalé uniquement par Daccat, en personne !\c"
+MF01140024,"\h(«Pinta»)Des ennemis essaient d'aborder ?! Oh non !
+Il faut nous préparer à la bataille !\c"
+MF05100000,"\h(«Hans»)Ce navire est incroyable !
+La puissance nécessaire pour le propulser doit
+être astronomique !\c"
+MF05100001,"\h(«Hans»)Oh là là…… la coque du Delphinus est tellement
+solide que vous pourriez sûrement traverser des
+récifs de pierre ou même des glaciers !\c"
+MF05100002,"\h(«Hans»)Ce navire…… c'était bien le Little Jack de
+Drachma ?\e"
+MF05100003,"\h(«Hans»)Mon père disait que malgré l'ancienneté du
+navire, il est aimé et bien entretenu. Il disait
+que c'était un très bon navire.\c"
+MF05100004,"\h(«Hans»)Vyse, explorons tous les pays que nous n'avons
+pas vus ! Maintenant que nous pouvons aller
+aussi bas et aussi haut, nous devrions en
+profiter autant que possible !\e"
+MF05100005,"\h(«Hans»)Il me tarde vraiment de voir les performances du
+nouveau Delphinus !\c"
+MF05100006,"\h(«Hans»)Vous avez trouvé les plans Valuans du nouveau
+moteur ? Oh là là, j'aimerais bien les voir !\c"
+MF05100007,"\h(«Hans»)Il me tarde de voir ce qu'il y a sous le Grand
+Océan de Nuages ! Dépêchons-nous de tester les
+capacités de submersion du Delphinus !\c"
+MF05100008,"\h(«Hans»)C'est un peu désolant de penser qu'à notre
+retour, Enrique va nous quitter pour rejoindre
+Valua……\c"
+MF05100009,"\h(«Hans»)Alors, le navire de Fina peut monter à très
+haute altitude, n'est-ce pas ? Je me demande
+quel moteur il a……\c"
+MF05100010,"\h(«Hans»)Je me demande s'il a fallu beaucoup de puissance
+pour sortir Soltis des Profondeurs.\c"
+MF05100011,"\h(«Hans»)Une lumière vive émanait de cette île !
+Je me demande d'où venait cette lumière……\c"
+MF05100012,"\h(«Hans»)Le Delphinus est entièrement réparé !
+Allons-y, Capitaine Vyse !\c"
+MF07060000,"\h(«Don»)Nous devrions probablement retourner sur l'Île
+Croissant. Voulez-vous prendre la barre ?\e"
+MF07060001,"\h(«Don»)Humm…… Le Pays des Glaces devrait se trouver un
+peu plus au sud de l'Océan Sud. Voulez-vous
+prendre la barre maintenant ?\e"
+MF07060002,"\h(«Don»)Nous devions aller à Valua pour voir ce qu'il y
+a dessous, n'est-ce pas ? Vous devriez peut-être
+prendre la barre maintenant……\e"
+MF07060003,"\h(«Don»)L'Île Dangral devrait se trouver sous les
+nuages. Vous voulez prendre la barre
+maintenant ?\e"
+MF07060004,"\h(«Don»)Le vortex qui nous permettra d'aller dans les
+Profondeurs est près de l'Île au Temple, n'est-
+ce pas ? Ce qui veut dire qu'il devrait se
+trouver dans l'Océan Central.\e"
+MF07060005,"\h(«Don»)L'Île des Marins est dans l'Océan Central,
+n'est-ce pas ? Alors, Capitaine…… Voulez-vous
+prendre la barre maintenant ?\e"
+MF07060006,"\h(«Don»)Vous voulez dire que nous allons sur cette île
+qui est apparue dans l'Océan Central ? Oh mon
+Dieu…… J'ai un mauvais pressentiment……\e"
+MF07060007,"\h(«Don»)Bon. Je vais aller me détendre dans le carré.
+Vous êtes maître à bord, Vyse.\c"
+MF07060008,"\h(«Don»)Alors cela veut dire que je peux continuer à
+naviguer le navire encore un peu.\c"
+MF07060009,"\h(«Don»)Nous allons naviguer sur cette île, n'est-ce
+pas ? Alors voulez-vous prendre la barre,
+Capitaine Vyse ?\c"
+MF07060010,"\h(«Que ferez-vous ?»)“vous prendrez la barre.”
+“Vous inspecterez un peu plus le navire.”\e"
+MF07060011,"\h(«Don»)D'accord. Bonne chance, Capitaine !\c"
+MF07060012,"\h(«Don»)D'accord, je m'en occupe maintenant.
+Descendez discuter avec les autres membres de
+l'équipage.\c"
+MF08070000,"\h(«Moegi»)Je…… je ne suis pas experte en navigation, et je
+ne connais pas bien le monde en dehors de
+Yafutoma……\e"
+MF08070001,"\h(«Moegi»)…… mais je promets de faire de mon mieux pour
+aider les gens.\c"
+MF08070002,"\h(«Moegi»)Un pays complètement recouvert de glace……
+Je n'aurais jamais cru qu'il existait des
+endroits pareils.\c"
+MF08070003,"\h(«Moegi»)Le Prince Enrique m'a parlé d'un certain
+Drachma.\e"
+MF08070004,"\h(«Moegi»)Il en a vu de toutes les couleurs.
+J'espère qu'il trouvera enfin la paix.\c"
+MF08070005,"\h(«Moegi»)Bien que je sache que nous n'entrerons pas dans
+la ville de Valua, je suis encore nerveuse……
+pour Enrique.\c"
+MF08070006,"\h(«Moegi»)Vyse, vous avez retrouvé tous les Cristaux de
+Lune ! Félicitations !\e"
+MF08070007,"\h(«Moegi»)Je m'inquiète pour Fina…… Elle n'a pas l'air en
+forme. Ce n'est peut-être que de la fatigue.\c"
+MF08070008,"\h(«Moegi»)Depuis notre retour de l'Île Dangral,
+Enrique est bien silencieux…… j'espère que tout
+va bien……\c"
+MF08070009,"\h(«Moegi»)Vyse…… Je, je sais que je suis membre de cet
+équipage et que je vous dois loyauté mais……\e"
+MF08070010,"\h(«Moegi»)…… mais quelque part j'aurais préféré ne jamais
+atteindre l'Île des Marins. J'ai un mauvais
+pressentiment au sujet d'Enrique.\c"
+MF08070011,"\h(«Moegi»)Le Prince Enrique se bat seul et avec courage à
+Valua…… Moi aussi, je dois me battre et faire
+de mon mieux pour vous aider !\c"
+MF08070012,"\h(«Moegi»)Cette île qui a surgi de sous les nuages…… elle
+est…… bizarre. Je perçois une grande
+force sur cette île……\c"
+MF08070013,"\h(«Moegi»)J'ai, j'ai cru entendre le Prince Enrique
+appeler à l'aide. Je suis désolée, ce doit être
+mon imagination…… Je ne me sens pas bien……\e"
+MF08070014,\h(«Moegi»)Vyse…… Je sais qu'il est arrivé un malheur……\c
+MF08070015,"\h(«Moegi»)Continuons, Vyse !
+Je ne suis peut-être pas très forte, mais je me
+battrai de mon mieux pour vous aider !\c"
+MF08070016,"\h(«Brabham»)Ce livre Yafutoman est incroyable ! Je n'arrive
+pas à croire qu'ils soient aussi avancés !\e"
+MF08070023,"\h(«Brabham»)Je serai devenu un expert en la matière à notre
+retour du Pays des Glaces.\c"
+MF08070017,"\h(«Brabham»)Bon, avec les techniques de moteur que les
+Yafutomans m'ont apprises, nous pouvons voler
+partout !\c"
+MF08070018,"\h(«Brabham»)Humm…… Enrique a l'air inquiet. De mon temps, on
+faisait la cour aux dames…… Elles raffolent des
+marins ! Cela nous mettait du baume au coeur !
+Oui mon Capitaine !\c"
+MF08070019,"\h(«Brabham»)Je n'avais pas construit quelque chose d'aussi
+difficile que ce moteur du Grand Océan de Nuages
+depuis longtemps ! J'en ai encore mal au dos
+d'avoir travaillé aussi dur !\e"
+MF08070020,"\h(«Brabham»)Je n'aurais pas cru voir un moteur aussi
+puissant de mon vivant…… Qui croirait que j'ai
+147 ans ?\c"
+MF08070021,"\h(«Brabham»)Cette île démente…… elle est sortie des
+Profondeurs !\c"
+MF08070022,"\h(«Brabham»)Le Delphinus fonctionne à merveille !
+J'adore ce navire ! N'est-il pas beau ?!\c"
+MFp0010003,"\h(«Aika»)C'est formidable, hein Vyse ? Nous pouvons enfin
+traverser les récifs célestes !\c"
+MFp0010004,"\h(«Aika»)Je n'arrive pas à le croire ! Je sais qu'il y a
+tant à voir !\c"
+MFp0010005,"\h(«Aika»)Alors, nous essayons de traverser le Récif Noir,
+hein ? Je me demande comment cela se présente à
+l'intérieur. Je dois avouer que j'ai un
+peu peur.\c"
+MFp0010006,"\h(«Aika»)Vyse, tu as réussi !
+Nous avons réussi à traverser le Récif Noir !\e"
+MFp0010007,"\h(«Aika»)Maintenant nous pouvons voir à quoi ressemble
+vraiment Yafutoma  ! J'espère qu'ils ne vont pas
+essayer de nous manger avec des baguettes. Il
+vaudrait mieux que Fina cache Cupil……\e"
+MFp0010008,"\h(«Aika»)Vyse ! L'ennemi se prépare à nous aborder ! Nous
+avons besoin de toi sur le pont, vite !\c"
+MFp0010009,"\h(«Aika»)Les Tenkous, hein ?
+Je suppose que même Yafutoma a un petit problème
+avec les Pirates de l'Air……\c"
+MFp0010010,"\h(«Aika»)Si nous continuons vers l'est et nous atteignons
+l'Île Croissant, cela voudrait dire que……\e"
+MFp0010011,"\h(«Aika»)……que les deux bouts du monde se rejoignent !
+Mais, dans ce cas ce ne serait pas vraiment des
+bouts……\c"
+MFp0010012,"\h(«Aika»)L'île toute entière est gelée ! Héhé…… Chaud
+devant, un Vysicle ! Tu devrais faire attention,
+je n'ai pas apporté de burin.\c"
+MFp0010013,"\h(«Aika»)Capitaine Drachma……
+J'espère qu'il ne lui est rien arrivé……\c"
+MFp0010014,"\h(«Aika»)Bon, puisque nous pouvons aller en haute et
+basse altitudes, nous pourrons aller presque
+partout !\c"
+MFp0010015,"\h(«Aika»)Nous avons retrouvé tous les Cristaux de Lune !
+Dépêchons-nous de revenir sur l'Île
+Croissant !\c"
+MFp0010016,"\h(«Aika»)L'Île Dangral, hein……
+Elle devrait être sous les nuages au sud-ouest
+de l'Île des Marins……\c"
+MFp0010017,"\h(«Aika»)Je suis triste pour Enrique. Ce doit être
+terrible pour lui. Je crois qu'il faudrait le
+laisser un peu seul.\e"
+MFp0010018,"\h(«Aika»)On devrait pouvoir descendre dans Les
+Profondeurs par le Vortex près de l'Île au
+Temple. Allons-y, Vyse !\c"
+MFp0010019,"\h(«Aika»)Cela veut dire qu'il faudra dire au revoir à
+Enrique à notre retour sur l'Île des Marins…… Je
+déteste les adieux……\e"
+MFp0010020,"\h(«Aika»)Si nous n'arrêtons pas Galcian, qui sait ce
+qu'il se passera ! Vyse, il faut se dépêcher de
+retourner sur l'Île Dangral !\c"
+MFp0010021,"\h(«Aika»)Qui aurait cru qu'il existait une île aussi
+grande dans l'Océan Central…… Et juste à côté de
+notre Île des Pirates……\c"
+MFp0010022,"\h(«Aika»)Vyse……
+Nous devrions vite rentrer sur l'Île Croissant.\e"
+MFp0010023,"\h(«Aika»)Je n'aime pas l'avouer, mais…… je crois que nous
+ne pouvons rien contre cette île pour le
+moment.\c"
+MFp0010024,"\h(«Aika»)Bon, je crois que c'est le moment de régler ça.
+Je mentirais si je disais que je n'ai pas
+peur……\e"
+MFp0010025,"\h(«Aika»)Mais, cela me rassure de voir que tu es devenu
+un grand capitaine, Vyse. Regarde combien de
+gens sont venus se battre à tes côtés !\e"
+MFp0010026,"\h(«Aika»)Ils ont tous confiance en toi…… Ils te font tous
+confiance…… comme moi. Nous devons absolument
+gagner, n'est-ce pas ? Capitaine Vyse ?\c"
+MFp0020002,"\h(«Fina»)La ville d'Esperanza……
+Nous devrions y aller en premier. Elle est
+située à la pointe sud de Nasr.\c"
+MFp0020003,"\h(«Fina»)Si nous pouvons traverser le Récif Noir, le pays
+de Yafutoma devrait se trouver de l'autre
+côté.\c"
+MFp0020004,"\h(«Fina»)Nous sommes enfin arrivés dans les cieux de la
+Lune Bleue…… Les terres de Yafutoma ne devraient
+plus être loin……\c"
+MFp0020005,"\h(«Fina»)Vyse ! C'est trop dangereux d'aller sur le pont
+sans être préparé à la bataille !\c"
+MFp0020006,"\h(«Fina»)C'est bizarre……
+Je suis une Silvite. Je suis née et j'ai grandi
+dans le Grand Temple Argent……\e"
+MFp0020007,"\h(«Fina»)Mais, je ne sais pas pourquoi, je me sens plus
+chez moi sur l'Île Croissant que nulle part
+ailleurs……\c"
+MFp0020008,"\h(«Fina»)Le Pays des Glaces……
+Quelque part enseveli sous toute cette glace, se
+trouve le Cristal Mauve, j'espère que nous
+pourrons le trouver……\c"
+MFp0020009,"\h(«Fina»)Vyse……
+Retournons sur l'Île Croissant.\c"
+MFp0020010,"\h(«Fina»)Je n'aurais jamais cru que nous entrerions dans
+Valua par la Bouche de Tartas……\c"
+MFp0020011,\h(«Fina»)Nous avons enfin le cinquième Cristal !\e
+MFp0020012,"\h(«Fina»)Si je peux trouver les plans de ce navire Valuan
+sur l'Île Dangral, nous pourrions aller chercher
+mon navire dans les Profondeurs……\c"
+MFp0020013,"\h(«Fina»)Enrique…… Il ne parle guère ces temps-ci.
+Je suis un peu inquiète à son sujet……\c"
+MFp0020014,"\h(«Fina»)J'ai été attaquée par Valua près de l'Île des
+Pirates……\e"
+MFp0020015,"\h(«Fina»)Mon navire doit se trouver dans les environs
+des Profondeurs .\c"
+MFp0020016,"\h(«Fina»)Enrique pourra enfin retourner dans son pays
+natal……\c"
+MFp0020017,"\h(«Fina»)Ramirez…… nous devons l'arrêter !
+Nous devons vite aller sur l'Île Dangral !\c"
+MFp0020018,"\h(«Fina»)Ramirez…… Je me demande ce qu'il fait sur
+Soltis !\e"
+MFp0020019,"\h(«Fina»)……!!
+Non…… il, il ne ferait pas cela……\c"
+MFp0020020,"\h(«Fina»)Pourquoi, Vyse…… Pourquoi ?\c"
+MFp0020021,"\h(«Fina»)Vyse, allons-y !
+Nous devons aller sur Soltis !\e"
+MFp0020022,"\h(«Fina»)Je me battrai à vos côtés !
+Il faut arrêter Ramirez.\c"
+MFa0040000,\h(«Pow»)Pow ! Pow ! Pow !\e
+MFa1110000,\h(«Lawrence»)Voulez-vous prendre la barre ?\e
+MFa1110001,"\h(«Que ferez-vous ?»)“Vous prendrez la barre.”
+“Vous inspecterez un peu plus le navire.”\e"
+MFa1110002,"\h(«Lawrence»)D'accord, alors vous êtes maître à bord.\c"
+MFa1110003,\h(«Lawrence»)Je vois. Très bien.\c
+MFa1110004,"\h(«Lawrence»)Toutes sortes de navires m'ont pourchassé…… Mais
+ils ne m'ont jamais poursuivi dans les
+Profondeurs. Hé…… Il y a toujours une première
+fois j'imagine.\e"
+MFa1110005,"\h(«Que ferez-vous ?»)“Vous prendrez la barre.”
+“Vous inspecterez un peu plus le navire.”\e"
+MFa1110006,"\h(«Lawrence»)La visibilité est presque nulle.
+Faites attention où vous voler.\c"
+MFa1110007,\h(«Lawrence»)Je vois. Très bien.\c
+MFa1140000,"\h(«Pinta»)Il y a un tas d'épaves par ici.
+Cela fait peur quand on y pense.\c"
+MFa1140001,"\h(«Pinta»)Nombreux sont les aventuriers qui ont essayé de
+traverser Valua en passant par les crevasses et
+les fissures sous l'île.\e"
+MFa1140002,"\h(«Pinta»)Mais leurs navires ne pouvaient pas voler assez
+bas pour atteindre l'entrée.\c"
+MFa1140003,"\h(«Pinta»)Je suis content d'être parmi les rares élus qui
+verront Les Profondeurs……\e"
+MFa1140004,"\h(«Pinta»)Mais, mon seul regret c'est de ne pas être à
+bord de mon propre navire. Je suppose que l'on
+ne peut pas tout avoir dans la vie……\c"
+MFa2000000,"\h(«Marco»)Cet endroit me donne la chair de poule……
+Dépêchons-nous de finir ce que nous sommes venus
+faire et de partir d'ici !\c"
+MFa2000001,"\h(«Marco»)La ville où j'habitais avant est juste au-dessus
+de nous. Je ne pensais pas en sortir un jour……\c"
+MFa2000002,"\h(«Marco»)Brabham m'a dit que nous devons fermer les
+volets pendant que nous sommes ici pour ne pas
+voir les fantômes dehors……\e"
+MFa2000003,"\h(«Marco»)Je me demande s'il y a vraiment des fantômes par
+ici……\c"
+MFa5100000,"\h(«Hans»)Ce navire est certainement le premier à
+traverser la Bouche de Tartas. C'est un vrai
+exploit.\c"
+MFa5100001,"\h(«Hans»)Le moteur fonctionne bien. C'est vraiment
+incroyable que quelqu'un ait construit un moteur
+d'une telle puissance et magnitude ! Je suis
+vraiment impressionné……\c"
+MFa5100002,"\h(«Hans»)Alors, voilà l'infâme Récif Noir où tant de gens
+ont péri…… Et le Delphinus n'oscille même pas
+dans le vent…… Incroyable……\c"
+MFa5210000,"\h(«Tikatika»)Il y a trop de rochers. Cet endroit est laid.
+Peut-être que c'est la raison pour laquelle les
+Valuans ont des pensées aussi cruelles.\c"
+MFa5210001,"\h(«Tikatika»)Je ne vois pas grand chose. Mais je perçois de
+mauvaises ondes par ici.\c"
+MFa5210002,"\h(«Tikatika»)Il y a beaucoup d'épaves par ici. Je me demande
+s'il y a aussi beaucoup de trésors……\c"
+MFa7060000,"\h(«Don»)C'est difficile de voir quoi que ce soit…… C'est
+quasiment impossible de voir où nous allons.
+Hein ? Vous vouliez prendre la barre,
+Capitaine ?\e"
+MFa7060001,"\h(«Que ferez-vous ?»)“Vous prendrez la barre.”
+“Vous inspecterez un peu plus le navire.”\e"
+MFa7060002,"\h(«Don»)D'accord. Surtout ne heurtez rien et tout se
+passera bien.\c"
+MFa7060003,"\h(«Don»)Oh bon…… Je suppose que cela veut dire que je
+dois rester ici pour nous garder en vie. Au
+travail, au travail……\c"
+MFa7060004,"\h(«Don»)La visibilité est presque nulle, nous ne savons
+pas où nous allons, et vous me laissez naviguer
+ce navire !! Dépêchez-vous de prendre la barre,
+OK ?\e"
+MFa7060005,"\h(«Que ferez-vous ?»)“Vous prendrez la barre.”
+“Vous inspecterez un peu plus le navire.”\e"
+MFa7060006,"\h(«Don»)Remerciez les Lunes ! Je peux enfin me détendre.
+Faites attention de ne pas nous faire tuer, OK,
+Capitaine ?\c"
+MFa7060007,"\h(«Don»)Comment ?! Oh, d'accord…… Je vais nous garder en
+vie encore un peu plus longtemps.\c"
+MFa7060008,"\h(«Don»)Alors, voilà à quoi ressemble le Récif Noir de
+l'intérieur…… J'ai tant d'amis qui ont péri
+ici…… Vous devriez peut-être pendre la barre……\e"
+MFa7060009,"\h(«Que ferez-vous ?»)“Vous prendrez la barre.”
+“Vous inspecterez un peu plus le navire.”\e"
+MFa7060010,"\h(«Don»)Merci, Vyse. Vous me trouverez dans les
+cuisines. C'est un peu difficile pour moi……\c"
+MFa7060011,"\h(«Don»)D'accord, Capitaine…… Je vais faire de mon
+mieux.\c"
+MFa8070000,"\h(«Moegi»)J'ai du mal à croire que nous sommes sous le
+pays natal du Prince Enrique.\c"
+MFa8070001,"\h(«Moegi»)À Yafutoma, il existe des contes sur des démons
+qui vivent sous les nuages et mangent les
+enfants désobéissants.\e"
+MFa8070002,"\h(«Moegi»)Mais en voyant comme c'est sombre ici,
+je pourrais presque croire à ces histoires
+d'enfants……\c"
+MFa8070003,"\h(«Moegi»)Cet orage…… Je pense que vous l'avez appelé le
+Récif Noir…… C'est ce qui séparait Yafutoma du
+reste du monde……\c"
+MFa4000000,"\h(«Brabham»)C'est sûrement le seul navire au monde qui
+puisse survivre à un voyage dans les
+Profondeurs.\e"
+MFa4000001,"\h(«Brabham»)Et réfléchissez un peu ! Le Delphinus est aussi
+le premier navire à pénétrer dans la Bouche de
+Tartas !!\c"
+MFa4000002,"\h(«Brabham»)Le moteur fonctionne bien  ! Nous tenons bien le
+coup !\c"
+MFa4000003,"\h(«Brabham»)Le Récif Noir ne devrait pas être un problème
+pour le Delphinus. Nous devrions pouvoir le
+traverser de front !\c"
+MFa4050000,"\h(«Domingo»)Quand je pense que même les Valuans n'ont pas vu
+l'intérieur de la Bouche de Tartas……\e"
+MFa4050001,"\h(«Domingo»)…… pour un peu cette muraille aurait l'air……
+précieuse. Vous n'êtes pas d'accord, Vyse ?\c"
+MFa4050002,"\h(«Domingo»)Regardez autour de vous, Vyse……
+Personne n'a jamais mis les pieds ici……
+Réfléchissez, nous sommes bel et bien dans les
+Profondeurs……\e"
+MFa4050003,"\h(«Domingo»)Cela met un peu de couleurs, sans ça cet endroit
+serait vraiment terne, n'est-ce pas ? Pensez à
+tous les trésors qui sont enfouis ici-bas……\c"
+MFa4050004,"\h(«Domingo»)Il y a un tas d'épaves par ici. Je me demande
+combien de ces navires appartenaient à des
+Pirates de l'Air……\e"
+MFa4050005,"\h(«Domingo»)Hé…… Cela donne envie de partir fouiller ces
+navires à la recherche de trésors, non ?\c"
+MFa4060000,"\h(«Ilchymis»)Alors, voilà la Bouche de Tartas, hein ?
+Hé…… Je parie que les autres scientifiques de
+Valua me vénéreraient s'ils savaient que j'étais
+ici……\c"
+MFa4060001,"\h(«Ilchymis»)Cet endroit est incroyable…… L'énergie brute qui
+en émane est…… magnifique.\c"
+MFa4060002,"\h(«Ilchymis»)Alors…… voilà l'infâme Récif Noir. Tant de gens
+ont perdu la vie dans ces vents……\c"
+MFaa010000,"\h(«Aika»)Oh là là…… Regarde toutes ces épaves. Il doit y
+avoir des tas de fantômes qui rôdent par ici……
+Vyse ! Partons vite d'ici !\c"
+MFaa010001,"\h(«Aika»)Si nous pouvons trouver un chemin par ces
+fissures, nous devrions pouvoir aller sous la
+Grande Prison, non ?\c"
+MFaa010002,"\h(«Aika»)Nous devons trouver le navire de Fina.
+Si quelque chose apparaît sur le sonar, vous
+devez vous servir des pinces pour essayer de
+l'attraper, OK ?\c"
+MFaa010003,"\h(«Aika»)Oh là là…… C'était très dur. Dépêchons-nous de
+trouver le navire de Fina pour retourner sur
+l'Île Croissant !\c"
+MFaa010004,"\h(«Aika»)Cet endroit me donne la chair de poule…… Même si
+ce n'est pas la première fois que nous y venons.
+On peut rentrer chez nous maintenant, Vyse ?\c"
+MFaa010005,"\h(«Aika»)C'est même difficile de respirer ici…… Mais je
+dois dire que c'est quand même intéressant.\c"
+MFaa020000,"\h(«Fina»)Si nous pouvons traverser le Récif Noir sans
+problèmes, le pays de Yafutoma devrait se
+trouver de l'autre côté.\c"
+MFaa020001,"\h(«Fina»)Je…… je suis triste à l'idée que tous ces braves
+marins ont péri dans ce tourbillon.\c"
+MFaa020002,"\h(«Fina»)Le Giga Jaune sommeille quelque part dans la
+Bouche de Tartas……\e"
+MFaa020003,"\h(«Fina»)Si les histoires qu'on raconte sont vraies, le
+Cristal Jaune sera incrusté dans le Giga Jaune.
+Il faut être très prudents……\c"
+MFaa020004,"\h(«Fina»)Cela fait bizarre de voler à l'intérieur de
+Valua, n'est-ce pas ?\c"
+MFaa020005,"\h(«Fina»)Cet…… cet endroit est incroyable.
+Je me demande si nous trouverons vraiment mon
+navire là-bas……\c"
+MFaa020006,"\h(«Fina»)Cet endroit me fait toujours peur, même si ce
+n'est pas la première fois que nous y venons……\c"
+MFaa040000,"\h(«Enrique»)Ungh…… Le navire tangue…… tellement……
+Laissez-moi pour le moment s'il vous plaît……
+Je…… je me sens malade.\c"
+MFaa040001,"\h(«Enrique»)L'Armada n'a même pas pu traverser le
+Récif Noir, et nous voilà……\c"
+MFaa040002,"\h(«Enrique»)Je n'aurais jamais cru que je volerai un jour à
+l'intérieur des terres de Valua……\e"
+MFaa040003,"\h(«Enrique»)Je n'aurai jamais vu cela si j'étais resté
+enfermé dans le palais……\c"
+MFaa040004,"\h(«Enrique»)La vue est époustouflante…… Je n'aurais jamais
+imaginé qu'un monde pareil existait sous les
+nuages.\e"
+MFaa040005,"\h(«Enrique»)Qu'est-ce que l'Armada essaie d'accomplir en
+construisant des navires qui peuvent voyager
+ici-bas ? Je me demande ce que mijote
+Galcian……\c"
+MFaa040006,"\h(«Enrique»)La bataille sera bientôt terminée. Il faut
+vaincre Ramirez et restaurer la paix dans ce
+monde !\c"
+MFaa040007,"\h(«Enrique»)Vyse, je veux partir avec vous. Laissez-moi
+venir avec vous dans Soltis.\e"
+MFaa040008,"\h(«Emmènerez-vous Enrique avec vous ?»)“Bien sûr, Enrique.”
+“Désolé, mais nous avons besoin de vous ici.”\e"
+MFaa040009,"\h(«Vyse»)Bien sûr, Enrique. Ce serait un honneur si vous
+vous joignez à nous.\e"
+MFaa040010,"\h(«Enrique»)Merci, Vyse !
+Je me battrai de mon mieux !
+Je ne vous laisserai pas tomber……\e"
+MFaa040011,\h( )Enrique a rejoint votre équipage.\c
+MFaa040012,"\h(«Enrique»)Je vois.
+Bon, faites-moi signe si vous changez d'avis.
+Je suis toujours prêt à me battre.\c"
+MFg0040000,"\h(«Pow»)Pow pow !
+Pow pow !\c"
+MFg1110000,"\h(«Lawrence»)Vous voulez aller sur l'Île Croissant, n'est-ce
+pas ? Humm…… au nord de Nasr ?
+Voulez-vous prendre la barre ?\e"
+MFg1110001,"\h(«Que ferez-vous ?»)“Vous prendrez la barre.”
+“Vous regarderez alentour.”\e"
+MFg1110002,"\h(«Lawrence»)Très bien. Je vous laisse vous charger de
+tout.\c"
+MFg1110003,"\h(«Lawrence»)Très bien. Je tiendrai le gouvernail encore un
+petit moment.\c"
+MFg1140000,"\h(«Pinta»)Le navire du Prince Enrique allait devenir le
+plus puissant de l'Armada Valuanne ! Il était
+fabriqué avec les tous derniers alliages et
+technologies de Valua !\e"
+MFg1140001,"\h(«Pinta»)Et non seulement vous avez réussi à voler le
+navire, Vyse, mais vous avez réussi à sortir le
+prince de Valua ! Tout le monde vous connaît
+maintenant !\c"
+MFg2000000,"\h(«Vyse»)Qu'est-ce que c'est ?
+Y a-t-il quelque chose là-dedans ?\e"
+MFg2000001,"\h(«Marco»)Bâillement……
+Oh bon sang, cela fait du bien de sortir de là.\e"
+MFg2000002,"\h(«Marco»)Hé…… On ne t'a pas vu depuis longtemps, Vyse !\e"
+MFg2000003,"\h(«Vyse»)Marco !
+Que fais-tu ici ?!\e"
+MFg2000004,"\h(«Marco»)J'ai entendu dire que le navire du prince était
+terminé et se préparait à partir.\e"
+MFg2000005,"\h(«Marco»)Alors, je me suis faufilé à bord avec
+l'intention de sortir de Valua.\e"
+MFg2000006,"\h(«Marco»)Bon, j'ai entendu dire que le prince est
+quelqu'un de bien, donc je me suis dit qu'il ne
+me tuerait pas pour avoir essayé de m'échapper.
+Du moins pas tout de suite.\e"
+MFg2000007,"\h(«Marco»)Mais je n'aurais jamais cru que toi, surtout
+toi, mettrais la main sur ce navire ! Au moins
+maintenant, je n'ai pas besoin d'aller te
+chercher !\e"
+MFg2000008,"\h(«Marco»)Je vais voyager avec toi que cela te plaise
+ou non. Mais ne t'inquiète pas…… Je ne te
+dérangerai pas, d'accord ?\e"
+MFg2000009,"\h(«Vyse»)Hé…… Tu pousses un peu, petit. Ah, pourquoi
+pas…… Je ferai de toi mon premier membre
+d'équipage !\e"
+MFg2000010,\h( )Marco le “Marin” a rejoint votre équipage.\c
+MFgg050000,"\h(«Gilder»)Hé, Vyse.
+Je ne sais pas d'où cela vient, mais je n'arrête
+pas d'entendre ce bruit étrange là-haut……\e"
+MFgg050001,"\h(«Gilder»)J'ai regardé partout, mais je n'ai pas trouvé
+d'où cela venait. Tu auras peut-être plus de
+chance. Oh, et quand tu auras fini, j'ai
+besoin de te parler.\c"
+MFgg050002,"\h(«Gilder»)Hé, Vyse. Avez-vous fini d'inspecter le navire ?
+J'ai besoin de vous parler.\e"
+MFgg050003,"\h(«Que dites-vous ?»)“En fait, je n'ai pas encore fini.”
+“J'ai vu presque tout ce que je voulais voir.”\e"
+MFgg050004,"\h(«Vyse»)En fait, je n'ai pas encore fini de tout
+inspecter……\e"
+MFgg050005,"\h(«Gilder»)Pas de problème. Prenez votre temps. Mais,
+quand vous aurez fini, j'ai besoin de vous
+parler, OK ?\e"
+MFgg050006,"\h(«Vyse»)J'ai vu presque tout ce que je voulais voir.
+De quoi vouliez-vous me parler ?\e"
+MFgg050007,"\h(«Gilder»)Eh bien, en fait……\e"
+MFgg010000,"\h(«Aika»)Cette Île Croissant où nous allons, c'est bien
+celle où tu t'étais échoué, n'est-ce pas ?
+Il me tarde de la voir !\e"
+MFgg010001,"\h(«Aika»)Mais, je n'arrive toujours pas à le croire……
+Nous allons avoir nos propres quartiers
+généraux ! Comme l'Île des Pirates !
+C'est vraiment palpitant ?!\e"
+MFgg010002,"\h(«Aika»)Nous devrions plutôt essayer d'économiser
+100 000 pièces d'or. C'est plus important
+d'avoir une base que de trouver les Cristaux
+pour le moment !\c"
+MFgg020000,"\h(«Fina»)Haha…… Je me demandais sur quelle île tu t'étais
+échoué.\c"
+MFgg020001,"\h(«Fina»)Nous devrions essayer d'économiser de l'argent
+pour que Brabham puisse apporter les
+modifications nécessaires au navire.
+Cela ne devrait pas prendre trop de temps……\c"
+MG00040000,"\h(«Pow»)Pau, pau!
+Pau, pau!\c"
+MG01110000,"\h(«Lawrence»)Ihr wollt nach Crescent Isle, nicht wahr?
+Das ist nördlich von Nasr.
+Möchtest du das Steuer übernehmen?\e"
+MG01110001,"\h(«Lawrence»)Esperanza liegt südlich von Nasr.
+Möchtest du jetzt das Steuer übernehmen?\e"
+MG01110002,"\h(«Lawrence»)Irgendwo in der Dark Rift muss es doch einen
+ruhigen Fleck geben…… da sollten wir doch
+durchkommen. Möchtest du jetzt das Steuer
+übernehmen?\e"
+MG01110003,"\h(«Lawrence»)Wenn wir von hier aus in nordöstlicher Richtung
+fahren, sollten wir Yafutoma erreichen……
+Möchtest du das Steuer übernehmen?\e"
+MG01110004,"\h(«Lawrence»)Ab hier übernehme ich.
+Du solltest dich beeilen und an Deck gehen.\c"
+MG01110005,"\h(«Lawrence»)Ihr wollt zum Land of Ice, nicht wahr?
+Ich glaube, es liegt südlich des South Ocean.
+Möchtest du das Steuer übernehmen?\e"
+MG01110006,"\h(«Lawrence»)Ihr wollt unter Valua durchtauchen?
+Sicher…… möchtest du das Steuer übernehmen?\e"
+MG01110007,"\h(«Lawrence»)Ihr wollt nach Dangral Island? Es ist unterhalb
+der Wolken südwestlich von Sailors Island,
+nicht wahr? Möchtest du also das Steuer
+übernehmen?\e"
+MG01110008,"\h(«Lawrence»)Unterhalb der Great Cloud Sea bei dem Strudel
+nahe Shrine Island, oder? Möchtest du das
+Steuer übernehmen?\e"
+MG01110009,"\h(«Lawrence»)Nach Sailors Island?
+Möchtest du das Steuer übernehmen?\e"
+MG01110010,"\h(«Lawrence»)Wir müssen zu der Insel fahren, die inmitten
+des Mid Ocean liegt, nicht? Möchtest du jetzt
+das Steuer übernehmen?\e"
+MG01110011,"\h(«Was wirst du tun?»)“Das Steuer übernehmen.”
+“Mich noch etwas auf dem Schiff umsehen.”\e"
+MG01110012,"\h(«Lawrence»)Ok. Also, hier ist das Steuer.\c"
+MG01110013,\h(«Lawrence»)Verstehe.\c
+MG01110014,"\h(«Lawrence»)Wenn ich gewusst hätte, wie umfangreich dieser
+Job wird, hätte ich um mehr als 10.000
+Goldstücke gebeten……\e"
+MG01110015,\h(«Lawrence»)Möchtest du das Steuer übernehmen?\e
+MG01110016,"\h(«Was wirst du tun?»)“Das Steuer übernehmen.”
+“Mich noch etwas auf dem Schiff umsehen.”\e"
+MG01110017,"\h(«Lawrence»)Ok. Ich überlasse dir das Schiff,
+Captain Vyse.\c"
+MG01110018,"\h(«Lawrence»)Also gut. Fürs Erste werde ich das Schiff
+fliegen. Du solltest vielleicht zu den anderen
+gehen und mit ihnen sprechen.\c"
+MG01140002,"\h(«Pinta»)Esperanza war eine recht wohlhabende Stadt……
+Bis sie von Valua aufgegeben wurde.\e"
+MG01140003,"\h(«Pinta»)Seitdem ist aller Handel mit Esperanza
+eingestellt worden. Es ist voller rostigem
+Metall und Matrosen, die alle Hoffnung
+verloren haben.\c"
+MG01140004,"\h(«Pinta»)Als Esperanza in seiner Blütezeit war, kamen
+die Reisenden von überall her und forderten
+bei dem Versuch, die Dark Rift zu passieren,
+ihr Schicksal heraus.\e"
+MG01140005,"\h(«Pinta»)Und ich habe auch gehört, dass es dort
+zahlreiche Diebe und unlautere Händler gab,
+die sich an die optimistischen Matrosen
+heranmachten.\c"
+MG01140006,"\h(«Pinta»)Wir haben es durch die Dark Rift geschafft!
+Jetzt kann ich auch in diesem Teil der Welt
+nach Objekten suchen!\c"
+MG01140007,"\h(«Pinta»)In Valua gab es einmal einen Gelehrten, der
+meinte, die Welt sei rund. Er wurde jedoch
+von manchen für verrückt erklärt und von
+anderen als Ketzer verschrien.\c"
+MG01140008,"\h(«Pinta»)Um also seine These zu beweisen, machte sich
+der Gelehrte auf, die Welt zu umsegeln……
+aber er starb in der Dark Rift.\c"
+MG01140009,"\h(«Pinta»)Ich habe gehört, dass der Nasultan jedes Jahr
+ein Gefolge in die Lands of Ice sandte, damit
+sie so viel Eis wie möglich zurückbrachten.\e"
+MG01140010,"\h(«Pinta»)In Nasr ist Eis ein außergewöhnlicher Luxus.
+Nur der Nasultan persönlich ist wohlhabend
+genug, um es zu genießen…… wenn auch nur
+einmal im Jahr.\c"
+MG01140011,"\h(«Pinta»)Der Tempel beim Maw of Tartas ist
+wahrscheinlich das größte Mysterium in
+ganz Valua.\e"
+MG01140012,"\h(«Pinta»)Man sagt, dass es in diesem Teil der Insel
+Erdbeben gegeben hat. Wenn die Insel aber
+schwebt, woher kommt dann das Beben?\c"
+MG01140013,"\h(«Pinta»)Ich habe Geschichten darüber gehört, dass
+Valua so eine Art Aufzug bauen soll, um tiefer
+als die Great Cloud Sea zu gelangen.\e"
+MG01140014,"\h(«Pinta»)Niemand weiß jedoch, wo dieser Aufzug anhält……
+oder wie tief hinunter er geht.\c"
+MG01140015,"\h(«Pinta»)Die Leute behaupten eine ganze Menge über die
+Welt unter den Wolken. Manche sagen, es sei
+das Land der Toten, andere sagen, es wäre ein
+Land aus reinem Gold.\e"
+MG01140016,"\h(«Pinta»)Niemand hat jedoch bisher wirklich Deep Sky
+gesehen. Es ist alles ein großes Rätsel.\c"
+MG01140017,"\h(«Pinta»)Die Valuaner haben demjenigen eine Belohnung
+versprochen, der Enrique finden und ihn sicher
+zurückbringen könnte…… Valuanische
+Kopfgeldjäger suchten nach ihm.\e"
+MG01140018,"\h(«Pinta»)Aber niemand hat erwartet, dass er aus eigenem
+Willen zurückkehren würde. Die Kopfgeldjäger
+waren gelinde gesagt verstimmt.\c"
+MG01140019,"\h(«Pinta»)Also, es gibt tatsächlich hoch über dem Himmel
+einen Schrein?\e"
+MG01140020,"\h(«Pinta»)He…… davon wusste noch nicht einmal ich.
+Den möchte ich wirklich einmal mit eigenen
+Augen sehen!\c"
+MG01140021,"\h(«Pinta»)Ich kann nicht fassen, dass eine Insel
+tatsächlich von unterhalb der Wolken
+emporgestiegen ist!\c"
+MG01140022,"\h(«Pinta»)Vyse, wenn du diesen Kampf gewinnst und
+gesund zurückkehrst……\e"
+MG01140023,"\h(«Pinta»)……Werde ich von deinen Abenteuern berichten!
+Alle werden sie von Vyse, dem Luftpiraten,
+hören, mit dem es allein Daccat
+höchstpersönlich aufnehmen kann!\c"
+MG01140024,"\h(«Pinta»)Der Feind versucht, unser Schiff zu entern?!
+O nein! Wir müssen uns zum Kampf bereitmachen!\c"
+MG05100000,"\h(«Hans»)Dieses Schiff ist toll!
+Allein die Kraft, die für seinen Antrieb
+notwendig ist, muss astronomisch groß sein!\c"
+MG05100001,"\h(«Hans»)Phänomenal…… das Äußere der Delphinus ist
+so robust, dass man damit wahrscheinlich
+durch Felsklippen oder sogar Gletscher
+fliegen kann!\c"
+MG05100002,"\h(«Hans»)Dieses Schiff…… das war doch Drachmas
+Little Jack, nicht wahr?\e"
+MG05100003,"\h(«Hans»)Mein Vater hat gesagt, obwohl das Schiff alt
+ist, wurde es jedoch liebevoll gehegt und
+geplegt. Er sagte, es sei ein sehr gutes
+Schiff.\c"
+MG05100004,"\h(«Hans»)Vyse, lass uns überall und alles erforschen!
+Jetzt, wo wir hoch und tief
+fliegen können, sollten wir davon so viel
+Gebrauch machen wie möglich!\e"
+MG05100005,"\h(«Hans»)Ich kann's wirklich kaum abwarten, wie sich
+die frisch verbesserte Delphinus verhalten
+wird!\c"
+MG05100006,"\h(«Hans»)Hast du die valuanischen Pläne für den neuen
+Motor verfügbar? Mann, die möchte ich mir
+gern einmal ansehen!\c"
+MG05100007,"\h(«Hans»)Ich kann nicht abwarten zu sehen, was sich
+unter der Great Cloud Sea verbirgt! Beeilen
+wir uns und testen wir die Tauchfähigkeit
+der Delphinus aus!\c"
+MG05100008,"\h(«Hans»)Es ist etwas entmutigend, wenn man bedenkt,
+dass Enrique uns verlassen und nach Valua
+zurückkehren wird, sobald wir wiederkommen……\c"
+MG05100009,"\h(«Hans»)Finas Schiff kann also große Höhen erreichen?
+Ich frage mich, welche Art Antrieb es hat……\c"
+MG05100010,"\h(«Hans»)Wie viel Kraftaufwand es wohl gekostet hat,
+Soltis aus dem Deep Sky zu heben?\c"
+MG05100011,"\h(«Hans»)Von dieser Insel kam ein sehr helles Licht!
+Ich frage mich, was die Lichtquelle war……\c"
+MG05100012,"\h(«Hans»)Die Delphinus ist vollständig repariert!
+Gehen wir, Captain Vyse!\c"
+MG07060000,"\h(«Don»)Wir sollten zurück nach Crescent Isle.
+Möchtest du das Steuer übernehmen?\e"
+MG07060001,"\h(«Don»)Hmm…… die Lands of Ice sollten etwas weiter
+südlich als der South Ocean sein. Möchtest du
+jetzt das Steuer übernehmen?\e"
+MG07060002,"\h(«Don»)Wir sollten doch nach Valua hinüberfahren und
+erkunden, was sich darunter befindet, nicht?
+Vielleicht willst du jetzt das Steuer
+übernehmen……\e"
+MG07060003,"\h(«Don»)Dangral Island müsste unterhalb der Wolken,
+südwestlich von Sailors Island liegen.
+Möchtest du jetzt das Steuer übernehmen?\e"
+MG07060004,"\h(«Don»)Der Strudel, der uns in den Deep Sky bringt,
+ist nahe Shrine Island, nicht wahr? Das
+heißt, er sollte irgendwo im Mid Ocean
+liegen.\e"
+MG07060005,"\h(«Don»)Sailors Island ist in Mid Ocean, nicht wahr?
+Also, Captain…… möchtest du jetzt das Steuer
+übernehmen?\e"
+MG07060006,"\h(«Don»)Soll das heißen, wir fliegen zu dieser Insel,
+die im Mid Ocean erschienen ist? Mannomann……
+Dabei habe ich ein komisches Gefühl……\e"
+MG07060007,"\h(«Don»)Also gut. Ich gehe ein bisschen hinunter in
+den Mannschaftssaal. Ich lasse das Schiff in
+deinen Händen, Vyse.\c"
+MG07060008,"\h(«Don»)He…… das wird wohl bedeuten, dass ich das
+Schiff noch eine Weile weiterfliegen kann.\c"
+MG07060009,"\h(«Don»)Wir fliegen in diese Insel, nicht wahr?
+Möchtest du dann das Steuer übernehmen,
+Captain Vyse?\c"
+MG07060010,"\h(«Was wirst du tun?»)“Das Steuer übernehmen.”
+“Mich noch etwas auf dem Schiff umsehen.”\e"
+MG07060011,"\h(«Don»)Also dann viel Glück, Captain!\c"
+MG07060012,"\h(«Don»)Ok, ich übernehme das Schiff für den Augenblick.
+Geh hinunter und sprich mit dem Rest der Crew.\c"
+MG08070000,"\h(«Moegi»)Ich…… ich weiß nicht viel über Segeln……
+oder was es außerhalb von Yafutoma so gibt……\e"
+MG08070001,"\h(«Moegi»)……aber ich verspreche, dass ich alles tun werde,
+um den anderen so gut wie möglich zu helfen.\c"
+MG08070002,"\h(«Moegi»)Ein Land, das total von Eis bedeckt ist……
+ich hätte nie gedacht, dass es solche
+Orte tatsächlich gibt.\c"
+MG08070003,"\h(«Moegi»)Prinz Enrique hat mir von dem Mann Drachma
+erzählt.\e"
+MG08070004,"\h(«Moegi»)Er hat so viel durchgemacht. Ich hoffe, er
+findet seinen Frieden.\c"
+MG08070005,"\h(«Moegi»)Obwohl ich weiß, dass wir nicht direkt in die
+Stadt Valua hineingehen, bin ich nach wie
+vor nervös…… wegen Enrique.\c"
+MG08070006,"\h(«Moegi»)Vyse, du hast alle Moon Crystals zusammen!
+Herzlichen Glückwunsch!\e"
+MG08070007,"\h(«Moegi»)Ich mache mir um Fina Sorgen…… sie sieht nicht
+gut aus. Vielleicht ist sie ja nur müde.\c"
+MG08070008,"\h(«Moegi»)Seitdem wir von Dangral Island zurück sind,
+ist Enrique so still…… ich hoffe, es geht
+ihm gut……\c"
+MG08070009,"\h(«Moegi»)Vyse…… ich, ich weiß, ich gehöre zu dieser
+Crew und habe dir Treue geschworen, aber……\e"
+MG08070010,"\h(«Moegi»)……ein Teil von mir wünscht sich, dass wir
+nie Sailors Island erreichen. Ich habe das
+Gefühl, dass Enrique etwas Schlimmes
+zustoßen wird.\c"
+MG08070011,"\h(«Moegi»)Prinz Enrique kämpft tapfer ganz allein in
+Valua…… ich selbst muss auch kämpfen und
+alles tun, um zu helfen!\c"
+MG08070012,"\h(«Moegi»)Diese Insel, die aus den Wolken
+emporgestiegen ist…… mit ihr…… stimmt
+irgendetwas nicht. Ich spüre eine große Kraft,
+die von dieser Insel ausgeht……\c"
+MG08070013,"\h(«Moegi»)Ich dachte, dass ich gerade Prinz Enrique
+rufen gehört habe. Tut mir Leid, es muss
+meine Einbildung gewesen sein……
+Ich fühle mich furchtbar……\e"
+MG08070014,"\h(«Moegi»)Vyse…… ich weiß, dass etwas Schlimmes
+passiert ist……\c"
+MG08070015,"\h(«Moegi»)Lass uns weiterfahren, Vyse!
+Ich bin vielleicht nicht sehr stark, aber ich
+werde mein Bestes tun, um im Kampf zu
+helfen!\c"
+MG08070016,"\h(«Brabham»)Dieses yafutomanische Buch ist toll!
+Unglaublich, wie fortschrittlich sie
+dort sind!\e"
+MG08070023,"\h(«Brabham»)Bis wir wieder von den Lands of Ice zurück
+sind, bin ich Experte darin.\c"
+MG08070017,"\h(«Brabham»)Jetzt, wo ich die Motorenspezifikationen von
+den Yafutomanen habe, können wir fliegen, wohin
+wir wollen!\c"
+MG08070018,"\h(«Brabham»)Hmm…… Enrique sieht verstört aus. Zu meiner
+Zeit haben wir uns die Damen geholt…… sie
+sind verrückt nach Matrosen! Sie haben uns
+so richtig aufgemuntert! Jawooooooohl!\c"
+MG08070019,"\h(«Brabham»)Diesen Great Cloud Sea-Motor bauen war
+das Schwerste, was ich seit langer Zeit gemacht
+habe! Mein Rücken tut noch immer weh von all
+der harten Arbeit!\e"
+MG08070020,"\h(«Brabham»)Ich hätte nie gedacht, dass ich zu meinen
+Lebzeiten einen solch starken Motor erleben
+würde…… Wer würde schon annehmen, dass ich
+147 bin.\c"
+MG08070021,"\h(«Brabham»)Diese komische Insel…… sie kam aus dem
+Deep Sky!\c"
+MG08070022,"\h(«Brabham»)Die Delphinus läuft jetzt besser denn je!
+Ich liebe dieses Schiff! Ist sie nicht
+ein wahrer Schatz?\c"
+MGp0010003,"\h(«Aika»)Ist doch toll, was, Vyse? Jetzt können wir
+endlich durch all die Turbulenzen hindurch!\c"
+MGp0010004,"\h(«Aika»)Ich kann's nicht glauben! Ich weiß, dort
+draußen gibt es so viel zu sehen!\c"
+MGp0010005,"\h(«Aika»)Wir wollen es also durch die Dark Rift
+versuchen, ja? Ich frage mich, wie es dort
+wirklich aussieht. Ich gebe es zwar nicht gern
+zu, aber ich habe Angst.\c"
+MGp0010006,"\h(«Aika»)Vyse, du hast es geschafft!
+Wir haben die Dark Rift passiert!\e"
+MGp0010007,"\h(«Aika»)Jetzt können wir endlich sehen, wie Yafutoma
+wirklich ist! Ich hoffe, die werden nicht
+versuchen, uns mit Stäbchen zu verspeisen!
+Fina sollte lieber Cupil verstecken……\e"
+MGp0010008,"\h(«Aika»)Vyse! Der Feind will unser Schiff entern!
+Wir brauchen dich sofort an Deck!\c"
+MGp0010009,"\h(«Aika»)Wie, die Tenkou?
+Schätze, sogar Yafutoma hat sein eigenes
+kleines Luftpiratenproblem……\c"
+MGp0010010,"\h(«Aika»)Wenn wir von hier aus östlich fahren und nach
+Crescent Isle kommen, kann das nur eines
+bedeuten……\e"
+MGp0010011,"\h(«Aika»)……dass die Enden der Welt miteinander verbunden
+sind! Aber dann wären das auch nicht wirklich
+die Enden der Welt……\c"
+MGp0010012,"\h(«Aika»)Die ganze Insel ist zugefroren! Hihi…… da ist
+schon der erste Vysezapfen! Du solltest dich
+vorsehen, ich hab nämlich keinen Meißel dabei.\c"
+MGp0010013,"\h(«Aika»)Captain Drachma……
+Ich hoffe, es geht ihm gut……\c"
+MGp0010014,"\h(«Aika»)Nun, da wir jetzt in Hoch und Tief
+fliegen können, gibt es fast keine Grenzen
+mehr für uns!\c"
+MGp0010015,"\h(«Aika»)Wir haben alle Moon Crystals zusammen!
+Beeilen wir uns und fahren wir nach
+Crescent Isle zurück!\c"
+MGp0010016,"\h(«Aika»)Wie? Dangral Island……
+Sollte unterhalb der Wolken südwestlich
+von Sailors Island liegen……\c"
+MGp0010017,"\h(«Aika»)Mir tut Enrique so Leid. Er muss sich furchtbar
+fühlen. Wir sollten ihn eine Weile allein
+lassen.\e"
+MGp0010018,"\h(«Aika»)Es sollte möglich sein, durch den Strudel nahe
+Shrine Island nach Deep Sky zu gelangen.
+Na los, Vyse!\c"
+MGp0010019,"\h(«Aika»)Schätze, wir werden uns von Enrique
+verabschieden müssen, sobald wir wieder in
+Sailors Island sind…… ich hasse Abschied……\e"
+MGp0010020,"\h(«Aika»)Wenn wir Galcian nicht aufhalten, wer weiß,
+was dann passiert! Vyse, wir müssen schnell
+nach Dangral Island!\c"
+MGp0010021,"\h(«Aika»)Wer hätte gedacht, dass es einmal eine so große
+Insel in Mid Ocean gegeben hat…… und noch dazu
+genau neben unserer Pirate Isle……\c"
+MGp0010022,"\h(«Aika»)Vyse……
+Wir sollten bald nach Crescent Isle
+zurückkehren.\e"
+MGp0010023,"\h(«Aika»)Mir gefällt es überhaupt nicht, aber…… ich
+glaube nicht, dass wir im Moment etwas gegen
+diese Insel ausrichten können.\c"
+MGp0010024,"\h(«Aika»)Ich schätze, es ist an der Zeit, diese Sache
+zu bereinigen. Es wäre aber eine Lüge zu
+behaupten, ich hätte keine Angst……\e"
+MGp0010025,"\h(«Aika»)Aber wenn ich mir so überlege, was du für ein
+großer Kapitän geworden bis, Vyse, fühle ich
+mich besser. Sieh dir nur an, wie viele Leute
+aufgetaucht sind, um dir in den Kampf zu folgen!\e"
+MGp0010026,"\h(«Aika»)Sie alle glauben an dich…… sie alle vertrauen
+dir…… genau wie ich. Wir müssen einfach
+gewinnen! Stimmt's, Captain Vyse?\c"
+MGp0020002,"\h(«Fina»)Die Stadt Esperanza……
+Dort sollten wir zuerst vorbeischauen.
+Sie liegt an der Südspitze von Nasr.\c"
+MGp0020003,"\h(«Fina»)Sobald wir die Dark Rift passiert haben,
+sollten wir auf der anderen Seite auf Yafutoma
+stoßen.\c"
+MGp0020004,"\h(«Fina»)Endlich haben wir den Himmel des Blue
+Moon erreicht…… Yafutoma sollte ganz in der
+Nähe sein……\c"
+MGp0020005,"\h(«Fina»)Vyse! Es ist zu gefährlich, an Deck zu gehen,
+ohne sich auf den Kampf vorbereitet zu haben!\c"
+MGp0020006,"\h(«Fina»)Es ist so seltsam……
+Ich bin Silviterin. Ich bin im Great Silver
+Shrine geboren und aufgewachsen……\e"
+MGp0020007,"\h(«Fina»)Aber irgendwie fühle ich mich auf Crescent
+Isle wohler als anderswo……\c"
+MGp0020008,"\h(«Fina»)Die Lands of Ice……
+Unter all dem Eis vergraben liegt der
+Purple Crystal, ich hoffe, dass wir ihn
+finden……\c"
+MGp0020009,"\h(«Fina»)Vyse……
+Lass uns nach Crescent Isle zurückkehren.\c"
+MGp0020010,"\h(«Fina»)Ich hätte nie gedacht, dass wir Valua durch
+den Maw of Tartas erreichen können……\c"
+MGp0020011,\h(«Fina»)Endlich haben wir den fünften Kristall!\e
+MGp0020012,"\h(«Fina»)Wenn wir die Blaupausen für dieses valuanische
+Schiff auf Dangral Island finden, können wir
+im Deep Sky nach meinem Schiff suchen……\c"
+MGp0020013,"\h(«Fina»)Enrique…… er ist in letzter Zeit so still.
+Ich mache mir etwas Sorgen um ihn……\c"
+MGp0020014,"\h(«Fina»)Ich wurde nahe Pirate Isle von Valua
+angegriffen……\e"
+MGp0020015,"\h(«Fina»)Mein Schiff muss irgendwo in dieser
+Gegend im Deep Sky sein.\c"
+MGp0020016,"\h(«Fina»)Enrique wird endlich in seine Heimat
+zurückkehren können……\c"
+MGp0020017,"\h(«Fina»)Ramirez…… wir müssen ihn aufhalten!
+Wir müssen rasch nach Dangral Island!\c"
+MGp0020018,\h(«Fina»)Ramirez…… was macht er wohl auf Soltis?\e
+MGp0020019,"\h(«Fina»)……!!
+Nein…… er, er würde doch nicht……\c"
+MGp0020020,"\h(«Fina»)Warum, Vyse…… warum?\c"
+MGp0020021,"\h(«Fina»)Vyse, gehen wir!
+Wir müssen nach Soltis!\e"
+MGp0020022,"\h(«Fina»)Ich werde mit euch kämpfen!
+Ramirez muss aufgehalten werden.\c"
+MGa0040000,\h(«Pow»)Pau! Pau! Pau!\e
+MGa1110000,\h(«Lawrence»)Möchtest du das Steuer übernehmen?\e
+MGa1110001,"\h(«Was wirst du tun?»)“Das Steuer übernehmen.”
+“Mich noch ein wenig auf dem Schiff umsehen.”\e"
+MGa1110002,"\h(«Lawrence»)Ok, ich überlasse dir das Schiff.\c"
+MGa1110003,\h(«Lawrence»)Verstehe. In Ordnung.\c
+MGa1110004,"\h(«Lawrence»)Ich bin schon von allen Arten von Schiffen
+verfolgt worden…… aber niemand ist mir bisher
+in den Deep Sky gefolgt. He…… einmal ist immer
+das erste Mal.\e"
+MGa1110005,"\h(«Was wirst du tun?»)“Das Steuer übernehmen.”
+“Mich noch ein wenig auf dem Schiff umsehen.”\e"
+MGa1110006,"\h(«Lawrence»)Die Sicht ist zur Zeit nicht gut. Sei
+vorsichtig beim Fliegen.\c"
+MGa1110007,\h(«Lawrence»)Verstehe. In Ordnung.\c
+MGa1140000,"\h(«Pinta»)Hier unten findet man die Überreste von so
+vielen Schiffen. Es ist erschreckend, wenn
+man darüber nachdenkt.\c"
+MGa1140001,"\h(«Pinta»)Viele Abenteurer haben versucht, Valua zu
+durchqueren, indem sie in die Spalten und
+Risse im Untergrund gefahren sind.\e"
+MGa1140002,"\h(«Pinta»)Aber ihre Schiffe waren nicht in der Lage,
+tief genug zu fliegen, um den Eingang zu
+erreichen.\c"
+MGa1140003,"\h(«Pinta»)Ich schätze mich glücklich, dazu auserwählt
+gewesen zu sein, den Deep Sky zu sehen……\e"
+MGa1140004,"\h(«Pinta»)Ich bedaure nur, dass es sich nicht auf meinem
+eigenen Schiff abgespielt hat. Tja, man kann
+nicht alles haben……\c"
+MGa2000000,"\h(«Marco»)Ich bekomme hier eine Gänsehaut…… Beeilen
+wir uns mit dem, was wir hier zu tun haben,
+damit wir schnell weg können!\c"
+MGa2000001,"\h(«Marco»)Die Stadt, in der ich einmal lebte, ist genau
+über uns. Ich hätte nie gedacht, dass ich
+jemals da rauskomme……\c"
+MGa2000002,"\h(«Marco»)Brabham hat mir gesagt, dass wir
+die Luken geschlossen halten sollen,
+solange wir hier unten sind -- damit wir
+die Gespenster draußen nicht sehen……\e"
+MGa2000003,\h(«Marco»)Ob es hier unten wirklich Gespenster gibt?\c
+MGa5100000,"\h(«Hans»)Dieses Schiff ist wahrscheinlich das erste,
+das es schaffen wird, den Maw of Tartas zu
+passieren. Das ist schon an sich eine
+Leistung.\c"
+MGa5100001,"\h(«Hans»)Der Motor hört sich gut an. Es ist schon
+erstaunlich, dass jemand tatsächlich ein so
+starkes und großes Schiff gebaut hat! Ich bin
+beeindruckt……\c"
+MGa5100002,"\h(«Hans»)Das hier ist also die berüchtigte Dark Rift, die
+so viele Menschenleben gekostet hat…… Und die
+Delphinus lässt sich überhaupt nicht aus der
+Bahn bringen…… Erstaunlich……\c"
+MGa5210000,"\h(«Tikatika»)Hier gibt es zu viele Felsen. Dieser Ort ist
+hässlich. Vielleicht hegen die Valuaner
+deshalb so viele hässliche Gedanken.\c"
+MGa5210001,"\h(«Tikatika»)Ich kann nicht viel ausmachen. Aber ich
+spüre hier sehr viel Schlimmes.\c"
+MGa5210002,"\h(«Tikatika»)Hier gibt es eine Menge gesunkener Schiffe.
+Ob es wohl auch einen Schatz gibt?\c"
+MGa7060000,"\h(«Don»)Hier unten kann man schlecht sehen…… es ist
+fast unmöglich auszumachen, wohin wir fahren.
+Möchtest du das Steuer übernehmen, Captain?\e"
+MGa7060001,"\h(«Was wirst du tun?»)“Das Steuer übernehmen.”
+“Mich noch etwas auf dem Schiff umsehen.”\e"
+MGa7060002,"\h(«Don»)In Ordnung. Sieh dich vor, dass du nicht in
+etwas hineinfährst, dann ist alles ok.\c"
+MGa7060003,"\h(«Don»)Na gut…… das bedeutet wohl, dass ich
+hier bleiben und uns am Leben erhalten muss.
+An die Arbeit, an die Arbeit……\c"
+MGa7060004,"\h(«Don»)Die Sicht ist grauenhaft, ich weiß nicht,
+wohin wir fahren, und ich soll dieses Ding
+weiter fliegen!! Komm schon und übernimm das
+Steuer, ja?\e"
+MGa7060005,"\h(«Was wirst du tun?»)“Das Steuer übernehmen.”
+“Mich noch etwas auf dem Schiff umsehen.”\e"
+MGa7060006,"\h(«Don»)Den Monden sei Dank! Endlich kann ich mich
+ausruhen! Sei aber vorsichtig; nicht dass
+wir alle mit dem Leben bezahlen müssen, ok,
+Captain?\c"
+MGa7060007,"\h(«Don»)Was?! Oh, in Ordnung…… ich werde mich bemühen,
+uns noch eine Weile am Leben zu erhalten.\c"
+MGa7060008,"\h(«Don»)So sieht die Dark Rift also von innen aus……
+so viele meiner Freunde haben hier den Tod
+gefunden…… vielleicht solltest du das Steuer
+übernehmen……\e"
+MGa7060009,"\h(«Was wirst du tun?»)“Das Steuer übernehmen.”
+“Mich noch etwas auf dem Schiff umsehen.”\e"
+MGa7060010,"\h(«Don»)Danke, Vyse. Ich bin unten in der Kombüse.
+Das ist etwas schwierig für mich……\c"
+MGa7060011,"\h(«Don»)In Ordnung, Captain…… ich werde mein Bestes
+tun.\c"
+MGa8070000,"\h(«Moegi»)Es ist kaum zu glauben, dass wir uns jetzt
+unterhalb von Prinz Enriques Heimatort
+befinden.\c"
+MGa8070001,"\h(«Moegi»)In Yafutoma gibt es Geschichten über Dämonen,
+die unterhalb der Wolken leben und ungezogene
+Kinder aufessen.\e"
+MGa8070002,"\h(«Moegi»)Wenn man jedoch sieht, wie dunkel die Welt hier
+unten ist, kann man diesen Kindergeschichten
+fast Glauben schenken……\c"
+MGa8070003,"\h(«Moegi»)Dieser Sturm…… ich glaube, du nanntest ihn die
+Dark Rift…… das ist es, was Yafutoma vom Rest
+der Welt abgeschnitten hat……\c"
+MGa4000000,"\h(«Brabham»)Dies ist wahrscheinlich das einzige Schiff
+auf der Welt, das eine Reise in den Deep Sky
+überstehen kann.\e"
+MGa4000001,"\h(«Brabham»)Und denk nur! Die Delphinus ist auch das erste
+Schiff, das in den Maw of Tartas fährt!!\c"
+MGa4000002,"\h(«Brabham»)Der Motor verhält sich gut! Wir kommen
+weiterhin gut durch!\c"
+MGa4000003,"\h(«Brabham»)Die Dark Rift sollte für die Delphinus kein
+Problem sein. Es sollte möglich sein, einfach
+hindurchzufliegen!\c"
+MGa4050000,"\h(«Domingo»)Wenn ich mir vorstelle, dass die Valuaner
+selbst noch nicht einmal das Innere des
+Maw of Tartas gesehen haben……\e"
+MGa4050001,"\h(«Domingo»)……dann erscheinen sogar die Wände hier……
+wertvoll, aus irgendeinem Grund. Meinst du
+nicht, Vyse?\c"
+MGa4050002,"\h(«Domingo»)Schauen wir uns einmal um, Vyse……
+Hier ist keiner je gewesen……
+Denk mal, wir sind tatsächlich im Deep Sky……\e"
+MGa4050003,"\h(«Domingo»)Das bringt etwas Farbe an diesen sonst so
+traurigen Ort, nicht wahr? Denk nur an all
+die versunkenen Schätze, die sich dort unten
+befinden……\c"
+MGa4050004,"\h(«Domingo»)Dort unten sind ziemlich viele gesunkene
+Schiffe. Wie viele davon wohl Schiffe von
+Luftpiraten sind?\e"
+MGa4050005,"\h(«Domingo»)He…… da will man glatt abtauchen und die
+Wracks nach Schätzen absuchen, meinst du
+nicht?\c"
+MGa4060000,"\h(«Ilchymis»)Das ist also der Maw of Tartas! He…… ich möchte
+wetten, die anderen Wissenschaftler in Valua
+würden mich anbeten, wenn sie wüssten, dass ich
+tatsächlich hier bin……\c"
+MGa4060001,"\h(«Ilchymis»)Dieser Ort ist erstaunlich…… die urwüchsige
+Energie, die von ihm ausgeht, ist
+einfach…… überwältigend.\c"
+MGa4060002,"\h(«Ilchymis»)Ach…… dies ist also die berüchtigte Dark Rift.
+So viele Menschen haben hier ihr Leben
+gelassen……\c"
+MGaa010000,"\h(«Aika»)Puh…… schau dir all die versunkenen Schiffe an.
+Hier gibt es wahrscheinlich auch eine Menge
+Gespenster…… Vyse! Hauen wir bald ab!\c"
+MGaa010001,"\h(«Aika»)Wenn es uns gelingt, uns einen Weg durch diese
+Felsspalten zu bahnen, sollten wir den Bereich
+unterhalb des Great Seal erreichen, nicht wahr?\c"
+MGaa010002,"\h(«Aika»)Wir müssen Finas Schiff finden.
+Wenn etwas auf dem Echogerät erscheint, musst
+du die Klaue benutzen, um es zu fassen, ok?\c"
+MGaa010003,"\h(«Aika»)Puh…… Dieses Ding war ziemlich hartnäckig.
+Beeilen wir uns und finden wir Finas Schiff,
+damit wir zurück nach Crescent Isle können!\c"
+MGaa010004,"\h(«Aika»)Hier läuft's mir kalt den Rücken runter……
+Egal, wie oft wir hierher kommen. Können wir
+jetzt nach Hause, Vyse?\c"
+MGaa010005,"\h(«Aika»)Die Luft hier unten macht es einem auch schwer,
+zu atmen…… dabei muss ich allerdings zugeben,
+dass es hier unten ganz interessant ist.\c"
+MGaa020000,"\h(«Fina»)Wenn wir die Dark Rift sicher hinter uns
+gebracht haben, müsste Yafutoma irgendwo
+auf der anderen Seite sein.\c"
+MGaa020001,"\h(«Fina»)Es…… es macht mich traurig, wenn ich an all
+die tapferen Matrosen denke, die ihr Leben in
+diesem Strudel gelassen haben.\c"
+MGaa020002,"\h(«Fina»)Der Yellow Gigas schläft irgendwo im Maw of
+Tartas……\e"
+MGaa020003,"\h(«Fina»)Wenn die Geschichten wahr sind, ist der Yellow
+Crystal im Körper des Yellow Gigas eingelassen.
+Wir müssen sehr vorsichtig sein……\c"
+MGaa020004,"\h(«Fina»)Es fühlt sich etwas seltsam an, im Innern der
+Insel von Valua herumzufliegen, nicht wahr?\c"
+MGaa020005,"\h(«Fina»)Dieser…… Ort ist erstaunlich.
+Ob wir hier wohl mein Schiff finden werden……\c"
+MGaa020006,"\h(«Fina»)Dieser Ort jagt mir Angst ein, egal wie
+oft wir hierher kommen……\c"
+MGaa040000,"\h(«Enrique»)Würg…… Dieses Schiff schaukelt so…… so sehr……
+Bitte behellige mich jetzt nicht…… ich……
+mir ist ziemlich schlecht.\c"
+MGaa040001,"\h(«Enrique»)Noch nicht einmal die Armada hat es durch die
+Dark Rift geschafft, und hier sind wir nun……\c"
+MGaa040002,"\h(«Enrique»)Ich hätte nie gedacht, dass ich einmal
+innerhalb des Bodens von Valua fliegen
+würde……\e"
+MGaa040003,"\h(«Enrique»)All das hätte ich nie zu Gesicht bekommen,
+wenn ich weiterhin im Palast eingeschlossen
+geblieben wäre……\c"
+MGaa040004,"\h(«Enrique»)Die Aussicht ist phänomenal…… ich hätte nie
+gedacht, dass es unterhalb der Wolken eine
+solche Welt geben könnte.\e"
+MGaa040005,"\h(«Enrique»)Was bezweckt die Armada damit, wenn sie Schiffe
+baut, die hier hinabtauchen können? Was hat
+dieser Galcian vor?\c"
+MGaa040006,"\h(«Enrique»)Bald ist der Kampf vorüber. Wir müssen Ramirez
+besiegen und den Menschen dieser Welt Frieden
+bringen!\c"
+MGaa040007,"\h(«Enrique»)Vyse, nimm mich mit. Ich möchte mit dir nach
+Soltis gehen.\e"
+MGaa040008,"\h(«Wirst du Enrique mitnehmen?»)“Na klar, Enrique.”
+“Tut mir Leid, aber wir brauchen dich hier.”\e"
+MGaa040009,"\h(«Vyse»)Na klar, Enrique.
+Es wäre uns eine Ehre, wenn du mit uns fährst.\e"
+MGaa040010,"\h(«Enrique»)Danke, Vyse!
+Ich werde kämpfen, so gut ich kann! Ich werde
+euch nicht enttäuschen……\e"
+MGaa040011,\h( )Enrique hat sich zu deiner Gruppe gesellt.\c
+MGaa040012,"\h(«Enrique»)Verstehe.
+Also, wenn du es dir anders überlegst, sag
+mir Bescheid. Ich stehe dir augenblicklich
+zur Verfügung.\c"
+MGg0040000,"\h(«Pow»)Pau, pau!
+Pau, pau!\c"
+MGg1110000,"\h(«Lawrence»)Ihr wollt nach Crescent Isle, nicht wahr?
+Das ist nördlich von Nasr.
+Möchtest du das Steuer übernehmen?\e"
+MGg1110001,"\h(«Was wirst du tun?»)“Das Steuer übernehmen.”
+“Mich noch ein wenig umsehen.”\e"
+MGg1110002,\h(«Lawrence»)Gut. Ich überlasse dir alles.\c
+MGg1110003,"\h(«Lawrence»)Also gut. Ich werde das Steuer noch etwas
+länger übernehmen.\c"
+MGg1140000,"\h(«Pinta»)Prinz Enriques Schiff sollte das mächtigste
+Schiff in der ganzen Valuan Armada sein!
+Es wurde unter Verwendung der neuesten
+Legierungen und Techniken hergestellt!\e"
+MGg1140001,"\h(«Pinta»)Und du hast nicht nur das Schiff gestohlen,
+Vyse, du hast auch gleich den Prinzen aus Valua
+entführt! Du bist eine ziemliche Berühmtheit
+geworden!\c"
+MGg2000000,"\h(«Vyse»)Was ist das?
+Ist hier etwas drin?\e"
+MGg2000001,"\h(«Marco»)Gähn…
+Mann, es fühlt sich gut an, endlich da
+rauszukommen.\e"
+MGg2000002,"\h(«Marco»)He…… lange nicht gesehen, Vyse!\e"
+MGg2000003,"\h(«Vyse»)Marco!
+Was machst du denn hier?!\e"
+MGg2000004,"\h(«Marco»)Ich habe gehört, dass das Schiff des Prinzen
+fertig ist und zur Abfahrt bereitgemacht wird.\e"
+MGg2000005,"\h(«Marco»)Also habe ich mich an Bord geschlichen und
+wollte damit aus Valua entkommen.\e"
+MGg2000006,"\h(«Marco»)Ich habe gehört, der Prinz sei ein wirklich
+netter Typ, also habe ich gedacht, er würde
+mich nicht dafür umbringen, weil ich fliehen
+wollte. Zumindest nicht sofort.\e"
+MGg2000007,"\h(«Marco»)Aber wer hätte gedacht, dass ausgerechnet du
+dieses Schiff in deine Hände bekommst! Jetzt
+brauche ich dich wenigstens nicht mehr
+zu suchen!\e"
+MGg2000008,"\h(«Marco»)Ich werde mit dir mitfahren, ob du es willst
+oder nicht. Aber, keine Sorge…… ich werde dir
+nicht im Weg sein, ok?\e"
+MGg2000009,"\h(«Vyse»)He…… du bist ganz schön aufdringlich, Junge.
+Aber warum nicht…… du wirst mein erstes
+Crewmitglied!\e"
+MGg2000010,"\h( )Marco ist als “Matrose” zu deiner Mannschaft
+gestoßen.\c"
+MGgg050000,"\h(«Gilder»)He, Vyse.
+Ich weiß nicht, woher es kommt, aber ich höre
+immerzu dieses komische Geräusch dort oben……\e"
+MGgg050001,"\h(«Gilder»)Ich habe mich umgeschaut, aber ich konnte nicht
+herausfinden, woher es kam. Vielleicht hast du
+mehr Glück. Oh, und wenn du fertig bist, muss
+ich mit dir sprechen.\c"
+MGgg050002,"\h(«Gilder»)Hallo, Vyse. Hast du dich auf dem Schiff
+umgesehen? Ich möchte mit dir über etwas
+sprechen.\e"
+MGgg050003,"\h(«Was wirst du sagen?»)“Bin beschäftigt, lass uns später unterhalten?”
+“Bin fertig. Worüber wolltest du reden?”\e"
+MGgg050004,\h(«Vyse»)Ich habe mich noch nicht überall umgesehen……\e
+MGgg050005,"\h(«Gilder»)Kein Problem. Lass dir Zeit. Aber wenn du
+fertig bist, muss ich trotzdem noch mit dir
+sprechen!\e"
+MGgg050006,"\h(«Vyse»)Ich habe mehr oder weniger alles gesehen,
+was ich wollte. Worüber wolltest du mit mir
+sprechen?\e"
+MGgg050007,"\h(«Gilder»)Nun, also……\e"
+MGgg010000,"\h(«Aika»)Diese Crescent Isle, auf die wir Kurs nehmen,
+ist doch die Insel, auf der du gestrandet
+warst, nicht wahr? Ich kann's kaum erwarten,
+sie zu sehen!\e"
+MGgg010001,"\h(«Aika»)Ich kann es noch immer nicht fassen……
+Wir bekommen unser eigenes Hauptquartier!
+Genau wie auf Pirate Isle! Ist das nicht
+aufregend?!\e"
+MGgg010002,"\h(«Aika»)Wir sollten uns darauf konzentrieren, 100.000
+Goldstücke zusammenzubekommen. Es ist
+wichtiger, einen Stützpunkt aufzubauen, als
+die Kristalle sofort zu bekommen!\c"
+MGgg020000,"\h(«Fina»)Haha…… ich war schon immer neugierig darauf,
+auf welcher Art von Insel du gestandet warst.\c"
+MGgg020001,"\h(«Fina»)Wir sollten versuchen, ein bisschen Geld
+zusammenzusparen, damit Brabham die nötigen
+Änderungen an diesem Schiff vornehmen kann.
+Das sollte nicht allzu lange dauern……\c"
+MS00040000,"\h(«Pow»)¡Pow pow!
+¡Pow pow!\c"
+MS01110000,"\h(«Lawrence»)Tú quieres ir a la Isla de la Luna, ¿no?
+Está al norte de Nasr.
+¿Quieres coger el timón?\e"
+MS01110001,"\h(«Lawrence»)Esperanza está al sur de Nasr.
+¿Quieres coger el timón?\e"
+MS01110002,"\h(«Lawrence»)Debe haber un lugar de calma dentro de la Gruta
+Oscura…… por ahí podremos entrar.
+¿Quieres coger el timón?\e"
+MS01110003,"\h(«Lawrence»)Si seguimos en dirección noreste llegaremos a
+Yafutoma…… ¿Quieres coger el timón?\e"
+MS01110004,"\h(«Lawrence»)Yo me encargo a partir de ahora.
+Mejor que te des prisa y vayas a cubierta.\c"
+MS01110005,"\h(«Lawrence»)Quieres ir a las Tierras de Hielo, ¿no?
+Creo que están al sur del Océano Sur.
+¿Quieres coger el timón?\e"
+MS01110006,"\h(«Lawrence»)¿Quieres ir por debajo de Valua?
+Claro…… ¿Quieres coger el timón?\e"
+MS01110007,"\h(«Lawrence»)¿Quieres ir a la Isla Dangral? Está bajo las
+nubes, al suroeste de Isla Los Marinos, ¿no?
+¿Quieres coger tú el timón?\e"
+MS01110008,"\h(«Lawrence»)Debajo del mar de Grandes Nubes, junto al
+remolino que se encuentra cerca de la Isla del
+Templo, ¿no?
+¿Quieres llevar tú el timón?\e"
+MS01110009,"\h(«Lawrence»)¿A Isla Los Marinos?
+¿Quieres coger el timón?\e"
+MS01110010,"\h(«Lawrence»)Tenemos que ir a la isla que está en el Océano
+Medio, ¿no? Entonces, ¿quieres coger el timón?\e"
+MS01110011,"\h(«¿Qué vas a hacer?»)“Coger el timón.”
+“Ver un poco más del barco.”\e"
+MS01110012,\h(«Lawrence»)Vale. Coge el timón.\c
+MS01110013,\h(«Lawrence»)Ya veo.\c
+MS01110014,"\h(«Lawrence»)Si hubiera sabido todas las cosas que tengo que
+hacer, habría pedido más de 10.000 piezas de
+oro.\e"
+MS01110015,\h(«Lawrence»)¿Así que quieres hacerte con el timón?\e
+MS01110016,"\h(«¿Qué vas a hacer?»)“Coger el timón.”
+“Ver un poco más del barco.”\e"
+MS01110017,"\h(«Lawrence»)Muy bien, dejo el barco en tus manos,
+Capitán Vyse.\c"
+MS01110018,"\h(«Lawrence»)Pues muy bien. Seguiré dirigiendo el barco por
+ahora. Tú será mejor que te des una vuelta por
+el barco y hables con la tripulación.\c"
+MS01140002,"\h(«Pinta»)Esperanza era una ciudad bastante próspera……
+Hasta que Valua perdió su interés en ella.\e"
+MS01140003,"\h(«Pinta»)Se interrumpieron las actividades comerciales
+con Esperanza y ahora sólo puedes encontrar
+desperdicios oxidados y marineros sin ilusión.\c"
+MS01140004,"\h(«Pinta»)Cuando Esperanza estaba en su apogeo, venían
+viajeros de todo el mundo que tentaban a la
+suerte atravesando la Gruta Oscura.\e"
+MS01140005,"\h(«Pinta»)He oído que también se daban cita ladrones y
+mercaderes un poco granujas en busca de
+marineros optimistas y confiados.\c"
+MS01140006,"\h(«Pinta»)¡Hemos logrado atravesar la Gruta Oscura!
+¡Ahora también puedo buscar objetos en esta
+parte del mundo!\c"
+MS01140007,"\h(«Pinta»)En Valua, existió una vez un estudioso que
+afirmaba que el mundo era redondo. Pero unos le
+calificaron de lunático y otros de hereje.\c"
+MS01140008,"\h(«Pinta»)Así que, para demostrar la validez de su teoría,
+el estudioso zarpó a navegar por todo el mundo……
+pero pereció en la Gruta Oscura.\c"
+MS01140009,"\h(«Pinta»)He oído que el Nasultán envía a un siervo
+personal a las Tierras de Hielo una vez al año
+para que recoja tanto hielo como sea posible.\e"
+MS01140010,"\h(«Pinta»)El hielo es el máximo lujo en Nasr. Sólo el
+Nasultán es lo suficientemente rico para poder
+darse ese lujo…… y sólo una vez al año.\c"
+MS01140011,"\h(«Pinta»)El templo de las Fauces de Tartas es seguramente
+el lugar más misterioso de Valua.\e"
+MS01140012,"\h(«Pinta»)En esa parte de la isla se producen terremotos.
+Pero si la isla es flotante, ¿cómo es posible
+que la tierra tiemble?\c"
+MS01140013,"\h(«Pinta»)He oído que en Valua están construyendo una
+especie de ascensor para llegar debajo del mar
+de Grandes Nubes.\e"
+MS01140014,"\h(«Pinta»)El caso es que nadie sabe dónde se para ese
+ascensor…… o a cuánta profundidad llega.\c"
+MS01140015,"\h(«Pinta»)La gente hace conjeturas sobre el mundo que hay
+bajo las nubes. Algunos dicen que es la tierra
+de los muertos, otros que es la tierra del oro.\e"
+MS01140016,"\h(«Pinta»)Pero nadie ha llegado a ver el Cielo Profundo.
+Es un gran misterio.\c"
+MS01140017,"\h(«Pinta»)Valua prometió recompensar a quien encontrara a
+Enrique y lo trajera sano y salvo. Los Cazadores
+de Recompensas Valuan seguían su pista.\e"
+MS01140018,"\h(«Pinta»)Nadie creyó que regresaría por su propia
+voluntad. Los Cazadores de Recompensas estaban
+muy decepcionados, por decirlo de forma suave.\c"
+MS01140019,"\h(«Pinta»)¿Así que es cierto que hay un templo que se alza
+sobre el cielo?\e"
+MS01140020,"\h(«Pinta»)…… Ni siquiera yo lo sabía. ¡Me gustaría mucho
+verlo con mis propios ojos alguna vez!\c"
+MS01140021,"\h(«Pinta»)¡No me puedo creer que una isla surgiera de
+debajo de las nubes!\c"
+MS01140022,"\h(«Pinta»)Vyse, si ganas esta batalla y vuelves a casa
+sano y salvo……\e"
+MS01140023,"\h(«Pinta»)¡Haré correr la voz sobre tus aventuras! ¡Todos
+sabrán de Vyse, el Pirata Aéreo de bravura tan
+sólo comparable a la del mismísimo Daccat!\c"
+MS01140024,"\h(«Pinta»)¡¿Intenta abordarnos un barco enemigo?!
+¡Oh, no!
+¡Tenemos que prepararnos para la batalla!\c"
+MS05100000,"\h(«Hans»)¡Este navío es asombroso!
+¡Tan solo la potencia que se necesita para
+ponerlo en movimiento debe ser extraordinaria!\c"
+MS05100001,"\h(«Hans»)Caray…… ¡el exterior del Delphinus es tan
+resistente que el navío puede volar a través de
+arrecifes o incluso glaciares!\c"
+MS05100002,"\h(«Hans»)Ese navío…… ¿No es ese navío el Little Jack, el
+barco de Drachma?\e"
+MS05100003,"\h(«Hans»)Mi padre me contó que aunque el navío es viejo,
+lo miman y cuidan mucho.
+Dijo que es un buen navío.\c"
+MS05100004,"\h(«Hans»)¡Vyse, vamos a explorarlo todo! ¡Ahora que
+podemos volar a altitudes tan altas y tan bajas,
+tenemos que aprovecharnos!\e"
+MS05100005,"\h(«Hans»)¡De verdad que estoy impaciente por ver qué tal
+funciona el motor recién mejorado del Delphinus!\c"
+MS05100006,"\h(«Hans»)¿Has logrado hacerte con los planos Valuan para
+el nuevo motor? ¡Caray, cómo me gustaría
+echarles un vistazo!\c"
+MS05100007,"\h(«Hans»)¡Estoy impaciente por ver lo que se oculta bajo
+el mar de Grandes Nubes! ¡Deprisa, probemos la
+capacidad de inmersión del Delphinus!\c"
+MS05100008,"\h(«Hans»)Es de lo más descorazonador pensar que en cuanto
+volvamos, Enrique se marchará a Valua……\c"
+MS05100009,"\h(«Hans»)¿Así que el navío de Fina alcanza gran altitud?
+Me pregunto qué tipo de motor llevará……\c"
+MS05100010,"\h(«Hans»)Me gustaría saber cuánta potencia se necesitó
+para elevar Soltis por encima del Cielo
+Profundo.\c"
+MS05100011,"\h(«Hans»)¡De esa isla salía un destello de luz!
+Me gustaría saber de dónde procedía……\c"
+MS05100012,"\h(«Hans»)¡El Delphinus está totalmente reparado!
+¡Vamos, Capitán Vyse!\c"
+MS07060000,"\h(«Don»)Deberíamos volver a la Isla de la Luna.
+¿Quieres coger el timón?\e"
+MS07060001,"\h(«Don»)Bueno…… Las Tierras de Hielo deben estar al sur
+del Océano Sur. ¿Quieres llevar tú el timón
+ahora?\e"
+MS07060002,"\h(«Don»)Íbamos a ir a Valua e inspeccionar lo que había
+debajo, ¿no? ¿Por qué no te haces cargo del
+timón?\e"
+MS07060003,"\h(«Don»)La Isla Dangral debe estar debajo de las nubes,
+al sudoeste de Isla Los Marinos. ¿Quieres llevar
+el timón?\e"
+MS07060004,"\h(«Don»)El remolino que nos arrastrará al interior del
+Cielo Profundo está cerca de la Isla del Templo,
+¿no? Entonces debe estar en el Océano Medio.\e"
+MS07060005,"\h(«Don»)Isla Los Marinos está en el Océano Medio, ¿no?
+Capitán…… ¿quieres llevar tú el timón?\e"
+MS07060006,"\h(«Don»)¿Quieres decir que vamos a esa isla que apareció
+en el Océano Medio? Oh, Dios……
+Esto no me da muy buena espina……\e"
+MS07060007,"\h(«Don»)Entonces muy bien. Estaré descansando en el
+comedor. Dejo el navío en tus manos, Vyse.\c"
+MS07060008,"\h(«Don»)Bueno, eso significa que puedo dirigir el navío
+un rato más.\c"
+MS07060009,"\h(«Don»)Nos dirigimos hacia esa isla, ¿no?
+¿Quieres coger el timón, Capitán Vyse?\c"
+MS07060010,"\h(«¿Qué vas a hacer?»)“Coger el timón.”
+“Ver el barco un poco más.”\e"
+MS07060011,"\h(«Don»)Muy bien. ¡Suerte, Capitán!\c"
+MS07060012,"\h(«Don»)Yo me ocupo del navío a partir de ahora.
+Baja a hablar con el resto de la tripulación.\c"
+MS08070000,"\h(«Moegi»)No sé mucho de navegación, ni siquiera del mundo
+que hay fuera de Yafutoma……\e"
+MS08070001,"\h(«Moegi»)…… pero te prometo que voy a hacer lo que esté
+en mi mano para ayudar en todo lo que pueda.\c"
+MS08070002,"\h(«Moegi»)Un país totalmente cubierto de hielo……
+Nunca habría imaginado que existen lugares como
+éste.\c"
+MS08070003,"\h(«Moegi»)El Príncipe Enrique me habló de ese hombre,
+Drachma.\e"
+MS08070004,"\h(«Moegi»)Ha pasado por tantas cosas. Espero que encuentre
+lo que está buscando.\c"
+MS08070005,"\h(«Moegi»)Aunque sé que no vamos a entrar en la misma
+ciudad de Valua, sigo estando nerviosa…… por
+Enrique.\c"
+MS08070006,"\h(«Moegi»)¡Vyse, has reunido todos los Cristales Lunares!
+¡Enhorabuena!\e"
+MS08070007,"\h(«Moegi»)Estoy preocupada por Fina…… No tiene buen
+aspecto. Quizá sólo esté cansada.\c"
+MS08070008,"\h(«Moegi»)Desde que volvimos de Isla Dangral,
+Enrique ha estado muy callado……
+Espero que esté bien……\c"
+MS08070009,"\h(«Moegi»)Vyse…… Sé que soy un miembro de la tripulación y
+te debo entera lealtad, pero……\e"
+MS08070010,"\h(«Moegi»)…… una parte de mí desea que nunca lleguemos a
+Isla Los Marinos. Tengo la sensación de que algo
+terrible le sucederá a Enrique.\c"
+MS08070011,"\h(«Moegi»)El Príncipe Enrique lucha valientemente en
+solitario, en Valua…… ¡Yo también lucharé por el
+bien de esta misión!\c"
+MS08070012,"\h(«Moegi»)Esa isla que se elevó de debajo de las nubes……
+hay algo raro en ella…… Tengo la sensación de
+que una extraña energía emana de la isla……\c"
+MS08070013,"\h(«Moegi»)Por un momento me ha parecido oír a Enrique.
+Debe ser mi imaginación, perdona……
+Qué sensación tan rara……\e"
+MS08070014,\h(«Moegi»)Vyse…… Sé que ha pasado algo malo……\c
+MS08070015,"\h(«Moegi»)¡Vamos a seguir, Vyse!
+¡Aunque me fallen las fuerzas, voy a intentar
+ser de ayuda en esta misión!\c"
+MS08070016,"\h(«Brabham»)¡El libro Yafutoman es increíble! ¡No me puedo
+creer que estén tan avanzados!\e"
+MS08070023,"\h(«Brabham»)Cuando regresemos a las Tierras de Hielo ya me
+habré convertido en todo un experto.\c"
+MS08070017,"\h(«Brabham»)¡Con todas las especificaciones sobre motores
+que he aprendido de los Yafutoman, vamos a volar
+por todo el cielo!\c"
+MS08070018,"\h(«Brabham»)Mmm…… Enrique parece abatido. Cuando yo era
+joven, solíamos ir a ligar…… ¡A las mujeres les
+encantan los marinos! ¡Con eso nos animábamos!
+¡Sí, capitán!\c"
+MS08070019,"\h(«Brabham»)¡Construir el Motor del Mar de Grandes Nubes es
+lo más complicado que he hecho jamás!
+¡Aún me duele la espalda de tanto trabajo!\e"
+MS08070020,"\h(«Brabham»)En la vida hubiera pensado que llegaría a ver un
+motor de semejante potencia…… Nadie diría que
+tengo 147 años.\c"
+MS08070021,"\h(«Brabham»)Esa isla tan extraña…… ¡salió del Cielo
+Profundo!\c"
+MS08070022,"\h(«Brabham»)¡El Delphinus funciona mejor que nunca!
+¡Me encanta este barco! ¿No es un portento?\c"
+MSp0010003,"\h(«Aika»)Es genial, ¿no crees, Vyse? ¡Por fin podemos
+atravesar las grietas celestes!\c"
+MSp0010004,"\h(«Aika»)¡No puedo creerlo! ¡Con la cantidad de cosas que
+hay para ver allí!\c"
+MSp0010005,"\h(«Aika»)¿Así que vamos a intentar atravesar la Gruta
+Oscura? Me pregunto cómo será. Odio admitirlo,
+pero la verdad es que tengo un poco de miedo.\c"
+MSp0010006,"\h(«Aika»)¡Vyse, lo has conseguido!
+¡Hemos logrado cruzar la Gruta Oscura!\e"
+MSp0010007,"\h(«Aika»)¡Por fin conoceremos Yafutoma! Espero que no
+quieran comernos usando unos palillos.
+Fina, será mejor que escondas a Cupil……\e"
+MSp0010008,"\h(«Aika»)¡Vyse! ¡El enemigo se prepara para el abordaje!
+¡Te necesitamos en cubierta, deprisa!\c"
+MSp0010009,"\h(«Aika»)¿Los Tenkou?
+Supongo que Yafutoma tiene sus propios Piratas
+Aéreos……\c"
+MSp0010010,"\h(«Aika»)Si seguimos en dirección Este y llegamos a la
+Isla de la Luna, eso sólo significaría una
+cosa……\e"
+MSp0010011,"\h(«Aika»)¡Que los límites del mundo están unidos!
+Pero…… supongo que entonces no son los límites
+del mundo……\c"
+MSp0010012,"\h(«Aika»)¡Toda la isla está helada! Ja…… ¡Se acerca un
+Vyciclón, Vyse! Mucho cuidado, que se me olvidó
+traer el cincel.\c"
+MSp0010013,"\h(«Aika»)Capitán Drachma…
+Espero que esté bien……\c"
+MSp0010014,"\h(«Aika»)¡Bueno, como podemos volar a gran altitud,
+podremos ir a donde queramos!\c"
+MSp0010015,"\h(«Aika»)¡Hemos reunido todos los Cristales Lunares!
+¡Deprisa, tenemos que regresar a la Isla de la
+Luna!\c"
+MSp0010016,"\h(«Aika»)La Isla Dangral……
+Debe estar bajo las nubes al sudoeste de Isla
+Los Marinos……\c"
+MSp0010017,"\h(«Aika»)Lo siento mucho por Enrique. Debe sentirse
+fatal. Le deberíamos dejar solo un rato.\e"
+MSp0010018,"\h(«Aika»)En teoría podemos bajar hasta el Cielo Profundo
+por el remolino que hay junto a la Isla del
+Templo. ¡Vamos, Vyse!\c"
+MSp0010019,"\h(«Aika»)Cuando hayamos vuelto a Isla Los Marinos
+tendremos que decir adiós a Enrique……
+Odio las despedidas……\e"
+MSp0010020,"\h(«Aika»)¡Si no detenemos a Galcian ahora, Dios sabe qué
+va a suceder! ¡Vyse, tenemos que ir a Isla
+Dangral cuanto antes!\c"
+MSp0010021,"\h(«Aika»)Quién hubiera dicho que antes había una isla tan
+grande en el Océano Medio…… Y justo al lado de
+nuestra Isla del Pirata……\c"
+MSp0010022,"\h(«Aika»)Vyse……
+Tenemos que darnos prisa en volver a la Isla de
+la Luna.\e"
+MSp0010023,"\h(«Aika»)Odio decir esto, pero…… ahora mismo no podemos
+hacer nada para acabar con la isla.\c"
+MSp0010024,"\h(«Aika»)Bueno, supongo que ha llegado el momento de
+acabar con esto. Mentiría si dijera que no tengo
+miedo……\e"
+MSp0010025,"\h(«Aika»)Pero cuando veo que te has convertido en un
+fantástico capitán, me siento mejor, Vyse.
+¡Mira todos los que te apoyan en la batalla!\e"
+MSp0010026,"\h(«Aika»)Todos creen en ti…… confían en ti……
+y yo también. Tenemos que ganar, ¿entendido,
+Capitán Vyse?\c"
+MSp0020002,"\h(«Fina»)La ciudad de Esperanza……
+Primero tenemos que ir allí.
+Se encuentra en el extremo sur de Nasr.\c"
+MSp0020003,"\h(«Fina»)Si pasamos al otro lado de la Gruta Oscura,
+encontraremos Yafutoma.\c"
+MSp0020004,"\h(«Fina»)Por fin llegamos a los cielos de la Luna Azul……
+Las tierras de Yafutoma deben estar cerca……\c"
+MSp0020005,"\h(«Fina»)¡Vyse! ¡Salir a cubierta sin estar preparado
+para la batalla es demasiado peligroso!\c"
+MSp0020006,"\h(«Fina»)Es muy raro……
+Soy una Silvite. Nací y me crié en el Gran
+Relicario de Plata……\e"
+MSp0020007,"\h(«Fina»)Pero, por alguna razón, me siento más a gusto en
+la Isla de la Luna que en ningún otro sitio……\c"
+MSp0020008,"\h(«Fina»)Las Tierras de Hielo……
+En algún lugar, sepultado bajo todo ese hielo,
+yace el Cristal Púrpura. Espero que lo
+encontremos……\c"
+MSp0020009,"\h(«Fina»)Vyse……
+Volvamos a la Isla de la Luna.\c"
+MSp0020010,"\h(«Fina»)Nunca pensé que podríamos entrar en Valua por
+las Fauces de Tartas……\c"
+MSp0020011,\h(«Fina»)¡Por fin tenemos el quinto Cristal!\e
+MSp0020012,"\h(«Fina»)Si conseguimos encontrar los planos de ese navío
+Valuan en la Isla Dangral, podríamos ir al Cielo
+Profundo y buscar mi navío……\c"
+MSp0020013,"\h(«Fina»)Enrique…… Está muy callado últimamente. Me tiene
+un poco preocupada……\c"
+MSp0020014,"\h(«Fina»)Los Valuan me atacaron junto a la Isla del
+Pirata……\e"
+MSp0020015,"\h(«Fina»)Mi navío debe estar en algún lugar del Cielo
+Profundo.\c"
+MSp0020016,\h(«Fina»)Enrique por fin podrá volver a su tierra……\c
+MSp0020017,"\h(«Fina»)Ramírez…… ¡Tenemos que detenerle!
+¡Tenemos que llegar a la Isla Dangral cuanto
+antes!\c"
+MSp0020018,"\h(«Fina»)Ramírez…… ¡¿Me pregunto qué está haciendo en
+Soltis?!\e"
+MSp0020019,"\h(«Fina»)¡¡……!!
+No…… él no haría……\c"
+MSp0020020,"\h(«Fina»)¿Por qué, Vyse? ¿Por qué……?\c"
+MSp0020021,"\h(«Fina»)¡Vamos, Vyse!
+¡Tenemos que ir a Soltis!\e"
+MSp0020022,"\h(«Fina»)¡Voy a luchar contigo!
+Hay que detener a Ramírez.\c"
+MSa0040000,\h(«Pow»)¡Pow! ¡Pow! ¡Pow!\e
+MSa1110000,\h(«Lawrence»)¿Quieres coger el timón?\e
+MSa1110001,"\h(«¿Qué vas a hacer?»)“Coger el timón.”
+“Ver un poco más del barco.”\e"
+MSa1110002,"\h(«Lawrence»)Vale, entonces dejo el navío en tus manos.\c"
+MSa1110003,\h(«Lawrence»)Entiendo. Muy bien.\c
+MSa1110004,"\h(«Lawrence»)He sido perseguido por todo tipo de navíos, pero
+nunca me habían seguido hasta el Cielo Profundo.
+Supongo que para todo hay una primera vez.\e"
+MSa1110005,"\h(«¿Qué vas a hacer?»)“Coger el timón.”
+“Ver un poco más del barco.”\e"
+MSa1110006,"\h(«Lawrence»)La visibilidad es mala ahora mismo.
+Ten cuidado por dónde vuelas.\c"
+MSa1110007,\h(«Lawrence»)Entiendo. Muy bien.\c
+MSa1140000,"\h(«Pinta»)Aquí hay restos de muchos navíos. Asusta un poco
+si lo piensas.\c"
+MSa1140001,"\h(«Pinta»)Muchos aventureros han intentado entrar a Valua
+colándose por las grietas y fisuras que hay por
+debajo.\e"
+MSa1140002,"\h(«Pinta»)Pero sus navíos no podían volar a altitudes tan
+bajas como para alcanzar la entrada.\c"
+MSa1140003,"\h(«Pinta»)Me alegro de haber sido uno de los pocos
+elegidos que han visto el Cielo Profundo……\e"
+MSa1140004,"\h(«Pinta»)Lo único que siento es que no llegué a bordo de
+mi propio navío. No se puede tener todo……\c"
+MSa2000000,"\h(«Marco»)Este sitio me parece siniestro…… ¡Vamos a darnos
+prisa y a terminar lo que hemos venido a hacer
+para que podamos largarnos de aquí!\c"
+MSa2000001,"\h(«Marco»)La ciudad en la que vivía antes está justo
+encima. Nunca pensé que algún día saldría de
+allí……\c"
+MSa2000002,"\h(«Marco»)Brabham me dijo que aquí abajo debíamos tener
+los postigos cerrados para no ver a los
+fantasmas de fuera……\e"
+MSa2000003,\h(«Marco»)Será verdad eso de que hay fantasmas afuera……\c
+MSa5100000,"\h(«Hans»)Seguramente este navío ha sido el primero en
+atravesar las Fauces de Tartas. Eso ya es un
+gran logro.\c"
+MSa5100001,"\h(«Hans»)El motor parece estar bien. ¡De verdad que es
+asombroso que alguien edificara un navío de esta
+potencia y envergadura! Es impresionante……\c"
+MSa5100002,"\h(«Hans»)Así que ésta es la tristemente famosa Gruta
+Oscura que se ha cobrado tantas vidas…… ¡Y el
+Delphinus ni siquiera se mece con el viento!\c"
+MSa5210000,"\h(«Tikatika»)Hay demasiadas rocas. Este sitio es horrible.
+Quizá sea porque los Valuan tienen pensamientos
+horribles.\c"
+MSa5210001,"\h(«Tikatika»)No veo nada, pero tengo un mal presentimiento.\c"
+MSa5210002,"\h(«Tikatika»)Hay muchos navíos hundidos por aquí.
+¿Me pregunto si también habrá tesoros……?\c"
+MSa7060000,"\h(«Don»)No se ve nada aquí abajo…… Es casi imposible
+saber adónde nos dirigimos.
+¿Eh? ¿Querías coger el timón, Capitán?\e"
+MSa7060001,"\h(«¿Qué vas a hacer?»)“Coger el timón.”
+“Ver un poco más del barco.”\e"
+MSa7060002,"\h(«Don»)Está bien, pero asegúrate de que no chocamos y
+no habrá ningún problema.\c"
+MSa7060003,"\h(«Don»)En fin…… Supongo que eso significa que voy a
+tener que quedarme aquí para que todo vaya bien.
+Vuelta al trabajo……\c"
+MSa7060004,"\h(«Don»)¡¡La visibilidad es espantosa, no sabemos hacia
+dónde vamos y todavía me haces conducir este
+cacharro!! Deberías coger el timón.\e"
+MSa7060005,"\h(«¿Qué vas a hacer?»)“Coger el timón.”
+“Ver un poco más del barco.”\e"
+MSa7060006,"\h(«Don»)¡Gracias a las Lunas! Por fin puedo relajarme un
+poco. Ten cuidado y procura que no nos maten a
+todos, ¿de acuerdo?\c"
+MSa7060007,"\h(«Don»)¡¿Cómo?! Ah, bueno…… Intentaré que no nos
+matemos en un rato.\c"
+MSa7060008,"\h(«Don»)O sea que esto es el interior de la Gruta
+Oscura…… Tantos amigos encontraron aquí su
+destino…… Será mejor que lleves tú el timón.\e"
+MSa7060009,"\h(«¿Qué vas a hacer?»)“Coger el timón.”
+“Ver un poco más del barco.”\e"
+MSa7060010,"\h(«Don»)Gracias, Vyse. Estaré abajo en la cocina.
+Todo esto es un poco difícil para mí……\c"
+MSa7060011,"\h(«Don»)Muy bien, Capitán…… Lo haré lo mejor que
+pueda.\c"
+MSa8070000,"\h(«Moegi»)Cuesta creer que estamos justo debajo de la
+tierra natal de Enrique.\c"
+MSa8070001,"\h(«Moegi»)En Yafutoma, hay historias de demonios que viven
+bajo las nubes y se comen a los niños malos.\e"
+MSa8070002,"\h(«Moegi»)Pero viendo lo oscuro que está aquí abajo, casi
+me creo todas esas historias de los niños……\c"
+MSa8070003,"\h(«Moegi»)Esta tormenta…… Según creo la llamáis la Gruta
+Oscura…… Es lo que ha mantenido a Yafutoma
+aislada del resto del mundo……\c"
+MSa4000000,"\h(«Brabham»)Éste debe ser el único barco del mundo que puede
+sobrevivir a un viaje al Cielo Profundo.\e"
+MSa4000001,"\h(«Brabham»)¡Piénsalo! ¡¡El Delphinus también ha sido el
+primer navío en entrar en las Fauces de
+Tartas!!\c"
+MSa4000002,\h(«Brabham»)¡El motor está bien! ¡Aún nos mantenemos!\c
+MSa4000003,"\h(«Brabham»)No creo que el Delphinus vaya a tener ningún
+problema en la Gruta Oscura. ¡Podremos
+atravesarla sin problemas!\c"
+MSa4050000,"\h(«Domingo»)Cuando pienso que ni siquiera los mismísimos
+Valuan han visto el interior de las Fauces de
+Tartas……\e"
+MSa4050001,"\h(«Domingo»)…… hace que este lugar parezca tan……
+especial, no sé por qué.
+¿No crees, Vyse?\c"
+MSa4050002,"\h(«Domingo»)Echa un vistazo alrededor, Vyse……
+Es la primera vez que alguien está aquí……
+Piénsalo, estamos en el Cielo Profundo……\e"
+MSa4050003,"\h(«Domingo»)De algún modo, eso hace que este sitio tan
+oscuro sea algo más cálido , ¿no crees? Piensa
+en todos los tesoros hundidos que debe haber……\c"
+MSa4050004,"\h(«Domingo»)Aquí abajo hay muchos navíos hundidos.
+Me pregunto cuántos de esos navíos serían de
+Piratas Aéreos……\e"
+MSa4050005,"\h(«Domingo»)Je, je…… Le dan a uno ganas de salir a buscar
+tesoros entre los escombros, ¿verdad?\c"
+MSa4060000,"\h(«Ilchymis»)Así que esto son las Fauces de Tartas…… Si los
+demás científicos de Valua supieran dónde estoy,
+se quedarían mudos de admiración……\c"
+MSa4060001,"\h(«Ilchymis»)Qué lugar tan asombroso…… La energía bruta que
+irradia este lugar es…… grandiosa.\c"
+MSa4060002,"\h(«Ilchymis»)Así que…… ésta es la tristemente famosa Gruta
+Oscura. Tantas personas han perdido la vida en
+estos vientos……\c"
+MSaa010000,"\h(«Aika»)Vaya…… Echa un vistazo a todos esos navíos
+hundidos. Seguro que hay fantasmas errando a su
+alrededor…… ¡Vyse! ¡Larguémonos de aquí!\c"
+MSaa010001,"\h(«Aika»)Si pudiéramos pasar por una de estas grietas,
+llegaríamos a la zona que hay bajo el Gran
+Precinto, ¿no?\c"
+MSaa010002,"\h(«Aika»)Tenemos que encontrar el barco de Fina.
+Si algo aparece en la senda de ultrasonidos,
+utiliza las tenazas para cogerlo, ¿vale?\c"
+MSaa010003,"\h(«Aika»)Sin duda era algo duro. ¡Deprisa, vamos a
+encontrar el navío de Fina para poder regresar a
+la Isla de la Luna!\c"
+MSaa010004,"\h(«Aika»)Este sitio me pone los pelos de punta…… por
+muchas veces que viniera, nunca me
+acostumbraría. ¿Podemos irnos a casa ya, Vyse?\c"
+MSaa010005,"\h(«Aika»)Aquí, hasta el aire parece difícil de respirar……
+Pero hay que reconocer que es una experiencia
+interesante.\c"
+MSaa020000,"\h(«Fina»)Si logramos atravesar la Gruta Oscura, Yafutoma
+debe estar al otro lado.\c"
+MSaa020001,"\h(«Fina»)Me entristece pensar en todos los valerosos
+marinos que perdieron la vida en este
+remolino.\c"
+MSaa020002,"\h(«Fina»)El Gigas Amarillo duerme en algún lugar de las
+Fauces de Tartas……\e"
+MSaa020003,"\h(«Fina»)Si las historias no mienten, el Cristal Amarillo
+está en el interior del Gigas Amarillo.
+Tenemos que tener mucho cuidado……\c"
+MSaa020004,"\h(«Fina»)Es una sensación muy rara volar por dentro de la
+isla de Valua, ¿verdad?\c"
+MSaa020005,"\h(«Fina»)Este sitio…… este sitio es asombroso.
+Me pregunto si encontraremos mi nave aquí……\c"
+MSaa020006,"\h(«Fina»)Por mucho que vengamos…… este sitio siempre me
+dará miedo.\c"
+MSaa040000,"\h(«Enrique»)El navío se tambalea…… muchísimo……
+No me molestéis ahora mismo…… No…… me encuentro
+muy bien.\c"
+MSaa040001,"\h(«Enrique»)La Armada ni siquiera pudo atravesar la Gruta
+Oscura, y mira hasta dónde hemos llegado
+nosotros……\c"
+MSaa040002,"\h(«Enrique»)Jamás pensé que llegaría a volar por el interior
+de las tierras de Valua……\e"
+MSaa040003,"\h(«Enrique»)Nunca hubiese contemplado semejantes vistas si
+hubiera seguido encerrado en el palacio……\c"
+MSaa040004,"\h(«Enrique»)Las vistas son increíbles…… Cómo iba a pensar
+que bajo las nubes existe un mundo como éste.\e"
+MSaa040005,"\h(«Enrique»)¿Cuál es el verdadero objetivo de la Armada al
+construir navíos que puedan viajar hasta aquí
+abajo? Qué tendrá Galcian entre manos……\c"
+MSaa040006,"\h(«Enrique»)Pronto habrá terminado la batalla. ¡Tenemos que
+derrotar a Ramírez y devolver la paz a las
+gentes de este mundo!\c"
+MSaa040007,"\h(«Enrique»)Vyse, llévame contigo. Déjame ir contigo a
+Soltis.\e"
+MSaa040008,"\h(«¿Vas a llevar a Enrique contigo?»)“Pues claro, Enrique.”
+“Lo siento, pero te necesitamos aquí.”\e"
+MSaa040009,"\h(«Vyse»)Pues claro, Enrique.
+Sería un honor que te unieras a nosotros.\e"
+MSaa040010,"\h(«Enrique»)¡Gracias, Vyse!
+¡Lucharé con todas mis fuerzas! No te
+decepcionaré……\e"
+MSaa040011,\h( )Enrique se ha unido a tu grupo.\c
+MSaa040012,"\h(«Enrique»)Entiendo. Bueno, si cambias de opinión, avísame.
+Estoy dispuesto a salir a la batalla en cuanto
+me avises.\c"
+MSg0040000,"\h(«Pow»)¡Pow pow!
+¡Pow pow!\c"
+MSg1110000,"\h(«Lawrence»)¿Quieres ir a la Isla de la Luna?
+Mmm…… ¿al norte de Nasr?
+¿Quieres coger el timón?\e"
+MSg1110001,"\h(«¿Qué vas a hacer?»)“Coger el timón.”
+“Seguir echando un vistazo.”\e"
+MSg1110002,\h(«Lawrence»)Muy bien. Tú te ocupas entonces.\c
+MSg1110003,\h(«Lawrence»)Vale. Me haré cargo del timón otro rato.\c
+MSg1140000,"\h(«Pinta»)¡El navío del Príncipe Enrique es el más
+poderoso de la Armada Valuan! ¡Está fabricado
+con las más mejores aleaciones Valuan!\e"
+MSg1140001,"\h(«Pinta»)¡Pero no sólo te las arreglaste para robar el
+navío, Vyse! ¡Además secuestraste al Príncipe de
+Valua! ¡Te has hecho muy conocido!\c"
+MSg2000000,"\h(«Vyse»)¿Qué es esto?
+¿Hay algo aquí dentro?\e"
+MSg2000001,"\h(«Marco»)\eBostezo\eHombre, qué bien sienta salir por fin de ahí.\e"
+MSg2000002,"\h(«Marco»)Eeh…… ¡Cuánto tiempo, Vyse!\e"
+MSg2000003,"\h(«Vyse»)¡Marco!
+¡¿Pero qué estás haciendo aquí?!\e"
+MSg2000004,"\h(«Marco»)Me enteré de que se había terminado el navío del
+Príncipe y que lo estaban preparando para
+zarpar.\e"
+MSg2000005,"\h(«Marco»)Así que me colé a bordo y pretendía llegar a
+Valua en el barco.\e"
+MSg2000006,"\h(«Marco»)Bueno, había oído que el Príncipe era muy majo y
+pensé que no me mataría por intentar escapar.
+Por lo menos no inmediatamente.\e"
+MSg2000007,"\h(«Marco»)¡Pero lo que no se me habría ocurrido ni en un
+millón de años es que tú te harías con este
+navío! ¡Así no tendré que ir a buscarte!\e"
+MSg2000008,"\h(«Marco»)Me voy de viaje contigo, te guste o no.
+Pero no te preocupes…… no te molestaré, ¿de
+acuerdo?\e"
+MSg2000009,"\h(«Vyse»)Eh…… Tienes mucha cara, chaval. Pero por qué
+no…… ¡Serás el primer miembro de mi tripulación!\e"
+MSg2000010,"\h( )Marco se ha unido a la tripulación como
+“Marino”.\c"
+MSgg050000,"\h(«Gilder»)Oye, Vyse.
+No sé de dónde viene, pero estoy oyendo un ruido
+raro aquí arriba……\e"
+MSgg050001,"\h(«Gilder»)He mirado por todos lados, pero no sé de dónde
+viene. A lo mejor a ti se te da mejor.
+Y cuando termines, tengo que hablar contigo.\c"
+MSgg050002,"\h(«Gilder»)Hola, Vyse. ¿Has acabado de mirar el navío?
+Tengo que hablar contigo de algo.\e"
+MSgg050003,"\h(«¿Qué vas a decir?»)“La verdad es que aún no he terminado.”
+“Ya he visto casi todo lo que quería ver.”\e"
+MSgg050004,\h(«Vyse»)La verdad es que aún no he terminado……\e
+MSgg050005,"\h(«Gilder»)No hay problema. Tómate tu tiempo, pero cuando
+hayas terminado, tengo que hablar contigo, ¿de
+acuerdo?\e"
+MSgg050006,"\h(«Vyse»)Ya he visto más o menos todo lo que quería.
+¿De qué querías hablarme?\e"
+MSgg050007,"\h(«Gilder»)Bueno, la verdad es que……\e"
+MSgg010000,"\h(«Aika»)Esa Isla de la Luna hacia la que nos dirigimos
+es esa isla donde estuviste náufrago, ¿no?
+¡Estoy impaciente por ver cómo es!\e"
+MSgg010001,"\h(«Aika»)No puedo creerlo…… ¡Vamos a tener nuestra propia
+base! ¡Como en la Isla del Pirata! ¡¿Se supone
+que debe ser emocionante?!\e"
+MSgg010002,"\h(«Aika»)Tenemos que concentrarnos en ahorrar las 100.000
+piezas de oro. ¡Ahora mismo, tener una base es
+más importante que encontrar los Cristales!\c"
+MSgg020000,"\h(«Fina»)Ja, ja…… Tengo curiosidad por saber cómo es la
+isla donde estuviste náufrago.\c"
+MSgg020001,"\h(«Fina»)Tenemos que ahorrar el dinero para que Brabham
+pueda realizar las modificaciones necesarias en
+este navío. No llevará mucho tiempo……\c"
+"",me035h.sct
+"",me099a.sct
+"",M0233
+"",m5340000
+"",e6g016
+"",M0308
+"",a035gg16.mld
+"",a035gg16.mld
+"",e6g017
+"",M0312
+"",a035gg17.mld
+"",a035gg17.mld
+"",me002c.sct
+"",me004a.sct
+"",me008b.sct
+"",me013d.sct
+"",me010a.sct
+"",me019a.sct
+"",me018b.sct
+"",me017e.sct
+"",me131a.sct
+"",me109g.sct
+"",me111a.sct
+"",me112a.sct
+"",me115a.sct
+"",me122a.sct
+"",me123a.sct
+"",me125a.sct
+"",me126a.sct
+"",me131h.sct
+"",me239a.sct
+"",me238a.sct
+"",me020a.sct
+"",me236a.sct
+"",me237a.sct
+"",me235a.sct
+"",me002c.sct
+"",me004a.sct
+"",me008b.sct
+"",me013d.sct
+"",me010a.sct
+"",me019a.sct
+"",me018b.sct
+"",me017e.sct
+"",me131a.sct
+"",me109g.sct
+"",me111a.sct
+"",me112a.sct
+"",me115a.sct
+"",me122a.sct
+"",me123a.sct
+"",me125a.sct
+"",me126a.sct
+"",me131h.sct
+"",me239a.sct
+"",me238a.sct
+"",me020a.sct
+"",me236a.sct
+"",me237a.sct
+"",me235a.sct

@@ -1,0 +1,77 @@
+[Event Name],Task ID
+MAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5240000,\h(《Enrique》)Wha… What is that thing?!\e
+MA5240001,"\h(《Vyse》)I don't know, but this is probably it's home.
+And it doesn't look like it going to let us
+leave without a fight!!\c"
+MA5240002,"\h(《Aika》)It keeps disappearing into that vortex!
+I can't keep a lock on that thing!\e"
+MA5240003,"\h(《Enrique》)It's impossible to hit it while he's hiding
+in there, anyway. How can you expect to hit
+it if you can't see it?\c"
+MA5240004,"\h(《Aika》)It keeps disappearing into that vortex!
+I can't keep a lock on that thing!\e"
+MA5240005,"\h(《Enrique》)It's impossible to hit it while he's hiding
+in there, anyway. How can you expect to hit
+it if you can't see it?\c"
+MA5240006,"\h(《Fina》)However, it seems that the Red Magic that we
+used earlier was quite effective. Perhaps we
+can use it more to our advantage…\c"
+MA5240007,"\h(《Vyse》)Look!
+It's coming out of the vortex!\e"
+MA5240008,"\h(《Aika》)It looks like our attacks forced it
+out into the open! Now's our chance!\c"
+MA5240009,\h(《Vyse》)Great… It went back inside…\e
+MA5240010,"\h(《Aika》)Oh well…
+I was hoping we could pull off a few more shots
+before it decided hide again…\c"
+MA5240011,"\h(《Aika》)Vyse, we're awaiting orders!
+Tell us what to do, Captain!\e"
+MA5240012,"\h(《What will you do?》)“Stay put and keep shooting.”
+“Pull back a little.”\e"
+MA5240013,"\h(《Vyse》)We might take some damage, but
+stay put and keep shooting at that thing.\e"
+MA5240014,"\h(《Aika》)Good idea! If we move around too much in this
+place, it's so dark that we might lose sight
+of our target!\c"
+MA5240015,"\h(《Vyse》)We don't know what it'll do.
+Let's back off and see what it's capable of.\c"
+MA5240016,"\h(《Enrique》)Well, we've put some space between us, but…
+Now we can't see very well. It will be hard
+for us to hit anything from here.\e"
+MA5240017,"\h(《Aika》)Yeah, it's so dark here.
+Vyse, are you sure this is what you want?\e"
+MA5240018,"\h(《What will you do?》)“Stay here and attack.”
+“Get in closer and attack.”\e"
+MA5240019,"\h(《Vyse》)Okay, I guess we'll have to get in
+closer to attack. We can't get a clear
+shot off from here.\e"
+MA5240020,"\h(《Aika》)“Attack from far away” he says… “Get closer” he
+says… Geez. I wish you'd make up your mind…\c"
+MA5240021,"\h(《Vyse》)No, we stay here and attack.
+Stations, everyone!\e"
+MA5240022,"\h(《Aika》)You know what, Vyse? You can be sooo stubborn
+sometimes. But, I guess you're the Captain.
+I hope you know what you're doing…\c"
+"",M0430
+"",k0200.mld
+"",k0200.mld
+"",f7100051s.p04
+"",k0200.mld
+"",b2901.mld
+"",b2901.mld
+"",f7100061s.p04
+"",b2901.mld
+"",f7100100S.p04
+"",me524a.sct
+"",me090a.sct
+"","
+ターン選択
+\c"
+"","ターン0
+ターン1\cターン2\cターン3\cターン4
+ターン5\cターン6\cターン7\cターン8
+ターン9\c"
+"",f3000021
+"",me122a.sct

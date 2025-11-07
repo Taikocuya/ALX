@@ -1,0 +1,519 @@
+[Event Name],Task ID
+MB001000,"\h(«Aika»)Visibility is horrible!
+Vyse, the fog's too thick!
+I can barely see!\e"
+MB001001,"\h(«Vyse»)That's strange… there's never any fog in this 
+region… I wonder what's causing it.\e"
+MB001002,"\h(«Vyse»)The only way to get to Valua is through here…
+Slow to half speed…\e"
+MB001003,"\h(«Aika»)Vyse, wait… we're too close to that island over
+there!\e"
+MB001004,\h(«Vyse»)What? Where?\e
+MB001005,\h(«Aika»)Aaahh!\e
+MB001006,\h(«Aika»)Vyse! Look!\e
+MB001007,"\h(«Aika»)It… it's not an island!
+Whatever it is… it's alive!\e"
+MB001008,"\h(«Vyse»)What the…?!
+It's an arcwhale!\e"
+MB001009,\h(«Vyse»)I've never seen one this big before!\e
+MB001010,"\h(«Aika»)Vyse, we'll get killed if we get too close to 
+it, but we've got to hurry to Valua.\e"
+MB001011,"\h(«Aika»)Vyse, what should we do?\e"
+MB001012,"\h(«What will you do?»)“Attack it!”
+“Retreat!”
+“… I don't know!”\e"
+MB001013,"\h(«Vyse»)We've got to hurry and it's in our way!
+If we don't do anything, it'll probably knock us
+out of the sky anyway!\e"
+MB001014,"\h(«Aika»)What are you talking about, Vyse?! 
+Are you crazy? How are we going to fight it in 
+this little ship? We don't even have cannons!\e"
+MB001015,"\h(«Aika»)What do you want to do… 10,000 Cutlass Furies?!
+There's no way we can kill that thing! 
+We'll be okay as long as it doesn't see us.\e"
+MB001016,"\h(«Vyse»)What do you think we're going to do? Of course 
+we're going to retreat! We don't stand a chance 
+against that thing in this ship!\e"
+MB001017,"\h(«Vyse»)I know we're in a hurry, but if that thing
+capsizes us, everyone we know will be executed.
+We'd better play it safe…\e"
+MB001018,"\h(«Aika»)Okay.
+I can't argue with that.
+We'll be okay as long as it doesn't see us!\e"
+MB001019,"\h(«Vyse»)… I don't know.
+Aika, what do you think we should do?\e"
+MB001020,"\h(«Aika»)Vyse! Everyone is depending on you! If you want
+to become a captain someday, you'll have to be
+more decisive than that!\e"
+MB001021,"\h(«Aika»)Without any cannons, there's no way we can take 
+that thing out. It's best that we retreat! 
+As long as it doesn't see us, we'll be okay!\e"
+MB001022,\h(«Aika»)Aaaah!\e
+MB001023,"\h(«Aika»)Vyse!
+It saw us!\e"
+MB001024,"\h(«Vyse»)Grab hold of something and brace yourself!
+Don't let go!\e"
+MB001025,"\h(«Aika»)But… but…
+The ship! It's breaking up!\e"
+MB001026,\h(«Vyse·Aika»)Aaaaahhhhhh!!!\e
+MSB001000,"\h(«Aika»)¡La visibilidad es horrible!
+¡Vyse, la niebla es demasiado espesa!
+¡Casi no veo!\e"
+MSB001001,"\h(«Vyse»)Qué raro…… Nunca hay niebla en esta región……
+Me pregunto a qué se deberá.\e"
+MSB001002,"\h(«Vyse»)El único camino a Valua es por esta ruta……
+Reduce la velocidad a la mitad……\e"
+MSB001003,"\h(«Aika»)Vyse, espera…… ¡Nos acercamos demasiado a esa
+isla!\e"
+MSB001004,\h(«Vyse»)¿Qué? ¿Dónde?\e
+MSB001005,\h(«Aika»)¡Aaahh!\e
+MSB001006,\h(«Aika»)¡Vyse! ¡Mira!\e
+MSB001007,"\h(«Aika»)¡No…… no es una isla!
+¡No sé lo que es…… pero está viva!\e"
+MSB001008,"\h(«Vyse»)¡¿Pero……?!
+¡Es una ballena!\e"
+MSB001009,\h(«Vyse»)¡Nunca había visto una tan grande!\e
+MSB001010,"\h(«Aika»)Vyse, si nos acercamos demasiado nos matará,
+pero tenemos que llegar a Valua pronto.\e"
+MSB001011,"\h(«Aika»)Vyse, ¿qué hacemos?\e"
+MSB001012,"\h(«¿Qué quieres hacer?»)“¡Atacarla!”
+“¡Retirarme!”
+“¡No sé……!”\e"
+MSB001013,"\h(«Vyse»)¡Tenemos prisa y ella está en nuestro camino!
+¡Si no hacemos algo ahora mismo, nos va a
+derribar de un golpe de todas formas!\e"
+MSB001014,"\h(«Aika»)¡¿Pero qué dices, Vyse?! ¡¿Estás loco?! ¿Cómo
+vamos a darle caza con este barco tan pequeño?
+¡Ni siquiera tenemos cañones!\e"
+MSB001015,"\h(«Aika»)¡¿Qué quieres hacer…… por cien mil Furias del
+Sable?! ¡No hay forma de matar a este animal!
+Mientras no nos vea, estaremos a salvo.\e"
+MSB001016,"\h(«Vyse»)¿Qué crees que vamos a hacer? ¡Pues claro que
+nos retiraremos! ¡No tenemos la más mínima
+esperanza con este barco!\e"
+MSB001017,"\h(«Vyse»)Ya sé que tenemos prisa, pero si este animal nos
+vuelca el barco, todos nuestros conocidos serán
+ejecutados. Tenemos que ir sobre seguro……\e"
+MSB001018,"\h(«Aika»)Vale.
+Contra eso no puedo decir nada.
+¡Mientras no nos vea, todo irá bien!\e"
+MSB001019,"\h(«Vyse»)No sé……
+Aika, ¿qué podemos hacer?\e"
+MSB001020,"\h(«Aika»)¡Vyse! ¡Todos dependen de ti en este momento!
+¡Si quieres convertirte en capitán algún día,
+tendrás que ser un poco más decidido!\e"
+MSB001021,"\h(«Aika»)No habrá forma de librarse de ese animal sin
+cañones. ¡Lo mejor es que huyamos! ¡Mientras no
+nos vea, estaremos a salvo!\e"
+MSB001022,\h(«Aika»)¡Aaaah!\e
+MSB001023,"\h(«Aika»)¡Vyse!
+¡Nos ha visto!\e"
+MSB001024,"\h(«Vyse»)¡Agárrate a algo y no lo sueltes!
+¡No te sueltes!\e"
+MSB001025,"\h(«Aika»)Pero…… pero……
+¡El barco! ¡Se parte!\e"
+MSB001026,\h(«Vyse·Aika»)¡¡¡Aaaaahhhhhh!!!\e
+MFB001000,"\h(«Aika»)La visibilité est nulle !
+Vyse, le brouillard est trop épais !
+Je ne vois presque rien !\e"
+MFB001001,"\h(«Vyse»)C'est étrange…… Il n'y a jamais de brouillard
+dans cette région…… Je me demande comment cela
+se fait.\e"
+MFB001002,"\h(«Vyse»)C'est le seul trajet pour aller à Valua……
+Réduit la vitesse de moitié……\e"
+MFB001003,"\h(«Aika»)Vyse, attends…… nous sommes trop près de cette
+île là-bas !\e"
+MFB001004,\h(«Vyse»)Quoi ? Où ?\e
+MFB001005,\h(«Aika»)Aaahh !\e
+MFB001006,\h(«Aika»)Vyse ! Regarde !\e
+MFB001007,"\h(«Aika»)Ce…… ce n'est pas une île ! Je ne sais pas ce
+que c'est…… mais c'est vivant !\e"
+MFB001008,"\h(«Vyse»)Quoi…… ?!
+C'est une baleinearc !\e"
+MFB001009,"\h(«Vyse»)C'est la première fois que j'en vois une aussi
+grosse !\e"
+MFB001010,"\h(«Aika»)Vyse, nous allons nous faire tuer si nous nous
+approchons trop, mais il faut vite aller à
+Valua.\e"
+MFB001011,"\h(«Aika»)Vyse, que devrions-nous faire ?\e"
+MFB001012,"\h(«Qu'allez-vous faire?»)“L'attaquer !”
+“Battre en retraite !”
+“…… Je ne sais pas !”\e"
+MFB001013,"\h(«Vyse»)Nous sommes pressés et elle est en plein sur
+notre passage ! Si nous ne faisons rien, elle
+va nous faire tomber du ciel de toute façon !\e"
+MFB001014,"\h(«Aika»)De quoi parles-tu, Vyse ?! Tu es fou ? Comment
+veux-tu que nous l'attaquions avec notre petit
+navire ? Nous n'avons même pas de canons !\e"
+MFB001015,"\h(«Aika»)Que veux-tu faire…… 10,000 Furies du Sabre ?!
+Nous n'avons aucune chance de tuer cette chose !
+Tout ira bien tant qu'elle ne nous voit pas.\e"
+MFB001016,"\h(«Vyse»)D'après toi, que va-t-on faire ? On va battre
+en retraite évidemment ! Nous n'avons aucune
+chance contre cette chose avec ce navire !\e"
+MFB001017,"\h(«Vyse»)Je sais que nous sommes pressés, mais si cette
+chose nous fait chavirer, ils vont tous être
+exécutés. Mieux vaut ne pas prendre le risque……\e"
+MFB001018,"\h(«Aika»)Je suis d'accord avec toi.
+Tout ira bien tant qu'elle ne nous voie pas !\e"
+MFB001019,"\h(«Vyse»)…… Je ne sais pas.
+Aika, que devrions-nous faire d'après toi ?\e"
+MFB001020,"\h(«Aika»)Vyse ! Tout le monde dépend de toi ! Si tu veux
+devenir capitaine un jour, tu devras prendre des
+décisions !\e"
+MFB001021,"\h(«Aika»)Sans canons, nous ne pouvons pas abattre cette
+chose. Il vaut mieux battre en retraite ! Tout
+ira bien tant qu'elle ne nous voit pas !\e"
+MFB001022,\h(«Aika»)Aaaah !\e
+MFB001023,"\h(«Aika»)Vyse !
+Elle nous a vus !\e"
+MFB001024,"\h(«Vyse»)Tiens-toi à quelque chose et prépare-toi !
+Ne lâche pas !\e"
+MFB001025,"\h(«Aika»)Mais…… mais……
+Le navire ! Il est en train de se briser !\e"
+MFB001026,\h(«Vyse·Aika»)Aaaaahhhhhh !!!\e
+MGB001000,"\h(«Aika»)Die Sicht ist furchtbar!
+Vyse, der Nebel ist zu dick!
+Ich kann kaum etwas sehen!\e"
+MGB001001,"\h(«Vyse»)Das ist seltsam……  in dieser Gegend hat es
+noch nie Nebel gegeben…… Wo der wohl herkommt……\e"
+MGB001002,"\h(«Vyse»)Dies ist der einzige Weg nach Valua……
+Geh auf halbe Kraft…… \e"
+MGB001003,"\h(«Aika»)Vyse, warte……  wir sind zu nahe an der Insel
+dort!\e"
+MGB001004,\h(«Vyse»)Was? Wo?\e
+MGB001005,\h(«Aika»)Aaahh!\e
+MGB001006,\h(«Aika»)Vyse! Sieh nur!\e
+MGB001007,"\h(«Aika»)Es……  es ist keine Insel!
+Was es auch ist……  es lebt!\e"
+MGB001008,"\h(«Vyse»)Was zum…… ?!
+Es ist ein Urwal!\e"
+MGB001009,\h(«Vyse»)So einen großen habe ich noch nie gesehen!\e
+MGB001010,"\h(«Aika»)Wenn wir zu nahe heranfahren, sind wir tot, aber
+wir müssen uns beeilen, nach Valua zu kommen.\e"
+MGB001011,"\h(«Aika»)Vyse, was sollen wir machen?\e"
+MGB001012,"\h(«Was wirst du tun?»)“Ihn angreifen!”
+“Dich zurückziehen!”
+“…… Ich weiß nicht!”\e"
+MGB001013,"\h(«Vyse»)Wir sind in Eile, und er ist uns im Weg!
+Wenn wir nichts tun, wird er uns wahrscheinlich
+trotzdem rammen!\e"
+MGB001014,"\h(«Aika»)Was redest du da, Vyse?! Bist du verrückt?
+Wie sollen wir ihn mit diesem kleinen Schiff
+bekämpfen? Wir haben noch nicht einmal Kanonen!\e"
+MGB001015,"\h(«Aika»)Was willst du machen……  10.000 Cutlass Furies?!
+Gegen dieses Ding haben wir keine Chance!
+Solange er uns nicht sieht, kann uns nichts
+passieren.\e"
+MGB001016,"\h(«Vyse»)Was können wir schon machen? Abhauen natürlich!
+Mit diesem Schiff können wir gegen den überhaupt
+nichts ausrichten!\e"
+MGB001017,"\h(«Vyse»)Ich weiß, dass wir es eilig haben. Aber wenn
+uns dieses Ding zum Kentern bringt, werden alle
+unsere Freunde hingerichtet. Wir sollten auf
+Nummer sicher gehen……\e"
+MGB001018,"\h(«Aika»)Ok.
+Da hast du Recht. Solange er uns nicht sieht,
+kann uns nichts passieren!\e"
+MGB001019,"\h(«Vyse»)…… Ich weiß nicht.
+Aika, was meinst du, was wir machen sollen?\e"
+MGB001020,"\h(«Aika»)Vyse! Alles hängt von dir ab! Wenn du eines
+Tages Kapitän werden willst, musst du schon
+etwas entscheidungsfreudiger sein!\e"
+MGB001021,"\h(«Aika»)Ohne Kanonen ist diesem Ding nicht
+beizukommen. Wir sollten uns zurückziehen!
+Solange er uns nicht sieht, kann uns nichts
+passieren.\e"
+MGB001022,\h(«Aika»)Aaaah!\e
+MGB001023,"\h(«Aika»)Vyse!
+Er hat uns gesehen!\e"
+MGB001024,"\h(«Vyse»)Halt dich irgendwo fest und mach dich bereit!
+Lass nicht los!\e"
+MGB001025,"\h(«Aika»)Aber…… aber……
+Das Schiff! Es bricht auseinander!\e"
+MGB001026,\h(«Vyse·Aika»)Aaaaahhhhhh!!!\e
+MB0070000,"\h(«Air Pirate»)Captain Baltor!
+There's a Nasr merchant ship coming into view 
+off port-side!\e"
+MB0070001,"\h(«Air Pirate»)But, there's a strange ship following it very 
+closely… I don't recognize its markings.\e"
+MB0070002,"\h(«Baltor»)Gahahahahaha!
+You have nothing to fear from a ship THAT old!\e"
+MB0070003,"\h(«Baltor»)Let's introduce these fools to the true meaning
+of fear! They will know that I, Baltor, sent
+them plummeting to their deaths!!!\e"
+MB0070004,\h(«Baltor»)Alright men! Battlestations!!!\e
+MB0070005,"\h(«Baltor»)Don't let them escape! 
+And take everything on board that isn't nailed 
+down!\e"
+MB0070006,"\h(«Aika»)Vyse, there's a ship straight ahead, heading 
+right for us! I see a black skull and… 
+They're Black Pirates!\e"
+MB0070007,"\h(«Vyse»)So that's Baltor, huh?
+What should we do, Captain?\e"
+MB0070008,"\h(«Drachma»)We're vastly outnumbered. Don't let them board 
+us. We'll fight it out from a distance. Ready 
+the cannons.\e"
+MB0070009,"\h(«Drachma»)If you see them attack, I want you to go into 
+evasive maneuvers. Then, when they're in your 
+sights, blast them.\e"
+MB0070010,"\h(«Vyse»)Aye aye, Captain!
+Let's rip 'em to shreds… Sir!\e"
+MSB0070000,"\h(«Pirata Aéreo»)¡Capitán Baltor!
+¡Hay un navío mercante de Nasr que se acerca a
+babor!\e"
+MSB0070001,"\h(«Pirata Aéreo»)Pero hay un extraño navío que le sigue muy de
+cerca…… No puedo reconocer sus insignias.\e"
+MSB0070002,"\h(«Baltor»)¡Ajajajaja!
+¡No tenéis nada que temer de un navío TAN
+viejo!\e"
+MSB0070003,"\h(«Baltor»)¡Hagamos que esos bobos conozcan el verdadero
+significado del miedo! ¡¡¡Sabrán que yo, Baltor,
+les envíe a la muerte!!!\e"
+MSB0070004,\h(«Baltor»)¡Tripulación! ¡¡¡A los puestos de combate!!!\e
+MSB0070005,"\h(«Baltor»)¡No les dejéis escapar!
+¡Y llevaos todo lo que haya a bordo que no esté
+clavado al suelo!\e"
+MSB0070006,"\h(«Aika»)¡Vyse, hay un navío justo delante que se dirige
+hacia aquí! Veo una calavera negra y……
+¡son Piratas Negros!\e"
+MSB0070007,"\h(«Vyse»)¿Así que ése es Baltor, eh?
+¿Qué hacemos, Capitán?\e"
+MSB0070008,"\h(«Drachma»)Son diez veces más que nosotros. No dejes que
+nos aborden. Lucharemos desde lejos. Prepara los
+cañones.\e"
+MSB0070009,"\h(«Drachma»)Si les ves atacar, debes empezar con maniobras
+de evasión. Luego, cuando los tengas a la vista,
+dispara.\e"
+MSB0070010,"\h(«Vyse»)¡Sí, mi Capitán!
+¡Vamos a dárselas con plomo, Señor!\e"
+MFB0070000,"\h(«Pirate de l'Air»)Capitaine Baltor !
+Il y a un navire marchand Nasr en vue à
+bâbord !\e"
+MFB0070001,"\h(«Pirate de l'Air»)Mais, il y a un étrange navire qui le suit de
+près…… je ne reconnais pas son marquage.\e"
+MFB0070002,"\h(«Baltor»)Bahahahahaha ! Vous n'avez rien à craindre
+d'un navire AUSSI vieux !\e"
+MFB0070003,"\h(«Baltor»)Montrons un peu à ces idiots ce que c'est
+d'avoir peur ! Ils sauront que moi, Baltor, les
+ai envoyés à la mort !!!\e"
+MFB0070004,\h(«Baltor»)Tous à vos postes de combat !!!\e
+MFB0070005,"\h(«Baltor»)Ne les laissez pas s'échapper !
+Et prenez tout ce qu'il y a à bord qui n'est
+pas cloué !\e"
+MFB0070006,"\h(«Aika»)Vyse, il y a un navire droit devant, il vient
+droit sur nous !
+Je vois une tête de mort noire et……
+Ce sont des Pirates Noirs !\e"
+MFB0070007,"\h(«Vyse»)Alors c'est Baltor, hein ?
+Que devrions-nous faire, Capitaine ?\e"
+MFB0070008,"\h(«Drachma»)Ils sont beaucoup plus nombreux que nous. Ne
+les laissez pas aborder. Nous les combattrons à
+distance. Préparez les canons.\e"
+MFB0070009,"\h(«Drachma»)Si vous les voyez attaquer, je veux que vous
+fassiez des manoeuvres évasives. Puis, quand ils
+seront dans votre ligne de mire, faites feu.\e"
+MFB0070010,"\h(«Vyse»)À vos ordres, Capitaine !
+Faisons-les sauter…… Capitaine !\e"
+MGB0070000,"\h(«Luftpirat»)Captain Baltor!
+Ein Nasr-Handelsschiff kommt von Backbord
+auf uns zu!\e"
+MGB0070001,"\h(«Luftpirat»)Aber…… dicht hinter ihm fährt ein seltsames
+Schiff…… Ich kann seine Herkunft
+nicht erkennen.\e"
+MGB0070002,"\h(«Baltor»)Gahahahahaha!
+Vor einem SO alten Schiff braucht man sich nicht
+zu fürchten!\e"
+MGB0070003,"\h(«Baltor»)Lehren wir diese Dummköpfe das Fürchten!
+Sie sollen erfahren, wie ich, Baltor, sie in den
+Tod stürze!!!\e"
+MGB0070004,"\h(«Baltor»)Also, Männer! An die Kanonen!!!\e"
+MGB0070005,"\h(«Baltor»)Lasst sie nicht entkommen!
+Und nehmt alles von Bord mit, was nicht niet-
+und nagelfest ist!\e"
+MGB0070006,"\h(«Aika»)Vyse, uns kommt ein Schiff genau entgegen!
+Ich kann einen schwarzen Totenkopf erkennen
+und…… Es sind Black Pirates!\e"
+MGB0070007,"\h(«Vyse»)Das ist also Baltor, was?
+Was sollen wir machen, Captain?\e"
+MGB0070008,"\h(«Drachma»)Sie sind weit in der Überzahl. Lasst sie
+nicht an Bord. Wir bekämpfen sie aus der
+Entfernung. Macht die Kanonen gefechtsbereit.\e"
+MGB0070009,"\h(«Drachma»)Wenn ihr sie angreifen seht, geht in
+Ausweichmanöver über. Wenn ihr sie dann im
+Visier habt, feuert aus allen Rohren.\e"
+MGB0070010,"\h(«Vyse»)Aye aye, Captain!
+Zeigen wir's ihnen, Sir!\e"
+MF0030000,\h(«Vyse»)Looks like we've reached Valuan airspace.\e
+MF0030001,"\h(«Vyse»)So, this is where the Yellow Crystal is hidden,
+right?\e"
+MF0030002,"\h(«Fina»)Yes. It is sealed somewhere in these lands,
+along with the Yellow Gigas.\e"
+MF0030003,"\h(«Aika»)Considering how much trouble we've caused the
+Valuans already, we should be extra careful,
+right Cap'n?\e"
+MF0030004,\h(«Drachma»)……\e
+MF0030005,"\h(«Aika»)… Cap'n?
+What's wrong?\e"
+MF0030006,"\h(«Drachma»)Ah… um… nothing.
+I'm sorry… were you saying something?\e"
+MF0030007,"\h(«Aika»)Nothing really.
+It wasn't anything important.\e"
+MSF0030000,\h(«Vyse»)Estamos en espacio aéreo Valuan.\e
+MSF0030001,"\h(«Vyse»)O sea que aquí es donde el Cristal Amarillo está
+escondido, ¿no?\e"
+MSF0030002,"\h(«Fina»)Sí. Está oculto en alguna parte de estas
+tierras, junto al Gigas Amarillo.\e"
+MSF0030003,"\h(«Aika»)Teniendo en cuenta que ya hemos tenido bastantes
+problemas con los Valuan, deberíamos tomar más
+precauciones. ¿No crees, Capitán?\e"
+MSF0030004,\h(«Drachma»)……\e
+MSF0030005,"\h(«Aika»)…… ¿Capitán?
+¿Qué pasa?\e"
+MSF0030006,"\h(«Drachma»)Ah…… um…… nada.
+Perdona…… ¿me decías algo?\e"
+MSF0030007,"\h(«Aika»)No, nada.
+No era nada importante.\e"
+MFF0030000,"\h(«Vyse»)Nous venons d'entrer dans l'espace aérien
+Valuan.\e"
+MFF0030001,"\h(«Vyse»)Alors, voilà où se cache le Cristal Jaune,
+hein ?\e"
+MFF0030002,"\h(«Fina»)Oui. Il est caché quelque part sur ces terres,
+avec le Gigas Jaune.\e"
+MFF0030003,"\h(«Aika»)Étant donné les problèmes que nous avons déjà
+causé aux Valuans, il vaut mieux être prudents,
+hein Cap'taine ?\e"
+MFF0030004,\h(«Drachma»)……\e
+MFF0030005,"\h(«Aika»)…… Cap'taine ?
+Qu'est-ce qui ne va pas ?\e"
+MFF0030006,"\h(«Drachma»)Ah…… um…… rien.
+Je suis désolé…… vous disiez ?\e"
+MFF0030007,"\h(«Aika»)Non rien.
+Rien d'important.\e"
+MGF0030000,"\h(«Vyse»)Sieht so aus, als würden wir in valuanischen
+Luftraum kommen.\e"
+MGF0030001,"\h(«Vyse»)Hier ist also der  Yellow Crystal versteckt,
+richtig?\e"
+MGF0030002,"\h(«Fina»)Ja. Er ist irgendwo in dieser Gegend zusammen
+mit dem Yellow Gigas eingeschlossen.\e"
+MGF0030003,"\h(«Aika»)Wenn man bedenkt, wie viel Ärger wir den
+Valuanern schon bereitet haben, sollten wir
+besonders vorsichtig sein, nicht, Captain?\e"
+MGF0030004,\h(«Drachma»)……\e
+MGF0030005,"\h(«Aika»)…… Captain?
+Stimmt was nicht?\e"
+MGF0030006,"\h(«Drachma»)Ach…… em……  nichts.
+Tut mir Leid…… hast du was gesagt?\e"
+MGF0030007,"\h(«Aika»)Ach nichts.
+Es war nicht so wichtig.\e"
+MJ0110000,"\h(«Air Pirate»)Captain Baltor!
+There's a really, really powerful looking ship 
+coming our way off port side!\e"
+MJ0110001,"\h(«Air Pirate»)It's… the ship that everyone's talking about! 
+The Delphinus! The one that the Blue Rogue, 
+Vyse, commands!\e"
+MJ0110002,"\h(«Baltor»)GAHAHAHA!!!
+So, Vyse… we meet again!\e"
+MJ0110003,"\h(«Baltor»)This time, I have a little something special for
+you!\e"
+MJ0110004,"\h(«Baltor»)Alright men!
+On the pride of the Black Pirates, 
+kill them all!\e"
+MJ0110005,"\h(«Aika»)Vyse! Black Pirates, dead ahead!
+Wait… hey! Isn't that Baltor's ship?!\e"
+MJ0110006,"\h(«Vyse»)Heh… looks like they've done a little work on 
+their own ship as well! Let's go test out their
+new defenses for them!\e"
+MSJ0110000,"\h(«Pirata Aéreo»)¡Capitán Baltor!
+¡Hay un navío con un aspecto de lo más imponente
+que se acerca a babor!\e"
+MSJ0110001,"\h(«Pirata Aéreo»)¡Es…… ese navío del que habla todo el mundo!
+¡El Delphinus! ¡Capitaneado por Vyse, el Bandido
+Azul!\e"
+MSJ0110002,"\h(«Baltor»)¡¡¡Ja, ja, ja, ja!!!
+¡Nos encontramos de nuevo…… Vyse!\e"
+MSJ0110003,\h(«Baltor»)¡Esta vez tengo algo muy especial para ti!\e
+MSJ0110004,"\h(«Baltor»)¡Tripulación!
+¡Por el honor de los Piratas Negros,
+hay que matarlos a todos!\e"
+MSJ0110005,"\h(«Aika»)¡Vyse! ¡Justo delante, Piratas Negros!
+¡Pero espera……! ¡¿No es ése el navío de
+Baltor?!\e"
+MSJ0110006,"\h(«Vyse»)¡Eh…… parece que ellos también han estado
+reformando su navío! ¡Pongamos a prueba su nuevo
+sistema defensivo!\e"
+MFJ0110000,"\h(«Pirate de l'Air»)Capitaine Baltor !
+Il y a un navire très, très puissant qui se
+dirige vers nous à bâbord !\e"
+MFJ0110001,"\h(«Pirate de l'Air»)C'est…… le navire dont tout le monde parle !
+Le Delphinus ! Celui que le Voleur Bleu,
+Vyse, commande !\e"
+MFJ0110002,"\h(«Baltor»)AHAHAHA
+Très bien…… Nous nous retrouvons à nouveau
+Vyse !\e"
+MFJ0110003,"\h(«Baltor»)Cette fois, je t'ai réservé une petite
+surprise !\e"
+MFJ0110004,"\h(«Baltor»)Allez !
+Sur l'honneur des Pirates Noirs,
+tuez-les tous !\e"
+MFJ0110005,"\h(«Aika»)Vyse ! Des Pirates Noirs, droit devant !
+Attendez…… hé ! C'est le navire de Baltor ?!\e"
+MFJ0110006,"\h(«Vyse»)Hé…… on dirait qu'eux aussi ont fait quelques
+petits changements sur leur navire ! Allons
+tester pour eux leurs nouvelles défenses !\e"
+MGJ0110000,"\h(«Luftpirat»)Captain Baltor!
+Da kommt ein wirklich mächtig aussehendes
+Schiff von Backbord auf uns zu!\e"
+MGJ0110001,"\h(«Luftpirat»)Es ist…… das Schiff, über das sie alle reden!
+Die Delphinus! Das Schiff, das vom Blue Rogue
+Vyse kommandiert wird!\e"
+MGJ0110002,"\h(«Baltor»)GAHAHAHA!!!
+So sieht man sich wieder, Vyse……\e"
+MGJ0110003,\h(«Baltor»)Diesmal hab ich etwas ganz Besonderes für dich!\e
+MGJ0110004,"\h(«Baltor»)Los, Männer!
+Bei der Ehre der Black Pirates,
+tötet sie alle!\e"
+MGJ0110005,"\h(«Aika»)Vyse! Black Pirates, genau vor uns!
+Wart mal…… he, ist das nicht Baltors Schiff?!\e"
+MGJ0110006,"\h(«Vyse»)He…… sieht so aus, als hätten sie auch ein
+wenig an ihrem Schiff gearbeitet! Stellen wir
+ihre neuen Abwehranlagen doch mal auf die
+Probe!\e"
+"",me034a.sct
+"",me033a.sct
+"",me033a.sct
+"","B01発生。
+ヴァイス達は星になりました…\c"
+"",M0248
+"",e6b001
+"",a205ab01.mld
+"",a205ab01.mld
+"","「フォグ1」
+「フォグ2」
+「フォグ3」\c"
+"","B07発生しました。
+バルボア船突入！！
+がんばってください\c"
+"",me500a.sct
+"",a205ab07.mld
+"",a205ab07.mld
+"",M0306
+"",e6b007
+"",me500a.sct
+"",a205ab07.mld
+"",イベントＦ０３が発生しました。\c
+"",a205af03.mld
+"",a205af03.mld
+"",e6f003
+"",a205af03.mld
+"",J11バルボア２号登場\c
+"",me573a.sct
+"",a205aj11.mld
+"",a205aj11.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",M0306
+"",e6j011
+"",me573a.sct
+"",a205aj11.mld

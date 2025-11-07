@@ -1,0 +1,55 @@
+[Event Name],Task ID
+M01010000,"\h(«Air Pirate»)Ah, Vyse, you're here.
+It looks like we can access the rest of the
+ship through this passage.\e"
+M01010001,"\h(«Air Pirate»)I'll guard the door. You go on ahead and secure
+the rest of the ship. Go teach those Valuans a
+thing or two!\c"
+M01010002,"\h(«Air Pirate»)I'll guard the door. You go on ahead and secure
+the rest of the ship. Go teach those Valuans a
+thing or two!\c"
+M01010003,"\h(«Alfonso»)Well… well…
+Air Pirates have decided to… infest my ship.\e"
+MA0230000,"\h(«Alfonso»)What?! How did you defeat my soldiers?
+Heh… If you want my ship that badly, you can
+have it. I'll get another.\e"
+MA0230001,"\h(«Alfonso»)I am very busy. I do not have time to deal with
+you personally. Now, if you'll excuse me…\e"
+MA0240000,"\h(«Alfonso»)Hah! You'll never get through this door! I've
+locked it from this side!\e"
+MA0240001,"\h(«Alfonso»)So long, Rogue.
+Hah hah hah!\c"
+MA0240002,"\h(«Vyse»)Damn… This door is solid metal.
+There's no way I can force it open.\c"
+MA0240003,\h(«Vyse»)Damn… The door's locked.\c
+MA0040000,"\h(«Alfonso»)Well… well…
+Air Pirates have decided to… infest my ship.\e"
+MA0040001,"\h(«Alfonso»)I am Alfonso, cherished son of Valua's most 
+distinguished family, and an Admiral of the 
+Imperial Armada.\e"
+MA0040002,"\h(«Alfonso»)Normally, lowlifes such as yourselves would 
+never have the opportunity to bask in such 
+greatness. Consider yourselves fortunate.\e"
+MA0040003,"\h(«Vyse»)Yeah… right…
+Who's the girl?\e"
+MA0040004,"\h(«Vyse»)I never thought someone of your… stature would 
+stoop to kidnapping.\e"
+MA0040005,"\h(«Alfonso»)Hah!
+You're very observant for a Rogue. However,
+I cannot waste my time dealing with you.\e"
+MA0040006,"\h(«Alfonso»)I simply must get going.  I think I shall have 
+you exterminated like the pests you are…\e"
+MA0040007,\h(«Alfonso»)Dispose of them!\e
+"",k8420000
+"",k8420000
+"",k8020000
+"",me101c.sct
+"",k8410000
+"",k8410000
+"",M0252
+"",m5010000
+"",k8010000
+"",k8410000
+"",a101ba04.mld
+"",M0326
+"",e6a004

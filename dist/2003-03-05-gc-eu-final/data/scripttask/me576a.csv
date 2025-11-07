@@ -1,0 +1,167 @@
+[Event Name],Task ID
+MA5130000,"\h(«Vyse»)W, what is that thing?!
+I've never seen a bird this big before!!\e"
+MA5130001,"\h(«Aika»)I don't know, but it looks like
+he's hungry…\c"
+MA5130002,"\h(«Vyse»)That scream… it's too powerful.
+It's going to tear the ship apart!\e"
+MA5130003,"\h(«Aika»)It's still coming after us!
+He must be really, really hungry!!\c"
+MA5130004,"\h(«Aika»)Vyse, awaiting orders!
+What should we do?\e"
+MA5130005,"\h(«What will you do?»)“Hold our position.”
+“Take that thing straight on.”\e"
+MA5130006,"\h(«Vyse»)Hold our position.
+Maybe if we stay still enough, it
+will lose interest in us…\e"
+MA5130007,"\h(«Aika»)That just might work! It may be a big one, but
+it is just a bird afterall! Let's see if we
+can fool that thing into leaving us alone!\c"
+MA5130008,"\h(«Vyse»)Take that thing head on!
+Let's aim for its head!!!\e"
+MA5130009,"\h(«Aika»)Well, I suppose we have to take a risk sometime.
+Just watch out for its attacks, okay Vyse?\c"
+MA5130010,"\h(«Aika»)Vyse, what next?\e"
+MA5130011,"\h(«What will you do?»)“Attack it head on!”
+“Get behind it!”\e"
+MA5130012,"\h(«Vyse»)Let's take it head on!
+Aim for its head!!\c"
+MA5130013,"\h(«Vyse»)That thing only has eyes in the front of its
+head! If we can get behind it, we should be
+able to get clear shots at that thing!\c"
+MA5130014,"\h(«Aika»)Huh?
+Where'd the bird go?\e"
+MA5130015,"\h(«Fina»)Aika, behind us!
+It got behind us somehow!\e"
+MA5130016,"\h(«Aika»)Oh no!
+It somehow got behind us as
+we tried to get in front of it!\c"
+MFA5130000,"\h(«Vyse»)Quelle est cette chose ?!
+Je n'ai jamais vu d'oiseau aussi grand !!\e"
+MFA5130001,"\h(«Aika»)Je ne sais pas, mais il a l'air affamé……\c"
+MFA5130002,"\h(«Vyse»)Il crie trop fort.
+Son cri va briser le navire !\e"
+MFA5130003,"\h(«Aika»)Il nous suit encore !
+Il doit avoir vraiment très faim !!\c"
+MFA5130004,"\h(«Aika»)Vyse, nous attendons tes ordres !
+Que doit-on faire ?\e"
+MFA5130005,"\h(«Que ferez-vous ?»)“Maintenir notre position.”
+“Éliminer cette créature immédiatement.”\e"
+MFA5130006,"\h(«Vyse»)Maintiens notre position.
+Peut-être que si nous restons immobiles assez
+longtemps, il se désintéressera de nous……\e"
+MFA5130007,"\h(«Aika»)Cela va peut-être marcher ! Il est peut-être
+gros, mais après tout ce n'est qu'un oiseau !
+Voyons si on peut lui jouer un tour pour qu'il
+nous laisse tranquille !\c"
+MFA5130008,"\h(«Vyse»)Attaquez-le de plein fouet !
+Visons sa tête !!!\e"
+MFA5130009,"\h(«Aika»)J'imagine qu'il faut savoir prendre des risques
+dans la vie.
+Fais attention à ses attaques, OK Vyse ?\c"
+MFA5130010,"\h(«Aika»)Vyse, et maintenant ?\e"
+MFA5130011,"\h(«Que ferez-vous ?»)“L'attaquer de plein fouet !”
+“Passer derrière-lui !”\e"
+MFA5130012,"\h(«Vyse»)Attaquons-le de plein fouet !
+Vise sa tête !!!\e"
+MFA5130013,"\h(«Vyse»)Il a des yeux sur la tête ! Si nous pouvons
+passer derrière lui, nous devrions l'avoir dans
+notre ligne de mire !\c"
+MFA5130014,"\h(«Aika»)Hein ?
+Où est passé l'oiseau ?\e"
+MFA5130015,"\h(«Fina»)Aika, derrière nous !
+Il a réussi à passer derrière nous !\e"
+MFA5130016,"\h(«Aika»)Oh non !
+Il a réussi à passer derrière nous
+quand nous avons essayé de passer devant lui !\c"
+MGA5130000,"\h(«Vyse»)Wa…… was ist denn das für ein Ding?!
+So einen großen Vogel habe ich noch nie
+gesehen!!\e"
+MGA5130001,"\h(«Aika»)Ich weiß auch nicht, aber er sieht
+hungrig aus……\c"
+MGA5130002,"\h(«Vyse»)Dieser Schrei…… er ist zu mächtig.
+Er wird das Schiff in Stücke reißen!\e"
+MGA5130003,"\h(«Aika»)Er verfolgt uns noch immer!
+Er muss sehr, sehr hungrig sein!!\c"
+MGA5130004,"\h(«Aika»)Vyse, wir warten auf Befehle!
+Was sollen wir machen?\e"
+MGA5130005,"\h(«Was wirst du tun?»)“Deine Position halten.”
+“Dieses Ding frontal angreifen.”\e"
+MGA5130006,"\h(«Vyse»)Haltet die Position.
+Wenn wir uns ruhig verhalten, wird es
+vielleicht das Interesse an uns verlieren……\e"
+MGA5130007,"\h(«Aika»)Das wird vielleicht funktionieren! Es ist
+zwar riesig, aber schließlich ist es doch
+nur ein Vogel! Mal sehen, ob wir dieses Ding
+dazu bringen können, uns in Ruhe zu lassen!\c"
+MGA5130008,"\h(«Vyse»)Greift es frontal an!
+Zielen wir auf seinen Kopf!!!\e"
+MGA5130009,"\h(«Aika»)Nun, schätze, irgendwann müssen wir mal ein
+Risiko eingehen. Pass aber auf seine Attacken
+auf, ja, Vyse?\c"
+MGA5130010,"\h(«Aika»)Vyse, was jetzt?\e"
+MGA5130011,"\h(«Was wirst du tun?»)“Es frontal angreifen!”
+“Ihm in den Rücken fallen!”\e"
+MGA5130012,"\h(«Vyse»)Greifen wir es frontal an!
+Ziel auf seinen Kopf!!\c"
+MGA5130013,"\h(«Vyse»)Dieses Ding hat nur vorne an seinem Kopf Augen!
+Wenn wir ihn von hinten erwischen, haben wir
+ihn!\c"
+MGA5130014,"\h(«Aika»)Wie?
+Wo ist der Vogel hin?\e"
+MGA5130015,"\h(«Fina»)Aika, hinter uns!
+Er hat es irgendwie geschafft, hinter uns
+zu kommen!\e"
+MGA5130016,"\h(«Aika»)O nein!
+Er ist uns irgendwie in den Rücken geraten,
+als wir versuchten, ihn zu überholen!\c"
+MSA5130000,"\h(«Vyse»)¡¿De dónde ha salido ese bicho?!
+¡En mi vida había visto un pájaro tan enorme!\e"
+MSA5130001,"\h(«Aika»)No sé, pero parece que tiene hambre……\c"
+MSA5130002,"\h(«Vyse»)Ese graznido…… es demasiado agudo.
+¡Va a partir el barco por la mitad!\e"
+MSA5130003,"\h(«Aika»)¡Todavía nos persigue!
+¡¡Éste tiene más hambre que un perro!!\c"
+MSA5130004,"\h(«Aika»)Vyse, ¡en espera de tus órdenes!
+¿Qué hacemos?\e"
+MSA5130005,"\h(«¿Qué vas a hacer?»)“Mantener nuestra posición.”
+“Atacar frontalmente al bicho.”\e"
+MSA5130006,"\h(«Vyse»)Mantener nuestra posición.
+Si nos quedamos quietos,
+a lo mejor pierde el interés……\e"
+MSA5130007,"\h(«Aika»)¡Quizá funcione! Puede que sea grande,
+pero después de todo no es más que un pájaro.
+¡Si conseguimos engañarle, se marchará!\c"
+MSA5130008,"\h(«Vyse»)¡Hay que atacar!
+¡¡¡Vamos a apuntar a la cabeza!!!\e"
+MSA5130009,"\h(«Aika»)Sí, vamos a tener que arriesgarnos.
+Pero cuidado con sus ataques.
+¿De acuerdo, Vyse?\c"
+MSA5130010,"\h(«Aika»)Vyse, ¿y ahora qué hacemos?\e"
+MSA5130011,"\h(«¿Qué vas a hacer?»)“¡Atacar de frente!”
+“¡Situarnos detrás!”\e"
+MSA5130012,"\h(«Vyse»)¡Vamos a atacar de frente!
+¡¡Apuntad a la cabeza!!\c"
+MSA5130013,"\h(«Vyse»)¡Tiene los ojos delante,
+así que no puede vernos por detrás!
+¡Si nos ponemos detrás, seguro que le damos!\c"
+MSA5130014,"\h(«Aika»)¿Eh?
+¿Dónde se ha metido ese pájaro?\e"
+MSA5130015,"\h(«Fina»)¡Aika, está detrás!
+¡No sé cómo se ha puesto detrás!\e"
+MSA5130016,"\h(«Aika»)¡Oh, no!
+¡Ha conseguido ponerse detrás mientras nosotros
+intentábamos situarnos de frente!\c"
+"",M0430
+"",k0200.mld
+"",k0200.mld
+"",b3500.mld
+"",b3500.mld
+"",f7100051S.p04
+"",k0200.mld
+"",f7100062s.p04
+"",me090a.sct
+"",f7100105S.p04
+"",f7100100S.p04
+"",f3000025
+"",b3500b.mld

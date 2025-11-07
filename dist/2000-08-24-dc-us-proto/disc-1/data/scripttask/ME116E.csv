@@ -1,0 +1,55 @@
+[Event Name],Task ID
+MG0110000,"\h(《Aika》)Oh, no!
+The alarm!!\e"
+MG0110001,"\h(《Gilder》)This isn't good…
+In a few seconds, this place is going to be
+crawling with guards.\e"
+MG0110002,\h(《Gallant Voice》)Quick! Get on the lift!\e
+MG0110003,"\h(《Aika》)Someone is telling us to get on that thing! 
+I can't see who it is!
+Vyse, what should we do?\e"
+MG0110004,"\h(《What will you do?》)”Let's take our chances and hop on.”
+”This could be a trap…”\e"
+MG0110005,"\h(《Vyse》)If we just stand around here, we're gonna get
+caught anyway. 
+We should take the lift.\e"
+MG0110006,"\h(《Gilder》)That's true.
+It looks like that's our only option.\e"
+MG0110007,"\h(《Vyse》)… Alright, let's go.\e"
+MG0110008,"\h(《Vyse》)This could be a trap…
+I think we should look for another way out.\e"
+MG0110009,"\h(《Gilder》)Well, it might be a trap, but it's the only way
+out of here.\e"
+MG0110010,"\h(《Gilder》)If we get caught again, there's no way we'll be
+able to escape. They'll probably execute us on
+the spot.\e"
+MG0110011,"\h(《Fina》)Vyse, I think that person is trying to help us.
+I think we should trust him.\e"
+MG0110012,"\h(《Vyse》)… Alright.
+Everyone, let's get on.\e"
+MG0110013,"\h(《Enrique》)So, you're Vyse?
+I am Enrique.\e"
+MG0110014,"\h(《Gilder》)Enrique?!
+You're… the Prince of Valua!!!\e"
+MG0110015,\h(《Aika》)You're the Prince!?\e
+MG0110016,"\h(《Enrique》)Haha…
+Yes… I am.\e"
+MG0110017,"\h(《Enrique》)After you escaped from your cells, I figured
+you'd head for the docks to try and steal a
+ship. Please, follow me.\e"
+MG0110018,"\h(《Aika》)Alright, what's going on? Why is the Prince
+helping us?\e"
+MG0110019,"\h(《Vyse》)I have no idea.
+But, we should probably follow him.\e"
+"",me116f.sct
+"",me116h.sct
+"",me116g.sct
+"",M0252
+"",m5160000
+"",k8160000
+"",EV_G11発生しました。\c
+"",a116eg11.mld
+"",a116eg11.mld
+"",M0325
+"",e6g011
+"",a116eg11.mld

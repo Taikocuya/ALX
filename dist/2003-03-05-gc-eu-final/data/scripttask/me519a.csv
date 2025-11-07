@@ -1,0 +1,99 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MA5190000,"\h(«Enrique»)Vyse, just to let you know, the Delphinus is
+equipped with Valua's newest, most powerful
+weapon.\e"
+MA5190001,"\h(«Enrique»)It's called the Moon Stone Cannon. Until
+recently, it was only an experimental weapon
+under development by Lord De Loco.\e"
+MA5190002,"\h(«Enrique»)He used data collected from the Red and Green
+Gigas to develop it. He says that this cannon's
+power rivals the power of the Gigas themselves…\e"
+MA5190003,"\h(«Enrique»)But, the manufacturing cost of this cannon is
+so immense that this ship is the only ship in
+the entire Armada equipped with one.\e"
+MA5190004,"\h(«Aika»)Wow!! 
+That means this ship is as powerful as a Gigas
+then! I can't believe it!!!\e"
+MA5190005,"\h(«Gilder»)Well then… Vyse, let's give her a test run,
+shall we? Just use the “S.Cannon” command
+and we'll be good to go.\c"
+MFA5190000,"\h(«Enrique»)Vyse, sachez que le Delphinus est équipé de la
+plus récente et plus puissante arme de Valua.\e"
+MFA5190001,"\h(«Enrique»)C'est le Canon Pierre de Lune. Il n'y a pas si
+longtemps, ce n'était encore qu'une arme
+expérimentale en développement par le Seigneur
+De Loco.\e"
+MFA5190002,"\h(«Enrique»)Il a réuni des informations sur les Gigas Rouge
+et Vert pour la développer.
+Il dit que le pouvoir de ce canon rivalise avec
+celui des Gigas……\e"
+MFA5190003,"\h(«Enrique»)Mais, le coût de fabrication de ce canon est si
+élevé que ce navire est le seul de toute
+l'Armada à en être équipé.\e"
+MFA5190004,"\h(«Aika»)Ouah !!
+Cela signifie que ce navire est aussi puissant
+qu'un Giga alors ! C'est incroyable !!!\e"
+MFA5190005,"\h(«Gilder»)Allez…… Vyse, allons faire un essai, d'accord ?
+Nous pourrons démarrer en utilisant la commande
+“S-Canon”.\c"
+MGA5190000,"\h(«Enrique»)Vyse, nur damit du es weißt, die Delphinus ist
+mit Valuas neuester, mächtigster Waffe
+ausgerüstet.\e"
+MGA5190001,"\h(«Enrique»)Sie nennt sich Moon Stone Cannon. Bis vor
+kurzem war sie nur ein Entwicklungsprojekt
+unter der Leitung von Lord De Loco.\e"
+MGA5190002,"\h(«Enrique»)Er benutzte zu ihrer Entwicklung Daten vom
+Roten und Grünen Gigas. Er sagt, dass die
+Kraft dieser Kanone an die Kraft der Gigas
+selbst heranreicht……\e"
+MGA5190003,"\h(«Enrique»)Aber die Herstellungskosten für diese Kanone
+sind so übermäßig, dass dieses Schiff das
+einzige Schiff in der ganzen Armada ist,
+das damit ausgerüstet ist.\e"
+MGA5190004,"\h(«Aika»)Wow!!
+Das bedeutet also, dass dieses Schiff so
+mächtig wie ein Gigas ist! Das kann ich
+nicht glauben!!!\e"
+MGA5190005,"\h(«Gilder»)Also dann…… Vyse, lass sie uns mal austesten,
+ja? Benutze einfach den “S-Kanone”-Befehl,
+und es geht los.\c"
+MSA5190000,"\h(«Enrique»)Vyse, deberías saber que el Delphinus
+está equipado con la última tecnología
+armamentística de Valua.\e"
+MSA5190001,"\h(«Enrique»)Se llama el Cañón Piedraluna.
+Hasta hace poco, era un cañón experimental,
+desarrollado por Lord De Loco.\e"
+MSA5190002,"\h(«Enrique»)De Loco lo desarrolló con datos del Gigas Rojo
+y del Gigas Verde. Según él, la potencia
+de este cañón supera a la de un Gigas……\e"
+MSA5190003,"\h(«Enrique»)Pero los costes de fabricación de este cañón
+son tan grandes, que este navío es el único
+de toda la Armada equipado con uno.\e"
+MSA5190004,"\h(«Aika»)¡¡Caray!!
+¡O sea, que este navío es tan poderoso
+como el Gigas! ¡¡¡No lo puedo creer!!!\e"
+MSA5190005,"\h(«Gilder»)Muy bien…… Vyse, vamos a probarlo, ¿no?
+Tú usa el comando “Cañón-S”
+y estaremos listos.\c"
+"",M0430
+"",me116f.sct
+"",me519a.sct
+"",me090a.sct
+"",f7100100S.p04
+"",k020019.mld
+"",b3800.mld
+"",k020019.mld
+"",b3800.mld
+"",f7100051S.p04
+"",k020019.mld
+"",b3800.mld
+"",f3000036
+"",me116f.sct

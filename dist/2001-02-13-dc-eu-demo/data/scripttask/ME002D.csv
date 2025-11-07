@@ -1,0 +1,3548 @@
+[Event Name],Task ID
+MA0100000,"\h(«Timmus the Gunner»)Weapons, armor, gold…
+Now THIS is a great catch!
+One of our best yet!\e"
+MA0100001,"\h(«Mabel the Raider»)Tonight, we should celebrate!\e"
+MA0100002,\h(«Everyone»)Yeah!!!\e
+MA0100003,"\h(«Aika»)Well Fina, this is what we do!  What do you
+think?\e"
+MA0100004,"\h(«Fina»)Well…
+It certainly looks challenging.\e"
+MA0100005,"\h(«Aika»)Hahaha… challenging, huh…
+Well, now that you mention it, it isn't easy.
+But it is fun!\e"
+MA0100006,"\h(«Vyse»)This is the underground port inside of Pirate 
+Isle. From the outside, this island looks like
+a quiet, peaceful village.\e"
+MA0100007,"\h(«Vyse»)But the inside of the island is where our 
+headquarters is located.\e"
+MA0100008,"\h(«Aika»)There are armories, shops, and even a tavern
+inside here.
+Come on, we'll give you a tour.\e"
+MA0100009,\h(«Dyne»)Vyse!\e
+MA0100010,"\h(«Dyne»)Come to my office immediately… and bring that 
+girl with you.\e"
+MA0100011,\h(«Aika»)Vyse… I wonder what that was all about.\e
+MA0100012,"\h(«Vyse»)… I'm not sure, but we'd better hurry. 
+You know how my dad gets when we're late.\e"
+MSA0100000,"\h(«Timmus el Artillero»)Armas, blasones, oro……
+¡ESTO sí que es un buen botín!
+¡De los mejores que hemos conseguido!\e"
+MSA0100001,\h(«Mabel la Corsaria»)¡Esta noche tenemos que celebrarlo!\e
+MSA0100002,\h(«Todos»)¡¡¡Sí!!!\e
+MSA0100003,"\h(«Aika»)¡Bueno, Fina, esto es a lo que nos dedicamos!
+¿Qué te parece?\e"
+MSA0100004,"\h(«Fina»)Bueno……
+Parece todo un reto, desde luego.\e"
+MSA0100005,"\h(«Aika»)Jajaja…… un reto, uy……
+Bueno, ya que lo dices, no es cosa fácil.
+¡Pero es divertido!\e"
+MSA0100006,"\h(«Vyse»)Éste es el puerto clandestino de la Isla del
+Pirata. Desde el exterior, esta isla parece una
+aldea apacible y tranquila.\e"
+MSA0100007,"\h(«Vyse»)Pero en el interior de la isla se encuentra
+nuestro cuartel general.\e"
+MSA0100008,"\h(«Aika»)Aquí dentro hay arsenales, tiendas y hasta una
+taberna. Ven, te lo enseñaremos todo.\e"
+MSA0100009,\h(«Dyne»)¡Vyse!\e
+MSA0100010,"\h(«Dyne»)Ven a mi despacho inmediatamente…… y trae a esa
+chica contigo.\e"
+MSA0100011,\h(«Aika»)Vyse…… Me pregunto de qué va todo eso.\e
+MSA0100012,"\h(«Vyse»)No sé…… pero mejor será que nos demos prisa.
+Ya conoces a mi padre cuando nos retrasamos.\e"
+MFA0100000,"\h(«Timmus le canonnier»)Armes, armure, or……
+Alors là, C'EST une grosse prise !
+Une de nos meilleures jusqu'à présent !\e"
+MFA0100001,"\h(«Mabel le Bombardier»)Ce soir, il faut fêter ça !\e"
+MFA0100002,\h(«Tous»)Hip hip hip !!! hourra !!!\e
+MFA0100003,"\h(«Aika»)Voilà Fina, c'est ce que nous faisons !
+Qu'est-ce que vous en pensez ?\e"
+MFA0100004,"\h(«Fina»)Eh bien……
+Ça a l'air d'être un sacré défi.\e"
+MFA0100005,"\h(«Aika»)Hahaha…… un défi, hein……
+Eh bien, puisque vous le dites, oui, ce n'est
+pas facile. Mais on s'amuse beaucoup !\e"
+MFA0100006,"\h(«Vyse»)C'est le port souterrain dans l'Île des Pirates.
+De l'extérieur, cette île ressemble à un village
+tranquille et paisible.\e"
+MFA0100007,"\h(«Vyse»)Mais nos quartiers généraux se trouvent à
+l'intérieur de l'île.\e"
+MFA0100008,"\h(«Aika»)Il y a des armureries, des magasins, et même une
+taverne. Venez, nous allons vous faire visiter.\e"
+MFA0100009,\h(«Dyne»)Vyse !\e
+MFA0100010,"\h(«Dyne»)Viens dans mon bureau tout de suite…… avec cette
+fille.\e"
+MFA0100011,\h(«Aika»)Vyse…… je me demande ce qui se passe.\e
+MFA0100012,"\h(«Vyse»)…… Je ne sais pas mais il vaut mieux se presser.
+Mon père déteste que nous soyons en retard.\e"
+MGA0100000,"\h(«Timmus, der Kanonier»)Waffen, Rüstungen, Gold……
+Wenn das kein toller Fang ist!
+Einer unserer Besten!\e"
+MGA0100001,"\h(«Mabel, der Räuber»)Heute Abend sollten wir feiern!\e"
+MGA0100002,\h(«Alle»)Jaaa!!!\e
+MGA0100003,"\h(«Aika»)Also, Fina, das ist unsere Arbeit! Was hältst
+du davon?\e"
+MGA0100004,"\h(«Fina»)Also……
+Es sieht zumindest interessant aus.\e"
+MGA0100005,"\h(«Aika»)Hahaha……  interessant, meinst du……
+Tja, jetzt, wo du es sagst, so einfach ist es
+gar nicht. Aber es macht Spaß!\e"
+MGA0100006,"\h(«Vyse»)Dies ist der unterirdische Hafen von Pirate
+Isle. Von außen sieht die Insel wie ein ruhiges,
+friedliches Dorf aus.\e"
+MGA0100007,"\h(«Vyse»)Aber im Inneren der Insel befindet sich
+unser Hauptquartier.\e"
+MGA0100008,"\h(«Aika»)Es gibt hier Waffenlager, Läden und sogar eine
+Taverne. Komm, wir führen dich herum.\e"
+MGA0100009,\h(«Dyne»)Vyse!\e
+MGA0100010,"\h(«Dyne»)Komm sofort in mein Büro……  und bring das
+Mädchen mit.\e"
+MGA0100011,\h(«Aika»)Vyse…… was hat das zu bedeuten?\e
+MGA0100012,"\h(«Vyse»)……Weiß ich nicht, aber wir sollten uns beeilen.
+Du weißt ja wie mein Dad ist, wenn man zu spät
+kommt.\e"
+MA0110000,"\h(«Vyse»)Vyse and Aika reporting for duty.
+And we've brought Fina like you requested.\e"
+MA0110001,"\h(«Dyne»)Hmph… you're a little late.
+I'll let it slide this time… Come on over.\e"
+MA0110002,"\h(«Dyne»)Young lady, I am Dyne, the Captain of the Blue
+Rogues. There are a few questions that I want to
+ask you. Will you answer them for me?\e"
+MA0110003,\h(«Fina»)Of… of course.\e
+MA0110004,"\h(«Dyne»)Well then, on to the first question.
+What is your name?\e"
+MA0110005,\h(«Fina»)…… It's Fina.\e
+MA0110006,"\h(«Dyne»)… Alright.
+Next question.\e"
+MA0110007,"\h(«Dyne»)I've been sailing for a very long time, but
+I've never come across anyone wearing clothes
+like yours.\e"
+MA0110008,"\h(«Dyne»)What country are you from and why were you
+traveling alone out there?\e"
+MA0110009,"\h(«What will you do?»)“Defend Fina.”
+“Sit quietly and listen.”\e"
+MA0110010,"\h(«Vyse»)Dad, you're worrying too much.
+Fina is just a normal girl.\e"
+MA0110011,"\h(«Dyne»)… Vyse.
+Even though I am your father, I am also the 
+leader of the Blue Rogues.\e"
+MA0110012,"\h(«Dyne»)Therefore, it is my duty to not only protect
+the safety of my family, but the safety of my
+crew as well.\e"
+MA0110013,"\h(«Dyne»)If this girl is a danger of any sort to you or 
+any of my men, I cannot let her live.\e"
+MA0110014,\h(«Vyse»)……\e
+MA0110015,"\h(«Aika»)Cap'n Dyne, you worry too much.
+Fina is just a normal girl.\e"
+MA0110016,"\h(«Dyne»)Silence, Aika.\e"
+MA0110017,"\h(«Dyne»)I am the captain here.
+It is my duty to protect the safety of
+my family and my crew.\e"
+MA0110018,"\h(«Dyne»)If this girl is a danger of any sort to you or 
+any of my men, I cannot let her live.\e"
+MA0110019,\h(«Aika»)But… but…\e
+MA0110020,"\h(«Dyne»)Fina…
+It is your turn to speak.\e"
+MA0110021,\h(«Fina»)……\e
+MA0110022,\h(«Aika»)Fina…\e
+MA0110023,\h(«Fina»)… I… I cannot say.\e
+MA0110024,"\h(«Dyne»)Why is that?
+Is it because we are Air Pirates?
+Don't you trust us?\e"
+MA0110025,"\h(«Fina»)No, that has nothing to do with it.
+I thank you with all my heart for saving my 
+life.\e"
+MA0110026,"\h(«Fina»)But I cannot tell any living soul about the 
+purpose of my quest. Even if it means 
+sacrificing my own life.\e"
+MA0110027,"\h(«Fina»)I have no intention of endangering any of your 
+lives. If you believe anything that I say, 
+please believe this.\e"
+MA0110028,\h(«Dyne»)……\e
+MA0110029,"\h(«Dyne»)… Alright then.
+Heh… looks like I lost this one.\e"
+MA0110030,"\h(«Dyne»)I understand your dilemma. And I can see in
+your eyes that you are true to your word.\e"
+MA0110031,"\h(«Dyne»)Although we're Air Pirates, we also have a 
+strong sense of honor.\e"
+MA0110032,"\h(«Dyne»)You do not need to divulge the details of your 
+quest. Understand that you now have my trust… 
+Be careful that you do not lose it.\e"
+MA0110033,"\h(«Fina»)Captain Dyne…
+Thank you kindly.
+I will not disappoint you.\e"
+MA0110034,"\h(«Dyne»)Vyse, Aika…
+Bring the girl… Fina topside and give her a
+tour of the village.\e"
+MA0110035,\h(«Aika»)Now that's more like it!\e
+MA0110036,"\h(«Vyse»)Way to go, Dad!
+You're the best!\e"
+MA0110037,"\h(«Dyne»)… It's not “Dad”. It's Captain!
+I swear… how many times do I have to remind
+you?\e"
+MA0110038,"\h(«Dyne»)You're excused.
+Don't be late for dinner.\e"
+MSA0110000,"\h(«Vyse»)Vyse y Aika se presentan.
+Hemos traído a Fina como pediste.\e"
+MSA0110001,"\h(«Dyne»)Bueno…… llegáis un poco tarde. Que pase por esta
+vez…… Venid aquí.\e"
+MSA0110002,"\h(«Dyne»)Jovencita, soy Dyne, el Capitán de los Bandidos
+Azules. Me gustaría hacerte unas preguntas.
+¿Serías tan amable de responderme?\e"
+MSA0110003,\h(«Fina»)Sí…… claro.\e
+MSA0110004,"\h(«Dyne»)Pues vayamos con la primera pregunta.
+¿Cómo te llamas?\e"
+MSA0110005,\h(«Fina»)……Fina.\e
+MSA0110006,"\h(«Dyne»)……Muy bien.
+Siguiente pregunta.\e"
+MSA0110007,"\h(«Dyne»)Llevo muchos años de marino, pero nunca había
+visto a nadie vestido como tú.\e"
+MSA0110008,\h(«Dyne»)¿De dónde vienes? ¿Y por qué viajabas tú sola?\e
+MSA0110009,"\h(«¿Qué harías?»)“Defender a Fina”
+“Sentarte y escuchar”\e"
+MSA0110010,"\h(«Vyse»)Papá, te preocupas demasiado.
+Fina no es más que una chica corriente.\e"
+MSA0110011,"\h(«Dyne»)……Vyse.
+Soy tu padre, pero también soy el líder de los
+Bandidos Azules.\e"
+MSA0110012,"\h(«Dyne»)Por tanto, es mi deber no sólo proteger a mi
+familia, sino a toda mi tripulación.\e"
+MSA0110013,"\h(«Dyne»)Si esta chica representa un peligro para ti o
+cualquiera de mis hombres, no le dejaré vivir.\e"
+MSA0110014,\h(«Vyse»)……\e
+MSA0110015,"\h(«Aika»)Capitán Dyne, te preocupas demasiado.
+Fina es sólo una chica corriente.\e"
+MSA0110016,"\h(«Dyne»)Silencio, Aika.\e"
+MSA0110017,"\h(«Dyne»)Soy el Capitán. Es mi deber velar por la
+seguridad de mi familia y mi tripulación.\e"
+MSA0110018,"\h(«Dyne»)Si esta chica es un peligro para ti o cualquiera
+de mi tripulación, no le dejaré vivir.\e"
+MSA0110019,\h(«Aika»)Pero…… pero……\e
+MSA0110020,"\h(«Dyne»)Fina……
+Ahora debes hablar.\e"
+MSA0110021,\h(«Fina»)……\e
+MSA0110022,\h(«Aika»)Fina……\e
+MSA0110023,\h(«Fina»)No…… No puedo decir nada.\e
+MSA0110024,"\h(«Dyne»)¿Por qué?
+¿Es porque somos Piratas Aéreos?
+¿No te fías de nosotros?\e"
+MSA0110025,"\h(«Fina»)No, no tiene nada que ver con eso.
+Os doy gracias de todo corazón por haberme
+salvado la vida.\e"
+MSA0110026,"\h(«Fina»)Pero no puedo revelar a ningún alma viviente el
+propósito de mi búsqueda. Incluso a costa de mi
+propia vida.\e"
+MSA0110027,"\h(«Fina»)No tengo intención de poner en peligro la vida
+de nadie. Si creéis lo que os he contado, por
+favor, creed también esto.\e"
+MSA0110028,\h(«Dyne»)……\e
+MSA0110029,"\h(«Dyne»)De acuerdo……
+Eh…… por lo visto, esta vez he perdido.\e"
+MSA0110030,"\h(«Dyne»)Comprendo tu dilema. Y veo en tu mirada que tus
+palabras son sinceras.\e"
+MSA0110031,"\h(«Dyne»)Aunque seamos Piratas Aéreos, tenemos un gran
+sentido del honor.\e"
+MSA0110032,"\h(«Dyne»)No tienes que revelar nada sobre tu búsqueda.
+Ahora tienes mi confianza……
+Pero procura no perderla.\e"
+MSA0110033,"\h(«Fina»)Capitán Dyne……
+Se lo agradezco de todo corazón.
+No le decepcionaré.\e"
+MSA0110034,"\h(«Dyne»)Vyse, Aika……
+Llevad a la chica…… a Fina arriba y enseñadle la
+ciudad.\e"
+MSA0110035,\h(«Aika»)¡Eso es lo que yo quería oír!\e
+MSA0110036,"\h(«Vyse»)¡Así se habla papá!
+¡Eres el mejor!\e"
+MSA0110037,"\h(«Dyne»)No digas “papá”. ¡Se dice Capitán!
+Pero…… ¿cuántas veces tengo que recordártelo?\e"
+MSA0110038,"\h(«Dyne»)Te perdono.
+No vengáis tarde a cenar.\e"
+MFA0110000,"\h(«Vyse»)Vyse et Aika au rapport. Et nous sommes venus
+avec Fina comme vous l'avez demandé.\e"
+MFA0110001,"\h(«Dyne»)Pfut…… vous êtes un peu en retard. Je laisse
+passer pour cette fois…… Approchez-vous.\e"
+MFA0110002,"\h(«Dyne»)Mademoiselle, je suis Dyne, le Capitaine des
+Voleurs Bleus. Je voudrais vous poser quelques
+questions. Vous voulez bien y répondre ?\e"
+MFA0110003,\h(«Fina»)Bien…… bien sûr.\e
+MFA0110004,"\h(«Dyne»)Bon, première question alors.
+Comment vous appelez-vous ?\e"
+MFA0110005,\h(«Fina»)…… Fina.\e
+MFA0110006,"\h(«Dyne»)…… Bien.
+Question suivante.\e"
+MFA0110007,"\h(«Dyne»)Je navigue depuis très longtemps, mais je n'ai
+jamais rencontré quelqu'un habillé comme vous.\e"
+MFA0110008,"\h(«Dyne»)De quel pays venez-vous et pourquoi voyagiez-
+vous toute seule ?\e"
+MFA0110009,"\h(«Qu'allez-vous faire ?»)“Défendre Fina”
+“Rester tranquillement assis”\e"
+MFA0110010,"\h(«Vyse»)Papa, vous vous faites trop de souci.
+Fina est une fille ordinaire.\e"
+MFA0110011,"\h(«Dyne»)…… Vyse.
+Bien que je sois ton père, je suis aussi le chef
+des Voleurs Bleus.\e"
+MFA0110012,"\h(«Dyne»)Par conséquent, non seulement c'est mon devoir
+d'assurer la protection de ma famille, mais
+aussi celle de mon équipage.\e"
+MFA0110013,"\h(«Dyne»)Si cette fille met en danger mon fils ou un de
+mes hommes, je ne peux pas la laisser en vie.\e"
+MFA0110014,\h(«Vyse»)……\e
+MFA0110015,"\h(«Aika»)Cap'taine Dyne, vous vous faites trop de souci.
+Fina est une fille ordinaire.\e"
+MFA0110016,"\h(«Dyne»)Silence, Aika.\e"
+MFA0110017,"\h(«Dyne»)C'est moi le capitaine ici. C'est mon devoir
+de protéger ma famille et mon équipage.\e"
+MFA0110018,"\h(«Dyne»)Si cette fille met en danger mon fils ou un de
+mes hommes, je ne peux pas la laisser en vie.\e"
+MFA0110019,\h(«Aika»)Mais…… Mais……\e
+MFA0110020,"\h(«Dyne»)Fina……
+C'est à toi de prendre la parole.\e"
+MFA0110021,\h(«Fina»)……\e
+MFA0110022,\h(«Aika»)Fina……\e
+MFA0110023,\h(«Fina»)…… Je…… je ne peux rien dire.\e
+MFA0110024,"\h(«Dyne»)Et pourquoi ça ?
+C'est parce que nous sommes des Pirates de
+l'Air ? Vous ne nous faites pas confiance ?\e"
+MFA0110025,"\h(«Fina»)Non, cela n'a rien à voir.
+Je vous remercie de tout mon coeur de m'avoir
+sauvée la vie.\e"
+MFA0110026,"\h(«Fina»)Mais je ne peux dire à personne le but de ma
+quête. Même si cela signifie que je dois
+sacrifier ma propre vie.\e"
+MFA0110027,"\h(«Fina»)je n'ai nulle intention de mettre vos vies en
+danger. Vous devez me croire.\e"
+MFA0110028,\h(«Dyne»)……\e
+MFA0110029,"\h(«Dyne»)…… D'accord.
+Euh…… apparemment j'ai perdu.\e"
+MFA0110030,"\h(«Dyne»)Je comprends votre dilemme. Et je peux lire dans
+vos yeux que vous dites la vérité.\e"
+MFA0110031,"\h(«Dyne»)Bien que nous soyons des Pirates de l'Air, nous
+avons un grand sens de l'honneur.\e"
+MFA0110032,"\h(«Dyne»)Vous n'êtes pas obligée d'en dévoiler plus sur
+votre quête. Sachez que j'ai confiance en vous à
+présent…… Tâchez de ne pas l'oublier.\e"
+MFA0110033,"\h(«Fina»)Capitaine Dyne……
+Merci beaucoup.
+Je ne vous décevrai pas.\e"
+MFA0110034,"\h(«Dyne»)Vyse, Aika……
+Offrons le gîte à la fille…… Fina et faites lui
+visiter le village.\e"
+MFA0110035,\h(«Aika»)Ah je préfère ça !\e
+MFA0110036,"\h(«Vyse»)Super papa !
+Tu es le meilleur !\e"
+MFA0110037,"\h(«Dyne»)…… Ne m'appelle pas “Papa” mais Capitaine ! Je
+te jure…… combien de fois dois-je te le dire ?\e"
+MFA0110038,"\h(«Dyne»)Tu peux disposer.
+Rentre à l'heure pour dîner.\e"
+MGA0110000,"\h(«Vyse»)Vyse und Aika melden sich zur Stelle.
+Und wir haben, wie befohlen, Fina mitgebracht.\e"
+MGA0110001,"\h(«Dyne»)Hm… ihr kommt etwas spät. Diesmal werde ich es
+durchgehen lassen… Kommt rüber.\e"
+MGA0110002,"\h(«Dyne»)Junge Frau, ich bin Dyne, Captain der Blue
+Rogues. Ich möchte dir ein paar Fragen stellen.
+Wirst du sie mir beantworten?\e"
+MGA0110003,\h(«Fina»)Aber… natürlich.\e
+MGA0110004,"\h(«Dyne»)Nun, denn, zur ersten Frage.
+Wie heißt du?\e"
+MGA0110005,\h(«Fina»)…… Ich heiße Fina.\e
+MGA0110006,"\h(«Dyne»)… Gut.
+Nächste Frage.\e"
+MGA0110007,"\h(«Dyne»)Ich fahre schon eine ganze Weile zur See, aber
+ich habe noch nie jemanden getroffen, der solche
+Kleider trägt wie du.\e"
+MGA0110008,"\h(«Dyne»)Aus welchem Land kommst du, und warum warst du
+da draußen allein unterwegs?\e"
+MGA0110009,"\h(«Was wirst du tun?»)“Fina verteidigen”
+“Ruhig sitzenbleiben und zuhören”\e"
+MGA0110010,"\h(«Vyse»)Dad, du machst dir zu viele Gedanken.
+Fina ist nur ein einfaches Mädchen.\e"
+MGA0110011,"\h(«Dyne»)… Vyse.
+Ich bin zwar dein Vater, aber ich bin auch der
+Anführer der Blue Rogues.\e"
+MGA0110012,"\h(«Dyne»)Deshalb ist es meine Pflicht, nicht nur die
+Sicherheit meiner Familie, sondern auch die
+Sicherheit meiner Mannschaft zu gewährleisten.\e"
+MGA0110013,"\h(«Dyne»)Wenn dieses Mädchen eine Gefahr für dich oder
+einen meiner Männer darstellt, dann kann ich sie
+nicht am Leben lassen.\e"
+MGA0110014,\h(«Vyse»)……\e
+MGA0110015,"\h(«Aika»)Captain Dyne, Sie machen sich zu viele Gedanken.
+Fina ist nur ein einfaches Mädchen.\e"
+MGA0110016,"\h(«Dyne»)Ruhe, Aika.\e"
+MGA0110017,"\h(«Dyne»)Ich bin hier der Captain. Es ist meine Pflicht,
+die Sicherheit meiner Familie und meiner
+Mannschaft zu gewährleisten.\e"
+MGA0110018,"\h(«Dyne»)Wenn dieses Mädchen eine Gefahr für dich oder
+einen meiner Männer darstellt, dann kann ich sie
+nicht am Leben lassen.\e"
+MGA0110019,\h(«Aika»)Aber…  aber…\e
+MGA0110020,"\h(«Dyne»)Fina…
+Jetzt bist du dran.\e"
+MGA0110021,\h(«Fina»)……\e
+MGA0110022,\h(«Aika»)Fina…\e
+MGA0110023,\h(«Fina»)… Ich… Ich kann's nicht sagen.\e
+MGA0110024,"\h(«Dyne»)Warum nicht?
+Weil wir Luftpiraten sind?
+Hast du kein Vertrauen zu uns?\e"
+MGA0110025,"\h(«Fina»)Nein, damit hat es nichts zu tun. Ich danke euch
+von ganzem Herzen, dass ihr mein Leben gerettet
+habt.\e"
+MGA0110026,"\h(«Fina»)Aber ich darf keiner Menschenseele das Ziel
+meiner Reise verraten. Selbst wenn ich dafür
+mein Leben opfern müsste.\e"
+MGA0110027,"\h(«Fina»)Ich habe nicht die Absicht, das Leben von
+irgendeinem von euch zu gefährden. Wenn Sie mir
+irgendetwas glauben, dann das bitte.\e"
+MGA0110028,\h(«Dyne»)……\e
+MGA0110029,"\h(«Dyne»)… Meinetwegen.
+He… diese Runde habe ich wohl verloren.\e"
+MGA0110030,"\h(«Dyne»)Ich verstehe dein Problem. Und ich kann in
+deinen Augen sehen, dass du die Wahrheit
+sprichst.\e"
+MGA0110031,"\h(«Dyne»)Obwohl wir Luftpiraten sind, ist Ehre für uns
+sehr wichtig.\e"
+MGA0110032,"\h(«Dyne»)Du brauchst die Einzelheiten deines Abenteuers
+nicht zu verraten. Du hast jetzt mein Vertrauen…
+Sei vorsichtig, um es nicht zu verlieren.\e"
+MGA0110033,"\h(«Fina»)Captain Dyne…
+Vielen herzlichen Dank.
+Ich werde Sie nicht enttäuschen.\e"
+MGA0110034,"\h(«Dyne»)Vyse, Aika…
+Bringt das Mädchen… Fina nach oben und geht mit
+ihr eine Runde durch´s Dorf.\e"
+MGA0110035,\h(«Aika»)Das lass' ich mir gefallen!\e
+MGA0110036,"\h(«Vyse»)So ist es richtig, Dad!
+Du bist der Beste!\e"
+MGA0110037,"\h(«Dyne»)……Nicht “Dad”, sondern Captain!
+Also wirklich……  wie oft muss ich dich daran
+erinnern?\e"
+MGA0110038,"\h(«Dyne»)Ihr seid entlassen.
+Kommt nicht zu spät zum Abendessen.\e"
+MA0160000,\h(«Vyse»)Mom!!!\e
+MA0160001,"\h(«Vyse's Mother»)Vyse! Aika!
+Thank the Moons you two are safe!\e"
+MA0160002,\h(«Aika»)What happened here?\e
+MA0160003,"\h(«Vyse's Mother»)It was the Imperial Armada…
+They came out of nowhere and attacked us.\e"
+MA0160004,"\h(«Vyse»)What happened to Dad?
+Where is everyone else?!\e"
+MA0160005,"\h(«Vyse's Mother»)Your father said that if we fight, too many 
+lives would be lost. So, he… he surrendered.\e"
+MA0160006,\h(«Aika»)So Cap'n Dyne… and the others…\e
+MA0160007,"\h(«Vyse's Mother»)They were taken prisoner by the Armada and taken
+to Valua.\e"
+MA0160008,"\h(«Vyse»)Damn!
+… Fina! What happened to Fina!\e"
+MA0160009,"\h(«Vyse's Mother»)I'm sorry, Vyse…
+The Armada took her too.\e"
+MA0160010,"\h(«Aika»)In Valua, the punishment for Piracy is death! 
+Fina will probably be killed, too!\e"
+MA0160011,"\h(«Aika»)Vyse, what should we do?!\e"
+MA0160012,"\h(«What will you do?»)“Try and save everyone!”
+“There's nothing you can do.”\e"
+MA0160013,"\h(«Vyse»)What do you think, Aika?
+We have to save our families… and Fina!\e"
+MA0160014,"\h(«Vyse»)I know rescuing everyone isn't going to be easy,
+but it's not impossible!\e"
+MA0160015,"\h(«Vyse»)We can't let them get away with this. 
+Don't worry, we'll get them back… somehow.\e"
+MA0160016,"\h(«Aika»)… Yeah, you're right!
+It's up to us. 
+We can't give up now!\e"
+MA0160017,"\h(«Aika»)Alright, let's go! Let's show those Valuans what
+happens when they mess with the Blue Rogues!\e"
+MA0160018,"\h(«Vyse»)What do you mean, “What should we do?”
+We can't do anything by ourselves…\e"
+MA0160019,"\h(«Aika»)Don't give up, Vyse!
+Let's go to Valua and rescue them!\e"
+MA0160020,"\h(«Aika»)We're the only ones who can. 
+We're the only ones left, Vyse!\e"
+MA0160021,"\h(«Aika»)I thought you said you won't give up on anything
+without giving it your best shot!!!\e"
+MA0160022,\h(«Vyse»)Aika…\e
+MA0160023,"\h(«Vyse»)You're right. We should leave right away. Our
+friends, our families… Fina… they're all
+counting on us!\e"
+MA0160024,"\h(«Aika»)… Yeah!
+Let's go, Vyse.\e"
+MA0160025,"\h(«Vyse's Mother»)Wait…
+You won't be able to do anything against Valua 
+in the shape you're in right now.\e"
+MA0160026,"\h(«Vyse's Mother»)Don't just rush after them. You'll need a plan 
+first. It's not going to be an easy fight.\e"
+MA0160027,"\h(«Aika»)But, but…
+If we don't hurry, everyone might…\e"
+MA0160028,"\h(«Vyse's Mother»)My husband always said, “Acting quickly and 
+rushing are two completely different things.”\e"
+MA0160029,"\h(«Vyse's Mother»)Especially in times like these, you must calm 
+down and plan every move carefully.\e"
+MA0160030,"\h(«Vyse's Mother»)Don't worry… everything will be alright.
+He… your father won't let things end like this,
+not him.\e"
+MA0160031,"\h(«Vyse»)Yeah Mom, you're right.\e"
+MA0160032,"\h(«Vyse»)Aika… Let's rest up today.
+We'll leave for Valua first thing in the
+morning!\e"
+MA0160033,\h(«Aika»)Okay!\e
+MSA0160000,\h(«Vyse»)¡¡¡Mamá!!!\e
+MSA0160001,"\h(«Madre de Vyse»)¡Vyse! ¡Aika!
+¡Gracias a las Lunas que estáis los dos a
+salvo!\e"
+MSA0160002,\h(«Aika»)¿Qué ha pasado aquí?\e
+MSA0160003,"\h(«Madre de Vyse»)Era la Armada Imperial……
+Aparecieron por sorpresa y nos atacaron.\e"
+MSA0160004,"\h(«Vyse»)¿Qué le ha pasado a papá?
+¡¿Dónde están los demás?!\e"
+MSA0160005,"\h(«Madre de Vyse»)Tu padre dijo que si no nos rendíamos habría
+demasiados muertos. Así que, se…… se rindió.\e"
+MSA0160006,"\h(«Aika»)O sea, que el Capitán Dyne…… y los otros……\e"
+MSA0160007,"\h(«Madre de Vyse»)La Armada los hizo prisioneros y se los llevó a
+Valua.\e"
+MSA0160008,"\h(«Vyse»)¡Maldición!
+¡Fina! ¡¿Qué ha pasado con Fina?!\e"
+MSA0160009,"\h(«Madre de Vyse»)Lo siento, Vyse……
+La Armada se la llevó a ella también.\e"
+MSA0160010,"\h(«Aika»)¡En Valua, la pena por Piratería es la muerte!
+¡Y Fina también morirá!\e"
+MSA0160011,"\h(«Aika»)Vyse, ¡¿qué hacemos?!\e"
+MSA0160012,"\h(«¿Qué vas a hacer?»)“¡Intentar salvarlos a todos!”
+“No se puede hacer nada.”\e"
+MSA0160013,"\h(«Vyse»)¿Qué crees, Aika?
+Debemos salvar a nuestras familias…… ¡y a Fina!\e"
+MSA0160014,"\h(«Vyse»)¡Sé que rescatar a todo el mundo no va a ser
+fácil, pero tampoco es imposible!\e"
+MSA0160015,"\h(«Vyse»)No podemos permitir que se salgan con la suya.
+No te preocupes, los rescataremos…… como sea.\e"
+MSA0160016,"\h(«Aika»)¡Sí, tienes razón!
+De nosotros depende.
+¡No podemos rendirnos ahora!\e"
+MSA0160017,"\h(«Aika»)¡Muy bien, vamos allá! ¡Demostremos a los Valuan
+qué sucede si juegas con los Bandidos Azules!\e"
+MSA0160018,"\h(«Vyse»)¿Qué quieres decir con “¿Qué voy a hacer?”……?
+Nosotros solos no podemos hacer nada……\e"
+MSA0160019,"\h(«Aika»)¡No hay que rendirse, Vyse!
+¡Vamos a Valua a rescatarlos!\e"
+MSA0160020,"\h(«Aika»)Nosotros solos no podemos hacerlo.
+¡Somos los únicos que quedamos, Vyse!\e"
+MSA0160021,"\h(«Aika»)¡¡¡Creí que nunca te rendías sin haberlo
+intentado!!!\e"
+MSA0160022,\h(«Vyse»)Aika……\e
+MSA0160023,"\h(«Vyse»)Tienes razón. Tenemos que ir enseguida. Nuestros
+amigos y familiares…… Fina…… ¡Todos cuentan con
+nosotros!\e"
+MSA0160024,"\h(«Aika»)¡Sí!
+Vamos, Vyse.\e"
+MSA0160025,"\h(«Madre de Vyse»)Esperad……
+No podréis luchar contra Valua en el estado en
+que os encontráis.\e"
+MSA0160026,"\h(«Madre de Vyse»)No podéis salir corriendo tras ellos. Necesitáis
+un plan. No va a ser un combate fácil.\e"
+MSA0160027,"\h(«Aika»)Pero, pero……
+Si no vamos enseguida, todos pueden……\e"
+MSA0160028,"\h(«Madre de Vyse»)Como dice siempre mi marido: “Actuar con rapidez
+y apresuradamente son dos cosas muy distintas”.\e"
+MSA0160029,"\h(«Madre de Vyse»)En momentos como éste hay que calmarse y planear
+cada paso con mucho cuidado.\e"
+MSA0160030,"\h(«Madre de Vyse»)No os preocupéis…… todo irá bien. Él…… tu padre
+no va a dejar que todo termine de este modo, él
+no.\e"
+MSA0160031,"\h(«Vyse»)Sí, mama. Tienes razón.\e"
+MSA0160032,"\h(«Vyse»)Aika…… Vamos a descansar hoy. ¡Saldremos para
+Valua a primera hora de la mañana!\e"
+MSA0160033,\h(«Aika»)¡Está bien!\e
+MFA0160000,\h(«Vyse»)Maman !!!\e
+MFA0160001,"\h(«Mère de Vyse»)Vyse ! Aika !
+Remerciez les Lunes d'être en vie !\e"
+MFA0160002,\h(«Aika»)Que s'est-il passé ici ?\e
+MFA0160003,"\h(«Mère de Vyse»)C'était l'Armada Impériale……
+Ils sont venus de nulle part et nous ont
+attaqués.\e"
+MFA0160004,"\h(«Vyse»)Qu'est-il arrivé à papa ?
+Où sont-ils tous passés ?!\e"
+MFA0160005,"\h(«Mère de Vyse»)Ton père a dit que si nous nous battions, trop
+de gens mourraient. Alors, il…… il s'est rendu.\e"
+MFA0160006,\h(«Aika»)Alors Cap'taine Dyne…… et les autres……\e
+MFA0160007,"\h(«Mère de Vyse»)Ils ont été faits prisonniers par l'Armada et
+emmenés à Valua.\e"
+MFA0160008,"\h(«Vyse»)Ce n'est pas possible !
+… Fina ! Qu'est-il arrivé à Fina !\e"
+MFA0160009,"\h(«Mère de Vyse»)Je suis désolée, Vyse……
+L'Armada l'a emmenée elle aussi.\e"
+MFA0160010,"\h(«Aika»)À Valua, la Piraterie est punie de la peine de
+mort ! Fina sera certainement tuée, elle
+aussi !\e"
+MFA0160011,"\h(«Aika»)Vyse, que devrait-on faire ?!\e"
+MFA0160012,"\h(«Qu'allez-vous faire ?»)“Essayer de tous les sauver!”
+“Il n'y a rien faire.”\e"
+MFA0160013,"\h(«Vyse»)Qu'est ce que tu en penses, Aika ?
+Il faut sauver nos familles…… et Fina !\e"
+MFA0160014,"\h(«Vyse»)Je sais que cela va être difficile de les
+sauver tous, mais ce n'est pas impossible !\e"
+MFA0160015,"\h(«Vyse»)Nous ne pouvons pas les laisser faire.
+Ne t'inquiète pas, nous les ramènerons…… d'une
+façon ou d'une autre.\e"
+MFA0160016,"\h(«Aika»)…… Oui, tu as raison !
+Ils comptent sur nous.
+Nous ne pouvons pas abandonner maintenant !\e"
+MFA0160017,"\h(«Aika»)Très bien, allons-y ! Montrons à ces Valuans de
+quoi les Voleurs Bleus sont faits !\e"
+MFA0160018,"\h(«Vyse»)Que veux-tu dire ?
+Nous ne pouvons rien faire……\e"
+MFA0160019,"\h(«Aika»)N'abandonne pas, Vyse !
+Allons à Valua les sauver !\e"
+MFA0160020,"\h(«Aika»)Nous sommes les seuls à pouvoir le faire.
+Il ne reste que nous, Vyse !\e"
+MFA0160021,"\h(«Aika»)Je croyais que tu disais qu'il ne fallait jamais
+abandonner, sans avoir d'abord tout essayé !!!\e"
+MFA0160022,\h(«Vyse»)Aika……\e
+MFA0160023,"\h(«Vyse»)Tu as raison. Nous devrions partir tout de
+suite. Nos amis, nos familles…… Fina…… ils
+comptent tous sur nous !\e"
+MFA0160024,"\h(«Aika»)…… Tu as raison !
+Allons-y, Vyse.\e"
+MFA0160025,"\h(«Mère de Vyse»)Attendez……
+Vous ne pourrez rien faire contre Valua dans
+l'état où vous êtes.\e"
+MFA0160026,"\h(«Mère de Vyse»)Ne partez pas à leur poursuite comme ça.
+D'abord, il vous faut un plan. Cela ne va pas
+être facile.\e"
+MFA0160027,"\h(«Aika»)Mais, mais…… Si nous ne nous dépêchons pas,
+ils risquent tous de……\e"
+MFA0160028,"\h(«Mère de Vyse»)Mon mari disait toujours, “Agir vite et se
+presser sont deux choses totalement
+différentes.”\e"
+MFA0160029,"\h(«Mère de Vyse»)Surtout dans ces moments, il faut vous calmer et
+planifier soigneusement chaque étape.\e"
+MFA0160030,"\h(«Mère de Vyse»)Ne t'en fais pas…… tout ira bien.
+Ton père ne laissera pas les choses se terminer
+de cette façon, pas lui.\e"
+MFA0160031,"\h(«Vyse»)OK maman, tu as raison.\e"
+MFA0160032,"\h(«Vyse»)Aika…… Reposons-nous aujourd'hui.
+Nous irons à Valua demain matin !\e"
+MFA0160033,\h(«Aika»)OK !\e
+MGA0160000,\h(«Vyse»)Mutter!!\e
+MGA0160001,"\h(«Vyses Mutter»)Vyse! Aika!
+Den Monden sei Dank, dass ihr beiden gesund
+seid!\e"
+MGA0160002,\h(«Aika»)Was ist hier passiert?\e
+MGA0160003,"\h(«Vyses Mutter»)Das war die Kaiserliche Armada……
+Sie kamen aus dem Nichts und haben uns
+angegriffen.\e"
+MGA0160004,"\h(«Vyse»)Was ist mit Dad?
+Wo sind die anderen?!\e"
+MGA0160005,"\h(«Vyses Mutter»)Dein Vater meinte, ein Kampf würde zu viele
+Leben kosten. Also hat er……  sich ergeben.\e"
+MGA0160006,\h(«Aika»)Also sind Captain Dyne……  und die anderen…… \e
+MGA0160007,"\h(«Vyses Mutter»)Sie wurden von der Armada gefangen genommen und
+mit nach Valua genommen.\e"
+MGA0160008,"\h(«Vyse»)Verdammt!
+……  Fina! Was ist mit Fina!\e"
+MGA0160009,"\h(«Vyses Mutter»)Tut mir leid, Vyse……
+Die Armada hat auch sie mitgenommen.\e"
+MGA0160010,"\h(«Aika»)In Valua steht auf Piraterei die Todesstrafe!
+Fina wird wahrscheinlich auch getötet!\e"
+MGA0160011,"\h(«Aika»)Vyse, was sollen wir tun?!\e"
+MGA0160012,"\h(«Was wirst du tun?»)“Versuchen, alle zu retten!”
+“Da kann man nichts machen.”\e"
+MGA0160013,"\h(«Vyse»)Was meinst du, Aika?
+Wir müssen unsere Familien und……  Fina retten!\e"
+MGA0160014,"\h(«Vyse»)Ich weiß, es wird nicht leicht sein, alle zu
+retten, aber es ist nicht unmöglich!\e"
+MGA0160015,"\h(«Vyse»)Das können wir nicht zulassen. Mach dir keine
+Sorgen, wir bekommen sie zurück……  egal wie.\e"
+MGA0160016,"\h(«Aika»)…… Ja, du hast Recht!
+Es kommt auf uns an.
+Wir können jetzt nicht aufgeben.\e"
+MGA0160017,"\h(«Aika»)Ok, lass uns gehen! Wir werden diesen Valuanern
+zeigen, was passiert, wenn sie sich mit den Blue
+Rogues anlegen!\e"
+MGA0160018,"\h(«Vyse»)Was soll das heißen: “Was sollen wir tun?”
+Allein können wir nichts unternehmen…… \e"
+MGA0160019,"\h(«Aika»)Nicht aufgeben, Vyse!
+Lass uns nach Valua segeln und sie retten!\e"
+MGA0160020,"\h(«Aika»)Wir sind die Einzigen, die das können.
+Wir sind die Einzigen, die übrig sind, Vyse!\e"
+MGA0160021,"\h(«Aika»)Ich dachte, du hättest gesagt, dass du nie
+aufgibst, bevor du alles versucht hast!!!\e"
+MGA0160022,\h(«Vyse»)Aika…\e
+MGA0160023,"\h(«Vyse»)Du hast Recht! Wir sollten sofort losfahren.
+Unsere Freunde, unsere Familie……  Fina……
+Sie alle verlassen sich auf uns!\e"
+MGA0160024,"\h(«Aika»)……  Genau!
+Lass uns gehn, Vyse.\e"
+MGA0160025,"\h(«Vyses Mutter»)Wartet……
+In eurem momentanen Zustand werdet ihr herzlich
+wenig gegen Valua ausrichten.\e"
+MGA0160026,"\h(«Vyses Mutter»)Jetzt nur nichts überstürzen. Ihr braucht zuerst
+einen Plan. Es wird kein einfacher Kampf werden.\e"
+MGA0160027,"\h(«Aika»)Aber, aber……
+Wenn wir uns nicht beeilen, könnten sie alle……\e"
+MGA0160028,"\h(«Vyses Mutter»)Mein Mann sagte immer: “Schnell handeln und
+Dinge zu überstürzen sind zwei grundverschiedene
+Dinge.”\e"
+MGA0160029,"\h(«Vyses Mutter»)Vor allem in Zeiten wie diesen muss man die Ruhe
+bewahren und jeden Schritt sorgfältig planen.\e"
+MGA0160030,"\h(«Vyses Mutter»)Mach dir keine Sorgen……  alles wird gut.
+He……  dein Vater lässt die Dinge nicht so enden,
+das sieht ihm nicht ähnlich.\e"
+MGA0160031,"\h(«Vyse»)Ja, Mutter, du hast Recht.\e"
+MGA0160032,"\h(«Vyse»)Aika……  Wir ruhen uns heute aus. Und morgen früh
+fahren wir dann nach Valua!\e"
+MGA0160033,\h(«Aika»)Okay!\e
+MA0270000,\h(«Air Pirates»)Cheers!\e
+MA0270001,"\h(«Timmus the Gunner»)Haha… Loqua sure does hit the spot. Captain
+Dyne really does know how to pick his Loquat
+Berries! This stuff is good!\e"
+MA0270002,"\h(«Patch the Deckhand»)Heh… it's been a while since we've taken over
+an Armada Flagship. We deserve to take a
+little break now and then!\e"
+MA0270003,"\h(«Mabel the Raider»)Hmm? Should you be sitting here drinking loqua
+with the rest of us when you've got a beautiful,
+hard-working wife waiting for you at home?\e"
+MA0270004,"\h(«Timmus the Gunner»)Hey! There's nothing wrong with relaxing with
+friends after a hard day's work!\e"
+MA0270005,"\h(«Aika»)My, oh my… This place sure is full…\e"
+MA0270006,"\h(«Aika»)Fina, this is our tavern…
+They serve all kinds of drinks here: nectars,
+juices, loqua…\e"
+MA0270007,"\h(«Fina»)Um…
+Excuse me, but what exactly is “loqua?”\e"
+MA0270008,"\h(«Vyse»)WHAT?!
+Fina… you really don't know what loqua is?\e"
+MA0270009,"\h(«Fina»)Well… um…
+I don't know exactly, but it appears to be a
+really good tasting drink of some kind.\e"
+MA0270010,"\h(«Fina»)Everyone seems to be drinking it so fervently…
+it must be delicious.\e"
+MA0270011,"\h(«Mabel the Raider»)You want to share a bottle of Mur Loqua with us?
+It's made from Loquat Berries and Moon Stones.
+It's just a juice, but it tastes great!\e"
+MA0270012,"\h(«Aika»)Nononononono!
+We don't have time to just sit around right now!
+We have to go talk to the Cap'n!\e"
+MA0270013,"\h(«Fina»)Why?
+Are we not supposed to be here?\e"
+MA0270014,"\h(«Aika»)Well, the Cap'n is always getting on our case
+for being late and stuff… I really don't want
+to get into any more trouble today…\e"
+MA0270015,"\h(«Vyse»)Heh… Yeah, my dad can get pretty worked up
+when he's mad. We wouldn't want him to have a
+heart attack now, would we?\e"
+MA0270016,"\h(«Aika»)Haha… You're so mean to your dad, you know
+that Vyse? C'mon… We should probably get going.
+Your dad's waiting for us.\c"
+MSA0270000,\h(«Piratas Aéreos»)¡Salud!\e
+MSA0270001,"\h(«Timmus el Cañonero»)Aaah……
+¡Nada comparable al sabor del loqua tras un
+largo día de trabajo!\e"
+MSA0270002,"\h(«Patch el Marino»)Eh…… Hacía tiempo que no abordábamos un buque
+insignia de la Armada. ¡Nos hemos ganado unas
+copas!\e"
+MSA0270003,"\h(«Mabel la Corsaria»)¿Mmm? ¿Te parece bonito estar aquí bebiendo
+mientras en casa te espera tu bella y
+trabajadora esposa?\e"
+MSA0270004,"\h(«Timmus el Cañonero»)¡Eh! ¡Es un deber de todo Pirata Aéreo mostrar
+sus debidos respetos a la taberna local después
+de cada misión!\e"
+MSA0270005,"\h(«Aika»)Ay, mi madre…… Es verdad, esto está lleno……\e"
+MSA0270006,"\h(«Aika»)Fina, ésta es nuestra taberna……
+Aquí sirven todo tipo de bebidas: néctares,
+zumos, loqua……\e"
+MSA0270007,"\h(«Fina»)Esto……
+Perdona, pero…… ¿qué es eso del “loqua”?\e"
+MSA0270008,"\h(«Vyse»)¡¿QUÉ?!
+Fina…… ¿de verdad que no sabes qué es el loqua?\e"
+MSA0270009,"\h(«Fina»)Bueno…… em……
+No estoy segura, pero es una bebida con un sabor
+muy bueno.\e"
+MSA0270010,"\h(«Fina»)Todos lo beben con tantas ganas……
+Debe de estar buenísimo.\e"
+MSA0270011,"\h(«Mabel la Corsaria»)¿Qué decía la simpática joven? ¿Quieres probar
+el loqua? ¡Ven! ¡Anímate! ¡Aquí tenemos una
+botella de Mur Loqua!\e"
+MSA0270012,"\h(«Aika»)¡No, no, no, no, no, no!
+No podemos dejarle beber ahora.
+¡Tenemos que hablar con el Capitán!\e"
+MSA0270013,"\h(«Fina»)¿Por qué?
+¿Es que sucede algo malo si lo bebes?\e"
+MSA0270014,"\h(«Aika»)Bueno…… la verdad es que no pasa nada…… verás,
+umm…… el loqua es una bebida que te relaja…… y
+te anima al mismo tiempo……\e"
+MSA0270015,"\h(«Vyse»)Eh…… No creo que necesitemos nada de eso ahora.
+Ya es bastante difícil tomarse a papá en serio.\e"
+MSA0270016,"\h(«Aika»)Eso es verdad……
+¡Vamos! Tenemos que irnos.\e"
+MFA0270000,\h(«Pirates de l'Air»)Santé !\e
+MFA0270001,"\h(«Timmus le Canonnier»)Haha……
+Rien de tel qu'un loqua après une longue
+journée de dur labeur !\e"
+MFA0270002,"\h(«Patch le Matelot»)Hé…… ça faisait longtemps que l'on ne s'était
+pas emparé d'un Vaisseau Amiral de l'Armada !
+Nous avons mérité de boire !\e"
+MFA0270003,"\h(«Mabel le Bombardier»)Humm ? Au lieu de boire, vous devriez plutôt
+être avec votre femme, qui vous attend à la
+maison. Elle est si belle et travailleuse.\e"
+MFA0270004,"\h(«Timmus le Canonnier»)Hé ! C'est le devoir d'un Pirate de l'Air de
+rendre hommage à la taverne du coin après
+chaque mission !\e"
+MFA0270005,\h(«Aika»)Ça alors… Cet endroit est vraiment plein de……\e
+MFA0270006,"\h(«Aika»)Fina, voilà notre taverne……
+Ils servent toutes sortes de boissons ici:
+nectars, jus, loqua……\e"
+MFA0270007,"\h(«Fina»)Um……
+Excusez-moi, mais c'est quoi exactement un
+“loqua” ?\e"
+MFA0270008,"\h(«Vyse»)QUOI ?!
+Fina……
+vous ne savez vraiment pas ce que c'est ?\e"
+MFA0270009,"\h(«Fina»)Eh bien…… um……
+Je ne sais pas vraiment, mais on dirait une
+sorte de boisson qui a l'air délicieuse.\e"
+MFA0270010,"\h(«Fina»)Tout le monde semble en boire avec ferveur…… 
+ce doit être délicieux.\e"
+MFA0270011,"\h(«Mabel le Bombardier»)Qui y-a t-il mademoiselle ? Vous voulez en
+savoir plus sur la loqua ? Venez ! Venez nous
+rejoindre ! Nous avons une bonne bouteille de
+Loqua !\e"
+MFA0270012,"\h(«Aika»)Nonononononon !
+On ne peut pas la laisser boire ça maintenant.
+Il faut aller parler au Cap'taine !\e"
+MFA0270013,"\h(«Fina»)Pourquoi ?
+Est-ce que c'est mauvais d'en boire ?\e"
+MFA0270014,"\h(«Aika»)Eh bien…… cela ne fait pas grand chose…… Vous
+voyez, umm…… le loqua est une boisson qui vous
+détend…… et vous met aussi de bonne humeur.\e"
+MFA0270015,"\h(«Vyse»)Nous n'en voulons pas vraiment maintenant. C'est
+déjà assez dur de prendre mon père au sérieux.\e"
+MFA0270016,"\h(«Aika»)C'est vrai……
+Venez ! Il faut y aller.\e"
+MGA0270000,\h(«Luftpiraten»)Prost!\e
+MGA0270001,"\h(«Timmus, der Kanonier»)Haha… Loqua trifft's natürlich voll. Captain
+Dyne weiß wirklich, wo er seine Loquat
+Berries pfückt! Dieses Zeug ist gut!\e"
+MGA0270002,"\h(«Patch, der Matrose»)He……  es ist schon 'ne Weile her, dass wir ein
+Flaggschiff der Armada ausgehoben haben.
+Da haben wir uns ab und zu mal 'ne kleine
+Pause verdient!\e"
+MGA0270003,"\h(«Mabel, die Räuberin»)Hmm? Solltest du wirklich hier mit uns sitzen
+und trinken, während zu Hause deine schöne,
+fleißige Frau auf dich wartet?\e"
+MGA0270004,"\h(«Timmus, der Kanonier»)He! Es kann nicht falsch sein, nach einem
+harten Tag mit seinen Freunden zu entspannen!\e"
+MGA0270005,\h(«Aika»)Du liebe Güte…… Es ist wirklich voll hier drin……\e
+MGA0270006,"\h(«Aika»)Fina, dies ist unsere Taverne……
+Hier bekommt man alle Arten von Getränken:
+Fruchtnektar, Säfte, Loqua…… \e"
+MGA0270007,"\h(«Fina»)Ähm…… 
+Entschuldigung, aber was ist eigentlich
+“Loqua”?\e"
+MGA0270008,"\h(«Vyse»)WAS?!
+Fina……  weißt du wirklich nicht, was Loqua ist?\e"
+MGA0270009,"\h(«Fina»)Also……  äh……
+Ich weiß nicht genau, aber es scheint ein
+wohlschmeckendes Getränk zu sein.\e"
+MGA0270010,"\h(«Fina»)Alle trinken es mit so viel Überzeugung…… es
+muss köstlich sein.\e"
+MGA0270011,"\h(«Mabel, die Räuberin»)Hast du Lust, eine Flasche Mur Loqua mit uns
+zu trinken? Es ist aus Loquat Berries und
+Moon Stones gemacht. Es ist nur ein
+Fruchtsaft, schmeckt aber spitze!\e"
+MGA0270012,"\h(«Aika»)Neeiiiin!
+Wir haben keine Zeit einfach nur rum-
+zusitzen! Wir müssen zum Kapt'n!\e"
+MGA0270013,"\h(«Fina»)Warum?
+Sollen wir nicht hier sein?\e"
+MGA0270014,"\h(«Aika»)Nun, der Kapt'n beklagt sich immer darüber,
+dass wir zu spät sind und so……
+Ich habe echt keine Lust auf noch mehr
+Ärger heute……\e"
+MGA0270015,"\h(«Vyse»)Heh… Yeah, mein Vater kann sich ziemlich
+aufregen, wenn er sauer ist. Wir wollen doch
+nicht, dass er einen Herzinfarkt bekommt, oder?\e"
+MGA0270016,"\h(«Aika»)Haha… Du bist so gemein zu deinemm Dad,
+weißt du das eigentlich Vyse? Komm schon……
+Wir sollten los, dein Vater wartet auf uns.\c"
+Ms002d000,"\h(«Vyse»)It's a picture of the Albatross.
+My dad has had this boat for as long as I can
+remember. She's a good boat…\c"
+Ms002d001,"\h(«Vyse»)I never could quite figure out what this was a
+picture of. Aika thinks it's a giant ballon, but
+I think it's a big rock.\c"
+Ms002d002,"\h(«Vyse»)It's full of my old man's books and other
+things that he's picked up on our raids. I
+wonder how old some of that stuff actually is…\c"
+Ms002d003,"\h(«Vyse»)It's the flag of the Dyne Family. I've always
+liked this design. It just says “Blue Rogues”
+to me. It's a classic.\c"
+Ms002d041,"\h(«Vyse»)It's the flag of the Dyne Family…
+Don't worry everyone… I'll rescue you all!
+I promise!!!\c"
+Ms002d004,"\h(«Vyse»)These boxes contain all the good loot from all
+of our recent raids. My dad always takes the
+good stuff. Well, I suppose he IS the captain…\c"
+Ms002d005,"\h(«Vyse»)It's filled with various healing crystals and
+raw materials for medicines and stuff. Maybe
+this is Erinn's emergency supply…\c"
+Ms002d006,"\h(«Vyse»)Weapon parts… Moon Stones… This must be where
+Zack puts all of his odds and ends. I wonder
+if he's ever going to use any of this stuff…\c"
+Ms002d042,"\h(«Vyse»)Well, it looks like everything is still intact
+here. Those Valuans aren't very thorough. They
+didn't take any weapons or Moon Stones.\c"
+Ms002d007,"\h(«Vyse»)Wow… Fruit!! Erinn probably grabbed this from
+one of our raids. Fruit is hard to come by…
+Well, fruit other than Loquat Berries, that is…\c"
+Ms002d008,"\h(«Vyse»)It's a barrel filled with loqua. After it's been
+processed with the Moon Stones, the bitter smell
+of Loquat Berries is hardly noticeable.\c"
+Ms002d043,"\h(«Vyse»)Why didn't the Valuans take the loqua? Do they
+not drink it in Valua? Well, I wouldn't know…
+I've never been there before…\c"
+Ms002d009,"\h(«Vyse»)There're loquas of all colors lined up on the
+walls here. I wonder if loqua made with Silver
+Moon Stones actually exists…\c"
+Ms002d044,"\h(«Vyse»)Why didn't the Valuans take the loqua? Do they
+not drink it in Valua? Well, I wouldn't know…
+I've never been there before…\c"
+Ms002d010,"\h(«Vyse»)We took this armor from a Valuan vessel a long
+time ago. Looks like someone had a little fun
+drawing on it. Looks much better now. Heh heh…\c"
+Ms002d045,"\h(«Vyse»)It's hard to think that just a little while ago,
+everyone was here giving cheers to our
+successful raid on that Valuan battleship…\c"
+Ms002d011,"\h(«Vyse»)It's a talking-tube. It's connected to my dad's
+office. It allows him to issue commands from his
+office to the guys sleeping in here.\e"
+Ms002d012,"\h(«Dyne»)Vyse!! Quit standing around and get your butt
+over here on the double!!\c"
+Ms002d013,"\h(«Vyse»)It's a talking-tube. It's connected to my dad's
+office. It allows him to issue commands from his
+office to the guys sleeping in here.\e"
+Ms002d014,"\h(«Dyne»)Vyse, I thought I told you that these things are
+only to be used during emergencies. I swear…
+you never listen to a thing I say…\c"
+Ms002d015,"\h(«Vyse»)Dad lets everyone eat a little better than
+usual whenever we successfully raid a Valuan
+ship. They always have the best stuff…\c"
+Ms002d016,"\h(«Vyse»)It's the log from the Valuan battleship that we
+just raided. Hey… Dad is mentioned in here.
+He's famous! Heh… My dad's a great Air Pirate.\c"
+Ms002d046,"\h(«Vyse»)It's the log from the Valuan battleship that we
+just raided. There's mention of my dad in it.\c"
+Ms002d017,"\h(«Vyse»)Most sailors feel at home sleeping in hammocks.
+That's probably because they spend most of their
+time out sailing. I prefer a nice, warm bed.\c"
+Ms002d047,"\h(«Vyse»)I can only pray that everyone is alright.
+Don't worry, Dad… I'm coming.\c"
+Ms002d018,"\h(«Vyse»)I guess the guys get pretty thirsty at night.
+Why else would they bring a whole barrel of
+loqua into their sleeping quarters?\c"
+Ms002d019,"\h(«Vyse»)It's a talking-tube. It's connected to my dad's
+office. It allows him to issue commands from his
+office to the guys sleeping in here.\e"
+Ms002d020,"\h(«Dyne»)Vyse, quit standing around and come over here
+like I asked you.\c"
+Ms002d021,"\h(«Vyse»)It's a talking-tube. It's connected to my dad's
+office. It allows him to issue commands from his
+office to the guys sleeping in here.\e"
+Ms002d022,"\h(«Dyne»)Vyse, I thought I told you that these things are
+only to be used during emergencies. I swear…
+you never listen to a thing I say…\c"
+Ms002d059,"\h(«Vyse»)It's a talking-tube. It's connected to my dad's
+office. It allows him to issue commands from his
+office to the guys sleeping in here.\c"
+Ms002d023,"\h(«Vyse»)Weapons are set aside here in case of an
+emergency. We've all been trained to spring into
+action at a moment's notice.\c"
+Ms002d048,"\h(«Vyse»)Damn… The Valuans disassembled all the weapons
+here. I don't see why they had to ruin all of
+the weapons… Why didn't they just take them?\c"
+Ms002d024,"\h(«Vyse»)We use these cranes when we're loading the ship
+with supplies for long voyages. Food containers
+and Moon Stone barrels can get pretty heavy.\c"
+Ms002d025,"\h(«Vyse»)The crest of the Dyne Family.
+This is my dad's office.\c"
+Ms002d026,"\h(«Vyse»)These boxes are filled with Loquat Berries and
+Moon Stones used in making loqua. Heh… This
+stuff sure is popular around here.\c"
+Ms002d049,"\h(«Vyse»)The Loquat berries are still in here. Why didn't
+the Valuans take any of this stuff? Do they not
+drink loqua in Valua or something?\c"
+Ms002d027,"\h(«Vyse»)It's a barrel full of freshly made Relik Loqua.
+I think it's made with Red Moon Stones. It's a
+little too spicy for my tastes, to be honest.\c"
+Ms002d050,"\h(«Vyse»)Why didn't the Valuans take the loqua? Do they
+not drink it in Valua? Well, I wouldn't know…
+I've never been there before…\c"
+Ms002d028,"\h(«Vyse»)It's full of cannonballs. I remember when I was
+a kid, my dad made me polish cannonballs all the
+time. I really hated doing that…\c"
+Ms002d051,"\h(«Vyse»)Looks like the Valuans took all of the
+cannonballs that were kept in here.\c"
+Ms002d029,"\h(«Vyse»)It's packed with weapons that we took from the
+Valuan guards. I don't really see anything of
+particularly high quality…\c"
+Ms002d052,"\h(«Vyse»)Heh… Looks like the Valuans took back
+all the weapons that we stole from them.
+There's nothing left…\c"
+Ms002d030,"\h(«Vyse»)It's filled with Moon Stones for the ship. We
+use them as fuel. The Albatross is kind of old,
+so she eats up fuel pretty quickly.\c"
+Ms002d053,"\h(«Vyse»)There used to be Moon Stones in here. It looks
+like the Valuans were pretty thorough about
+taking as much as they could…\c"
+Ms002d031,"\h(«Vyse»)The other side of this door is covered in rock.
+That way, you can't tell there's actually a door
+here from the outside.\e"
+Ms002d032,"\h(«Vyse»)Whenever there's an enemy ship nearby, we open
+up this door and use this big cannon here to
+knock them out of the sky.\c"
+Ms002d054,"\h(«Vyse»)Whenever there's an enemy ship nearby, we open
+up this door and use this big cannon here to
+knock them out of the sky.\e"
+Ms002d055,"\h(«Vyse»)But, it doesn't look like anyone even got the
+chance to strike back with this thing…\c"
+Ms002d033,"\h(«Vyse»)My dad told me that he stole this cannon from a
+Black Pirate when he was younger. It's pretty
+old, but it's really powerful.\c"
+Ms002d056,"\h(«Vyse»)It's the cannon that my dad stole when he was
+younger. It doesn't look like anyone was able
+to use it against the Valuans.\c"
+Ms002d034,"\h(«Vyse»)On sailboats, ropes are used for just about
+everything. Having good, strong ropes can mean
+the difference between life and death.\c"
+Ms002d035,"\h(«Vyse»)There are all kinds of building tools in here.
+Hammers, saws, knives… The Albatross needs to
+be kept in good shape, so we repair it daily.\c"
+Ms002d036,"\h(«Vyse»)This is where we store various ship parts that
+we steal from enemy ships. These boxes have
+been sitting here for as long as I can remember.\e"
+Ms002d037,"\h(«Vyse»)I don't even think my dad knows what's piled up
+in here anymore. But, I suppose it's better to
+have more parts than not.\c"
+Ms002d057,"\h(«Vyse»)This is where we store various ship parts. Well,
+now that the Albatross has been destroyed, these
+things are pretty much useless.\c"
+Ms002d038,"\h(«Vyse»)This is where we store most of the loot from our
+raids. Later, we'll separate the stuff that we
+want to keep from what we want to sell.\c"
+Ms002d058,"\h(«Vyse»)It's hard to think that just a little while ago,
+everyone was here giving cheers to our
+successful raid on that Valuan battleship…\c"
+Ms002d039,"\h(«Vyse»)This is the door to go outside… but it won't
+open. My dad probably locked it. I should
+bring Fina to see him first.\c"
+Ms002d040,"\h(«Vyse»)… What's this?
+The bookshelf seems a little loose… And I can
+hear the sound of wind coming from behind it…\c"
+Ms002d060,"\h(«What will you do?»)“Return to your ship.”
+“Stay here a little while longer.”\c"
+Ms002d061,\h(«Dyne»)Vyse… Where do you think you're going?\e
+Ms002d062,"\h(«Vyse»)Oops… I forgot to talk to my dad about
+traveling with Fina. I should probably let him
+know what's going on…\c"
+MSs002d000,"\h(«Vyse»)Es un cuadro del Albatross.
+Mi padre ha tenido este navío desde que yo tengo
+memoria. Es un buen navío……\c"
+MSs002d001,"\h(«Vyse»)Nunca supe realmente de qué era este cuadro.
+Aika dice que es un balón gigante,
+pero yo creo que es una gran roca.\c"
+MSs002d002,"\h(«Vyse»)Está lleno de los libros de mi viejo y de otras
+cosas que cogió en nuestros asaltos. Me pregunto
+qué antigüedad tendrá todo esto……\c"
+MSs002d003,"\h(«Vyse»)Es la bandera de la Familia Dyne. Siempre me ha
+gustado el diseño. Para mí solo significa
+“Bandidos Azules”. Es un clásico.\c"
+MSs002d041,"\h(«Vyse»)Es la bandera de la Familia Dyne……
+Qué nadie se preocupe……
+¡¡Os rescataré a todos!! ¡Lo prometo!\e"
+MSs002d004,"\h(«Vyse»)Estas cajas contienen lo mejorcito de nuestras
+últimas batallas, aunque mi padre siempre coge
+lo mejor. Bueno, supongo que él ES el capitán……\c"
+MSs002d005,"\h(«Vyse»)Está lleno de varios cristales curativos y
+materia prima para medicinas y esas cosas.
+Quizás sea la provisión de reserva de Erinn……\c"
+MSs002d006,"\h(«Vyse»)Piezas de pistolas…… Piedras Lunares…… Aquí debe
+guardar Zack pone sus chismes. Me pregunto si
+alguna vez utilizará algo……\c"
+MSs002d042,"\h(«Vyse»)Bueno, parece que todo está intacto por aquí.
+Esos Valuan no son muy minuciosos. No se han
+llevado las pistolas ni las Piedras Lunares.\c"
+MSs002d007,"\h(«Vyse»)¡Vaya! ¡Fruta! Erinn debe haber cogido esto en
+algún asalto. La fruta es difícil de conseguir.
+Bueno, menos Bayas Loquat, claro……\c"
+MSs002d008,"\h(«Vyse»)Es un barril lleno de loqua. Después de haberlo
+tratado con Piedras Lunares, el amargo olor de
+las Bayas Loquat casi ni se nota.\c"
+MSs002d043,"\h(«Vyse»)¿Por qué los Valuan no se llevaron el loqua?
+¿Es que no beben loqua? Bueno, cómo lo voy a
+saber, si nunca he estado allí……\c"
+MSs002d009,"\h(«Vyse»)Hay loqua de todos los colores junto a este
+muro. Me pregunto si existirá loqua de Piedras
+de la Luna de Plata……\c"
+MSs002d044,"\h(«Vyse»)¿Por qué los Valuan no se llevaron el loqua?
+¿Es que no beben loqua? Bueno, cómo lo voy a
+saber, si nunca he estado allí……\c"
+MSs002d010,"\h(«Vyse»)Cogimos esta armadura de los Valuan hace un
+tiempo. Parece que alguien se ha divertido
+pintándola. Tiene mejor pinta ahora, je, je……\c"
+MSs002d045,"\h(«Vyse»)Me parece increíble que hace poco todo el mundo
+nos felicitara por nuestra exitosa batalla
+contra aquel acorazado Valuan……\c"
+MSs002d011,"\h(«Vyse»)Es un tubo para hablar. Está conectado con la
+oficina de mi padre y le permite dar órdenes
+desde su oficina a los que duermen aquí.\e"
+MSs002d012,"\h(«Dyne»)¡¡Vyse!!
+¡¡Deja de merodear por ahí y ven aquí
+en seguida!!\c"
+MSs002d013,"\h(«Vyse»)Es un tubo para hablar. Está conectado con la
+oficina de mi padre y le permite dar órdenes
+desde su oficina a los que duermen aquí.\e"
+MSs002d014,"\h(«Dyne»)Vyse, creo que ya te he dicho que sólo se pueden
+usar estas cosas en caso de emergencia. ¡Es que
+nunca me escuchas cuando hablo……!\c"
+MSs002d015,"\h(«Vyse»)Papá nos deja que comamos un poco más de lo
+normal cuando tenemos éxito en abordar un navío
+Valuan. Siempre tienen lo mejorcito……\c"
+MSs002d016,"\h(«Vyse»)Es el diario de abordo del acorazado Valuan que
+acabamos de abordar. Oye…… a Papá te mencionan
+aquí. ¡Mi padre es un gran Pirata Aéreo!\c"
+MSs002d046,"\h(«Vyse»)Es el diario de abordo del acorazado Valuan que
+acabamos de abordar. Y menciona a mi padre.\c"
+MSs002d017,"\h(«Vyse»)Casi todos los marinos se sienten como en casa
+durmiendo en hamacas. Seguramente porque pasan
+mucho tiempo en el mar. Yo prefiero una cama.\c"
+MSs002d047,"\h(«Vyse»)Sólo pido que todos estén bien.
+No te preocupes, papá…… Ya voy.\c"
+MSs002d018,"\h(«Vyse»)Me parece que estos muchachos tienen mucha sed
+por la noche. ¿Por qué, si no, se llevarían un
+barril de loqua a sus cuartos?\c"
+MSs002d019,"\h(«Vyse»)Es un tubo para hablar. Está conectado con la
+oficina de mi padre y le permite dar órdenes
+desde su oficina a los que duermen aquí.\e"
+MSs002d020,"\h(«Dyne»)Vyse, deja de merodear por ahí y ven aquí
+en seguida.\c"
+MSs002d021,"\h(«Vyse»)Es un tubo para hablar. Está conectado con la
+oficina de mi padre y le permite dar órdenes
+desde su oficina a los que duermen aquí.\e"
+MSs002d022,"\h(«Dyne»)Vyse, creo que ya te he dicho que sólo se pueden
+usar estas cosas en caso de emergencia.
+¡Es que nunca me escuchas cuando hablo……!\c"
+MSs002d059,"\h(«Vyse»)Es un tubo para hablar. Está conectado con la
+oficina de mi padre y le permite dar órdenes
+desde su oficina a los que duermen aquí.\c"
+MSs002d023,"\h(«Vyse»)Las armas se guardan aquí, separadas, en caso de
+emergencia. Todos hemos sido entrenados para
+entrar en acción cuando llega el momento.\c"
+MSs002d048,"\h(«Vyse»)Maldita sea…… Los Valuan han desmontado todas
+estas pistolas. ¿Por qué las habrán destrozado?
+¿Por qué no se las llevaron sin más?\c"
+MSs002d024,"\h(«Vyse»)Con estas grúas cargamos el navío de provisiones
+para viajes largos. La comida y los barriles de
+Piedras Lunares pueden llegar a pesar mucho.\c"
+MSs002d025,"\h(«Vyse»)El emblema de la Familia Dyne.
+Ésta es la oficina de mi padre.\c"
+MSs002d026,"\h(«Vyse»)Estas cajas están llenas de Bayas Loquat y
+Piedras Lunares que se usan para la destilación
+del loqua. Esto es muy famoso por aquí.\c"
+MSs002d049,"\h(«Vyse»)Las Bayas Loqua todavía están aquí. ¿Por qué
+no se llevarían nada de esto los Valuan?
+¿No beben loqua en Valua o qué?\c"
+MSs002d027,"\h(«Vyse»)Este barril está lleno de Loqua Relik recién
+hecho. Creo se destila con Piedras Lunares
+rojas. Yo lo encuentro un poco picante.\c"
+MSs002d050,"\h(«Vyse»)¿Por qué los Valuan no se llevaron el loqua?
+¿Es que no beben loqua? Bueno, cómo lo voy a
+saber, si nunca he estado allí……\c"
+MSs002d028,"\h(«Vyse»)Está lleno de balas de cañón. Cuando era
+pequeño, mi padre me mandaba a pulir
+las balas de los cañones, y yo lo odiaba……\c"
+MSs002d051,"\h(«Vyse»)Parece que los Valuan se han llevado todas
+las balas de cañón que había aquí.\c"
+MSs002d029,"\h(«Vyse»)Está lleno de armas que les quitamos a los
+guardias de Valua. En realidad no hay nada que
+destaque por su calidad……\c"
+MSs002d052,"\h(«Vyse»)Oye, parece que los Valuan han recuperaron todas
+las armas que les habíamos robado.
+No queda nada……\c"
+MSs002d030,"\h(«Vyse»)Está lleno de Piedras Lunares para el navío. Las
+utilizamos como combustible. El Albatross es
+algo viejo, así que traga mucho combustible.\c"
+MSs002d053,"\h(«Vyse»)Aquí solía haber Piedras Lunares,
+pero parece que los Valuan se han
+llevado todas las que han podido……\c"
+MSs002d031,"\h(«Vyse»)El otro lado de esta puerta está cubierto por
+roca, así que desde fuera no se puede ver que
+hay una puerta.\e"
+MSs002d032,"\h(«Vyse»)Cuando hay un navío enemigo cerca,
+abrimos esta puerta y usamos este gran cañón
+para hacerlos desaparecer del cielo.\c"
+MSs002d054,"\h(«Vyse»)Cuando hay un navío enemigo cerca,
+abrimos esta puerta y usamos este gran cañón
+para hacerlos desaparecer del cielo.\c"
+MSs002d055,"\h(«Vyse»)Pero, parece que nadie puede responder a un
+ataque con esto……\c"
+MSs002d033,"\h(«Vyse»)Mi padre me contó que robó este cañón a un
+Pirata Negro cuando era joven. Es bastante
+viejo, pero muy potente.\c"
+MSs002d056,"\h(«Vyse»)Es el cañón que mi padre robó cuando era
+joven. No parecía que nadie pudiera usarlo
+contra Valua.\c"
+MSs002d034,"\h(«Vyse»)En los navíos de vela, los cabos se usan para
+casi todo. Es crucial para salvar la vida que
+sean fuertes y de buena calidad.\c"
+MSs002d035,"\h(«Vyse»)Aquí hay todo tipo de instrumentos de
+construcción: martillos, clavos, cuchillos……
+El Albatross siempre está en perfecto estado.\c"
+MSs002d036,"\h(«Vyse»)Aquí guardamos los repuestos de navíos, que
+robamos a los navíos enemigos.
+Estas cajas han estado aquí siempre.\e"
+MSs002d037,"\h(«Vyse»)Ni siquiera creo que mi padre sepa lo que hay
+aquí dentro, pero supongo que es mejor tener
+más piezas por si acaso.\c"
+MSs002d057,"\h(«Vyse»)Aquí guardamos repuestos de navíos. Bueno,
+ahora que el Albatross ha quedado destruido,
+todo esto es prácticamente inútil.\c"
+MSs002d038,"\h(«Vyse»)Aquí guardamos la mayoría de los botines de
+nuestros asaltos. Después separamos lo que vamos
+a vender de lo que nos vamos a quedar.\c"
+MSs002d058,"\h(«Vyse»)Me parece increíble que hace poco todo el mundo
+nos felicitara por nuestra exitosa batalla
+contra aquel acorazado Valuan……\c"
+MSs002d039,"\h(«Vyse»)Esta puerta da al exterior…… pero no se puede
+abrir. Mi padre la debe de haber cerrado.
+Debería traer a Fina para que le conociera.\c"
+MSs002d040,"\h(«Vyse»)¿Qué es esto?
+La estantería no parece muy firme…… y se oye
+el ruido del viento pasar por detrás……\c"
+MSs002d060,"\h(«¿Qué vas a hacer?»)“Volver al navío.”
+“Quedarme aquí un poco más.”\c"
+MSs002d061,\h(«Dyne»)Vyse… ¿A dónde crees que vas?\e
+MSs002d062,"\h(«Vyse»)Uy…… Me olvidé de decirle a mi padre lo de irme
+de viaje con Fina. Creo que debería
+contárselo.\c"
+MFs002d000,"\h(«Vyse»)Voici une photo de l'Albatros.
+Mon père possède ce navire depuis des années.
+C'est vraiment un bon navire.\c"
+MFs002d001,"\h(«Vyse»)Je n'ai jamais réussi à déterminer ce que
+représentait cette photo. Aika pense que c'est
+un ballon géant, mais moi, je pense que c'est
+un énorme rocher.\c"
+MFs002d002,"\h(«Vyse»)Il y a plein de livres appartenant à mon père,
+mais aussi d'autres objets rapportés de nos
+voyages. Je me demande si certains de ces objets
+sont anciens……\c"
+MFs002d003,"\h(«Vyse»)C'est le drapeau de la Famille Dyne.
+J'ai toujours aimé le concept. Pour moi, il
+dit “Voleurs Bleus”. C'est un classique.\c"
+MFs002d041,"\h(«Vyse»)C'est le drapeau de la Famille Dyne……
+Ne vous inquiétez pas…… Je vous sauverai tous !
+Je vous le promets !!!\c"
+MFs002d004,"\h(«Vyse»)Ces caisses contiennent tout le butin de nos
+voyages les plus récents. Mon père prend
+toujours ce qu'il y a de mieux. J'imagine que
+c'est pour ça qu'il est capitaine…\c"
+MFs002d005,"\h(«Vyse»)Il y a plein de cristaux variés et de matières
+premières pour les médicaments. Peut-être est-ce
+l'équipement d'urgence d'Erinn……\c"
+MFs002d006,"\h(«Vyse»)Des pièces de rechange pour les armes, des
+Pierres de Lune…… Ce doit être là où Zack dépose
+tout son matériel. Je me demande s'il se sert de
+tout ce matériel……\c"
+MFs002d042,"\h(«Vyse»)Eh bien, il semblerait que tout soit intact.
+Ces Valuans ne sont pas très malins.
+Ils n'ont pris ni armes, ni Pierres de Lune.\c"
+MFs002d007,"\h(«Vyse»)Oh, des fruits ! Erinn les a sûrement obtenus
+lors de nos voyages. Il n'est pas facile de
+trouver des fruits…… Enfin, je veux dire autre
+que des baies de Loqua……\c"
+MFs002d008,"\h(«Vyse»)Ce baril est plein de loqua. Une fois traitées
+avec les Pierres de Lune, les baies de Loqua
+perdent leur forte odeur amère.\c"
+MFs002d009,"\h(«Vyse»)Ce sont des loquas de toutes les couleurs
+alignés sur ce mur. Je me demande si le loqua
+fait avec des Pierres de Lunes Argent existe……\c"
+MFs002d010,"\h(«Vyse»)Nous avons obtenu cette armure à bord d'un
+vaisseau Valuan, il y a très longtemps. On
+dirait que quelqu'un s'est amusé à la dessiner.
+Elle est bien mieux maintenant. Hé hé……\c"
+MFs002d045,"\h(«Vyse»)Il est difficile d'imaginer qu'il y a peu de
+temps, nous fêtions tous ici notre voyage et
+notre victoire face au vaisseau Valuan……\c"
+MFs002d011,"\h(«Vyse»)C'est un tuyau de communication. Il est relié
+au bureau de mon père pour qu'il puisse émettre
+des ordres de son bureau à tous ceux qui dorment
+ici.\e"
+MFs002d012,"\h(«Dyne»)Vyse !! Arrête de ne rien faire et viens ici
+immédiatement !\c"
+MFs002d013,"\h(«Vyse»)C'est un tuyau de communication. Il est relié
+au bureau de mon père pour qu'il puisse émettre
+des ordres de son bureau à tous ceux qui dorment
+ici.\e"
+MFs002d014,"\h(«Dyne»)Vyse, je croyais t'avoir dit que ces choses ne
+servent qu'en cas d'urgence. Vraiment, tu
+n'écoutes jamais ce que je te dis……\c"
+MFs002d015,"\h(«Vyse»)Mon père nous laisse manger un peu mieux lorsque
+nous vainquons un vaisseau Valuan.
+Ils ont toujours de bonnes choses à bord……\c"
+MFs002d016,"\h(«Vyse»)C'est le journal de bord provenant du navire
+Valuan que nous venons de vaincre. Oh, le nom
+de mon père y est mentionné. Il est connu !
+C'est en effet un grand Pirate de l'Air.\c"
+MFs002d046,"\h(«Vyse»)C'est le journal de bord provenant du navire que
+nous venons de vaincre. Le nom de mon père y est
+mentionné.\c"
+MFs002d017,"\h(«Vyse»)La plupart des marins dorment dans des hamacs
+sans problème. C'est sûrement parce qu'ils
+passent la plupart de leur temps en voyage.
+Je préfère un vrai lit bien chaud.\c"
+MFs002d047,"\h(«Vyse»)Je prie pour que tout le monde aille bien.
+Ne t'inquiète pas papa…… J'arrive……\c"
+MFs002d018,"\h(«Vyse»)Je pense que la nuit, l'équipage est assoiffé.
+Pour quelle autre raison emporteraient-ils tout
+un baril de loqua près de leur lit ?\c"
+MFs002d019,"\h(«Vyse»)C'est un tuyau de communication. Il est relié
+au bureau de mon père pour qu'il puisse émettre
+des ordres de son bureau à tous ceux qui dorment
+ici.\e"
+MFs002d020,"\h(«Dyne»)Vyse, arrête de te tourner les pouces et vient
+ici, comme je te l'ai demandé.\c"
+MFs002d021,"\h(«Vyse»)C'est un tuyau de communication. Il est relié
+au bureau de mon père pour qu'il puisse émettre
+des ordres de son bureau à tous ceux qui dorment
+ici.\e"
+MFs002d022,"\h(«Dyne»)Vyse, je croyais t'avoir dit que ces choses ne
+doivent être utilisées qu'en cas d'urgence.
+Vraiment, tu n'écoutes jamais ce que je te dis……\c"
+MFs002d059,"\h(«Vyse»)C'est un tuyau de communication. Il est relié
+au bureau de mon père pour qu'il puisse émettre
+des ordres de son bureau à tous ceux qui dorment
+ici.\e"
+MFs002d048,"\h(«Vyse»)Oh non…… Les Valuans ont démonté toutes les
+armes. Je ne vois pas pourquoi ils ont tout
+détruit…… Pourquoi est-ce qu'ils ne se sont pas
+contentés de les prendre ?\c"
+MFs002d024,"\h(«Vyse»)Nous utilisons ces grues lorsque nous chargeons
+le navire de fournitures pour de longs voyages.
+Les containers de nourriture et les barils de
+Pierres de Lune peuvent être lourds !\c"
+MFs002d025,"\h(«Vyse»)Les armoiries de la Famille Dyne.
+Voici le bureau de mon père.\c"
+MFs002d026,"\h(«Vyse»)Ces caisses sont pleines de baies de Loqua et de
+Pierres de Lune utilisées pour faire du loqua.
+Hé…… ce truc est vraiment populaire par ici.\c"
+MFs002d027,"\h(«Vyse»)Ce baril est plein de Relik Loqua frais. Je
+crois que c'est fabriqué avec des Pierres de
+Lune Rouge. C'est un peu trop épicé à mon goût,
+pour être honnête.\c"
+MFs002d028,"\h(«Vyse»)Il y a plein de boulets de canon. Je me souviens
+quand j'étais jeune, mon père me demandais de
+les polir…… Je détestais faire ça !\c"
+MFs002d051,"\h(«Vyse»)On dirait que les Valuans se sont emparés de
+tous les boulets de canon qui étaient conservés
+ici.\c"
+MFs002d029,"\h(«Vyse»)C'est plein d'armes que nous avons volées aux
+gardes Valuans. Je ne vois rien de bien
+extraordinaire au niveau de la qualité……\c"
+MFs002d052,"\h(«Vyse»)Hé…… On dirait que les Valuans on repris toutes
+les armes que nous leur avions volées.
+Il ne reste plus rien……\c"
+MFs002d030,"\h(«Vyse»)C'est plein de Pierres de Lune pour le navire.
+Nous les utilisons comme carburant. L'Albatros
+est assez vieux, donc il consomme beaucoup de
+carburant rapidement.\c"
+MFs002d053,"\h(«Vyse»)Autrefois, il y avait des Pierres de Lune ici.
+Apparemment, les Valuans ont vraiment pris tout
+ce qu'ils ont pu……\c"
+MFs002d031,"\h(«Vyse»)L'autre côté de cette porte est caché par des
+pierres. Ainsi, on ne sait pas qu'il y a une
+porte ici, lorsque l'on se trouve à l'extérieur.\e"
+MFs002d032,"\h(«Vyse»)Dès qu'un navire ennemi s'approche, nous ouvrons
+cette porte et nous utilisons cet énorme canon
+pour leur tirer dessus.\c"
+MFs002d054,"\h(«Vyse»)Dès qu'un navire ennemi s'approche, nous ouvrons
+cette porte et nous utilisons cet énorme canon
+pour leur tirer dessus.\c"
+MFs002d055,"\h(«Vyse»)Mais, on dirait que personne n'a pu répondre à
+l'attaque avec cet engin……\c"
+MFs002d033,"\h(«Vyse»)Mon père m'a dit qu'il avait volé ce canon à un
+Pirate Noir quand il était plus jeune. Il est
+vieux, mais il est encore très puissant.\c"
+MFs002d056,"\h(«Vyse»)C'est le canon que mon père a volé lorsqu'il
+était plus jeune. Il semblerait que personne
+d'autre que lui n'ait su l'utiliser contre les
+Valuans.\c"
+MFs002d034,"\h(«Vyse»)Sur les voiliers, les cordes servent à tout.
+De bonnes cordes solides peuvent faire toute la
+différence en situation de danger.\c"
+MFs002d035,"\h(«Vyse»)Il y a toutes sortes d'outils de construction
+ici. Des marteaux, des scies, des couteaux……
+L'Albatros doit être entretenu. C'est pourquoi
+nous le réparons chaque jour.\c"
+MFs002d036,"\h(«Vyse»)C'est ici que nous conservons les différentes
+pièces d'un navire que nous volons sur un navire
+ennemi. Ces caisses sont ici depuis très
+longtemps.\e"
+MFs002d037,"\h(«Vyse»)Je ne pense pas que mon père se souvienne de
+tout ce qui est entassé ici. Mais il vaut mieux
+avoir trop de pièces que pas assez.\c"
+MFs002d057,"\h(«Vyse»)C'est ici que nous conservons différentes pièces
+de navire. Maintenant que l'Albatros a été
+détruit, tous ces éléments sont inutiles.\c"
+MFs002d038,"\h(«Vyse»)C'est ici que nous conservons la plupart du
+butin que nous obtenons lors de nos batailles.
+Plus tard, nous séparerons ce que nous voulons
+garder de ce que nous voulons vendre.\c"
+MFs002d058,"\h(«Vyse»)Il est difficile d'imaginer qu'il y a peu de
+temps, nous fêtions tous ici notre voyage et
+notre victoire face au vaisseau Valuan……\c"
+MFs002d039,"\h(«Vyse»)Cette porte mène à l'extérieur…… mais on
+n'arrive plus à l'ouvrir. Mon père a dû la
+fermer à clé. Je devrais avant tout accompagner
+Fina jusqu'à lui.\c"
+MFs002d040,"\h(«Vyse»)…… Qu'est-ce que c'est ?
+Cette étagère n'a pas l'air fiable……
+J'entends même le bruit du vent……\c"
+MFs002d060,"\h(«Que ferez-vous ?»)“Vous retournerez au navire.”
+“Vous resterez ici encore un moment.”\c"
+MFs002d061,\h(«Dyne»)Vyse…… Où est-ce que tu vas ?\e
+MFs002d062,"\h(«Vyse»)Zut…… j'ai oublié de dire à mon père que nous
+allions voyager avec Fina. Je devrais peut-être
+l'avertir de ce qu'il se passe……\c"
+MGs002d000,"\h(«Vyse»)Ein Bild der Albatross.
+Mein Vater hat dieses Schiff so lange
+ich denken kann. Ein gutes Schiff……\c"
+MGs002d001,"\h(«Vyse»)Ich hab nie herausgefunden, was dieses Bild
+darstellt. Aika meint, es wäre ein Riesenballon,
+aber ich halte es eher für einen großen elsen.\c"
+MGs002d002,"\h(«Vyse»)Da sind lauter Bücher von meinem Vater drin
+und andere Sachen von unseren Beutezügen.
+Wie alt manche von den Sachen wohl sind……\c"
+MGs002d003,"\h(«Vyse»)Die Familien-Flagge der Dynes. Hat mir immer
+schon gefallen. Ich denke gleich an die
+“Blue Rogues”, wenn ich sie sehe. Einmalig.\c"
+MGs002d041,"\h(«Vyse»)Die Familien-Flagge der Dynes……
+Keine Sorge, Leute…… ich werde euch alle retten!
+Versprochen!!!\c"
+MGs002d004,"\h(«Vyse»)In diesen Kisten sind all die guten Sachen von
+unseren letzten Beutezügen. Mein Vater nimmt
+sich immer das Beste. Naja, schließlich ist
+er der Käpt'n……\c"
+MGs002d005,"\h(«Vyse»)Da drin sind verschiedene Heilkristalle und
+Rohstoffe für Medikamente und so.
+Vielleicht ist das Erinns Notreserve……\c"
+MGs002d006,"\h(«Vyse»)Waffenteile…… Mondsteine…… hier bewahrt Zack
+wohl seinen Krimskrams auf. Ich frage mich,
+ob er jemals etwas davon benutzen wird……\c"
+MGs002d042,"\h(«Vyse»)Sieht aus, als wäre noch alles intakt.
+Die Valuaner sind nicht besonders gründlich.
+Sie haben keine Waffen oder Moon Stones
+mitgenommen.\c"
+MGs002d007,"\h(«Vyse»)Wow…… Obst!! Erinn hat es wahrscheinlich
+auf einem unserer Beutezüge ergattert. Obst ist
+schwer zu kriegen…… abgesehen von
+Loquat-Beeren……\c"
+MGs002d008,"\h(«Vyse»)Ein Fass mit Loqua. Mit Moon Stones versetzt,
+ist der bittere Geschmack der Loquat-Beeren
+kaum noch wahrnehmbar.\c"
+MGs002d043,"\h(«Vyse»)Warum haben die Valuaner nicht den Loqua
+mitgenommen? Trinken die denn gar nicht in
+Valua? Naja, wer weiß…… bin ja noch
+nie dagewesen……\c"
+MGs002d009,"\h(«Vyse»)An der Wand hier sind Loquas in allen
+Farben aufgereiht. Ich frage mich, ob es auch
+Loqua aus Silver Moon Stones gibt……\c"
+MGs002d044,"\h(«Vyse»)Warum haben die Valuaner nicht den Loqua
+mitgenommen? Trinken die denn gar nicht in
+Valua? Naja, wer weiß…… bin ja noch
+nie dagewesen……\c"
+MGs002d010,"\h(«Vyse»)Diese Rüstung haben wir vor einiger Zeit von
+einem valuanischen Schiff erbeutet.Da hat
+anscheinend aus Spaß jemand draufgemalt.
+So sieht sie gleich viel besser aus. He he……\c"
+MGs002d045,"\h(«Vyse»)Kaum zu glauben, dass uns hier noch vor kurzem
+ein jubelnder Empfang nach unserem erfolgreichen
+Überfall auf das valuanische Schlachtschiff
+bereitet wurde……\c"
+MGs002d011,"\h(«Vyse»)Ein Sprachrohr. Es ist mit dem Quartier meines
+Vaters verbunden. Damit kann er den Jungs,
+die hier schlafen, von seinem Qaurtier aus
+Befehle geben.\e"
+MGs002d012,"\h(«Dyne»)Vyse!! Steh nicht rum, sondern beweg
+auf der Stelle deinen Hintern hierher!!\c"
+MGs002d013,"\h(«Vyse»)Ein Sprachrohr. Es ist mit dem Quartier meines
+Vaters verbunden. Damit kann er den Jungs,
+die hier schlafen, von seinem Qaurtier
+aus Befehle geben.\e"
+MGs002d014,"\h(«Dyne»)Vyse, ich dachte, ich hätte dir gesagt, dass
+diese Dinge nur für den Notfall da sind.
+Verdammt…… hörst du mir eigentlich nie zu……\c"
+MGs002d015,"\h(«Vyse»)Vater lässt alle etwas besser essen,
+wenn wir erfolgreich ein valuanisches Schiff
+überfallen haben. Die haben immer die besten
+Sachen an Bord……\c"
+MGs002d016,"\h(«Vyse»)Das Logbuch des letzten valuanischen
+Schlachtschiffes, das wir überfallen haben.He……
+hier wird Vater erwähnt. Er ist berühmt! He…… 
+Mein Vater ist ein ausgezeichneter Luftpirat.\c"
+MGs002d046,"\h(«Vyse»)Das Logbuch des letzten valuanischen
+Schlachtschiffes, das wir überfallen haben.
+Darin wird mein Vater erwähnt.\c"
+MGs002d017,"\h(«Vyse»)Die meisten Seeleute fühlen sich in Hängematten
+zu Hause. Wahrscheinlich, weil sie die meiste
+Zeit auf einem Schiff verbringen. Ich bevorzuge
+ein schönes, warmes Bett.\c"
+MGs002d047,"\h(«Vyse»)Ich hoffe nur, dass keinem etwas passiert ist.
+Keine Sorge, Vater…… Ich komme.\c"
+MGs002d018,"\h(«Vyse»)Die Jungs müssen nachts einen ganz schönen
+Durst bekommen. Warum sollten sie sonst ein
+ganzes Fass Loqua in ihrem Schlafraum haben?\c"
+MGs002d019,"\h(«Vyse»)Ein Sprachrohr. Es ist mit dem Quartier meines
+Vaters verbunden. Damit kann er den Jungs,
+die hier schlafen, von seinem Qaurtier aus
+Befehle geben.\e"
+MGs002d020,"\h(«Dyne»)Vyse, hör auf da rumzustehen und komm her.\c"
+MGs002d021,"\h(«Vyse»)Ein Sprachrohr. Es ist mit dem Quartier meines
+Vaters verbunden. Damit kann er den Jungs,
+die hier schlafen, von seinem Qaurtier aus
+Befehle geben.\e"
+MGs002d022,"\h(«Dyne»)Vyse, ich dachte, ich hätte dir gesagt,
+dass diese Dinge nur für den Notfall da sind.
+Verdammt…… hörst du mir eigentlich nie zu……\c"
+MGs002d059,"\h(«Vyse»)Ein Sprachrohr. Es ist mit dem Quartier meines
+Vaters verbunden. Damit kann er den Jungs,
+die hier schlafen, von seinem Qaurtier aus
+Befehle geben.\e"
+MGs002d023,"\h(«Vyse»)Hier sind Waffen für den Notfall gelagert.
+Wir sind darauf vorbereitet, jeden Moment
+handeln zu können.\c"
+MGs002d048,"\h(«Vyse»)Mist…… Die Valuaner haben alle Waffen zerlegt.
+Ich verstehe nicht, warum sie die Waffen
+zerstören mussten…… Warum haben sie sie
+nicht einfach mitgenommen?\c"
+MGs002d024,"\h(«Vyse»)Wir benutzen diese Kräne, wenn wir das Schiff
+für lange Reisen mit Vorrat beladen.
+Nahrungsbehälter und Moon Stone Fässer
+können ziemlich schwer sein.\c"
+MGs002d025,"\h(«Vyse»)Das Familienwappen der Dynes.
+Dies ist das Quartier meines Vaters.\c"
+MGs002d026,"\h(«Vyse»)In diesen Kisten sind Loquat-Beeren und
+Moon Stones zur Loqua-Herstellung.
+He…… Das Zeug ist hier wirklich beliebt.\c"
+MGs002d049,"\h(«Vyse»)Die Loqua-Beeren sind immer noch hier drin.
+Warum haben die Valuaner nichts davon genommen?
+Trinken die in Valua keinen Loqua oder was?\c"
+MGs002d027,"\h(«Vyse»)Ein Fass mit frischem Relik-Loqua.
+Ich glaube er ist aus Red Moon Stones.
+Ein bisschen scharf für meinen Geschmack,
+ehrlich gesagt.\c"
+MGs002d050,"\h(«Vyse»)Warum haben die Valuaner nicht den Loqua
+mitgenommen? Trinken die denn gar nicht in
+Valua? Naja, wer weiß…… bin ja noch
+nie dagewesen……\c"
+MGs002d028,"\h(«Vyse»)Lauter Kanonenkugeln. Ich weiß noch, als ich
+ein Kind war, ließ mein Vater mich immer
+Kanonenkugeln polieren. Das habe ich
+wirklich gehasst……\c"
+MGs002d051,"\h(«Vyse»)Sieht so aus, als hätten die Valuaner die
+Kanonenkugeln, die wir hier aufbewahrt hatten,
+mitgenommen.\c"
+MGs002d029,"\h(«Vyse»)Voll mit Waffen, die wir den valuanischen
+Wachen abgenommen haben. Ich sehe nichts
+besonders Wertvolles darunter……\c"
+MGs002d052,"\h(«Vyse»)He…… Sieht aus, als hätten sich die Valuaner
+alle Waffen wiedergeholt, die wir ihnen
+gestohlen hatten. Es ist nichts mehr da……\c"
+MGs002d030,"\h(«Vyse»)Voller Moon Stones für das Schiff. Wir benutzen
+sie als Treibstoff. Die Albatross ist schon
+ziemlich alt und verbraucht daher ziemlich
+viel.\c"
+MGs002d053,"\h(«Vyse»)Hier waren mal Moon Stones drin. Die Valuaner
+waren scheinbar sehr gründlich und haben so
+viel mitgenommen wie möglich……\c"
+MGs002d031,"\h(«Vyse»)Diese Tür ist auf der anderen Seite mit Fels
+verkleidet. So sieht man von draußen nicht,
+dass hier eine Tür ist.\e"
+MGs002d032,"\h(«Vyse»)Immer wenn ein feindliches Schiff in der Nähe
+ist, öffnen wir diese Tür und schießen sie mit
+dieser großen Kanone vom Himmel.\c"
+MGs002d054,"\h(«Vyse»)Immer wenn ein feindliches Schiff in der Nähe
+ist, öffnen wir diese Tür und schießen sie mit
+dieser großen Kanone vom Himmel.\c"
+MGs002d055,"\h(«Vyse»)Aber es sieht so aus, als wäre diesmal keine
+Zeit gewesen, um damit zurückzuschießen……\c"
+MGs002d033,"\h(«Vyse»)Mein Vater erzählte mir, dass er diese Kanone
+einem Black Pirate gestohlen hat, als er jünger
+war. Sie ist ziemlich alt, aber enorm
+schlagkräftig.\c"
+MGs002d056,"\h(«Vyse»)Diese Kanone hat mein Vater gestohlen,
+als er jünger war. Anscheinend konnte sie gegen
+die Valuaner nicht eingesetzt werden.\c"
+MGs002d034,"\h(«Vyse»)Auf Segelschiffen werden Taue für fast alles
+benutzt. Gute, kräftige Taue können über Leben
+und Tod entscheiden.\c"
+MGs002d035,"\h(«Vyse»)Hier drin befinden sich allerlei Bauwerkzeuge.
+Hämmer, Sägen, Messer…… Die Albatross muss
+ständig gewartet werden, deshalb arbeiten wir
+täglich an ihr.\c"
+MGs002d036,"\h(«Vyse»)Hier bewahren wir verschiedene Schiffsteile auf,
+die wir von feindlichen Schiffen erbeuten. Diese
+Kisten stehen hier schon solange ich denken
+kann.\e"
+MGs002d037,"\h(«Vyse»)Ich glaube, mein Vater weiß schon gar nicht
+mehr, was sich hier alles angesammelt hat.
+Aber es ist wahrscheinlich besser,
+zu viele als gar keine Teile zu haben.\c"
+MGs002d057,"\h(«Vyse»)Hier werden verschiedene Schiffsteile
+aufbewahrt. Jetzt, wo die Albatross zerstört
+ist, sind diese Sachen wohl ziemlich
+nutzlos geworden.\c"
+MGs002d038,"\h(«Vyse»)Hier bewahren wir zunächst einen Großteil
+unserer Beute auf. Später trennen wir das,
+was wir behalten wollen, von dem, was
+wir verkaufen wollen.\c"
+MGs002d058,"\h(«Vyse»)Kaum zu glauben, dass uns hier noch vor
+kurzem ein jubelnder Empfang nach unserem
+erfolgreichen Überfall auf das valuanische
+Schlachtschiff bereitet wurde……\c"
+MGs002d039,"\h(«Vyse»)Diese Tür führt nach draußen…… aber sie
+lässt sich nicht öffnen. Mein Vater hat sie
+wahrscheinlich verriegelt. Ich sollte zuerst
+Fina zu ihm bringen.\c"
+MGs002d040,"\h(«Vyse»)……Was ist das?
+Das Bücherregal ist lose……
+und ich kann Windgeräusche dahinter hören……\c"
+MGs002d060,"\h(«Was wirst du tun?»)“Zurück zum Schiff gehen.”
+“Noch etwas bleiben.”\c"
+MGs002d061,\h(«Dyne»)Vyse…… Wo willst du hin?\e
+MGs002d062,"\h(«Vyse»)Ups…… Ich hab ganz vergessen, mit meinem Vater
+über Fina zu sprechen. Ich glaube, ich sollte
+ihm sagen, was los ist……\c"
+M00010000,"\h(«Jimmy»)The Valuans came out of nowhere and just
+started shooting at us! So many people were
+hurt… I got hurt a little, but I'm okay.\e"
+M00010001,"\h(«Jimmy»)I wish I was bigger… then maybe I could've done
+something to fight back!!\c"
+M00020000,"\h(«Alan»)Vyse!! You're back!! Have the Valuan soldiers
+all gone away yet?\e"
+M00020001,"\h(«Alan»)A bunch of ships came and all these soldiers
+just started capturing people and Captain Dyne
+and everyone else got taken back to Valua!!\c"
+M00030000,"\h(«Lindsi»)A whole lot of ships from Valua came and started
+shooting at us… They took everyone's daddies
+away…\e"
+M00030001,"\h(«Lindsi»)And… our houses… our whole village…
+It was all destroyed… I don't know
+what to do, Vyse!\c"
+M00040000,\h(«Pow»)Pow… pow…\c
+M00050000,"\h(«Martha»)Vyse! Oh, thank the Moons you're safe! The
+Armada… they… they attacked Pirate Isle!!\e"
+M00050001,"\h(«Martha»)They just came out of nowhere and attacked us
+without any warning! Then they took all of the
+men back to Valua!\e"
+M00050002,"\h(«Martha»)They… they even destroyed the Albatross…
+Your father must have been heart-broken…\c"
+M00050003,"\h(«Martha»)That good-for-nothing husband of mine was
+captured and taken away by the Valuans, too!
+I… I'm a little worried about him…\c"
+M00050004,"\h(«Martha»)Vyse, are you really going to try and break
+into Valua to rescue the others?\e"
+M00050005,"\h(«Martha»)Just… just be careful, okay? Don't break your
+mother's heart, you understand? And Aika… you
+better make sure Vyse stays out of trouble!\c"
+M00050006,"\h(«Martha»)Just… just be careful, okay? Don't break your
+mother's heart, you understand? And Aika… you
+better make sure Vyse stays out of trouble!\c"
+M00060000,"\h(«Barbara»)I can't believe the Valuans just opened fire
+on us like that… It was so cruel. The children
+were outside playing!\e"
+M00060001,"\h(«Barbara»)Captain Dyne realized resistance would be futile
+and surrendered quietly, but I'm sure he wanted
+to fight back on the inside…\c"
+M00060002,"\h(«Barbara»)I think your mother is in the Captain's office.
+You should go in and see her right away. She was
+worried sick about you and Aika.\c"
+M00060003,"\h(«Barbara»)Your mother is doing everything she can to keep
+calm, but in her heart I'm sure she doesn't
+know what to do.\e"
+M00060004,"\h(«Barbara»)Vyse… You must come home safely. I don't want
+to think about what would happen to your mother
+if you were to be… captured, too.\c"
+M00070000,"\h(«Briggs the Vice Captain»)The Captain is the one who summoned you.
+Go speak to him first.\c"
+M00080000,\h(«Vyse's Mother»)Vyse! Aika! You're alive! I'm so relieved!\c
+M00080001,"\h(«Vyse's Mother»)I hear that you've decided to leave.
+Your father's told me all about it already.\e"
+M00080002,"\h(«Vyse's Mother»)But, I know you well enough to figure that it
+wouldn't be long before you'd yearn to travel
+the skies by yourself.\e"
+M00080003,\h(«Vyse»)Mom…\e
+M00080004,"\h(«Vyse's Mother»)It's okay, dear. Everyone ultimately has to fly
+away from their parent's nest. I knew it was
+just a matter of when.\e"
+M00080005,"\h(«Vyse's Mother»)I knew this day would be coming sometime.
+It's just… It's just that it came a lot
+sooner than I expected… or hoped.\e"
+M00080006,"\h(«Vyse's Mother»)So stand tall, son. Go chase after those dreams
+that you've always talked about. And make sure
+you take care of Aika, too, okay?\c"
+M00080007,"\h(«Vyse's Mother»)Stand tall, son. Go chase after those dreams
+that you've always talked about. And make sure
+you take care of Aika, too, okay?\c"
+M00090000,"\h(«Jessica»)Vyse, your mother is really worried about you.\e"
+M00090001,"\h(«Jessica»)The last time I saw her, she was in Captain
+Dyne's office. Go see her, Vyse…
+Let her know that you're okay.\c"
+M00110000,"\h(«Timmus the Gunner»)Hah hah hah! It's been a long time since I've
+seen the Valuans get their butts beaten that
+badly! Good job, Vyse!\e"
+M00110001,"\h(«Timmus the Gunner»)And while I'm in a such a good mood, I think
+I'll go up to the training center above ground
+and have myself a good workout.\c"
+M00120000,"\h(«Briggs the Vice Captain»)The Captain is the one who summoned you.
+Go speak to him first.\c"
+M00130000,"\h(«Zack the Weapons Merchant»)Heh heh heh, come right in.
+This is a weapon and armor shop.\e"
+M00130001,"\h(«Zack the Weapons Merchant»)Sorry, but I'm going to have to charge you even
+if you are a fellow Air Pirate. I have to go to
+a lot of trouble to get my stock.\e"
+M00130002,"\h(«What will you do?»)“Buy and sell weapons.”
+“Talk to Zack.”
+“Leave.”\e"
+M00130003,"\h(«Zack the Weapons Merchant»)Most weapons are forged out of Moon Stones.
+Well, it's not the only thing used, but it's one
+of the main materials.\e"
+M00130004,"\h(«Zack the Weapons Merchant»)And since weapons are made of Moon Stones,
+they can be affected by other Moon Stones
+if used properly.\e"
+M00130005,"\h(«Zack the Weapons Merchant»)To learn all the details, ask at the training
+center that's located above ground.\e"
+M00130006,\h(«Zack the Weapons Merchant»)Heh heh heh. Thanks for stopping by.\c
+M00130007,"\h(«Zack the Weapons Merchant»)Captain Dyne ordered me to keep all of
+the weapons locked up.\e"
+M00130008,"\h(«Zack the Weapons Merchant»)That's probably so the other Pirates don't raid
+my stock. Otherwise, how would I make money?
+Hehehe…\c"
+M00130009,"\h(«What will you do?»)“Buy and sell weapons.”
+“Hear what Zack has to say.”
+“Leave.”\e"
+M00130010,"\h(«Zack the Weapons Merchant»)If you intend to tangle with Valua, I
+suggest you buy some powerful weapons.\e"
+M00130011,"\h(«Zack the Weapons Merchant»)We wouldn't want Captain Dyne's only son to
+perish for want of a good blade… Heh heh heh.\e"
+M00130012,\h(«Zack the Weapons Merchant»)Heh heh heh. Thanks for stopping by.\c
+M00135000,"\h(«Zack the Weapons Merchant»)Hey there Vyse. Or should I say “Vyse the
+Ninny?” Hehehe… I've heard stories of your
+misadventures…\e"
+M00135001,"\h(«Zack the Weapons Merchant»)Hey there, Vyse. You looking to buy something?\e"
+M00135002,"\h(«Zack the Weapons Merchant»)Well… if it isn't little Vyse the Determined.
+Are you here to buy something?\e"
+M00135003,"\h(«Zack the Weapons Merchant»)Well… if it isn't little Vyse the Respected.
+I've been hearing about your adventures lately.
+Just make sure not to disappoint your father…\e"
+M00135004,"\h(«Zack the Weapons Merchant»)Vyse the Admirable. I laughed when I first heard
+that one. But, I suppose if you've earned the
+name, you deserve it…\e"
+M00135005,"\h(«Zack the Weapons Merchant»)Well, well… if it isn't Vyse the Bold. I heard
+you're becoming quite the Air Pirate. Almost
+better than your dad, from what I hear…\e"
+M00135006,"\h(«Zack the Weapons Merchant»)Vyse the Valiant… has a nice ring to it, eh?
+I suppose you've earned the name… Just try
+to live up to it, okay?\e"
+M00135007,"\h(«Zack the Weapons Merchant»)So, they call you “Vyse the Daring” now, eh?
+Bah… I've known you since you were a baby. I'm
+not sure if picking on Aika counts as “daring.”\e"
+M00135008,"\h(«Zack the Weapons Merchant»)Hahaha… If it isn't Vyse the Dashing! I wonder
+who gave you that name… A lady, perhaps? I
+wonder what Aika thinks about that…\e"
+M00135009,"\h(«Zack the  Weapons Merchant»)Vyse the Fearless… You know what? Ever since
+people started calling you that, your dad hasn't
+stopped bragging…\e"
+M00135010,"\h(«Zack the Weapons Merchant»)You've become quite the sailor, haven't you?
+Not even your father was ever called a hero!
+That's quite a name you've earned for yourself…\e"
+M00135011,"\h(«Zack the Weapons Merchant»)Vyse, King of Rogues… I wonder if your dad will
+agree with that one… How about “Vyse, Prince of
+Rogues…” I'm sure he'll like that one better.\e"
+M00135012,"\h(«Zack the Weapons Merchant»)I can't believe an annoying little kid like you
+would grow up someday to become a living legend.
+Heh… Well, I'm honored to know you, Vyse.\e"
+M00140000,"\h(«Erinn the Item Merchant»)Oh, hello, Vyse! Do come in!
+See anything that you want to buy?\e"
+M00140001,"\h(«What will you do?»)“Buy and sell items.”
+“Talk to Erinn.”
+“Leave.”\e"
+M00140002,"\h(«Erinn the Item Merchant»)Unlike spells that require MP, if you have a
+healing crystal, you can recover your HP
+anytime and anyplace.\e"
+M00140003,"\h(«Erinn the Item Merchant»)Some of the “tougher” Air Pirates refuse to use
+them to save themselves, but I say it never
+hurts to play it safe.\e"
+M00140004,\h(«Erinn the Item Merchant»)Thanks for stopping by. Come again!\c
+M00140005,"\h(«Erinn the Item Merchant»)Welcome home. I've set aside some special
+items just for you and your crew.\e"
+M00140006,"\h(«Erinn the Item Merchant»)Use these items and make those Valuans
+regret everything they've done to us!\e"
+M00140007,"\h(«What will you do?»)“Buy and sell items.”
+“Hear what Erinn has to say.”
+“Leave.”\e"
+M00140008,"\h(«Erinn the Item Merchant»)Don't worry about the injured, Vyse. I've got
+plenty of Sacri Crystals in stock to take
+care of everyone.\e"
+M00140009,"\h(«Erinn the Item Merchant»)If all the Air Pirates never come home, I'll be
+out of business. That's why I'm counting on you
+to bring them all back, Vyse!\c"
+M00145000,"\h(«Erinn the Item Merchant»)Oh… Hey, Vyse. You know what? I heard people
+have been calling you “Vyse the Ninny” lately.
+I wouldn't let it bother you too much, okay?\e"
+M00145001,"\h(«Erinn the Item Merchant»)Oh, hey there Vyse. You here to buy something?\e"
+M00145002,"\h(«Erinn the Item Merchant»)Well, if it isn't Vyse the Determined.
+Sounds like you're starting to make a name
+for yourself, there. Your dad must be proud.\e"
+M00145003,"\h(«Erinn the Item Merchant»)Hey, Vyse! From what I hear, you're starting to
+gain a lot of respect out there as a sailor!
+Good for you…\e"
+M00145004,"\h(«Erinn the Item Merchant»)Vyse the Admirable… It's a suitable name, I
+guess. I bet you're popular among the ladies…
+Hahaha…\e"
+M00145005,"\h(«Erinn the Item Merchant»)Hey there, Vyse. You know what I just noticed?
+You're starting to look a lot like your father.
+Maybe it's the way you carry yourself, now…\e"
+M00145006,"\h(«Erinn the Item Merchant»)Well, if it isn't Vyse the Valiant. That name
+makes you sound so… honorable. Hahaha…
+I'm sorry… I didn't mean to laugh…\e"
+M00145007,"\h(«Erinn the Item Merchant»)“Vyse the Daring,” huh? I suppose it's a fitting
+name… I don't know anyone who's as craz… er…
+I mean… daring as you are.\e"
+M00145008,"\h(«Erinn the Item Merchant»)Hey there, Vyse the Dashing. You really seem
+be making a name for yourself as a sailor these
+days. Well, good for you, Vyse.\e"
+M00145009,"\h(«Erinn the Item Merchant»)So, now they call you “Vyse the Fearless?”
+Haha… I can remember when you were afraid of
+the dark as a baby! My, how things change…\e"
+M00145010,"\h(«Erinn the Item Merchant»)Well, if it isn't Vyse the Hero. That's quite a
+nickname you've earned for youself, there. Just
+make sure you live up to it, okay?\e"
+M00145011,"\h(«Erinn the Item Merchant»)“The King of Rogues,” huh? Heh… I wonder who
+gave you that nickname. It definitely wasn't
+your dad, I'll tell you that…\e"
+M00145012,"\h(«Erinn the Item Merchant»)Wow… I never would have thought that you would
+become a legend! Everyone here on Pirate Isle
+is so proud of you…\e"
+M00150000,"\h(«Landis the Navigator»)Hooray! We're home! You know, there really isn't
+anything else quite like the feeling you get
+when you reach your home port.\c"
+M00150001,"\h(«Landis the Navigator»)If you ever lose track of your position during
+a voyage, just look at your map! You should be
+able to find exactly where you are.\e"
+M00150002,"\h(«Landis the Navigator»)I'm sure your father showed you how to draw
+a good map, so every time you explore somewhere
+new, you should draw it on your map.\e"
+M00150003,"\h(«Landis the Navigator»)It's every sailor's dream to have a complete
+map of the entire world drawn by his own hand…\c"
+M00150004,"\h(«Landis the Navigator»)It's every sailor's dream to have a complete
+map of the entire world drawn by his own hand…\c"
+M00150005,"\h(«Landis the Navigator»)Vyse! Heh… I hear you've been causing plenty of
+trouble for the Valuan Empire.\e"
+M00150006,"\h(«Landis the Navigator»)All I ask is that you show them what we Blue
+Rogues are made of. We gotta get them back for
+what they did to us!!\c"
+M00160000,"\h(«Ben the Lookout»)My job is to guide the Albatross into the
+underground entrance so that it can dock
+in the harbor safely.\e"
+M00160001,"\h(«Ben the Lookout»)We use flag signals to communicate to each other
+over vast distances. Right now, I'm coordinating
+the loading of supplies onto the Albatross.\c"
+M00160002,"\h(«Ben the Lookout»)Cannon shells… 20 rounds remaining…
+Drinking water… 10 barrels remaining…
+Um… What else…\c"
+M00160003,"\h(«Ben the Lookout»)Thanks to the healing crystals that Erinn had,
+all of my wounds have healed and I'm feeling
+much better!\e"
+M00160004,"\h(«Ben the Lookout»)Oh, and your new ship's called the Little Jack,
+right? I'll resupply it for you, so you just
+sit back and relax there, Vyse.\c"
+M00160005,"\h(«Ben the Lookout»)New ships are always so much nicer. I'll make
+sure to load your ship with plenty of supplies.
+Wouldn't want you to run out of fuel now…\c"
+M00160006,"\h(«Ben the Lookout»)Captain Dyne ordered me to load the ship
+with battle supplies.\e"
+M00160007,"\h(«Ben the Lookout»)I think the Captain is planning to go out and
+cause a little mayhem of his own. Heh heh…\c"
+M00170000,"\h(«Luke the Raider»)Captain Dyne's orders… The exit to the
+village above ground has been locked.\e"
+M00170001,"\h(«Luke the Raider»)He said that you weren't allowed to bring the
+girl topside until he's had a chance to talk
+with her. You better go see him first.\c"
+M00170002,"\h(«Luke the Raider»)Captain Dyne said the girl… I mean Fina, is
+permitted to wander freely throughout the
+island. So, I unlocked the door.\e"
+M00170003,"\h(«Luke the Raider»)Also, there are two treasure chests in this
+underground port containing emergency supplies
+somewhere… You might want to look for them.\c"
+M00170004,"\h(«Luke the Raider»)There are two treasure chests in this
+underground port containing emergency supplies
+somewhere… You might want to look for them.\c"
+M00170005,"\h(«Luke the Raider»)Vyse… what you did back in Valua was amazing!
+I've never seen you fight so hard before!
+You've become quite the Air Pirate!\e"
+M00170006,"\h(«Luke the Raider»)Captain Dyne has trained you well. I'm sure
+you'll make a fine captain someday just like
+your father.\c"
+M00170007,"\h(«Luke the Raider»)Hey there, Vyse. How's the sailing been?\e"
+M00170008,"\h(«Luke the Raider»)Captain Dyne is proud of everything that you and
+your crew have accomplished. Keep up the good
+work, wherever you go.\c"
+M00170009,"\h(«Luke the Raider»)What?! You escaped from Valua again? And
+this time you also stole the Armada's
+most powerful ship?!\e"
+M00170010,"\h(«Luke the Raider»)Wow! I don't know if you're crazy or just plain
+tough, but one thing's for sure… you're always
+full of surprises!\c"
+M00170011,"\h(«Luke the Raider»)Have you seen our new ship yet, Vyse?
+Captain Dyne had us build a new one…
+It's called the Albatross II.\e"
+M00170012,"\h(«Luke the Raider»)We still had the old blue-prints, so we were
+able to reconstruct the first Albatross exactly
+the way it was.\e"
+M00170013,"\h(«Luke the Raider»)Well, we actually upgraded its engines and
+armor… But, just by looking at it, you could
+never tell that it's much more powerful now.\c"
+M00170014,"\h(«Luke the Raider»)Now that we finally have a ship again, we can
+get back to doing what we do best…
+Being Air Pirates!!\c"
+M00170015,"\h(«Luke the Raider»)Vyse… I saw that strange island come rising up
+from beneath the clouds… I really don't know
+what to make of it.\e"
+M00170016,"\h(«Luke the Raider»)I don't know why, but that island… it just
+LOOKS like it's begging to be explored. Hehe…
+Maybe it's just me…\c"
+M00180000,"\h(«Peter the Deck-Swabber»)15 Pirates escaped with their lives…
+And only a single bottle of loqua between them…
+And a yo ho ho, a yo ho ho.\e"
+M00180001,"\h(«Peter the Deck-Swabber»)Heh heh! I've got a good singing voice, eh?
+This's the song we Pirates sing when we're
+forced to swab the decks…\c"
+M00180002,"\h(«Peter the Deck-Swabber»)Sad is the fate of the captured Air Pirate…
+They make his head part from his shoulders…
+And a yo ho ho, a yo ho ho.\e"
+M00180003,"\h(«Peter the Deck-Swabber»)Man, that famous song almost came true for us.
+We were so close to actually kissing the
+executioner's block.\c"
+M00180004,"\h(«Peter the Deck-Swabber»)15 Pirates escaped with their lives…
+And only a single bottle of loqua between them…
+And a yo ho ho, a yo ho ho.\e"
+M00180005,"\h(«Peter the Deck-Swabber»)Pretty little lasses, all around the town…
+Don't fall in love with a man of the skies…
+And a yo ho ho, a yo ho ho.\e"
+M00180006,"\h(«Peter the Deck-Swabber»)Heh heh! The one thing about being an Air Pirate
+is that it's hard to stay out of trouble. It
+just sorta seems to come looking for you…\e"
+M00180007,"\h(«Peter the Deck-Swabber»)That's why it's my job to make sure the
+Albatross is always in good shape. Just in case
+trouble comes looking for us, you know?\c"
+M00180008,"\h(«Peter the Deck-Swabber»)Pretty little lasses, all around the town…
+Don't fall in love with a man of the skies…
+And a yo ho ho, a yo ho ho.\c"
+M00190000,"\h(«Patch the Deckhand»)You're the first visitor we've had in a long
+time. Make yourself at home, miss, and don't be
+afraid to ask for anything you need.\e"
+M00190001,"\h(«Patch the Deckhand»)We Blue Rogues are friend to any travelers of
+the skies. Well, if you're an armed traveler
+with gold, it's a different story! Haha!\c"
+M00200000,"\h(«Mabel the Raider»)Plundering treasure is fine, but just once I'd
+like to find a well-built, handsome young man as
+treasure instead of the usual.\e"
+M00200001,"\h(«Mabel the Raider»)… Of course, if I did that, I'd be just like a
+Black Pirate instead of a Blue Rogue. Oh well, I
+suppose that means it's off limits.\c"
+M00200002,"\h(«Mabel the Raider»)… But, to be honest, I really would like to
+kidnap a man for myself someday! Hahaha…\c"
+M00200003,"\h(«Mabel the Raider»)Vyse, if you're going out on a voyage,
+make sure that you've equipped your best
+weapons and armor.\e"
+M00200004,"\h(«Mabel the Raider»)An Air Pirate needs to be sure that his swords
+and his wits are always sharp.\c"
+M00200005,"\h(«Mabel the Raider»)It looks like this this is it, Vyse.
+The final battle… Are you really ready
+to fight Galcian and Ramirez?\e"
+M00200006,"\h(«Mabel the Raider»)Now that I think about it, that Ramirez
+fellow was actually a pretty good-looking guy.
+I'm so bad… Hehehe…\c"
+M00210000,\h(«Matthew the Deckhand»)Everyone got captured while I was sleeping!\e
+M00210001,"\h(«Matthew the Deckhand»)I was going to try and chase them down, but
+the Valuans destroyed the Albatross…\e"
+M00210002,"\h(«Matthew the Deckhand»)What are we supposed to do now, Vyse?!
+We have to try and help them somehow!\c"
+M00210003,"\h(«Matthew the Deckhand»)What are we supposed to do now, Vyse?!
+We have to try and help them somehow!\c"
+M00210004,"\h(«Matthew the Deckhand»)I've been so worried about Captain Dyne and the
+others that I can't sleep at all…\e"
+M00210005,"\h(«Matthew the Deckhand»)You need to succeed in rescuing everyone so
+that I can get some sleep again!\c"
+M00210006,"\h(«Matthew the Deckhand»)I can't believe I overslept and everyone
+else left without me… You figure they'd
+wake me up or something…\c"
+M00230000,"\h(«Dyne»)Now listen up, Vyse. There are times when
+something other than brute strength or
+sharpness of mind is demanded of a man.\e"
+M00230001,"\h(«Dyne»)Sometimes you have to have a firm grasp of the
+entire situation at hand. That's when you need
+to learn how to be a Swashbuckler.\e"
+M00230002,"\h(«Dyne»)People will notice how you behave in various
+situations and you'll begin to earn a reputation
+based on those actions.\e"
+M00230003,"\h(«Dyne»)That's why you need to try and be as
+adventuresome as possible, without forgetting
+your leadership responsibilities, okay?\c"
+M00230004,"\h(«Dyne»)Your “Swashbuckler Rating” is a quality that you
+must cultivate in your words and actions every
+day of your life. Never forget that.\c"
+M00230005,"\h(«Dyne»)What's wrong, Vyse?
+You're looking uncharacteristically grim.\e"
+M00230006,"\h(«Vyse»)Dad… Actually, there's something that
+I have to tell you…\e"
+M00230007,"\h(«Dyne»)Don't worry…
+I have a feeling that I already know
+what you're going to say.\e"
+M00230008,"\h(«Dyne»)I remember when I was your age… The feeling
+that I had to get away from my own little island
+and see the rest of the world.\e"
+M00230009,"\h(«Dyne»)But when a man decides to step out onto his
+own path, he doesn't need to ask for his
+parents' permission.\e"
+M00230010,"\h(«Dyne»)From now on, you are my equal, son.
+A man who lives by the skies. There is
+nothing more honorable than that…\e"
+M00230011,"\h(«Dyne»)Heh… You're late on almost every other
+occasion, but you sure aren't wasting any time
+to try and get out on your own…\e"
+M00230012,\h(«Vyse»)Dad…\e
+M00230013,"\h(«Dyne»)Go on, get out of here, Vyse.
+Go make your mark in the world.\c"
+M00230014,"\h(«Dyne»)Go on, get out of here, Vyse.
+Go make your mark in the world.\c"
+M00230015,"\h(«Dyne»)Now listen up, Vyse. There are times when
+something other than brute strength or
+sharpness of mind is demanded of a man.\e"
+M00230016,"\h(«Dyne»)Sometimes you have to have a firm grasp of the
+entire situation at hand. That's when you need
+to learn how to be a Swashbuckler.\e"
+M00230017,"\h(«Dyne»)People will notice how you behave in various
+situations and you'll begin to earn a reputation
+based on those actions.\e"
+M00230018,"\h(«Dyne»)That's why you need to try and be as
+adventuresome as possible, without forgetting
+your leadership responsibilities, okay?\c"
+M00230019,"\h(«Dyne»)Your “Swashbuckler Rating” is a quality that you
+must cultivate in your words and actions every
+day of your life. Never forget that.\c"
+M00230020,"\h(«Dyne»)Heh heh heh. I feel remarkably calm
+considering that the enemy is about
+to hit me with the best of their best.\e"
+M00230021,"\h(«Dyne»)But that's good. It puts the crew at
+ease if the captain looks like he's
+calm and fully in control.\e"
+M00230022,"\h(«Dyne»)But, it all comes down to this battle. I've got
+to keep my eyes open and just keep my men alive.
+You need to do the same, too, Vyse.\e"
+M00230023,"\h(«Dyne»)To constantly push your crew forward while
+maintaining a grasp of the complete situation…
+That is the essence of leadership.\c"
+M00230024,"\h(«Dyne»)To constantly push your crew forward while
+maintaining a grasp of the complete situation…
+That is the essence of leadership.\c"
+M00240000,"\h(«Matthew the Deckhand»)Ungh…
+I haven't been home in such a long time,
+please… just let me sleep.\c"
+M00240001,"\h(«Matthew the Deckhand»)Ungh… huh?
+Is it morning already?
+C'mon… just let me sleep a little bit longer…\c"
+M00240002,"\h(«Matthew the Deckhand»)Since everyone is back home again, I just felt
+so relaxed… then I… just… sorta got… tired…\c"
+M00240003,"\h(«Matthew the Deckhand»)I promise I won't oversleep this time,
+so just let me sleep a little, okay?\c"
+M00290000,"\h(«Ben the Lookout»)Sorry, Vyse…
+I wish you never had to see
+Pirate Isle like… this…\e"
+M00290001,"\h(«Ben the Lookout»)But, I hear you're going to Valua to try and
+rescue everyone. You're crazy, you know that?
+But, I'll be praying for your safety…\c"
+MS00010000,"\h(«Jimmy»)¡Los Valuan aparecieron por sorpresa y empezaron
+a dispararnos! Hubo muchos heridos…… Yo sólo me
+hice un rasguño, pero estoy bien.\e"
+MS00010001,"\h(«Jimmy»)Ojalá fuera mayor…… ¡¡habría podido hacer algo
+para defenderme!!\c"
+MS00020000,"\h(«Alan»)¡¡Vyse!! ¡Has vuelto! ¿Ya se han ido todos los
+soldados Valuan?\e"
+MS00020001,"\h(«Alan»)¡¡Vinieron unos cuantos navíos y un montón de
+soldados empezaron a capturar a la gente, y se
+llevaron al Capitán Dyne y a los demás!!\c"
+MS00030000,"\h(«Lindsi»)Aparecieron un montón de navíos de Valua y
+empezaron a dispararnos…… Se llevaron a todos
+nuestros padres……\e"
+MS00030001,"\h(«Lindsi»)y…… nuestras casas…… toda nuestra aldea……
+fue destruida…… ¡No sé qué hacer, Vyse!\c"
+MS00040000,\h(«Pow»)Pow…… pow……\c
+MS00050000,"\h(«Martha»)¡Vyse! ¡Oh, gracias a las Lunas que estás bien!
+La Armada…… ¡¡Ellos…… ellos atacaron la Isla del
+Pirata!!\e"
+MS00050001,"\h(«Martha»)¡Aparecieron por sorpresa y nos atacaron sin
+avisar! ¡Y luego se llevaron a todos los hombres
+a Valua!\e"
+MS00050002,"\h(«Martha»)Ellos…… hasta destrozaron el Albatross……
+Tu padre debe estar deprimidísimo……\c"
+MS00050003,"\h(«Martha»)¡A ese perezoso de mi marido también se lo
+llevaron preso los Valuan!
+Estoy…… un poco preocupada por él……\c"
+MS00050004,"\h(«Martha»)Vyse, ¿de verdad que vas a intentar entrar en
+Valua para rescatar a los demás?\e"
+MS00050005,"\h(«Martha»)Ten…… ten cuidado, ¿vale? No vayas a romperle el
+corazón a tu madre, ¿me entiendes? Y Aika……
+¡cuida de Vyse!\c"
+MS00050006,"\h(«Martha»)Ten…… ten cuidado, ¿vale? No vayas a romperle el
+corazón a tu madre, ¿me entiendes? Y Aika……
+¡cuida de Vyse!\c"
+MS00060000,"\h(«Barbara»)No me puedo creer que los Valuan se pusieran a
+dispararnos porque sí…… Es tan cruel.
+¡Y los niños estaban en la calle jugando!\e"
+MS00060001,"\h(«Barbara»)El Capitán Dyne se dio cuenta de que era absurdo
+ofrecer resistencia y se rindió, pero yo sé que
+en su interior quería luchar……\c"
+MS00060002,"\h(«Barbara»)Creo que tu madre está en la oficina del
+Capitán. Ve a verla inmediatamente.
+Estaba preocupadísima por Aika y por ti.\c"
+MS00060003,"\h(«Barbara»)Tu madre está haciendo todo lo posible para
+mantener la calma, pero seguro que no sabe qué
+hacer.\e"
+MS00060004,"\h(«Barbara»)Vyse…… Tienes que regresar sano y salvo.
+No quiero ni pensar cómo estaría tu madre si a
+vosotros también os…… capturaran.\c"
+MS00070000,"\h(«El Vicecapitán Briggs»)El Capitán te hizo venir.
+Ve a hablar con él primero.\c"
+MS00080000,\h(«Madre de Vyse»)¡Vyse! ¡Aika! ¡Estáis vivos! ¡Menos mal!\c
+MS00080001,"\h(«Madre de Vyse»)He oído que os vais a marchar.
+Tu padre me lo ha contado todo.\e"
+MS00080002,"\h(«Madre de Vyse»)Pero te conozco lo suficiente para saber que no
+iba a pasar mucho tiempo antes de que decidieras
+viajar por tu cuenta.\e"
+MS00080003,\h(«Vyse»)Mamá……\e
+MS00080004,"\h(«Madre de Vyse»)Lo entiendo, hijo mío. Todos tenemos que dejar a
+nuestros padres alguna vez. Sabía que era sólo
+una cuestión de tiempo.\e"
+MS00080005,"\h(«Madre de Vyse»)Sabía que llegaría este momento.
+Lo que pasa…… es que ha llegado mucho antes de
+lo que me imaginaba…… o me esperaba.\e"
+MS00080006,"\h(«Madre de Vyse»)Mantén la cabeza bien alta, hijo. Ve tras esos
+sueños de los que siempre hablas. Y haz el favor
+de cuidar de Aika también, ¿eh?\c"
+MS00080007,"\h(«Madre de Vyse»)Mantén la cabeza bien alta, hijo. Ve tras esos
+sueños de los que siempre hablas. Y haz el favor
+de cuidar de Aika también, ¿eh?\c"
+MS00090000,"\h(«Jessica»)Vyse, tu madre está preocupadísima por ti.\e"
+MS00090001,"\h(«Jessica»)La última vez que la vi, estaba en la oficina
+del Capitán Dyne. Vete a verla, Vyse……
+Que sepa que estás bien.\c"
+MS00110000,"\h(«Timmus el Cañonero»)¡Ja, ja, ja! ¡Hace mucho tiempo que no veía a
+nadie propinar una tunda semejante a los Valuan!
+¡Bien hecho, Vyse!\e"
+MS00110001,"\h(«Timmus el Cañonero»)Y ya que estoy de tan buen humor, creo que voy a
+irme al centro de entrenamiento sobre la tierra
+y tener una buena sesión de entrenamiento.\c"
+MS00120000,"\h(«El Vicecapitán Briggs»)El Capitán te hizo venir.
+Vete a hablar con él primero.\c"
+MS00130000,"\h(«Zack el Mercader de Armas»)Je, je, je, entrad enseguida.
+Ésta es una tienda de armamento y armaduras.\e"
+MS00130001,"\h(«Zack el Mercader de Armas»)Lo siento, pero voy a tener que cobrarte, aunque
+seas un colega Pirata Aéreo.
+Me cuesta mucho encontrar mi mercancía.\e"
+MS00130002,"\h(«¿Qué vas a hacer?»)“Comprar y vender armas.”
+“Hablar con Zack.”
+“Salir.”\e"
+MS00130003,"\h(«Zack el Mercader de Armas»)La mayoría de las armas se forjan con Piedras
+Lunares. Bueno, no es lo único que usamos, pero
+es uno de los principales materiales.\e"
+MS00130004,"\h(«Zack el Mercader de Armas»)Y como están hechas de Piedras Lunares,
+si se usan de forma correcta, sus propiedades
+pueden modificarse con otras Piedras Lunares.\e"
+MS00130005,"\h(«Zack el Mercader de Armas»)Para enterarte de todos los detalles, pregunta
+en el centro de entrenamiento que se encuentra
+sobre la tierra.\e"
+MS00130006,"\h(«Zack el Mercader de Armas»)Je, je, je. Gracias por venir a la tienda.\c"
+MS00130007,"\h(«Zack el Mercader de Armas»)El Capitán Dyne me ordenó guardar todas las
+armas bajo llave.\e"
+MS00130008,"\h(«Zack el Mercader de Armas»)Seguramente para que otros Piratas Aéreos no se
+lleven mi armamento. ¿Si no cómo iba yo a hacer
+dinero? Je, je……\c"
+MS00130009,"\h(«¿Qué vas a hacer?»)“Comprar y vender armas.”
+“Escuchar lo que me cuente Zack.”
+“Salir.”\e"
+MS00130010,"\h(«Zack el Mercader de Armas»)Si vas a meterte en líos con Valua, sugiero que
+te hagas con algunas armas de gran potencia.\e"
+MS00130011,"\h(«Zack el Mercader de Armas»)No me haría gracia que el único hijo del Capitán
+Dyne pereciera a falta de un buen sable……
+Je, je, je.\e"
+MS00130012,"\h(«Zack el Mercader de Armas»)Je, je, je. Gracias por venir a mi tienda.\c"
+MS00135000,"\h(«Zack el Mercader de Armas»)Hombre, Vyse. ¿O debería decir “Vyse el Tonto”?
+Je, je…… Ya he oído hablar de tus desventuras……\e"
+MS00135001,"\h(«Zack el Mercader de Armas»)Hombre, Vyse. ¿Tienes intención de comprar
+alguna cosa?\e"
+MS00135002,"\h(«Zack el Mercader de Armas»)Bueno…… pero si es Vyse el Decidido.
+¿Vas a comprar algo?\e"
+MS00135003,"\h(«Zack el Mercader de Armas»)Bueno…… pero si se trata de Vyse el Respetado.
+Ya he oído hablar de tus aventuras últimamente.
+No decepciones a tu padre……\e"
+MS00135004,"\h(«Zack el Mercader de Armas»)Vyse el Admirable. La primera vez que lo oí me
+entró la risa. Pero supongo que si te has puesto
+ese nombre, será que te lo mereces……\e"
+MS00135005,"\h(«Zack el Mercader de Armas»)Bueno, bueno…… pero si es Vyse el Valiente.
+He oído que te estás volviendo un gran Pirata
+Aéreo. Dicen que casi mejor que tu padre……\e"
+MS00135006,"\h(«Zack el Mercader de Armas»)Vyse el Gallardo…… suena bien, ¿no?
+Supongo que te has ganado el apodo……
+Pero intenta estar a su altura, ¿vale?\e"
+MS00135007,"\h(«Zack el Mercader de Armas»)¿Así que te llaman “Vyse el Atrevido”? Te
+conozco desde que eras niño. No creo que vivir
+en las faldas de Aika sea de “atrevidos”.\e"
+MS00135008,"\h(«Zack el Mercader de Armas»)Ja, ja…… ¡Pero si es Vyse el Impetuoso! Me
+pregunto quién te puso ese nombre…… ¿Una dama,
+quizá? Me gustaría saber qué piensa Aika……\e"
+MS00135009,"\h(«Zack el Mercader de Armas»)Vyse el Temerario…… ¿Sabes qué? Desde que te
+empezaron a llamar así, tu padre no ha dejado de
+jactarse……\e"
+MS00135010,"\h(«Zack el Mercader de Armas»)Te has convertido en todo un marino, ¿eh?
+¡Ni siquiera a tu padre le llamaban héroe!
+Un apodo importante el que te has ganado……\e"
+MS00135011,"\h(«Zack el Mercader de Armas»)Vyse, Rey de los Bandidos…… ¿Qué pensará tu
+padre? Seguro que “Vyse, Príncipe de los
+Bandidos……” le gusta más.\e"
+MS00135012,"\h(«Zack el Mercader de Armas»)No puedo creer que un mocoso molesto como tú se
+haya convertido en una leyenda viva.
+Esto…… bueno, es un honor conocerte, Vyse.\e"
+MS00140000,"\h(«Erinn la Mercader de Objetos»)¡Hola, Vyse! ¡Pasa, hombre!
+¿Hay algo que quieras comprar?\e"
+MS00140001,"\h(«¿Qué vas a hacer?»)“Comprar y vender objetos.”
+“Hablar con Erinn.”
+“Salir.”\e"
+MS00140002,"\h(«Erinn la Mercader de Objetos»)A diferencia de los hechizos que necesitan
+Magia, si tienes un cristal curativo, puedes
+recuperar tus puntos de Salud cuando quieras.\e"
+MS00140003,"\h(«Erinn la Mercader de Objetos»)Los Piratas Aéreos más “duros” se niegan a
+usarlos para salvarse, pero yo creo que nunca
+está de más tomar precauciones.\e"
+MS00140004,"\h(«Erinn la Mercader de Objetos»)Gracias por pasarte por la tienda.
+¡Y vuelve pronto!\c"
+MS00140005,"\h(«Erinn la Mercader de Objetos»)Bienvenido. He apartado algunos objetos
+especiales para ti y para tu tripulación.\e"
+MS00140006,"\h(«Erinn la Mercader de Objetos»)¡Usa estos objetos para hacer que esos Valuan
+se arrepientan de todo lo que nos han hecho!\e"
+MS00140007,"\h(«¿Qué vas a hacer?»)“Comprar y vender objetos.”
+“Escuchar lo que Erinn me quiera contar.”
+“Salir.”\e"
+MS00140008,"\h(«Erinn la Mercader de Objetos»)No te preocupes de los heridos, Vyse. Tengo
+muchos Cristales Sacri guardados para esas
+situaciones.\e"
+MS00140009,"\h(«Erinn la Mercader de Objetos»)Si ningún Pirata Aéreo vuelve a casa, mi negocio
+se irá a la quiebra. ¡Cuento contigo para que
+los traigas a todos a casa, Vyse!\c"
+MS00145000,"\h(«Erinn la Mercader de Objetos»)Oh…… Oye, Vyse. ¿Sabes una cosa? He oído
+últimamente que la gente te llama “Vyse el
+Tonto”. No dejarás que eso te afecte, ¿no?\e"
+MS00145001,"\h(«Erinn la Mercader de Objetos»)Hombre, Vyse. ¿Has venido a comprar algo?\e"
+MS00145002,"\h(«Erinn la Mercader de Objetos»)Pero si es Vyse el Decidido.
+Por lo visto estás haciéndote un nombre.
+Tu padre estará orgulloso de ti.\e"
+MS00145003,"\h(«Erinn la Mercader de Objetos»)¡Eh, Vyse! ¡Por lo que he oído, estás labrándote
+una reputación como marino!
+Buen trabajo……\e"
+MS00145004,"\h(«Erinn la Mercader de Objetos»)Vyse el Admirable…… Supongo que te pega ese
+mote. Seguro que se te dan bien las chicas……
+Ja, ja……\e"
+MS00145005,"\h(«Erinn la Mercader de Objetos»)Eres tú, Vyse. ¿Sabes en qué me he fijado?
+Empiezas a parecerte un montón a tu padre.
+Tal vez sea tu porte……\e"
+MS00145006,"\h(«Erinn la Mercader de Objetos»)Bueno, pero si es Vyse el Gallardo. Es un nombre
+tan…… honorable. Ja, ja…… Perdona…… No era mi
+intención mofarme……\e"
+MS00145007,"\h(«Erinn la Mercader de Objetos»)¿“Vyse el Atrevido”? Supongo que el nombre te
+pega…… No conozco a nadie que esté tan chala……
+esto…… que sea tan audaz como tú.\e"
+MS00145008,"\h(«Erinn la Mercader de Objetos»)Hombre, Vyse el Impetuoso. En verdad estás
+construyéndote una fama como marino últimamente.
+Me alegro mucho por ti, Vyse.\e"
+MS00145009,"\h(«Erinn la Mercader de Objetos»)¿Y ahora te llaman “Vyse el Temerario”?
+Ja, ja…… ¡Recuerdo cuando de pequeño te daba
+miedo la oscuridad! Cómo cambian las cosas……\e"
+MS00145010,"\h(«Erinn la Mercader de Objetos»)Anda, si es Vyse el Héroe. Vaya alias que te ha
+endosado la gente por ahí. Por lo menos procura
+estar a la altura, ¿no?\e"
+MS00145011,"\h(«Erinn la Mercader de Objetos»)¿“El Rey de los Bandidos”? Je…… Me encantaría
+saber quién te puso ese nombre. Desde luego, tu
+padre no fue, eso seguro……\e"
+MS00145012,"\h(«Erinn la Mercader de Objetos»)Oh…… ¡Nunca pensé que te convertirías en una
+leyenda! Todo el mundo en la Isla del Pirata
+está tan orgulloso de ti……\e"
+MS00150000,"\h(«Landis el Navegante»)¡Viva! ¡Estamos en casa! Ya sabes, no hay nada
+como llegar al puerto de tu tierra.\c"
+MS00150001,"\h(«Landis el Navegante»)¡Si alguna vez pierdes la noción de la
+orientación durante el viaje, mira este mapa!
+Te ayudará a descubrir tu posición.\e"
+MS00150002,"\h(«Landis el Navegante»)Seguro que tu padre te enseñó a hacer mapas,
+para que cada vez que explores un sitio
+desconocido, puedas reproducirlo en el mapa.\e"
+MS00150003,"\h(«Landis el Navegante»)El sueño de todo marino es tener un mapa
+completo del mundo entero hecho por su propia
+mano……\c"
+MS00150004,"\h(«Landis el Navegante»)El sueño de todo marino es tener un mapa
+completo del mundo entero hecho por su propia
+mano……\c"
+MS00150005,"\h(«Landis el Navegante»)¡Vyse! Eh…… He oído que les has dado un montón
+de problemas a los del Imperio Valuan.\e"
+MS00150006,"\h(«Landis el Navegante»)Todo lo que te pido es que les demuestres de qué
+madera estamos hechos los Bandidos Azules.
+¡¡Tenemos que vengarnos!!\c"
+MS00160000,"\h(«Ben el Vigía»)Yo me encargo de guiar al Albatross por la
+entrada subterránea para que pueda atracar en el
+puerto sin peligro.\e"
+MS00160001,"\h(«Ben el Vigía»)Usamos señales de banderas para comunicarnos en
+las distancias grandes. Ahora coordino el
+cargamento de provisiones en el Albatross.\c"
+MS00160002,"\h(«Ben el Vigía»)Balas de cañón…… quedan 20 rondas…
+Agua potable…… quedan 10 barriles……
+A ver…… qué más……\c"
+MS00160003,"\h(«Ben el Vigía»)¡Gracias a los cristales curativos que me dio
+Erinn, se me han curado todas las heridas!
+¡Me encuentro mucho mejor que antes!\e"
+MS00160004,"\h(«Ben el Vigía»)Tu navío nuevo se llama Little Jack, ¿no?
+Yo lo abasteceré con todo, así que no te
+preocupes de nada y ponte cómodo, Vyse.\c"
+MS00160005,"\h(«Ben el Vigía»)Me encantan los barcos nuevos. Yo cargaré tu
+navío de provisiones. No te haría gracia
+quedarte sin energía a estas alturas……\c"
+MS00160006,"\h(«Ben el Vigía»)El Capitán Dyne me ha ordenado abastecer el
+barco con provisiones para la batalla.\e"
+MS00160007,"\h(«Ben el Vigía»)Creo que el Capitán planea irse por ahí y crear
+un pequeño alboroto por su cuenta. Ja, ja……\c"
+MS00170000,"\h(«Luke el Corsario»)Son órdenes del Capitán Dyne…… La salida de la
+aldea a la superficie ha sido prohibida.\e"
+MS00170001,"\h(«Luke el Corsario»)Dijo que no os daría permiso para llevar a la
+chica arriba hasta que no hable con ella.
+Será mejor que habléis con él primero.\c"
+MS00170002,"\h(«Luke el Corsario»)El Capitán Dyne dijo que la chica…… Fina, quiero
+decir, puede caminar libremente por toda la
+isla. Así que he abierto la puerta.\e"
+MS00170003,"\h(«Luke el Corsario»)En alguna parte de este puerto subterráneo, hay
+dos cofres con municiones y provisiones de
+emergencia…… Quizá te interesen.\c"
+MS00170004,"\h(«Luke el Corsario»)En alguna parte de este puerto subterráneo, hay
+dos cofres con municiones y provisiones de
+emergencia…… Quizá te interesen.\c"
+MS00170005,"\h(«Luke el Corsario»)Vyse…… ¡lo que hiciste en Valua es asombroso!
+¡Nunca había visto a nadie combatir tan
+duramente! ¡Eres todo un Pirata Aéreo!\e"
+MS00170006,"\h(«Luke el Corsario»)El Capitán Dyne te ha preparado bien. Seguro que
+algún día serás un gran capitán igual que tu
+padre.\c"
+MS00170007,"\h(«Luke el Corsario»)Hombre, Vyse. ¿Qué tal ha ido el viaje?\e"
+MS00170008,"\h(«Luke el Corsario»)El Capitán Dyne está orgulloso de todo lo que
+habéis conseguido tu tripulación y tú.
+Estéis donde estéis, que no decaiga.\c"
+MS00170009,"\h(«Luke el Corsario»)¡¿Cómo?! ¿Conseguiste huir de Valua otra vez?
+¿Y encima robaste el navío más potente de la
+Armada?!\e"
+MS00170010,"\h(«Luke el Corsario»)¡Vaya! No sé si estás loco o es que eres un tipo
+duro, pero una cosa es segura…… ¡estás lleno de
+sorpresas!\c"
+MS00170011,"\h(«Luke el Corsario»)¿Has visto nuestro navío nuevo, Vyse?
+El Capitán Dyne nos hizo construir uno nuevo……
+Se llama el Albatross II.\e"
+MS00170012,"\h(«Luke el Corsario»)Como todavía teníamos los planos, pudimos
+reconstruir el Albatross original exactamente
+como era.\e"
+MS00170013,"\h(«Luke el Corsario»)Bueno, hemos actualizado los motores y el
+casco…… Pero por la apariencia no se distingue
+que ahora es mucho más potente.\c"
+MS00170014,"\h(«Luke el Corsario»)Ahora que por fin tenemos navío otra vez,
+podemos volver a dedicarnos a lo que mejor se
+nos da…… ¡¡Ser Piratas Aéreos!!\c"
+MS00170015,"\h(«Luke el Corsario»)Vyse…… He visto cómo esa extraña isla se elevaba
+desde debajo de las nubes…… De verdad que no se
+me ocurre de dónde habrá salido.\e"
+MS00170016,"\h(«Luke el Corsario»)No sé por qué, pero esa isla…… TIENE 
+PINTA de estar suplicando que la exploren. 
+Je, je…… Igual son cosas mías……\c"
+MS00180000,"\h(«Pedro el Friegacubiertas»)15 Piratas escaparon con vida……
+Y una sola botella de loqua para todos……
+Y viva, que viva, que viva.\e"
+MS00180001,"\h(«Pedro el Friegacubiertas»)¿Verdad que tengo una bonita voz para cantar?
+Ésta es la canción que los Piratas cantan cuando
+tienen que fregar la cubierta……\c"
+MS00180002,"\h(«Pedro el Friegacubiertas»)Triste destino el del Pirata Aéreo preso……
+Le arrancan la cabeza de los hombros……
+Y viva, que viva, que viva.\e"
+MS00180003,"\h(«Pedro el Friegacubiertas»)Esa famosa canción casi se cumple.
+Estuvimos muy cerca de besar la tabla del
+verdugo.\c"
+MS00180004,"\h(«Pedro el Friegacubiertas»)15 Piratas huyeron con vida……
+Y una sola botella de loqua para todos……
+Y viva, que viva, que viva.\e"
+MS00180005,"\h(«Pedro el Friegacubiertas»)Bellas muchachas, de toda la ciudad……
+No os enamoréis de un marino de los cielos……
+Y viva, que viva, que viva.\e"
+MS00180006,"\h(«Pedro el Friegacubiertas»)¡Je, je, je! Si hay algo bueno de ser Pirata
+Aéreo es que es difícil no estar metido en
+problemas. Es como si vinieran a buscarte……\e"
+MS00180007,"\h(«Pedro el Friegacubiertas»)Por eso me encargo de que el Albatross siempre
+esté en buena forma. Por si acaso los problemas
+vienen a buscarnos.\c"
+MS00180008,"\h(«Pedro el Friegacubiertas»)Bellas muchachas, de toda la ciudad……
+No os enamoréis de un marino de los cielos……
+Y viva, que viva, que viva.\c"
+MS00190000,"\h(«Patch el Marino»)Eres el primer visitante que tenemos en mucho
+tiempo. Ponte cómoda y no temas pedir todo lo
+que necesites.\e"
+MS00190001,"\h(«Patch el Marino»)Los Bandidos Azules nos llevamos bien con
+cualquier viajero del cielo. A no ser que vaya
+armado y con oro, ¡eso es otra cosa!\c"
+MS00200000,"\h(«Mabel la Corsaria»)Saquear tesoros está bien, pero por una vez me
+gustaría encontrar un chico guapo y macizo como
+tesoro en lugar de lo de siempre.\e"
+MS00200001,"\h(«Mabel la Corsaria»)Claro, que si hiciera eso, me comportaría como
+una Pirata Negra en lugar de una Bandido Azul.
+Supongo que no puede ser.\c"
+MS00200002,"\h(«Mabel la Corsaria»)…… Pero, si te digo la verdad: ¡Me encantaría
+secuestrar a un chico para mí sola!
+Ja, ja, ja……\c"
+MS00200003,"\h(«Mabel la Corsaria»)Vyse, si te vas a ir de viaje, asegúrate de que
+estás equipado con las mejores armas y
+armadura.\e"
+MS00200004,"\h(«Mabel la Corsaria»)Un Pirata Aéreo necesita tener su sable y su
+ingenio siempre bien afilados.\c"
+MS00200005,"\h(«Mabel la Corsaria»)Esto es el fin, Vyse.
+La batalla final…… ¿Crees que estás preparado
+para luchar contra Galcian y Ramírez?\e"
+MS00200006,"\h(«Mabel la Corsaria»)Ahora que lo pienso, la verdad es que ese tal
+Ramírez era bastante guapo.
+Qué mala soy…… Je, je, je……\c"
+MS00210000,\h(«Matthew el Cabo»)¡Capturaron a todos mientras yo dormía!\e
+MS00210001,"\h(«Matthew el Cabo»)Intenté ir a perseguirles, pero los Valuan
+destrozaron el Albatross……\e"
+MS00210002,"\h(«Matthew el Cabo»)¡¿Qué vamos a hacer ahora, Vyse?!
+¡Tenemos que ayudarles de algún modo!\c"
+MS00210003,"\h(«Matthew el Cabo»)¡¿Qué vamos a hacer ahora, Vyse?!
+¡Tenemos que ayudarles de algún modo!\c"
+MS00210004,"\h(«Matthew el Cabo»)He estado tan preocupado por el Capitán Dyne y
+los demás que no he dormido nada……\e"
+MS00210005,"\h(«Matthew el Cabo»)¡Tienes que rescatarlos a todos para que pueda
+dormir un poco!\c"
+MS00210006,"\h(«Matthew el Cabo»)No puedo creer que me haya quedado dormido y
+todo el mundo se haya largado sin mí…… Por lo
+menos me podían haber despertado……\c"
+MS00230000,"\h(«Dyne»)Y ahora escucha, Vyse. A veces una persona
+necesita otras cosas además de fuerza bruta y
+agudeza intelectual.\e"
+MS00230001,"\h(«Dyne»)A veces tienes que saber controlar la situación.
+Es entonces cuando tienes que aprender a ser un
+Bucanero.\e"
+MS00230002,"\h(«Dyne»)La gente se fijará en tu comportamiento en
+diversas situaciones y te ganarás una reputación
+basada en tu comportamiento.\e"
+MS00230003,"\h(«Dyne»)Por eso tienes que intentar ser tan audaz como
+sea posible, sin olvidarte de tus
+responsabilidades como líder, ¿entiendes?\c"
+MS00230004,"\h(«Dyne»)Tu “Rango de Bucanero” es una cualidad que debes
+cultivar en todo lo que digas o hagas cada día
+de tu vida. No lo olvides.\c"
+MS00230005,"\h(«Dyne»)¿Qué pasa, Vyse?
+Pareces deprimido y eso no es normal en ti.\e"
+MS00230006,\h(«Vyse»)Papá…… La verdad es que tengo que decirte algo……\e
+MS00230007,"\h(«Dyne»)No te preocupes……
+Me da la sensación de que ya sé lo que vas a
+decirme.\e"
+MS00230008,"\h(«Dyne»)Me acuerdo de cuando tenía tu edad…… La
+sensación de que tenía que alejarme de mi
+pequeña isla y ver el resto del mundo.\e"
+MS00230009,"\h(«Dyne»)Pero cuando un hombre decide salirse de su
+propia senda, no necesita disponer del permiso
+de sus padres.\e"
+MS00230010,"\h(«Dyne»)A partir de ahora, somos iguales, hijo mío.
+Navegantes de los cielos. No existe mayor
+honor que ése……\e"
+MS00230011,"\h(«Dyne»)Eh…… Es verdad que siempre llegas tarde, pero
+también es cierto que no estás perdiendo el
+tiempo para independizarte y viajar……\e"
+MS00230012,\h(«Vyse»)Papá……\e
+MS00230013,"\h(«Dyne»)Adelante, márchate lejos de aquí, Vyse.
+Ve a dejar tu huella en el mundo.\c"
+MS00230014,"\h(«Dyne»)Adelante, márchate lejos de aquí, Vyse.
+Ve a dejar tu huella en el mundo.\c"
+MS00230015,"\h(«Dyne»)Y ahora escucha, Vyse. A veces una persona
+necesita otras cosas además de fuerza bruta y
+agudeza intelectual.\e"
+MS00230016,"\h(«Dyne»)A veces tienes que saber controlar la situación.
+Es entonces cuando tienes que aprender a ser un
+Bucanero.\e"
+MS00230017,"\h(«Dyne»)La gente se fijará en tu comportamiento en
+diversas situaciones y te ganarás una reputación
+basada en tu comportamiento.\e"
+MS00230018,"\h(«Dyne»)Por eso tienes que intentar ser tan audaz como
+sea posible, sin olvidarte de tus
+responsabilidades como líder, ¿entiendes?\c"
+MS00230019,"\h(«Dyne»)Tu “Rango de Bucanero” es una cualidad que debes
+cultivar en todo lo que digas o hagas cada día
+de tu vida. No lo olvides.\c"
+MS00230020,"\h(«Dyne»)Je, je, je. Me siento de lo más tranquilo
+teniendo en cuenta que estoy a punto de sentir
+toda la fuerza de mi enemigo.\e"
+MS00230021,"\h(«Dyne»)Pero eso es bueno. La tripulación está más
+segura si el capitán actúa como si estuviera
+tranquilo y tuviera todo bajo control.\e"
+MS00230022,"\h(«Dyne»)Todo depende de esta batalla. Tengo que mantener
+los ojos bien abiertos y salvaguardar la vida de
+mis hombres. Haz lo mismo, Vyse.\e"
+MS00230023,"\h(«Dyne»)Tu tripulación debe dar lo mejor de sí misma y
+mantener los problemas bajo control……
+Ésa es la esencia de la tarea del líder.\c"
+MS00230024,"\h(«Dyne»)Tu tripulación debe dar lo mejor de sí misma y
+mantener los problemas bajo control……
+Ésa es la esencia de la tarea del líder.\c"
+MS00240000,"\h(«Matthew el Cabo»)Uy……
+No he estado en casa en mucho tiempo, por
+favor…… dejadme dormir.\c"
+MS00240001,"\h(«Matthew el Cabo»)¿Eh?
+¿Ya es de día?
+Venga…… dejadme dormir un poquito más……\c"
+MS00240002,"\h(«Matthew el Cabo»)Como todo el mundo ha vuelto, me sentí tan
+tranquilo…… entonces…… me sentí como…… un poco
+cansado……\c"
+MS00240003,"\h(«Matthew el Cabo»)Esta vez prometo que no me voy a quedar dormido,
+así que dejadme descansar un poco más, ¿eh?\c"
+MS00290000,"\h(«Ben el Centinela»)Lo siento, Vyse……
+Ojalá nunca hubieras visto
+la Isla del Pirata así……\e"
+MS00290001,"\h(«Ben el Centinela»)Pero oí que te ibas a Valua para intentar
+rescatarlos a todos. ¿Sabes que estás loco?
+Pero voy a rezar por que estés bien……\c"
+MF00010000,"\h(«Jimmy»)Les Valuans sont arrivés par surprise et se sont
+mis à nous tirer dessus ! Il y a eu beaucoup de
+blessés…… J'ai une petite blessure, mais ça va.\e"
+MF00010001,"\h(«Jimmy»)Si j'avais été plus costaud…… j'aurais peut-être
+pu riposter !!\c"
+MF00020000,"\h(«Alan»)Vyse !! Tu es de retour !! Est-ce que tous les
+soldats Valuan sont partis ?\e"
+MF00020001,"\h(«Alan»)Plusieurs navires sont arrivés et tous ces
+soldats ont commencé à capturer les habitants et
+ils ont ramené le Capitaine Dyne et tous les
+autres à Valua !!\c"
+MF00030000,"\h(«Lindsi»)Toute une flotte est arrivée de Valua et a
+commencé à nous tirer dessus…… Ils ont emmené
+tous les papas……\e"
+MF00030001,"\h(«Lindsi»)Et…… nos maisons…… tout notre village……
+Tout a été détruit…… Je ne sais pas quoi faire,
+Vyse !\c"
+MF00040000,\h(«Pow»)Pow…… pow……\c
+MF00050000,"\h(«Martha»)Vyse ! Oh, remercie les Lunes d'être en vie !
+L'Armada…… ils…… ils ont attaqué l'Île des
+Pirates !!\e"
+MF00050001,"\h(«Martha»)Ils sont arrivés de nulle part et nous ont
+attaqués par surprise ! Ensuite ils ont emmené
+tous les hommes à Valua !\e"
+MF00050003,"\h(«Martha»)Mon bon à rien de mari a lui aussi été capturé
+et emmené par les Valuans !
+Je…… je suis un peu inquiète à son sujet……\c"
+MF00050004,"\h(«Martha»)Vyse, vas-tu vraiment essayer de rentrer dans
+Valua pour sauver les autres ?\e"
+MF00050005,"\h(«Martha»)Fais…… fais attention, d'accord ? Ne brise pas
+le coeur de ta mère, tu comprends ? Et Aika……
+fais attention que Vyse ne s'attire pas
+d'ennuis !\c"
+MF00050006,"\h(«Martha»)Fais…… fais attention, d'accord ? Ne brise pas
+le coeur de ta mère, tu comprends ? Et Aika……
+fais attention que Vyse ne s'attire pas
+d'ennuis !\c"
+MF00060000,"\h(«Barbara»)Je n'arrive pas à croire que les Valuans aient
+ouvert le feu sur nous…… C'était vraiment cruel.
+Les enfants jouaient dehors !\e"
+MF00060001,"\h(«Barbara»)Le Capitaine Dyne a réalisé qu'il était inutile
+de résister et s'est rendu dans le calme, mais
+je suis sûre qu'au fond de lui, il voulait se
+battre……\c"
+MF00060002,"\h(«Barbara»)Je pense que ta mère est dans le bureau du
+Capitaine. Tu devrais aller la voir tout de
+suite. Elle était morte d'inquiétude pour toi et
+Aika.\c"
+MF00060003,"\h(«Barbara»)Ta mère fait de son mieux pour rester calme,
+mais au fond de son coeur je sais qu'elle se
+demande quoi faire.\e"
+MF00060004,"\h(«Barbara»)Vyse…… tu dois revenir sain et sauf.
+Je ne préfère pas imaginer ce qui arriverait à
+ta mère si tu étais…… capturé toi aussi.\c"
+MF00070000,"\h(«Briggs le Vice Capitaine»)C'est le Capitaine qui t'a convoqué.
+Commence par aller lui parler.\c"
+MF00080000,"\h(«Mère de Vyse»)Vyse ! Aika ! Vous êtes en vie ! Je suis si
+soulagée !\c"
+MF00080001,"\h(«Mère de Vyse»)J'ai appris que tu as décidé de partir.
+Ton père m'a déjà tout raconté.\e"
+MF00080002,"\h(«Mère de Vyse»)Mais, je te connais assez bien pour savoir que
+tu ne mettrais pas longtemps à partir voyager
+tout seul.\e"
+MF00080003,\h(«Vyse»)Maman……\e
+MF00080004,"\h(«Mère de Vyse»)C'est bon, mon chéri. Tout le monde finit par
+quitter le cocon familial. Je savais que ce
+n'était qu'une question de temps.\e"
+MF00080005,"\h(«Mère de Vyse»)Je savais que ce jour viendrait.
+Mais…… mais il est arrivé plus tôt que je ne
+pensais…… ou espérais.\e"
+MF00080006,"\h(«Mère de Vyse»)Alors relève la tête, mon fils. Poursuis les
+rêves que tu n'arrêtais pas d'évoquer.
+Et veille aussi sur Aika, d'accord ?\c"
+MF00080007,"\h(«Mère de Vyse»)Alors relève la tête, mon fils. Poursuis les
+rêves que tu n'arrêtais pas d'évoquer.
+Et veille aussi sur Aika, d'accord ?\c"
+MF00090000,"\h(«Jessica»)Vyse, ta mère est vraiment inquiète à ton sujet.\e"
+MF00090001,"\h(«Jessica»)La dernière fois que je l'ai vue, elle était
+dans le bureau du Capitaine Dyne. Va la voir,
+Vyse…… Dis-lui que tu vas bien.\c"
+MF00110000,"\h(«Timmus le canonnier»)Hah hah hah ! Cela faisait longtemps que je
+n'avais pas vu les Valuans se faire battre comme
+ça ! Joli travail, Vyse !\e"
+MF00110001,"\h(«Timmus le canonnier»)Et tant que je suis de bonne humeur, je crois
+que je vais aller au centre d'entraînement en
+surface et faire une bonne séance de
+musculation.\c"
+MF00120000,"\h(«Briggs le Vice Capitaine»)C'est le Capitaine qui t'a convoqué.
+Va lui parler en premier.\c"
+MF00130000,"\h(«Zack le Marchand d'Armes»)Hé hé hé, entre.
+C'est un magasin d'armes et d'armures.\e"
+MF00130001,"\h(«Zack le Marchand d'Armes»)Désolé, mais tu vas devoir payer même si tu es
+un camarade Pirate de l'Air. J'ai du mal à
+trouver mes stocks.\e"
+MF00130002,"\h(«Que ferez-vous ?»)“Vous achèterez et vendrez des armes.”
+“Vous parlerez à Zack.”
+“Vous partirez.”\e"
+MF00130003,"\h(«Zack le Marchand d'Armes»)La plupart des armes sont forgées dans des
+Pierres de Lune. Bon, ce n'est pas le seul
+matériau, mais c'est le principal.\e"
+MF00130004,"\h(«Zack le Marchand d'Armes»)Et puisque les armes sont fabriquées en Pierres
+de Lune, elles peuvent être affectées par
+d'autres Pierres de Lune, si l'on sait bien s'en
+servir.\e"
+MF00130005,"\h(«Zack le Marchand d'Armes»)Pour apprendre tous les détails, va demander au
+centre d'entraînement qui est situé en surface.\e"
+MF00130006,\h(«Zack le Marchand d'Armes»)Hé hé hé. Merci d'être passé.\c
+MF00130007,"\h(«Zack le Marchand d'Armes»)Capitaine Dyne m'a ordonné d'enfermer à clé
+toutes les armes.\e"
+MF00130008,"\h(«Zack le Marchand d'Armes»)C'est sûrement pour ça que les autres Pirates ne
+raflent pas mon stock. Sinon, comment ferais-je
+un profit ? Héhéhé……\c"
+MF00130009,"\h(«Que ferez-vous ?»)“Vous vendrez et achèterez des armes.”
+“vous écouterez parler Zack.”
+“Vous partirez.”\e"
+MF00130010,"\h(«Zack le Marchand d'Armes»)Si tu as l'intention de te frotter à Valua, je
+te suggère d'acheter des armes puissantes.\e"
+MF00130011,"\h(«Zack le Marchand d'Armes»)Nous ne voudrions pas que le fils unique du
+Capitaine Dyne périsse faute d'avoir une bonne
+lame…… Hé hé hé.\e"
+MF00130012,\h(«Zack le Marchand d'Armes»)Hé hé hé. Merci d'être passé.\c
+MF00135000,"\h(«Zack le Marchand d'Armes»)Hé Vyse. Ou plutôt “Vyse le Nigot ?” Hé hé hé……
+On m'a raconté tes mésaventures……\e"
+MF00135001,"\h(«Zack le Marchand d'Armes»)Hé, Vyse. Tu veux acheter quelque chose ?\e"
+MF00135002,"\h(«Zack le Marchand d'Armes»)Tiens…… mais c'est Vyse le Déterminé.
+Tu es venu acheter quelque chose ?\e"
+MF00135003,"\h(«Zack le Marchand d'Armes»)Tiens…… mais c'est Vyse le Respecté.
+On m'a raconté tes dernières aventures.
+Ne déçoit surtout pas ton père……\e"
+MF00135004,"\h(«Zack le Marchand d'Armes»)Vyse l'Admirable. Cela m'a fait rire la première
+fois que j'ai entendu ça. Mais, je suppose que
+si tu t'es fait ce nom, c'est que tu le
+mérites……\e"
+MF00135005,"\h(«Zack le Marchand d'Armes»)Tiens, tiens…… mais c'est Vyse l'Intrépide.
+J'ai entendu dire que tu deviens un sacré Pirate
+de l'Air. Presque meilleur que ton père, d'après
+ce que l'on raconte……\e"
+MF00135006,"\h(«Zack le Marchand d'Armes»)Vyse le Vaillant…… ça sonne bien, hein ?
+Je suppose que tu as mérité le nom…… Montre-toi
+à la hauteur, OK ?\e"
+MF00135007,"\h(«Zack le Marchand d'Armes»)Alors on t'appelle “Vyse l'Audacieux”, hein ?
+Bah…… Je te connais depuis que tu es tout petit.
+Ce n'est pas parce que tu taquinais Aika que tu
+mérites de te faire appeler “audacieux.”\e"
+MF00135008,"\h(«Zack le Marchand d'Armes»)Hahaha…… mais c'est Vyse l'Impétueux ! Je me
+demande qui t'a nommé ainsi…… Une dame, peut-
+être ? Je me demande ce qu'en pense Aika……\e"
+MF00135009,"\h(«Zack le Marchand d'Armes»)Vyse le Courageux…… Tu sais quoi ? Depuis que
+les gens t'appellent comme ça, ton père n'a pas
+arrêté de te vanter……\e"
+MF00135010,"\h(«Zack le Marchand d'Armes»)Tu es devenu un sacré marin, n'est-ce pas ?
+Même ton père n'a jamais été qualifié de héros !
+Tu t'es fait un sacré nom……\e"
+MF00135011,"\h(«Zack le Marchand d'Armes»)Vyse, Roi des Voleurs……
+Je me demande si ça plaît à ton père……
+Que penses-tu de “Vyse, Prince des Voleurs……” ?
+Je suis certain qu'il préférerait ce nom-là.\e"
+MF00135012,"\h(«Zack le Marchand d'Armes»)Je n'arrive pas à croire qu'un petit morveux
+comme toi ait pu devenir une légende vivante.
+Oh…… bon, je suis honoré de te connaître, Vyse.\e"
+MF00140000,"\h(«Erinn la marchande»)Oh, bonjour, Vyse ! Entre !
+Tu veux acheter quelque chose ?\e"
+MF00140001,"\h(«Que ferez-vous ?»)“Vous achèterez et vendrez des articles.”
+“Vous parlerez à Erinn.”
+“Vous partirez.”\e"
+MF00140002,"\h(«Erinn la Marchande»)À l'inverse des sorts qui nécessitent des PM, si
+tu as un cristal guérisseur, tu peux récupérer
+tes PV n'importe où et n'importe quand.\e"
+MF00140003,"\h(«Erinn la Marchande»)Certains des Pirates de l'Air les plus “forts”
+refusent de s'en servir pour sauver leur vie,
+mais cela ne coûte rien de prendre des
+précautions.\e"
+MF00140004,\h(«Erinn la Marchande»)Merci d'être passé. Reviens me voir !\c
+MF00140005,"\h(«Erinn la Marchande»)Bienvenue. J'ai mis des articles spéciaux de
+côté pour toi et ton équipage.\e"
+MF00140006,"\h(«Erinn la Marchande»)Sers-toi de ces articles pour faire regretter à
+ces Valuans tout ce qu'ils nous ont fait !\e"
+MF00140007,"\h(«Que ferez-vous ?»)“Vous achèterez et vendrez des articles.”
+“Vous écouterez parler Erinn.”
+“Vous partirez.”\e"
+MF00140008,"\h(«Erinn la Marchande»)Ne t'inquiète pas pour les blessés, Vyse.
+J'ai plein de Cristaux Sacri en stock pour
+soigner tout le monde.\e"
+MF00140009,"\h(«Erinn la Marchande»)Si aucun Pirate de l'Air ne revient, je vais
+fermer boutique. C'est pour cela que je compte
+sur toi pour les ramener, Vyse !\c"
+MF00145000,"\h(«Erinn la Marchande»)Oh…… Hé, Vyse. Tu sais quoi ? J'ai entendu dire
+que les gens t'appellent “Vyse le Nigot” ces
+derniers temps. N'y prête pas trop attention,
+OK ?\e"
+MF00145001,"\h(«Erinn la Marchande»)Oh, Vyse. Tu es venu acheter quelque chose ?\e"
+MF00145002,"\h(«Erinn la Marchande»)Tiens, mais c'est Vyse le Déterminé.
+Tu commences à te faire un nom, on dirait.
+Ton père doit être fier.\e"
+MF00145003,"\h(«Erinn la Marchande»)Hé, Vyse! D'après les rumeurs, tu commences à te
+faire respecter comme marin là-bas !
+Tant mieux pour toi……\e"
+MF00145004,"\h(«Erinn la Marchande»)Vyse l'Admirable…… Ce nom te va pas trop mal.
+Je parie que tu plais aux dames…… Hahaha……\e"
+MF00145005,"\h(«Erinn la Marchande»)Hé, Vyse. Tu sais ce que je viens de réaliser ?
+Tu commences à ressembler sérieusement à ton
+père. Peut-être que c'est ta démarche……\e"
+MF00145006,"\h(«Erinn la Marchande»)Tiens donc, voilà Vyse le Vaillant. Ce nom te
+donne un air très…… honorable. Hahaha……
+Désolé…… je ne voulais pas rire……\e"
+MF00145007,"\h(«Erinn la Marchande»)“Vyse l'Audacieux,” hein ? Je suppose que ce nom
+te va bien…… Je ne connais personne d'aussi fo……
+Je veux dire…… audacieux que toi.\e"
+MF00145008,"\h(«Erinn la Marchande»)Hé, Vyse l'Impétueux. Tu commences à te faire un
+nom. Bien, tant mieux pour toi, Vyse.\e"
+MF00145009,"\h(«Erinn la Marchande»)Alors, on t'appelle “Vyse le Courageux ?”
+Haha…… Je me souviens quand bébé tu avais peur
+du noir ! Oh dis donc, les choses ont bien
+changé……\e"
+MF00145010,"\h(«Erinn la Marchande»)Tiens donc, voilà Vyse le Héros. Tu t'es fais un
+sacré surnom. Montre-toi à la hauteur, OK ?\e"
+MF00145011,"\h(«Erinn la Marchande»)“Le Roi des Voleurs,” hein ? Hé…… Je me demande
+qui t'a donné ce surnom. C'est certainement pas
+ton père, ça c'est sûr……\e"
+MF00145012,"\h(«Erinn la Marchande»)Wow…… Je ne pensais pas que tu deviendrais une
+légende un jour ! Tous les habitants de l'Île
+des Pirates sont vraiment fiers de toi……\e"
+MF00150000,"\h(«Landis le Navigateur»)Hourra ! Nous sommes de retour ! Tu sais, il n'y
+a rien de tel que de rentrer à bon port.\c"
+MF00150001,"\h(«Landis le Navigateur»)Si au cours d'un voyage, tu ne sais plus où tu
+te trouves, regarde ta carte ! Tu devrais
+pouvoir trouver exactement où tu es.\e"
+MF00150002,"\h(«Landis le Navigateur»)Je suis certain que ton père t'a appris à
+dessiner une carte. Alors chaque fois que tu
+explores un nouvel endroit, tu devrais le
+dessiner sur ta carte.\e"
+MF00150003,"\h(«Landis le Navigateur»)C'est le rêve de tous les marins de dessiner de
+sa propre main une carte complète……\c"
+MF00150004,"\h(«Landis le Navigateur»)C'est le rêve de tous les marins de dessiner de
+sa propre main une carte complète……\c"
+MF00150005,"\h(«Landis le Navigateur»)Vyse ! Hé…… J'ai entendu dire que tu as semé la
+pagaille dans l'Empire Valuan.\e"
+MF00150006,"\h(«Landis le Navigateur»)Tout ce que je veux c'est que tu leur montres de
+quoi les Voleurs Bleus sont capables. Il faut
+leur faire payer ce qu'ils nous ont fait !!\c"
+MF00160000,"\h(«Ben la Vigie»)Mon travail consiste à guider l'Albatros dans
+l'entrée souterraine pour que la mise à quai se
+passe bien.\e"
+MF00160001,"\h(«Ben la Vigie»)Nous faisons des signaux avec un drapeau pour
+communiquer entre nous sur de longues distances.
+En ce moment, je coordonne le chargement des
+provisions sur l'Albatros.\c"
+MF00160002,"\h(«Ben la Vigie»)Boules de canon…… Il en reste 20……
+Eau potable…… Il reste 10 barils……
+Um…… Quoi encore……\c"
+MF00160003,"\h(«Ben la Vigie»)Grâce aux cristaux guérisseurs d'Erinn,
+toutes mes plaies ont cicatrisé et je me sens
+beaucoup mieux !\e"
+MF00160004,"\h(«Ben la Vigie»)Oh, et ton nouveau navire s'appelle le Little
+Jack, hein ? Je vais le réapprovisionner pour
+toi, repose-toi, Vyse.\c"
+MF00160005,"\h(«Ben la Vigie»)Les nouveaux navires sont toujours mieux.
+Je remplirai ton navire de provisions.
+Je ne voudrais pas que tu manques de carburant……\c"
+MF00160006,"\h(«Ben la Vigie»)Le Capitaine Dyne m'a ordonné de faire un
+chargement d'artillerie sur le navire.\e"
+MF00160007,"\h(«Ben la Vigie»)Je crois que le Capitaine a l'intention de semer
+un peu la pagaille lui aussi. Hé hé……\c"
+MF00170000,"\h(«Luke le Braqueur»)Les ordres du Capitaine Dyne…… La sortie en
+surface du village a été verrouillée.\e"
+MF00170001,"\h(«Luke le Braqueur»)Il a dit que tu n'avais pas le droit d'emmener
+la fille en surface avant qu'il ne lui ait
+parlé. Tu devrais d'abord aller le voir.\c"
+MF00170002,"\h(«Luke le Braqueur»)Le Capitaine Dyne a dit que la fille…… Je veux
+dire Fina, est autorisée à se promener où elle
+veut sur l'île. Alors, j'ai ouvert la porte.\e"
+MF00170003,"\h(«Luke le Braqueur»)Et il y a aussi deux coffres dans ce port
+souterrain qui contiennent des provisions en cas
+d'urgence…… Tu devrais peut-être les chercher.\c"
+MF00170004,"\h(«Luke le Braqueur»)Et il y a aussi deux coffres dans ce port
+souterrain qui contiennent des provisions en cas
+d'urgence…… Tu devrais peut-être les chercher.\c"
+MF00170005,"\h(«Luke le Braqueur»)Vyse…… c'est formidable ce que tu as fait à
+Valua ! Je ne t'ai jamais vu te battre avec
+autant de hargne !
+Tu es devenu un sacré Pirate de l'Air !\e"
+MF00170006,"\h(«Luke le Braqueur»)Le Capitaine Dyne t'a bien formé. Je suis sûr
+que tu deviendras un grand Capitaine comme ton
+père un jour.\c"
+MF00170007,"\h(«Luke le Braqueur»)Hé, Vyse. Comment s'est passé ton voyage ?\e"
+MF00170008,"\h(«Luke le Braqueur»)Le Capitaine Dyne est fier de tout ce que toi et
+ton équipage avez accompli. Continue comme ça,
+où que tu ailles.\c"
+MF00170009,"\h(«Luke le Braqueur»)Quoi ?! Tu t'es encore échappé de Valua ? Et
+cette fois tu as volé le navire le plus puissant
+de l'Armada ?!\e"
+MF00170010,"\h(«Luke le Braqueur»)Wow ! Je ne sais pas si tu es fou ou si tu es un
+vrai dur, mais ce qui est sûr c'est…… que tu es
+imprévisible !\c"
+MF00170011,"\h(«Luke le Braqueur»)As-tu déjà vu notre nouveau navire, Vyse ?
+Le Capitaine Dyne nous en a fait construire un
+nouveau…… Il s'appelle l'Albatros II.\e"
+MF00170012,"\h(«Luke le Braqueur»)Nous avions encore les plans, donc nous avons pu
+reconstruire le premier Albatros exactement
+comme il était.\e"
+MF00170013,"\h(«Luke le Braqueur»)Enfin, nous avons amélioré ses moteurs et son
+blindage…… Mais, tu ne peux pas deviner qu'il
+est beaucoup plus puissant rien qu'en le
+regardant.\c"
+MF00170014,"\h(«Luke le Braqueur»)Maintenant que nous avons enfin un navire, nous
+pouvons retourner à nos occupations préférées……
+de Pirates de l'Air !!\c"
+MF00170015,"\h(«Luke le Braqueur»)Vyse…… J'ai vu cette île étrange surgir de sous
+les nuages…… Je ne sais vraiment pas quoi
+penser.\e"
+MF00170016,"\h(«Luke le Braqueur»)Je ne sais pas pourquoi, mais on DIRAIT que
+cette île…… ne demande qu'à être explorée.
+Héhé…… Peut-être que c'est mon imagination……\c"
+MF00180000,"\h(«Peter le laveur de pont»)15 Pirates s'en sont sortis vivants……
+Et avec une seule bouteille de loqua pour tous……
+Et a yo ho ho, a yo ho ho.\e"
+MF00180001,"\h(«Peter le laveur de pont»)Hé hé ! Je chante bien, non ?
+C'est la chanson que les Pirates doivent chanter
+en nettoyant les ponts……\c"
+MF00180002,"\h(«Peter le laveur de pont»)Le Pirate de l'Air capturé a un triste destin……
+On lui coupe la tête……
+Et a yo ho ho, a yo ho ho.\e"
+MF00180003,"\h(«Peter le laveur de pont»)Ça a failli nous arriver. Nous étions à deux
+doigts d'embrasser le billot du bourreau.\c"
+MF00180004,"\h(«Peter le laveur de pont»)15 Pirates s'en sont sortis vivants……
+Et avec une seule bouteille de loqua pour tous……
+Et a yo ho ho, a yo ho ho.\e"
+MF00180005,"\h(«Peter le laveur de pont»)Des jolies filles, dans toute la ville……
+Ne tombez pas amoureuses d'un homme des cieux……
+Et a yo ho ho, a yo ho ho.\e"
+MF00180006,"\h(«Peter le laveur de pont»)Hé hé ! Les Pirates de l'Air ont toujours des
+problèmes. On s'attire toujours des ennuis……\e"
+MF00180007,"\h(«Peter le laveur de pont»)C'est pour cela que mon travail consiste à
+m'assurer du bon fonctionnement de l'Albatros.
+Au cas où on s'attirerait des ennuis, tu vois ?\c"
+MF00180008,"\h(«Peter le laveur de pont»)Des jolies filles, dans toute la ville……
+Ne tombez pas amoureuses d'un homme des cieux……
+Et a yo ho ho, a yo ho ho.\c"
+MF00190000,"\h(«Patch le Matelot»)Tu es notre première visiteuse depuis longtemps.
+Fais comme chez toi, mademoiselle, et n'hésite
+pas à me demander quoi que ce soit.\e"
+MF00190001,"\h(«Patch le Matelot»)Les Voleurs Bleus sont les amis de tous les
+voyageurs des cieux. Euh, si tu es une voyageuse
+armée transportant de l'or, c'est une autre
+histoire ! Haha !\c"
+MF00200000,"\h(«Mabel la Braqueuse»)C'est bien de piller du butin, mais pour une
+fois j'aimerais trouver un jeune homme séduisant
+aux épaules carrées, ce serait un trésor
+insolite.\e"
+MF00200001,"\h(«Mabel la Braqueuse»)…… Évidemment, si je faisais cela, je ne
+vaudrais pas mieux qu'un Pirate Noir. Oh tant
+pis, je suppose que ce n'est pas autorisé.\c"
+MF00200002,"\h(«Mabel la Braqueuse»)…… Mais, pour être franche, j'aimerais vraiment
+kidnapper un homme pour moi toute seule un
+jour ! Hahaha……\c"
+MF00200003,"\h(«Mabel la Braqueuse»)Vyse, si tu pars en voyage, tu dois absolument
+t'équiper des meilleures armes et armures.\e"
+MF00200004,"\h(«Mabel la Braqueuse»)Les épées et les esprits du Pirate de l'Air
+doivent toujours être acérés.\c"
+MF00200005,"\h(«Mabel la Braqueuse»)Le moment est arrivé, Vyse.
+La bataille finale…… Es-tu vraiment prêt à
+affronter Galcian et Ramirez ?\e"
+MF00200006,"\h(«Mabel la Braqueuse»)Maintenant que j'y pense, ce Ramirez
+n'était pas mal du tout.
+Je suis terrible…… Hihihi……\c"
+MF00210000,"\h(«Matthew le Matelot»)Ils ont capturé tout le monde pendant que je
+dormais !\e"
+MF00210001,"\h(«Matthew le Matelot»)J'allais essayer de les rattraper, mais les
+Valuans ont détruit l'Albatros……\e"
+MF00210002,"\h(«Matthew le Matelot»)Que faut-il faire maintenant, Vyse ?!
+Il faut essayer de les aider !\c"
+MF00210003,"\h(«Matthew le Matelot»)Que faut-il faire maintenant, Vyse ?!
+Il faut essayer de les aider !\c"
+MF00210004,"\h(«Matthew le Matelot»)Je m'inquiète tellement pour le Capitaine Dyne
+et les autres que je n'arrive pas à dormir……\e"
+MF00210005,"\h(«Matthew le Matelot»)Il faut que tu réussisses à tous les secourir
+pour que je retrouve le sommeil !\c"
+MF00210006,"\h(«Matthew le Matelot»)Je n'arrive pas à croire que je ne me suis pas
+réveillé et qu'ils sont tous partis sans moi……
+Ils auraient pu me réveiller……\c"
+MF00230000,"\h(«Dyne»)Écoute, Vyse. Parfois un homme ne doit pas
+seulement faire preuve de force brutale ou
+d'intelligence.\e"
+MF00230001,"\h(«Dyne»)Parfois tu dois savoir contrôler une situation.
+C'est à ce moment que tu dois apprendre à te
+comporter en fier-à-bras.\e"
+MF00230002,"\h(«Dyne»)Les gens vont remarquer comment tu te comportes
+dans certaines situations et tu te feras une
+réputation pour tes actions.\e"
+MF00230003,"\h(«Dyne»)C'est pour cela que tu dois essayer d'être aussi
+aventureux que possible, sans oublier tes
+responsabilités de leader, OK ?\c"
+MF00230004,"\h(«Dyne»)Quand les gens t'appellent “Fier-à-bras”, c'est
+une qualité que tu dois cultiver dans ton
+langage et dans tes actions de tous les jours.
+N'oublie jamais cela.\c"
+MF00230005,"\h(«Dyne»)Qu'y a t-il, Vyse ?
+Tu as l'air lugubre, cela ne te ressemble pas.\e"
+MF00230006,"\h(«Vyse»)Papa…… En fait, j'ai quelque chose à te dire……\e"
+MF00230007,"\h(«Dyne»)Ne t'inquiète pas……
+Je crois que je sais déjà ce que tu vas me dire.\e"
+MF00230008,"\h(«Dyne»)Je me souviens quand j'avais ton âge…… Je
+sentais que je devais quitter ma petite île et
+explorer le reste du monde.\e"
+MF00230009,"\h(«Dyne»)Mais quand un homme a choisi sa voie, il n'a pas
+besoin de la permission de ses parents.\e"
+MF00230010,"\h(«Dyne»)À partir de maintenant, tu es mon égal, fiston.
+Un homme qui obéit aux lois des cieux.
+Il n'existe rien de plus honorable……\e"
+MF00230011,"\h(«Dyne»)Hé…… Tu es en retard presque à chaque fois, mais
+tu ne perds jamais de temps pour essayer de
+partir tout seul……\e"
+MF00230012,\h(«Vyse»)Papa……\e
+MF00230013,"\h(«Dyne»)Allez, vas-y, Vyse.
+Va laisser ton empreinte dans le monde.\c"
+MF00230014,"\h(«Dyne»)Allez, vas-y, Vyse.
+Va laisser ton empreinte dans le monde.\c"
+MF00230015,"\h(«Dyne»)Écoute, Vyse. Parfois un homme ne doit pas
+seulement faire preuve de force brutale ou
+d'intelligence.\e"
+MF00230016,"\h(«Dyne»)Parfois tu dois savoir contrôler une situation.
+C'est à ce moment que tu dois savoir te
+comporter en fier-à-bras.\e"
+MF00230017,"\h(«Dyne»)Les gens vont remarquer comment tu te comportes
+dans certaines situations et tu te feras une
+réputation suite à tes actions.\e"
+MF00230018,"\h(«Dyne»)c'est pour cela que tu dois essayer d'être aussi
+aventureux que possible, sans oublier tes
+responsabilités de leader, OK ?\c"
+MF00230019,"\h(«Dyne»)Quand les gens t'appellent “Fier-à-bras”, c'est
+une qualité que tu dois cultiver dans ton
+langage et dans tes actions de tous les jours.
+N'oublie jamais cela.\c"
+MF00230020,"\h(«Dyne»)Hé hé hé. Je me sens remarquablement calme quand
+on pense que l'ennemi va me tirer dessus avec sa
+meilleure artillerie.\e"
+MF00230021,"\h(«Dyne»)Mais c'est mieux ainsi. L'équipage se sent à
+l'aise si le Capitaine a l'air d'être calme et
+de contrôler la situation.\e"
+MF00230022,"\h(«Dyne»)Mais, tout dépend de cette bataille. Je dois
+rester en état d'alerte et garder mes hommes en
+vie. Tu dois faire la même chose, Vyse.\e"
+MF00230023,"\h(«Dyne»)Toujours pousser ton équipage de l'avant, tout
+en gardant le contrôle parfait de la situation……
+C'est l'essence même d'un bon leader.\c"
+MF00230024,"\h(«Dyne»)Toujours pousser ton équipage de l'avant tout en
+gardant le contrôle parfait de la situation……
+C'est l'essence même d'un bon leader.\c"
+MF00240000,"\h(«Matthew le Matelot»)Ugh……
+Je ne suis pas rentré chez moi depuis si
+longtemps, s'il te plaît…… laisse-moi dormir.\c"
+MF00240001,"\h(«Matthew le Matelot»)Ugh…… huh ?
+C'est déjà le matin ?
+Allez…… laisse-moi dormir encore un peu……\c"
+MF00240002,"\h(«Matthew le Matelot»)Depuis que tout le monde est rentré, j'étais
+tellement détendu…… et puis je…… me suis…… senti
+si…… fatigué……\c"
+MF00240003,"\h(«Matthew le Matelot»)Je promets de ne pas dormir trop longtemps cette
+fois, alors laisse-moi dormir un peu, OK ?\c"
+MF00290000,"\h(«Ben la Vigie»)Désolé, Vyse……
+J'aurais préféré que tu ne voies jamais l'Île
+des Pirates comme…… cela……\e"
+MF00290001,"\h(«Ben la Vigie»)Mais, on dit que tu pars à Valua pour essayer de
+sauver tout le monde. Tu es fou, tu le sais ?
+Mais, je prierai pour que tu sois protégé……\c"
+MG00010000,"\h(«Jimmy»)Die Valuaner kamen aus dem Nichts und fingen
+an, auf uns zu schießen! So viele Leute
+wurden verletzt…… ich auch ein bisschen,
+aber es geht einigermaßen.\e"
+MG00010001,"\h(«Jimmy»)Ich wünschte, ich wäre größer…… dann hätte
+ich mich vielleicht wehren können!!\c"
+MG00020000,"\h(«Alan»)Vyse!! Du bist wieder da!! Sind die valuanischen
+Soldaten schon weg?\e"
+MG00020001,"\h(«Alan»)Ein Haufen Schiffe sind gekommen, und diese
+Soldaten fingen an, einfach Leute gefangen zu
+nehmen, und Captain Dyne und all die anderen
+wurden mit nach Valua genommen!!\c"
+MG00030000,"\h(«Lindsi»)Die ganzen Schiffe kamen aus Valua und begannen,
+auf uns zu schießen…… Sie haben von allen die
+Väter mitgenommen……\e"
+MG00030001,"\h(«Lindsi»)Und…… unsere Häuser…… unser ganzes Dorf……
+Alles wurde zerstört…… Ich weiß nicht, was
+ich machen soll, Vyse!\c"
+MG00040000,\h(«Pow»)Pau…… pau……\c
+MG00050000,"\h(«Martha»)Vyse! Ach, den Monden sei Dank, dass du
+gesund bist! Die Armada…… sie…… hat Pirate Isle
+angegriffen!!\e"
+MG00050001,"\h(«Martha»)Sie kamen einfach aus dem Nichts und haben
+uns ohne Vorwarnung angegriffen! Dann haben
+sie alle Männer mit nach Valua genommen!\e"
+MG00050002,"\h(«Martha»)Sie…… sie haben sogar die Albatross zerstört……
+Deinem Vaters muss es das Herz gebrochen
+haben……\c"
+MG00050003,"\h(«Martha»)Mein Mann, dieser Tunichtgut, wurde auch
+gefangen genommen und von den Valuanern
+mitgenommen! Ich…… ich mache mir ein wenig
+Sorgen um ihn……\c"
+MG00050004,"\h(«Martha»)Vyse, willst du wirklich versuchen, nach Valua
+hinein zu kommen und die anderen zu retten?\e"
+MG00050005,"\h(«Martha»)Sei…… sei aber vorsichtig, ja? Brich deiner
+Mutter nicht das Herz, verstehst du? Und Aika……
+pass bloß auf, dass Vyse keine Dummheiten
+macht!\c"
+MG00050006,"\h(«Martha»)Sei…… sei aber vorsichtig, ja? Brich deiner
+Mutter nicht das Herz, verstehst du? Und Aika……
+pass bloß auf, dass Vyse keine Dummheiten
+macht!\c"
+MG00060000,"\h(«Barbara»)Ich kann nicht fassen, dass die Valuaner
+einfach so das Feuer eröffnet haben……
+Es war grausam. Die Kinder spielten gerade
+draußen!\e"
+MG00060001,"\h(«Barbara»)Captain Dyne sah gleich ein, dass jeder
+Widerstand zwecklos war, und ergab sich ohne
+Umstände, aber ich bin sicher, im Grunde
+seines Herzens wollte er sich wehren……\c"
+MG00060002,"\h(«Barbara»)Ich glaube, deine Mutter ist im Büro des
+Captains. Du solltest gleich zu ihr gehen.
+Sie hat sich um dich und Aika solche Sorgen
+gemacht.\c"
+MG00060003,"\h(«Barbara»)Deine Mutter setzt alles daran, die Ruhe zu
+bewahren, aber tief im Innern weiß sie nicht,
+was sie tun soll.\e"
+MG00060004,"\h(«Barbara»)Vyse…… Du musst heil wieder nach Hause kommen.
+Ich wage nicht, mir vorzustellen, was mit
+deiner Mutter passiert, wenn du…… auch
+gefangen genommen wirst.\c"
+MG00070000,"\h(«Briggs, der Vizekapitän»)Der Captain hat dich gerufen.
+Geh und sprich zuerst mit ihm.\c"
+MG00080000,"\h(«Vyses Mutter»)Vyse! Aika! Ihr seid am Leben! Ich bin so
+erleichtert!\c"
+MG00080001,"\h(«Vyses Mutter»)Ich höre, ihr wollt fort.
+Dein Vater hat mir schon alles erzählt.\e"
+MG00080002,"\h(«Vyses Mutter»)Aber so wie ich dich kenne, hätte es sowieso
+nicht lange gedauert, bis du dich wieder
+nach dem Himmel sehnst.\e"
+MG00080003,\h(«Vyse»)Mama……\e
+MG00080004,"\h(«Vyses Mutter»)Schon in Ordnung, Lieber. Jeder verlässt
+früher oder später das Nest. Ich wusste, es war
+nur eine Frage der Zeit.\e"
+MG00080005,"\h(«Vyses Mutter»)Ich wusste, dieser Tag würde irgendwann einmal
+kommen. Es ist nur…… es ist nur, er kam viel
+früher, als ich dachte…… und hoffte.\e"
+MG00080006,"\h(«Vyses Mutter»)Also halt dich wacker, mein Sohn. Geh und jag
+diesen Träumen nach, von denen du immer
+gesprochen hast. Und kümmere dich auch um
+Aika, ja?\c"
+MG00080007,"\h(«Vyses Mutter»)Also halt dich wacker, mein Sohn. Geh und jag
+diesen Träumen nach, von denen du immer
+gesprochen hast. Und kümmere dich auch um
+Aika, ja?\c"
+MG00090000,"\h(«Jessica»)Vyse, deine Mutter macht sich richtige
+Sorgen um dich.\e"
+MG00090001,"\h(«Jessica»)Das letzte Mal, als ich sie gesehen habe, war
+sie in Captain Dynes Büro. Geh und sieh nach
+ihr, Vyse…… Sag ihr, dass es dir gut geht.\c"
+MG00110000,"\h(«Timmus, der Kanonier»)Hah hah hah! Ist schon lange her, seit die
+Valuaner eine solche Tracht Prügel abbekommen
+haben! Gute Arbeit, Vyse!\e"
+MG00110001,"\h(«Timmus, der Kanonier»)Und während ich noch bei so guter Laune bin,
+werde ich zum Trainings-Center ins Erdgeschoss
+gehen und mich einmal so richtig austoben.\c"
+MG00120000,"\h(«Briggs, der Vizekapitän»)Der Captain hat dich gerufen.
+Geh und sprich zuerst mit ihm.\c"
+MG00130000,"\h(«Zack, der Waffenhändler»)Hihihi, kommt nur rein.
+Dies ist ein Waffen- und Rüstungsladen.\e"
+MG00130001,"\h(«Zack, der Waffenhändler»)Tut mir leid, aber ich muss das in Rechnung
+stellen, obwohl ihr auch Luftpiraten seid.
+Es ist nicht leicht, all diese Ware zu
+beschaffen.\e"
+MG00130002,"\h(«Was wirst du tun?»)“Waffen kaufen und verkaufen”.
+“Mit Zack reden”.
+“Weggehen”.\e"
+MG00130003,"\h(«Zack, der Waffenhändler»)Die meisten Waffen werden aus Moon Stones
+gefertigt. Nun, es ist nicht das einzige
+Material, aber eines der wichtigsten.\e"
+MG00130004,"\h(«Zack, der Waffenhändler»)Und da Waffen aus Moon Stones gefertigt werden,
+können sie von anderen Moon Stones beeinflusst
+werden, wenn diese richtig angewandt werden.\e"
+MG00130005,"\h(«Zack, der Waffenhändler»)Um alle Details zu erfahren, fragt im
+Trainings-Center im Erdgeschoss nach.\e"
+MG00130006,"\h(«Zack, der Waffenhändler»)Hihihi. Danke für den Besuch.\c"
+MG00130007,"\h(«Zack, der Waffenhändler»)Captain Dyne hat angeordnet, alle Waffen unter
+Verschluss zu halten.\e"
+MG00130008,"\h(«Zack, der Waffenhändler»)Wahrscheinlich deshalb, damit die anderen
+Piraten sich nicht über meine Ware hermachen
+können. Wovon würde ich sonst leben?
+Hihihi……\c"
+MG00130009,"\h(«Was wirst du tun?»)“Waffen kaufen und verkaufen”.
+“Hören, was Zack zu sagen hat”.
+“Weggehen”.\e"
+MG00130010,"\h(«Zack, der Waffenhändler»)Wenn ihr euch mit Valua anlegen wollt, würde
+ich vorschlagen, dass ihr ein paar mächtige
+Waffen kauft.\e"
+MG00130011,"\h(«Zack, der Waffenhändler»)Wir wollen doch nicht, dass Captain Dynes
+einziger Sohn umkommt, weil er nicht die
+richtige Klinge hatte…… hihihi.\e"
+MG00130012,"\h(«Zack, der Waffenhändler»)Hihihi. Danke für den Besuch.\c"
+MG00135000,"\h(«Zack, der Waffenhändler»)Hallo, Vyse. Oder sollte ich sagen “Vyse, der
+Tölpel”? Hihihi…… ich habe von deinem
+Pech erfahren……\e"
+MG00135001,"\h(«Zack, der Waffenhändler»)Hallo, Vyse. Möchtest du etwas kaufen?\e"
+MG00135002,"\h(«Zack, der Waffenhändler»)Sieh an…… ist das nicht der kleine Vyse,
+der Entschlossene? Bist du hier, um
+etwas zu kaufen?\e"
+MG00135003,"\h(«Zack, der Waffenhändler»)Sieh an…… ist das nicht der kleine Vyse,
+der Geachtete? Ich habe von deinen
+jüngsten Abenteuern gehört. Pass bloß auf,
+dass du deinen Vater nicht enttäuschst……\e"
+MG00135004,"\h(«Zack, der Waffenhändler»)Vyse, der Bewundernswerte. Ich habe gelacht,
+als ich das zum ersten Mal hörte. Tja, wenn
+du dir diesen Namen gemacht hast, dann
+verdienst du ihn auch……\e"
+MG00135005,"\h(«Zack, der Waffenhändler»)Ach, sieh an…… wenn das nicht Vyse, der Kühne
+ist. Man sagt, du bist schon ein
+ziemlicher Luftpirat. Fast ein besserer
+als dein Vater, wie man hört……\e"
+MG00135006,"\h(«Zack, der Waffenhändler»)Vyse, der Tapfere…… hört sich gut an, nicht?
+Ich nehme an, du hast dir den Namen verdient……
+Versuche, ihm alle Ehre zu machen, ja?\e"
+MG00135007,"\h(«Zack, der Waffenhändler»)Also, jetzt nennen sie dich “Vyse, den Mutigen”,
+was? Pah…… ich kenne dich, seit du klein warst.
+Ich glaube nicht, dass Raufereien mit Aika
+als “Mut” angerechnet werden.\e"
+MG00135008,"\h(«Zack, der Waffenhändler»)Hahaha…… wenn das nicht Vyse, der Forsche ist!
+Wer hat dir bloß diesen Namen gegeben……
+Vielleicht eine Frau? Was wohl Aika davon
+hält……\e"
+MG00135009,"\h(«Zack, der Waffenhändler»)Vyse, der Furchtlose…… Weißt du was? Seitdem
+dich die Leute so nennen, hat dein Vater
+nicht aufgehört zu prahlen……\e"
+MG00135010,"\h(«Zack, der Waffenhändler»)Du hast dich zu einem ordentlichen Seemann
+entwickelt, nicht? Nicht einmal deinen Vater
+hat man einen Helden genannt! Das ist schon
+ein Ruf, den du dir da eingehandelt hast……\e"
+MG00135011,"\h(«Zack, der Waffenhändler»)Vyse, König der Rogues…… ob dein Vater wohl
+damit einverstanden ist…… Wie wär's mit
+“Vyse, Prinz der Rogues……” Das wird ihm
+sicher besser gefallen.\e"
+MG00135012,"\h(«Zack, der Waffenhändler»)Ich kann nicht fassen, wie so ein kleiner
+Störenfried wie du eines Tages zur lebenden
+Legende werden kann. Heh…… ich fühle mich
+geehrt, dich zu kennen, Vyse.\e"
+MG00140000,"\h(«Erinn, die Item-Verkäuferin»)Ach, hallo, Vyse! Komm doch rein!
+Siehst du etwas, was du gern hättest?\e"
+MG00140001,"\h(«Was wirst du tun?»)“Items kaufen und verkaufen”.
+“Mit Erinn sprechen”.
+“Weggehen”.\e"
+MG00140002,"\h(«Erinn, die Item-Verkäuferin»)Im Gegensatz zu Zauber, der MP benötigt,
+kannst du mit einem heilenden Kristall deine HP
+jederzeit und überall zurückerlangen.\e"
+MG00140003,"\h(«Erinn, die Item-Verkäuferin»)Einige der “härteren” Luftpiraten lehnen
+es ab, sie zur Rettung zu benutzen, aber
+meiner Meinung nach kann man nie vorsichtig
+genug sein.\e"
+MG00140004,"\h(«Erinn, die Item-Verkäuferin»)Danke für den Besuch! Komm wieder einmal
+vorbei.\c"
+MG00140005,"\h(«Erinn, die Item-Verkäuferin»)Willkommen daheim. Ich habe für dich
+und deine Crew einige ganz besondere Items
+zurückgelegt.\e"
+MG00140006,"\h(«Erinn, die Item-Verkäuferin»)Setze diese Items ein, damit die Valuaner
+alles bedauern, was sie uns angetan haben!\e"
+MG00140007,"\h(«Was wirst du tun?»)“Items kaufen und verkaufen”.
+“Anhören, was Erinn zu sagen hat”.
+“Weggehen”.\e"
+MG00140008,"\h(«Erinn, die Item-Verkäuferin»)Mach dir keine Sorgen um die Verletzten, Vyse.
+Ich habe genug Sacri Crystals auf Lager, um
+mich um alle zu kümmern.\e"
+MG00140009,"\h(«Erinn, die Item-Verkäuferin»)Wenn keiner von den Luftpiraten mehr nach
+Hause kommt, bin ich pleite. Deshalb rechne
+ich mit dir, dass du sie zurückbringst, Vyse!\c"
+MG00145000,"\h(«Erinn, die Item-Verkäuferin»)Oh…… heda, Vyse. Weißt du was? Ich habe
+gehört, wie dich ein paar Leute kürzlich “Vyse,
+den Tölpel” genannt haben. Ich würde mir nichts
+daraus machen, ok?\e"
+MG00145001,"\h(«Erinn, die Item-Verkäuferin»)Ach, hallo, Vyse. Bist du gekommen, um
+etwas zu kaufen?\e"
+MG00145002,"\h(«Erinn, die Item-Verkäuferin»)Also, wenn das nicht Vyse, der Entschlossene,
+ist! Sieht aus, als würdest du dir langsam
+einen Namen machen. Dein Vater muss
+stolz auf dich sein.\e"
+MG00145003,"\h(«Erinn, die Item-Verkäuferin»)Heh, Vyse! Wie ich höre, bringt man dir dort
+draußen 'ne Menge Respekt als Seemann entgegen!
+Schön für dich……\e"
+MG00145004,"\h(«Erinn, die Item-Verkäuferin»)Vyse, der Bewundernswerte…… der Name passt,
+würde ich sagen. Ich wette, du bist bei den
+Damen beliebt…… Hahaha……\e"
+MG00145005,"\h(«Erinn, die Item-Verkäuferin»)Hallo, Vyse. Weißt du, was mir gerade auffiel?
+Du siehst immer mehr wie dein Vater aus.
+Vielleicht wegen der Art, wie du jetzt
+auftrittst……\e"
+MG00145006,"\h(«Erinn, die Item-Verkäuferin»)Also, wenn das nicht Vyse, der Tapfere, ist!
+Dieser Name lässt dich so…… ehrenwert
+erscheinen. Hahaha…… Entschuldigung…… Ich
+wollte nicht lachen……\e"
+MG00145007,"\h(«Erinn, die Item-Verkäuferin»)“Vyse, der Mutige”, was? Schätze, das ist
+ein passender Name…… Ich kenne keinen, der so
+verr…… äh…… ich meine…… mutig ist wie du.\e"
+MG00145008,"\h(«Erinn, die Item-Verkäuferin»)Hallo, Vyse, der Forsche. Du scheinst dir
+wirklich dieser Tage einen Namen als Seemann
+zu machen. Tja, schön für dich, Vyse.\e"
+MG00145009,"\h(«Erinn, die Item-Verkäuferin»)Also, jetzt nennt man dich “Vyse, den
+Furchtlosen?” Haha…… Ich erinnere mich noch
+daran, wie du als kleines Kind Angst vor der
+Dunkelheit hattest! Wie die Zeit vergeht……\e"
+MG00145010,"\h(«Erinn, die Item-Verkäuferin»)Nun, wenn das nicht Vyse, der Held, ist.
+Das ist kein schlechter Spitzname, den du da
+hast! Pass ja auf, dass du ihm alle Ehre
+machst, ok?\e"
+MG00145011,"\h(«Erinn, die Item-Verkäuferin»)“Der König der Rogues”, was? Hmmm…… wer hat
+dir wohl diesen Spitznamen gegeben? Es war
+bestimmt nicht dein Vater, das kann ich dir
+sagen……\e"
+MG00145012,"\h(«Erinn, die Item-Verkäuferin»)Wow…… ich hätte nie gedacht, dass du einmal
+selbst zur Legende würdest! Wir alle hier auf
+Pirate Isle sind stolz auf dich……\e"
+MG00150000,"\h(«Landis, der Navigator»)Hurra! Wir sind wieder zu Hause! Weißt du,
+es gibt einfach nichts Schöneres als das
+Gefühl, wenn du wieder den Heimathafen
+erreichst.\c"
+MG00150001,"\h(«Landis, der Navigator»)Solltest du jemals während einer Reise die
+Orientierung verlieren, schau einfach auf
+die Karte! Dann siehst du genau, wo du dich
+befindest.\e"
+MG00150002,"\h(«Landis, der Navigator»)Ich bin sicher, dein Vater hat dir gezeigt,
+wie man eine Karte anlegt, also solltest du
+jedes Mal, wenn du etwas Neues entdeckst, eine
+Eintragung davon auf der Karte vornehmen.\e"
+MG00150003,"\h(«Landis, der Navigator»)Es ist der Traum eines jeden Seemanns, eine
+Karte der ganzen Welt zu besitzen -- von
+eigener Hand gemalt……\c"
+MG00150004,"\h(«Landis, der Navigator»)Es ist der Traum eines jeden Seemanns, eine
+Karte der ganzen Welt zu besitzen -- von
+eigener Hand gemalt……\c"
+MG00150005,"\h(«Landis, der Navigator»)Vyse! Heh…… wie ich höre, hast du dem Valuan
+Empire viel Ärger eingebrockt.\e"
+MG00150006,"\h(«Landis, der Navigator»)Ihr sollt ihnen nur zeigen, wozu die Blue
+Rogues fähig sind. Sie müssen dafür bezahlen,
+was sie uns angetan haben!!\c"
+MG00160000,"\h(«Ben, der Wachtposten»)Es ist meine Aufgabe, die Albatross in den
+Untergrund-Eingang zu lotsen, so dass sie
+sicher im Hafen anlegen kann.\e"
+MG00160001,"\h(«Ben, der Wachtposten»)Wir benutzen Flaggensignale, um untereinander
+über große Entfernungen zu kommunizieren. Im
+Moment koordiniere ich das Beladen von
+Nachschub auf die Albatross.\c"
+MG00160002,"\h(«Ben, der Wachtposten»)Kanonengeschosse…… 20 Runden vorrätig……
+Trinkwasser…… 10 Fässer vorrätig……
+Em…… was noch……\c"
+MG00160003,"\h(«Ben, der Wachtposten»)Dank der Heilkristalle von Erinn sind alle
+meine Wunden geheilt, und ich fühle mich
+viel besser!\e"
+MG00160004,"\h(«Ben, der Wachtposten»)Ach, und euer neues Schiff ist die Little Jack,
+nicht wahr? Ich werde sie für euch mit
+Vorräten versehen, darauf kannst du dich
+getrost verlassen, Vyse.\c"
+MG00160005,"\h(«Ben, der Wachtposten»)Neue Schiffe sind immer viel besser. Ich
+werde schon genug Vorräte auf dein Schiff
+laden. Ich möchte ja nicht, dass dir
+ausgerechnet jetzt der Sprit ausgeht……\c"
+MG00160006,"\h(«Ben, der Wachtposten»)Captain Dyne hat mich beauftragt, das Schiff
+mit Kampfvorräten zu beladen.\e"
+MG00160007,"\h(«Ben, der Wachtposten»)Ich glaube, der Captain plant, sich allein
+auf den Weg zu machen und Chaos zu
+veranstalten, hihi……\c"
+MG00170000,"\h(«Luke, der Räuber»)Auf Captain Dynes Befehl…… ist der Ausgang zum
+Dorf zu ebener Erde geschlossen worden.\e"
+MG00170001,"\h(«Luke, der Räuber»)Er sagte, das Mädchen dürfte nicht nach oben
+gebracht werden, bevor er mit ihr geredet hat.
+Du solltest mal mit ihm sprechen.\c"
+MG00170002,"\h(«Luke, der Räuber»)Captain Dyne hat gesagt, das Mädchen……
+ich meine, Fina, darf auf der Insel frei
+herumlaufen. Also habe ich die Tür aufgemacht.\e"
+MG00170003,"\h(«Luke, der Räuber»)Da sind auch noch irgendwo zwei Schatztruhen
+im Untergrund-Hafen mit Notproviant……
+Ihr solltet danach suchen.\c"
+MG00170004,"\h(«Luke, der Räuber»)Da sind auch noch zwei Schatztruhen irgendwo
+im Untergrund-Hafen mit dem Notproviant……
+Ihr solltet nach ihnen suchen.\c"
+MG00170005,"\h(«Luke, der Räuber»)Vyse…… was du in Valua gemacht hast, war
+wahnsinnig! Ich habe dich noch nie so hart
+kämpfen sehen! Du bist jetzt ein richtiger
+Luftpirat!\e"
+MG00170006,"\h(«Luke, der Räuber»)Captain Dyne hat dich gut ausgebildet. Ich
+bin sicher, du wirst eines Tages ein guter
+Kapitän, genau wie dein Vater.\c"
+MG00170007,"\h(«Luke, der Räuber»)Hallo, Vyse. Wie war die Reise?\e"
+MG00170008,"\h(«Luke, der Räuber»)Captain Dyne ist stolz darauf, was du und
+die Crew geleistet habt. Weiter so.\c"
+MG00170009,"\h(«Luke, der Räuber»)Was?! Du bist schon wieder aus Valua
+entflohen? Und diesmal hast du gleich das
+mächstigste Schiff der Armada mitgenommen??!\e"
+MG00170010,"\h(«Luke, der Räuber»)Wow! Ich weiß nicht, ob du verrückt bist oder
+einfach nur ein harter Brocken, aber eines ist
+sicher…… du sorgst immer für Überraschungen!\c"
+MG00170011,"\h(«Luke, der Räuber»)Hast du schon unser neues Schiff gesehen, Vyse?
+Captain Dyne hat uns beauftragt, ein neues
+zu bauen…… Es heißt Albatross II.\e"
+MG00170012,"\h(«Luke, der Räuber»)Wir hatten noch die alten Blaupausen, also
+konnten wir die ehemalige Albatross genau
+nachbauen.\e"
+MG00170013,"\h(«Luke, der Räuber»)Wir haben die Motoren und die Panzerung
+etwas aufgerüstet…… Nur vom Hinsehen würde man
+jedoch nicht merken, dass sie jetzt viel,
+viel leistungsfähiger ist.\c"
+MG00170014,"\h(«Luke, der Räuber»)Jetzt, wo wir endlich wieder ein Schiff
+haben, können wir auf unsere
+Lieblingsbeschäftigung zurückkommen……
+Luftpiraten zu sein!!\c"
+MG00170015,"\h(«Luke, der Räuber»)Vyse…… ich habe gesehen, wie sich diese riesige
+Insel von unterhalb der Wolken erhob……
+Ich weiß wirklich nicht, was ich davon
+halten soll.\e"
+MG00170016,"\h(«Luke, der Räuber»)Ich weiß nicht warum, aber diese Insel……
+sie WILL einfach unbedingt erforscht werden.
+Hihi…… vielleicht ist es meine Fantasie……\c"
+MG00180000,"\h(«Peter, der Deckreiniger»)15 Piraten sind mit dem Leben davongekommen……
+Und hatten nur eine einzige Flasche Loqua
+zu teilen. Ajo ho ho, ajo ho ho.\e"
+MG00180001,"\h(«Peter, der Deckreiniger»)Hihi! Ich habe eine gute Singstimme, nicht?
+Das ist das Lied, das wir Piraten singen,
+wenn wir das Deck schrubben müssen……\c"
+MG00180002,"\h(«Peter, der Deckreiniger»)Traurig ist das Schicksal des gefangenen
+Luftpiraten…… Sie trennen ihm den Kopf
+von den Schultern ab…… und ajo ho ho,
+a jo ho ho.\e"
+MG00180003,"\h(«Peter, der Deckreiniger»)Mann, dieser berühmte Song wurde für uns fast
+Wirklichkeit. Wir waren so nahe dran, den
+Richtblock zu küssen.\c"
+MG00180004,"\h(«Peter, der Deckreiniger»)15 Piraten kamen mit dem Leben davon……
+mit nur einer einzigen Flasche Loqua.
+Ajo ho ho, ajo ho ho.\e"
+MG00180005,"\h(«Peter, der Schiffsreiniger»)Schöne kleine Frauen in der ganzen Stadt……
+Verliebt euch nicht in einen Mann des
+Himmels…… Ajo ho ho, ajo ho ho.\e"
+MG00180006,"\h(«Peter, der Schiffsreiniger»)Hihi! Die Sache bei einem Luftpiraten ist
+die, dass er sich kaum raushalten kann.
+Der Ärger scheint einen einfach einzuholen……\e"
+MG00180007,"\h(«Peter, der Schiffsreiniger»)Deshalb ist es mein Job sicherzustellen, dass
+die Albatross immer in gutem Zustand ist.
+Nur für den Fall, dass uns der Ärger
+einholt, weißt du?\c"
+MG00180008,"\h(«Peter, der Schiffsreiniger»)Schöne kleine Frauen in der ganzen Stadt……
+Verliebt euch nicht in einen Mann des
+Himmels…… Ajo ho ho, ajo ho ho.\c"
+MG00190000,"\h(«Patch, der Matrose»)Ihr seid unser erster Besuch seit langer Zeit.
+Machen Sie es sich bequem, Fräulein, und
+zögern Sie nicht, um etwas zu bitten.\e"
+MG00190001,"\h(«Patch, der Matrose»)Wir Blue Rogues sind Freunde all derer,
+die die Himmel bereisen. Allerdings, wenn du
+ein bewaffneter Reisender mit Gold bist,
+sieht die Sache anders aus! Haha!\c"
+MG00200000,"\h(«Mabel, die Räuberin»)Schätze, zu plündern ist schon in Ordnung, aber
+ich möchte zur Abwechslung mal einen
+gutaussehenden, gutgebauten Mann als Schatz
+finden.\e"
+MG00200001,"\h(«Mabel, die Räuberin»)……Aber wenn ich mich darauf einlassen würde,
+wäre ich wohl eher wie ein Black Pirate als
+ein Blue Rogue. Tja, schätze, ich lasse besser
+die Finger davon.\c"
+MG00200002,"\h(«Mabel, die Räuberin»)……Aber um ehrlich zu sein, würde ich mir gern
+einmal einen Mann kidnappen! Hahaha……\c"
+MG00200003,"\h(«Mabel, die Räuberin»)Vyse, wenn du auf eine Reise gehst,
+vergewissere dich, dass du deine besten Waffen
+und Rüstungen an Bord hast.\e"
+MG00200004,"\h(«Mabel, die Räuberin»)Ein Luftpirat muss sicher sein, dass seine
+Schwerter und seine Sinne stets geschärft sind.\c"
+MG00200005,"\h(«Mabel, die Räuberin»)Jetzt ist es wohl so weit, Vyse.
+Die letzte Schlacht…… bist du wirklich darauf
+vorbereitet, Galcian und Ramirez
+gegenüberzustehen?\e"
+MG00200006,"\h(«Mabel, die Räuberin»)Wenn ich so darüber nachdenke, dieser Ramirez-
+Typ sah eigentlich gar nicht so schlecht aus.
+Ich bin ja schlimm…… hihi……\c"
+MG00210000,"\h(«Matthew, der Hilfsmatrose»)Alle wurden gefangen genommen, während ich
+schlief!\e"
+MG00210001,"\h(«Matthew, der Hilfsmatrose»)Ich wollte versuchen, sie einzuholen, aber
+die Valuaner haben die Albatross zerstört……\e"
+MG00210002,"\h(«Matthew, der Hilfsmatrose»)Was sollen wir jetzt machen, Vyse?!
+Wir müssen versuchen, ihnen irgendwie
+zu helfen!\c"
+MG00210003,"\h(«Matthew, der Hilfsmatrose»)Was sollen wir jetzt machen, Vyse?!
+Wir müssen versuchen, ihnen irgendwie
+zu helfen!\c"
+MG00210004,"\h(«Matthew, der Hilfsmatrose»)Ich habe mir über Captain Dyne und die
+anderen so viel Sorgen gemacht, dass ich
+überhaupt nicht schlafen konnte……\e"
+MG00210005,"\h(«Matthew, der Hilfsmatrose»)Es muss dir gelingen, alle zu retten, damit
+ich wieder schlafen kann!\c"
+MG00210006,"\h(«Matthew, der Hilfsmatrose»)Ich kann's nicht glauben, dass ich verschlafen
+habe und alle anderen ohne mich gegangen sind……
+Man sollte doch meinen, dass sie mich wecken
+oder so was……\c"
+MG00230000,"\h(«Dyne»)Nun hör mal gut zu, Vyse. Es gibt Zeiten, da
+wird von einem Mann etwas anderes als brutale
+Gewalt oder Geistesgegenwart gefordert.\e"
+MG00230001,"\h(«Dyne»)Manchmal muss man einfach die Situation
+im Griff haben. Zu diesem Zweck musst du
+lernen, ein Säbelrassler zu werden.\e"
+MG00230002,"\h(«Dyne»)Die Leute nehmen davon Notiz, wie du dich in
+bestimmten Situationen verhältst, und du wirst
+dir langsam einen Namen machen, der sich auf
+diese Aktionen stützt.\e"
+MG00230003,"\h(«Dyne»)Deshalb musst du lernen, so abenteuerlustig
+wie möglich zu sein, ohne deine Verantwortung
+als Anführer zu vernachlässigen, ok?\c"
+MG00230004,"\h(«Dyne»)Dein “Säbelrassler-Status” ist eine Qualität,
+die du Tag deines Lebens in Worten und Taten
+kultivieren musst. Das darfst du nie
+vergessen.\c"
+MG00230005,"\h(«Dyne»)Stimmt was nicht, Vyse?
+Du siehst so ungewöhnlich ernst aus.\e"
+MG00230006,"\h(«Vyse»)Dad…… da ist etwas, was ich dir sagen muss……\e"
+MG00230007,"\h(«Dyne»)Keine Sorge……
+Ich hab das Gefühl, ich weiß bereits,
+was du sagen willst.\e"
+MG00230008,"\h(«Dyne»)Ich erinnere mich daran, als ich in deinem
+Alter war…… Ich kenne das Gefühl, von meiner
+eigenen kleinen Insel wegkommen zu wollen, um
+den Rest der Welt zu sehen.\e"
+MG00230009,"\h(«Dyne»)Aber wenn sich ein Mann entschließt, seinen
+eigenen Weg zu gehen, braucht er seine
+Eltern nicht um Erlaubnis bitten.\e"
+MG00230010,"\h(«Dyne»)Von jetzt an bist du mir ebenbürtig.
+Ein Mann, der vom Himmel lebt.
+Es gibt nichts Ehrenwerteres als das……\e"
+MG00230011,"\h(«Dyne»)Heh…… du kommst fast bei jeder Gelegenheit
+zu spät, aber du verschwendest keine Zeit,
+dich allein auf die Socken zu machen……\e"
+MG00230012,\h(«Vyse»)Dad……\e
+MG00230013,"\h(«Dyne»)Los, geh schon, Vyse.
+Geh und verschaff dir einen Namen in der Welt.\c"
+MG00230014,"\h(«Dyne»)Los, geh schon, Vyse.
+Geh und verschaff dir einen Namen in der Welt.\c"
+MG00230015,"\h(«Dyne»)Nun hör mal gut zu, Vyse. Es gibt Zeiten, da
+wird von einem Mann etwas mehr als brutale
+Gewalt oder Geistesgegenwart gefordert.\e"
+MG00230016,"\h(«Dyne»)Manchmal muss man die Situation einfach
+im Griff haben. Zu diesem Zweck musst du
+lernen, ein Säbelrassler zu werden.\e"
+MG00230017,"\h(«Dyne»)Die Leute nehmen davon Notiz, wie du dich in
+bestimmten Situationen verhältst, und du wirst
+dir langsam einen Namen machen, der sich auf
+diese Aktionen stützt.\e"
+MG00230018,"\h(«Dyne»)Deshalb musst du lernen, so abenteuerlustig
+wie möglich zu sein, ohne deine Verantwortung
+als Anführer zu vernachlässigen, ok?\c"
+MG00230019,"\h(«Dyne»)Dein “Swashbuckler Rating” ist eine Qualität,
+die du Zeit deines Lebens in Worten und Taten
+kultivieren musst. Das darfst du nie vergessen.\c"
+MG00230020,"\h(«Dyne»)Hihihi. Dafür, dass der Feind mich bald mit
+allem, was er aufzubieten hat, angreifen wird,
+fühle ich mich erstaunlich ruhig.\e"
+MG00230021,"\h(«Dyne»)Aber das ist gut. Es beruhigt die Mannschaft,
+wenn der Kapitän so aussieht, als sei er
+gefasst und hätte alles unter Kontrolle.\e"
+MG00230022,"\h(«Dyne»)Aber alles hängt von dieser Schlacht ab. Ich
+muss meine Augen offen und meine Männer am
+Leben halten. Genau das musst du auch machen,
+Vyse.\e"
+MG00230023,"\h(«Dyne»)Ständig deine Mannschaft anspornen, während
+du die gesamte Situation im Griff behältst.
+Das ist das Geheimnis eines guten Anführers.\c"
+MG00230024,"\h(«Dyne»)Ständig deine Mannschaft anspornen, während
+du die gesamte Situation im Griff behältst.
+Das ist das Geheimnis eines guten Anführers.\e"
+MG00240000,"\h(«Matthew, der Hilfsmatrose»)Hmmm……
+Ich bin so lange nicht zu Hause gewesen,
+bitte…… lass mich weiterschlafen.\c"
+MG00240001,"\h(«Matthew, der Hilfsmatrose»)Hmmm…… was?
+Ist es schon Morgen?
+Komm schon…… lass mich noch eine Weile
+schlafen……\c"
+MG00240002,"\h(«Matthew, der Hilfsmatrose»)Seit alle wieder da sind, fühle ich mich
+so entspannt…… und dann wurde ich……
+so…… so…… müde……\c"
+MG00240003,"\h(«Matthew, der Hilfsmatrose»)Ich verspreche, dass ich diesmal nicht
+verschlafe. Also lass mich noch ein wenig
+schlafen, ja?\c"
+MG00290000,"\h(«Ben, der Wachtposten»)Tut mir leid, Vyse……
+Ich wünschte, du hättest Pirate Isle nie
+in diesem…… Zustand gesehen……\e"
+MG00290001,"\h(«Ben, der Wachtposten»)Aber wie ich höre, fährst du nach Valua, um
+alle zu retten. Du bist verrückt, ist dir das
+klar? Ich werde jedoch beten, dass du sicher
+ankommst……\c"
+"",me213a.sct
+"",me002a.sct
+"",me002b.sct
+"",me002c.sct
+"",me002a.sct
+"",me002b.sct
+"",me002c.sct
+"",m5020000
+"",M0235
+"",M0319
+"",M0242
+"",M0235
+"",EVA10発生しました。\c
+"",a002da10.mld
+"",a002da10.mld
+"",M0235
+"",e6a010
+"",a002da10.mld
+"",e6a011
+"",a002da11.mld
+"",a002da11.mld
+"",a002da11.mld
+"",a002da16.mld
+"",a002da16.mld
+"",M0319
+"",e6a016
+"",M0329
+"",M0329
+"",M0329
+"",M0329
+"",a002da16.mld
+"",A27発生しました。\c
+"",a002da27.mld
+"",a002da27.mld
+"",e6a027
+"",a002da27.mld
+"",me213a.sct

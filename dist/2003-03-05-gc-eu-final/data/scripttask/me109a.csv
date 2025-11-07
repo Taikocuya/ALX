@@ -1,0 +1,687 @@
+[Event Name],Task ID
+MD0060000,"\h(«Aika»)This is the Temple of Pyrynn?!!
+It's HUGE! I can't believe it! It's the most
+amazing thing I've ever seen!\e"
+MD0060001,"\h(«Vyse»)The people of the Old World were able to build
+this thing in this heat!? And it's built on
+sand, too!!! It's incredible!\e"
+MD0060002,"\h(«Fina»)Deep within this temple lies the Red Crystal.
+Be careful, though… According to Silvite lore,
+it is guarded by hordes of creatures.\e"
+MD0060003,"\h(«Aika»)Well then, let's get going!
+Oh, Bellena? What are you going to do?\e"
+MD0060004,"\h(«Bellena»)I'll be waiting out here.
+And besides… I won't be able to help you fight
+off monsters in this outfit.\e"
+MD0060005,"\h(«Vyse»)Well, it might be a little rough in there for a
+beautiful woman, like yourself…\e"
+MD0060006,"\h(«Aika»)Oh, really… what about me and Fina?!
+We're women, too, you know! Just what are you
+trying to say?\e"
+MD0060007,"\h(«Aika»)Come on, Fina.
+Let's leave macho man behind and get the Crystal
+ourselves.\e"
+MD0060008,"\h(«Fina»)Hehehe…
+That might be kind of fun. 
+We'd probably get it faster without him.\e"
+MD0060009,"\h(«Vyse»)H… hey! Wait a minute!
+I didn't mean… \e"
+MD0060010,"\h(«Bellena»)Hehehe… watching the three of you really cheers
+me up. You're all such good friends and Vyse is
+so funny.\e"
+MD0060011,"\h(«Aika»)Well… I'm sure a beautiful woman like yourself
+has got herself a much, Much, MUCH better guy
+than… Mr. Foot In His Mouth…\e"
+MD0060012,"\h(«Bellena»)Hahaha!
+Sorry… there's no one special in my life
+right now…\e"
+MD0060013,"\h(«Bellena»)Well, there is someone that I'm in love with…
+But he would never even give me a second look…\e"
+MD0060014,"\h(«Bellena»)But I don't want to talk about it right now.
+You should probably get going.
+I'll be waiting here. Be careful in there, okay?\e"
+MD0060015,"\h(«Vyse»)Don't worry.
+We'll be back before you even notice that we
+were gone.\e"
+MFD0060000,"\h(«Aika»)C'est le Temple de Pyrynn ?!!
+Il est ÉNORME ! Je n'arrive pas à le croire !
+Je n'ai jamais vu quelque chose d'aussi
+extraordinaire !\e"
+MFD0060001,"\h(«Vyse»)Les habitants de l'Ancien Monde ont réussi à le
+construire sous cette chaleur !? Et en plus, ils
+l'ont bâti sur du sable !!! C'est incroyable !\e"
+MFD0060002,"\h(«Fina»)Le Cristal Rouge se trouve dans les profondeurs
+de ce temple. Mais attention…… D'après la
+coutume Silvite, il est gardé par des hordes de
+créatures.\e"
+MFD0060003,"\h(«Aika»)Allons-y alors !
+Oh, Bellena ? Qu'allez-vous faire ?\e"
+MFD0060004,"\h(«Bellena»)Je vous attendrai ici. Et de toute façon…… je ne
+pourrai pas vous aider à combattre les monstres
+habillée comme ça.\e"
+MFD0060005,"\h(«Vyse»)Et puis, c'est peut-être un peu trop dangereux
+pour une jolie femme, comme vous……\e"
+MFD0060006,"\h(«Aika»)Ah bon ? Et moi et Fina alors ?! Nous sommes des
+femmes, je te rappelle ! Qu'est-ce que tu
+insinues ?\e"
+MFD0060007,"\h(«Aika»)Allez, Fina. Laissons tomber ce macho et allons
+chercher le Cristal nous-mêmes.\e"
+MFD0060008,"\h(«Fina»)Héhéhé……
+Cela va être amusant. Nous le trouverons
+certainement plus vite sans lui.\e"
+MFD0060009,"\h(«Vyse»)H…… hé ! Attendez !
+Ce n'est pas ce que j'ai voulu dire……\e"
+MFD0060010,"\h(«Bellena»)Héhéhé…… cela m'amuse de vous regarder. Vous
+êtes bons amis et Vyse est tellement drôle.\e"
+MFD0060011,"\h(«Aika»)Bon…… Je suis sûre qu'une jolie fille comme vous
+a un petit ami, beaucoup, BEAUCOUP mieux que……
+M. Gaffes…\e"
+MFD0060012,"\h(«Bellena»)Hahaha !
+Désolée…… il n'y a personne dans ma vie en ce
+moment……\e"
+MFD0060013,"\h(«Bellena»)En fait, je suis amoureuse de quelqu'un……
+Mais il ne m'a jamais accordé un seul regard……\e"
+MFD0060014,"\h(«Bellena»)Mais je n'ai pas envie d'en parler.
+Vous devriez y aller.
+Je vous attendrai ici. Soyez prudents, OK ?\e"
+MFD0060015,"\h(«Vyse»)Ne vous inquiètez pas.
+Nous serons revenus en un rien de temps.\e"
+MGD0060000,"\h(«Aika»)Dies ist der Temple of Pyrynn?!!
+Er ist RIESIG! Ich fasse es nicht! Das ist das
+Tollste, was ich je gesehen habe.\e"
+MGD0060001,"\h(«Vyse»)Die Menschen der Alten Welt konnten dieses Ding
+bei dieser Hitze bauen!? Und es ist außerdem auf
+Sand gebaut!!! Unglaublich!\e"
+MGD0060002,"\h(«Fina»)Tief in diesem Tempel liegt der Red Crystal.
+Sei jedoch vorsichtig…… Die Legenden der
+Silviter sagen, er würde von Horden von
+Kreaturen bewacht.\e"
+MGD0060003,"\h(«Aika»)Also dann, gehen wir!
+Oh, Bellena! Was wirst du tun?\e"
+MGD0060004,"\h(«Bellena»)Ich warte hier draußen. Und außerdem…… in
+diesem Aufzug werd' ich euch kaum helfen können,
+Monster zu bekämpfen.\e"
+MGD0060005,"\h(«Vyse»)Tja, für eine schöne Frau wie dich ist es dort
+drinnen vielleicht etwas unangenehm……\e"
+MGD0060006,"\h(«Aika»)Ach, wirklich…… was ist mit Fina und mir?
+Wir sind auch Frauen, wie du weißt! Was willst
+du uns damit sagen?\e"
+MGD0060007,"\h(«Aika»)Komm, Fina, der Macho bleibt hier, und wir
+gehen den Kristall selber holen.\e"
+MGD0060008,"\h(«Fina»)Hihihi……
+Das könnte spaßig werden. Wir bekommen ihn
+sicher schneller ohne ihn.\e"
+MGD0060009,"\h(«Vyse»)H…… he! Wartet mal!
+Ich wollte doch nicht……\e"
+MGD0060010,"\h(«Bellena»)Hihihi…… wenn ich euch drei so beobachte, finde
+ich das toll. Ihr seid alle so gute Freunde,
+und Vyse ist so witzig.\e"
+MGD0060011,"\h(«Aika»)Nun…… Ich bin sicher, dass es eine schöne Frau
+wie du schon längst zu einem viel, Viel, VIEL
+besseren Typen als…… Herrn Tollpatsch hier……
+gebracht hat.\e"
+MGD0060012,"\h(«Bellena»)Hahaha!
+Leider……  gibt es da im Moment niemand
+Besonderen……\e"
+MGD0060013,"\h(«Bellena»)Nun, es gibt jemanden, den ich liebe…… aber er
+würde mich nicht einmal anschauen……\e"
+MGD0060014,"\h(«Bellena»)Davon möchte ich jetzt aber nicht sprechen.
+Ihr solltet wahrscheinlich lieber gehen. Ich
+werde hier warten. Seid vorsichtig, ja?\e"
+MGD0060015,"\h(«Vyse»)Keine Angst.
+Wir sind wieder da, bevor du überhaupt gemerkt
+hast, dass wir gegangen sind.\e"
+MSD0060000,"\h(«Aika»)¡¡¿Éste es el Templo de Pyrynn?!!
+¡Es ENORME! ¡No puedo creerlo! ¡Es lo más
+asombroso que he visto nunca!\e"
+MSD0060001,"\h(«Vyse»)¿¡Cómo pudieron en el Mundo Antiguo construir
+semejante edificio con este calor!? ¡¡¡Además
+está edificado en la arena!!! ¡Es increíble!\e"
+MSD0060002,"\h(«Fina»)En lo más profundo de este templo descansa el
+Cristal Rojo. Pero tened cuidado…… según las
+leyendas Silvite, hay criaturas que lo guardan.\e"
+MSD0060003,"\h(«Aika»)¡En ese caso tendremos que ponernos manos a la
+obra!
+Bellena, ¿qué vas a hacer?\e"
+MSD0060004,"\h(«Bellena»)Yo os espero aquí. Además, con esta pinta no
+creo que pueda dedicarme a luchar con monstruos.\e"
+MSD0060005,"\h(«Vyse»)Bueno, las cosas pueden ponerse feas ahí dentro
+para una mujer tan bonita como tú……\e"
+MSD0060006,"\h(«Aika»)No me digas…… ¡¿Y qué pasa conmigo y con Fina?!
+¡Nosotras también somos mujeres, sabes!
+¿Qué rayos quieres decir con eso?\e"
+MSD0060007,"\h(«Aika»)Vamos, Fina. Dejemos aquí al señor machote y
+vayamos a por los Cristales nosotras mismas.\e"
+MSD0060008,"\h(«Fina»)Jejeje……
+Eso puede ser divertido.
+Seguro que los conseguimos antes sin él.\e"
+MSD0060009,"\h(«Vyse»)¡Eh…… oye! ¡Espera un minuto!
+No quería……\e"
+MSD0060010,"\h(«Bellena»)Jejeje…… Veros a los tres juntos me sube la
+moral. Sois tan buenos amigos y Vyse es tan
+divertido.\e"
+MSD0060011,"\h(«Aika»)Bueno…… seguro que una mujer tan guapa como tú
+tiene un chico, mucho, mucho, MUCHO mejor que……
+que…… el Sr. Torpe Con Las Chicas……\e"
+MSD0060012,"\h(«Bellena»)¡Jajaja!
+Lo siento…… Ahora mismo no hay nadie en mi
+vida……\e"
+MSD0060013,"\h(«Bellena»)Bueno, sí que hay alguien de quien estoy
+enamorada……
+Pero nunca se dignaría a mirarme……\e"
+MSD0060014,"\h(«Bellena»)Pero ahora no quiero hablar sobre eso.
+Tenéis que poneros en camino.
+Yo estaré aquí esperando. Tened cuidado, ¿vale?\e"
+MSD0060015,"\h(«Vyse»)No te preocupes.
+Volveremos antes de que nos hayas echado de
+menos.\e"
+MD0080000,"\h(«Vyse»)Bellena, sorry to have kept you waiting so long.
+I hope you weren't too worried about us.\e"
+MD0080001,"\h(«Bellena»)I'm so glad you're alright.
+Did you find the Moon Crystal?\e"
+MD0080002,"\h(«Vyse»)Heh, of course we found it! \e"
+MD0080003,"\h(«Bellena»)I knew you could do it!
+Um, would it be alright if I took a look at it?\e"
+MD0080004,"\h(«Bellena»)Wow…
+So this is one of the legendary Moon Crystals…
+It's more beautiful than I ever imagined.\e"
+MD0080005,"\h(«Bellena»)Thank you, so much.
+I'm sure that Lord Galcian will be very pleased.\e"
+MD0080006,"\h(«Vyse»)What?!?!
+What are you talking about!?!?!\e"
+MD0080007,\h(«Bellena»)Hahaha… Let me show you.\e
+MD0080008,"\h(«Vyse»)Bellena…
+Who are you?!\e"
+MD0080009,"\h(«Belleza»)Let me reintroduce myself. I am Belleza.
+The Fourth Admiral of the Imperial Armada!\e"
+MD0080010,"\h(«Belleza»)I specialize in covert operations. You don't
+need to get your hands bloody to win battles.
+Sometimes a little trickery goes a long way.\e"
+MD0080011,\h(«Vyse»)You!!! You tricked us!!!\e
+MD0080012,\h(«Fina»)Bellena…?\e
+MD0080013,\h(«Fina»)Or… umm… Belleza…\e
+MD0080014,"\h(«Fina»)So everything that you said…
+about your parents…
+about war… about your childhood…\e"
+MD0080015,"\h(«Fina»)Was it all a lie? 
+Did you just say that to get us to trust you?\e"
+MD0080016,"\h(«Belleza»)I told you the truth. I never said my father was
+from Nasr. He was a Valuan soldier and he did
+die in battle.\e"
+MD0080017,"\h(«Belleza»)Years later, I too, became a soldier…
+I want to put an end to all wars so nobody
+has to go through what I went through.\e"
+MD0080018,"\h(«Belleza»)Countries go to war arguing over borders and
+resources. If the world was united under one
+rule, there would be no more war.\e"
+MD0080019,"\h(«Belleza»)That is why we need the power of the Gigas to
+make sure no one opposes us! Valua must rule
+the world.\e"
+MD0080020,"\h(«Fina»)Belleza!!! NO, DON'T!!!\e"
+MD0080021,"\h(«Belleza»)Red Gigas, Recumen! As bearer of the Red Moon
+Crystal, I command you to awaken and do my
+bidding!\e"
+MD0080022,"\h(«Vyse»)Umm… Fina? 
+What did she do? 
+This is bad, right?\e"
+MD0080023,"\h(«Fina»)Recumen…
+No… She can't be…\e"
+MD0080024,"\h(«Belleza»)Goodbye, handsome…\e"
+MD0080025,"\h(«Belleza»)Recumen, I command you! 
+Engulf these three in your flames.\e"
+MD0080026,"\h(«Fina»)Vyse!
+Aika!
+Hurry! We must run!\e"
+MD0080027,\h(«Vyse»)Fina! What's going on?\e
+MD0080028,"\h(«Fina»)Belleza… she… she is summoning Recumen,
+the Red Gigas!!!\e"
+MD0080029,"\h(«Fina»)She's using the power of the Red Moon Crystal to
+awaken him!!!\e"
+MD0080030,"\h(«Vyse»)… She what!?
+I guess we are going to have to run!
+Aika, Fina… let's get out of here!\e"
+MFD0080000,"\h(«Vyse»)Bellena, désolé de t'avoir faite attendre si
+longtemps. J'espère que tu ne t'es pas trop
+inquiétée pour nous.\e"
+MFD0080001,"\h(«Bellena»)Je suis contente que vous soyez en vie.
+Avez-vous trouvé le Cristal de Lune ?\e"
+MFD0080002,"\h(«Vyse»)Hé, évidemment !\e"
+MFD0080003,"\h(«Bellena»)J'en étais sûre !
+Um, est-ce que je peux le regarder ?\e"
+MFD0080004,"\h(«Bellena»)Oooooh……
+Alors voilà l'un des Cristaux de Lune
+légendaires…… C'est encore plus beau que je ne
+l'imaginais.\e"
+MFD0080005,"\h(«Bellena»)Merci beaucoup.
+Je suis sûre que le Seigneur Galcian sera ravi.\e"
+MFD0080006,"\h(«Vyse»)Comment ?!?!
+De quoi parles-tu !?!?!\e"
+MFD0080007,\h(«Bellena»)Hahaha…… Je vais vous montrer.\e
+MFD0080008,"\h(«Vyse»)Bellena……
+Qui es-tu ?!\e"
+MFD0080009,"\h(«Belleza»)Je me présente. Je suis Belleza.
+La Quatrième Amiral de l'Armada Impériale !\e"
+MFD0080010,"\h(«Belleza»)Je suis spécialisée dans les opérations sous
+couverture. On peut gagner une bataille sans un
+bain de sang. Parfois une petite ruse peut
+s'avérer très utile.\e"
+MFD0080011,\h(«Vyse»)Toi !!! Tu t'es jouée de nous !!!\e
+MFD0080012,\h(«Fina»)Bellena……?\e
+MFD0080013,\h(«Fina»)Ou plutôt…… umm…… Belleza……\e
+MFD0080014,"\h(«Fina»)Alors tout ce que tu nous a raconté…… sur tes
+parents…… la guerre…… ton enfance……\e"
+MFD0080015,"\h(«Fina»)Tu as tout inventé ?
+As-tu dit cela pour que nous te fassions
+confiance ?\e"
+MFD0080016,"\h(«Belleza»)Je vous ai dit la vérité. Je n'ai jamais dit que
+mon père était de Nasr. C'était un soldat Valuan
+et il est bien mort à la guerre.\e"
+MFD0080017,"\h(«Belleza»)Des années plus tard, moi aussi, je suis devenue
+soldat…… Je veux mettre fin à toutes les guerres
+pour que personne ne vive la même chose que
+moi.\e"
+MFD0080018,"\h(«Belleza»)Les pays se déclarent la guerre à propos de
+frontières ou de ressources. Si le monde était
+uni sous le même souverain, il n'y aurait pas de
+guerre.\e"
+MFD0080019,"\h(«Belleza»)Voilà pourquoi nous avons besoin du pouvoir des
+Gigas pour que personne ne s'oppose à nous !
+Valua doit régner sur le monde.\e"
+MFD0080020,"\h(«Fina»)Belleza !!! NON, NE FAIS PAS ÇA !!!\e"
+MFD0080021,"\h(«Belleza»)Gigas Rouge, Recumen ! En tant que porteuse du
+Cristal de Lune Rouge, je t'ordonne de te
+réveiller et de m'obéir !\e"
+MFD0080022,"\h(«Vyse»)Umm…… Fina ?
+Qu'a-t-elle fait ?
+C'est mauvais signe, n'est-ce pas ?\e"
+MFD0080023,"\h(«Fina»)Recumen……
+Non…… Elle ne peut pas……\e"
+MFD0080024,"\h(«Belleza»)Au revoir, beau gosse……\e"
+MFD0080025,"\h(«Belleza»)Recumen, je t'ordonne !
+Engouffre ces trois-là dans tes flammes.\e"
+MFD0080026,"\h(«Fina»)Vyse !
+Aika !
+Vite ! Courons !\e"
+MFD0080027,\h(«Vyse»)Fina ! Que se passe-t-il ?\e
+MFD0080028,"\h(«Fina»)Belleza…… elle…… elle invoque Recumen, le Giga
+Rouge !!!\e"
+MFD0080029,"\h(«Fina»)Elle utilise le pouvoir du Cristal de Lune Rouge
+pour le réveiller !!!\e"
+MFD0080030,"\h(«Vyse»)…… Comment !?
+Il faut courir !
+Aika, Fina…… partons d'ici !\e"
+MGD0080000,"\h(«Vyse»)Bellena, tut uns Leid, dass du so lange
+warten musstest. Hoffentlich hast du dir
+keine Sorgen gemacht.\e"
+MGD0080001,"\h(«Bellena»)Ich bin so froh, dass es euch gut geht.
+Habt ihr den Moon Crystal gefunden?\e"
+MGD0080002,"\h(«Vyse»)He, natürlich haben wir ihn gefunden!\e"
+MGD0080003,"\h(«Bellena»)Ich wusste, dass ihr es schaffen würdet!
+Ähm, darf ich ihn mir mal
+ansehen?\e"
+MGD0080004,"\h(«Bellena»)Wow…
+Das ist also einer der legendären Moon
+Crystals…… Er ist viel schöner, als ich ihn mir
+vorgestellt habe.\e"
+MGD0080005,"\h(«Bellena»)Vielen Dank.
+Ich bin sicher, Lord Galcian wird sich sehr
+darüber freuen.\e"
+MGD0080006,"\h(«Vyse»)Was?!?!
+Wovon redest du!?!?!\e"
+MGD0080007,"\h(«Bellena»)Hahaha…… Hier, ich zeig's euch.\e"
+MGD0080008,"\h(«Vyse»)Bellena……
+Wer bist du?!\e"
+MGD0080009,"\h(«Belleza»)Ich darf mich noch einmal vorstellen. Ich bin
+Belleza, Vierte Admiralin der Kaiserlichen
+Armada!\e"
+MGD0080010,"\h(«Belleza»)Geheimoperationen sind meine Spezialität. Man
+braucht sich nicht die Hände blutig zu machen,
+um Schlachten zu gewinnen. Ein paar Tricks
+können sehr wirksam sein.\e"
+MGD0080011,\h(«Vyse»)Du!!! Du hast uns betrogen!!!\e
+MGD0080012,\h(«Fina»)Bellena……?\e
+MGD0080013,\h(«Fina»)Äh…… ähmm…… Belleza……\e
+MGD0080014,"\h(«Fina»)Dann war alles, was du gesagt hast…… über deine
+Eltern…… über den Krieg…… über deine Kindheit……\e"
+MGD0080015,"\h(«Fina»)War das alles eine Lüge?
+Hast du das nur gesagt, damit wir dir vertrauen?\e"
+MGD0080016,"\h(«Belleza»)Ich habe euch die Wahrheit gesagt. Ich habe nie
+behauptet, dass mein Vater aus Nasr war. Er war
+ein Valua-Soldat, und er ist im Kampf gestorben.\e"
+MGD0080017,"\h(«Belleza»)Jahre später wurde auch ich Soldatin…… Ich
+möchte allen Kriegen ein Ende setzen, so dass
+niemand das durchmachen muss, was ich
+durchgemacht habe.\e"
+MGD0080018,"\h(«Belleza»)Länder erklären sich gegenseitig den Krieg wegen
+Grenzverläufen und Rohstoffen. Wenn die Welt
+unter einer Herrschaft vereint ist, gibt es
+keinen Krieg mehr.\e"
+MGD0080019,"\h(«Belleza»)Deshalb brauchen wir die Macht der Gigas,
+damit sich uns keiner entgegen-
+stellt! Valua muss die Welt beherrschen.\e"
+MGD0080020,"\h(«Fina»)Belleza!!! NEIN, NICHT!!!\e"
+MGD0080021,"\h(«Belleza»)Red Gigas, Recumen! Als Trägerin des Red Moon
+Crystal gebiete ich dir, aufzuwachen und meinen
+Befehlen zu folgen!\e"
+MGD0080022,"\h(«Vyse»)O Gottt… Fina?
+Was hat sie getan?
+Das ist doch das Allerletzte…\e"
+MGD0080023,"\h(«Fina»)Recumen…
+Nein…… sie wird doch nicht……\e"
+MGD0080024,"\h(«Belleza»)Wiedersehen, mein Schöner……\e"
+MGD0080025,"\h(«Belleza»)Recumen, ich befehle dir:
+Hülle diese drei in Flammen.\e"
+MGD0080026,"\h(«Fina»)Vyse!
+Aika!
+Beeilt euch! Wir müssen weg!\e"
+MGD0080027,\h(«Vyse»)Fina! Was ist los?\e
+MGD0080028,"\h(«Fina»)Belleza…… sie ruft Recumen an, den Red Gigas!!!\e"
+MGD0080029,"\h(«Fina»)Sie benutzt die Macht des Red Moon Crystal,
+um ihn zu erwecken!!!\e"
+MGD0080030,"\h(«Vyse»)…… Was macht sie!?
+Sieht so aus, als müssten wir weg!
+Aika, Fina…… lasst uns abhauen!\e"
+MSD0080000,"\h(«Vyse»)Bellena, perdona por hacerte esperar tanto.
+Espero que no estuvieras preocupada.\e"
+MSD0080001,"\h(«Bellena»)Me alegro de que estéis bien.
+¿Encontrasteis el Cristal Lunar?\e"
+MSD0080002,\h(«Vyse»)¡Claro que lo hemos encontrado!\e
+MSD0080003,"\h(«Bellena»)¡Sabía que lo conseguirías!
+Um, ¿te importa si le echo un vistazo?\e"
+MSD0080004,"\h(«Bellena»)Ooh……
+O sea que éste es uno de los legendarios
+Cristales Lunares……
+Es más bonito de lo que me había imaginado.\e"
+MSD0080005,"\h(«Bellena»)Muchísimas gracias.
+Seguro que Lord Galcian estará encantado.\e"
+MSD0080006,"\h(«Vyse»)¡¿¡¿Qué?!?!
+¡¿¡¿¡Qué estás diciendo!?!?!\e"
+MSD0080007,\h(«Bellena»)Jajaja…… Te lo enseñaré.\e
+MSD0080008,"\h(«Vyse»)Bellena……
+¡¿Quién eres?!\e"
+MSD0080009,"\h(«Belleza»)Os diré mi verdadero nombre. Soy Belleza.
+¡Cuarta Almirante de la Armada Imperial!\e"
+MSD0080010,"\h(«Belleza»)Soy especialista en operaciones secretas.
+No hace falta mancharse las manos de sangre para
+ganar una batalla. A veces, los pequeños trucos
+te llevan más lejos.\e"
+MSD0080011,\h(«Vyse»)¡¡¡Tú!!! ¡¡¡Nos has engañado!!!\e
+MSD0080012,\h(«Fina»)¿Bellena……?\e
+MSD0080013,\h(«Fina»)O…… umm…… Belleza……\e
+MSD0080014,"\h(«Fina»)Así que todo lo que nos contaste…… sobre tus
+padres…… la guerra…… y sobre tu infancia……\e"
+MSD0080015,"\h(«Fina»)¿Era todo mentira?
+¿Lo dijiste para que nos fiáramos de ti?\e"
+MSD0080016,"\h(«Belleza»)Os he dicho la verdad. Nunca dije que mi padre
+fuera de Nasr. Era un soldado Valuan y murió en
+acto de combate.\e"
+MSD0080017,"\h(«Belleza»)Años más tarde, yo misma me hice soldado……
+Quiero poner fin a todas las guerras para que
+nadie vuelva a pasar por lo que yo pasé.\e"
+MSD0080018,"\h(«Belleza»)Los países declaran guerras y se pelean por
+fronteras y recursos. Si el mundo viviera bajo
+un solo gobierno, ya no habría más guerras.\e"
+MSD0080019,"\h(«Belleza»)¡Por eso necesitamos el poder de las Gigas para
+asegurarnos de que nadie se enfrente a nosotros!
+¡Valua debe gobernar el mundo!\e"
+MSD0080020,\h(«Fina»)¡¡¡Belleza!!! ¡¡¡NO LO HAGAS!!!\e
+MSD0080021,"\h(«Belleza»)¡Gigas Rojo, Recumen!
+¡Como portadora del Cristal Rojo, te
+ordeno que revivas y obedezcas mi voluntad!\e"
+MSD0080022,"\h(«Vyse»)¿Fina……?
+¿Qué ha hecho?
+Es algo malo, ¿verdad?\e"
+MSD0080023,"\h(«Fina»)Recumen……
+No…… No puede……\e"
+MSD0080024,"\h(«Belleza»)Hasta luego, guapo……\e"
+MSD0080025,"\h(«Belleza»)¡Recumen, te lo ordeno!
+Envuélvelos a los tres en tus llamas.\e"
+MSD0080026,"\h(«Fina»)¡Vyse!
+¡Aika!
+¡Deprisa! ¡Tenemos que correr!\e"
+MSD0080027,\h(«Vyse»)¡Fina! ¿Qué pasa?\e
+MSD0080028,"\h(«Fina»)Belleza…… Ella…… ¡¡¡está convocando al Recumen,
+el Gigas Rojo!!!\e"
+MSD0080029,"\h(«Fina»)¡¡¡Está usando el poder del Cristal Rojo para
+revivirlo!!!\e"
+MSD0080030,"\h(«Vyse»)¿¡Que ha hecho qué……!?
+¡Creo que vamos a tener que correr!
+Aika, Fina…… ¡vámonos de aquí!\e"
+MD0090000,\h(«Vyse»)Is that…?!\e
+MD0090001,"\h(«Fina»)Yes, that is the Red Gigas, Recumen.\e"
+MD0090002,"\h(«Aika»)So those weren't statues in front of the Temple,
+they were its heads!\e"
+MD0090003,"\h(«Vyse»)It's looking at us…
+RUN!!!\e"
+MD0090004,\h(«Fina»)Aahh!\e
+MD0090005,\h(«Vyse»)Fina!\e
+MD0090006,"\h(«Aika»)Fina, are you alright?
+C'mon, we gotta go!\e"
+MD0090007,"\h(«Fina»)I'm sorry…
+I tripped…\e"
+MD0090008,"\h(«Vyse»)Aika, Fina! Take cover!\e"
+MD0090009,\h(«Vyse»)…It missed us… something hit it in the head!!!\e
+MD0090010,"\h(«Drachma»)I can't leave you three alone, can I?
+Stop gawkin' and get on!\e"
+MD0090011,\h(«Vyse»)Captain!\e
+MD0090012,"\h(«Aika»)Cap'n!
+You came back for us!\e"
+MD0090013,"\h(«Vyse»)Hurry, maybe we can take that thing out in the
+Little Jack.\e"
+MFD0090000,\h(«Vyse»)Est-ce……?!\e
+MFD0090001,"\h(«Fina»)Oui, c'est le Gigas Rouge, Recumen.\e"
+MFD0090002,"\h(«Aika»)Alors ce n'étaient pas des statues devant le
+Temple, c'étaient ses têtes !\e"
+MFD0090003,"\h(«Vyse»)Il nous regarde……
+COUREZ !!!\e"
+MFD0090004,\h(«Fina»)Aahh !\e
+MFD0090005,\h(«Vyse»)Fina !\e
+MFD0090006,"\h(«Aika»)Fina, ça va ?
+Allez, il faut partir !\e"
+MFD0090007,"\h(«Fina»)Je suis désolée……
+J'ai trébuché……\e"
+MFD0090008,"\h(«Vyse»)Aika, Fina ! Mettez-vous à l'abri !\e"
+MFD0090009,"\h(«Vyse»)……Il nous a raté…… il a reçu quelque chose sur
+la tête !!!\e"
+MFD0090010,"\h(«Drachma»)Je ne peux pas vous laisser tout seuls, hein ?
+Ne restez pas plantés là, montez !\e"
+MFD0090011,\h(«Vyse»)Capitaine !\e
+MFD0090012,"\h(«Aika»)Cap'taine !
+Vous êtes revenu nous chercher !\e"
+MFD0090013,"\h(«Vyse»)Vite, nous pourrons peut-être vaincre cette
+chose avec le Little Jack.\e"
+MGD0090000,\h(«Vyse»)Ist das… ?!\e
+MGD0090001,"\h(«Fina»)Ja, das ist der Red Gigas Recumen.\e"
+MGD0090002,"\h(«Aika»)Dann waren das also gar keine Statuen vor dem
+Tempel, es waren seine Köpfe!\e"
+MGD0090003,"\h(«Vyse»)Es schaut zu uns herüber……
+RENNT!!!\e"
+MGD0090004,\h(«Fina»)Aahh!\e
+MGD0090005,\h(«Vyse»)Fina!\e
+MGD0090006,"\h(«Aika»)Fina, alles in Ordnung?
+Kommt, wir müssen weg!\e"
+MGD0090007,"\h(«Fina»)Tut mir Leid……
+Ich bin gestolpert……\e"
+MGD0090008,"\h(«Vyse»)Aika, Fina! Geht in Deckung!\e"
+MGD0090009,"\h(«Vyse»)…… Er hat uns verfehlt…… Etwas hat ihn am Kopf
+getroffen!!!\e"
+MGD0090010,"\h(«Drachma»)Euch drei kann man aber auch nicht allein
+lassen! Steht nicht rum wie die Ölgötzen -- los,
+an Bord!\e"
+MGD0090011,\h(«Vyse»)Captain!\e
+MGD0090012,"\h(«Aika»)Captain!
+Du bist zurückgekehrt, um uns zu holen!\e"
+MGD0090013,"\h(«Vyse»)Beeilt euch, vielleicht können wir das Ding ja
+von der Little Jack aus erledigen.\e"
+MSD0090000,\h(«Vyse»)¡¿Es eso……?!\e
+MSD0090001,"\h(«Fina»)Sí, eso es el Gigas Rojo, Recumen.\e"
+MSD0090002,"\h(«Aika»)¡Así que eso no eran estatuas junto al Templo,
+sino las cabezas del Gigas!\e"
+MSD0090003,"\h(«Vyse»)Nos está mirando……
+¡¡¡A CORRER!!!\e"
+MSD0090004,\h(«Fina»)¡Aahh!\e
+MSD0090005,\h(«Vyse»)¡Fina!\e
+MSD0090006,"\h(«Aika»)Fina, ¿estás bien?
+¡Vamos, tenemos que irnos!\e"
+MSD0090007,"\h(«Fina»)Lo siento……
+He tropezado……\e"
+MSD0090008,"\h(«Vyse»)¡Aika, Fina! ¡Cubríos!\e"
+MSD0090009,"\h(«Vyse»)No nos ha dado……
+¡¡¡Algo le ha herido en la cabeza!!!\e"
+MSD0090010,"\h(«Drachma»)No os puedo dejar solos, ¿verdad?
+¡Quitad esa cara de asombro y subid!\e"
+MSD0090011,\h(«Vyse»)¡Capitán!\e
+MSD0090012,"\h(«Aika»)¡Capi!
+¡Has vuelto para ayudarnos!\e"
+MSD0090013,"\h(«Vyse»)Deprisa, a lo mejor podemos llevárnoslo a bordo
+del Little Jack.\e"
+M01090000,"\h(«Bellena»)Nasr basks in the light of the Red Moon. Most
+of the creatures that live here have a strong
+connection with it.\e"
+M01090001,"\h(«Bellena»)Try using a Purple Moon Stone on your weapons.
+You'll see that you can inflict much more damage
+on them that way.\c"
+M01090002,"\h(«Vyse»)… Hm. It won't budge.
+Maybe there's a special way to open it.\c"
+M01090003,"\h(«Vyse»)I can't get this door to budge at all.
+It's too heavy to even move.\c"
+M01090004,"\h(«Vyse»)… What's this? There looks like there's some
+sort of switch on top of this pedestal.\c"
+M01090005,"\h(«Vyse»)Whoa… It looks like the switch opens water
+channels to this area.\c"
+M01090006,"\h(«Vyse»)The magma has already been hardened so there's
+no need to run any more water.\c"
+M01090007,"\h(«Vyse»)It looks like some sort of door.
+Hm… I can't get it to budge, though.\c"
+M01090008,"\h(«Vyse»)This is the pedestal where the Red Moon Crystal
+was. It looks really old… but it's still in
+perfect shape.\c"
+M01090009,"\h(«Vyse»)I wonder what this pedestal is for…
+It's got a strange indentation
+on the surface…\c"
+M01090010,"\h(«What will you do?»)“Return to your ship.”
+“Stay in here a little while longer.”\c"
+M01090011,"\h(«What will you do?»)“Return to the Little Jack.”
+“Stay here a little while longer.”\c"
+M01090012,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MF01090000,"\h(«Bellena»)Nasr se dore sous la lumière de la Lune Rouge.
+La plupart des créatures qui vivent ici ont un
+lien très fort avec elle.\e"
+MF01090001,"\h(«Bellena»)Essayez d'utiliser une Pierre de Lune Mauve sur
+vos armes. Vous verrez que vous pourrez leur
+infliger plus de dégâts de cette façon.\c"
+MF01090002,"\h(«Vyse»)…… Hum. On ne peut pas la faire bouger.
+Il y a peut-être une astuce pour l'ouvrir.\c"
+MF01090003,"\h(«Vyse»)Je n'arrive pas du tout à faire bouger cette
+porte. Elle est trop lourde de toute façon.\c"
+MF01090004,"\h(«Vyse»)…… C'est quoi ? On dirait qu'il y a un bouton
+au-dessus de ce piédestal.\c"
+MF01090005,"\h(«Vyse»)Oh là là…… On dirait que le bouton ouvre les
+canalisations d'eau dans cet endroit.\c"
+MF01090006,"\h(«Vyse»)Le magma s'est déjà durci donc il est inutile de
+faire couler plus d'eau.\c"
+MF01090007,"\h(«Vyse»)On dirait une porte.
+Hum…… Mais je n'arrive pas à la faire bouger.\c"
+MF01090008,"\h(«Vyse»)C'est le piédestal où se trouvait le Cristal de
+Lune Rouge. Il a l'air assez ancien…… mais il
+est encore en bon état.\c"
+MF01090009,"\h(«Vyse»)Je me demande à quoi sert ce piédestal……
+Il y a une étrange dentelure à la surface……\c"
+MF01090010,"\h(«Que ferez-vous ?»)“Vous retournerez sur votre navire.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MF01090011,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Little Jack.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MF01090012,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MG01090000,"\h(«Bellena»)Nasr badet im Licht des Red Moon. Die
+meisten Lebewesen, die es hier gibt, sind sehr
+mit ihm verbunden.\e"
+MG01090001,"\h(«Bellena»)Versuche einmal, einen Purple Moon Stone bei
+deinen Waffen anzuwenden. Du wirst sehen,
+dass du auf diese Weise viel mehr Schaden
+anrichten kannst.\c"
+MG01090002,"\h(«Vyse»)……Hm. Sie lässt sich nicht bewegen.
+Vielleicht gibt es einen Trick, sie zu öffnen.\c"
+MG01090003,"\h(«Vyse»)Ich kann diese Tür absolut nicht bewegen.
+Sie ist dafür viel zu schwer.\c"
+MG01090004,"\h(«Vyse»)……Was ist das? Es sieht so aus, als wäre da
+eine Art Schalter auf diesem Sockel.\c"
+MG01090005,"\h(«Vyse»)Mann…… dieser Schalter muss wohl die
+Wasserkanäle zu diesem Bereich öffnen.\c"
+MG01090006,"\h(«Vyse»)Das Magma hat sich bereits verhärtet, also
+muss man kein Wasser mehr einleiten.\c"
+MG01090007,"\h(«Vyse»)Es sieht wie eine Art Tür aus.
+Hm…… lässt sich jedoch nicht bewegen.\c"
+MG01090008,"\h(«Vyse»)Dies ist der Sockel, auf dem sich der Red Moon
+Crystal befand. Er sieht richtig alt aus……
+aber er ist noch in ausgezeichnetem Zustand.\c"
+MG01090009,"\h(«Vyse»)Wozu dieser Sockel wohl dient……
+Er hat eine seltsame Vertiefung
+auf der Oberfläche……\c"
+MG01090010,"\h(«Was wirst du tun?»)“Zu deinem Schiff zurückkehren.”
+“Noch eine Weile hier drin bleiben.”\c"
+MG01090011,"\h(«Was wirst du tun?»)“Zur Little Jack zurückkehren.”
+“Noch eine Weile hier drin bleiben.”\c"
+MG01090012,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Noch eine Weile hier drin bleiben.”\c"
+MS01090000,"\h(«Bellena»)Nasr brilla bajo la luz de la Luna Roja. Gran
+parte de los seres que viven aquí tienen una
+intensa conexión con ella.\e"
+MS01090001,"\h(«Bellena»)Intenta usar un Cristal Púrpura con tus armas.
+De esa forma tus armas tendrán más capacidad de
+infligir daño.\c"
+MS01090002,"\h(«Vyse»)…… Mmm. Ni se abre.
+A lo mejor hace falta una técnica especial para
+abrirla.\c"
+MS01090003,"\h(«Vyse»)No consigo que esta puerta se entreabra.
+Pesa tanto que ni se mueve.\c"
+MS01090004,"\h(«Vyse»)…… ¿Qué es esto? Parece que hay una especie
+de interruptor sobre el pedestal.\c"
+MS01090005,"\h(«Vyse»)Vaya…… El interruptor ha abierto unos canales de
+agua en esta zona.\c"
+MS01090006,"\h(«Vyse»)El magma ya se ha endurecido, así que no hace
+falta que corra más el agua.\c"
+MS01090007,"\h(«Vyse»)Parece una especie de puerta.
+Mm…… pero no se puede abrir.\c"
+MS01090008,"\h(«Vyse»)Éste es el pedestal donde estaba el Cristal
+Rojo. Es muy viejo…… pero todavía se conserva
+muy bien.\c"
+MS01090009,"\h(«Vyse»)Me pregunto para qué será este pedestal……
+Tiene una marca un poco rara en la
+superficie……\c"
+MS01090010,"\h(«¿Qué vas a hacer?»)“Volver al barco.”
+“Pasar aquí más tiempo.”\c"
+MS01090011,"\h(«¿Qué vas a hacer?»)“Volver al Little Jack.”
+“Pasar aquí más tiempo.”\c"
+MS01090012,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Pasar aquí más tiempo.”\c"
+"",me109g.sct
+"",m5090000
+"",k8000004
+"",a109ad06.mld
+"",e6d006
+"",a109ad06.mld
+"",a109ad08a.mld
+"",a109ad08a.mld
+"",a109ad08b.mld
+"",a109ad08b.mld
+"",e6d008
+"",M0376
+"",a109ad08a.mld
+"",a109ad08b.mld
+"",e6d009
+"",M0381
+"",a109ad09_3.mld
+"",a109ad09_3.mld
+"",a109ad09.mld
+"",a109ad09.mld
+"",a109ad09_efe.mld
+"",a109ad09_efe.mld
+"",a109ad09.mld
+"",a109ad09_2.mld
+"",a109ad09_2.mld
+"",a109ad09_2.mld
+"",a109ad09_3.mld
+"",a109ad09_efe.mld
+"",me033a.sct

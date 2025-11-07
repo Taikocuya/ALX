@@ -1,0 +1,123 @@
+[Event Name],Task ID
+ME0250000,"\h(《Captured Man》)Huh?
+Who are you?\e"
+ME0250001,"\h(《Vyse》)I'm Vyse.
+Are you Isapa?\e"
+ME0250002,"\h(《Captured Man》)No, it appears you have mistaken me for someone
+else. My name is Centime.\e"
+ME0250003,\h(《Aika》)Then you're Hans' father!\e
+ME0250004,"\h(《Centime》)You know Hans?! 
+Then you must have been to the village
+in Horteka!\e"
+ME0250005,"\h(《Centime》)That's where my wife and children are… 
+Everyone was okay, right?\e"
+ME0250006,"\h(《Vyse》)Yeah, they were doing just fine.
+But, you should worry about yourself right now.\e"
+ME0250007,"\h(《Centime》)Oh, I'm okay. When I refused to help Valua,
+they threw me into these dungeons.
+I've been here for quite a while.\e"
+ME0250008,"\h(《Centime》)You were looking for someone named Isapa,
+correct? If so, then you'll need to venture
+further into these mines. I think I can help.\e"
+ME0250009,"\h(《Centime》)There are elevators scattered throughout the 
+mines. You will need to use them to reach the 
+other areas. I can get them working.\e"
+ME0250010,"\h(《Aika》)Woohoo! 
+Wow, Centime, you're amazing!\e"
+ME0250011,"\h(《Centime》)Why, thank you.\e"
+ME0250012,"\h(《Centime》)I must advise you, proceed with caution… there 
+are all sorts of traps. I will travel ahead and 
+see if I can disarm them for you.\e"
+ME0250013,"\h(《Vyse》)Thank you!
+You've been a great help to us already.\e"
+ME0250014,"\h(《Centime》)It's the least I can do for you.
+You rescued me, remember?
+I'm sure we'll meet again. Good luck!\e"
+M01110000,"\h(《Vyse》)A Valuan soldier…
+I guess this is the Valuan stronghold.\c"
+M01110001,"\h(《Vyse》)An Ixa'takan…
+Valuans are probably forcing them to
+mine for Moon Stones…\c"
+M01110002,"\h(《Vyse》)This door has been welded shut…
+It looks like they're serious about
+keeping the Ixa'takans in here.\e"
+M01110003,"\h(《Vyse》)Sorry, guys, but just hang in a little while
+longer. I'll free all of you… I promise. I'll
+send those Valuans back to Valua…\c"
+M01110004,"\h(《Vyse》)Damn… This door's welded shut… It doesn't look
+like I'm going to get any further this way.\c"
+M01110005,"\h(《Vyse》)Damn this shutter…
+It won't budge at all.\c"
+M01110006,"\h(《Vyse》)There's a big shutter…
+But, it doesn't look like it going to open.\c"
+M01110007,"\h(《Vyse》)The door closed again. This is just great.
+Why do I get the strange feeling that someone's
+leading me somewhere…?\c"
+M01110008,"\h(　)Perfect devices and perfect machines
+are far more sacred than human life!
+                            De Loco\c"
+M01110009,"\h(　)Only perfect devices are worth anything!
+Imperfect devices are garbage!
+                             De Loco\c"
+M01110010,"\h(　)Useless machines should be thrown away.
+Useless people should be executed!
+                               De Loco\c"
+M01110011,"\h(　)Kill any Ixa'takan who tries
+to resist!
+                     De Loco\c"
+M01110012,"\h(　)A Moon Stone pebble is worth
+a gallon of blood!
+                      De Loco\c"
+M01110013,"\h(　)Treat my machines with respect,
+or you'll be drawn and quartered!
+                         De Loco\c"
+M01110014,"\h(　)Inside this mine,
+I am the law!
+           De Loco\c"
+M01110015,"\h(《Vyse》)Why do all these doors keep closing on me?
+What's going on here?\c"
+M01110016,"\h(《Vyse》)Hmph. Nope, it won't move.
+It looks like the electricity's been cut.\c"
+M01110017,"\h(《Captured Man》)Hm? You don't look like you're a Valuan…
+Who might you be?\e"
+M01110018,"\h(《Vyse》)It closed again…
+It almost seems like someone's watching
+what we do, and closing the doors…\c"
+M01110019,"\h(《Vyse》)Nope… it won't open.
+Looks like it's locked.\c"
+M01110020,"\h(《Alfonso》)Uh… ugh…
+W… Why do these things always happen to me?\c"
+M01110021,"\h(《What will you do?》)”Return to the Little Jack.”
+”Stay in here a little while longer.”\c"
+M01110022,"\h(《What will you do?》)”Return to the Delphinus.”
+”Stay in here a little while longer.”\c"
+M01110023,"\h(《Ixa'takan Slave》)I haven't seen you around here before.
+Were you brought here recently?\e"
+M01110024,"\h(《Ixa'takan Slave》)A man named De Loco made this mine.
+It's filled with nasty traps.\e"
+M01110025,"\h(《Ixa'takan Slave》)There's trap doors all over the place.
+And remember, a circle doesn't always mean
+it's the right way.\e"
+M01110026,"\h(《Ixa'takan Slave》)If you can see below,
+look down. If there's a mining cart,
+it'll come back here.\c"
+M01110027,"\h(《Ixa'takan Slave》)There's trap doors all over the place.
+And remember, a circle doesn't always mean
+it's the right way.\e"
+M01110028,"\h(《Ixa'takan Slave》)If you can see below,
+look down. If there's a mining cart,
+it'll come back here.\c"
+"",me111d.sct
+"",me111b.sct
+"",me111b.sct
+"",me111b.sct
+"",me111b.sct
+"",me111b.sct
+"",me111b.sct
+"",M0249
+"",m5110000
+"",M0269
+"",e6e025
+"",a111cE25.mld
+"",a111cE25.mld
+"",a111cE25.mld

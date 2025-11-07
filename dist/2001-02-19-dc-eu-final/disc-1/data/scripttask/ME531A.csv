@@ -1,0 +1,176 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MA5310000,"\h(«Fina»)Bluheim is the Blue Gigas.
+It will most likely attack with wind and
+wave attacks.\e"
+MA5310001,"\h(«Vyse»)Well, we don't have much time to think of a plan
+at this point, so we'll just have to look for a
+weakness as we fight it!\c"
+MA5310002,"\h(«Vyse»)I can't believe how fast that thing is! I never
+thought something so big could move so fast!\c"
+MA5310003,"\h(«Enrique»)What an incredible blast of wind! It's blown
+us completely off course!\e"
+MA5310004,"\h(«Fina»)Watch out! Bluheim is preparing
+its next attack!\e"
+MA5310005,"\h(«Enrique»)This must be its strategy… Using that
+burst of wind, it pushes its enemy
+into position for its next attack.\e"
+MA5310006,"\h(«Aika»)Unless we can do something to counter that wind
+attack, we'll be helpless against this thing!
+We need to try and think of a plan!!\c"
+MA5310007,"\h(«Enrique»)We've been blown off course again!
+Isn't there anything we can do
+against this thing?!\e"
+MA5310008,"\h(«Aika»)Hey… I've got an idea… Why don't we try
+going into a defensive posture before it
+attacks? It might just work…\c"
+MA5310009,"\h(«Vyse»)Alright!
+We got thrown back a little bit, but
+we're still in attack position!\e"
+MA5310010,"\h(«Aika»)Yeah! It looks like the ship can handle
+that big bird's wind attack if we just
+brace ourselves for it!\e"
+MA5310011,"\h(«Enrique»)Enough talk, everyone! Now is our chance!
+Vyse, we await your commands!\c"
+MA5310012,"\h(«Vyse»)Alright, we've withstood its wind attack again.
+Now it's our turn to fight back!\c"
+MSA5310000,"\h(«Fina»)Bluheim es el Gigas Azul.
+Normalmente utiliza el viento y las olas
+para atacar.\e"
+MSA5310001,"\h(«Vyse»)Bueno, no queda tiempo para trazar un plan,
+¡así que tendremos que fijarnos en su punto
+débil en el transcurso de la lucha!\c"
+MSA5310002,"\h(«Vyse»)¡No puedo creer que ese bicho sean tan enorme!
+¡Nunca pensé que algo tan grande se pudiera
+mover a tal velocidad!\c"
+MSA5310003,"\h(«Enrique»)¡Vaya ráfaga de viento!
+¡Nos ha desviado totalmente de nuestro rumbo!\e"
+MSA5310004,"\h(«Fina»)¡Cuidado!
+¡Bluheim prepara su siguiente ataque!\e"
+MSA5310005,"\h(«Enrique»)Ésta va a ser su estrategia…… Se valdrá
+de una ráfaga de viento para desplazar al
+enemigo a la posición adecuada para atacarle.\e"
+MSA5310006,"\h(«Aika»)¡Si no logramos hacer algo para compensar
+el ataque de viento, ese bicho nos vencerá!
+¡¡Tenemos que urdir un plan!!\c"
+MSA5310007,"\h(«Enrique»)¡Otra vez nos ha desviado de nuestro rumbo!
+¡¿Es que no podemos hacer nada
+contra ese ser monstruoso?!\e"
+MSA5310008,"\h(«Aika»)Oye…… Tengo una idea…… ¿Por qué no probamos
+con una táctica defensiva antes de que
+nos ataque? A lo mejor funciona……\c"
+MSA5310009,"\h(«Vyse»)¡Es verdad!
+¡Hemos retrocedido un poco,
+pero aún estamos en posición!\e"
+MSA5310010,"\h(«Aika»)¡Sí! ¡Si nos sujetamos bien, es posible que el
+navío pueda aguantar el ataque de viento de ese
+pájaro tan grande!\e"
+MSA5310011,"\h(«Enrique»)¡Ya basta de charla!
+¡Ésta es nuestra oportunidad!
+Vyse, ¡esperamos tus órdenes!\c"
+MSA5310012,"\h(«Vyse»)Hemos resistido su ataque de viento otra vez.
+¡Ahora nos toca a nosotros atacar!\c"
+MFA5310000,"\h(«Fina»)Bluheim est le Gigas Bleu.
+Il nous attaquera certainement avec le vent et
+les vagues.\e"
+MFA5310001,"\h(«Vyse»)Bon, nous n'avons pas vraiment le temps
+d'élaborer un plan, alors il faudra
+chercher sa faiblesse pendant la bataille !\c"
+MFA5310002,"\h(«Vyse»)Il est incroyablement rapide !
+Je n'aurais pas cru que quelque chose d'aussi
+gros puisse avancer aussi vite !\c"
+MFA5310003,"\h(«Enrique»)Quel coup de vent incroyable !
+Cela nous a fait complètement perdre le cap !\e"
+MFA5310004,\h(«Fina»)Attention ! Bluheim prépare une autre attaque !\e
+MFA5310005,"\h(«Enrique»)Ce doit être sa stratégie…… Il pousse ses
+ennemis, à coups de vent, dans une certaine
+position pour son attaque suivante.\e"
+MFA5310006,"\h(«Aika»)À moins de pouvoir contre-attaquer ce vent,
+nous sommes impuissants face à lui !
+Il faut réfléchir à un plan !!\c"
+MFA5310007,"\h(«Enrique»)Nous avons encore perdu le cap !
+N'y a-t-il rien à faire contre cette
+créature ?!\e"
+MFA5310008,"\h(«Aika»)Hé…… J'ai une idée…… Pourquoi ne pas nous mettre
+en position de défense avant qu'il n'attaque ?
+Cela risque de marcher……\c"
+MFA5310009,"\h(«Vyse»)Allez !
+Nous avons été un peu repoussés, mais
+nous sommes encore en position d'attaque !\e"
+MFA5310010,"\h(«Aika»)Oui ! Il semble que le navire peut résister à
+l'attaque au vent de ce grand oiseau si nous
+nous y préparons !\e"
+MFA5310011,"\h(«Enrique»)Assez discuté ! C'est notre chance !
+Vyse, nous attendons vos ordres !\c"
+MFA5310012,"\h(«Vyse»)Allez, nous avons encore résisté à son attaque
+au vent.
+C'est notre tour de lui rendre la pareille !\c"
+MGA5310000,"\h(«Fina»)Bluheim ist der Blue Gigas.
+Er wird höchstwahrscheinlich mit Wind- und
+Wellenattacken angreifen.\e"
+MGA5310001,"\h(«Vyse»)Nun, im Moment haben wir nicht viel Zeit, einen
+Plan auszuhecken, also müssen wir einfach nach
+einem Schwachpunkt suchen, während wir ihn
+bekämpfen!\c"
+MGA5310002,"\h(«Vyse»)Ich kann's nicht fassen, wie schnell dieses
+Ding ist! Ich hätte nie gedacht, dass etwas
+so Großes sich so schnell bewegen kann!\c"
+MGA5310003,"\h(«Enrique»)Was für ein unglaublicher Windstoß! Er hat
+uns total vom Kurs abgebracht!\e"
+MGA5310004,"\h(«Fina»)Pass auf! Bluheim bereitet sich auf seinen
+nächsten Angriff vor!\e"
+MGA5310005,"\h(«Enrique»)Das muss seine Strategie sein…… mit diesem
+Windstoß rückt er seinen Feind für die
+nächste Attacke in Position.\e"
+MGA5310006,"\h(«Aika»)Wenn wir dieser Windattacke nichts
+entgegenhalten können, sind wir gegen dieses
+Ding hilflos! Wir müssen versuchen, uns einen
+Plan auszudenken!!\c"
+MGA5310007,"\h(«Enrique»)Wir sind wieder vom Kurs abgekommen!
+Gibt es nichts, was wir gegen dieses Ding
+ausrichten können?!\e"
+MGA5310008,"\h(«Aika»)He…… ich habe eine Idee…… warum versuchen wir
+nicht, in eine Abwehrstellung zu gehen, bevor
+es uns angreift? Es funktioniert vielleicht……\c"
+MGA5310009,"\h(«Vyse»)Es hat geklappt!
+Wir sind zwar etwas zurückgeworfen worden,
+aber wir sind noch immer in Angriffsposition!\e"
+MGA5310010,"\h(«Aika»)Ja! Es sieht so aus, als könnte das Schiff
+die Windattacke dieses großen Vogels
+nehmen, wenn wir uns nur darauf vorbereiten!\e"
+MGA5310011,"\h(«Enrique»)Alles mal herhören: Genug geredet!
+Jetzt ist unsere Chance! Vyse, wir erwarten
+deine Befehle!\c"
+MGA5310012,"\h(«Vyse»)Ok, wir haben seiner Windattacke noch einmal
+widerstanden. Jetzt ist es an uns,
+zurückzuschlagen!\c"
+"",M0465
+"",me531a.sct
+"",me090a.sct
+"",f7100102s.p04
+"",f7100100s.p04
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",f7100052S.p04
+"",f7100052S.p04
+"",b2600.mld
+"",b2600.mld
+"",b2600.mld
+"",b2601.mld
+"",b2601.mld
+"",f3000015
+"",b2601.mld
+"",b2602.mld
+"",b2602.mld
+"",f3000016
+"",b2602.mld
+"",me247a.sct

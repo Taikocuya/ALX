@@ -1,0 +1,239 @@
+[Event Name],Task ID
+MC0020000,"\h(《Ramirez》)Lord Galcian. Your Admirals have assembled…
+As you have commanded.\e"
+MC0020001,\h(《Galcian》)Excellent.\e
+MC0020002,"\h(《Galcian》)Admirals of the Valuan Armada…
+Let me first offer my gratitude to each of you 
+for assembling on such short notice…\e"
+MC0020003,"\h(《Galcian》)Let it be known that we have successfully 
+captured a citizen of the Silver Civilization, 
+as Empress Teodora requested.\e"
+MC0020004,\h(《Old Admiral》)What?! How?!\e
+MC0020005,"\h(《Large Admiral》)So, we've finally captured one…
+Who accomplished this?\e"
+MC0020006,"\h(《Alfonso》)Hah hah hah…
+Of course, I was the one to find her first…\e"
+MC0020007,"\h(《Alfonso》)I crippled her ship and captured her. But I was 
+betrayed by my own Vice Captain and she was 
+taken from me…\e"
+MC0020008,"\h(《Gregorio》)I'm sure Empress Teodora is very pleased that 
+she was recovered.\e"
+MC0020009,"\h(《Gregorio》)Now, if we can persuade her to give us the 
+information we need, it would be worth all of 
+the effort we spent tracking her down.\e"
+MC0020010,"\h(《Vigoro》)You said that the citizen of the Silver 
+Civilization that you found was a woman?! Now 
+THAT'S something worth getting excited over.\e"
+MC0020011,"\h(《Vigoro》)How old is she?  Is she good looking? 
+Does she wear leather?
+I like my women wild and crazy!\e"
+MC0020012,"\h(《Belleza》)You're out of luck, Vigoro.
+The girl is the exact opposite. 
+She's very shy and demure.\e"
+MC0020013,"\h(《Belleza》)Her name is Fina.
+She is currently being escorted to see Empress 
+Teodora in the Imperial Palace.\e"
+MC0020014,"\h(《De Loco》)Hehehehehe…
+Very good, Admiral Belleza. I see that you are 
+our espionage expert for good reasons.\e"
+MC0020015,"\h(《De Loco》)Of course, being the head of weapon development,
+I have a deeply vested interest in the 
+technology of the Silver Civilization! Hehehe!\e"
+MC0020016,"\h(《Galcian》)I will head back to the Imperial Palace and 
+await Empress Teodora's orders to commence the 
+search for the Moon Crystals.\e"
+MC0020017,"\h(《Galcian》)Fina, our new… ally, shall aid us in gathering 
+all six of the Crystals from around the world.\e"
+MC0020018,\h(《Galcian》)… As for you… Alfonso.\e
+MC0020019,"\h(《Galcian》)You lied in your report.
+And as punishment, you are now relieved of your
+position as Commander of the Ocean Fleet.\e"
+MC0020020,"\h(《Galcian》)And for an indefinite period of time, you shall
+be confined to Ixa'taka.\e"
+MC0020021,"\h(《Alfonso》)Y… you think that I lied in my report, sire?
+Ha… haha… w… what are you talking about?\e"
+MC0020022,"\h(《Galcian》)You were attacked by the Air Pirates and you 
+deserted your crew and your ship to save 
+yourself.\e"
+MC0020023,"\h(《Galcian》)Your ship and your crew were released by the Air
+Pirates and returned recently. 
+They filed a full… and ACCURATE… report.\e"
+MC0020024,\h(《Alfonso》)Bah…\e
+MC0020025,"\h(《Galcian》)Our Armada is invincible.
+Showing any signs of weakness is unforgivable. 
+I trust that you will not forget that.\e"
+MC0020026,"\h(《Galcian》)This meeting is over.
+I want all of you to be ready to depart at a
+moment's notice.\e"
+MC0020027,"\h(《Valuan Admirals》)Yes, Lord Galcian!\e"
+MG0080000,\h(《Fina》)Ramirez…\e
+MG0080001,\h(《Ramirez》)……\e
+MG0080002,"\h(《Fina》)Ramirez… why?
+Why are you fighting for the Valuans?\e"
+MG0080003,"\h(《Fina》)What about our orders? 
+What about the Elders?\e"
+MG0080004,\h(《Ramirez》)……\e
+MG0080005,"\h(《Valuan Soldier》)Lord Ramirez, it's an emergency!!\e"
+MG0080006,"\h(《Valuan Soldier》)One of our cannons exploded and the entire deck
+is on fire. But no enemy shells hit that area.\e"
+MG0080007,"\h(《Ramirez》)Find out the cause of the fire and report back
+to me. In the meantime, stop firing and set the
+fortress in defensive mode.\e"
+MG0080008,"\h(《Ramirez》)There are only two or three ships attacking. 
+Their effect on the wall will be minimal.\e"
+MG0080009,"\h(《Valuan Soldier》)Yes, sir!\e"
+MG0080010,"\h(《Ramirez》)I fight for Lord Galcian. 
+That is all you need to know.\e"
+MG0080011,\h(《Fina》)Ramirez…\e
+MG0090000,"\h(《Vyse》)Fina! 
+We came to get you out of here.\e"
+MG0090001,\h(《Fina》)Vyse!\e
+MG0090002,"\h(《Vyse》)We got here as soon as we found out where you
+were. Are you okay?\e"
+MG0090003,"\h(《Fina》)Yes… I am… 
+Thank you…\e"
+MG0090004,"\h(《Fina》)It's strange…
+The first time you rescued me from
+the train, I was really surprised to see you.\e"
+MG0090005,"\h(《Fina》)But this time, I knew that you would come for
+me. I knew you would find me.\e"
+MG0090006,"\h(《Vyse》)Hahaha…
+Oh Fina, after all we've been through together…\e"
+MG0090007,"\h(《Vyse》)I swear on my oath as a Blue Rogue that I will
+do everything in my power to keep you safe.\e"
+MG0090008,\h(《Fina》)… I know…\e
+MG0090009,"\h(《Gilder》)Heh…
+Good one, Vyse, I didn't know you were so 
+smooth with the ladies.\e"
+MG0090010,"\h(《Gilder》)Getting jealous, Aika? I bet you wish that Vyse
+would say stuff like that to you.\e"
+MG0090011,"\h(《Aika》)I don't need to hear him say those things.
+I know he would do the same for me.\e"
+MG0090012,"\h(《Aika》)Whenever I'm in trouble, I have faith that Vyse
+will always be there to save me. He already
+saved me once today.\e"
+MG0090013,\h(《Gilder》)Heh… Good point.\e
+MG0090014,"\h(《Gilder》)Can we save the mushy stuff for later? We just
+broke out of prison, and we're still in Valua.\e"
+MG0090015,"\h(《Vyse》)Alright.
+But, how exactly are we going to get out of
+here?\e"
+MG0090016,"\h(《Gilder》)Well, since we're in the Grand Fortress, there
+should be Valuan ships docked all over the
+place. We can borrow one of those.\e"
+MG0090017,"\h(《Gilder》)We should be able to reach the docks from the
+bottom floors of the fortress. We'll have to
+backtrack a little, but we should be okay.\e"
+MG0090018,"\h(《Vyse》)So, we'll take the elevator back down and look
+for a ship. Alright! Let's go!\e"
+MG0090019,\h(　)Fina has joined your party.\e
+MG0320000,"\h(《Vyse》)…Huh? I can hear someone talking on the other
+side of this door.\e"
+MG0320001,"\h(《Ramirez》)Everyone, remain calm.
+The Grand Fortress isn't about to crumble under
+the firepower of a few ships.\e"
+MG0320002,"\h(《Ramirez》)Anyone who deserts their post will have to deal
+with me personally.\e"
+MG0320003,\h(《Valuan Soldier》)Yes Admiral Ramirez!\e
+MG0320004,"\h(《Ramirez》)I will go investigate the cause of the 
+explosion. Two of you stay here and 
+guard the girl. The rest of you, follow me.\e"
+MG0320005,\h(《Valuan Soldier》)Yes!!!\e
+M01160000,"\h(《Vyse》)There's not even a cusion. Well, I suppose these
+beds are meant for prisoners, so there's no
+reason for them to make the beds comfortable…\c"
+M01160001,"\h(《Vyse》)It's disturbing to think of how many people
+probably died in this prison… Or… even… in
+this bed…\c"
+M01160002,"\h(《Vyse》)The only thing I can see from here is the
+dark skies of Valua…\c"
+M01160003,"\h(《Vyse》)There's two beds, but…
+Where's Fina?\e"
+M01160004,"\h(《Aika》)I don't know. They split us up before we even
+got here… I've been alone the whole time…
+Well, until macho-man came along, that is…\e"
+M01160005,"\h(《Vyse》)It's the same kind of bed that Gilder and I had.
+I guess the Valuans don't believe in treating
+ladies like ladies…\c"
+M01160006,"\h(《Vyse》)This is probably the area right
+above our own cell…\c"
+M01160007,"\h(《Vyse》)…Damn. It won't open.
+It's locked.\c"
+M01160008,\h(　)Used the ”Cannon Room Key” to open the door.\c
+M01160009,"\h(《An elevator switch…》)”Prisoner Block 200      2nd Floor”
+”Fortress Cannon Room   Battery 28”
+”Don't get on the elevator.”\c"
+M01160010,"\h(《An elevator switch…》)”Prisoner Block 100      1st Floor”
+”Fortress Cannon Room   Battery 28”
+”Don't get on the elevator.”\c"
+M01160011,"\h(《An elevator switch…》)”Prisoner Block 200      2nd Floor”
+”Prisoner Block 100      1st Floor”
+”Don't get on the elevator.”\c"
+M01160012,"\h(《Vyse》)…Nope, it won't open.
+The ”Cannon Room Key” won't work either.
+I guess we need a different key…\c"
+M01160013,\h(　)Used the ”Harbor Key” to open the door.\c
+M01160014,"\h(《Vyse》)Great… This door's locked.
+And it doesn't look like there's a keyhole…\e"
+M01160015,"\h(《Gilder》)It probably leads towards the center of the
+Fortress. I don't know about you, but I'd rather
+get out of here than go exploring. Let's go.\c"
+M01160016,"\h(《Gilder》)It probably leads towards the center of the
+Fortress. We're probably better off not going
+that way. Let's look somewhere else.\c"
+M01160017,"\h(《Vyse》)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01160018,"\h(《Gilder》)Heh… Good job guys. Looks like my crew is
+causing quite a commotion. It should be enough
+for us to sneak out of here…\c"
+M01160019,"\h(《Vyse》)…Hm?
+This switch isn't doing anything.\e"
+M01160020,"\h(《Gilder》)This elevator is probably stuck on another floor
+or somebody else might already be inside it.
+Let's not stick around to find out which, okay?\c"
+M01160021,\h(《Aika》)Aaaaaaaaaaaaaaaaack!\e
+M01160022,\h(《Vyse》)… Hey! That sounded like Aika!!\c
+M01160023,"\h(《Vigoro》)Ugh… That hurt, Red…\c"
+M01160024,"\h(　)You found the ”Harbor Key” in the pocket
+of the Valuan Soldier.\c"
+"",me243a.sct
+"",me035g.sct
+"",me116g.sct
+"",me116h.sct
+"",M0252
+"",m5160000
+"","C02発生。
+バルア帝国過激団参上デス\c"
+"",a116dc02.mld
+"",M0313
+"",e6c002
+"",a116dc02.mld
+"","G08発生。
+先はまだまだ長いよ〜\c"
+"",a116dg08.mld
+"",M0315
+"",e6g008
+"",a116dg08wa.mld
+"",a116dg08.mld
+"",a116dg08wa.mld
+"","G09発生。
+ファイナ救出で〜ス\c"
+"",a116dg09.mld
+"",e6g009
+"",M0309
+"",a116dg09.mld
+"","G15発生。
+チェックおつかれさま〜\c"
+"",a116dg15.mld
+"",M0380
+"",e6g015
+"",a116dg15.mld
+"","G30発生。
+すれ違うラミレスとヴァイスの心…\c"
+"",a116dg08.mld
+"",a116dg08wa.mld
+"",M0252
+"",e6g032
+"",a116dg08.mld
+"",a116dg08wa.mld

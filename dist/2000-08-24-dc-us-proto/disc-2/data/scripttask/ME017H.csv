@@ -1,0 +1,551 @@
+[Event Name],Task ID
+M02000000,"\h(《Marco》)No… Why…
+Everything we've worked so hard for is gone.\e"
+M02000003,"\h(《What will you say to Marco?》)”We'll just have to rebuild our base.”
+”Stop crying.”\e"
+M02000004,"\h(《Vyse》)We'll just have to rebuild our base. We did it 
+before and we can do it again. The important 
+thing is that no one got seriously hurt.\e"
+M02000005,"\h(《Vyse》)If we all give Izmael a hand, we'll have our
+base back up in no time. I'm sure Izmael sees
+this as a chance to improve on the old one.\e"
+M02000006,"\h(《Marco》)Yeah, you're right.
+Everyone is okay. 
+I guess we can just rebuild our base.\e"
+M02000007,"\h(《Marco》)I'm going to do my best…
+And I might learn a few more things 
+from Izmael, too!\c"
+M02000008,"\h(《Vyse》)Stop crying.
+We've got a lot of work to do here.\e"
+M02000009,"\h(《Vyse》)We just lost a few buildings. 
+They can be rebuilt. You'll never be 
+an Air Pirate if you act like this.\e"
+M02000010,"\h(《Marco》)Yeah, you're right!
+I can't let something like this stand in 
+my way if I'm going to be an Air Pirate.\e"
+M02000011,\h(《Marco》)I'm going to do my best!\c
+M02000012,\h(《Marco》)What? I said that I'll do my best.\c
+M02000001,"\h(《Marco》)You're going to the Silver Shrine?
+Good luck, Vyse. I wish I could go, too.\e"
+M02000002,"\h(《Marco》)But I need to stay here. 
+There's a lot that we need to do.\c"
+M08070000,"\h(《Moegi》)I… I am so scared…
+What are we supposed to do if 
+the Armada attacks us again?\e"
+M08070001,"\h(《Moegi》)Oh, I wish Enrique was here… 
+I know he would keep me safe.\c"
+M08070004,"\h(《What will you say?》)”Moegi, you're safe now…”
+”Calm down!”\e"
+M08070005,"\h(《Vyse》)Moegi, you're safe now. That's what matters 
+most. I had to give up the Crystals in order to 
+save everyone, but we're all okay.\e"
+M08070006,"\h(《Vyse》)I'll do everything I can to protect the lives of
+my crew. \e"
+M08070007,"\h(《Moegi》)You are right, Vyse.
+I am sorry. I am just so worried about Enrique.
+He is out there by himself.\e"
+M08070008,"\h(《Moegi》)I will be brave. For you, your crew, 
+and Enrique.\c"
+M08070009,"\h(《Vyse》)Calm down, Moegi!
+Enrique is in Valua right now,
+by himself.\e"
+M08070010,"\h(《Vyse》)He needs you to be strong for him.
+You've got to have faith that he'll
+come back for you.\c"
+M08070011,"\h(《Moegi》)You are right. I… 
+I am sorry.\e"
+M08070012,"\h(《Moegi》)I will be brave, for you, your crew, 
+and Enrique.\c"
+M08070013,"\h(《Moegi》)I will do my best to help you.
+I have faith in you, Vyse, and I know
+Enrique will come back for me.\c"
+M08070002,"\h(《Moegi》)I heard that you are going to the place where
+Fina is from.\e"
+M08070003,"\h(《Moegi》)Have a safe journey.
+We will take care of the island 
+while you are gone.\c"
+M08150000,"\h(《Kirala》)It's frustrating… It took us so long to build 
+our base, and the Armada burned it to the 
+ground in a few minutes.\e"
+M08150003,"\h(《What will you say to Kirala?》)”We'll all help rebuild.”
+”Now we have a chance to make it better!”\e"
+M08150004,"\h(《Vyse》)We'll all help rebuild our base.
+We already built it once before… 
+The second time should be easier!\e"
+M08150005,"\h(《Vyse》)Hey, Kirala, here's your chance to show everyone
+the finest in Yafutoman Craftmanship. This was
+just a minor setback. Don't let it get you down.\e"
+M08150006,"\h(《Kirala》)Ha, sure thing.
+Thanks, Captain… for cheering me up.\e"
+M08150007,"\h(《Kirala》)Alright, listen up everyone! We're gonna 
+rebuild this base and I'm gonna work you really
+hard, but it will all be worth it! Got it?!\c"
+M08150008,"\h(《Vyse》)Well, some of the crew members were complaining 
+that our old roofs leaked and stuff. Now's our 
+chance to build a better base!\e"
+M08150009,"\h(《Kirala》)Haha…
+I've met some optimistic people before, 
+but Vyse, you put them all to shame.\e"
+M08150010,"\h(《Kirala》)But you're right! We're gonna rebuild 
+our base and it's gonna be better than ever!\c"
+M08150011,"\h(《Kirala》)We've got a big job ahead of us. 
+Before the sun sets, we need 
+to clean up all the debris!\c"
+M08150001,"\h(《Kirala》)We'll have this place fixed up 
+before you guys get back 
+from the Silver Shrine.\e"
+M08150002,"\h(《Kirala》)Okay… now everyone's gonna see what Yafutoman
+carpenters are made of!\c"
+M14000000,"\h(《Izmael》)Shu Bum Bummm…
+There's hardly anything left!
+What should we do?\c"
+M14000003,"\h(《Vyse》)”Izmael, you live for this kind of stuff!”
+”Let's start with the debris.”\e"
+M14000004,"\h(《Vyse》)Izmael, you live for this kind of stuff! Here's 
+your chance to make some improvements to
+the base!\e"
+M14000005,"\h(《Vyse》)Bam Bam Baaam!!!  You want something built, I 
+build it! You don't want something built…\e"
+M14000006,"\h(《Izmael》)I build it anyway!
+Thanks, Vyse. I guess I just needed a little 
+reminder. I AM the greatest!\e"
+M14000007,"\h(《Izmael》)Alright then, I'd better get started! You'll 
+love it! Your base is going to be better 
+than ever!\c"
+M14000008,"\h(《Vyse》)Let's start with the debris.
+Throw everything we can't use over the side, 
+and start working with what's left.\e"
+M14000009,"\h(《Vyse》)The important thing is that everyone is safe!
+If we all work together, we can do it!\e"
+M14000010,"\h(《Izmael》)Absolutely.
+Brabham and I built this place from scratch,
+by ourselves.\e"
+M14000011,"\h(《Izmael》)If everyone helps out, we'll have this place 
+looking as good as new in a jiffy!
+Great, I'm starting to talk like Brabham!\e"
+M14000012,"\h(《Izmael》)Alright, everyone! We can do this! The 
+foundations are still intact! Let's move the 
+debris out of the way so we can start building! \c"
+M14000001,"\h(《Izmael》)Vyse, leave the base to us! 
+It's in good hands!\e"
+M14000002,"\h(《Izmael》)By the time you get back here, this place will 
+look as good as new!\c"
+M14000002,"\h(《Aika…》)Vyse… everyone is really upset right now. 
+They could use some cheering up.\e"
+Mp0010000,"\h(《Aika》)Especially Fina… She's been in our meeting 
+room for a long time now. I think you 
+should go check up on her.\c"
+Mp0010002,"\h(《Aika》)Vyse, I really think you should start comforting
+your crew. They all look pretty miserable.\c"
+Mp0010001,"\h(《Aika》)Fina's ship is by the flagpole! 
+It's ready when you are!\c"
+Mp0020000,"\h(《Fina》)Let's go, Vyse.
+The Great Silver Shrine awaits us.\c"
+Ms017h000,"\h(《ヴァイス》)すっかり焼け落ちてしまって
+跡形もないな……\c"
+Ms017h001,"\h(《ヴァイス》)イズレールの建材は
+すすけているけど無事かな。
+しかし建て直すのはたいへんだ。\c"
+Ms017h002,"\h(《ヴァイス》)テントはすっかり焼けている。
+中に置いてた資材や食料も
+みんな燃えてしまったな。\c"
+Ms017h003,"\h(《ヴァイス》)カリファのテントも占い道具も
+すっかり焼けてしまったな。
+こりゃ、荒れそうだぞ。\c"
+Ms017h004,"\h(《ヴァイス》)俺たちの家も丸焼けか。
+まあ、みんなが無事で
+良かったぜ。\c"
+Ms017h005,"\h(《ヴァイス》)ちっきしょー！　
+ラミレスの野郎、俺の空賊旗を
+丸コゲにしやがって〜！\c"
+Ms017h006,"\h(《ヴァイス》)ゴンザレスも
+さわがしくて
+眠れなかっただろうな。\c"
+Ms017h007,"\h(《ヴァイス》)よし……
+銀の大神殿へ出発するか！\e"
+Ms017h008,"\h(《出発する？》)「よし、出発するぜ！」
+「いや、もう少し島をまわろう」\c"
+Ms017h009,"\h(《ヴァイス》)もうすこし、みんなの様子を
+見てまわっておくか。\c"
+MK0030000,"\h(《Vyse》)Valuan scum!
+How did they find our base?!\e"
+MK0030001,\h(《   》)If you must know…\e
+MK0030002,\h(《Vyse》)Ramirez!\e
+MK0030003,"\h(《Ramirez》)A patrol ship spotted the Delphinus when you 
+came to Dangral… and they followed you back 
+here.\e"
+MK0030004,"\h(《Ramirez》)But I have no interest in you or any 
+of your crew… There is another
+purpose for my… visit.\e"
+MK0030005,"\h(《Ramirez》)I am here for the Crystals. Hand them over, now.\e"
+MK0030006,"\h(《Ramirez》)If you hand them over peacefully, I will 
+call off my troops. If not, we will bombard 
+your pitiful island until you are all dead.\e"
+MK0030007,"\h(《What will you say?》)”You'll have to kill us!”
+”I will trade them for the lives of my crew.”\e"
+MK0030008,"\h(《Vyse》)Did you think we'd just hand them over?!
+You'll have to kill us!\e"
+MK0030009,"\h(《Ramirez》)Nothing would make me happier.
+Now… you will die.\e"
+MK0030010,"\h(《Vyse》)I will trade them for the lives of my crew.  
+Call off your troops and I'll give them to you.\e"
+MK0030011,"\h(《Ramirez》)Heh… I did not expect the Legendary Vyse of the
+Blue Rogues to fold so easily. But, it is a wise
+choice.\e"
+MK0030012,"\h(《Ramirez》)As promised, I will spare your lives. Hand over
+the Crystals.\e"
+MK0040000,"\h(《Ramirez》)At last, all of the Crystals are mine!\e"
+MK0040001,"\h(《Fina》)Ramirez, wait!\e"
+MK0040002,"\h(《Fina》)Why…?
+Why are you doing this?\e"
+MK0040003,"\h(《Ramirez》)Fina…
+The people of this world don't deserve to live.\e"
+MK0040004,"\h(《Ramirez》)Like you, I was sent to here to gather the
+Crystals.\e"
+MK0040005,"\h(《Ramirez》)Shortly after I arrived, I discovered the Valuan
+Empire was also searching for them.
+They were relentless.\e"
+MK0040006,"\h(《Ramirez》)I knew they would eventually find them. After
+Valua's forces retrieved the Crystals, I was
+going to steal them and return to the Shrine.\e"
+MK0040007,"\h(《Ramirez》)While I was in Valua, I learned a great deal 
+about the people of this world… 
+and what motivates them.\e"
+MK0040008,"\h(《Ramirez》)Greed… Hatred… Bigotry… They only value
+material items that can be bought with gold.
+The people of this world are shallow and petty.\e"
+MK0040009,"\h(《Ramirez》)I lost all hope for them.
+I began to despise these loathsome creatures.\e"
+MK0040010,"\h(《Ramirez》)But, there was one…
+One that was different from all the rest… 
+Lord Galcian.\e"
+MK0040011,"\h(《Ramirez》)Lord Galcian was swayed neither by flattery nor
+gold. He also had little faith in the people of
+this world.\e"
+MK0040012,\h(《Ramirez》)Only one thing mattered to him… that was power.\e
+MK0040013,"\h(《Ramirez》)Lord Galcian convinced me that this world needed
+a single ruler. One who could slaughter the weak
+and lead the strong.\e"
+MK0040014,"\h(《Ramirez》)He showed me the meaning of true power.
+The one who holds all the power can end lives,
+destroy cities, and change the world.\e"
+MK0040015,"\h(《Ramirez》)A man like Galcian needs to rule this world.
+Only he can unlock its potential. \e"
+MK0040016,"\h(《Ramirez》)I swore an oath.
+I would lay down my sword and my life for
+Lord Galcian.\e"
+MK0040017,"\h(《Ramirez》)We now hold all of the Crystals.
+With these, a power greater than the the Gigas
+will be brought back to this world.\e"
+MK0040018,\h(《Ramirez》)Now all of you will bow before him.\e
+MK0040019,"\h(《What will you say?》)”You're a fool to underestimate us.”
+”What do you mean by a power greater than the
+Gigas?!”\e"
+MK0040020,"\h(《Vyse》)You're a fool to underestimate us.
+Do you think we'll just let you get away with
+this?\e"
+MK0040021,"\h(《Ramirez》)Fools…
+What can you do without the Moon Crystals?\e"
+MK0040022,\h(《Ramirez》)You don't even know their true purpose… \e
+MK0040023,\h(《Vyse》)What are you talking about?!\e
+MK0040024,"\h(《Vyse》)What do you mean by a power greater than the
+Gigas?!\e"
+MK0040025,"\h(《Ramirez》)Ahh, yes… 
+You were collecting the Crystals without knowing
+their true purpose.\e"
+MK0040026,"\h(《Ramirez》)The power to call down the Rains of Destruction
+lies hidden within them.\e"
+MK0040027,"\h(《Ramirez》)Fina… you knew that it was our people that
+called down the Rains of Destruction,
+did you not?\e"
+MK0040028,"\h(《Fina》)What?!
+That…
+That's a lie!\e"
+MK0040029,"\h(《Ramirez》)We were not sent here to prevent the Gigas from 
+being revived. We were sent here so the Elders 
+could unearth the Lost Continent of Soltis.\e"
+MK0040030,"\h(《Ramirez》)That is our true mission!
+Once the six Moon Crystals are combined, 
+the Lost Continent shall rise from Deep Sky.\e"
+MK0040031,"\h(《Ramirez》)But, now I work for Galcian. Together, we will 
+raise the Lost Continent, and with it, unleash 
+the Rains of Destruction ourselves.\e"
+MK0040032,"\h(《Aika》)I don't know what you mean by Lost Continent,
+but aren't you people forgetting something?\e"
+MK0040033,"\h(《Aika》)You only have five of the Crystals.
+The battle isn't over until you have all six!\e"
+MK0040034,"\h(《Ramirez》)You are correct… 
+You don't know about the sixth Crystal…
+the Silver Crystal…\e"
+MK0040035,\h(《Ramirez》)Watch closely… \e
+MK0040036,\h(《Vyse》)What the?!\e
+MK0040037,"\h(《Aika》)In… his hand?  
+The Silver Crystal?!\e"
+MK0040038,\h(《Fina》)Aahh!\e
+MK0040039,\h(《Aika》)Fina!!\e
+MK0040040,"\h(《Ramirez》)All Silvites are born with a piece of the Silver
+Crystal within them.\e"
+MK0040041,"\h(《Ramirez》)In other words… the Silver Crystal contains our
+life force. Only through death, can the Crystal
+be retrieved from our bodies.\e"
+MK0040042,"\h(《Ramirez》)Unlike Teodora, we are not interested in Fina's
+knowledge of the ancients… \e"
+MK0040043,"\h(《Ramirez》)We are interested in the Crystal within her
+body!
+Fina, you shall give me the sixth Crystal… \e"
+MK0040044,\h(《Aika》)He's killing Fina!!!\e
+MK0040045,\h(《Vyse》)Fina!\e
+MK0040046,"\h(《Ramirez》)Come, Fina…
+Give your life to Lord Galcian!\e"
+MK0040047,"\h(《Gilder》)Heh… 
+It's a good thing that guy's long winded… \e"
+MK0040048,"\h(《Clara》)Hang on!
+We got you covered!\e"
+MK0040049,\h(《Ramirez》)… Pests… \e
+MK0040050,"\h(《Ramirez》)Nevertheless, I got what I came for.
+I can get the Silver Crystal anytime I please…\e"
+MK0040051,"\h(《Ramirez》)The Crystals are ours!!!
+Farewell.\e"
+MK0040052,\h(《Aika》)Fina!!!\e
+MK0040053,"\h(《Vyse》)You'll pay for this Ramirez… 
+You will pay… \e"
+MK0040054,\h(《》)You gave the 5 Moon Crystals to Ramirez.\e
+MK0070000,\h(《Vyse》)We made a lot of progress in one day. \e
+MK0070001,"\h(《Aika》)Yeah, but it'll be a while before we can get 
+this place looking like it used to.\e"
+MK0070002,"\h(《Aika》)I remember when we used to watch the sunset on 
+Pirate Isle. You used to always talk about being
+the Captain of your own ship… \e"
+MK0070003,"\h(《Vyse》)…Hahaha… Yeah… I remember… 
+And sailing beyond the sunset.\e"
+MK0070004,\h(《Aika》)We've… we've come quite a long way since then.\e
+MK0070005,"\h(《Aika》)And because we've come so far, we can't just 
+give up now, right?\e"
+MK0070006,"\h(《Vyse》)You're right.
+Our journey isn't over yet.\e"
+MK0070007,"\h(《Fina》)Vyse…
+Aika…\e"
+MK0070008,\h(《Aika》)Fina!!\e
+MK0070009,"\h(《Fina》)I'm sorry… If I caused all of you to worry
+about me… \e"
+MK0070010,\h(《Vyse》)…Are you okay now?\e
+MK0070011,"\h(《Fina》)Yes, I feel a lot better… 
+Actually… I, I have a favor to ask of you.\e"
+MK0070012,"\h(《Fina》)Will you…
+Will both of you come with me to the Great 
+Silver Shrine?\e"
+MK0070013,\h(《Aika》)What?!\e
+MK0070014,"\h(《Fina》)Ramirez was saying that in order to call down 
+the Rains of Destruction, he needs all of the 
+Moon Crystals.\e"
+MK0070015,"\h(《Fina》)I thought that the Crystals were only used
+to control the Gigas. I didn't know that they 
+could call down the Rains of Destruction.\e"
+MK0070016,"\h(《Fina》)And I had no idea that my own people were the
+ones who were responsible for the deaths of 
+millions.\e"
+MK0070017,"\h(《Fina》)…I… even have a piece of the Silver Crystal 
+inside my body… \e"
+MK0070018,"\h(《Fina》)Everything the Elders told me… 
+My whole life… 
+has been a lie.\e"
+MK0070019,"\h(《Fina》)I want to know…
+I need to know the truth… 
+about the Crystals… about my people… \e"
+MK0070020,"\h(《Fina》)Vyse… Aika…
+I'll ask you again like I did so long ago… 
+Will you travel with me?\e"
+MK0070021,"\h(《What will you say?》)”Of course we will!”
+”We'll go anywhere with you, Fina!”\e"
+MK0070022,"\h(《Vyse》)Of course we will!
+Even if you didn't want us to, we'd go with you
+anyway!\e"
+MK0070023,"\h(《Aika》)No matter what happens, Fina, we'll always be 
+your friends!\e"
+MK0070024,"\h(《Vyse》)Fina, we'll go anywhere with you! 
+Even to the Great Silver Shrine!\e"
+MK0070025,\h(《Aika》)Let's figure all of this stuff out… together.\e
+MK0070026,"\h(《Fina》)Thank you…
+Thank you both so very much!\e"
+MK0070027,"\h(《   》)Hey now… you guys weren't planning on leaving
+me behind, were you?\e"
+MK0070028,\h(《Vyse》)Gilder!\e
+MK0070029,"\h(《Gilder》)I don't know, but it sounds like things are just
+about to get interesting.\e"
+MK0070030,"\h(《Gilder》)You didn't think that I'd just sit back and let
+you have all the fun, did you?\e"
+MK0070031,"\h(《Aika》)Heh… well, it looks like we've got a party 
+again.\e"
+MK0070032,"\h(《Vyse》)Alright… let's rest up today.
+We leave for the Great Silver Shrine tomorrow!\e"
+MK0070033,\h(《Aika & Fina》)Yes!\e
+MK0070034,\h(《》)Gilder has joined your party.\e
+MK0230000,\h(《Vyse》)No!!! It's all on fire!\e
+MK0230001,\h(《Aika》)Vyse! Look out!\e
+MK0230002,"\h(《Valuan Soldier》)Heh heh heh… 
+Nice place you had here.
+Pity that it's burning to the ground.\e"
+MK0230003,"\h(《Valuan Soldier》)We would have asked you to surrender, 
+but we decided that it would 
+be more fun to kill you.\e"
+MK0240000,"\h(《Aika》)Vyse!
+I just finished putting out the last fire.
+This is horrible!\e"
+MK0240001,"\h(《Vyse》)I know. Everything that we've worked so hard for
+is… gone.\e"
+MK0240002,"\h(《Vyse》)Our base…
+It's in ruins… \e"
+MK0240003,"\h(《Aika》)And we lost all of the Crystals. The Delphinus 
+isn't powerful enough to invade Valua either. 
+What are we supposed to do now?\e"
+MK0240004,"\h(《What will you say?》)”I will not give up!”
+”We'll steal the Crystals back!”\e"
+MK0240005,\h(《Vyse》)I will not give up!\e
+MK0240006,"\h(《Vyse》)We're Air Pirates, remember?
+We'll just steal the Crystals back!\e"
+MK0240007,\h(《Aika》)Vyse… I…\e
+MK0240008,"\h(《Vyse》)It's not going to be easy, but we can rebuild 
+our base. As for the Crystals… well, at least
+we know they're all in the same place.\e"
+MK0240009,"\h(《Vyse》)Don't give up, Aika. If we give up, then Ramirez
+will destroy the entire world. We have to keep
+fighting. There's always a way!\e"
+MK0240010,\h(《Aika》)…Yeah.\e
+MK0240011,"\h(《Aika》)You're right. At one point, this was a deserted
+island… And you were stranded here by yourself.\e"
+MK0240012,"\h(《Vyse》)Exactly.
+That reminds me… how is Fina?\e"
+MK0240013,"\h(《Aika》)Well…
+Actually, ever since Ramirez left, she's been up
+in the meeting room by herself…\e"
+MK0240014,"\h(《Aika》)I think everything that happened yesterday was a
+little too much for her. Vyse, why don't you try
+and talk to her?\e"
+MK0240015,"\h(《Vyse》)I can't imagine what she's going through…
+Yeah, I'll go talk to her.\e"
+"",a017h02.mld
+"",a017h02.mld
+"",a017h02.mld
+"",me017h.sct
+"",a017h02.mld
+"",me017h.sct
+"",a017h00.mld
+"",a017h00.mld
+"",a017h02.mld
+"",a017h02.mld
+"",me017h.sct
+"",a017h00.mld
+"",a017h00.mld
+"",a017h02.mld
+"",me230a.sct
+"",a017h00.mld
+"",a017h00.mld
+"",a017h00.mld
+"",a017h00.mld
+"",a017a00.mld
+"",me017d.sct
+"",a017a00.mld
+"",me017e.sct
+"",a017h00.mld
+"",me017c.sct
+"",a017h00.mld
+"",me017c.sct
+"",a017h00.mld
+"",M0242
+"",M5170000
+"",a017xk03.mld
+"",a017xk03.mld
+"",M0315
+"",e6k003
+"",a017xk03ef_h.mld
+"",a017xk03ef_h.mld
+"",a017xk03ef_h.mld
+"",a017xk03.mld
+"",EV_K04_map“H”発生しました。\c
+"",a017xk04_a.mld
+"",a017xk04_a.mld
+"",M0315
+"",e6k004
+"",a017xk04_b.mld
+"",a017xk04_b.mld
+"",a017xk04ef_h.mld
+"",a017xk04ef_h.mld
+"",a017xk04ef_h.mld
+"",a017xk04ef01.mld
+"",a017xk04ef01.mld
+"",a017xk04ef01.mld
+"",a017xk04_i.mld
+"",a017xk04_i.mld
+"",a017xk04_b.mld
+"",a017xk04_i.mld
+"",a017xk04_c.mld
+"",a017xk04_c.mld
+"",a017xk04ef10.mld
+"",a017xk04ef10.mld
+"",a017xk04ef11.mld
+"",a017xk04ef11.mld
+"",a017xk04_c.mld
+"",a017xk04ef10.mld
+"",a017xk04ef11.mld
+"",a017xk04_d.mld
+"",a017xk04_d.mld
+"",a017xk04_e.mld
+"",a017xk04_e.mld
+"",a017xk04ef12.mld
+"",a017xk04ef12.mld
+"",a017xk04ef12.mld
+"",a017xk04ef26.mld
+"",a017xk04ef24.mld
+"",a017xk04ef22.mld
+"",a017xk04ef20.mld
+"",a017xk04_e.mld
+"",a017xk04_f.mld
+"",a017xk04_g.mld
+"",a017xk04_f.mld
+"",a017xk04_g.mld
+"",a017xk04ef20.mld
+"",a017xk04ef22.mld
+"",a017xk04ef24.mld
+"",a017xk04ef26.mld
+"",a017xk04ef20.mld
+"",a017xk04ef22.mld
+"",a017hk04ef28.mld
+"",a017hk04ef28.mld
+"",M0325
+"",a017xk04_h.mld
+"",a017xk04_g.mld
+"",a017xk04ef24.mld
+"",a017xk04ef26.mld
+"",a017hk04ef28.mld
+"",a017xk04_h.mld
+"",M0325
+"",a017xk04_a.mld
+"",a017xk04_d.mld
+"",a017xk04_f.mld
+"",a017xk04_h.mld
+"",a017h00.mld
+"",a017hk07.mld
+"",a017hk07.mld
+"",M0309
+"",e6k007
+"",M0312
+"",M0312
+"",a017hk07.mld
+"",EV_K23_map“H”発生しました。\c
+"",a017xk23.mld
+"",a017xk23.mld
+"",M0325
+"",e6k023
+"",a017xk23ef_h.mld
+"",a017xk23ef_h.mld
+"",a017xk23ef_h.mld
+"",a017xk23ef_h.mld
+"",a017xk23.mld
+"",a017a00.mld
+"",a017a00.mld
+"",a017xk24.mld
+"",a017xk24.mld
+"",M0319
+"",e6k024
+"",a017a00.mld
+"",a017xk24.mld

@@ -1,0 +1,2337 @@
+[Event Name],Task ID
+ME0020000,"\h(«Aika»)Umm…
+There are a bunch of people wearing masks…
+And they have spears, too…\e"
+ME0020001,\h(«Horteka Villager»)Are you Quetya?\e
+ME0020002,\h(«Vyse»)Huh?\e
+ME0020003,"\h(«Horteka Villager»)The girl… in the white clothes… 
+is she Quetya?\e"
+ME0020004,"\h(«Fina»)What?
+Are they talking about me?\e"
+ME0020005,"\h(«Vyse»)Umm… we're Blue Rogues. 
+We came across the South Ocean.\e"
+ME0020006,"\h(«Horteka Villager»)You are not Quetya…
+You are the same as the other men from the East.
+It is best if you leave soon.\e"
+ME0020007,"\h(«Vyse»)What did I say?
+What do they mean “Quetya” and who are the
+“Men from the East”?\e"
+ME0020008,"\h(«Fina»)I have no idea.
+I don't know what they're talking about.\e"
+ME0020009,"\h(«Drachma»)We should meet with the leader of the village.
+He might be able to explain what's going on
+here.\e"
+ME0020010,"\h(«Drachma»)Also, that trip across South Ocean has depleted
+our fuel supply. We need to stock up on Moon
+Stones if we ever want to leave this place.\e"
+ME0020011,"\h(«Vyse»)Okay… let's find the leader of this village…
+Maybe we'll be able to find some Moon Stones 
+here as well.\e"
+MFE0020000,"\h(«Aika»)Umm……
+Il y a des gens qui portent des masques……
+Et ils tiennent aussi des lances……\e"
+MFE0020001,\h(«Villageois Horteka»)Êtes-vous Quetya ?\e
+MFE0020002,\h(«Vyse»)Hein ?\e
+MFE0020003,"\h(«Villageois Horteka»)La fille…… vêtue de blanc……
+C'est Quetya ?\e"
+MFE0020004,"\h(«Fina»)Comment ?
+Ils parlent de moi ?\e"
+MFE0020005,"\h(«Vyse»)Umm…… nous sommes des Voleurs Bleus.
+Nous avons traversé l'Océan Sud pour venir.\e"
+MFE0020006,"\h(«Villageois Horteka»)Vous n'êtes pas Quetya……
+Vous ressemblez à ces hommes venus de l'Est.
+Je vous conseille de partir au plus vite.\e"
+MFE0020007,"\h(«Vyse»)Qu'est-ce que j'ai dit ?
+Pourquoi vous appellent-ils “Quetya” et qui sont
+les “Hommes venus de l'Est” ?\e"
+MFE0020008,"\h(«Fina»)Aucune idée.
+Je ne sais pas de quoi ils parlent.\e"
+MFE0020009,"\h(«Drachma»)Il faudrait rencontrer le chef du village.
+Il pourra peut-être nous expliquer ce qui se
+passe.\e"
+MFE0020010,"\h(«Drachma»)Et puis, cette traversée de l'Océan Sud a
+réduit nos réserves de carburant. Il faut nous
+ravitailler en Pierres de Lune si l'on veut
+partir d'ici un jour.\e"
+MFE0020011,"\h(«Vyse»)OK…… allons trouver le chef de ce village……
+Peut-être que nous trouverons aussi des Pierres
+de Lune ici.\e"
+MGE0020000,"\h(«Aika»)Hmm……  Da sind ein paar Leute mit Masken im
+Gesicht…… Und die haben auch Speere……\e"
+MGE0020001,\h(«Horteka-Dorfbewohner»)Bist du Quetya?\e
+MGE0020002,\h(«Vyse»)Wie?\e
+MGE0020003,"\h(«Horteka-Dorfbewohner»)Das Mädchen…… im weißen Gewand……
+ist sie Quetya?\e"
+MGE0020004,"\h(«Fina»)Was?
+Reden die von mir?\e"
+MGE0020005,"\h(«Vyse»)Ähmm…… wir sind Blue Rogues.
+Wir sind über den South Ocean gekommen.\e"
+MGE0020006,"\h(«Horteka-Dorfbewohner»)Du bist nicht Quetya……
+Ihr seid genau wie die anderen Männer aus dem
+Osten. Am besten verschwindet ihr gleich wieder.\e"
+MGE0020007,"\h(«Vyse»)Was habe ich gesagt?
+Was meinen die mit “Quetya”, und wer sind die
+“Männer aus dem Osten”?\e"
+MGE0020008,"\h(«Fina»)Keine Ahnung.
+Ich weiß nicht, wovon sie sprechen.\e"
+MGE0020009,"\h(«Drachma»)Wir sollten den Anführer des Dorfes
+aufsuchen. Vielleicht kann er erklären, was hier
+los ist.\e"
+MGE0020010,"\h(«Drachma»)Außerdem hat die Fahrt über den South Ocean
+unseren Spritvorrat verbraucht. Wir müssen uns
+Moon Stones besorgen, wenn wir je von hier weg
+wollen.\e"
+MGE0020011,"\h(«Vyse»)OK…… Lasst uns den Anführer des Dorfes finden……
+Vielleicht gibt es hier auch ein paar
+Moon Stones.\e"
+MSE0020000,"\h(«Aika»)Umm……
+Hay un grupo de gente que lleva máscaras……
+Y también tienen lanzas……\e"
+MSE0020001,\h(«Lugareño de Horteka»)¿Eres Quetya?\e
+MSE0020002,\h(«Vyse»)¿Eh?\e
+MSE0020003,"\h(«Lugareño de Horteka»)La chica…… con ropas blancas……
+¿Es Quetya?\e"
+MSE0020004,"\h(«Fina»)¿Qué?
+¿Están hablando de mí?\e"
+MSE0020005,"\h(«Vyse»)Umm…… somos Bandidos Azules.
+Hemos cruzado el Océano Sur.\e"
+MSE0020006,"\h(«Lugareño de Horteka»)No sois Quetya……
+Sois como los otros hombres que venían del Este.
+Será mejor que os vayáis cuanto antes.\e"
+MSE0020007,"\h(«Vyse»)¿Pero qué he dicho?
+¿Qué quieren decir con “Quetya” y quiénes son
+“Los Hombres del Este”?\e"
+MSE0020008,"\h(«Fina»)No tengo ni idea.
+No sé de lo que hablan.\e"
+MSE0020009,"\h(«Drachma»)Tenemos que presentarnos al líder de la aldea.
+Quizá él pueda explicarnos qué pasa aquí.\e"
+MSE0020010,"\h(«Drachma»)Además, cruzar el Océano Sur ha agotado nuestras
+provisiones de combustible. Tenemos que
+abastecernos de Piedras Lunares si queremos
+salir de aquí algún día.\e"
+MSE0020011,"\h(«Vyse»)Vale…… vamos a visitar al líder de la aldea……
+Quizá también podamos encontrar algunas Piedras
+Lunares aquí.\e"
+ME0040000,"\h(«Elder»)So, you are from the East.
+Your people bring disaster. 
+Leave this village immediately.\e"
+ME0040001,"\h(«Vyse»)Wait a minute!
+Why does everyone keep talking about these
+“Men from the East” and this “Quetya” stuff?\e"
+ME0040002,\h(«Vyse»)I don't even know what a “Quetya” is! \e
+ME0040003,"\h(«Elder»)Quetya is our god. Generations ago, when the 
+giant came to destroy us, Quetya appeared and 
+saved our village.\e"
+ME0040004,"\h(«Elder»)Ancient prophecies say that Quetya's messengers
+will come from the East and save us if our land
+is ever in danger.\e"
+ME0040005,"\h(«Vyse»)I understand… and since we came from the East, 
+that is why everyone thinks “Quetya” sent us.\e"
+ME0040006,"\h(«Aika»)But… if Quetya's messengers are supposed to
+save you, why did you say that people from the
+East bring disaster?\e"
+ME0040007,"\h(«Elder»)Even now, the men from the East are destroying
+our land. They claim they come from a place
+called Valua.\e"
+ME0040008,"\h(«Aika»)Valua?!
+They're here, too?\e"
+ME0040009,"\h(«Elder»)When the people from Valua came, everyone 
+thought that Quetya sent them. Even the king 
+came to greet them.\e"
+ME0040010,"\h(«Elder»)The people from Valua said they wanted Moon 
+Stones. We took them to our Sacred Mountain 
+where we keep Glow Rocks.\e"
+ME0040011,"\h(«Fina»)So, the Valuans came to steal their
+Moon Stones…\e"
+ME0040012,"\h(«Elder»)And then the people from Valua attacked us with 
+fire-breathing iron ships. They took control 
+of Sacred Mountain.\e"
+ME0040013,"\h(«Elder»)Everyone… even the king fought…
+But many were killed and the forest was burned. 
+The survivors… were taken as slaves…\e"
+ME0040014,"\h(«Aika»)That's terrible!
+They are using your people to gather the
+Moon Stones so they can make weapons!\e"
+ME0040015,"\h(«Vyse»)So that's why everyone is so against the
+“Men from the East”.\e"
+ME0040016,"\h(«Vyse»)Please…
+You need to trust us. We are different from 
+the Valuans… the “Men from the East”.\e"
+ME0040017,"\h(«Vyse»)We fight against Valua so they can't hurt 
+people…\e"
+ME0040018,"\h(«Vyse»)And that is why we've come all this way… 
+We need a very precious stone, called 
+a Moon Crystal.\e"
+ME0040019,\h(«Elder»)…\e
+ME0040020,"\h(«Drachma»)You can't expect him to trust us…
+You're wasting your time, boy!\e"
+ME0040021,"\h(«Vyse»)…Please, I am telling the truth.
+Please…\e"
+ME0040022,"\h(«Elder»)…If you fly north from this village, you'll see
+a small hut in the middle of the forest. 
+That is where our king is hiding.\e"
+ME0040023,"\h(«Elder»)The kings of our land have always passed down 
+the Sacred Green Stone from generation to 
+generation. This may be the stone that you seek.\e"
+ME0040024,"\h(«Elder»)Your eyes. They are pure.
+I believe that you are here to help us.
+Please… save our people.\e"
+ME0040025,"\h(«Vyse»)Thank you…
+I will not betray you.\e"
+ME0040026,"\h(«Vyse»)Let's go!
+We've got a village to save…\e"
+MFE0040000,"\h(«Ancien»)Alors comme ça, vous venez de l'Est.
+Votre peuple est cause de désastre. 
+Partez immédiatement de ce village.\e"
+MFE0040001,"\h(«Vyse»)Attendez une minute !
+Pourquoi est-ce que tout le monde nous parle de
+ces “Hommes venus de l'Est” et de cette
+“Quetya” ?\e"
+MFE0040002,\h(«Vyse»)Je ne sais même pas ce qu'est une “Quetya” !\e
+MFE0040003,"\h(«Ancien»)Quetya est notre déesse. Il y a bien longtemps,
+quand le géant est venu pour nous détruire,
+Quetya est apparue et a sauvé notre village.\e"
+MFE0040004,"\h(«Ancien»)Les anciennes prophéties racontent que les
+messagers de Quetya viendront de l'Est pour
+nous sauver si notre terre est en danger.\e"
+MFE0040005,"\h(«Vyse»)Je comprends…… et puisque nous venons de l'Est,
+tout le monde croit que “Quetya” nous envoie.\e"
+MFE0040006,"\h(«Aika»)Mais…… si les messagers de Quetya sont censés
+vous sauver, pourquoi dites-vous que les gens
+venus de l'Est sont cause de désastre ?\e"
+MFE0040007,"\h(«Ancien»)Aujourd'hui encore, les hommes venus de l'Est
+détruisent notre terre. Ils prétendent venir
+d'un endroit qui s'appelle Valua.\e"
+MFE0040008,"\h(«Aika»)Valua ?!
+Ils sont ici, eux aussi ?\e"
+MFE0040009,"\h(«Ancien»)Quand les hommes de Valua sont arrivés, tout le
+monde pensait que Quetya les avait envoyés.
+Même le roi est venu les accueillir.\e"
+MFE0040010,"\h(«Ancien»)Les gens de Valua ont dit qu'ils voulaient des
+Pierres de Lune. Nous les avons emmenés sur
+notre Montagne Sacrée, là où nous gardons nos
+Rocs Brillants.\e"
+MFE0040011,"\h(«Fina»)Donc, les Valuans sont venus voler leurs Pierres
+de Lune……\e"
+MFE0040012,"\h(«Ancien»)Ensuite les gens venus de Valua nous ont
+attaqués avec des navires de fer lance-flamme.
+Ils ont pris le contrôle de la Montagne Sacrée.\e"
+MFE0040013,"\h(«Ancien»)Tout le monde…… même le roi s'est battu……
+Mais beaucoup de gens ont péri et la forêt a
+brûlé. Les survivants…… ils en ont fait leurs
+esclaves……\e"
+MFE0040014,"\h(«Aika»)C'est horrible !
+Ils se servent de votre peuple pour rassembler
+les Pierres de Lune pour pouvoir fabriquer des
+armes !\e"
+MFE0040015,"\h(«Vyse»)Alors voilà pourquoi tout le monde est contre
+ces “Hommes venus de l'Est”.\e"
+MFE0040016,"\h(«Vyse»)Je vous en prie……
+Il faut nous faire confiance. Nous sommes
+différents des Valuans…… les “Hommes venus de
+l'Est”.\e"
+MFE0040017,"\h(«Vyse»)Nous nous battons contre Valua pour qu'ils ne
+fassent de mal à personne……\e"
+MFE0040018,"\h(«Vyse»)Voilà pourquoi nous avons fait tout ce chemin…
+Nous avons besoin d'une pierre très précieuse,
+qui s'appelle Cristal de Lune.\e"
+MFE0040019,\h(«Ancien»)……\e
+MFE0040020,"\h(«Drachma»)Tu ne peux pas lui demander de nous faire
+confiance…… Tu perds ton temps, mon garçon !\e"
+MFE0040021,"\h(«Vyse»)……S'il vous plaît, je vous dis la vérité.
+Je vous en prie……\e"
+MFE0040022,"\h(«Ancien»)……En volant au nord de ce village, vous verrez
+une petite hutte au milieu de la forêt.
+C'est là que se cache notre roi.\e"
+MFE0040023,"\h(«Ancien»)Depuis toujours, les rois de notre terre se
+transmettent la Pierre Verte Sacrée de
+génération en génération. C'est peut-être la
+pierre que vous cherchez.\e"
+MFE0040024,"\h(«Ancien»)Vos yeux. Ils sont purs.
+Je pense que vous êtes ici pour nous aider.
+Je vous en prie…… sauvez notre peuple.\e"
+MFE0040025,"\h(«Vyse»)Merci……
+Je ne vous trahirai pas.\e"
+MFE0040026,"\h(«Vyse»)Allons-y !
+Il faut sauver le village……\e"
+MGE0040000,"\h(«Dorfältester»)Ihr seid also aus dem Osten.
+Euer Volk bringt Unglück.
+Verlasst sofort dieses Dorf.\e"
+MGE0040001,"\h(«Vyse»)Moment mal!
+Warum reden hier alle von diesen “Männern aus
+dem Osten” und diesem “Quetya”-Zeug?\e"
+MGE0040002,"\h(«Vyse»)Ich weiß nicht einmal, was ein “Quetya” ist!\e"
+MGE0040003,"\h(«Dorfältester»)Quetya ist unser Gott. Vor Generationen, als
+der Riese kam, um uns zu vernichten, erschien
+Quetya und rettete unser Dorf.\e"
+MGE0040004,"\h(«Dorfältester»)Alten Prophezeiungen nach sollen die Quetya
+aus dem Osten kommen und uns retten, falls
+unser Land jemals in Gefahr sein sollte.\e"
+MGE0040005,"\h(«Vyse»)Ich verstehe…… und da wir aus dem Osten kamen,
+denken hier alle, dass wir “Quetya” sind.\e"
+MGE0040006,"\h(«Aika»)Aber…… wenn die Quetya euch doch retten
+sollen, warum sagt ihr dann, dass die Leute
+aus dem Osten Unglück bringen?\e"
+MGE0040007,"\h(«Dorfältester»)In diesem Augenblick zerstören Männer aus dem
+Osten unser Land. Sie behaupten, vom Land der
+Valua zu kommen.\e"
+MGE0040008,"\h(«Aika»)Valua?!
+Die sind auch hier?\e"
+MGE0040009,"\h(«Dorfältester»)Als die Leute aus Valua kamen, glaubten alle,
+dass sie Quetya seien. Sogar der König kam,
+um sie zu begrüßen.\e"
+MGE0040010,"\h(«Dorfältester»)Die Leute aus Valua sagten, sie wollten Moon
+Stones. Wir nahmen sie mit zu unserem Sacred
+Mountain, wo wir Glow Rocks aufbewahren.\e"
+MGE0040011,"\h(«Fina»)So, die Valuaner sind gekommen, ihre Moon
+Stones zu stehlen……\e"
+MGE0040012,"\h(«Dorfältester»)Und dann griffen die Leute von Valua uns mit
+Feuer speienden eisernen Schiffen an.
+Sie besetzten unseren Sacred Mountain.\e"
+MGE0040013,"\h(«Dorfältester»)Alle…… sogar der König…… kämpften……
+Aber viele wurden getötet, und der Wald brannte
+ab. Die Überlebenden…… wurden als Sklaven
+mitgenommen.\e"
+MGE0040014,"\h(«Aika»)Das ist ja furchtbar!
+Sie benutzen euer Volk, um Moon Stones zu
+sammeln, damit sie Waffen herstellen können!\e"
+MGE0040015,"\h(«Vyse»)Deshalb sind alle so sehr gegen die “Männer aus
+dem Osten”.\e"
+MGE0040016,"\h(«Vyse»)Bitte……
+Ihr müsst uns vertrauen. Wir sind anders als
+die “Männer aus dem Osten”.\e"
+MGE0040017,"\h(«Vyse»)Wir bekämpfen die aus Valua, damit sie anderen
+nicht schaden können……\e"
+MGE0040018,"\h(«Vyse»)Deshalb sind wir von so weit her gekommen.
+Wir brauchen einen Edelstein, genannt Moon
+Crystal.\e"
+MGE0040019,\h(«Dorfältester»)……\e
+MGE0040020,"\h(«Drachma»)Du kannst nicht von ihm erwarten, dass er
+uns vertraut…… Du verschwendest deine Zeit!\e"
+MGE0040021,"\h(«Vyse»)…… Bitte, ich sage die Wahrheit. Bitte……\e"
+MGE0040022,"\h(«Dorfältester»)…… Wenn du von diesem Dorf aus nordwärts
+fliegst, siehst du eine kleine Hütte inmitten
+des Waldes.
+Dort versteckt sich unser König.\e"
+MGE0040023,"\h(«Dorfältester»)Die Könige in unserem Land haben von jeher den
+Sacred Green Stone von einer Generation an die
+nächste weitergegeben. Das ist vielleicht
+der Stein, den ihr sucht.\e"
+MGE0040024,"\h(«Dorfältester»)Deine Augen. Sie sind aufrichtig. Ich glaube
+euch, dass ihr hier seid, uns zu helfen. Bitte……
+rettet unser Volk.\e"
+MGE0040025,"\h(«Vyse»)Danke……
+Ich werde euch nicht betrügen.\e"
+MGE0040026,"\h(«Vyse»)Gehen wir!
+Wir müssen ein Dorf retten……\e"
+MSE0040000,"\h(«Anciano»)Así que venís del Este.
+Vuestro pueblo trae la desgracia.
+Abandonad esta aldea inmediatamente.\e"
+MSE0040001,"\h(«Vyse»)¡Espera un momento!
+¿Por qué habla todo el mundo de los “Hombres del
+Este” y del “Quetya”?\e"
+MSE0040002,\h(«Vyse»)¡Ni siquiera sé lo que es un “Quetya”!\e
+MSE0040003,"\h(«Anciano»)Quetya es nuestro dios. Hace generaciones,
+cuando el gigante vino a destruirnos, Quetya
+apareció y salvó a nuestra aldea.\e"
+MSE0040004,"\h(«Anciano»)Las antiguas profecías dicen que los mensajeros
+de Quetya vendrán del Este y nos salvarán si
+alguna vez nuestra aldea está en peligro.\e"
+MSE0040005,"\h(«Vyse»)Comprendo…… y como hemos venido del Este, todo
+el mundo piensa que “Quetya” nos envió.\e"
+MSE0040006,"\h(«Aika»)Pero…… si los mensajeros de Quetya son vuestros
+salvadores, ¿por qué creéis que la gente del
+Este trae desgracias?\e"
+MSE0040007,"\h(«Anciano»)Todavía hoy, los hombres del Este se dedican a
+destruir nuestras tierras. Afirman venir de un
+lugar llamado Valua.\e"
+MSE0040008,"\h(«Aika»)¡¿Valua?!
+¿Ellos también están aquí?\e"
+MSE0040009,"\h(«Anciano»)Cuando vino la gente de Valua, todos creyeron
+que Quetya les había enviado. Incluso el rey les
+presentó sus saludos.\e"
+MSE0040010,"\h(«Anciano»)Las gentes de Valua dijeron que querían Piedras
+Lunares y les llevamos al Monte Sagrado donde
+guardamos las Rocas Refulgentes.\e"
+MSE0040011,"\h(«Fina»)O sea que los Valuan vinieron
+a robar las Piedras Lunares……\e"
+MSE0040012,"\h(«Anciano»)Entonces el pueblo de Valua nos atacó con navíos
+de acero que despedían un aliento de fuego. Se
+hicieron con el control del Monte Sagrado.\e"
+MSE0040013,"\h(«Anciano»)Todos…… incluso el rey luchamos contra ellos……
+Pero mataron a mucha gente y quemaron el bosque.
+A los supervivientes…… les hicieron sus
+esclavos……\e"
+MSE0040014,"\h(«Aika»)¡Qué horror!
+¡Están usando a vuestro pueblo para reunir
+Piedras Lunares y fabricar armas con ellas!\e"
+MSE0040015,"\h(«Vyse»)Por eso todo el mundo está en contra de los
+“Hombres del Este”.\e"
+MSE0040016,"\h(«Vyse»)Por favor……
+Confía en nosotros. No somos como los Valuan……
+los “Hombres del Este”.\e"
+MSE0040017,"\h(«Vyse»)Luchamos contra Valua para que no puedan causar
+más sufrimiento a la gente……\e"
+MSE0040018,"\h(«Vyse»)Por eso hemos venido hasta aquí……
+Necesitamos una piedra muy valiosa, llamada
+Cristal Lunar.\e"
+MSE0040019,\h(«Anciano»)……\e
+MSE0040020,"\h(«Drachma»)No pensarás que va a creerte……
+¡Estás perdiendo el tiempo, chico!\e"
+MSE0040021,"\h(«Vyse»)……Por favor, te estamos diciendo la verdad.
+Por favor……\e"
+MSE0040022,"\h(«Anciano»)…… Si vuelas al Norte de esta aldea, verás una
+pequeña cabaña en medio del bosque.
+Ahí se oculta nuestro rey.\e"
+MSE0040023,"\h(«Anciano»)Los reyes de nuestras tierras siempre han pasado
+la Piedra Verde Sagrada de generación en
+generación. Esta piedra puede ser la que
+buscáis.\e"
+MSE0040024,"\h(«Anciano»)Tus ojos. Son puros.
+Creo que estás aquí para ayudarnos.
+Por favor…… salva a nuestro pueblo.\e"
+MSE0040025,"\h(«Vyse»)Gracias……
+No os traicionaré.\e"
+MSE0040026,"\h(«Vyse»)¡Vamos!
+Tenemos una aldea que salvar……\e"
+M05000000,"\h(«Weapons Merchant»)…
+I have nothing to sell to a person from the
+east.\c"
+M05000001,"\h(«Weapons Merchant»)The elder says I must help you. So even though I
+don't like it, I will sell to you.\e"
+M05000002,"\h(«What will you do?»)“Buy and sell weapons”
+“Talk to the Merchant”
+“Leave”\e"
+M05000003,"\h(«Weapons Merchant»)For a long time, we did not fight wars. Weapons
+were only for hunting, or as defense from wild
+animals.\e"
+M05000004,"\h(«Weapons Merchant»)But ever since the Valuans arrived, I have
+started making weapons to use against people.\c"
+M05000005,\h(«Weapons Merchant»)…\c
+M05000006,"\h(«Weapons Merchant»)You are a hero to all who live in the forest.
+I'd be honored if you used my weapons.\e"
+M05000007,"\h(«What will you do?»)“Buy and sell weapons”
+“Talk to the Merchant”
+“Leave”\e"
+M05000008,"\h(«Weapons Merchant»)The men of the village have returned. I'm going
+to work hard to make weapons. We want to protect
+the village with our own hands.\e"
+M05000009,"\h(«Weapons Merchant»)This weapon I made, I made it with a prayer for
+the forest. Please make good use of it.\c"
+M05010000,\h(«Item Merchant's Daughter»)…\c
+M05010001,\h(«Item Merchant's Daughter»)…Is there something you'd like to buy?\e
+M05010002,"\h(«What will you do?»)“Buy and sell items.”
+“Talk to the Merchant”
+“Leave the shop”\e"
+M05010003,"\h(«Item Merchant's Daughter»)The Valuans, they were looking for the Sacred
+Green Stone. They said it shines even brighter
+than a Moon Stone.\e"
+M05010004,"\h(«Item Merchant's Daughter»)I've never seen a stone like that, but they took
+away everything in the shop anyway. \e"
+M05010005,\h(«Item Merchant's Daughter»)…\c
+M05010006,"\h(«Item Merchant's Daughter»)All because of you, the forest has been saved.
+It would make me happy if any of my items proved
+useful to you.\e"
+M05010007,"\h(«What will you do?»)“Buy and sell items”
+“Talk to the Merchant”
+“Leave the shop”\e"
+M05010008,"\h(«Item Merchant's Daughter»)Our forest burned, but it will revive quickly.
+The Forest of Ixa'taka is very strong.\e"
+M05010009,\h(«Item Merchant's Daughter»)Thank you. May Quetya be with you.\c
+M05020000,\h(«Tavernkeep»)Get out! We don't have food for Easterners!\c
+M05020001,"\h(«Tavernkeep»)This tavern was a good tavern. Merida's dancing 
+made everybody happy. My loqua kept everybody 
+in good spirits.\e"
+M05020002,"\h(«Tavernkeep»)Then the Valuans came, captured some, killed 
+others, and stole our food and drink.\e"
+M05020003,"\h(«Tavernkeep»)Merida won't dance anymore. The others won't 
+laugh anymore. My tavern has nothing left.\e"
+M05020004,"\h(«Tavernkeep»)Merida won't dance anymore. The others won't 
+laugh anymore. My tavern has nothing left.\e"
+M05020005,"\h(«Tavernkeep»)Everybody came back. Merida is dancing again. 
+I thank you.\e"
+M05020006,"\h(«Tavernkeep»)Eat all you want. Drink all you want. For you, 
+it is free.\e"
+M05020007,"\h(«Tavernkeep»)A while ago, Merida wrote a letter and put it in
+a bottle tied to a red balloon. I saw her
+release it into the air.\e"
+M05020008,"\h(«Tavernkeep»)I think it was a very important letter to 
+Merida.\e"
+M05020009,"\h(«Tavernkeep»)When Merida left, my tavern became a very lonely
+place.\e"
+M05020010,"\h(«Tavernkeep»)But if she is happy dancing in your ship, then
+it is worth it. If Merida is happy, I am happy.\c"
+M05030000,\h(«Young maiden»)……\e
+M05030001,"\h(«Merida»)I am Merida, the dancer of this tavern. When I 
+dance, I make everybody happy. 
+But… I, I cannot dance anymore. \e"
+M05030002,"\h(«Merida»)The Valuans killed my father. And they killed 
+many of my friends, too.\e"
+M05030003,"\h(«Merida»)Now, when I dance, it does not make people 
+happy. So, I dance no more.\e"
+M05030004,"\h(«Merida»)Now, when I dance, it does not make people 
+happy. So, I dance no more.\e"
+M05030005,"\h(«Merida»)Everybody has returned, except for my father. He
+was killed, so he cannot come home. But I will
+dance again to make the people happy once more.\e"
+M05030006,"\h(«Merida»)But I… I will never forgive Valua. Someday I 
+will get my own ship. I will avenge my father.\c"
+M05030007,"\h(«Merida»)But I… I will never forgive Valua. Someday I 
+will get my own ship. I will avenge my father.\c"
+M05030008,"\h(«Merida»)That is a very powerful ship that you have. I 
+hope one day I will board a ship. I look for 
+comrades to help me get revenge on Valua.\e"
+M05030009,"\h(«Merida»)I wrote a letter to Quetya and sent it into the 
+sky. I asked Quetya to please send me strong 
+warriors to aid my cause.\e"
+M05030010,"\h(«Merida»)That is a very powerful ship that you have. I 
+hope one day I will board a ship. I look for 
+comrades to help me get revenge on Valua.\e"
+M05030011,"\h(«Merida»)I wrote a letter to Quetya and sent it into the
+sky. I asked Quetya to please send me strong 
+warriors to aid my cause.\e"
+M05030012,"\h(«Vyse»)Could this be that letter by any chance? 
+I picked it up in the Ocean.\e"
+M05030013,"\h(«Merida»)That is the letter that I wrote to Quetya! I 
+sent it looking for help.\e"
+M05030014,"\h(«Merida»)Quetya surely sent you to me. You must be the
+warriors that I am waiting for.\e"
+M05030015,"\h(«Merida»)Please! Take me with you! I want to fight 
+against Valua!\e"
+M05030016,"\h(«Merida»)I… I may not be strong, but I can dance. 
+My dancing will lift everyone's spirits!\e"
+M05030017,\h( )Merida has joined your crew as a “Jester.”\c
+M05040000,\h(«Masked Man»)I want nothing to do with you.\c
+M05040001,"\h(«Masked Man»)You look for the Sacred Green Stone, just like 
+the Valuans.\e"
+M05040002,"\h(«Masked Man»)The Valuans demanded that I tell them where the 
+Sacred Green Stone was. They beat me over and 
+over… I thought I was going to die…\e"
+M05040003,"\h(«Masked Man»)The Valuans demanded that I tell them where the 
+Sacred Green Stone was. They beat me over and 
+over… I thought I was going to die…\e"
+M05040004,"\h(«Masked Man»)I saw the Giant of the Forest! Legend has it
+that the Giant of the Forest will protect us. 
+But I'm not so sure about that…\e"
+M05040005,"\h(«Masked Man»)The Giant of the Forest was surely created by 
+someone with an evil heart. Evil will not 
+protect us. It is good that you stopped it. \e"
+M05040006,"\h(«Masked Man»)Welcome, welcome. You are our heroes. It is an 
+honor to have you here. Please make yourselves 
+at home.\e"
+M05040007,"\h(«Masked Man»)You people came from the east? You made it 
+through the wall of rocks?\e"
+M05040008,"\h(«Masked Man»)Long ago, many brave men made attempts to break 
+through the wall of rocks. All failed, and the 
+rocks destroyed their ships. You are amazing!\e"
+M05040009,\h(«Masked Man»)The forest… Something bad is happening there…\e
+M05050000,"\h(«Elder»)…So you are the ones from the east who people 
+have been talking about.\c"
+M05050001,"\h(«Elder»)You must go see the king. He lives in a hut to 
+the north. The hut is protected by a giant tree.\c"
+M05050002,"\h(«Elder»)So you intend to go to Moon Stone Mountain, 
+do you?\e"
+M05050003,"\h(«Elder»)Moon Stone Mountain is where our comrades are 
+imprisoned. If there is any disturbance, they 
+will be killed. Please be very careful.\e"
+M05050004,"\h(«Elder»)So High Priest Isapa is safe. It is wonderful to
+hear. I hope the others are safe, too.\c"
+M05050005,"\h(«Elder»)My deepest gratitude. Thanks to you, the people 
+have safely returned to their homes.\e"
+M05050006,"\h(«Elder»)You people are not Quetya, but I think it was 
+Quetya who sent you to us.\e"
+M05050007,"\h(«Elder»)Like all those who Quetya sends to us, you are 
+welcome in this village any time. The people of 
+the forest will help you.\c"
+M05050008,"\h(«Elder»)Like all those who Quetya sent to us, you are 
+welcome in this village any time. The people of 
+the forest will help you.\c"
+M05050009,"\h(«Elder»)Ahh, it is Lord Vyse! What in the world is this 
+trembling of the sky? What could be going on?\e"
+M05050010,"\h(«Elder»)What? You say a new continent has risen from 
+beneath the clouds? It is a fearsome thing.\e"
+M05050011,"\h(«Elder»)What? You say a new continent has risen from 
+beneath the clouds? It is a fearsome thing.\e"
+M05060000,"\h(«High Priest»)Quetya and the people of the east, we once 
+confused. But we will confuse the two no more.\c"
+M05060001,"\h(«High Priest»)“From the east will come the one who can
+vanquish the Great Evil.” That was the prophecy 
+from Quetya.\e"
+M05060002,"\h(«High Priest»)Quetya is a god from the east. Long, long ago, 
+Quetya saved our forest from a dangerous enemy.\e"
+M05060003,"\h(«High Priest»)Whenever our forest is in danger, Quetya always 
+comes to our rescue.\c"
+M05060004,"\h(«High Priest»)Quetya is a god from the east. Quetya will 
+surely appear and save us from Valua.\c"
+M05060005,"\h(«High Priest»)Quetya's prophecy has been fulfilled. Quetya has
+indeed saved us.\e"
+M05060006,"\h(«High Priest»)You people were sent by the god Quetya. Quetya 
+took on your forms to come and save us.\c"
+M05060007,"\h(«High Priest»)There was a prophecy that evil would come from 
+the east. Is something terrible about to occur?\c"
+M05070000,"\h(«Elderly Innkeeper»)So you're from the east? You look tired. Would 
+you like a room for the night? It'll be 160 
+gold.\e"
+M05070001,"\h(«What will you do?»)“Stay the night.”
+“Leave.”\e"
+M05070002,\h(«Elderly Innkeeper»)Sleep well…\c
+M05070003,"\h(«Elderly Innkeeper»)You seem refreshed. Come again any time you need
+a rest.\c"
+M05070004,"\h(«Elderly Innkeeper»)People from the east get tired just like anyone 
+else. Don't worry about it. Come again any time 
+you need a rest.\c"
+M05070010,"\h(«Elderly Innkeeper»)…You don't have enough money.
+Come back when you have enough.\c"
+M05070005,"\h(«Elderly Innkeeper»)You saved the village! Thank you. Stay awhile 
+here and get a good rest.\e"
+M05070006,"\h(«What will you do?»)“Stay the night.”
+“Leave.”\e"
+M05070007,\h(«Elderly Innkeeper»)Sleep well…\c
+M05070008,"\h(«Elderly Innkeeper»)You seem refreshed. Come again any time you need
+a rest.\c"
+M05070009,"\h(«Elderly Innkeeper»)You must be careful not to push yourself beyond 
+your limits. Come again any time you need a 
+rest.\c"
+M05140000,\h(«Woman»)Urrrr… Go away! Scram! Don't bother me!\c
+M05140001,"\h(«Woman»)My son, he was taken away by the Valuans to work
+on Moon Stone Mountain.\e"
+M05140002,"\h(«Woman»)Every night, I have terrible dreams of my son 
+crying and suffering on Moon Stone Mountain. I 
+am so sad. I am so sad.\c"
+M05140003,"\h(«Woman»)Every night, I have terrible dreams of my son 
+crying and suffering on Moon Stone Mountain. I 
+am so sad. I am so sad.\c"
+M05140004,"\h(«Woman»)My son has come home! He lost a lot of weight, 
+but he is alive and well. Thank you. Thank you.\c"
+M05140005,"\h(«Woman»)My son is alive and well, and with me again. 
+Everyday, I feel so happy. I am so happy.\c"
+M05140006,"\h(«Woman»)I sense something bad, evil. Something terrible
+is going to happen again. I am afraid. I am very
+afraid.\c"
+M05150000,"\h(«Masked Man»)Ahh! You're the one who got rid of the Valuans! 
+It's only because of you that I was saved.\e"
+M05150001,"\h(«Masked Man»)On Moon Stone Mountain, they made me work. It 
+was very hard. But thanks to you, I came home 
+alive.\e"
+M05150002,"\h(«Masked Man»)Here, my thanks. Please put it to good use.\e"
+M05150003,\h( )You received 1 “Tropica.”\c
+M05150004,"\h(«Masked Man»)On Moon Stone Mountain, they made me work. It 
+was very hard. But thanks to you, I came home 
+alive.\c"
+M05150005,"\h(«Masked Man»)Ahh, it's you! My savior. Let me tell you 
+something interesting.\e"
+M05150006,"\h(«Masked Man»)Somewhere in the lower parts of this island,
+there is a fruit called the “Garpa Fruit.” It
+is very tasty.\e"
+M05150007,"\h(«Masked Man»)Everyone in the village loves them. You should 
+try them, too.\c"
+M05150008,"\h(«Masked Man»)Somewhere in the lower parts of this island, 
+there is a berry called the “Gropta Berry.” It 
+is very tasty.\c"
+M05160000,\h(«Masked Man»)……\c
+M05160001,"\h(«Masked Man»)The men of Ixa'taka are all warriors. We protect
+the forest, protect our king. We can strike down
+wild animals in a single blow.\e"
+M05160002,"\h(«Masked Man»)But we let our guard down. We thought Valua was 
+not the enemy. We even held a festival to 
+welcome them.\e"
+M05160003,"\h(«Masked Man»)Suddenly, Valua captured the king, and the sky 
+filled with ships that spat fire. We could do 
+nothing.\c"
+M05160004,"\h(«Masked Man»)Suddenly, Valua captured the king, and the sky 
+filled with ships that spat fire. We could do 
+nothing.\c"
+M05160005,"\h(«Masked Man»)Ahh! It's you! All thanks to you, our village 
+was saved!\e"
+M05160006,"\h(«Masked Man»)I will guard this village with my life. Nothing
+will get past me, not Valua, not the giant. This
+I swear.\c"
+M05160007,"\h(«Masked Man»)I will guard this village with my life. Nothing
+will get past me, not Valua, not the giant. This
+I swear.\c"
+M05160008,"\h(«Masked Man»)A little while ago, many steel ships came from 
+Valua, flying over the forest.\e"
+M05160009,"\h(«Masked Man»)We prepared to fight. The women and children hid
+in the forest. But the ships passed us by, and
+went west.\e"
+M05160010,"\h(«Masked Man»)The other day, the Valuans returned from the 
+west. There were less ships, and all of them 
+were damaged. What happened in the west?\c"
+M05160011,"\h(«Masked Man»)The other day, the Valuans returned from the 
+west. There were less ships, and all of them 
+were damaged. What happened in the west?\c"
+M05160012,"\h(«Masked Man»)Something very serious is going to happen in the
+east. Is your battle connected with this thing
+in the east?\e"
+M05160013,"\h(«Masked Man»)We are determined to protect this village with 
+our own hands. You have your own battle to 
+fight. We wish you well.\e"
+M05160014,"\h(«Masked Man»)We are determined to protect this village with 
+our own hands. You have your own battle to 
+fight. We wish you well.\e"
+M05170000,\h(«Masked Man»)…\c
+M05170001,"\h(«Masked Man»)This song is for Quetya. When the Valuans came, 
+I played this song in the welcome festival.\e"
+M05170002,"\h(«Masked Man»)Now I play to ask Quetya to come, and drive off 
+the Valuans.\c"
+M05170003,"\h(«Masked Man»)This song is for Quetya. It thanks Quetya for 
+bringing everyone home.\c"
+M05180000,"\h(«Girl»)Are you from the east? Everyone hates people 
+from the east. You'd best be on your way.\c"
+M05180001,\h(«Girl»)The Elder said you defeated Valua. Is it true?\e
+M05180002,"\h(«Girl»)I have always believed in Quetya. I believe 
+someday Quetya will come, and destroy Valua for 
+us.\e"
+M05180003,"\h(«Girl»)Maybe you were sent here by Quetya.
+Do you think so?\c"
+M05180004,"\h(«Girl»)I have always believed in Quetya. I believe 
+someday Quetya will come, and destroy Valua for 
+us.\c"
+M05180005,"\h(«Girl»)You really did destroy Valua! You are very 
+strong!\e"
+M05180006,"\h(«Girl»)Just as I thought. You were sent by Quetya, 
+weren't you?\c"
+M05180007,"\h(«Girl»)In the eastern sky, something horrible is 
+happening. But you're going to do something 
+about it for us, aren't you?\e"
+M05180008,"\h(«Girl»)I mean, after all, you were sent by Quetya!\c"
+M05190000,\h(«Monkey»)Gyaaaa!\e
+M05200000,\h(«Monkey»)Gyaaaa!\e
+M05210000,"\h(«Masked Man»)I saw you come from the eastern sky. I can see 
+many things from here… Oops!\e"
+M05210001,"\h(«Masked Man»)I must not talk to people from the east. You'd 
+better forget what I said.\c"
+M05210002,\h(«Masked Man»)…\c
+M05210003,\h(«Masked Man»)You are not a bad man. The Elder said so.\e
+M05210004,"\h(«Tikatika»)I am Tikatika. I was the first to see you 
+coming. My eyes are sharper than the birds'. I 
+am proud of my eyes.\e"
+M05210005,"\h(«Tikatika»)If I concentrate, I can see anything, no matter 
+how far. Shall I show you?\e"
+M05210006,"\h(«What will you do?»)“Have him show you”
+“Never mind”\e"
+M05210007,\h(«Tikatika»)All right! Here goes!\e
+M05210008,\h(«Tikatika»)Umph! Urrmmmmmm!\e
+M05210009,\h(«Tikatika»)Kiyahaaaaa!\e
+M05210010,"\h(«Tikatika»)Aha! A golden man. To the north, I see a golden 
+man.\e"
+M05210011,"\h(«Tikatika»)In the northern sky there is a golden man.
+It is the truth. Go and see for yourself.\c"
+M05210012,"\h(«Tikatika»)Shucks, you're no fun. It is the truth. My eyes 
+are very good. Incredible even!\c"
+M05210013,"\h(«Tikatika»)My eyes are sharper than the birds'. Shall I 
+show you?\e"
+M05210014,"\h(«Tikatika»)You defeated the giant. I saw it from here. You 
+are awesome!\c"
+M05210015,"\h(«Tikatika»)You have a nice ship. Have you flown around here
+a lot? Do you know this area well?\e"
+M05210016,"\h(«Tikatika»)Have you seen a ship with all women sailors
+around here? Sometimes I see them flying nearby.
+They are very different from the women here.\e"
+M05210017,"\h(«Tikatika»)Even with my eyes, I cannot always see where 
+they go. I am very curious about them.\e"
+M05210018,"\h(«Vyse»)A place with just women? Hmm…
+Sorry, can't help you there.\e"
+M05210019,"\h(«Tikatika»)Too bad.
+I won't leave here until I find out!\c"
+M05210020,"\h(«Vyse»)Women only? Maybe you're talking about the 
+“Village of the Ixa'ness.”\e"
+M05210021,"\h(«Tikatika»)Yes! Yes! That must be it! So, there really is
+a village of only women… I've been searching
+for it for many years. Thank you.\e"
+M05210022,"\h(«Tikatika»)You are the best sailor I know. Take me with
+you on your ship. I want to travel with you.\e"
+M05210023,\h(«Vyse»)Really? You'll join the crew of my ship?\e
+M05210024,"\h(«Tikatika»)That's right, I'll join your crew. I've been 
+looking for someone who could make good use of 
+my incredible eyes.\e"
+M05210025,"\h(«Tikatika»)With my eyes, I can see the enemy from far away.
+Other things, too, as clear as day. This will be
+useful to you.\e"
+M05210026,\h( )Tikatika has joined your crew as a “Lookout.”\c
+M05300000,"\h(«Masked Man»)Ahh, you're Vyse! It's all thanks to you that my
+life was saved.\e"
+M05300001,"\h(«Masked Man»)I was forced to work on Moon Stone Mountain. 
+My mother was all alone, back in the village, 
+and I couldn't go home. I was very worried.\e"
+M05300002,"\h(«Masked Man»)But because of you, I was able to come home to 
+my mother. Thank you. Thank you.\c"
+M05300003,"\h(«Masked Man»)But because of you, I was able to come home to 
+my mother. Thank you. Thank you.\c"
+M05300004,"\h(«Masked Man»)Something is happening again in the east.
+Are we going to be invaded again?\e"
+M05300005,"\h(«Masked Man»)This time, nothing can take me away from my 
+mother's side. I will stay right here and 
+protect my mother. \e"
+MF05000000,"\h(«Armurier»)……
+Je n'ai rien à vendre à quelqu'un qui vient de
+l'Est.\c"
+MF05000001,"\h(«Armurier»)L'Ancien dit que je dois vous aider. Alors je
+vous vendrai quelque chose, que je le veuille ou
+non.\e"
+MF05000002,"\h(«Que ferez-vous ?»)“Vous vendrez et achèterez des Armes.”
+“Vous parlerez au Marchand.”
+“Vous partirez.”\e"
+MF05000003,"\h(«Armurier»)Il n'y a pas eu de guerre depuis longtemps. Les
+armes ne servaient qu'à chasser, ou à se
+défendre contre les animaux sauvages.\e"
+MF05000004,"\h(«Armurier»)Depuis l'arrivée des Valuans, j'ai commencé à
+fabriquer des armes destinées à combattre les
+hommes.\c"
+MF05000005,\h(«Armurier»)……\c
+MF05000006,"\h(«Armurier»)Vous êtes le héros de tous ceux qui vivent dans
+la forêt. Je serais honoré si vous utilisiez mes
+armes.\e"
+MF05000007,"\h(«Que ferez-vous ?»)“Vous vendrez et achèterez des Armes.”
+“Vous parlerez au Marchand.”
+“Vous partirez.”\e"
+MF05000008,"\h(«Armurier»)Les hommes du village sont revenus. Je vais
+travailler dur à la fabrication de ces armes.
+Nous voulons protéger le village de nos propres
+mains.\e"
+MF05000009,"\h(«Armurier»)Cette arme que j'ai faite, je l'ai faite en
+disant une prière pour la forêt.\c"
+MF05010000,\h(«Fille du Marchand d'Objets»)……\c
+MF05010001,\h(«Fille du Marchand d'Objets»)……Voulez-vous acheter quelque chose ?\e
+MF05010002,"\h(«Que ferez-vous ?»)“Vous vendrez et achèterez des Objets.”
+“Vous parlerez au Marchand.”
+“Vous partirez.”\e"
+MF05010003,"\h(«Fille du Marchand d'Objets»)Les Valuans cherchaient la Pierre Verte
+Sacrée. On raconte qu'elle brille plus qu'une
+Pierre de Lune.\e"
+MF05010004,"\h(«Fille du Marchand d'Objets»)Je n'ai jamais vu de pierre comme celle-là, mais
+ils ont dévalisé le magasin de toute façon.\e"
+MF05010005,\h(«Fille du Marchand d'Objets»)……\c
+MF05010006,"\h(«Fille du Marchand d'Objets»)Grâce à vous, la forêt a été sauvée.
+Cela me ferait plaisir que vous trouviez un
+objet qui puisse vous être utile.\e"
+MF05010007,"\h(«Que ferez-vous ?»)“Vous vendrez et achèterez des Objets.”
+“Vous parlerez au Marchand.”
+“Vous partirez.”\e"
+MF05010008,"\h(«Fille du Marchand d'Objets»)Notre forêt a brûlé, mais elle se régénérera
+vite. La Forêt d'Ixa'taka est très résistante.\e"
+MF05010009,\h(«Fille du Marchand d'Objets»)Merci. Que Quetya soit avec vous.\c
+MF05020000,"\h(«Tavernier»)Sortez d'ici ! Il n'y a rien à manger pour les
+gens venus de l'Est !\c"
+MF05020001,"\h(«Tavernier»)C'était une bonne taverne dans le temps.
+La danseuse, Merida, enchantait tout le monde.
+Mon loqua mettait tout le monde de bonne humeur.\e"
+MF05020002,"\h(«Tavernier»)Puis les Valuans sont arrivés, en ont capturé
+certains, tué d'autres, et nous ont volé nos
+vivres.\e"
+MF05020003,"\h(«Tavernier»)Merida ne dansera plus. Les autres ne riront
+plus. Ma taverne est vide.\e"
+MF05020004,"\h(«Tavernier»)Merida ne dansera plus. Les autres ne riront
+plus. Ma taverne est vide.\e"
+MF05020005,"\h(«Tavernier»)Tout le monde est rentré. Merida s'est remise à
+danser. Merci.\e"
+MF05020006,"\h(«Tavernier»)Mangez et buvez tout ce que vous voulez. C'est
+gratuit pour vous.\e"
+MF05020007,"\h(«Tavernier»)Il y a quelques temps, Merida a écrit une lettre
+qu'elle a mise dans une bouteille, attachée à un
+ballon. Je l'ai vue la lâcher dans les airs.\e"
+MF05020008,"\h(«Tavernier»)Je pense que cette lettre était très importante
+pour Merida.\e"
+MF05020009,"\h(«Tavernier»)Quand Merida est partie, ma taverne est devenue
+un endroit lugubre.\e"
+MF05020010,"\h(«Tavernier»)Mais si elle est contente de danser sur votre
+navire, cela en vaut la peine. Si Merida est
+heureuse, je le suis aussi.\c"
+MF05030000,\h(«Jeune Fille»)…………\e
+MF05030001,"\h(«Merida»)Je suis Merida, la danseuse de cette taverne.
+Les gens sont heureux quand ils me regardent
+danser. Mais……  Je, je ne peux plus danser.\e"
+MF05030002,"\h(«Merida»)Les Valuans ont tué mon père. Et ils ont aussi
+tué plusieurs de mes amis.\e"
+MF05030003,"\h(«Merida»)Maintenant, quand je danse, cela ne rend plus
+les gens heureux. Alors je ne danse plus.\e"
+MF05030004,"\h(«Merida»)Maintenant, quand je danse, cela ne rend plus
+les gens heureux. Alors je ne danse plus.\e"
+MF05030005,"\h(«Merida»)Tout le monde est rentré, à part mon père car
+ils l'ont tué. Mais je me remettrai à danser
+pour faire plaisir aux gens.\e"
+MF05030006,"\h(«Merida»)Mais je…… je ne pardonnerai jamais à Valua. Un
+jour j'aurai mon propre navire et je vengerai
+mon père.\c"
+MF05030007,"\h(«Merida»)Mais je…… je ne pardonnerai jamais à Valua. Un
+jour j'aurai mon propre navire et je vengerai
+mon père.\c"
+MF05030008,"\h(«Merida»)Vous avez un navire très puissant. J'espère que
+je monterai à bord d'un navire un jour. Je
+cherche des compagnons pour m'aider à me venger
+de Valua.\e"
+MF05030009,"\h(«Merida»)J'ai écrit une lettre à Quetya et l'ai envoyée
+dans les airs. J'ai demandé à Quetya de
+m'envoyer des guerriers forts pour défendre ma
+cause.\e"
+MF05030010,"\h(«Merida»)Vous avez un navire très puissant. J'espère que
+je monterai à bord d'un navire un jour. Je
+cherche des compagnons pour m'aider à me venger
+de Valua.\e"
+MF05030011,"\h(«Merida»)J'ai écrit une lettre à Quetya et l'ai envoyée
+dans les airs. J'ai demandé à Quetya de
+m'envoyer des guerriers forts pour défendre ma
+cause.\e"
+MF05030012,"\h(«Vyse»)Est-ce que c'est cette lettre par hasard ?
+Je l'ai trouvée dans l'Océan.\e"
+MF05030013,"\h(«Merida»)C'est la lettre que j'ai écrite à Quetya ! Je
+l'ai envoyée pour trouver de l'aide.\e"
+MF05030014,"\h(«Merida»)Quetya a dû vous envoyer. Vous devez être les
+guerriers que j'attends.\e"
+MF05030015,"\h(«Merida»)Je vous en prie, emmenez-moi ! Je veux me battre
+contre Valua !\e"
+MF05030016,"\h(«Merida»)Je…… je ne suis peut-être pas très forte, mais
+je sais danser. Je remonterai le moral de tout
+le monde en dansant !\e"
+MF05030017,"\h( )Merida, la “Bouffonne”, a rejoint votre
+équipage\c"
+MF05040000,\h(«Homme Masqué»)Je ne veux rien avoir à faire avec vous.\c
+MF05040001,"\h(«Homme Masqué»)Vous cherchez la Pierre Verte Sacrée, tout comme
+les Valuans.\e"
+MF05040002,"\h(«Homme Masqué»)Les Valuans m'ont demandé où était la Pierre
+Verte Sacrée. Ils n'ont pas arrêté de me
+frapper…… J'ai cru que j'allais mourir……\e"
+MF05040003,"\h(«Homme Masqué»)Les Valuans m'ont demandé où était la Pierre
+Verte Sacrée. Ils n'ont pas arrêté de me
+frapper…… J'ai cru que j'allais mourir……\e"
+MF05040004,"\h(«Homme Masqué»)J'ai vu le Géant de la Forêt ! D'après les
+légendes, le Géant de la Forêt nous protégera.
+Mais je n'en suis pas si sûr……\e"
+MF05040005,"\h(«Homme Masqué»)La personne qui a créé le Géant de la Forêt
+devait être méchante. Le Mal ne nous protégera
+pas. Il vaut mieux que vous l'arrêtiez.\e"
+MF05040006,"\h(«Homme Masqué»)Bienvenue, bienvenue. Vous êtes nos héros. C'est
+un honneur de vous avoir. Faites comme chez
+vous.\e"
+MF05040007,"\h(«Homme Masqué»)Vous êtes venus de l'Est ? Vous avez traversé le
+mur de rochers ?\e"
+MF05040008,"\h(«Homme Masqué»)Jadis, beaucoup de braves hommes ont essayé de
+traverser le mur de rochers. Ils ont tous
+échoué, et les rochers ont détruit leurs
+navires. Vous êtes incroyables !\e"
+MF05040009,"\h(«Homme Masqué»)La forêt…… Il s'y passe quelque chose de
+terrible……\e"
+MF05050000,"\h(«Ancien»)……Donc vous êtes les personnes de l'Est dont
+tout le monde parle.\c"
+MF05050001,"\h(«Ancien»)Vous devez aller voir le roi. Il vit dans une
+hutte au nord. La hutte est protégée par un
+arbre géant.\c"
+MF05050002,"\h(«Ancien»)Vous avez donc l'intention d'aller sur le Mont
+Pierre Lune ?\e"
+MF05050003,"\h(«Ancien»)Nos camarades sont emprisonnés sur le Mont
+Pierre Lune. Si vous semez la pagaille, ils
+seront tués. Soyez très prudents.\e"
+MF05050004,"\h(«Ancien»)Alors le Grand Prêtre Isapa est en sécurité.
+C'est une bonne nouvelle. J'espère que les
+autres aussi sont en sécurité.\c"
+MF05050005,"\h(«Ancien»)Acceptez toute ma gratitude. Grâce à vous tout
+le monde est revenu sain et sauf.\e"
+MF05050006,"\h(«Ancien»)Vous n'êtes pas Quetya, mais je pense que
+Quetya vous a envoyés.\e"
+MF05050007,"\h(«Ancien»)Comme tous ceux que Quetya nous a envoyés, vous
+serez toujours les bienvenus dans ce village.
+Les habitants de la forêt vous aideront.\c"
+MF05050008,"\h(«Ancien»)Comme tous ceux que Quetya nous a envoyés, vous
+serez toujours les bienvenus dans ce village.
+Les habitants de la forêt vous aideront.\c"
+MF05050009,"\h(«Ancien»)Ahh, c'est le Seigneur Vyse ! Quel est ce
+tremblement dans le ciel ? Que se passe t-il ?\e"
+MF05050010,"\h(«Ancien»)Quoi ? Vous dites qu'un nouveau continent a
+surgi des nuages ? C'est effrayant.\e"
+MF05050011,"\h(«Ancien»)Quoi ? Vous dites qu'un nouveau continent a
+surgi des nuages ? C'est effrayant.\e"
+MF05060000,"\h(«Grand Prêtre»)Un jour nous avons confondu Quetya et les
+habitants de l'Est. Mais cela ne se reproduira
+pas.\c"
+MF05060001,"\h(«Grand Prêtre»)“De l'Est viendra celui qui peut vaincre le
+Grand Mal.” C'était la prophétie de Quetya.\e"
+MF05060002,"\h(«Grand Prêtre»)Quetya est un dieu de l'Est. Il y a bien, bien
+longtemps Quetya a sauvé notre forêt d'un ennemi
+dangereux.\e"
+MF05060003,"\h(«Grand Prêtre»)Chaque fois que notre forêt est en danger,
+Quetya vient à notre secours.\c"
+MF05060004,"\h(«Grand Prêtre»)Quetya est un dieu de l'Est. Quetya apparaîtra
+certainement pour nous sauver de Valua.\c"
+MF05060005,"\h(«Grand Prêtre»)La prophétie de Quetya s'est réalisée. Quetya
+nous a sauvés.\e"
+MF05060006,"\h(«Grand Prêtre»)Vous avez été envoyés par le dieu Quetya. Quetya
+a pris vos formes pour venir nous sauver.\c"
+MF05060007,"\h(«Grand Prêtre»)Il existait une prophétie sur le Mal qui
+viendrait de l'Est. Vous croyez qu'un terrible
+malheur va arriver ?\c"
+MF05070000,"\h(«Vieil Aubergiste»)Alors vous êtes de l'Est ? Vous avez l'air
+fatigués. Voulez-vous une chambre pour dormir ?
+C'est 160 pièces d'or la nuit.\e"
+MF05070001,"\h(«Que ferez-vous ?»)“Vous passerez la nuit.”
+“Vous partirez.”\e"
+MF05070002,\h(«Vieil Aubergiste»)Dormez bien……\c
+MF05070003,"\h(«Vieil Aubergiste»)Vous avez l'air bien reposés. Revenez quand vous
+voulez.\c"
+MF05070004,"\h(«Vieil Aubergiste»)Les gens de l'Est se fatiguent comme les autres.
+Ne vous inquiétez pas. Revenez quand vous
+voulez.\c"
+MF05070010,"\h(«Vieil Aubergiste»)……Vous n'avez pas assez d'argent.
+Revenez quand vous en aurez.\c"
+MF05070005,"\h(«Vieil Aubergiste»)Vous avez sauvé le village ! Merci. Restez vous
+reposer un peu.\e"
+MF05070006,"\h(«Que ferez-vous ?»)“Vous passerez la nuit.”
+“Vous partirez.”\e"
+MF05070007,\h(«Vieil Aubergiste»)Dormez bien……\c
+MF05070008,"\h(«Vieil Aubergiste»)Vous avez l'air bien reposés. Revenez quand vous
+voulez.\c"
+MF05070009,"\h(«Vieil Aubergiste»)Vous devez vous ménager. Revenez quand vous
+voulez.\c"
+MF05140000,"\h(«Femme»)Urrrr…… Allez-vous en ! Ouste ! Laissez-moi
+tranquille !\c"
+MF05140001,"\h(«Femme»)Les Valuans ont emmené mon fils sur le Mont
+Pierre Lune pour le faire travailler.\e"
+MF05140002,"\h(«Femme»)Tous les soirs je rêve de mon fils qui pleure et
+qui souffre sur le Mont Pierre Lune. Je suis si
+triste. Je suis si triste.\c"
+MF05140003,"\h(«Femme»)Tous les soirs je rêve de mon fils qui pleure et
+qui souffre sur le Mont Pierre Lune. Je suis si
+triste. Je suis si triste.\c"
+MF05140004,"\h(«Femme»)Mon fils est revenu ! Il a perdu beaucoup de
+poids, mais il est en vie et il va bien. Merci.
+Merci.\c"
+MF05140005,"\h(«Femme»)Mon fils est en vie, il va bien, et nous sommes
+réunis. Je suis vraiment contente.\c"
+MF05140006,"\h(«Femme»)J'ai un mauvais pressentiment. Un grand malheur
+va se produire. J'ai peur. J'ai très peur.\c"
+MF05150000,"\h(«Homme Masqué»)Ahh ! C'est vous qui nous avez débarrassé des
+Valuans ! C'est grâce à vous et vous seul que
+j'ai été sauvé.\e"
+MF05150001,"\h(«Homme Masqué»)Ils m'ont fait travailler sur le Mont Pierre
+Lune. C'était très difficile. Mais grâce à vous,
+je suis revenu vivant.\e"
+MF05150002,\h(«Homme Masqué»)Voilà pour vous remercier. Faites-en bon usage.\e
+MF05150003,\h( )Vous avez reçu “Tropica.” x 1 !\c
+MF05150004,"\h(«Homme Masqué»)Ils m'ont fait travailler sur le Mont Pierre
+Lune. C'était très difficile. Mais grâce à vous,
+je suis revenu vivant.\e"
+MF05150005,"\h(«Homme Masqué»)Ahh, c'est vous ! Mon sauveur. Je vais vous dire
+quelque chose d'intéressant.\e"
+MF05150006,"\h(«Homme Masqué»)Quelque part plus au sud de l'île, il existe une
+baie qui s'appelle la “Baie Gropta”. Elle a très
+bon goût.\e"
+MF05150007,"\h(«Homme Masqué»)Tous les habitants du village en sont friands.
+Vous devriez les goûter.\c"
+MF05150008,"\h(«Homme Masqué»)Quelque part plus au sud de l'île, il existe une
+baie qui s'appelle la “Baie Gropta”. Elle a très
+bon goût.\e"
+MF05160000,\h(«Homme Masqué»)…………\c
+MF05160001,"\h(«Homme Masqué»)Tous les hommes d'Ixa'taka sont des guerriers.
+Nous protégeons la forêt et notre roi. Nous
+pouvons abattre des animaux sauvages du premier
+coup.\e"
+MF05160002,"\h(«Homme Masqué»)Mais nous n'étions pas assez vigilants. Nous ne
+pensions pas que Valua était notre ennemi. Nous
+avons même organisé un festival pour les
+accueillir.\e"
+MF05160003,"\h(«Homme Masqué»)Soudain, Valua a capturé le roi, et des navires
+qui crachaient du feu ont envahi le ciel. Nous
+étions impuissants.\c"
+MF05160004,"\h(«Homme Masqué»)Soudain, Valua a capturé le roi, et des navires
+qui crachaient du feu ont envahi le ciel. Nous
+étions impuissants.\c"
+MF05160005,"\h(«Homme Masqué»)Ahh, c'est vous ! Grâce à vous, notre village a
+été sauvé.\e"
+MF05160006,"\h(«Homme Masqué»)Je me battrai jusqu'à la mort pour ce village.
+Personne ne m'échappera, ni Valua, ni le géant.
+Je le jure.\c"
+MF05160007,"\h(«Homme Masqué»)Je me battrai jusqu'à la mort pour ce village.
+Personne ne m'échappera, ni Valua, ni le géant.
+Je le jure.\c"
+MF05160008,"\h(«Homme Masqué»)Il y a quelques temps, plusieurs navires d'acier
+venus de Valua, survolaient la forêt.\e"
+MF05160009,"\h(«Homme Masqué»)Nous nous sommes préparés à la bataille. Les
+femmes et les enfants se sont cachés dans la
+forêt. Mais les navires n'ont fait que passer,
+et sont partis à l'ouest.\e"
+MF05160010,"\h(«Homme Masqué»)L'autre jour, les Valuans sont revenus de
+l'ouest. Il y avait moins de navires, et ils
+étaient tous endommagés. Que s'est-il passé à
+l'ouest ?\c"
+MF05160011,"\h(«Homme Masqué»)L'autre jour, les Valuans sont revenus de
+l'Ouest. Il y avait moins de navires, et ils
+étaient tous endommagés. Que s'est-il passé à
+l'Ouest ?\c"
+MF05160012,"\h(«Homme Masqué»)Il va se passer quelque chose de très grave à
+l'Est. Est-ce que votre bataille a quelque chose
+à voir avec cela ?\e"
+MF05160013,"\h(«Homme Masqué»)Nous sommes bien décidés à protéger ce village
+de nos propres mains. Vous avez d'autres chats à
+fouetter. Bonne chance.\e"
+MF05160014,"\h(«Homme Masqué»)Nous sommes bien décidés à protéger ce village
+de nos propres mains. Vous avez d'autres chats à
+fouetter. Bonne chance.\e"
+MF05170000,\h(«Homme Masqué»)……\c
+MF05170001,"\h(«Homme Masqué»)Cette chanson est pour Quetya. Quand les Valuans
+sont arrivés, j'ai chanté cette chanson au
+festival de bienvenue.\e"
+MF05170002,"\h(«Homme Masqué»)Maintenant je la chante pour faire venir Quetya,
+et pour faire fuir les Valuans.\c"
+MF05170003,"\h(«Homme Masqué»)Cette chanson est pour Quetya, pour la remercier
+d'avoir ramené tout le monde sain et sauf.\c"
+MF05180000,"\h(«Fille»)Êtes-vous de l'Est ? Tout le monde déteste les
+gens de l'Est. Il vaut mieux que vous partiez.\c"
+MF05180001,"\h(«Fille»)L'Ancien a dit que vous aviez vaincu Valua. 
+C'est vrai ?\e"
+MF05180002,"\h(«Fille»)J'ai toujours cru en Quetya. Je crois que Quetya
+viendra un jour pour détruire Valua, pour nous
+aider.\e"
+MF05180003,"\h(«Fille»)Peut-être que Quetya vous envoie.
+Vous croyez ?\c"
+MF05180004,"\h(«Fille»)J'ai toujours cru en Quetya. Je crois que Quetya
+viendra un jour pour détruire Valua, pour nous
+aider.\e"
+MF05180005,"\h(«Fille»)Vous avez vraiment détruit Valua ! Vous êtes
+vraiment très forts !\e"
+MF05180006,"\h(«Fille»)C'est bien ce que je pensais. Quetya vous
+envoie, n'est-ce pas ?\c"
+MF05180007,"\h(«Fille»)Il se passe quelque chose de terrible à l'Est.
+Mais vous allez nous aider, n'est-ce pas ?\e"
+MF05180008,"\h(«Fille»)Je veux dire, après tout, c'est Quetya qui vous
+envoie !\c"
+MF05190000,\h(«Singe»)Gyaaaa !\e
+MF05200000,\h(«Singe»)Gyaaaa!\e
+MF05210000,"\h(«Homme Masqué»)Je vois que vous venez de l'Est. Je peux voir
+beaucoup de choses d'ici…… Oh oh !\e"
+MF05210001,"\h(«Homme Masqué»)Je ne dois pas parler aux gens venus de l'Est.
+Oubliez tout ce que je vous ai dit.\c"
+MF05210002,\h(«Homme Masqué»)……\c
+MF05210003,\h(«Homme Masqué»)Vous n'êtes pas mauvais. L'Ancien l'a dit.\e
+MF05210004,"\h(«Tikatika»)Je m'appelle Tikatika. Je suis le premier à vous
+avoir vu arriver. Mes yeux sont plus perçants
+que ceux des oiseaux et j'en suis fier.\e"
+MF05210005,"\h(«Tikatika»)Si je me concentre, je peux tout voir, quelle
+que soit la distance. Vous voulez que je vous
+montre ?\e"
+MF05210006,"\h(«Que ferez-vous ?»)“Il vous montrera”
+“Une autre fois”\e"
+MF05210007,\h(«Tikatika»)Très bien ! Voilà !\e
+MF05210008,\h(«Tikatika»)Umph ! Urrmmmmmm !\e
+MF05210009,\h(«Tikatika»)Kiyahaaaaa !\e
+MF05210010,"\h(«Tikatika»)Aha ! Un homme doré. Au nord, je vois un homme
+doré.\e"
+MF05210011,"\h(«Tikatika»)Dans le ciel du nord, il y a un homme doré.
+C'est la vérité. Allez-voir vous-même.\c"
+MF05210012,"\h(«Tikatika»)Zut alors, vous n'êtes pas marrant. C'est la
+vérité. J'ai de bons yeux. C'est incroyable !\c"
+MF05210013,"\h(«Tikatika»)Mes yeux sont plus perçants que ceux des
+oiseaux. Vous voulez que je vous montre ?\e"
+MF05210014,"\h(«Tikatika»)Vous avez vaincu le géant. Je vous ai vu de là-
+bas. Vous êtes formidable !\c"
+MF05210015,"\h(«Tikatika»)Vous avez un joli navire. Vous avez beaucoup
+voyagé dans les parages ? Vous connaissez bien
+cette région ?\e"
+MF05210016,"\h(«Tikatika»)Avez-vous vu un navire qui n'a que des femmes
+marins à son bord ? Parfois je les vois passer.
+Elles sont très différentes des femmes de chez
+nous.\e"
+MF05210017,"\h(«Tikatika»)Même avec mes yeux, je n'arrive pas toujours à
+voir où elles vont. Elles m'intéressent
+beaucoup.\e"
+MF05210018,"\h(«Vyse»)Un endroit où il n'y a que des femmes ? Humm……
+Désolé, je ne peux pas vous aider.\e"
+MF05210019,"\h(«Tikatika»)Dommage.
+Je ne partirai pas avant d'avoir trouvé !\c"
+MF05210020,"\h(«Vyse»)Que des femmes ? Vous parlez peut-être du
+“Village d'Ixa'ness.”\e"
+MF05210021,"\h(«Tikatika»)Oui ! Oui ! C'est sûrement cela ! Alors, il
+existe vraiment un village de femmes…… Je le
+cherche depuis des années. Merci.\e"
+MF05210022,"\h(«Tikatika»)Vous êtes le meilleur marin que je connaisse.
+Prenez-moi à bord de votre navire. Je veux
+voyager avec vous.\e"
+MF05210023,"\h(«Vyse»)Vraiment ? Vous voulez vous joindre à mon
+équipage ?\e"
+MF05210024,"\h(«Tikatika»)Exact, je vais me joindre à votre équipage. Je
+cherche depuis longtemps quelqu'un qui pourrait
+faire bon usage de mes yeux.\e"
+MF05210025,"\h(«Tikatika»)Mes yeux me permettent de voir les ennemis de
+très loin. Je peux voir d'autres choses, aussi,
+aussi clair que le jour. Cela vous servira.\e"
+MF05210026,\h( )Tikatika “Vigie” a rejoint votre équipage.\c
+MF05300000,"\h(«Homme Masqué»)Ahh, c'est vous Vyse ! C'est grâce à vous que je
+suis en vie.\e"
+MF05300001,"\h(«Homme Masqué»)Ils m'ont obligé à travailler sur le Mont Pierre
+de Lune. Ma mère était restée toute seule au
+village, et je ne pouvais pas rentrer. J'étais
+très inquiet.\e"
+MF05300002,"\h(«Homme Masqué»)Mais grâce à vous, j'ai pu rentrer chez ma mère.
+Merci. Merci.\c"
+MF05300003,"\h(«Homme Masqué»)Mais grâce à vous, j'ai pu rentrer chez ma mère.
+Merci. Merci.\c"
+MF05300004,"\h(«Homme Masqué»)Il se passe encore quelque chose à l'Est.
+Allons-nous être encore envahis ?\e"
+MF05300005,"\h(«Homme Masqué»)Cette fois, rien ne me fera quitter ma mère. Je
+resterai ici pour protéger ma mère.\e"
+MG05000000,"\h(«Waffenhändler»)……
+Jemandem aus dem Osten habe ich nichts
+zu verkaufen.\c"
+MG05000001,"\h(«Waffenhändler»)Der Älteste sagt, ich soll dir helfen.
+Obwohl es mir nicht gefällt, werde ich also
+an dich verkaufen.\e"
+MG05000002,"\h(«Was wirst du tun?»)“Waffen kaufen und verkaufen”.
+“Mit dem Händler sprechen”.
+“Weggehen”.\e"
+MG05000003,"\h(«Waffenhändler»)Wir haben eine ganze Zeit lang keinen Krieg
+gehabt. Die Waffen waren nur zur Jagd oder
+zum Schutz vor wilden Tiere da.\e"
+MG05000004,"\h(«Waffenhändler»)Seit jedoch die Valuaner gekommen sind, habe
+ich begonnen, Waffen anzufertigen, die man gegen
+Menschen einsetzen kann.\c"
+MG05000005,\h(«Waffenhändler»)……\c
+MG05000006,"\h(«Waffenhändler»)Für die Menschen im Wald bist du ein Held.
+Es wäre mir eine Ehre, wenn du meine Waffen
+benutzen würdest.\e"
+MG05000007,"\h(«Was wirst du tun?»)“Waffen kaufen und verkaufen”.
+“Mit dem Händler sprechen”.
+“Weggehen”.\e"
+MG05000008,"\h(«Waffenhändler»)Die Männer aus dem Dorf sind zurückgekehrt.
+Ich werde versuchen, so viele Waffen wie möglich
+herzustellen. Wir möchten das Dorf aus eigener
+Kraft verteidigen.\e"
+MG05000009,"\h(«Waffenhändler»)Auf dieser Waffe liegt der Segen des Waldes.
+Setze sie gut ein.\c"
+MG05010000,\h(«Tochter des Objekt-Händlers»)……\c
+MG05010001,\h(«Tochter des Objekt-Händlers»)……Möchtest du etwas kaufen?\e
+MG05010002,"\h(«Was wirst du tun?»)“Objekte kaufen und verkaufen”.
+“Mit dem Händler sprechen”.
+“Aus dem Laden gehen”.\e"
+MG05010003,"\h(«Tochter des Objekt-Händlers»)Die Valuaner suchten den Sacred Green Stone.
+Er soll noch heller leuchten als ein
+Moon Stone.\e"
+MG05010004,"\h(«Tochter des Objekt-Händlers»)Ich habe noch nie einen solchen Stein gesehen,
+aber sie haben ja sowieso alles aus dem Laden
+mitgenommen.\e"
+MG05010005,\h(«Tochter des Objekt-Händlers»)……\c
+MG05010006,"\h(«Tochter des Objekt-Händlers»)Es ist allein dir zu verdanken, dass der Wald
+gerettet wurde. Es würde mich freuen, wenn
+sich der eine oder andere Gegenstand für dich
+als nützlich erweisen sollte.\e"
+MG05010007,"\h(«Was wirst du tun?»)“Objekte kaufen oder verkaufen”.
+“Mit dem Händler sprechen”.
+“Aus dem Laden gehen”.\e"
+MG05010008,"\h(«Tochter des Objekt-Händlers»)Unser Wald ist verbrannt, aber er wird sich
+bald erholen. Der Wald von Ixa'taka ist sehr
+widerstandsfähig.\e"
+MG05010009,\h(«Tochter des Objekt-Händlers»)Danke. Quetya sei mit dir.\c
+MG05020000,"\h(«Taverneninhaber»)Raus! Für Leute aus dem Osten gibt's kein
+Essen!\c"
+MG05020001,"\h(«Taverneninhaber»)Dies war eine gut gehende Taverne. Meridas
+Tanz hat alle erfreut. Mein Loqua hat alle
+bei Stimmung gehalten.\e"
+MG05020002,"\h(«Taverneninhaber»)Dann kamen die Valuaner, einige nahmen sie
+gefangen, andere töteten sie, und sie stahlen
+unsere Lebensmittel und Getränke.\e"
+MG05020003,"\h(«Taverneninhaber»)Merida tanzt nun nicht mehr. Die anderen
+lachen nicht mehr. Meine Taverne ist am Ende.\e"
+MG05020004,"\h(«Taverneninhaber»)Merida tanzt nun nicht mehr. Die anderen
+lachen nicht mehr. Meine Taverne ist am Ende.\e"
+MG05020005,"\h(«Taverneninhaber»)Alle sind wiedergekommen. Merida tanzt wieder.
+Ich danke dir.\e"
+MG05020006,"\h(«Taverneninhaber»)Iss, so viel du willst. Trink, so viel du
+willst. Für dich ist alles umsonst.\e"
+MG05020007,"\h(«Taverneninhaber»)Vor einer Weile schrieb Merida einen Brief
+und steckte ihn in eine Flasche, die an einem
+roten Ballon festgemacht war. Ich habe
+gesehen, wie sie ihn ausgesetzt hat.\e"
+MG05020008,"\h(«Taverneninhaber»)Ich glaube, dieser Brief war sehr wichtig für
+Merida.\e"
+MG05020009,"\h(«Taverneninhaber»)Als Merida wegging, wurde es in meiner Taverne
+sehr einsam.\e"
+MG05020010,"\h(«Taverneninhaber»)Aber wenn es ihr Spaß macht, auf deinem Schiff
+zu tanzen, ist es ja gut. Wenn Merida
+glücklich ist, bin auch ich es auch.\c"
+MG05030000,\h(«Junges Mädchen»)…………\e
+MG05030001,"\h(«Merida»)Ich bin Merida, die Tänzerin in dieser Taverne.
+Wenn ich tanze, erfreuen sich alle daran.
+Aber……  ich…… ich kann nicht mehr tanzen.\e"
+MG05030002,"\h(«Merida»)Die Valuaner haben meinen Vater getötet.
+Und sie haben auch viele meiner Freunde
+getötet.\e"
+MG05030003,"\h(«Merida»)Ich kann die Leute mit meinem Tanz nicht mehr
+erfreuen. Also tanze ich nicht mehr.\e"
+MG05030004,"\h(«Merida»)Ich kann die Leute mit meinem Tanz nicht mehr
+erfreuen. Also tanze ich nicht mehr.\e"
+MG05030005,"\h(«Merida»)Alle sind sie wiedergekommen, nur mein Vater
+nicht. Er wurde getötet. Aber ich werde wieder
+tanzen, um die Leute noch einmal glücklich zu
+machen.\e"
+MG05030006,"\h(«Merida»)Aber ich…… ich werde Valua niemals vergeben.
+Eines Tages werde ich mein eigenes Schiff
+haben. Ich werde meinen Vater rächen.\c"
+MG05030007,"\h(«Merida»)Aber ich…… ich werde Valua niemals vergeben.
+Eines Tages werde ich mein eigenes Schiff
+haben. Ich werde meinen Vater rächen.\c"
+MG05030008,"\h(«Merida»)Das ist aber ein großes Schiff, das ihr da
+habt. Ich hoffe, dass ich eines Tages auch auf
+ein Schiff komme. Ich suche Gleichgesinnte,
+die mir dabei helfen, mich an Valua zu rächen.\e"
+MG05030009,"\h(«Merida»)Ich schrieb einen Brief an Quetya und übergab
+ihn dem Himmel. Ich bat Quetya darum,
+mir starke Krieger für meine Sache zu schicken.\e"
+MG05030010,"\h(«Merida»)Das ist aber ein großes Schiff, das ihr da
+habt. Ich hoffe, dass ich eines Tages auch auf
+ein Schiff komme. Ich suche Gleichgesinnte,
+die mir dabei helfen, mich an Valua zu rächen.\e"
+MG05030011,"\h(«Merida»)Ich schrieb einen Brief an Quetya und übergab
+ihn dem Himmel. Ich bat Quetya darum,
+mir starke Krieger für meine Sache zu schicken.\e"
+MG05030012,"\h(«Vyse»)Könnte das vielleicht der Brief sein?
+Ich habe ihn aus dem Ozean gefischt.\e"
+MG05030013,"\h(«Merida»)Das ist der Brief, den ich an Quetya
+geschrieben habe! Ich habe ihn gesandt,
+um Hilfe zu erhalten.\e"
+MG05030014,"\h(«Merida»)Quetya muss dich zu mir geschickt haben.
+Ihr müsst die Krieger sein, auf die ich
+warte.\e"
+MG05030015,"\h(«Merida»)Bitte! Nehmt mich mit! Ich möchte gegen Valua
+kämpfen!\e"
+MG05030016,"\h(«Merida»)Ich…… bin vielleicht nicht sehr stark, aber
+ich kann tanzen. Mein Tanz wird allseits die
+Gemüter erfreuen!\e"
+MG05030017,"\h( )Merida ist als “Narr” zu deiner Mannschaft
+gestoßen.\c"
+MG05040000,\h(«Maskierter Mann»)Ich möchte mit euch nichts zu tun haben.\c
+MG05040001,"\h(«Maskierter Mann»)Du suchst den Sacred Green Stone, genau wie
+die Valuaner.\e"
+MG05040002,"\h(«Maskierter Mann»)Die Valuaner haben von mir verlangt, dass ich
+ihnen verrate, wo der Sacred Green Stone ist.
+Sie haben mich immer wieder geschlagen…… ich
+dachte, ich müsste sterben……\e"
+MG05040003,"\h(«Maskierter Mann»)Die Valuaner haben von mir verlangt, dass ich
+ihnen verrate, wo der Sacred Green Stone ist.
+Sie haben mich immer wieder geschlagen…… ich
+habe dachte, ich müsste sterben……\e"
+MG05040004,"\h(«Maskierter Mann»)Ich habe den Riesen des Waldes gesehen!
+In den Legenden heißt es, dass der Riese des
+Waldes uns beschützen wird. Aber da bin ich
+mir nicht so sicher……\e"
+MG05040005,"\h(«Maskierter Mann»)Der Riese des Waldes muss von jemandem mit
+bösen Absichten geschaffen worden sein.
+Das Böse wird uns nicht beschützen. Es ist
+gut, dass ihr ihn aufgehalten habt.\e"
+MG05040006,"\h(«Maskierter Mann»)Herzlich willkommmen. Ihr seid unsere Retter.
+Es ist eine Ehre, euch bei uns zu haben.
+Bitte macht es euch bequem.\e"
+MG05040007,"\h(«Maskierter Mann»)Ihr kommt aus dem Osten? Ihr seid durch die
+Felswand hindurchgekommen?\e"
+MG05040008,"\h(«Maskierter Mann»)Vor langer Zeit haben viele tapfere Männer
+versucht, durch die Felswand zu kommen.
+Keinem ist es gelungen, und ihre Schiffe sind
+an den Felsen zerschellt. Ihr seid großartig!\e"
+MG05040009,\h(«Maskierter Mann»)Der Wald…… da braut sich etwas zusammen……\e
+MG05050000,"\h(«Ältester»)……Also ihr seid die Leute aus dem Osten, von
+denen sie alle reden.\c"
+MG05050001,"\h(«Ältester»)Ihr müsst zum König. Er wohnt in einer Hütte
+im Norden. Die Hütte steht im Schutz eines
+gewaltigen Baumes.\c"
+MG05050002,"\h(«Ältester»)Ihr wollt also zum Moon Stone Mountain, richtig?\e"
+MG05050003,"\h(«Ältester»)Im Moon Stone Mountain werden unsere Kameraden
+gefangen gehalten. Wenn sich jemand nähert,
+werden sie getötet. Seid bitte vorsichtig.\e"
+MG05050004,"\h(«Ältester»)Also, der Hohepriester Isapa ist in Sicherheit.
+Das ist eine wunderbare Nachricht. Ich hoffe,
+die anderen sind ebenfalls in Sicherheit.\c"
+MG05050005,"\h(«Ältester»)Meinen ergebensten Dank. Es ist euch zu
+verdanken, dass die Bewohner wieder sicher
+in ihre Häuser zurückgekehrt sind.\e"
+MG05050006,"\h(«Ältester»)Ihr seid wohl nicht Quetya, aber ich bin sicher,
+dass er es war, der euch gesandt hat.\e"
+MG05050007,"\h(«Ältester»)Wie alle anderen, die von Quetya gesandt werden,
+seid ihr jederzeit in diesem Dorf willkommen.
+Das Waldvolk wird euch helfen.\c"
+MG05050008,"\h(«Ältester»)Wie alle anderen, die von Quetya gesandt werden,
+seid ihr jederzeit in diesem Dorf willkommen.
+Das Waldvolk wird euch helfen.\c"
+MG05050009,"\h(«Ältester»)Ahh, Lord Vyse! Warum in Herrgotts Namen bebt
+der Himmel? Was kann da bloß los sein?\e"
+MG05050010,"\h(«Ältester»)Was? Ein neuer Kontinent hat sich aus den
+Wolken erhoben? Das ist ja beängstigend!\e"
+MG05050011,"\h(«Ältester»)Was? Ein neuer Kontinent hat sich aus den
+Wolken erhoben? Das ist ja beängstigend!\e"
+MG05060000,"\h(«Hohepriester»)Früher haben wir Quetya und die Leute aus dem
+Osten durcheinander gebracht. Aber jetzt wissen
+wir Bescheid.\c"
+MG05060001,"\h(«Hohepriester»)“Derjenige, der aus dem Osten kommt, wird das
+Große Übel besiegen”. So hat es Quetya
+prophezeit.\e"
+MG05060002,"\h(«Hohepriester»)Quetya ist ein Gott aus dem Osten. Vor langer,
+langer Zeit rettete Quetya unseren Wald vor
+einem gefährlichen Feind.\e"
+MG05060003,"\h(«Hohepriester»)Immer wenn unser Wald in Gefahr ist, kommt
+uns Quetya zur Hilfe.\c"
+MG05060004,"\h(«Hohepriester»)Quetya ist ein Gott aus dem Osten. Quetya wird
+bestimmt kommen und uns von Valua erlösen.\c"
+MG05060005,"\h(«Hohepriester»)Quetyas Prophezeiung hat sich erfüllt.
+Quetya hat uns in der Tat gerettet.\e"
+MG05060006,"\h(«Hohepriester»)Ihr seid vom Gott Quetya geschickt worden.
+Quetya hat eure Form angenommen, um uns zu
+retten.\c"
+MG05060007,"\h(«Hohepriester»)Es gibt eine Prophezeiung, dass das Böse aus
+dem Osten kommen würde. Bahnt sich irgendetwas
+Schreckliches an?\c"
+MG05070000,"\h(«Älterer Gastwirt»)Ihr seid also aus dem Osten? Ihr seht müde aus.
+Möchtet ihr ein Zimmer für die Nacht? Das
+macht 160 Goldstücke.\e"
+MG05070001,"\h(«Was wirst du tun?»)“Dort übernachten”.
+“Weggehen”.\e"
+MG05070002,\h(«Älterer Gastwirt»)Schlaft gut……\c
+MG05070003,"\h(«Älterer Gastwirt»)Ihr scheint euch gut erholt zu haben.
+Ihr könnt jederzeit wiederkommen, wenn ihr
+euch ausruhen wollt.\c"
+MG05070004,"\h(«Älterer Gastwirt»)Leute aus dem Osten werden genauso müde wie
+alle anderen. Macht euch keine Sorgen.
+Ihr könnt jederzeit wiederkommen, wenn ihr
+euch ausruhen wollt.\c"
+MG05070010,"\h(«Älterer Gastwirt»)……Ihr habt nicht genug Geld.
+Kommt wieder, wenn ihr welches habt.\c"
+MG05070005,"\h(«Älterer Gastwirt»)Ihr habt das Dorf gerettet! Danke. Bleibt eine
+Weile hier und ruht euch gut aus.\e"
+MG05070006,"\h(«Was wirst du tun?»)“Dort übernachten”.
+“Weggehen”.\e"
+MG05070007,\h(«Älterer Gastwirt»)Schlaft gut……\c
+MG05070008,"\h(«Älterer Gastwirt»)Ihr scheint gut ausgeruht. Kommt jederzeit
+wieder, wenn ihr Ruhe braucht.\e"
+MG05070009,"\h(«Älterer Gastwirt»)Ihr müsst darauf achten, dass ihr euch nicht
+übernehmt. Kommt jederzeit wieder, wenn ihr
+Ruhe braucht.\c"
+MG05140000,\h(«Frau»)Iiiiiii…… Geh weg! Hau ab! Belästige mich nicht!\c
+MG05140001,"\h(«Frau»)Mein Sohn wurde von den Valuanern mitgenommen,
+um am Moon Stone Mountain zu arbeiten.\e"
+MG05140002,"\h(«Frau»)Jede Nacht habe ich furchtbare Träume, wie
+mein Sohn weint und am Moon Stone Mountain
+leidet. Ich bin so furchtbar traurig.\c"
+MG05140003,"\h(«Frau»)Jede Nacht habe ich furchtbare Träume, wie
+mein Sohn weint und am Moon Stone Mountain
+leidet. Ich bin so furchtbar traurig.\c"
+MG05140004,"\h(«Frau»)Mein Sohn ist nach Hause gekommen! Er ist
+ziemlich abgemagert aber wohlauf. Vielen, vielen
+Dank.\c"
+MG05140005,"\h(«Frau»)Mein Sohn ist wohlauf, und er ist wieder bei
+mir. Jetzt bin ich jeden Tag so glücklich.
+Ich bin so glücklich.\c"
+MG05140006,"\h(«Frau»)Mir ist, als würde wieder etwas Schlechtes,
+Übles passieren, etwas ganz Furchtbares.
+Ich habe solche Angst.\c"
+MG05150000,"\h(«Maskierter Mann»)Ahh! Du bist der Mann, der die Valuaner
+verjagt hat! Es ist allein dir zu verdanken,
+dass ich gerettet wurde.\e"
+MG05150001,"\h(«Maskierter Mann»)Am Moon Stone Mountain musste ich arbeiten.
+Es war sehr beschwerlich. Aber wegen dir
+kam ich lebend nach Hause.\e"
+MG05150002,"\h(«Maskierter Mann»)Hier, besten Dank. Bitte setze ihn gut ein.\e"
+MG05150003,\h( )Du erhieltst “Tropica” x 1!\c
+MG05150004,"\h(«Maskierter Mann»)Am Moon Stone Mountain musste ich arbeiten.
+Es war sehr hart. Aber es ist dir
+zu verdanken, dass ich lebend nach Hause kam.\e"
+MG05150005,"\h(«Maskierter Mann»)Ahh, du bist's! Mein Retter. Ich möchte dir
+etwas Interessantes erzählen.\e"
+MG05150006,"\h(«Maskierter Mann»)Irgendwo in den flacheren Teilen dieser Insel
+gibt es eine Beere, “Gropta Berry” genannt.
+Sie schmeckt sehr gut.\e"
+MG05150007,"\h(«Maskierter Mann»)Im Dorf mögen sie sie alle. Du
+solltest sie auch mal probieren.\c"
+MG05150008,"\h(«Maskierter Mann»)Irgendwo in den flacheren Teilen dieser Insel
+gibt es eine Beere, “Gropta Berry” genannt.
+Sie schmeckt sehr gut.\e"
+MG05160000,\h(«Maskierter Mann»)…………\c
+MG05160001,"\h(«Maskierter Mann»)Die Männer von Ixa'taka sind alle Krieger.
+Wir schützen unseren Wald, wir schützen unseren
+König. Wir können wilde Tiere mit einem Schlag
+erlegen.\e"
+MG05160002,"\h(«Maskierter Mann»)Aber wir sind unvorsichtig geworden. Wir
+haben die Valuaner nicht für unsere Feinde
+gehalten und sie sogar mit einem Festival
+begrüßt.\e"
+MG05160003,"\h(«Maskierter Mann»)Plötzlich nahmen die Valuaner den König
+gefangen, und der ganze Himmel war voller
+Feuer speiender Schiffe. Wir konnten nichts tun.\c"
+MG05160004,"\h(«Maskierter Mann»)Plötzlich nahm Valua den König gefangen, und
+der Himmel füllte sich mit Schiffen an, die
+Feuer spien. Wir konnten nichts tun.\c"
+MG05160005,"\h(«Maskierter Mann»)Ahh! Du bist's! Dir ist es zu verdanken, dass
+unser Dorf gerettet wurde!\e"
+MG05160006,"\h(«Maskierter Mann»)Ich werde dieses Dorf mit meinem Leben
+verteidigen. Keiner kommt an mir vorbei,
+weder Valua, noch der Riese. Das schwöre ich.\c"
+MG05160007,"\h(«Maskierter Mann»)Ich werde dieses Dorf mit meinem Leben
+verteidigen. Keiner kommt an mir vorbei,
+weder Valua, noch der Riese. Das schwöre ich.\c"
+MG05160008,"\h(«Maskierter Mann»)Vor einer Weile kamen viele stählerne Schiffe
+aus Valua, die über den Wald flogen.\e"
+MG05160009,"\h(«Maskierter Mann»)Wir bereiteten uns auf einen Kampf vor.
+Die Frauen und Kinder versteckten sich im Wald.
+Aber die Schiffe hielten nicht an und fuhren
+weiter nach Westen.\e"
+MG05160010,"\h(«Maskierter Mann»)Neulich kamen die Valuaner aus dem Westen
+zurück. Es waren weniger Schiffe, und alle
+waren beschädigt. Was ist im Westen passiert?\c"
+MG05160011,"\h(«Maskierter Mann»)Neulich kamen die Valuaner aus dem Westen
+zurück. Es waren weniger Schiffe, und alle
+waren beschädigt. Was ist im Westen passiert?\c"
+MG05160012,"\h(«Maskierter Mann»)Etwas sehr Gravierendes wird im Osten passieren.
+Hat eure Schlacht etwas mit dieser Sache im
+Osten zu tun?\e"
+MG05160013,"\h(«Maskierter Mann»)Wir sind entschlossen, das Dorf eigenhändig
+zu verteidigen. Ihr müsst euren eigenen Kampf
+führen. Wir wünschen euch alles Gute.\e"
+MG05160014,"\h(«Maskierter Mann»)Wir sind entschlossen, das Dorf eigenhändig
+zu verteidigen. Ihr müsst euren eigenen Kampf
+führen. Wir wünschen euch alles Gute.\e"
+MG05170000,\h(«Maskierter Mann»)……\c
+MG05170001,"\h(«Maskierter Mann»)Dieses Lied ist für Quetya. Als die Valuaner
+kamen, spielte ich dieses Lied bei der
+Willkommensfeier.\e"
+MG05170002,"\h(«Maskierter Mann»)Jetzt spiele ich es, damit Quetya kommt und
+die Valuaner vertreibt.\c"
+MG05170003,"\h(«Maskierter Mann»)Dieses Lied ist für Quetya. Darin wird Quetya
+dafür gedankt, dass alle sicher nach Hause
+kamen.\c"
+MG05180000,"\h(«Mädchen»)Seid ihr aus dem Osten? Alle hassen sie Leute
+aus dem Osten. Ihr solltet lieber aufbrechen.\c"
+MG05180001,"\h(«Mädchen»)Der Älteste sagte, ihr hättet Valua besiegt.
+Stimmt das?\e"
+MG05180002,"\h(«Mädchen»)Ich habe immer an Quetya geglaubt. Ich bin
+davon überzeugt, dass eines Tages jemand kommen
+und Valua für uns vernichten wird.\e"
+MG05180003,"\h(«Mädchen»)Vielleicht seid ihr von Quetya hergesandt
+worden. Was meint ihr?\c"
+MG05180004,"\h(«Mädchen»)Ich habe immer an Quetya geglaubt. Ich bin
+davon überzeugt, dass eines Tages jemand kommen
+und Valua für uns vernichten wird.\e"
+MG05180005,"\h(«Mädchen»)Ihr habt tatsächlich Valua vernichtet!
+Ihr seid sehr stark!\e"
+MG05180006,"\h(«Mädchen»)Genau, wie ich dachte. Ihr wurdet von Quetya
+gesandt, nicht wahr?\c"
+MG05180007,"\h(«Mädchen»)Am östlichen Himmel passiert etwas Furchtbares.
+Aber ihr werdet euch für uns einsetzten, nicht
+wahr?\e"
+MG05180008,\h(«Mädchen»)Schließlich wurdet ihr ja von Quetya gesandt!\c
+MG05190000,\h(«Affe»)Giaaaa!\e
+MG05200000,\h(«Affe»)Giaaaa!\e
+MG05210000,"\h(«Maskierter Mann»)Ich habe euch aus dem östlichen Himmel kommen
+sehen. Von hier aus kann ich vieles sehen……
+Ach, herrje!\e"
+MG05210001,"\h(«Maskierter Mann»)Ich darf ja nicht mit Leuten aus dem Osten
+reden. Vergesst bitte, was ich gesagt habe.\c"
+MG05210002,\h(«Maskierter Mann»)……\c
+MG05210003,"\h(«Maskierter Mann»)Du bist kein schlechter Mann. Das hat der
+Älteste gesagt.\e"
+MG05210004,"\h(«Tikatika»)Ich bin Tikatika. Ich habe euch zuerst kommen
+sehen. Meine Augen sind schärfer als die eines
+Vogels. Ich bin stolz auf meine Augen.\e"
+MG05210005,"\h(«Tikatika»)Wenn ich mich darauf konzentriere, kann ich
+alles sehen, egal, wie weit weg. Soll ich
+es euch zeigen?\e"
+MG05210006,"\h(«Was wirst du tun?»)“Fordere ihn auf, es dir zu zeigen”.
+“Ist egal”.\e"
+MG05210007,"\h(«Tikatika»)Also, los geht's!\e"
+MG05210008,\h(«Tikatika»)Umpf! Urrmmmmmm!\e
+MG05210009,\h(«Tikatika»)Kiiahaaaaa!\e
+MG05210010,"\h(«Tikatika»)Aha! Ein goldener Mann. Gen Norden kann ich
+einen goldenen Mann sehen.\e"
+MG05210011,"\h(«Tikatika»)Am nördlichen Himmel ist ein goldener Mann.
+Das ist die Wahrheit. Geh und schau selbst
+nach.\c"
+MG05210012,"\h(«Tikatika»)Ach, Mann, ihr macht ja nicht mit. Es ist die
+Wahrheit. Meine Augen sind sehr gut. Sogar
+unglaublich gut!\c"
+MG05210013,"\h(«Tikatika»)Meine Augen sind schärfer als die eines Vogels.
+Soll ich es euch zeigen?\e"
+MG05210014,"\h(«Tikatika»)Ihr habt den Riesen besiegt. Ich habe es
+von hier aus gesehen. Vor euch bekommt man
+ja Angst!\c"
+MG05210015,"\h(«Tikatika»)Ihr habt aber ein schönes Schiff. Seid ihr
+schon viel hier herumgeflogen? Kennt ihr euch
+in dieser Gegend gut aus?\e"
+MG05210016,"\h(«Tikatika»)Habt ihr hier zufällig ein Schiff gesehen,
+das nur Frauen als Besatzung hat? Manchmal
+sehe ich sie hier in der Nähe. Sie sind anders
+als die Frauen hier.\e"
+MG05210017,"\h(«Tikatika»)Selbst mit meinen Augen sehe ich nicht immer,
+wo sie hingehen. Sie machen mich sehr
+neugierig.\e"
+MG05210018,"\h(«Vyse»)Ein Ort, nur für Frauen? Hmm……
+Tut mir Leid, damit kann ich nicht dienen.\e"
+MG05210019,"\h(«Tikatika»)Ach, wie schade.
+Ich werde nicht von hier weggehen, bis ich
+es herausgefunden habe!\c"
+MG05210020,"\h(«Vyse»)Nur Frauen? Sprichst du vielleicht vom
+“Dorf der Ixa'ness”?\e"
+MG05210021,"\h(«Tikatika»)Ja, genau! Das muss es sein! Also gibt es
+wirklich ein Dorf, wo nur Frauen sind……
+Ich suche schon seit vielen Jahren danach.
+Vielen Dank.\e"
+MG05210022,"\h(«Tikatika»)Du bist der beste Seemann, den ich kenne.
+Nimm mich mit auf dein Schiff. Ich möchte
+mit dir fahren.\e"
+MG05210023,"\h(«Vyse»)Wirklich? Kommst du zur Mannschaft meines
+Schiffes?\e"
+MG05210024,"\h(«Tikatika»)Stimmt, ich trete deiner Mannschaft bei.
+Ich habe jemanden gesucht, der Verwendung für
+meine unglaublich guten Augen hat.\e"
+MG05210025,"\h(«Tikatika»)Mit meinen Augen sehe ich den Feind aus großer
+Entfernung. Andere Sachen auch, messerscharf.
+Das wird sicher nützlich für dich sein.\e"
+MG05210026,"\h( )Tikatika hat sich als “Wachposten” zu deiner
+Mannschaft gesellt.\c"
+MG05300000,"\h(«Maskierter Mann»)Ahh, Vyse! Es ist ganz allein dir zu verdanken,
+dass mein Leben gerettet wurde.\e"
+MG05300001,"\h(«Maskierter Mann»)Man hat mich gezwungen, am Moon Stone Mountain
+zu arbeiten. Meine Mutter war ganz allein im
+Dorf, und ich konnte nicht nach Hause.
+Ich machte mir große Sorgen.\e"
+MG05300002,"\h(«Maskierter Mann»)Aber wegen dir war es mir möglich, nach Hause
+zu meiner Mutter zu kommen. Danke, danke
+vielmals.\c"
+MG05300003,"\h(«Maskierter Mann»)Aber wegen dir war es mir möglich, nach Hause
+zu meiner Mutter zu kommen. Danke, danke
+vielmals.\c"
+MG05300004,"\h(«Maskierter Mann»)Im Osten ist wieder etwas los.
+Werden sie wieder bei uns einfallen?\e"
+MG05300005,"\h(«Maskierter Mann»)Diesmal bringt mich nichts von meiner Mutter
+weg. Ich bleib auf jeden Fall hier und
+beschütze meine Mutter.\e"
+MS05000000,"\h(«Mercader de Armas»)……
+No tengo nada que venderle a alguien del Este.\c"
+MS05000001,"\h(«Mercader de Armas»)El Anciano me dice que debo ayudarte. Así que
+aunque no me hace ninguna gracia, te venderé lo
+que quieras.\e"
+MS05000002,"\h(«¿Qué vas a hacer?»)“Comprar y vender armas.”
+“Charlar con el mercader.”
+“Irme.”\e"
+MS05000003,"\h(«Mercader de Armas»)Durante mucho tiempo, no hubo guerras. La gente
+sólo usaba las armas para la caza o para
+defenderse de los animales salvajes.\e"
+MS05000004,"\h(«Mercader de Armas»)Pero desde para que llegaron los Valuan, he
+empezado a fabricar armas para que la gentelas use contra otras personas.\c"
+MS05000005,\h(«Mercader de Armas»)……\c
+MS05000006,"\h(«Mercader de Armas»)Eres un héroe para todos los que viven en el
+bosque. Sería un honor que usaras mis armas.\e"
+MS05000007,"\h(«¿Qué vas a hacer?»)“Comprar y vender armas.”
+“Charlar con el mercader.”
+“Salir.”\e"
+MS05000008,"\h(«Mercader de Armas»)Los hombres de la aldea han vuelto. Voy a
+dedicarme de lleno a fabricar armas. Queremos
+proteger la aldea con nuestras propias manos.\e"
+MS05000009,"\h(«Mercader de Armas»)Cuando fabriqué este arma recé una oración por
+el bosque. Úsala sabiamente.\c"
+MS05010000,\h(«Hija del Mercader de Objetos»)……\c
+MS05010001,\h(«Hija del Mercader de Objetos»)…… ¿Hay algo que te gustaría comprar?\e
+MS05010002,"\h(«¿Qué vas a hacer?»)“Comprar y vender objetos.”
+“Hablar con el mercader.”
+“Salir de la tienda.”\e"
+MS05010003,"\h(«Hija del Mercader de Objetos»)Los Valuan estaban buscando la Piedra Verde
+Sagrada. Dicen que su brillo es aún más intenso
+que el de una Piedra Lunar.\e"
+MS05010004,"\h(«Hija del Mercader de Objetos»)Nunca he visto una piedra como ésa, pero de
+todas formas se llevaron todo lo que había en la
+tienda.\e"
+MS05010005,\h(«Hija del Mercader de Objetos»)……\c
+MS05010006,"\h(«Hija del Mercader de Objetos»)Gracias a ti, el bosque se ha salvado. Me haría
+muy feliz que tan sólo uno de mis objetos te
+resultara de alguna utilidad.\e"
+MS05010007,"\h(«¿Qué vas a hacer?»)“Comprar y vender objetos.”
+“Charlar con la hija del mercader.”
+“Salir de la tienda.”\e"
+MS05010008,"\h(«Hija del Mercader de Objetos»)Nuestro bosque se ha quemado, pero revivirá
+enseguida. El Bosque de Ixa'taka es muy
+resistente.\e"
+MS05010009,\h(«Hija del Mercader de Objetos»)Gracias. Que Quetya te proteja.\c
+MS05020000,"\h(«Dueño de la Taberna»)¡Fuera! ¡Aquí no servimos comida a la gente del
+Este!\c"
+MS05020001,"\h(«Dueño de la Taberna»)Ésta era una buena taberna. Los bailes de Merida
+gustaban a todo el mundo y el ánimo no decaía
+gracias a mi loqua.\e"
+MS05020002,"\h(«Dueño de la Taberna»)Entonces aparecieron los Valuan, capturaron a
+unos, mataron a otros y me robaron la comida y
+la bebida.\e"
+MS05020003,"\h(«Dueño de la Taberna»)Merida ya no volverá a bailar aquí. La gente ya
+no se volverá a reír. Ya no queda nada en esta
+taberna.\e"
+MS05020004,"\h(«Dueño de la Taberna»)Merida ya no volverá a bailar aquí. La gente ya
+no se volverá a reír. Ya no queda nada en esta
+taberna.\e"
+MS05020005,"\h(«Dueño de la Taberna»)Todos mis clientes han regresado y Merida baila
+aquí de nuevo. Gracias.\e"
+MS05020006,"\h(«Dueño de la Taberna»)Come todo lo que quieras. Bebe lo que te
+apetezca. Para ti, es todo gratis.\e"
+MS05020007,"\h(«Dueño de la Taberna»)Hace un tiempo, Merida escribió un mensaje y lo
+metió en una botella que ató a un globo rojo.
+Yo vi cómo lanzó la botella al cielo.\e"
+MS05020008,"\h(«Dueño de la Taberna»)Creo que el mensaje era una carta muy importante
+para Merida.\e"
+MS05020009,"\h(«Dueño de la Taberna»)Cuando Merida se fue, mi taberna se convirtió en
+un lugar solitario.\e"
+MS05020010,"\h(«Dueño de la Taberna»)Pero si ella es feliz bailando en tu barco,
+merece la pena. Si Merida es feliz, yo también
+lo soy.\c"
+MS05030000,\h(«Joven doncella»)……\e
+MS05030001,"\h(«Merida»)Soy Merida, la bailarina de la taberna.
+Cuando yo bailo, la gente es feliz.
+Pero…… no, no puedo seguir bailando.\e"
+MS05030002,"\h(«Merida»)Los Valuan mataron a mi padre.
+Y también a muchos de mis amigos.\e"
+MS05030003,"\h(«Merida»)Ahora, cuando bailo, la gente no es feliz, y por
+eso ya no he vuelto a bailar.\e"
+MS05030004,"\h(«Merida»)Ahora, cuando bailo, la gente no es feliz, y por
+eso ya no he vuelto a bailar.\e"
+MS05030005,"\h(«Merida»)Todo el mundo ha vuelto, menos mi padre. Le
+mataron y ya no volverá a casa. Pero yo seguiré
+bailando para hacer feliz a la gente.\e"
+MS05030006,"\h(«Merida»)Pero…… nunca perdonaré a los Valuan. Algún día
+tendré mi propio barco y vengaré a mi padre.\c"
+MS05030007,"\h(«Merida»)Pero…… nunca perdonaré a los Valuan. Algún día
+tendré mi propio barco y vengaré a mi padre.\c"
+MS05030008,"\h(«Merida»)Tienes un navío impresionante. Espero algún día
+montar a bordo. Estoy buscando a camaradas
+que puedan ayudarme a vengarme de los Valuan.\e"
+MS05030009,"\h(«Merida»)Escribí una carta a Quetya y la lancé al cielo
+en una botella. En ella le pedí a Quetya
+guerreros fuertes para ayudarme en mi causa.\e"
+MS05030010,"\h(«Merida»)Tienes un navío impresionante. Espero algún día
+montar a bordo. Estoy buscando a camaradas
+que puedan ayudarme a vengarme de los Valuan.\e"
+MS05030011,"\h(«Merida»)Escribí una carta a Quetya y la lancé al cielo
+en una botella. En ella le pedí a Quetya
+guerreros fuertes para ayudarme en mi causa.\e"
+MS05030012,"\h(«Vyse»)¿Es ésta la carta?
+La recogí en el Océano.\e"
+MS05030013,"\h(«Merida»)¡Es la carta que envié a Quetya! La mandé porque
+necesitaba su ayuda.\e"
+MS05030014,"\h(«Merida»)Seguro que os ha mandado Quetya. Vosotros debéis
+ser los guerreros que estaba esperando.\e"
+MS05030015,"\h(«Merida»)¡Por favor! ¡Llevadme con vosotros! ¡Quiero
+enfrentarme a los Valuan!\e"
+MS05030016,"\h(«Merida»)Es verdad que no soy muy fuerte, pero sé bailar.
+¡Y mi baile animará a todos!\e"
+MS05030017,"\h( )Merida se ha unido a tu tripulación como
+“Bufona”.\c"
+MS05040000,\h(«Hombre Enmascarado»)No quiero tener nada que ver con vosotros.\c
+MS05040001,"\h(«Hombre Enmascarado»)Vais en busca de la Piedra Verde Sagrada, igual
+que los Valuan.\e"
+MS05040002,"\h(«Hombre Enmascarado»)Los Valuan me exigieron que les dijera dónde
+estaba la Piedra Verde Sagrada. Me golpearon una
+y otra vez…… creí que iba a morir……\e"
+MS05040003,"\h(«Hombre Enmascarado»)Los Valuan me exigieron que les dijera dónde
+estaba la Piedra Verde Sagrada. Me golpearon una
+y otra vez…… creí que iba a morir……\e"
+MS05040004,"\h(«Hombre Enmascarado»)¡Vi al Gigante del Bosque! Cuenta la leyenda que
+el Gigante del Bosque velará por nosotros, pero
+yo no estoy tan seguro……\e"
+MS05040005,"\h(«Hombre Enmascarado»)El Gigante del Bosque fue creado por alguien con
+un corazón malvado. El mal no puede protegernos.
+Hiciste bien en detenerlo.\e"
+MS05040006,"\h(«Hombre Enmascarado»)Bienvenidos, bienvenidos. Sois nuestros héroes.
+Es un honor teneros aquí. Sentios en vuestra
+casa.\e"
+MS05040007,"\h(«Hombre Enmascarado»)¿Venís del Este? ¿Conseguisteis atravesar el
+muro de rocas?\e"
+MS05040008,"\h(«Hombre Enmascarado»)Muchos valientes intentaron atravesar el muro de
+rocas. Todos fallaron y las rocas destruyeron
+sus navíos.¡Sois increíbles!\e"
+MS05040009,\h(«Hombre Enmascarado»)El bosque…… Algo malo está pasando allí……\e
+MS05050000,"\h(«Anciano»)…… Así que vosotros sois esos que vienen del
+Este de los que todo el mundo habla.\c"
+MS05050001,"\h(«Anciano»)Tenéis que ir a ver al rey. Vive en una cabaña
+al norte. Una cabaña protegida por un árbol
+gigante.\c"
+MS05050002,\h(«Anciano»)¿Así que queréis ir al Monte Lunar?\e
+MS05050003,"\h(«Anciano»)En el Monte Lunar están encarcelados nuestros
+camaradas. Si hay algún imprevisto, los matarán.
+Tened mucho cuidado.\e"
+MS05050004,"\h(«Anciano»)Así que el Alto Sacerdote Isapa está a salvo.
+Qué buena noticia. Espero que los otros también
+estén a salvo.\c"
+MS05050005,"\h(«Anciano»)Mi más profunda gratitud. Gracias a ti, la gente
+ha vuelto a sus hogares sana y salva.\e"
+MS05050006,"\h(«Anciano»)Vosotros no sois Quetya, pero creo que fue
+Quetya quien os envió aquí.\e"
+MS05050007,"\h(«Anciano»)Como enviados de Quetya, siempre seréis
+bienvenidos a esta aldea. La gente del bosque os
+ayudará.\c"
+MS05050008,"\h(«Anciano»)Como enviados de Quetya, siempre seréis
+bienvenidos a esta aldea. La gente del bosque os
+ayudará.\c"
+MS05050009,"\h(«Anciano»)¡Ahh, es Lord Vyse! ¿Por qué rayos tiembla el
+cielo? ¿Qué demonios puede ser?\e"
+MS05050010,"\h(«Anciano»)¿Qué? ¿Dices que un nuevo continente ha emergido
+de debajo de las nubes? Qué atemorizador.\e"
+MS05050011,"\h(«Anciano»)¿Qué? ¿Dices que un nuevo continente ha emergido
+de debajo de las nubes? Qué atemorizador.\e"
+MS05060000,"\h(«Alto Sacerdote»)Una vez confundimos a la gente del Este con
+Quetya, pero no volverá a pasar.\c"
+MS05060001,"\h(«Alto Sacerdote»)“Del Este llegará aquél que logrará vencer el
+Gran Mal.” Era la profecía de Quetya.\e"
+MS05060002,"\h(«Alto Sacerdote»)Quetya es un dios que viene del Este. Hace
+mucho, mucho tiempo, Quetya salvó el bosque de
+un enemigo peligroso.\e"
+MS05060003,"\h(«Alto Sacerdote»)Siempre que nuestro bosque está en peligro,
+Quetya acude a salvarnos.\c"
+MS05060004,"\h(«Alto Sacerdote»)Quetya es un dios del Este. Seguro que viene y
+nos salva de los Valuan.\c"
+MS05060005,"\h(«Alto Sacerdote»)Se ha cumplido la profecía de Quetya. Quetya
+nos ha salvado.\e"
+MS05060006,"\h(«Alto Sacerdote»)Habéis sido enviados por el dios Quetya. Quetya
+adoptó vuestra forma para venir a salvarnos.\c"
+MS05060007,"\h(«Alto Sacerdote»)Hubo una profecía que anunciaba que el mal
+vendría del Este. ¿Es que está a punto de
+suceder algo horrible?\c"
+MS05070000,"\h(«Viejo Posadero»)¿Así que vienes del Este? Pareces cansado.
+¿Quieres una habitación para esta noche?
+Son 160 unidades de oro.\e"
+MS05070001,"\h(«¿Qué vas a hacer?»)“Quedarme esta noche.”
+“Salir.”\e"
+MS05070002,\h(«Viejo Posadero»)Que descanses……\c
+MS05070003,"\h(«Viejo Posadero»)Se nota que has dormido bien. Vuelve aquí
+siempre que necesites descansar.\c"
+MS05070004,"\h(«Viejo Posadero»)La gente del Este se cansa igual que todo el
+mundo. No te preocupes. Vuelve siempre que
+quieras descansar.\c"
+MS05070010,"\h(«Viejo Posadero»)…… No tienes suficiente dinero.
+Vuelve cuando tengas lo suficiente.\c"
+MS05070005,"\h(«Viejo Posadero»)¡Has salvado la aldea! Gracias.
+Quédate un rato y descansa.\e"
+MS05070006,"\h(«¿Qué vas a hacer?»)“Quedarme esta noche.”
+“Salir.”\e"
+MS05070007,\h(«Viejo Posadero»)Que duermas bien……\c
+MS05070008,"\h(«Viejo Posadero»)Tienes pinta de haber descansado.
+Vuelve siempre que necesites un buen descanso.\c"
+MS05070009,"\h(«Viejo Posadero»)Tienes que ser prudente y no agotarte hasta el
+límite de tus fuerzas. Vuelve siempre que
+necesites reposo.\c"
+MS05140000,"\h(«Mujer»)Urrrr…… ¡Fuera de aquí! ¡Largo!
+¡No me molestes!\c"
+MS05140001,"\h(«Mujer»)Los Valuan se llevaron a mi hijo para que
+trabajara en el Monte Lunar.\e"
+MS05140002,"\h(«Mujer»)Todas las noches tengo pesadillas horribles con
+mi hijo llorando y pasando terribles
+sufrimientos. Estoy muy triste. Muy triste.\c"
+MS05140003,"\h(«Mujer»)Todas las noches tengo pesadillas horribles con
+mi hijo llorando y pasando terribles
+sufrimientos. Estoy muy triste. Muy triste.\c"
+MS05140004,"\h(«Mujer»)¡Mi hijo ha vuelto a casa! Está mucho más flaco,
+pero está vivo y se encuentra bien. Gracias.
+Muchas gracias.\c"
+MS05140005,"\h(«Mujer»)Mi hijo está vivo y está sano, y ha vuelto
+conmigo. Soy tan feliz, todos y cada uno de los
+días.\c"
+MS05140006,"\h(«Mujer»)Presiento algo terrible y maligno. Va a suceder
+algo horrible otra vez. Tengo miedo. Tengo mucho
+miedo.\c"
+MS05150000,"\h(«Hombre Enmascarado»)¡Ahh! ¡Tú eres el que se deshizo de los Valuan!
+Eres mi salvador.\e"
+MS05150001,"\h(«Hombre Enmascarado»)Me hicieron trabajar en el Monte Lunar.
+Ha sido durísimo. Pero gracias a ti he vuelto a
+casa con vida.\e"
+MS05150002,"\h(«Hombre Enmascarado»)Toma, como agradecimiento. Úsala con prudencia.\e"
+MS05150003,\h( )｡Has recibido “Tropica” x 1!\c
+MS05150004,"\h(«Hombre Enmascarado»)Me hicieron trabajar en el Monte Lunar.
+Ha sido durísimo. Pero gracias a ti he vuelto a
+casa con vida.\e"
+MS05150005,"\h(«Hombre Enmascarado»)¡Anda, eres tú! Mi salvador. Te voy a contar
+algo interesante.\e"
+MS05150006,"\h(«Hombre Enmascarado»)En algún lado al sur de esta isla, crece
+una fruta llamada “Gropta Berry”. Es muy
+sabrosa.\e"
+MS05150007,"\h(«Hombre Enmascarado»)A la gente de la aldea le encantan. Deberías
+probarlas tú también.\c"
+MS05150008,"\h(«Hombre Enmascarado»)En algún lado al sur de esta isla, crece
+una fruta llamada “Gropta Berry”. Es muy
+sabrosa.\e"
+MS05160000,\h(«Hombre Enmascarado»)……\c
+MS05160001,"\h(«Hombre Enmascarado»)Los hombres de Ixa'taka somos todos guerreros.
+Protegemos el bosque y a nuestro rey. Sabemos
+reducir a animales salvajes de un golpe.\e"
+MS05160002,"\h(«Hombre Enmascarado»)Pero bajamos la guardia. Pensamos que Valua no
+era nuestro enemigo y hasta llegamos a organizar
+un festival de bienvenida.\e"
+MS05160003,"\h(«Hombre Enmascarado»)De repente, los Valuan capturaron al rey y el
+cielo se llenó de navíos que escupían fuego.
+Estábamos indefensos.\c"
+MS05160004,"\h(«Hombre Enmascarado»)De repente, los Valuan capturaron al rey y el
+cielo se llenó de navíos que escupían fuego.
+Estábamos indefensos.\c"
+MS05160005,"\h(«Hombre Enmascarado»)¡Ahh! ¡Eres tú! ¡Gracias a ti, nuestra aldea se
+ha salvado!\e"
+MS05160006,"\h(«Hombre Enmascarado»)Protegeré a esta aldea con mi vida. Nada
+conseguirá pasar por aquí, ni Valua, ni el
+gigante. Lo juro.\c"
+MS05160007,"\h(«Hombre Enmascarado»)Protegeré a esta aldea con mi vida. Nada
+conseguirá pasar por aquí, ni Valua, ni el
+gigante. Lo juro.\c"
+MS05160008,"\h(«Hombre Enmascarado»)Hace un tiempo, llegaron de Valua muchos navíos
+de acero que sobrevolaron el bosque.\e"
+MS05160009,"\h(«Hombre Enmascarado»)Nos preparamos para la lucha. Las mujeres y los
+niños se escondieron en el bosque, pero los
+navíos pasaron y se dirigieron al oeste.\e"
+MS05160010,"\h(«Hombre Enmascarado»)El otro día, los Valuan regresaron del Oeste.
+Con menos barcos y todos ellos dañados.
+¿Qué es lo que sucedió allá en el Oeste?\c"
+MS05160011,"\h(«Hombre Enmascarado»)El otro día, los Valuan regresaron del oeste.
+Con menos barcos, y todos ellos dañados.
+¿Qué es lo que sucedió allá en el Oeste?\c"
+MS05160012,"\h(«Hombre Enmascarado»)Va a pasar algo muy grave en el Este. ¿Tiene
+vuestra batalla algo que ver con este asunto del
+Este?\e"
+MS05160013,"\h(«Hombre Enmascarado»)Vamos a proteger esta aldea con nuestros propios
+medios. Vosotros tenéis vuestra propia batalla
+que librar. Que tengáis suerte.\e"
+MS05160014,"\h(«Hombre Enmascarado»)Vamos a proteger esta aldea con nuestros propios
+medios. Vosotros tenéis vuestra propia batalla
+que librar. Que tengáis suerte.\e"
+MS05170000,\h(«Hombre Enmascarado»)……\c
+MS05170001,"\h(«Hombre Enmascarado»)Esta canción es para Quetya. Cuando vinieron los
+Valuan, yo toqué esta canción en el festival de
+bienvenida.\e"
+MS05170002,"\h(«Hombre Enmascarado»)Ahora la toco para pedirle a Quetya que venga y
+ahuyente a los Valuan.\c"
+MS05170003,"\h(«Hombre Enmascarado»)Esta canción está dedicada a Quetya. Para darle
+las gracias por traer a nuestros familiares y
+amigos de vuelta a casa.\c"
+MS05180000,"\h(«Niña»)¿Vienes del Este? Todo el mundo odia a los del
+Este. Será mejor que te vayas de aquí.\c"
+MS05180001,"\h(«Niña»)El Anciano dijo que derrotaste a los Valuan.
+¿Es eso cierto?\e"
+MS05180002,"\h(«Niña»)Siempre he creído en Quetya. Algún día, Quetya
+vendrá y nos ayudará a librarnos de los Valuan.\e"
+MS05180003,"\h(«Niña»)A lo mejor fue Quetya quien te envió aquí.
+¿Tú qué crees?\c"
+MS05180004,"\h(«Niña»)Siempre he creído en Quetya. Algún día, Quetya
+vendrá y nos ayudará a librarnos de los Valuan.\e"
+MS05180005,"\h(«Niña»)¡Así que es verdad que derrotaste a los Valuan!
+¡Eres muy fuerte!\e"
+MS05180006,"\h(«Niña»)Como yo pensaba.
+Eres un enviado de Quetya, ¿verdad?\c"
+MS05180007,"\h(«Niña»)Algo horrible sucede en el Este. Pero tú nos
+salvarás, ¿verdad?\e"
+MS05180008,"\h(«Niña»)¡Quiero decir, que al fin y al cabo, eres un
+enviado de Quetya!\c"
+MS05190000,\h(«Mono»)¡Yiaaaaa!\e
+MS05200000,\h(«Mono»)¡Yiaaaaa!\e
+MS05210000,"\h(«Hombre Enmascarado»)El otro día os vi venir por el cielo desde el
+Este. Desde aquí veo muchas cosas…… ¡Uh!\e"
+MS05210001,"\h(«Hombre Enmascarado»)No debo hablar con la gente del Este. Será mejor
+que olvides lo que te acabo de decir.\c"
+MS05210002,\h(«Hombre Enmascarado»)……\c
+MS05210003,\h(«Hombre Enmascarado»)No eres mala persona. Eso dijo el Anciano.\e
+MS05210004,"\h(«Tikatika»)Soy Tikatika. Yo fui el primero que te vio
+llegar. Mis ojos ven más que los de los pájaros.
+Estoy orgulloso de mis ojos.\e"
+MS05210005,"\h(«Tikatika»)Si me concentro bien, veo cualquier cosa, da
+igual lo lejos que esté. ¿Quieres que te lo
+demuestre?\e"
+MS05210006,"\h(«¿Qué vas a hacer?»)“Hacer que te lo demuestre.”
+“Da lo mismo.”\e"
+MS05210007,\h(«Tikatika»)¡Muy bien! ¡Allá vamos!\e
+MS05210008,\h(«Tikatika»)¡Umff! ¡Urrmmmmmm!\e
+MS05210009,\h(«Tikatika»)¡Kiyaaa!\e
+MS05210010,"\h(«Tikatika»)¡Ajá! Un hombre dorado. Al norte veo un hombre
+dorado.\e"
+MS05210011,"\h(«Tikatika»)En el cielo del norte hay un hombre dorado.
+Es la verdad. Ve y compruébalo por ti mismo.\c"
+MS05210012,"\h(«Tikatika»)Qué asco, no eres divertido. Es la verdad. Tengo
+muy buenos ojos. ¡Yo diría que son increíbles!\c"
+MS05210013,"\h(«Tikatika»)Mis ojos ven más que los de los pájaros.
+¿Quieres que te lo demuestre?\e"
+MS05210014,"\h(«Tikatika»)Has derrotado al gigante. Lo he visto desde
+aquí. ¡Eres increíble!\e"
+MS05210015,"\h(«Tikatika»)Tienes un navío muy bonito. ¿Has volado mucho
+por aquí? ¿Conoces bien esta zona?\e"
+MS05210016,"\h(«Tikatika»)¿Has visto un navío donde toda la tripulación
+son mujeres? A veces lo veo pasar por esta zona.
+Son muy distintas de nuestras mujeres.\e"
+MS05210017,"\h(«Tikatika»)A pesar de mis ojos, no siempre veo adónde se
+dirigen. Me muero de curiosidad por saberlo.\e"
+MS05210018,"\h(«Vyse»)¿Un sitio donde sólo viven mujeres? Mmm……
+Lo siento, no te puedo ayudar.\e"
+MS05210019,"\h(«Tikatika»)Es una pena.
+¡No me voy a ir de aquí hasta que lo descubra!\c"
+MS05210020,"\h(«Vyse»)¿Sólo mujeres? A lo mejor te refieres a la
+“Aldea Ixa'ness”.\e"
+MS05210021,"\h(«Tikatika»)¡Sí! ¡Sí! ¡Debe ser ésa! Así que hay una aldea
+donde sólo viven mujeres…… He estado buscándola
+durante muchos años. Gracias.\e"
+MS05210022,"\h(«Tikatika»)Eres el mejor marino que conozco. Llévame
+contigo en el navío. Quiero viajar contigo.\e"
+MS05210023,"\h(«Vyse»)¿En serio? ¿Te vas a unir a la tripulación de mi
+barco?\e"
+MS05210024,"\h(«Tikatika»)Eso es, me uno a tu tripulación. Estaba buscando
+a alguien que pudiera aprovecharse de la
+increíble agudeza de mis ojos.\e"
+MS05210025,"\h(«Tikatika»)Con mis ojos, puedo ver al enemigo desde lejos.
+También las demás cosas y con toda claridad.
+Te voy a ser de mucha utilidad.\e"
+MS05210026,"\h( )Tikatika se ha unido a tu tripulación como
+“Vigía”.\c"
+MS05300000,"\h(«Hombre Enmascarado»)¡Ahh, tú eres Vyse! Tú me salvaste la vida.\e"
+MS05300001,"\h(«Hombre Enmascarado»)Me obligaron a trabajar en el Monte Lunar.
+Mi madre se quedó sola en la aldea y yo no podía
+ir a casa. Estaba muy preocupado.\e"
+MS05300002,"\h(«Hombre Enmascarado»)Pero gracias a ti, he podido volver a casa con
+mi madre. Gracias. Muchas gracias.\c"
+MS05300003,"\h(«Hombre Enmascarado»)Pero gracias a ti, he podido volver a casa con
+mi madre. Gracias. Muchas gracias.\c"
+MS05300004,"\h(«Hombre Enmascarado»)Algo sucede en el Este otra vez.
+¿Es que nos van a invadir de nuevo?\e"
+MS05300005,"\h(«Hombre Enmascarado»)Esta vez nada me apartará de mi madre.
+Me voy a quedar aquí protegiendo a mi madre.\e"
+Ms010a000,"\h(«Vyse»)I wonder what this is? It looks like
+ground up berries and herbs…
+I wonder what they're used for…\c"
+Ms010a001,"\h(«Vyse»)It's full of berries and dried meat.
+It looks pretty tasty…\c"
+Ms010a002,"\h(«Vyse»)There's water here. It looks fresh and it's
+still relatively cold. It's probably from the
+river that runs beneath the town.\c"
+Ms010a003,"\h(«Vyse»)It looks like you put wood inside and burn it to
+cook things. I guess it's an Ixa'takan stove.
+Maybe they don't use Moon Stones as fuel.\c"
+Ms010a004,"\h(«Vyse»)It's some liquid, almost like honey.
+There's a really sweet smell
+that's filling the whole room.\c"
+Ms010a005,"\h(«Vyse»)Now THAT'S a big vat of… something. Whatever it
+is, it looks sticky. I wouldn't want to fall
+into there, that's for sure.\c"
+Ms010a006,"\h(«Vyse»)This jar's empty…
+Maybe they use it to carry the stuff
+that's in the big vat?\c"
+Ms010a007,"\h(«Vyse»)Mmm… That looks good. I guess Aika was right
+about the fruit here. There seems to be
+plenty of it, that's for sure.\c"
+Ms010a008,"\h(«Vyse»)It looks like you put wood inside and burn it to
+cook things. I guess it's an Ixa'takan stove.
+Maybe they don't use Moon Stones as fuel.\c"
+Ms010a009,"\h(«Vyse»)It's covered with some animal skin. That's
+probably how they keep their food fresh. Looks
+like there's some salted meat inside.\c"
+Ms010a010,"\h(«Vyse»)Hmm… It's a piece of wood that looks like it's
+been carved. It doesn't look quite finished,
+though. I wonder what it's supposed to be?\c"
+Ms010a011,"\h(«Vyse»)It's empty…
+It smells like there used to be some sort of
+juice or nectar in here…\c"
+Ms010a012,"\h(«Vyse»)There're all kinds of different masks.
+I wonder if each one has a different
+meaning or something?\c"
+Ms010a013,"\h(«Vyse»)It's covered with some animal skin. That's
+probably how they keep their food fresh. Looks
+like there's some salted meat inside.\c"
+Ms010a014,"\h(«Vyse»)It's an article of Ixa'takan clothing. I can't
+tell whether you're supposed to wear it around
+your waist or over your shoulder…\c"
+Ms010a015,"\h(«Vyse»)It looks like you put wood inside and burn it to
+cook things. I guess it's an Ixa'takan stove.
+Maybe they don't use Moon Stones as fuel.\c"
+Ms010a016,"\h(«Vyse»)It looks like this spear and mask
+haven't been used in a while.
+There's a layer of dust on both of them.\c"
+Ms010a017,"\h(«Vyse»)This must be the son of the household's
+spear and mask. It looks worn in.
+He must go hunting every day.\c"
+Ms010a018,"\h(«Vyse»)It's covered with some animal skin. That's
+probably how they keep their food fresh. Looks
+like there's some salted meat inside.\c"
+Ms010a019,"\h(«Vyse»)Mmm… Looks tasty.
+Horteka has some of the best fruit
+I've ever seen.\c"
+Ms010a020,"\h(«Vyse»)There are some assorted dried leaves inside the
+pot. Maybe these leaves are what's making this
+place smell so nice…\c"
+Ms010a021,"\h(«Vyse»)I've never seen Ixa'takan craftwork before.
+It's so raw… and natural. It's strange… but
+beautiful in its own way.\c"
+Ms010a022,"\h(«Vyse»)Ack! There's something in the water! Wait…
+It's actually kinda cute. Heh heh… I wonder
+what it's called?\c"
+Ms010a023,"\h(«Vyse»)There're some offerings of fruit.
+I guess this picture is of that guy, Quetya,
+that the Ixa'takans keep talking about…\c"
+Ms010a024,"\h(«Vyse»)It's an altar to the “god,” Quetya.
+Who would've thought Quetya was actually
+a Silvite?\c"
+Ms010a025,"\h(«Vyse»)They probably use this stage for religious
+ceremonies and celebrations or something.\c"
+Ms010a026,"\h(«Vyse»)This is the way to the boat… but we can't leave
+until we get some more fuel and talk to the
+village elder to find out about the Crystal.\c"
+Ms010a029,"\h(«What will you do?»)“Return to your ship.”
+“Stay here a little while longer.”\c"
+MFs010a000,"\h(«Vyse»)Je me demande ce que c'est ? On dirait des
+baies et des herbes moulues……
+Je me demande à quoi elles servent……\c"
+MFs010a001,"\h(«Vyse»)C'est plein de baies et de viande séchée……
+C'est assez appétissant……\c"
+MFs010a002,"\h(«Vyse»)Il y a de l'eau ici. Elle a l'air potable et
+encore assez fraîche. Elle provient probablement
+de la rivière qui coule sous la ville.\c"
+MFs010a003,"\h(«Vyse»)On dirait qu'on a fait brûler du bois pour cuire
+de la nourriture. Je crois que c'est un poêle
+Ixa'takan. Peut-être qu'ils n'utilisent pas de
+Pierres de Lune comme combustible.\c"
+MFs010a004,"\h(«Vyse»)C'est une sorte de liquide, presque comme du
+miel.
+Une odeur très douce embaume toute la pièce.\c"
+MFs010a005,"\h(«Vyse»)Alors ÇA, c'est une grande cuve de…… quelque
+chose. Je ne sais pas ce que c'est mais ça a
+l'air gluant. Je n'aimerais certainement pas
+tomber dedans.\c"
+MFs010a006,"\h(«Vyse»)Ce pot est vide……
+Ils l'utilisent peut-être pour transporter le
+liquide qui se trouve dans la grande cuve ?\c"
+MFs010a007,"\h(«Vyse»)Mmm… Cela a l'air bon. Je crois qu'Aika avait
+raison au sujet des fruits. Cet endroit en
+regorge.\c"
+MFs010a008,"\h(«Vyse»)On dirait qu'il faut faire brûler du bois à
+l'intérieur pour cuisiner. Je crois que c'est un
+poêle Ixa'takan. Peut-être qu'ils n'utilisent
+pas de Pierres de Lune comme combustible.\c"
+MFs010a009,"\h(«Vyse»)C'est recouvert d'une peau d'animal. Ils
+conservent probablement leur nourriture fraîche
+de cette façon. On dirait qu'il y a de la viande
+salée à l'intérieur.\e"
+MFs010a011,"\h(«Vyse»)C'est vide……
+D'après l'odeur il devait y avoir du jus ou du
+nectar là-dedans……\c"
+MFs010a012,"\h(«Vyse»)Il y a toutes sortes de masques. Je me demande
+s'ils ont chacun une signification différente.\c"
+MFs010a013,"\h(«Vyse»)C'est recouvert d'une peau d'animal. Ils
+conservent probablement leur nourriture fraîche
+de cette façon. On dirait qu'il y a de la viande
+salée à l'intérieur.\e"
+MFs010a014,"\h(«Vyse»)C'est un vêtement Ixa'takan. Je ne sais pas si
+on doit le porter autour de la taille ou sur les
+épaules……\c"
+MFs010a015,"\h(«Vyse»)On dirait qu'il faut faire brûler du bois à
+l'intérieur pour cuisiner. Je crois que c'est un
+poêle Ixa'takan. Peut-être qu'ils n'utilisent
+pas de Pierres de Lune comme combustible.\c"
+MFs010a016,"\h(«Vyse»)On dirait que cette lance et ce masque n'ont pas
+été utilisés depuis longtemps.
+Ils sont recouverts de poussière.\c"
+MFs010a017,"\h(«Vyse»)Ce doit être le masque et la lance du fils de la
+maison. Ils semblent usés.
+Il doit sûrement aller chasser tous les jours.\c"
+MFs010a018,"\h(«Vyse»)C'est recouvert d'une peau d'animal. Ils
+conservent probablement leur nourriture fraîche
+de cette façon. On dirait qu'il y a de la viande
+salée à l'intérieur.\e"
+MFs010a019,"\h(«Vyse»)Mmm…… C'est appétissant.
+Sur Horteka, on trouve les meilleurs fruits que
+j'ai jamais vus.\c"
+MFs010a020,"\h(«Vyse»)Il y a un assortiment de feuilles séchées dans
+le pot. Peut-être que ce sont ces feuilles qui
+embaument cet endroit……\c"
+MFs010a021,"\h(«Vyse»)Je n'ai jamais vu l'art Ixa'takan auparavant.
+Il est brut…… et naturel. Il est étrange…… mais
+aussi magnifique d'une certaine façon.\c"
+MFs010a022,"\h(«Vyse»)Aah ! Il y a quelque chose dans l'eau !
+Mais attendez……
+En fait, c'est plutôt mignon. Hé hé… je me
+demande comment il s'appelle ?\c"
+MFs010a023,"\h(«Vyse»)Il a des offrandes de fruits.
+J'imagine que cette portrait est celui de
+Quetya; ce type dont les Ixa'takans parlent sans
+cesse……\c"
+MFs010a024,"\h(«Vyse»)C'est un autel dédié au “dieu” Quetya.
+Qui aurait cru que Quetya était en fait un
+Silvite ?\c"
+MFs010a025,"\h(«Vyse»)Ils utilisent probablement cet autel pour des
+cérémonies religieuses et des célébrations.\c"
+MFs010a026,"\h(«Vyse»)Voici le chemin qui mène au navire…… Mais nous
+ne pouvons pas partir sans prendre plus de
+carburant et parler à l'ancien du village pour
+obtenir des renseignements sur le Cristal.\c"
+MFs010a029,"\h(«Que ferez-vous ?»)“Vous retournerez sur votre navire.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MGs010a000,"\h(«Vyse»)Ich frage mich, was das ist? Es sieht
+aus wie gemahlene Beeren und Kräuter……
+Ich frage mich, wofür sie verwendet werden……\c"
+MGs010a001,"\h(«Vyse»)Es ist voller Beeren und
+gedörrtem Fleisch. Es sieht ziemlich
+lecker aus……\c"
+MGs010a002,"\h(«Vyse»)Es gibt Wasser hier. Sieht ziemlich
+kühl und erfrischend aus. Es kommt
+wahrscheinlich aus dem Fluss, der unter
+der Stadt entlangfließt.\c"
+MGs010a003,"\h(«Vyse»)Es scheint, als lege man Holz hinein, um damit
+zu feuern und zu kochen. Das ist wohl ein
+Herd aus Ixa'taka. Vielleicht verwenden sie
+keine Moon Stones als Brennstoff.\c"
+MGs010a004,"\h(«Vyse»)Es ist eine Flüssigkeit, fast wie Honig.
+Das ist ein wirklich süßer Geruch, der
+den ganzen Raum erfüllt.\c"
+MGs010a005,"\h(«Vyse»)Nun, DAS IST ein großer Bottich voller……
+Was es auch sein mag, es sieht klebrig aus.
+Ich möchte da nicht reinfallen, das ist sicher.\c"
+MGs010a006,"\h(«Vyse»)Dieses Gefäß ist leer……
+Vielleicht gebrauchen sie es, um
+das Zeug, das im großen Bottich ist, zu tragen?\c"
+MGs010a007,"\h(«Vyse»)Mmm…… Das sieht gut aus. Schätze,
+es war richtig, was Aika über die hiesigen
+Früchte sagte. Es gibt auf jeden Fall jede
+Menge, das ist sicher.\c"
+MGs010a008,"\h(«Vyse»)Es scheint, als lege man Holz hinein, um damit
+zu feuern und zu kochen. Das ist wohl ein
+Herd aus Ixa'taka. Vielleicht verwenden sie
+keine Moon Stones als Brennstoff.\c"
+MGs010a009,"\h(«Vyse»)Es ist mit irgendeiner Tierhaut bedeckt.
+So halten sie vermutlich ihre Nahrungsmittel
+frisch. Sieht so aus, als sei gepökeltes
+Fleisch darin.\c"
+MGs010a010,"\h(«Vyse»)Hmm…… Sieht aus wie ein geschnitztes
+Holzstück. Wahrscheinlich noch nicht ganz
+fertiggeschnitzt.
+Was das wohl sein soll?\c"
+MGs010a011,"\h(«Vyse»)Es ist leer……
+Es riecht, als sei hier ursprünglich
+irgendein Saft oder Nektar drin gewesen……\c"
+MGs010a012,"\h(«Vyse»)Es gibt hier alle möglichen verschiedenen
+Masken. Ich frage mich, ob jede eine andere
+Bedeutung oder so etwas hat?\c"
+MGs010a013,"\h(«Vyse»)Es ist mit irgendeiner Tierhaut bedeckt.
+So halten sie vermutlich ihre Nahrungsmittel
+frisch. Sieht so aus, als sei gepökeltes
+Fleisch darin.\c"
+MGs010a014,"\h(«Vyse»)Das ist ein Kleidungsstück aus Ixa'taka.
+Ich habe keine Ahnung, ob man es um die
+Taille oder über die Schultern trägt……\c"
+MGs010a015,"\h(«Vyse»)Es scheint, als lege man Holz hinein, um damit
+zu feuern und zu kochen. Das ist wohl ein
+Herd aus Ixa'taka. Vielleicht verwenden sie
+keine Moon Stones als Brennstoff.\c"
+MGs010a016,"\h(«Vyse»)Sieht so aus, als seien dieser Speer
+und die Maske eine Weile nicht mehr
+gebraucht worden. Es liegt eine Schicht
+Staub auf beiden.\c"
+MGs010a017,"\h(«Vyse»)Das sind sicherlich der Speer
+und die Maske des Sohnes des Haushaltes.
+Sie sehen gebraucht aus. Er geht
+sicherlich jeden Tag auf die Jagd.\c"
+MGs010a018,"\h(«Vyse»)Es ist mit irgendeiner Tierhaut bedeckt.
+So halten sie vermutlich ihre Nahrungsmittel
+frisch. Sieht so aus, als sei gepökeltes
+Fleisch darin.\c"
+MGs010a019,"\h(«Vyse»)Mmm… Sieht lecker aus.
+Horteka hat mit die besten Früchte,
+die ich jemals gesehen habe.\c"
+MGs010a020,"\h(«Vyse»)Es ist eine Mischung getrockneter
+Blätter im Krug. Vielleicht riecht es
+hier deshalb so gut……\c"
+MGs010a021,"\h(«Vyse»)Ich habe niemals zuvor Kunsthandwerk
+aus Ixa'taka gesehen. Es ist so roh……
+und natürlich. Es sieht seltsam aus……
+und doch auf seine Art wunderschön.\c"
+MGs010a022,"\h(«Vyse»)Pfui! Da ist etwas im Wasser! Warte……
+Es ist eigentlich ganz süß. Hi Hi……
+Ich frage mich wie es heißt?\c"
+MGs010a023,"\h(«Vyse»)Da ist eine Gabe von Früchten.
+Schätze, das ist ein Bild von Quetya, dem Typen,
+von dem die Ixa'takaner ständig sprechen……\c"
+MGs010a024,"\h(«Vyse»)Das ist ein Altar für den “Gott,” Quetya.
+Wer hätte gedacht, dass Quetya eigentlich ein
+Silviter war?\c"
+MGs010a025,"\h(«Vyse»)Sie gebrauchen wahrscheinlich die Bühne
+für religiöse Zeremonien und Feiern oder
+so etwas.\c"
+MGs010a026,"\h(«Vyse»)Das ist der Weg zum Boot…… aber wir
+können nicht weiter, bevor wir mehr
+Treibstoff haben und mit dem Ortsältesten
+über den Crystal gesprochen haben.\c"
+MGs010a029,"\h(«Was wirst du tun?»)“Zu deinem Schiff zurückkehren.”
+“Eine Weile hier bleiben.”\c"
+MSs010a000,"\h(«Vyse»)¿Qué es esto? Parecen bayas y hierbas……
+¿Me pregunto para qué serán……?\c"
+MSs010a001,"\h(«Vyse»)Está lleno de bayas y carne seca.
+Tiene muy buena pinta, la verdad……\e"
+MSs010a002,"\h(«Vyse»)Hay agua aquí. Parece fresca y aún está
+relativamente fría. Debe de venir del río
+que pasa por debajo de la ciudad.\c"
+MSs010a003,"\h(«Vyse»)Han metido madera y la queman para cocinar
+algo. Supongo que es una cocina Ixa'takan. No
+deben usar Piedras Lunares como combustible.\c"
+MSs010a004,"\h(«Vyse»)Es líquido, muy parecido a la miel.
+Hay un olor muy dulce que se apodera
+de toda la habitación.\c"
+MSs010a005,"\h(«Vyse»)ESO es lo que yo llamo una tinaja enorme de……
+algo. Sea lo que sea, parece pegajoso.
+No me gustaría caerme dentro por nada.\c"
+MSs010a006,"\h(«Vyse»)Este jarro está vacío……
+Quizás lo usan para llevar lo que está dentro de
+la tinaja grande.\c"
+MSs010a007,"\h(«Vyse»)Mmm…… Tiene buena pinta. Supongo que Aika
+tenía razón sobre la fruta de aquí.
+La hay en cantidad. Eso seguro.\c"
+MSs010a008,"\h(«Vyse»)Han metido madera y la queman para cocinar
+algo. Supongo que es una cocina Ixa'takan. No
+deben usar Piedras Lunares como combustible.\c"
+MSs010a009,"\h(«Vyse»)Está cubierto de piel de animal.
+Así es como deben de mantener la comida fresca.
+Parece que hay carne salada dentro.\c"
+MSs010a010,"\h(«Vyse»)Mmm…… Es un trozo de madera, y parece
+que lo han tallado. Pero no parece acabado.
+Me pregunto qué se supone que es.\c"
+MSs010a011,"\h(«Vyse»)Está vacío……
+Huele cómo si hubiera habido
+algún jugo o néctar aquí dentro……\c"
+MSs010a012,"\h(«Vyse»)Hay muchos tipos diferentes de máscaras.
+¿Me pregunto si cada una tendrá un significado
+o no?\c"
+MSs010a013,"\h(«Vyse»)Está cubierto de piel de animal.
+Así es como deben de mantener la comida fresca.
+Parece que hay carne salada dentro.\c"
+MSs010a014,"\h(«Vyse»)Es un artículo de ropa de Ixa'takan.
+No sé si te lo tienes que poner en la cintura
+o en los hombros……\c"
+MSs010a015,"\h(«Vyse»)Han metido madera y la queman para cocinar
+algo. Supongo que es una cocina Ixa'takan. No
+deben usar Piedras Lunares como combustible.\c"
+MSs010a016,"\h(«Vyse»)Parece que no se han usado este arpón
+y esta máscara desde hace mucho tiempo.
+Tienen una considerable capa de polvo.\c"
+MSs010a017,"\h(«Vyse»)Esto debe de ser el arpón y la máscara del
+hijo de la casa. Está bastante gastado.
+Debe de salir de caza todos los días.\c"
+MSs010a018,"\h(«Vyse»)Está cubierto de piel de animal.
+Así es como deben de mantener la comida fresca.
+Parece que hay carne salada dentro.\c"
+MSs010a019,"\h(«Vyse»)Mmm…… Tiene buena pinta.
+Horteka tiene la mejor fruta
+que he visto nunca.\c"
+MSs010a020,"\h(«Vyse»)Hay unas hojas secas dentro del caldero.
+A lo mejor son estas hojas las que hacen
+que este sitio huela tan bien……\c"
+MSs010a021,"\h(«Vyse»)Nunca había visto la artesanía Ixa'takan.
+Es rara…… pero hermosa en su propio estilo.\c"
+MSs010a022,"\h(«Vyse»)¡Ah! ¡Hay algo en el agua!
+Espera, en realidad es bonito.
+Je, je…… ¿Me pregunto cómo se llamará?\c"
+MSs010a023,"\h(«Vyse»)Hay algunas ofrendas de fruta.
+Me imagino que esta foto es del tal Quetya,
+de quien los Ixa'takan no dejan de hablar……\c"
+MSs010a024,"\h(«Vyse»)Es un altar para el “Dios” Quetya.
+¿Quién hubiera pensado que Quetya era,
+en realidad, un Silvite?\c"
+MSs010a025,"\h(«Vyse»)Seguramente usan este lugar para ceremonias
+religiosas y celebraciones.\e"
+MSs010a026,"\h(«Vyse»)Por aquí se va al navío…… pero no nos iremos
+hasta que no repongamos combustible y
+hablemos con los ancianos acerca del Cristal.\e"
+MSs010a029,"\h(«¿Qué vas a hacer?»)“Regresar al navío.”
+“Quedarme aquí un poco más.”\c"
+"",me010c.sct
+"",me010b.sct
+"",M0241
+"",m5100000
+"",e6e002
+"",M0241
+"",a010ae02.mld
+"",a010ae02.mld
+"",a010ae04.mld
+"",a010ae04.mld
+"",e6e004
+"",a010ae04.mld

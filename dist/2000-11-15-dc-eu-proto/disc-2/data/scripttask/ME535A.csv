@@ -1,0 +1,219 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MGAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5350000,"\h(«Fina»)Yeligar… Ancient records say its thunder tore
+open the skies themselves, and its roar
+shook the ground.\e"
+MA5350001,"\h(«Aika»)Whoa…
+It doesn't sound like a very friendly Gigas…
+Vyse, we should be extra careful!!\c"
+MA5350002,"\h(«Aika»)It looks kinda flat… Maybe we should try
+attacking from above or below!
+It might be easier to hit that way.\e"
+MA5350003,"\h(«What will you do?»)“Try attacking it from above.”
+“Try attacking it from below.”\e"
+MA5350004,"\h(«Vyse»)Let's try attacking it from above!
+Increasing altitude…\c"
+MA5350005,"\h(«Vyse»)Let's try attacking it from underneath…
+Maybe it's underside is softer than
+the rest of it…\c"
+MA5350006,"\h(«Vyse»)Damn…
+Not a single weakpoint…\e"
+MA5350007,"\h(«Aika»)Um… More importantly… is it just me or does
+that thing look a little more… active? Is the
+seal weakening on it or something?\e"
+MA5350008,"\h(«Enrique»)Perhaps… But whatever the reason, it appears
+to be building up for some sort of attack.\e"
+MA5350009,"\h(«Aika»)I wish there was some way we could knock it off
+balance like we've done with all the other
+Gigas, but it's just too big!\e"
+MA5350010,"\h(«Aika»)Anything short of the Moon Stone Cannon probably
+won't even make that thing budge!\c"
+MA5350011,"\h(«Aika»)Alright!
+That did it! It's off balance!\e"
+MA5350012,"\h(«Vyse»)Haha! Leave it to the Moon Stone Cannon!
+Alright, everyone… now's our chance!
+Open fire!!!\c"
+MA5350013,"\h(«Aika»)A direct hit with the Moon Stone Cannon!
+The Yeligar is off balance again!\c"
+MA5350014,\h(«Enrique»)Th… that attack! Its power is unbelievable…\e
+MA5350015,"\h(«Fina»)Be careful, everyone! Yeligar looks ready to
+attack again! It's not going to let up…\e"
+MA5350016,"\h(«Aika»)Great… We didn't knock it off balance and now
+we're stuck in its attack pattern. Alright,
+everyone… brace for impact…\c"
+MA5350017,"\h(«Aika»)Oh great! We couldn't fire the Moon Stone
+Cannon in time to knock it off balance and now
+Yeligar's going to attack! Here it comes…\c"
+MA5350018,\h(«Aika»)Vyse… what now? Orders please!\e
+MA5350019,"\h(«What will you do?»)“Pursue and attack.”
+“Stay back and see what Yeligar does.”\c"
+MSA5350000,"\h(《Fina》)Yeligar… Ancient records say its thunder tore
+open the skies themselves, and its roar
+shook the ground.\e"
+MSA5350001,"\h(《Aika》)Whoa…
+It doesn't sound like a very friendly Gigas…
+Vyse, we should be extra careful!!\c"
+MSA5350002,"\h(《Aika》)It looks kinda flat… Maybe we should try
+attacking from above or below!
+It might be easier to hit that way.\e"
+MSA5350003,"\h(《What will you do?》)“Try attacking it from above.”
+“Try attacking it from below.”\e"
+MSA5350004,"\h(《Vyse》)Let's try attacking it from above!
+Increasing altitude…\c"
+MSA5350005,"\h(《Vyse》)Let's try attacking it from underneath…
+Maybe it's underside is softer than
+the rest of it…\c"
+MSA5350006,"\h(《Vyse》)Damn…
+Not a single weakpoint…\e"
+MSA5350007,"\h(《Aika》)Um… More importantly… is it just me or does
+that thing look a little more… active? Is the
+seal weakening on it or something?\e"
+MSA5350008,"\h(《Enrique》)Perhaps… But whatever the reason, it appears
+to be building up for some sort of attack.\e"
+MSA5350009,"\h(《Aika》)I wish there was some way we could knock it off
+balance like we've done with all the other
+Gigas, but it's just too big!\e"
+MSA5350010,"\h(《Aika》)Anything short of the Moon Stone Cannon probably
+won't even make that thing budge!\c"
+MSA5350011,"\h(《Aika》)Alright!
+That did it! It's off balance!\e"
+MSA5350012,"\h(《Vyse》)Haha! Leave it to the Moon Stone Cannon!
+Alright, everyone… now's our chance!
+Open fire!!!\c"
+MSA5350013,"\h(《Aika》)A direct hit with the Moon Stone Cannon!
+The Yeligar is off balance again!\c"
+MSA5350014,\h(《Enrique》)Th… that attack! Its power is unbelievable…\e
+MSA5350015,"\h(《Fina》)Be careful, everyone! Yeligar looks ready to
+attack again! It's not going to let up…\e"
+MSA5350016,"\h(《Aika》)Great… We didn't knock it off balance and now
+we're stuck in its attack pattern. Alright,
+everyone… brace for impact…\c"
+MSA5350017,"\h(《Aika》)Oh great! We couldn't fire the Moon Stone
+Cannon in time to knock it off balance and now
+Yeligar's going to attack! Here it comes…\c"
+MSA5350018,\h(《Aika》)Vyse… what now? Orders please!\e
+MSA5350019,"\h(《What will you do?》)“Pursue and attack.”
+“Stay back and see what Yeligar does.”\c"
+MFA5350000,"\h(《Fina》)Yeligar… Ancient records say its thunder tore
+open the skies themselves, and its roar
+shook the ground.\e"
+MFA5350001,"\h(《Aika》)Whoa…
+It doesn't sound like a very friendly Gigas…
+Vyse, we should be extra careful!!\c"
+MFA5350002,"\h(《Aika》)It looks kinda flat… Maybe we should try
+attacking from above or below!
+It might be easier to hit that way.\e"
+MFA5350003,"\h(《What will you do?》)“Try attacking it from above.”
+“Try attacking it from below.”\e"
+MFA5350004,"\h(《Vyse》)Let's try attacking it from above!
+Increasing altitude…\c"
+MFA5350005,"\h(《Vyse》)Let's try attacking it from underneath…
+Maybe it's underside is softer than
+the rest of it…\c"
+MFA5350006,"\h(《Vyse》)Damn…
+Not a single weakpoint…\e"
+MFA5350007,"\h(《Aika》)Um… More importantly… is it just me or does
+that thing look a little more… active? Is the
+seal weakening on it or something?\e"
+MFA5350008,"\h(《Enrique》)Perhaps… But whatever the reason, it appears
+to be building up for some sort of attack.\e"
+MFA5350009,"\h(《Aika》)I wish there was some way we could knock it off
+balance like we've done with all the other
+Gigas, but it's just too big!\e"
+MFA5350010,"\h(《Aika》)Anything short of the Moon Stone Cannon probably
+won't even make that thing budge!\c"
+MFA5350011,"\h(《Aika》)Alright!
+That did it! It's off balance!\e"
+MFA5350012,"\h(《Vyse》)Haha! Leave it to the Moon Stone Cannon!
+Alright, everyone… now's our chance!
+Open fire!!!\c"
+MFA5350013,"\h(《Aika》)A direct hit with the Moon Stone Cannon!
+The Yeligar is off balance again!\c"
+MFA5350014,\h(《Enrique》)Th… that attack! Its power is unbelievable…\e
+MFA5350015,"\h(《Fina》)Be careful, everyone! Yeligar looks ready to
+attack again! It's not going to let up…\e"
+MFA5350016,"\h(《Aika》)Great… We didn't knock it off balance and now
+we're stuck in its attack pattern. Alright,
+everyone… brace for impact…\c"
+MFA5350017,"\h(《Aika》)Oh great! We couldn't fire the Moon Stone
+Cannon in time to knock it off balance and now
+Yeligar's going to attack! Here it comes…\c"
+MFA5350018,\h(《Aika》)Vyse… what now? Orders please!\e
+MFA5350019,"\h(《What will you do?》)“Pursue and attack.”
+“Stay back and see what Yeligar does.”\c"
+MGA5350000,"\h(《Fina》)Yeligar… Ancient records say its thunder tore
+open the skies themselves, and its roar
+shook the ground.\e"
+MGA5350001,"\h(《Aika》)Whoa…
+It doesn't sound like a very friendly Gigas…
+Vyse, we should be extra careful!!\c"
+MGA5350002,"\h(《Aika》)It looks kinda flat… Maybe we should try
+attacking from above or below!
+It might be easier to hit that way.\e"
+MGA5350003,"\h(《What will you do?》)“Try attacking it from above.”
+“Try attacking it from below.”\e"
+MGA5350004,"\h(《Vyse》)Let's try attacking it from above!
+Increasing altitude…\c"
+MGA5350005,"\h(《Vyse》)Let's try attacking it from underneath…
+Maybe it's underside is softer than
+the rest of it…\c"
+MGA5350006,"\h(《Vyse》)Damn…
+Not a single weakpoint…\e"
+MGA5350007,"\h(《Aika》)Um… More importantly… is it just me or does
+that thing look a little more… active? Is the
+seal weakening on it or something?\e"
+MGA5350008,"\h(《Enrique》)Perhaps… But whatever the reason, it appears
+to be building up for some sort of attack.\e"
+MGA5350009,"\h(《Aika》)I wish there was some way we could knock it off
+balance like we've done with all the other
+Gigas, but it's just too big!\e"
+MGA5350010,"\h(《Aika》)Anything short of the Moon Stone Cannon probably
+won't even make that thing budge!\c"
+MGA5350011,"\h(《Aika》)Alright!
+That did it! It's off balance!\e"
+MGA5350012,"\h(《Vyse》)Haha! Leave it to the Moon Stone Cannon!
+Alright, everyone… now's our chance!
+Open fire!!!\c"
+MGA5350013,"\h(《Aika》)A direct hit with the Moon Stone Cannon!
+The Yeligar is off balance again!\c"
+MGA5350014,\h(《Enrique》)Th… that attack! Its power is unbelievable…\e
+MGA5350015,"\h(《Fina》)Be careful, everyone! Yeligar looks ready to
+attack again! It's not going to let up…\e"
+MGA5350016,"\h(《Aika》)Great… We didn't knock it off balance and now
+we're stuck in its attack pattern. Alright,
+everyone… brace for impact…\c"
+MGA5350017,"\h(《Aika》)Oh great! We couldn't fire the Moon Stone
+Cannon in time to knock it off balance and now
+Yeligar's going to attack! Here it comes…\c"
+MGA5350018,\h(《Aika》)Vyse… what now? Orders please!\e
+MGA5350019,"\h(《What will you do?》)“Pursue and attack.”
+“Stay back and see what Yeligar does.”\c"
+"",M0465
+"",me535a.sct
+"",me090a.sct
+"",f7100103s.p04
+"",f7100100s.p04
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",f7100053s.p04
+"",b2700.mld
+"",b2700.mld
+"",f3000017
+"",b2700.mld
+"",b2701.mld
+"",b2701.mld
+"",f3000018
+"",b2701.mld
+"",b2702.mld
+"",b2702.mld
+"",b2702.mld
+"",me244a.sct

@@ -1,0 +1,551 @@
+[Event Name],Task ID
+M01220000,"\h(«Vyse»)Hm? What's this black stone?
+It's giving off some sort of light, though…\c"
+M01220001,"\h(«Vyse»)Is this a Moon Stone? A Black Moon Stone? Huh?
+Does that mean there's a Black Moon, too? I
+don't know what's going on here…\c"
+M01220002,"\h(«Vyse»)Whoa…
+There's a whole mountain of old sails and
+sailing equipment…\c"
+M01220003,"\h(«Vyse»)There's some dried fish hanging here. Well, they
+look like they're still a little moist. It's
+probably best not to eat them…\c"
+M01220004,"\h(«Vyse»)Is this supposed to be a bed? It doesn't look
+very comfortable. But, it's probably more
+comfortable than the hammock on the Little Jack.\c"
+M01220005,"\h(«Vyse»)There's a diary
+on the desk…\e"
+M01220011,"\h(«Vyse»)This must be the source of the light that
+we saw through the window.\c"
+M01220012,"\h(«Vyse»)Robinson lived here for so many years… with
+nothing to light his way but a flickering lamp…\c"
+M01220013,\h(«Ragged Old Man»)…………\c
+M01220014,"\h(«Vyse»)Um… sir? Are you alright?
+Did you get shipwrecked in here?\e"
+M01220015,\h(«Ragged Old Man»)… Who are you?\e
+M01220016,"\h(«Vyse»)Uh, I'm Vyse, a Blue Air Pirate.
+What's your name?\e"
+M01220017,\h(«Ragged Old Man»)… I don't know.\e
+M01220018,\h(«Vyse»)… Huh?\e
+M01220019,"\h(«Ragged Old Man»)I can't remember anything from before the
+shipwreck. I can't even remember my crewmates'
+names… I… I…\e"
+M01220020,"\h(«Fina»)It appears that he has amnesia. Poor man…
+The shock of being shipwrecked must have
+been devastating…\e"
+M01220021,"\h(«Aika»)You know what? You can just come with us!
+We'll give you a ride out of here!\e"
+M01220022,"\h(«Ragged Old Man»)No… I know the way out… The Giant Beast leads
+to the outer world… But… But I cannot leave
+without my memories.\e"
+M01220023,"\h(«Aika»)But, we're here to help you!\e"
+M01220024,"\h(«Ragged Old Man»)I cannot leave. Not without knowing who I am.
+Not without knowing where to go once I am on
+the outside. No, I will stay here.\c"
+M01220025,"\h(«Vyse»)… Alright. We can't force you to leave.
+Hmm… I wonder if there's anything we can do to
+help him get his memory back…\c"
+M01220026,\h(«Ragged Old Man»)………………\c
+M01220027,"\h(«Vyse»)Hey, have you remembered anything
+about yourself yet?\e"
+M01220028,"\h(«Ragged Old Man»)…Who are you?
+I've never seen you before…\e"
+M01220029,"\h(«Aika»)…Oh, no. He's forgotten all about us
+already!\c"
+M01220030,\h(«Ragged Old Man»)…………\c
+M01220031,"\h(«Vyse»)Um… sir? Are you alright?
+Did you get shipwrecked in here?\e"
+M01220032,\h(«Ragged Old Man»)… Who are you?\e
+M01220033,"\h(«Vyse»)Uh, I'm Vyse, a Blue Air Pirate.
+What's your name?\e"
+M01220034,\h(«Ragged Old Man»)… I don't know.\e
+M01220035,\h(«Vyse»)… Huh?\e
+M01220036,"\h(«Ragged Old Man»)I can't remember anything from before the
+shipwreck. I can't even remember my crewmates'
+names… I… I…\e"
+M01220037,"\h(«Fina»)It appears that he has amnesia. Poor man…
+The shock of being shipwrecked must have
+been devastating…\e"
+M01220038,"\h(«Aika»)I wonder where
+he's from…\e"
+M01220039,"\h(«Polly»)It… it's you!
+Oh, thank the Moons I've found you!!\e"
+M01220040,"\h(«Polly»)Your hair's a little longer than before and
+you've got a beard now, but I know it's you! I'd
+never forget you! You're my husband, Robinson!\e"
+M01220041,"\h(«Ragged Old Man»)Robinson…
+That's my name…?\e"
+M01220042,"\h(«Polly»)Yes, that's right!
+It's me! Polly! Don't you remember me?
+Anne and I have been waiting for you for years!\e"
+M01220043,"\h(«Ragged Old Man»)Polly?
+Anne?\e"
+M01220044,\h(«Ragged Old Man»)……………\e
+M01220045,"\h(«Ragged Old Man»)Wait… Rob… in… son… Polly… Anne… Anne…
+Yes!! Yes!!!\e"
+M01220046,"\h(«Ragged Old Man»)Yes! My name is Robinson! And I remember! I
+remember my wife, Polly! And my daughter, Anne!\e"
+M01220047,"\h(«Polly»)Yes, yes!
+That's right!!\c"
+M01220048,"\h(«Robinson»)…Yes, I remember now. Oh, Polly… I'm so sorry.
+You must've been so worried… I'm so sorry that
+I left you alone for so long…\e"
+M01220049,\h(«Polly»)I'll never let you go again!\e
+M01220050,"\h(«Robinson»)…Nor will I.
+But… it seems like you're… a lot more
+woman than when I last saw you…\e"
+M01220051,"\h(«Polly»)You haven't seen me in years and that's
+all you you have to say to me?!\c"
+M01220052,"\h(«Robinson»)Your name was Vyse, right?
+I thank you from the bottom of my heart. Because
+of you, I have been reunited with Polly.\e"
+M01220053,"\h(«Robinson»)Polly tells me that she is a member of your
+crew now…\e"
+M01220054,"\h(«Robinson»)I would like to go with Polly.
+Could I come aboard your ship
+as a member of your crew?\e"
+M01220055,"\h(«Vyse»)Of course!
+We could always use more help!\e"
+M01220056,"\h(«Robinson»)I'm not in the best of shape, but I still 
+remember how to sail. I can at least do
+that much for you.\e"
+M01220057,\h( )Robinson has joined your crew as a “Sailor.”\c
+M01220058,\h(«Ragged Old Man»)………………\c
+M01220059,"\h(«Vyse»)Hey, have you remembered anything
+about yourself yet?\e"
+M01220060,"\h(«Ragged Old Man»)…Who are you?
+I've never seen you before…\e"
+M01220061,"\h(«Aika»)…Oh, no. He's forgotten all about us
+already!\c"
+M01220062,"\h(«Polly»)It… it's you!
+Oh, thank the Moons I've found you!!\e"
+M01220063,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MS01220000,"\h(«Vyse»)¿Mm? ¿Qué es esta piedra negra?
+Despide una especie de luz……\c"
+MS01220001,"\h(«Vyse»)¿Es una Piedra Lunar? ¿Una Piedra Negra? ¿Eh?
+¿Significa eso que también existe una Luna
+Negra? No sé qué está pasando aquí……\c"
+MS01220002,\h(«Vyse»)Hay una montaña de equipos de navegación……\c
+MS01220003,"\h(«Vyse»)Hay un poco de pescado seco colgado. Pero aún
+conserva la humedad. No creo que sea buena idea
+comerlo……\c"
+MS01220004,"\h(«Vyse»)¿Es esto una cama? No parece muy cómoda.
+Pero seguro que es más confortable que la hamaca
+del Little Jack.\c"
+MS01220005,"\h(«Vyse»)Hay un diario
+sobre la mesa……\e"
+MS01220006,"\h( )“He perdido la cuenta de los días…… no, años……
+desde que naufragamos aquí en la Gruta Oscura.
+Ni siquiera recuerdo adónde nos dirigíamos……”\e"
+MS01220007,"\h( )“Todos mis compañeros han muerto. Sólo quedo
+yo…… A menudo me pregunto por qué no abandono y
+me voy con ellos…… Pero hay algo que……”\e"
+MS01220008,"\h( )“Me detiene…… me da fuerzas para seguir.
+No…… no recuerdo. No me acuerdo de nada.
+Ni siquiera de cómo me llamo……”\e"
+MS01220009,"\h( )“Mis recuerdos son confusos…… tengo una esposa……
+y una hija. ¡Maldita sea! ¡¿Por qué no lo
+recuerdo?! Me siento vacío…… Me falta algo……”\e"
+MS01220010,"\h( )“Pero ya no importa. Estoy condenado a morir
+aquí en estas olas de muerte. Por ironías del
+destino me he jugado mi propia vida……”\c"
+MS01220011,"\h(«Vyse»)Esto debe ser la fuente de luz que vimos por la
+ventana.\c"
+MS01220012,"\h(«Vyse»)Robinson vivió aquí muchos años…… y su única luz
+era una lámpara parpadeante……\c"
+MS01220013,\h(«Anciano Harapiento»)…………\c
+MS01220014,"\h(«Vyse»)Um…… ¿señor? ¿Está usted bien?
+¿Ha naufragado en este lugar?\e"
+MS01220015,\h(«Anciano Harapiento»)…… ¿Y tú quién eres?\e
+MS01220016,"\h(«Vyse»)Me llamo Vyse, soy un Pirata Azul.
+¿Cómo te llamas tú?\e"
+MS01220017,\h(«Anciano Harapiento»)…… No sé.\e
+MS01220018,\h(«Vyse»)…… ¿?\e
+MS01220019,"\h(«Anciano Harapiento»)No me acuerdo de nada de lo que pasó antes del
+naufragio. Ni siquiera recuerdo cómo se llamaban
+mis compañeros de viaje…… Yo……\e"
+MS01220020,"\h(«Fina»)Tiene amnesia. Pobre hombre……
+El trauma del naufragio ha debido de ser
+tremendo……\e"
+MS01220021,"\h(«Aika»)¿Sabes qué? ¡Puedes venir con nosotros!
+¡Te sacaremos de aquí!\e"
+MS01220022,"\h(«Anciano Harapiento»)Conozco el camino de salida…… La Bestia Gigante
+conduce al mundo exterior…… Pero…… No puedo irme
+sin recuperar mis recuerdos.\e"
+MS01220023,\h(«Aika»)¡Nosotros podemos ayudarte!\e
+MS01220024,"\h(«Anciano Harapiento»)No puedo irme. No sin saber antes quién soy. No
+sin saber adónde voy a ir cuando salga de aquí.
+No, yo me quedo.\c"
+MS01220025,"\h(«Vyse»)…… Bueno. No podemos forzarte a que vengas con
+nosotros. Mmm…… No sé si hay algo que podamos
+hacer para ayudarle a recuperar la memoria……\c"
+MS01220026,\h(«Anciano Harapiento»)………………\c
+MS01220027,\h(«Vyse»)¿Has conseguido acordarte de algo?\e
+MS01220028,"\h(«Anciano Harapiento»)…… ¿Quién eres?
+No te había visto nunca……\e"
+MS01220029,"\h(«Aika»)…… Oh, no. ¡Ya se ha olvidado de nosotros por
+completo!\c"
+MS01220030,\h(«Anciano Harapiento»)…………\c
+MS01220031,"\h(«Vyse»)Um…… ¿señor? ¿Está usted bien?
+¿Ha naufragado en este lugar?\e"
+MS01220032,\h(«Anciano Harapiento»)…… ¿Y tú quién eres?\e
+MS01220033,"\h(«Vyse»)Me llamo Vyse, soy un Pirata Azul.
+¿Cómo te llamas tú?\e"
+MS01220034,\h(«Anciano Harapiento»)…… No sé.\e
+MS01220035,\h(«Vyse»)¿Cómo……?\e
+MS01220036,"\h(«Anciano Harapiento»)No me acuerdo de nada de lo que pasó antes del
+naufragio. Ni siquiera recuerdo cómo se llamaban
+mis compañeros de viaje…… Yo……\e"
+MS01220037,"\h(«Fina»)Tiene amnesia. Pobre hombre……
+El trauma del naufragio ha debido de ser
+tremendo……\e"
+MS01220038,\h(«Aika»)Me pregunto de dónde es……\e
+MS01220039,"\h(«Polly»)¡Eres tú!
+¡¡Oh, benditas sean las Lunas, te he encontrado
+al fin!!\e"
+MS01220040,"\h(«Polly»)¡Tienes el pelo más largo y te ha crecido la
+barba, pero eres tú! ¡Te reconocería después de
+un millón de años! ¡Eres mi marido, Robinson!\e"
+MS01220041,"\h(«Anciano Harapiento»)Robinson……
+¿Me llamo así……?\e"
+MS01220042,"\h(«Polly»)¡Sí! ¡Soy yo! ¡Polly! ¿Es que no te acuerdas?
+¡Anne y yo llevamos años esperando a que
+regreses!\e"
+MS01220043,"\h(«Anciano Harapiento»)¿Polly?
+¿Anne?\e"
+MS01220044,\h(«Anciano Harapiento»)……………\e
+MS01220045,"\h(«Anciano Harapiento»)Espera…… Rob…… in…… son…… Polly…… Anne…… Anne……
+¡¡Sí!! ¡¡¡Sí!!!\e"
+MS01220046,"\h(«Anciano Harapiento»)¡Sí! ¡Me llamo Robinson! ¡Y me acuerdo!
+¡Recuerdo a Polly! ¡Y a mi hija, Anne!\e"
+MS01220047,"\h(«Polly»)¡Sí, sí, sí!
+¡¡Claro que sí!!\c"
+MS01220048,"\h(«Robinson»)……Ahora me acuerdo. Oh, Polly…… No sabes cuánto
+lo siento. Debes haber estado tan preocupada……
+Perdóname por haberte dejado sola tanto tiempo.\e"
+MS01220049,\h(«Polly»)¡Nunca más volveré a dejarte marchar!\e
+MS01220050,"\h(«Robinson»)…… Ni yo me iré.
+Pero…… pareces mucho más mujer que la última vez
+que te vi……\e"
+MS01220051,"\h(«Polly»)¡¿No me has visto desde hace años y eso es lo
+primero que se te ocurre decirme?!\c"
+MS01220052,"\h(«Robinson»)Tú eres Vyse, ¿no?
+Gracias de corazón. Gracias a ti he vuelto a
+recuperar a Polly.\e"
+MS01220053,"\h(«Robinson»)Polly dice que ahora es miembro de tu
+tripulación……\e"
+MS01220054,"\h(«Robinson»)Me gustaría poder ir con Polly.
+¿Podría viajar en tu navío como
+miembro de la tripulación?\e"
+MS01220055,"\h(«Vyse»)¡Claro!
+¡Un poco de ayuda siempre viene bien!\e"
+MS01220056,"\h(«Robinson»)No estoy en muy buena forma, pero aún recuerdo
+cómo navegar. Por lo menos podré ayudarte en
+eso.\e"
+MS01220057,"\h( )Robinson se ha unido a tu tripulación como
+“Marino”.\c"
+MS01220058,\h(«Anciano Harapiento»)………………\c
+MS01220059,\h(«Vyse»)¿Ya has conseguido acordarte de algo?\e
+MS01220060,"\h(«Anciano Harapiento»)…… ¿Quién eres?
+No te había visto nunca……\e"
+MS01220061,"\h(«Aika»)…… Oh, no. ¡Ya se ha olvidado de nosotros por
+completo!\c"
+MS01220062,"\h(«Polly»)¡Eres tú!
+¡¡Oh, benditas sean las Lunas, te he encontrado
+al fin!!\e"
+MS01220063,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un poco más.”\c"
+MF01220000,"\h(«Vyse»)Hum ? Quelle est cette pierre noire ?
+Pourtant elle reflète de la lumière……\c"
+MF01220001,"\h(«Vyse»)Est-ce une Pierre de Lune ? Une Pierre de Lune
+Noire ? Hein ? Cela veut-il dire qu'il y a aussi
+une Lune Noire ? Je ne sais pas ce qu'il se
+passe ici……\c"
+MF01220002,"\h(«Vyse»)Oh là là……
+Il y a toute une montagne de vieilles voiles et
+d'équipement de navigation à voile……\c"
+MF01220003,"\h(«Vyse»)Il y a des poissons séchés qui pendent. Bon, ils
+ne sont pas complètement secs. Il vaut mieux ne
+pas les manger……\c"
+MF01220004,"\h(«Vyse»)C'est censé être un lit ? Il n'a pas l'air très
+confortable. Mais, c'est sûrement plus
+confortable que le hamac du Little Jack.\c"
+MF01220005,"\h(«Vyse»)Il y a un journal
+sur le bureau……\e"
+MF01220006,"\h( )“J'ai perdu le fil des jours…… non, des années……
+depuis notre naufrage dans le Récif Noir. Je ne
+me souviens même pas de notre destination……”\e"
+MF01220007,"\h( )“Tous mes compagnons de bord ont péri. Il ne
+reste que moi…… Parfois je me demande pourquoi
+je ne vais pas les rejoindre…… Mais, il y a
+quelque chose……”\e"
+MF01220008,"\h( )“Quelque chose qui me retient…… me donne la
+force de continuer. Je…… je ne me souviens pas.
+Je me souviens de rien. Je ne sais même pas
+comment je m'appelle……”\e"
+MF01220010,"\h( )“Mais cela n'a pas d'importance. Je suis
+condamné à mourir ici dans ces nuages
+tourbillonnants de la mort. J'ai décidé de mon
+destin pour une raison stupide quelconque……”\c"
+MF01220011,"\h(«Vyse»)Ce doit être la source de la lumière que nous
+avons vue par la fenêtre.\c"
+MF01220012,"\h(«Vyse»)Robinson a vécu ici pendant des années…… avec
+seulement une lampe vacillante pour éclairer son
+chemin……\c"
+MF01220013,\h(«Vieil Homme en Haillons»)…………\c
+MF01220014,"\h(«Vyse»)Um…… Monsieur ? Ça va ?
+Vous avez fait naufrage ici ?\e"
+MF01220015,\h(«Vieil Homme en Haillons»)…… Qui êtes-vous ?\e
+MF01220016,"\h(«Vyse»)Uh, je m'appelle Vyse, un Pirate de l'Air Bleu.
+Comment vous appelez-vous ?\e"
+MF01220017,\h(«Vieil Homme en Haillons»)…… Je ne sais pas.\e
+MF01220018,\h(«Vyse»)…… Hein ?\e
+MF01220019,"\h(«Vieil Homme en Haillons»)J'ai oublié tout ce qu'il s'est passé avant le
+naufrage. Je ne me souviens même pas des noms de
+mes compagnons…… Je…… Je……\e"
+MF01220020,"\h(«Fina»)On dirait qu'il souffre d'amnésie. Le pauvre……
+Le naufrage a dû être un choc terrible……\e"
+MF01220021,"\h(«Aika»)Vous savez quoi ? Vous n'avez qu'à venir avec
+moi ! Nous vous sortirons d'ici !\e"
+MF01220022,"\h(«Vieil Homme en Haillons»)Non…… Je connais la sortie…… La Bête Géante mène
+au monde extérieur…… Mais…… Mais je ne peux pas
+vivre sans mes souvenirs.\e"
+MF01220023,"\h(«Aika»)Mais, nous sommes ici pour vous aider !\e"
+MF01220024,"\h(«Vieil Homme en Haillons»)Je ne peux pas partir. Pas sans savoir qui je
+suis. Pas sans savoir où aller une fois dehors.
+Non, je vais rester ici.\c"
+MF01220025,"\h(«Vyse»)…… Entendu. Nous ne pouvons pas vous obliger à
+partir. Humm…… Je me demande si nous pouvons
+l'aider à retrouver la mémoire……\c"
+MF01220026,\h(«Vieil Homme en Haillons»)…………………\c
+MF01220027,"\h(«Vyse»)Hé, vous souvenez de quelque chose sur vous ?\e"
+MF01220028,"\h(«Vieil Homme en Haillons»)……Qui êtes-vous ?
+Je ne vous ai jamais vus……\e"
+MF01220029,"\h(«Aika»)……Oh, non. Il nous a déjà oubliés !\c"
+MF01220030,\h(«Vieil Homme en Haillons»)…………\c
+MF01220031,"\h(«Vyse»)Um…… Monsieur ? Ça va ?
+Vous avez fait naufrage ici ?\e"
+MF01220032,\h(«Vieil Homme en Haillons»)…… Qui êtes-vous ?\e
+MF01220033,"\h(«Vyse»)Uh, je m'appelle Vyse, un Pirate de l'Air Bleu.
+Comment vous appelez-vous ?\e"
+MF01220034,\h(«Vieil Homme en Haillons»)…… Je ne sais pas.\e
+MF01220035,\h(«Vyse»)…… Hein ?\e
+MF01220036,"\h(«Vieil Homme en Haillons»)J'ai oublié tout ce qu'il s'est passé avant le
+naufrage. Je ne me souviens même pas des noms de
+mes compagnons…… Je…… Je……\e"
+MF01220037,"\h(«Fina»)On dirait qu'il souffre d'amnésie. Le pauvre……
+Le naufrage a dû être un choc terrible……\e"
+MF01220038,"\h(«Aika»)Je me demande d'où
+il vient……\e"
+MF01220039,"\h(«Polly»)C'est…… c'est toi !
+Oh, remercie les Lunes de t'avoir retrouvé !!\e"
+MF01220040,"\h(«Polly»)Tes cheveux ont poussé et tu as une barbe, mais
+je te reconnais ! Je ne t'oublierai jamais !
+Tu es mon mari, Robinson !\e"
+MF01220041,"\h(«Vieil Homme en Haillons»)Robinson……
+C'est mon nom……?\e"
+MF01220042,"\h(«Polly»)Oui, exact !
+C'est moi ! Polly ! Tu ne te souviens pas de
+moi ? Anne et moi t'attendons depuis des
+années !\e"
+MF01220043,"\h(«Vieil Homme en Haillons»)Polly ?
+Anne ?\e"
+MF01220044,\h(«Vieil Homme en Haillons»)……………\e
+MF01220045,"\h(«Vieil Homme en Haillons»)Attendez…… Rob…… in…… son…… Polly…… Anne……
+Anne…… Oui !! Oui !!!\e"
+MF01220046,"\h(«Vieil Homme en Haillons»)Oui ! Je m'appelle Robinson ! Et je me
+souviens ! Je me souviens de ma femme, Polly !
+Et de ma fille, Anne !\e"
+MF01220047,"\h(«Polly»)Oui, oui !
+C'est exact !!\c"
+MF01220048,"\h(«Robinson»)……Oui, je me souviens maintenant. Oh, Polly…… Je
+suis désolé. Tu devrais être vraiment inquiète……
+Je suis vraiment désolé de t'avoir laissée aussi
+longtemps……\e"
+MF01220049,\h(«Polly»)Je ne te laisserai jamais repartir !\e
+MF01220050,"\h(«Robinson»)……Moi non plus.
+Mais…… on dirait que tu es…… beaucoup plus
+féminine que la dernière fois que je t'ai vue……\e"
+MF01220051,"\h(«Polly»)Tu ne m'as pas vu depuis des années et c'est
+tout ce que tu trouves à me dire ?!\c"
+MF01220052,"\h(«Robinson»)Vous vous appelez Vyse, n'est-ce pas ?
+Je vous remercie du fond du coeur.
+Grâce à vous, j'ai retrouvé Polly.\e"
+MF01220053,"\h(«Robinson»)Polly m'a dit qu'elle était membre de votre
+équipage à présent……\e"
+MF01220054,"\h(«Robinson»)J'aimerais accompagner Polly.
+Pourrais-je monter à bord de votre navire
+en tant que membre de votre équipage ?\e"
+MF01220055,"\h(«Vyse»)Bien sûr !
+Nous avons toujours besoin d'aide !\e"
+MF01220056,"\h(«Robinson»)Je ne suis pas au meilleur de ma forme, mais je
+me souviens comment naviguer. Je peux au moins
+faire cela pour vous.\e"
+MF01220057,\h( )Robinson le “Marin” a rejoint votre équipage.\c
+MF01220058,\h(«Vieil Homme en Haillons»)………………\c
+MF01220059,"\h(«Vyse»)Hé, vous souvenez de quelque chose sur vous ?\e"
+MF01220060,"\h(«Vieil Homme en Haillons»)……Qui êtes-vous ?
+Je ne vous ai jamais vus……\e"
+MF01220061,"\h(«Aika»)……Oh, non. Il nous a déjà oubliés !\c"
+MF01220062,"\h(«Polly»)C'est…… c'est toi !
+Oh, remercie les Lunes de t'avoir retrouvé !!\e"
+MF01220063,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MG01220000,"\h(«Vyse»)Hm? Was ist das für ein schwarzer Stein?
+Er gibt trotzdem eine Art Licht ab……\c"
+MG01220001,"\h(«Vyse»)Ist das ein Moon Stone? Ein Schwarzer Moon
+Stone? Was? Heißt das, dass es
+auch einen schwarzen Mond gibt? Ich weiß
+nicht, was hier los ist……\c"
+MG01220002,"\h(«Vyse»)Wa……
+Da liegt ein ganzer Haufen von alten Segeln
+und Segelausrüstung……\c"
+MG01220003,"\h(«Vyse»)Hier hängt etwas getrockneter Fisch. Nun, er
+sieht noch etwas feucht aus. Es ist wohl am
+besten, das nicht zu essen……\c"
+MG01220004,"\h(«Vyse»)Das soll ein Bett sein? Es sieht nicht sehr
+komfortabel aus. Aber es ist wahrscheinlich
+doch komfortabler als die Hängematte auf
+der Little Jack.\c"
+MG01220005,"\h(«Vyse»)Da liegt ein Tagebuch
+auf dem Schreibtisch……\e"
+MG01220007,"\h( )“Alle meine Kameraden sind tot. Ich bin der
+Einzige, der übrig ist…… Ich frage mich oft,
+warum ich es nicht einfach sein lasse und
+zu ihnen gehe…… Aber da ist etwas……”\e"
+MG01220008,"\h( )“Etwas hält mich davon zurück…… und lässt mich
+weitermachen. Ich…… ich erinnere mich nicht.
+Ich erinnere mich an nichts. Ich weiß noch
+nicht einmal meinen eigenen Namen……”\e"
+MG01220009,"\h( )“Ich glaube, ich erinnere mich, dass ich……
+eine Frau…… und eine Tochter habe. Verdammt!
+Warum kann ich mich nicht erinnern?! Ich fühle
+mich so leer…… als ob mir etwas fehlt……”\e"
+MG01220011,"\h(«Vyse»)Das muss die Quelle des Lichts sein, das
+wir durch das Fenster gesehen haben.\c"
+MG01220012,"\h(«Vyse»)Robinson hat hier so viele Jahre gelebt……
+und hatte nichts als eine flackernde Lampe, um
+seinen Weg zu beleuchten……\c"
+MG01220013,\h(«Heruntergekommener alter Mann»)……\c
+MG01220014,"\h(«Vyse»)Em…… mein Herr? Geht es Ihnen gut?
+Haben Sie hier Schiffbruch erlitten?\e"
+MG01220015,\h(«Heruntergekommener alter Mann»)……Wer bist du?\e
+MG01220016,"\h(«Vyse»)Uh, ich bin Vyse, ein Blue Rogue.
+Wie ist Ihr Name?\e"
+MG01220017,\h(«Heruntergekommener alter Mann»)……Ich weiß nicht.\e
+MG01220018,\h(«Vyse»)……Wie bitte?\e
+MG01220019,"\h(«Heruntergekommener alter Mann»)Ich kann mich an nichts erinnern, das vor
+dem Schiffbruch geschehen ist. Ich kann mich
+noch nicht mal an die Namen meiner Kameraden
+erinnern…… ich…… ich……\e"
+MG01220020,"\h(«Fina»)Es sieht so aus, als hätte er sein Gedächtnis
+verloren. Armer Mann…… Der Schock des
+Schiffbruchs muss ihn sehr mitgenommen haben……\e"
+MG01220021,"\h(«Aika»)Wissen Sie was? Sie können einfach mit uns
+mitkommen! Wir holen Sie hier raus!\e"
+MG01220022,"\h(«Heruntergekommener alter Mann»)Nein…… ich kenne den Ausgang…… das Giant Beast
+führt zur Außenwelt…… aber…… aber ich kann
+nicht ohne meine Erinnerungen abreisen.\e"
+MG01220023,"\h(«Aika»)Aber wir sind doch hier, um Ihnen zu helfen!\e"
+MG01220024,"\h(«Heruntergekommener alter Mann»)Ich kann nicht fort. Nicht ohne zu wissen, wer
+ich bin. Nicht ohne zu wissen, wo ich hin soll,
+wenn ich einmal draußen bin. Nein, ich werde
+hierbleiben.\c"
+MG01220025,"\h(«Vyse»)……Gut. Wir können Sie nicht zwingen,
+mitzugehen. Hmm…… Ich frage mich, ob es nicht
+irgendetwas gibt, mit dem wir ihm helfen
+können, sein Gedächtnis wiederzuerlangen……\c"
+MG01220026,\h(«Heruntergekommener alter Mann»)………\c
+MG01220027,"\h(«Vyse»)He, ist Ihnen schon etwas über sich selbst
+eingefallen?\e"
+MG01220028,"\h(«Heruntergekommener alter Mann»)……Wer seid ihr?
+Ich habe euch noch nie zuvor gesehen……\e"
+MG01220029,\h(«Aika»)……O nein. Er hat uns schon wieder vergessen!\c
+MG01220030,\h(«Heruntergekommener alter Mann»)………\c
+MG01220031,"\h(«Vyse»)Em…… mein Herr? Geht es Ihnen gut?
+Haben Sie hier Schiffbruch erlitten?\e"
+MG01220032,\h(«Heruntergekommener alter Mann»)…… Wer bist du?\e
+MG01220033,"\h(«Vyse»)Äh, ich bin Vyse, ein Blue Rogue.
+Wie ist Ihr Name?\e"
+MG01220034,\h(«Heruntergekommener alter Mann»)……Ich weiß nicht.\e
+MG01220035,\h(«Vyse»)……Wie bitte?\e
+MG01220036,"\h(«Heruntergekommener alter Mann»)Ich kann mich an nichts erinnern, was vor
+dem Schiffbruch geschehen ist. Ich kann mich
+noch nicht mal an die Namen meiner Kameraden
+erinnern…… ich…… ich……\e"
+MG01220037,"\h(«Fina»)Es sieht so aus, als hätte er sein Gedächtnis
+verloren. Armer Mann…… Der Schock des
+Schiffbruchs muss ihn sehr mitgenommen haben……\e"
+MG01220038,"\h(«Aika»)Ich frage mich, wo er herkommt……\e"
+MG01220039,"\h(«Polly»)Du…… du bist's!
+Oh, den Monden sei Dank, dass ich dich
+gefunden habe!!\e"
+MG01220040,"\h(«Polly»)Dein Haar ist etwas länger als zuvor, und du
+hast jetzt einen Bart, aber ich weiß, dass du
+es bist! Dich würde ich nie vergessen!
+Du bist doch mein Ehemann, Robinson!\e"
+MG01220041,"\h(«Heruntergekommener alter Mann»)Robinson……
+Das ist mein Name……?\e"
+MG01220042,"\h(«Polly»)Ja, genau!
+Ich bin's! Polly! Erinnerst du dich nicht an
+mich? Anne und ich warten seit Jahren auf dich!\e"
+MG01220043,"\h(«Heruntergekommener alter Mann»)Polly?
+Anne?\e"
+MG01220044,\h(«Heruntergekommener alter Mann»)…………\e
+MG01220045,"\h(«Heruntergekommener alter Mann»)Warte…… Rob…… in…… son…… Polly…… Anne…… Anne……
+Ja!! Ja!!!\e"
+MG01220046,"\h(«Heruntergekommener alter Mann»)Ja! Mein Name ist Robinson! Und ich erinnere
+mich daran! Ich erinnere mich an meine Frau
+Polly! Und meine Tochter Anne!\e"
+MG01220047,"\h(«Polly»)Ja, ja!
+Genau!!\c"
+MG01220048,"\h(«Robinson»)……Ja, jetzt erinnere ich mich. Oh, Polly……
+Es tut mir so leid. Du musst so besorgt
+gewesen sein…… es tut mir so leid, dass ich
+dich so lange allein gelassen habe……\e"
+MG01220049,\h(«Polly»)Ich lasse dich nie mehr fort!\e
+MG01220050,"\h(«Robinson»)……ich dich auch nicht.
+Aber…… es sieht so aus, als ob du…… viel
+fraulicher geworden bist, seitdem ich dich
+das letzte Mal gesehen habe……\e"
+MG01220051,"\h(«Polly»)Du hast mich jahrelang nicht gesehen, und
+das ist alles, was du mir zu sagen hast?!\c"
+MG01220052,"\h(«Robinson»)Dein Name war Vyse, nicht wahr?
+Ich danke dir aus ganzem Herzen. Deinetwegen
+bin ich jetzt wieder mit Polly vereint.\e"
+MG01220053,"\h(«Robinson»)Polly sagt, dass sie jetzt Mitglied
+deiner Crew ist……\e"
+MG01220054,"\h(«Robinson»)Ich möchte gern mit Polly gehen.
+Könnte ich als Mitglied deiner Crew mit
+auf dein Schiff?\e"
+MG01220055,"\h(«Vyse»)Natürlich!
+Wir können stets Hilfe gebrauchen!\e"
+MG01220056,"\h(«Robinson»)Ich bin nicht in der besten Verfassung,
+aber segeln werde ich ja noch können.
+Zumindestes könnte ich das für dich tun.\e"
+MG01220057,"\h( )Robinson ist als “Matrose” zu deiner
+Mannschaft gestoßen.\c"
+MG01220058,\h(«Heruntergekommener alter Mann»)………\c
+MG01220059,"\h(«Vyse»)He, ist Ihnen schon etwas über sich selbst
+eingefallen?\e"
+MG01220060,"\h(«Heruntergekommener alter Mann»)……Wer seid ihr?
+Ich habe euch noch nie zuvor gesehen……\e"
+MG01220061,\h(«Aika»)……O nein. Er hat uns schon wieder vergessen!\c
+MG01220062,"\h(«Polly»)Du…… du bist's!
+Ach, den Monden sei Dank, dass ich dich
+gefunden habe!!\e"
+MG01220063,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Noch eine Weile hier bleiben.”\c"
+"",me122a.sct
+"",M0255
+"",m5220000
+"",a122bh32.mld
+"",e6h032
+"",a122bh32.mld
+"",\h(ポリーさんが欲しいかい？)
+"","めっちゃ欲しい！！
+うんにゃ、いらねえさ\c"
+"",\h(会話は何回目？)
+"","初めてなので優しくしてください
+経験抱負さん\c"

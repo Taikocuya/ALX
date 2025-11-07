@@ -1,0 +1,93 @@
+[Event Name],Task ID
+MC0100000,"\h(《Aika》)Vyse, that huge vehicle over there must be the 
+rail car.\e"
+MC0100001,"\h(《Vyse》)I think you're right, Aika.
+Looks like it can only ride on those rails. 
+I guess it would be hard to steal…\e"
+MC0100002,\h(《Vyse》)Let me get a closer look!\e
+MC0100003,\h(《Vyse》)Fina!\e
+MC0100004,"\h(《Aika》)What are you talking about?
+I thought Fina was supposed to be at the palace.\e"
+MC0100005,"\h(《Vyse》)That's what I thought, but it looks like that 
+rail car is going to the Grand Fortress.\e"
+MC0100006,"\h(《Vyse》)If she gets taken into the fortress, we'll never
+be able to get her out! We have to move… now!\e"
+MC0120000,"\h(《Vyse》)It sounds like the engines are starting…
+We'll never get down there in time.\e"
+MC0120001,"\h(《Aika》)Vyse, what should we do?\e"
+MC0120002,\h(《Vyse》)We've got to jump onto the roof!\e
+MC0120003,"\h(《Aika》)What?!
+Isn't there a Plan B?\e"
+MC0120004,"\h(《Vyse》)Come on, Aika!\e"
+MC0120005,\h(《Aika》)This shouldn't be too tough.\e
+M03020000,"\h(《Upper City Valuan》)The bathtub in my house is made out of gold, you
+know. Pure gold, of course.\e"
+M03020001,"\h(《Upper City Valuan》)But, something is still missing…\e"
+M03020002,"\h(《Upper City Valuan》)I know! I'll have my toilet made out of pure
+silver!\e"
+M03030000,"\h(《Upper City Valuan》)This is Valua's Upper City. Only those of
+wealthy stature or born of noble blood live
+here, of course…\e"
+M03030001,"\h(《Upper City Valuan》)It's a much harder life here in Upper City than 
+you think… there are so many plays, so many 
+parties… I'm a very busy person…\e"
+M03040000,"\h(《Boy》)My mommy told me that people in Lower City 
+rarely get to eat white bread.\e"
+M03040001,"\h(《Boy》)But that's stupid… If they can't eat bread,
+why don't they just eat cake? Hehehe…\e"
+M03050000,"\h(《Upper City Valuan》)Oh, are you a nobleman?
+You'll have to excuse me, but which family are
+you from?\e"
+M03050001,"\h(《What do you say?》)”I am a relative of Admiral Alfonso.”
+”I come from a poor, but noble, family.”
+”From the Dyne Family.”\e"
+M03050002,"\h(《Vyse》)I am a relative of Admiral Alfonso of the
+Imperial Armada.\e"
+M03050003,"\h(《Upper City Valuan》)Wh, what?!
+I am very sorry for my insolence.
+I did not realize you were of such import!\e"
+M03050004,"\h(《Upper City Valuan》)Now that you mention it, you do have very noble
+and elegant features! Splendid!\e"
+M03050005,"\h(《Vyse》)Me?
+I'm the only son of a poor, but noble family.\e"
+M03050006,"\h(《Upper City Valuan》)Oh… I see.
+Now that I think about it, your clothes are
+rather… old.\e"
+M03050007,"\h(《Upper City Valuan》)Enough. Please go away. I wouldn't want your
+”poorness” to rub off on me.\e"
+M03050008,"\h(《Vyse》)Me?
+I'm one of the members of the Dyne Family.\e"
+M03050009,"\h(《Upper City Valuan》)Hm… The Dyne Family, you say?
+I don't seem to recall any noble families of
+such a name…\e"
+M03050010,"\h(《Upper City Valuan》)Well, just looking at you, I can tell that you
+come from a noble military family.
+I shall try to remember that name.\e"
+Ms107a000,"\h(《アイカ》)ヴァイス！
+のんきにお茶飲んでる
+場合じゃないでしょ！\c"
+Ms107a001,"\h(《ヴァイス》)街の中に噴水まであるのか。
+下級都市と同じ国とは
+とても思えないな……\c"
+"",me209a.sct
+"",me106c.sct
+"",M0307
+"",m5070000
+"",C10発生しました。\c
+"",a107ac10.mld
+"",a107ac10.mld
+"",a107ac10_efe.mld
+"",a107ac10_efe.mld
+"",M0325
+"",e6c010
+"",a107ac10.mld
+"",a107ac10_efe.mld
+"",EVc12発生しました。\c
+"",a107ac12.mld
+"",a107ac12.mld
+"",M0325
+"",e6c012
+"",a107ac12_efe.mld
+"",a107ac12_efe.mld
+"",a107ac12.mld
+"",a107ac12_efe.mld

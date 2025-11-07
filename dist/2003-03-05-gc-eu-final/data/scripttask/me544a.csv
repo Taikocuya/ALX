@@ -1,0 +1,123 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MA5440000,"\h(«Galcian's Elite Vessel»)Infidels! We will not let you past here!
+You will get no closer to Lord Galcian!\e"
+MA5440001,"\h(«Galcian's Elite Vessel»)All hands to battlestations!
+Do whatever you have to do, just
+make sure they don't get past us!\c"
+MA5440002,"\h(«Aika»)Look!
+The enemy's running away!\e"
+MA5440003,"\h(«What will you do?»)“Pursue and attack!”
+“Stay put. We shouldn't just rush in…”\e"
+MA5440004,"\h(«Vyse»)Alright, let's go after them!
+Full speed ahead!\c"
+MA5440005,"\h(«Galcian's Elite Vessel»)Alright, they've taken the bait!
+Slow to half speed, and prepare to attack!\e"
+MA5440006,"\h(«Galcian Elite Vessel»)We must protect our lord at all costs!
+Prepare yourselves, Air Pirates!\c"
+MA5440007,"\h(«Vyse»)No, we shouldn't rush in after them.
+Maintain present course and speed,
+and continue attacking.\e"
+MA5440008,"\h(«Gilder»)You're right. There's no way that
+an elite unit like that
+would just turn tail and run.\e"
+MA5440009,"\h(«Aika»)So that was just a trick
+to try and lure us in?\e"
+MA5440010,"\h(«Gilder»)Yep. But we've got the upper hand now.
+Now's our chance to attack!\c"
+MFA5440000,"\h(«Vaisseau Élite de Galcian»)Infidèles ! Nous ne vous laisserons pas passer !
+Vous ne vous approcherez pas davantage du
+Seigneur Galcian !\e"
+MFA5440001,"\h(«Vaisseau Élite de Galcian»)Tous à vos postes de combat !
+Faites ce que vous avez à faire, mais veillez à
+ce qu'ils ne nous dépassent pas !\c"
+MFA5440002,\h(«Aika»)L'ennemi s'enfuit !\e
+MFA5440003,"\h(«Que ferez-vous ?»)“Poursuivre et attaquer !”
+“Rester là, il ne faut pas se précipiter……”\e"
+MFA5440004,"\h(«Vyse»)Allez, partons à leur poursuite !
+En avant toute !\c"
+MFA5440005,"\h(«Vaisseau Élite de Galcian»)Ils ont mordu à l'appât !
+Diminuez la vitesse de moitié, et préparez-vous
+à attaquer !\e"
+MFA5440006,"\h(«Vaisseau Élite de Galcian»)Nous devons protéger notre seigneur à tout
+prix ! Préparez-vous, Pirates de l'Air !\c"
+MFA5440007,"\h(«Vyse»)Non, il ne faut pas se précipiter à leur
+poursuite. Maintenez le cap et la vitesse,
+et continuez d'attaquer.\e"
+MFA5440008,"\h(«Gilder»)Vous avez raison. Une élite de ce genre ne
+ferait jamais demi-tour.\e"
+MFA5440009,"\h(«Aika»)Alors c'était une ruse
+pour essayer de nous attirer ?\e"
+MFA5440010,"\h(«Gilder»)C'est cela.
+Mais nous avons le dessus maintenant.
+C'est le moment ou jamais d'attaquer !\c"
+MGA5440000,"\h(«Galcians Eliteschiff»)Ungläubige! Wir lassen euch hier nicht vorbei!
+Ihr kommt nicht näher an Lord Galcian heran!\e"
+MGA5440001,"\h(«Galcians Eliteschiff»)Alle Mann an die Kampfstationen!
+Tut, was immer ihr tun müsst, aber passt auf,
+dass sie nicht an uns vorbeikommen!\c"
+MGA5440002,"\h(«Aika»)Seht mal!
+Der Feind ergreift die Flucht!\e"
+MGA5440003,"\h(«Was wirst du tun?»)“Verfolgung aufnehmen und angreifen!”
+“Hierbleiben. Nicht überstürzt handeln……”\e"
+MGA5440004,"\h(«Vyse»)Ok, holen wir sie uns!
+Volle Kraft voraus!\c"
+MGA5440005,"\h(«Galcians Eliteschiff»)Jawoll, sie haben angebissen!
+Geht auf halbe Kraft und bereitet euch auf
+den Angriff vor!\e"
+MGA5440006,"\h(«Galcians Eliteschiff»)Wir müssen unseren Lord um jeden Preis
+beschützen! Rüstet euch, Luftpiraten!\c"
+MGA5440007,"\h(«Vyse»)Nein, wir sollten ihnen nicht hinterherfliegen.
+Behaltet den augenblicklichen Kurs und die
+Geschwindigkeit bei und setzt die Angriffe fort.\e"
+MGA5440008,"\h(«Gilder»)Stimmt. Es ist ausgeschlossen, dass so eine
+Eliteeinheit einfach umdreht und sich aus dem
+Staub macht.\e"
+MGA5440009,"\h(«Aika»)Das war also ein Trick, um uns
+anzulocken?\e"
+MGA5440010,"\h(«Gilder»)Genau. Aber jetzt haben wir die Oberhand.
+Das ist jetzt unsere Angriffschance!\c"
+MSA5440000,"\h(«Buque de Elite de Galcian»)¡Gusanos! ¡No pasaréis de aquí!
+¡No os acercaréis ni un milímetro
+más a Lord Galcian!\e"
+MSA5440001,"\h(«Buque de Élite de Galcian»)¡Todos a sus puestos de combate!
+¡Haced lo que haga falta con
+tal de que no nos pasen!\c"
+MSA5440002,"\h(«Aika»)¡Mira!
+¡El enemigo se da a la fuga!\e"
+MSA5440003,"\h(«¿Qué vas a hacer?»)“¡Perseguir y atacar!”
+“No moverme. No hay por qué apresurarse……”\e"
+MSA5440004,"\h(«Vyse»)¡Vamos tras ellos!
+¡A toda máquina!\c"
+MSA5440005,"\h(«Buque de Elite de Galcian»)¡Muy bien, han mordido el anzuelo!
+¡Vamos a reducir la velocidad a la mitad
+y a preparar el ataque!\e"
+MSA5440006,"\h(«Buque de Elite de Galcian»)¡Hay que proteger a Lord Galcian a toda costa!
+¡Preparaos para la acción, Piratas Aéreos!\c"
+MSA5440007,"\h(«Vyse»)No, no está bien correr tras ellos.
+Mantén el rumbo y velocidad y sigue atacando.\e"
+MSA5440008,"\h(«Gilder»)Tienes razón. No tiene sentido que un navío de
+elite como ése salga huyendo así.\e"
+MSA5440009,"\h(«Aika»)¿Así que no era más que un truco
+para que nos acercáramos?\e"
+MSA5440010,"\h(«Gilder»)Sí, pero ahora nosotros jugamos con ventaja.
+¡Es nuestra oportunidad para atacar!\c"
+"",M0430
+"",me034a.sct
+"",me544a
+"",me090a.sct
+"",f7100100S.p04
+"",f7100100S.p04
+"",f7100100S.p04
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",me034a.sct

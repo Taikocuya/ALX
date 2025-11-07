@@ -1,0 +1,38 @@
+[Event Name],Task ID
+MC0140000,\h(«Fina»)Vyse?!\e
+MC0140001,\h(«Valuan Soldier»)Who are you?!\e
+MC0140002,"\h(«Aika»)Sorry we took so long, Fina!
+We're here to get you out!\e"
+MC0140003,"\h(«Valuan Soldier»)Insolent pests! You'll have to get past us
+first!\e"
+MC0140004,\h(«Vyse»)Bring it on!\e
+MSC0140000,\h(«Fina»)¡¿Vyse?!\e
+MSC0140001,\h(«Soldado Valuan»)¡¿Quién eres tú?!\e
+MSC0140002,"\h(«Aika»)¡Perdónanos que hayamos tardado tanto, Fina!
+¡Hemos venido para sacarte de aquí!\e"
+MSC0140003,"\h(«Soldado Valuan»)¡Malditos impertinentes! ¡Antes tendréis que
+pasar por encima de nosotros!\e"
+MSC0140004,\h(«Vyse»)¡Ven a por mí!\e
+MFC0140000,\h(«Fina»)Vyse ?!\e
+MFC0140001,\h(«Soldat Valuan»)Qui êtes-vous ?!\e
+MFC0140002,"\h(«Aika»)Désolée d'avoir mis si longtemps, Fina !
+Nous allons vous sortir de là !\e"
+MFC0140003,"\h(«Soldat Valuan»)Bande d'insolents ! Il faudra d'abord nous
+passer sur le corps !\e"
+MFC0140004,\h(«Vyse»)Si tu insistes !\e
+MGC0140000,\h(«Fina»)Vyse?!\e
+MGC0140001,\h(«Valua-Soldat»)Wer bist du?!\e
+MGC0140002,"\h(«Aika»)Tut uns leid, dass es so lange gedauert hat,
+Fina! Wir sind hier, um dich hier
+rauszuholen!\e"
+MGC0140003,"\h(«Valua-Soldat»)Freches Ungeziefer! Erst müsst ihr an uns
+vorbei!\e"
+MGC0140004,"\h(«Vyse»)Na, dann mal los!\e"
+"",me209a.sct
+"",me209a.sct
+"",me209a.sct
+"",EV_C14発生しました。\c
+"",a107ec14.mld
+"",m0252
+"",e6c014
+"",a107ec14.mld

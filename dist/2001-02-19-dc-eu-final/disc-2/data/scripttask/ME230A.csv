@@ -1,0 +1,917 @@
+[Event Name],Task ID
+MC0090000,"\h(«Imperial Guard»)Lord Galcian brings good news, Your Majesty.\e"
+MC0090001,"\h(«Galcian»)Indeed I do… Your Highness…  
+I am sure you will be pleased.\e"
+MC0090002,"\h(«Galcian»)As you have requested, my forces have captured a
+Silvite.\e"
+MC0090003,"\h(«Teodora»)Ahhh…
+Excellent work, Galcian.
+You have yet to fail me.\e"
+MC0090004,"\h(«Teodora»)So, this is what a Silvite looks like. 
+Hmm… Such a beautiful girl. Her clothes are…
+interesting… A nice specimen…\e"
+MC0090005,"\h(«Teodora»)Today we have taken another step closer to our
+main objective. Soon the Valuan Empire shall 
+rule the world.\e"
+MC0090006,\h(«Fina»)……\e
+MC0090007,"\h(«Teodora»)You seem… sad, young one.
+Why do you not rejoice with us? 
+You shall witness our finest hour.\e"
+MC0090008,"\h(«Teodora»)You have the knowledge that we seek. 
+You can assist us.\e"
+MC0090009,"\h(«Teodora»)Hahaha…
+All who oppose us shall fall…
+Their islands will be reduced to ash and dust.\e"
+MC0090010,\h(«Teodora»)Anyone who stands in our way will be destroyed!\e
+MC0090011,"\h(«Teodora»)And you, young one, shall help us…\e"
+MC0090012,"\h(«Enrique»)Mother…
+Ruling the world by force is not something that
+I am sure I approve of.\e"
+MC0090013,"\h(«Enrique»)An empire that does not listen to the plight of
+its people is destined to fall…\e"
+MC0090014,"\h(«Teodora»)Enrique, you still have much to learn. You 
+cannot walk the path of an emperor and concern
+yourself with the petty worries of the “people.”\e"
+MC0090015,"\h(«Enrique»)But, Mother!\e"
+MC0090016,"\h(«Teodora»)Now now, Enrique… I am building an empire for
+you… Since you shall inherit the throne when I
+pass on, you should pay more attention.\e"
+MC0090017,"\h(«Teodora»)Well then, young lady!
+I know that there are 6 Moon Crystals and that 
+they have been scattered all over the world.\e"
+MC0090018,"\h(«Teodora»)I also know that he who controls the Moon 
+Crystals controls weapons of mass destruction… 
+I believe your people refer to them as… Gigas! \e"
+MC0090019,"\h(«Teodora»)When the Gigas are ours, we shall rule the
+world!!! Now, young lady… You will tell me
+where to find the Moon Crystals.\e"
+MC0090020,\h(«Fina»)I will die before I tell you.\e
+MC0090021,\h(«Teodora»)What did you say!?\e
+MC0090022,"\h(«Fina»)You do not understand how powerful the Gigas 
+really are.\e"
+MC0090023,"\h(«Fina»)The Gigas were great weapons of destruction 
+built by the Old World… they are more powerful 
+than you can imagine.\e"
+MC0090024,"\h(«Teodora»)And that is precisely why Valua must obtain 
+these weapons.\e"
+MC0090025,"\h(«Teodora»)Since we are the most powerful empire, we should
+have full control over them. And once we have 
+them, we shall rule the world!\e"
+MC0090026,"\h(«Fina»)No!
+Humans must never control the Moon Crystals and 
+the Gigas ever again!\e"
+MC0090027,"\h(«Fina»)Power hungry dictators like you are the reason
+humans must never control them!\e"
+MC0090028,"\h(«Teodora»)You dare insult me?! The Empress of the great 
+Valuan Empire?! In my own palace?!? \e"
+MC0090029,"\h(«Teodora»)Kill her! Kill her! Kill the little wench! 
+Off with her head!\e"
+MC0090030,"\h(«Enrique»)Mother! Think about what you are saying!
+You cannot kill her, she's done nothing wrong!\e"
+MC0090031,"\h(«Teodora»)Are you saying that this girl is innocent, 
+Enrique… even after she insulted me so?!\e"
+MC0090032,\h(«Teodora»)Kill her! Kill her now!\e
+MC0090033,"\h(«Fina»)Please! You must believe me! The power of the 
+Gigas is not to be underestimated!\e"
+MC0090034,"\h(«Messenger»)Lord Galcian, I bring urgent news!
+Someone has broken into the Coliseum and freed 
+the Blue Rogues!\e"
+MC0090035,"\h(«Galcian»)What?!
+I am on my way.\e"
+MC0090036,"\h(«Galcian»)Take the girl to the ship and bring her to the 
+Grand Fortress immediately.\e"
+MC0090037,"\h(«Imperial Guard»)Yes, Lord Galcian!\e"
+MC0090038,"\h(«Galcian»)Your Majesty, I request permission to deploy the
+Armada.\e"
+MC0090039,"\h(«Galcian»)I will take the girl with me and she will guide 
+me to the Moon Crystals.\e"
+MC0090040,"\h(«Teodora»)Very well, then!
+Use the power of the Armada and bring the 
+Crystals to me!\e"
+MC0090041,"\h(«Galcian»)Of course, Your Majesty.
+However, I have but one humble request…\e"
+MC0090042,"\h(«Galcian»)I would like to request that a new addition be 
+made to our highest ranking officers…\e"
+MC0090043,"\h(«Galcian»)I would like to recommend my Vice Captain, 
+Ramirez, for the position.\e"
+MC0090044,"\h(«Teodora»)Do as you wish.
+In return, I want you to give me your word that
+you will bring me those Crystals!\e"
+MC0090045,"\h(«Galcian»)As you wish, Your Majesty.\e"
+MC0090046,"\h(«Soldier»)You heard the Admiral…
+Get up!\e"
+MC0090047,\h(«Fina»)Ramirez?\e
+MC0090048,"\h(«Imperial Guard»)Silence, wench!
+You shall pay for your insolence!\e"
+MC0090049,\h(«Fina»)Ugh…\e
+MSC0090000,"\h(«Guardia Imperial»)Lord Galcian trae buenas noticias, su majestad.\e"
+MSC0090001,"\h(«Galcian»)Ciertamente…… Su Majestad…… Creo que estará
+satisfecha.\e"
+MSC0090002,"\h(«Galcian»)Mis guerreros han capturado a una Silvite tal y
+como deseaba.\e"
+MSC0090003,"\h(«Teodora»)Ahh……
+Magnífico trabajo, Galcian.
+Nunca me fallas.\e"
+MSC0090004,"\h(«Teodora»)De modo que…… así son los Silvite.
+Mmm…… Qué belleza.
+Su ropa es…… interesante…… Hermoso modelo……\e"
+MSC0090005,"\h(«Teodora»)Hoy hemos avanzado un paso más hacia nuestro
+objetivo. Muy pronto el Imperio Valuan dominará
+el mundo.\e"
+MSC0090006,\h(«Fina»)……\e
+MSC0090007,"\h(«Teodora»)Pareces…… triste, jovencita.
+¿Por qué no lo celebras con nosotros?
+Vas a ser testigo de nuestro mejor momento.\e"
+MSC0090008,"\h(«Teodora»)Tienes la información que buscamos.
+Puedes sernos de gran ayuda.\e"
+MSC0090009,"\h(«Teodora»)Jajaja……
+Todos los que se enfrenten a nosotros caerán……
+Sus islas quedarán reducidas a cenizas.\e"
+MSC0090010,"\h(«Teodora»)¡Cualquiera que se interponga en nuestro camino
+será aniquilado!\e"
+MSC0090011,"\h(«Teodora»)Y tú, jovencita, nos ayudarás……\e"
+MSC0090012,"\h(«Enrique»)Madre……
+Gobernar el mundo por la fuerza es algo que
+no apruebo.\e"
+MSC0090013,"\h(«Enrique»)Un imperio que no escucha los deseos de su
+pueblo está destinado a sucumbir……\e"
+MSC0090014,"\h(«Teodora»)Enrique, aún te queda mucho que aprender.
+No puedes andar la noble senda del emperador
+preocupándote de los insignificantes problemas
+del “pueblo”.\e"
+MSC0090015,"\h(«Enrique»)¡Pero, Madre!\e"
+MSC0090016,"\h(«Teodora»)Ahora, Enrique…… estoy construyendo un imperio
+para ti…… Puesto que heredarás el trono tras mi
+muerte, deberías prestar más atención.\e"
+MSC0090017,"\h(«Teodora»)¡Bueno, jovencita!
+Sé que hay 6 cristales lunares que están
+repartidos por todo el mundo.\e"
+MSC0090018,"\h(«Teodora»)Y sé que aquél que controle los Cristales
+Lunares también controlará las armas de
+destrucción masiva…… Creo que vuestro pueblo las
+llama…… ¡Gigas!\e"
+MSC0090019,"\h(«Teodora»)¡¡¡Cuando los Gigas nos pertenezcan, podremos
+dominar el mundo!!! Bueno, jovencita…… ¿vas a
+contarme dónde encontrar los Cristales Lunares?\e"
+MSC0090020,\h(«Fina»)Moriré antes de decirlo.\e
+MSC0090021,\h(«Teodora»)¿¡Qué has dicho!?\e
+MSC0090022,\h(«Fina»)No comprendes el verdadero poder de los Gigas.\e
+MSC0090023,"\h(«Fina»)Los Gigas eran grandes armas de destrucción
+masiva creadas por el Mundo Antiguo…… Son más
+poderosas de lo que te imaginas.\e"
+MSC0090024,"\h(«Teodora»)Por eso precisamente Valua debe conseguir esas
+armas.\e"
+MSC0090025,"\h(«Teodora»)Dado que somos el Imperio más poderoso,
+deberíamos tener pleno control sobre ellas.
+Y cuando las tengamos, ¡dominaremos el mundo!\e"
+MSC0090026,"\h(«Fina»)¡No!
+¡Los humanos no deben volver a controlar los
+Cristales Lunares ni los Gigas nunca jamás!\e"
+MSC0090027,"\h(«Fina»)¡Los dictadores sedientos de poder como tú son
+la razón por la que los humanos no deben
+controlarlas!\e"
+MSC0090028,"\h(«Teodora»)¡¿Cómo te atreves a insultarme?!
+¡¿A la Emperatriz del gran Imperio Valuan?!
+¿¡¿En mi propio Palacio?!?\e"
+MSC0090029,"\h(«Teodora»)¡Matadla! ¡Matadla! ¡Matad a la muchacha!
+¡Cortadle la cabeza!\e"
+MSC0090030,"\h(«Enrique»)¡Madre! ¡Piensa en lo que estás diciendo!
+¡No puedes matarla, no ha hecho nada malo!\e"
+MSC0090031,"\h(«Teodora»)Estás diciendo que esta chica es inocente,
+Enrique…… ¡¿incluso tras haberme insultado?!\e"
+MSC0090032,\h(«Teodora»)¡Matadla! ¡Matadla ahora mismo!\e
+MSC0090033,"\h(«Fina»)¡Por favor! ¡Tiene que creerme!
+¡No debe subestimarse el poder de los Gigas!\e"
+MSC0090034,"\h(«Mensajero»)¡Lord Galcian, traigo noticias urgentes!
+¡Alguien ha irrumpido en el Coliseo y liberado a
+los Bandidos Azules!\e"
+MSC0090035,"\h(«Galcian»)¡¿Qué?!
+Ahora mismo voy.\e"
+MSC0090036,"\h(«Galcian»)Lleva a la chica al barco y traéla a la Gran
+Fortaleza inmediatamente.\e"
+MSC0090037,"\h(«Guardia Imperial»)¡Sí, Lord Galcian!\e"
+MSC0090038,"\h(«Galcian»)Su Majestad, le pido permiso para desplegar las
+tropas de la Armada.\e"
+MSC0090039,"\h(«Galcian»)Me llevaré a la chica para que me guíe hasta los
+Cristales Lunares.\e"
+MSC0090040,"\h(«Teodora»)¡Fantástico!
+¡Utiliza el poder de la Armada y tráeme esos
+Cristales!\e"
+MSC0090041,"\h(«Galcian»)Por supuesto, Su Majestad.
+Sólo tengo una humilde petición……\e"
+MSC0090042,"\h(«Galcian»)Me gustaría que añadiéramos alguien nuevo a
+nuestros oficiales superiores……\e"
+MSC0090043,"\h(«Galcian»)Me gustaría recomendar a mi Vicecapitán,
+Ramírez, para ocupar esta posición.\e"
+MSC0090044,"\h(«Teodora»)Como desees.
+¡A cambio, quiero tu palabra de que me traerás
+esos Cristales!\e"
+MSC0090045,\h(«Galcian»)Como desee Su Majestad.\e
+MSC0090046,"\h(«Soldado»)Ya oíste al Almirante……
+¡Levántate!\e"
+MSC0090047,\h(«Fina»)¿Ramírez?\e
+MSC0090048,"\h(«Guardia Imperial»)¡Silencio, muchacha!
+¡Pagarás por tu insolencia!\e"
+MSC0090049,\h(«Fina»)Uh……\e
+MFC0090000,"\h(«Garde Impériale»)Seigneur Galcian est porteur de bonnes
+nouvelles, votre majesté.\e"
+MFC0090001,"\h(«Galcian»)Je le suis en effet…… Votre Altesse……
+Je suis sûr que cela vous fera plaisir.\e"
+MFC0090002,"\h(«Galcian»)Comme vous l'avez ordonné, mes forces ont
+capturé une Silvite.\e"
+MFC0090003,"\h(«Teodora»)Ahhh……
+Excellent travail, Galcian.
+Vous ne m'avez encore jamais déçue.\e"
+MFC0090004,"\h(«Teodora»)Donc, voilà à quoi ressemble une Silvite.
+Humm…… Très jolie fille. Ses habits sont……
+intéressants…… Un joli spécimen……\e"
+MFC0090005,"\h(«Teodora»)Aujourd'hui nous nous sommes rapprochés de notre
+objectif principal. Bientôt l'Empire Valuan
+règnera sur le monde.\e"
+MFC0090006,\h(«Fina»)………\e
+MFC0090007,"\h(«Teodora»)Tu as l'air…… triste, mon enfant.
+Pourquoi ne pas te réjouir avec nous ?
+Tu vas assister à notre heure de gloire.\e"
+MFC0090008,"\h(«Teodora»)Tu as la connaissance que nous recherchons.
+Tu peux nous aider.\e"
+MFC0090009,"\h(«Teodora»)Hahaha…… Tous ceux qui s'opposent à nous
+périront…… Leurs îles seront réduites en
+cendres.\e"
+MFC0090010,"\h(«Teodora»)Tous ceux qui se mettent en travers de notre
+chemin seront détruits !\e"
+MFC0090011,"\h(«Teodora»)Et toi, mon enfant, tu nous aideras……\e"
+MFC0090012,"\h(«Enrique»)Mère……
+Je n'approuve pas vraiment le fait de régner sur
+le monde par la force.\e"
+MFC0090013,"\h(«Enrique»)Un empire qui n'est pas à l'écoute du sort de
+son peuple est condamné……\e"
+MFC0090014,"\h(«Teodora»)Enrique, il te reste beaucoup à apprendre. Tu ne
+peux pas suivre les traces d'un empereur, et te
+préoccuper des petits problèmes du “peuple”.\e"
+MFC0090015,"\h(«Enrique»)Mais, Mère !\e"
+MFC0090016,"\h(«Teodora»)Allons allons, Enrique…… Je construis un empire
+pour toi…… Puisque tu vas hériter du trône, à ma
+mort, tu devrais être plus attentif.\e"
+MFC0090017,"\h(«Teodora»)Alors, jeune fille !
+Je sais qu'il existe 6 Cristaux de Lune et
+qu'ils ont été éparpillés à travers le monde.\e"
+MFC0090018,"\h(«Teodora»)Je sais aussi que celui qui contrôle les
+Cristaux de Lune contrôle des armes
+dévastatrices…… Je crois que ton peuple les
+appelle les…… Gigas !\e"
+MFC0090019,"\h(«Teodora»)Quand les Gigas seront à nous, nous règnerons
+sur le monde entier !!! Bon, jeune fille…… Tu
+vas me dire où trouver les Cristaux de Lune.\e"
+MFC0090020,\h(«Fina»)Plutôt mourir que de vous le dire.\e
+MFC0090021,\h(«Teodora»)Qu'as-tu dit !?\e
+MFC0090022,\h(«Fina»)Vous sous-estimez le vrai pouvoir des Gigas.\e
+MFC0090023,"\h(«Fina»)Les Gigas étaient de puissantes armes de
+destruction construites par l'Ancien Monde……
+elles sont plus puissantes que vous ne
+l'imaginez.\e"
+MFC0090024,"\h(«Teodora»)Et c'est la raison pour laquelle Valua doit se
+procurer ces armes.\e"
+MFC0090025,"\h(«Teodora»)Puisque nous sommes l'Empire le plus puissant,
+nous devrions les contrôler totalement. Et une
+fois que nous les auront, nous règnerons sur le
+monde !\e"
+MFC0090026,"\h(«Fina»)Non !
+Les Cristaux de Lune et les Gigas ne doivent
+jamais retomber sous le contrôle des humains !\e"
+MFC0090027,"\h(«Fina»)Et les dictateurs qui ont soif de pouvoir comme
+vous en sont la raison ! Vous ne devez pas avoir
+le contrôle de ces armes !\e"
+MFC0090028,"\h(«Teodora»)Tu oses m'insulter ?! L'impératrice du grand
+Empire Valuan ?! Dans mon propre palais ?!?\e"
+MFC0090029,"\h(«Teodora»)Tuez-la ! Tuez-la ! Tuez cette fille !
+Qu'on lui coupe la tête !\e"
+MFC0090030,"\h(«Enrique»)Mère ! Pensez à ce que vous dîtes !
+Vous ne pouvez pas la tuer, elle n'a rien fait
+de mal !\e"
+MFC0090031,"\h(«Teodora»)Es-tu en train de me dire que cette fille est
+innocente, Enrique…… même après qu'elle m'ait
+insultée ?!\e"
+MFC0090032,\h(«Teodora»)Tuez-la ! Tuez-la tout de suite !\e
+MFC0090033,"\h(«Fina»)S'il vous plaît ! Vous devez me croire ! Il ne
+faut pas sous-estimer le pouvoir des Gigas !\e"
+MFC0090034,"\h(«Messager»)Seigneur Galcian, j'apporte des nouvelles
+urgentes ! Quelqu'un vient de pénétrer dans le
+Coliseum et a libéré les Voleurs Bleus !\e"
+MFC0090035,"\h(«Galcian»)Quoi ?!
+J'arrive.\e"
+MFC0090036,"\h(«Galcian»)Emmenez la fille sur l'autorail et amenez la
+immédiatement à la Grande Forteresse.\e"
+MFC0090037,"\h(«Garde Impériale»)Oui, Seigneur Galcian !\e"
+MFC0090038,"\h(«Galcian»)Votre Majesté, je demande la permission de
+déployer l'Armada.\e"
+MFC0090039,"\h(«Galcian»)Je prendrai la fille avec moi et elle me guidera
+jusqu'aux Cristaux de Lune.\e"
+MFC0090040,"\h(«Teodora»)Très bien !
+Utilisez la puissance de l'Armada et
+apportez-moi les Cristaux !\e"
+MFC0090041,"\h(«Galcian»)Bien sûr, Votre Majesté.
+Cependant, j'ai une seule humble requête……\e"
+MFC0090042,"\h(«Galcian»)Je souhaite qu'une nouvelle recrue se joigne à
+nos officiers les plus gradés……\e"
+MFC0090043,"\h(«Galcian»)Je voudrais recommander mon Vice Capitaine,
+Ramirez, pour ce poste.\e"
+MFC0090044,"\h(«Teodora»)Comme vous voulez.
+En retour, je veux que vous me donniez votre
+parole que vous m'apporterez ces Cristaux !\e"
+MFC0090045,"\h(«Galcian»)Comme vous le souhaitez, Votre Majesté.\e"
+MFC0090046,"\h(«Soldat»)Vous avez entendu l'Amiral……
+Debout !\e"
+MFC0090047,\h(«Fina»)Ramirez ?\e
+MFC0090048,"\h(«Garde Impériale»)Silence, jeune fille !
+Vous paierez pour votre insolence !\e"
+MFC0090049,\h(«Fina»)Ugh……\e
+MGC0090000,"\h(«Kaiserliche Wache»)Lord Galcian bringt gute Nachrichten, 
+Eure Majestät.\e"
+MGC0090001,"\h(«Galcian»)In der Tat, Eure Hoheit…… Ich bin sicher,
+Ihr werdet zufrieden sein.\e"
+MGC0090002,"\h(«Galcian»)Wie Ihr angeordnet habt, haben meine
+Streitkräfte einen Silviter gefangen genommen.\e"
+MGC0090003,"\h(«Teodora»)Ahhh…
+Ausgezeichnete Arbeit, Galcian.
+Sie haben mich noch nie enttäuscht.\e"
+MGC0090004,"\h(«Teodora»)So sieht also ein Silviter aus.
+Hmm…… So ein hübsches Mädchen. Ihre Kleider
+sind…… interessant…… Ein schönes Exemplar……\e"
+MGC0090005,"\h(«Teodora»)Heute sind wir unserem Hauptziel ein wenig näher
+gekommen. Bald wird das Reich der Valua die
+Welt regieren.\e"
+MGC0090006,\h(«Fina»)……\e
+MGC0090007,"\h(«Teodora»)Du scheinst…… traurig, junges Ding.
+Warum freust du dich nicht mit uns?
+Du wirst unsere Sternstunde miterleben.\e"
+MGC0090008,"\h(«Teodora»)Du hast das Wissen, nach dem wir suchen.
+Du kannst uns helfen.\e"
+MGC0090009,"\h(«Teodora»)Hahaha……
+Alle unsere Gegner werden erliegen……
+Ihre Inseln werden zu Staub und Asche gemacht.\e"
+MGC0090010,"\h(«Teodora»)Jeder, der sich uns in den Weg stellt,
+wird vernichtet!\e"
+MGC0090011,"\h(«Teodora»)Und du, junges Ding, wirst uns dabei helfen……\e"
+MGC0090012,"\h(«Enrique»)Mutter……
+Die Welt mit Gewalt zu regieren, davon halte
+ich nicht viel.\e"
+MGC0090013,"\h(«Enrique»)Ein Reich, dass sich nicht für das Schicksal
+seines Volkes interessiert, ist zum Untergang
+verurteilt……\e"
+MGC0090014,"\h(«Teodora»)Enrique, du musst noch viel lernen. Du kannst
+nicht den Weg eines Kaisers gehen und dich mit
+den nichtigen Sorgen des “Volkes” abgeben.\e"
+MGC0090015,\h(«Enrique»)Aber Mutter!\e
+MGC0090016,"\h(«Teodora»)Hör mal, Enrique……  Ich baue für dich ein
+Reich auf…… Du wirst eines Tages den Thron
+erben, wenn ich nicht mehr bin, also pass
+besser auf.\e"
+MGC0090017,"\h(«Teodora»)Nun denn, junge Frau!
+Ich weiß, es gibt 6 Moon Crystals, und die
+sind über die ganze Welt verstreut.\e"
+MGC0090018,"\h(«Teodora»)Ich weiß auch, dass derjenige, der die Moon
+Crystals besitzt, über Massenvernichtungs-
+waffen verfügt…… Ich glaube, dein Volk nennt
+sie…… Gigas!\e"
+MGC0090019,"\h(«Teodora»)Wenn uns die Gigas gehören, werden wir die Welt
+regieren!!! Also, junge Frau…… Du wirst mir
+sagen, wo ich die Moon Crystals finde.\e"
+MGC0090020,"\h(«Fina»)Eher sterbe ich, als dass ich das verrate.\e"
+MGC0090021,\h(«Teodora»)Was hast du gesagt!?\e
+MGC0090022,"\h(«Fina»)Ihr versteht nicht, wie mächtig die Gigas
+tatsächlich sind.\e"
+MGC0090023,"\h(«Fina»)Die Gigas sind mächtige Vernichtungswaffen, die
+von der Alten Welt gebaut wurden…… Sie sind
+mächtiger, als man es sich vorstellen kann.\e"
+MGC0090024,"\h(«Teodora»)Und genau das ist der Grund, warum Valua an
+diese Waffen gelangen muss.\e"
+MGC0090025,"\h(«Teodora»)Da wir das mächtigste Reich sind, sollten
+wir volle Kontrolle darüber haben. Und wenn wir
+sie haben, dann herrschen wir über die Welt!\e"
+MGC0090026,"\h(«Fina»)Nein!
+Die Menschen dürfen nie wieder die Macht über
+Moon Crystals und Gigas besitzen!\e"
+MGC0090027,"\h(«Fina»)Machthungrige Diktatoren wie Ihr sind der
+Grund, weshalb sie nie mehr in die Gewalt
+von Menschen kommen dürfen!\e"
+MGC0090028,"\h(«Teodora»)Du wagst es, mich zu beleidigen?! Die Kaiserin
+des großen Valua-Reichs?! In meinem eigenen
+Palast?!?\e"
+MGC0090029,"\h(«Teodora»)Tötet sie! Tötet Sie! Tötet dieses kleine Biest!
+Schlagt ihr den Kopf ab!\e"
+MGC0090030,"\h(«Enrique»)Mutter! Bedenke, was du da sagst! Du kannst
+sie nicht töten, sie hat nichts verbrochen!\e"
+MGC0090031,"\h(«Teodora»)Willst du sagen, dieses Mädchen ist unschuldig,
+Enrique…… selbst, nachdem sie mich so tief
+beleidigt hat?!\e"
+MGC0090032,\h(«Teodora»)Tötet sie! Tötet sie endlich!\e
+MGC0090033,"\h(«Fina»)Bitte! Ihr müsst mir glauben! Die Macht der
+Gigas darf nicht unterschätzt werden!\e"
+MGC0090034,"\h(«Bote»)Lord Galcian, ich bringe eilige Nachrichten!
+Jemand ist ins Coliseum eingebrochen und hat
+die Blue Rogues gerettet!\e"
+MGC0090035,"\h(«Galcian»)Was?!
+Ich komme sofort.\e"
+MGC0090036,"\h(«Galcian»)Nehmt das Mädchen zum Schiff und bringt sie
+unverzüglich zur Grand Fortress.\e"
+MGC0090037,"\h(«Kaiserliche Wache»)Jawohl, Lord Galcian!\e"
+MGC0090038,"\h(«Galcian»)Eure Majestät, ich bitte um Erlaubnis, die
+Armada einsetzen zu dürfen.\e"
+MGC0090039,"\h(«Galcian»)Ich werde das Mädchen mitnehmen, und sie wird
+mich zu den Moon Crystals führen.\e"
+MGC0090040,"\h(«Teodora»)Wie Sie meinen!
+Benutzen Sie die Macht der Armada und bringen
+Sie mir die Kristalle!\e"
+MGC0090041,"\h(«Galcian»)Selbstverständlich, Eure Majestät.
+Ich habe jedoch eine bescheidene Bitte……\e"
+MGC0090042,"\h(«Galcian»)Ich erbitte, dass ein Mann in den Kreis
+unserer höchsten Offiziere aufgenommen wird……\e"
+MGC0090043,"\h(«Galcian»)Ich möchte meinen Vizekapitän Ramirez für die
+Stellung vorschlagen.\e"
+MGC0090044,"\h(«Teodora»)Machen Sie, was Sie wollen.
+Als Gegenleistung möchte ich Ihr Wort,
+dass Sie mir diese Kristalle bringen werden!\e"
+MGC0090045,\h(«Galcian»)Wie Majestät wünschen.\e
+MGC0090046,"\h(«Soldat»)Du hast den Admiral gehört……
+Steh auf!\e"
+MGC0090047,\h(«Fina»)Ramirez?\e
+MGC0090048,"\h(«Kaiserliche Wache»)Ruhe, Mädel!
+Du wirst für deine Unverschämtheit bezahlen!\e"
+MGC0090049,\h(«Fina»)Aua……\e
+MG0010000,"\h(«Teodora»)Well done, Galcian.
+Nasr was our only enemy with a navy. 
+Now we rule the skies unopposed.\e"
+MG0010001,"\h(«Teodora»)Soon, the whole world will bow before the might
+of Valua… And they will see me as their ruler.\e"
+MG0010002,"\h(«Galcian»)Yes, Your Highness…\e"
+MG0010003,"\h(«Teodora»)It is my understanding that the Silvite girl and
+those Air Pirates had the Moon Crystals in their
+possession when they were captured.\e"
+MG0010004,"\h(«Teodora»)Bring the girl and the Crystals to me.
+As for those Air Pirates…\e"
+MG0010005,"\h(«Teodora»)I want them executed in Lower City. 
+I want the people to witness their deaths… \e"
+MG0010006,"\h(«Galcian»)I will personally see to it that everything goes
+as you…\e"
+MG0010007,\h(«Enrique»)Wait!\e
+MG0010008,"\h(«Enrique»)Mother!
+I just heard that our fleet destroyed Nasrad
+while it was defenseless.\e"
+MG0010009,"\h(«Enrique»)How could you… 
+Why did you have to murder so many innocent
+people?!\e"
+MG0010010,"\h(«Enrique»)I know that we are acquiring more lands, but if
+we use these brutal tactics, the people will
+rise up and rebel against us.\e"
+MG0010011,"\h(«Enrique»)Please, we've made our point… 
+Pull our troops out of Nasr.\e"
+MG0010012,"\h(«Teodora»)Silence, Enrique!\e"
+MG0010013,"\h(«Teodora»)It is Valua's destiny to span across the world
+and bask in the glory of the six Moons!\e"
+MG0010014,"\h(«Teodora»)How do you expect us to conquer the world
+without a little bloodshed?\e"
+MG0010015,"\h(«Enrique»)But, Mother…\e"
+MG0010016,"\h(«Teodora»)How can you expect to inherit the throne of the
+empire I worked so hard to build. You're too
+much of a coward! Remove yourself from my sight.\e"
+MG0010017,\h(«Enrique»)…\e
+MG0010018,\h(«Enrique»)Very well…\e
+MG0010019,"\h( )You have lost the “Red Moon Crystal” and the
+“Green Moon Crystal.”\c"
+MSG0010000,"\h(«Teodora»)Buen trabajo, Galcian.
+Nasr era nuestro único enemigo con ejército.
+Ahora no tenemos rival para dominar los cielos.\e"
+MSG0010001,"\h(«Teodora»)Muy pronto, el mundo entero será testigo del
+poder de Valua…… Y yo seré quien lo gobierne.\e"
+MSG0010002,"\h(«Galcian»)Sí, Su Alteza……\e"
+MSG0010003,"\h(«Teodora»)Por lo que sé, la chica Silvite y esos Piratas
+Aéreos tenían los Cristales Lunares consigo
+cuando les capturaron.\e"
+MSG0010004,"\h(«Teodora»)Tráeme a esa chica y hazte con los Cristales.
+En cuanto a esos Piratas Aéreos……\e"
+MSG0010005,"\h(«Teodora»)Quiero que sean ejecutados en el Arrabal.
+Quiero que el populacho sea testigo de sus
+muertes……\e"
+MSG0010006,"\h(«Galcian»)Me encargaré personalmente de que todo vaya de
+acuerdo con sus……\e"
+MSG0010007,\h(«Enrique»)¡Espera!\e
+MSG0010008,"\h(«Enrique»)¡Madre!
+Acabo de enterarme de que nuestra flota ha
+destruido Nasrad en una emboscada.\e"
+MSG0010009,"\h(«Enrique»)Cómo has podido……
+¡¿Por qué has tenido que acabar con las vidas de
+tantos inocentes?!\e"
+MSG0010010,"\h(«Enrique»)Ya sé que estamos consiguiendo más tierras, pero
+si utilizamos tácticas tan brutales, el pueblo
+se alzará y se rebelará contra nosotros.\e"
+MSG0010011,"\h(«Enrique»)Lo hemos dejado claro……
+Retira las tropas de Nasr.\e"
+MSG0010012,"\h(«Teodora»)¡Silencio, Enrique!\e"
+MSG0010013,"\h(«Teodora»)¡El destino de Valua es expandirse por el mundo
+y regodearse en la gloria de las seis Lunas!\e"
+MSG0010014,"\h(«Teodora»)¿Cómo esperas que conquistemos el mundo sin una
+pequeña carnicería?\e"
+MSG0010015,\h(«Enrique»)Pero Madre……\e
+MSG0010016,"\h(«Teodora»)Cómo puedes pensar que vas a heredar el trono
+del Imperio que he creado trabajando tan duro.
+¡Eres demasiado cobarde! Aléjate de mi vista.\e"
+MSG0010017,\h(«Enrique»)……\e
+MSG0010018,\h(«Enrique»)Muy bien……\e
+MSG0010019,"\h( )Has perdido el “Cristal Rojo” y el “Cristal
+Verde”.\e"
+MFG0010000,"\h(«Teodora»)Beau travail, Galcian.
+Nasr était notre seule ennemie ayant une flotte.
+À présent, nous sommes maîtres des cieux.\e"
+MFG0010001,"\h(«Teodora»)Dans peu de temps, le monde entier s'abaissera
+devant la toute puissante Valua…… Et ils me
+considèreront comme leur souveraine.\e"
+MFG0010002,"\h(«Galcian»)Oui, Votre Altesse……\e"
+MFG0010003,"\h(«Teodora»)Je crois comprendre que la fille Silvite et ces
+Pirates de l'Air avaient les Cristaux de Lune en
+leur possession lors de leur capture.\e"
+MFG0010004,"\h(«Teodora»)Amenez-moi la fille et les Cristaux.
+Quant à ces Pirates de l'Air……\e"
+MFG0010005,"\h(«Teodora»)Je veux qu'ils soient exécutés dans le Bas
+Valua. Je veux que le peuple assiste à leur
+mort……\e"
+MFG0010006,"\h(«Galcian»)Je veillerai personnellement à ce que tout se
+passe comme vous……\e"
+MFG0010007,\h(«Enrique»)Attendez !\e
+MFG0010008,"\h(«Enrique»)Mère !
+Je viens d'apprendre que notre flotte a détruit
+Nasrad alors qu'elle était sans défense.\e"
+MFG0010009,"\h(«Enrique»)Comment avez vous pu……
+Pourquoi avoir massacré autant d'innocents ?!\e"
+MFG0010010,"\h(«Enrique»)Je sais que nous étendons notre territoire, mais
+si nous usons de tactiques brutales, le peuple
+se soulèvera et se rebellera contre nous.\e"
+MFG0010011,"\h(«Enrique»)Je vous en prie, ils ont compris la leçon……
+Retirez nos troupes de Nasr.\e"
+MFG0010012,"\h(«Teodora»)Silence, Enrique !\e"
+MFG0010013,"\h(«Teodora»)C'est la destinée de Valua d'envahir le monde et
+de jouir de la gloire des six Lunes !\e"
+MFG0010014,"\h(«Teodora»)Comment veux-tu conquérir le monde sans verser
+une goutte de sang ?\e"
+MFG0010015,"\h(«Enrique»)Mais, Mère……\e"
+MFG0010016,"\h(«Teodora»)Comment comptes-tu hériter du trône de l'empire
+que j'ai mis tant de temps à bâtir ?
+Tu n'es qu'un lâche ! Hors de ma vue.\e"
+MFG0010017,\h(«Enrique»)……\e
+MFG0010018,\h(«Enrique»)Très bien……\e
+MFG0010019,"\h( )Vous avez perdu le “Cristal de Lune Rouge” et le
+“Cristal de Lune Verte.”\e"
+MGG0010000,"\h(«Teodora»)Gut gemacht, Galcian.
+Nasr war unser einziger Feind mit einer Flotte.
+Jetzt beherrschen wir den Himmel -- wir allein!\e"
+MGG0010001,"\h(«Teodora»)Bald wird sich die ganze Welt vor Valuas Macht
+beugen…… und mich als Herrscherin verehren.\e"
+MGG0010002,"\h(«Galcian»)Jawohl, Eure Hoheit……\e"
+MGG0010003,"\h(«Teodora»)Soviel ich weiß, hatten dieses Silviter-Mädchen
+und die Luftpiraten die Moon Crystals in ihrem
+Besitz, als sie gefangen genommen wurden.\e"
+MGG0010004,"\h(«Teodora»)Bringt das Mädchen und die Kristalle zu mir.
+Was diese Luftpiraten angeht……\e"
+MGG0010005,"\h(«Teodora»)Ich wünsche, dass sie in Lower City
+hingerichtet werden. Ich möchte, dass die
+Leute ihrem Tod beiwohnen……\e"
+MGG0010006,"\h(«Galcian»)Ich werde mich persönlich darum kümmern, dass
+alles so verläuft, wie Ihr……\e"
+MGG0010007,\h(«Enrique»)Warte!\e
+MGG0010008,"\h(«Enrique»)Mutter!
+Ich habe gerade gehört, dass unsere Flotte
+Nasrad zerstört hat, als es wehrlos war.\e"
+MGG0010009,"\h(«Enrique»)Wie konntest du……
+Warum musstest du so viele unschuldige Menschen
+töten?!\e"
+MGG0010010,"\h(«Enrique»)Ich weiß, wir sind dabei, unser Land
+zu vergrößern, aber wenn wir diese brutalen
+Taktiken anwenden, wird sich das Volk
+gegen uns erheben.\e"
+MGG0010011,"\h(«Enrique»)Bitte, wir haben unseren Standpunkt klar
+gemacht…… Hol unsere Truppen aus Nasr heraus.\e"
+MGG0010012,"\h(«Teodora»)Sei still, Enrique!\e"
+MGG0010013,"\h(«Teodora»)Es ist Valuas Schicksal, die Welt unter sich
+zu vereinen und sich im Ruhm der sechs Monde
+zu sonnen!\e"
+MGG0010014,"\h(«Teodora»)Wie sollen wir die Welt ohne ein wenig
+Blutvergießen in unsere Gewalt bringen?\e"
+MGG0010015,"\h(«Enrique»)Aber, Mutter……\e"
+MGG0010016,"\h(«Teodora»)Wie kannst du erwarten, den Thron eines Reiches
+zu erben, das ich unter so harter Arbeit
+aufgebaut habe? Du bist ein zu großer Feigling!
+Geh mir aus den Augen.\e"
+MGG0010017,\h(«Enrique»)……\e
+MGG0010018,\h(«Enrique»)Sehr wohl……\e
+MGG0010019,"\h( )Du hast den “Red Moon Crystal” und den
+“Green Moon Crystal” verloren.\e"
+MK0080000,"\h(«Teodora»)Thank you for informing me, Alfonso. You have 
+done well.\e"
+MK0080001,"\h(«Alfonso»)Of course… I am your loyal servant, Your 
+Highness. And those personal matters of which I 
+spoke…?\e"
+MK0080002,"\h(«Teodora»)Hahahaha… Very well, Alfonso.
+I shall grant you what you wish.\e"
+MK0080003,\h( )Mother!\e
+MK0080004,\h(«Teodora»)Enrique?!\e
+MK0080005,"\h(«Teodora»)You've finally come back!
+So, at last… you've come to your senses and 
+returned to us…\e"
+MK0080006,"\h(«Enrique»)No, Mother… I have come to warn you of
+impending danger.\e"
+MK0080007,"\h(«Enrique»)Admiral Galcian has betrayed you and is planning
+on taking over the world. We must try to stop 
+him!\e"
+MK0080008,"\h(«Teodora»)Yes, my boy, I know.
+Alfonso here was kind enough to inform me of 
+Admiral Galcian's plans.\e"
+MK0080009,"\h(«Teodora»)It seems that he is gathering the Moon Crystals
+in order to call down the Rains of Destruction.\e"
+MK0080010,"\h(«Enrique»)What?!
+So… that was his plan all along!\e"
+MK0080011,"\h(«Enrique»)Mother, we must act quickly! We need to get all
+of our people to shelter!\e"
+MK0080012,"\h(«Teodora»)Enrique, please, calm yourself.
+We must think of the situation at hand.\e"
+MK0080013,"\h(«Teodora»)If we can get the Moon Crystals in our 
+possession, our dreams of ruling the world will
+come true at last!\e"
+MK0080014,"\h(«Teodora»)I have made Alfonso the new Commander of the 
+Valuan Armada and we shall fight Galcian.\e"
+MK0080015,"\h(«Enrique»)Mother! This is not to be taken lightly! You 
+can't… He's too powerful!\e"
+MK0080016,\h(«Belleza»)…Your Highness?\e
+MK0080017,"\h(«Alfonso»)Do not fear, Your Highness.
+All of my failures up until this point were by 
+Lord Galcian's orders.\e"
+MK0080018,"\h(«Alfonso»)If I act on my own accord, I shall bring Galcian
+to justice.\e"
+MK0080019,\h(«Teodora»)Hahahaha… Good Alfonso… Good… \e
+MK0080020,"\h(«Enrique»)…I see.
+Very well, then. You leave me no choice… \e"
+MK0080021,\h(«Teodora»)What?\e
+MK0080022,"\h(«Teodora»)Enrique!
+What are you doing?!\e"
+MK0080023,"\h(«Enrique»)…Mother.
+If you continue like this, you will destroy 
+Valua!\e"
+MK0080024,"\h(«Enrique»)I must do this… for my country… for my
+people… \e"
+MK0080025,\h(«Alfonso»)Aaahhh!!\e
+MK0080026,"\h(«Teodora»)Enrique, sheath your sword at once!\e"
+MK0080027,"\h(«Belleza»)Your Highness…
+Please forgive me.\e"
+MK0080028,"\h(«Teodora»)Belleza!
+Enrique has been brainwashed by the Air Pirates!
+He's gone mad!\e"
+MK0080029,"\h(«Teodora»)Imprison him in the Grand Fortress until he 
+comes to his senses!\e"
+MK0080030,"\h(«Belleza»)Please! Your Highness, wait!
+I, I…\e"
+MK0080031,"\h(«Alfonso»)As the new commander of the Valuan Armada, 
+I order you to take the prince to the Grand 
+Fortress and lock him up.\e"
+MK0080032,"\h(«Alfonso»)If you have any complaints, you can take them up
+with the executioner when your head is resting 
+on the block.\e"
+MK0080033,\h(«Belleza»)Grr…\e
+MSK0080000,"\h(«Teodora»)Gracias por la información, Alfonso. Has hecho
+un buen trabajo.\e"
+MSK0080001,"\h(«Alfonso»)Por supuesto…… Soy vuestro leal servidor, Su
+Alteza. ¿Y qué me dice de esos asuntos de los
+que le hablé……?\e"
+MSK0080002,"\h(«Teodora»)Ja, ja, ja, ja…… Muy bien, Alfonso.
+Te concederé lo que deseas.\e"
+MSK0080003,\h( )｡Madre!\e
+MSK0080004,\h(«Teodora»)¡¿Enrique?!\e
+MSK0080005,"\h(«Teodora»)¡Por fin has vuelto!
+Así que finalmente, has recuperado el juicio y
+vuelves a nosotros……\e"
+MSK0080006,"\h(«Enrique»)No, Madre…… He venido a avisarte de un peligro
+que te acecha.\e"
+MSK0080007,"\h(«Enrique»)El Almirante Galcian te ha traicionado y planea
+controlar el mundo. ¡Tenemos que detenerle!\e"
+MSK0080008,"\h(«Teodora»)Lo sé, mi niño, lo sé.
+Alfonso ha sido tan amable de informarme de los
+planes del Almirante Galcian.\e"
+MSK0080009,"\h(«Teodora»)Está reuniendo todos los Cristales Lunares para
+atraer las Lluvias Destructoras.\e"
+MSK0080010,"\h(«Enrique»)¡¿Qué?!
+Así que…… ¡lo tenía planeado desde el principio!\e"
+MSK0080011,"\h(«Enrique»)Madre, ¡debemos actuar rápidamente! ¡Tenemos que
+llevar a todo el pueblo a un refugio especial!\e"
+MSK0080012,"\h(«Teodora»)Enrique, por lo que más quieras, tranquilízate.
+Reconsideremos la situación.\e"
+MSK0080013,"\h(«Teodora»)¡Si conseguimos hacernos con los Cristales
+Lunares, nuestros sueños de dominar el mundo por
+fin se harán realidad!\e"
+MSK0080014,"\h(«Teodora»)He nombrado a Alfonso el nuevo Comandante de la
+Armada Valuan que luchará contra Galcian.\e"
+MSK0080015,"\h(«Enrique»)¡Pero Madre! ¡No puedes tomarte esto a la
+ligera! No puede ser…… ¡Tiene demasiado poder!\e"
+MSK0080016,\h(«Belleza»)…… ¿Su Alteza?\e
+MSK0080017,"\h(«Alfonso»)Su Alteza no tiene nada que temer.
+Todos mis fracasos hasta ahora se han debido a
+las órdenes de Galcian.\e"
+MSK0080018,"\h(«Alfonso»)Si actúo de acuerdo con mis deseos, traeré a
+Galcian para que sea ajusticiado.\e"
+MSK0080019,"\h(«Teodora»)Ja, ja, ja…… El bueno de Alfonso…… Muy bien……\e"
+MSK0080020,"\h(«Enrique»)……Entiendo.
+Está bien. No me dejas otra alternativa……\e"
+MSK0080021,\h(«Teodora»)¿Cómo?\e
+MSK0080022,"\h(«Teodora»)¡Enrique!
+¡¿Pero qué haces?!\e"
+MSK0080023,"\h(«Enrique»)……Madre.
+¡Si sigues actuando así, vas a acabar con
+Valua!\e"
+MSK0080024,\h(«Enrique»)Tengo que hacerlo…… por mi país…… por mi gente……\e
+MSK0080025,\h(«Alfonso»)¡¡Aaahhh!!\e
+MSK0080026,"\h(«Teodora»)¡Enrique, te ordeno que envaines tu espada
+inmediatamente!\e"
+MSK0080027,"\h(«Belleza»)Su Alteza……
+Por favor, perdóneme.\e"
+MSK0080028,"\h(«Teodora»)¡Belleza!
+¡Los Piratas Aéreos le han lavado el cerebro a
+Enrique! ¡Se ha vuelto loco!\e"
+MSK0080029,"\h(«Teodora»)¡Encerradlo en la Gran Fortaleza hasta que entre
+en razón!\e"
+MSK0080030,"\h(«Belleza»)¡Por favor! ¡Espere, Su Alteza!
+Yo……\e"
+MSK0080031,"\h(«Alfonso»)Como nuevo Comandante de la Armada Imperial,
+te ordeno que lleves al Príncipe a la Gran
+Fortaleza y lo encierres allí.\e"
+MSK0080032,"\h(«Alfonso»)Si tienes alguna queja, puedes comunicárselo al
+verdugo cuando tengas la cabeza descansando
+sobre la tabla de ejecución.\e"
+MSK0080033,\h(«Belleza»)Grr……\e
+MFK0080000,"\h(«Teodora»)Merci de m'avoir prévenu, Alfonso. Bon travail.\e"
+MFK0080001,"\h(«Alfonso»)Bien sûr…… je suis votre loyal serviteur, Votre
+Altesse. Et ces requêtes personnelles dont je
+vous ai parlées……?\e"
+MFK0080002,"\h(«Teodora»)Hahahaha…… Entendu, Alfonso.
+Je vous donnerai ce que vous avez demandé.\e"
+MFK0080003,\h( )Mère !\e
+MFK0080004,\h(«Teodora»)Enrique ?!\e
+MFK0080005,"\h(«Teodora»)Tu es enfin revenu !
+Alors, enfin…… tu as retrouvé tes esprits et tu
+nous reviens……\e"
+MFK0080006,"\h(«Enrique»)Non, Mère…… je suis venu vous prévenir d'un
+danger imminent.\e"
+MFK0080007,"\h(«Enrique»)L'Amiral Galcian vous a trahi et a l'intention
+de s'emparer du monde. Nous devons l'en
+empêcher !\e"
+MFK0080008,"\h(«Teodora»)Oui, mon garçon, je sais.
+Alfonso a eu la gentillesse de m'informer des
+intentions de l'Amiral Galcian.\e"
+MFK0080009,"\h(«Teodora»)Apparemment, il essaie de rassembler les
+Cristaux de Lune pour invoquer les Pluies de la
+Destruction.\e"
+MFK0080010,"\h(«Enrique»)Quoi ?!
+Alors…… voilà ce qu'il voulait faire depuis le
+début !\e"
+MFK0080011,"\h(«Enrique»)Mère, il faut agir vite ! Il faut mettre notre
+peuple en sécurité !\e"
+MFK0080012,"\h(«Teodora»)Enrique, s'il te plaît, calme-toi.
+Nous devons réfléchir à cette situation.\e"
+MFK0080013,"\h(«Teodora»)Si nous pouvons récupérer les Cristaux de Lune,
+nos rêves de régner un jour sur le monde
+pourront enfin se réaliser !\e"
+MFK0080014,"\h(«Teodora»)J'ai nommé Alfonso nouveau Commandant de
+l'Armada Valuan et nous combattrons Galcian.\e"
+MFK0080015,"\h(«Enrique»)Mère ! Vous ne devez pas prendre cela à la
+légère ! Vous ne pouvez pas…… Il est trop
+puissant !\e"
+MFK0080016,\h(«Belleza»)……Votre Altesse ?\e
+MFK0080017,"\h(«Alfonso»)N'ayez crainte, Votre Altesse.
+Je dois tous mes échecs aux ordres du Seigneur
+Galcian.\e"
+MFK0080018,"\h(«Alfonso»)En agissant de mon propre chef, Galcian
+pourra être jugé.\e"
+MFK0080019,\h(«Teodora»)Hahahaha…… c'est bien Alfonso…… c'est bien……\e
+MFK0080020,"\h(«Enrique»)……Je vois.
+Très bien. Vous ne me laissez pas le choix……\e"
+MFK0080021,\h(«Teodora»)Comment ?\e
+MFK0080022,"\h(«Teodora»)Enrique !
+Que fais-tu ?!\e"
+MFK0080023,"\h(«Enrique»)……Mère.
+Si vous continuez ainsi, vous détruirez
+Valua !\e"
+MFK0080024,"\h(«Enrique»)Je dois le faire…… pour mon pays…… pour mon
+peuple……\e"
+MFK0080025,\h(«Alfonso»)Aaahhh !!\e
+MFK0080026,"\h(«Teodora»)Enrique, rengaine ton épée tout de suite !\e"
+MFK0080027,"\h(«Belleza»)Votre Altesse……
+Pardonnez-moi.\e"
+MFK0080028,"\h(«Teodora»)Belleza !
+Les Pirates de l'Air ont fait un lavage de
+cerveau a Enrique ! Il a perdu la tête !\e"
+MFK0080029,"\h(«Teodora»)Emprisonnez-le dans la Grande Forteresse jusqu'à
+ce qu'il retrouve ses esprits !\e"
+MFK0080030,"\h(«Belleza»)Je vous en prie ! Votre Altesse, attendez !
+Je, je……\e"
+MFK0080031,"\h(«Alfonso»)En tant que nouveau commandant de l'Armada
+Valuan, je vous ordonne d'emmener le prince à la
+Grande Forteresse et de l'enfermer.\e"
+MFK0080032,"\h(«Alfonso»)Si vous voulez vous plaindre, parlez-en au
+bourreau quand vous aurez la tête sur le
+billot.\e"
+MFK0080033,\h(«Belleza»)Grr……\e
+MGK0080000,"\h(«Teodora»)Danke, dass du mich unterrichtet hast, Alfonso.
+Das hast du gut gemacht.\e"
+MGK0080001,"\h(«Alfonso»)Selbstverständlich…… ich bin Euer ergebener
+Diener, Hoheit. Und was ist mit den
+persönlichen Angelegenheiten, die ich
+erwähnte……?\e"
+MGK0080002,"\h(«Teodora»)Hahahaha…… Sehr wohl, Alfonso.
+Ich werde dir deinen Wunsch gewähren.\e"
+MGK0080003,\h( )Mutter!\e
+MGK0080004,\h(«Teodora»)Enrique?!\e
+MGK0080005,"\h(«Teodora»)Du bist endlich wieder da!
+Also…… bist du endlich wieder zu Sinnen
+gekommen und zu uns zurückgekehrt……\e"
+MGK0080006,"\h(«Enrique»)Nein, Mutter…… ich bin gekommen, um dich
+vor der Gefahr zu warnen, in der du schwebst.\e"
+MGK0080007,"\h(«Enrique»)Admiral Galcian hat dich verraten und plant,
+die Welt zu erobern. Wir müssen versuchen,
+ihn aufzuhalten!\e"
+MGK0080008,"\h(«Teodora»)Ja, mein Junge, ich weiß.
+Alfonso war bereits so freundlich, mir von
+Admiral Galcians Plänen zu berichten.\e"
+MGK0080009,"\h(«Teodora»)Wie ich höre, sucht er die Moon Crystals
+zusammen, um die Rains of Destruction
+hervorzurufen.\e"
+MGK0080010,"\h(«Enrique»)Was?!
+Also…… das war die ganze Zeit über sein Plan!\e"
+MGK0080011,"\h(«Enrique»)Mutter, wir müssen schnell handeln! Wir müssen
+unser Volk in Sicherheit bringen!\e"
+MGK0080012,"\h(«Teodora»)Enrique, bitte beruhige dich doch.
+Wir müssen die augenblickliche Lage abwägen.\e"
+MGK0080013,"\h(«Teodora»)Wenn wir die Moon Crystals in unseren Besitz
+bringen, werden unsere Träume, die Welt zu
+regieren, endlich wahr!\e"
+MGK0080014,"\h(«Teodora»)Ich habe Alfonso zum neuen Kommandeur der
+valuanischen Armada gemacht, und wir werden
+gegen Galcian antreten.\e"
+MGK0080015,"\h(«Enrique»)Mutter! Das darf man nicht leicht nehmen!
+Du kannst nicht…… Er ist zu mächtig!\e"
+MGK0080016,\h(«Belleza»)…… Eure Hoheit?\e
+MGK0080017,"\h(«Alfonso»)Habt keine Angst, Eure Hoheit.
+All mein Fehlverhalten bis zum heutigen Tage
+beruht auf Galcians Befehlen.\e"
+MGK0080018,"\h(«Alfonso»)Wenn ich aus freien Stücken handle, werde ich
+Galcian vor Gericht bringen.\e"
+MGK0080019,"\h(«Teodora»)Hahahaha…… Gut, Alfonso…… sehr gut……\e"
+MGK0080020,"\h(«Enrique»)……Verstehe.
+Also dann…… du lässt mir keine Wahl.\e"
+MGK0080021,\h(«Teodora»)Was?\e
+MGK0080022,"\h(«Teodora»)Enrique!
+Was machst du?!\e"
+MGK0080023,"\h(«Enrique»)…… Mutter.
+Wenn du so weitermachst, wirst du Valua
+zerstören!\e"
+MGK0080024,"\h(«Enrique»)Ich muss dies tun…… für mein Land…… für mein
+Volk……\e"
+MGK0080025,\h(«Alfonso»)Aaahhh!!\e
+MGK0080026,"\h(«Teodora»)Enrique, steck sofort dein Schwert ein!\e"
+MGK0080027,"\h(«Belleza»)Eure Hoheit……
+Bitte vergebt mir.\e"
+MGK0080028,"\h(«Teodora»)Belleza!
+Enrique hat von den Luftpiraten eine Hirnwäsche
+erhalten! Er ist verrückt geworden!\e"
+MGK0080029,"\h(«Teodora»)Schließt ihn in der Grand Fortress ein, bis
+er wieder zu Sinnen kommt!\e"
+MGK0080030,"\h(«Belleza»)Bitte! Eure Hoheit, wartet!
+Ich…… ich……\e"
+MGK0080031,"\h(«Alfonso»)Als neuer Kommandeur der valuanischen Armada
+befehle ich Ihnen, den Prinzen zur Grand
+Fortress zu bringen und ihn dort einzusperren.\e"
+MGK0080032,"\h(«Alfonso»)Wenn du Beschwerden haben solltest, kannst du
+sie dem Scharfrichter erzählen, wenn dein Kopf
+auf dem Richtblock liegt.\e"
+MGK0080033,\h(«Belleza»)Grr……\e
+"",me106c.sct
+"",me116a.sct
+"",me017h.sct
+"",me017i.sct
+"",イベントＣ０９が発生しました。\c
+"",a230ac09.mld
+"",a230ac09.mld
+"",a230ac09_efe.mld
+"",a230ac09_efe.mld
+"",M0307
+"",e6c009
+"",a230ac09.mld
+"",a230ac09_efe.mld
+"",EV_G01発生しました。\c
+"",M0307
+"",e6g001
+"",a230ag01.mld
+"",a230ag01.mld
+"",a230ag01.mld
+"",イベントＫ０８が発生しました。\c
+"",a230ak08.mld
+"",a230ak08.mld
+"",M0307
+"",e6k008
+"",M0326
+"",M0326
+"",a230ak08.mld

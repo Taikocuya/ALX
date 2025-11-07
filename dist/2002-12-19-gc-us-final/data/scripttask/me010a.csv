@@ -1,0 +1,559 @@
+[Event Name],Task ID
+ME0020000,"\h(《Aika》)Umm…
+There are a bunch of people wearing masks…
+And they have spears, too…\e"
+ME0020001,\h(《Horteka Villager》)Are you Quetya?\e
+ME0020002,\h(《Vyse》)Huh?\e
+ME0020003,"\h(《Horteka Villager》)The girl… in the white clothes… 
+is she Quetya?\e"
+ME0020004,"\h(《Fina》)What?
+Are they talking about me?\e"
+ME0020005,"\h(《Vyse》)Umm… we're Blue Rogues. 
+We came across the South Ocean.\e"
+ME0020006,"\h(《Horteka Villager》)You are not Quetya…
+You are the same as the other men from the East.
+It is best if you leave soon.\e"
+ME0020007,"\h(《Vyse》)What did I say?
+What do they mean “Quetya” and who are the
+“Men from the East”?\e"
+ME0020008,"\h(《Fina》)I have no idea.
+I don't know what they're talking about.\e"
+ME0020009,"\h(《Drachma》)We should meet with the leader of the village.
+He might be able to explain what's going on
+here.\e"
+ME0020010,"\h(《Drachma》)Also, that trip across South Ocean has depleted
+our fuel supply. We need to stock up on Moon
+Stones if we ever want to leave this place.\e"
+ME0020011,"\h(《Vyse》)Okay… let's find the leader of this village…
+Maybe we'll be able to find some Moon Stones 
+here as well.\e"
+ME0040000,"\h(《Elder》)So, you are from the East.
+Your people bring disaster. 
+Leave this village immediately.\e"
+ME0040001,"\h(《Vyse》)Wait a minute!
+Why does everyone keep talking about these
+“Men from the East” and this “Quetya” stuff?\e"
+ME0040002,\h(《Vyse》)I don't even know what a “Quetya” is! \e
+ME0040003,"\h(《Elder》)Quetya is our god. Generations ago, when the 
+giant came to destroy us, Quetya appeared and 
+saved our village.\e"
+ME0040004,"\h(《Elder》)Ancient prophecies say that Quetya's messengers
+will come from the East and save us if our land
+is ever in danger.\e"
+ME0040005,"\h(《Vyse》)I understand… and since we came from the East, 
+that is why everyone thinks “Quetya” sent us.\e"
+ME0040006,"\h(《Aika》)But… if Quetya's messengers are supposed to
+save you, why did you say that people from the
+East bring disaster?\e"
+ME0040007,"\h(《Elder》)Even now, the men from the East are destroying
+our land. They claim they come from a place
+called Valua.\e"
+ME0040008,"\h(《Aika》)Valua?!
+They're here, too?\e"
+ME0040009,"\h(《Elder》)When the people from Valua came, everyone 
+thought that Quetya sent them. Even the king 
+came to greet them.\e"
+ME0040010,"\h(《Elder》)The people from Valua said they wanted Moon 
+Stones. We took them to our Sacred Mountain 
+where we keep Glow Rocks.\e"
+ME0040011,"\h(《Fina》)So, the Valuans came to steal their
+Moon Stones…\e"
+ME0040012,"\h(《Elder》)And then the people from Valua attacked us with 
+fire-breathing iron ships. They took control 
+of Sacred Mountain.\e"
+ME0040013,"\h(《Elder》)Everyone… even the king fought…
+But many were killed and the forest was burned. 
+The survivors… were taken as slaves…\e"
+ME0040014,"\h(《Aika》)That's terrible!
+They are using your people to gather the
+Moon Stones so they can make weapons!\e"
+ME0040015,"\h(《Vyse》)So that's why everyone is so against the
+“Men from the East”.\e"
+ME0040016,"\h(《Vyse》)Please…
+You need to trust us. We are different from 
+the Valuans… the “Men from the East”.\e"
+ME0040017,"\h(《Vyse》)We fight against Valua so they can't hurt 
+people…\e"
+ME0040018,"\h(《Vyse》)And that is why we've come all this way… 
+We need a very precious stone, called 
+a Moon Crystal.\e"
+ME0040019,\h(《Elder》)…\e
+ME0040020,"\h(《Drachma》)You can't expect him to trust us…
+You're wasting your time, boy!\e"
+ME0040021,"\h(《Vyse》)…Please, I am telling the truth.
+Please…\e"
+ME0040022,"\h(《Elder》)…If you fly north from this village, you'll see
+a small hut in the middle of the forest. 
+That is where our king is hiding.\e"
+ME0040023,"\h(《Elder》)The kings of our land have always passed down 
+the Sacred Green Stone from generation to 
+generation. This may be the stone that you seek.\e"
+ME0040024,"\h(《Elder》)Your eyes. They are pure.
+I believe that you are here to help us.
+Please… save our people.\e"
+ME0040025,"\h(《Vyse》)Thank you…
+I will not betray you.\e"
+ME0040026,"\h(《Vyse》)Let's go!
+We've got a village to save…\e"
+M05000000,"\h(《Weapons Merchant》)…
+I have nothing to sell to a person from the
+east.\c"
+M05000001,"\h(《Weapons Merchant》)The elder says I must help you. So even though I
+don't like it, I will sell to you.\e"
+M05000002,"\h(《What will you do?》)“Buy and sell weapons”
+“Talk to the Merchant”
+“Leave”\e"
+M05000003,"\h(《Weapons Merchant》)For a long time, we did not fight wars. Weapons
+were only for hunting, or as defense from wild
+animals.\e"
+M05000004,"\h(《Weapons Merchant》)But ever since the Valuans arrived, I have
+started making weapons to use against people.\c"
+M05000005,\h(《Weapons Merchant》)…\c
+M05000006,"\h(《Weapons Merchant》)You are a hero to all who live in the forest.
+I'd be honored if you used my weapons.\e"
+M05000007,"\h(《What will you do?》)“Buy and sell weapons”
+“Talk to the Merchant”
+“Leave”\e"
+M05000008,"\h(《Weapons Merchant》)The men of the village have returned. I'm going
+to work hard to make weapons. We want to protect
+the village with our own hands.\e"
+M05000009,"\h(《Weapons Merchant》)This weapon I made, I made it with a prayer for
+the forest. Please make good use of it.\c"
+M05010000,\h(《Item Merchant's Daughter》)…\c
+M05010001,\h(《Item Merchant's Daughter》)…Is there something you'd like to buy?\e
+M05010002,"\h(《What will you do?》)“Buy and sell items.”
+“Talk to the Merchant”
+“Leave the shop”\e"
+M05010003,"\h(《Item Merchant's Daughter》)The Valuans, they were looking for the Sacred
+Green Stone. They said it shines even brighter
+than a Moon Stone.\e"
+M05010004,"\h(《Item Merchant's Daughter》)I've never seen a stone like that, but they took
+away everything in the shop anyway. \e"
+M05010005,\h(《Item Merchant's Daughter》)…\c
+M05010006,"\h(《Item Merchant's Daughter》)All because of you, the forest has been saved.
+It would make me happy if any of my items proved
+useful to you.\e"
+M05010007,"\h(《What will you do?》)“Buy and sell items”
+“Talk to the Merchant”
+“Leave the shop”\e"
+M05010008,"\h(《Item Merchant's Daughter》)Our forest burned, but it will revive quickly.
+The Forest of Ixa'taka is very strong.\e"
+M05010009,\h(《Item Merchant's Daughter》)Thank you. May Quetya be with you.\c
+M05020000,\h(《Tavernkeep》)Get out! We don't have food for Easterners!\c
+M05020001,"\h(《Tavernkeep》)This tavern was a good tavern. Merida's dancing 
+made everybody happy. My loqua kept everybody 
+in good spirits.\e"
+M05020002,"\h(《Tavernkeep》)Then the Valuans came, captured some, killed 
+others, and stole our food and drink.\e"
+M05020003,"\h(《Tavernkeep》)Merida won't dance anymore. The others won't 
+laugh anymore. My tavern has nothing left.\e"
+M05020004,"\h(《Tavernkeep》)Merida won't dance anymore. The others won't 
+laugh anymore. My tavern has nothing left.\e"
+M05020005,"\h(《Tavernkeep》)Everybody came back. Merida is dancing again. 
+I thank you.\e"
+M05020006,"\h(《Tavernkeep》)Eat all you want. Drink all you want. For you, 
+it is free.\e"
+M05020007,"\h(《Tavernkeep》)A while ago, Merida wrote a letter and put it in
+a bottle tied to a red balloon. I saw her
+release it into the air.\e"
+M05020008,"\h(《Tavernkeep》)I think it was a very important letter to 
+Merida.\e"
+M05020009,"\h(《Tavernkeep》)When Merida left, my tavern became a very lonely
+place.\e"
+M05020010,"\h(《Tavernkeep》)But if she is happy dancing in your ship, then
+it is worth it. If Merida is happy, I am happy.\c"
+M05030000,\h(《Young maiden》)……\e
+M05030001,"\h(《Merida》)I am Merida, the dancer of this tavern. When I 
+dance, I make everybody happy. 
+But… I, I cannot dance anymore. \e"
+M05030002,"\h(《Merida》)The Valuans killed my father. And they killed 
+many of my friends, too.\e"
+M05030003,"\h(《Merida》)Now, when I dance, it does not make people 
+happy. So, I dance no more.\e"
+M05030004,"\h(《Merida》)Now, when I dance, it does not make people 
+happy. So, I dance no more.\e"
+M05030005,"\h(《Merida》)Everybody has returned, except for my father. He
+was killed, so he cannot come home. But I will
+dance again to make the people happy once more.\e"
+M05030006,"\h(《Merida》)But I… I will never forgive Valua. Someday I 
+will get my own ship. I will avenge my father.\c"
+M05030007,"\h(《Merida》)But I… I will never forgive Valua. Someday I 
+will get my own ship. I will avenge my father.\c"
+M05030008,"\h(《Merida》)That is a very powerful ship that you have. I 
+hope one day I will board a ship. I look for 
+comrades to help me get revenge on Valua.\e"
+M05030009,"\h(《Merida》)I wrote a letter to Quetya and sent it into the 
+sky. I asked Quetya to please send me strong 
+warriors to aid my cause.\e"
+M05030010,"\h(《Merida》)That is a very powerful ship that you have. I 
+hope one day I will board a ship. I look for 
+comrades to help me get revenge on Valua.\e"
+M05030011,"\h(《Merida》)I wrote a letter to Quetya and sent it into the
+sky. I asked Quetya to please send me strong 
+warriors to aid my cause.\e"
+M05030012,"\h(《Vyse》)Could this be that letter by any chance? 
+I picked it up in the Ocean.\e"
+M05030013,"\h(《Merida》)That is the letter that I wrote to Quetya! I 
+sent it looking for help.\e"
+M05030014,"\h(《Merida》)Quetya surely sent you to me. You must be the
+warriors that I am waiting for.\e"
+M05030015,"\h(《Merida》)Please! Take me with you! I want to fight 
+against Valua!\e"
+M05030016,"\h(《Merida》)I… I may not be strong, but I can dance. 
+My dancing will lift everyone's spirits!\e"
+M05030017,\h(　)Merida has joined your crew as a “Jester.”\c
+M05040000,\h(《Masked Man》)I want nothing to do with you.\c
+M05040001,"\h(《Masked Man》)You look for the Sacred Green Stone, just like 
+the Valuans.\e"
+M05040002,"\h(《Masked Man》)The Valuans demanded that I tell them where the 
+Sacred Green Stone was. They beat me over and 
+over… I thought I was going to die…\e"
+M05040003,"\h(《Masked Man》)The Valuans demanded that I tell them where the 
+Sacred Green Stone was. They beat me over and 
+over… I thought I was going to die…\e"
+M05040004,"\h(《Masked Man》)I saw the Giant of the Forest! Legend has it
+that the Giant of the Forest will protect us. 
+But I'm not so sure about that…\e"
+M05040005,"\h(《Masked Man》)The Giant of the Forest was surely created by 
+someone with an evil heart. Evil will not 
+protect us. It is good that you stopped it. \e"
+M05040006,"\h(《Masked Man》)Welcome, welcome. You are our heroes. It is an 
+honor to have you here. Please make yourselves 
+at home.\e"
+M05040007,"\h(《Masked Man》)You people came from the east? You made it 
+through the wall of rocks?\e"
+M05040008,"\h(《Masked Man》)Long ago, many brave men made attempts to break 
+through the wall of rocks. All failed, and the 
+rocks destroyed their ships. You are amazing!\e"
+M05040009,\h(《Masked Man》)The forest… Something bad is happening there…\e
+M05050000,"\h(《Elder》)…So you are the ones from the east who people 
+have been talking about.\c"
+M05050001,"\h(《Elder》)You must go see the king. He lives in a hut to 
+the north. The hut is protected by a giant tree.\c"
+M05050002,"\h(《Elder》)So you intend to go to Moon Stone Mountain, 
+do you?\e"
+M05050003,"\h(《Elder》)Moon Stone Mountain is where our comrades are 
+imprisoned. If there is any disturbance, they 
+will be killed. Please be very careful.\e"
+M05050004,"\h(《Elder》)So High Priest Isapa is safe. It is wonderful to
+hear. I hope the others are safe, too.\c"
+M05050005,"\h(《Elder》)My deepest gratitude. Thanks to you, the people 
+have safely returned to their homes.\e"
+M05050006,"\h(《Elder》)You people are not Quetya, but I think it was 
+Quetya who sent you to us.\e"
+M05050007,"\h(《Elder》)Like all those who Quetya sends to us, you are 
+welcome in this village any time. The people of 
+the forest will help you.\c"
+M05050008,"\h(《Elder》)Like all those who Quetya sent to us, you are 
+welcome in this village any time. The people of 
+the forest will help you.\c"
+M05050009,"\h(《Elder》)Ahh, it is Lord Vyse! What in the world is this 
+trembling of the sky? What could be going on?\e"
+M05050010,"\h(《Elder》)What? You say a new continent has risen from 
+beneath the clouds? It is a fearsome thing.\e"
+M05050011,"\h(《Elder》)What? You say a new continent has risen from 
+beneath the clouds? It is a fearsome thing.\e"
+M05060000,"\h(《High Priest》)Quetya and the people of the east, we once 
+confused. But we will confuse the two no more.\c"
+M05060001,"\h(《High Priest》)“From the east will come the one who can
+vanquish the Great Evil.” That was the prophecy 
+from Quetya.\e"
+M05060002,"\h(《High Priest》)Quetya is a god from the east. Long, long ago, 
+Quetya saved our forest from a dangerous enemy.\e"
+M05060003,"\h(《High Priest》)Whenever our forest is in danger, Quetya always 
+comes to our rescue.\c"
+M05060004,"\h(《High Priest》)Quetya is a god from the east. Quetya will 
+surely appear and save us from Valua.\c"
+M05060005,"\h(《High Priest》)Quetya's prophecy has been fulfilled. Quetya has
+indeed saved us.\e"
+M05060006,"\h(《High Priest》)You people were sent by the god Quetya. Quetya 
+took on your forms to come and save us.\c"
+M05060007,"\h(《High Priest》)There was a prophecy that evil would come from 
+the east. Is something terrible about to occur?\c"
+M05070000,"\h(《Elderly Innkeeper》)So you're from the east? You look tired. Would 
+you like a room for the night? It'll be 160 
+gold.\e"
+M05070001,"\h(《What will you do?》)“Stay the night.”
+“Leave.”\e"
+M05070002,\h(《Elderly Innkeeper》)Sleep well…\c
+M05070003,"\h(《Elderly Innkeeper》)You seem refreshed. Come again any time you need
+a rest.\c"
+M05070004,"\h(《Elderly Innkeeper》)People from the east get tired just like anyone 
+else. Don't worry about it. Come again any time 
+you need a rest.\c"
+M05070010,"\h(《Elderly Innkeeper》)…You don't have enough money.
+Come back when you have enough.\c"
+M05070005,"\h(《Elderly Innkeeper》)You saved the village! Thank you. Stay awhile 
+here and get a good rest.\e"
+M05070006,"\h(《What will you do?》)“Stay the night.”
+“Leave.”\e"
+M05070007,\h(《Elderly Innkeeper》)Sleep well…\c
+M05070008,"\h(《Elderly Innkeeper》)You seem refreshed. Come again any time you need
+a rest.\c"
+M05070009,"\h(《Elderly Innkeeper》)You must be careful not to push yourself beyond 
+your limits. Come again any time you need a 
+rest.\c"
+M05140000,\h(《Woman》)Urrrr… Go away! Scram! Don't bother me!\c
+M05140001,"\h(《Woman》)My son, he was taken away by the Valuans to work
+on Moon Stone Mountain.\e"
+M05140002,"\h(《Woman》)Every night, I have terrible dreams of my son 
+crying and suffering on Moon Stone Mountain. I 
+am so sad. I am so sad.\c"
+M05140003,"\h(《Woman》)Every night, I have terrible dreams of my son 
+crying and suffering on Moon Stone Mountain. I 
+am so sad. I am so sad.\c"
+M05140004,"\h(《Woman》)My son has come home! He lost a lot of weight, 
+but he is alive and well. Thank you. Thank you.\c"
+M05140005,"\h(《Woman》)My son is alive and well, and with me again. 
+Everyday, I feel so happy. I am so happy.\c"
+M05140006,"\h(《Woman》)I sense something bad, evil. Something terrible
+is going to happen again. I am afraid. I am very
+afraid.\c"
+M05150000,"\h(《Masked Man》)Ahh! You're the one who got rid of the Valuans! 
+It's only because of you that I was saved.\e"
+M05150001,"\h(《Masked Man》)On Moon Stone Mountain, they made me work. It 
+was very hard. But thanks to you, I came home 
+alive.\e"
+M05150002,"\h(《Masked Man》)Here, my thanks. Please put it to good use.\e"
+M05150003,\h(　)You received 1 “Tropica.”\c
+M05150004,"\h(《Masked Man》)On Moon Stone Mountain, they made me work. It 
+was very hard. But thanks to you, I came home 
+alive.\c"
+M05150005,"\h(《Masked Man》)Ahh, it's you! My savior. Let me tell you 
+something interesting.\e"
+M05150006,"\h(《Masked Man》)Somewhere in the lower parts of this island,
+there is a fruit called the “Garpa Fruit.” It
+is very tasty.\e"
+M05150007,"\h(《Masked Man》)Everyone in the village loves them. You should 
+try them, too.\c"
+M05150008,"\h(《Masked Man》)Somewhere in the lower parts of this island, 
+there is a berry called the “Gropta Berry.” It 
+is very tasty.\c"
+M05160000,\h(《Masked Man》)……\c
+M05160001,"\h(《Masked Man》)The men of Ixa'taka are all warriors. We protect
+the forest, protect our king. We can strike down
+wild animals in a single blow.\e"
+M05160002,"\h(《Masked Man》)But we let our guard down. We thought Valua was 
+not the enemy. We even held a festival to 
+welcome them.\e"
+M05160003,"\h(《Masked Man》)Suddenly, Valua captured the king, and the sky 
+filled with ships that spat fire. We could do 
+nothing.\c"
+M05160004,"\h(《Masked Man》)Suddenly, Valua captured the king, and the sky 
+filled with ships that spat fire. We could do 
+nothing.\c"
+M05160005,"\h(《Masked Man》)Ahh! It's you! All thanks to you, our village 
+was saved!\e"
+M05160006,"\h(《Masked Man》)I will guard this village with my life. Nothing
+will get past me, not Valua, not the giant. This
+I swear.\c"
+M05160007,"\h(《Masked Man》)I will guard this village with my life. Nothing
+will get past me, not Valua, not the giant. This
+I swear.\c"
+M05160008,"\h(《Masked Man》)A little while ago, many steel ships came from 
+Valua, flying over the forest.\e"
+M05160009,"\h(《Masked Man》)We prepared to fight. The women and children hid
+in the forest. But the ships passed us by, and
+went west.\e"
+M05160010,"\h(《Masked Man》)The other day, the Valuans returned from the 
+west. There were less ships, and all of them 
+were damaged. What happened in the west?\c"
+M05160011,"\h(《Masked Man》)The other day, the Valuans returned from the 
+west. There were less ships, and all of them 
+were damaged. What happened in the west?\c"
+M05160012,"\h(《Masked Man》)Something very serious is going to happen in the
+east. Is your battle connected with this thing
+in the east?\e"
+M05160013,"\h(《Masked Man》)We are determined to protect this village with 
+our own hands. You have your own battle to 
+fight. We wish you well.\e"
+M05160014,"\h(《Masked Man》)We are determined to protect this village with 
+our own hands. You have your own battle to 
+fight. We wish you well.\e"
+M05170000,\h(《Masked Man》)…\c
+M05170001,"\h(《Masked Man》)This song is for Quetya. When the Valuans came, 
+I played this song in the welcome festival.\e"
+M05170002,"\h(《Masked Man》)Now I play to ask Quetya to come, and drive off 
+the Valuans.\c"
+M05170003,"\h(《Masked Man》)This song is for Quetya. It thanks Quetya for 
+bringing everyone home.\c"
+M05180000,"\h(《Girl》)Are you from the east? Everyone hates people 
+from the east. You'd best be on your way.\c"
+M05180001,\h(《Girl》)The Elder said you defeated Valua. Is it true?\e
+M05180002,"\h(《Girl》)I have always believed in Quetya. I believe 
+someday Quetya will come, and destroy Valua for 
+us.\e"
+M05180003,"\h(《Girl》)Maybe you were sent here by Quetya.
+Do you think so?\c"
+M05180004,"\h(《Girl》)I have always believed in Quetya. I believe 
+someday Quetya will come, and destroy Valua for 
+us.\c"
+M05180005,"\h(《Girl》)You really did destroy Valua! You are very 
+strong!\e"
+M05180006,"\h(《Girl》)Just as I thought. You were sent by Quetya, 
+weren't you?\c"
+M05180007,"\h(《Girl》)In the eastern sky, something horrible is 
+happening. But you're going to do something 
+about it for us, aren't you?\e"
+M05180008,"\h(《Girl》)I mean, after all, you were sent by Quetya!\c"
+M05190000,\h(《Monkey》)Gyaaaa!\e
+M05200000,\h(《Monkey》)Gyaaaa!\e
+M05210000,"\h(《Masked Man》)I saw you come from the eastern sky. I can see 
+many things from here… Oops!\e"
+M05210001,"\h(《Masked Man》)I must not talk to people from the east. You'd 
+better forget what I said.\c"
+M05210002,\h(《Masked Man》)…\c
+M05210003,\h(《Masked Man》)You are not a bad man. The Elder said so.\e
+M05210004,"\h(《Tikatika》)I am Tikatika. I was the first to see you 
+coming. My eyes are sharper than the birds'. I 
+am proud of my eyes.\e"
+M05210005,"\h(《Tikatika》)If I concentrate, I can see anything, no matter 
+how far. Shall I show you?\e"
+M05210006,"\h(《What will you do?》)“Have him show you”
+“Never mind”\e"
+M05210007,\h(《Tikatika》)All right! Here goes!\e
+M05210008,\h(《Tikatika》)Umph! Urrmmmmmm!\e
+M05210009,\h(《Tikatika》)Kiyahaaaaa!\e
+M05210010,"\h(《Tikatika》)Aha! A golden man. To the north, I see a golden 
+man.\e"
+M05210011,"\h(《Tikatika》)In the northern sky there is a golden man.
+It is the truth. Go and see for yourself.\c"
+M05210012,"\h(《Tikatika》)Shucks, you're no fun. It is the truth. My eyes 
+are very good. Incredible even!\c"
+M05210013,"\h(《Tikatika》)My eyes are sharper than the birds'. Shall I 
+show you?\e"
+M05210014,"\h(《Tikatika》)You defeated the giant. I saw it from here. You 
+are awesome!\c"
+M05210015,"\h(《Tikatika》)You have a nice ship. Have you flown around here
+a lot? Do you know this area well?\e"
+M05210016,"\h(《Tikatika》)Have you seen a ship with all women sailors
+around here? Sometimes I see them flying nearby.
+They are very different from the women here.\e"
+M05210017,"\h(《Tikatika》)Even with my eyes, I cannot always see where 
+they go. I am very curious about them.\e"
+M05210018,"\h(《Vyse》)A place with just women? Hmm…
+Sorry, can't help you there.\e"
+M05210019,"\h(《Tikatika》)Too bad.
+I won't leave here until I find out!\c"
+M05210020,"\h(《Vyse》)Women only? Maybe you're talking about the 
+“Village of the Ixa'ness.”\e"
+M05210021,"\h(《Tikatika》)Yes! Yes! That must be it! So, there really is
+a village of only women… I've been searching
+for it for many years. Thank you.\e"
+M05210022,"\h(《Tikatika》)You are the best sailor I know. Take me with
+you on your ship. I want to travel with you.\e"
+M05210023,\h(《Vyse》)Really? You'll join the crew of my ship?\e
+M05210024,"\h(《Tikatika》)That's right, I'll join your crew. I've been 
+looking for someone who could make good use of 
+my incredible eyes.\e"
+M05210025,"\h(《Tikatika》)With my eyes, I can see the enemy from far away.
+Other things, too, as clear as day. This will be
+useful to you.\e"
+M05210026,\h(　)Tikatika has joined your crew as a “Lookout.”\c
+M05300000,"\h(《Masked Man》)Ahh, you're Vyse! It's all thanks to you that my
+life was saved.\e"
+M05300001,"\h(《Masked Man》)I was forced to work on Moon Stone Mountain. 
+My mother was all alone, back in the village, 
+and I couldn't go home. I was very worried.\e"
+M05300002,"\h(《Masked Man》)But because of you, I was able to come home to 
+my mother. Thank you. Thank you.\c"
+M05300003,"\h(《Masked Man》)But because of you, I was able to come home to 
+my mother. Thank you. Thank you.\c"
+M05300004,"\h(《Masked Man》)Something is happening again in the east.
+Are we going to be invaded again?\e"
+M05300005,"\h(《Masked Man》)This time, nothing can take me away from my 
+mother's side. I will stay right here and 
+protect my mother. \e"
+Ms010a000,"\h(《Vyse》)I wonder what this is? It looks like
+ground up berries and herbs…
+I wonder what they're used for…\c"
+Ms010a001,"\h(《Vyse》)It's full of berries and dried meat.
+It looks pretty tasty…\c"
+Ms010a002,"\h(《Vyse》)There's water here. It looks fresh and it's
+still relatively cold. It's probably from the
+river that runs beneath the town.\c"
+Ms010a003,"\h(《Vyse》)It looks like you put wood inside and burn it to
+cook things. I guess it's an Ixa'takan stove.
+Maybe they don't use Moon Stones as fuel.\c"
+Ms010a004,"\h(《Vyse》)It's some liquid, almost like honey.
+There's a really sweet smell
+that's filling the whole room.\c"
+Ms010a005,"\h(《Vyse》)Now THAT'S a big vat of… something. Whatever it
+is, it looks sticky. I wouldn't want to fall
+into there, that's for sure.\c"
+Ms010a006,"\h(《Vyse》)This jar's empty…
+Maybe they use it to carry the stuff
+that's in the big vat?\c"
+Ms010a007,"\h(《Vyse》)Mmm… That looks good. I guess Aika was right
+about the fruit here. There seems to be
+plenty of it, that's for sure.\c"
+Ms010a008,"\h(《Vyse》)It looks like you put wood inside and burn it to
+cook things. I guess it's an Ixa'takan stove.
+Maybe they don't use Moon Stones as fuel.\c"
+Ms010a009,"\h(《Vyse》)It's covered with some animal skin. That's
+probably how they keep their food fresh. Looks
+like there's some salted meat inside.\c"
+Ms010a010,"\h(《Vyse》)Hmm… It's a piece of wood that looks like it's
+been carved. It doesn't look quite finished,
+though. I wonder what it's supposed to be?\c"
+Ms010a011,"\h(《Vyse》)It's empty…
+It smells like there used to be some sort of
+juice or nectar in here…\c"
+Ms010a012,"\h(《Vyse》)There're all kinds of different masks.
+I wonder if each one has a different
+meaning or something?\c"
+Ms010a013,"\h(《Vyse》)It's covered with some animal skin. That's
+probably how they keep their food fresh. Looks
+like there's some salted meat inside.\c"
+Ms010a014,"\h(《Vyse》)It's an article of Ixa'takan clothing. I can't
+tell whether you're supposed to wear it around
+your waist or over your shoulder…\c"
+Ms010a015,"\h(《Vyse》)It looks like you put wood inside and burn it to
+cook things. I guess it's an Ixa'takan stove.
+Maybe they don't use Moon Stones as fuel.\c"
+Ms010a016,"\h(《Vyse》)It looks like this spear and mask
+haven't been used in a while.
+There's a layer of dust on both of them.\c"
+Ms010a017,"\h(《Vyse》)This must be the son of the household's
+spear and mask. It looks worn in.
+He must go hunting every day.\c"
+Ms010a018,"\h(《Vyse》)It's covered with some animal skin. That's
+probably how they keep their food fresh. Looks
+like there's some salted meat inside.\c"
+Ms010a019,"\h(《Vyse》)Mmm… Looks tasty.
+Horteka has some of the best fruit
+I've ever seen.\c"
+Ms010a020,"\h(《Vyse》)There are some assorted dried leaves inside the
+pot. Maybe these leaves are what's making this
+place smell so nice…\c"
+Ms010a021,"\h(《Vyse》)I've never seen Ixa'takan craftwork before.
+It's so raw… and natural. It's strange… but
+beautiful in its own way.\c"
+Ms010a022,"\h(《Vyse》)Ack! There's something in the water! Wait…
+It's actually kinda cute. Heh heh… I wonder
+what it's called?\c"
+Ms010a023,"\h(《Vyse》)There're some offerings of fruit.
+I guess this picture is of that guy, Quetya,
+that the Ixa'takans keep talking about…\c"
+Ms010a024,"\h(《Vyse》)It's an altar to the “god,” Quetya.
+Who would've thought Quetya was actually
+a Silvite?\c"
+Ms010a025,"\h(《Vyse》)They probably use this stage for religious
+ceremonies and celebrations or something.\c"
+Ms010a026,"\h(《Vyse》)This is the way to the boat… but we can't leave
+until we get some more fuel and talk to the
+village elder to find out about the Crystal.\c"
+Ms010a029,"\h(《What will you do?》)“Return to your ship.”
+“Stay here a little while longer.”\c"
+"",me010c.sct
+"",me010b.sct
+"",M0241
+"",m5100000
+"",e6e002
+"",M0241
+"",a010ae02.mld
+"",a010ae02.mld
+"",a010ae04.mld
+"",a010ae04.mld
+"",e6e004
+"",a010ae04.mld

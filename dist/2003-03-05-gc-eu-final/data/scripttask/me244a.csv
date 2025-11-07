@@ -1,0 +1,111 @@
+[Event Name],Task ID
+MI0120000,\h(«Vyse»)Is that…?\e
+MI0120001,"\h(«Fina»)That is Yeligar, the Yellow Gigas.\e"
+MI0120002,\h(«Vyse»)Hrmph…\e
+MI0120003,"\h(«Fina»)Silvite Mages managed to put him to sleep. Then
+they sealed him in here. Yeligar is extremely
+powerful, so it's best that we don't wake him.\e"
+MI0120004,"\h(«Fina»)The Crystal is in Yeligar's possession. We have
+to find a way to remove it, without waking him.\e"
+MI0120005,"\h(«Vyse»)Great…
+He's awake!\e"
+MI0120006,"\h(«Vyse»)If we stay here, we won't be able to dodge 
+the lightning! We have to get away from him! 
+Engines, full reverse!\e"
+MI0120007,\h(«Aika»)This is bad.\e
+MI0120008,"\h(«Fina»)He made breaking the seal look easy. 
+This isn't a good sign…\e"
+MI0120009,"\h(«Vyse»)It looks like we're going to have to fight him
+to get the Crystal.\e"
+MI0120010,"\h(«Vyse»)Battlestations!
+Let's take that thing down!\e"
+MFI0120000,\h(«Vyse»)Est-ce…?\e
+MFI0120001,"\h(«Fina»)C'est Yeligar, le Giga Jaune.\e"
+MFI0120002,\h(«Vyse»)Pfut…\e
+MFI0120003,"\h(«Fina»)Les Mages Silvites ont réussi à l'endormir.
+Ensuite, ils l'ont enfermé ici. Yeligar est très
+puissant, alors il vaut mieux ne pas le
+réveiller.\e"
+MFI0120004,"\h(«Fina»)Yeligar détient le Cristal. Il faut trouver un
+moyen de le lui prendre, sans le réveiller.\e"
+MFI0120005,"\h(«Vyse»)génial…
+Il est réveillé !\e"
+MFI0120006,"\h(«Vyse»)Si nous restons ici, nous n'échapperons pas aux
+éclairs ! Il faut partir !
+Faisons marche arrière vite !\e"
+MFI0120007,\h(«Aika»)Oh là là.\e
+MFI0120008,"\h(«Fina»)Il n'a pas eu de mal a dégager l'entrée.
+C'est mauvais signe…\e"
+MFI0120009,"\h(«Vyse»)Il va falloir le combattre pour prendre le
+Cristal.\e"
+MFI0120010,"\h(«Vyse»)À vos postes de combat !
+Tuons-le !\e"
+MGI0120000,\h(«Vyse»)Ist das……?\e
+MGI0120001,"\h(«Fina»)Das ist Yeligar, der Yellow Gigas.\e"
+MGI0120002,\h(«Vyse»)Hrmf……\e
+MGI0120003,"\h(«Fina»)Silvitische Magier konnten ihn zum Einschlafen
+bringen. Dann haben sie ihn hier
+eingeschlossen. Yeligar ist außergewöhnlich
+mächtig, deshalb sollten wir ihn nicht wecken.\e"
+MGI0120004,"\h(«Fina»)Der Kristall ist in Yeligars Besitz. Wir
+müssen eine Möglichkeit finden, den Kristall
+zu entfernen, ohne ihn aufzuwecken.\e"
+MGI0120005,"\h(«Vyse»)Na wunderbar……
+Er ist wach!\e"
+MGI0120006,"\h(«Vyse»)Wenn wir hier bleiben, können wir dem Blitz
+nicht ausweichen! Wir müssen von ihm wegkommen!
+Maschinen volle Kraft zurück!\e"
+MGI0120007,\h(«Aika»)Sieht schlecht aus.\e
+MGI0120008,"\h(«Fina»)Er tat so, als sei das Aufbrechen des Siegels
+eine Kleinigkeit gewesen. Das ist kein gutes
+Zeichen……\e"
+MGI0120009,"\h(«Vyse»)Sieht so aus, als müssten wir gegen ihn kämpfen,
+um den Kristall zu bekommen.\e"
+MGI0120010,"\h(«Vyse»)Kampfstationen!
+Holen wir uns dieses Ding!\e"
+MSI0120000,\h(«Vyse»)¿Es eso……?\e
+MSI0120001,"\h(«Fina»)Es Yeligar, el Gigas Amarillo.\e"
+MSI0120002,\h(«Vyse»)Vaya……\e
+MSI0120003,"\h(«Fina»)Los Magos Silvites se las ingeniaron para
+dormirle y le encerraron aquí. Yeligar es muy
+poderoso; será mejor no despertarle.\e"
+MSI0120004,"\h(«Fina»)Yeligar está en posesión del Cristal. Tenemos
+que encontrar la forma de quitarle el Cristal
+sin despertarle.\e"
+MSI0120005,"\h(«Vyse»)Vaya, esto es genial……
+¡Está despierto!\e"
+MSI0120006,"\h(«Vyse»)¡Si nos quedamos aquí no podremos esquivar el
+rayo! ¡Tenemos que huir! ¡Todos los motores
+marcha atrás a toda máquina!\e"
+MSI0120007,\h(«Aika»)Esto no me huele bien.\e
+MSI0120008,"\h(«Fina»)Nos ha engañado haciéndonos pensar que romper el
+precinto era fácil.
+Esto no me da buena espina……\e"
+MSI0120009,"\h(«Vyse»)Por lo visto vamos a tener que luchar con él
+para conseguir el Cristal.\e"
+MSI0120010,"\h(«Vyse»)¡A los puestos de combate!
+¡Vamos a derrotar a esa bestia!\e"
+"",me246a.sct
+"",e6i012
+"",M0381
+"",a244ai12_0.mld
+"",a244ai12_0.mld
+"",a244ai12_1.mld
+"",a244ai12_1.mld
+"",a034ab.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ac.mld
+"",a034ad.mld
+"",a034ad.mld
+"",a244ai12_efe.mld
+"",a244ai12_efe.mld
+"",a244ai12_1.mld
+"",a244ai12_2.mld
+"",a244ai12_2.mld
+"",a244ai12_2.mld
+"",a244ai12_1.mld
+"",a244ai12_1.mld
+"",me535a.sct
+"",a244ai12_0.mld
+"",a244ai12_1.mld

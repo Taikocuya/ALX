@@ -1,0 +1,156 @@
+[Event Name],Task ID
+MF0300000,\h(《Vyse》)Our ship! It's on fire!!!\e
+MF0300001,"\h(《Ramirez》)Fina…
+So, you are here.\e"
+MF0300002,\h(《Ramirez》)I've been looking for you.\e
+MF0300003,\h(《Fina》)Ramirez…\e
+MF0300004,"\h(《Aika》)Fina, you know him?!\e"
+MF0300005,\h(《Fina》)……\e
+MF0300006,\h(《Vyse》)Did you lead this attack?!\e
+MF0300007,"\h(《Ramirez》)Yes.
+From this day on, Nasr belongs to the Valuan 
+Empire.\e"
+MF0300008,"\h(《Ramirez》)And…
+I will be taking you back to Valua.\e"
+MF0300009,\h(《Ramirez》)Surrender or you all die.\e
+MF0300010,"\h(《Fina》)Vyse!
+Please do as he says!\e"
+MF0300011,\h(《Vyse》)Fina?!\e
+MF0300012,"\h(《Fina》)Please… you won't be able to defeat him! 
+Not yet! Do as he says…\e"
+MF0300013,"\h(《What will you do?!》)”Surrender.”
+”Fight… even though you know it is futile.”\e"
+MF0300014,"\h(《Vyse》)Grr…
+Alright… we surrender.\e"
+MF0300015,\h(《Ramirez》)A wise choice.\e
+MF0300016,"\h(《Ramirez》)Capture the Air Pirates.
+Take them back to the Grand Fortress.\e"
+MF0300017,"\h(《Fina》)Ramirez…
+Why are you doing this?\e"
+MF0300018,\h(《Ramirez》)……\e
+MF0300019,"\h(《Vyse》)We'll never surrender!
+We'd rather die!\e"
+MF0300020,\h(《Ramirez》)As you wish.\e
+MF0300021,"\h(《Ramirez》)I would have spared you, but you leave me no 
+choice.\e"
+MF0310000,\h(《Gilder》)No… how…\e
+MF0310001,\h(《Aika》)Vyse…\e
+MF0310002,\h(《Vyse》)Can't… fight… any… longer…\e
+MF0310003,"\h(《Fina》)Ramirez…
+Why…\e"
+MF0310004,\h(《Ramirez》)……\e
+M06000003,"\h(《Sailor 》)I came intending to replenish my supplies in
+Nasrad, but the place has burned to the ground!
+What a shock!\e"
+M06000004,"\h(《Sailor 》)There's almost nothing being sold in the shops,
+and even what's available is so expensive. But I
+still have to replenish my supplies somehow... \e"
+M06000005,"\h(《Sailor 》)Let's see, I've bought the Moon Stones I need,
+so now I have to find 5 barrels of drinking
+water...   \e"
+M06000006,"\h(《Sailor》)The shops are finally starting to fill up again.
+Looks like I can start using Nasrad as a regular
+resupply point again. \e"
+M06010004,"\h(《Nasr Merchant 》)Let us see... A box of tomatoes with one, two...
+No, this box is not any good either.\e"
+M06010005,"\h(《Nasr Merchant 》)When only this many survive the fire, you cannot
+miscount even if you want to.\c"
+M06010006,"\h(《Nasr Merchant 》)Ixa'takan cypress… Let us see, we have two, 
+four… \e"
+M06010007,"\h(《Nasr Merchant 》)Do not talk to me now!
+I am busy with the relief supplies.\c"
+M06330011,"\h(《Khazim 》)Arghh!!… Crap! Dammit all! They called me the 
+best gunner around! I was Khazim, the crack 
+shot!\e"
+M06330012,"\h(《Khazim 》)But I let down my guard, and before I could do 
+anything to stop them, the enemy turned the 
+whole city to dust. \e"
+M06330013,"\h(《Khazim 》)It really chaps my hide! I think I will fly 
+right over to Valua and give them a blast in the
+chops!\e"
+M06330014,"\h(《Vyse 》)Calm down, calm down. You do anything like that,
+and you'll get blasted right back. It's way too
+reckless.\e"
+M06330015,"\h(《Aika 》)Ha, ha. So says the man who was so reckless as
+to escape from Valua twice over.\e"
+M06330016,"\h(《Khazim 》)Wh, what is that? Y, you are not… ?\e"
+M06330017,"\h(《Khazim 》)Could you be that pirate Vyse who abducted the
+Valuan prince and blasted your way out of the
+Grand Fortress?\e"
+M06330018,"\h(《Vyse 》)Well, I don't know about the abducted part, but 
+otherwise, yes, I am indeed Vyse. \e"
+M06330019,"\h(《Khazim 》)In that case, you've got to do this for me,
+Vyse! Let me join your crew!  \e"
+M06330020,"\h(《Khazim 》)I will never be satisfied until I have delivered
+a blow from my cannon to Valua!\e"
+M06330021,"\h(《Khazim 》)I must join forces with you and become the your 
+ship's gunner. Good! It is decided!\e"
+M06330022,"\h(《Vyse 》)Well, well, it doesn't sound like you'll take no
+for an answer, so I suppose we might as well
+have you come aboard.\e"
+M06330023,\h(《》)Khazim has joined your crew as a ”Gunner.”\c
+M06340002,"\h(《Khazim's Man 》)Our job was to defend Nasrad, but we were
+completely helpless to do anything.\e"
+M06340003,"\h(《Khazim's Man 》)It makes me damn angry, and I'd sure like to go 
+beat Valua to a pulp!\c"
+M06350002,\h(《Khazim's Man 》)Boss Khazim is in the turret on top of the wall!\e
+M06350003,"\h(《Khazim's Man 》)Boss says he's going to attack Valua and get
+revenge even if he has to do it all by himself.\e"
+Ms013d000,"\h(《ヴァイス》)アルマダの砲撃の跡だ……
+あの砲撃でどれだけの人が
+犠牲になったんだろう……\c"
+Ms013d001,"\h(《ヴァイス》)積荷もほとんど焼け焦げている。
+この街の商人は大損害だな。\c"
+Ms013d002,"\h(《ヴァイス》)まだ物資は十分ではないみたい
+だけど、少しずつ人も戻ってきて
+復興も進んでるようだな。\c"
+Ms013d003,"\h(《ヴァイス》)積荷はみんな
+ドロだらけだったり焦げてたり
+売り物になりそうにない。\c"
+Ms013d004,"\h(《ヴァイス》)まだ物資は十分ではないみたい
+だけど、少しずつ人も戻ってきて
+復興も進んでるようだな。\c"
+Ms013d005,"\h(《ヴァイス》)あれ……？　以前はもっと
+はしけが続いてたのに。
+砲撃で崩れ落ちてしまったのか。\c"
+Ms013d006,"\h(《ヴァイス》)台車も焦げてボロボロだ。
+でもこんなのでも今は
+無いよりマシなんだろうな。\c"
+Ms013d007,"\h(《ヴァイス》)城壁が崩れている……
+武器弾薬が積んであったから
+真っ先に砲撃されたのかもな。\c"
+Ms013d008,"\h(《ヴァイス》)あれだけの大艦隊が相手じゃあ
+大砲一つでは
+どうにもならないよな……\c"
+Ms013d009,"\h(《ヴァイス》)砲台への攻撃は
+すごかったようだな……
+みんなボロボロになっている。\c"
+Ms013d010,"\h(《さてと……》)「デルフィナスへ帰艦しよう」
+「もう少し街をうろつこう」\c"
+"",a013a01.mld
+"",me230a.sct
+"",a013a01.mld
+"",me230a.sct
+"",a013a00.mld
+"",a013a00.mld
+"",me013e.sct
+"",M0239
+"",m5130000
+"",a013df30.mld
+"",a013df30.mld
+"",a013df30_efe.mld
+"",a013df30_efe.mld
+"",a013a01.mld
+"",a013a01.mld
+"",M0315
+"",e6f030
+"",a013df30.mld
+"",a013a01.mld
+"",a013df30_efe.mld
+"",EVF31発生しました。\c
+"",a013df31.mld
+"",a013a01.mld
+"",M0315
+"",e6f031
+"",a013df31.mld
+"",a013a01.mld

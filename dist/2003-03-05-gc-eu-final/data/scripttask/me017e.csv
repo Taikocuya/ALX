@@ -1,0 +1,2584 @@
+[Event Name],Task ID
+MI0140000,"\h(«Brabham»)Welcome home. 
+Well, how do you like what we've done with the
+place?\e"
+MI0140001,"\h(«Vyse»)I have to say that I'm really impressed with
+your work!\e"
+MI0140002,"\h(«Izmael»)Ba ba bam!
+What did you expect from the greatest 
+builder that ever lived?\e"
+MI0140003,"\h(«Izmael»)If you keep the gold coming in,
+I'll keep adding on!\e"
+MI0140004,"\h(«Brabham»)I've been busy, too! I made new 
+armor plating for the Delphinus' hull. 
+It's super-sturdy!\e"
+MI0140005,"\h(«Brabham»)After I add it on to your ship, you'll be able
+to fly through those pesky stone reefs without
+a hitch!\e"
+MI0140006,"\h(«Vyse»)Thank you both for everything you've done 
+for us. I would like you both to join my crew 
+on board the Delphinus.\e"
+MI0140007,"\h(«Vyse»)That reminds me… I got this while we were in 
+Yafutoma. Can you do anything with it?\e"
+MI0140008,"\h( )You gave the “Book on Polarity” to Brabham.
+I don't think he's ever been this excited.\e"
+MI0140009,"\h(«Brabham»)Well, shiver me timbers! I've never seen this
+type of technology before in my life!\e"
+MI0140010,"\h(«Brabham»)With this type of engine, you'll be able to fly
+higher than the clouds, and lower than you've
+ever imagined.\e"
+MI0140011,\h(«Brabham»)I'll get started on this baby in a jiffy!\e
+MI0140012,"\h(«Enrique»)Vyse, we should figure out what we're going to
+do next.\e"
+MI0140013,"\h(«Izmael»)I knew someone would say that! That's why I
+built a meeting room into the wall of the cliff.
+You can do all of your planning from there.\e"
+MI0140014,"\h(«Vyse»)You built us a meeting room? Wow… you're great,
+Izmael. Let's go check it out!\e"
+MI0140015,\h( )Brabham has joined your crew as an “Engineer.”\e
+MI0140016,\h( )Izmael has joined your crew as a “Builder.”\e
+MFI0140000,"\h(«Brabham»)Bon retour parmi nous.
+Eh bien, êtes-vous contents de notre travail ?\e"
+MFI0140001,\h(«Vyse»)Je dois dire que je suis très impressionné !\e
+MFI0140002,"\h(«Izmael»)Ba ba bam !
+Qu'est-ce vous croyez, je suis le meilleur
+maçon qui n'ait jamais existé ?\e"
+MFI0140003,"\h(«Izmael»)Si vous continuez de me payer en or,
+j'apporterai d'autres améliorations !\e"
+MFI0140004,"\h(«Brabham»)Moi aussi j'ai eu beaucoup de travail !
+J'ai fait un nouveau blindage pour la coque du
+Delphinus. C'est super-solide !\e"
+MFI0140005,"\h(«Brabham»)Une fois que je l'aurais ajoutée au navire, il
+traversera ces récifs sans une égratignure !\e"
+MFI0140006,"\h(«Vyse»)Merci à tous les deux de ce que vous avez fait
+pour nous. Je voudrais que vous nous rejoigniez
+à bord du Delphinus.\e"
+MFI0140007,"\h(«Vyse»)Cela me fait penser que…… On m'a donné ça lors
+de mon séjour à Yafutoma. Pouvez-vous en faire
+quelque chose ?\e"
+MFI0140008,"\h( )Vous avez donné le “Livre des Polarités” à
+Brabham. Il semblerait que ce soit la première
+fois qu'il est aussi content.\e"
+MFI0140009,"\h(«Brabham»)Sapristi ! C'est la première fois de ma vie que
+je vois ce type de technologie !\e"
+MFI0140010,"\h(«Brabham»)Avec ce type de moteur, vous pourrez voyager au
+dessus des nuages, et plus bas que jamais.\e"
+MFI0140011,\h(«Brabham»)Je vais m'y mettre tout de suite !\e
+MFI0140012,"\h(«Enrique»)Vyse, nous devrions réfléchir à ce que nous
+allons faire ensuite.\e"
+MFI0140013,"\h(«Izmael»)Je savais que quelqu'un dirait ça ! C'est pour
+cette raison que j'ai construit une salle de
+réunion dans la falaise.
+Vous pourrez élaborer vos projets là-bas.\e"
+MFI0140014,"\h(«Vyse»)Vous nous avez construit une salle de réunion ?
+Oaouh…… vous êtes formidable, Izmael. Allons la
+voir !\e"
+MFI0140015,"\h( )Brabham a rejoint votre équipage comme
+“Ingénieur.”\e"
+MFI0140016,\h( )Izmael a rejoint votre équipage comme “Maçon.”\e
+MGI0140000,"\h(«Brabham»)Willkommen im trauten Heim.
+Also, wie gefällt euch, was wir mit eurem
+Zuhause gemacht haben?\e"
+MGI0140001,"\h(«Vyse»)Ich muss sagen, ich bin von eurer Arbeit
+wirklich beeindruckt!\e"
+MGI0140002,"\h(«Izmael»)Ba ba bam!
+Was habt ihr sonst vom größten Konstrukteur,
+der je lebte, erwartet?\e"
+MGI0140003,"\h(«Izmael»)Wenn ihr weiterhin Gold mitbringt, dann
+baue ich gern noch an!\e"
+MGI0140004,"\h(«Brabham»)Ich habe meine Zeit auch nicht müßig verbracht!
+Ich habe die neue Panzerung für den Rumpf der
+Delphinus angefertigt. Sie ist super
+widerstandsfähig!\e"
+MGI0140005,"\h(«Brabham»)Nachdem ich sie an deinem Schiff angebracht
+habe, kommst du mühelos an diesen verteufelten
+Felsklippen vorbei!\e"
+MGI0140006,"\h(«Vyse»)Euch beiden vielen Dank für das, was ihr für
+uns getan habt. Ich möchte, dass ihr meiner
+Mannschaft an Bord der Delphinus beitretet.\e"
+MGI0140007,"\h(«Vyse»)Apropos…… das habe ich bekommen, als wir
+in Yafutoma waren. Kannst du was damit
+anfangen?\e"
+MGI0140008,"\h( )Du hast Brabham das “Book of Polarity” gegeben.
+Ich glaube, er war noch nie so aufgeregt.\e"
+MGI0140009,"\h(«Brabham»)Also, bei allem, was recht ist! Diese Art von
+Technologie habe ich noch nie zuvor gesehen!\e"
+MGI0140010,"\h(«Brabham»)Mit dieser Art von Antrieb kannst du über
+den Wolken fliegen und niedriger, als du es dir
+je vorgestellt hast.\e"
+MGI0140011,"\h(«Brabham»)Dieses kleine Wunder nehme ich gleich in
+Angriff!\e"
+MGI0140012,"\h(«Enrique»)Vyse, wir sollten uns überlegen, was wir als
+Nächstes tun sollen.\e"
+MGI0140013,"\h(«Izmael»)Ich wusste, dass dieser Kommentar kommen würde!
+Deshalb habe ich einen Konferenzraum in die
+Felswand eingebaut. Dort könnt ihr in Ruhe
+alle eure Pläne schmieden.\e"
+MGI0140014,"\h(«Vyse»)Du hast uns einen Konferenzraum gebaut? Man……
+du bist toll, Izmael. Sehen wir ihn uns mal an!\e"
+MGI0140015,"\h( )Brabham ist als “Ingenieur” zu deiner Crew
+gestoßen.\e"
+MGI0140016,"\h( )Izmael ist als “Bauherr” zu deiner Crew
+gestoßen.\e"
+MSI0140000,"\h(«Brabham»)Bienvenidos a casa.
+¿Os gusta lo que hemos hecho con este sitio?\e"
+MSI0140001,"\h(«Vyse»)¡Tengo que decir que estoy muy impresionado con
+vuestro trabajo!\e"
+MSI0140002,"\h(«Izmael»)¡Ba ba bam!
+¿Pero qué esperábais del mejor constructor que
+jamás ha habido?\e"
+MSI0140003,"\h(«Izmael»)¡Si sigues trayendo dinero,
+yo seguiré arreglándolo!\e"
+MSI0140004,"\h(«Brabham»)¡Yo también he estado muy ocupado! He reforzado
+más el blindaje del casco del Delphinus.
+¡Está súper firme!\e"
+MSI0140005,"\h(«Brabham»)¡Cuando lo ponga en tu navío, podréis atravesar
+esos arrecifes tan engorrosos sin un arañazo!\e"
+MSI0140006,"\h(«Vyse»)Gracias a los dos por todo lo que habéis hecho.
+Me gustaría que los dos os uniérais a mi
+tripulación a bordo del Delphinus.\e"
+MSI0140007,"\h(«Vyse»)Eso me recuerda algo…… Me dieron esto en nuestra
+visita a Yafutoma. ¿Puedes hacer algo con ello?\e"
+MSI0140008,"\h( )Has dado el “Libro del Polo” a Brabham.
+No creo que jamás haya estado tan emocionado.\e"
+MSI0140009,"\h(«Brabham»)¡Bueno, que se me lleven los demonios! ¡Jamás en
+mi vida había visto esta avanzada tecnología!\e"
+MSI0140010,"\h(«Brabham»)Con este tipo de motor, podrás volar más alto
+que las nubes y más bajo de lo que hayas
+imaginado nunca.\e"
+MSI0140011,\h(«Brabham»)¡Voy a ponerme manos a la obra ahora mismo!\e
+MSI0140012,"\h(«Enrique»)Vyse, tenemos que pensar qué vamos a hacer
+ahora.\e"
+MSI0140013,"\h(«Izmael»)¡Sabía que alguien lo diría! Por eso construí
+una sala de reuniones dentro del muro del
+acantilado. Allí podéis hacer vuestros planes.\e"
+MSI0140014,"\h(«Vyse»)¿Nos has construido una sala de reuniones?
+Ooh, Izmael, eres el mejor. ¡Vamos a echarle un
+vistazo!\e"
+MSI0140015,"\h( )Brabham se ha unido a tu tripulación como
+“Técnico”.\e"
+MSI0140016,"\h( )Izmael se ha unido a tu tripulación como
+“Maestro”.\e"
+MI0150000,"\h(«Izmael»)Ba ba bam!
+They're back!!! And the hull seems to be in one
+piece.\e"
+MI0150001,"\h(«Brabham»)Of course it's in once piece! A little ice isn't
+gonna hurt it one bit! \e"
+MI0150002,"\h(«Brabham»)Captain Vyse…
+About that book from Yafutoma…\e"
+MI0150003,"\h(«Brabham»)I built an engine for ya', 
+using the plans in that book.\e"
+MI0150004,"\h(«Brabham»)Until now, you haven't been able to fly above or
+below the clouds because the pressure
+differences were too hard on your engine…\e"
+MI0150005,"\h(«Brabham»)…But now, that's not a problem! \e"
+MI0150006,"\h(«Izmael»)You'll be able to fly over mountains and beneath
+large islands! You'll be flyin' all over the
+damn place.\e"
+MI0150007,"\h(«Vyse»)Really? That's great!
+When can you install it?\e"
+MI0150008,"\h(«Brabham»)I'll install it tomorrow mornin' at the
+crack-a-dawn.\e"
+MI0150009,"\h(«Aika»)With the new engine, we'll be able to travel to
+more places than ever before!\e"
+MI0150010,"\h(«Vyse»)Alright, everyone to the meeting room!
+Let's decide where to go next!\e"
+MFI0150000,"\h(«Izmael»)Ba ba bam !
+Ils sont de retour !!! Et la coque semble être
+en un seul morceau.\e"
+MFI0150001,"\h(«Brabham»)Évidemment ! Ce n'est pas un peu de glace qui va
+la briser !\e"
+MFI0150002,"\h(«Brabham»)Capitaine Vyse……
+Au sujet du livre de Yafutoma……\e"
+MFI0150003,"\h(«Brabham»)Je vous ai construit un moteur, en me servant
+des plans que j'ai trouvé dans ce livre.\e"
+MFI0150004,"\h(«Brabham»)Jusqu'à présent, vous n'avez pas pu voler au
+dessus ni en dessous des nuages car votre moteur
+n'aurait pas survécu aux différences de
+pression ……\e"
+MFI0150005,"\h(«Brabham»)……Mais maintenant, le problème est réglé !\e"
+MFI0150006,"\h(«Izmael»)Vous pourrez voler au dessus des montagnes et
+sous les grandes îles ! Vous pourrez voler
+absolument partout.\e"
+MFI0150007,"\h(«Vyse»)C'est vrai ? Formidable !
+Quand pouvez-vous l'installer ?\e"
+MFI0150008,\h(«Brabham»)Je l'installerai demain à la première heure.\e
+MFI0150009,"\h(«Aika»)Avec le nouveau moteur, nous pourrons visiter
+tous les endroits où nous ne sommes jamais
+allés !\e"
+MFI0150010,"\h(«Vyse»)Allez tout le monde en salle de réunion !
+Décidons de notre prochaine destination !\e"
+MGI0150000,"\h(«Izmael»)Ba ba bam!
+Sie sind wieder da!!! Und der Rumpf scheint
+in einem Stück zu sein.\e"
+MGI0150001,"\h(«Brabham»)Natürlich ist er noch ganz! Ein bisschen Eis
+macht ihm ja wohl nichts aus.\e"
+MGI0150002,"\h(«Brabham»)Captain Vyse……
+Was dieses Buch aus Yafutoma betrifft……\e"
+MGI0150003,"\h(«Brabham»)Ich hab dir einen Motor gebaut, genau
+nach den Plänen dieses Buches.\e"
+MGI0150004,"\h(«Brabham»)Bis jetzt konntest du weder über noch
+unter den Wolken fliegen, weil
+dein Motor den Druckunterschied nicht
+aushielt……\e"
+MGI0150005,\h(«Brabham»)…… Aber jetzt ist das kein Problem mehr!\e
+MGI0150006,"\h(«Izmael»)Du wirst über Berge und unter große Inseln
+fliegen können! Damit kommst du einfach
+überall hin.\e"
+MGI0150007,"\h(«Vyse»)Echt? Das ist ja toll!
+Wann kannst du ihn einbauen?\e"
+MGI0150008,"\h(«Brabham»)Ich baue ihn morgen früh gleich nach
+Sonnenaufgang ein.\e"
+MGI0150009,"\h(«Aika»)Mit dem neuen Motor können wir so viele neue
+Länder bereisen wie nie zuvor!\e"
+MGI0150010,"\h(«Vyse»)Ok, alles zum Konferenzraum!
+Wir wollen entscheiden, wo's als Nächstes
+hingeht!\e"
+MSI0150000,"\h(«Izmael»)¡Ba ba bam!
+¡¡¡Han vuelto!!! Y el casco está todavía
+entero.\e"
+MSI0150001,"\h(«Brabham»)¡Pues claro que aún está entero! ¡Un poco de
+hielo no puede hacerle ningún daño!\e"
+MSI0150002,"\h(«Brabham»)Capitán Vyse……
+Sobre ese libro que trajo de Yafutoma……\e"
+MSI0150003,"\h(«Brabham»)He construido un nuevo motor usando los planos
+de ese libro.\e"
+MSI0150004,"\h(«Brabham»)Hasta ahora no podíais volar por encima o por
+debajo de la nubes porque las diferencias de
+presión afectaban al motor……\e"
+MSI0150005,\h(«Brabham»)…… ¡Pero eso ya no es un problema!\e
+MSI0150006,"\h(«Izmael»)¡Ahora podréis volar sobre las montañas y por
+debajo de las islas grandes! Vais a volar por
+todas partes.\e"
+MSI0150007,"\h(«Vyse»)¿En serio? ¡Eso es genial!
+¿Cuándo vas a instalarlo?\e"
+MSI0150008,"\h(«Brabham»)Lo instalaré mañana por la mañana en cuanto
+amanezca.\e"
+MSI0150009,"\h(«Aika»)¡Con este nuevo motor, podremos viajar a lugares
+más remotos que nunca!\e"
+MSI0150010,"\h(«Vyse»)¡Todo el mundo a la sala de reuniones!
+¡Vamos a decidir cuál será nuestro próximo
+viaje!\e"
+MJ0030000,"\h(«Gilder»)Hey, Vyse!
+Thanks for the food yesterday! It was delicious!\e"
+MJ0030001,"\h(«Vyse»)Oh, Gilder…
+You're leaving already?\e"
+MJ0030002,"\h(«Gilder»)Yeah, I need to get going… But before I go, I 
+have some news for you… I found out some 
+information on the Armada's latest project…\e"
+MJ0030003,"\h(«Gilder»)I just heard about this the other day…
+It appears that Valua has begun advancing into 
+the lower altitudes…\e"
+MJ0030004,"\h(«Gilder»)I heard that north of Pirate Isle… 
+somewhere beneath the clouds, they're 
+building a base on Dangral Island.\e"
+MJ0030005,"\h(«Gilder»)It's just a rumor, but I heard that they're 
+building a ship that can go into Deep Sky…\e"
+MJ0030006,\h(«Vyse»)Deep Sky?\e
+MJ0030007,"\h(«Gilder»)Yes… beneath the thick layer of clouds… 
+immersed in total darkness… 
+there is a “bottom” of the world.\e"
+MJ0030008,"\h(«Gilder»)No one has ever seen what's below the clouds… 
+some people say that it's completely dead… \e"
+MJ0030009,\h(«Vyse»)What could they be looking for down there?\e
+MJ0030010,"\h(«Gilder»)I don't know.
+But, Fina's ship sank beneath the clouds, right?\e"
+MJ0030011,"\h(«Vyse»)Hmm… you're right. That must be what they're
+after.\e"
+MJ0030012,"\h(«Vyse»)Thanks, Gilder.
+We'll go check it out.\e"
+MJ0030013,"\h(«Gilder»)You don't need to thank me!
+Good luck, Vyse!\e"
+MFJ0030000,"\h(«Gilder»)Hé, Vyse !
+Merci pour le repas d'hier ! C'était délicieux !\e"
+MFJ0030001,"\h(«Vyse»)Oh, Gilder…
+Vous partez déjà ?\e"
+MFJ0030002,"\h(«Gilder»)Et oui…… je dois y aller, mais avant de partir,
+je dois t'informer des derniers projets de
+l'Armada……\e"
+MFJ0030003,"\h(«Gilder»)J'en ai entendu voilà peu……
+Que Valua fait des recherches pour aller en
+basses altitudes…\e"
+MFJ0030004,"\h(«Gilder»)On m'a dit qu'au nord de l'Île Pirate…
+sous les nuages, ils construisent une base sur
+l'Île de Dangral.\e"
+MFJ0030005,"\h(«Gilder»)C'est seulement une rumeur, mais j'ai entendu
+dire qu'ils construisent un navire qui peut
+voler dans les Profondeurs……\e"
+MFJ0030006,\h(«Vyse»)Les Profondeurs ?\e
+MFJ0030007,"\h(«Gilder»)Oui… sous l'épaisse couche de nuages…
+totalement immergé dans l'obscurité…
+se trouve le “fond” du monde.\e"
+MFJ0030008,"\h(«Gilder»)Jamais personne n'a vu ce qu'il y a sous les
+nuages… certains racontent que tout est mort…\e"
+MFJ0030009,\h(«Vyse»)Qu'est-ce qu'ils peuvent bien y chercher ?\e
+MFJ0030010,"\h(«Gilder»)Je ne sais pas.
+Mais, le navire de Fina a coulé sous les nuages,
+n'est-ce pas ?\e"
+MFJ0030011,\h(«Vyse»)Humm… vous avez raison. Ils doivent le chercher.\e
+MFJ0030012,"\h(«Vyse»)Merci, Gilder.
+Nous irons voir.\e"
+MFJ0030013,"\h(«Gilder»)Inutile de me remercier !
+Bonne chance, Vyse !\e"
+MGJ0030000,"\h(«Gilder»)He, Vyse!
+Danke für das Essen gestern! Es war köstlich!\e"
+MGJ0030001,"\h(«Vyse»)Ach, Gilder……
+Gehst du schon?\e"
+MGJ0030002,"\h(«Gilder»)Ja, ich muss gehen…… Aber bevor ich gehe……
+muss ich euch etwas erzählen. Ich habe ein
+paar neue Informationen über das neueste
+Projekt der Armada……\e"
+MGJ0030003,"\h(«Gilder»)Das hab ich erst vor kurzem gehört……
+Es scheint, dass Valua begonnen hat, sich in
+geringere Höhen vorzuarbeiten……\e"
+MGJ0030004,"\h(«Gilder»)Ich habe gehört, nördlich von Pirate Isle……
+irgendwo unter den Wolken…… bauen sie
+einen Stützpunkt auf Dangral Island.\e"
+MGJ0030005,"\h(«Gilder»)Es ist nur ein Gerücht, aber ich habe gehört,
+dass sie ein Schiff bauen, das in den Deep Sky
+abtauchen kann……\e"
+MGJ0030006,\h(«Vyse»)Deep Sky?\e
+MGJ0030007,"\h(«Gilder»)Ja…… unter einer dicken Wolkenschicht……
+in totale Dunkelheit getaucht……
+da ist das “untere Ende” der Welt.\e"
+MGJ0030008,"\h(«Gilder»)Niemand hat je gesehen, was sich unter den
+Wolken befindet…… Manche sagen, da wäre eine
+vollkommen tote Zone.\e"
+MGJ0030009,\h(«Vyse»)Wonach könnten sie denn da unten suchen?\e
+MGJ0030010,"\h(«Gilder»)Weiß ich nicht.
+Aber Finas Schiff ist doch unter die Wolken
+gesunken, oder?\e"
+MGJ0030011,\h(«Vyse»)Hmm…… du hast Recht. Danach müssen sie suchen.\e
+MGJ0030012,"\h(«Vyse»)Danke, Gilder.
+Wir werden mal nachsehen.\e"
+MGJ0030013,"\h(«Gilder»)Ihr braucht mir nicht zu danken!
+Viel Glück, Vyse!\e"
+MSJ0030000,"\h(«Gilder»)¡Oye, Vyse!
+¡Gracias por la comida de ayer!
+¡Estaba riquísima!\e"
+MSJ0030001,"\h(«Vyse»)Oh, Gilder……
+¿Ya te vas?\e"
+MSJ0030002,"\h(«Gilder»)Sí, tengo que irme…… Pero antes voy a darte una
+noticia…… tengo cierta información sobre los
+últimos planes de la Armada……\e"
+MSJ0030003,"\h(«Gilder»)Me enteré de esto el otro día……
+Parece ser que Valua ya ha empezado a avanzar
+hacia las latitudes inferiores……\e"
+MSJ0030004,"\h(«Gilder»)He oído que al norte de la Isla del Pirata……
+en algún sitio bajo las nubes, están
+construyendo una base, en la Isla Dangral.\e"
+MSJ0030005,"\h(«Gilder»)Son sólo rumores, pero he oído que están
+construyendo un navío capaz de navegar por el
+Cielo Profundo……\e"
+MSJ0030006,\h(«Vyse»)¿El Cielo Profundo?\e
+MSJ0030007,"\h(«Gilder»)Sí…… bajo una gruesa capa de nubes……
+inmerso en una oscuridad total……
+está el “fondo” del mundo.\e"
+MSJ0030008,"\h(«Gilder»)Nadie sabe lo que hay bajo las nubes……
+Hay quienes dicen que no hay absolutamente
+nada……\e"
+MSJ0030009,\h(«Vyse»)¿Qué estarán buscando allí abajo?\e
+MSJ0030010,"\h(«Gilder»)No lo sé.
+Pero la nave de Fina se hundió debajo de las
+nubes, ¿verdad?\e"
+MSJ0030011,"\h(«Vyse»)Mmm…… tienes razón. Eso debe ser lo que andan
+buscando.\e"
+MSJ0030012,"\h(«Vyse»)Gracias, Gilder.
+Iremos a inspeccionarlo.\e"
+MSJ0030013,"\h(«Gilder»)¡No tienes que darme las gracias!
+¡Buena suerte, Vyse!\e"
+MJ0100000,"\h(«Brabham»)Oh, Captain Vyse!
+We've finished modifying the Delphinus, right
+on time!\e"
+MJ0100001,\h(«Brabham»)Lower the pressure shutters!\e
+MJ0100002,\h(«Brabham»)Start the submergence engine!\e
+MJ0100003,"\h(«Brabham»)Well? What do you think?
+We have successfully converted the Delphinus
+into a cloud-delving machine!\e"
+MJ0100004,"\h(«Aika»)Good job, Brabham!
+Now we'll be able to enter Deep Sky!
+You really are the best!!!\e"
+MJ0100005,"\h(«Brabham»)Why thank you lil' lady… Before you go… 
+I heard there's some sort of vortex 
+near Shrine Island.\e"
+MJ0100006,\h(«Brabham»)You might be able to submerge through there.\e
+MJ0100007,"\h(«Vyse»)The vortex near Shrine Island? Got it.
+Alright, everyone… let's get going!\e"
+MJ0100008,"\h(«Enrique»)Vyse…
+Wait a second.\e"
+MJ0100009,"\h(«Enrique»)Actually…
+There's something important that I wanted to
+talk to you about.\e"
+MJ0100010,"\h(«Enrique»)I… I must return to Valua. I cannot travel with
+you any longer. This will be my last voyage 
+with you aboard the Delphinus.\e"
+MJ0100011,\h(«Vyse»)What?!\e
+MJ0100012,"\h(«Enrique»)Galcian and the Armada have freed themselves 
+from the control of the Valuan Empire and 
+are acting on their own free will.\e"
+MJ0100013,"\h(«Enrique»)Galcian probably has some sort of terrible
+scheme planned.\e"
+MJ0100014,"\h(«Enrique»)I must return to Valua and report this news to
+my mother. He must be stopped.\e"
+MJ0100015,"\h(«Aika»)You… you can't! It's too dangerous, Enrique!\e"
+MJ0100016,"\h(«Enrique»)…I know the dangers that I face.
+And I'm sure that my mother won't readily
+listen to anything I have to say.\e"
+MJ0100017,"\h(«Enrique»)But, I am still the Prince of Valua.
+It is my duty to go.\e"
+MJ0100018,\h(«Moegi»)But… Enrique…\e
+MJ0100019,"\h(«Enrique»)Princess… do not worry about me.
+I don't plan on dying just yet.\e"
+MJ0100020,"\h(«Enrique»)I will…
+I will return. This, I swear.\e"
+MJ0100021,\h(«Moegi»)No………\e
+MJ0100022,"\h(«Enrique»)Vyse, after we get Fina's ship, could you bring 
+me to Sailors' Island?\e"
+MJ0100024,\h(«Enrique»)I'll be able to borrow a ship there… \e
+MJ0100023,\h(«Vyse»)I hope you know what you're doing…\e
+MFJ0100000,"\h(«Brabham»)Oh, Capitaine Vyse !
+Nous avons terminé de modifier le Delphinus, à
+la date prévue !\e"
+MFJ0100001,\h(«Brabham»)Baissez les obturateurs de pression !\e
+MFJ0100002,\h(«Brabham»)Démarrez le moteur de submersion !\e
+MFJ0100003,"\h(«Brabham»)Bon ? Qu'en pensez-vous ?
+Nous avons réussi à convertir le Delphinus
+en machine perceuse de nuages !\e"
+MFJ0100004,"\h(«Aika»)Bon travail, Brabham !
+À présent, nous pourrons pénétrer les
+Profondeurs !
+Vous êtes vraiment le meilleur !!!\e"
+MFJ0100005,"\h(«Brabham»)Merci ma p'tite dame…… Avant que vous partiez……
+J'ai entendu dire qu'il y a une sorte de vortex
+près de l'Île au Temple.\e"
+MFJ0100006,"\h(«Brabham»)Vous pourrez peut-être vous submerger en passant
+par là-bas.\e"
+MFJ0100007,"\h(«Vyse»)Le vortex près de l'Île au Temple ? Compris.
+Allez tout le monde…… c'est parti !\e"
+MFJ0100008,"\h(«Enrique»)Vyse……
+Attendez une seconde.\e"
+MFJ0100009,"\h(«Enrique»)En fait……
+Je voulais vous dire quelque chose d'important.\e"
+MFJ0100010,"\h(«Enrique»)Je…… je dois retourner à Valua. Je ne peux plus
+voyager avec vous. Ce sera mon dernier voyage à
+bord du Delphinus.\e"
+MFJ0100011,\h(«Vyse»)Comment ?!\e
+MFJ0100012,"\h(«Enrique»)Galcian et l'Armada se sont libérés du contrôle
+de l'Empire Valuan et sont libres de leurs
+actes.\e"
+MFJ0100013,"\h(«Enrique»)Je suis certain que Galcian a de terribles
+projets en tête.\e"
+MFJ0100014,"\h(«Enrique»)Je dois retourner à Valua pour en informer ma
+mère. Il faut l'arrêter.\e"
+MFJ0100015,"\h(«Aika»)Vous…… vous ne pouvez pas !
+C'est trop dangereux, Enrique !\e"
+MFJ0100016,"\h(«Enrique»)……Je sais que je prends des risques.
+Et je sais que ma mère n'est pas disposée à
+m'écouter.\e"
+MFJ0100017,"\h(«Enrique»)Mais, je suis encore le Prince de Valua.
+C'est mon devoir d'y aller.\e"
+MFJ0100018,\h(«Moegi»)Mais…… Enrique……\e
+MFJ0100019,"\h(«Enrique»)Princesse…… ne vous inquiétez pas pour moi.
+Je n'ai pas l'intention de mourir.\e"
+MFJ0100020,"\h(«Enrique»)Je……
+Je reviendrai. Je le jure.\e"
+MFJ0100021,\h(«Moegi»)Non………\e
+MFJ0100022,"\h(«Enrique»)Vyse, quand nous aurons récupéré le navire de
+Fina, pourrez-vous me ramener sur l'Île des
+Marins ?\e"
+MFJ0100024,"\h(«Enrique»)Là-bas j'aurai la possibilité d'emprunter un
+navire……\e"
+MFJ0100023,\h(«Vyse»)J'espère que vous savez ce que vous faites……\e
+MGJ0100000,"\h(«Brabham»)Oh, Captain Vyse!
+Wir sind mit der Delphinus fertig, genau nach
+Plan!\e"
+MGJ0100001,\h(«Brabham»)Schließt die Drucktüren!\e
+MGJ0100002,\h(«Brabham»)Startet den Tauchmotor!\e
+MGJ0100003,"\h(«Brabham»)Nun? Was meinst du?
+Wir haben die Delphinus erfolgreich in eine
+wolkentüchtige Maschine verwandelt!\e"
+MGJ0100004,"\h(«Aika»)Gut gemacht, Brabham!
+Jetzt können wir in den Deep Sky eintauchen!
+Du bist wirklich der Beste von allen!!!\e"
+MGJ0100005,"\h(«Brabham»)Vielen Dank auch, junge Frau…… Bevor ihr
+aufbrecht…… ich habe gehört, dass es in der
+Nähe von Shrine Island so eine Art Wirbel gibt.\e"
+MGJ0100006,"\h(«Brabham»)Es wird euch jetzt vielleicht gelingen,
+dort hindurchzutauchen.\e"
+MGJ0100007,"\h(«Vyse»)Ein Wirbel nahe Shrine Island? Verstehe.
+Alles herhören…… lasst uns aufbrechen!\e"
+MGJ0100008,"\h(«Enrique»)Vyse……
+Einen Moment.\e"
+MGJ0100009,"\h(«Enrique»)Übrigens……
+Da ist etwas Wichtiges, worüber ich mit dir
+sprechen wollte.\e"
+MGJ0100010,"\h(«Enrique»)Ich…… ich muss nach Valua zurückkehren. Ich
+kann nicht länger mit euch reisen. Das wird
+meine letzte Reise mit euch an Bord der
+Delphinus.\e"
+MGJ0100011,\h(«Vyse»)Was?!\e
+MGJ0100012,"\h(«Enrique»)Galcian und die Armada haben sich von der
+Herrschaft des Valuan Empire losgesagt und
+handeln auf eigene Faust.\e"
+MGJ0100013,"\h(«Enrique»)Galcian hat wahrscheinlich einen ganz
+furchtbaren Plan ausgeheckt.\e"
+MGJ0100014,"\h(«Enrique»)Ich muss nach Valua zurückkehren und meiner
+Mutter Bericht erstatten. Man muss ihn
+aufhalten.\e"
+MGJ0100015,"\h(«Aika»)Du…… das kannst du nicht tun! Es ist zu
+gefährlich, Enrique!\e"
+MGJ0100016,"\h(«Enrique»)……Ich weiß, wie gefährlich das ist.
+Und ich bin sicher, meine Mutter wird sich
+nicht einfach anhören, was ich zu sagen habe.\e"
+MGJ0100017,"\h(«Enrique»)Aber ich bin immer noch der Prinz von Valua.
+Es ist meine Pflicht, zu gehen.\e"
+MGJ0100018,\h(«Moegi»)Aber…… Enrique……\e
+MGJ0100019,"\h(«Enrique»)Prinzessin…… mach dir um mich keine
+Sorgen. Ich habe nicht vor, so bald zu sterben.\e"
+MGJ0100020,"\h(«Enrique»)Ich werde……
+Ich werde zurückkommen. Das schwöre ich.\e"
+MGJ0100021,\h(«Moegi»)Nein……\e
+MGJ0100022,"\h(«Enrique»)Vyse, wenn wir Finas Schiff geholt haben,
+könntest du mich nach Sailors Island
+mitnehmen?\e"
+MGJ0100024,\h(«Enrique»)Dort kann ich mir ein Schiff ausleihen……\e
+MGJ0100023,"\h(«Vyse»)Ich hoffe, du weißt, was du tust……\e"
+MSJ0100000,"\h(«Brabham»)¡Oh, Capitán Vyse!
+¡Hemos terminado las modificaciones del
+Delphinus, cumpliendo todos los plazos!\e"
+MSJ0100001,\h(«Brabham»)¡Bajad las válvulas de presión!\e
+MSJ0100002,\h(«Brabham»)¡Poner en marcha el motor de inmersión!\e
+MSJ0100003,"\h(«Brabham»)Bueno, ¿qué te parece?
+¡Hemos convertido al Delphinus en una máquina
+que se adentrará bajo las nubes!\e"
+MSJ0100004,"\h(«Aika»)¡Has hecho un gran trabajo, Brabham!
+¡Al fin podremos entrar en el Cielo Profundo!
+¡¡¡Sin duda, eres el mejor!!!\e"
+MSJ0100005,"\h(«Brabham»)No tienes que agradecerme nada, jovencita……
+Antes de que os vayáis…… He oído que hay un
+remolino junto a la Isla del Templo.\e"
+MSJ0100006,\h(«Brabham»)Podríais sumergiros a través de ese remolino.\e
+MSJ0100007,"\h(«Vyse»)¿El remolino que hay junto a la Isla del Templo?
+Vale.
+Atención todo el mundo…… ¡es hora de irnos!\e"
+MSJ0100008,"\h(«Enrique»)Vyse……
+Espera un segundo.\e"
+MSJ0100009,"\h(«Enrique»)La verdad es que……
+Quería discutir contigo algo muy importante.\e"
+MSJ0100010,"\h(«Enrique»)Tengo que…… volver a Valua. Ya no puedo viajar
+más con vosotros. Éste será mi último viaje
+abordo del Delphinus.\e"
+MSJ0100011,\h(«Vyse»)¡¿Cómo?!\e
+MSJ0100012,"\h(«Enrique»)Galcian y la Armada se han liberado del control
+del Imperio Valuan y están actuando por su
+cuenta.\e"
+MSJ0100013,"\h(«Enrique»)Creo que Galcian tiene unos horribles planes en
+mente.\e"
+MSJ0100014,"\h(«Enrique»)Tengo que volver a Valua y contarle todo esto a
+mi madre. Alguien tiene que detenerle.\e"
+MSJ0100015,"\h(«Aika»)¡Pero no puedes…… no puedes hacerlo!
+¡Es demasiado peligroso, Enrique!\e"
+MSJ0100016,"\h(«Enrique»)…… Conozco los peligros a los que me enfrento.
+Y sé que mi madre no va a estar dispuesta a
+escuchar lo que tengo que contarle.\e"
+MSJ0100017,"\h(«Enrique»)Pero todavía soy el Príncipe de Valua.
+Y mi deber es irme.\e"
+MSJ0100018,\h(«Moegi»)Pero…… Enrique……\e
+MSJ0100019,"\h(«Enrique»)Princesa…… no te preocupes por mí.
+No tengo intención de morir todavía.\e"
+MSJ0100020,"\h(«Enrique»)Volveré……
+Volveré. Lo juro.\e"
+MSJ0100021,\h(«Moegi»)No……\e
+MSJ0100022,"\h(«Enrique»)Vyse, cuando encontremos el navío de Fina, ¿me
+podrías llevar a la Isla Los Marinos?\e"
+MSJ0100024,\h(«Enrique»)Una vez allí podré tomar un barco prestado……\e
+MSJ0100023,\h(«Vyse»)Espero que sepas lo que estás haciendo……\e
+MK0010000,"\h(«Vyse»)Home, sweet home.\e"
+MK0010001,"\h(«Gilder»)Hey!
+Looks like they made it back alive after all!\e"
+MK0010002,"\h(«Clara»)Aika! Fina! Long time no see!
+Hi, Vyse! You all look well.\e"
+MK0010003,"\h(«Vyse»)Gilder…! And Clara?
+It's great to see you two. What's in the basket?\e"
+MK0010004,"\h(«Clara»)I just baked a bunch of pies! 
+Come on! Let's eat while they're still warm!\e"
+MK0010005,"\h(«Aika»)Wow! Really?!
+Home-made pies? Clara, you're the best!\e"
+MK0010006,\h(«Gilder»)I'm glad you all made it back safely.\e
+MK0010007,"\h(«Gilder»)And it looks like you got Fina's ship back.
+Does that mean you'll be returning to the Great
+Silver Shrine soon?\e"
+MK0010008,"\h(«Fina»)…Yes.
+Thank you, Gilder, for all that you've done for
+me.\e"
+MK0010009,"\h(«Gilder»)Hahaha…
+You don't have to thank me,
+you guys did all the hard stuff.\e"
+MK0010010,"\h(«Gilder»)Well, Fina, it looks like you've completed your
+mission. You're going home a hero. 
+Congratulations.\e"
+MK0010011,\h(«Fina»)Thank you!\e
+MK0010012,"\h(«Gilder»)Well, since you're leaving us, we should throw 
+you a going away party! Let's hear it for Fina!\e"
+MK0010013,\h(«Everyone»)Yeah!\e
+MFK0010000,\h(«Vyse»)Ah que c'est bon d'être de retour.\e
+MFK0010001,"\h(«Gilder»)Hé !
+Ils sont revenus vivants !\e"
+MFK0010002,"\h(«Clara»)Aika ! Fina ! Cela fait si longtemps !
+Salut, Vyse ! Vous avez tous bonne mine.\e"
+MFK0010003,"\h(«Vyse»)Gilder……! Et Clara ?
+C'est bon de vous revoir. Qu'est-ce qu'il y a
+dans le panier ?\e"
+MFK0010004,"\h(«Clara»)J'ai cuisiné quelques tartes !
+Allez ! Mangeons tant que c'est chaud !\e"
+MFK0010005,"\h(«Aika»)Oaouh ! Vraiment ?! Des tartes faites-maison ?
+Clara, vous êtes la meilleure !\e"
+MFK0010006,"\h(«Gilder»)Je suis content que vous soyez tous rentrés
+sains et saufs.\e"
+MFK0010007,"\h(«Gilder»)Et en plus vous avez récupéré le navire de Fina.
+Cela veut dire que vous allez retourner au Grand
+Temple d'Argent ?\e"
+MFK0010008,"\h(«Fina»)……Oui.
+Merci, Gilder, pour tout ce que vous avez fait
+pour moi.\e"
+MFK0010009,"\h(«Gilder»)Hahaha……
+Inutile de me remercier,
+vous avez fait le plus dur.\e"
+MFK0010010,"\h(«Gilder»)Eh bien, Fina, apparemment vous avez terminé
+votre mission. Vous allez rentrer chez vous en
+héroine. Félicitations.\e"
+MFK0010011,\h(«Fina»)Merci !\e
+MFK0010012,"\h(«Gilder»)Bon, puisque vous nous quittez, nous devrions
+organiser une fête pour votre départ !\e"
+MFK0010013,\h(«Tous»)Super !\e
+MGK0010000,\h(«Vyse»)Endlich zu Haus.\e
+MGK0010001,"\h(«Gilder»)He!
+Sie sind doch noch heil nach Hause
+gekommen!\e"
+MGK0010002,"\h(«Clara»)Aika! Fina! Lange nicht gesehen!
+Hallo, Vyse! Gut sehr ihr aus.\e"
+MGK0010003,"\h(«Vyse»)Gilder……! Und Clara?
+Nett, euch beide zu sehen. Was ist denn da
+in dem Korb?\e"
+MGK0010004,"\h(«Clara»)Ich habe gerade Kuchen gebacken!
+Los! Essen wir ihn, solange er noch warm ist!\e"
+MGK0010005,"\h(«Aika»)Was! Wirklich?!
+Hausgemachter Kuchen? Clara, du bist die Beste!\e"
+MGK0010006,"\h(«Gilder»)Ich bin froh, dass ihr es alle heil zurück
+geschafft habt.\e"
+MGK0010007,"\h(«Gilder»)Und es sieht so aus, als hättet ihr auch Finas
+Schiff wieder. Heißt das, dass du bald zum Great
+Silver Shrine zurückkehren wirst?\e"
+MGK0010008,"\h(«Fina»)……Ja.
+Danke, Gilder, für alles, was du für mich
+getan hast.\e"
+MGK0010009,"\h(«Gilder»)Hahaha……
+Du brauchst mir nicht zu danken -- ihr wart
+das, die die ganze harte Arbeit geleistet haben.\e"
+MGK0010010,"\h(«Gilder»)Tja, Fina, sieht so aus, als hättest du deine
+Mission erfüllt. Du kehrst als Heldin nach
+Hause zurück. Glückwunsch.\e"
+MGK0010011,\h(«Fina»)Danke!\e
+MGK0010012,"\h(«Gilder»)Und jetzt, wo du uns verlässt, sollten wir dir
+eine Abschiedsparty geben! Fina lebe hoch!\e"
+MGK0010013,\h(«Everyone»)Jaaa!\e
+MSK0010000,"\h(«Vyse»)Hogar, dulce hogar.\e"
+MSK0010001,"\h(«Gilder»)¡Oye!
+¡Al final habéis conseguido volver con vida!\e"
+MSK0010002,"\h(«Clara»)¡Aika! ¡Fina! ¡Cuánto tiempo!
+¡Hola, Vyse! Tenéis todos muy buena pinta.\e"
+MSK0010003,"\h(«Vyse»)¡Gilder……! ¿Y Clara?
+Me alegro tanto de veros. ¿Qué hay en la cesta?\e"
+MSK0010004,"\h(«Clara»)¡Acabo de hacer unos pasteles!
+¡Vamos! ¡Es mejor comerlos mientras están
+calientes!\e"
+MSK0010005,"\h(«Aika»)¡Oh! ¡¿De verdad?!
+¿Pasteles caseros? ¡Eres la mejor, Clara!\e"
+MSK0010006,"\h(«Gilder»)Me alegro de que todos hayáis vuelto sanos y
+salvos.\e"
+MSK0010007,"\h(«Gilder»)Además habéis recuperado el navío de Fina.
+¿Quiere eso decir que vas a volver al Gran
+Relicario de Plata dentro de poco?\e"
+MSK0010008,"\h(«Fina»)…… Sí.
+Gracias por todo lo que has hecho por mí,
+Gilder.\e"
+MSK0010009,"\h(«Gilder»)Ja, ja, ja……
+No tienes que agradecerme nada,
+vosotros habéis hecho la parte difícil.\e"
+MSK0010010,"\h(«Gilder»)Fina, parece que has cumplido con tu misión.
+Vuelves a casa convertida en una heroína.
+Felicidades.\e"
+MSK0010011,\h(«Fina»)¡Gracias!\e
+MSK0010012,"\h(«Gilder»)Bueno, ya que te marchas y nos dejas, ¡al menos
+tendremos que dar una fiesta! ¡La fiesta de
+Fina!\e"
+MSK0010013,\h(«Todos»)¡Sí!\e
+M00040000,\h(«Pow»)Pow pow!\e
+M01110000,"\h(«Lawrence»)You hired me to do a job. I'm doing the job. 
+I'm not obligated to talk to you when 
+I'm off of your ship.\c"
+M01110001,"\h(«Lawrence»)I've gone against Valua in the past, 
+but never to this degree.\e"
+M01110002,"\h(«Lawrence»)I never question my employer's motives. 
+But don't worry, if I think you're making 
+a mistake, I'll let you know.\c"
+M01110003,\h(«Lawrence»)My contract is just about up.\e
+M01110004,"\h(«Lawrence»)I'm a professional. 
+I do what I have to do.\c"
+M06330000,"\h(«Khazim's Gunner»)Hey, there!\e"
+M06330001,"\h(«Khazim»)Hey, Captain Vyse! 
+Do you want to buy some cannons?\e"
+M06330002,"\h(«What do you want to do?»)“Buy or sell ship equipment.”
+“Talk to Khazim.”
+“Leave.”\e"
+M06330003,"\h(«Khazim»)Two little girls just came in here, 
+and offered to help us.\e"
+M06330004,"\h(«Khazim»)Their leader said that she went to 
+greet the captain, did you see them?\e"
+M06330005,\h(«Khazim»)Come back again!\e
+M06330006,\h(«Khazim's Gunner»)Thank you very much!\e
+M06330007,"\h(«Khazim»)Hey! Make sure you shine those cannons good!
+Those cannons are the heart and soul of the
+Delphinus!\e"
+M06330008,"\h(«Khazim»)My cannons are always ready to go! 
+You never know when you're going 
+to have to blow something up!\c"
+M06330009,"\h(«Khazim»)If I lose a battle, it's not going 
+to be because of a misfire!\c"
+M06330010,"\h(«Khazim»)Hey Vyse, I heard that our next 
+target is Valua!\e"
+M06330011,"\h(«Khazim»)Why don't you stop all this sneaking around 
+stuff? \e"
+M06330012,"\h(«Khazim»)Just blast your way through the bottom 
+of Valua and watch them all fall 
+into Deep Sky… Heh heh.\c"
+M06330013,"\h(«Khazim»)Hey! Make sure you shine those cannons good!
+Those cannons are the heart and soul of the
+Delphinus!\e"
+M06330014,"\h(«Khazim»)Everyone says I shout too much, but I'm much 
+easier to work with than Brabham!\e"
+M06330015,"\h(«Khazim»)You weren't here when we were modifying 
+the Delphinus' engines… Hearing him yell, 
+“Ya got no skills, Sonny!” all day long…\e"
+M06330016,"\h(«Khazim»)Hey! Nobody wins battles with Defense! 
+These cannons need to be ready to go!\e"
+M06330017,"\h(«Khazim»)That Ramirez guy, he destroyed my hometown twice
+already!\e"
+M06330018,\h(«Khazim»)He's gonna pay!!\e
+M06330019,"\h(«Khazim»)We need these cannons ready to go! 
+We've got a war to win!\e"
+M06330020,"\h(«Khazim»)Vyse, I've got a personal score to settle with
+Ramirez. I can't wait until we fight him!\e"
+M06330021,"\h(«Khazim»)The cannons are ready, and so am I!\c"
+M06340000,"\h(«Khazim's Gunner»)If you need something, just ask Khazim!\c"
+M06340001,"\h(«Khazim's Gunner»)Look at this shine! We're gonna blow holes 
+in the Valuan fleet and look good doing it!\e"
+M06340002,"\h(«Khazim's Gunner»)I can't wait to start firing on 
+Valuan ships!\c"
+M06340003,"\h(«Khazim's Gunner»)So we're going to try to sneak into 
+Valua by going underneath it. 
+That's a pretty good idea!\e"
+M06340004,"\h(«Khazim's Gunner»)I hope we have a clean shot at some 
+of their ships while we're there.\c"
+M06340005,"\h(«Khazim's Gunner»)I know we're heading into Deep Sky. 
+There's more air pressure down there. 
+I'll make a few adjustments to the cannons!\c"
+M06340006,"\h(«Khazim's Gunner»)We're sorry, Captain.\e"
+M06340007,"\h(«Khazim's Gunner»)The Armada took us completely by surprise.
+That won't happen again!\c"
+M06340008,"\h(«Khazim's Gunner»)I love the smell of a well-oiled cannon! 
+You'll be able to fire these babies 
+all you want!\c"
+M06350000,"\h(«Khazim's Gunner»)A pretty girl was here just a minute ago. 
+Didn't you see her?\c"
+M06350001,"\h(«Khazim's Gunner»)Vyse, which girl on Clara's ship 
+do you like the best?\e"
+M06350002,"\h(«Khazim's Gunner»)I have a thing for girls who wear glasses… Heh.
+\c"
+M06350003,"\h(«Khazim's Gunner»)We're going to dive under Valua, huh?\e"
+M06350004,"\h(«Khazim's Gunner»)I'm game, as long as I get to shoot at stuff.\c"
+M06350005,"\h(«Khazim's Gunner»)Hey, umm… Vyse, at our last crew meeting, 
+the girl with the glasses made lunch for 
+everyone. That was really nice of her.\e"
+M06350006,"\h(«Khazim's Gunner»)I was just wondering if we could have 
+another meeting.\e"
+M06350007,"\h(«Khazim's Gunner»)So, Ramirez was the one who led the 
+attack on Nasrad…\e"
+M06350008,"\h(«Khazim's Gunner»)I can't wait till we fight him again! 
+I'm gonna shoot him full of holes!\c"
+M06350009,"\h(«Khazim's Gunner»)Vyse, when you go up against Ramirez again, 
+let us know. It's personal!\c"
+M14000000,"\h(«Brabham»)That “Book of Ship Polarity” is amazin'! 
+I'm learnin' so much!\e"
+M14000001,"\h(«Brabham»)I want to go with you on the Delphinus.
+That way, I can take better care of her on
+a regular basis.\e"
+M14000002,"\h(«Vyse»)So you'll be our onboard engineer? That's great!
+Thanks, Brabham!\e"
+M14000003,"\h(«Brabham»)Well, I'm just happy to be working on such 
+a fine ship! It's great and it's gettin' 
+better every day!\e"
+M14000004,"\h(«Brabham»)I'll have the Delphinus running 
+smoother than ever!\e"
+M14000005,"\h( )Brabham has joined your crew as an “Engineer.”
+And he's mighty good at what he does!\c"
+M14000006,"\h(«Brabham»)If I can successfully build a new engine with
+the book you brought back from Yafutoma, the
+Delphinus will be able to fly to new heights!\e"
+M14000007,"\h(«Brabham»)While you're out on your next voyage, 
+I'll be studyin' and buildin', yes sirree!\c"
+M14000008,"\h(«Brabham»)I've reinforced the armor on the bow of the 
+ship! You'll be able to fly through glaciers 
+like they're nothin'! \e"
+M14000009,"\h(«Brabham»)You'll be able to fly through the 
+stone reefs in Ixa'taka, too! 
+Damn, I'm good!\c"
+M14000010,"\h(«Brabham»)With that new engine we built using
+the “Book on Ship Polarity,” you can fly the 
+Delphinus above and below the clouds!\e"
+M14000011,"\h(«Brabham»)We can fly all over the damn place! 
+I can't wait!\c"
+M14000012,"\h(«Brabham»)Captain, there were some youngin's 
+looking for you in your meeting room. 
+Did you see them?\c"
+M14000013,"\h(«Brabham»)Oh, Captain Vyse!
+We've finished modifying the Delphinus, right
+on time!\e"
+M14000014,"\h(«Brabham»)Now that the Delphinus can submerge, 
+it is the greatest ship in the sky!\c"
+M14000015,"\h(«Brabham»)It looks like the port and the Delphinus weren't
+damaged in the attack. Once I perform a checkup
+on the ship, she should be ready to go!\e"
+M14000016,"\h(«Brabham»)The maintenance of the little girl's ship is
+already done but…will everything be okay?\e"
+M14000017,"\h(«Brabham»)Fina's ship is rearin' to go! 
+It's at the cape! \c"
+M14000018,"\h(«Brabham»)Welcome back, Captain!
+The Delphinus and your base 
+are lookin' good!\c"
+M14000019,"\h(«Brahbam»)Some crusty old island just rose out 
+of Deep Sky! What's going on?!\c"
+M14000020,"\h(«Brabham»)The Delphinus is ready when you are!
+You can take her out any time you want!\c"
+M14010000,"\h(«Izmael»)Hi there, Captain!
+I've been busy working on your base! 
+I hope you like it!\e"
+M14010001,"\h(«Vyse»)Thanks, Izmael!
+It looks great! I appreciate 
+all the hard work!\e"
+M14010002,"\h(«Izmael»)I'm glad you know quality when you see it!
+Now that most of the work on the island is
+done…\e"
+M14010003,\h(«Izmael»)I want to sail with you on your ship!\e
+M14010004,"\h(«Vyse»)We'd love to have you! 
+You're an inspiration to us all!\e"
+M14010005,"\h(«Izmael»)Captain Vyse, it's an honor to sail with me!\e"
+M14010006,\h( )Izmael has joined your crew as a “Builder.”\e
+M14010007,"\h(«Izmael»)Make sure you use the meeting room that I built
+for you! There isn't a finer meeting room under 
+the Six Moons!\c"
+M14020000,"\h(«Energetic girl»)Nice to meet you!
+You're Captain Vyse, right?\e"
+M14020001,"\h(«Energetic girl»)Captain Clara has ordered me to come aboard
+the Delphinus and train with your crew so I can
+be a better gunner!\e"
+M14020002,"\h(«Energetic girl»)Oh, and my friends Lilly and Nara are 
+coming with me. I hope you don't mind!\e"
+M14020003,"\h(«Energetic girl»)We're a team! We'll take care of your cannons!
+We're gonna knock those Valuans out 
+of the sky!\e"
+M14020004,"\h(«Vyse»)Sure…
+And your name is…?\e"
+M14020005,"\h(«Energetic girl»)Oh, I'm sorry! I forgot! I mean I didn't forget
+my name! I just forgot to tell you! I wouldn't 
+forget my name! That would be silly!\e"
+M14020006,"\h(«Energetic girl»)I'm Belle.
+I don't have much experience with cannons, 
+but I'll try my best!\e"
+M14020007,"\h(«Vyse»)Well, you seem enthusiastic enough.
+I'll give you a chance, and we'll 
+see how you do.\e"
+M14020008,"\h(«Belle»)Yes, sir!
+I will do my best, sir!\e"
+M14020009,\h( )Belle has joined your crew as a “Gunner.”\e
+M14020051,"\h(«Belle»)I'll run a store here on Crescent Isle! 
+If you need anything for your ship, 
+just let me know!\c"
+M14020033,"\h(«Belle»)I'm so sorry! I can't believe the Armada found 
+us. I feel responsible, since I'm a gunner 
+and all… \e"
+M14020034,"\h(«What will you say to Belle?»)“Don't worry about it!”
+“You should have been paying more attention.”\e"
+M14020035,"\h(«Vyse»)Don't worry about it, Belle!
+They caught all of us by surprise. 
+There was nothing you could have done.\e"
+M14020036,"\h(«Vyse»)You shouldn't be too hard on yourself. 
+The important thing is that everyone 
+is okay.\e"
+M14020037,"\h(«Belle»)Yeah, I guess you're right. Well, I should 
+start helping everyone with the base! 
+We'll build it better than before!\e"
+M14020038,"\h(«Vyse»)If you were paying more attention, you might 
+have seen them coming. As your punishment, 
+you have to start cleaning up the debris.\e"
+M14020039,"\h(«Vyse»)I should have been paying more attention too.
+I'll be picking up debris right there with you.
+Sound fair?\e"
+M14020040,"\h(«Belle»)Yes, yes sir!
+I'll do my best!\c"
+M14020041,\h(«Belle»)I'm going to work really hard!\c
+M14020010,"\h(«Belle»)Welcome, Captain!\e"
+M14020011,"\h(«What do you want to do?»)“Buy or sell ship equipment.”
+“Gossip.”
+“Leave.”\e"
+M14020012,"\h(«Belle»)Ohhh! I'm such an airhead.
+I gave Brabham the wrong part earlier!
+I hope he realizes it before it's too late…\e"
+M14020013,"\h(«Belle»)I'm not used to running a shop, so I keep making
+all sorts of mistakes. Well… I always make
+mistakes, anyway… but not the shop kind.\e"
+M14020014,"\h(«Belle»)But it's my goal to be able to do something
+without messing it up! That's what I'm here for!
+I'm bound to get something right!\c"
+M14020015,"\h(«Belle»)I'm going to do my best! I want to be an Air 
+Pirate like Captain Clara someday!\c"
+M14020016,"\h(«Belle»)When we go to Valua, I'll shoot down their 
+entire fleet! Bring 'em on! I hope I don't miss 
+too much!\e"
+M14020017,"\h(«Vyse»)Well, actually, we're going to sneak into 
+Valuan airspace by flying under the islands.\e"
+M14020018,"\h(«Belle»)Oh, hehe… Well, I guess that makes more sense 
+than attacking the entire Valuan Armada 
+head on! Good idea, Captain!\e"
+M14020019,"\h(«Belle»)I thought we were going to attack them, 
+so I loaded more than enough cannonballs!
+I even threw in some extra in case I miss.\c"
+M14020020,"\h(«Belle»)Well since we already have enough ammo, maybe we
+should attack them head on! It would be a shame
+just to let all of the cannonballs sit there.\c"
+M14020044,"\h(«Belle»)We're going to Valua, right? Great! I'll get
+my cannons ready and I'll blast those Valuans
+out of…\e"
+M14020045,"\h(«Vyse»)Wait a second… we're not going to launch
+an attack on Valua just yet. We're just trying
+to make our way inland.\e"
+M14020046,"\h(«Belle»)Huh? Oh, my! I'm sorry! I thought… that we… oh
+no… I can't believe how clueless I am.\e"
+M14020047,"\h(«Belle»)And I polished all of the cannonballs nicely,
+too. I was so looking forward to showing
+everyone that I could do a good job. Oh, well…\c"
+M14020048,"\h(«Belle»)Well, although I may have messed up, at
+least we have a bunch of polished cannonballs!
+Please, feel free to use them!\c"
+M14020049,"\h(«Belle»)Really? Using those plans that you found, you
+can make an engine that can take us underneath
+the Great Cloud Sea?!\e"
+M14020050,"\h(«Belle»)That's amazing!
+I may be a little clumsy, but I'll do my best
+to help build the engine, okay?\c"
+M14020021,"\h(«Belle»)We're finally going under the Great Cloud Sea!
+I've been practicing holding my breath! 
+Wanna see?\e"
+M14020022,"\h(«Vyse»)Practicing holding your breath? No, no, no… 
+As long as we're inside the Delphinus,
+we'll be able to breathe normally.\e"
+M14020023,"\h(«Belle»)Oh, is that true?
+I guess that makes sense.\e"
+M14020024,"\h(«Belle»)I thought that we weren't going to have any air,
+so I've been dunking my head in the pond and 
+practicing. How silly of me.\c"
+M14020025,"\h(«Belle»)That's good that we'll be able to breathe down 
+there, because I was the only one practicing 
+holding my breath!\c"
+M14020042,"\h(«Belle»)You're going to the Great Silver Shrine, right!\e"
+M14020043,"\h(«Belle»)We'll have this place looking as good as new, 
+by the time you get back! \c"
+M14020026,"\h(«Belle»)Well, what do you think of the island? I'm 
+still tired from chasing the chickens all over 
+the place.\e"
+M14020027,"\h(«Belle»)And with all of the extra debris, we had a huge 
+bonfire at the pond. We had the best time!\e"
+M14020028,"\h(«Belle»)Oops! I wasn't supposed to say anything 
+about that… Don't tell anyone I told you, okay?
+\c"
+M14020029,"\h(«Belle»)Hehe, please don't tell anyone that you know 
+about the bonfire… \c"
+M14020052,"\h(«Belle»)I can't believe it's almost time for our battle 
+with Galcian… I'm so nervous…\e"
+M14020053,"\h(«Belle»)But, since Captain Clara and the other Air
+Pirates will be fighting alongside of us,
+I'm confident we will win!!\c"
+M14020030,"\h(«Belle»)So, we're going to fight Ramirez! 
+I'll do my best!\e"
+M14020031,"\h(«Belle»)I know I still have a lot to learn, but
+I'm going to do my best against Ramirez!\c"
+M14020032,"\h(«Belle»)Thank you very much!
+Please come again!\e"
+M14090000,"\h(«Lilly»)I'm going to find true love in the skies, 
+just like Captain Clara!\e"
+M14090001,"\h(«Lilly»)I'm going to sail the world and 
+find the cutest guy!\c"
+M14090002,"\h(«Lilly»)Do you think that there are cute guys 
+at the Great Silver Shrine? If there are, 
+would you tell them about me?\c"
+M14090003,"\h(«Lilly»)You're going into Deep Sky? 
+I've heard lots of bad stories about that place.
+Be careful!\e"
+M14090004,"\h(«Lilly»)If there are any guys down there, they're 
+probably all pasty white and cursed. 
+I don't think I'd want a guy from there.\c"
+M14090011,"\h(«Lilly»)We were sitting there at the port, 
+and then there were some explosions!\e"
+M14090012,"\h(«Lilly»)Rocks and stuff started falling, then we 
+smelled the smoke! Belle was so scared, 
+she started crying!\c"
+M14090013,"\h(«Lilly»)You're going to Fina's homeland? Wow! Have fun…
+Umm… If they have fun there. Fina's pretty
+reserved, you know?\c"
+M14090005,"\h(«Lilly»)Oh, Captain Vyse. I was really scared during 
+the battle the other day!\e"
+M14090006,"\h(«Lilly»)But that Admiral, he was good-looking. 
+I love a man in uniform.\e"
+M14090007,"\h(«Lilly»)But guys that kill people don't really do it
+for me. Oh, no offense… I mean, you're one of
+the good guys. I don't like bad people.\c"
+M14090014,"\h(«Lilly»)I see that even you, Captain Vyse, are a little
+nervous about facing off with Galcian.\e"
+M14090015,"\h(«Lilly»)Well, with three beautiful cannon-goddesses
+onboard your ship, you have nothing to worry
+about!\c"
+M14090008,"\h(«Lilly»)So, you're going to fight that good-looking 
+Admiral for Fina, right?\e"
+M14090009,"\h(«Lilly»)Haha, that was just a joke. I was just kidding.\e"
+M14090010,"\h(«Lilly»)Seriously Vyse, lead us to victory! 
+Then we can all come back here and party!!!\c"
+M14100000,"\h(«Nara»)I heard that when Captain Clara was our age, 
+she met Gilder! She met him at a port in his
+hometown.\e"
+M14100001,"\h(«Nara»)She fell madly in love with him. But as fate 
+would have it, Gilder quickly left the city 
+the next day to become an Air Pirate.\e"
+M14100002,\h(«Nara»)I guess it was just bad timing. \c
+M14100003,"\h(«Nara»)Later on, Captain Clara found Gilder's ship! 
+She was so happy!\e"
+M14100004,"\h(«Nara»)She started firing at his ship to get 
+his attention. Gilder fired back. 
+How romantic.\e"
+M14100005,"\h(«Nara»)I really look up to Captain Clara. 
+She's so passionate.\c"
+M14100006,"\h(«Nara»)Captain Gilder must be playing hard to get, 
+because he's been running away from her ever 
+since.\e"
+M14100007,"\h(«Nara»)He should know that he doesn't have to play 
+hard to get to sweep Clara off of her feet.\e"
+M14100008,"\h(«Nara»)Oh, well… love is blind.\c"
+M14100012,"\h(«Nara»)Belle and Lilly were really scared. I think 
+they're okay now.\c"
+M14100013,"\h(«Nara»)You're going to Fina's homeland? 
+Be careful, Captain!\e"
+M14100009,"\h(«Nara»)Captain Clara is searching the globe, so she 
+can make Gilder the world's greatest pie!\e"
+M14100010,"\h(«Nara»)She once attacked Gordo's ship to steal the 
+ultimate pie crust from him.\e"
+M14100011,"\h(«Nara»)I look up to Captain Clara, she is a 
+perfectionist.\c"
+M14100016,"\h(«Nara»)The time has finally come to battle Galcian,
+huh?\e"
+M14100017,"\h(«Nara»)Fighting the Armada… fighting Galcian… it's
+all so exciting!!!\c"
+M14100014,"\h(«Nara»)After we save the world, do you think that guys 
+will be too intimidated to approach me?\e"
+M14100015,"\h(«Nara»)I hope they won't be. I know that there is 
+someone out there… waiting for me.\c"
+MF00040000,\h(«Pow»)Pow pow !\e
+MF01110000,"\h(«Lawrence»)Vous m'avez engagé pour faire un travail et je
+le fais. Je ne suis pas obligé de vous parler
+quand je ne suis pas à bord du navire.\c"
+MF01110001,"\h(«Lawrence»)Je me suis opposé à Valua par le passé,
+mais jamais à ce point.\e"
+MF01110002,"\h(«Lawrence»)Je n'ai jamais discuté les motifs de mes
+employés. Mais ne vous en faites pas, je vous
+dirais si je pense que vous faites erreur.\c"
+MF01110003,\h(«Lawrence»)Mon contrat vient juste de se terminer.\e
+MF01110004,"\h(«Lawrence»)Je suis un professionnel.
+Je fais ce que j'ai à faire.\c"
+MF06330000,"\h(«Les hommes de Khazim»)Hé, vous là-bas !\e"
+MF06330001,"\h(«Khazim»)Hé, Capitaine Vyse !
+Voulez-vous acheter des canons ?\e"
+MF06330002,"\h(«Que voulez-vous faire ?»)“Acheter ou vendre du matériel naval.”
+“Parler à Khazim.”
+“Partir.”\e"
+MF06330003,"\h(«Khazim»)Deux jeunes filles viennent de passer,
+et nous ont proposé leur aide.\e"
+MF06330004,"\h(«Khazim»)Leur leader a dit qu'elles sont allées saluer le
+capitaine, les avez-vous vues ?\e"
+MF06330005,\h(«Khazim»)Revenez un de ces jours !\e
+MF06330006,\h(«Les hommes de Khazim»)Merci beaucoup !\e
+MF06330008,"\h(«Khazim»)Mes canons sont toujours prêts à l'emploi !
+On ne sait jamais quand il va falloir faire
+exploser quelque chose !\c"
+MF06330009,"\h(«Khazim»)Si je perds une bataille, ce ne sera pas parce
+que je n'étais pas prêt !\c"
+MF06330010,"\h(«Khazim»)Hé Vyse, on raconte que Valua est notre
+prochaine cible !\e"
+MF06330011,\h(«Khazim»)Et si vous arrêtiez de tourner autour du pot ?\e
+MF06330012,"\h(«Khazim»)Pourquoi ne pas faire exploser Valua par-dessous
+et les regarder tous tomber dans les
+Profondeurs…… Hi hi.\c"
+MF06330014,"\h(«Khazim»)Tout le monde dit que je hurle trop, mais c'est
+plus facile de travailler avec moi qu'avec
+Brabham !\e"
+MF06330015,"\h(«Khazim»)Vous n'étiez pas là quand nous avons modifié les
+moteurs du Delphinus…… Toute la journée, on
+l'entendait crier “Tu es bon à rien,
+fiston !”……\e"
+MF06330016,"\h(«Khazim»)Hé ! Personne ne gagne une bataille avec une
+bonne Défense !
+Ces canons doivent être prêts à l'emploi !\e"
+MF06330017,"\h(«Khazim»)Ce Ramirez, il a déjà détruit ma ville natale !\e"
+MF06330018,\h(«Khazim»)Il va me le payer !!\e
+MF06330019,"\h(«Khazim»)Ces canons doivent être prêts à l'emploi !
+Il nous faut gagner la guerre !\e"
+MF06330020,"\h(«Khazim»)Vyse, j'ai des comptes à régler avec Ramirez.
+Il me tarde de l'affronter !\e"
+MF06330021,"\h(«Khazim»)Ces canons sont prêts, et moi aussi !\c"
+MF06340000,"\h(«Les hommes de Khazim»)Allez voir Khazim si vous avez besoin de quelque
+chose !\c"
+MF06340001,"\h(«Les hommes de Khazim»)Regardez comme ils brillent ! Nous allons percer
+la flotte Valuanne de toute part et en toute
+splendeur !\e"
+MF06340002,"\h(«Les hommes de Khazim»)Il me tarde d'ouvrir le feu sur les Navires
+Valuans !\c"
+MF06340003,"\h(«Les hommes de Khazim»)Donc nous allons essayer de rentrer dans Valua
+par-dessous. C'est une bonne idée !\e"
+MF06340004,"\h(«Les hommes de Khazim»)J'espère avoir une chance de tirer sur un de
+leurs navires pendant que nous serons là-bas.\c"
+MF06340005,"\h(«Les hommes de Khazim»)Je sais que nous nous dirigeons vers les
+Profondeurs. La pression de l'air est plus
+élevée là-bas. Je ferai quelques réglages sur
+les canons !\c"
+MF06340006,"\h(«Les hommes de Khazim»)Nous sommes désolés, Capitaine.\e"
+MF06340007,"\h(«Les hommes de Khazim»)L'Armada nous a vraiment pris par surprise.
+Mais c'est la dernière fois !\c"
+MF06340008,"\h(«Les hommes de Khazim»)J'adore l'odeur d'un canon bien graissé !
+Vous pourrez tirer autant de fois que vous
+voulez !\c"
+MF06350000,"\h(«Les hommes de Khazim»)Une jolie fille était là tout à l'heure.
+Vous ne l'avez pas vue ?\c"
+MF06350001,"\h(«Les hommes de Khazim»)Vyse, quelle est votre fille préférée sur le
+navire de Clara ?\e"
+MF06350002,"\h(«Les hommes de Khazim»)J'aime bien les filles qui portent des
+lunettes……\c"
+MF06350003,"\h(«Les hommes de Khazim»)Nous allons plonger sous Valua, hein ?\e"
+MF06350004,"\h(«Les hommes de Khazim»)Je suis courageux, du moment que je peux tirer
+sur quelque chose.\c"
+MF06350005,"\h(«Les hommes de Khazim»)Hé, umm…… Vyse, à notre dernière réunion
+d'équipage, la fille aux lunettes a cuisiné pour
+tout le monde. C'était gentil de sa part.\e"
+MF06350006,"\h(«Les hommes de Khazim»)Je me demandais si nous pouvions avoir une autre
+réunion.\e"
+MF06350007,"\h(«Les hommes de Khazim»)Alors, c'est Ramirez qui a mené l'attaque sur
+Nasrad……\e"
+MF06350008,"\h(«Les hommes de Khazim»)Il me tarde de me battre contre lui !
+Je vais le transpercer de partout !\c"
+MF06350009,"\h(«Les hommes de Khazim»)Vyse, faites-moi signe quand vous confronterez
+de nouveau Ramirez. C'est une affaire
+personnelle !\c"
+MF14000000,"\h(«Brabham»)Ce “Livre des Polarités du Navire” est
+incroyable ! J'apprends tellement de choses !\e"
+MF14000001,"\h(«Brabham»)Je veux vous accompagner sur le Delphinus.
+Cela me permettra de m'en occuper plus
+régulièrement.\e"
+MF14000002,"\h(«Vyse»)Alors vous serez notre ingénieur à bord ?
+Formidable ! Merci, Brabham !\e"
+MF14000003,"\h(«Brabham»)Je suis content de pouvoir travailler à bord de
+cette merveille ! C'est formidable et plus le
+temps passe et mieux c'est !\e"
+MF14000004,\h(«Brabham»)Le Delphinus naviguera mieux que jamais !\e
+MF14000005,"\h( )Brabham l'“Ingénieur” a rejoint votre équipage.
+Et il est vraiment doué !\c"
+MF14000006,"\h(«Brabham»)Si j'arrive à construire un nouvel engin en me
+servant du livre que vous avez rapporté de
+Yafutoma, le Delphinus pourra voler encore plus
+haut !\e"
+MF14000007,"\h(«Brabham»)Pendant votre prochain voyage, j'étudierai et je
+construirai, à vos ordres Capitaine !\c"
+MF14000008,"\h(«Brabham»)J'ai renforcé l'armure de la coque ! Vous
+pourrez traverser des glaciers comme si de rien
+n'était !\e"
+MF14000009,"\h(«Brabham»)Vous pourrez aussi traverser les récifs de
+pierre d'Ixa'taka !
+Bon sang, ce que je suis doué !\c"
+MF14000010,"\h(«Brabham»)Avec ce nouveau moteur que nous avons construit
+d'après le “Livre des Polarités du Navire,” le
+Delphinus peut voler au-dessus et au-dessous des
+nuages !\e"
+MF14000011,"\h(«Brabham»)Nous pouvons voler au-dessus de cet endroit de
+malheur ! Je suis impatient !\c"
+MF14000012,"\h(«Brabham»)Capitaine, il y avait des jeunes filles qui vous
+cherchaient dans votre salle de réunion.
+Vous les avez vues ?\c"
+MF14000013,"\h(«Brabham»)Capitaine Vyse, j'ai fini juste à temps !\e"
+MF14000014,"\h(«Brabham»)Maintenant que le Delphinus peut s'immerger,
+c'est le meilleur navire au monde !\c"
+MF14000015,"\h(«Brabham»)On dirait que le port et le Delphinus sont
+sortis indemnes de l'attaque. Après quelques
+vérifications, le navire sera prêt à partir !\e"
+MF14000016,"\h(«Brabham»)L'entretien du navire de la petite est terminé
+mais……est-ce que tout ira bien ?\e"
+MF14000017,"\h(«Brabham»)Le navire de Fina gronde d'impatience !
+Il est au cap !\c"
+MF14000018,"\h(«Brabham»)Bienvenue, Capitaine !
+Tout a l'air de bien se passer à bord du
+Delphinus et sur la base !\c"
+MF14000019,"\h(«Brahbam»)Une espèce de vieille île croûteuse vient de
+surgir des Profondeurs ! Que se passe t-il ?!\c"
+MF14000020,"\h(«Brabham»)Le Delphinus est prêt à partir ! Vous pouvez
+l'emmener naviguer quand vous le désirez !\c"
+MF14010000,"\h(«Izmael»)Bonjour, Capitaine ! J'ai travaillé sans arrêt
+sur votre base ! J'espère que cela va
+vous plaire !\e"
+MF14010001,"\h(«Vyse»)Merci, Izmael ! Cela me plaît beaucoup !
+J'apprécie vos efforts !\e"
+MF14010002,"\h(«Izmael»)Je suis content que vous sachiez reconnaître mon
+talent ! Maintenant que mon travail sur l'île
+est presque terminé……\e"
+MF14010003,"\h(«Izmael»)Je veux naviguer avec vous à bord de votre
+navire !\e"
+MF14010004,"\h(«Vyse»)Nous serons ravis de vous avoir à bord !
+Vous nous inspirez beaucoup !\e"
+MF14010005,"\h(«Izmael»)Capitaine Vyse, c'est un honneur de naviguer
+avec vous !\e"
+MF14010006,\h( )Izmael le “Maçon” a rejoint votre équipage.\e
+MF14010007,"\h(«Izmael»)J'espère que vous utiliserez la salle de réunion
+que je vous ai construite ! Il n'y a pas plus
+belle salle de réunion sous les Six Lunes !\c"
+MF14020000,"\h(«Fille Dynamique»)Enchantée !
+Vous devez être le Capitaine Vyse ?\e"
+MF14020001,"\h(«Fille Dynamique»)Capitaine Clara m'a ordonné de monter à bord du
+Delphinus et de m'entraîner avec votre équipage
+pour devenir meilleure canonnière !\e"
+MF14020002,"\h(«Fille Dynamique»)Oh, et mes amies, Lilly et Nara sont venues avec
+moi. J'espère que cela ne vous dérange pas !\e"
+MF14020003,"\h(«Fille Dynamique»)Nous travaillons en équipe ! Nous allons nous
+occuper de vos canons ! Nous allons faire
+exploser ces Valuans dans le ciel !\e"
+MF14020004,"\h(«Vyse»)C'est cela oui……
+Et comment vous appelez-vous……?\e"
+MF14020005,"\h(«Fille Dynamique»)Oh, je suis désolée ! J'ai oublié ! Euh je veux
+dire, je n'ai pas oublié mon nom ! J'ai juste
+oublié de vous le dire ! Je serais bien bête
+d'oublier mon nom !\e"
+MF14020006,"\h(«Fille Dynamique»)Je m'appelle Belle.
+Je n'ai pas beaucoup d'expérience en tant que
+canonnière, mais je ferai de mon mieux !\e"
+MF14020007,"\h(«Vyse»)Bon, vous avez l'air très enthousiaste.
+Je vous donne une chance, et nous verrons bien
+comment vous vous débrouillez.\e"
+MF14020008,"\h(«Belle»)Entendu !
+Je ferai de mon mieux, Capitaine !\e"
+MF14020009,\h( )Belle la “Canonnière” a rejoint votre équipage.\e
+MF14020051,"\h(«Belle»)Je vais ouvrir un magasin sur l'Île Croissant !
+Faites-moi signe si vous avez besoin de quelque
+chose pour votre navire !\c"
+MF14020033,"\h(«Belle»)Je suis vraiment désolée ! Je n'arrive pas à
+croire que l'Armada nous ait trouvés. Je me sens
+responsable, je suis une canonnière après
+tout……\e"
+MF14020034,"\h(«Que direz-vous à Belle ?»)“Ne vous en faites pas !”
+“Vous auriez dû faire plus attention.”\e"
+MF14020035,"\h(«Vyse»)Ne vous en faites pas, Belle !
+Ils nous ont tous pris par surprise.
+Il n'y avait rien à faire.\e"
+MF14020036,"\h(«Vyse»)Ne soyez pas trop dure avec vous-même.
+Ce qui compte c'est que tout le monde soit en
+vie.\e"
+MF14020037,"\h(«Belle»)Oui, vous avez raison. Bon, je devrais commencer
+à aider les autres à reconstruire la base !
+Elle sera encore mieux qu'avant !\e"
+MF14020038,"\h(«Vyse»)Si vous faisiez plus attention, vous les auriez
+vu arriver. Pour la peine, vous nettoierez les
+débris.\e"
+MF14020039,"\h(«Vyse»)J'aurais dû faire plus attention, moi aussi.
+Je vais vous aider à ramasser les débris.
+C'est normal, non ?\e"
+MF14020040,"\h(«Belle»)À vos ordres, mon Capitaine !
+Je ferai de mon mieux !\c"
+MF14020041,\h(«Belle»)Je vais travailler dur !\c
+MF14020010,"\h(«Belle»)Bienvenue, Capitaine !\e"
+MF14020011,"\h(«Que voulez-vous faire ?»)“Acheter ou vendre du matériel naval.”
+“Raconter des potins.”
+“Partir.”\e"
+MF14020012,"\h(«Belle»)Ohhh ! Je suis une vraie tête de linotte.
+J'ai donné la mauvaise pièce à Brabham tout à
+l'heure ! J'espère qu'il s'en rendra compte
+avant qu'il ne soit trop tard……\e"
+MF14020013,"\h(«Belle»)Je n'ai pas l'habitude de m'occuper d'un
+magasin, c'est pour cela que je fais plein
+d'erreurs. Bon…… Je fais toujours des erreurs
+de toute façon…… mais pas de ce genre.\e"
+MF14020014,"\h(«Belle»)Mais mon but c'est de faire quelque chose sans
+tout gâcher ! C'est pour cette raison que je
+suis ici ! Je finirai bien par y arriver !\c"
+MF14020015,"\h(«Belle»)Je ferai de mon mieux ! Je veux devenir Pirate
+de l'Air comme le Capitaine Clara !\c"
+MF14020016,"\h(«Belle»)Quand nous serons à Valua, j'abattrai leur
+flotte toute entière ! J'espère que je ne
+manquerai pas trop souvent ma cible !\e"
+MF14020017,"\h(«Vyse»)Bon, en fait, nous allons nous introduire dans
+l'espace aérien Valuan en volant par-dessous les
+îles.\e"
+MF14020018,"\h(«Belle»)Oh, hi hi…… c'est plus logique que d'attaquer
+l'Armada Valuanne par l'avant ! Bonne idée,
+Capitaine !\e"
+MF14020019,"\h(«Belle»)Je croyais que nous allions les attaquer, alors
+j'ai chargé les canons au maximum ! J'en ai même
+pris en plus au cas où je manquerais ma cible.\c"
+MF14020020,"\h(«Belle»)Bon puisque nous avons assez de munitions, nous
+devrions peut-être les attaquer de front ! Ce
+serait dommage de ne pas profiter de toutes ces
+boulets de canon.\c"
+MF14020044,"\h(«Belle»)Nous allons à Valua, n'est-ce pas ? Super ! Je
+vais préparer mes canons et faire exploser ces
+Valuans……\e"
+MF14020045,"\h(«Vyse»)Attendez une seconde…… Nous n'allons pas
+attaquer Valua tout de suite. Nous essayons de
+revenir sur la terre ferme.\e"
+MF14020046,"\h(«Belle»)Hein ? Oh, non ! Je suis désolée ! Je croyais……
+que nous…… oh non…… que je suis bête.\e"
+MF14020047,"\h(«Belle»)Et moi qui avais bien astiqué tous les
+boulets de canon. Moi qui voulais tant montrer à
+tout le monde de quoi j'étais capable. Oh, et
+puis……\c"
+MF14020048,"\h(«Belle»)Bon, même si j'ai tout gâché, au moins nous
+avons tout un tas de boulets de canon bien
+polis ! N'hésitez pas à vous en servir !\c"
+MF14020049,"\h(«Belle»)Vraiment ? En vous servant des plans que vous
+avez trouvés, vous pouvez fabriquer un moteur
+capable de voler sous Le Grand Océan de
+Nuages ?!\e"
+MF14020050,"\h(«Belle»)C'est incroyable ! Je suis peut-être un peu
+maladroite, mais j'aiderai autant que possible à
+la création du moteur, d'accord ?\c"
+MF14020021,"\h(«Belle»)Nous allons enfin sous le Grand Océan de
+Nuages ! Je me suis entraînée à retenir ma
+respiration ! Vous voulez-voir ?\e"
+MF14020022,"\h(«Vyse»)Entraînée à retenir votre respiration ? Non,
+non, non…… Tant que nous restons à bord du
+Delphinus, nous pourrons respirer normalement.\e"
+MF14020023,"\h(«Belle»)Oh, c'est vrai ?
+Je suppose que c'est logique.\e"
+MF14020024,"\h(«Belle»)Je pensais que nous n'aurions pas d'air, alors
+je me suis entraînée en plongeant ma tête dans
+la mare. Que je suis bête.\c"
+MF14020025,"\h(«Belle»)Heureusement que nous pourrons respirer en bas,
+parce que j'étais la seule à m'entraîner !\c"
+MF14020042,"\h(«Belle»)Vous allez au Grand Temple d'Argent,
+n'est-ce pas !\e"
+MF14020043,"\h(«Belle»)À votre retour, la base sera aussi belle
+qu'avant !\c"
+MF14020026,"\h(«Belle»)Bon, que pensez-vous de l'île ? J'ai couru dans
+tous les sens après les poulets et je ne m'en
+suis pas encore remise.\e"
+MF14020027,"\h(«Belle»)Et nous avons fait un énorme feu près de la mare
+avec les débris qui restaient. On s'est vraiment
+bien amusés !\e"
+MF14020028,"\h(«Belle»)Oh là là ! Je n'étais pas censée en parler……
+Ne dites à personne que je vous l'ai dit,
+d'accord ?\c"
+MF14020029,\h(«Belle»)Je vous en prie ne parler à personne du feu……\c
+MF14020052,"\h(«Belle»)Je n'arrive pas à croire que nous allons bientôt
+nous battre contre Galcian……
+Je suis un peu anxieuse……\e"
+MF14020053,"\h(«Belle»)Mais, puisque le Capitaine Clara et les autres
+Pirates de l'Air vont se battre à nos côtés, je
+suis certaine que nous allons gagner !\c"
+MF14020030,"\h(«Belle»)Alors, nous allons nous battre contre Ramirez !
+Je ferai de mom mieux !\e"
+MF14020031,"\h(«Belle»)Je sais qu'il me reste beaucoup à apprendre,
+mais je lutterai de mon mieux contre Ramirez !\c"
+MF14020032,"\h(«Belle»)Merci beaucoup !
+Revenez bientôt !\e"
+MF14090000,"\h(«Lilly»)Je vais rencontrer l'amour de ma vie dans les
+cieux, comme le Capitaine Clara !\e"
+MF14090001,"\h(«Lilly»)Je vais parcourir le monde en navire et trouver
+le plus charmant des hommes !\c"
+MF14090002,"\h(«Lilly»)Vous croyez qu'il y a des hommes charmants au
+Grand Temple d'Argent ? Vous me le direz si vous
+en voyez ?\c"
+MF14090003,"\h(«Lilly»)Vous allez dans les Profondeurs ?
+On m'a raconté des choses terribles sur cet
+endroit. Faites attention !\e"
+MF14090004,"\h(«Lilly»)S'il y a des hommes là-bas, ils sont
+certainement blafards et maudits.
+Je n'ai pas vraiment envie d'en rencontrer un.\c"
+MF14090011,"\h(«Lilly»)Nous étions assises au port quand nous avons
+entendu des explosions !\e"
+MF14090012,"\h(«Lilly»)Des pierres ont commencé à tomber, puis nous
+avons senti de la fumée ! Belle avait tellement
+peur qu'elle s'est mise à pleurer !\c"
+MF14090013,"\h(«Lilly»)Vous allez au pays de Fina ?
+Oh là là ! Amusez-vous bien…… Umm……
+S'ils savent s'amuser là-bas.
+Fina est plutôt réservée, vous savez.\c"
+MF14090005,"\h(«Lilly»)Oh, Capitaine Vyse. J'ai vraiment eu peur lors
+de la bataille l'autre jour !\e"
+MF14090006,"\h(«Lilly»)Mais cet Amiral, il est assez séduisant.
+J'adore les hommes en uniforme.\e"
+MF14090007,"\h(«Lilly»)Mais les hommes meurtriers ne m'attirent pas
+vraiment. Oh, ne vous vexez pas…… Je veux dire,
+vous êtes différent. Je n'aime pas les gens
+mauvais.\c"
+MF14090014,"\h(«Lilly»)Je vois que même vous, Capitaine Vyse, vous êtes
+un peu nerveux à l'idée d'affronter Galcian.\e"
+MF14090015,"\h(«Lilly»)Mais avec trois déesses du canon à bord de votre
+navire, vous n'avez aucune raison de vous
+inquiéter !\c"
+MF14090008,"\h(«Lilly»)Donc, vous allez vous battre contre ce charmant
+Amiral pour Fina, n'est-ce pas ?\e"
+MF14090009,"\h(«Lilly»)Ha ha, je plaisante.\e"
+MF14090010,"\h(«Lilly»)Plus sérieusement Vyse, menez-nous à la
+victoire ! Comme ça, on pourra vite rentrer
+faire la fête !!!\c"
+MF14100000,"\h(«Nara»)On m'a dit que le Capitaine Clara a rencontré
+Gilder quand elle avait mon âge dans le port de
+sa ville natale.\e"
+MF14100001,"\h(«Nara»)Elle est tombée éperdument amoureuse de lui.
+Mais le destin a voulu que Gilder quitte la
+ville en toute hâte le lendemain pour devenir
+Pirate de l'Air.\e"
+MF14100002,\h(«Nara»)Je suppose que le moment était mal choisi.\c
+MF14100003,"\h(«Nara»)Par la suite, le Capitaine Clara a retrouvé le
+navire de Gilder ! Elle était vraiment
+heureuse !\e"
+MF14100004,"\h(«Nara»)Elle s'est mise à tirer sur son navire pour
+attirer son attention. Gilder a riposté en lui
+tirant dessus. Comme c'est romantique.\e"
+MF14100005,"\h(«Nara»)J'admire vraiment le Capitaine Clara.
+Elle est tellement passionnée.\c"
+MF14100006,"\h(«Nara»)Je crois que le Capitaine Gilder essaie de se
+faire désirer, car il l'évite depuis ce jour là.\e"
+MF14100007,"\h(«Nara»)Il devrait savoir qu'il n'a pas besoin de se
+faire désirer pour séduire Clara.\e"
+MF14100008,"\h(«Nara»)Oh, vous savez…… l'amour est aveugle.\c"
+MF14100012,"\h(«Nara»)Belle et Lilly avaient vraiment peur mais je
+pense que ça va maintenant.\c"
+MF14100013,"\h(«Nara»)Vous allez au pays de Fina ?
+Soyez prudent, Capitaine !\e"
+MF14100009,"\h(«Nara»)Le Capitaine Clara explore le monde entier pour
+cuisiner à Gilder la meilleure tarte du monde !\e"
+MF14100010,"\h(«Nara»)Une fois, elle a attaqué le navire de Gordo pour
+voler l'ultime pâte à tarte.\e"
+MF14100011,"\h(«Nara»)J'admire le Capitaine Clara, c'est une
+perfectionniste.\c"
+MF14100016,"\h(«Nara»)Le moment est enfin arrivé de nous battre contre
+Galcian, hein ?\e"
+MF14100017,"\h(«Nara»)Se battre contre l'Armada…… se battre contre
+Galcian…… c'est vraiment palpitant !!!\c"
+MF14100014,"\h(«Nara»)Une fois que nous aurons sauvé le monde, vous
+croyez que les hommes seront trop intimidés pour
+m'approcher ?\e"
+MF14100015,"\h(«Nara»)J'espère que non. Je sais que quelque part
+quelqu'un…… m'attend.\c"
+MG00040000,"\h(«Pow»)Wau, wau!\e"
+MG01110000,"\h(«Lawrence»)Du hast mich angeheuert, einen Job zu machen und
+den mache ich auch. Aber ich bin nicht dazu
+verpflichtet, mit dir zu reden, wenn ich
+nicht auf deinem Schiff bin.\c"
+MG01110001,"\h(«Lawrence»)Ich bin schon in der Vergangenheit gegen Valua
+angegangen, aber nie in dem Maße.\e"
+MG01110002,"\h(«Lawrence»)Ich hinterfrage nie die Motive meines
+Arbeitgebers. Aber keine Sorge, wenn ich
+der Meinung bin, du machst einen Fehler,
+werde ich es dir sagen.\c"
+MG01110003,\h(«Lawrence»)Mein Vertrag ist fast abgelaufen.\e
+MG01110004,"\h(«Lawrence»)Ich bin ein Profi.
+Ich tu, was ich tun muss.\c"
+MG06330000,"\h(«Khazims Männer»)He, da!\e"
+MG06330001,"\h(«Khazim»)He da, Captain Vyse!
+Möchtest du Kanonen kaufen?\e"
+MG06330002,"\h(«Was möchtest du tun?»)“Schiffsausrüstung kaufen oder verkaufen.”
+“Mit Khazim sprechen.”
+“Weggehen.”\e"
+MG06330003,"\h(«Khazim»)Eben sind zwei kleine Mädchen hereingekommen
+und haben angeboten, uns zu helfen.\e"
+MG06330004,"\h(«Khazim»)Ihre Anführerin sagte, sie würde zum Captain
+gehen, habt ihr sie gesehen?\e"
+MG06330005,\h(«Khazim»)Kommt wieder zurück!\e
+MG06330006,\h(«Khazims Männer»)Vielen Dank!\e
+MG06330007,"\h(«Khazim»)He! Sieh zu, dass du die Kanonen gut polierst!
+Die Kanonen sind der Stolz der Delphinus!\e"
+MG06330008,"\h(«Khazim»)Meine Kanonen sind immer schussbereit!
+Man weiß nie, wann man mal etwas hochgehen
+lassen muss!\c"
+MG06330009,"\h(«Khazim»)Wenn ich eine Schlacht verliere, dann nicht
+wegen einer Fehlzündung!\c"
+MG06330010,"\h(«Khazim»)He, Vyse, ich habe gehört, unser nächstes
+Ziel wäre Valua!\e"
+MG06330011,"\h(«Khazim»)Warum hörst du nicht mit diesem ewigen
+Herumschleichen auf?\e"
+MG06330012,"\h(«Khazim»)Spreng doch einfach ein Loch in den Boden
+von Valua und schau zu, wie sie alle in
+den Deep Sky fallen…… Hehe.\c"
+MG06330013,"\h(«Khazim»)He! Sieh zu, dass du die Kanonen gut polierst!
+Die Kanonen sind der Stolz der Delphinus!\e"
+MG06330014,"\h(«Khazim»)Alle sagen sie, ich würde zu viel herumschreien,
+aber mit mir lässt es sich besser arbeiten als
+mit Brabham!\e"
+MG06330015,"\h(«Khazim»)Du warst nicht hier, als wir die Motoren der
+Delphinus umgebaut haben…… Ihn den ganzen Tag
+schreien zu hören “Du hast keine Ahnung,
+Kleiner!”……\e"
+MG06330016,"\h(«Khazim»)He! Niemand gewinnt eine Schlacht allein mit
+Verteidigung! Diese Kanonen müssen
+schussbereit sein!\e"
+MG06330017,"\h(«Khazim»)Dieser Ramirez, der hat schon zweimal meine
+Heimatstadt zerstört!\e"
+MG06330018,\h(«Khazim»)Dafür wird er bezahlen!!\e
+MG06330019,"\h(«Khazim»)Diese Kanonen müssen einsatzbereit sein!
+Wir haben schließlich einen Krieg zu gewinnen!\e"
+MG06330020,"\h(«Khazim»)Vyse, ich habe mit Ramirez noch eine persönliche
+Rechnung zu begleichen. Ich kann's gar nicht
+abwarten, gegen ihn anzutreten!\e"
+MG06330021,"\h(«Khazim»)Die Kanonen sind bereit, und ich auch!\c"
+MG06340000,"\h(«Khazims Männer»)Wenn ihr etwas braucht, fragt einfach Khazim!\c"
+MG06340001,"\h(«Khazims Männer»)Schau dir diesen Glanz an! Wir werden die
+valuanische Flotte durchlöchern und dabei noch
+gut aussehen!\e"
+MG06340002,"\h(«Khazims Männer»)Ich kann's nicht erwarten, auf valuanische
+Schiffe zu feuern!\c"
+MG06340003,"\h(«Khazims Männer»)Also werden wir versuchen, nach Valua zu
+gelangen, indem wir darunter durchfliegen.
+Das ist keine schlechte Idee!\e"
+MG06340004,"\h(«Khazims Männer»)Ich hoffe, wir bekommen einige ihrer Schiffe
+ins Visier, während wir dort sind.\c"
+MG06340005,"\h(«Khazims Männer»)Ich weiß, dass wir nach Deep Sky abtauchen.
+Dort ist der Luftdruck höher. Ich werde ein
+paar Veränderungen an den Kanonen vornehmen!\c"
+MG06340006,"\h(«Khazims Männer»)Tut uns Leid, Captain.\e"
+MG06340007,"\h(«Khazims Männer»)Die Armada hat uns total überrascht.
+Das wird nicht noch einmal vorkommen!\c"
+MG06340008,"\h(«Khazims Männer»)Ich mag den Geruch einer gut geölten Kanone!
+Diese Prachtstücke könnt ihr nach Herzenslust
+abfeuern!\c"
+MG06350000,"\h(«Khazims Männer»)Gerade war hier noch so ein hübsches Mädchen.
+Hast du sie nicht gesehen?\c"
+MG06350001,"\h(«Khazims Männer»)Vyse, welches Mädchen auf Claras Schiff
+gefällt dir am besten?\e"
+MG06350002,"\h(«Khazim's Männer»)Ich habe eine Schwäche für Mädchen mit Brille……
+He.\c"
+MG06350003,"\h(«Khazims Männer»)Wir werden uns Valua von unten nähern, was?\e"
+MG06350004,"\h(«Khazims Männer»)Solange ich auf irgendetwas schießen
+kann, bin ich dabei.\c"
+MG06350005,"\h(«Khazims Männer»)He, ähmm…… Vyse, bei unserer letzten
+Mannschaftsbesprechung hat das Mädchen mit der
+Brille für alle Mittagessen gekocht.
+Das war sehr nett von ihr.\e"
+MG06350006,"\h(«Khazims Männer»)Vielleicht sollten wir noch so eine Besprechung
+machen.\e"
+MG06350007,"\h(«Khazims Männer»)Also war es Ramirez, der die Attacke auf
+Nasrad anführte……\e"
+MG06350008,"\h(«Khazims Männer»)Ich kann's nicht erwarten, wieder gegen ihn zu
+kämpfen! Ich werde ihn durchlöchern wie ein
+Sieb!\c"
+MG06350009,"\h(«Khazims Männer»)Vyse, wenn du wieder gegen Ramirez ausziehst,
+lass es uns wissen. Es ist eine persönliche
+Angelegenheit!\c"
+MG14000000,"\h(«Brabham»)Dieses “Buch über Schiffspolarität” ist toll!
+Ich habe so viel gelernt!\e"
+MG14000001,"\h(«Brabham»)Ich möchte mit euch auf die Delphinus.
+Auf diese Weise kann ich mich besser regelmäßig
+um sie kümmern.\e"
+MG14000002,"\h(«Vyse»)Du wirst also unser Bordingenieur? Wie schön!
+Danke, Brabham!\e"
+MG14000003,"\h(«Brabham»)Ich bin einfach froh, auf so einem schönen
+Schiff zu arbeiten! Es ist toll, und es wird
+von Tag zu Tag besser!\e"
+MG14000004,"\h(«Brabham»)Ich sorge dafür, dass die Delphinus bald
+ruhiger läuft denn je!\e"
+MG14000005,"\h( )Brabham ist als “Ingenieur” zu deiner
+Mannschaft gestoßen. Und er macht seine
+Sache unheimlich gut!\c"
+MG14000006,"\h(«Brabham»)Wenn es mir gelingt, mit dem Buch, das ihr
+aus Yafutoma mitgebracht habt, einen neuen
+Motor zu bauen, wird die Delphinus größere Höhen
+erreichen können!\e"
+MG14000007,"\h(«Brabham»)Während ihr auf eurer nächsten Reise seid,
+werde ich lernen und bauen, jawohl!\c"
+MG14000008,"\h(«Brabham»)Ich habe die Panzerung am Bug des Schiffes
+verstärkt! Ihr werdet in der Lage sein, durch
+Gletscher zu fliegen, als wären sie aus
+Zuckerwatte!\e"
+MG14000009,"\h(«Brabham»)Durch die Felsklippen in Ixa'taka werdet ihr
+auch durchkommen! Ich bin verdammt gut!\c"
+MG14000010,"\h(«Brabham»)Mit dem neuen Schiffsmotor, den wir unter
+Verwendung des “Buches über Schiffspolarität”
+gebaut haben, kann man mit der Delphinus über
+und unter den Wolken fliegen!\e"
+MG14000011,"\h(«Brabham»)Wir können einfach überall hinfliegen!
+Ich kann's nicht erwarten!\c"
+MG14000012,"\h(«Brabham»)Captain, in deinem Besprechungsraum haben einige
+junge Leute nach dir gesucht. Hast du sie
+gesehen?\c"
+MG14000013,"\h(«Brabham»)Captain Vyse, ich bin genau pünktlich
+fertig geworden!\e"
+MG14000014,"\h(«Brabham»)Jetzt, wo die Delphinus untertauchen kann,
+ist sie das beste Schiff am Himmel!\c"
+MG14000015,"\h(«Brabham»)Sieht so aus, als wären der Hafen und die
+Delphinus bei dem Angriff nicht beschädigt
+worden. Sobald ich das Schiff einer Prüfung
+unterzogen haben, sollte es startbereit sein!\e"
+MG14000016,"\h(«Brabham»)Die Wartung des Schiffes, das dem kleinen
+Mädchen gehört, ist bereits beendet, aber……
+ist alles in Ordnung?\e"
+MG14000017,"\h(«Brabham»)Finas Schiff ist abfahrbereit!
+Es ist am Kap!\c"
+MG14000018,"\h(«Brabham»)Da bist du ja wieder, Captain!
+Die Delphinus und dein Stützpunkt sehen
+gut aus!\c"
+MG14000019,"\h(«Brabham»)Irgend so eine bröckelige Insel ist plötzlich
+aus dem Deep Sky erschienen! Was ist los?!\c"
+MG14000020,"\h(«Brabham»)Die Delphinus ist jederzeit bereit!
+Du kannst sie mitnehmen, wann du willst!\c"
+MG14010000,"\h(«Izmael»)Hallo, Captain!
+Ich habe mich auf deinem Stützpunkt nützlich
+gemacht! Ich hoffe, dir gefällt's!\e"
+MG14010001,"\h(«Vyse»)Danke, Izmael!
+Es sieht fantastisch aus! Ich danke dir
+für all die harte Arbeit!\e"
+MG14010002,"\h(«Izmael»)Ich bin froh, dass du Qualitätsarbeit schätzt!
+Jetzt, wo der Großteil der Arbeit auf der
+Insel getan ist……\e"
+MG14010003,\h(«Izmael»)möchte ich mit dir auf deinem Schiff segeln!\e
+MG14010004,"\h(«Vyse»)Wir hätten dich gern dabei!
+Du bist eine Inspiration für uns alle!\e"
+MG14010005,"\h(«Izmael»)Captain Vyse, es ist eine Ehre, mit mir
+zu segeln!\e"
+MG14010006,"\h( )Izmael ist als “Baumeister” zu deiner
+Mannschaft gestoßen.\e"
+MG14010007,"\h(«Izmael»)Und benutze ja den Besprechungsraum, den ich
+für dich gebaut habe! Es gibt keinen schöneren
+Besprechungsraum unter den Sechs Monden!\c"
+MG14020000,"\h(«Energisches Mädchen»)Nett, dich kennen zu lernen!
+Du bist Captain Vyse, nicht wahr?\e"
+MG14020001,"\h(«Energisches Mädchen»)Captain Clara hat angeordnet, dass ich an
+Bord der Delphinus gehe und mit deiner
+Mannschaft trainiere, damit ich ein besserer
+Kanonier werde!\e"
+MG14020002,"\h(«Energisches Mädchen»)Oh, und meine Freundinnen Lilly und Nara
+kommen auch. Ich hoffe, es macht dir nichts
+aus!\e"
+MG14020003,"\h(«Energisches Mädchen»)Wir sind ein Team! Wir kümmern uns um eure
+Kanonen! Wir werden diese Valuaner vom
+Himmel runterholen!\e"
+MG14020004,"\h(«Vyse»)Klar……
+Und dein Name ist……?\e"
+MG14020005,"\h(«Energisches Mädchen»)O, pardon! Ich vergaß! Das heißt, meinen Namen
+habe ich nicht vergessen! Ich habe nur
+vergessen, ihn dir zu sagen! Ich würde doch
+meinen Namen nicht vergessen! Das wäre ja dumm!\e"
+MG14020006,"\h(«Energisches Mädchen»)Ich bin Belle.
+Ich habe nicht viel Erfahrung mit Kanonen,
+aber ich werde mein Bestes tun!\e"
+MG14020007,"\h(«Vyse»)Nun, du scheinst enthusiastisch zu sein.
+Ich werde dir eine Chance geben, und wir
+schauen mal, was passiert.\e"
+MG14020008,"\h(«Belle»)Jawohl, Sir!
+Ich werde mein Bestes tun, Sir!\e"
+MG14020009,"\h( )Belle ist als “Kanonier” zu deiner
+Mannschaft gestoßen.\e"
+MG14020051,"\h(«Belle»)Ich habe hier auf Crescent Isle einen Laden!
+Wenn ihr etwas für euer Schiff braucht,
+sagt nur Bescheid!\c"
+MG14020033,"\h(«Belle»)Oh, wie schade! Ich kann's nicht glauben, dass
+uns die Armada gefunden hat. Ich fühle mich
+verantwortlich, als Kanonier sozusagen……\e"
+MG14020034,"\h(«Was wirst du Belle sagen?»)“Mach dir keine Sorgen!”
+“Du hättest besser aufpassen sollen.”\e"
+MG14020035,"\h(«Vyse»)Mach dir keine Sorgen, Belle!
+Sie haben uns alle überrascht.
+Du hättest nichts tun können.\e"
+MG14020036,"\h(«Vyse»)Du solltest mit dir nicht so hart ins Gericht
+gehen. Die Hauptsache ist, dass es allen
+gut geht.\e"
+MG14020037,"\h(«Belle»)Ja, schätze, ihr habt Recht. Ich sollte
+euch wohl jetzt mit dem Stützpunkt helfen!
+Wir bauen auf, besser als vorher!\e"
+MG14020038,"\h(«Vyse»)Wenn du besser aufgepasst hättest, hättest
+du sie kommen sehen. Als Strafe musst du jetzt
+anfangen, die Trümmer wegzuräumen.\e"
+MG14020039,"\h(«Vyse»)Ich hätte auch besser aufpassen sollen.
+Ich werde an deiner Seite auch Trümmer räumen.
+Ist doch fair, oder?\e"
+MG14020040,"\h(«Belle»)Ja, jawohl, Sir!
+Ich werde mein Bestes tun!\c"
+MG14020041,\h(«Belle»)Ich werde hart an die Arbeit gehen!\c
+MG14020010,"\h(«Belle»)Willkommen, Captain!\e"
+MG14020011,"\h(«Was willst du tun?»)“Ausrüstung kaufen und verkaufen.”
+“Plaudern.”
+“Weggehen.”\e"
+MG14020012,"\h(«Belle»)Ohhh! Ich bin so unaufmerksam.
+Ich habe Brabham vorhin das falsche Teil
+gegeben! Ich hoffe, er bemerkt es, bevor es
+zu spät ist……\e"
+MG14020013,"\h(«Belle»)Ich bin es nicht gewöhnt, einen Laden zu haben,
+also mache ich die dümmsten Fehler. Tja…… ich
+meine, Fehler mache ich sowieso…… nicht nur
+im Laden.\e"
+MG14020014,"\h(«Belle»)Aber ich bemühe mich, einmal eine Sache zu tun,
+ohne sie zu verpfuschen! Dafür bin ich
+schließlich hier!
+Irgendetwas muss ich ja richtig machen!\c"
+MG14020015,"\h(«Belle»)Ich werde mein Bestes tun! Ich möchte eines
+Tages ein Luftpirat wie Captain Clara sein!\c"
+MG14020016,"\h(«Belle»)Wenn wir nach Valua gehen, hole ich deren
+gesamte Flotte vom Himmel! Her mit ihnen!
+Ich hoffe, ich werde nicht zu oft
+danebenschießen!\e"
+MG14020017,"\h(«Vyse»)Tja, also wir planen, uns in valuanischen
+Luftraum einzuschleichen, indem wir unter
+den Inseln entlangfliegen.\e"
+MG14020018,"\h(«Belle»)Oh, hihi…… tja, das erscheint sinnvoller als die
+gesamte Valuan Armada in einem
+Frontalangriff anzugreifen! Gute Idee, Captain!\e"
+MG14020019,"\h(«Belle»)Ich habe mir schon gedacht, dass wir sie angrei-
+fen würden und habe mehr als genug Kanonen-
+kugeln geladen! Ich habe sogar noch ein paar 
+mehr genommen, falls ich danebenschieße.\c"
+MG14020020,"\h(«Belle»)Also, da wir bereits genug Munition haben,
+könnten wir sie doch frontal angreifen!
+Es wäre doch eine Schande, wenn all die
+Kanonenkugeln einfach hier verkommen würden.\c"
+MG14020044,"\h(«Belle»)Wir fliegen nach Valua, nicht wahr? Toll!
+Ich mache meine Kanonen bereit und werde diese
+Valuaner abschießen……\e"
+MG14020045,"\h(«Vyse»)Moment mal…… im Moment greifen wir Valua noch
+nicht an. Wir versuchen, landeinwärts zu
+gelangen.\e"
+MG14020046,"\h(«Belle»)Wie? Du meine Güte! Tut mir Leid! Ich dachte……
+dass wir…… o nein…… ich habe ja wohl nicht die
+geringste Ahnung.\e"
+MG14020047,"\h(«Belle»)Und ich habe alle Kanonenkugeln poliert!
+Ich hatte gehofft, dass ich allen zeigen
+könnte, was ich auf dem Kasten habe. Na, ja……\c"
+MG14020048,"\h(«Belle»)Also, obwohl ich mich mal wieder geirrt habe,
+wenigstens haben wir einen Haufen polierter
+Kanonenkugeln! Bitte, bedient euch!\c"
+MG14020049,"\h(«Belle»)Wirklich? Mit diesen Plänen, die ihr gefunden
+habt, könnt ihr einen Motor bauen, mit
+dem wir unter die Great Cloud Sea tauchen
+können?!\e"
+MG14020050,"\h(«Belle»)Das ist ja toll!
+Ich bin vielleicht etwas ungeschickt, aber ich
+werde mein Bestes tun, beim Bau des Motors
+behilflich zu sein, ok?\c"
+MG14020021,"\h(«Belle»)Endlich kommen wir unter die Great Cloud Sea!
+Ich hab schon geübt, meinen Atem anzuhalten!
+Wollt ihr es sehen?\e"
+MG14020022,"\h(«Vyse»)Deinen Atem anhalten üben? Aber nein, nein,
+nein…… Solange wir in der Delphinus sind,
+können wir normal atmen.\e"
+MG14020023,"\h(«Belle»)Oh, stimmt das?
+Klingt einleuchtend.\e"
+MG14020024,"\h(«Belle»)Ich dachte, wir würden keine Luft haben,
+also habe ich meinen Kopf in den Teich
+gehalten und geübt. Wie dumm von mir.\c"
+MG14020025,"\h(«Belle»)Es ist gut, dass wir da unten atmen
+können, da ich die Einzige bin, die geübt hat,
+ihren Atem anzuhalten!\c"
+MG14020042,"\h(«Belle»)Ihr fahrt zum Great Silver Shrine, nicht wahr!\e"
+MG14020043,"\h(«Belle»)Wenn ihr zurückkommt, wird hier alles wie neu
+aussehen!\c"
+MG14020026,"\h(«Belle»)Nun, was haltet ihr von dieser Insel? Ich
+bin noch immer müde vom Hühnerjagen.\e"
+MG14020027,"\h(«Belle»)Und mit den ganzen Trümmern machten wir noch
+ein großes Feuer am Teich. Wir haben uns gut
+amüsiert!\e"
+MG14020028,"\h(«Belle»)Hoppla! Darüber sollte ich gar nicht sprechen……
+Sag niemandem, dass ich es dir gesagt habe, ok?\c"
+MG14020029,"\h(«Belle»)Hehe, bitte sag niemandem, dass ich dir
+vom Feuer erzählt habe……\c"
+MG14020052,"\h(«Belle»)Ich kann's nicht fassen, dass es fast schon Zeit
+für die Schlacht mit Galcian ist…… ich bin
+so nervös……\e"
+MG14020053,"\h(«Belle»)Aber da Captain Clara und die anderen
+Luftpiraten an unserer Seite kämpfen, bin
+ich sicher, dass wir gewinnen werden!!\c"
+MG14020030,"\h(«Belle»)Also werden wir gegen Ramirez kämpfen!
+Ich werde mein Bestes tun!\e"
+MG14020031,"\h(«Belle»)Ich weiß, dass ich noch viel lernen muss,
+aber ich werde gegen Ramirez mein Bestes
+geben!\c"
+MG14020032,"\h(«Belle»)Vielen Dank!
+Schaut mal wieder vorbei!\e"
+MG14090000,"\h(«Lilly»)Ich werde im Himmel die wahre Liebe
+finden, genau wie Captain Clara!\e"
+MG14090001,"\h(«Lilly»)Ich werde um die Welt segeln und einen
+süßen Mann finden!\c"
+MG14090002,"\h(«Lilly»)Meinst du, es gibt süße Männer beim Great
+Silver Shrine? Wenn ja, kannst du ihnen von
+mir erzählen?\c"
+MG14090003,"\h(«Lilly»)Ihr wollt zum Deep Sky?
+Ich habe schon viel Schlimmes darüber gehört.
+Seid vorsichtig!\e"
+MG14090004,"\h(«Lilly»)Wenn es dort unten Männer gibt, dann sind sie
+sicher alle ganz blass und elend. Ich glaube
+nicht, dass ich von da unten jemanden haben
+will.\c"
+MG14090011,"\h(«Lilly»)Wir saßen unten am Hafen, und plötzlich hörte
+man Explosionen!\e"
+MG14090012,"\h(«Lilly»)Es fielen Felsstücke und andere Sachen herab,
+und es roch nach Rauch! Belle hatte solche
+Angst, dass sie anfing zu weinen!\c"
+MG14090013,"\h(«Lilly»)Du gehst mit in Finas Heimat? Wow! Viel Spaß……
+Ähmm…… wenn man dort Spaß haben kann. Fina
+selbst ist ziemlich reserviert, nicht wahr?\c"
+MG14090005,"\h(«Lilly»)Oh, Captain Vyse. Ich hatte während der
+Schlacht neulich solche Angst!\e"
+MG14090006,"\h(«Lilly»)Aber dieser Admiral, der sah schon gut aus.
+Ich liebe Männer in Uniform.\e"
+MG14090007,"\h(«Lilly»)Aber ich mag eigentlich keine Männer, die
+andere töten. Oh, nichts für ungut…… du
+bist einer von den Guten. Ich mag nur keine
+schlechten Menschen.\c"
+MG14090014,"\h(«Lilly»)Wie man sieht, Captain Vyse, bist sogar du
+etwas nervös, Galcian gegenüberzutreten.\e"
+MG14090015,"\h(«Lilly»)Nun, mit drei hübschen Kanonengöttinnen an
+Bord deines Schiffes brauchst du dir wirklich
+um nichts Sorgen machen!\c"
+MG14090008,"\h(«Lilly»)Also wirst du für Fina gegen diesen
+gut aussehenden Admiral kämpfen, ja?\e"
+MG14090009,"\h(«Lilly»)Haha, das war nur ein Scherz. Ich mache nur
+Spaß.\e"
+MG14090010,"\h(«Lilly»)Und jetzt, Vyse, führe uns zum Sieg!
+Dann können wir alle hierher zurückkommen
+und feiern!!!\c"
+MG14100000,"\h(«Nara»)Ich habe gehört, als Captain Clara in unserem
+Alter war, hat sie Gilder kennen gelernt. Sie
+hat ihn in einem Hafen seiner Heimatstadt
+getroffen.\e"
+MG14100001,"\h(«Nara»)Sie hat sich wahnsinnig in ihn verliebt.
+Aber wie es das Schicksal so wollte, verließ
+Gilder die Stadt schon am nächsten Tag, um
+Luftpirat zu werden.\e"
+MG14100002,"\h(«Nara»)Schätze, die Zeit war einfach noch nicht reif.\c"
+MG14100003,"\h(«Nara»)Später fand Captain Clara Gilders Schiff!
+Sie war so froh!\e"
+MG14100004,"\h(«Nara»)Sie eröffnete das Feuer auf sein Schiff, um
+seine Aufmerksamkeit zu erhalten.
+Gilder feuerte zurück. Wie romantisch.\e"
+MG14100005,"\h(«Nara»)Ich bewundere Captain Clara sehr.
+Sie ist so leidenschaftlich.\c"
+MG14100006,"\h(«Nara»)Captain Gilder ziert sich offenbar noch, weil er
+seither vor ihr wegrennt.\e"
+MG14100007,"\h(«Nara»)Er sollte wissen, dass er das gar nicht nötig
+hat. Clara ist auch so schon verrückt nach ihm.\e"
+MG14100008,\h(«Nara»)Ach ja…… Liebe macht blind.\c
+MG14100012,"\h(«Nara»)Belle und Lilly hatten schreckliche Angst.
+Ich glaube, sie haben sich wieder beruhigt.\c"
+MG14100013,"\h(«Nara»)Du fährst in Finas Heimat?
+Sei vorsichtig, Captain!\e"
+MG14100009,"\h(«Nara»)Captain Clara sucht den ganzen Erdball ab,
+nur um Gilder den größte Kuchen der Welt backen
+zu können!\e"
+MG14100010,"\h(«Nara»)Sie griff sogar einmal Gordos Schiff an,
+um von ihm die ultimative Kuchenkruste zu
+stehlen.\e"
+MG14100011,"\h(«Nara»)Ich bewundere Captain Clara, sie ist eine
+Perfektionistin.\c"
+MG14100016,"\h(«Nara»)Jetzt ist es wohl endlich an der Zeit, gegen
+Galcian zu kämpfen, was?\e"
+MG14100017,"\h(«Nara»)Gegen die Armada kämpfen…… gegen Galcian
+kämpfen…… das ist alles so aufregend!!!\c"
+MG14100014,"\h(«Nara»)Wenn wir die Welt gerettet haben, meint ihr,
+dass die Männer sich nicht mehr trauen werden,
+mich anzusprechen?\e"
+MG14100015,"\h(«Nara»)Ich hoffe nicht. Ich weiß, dass…… dort
+draußen jemand auf mich wartet.\c"
+MS00040000,"\h(«Pow»)¡Pow, pow!\e"
+MS01110000,"\h(«Lawrence»)Me contrataste para que hiciera un trabajo y lo
+estoy haciendo. No tengo ninguna obligación de
+hablar contigo cuando estoy fuera del barco.\c"
+MS01110001,"\h(«Lawrence»)Ya me he enfrentado a Valua otras veces,
+pero nunca había llegado hasta aquí.\e"
+MS01110002,"\h(«Lawrence»)Nunca cuestiono las órdenes de mis jefes.
+Pero tú tranquilo, si creo que estás cometiendo
+un error, te lo diré.\c"
+MS01110003,\h(«Lawrence»)Mi contrato está a punto de expirar.\e
+MS01110004,"\h(«Lawrence»)Soy un profesional.
+Hago lo que tengo que hacer.\c"
+MS06330000,\h(«Los Hombres de Khazim»)¡Hola!\e
+MS06330001,"\h(«Khazim»)¡Eh, Capitán Vyse!
+¿Quieres comprar unos cañones?\e"
+MS06330002,"\h(«¿Que quieres hacer?»)“Comprar y vender equipamiento de navío.”
+“Hablar con Khazim.”
+“Salir.”\e"
+MS06330003,"\h(«Khazim»)Acaban de venir dos jovencitas
+y nos han ofrecido su ayuda.\e"
+MS06330004,"\h(«Khazim»)Su líder dijo que había ido a saludar al
+capitán, ¿las has visto?\e"
+MS06330005,\h(«Khazim»)¡Volved pronto!\e
+MS06330006,\h(«Los Hombres de Khazim»)¡Muchas gracias!\e
+MS06330007,"\h(«Khazim»)¡Eh! ¡Asegúrate de que esos cañones brillen a
+conciencia!
+¡Son el alma del Delphinus!\e"
+MS06330008,"\h(«Khazim»)¡Mis cañones siempre están preparados!
+¡Nunca se sabe cuándo se tiene que volar algo!\c"
+MS06330009,"\h(«Khazim»)¡Si pierdo una batalla, no será por errar el
+tiro!\c"
+MS06330010,"\h(«Khazim»)¡Eh, Vyse! Me han dicho que nuestro próximo
+objetivo es Valua.\e"
+MS06330011,\h(«Khazim»)¿Por qué no dejas de rodeos?\e
+MS06330012,"\h(«Khazim»)Lo mejor es abrirse camino por la parte
+posterior de Valua y ver cómo todos se caen al
+Cielo Profundo…… Je, je.\c"
+MS06330013,"\h(«Khazim»)¡Eh! ¡Asegúrate de que esos cañones brillen a
+conciencia!
+¡Son el alma del Delphinus!\e"
+MS06330014,"\h(«Khazim»)¡La gente dice que grito demasiado,
+pero es mucho más fácil trabajar conmigo
+que con Brabham!\e"
+MS06330015,"\h(«Khazim»)Tú no estabas aquí cuando modificamos el
+motor del Delphinus…… Oyéndole gritar todo el
+día: “¡No sabes lo que haces!”……\e"
+MS06330016,"\h(«Khazim»)¡Eh! ¡Las batallas no se ganan utilizando la
+defensa como táctica!
+¡Estos cañones están listos para atacar!\e"
+MS06330017,"\h(«Khazim»)¡Ya es la segunda vez que el tal Ramírez arrasa
+mi ciudad natal!\e"
+MS06330018,\h(«Khazim»)¡¡Lo pagará!!\e
+MS06330019,"\h(«Khazim»)¡Necesitamos que esos cañones estén listos!
+¡Tenemos una guerra que ganar!\e"
+MS06330020,"\h(«Khazim»)Vyse, tengo que ajustar unas cuentas personales
+con Ramírez. ¡Estoy impaciente por enfrentarme a
+él!\e"
+MS06330021,"\h(«Khazim»)¡Los cañones están listos, y yo también!\c"
+MS06340000,"\h(«Los Hombres de Khazim»)¡Si necesitas algo, sólo tienes que pedírselo a
+Khazim!\c"
+MS06340001,"\h(«Los Hombres de Khazim»)¡Mira cómo brilla! ¡Vamos a agujerear toda la
+flota Valuan y además estaremos relucientes!\e"
+MS06340002,"\h(«Los Hombres de Khazim»)¡Ardo en deseos de empezar a disparar sobre esos
+navíos Valuan!\c"
+MS06340003,"\h(«Los Hombres de Khazim»)Así que vamos a intentar colarnos en Valua
+metiéndonos por debajo.
+¡Es una muy buena idea!\e"
+MS06340004,"\h(«Los Hombres de Khazim»)Espero que podamos acertar de lleno a alguno de
+sus navíos cuando estemos allí.\c"
+MS06340005,"\h(«Los Hombres de Khazim»)Sé que nos dirigimos al Cielo Profundo.
+Ahí aumenta la presión atmosférica.
+¡Voy a hacer algunos ajustes a los cañones!\c"
+MS06340006,"\h(«Los Hombres de Khazim»)Lo sentimos, Capitán.\e"
+MS06340007,"\h(«Los Hombres de Khazim»)La Armada nos ha cogido totalmente
+desprevenidos.
+¡No volverá a pasar!\c"
+MS06340008,"\h(«Los Hombres de Khazim»)¡Me encanta el olor de una cañón bien engrasado!
+¡Vas a tener la oportunidad de disparar a esos
+bebés todo lo que desees!\c"
+MS06350000,"\h(«Los Hombres de Khazim»)Había una chica muy mona aquí hace un minuto.
+¿La has visto?\c"
+MS06350001,"\h(«Los Hombres de Khazim»)Vyse, ¿qué chica del navío de Clara te gusta
+más?\e"
+MS06350002,"\h(«Los Hombres de Khazim»)Lo cierto es que tengo debilidad por las chicas
+con gafas…… Je je.\c"
+MS06350003,"\h(«Los Hombres de Khazim»)Vamos a bucear por debajo de Valua, ¿eh?\e"
+MS06350004,"\h(«Los Hombres de Khazim»)Mientras se trate de disparar a cosas, contad
+conmigo.\c"
+MS06350005,"\h(«Los Hombres de Khazim»)Vyse, en la última reunión de nuestra
+tripulación, la chica de las gafas hizo el
+almuerzo para todos. Fue un gran detalle.\e"
+MS06350006,\h(«Los Hombres de Khazim»)Me preguntaba si podríamos tener otra reunión.\e
+MS06350007,"\h(«Los Hombres de Khazim»)Así que fue Ramírez el que dirigió el ataque
+sobre Nasrad……\e"
+MS06350008,"\h(«Los Hombres de Khazim»)¡Estoy impaciente por enfrentarme a él otra vez!
+¡Voy a llenarle de agujeros!\c"
+MS06350009,"\h(«Los Hombres de Khazim»)Vyse, cuando te vuelvas a enfrentar con Ramírez,
+avísanos. ¡Tenemos cuentas pendientes con él!\c"
+MS14000000,"\h(«Brabham»)¡Ese “Libro del Polo” es asombroso!
+¡Estoy aprendiendo muchísimo!\e"
+MS14000001,"\h(«Brabham»)Quiero ir contigo en el Delphinus.
+Así podré ocuparme del barco de forma
+permanente.\e"
+MS14000002,"\h(«Vyse»)¿O sea que vas a ser nuestro mecánico a bordo?
+¡Eso es genial!
+¡Gracias, Brabham!\e"
+MS14000003,"\h(«Brabham»)Bueno, ¡me alegro de trabajar en un navío de
+esta categoría! ¡Es estupendo y cada día va a
+mejor!\e"
+MS14000004,"\h(«Brabham»)¡Voy a hacer que el Delphinus funcione mejor que
+nunca!\e"
+MS14000005,"\h( )Brabham se ha unido a tu tripulación como
+“Ingeniero”.
+¡Y es increíblemente bueno en lo suyo!\c"
+MS14000006,"\h(«Brabham»)¡Si consigo construir un nuevo motor siguiendo
+el libro que trajiste de Yafutoma, el Delphinus
+podrá volar a alturas inimaginables!\e"
+MS14000007,"\h(«Brabham»)¡Mientras tú estás por ahí de viaje, yo voy a
+estar estudiando y construyendo, sí señor!\c"
+MS14000008,"\h(«Brabham»)¡He reforzado el armazón de proa del navío! ¡Vas
+a poder atravesar los glaciares como si fueran
+de papel!\e"
+MS14000009,"\h(«Brabham»)¡Incluso podrás volar por los arrecifes de
+Ixa'taka!
+¡Mira que soy bueno!\c"
+MS14000010,"\h(«Brabham»)Con ese motor nuevo que construimos usando el
+“Libro del Polo”, ¡el Delphinus podrá volar por
+encima y por debajo de las nubes!\e"
+MS14000011,"\h(«Brabham»)¡Podemos volar por donde queramos!
+¡El cielo es nuestro!
+¡Estoy impaciente!\c"
+MS14000012,"\h(«Brabham»)¡Capitán, unos jóvenes te buscan en la sala de
+reuniones!
+¿Los has visto?\c"
+MS14000013,"\h(«Brabham»)Capitán Vyse, ¡he terminado justo a tiempo!\e"
+MS14000014,"\h(«Brabham»)¡Ahora el Delphinus puede sumergirse!
+¡Es el mejor navío que surca los mares!\c"
+MS14000015,"\h(«Brabham»)Parece que ni el puerto ni el Delphinus
+sufrieron daños en el ataque. ¡Cuando haya
+comprobado que el navío está bien, nos iremos!\e"
+MS14000016,"\h(«Brabham»)Ya se ha hecho el mantenimiento de la nave de
+esa chica, pero…… ¿funcionará bien?\e"
+MS14000017,"\h(«Brabham»)¡El navío de Fina está listo para salir!
+¡Está en el puerto!\c"
+MS14000018,"\h(«Brabham»)¡Bienvenido, Capitán!
+¡Parece que habéis hecho un buen trabajo con el
+Delphinus y la base!\c"
+MS14000019,"\h(«Brahbam»)¡Una isla rarísima ha salido de debajo del Cielo
+Profundo! ¡¿Qué está pasando?!\c"
+MS14000020,"\h(«Brabham»)¡El Delphinus está preparado!
+¡Listo para zarpar en cualquier momento!\c"
+MS14010000,"\h(«Izmael»)¡Hola, Capitán!
+¡He estado muy ocupado trabajando en tu base!
+¡Espero que te guste!\e"
+MS14010001,"\h(«Vyse»)¡Muchas gracias, Izmael!
+¡Me encanta! ¡Te agradezco todo
+lo que has trabajado!\e"
+MS14010002,"\h(«Izmael»)¡Me alegra que sepas apreciar el trabajo bien
+hecho! Ahora que la mayor parte del trabajo en
+la isla ha terminado……\e"
+MS14010003,\h(«Izmael»)¡Me gustaría ir contigo en el navío!\e
+MS14010004,"\h(«Vyse»)¡Nos encantaría tenerte en la tripulación!
+¡Es un placer trabajar contigo!\e"
+MS14010005,"\h(«Izmael»)¡Capitán Vyse, es un honor navegar contigo!\e"
+MS14010006,"\h( )Izmael se ha unido a la tripulación como
+“Constructor”.\e"
+MS14010007,"\h(«Izmael»)¡Tienes que usar la sala de reuniones que he
+construido! ¡No se puede encontrar mejor sala de
+reuniones bajo las Seis Lunas!\c"
+MS14020000,"\h(«Chica Dinámica»)¡Encantada de conocerte!
+Tú eres el Capitán Vyse, ¿no?\e"
+MS14020001,"\h(«Chica Dinámica»)¡La Capitana Clara me dijo que me una a la
+tripulación del Delphinus y que me entrene con
+vosotros para formarme como la mejor artillera!\e"
+MS14020002,"\h(«Chica Dinámica»)Mis amigas Lilly y Nara también vienen. ¡Espero
+que no te importe!\e"
+MS14020003,"\h(«Chica Dinámica»)¡Trabajamos en equipo! ¡Nos ocuparemos de tus
+cañones!
+¡Echaremos a los Valuan de este cielo!\e"
+MS14020004,"\h(«Vyse»)Claro……
+¿Y tú te llamas……?\e"
+MS14020005,"\h(«Chica Dinámica»)¡Uy, perdona! ¡Se me olvidó! ¡O sea, no es que
+haya olvidado mi nombre! ¡Se me olvidó
+decírtelo! ¡Cómo se me iba a olvidar mi nombre!\e"
+MS14020006,"\h(«Chica Dinámica»)Me llamo Belle.
+¡No tengo mucha experiencia con cañones,
+pero pienso esforzarme al máximo!\e"
+MS14020007,"\h(«Vyse»)Desde luego entusiasmo no te falta.
+Te daré una oportunidad,
+a ver qué tal lo haces.\e"
+MS14020008,"\h(«Belle»)¡Sí, señor!
+¡Lo intentaré, señor!\e"
+MS14020009,"\h( )Belle se ha unido a la tripulación como
+“Cañonera”.\e"
+MS14020051,"\h(«Belle»)¡Abriré una tienda en la Isla de la Luna!
+¡Si necesitáis algo para el barco,
+no tenéis más que decirlo!\c"
+MS14020033,"\h(«Belle»)¡Lo siento muchísimo! No puedo creer que la
+Armada nos haya encontrado. Como cañonera, me
+siento responsable……\e"
+MS14020034,"\h(«¿Qué le vas a decir a Belle?»)“¡No te preocupes!”
+“Deberías haber tenido más cuidado.”\e"
+MS14020035,"\h(«Vyse»)¡No te preocupes, Belle!
+Nos han cogido por sorpresa a todos.
+No podrías haber hecho nada para evitarlo.\e"
+MS14020036,"\h(«Vyse»)No debes ser tan dura contigo misma.
+Lo importante es que todos estamos bien.\e"
+MS14020037,"\h(«Belle»)Sí, supongo que sí. ¡Bueno, voy a empezar a
+echar una mano con la base!
+¡Podemos construir una base aún mejor!\e"
+MS14020038,"\h(«Vyse»)Si hubieras prestado más atención, les habrías
+visto venir. Como castigo vas a limpiar toda
+esta suciedad.\e"
+MS14020039,"\h(«Vyse»)Yo también debería haber prestado más atención,
+así que limpiaré esta suciedad contigo.
+¿Te parece justo?\e"
+MS14020040,"\h(«Belle»)¡Sí, señor!
+¡Cumpliré con mi deber!\c"
+MS14020041,\h(«Belle»)¡Voy a trabajar duro!\c
+MS14020010,"\h(«Belle»)¡Bienvenido, Capitán!\e"
+MS14020011,"\h(«¿Qué quieres hacer?»)“Comprar o vender equipamiento de navío.”
+“Cotillear.”
+“Salir.”\e"
+MS14020012,"\h(«Belle»)¡Ohhh! Soy tan distraída.
+¡Le di a Brabham el equivocado! Espero que se dé
+cuenta antes de que sea demasiado tarde……\e"
+MS14020013,"\h(«Belle»)Como no estoy acostumbrada a llevar una tienda,
+me equivoco continuamente…… La verdad es que
+siempre estoy metiendo la pata.\e"
+MS14020014,"\h(«Belle»)¡Pero estoy decidida a hacer las cosas sin
+equivocarme! ¡Para eso estoy aquí!
+¡Voy a hacer que las cosas me salgan bien!\c"
+MS14020015,"\h(«Belle»)¡Lo voy a intentar con todas mis fuerzas! ¡Algún
+día llegaré a ser una Pirata Aérea como la
+Capitana Clara!\c"
+MS14020016,"\h(«Belle»)Cuando lleguemos a Valua, ¡voy a volarles toda
+la flota! ¡Que se acerquen! ¡Espero no estar
+errando el tiro todo el rato!\e"
+MS14020017,"\h(«Vyse»)Bueno, la verdad es que vamos a colarnos en el
+espació aéreo de Valua volando por debajo de las
+islas.\e"
+MS14020018,"\h(«Belle»)Oh, je, je, je…… ¡Bueno, creo que eso tiene más
+sentido que atacar a toda la Armada Valuan de
+frente! ¡Gran idea, Capitán!\e"
+MS14020019,"\h(«Belle»)¡Como creía que les íbamos a atacar, he cargado
+más cañones de los necesarios! Hasta he cargado
+munición de sobra por si acaso fallo.\c"
+MS14020020,"\h(«Belle»)¡Bueno, como ya tenemos suficiente munición,
+podemos enfrentarnos a ellos! ¡Sería una pena
+desperdiciar todas esas balas de cañón!\c"
+MS14020044,"\h(«Belle»)Vamos a Valua, ¿no? ¡Genial! Voy a preparar los
+cañones y volaremos a esos Valuan……\e"
+MS14020045,"\h(«Vyse»)Un momento…… todavía no vamos a lanzar una
+ofensiva sobre Valua. Lo único que queremos es
+entrar en la isla.\e"
+MS14020046,"\h(«Belle»)¿Eh? ¡Anda! ¡Perdón! Creía…… que…… oh
+no…… No puedo creer que sea tan despistada.\e"
+MS14020047,"\h(«Belle»)Hasta he sacado brillo a las balas de cañón.
+Tenía tantas ganas de demostrarles a todos
+que podía hacer un buen trabajo. En fin……\c"
+MS14020048,"\h(«Belle»)Bueno, aunque haya metido la pata, ¡por lo menos
+he limpiado la munición de los cañones!
+¡Úsala cuando se te antoje!\c"
+MS14020049,"\h(«Belle»)¿En serio? ¿Con los planos que encontraste se
+puede fabricar un motor capaz de llevarnos
+debajo del mar de Grandes Nubes?\e"
+MS14020050,"\h(«Belle»)¡Eso es genial!
+Puede que sea un poco torpe, pero ayudaré a
+construir un buen motor, ¿vale?\c"
+MS14020021,"\h(«Belle»)¡Por fin vamos debajo del mar de Grandes Nubes!
+¡Me he estado entrenando a contener la
+respiración! ¿Quieres que te enseñe?\e"
+MS14020022,"\h(«Vyse»)¿A contener la respiración? No, no, no……
+Mientras estemos dentro del Delphinus,
+podemos respirar con normalidad.\e"
+MS14020023,"\h(«Belle»)¿En serio?
+Supongo que tiene sentido.\e"
+MS14020024,"\h(«Belle»)Creía que no íbamos a tener nada de oxígeno, así
+que he estado practicando: metía la cabeza en el
+estanque. ¡Qué tonta soy!\c"
+MS14020025,"\h(«Belle»)¡Qué bien que podamos respirar ahí abajo, porque
+yo era la única que había estado entrenando a
+aguantar la respiración!\c"
+MS14020042,\h(«Belle»)¡Te vas al Gran Relicario de Plata!\e
+MS14020043,"\h(«Belle»)¡Cuando vuelvas, este lugar parecerá nuevo!\c"
+MS14020026,"\h(«Belle»)Bueno, ¿qué te parece como ha quedado la isla?
+Todavía estoy agotada de perseguir gallinas
+por todas partes.\e"
+MS14020027,"\h(«Belle»)Y con toda la basura hemos hecho una hoguera
+enorme junto al estanque. ¡Nos lo hemos pasado
+genial!\e"
+MS14020028,"\h(«Belle»)¡Anda! Se supone que eso no te lo tenía que
+contar…… No le digas a nadie que te lo he
+contado, ¿vale?\c"
+MS14020029,"\h(«Belle»)Por favor, no le digas a nadie que sabes lo de
+la hoguera……\c"
+MS14020052,"\h(«Belle»)No puedo creer que casi haya llegado el momento
+de la batalla con Galcian…… Qué nervios……\e"
+MS14020053,"\h(«Belle»)¡¡Pero sabiendo que la Capitana Clara y los
+demás Piratas Aéreos van a luchar con nosotros,
+sé que vamos a ganar!!\c"
+MS14020030,"\h(«Belle»)¡Así que vamos a enfrentarnos a Ramírez!
+¡Lo haré lo mejor que pueda!\e"
+MS14020031,"\h(«Belle»)Sé que aún me queda mucho que aprender, ¡pero lo
+voy a hacer lo mejor que pueda en la batalla
+contra Ramírez!\c"
+MS14020032,"\h(«Belle»)¡Muchísimas gracias!
+¡Vuelve pronto!\e"
+MS14090000,"\h(«Lilly»)¡Igual que la Capitana Clara, encontraré mi
+verdadero amor surcando los cielos!\e"
+MS14090001,"\h(«Lilly»)¡Navegaré por todo el mundo y conoceré
+al chico más guapo que exista!\c"
+MS14090002,"\h(«Lilly»)¿Crees que habrá chicos guapos en el Gran
+Relicario de Plata?
+Si los hay, ¿les hablarás de mí?\c"
+MS14090003,"\h(«Lilly»)¿Vais al Cielo Profundo?
+He oído cosas terribles sobre ese lugar.
+¡Ten mucho cuidado!\e"
+MS14090004,"\h(«Lilly»)Si hay chicos, seguro que son todos pálidos y
+están encantados.
+No creo que me interese un chico de allí.\c"
+MS14090011,"\h(«Lilly»)Estábamos sentados en el puerto,
+¡y de repente empezaron las explosiones!\e"
+MS14090012,"\h(«Lilly»)¡Empezaron a caer rocas y cosas, y había humo
+por todos sitios! ¡Belle tenía tanto miedo que
+empezó a llorar!\c"
+MS14090013,"\h(«Lilly»)¿Os vais al país de Fina? ¡Caray! Que os
+divirtáis…… Bueno…… si allí se divierten.
+Fina es muy seria, ¿verdad?\c"
+MS14090005,"\h(«Lilly»)Capitán Vyse, ¡pasé mucho miedo en la batalla
+del otro día!\e"
+MS14090006,"\h(«Lilly»)Pero ese Almirante, ¡qué guapo era!
+Me encantan los uniformes.\e"
+MS14090007,"\h(«Lilly»)Pero los que se dedican a matar no son mi
+tipo. No te enfades…… Sé que tú eres de los
+buenos, pero no me gustan las malas personas.\c"
+MS14090014,"\h(«Lilly»)Veo que incluso tú, Capitán Vyse, estás un
+poco nervioso por la batalla con Galcian.\e"
+MS14090015,"\h(«Lilly»)¡Bueno, con tres guapísimas artilleras a
+bordo, no tienes de qué preocuparte!\c"
+MS14090008,"\h(«Lilly»)Así que vas a luchar contra ese Almirante tan
+guapo por Fina, ¿eh?\e"
+MS14090009,"\h(«Lilly»)Ja, ja, era una broma. No lo decía en serio.\e"
+MS14090010,"\h(«Lilly»)¡Ahora en serio, Vyse, nos tienes que llevar a
+la victoria! ¡¡¡Luego podremos venir a
+celebrarlo!!!\c"
+MS14100000,"\h(«Nara»)¡He oído que la Capitana Clara tenía nuestra
+edad cuando conoció a Gilder! Lo conoció
+en el puerto de su ciudad.\e"
+MS14100001,"\h(«Nara»)Se enamoró locamente de él.
+Pero el destino iba en su contra y Gilder se fue
+de la ciudad al día siguiente para hacerse
+Pirata Aéreo.\e"
+MS14100002,\h(«Nara»)No fue el mejor momento.\c
+MS14100003,"\h(«Nara»)¡Más tarde, la Capitana Clara encontró el navío
+de Gilder!
+¡Estaba tan contenta!\e"
+MS14100004,"\h(«Nara»)Disparó al navío para llamar su atención.
+Gilder respondió el fuego con más disparos.
+Qué romántico.\e"
+MS14100005,"\h(«Nara»)Siento una gran admiración por la Capitana
+Clara. ¡Es tan apasionada!\c"
+MS14100006,"\h(«Nara»)El Capitán Gilder debe estar haciéndose de
+rogar, porque lleva huyendo de ella desde
+entonces.\e"
+MS14100007,"\h(«Nara»)Debería saber que no tiene por qué hacerse el
+interesante para tener a Clara a sus pies.\e"
+MS14100008,\h(«Nara»)Pero en fin…… el amor es ciego.\c
+MS14100012,"\h(«Nara»)Belle y Lilly tenían mucho miedo. Creo que ahora
+se encuentran mejor.\c"
+MS14100013,"\h(«Nara»)¿Te vas al país de Fina?
+¡Ten mucho cuidado, Capitán!\e"
+MS14100009,"\h(«Nara»)¡La Capitana Clara está recorriendo todo el
+mundo porque quiere hacerle a Gilder el
+pastel más grande del planeta!\e"
+MS14100010,"\h(«Nara»)En una ocasión atacó el navío de Gordo para
+robar lo que se consideraba la mejor tarta
+crocanti del mundo.\e"
+MS14100011,"\h(«Nara»)Siento una gran admiración por la Capitana Clara
+y su perfeccionismo.\c"
+MS14100016,"\h(«Nara»)Por fin ha llegado el momento de enfrentarse a
+Galcian, ¿eh?\e"
+MS14100017,"\h(«Nara»)Luchar contra la Armada…… luchar contra
+Galcian…… ¡¡¡Es tan emocionante!!!\c"
+MS14100014,"\h(«Nara»)Después de haber salvado al mundo, ¿creéis que
+los chicos se van a sentir intimidados por mí?\e"
+MS14100015,"\h(«Nara»)Espero que no. Sé que en algún lugar hay
+alguien…… esperando para conocerme.\c"
+Ms017e000,"\h(«Vyse»)These are our food and supplies…
+We buy some of it, and steal the rest.\c"
+Ms017e001,"\h(«Vyse»)It really feels good to fire the main cannons
+of the Delphinus. There's just so much power
+behind them…\c"
+Ms017e002,"\h(«Vyse»)Someone left some paint cans here. Come to think
+of it… what exactly were they painting, anyway?\c"
+Ms017e003,"\h(«Vyse»)These are filled with as many Moon Stones as
+we could find. The Delphinus is a big ship
+and requires a lot of fuel to keep her running.\c"
+Ms017e004,"\h(«Vyse»)Alright… Who's the one who left the
+opened bottle of loqua just sitting here?\c"
+Ms017e005,"\h(«Vyse»)It's a picture of Pirate Isle…
+Dad said he set up his base when he was 19.
+Heh… Looks like I beat him…\c"
+Ms017e006,"\h(«Vyse»)I probably should leave this thing alone.
+Brabham has a fit if anyone besides him
+touches the crane switch.\c"
+Ms017e007,"\h(«Vyse»)It's a globe. Even though we sailed all the way
+around the world, it's still a little hard to
+believe that the world really is round.\c"
+Ms017e008,"\h(«Vyse»)Hey, there're models of a bunch
+of different ships.
+I want one in my room, too.\c"
+Ms017e009,"\h(«Vyse»)After voyages, Fina makes us tea
+here. It tastes pretty good, too.\c"
+Ms017e010,"\h(«Vyse»)Here's everyone's cups. Ugh, I see
+that Brabham has put his denture
+container next to the cups, too.\c"
+Ms017e011,"\h(«Vyse»)Who had the cleaning shift yesterday?
+There's still water in this bucket!\c"
+Ms017e012,"\h(«Vyse»)This is Brabham's guitar.
+He's got a good voice,
+even if most of his teeth are gone.\c"
+Ms017e013,"\h(«Vyse»)There's all kinds of toys in here.
+Air Pirates work hard, fight hard
+and play hard.\c"
+Ms017e014,"\h(«Vyse»)It's important to maintain the cannons
+so they work well when it really counts.\c"
+Ms017e015,"\h(«Vyse»)There're some tools and…
+Alright… who left their dirty towel
+here?! That's pretty disgusting…\c"
+Ms017e016,"\h(«Vyse»)Before we leave, we need to pick a
+destination. We should head to the
+meeting room to decide on something.\c"
+Ms017e017,"\h(«Brabham»)Dag-nabbit!
+Where do you think your going?!
+The Delphinus is still being worked on!!\c"
+Ms017e018,"\h(«Vyse»)I really hate sitting here doing nothing, but
+it doesn't look like we've got much choice.
+We'll head out first thing tomorrow morning.\c"
+Ms017e021,"\h(«Vyse»)I should probably ask old Brabham
+if he's finished with the modifications
+before we leave.\c"
+Ms017e019,"\h(«What will you do?»)“Return to your ship.”
+“Stay here a little while longer.”\c"
+Ms017e020,"\h(«What will you do?»)“Set sail for the Great Silver Shrine.”
+“Stay here a little while longer.”\c"
+MFs017e000,"\h(«Vyse»)Voici nos provisions……
+Nous en achetons une partie et nous volons le
+reste.\c"
+MFs017e001,"\h(«Vyse»)C'est vraiment agréable de tirer avec les canons
+principaux du Delphinus. Ils sont tellement
+puissants……\c"
+MFs017e002,"\h(«Vyse»)Quelqu'un a laissé des bombes de peinture ici.
+Mais quand j'y pense…… Que peignaient-ils
+exactement ?\c"
+MFs017e003,"\h(«Vyse»)Celles-ci contiennent autant de Pierres de Lune
+que nous pouvions en trouver. Le Delphinus est
+un grand navire qui nécessite beaucoup de
+carburant pour pouvoir naviguer.\c"
+MFs017e004,"\h(«Vyse»)Bon…… Qui a laissé la bouteille de loqua, qui se
+trouve ici, ouverte ?\c"
+MFs017e005,"\h(«Vyse»)C'est une photo de l'Île des Pirates……
+Papa a dit qu'il avait établi sa base quand il
+avait 19 ans.
+Hé…… On dirait que je l'ai battu……\c"
+MFs017e006,"\h(«Vyse»)Je devrais arrêter de toucher cette chose.
+Brabham a une attaque quand quelqu'un d'autre
+que lui touche les commandes de la grue.\c"
+MFs017e007,"\h(«Vyse»)C'est un globe. Même si nous avons navigué tout
+autour du monde, il est difficile de croire que
+le monde est vraiment rond.\c"
+MFs017e008,"\h(«Vyse»)Hé, il y a des maquettes de navires différents.
+J'en veux une dans ma chambre, moi aussi.\c"
+MFs017e009,"\h(«Vyse»)Après chaque traversée, Fina nous fait du thé
+ici. Et, il est plutôt bon.\c"
+MFs017e010,"\h(«Vyse»)Voilà les tasses de tout le monde. Beurk,
+Brabham a mis le récipient qui contient
+son dentier à côté des tasses.\c"
+MFs017e011,"\h(«Vyse»)Qui était de corvée de nettoyage hier ?
+Il y a encore de l'eau dans le seau !\c"
+MFs017e012,"\h(«Vyse»)C'est la guitare de Brabham.
+Il a une belle voix, même s'il n'a presque
+plus de dents.\c"
+MFs017e013,"\h(«Vyse»)Il y a toutes sortes de jouets ici.
+Les Pirates de l'air travaillent avec
+acharnement, se battent avec ardeur et jouent
+avec ferveur.\c"
+MFs017e014,"\h(«Vyse»)Il est important d'entretenir les canons pour
+qu'ils fonctionnent bien quand on a vraiment
+besoin d'eux.\c"
+MFs017e015,"\h(«Vyse»)Il y a quelques outils et…… bon…… qui a laissé
+cette serviette sale ici ?! C'est dégoûtant……\c"
+MFs017e016,"\h(«Vyse»)Avant de partir, nous devons choisir une
+destination.
+Nous devrions aller à la salle de réunion pour
+prendre une décision.\c"
+MFs017e017,"\h(«Brabham»)Sapristi !
+Où crois-tu aller ?!
+On travaille toujours sur le Delphinus !!\c"
+MFs017e018,"\h(«Vyse»)Je deteste me tourner les pouces, mais on
+dirait que l'on a pas trop le choix.
+On partira très tôt demain matin.\c"
+MFs017e021,"\h(«Vyse»)Avant de partir, je devrais demander au vieux
+Brabham s'il a fini les modifications.\c"
+MFs017e019,"\h(«Que ferez-vous ?»)“Vous retournerez sur votre navire.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MFs017e020,"\h(«Que ferez-vous ?»)“Vous partirez pour le Grand Temple d'Argent.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MGs017e000,"\h(«Vyse»)Das sind unsere Nahrungs- und
+Versorgungsmittel…… Wir kaufen ein paar
+und stehlen den Rest.\e"
+MGs017e001,"\h(«Vyse»)Es macht Spaß, die Hauptkanonen der
+Delphinus abzufeuern. Da steckt so viel
+Kraft dahinter……\c"
+MGs017e002,"\h(«Vyse»)Jemand hat einige Farbtöpfe hier gelassen.
+Wenn man so drüber nachdenkt…… was
+haben die überhaupt angestrichen?\c"
+MGs017e003,"\h(«Vyse»)Die sind mit so vielen Moon Stones
+gefüllt, wie wir finden konnten. Die Delphinus
+ist ein großes Schifff und braucht eine Menge
+Treibstoff.\c"
+MGs017e004,"\h(«Vyse»)Aha…… Wer hat die offene Flasche
+einfach hier stehen lassen?\c"
+MGs017e005,"\h(«Vyse»)Es ist ein Bild von Pirate Isle……
+Dad erzählte, er habe seine Basis mit 19
+gegründet. Heh…… Sieht so aus, als ob
+ich ihn schlagen würde……\c"
+MGs017e006,"\h(«Vyse»)Ich sollte wahrscheinlich dieses Ding in
+Ruhe lassen. Brabham bekommt einen
+Wutanfall, wenn irgendjemand außer ihm
+den Kranschalter anfasst.\c"
+MGs017e007,"\h(«Vyse»)Es ist ein Globus. Obwohl wir um die ganze
+Welt gesegelt sind, fällt es immer noch schwer,
+zu glauben, dass die Welt wirklich rund ist.\c"
+MGs017e008,"\h(«Vyse»)Hey, eine ganze Reihe von Modellen
+verschiedener Schiffe. Ich möchte eins
+in meinem Zimmer haben.\c"
+MGs017e009,"\h(«Vyse»)Nach Reisen macht uns Fina hier
+Tee. Er schmeckt ziemlich gut.\c"
+MGs017e010,"\h(«Vyse»)Hier sind die Tassen. Uhh, Brabham
+hat den Behälter für sein Gebiss
+gleich neben die Tassen gestellt.\c"
+MGs017e011,"\h(«Vyse»)Wer hatte gestern Putzdienst?
+Da ist noch Wasser im Eimer!\c"
+MGs017e012,"\h(«Vyse»)Das ist Brabhams Gitarre.
+Er hat eine gute Stimme, obwohl ihm die
+meisten seiner Zähne fehlen.\c"
+MGs017e013,"\h(«Vyse»)Hier gibt es alle möglichen Spiele.
+Luftpiraten arbeiten, kämpfen und
+und spielen viel.\c"
+MGs017e014,"\h(«Vyse»)Es ist wichtig, die Kanonen zu warten,
+damit sie richtig funktionieren, wenn es drauf
+ankommt.\c"
+MGs017e015,"\h(«Vyse»)Da sind einige Werkzeuge und……
+aha…… wer hat sein dreckiges Handtuch
+hier gelassen?! Das ist ziemlich ekelhaft……\c"
+MGs017e016,"\h(«Vyse»)Bevor wir aufbrechen, müssen wir uns
+für ein Ziel entscheiden. Wir sollten zum
+Konferenzraum gehen und uns für
+etwas entscheiden.\c"
+MGs017e017,"\h(«Brabham»)Dag-nabbit!
+Wo willst du hin?!
+Die Delphinus ist immer noch in Reparatur!!\c"
+MGs017e018,"\h(«Vyse»)Ich hasse es wirklich, hier einfach rumzusitzen
+und nichts zu tun, aber es bleibt uns wohl
+nichts anderes übrig. Wir brechen morgen
+in aller Frühe auf.\c"
+MGs017e021,"\h(«Vyse»)Ich sollte wohl den alten Brabham
+fragen, ob er mit den Veränderungen fertig
+ist, bevor wir aufbrechen.\c"
+MGs017e019,"\h(«Was wirst du tun?»)“Zu deinem Schiff zurückkehren.”
+“Eine Weile hier bleiben.”\c"
+MGs017e020,"\h(«Was wirst du tun?»)“Segel Richtung Great Silver Shrine setzen.”
+“Eine Weile hier bleiben.”\c"
+MSs017e000,"\h(«Vyse»)Estas son nuestras provisiones y comida……
+Parte lo compramos, y el resto, lo robamos.\c"
+MSs017e001,"\h(«Vyse»)Qué fantástica sensación el disparar los cañones
+del Delphinus…… ¡Son tan potentes!\c"
+MSs017e002,"\h(«Vyse»)Alguien se dejó latas de pintura aquí.
+Piénsalo un segundo,
+¿qué estarían pintando?\c"
+MSs017e003,"\h(«Vyse»)Estos están cargados con el máximo de Piedras
+Lunares. El Delphinus es un navío grande y
+necesita mucho combustible.\c"
+MSs017e004,"\h(«Vyse»)Vale…… ¿Quién ha sido el que ha dejado
+la botella de loqua abierta aquí?\c"
+MSs017e005,"\h(«Vyse»)Es un cuadro de la Isla del Pirata.
+Mi padre me contó que fundó su base cuando tenía
+19 años. Me parece que le he ganado……\c"
+MSs017e006,"\h(«Vyse»)Creo que debería dejar esto tal y como está.
+Brabham se enfada si alguien toca el botón de la
+grúa.\c"
+MSs017e007,"\h(«Vyse»)Es un globo. Aunque ya hayamos navegado por
+todo el mundo, todavía me parece increíble
+que el mundo sea realmente redondo.\c"
+MSs017e008,"\h(«Vyse»)Oye, hay maquetas de muchos navíos.
+Yo también quiero una para mi habitación.\c"
+MSs017e009,"\h(«Vyse»)Después de los viajes, Fina nos prepara
+una taza de té que está deliciosa.\c"
+MSs017e010,"\h(«Vyse»)Aquí están todas las tazas.
+Uy, Brabham se ha dejado el vaso
+con su dentadura al lado de las tazas.\c"
+MSs017e011,"\h(«Vyse»)¿A quién le tocó limpiar ayer?
+¡Todavía hay agua en este cubo!\c"
+MSs017e012,"\h(«Vyse»)Ésta es la guitarra de Brabham.
+Tiene buena voz, aunque le faltan
+casi todos los dientes.\c"
+MSs017e013,"\h(«Vyse»)Hay toda clase de juguetes aquí.
+Los Piratas Aéreos trabajan mucho,
+luchan mucho y juegan mucho.\c"
+MSs017e014,"\h(«Vyse»)El buen mantenimiento de los cañones
+es importante para que funcionen bien
+cuando se necesitan.\c"
+MSs017e015,"\h(«Vyse»)También hay algunas herramientas…… Pero……
+¡¿Quién se ha dejado una toalla sucia aquí?!
+¡Qué asco, por favor!\c"
+MSs017e016,"\h(«Vyse»)Antes de partir, tenemos que elegir
+un destino. Deberíamos ir a la Sala de
+Reuniones para tomar una decisión.\c"
+MSs017e017,"\h(«Brabham»)¡Oye! ¿A dónde crees que vas?
+¡Todavía se está trabajando en el Delphinus!\c"
+MSs017e018,"\h(«Vyse»)Odio quedarme aquí parado sin hacer nada,
+pero no tenemos elección. Saldremos
+mañana por la mañana a primera hora.\c"
+MSs017e021,"\h(«Vyse»)Creo que debería preguntarle al viejo Brabham si
+ha acabado con los arreglos, antes de partir.\c"
+MSs017e019,"\h(«¿Qué vas a hacer?»)“Volver al navío.”
+“Quedarme aquí un rato más.”\c"
+MSs017e020,"\h(«¿Qué vas a hacer?»)“Partir hacia el Gran Relicario de Plata.”
+“Quedarme aquí un poco más.”\c"
+"",me017b.sct
+"",me017f.sct
+"",me017b.sct
+"",me017f.sct
+"",a017e_hb.mld
+"",a017e_hc.mld
+"",a017e_ha.mld
+"",a017e_hf.mld
+"",a017e_he.mld
+"",me017h.sct
+"",me017i.sct
+"",me017b.sct
+"",me017f.sct
+"",me017d.sct
+"",a017e_hb.mld
+"",a017e_hc.mld
+"",a017e_ha.mld
+"",a017e_hf.mld
+"",a017e_he.mld
+"",me250a.sct
+"",me250a.sct
+"",M0242
+"",M0243
+"",M5170000
+"",a017ei14.mld
+"",a017ei14.mld
+"",e6i014
+"",M0243
+"",a017ei14.mld
+"",a017ei15.mld
+"",a017ei15.mld
+"",e6i015
+"",M0243
+"",a017ei15.mld
+"",a017ej03.mld
+"",a017ej03.mld
+"",e6j003
+"",M0312
+"",a017ej03.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",a017ej10.mld
+"",a017ej10.mld
+"",e6j010
+"",M0329
+"",M0311
+"",M0311
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",a017ej10.mld
+"",a017ek01.mld
+"",a017ek01.mld
+"",e6k001
+"",M0243
+"",a017ek01.mld

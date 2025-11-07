@@ -1,0 +1,594 @@
+[Event Name],Task ID
+Ms017c000,"\h(《ヴァイス》)船に積まれてた設計図をもとに
+ブラバムが作ってくれた
+デルフィナス初期型の模型だ。\c"
+Ms017c001,"\h(《ヴァイス》)エンリックが持って来た
+バルアの文献も並んでる。
+あいつのウンチクの元だ。\c"
+Ms017c002,"\h(《ヴァイス》)「クルー対抗隠し芸大会」……
+「地下港大掃除のお知らせ」……\c"
+Ms017c003,"\h(《ヴァイス》)すごい迫力の絵だよなー。
+デルフィナスの着工式の時に
+エンリックに贈られた物らしい。\c"
+Ms017c004,"\h(《ヴァイス》)ぶんどってきたお宝だ。
+宝箱の中身は月Ж石で
+なかなかの収穫だったんだよな。\c"
+Ms017c005,"\h(《ヴァイス》)各地の地図が置いてある棚だ。
+地図は何しろ貴重品だから
+痛まないように保管しないとな。\c"
+Ms017c006,"\h(《ヴァイス》)俺の航海日誌だ。
+ブリッジ勤務員は、それぞれ
+日誌をつけることにしてるんだ。\c"
+M14050000,"\h(《Domingo》)Hey Vyse, how's it going? 
+Still trying to explore as much of the world as
+you can, I see.\e"
+M14050001,\h(《Domingo》)Well then… let me check out your Discovery Log.\e
+M14050002,"\h(《Domingo》)Ah, you've made \c Discoveries!\e"
+M14050003,"\h(《Domingo》)I'm disappointed in you, Vyse! If this is the 
+best you can do, you'll never be 
+remembered as a great explorer.\e"
+M14050004,"\h(《Domingo》)If you find any more artifacts, or make any more
+discoveries, come back and see me. If you 
+impress me, I'll make sure you are rewarded.\c"
+M14050005,\h(《Domingo》)Hmm… You've made \c Discoveries.\e
+M14050006,\h(《Domingo》)You haven't found much since I last saw you.\e
+M14050007,\h(《Domingo》)I'll give you something when you find some more.\e
+M14050008,"\h(《Domingo》)Not bad, you've made \c Discoveries!\e"
+M14050009,"\h(《Domingo》)That's much better, Vyse. You've done 
+extraordinarily well. I wouldn't expect less 
+from a renowned sailor like yourself.\e"
+M14050010,"\h(《Domingo》)As I promised, I'll reward you.\e"
+M14050011,\h(《》)You got (gift at 30)!\e
+M14050012,"\h(《Domingo》)If you make some more Discoveries, 
+I'll reward you again.\e"
+M14050013,"\h(《Domingo》)Wow, you've made \c Discoveries!"
+M14050014,"\h(《Domingo》)That's the spirit! Finding someone with 
+a Discovery Log as full as yours would be 
+a discovery in itself.\e"
+M14050015,"\h(《Domingo》)Like I promised… here's a little
+something I put together for you.\e"
+M14050016,\h(《》)You got (gift at 40)!\e
+M14050017,"\h(《Domingo》)Once you make 50 Discoveries, I'll give you
+another present.\c"
+M14050018,\h(《Domingo》)Whoa! You've made \c Discoveries!\e
+M14050019,"\h(《Domingo》)Now THAT'S impressive! 
+You really are something else!\e"
+M14050020,"\h(《Domingo》)You're one of the greatest explorers 
+of our time. You've earned this!\e"
+M14050021,\h(《》)You received 1 ”Phantom Ring.”\e
+M14050022,"\h(《Domingo》)Now, if you can completely fill up your
+Discovery Log, then I will give you 
+my most prized possession!\c"
+M14050118,"\h(《Domingo》)Wow!
+You've made ＊＊ Discoveries already!\e"
+M14050119,"\h(《Domingo》)You really are great, Vyse!
+Not many people can boast discovering this many
+things a single lifetime, you know.\e"
+M14050120,"\h(《Domingo》)You really are the greatest Air Pirate that ever
+lived! Well, I believe so, anyway. But, like I
+promised, here's your gift!\e"
+M14050121,\h(《》)You got (gift at 40)!\e
+M14050122,\h(《》)You received 1 ”Phantom Ring.”\e
+M14050123,"\h(《Domingo》)Now, if you can completely fill up your
+Discovery Log, then I will give you my
+most prized possession.\c"
+M14050023,\h(《Domingo》)Vyse! You've completely filled your Log Book!\e
+M14050024,\h(《Domingo》)You're amazing!\e
+M14050025,"\h(《Domingo》)Vyse, you are one of the greatest explorers in 
+history! Not even the Legendary Daccat can
+measure up to you!\e"
+M14050026,"\h(《Domingo》)You are worthy of my most prized possession!
+You can have my title as ”Treasure Hunter
+Extraordinaire!”\e"
+M14050027,\h(《》)You got (gift at 30)!\e
+M14050028,\h(《》)You got (gift at 40)!\e
+M14050029,\h(《》)You got (gift at 50)!\e
+M14050030,\h(《》)You got (final gift)!\e
+M14050031,\h(《Domingo》)Vyse! You've completely filled your Log Book!\e
+M14050032,\h(《Domingo》)You're amazing!\e
+M14050033,"\h(《Domingo》)Vyse, you are one of the greatest explorers in 
+history! Not even the Legendary Daccat can
+measure up to you!\e"
+M14050034,"\h(《Domingo》)You are worthy of my most prized possession!
+You can have my title as ”Treasure Hunter
+Extraordinaire!”\e"
+M14050035,\h(《》)You got (gift at 40)!\e
+M14050036,\h(《》)You received 1 ”Phantom Ring.”\e
+M14050037,"\h(《》)You received ”Proof that Domingo has given you
+his title as Treasure Hunter Extraordinaire.”\c"
+M14050038,\h(《Domingo》)Vyse! You've completely filled your Log Book!\e
+M14050039,\h(《Domingo》)You're amazing!\e
+M14050040,"\h(《Domingo》)Vyse, you are one of the greatest explorers in 
+history! Not even the Legendary Daccat can
+measure up to you!\e"
+M14050041,"\h(《Domingo》)You are worthy of my most prized possession!
+You can have my title as ”Treasure Hunter
+Extraordinaire!”\e"
+M14050042,\h(《》)You got (gift at 50)!\e
+M14050043,\h(《》)You got (final gift)!\e
+M14050044,\h(《Domingo》)Vyse! You've completely filled your Log Book!\e
+M14050045,\h(《Domingo》)You're amazing!\e
+M14050046,"\h(《Domingo》)Vyse, you are one of the greatest explorers in 
+history! Not even the Legendary Daccat can
+measure up to you!\e"
+M14050047,"\h(《Domingo》)You are worthy of my most prized possession!
+You can have my title as ”Treasure Hunter
+Extraordinaire!”\e"
+M14050048,"\h(《》)You received ”Proof that Domingo has given you
+his title as Treasure Hunter Extraordinaire.”\c"
+M14050049,"\h(《Domingo》)Vyse! You are the greatest explorer the world
+has ever known!\e"
+M14050050,\h(《Domingo》)It is an honor to have met you.\c
+MI0020000,"\h(《Vyse》)Hmm…
+It's still hard for me to believe that Izmael
+turned this deserted island into a base.\e"
+MI0020001,"\h(《Fina》)Vyse…
+Aika…
+Enrique…\e"
+MI0020002,"\h(《Fina》)Thank you for everything you've done. So far,
+we've managed to get three of the Moon Crystals.\e"
+MI0020003,"\h(《Fina》)I never would have made it this far on my own. 
+Thank you so much.\e"
+MI0020004,"\h(《Aika》)Come on, Fina!
+You don't have to thank us!\e"
+MI0020005,"\h(《Vyse》)Yeah, if it wasn't for you, I don't think we
+would've ever gotten the chance to sail around
+the world! We should be thanking you!\e"
+MI0020006,"\h(《Enrique》)Fina, I don't know if you realized it yet, but
+your mission has helped us all. And we've all
+grown to be such good friends.\e"
+MI0020007,\h(《Fina》)Yes… Thank you… I mean you're welcome.\e
+MI0020008,"\h(《Fina》)Until recently, I lived a sheltered life. I was
+scared when the elders asked me to search
+for the Crystals… And I was alone.\e"
+MI0020009,"\h(《Fina》)Since then, I've made some great friends,
+and I get excited when we explore new lands…
+Even the ones with monsters.\e"
+MI0020010,"\h(《Aika》)Yeah… when you first heard what we did for a
+living, you seemed really surprised… almost
+intimidated.\e"
+MI0020011,"\h(《Vyse》)You're sounding more like an Air Pirate every
+day. Before you know it, you'll be dressing like
+us… and Cupil will be wearing an eye patch.\e"
+MI0020012,"\h(《Vyse》)Hey, that reminds me.
+Do you know where we should go to get the next
+Moon Crystal?\e"
+MI0020013,"\h(《Fina》)Yes, I do.\e"
+MI0020014,"\h(《Fina》)To the far south, lies a land that basks in the 
+cold light of the Purple Moon. 
+It is known as the Land of Ice.\e"
+MI0020015,\h(《Fina》)The Purple Moon Crystal should be hidden there.\e
+MI0020016,\h(《Vyse》)Land of Ice?\e
+MI0020017,"\h(《Fina》)The Purple Moon is the source of power for 
+all Ice Magic.\e"
+MI0020018,"\h(《Fina》)And because of that, the lands under the moon 
+have become encased in ice.\e"
+MI0020019,"\h(《Aika》)I've heard stories about that place… Some of 
+the others back home used to tell me about 
+the rumors they'd hear.\e"
+MI0020020,"\h(《Aika》)I heard that the air is so cold, that anyone who
+goes there will be frozen solid in a matter of
+seconds…\e"
+MI0020021,"\h(《Aika》)I don't want to have to chisel you out of the
+ice, Vyse.\e"
+MI0020022,"\h(《Vyse》)Where do you get these stories? First, I was 
+going to catch on fire, then people were going 
+to eat us with sticks, now I'm going to freeze.\e"
+MI0020023,"\h(《Vyse》)Getting the Crystal is not going to be easy, 
+but I think your overactive imagination is 
+getting the best of you.\e"
+MI0020024,"\h(《Aika》)What do you mean?!
+Alright… fine. When you become a Vysicle,
+don't come crying to me!\e"
+MI0020025,"\h(《Fina》)Hahaha…
+I'm sure everything will be alright.
+I doubt it's that cold, Aika.\e"
+MI0020026,"\h(《Enrique》)Well, according to our Valuan archaeologists…\e"
+MI0020027,"\h(《Enrique》)Beneath the layers of ice, lies the ruins of an
+ancient city. The ruins have been undisturbed
+since the Old World.\e"
+MI0020028,"\h(《Enrique》)Unfortunately, no one has ever been able to
+break through the ice… All we have been able to
+do is observe the ruins from the sky.\e"
+MI0020029,"\h(《Vyse》)So we don't really need to go there because 
+it's impossible to get the Crystal.\e"
+MI0020030,"\h(《Enrique》)Well, I was thinking…
+Brabham said that the hull had been reinforced,
+right?\e"
+MI0020031,"\h(《Enrique》)If the hull is strong enough to break
+throughstone reefs, perhaps it is strong
+enough to break through the ice!\e"
+MI0020032,"\h(《Vyse》)That might work! We could bust through the ice
+with the Delphinus!\e"
+MI0020033,"\h(《Fina》)If the Delphinus can get through the ice, 
+then we can get the Crystal.\e"
+MI0020034,"\h(《Vyse》)Yeah.
+Then it looks like our next destination is to
+the south… to the Land of Ice!\e"
+MI0020035,"\h(《Vyse》)Well, it looks like we've got a long journey
+ahead of us. I think we should take the rest of
+the day off and celebrate!\e"
+MI0020036,\h(《Everyone》)Aye Aye!\e
+MI0100000,"\h(《Vyse》)Alright… we've got the Purple Crystal. 
+All that's left are Yellow and Silver.\e"
+MI0100001,"\h(《Fina》)The Silvite elders already have the Silver 
+Crystal.\e"
+MI0100002,"\h(《Fina》)So we really only have to worry about the Yellow
+Crystal.\e"
+MI0100003,\h(《Aika》)It looks like our mission is almost finished.\e
+MI0100004,"\h(《Aika》)But wait… wasn't the Yellow Crystal located in
+the Maw of Tartas in Valua?\e"
+MI0100005,"\h(《Aika》)Last time we went there, we couldn’t get in
+because the opening was sealed.\e"
+MI0100006,"\h(《Enrique》)Yes, the Valuans have made several unsuccessful
+attempts at removing the seal…\e"
+MI0100007,"\h(《Enrique》)But, perhaps we might be able to bypass the seal
+with the Delphinus' new engine.\e"
+MI0100008,"\h(《Enrique》)According to the geologists of the Valuan
+Empire…\e"
+MI0100009,"\h(《Enrique》)The lower layers of the Valuan Islands are
+filled with cracks and fissures.\e"
+MI0100010,"\h(《Enrique》)In other words, there is a whole system of 
+subterranean tunnels running through Valua.\e"
+MI0100011,"\h(《Aika》)So all we have to do is fly around underneath 
+Valua and look for an opening.\e"
+MI0100012,"\h(《Vyse》)I see…
+So, in other words, if we can't get in from the
+top, we'll try and get in from the bottom!\e"
+MI0100013,"\h(《Vyse》)We'll fly below Valua and look for an opening
+underneath the island! Once we get inside the
+tunnels, we should be able to find the Crystal.\e"
+MI0100014,"\h(《Aika》)Since we can fly higher and lower than we ever
+have before, we might as well take advantage of
+it.\e"
+MI0100015,"\h(《Vyse》)Exactly.
+Let's rest up today. We'll leave for Valua first
+thing tomorrow morning.\e"
+MJ0010000,"\h(《Gilder》)Hey, long time no see!
+Wow… you've got yourself a nice little base set
+up here!\e"
+MJ0010001,\h(《Vyse》)Gilder!\e
+MJ0010002,"\h(《Gilder》)I heard that you sailed around the world! 
+As always kid, it sounds like you've been trying
+to get yourself into more trouble…\e"
+MJ0010003,"\h(《Gilder》)I came here to hear all about your travels… 
+that, and for a good meal.\e"
+MJ0010004,"\h(《Vyse》)Haha… 
+Good old Gilder… 
+Pleasure before business…\e"
+MJ0240000,"\h(《Gilder》)…so you went to Yafutoma and then on to the
+Land of Ice, huh? Just listening to your stories
+makes my adrenaline flow.\e"
+MJ0240001,"\h(《Gilder》)And so in the end, you collected the 
+five Moon Crystals… Nice work.\e"
+MJ0240002,"\h(《Aika》)Yup, we got them all!\e"
+MJ0240003,"\h(《Gilder》)And since all of them are together, I suppose 
+that means Fina will be taking them with her 
+when she heads home soon…\e"
+MJ0240004,\h(《Fina》)…Yes.\e
+MJ0240005,"\h(《Gilder》)Actually…
+There was something that was bothering me from 
+earlier…\e"
+MJ0240006,"\h(《Gilder》)Fina… where exactly did you come from? I mean, 
+where are you going home to?\e"
+MJ0240007,\h(《Fina》)……\e
+MJ0240008,\h(《Aika》)Fina?\e
+MJ0240009,"\h(《Fina》)The place to which I must return…
+The place where both Ramirez and I were born and
+raised…\e"
+MJ0240010,"\h(《Fina》)…is the Great Silver Shrine. It is in a place,
+high above the sky… \e"
+MJ0240011,\h(《Vyse》)The Great… Silver Shrine?\e
+MJ0240012,"\h(《Fina》)Long ago, when the Rains of Destruction fell 
+upon the lands, and most of the world's 
+population was killed… All seemed lost…\e"
+MJ0240013,"\h(《Fina》)The most powerful Silvite mages met at the 
+Shrine. They combined their energy to send it 
+into the sky… above the destruction.\e"
+MJ0240014,"\h(《Fina》)They escaped the horrible fate that fell upon 
+the rest of the world, by rising above the 
+destruction.\e"
+MJ0240015,"\h(《Fina》)Ever since then… from above… we have sworn to 
+protect the people of this world from the same 
+fate that our ancestors suffered.\e"
+MJ0240016,"\h(《Fina》)That is the primary mission of the remaining 
+Silvites.\e"
+MJ0240017,"\h(《Fina》)The Great Silver Shrine is high above the 
+clouds, where no ship can reach it…\e"
+MJ0240018,"\h(《Fina》)I plan to take the Moon Crystals back to the 
+Great Silver Shrine. So that no one will ever be
+able to abuse their power again.\e"
+MJ0240019,"\h(《Enrique》)But…
+How are you going to get home?\e"
+MJ0240020,"\h(《Fina》)If I can get back the ship that I came in, 
+then I should be able to make it home.\e"
+MJ0240021,"\h(《Fina》)But, when I was attacked by Valua, my ship sank
+beneath the clouds… \e"
+MJ0240022,"\h(《Vyse》)Yes, I remember… you're talking about that ship
+you were flying when Alfonso attacked you.\e"
+MJ0240023,"\h(《Enrique》)Hmm… it appears that we must find another way
+of getting Fina home.\e"
+MJ0240024,"\h(《Aika》)But…
+If we find a way to get Fina back home…\e"
+MJ0240025,"\h(《Aika》)…does that mean we'll have to say good-bye?
+We'll never get to see her again…\e"
+MJ0240026,\h(《Fina》)……\e
+MJ0240027,"\h(《Fina》)Lately…
+I sometimes find myself thinking…\e"
+MJ0240028,"\h(《Fina》)…I started thinking, if I am unable to find a
+way home…\e"
+MJ0240029,"\h(《Fina》)…that I'll be able to stay here, with everyone.\e"
+MJ0240030,"\h(《Fina》)Haha… I'm sorry… that's so silly of me.
+My orders were to gather the Moon Crystals and
+to return to the Great Silver Shrine with them…\e"
+MJ0240031,\h(《Vyse》)…\e
+MK0050000,\h(《Fina》)…Yes?\e
+MK0050001,"\h(《Vyse》)It's me…
+I came by to see if you're okay.\e"
+MK0050002,\h(《Fina》)Oh… Vyse…\e
+MK0050003,"\h(《Fina》)I'm sorry, but…
+Could I just be alone for a while?\e"
+MK0050004,\h(《Vyse》)Fina…\e
+MK0050005,"\h(《What will you say?》)”I understand…”
+”Everyone's worried about you…”\e"
+MK0050006,"\h(《Vyse》)I understand if you still need to work things 
+out.\e"
+MK0050007,"\h(《Vyse》)Fina, everyone is worried about you. 
+If there's anything we can do to help…\e"
+MK0050008,"\h(《Fina》)…I know… but, I… I need to sort out a few
+things before I can… talk to anyone.\e"
+MK0050009,"\h(《Fina》)I'm sorry to have worried you…
+But, please… I need just a little more time to 
+myself.\e"
+MK0050010,\h(《Vyse》)… Okay.\e
+MK0050011,"\h(《Vyse》)I'll be back later.
+Fina… don't give up, okay?\e"
+MK0050012,"\h(《Fina》)Elders…
+Was Ramirez speaking the truth?\e"
+MK0050013,"\h(《Fina》)What…
+What am I supposed to do?
+Who am I supposed to believe?\e"
+MK0050014,"\h(《Aika》)Alright everyone!
+Lift on three, okay?\e"
+MK0050015,"\h(《Izmael》)As soon as we get this rubble out of the way, 
+we can start building again! I can't wait…\e"
+MK0050016,"\h(《Gilder》)Hey! I'm a guest here!!
+Why… why am I stuck…
+doing this kind of… work?!\e"
+MK0050017,\h(《Aika》)Aww… quit… your… griping! \e
+MK0050018,\h(《Marco》)This reminds me of Lower City… \e
+MK0050019,"\h(《Clara》)What are you talking about?
+Everyone is safe! We should be happy that nobody
+was seriously hurt… \e"
+MK0050020,"\h(《Brabham》)Nothin' lasts forever… that's why we build new 
+stuff. In my prime, I would have rebuilt half of
+the island already! \e"
+MK0050021,"\h(《Lawrence》)They're too quick!
+Somebody cast a spell or something!\e"
+MK0050022,"\h(《Belle》)Ouch! 
+I'm so tired… \e"
+MK0050023,\h(《Fina》)Maybe my life is better now than it ever was… \e
+ML0030000,"\h(《Moegi》)Vyse…
+I… I heard that something terrible
+has happened…\e"
+ML0030001,"\h(《Vyse》)Moegi… I'm afraid… that…
+Galcian used the Rains
+of Destruction on Valua… \e"
+ML0030002,"\h(《Moegi》)What?!
+But… but what about Enrique?!
+Is he…?\e"
+ML0030003,\h(《Moegi》)No… he… he can't be…\e
+ML0030004,"\h(《Fina》)Vyse, if we don't do something soon, Galcian
+will destroy the world one island at a time.
+We have to stop him.\e"
+ML0030005,\h(《Vyse》)I know… I'm working on it.\e
+ML0030006,\h(《Aika》)How are we supposed to stop him?!\e
+ML0030007,"\h(《Aika》)His base is an entire continent, and there's 
+that shield around it… \e"
+ML0030008,"\h(《Gilder》)Looks like there's not much we can do except
+take on Galcian himself.\e"
+ML0030009,"\h(《Gilder》)But, we can't even get to him…\e"
+ML0030010,\h(《Vyse》)Damn! There's nothing we can do! \e
+ML0030011,"\h(《   》)Oh, yes there is.\e"
+ML0030012,"\h(《Enrique》)I leave you guys alone for a few days,
+and you're ready to surrender?\e"
+ML0030013,"\h(《Vyse》)Enrique, you're alive!!!\e"
+ML0030014,\h(《Moegi》)Enrique!!!\e
+ML0030015,"\h(《Enrique》)Moegi…
+It's alright, I'm okay.\e"
+ML0030016,\h(《Moegi》)I was so worried about you… \e
+ML0030017,"\h(《Enrique》)We were in Valua when the Rains hit.
+Belleza saved me. I owe her my life.\e"
+ML0030018,"\h(《Enrique》)My mother, and so many others were killed… \e"
+ML0030019,"\h(《Enrique》)We can't let this happen again! We must stop
+Galcian… \e"
+ML0030020,\h(《Aika》)But… how?\e
+ML0030021,"\h(《Belleza》)Lord Galcian wants to rule the world,
+not destroy it. Valua was just an example.\e"
+ML0030022,"\h(《Belleza》)Now that he's made his example, he can demand
+allegiance from all of the other countries… \e"
+ML0030023,"\h(《Belleza》)He will send his Armada to each of the countries
+as a show of force, and demand that they
+surrender. He will most likely go with them.\e"
+ML0030024,"\h(《Vyse》)You’re right! Once he's out of his base, we'll
+have a shot at him.\e"
+ML0030025,"\h(《Gilder》)Vyse, I know that you aren't too keen on giving
+up, but we need to be realistic here.\e"
+ML0030026,"\h(《Gilder》)There's no way the Delphinus can take out
+Galcian's entire fleet.\e"
+ML0030027,"\h(《Belleza》)He's right. If you fought him, you would lose.\e"
+ML0030028,"\h(《Aika》)But, there has to be a way… \e"
+ML0030029,\h(《Aika》)We can't just give up… \e
+ML0030030,\h(《Vyse》)Dammit!\e
+ML0030031,"\h(《   》)What's wrong, boy?!\e"
+ML0030032,"\h(《   》)”No matter what happens, I'll never give up!”
+You told me that once… or are you all talk?!\e"
+ML0030033,"\h(《Vyse》)……!
+That voice!\e"
+ML0030034,"\h(《Drachma》)Boy…
+It's been a long time.\e"
+ML0030035,\h(《Vyse》)Captain!\e
+ML0030036,\h(《Drachma》)Soltis is the root of all of our problems… \e
+ML0030037,"\h(《Drachma》)We've got to send that place back to Deep Sky,
+where it belongs!\e"
+ML0030038,\h(《Vyse》)But… \e
+ML0030039,"\h(《Fina》)But…
+We don't stand a chance against the entire
+Armada.\e"
+ML0030040,"\h(《   》)Well, Fina…
+Have you forgotten about me already?\e"
+ML0030041,\h(《Fina》)Clara!\e
+ML0030042,"\h(《Clara》)Don't forget, I'm an Air Pirate, too!
+I can't just sit around and let Galcian take
+over the world!\e"
+ML0030043,"\h(《Gordo》)That new continent has driven away all of the
+food… Now I don't have any customers!
+That's more than enough reason for me to fight!\e"
+ML0030044,"\h(《Centime》)Vyse, I heard what was going on.
+We must fight together, for the future of this
+world!\e"
+ML0030045,"\h(《Baltor》)Humph!
+I can't believe I'm doin' this!\e"
+ML0030046,\h(《Vyse》)Baltor?!\e
+ML0030047,"\h(《Baltor》)Don't get the wrong idea.
+I'm only helping you because I hate Galcian
+more than I hate you.\e"
+ML0030048,"\h(《Baltor》)As soon as we kick his arse,
+I'm coming after ya!\e"
+ML0030049,"\h(《Daigo》)If there's a fight to be fought, then you can
+count us in.\e"
+ML0030050,"\h(《Daigo》)You saved our country…
+Now, it is time to return the debt of honor!\e"
+ML0030051,"\h(《Jao》)We, the Tenkou…\e"
+ML0030052,\h(《Mao》)…will also aid you.\e
+ML0030053,\h(《Fina》)Vyse…\e
+ML0030054,"\h(《Aika》)With this many ships, we may just stand a chance
+against the Armada!\e"
+ML0030055,"\h(《   》)Aika, just because we're a little late… 
+Don't count us out.\e"
+ML0030056,\h(《Vyse》)Dad!!\e
+ML0030057,"\h(《Dyne》)Vyse…
+You've done quite a bit of growing up since I
+last saw you.\e"
+ML0030058,"\h(《Dyne》)If you have this many allies, you must be quite
+a Captain! I'm proud of you son.\e"
+ML0030059,\h(《Vyse》)Thank you!\e
+ML0030060,"\h(《Gilder》)Alright! Captain, we await your orders!\e"
+ML0030061,\h(《Vyse》)Okay!\e
+ML0030062,"\h(《What will you say?》)”We can't let Galcian get away with this!”
+”Let's show Galcian what we're made of!”\e"
+ML0030063,\h(《Vyse》)We can't let Galcian get away with this!\e
+ML0030064,"\h(《Vyse》)We need to take back the skies and free the
+world!\e"
+ML0030065,"\h(《Vyse》)Let's send him and Soltis into Deep Sky… 
+forever!\e"
+ML0030066,\h(《Vyse》)Let's show Galcian what we're made of!!\e
+ML0030067,\h(《   》)Yeah!\e
+ML0030068,"\h(《Vyse》)Tonight, I want everyone to rest up.
+Tomorrow, we make history!!!\e"
+ML0030069,"\h(《Aika》)It looks like this is it! 
+I think I'm going to like this!\e"
+"",me017b.sct
+"",me017f.sct
+"",me017b.sct
+"",me017f.sct
+"",me017b.sct
+"",me017f.sct
+"",me017b.sct
+"",me017f.sct
+"",me243a.sct
+"",me126f.sct
+"",me017b.sct
+"",me017f.sct
+"",me017h.sct
+"",me017i.sct
+"",me017b.sct
+"",me017f.sct
+"",M0242
+"",M0243
+"",M5170000
+"",EV_I02発生しました。\c
+"",a017ci02.mld
+"",a017ci02.mld
+"",M0370
+"",e6i002
+"",a017ci02.mld
+"",EV_I10発生しました。\c
+"",a017ci10.mld
+"",a017ci10.mld
+"",M0370
+"",e6i010
+"",a017ci10.mld
+"",J01発生しました。\c
+"",a017cj01.mld
+"",a017cj01.mld
+"",M0312
+"",e6j001
+"",a017cj01.mld
+"",J24発生しました。\c
+"",a017cj24.mld
+"",a017cj24.mld
+"",M0309
+"",e6j024
+"",a017cj24.mld
+"",a017ck05.mld
+"",a017ck05.mld
+"",M0318
+"",e6k005
+"",a017ck05_h.mld
+"",a017ck05_h.mld
+"",a017ck05_i.mld
+"",a017ck05_i.mld
+"",a017ck05_bou.mld
+"",a017ck05_bou.mld
+"",a017ck05_h.mld
+"",a017ck05_i.mld
+"",a017ck05_bou.mld
+"",a017ck05.mld
+"",L03発生しました。\c
+"",a017cl03.mld
+"",a017cl03.mld
+"",a017cl03i.mld
+"",a017cl03i.mld
+"",a017cl03_efe.mld
+"",a017cl03_efe.mld
+"",M0324
+"",e6l003
+"",M0322
+"",M0305
+"",M0305
+"",a017cl03a.mld
+"",a017cl03g.mld
+"",a017cl03a.mld
+"",a017cl03g.mld
+"",a017cl03a.mld
+"",a017cl03g.mld
+"",a017cl03b.mld
+"",a017cl03b.mld
+"",a017cl03d.mld
+"",a017cl03d.mld
+"",a017cl03b.mld
+"",a017cl03c.mld
+"",a017cl03c.mld
+"",a017cl03c.mld
+"",a017cl03d.mld
+"",a017cl03g.mld
+"",a017cl03g.mld
+"",a017cl03a.mld
+"",a017cl03a.mld
+"",a017cl03a.mld
+"",a017cl03e.mld
+"",a017cl03g.mld
+"",a017cl03e.mld
+"",a017cl03h.mld
+"",a017cl03h.mld
+"",a017cl03a.mld
+"",a017cl03e.mld
+"",a017cl03g.mld
+"",a017cl03j.mld
+"",a017cl03j.mld
+"",a017cl03.mld
+"",a017cl03j.mld
+"",a017cl03_efe.mld
+"",a017cl03h.mld
+"",a017cl03i.mld

@@ -1,0 +1,66 @@
+[Event Name],Task ID
+MH0240000,"\h(«Vyse»)Muraji!
+We'll be taking back our ship now…\e"
+MH0240001,"\h(«Muraji»)!!!
+Do… do you think I'm afraid of you? 
+You aren't so tough!\e"
+MH0240002,\h(«Muraji»)Why are you fools just standing there? Get them!\e
+MH0240003,"\h(«Enrique»)You betray those that trust you and needlessly 
+endanger the lives of innocent people… 
+all for your own personal gain! \e"
+MH0240004,"\h(«Enrique»)For the honor of Princess Moegi… and for the 
+people of Yafutoma… I will strike you down! 
+Face my blade, coward!\e"
+MSH0240000,"\h(«Vyse»)¡Muraji!
+Vamos a recuperar nuestro navío……\e"
+MSH0240001,"\h(«Muraji»)¿Te crees…… te crees que me das miedo?
+¡No eres tan duro!\e"
+MSH0240002,\h(«Muraji»)¿Por qué estáis ahí parados? ¡Cogedles!\e
+MSH0240003,"\h(«Enrique»)Traicionas a los que confían en ti y pones en
+peligro las vidas de gente inocente……
+¡todo por interés personal!\e"
+MSH0240004,"\h(«Enrique»)Por el honor de la Princesa Moegi…… y por las
+gentes de Yafutoma…… ¡acabaré contigo!
+¡Enfréntate a mi espada, cobarde!\e"
+MFH0240000,"\h(«Vyse»)Muraji !
+Nous allons reprendre notre navire……\e"
+MFH0240001,"\h(«Muraji»)!!!
+Vous…… vous croyez que j'ai peur de vous ?
+Vous ne me faites pas peur !\e"
+MFH0240002,"\h(«Muraji»)Pourquoi restez-vous plantés là, idiots ?
+Attrapez-les !\e"
+MFH0240003,"\h(«Enrique»)Vous avez trahi ceux qui vous faisaient
+confiance et mis les vies d'innocents
+inutilement en danger……
+tout ça pour votre bénéfice personnel !\e"
+MFH0240004,"\h(«Enrique»)Pour l'honneur de la Princesse Moegi…… et pour
+le peuple de Yafutoma…… je vais vous tuer !
+Affrontez mon épée, lâche !\e"
+MGH0240000,"\h(«Vyse»)Muraji!
+Wir holen uns jetzt unser Schiff zurück……\e"
+MGH0240001,"\h(«Muraji»)!!!
+Mei…… meint ihr, ich habe Angst vor euch?
+Solche Kraftprotze seid ihr nun auch wieder
+nicht!\e"
+MGH0240002,"\h(«Muraji»)Was steht ihr hier rum, ihr Idioten! Holt sie
+euch!\e"
+MGH0240003,"\h(«Enrique»)Du verrätst die, die dir vertrauen und bringst
+das Leben unschuldiger Menschen in Gefahr……
+alles zu deinem persönlichen Vorteil!\e"
+MGH0240004,"\h(«Enrique»)Für die Ehre von Prinzessin Moegi…… und das Volk
+von Yafutoma…… werde ich dich
+in die Knie zwingen! Stelle dich meinem Schwert,
+du Feigling!\e"
+"",me247a.sct
+"",me035b.sct
+"","「そろそろ発進させる」
+「まだ船内を見る」\c"
+"",\h(ヴァイス)デルフィナス発進！！。\c
+"",me099a.sct
+"",M0252
+"",m5340000
+"",EVh24発生しました。\c
+"",e6h024
+"",a035ah24.mld
+"",a035ah24.mld
+"",a035ah24.mld

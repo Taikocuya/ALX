@@ -1,0 +1,59 @@
+[Event Name],Task ID
+M01010000,"\h(《空賊》)来たか、ヴァイス。
+どうやら、この通路から
+艦内に侵入できそうだ。\e"
+M01010001,"\h(《空賊》)ここから先の斬りこみは
+おまえにまかせたぜ。
+ハデにかきまわしてこい！\c"
+M01010002,"\h(《空賊》)ここから先の斬りこみは
+おまえにまかせたぜ。
+ハデにかきまわしてこい！\c"
+M01010003,"\h(《アルフォンソ》)フフフ……
+わが艦へようこそ、空賊の諸君。\e"
+MA0230000,"\h(《アルフォンソ》)くっ……わが配下の兵が
+歯が立たぬとは……
+この艦は、ここまでか。\e"
+MA0230001,"\h(《アルフォンソ》)私は、忙しい身。
+君たちの相手をする時間はない。
+失礼させてもらうよ。\e"
+MA0240000,"\h(《アルフォンソ》)ハハハハ、残念でしたね。
+この扉は、こちら側から
+ロックさせてもらいましたよ。\e"
+MA0240001,"\h(《アルフォンソ》)それでは、ごきげんよう。
+ハハハハハ……\c"
+MA0240002,"\h(《ヴァイス》)くそっ、ダメだ。
+こっちの扉は厳重に閉じられてて
+とても開きそうにないぜ。\c"
+MA0240003,"\h(《ヴァイス》)野郎……
+扉をロックしやがったな。\c"
+MA0040000,"\h(《Alfonso》)Well… well…
+Air Pirates have decided to… infest my ship.\e"
+MA0040001,"\h(《Alfonso》)I am Alfonso, cherished son of Valua's most 
+distinguished family, and an Admiral of the 
+Imperial Armada.\e"
+MA0040002,"\h(《Alfonso》)Normally, lowlifes such as yourselves would 
+never have the opportunity to bask in such 
+greatness. Consider yourselves fortunate.\e"
+MA0040003,"\h(《Vyse》)Yeah… right…
+Who's the girl?\e"
+MA0040004,"\h(《Vyse》)I never thought someone of your… stature would 
+stoop to kidnapping.\e"
+MA0040005,"\h(《Alfonso》)Hah!
+You're very observant for a Rogue. However,
+I cannot waste my time dealing with you.\e"
+MA0040006,"\h(《Alfonso》)I simply must get going.  I think I shall have 
+you exterminated like the pests you are…\e"
+MA0040007,\h(《Alfonso》)Dispose of them!\e
+"",k8420000
+"",k8420000
+"",k8020000
+"",me101c.sct
+"",k8410000
+"",k8410000
+"",M0252
+"",m5010000
+"",k8010000
+"",k8410000
+"",a101ba04.mld
+"",M0326
+"",e6a004

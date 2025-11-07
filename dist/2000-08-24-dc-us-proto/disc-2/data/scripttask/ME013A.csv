@@ -1,0 +1,553 @@
+[Event Name],Task ID
+MF0150000,"\h(《Clara》)It's about time for me to set sail. It was very 
+nice meeting the two of you. I'm sorry we 
+couldn't spend more time together.\e"
+MF0150001,"\h(《Clara》)Here… take this. It's only 5,000 gold, 
+but it should help.\e"
+MF0150002,\h(《》)You received ”Clara's purse.”\e
+MF0150003,"\h(《Aika》)Wow! Really?! Thanks for everything you've done 
+for us. First you save our lives, 
+then you give us gold…\e"
+MF0150004,"\h(《Clara》)Don't give it a second thought.
+After all, I too, am a Blue Rogue.\e"
+MF0150005,"\h(《Fina》)Where are you going now, Clara?\e"
+MF0150006,"\h(《Clara》)Me?
+Well, I'm going after the man I love.\e"
+MF0150007,"\h(《Clara》)He's an Air Pirate, too… 
+He's a little on the wild side, but he's strong,
+smart, and so… \e"
+MF0150008,"\h(《Clara》)Yummy… I follow him wherever he goes. I know 
+that some day, he'll come around and fall in 
+love with me too. Isn't that romantic?\e"
+MF0150009,\h(《Aika》)Umm… yes?\e
+MF0150010,"\h(《Clara》)Well, I'd better get going! \e"
+MF0150011,\h(《Clara》)I hope we see each other again! Good luck!\e
+MF0150012,"\h(《Aika》)That was the nicest stalker that I've ever met. 
+But at least it explains why her entire ship 
+looks like a honeymoon suite.\e"
+MF0150013,\h(《Fina》)Honeymoon?\e
+MF0150014,"\h(《Aika》)I kinda figured you wouldn't know what that
+was… Don't worry about it. Let's go see if
+we can find a place to sleep tonight. \e"
+MF0250000,"\h(《Aika》)Alright!
+It's a little small, but we bought a ship!\e"
+MF0250001,"\h(《Fina》)Yes, but the gold that we got from Clara and 
+from working is all gone now.\e"
+MF0250002,"\h(《Aika》)Don't worry about it Fina.
+All we need to do is find Daccat's Treasure and
+we'll be fine!\e"
+MF0250003,"\h(《Aika》)Let me see, did the map say where the island was
+located?\e"
+MF0250004,"\h(《Aika》)”The dead will always watch over my treasure. 
+It is located…”\e"
+MF0250005,"\h(《Fina》)Well, where is it?\e"
+MF0250006,"\h(《Aika》)Oh, no!!
+It's torn off! I can't see what it says!\e"
+MF0250007,"\h(《Aika》)Looks like the only way we'll be able to find 
+the island is by this clue. I think this skull
+on the map has something to do with it.\e"
+MF0250008,"\h(《Aika》)Well, it's not going to do us any good just 
+sitting around and doing nothing. We might as 
+well start searching!\e"
+MF0250009,\h(《Fina》)Yes!\e
+MF0260000,"\h(《Gilder》)Well then!
+Let's go find us some treasure!\e"
+MF0260001,\h(《Vyse》)Okay. There are some directions on the map…\e
+MF0260002,"\h(《Vyse》)”… to the north of the City of the Sands. 
+When the two pieces become whole, the way 
+to the treasure will be known.”\e"
+MF0260003,"\h(《Vyse》)I can't read anything before that… 
+It's torn off. That's all it says.\e"
+MF0260004,"\h(《Gilder》)”The city of the sands” probably refers to the 
+city that was here before Nasrad. I think it was
+called Oasis.\e"
+MF0260005,"\h(《Gilder》)So… it's to the north of here, huh? 
+We can get there in no time with my ship.\e"
+MF0260006,"\h(《Vyse》)I'm a sailor without a ship at this point. 
+There's no way I'll be able to search for my 
+friends now.\e"
+MF0260007,"\h(《Vyse》)If we do find the treasure, I'd like to use my 
+share to buy a ship.\e"
+MF0260008,"\h(《Gilder》)Hahaha, I like you Vyse, you never give up.
+Very well… off we go!\e"
+MF0390000,"\h(《Gilder》)I have some personal stuff to take care of 
+first. You go on to the inn and rest up. 
+I'll catch up with you a little later.\e"
+MF0390001,"\h(《Vyse》)I don't mind traveling separately, 
+but what is it you need to do, exactly?\e"
+MF0390002,"\h(《Gilder》)I need to stop by the tavern for a bit. 
+There's a few women there that will 
+be happy to see me. Don't wait up…\e"
+M06000000,"\h(《Sailor》)Hmm… I have Moon Stones for fuel… 10 barrels
+of drinking water… Was there anything else I
+needed to get before I leave?\e"
+M06000001,"\h(《Sailor》)Welcome to Nasrad, the center of trade!
+Anything you need for your travels you can get
+right here!\e"
+M06000002,"\h(《Sailor》)You guys are sailors too, right?
+Maybe you guys should stock up on supplies while
+you're here, too.\e"
+M06010000,"\h(《Nasr Merchant》)5 cases of chili peppers…
+And Ocean Trout… um… 1… 2… 3…\e"
+M06010001,"\h(《Nasr Merchant》)Please do not talk to me right now!
+Damn! You made me lose count!\c"
+M06010002,"\h(《Nasr Merchant》)Sorghum… 10 cases.
+Kidney beans… 1… 2… 3…\e"
+M06010003,"\h(《Nasr Merchant》)Please do not talk to me right now!
+Damn! You made me lose count!\e"
+M06330000,"\h(《Large Man》)It is so boring!!
+When is Valua going to attack again?!\e"
+M06330001,"\h(《Khazim》)I am Nasr's top gunner, Khazim!
+If any enemy ships try to enter our port, I blow
+them away with this cannon of mine!\e"
+M06330002,"\h(《Khazim》)But no enemies have attacked us in such a
+long time… I have nothing to do and it is
+killing me!\e"
+M06330003,"\h(《Khazim》)Ever since I was assigned here, I have not had
+the chance to fire these cannons. I hope the
+chance comes soon!\c"
+M06330004,"\h(《Khazim》)Ever since I was assigned here, I have not had
+the chance to fire these cannons. I hope the
+chance comes soon!\c"
+M06330005,"\h(《Khazim》)I am Khazim, Nasr's top gunner. What do you 
+want, boy?\e"
+M06330006,"\h(《Khazim》)What? Valua is launching an attack?! Hahahaha! I
+have been waiting for this! The Red Moon has
+answered my prayers!\e"
+M06330007,"\h(《Khazim》)Once Valua gets close enough, I'll knock all of
+their puny little ships out of the sky with my
+cannon!\e"
+M06330008,"\h(《Khazim》)Well, it's not like they would ever get past the
+border guards, though…\c"
+M06330009,"\h(《Khazim》)Once Valua gets close enough, I'll knock all of
+their puny little ships out of the sky with my
+cannon!\e"
+M06330010,"\h(《Khazim》)Well, it's not like they would ever get past the
+border guards, though…\c"
+M06340000,"\h(《Nasr Soldier》)We are the Nasr Artillery Guard!
+Leave the defense of Nasr up to us!\e"
+M06340001,"\h(《Nasr Soldier》)The cannons are up top!
+Any enemy ships that get too close to the city,
+we blast out of the sky!\e"
+M06350000,"\h(《Nasr Soldier》)We are the Nasr Artillery Guard, under the 
+leadership of Captain Khazim!
+We are defending the safety of Nasrad!\e"
+M06350001,"\h(《Nasr Soldier》)Khazim is Nasr's best gunner! He's manning the
+wall above us!\c"
+M90390000,"\h(《Mystery Merchant》)Hello there!
+I am the Mystery Merchant, traveling the world
+and selling my goods!\e"
+M90390001,"\h(《Mystery Merchant》)I have all sorts of rare and unusual items!
+Please, come look at my goods!\e"
+M90390002,"\h(《What will you do?》)”Buy and Sell Items.”
+”Talk about various things.”
+”Leave.”\e"
+M90390003,"\h(《Mystery Merchant》)I spend my days traveling from town to town,
+selling exotic wares. Please do not hesitate to
+approach me if we meet again.\e"
+M90390004,"\h(《Mystery Merchant》)Thank you very much.
+I hope we meet again elsewhere.\c"
+Ms013a000,"\h(《ヴァイス》)でっかいかがり火だなあ。
+入港する船を導くために
+常にたいてるんだな。\c"
+Ms013a001,"\h(《ヴァイス》)でっかい材木だなあ……
+モンテスマから
+運ばれてきたんだろうか？\c"
+Ms013a002,"\h(《ヴァイス》)これは菓子の箱だ。
+アイカはこの菓子が
+大好物だったな、そう言えば。\c"
+Ms013a003,\h(《ヴァイス》)ナスルの民間船だ。\c
+Ms013a004,"\h(《ヴァイス》)箱の絵の野菜は、たしか
+ナスルの特産品だ。
+ここから出荷される荷物かな。\c"
+Ms013a005,"\h(《ヴァイス》)なみなみと水が入ってる。
+ナスルでは水は貴重品だ。\c"
+Ms013a006,"\h(《ヴァイス》)大きな台車だ。これで、毎日
+たくさんの荷物を運ぶんだな。
+使いこまれて傷だらけだ。\c"
+Ms013a007,"\h(《ヴァイス》)早くて安いクルル運輸の木箱だ。
+ナスルでは有名な隊商で
+荷運びが専門なんだそうだ。\c"
+Ms013a008,"\h(《ヴァイス》)モジャカコーヒー豆と
+書いてある。
+いいニオイがするな。\c"
+Ms013a009,"\h(《ヴァイス》)中身は塩みたいだ。
+塩は長い航海では
+なくてはならないものだよな。\c"
+Ms013a010,"\h(《ヴァイス》)うわ、でっかいトウガラシ！
+ナスルの料理はトウガラシを
+効かせた辛い料理が多いよな。\c"
+Ms013a011,"\h(《ヴァイス》)ナスルの船のデザインって
+ハデだよなー。
+アイカはこういうの好きかもな。\c"
+Ms013a012,"\h(《ヴァイス》)運送票がいっぱい貼ってある。
+バルアから船乗り島を経由して
+ナスルに来た荷物らしいな。\c"
+Ms013a013,"\h(《ヴァイス》)武器弾薬を出荷するようだ。
+ナスルの火力砲は
+破壊力に定評があるからな。\c"
+Ms013a014,"\h(《ヴァイス》)でっけえ木箱だな。
+ずいぶんがっしりした造りだし
+何が入ってんだろ？\c"
+Ms013a015,"\h(《ヴァイス》)おっと、バルアの紋章だ。
+この荷物はバルアから
+入ってきたものなんだな。\c"
+Ms013a016,"\h(《ヴァイス》)オーシャン風の商船だ。
+船乗り島から来たのかな？\c"
+Ms013a017,"\h(《ヴァイス》)巨大なタルだ。
+しっかり口が閉じていて
+中身はわからないな。\c"
+Ms013a018,"\h(《ヴァイス》)げっ、オーシャンニガメロンだ。
+いためものがうまいっていうけど
+俺は苦手なんだよな。\c"
+Ms013a019,"\h(《ヴァイス》)うわ、でっかいトウガラシ！
+ナスルの料理はトウガラシを
+効かせた辛い料理が多いよな。\c"
+Ms013a020,"\h(《ヴァイス》)見たことない野菜だなあ。
+ナスラードにはめずらしい品が
+たくさん入ってくるよな。\c"
+Ms013a021,"\h(《ヴァイス》)フネイモに似てるけどちがうな。
+ナスラードにはめずらしい品が
+たくさん入ってくるよな。\c"
+Ms013a022,"\h(《ヴァイス》)生臭い……
+塩漬けの魚かな？\c"
+Ms013a023,"\h(《ヴァイス》)ナスラードの主食のナンだ。
+これにおかずをのせたりして
+食べるとうまいらしい。\c"
+Ms013a024,"\h(《ヴァイス》)うわ、でっかいトウガラシ！
+ナスルの料理はトウガラシを
+効かせた辛い料理が多いよな。\c"
+Ms013a025,"\h(《ヴァイス》)でっかい大砲だなあ……
+これでナスラードに近づく敵を
+撃ちおとすのかあ……\c"
+Ms013a026,"\h(《ヴァイス》)赤月Ж石と書いてある。
+これ全部、月Ж石が
+つまっているのかな？\c"
+Ms013a027,"\h(《ヴァイス》)巨大な砲弾がぎっしりと
+入ってるが、砂ぼこりを
+かぶってるぞ。\c"
+Ms013a028,"\h(《アイカ》)うわー、大きいかがり火！
+入港する船を導くために
+常にたいてるのね。\c"
+Ms013a029,"\h(《アイカ》)ひゃー、大きい材木だなあ……
+モンテスマから
+切って来たのかなあ？\c"
+Ms013a030,"\h(《アイカ》)この箱、おかしの箱だ！
+子供の頃、空賊島の戦利品の中で
+一番、楽しみだったんだよね。\c"
+Ms013a031,\h(《アイカ》)ナスルの民間船ね。\c
+Ms013a032,"\h(《アイカ》)野菜が入ってるのかな？
+かわいい絵が描いてある。
+これから出荷されるのかな。\c"
+Ms013a033,"\h(《アイカ》)大きなタルね。
+あたしも入れそう。
+中身は……なーんだ、水か。\c"
+Ms013a034,"\h(《アイカ》)おっきい台車だなー。
+これでたくさんの積荷を
+運ぶってわけね。\c"
+Ms013a035,"\h(《アイカ》)クルル運輸……。そういえば
+荷物を運ぶのが専門の隊商って
+聞いたことがあるな。\c"
+Ms013a036,"\h(《アイカ》)モジャカコーヒー豆。
+うーん、いいニオイ。\c"
+Ms013a037,"\h(《アイカ》)おっきい袋ね。
+中身は塩かな？\c"
+Ms013a038,"\h(《アイカ》)ひゃー、大きいトウガラシ！
+こんなの食べたら
+口から火を吹けそう！\c"
+Ms013a039,"\h(《アイカ》)大きいタル……
+中身はなんだろう？\c"
+Ms013a040,"\h(《アイカ》)あ、オーシャンニガメロンだわ。
+ヴァイスが苦手なんだよね。
+お皿からはじいて怒られてたな。\c"
+Ms013a041,"\h(《アイカ》)ひゃー、大きいトウガラシ！
+こんなの食べたら
+口から火を吹けそう！\c"
+Ms013a042,"\h(《アイカ》)こんな野菜は見たことないな。
+ナスラードにはめずらしい品が
+いっぱいあるなあ。\c"
+Ms013a043,"\h(《アイカ》)フネイモ……ちょっとちがうか。
+ナスラードにはめずらしい品が
+いっぱいあるなあ。\c"
+Ms013a044,"\h(《アイカ》)あ、塩漬けのお魚だ。
+ドラクマ船長が好きだったな。
+船長……どうしただろう。\c"
+Ms013a045,"\h(《アイカ》)ナンがいっぱい入ってる。
+ナスラードの主食で
+航海に持ち歩くにもいいのよね。\c"
+Ms013a046,"\h(《アイカ》)ひゃー、大きいトウガラシ！
+こんなの食べたら
+口から火を吹けそう！\c"
+Ms013a047,"\h(《アイカ》)うわ、かっわいい！
+ナスルの船ってかわいいから
+好きなんだよね。\c"
+Ms013a048,"\h(《アイカ》)運送票がいっぱい貼ってある。
+バルアから船乗り島を経由して
+ナスルに来た荷物みたい。\c"
+Ms013a049,"\h(《アイカ》)武器弾薬がつまってるのね。
+こういうのを見ると
+やっぱり軍事国家ってかんじ。\c"
+Ms013a050,"\h(《アイカ》)ひゃー、大きい箱だなあ。
+ずいぶん頑丈そうだし。
+うーん、何が入ってるのかな？\c"
+Ms013a051,"\h(《アイカ》)これはバルアの紋章？
+バルアからの荷物なのかな。\c"
+Ms013a052,"\h(《アイカ》)オーシャン風の商船だ。
+船乗り島から来たのかな？\c"
+Ms013a053,"\h(《アイカ》)大きい大砲……
+こんなので撃たれたら
+小船なんか一撃でバラバラね。\c"
+Ms013a054,"\h(《アイカ》)赤月Ж石と書いてある。
+これ全部、月Ж石が
+つまっているのかな？\c"
+Ms013a055,"\h(《アイカ》)砲弾がつまってるけど
+砂ぼこりをかぶってるなあ。
+あまり使ってないのかな？\c"
+Ms020a056,"\h(《どうしよっかな？》)「宝島に出発しよっと！」
+「もう少し街にいよっかな」\c"
+Ms020a057,"\h(《アイカ》)ふーん、けっこうこった造りの
+船じゃない。
+いったい誰が乗ってるんだろ？\c"
+Ms020a058,"\h(《ヴァイス》)ギルダーがいないのに、勝手に
+空に出るわけにもいかないな。\c"
+Ms020a059,"\h(《ヴァイス》)すぐ宝島に出発したいとこだけど
+まずはこの国の国王に
+会っておこう。\c"
+Ms020a060,"\h(《さて、と……》)「出航する」
+「もう少し街をうろつく」\c"
+Ms013b000,"\h(《ヴァイス》)へえ〜、立派な噴水だなあ。
+ナスル大陸でこんなにぜいたくに
+水を使うなんて驚きだな。\c"
+Ms013b001,"\h(《ヴァイス》)冷たくてきれいな水だ。
+つい、入りたくなっちゃうな。
+さすがに恥ずかしいか……\c"
+Ms013b002,"\h(《ヴァイス》)タルの中身はなんだろな？
+お、自家製のピクルスか。
+つまみ食いしていこう。\c"
+Ms013b003,\h(《ヴァイス》)「本日のランチメニュー」……\e
+Ms013b004,"\h(《ヴァイス》)「砂漠の民のドキドキパスタ」
+「熱い風が届ける恋のスープ」
+……恥ずかしくて注文できない。\c"
+Ms013b005,"\h(《ヴァイス》)この先は王宮か。
+まわりをすべて水で覆われてる。
+とても砂漠の大陸とは思えんな。\c"
+Ms013b006,"\h(　)「ぜいたくで豊かなくらしを
+　あなたのもとに。
+　オスマン金融はこちら」\c"
+Ms013b007,"\h(《ヴァイス》)酒に果物を漬けたものかな。
+蜜が出てねっとりとして
+すっげえうまそうだ！\c"
+Ms013b008,"\h(《ヴァイス》)ソラトビウオのオイル漬け。
+アカマンボウのくんせい……
+高級な食材ばっかりだ。\c"
+Ms013b009,"\h(《ヴァイス》)バルアワインと書いてある。
+敵国のバルアの品も入ってるとは
+さすがは大交易地だな。\c"
+Ms013b010,"\h(《ヴァイス》)うむ、しっかり編まれた
+なかなか立派なザルだな。
+いい仕事をしている。\c"
+Ms013b011,"\h(《ヴァイス》)おおっ、王宮の模型か。
+へー、こりゃ良くできてるなあ。
+欲しくなっちゃうよ。\c"
+Ms013b012,"\h(《ヴァイス》)「ナスルダンス講習会
+　旅の記念に砂漠の踊りを」
+ベレーザもこれで覚えたのかな？\c"
+Ms013b013,"\h(《ヴァイス》)「この上、展望台
+　観光の記念に手形を押そう！」
+ナスラードを一望できるかな？\c"
+Ms013b014,"\h(《ヴァイス》)へえ、きれいなもんだな。
+噴水に花を浮かべてある。\c"
+Ms013b015,\h(　)……フンフンフン≧\e
+Ms013b116,"\h(《ヴァイス》)おっとと……
+女の人が泊まってるみたいだな。
+勝手に入るのはやめとこう。\e"
+Ms013b117,"\h(《ヴァイス》)けど、今の声……
+どっかで聞いたことが
+あるような気が……\c"
+Ms013b016,"\h(《ヴァイス》)おっ、羅針盤だ！
+なかなかの年代ものだな。
+かっこいいなあ。\c"
+Ms013b017,"\h(《ヴァイス》)賞金首の似顔絵だ。
+首に賞金をかけられるのは
+空賊のステイタスだよな。\c"
+Ms013b018,"\h(《ヴァイス》)「航海士募集」……
+「宝の地図、売ります」……
+いろいろなメモが貼ってある。\c"
+Ms013b019,"\h(《ヴァイス》)へえ、王宮の夜景か。
+きれいなもんだな。\c"
+Ms013b020,"\h(《ヴァイス》)「熱い男に熱い刺激！
+　砂漠の男のチリビール」
+熱い広告だなあ。\c"
+Ms013b021,"\h(　)おいしいティータイムの友
+マスター手作りの
+ふんわりマドレーヌ\c"
+Ms013b022,"\h(《ヴァイス》)これはかの有名なナスル織りか。
+すごい高級品って言うよな。
+汚したりしたら弁償できないぞ。\c"
+Ms013b023,"\h(《ヴァイス》)いろいろな香辛料があるなあ。
+そういやオフクロもいろんな
+香辛料を使い分けてたっけ……\c"
+Ms013b024,"\h(《ヴァイス》)香辛料やら乾物やら
+こういうのを調合して
+薬をつくったりすんのかな？\c"
+Ms013b025,"\h(《ヴァイス》)うわっ！
+……なんだ人形か。
+ナスルの防砂服を着せてある。\c"
+Ms013b026,"\h(《ヴァイス》)武器や弾薬が
+無造作に積んである。\c"
+Ms013b027,"\h(《ヴァイス》)お、ナスルの長剣だ。
+刀身が長く、むきだしなのは
+砂漠の武器独特だな。\c"
+Ms013b028,"\h(《ヴァイス》)おおー、豪華な細工の宝箱だな。
+中身だけじゃなくって外も
+いただきたくなっちゃうぜ。\c"
+Ms013b029,"\h(《ヴァイス》)うーむ、高価そうなツボだ。
+こういうツボで
+漬物を漬けたらうまいだろうか？\c"
+Ms013b030,"\h(《ヴァイス》)すごい強固な金庫だ……
+盗賊の血が騒ぐけど
+民間人の金庫は荒せないなあ。\c"
+Ms013b031,"\h(《ヴァイス》)コンジキクジャクをそのまま
+押し絵にしてある。
+さぞ高いんだろうな。\c"
+Ms013b032,"\h(《ヴァイス》)看板といい、クッションといい
+よっぽど猫好きなのかな？
+頭の上にも乗ってるしなあ。\c"
+Ms013b033,"\h(《アイカ》)うわあ、きれいな噴水……
+砂漠の真ん中にこんな噴水が
+あるなんてビックリしちゃう。\c"
+Ms013b034,"\h(《アイカ》)冷たくてきれいな水！
+ブーツ脱いで、水遊びしたいな。
+さすがに恥ずかしいか。\c"
+Ms013b035,"\h(《アイカ》)あ、ピクルスだ。
+誰も見てないかな……
+うん、おいしい！\c"
+Ms013b036,\h(《アイカ》)「本日のランチメニュー」……\e
+Ms013b037,"\h(《アイカ》)「月夜の砂漠のときめきピザ」
+「クルルに乗った王子のサラダ」
+あはは、かわいい名前！\c"
+Ms013b038,"\h(《アイカ》)おおー、これがナスル王宮か。
+水の上に浮かぶ宮殿かあ……
+なんか、おとぎ話みたい。\c"
+Ms013b039,"\h(　)「ぜいたくで豊かなくらしを
+　あなたのもとに。
+　オスマン金融はこちら」\c"
+Ms013b040,"\h(《アイカ》)あ、おいしそう！
+お酒に果物が漬けてあって
+蜜でとろとろになってる！\c"
+Ms013b041,"\h(《アイカ》)ソラトビウオのオイル漬け。
+アカマンボウのくんせい……
+うーん、食べたいなあ。\c"
+Ms013b042,"\h(《アイカ》)バルアワインだって。
+バルアのお酒はナスルでは
+入りにくいから高級品なのよね。\c"
+Ms013b043,"\h(《アイカ》)あ！　このザル、かわいい。
+丈夫そうだし、１個欲しいな。\c"
+Ms013b044,"\h(《アイカ》)ナスル王宮の模型だ！
+うひゃー、良くできてるなあ。
+すっごいかわいいよ〜！\c"
+Ms013b045,"\h(《アイカ》)「ナスルダンス講習会
+　旅の記念に砂漠の踊りを」
+……そんな場合じゃないっての。\c"
+Ms013b046,"\h(《アイカ》)「この上、展望台
+　観光の記念に手形を押そう！」
+ナスラードを一望できるのかな？\c"
+Ms013b047,"\h(《アイカ》)うっわー、きれーい！
+噴水に花を浮かべてある。\e"
+Ms013b048,"\h(《ファイナ》)アイカさん、人のお部屋に
+勝手に入るのは
+よくないと思いますよ。\e"
+Ms013b149,"\h(《アイカ》)アハ、ごめんごめん。
+そーだよね、勝手に入ってっちゃ
+迷惑だよね。やめとこ！\c"
+Ms013b049,"\h(《アイカ》)この羅針盤、けっこう年代物ね。
+ヴァイス、こういうの見るの
+好きなんだよなあ……\c"
+Ms013b050,"\h(《アイカ》)賞金首の似顔絵だ。
+ヴァイスはいないみたいね。\c"
+Ms013b051,"\h(《アイカ》)「航海士募集」……
+「宝の地図、売ります」……
+いろいろなメモが貼ってあるよ。\c"
+Ms013b052,"\h(《アイカ》)へえ、王宮の夜景かあ。
+なかなかロマンチックじゃん。\c"
+Ms013b053,"\h(《アイカ》)「熱い男に熱い刺激！
+　砂漠の男のチリビール」
+なんか暑苦しい広告ね……\c"
+Ms013b054,"\h(《アイカ》)「おいしいティータイムの友
+　マスター手作りの
+　ふんわりマドレーヌ」\c"
+Ms013b055,"\h(《アイカ》)あ、これがナスル織りかあ。
+すごく高級品なんだよね。
+とても手が出ないなあ。\c"
+Ms013b056,"\h(《アイカ》)いろんな香辛料があるなあ。
+これだけの香辛料を使い分けたら
+さぞかし料理の腕が上がるわね。\c"
+Ms013b057,"\h(《アイカ》)乾物とか、香辛料とか……
+こういうのを調合して
+薬をつくるのかな？\c"
+Ms013b058,"\h(《アイカ》)うひゃっ！
+……なーんだ人形か。
+ナスルの防砂服を着せてある。\c"
+Ms013b059,"\h(《アイカ》)武器に弾薬……
+ずいぶん無造作に
+積んであるのね。\c"
+Ms013b060,"\h(《アイカ》)わー、すごい剣！
+ヴァイスがこういうの見たら
+喜ぶだろうなー。\c"
+Ms013b061,"\h(《アイカ》)わあ、豪華な細工の宝箱！
+中身もさぞかし……
+むむむ、開かないか〜。\c"
+Ms013b062,"\h(《アイカ》)ひゃー、高価そうなツボ。
+割ったら弁償できないし
+触らないどこっと。\c"
+Ms013b063,"\h(《アイカ》)ずいぶん立派な金庫ね〜！
+カギが何重にもかけてあるし……
+こーゆーのほど狙われるんだよ。\c"
+Ms013b064,"\h(《アイカ》)お、コンジキクジャクだ。
+商売繁盛のお守りなんだよね。\c"
+Ms013b065,"\h(《アイカ》)うっわあ、かわいいクッション！
+おばさんの頭の上の猫が
+モデルなのかー。かーわいい≦\c"
+Ms013b066,"\h(《ヴァイス》)そうだ……
+バルアは、このナスルを
+攻めようとしてるんだっけ。\e"
+Ms013b067,"\h(《ヴァイス》)宝島に行く前に、この国の国王に
+そのことを伝えておいたほうが
+いいかもしれないな。\c"
+Ms013b068,"\h(《ヴァイス》)なんだ、この絵は？
+ただ適当に筆で
+描きなぐっただけなんじゃ？\c"
+Ms013b069,"\h(《アイカ》)筆で描きなぐっただけのように
+見えるけど、ずっと見てると
+何かに見えてくるからフシギー。\c"
+Ms013b070,"\h(《ヴァイス》)ダメだ、開かないな。
+カギがかかってるようだ。\c"
+Ms013b071,"\h(《アイカ》)ちぇっ、開かないよ。
+カギがかかってんのかな？\c"
+"",a013a01.mld
+"",a013a00.mld
+"",me013b.sct
+"",M0238
+"",M5130000
+"",k8000005
+"",EV_F15発生しました。\c
+"",a013af15.mld
+"",a013af15.mld
+"",M0238
+"",e6f015
+"",a013af15.mld
+"",EVF25発生しました。\c
+"",M0238
+"",e6f025
+"",a013af25.mld
+"",a013af25.mld
+"",EVF26発生しました。\c
+"",M0238
+"",e6f026
+"",a013af26.mld
+"",a013af26.mld
+"",EVF39発生しました。\c
+"",a013af39.mld
+"",M0238
+"",e6f039
+"",a013af39.mld

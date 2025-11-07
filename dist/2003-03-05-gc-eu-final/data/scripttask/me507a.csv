@@ -1,0 +1,465 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MA5070000,"\h(«Belleza»)Hahaha…
+Meet my flagship, the Lynx.\e"
+MA5070001,"\h(«Belleza»)Now, I will show you the true power of the
+Imperial Armada! My Magic Cannon will
+take care of that little ship of yours!\c"
+MA5070002,"\h(«Drachma»)Damn…
+The lady admiral's good. It's almost as if
+she can read our every move…\e"
+MA5070003,"\h(«Aika»)Vyse! I can't find any openings! Her defense
+is too good!
+What should we do?!\e"
+MA5070004,"\h(«What will you do?»)“Try and get behind her ship!”
+“Turn hard and try and catch her off guard.”\c"
+MA5070005,"\h(«Aika»)…Huh?
+Where'd she go?!\e"
+MA5070006,"\h(«Drachma»)Dammit, boy! You let her get behind us!
+Now she's got a clear shot at our backside!\e"
+MA5070007,"\h(«Belleza»)Hahaha…
+I didn't think you'd be so predictable,
+handsome. It's almost… disappointing.\e"
+MA5070008,"\h(«Belleza»)Battles aren't always won with brute strength.
+Sometimes, knowing how to read your enemy can
+be the key to an easy victory.\c"
+MA5070009,\h(«Belleza»)Hmm… That ship's quicker than it looks.\e
+MA5070010,"\h(«Belleza»)They may have surprised me this time, but I
+always have a backup plan. Preparation is
+one of the keys to victory, handsome…\c"
+MA5070011,"\h(«Vyse»)Damn…
+She's too good! I can't find any
+openings!\e"
+MA5070012,"\h(«Drachma»)Boy, we need to get into a good position
+to fire the Harpoon Cannon!\e"
+MA5070013,"\h(«What will you do?»)“Wait and see what she does.”
+“Set engines to full speed and get behind her.”\c"
+MA5070014,"\h(«Vice Captain»)Lady Belleza!
+The enemy vessel is continuing
+along its present course!\e"
+MA5070015,"\h(«Belleza»)Hahaha… What's wrong, handsome?
+Couldn't think of anything to do?
+If you're not going to do anything, I will.\c"
+MA5070016,"\h(«Vice Captain»)Lady Belleza, the enemy vessel is
+trying to circle around us at what
+appears to be their top speed!\e"
+MA5070017,"\h(«Belleza»)Their ship may be fast, but we only need
+to ensure that they do not get into position
+to fire that Harpoon Cannon.\c"
+MA5070018,"\h(«Aika»)This isn't fair!! Why won't she just sit still
+like everyone else does?! How does she expect us
+to hit her with the Harpoon Cannon like this?!\e"
+MA5070019,"\h(«What will you do?»)“Head straight upward!”
+“Bring the Little Jack to a complete stop!”\c"
+MA5070020,"\h(«Vyse»)Maybe we can catch her off guard if we
+pull into a steep climb…\e"
+MA5070021,"\h(«Aika»)B, but…
+That means they'll have a clear shot
+at our hull!\e"
+MA5070022,"\h(«Vyse»)That why she'll never think that
+we'd do it. We need to try something
+completely unexpected!\c"
+MA5070023,"\h(«Belleza»)……!?
+Where did they go?!
+Vice Captain! What's going on?!\e"
+MA5070024,"\h(«Vice Captain»)Y, yes Lady Belleza!
+They pulled into a steep climb and managed
+to get behind us!\e"
+MA5070025,"\h(«Belleza»)What…?
+I can't believe they would risk
+leaving their hull open like that…\c"
+MA5070026,"\h(«Vice Captain»)Lady Belleza!
+The enemy vessel has come
+to a complete stop!\e"
+MA5070027,"\h(«Belleza»)What!? Why would…
+Vice Captain! Put the engines into full
+reverse! We must not let them get behind us!!\e"
+MA5070028,"\h(«Vice Captain»)It's too late!
+We've already passed them! They've
+managed to get behind us, Admiral!\e"
+MA5070029,"\h(«Belleza»)Damn! I thought they were relying on their
+speed… I can't believe they just pulled into
+a complete stop like that. Very good, handsome…\c"
+MA5070030,"\h(«Belleza»)……!?
+Where did they go?!
+Vice Captain! What's going on?!\e"
+MA5070031,"\h(«Vice Captain»)Y, yes Lady Belleza!
+They pulled into a steep climb and managed
+to get behind us!\e"
+MA5070032,"\h(«Belleza»)What…?
+I can't believe they would risk
+leaving their hull open like that…\c"
+MA5070033,"\h(«Vyse»)Now's our chance! Her defenses are breaking
+down! It's time to open fire!\c"
+MA5070034,"\h(«Belleza»)Vice Captain! What just happened?!
+We were on their tail,
+and now suddenly he's behind us!\e"
+MA5070035,"\h(«Vice Captain»)Well, um…
+The enemy vessel suddenly stopped,
+and we passed them.\e"
+MA5070036,"\h(«Belleza»)What?!
+Their speed was their biggest advantage…
+And you mean to tell me they just stopped?!\e"
+MA5070037,"\h(«Belleza»)Damn… He's not as predictable as I thought.
+I can't keep fighting him this way. I need
+to take him out quickly…\c"
+MA5070038,"\h(«Vyse»)Now's our chance! Her defenses are breaking
+down! It's time to open fire!\c"
+MFA5070000,"\h(«Belleza»)Hahaha……
+Voilà mon navire amiral, le Lynx.\e"
+MFA5070001,"\h(«Belleza»)Maintenant, vous allez voir la véritable
+puissance de l'Armada Impériale !
+Mon Canon Magique va lui régler son compte à
+votre petit navire !\c"
+MFA5070002,"\h(«Drachma»)Sacrebleu……
+La dame amirale se débrouille bien. C'est comme
+si elle pouvait anticiper tous nos mouvements……\e"
+MFA5070003,"\h(«Aika»)Vyse ! Je ne trouve aucune ouverture !
+Sa défense est trop bonne !
+Que devons-nous faire ?!\e"
+MFA5070004,"\h(«Que ferez-vous ?»)“Essayer de passer derrière son navire !”
+“Virer pour la prendre par surprise.”\c"
+MFA5070005,"\h(«Aika»)……Hein ?
+Où est-elle passée ?!\e"
+MFA5070006,"\h(«Drachma»)Sapristi ! Vous l'avez laissée passer derrière
+nous ! Maintenant elle peut facilement tirer sur
+l'arrière de notre navire !\e"
+MFA5070007,"\h(«Belleza»)Hahaha……
+Je ne pensais pas que vous étiez aussi
+prévisible, beau gosse. C'est presque……
+décevant.\e"
+MFA5070008,"\h(«Belleza»)La force brutale n'est pas toujours nécessaire
+pour gagner une bataille.
+Parfois, savoir lire dans les pensées de son
+ennemi peut être la clé de la victoire.\c"
+MFA5070009,"\h(«Belleza»)Hum……
+Ce navire est plus rapide qu'il n'en a l'air.\e"
+MFA5070010,"\h(«Belleza»)Ils m'ont peut-être prise par surprise cette
+fois, mais j'ai toujours un plan B.
+La préparation est une des clés de la victoire,
+Roméo……\c"
+MFA5070011,"\h(«Vyse»)Sacrebleu……
+Elle est trop forte !
+Je ne trouve aucune ouverture !\e"
+MFA5070012,"\h(«Drachma»)Il faut bien se positionner
+pour faire feu avec le Canon Harpon !\e"
+MFA5070013,"\h(«Que ferez-vous ?»)“Attendre de voir ce qu'elle fait.”
+“Passer derrière elle à la vitesse maximale.”\c"
+MFA5070014,"\h(«Vice Capitaine»)Dame Belleza !
+Le vaisseau ennemi poursuit
+sa route dans la même direction !\e"
+MFA5070015,"\h(«Belleza»)Hahaha…… Qu'y a-t-il Roméo ?
+Vous ne saviez pas quoi faire ?
+Si vous ne faites rien, c'est moi qui vais agir.\c"
+MFA5070016,"\h(«Vice Capitaine»)Dame Belleza, le vaisseau ennemi
+essaie de tourner autour de nous
+à vitesse maximale, semble-t-il !\e"
+MFA5070017,"\h(«Belleza»)Leur navire est peut-être rapide, mais nous
+devons seulement nous assurer qu'ils ne se
+mettent pas en position pour tirer leur Canon
+Harpon.\c"
+MFA5070018,"\h(«Aika»)Ce n'est pas juste !! Pourquoi elle ne reste pas
+tranquille comme tout le monde ?! Comment croit-
+elle que nous allons lui tirer dessus avec le
+Canon Harpon dans ces conditions ?!\e"
+MFA5070019,"\h(«Que ferez-vous ?»)“Monter tout droit !”
+“Couper les moteurs du Little Jack !”\c"
+MFA5070020,"\h(«Vyse»)Nous pouvons peut-être la surprendre
+en montant à la verticale……\e"
+MFA5070021,"\h(«Aika»)M, mais……
+Cela signifie qu'ils pourront tirer facilement
+sur notre coque !\e"
+MFA5070022,"\h(«Vyse»)C'est pour cette raison qu'elle ne s'attendra
+pas à ce que nous le fassions. Nous devons
+tenter quelque chose d'inattendu !\c"
+MFA5070023,"\h(«Belleza»)……!?
+Où sont-ils passés ?!
+Vice Capitaine ! Que se passe t-il ?!\e"
+MFA5070024,"\h(«Vice Capitaine»)O, oui Dame Belleza !
+Ils sont montés à la verticale et ont réussi
+à passer derrière nous !\e"
+MFA5070025,"\h(«Belleza»)Comment……?
+Je ne peux pas croire qu'ils ont pris le risque
+d'exposer leur coque comme cela……\c"
+MFA5070026,"\h(«Vice Capitaine»)Dame Belleza !
+Le vaisseau ennemi
+a éteint ses moteurs !\e"
+MFA5070027,"\h(«Belleza»)Comment !? Pourquoi ils……
+Vice Capitaine ! Faites machine arrière ! Il ne
+faut pas les laisser passer derrière nous !!\e"
+MFA5070028,"\h(«Vice Capitaine»)Trop tard !
+Nous les avons déjà dépassés ! Ils ont réussi à
+passer derrière nous, Amiral !\e"
+MFA5070029,"\h(«Belleza»)Sacrebleu ! Je pensais qu'ils misaient sur leur
+vitesse…… Je ne peux pas croire qu'ils aient
+coupé leurs moteurs comme cela. Bien joué,
+Roméo……\c"
+MFA5070030,"\h(«Belleza»)……!?
+Où sont-ils passés ?!
+Vice Capitaine ! Que se passe t-il ?!\e"
+MFA5070031,"\h(«Vice Capitaine»)O, oui Dame Belleza !
+Ils sont montés à la verticale et ont réussi
+à passer derrière nous !\e"
+MFA5070032,"\h(«Belleza»)Comment……?
+Je ne peux pas croire qu'ils ont pris le risque
+d'exposer leur coque comme cela……\c"
+MFA5070033,"\h(«Vyse»)C'est notre chance !
+Ses défenses s'affaiblissent !
+C'est le moment d'ouvrir le feu !\c"
+MFA5070034,"\h(«Belleza»)Vice Capitaine ! Que s'est-il passé ?!
+Nous les talonnions de près,
+et maintenant il est derrière nous !\e"
+MFA5070035,"\h(«Vice Capitaine»)Euh, um……
+Le vaisseau ennemi s'est arrêté soudainement,
+et nous les avons dépassés.\e"
+MFA5070036,"\h(«Belleza»)Comment ?!
+Leur vitesse était leur plus gros atout……
+Et vous me dites qu'ils se sont arrêtés ?!\e"
+MFA5070037,"\h(«Belleza»)Flûte…… Il n'est pas aussi prévisible que je
+le pensais. Je ne peux pas continuer à le
+combattre comme ça. Il faut que je l'élimine au
+plus vite……\c"
+MFA5070038,"\h(«Vyse»)C'est notre chance !
+Ses défenses s'affaiblissent !
+C'est le moment d'ouvrir le feu !\c"
+MGA5070000,"\h(«Belleza»)Hahaha……
+Hier ist mein Flaggschiff, die Lynx.\e"
+MGA5070001,"\h(«Belleza»)Jetzt werde ich euch die wahre Macht der
+Kaiserlichen Armada zeigen! Meine Magic Cannon
+wird sich euer kleines Schiff mal vornehmen!\c"
+MGA5070002,"\h(«Drachma»)Verdammt……
+Diese Admiralin ist gut. Es ist fast so,
+als könnte sie jede unserer Bewegungen
+voraussehen……\e"
+MGA5070003,"\h(«Aika»)Vyse! Ich kann keine Schwachpunkte finden!
+Ihre Abwehr ist zu gut! Was sollen wir machen?!\e"
+MGA5070004,"\h(«Was wirst du tun?»)“Versuchen, hinter ihr Schiff zu kommen!”
+“Scharf drehen und sie überraschen.”\e"
+MGA5070005,"\h(«Aika»)……Wie?
+Wo ist sie hin?!\e"
+MGA5070006,"\h(«Drachma»)Verdammt, Junge! Du hast zugelasssen, dass
+sie uns in den Rücken fällt! Jetzt zielt sie
+auf unsere Rückseite!\e"
+MGA5070007,"\h(«Belleza»)Hahaha……
+Ich hätte nicht gedacht, dass du so
+durchschaubar wärst, Süßer. Es ist fast……
+enttäuschend.\e"
+MGA5070008,"\h(«Belleza»)Schlachten werden nicht immer mit brutaler
+Gewalt geschlagen. Wenn man weiß, mit welchem
+Feind man es zu tun hat, kann das der Schlüssel
+zu einem leichten Sieg sein.\c"
+MGA5070009,"\h(«Belleza»)Hmm…… dieses Schiff ist schneller, als es
+aussieht.\e"
+MGA5070010,"\h(«Belleza»)Diesmal haben sie mich vielleicht überrascht,
+aber ich besitze immer einen Reserveplan.
+Eine gute Vorbereitung ist der Schlüssel zum
+Sieg, Süßer……\c"
+MGA5070011,"\h(«Vyse»)Verdammt……
+Sie ist zu gut! Ich kann keine Schwachpunkte
+finden!\e"
+MGA5070012,"\h(«Drachma»)Junge, wir müssen die richtige Position
+einnehmen, um die Harpoon Cannon zu feuern!\e"
+MGA5070013,"\h(«Was wirst du tun?»)“Abwarten, was sie tut.”
+“Mit voller Fahrt hinter ihr bleiben.”\c"
+MGA5070014,"\h(«Vizekapitän»)Lady Belleza!
+Das Feindschiff fährt weiter auf seinem
+gegenwärtigen Kurs!\e"
+MGA5070015,"\h(«Belleza»)Hahaha…… stimmt was nicht, Süßer?
+Weißt du nicht recht, was du tun sollst?
+Wenn du nichts tun willst, dann tu ich
+es eben.\c"
+MGA5070016,"\h(«Vizekapitän»)Lady Belleza, das Feindschiff versucht,
+uns mit -- so sehen sie das wohl -- absoluter
+Höchstgeschwindigkeit zu umkreisen!\e"
+MGA5070017,"\h(«Belleza»)Ihr Schiff mag schnell sein, aber wir brauchen
+eigentlich nur aufzupassen, dass sie nicht die
+Position zum Abschießen dieser Harpoon Cannon
+einnehmen.\c"
+MGA5070018,"\h(«Aika»)Das ist nicht fair!! Warum hält sie nicht
+einfach still wie jeder andere?! Wie sollen
+wir sie so mit der Harpoon Cannon treffen?!\e"
+MGA5070019,"\h(«Was wirst du tun?»)“Geradewegs nach oben steuern!”
+“Die Little Jack zum Stillstand bringen!”\c"
+MGA5070020,"\h(«Vyse»)Vielleicht können wir sie überrumpeln, wenn
+wir in einen schnellen Steigflug gehen……\e"
+MGA5070021,"\h(«Aika»)Aber……
+Das bedeutet, dass wir ihnen unseren Rumpf
+preisgeben!\e"
+MGA5070022,"\h(«Vyse»)Deshalb wird sie auch nicht annehmen, dass
+wir das tun. Wir müssen etwas völlig
+Unerwartetes ausprobieren!\c"
+MGA5070023,"\h(«Belleza»)……!?
+Wo sind sie hin?!
+Vizekapitän! Was ist los?!\e"
+MGA5070024,"\h(«Vizekapitän»)Ja…… jawohl, Lady Belleza!
+Sie sind in einen schnellen Steigflug gegangen
+und haben es geschafft, hinter uns zu gelangen!\e"
+MGA5070025,"\h(«Belleza»)Was……?
+Ich hätte nicht gedacht, dass sie es riskieren
+würden, ihren Rumpf in eine dermaßen 
+gefährdete Lage zu bringen……\c"
+MGA5070026,"\h(«Vizekapitän»)Lady Belleza!
+Das Feindschiff ist zum völligen Stillstand
+gekommen!\e"
+MGA5070027,"\h(«Belleza»)Was!? Warum würde……
+Vizekapitän! Stell die Motoren auf vollen
+Rückwärtsgang! Wir müssen verhindern, dass
+sie uns in den Rücken fallen!!\e"
+MGA5070028,"\h(«Vizekapitän»)Es ist zu spät!
+Wir sind schon an ihnen vorbeigeflogen!
+Sie sind hinter uns, Admiral!\e"
+MGA5070029,"\h(«Belleza»)Verdammt! ich dachte, sie würden ihre
+Geschwindigkeit benutzen…… unfassbar,
+dass sie einfach so angehalten haben.
+Nun gut, Süßer……\c"
+MGA5070030,"\h(«Belleza»)……!?
+Wo sind sie hin?!
+Vizekapitän! Was ist los?!\e"
+MGA5070031,"\h(«Vizekapitän»)Ja…… jawohl, Lady Belleza!
+Sie sind in einen schnellen Steigflug gegangen
+und haben es geschafft, sich hinter uns zu
+manövrieren!\e"
+MGA5070032,"\h(«Belleza»)Was……?
+Ich hätte nicht gedacht, dass sie es riskieren
+würden, ihren Rumpf in eine dermaßen
+gefährdete Lage zu bringen……\c"
+MGA5070033,"\h(«Vyse»)Das ist unsere Chance! Ihre Abwehr bricht
+zusammen! Eröffnen wir das Feuer!\c"
+MGA5070034,"\h(«Belleza»)Vizekapitän! Was ist passiert?!
+Wir sind ihm dicht gefolgt, und plötzlich
+ist er hinter uns!\e"
+MGA5070035,"\h(«Vizekapitän»)Also, em……
+Das Feindschiff hat plötzlich angehalten,
+und wir haben sie überholt.\e"
+MGA5070036,"\h(«Belleza»)Was?!
+Ihre Geschwindigkeit war ihr größter Vorteil……
+Und du sagst, sie hätten einfach angehalten?!\e"
+MGA5070037,"\h(«Belleza»)Verdammt…… er ist doch nicht so durchschaubar
+wie ich dachte. So erwische ich ihn nicht.
+Ich muss ihn mir überraschend holen……\c"
+MGA5070038,"\h(«Vyse»)Das ist unsere Chance! Ihre Abwehr bricht
+zusammen! Eröffnen wir das Feuer!\c"
+MSA5070000,"\h(«Belleza»)Ja, ja, ja……
+Éste es mi buque insignia, el Lynx.\e"
+MSA5070001,"\h(«Belleza»)¡Os vais a enterar del verdadero poder
+de la Armada Imperial! ¡Mi Cañón Mágico hará
+añicos ese insignificante barquito que tenéis!\c"
+MSA5070002,"\h(«Drachma»)Maldición……
+La Almirante es muy buena. Se anticipa a todos
+nuestros movimientos……\e"
+MSA5070003,"\h(«Aika»)¡Vyse! ¡No puedo encontrar la oportunidad!
+¡Su defensa es excelente!
+¡¿Qué hacemos?!\e"
+MSA5070004,"\h(«¿Qué vas a hacer?»)“¡Ponerme detrás de su navío!”
+“Virar para cogerla desprevenida.”\c"
+MSA5070005,"\h(«Aika»)…… ¿Eh?
+¡¿Adónde ha ido?!\e"
+MSA5070006,"\h(«Drachma»)¡Rayos y truenos, muchacho!
+¡Has dejado que se sitúe detrás!
+¡Ahora puede dispararnos sin problemas!\e"
+MSA5070007,"\h(«Belleza»)Ja, ja, ja……
+Nunca pensé que serías tan predecible, guapo.
+Estoy bastante decepcionada.\e"
+MSA5070008,"\h(«Belleza»)Las batallas no siempre se ganan con fuerza
+bruta. A veces, conocer de antemano lo que
+piensa tu enemigo es la clave de la victoria.\c"
+MSA5070009,\h(«Belleza»)Mmm…… Ese navío es más veloz de lo que parece.\e
+MSA5070010,"\h(«Belleza»)Esta vez me han cogido por sorpresa,
+pero siempre tengo un plan de repuesto.
+Ser previsora es la clave de la victoria……\c"
+MSA5070011,"\h(«Vyse»)Caray……
+¡Es demasiado buena!
+¡No encuentro la ocasión!\e"
+MSA5070012,"\h(«Drachma»)Muchacho, ¡para disparar el Cañón Arpón
+tenemos que situarnos primero
+en una buena posición!\e"
+MSA5070013,"\h(«¿Qué vas a hacer?»)“Esperar para ver qué hace.”
+“Situarme detrás de ella a toda velocidad.”\c"
+MSA5070014,"\h(«Vicecapitán»)¡Lady Belleza!
+¡El navío enemigo sigue su curso!\e"
+MSA5070015,"\h(«Belleza»)Ja, ja, ja…… ¿Qué pasa, guapetón?
+¿No sabías qué hacer? Si vas a estar de brazos
+cruzados, tendré que pasar a la acción.\c"
+MSA5070016,"\h(«Vicecapitán»)Lady Belleza, ¡el navío enemigo
+intenta rodearnos a toda velocidad!\e"
+MSA5070017,"\h(«Belleza»)Da igual que su navío sea veloz,
+lo importante es asegurarnos de que no
+se coloquen para disparar el Cañón Arpón.\c"
+MSA5070018,"\h(«Aika»)¡¡Qué rabia!! ¡¿Por qué no se quedará quieta
+como hacen todos los demás?! ¡¿Cómo vamos
+a darle con el Cañón Arpón si sigue así?!\e"
+MSA5070019,"\h(«¿Qué vas a hacer?»)“¡Ir hacia arriba!”
+“¡Detener el Little Jack por completo!”\c"
+MSA5070020,"\h(«Vyse»)A lo mejor le cogemos de sorpresa
+si nos elevamos de golpe……\e"
+MSA5070021,"\h(«Aika»)Pero……
+¡¡Eso significa que podrán disparar
+sin problemas a nuestro casco!\e"
+MSA5070022,"\h(«Vyse»)Por eso mismo pensará que no vamos
+a atrevernos. ¡Hay que intentar algo
+totalmente inesperado!\c"
+MSA5070023,"\h(«Belleza»)¿¡……!?
+¡¿Dónde se han metido?!
+¡Vicecapitán! ¡¿Qué rayos pasa aquí?!\e"
+MSA5070024,"\h(«Vicecapitán»)¡Sí, Lady Belleza!
+¡Han subido en picado y se han situado detrás!\e"
+MSA5070025,"\h(«Belleza»)¿Cómo……?
+No puedo creer que hayan corrido semejante
+riesgo, dejando el casco expuesto……\c"
+MSA5070026,"\h(«Vicecapitán»)¡Lady Belleza!
+¡El navío enemigo se ha
+detenido en seco!\e"
+MSA5070027,"\h(«Belleza»)¿¡Qué!? Pero si……
+¡Vicecapitán! ¡Marcha atrás a toda máquina!
+¡¡No podemos permitir que se sitúen detrás!!\e"
+MSA5070028,"\h(«Vicecapitán»)¡Es demasiado tarde!
+¡Ya les hemos pasado!
+¡Han conseguido ponerse detrás!\e"
+MSA5070029,"\h(«Belleza»)¡Maldición! Creí que se apoyaban en el factor
+velocidad…… no me esperaba que fueran a parar en
+seco. Ésa ha sido muy buena, guapo……\c"
+MSA5070030,"\h(«Belleza»)¿¡……!?
+¡¿Adónde se han ido?!
+¡Vicecapitán! ¡¿Qué está pasando?!\e"
+MSA5070031,"\h(«Vicecapitán»)¡Sí, Lady Belleza!
+¡Han subido en picado y se han situado detrás!\e"
+MSA5070032,"\h(«Belleza»)¿Cómo……?
+No puedo creer que hayan corrido semejante
+riesgo, dejando el casco expuesto……\c"
+MSA5070033,"\h(«Vyse»)¡Es el momento!
+¡Sus defensas se rompen!
+¡Tenemos que abrir fuego!\c"
+MSA5070034,"\h(«Belleza»)¡Vicecapitán! ¡¿Qué ha pasado aquí?!
+Les pisábamos los talones,
+¡y de repente ellos están detrás!\e"
+MSA5070035,"\h(«Vicecapitán»)Esto……
+El navío enemigo ha parado de repente
+y lo hemos pasado de largo.\e"
+MSA5070036,"\h(«Belleza»)¡¿Cómo?!
+La velocidad era su mejor baza……
+¿Y dices que acaban de parar?\e"
+MSA5070037,"\h(«Belleza»)Caray…… No es tan predecible como pensaba.
+No puedo seguir luchando de esta forma. Tengo
+que librarme de él cuanto antes……\c"
+MSA5070038,"\h(«Vyse»)¡Es el momento!
+¡Sus defensas se descomponen!
+¡Tenemos que abrir fuego!\c"
+"",f7100100S.p04
+"",f7100100S.p04
+"",me507a.sct
+"",me090a.sct
+"",f3000035
+"",f3000035
+"",M0465
+"",k0000.mld
+"",k0000.mld
+"",f7100050S.p04
+"",k0000.mld
+"",me033a.sct

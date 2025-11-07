@@ -1,0 +1,75 @@
+[Event Name],Task ID
+M01120000,"\h(«Fina»)“We, who have come from the
+Temple of the Silver Moon…”\e"
+M01120001,"\h(«Fina»)“… have sealed within the forests, after the
+Rains of Destruction washed away the lands,
+the unsleeping giant, Grendel…”\e"
+M01120002,"\h(«Fina»)“And upon his sealing, the Green Crystal was
+kept within these walls…”\c"
+M01120003,"\h(«Fina»)This is written in the holy language
+of the Silver Temple.\e"
+M01120004,"\h(«Fina»)The Silvites must have inscribed these
+words when they were here.\c"
+M01120005,"\h(«Vyse»)So, this Quetya person that all the Ixa'takans
+keep talking about was probably a Silvite just
+like Fina.\e"
+M01120006,"\h(«Aika»)That would explain why everyone mistook Fina
+for Quetya… whoever he or she is.\c"
+M01120007,"\h(«Vyse»)There some kind of writing on the walls, but
+I can't read it. I have no idea what it says…\c"
+M01120008,"\h(«Vyse»)There are pictures of people wearing masks.
+They're probably ancestors of the Ixa'takans.\c"
+M01120009,"\h(«Vyse»)This is the pedestal where the Moon Crystal was.
+There's an empty spot where it used to be.\c"
+ME0150000,"\h(«Vyse»)There's an indentation just big enough
+to fit a small gem…\e"
+ME0150001,"\h(«What will you do?»)“Let's try putting in the Golden Man's Eye gem.”
+“Let's try putting in the Great Bird's Eye gem.”
+“It might be dangerous… let's not touch it.”\e"
+ME0150002,"\h(«Vyse»)The Golden Man's Eye is giving off a strange
+light now…\e"
+ME0150003,"\h(«Vyse»)The Great Bird's Eye is set into an indentation
+in the statue…\e"
+ME0150004,"\h(«What will you do?»)“Switch it with the Golden Man's Eye.”
+“Just take the Great Bird's Eye out.”
+“Leave it as it is.”\e"
+ME0150005,"\h(«Vyse»)There's an indentation just big enough
+to fit a small gem…\e"
+ME0150006,"\h(«What will you do?»)“Let's try putting in the Golden Man's Eye gem.”
+“Let's try putting in the Great Bird's Eye gem.”
+“It might be dangerous… let's not touch it.”\e"
+ME0150007,"\h(«Vyse»)The Golden Man's Eye is set into an indentation
+in the statue…\e"
+ME0150008,"\h(«What will you do?»)“Just take the Golden Man's Eye out.”
+“Switch it with the Great Bird's Eye.”
+“Leave it as it is.”\e"
+ME0150009,"\h(«Vyse»)The Great Bird's Eye is giving off a strange
+light now…\e"
+M01120010,"\h(«Vyse»)This statue…
+It looks like the statues that were at the
+entrance to Rixis…\c"
+M01120011,"\h(«Vyse»)……!
+Who's that!?\e"
+M01120012,"\h(«Aika»)That's it!
+That's the ghost that
+I saw earlier!\c"
+M01120013,"\h(«Fina»)Oh…
+It's running away!\e"
+M01120014,"\h(«Drachma»)Who'd be lurkin' around in a place like this?!
+Don't let him get away, boy!\c"
+M01120015,"\h(«What do you want to do?»)“Return to the Little Jack.”
+“Stay in Rixis a little while longer.”\c"
+M01120016,"\h(«What do you want to do?»)“Return to the Delphinus.”
+“Stay in Rixis a little while longer.”\c"
+M01120017,"\h(«What will you do?»)“Take out the Golden Man's Eye gem.”
+“Leave it the way it is.”\c"
+M01120018,"\h(«What will you do?»)“Take out the Great Bird's Eye gem.”
+“Leave it the way it is.”\c"
+M01120019,"\h(«What will you do?»)“Let's try putting in the Golden Man's Eye gem.”
+“It might be dangerous… let's not touch it.”\e"
+M01120020,"\h(«What will you do?»)“Let's try putting in the Great Bird's Eye gem.”
+“It might be dangerous… let's not touch it.”\e"
+"",me112b.sct
+"",M0325
+"",k8120000
+"",m5120000

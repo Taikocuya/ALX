@@ -1,0 +1,295 @@
+[Event Name],Task ID
+ME0070000,"\h(《King Ixa'taka》)I am sorry. I was not expecting guests.
+I am the king of Ixa'taka.\e"
+ME0070001,"\h(《King Ixa'taka》)So, you are the people that have come from the
+Eastern skies. The high priests informed me of
+your arrival.\e"
+ME0070002,"\h(《King Ixa'taka》)They also told me that you drove off the fire-
+breathing ship that was destroying our land.\e"
+ME0070003,"\h(《King Ixa'taka》)I thank you on behalf of my people, the forests,
+and Quetya.\e"
+ME0070004,"\h(《Aika》)It was nothing… really…
+We were just doing what we thought was the right
+thing to do.\e"
+ME0070005,"\h(《King Ixa'taka》)I was driven from my land and forced to live in 
+this… hut. I am sorry, but I am not in the 
+position to compensate you for your bravery.\e"
+ME0070006,"\h(《King Ixa'taka》)However, I will do anything that is within my 
+power as king to reward you. Is there 
+anything I can do for you?\e"
+ME0070007,"\h(《Vyse》)Actually, your Majesty, we did have something to
+ask of you. We are looking for 
+the Green Moon Crystal…\e"
+ME0070008,"\h(《King Ixa'taka》)The Green Moon Crystal?
+Perhaps you speak of the 
+legendary Sacred Green Stone.\e"
+ME0070009,"\h(《King Ixa'taka》)The men from Valua came looking for the same 
+thing, but I don't know where it is.\e"
+ME0070010,"\h(《King Ixa'taka》)However, if the Stone did exist, it would 
+probably be located in the Lost City of Rixis.\e"
+ME0070011,\h(《Aika》)Lost City?\e
+ME0070012,"\h(《Fina》)Rixis…
+I believe that was the name of the capital of 
+Ixa'taka in the Old World.\e"
+ME0070013,"\h(《King Ixa'taka》)You are correct. And it is said that the 
+buildings… even the streets were made 
+of pure gold.\e"
+ME0070014,"\h(《Aika》)Gold?!?!?!?!?
+Let's go! Let's go! Let's go! 
+Let's find Rixis right now! \e"
+ME0070015,"\h(《Vyse》)Calm down, Aika. You're embarassing me.
+So, do you know where Rixis is located?\e"
+ME0070016,"\h(《King Ixa'taka》)I'm afraid not. It has been hidden for 
+generations… Our people call it the 
+City of Mists. It may not even exist anymore…\e"
+ME0070017,"\h(《King Ixa'taka》)One of my High Priests knows a great deal about
+the Old World. His name is Isapa. If anyone 
+would know, it would be him.\e"
+ME0070018,"\h(《Vyse》)I see…
+Would it be alright for us to meet Isapa?\e"
+ME0070019,\h(《King Ixa'taka》)Hmm… Isapa is not here.\e
+ME0070020,"\h(《King Ixa'taka》)The Valuans took him to Sacred Mountain… 
+In the mountain is a mine that contains 
+what you call “Moon Stones”.\e"
+ME0070021,"\h(《Aika》)So, the Valuans kidnapped one of your High 
+Priests and he's being held prisoner in 
+Moon Stone Mountain… Vyse, what should we do?\e"
+ME0070022,"\h(《What will you do?》)“Let's break into the Moon Stone Mines!”
+“We'll try and find Rixis by ourselves!”\e"
+ME0070023,"\h(《Vyse》)Let's break into the Moon Stone Mines! 
+We can try to save Isapa!\e"
+ME0070024,"\h(《Drachma》)Hmm… it appears to be our only option.
+Breaking into a Valuan stronghold isn't 
+going to be easy.\e"
+ME0070025,"\h(《King Ixa'taka》)You're willing to risk your lives to save 
+Isapa?\e"
+ME0070026,"\h(《King Ixa'taka》)Our Sacred Mountain is south 
+of the Horteka Village. Be careful…\e"
+ME0070027,"\h(《Vyse》)Leave it to us!
+Onward to Moon Stone Mountain!\e"
+ME0070028,"\h(《Vyse》)Rixis has to be somewhere on this island. 
+Let's try finding it ourselves!\e"
+ME0070029,"\h(《Drachma》)Don't be foolish, boy.
+These islands are huge, and the forests are 
+thick. We'll never find it in time.\e"
+ME0070030,"\h(《Drachma》)The Valuans were desperate enough to burn down
+the forests, and they still couldn't find it.\e"
+ME0070031,"\h(《Aika》)Looks like we have no choice but to go to
+Moon Stone Mountain and save Isapa!\e"
+ME0070032,"\h(《Vyse》)I suppose so…
+Well, I guess we're going to have to break into 
+the mines and rescue him!\e"
+ME0070033,"\h(《King Ixa'taka》)The Mountain is south of Horteka Village. 
+May Quetya protect you.\e"
+ME0140000,"\h(《King Ixa'taka》)Vyse!
+You returned safely!\e"
+ME0140001,\h(《King Ixa'taka》)I thank you for saving Isapa!\e
+ME0140002,"\h(《Isapa》)Heh heh heh…
+Yes, thank you for rescuing me. 
+I'd love to thank you two ladies personally… \e"
+ME0140003,"\h(《Isapa》)But I must return to my priestly duties… 
+Well, it was nice meeting you.\e"
+ME0140004,"\h(《Aika》)Not so fast! You were supposed to tell us the
+location of the Lost City!\e"
+ME0140005,"\h(《Isapa》)Ah, that's right.
+I'm sorry, I completely forgot… Ahahahaha!\e"
+ME0140006,"\h(《Vyse》)King Ixa'taka, with all due respect…
+Where did you get this guy?
+Is he really a High Priest?\e"
+ME0140007,"\h(《King Ixa'taka》)Of course! He has much knowledge in ancient 
+scriptures and history.\e"
+ME0140008,"\h(《Isapa》)Very well… I shall pass on to you the secret of
+the Lost City that has been passed down in my
+family for many generations.\e"
+ME0140009,"\h(《Isapa》)“The Great Bird with its wings spread and the
+kneeling Golden Man will open the way.”\e"
+ME0140010,"\h(《Isapa》)That is all.
+So, you got it?\e"
+ME0140011,"\h(《Vyse》)What do you mean, “That is all?”
+I have no idea what you were talking about.\e"
+ME0140012,"\h(《Isapa》)To be completely honest,
+I don't know what it means either!\e"
+ME0140013,"\h(《Isapa》)You need to solve the riddle on your own.
+Ahahaha!!!\e"
+ME0140014,"\h(《Aika》)I give up!
+If you didn't know, then you should've said so
+in the first place!!!\e"
+ME0140015,"\h(《Fina》)Now, calm down Aika… 
+Listen to what he just told us.\e"
+ME0140016,"\h(《Fina》)“The Great Bird with its wings spread and the
+kneeling Golden Man will open the way.”\e"
+ME0140017,\h(《Fina》)I know what it means!\e
+ME0140018,"\h(《Fina》)“The Great Bird with its wings spread” and
+“the kneeling Golden Man” are probably
+somewhere on this continent!\e"
+ME0140019,"\h(《Vyse》)So, if we find them, we'll find the Lost City!\e"
+ME0140020,"\h(《Vyse》)Alright, let's go find this Great Bird and the
+Golden Man.\e"
+ME0230000,"\h(《King Ixa'taka》)Vyse…
+You saved my people… and our lands. 
+I don't know how to repay you…\e"
+ME0230001,"\h(《King Ixa'taka》)We were wrong. We should have never summoned 
+the Giant.\e"
+ME0230002,"\h(《Vyse》)With great power, you need great responsibility.
+The Gigas are far too dangerous…\e"
+ME0230003,"\h(《King Ixa'taka》)Yes, we now realize that. And I am truly sorry…
+Vyse, you have proven yourself worthy…\e"
+ME0230004,"\h(《King Ixa'taka》)I entrust our Sacred Green Stone unto you. 
+Use it to achieve peace… 
+We have faith in you.\e"
+ME0230005,"\h(《Vyse》)Thank you King Ixa'taka…
+We will do our best.\e"
+ME0230006,"\h(《Isapa》)The Valuans have abandoned their encampments
+to the north.\e"
+ME0230007,"\h(《Isapa》)Now that they have left, perhaps you might
+be able to travel through the Iron Net.\e"
+ME0230008,"\h(《Drachma》)If we pass through there, we'll reach North
+Ocean. That will take us back to Valua.\e"
+ME0230009,\h(《Fina》)The Yellow Crystal should be hidden there. \e
+ME0230010,"\h(《Vyse》)Okay everyone, now we'll head back to Valua.
+They're really upset with us now… Getting the
+Yellow Crystal isn't going to be easy.\e"
+ME0230011,"\h(《Isapa》)Sounds dangerous… perhaps you ladies would like
+to stay behind here in Ixa'taka?\e"
+ME0230012,"\h(《Isapa》)It's an island paradise…
+We've got exotic foods, nectars, waterfalls,
+beautiful sunsets…\e"
+ME0230013,"\h(《Vyse》)What do you say, Aika?
+Who knows? Maybe you'll find some more 
+ghosts, too.\e"
+ME0230014,"\h(《Aika》)Vyse!!! Don't even joke about them around me…
+You know I'm afraid of them… I've had enough
+ghosts to last me for a long time.\e"
+ME0230015,\h(　)You received the Green Moon Crystal.\e
+M05260000,"\h(《King Ixa'taka》)Maybe it would be best to ask the High Priest
+Isapa about Rixis and the Sacred Green Stone.\e"
+M05260001,"\h(《King Ixa'taka》)But Isapa has been taken to Moon Stone
+Mountain, which Valua has taken over.  I have
+been at a loss over what to do, myself.\c"
+M05260002,"\h(《King Ixa'taka》)Thanks to you and your friends, Isapa has
+returned home safely to Ixa'taka.\e"
+M05260003,"\h(《King Ixa'taka》)Please feel free to ask Isapa anything about
+Rixis that you wish to know.\c"
+M05260004,"\h(《King Ixa'taka》)Thank you, Vyse.  Your bravery has saved my
+kingdom.\e"
+M05260005,"\h(《King Ixa'taka》)From this day forth, we will defend Ixa'taka
+from all foes with our own strength! You have
+given us the courage to do so, Vyse.\c"
+M05260006,"\h(《King Ixa'taka》)Hello, Vyse! I am glad to see that you are well!
+Please, take your time and enjoy our beautiful
+country while you are here.\c"
+M05260007,"\h(《King Ixa'taka》)I see that the winds of fate have blown your
+ship once again to the lands of Ixa'taka.\e"
+M05260008,"\h(《King Ixa'taka》)W, what?!  You say that you have traveled
+around the world and come from the west!?!\e"
+M05260009,"\h(《King Ixa'taka》)I… I cannot believe it… To think that the Wall
+of Rock is not the edge of the world…\c"
+M05260010,"\h(《King Ixa'taka》)Well, if it isn't Vyse.  We are forever in your
+debt, brave one. I am glad to see that fate has
+left you in good health.\e"
+M05260011,"\h(《King Ixa'taka》)Thanks to you, the forests are quiet and the
+citizens of Ixa'taka can once again live in
+peace. You are truly heroes.\c"
+M05260012,"\h(《King Ixa'taka》)Vyse…
+I have heard that terrible things are happening
+in the east.\c"
+M05270000,"\h(《High Priest》)Our kingdom has been destroyed. Even the king is
+forced to live in conditions not fit for
+beasts… and as old as I am, I can do nothing.\e"
+M05270001,"\h(《High Priest》)Perhaps you cannot tell by looking at him, but 
+Isapa is a High Priest of much higher standing 
+than myself.\e"
+M05270002,"\h(《High Priest》)He knows much about ancient legends and is a 
+valuable member of the royal court…\e"
+M05270003,"\h(《High Priest》)Your ship… it is a different ship from the one 
+you came in last time you visited us. What has 
+happened?\e"
+M05270004,"\h(《High Priest》)Y, you stole it from Valua?!
+You… you are just too much…\e"
+M05270005,"\h(《High Priest》)A little while back, Valua came through here 
+from the east. We were all very surprised.\e"
+M05270006,"\h(《High Priest》)But, they continued on without doing anything. 
+They flew to the west. What exactly were they up
+to?\e"
+M05270007,"\h(《High Priest》)Rumors of your exploits have traveled even to
+us here in Ixa'taka. It appears that you are
+quite the sailor.\c"
+M05270008,"\h(《High Priest》)There was a big sound to the east of here.
+What happened over there?\e"
+M05280000,"\h(《High Priest》)The Valuans have made Moon Stone Mountain into
+their headquarters.\e"
+M05280001,"\h(《High Priest》)Moon Stone Mountain is south of Horteka.
+If you plan on going, be careful.\c"
+M05280002,"\h(《High Priest》)Rixis?
+…I'm sorry, I… I do not know anything.\c"
+M05280003,"\h(《High Priest》)We all actually knew the location of Rixis.
+I'm sorry for having lied to you.\e"
+M05280004,"\h(《High Priest》)I thank you for facing the Giant of the Forest.
+If he was left unchallenged, he would have 
+destroyed us all.\e"
+M05280005,"\h(《High Priest》)There is a country to the west?
+I don't believe you!\e"
+M05280006,"\h(《High Priest》)The Wall of Rock to the west is the edge of the
+world. There can't be anything on the other side
+of it!\e"
+M05280008,\h(《High Priest》)I feel a great power from the east…\e
+M05280009,"\h(《High Priest》)It feels even more powerful than when Grendel
+was summoned. Much, much more powerful…\c"
+M05290000,"\h(《Isapa》)“The Great Bird with the spread wings and the
+kneeling Golden Man point the way to Rixis.”\e"
+M05290001,"\h(《Isapa》)This is the legend of Rixis that has been
+passed down from the ancients.\e"
+M05290002,"\h(《Isapa》)The Valuans escaped these lands to the northeast
+between the mountains.\e"
+M05290003,"\h(《Isapa》)Before, we weren't able to get into Valua 
+because of the Iron Net, but now we should be 
+able to.\e"
+M05290004,"\h(《Isapa》)Ladies, although sailing is fine in its own 
+ways, perhaps you would consider settling down 
+in our green and fertile lands?\e"
+M05290005,"\h(《Isapa》)Our king is still single and he is looking for
+an elegant young lady… Fina, perhaps you would
+consider joining the royal family?\e"
+M05290006,"\h(《Fina》)What?!
+I… I'm sorry, but I…\e"
+M05290007,"\h(《Aika》)H, hey!
+Who ever said Fina was interested in becoming 
+queen?!\e"
+M05290008,\h(《Aika》)And why just her?! What am I?! Huskra food?\e
+M05290009,"\h(《Isapa》)Gahahaha! I'm very sorry…
+If you were to marry the king, you'd probably
+take over as king and order HIM around!!\e"
+M05290010,\h(《Aika》)What?! Why does everyone think that way of me?!\e
+M05290011,"\h(《Isapa》)Come back any time you wish, ladies! We'll 
+always be more than happy to give you a warm 
+welcome! Gahahahaha!!!\e"
+M05290012,"\h(《Isapa》)There was a great disturbance in the wind. I 
+felt a strong power emerge in the east…\e"
+M05290013,"\h(《Isapa》)Lord Vyse… I pray to Quetya that he watches
+over you and your companions…\e"
+Ms235a000,"\h(《What will you do?》)“Return to the Little Jack.”
+“Stay here a little while longer.”\c"
+Ms235a001,"\h(《What will you do?》)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+"",M0241
+"",k8520000
+"",M5350000
+"","EV_E07発生しました。
+男気処理あるんで見て。\c"
+"",M0241
+"",e6e007
+"",a235ae07.mld
+"",a235ae07.mld
+"",a235ae07.mld
+"",EV_E14発生しました。\c
+"",M0241
+"",e6e014
+"",a235ae07.mld
+"",a235ae07.mld
+"",a235ae07.mld
+"",EV_E23発生しました。\c
+"",M0241
+"",e6e023
+"",a235ae07.mld
+"",a235ae07.mld
+"",a235ae07.mld

@@ -1,0 +1,557 @@
+[Event Name],Task ID
+MF0300000,\h(«Vyse»)Our ship! It's on fire!!!\e
+MF0300001,"\h(«Ramirez»)Fina…
+So, you are here.\e"
+MF0300002,\h(«Ramirez»)I've been looking for you.\e
+MF0300003,\h(«Fina»)Ramirez…\e
+MF0300004,"\h(«Aika»)Fina, you know him?!\e"
+MF0300005,\h(«Fina»)……\e
+MF0300006,\h(«Vyse»)Did you lead this attack?!\e
+MF0300007,"\h(«Ramirez»)Yes.
+From this day on, Nasr belongs to the Valuan 
+Empire.\e"
+MF0300008,"\h(«Ramirez»)And…
+I will be taking you back to Valua.\e"
+MF0300009,\h(«Ramirez»)Surrender or you all die.\e
+MF0300010,"\h(«Fina»)Vyse!
+Please do as he says!\e"
+MF0300011,\h(«Vyse»)Fina?!\e
+MF0300012,"\h(«Fina»)Please… you won't be able to defeat him! 
+Not yet! Do as he says…\e"
+MF0300013,"\h(«What will you do?!»)“Surrender.”
+“Fight… even though you know it is futile.”\e"
+MF0300014,"\h(«Vyse»)Grr…
+Alright… we surrender.\e"
+MF0300015,\h(«Ramirez»)A wise choice.\e
+MF0300016,"\h(«Ramirez»)Capture the Air Pirates.
+Take them back to the Grand Fortress.\e"
+MF0300017,"\h(«Fina»)Ramirez…
+Why are you doing this?\e"
+MF0300018,\h(«Ramirez»)……\e
+MF0300019,"\h(«Vyse»)We'll never surrender!
+We'd rather die!\e"
+MF0300020,\h(«Ramirez»)As you wish.\e
+MF0300021,"\h(«Ramirez»)I would have spared you, but you leave me no 
+choice.\e"
+MSF0300000,\h(«Vyse»)¡Nuestro navío! ¡¡¡Fuego!!!\e
+MSF0300001,"\h(«Ramírez»)Fina……
+Así que estás aquí.\e"
+MSF0300002,\h(«Ramírez»)He estado buscándote.\e
+MSF0300003,\h(«Fina»)Ramírez……\e
+MSF0300004,"\h(«Aika»)Fina, ¡¿le conoces?!\e"
+MSF0300005,\h(«Fina»)……\e
+MSF0300006,\h(«Vyse»)¡¿Tú empezaste este ataque?!\e
+MSF0300007,"\h(«Ramírez»)Sí.
+A partir de hoy, Nasr pertenece al Imperio
+Valuan.\e"
+MSF0300008,"\h(«Ramírez»)Y……
+os llevaré de regreso a Valua.\e"
+MSF0300009,\h(«Ramírez»)Rendíos o moriréis todos.\e
+MSF0300010,"\h(«Fina»)¡Vyse!
+¡Haz lo que dice, por favor!\e"
+MSF0300011,\h(«Vyse»)¡¿Fina?!\e
+MSF0300012,"\h(«Fina»)Por favor…… ¡No podrás derrotarle!
+¡Aún no! Haz lo que te dice……\e"
+MSF0300013,"\h(«¡¿Qué vas a hacer?!»)“Rendirme.”
+“Pelear…… aunque sea inútil.”\e"
+MSF0300014,"\h(«Vyse»)Grr……
+Muy bien…… me rindo.\e"
+MSF0300015,\h(«Ramírez»)Una sabia decisión.\e
+MSF0300016,"\h(«Ramírez»)Capturad a los Piratas Aéreos.
+Llevadlos de vuelta a la Gran Fortaleza.\e"
+MSF0300017,"\h(«Fina»)Ramírez……
+¿Por qué haces esto?\e"
+MSF0300018,\h(«Ramírez»)……\e
+MSF0300019,"\h(«Vyse»)¡No nos rendiremos!
+¡Preferimos morir!\e"
+MSF0300020,\h(«Ramírez»)Tú lo has querido.\e
+MSF0300021,"\h(«Ramírez»)Te habría perdonado la vida, pero ahora no me
+dejas otra alternativa.\e"
+MFF0300000,\h(«Vyse»)Notre navire ! Il est en feu !!!\e
+MFF0300001,"\h(«Ramirez»)Fina……
+Alors, vous êtes là.\e"
+MFF0300002,\h(«Ramirez»)Je vous cherchais.\e
+MFF0300003,\h(«Fina»)Ramirez……\e
+MFF0300004,"\h(«Aika»)Fina, vous le connaissez ?!\e"
+MFF0300005,\h(«Fina»)……\e
+MFF0300006,\h(«Vyse»)Avez-vous conduit cette attaque ?!\e
+MFF0300007,"\h(«Ramirez»)Oui.
+À partir d'aujourd'hui, Nasr appartient à
+l'Empire Valuan.\e"
+MFF0300008,"\h(«Ramirez»)Et……
+Vous allez revenir avec moi à Valua.\e"
+MFF0300009,\h(«Ramirez»)Rendez-vous ou vous mourrez tous.\e
+MFF0300010,"\h(«Fina»)Vyse !
+Faites ce qu'il vous dit, je vous en supplie !\e"
+MFF0300011,\h(«Vyse»)Fina ?!\e
+MFF0300012,"\h(«Fina»)Je vous en supplie…… vous ne pourrez pas le
+vaincre !
+Pas encore ! Faites ce qu'il vous dit……\e"
+MFF0300013,"\h(«Que ferez-vous ?!»)“Vous vous rendrez.”
+“Vous vous battrez…… même si c'est inutile.”\e"
+MFF0300014,"\h(«Vyse»)Grr……
+D'accord…… nous nous rendons.\e"
+MFF0300015,\h(«Ramirez»)C'est un bon choix.\e
+MFF0300016,"\h(«Ramirez»)Capturez les Pirates de l'Air.
+Ramenez-les à la Grande Forteresse.\e"
+MFF0300017,"\h(«Fina»)Ramirez……
+Pourquoi faites-vous cela ?\e"
+MFF0300018,\h(«Ramirez»)……\e
+MFF0300019,"\h(«Vyse»)Nous ne nous rendrons jamais !
+Mieux vaut mourir !\e"
+MFF0300020,\h(«Ramirez»)Comme vous voulez.\e
+MFF0300021,"\h(«Ramirez»)Je vous aurais épargnés, mais vous ne me laissez
+pas le choix.\e"
+MGF0300000,\h(«Vyse»)Unser Schiff! Es brennt!!!\e
+MGF0300001,"\h(«Ramirez»)Fina……
+Also hier bist du.\e"
+MGF0300002,\h(«Ramirez»)Ich habe nach dir gesucht.\e
+MGF0300003,\h(«Fina»)Ramirez……\e
+MGF0300004,"\h(«Aika»)Fina, du kennst ihn?!\e"
+MGF0300005,\h(«Fina»)……\e
+MGF0300006,\h(«Vyse»)Hast du diesen Angriff angeführt?!\e
+MGF0300007,"\h(«Ramirez»)Ja.
+Ab heute gehört Nasr dem Valuan Empire an.\e"
+MGF0300008,"\h(«Ramirez»)Und……
+ich werde euch mit nach Valua nehmen.\e"
+MGF0300009,"\h(«Ramirez»)Ergebt euch, oder ihr werdet alle sterben.\e"
+MGF0300010,"\h(«Fina»)Vyse!
+Bitte, tu was er sagt!\e"
+MGF0300011,\h(«Vyse»)Fina?!\e
+MGF0300012,"\h(«Fina»)Bitte……  du kannst ihn nicht besiegen!
+Jetzt noch nicht! Mach, was er sagt……\e"
+MGF0300013,"\h(«Was wirst du tun?!»)“Dich ergeben.”
+“Kämpfen…… obwohl du weißt, es ist zwecklos.”\e"
+MGF0300014,"\h(«Vyse»)Grr……
+OK…… wir ergeben uns.\e"
+MGF0300015,\h(«Ramirez»)Eine gute Entscheidung.\e
+MGF0300016,"\h(«Ramirez»)Nehmt die Luftpiraten gefangen.
+Bringt sie zurück zur Grand Fortress.\e"
+MGF0300017,"\h(«Fina»)Ramirez……
+Warum tust du das?\e"
+MGF0300018,\h(«Ramirez»)……\e
+MGF0300019,"\h(«Vyse»)Wir ergeben uns niemals!
+Wir würden lieber sterben!\e"
+MGF0300020,\h(«Ramirez»)Wie ihr wollt.\e
+MGF0300021,"\h(«Ramirez»)Ich hätte euch verschont, aber ihr lasst mir
+keine andere Wahl.\e"
+MF0310000,\h(«Gilder»)No… how…\e
+MF0310001,\h(«Aika»)Vyse…\e
+MF0310002,\h(«Vyse»)Can't… fight… any… longer…\e
+MF0310003,"\h(«Fina»)Ramirez…
+Why…\e"
+MF0310004,\h(«Ramirez»)……\e
+MSF0310000,\h(«Gilder»)No…… cómo……\e
+MSF0310001,\h(«Aika»)Vyse……\e
+MSF0310002,\h(«Vyse»)Ya…… no puedo…… luchar…… más……\e
+MSF0310003,"\h(«Fina»)Ramírez……
+Por qué……\e"
+MSF0310004,\h(«Ramírez»)……\e
+MFF0310000,\h(«Gilder»)Non…… comment……\e
+MFF0310001,\h(«Aika»)Vyse……\e
+MFF0310002,\h(«Vyse»)Ne peux…… plus…… me battre……\e
+MFF0310003,"\h(«Fina»)Ramirez……
+Pourquoi……\e"
+MFF0310004,\h(«Ramirez»)……\e
+MGF0310000,\h(«Gilder»)Nein…… wie……\e
+MGF0310001,\h(«Aika»)Vyse……\e
+MGF0310002,\h(«Vyse»)Ich kann…… nicht……  mehr……  kämpfen……\e
+MGF0310003,"\h(«Fina»)Ramirez……
+Warum……\e"
+MGF0310004,\h(«Ramirez»)……\e
+M06000003,"\h(«Sailor»)I came intending to replenish my supplies in
+Nasrad, but the place has burned to the ground!
+What a shock!\e"
+M06000004,"\h(«Sailor»)There's almost nothing being sold in the shops,
+and even what's available is so expensive. But I
+still have to replenish my supplies somehow…\c"
+M06000005,"\h(«Sailor»)Let's see, I've bought the Moon Stones I need,
+so now I have to find 5 barrels of drinking
+water……\e"
+M06000006,"\h(«Sailor»)The shops are finally starting to fill up again.
+Looks like I can start using Nasrad as a regular
+resupply point again.\c"
+M06010004,"\h(«Nasr Merchant»)Let us see…… A box of tomatoes with one, two……
+No, this box is not any good either.\e"
+M06010005,"\h(«Nasr Merchant»)When only this many survive the fire, you cannot
+miscount even if you want to.\c"
+M06010006,"\h(«Nasr Merchant»)Ixa'takan cypress… Let us see, we have two, 
+four… \e"
+M06010007,"\h(«Nasr Merchant»)Do not talk to me now!
+I am busy with the relief supplies.\c"
+M06330011,"\h(«Khazim»)Arghh!!… Crap! Dammit all! They called me the 
+best gunner around! I was Khazim, the crack 
+shot!\e"
+M06330012,"\h(«Khazim»)But I let down my guard, and before I could do 
+anything to stop them, the enemy turned the 
+whole city to dust. \e"
+M06330013,"\h(«Khazim»)It really chaps my hide! I think I will fly 
+right over to Valua and give them a blast in the
+chops!\e"
+M06330014,"\h(«Vyse»)Calm down, calm down. You do anything like that,
+and you'll get blasted right back. It's way too
+reckless.\e"
+M06330015,"\h(«Aika»)Ha, ha. So says the man who was so reckless as
+to escape from Valua twice over.\e"
+M06330016,"\h(«Khazim»)Wh, what is that? Y, you are not… ?\e"
+M06330017,"\h(«Khazim»)Could you be that pirate Vyse who abducted the
+Valuan prince and blasted your way out of the
+Grand Fortress?\e"
+M06330018,"\h(«Vyse»)Well, I don't know about the abducted part, but 
+otherwise, yes, I am indeed Vyse. \e"
+M06330019,"\h(«Khazim»)In that case, you've got to do this for me,
+Vyse! Let me join your crew!  \e"
+M06330020,"\h(«Khazim»)I will never be satisfied until I have delivered
+a blow from my cannon to Valua!\e"
+M06330021,"\h(«Khazim»)I must join forces with you and become your 
+ship's gunner. Good! It is decided!\e"
+M06330022,"\h(«Vyse»)Well, well, it doesn't sound like you'll take no
+for an answer, so I suppose we might as well
+have you come aboard.\e"
+M06330023,\h( )Khazim has joined your crew as a “Gunner.”\c
+M06340002,"\h(«Khazim's Man»)Our job was to defend Nasrad, but we were
+completely helpless to do anything.\e"
+M06340003,"\h(«Khazim's Man»)It makes me damn angry, and I'd sure like to go 
+beat Valua to a pulp!\c"
+M06350002,\h(«Khazim's Man»)Boss Khazim is in the turret on top of the wall!\e
+M06350003,"\h(«Khazim's Man»)Boss says he's going to attack Valua and get
+revenge even if he has to do it all by himself.\c"
+MS06000003,"\h(«Marino»)¡He venido para reabastecerme de suministros en
+Nasrad, pero resulta que está todo agotado!
+¡Me he quedado de piedra!\e"
+MS06000004,"\h(«Marino»)No tienen prácticamente nada en las tiendas y
+lo poco que tienen es carísimo. Pero tengo que
+reponer mis suministros como sea……\c"
+MS06000005,"\h(«Marino»)Vamos a ver, he comprado las Piedras Lunares que
+necesitaba, ahora necesito 5 barriles de agua
+potable……\e"
+MS06000006,"\h(«Marino»)Por fin las tiendas están reponiendo otra vez.
+Parece que Nasrad vuelve a ser un buen lugar
+donde abastecerme para mis viajes.\c"
+MS06010004,"\h(«Mercader de Nasr»)Vamos a ver…… Una caja de tomates con una, dos……
+No, esta caja tampoco sirve.\e"
+MS06010005,"\h(«Mercader de Nasr»)Cuando sólo queda esta cantidad, no pierdes la
+cuenta ni aunque quieras.\c"
+MS06010006,"\h(«Mercader de Nasr»)Maderos de ciprés Ixa'takan…… A ver, tenemos,
+dos, cuatro……\e"
+MS06010007,"\h(«Mercader de Nasr»)¡No me hables ahora!
+¡Estoy contando los suministros de repuesto!\c"
+MS06330011,"\h(«Khazim»)¡¡Arr!!…… ¡Porras! ¡¡Maldición! ¡Solían decir
+que yo era el mejor cañonero del mundo! ¡Era
+Khazim, el que nunca yerra un tiro!\e"
+MS06330012,"\h(«Khazim»)Pero bajé la guardia y antes de poder
+detenerlo, el enemigo convirtió toda la ciudad
+en cenizas.\e"
+MS06330013,"\h(«Khazim»)¡Sólo de pensarlo me dan ganas de llorar! ¡Creo
+que voy a volar a Valua inmediatamente y les
+daré una buena tunda!\e"
+MS06330014,"\h(«Vyse»)Tranquilo, tranquilo. Si haces eso sólo vas a
+conseguir que a ti también te la den. Es
+demasiado arriesgado.\e"
+MS06330015,"\h(«Aika»)Ja, ja. Son palabras de un hombre que era tan
+temerario que logró escapar de Valua en dos
+ocasiones.\e"
+MS06330016,"\h(«Khazim»)¿Qué quieres decir? ¿No serás tú el pirata
+que……?\e"
+MS06330017,"\h(«Khazim»)¿Es posible que seas tú el pirata Vyse que
+secuestró al príncipe Valuan y escapó de la Gran
+Fortaleza volándola por los aires?\e"
+MS06330018,"\h(«Vyse»)Bueno, del secuestro no sé nada, pero por lo
+demás, sí, claro que soy Vyse.\e"
+MS06330019,"\h(«Khazim»)¡En ese caso, tienes que hacer esto por mí,
+Vyse! ¡Déjame unirme a tu tripulación!\e"
+MS06330020,"\h(«Khazim»)¡No descansaré hasta que un disparo de mi cañón
+caiga destruya Valua!\e"
+MS06330021,"\h(«Khazim»)Tengo que unir fuerzas contigo y ser tu
+cañonero. ¡Genial! ¡Ya me he decidido!\e"
+MS06330022,"\h(«Vyse»)Bueno, bueno, no parece que estés dispuesto a
+aceptar una negativa, así que no habrá más
+remedio que aceptarte en nuestro barco.\e"
+MS06330023,"\h( )Khazim se ha unido a tu tripulación como
+“Cañonero”.\c"
+MS06340002,"\h(«Hombre de Khazim»)Defender a Nasrad era nuestro trabajo, pero no
+pudimos hacer absolutamente nada.\e"
+MS06340003,"\h(«Hombre de Khazim»)Me enferma pensar en ello. ¡Cómo me gustaría
+dar una lección a esos Valuan!\c"
+MS06350002,"\h(«Hombre de Khazim»)¡Mi jefe, Khazim, está en la torrecilla que se
+encuentra en la parte superior del muro!\e"
+MS06350003,"\h(«Hombre de Khazim»)El jefe dice que va a atacar Valua para
+vengarse, aunque tenga que hacerlo por su cuenta
+y riesgo.\c"
+MF06000003,"\h(«Marin»)Je suis venu avec l'intention de me
+réapprovisionner à Nasrad, mais tout a brûlé !
+Quel choc !\e"
+MF06000004,"\h(«Marin»)Il n'y a plus rien à vendre dans les magasins,
+et ce qui reste est hors de prix. Mais je dois
+trouver un moyen de me réapprovisionner……\c"
+MF06000005,"\h(«Marin»)Voyons, j'ai acheté les Pierres de Lune dont
+j'avais besoin, donc maintenant il me faut 5
+barils d'eau potable……\e"
+MF06000006,"\h(«Marin»)Les magasins commencent à refaire le plein.
+On dirait que je vais pouvoir recommencer à me
+réapprovisionnement à Nasrad.\c"
+MF06010004,"\h(«Marchand Nasr»)Voyons…… Une boîte de tomates avec un, deux……
+Non, cette boîte ne convient pas non plus.\e"
+MF06010005,"\h(«Marchand Nasr»)L'incendie n'a pas épargné grand chose, alors ce
+n'est pas difficile de compter.\c"
+MF06010006,"\h(«Marchand Nasr»)Cyprès Ixa'takan…… Voyons, cela fait deux,
+quatre……\e"
+MF06010007,"\h(«Marchand Nasr»)Ne m'interrompez pas !
+Je m'occupe du ravitaillement d'urgence.\c"
+MF06330011,"\h(«Khazim»)Arhh !!…… Fichtre ! Bon sang ! Jadis, on
+m'appelait le meilleur canonnier des environs !
+J'étais Khazim, le meilleur tireur d'élite !\e"
+MF06330012,"\h(«Khazim»)Mais j'ai relâché ma garde, et avant même que je
+puisse intervenir, l'ennemi avait réduit toute
+cette ville en poussière.\e"
+MF06330013,"\h(«Khazim»)Cela me met dans tous mes états ! Je vais aller
+à Valua leur faire exploser la cervelle !\e"
+MF06330014,"\h(«Vyse»)Calmez-vous, calmez-vous. Si vous faites cela,
+ils vous feront exploser. C'est beaucoup trop
+dangereux.\e"
+MF06330015,"\h(«Aika»)Ha, ha. C'est amusant venant de celui qui s'est
+échappé deux fois de Valua.\e"
+MF06330016,"\h(«Khazim»)C, comment ? V, vous n'êtes pas…… ?\e"
+MF06330017,"\h(«Khazim»)C'est vous le pirate Vyse qui avait enlevé le
+prince Valuan et êtes sorti de la Grande
+Forteresse en faisant exploser la porte ?\e"
+MF06330018,"\h(«Vyse»)Euh, je n'ai pas vraiment enlevé le prince, mais
+à part cela, oui, c'est bien moi Vyse.\e"
+MF06330019,"\h(«Khazim»)Dans ce cas, permettez-moi de me joindre à votre
+équipage !\e"
+MF06330020,"\h(«Khazim»)Je ne serai pas satisfait tant que je n'aurai
+pas déchargé mon canon sur Valua !\e"
+MF06330021,"\h(«Khazim»)Je dois rejoindre vos forces et devenir votre
+canonnier. Bon ! C'est décidé !\e"
+MF06330022,"\h(«Vyse»)Bon, bon, vous ne changerez pas d'avis de toute
+façon, alors autant vous prendre à bord.\e"
+MF06330023,\h( )Khazim le “Canonnier” a rejoint votre équipage.\c
+MF06340002,"\h(«Bras Droit de Khazim»)Notre travail consistait à protéger Nasrad, mais
+nous n'avons rien pu faire.\e"
+MF06340003,"\h(«Bras Droit de Khazim»)Cela me met vraiment en colère, et j'aimerais
+vraiment montrer à Valua de quel bois je me
+chauffe !\c"
+MF06350002,"\h(«Bras Droit de Khazim»)Le patron Khazim est dans la tourelle sur la
+muraille !\e"
+MF06350003,"\h(«Bras Droit de Khazim»)Le patron dit qu'il va aller attaquer Valua pour
+se venger et qu'il doit le faire seul.\c"
+MG06000003,"\h(«Matrose»)Ich wollte in Nasrad Proviant
+beschaffen, aber es ist abgebrannt!
+So ein Schreck!\e"
+MG06000004,"\h(«Matrose»)In den Läden gibt es fast nichts, und
+was es gibt, ist schrecklich teuer. Aber ich
+muss trotzdem irgendwie Nachschub besorgen……\c"
+MG06000005,"\h(«Matrose»)Mal sehen, ich habe die Moon Stones gekauft,
+die ich brauche, also muss ich jetzt fünf
+Fässer Trinkwasser besorgen……\e"
+MG06000006,"\h(«Matrose»)Die Läden werden langsam etwas voller. Sieht
+so aus, als könnte man Nasrad wieder als
+normalen Versorgungshafen nutzen.\c"
+MG06010004,"\h(«Nasr-Händler»)Lass mal sehen…… eine Kiste Tomaten mit einem,
+zwei…… Nein, diese Kiste eignet sich auch
+nicht.\e"
+MG06010005,"\h(«Nasr-Händler»)Wenn nur so viele aus dem Feuer gerettet wurden,
+kann man sich schlecht verzählen, selbst, wenn
+man es wollte.\c"
+MG06010006,"\h(«Nasr-Händler»)Zypresse aus Ixa'ta…… mal sehen, wir nehmen
+zwei, vier……\e"
+MG06010007,"\h(«Nasr-Händler»)Sprich jetzt nicht mit mir!
+Ich bin mit dem Nachschub beschäftigt.\c"
+MG06330011,"\h(«Khazim»)Arghh!!…… Mist! Verdammt noch mal! Sie
+nannten mich den allseits besten Kanonier!
+Ich war Khazim, der Meisterschütze!\e"
+MG06330012,"\h(«Khazim»)Aber ich war unvorsichtig, und bevor ich
+etwas unternehmen konnte, um ihn zu stoppen,
+hat der Feind die ganze Stadt in Asche
+verwandelt.\e"
+MG06330013,"\h(«Khazim»)Das hat wirklich gesessen! Ich glaube,
+ich fliege gleich nach Valua rüber und verpasse
+ihnen einen Schlag unter die Gürtellinie!\e"
+MG06330014,"\h(«Vyse»)Beruhige dich bloß. Wenn du so etwas tust,
+bekommst du gleich auch eins drauf. Das ist
+viel zu gewagt.\e"
+MG06330015,"\h(«Aika»)Ha, ha. Da spricht der Mann, der gleich
+zweimal aus Valua geflohen ist.\e"
+MG06330016,\h(«Khazim»)W……was war das? D……du bist doch nicht etwa……?\e
+MG06330017,"\h(«Khazim»)Bist du etwa dieser Pirat Vyse, der den
+valuanischen Prinz entführt hat und sich
+einen Weg aus der Grand Fortress gesprengt
+hat?\e"
+MG06330018,"\h(«Vyse»)Also, über die Sache mit der Entführung bin
+ich mir nicht so sicher, aber sonst, ja,
+ich bin wirklich Vyse.\e"
+MG06330019,"\h(«Khazim»)In dem Fall musst du mir etwas versprechen,
+Vyse! Nimm mich in deine Mannschaft auf!\e"
+MG06330020,"\h(«Khazim»)Ich werde so lange nicht zufrieden sein, wie
+ich Valua nicht eine Salve aus meiner Kanone
+verpasst habe!\e"
+MG06330021,"\h(«Khazim»)Ich muss mich mit dir zusammentun und der
+Kanonier deines Schiffes werden. Gut!
+Also, abgemacht!\e"
+MG06330022,"\h(«Vyse»)Tja, also, es sieht nicht danach aus, als ob
+du eine Absage akzeptieren würdest, also kannst
+du auch gleich an Bord kommen.\e"
+MG06330023,"\h( )Khazim ist als “Kanonier” zu deiner Mannschaft
+gestoßen.\c"
+MG06340002,"\h(«Khazims Mann»)Es war unsere Aufgabe, Nasrad zu verteidigen,
+aber wir waren völlig hilflos.\e"
+MG06340003,"\h(«Khazims Mann»)Es macht mich verdammt wütend, und ich möchte
+gerne hingehen und Valua in Schutt und Asche
+legen!\c"
+MG06350002,"\h(«Khazims Mann»)Boss Khazim ist im Schießstand oben auf der
+Mauer!\e"
+MG06350003,"\h(«Khazims Mann»)Der Boss sagt, er würde Valua angreifen und
+Rache ausüben, selbst wenn er es ganz allein
+machen muss.\c"
+Ms013d000,"\h(«Vyse»)It's a hole left by the Armada's attack…
+Countless innocent people were killed
+by that attack…\c"
+Ms013d001,"\h(«Vyse»)Most of the cargo's been burned, too.
+The merchants must've taken a pretty big hit.\c"
+Ms013d002,"\h(«Vyse»)There's still shortages of supplies,
+but it looks like people are finally picking up
+the pieces and starting to rebuild.\c"
+Ms013d003,"\h(«Vyse»)The cargo is all either muddy
+or burned… It doesn't look like
+there's much they can still sell.\c"
+Ms013d004,"\h(«Vyse»)There's still shortages of supplies,
+but it looks like people are finally picking up
+the pieces and starting to rebuild.\c"
+Ms013d005,"\h(«Vyse»)Hm? I could have sworn this thing used to be
+a lot longer. I guess the bombardment destroyed
+the rest of it.\c"
+Ms013d006,"\h(«Vyse»)This cart's been burned, too.
+But, it still looks like it might be usable. I
+suppose it's better than nothing…\c"
+Ms013d007,"\h(«Vyse»)The castle wall was almost completely destroyed.
+They kept the weapons and ammunition here,
+so it probably was their first target.\c"
+Ms013d008,"\h(«Vyse»)I guess one cannon couldn't do much
+against such a large fleet…\c"
+Ms013d009,"\h(«Vyse»)They must have hit the embattlements pretty
+hard. The whole area was reduced to rubble.\c"
+Ms013d010,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MSs013d000,"\h(«Vyse»)Es un agujero del ataque de la Armada.
+Sería imposible saber cuánta gente inocente
+murió en el ataque……\c"
+MSs013d001,"\h(«Vyse»)La mayoría del cargamento también se quemó. Los
+mercantes se deben de haber llevado un gran
+impacto.\c"
+MSs013d002,"\h(«Vyse»)Todavía faltan provisiones,
+pero parece que la gente
+está empezando a reconstruirlo todo.\c"
+MSs013d003,"\h(«Vyse»)El cargamento está lleno de barro o quemado……
+No creo que pudieran seguir vendiendo
+muchas más cosas.\c"
+MSs013d004,"\h(«Vyse»)Todavía faltan provisiones,
+pero parece que la gente
+está empezando a reconstruirlo todo.\c"
+MSs013d005,"\h(«Vyse»)¿Mmm? Hubiera jurado que esto era mucho más
+grande. El bombardeo debe de haber destruido el
+resto.\c"
+MSs013d006,"\h(«Vyse»)También han quemado este carro,
+pero parece que todavía se puede usar.
+Supongo que es mejor que nada……\c"
+MSs013d007,"\h(«Vyse»)El muro del castillo estaba destruido casi por
+completo. Guardaron las armas y las municiones
+aquí, así que debió de ser su primer objetivo.\c"
+MSs013d008,"\h(«Vyse»)Supongo que un cañón no serviría de mucho
+ante una flota tan grande……\c"
+MSs013d009,"\h(«Vyse»)Deben de haber dañado los puestos de combate
+seriamente. Toda la zona ha quedado reducida
+a escombros.\c"
+MSs013d010,"\h(«¿Qué vas a hacer?»)“Volver a Delphinus.”
+“Quedarme aquí un rato más.”\c"
+MFs013d000,"\h(«Vyse»)Voilà un trou laissé par l'attaque de l'Armada……
+D'innonbrables innocents furent tués durant
+cette attaque……\c"
+MFs013d001,"\h(«Vyse»)La plus grande partie de la cargaison a aussi
+été brûlée.
+Les commerçants doivent en avoir plutôt
+souffert.\c"
+MFs013d002,"\h(«Vyse»)Il y a encore une pénurie de provisions, mais on
+dirait que les gens s'en remettent enfin et
+commencent à reconstruire.\c"
+MFs013d003,"\h(«Vyse»)La cargaison est soit recouverte de boue soit
+brûlée…… Il semble qu'il n'y ait plus grand
+chose à vendre.\c"
+MFs013d004,"\h(«Vyse»)Il y a encore une pénurie de provisions, mais on
+dirait que les gens ramassent enfin les morceaux
+et commencent à reconstruire.\c"
+MFs013d005,"\h(«Vyse»)Hm ? J'aurais juré que cette chose était
+beaucoup plus grande. Le bombardement a dû
+détruire le reste.\c"
+MFs013d006,"\h(«Vyse»)Ce chariot a aussi été brûlé.
+Mais, il semblerait qu'il soit encore
+utilisable. C'est mieux que rien……\c"
+MFs013d007,"\h(«Vyse»)La muraille du château a été presque entièrement
+détruite.
+Ils gardaient les armes et les munitions ici.
+C'était donc probablement leur première cible.\c"
+MFs013d008,"\h(«Vyse»)J'imagine qu'un canon ne pouvait pas vaincre
+une flotte aussi grande……\c"
+MFs013d009,"\h(«Vyse»)Ils doivent avoir touché les fortifications
+assez sérieusement.
+Il ne reste plus que des gravats.\c"
+MFs013d010,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MGs013d000,"\h(«Vyse»)Ein Loch, es stammt vom Angriff der
+Armada. Zahllose unschuldige Menschen
+mussten ihr Leben bei dem Angriff lassen……\c"
+MGs013d001,"\h(«Vyse»)Der Großteil der Fracht ist verbrannt.
+Den Händlern hat es mit Sicherheit einen
+ziemlichen Schlag versetzt.\c"
+MGs013d002,"\h(«Vyse»)Es gibt immer noch Engpässe im
+Nachschub. Aber es scheint, als würden
+die Menschen schließlich doch die Trümmer
+einsammeln und den Wiederaufbau beginnen.\c"
+MGs013d003,"\h(«Vyse»)Die Fracht ist entweder schlammig
+oder verbrannt…… Scheint so, als gäbe es
+nicht mehr viel, was sie verkaufen könnten.\c"
+MGs013d004,"\h(«Vyse»)Es gibt immer noch Engpässe im
+Nachschub. Aber es scheint, als würden
+die Menschen schließlich doch die Trümmer
+einsammeln und den Wiederaufbau beginnen.\c"
+MGs013d005,"\h(«Vyse»)Hm? Ich hätte schwören können,
+dass dieses Ding wesentlich länger war.
+Die Bombadierung hat wohl den Rest zerstört.\c"
+MGs013d006,"\h(«Vyse»)Dieser Karren ist auch angesengt. Sieht
+allerdings trotzdem so aus, als sei er noch zu
+gebrauchen. Wahrscheinlich besser als nichts……\c"
+MGs013d007,"\h(«Vyse»)Die Burgmauer wurde fast ganz zerstört.
+Sie haben hier Waffen und Munition aufbewart,
+deshalb war es wahrscheinlich das erste Ziel.\c"
+MGs013d008,"\h(«Vyse»)Schätze, eine Kanone könnte nicht
+viel gegen so eine große Flotte ausrichten……\c"
+MGs013d009,"\h(«Vyse»)Die müssen die Abwehrstellungen hart getroffen
+haben. Die ganze Gegend lag in Trümmern.\c"
+MGs013d010,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Eine Weile hier bleiben.”\c"
+"",a013a01.mld
+"",me230a.sct
+"",a013a01.mld
+"",me230a.sct
+"",a013a00.mld
+"",a013a00.mld
+"",me013e.sct
+"",M0239
+"",m5130000
+"",a013df30.mld
+"",a013df30.mld
+"",a013df30_efe.mld
+"",a013df30_efe.mld
+"",a013a01.mld
+"",a013a01.mld
+"",M0315
+"",e6f030
+"",a013df30.mld
+"",a013a01.mld
+"",a013df30_efe.mld
+"",EVF31発生しました。\c
+"",a013df31.mld
+"",a013a01.mld
+"",M0315
+"",e6f031
+"",a013df31.mld
+"",a013a01.mld

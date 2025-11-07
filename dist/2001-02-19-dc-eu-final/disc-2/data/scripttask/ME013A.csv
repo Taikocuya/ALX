@@ -1,0 +1,2081 @@
+[Event Name],Task ID
+MF0150000,"\h(«Clara»)It's about time for me to set sail. It was very 
+nice meeting the two of you. I'm sorry we 
+couldn't spend more time together.\e"
+MF0150001,"\h(«Clara»)Here… take this. It's only 5,000 gold, 
+but it should help.\e"
+MF0150002,\h( )You received “Clara's Purse.”\e
+MF0150003,"\h(«Aika»)Wow! Really?! Thanks for everything you've done 
+for us. First you save our lives, 
+then you give us gold…\e"
+MF0150004,"\h(«Clara»)Don't give it a second thought.
+After all, I too, am a Blue Rogue.\e"
+MF0150005,"\h(«Fina»)Where are you going now, Clara?\e"
+MF0150006,"\h(«Clara»)Me?
+Well, I'm going after the man I love.\e"
+MF0150007,"\h(«Clara»)He's an Air Pirate, too… 
+He's a little on the wild side, but he's strong,
+smart, and so… \e"
+MF0150008,"\h(«Clara»)Yummy… I follow him wherever he goes. I know 
+that someday, he'll come around and fall in 
+love with me, too. Isn't that romantic?\e"
+MF0150009,\h(«Aika»)Umm… sure!\e
+MF0150010,"\h(«Clara»)Well, I'd better get going! \e"
+MF0150011,\h(«Clara»)I hope we see each other again! Good luck!\e
+MF0150012,"\h(«Aika»)That was the nicest stalker that I've ever met. 
+But at least it explains why her entire ship 
+looks like a honeymoon suite.\e"
+MF0150013,\h(«Fina»)Honeymoon?\e
+MF0150014,"\h(«Aika»)I kinda figured you wouldn't know what that
+was… Don't worry about it. Let's go see if
+we can find a place to sleep tonight. \e"
+MSF0150000,"\h(«Clara»)Es hora de desembarcar. Ha sido un placer
+conoceros. Siento que no hayamos pasado más
+tiempo juntas.\e"
+MSF0150001,"\h(«Clara»)Aquí…… tomad esto. Son sólo 5.000 unidades de
+oro, pero os ayudará.\e"
+MSF0150002,\h( )Has recibido la “Cartera de Clara”.\e
+MSF0150003,"\h(«Aika»)¡Caray! ¡¿De verdad?! Gracias por todo lo que
+has hecho. Primero nos salvas la vida y luego
+nos das tu oro……\e"
+MSF0150004,"\h(«Clara»)No lo pienses más.
+Después de todo, yo también soy una Bandida
+Azul.\e"
+MSF0150005,"\h(«Fina»)¿Adónde vas ahora, Clara?\e"
+MSF0150006,"\h(«Clara»)¿Yo?
+Bueno, voy detrás del hombre al que quiero.\e"
+MSF0150007,"\h(«Clara»)El también es un Pirata Aéreo…… Un poco salvaje,
+pero fuerte e inteligente, y por eso……\e"
+MSF0150008,"\h(«Clara»)……le sigo allá donde va. Sé que algún día vendrá
+por aquí y se enamorará de mí, ¿no os parece
+romántico?\e"
+MSF0150009,\h(«Aika»)Umm…… ¡Claro!\e
+MSF0150010,"\h(«Clara»)¡En fin, será mejor que me vaya!\e"
+MSF0150011,\h(«Clara»)¡Espero que nos volvamos a ver! ¡Buena suerte!\e
+MSF0150012,"\h(«Aika»)Es la Bandida más simpática que he conocido.
+Eso explica por qué todo su navío parece una
+suite nupcial.\e"
+MSF0150013,\h(«Fina»)¿Nupcial?\e
+MSF0150014,"\h(«Aika»)Ya me imaginé que no sabrías lo que es eso……
+No te preocupes. Vamos a ver si encontramos un
+sitio donde pasar la noche.\e"
+MFF0150000,"\h(«Clara»)Il est temps pour moi de mettre les voiles.
+J'ai été ravie de faire votre connaissance.
+Je suis désolée de ne pas pouvoir passer plus de
+temps avec vous.\e"
+MFF0150001,"\h(«Clara»)Voilà…… prenez ça. Ce n'est que 5000 pièces
+d'or, mais cela devrait vous aider.\e"
+MFF0150002,\h( )Vous avez reçu la “Bourse de Clara.”\e
+MFF0150003,"\h(«Aika»)Wow ! Vraiment ?! Merci de tout ce que vous avez
+fait pour nous. D'abord, vous nous sauvez la
+vie, et ensuite vous nous donnez de l'or……\e"
+MFF0150004,"\h(«Clara»)N'y pensez plus. Après tout, je fais partie des
+Voleurs Bleus moi aussi.\e"
+MFF0150005,"\h(«Fina»)Vous allez où maintenant, Clara ?\e"
+MFF0150006,"\h(«Clara»)Moi ?
+Eh bien, je pars chercher l'homme que j'aime.\e"
+MFF0150007,"\h(«Clara»)Il est Pirate de l'Air, lui aussi……
+Il est un peu sauvage, mais il est fort,
+intelligent, et tellement……\e"
+MFF0150008,"\h(«Clara»)Miam miam…… je le suis partout. Je sais qu'un
+jour, il croisera mon chemin et tombera amoureux
+de moi. C'est romantique, non ?\e"
+MFF0150009,\h(«Aika»)Umm…… oh oui !\e
+MFF0150010,"\h(«Clara»)Bon, il faut que j'y aille !\e"
+MFF0150011,"\h(«Clara»)J'espère que nous nous reverrons !
+Bonne chance !\e"
+MFF0150012,"\h(«Aika»)Elle est vraiment gentille pour une chasseuse
+d'homme. En tous les cas, cela explique pourquoi
+tout son navire est emménagé pour passer une
+agréable lune de miel.\e"
+MFF0150013,\h(«Fina»)Lune de miel ?\e
+MFF0150014,"\h(«Aika»)Je me doutais que tu ne connaîtrais pas ce mot……
+Cela n'a pas d'importance. Allons chercher un
+endroit où passer la nuit.\e"
+MGF0150000,"\h(«Clara»)Ich muss jetzt wieder in See stechen.
+Es war nett, euch beide kennen zu lernen.
+Schade, dass wir nicht mehr Zeit miteinander
+verbringen konnten.\e"
+MGF0150001,"\h(«Clara»)Hier, nehmt…… es sind nur 5.000 Goldstücke,
+aber es sollte helfen.\e"
+MGF0150002,\h( )Du erhieltst “Claras Börse.”\e
+MGF0150003,"\h(«Aika»)Wow! Wirklich?! Danke für alles, was du für
+uns getan hast. Erst rettest du uns das Leben,
+dann gibst du uns Gold……\e"
+MGF0150004,"\h(«Clara»)Macht euch darüber keine Gedanken.
+Ich bin schließlich auch ein Blue Rogue.\e"
+MGF0150005,"\h(«Fina»)Wohin gehst du jetzt, Clara?\e"
+MGF0150006,"\h(«Clara»)Ich?
+Nun, ich geh den Mann suchen, den ich liebe!\e"
+MGF0150007,"\h(«Clara»)Er ist auch Luftpirat……
+Er ist ein bisschen wild, aber stark,
+intelligent und so……\e"
+MGF0150008,"\h(«Clara»)Süß…… Ich folge ihm überall hin. Ich weiß,
+dass er sich eines Tages besinnen wird und
+sich auch in mich verlieben wird. Ist das
+nicht romantisch?\e"
+MGF0150009,\h(«Aika»)Emm…… sicher!\e
+MGF0150010,"\h(«Clara»)Nun, ich muss jetzt gehen!\e"
+MGF0150011,"\h(«Clara»)Ich hoffe, wir werden uns wiedersehen!
+Viel Glück!\e"
+MGF0150012,"\h(«Aika»)Das war die netteste Psycho-pathin, die ich je
+kennen gelernt habe. Aber das erklärt zumindest,
+warum ihr ganzes Schiff wie eine Hochzeitssuite
+aussieht.\e"
+MGF0150013,\h(«Fina»)Hochzeit?\e
+MGF0150014,"\h(«Aika»)Ich hab' mir schon gedacht, dass du nicht weißt,
+was das bedeutet…… Keine Sorge. Lass uns einen
+Schlafplatz für die Nacht finden.\e"
+MF0250000,"\h(«Aika»)Alright!
+It's a little small, but we bought a ship!\e"
+MF0250001,"\h(«Fina»)Yes, but the gold that we got from Clara and 
+from working is all gone now.\e"
+MF0250002,"\h(«Aika»)Don't worry about it, Fina.
+All we need to do is find Daccat's Treasure and
+we'll be fine!\e"
+MF0250003,"\h(«Aika»)Let me see, did the map say where the island was
+located?\e"
+MF0250004,"\h(«Aika»)“The dead will always watch over my treasure. 
+It is located…”\e"
+MF0250005,"\h(«Fina»)Well, where is it?\e"
+MF0250006,"\h(«Aika»)Oh, no!!
+It's torn off! I can't see what it says!\e"
+MF0250007,"\h(«Aika»)Looks like the only way we'll be able to find 
+the island is by this clue. I think this skull
+on the map has something to do with it.\e"
+MF0250008,"\h(«Aika»)Well, it's not going to do us any good just 
+sitting around and doing nothing. We might as 
+well start searching!\e"
+MF0250009,\h(«Fina»)Yes!\e
+MSF0250000,"\h(«Aika»)¡Muy bien!
+¡Conseguimos comprar un barco, aunque sea
+pequeño!\e"
+MSF0250001,"\h(«Fina»)Sí, pero el oro que nos dio Clara y el que
+ganamos trabajando se ha acabado.\e"
+MSF0250002,"\h(«Aika»)No te preocupes por eso Fina.
+¡Lo que tenemos que hacer es encontrar el Tesoro
+de Daccat y no tendremos problema!\e"
+MSF0250003,"\h(«Aika»)Déjame ver, ¿el mapa indica dónde se encuentra
+la isla?\e"
+MSF0250004,"\h(«Aika»)“Los difuntos vigilarán mi tesoro por siempre.
+Éste se encuentra……”\e"
+MSF0250005,"\h(«Fina»)Bueno, ¿dónde está?\e"
+MSF0250006,"\h(«Aika»)¡¡Oh, no!!
+¡Está roto! ¡No se puede leer lo que dice!\e"
+MSF0250007,"\h(«Aika»)La única forma de encontrar la isla es con esta
+pista. Creo que esta calavera del mapa tiene
+algo que ver con eso.\e"
+MSF0250008,"\h(«Aika»)Bueno, no va a hacernos ningún bien quedarnos
+sentadas sin hacer nada. ¡Será mejor empezar la
+búsqueda!\e"
+MSF0250009,\h(«Fina»)¡Sí!\e
+MFF0250000,"\h(«Aika»)Super ! Il est un peu petit, mais nous avons
+acheté un navire !\e"
+MFF0250001,"\h(«Fina»)Oui, mais l'or que Clara nous a donné et toute
+notre paye y sont passés.\e"
+MFF0250002,"\h(«Aika»)Ne vous inquiétez pas, Fina.
+Il nous suffit de trouver le trésor de Daccat
+et tout ira bien !\e"
+MFF0250003,"\h(«Aika»)Laissez-moi voir, est-ce que la carte indique
+l'emplacement de l'île ?\e"
+MFF0250004,"\h(«Aika»)“Les morts veilleront toujours sur mon trésor.
+Il se trouve……”\e"
+MFF0250005,"\h(«Fina»)Eh bien, où est-il ?\e"
+MFF0250006,"\h(«Aika»)Oh, non !!
+C'est déchiré ! Je n'arrive pas à lire !\e"
+MFF0250007,"\h(«Aika»)On dirait que seul cet indice peut nous aider à
+trouver l'île. Je crois que ce crâne sur la
+carte peut nous aider.\e"
+MFF0250008,"\h(«Aika»)Bon, cela ne sert à rien de rester les bras
+croisés. Autant se mettre à chercher !\e"
+MFF0250009,\h(«Fina»)Oui !\e
+MGF0250000,"\h(«Aika»)So!
+Das Schiff ist zwar etwas klein, aber es gehört
+jetzt uns!\e"
+MGF0250001,"\h(«Fina»)Ja, aber das Gold, das wir von Clara und von
+unserer Arbeit hatten, ist jetzt alle.\e"
+MGF0250002,"\h(«Aika»)Mach dir keine Sorgen darüber, Fina.
+Wir brauchen nur Daccats Schatz zu finden,
+und wir haben ausgesorgt!\e"
+MGF0250003,"\h(«Aika»)Lass mal sehen, stand auf der Karte, wo sich
+die Insel befindet?\e"
+MGF0250004,"\h(«Aika»)“Die Toten werden stets über meinen Schatz
+wachen. Er liegt……”\e"
+MGF0250005,"\h(«Fina»)Also, wo ist er?\e"
+MGF0250006,"\h(«Aika»)Oh, nein!!
+Es ist abgerissen! Ich kann nicht lesen, wo!\e"
+MGF0250007,"\h(«Aika»)Sieht so aus, als ob wir die Insel nur durch
+diesen Hinweis finden könnten. Ich glaube,
+dieser Totenkopf auf der Karte hat damit
+etwas zu tun.\e"
+MGF0250008,"\h(«Aika»)Also, es nützt auch nichts, wenn wir nur
+herumsitzen und nichts tun. Da können wir
+auch gleich mit der Suche beginnen!\e"
+MGF0250009,\h(«Fina»)Ja!\e
+MF0260000,"\h(«Gilder»)Well, then!
+Let's go find us some treasure!\e"
+MF0260001,\h(«Vyse»)Okay. There are some directions on the map…\e
+MF0260002,"\h(«Vyse»)“… to the north of the City of the Sands. 
+When the two pieces become whole, the way 
+to the treasure will be known.”\e"
+MF0260003,"\h(«Vyse»)I can't read anything before that… 
+It's torn off. That's all it says.\e"
+MF0260004,"\h(«Gilder»)“The City of the Sands” probably refers to the 
+city that was here before Nasrad. I think it was
+called Oasis.\e"
+MF0260005,"\h(«Gilder»)So… it's to the north of here, huh? 
+We can get there in no time with my ship.\e"
+MF0260006,"\h(«Vyse»)I'm a sailor without a ship at this point. 
+There's no way I'll be able to search for my 
+friends now.\e"
+MF0260007,"\h(«Vyse»)If we do find the treasure, I'd like to use my 
+share to buy a ship.\e"
+MF0260008,"\h(«Gilder»)Hahaha, I like you Vyse, you never give up.
+Very well… off we go!\e"
+MSF0260000,"\h(«Gilder»)¡Pues muy bien!
+¡Vamos a buscar ese tesoro!\e"
+MSF0260001,\h(«Vyse»)Vale. Hay algunas instrucciones en el mapa……\e
+MSF0260002,"\h(«Vyse»)“…… al norte de la Ciudad de Arena.
+Cuando las dos partes se unan, se conocerá el
+camino hacia el tesoro.”\e"
+MSF0260003,"\h(«Vyse»)No puedo leer nada antes de eso……
+Está roto. Eso es todo lo que dice.\e"
+MSF0260004,"\h(«Gilder»)La “Ciudad de Arena” debe ser la ciudad que
+había antes de llegar a Nasrad. Creo que se
+llamaba Oasis.\e"
+MSF0260005,"\h(«Gilder»)Así que…… no está al norte de aquí, ¿eh?
+Podemos llegar en un momento con mi navío.\e"
+MSF0260006,"\h(«Vyse»)En este momento soy un marino sin navío.
+No puedo buscar a mis amigos ahora.\e"
+MSF0260007,"\h(«Vyse»)Si efectivamente encontramos el tesoro, me
+gustaría comprar un navío con mi parte.\e"
+MSF0260008,"\h(«Gilder»)Jajaja, me caes bien, Vyse. Nunca te das por
+vencido. Muy bien…… ¡Allá vamos!\e"
+MFF0260000,"\h(«Gilder»)Allez !
+Allons chercher notre trésor !\e"
+MFF0260001,\h(«Vyse»)OK. Il y a quelques indications sur la carte……\e
+MFF0260002,"\h(«Vyse»)“…… au nord de la Cité des Sables.
+Quand les deux morceaux seront réunis, vous
+trouverez le chemin du trésor.”\e"
+MFF0260003,"\h(«Vyse»)Je n'arrive pas à lire ce qu'il y a avant……
+C'est déchiré. C'est tout ce qu'il y a écrit.\e"
+MFF0260004,"\h(«Gilder»)“La Cité des Sables” doit certainement être la
+cité que Nasrad a remplacée. Je crois qu'elle
+s'appelait Oasis.\e"
+MFF0260005,"\h(«Gilder»)Alors…… c'est au nord d'ici, hein ?
+Nous y serons très vite avec mon navire.\e"
+MFF0260006,"\h(«Vyse»)Je suis un marin sans navire pour le moment.
+Je ne pourrai jamais partir à la recherche de
+mes amis.\e"
+MFF0260007,"\h(«Vyse»)Si nous trouvons le trésor, je voudrais me
+servir de ma part pour acheter un navire.\e"
+MFF0260008,"\h(«Gilder»)Hahaha, tu me plais bien Vyse, tu n'abandonnes
+jamais. Très bien…… Allons-y !\e"
+MGF0260000,"\h(«Gilder»)Also dann!
+Suchen wir uns einen Schatz!\e"
+MGF0260001,\h(«Vyse»)OK. Da sind einige Anweisungen auf der Karte……\e
+MGF0260002,"\h(«Vyse»)“…… nördlich der City of the Sands.
+Wenn die beiden Hälften zu einem Ganzen werden,
+wird der Weg zum Schatz offenbar.”\e"
+MGF0260003,"\h(«Vyse»)Davor kann ich nichts entziffern……
+Es ist abgerissen. Das ist alles, was da steht.\e"
+MGF0260004,"\h(«Gilder»)“City of the Sands” bezieht sich wahr-
+scheinlich auf die Stadt, die hier vor Nasrad
+stand. Ich glaube, man nannte sie Oasis.\e"
+MGF0260005,"\h(«Gilder»)Also…… es ist nördlich von hier, richtig?
+Mit meinem Schiff kommen wir da mir nichts,
+dir nichts hin.\e"
+MGF0260006,"\h(«Vyse»)Ich bin zur Zeit ein Seemann ohne Schiff. Ich
+kann jetzt unmöglich nach meinen Freunden
+suchen.\e"
+MGF0260007,"\h(«Vyse»)Wenn wir einen Schatz finden sollten, möchte
+ich meinen Anteil darauf verwenden, ein Schiff
+zu kaufen.\e"
+MGF0260008,"\h(«Gilder»)Hahaha, du gefällst mir, Vyse, du gibst nie auf.
+Also gut…… gehen wir!\e"
+MF0390000,"\h(«Gilder»)I have some personal stuff to take care of 
+first. You go on to the inn and rest up. 
+I'll catch up with you a little later.\e"
+MF0390001,"\h(«Vyse»)I don't mind traveling separately, 
+but what is it you need to do, exactly?\e"
+MF0390002,"\h(«Gilder»)I need to stop by the tavern for a bit. 
+There's a few women there that will 
+be happy to see me. Don't wait up…\e"
+MSF0390000,"\h(«Gilder»)Tengo algunos asuntillos de los que ocuparme
+primero. Tú vete a la posada y reposa.
+Yo llegaré un poco más tarde.\e"
+MSF0390001,"\h(«Vyse»)No me importa viajar por separado,
+¿pero qué es eso que tienes que hacer?\e"
+MSF0390002,"\h(«Gilder»)Tengo que pasarme por la taberna un rato.
+Hay unas chicas allí que se van a alegrar de
+verme. No hace falta que me esperes……\e"
+MFF0390000,"\h(«Gilder»)Je dois d'abord m'occuper d'affaires
+personnelles. Va te reposer à l'auberge.
+Je te retrouverai un peu plus tard.\e"
+MFF0390001,"\h(«Vyse»)Cela ne me dérange pas de voyager séparément,
+mais qu'est-ce que vous devez faire,
+exactement ?\e"
+MFF0390002,"\h(«Gilder»)Je dois passer à la taverne un petit moment.
+Il y a quelques femmes qui seront contentes de
+me revoir. Ne m'attends pas……\e"
+MGF0390000,"\h(«Gilder»)Ich muss mich erst noch um ein paar persönliche
+Angelegenheiten kümmern. Geh ruhig ins Gasthaus
+und ruhe dich aus. Wir sehen uns später.\e"
+MGF0390001,"\h(«Vyse»)Es macht mir nichts aus, allein zu sein,
+aber was musst du denn erledigen?\e"
+MGF0390002,"\h(«Gilder»)Ich muss ein wenig an der Taverne Halt machen.
+Da sind ein paar Frauen, die sich darauf freuen,
+mich zu sehen. Warte nicht auf mich……\e"
+M06000000,"\h(«Sailor»)Hmm… I have Moon Stones for fuel… 10 barrels
+of drinking water… Was there anything else I
+needed to get before I leave?\e"
+M06000001,"\h(«Sailor»)Welcome to Nasrad, the center of trade!
+Anything you need for your travels you can get
+right here!\e"
+M06000002,"\h(«Sailor»)You guys are sailors too, right?
+Maybe you guys should stock up on supplies while
+you're here, too.\c"
+M06010000,"\h(«Nasr Merchant»)5 cases of Khale…
+And Mid Ocean Sky Sardis… um… 1… 2… 3…\e"
+M06010001,"\h(«Nasr Merchant»)Please do not talk to me right now!
+Damn! You made me lose count!\c"
+M06010002,"\h(«Nasr Merchant»)Sorghum… 10 cases.
+Kidney beans… 1… 2… 3…\e"
+M06010003,"\h(«Nasr Merchant»)Please do not talk to me right now!
+Damn! You made me lose count!\c"
+M06330000,"\h(«Large Man»)It is so boring!!
+When is Valua going to attack again?!\e"
+M06330001,"\h(«Khazim»)I am Nasr's top gunner, Khazim!
+If any enemy ships try to enter our port, I blow
+them away with this cannon of mine!\e"
+M06330002,"\h(«Khazim»)But no enemies have attacked us in such a
+long time… I have nothing to do and it is
+killing me!\e"
+M06330003,"\h(«Khazim»)Ever since I was assigned here, I have not had
+the chance to fire these cannons. I hope the
+chance comes soon!\c"
+M06330004,"\h(«Khazim»)Ever since I was assigned here, I have not had
+the chance to fire these cannons. I hope the
+chance comes soon!\c"
+M06330005,"\h(«Khazim»)I am Khazim, Nasr's top gunner. What do you 
+want, boy?\e"
+M06330006,"\h(«Khazim»)What? Valua is launching an attack?! Hahahaha! I
+have been waiting for this! The Red Moon has
+answered my prayers!\e"
+M06330007,"\h(«Khazim»)Once Valua gets close enough, I'll knock all of
+their puny little ships out of the sky with my
+cannon!\e"
+M06330008,"\h(«Khazim»)Well, it's not like they would ever get past the
+border guards, though…\c"
+M06330009,"\h(«Khazim»)Once Valua gets close enough, I'll knock all of
+their puny little ships out of the sky with my
+cannon!\e"
+M06330010,"\h(«Khazim»)Well, it's not like they would ever get past the
+border guards, though…\c"
+M06340000,"\h(«Nasr Soldier»)We are the Nasr Artillery Guard!
+Leave the defense of Nasr up to us!\e"
+M06340001,"\h(«Nasr Soldier»)The cannons are up top!
+Any enemy ships that get too close to the city,
+we blast out of the sky!\c"
+M06350000,"\h(«Nasr Soldier»)We are the Nasr Artillery Guard, under the 
+leadership of Captain Khazim!
+We are defending the safety of Nasrad!\e"
+M06350001,"\h(«Nasr Soldier»)Khazim is Nasr's best gunner! He's manning the
+wall above us!\c"
+MS06000000,"\h(«Marino»)Mmm…… Tengo Gasolina Lunar…… 10 barriles de agua
+potable…… ¿Necesito coger algo más antes de
+partir?\e"
+MS06000001,"\h(«Marino»)¡Bienvenido a Nasrad, centro del comercio
+mundial!
+¡Aquí podéis comprar cualquiera cosa que
+necesitéis para el viaje!\e"
+MS06000002,"\h(«Marino»)Vosotros también sois marinos, ¿no?
+Quizá debéis abasteceros ya que estáis aquí.\c"
+MS06010000,"\h(«Mercader de Nasr»)5 cajas de Khale……
+Y Sardis Celestes del Océano Medio…… pues……
+1…… 2…… 3……\e"
+MS06010001,"\h(«Mercader de Nasr»)¡No me hables ahora!
+¡Maldición! ¡Me has hecho perder la cuenta!\c"
+MS06010002,"\h(«Mercader de Nasr»)Sorghum…… 10 cajas.
+Habichuelas…… 1…… 2…… 3……\e"
+MS06010003,"\h(«Mercader de Nasr»)¡No me hables ahora!
+¡Maldición! ¡Me has hecho perder la cuenta!\c"
+MS06330000,"\h(«Hombre Gordo»)¡¡Vaya aburrimiento!!
+¡¿Cuándo va a atacar otra vez Valua?!\e"
+MS06330001,"\h(«Khazim»)¡Soy Khazim, el mejor artillero de Nasr!
+¡Si un navío enemigo intenta entrar en el
+puerto, lo volaré con este cañón que tengo!\e"
+MS06330002,"\h(«Khazim»)Pero hace tanto tiempo que no nos ataca ningún
+enemigo…… ¡Tanta ociosidad me está matando!\e"
+MS06330003,"\h(«Khazim»)Desde que me asignaron este puerto, no he tenido
+la oportunidad de disparar ningún cañonazo.
+¡Espero tener la ocasión pronto!\c"
+MS06330004,"\h(«Khazim»)Desde que me asignaron este puerto, no he tenido
+la oportunidad de disparar ningún cañoñazo.
+¡Espero tener la ocasión pronto!\c"
+MS06330005,"\h(«Khazim»)Soy Khazim, el mejor artillero de Nasr.
+¿Qué quieres, chico?\e"
+MS06330006,"\h(«Khazim»)¿Cómo? ¡¿Qué Valua nos va a atacar?! ¡Ja, ja!
+¡He esperado mucho que llegara este momento!
+¡La Luna Roja ha escuchado mis oraciones!\e"
+MS06330007,"\h(«Khazim»)¡Cuando los Valuan se acerquen lo bastante, voy
+a derribar todos sus insignificantes navíos con
+mi cañón!\e"
+MS06330008,"\h(«Khazim»)Bueno, de todas formas no podrían entrar porque
+están los guardias fronterizos……\c"
+MS06330009,"\h(«Khazim»)¡Cuando los Valuan se acerquen lo bastante, voy
+a derribar todos sus insignificantes navíos con
+mi cañón!\e"
+MS06330010,"\h(«Khazim»)Bueno, de todas formas no podrían entrar porque
+están los guardias fronterizos……\c"
+MS06340000,"\h(«Soldado de Nasr»)¡Somos la Guardia de Artillería de Nasr!
+¡Déjanos a nosotros la defensa de Nasr!\e"
+MS06340001,"\h(«Soldado de Nasr»)¡Los cañones están listos!
+¡Volaremos en pedazos a cualquier navío enemigo
+que se acerque demasiado!\c"
+MS06350000,"\h(«Soldado de Nasr»)¡Somos la Guardia de Artillería de Nasr,
+bajo el mandato del Capitán Khazim!
+¡Defendemos la seguridad de Nasrad!\e"
+MS06350001,"\h(«Soldado de Nasr»)¡Khazim es el mejor artillero de Nasr!
+¡Él vigila el muro de ahí arriba!\c"
+MF06000000,"\h(«Marin»)Humm…… J'ai du carburant de Pierres de Lune…… 10
+barils d'eau potable…… Est-ce que j'oublie
+quelque chose ?\e"
+MF06000002,"\h(«Marin»)Vous êtes aussi des marins, n'est-ce pas ?
+Vous devriez peut-être vous réapprovisionner
+tant que vous êtes là.\c"
+MF06010000,"\h(«Marchand Nasr»)5 caisses de Khale……
+Et des Sardis Ciel de l'Océan Central…… um…… 1……
+2…… 3……\e"
+MF06010001,"\h(«Marchand Nasr»)Ne me parlez pas pour le moment, s'il vous
+plaît ! Bon sang ! J'ai perdu le fil !\c"
+MF06010002,"\h(«Marchand Nasr»)Sorghum…… 10 caisses.
+Haricots rouges…… 1…… 2…… 3……\e"
+MF06010003,"\h(«Marchand Nasr»)Ne me parlez pas pour le moment, s'il vous
+plaît ! Bon sang ! J'ai perdu le fil !\c"
+MF06330000,"\h(«Gros monsieur»)Qu'est-ce qu'on s'ennuie !! Quand est-ce que
+Valua va attaquer ?!\e"
+MF06330001,"\h(«Khazim»)Je suis le meilleur canonnier de Nasr, Khazim !
+Si un navire essaie de rentrer dans le port,
+je le ferai exploser avec mon canon !\e"
+MF06330002,"\h(«Khazim»)Mais aucun ennemi ne nous a attaqués depuis si
+longtemps…… Je ne supporte plus de n'avoir rien
+à faire !\e"
+MF06330003,"\h(«Khazim»)Depuis que j'ai été assigné ici, je n'ai pas eu
+la chance de tirer avec ces canons. J'espère que
+cela ne va pas tarder !\c"
+MF06330004,"\h(«Khazim»)Depuis que j'ai été assigné ici, je n'ai pas eu
+la chance de tirer avec ces canons. J'espère que
+cela ne va pas tarder !\c"
+MF06330005,"\h(«Khazim»)Je suis Khazim, le meilleur canonnier de Nasr.
+Que veux-tu, petit ?\e"
+MF06330006,"\h(«Khazim»)Quoi ? Valua lance une attaque ?! Hahahaha !
+J'attends ça depuis longtemps ! La Lune Rouge
+répond enfin à mes prières !\e"
+MF06330007,"\h(«Khazim»)Dès que les Valuans seront assez proches, je
+ferai exploser tous leurs petits navires\e"
+MF06330008,"\h(«Khazim»)Bon, ils ne franchiraient pas les gardes de la
+frontière de toute façon……\c"
+MF06330009,"\h(«Khazim»)Dès que les Valuans seront assez proches, je
+ferai exploser tous leurs petits navires\e"
+MF06330010,"\h(«Khazim»)Bon, ils ne franchiraient pas les gardes de la
+frontière de toute façon……\c"
+MF06340000,"\h(«Soldat Nasr»)Nous sommes la Garde de l'Artillerie Nasr !
+La défense de Nasr, c'est notre affaire !\e"
+MF06340001,"\h(«Soldat Nasr»)Les canons sont en hauteur ! Si un navire ennemi
+s'approche trop près de la ville, nous le
+faisons exploser dans les airs !\c"
+MF06350000,"\h(«Soldat Nasr»)Nous sommes la Garde de l'Artillerie Nasr, sous
+le commandement du Capitaine Khazim !
+Nous assurons la sécurité de Nasrad !\e"
+MF06350001,"\h(«Soldat Nasr»)Khazim est le meilleur canonnier de Nasr ! Il
+est de garde sur la muraille au dessus de nous !\c"
+MG06000000,"\h(«Matrose»)Hmm…… ich habe Moon Stones als Treibstoff……
+10 Fässer Trinkwasser…… War da noch etwas,
+was ich brauche, bevor ich abfahre?\e"
+MG06000001,"\h(«Matrose»)Willkommen in Nasrad, dem Zentrum des Handels!
+Alles, was man zur Reise braucht, erhält man
+hier!\e"
+MG06000002,"\h(«Matrose»)Ihr seid doch Seeleute, nicht wahr?
+Vielleicht solltet ihr auch Proviant laden,
+während ihr hier seid.\c"
+MG06010000,"\h(«Nasr-Händler»)Fünf Kästen Khale……
+Und Sky Sardis aus dem Mid Ocean……
+em…… 1…… 2…… 3……\e"
+MG06010001,"\h(«Nasr-Händler»)Sprich jetzt nicht mit mir!
+Verdammt! Jetzt hab ich mich verzählt!\c"
+MG06010002,"\h(«Nasr-Händler»)Sorghum…… 10 Kästen.
+Kidneybohnen…… 1…… 2…… 3……\e"
+MG06010003,"\h(«Nasr-Händler»)Sprich jetzt bitte nicht mit mir! Verdammt!
+Jetzt hab ich mich verzählt!\c"
+MG06330000,"\h(«Korpulenter Mann»)Es ist so langweilig!!
+Wann greift Valua endlich wieder an?!\e"
+MG06330001,"\h(«Khazim»)Ich bin Nasrs bester Kanonier, Khazim!
+Wenn Feindschiffe versuchen, in den Hafen
+einzudringen, schieße ich sie mit meiner
+Kanone über den Haufen!\e"
+MG06330002,"\h(«Khazim»)Aber uns haben seit einer Ewigkeit keine Feinde
+mehr angegriffen…… Ich habe nichts zu tun,
+und das bringt mich um!\e"
+MG06330003,"\h(«Khazim»)Seitdem ich hierher abberufen wurde, hatte
+ich keine Gelegenheit, diese Kanonen abzufeuern.
+Ich hoffe, dass diese Gelegenheit nicht länger
+auf sich warten lässt!\c"
+MG06330004,"\h(«Khazim»)Seitdem ich hierher abberufen wurde, hatte
+ich keine Gelegenheit, diese Kanonen abzufeuern.
+Ich hoffe, dass diese Gelegenheit nicht länger
+auf sich warten lässt!\c"
+MG06330005,"\h(«Khazim»)Ich bin Khazim, der beste Kanonier von Nasr.
+Was willst du, Junge?\e"
+MG06330006,"\h(«Khazim»)Was? Valua bereitet einen Angriff vor?!
+Hahahaha! Darauf habe ich gewartet!
+Der Rote Mond hat meine Bitten erhört!\e"
+MG06330007,"\h(«Khazim»)Sobald die Valuaner nahe genug sind, werde ich
+all ihre mickrigen Schiffe mit meiner Kanone
+vom Himmel holen!\e"
+MG06330008,"\h(«Khazim»)Außerdem kommen sie sowieso nicht an den
+Grenzposten vorbei……\c"
+MG06330009,"\h(«Khazim»)Sobald die Valuaner nahe genug sind, werde ich
+all ihre mickrigen Schiffe mit meiner Kanone
+vom Himmel holen!\e"
+MG06330010,"\h(«Khazim»)Außerdem kommen sie sowieso nicht an den
+Grenzposten vorbei……\c"
+MG06340000,"\h(«Nasr-Soldat»)Wir sind die Artillerie-Garde von Nasr!
+Überlasst uns die Verteidigung von Nasr!\e"
+MG06340001,"\h(«Nasr-Soldat»)Die Kanonen sind an Deck!
+Wenn sich ein Feindschiff der Stadt nähert,
+holen wir es vom Himmel!\c"
+MG06350000,"\h(«Nasr-Soldat»)Wir sind die Artillerie-Garde von Nasr,
+unter dem Befehl von Captain Khazim!
+Wir gewährleisten die Sicherheit von Nasrad!\e"
+MG06350001,"\h(«Nasr-Soldat»)Khazim ist Nasrs bester Kanonier! Er bewacht
+die Mauer über uns!\c"
+Ms013a000,"\h(«Vyse»)Now that's a big bonfire.
+They must keep it going
+to guide ships into the harbor.\c"
+Ms013a001,"\h(«Vyse»)That's a lot of lumber. It's probably from
+Ixa'taka. I've never seen trees that big
+anywhere else in the world…\c"
+Ms013a002,"\h(«Vyse»)It's a box full of candy. Hey, this was the type
+of candy that Aika used to eat all the time when
+we were kids.\c"
+Ms013a003,\h(«Vyse»)It's a Nasr civilian ship.\c
+Ms013a004,"\h(«Vyse»)The vegetables drawn on the box
+are some of Nasr's specialty exports.
+I guess they are being shipped abroad.\c"
+Ms013a005,"\h(«Vyse»)It's filled to the top with water.
+Water's a precious commodity in Nasr.\c"
+Ms013a006,"\h(«Vyse»)It's a big cart. They must use this
+to carry cargo every day. It looks
+really broken in.\c"
+Ms013a007,"\h(«Vyse»)The box is labelled “Dhabu Shipping.” I think
+I've heard of that company before. They
+specialize in cheap and fast shipping.\c"
+Ms013a008,"\h(«Vyse»)It says it's full of Mojaca Beans. The one thing
+I never understood is how the Mojaca bean can
+smell so sweet and yet taste so bitter…\c"
+Ms013a009,"\h(«Vyse»)It's a bag of salt.
+Salt's important to have
+on long voyages.\c"
+Ms013a010,"\h(«Vyse»)Wow, that's a whole lotta Khale!
+They use Khale a lot in Nasr cooking,
+that's why Nasr dishes are so spicy.\c"
+Ms013a011,"\h(«Vyse»)Nasr ship design is actually… sorta gawdy.
+Maybe Aika would like them…\c"
+Ms013a012,"\h(«Vyse»)There's a lot of shipping labels on this one.
+Let's see… It went from Valua to Sailors'
+Island, and from there to Nasr.\c"
+Ms013a013,"\h(«Vyse»)They're exporting weapons and ammunition.
+Nasrean cannons are well-known for their
+destructive power.\c"
+Ms013a014,"\h(«Vyse»)That's a pretty big box.
+It looks sturdy, too.
+I wonder what's inside?\c"
+Ms013a015,"\h(«Vyse»)Hey, it's the Valuan royal family emblem.
+I guess this shipment came from Valua.\c"
+Ms013a016,"\h(«Vyse»)It looks like a merchant ship from Mid Ocean.
+I wonder if it came from Sailors' Island?\c"
+Ms013a017,"\h(«Vyse»)It's a huge… barrel, or something.
+It's all sealed up
+so I can't see what's inside.\c"
+Ms013a018,"\h(«Vyse»)Ugh, it's a bittermelon.
+They say it's good for sautes, but
+I can't stand it.\c"
+Ms013a019,"\h(«Vyse»)Wow, that's a whole lotta Khale!
+They use Khale a lot in Nasr cooking,
+that's why Nasr dishes are so spicy.\c"
+Ms013a020,"\h(«Vyse»)I've never seen this vegetable before.
+They've got all kinds of rare things
+in Nasrad.\c"
+Ms013a021,"\h(«Vyse»)It looks like a kind of fruit…
+They're got all kinds of rare things
+in Nasrad.\c"
+Ms013a022,"\h(«Vyse»)This smell…
+Is it salted fish?
+Whatever it is, it doesn't smell too nice.\c"
+Ms013a023,"\h(«Vyse»)It's a box full of Nan, the staple food of
+Nasrad. I hear they put food on top of this
+and eat it.\c"
+Ms013a024,"\h(«Vyse»)Wow, that's a whole lotta Khale!
+They use Khale a lot in Nasr cooking,
+that's why Nasr dishes are so spicy.\c"
+Ms013a025,"\h(«Vyse»)What a big cannon…
+I guess they use this to defend
+against invaders…\c"
+Ms013a026,"\h(«Vyse»)It says, Red Moon Stones.
+I wonder if this whole thing
+is filled with Moon Stones?\c"
+Ms013a027,"\h(«Vyse»)It's filled with huge cannonballs,
+but they're covered with dust. I bet they
+haven't been used since the Valua-Nasr War.\c"
+Ms013a028,"\h(«Aika»)Wow, what a big bonfire!
+They must keep it burning all the time
+to guide ships into the harbor.\c"
+Ms013a029,"\h(«Aika»)Wow, that's a lot of lumber…
+I wonder if it's from Ixa'taka?\c"
+Ms013a030,"\h(«Aika»)It's a box full of candy!
+I used to love it when the Cap'n would bring
+candy back to Pirate Island after a raid.\c"
+Ms013a031,\h(«Aika»)It's a Nasr civilian ship.\c
+Ms013a032,"\h(«Aika»)Does this have vegetables inside?
+It has a cute picture on the box.
+I guess it's being exported.\c"
+Ms013a033,"\h(«Aika»)What a big barrel!
+I could probably fit in one of these.
+I wonder what's in… oh, it's just water.\c"
+Ms013a034,"\h(«Aika»)That's a huge cart!
+I guess they pile it high with stuff
+and carry it.\c"
+Ms013a035,"\h(«Aika»)Dhabu Shipping… Oh, yeah, I heard
+it was a convoy that specialized
+in shipping things.\c"
+Ms013a036,"\h(«Aika»)Mojaca Beans.
+Mmm, I love this smell.\c"
+Ms013a037,"\h(«Aika»)That's a big bag.
+Hmm… looks like it's just salt inside.\c"
+Ms013a038,"\h(«Aika»)Wow, that's the biggest Khale I've ever
+seen! You'd probably breathe fire if you
+ate one of those!\c"
+Ms013a039,"\h(«Aika»)That's a big barrel…
+I wonder what's inside?\c"
+Ms013a040,"\h(«Aika»)Hey, it's a bittermelon. Vyse hates these.
+He used to get yelled at by his mom for
+flicking them off his plate when we were kids.\c"
+Ms013a041,"\h(«Aika»)Wow, that's the biggest Khale I've ever
+seen! You'd probably breathe fire if you
+ate one of those!\c"
+Ms013a042,"\h(«Aika»)I've never seen vegetables like that.
+I bet there's lots of rare things in Nasr.\c"
+Ms013a043,"\h(«Aika»)Is that some kind of fruit?
+There sure are lots of rare things in Nasr.\c"
+Ms013a044,"\h(«Aika»)Hey, it's salted fish.
+Cap'n Drachma used to eat salted fish all the
+time. I wonder how he's doing…\c"
+Ms013a045,"\h(«Aika»)There's lots of Nan.
+It's Nasr's main staple food, and it's
+convenient for voyages, too.\c"
+Ms013a046,"\h(«Aika»)Wow, that's the biggest Khale I've ever
+seen! You'd probably breathe fire if you
+ate one of those!\c"
+Ms013a047,"\h(«Aika»)This ship is so cute!
+I bet Vyse would think that the design of
+Nasr ships is too gawdy…\c"
+Ms013a048,"\h(«Aika»)It's got shipping labels all over it.
+I guess this came to Nasr
+via Sailors' Island and Valua.\c"
+Ms013a049,"\h(«Aika»)It's full of weapons and ammunition.
+I guess this is a military nation,
+after all.\c"
+Ms013a050,"\h(«Aika»)Wow, that's a big box.
+It looks pretty sturdy, too.
+I wonder what's in it?\c"
+Ms013a051,"\h(«Aika»)Is this Valua's emblem?
+I guess it's cargo from Valua.\c"
+Ms013a052,"\h(«Aika»)It's a Mid Ocean merchant ship.
+I wonder if it came from Sailors' Island?\c"
+Ms013a053,"\h(«Aika»)What a big cannon…
+This could blow a small ship
+right out of the sky.\c"
+Ms013a054,"\h(«Aika»)It says Red Moon Stones.
+I wonder if the whole thing's filled
+with Moon Stones?\c"
+Ms013a055,"\h(«Aika»)It's full of cannonballs,
+but they're covered with dust.
+I guess they don't use them too often.\c"
+Ms020a056,"\h(«What will you do?»)“Set sail for Daccat's Island.”
+“Stay here a little while longer.”\c"
+Ms020a057,"\h(«Aika»)Hmm, it's a pretty intricate
+ship design.
+I wonder whose it is?\c"
+Ms020a058,"\h(«Vyse»)I can't take off in Gilder's ship
+without him…\c"
+Ms020a059,"\h(«Vyse»)I want to hurry and set out to find
+Daccat's Island, but I should probably
+warn the King about Valua while we're here.\c"
+Ms020a060,"\h(«What will you do?»)“Return to your ship.”
+“Stay here a little while longer.”\c"
+MSs013a000,"\h(«Vyse»)A eso llamo yo una buena hoguera.
+Deben de mantenerla encendida
+para guiar los navíos a puerto.\c"
+MSs013a001,"\h(«Vyse»)¡Cuánta madera! Debe de ser de Ixa'taka.
+Nunca había visto árboles tan grande
+en todo el mundo……\c"
+MSs013a002,"\h(«Vyse»)Es una caja llena de golosinas.
+Éstas son las golosinas que Aika comía
+siempre cuando éramos pequeños.\c"
+MSs013a003,\h(«Vyse»)Es un navío civil de Nasr.\c
+MSs013a004,"\h(«Vyse»)Las verduras que metieron en la caja son
+algunas de las exportaciones de Nasr.
+Me imagino que las cargan para exportar.\c"
+MSs013a005,"\h(«Vyse»)Está llena de agua hasta arriba.
+El agua es un producto muy preciado en Nasr.\c"
+MSs013a006,"\h(«Vyse»)Es un gran carro. Deben de usar esto
+para llevar el cargamento todos los días.
+Parece que lo han forzado de verdad.\c"
+MSs013a007,"\h(«Vyse»)En la etiqueta de la caja pone “Envíos Dhabu”.
+Creo que conozco esa empresa. Se especializan en
+envíos baratos y rápidos.\c"
+MSs013a008,"\h(«Vyse»)Dice que está llena de Judías de Mojaca. Algo
+que nunca entendí es cómo la judía de Mojaca
+puede oler tan bien y saber tan amarga……\c"
+MSs013a009,"\h(«Vyse»)Es una bolsa de sal.
+Es importante llevar sal en viajes largos.\c"
+MSs013a010,"\h(«Vyse»)¡Vaya! ¡Cuánto Khale!
+En Nasr utilizan mucho el Khale en la cocina,
+por eso los platos son tan picantes.\c"
+MSs013a011,"\h(«Vyse»)El diseño del navío de Nasr es, la verdad,
+un poco hortera. Quizá a Aika le guste……\c"
+MSs013a012,"\h(«Vyse»)Hay un montón de etiquetas de envío en esta.
+Veamos…… Viajó de Valua a Isla Los Marinos,
+y de ahí a Nasr.\c"
+MSs013a013,"\h(«Vyse»)Exportan armas y municiones.
+Los cañones de Nasr son famosos
+por su poder destructivo.\c"
+MSs013a014,"\h(«Vyse»)¡Qué caja más grande!
+Y parece muy dura.
+Me pregunto qué habrá dentro.\c"
+MSs013a015,"\h(«Vyse»)Fíjate, es el emblema de la
+Familia Real de Valua. Supongo
+que este envío vino de Valua.\c"
+MSs013a016,"\h(«Vyse»)Parece un navío mercante del Océano Medio.
+Me pregunto si viene de Isla Los Marinos.\c"
+MSs013a017,"\h(«Vyse»)Es un barril, creo, enorme……
+Está totalmente sellado
+y no puedo ver lo que hay dentro.\c"
+MSs013a018,"\h(«Vyse»)¡¡Ah!! Es un melón amargo.
+Dicen que está muy bueno salteado,
+pero yo no lo soporto.\c"
+MSs013a019,"\h(«Vyse»)¡Vaya! ¡Cuánto Khale!
+En Nasr utilizan mucho el Khale en la cocina,
+por eso los platos son tan picantes.\c"
+MSs013a020,"\h(«Vyse»)Nunca había visto esta verdura antes.
+Tienen todo tipo de cosas extrañas en Nasrad.\c"
+MSs013a021,"\h(«Vyse»)Parece una fruta……
+Tienen todo tipo de cosas extrañas en Nasrad.\c"
+MSs013a022,"\h(«Vyse»)Este olor……
+¿Pescado salado?
+Sea lo que sea, no huele muy bien.\c"
+MSs013a023,"\h(«Vyse»)Es una caja llena de Nan, el alimento básico
+de Nasrad. He oído que ponen comida encima
+y se la comen.\c"
+MSs013a024,"\h(«Vyse»)¡Vaya! ¡Cuánto Khale!
+En Nasr utilizan mucho el Khale en la cocina,
+por eso los platos son tan picantes.\c"
+MSs013a025,"\h(«Vyse»)¡Qué cañón más grande!
+Supongo que lo utilizan para defenderse
+de los invasores.\c"
+MSs013a026,"\h(«Vyse»)Pone: Piedras Rojas.
+Me pregunto si todo esto estará lleno
+de Piedras Lunares.\c"
+MSs013a027,"\h(«Vyse»)Está a rebosar de balas de cañón enormes, pero
+están llenas de polvo. Seguro que no se han
+usado desde la guerra entre Valua y Nasr.\c"
+MSs013a028,"\h(«Aika»)¡Caray! ¡Qué hoguera más grande!
+Deben de mantenerla encendida
+para guiar los navíos a puerto.\c"
+MSs013a029,"\h(«Aika»)¡Vaya! ¡Cuánta madera……!
+Me pregunto si será de Ixa'taka.\c"
+MSs013a030,"\h(«Aika»)¡Es una caja llena de golosinas!
+Recuerdo que me encantaban cuando el Capitán nos
+las traía después de un buen abordaje.\c"
+MSs013a031,\h(«Aika»)Es un navío civil de Nasr.\c
+MSs013a032,"\h(«Aika»)¿Esto tiene verduras dentro?
+Tiene un dibujo bonito en la caja.
+Me imagino que serán para exportar.\c"
+MSs013a033,"\h(«Aika»)¡Qué barril más grande!
+Seguro que yo quepo dentro de uno.
+¿Qué habrá dentro……? Ah, es sólo agua.\c"
+MSs013a034,"\h(«Aika»)¡Qué carro más grande!
+Seguro que lo llenan hasta arriba de cosas para
+transportarlas.\c"
+MSs013a035,"\h(«Aika»)Envíos Dhabu…… ¡Ah, sí! He oído que se
+especializan en envío.\c"
+MSs013a036,"\h(«Aika»)Judías de Mojaca.
+¡Mmm, me encanta cómo huelen!\c"
+MSs013a037,"\h(«Aika»)¡Qué bolsa más grande!
+Parece que lo único que hay dentro es sal.\c"
+MSs013a038,"\h(«Aika»)¡Vaya! ¡Es el Khale más grande que he visto
+nunca! ¡Seguramente echarías fuego por la
+boca si te comieras uno de esos!\c"
+MSs013a039,"\h(«Aika»)¡Qué barril más grande!
+¿Qué habrá dentro?\c"
+MSs013a040,"\h(«Aika»)Oye, es un melón amargo. Vyse los odia.
+Su madre siempre le regañaba cuando era pequeño,
+porque nunca se los quería comer.\c"
+MSs013a041,"\h(«Aika»)¡Vaya! ¡Es el Khale más grande que he visto
+nunca! ¡Seguramente echarías fuego por la
+boca si te comieras uno de esos!\c"
+MSs013a042,"\h(«Aika»)Nunca he visto verduras como ésta.
+Seguro que hay un montón de cosas raras
+en Nasr.\c"
+MSs013a043,"\h(«Aika»)¿Qué es eso? ¿Una fruta?
+Pues sí que hay cosas raras en Nasr.\c"
+MSs013a044,"\h(«Aika»)Mira, es pescado salado.
+El Capitán Drachma siempre comía pescado
+salado. Me pregunto qué tal le irá……\c"
+MSs013a045,"\h(«Aika»)Hay un montón de Nan.
+Es la alimento típico de Nasr y también
+es muy bueno para los viajes.\c"
+MSs013a046,"\h(«Aika»)¡Vaya! ¡Es el Khale más grande que he visto
+nunca! ¡Seguramente echarías fuego por la
+boca si te comieras uno de esos!\c"
+MSs013a047,"\h(«Aika»)¡Qué navío más mono!
+Seguro que Vyse pensaría que el diseño
+de los navíos de Nasr es muy hortera……\c"
+MSs013a048,"\h(«Aika»)Tiene etiquetas de envío por todos lados.
+Debe de haber llegado a Nasr por Isla Los
+Marinos y Valua.\c"
+MSs013a049,"\h(«Aika»)Está lleno de armas y municiones.
+Supongo que se trata de una nación militar,
+después de todo.\c"
+MSs013a050,"\h(«Aika»)¡Caray, qué caja más grande!
+Y además parece muy resistente.
+Me pregunto qué habrá dentro.\c"
+MSs013a051,"\h(«Aika»)¿Éste es el emblema de Valua?
+Debe de ser cargamento procedente de Valua.\c"
+MSs013a052,"\h(«Aika»)Es un navío mercante del Océano Medio.
+Me pregunto si viene de Isla Los Marinos.\c"
+MSs013a053,"\h(«Aika»)¡Qué cañón más grande!
+Con esto se puede hacer desaparecer un navío
+pequeño del cielo.\c"
+MSs013a054,"\h(«Aika»)Pone: Piedras Rojas.
+¿Estará todo lleno de Piedras Lunares?\c"
+MSs013a055,"\h(«Aika»)Está lleno de balas de cañón,
+pero tienen mucho polvo. Supongo
+que no las usan muy a menudo.\c"
+MSs020a056,"\h(«¿Qué vas a hacer?»)“Partir hacia la Isla de Daccat.”
+“Quedarme aquí un rato más.”\c"
+MSs020a057,"\h(«Aika»)Mmm…… es un diseño muy complejo.
+¿De quién será?\c"
+MSs020a058,\h(«Vyse»)No me puedo ir en el navío de Gilder sin él……\c
+MSs020a059,"\h(«Vyse»)Quiero apresurarme y encontrar la Isla de
+Daccat, pero debería advertir al Rey
+sobre Valua ya que estamos aquí.\c"
+MSs020a060,"\h(«¿Qué vas a hacer?»)“Volver al navío.”
+“Quedarme aquí un poco más.”\c"
+MFs013a000,"\h(«Vyse»)Eh bien, ça c'est un grand feu.
+Ils doivent le maintenir allumé pour guider les
+navires vers le port.\c"
+MFs013a001,"\h(«Vyse»)Voilà beaucoup de bois. Il provient probablement
+d'Ixa'taka. Les arbres que j'ai vus là-bas sont
+les plus grands au monde……\c"
+MFs013a002,"\h(«Vyse»)C'est une boîte pleine de bonbons. Hé, c'est le
+genre de bonbons qu'Aika mangeait quand nous
+étions enfants.\c"
+MFs013a003,\h(«Vyse»)C'est un navire civil de Nasr.\c
+MFs013a004,"\h(«Vyse»)Les légumes dessinés sur la caisse sont des
+spécialités de Nasr.
+Je suppose qu'ils vont être exportés.\c"
+MFs013a005,"\h(«Vyse»)C'est rempli d'eau.
+L'eau est une denrée précieuse à Nasr.\c"
+MFs013a006,"\h(«Vyse»)Voici un grand chariot. Ils doivent utiliser
+ce chariot tous les jours pour transporter les
+cargaisons.
+Il semble vraiment abîmé.\c"
+MFs013a007,"\h(«Vyse»)La caisse est étiquetée “Dhabu Transport”.
+Je crois avoir déjà entendu parler de cette
+société. Ils sont spécialisés en tranport rapide
+et bon marché.\c"
+MFs013a008,"\h(«Vyse»)Il est écrit que c'est rempli de haricots
+Mojaca. Ce que je n'ai jamais compris, c'est
+comment les haricots Mojaca peuvent sentir
+tellement bon et avoir un goût aussi amer.\c"
+MFs013a009,"\h(«Vyse»)C'est un sac de sel.
+Il est important d'avoir du sel durant les longs
+voyages.\c"
+MFs013a010,"\h(«Vyse»)Oaouh, voilà beaucoup de Khale !
+Ils utilisent beaucoup de Khale dans la cuisine
+Nasrean, c'est pourquoi les plats de Nasr sont
+si épicés.\c"
+MFs013a011,"\h(«Vyse»)Le style du navire de Nasr est en fait…… un peu
+clinquant. Ça plairait peut-être à Aika……\c"
+MFs013a012,"\h(«Vyse»)Il y a de nombreuses étiquettes de fret sur
+celle-ci. Voyons……
+La cargaison a été expédiée de Valua jusqu'à
+Nasr en passant par l'île des marins.\c"
+MFs013a013,"\h(«Vyse»)Ils exportent des armes et des munitions.
+Les canons de Nasr sont réputés pour leur
+puissance de destruction.\c"
+MFs013a014,"\h(«Vyse»)Cette caisse est bien grande.
+Elle semble également solide.
+Je me demande ce qu'elle contient.\c"
+MFs013a015,"\h(«Vyse»)Hé, c'est l'emblème de la famille royale Valuan.
+Je suppose que cette cargaison provenait de
+Valua.\c"
+MFs013a016,"\h(«Vyse»)On dirait un navire marchand de l'océan central.
+Je me demande s'il venait de l'île des marins.\c"
+MFs013a017,"\h(«Vyse»)C'est un énorme…… tonneau, ou quelque chose
+comme ça.
+Il est hermétiquement scellé donc je ne peux pas
+voir ce qu'il contient.\c"
+MFs013a018,"\h(«Vyse»)Beurk ! c'est un melon amer.
+Il paraît que c'est très bon si vous le faites
+sauter, mais moi je deteste ça.\c"
+MFs013a019,"\h(«Vyse»)Oaouh, voilà beaucoup de Khale !
+Ils utilisent beaucoup de Khale dans la cuisine
+Nasrean, c'est pourquoi les plats sont si
+épicés.\c"
+MFs013a020,"\h(«Vyse»)Je n'ai jamais vu ce légume auparavant.
+On trouve toutes sortes de choses rares à
+Nasrad.\c"
+MFs013a021,"\h(«Vyse»)On dirait une sorte de fruit……
+On trouve toutes sortes de choses rares à
+Nasrad.\c"
+MFs013a022,"\h(«Vyse»)Cette odeur……
+Est-ce du poisson salé ?
+En tout cas, ça ne sent pas très bon.\c"
+MFs013a023,"\h(«Vyse»)Voici une caisse remplie de Nan, la nourriture
+de base de Nasrad. J'ai entendu dire qu'ils
+mettent des aliments dessus pour les manger.\c"
+MFs013a024,"\h(«Vyse»)Oaouh, voilà beaucoup de Khale !
+Ils utilisent beaucoup de Khale dans la cuisine
+Nasrean, c'est pourquoi les plats de Nasr sont
+si épicés.\c"
+MFs013a025,"\h(«Vyse»)Quel gros canon……
+Je crois qu'ils s'en servent pour se défendre
+contre les envahisseurs……\c"
+MFs013a026,"\h(«Vyse»)Il est écrit: Pierres de Lune Rouge.
+Je me demande si c'est rempli de Pierres
+de Lune.\c"
+MFs013a027,"\h(«Vyse»)C'est plein de boulets énormes, mais ils sont
+recouverts de poussière. Je parie qu'ils n'ont
+pas été utilisés depuis la guerre de Valua-Nasr.\c"
+MFs013a028,"\h(«Aika»)Oaouh, Quel feu !
+Ils doivent le maintenir allumé pour guider les
+navires vers le port.\c"
+MFs013a029,"\h(«Aika»)Oaouh, voilà beaucoup de bois……
+Je me demande s'il provient d'Ixa'taka ?\c"
+MFs013a030,"\h(«Aika»)C'est une boite pleine de bonbons !
+J'aimais bien quand le cap'taine rapportait des
+bonbons sur l'Île des Pirates après une attaque.\c"
+MFs013a031,\h(«Aika»)C'est un navire civil de Nasr.\c
+MFs013a032,"\h(«Aika»)Y a-t-il des légumes à l'intérieur ?
+Il y a une jolie image sur la caisse.
+Je crois que c'est destinée à l'exportation.\c"
+MFs013a033,"\h(«Aika»)Quel gros tonneau !
+Je pourrais certainement rentrer dans un de ces
+tonneaux. Je me demande ce qu'il y a dans…… Oh,
+c'est juste de l'eau.\c"
+MFs013a034,"\h(«Aika»)Ça, c'est un grand chariot !
+J'imagine qu'ils transportent des choses en les
+empilant dessus.\c"
+MFs013a035,"\h(«Aika»)Dhabu Transport…… Oh oui, j'ai entendu dire que
+c'était une société qui était spécialisée en
+transport maritime.\c"
+MFs013a036,"\h(«Aika»)Des haricots Mojaca.
+Mmm, j'adore cette odeur.\c"
+MFs013a037,"\h(«Aika»)C'est un grand sac.
+Hmm…… On dirait qu'il ne contient que du sel.\c"
+MFs013a039,"\h(«Aika»)Voilà un grand tonneau……
+Je me demande ce qu'il contient ?\c"
+MFs013a040,"\h(«Aika»)Hé, voilà un melon amer. Vyse déteste ça.
+Sa mère nous grondait quand nous étions enfants
+parce que nous nous amusions à les faire sauter
+de son assiette.\c"
+MFs013a042,"\h(«Aika»)C'est la première fois que je vois ce genre de
+légumes.Je parie qu'il y a beaucoup de choses
+rares à Nasr.\c"
+MFs013a043,"\h(«Aika»)Est-ce une sorte de fruit ?
+Il y a certainement beaucoup de choses rares à
+Nasr.\c"
+MFs013a044,"\h(«Aika»)Hé, c'est du poisson salé.
+Cap'taine Drachma mangeait tout le temps du
+poisson salé. Je me demande ce qu'il devient……\c"
+MFs013a045,"\h(«Aika»)Il y a beaucoup de Nan.
+C'est la nourriture de base de Nasr et c'est
+aussi très pratique pour les voyages.\c"
+MFs013a047,"\h(«Aika»)Ce navire est tellement joli !
+Je parie que Vyse trouverait le style des
+navires de Nasr trop clinquant……\c"
+MFs013a048,"\h(«Aika»)La caisse est recouverte d'étiquettes de fret.
+Je crois qu'elle est arrivée à Nasr en passant
+par l'Île des Marins et Valua.\c"
+MFs013a049,"\h(«Aika»)C'est plein d'armes et de munitions.
+Je suppose que c'est une nation de militaires,
+après tout.\c"
+MFs013a050,"\h(«Vyse»)Cette caisse est bien grande.
+Et elle semble plutôt solide.
+Je me demande ce qu'il y a dedans.\c"
+MFs013a051,"\h(«Aika»)Est-ce l'emblème de Valua ?
+Ce doit être une cargaison en provenance de
+Valua.\c"
+MFs013a052,"\h(«Aika»)C'est un navire marchand de l'Océan Central.
+Je me demande s'il vient de l'Île des Marins ?\c"
+MFs013a053,"\h(«Aika»)Quel grand canon……
+Son tir pourrait pulvériser un petit navire.\c"
+MFs013a054,"\h(«Aika»)On peut lire: Pierres de Lune Rouge.
+Je me demande si c'est rempli de Pierres de
+Lune.\c"
+MFs013a055,"\h(«Aika»)C'est plein de boulets, mais ils sont
+recouverts de poussière. Ils ne doivent pas les
+utiliser très souvent.\c"
+MFs020a056,"\h(«Que ferez-vous ?»)“Vous mettrez le cap sur l'île de Daccat.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MFs020a057,"\h(«Aika»)Hmm, le design de ce navire est plutôt complexe.
+Je me demande à qui il appartient ?\c"
+MFs020a058,"\h(«Vyse»)Je ne peux pas décoller avec le navire de Gilder
+s'il n'est pas là……\c"
+MFs020a059,"\h(«Vyse»)Je dois partir à la recherche de l'Île de
+Daccat rapidement mais tant que nous sommes ici,
+je devrais avertir le Roi au sujet de Valua.\c"
+MFs020a060,"\h(«Que ferez-vous ?»)“Vous retournerez sur le navire.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MGs013a000,"\h(«Vyse»)Das ist ein großes Signalfeuer.
+Sie lassen es brennen,
+um Schiffe in den Hafen zu leiten.\c"
+MGs013a001,"\h(«Vyse»)Das ist eine Menge Timber. Es ist wahrscheinlich
+aus Ixa'taka. Ich habe nirgends in der Welt
+Bäume gesehen, die so groß sind……\c"
+MGs013a002,"\h(«Vyse»)Das ist eine Kiste voller Süßigkeiten.
+Hey, diese Art Süßigkeiten hat Aika die
+ganze Zeit gegessen, als wir noch klein waren.\c"
+MGs013a003,\h(«Vyse»)Das ist ein Passagierschiff aus Nasr.\c
+MGs013a004,"\h(«Vyse»)Das Gemüse, das auf die Kiste gemalt ist,
+gehört zu den besonderen Exportgütern.
+Schätze, sie werden ins Ausland geschifft.\c"
+MGs013a005,"\h(«Vyse»)Es ist bis zum Rand mit Wasser gefüllt.
+Wasser ist eine wertvolle Ware in Nasr.\c"
+MGs013a006,"\h(«Vyse»)Ein großer Karren. Wahrscheinlich
+benutzen sie ihn, um täglich die Fracht zu
+transportieren. Er sieht wirklich schwer
+beladen aus.\c"
+MGs013a007,"\h(«Vyse»)die Kiste hat die Aufschrift “Dhabu Shipping.”
+Ich glaube, ich habe von dem Unternehmen
+gehört. Sie sind auf schnelle und günstige
+Schifftransporte spezialisiert.\c"
+MGs013a008,"\h(«Vyse»)Hier steht, dass es mit Mojaca Bohnen
+angefüllt ist. Was ich nie verstanden
+habe, ist, wie die Mojaca Bohnen so süß
+riechen und doch so bitter schmecken können……\c"
+MGs013a009,"\h(«Vyse»)Das ist ein Sack Salz.
+Es ist wichtig, auf langen Reisen Salz
+mitzunehmen.\c"
+MGs013a010,"\h(«Vyse»)Wow, das ist eine Menge Khale!
+Sie verwenden zum Kochen viel Khale in Nasr,
+darum sind nasrische Speisen so scharf.\c"
+MGs013a011,"\h(«Vyse»)Nasrische Schiffdesigns sind eigentlich n'
+bisschen grell. Vielleicht würde Aika sie
+mögen……\c"
+MGs013a012,"\h(«Vyse»)Hier sind eine ganze Reihe Frachtzettel
+drauf. Mal sehen…… Sie ging von Valua
+nach Sailors' Island und von dort nach Nasr.\c"
+MGs013a013,"\h(«Vyse»)Sie exportieren Waffen und Munition.
+Nasrische Kanonen sind berühmt für
+ihre zerstörerische Kraft.\c"
+MGs013a014,"\h(«Vyse»)Das ist eine ziemlich große Kiste.
+Sie sieht auch ziemlich robust aus.
+Ich frage mich, was wohl drin ist?\c"
+MGs013a015,"\h(«Vyse»)Hey, es ist das Emblem der valuanischen
+Königsfamilie. Die Ladung kommt wohl aus Valua.\c"
+MGs013a016,"\h(«Vyse»)Es sieht aus wie ein Handelsschiff vom
+Mid Ocean. Ich frage mich, ob es
+von Sailors' Island kommt?\c"
+MGs013a017,"\h(«Vyse»)Das ist ein riesiges Fass…… oder
+so etwas. Es ist ganz versiegelt. Ich kann
+nicht sehen, was drin ist.\c"
+MGs013a018,"\h(«Vyse»)Uhh, es ist eine Bittermelon.
+Man sagt, dass sie gebraten sehr gut
+schmecken. Aber ich kann sie nicht leiden.\c"
+MGs013a019,"\h(«Vyse»)Wow, das ist eine Menge Khale!
+Sie verwenden zum Kochen viel Khale in Nasr,
+darum sind nasrische Speisen so scharf.\c"
+MGs013a020,"\h(«Vyse»)Ich habe dieses Gemüse noch niemals
+gesehen. Die haben alle möglichen,
+seltenen Dinge in Nasrad.\c"
+MGs013a021,"\h(«Vyse»)Es sieht aus wie eine Art Frucht……
+Die haben alle möglichen seltenen
+Dinge in Nasrad.\c"
+MGs013a022,"\h(«Vyse»)Dieser Geruch…… Ist das gesalzener Fisch?
+Wie dem auch sei, es riecht nicht gerade
+angenehm.\c"
+MGs013a023,"\h(«Vyse»)Das ist eine Kiste mit Nan, die Hauptnahrung
+in Nasrad. Ich habe gehört, sie essen es mit
+anderen Zutaten.\c"
+MGs013a024,"\h(«Vyse»)Wow, das ist eine Menge Khale!
+Sie verwenden zum Kochen viel Khale in Nasr,
+darum sind nasrische Speisen so scharf.\c"
+MGs013a025,"\h(«Vyse»)Was für eine große Kanone……
+Schätze, sie benutzen sie, um sich
+gegen Eindringlinge zu wehren……\c"
+MGs013a026,"\h(«Vyse»)Hier steht: Red Moon Stones.
+Ich frage mich, ob das ganze Ding mit
+Moon Stones gefüllt ist?\c"
+MGs013a027,"\h(«Vyse»)Es ist mit riesigen Kanonenkugeln gefüllt,
+aber sie sind mit Staub bedeckt. Ich wette, die
+sind seit dem Valua-Nasr-Krieg nicht mehr
+gebraucht worden.\c"
+MGs013a028,"\h(«Aika»)Das ist ein großes Signalfeuer.
+Sie lassen es brennen,
+um Schiffe in den Hafen zu leiten.\c"
+MGs013a029,"\h(«Aika»)Wow, das ist eine Menge Timber……
+Ob das aus Ixa'taka kommt?\c"
+MGs013a030,"\h(«Aika»)Das ist eine Kiste voller Süßigkeiten!
+Ich habe es geliebt, wenn der Käpt'n Süßes
+von einem Überfall nach Pirate Island
+mitbrachte.\c"
+MGs013a031,\h(«Aika»)Es ist ein Passagierschiff aus Nasr.\c
+MGs013a032,"\h(«Aika»)Ist hier Gemüse drin? Auf der Kiste ist
+ein niedliches Bild. Schätze, sie wird
+exportiert.\c"
+MGs013a033,"\h(«Aika»)Was für ein großes Fass!
+Ich würde wahrscheinlich in eins von diesen
+reinpassen. Ich frage mich, was drin…… oh, es
+ist nur Wasser.\c"
+MGs013a034,"\h(«Aika»)Das ist ein riesiger Karren!
+Schätze, sie häufen Zeug darauf
+und transportieren es.\c"
+MGs013a035,"\h(«Aika»)Dhabu Shipping…… Na klar, ich habe
+gehört, es war ein Konvoi, der sich
+auf den Frachtverkehr spezialisiert hat.\c"
+MGs013a036,"\h(«Aika»)Mojaca Bohnen.
+Mmm, ich liebe diesen Geruch.\c"
+MGs013a037,"\h(«Aika»)Das ist ein großer Sack.
+Hmm…… sieht so aus, als sei
+nur Salz drin.\c"
+MGs013a038,"\h(«Aika»)Wow, das ist der größte Khale, den
+ich jemals gesehen habe! Man würde
+wahrscheinlich Feuer speien, wenn man
+einen von diesen essen würde!\c"
+MGs013a039,"\h(«Aika»)Das ist ein großes Fass……
+Ich frage mich, was da drin ist?\c"
+MGs013a040,"\h(«Aika»)Hey, das ist eine Bittermelon. Vyse hasst sie.
+Er wurde von seiner Mutter ausgeschimpft,
+weil er sie immer, als wir klein waren,
+von seinem Teller schubste.\c"
+MGs013a041,"\h(«Aika»)Wow, das ist der größte Khale, den
+ich jemals gesehen habe! Man würde
+wahrscheinlich Feuer speien, wenn man
+einen von diesen essen würde!\c"
+MGs013a042,"\h(«Aika»)Ich habe niemals solches Gemüse gesehen.
+I wette, es gibt eine Menge seltener Dinge
+hier in Nasr.\c"
+MGs013a043,"\h(«Aika»)Ist das eine Art Frucht?
+Es gibt wohl wirklich eine Menge seltener
+Dinge in Nasr.\c"
+MGs013a044,"\h(«Aika»)Hey, das ist gesalzener Fisch.
+Käpt'n Drachma hat immer gesalzenen
+Fisch gegessen. Frage mich, wie's ihm geht……\c"
+MGs013a045,"\h(«Aika»)Es gibt 'ne Menge Nan hier.
+Es ist Nasrs Hauptnahrungsmittel,
+außerdem ist es praktisch auf Reisen.\c"
+MGs013a046,"\h(«Aika»)Wow, das ist der größte Khale, den
+ich jemals gesehen habe! Man würde
+wahrscheinlich Feuer speien, wenn man
+einen von diesen essen würde!\c"
+MGs013a047,"\h(«Aika»)Das Schiff ist niedlich!
+Ich wette, Vyse findet das Design der
+nasrischen Schiffe zu grell……\c"
+MGs013a048,"\h(«Aika»)Es ist ganz mit Frachtzetteln beklebt.
+Schätze, es kam über Sailors' Island und
+Valua nach Nasr.\c"
+MGs013a049,"\h(«Aika»)Es ist voller Waffen und Munition.
+Ist wohl doch ein militärisches Volk hier.\c"
+MGs013a050,"\h(«Aika»)Wow, das ist eine große Kiste.
+Sieht auch ziemlich robust aus.
+Ich frage mich, was wohl drin ist?\c"
+MGs013a051,"\h(«Aika»)Ist das Valuas Emblem?
+Schätze, es ist Fracht aus Valua.\c"
+MGs013a052,"\h(«Aika»)Das ist ein Handelsschiff vom Mid Ocean.
+Ob das von Sailors' Island kommt?\c"
+MGs013a053,"\h(«Aika»)Was für eine große Kanone……
+Die könnte ein kleines Schiff direkt
+vom Himmel runterholen.\c"
+MGs013a054,"\h(«Aika»)Hier steht Red Moon Stones drauf.
+Frage mich, ob das ganze Ding mit
+Moon Stones angefüllt ist?\c"
+MGs013a055,"\h(«Aika»)Es ist voller Kanonenkugeln,
+die sind allerdings voller Staub.
+Sie gebrauchen sie wohl nicht besonders häufig.\c"
+MGs020a056,"\h(«Was wirst du tun?»)“Segel in Richtung Daccat's Island setzen.”
+“Eine Weile hier bleiben.”\c"
+MGs020a057,"\h(«Aika»)Hmm, ist 'ne ziemlich kompliziertes
+Schiffsdesign.
+Wem das wohl gehört?\c"
+MGs020a058,"\h(«Vyse»)Ich kann nicht in Gilders Schiff
+ohne ihn abhauen……\c"
+MGs020a059,"\h(«Vyse»)Ich will rasch in See
+stechen, um Daccat's Island zu finden.
+Aber ich sollte vermutlich den König
+vor Valua warnen, solange ich hier bin.\c"
+MGs020a060,"\h(«Was wirst du tun?»)“Zum Schiff zurückkehren.”
+“Eine Weile hier bleiben.”\c"
+Ms013b000,"\h(«Vyse»)That's a pretty nice fountain.
+It's strange to see them use water like this
+when it's so scarce in Nasr.\c"
+Ms013b001,"\h(«Vyse»)It's cool, clear water.
+Almost makes me want to go for a swim.
+Heh… That would be a little too embarrassing.\c"
+Ms013b002,"\h(«Vyse»)I wonder what's in the barrel?
+Hey, homemade pickles! I hope they won't mind
+if I have just a litle taste…\c"
+Ms013b003,\h(«Vyse»)“Today's lunch menu…”\e
+Ms013b004,"\h(«Vyse»)“Pasta of Pure Passion”
+“Steaming Soup of Love”
+…I'd be too embarrassed to order anything here.\c"
+Ms013b005,"\h(«Vyse»)That's the royal palace ahead. It's surrounded
+completely by water. You'd never think that
+this was a desert kingdom…\c"
+Ms013b006,"\h( )“Enjoy the comfortable life that
+you deserve. This way to Osman's Loans.”\c"
+Ms013b007,"\h(«Vyse»)Mmm… This loqua smells great! It looks like
+someone sure knows how to pick their Loquat
+Berries right!\c"
+Ms013b008,"\h(«Vyse»)Flying Fish soaked in oil, smoked Red Sardis…
+They have all kinds of expensive foods here.\c"
+Ms013b009,"\h(«Vyse»)It says there's Valuan loqua inside.
+I guess trade is more important to
+Valua and Nasr than being enemies.\c"
+Ms013b010,"\h(«Vyse»)It's a well-made sieve.
+It looks like it was made
+by a master craftsman.\c"
+Ms013b011,"\h(«Vyse»)Hey, it's a miniature model of the palace.
+It's made pretty well.
+Hmm… almost makes me want to buy it.\c"
+Ms013b012,"\h(«Vyse»)“Nasr Dance Lessons:
+Learn the traditional dances of the desert”
+I wonder if this is where Belleza learned?\c"
+Ms013b013,"\h(«Vyse»)“Observation tower above. Leave your handprint!”
+I wonder if I can get a good view of Nasrad
+from up there?\c"
+Ms013b014,"\h(«Vyse»)Now, that looks nice…
+There's flowers floating in the fountain.\c"
+Ms013b116,"\h(«Vyse»)Oops…
+It sounds like a woman is staying in this room.
+I probably should just leave this room alone.\e"
+Ms013b117,"\h(«Vyse»)But, that voice…
+Why does it sound so familiar?\c"
+Ms013b016,"\h(«Vyse»)Now, that's an old compass. I haven't seen one
+of these in years! They sure don't make them
+like they used to…\c"
+Ms013b017,"\h(«Vyse»)It's a wanted poster… Hmm… Nope, no one
+I know. To Air Pirates, having a price on your
+own head is sort of a status thing.\c"
+Ms013b018,"\h(«Vyse»)“Navigator wanted…”
+“Treasure map for sale…”
+There's all kinds of postings.\c"
+Ms013b019,"\h(«Vyse»)Wow… This painting of the royal palace at night
+sure looks pretty.\c"
+Ms013b020,"\h(«Vyse»)“A real drink for a real man!
+A taste of the desert, Khale-Relik Loqua!”
+Huh? Who'd want to taste the desert?\c"
+Ms013b021,"\h( )“Soft pastries made by our master chefs!
+Perfect for a light snack, any time of the day!”
+\c"
+Ms013b022,"\h(«Vyse»)So this is what Nasr rugs look like.
+I hear they're really expensive.
+…Maybe I shouldn't touch it.\c"
+Ms013b023,"\h(«Vyse»)They have all sorts of spices. I remember Mom
+used to use all kinds of different spices, too…
+But, I don't think these are the same kinds.\c"
+Ms013b024,"\h(«Vyse»)I wonder what this stuff is… It smells a little
+like medicine. Maybe they mix this with herbs
+and stuff to make medicine?\c"
+Ms013b025,"\h(«Vyse»)Ack!
+…Oh, it's just a mannequin. It's just dressed
+up in traditional Nasrean garb…\c"
+Ms013b026,"\h(«Vyse»)It's a pile of weapons and ammunition.
+I can't believe they just leave it
+out like this.\c"
+Ms013b027,"\h(«Vyse»)Hey, a Nasr long sword.
+Its long, exposed blade is unique
+to this region of the world.\c"
+Ms013b028,"\h(«Vyse»)This treasure chest is beautifully crafted!
+I don't care what's inside… I want to take it
+just for the chest itself!\c"
+Ms013b029,"\h(«Vyse»)It's an expensive-looking vase. I wonder if
+pickles made in a vase like this taste any
+better than pickles made in a normal vase…\c"
+Ms013b030,"\h(«Vyse»)It's an impressive safe…
+I almost want to try to see if I can crack it,
+but I shouldn't steal from civilians.\c"
+Ms013b031,"\h(«Vyse»)It's a picture of some kind of golden bird. I've
+never seen one of those things before… I wonder
+where it's from?\c"
+Ms013b032,"\h(«Vyse»)The sign… the cushions…
+Someone must really like cats.\c"
+Ms013b033,"\h(«Aika»)Wow, what a beautiful fountain!
+It's so weird that there's a fountain like this
+in the middle of the desert.\c"
+Ms013b034,"\h(«Aika»)The water's so cool and clear!
+Maybe I can take off my boots and splash around.
+…Or maybe not.\c"
+Ms013b035,"\h(«Aika»)Hey, pickles!
+No one's looking… Heh, maybe I'll just sneak
+a little taste… Mmm! Good!\c"
+Ms013b036,\h(«Aika»)“Today's lunch menu…”\e
+Ms013b037,"\h(«Aika»)“Romantic Moonlit Desert Steak”
+“Prince on a Dhabu Salad”
+… These names are so romantic!!\c"
+Ms013b038,"\h(«Aika»)Oh, so this is the Nasr royal palace.
+A palace floating on water…
+It's almost like a fairy tale.\c"
+Ms013b039,"\h( )“Enjoy the comfortable life you deserve.
+This way to Osman's Loans.”\c"
+Ms013b040,"\h(«Aika»)This loqua smells so good! I wonder who made it?
+I bet the guys back home would love to have a
+glass of this stuff…\c"
+Ms013b041,"\h(«Vyse»)Flying Fish soaked in oil, smoked Red Sardis…
+It all sounds so good…\c"
+Ms013b042,"\h(«Aika»)Valuan loqua, huh?
+I bet it's hard to get Valuan loqua here in
+Nasr, so it's probably really expensive.\c"
+Ms013b043,"\h(«Aika»)This sieve's cute!
+It looks pretty sturdy, too. I want one!\c"
+Ms013b044,"\h(«Aika»)It's a model of the Nasr royal palace!
+Whoever built this must be an excellent artist!
+I wish I could make something like this!\c"
+Ms013b045,"\h(«Aika»)“Nasr Dance Lessons:
+Learn the traditional dances of the desert”
+Um… I really don't think I have the time.\c"
+Ms013b046,"\h(«Aika»)“Observation tower above. Leave your handprint!”
+I wonder if I can get a view of all of Nasrad
+from up there?\c"
+Ms013b047,"\h(«Aika»)How beautiful!
+There's flowers floating in the fountain!\e"
+Ms013b048,"\h(«Fina»)I don't think it's very polite
+to walk into other people's
+rooms, Aika.\e"
+Ms013b149,"\h(«Aika»)Oh, sorry!
+Yeah, I shouldn't just barge in.
+Bad habit!\c"
+Ms013b049,"\h(«Aika»)This compass looks pretty old.
+Vyse loves looking at
+stuff like this…\c"
+Ms013b050,"\h(«Aika»)It's a wanted poster.
+Doesn't look like they have one for Vyse…
+I don't know if that's good or bad…\c"
+Ms013b051,"\h(«Aika»)“Navigator wanted…”
+“Treasure map for sale…”
+There's all kinds of postings here.\c"
+Ms013b052,"\h(«Aika»)A night view of the royal palace, huh?
+It's kinda romantic…\c"
+Ms013b053,"\h(«Aika»)“A real drink for a real man!
+A taste of the desert-- Khale-Relik Loqua!”
+…Ugh. No thanks.\c"
+Ms013b054,"\h( )“Soft pastries made by our master chefs!
+Perfect for a light snack, any time of the day!”
+\c"
+Ms013b055,"\h(«Aika»)Oh, this is one of those really expensive Nasr
+rugs. There's no way I could afford one.\c"
+Ms013b056,"\h(«Aika»)There's all kinds of spices. I bet that if I
+could use all of these right, I'd be a really
+good cook. I suppose that's a big IF, though…\c"
+Ms013b057,"\h(«Aika»)There's some dried… stuff. What is this stuff,
+anyway? I don't think I've ever seen anything
+like this before…\c"
+Ms013b058,"\h(«Aika»)Yaah!
+…Oh, it's just a mannequin. It's wearing some
+Nasrean clothes… It sure scared me, though.\c"
+Ms013b059,"\h(«Aika»)Weapons and ammunition…
+It's all piled here pretty randomly.\c"
+Ms013b060,"\h(«Aika»)Wow, what a nice sword! I wish I had the money
+to buy it for Vyse… I'm sure he'd love
+something like this…\c"
+Ms013b061,"\h(«Aika»)Wow, what an intricate treasure box!
+Let's see what's inside…
+Oops… It's locked. It won't open.\c"
+Ms013b062,"\h(«Aika»)Wow, this vase looks expensive.
+I'd better not touch it, just in case. Knowing
+me, I'd probably drop it.\c"
+Ms013b063,"\h(«Aika»)That's a pretty impressive safe!
+It's got so many locks…
+It's just screaming, “Open me!”\c"
+Ms013b064,"\h(«Aika»)Hmm… Some sort of golden bird…
+Maybe it's supposed to be good luck for business
+or something.\c"
+Ms013b065,"\h(«Aika»)What a cute cushion!
+The cat on the lady's head must be the model.
+She must really like cats.\c"
+Ms013b066,"\h(«Vyse»)Oh, I almost forgot…\e"
+Ms013b067,"\h(«Vyse»)Before we head off looking for Daccat's Island,
+I should warn the king about Valua's plans.\c"
+Ms013b068,"\h(«Vyse»)What's up with this picture?
+It looks like someone just
+made random strokes with a brush!\c"
+Ms013b069,"\h(«Aika»)It looks like random brushstrokes, but if you
+keep looking at it, it starts looking like
+something… I just can't figure out what…\c"
+Ms013b070,"\h(«Vyse»)Hmm… It won't open.
+I guess it's locked.\c"
+Ms013b071,"\h(«Aika»)It won't open.
+Is it locked or something?\c"
+MSs013b000,"\h(«Vyse»)¡Qué fuente tan bonita!
+Es raro que utilicen el agua de este modo,
+cuando es un recurso tan escaso en Nasr.\c"
+MSs013b001,"\h(«Vyse»)Es agua fría y clara.
+Me dan hasta ganas de darme un chapuzón,
+pero me daría vergüenza.\c"
+MSs013b002,"\h(«Vyse»)¿Qué habrá en el barril?
+¡Fíjate, conservas caseras!
+Espero que no les importe si las pruebo……\c"
+MSs013b003,\h(«Vyse»)“Menú de almuerzo de hoy……”\e
+MSs013b004,"\h(«Vyse»)“Pasta de Pasión Pura”
+“Sopa de Amor”
+…… Me daría mucha vergüenza pedir algo aquí.\c"
+MSs013b005,"\h(«Vyse»)Ése es el Palacio Real. Está rodeado de agua.
+Nunca pensarías que éste es un reino
+en medio del desierto……\c"
+MSs013b006,"\h( )“Disfruta de la vida relajada que te mereces.
+Por aquí se va a los Préstamos Osman.”\c"
+MSs013b007,"\h(«Vyse»)Mmm…… ¡Este loqua huele muy bien!
+¡Parece que hay alguien que sabe escoger
+las bayas de Loquat muy bien!\c"
+MSs013b008,"\h(«Vyse»)Pez Volador en aceite, Sardis rojos ahumados……
+Tienen todo tipo de comidas caras aquí.\c"
+MSs013b009,"\h(«Vyse»)Hay loqua de Valua dentro.
+Supongo que el comercio entre Valua y Nasr
+es más importante que ser enemigos.\c"
+MSs013b010,"\h(«Vyse»)Es un tamiz muy bien hecho.
+Parece que lo hizo un experto en artesanía.\c"
+MSs013b011,"\h(«Vyse»)¡Mira! Es una reproducción en miniatura del
+palacio. Está muy bien hecha.
+Mmm…… me dan ganas de comprarla.\c"
+MSs013b012,"\h(«Vyse»)“Clases de baile Nasr:
+Aprende el baile tradicional del desierto”
+Me pregunto si aquí aprendió Belleza a bailar.\c"
+MSs013b013,"\h(«Vyse»)“Torre de Observación arriba. ¡Deja tu huella!”
+¿Habrá una buena vista de Nasrad
+desde ahí arriba?\c"
+MSs013b014,"\h(«Vyse»)Eso sí que es bonito.
+Hay flores flotando en la fuente.\c"
+MSs013b116,"\h(«Vyse»)¡Uy!
+Parece que hay una mujer en esta habitación.
+Creo que no debería meterme aquí.\e"
+MSs013b117,"\h(«Vyse»)Pero, esa voz……
+¿Por qué me suena tanto?\c"
+MSs013b016,"\h(«Vyse»)¡Qué brújula más antigua!
+¡Hacía años que no veía una así!
+Sin duda ya no las hacen como antes……\c"
+MSs013b017,"\h(«Vyse»)Es un cartel de “Se busca”. Mmm……
+No, no me suena la cara. Para un Pirata, que
+pongan precio a su cabeza es todo un orgullo.\c"
+MSs013b018,"\h(«Vyse»)“Se busca Navegante……”
+“Se vende Mapa del Tesoro……”
+Hay toda clase de anuncios.\c"
+MSs013b019,"\h(«Vyse»)¡Vaya! Este cuadro del Palacio Real
+por la noche es sin duda muy bonito.\c"
+MSs013b020,"\h(«Vyse»)“¡Una bebida auténtica para hombres auténticos!
+¡Un aroma del desierto: Loqua Khale-Relik!”
+¿¿Qué?? ¿Quién querría probar el desierto?\c"
+MSs013b021,"\h( )“¡Pastas suaves elaboradas por nuestros chefs!
+¡Ideales para un ligero snack, a cualquier
+hora del día!”\c"
+MSs013b022,"\h(«Vyse»)Entonces las alfombras en Nasr son así.
+He oído que son carísimas.
+Quizás no debería tocarla.\c"
+MSs013b023,"\h(«Vyse»)Tienen todo tipo de especias.
+Recuerdo que mi madre también usaba especias,
+pero creo que éstas no son las mismas.\c"
+MSs013b024,"\h(«Vyse»)Me pregunto qué será esto. A mí el olor me
+recuerda a medicina. A lo mejor lo mezclan con
+hierbas y otras cosas para hacer medicina.\c"
+MSs013b025,"\h(«Vyse»)¡Ah! Menos mal que sólo es un maniquí.
+Sólo está vestido con un traje típico de Nasr.\c"
+MSs013b026,"\h(«Vyse»)Es un montón de armas y municiones.
+Es increíble que lo hayan dejado ahí tirado.\c"
+MSs013b027,"\h(«Vyse»)¡Fíjate, una espada larga de Nasr!
+Su larga y afilada hoja es exclusiva
+de esta región del mundo.\c"
+MSs013b028,"\h(«Vyse»)¡Este cofre del tesoro está muy bien tallado!
+No me importa lo que haya dentro.
+¡Sólo quiero llevármelo por el cofre!\c"
+MSs013b029,"\h(«Vyse»)Este jarrón parece muy caro. Me pregunto si las
+conservas que hacen en este jarrón sabrán mejor
+que las que hacen en un tarro normal……\c"
+MSs013b030,"\h(«Vyse»)Es muy seguro……
+Me dan ganas de romperlo todo.
+Pero no debería robarle a los civiles.\c"
+MSs013b031,"\h(«Vyse»)Es una foto de una especie pájaro dorado.
+Nunca había visto uno antes.
+De dónde será……\c"
+MSs013b032,"\h(«Vyse»)La señal…… los cojines……
+Hay alguien a quien le encantan los gatos.\c"
+MSs013b033,"\h(«Aika»)¡Vaya! ¡Qué fuente tan bonita!
+Es tan raro encontrar una fuente así
+en medio del desierto.\c"
+MSs013b034,"\h(«Aika»)¡El agua está tan fría y limpia!
+A lo mejor puedo quitarme las botas y
+chapotear. O a lo mejor no……\c"
+MSs013b035,"\h(«Aika»)¡Mira, conservas!
+Nadie nos mira. Voy a probar un poco……
+Mmm…… ¡Qué bueno!\c"
+MSs013b036,\h(«Aika»)“Menú de almuerzo de hoy……”\e
+MSs013b037,"\h(«Aika»)“Filete a la Romántica Luz del Desierto”
+“Ensalada de Príncipe en Dhabu”……
+¡Estos nombres son tan románticos!\c"
+MSs013b038,"\h(«Aika»)Así que éste es el Palacio Real de Nasr.
+Un palacio flotando en el agua.
+Parece sacado de cuento de hadas.\c"
+MSs013b039,"\h( )“Disfruta de la vida relajada que te mereces.
+Por aquí se va a los Préstamos Osman.”\c"
+MSs013b040,"\h(«Aika»)¡Qué bien huele este loqua! ¿Quién lo habrá
+hecho? Estoy seguro de que a los chicos
+en casa les encantaría probarlo……\c"
+MSs013b041,"\h(«Vyse»)Pez Volador en aceite, Sardis Rojos ahumados……
+¡Qué bueno todo!\c"
+MSs013b042,"\h(«Aika»)¿Con que loqua de Valua?
+Seguro que es difícil conseguir loqua de Valua
+aquí en Nasr. Así que debe de ser muy caro.\c"
+MSs013b043,"\h(«Aika»)¡Qué tamiz más bonito!
+Y además parece muy resistente. ¡Quiero uno!\c"
+MSs013b044,"\h(«Aika»)¡Una reproducción del Palacio Real de Nasr!
+¡El que lo haya hecho debe de ser un artista
+excelente! ¡Ojalá pudiera yo hacer algo así!\c"
+MSs013b045,"\h(«Aika»)“Clases de baile Nasr:
+Aprende el baile tradicional del desierto”
+Umm…… No creo que tenga tiempo para esto.\c"
+MSs013b046,"\h(«Aika»)“Torre de Observación arriba. ¡Deja tu huella!”
+¿Habrá una buena vista de Nasrad
+desde ahí arriba?\c"
+MSs013b047,"\h(«Aika»)¡Qué bonito!
+¡Hay flores flotando en la fuente!\e"
+MSs013b048,"\h(«Fina»)No creo que sea de buena educación entrar
+en las habitaciones de los demás, Aika.\e"
+MSs013b149,"\h(«Aika»)¡Ah, lo siento!
+Sí, no debería entrar de golpe.
+¡Mala costumbre!\c"
+MSs013b049,"\h(«Aika»)Esta brújula parece muy antigua.
+A Vyse le encantan estas cosas.\c"
+MSs013b050,"\h(«Aika»)Es un cartel de “Se busca”.
+No parece que tengan uno de Vyse.
+No sé si eso será bueno o malo.\c"
+MSs013b051,"\h(«Aika»)“Se busca Navegante……”
+“Se vende Mapa del Tesoro……”
+Hay toda clase de anuncios aquí.\c"
+MSs013b052,"\h(«Aika»)Una vista nocturna del Palacio Real……
+Es bastante romántico……\c"
+MSs013b053,"\h(«Aika»)“Una bebida auténtica para hombres auténticos.
+Un aroma del desierto: Loqua Khale-Relik”
+¡Bah! No gracias.\c"
+MSs013b054,"\h( )“¡Pastas suaves elaboradas por nuestros chefs!
+¡Ideales para un ligero snack, a cualquier
+hora del día!”\c"
+MSs013b055,"\h(«Aika»)Oh, ésta es una de esas alfombras caras de Nasr.
+De ningún modo podría comprarme una.\c"
+MSs013b056,"\h(«Aika»)Hay toda clase de especias. Seguro que si
+supiera usarlas, sería una buena cocinera.
+Supongo que no deja de ser una hipótesis.\c"
+MSs013b057,"\h(«Aika»)Hay algo seco aquí……
+¿Qué es esto?
+Creo que nunca he visto nada parecido.\c"
+MSs013b058,"\h(«Aika»)¡Ahhh! Ah, es sólo un maniquí.
+Le han puesto ropa típica de Nasr.
+Qué susto me ha dado.\c"
+MSs013b059,"\h(«Aika»)Armas y municiones……
+Está todo amontonado aquí y parece mezclado.\c"
+MSs013b060,"\h(«Aika»)¡Vaya! ¡Qué espada tan bonita!
+Ojalá tuviera dinero para comprársela a Vyse.
+Seguro que le encantaría.\c"
+MSs013b061,"\h(«Aika»)¡Qué cofre del tesoro más complicado!
+A ver qué hay dentro. ¡Está cerrado con llave!
+No se puede abrir.\c"
+MSs013b062,"\h(«Aika»)¡Vaya, este jarrón debe de ser muy caro!
+Mejor no lo toco, por si acaso.
+Conociéndome, seguro que se me caería.\c"
+MSs013b063,"\h(«Aika»)¡Me sorprende lo seguro que está!
+Tiene muchas cerraduras. Vamos, que me está
+pidiendo a gritos: “¡Ábreme!”\c"
+MSs013b064,"\h(«Aika»)Mmm…… Algún tipo de pájaro dorado……
+Quizá de buena suerte para los negocios
+o algo así.\c"
+MSs013b065,"\h(«Aika»)¡Qué cojín tan bonito! El gato que está en la
+cabeza de la señora debe de ser el modelo.
+Le deben de gustar mucho los gatos.\c"
+MSs013b066,"\h(«Vyse»)Oh, casi se me olvida……\e"
+MSs013b067,"\h(«Vyse»)Antes de partir hacia la Isla del Daccat,
+debería advertirle al Rey de los planes de
+Valua.\c"
+MSs013b068,"\h(«Vyse»)¿Qué le pasa a este cuadro?
+¡Parece como si alguien se hubiera dedicado
+a dar brochazos!\c"
+MSs013b069,"\h(«Aika»)Sí, parecen pintarrajos, pero si lo miras
+un rato, empieza a tomar forma,
+pero no sé qué puede ser……\c"
+MSs013b070,"\h(«Vyse»)Mmm…… No se abre.
+Supongo que está cerrado con llave.\c"
+MSs013b071,"\h(«Aika»)No se abre.
+¿Estará cerrado con llave?\c"
+MFs013b000,"\h(«Vyse»)C'est une fontaine plutôt jolie.
+Il est bizarre de voir qu'ils utilisent l'eau de
+cette façon, sachant que c'est une denrée
+rare à Nasr.\c"
+MFs013b001,"\h(«Vyse»)L'eau est fraîche et claire.
+J'ai presque envie d'aller nager.
+Hé…… Ce serait un peu trop embarrassant.\c"
+MFs013b002,"\h(«Vyse»)Je me demande ce qu'il y a dans le tonneau ?
+Hé, des “condiments” fait maison ! J'espère
+qu'ils ne m'en voudront pas si je les goûte……\c"
+MFs013b003,\h(«Vyse»)“Menu du jour”……\e
+MFs013b004,"\h(«Vyse»)“Pâtes de passion pure”
+“Soupe de l'amour brûlant”
+…… Ça me gênerait de commander quelque chose
+ici.\c"
+MFs013b005,"\h(«Vyse»)C'est le palais royal devant. Il est
+complètement entouré d'eau. Il est difficile
+d'imaginer que c'était autrefois un royaume du
+désert……\c"
+MFs013b006,"\h( )“Profitez pleinement de la vie que vous méritez.
+Allez chez Osman la Prêteuse.”\c"
+MFs013b007,"\h(«Vyse»)Mmm… Ce loqua sent très bon ! On dirait que
+quelqu'un sait vraiment bien choisir les baies
+de Loqua !\c"
+MFs013b008,"\h(«Vyse»)Du poisson volant mariné dans de l'huile, des
+sardis rouges fumés……
+Ils ont toutes sortes de denrées alimentaires
+qui coûtent très chères ici.\c"
+MFs013b009,"\h(«Vyse»)Il est écrit qu'il y a du loqua de Valua dedans.
+Je suppose que Valua et Nasr préfèrent faire du
+commerce plutôt que d'être ennemis.\c"
+MFs013b010,"\h(«Vyse»)C'est un tamis bien fait.
+On dirait qu'il a été fabriqué par un maître
+artisan.\c"
+MFs013b011,"\h(«Vyse»)Hé, c'est une maquette miniature du palais.
+Elle est plutôt bien faite.
+Hmm…… J'ai presque envie de l'acheter.\c"
+MFs013b013,"\h(«Vyse»)“Tour d'observation du sommet.
+Laissez l'empreinte de votre main !”
+Je me demande si je peux avoir une bonne vue de
+Nasr de là-haut ?\c"
+MFs013b014,"\h(«Vyse»)Hé, comme c'est joli……
+Des fleurs flottent dans la fontaine.\c"
+MFs013b116,"\h(«Vyse»)Oh……
+On dirait qu'une femme se trouve dans cette
+pièce. Je devrais peut-être partir.\e"
+MFs013b117,"\h(«Vyse»)Mais, cette voix……
+Pourquoi semble-t-elle si familière ?\c"
+MFs013b016,"\h(«Vyse»)Ça, c'est une vieille boussole. Je n'en ai pas
+vues de semblables depuis des années ! Ils ne
+les fabriquent vraiment plus comme avant……\c"
+MFs013b017,"\h(«Vyse»)C'est un avis de recherche…… Hmm… Non, personne
+que je connais. Pour les pirates de l'air, c'est
+un honneur d'avoir sa tête mise à pris.\c"
+MFs013b018,"\h(«Vyse»)“Navigateur recherché……”
+“Carte au trésor à vendre……”
+Il y a toutes sortes d'annonces.\c"
+MFs013b019,"\h(«Vyse»)Oaouh…… Cette peinture du palais royal de nuit
+est vraiment très jolie.\c"
+MFs013b020,"\h(«Vyse»)“Une boisson d'homme ! Le goût du désert: Khale-
+Relik Loqua !”
+Hein ? Qui voudrait goûter au désert ?\c"
+MFs013b021,"\h( )“Des entremets préparés par nos chefs !
+Parfait pour un en-cas à tout moment de la
+journée !”\c"
+MFs013b022,"\h(«Vyse»)Alors, voilà à quoi ressemblent les tapis de
+Nasr.
+J'ai entendu dire qu'ils sont très chers.
+…… Je ne devrais peut-être pas le toucher.\c"
+MFs013b023,"\h(«Vyse»)Ils ont des épices en tout genre. Je me souviens
+que maman se servait aussi de toutes sortes
+d'épices…… Mais je ne crois pas que celles-ci
+soient les mêmes.\c"
+MFs013b025,"\h(«Vyse»)Haa !
+… Oh, c'est juste un mannequin. Il porte un
+costume traditionnel de Nasr……\c"
+MFs013b026,"\h(«Vyse»)C'est un tas d'armes et de munitions.
+Je ne peux pas croire qu'ils les laissent à la
+vue comme ça.\c"
+MFs013b027,"\h(«Vyse»)Hé, une longue épée de Nasr.
+Sa lame longue et dénudée est propre à cette
+partie du monde.\c"
+MFs013b028,"\h(«Vyse»)Ce coffre est de toute beauté !
+Je me fiche de ce qu'il contient…… son apparence
+m'attire davantage !\c"
+MFs013b029,"\h(«Vyse»)Voilà un vase qui a l'air très cher. Je me
+demande si les condiments préparés dans un vase
+comme celui-ci ont meilleur goût que ceux qui
+sont préparés dans un vase normal……\c"
+MFs013b030,"\h(«Vyse»)Voici un coffre-fort impressionnant……
+J'ai presque envie de le forcer, mais je ne
+devrais pas voler les civils.\c"
+MFs013b031,"\h(«Vyse»)Voici l'image d'une sorte d'oiseau doré. Je n'ai
+jamais rien vu de pareil…… Je me demande
+d'où elle vient.\c"
+MFs013b032,"\h(«Vyse»)Le signe…… les coussins……
+Quelqu'un doit vraiment aimer les chats.\c"
+MFs013b033,"\h(«Aika»)Oaouh, quelle fontaine magnifique !
+C'est tellement bizarre de trouver une fontaine
+pareille au milieu du désert.\c"
+MFs013b034,"\h(«Aika»)L'eau est si fraîche et si claire !
+Je peux peut-être retirer mes bottes et
+patauger…… ou…… non peut-être pas.\c"
+MFs013b035,"\h(«Aika»)Hé, des condiments !
+Personne ne regarde…… Hé, je pourrais peut-être
+y goûter…… Mmm…… Délicieux !\c"
+MFs013b036,\h(«Aika»)“Menu du jour……”\e
+MFs013b037,"\h(«Aika»)“Steak de désert au clair de lune”
+“Prince sur une salade de Dhabu”
+…… Ces noms sont tellement romantiques !!\c"
+MFs013b038,"\h(«Aika»)Oh, voilà donc le palais royal de Nasr.
+Un palais flottant……
+C'est presque comme dans un conte de fées.\c"
+MFs013b039,"\h( )“Profitez pleinement de la vie que vous méritez.
+Allez chez Osman la Prêteuse.”\c"
+MFs013b040,"\h(«Aika»)Ce loqua sent si bon ! Je me demande qui l'a
+préparé ? Je parie qu'ils adoreraient en boire
+un verre au pays……\c"
+MFs013b041,"\h(«Vyse»)Du poisson volant mariné dans de l'huile, des
+sardis rouges fumés……
+Tout ça semble tellement bon……\c"
+MFs013b042,"\h(«Aika»)Du loqua de Valua, hein ?
+Je parie que c'est très difficile de se procurer
+du loqua Valuan à Nasr. C'est donc probablement
+très cher.\e"
+MFs013b043,"\h(«Aika»)Ce tamis est joli !
+Il semble également assez solide.
+J'en veux un !\c"
+MFs013b045,"\h(«Aika»)“Leçons de danse de Nasr:
+Apprenez les danses traditionnelles du désert”
+Um…… Je ne crois pas avoir le temps.\c"
+MFs013b046,"\h(«Vyse»)“Tour d'observation du sommet. Laissez
+l'empreinte de votre main !”
+Je me demande si je peux voir tout Nasr de là
+haut ?\c"
+MFs013b047,"\h(«Aika»)Hé, comme c'est beau……
+Des fleurs flottent dans la fontaine.\c"
+MFs013b048,"\h(«Fina»)Aika, je ne crois pas que ce soit vraiment poli
+d'entrer chez les gens comme ça.\e"
+MFs013b149,"\h(«Aika»)Oh, désolée !
+Oui, je ne devrais pas faire irruption comme ça.
+Mauvaise habitude !\c"
+MFs013b049,"\h(«Aika»)Cette boussole semble plutôt vieille.
+Vyse adore regarder les trucs comme ça……\c"
+MFs013b050,"\h(«Aika»)C'est un avis de recherche.
+Il ne semble pas y en avoir pour Vyse……
+Je ne sais pas si c'est bon ou mauvais signe……\e"
+MFs013b051,"\h(«Vyse»)“Navigateur recherché……”
+“Carte au trésor à vendre……”
+Il y a toutes sortes d'annonces.\c"
+MFs013b052,"\h(«Aika»)Une vue nocturne du palais royal, hein ?
+C'est plutôt romantique……\c"
+MFs013b053,"\h(«Aika»)“Une boisson d'hommes !
+Le goût du désert-- Khale-Relik Loqua !”
+…… Beurk ! Non merci.\c"
+MFs013b054,"\h( )“Des entremets préparés par nos chefs !
+Parfait pour un en-cas à tout moment de la
+journée !”\c"
+MFs013b055,"\h(«Aika»)Oh, voici un de ces tapis de Nasr qui sont hors
+de prix. Je ne pourrais vraiment pas m'en payer
+un.\c"
+MFs013b056,"\h(«Aika»)Il y a toutes sortes d'épices. Je parie que si
+je pouvais toutes les utiliser, je serais un
+très bon cuisinier.
+Mais cela reste à voir……\c"
+MFs013b057,"\h(«Aika»)Il y a un…… truc séché. C'est quoi ce truc ?
+Je n'ai jamais rien vu de pareil……\c"
+MFs013b058,"\h(«Aika»)Haah!
+…Oh, c'est juste un mannequin. Il est revêtu de
+vêtements Nasrean…… Qu'est-ce qu'il m'a fait
+peur.\c"
+MFs013b059,"\h(«Aika»)Des armes et des munitions……
+Elles sont entassées en pagaille.\c"
+MFs013b060,"\h(«Aika»)Oaouh, ça c'est une belle épée ! J'aimerais bien
+avoir assez d'argent pour l'offrir à Vyse…… Je
+suis sûre qu'il aimerait beaucoup quelque chose
+comme ça……\c"
+MFs013b061,"\h(«Aika»)Oaouh, quel coffre sophistiqué !
+Voyons ce qu'il contient……
+Oh oh…… Il est verrouillé. Il ne s'ouvre pas.\c"
+MFs013b062,"\h(«Aika»)Oaouh, ce vase a l'air cher.
+Il vaudrait mieux que je ne le touche pas, juste
+au cas où. Me connaissant, je pourrais le faire
+tomber.\c"
+MFs013b063,"\h(«Aika»)Voilà un coffre-fort assez impressionnant !
+Il a tellement de serrures……
+Il me crie: “Ouvre-moi !”\c"
+MFs013b064,"\h(«Aika»)Hmm… Une sorte d'oiseau doré……
+C'est peut-être un porte-bonheur pour le
+commerce, ou quelque chose comme ça.\c"
+MFs013b065,"\h(«Aika»)Quel joli coussin !
+Le chat sur la tête de la dame doit être le
+modèle. Elle doit vraiment aimer les chats.\c"
+MFs013b066,"\h(«Vyse»)Oh, j'ai presque oublié……\e"
+MFs013b067,"\h(«Vyse»)Avant de partir à la recherche de l'île de
+Daccat, je devrais avertir le roi au sujet des
+projets de Valua.\c"
+MFs013b068,"\h(«Vyse»)C'est quoi cette peinture ?
+On dirait que quelqu'un vient juste de donner
+des coups de pinceau au hasard !\c"
+MFs013b069,"\h(«Aika»)On dirait des coups de pinceau portés au hasard,
+mais si on regarde bien, ça représente quelque
+chose…… Je ne sais pas trop quoi……\c"
+MFs013b070,"\h(«Vyse»)Hmm…… Elle ne s'ouvre pas.
+Elle doit être fermée à clé.\c"
+MFs013b071,"\h(«Aika»)Elle ne s'ouvre pas.
+Est-elle fermée à clé ?\c"
+MGs013b000,"\h(«Vyse»)Das ist ein ganz schöner Springbrunnen.
+Es ist verwunderlich, sie so mit Wasser
+umgehen zu sehen, wo es doch so
+knapp in Nasr ist.\c"
+MGs013b001,"\h(«Vyse»)Es ist kaltes, klares Wasser.
+Möchte fast eine Runde schwimmen.
+Heh…… Das wäre ein bisschen zu peinlich.\c"
+MGs013b002,"\h(«Vyse»)Ich frage mich, was in dem Fass ist?
+Hey, hausgemachte Pickles! Hoffe, sie haben
+nichts dagegen, wenn ich mal probiere……\c"
+MGs013b003,\h(«Vyse»)“Das heutige Mittagsmenü…… ”\e
+MGs013b004,"\h(«Vyse»)“Pasta von Reiner Leidenschaft”
+“Dampfende Liebessuppe”
+…… Wäre mir zu peinlich, hier etwas
+zu bestellen.\c"
+MGs013b005,"\h(«Vyse»)Das da vorne ist der Königliche Palast.
+Er ist ganz von Wasser umgeben. Man kann
+sich kaum vorstellen, dass dies ein
+Wüstenkönigreich war……\c"
+MGs013b006,"\h( )“Genieße ein komfortables Leben,
+so wie du es verdienst. Hier geht es
+zu Osmans Darlehen.”\c"
+MGs013b007,"\h(«Vyse»)Mmm…… Dieses Loqua riecht klasse! Sieht
+ganz so aus, als wüsste hier jemand
+seine Loquat Beeren richtig zu pflücken!\c"
+MGs013b008,"\h(«Vyse»)Fliegender Fisch in Öl, geräucherte Rote
+Sardis…… Die haben alle möglichen teuren
+Lebensmittel hier.\c"
+MGs013b009,"\h(«Vyse»)Hier steht, dass valuanischer Loqua drin ist.
+Schätze, Handel ist für beide, Valua
+und Nasr, wichtiger als die Feindschaft.\c"
+MGs013b010,"\h(«Vyse»)Das ist ein hochwertiges Sieb.
+Sieht aus, als sei es von einem Meister
+unter den Handwerkern hergestellt worden.\c"
+MGs013b011,"\h(«Vyse»)Hey, das ist eine Miniatur des Palastes.
+Sie ist ziemlich gut.
+Hmm…… würde sie am liebsten kaufen.\c"
+MGs013b012,"\h(«Vyse»)“Nasr-Tanzstunden:
+Lernen Sie die traditionellen Tänze der Wüste”
+Frage mich, ob Belleza hier tanzen gelernt hat?\c"
+MGs013b013,"\h(«Vyse»)“Aussichtsturm oben. Hinterlasse deinen
+Handabdruck!” Ob ich von da oben eine
+gute Ausicht über Nasrad habe?\c"
+MGs013b014,"\h(«Vyse»)Na, das sieht schön aus……
+Blumen schwimmen auf dem Springbrunnen.\c"
+MGs013b116,"\h(«Vyse»)Uups……
+Klingt so, als sei eine Frau hier im Raum.
+Ich sollte den Raum besser nicht betreten.\e"
+MGs013b117,"\h(«Vyse»)Aber diese Stimme……
+Warum klingt sie so vertraut?\c"
+MGs013b016,"\h(«Vyse»)Na, das ist ein alter Kompass. Habe seit
+Jahren keinen mehr gesehen wie diesen!
+Die stellen die wirklich nicht mehr so her wie……\c"
+MGs013b017,"\h(«Vyse»)Das ist ein Steckbrief…… Hmm……  Nee,
+niemand, den ich kenne. Für Luftpiraten ist es
+eine Prestigefrage, einen Preis auf den eigenen
+Kopf ausgesetzt zu wissen.\c"
+MGs013b018,"\h(«Vyse»)“Navigator gesucht…… ”
+“Schatzkarte zum Verkauf…… ”
+Es gibt alle möglichen Anzeigen.\c"
+MGs013b019,"\h(«Vyse»)Wow…… Dieses Bild vom nächtlichen Königlichen
+Palast ist wirklich schön.\c"
+MGs013b020,"\h(«Vyse»)“Ein richtiges Getränk für einen
+richtigen Mann! Der Geschmack der
+Wüste, Khale-Relik-Loqua!”
+Huh? Wer will schon Wüste probieren?\c"
+MGs013b021,"\h( )“Kuchen, von unseren Chefköchen gebacken!
+Perfekt für einen leichten Snack, zu jeder
+Tageszeit!”\c"
+MGs013b022,"\h(«Vyse»)So sehen also nasrische Teppiche aus.
+Ich habe gehört, dass sie sehr teuer sind.
+…… Vielleicht sollte ich ihn gar nicht berühren.\c"
+MGs013b023,"\h(«Vyse»)Die haben alle möglichen Sorten von Gewürzen.
+Ich erinnere mich, dass Mutter auch viele
+verschiedene Gewürze brauchte…… Glaube
+allerdings, dass es nicht dieselben sind.\c"
+MGs013b024,"\h(«Vyse»)Ich frage mich, was das für ein Zeug ist……
+Es riecht ein bisschen wie Medizin. Vielleicht
+vermischen sie das mit Kräutern und so, um
+Medizin herzustellen?\c"
+MGs013b025,"\h(«Vyse»)Huch!
+…… Oh, es ist nur ein Puppe. Sie ist
+in ein traditionelles nasrisches Gewand
+gekleidet……\c"
+MGs013b026,"\h(«Vyse»)Ein Haufen Waffen und Munition.
+Ich kann nicht fassen, dass sie die einfach
+so liegen lassen.\c"
+MGs013b027,"\h(«Vyse»)Hey, ein nasrisches Langschwert.
+Seine lange, ungeschützte Klinge ist in
+diesem Teil der Welt einzigartig.\c"
+MGs013b028,"\h(«Vyse»)Diese Schatzruhe ist wünderschön!
+Ist mir egal, was drin ist…… Möchte
+es nur wegen der Truhe mitnehmen!\c"
+MGs013b029,"\h(«Vyse»)Der Krug sieht teuer aus. Ich frage mich, ob
+Pickles, die in einem solchen Krug gemacht
+werden, besser schmecken als Pickles
+aus einem normalen Krug……\c"
+MGs013b030,"\h(«Vyse»)Das ist ein imposanter Safe……
+Ich hätte fast Lust, auszuprobieren, ob
+ich ihn knacken kann. Ich sollte allerdings
+keine Zivilisten bestehlen.\c"
+MGs013b031,"\h(«Vyse»)Es ist ein Bild mit irgendeinem
+goldenen Vogel drauf. Ich habe noch nie
+so ein Ding vorher gesehen……
+Wo das wohl herkommt?\c"
+MGs013b032,"\h(«Vyse»)Das Zeichen…… Die Kissen……
+Jemand mag hier wirklich Katzen.\c"
+MGs013b033,"\h(«Aika»)Wow, was für ein schöner
+Springbrunnen! Es ist komisch, dass es einen
+Springbrunnen wie diesen mitten in der
+Wüste gibt.\c"
+MGs013b034,"\h(«Aika»)Das Wasser ist so kühl und klar!
+Vielleicht kann ich meine Stiefel ausziehen
+und ein bisschen rumplantschen.
+…… Vielleicht auch nicht.\c"
+MGs013b035,"\h(«Aika»)Hey, Pickles!
+Niemand guckt……  Heh, vielleicht
+probiere ich einfach mal……  Mmm! Gut!\c"
+MGs013b036,\h(«Aika»)“Das heutige Mittagsmenü…… ”\e
+MGs013b037,"\h(«Aika»)“Romantisches, mondbeschienenes Wüsten-Steak”
+“Prinz mit Dhabu Salat”
+…… Diese Namen sind so romantisch!!\c"
+MGs013b038,"\h(«Aika»)Oh, das ist also der Königliche Palast
+von Nasr. Ein Palast, der auf dem Wasser
+schwimmt…… Fast wie im Märchen.\c"
+MGs013b039,"\h( )“Genieße das komfortable Leben,
+das du verdienst. Hier geht's zu Osmans
+Darlehen.”\c"
+MGs013b040,"\h(«Aika»)Dieser Loqua riecht so gut! Ich frage
+mich, wer ihn gemacht hat? Wette, die
+Jungs zu Hause hätten liebend gern
+ein Glas von diesem Zeug……\c"
+MGs013b041,"\h(«Vyse»)Fliegender Fisch in Öl, geräucherte
+Rote Sardis…… Das klingt alles so gut……\c"
+MGs013b042,"\h(«Aika»)Valuanischer Loqua, huh?
+Ich wette, es ist schwer, valuanischen
+Loqua hier in Nasr zu bekommen, deshalb
+ist's wahrscheinlich richtig teuer.\c"
+MGs013b043,"\h(«Aika»)Dieses Sieb ist süß!
+Es sieht außerdem ziemlich robust
+aus. Ich möchte eins!\c"
+MGs013b044,"\h(«Aika»)Das ist ein Modell vom Königlichen
+Palast von Nasr! Wer es auch immer
+hergestellt hat, war ein großer Künstler!
+Ich wünschte, ich könnte so etwas machen!\c"
+MGs013b045,"\h(«Aika»)“Nasr Tanzunterricht:
+Lernen Sie die traditionellen Tänze der Wüste”
+Um…… Schätze, habe wirklich nicht die Zeit.\c"
+MGs013b046,"\h(«Aika»)“Aussichtsturm oben. Hinterlasse deinen
+Handabdruck!”
+Ob ich von da oben einen Blick
+auf ganz Nasrad habe?\c"
+MGs013b047,"\h(«Aika»)Wie schön!
+Blumen schwimmen auf dem Springbrunnen!\e"
+MGs013b048,"\h(«Fina»)Ich finde, es ist nicht gerade
+freundlich, einfach in fremde Zimmer
+zu gehen, Aika.\e"
+MGs013b149,"\h(«Aika»)Oh, Entschuldige!
+Ja, ich sollte nicht einfach
+hereinplatzen. Schlechte Angewohnheit!\c"
+MGs013b049,"\h(«Aika»)Dieser Kompass sieht ziemlich
+alt aus. Vyse liebt es, sich so ein
+Zeug anzusehen……\c"
+MGs013b050,"\h(«Aika»)Das ist ein Steckbrief.
+Sieht nicht so aus, als hätten sie
+einen von Vyse…… Weiß nicht,
+ob das gut oder schlecht ist……\c"
+MGs013b051,"\h(«Aika»)“Navigator gesucht…… ”
+“Schatzkarte zum Verkauf…… ”
+Es gibt alle möglichen Anzeigen hier.\c"
+MGs013b052,"\h(«Aika»)Eine nächtliche Ansicht des
+Königlichen Palastes, hm?
+Irgendwie romantisch……\c"
+MGs013b053,"\h(«Aika»)“Ein richtiges Getränk für einen richtigen Mann!
+Der Geschmack der Wüste-- Khale-Relik Loqua!”
+…Uhh. Nein Danke.\c"
+MGs013b054,"\h( )“Kuchen von unseren Chefköchen gebacken!
+Perfekt für einen leichten Snack, zu jeder
+Tageszeit!”\c"
+MGs013b055,"\h(«Aika»)Oh, das ist einer dieser richtig teuren Nasr
+Teppiche. Könnte mir keinen leisten.\c"
+MGs013b056,"\h(«Aika»)Alle möglichen Sorten von Gewürzen. Wette,
+wenn ich die alle richtig gebrauchen könnte,
+dann wäre ich eine verdammt gute Köchin.
+Allerdings ein großes WENN……\c"
+MGs013b057,"\h(«Aika»)Getrocknetes…… Zeug. Was ist
+das für ein Zeug? Ich habe, glaub' ich, noch
+nie so ein Zeug gesehen……\c"
+MGs013b058,"\h(«Aika»)Yaah!
+…… Oh, es ist nur eine Puppe.
+Sie trägt nasrische Kleider……
+Sie hat mich ganz schön erschrocken.\c"
+MGs013b059,"\h(«Aika»)Waffen und Munition……
+Es ist hier alles wahllos aufgehäuft.\c"
+MGs013b060,"\h(«Aika»)Wow, was für ein schönes Schwert!
+Ich wünschte ich hätte das Geld, um es
+für Vyse zu kaufen…… Bin mir
+sicher, dass er so etwas mögen würde……\c"
+MGs013b061,"\h(«Aika»)Wow, was für eine feine Schatzkiste!
+Lass mal sehen, was drin ist……
+Oops…… Sie ist verschlossen.
+Sie lässt sich nicht öffnen.\c"
+MGs013b062,"\h(«Aika»)Wow, diese Vase sieht teuer aus.
+Ich berühre sie besser nicht, vorsichtshalber.
+Wie ich mich kenne, würde ich sie
+wahrscheinlich fallen lassen.\c"
+MGs013b063,"\h(«Aika»)Das ist ein ziemlich imposanter Safe!
+Er hat jede Menge Schlösser……
+Er schreit nur so, “Öffne mich!”\c"
+MGs013b064,"\h(«Aika»)Hmm…… Eine Art goldener Vogel……
+Vielleicht soll er dem Handel Glück
+bescheren oder so etwas.\c"
+MGs013b065,"\h(«Aika»)Was für ein süßes Kissen!
+Die Katze auf dem Kopf der Dame scheint
+das Modell dafür zu sein. Sie muss Katzen
+wirklich mögen.\c"
+MGs013b066,"\h(«Vyse»)Oh, fast hätte ich vergessen……\e"
+MGs013b067,"\h(«Vyse»)Bevor wir nach Daccat's Island suchen,
+sollte ich den König vor Valuas Plänen warnen.\c"
+MGs013b068,"\h(«Vyse»)Was ist mit diesem Bild los?
+Sieht so aus, als hätte jemand ganz
+zufällige Pinselstriche gemacht!\c"
+MGs013b069,"\h(«Aika»)Sieht aus wie zufällige Pinselstriche,
+aber wenn du es dir länger anschaust,
+beginnt es nach etwas auszusehen……
+ich weiß nur nicht was……\c"
+MGs013b070,"\h(«Vyse»)Hmm…… Es lässt sich nicht öffnen.
+Ist wohl abgeschlossen.\c"
+MGs013b071,"\h(«Aika»)Es lässt sich nicht öffnen.
+Ist es etwa abgeschlossen?\c"
+"",a013a01.mld
+"",a013a00.mld
+"",me013b.sct
+"",M0238
+"",M5130000
+"",k8000005
+"",EV_F15発生しました。\c
+"",a013af15.mld
+"",a013af15.mld
+"",M0238
+"",e6f015
+"",a013af15.mld
+"",EVF25発生しました。\c
+"",M0238
+"",e6f025
+"",a013af25.mld
+"",a013af25.mld
+"",EVF26発生しました。\c
+"",M0238
+"",e6f026
+"",a013af26.mld
+"",a013af26.mld
+"",EVF39発生しました。\c
+"",a013af39.mld
+"",M0238
+"",e6f039
+"",a013af39.mld

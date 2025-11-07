@@ -1,0 +1,238 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MA5350000,"\h(«Fina»)Yeligar… Ancient records say its thunder tore
+open the skies themselves, and its roar
+shook the ground.\e"
+MA5350001,"\h(«Aika»)Whoa…
+It doesn't sound like a very friendly Gigas…
+Vyse, we should be extra careful!!\c"
+MA5350002,"\h(«Aika»)It looks kinda flat… Maybe we should try
+attacking from above or below!
+It might be easier to hit that way.\e"
+MA5350003,"\h(«What will you do?»)“Try attacking it from above.”
+“Try attacking it from below.”\e"
+MA5350004,"\h(«Vyse»)Let's try attacking it from above!
+Increasing altitude…\c"
+MA5350005,"\h(«Vyse»)Let's try attacking it from underneath…
+Maybe it's underside is softer than
+the rest of it…\c"
+MA5350006,"\h(«Vyse»)Damn…
+Not a single weakpoint…\e"
+MA5350007,"\h(«Aika»)Um… More importantly… is it just me or does
+that thing look a little more… active? Is the
+seal weakening on it or something?\e"
+MA5350008,"\h(«Enrique»)Perhaps… But whatever the reason, it appears
+to be building up for some sort of attack.\e"
+MA5350009,"\h(«Aika»)I wish there was some way we could knock it off
+balance like we've done with all the other
+Gigas, but it's just too big!\e"
+MA5350010,"\h(«Aika»)Anything short of the Moon Stone Cannon probably
+won't even make that thing budge!\c"
+MA5350011,"\h(«Aika»)Alright!
+That did it! It's off balance!\e"
+MA5350012,"\h(«Vyse»)Haha! Leave it to the Moon Stone Cannon!
+Alright, everyone… now's our chance!
+Open fire!!!\c"
+MA5350013,"\h(«Aika»)A direct hit with the Moon Stone Cannon!
+The Yeligar is off balance again!\c"
+MA5350014,\h(«Enrique»)Th… that attack! Its power is unbelievable…\e
+MA5350015,"\h(«Fina»)Be careful, everyone! Yeligar looks ready to
+attack again! It's not going to let up…\e"
+MA5350016,"\h(«Aika»)Great… We didn't knock it off balance and now
+we're stuck in its attack pattern. Alright,
+everyone… brace for impact…\c"
+MA5350017,"\h(«Aika»)Oh great! We couldn't fire the Moon Stone
+Cannon in time to knock it off balance and now
+Yeligar's going to attack! Here it comes…\c"
+MA5350018,\h(«Aika»)Vyse… what now? Orders please!\e
+MA5350019,"\h(«What will you do?»)“Pursue and attack.”
+“Stay back and see what Yeligar does.”\c"
+MFA5350000,"\h(«Fina»)Yeligar…… Les écrits anciens racontent que son
+tonnerre a déchiré les cieux, et son grondement
+a fait trembler le sol.\e"
+MFA5350001,"\h(«Aika»)Ouah……
+Il n'a pas l'air très sympathique ce Giga……
+Vyse, il vaut mieux être très prudents !!\c"
+MFA5350002,"\h(«Aika»)Il a l'air un peu plat……
+Nous devrions peut-être essayer de l'attaquer
+par en-haut ou par en-bas !
+Ce sera peut-être plus facile de tirer.\e"
+MFA5350003,"\h(«Que ferez-vous ?»)“Essayer d'attaquer par en-haut.”
+“Essayer d'attaquer par en-bas.”\e"
+MFA5350004,"\h(«Vyse»)Essayons d'attaquer par en-haut !
+Augmentation de l'altitude……\c"
+MFA5350005,"\h(«Vyse»)Essayons d'attaquer par dessous……
+Peut-être qu'il est plus mou dessous
+qu'ailleurs……\c"
+MFA5350006,"\h(«Vyse»)Zut alors……
+Pas un seul point faible……\e"
+MFA5350007,"\h(«Aika»)Um…… Mais plus important…… est-ce mon
+imagination ou bien il a l'air un peu plus……
+actif ?
+Est-ce que le scellé s'affaiblit ?\e"
+MFA5350008,"\h(«Enrique»)Peut-être…… Mais quelle qu'en soit la raison,
+il semble prendre des forces comme pour passer à
+l'attaque.\e"
+MFA5350009,"\h(«Aika»)J'aimerais qu'il y ait un moyen de lui faire
+perdre l'équilibre comme nous l'avons fait avec
+les autres Gigas, mais il est trop gros !\e"
+MFA5350010,"\h(«Aika»)Une arme moins puissante que le Canon Pierre de
+Lune ne réussira pas à faire bouger cette
+créature !\c"
+MFA5350011,"\h(«Aika»)Formidable !
+Cela a marché ! Il a perdu l'équilibre !\e"
+MFA5350012,"\h(«Vyse»)Haha ! Laissez faire le Canon Pierre de Lune !
+Allez tout le monde…… c'est notre chance !
+Ouvrez le feu !!!\c"
+MFA5350013,"\h(«Aika»)Un coup direct avec le Canon Pierre de Lune !
+Le Yeligar a encore perdu l'équilibre !\c"
+MFA5350014,"\h(«Enrique»)C…… cette attaque !
+Son pouvoir est incroyable……\e"
+MFA5350015,"\h(«Fina»)Soyez tous prudents ! Yeligar a l'air prêt à
+attaquer de nouveau ! Il ne va pas abandonner……\e"
+MFA5350016,"\h(«Aika»)Génial…… Nous n'avons pas réussi à lui faire
+perdre l'équilibre et en plus il ne cesse de
+nous attaquer.
+Allez, préparez-vous tous à l'impact……\c"
+MFA5350017,"\h(«Aika»)Oh génial ! Nous n'avons pas pu tirer le Canon
+Pierre de Lune à temps pour lui faire perdre
+l'équilibre et maintenant le Yeligar va
+attaquer ! Le voilà……\c"
+MFA5350018,"\h(«Aika»)Vyse…… Et maintenant ? Des ordres s'il te
+plaît !\e"
+MFA5350019,"\h(«Que ferez-vous ?»)“Continuer à attaquer.”
+“Rester à l'écart pour voir sa réaction.”\c"
+MGA5350000,"\h(«Fina»)Yeligar…… in den alten Schriften steht
+geschrieben, dass sein Donner die Himmel
+öffnete und sein Gebrüll den Boden erbeben ließ.\e"
+MGA5350001,"\h(«Aika»)Du meine Güte……
+Das hört sich nicht wie ein sehr freundlicher
+Gigas an…… Vyse, wir sollten uns besonders
+vorsehen!!\c"
+MGA5350002,"\h(«Aika»)Er sieht ziemlich flach aus…… vielleicht
+sollten wir ihn von oben oder unten angreifen!
+Auf diese Weise ist es vielleicht einfacher,
+einen Treffer zu erzielen.\e"
+MGA5350003,"\h(«Was wirst du tun?»)“Versuchen, ihn von oben anzugreifen.”
+“Versuchen, ihn von unten anzugreifen.”\e"
+MGA5350004,"\h(«Vyse»)Versuchen wir, ihn von oben anzugreifen!
+Höher steigen……\c"
+MGA5350005,"\h(«Vyse»)Versuchen wir, ihn von unten zu kriegen……
+Vielleicht ist seine Unterseite weicher als
+der Rest seines Körpers……\c"
+MGA5350006,"\h(«Vyse»)Verdammt……
+Nicht ein einziger Schwachpunkt……\e"
+MGA5350007,"\h(«Aika»)Em…… was noch schlimmer ist…… ist es nur mein
+Eindruck, oder sieht dieses Ding jetzt……
+aktiver aus? Löst sich etwa das Siegel?\e"
+MGA5350008,"\h(«Enrique»)Vielleicht…… aber was auch immer der Grund ist,
+er scheint sich auf eine Art Angriff bereit
+zu machen.\e"
+MGA5350009,"\h(«Aika»)Ich wünschte, wir könnten ihn irgendwie aus
+dem Gleichgewicht bringen, so wie wir es
+mit all den anderen Gigas gemacht haben,
+aber er ist einfach zu groß!\e"
+MGA5350010,"\h(«Aika»)Ich glaube, nichts außer der Moon Stone Cannon
+kann an diesem Ding rütteln!\c"
+MGA5350011,"\h(«Aika»)Ja!
+Wir haben es geschafft! Es ist aus dem
+Gleichgewicht geraten!\e"
+MGA5350012,"\h(«Vyse»)Haha! Überlasst es der Moon Stone Cannon!
+Ok, alle Mann…… das ist unsere Chance!
+Eröffnet das Feuer!!!\c"
+MGA5350013,"\h(«Aika»)Ein direkter Treffer mit der Moon Stone Cannon!
+Der Yeligar ist wieder umgekippt!\c"
+MGA5350014,"\h(«Enrique»)Di…… dieser Angriff! Seine Kraft ist einfach
+unglaublich……\e"
+MGA5350015,"\h(«Fina»)Vorsicht, allerseits! Yeligar scheint wieder
+zum Angriff bereit! Er gibt nicht auf……\e"
+MGA5350016,"\h(«Aika»)Toll…… wir haben ihn nicht aus dem
+Gleichgewicht bringen können, und jetzt
+befinden wir uns in seiner Angriffslinie.
+Alle Mann…… bereit für den Angriff……\c"
+MGA5350017,"\h(«Aika»)Na toll! Wir konnten die Moon Stone Cannon
+nicht rechtzeitig abfeuern, um ihn aus dem
+Gleichgewicht zu bringen, und jetzt greift
+uns Yeligar an! Da kommt er……\c"
+MGA5350018,\h(«Aika»)Vyse…… was jetzt? Bitte deine Befehle!\e
+MGA5350019,"\h(«Was wirst du tun?»)“Verfolgen und angreifen.”
+“Dich zurückhalten und abwarten, was er macht.”\c"
+MSA5350000,"\h(«Fina»)Yeligar……  Los libros antiguos hablan de un
+trueno que abre los cielos por la mitad con un
+rugido que hace temblar la tierra.\e"
+MSA5350001,"\h(«Aika»)Caray……
+No parece un Gigas muy amistoso……
+Vyse, ¡¡tenemos que andar con mucho cuidado!!\c"
+MSA5350002,"\h(«Aika»)Tiene una forma plana…… ¡Deberíamos intentar
+atacar por arriba o por abajo!
+A lo mejor así es más fácil acertar.\e"
+MSA5350003,"\h(«¿Qué vas a hacer?»)“Atacarle desde arriba.”
+“Atacarle desde abajo.”\e"
+MSA5350004,"\h(«Vyse»)¡Vamos a intentar atacar por arriba!
+Aumentando altitud……\c"
+MSA5350005,"\h(«Vyse»)Vamos a intentar atacar desde abajo……
+Quizá sea más vulnerable por debajo……\c"
+MSA5350006,"\h(«Vyse»)Maldición……
+Ni un solo punto débil……\e"
+MSA5350007,"\h(«Aika»)Um…… Todavía peor…… ¿es cosa mía o ese bicho se
+está volviendo más…… activo? ¿Es que se está
+debilitando el sellado que le contiene?\e"
+MSA5350008,"\h(«Enrique»)Es posible……
+Pero sea lo que sea, debe estar preparando
+algún tipo de ataque.\e"
+MSA5350009,"\h(«Aika»)¡Ojalá pudiéramos encontrar el modo de hacerle
+perder el equilibrio, como hemos hecho con el
+resto de los Gigas! ¡Pero es demasiado grande!\e"
+MSA5350010,"\h(«Aika»)¡Necesitamos como mínimo algo con la potencia
+del Cañón Mágico para conseguir que ese bicho se
+inmute!\c"
+MSA5350011,"\h(«Aika»)¡Muy bien!
+¡Lo hemos conseguido! ¡Ha perdido el equilibrio!\e"
+MSA5350012,"\h(«Vyse»)¡Ja, ja! ¡Esto es cosa del Cañón Piedraluna!
+Vamos todos…… ¡Es nuestra oportunidad!
+¡¡¡Fuego!!!\c"
+MSA5350013,"\h(«Aika»)¡Acierto directo con el Cañón Lunar!
+¡El Yeligar ha perdido el equilibrio otra vez!\c"
+MSA5350014,"\h(«Enrique»)¡Ese…… ese ataque!
+Qué poder tan impresionante……\e"
+MSA5350015,"\h(«Fina»)¡Tened mucho cuidado todos!
+¡Yeligar está listo para atacar otra vez!
+Seguro que no se va a rendir……\e"
+MSA5350016,"\h(«Aika»)Genial…… No le hemos hecho perder el equilibrio
+y, para colmo, se nos viene encima
+su ataque. Preparados para el impacto……\c"
+MSA5350017,"\h(«Aika»)¡Genial! ¡No hemos disparado el Cañón
+Piedraluna a tiempo para que Yeligar pierda
+el equilibrio, y ahora nos ataca! Ahí va……\c"
+MSA5350018,\h(«Aika»)Vyse…… ¿y ahora qué? ¡Di algo!\e
+MSA5350019,"\h(«¿Qué vas a hacer?»)“Perseguir y atacar.”
+“Retroceder y esperar a qua actúe Yeligar.”\c"
+"",M0465
+"",me535a.sct
+"",me090a.sct
+"",f7100103s.p04
+"",f7100100s.p04
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",f7100053s.p04
+"",b2700.mld
+"",b2700.mld
+"",f3000017
+"",b2700.mld
+"",b2701.mld
+"",b2701.mld
+"",f3000018
+"",b2701.mld
+"",b2702.mld
+"",b2702.mld
+"",b2702.mld
+"",me244a.sct

@@ -1,0 +1,36 @@
+[Event Name],Task ID
+MA0170000,"\h(«Valuan Soldier»)Lord Galcian.
+As you ordered, I brought the girl to 
+see you.\e"
+MA0170001,"\h(«Galcian»)Excellent.
+You may leave.\e"
+MA0170002,\h(«Valuan Soldier»)As you wish…\e
+MA0170003,"\h(«Galcian»)At last we meet… Fina.
+You cannot imagine how much trouble the Armada
+has gone through to find you.\e"
+MA0170004,"\h(«Fina»)…!
+How did you know my name?\e"
+MA0170005,"\h(«Galcian»)I am Galcian, the Sworn Protector of 
+Valua and Supreme Commander of the 
+Imperial Armada.\e"
+MA0170006,"\h(«Galcian»)I am under direct orders from Her 
+Royal Highness, Empress Teodora, to 
+find you and bring you back to Valua.\e"
+MA0170007,"\h(«Galcian»)As a citizen of the Silver Civilization,
+you have information that is useful to us.
+Will you help us?\e"
+MA0170008,\h(«Fina»)……\e
+MA0170009,"\h(«Galcian»)I see.
+I did not expect you to help us 
+without the proper motivation.\e"
+MA0170010,"\h(«Galcian»)However… I believe we have the same goals. So,
+wouldn't it be best for us to help each other?\e"
+MA0170011,\h(«Fina»)……\e
+MA0170012,\h(«Galcian»)…We will reach Valua in half a day.\e
+MA0170013,\h(«Galcian»)Enjoy the comforts of the brig until then.\e
+"",me002b.sct
+"",EVa17発生しました。\c
+"",a213aa17.mld
+"",e6a017
+"",M0313
+"",a217aa17.mld

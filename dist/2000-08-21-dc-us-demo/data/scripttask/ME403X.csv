@@ -1,0 +1,64 @@
+[Event Name],Task ID
+MC0010005,"\h(《Aika》)Phew, we made it through safely.
+It feels almost like we passed
+through some sort of checkpoint.\e"
+MC0010006,"\h(《Vyse》)Yeah.
+We finally made it to Valua.
+Now all we have to do is sneak in…\e"
+MC0010007,\h(《Vyse》)…！\e
+MC0010008,"\h(《Aika》)What…
+What is that!?\e"
+MC0010009,"\h(《Drachma》)That is the only
+entrance to Valua…
+It’s the “Grand Fortress”.\e"
+MC0010010,"\h(《Drachma》)One must pass through that
+fortress to enter the mountainous
+lands of Valua. \e"
+MC0010011,"\h(《Vyse》)Wow…
+How did they ever make that?\e"
+MC0010012,"\h(《Drachma》)In a battle with Nazr 20 years ago,
+over 100 Nazr battleships
+bombarded this fortress for days. \e"
+MC0010013,"\h(《Drachma》)However, all the shells were
+repelled by these walls. They are
+literally “walls of iron”.\e"
+MC0010014,"\h(《Aika》)Look!
+Something has started to move!\e"
+MC0010015,"\h(《Drachma》)The door of the fortress
+opens once a day to allow
+ships to pass through.\e"
+MC0010016,"\h(《Drachma》)Cannons line the entire rear
+wall. It was those cannons
+wiped out the Nazr fleet.\e"
+MC0010017,"\h(《Vyse》)Defense and offense rolled in one…
+It’s an invincible fortress.\e"
+MC0010018,"\h(《Aika》)So Fina and Captain Dyne
+are being held in there…\e"
+MC0010019,"\h(《Drachma》)Not a single air pirate caught by Valuan troops 
+has ever escaped that fortress.\e"
+MC0010020,"\h(《Drachma》)Although, it is said that there is one way to 
+get out.\e"
+MC0010021,\h(《Vyse》)A way?\e
+MC0010022,"\h(《Drachma》)If executed, the corpse is thrown 
+out of the fortress. That is
+the only other way to get out.\e"
+MC0010023,"\h(《Aika》)So the only free man
+is a dead man… That's just great. \e"
+MC0010024,"\h(《Vyse》)Haha… I love a good challenge! 
+Makes me feel alive!\e"
+MC0010025,"\h(《Vyse》)Don't you worry.  I will rescue everyone 
+and escape Valua. I will get us all 
+back out here no matter what!\e"
+"",me406x.sct
+"",e6o005
+"",a403x_eff.mld
+"",a400x_ef3.mld
+"",a403x_ef2.mld
+"",a403x_ef2.mld
+"",a403x_eff.mld
+"",a400x_ef3.mld
+"",EV_C01発生しました。\c
+"",M0314
+"",a243ac01.mld
+"",a243ac01.mld
+"",a243ac01.mld

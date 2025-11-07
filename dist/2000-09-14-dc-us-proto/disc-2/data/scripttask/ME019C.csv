@@ -1,0 +1,119 @@
+[Event Name],Task ID
+M08120000,"\h(《Cleaning Lady》)Princess Moegi has really been down in the dumps
+lately. I wonder if it's because she's worried
+about her brother?\e"
+M08120001,"\h(《Cleaning Lady》)Goodness me, why am I rattling on about to a
+visitor from abroad who I've only met for the
+first time. Please pay no attention.\c"
+M08120002,"\h(《Cleaning Lady》)Is that right? Foreign ships have filled the
+harbor… Oh dear. Now Princess Moegi has one
+more thing to worry about.\e"
+M08120003,"\h(《Cleaning Lady》)But its really not something that we commoners
+should concern ourselves with, is it? I think
+the princess will get through this just fine.\c"
+M08120004,"\h(《Cleaning Lady》)Now the princess can finally begin thinking
+about her own happiness. I'm really glad.\e"
+M08120005,"\h(《Cleaning Lady》)It's good to see you again. How has Princess
+Moegi been since we last met?\e"
+M08120006,"\h(《Cleaning Lady》)Even though she has been away from us, we
+Yafutomans have never stopped thinking about our
+beloved princess.\c"
+M08130000,"\h(《Girl》)You know, sir, my big sister spends all her time
+worrying about how our princess is doing.\c"
+M08130001,"\h(《Girl》)Did you know, sir? A foreign fleet has sailed
+into the harbor. Maybe I'll go have a look.\c"
+M08130002,"\h(《Girl》)Say, is it true the foreign fleet has gone home
+already? I was planning to go have a look at it.\c"
+M08130003,"\h(《Girl》)You know, sir, when I grow up, I think I want to
+go sailing on a ship, too.\e"
+M08130004,"\h(《Girl》)When Princess Moegi went abroad, she went on a
+ship, right? I want to do the same thing.\c"
+M08140000,\h(《Koketa》)Food! Food!\e
+M08150000,"\h(《Kirala》)Oh, you must be the Westerners they're all
+talking about. I'm Kirala.
+I'm the best builder in the country.\e"
+M08150001,"\h(《Kirala》)So what do you think of our town?
+I bet you don't see such fine structures in your
+country.\e"
+M08150002,"\h(《Well…》)“You're right about that.”
+“Nah, it's nothing special.”\e"
+M08150003,"\h(《Vyse》)You're right about that. What a difference
+between seeing something and only hearing about
+it. You've really got a fine-looking town here.\e"
+M08150004,"\h(《Kirala》)Ha ha, do you really think so? Well, it sure
+warms my heart to hear you say that.\e"
+M08150005,"\h(《Kirala》)Say! Maybe I should go back west with you and
+visit your country.\e"
+M08150006,"\h(《Kirala》)I could probably show you Westerners a thing or
+two that would really amaze you.\e"
+M08150007,"\h(《Vyse》)H, hey… What're you going to do about this
+place then? It's still under construction!\e"
+M08150008,"\h(《Kirala》)Ha ha, not to worry. This is my own house.
+It was getting pretty old, so I decided to
+remodel.\e"
+M08150009,"\h(《Kirala》)Well, then, it's decided.
+I'll go back with you to your country and build
+all sorts of things for you.\e"
+M08150010,\h(　)Kirala has joined your crew as a “Builder.”\e
+M08150011,"\h(《Kirala》)Incidentally, I have a little sister named
+Urala.
+You might want to give her a holler, too.\e"
+M08150012,"\h(《Vyse》)Nah, it's nothing special. We've got plenty of
+structures back home that look more impressive
+than these.\e"
+M08150013,"\h(《Kirala》)What?! You're telling me that the homes and
+buildings you have back west are better than
+mine?\e"
+M08150014,"\h(《Kirala》)Hrumph! I can't let a remark like that go
+unchallenged. I'm going to have to do something
+about it.\e"
+M08150015,"\h(《Kirala》)I say I should go back with you to your country
+and build all sorts of things to show you just
+what I can do.\e"
+M08150016,"\h(《Vyse》)H, hey… What're you going to do about this
+place then? It's still under construction!\e"
+M08150017,"\h(《Kirala》)Ha ha, not to worry. This is my own house.
+It was getting pretty old, so I decided to
+remodel.\e"
+M08150018,"\h(《Kirala》)Well, then, it's decided.
+I'll go back with you to your country and build
+all sorts of things for you.\e"
+M08150019,\h(　)Kirala has joined your crew as a “Builder.”\e
+M08150020,"\h(《Kirala》)Incidentally, I have a little sister named
+Urala.
+You might want to give her a holler, too.\e"
+Ms019c000,"\h(《Vyse》)Heh… Those birds are sorta cute. The babies are
+following the parent around. I wonder what those
+birds are called…\c"
+Ms019c001,"\h(《Vyse》)There's a vegetable that looks sort of like the
+turnips that we grow back home. It looks like
+they've been cut into long, thin strips, though.\c"
+Ms019c002,"\h(《Vyse》)Hey, these fish look delicious.
+They look like they've been properly dried, too.
+I wonder who they're for…\c"
+Ms019c003,"\h(《Vyse》)Wow… This lumber is perfectly smooth.
+It looks like the work of a master craftsman…\c"
+Ms019c004,"\h(《Vyse》)It looks like Yafutoman is written from top to
+bottom. I wonder how you're supposed to read
+it then…\c"
+Ms019c005,"\h(《Vyse》)It's Mur Loqua. The loqua here must be better
+than anywhere else in the world, considering the
+abundance of Blue Moon Stones around here.\c"
+Ms019c006,"\h(《Vyse》)I don't know what to make of this… plant.
+It looks almost like a big seed… or little tree
+or something… Some sort of vegetable, maybe?\c"
+Ms019c007,"\h(《Vyse》)Hmm… I wonder what this drink is made of.
+It doesn't smell quite like loqua…
+and it's green, too.\c"
+Ms019c008,"\h(《Vyse》)What the…?! It looks like there's dirt inside
+this pot! And they're boiling vegetables inside
+of it, too!\c"
+Ms019c009,"\h(《Vyse》)What's this? It almost looks like candy inside
+this small bottle…\c"
+Ms019c010,"\h(《Vyse》)It's some kind of cloudy soup… It's brown, too.
+I don't know if I even want to try drinking
+some of that…\c"
+"",me019b.sct
+"",M0325
+"",M0244
+"",M5190000

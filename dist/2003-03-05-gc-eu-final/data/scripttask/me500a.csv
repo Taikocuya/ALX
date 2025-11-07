@@ -1,0 +1,266 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MA5000000,"\h(«Baltor»)Gahahahaha!
+How do you like that! Feel the power of
+my ship, the Blackbeard!\e"
+MA5000001,"\h(«Baltor»)Now, I shall teach you to tremble in fear before
+the power of the Black Pirates!
+Gahahahaha!!!\c"
+MA5000002,"\h(«Drachma»)Listen up, boy!
+At the top of the screen, a 3X3 grid will
+appear. This is your input command screen.\e"
+MA5000003,"\h(«Drachma»)Think of it as a time gauge of sorts.
+Each turn is divided into three parts.\e"
+MA5000004,"\h(«Drachma»)For each part of each turn, you,
+Aika, or I can input one command.\c"
+MA5000005,"\h(«Drachma»)Every once in a while, you will see a column
+with a “C!” at the top of the grid.\e"
+MA5000006,"\h(«Drachma»)During that turn, you will have a tactical
+advantage over your opponent. Concentrate
+all of your firepower into that round.\e"
+MA5000007,"\h(«Drachma»)Also, certain turns have a different color
+shown at the top.\e"
+MA5000008,"\h(«Drachma»)These are the turns in which your enemy is goin'
+to unleash a powerful attack. Make sure to use
+your “Guard” command effectively.\c"
+MA5000009,"\h(«Baltor»)Hrumph! He's good…
+Turn hard to starboard! Let's
+try and maneuver behind him!\c"
+MA5000010,"\h(«Aika»)… Something's not right, Cap'n. It looks like
+he's preparing for something. I'm getting a bad
+feeling about this…\e"
+MA5000011,"\h(«Drachma»)He looks like he's goin' to try to get behind
+us. Most ships have their engines in the back
+and that makes them more vulnerable from behind.\e"
+MA5000012,"\h(«Drachma»)But, if he tries to get behind us, in the
+meantime, he'll be wide open. What do you
+want to do, boy?\e"
+MA5000013,"\h(«What will you do?»)“Try to get behind him instead.”
+“Wait and see what he does.”\c"
+MA5000014,"\h(«Vyse»)Now's our chance!
+He won't be expecting us to try and maneuver
+around to his backside!\c"
+MA5000015,"\h(«Drachma»)Good job, boy!
+His ship doesn't have any cannons in the back…
+We've got a wide open shot at his engines.\c"
+MA5000016,"\h(«Vyse»)I don't want to act in haste.
+Let's see what he does…\c"
+MA5000017,"\h(«Baltor»)Hahaha!!!
+Fools! You've let me get behind you!
+Now, you are mine!!\c"
+MA5000018,"\h(«Drachma»)Idiot! What're you doin'?!
+Now that he's behind us, he's got
+a wide open shot at our engines!!\c"
+MA5000019,"\h(«Baltor»)That old ship's tough!!
+I need to get behind it!\e"
+MA5000020,"\h(«What will you do?»)“Maneuver behind the enemy.”
+“Wait and see what he does.”\c"
+MA5000021,"\h(«Vyse»)Alright! We managed to get behind him!
+Now's our chance to attack!\c"
+MA5000022,"\h(«Vyse»)Great… While I was sitting here twiddling my
+thumbs he managed to get behind me! All hands,
+prepare for impact!!!\c"
+MFA5000000,"\h(«Baltor»)Gahahahaha !
+Vous aimez ça ?! Appréciez la puissance de mon
+navire, le Barbenoire !\e"
+MFA5000001,"\h(«Baltor»)Maintenant, je vais vous apprendre à trembler de
+peur devant la puissance des Pirates Noirs !
+Gahahahaha !!!\c"
+MFA5000002,"\h(«Drachma»)Écoutez !
+Une grille de 3 colonnes apparaîtra en haut de
+l'écran. C'est votre écran de commande d'entrée.\e"
+MFA5000003,"\h(«Drachma»)Imaginez que c'est une sorte d'indicateur de
+temps. Chaque tour est divisé en trois parties.\e"
+MFA5000004,"\h(«Drachma»)Dans chaque partie de chaque tour, vous,
+Aika, ou moi-même pouvons entrer une commande.\c"
+MFA5000005,"\h(«Drachma»)De temps en temps, vous verrez une colonne avec
+un “C!” en haut de la grille.\e"
+MFA5000006,"\h(«Drachma»)Pendant ce tour, vous aurez un avantage tactique
+sur votre adversaire. Concentrez toute votre
+puissance de tir pendant ce tour.\e"
+MFA5000007,"\h(«Drachma»)Et puis pendant certains tours, une couleur
+différente apparaîtra en haut.\e"
+MFA5000008,"\h(«Drachma»)C'est pendant ces tours que votre ennemi
+déclenchera une attaque toute puissante.
+Vous devez utiliser votre commande “Garde”
+efficacement.\c"
+MFA5000010,"\h(«Aika»)…… Quelque chose ne tourne pas rond, Capitaine.
+On dirait qu'il prépare quelque chose.
+J'ai un mauvais pressentiment……\e"
+MFA5000011,"\h(«Drachma»)On dirait qu'il va essayer de passer derrière
+nous. La plupart des navires ont des moteurs à
+l'arrière et cela les rend plus vulnérables à ce
+niveau-là.\e"
+MFA5000012,"\h(«Drachma»)Mais, s'il essaie de passer derrière nous,
+à ce moment là, il sera grand ouvert.
+Que voulez-vous faire ?\e"
+MFA5000013,"\h(«Que ferez-vous ?»)“Essayer de passer derrière lui.”
+“Attendre de voir ce qu'il fait.”\c"
+MFA5000014,"\h(«Vyse»)C'est le moment !
+Il ne s'attendra pas à ce que nous passions
+derrière lui en le contournant !\c"
+MFA5000015,"\h(«Drachma»)Bien joué !
+Son navire n'a pas de canons à l'arrière……
+Nous avons un très bon angle de tir sur ses
+moteurs.\c"
+MFA5000016,"\h(«Vyse»)Je ne veux pas agir en hâte.
+Voyons ce qu'il va faire……\c"
+MFA5000017,"\h(«Baltor»)Hahaha !!!
+Imbéciles ! Vous m'avez laisser passer derrière
+vous ! Maintenant vous êtes à ma merci !!\c"
+MFA5000018,"\h(«Drachma»)Idiot ! Que faites-vous ?!
+Maintenant qu'il est derrière nous, il a un très
+bon angle de tir sur nos moteurs !!\c"
+MFA5000019,"\h(«Baltor»)Ce vieux navire est coriace !!
+Il faut que je passe derrière !\e"
+MFA5000020,"\h(ｫQue ferez-vous ?ｻ)“Man忖vrer derri鑽e l'ennemi.”
+“Attendre de voir ce qu'il fait.”\c"
+MFA5000021,"\h(«Vyse»)Super ! Nous avons réussi à passer derrière lui!
+C'est l'occasion de passer à l'attaque !\c"
+MFA5000022,"\h(«Vyse»)Super…… Pendant que j'étais là à me tourner les
+pouces, il a réussi à passer derrière moi !
+Que tout l'équipage se prépare à l'impact !!!\c"
+MGA5000000,"\h(«Baltor»)Gahahahaha!
+Schaut euch das an! Fühlt die schiere Kraft
+meines Schiffes, der Blackbeard!\e"
+MGA5000001,"\h(«Baltor»)Jetzt werde ich euch beibringen, wie man vor
+der Macht der Black Pirates erzittert!
+Gahahahaha!!!\c"
+MGA5000002,"\h(«Drachma»)Hör zu, Junge!
+Oben auf dem Bildschirm erscheint eine Tabelle
+mit 3X3 kleinen Kästchen. Dies ist dein Befehls-
+eingabe-Bildschirm.\e"
+MGA5000003,"\h(«Drachma»)Das musst du dir wie eine Art Zeitmesser
+vorstellen. Jeder Zug ist in drei Teile
+unterteilt.\e"
+MGA5000004,"\h(«Drachma»)Für jeden Teil deines Zuges kannst du,
+Aika oder ich einen Befehl eingeben.\c"
+MGA5000005,"\h(«Drachma»)Ab und zu erscheint das Symbol
+“C!” in der oberen Reihe der Tabelle.\e"
+MGA5000006,"\h(«Drachma»)Während dieser Spielrunde hast du einen
+taktischen Vorteil gegenüber deinem Gegner.
+Konzentriere deine ganze Feuerkraft auf
+diese Runde.\e"
+MGA5000007,"\h(«Drachma»)Bestimmte Züge haben eine andere Farbe
+oben in der Tabelle.\e"
+MGA5000008,"\h(«Drachma»)Dies sind die Züge, während derer dein Gegner
+eine mächtige Attacke starten wird.
+Setze also deinen “Guard”-Befehl wirksam ein.\c"
+MGA5000009,"\h(«Baltor»)Hrumpf! Der ist gut……
+Dreh hart auf Steuerbord! Versuchen wir,
+ihm in den Rücken zu fallen!\c"
+MGA5000010,"\h(«Aika»)……Irgendwas stimmt hier nicht, Captain. Sieht
+so aus, als plante er etwas. Ich bekomme ein
+schlechtes Gefühl bei der Sache……\e"
+MGA5000011,"\h(«Drachma»)Sieht so aus, als wollte er uns in den Rücken
+fallen. Die meisten Schiffe haben ihre Motoren
+auf der Rückseite, deshalb sind sie dort
+auch verwundbarer.\e"
+MGA5000012,"\h(«Drachma»)Aber wenn er versucht, uns in den Rücken zu
+fallen, ist er in der Zwischenzeit völlig
+schutzlos. Was kann man da machen, Junge?\e"
+MGA5000013,"\h(«Was wirst du machen?»)“Versuchen, ihm in den Rücken zu fallen.”
+“Abwarten, was er macht.”\c"
+MGA5000014,"\h(«Vyse»)Jetzt ist unsere Chance!
+Er wird von uns nicht erwarten, dass wir
+ihm in den Rücken fallen wollen!\c"
+MGA5000015,"\h(«Drachma»)Gut gemacht, Junge!
+Sein Schiff hat hinten keine Kanonen……
+Wir kommen problemlos an seine Motoren heran.\c"
+MGA5000016,"\h(«Vyse»)Ich möchte nicht übereilt handeln.
+Schauen wir mal, was er macht……\c"
+MGA5000017,"\h(«Baltor»)Hahaha!!!
+Idioten! Ihr habt mich hinter euch gelassen!
+Jetzt gehört ihr mir!!\c"
+MGA5000018,"\h(«Drachma»)Idiot! Was machst du denn?!
+Jetzt, wo er hinter uns fliegt, liegen
+unsere Motoren genau in seinem Schussfeld!!\c"
+MGA5000019,"\h(«Baltor»)Dieses alte Schiff hält etwas aus!!
+Ich muss ihm in den Rücken fallen!\e"
+MGA5000020,"\h(«Was wirst du tun?»)“Dich hinter den Feind manövrieren.”
+“Abwarten, was er macht.”\c"
+MGA5000021,"\h(«Vyse»)Na also! Wir sind hinter ihm!
+Das ist unsere Chance zum Angriff!\c"
+MGA5000022,"\h(«Vyse»)Toll…… während ich hier Däumchen drehe, ist
+er mir in den Rücken gefallen! Alle Mann zum
+Kampf bereit!!!\c"
+MSA5000000,"\h(«Baltor»)¡Ja, ja, ja!
+¡Qué te parece eso! ¡Siente el poder de mi
+navío, el Barbanegra!\e"
+MSA5000001,"\h(«Baltor»)¡Y ahora, vas a saber lo que es temblar de miedo
+ante el poder de los Piratas Negros!
+¡¡¡Ja, ja, ja, ja!!!\c"
+MSA5000002,"\h(«Drachma»)¡Escúchame, chico! En la parte superior
+de la pantalla, aparecerá una cuadrícula
+de 3X3. Introduce ahí los comandos.\e"
+MSA5000003,"\h(«Drachma»)Considéralo como una forma de medir el tiempo.
+Cada turno se divide en tres partes.\e"
+MSA5000004,"\h(«Drachma»)En cada parte del turno, tú, Aika o yo
+podemos introducir un comando.\c"
+MSA5000005,"\h(«Drachma»)De vez en cuando, verás una columna con una
+“C” en la parte superior de la cuadrícula.\e"
+MSA5000006,"\h(«Drachma»)Durante ese turno, tendrás ventaja táctica sobre
+tu adversario. Concentra todo tu poder de fuego
+en ese turno.\e"
+MSA5000007,"\h(«Drachma»)Además, hay turnos que presentan un color
+distinto en la parte superior de la pantalla.\e"
+MSA5000008,"\h(«Drachma»)Estos son los turnos en los que tu enemigo va a
+desencadenar un ataque masivo. Asegúrate de usar
+tu comando de “Guardia” de manera efectiva.\c"
+MSA5000009,"\h(«Baltor»)¡Vaya! Es bastante bueno……
+¡Todo a estribor!
+¡Vamos a intentar maniobrar detrás suyo!\c"
+MSA5000010,"\h(«Aika»)…… Aquí hay algo que no va bien, Capitán.
+Creo que está tramando algo.
+Esto me da muy mala espina……\e"
+MSA5000011,"\h(«Drachma»)Intenta ponerse detrás. La mayoría de los navíos
+tienen el motor en la parte trasera y eso les
+hace más vulnerables a ataques por detrás.\e"
+MSA5000012,"\h(«Drachma»)Pero, si intenta ponerse detrás, estará expuesto
+mientras realiza la maniobra.
+¿Qué quieres hacer, muchacho?\e"
+MSA5000013,"\h(«¿Qué vas a hacer?»)“Intentar situarme detrás.”
+“Esperar a ver lo que hace.”\c"
+MSA5000014,"\h(«Vyse»)¡Es nuestra oportunidad!
+¡Si maniobramos por detrás de él lateralmente le
+cogeremos por sorpresa!\c"
+MSA5000015,"\h(«Drachma»)¡Buen trabajo, muchacho!
+Su navío no tiene ningún cañón en la parte de
+atrás…… dispararemos de lleno a sus motores.\c"
+MSA5000016,"\h(«Vyse»)No quiero actuar de forma imprudente.
+Vamos a ver qué hace……\c"
+MSA5000017,"\h(«Baltor»)¡¡¡Ja, ja, ja!!!
+¡Idiotas!
+¡Me habéis permitido que me sitúe detrás!
+¡¡Ahora estáis en mi poder!!\c"
+MSA5000018,"\h(«Drachma»)¡Necio! ¡¿Pero qué haces?!
+¡¡Ahora que se ha puesto detrás,
+puede disparar a nuestro motor y destrozarlo!!\c"
+MSA5000019,"\h(«Baltor»)¡¡Ese viejo navío es bastante duro!!
+¡Tengo que situarme por detrás!\e"
+MSA5000020,"\h(«¿Qué vas a hacer?»)“Maniobrar por detrás del enemigo.”
+“Esperar a ver qué hace ahora.”\c"
+MSA5000021,"\h(«Vyse»)¡Muy bien!
+¡Hemos conseguido situarnos detrás!
+¡Ahora podemos atacar!\c"
+MSA5000022,"\h(«Vyse»)Genial…… ¡Mientras estaba aquí perdiendo
+el tiempo se ha situado detrás!
+¡¡¡Todos preparados para el impacto!!!\c"
+"",M0430
+"",f7100100S.p04
+"",f7100100S.p04
+"",me500a.sct
+"",me090a.sct
+"",f3000033
+"",f3000033
+"",k0000.mld
+"",k0000.mld
+"",k0000.mld
+"",me205a.sct

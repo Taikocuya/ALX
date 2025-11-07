@@ -1,0 +1,404 @@
+[Event Name],Task ID
+M08000000,\h(«Weapons Merchant»)Come right on in! What can I get for you?\e
+M08000001,"\h(«What will you do?»)“Buy and sell weapons.”
+“Talk about this and that.”
+“Leave.”\e"
+M08000002,"\h(«Weapons Merchant»)Tenkou is the name of a gang of outlaws. They go
+around seizing weapons, spouting something about
+how bare hands are more powerful.\e"
+M08000003,"\h(«Weapons Merchant»)You say you ran into a Tenkou?
+You're lucky you got away without losing your
+weapons or your life.\e"
+M08000004,"\h(«Weapons Merchant»)Thanks for stopping by! You come on back, now,
+you hear?\e"
+M08000005,\h(«Weapons Merchant»)Come right on in! What can I get for you?\e
+M08000006,"\h(«What will you do?»)“Buy and sell weapons.”
+“Talk about this and that.”
+“Leave.”\e"
+M08000007,"\h(«Weapons Merchant»)I don't suppose you folks knew this, but the
+chief of the Tenkou gang is one extremely strong
+guy.\e"
+M08000008,"\h(«Weapons Merchant»)You know those two twins you guys defeated? Well
+I hear this guy got to be chief by brushing them
+aside like a couple of babies.\e"
+M08000009,"\h(«Weapons Merchant»)Thanks for stopping by! You come on back, now,
+you hear?\e"
+M08000010,\h(«Weapons Merchant»)Come right on in! What can I get for you?\e
+M08000011,"\h(«What will you do?»)“Buy and sell weapons.”
+“Talk about this and that.”
+“Leave.”\e"
+M08000012,"\h(«Weapons Merchant»)So you overpowered that hateful Kangan.
+That certainly gets a load off of my chest.
+You're a man to be reckoned with! \e"
+M08000013,"\h(«Weapons Merchant»)Hey, you know what? There's this isolated island
+way up north, straight north of here.
+I think you should go there.\e"
+M08000014,"\h(«Weapons Merchant»)I've heard there's a guy living there called
+Ryu-kan. He's supposed to be a really phenomenal
+swordsmith.\e"
+M08000015,"\h(«Weapons Merchant»)Thanks for stopping by! You come on back, now,
+you hear?\e"
+M08010000,"\h(«Elderly Item Merchant»)Well, my, my. What can I do for you?\e"
+M08010001,"\h(«What will you do?»)“Buy and sell items.”
+“Talk about various things.”
+“Leave.”\e"
+M08010002,"\h(«Elderly Item Merchant»)The Great Wall that surrounds this island was
+built by our ancestors in order to protect the
+country.\e"
+M08010003,"\h(«Elderly Item Merchant»)But the Great Wall isn't what really protects
+us.
+What really protects us is the Blue Winds.\e"
+M08010004,"\h(«Elderly Item Merchant»)All right, then. Please come again.\e"
+M08010005,"\h(«Elderly Item Merchant»)They say a fleet of black steel ships has come,
+but there's really nothing to worry about.
+Nah, everything's going to be just fine.\e"
+M08010006,"\h(«Elderly Item Merchant»)When the time comes, the Blue Winds will blow
+and save us. It has protected our country since
+ancient times, and it won't fail us now.\e"
+M08010007,"\h(«Elderly Item Merchant»)Now I've had a good look at you, you're quite a
+handsome fellow, aren't you? If only I were 70
+years younger… Oh, my! What am I talking about!\e"
+M08010008,"\h(«Elderly Item Merchant»)Look what you've made a poor old woman say, you
+naughty little boy, you. My face is scarlet... \e"
+M08010009,"\h(«Elderly Item Merchant»)When I was young, everyone was quite taken with
+Lord Mikado, but nowadays it's Prince Daigo.\e"
+M08010010,"\h(«Elderly Item Merchant»)Oh, my! Look what you've made a poor old woman
+say, you naughty little boy, you.
+I'm so embarrassed. My face is burning…\e"
+M08030000,"\h(«Urala»)Oh! Please come in!
+What can I get you?\e"
+M08030001,"\h(«Aika»)Looks like they have waitresses in Yafutoma,
+too! \e"
+M08030002,\h(«Urala»)Waitr…? \e
+M08030003,"\h(«Urala»)I, I'm sorry.
+We don't have anything like that on hand.\e"
+M08030004,"\h(«Aika»)A ha ha ha. You misunderstood!
+We were talking about you.\e"
+M08030005,\h(«Urala»)Huh…?\e
+M08030006,"\h(«Urala»)Oh. I, I'm sorry.
+I, I thought it was what you wanted to order.\e"
+M08030007,"\h(«Aika»)Don't mention it. We're the ones who should
+apologize. We're in a bit of a rush right now,
+but we'll come back some other time, okay?\e"
+M08030008,"\h(«Urala»)Al, alright.
+Um… Thank you for coming in.\e"
+M08030009,"\h(«Urala»)N, next time you come, be sure to try our
+scrumptious dumplings as well as our piping hot
+sweetbean soup.\e"
+M08030010,"\h(«Vyse»)… Say,
+are you by any chance Kirala's little sister?\e"
+M08030011,"\h(«Urala»)Y, yes… I am.
+But why do you ask?\e"
+M08030012,"\h(«Aika»)I thought so!
+Actually, Kirala has decided to join the crew of
+our ship as a builder.\e"
+M08030013,"\h(«Aika»)We're wondering if you might be interested in
+joining our crew, too.\e"
+M08030014,"\h(«Urala»)Me? B, but…
+unlike my sister, I'm not good for much of
+anything besides cooking.\e"
+M08030015,"\h(«Vyse»)Cooking is a perfectly fine skill to have.
+How would you like to join our crew as a cook?\e"
+M08030016,"\h(«Urala»)S, sure, okay.
+If my sister's joining too.
+But are you sure I qualify for the job?\e"
+M08030017,"\h(«Vyse»)Of course you do.
+You can make us all kinds of tasty Yafutoman
+dishes.\e"
+M08030018,"\h(«Urala»)W, well!
+Um… I, I'll really do my best.
+Thank you so much.\e"
+M08030019,\h( )Urala has joined your crew as a “Cook.”\c
+M08030020,"\h(«Urala»)Um… When you're not busy,
+please feel free to drop in any time.\e"
+M08030021,"\h(«Urala»)Oh. You were here the other day, weren't you?
+Welcome back.\e"
+M08030022,"\h(«Aika»)Hi! Excuse me,
+but would you happen to be Kirala's little
+sister by any chance?\e"
+M08030023,"\h(«Urala»)Y, yes… I am.
+But why do you ask?\e"
+M08030024,"\h(«Aika»)I thought so!
+Actually, Kirala has decided to join the crew of
+our ship as a builder.\e"
+M08030025,"\h(«Aika»)We're wondering if you might be interested in
+joining our crew, too.\e"
+M08030026,"\h(«Urala»)Me? B, but…
+unlike my sister, I'm not good for much of
+anything besides cooking.\e"
+M08030027,"\h(«Vyse»)Cooking is a perfectly fine skill to have.
+How would you like to join our crew as a cook?\e"
+M08030028,"\h(«Urala»)S, sure, okay.
+If my sister's joining too.
+But are you sure I qualify for the job?\e"
+M08030029,"\h(«Vyse»)Of course you do.
+You can make us all kinds of tasty Yafutoman
+dishes.\e"
+M08030030,"\h(«Urala»)A, alright!
+Um… I, I'll really do my best.
+Thank you so much.\e"
+M08030031,\h( )Urala has joined your crew as a “Cook.”\c
+M08040000,"\h(«Teahouse Owner»)We serve the best tea and dumplings here, and
+thanks to Urala, we've also got the most popular
+teahouse in town. \e"
+M08040001,"\h(«Teahouse Owner»)I don't suppose you Westerners can taste the
+difference, though.
+A hah hah.\e"
+M08040002,"\h(«Teahouse Owner»)Did I hear that a throng of Westerners have
+come to town? Sounds like the perfect chance to
+spread the word about our tasty dumplings.\e"
+M08040003,"\h(«Teahouse Owner»)Though I don't suppose Westerners have such
+discriminating tastebuds as to tell the
+difference. A hah hah.\e"
+M08040004,"\h(«Teahouse Owner»)It's a shame we never had a chance to serve the
+Westerners our delectable dumplings.
+We missed out on a great business opportunity.\e"
+M08040005,"\h(«Teahouse Owner»)If you guys had just taken it a little easier,
+we could have had them taste our dumplings.\e"
+M08040006,"\h(«Teahouse Owner»)Now that Urala is leaving here, it feels
+like a part of this place is leaving with
+her. She brought so much life to this place.\e"
+M08040007,"\h(«Teahouse Owner»)Without her… this place will feel so empty.
+But, she is free to live her own life. I wish
+her the best of luck.\c"
+M08040008,"\h(«Teahouse Owner»)Now that Urala is leaving here, it feels
+like a part of this place is leaving with
+her. She brought so much life to this place.\e"
+M08040009,"\h(«Teahouse Owner»)Without her… this place will feel so empty.
+But, she is free to live her own life. I wish
+her the best of luck.\c"
+M08050000,"\h(«Teahouse Customer»)That girl Urala who works here is an excellent
+cook and seems very domestic, but she's rather
+reserved and bashful.\e"
+M08050001,"\h(«Teahouse Customer»)By contrast, her older sister is the assertive
+type, and a very skilled builder as well.
+They're polar opposites, really.\e"
+M08050002,"\h(«Teahouse Customer»)If you were to ask which I'd prefer for a wife…
+well… it's a really tough choice.\e"
+M08050003,"\h(«Teahouse Customer»)Would I choose the domestic Urala, or the more
+out-going Kirala? I'm afraid I really don't know
+how to rank them one over the other.\e"
+M08050004,"\h(«Teahouse Customer»)What's that?
+You say some foreign ships have come into port?
+Now hold on just a minute. \e"
+M08050005,"\h(«Teahouse Customer»)At times like this, you can't let yourself
+panic; you have to keep your calm. To wit, it's
+best to start by having a quiet cup of tea…\e"
+M08050006,"\h(«Teahouse Customer»)The truth of the matter is, I'm so flabbergasted
+that I've lost my legs.
+But don't tell that to Urala. \e"
+M08050007,"\h(«Teahouse Customer»)Please don't tell Urala that I've lost my legs
+and can't stand up.\e"
+M08050008,"\h(«Teahouse Customer»)What's that?
+You chased off the foreign ships?
+Well done!\e"
+M08050009,"\h(«Teahouse Customer»)By the way, stranger.
+Please don't tell Urala that I… behaved a
+little cowardly…\e"
+M08050010,"\h(«Teahouse Customer»)I am not surprised that after learning her older
+sister, Kirala, would be leaving with you, that
+she, too, decided to leave.\e"
+M08050011,"\h(«Teahouse Customer»)But to think that two of the most beautiful
+women in all of Yafutoma will be leaving at the
+same time is very saddening…\c"
+M08050012,"\h(«Teahouse Customer»)I'm sure that no matter where Urala is, she will
+always be able to cook amazing food.\e"
+M08050013,"\h(«Teahouse Customer»)Urala is very skilled at cooking using a fish
+called “Romuhai fish.” Perhaps you should try
+some of her special dishes someday.\c"
+M08050014,"\h(«Teahouse Customer»)Urala is very skilled at cooking using a fish
+called “Romuhai fish.” Perhaps you should try
+some of her special dishes someday.\c"
+M08100000,"\h(«Yafutoman Soldier»)This land of Yafutoma is a beautiful country of 
+countless islands large and small lying beneath 
+the Blue Moon. \e"
+M08100001,"\h(«Yafutoman Soldier»)Oh, visitor from the distant west! May you taste
+our bountiful water and breathe our clear, crisp
+air till your heart's content.\e"
+M08100002,"\h(«Yafutoman Soldier»)And when you decide to go to Mt. Kazai, please 
+make your way to the ship parts dealer located 
+down near the waterfront. \e"
+M08100003,"\h(«Yafutoman Soldier»)I have already spoken to him about escorting you
+folks to Mt. Kazai. \e"
+M08100004,"\h(«Yafutoman Soldier»)When you decide to go to Mt. Kazai, please make 
+your way to the ship parts dealer located down 
+near the waterfront. \e"
+M08100005,"\h(«Yafutoman Soldier»)I have already spoken to him about escorting you
+folks to Mt. Kazai. \e"
+M08100006,"\h(«Yafutoman Soldier»)Ahh, you folks, there! Lord Mikado has been
+waiting for you. Please, please. Come right this
+way.\c"
+M08100007,"\h(«Yafutoman Soldier»)Ahh, you folks, there! I have heard that a fleet
+of foreign ships has gathered off shore.
+Can you tell me what it is about?\e"
+M08100008,"\h(«Yafutoman Soldier»)Ahh, you folks, there! The Divine Wind really 
+did blow, did it not? The legend has proved to 
+be true!\e"
+M08100009,"\h(«Yafutoman Soldier»)Ahh, you folks, there! Take care that you don't 
+become a burden to Prince Daigo.\e"
+M08110000,"\h(«Yafutoman Soldier»)My apologies. I did not realize that you were
+persons whom Lord Mikado wished to see.\e"
+M08110001,"\h(«Yafutoman Soldier»)However, since it is my job to protect the state
+and restore order, I beg you to overlook any
+offense I may have caused. \e"
+M08110002,"\h(«Yafutoman Soldier»)I must say, it is quite scandalous how much skin
+your apparel leaves exposed. You Westerners
+must really be shameless people.\e"
+M08110003,"\h(«Yafutoman Soldier»)That is… I mean… perhaps “shameless” was
+rather too strong of a word. I beg you to
+overlook any offense it may have caused.\e"
+M08110004,"\h(«Yafutoman Soldier»)That is… I mean… perhaps “shameless” was
+rather too strong of a word. I beg you to
+overlook any offense it may have caused.\e"
+M08110005,"\h(«Yafutoman Soldier»)Hark! Could that be the Maga Sphere? I never
+would have believed that mere children could
+find it and actually bring it back. \e"
+M08110006,"\h(«Yafutoman Soldier»)That is… I mean… I didn't mean that… um… you
+are mere children. I beg you to overlook any
+offense it may have caused.\e"
+M08110007,"\h(«Yafutoman Soldier»)I understand a fleet of black steel ships has 
+come into port. I wonder if I can't sneak out 
+somehow to go have a look…\e"
+M08110008,"\h(«Yafutoman Soldier»)That is… I mean… It was indiscreet of me to
+say such a thing. I beg you to overlook any
+offense it may have caused.\e"
+M08110009,"\h(«Yafutoman Soldier»)Ever since you folks showed up, we've had a
+civil war, and dealt with that bird monster that
+appeared out of nowhere…\c"
+M08110010,"\h(«Yafutoman Soldier»)And we've had nothing but trouble… I mean, that
+is, I'm joking. To put it another way…\e"
+M08110011,"\h(«Yafutoman Soldier»)We've had a lot of difficulties, one after
+another. But they must have all been good omens,
+since Prince Daigo is back with us once again.\c"
+M08110012,"\h(«Yafutoman Soldier»)We've had a lot of difficulties, one after
+another. But they must have all been good omens,
+since Prince Daigo is back with us once again.\c"
+M08170000,"\h(«Big Sister»)Come on! Hurry up and get in! You said you'd
+practice sailing in this tub ship!\e"
+M08170001,"\h(«Big Sister»)If you can't even sail a tub ship, you're never
+going to be able to help search for Prince
+Daigo.\c"
+M08170002,"\h(«Big Sister»)There's a whole fleet of strange ships in the
+harbor. We don't have a chance like this very
+often, so let's go see them.\e"
+M08170003,"\h(«Big Sister»)There's no reason to be afraid. You're not
+afraid of the foreigner in the blue suit, are
+you?\c"
+M08170004,"\h(«Big Sister»)Prince Daigo beat up all of the outlaws and came
+back home!\e"
+M08170005,"\h(«Big Sister»)Oh. They say he's putting on some clean clothes.
+I sure wish I could hurry up and play with him!\c"
+M08170006,"\h(«Big Sister»)Anyway, it's about time you at least learned to
+sail a tub ship!\c"
+M08180000,"\h(«Young Man»)Hello. You must be one of those Westerners I've
+heard about. It's really true that you don't
+have black eyes and hair, isn't it?!\e"
+M08180001,"\h(«Young Man»)My dream is to bring lots of Westerners like
+you to this country as tourists. \e"
+M08180002,"\h(«Young Man»)I want people from all over the world to see our
+picturesque Mt. Kazai.\e"
+M08180003,"\h(«Young Man»)Really! Can there be any sight more picturesque
+than this? And just look at what perfect weather
+it is today!\e"
+M08180004,"\h(«Young Man»)How I'd like to be able to show this splendid
+view to other visitors from your country!\e"
+M08180005,"\h(«Young Man»)A huge fleet of ships, such as I've never seen
+before, passed by near hear.\e"
+M08180006,"\h(«Young Man»)I wonder if they could be tourists?
+Perhaps the beauty of our fair country is
+finally becoming known to the Westerners.\e"
+M08180007,"\h(«Young Man»)Hello. You must be one of those Westerners I've
+heard about. It's really true that you don't
+have black eyes and hair, isn't it?!\e"
+M08180008,"\h(«Young Man»)My dream is to bring lots of Westerners like
+you to this country as tourists. \e"
+M08180009,"\h(«Young Man»)I want people from all over the world to see our
+picturesque Mt. Kazai.\e"
+M08180010,"\h(«Young Man»)Really! Can there be any sight more picturesque
+than this? And just look at what perfect weather
+it is today!\e"
+M08180011,"\h(«Young Man»)How I'd like to be able to show this splendid
+view to other visitors from your country!\e"
+M08190000,"\h(«Little Sister»)Nooo! I don't want to practice sailing! I don't
+care if I can't sail a tub ship!\e"
+M08190001,"\h(«Little Sister»)Prince Daigo will come back home by himself just
+fine, even if I don't go searching for him!\c"
+M08190002,"\h(«Little Sister»)No, I won't go. I don't care about the foreign
+ships.\e"
+M08190003,"\h(«Little Sister»)But I'd be too scared! What if the foreigners
+kidnapped us and took us away?\c"
+M08190004,"\h(«Little Sister»)Prince Daigo finally came home, but now they say
+Princess Moegi is going somewhere.\e"
+M08190005,"\h(«Little Sister»)I'm going to be so lonesome when the nice
+princess goes away. Sniffle sniffle.\c"
+M08190006,\h(«Little Sister»)Nooo! I don't care if I can't sail a tub ship!\c
+M08200000,\h(«Koketa»)Cluck cluck! Cluck! \e
+M08200001,"\h(«What's with this bird?»)“Looks tasty!”
+“It's kind of cute!”
+“Go away! Shoo! Shoo!”\e"
+M08200002,"\h(«Vyse»)This bird… looks rather tasty, don't you think?\e"
+M08200003,\h(«Koketa»)Looks tasty! Looks tasty!\c
+M08200004,"\h(«Aika»)My goodness, it's mimicking you!
+Don't you go teaching it any naughty words, now,
+Vyse. \e"
+M08200005,\h(«Koketa»)Looks tasty! Looks tasty!\e
+M08200006,"\h(«Vyse»)This bird… it's kind of cute, don't you think?\e"
+M08200007,\h(«Koketa»)Kind of cute! Kind of cute!\e
+M08200008,"\h(«Aika»)My goodness, it's mimicking you!
+Don't you go teaching it any naughty words, now,
+Vyse. \e"
+M08200009,\h(«Koketa»)Kind of cute! Kind of cute!\e
+M08200010,\h(«Vyse»)What's with this bird? Go away! Shoo! Shoo!\e
+M08200011,\h(«Koketa»)Shoo! Shoo! Go away! Shoo! Shoo!\e
+M08200012,"\h(«Aika»)My goodness, it's mimicking you!
+Don't you go teaching it any naughty words, now,
+Vyse. \e"
+M08200013,\h(«Koketa»)Shoo! Shoo! Go away! Shoo! Shoo!\e
+M08200014,\h(«Koketa»)Looks tasty! Looks tasty!\c
+M08200015,\h(«Koketa»)Kind of cute! Kind of cute!\e
+M08200016,\h(«Koketa»)Shoo! Shoo! Go away! Shoo! Shoo!\e
+M08210000,"\h(«Ferryman»)Hey, it's a foreigner! Step right up for your
+tub ships. You can get on and off at a dock!\c"
+Ms019b000,"\h(«Vyse»)So, the Yafutomans get around in these little
+tub-boats? It sure looks like it would be a good
+workout for your arms…\c"
+Ms019b001,"\h(«Vyse»)I can't read Yafutoman, but there's a picture of
+a little tub. I assume that it means that this
+is the place to rent tub-boats, then…\c"
+Ms019b002,"\h(«Vyse»)There's something written in Yafutoman…
+Hmm… I'm not sure, but it probably says
+something about this switch here.\c"
+Ms019b003,"\h(«Vyse»)This looks a little like a game we have back
+home… but the game pieces look different. I
+wonder how you place this game…\c"
+Ms019b004,"\h(«Vyse»)Why is there a sculpture of a turtle here?
+Do the Yafutomans worship turtles or something?
+\c"
+Ms019b005,"\h(«Vyse»)Wow… There sure are some strange weapons here.
+Some of the weapons look similar to the ones
+back home, but others I've never seen before.\c"
+Ms019b006,"\h(«Vyse»)Huh? This umbrella's made of paper!
+How could you stay dry with a paper umbrella?!\c"
+Ms019b007,"\h(«Vyse»)Wow… The Yafutomans sure make a lot of
+different things out of paper. I wonder if they
+have paper boats and weapons and stuff?\c"
+Ms019b008,"\h(«Vyse»)There's a river running through the middle of
+the room and even a little waterwheel. It's
+sort of relaxing…\c"
+Ms019b009,"\h(«Vyse»)There's some sort of dark sauce inside here.
+I wonder what it's made of… It smells… sort
+of salty-sweet.\c"
+Ms019b010,"\h(«Vyse»)What's this? It looks sort of like a tombstone…
+I can't read what's written on it, though. I
+should probably just leave it alone.\c"
+Ms019b011,\h(«Weapons merchant»)Hey! This door isn't meant for customers!\c
+Ms019b012,"\h(«Weapons Merchant»)Make sure you close the door, too!
+I swear… some people…\c"
+Ms019b013,"\h(«Weapons Merchant»)If you want to buy something, come around
+to the other side!\c"
+"",me019a.sct
+"",me019c.sct
+"",me019d.sct
+"",M0325
+"",M0244
+"",M5190000

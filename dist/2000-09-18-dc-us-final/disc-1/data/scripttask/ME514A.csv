@@ -1,0 +1,79 @@
+[Event Name],Task ID
+MAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5140000,"\h(《De Loco》)I've been waiting for you, Vyse!
+Now, you will learn the true power of the
+ever-changing Chameleon!!!\c"
+MA5140001,"\h(《Drachma》)It looks like he's serious this time, boy.
+He's trying to get behind us.\e"
+MA5140002,"\h(《Aika》)Vyse! Just make sure to watch out for that big
+cannon that he fired at King Ixa'taka!
+One hit of that and we're dead!\c"
+MA5140003,"\h(《De Loco》)Prepare to fire the Moon Stone Cannon!
+Halt all systems and redirect all power!\e"
+MA5140004,"\h(《De Loco》)Hehehe… You can't knock me off balance
+if my ship isn't moving, Vyse! Heehee…
+Now, feel the power of my Moon Stone Cannon!!\c"
+MA5140005,"\h(《Aika》)The enemy vessel has stopped!
+What's going on?!\e"
+MA5140006,"\h(《Drachma》)It looks like he's got somethin' up his sleeve.
+But, now's our chance. We need to hit him
+as hard as we can while he's stopped.\e"
+MA5140007,"\h(《Drachma》)We'll take a bit of a beating, but
+we can take this chance and
+hit him as hard as we can…\e"
+MA5140008,"\h(《Drachma》)Or, we can play it safe and back away.
+We won't be able to do as much damage,
+but neither will he.\e"
+MA5140009,"\h(《What will you do?》)“Take a chance and open fire!”
+“Play it safe and back off.”\e"
+MA5140010,"\h(《Vyse》)We need to take a chance and hit him with
+with everything we've got! Let's take him
+out for good!\e"
+MA5140011,"\h(《Drachma》)Sometimes you have to take a risk to
+win. Well, boy… open fire!!\c"
+MA5140012,"\h(《Vyse》)We can't risk taking that much damage right now.
+We need to put some distance in between us!\e"
+MA5140013,"\h(《Drachma》)Perhaps that's the safest choice for now.
+Very well… take evasive action!\c"
+MA5140014,"\h(《Aika》)They're still just sitting there!
+They probably used up too much energy
+on that last attack!\c"
+MA5140015,"\h(《Aika》)They've stopped again!
+Vyse, what should we do this time?!\e"
+MA5140016,"\h(《What will you do?》)“Take a chance and open fire!”
+“Play it safe and back off.”\c"
+MA5140017,"\h(《Aika》)They've stopped again!
+Vyse, what should we do this time?!\e"
+MA5140018,"\h(《What will you do?》)“Take a chance and open fire!”
+“Play it safe and back off.”\c"
+MA5140019,"\h(《De Loco》)What's going on?!
+Why didn't the Moon Stone
+Cannon fire?!\e"
+MA5140020,"\h(《Vice Captain》)Lord De Loco! The last blast
+nearly drained all the energy from
+the ship! We must recharge the cannon!\e"
+MA5140021,"\h(《Vice Captain》)Perhaps firing this prototype Moon Stone
+Cannon was too much for it to handle. I
+think that maybe we should…\e"
+MA5140022,"\h(《De Loco》)Silence! Silence!!!!
+I don't want to hear any excuses! Fire! Fire!!
+Fire the Moon Stone Cannon!!\c"
+"",M0465
+"",me514a.sct
+"",me090a.sct
+"",k0000.mld
+"",k0000.mld
+"",f7100050S.p04
+"",k0000.mld
+"",b1300.mld
+"",b1300.mld
+"",f7100057s.p04
+"",b1300.mld
+"","「1」\c「2」\c「3a」\c「3b」\c「4a」
+「4b」\c「5a」\c「5b」\c「6a」\c「6b」
+「7a」\c「7b」\c「2_1」\c"
+"",f7100100S.p04
+"",f7100100S.p04
+"",F7100100S.p04
+"",me215a.sct

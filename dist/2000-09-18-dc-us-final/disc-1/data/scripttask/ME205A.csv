@@ -1,0 +1,156 @@
+[Event Name],Task ID
+MB001000,"\h(《Aika》)Visibility is horrible!
+Vyse, the fog's too thick!
+I can barely see!\e"
+MB001001,"\h(《Vyse》)That's strange… there's never any fog in this 
+region… I wonder what's causing it.\e"
+MB001002,"\h(《Vyse》)The only way to get to Valua is through here…
+Slow to half speed…\e"
+MB001003,"\h(《Aika》)Vyse, wait… we're too close to that island over
+there!\e"
+MB001004,\h(《Vyse》)What? Where?\e
+MB001005,\h(《Aika》)Aaahh!\e
+MB001006,\h(《Aika》)Vyse! Look!\e
+MB001007,"\h(《Aika》)It… it's not an island!
+Whatever it is… it's alive!\e"
+MB001008,"\h(《Vyse》)What the…?!
+It's an arcwhale!\e"
+MB001009,\h(《Vyse》)I've never seen one this big before!\e
+MB001010,"\h(《Aika》)Vyse, we'll get killed if we get too close to 
+it, but we've got to hurry to Valua.\e"
+MB001011,"\h(《Aika》)Vyse, what should we do?\e"
+MB001012,"\h(《What will you do?》)“Attack it!”
+“Retreat!”
+“… I don't know!”\e"
+MB001013,"\h(《Vyse》)We've got to hurry and it's in our way!
+If we don't do anything, it'll probably knock us
+out of the sky anyway!\e"
+MB001014,"\h(《Aika》)What are you talking about, Vyse?! 
+Are you crazy? How are we going to fight it in 
+this little ship? We don't even have cannons!\e"
+MB001015,"\h(《Aika》)What do you want to do… 10,000 Cutlass Furies?!
+There's no way we can kill that thing! 
+We'll be okay as long as it doesn't see us.\e"
+MB001016,"\h(《Vyse》)What do you think we're going to do? Of course 
+we're going to retreat! We don't stand a chance 
+against that thing in this ship!\e"
+MB001017,"\h(《Vyse》)I know we're in a hurry, but if that thing
+capsizes us, everyone we know will be executed.
+We'd better play it safe…\e"
+MB001018,"\h(《Aika》)Okay.
+I can't argue with that.
+We'll be okay as long as it doesn't see us!\e"
+MB001019,"\h(《Vyse》)… I don't know.
+Aika, what do you think we should do?\e"
+MB001020,"\h(《Aika》)Vyse! Everyone is depending on you! If you want
+to become a captain someday, you'll have to be
+more decisive than that!\e"
+MB001021,"\h(《Aika》)Without any cannons, there's no way we can take 
+that thing out. It's best that we retreat! 
+As long as it doesn't see us, we'll be okay!\e"
+MB001022,\h(《Aika》)Aaaah!\e
+MB001023,"\h(《Aika》)Vyse!
+It saw us!\e"
+MB001024,"\h(《Vyse》)Grab hold of something and brace yourself!
+Don't let go!\e"
+MB001025,"\h(《Aika》)But… but…
+The ship! It's breaking up!\e"
+MB001026,\h(《Vyse・Aika》)Aaaaahhhhhh!!!\e
+MB0070000,"\h(《Air Pirate》)Captain Baltor!
+There's a Nasr merchant ship coming into view 
+off port-side!\e"
+MB0070001,"\h(《Air Pirate》)But, there's a strange ship following it very 
+closely… I don't recognize its markings.\e"
+MB0070002,"\h(《Baltor》)Gahahahahaha!
+You have nothing to fear from a ship THAT old!\e"
+MB0070003,"\h(《Baltor》)Let's introduce these fools to the true meaning
+of fear! They will know that I, Baltor, sent
+them plummeting to their deaths!!!\e"
+MB0070004,\h(《Baltor》)Alright men! Battlestations!!!\e
+MB0070005,"\h(《Baltor》)Don't let them escape! 
+And take everything on board that isn't nailed 
+down!\e"
+MB0070006,"\h(《Aika》)Vyse, there's a ship straight ahead, heading 
+right for us! I see a black skull and… 
+They're Black Pirates!\e"
+MB0070007,"\h(《Vyse》)So that's Baltor, huh?
+What should we do, Captain?\e"
+MB0070008,"\h(《Drachma》)We're vastly outnumbered. Don't let them board 
+us. We'll fight it out from a distance. Ready 
+the cannons.\e"
+MB0070009,"\h(《Drachma》)If you see them attack, I want you to go into 
+evasive maneuvers. Then, when they're in your 
+sights, blast them.\e"
+MB0070010,"\h(《Vyse》)Aye aye, Captain!
+Let's rip 'em to shreds… Sir!\e"
+MF0030000,\h(《Vyse》)Looks like we've reached Valuan airspace.\e
+MF0030001,"\h(《Vyse》)So, this is where the Yellow Crystal is hidden,
+right?\e"
+MF0030002,"\h(《Fina》)Yes. It is sealed somewhere in these lands,
+along with the Yellow Gigas.\e"
+MF0030003,"\h(《Aika》)Considering how much trouble we've caused the
+Valuans already, we should be extra careful,
+right Cap'n?\e"
+MF0030004,\h(《Drachma》)……\e
+MF0030005,"\h(《Aika》)… Cap'n?
+What's wrong?\e"
+MF0030006,"\h(《Drachma》)Ah… um… nothing.
+I'm sorry… were you saying something?\e"
+MF0030007,"\h(《Aika》)Nothing really.
+It wasn't anything important.\e"
+MJ0110000,"\h(《Air Pirate》)Captain Baltor!
+There's a really, really powerful looking ship 
+coming our way off port side!\e"
+MJ0110001,"\h(《Air Pirate》)It's… the ship that everyone's talking about! 
+The Delphinus! The one that the Blue Rogue, 
+Vyse, commands!\e"
+MJ0110002,"\h(《Baltor》)GAHAHAHA!!!
+So, Vyse… we meet again!\e"
+MJ0110003,"\h(《Baltor》)This time, I have a little something special for
+you!\e"
+MJ0110004,"\h(《Baltor》)Alright men!
+On the pride of the Black Pirates, 
+kill them all!\e"
+MJ0110005,"\h(《Aika》)Vyse! Black Pirates, dead ahead!
+Wait… hey! Isn't that Baltor's ship?!\e"
+MJ0110006,"\h(《Vyse》)Heh… looks like they've done a little work on 
+their own ship as well! Let's go test out their
+new defenses for them!\e"
+"",me034a.sct
+"",me033a.sct
+"",me033a.sct
+"","B01発生。
+ヴァイス達は星になりました…\c"
+"",M0248
+"",e6b001
+"",a205ab01.mld
+"",a205ab01.mld
+"","「フォグ1」
+「フォグ2」
+「フォグ3」\c"
+"","B07発生しました。
+バルボア船突入！！
+がんばってください\c"
+"",me500a.sct
+"",a205ab07.mld
+"",a205ab07.mld
+"",M0306
+"",e6b007
+"",me500a.sct
+"",a205ab07.mld
+"",イベントＦ０３が発生しました。\c
+"",a205af03.mld
+"",a205af03.mld
+"",e6f003
+"",a205af03.mld
+"",J11バルボア２号登場\c
+"",me573a.sct
+"",a205aj11.mld
+"",a205aj11.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",M0306
+"",e6j011
+"",me573a.sct
+"",a205aj11.mld

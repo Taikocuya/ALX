@@ -1,0 +1,35 @@
+[Event Name],Task ID
+M01090000,"\h(《Bellena》)Nasr basks in the light of the Red Moon. Most
+of the creatures that live here have a strong
+connection with it.\e"
+M01090001,"\h(《Bellena》)Try using a Purple Moon Stone on your weapons.
+You'll see that you can inflict much more damage
+on them that way.\c"
+M01090002,"\h(《Vyse》)… Hm. It won't budge.
+Maybe there's a special way to open it.\c"
+M01090003,"\h(《Vyse》)I can't get this door budge at all.
+It's too heavy to even move.\c"
+M01090004,"\h(《Vyse》)… What's this? There looks like there's some
+sort of switch on top of this pedestal.\c"
+M01090005,"\h(《Vyse》)Whoa… It looks like the switch opens water
+channels to this area.\c"
+M01090006,"\h(《Vyse》)The magma has already been hardened so there's
+no need to run any more water.\c"
+M01090007,"\h(《Vyse》)It looks like some sort of door.
+Hm… I can't get it to budge, though.\c"
+M01090008,"\h(《Vyse》)This is the pedestal where the Red Moon Crystal
+was. It looks really old… but it's still in
+perfect shape.\c"
+M01090009,"\h(《Vyse》)I wonder what this pedestal is for…
+It's got a strange indentation
+on the surface…\c"
+M01090010,"\h(《What will you do?》)”Return to your ship.”
+”Stay in here a little while longer.”\c"
+M01090011,"\h(《What will you do?》)”Return to the Little Jack.”
+”Stay here a little while longer.”\c"
+M01090012,"\h(《What will you do?》)”Return to the Delphinus.”
+”Stay here a little while longer.”\c"
+"",me109b.sct
+"",me109d.sct
+"",M0253
+"",m5090000

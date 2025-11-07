@@ -1,0 +1,499 @@
+[Event Name],Task ID
+ME0090000,"\h(«Aika»)Uh-oh… I think we just stepped on some kind 
+of switch.\e"
+ME0090001,"\h(«Vyse»)Hmm… well, it doesn't look like anything 
+happened. It was probably nothing.\e"
+ME0090002,"\h(«Alfonso»)Well, De Loco… 
+I've heard that the Air Pirates have crossed the
+South Ocean and that they are on their way here.\e"
+ME0090003,"\h(«De Loco»)Yes… I ran into them north of Horteka.
+They ummm… narrowly escaped my Flame Cannon. \e"
+ME0090004,"\h(«Alfonso»)Hehe… yes, well, fighting Air Pirates is a bit 
+more difficult than burning down trees. 
+But, I guess you already know that.\e"
+ME0090005,"\h(«Alfonso»)Vyse was responsible for my demotion. I will 
+make sure he suffers and I will prove to the 
+world that I am Valua's greatest Admiral.\e"
+ME0090006,"\h(«Alfonso»)Well, De Loco, I must be going. 
+I have to exterminate some pests.\e"
+ME0090007,"\h(«De Loco»)Idiot. Perhaps you should have stared into the
+mirror a bit longer this morning… I think you
+have a hair out of place.\e"
+ME0090008,"\h(«De Loco»)As for you, Vyse, you damaged my precious 
+Chameleon… You will pay for that… 
+Oh, yes… You will pay…\e"
+ME0090009,\h(«De Loco»)The next time we meet will be the last!\e
+ME0090010,"\h(«De Loco»)Someone just set off the alarm!
+I wonder who it could be…\e"
+ME0090011,"\h(«De Loco»)Ah! Vyse! How nice of you to drop by. 
+You saved me the trouble of finding you.\e"
+ME0090012,"\h(«De Loco»)Yes… I know that you are searching for the Moon
+Crystals as well… You must be trying to rescue
+Isapa…\e"
+ME0090013,"\h(«De Loco»)Hehehe… good, good!
+You see Vyse, these mines are full of traps… 
+Too bad for you.\e"
+ME0090014,"\h(«De Loco»)You can't escape, Vyse!
+You will never leave these mines alive!!!\e"
+ME0090015,\h(«Aika»)Um… the exit just closed by itself.\e
+ME0090016,"\h(«Vyse»)I don't know about you guys, but I've got a
+bad feeling about this place.\e"
+ME0090017,"\h(«Alfonso»)Soon, Galcian will be taking orders from me.\e"
+ME0090018,"\h(«Alfonso»)I simply don't understand why someone as 
+noble as myself is forced to take orders 
+from anyone other than Empress Teodora herself.\e"
+MSE0090000,"\h(«Aika»)Uh-oh…… Creo que hemos tropezado con una especie
+de interruptor.\e"
+MSE0090001,"\h(«Vyse»)Mmm…… Bueno, no ha pasado nada, probablemente no
+era nada.\e"
+MSE0090002,"\h(«Alfonso»)Bueno, De Loco…… He oído que los Piratas Aéreos
+han cruzado el Océano Sur y vienen hacia aquí.\e"
+MSE0090003,"\h(«De Loco»)Sí…… Coincidimos al norte de Horteka.
+Umm…… Se salvaron por los pelos de mi Cañón de
+Fuego.\e"
+MSE0090004,"\h(«Alfonso»)Jeje…… Sí, pero luchar contra los Piratas Aéreos
+es un poco más difícil que abrasar árboles.
+Pero supongo que eso ya lo sabes.\e"
+MSE0090005,"\h(«Alfonso»)Vyse fue el culpable de que me bajaran de rango.
+Le haré pagar por eso y demostraré al mundo que
+soy el mejor Almirante que haya tenido Valua.\e"
+MSE0090006,"\h(«Alfonso»)Bueno, De Loco, tengo que irme.
+Debo ocuparme de exterminar a esas cucarachas.\e"
+MSE0090007,"\h(«De Loco»)Idiota. Quizá deberías haberte mirado un poco
+mejor en el espejo esta mañana… Creo que tienes
+un pelo fuera de su sitio.\e"
+MSE0090008,"\h(«De Loco»)En cuanto a ti, Vyse, dañaste mi precioso
+Camaleón…… Me las vas a pagar por eso……
+Oh, sí…… Me las pagarás……\e"
+MSE0090009,\h(«De Loco»)¡La próxima vez que nos veamos será la última!\e
+MSE0090010,"\h(«De Loco»)¡Alguien acaba de activar la alarma!
+Me pregunto quién será……\e"
+MSE0090011,"\h(«De Loco»)¡Ah! ¡Vyse! Qué detalle pasarte por aquí.
+Me ahorras la molestia de buscarte.\e"
+MSE0090012,"\h(«De Loco»)Sí…… Sé que tú también estás buscando los
+Cristales Lunares…… Y además intentas rescatar a
+Isapa……\e"
+MSE0090013,"\h(«De Loco»)Jejeje…… ¡Bueno, bueno, bueno!
+Pero Vyse, estas minas están llenas de trampas……
+Lo siento por ti.\e"
+MSE0090014,"\h(«De Loco»)¡No tienes escapatoria, Vyse!
+¡¡¡Nunca conseguirás salir con vida de ahí!!!\e"
+MSE0090015,\h(«Aika»)Vaya…… La salida se ha cerrado sola.\e
+MSE0090016,"\h(«Vyse»)No sé vosotros, chicos; pero a mí este sitio me
+da mala espina.\e"
+MSE0090017,"\h(«Alfonso»)Muy pronto, Galcian estará a mis órdenes.\e"
+MSE0090018,"\h(«Alfonso»)No entiendo por qué alguien de mi nobleza se ve
+obligado a obedecer las órdenes de otra persona
+que no sea la Emperatriz Teodora.\e"
+MFE0090000,"\h(«Aika»)Oh oh…… Je crois que nous avons marché sur une
+sorte de bouton.\e"
+MFE0090001,"\h(«Vyse»)Humm…… bon, on dirait qu'il ne s'est rien passé.
+C'était sûrement rien.\e"
+MFE0090002,"\h(«Alfonso»)Bon, De Loco……
+On m'a dit que les Pirates de l'Air ont traversé
+l'Océan Sud et qu'ils sont en chemin.\e"
+MFE0090003,"\h(«De Loco»)Oui…… Je les ai rencontrés au nord d'Horteka.
+Ils ummm…… ont échappé de justesse à mon Canon
+Flamme.\e"
+MFE0090004,"\h(«Alfonso»)Héhé…… oui, bon, c'est plus difficile de se
+battre contre les Pirates de l'Air que de
+brûler des arbres.
+Mais, vous vous en êtes déjà aperçu.\e"
+MFE0090005,"\h(«Alfonso»)J'ai perdu mon grade à cause de Vyse.
+Je vais faire en sorte qu'il souffre et je
+prouverai au monde entier que je suis le plus
+grand Amiral de Valua.\e"
+MFE0090006,"\h(«Alfonso»)Bon, De Loco, il faut que j'y aille.
+Je dois exterminer ces pestes.\e"
+MFE0090007,"\h(«De Loco»)Pauvre idiot. Tu passes plus de temps devant le
+miroir que derrière un canon.\e"
+MFE0090008,"\h(«De Loco»)Quant à toi, Vyse, tu as endommagé mon précieux
+Caméléon…… Tu vas me le payer……
+Oh, oui…… Tu vas me le payer……\e"
+MFE0090009,"\h(«De Loco»)La prochaine fois que nous nous verrons,
+ce sera aussi la dernière !\e"
+MFE0090010,"\h(«De Loco»)Quelqu'un a déclenché l'alarme !
+Je me demande qui ça peut être……\e"
+MFE0090011,"\h(«De Loco»)Ah ! Vyse ! C'est gentil de passer.
+Ça m'évite d'aller te chercher.\e"
+MFE0090012,"\h(«De Loco»)Oui…… Je sais que tu es à la recherche des
+Cristaux de Lune…… Tu essaies certainement de
+sauver Isapa……\e"
+MFE0090013,"\h(«De Loco»)Héhéhé…… bien, bien !
+Tu vois Vyse, ces mines sont truffées de
+pièges…… Dommage pour toi.\e"
+MFE0090014,"\h(«De Loco»)Tu ne peux pas t'échapper, Vyse !
+Tu ne sortiras jamais vivant de ces mines !!!\e  "
+MFE0090015,\h(«Aika»)Um…… la sortie s'est fermée toute seule.\e
+MFE0090016,"\h(«Vyse»)Je ne sais pas ce que vous en pensez, mais moi
+j'ai un mauvais pressentiment ici.\e"
+MFE0090017,"\h(«Alfonso»)Bientôt, Galcian sera sous mes ordres.\e"
+MFE0090018,"\h(«Alfonso»)Je ne comprends pas, quelqu'un aussi noble que
+moi ne devrait recevoir des ordres que de
+l'Impératrice Teodora et de personne d'autre.\e"
+MGE0090000,"\h(«Aika»)Oho……  Ich glaube, wir sind gerade auf so
+eine Art Schalter getreten.\e"
+MGE0090001,"\h(«Vyse»)Hmm…… also, sieht nicht so aus, als sei etwas
+passiert. Wahrscheinlich ist es nichts.\e"
+MGE0090002,"\h(«Alfonso»)Nun, De Loco……
+Ich habe gehört, dass die Luftpiraten den South
+Ocean passiert haben und hierher unterwegs sind.\e"
+MGE0090003,"\h(«De Loco»)Ja…… Ich bin ihnen nördlich von Horteka
+begegnet. Sie…… emm…… sind meiner Flame
+Cannon mit Müh und Not entkommen.\e"
+MGE0090004,"\h(«Alfonso»)Hihi, tja, also, Luftpiraten zu bekämpfen ist
+etwas schwieriger als Bäume niederzubrennen.
+Aber ich nehme an, das weißt du bereits.\e"
+MGE0090005,"\h(«Alfonso»)Vyse war für meine Degradierung verantwortlich.
+Dafür wird er büßen -- und ich werde
+der Welt beweisen, dass ich Valuas größter
+Admiral bin.\e"
+MGE0090006,"\h(«Alfonso»)Nun, De Loco, ich muss los.
+Ich muss noch Ungeziefer ausrotten.\e"
+MGE0090007,"\h(«De Loco»)Idiot. Vielleicht hättest du heute Morgen etwas
+länger in den Spiegel starren sollen, ich
+glaube, eines deiner Haare liegt nicht richtig.\e"
+MGE0090008,"\h(«De Loco»)Was dich angeht, Vyse, du hast mein teures
+Chameleon beschädigt…… Dafür wirst du bezahlen……
+Oh ja, du wirst zahlen……\e"
+MGE0090009,\h(«De Loco»)Unser nächstes Treffen wird das letzte sein!\e
+MGE0090010,"\h(«De Loco»)Jemand hat gerade den Alarm ausgelöst! Wer
+das wohl sein mag……\e"
+MGE0090011,"\h(«De Loco»)Ach! Vyse!
+Wie nett von dir, mal vorbeizuschauen.
+Du hast mir die Mühe erspart, dich zu suchen.\e"
+MGE0090012,"\h(«De Loco»)Ja…… Ich weiß, dass du auch nach den Moon
+Crystals suchst…… Du willst wohl versuchen,
+Isapa zu retten……\e"
+MGE0090013,"\h(«De Loco»)Hihihi…… gut, gut!
+Siehst du, Vyse, diese Minen sind voller
+Fallen…… Schade um dich.\e"
+MGE0090014,"\h(«De Loco»)Du kannst nicht entkommen, Vyse!
+Du kommst niemals lebend aus diesen Minen
+heraus!!!\e"
+MGE0090015,"\h(«Aika»)Em…… Der Ausgang hat sich gerade von selbst
+geschlossen.\e"
+MGE0090016,"\h(«Vyse»)Was meint ihr, Jungs -- ich habe gar kein
+gutes Gefühl an diesem Ort.\e"
+MGE0090017,"\h(«Alfonso»)Bald wird Galcian Befehle von mir entgegen-
+nehmen.\e"
+MGE0090018,"\h(«Alfonso»)Ich verstehe einfach nicht, warum jemand so
+Angesehenes wie ich dazu verpflichtet ist,
+Befehle von irgendjemand anderem als Kaiserin
+Teodora entgegenzunehmen.\e"
+M01110000,"\h(«Vyse»)A Valuan soldier…
+I guess this is the Valuan stronghold.\c"
+M01110001,"\h(«Vyse»)An Ixa'takan…
+Valuans are probably forcing them to
+mine for Moon Stones…\c"
+M01110002,"\h(«Vyse»)This door has been welded shut…
+It looks like they're serious about
+keeping the Ixa'takans in here.\e"
+M01110003,"\h(«Vyse»)Sorry, guys, but just hang in a little while
+longer. I'll free all of you… I promise. I'll
+send those Valuans back to Valua…\c"
+M01110004,"\h(«Vyse»)Damn… This door's welded shut… It doesn't look
+like I'm going to get any further this way.\c"
+M01110005,"\h(«Vyse»)Damn this shutter…
+It won't budge at all.\c"
+M01110006,"\h(«Vyse»)There's a big shutter…
+But, it doesn't look like it going to open.\c"
+M01110007,"\h(«Vyse»)The door closed again. This is just great.
+Why do I get the strange feeling that someone's
+leading me somewhere…?\c"
+M01110008,"\h( )Perfect devices and perfect machines
+are far more sacred than human life!
+                            De Loco\c"
+M01110009,"\h( )Only perfect devices are worth anything!
+Imperfect devices are garbage!
+                             De Loco\c"
+M01110010,"\h( )Useless machines should be thrown away.
+Useless people should be executed!
+                               De Loco\c"
+M01110011,"\h( )Kill any Ixa'takan who tries
+to resist!
+                     De Loco\c"
+M01110012,"\h( )A Moon Stone pebble is worth
+a gallon of blood!
+                      De Loco\c"
+M01110013,"\h( )Treat my machines with respect,
+or you'll be drawn and quartered!
+                         De Loco\c"
+M01110014,"\h( )Inside this mine,
+I am the law!
+           De Loco\c"
+M01110015,"\h(«Vyse»)Why do all these doors keep closing on me?
+What's going on here?\c"
+M01110016,"\h(«Vyse»)Hmph. Nope, it won't move.
+It looks like the electricity's been cut.\c"
+M01110017,"\h(«Captured Man»)Hm? You don't look like you're a Valuan…
+Who might you be?\e"
+M01110018,"\h(«Vyse»)It closed again…
+It almost seems like someone's watching
+what we do, and closing the doors…\c"
+M01110019,"\h(«Vyse»)Nope… it won't open.
+Looks like it's locked.\c"
+M01110020,"\h(«Alfonso»)Uh… ugh…
+W… Why do these things always happen to me?\c"
+M01110021,"\h(«What will you do?»)“Return to the Little Jack.”
+“Stay in here a little while longer.”\c"
+M01110022,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay in here a little while longer.”\c"
+M01110023,"\h(«Ixa'takan Slave»)I haven't seen you around here before.
+Were you brought here recently?\e"
+M01110024,"\h(«Ixa'takan Slave»)A man named De Loco made this mine.
+It's filled with nasty traps.\e"
+M01110025,"\h(«Ixa'takan Slave»)There's trap doors all over the place.
+And remember, a circle doesn't always mean
+it's the right way.\e"
+M01110026,"\h(«Ixa'takan Slave»)If you can see below,
+look down. If there's a mining cart,
+it'll come back here.\c"
+M01110027,"\h(«Ixa'takan Slave»)There's trap doors all over the place.
+And remember, a circle doesn't always mean
+it's the right way.\e"
+M01110028,"\h(«Ixa'takan Slave»)If you can see below,
+look down. If there's a mining cart,
+it'll come back here.\c"
+MS01110000,"\h(«Vyse»)Un soldado Valuan……
+Ésta debe ser la fortaleza Valuan.\c"
+MS01110001,"\h(«Vyse»)Un Ixa'takan……
+Los Valuan deben obligarles a trabajar
+en las minas de Piedras Lunares……\c"
+MS01110002,"\h(«Vyse»)Esta puerta ha sido soldada……
+No se andan con bromas en cuanto a
+tener a los Ixa'takan bien encerrados.\e"
+MS01110003,"\h(«Vyse»)Lo siento, chicos, vais a tener que esperar un
+poco más. Os voy a liberar…… lo prometo. Voy a
+mandar a esos Valuan a su casa……\c"
+MS01110004,"\h(«Vyse»)Caray…… Esta puerta está herméticamente
+cerrada…… No creo que vaya a avanzar mucho con
+este sistema.\c"
+MS01110005,"\h(«Vyse»)La dichosa compuerta……
+No se mueve ni un milímetro.\e"
+MS01110006,"\h(«Vyse»)Hay una compuerta grande……
+Pero no parece que se pueda abrir.\c"
+MS01110007,"\h(«Vyse»)Se ha vuelto a cerrar la puerta. Genial.
+¿Por qué tengo la extraña sensación de que
+alguien quiere hacerme una encerrona……?\c"
+MS01110008,"\h( )¡El dispositivo perfecto y la máquina perfecta
+son cosas mucho más sagradas que una vida
+humana!
+                           De Loco\c"
+MS01110009,"\h( )¡Sólo las cosas perfectas tienen valor!
+¡Las cosas imperfectas no valen nada!
+                             De Loco\c"
+MS01110010,"\h( )Las máquinas que no funcionen deben tirarse.
+¡Y la gente imperfecta debe ser ejecutada!
+                               De Loco\c"
+MS01110011,"\h( )｡Matad a los Ixa'takan que opongan resistencia!
+ 
+                     De Loco\c"
+MS01110012,"\h( )¡Una Piedra Lunar, por pequeña que sea,
+vale mucho más que litros y litros de sangre!
+                      De Loco\c"
+MS01110013,"\h( )¡Tratad mis máquinas con respeto
+o seréis torturados y descuartizados!
+                         De Loco\c"
+MS01110014,"\h( )｡En esta mina,
+mi palabra es ley!
+           De Loco\c"
+MS01110015,"\h(«Vyse»)¿Por qué se me cierran todas estas puertas?
+¿Qué pasa aquí?\c"
+MS01110016,"\h(«Vyse»)Mmff. No, no se mueve.
+Por lo visto han cortado la electricidad.\c"
+MS01110017,"\h(«Prisionero»)¿Eh? No pareces Valuan……
+¿Quién eres entonces?\e"
+MS01110018,"\h(«Vyse»)Se ha cerrado otra vez……
+Es como si alguien estuviera vigilándonos y
+cerrándonos las puertas……\c"
+MS01110019,"\h(«Vyse»)No…… no abre.
+Parece que está cerrada.\c"
+MS01110020,"\h(«Alfonso»)Oh…… ah……
+¿Por…… por qué me tienen que pasar estas cosas
+siempre a mí?\c"
+MS01110021,"\h(«¿Qué vas a hacer?»)“Volver al Little Jack.”
+“Pasar aquí más tiempo.”\c"
+MS01110022,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Pasar aquí más tiempo.”\c"
+MS01110023,"\h(«Esclavo Ixa'takan»)No te había visto nunca por aquí.
+¿Te han traído hace poco?\e"
+MS01110024,"\h(«Esclavo Ixa'takan»)Un hombre llamado De Loco levantó esta mina.
+Esta llena de trampas horribles.\e"
+MS01110025,"\h(«Esclavo Ixa'takan»)Hay puertas-trampa por todas partes.
+Y recuerda que un círculo no siempre significa
+que sea el camino correcto.\e"
+MS01110026,"\h(«Esclavo Ixa'takan»)Si puedes mirar hacia abajo,
+mira. Si hay una carreta de minero,
+volverá aquí.\c"
+MS01110027,"\h(«Esclavo Ixa'takan»)Hay puertas-trampa por todas partes.
+Y recuerda el círculo no es siempre el camino
+correcto.\e"
+MS01110028,"\h(«Esclavo Ixa'takan»)Si puedes mirar hacia abajo,
+mira. Si hay una carreta de minero,
+volverá aquí.\c"
+MF01110000,"\h(«Vyse»)Un soldat Valuan……
+Je suppose que c'est la forteresse Valuan.\c"
+MF01110001,"\h(«Vyse»)Un Ixa'takan……
+Les Valuans les obligent certainement à extraire
+les Pierres de Lune……\c"
+MF01110002,"\h(«Vyse»)Cette porte a été soudée……
+On dirait qu'ils ont bien l'intention de
+garder les Ixa'takans ici.\e"
+MF01110003,"\h(«Vyse»)Désolé, les gars, il va falloir encore tenir un
+peu. Je vais tous vous libérer…… Promis. Je
+renverrai ces Valuans à Valua……\c"
+MF01110004,"\h(«Vyse»)Bon sang…… Cette porte est soudée…… On dirait
+que je n'irai pas plus loin par ici.\c"
+MF01110005,"\h(«Vyse»)Bong sang, ce volet……
+Il ne veut pas bouger.\c"
+MF01110006,"\h(«Vyse»)Il y a un grand volet……
+Mais, apparemment il ne va pas s'ouvrir.\c"
+MF01110007,"\h(«Vyse»)La porte s'est refermée. Génial.
+Pourquoi est-ce que j'ai l'étrange impression
+que quelqu'un me mène quelque part……?\c"
+MF01110008,"\h( )Les mécanismes et les machines parfaits sont
+bien plus sacrés que les vies humaines !
+                            De Loco\c"
+MF01110009,"\h( )Seuls les mécanismes parfaits valent quelque
+chose ! Les mécanismes imparfaits sont nuls !
+                             De Loco\c"
+MF01110010,"\h( )Les machines inutiles devraient être jetées.
+Les incapables devraient être exécutés !
+                               De Loco\c"
+MF01110011,"\h( )Tuez tous les Ixa'takan qui tentent de
+résister !
+                     De Loco\c"
+MF01110012,"\h( )Un morceau de Pierre de Lune vaut un gallon de
+sang !
+                      De Loco\c"
+MF01110013,"\h( )Traitez mes machines avec respect,
+sinon vous serez traîné et écartelé !
+                         De Loco\c"
+MF01110014,"\h( )À l'intérieur de cette mine,
+je suis la loi !
+           De Loco\c"
+MF01110015,"\h(«Vyse»)Pourquoi est-ce que toutes ces portes se ferment
+sur moi ? Que se passe t-il ?\c"
+MF01110016,"\h(«Vyse»)Pfut. Non, elle ne veut pas bouger.
+On dirait que l'électricité a été coupée.\c"
+MF01110017,"\h(«Homme Capturé»)Hum ? Vous ne devez pas être Valuan……
+Qui pouvez-vous bien être ?\e"
+MF01110018,"\h(«Vyse»)Elle s'est encore fermée……
+C'est comme si quelqu'un observait nos faits et
+gestes, et fermait les portes……\c"
+MF01110019,"\h(«Vyse»)Non…… elle ne veut pas bouger.
+On dirait qu'elle est bloquée.\c"
+MF01110020,"\h(«Alfonso»)Uh…… ugh…… P…… pourquoi est-ce que c'est
+toujours à moi que cela arrive ?\c"
+MF01110021,"\h(«Que ferez-vous ?»)“Vous retournerez sur votre navire.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MF01110022,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MF01110023,"\h(«Esclave Ixa'takan»)C'est la première fois que je vous vois par ici.
+On vous a emmené ici récemment ?\e"
+MF01110024,"\h(«Esclave Ixa'takan»)Un homme du nom de De Loco a créé cette mine.
+Elle est remplie de pièges vicieux.\e"
+MF01110025,"\h(«Esclave Ixa'takan»)Il y a des trappes partout.
+Et souvenez-vous, un cercle ne signifie pas
+toujours que vous êtes sur le bon chemin.\e"
+MF01110026,"\h(«Esclave Ixa'takan»)Si vous pouvez voir en-dessous,
+regardez en bas. S'il y a un chariot,
+il reviendra ici.\c"
+MF01110027,"\h(«Esclave Ixa'takan»)Il y a des trappes partout.
+Et souvenez-vous, un cercle ne signifie pas
+toujours que vous êtes sur le bon chemin.\e"
+MF01110028,"\h(«Esclave Ixa'takan»)Si vous pouvez voir en-dessous,
+regardez en bas. S'il y a un chariot,
+il reviendra ici.\c"
+MG01110000,"\h(«Vyse»)Ein valuanischer Soldat……
+Ich nehme an, dies ist ein valuanischer
+Stützpunkt.\c"
+MG01110001,"\h(«Vyse»)Ein Ixa'takaner……
+Die Valuaner zwingen sie wahrscheinlich dazu,
+nach Moon Stones zu graben……\c"
+MG01110002,"\h(«Vyse»)Diese Tür ist zugeschweißt worden……
+Es sieht so aus, als würden sie es ernst
+meinen, die Ixa'takaner hierzubehalten.\e"
+MG01110003,"\h(«Vyse»)Haltet noch eine Weile durch. Ich werde
+euch alle befreien…… das verspreche ich.
+Ich werde diese Valuaner zurück nach Valua
+schicken……\c"
+MG01110004,"\h(«Vyse»)Verdammt…… diese Tür ist zugeschweißt worden……
+Auf diese Weise komme ich wohl nicht weiter.\c"
+MG01110005,"\h(«Vyse»)Diese blöde Klappe……
+Sie bewegt sich überhaupt nicht.\c"
+MG01110006,"\h(«Vyse»)Da ist eine große Klappe……
+Aber es sieht nicht so aus, als ließe sie
+sich öffnen.\c"
+MG01110007,"\h(«Vyse»)Die Tür ist wieder zu. Ist ja toll.
+Warum kann ich mich des Gefühls nicht erwehren,
+dass man mich irgendwo hin führen will……?\c"
+MG01110008,"\h( )Perfekte Apparate und perfekte Maschinen
+sind wertvoller als menschliches Leben!
+                            De Loco\c"
+MG01110009,"\h( )Nur perfekte Apparate sind etwas wert!
+Unvollkommene Apparate sind Müll!
+                             De Loco\c"
+MG01110010,"\h( )Unbrauchbare Maschinen sollten weggeworfen
+werden. Unbrauchbare Menschen sollten
+hingerichtet werden!
+                               De Loco\c"
+MG01110011,"\h( )Töte jeden Ixa'takaner, der es wagt,
+sich zu wehren!
+                     De Loco\c"
+MG01110012,"\h( )Ein winziger Moon Stone ist viel
+Blut wert!
+                      De Loco\c"
+MG01110013,"\h( )Behandle meine Maschinen mit Respekt,
+oder du wirst gestreckt und gevierteilt!
+                         De Loco\c"
+MG01110014,"\h( )Innerhalb dieser Mine
+bin ich das Gesetz!
+           De Loco\c"
+MG01110015,"\h(«Vyse»)Warum schließen sich all diese Türen vor mir?
+Was geht hier vor?\c"
+MG01110016,"\h(«Vyse»)Hmpf. Nein, hat keinen Zweck.
+Es sieht so aus, als sei der Strom abgestellt
+worden.\c"
+MG01110017,"\h(«Gefangener Mann»)Hm? Du siehst nicht aus wie ein Valuaner……
+Wer könntest du wohl sein?\e"
+MG01110018,"\h(«Vyse»)Sie hat sich wieder geschlossen……
+Man könnte meinen, jemand würde
+beobachten, was ich tue, und dann die Türen
+schließen……\c"
+MG01110019,"\h(«Vyse»)Nein…… sie öffnet sich nicht.
+Sie ist wohl abgeschlossen.\c"
+MG01110020,"\h(«Alfonso»)Uh…… urg……
+W…… warum passieren gerade mir immer diese
+Dinge?\c"
+MG01110021,"\h(«Was wirst du tun?»)“Zur Little Jack zurückkehren.”
+“Noch eine Weile hier drin bleiben.”\c"
+MG01110022,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Noch eine Weile hier drin bleiben.”\c"
+MG01110023,"\h(«Ixa'takanischer Sklave»)Dich habe ich hier noch nie gesehen.
+Bist du erst vor kurzem hergebracht worden?\e"
+MG01110024,"\h(«Ixa'takanischer Sklave»)Ein Mann namens De Loco hat diese Mine gebaut.
+Sie ist voller übler Fallen.\e"
+MG01110025,"\h(«Ixa'takanischer Sklave»)Hier gibt es überall Falltüren.
+Und denk dran, ein Kreis bedeutet nicht immer,
+dass der Weg richtig ist.\e"
+MG01110026,"\h(«Ixa'takanischer Sklave»)Wenn du nach unten schauen kannst, dann tu das.
+Alle Loren kommen immer hierher zurück.\c"
+MG01110027,"\h(«Ixa'takanischer Sklave»)Hier gibt es überall Falltüren.
+Und denk dran, ein Kreis bedeutet nicht immer,
+dass der Weg richtig ist.\e"
+MG01110028,"\h(«Ixa'takanischer Sklave»)Wenn du nach unten schauen kannst, dann tu das.
+Alle Loren kommen immer hierher zurück.\c"
+"",me111b.sct
+"",me111d.sct
+"",M0249
+"",m5110000
+"",k8030000
+"",EV_E09発生しました。\c
+"",M0249
+"",e6e009
+"",a111ae09.mld
+"",M0326
+"",M0326
+"",a111ae09.mld

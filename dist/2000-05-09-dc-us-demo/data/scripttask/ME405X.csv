@@ -1,0 +1,77 @@
+[Event Name],Task ID
+MB0010000,"\h(《Aika》)The visibility is poor!
+Vyse, it's growing too foggy. \e"
+MB0010001,"\h(《Vyse》)It's strange… there's never any 
+fog in this region… \e"
+MB0010002,"\h(《Vyse》)Well, the only way to get to Pirate Isle 
+is to go straight through this area. 
+Let's advance at half-speed. \e"
+MB0010003,"\h(《Aika》)Wait a minute, Vyse.
+Something's… there… \e"
+MB0010004,"\h(《Vyse》)What, what is it?
+Is it the Floating Island!? \e"
+MB0010005,\h(《Aika》)Aaahh! \e
+MB0010006,"\h(《Aika》)L- Look, Vyse! \e"
+MB0010007,"\h(《Aika》)It… It isn't an island! 
+It's alive! \e"
+MB0010008,"\h(《Vyse》)What the…
+It's a whale!! \e"
+MB0010009,"\h(《Vyse》)Wow…
+That's the biggest whale 
+I've ever seen in my life! \e"
+MB0010010,"\h(《Aika》)We will probably be knocked out of the sky 
+if we get too close with this 
+small ship… \e"
+MB0010011,"\h(《Aika》)Vyse, what should we do? \e"
+MB0010012,"\h(《What should we do!?》)“Of course we’ll fight it” 
+“Of course we’ll run away” 
+“…Aika, what should we do?” \e"
+MB0010013,"\h(《Vyse》)Of course we'll fight it. 
+We can't just let it
+sink our ship! \e"
+MB0010014,"\h(《Aika》)Are you crazy? How are we going 
+to beat it with this small ship? 
+We don't even have a cannon! \e"
+MB0010015,"\h(《Aika》)We must continue on to Valua without a 
+moment's delay. We don't have 
+time for this! \e"
+MB0010016,"\h(《Vyse》)Of course we're going to run away. 
+This little ship wouldn't stand a chance 
+of holding together against that thing. \e"
+MB0010017,"\h(《Vyse》)Our goal is to go to Valua.
+We don't have time to deal 
+with this monster. \e"
+MB0010018,"\h(《Aika》)Okay. 
+I can't argue with that 
+decision. \e"
+MB0010019,"\h(《Vyse》)…What should we do? 
+Aika, do you have any good advice? \e"
+MB0010020,"\h(《Aika》)Vyse! 
+Don't be so undependable! \e"
+MB0010021,"\h(《Aika》)Well… we wouldn't stand a chance 
+in this small ship, so I 
+suggest we run away! \e"
+MB0010022,\h(《Aika》)Aahh! \e
+MB0010023,"\h(《Aika》)Vyse…
+I can't hold on much longer! \e"
+MB0010024,"\h(《Vyse》)Just grab onto something and hang tight! 
+If you let go, you'll be 
+blown off the ship! \e"
+MB0010025,"\h(《Aika》)But…
+The ship can't hold together much longer! \e"
+MB0010026,\h(《Vyse・Aika》)Aaaahhhh!! \e
+"",me404x.sct
+"",e6o002
+"",a405x_eff.mld
+"",a400x_ef3.mld
+"",a405x_ef2.mld
+"",a405x_ef2.mld
+"",a405x_eff.mld
+"",a400x_ef3.mld
+"",e6o002
+"",M0248
+"",a205ab01.mld
+"",a205ab01.mld
+"","「フォグ使用」
+「」
+「フォグ不使用」\c"

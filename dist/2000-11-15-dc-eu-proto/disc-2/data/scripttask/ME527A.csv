@@ -1,0 +1,56 @@
+[Event Name],Task ID
+MA5270000,\h(«Aika»)Oh well… It got away…\e
+MA5270001,"\h(«Vyse»)Hmm… It looks like if we do too much damage
+at once, it gets scared and runs away…\e"
+MA5270002,"\h(«Aika»)Alright, then…
+Next time, we'll just try damaging it little
+by little. Maybe that will work…\c"
+MA5270003,"\h(«Aika»)Hey…!
+It's running away!\e"
+MA5270004,"\h(«Vyse»)Hmm… Why do I get the strange feeling that
+it's laughing at us right now…\c"
+MSA5270000,\h(《Aika》)Oh well… It got away…\e
+MSA5270001,"\h(《Vyse》)Hmm… It looks like if we do too much damage
+at once, it gets scared and runs away…\e"
+MSA5270002,"\h(《Aika》)Alright, then…
+Next time, we'll just try damaging it little
+by little. Maybe that will work…\c"
+MSA5270003,"\h(《Aika》)Hey…!
+It's running away!\e"
+MSA5270004,"\h(《Vyse》)Hmm… Why do I get the strange feeling that
+it's laughing at us right now…\c"
+MFA5270000,\h(《Aika》)Oh well… It got away…\e
+MFA5270001,"\h(《Vyse》)Hmm… It looks like if we do too much damage
+at once, it gets scared and runs away…\e"
+MFA5270002,"\h(《Aika》)Alright, then…
+Next time, we'll just try damaging it little
+by little. Maybe that will work…\c"
+MFA5270003,"\h(《Aika》)Hey…!
+It's running away!\e"
+MFA5270004,"\h(《Vyse》)Hmm… Why do I get the strange feeling that
+it's laughing at us right now…\c"
+MGA5270000,\h(《Aika》)Oh well… It got away…\e
+MGA5270001,"\h(《Vyse》)Hmm… It looks like if we do too much damage
+at once, it gets scared and runs away…\e"
+MGA5270002,"\h(《Aika》)Alright, then…
+Next time, we'll just try damaging it little
+by little. Maybe that will work…\c"
+MGA5270003,"\h(《Aika》)Hey…!
+It's running away!\e"
+MGA5270004,"\h(《Vyse》)Hmm… Why do I get the strange feeling that
+it's laughing at us right now…\c"
+"",M0430
+"",k0200.mld
+"",k0200.mld
+"",f7100051s.p04
+"",k0200.mld
+"",f7100100S.p04
+"",me090a.sct
+"",f3000040
+"",f3000040
+"","
+ターン選択
+\c"
+"","ターン0
+ターン1\cターン2\cターン3\c"
+"",f3000026

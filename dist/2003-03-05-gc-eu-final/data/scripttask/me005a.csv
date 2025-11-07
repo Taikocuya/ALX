@@ -1,0 +1,760 @@
+[Event Name],Task ID
+MC0240000,"\h(«Aika»)Hmm… Lower City looks worse up close.
+Everything is so dirty and run down… and it
+smells like… garbage.\e"
+MC0240001,"\h(«Vyse»)We still need to check the place out. 
+We need to find a way to save Dad and 
+the others.\e"
+MC0240002,"\h(«Vyse»)Captain, what do you think we should do?\e"
+MC0240003,"\h(«Drachma»)I'm returnin' to the docks…
+I'll be overseein' the installation of the 
+Harpoon Cannon.\e"
+MC0240004,"\h(«Vyse»)Let's split up. Aika and I will check out the 
+city, while you get your cannon.  When we're 
+done, let's meet back at the inn.\e"
+MC0240005,"\h(«Drachma»)Sure.
+I'll see you two later then.\e"
+MFC0240000,"\h(«Aika»)Humm…… De plus près, le Bas Valua a l'air pire.
+Tout est si sale et délabré…… et ça sent les……
+ordures.\e"
+MFC0240001,"\h(«Vyse»)Nous devons aller inspecter les environs.
+Il faut trouver un moyen de sauver mon père et
+les autres.\e"
+MFC0240002,"\h(«Vyse»)Capitaine, que devrions-nous faire à votre
+avis ?\e"
+MFC0240003,"\h(«Drachma»)Je retourne aux docks……
+Je vais surveiller l'installation du Canon
+Harpon.\e"
+MFC0240004,"\h(«Vyse»)Séparons-nous. Aika et moi allons inspecter la
+ville, pendant que vous allez chercher votre
+canon. Retrouvons-nous après à l'auberge.\e"
+MFC0240005,"\h(«Drachma»)D'accord.
+À tout à l'heure.\e"
+MGC0240000,"\h(«Aika»)Hmm… Lower City sieht von Nahem noch schlimmer
+aus. Alles ist so schmutzig und
+heruntergekommen…… und es riecht nach…… Unrat.\e"
+MGC0240001,"\h(«Vyse»)Wir müssen diesen Ort trotzdem auskundschaften.
+Wir müssen eine Möglichkeit finden, Dad und
+die anderen zu retten.\e"
+MGC0240002,"\h(«Vyse»)Captain, was meinst du, was wir tun sollen?\e"
+MGC0240003,"\h(«Drachma»)Ich kehre zu den Docks zurück……
+Ich werde die Installation der Harpoon Cannon
+überwachen.\e"
+MGC0240004,"\h(«Vyse»)Trennen wir uns. Aika und ich schauen uns in
+der Stadt um, während du deine Kanone holst.
+Wenn wir fertig sind, treffen wir uns wieder
+im Wirtshaus.\e"
+MGC0240005,"\h(«Drachma»)Klar.
+Bis später, ihr zwei.\e"
+MSC0240000,"\h(«Aika»)Vaya…… El Arrabal tiene peor pinta de cerca.
+Todo está tan sucio y deteriorado…… y huele…… a
+basura.\e"
+MSC0240001,"\h(«Vyse»)Aún tenemos que estudiar este lugar a fondo.
+Tenemos que idear la forma de ayudar a papá y a
+los demás.\e"
+MSC0240002,"\h(«Vyse»)Capitán, ¿qué cree que debemos hacer?\e"
+MSC0240003,"\h(«Drachma»)Voy a regresar al embarcadero……
+Voy a supervisar la instalación del Cañón Arpón.\e"
+MSC0240004,"\h(«Vyse»)Vamos a separarnos. Aika y yo examinaremos la
+ciudad, mientras el Capitán instala su cañón.
+Cuando terminemos nos encontramos en la posada.\e"
+MSC0240005,"\h(«Drachma»)Claro.
+Os veo más tarde.\e"
+M02000000,"\h(«Young Boy»)Hm?
+Who're you?\e"
+M02000001,"\h(«Young Boy»)You guys look like sailors…
+Stupid ones, at that. Why else would you come
+all this way to see a dump like Lower City?\e"
+M02000002,"\h(«Aika»)Well, well… aren't we a little obnoxious…
+Kind of reminds me of a particular someone when
+they were little.\e"
+M02000003,"\h(«Vyse»)Hey! I wasn't this annoying when I was little!
+Give me some credit here!\e"
+M02000004,"\h(«Young Boy»)What did you say?!
+Are you trying to start a fight with me?!\e"
+M02000005,"\h(«Young Boy»)The name is Marco!
+Everybody who is anybody in this town knows who
+I am!\e"
+M02000006,"\h(«Vyse»)Haha… For such a short kid, you sure know how
+to talk big!\e"
+M02000007,"\h(«Vyse»)Sorry, boy, but we don't have time to play with
+little kids right now.\e"
+M02000008,"\h(«Marco»)What did you say?!
+I'll remember this! Fools!\e"
+M02000009,"\h(«Marco»)You'll regret having made me angry!
+I'll remember this!!\e"
+M02010000,"\h(«Lower City Valuan»)This is Lower City.
+The people of Valua are forced to live in
+certain areas, depending on their status.\e"
+M02010001,"\h(«Lower City Valuan»)So, this desolate place is where all of us poor
+people are forced to live…\e"
+M02010002,"\h(«Lower City Valuan»)This happened quite a while ago, but once,
+there were these Air Pirates that came here to
+rescue their friends and family…\e"
+M02010003,"\h(«Lower City Valuan»)…And they broke them out of the Coliseum! It
+was great… They were such good fighters. Well,
+I guess you had to be there to understand…\c"
+M02020000,"\h(«Lower City Valuan»)Excuse me, but have you seen my husband?\e"
+M02020001,"\h(«Lower City Valuan»)He should've been home by now! I wonder where
+he's wandered off to now… I hope he's okay.
+I told him not to stay out too long after dark…\c"
+M02020002,"\h(«Lower City Valuan»)That reminds me…
+I haven't seen that kid, Marco, in a while.
+I wonder where he's run off to…\c"
+M02030000,"\h(«Lower City Valuan»)*sigh*
+Those rich nobles… they're so lucky that they
+get to live in Upper City on the other shore…\e"
+M02030001,"\h(«Lower City Valuan»)They get to eat good food…
+wear nice clothes…
+live in big houses…\e"
+M02030002,"\h(«Lower City Valuan»)Sigh…
+Why did I have to be born in
+this awful place?\c"
+M02030003,"\h(«Lower City Valuan»)Sigh…
+Why was I born on this side of the bay?\c"
+M02040000,"\h(«Stray Huskra»)Parurururu…
+Pow pow!\e"
+M02050000,"\h(«Tavernkeep»)Did you hear?
+Tomorrow morning, there's going to be an
+execution at the Coliseum.\e"
+M02050001,"\h(«Tavernkeep»)I heard that they will be executing some
+Air Pirates that the Armada captured.\e"
+M02050002,"\h(«Vyse»)Wh, what?!
+Is that true?!\e"
+M02050003,"\h(«Tavernkeep»)Yeah. There was a soldier in here earlier
+telling everyone about it. Heh… it's been a
+while since we've had an interesting show.\e"
+M02050004,"\h(«Vyse»)They make executions into shows?
+This place is horrible…\e"
+M02050005,"\h(«Aika»)Vyse…
+We have no time to waste.\e"
+M02050006,"\h(«Tavernkeep»)It sounds like the Air Pirates will be saying
+goodbye to their heads… so sad.\c"
+M02050007,"\h(«Tavernkeep»)I heard that there was a commotion of some sort
+over at the Grand Fortress.\e"
+M02050008,"\h(«Tavernkeep»)Well, it's not like that has much to do with us
+here in Lower City, so it probably doesn't
+matter anyway.\c"
+M02060000,"\h(«Lower City Valuan»)Day after day… all I ever do is build Valuan
+battleships until I can hardly stand…\e"
+M02060001,"\h(«Lower City Valuan»)I don't feel like doing anything anymore…
+Why can't I live like the people in Upper City?
+They get to play everyday… It's just not fair.\e"
+M02070000,"\h(«Lower City Valuan»)I'm tired…
+Just leave me alone…\e"
+M02080000,"\h(«Weapons Merchant»)Welcome to my store.
+This is the weapons and armor shop.\e"
+M02080001,"\h(«What will you do?»)“Buy and sell weapons and armor.”
+“Talk about various things.”
+“Leave.”\e"
+M02080002,"\h(«Weapons Merchant»)A lot of our wares are handed down from the
+Valuan Armada, but I guarantee their quality.\c"
+M02080003,"\h(«Weapons Merchant»)Thank you!
+Please come again!\c"
+M02090000,"\h(«Item Merchant»)Welcome. We don't have a whole lot in this city,
+but will you please buy something… anything…
+please…\e"
+M02090001,"\h(«What will you do?»)“Buy and sell items.”
+“Talk about various things.”
+“Leave.”\e"
+M02090002,"\h(«Item Merchant»)If you're looking for the Ship Parts Merchant,
+he's been at the docks a lot recently.\e"
+M02090003,"\h(«Item Merchant»)Ever since he started selling Harpoon Cannons,
+the customers have been coming in droves.\c"
+M02090004,"\h(«Item Merchant»)Thank you very much!
+I hope you will shop here again!\c"
+M02100000,"\h(«Lower City Valuan»)Well, even though life here is hard… really
+hard… and there aren't many pleasantries…\e"
+M02100001,"\h(«Lower City Valuan»)… I never want to forget how to smile.
+If you forget how to smile, you'll never have
+anything to look forward to again.\e"
+M02110000,"\h(«Drachma»)I will be overseeing the modifications that are
+being done to the Little Jack. You go on ahead
+to the inn.\e"
+MF02000000,"\h(«Jeune Garçon»)Hum ?
+Qui êtes-vous ?\e"
+MF02000001,"\h(«Jeune Garçon»)Vous ressemblez à des marins…… Et pas des plus
+malins. Sinon pourquoi feriez-vous tout ce
+chemin pour voir un bled comme Bas Valua ?\e"
+MF02000002,"\h(«Aika»)Tiens, tiens…… qu'est-ce qu'on est odieux……
+Tu me rappelles un peu quelqu'un quand il était
+jeune.\e"
+MF02000003,"\h(«Vyse»)Hé ! Je n'étais pas aussi énervant !
+Avoue-le !\e"
+MF02000004,"\h(«Jeune Garçon»)Qu'est-ce que tu as dit ?!
+Tu cherches la bagarre ?!\e"
+MF02000005,"\h(«Jeune Garçon»)Je m'appelle Marco !
+Tout le monde me connaît dans cette ville !\e"
+MF02000006,"\h(«Vyse»)Haha…… Tu parles comme un grand pour un petit
+garçon !\e"
+MF02000007,"\h(«Vyse»)Désolé, petit, mais nous n'avons pas le temps de
+nous amuser avec les enfants.\e"
+MF02000008,"\h(«Marco»)Qu'est-ce que tu as dit ?!
+Je m'en souviendrai ! Imbéciles !\e"
+MF02000009,"\h(«Marco»)Vous regretterez de m'avoir vexé !
+Je m'en souviendrai !!\e"
+MF02010000,"\h(«Habitant de Bas Valua»)Voilà Bas Valua.
+Les habitants de Valua sont confinés dans
+certains quartiers, selon leur statut.\e"
+MF02010001,"\h(«Habitant de Bas Valua»)Alors, les pauvres habitants comme nous sont
+obligés d'habiter dans cet endroit de
+désolation……\e"
+MF02010002,"\h(«Habitant de Bas Valua»)Un jour, il y a bien longtemps de cela, ces
+Pirates de l'Air sont venus sauver leurs
+familles et leurs amis……\e"
+MF02010003,"\h(«Habitant de Bas Valua»)……Et ils les ont aidés à s'évader du Coliseum !
+C'était formidable…… Ils savaient bien se
+battre. J'imagine qu'il faudrait le voir pour
+le croire……\c"
+MF02020000,"\h(«Habitante de Bas Valua»)Excusez-moi, mais avez-vous vu mon mari ?\e"
+MF02020001,"\h(«Habitante de Bas Valua»)Il devrait déjà être rentré ! Je me demande où
+il est allé traîner…… J'espère qu'il va bien.
+Je lui ai dit de ne pas trop tarder quand il
+fait nuit……\c"
+MF02020002,"\h(«Habitante de Bas Valua»)Cela me rappelle que……
+Je n'ai pas vu ce petit Marco, depuis un moment.
+Je me demande où il est passé……\c"
+MF02030000,"\h(«Habitant de Bas Valua»)“soupir……”
+Ces nobles fortunés…… ils ont de la chance
+d'habiter à Haut Valua sur l'autre rive……\e"
+MF02030001,"\h(«Habitant de Bas Valua»)Ils mangent bien……
+portent de beaux habits……
+vivent dans des grandes maisons……\e"
+MF02030002,"\h(«Habitant de Bas Valua»)“Soupir……”
+Pourquoi suis-je né dans cet endroit horrible ?\c"
+MF02030003,"\h(«Habitant de Bas Valua»)“Soupir……”
+Pourquoi suis-je né dans cet endroit horrible ?\c"
+MF02040000,"\h(«Huskra Errant»)Parurururu……
+Pow pow !\e"
+MF02050000,"\h(«Tavernier»)Vous êtes au courant ?
+Demain midi, aura lieu une
+exécution au Coliseum.\e"
+MF02050001,"\h(«Tavernier»)On dit qu'ils vont exécuter des Pirates de l'Air
+que l'Armada a capturés.\e"
+MF02050002,"\h(«Vyse»)Qu, quoi ?!
+C'est vrai ?!\e"
+MF02050003,"\h(«Tavernier»)Oui. Un soldat nous a tout raconté tout à
+l'heure. Hé…… nous n'avons pas vu de spectacle
+intéressant depuis longtemps.\e"
+MF02050004,"\h(«Vyse»)Les exécutions sont des spectacles ?
+Cet endroit est horrible……\e"
+MF02050005,"\h(«Aika»)Vyse……
+Nous n'avons pas de temps à perdre.\e"
+MF02050006,"\h(«Tavernier»)On dirait que les Pirates de l'Air vont perdre
+leur tête…… c'est triste.\c"
+MF02050007,"\h(«Tavernier»)J'ai appris que c'était la pagaille à la
+Grande Forteresse.\e"
+MF02050008,"\h(«Tavernier»)Mais cela ne concerne pas les habitants de Bas
+Valua, alors cela n'a pas d'importance de toute
+façon.\c"
+MF02060000,"\h(«Habitant de Bas Valua»)Jour après jour…… je passe mon temps à
+construire des cuirassés Valuans jusqu'à n'en
+plus pouvoir……\e"
+MF02060001,"\h(«Habitant de Bas Valua»)Je n'ai plus envie de rien……
+Pourquoi est-ce que je ne peux pas vivre comme
+les habitants de Haut Valua ? Ils s'amusent tous
+les jours…… Ce n'est pas juste.\e"
+MF02070000,"\h(«Habitant de Bas Valua»)Je suis fatigué……
+Laissez-moi……\e"
+MF02080000,"\h(«Armurier»)Bienvenue dans mon magasin.
+C'est un magasin d'armes et d'armures.\e"
+MF02080001,"\h(«Que ferez-vous ?»)“Vous achèterez des armes et des armures.”
+“Vous discuterez.”
+“Vous partirez.”\e"
+MF02080002,"\h(«Armurier»)Une grande partie de notre matériel provient de
+l'Armada Valuanne, mais je garantis leur
+qualité.\c"
+MF02080003,"\h(«Armurier»)Merci !
+Revenez me voir !\c"
+MF02090000,"\h(«Vendeuse objets»)Bienvenue.
+On ne trouve pas grand chose dans cette ville,
+mais s'il vous plaît, achetez quelque chose……
+n'importe quoi…… je vous en prie……\e"
+MF02090001,"\h(«Que ferez-vous ?»)“Vous achèterez et vendrez des articles.”
+“Vous discuterez.”
+“Vous partirez.”\e"
+MF02090002,"\h(«Vendeuse objets»)Si vous cherchez l'armateur, il passe beaucoup
+de temps aux docks ces derniers temps.\e"
+MF02090003,"\h(«Vendeuse objets»)Depuis qu'il a débuté le commerce des Canons
+Harpons, les clients arrivent en masse.\c"
+MF02090004,"\h(«Vendeuse objets»)Merci beaucoup !
+J'espère que vous reviendrez !\c"
+MF02100000,"\h(«Habitante de Bas Valua»)Bon, même si la vie n'est pas facile sur l'île……
+vraiment pas facile…… et que l'on ne plaisante
+guère……\e"
+MF02100001,"\h(«Habitante de Bas Valua»)…… je veux garder le sourire.
+Si on perd le sourire, on perd espoir.\e"
+MF02110000,"\h(«Drachma»)Je vais contrôler les modifications apportées au
+Little Jack. Va à l'auberge en premier.\e"
+MG02000000,"\h(«Kleiner Junge»)Hm?
+Wer seid ihr?\e"
+MG02000001,"\h(«Kleiner Junge»)Ihr seht aus wie Matrosen……
+Aber ihr seid ziemlich blöde.
+Wer würde schon den ganzen Weg in ein Kaff wie
+Lower City kommen?\e"
+MG02000002,"\h(«Aika»)Ach was…… du bist aber ganz schön penetrant……
+Das erinnert mich an jemanden, als der noch
+klein war.\e"
+MG02000003,"\h(«Vyse»)Heh! Ich war nicht so frech, als ich klein war!
+Das musst du schon zugeben!\e"
+MG02000004,"\h(«Kleiner Junge»)Was hast du gesagt?!
+Willst du dich mit mir anzulegen?!\e"
+MG02000005,"\h(«Kleiner Junge»)Der Name ist Marco!
+Jeder, der in dieser Stadt etwas zu sagen hat,
+weiß, wer ich bin!\e"
+MG02000006,"\h(«Vyse»)Haha…… Für so einen kleinen Jungen hast du
+aber ein großes Maul!\e"
+MG02000007,"\h(«Vyse»)Tut uns Leid, Junge, aber wir haben jetzt keine
+Zeit, mit kleinen Kindern zu spielen.\e"
+MG02000008,"\h(«Marco»)Was hast du gesagt?!
+Das werd' ich mir merken! Dummköpfe!\e"
+MG02000009,"\h(«Marco»)Ihr werdet es noch bedauern, dass ihr mich
+wütend gemacht habt!
+Das werd' ich mir merken!!\e"
+MG02010000,"\h(«Lower City-Bewohner»)Dies ist Lower City.
+Das Volk von Valua ist gezwungen, in bestimmten
+Stadtteilen zu wohnen, abhängig von ihrem Rang.\e"
+MG02010001,"\h(«Lower City-Bewohner»)Und an diesem jämmerlichen Ort müssen wir
+Armen leben……\e"
+MG02010002,"\h(«Lower City-Bewohner»)Es ist schon eine Weile her, aber da waren
+einmal diese Luftpiraten, die hierher gekommen
+sind, um ihre Freunde und Familie zu retten……\e"
+MG02010003,"\h(«Lower City-Bewohner»)……Und sie haben sie aus dem Coliseum
+herausgeholt! Es war toll…… Sie konnten
+wunderbar kämpfen…… Das muss man
+einfach gesehen haben……\c"
+MG02020000,"\h(«Lower City-Bewohner»)Entschuldigung, haben Sie vielleicht meinen
+Mann gesehen?\e"
+MG02020001,"\h(«Lower City-Bewohner»)Er sollte jetzt schon zu Hause sein! Wo er bloß
+sein kann…… Hoffentlich ist ihm nichts passiert.
+Ich habe ihm gesagt, er solle nicht zu lange
+nach Dunkelheit wegbleiben……\c"
+MG02020002,"\h(«Lower City-Bewohner»)Da fällt mir ein……
+Ich habe diesen Marco-Jungen schon eine Weile
+nicht gesehen. Wo er wohl hin ist……\c"
+MG02030000,"\h(«Lower City-Bewohner»)seufz……
+Diese reichen Adligen…… die haben solches
+Glück, dass sie in Upper City am anderen
+Ufer leben können……\e"
+MG02030001,"\h(«Lower City-Bewohner»)Sie bekommen gutes Essen……
+und tragen schöne Kleider……
+wohnen in großen Häusern……\e"
+MG02030002,"\h(«Lower City-Bewohner»)Seufz……
+Warum wurde ich an diesem furchtbaren
+Ort geboren?\c"
+MG02030003,"\h(«Lower City-Bewohner»)Seufz……
+Warum wurde ich auf dieser Seite der Bucht
+geboren?\c"
+MG02040000,"\h(«Streunender Huskra»)Parurururu……
+Pau pau!\e"
+MG02050000,"\h(«Tavernenwirt»)Habt ihr gehört?
+Morgen Mittag gibt es im Coliseum eine
+Hinrichtung.\e"
+MG02050001,"\h(«Tavernenwirt»)Ich habe gehört, dass sie ein paar Luftpiraten
+hinrichten wollen, die die Armada gefangen hat.\e"
+MG02050002,"\h(«Vyse»)Wa, was?!
+Stimmt das?!\e"
+MG02050003,"\h(«Tavernenwirt»)Ja. Da war vorhin ein Soldat, der davon
+erzählt hat. He…… schon eine Weile her,
+dass wir eine interessante Show hatten.\e"
+MG02050004,"\h(«Vyse»)Sie machen aus Hinrichtungen Shows?
+Dieser Ort ist ja schrecklich……\e"
+MG02050005,"\h(«Aika»)Vyse……
+Wir haben keine Zeit zu verlieren.\e"
+MG02050006,"\h(«Tavernenwirt»)Sieht so aus, als würden sich die Luftpiraten
+von ihren Köpfen verabschieden müssen……
+tragisch, tragisch.\c"
+MG02050007,"\h(«Tavernenwirt»)Ich habe gehört, dass da drüben bei der Grand
+Fortress irgendwas los war.\e"
+MG02050008,"\h(«Tavernenwirt»)Na ja, ist ja nicht so, als ginge uns das
+hier in Lower City etwas an, wahrscheinlich
+ist es sowieso nichts.\c"
+MG02060000,"\h(«Lower City-Bewohner»)Tagaus, tagein…… baue ich immerzu nur
+valuanische Kriegsschiffe, bis ich kaum
+mehr stehen kann……\e"
+MG02060001,"\h(«Lower City-Bewohner»)Ich möchte überhaupt nichts mehr machen……
+Warum kann ich nicht wie die Leute in
+Upper City leben? Die können sich jeden Tag
+amüsieren…… es ist einfach nicht fair.\e"
+MG02070000,"\h(«Lower City-Bewohner»)Ich bin müde……
+Lass mich in Ruhe……\e"
+MG02080000,"\h(«Waffenhändler»)Herzlich willkommen in meinem Laden.
+Dies ist ein Waffen- und Rüstungsladen.\e"
+MG02080001,"\h(«Was wirst du tun?»)“Waffen und Rüstungen kaufen und verkaufen”.
+“Über Verschiedenes reden”.
+“Weggehen”.\e"
+MG02080002,"\h(«Waffenhändler»)Ein Großteil unserer Ware stammt von der
+Valuan Armada, aber ich kann für die
+Qualität garantieren.\c"
+MG02080003,"\h(«Waffenhändler»)Danke!
+Schauen Sie mal wieder herein!\c"
+MG02090000,"\h(«Objekt-Verkäuferin»)Willkommen. Es gibt nicht viel bei uns in
+der Stadt, aber wenn Sie etwas kaufen möchten……
+irgendwas…… bitte……\e"
+MG02090001,"\h(«Was wirst du tun?»)“Objekte kaufen und verkaufen”.
+“Über Verschiedenes reden”.
+“Weggehen”.\e"
+MG02090002,"\h(«Objekt-Verkäuferin»)Wenn Sie den Schiffsteile-Händler suchen,
+er war kürzlich oft bei den Docks anzutreffen.\e"
+MG02090003,"\h(«Objekt-Verkäuferin»)Seitdem er Harpoon Cannons verkauft,
+kommen die Kunden zu Hunderten.\c"
+MG02090004,"\h(«Objekt-Verkäuferin»)Vielen Dank!
+Ich hoffe, ich darf Sie bald wieder bedienen!\c"
+MG02100000,"\h(«Lower City-Bewohner»)Tja, obwohl das Leben hier hart ist……
+wirklich hart…… und es wenig Schönes
+gibt……\e"
+MG02100001,"\h(«Lower City-Bewohner»)……möchte ich das Lachen nie verlernen.
+Wenn du das Lachen verlernst, hast du nie
+etwas, worauf du dich freuen kannst.\e"
+MG02110000,"\h(«Drachma»)Ich werde mich um die Modifikationen kümmern,
+die an der Little Jack vorgenommen werden.
+Geht schon mal vor zum Gasthaus.\e"
+MS02000000,"\h(«Niño Pequeño»)¿Uy?
+¿Quién eres?\e"
+MS02000001,"\h(«Niño Pequeño»)Parecéis marinos…… y además de los tontos.
+¿Si no por qué ibais a recorrer todo este camino
+para acabar en un vertedero como el Arrabal?\e"
+MS02000002,"\h(«Aika»)Bueno…… caramba con el odioso crío……
+Me recuerda a alguien cuando era pequeño.\e"
+MS02000003,"\h(«Vyse»)¡Eh! ¡Yo no era tan irritante de pequeño!
+¡No me fastidies!\e"
+MS02000004,"\h(«Niño Pequeño»)¡¿Qué has dicho?!
+¡¿Estás buscando pelea?!\e"
+MS02000005,"\h(«Niño Pequeño»)¡Me llamo Marco!
+¡Todo el que es alguien en esta ciudad sabe
+quién soy!\e"
+MS02000006,"\h(«Vyse»)Ja, ja, ja…… Para ser tan pequeño ¡se te da bien
+fanfarronear!\e"
+MS02000007,"\h(«Vyse»)Lo siento, chaval, pero no tenemos tiempo para
+jugar con niñatos.\e"
+MS02000008,"\h(«Marco»)¡¿Qué has dicho?!
+¡Ésta no se me va a olvidar! ¡Idiotas!\e"
+MS02000009,"\h(«Marco»)¡Os vais a arrepentir de haberme enfadado!
+¡¡Ésta no la olvido!!\e"
+MS02010000,"\h(«Valuan del Arrabal»)Esto es el Arrabal.
+Los habitantes de Valua viven en distintas zonas
+dependiendo de su posición social.\e"
+MS02010001,"\h(«Valuan del Arrabal»)Así que en este lugar desolado nos obligan a
+vivir a todos los pobres……\e"
+MS02010002,"\h(«Valuan del Arrabal»)Esto sucedió hace mucho tiempo, cuando unos
+Piratas Aéreos vinieron a rescatar a sus amigos
+y sus familiares……\e"
+MS02010003,"\h(«Valuan del Arrabal»)…… ¡Y se escaparon del Coliseo! Era genial……
+Luchaban muy bien. Pero supongo que sólo quienes
+lo vieron pueden hacerse una idea……\c"
+MS02020000,\h(«Valuan del Arrabal»)Perdón…… ¿has visto a mi marido?\e
+MS02020001,"\h(«Valuan del Arrabal»)¡Ya debía de estar en casa! A saber dónde se
+habrá metido esta vez…… Espero que esté bien.
+Le dije que volviera antes de anochecer……\c"
+MS02020002,"\h(«Valuan del Arrabal»)Lo que me recuerda……
+Hace mucho que no veo a ese Marco.
+A saber adónde se habrá largado ahora……\c"
+MS02030000,"\h(«Valuan del Arrabal»)“suspiro”……
+Esos nobles adinerados tienen suerte de vivir en
+el Centro de la Ciudad en la otra orilla……\e"
+MS02030001,"\h(«Valuan del Arrabal»)Comen cosas ricas……
+llevan ropa bonita……
+viven en casas grandes……\e"
+MS02030002,"\h(«Valuan del Arrabal»)Ufff……
+¿Por qué tuve que nacer en este sitio tan
+horrible?\c"
+MS02030003,"\h(«Valuan del Arrabal»)Ufff……
+¿Por qué tuve que nacer en este lado de la
+bahía?\c"
+MS02040000,"\h(«Vagabundo Huskra»)Parurururu……
+¡Pow pow!\e"
+MS02050000,"\h(«Dueño de la Taberna»)¿Has oído eso?
+Mañana por la tarde va a haber una ejecución en
+el Coliseo.\e"
+MS02050001,"\h(«Dueño de la Taberna»)He oído que van a ejecutar a unos
+Piratas Aéreos que capturó la Armada.\e"
+MS02050002,"\h(«Vyse»)¡¿Cómo?!
+¡¿Es eso cierto?!\e"
+MS02050003,"\h(«Dueño de la Taberna»)Sí. Vino un soldado y empezó a contárselo a todo
+el mundo. El caso es que…… hacía tiempo que no
+teníamos un buen espectáculo.\e"
+MS02050004,"\h(«Vyse»)¿Convierten las ejecuciones en espectáculos?
+Qué lugar tan horrible……\e"
+MS02050005,"\h(«Aika»)Vyse……
+No podemos perder el tiempo.\e"
+MS02050006,"\h(«Dueño de la Taberna»)Parece que los Piratas Aéreos van a tener que
+despedirse de sus cabezas…… Qué pena.\c"
+MS02050007,"\h(«Dueño de la Taberna»)Me enteré de que hubo un gran alboroto en la
+Gran Fortaleza.\e"
+MS02050008,"\h(«Dueño de la Taberna»)No es que nos afecte directamente a los que
+vivimos aquí en el Arrabal, así que de todas
+formas da lo mismo.\c"
+MS02060000,"\h(«Valuan del Arrabal»)Día tras día…… me dedico a construir buques de
+guerra hasta que no me puedo tener en pie……\e"
+MS02060001,"\h(«Valuan del Arrabal»)Ya no tengo ganas de hacer nada…… ¿Por qué no
+puedo vivir como la gente del Centro? Se pasan
+el día jugando…… ¡Qué injusticia!\e"
+MS02070000,"\h(«Valuan del Arrabal»)Estoy cansado……
+Déjame en paz……\e"
+MS02080000,"\h(«Mercader de Armas»)Bienvenido a mi negocio.
+Ésta es la tienda de armas y armaduras.\e"
+MS02080001,"\h(«¿Qué vas a hacer?»)“Comprar y vender armas y armaduras.”
+“Hablar de temas variados.”
+“Salir.”\e"
+MS02080002,"\h(«Mercader de Armas»)Gran parte de nuestro género ha sido donado por
+la Armada Valuan, pero puedo garantizar su
+calidad.\c"
+MS02080003,"\h(«Mercader de Armas»)¡Gracias!
+¡Vuelve pronto!\c"
+MS02090000,"\h(«Mercader de Objetos»)Bienvenido. En esta ciudad no tenemos mucho que
+ofrecer, pero si me haces el favor de comprar
+algo…… lo que sea…… por favor……\e"
+MS02090001,"\h(«¿Qué vas a hacer?»)“Comprar y vender objetos.”
+“Hablar de temas variados.”
+“Salir.”\e"
+MS02090002,"\h(«Mercader de Objetos»)Si buscas al Mercader de Repuestos de barco,
+últimamente se le ve mucho por el puerto.\e"
+MS02090003,"\h(«Mercader de Objetos»)Desde que empezó a vender Cañones Arpón,
+ha tenido clientes a patadas.\c"
+MS02090004,"\h(«Mercader de Objetos»)¡Muchas gracias!
+¡Vuelve pronto!\c"
+MS02100000,"\h(«Valuan del Arrabal»)Bueno, aunque la vida por aquí es muy dura…… y
+no hay muchas cosas de las que disfrutar……\e"
+MS02100001,"\h(«Valuan del Arrabal»)…… intento no olvidarme de sonreír.
+Si uno se olvida de sonreír, es que
+ya no le queda nada positivo en la vida.\e"
+MS02110000,"\h(«Drachma»)Voy a supervisar las modificaciones que se están
+llevando a cabo en el Little Jack. Adelántate tú
+y nos vemos en la posada.\e"
+Ms005a000,"\h(«Vyse»)Ugh, rotting garbage.
+They've got garbage cans, but it doesn't look
+like anyone collects the trash.\c"
+Ms005a001,"\h(«Vyse»)The drum is all rusted and the edges are jagged.
+I probably shouldn't touch it…\c"
+Ms005a002,"\h(«Vyse»)Hmm… There's a passage on the other side,
+but it doesn't look like I can get
+through this chain-link fence.\c"
+Ms005a003,"\h(«Vyse»)It smells old and moldy…
+They probably haven't cleaned it in a while.\c"
+Ms005a004,"\h(«Vyse»)Is this a boiler?
+The meter keeps vibrating too much…
+It doesn't look very accurate.\c"
+Ms005a005,"\h(«Vyse»)It's an electric stove.
+It looks a lot simpler than a fireplace.
+But there's grease all over it.\c"
+Ms005a006,"\h(«Vyse»)Hmm… The dishes have dust all over them…
+They probably haven't been used in a
+very long time…\c"
+Ms005a007,"\h(«Vyse»)This is the boiler, I think.
+The meter is going crazy.
+I hope that's not a bad sign…\c"
+Ms005a008,"\h(«Vyse»)It smells like old and dirty water.
+It looks like it hasn't been emptied out in
+a while…\c"
+Ms005a009,"\h(«Vyse»)This is the boiler, I think.
+The meter is going crazy.
+I hope that's not a bad sign…\c"
+Ms005a010,"\h(«Vyse»)It's an electric stove. It's relatively clean,
+but it looks really old. I wonder if it still
+even works…\c"
+Ms005a011,"\h(«Vyse»)Hey, there's no dust at all!
+It's kinda surprising to find
+something clean in this city.\c"
+Ms005a012,"\h(«Vyse»)There's a picture of a handsome, young man.
+Maybe he's her husband? It looks like there's
+a hint of sadness in his eyes…\c"
+Ms005a013,"\h(«Vyse»)It's an old mop, but the floors are clean in
+comparison to the rest of the city, so I guess
+it's being used pretty often.\c"
+Ms005a014,"\h(«Vyse»)Is this a boiler?
+The meter keeps vibrating too much…
+It doesn't look very accurate.\c"
+Ms005a015,"\h(«Vyse»)That mop has a disgusting color to it. Someone
+must've just cleaned up a spill and didn't
+bother to wash the mop off…\c"
+Ms005a019,"\h(«Vyse»)I can't leave yet… I need to rescue everyone.
+I promised Lindsi that I would bring
+everyone home safely…\c"
+Ms005a016,"\h(«Vyse»)I haven't found Dad or Fina yet.
+I can't leave now!\c"
+Ms005a017,"\h(«Vyse»)The Little Jack is being prepared for
+our escape. In the meantime, we need
+to hurry and rescue Fina!\c"
+Ms005a018,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MFs005a000,"\h(«Vyse»)Toutes ces ordures……
+Ils ont des poubelles mais personne ne les
+ramasse.\c"
+MFs005a001,"\h(«Vyse»)La poubelle est rouillée et les bords sont
+abîmés. Je ne devrais peut-être pas y toucher……\c"
+MFs005a002,"\h(«Vyse»)Hmm…… Il y a un passage de l'autre côté, mais je
+ne crois pas pouvoir passer ce grillage.\c"
+MFs005a003,"\h(«Vyse»)Ça sent le vieux et le moisi…… Ils n'ont pas dû
+faire le ménage depuis un certain temps.\c"
+MFs005a004,"\h(«Vyse»)Est-ce une chaudière ?
+Le mètre ne cesse de vibrer……
+Il ne semble pas très précis.\c"
+MFs005a005,"\h(«Vyse»)Voici le four électrique.
+C'est bien plus simple qu'une cheminée.
+Mais il est recouvert de graisse.\c"
+MFs005a006,"\h(«Vyse»)Hmm…… La vaisselle est recouverte de poussière……
+Elle n'a pas dû être utilisée depuis longtemps……\c"
+MFs005a007,"\h(«Vyse»)Je pense que c'est la chaudière.
+Le mètre semble faire des siennes.
+J'espère que ce n'est pas mauvais signe……\c"
+MFs005a008,"\h(«Vyse»)Ça sent l'eau sale et usée.
+Elle n'a pas dû être évacuée depuis longtemps……\c"
+MFs005a009,"\h(«Vyse»)Je pense que c'est la chaudière.
+Le mètre semble faire des siennes.
+J'espère que ce n'est pas mauvais signe……\c"
+MFs005a010,"\h(«Vyse»)Voici un four électrique. Il est plutôt propre
+mais il est vieux.
+Je me demande s'il fonctionne encore……\c"
+MFs005a011,"\h(«Vyse»)Mais, il n'y a pas de poussière du tout !
+Il est plutôt surprenant de trouver quelque
+chose de propre dans cette ville.\c"
+MFs005a012,"\h(«Vyse»)Il y a le portrait d'un beau jeune homme.
+Peut-être que c'est son mari. On aperçoit un peu
+de tristesse dans son regard……\c"
+MFs005a013,"\h(«Vyse»)C'est un vieux balai mais le sol est propre par
+rapport au reste de la ville, alors je pense
+qu'il a dû faire bon usage.\c"
+MFs005a014,"\h(«Vyse»)Est-ce une chaudière ?
+Le mètre ne cesse de vibrer……
+Il ne semble pas très précis.\c"
+MFs005a015,"\h(«Vyse»)Ce balai a une drôle de couleur. Quelqu'un a dû
+nettoyer quelque chose sans le rincer après……\c"
+MFs005a019,"\h(«Vyse»)Je ne peux pas partir pour l'instant……
+Je dois encore sauver tout le monde.
+J'ai promis à Lindsi de les ramener sains et
+saufs……\c"
+MFs005a016,"\h(«Vyse»)Je n'ai pas encore retrouvé Fina et mon père.
+Je ne peux pas partir pour le moment !\c"
+MFs005a017,"\h(«Vyse»)Le Little Jack est en préparation pour que nous
+nous échappions. En attendant, nous devons nous
+dépêcher pour sauver Fina !\c"
+MFs005a018,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici encore un petit moment.”\c"
+MGs005a000,"\h(«Vyse»)Uhh, verfaulter Müll. Sie haben zwar
+Mülltonnen, aber es sieht nicht so aus,
+als würde sie jemand leeren.\c"
+MGs005a001,"\h(«Vyse»)Die Tonne ist ganz rostig und die
+Ränder sind ausgezackt. Ich sollte sie
+wahrscheinlich nicht anfassen……\c"
+MGs005a002,"\h(«Vyse»)Hmm…… Es gibt einen Durchgang auf der
+anderen Seite, aber es sieht so aus,
+als käme ich nicht durch diesen
+Maschendrahtzaun.\c"
+MGs005a003,"\h(«Vyse»)Es riecht alt und vergammelt……
+Sie haben hier wahrscheinlich längere Zeit nicht
+geputzt.\c"
+MGs005a004,"\h(«Vyse»)Ist das ein Boiler?
+Der Zähler vibriert sehr stark……
+Er sieht nicht gerade genau aus.\c"
+MGs005a005,"\h(«Vyse»)Es ist ein elektrischer Herd.
+Er sieht viel praktischer aus als ein offenes
+Feuer. Aber er ist voller Fett.\c"
+MGs005a006,"\h(«Vyse»)Hmm…… Das Geschirr ist sehr verstaubt……
+Ist wahrscheinlich lange nicht mehr
+gebraucht worden……\c"
+MGs005a007,"\h(«Vyse»)Das ist der Boiler, glaube ich.
+Der Zähler spielt verrückt.
+Ich hoffe, das ist kein schlechtes Zeichen……\c"
+MGs005a008,"\h(«Vyse»)Es riecht nach altem und schlechtem Wasser.
+Es sieht so aus, als sei es eine lange Zeit
+nicht mehr geleert worden……\c"
+MGs005a009,"\h(«Vyse»)Das ist der Boiler, glaube ich.
+Der Zähler spielt verrückt.
+Ich hoffe, das ist kein schlechtes Zeichen……\c"
+MGs005a010,"\h(«Vyse»)Es ist ein elektrischer Herd. Er ist relativ
+sauber, aber sieht sehr alt aus.
+Ob der noch funktioniert?\c"
+MGs005a011,"\h(«Vyse»)Hey, hier ist es gar nicht staubig!
+Es ist verwunderlich, überhaupt
+etwas Sauberes in dieser
+Stadt zu finden.\c"
+MGs005a012,"\h(«Vyse»)Da ist ein Bild eines hübschen, jungen
+Mannes. Vielleicht ist er ihr Ehemann?
+Es sieht so aus, als sei eine Spur von
+Traurigkeit in seinen Augen……\c"
+MGs005a013,"\h(«Vyse»)Es ist ein alter Mopp, aber der Boden
+ist, im Vergleich zur restlichen Stadt,
+sauber. Ich denke, er ist ziemlich häufig
+gebraucht worden.\c"
+MGs005a014,"\h(«Vyse»)Ist das ein Boiler?
+Der Zähler vibriert sehr stark……
+Er sieht nicht gerade genau aus.\c"
+MGs005a015,"\h(«Vyse»)Dieser Mopp hat eine ekelhafte Farbe.
+Jemand hat wahrscheinlich etwas aufgewischt
+und dann den Mopp nicht ausgewaschen……\c"
+MGs005a019,"\h(«Vyse»)Ich kann noch nicht gehen……
+Ich muss sie alle retten. Ich habe Lindsi
+versprochen, alle sicher nach Hause
+zu bringen……\c"
+MGs005a016,"\h(«Vyse»)Ich habe weder Dad noch Fina gefunden.
+Ich kann noch nicht gehen!\c"
+MGs005a017,"\h(«Vyse»)Die Little Jack wird für unsere Flucht
+vorbereitet. In der Zwischenzeit müssen wir
+uns beeilen und Fina retten!\c"
+MGs005a018,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Eine Weile hier bleiben.”\c"
+MSs005a000,"\h(«Vyse»)¡Qué asco! Basura podrida.
+Tienen cubos de basura, pero parece
+que nadie recoge la basura.\c"
+MSs005a001,"\h(«Vyse»)El tambor está oxidado y los bordes estropeados.
+Creo que no debería tocarlo……\c"
+MSs005a002,"\h(«Vyse»)Mmm…… Hay un camino por el otro lado,
+pero no creo que pueda pasar esta alambrada.\c"
+MSs005a003,"\h(«Vyse»)Huele a viejo y húmedo……
+No deben de haber limpiado por aquí
+desde hace un tiempo.\c"
+MSs005a004,"\h(«Vyse»)¿Esto es una caldera?
+El contador no para de vibrar……
+No parece muy fiable, que digamos.\c"
+MSs005a005,"\h(«Vyse»)Es una estufa eléctrica.
+Parece mucho más sencilla que una chimenea.
+Pero tiene grasa por todas partes.\c"
+MSs005a006,"\h(«Vyse»)Mmm…… Los platos están llenos de polvo……
+Seguro que nadie los ha usado desde hace
+mucho tiempo……\c"
+MSs005a007,"\h(«Vyse»)Ésta es la caldera, creo.
+El contador se ha vuelto loco.
+Espero que no sea una mala señal……\c"
+MSs005a008,"\h(«Vyse»)Huele a agua vieja y sucia.
+Parece que nadie la ha vaciado
+desde hace mucho tiempo……\c"
+MSs005a009,"\h(«Vyse»)Ésta es la caldera, creo.
+El contador se ha vuelto loco.
+Espero que no sea una mala señal……\c"
+MSs005a010,"\h(«Vyse»)Es una estufa eléctrica. Está relativamente
+limpia, pero parece muy vieja.
+Me pregunto si todavía funcionará……\c"
+MSs005a011,"\h(«Vyse»)¡Fíjate, no hay nada de polvo!
+Es sorprendente ver algo limpio
+en esta ciudad.\c"
+MSs005a012,"\h(«Vyse»)Hay una foto de un hombre guapo y joven.
+A lo mejor es su marido. Sus ojos tienen
+una mirada triste……\c"
+MSs005a013,"\h(«Vyse»)Es una fregona vieja, pero los pisos están
+limpios en comparación con el resto de la
+ciudad. Seguramente la usan mucho.\c"
+MSs005a014,"\h(«Vyse»)¿Esto es una caldera?
+El contador vibra demasiado……
+No parece muy fiable, que digamos.\c"
+MSs005a015,"\h(«Vyse»)Esa fregona tiene un color horrible. Alguien
+debe de haberla usado para limpiar y
+no se ha molestado en limpiarla después……\c"
+MSs005a019,"\h(«Vyse»)Todavía no me puedo ir…… Tengo que rescatar a
+todos. Le prometí a Lindsi que traería a
+todos sanos y salvos……\c"
+MSs005a016,"\h(«Vyse»)Todavía no he encontrado a Papá o a Fina.
+¡No me puedo ir todavía!\c"
+MSs005a017,"\h(«Vyse»)Están preparando el Little Jack para nuestra
+huída. ¡Mientras tanto, tenemos que darnos
+prisa para rescatar a Fina!\c"
+MSs005a018,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un rato más.”\c"
+"",me005b.sct
+"",me005b.sct
+"",M0237
+"",m5050000
+"",e6c024
+"",M0237
+"",a005ac24.mld
+"",a005ac24.mld
+"",a005ac24.mld

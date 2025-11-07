@@ -1,0 +1,523 @@
+[Event Name],Task ID
+ML0010000,"\h(«Vyse»)What's wrong?
+Why did we stop?\e"
+ML0010001,\h(«Fina»)I remember hearing about a Dome of Light.\e
+ML0010002,\h(«Vyse»)Dome of Light?\e
+ML0010003,"\h(«Fina»)Yes, it was an ancient defense mechanism… \e"
+ML0010004,"\h(«Fina»)It was able to protect Soltis from the Gigas. 
+Galcian is using it to protect himself from us.\e"
+ML0010005,\h(«Vyse»)We've got to find a way through it!\e
+ML0010006,"\h(«Galcian»)Heh heh heh… 
+The Dome of Light is impenetrable… 
+Not even the Delphinus can touch us.\e"
+ML0010007,"\h(«Galcian»)Ramirez…
+I believe the world needs a demonstration of our
+power!\e"
+ML0010008,\h(«Ramirez»)As you wish.\e
+ML0010009,\h(«Galcian»)Valua could use a little rain… \e
+ML0010010,"\h(«Galcian»)Silver Gigas, Zelos! Obey my command!
+Call forth the Rains of Destruction from the 
+Yellow Moon.\e"
+ML0010011,"\h(«Vyse»)Is that…?!
+No… \e"
+MSL0010000,"\h(«Vyse»)¿Qué pasa?
+¿Por qué hemos parado?\e"
+MSL0010001,\h(«Fina»)Recuerdo a alguien hablar de una Cúpula de Luz.\e
+MSL0010002,\h(«Vyse»)¿Cúpula de Luz?\e
+MSL0010003,"\h(«Fina»)Sí, era un antiguo mecanismo de defensa……\e"
+MSL0010004,"\h(«Fina»)Servía para proteger Soltis del Gigas.
+Galcian lo está utilizando para defenderse de
+nosotros.\e"
+MSL0010005,\h(«Vyse»)¡Tenemos que encontrar la forma de cruzar!\e
+MSL0010006,"\h(«Galcian»)Je, je, je……
+La Cúpula de Luz es impenetrable……
+Ni siquiera el Delphinus nos puede atacar.\e"
+MSL0010007,"\h(«Galcian»)Ramírez……
+¡El mundo necesita una demostración de nuestro
+poder!\e"
+MSL0010008,\h(«Ramírez»)Como desee.\e
+MSL0010009,\h(«Galcian»)Un poco de lluvia no le vendrá mal a Valua……\e
+MSL0010010,"\h(«Galcian»)¡Zelos, Gigas de Plata! ¡Obedece mis órdenes!
+Convoca las Lluvias Destructoras que descansan
+en la Luna Amarilla.\e"
+MSL0010011,"\h(«Vyse»)¡¿Es eso……?!
+No……\e"
+MFL0010000,"\h(«Vyse»)Qu'est-ce qui ne va pas ?
+Pourquoi nous sommes-nous arrêtés ?\e"
+MFL0010001,"\h(«Fina»)Je me souviens avoir entendu parler d'un Dôme de
+Lumière.\e"
+MFL0010002,\h(«Vyse»)Un Dôme de Lumière ?\e
+MFL0010003,"\h(«Fina»)Oui, c'était un ancien mécanisme de défense……\e"
+MFL0010004,"\h(«Fina»)Il a pu protéger Soltis des Gigas.
+Galcian s'en sert pour se protéger d'eux.\e"
+MFL0010005,\h(«Vyse»)Il faut trouver un moyen de le traverser !\e
+MFL0010006,"\h(«Galcian»)Hé hé hé……
+Le Dôme de Lumière est impénétrable……
+Même le Delphinus ne peut pas l'approcher.\e"
+MFL0010007,"\h(«Galcian»)Ramirez……
+Je pense que le monde a besoin d'une petite
+démonstration de notre pouvoir !\e"
+MFL0010008,\h(«Ramirez»)Comme vous voulez.\e
+MFL0010009,\h(«Galcian»)Un peu de pluie ne ferait pas de mal à Valua……\e
+MFL0010010,"\h(«Galcian»)Giga Argent, Zelos ! Obéis à mes ordres !
+Invoque les Pluies de la Destruction de la Lune
+Jaune.\e"
+MFL0010011,"\h(«Vyse»)Est-ce……?!
+Non……\e"
+MGL0010000,"\h(«Vyse»)Was ist los?
+Warum haben wir angehalten?\e"
+MGL0010001,"\h(«Fina»)Ich kann mich daran erinnern, vom Dome of Light
+gehört zu haben.\e"
+MGL0010002,\h(«Vyse»)Dome of Light?\e
+MGL0010003,"\h(«Fina»)Ja, es war ein altertümlicher
+Verteidigungsmechanismus……\e"
+MGL0010004,"\h(«Fina»)Er war in der Lage, Soltis vor den Gigas zu
+beschützen. Galcian benutzt ihn nun, um sich
+vor uns zu schützen.\e"
+MGL0010005,\h(«Vyse»)Wir müssen einen Weg da durch finden!\e
+MGL0010006,"\h(«Galcian»)Haha……
+Der Dome of Light ist undurchlässig……
+Nicht einmal die Delphinus kann uns etwas
+anhaben.\e"
+MGL0010007,"\h(«Galcian»)Ramirez……
+Ich glaube, die Welt wartet auf eine
+Demonstration unserer Macht!\e"
+MGL0010008,\h(«Ramirez»)Wie Sie wünschen.\e
+MGL0010009,\h(«Galcian»)Valua könnte etwas Regen vertragen……\e
+MGL0010010,"\h(«Galcian»)Silver Gigas, Zelos! Gehorche meinem Befehl!
+Rufe die Rains of Destruction des Yellow Moon
+hervor.\e"
+MGL0010011,"\h(«Vyse»)Ist das…… ?!
+Nein……\e"
+ML0080000,"\h(«Galcian»)My first stop is Nasr. Since we've already 
+destroyed Nasrad, they will beg for mercy, 
+especially after what we did to Valua.\e"
+ML0080001,"\h(«Ramirez»)My lord…
+Shall I accompany you?\e"
+ML0080002,"\h(«Galcian»)It is not necessary. If any countries resist, 
+I shall destroy them with the Rains.\e"
+ML0080003,"\h(«Galcian»)I need you here to defend Soltis and to 
+command Zelos to rain down on our enemies.\e"
+ML0080004,\h(«Ramirez»)A wise decision… \e
+ML0080005,"\h(«Watch Officer»)My lord!
+An unknown fleet of ships is headed this way at
+attack speed. I can't identify the fleet, but… \e"
+ML0080006,\h(«Watch Captain»)Leading the charge is the… Delphinus… \e
+ML0080007,"\h(«Galcian»)So, the Air Pirates have come to challenge me. 
+It saves me the trouble of hunting them down… 
+I shall purge the skies of their kind forever!\e"
+ML0080008,"\h(«Ramirez»)Lord Galcian…
+Perhaps I should go as well…\e"
+ML0080009,"\h(«Galcian»)No. We cannot lose Soltis.
+Return at once!\e"
+ML0080010,"\h(«Galcian»)Do not worry.
+The Hydra will dispose of them.\e"
+ML0080011,"\h(«Galcian»)Air Pirates… it will rain today indeed. 
+The skies shall weep with your blood!\e"
+ML0080012,"\h(«Galcian»)All ships, full speed ahead!
+Destroy the Air Pirates… 
+Destroy every last one of them!\e"
+ML0080013,\h(«Aika»)The Armada is closing fast!\e
+ML0080014,"\h(«Vyse»)Alright, battlestations!!! \e"
+ML0080015,\h(«Vyse»)This is it!!!\e
+MSL0080000,"\h(«Galcian»)Mi primera parada es Nasr. Como ya hemos
+destruido Nasrad, nos suplicarán compasión.
+Y después de lo que hicimos en Valua.\e"
+MSL0080001,"\h(«Ramírez»)Mi Lord……
+¿Te acompaño?\e"
+MSL0080002,"\h(«Galcian»)No hace falta. Si algún país opone resistencia,
+lo destruiré con las Lluvias.\e"
+MSL0080003,"\h(«Galcian»)Necesito que te quedes para defender Soltis y
+para ordenar a Zelos que llueva sobre nuestros
+enemigos.\e"
+MSL0080004,\h(«Ramírez»)Una sabia decisión……\e
+MSL0080005,"\h(«Oficial de Observación»)¡Mi Lord! Una flota de navíos desconocida se
+dirige hacia aquí a velocidad de ataque.
+No puedo identificar la flota, pero……\e"
+MSL0080006,\h(«Oficial de Observación»)Liderando la flota está el…… Delphinus……\e
+MSL0080007,"\h(«Galcian»)Los Piratas Aéreos vienen a desafiarme.
+Me ahorran el trabajo de ir a buscarlos……
+¡Voy a acabar con su molesta presencia!\e"
+MSL0080008,"\h(«Ramírez»)Lord Galcian……
+Yo también debería ir……\e"
+MSL0080009,"\h(«Galcian»)No. No podemos perder Soltis.
+¡Volveremos de inmediato!\e"
+MSL0080010,"\h(«Galcian»)No te preocupes.
+La Hydra acabará con ellos.\e"
+MSL0080011,"\h(«Galcian»)Piratas Aéreos…… os va a llover hoy.
+¡Los cielos se bañarán con vuestra sangre!\e"
+MSL0080012,"\h(«Galcian»)¡Todos los navíos, a toda máquina!
+Hay que acabar con los Piratas Aéreos……
+¡No dejéis ni a uno!\e"
+MSL0080013,\h(«Aika»)¡La Armada se acerca rápidamente!\e
+MSL0080014,\h(«Vyse»)¡¡¡Todos a los puestos de combate!!!\e
+MSL0080015,\h(«Vyse»)¡¡¡Ha llegado el momento!!!\e
+MFL0080000,"\h(«Galcian»)Je m'arrête d'abord à Nasr. Puisque nous avons
+déjà détruit Nasrad, ils nous supplieront de les
+épargner, surtout après ce que nous avons fait à
+Valua.\e"
+MFL0080001,"\h(«Ramirez»)Mon Seigneur……
+Devrais-je vous accompagner ?\e"
+MFL0080002,"\h(«Galcian»)Ce n'est pas nécessaire. Si un pays résiste,
+je le détruirai avec les Pluies.\e"
+MFL0080003,"\h(«Galcian»)Vous devez rester là pour défendre Soltis et
+pour ordonner à Zelos de pleuvoir sur nos
+ennemis.\e"
+MFL0080004,\h(«Ramirez»)Bonne décision……\e
+MFL0080005,"\h(«Officier Guet»)Mon Seigneur !
+Une flotte inconnue se dirige dans cette
+direction à vitesse d'attaque. Je ne peux pas
+identifier la flotte, mais……\e"
+MFL0080006,"\h(«Capitaine Guet»)Le navire qui mène l'attaque……  c'est le
+Delphinus……\e"
+MFL0080007,"\h(«Galcian»)Alors, les Pirates de l'Air sont venus me
+défier. Cela m'évite d'aller les traquer……
+Je vais nettoyer les cieux de leur race à tout
+jamais !\e"
+MFL0080008,"\h(«Ramirez»)Seigneur Galcian……
+Je devrais peut-être y aller aussi……\e"
+MFL0080009,"\h(«Galcian»)Non. Nous ne pouvons pas perdre Soltis.
+Revenez tout de suite !\e"
+MFL0080010,"\h(«Galcian»)Ne vous inquiétez pas.
+Le Hydra va s'occuper d'eux.\e"
+MFL0080011,"\h(«Galcian»)Pirates de l'Air…… il va pleuvoir aujourd'hui.
+Les cieux pleureront les larmes de votre sang !\e"
+MFL0080012,"\h(«Galcian»)En avant toute !
+Exterminez les Pirates de l'Air……
+Exterminez-les jusqu'au dernier !\e"
+MFL0080013,\h(«Aika»)L'Armada nous encercle rapidement !\e
+MFL0080014,\h(«Vyse»)À vos postes de combat !!!\e
+MFL0080015,"\h(«Vyse»)Voilà, on y est !!!\e"
+MGL0080000,"\h(«Galcian»)Meine erste Station ist Nasr. Da wir bereits
+Nasrad zerstört haben, werden sie um Gnade
+winseln, vor allem nach dem, was wir in Valua
+veranstaltet haben.\e"
+MGL0080001,"\h(«Ramirez»)Mylord……
+Soll ich Euch begleiten?\e"
+MGL0080002,"\h(«Galcian»)Das ist nicht notwendig. Sollte sich ein Land
+widersetzen, werde ich es mit den Rains
+zerstören.\e"
+MGL0080003,"\h(«Galcian»)Ich brauche dich hier, um Soltis zu verteidigen
+und Zelos zu befehlen, auf unsere Feinde
+niederzuregnen.\e"
+MGL0080004,\h(«Ramirez»)Ein weiser Entschluss……\e
+MGL0080005,"\h(«Spähposten»)Mylord!
+Eine unbekannte Flotte von Schiffen kommt in
+Angriffsgeschwindigkeit auf uns zu. Ich kann
+die Flotte nicht identifizieren, aber……\e"
+MGL0080006,\h(«Spähkapitän»)An der Spitze des Angriffs ist die…… Delphinus……\e
+MGL0080007,"\h(«Galcian»)Also sind die Luftpiraten gekommen, mich
+herauszufordern. Es erspart mir die Mühe, ihnen
+hinterher zu jagen…… Ich werde den Himmel ein
+für alle Mal von diesem Gesindel reinigen!\e"
+MGL0080008,"\h(«Ramirez»)Lord Galcian……
+Vielleicht sollte ich mitkommen……\e"
+MGL0080009,"\h(«Galcian»)Nein. Wir dürfen Soltis nicht verlieren.
+Kehr sofort um!\e"
+MGL0080010,"\h(«Galcian»)Keine Sorge.
+Die Hydra wird sich um sie kümmern.\e"
+MGL0080011,"\h(«Galcian»)Luftpiraten…… heute wird es tatsächlich regnen.
+Die Wolken werden euer Blut regnen!\e"
+MGL0080012,"\h(«Galcian»)Alle Schiffe, volle Kraft voraus!
+Vernichtet die Luftpiraten……
+Vernichtet alle bis zum letzten Mann!\e"
+MGL0080013,\h(«Aika»)Die Armada nähert sich schnell!\e
+MGL0080014,"\h(«Vyse»)Achtung, an die Kanonen!!!\e"
+MGL0080015,\h(«Vyse»)Es ist so weit!!!\e
+ML0100000,"\h(«Watch Officer»)My lord! The Air Pirates have broken our lines!
+The Delphinus is headed straight for us!\e"
+ML0100001,"\h(«Galcian»)Heh heh…
+Well done, Vyse.\e"
+ML0100002,"\h(«Galcian»)You shall live just long enough to feel the 
+destructive power of the Hydra!\e"
+ML0100003,\h(«Galcian»)All cannons fire on the Delphinus!!!\e
+ML0100004,\h(«Aika»)There's an enemy ship ahead! It's huge!!!\e
+ML0100005,\h(«Enrique»)No… it can't be!\e
+ML0100006,"\h(«Vyse»)Enrique, you know this ship?\e"
+ML0100007,"\h(«Enrique»)It's called the Hydra. It was dubbed, 
+“The Flying Fortress.” Galcian must 
+have had his own men complete it!\e"
+ML0100008,"\h(«Enrique»)My mother wanted it's production stopped 
+because of its magnitude.\e"
+ML0100009,"\h(«Gilder»)Why, wasn't it big enough?\e"
+ML0100010,\h(«Fina»)Galcian must be in there!\e
+ML0100011,"\h(«Vyse»)This battle won't be over until we destroy that
+thing!\e"
+ML0100012,"\h(«Vyse»)Alright, Galcian!
+It ends now!\e"
+MSL0100000,"\h(«Oficial de Observación»)¡Mi Lord! ¡Los Piratas Aéreos han roto nuestras
+filas!
+¡El Delphinus viene directo a nosotros!\e"
+MSL0100001,"\h(«Galcian»)Eh…… eh……
+Buen trabajo, Vyse.\e"
+MSL0100002,"\h(«Galcian»)¡Vas a vivir lo suficiente como para ser testigo
+del poder destructivo de la Hydra!\e"
+MSL0100003,"\h(«Galcian»)¡¡¡Que todos los cañones disparen al
+Delphinus!!!\e"
+MSL0100004,"\h(«Aika»)¡Tenemos un navío enemigo enfrente!
+¡¡¡Y es enorme!!!\e"
+MSL0100005,\h(«Enrique»)¡No! ¡No puede ser!\e
+MSL0100006,"\h(«Vyse»)Enrique, ¿conoces ese navío?\e"
+MSL0100007,"\h(«Enrique»)Se llama la Hydra. También se le conoce como
+“La Fortaleza Volante.” ¡Galcian debe de haber
+ordenado que la completaran!\e"
+MSL0100008,"\h(«Enrique»)Mi madre quería detener la producción por su
+magnitud.\e"
+MSL0100009,"\h(«Gilder»)Por qué, ¿es que no era lo bastante grande?\e"
+MSL0100010,\h(«Fina»)¡Galcian debe estar ahí dentro!\e
+MSL0100011,"\h(«Vyse»)¡Esta batalla no habrá terminado hasta que no
+hayamos destruido ese cacharro!\e"
+MSL0100012,"\h(«Vyse»)¡Muy bien, Galcian!
+¡Esto se acaba aquí!\e"
+MFL0100000,"\h(«Officier Guet»)Mon Seigneur ! Les Pirates de l'Air ont
+démantelé nos lignes de front !
+Le Delphinus se dirige droit sur nous !\e"
+MFL0100001,"\h(«Galcian»)Hé hé……
+Bien joué, Vyse.\e"
+MFL0100002,"\h(«Galcian»)Vous vivrez juste assez longtemps pour apprécier
+le pouvoir destructeur de l'Hydra !\e"
+MFL0100003,\h(«Galcian»)Que tous les canons tirent sur le Delphinus !!!\e
+MFL0100004,"\h(«Aika»)Il y a un navire ennemi droit devant !
+Il est énorme !!!\e"
+MFL0100005,\h(«Enrique»)Non…… ce n'est pas possible !\e
+MFL0100006,"\h(«Vyse»)Enrique, connaissez-vous ce navire ?\e"
+MFL0100007,"\h(«Enrique»)Il s'appelle l'Hydra. Il a été surnommé,
+“La Forteresse Volante.” Les hommes de Galcian
+ont dû le terminer !\e"
+MFL0100008,"\h(«Enrique»)En raison de sa magnitude, ma mère voulait
+arrêter sa production.\e"
+MFL0100009,"\h(«Gilder»)Pourquoi, n'était-il pas assez gros ?\e"
+MFL0100010,\h(«Fina»)Galcian doit être à bord !\e
+MFL0100011,"\h(«Vyse»)Cette bataille ne sera terminée que si nous
+arrivons à détruire cette chose !\e"
+MFL0100012,"\h(«Vyse»)Très bien, Galcian !
+C'est fini !\e"
+MGL0100000,"\h(«Spähposten»)Mylord! Die Luftpiraten haben unsere Linien
+durchbrochen! Die Delphinus kommt direkt auf
+uns zu!\e"
+MGL0100001,"\h(«Galcian»)Haha……
+Gut gemacht, Vyse.\e"
+MGL0100002,"\h(«Galcian»)Du sollst nur so lange leben, um die
+zerstörerische Kraft der Hydra zu spüren!\e"
+MGL0100003,\h(«Galcian»)Alle Kanonen auf die Delphinus abfeuern!!!\e
+MGL0100004,"\h(«Aika»)Da vorn kommt ein feindliches Schiff! Es ist
+riesig!!!\e"
+MGL0100005,\h(«Enrique»)Nein…… das kann nicht sein!\e
+MGL0100006,"\h(«Vyse»)Enrique, du kennst dieses Schiff?\e"
+MGL0100007,"\h(«Enrique»)Es nennt sich Hydra. Allgemein hat man es
+aber “Flying Fortress” getauft. Galcian muss
+es mit seinen eigenen Leuten fertiggestellt
+haben!\e"
+MGL0100008,"\h(«Enrique»)Meine Mutter wollte den Bau aufgrund
+seiner Ausmaße einstellen.\e"
+MGL0100009,"\h(«Gilder»)Warum, war es nicht groß genug?\e"
+MGL0100010,\h(«Fina»)Galcian muss dort drinnen sein!\e
+MGL0100011,"\h(«Vyse»)Diese Schlacht ist nicht vorbei, bis wir dieses
+Ding zerstört haben!\e"
+MGL0100012,"\h(«Vyse»)Ok, Galcian!
+Das ist das Ende!\e"
+ML0160000,\h(«Aika»)Vyse… Something bad is happening!!!\e
+ML0160001,\h(«Vyse»)…!\e
+ML0160002,"\h(«Vyse»)No! Ramirez is going to use the Rains of
+Destruction again!!!\e"
+ML0160003,\h(«Aika»)There's nothing we can do to stop him!\e
+ML0160004,\h(«Fina»)Ramirez… please…\e
+ML0160005,"\h(«Fina»)…!
+Elders… oh, no… \e"
+ML0160006,"\h(«Vyse»)What's wrong, Fina?!\e"
+ML0160007,\h(«Aika»)Vyse! Look!\e
+ML0160008,"\h(«Elder Orbis»)Fina…
+Soltis used to be our home.\e"
+ML0160009,"\h(«Elder Orbis»)We created it… from nothing… and now we must
+destroy it… \e"
+ML0160010,"\h(«Elder Orbis»)For a thousand generations… we have judged the
+people of this world… \e"
+ML0160011,"\h(«Elder Orbis»)Everything we have created… Soltis… Zelos… 
+The Rains… was all because these people 
+did not measure up to our standards… \e"
+ML0160012,\h(«Elder Orbis»)But… perhaps we were wrong.\e
+ML0160013,"\h(«Elder Orbis»)Fina, by believing in the people of this world, 
+you have taught us a great deal.\e"
+ML0160014,"\h(«Elder Orbis»)We sent you here to help us destroy the world,
+but now we are going to help you save it.\e"
+ML0160015,"\h(«Elder Orbis»)There is no need to be sad… If we had not
+created the Rains of Destruction, the world
+would not be in jeopardy.\e"
+ML0160016,"\h(«Elder Orbis»)Please… for the sake of the future… for the
+sake of this world… you must prevail!\e"
+MSL0160000,\h(«Aika»)Vyse…… ¡¡¡Ha pasado algo horrible!!!\e
+MSL0160001,\h(«Vyse»)¡……!\e
+MSL0160002,"\h(«Vyse»)¡No! ¡¡¡Ramírez va a usar las Lluvias
+Destructoras otra vez!!!\e"
+MSL0160003,\h(«Aika»)¡No podemos hacer nada para detenerle!\e
+MSL0160004,\h(«Fina»)Ramírez…… por favor……\e
+MSL0160005,"\h(«Fina»)¡……!
+Los Ancianos…… oh, no……\e"
+MSL0160006,"\h(«Vyse»)¡¿Pero qué pasa, Fina?!\e"
+MSL0160007,\h(«Aika»)¡Vyse! ¡Mira!\e
+MSL0160008,"\h(«Anciano Orbis»)Fina……
+Antes Soltis era nuestro hogar.\e"
+MSL0160009,"\h(«Anciano Orbis»)Nosotros lo creamos…… de la nada…… y ahora
+debemos destruirlo……\e"
+MSL0160010,"\h(«Anciano Orbis»)Durante miles de generaciones…… hemos juzgado a
+la gente de este mundo……\e"
+MSL0160011,"\h(«Anciano Orbis»)Todo lo que hemos creado…… Soltis…… Zelos……
+las Lluvias…… todo era porque estas gentes no
+estaban a la altura de nuestros deseos……\e"
+MSL0160012,\h(«Anciano Orbis»)Pero…… puede que estuviéramos equivocados.\e
+MSL0160013,"\h(«Anciano Orbis»)Fina, hemos aprendido mucho de ti,
+tú que has tenido fe en las gentes de este
+mundo.\e"
+MSL0160014,"\h(«Anciano Orbis»)Nosotros te enviamos a este mundo para que lo
+destruyeras, pero ahora vamos a ayudarte a
+salvarlo.\e"
+MSL0160015,"\h(«Anciano Orbis»)No hay por lo que estar triste…… Si no
+hubiéramos creado las Lluvias Destructoras,
+el mundo ahora no estaría en peligro.\e"
+MSL0160016,"\h(«Anciano Orbis»)Por favor…… por el porvenir…… por este mundo……
+¡no te rindas!\e"
+MFL0160000,"\h(«Aika»)Vyse…… il se passe quelque chose de
+terrible !!!\e"
+MFL0160001,\h(«Vyse»)……!\e
+MFL0160002,"\h(«Vyse»)Non ! Ramirez va encore se servir des Pluies de
+la Destruction !!!\e"
+MFL0160003,\h(«Aika»)Nous ne pouvons pas l'arrêter !\e
+MFL0160004,\h(«Fina»)Ramirez…… je t'en prie……\e
+MFL0160005,"\h(«Fina»)……!
+Anciens…… oh, non……\e"
+MFL0160006,"\h(«Vyse»)Qu'est-ce qu'il y a, Fina ?!\e"
+MFL0160007,\h(«Aika»)Vyse ! Regarde !\e
+MFL0160008,"\h(«Ancien Orbis»)Fina……
+Nous habitions à Soltis avant.\e"
+MFL0160009,"\h(«Ancien Orbis»)Nous l'avons créé…… à partir de rien…… et à
+présent il faut le détruire……\e"
+MFL0160010,"\h(«Ancien Orbis»)Pendant des milliers de générations…… nous avons
+jugé les habitants de ce monde……\e"
+MFL0160011,"\h(«Ancien Orbis»)Tout ce que nous avons créé…… Soltis…… Zelos……
+Les Pluies…… nous l'avons fait parce que ces
+gens ne répondaient pas à nos attentes……\e"
+MFL0160012,\h(«Ancien Orbis»)Mais…… nous avions peut-être tort.\e
+MFL0160013,"\h(«Ancien Orbis»)Fina, en faisant confiance aux habitants de ce
+monde, tu nous as beaucoup appris.\e"
+MFL0160014,"\h(«Ancien Orbis»)Nous t'avons envoyée ici pour détruire le monde,
+mais maintenant nous allons t'aider à le
+sauver.\e"
+MFL0160015,"\h(«Ancien Orbis»)Inutile d'être triste…… Si nous n'avions pas
+créé les Pluies de la Destruction, le monde ne
+serait pas en danger.\e"
+MFL0160016,"\h(«Ancien Orbis»)S'il te plaît…… pour l'avenir de ce monde…… tu
+dois gagner !\e"
+MGL0160000,\h(«Aika»)Vyse…… Irgendetwas Schlimmes ist im Gange!!!\e
+MGL0160001,\h(«Vyse»)……!\e
+MGL0160002,"\h(«Vyse»)Nein! Ramirez will noch einmal die Rains of
+Destruction einsetzen!!!\e"
+MGL0160003,\h(«Aika»)Wir können ihn nicht daran hindern!\e
+MGL0160004,\h(«Fina»)Ramirez…… bitte……\e
+MGL0160005,"\h(«Fina»)……!
+Elders…… o nein……\e"
+MGL0160006,"\h(«Vyse»)Was gibt's, Fina?!\e"
+MGL0160007,\h(«Aika»)Vyse! Schau!\e
+MGL0160008,"\h(«Elder Orbis»)Fina……
+Soltis war einmal unser Zuhause.\e"
+MGL0160009,"\h(«Elder Orbis»)Wir haben es geschaffen…… aus dem Nichts……
+und jetzt müssen wir es zerstören……\e"
+MGL0160010,"\h(«Elder Orbis»)Tausend Generationen lang…… haben wir über die
+Völker dieser Welt zu Gericht gesessen……\e"
+MGL0160011,"\h(«Elder Orbis»)Alles, was wir kreiert haben…… Soltis…… Zelos……
+die Rains…… all das, weil die Menschen nicht
+unseren Vorstellungen entsprachen……\e"
+MGL0160012,\h(«Elder Orbis»)Aber…… vielleicht hatten wir Unrecht.\e
+MGL0160013,"\h(«Elder Orbis»)Fina, dadurch, dass du an die Völker dieser
+Welt glaubst, hast du uns viel gelehrt.\e"
+MGL0160014,"\h(«Elder Orbis»)Wir haben dich hierher entsandt, um bei der
+Vernichtung der Völker dieser Welt zu helfen,
+aber jetzt werden wir dir helfen, sie zu
+retten.\e"
+MGL0160015,"\h(«Elder Orbis»)Du brauchst nicht traurig zu sein…… Hätten wir
+nicht die Rains of Destruction kreiert, würde
+sich die Welt jetzt nicht in Gefahr befinden.\e"
+MGL0160016,"\h(«Elder Orbis»)Bitte…… um der Zukunft willen…… um der Welt
+willen…… ihr müsst gewinnen!\e"
+"",me250a.sct
+"",me034a.sct
+"",me250a.sct
+"",me034a.sct
+"",L01発生しました。\c
+"",a249al01_efe.mld
+"",a249al01_efe.mld
+"",a249al01.mld
+"",a249al01.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",M0313
+"",e6l001
+"",a249al01a.mld
+"",a249al01a.mld
+"",a249al01a.mld
+"",a249al01a.mld
+"",a249al01a.mld
+"",a249al01a.mld
+"",a249al01.mld
+"",a249al01_efe.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",L08発生しました。\c
+"",me249a.sct
+"",a249al08.mld
+"",a249al08.mld
+"",a249al08a.mld
+"",a249al08a.mld
+"",a249al08b.mld
+"",a249al08b.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",M0314
+"",e6l008
+"",me543a.sct
+"",a249al08.mld
+"",a249al08a.mld
+"",a249al08b.mld
+"",EV_l10発生しました。\c
+"",me249a.sct
+"",a249al10.mld
+"",a249al10.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",M0326
+"",e6l010
+"",me545a.sct
+"",a249al10.mld
+"",イベントＬ１６が発生しました。\c
+"",a034ab.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ac.mld
+"",a034ad.mld
+"",a034ad.mld
+"",M0248
+"",e6l016
+"",a249al16a.mld
+"",a249al16a.mld
+"",a249al16efeA.mld
+"",a249al16efeA.mld
+"",a249al16a.mld
+"",a249al16efeA.mld
+"",a249al16b.mld
+"",a249al16b.mld
+"",a249al16efeB.mld
+"",a249al16efeB.mld
+"",a249al16b.mld
+"",a249al16efeB.mld
+"",a249al16c.mld
+"",a249al16c.mld
+"",a249al16efeC.mld
+"",a249al16efeC.mld
+"",a249al16c.mld
+"",a249al16efeC.mld
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld

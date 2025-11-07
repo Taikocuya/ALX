@@ -1,0 +1,36 @@
+[Event Name],Task ID
+MD0040000,\h(«Drachma»)……\e
+MD0040001,"\h(«Drachma»)Hrmph… Should I have left those kids there?
+Bah! What am I worryin' about?
+Someone else will take care of them.\e"
+MD0040002,\h(«Drachma»)…Hmm?\e
+MD0040003,\h(«Drachma»)Wait… that ship! It looks like…\e
+MD0040004,\h(«Drachma»)……\e
+MSD0040000,\h(«Drachma»)……\e
+MSD0040001,"\h(«Drachma»)Mmm…… ¿Hice bien dejando a esos chicos ahí?
+¡Bah! ¿De qué me preocupo?
+Que otra persona se ocupe de ellos.\e"
+MSD0040002,\h(«Drachma»)¿……Mmm?\e
+MSD0040003,\h(«Drachma»)¡Espera…… ese navío! Se parece a……\e
+MSD0040004,\h(«Drachma»)……\e
+MFD0040000,\h(«Drachma»)……\e
+MFD0040001,"\h(«Drachma»)Pfut…… Je n'aurais peut-être pas dû laisser ces
+gamins là-bas ? Bah ! Pourquoi je m'inquiète ?
+Quelqu'un d'autre veillera sur eux.\e"
+MFD0040002,\h(«Drachma»)……Humm ?\e
+MFD0040003,\h(«Drachma»)Hé…… ce navire ! On dirait……\e
+MFD0040004,\h(«Drachma»)……\e
+MGD0040000,\h(«Drachma»)……\e
+MGD0040001,"\h(«Drachma»)Grr…… Hätte ich diese Kids wirklich zurücklassen
+sollen? Bah! Was sorge ich mich!
+Jemand anderes wird sich um sie kümmern.\e"
+MGD0040002,\h(«Drachma»)……Hmm?\e
+MGD0040003,\h(«Drachma»)Moment…… dieses Schiff! Sieht aus wie…… \e
+MGD0040004,\h(«Drachma»)……\e
+"",ME008A.sct
+"",EV_D04発生しました。\c
+"",a203ad04.mld
+"",a203ad04.mld
+"",M0310
+"",e6d004
+"",a203ad04.mld

@@ -1,0 +1,63 @@
+[Event Name],Task ID
+MA0120000,\h(«Fina»)It's so beautiful…\e
+MA0120001,"\h(«Vyse»)I love it up here, it's so peaceful. I come up 
+here to relax and watch the sunsets.\e"
+MA0120002,"\h(«Vyse»)When I'm up here, I often wonder what lies 
+beyond the sky…
+Beyond the sunset…\e"
+MA0120003,\h(«Fina»)Beyond… the sky…?\e
+MA0120004,"\h(«Vyse»)Some say there're monsters. Others say there's
+a maelstrom that either blows ships away,
+or pulls them in… and they're never seen again.\e"
+MA0120005,"\h(«Vyse»)And there are others that just say it's…
+impossible…\e"
+MA0120006,\h(«Fina»)……\e
+MA0120007,\h(«Vyse»)I want to know what's out there…\e
+MA0120008,"\h(«Vyse»)Besides, I don't like giving up on anything
+without giving it my best shot.\e"
+MA0120009,"\h(«Vyse»)Someday, I will be the captain of my own ship, 
+I'll go beyond that sunset, and I'll see what's 
+out there.\e"
+MA0120010,"\h(«Aika»)Wow… I bet if you could go beyond the sunset,
+the sky would look even more beautiful.\e"
+MA0120011,\h(«Vyse·Aika»)Hey!!\e
+MA0120012,\h(«Vyse»)…That was a Moon Stone!\e
+MA0120013,\h(«Fina»)… a Moon Stone?\e
+MA0120014,"\h(«Vyse»)…It landed on that island over there. 
+I think that's Shrine Island.\e"
+MA0120015,"\h(«Aika»)It's been a long time since we've seen a Moon 
+Stone fall!\e"
+MA0120016,\h(«Fina»)I don't understand. That was a Moon Stone?\e
+MA0120017,"\h(«Aika»)That's right.
+Fina, you've heard of Moon Stones before, right?\e"
+MA0120018,"\h(«Aika»)They're pieces of rock that fall from the Moons.
+They usually crash land on the islands. They're
+a really powerful source of energy, too.\e"
+MA0120019,"\h(«Aika»)We use them for all sorts of things.
+They power our air ships and we can also forge 
+weapons out of them.\e"
+MA0120020,"\h(«Fina»)Oh, yes.
+I know of Moon Stones.\e"
+MA0120021,"\h(«Fina»)But, it's my first time seeing a Moon Stone 
+actually fall from the sky.\e"
+MA0120022,"\h(«Aika»)Vyse, are you thinking what I'm thinking?\e"
+MA0120023,"\h(«Vyse»)Yeah, we should try to recover the Moon Stone. 
+Let's go first thing tomorrow.\e"
+MA0120024,\h(«Vyse's Mother»)Vyse! Aika! Fina!\e
+MA0120025,"\h(«Vyse's Mother»)Dinner is ready!
+Come on down!\e"
+MA0120026,"\h(«Vyse»)Let's go, Fina.
+You're going to eat with us, right?\e"
+MA0120027,"\h(«Aika»)We're so lucky!!
+I love your mom's cooking…\e"
+MA0120028,"\h(«Aika»)Fina, let's go eat while it's still hot!\e"
+MA0120029,"\h(«Fina»)Yes, thank you for your gracious offer.\e"
+"",me002a.sct
+"","A12発生でござる。
+そいでば！\c"
+"",a202aa12.mld
+"",M0309
+"",e6a012
+"",M0312
+"",M0312
+"",a202aa12.mld

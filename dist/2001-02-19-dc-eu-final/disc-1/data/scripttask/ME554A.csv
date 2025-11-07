@@ -1,0 +1,93 @@
+[Event Name],Task ID
+MA5540000,"\h(«Valuan Warship»)It's the duty of the Valuan Warships to rid
+the skies of scum like you! Prepare to meet
+your doom, Pirates!!\c"
+MA5540001,"\h(«Valuan Warship»)Hey! You guys are those Air Pirates that escaped
+from Valua! Don't think you can make a mockery
+of the Valuan Empire and get away with it!!\c"
+MA5540002,"\h(«Valuan Warship»)This is Valuan Imperial airspace! It's a
+restricted area! All unidentified ships will
+be dealt with accordingly! Prepare yourselves!!\c"
+MA5540003,"\h(«Aika»)Vyse, what should we do now?
+We await your command!\e"
+MA5540004,"\h(«What will you do?»)“Maintain distance and continue firing cannons.”
+“Try to get behind the enemy ship.”\c"
+MA5540005,"\h(«Vyse»)I know it's just a Warship, but it's better
+to be safe than sorry. Let's keepour distance,
+and pound them with our cannons!\c"
+MA5540006,"\h(«Vyse»)Listen up! We're going to try to get behind them
+and get a shot at their engines! Engines at
+full speed!!\c"
+MSA5540000,"\h(«Acorazado Valuan»)¡¡Es el deber de los Acorazados Valuan
+limpiar los cielos de escoria como vosotros!
+¡¡Éste va a ser vuestro fin, Piratas!!\c"
+MSA5540001,"\h(«Acorazado Valuan»)¡Vosotros sois los Piratas Aéreos que
+escaparon de Valua! ¡¡No podéis burlaros
+del Imperio Valua como si nada!!\c"
+MSA5540002,"\h(«Acorazado Valuan»)¡Estáis en el espacio aéreo Valuan!
+¡Es zona restringida! ¡Los navíos que no se
+identifiquen serán castigados! ¡¡Preparaos!!\c"
+MSA5540003,"\h(«Aika»)Vyse, ¿qué hacemos?
+¡Esperamos tus órdenes!\e"
+MSA5540004,"\h(«¿Qué vas a hacer?»)“Mantener la distancia y seguir disparando.”
+“Intentar ponerme detrás del navío enemigo.”\c"
+MSA5540005,"\h(«Vyse»)Sólo es un acorazado, pero es mejor andar
+con cuidado. ¡Vamos a mantener una distancia
+prudente y machacarlos con nuestros cañones!\c"
+MSA5540006,"\h(«Vyse»)¡Atención! ¡Vamos a ponernos detrás y
+dispararemos a sus motores!
+¡¡A todo motor!!\c"
+MFA5540000,"\h(«Navire de Guerre Valuan»)C'est le devoir des Navires de Guerre Valuan de
+purifier les cieux de votre sale espèce !
+Préparez-vous à affronter votre destin,
+Pirates !!\c"
+MFA5540001,"\h(«Navire de Guerre Valuan»)Hé ! Vous êtes les Pirates de l'Air qui se sont
+échappés de Valua ! N'allez pas croire que vous
+pouvez vous moquer de l'Empire Valuan sans en
+payer les conséquences !!\c"
+MFA5540002,"\h(«Navire de Guerre Valuan»)C'est l'espace aérien Impérial Valuan !
+L'accès en est interdit !
+Tous les navires non-identifiés auront à faire à
+nous ! Préparez-vous !!\c"
+MFA5540003,"\h(«Aika»)Vyse, que faisons-nous maintenant ?
+Nous attendons tes ordres !\e"
+MFA5540004,"\h(«Que ferez-vous ?»)“Maintenir la distance et continuer à tirer.”
+“Essayer de passer derrière le navire ennemi.”\c"
+MFA5540005,"\h(«Vyse»)Je sais que ce n'est qu'un navire de guerre,
+mais il vaut mieux prévenir que guérir.
+Gardons nos distances, et bombardons-les avec
+nos canons !\c"
+MFA5540006,"\h(«Vyse»)Écoutez ! Nous allons essayer de passer derrière
+eux et de tirer sur leurs moteurs !
+Moteurs à vitesse maximale !!\c"
+MGA5540000,"\h(«Valuanisches Kriegsschiff»)Es ist die Pflicht valuanischer Kriegsschiffe,
+die Himmel von Ungeziefer wie euch zu befreien!
+Macht euch auf euren Untergang gefasst,
+Piraten!!\c"
+MGA5540001,"\h(«Valuanisches Kriegsschiff»)He! Ihr seid doch diese Luftpiraten, die aus
+Valua entflohen sind! Denkt ja nicht, dass
+ihr das Valuan Empire so einfach auf den
+Arm nehmen könnt!!\c"
+MGA5540002,"\h(«Valuanisches Kriegsschiff»)Dies ist der Luftraum des Kaiserreichs von
+Valua! Dies ist Sperrgebiet! Alle nicht
+identifizierten Schiffe werden abgeschossen!
+Trefft eure Vorbereitungen!!\c"
+MGA5540003,"\h(«Aika»)Vyse, was sollen wir jetzt machen?
+Wir warten auf deine Befehle!\e"
+MGA5540004,"\h(«Was wirst du tun?»)“Abstand halten und weiter Kanonen abfeuern.”
+“Versuchen, hinter das Feindschiff zu kommen.”\c"
+MGA5540005,"\h(«Vyse»)Ich weiß, es ist bloß ein Kriegsschiff, aber
+Vorsicht ist die Mutter der Porzellankiste.
+Halten wir Abstand und ballern wir unsere
+Kanonen auf sie ab!\c"
+MGA5540006,"\h(«Vyse»)Alles herhören! Wir werden versuchen, ihnen
+in den Rücken zu fallen und auf ihre Motoren
+zu feuern! Volle Kraft voraus!!\c"
+"",M0430
+"",me090a.sct
+"",f7100100s.p04
+"",F7100100S.p04
+"",k0000.mld
+"",k0000.mld
+"",f7100050S.p04
+"",k0000.mld

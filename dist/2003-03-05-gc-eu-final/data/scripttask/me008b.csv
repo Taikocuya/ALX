@@ -1,0 +1,1996 @@
+[Event Name],Task ID
+M90390000,"\h(«Mystery Merchant»)I am known as the Mystery Merchant. I bring
+goods from around the world. Many of these you 
+may never see again!\e"
+M90390001,"\h(«Mystery Merchant»)I only carry rare and exotic items.
+Come! See my wares for yourself!\e"
+M90390002,"\h(«What will you do?»)“Buy and sell items.”
+“Talk about various things.”
+“Leave.”\e"
+M90390003,"\h(«Mystery Merchant»)There exists in this world a rare type of Moon 
+Stone shard called an “Abirik Cham”.\e"
+M90390004,"\h(«Mystery Merchant»)Thank you very much. Perhaps our paths shall
+cross again some day.\e"
+M04000100,"\h(«Ship Parts Merchant»)Welcome. How goes the sailing? You wish to buy
+cannons to blast your enemies out of the skies?\e"
+M04000101,"\h(«Vyse»)Well, we don't even have our own ship right now,
+to be honest.\e"
+M04000102,"\h(«Ship Parts Merchant»)Well, that is very unfortunate. I wished to show
+you my newest weapon called a “Torpedo.”\e"
+M04000103,"\h(«Ship Parts Merchant»)You can even set which round it will strike! It
+is perfect for concentrating much firepower into
+a short period of time.\c"
+M04000104,"\h(«Ship Parts Merchant»)Well well… Is it not Vyse the Ninny? Who are
+you running from this time? Or perhaps you need
+a bigger cannon to feel safe?\e"
+M04000105,"\h(«Ship Parts Merchant»)Hey, kid. How goes the sailing? I have cannons 
+for all of your destructive needs!\e"
+M04000106,"\h(«Ship Parts Merchant»)Hey, kid. How goes the sailing? I have cannons 
+for all of your destructive needs!\e"
+M04000107,"\h(«Ship Parts Merchant»)Hey… are you not Vyse the Determined? Yes, I 
+thought so. Keep up the good work. Do you wish 
+to buy a cannon while you are here?\e"
+M04000108,"\h(«Ship Parts Merchant»)You are Vyse, are you not? I have heard about 
+you. It is time someone put those Valuans in 
+line. I respect that.\e"
+M04000109,"\h(«Ship Parts Merchant»)Oh, it is Vyse the Admirable! Do you wish to buy
+a cannon or two from my humble shop? I would be
+so happy!\e"
+M04000110,"\h(«Ship Parts Merchant»)Oh, it is Vyse the Bold! Do you wish to buy a
+cannon or two from my humble shop? I would be so
+happy!\e"
+M04000111,"\h(«Ship Parts Merchant»)Ah, it is Vyse!
+Heh… I wish that I were known as “the Valiant”
+like you… \e"
+M04000112,"\h(«Ship Parts Merchant»)Ah, it is Vyse!
+Heh… I wish that I were known as “the Daring”
+like you… \e"
+M04000113,"\h(«Ship Parts Merchant»)Oh, it is Vyse the Dashing! Do you wish to buy a
+cannon or two from my humble shop? I would be so
+happy!\e"
+M04000114,"\h(«Ship Parts Merchant»)Oh, Vyse! Er… I mean, Vyse the Fearless!
+I would be honored if you bought something
+from me!\e"
+M04000115,"\h(«Ship Parts Merchant»)The Red Moon be praised… I cannot believe that 
+an actual hero is shopping in my humble store. 
+It is an honor!\e"
+M04000116,"\h(«Ship Parts Merchant»)The Red Moon be praised… I cannot believe that 
+the King of Rogues is shopping in my humble 
+store. It is an honor!\e"
+M04000117,"\h(«Ship Parts Merchant»)V, Vyse! You are a legend! I would be so honored
+if you wished to buy something from me… It
+would make me feel so… important.\e"
+M04000000,"\h(«Ship Parts Merchant»)Hey, kid. How goes the sailing? I have cannons 
+for all your destructive needs!\e"
+M04000001,"\h(«What will you do?»)“Buy and sell ship parts.”
+“Talk about various things.”
+“Leave.”\e"
+M04000003,"\h(«Ship Parts Merchant»)Check out my new weapons. They're called 
+“Torpedoes!”\e"
+M04000004,"\h(«Ship Parts Merchant»)After firing, you will not hit the target until 
+the following turn, and sometimes you can even 
+delay it further, by a round or two!\e"
+M04000005,"\h(«Ship Parts Merchant»)It often misses but it is much more powerful 
+than most cannons. I highly recommend it.\c"
+M04000006,"\h(«Ship Parts Merchant»)You heard that Nasrad was attacked by Valua and 
+burned to the ground, yes?\e"
+M04000007,"\h(«Ship Parts Merchant»)Well, apparently the Valuans developed an engine
+that allows them to cut through sky rifts,
+and they launched a surprise attack.\e"
+M04000008,"\h(«Ship Parts Merchant»)It normally would not occur to anyone that they 
+could make it through the sky rifts, so I guess 
+the defenses were lax.\c"
+M04000009,"\h(«Ship Parts Merchant»)I heard a rumor that the Rains of Destruction 
+fell upon Valua. Is it really so?\c"
+M04000010,"\h(«Ship Parts Merchant»)Thank you!
+May the Red Moon watch over you.\c"
+M04010100,"\h(«Guildmaster»)Are you not the one they call Vyse the Ninny? 
+Nice nickname. How did you earn it?\e"
+M04010101,"\h(«Guildmaster»)Welcome to the Sailors' Guild. We pay very well 
+for information on Discoveries!\e"
+M04010102,"\h(«Guildmaster»)Welcome to the Sailors' Guild. We pay very well 
+for information on Discoveries!\e"
+M04010103,"\h(«Guildmaster»)So, you're the guy that everyone has been 
+talking about? The one they call Vyse the 
+Respected? Welcome to the Sailors' Guild.\e"
+M04010104,"\h(«Guildmaster»)Hey, it's Vyse the Admirable! Welcome to the
+Sailors' Guild!\e"
+M04010105,"\h(«Guildmaster»)Hey, you are Vyse the Bold, yes? Welcome to the 
+Sailors' Guild!\e"
+M04010106,"\h(«Guildmaster»)Vyse the Valiant? Of course I have heard of you.
+Everyone has been talking of your exploits.
+Welcome to the Sailors' Guild.\e"
+M04010107,"\h(«Guildmaster»)Vyse the Daring? Of course I have heard of you. 
+Everyone has been talking of your exploits. 
+Welcome to the Sailors' Guild.\e"
+M04010108,"\h(«Guildmaster»)Oh, it is you! You are Vyse the Dashing!
+Welcome to the Sailors' Guild! It is an honor!\e"
+M04010109,"\h(«Guildmaster»)Oh, it is you! You are Vyse the Fearless!
+Welcome to the Sailors' Guild! It is an honor!\e"
+M04010110,"\h(«Guildmaster»)To think that Vyse the Hero would ever come to 
+this guild… It is a true honor, sir.\e"
+M04010111,"\h(«Guildmaster»)To think that the King of Rogues would ever come
+to this guild… It's a true honor, sir.\e"
+M04010112,"\h(«Guildmaster»)V, Vyse the Legend?! I feel honored just to be 
+able to talk to one as great as yourself! W, 
+welcome to the Sailors' Guild!\e"
+M04010000,"\h(«Guildmaster»)Welcome to the Sailor's Guild. We pay very well 
+for information on Discoveries!\e"
+M04010001,"\h(«What will you do?»)“Buy and sell Discovery information.”
+“Talk about various things.”
+“Leave.”\e"
+M04010002,"\h(«Guildmaster»)What happened? Were you left behind by your
+ship? That is an unfortunate tale.\e"
+M04010003,"\h(«Guildmaster»)Hmm… I'm sorry. I know of no one who may have a
+ship available for rent right now.\e"
+M04010004,"\h(«Guildmaster»)Well, since you are here without much choice,
+you may as well try to enjoy your stay.\e"
+M04010005,"\h(«Guildmaster»)I hear there is a beautiful new dancer at the
+tavern.\c"
+M04010006,"\h(«Guildmaster»)Well, since you are here without much choice, 
+you may as well try to enjoy your stay.\e"
+M04010007,"\h(«Guildmaster»)I hear there is a beautiful new dancer at the 
+tavern.\e"
+M04010008,"\h(«Guildmaster»)You're searching for ruins in the desert?
+If you find them, I hope you'll let me know.
+I pay quite well for information on such things.\e"
+M04010009,"\h(«Guildmaster»)You are seeking Discoveries? Well, there is 
+another named Domingo who is also searching the 
+world for Discoveries.\e"
+M04010010,"\h(«Guildmaster»)I have heard that he is one of the world's best
+treasure hunters. You should try to stay a
+Dhabu's length ahead of him.\c"
+M04010011,"\h(«Guildmaster»)In every port of any size, you should always 
+find a branch office of the Sailors' Guild. I 
+suggest you pay a visit.\c"
+M90390005,"\h(«Mystery Merchant»)You should try feeding Abirik Chams to Silver 
+animals. It will make them grow much faster.\c"
+MQ0160100,"\h(«Aika»)Hey, isn't that one of the guys on the
+Wanted List at the Sailors' Guild?\e"
+MQ0160101,"\h(«What will you do?»)“Talk to him.”
+“Avoid him.”\c"
+MQ0160102,"\h(«Vyse»)Hmm… This might turn into a bad situation if
+we talk to him now. Maybe we should talk to him
+when we're a little more ready…\c"
+M04000118,"\h(«Ship Parts Merchant»)Oh! Hey, Vyse! I've been hearing bad rumors
+about you lately. What happened to you? Did ya
+hit your head on something hard?\e"
+M04000119,"\h(«Ship Parts Merchant»)Oh wow! Vyse the Bounty King! I can't believe
+you're shopping at my store! Wait until I tell
+my mom! She'll go crazy!\e"
+M04000120,"\h(«Ship Parts Merchant»)Vyse the Exploration King! I can't believe
+you're shopping at my store! Wait until I tell
+my mom! She'll go crazy!\e"
+M04000121,"\h(«Ship Parts Merchant»)Sky Battle King Vyse! You MUST buy something!
+Do you know what it will do for my business if
+I tell people that you shop here? Please!!!\e"
+M04000122,"\h(«Ship Parts Merchant»)Oh hey! It's Vyse the Fisher King! Did you come
+here to buy fishing equipment?\e"
+M04000123,"\h(«Ship Parts Merchant»)V, Vyse the Battle Lord!! Tell me… Is it true
+that you defeated someone by throwing a cannon
+ball at their ship and sinking it?\e"
+M04000124,"\h(«Ship Parts Merchant»)Vyse the Extravagant!!! I envy you… It's one
+of my dreams in life to be rich. Really rich.
+You wanna give me some money while you're here?\e"
+M04000125,"\h(«Ship Parts Merchant»)Vyse the Charismatic! I can't believe you're
+shopping at my store! Wait until I tell my mom!
+She'll go crazy!\e"
+M04010113,"\h(«Guildmaster»)Hmmm… You know what? You look an awful lot
+like one of those pirates on the Wanted List…\e"
+M04010114,"\h(«Guildmaster»)It's Vyse the Bounty King! Let me thank you on
+behalf of Mid Ocean for all the splendid work
+you have done!\e"
+M04010115,"\h(«Guildmaster»)Well, who would have thought that Exploration
+King Vyse would ever grace this Guild with his
+presence? I am honored, sir.\e"
+M04010116,"\h(«Guildmaster»)I cannot believe it… Sky Battle King Vyse is
+here. In my Guild. I am truly honored, sir.\e"
+M04010117,"\h(«Guildmaster»)Well! It's Vyse the Fisher King!
+Tell me…Do you love eating fish?
+Or do you just really hate them?\e"
+M04010118,"\h(«Guildmaster»)Vyse the Battle Lord! I… I don't know what to
+say… I… uh… Please don't hurt me.\e"
+M04010119,"\h(«Guildmaster»)Vyse the Extravagant! It's a pleasure to see
+you. I've heard much about your spending habi…
+uh… I mean your adventures!\e"
+M04010120,"\h(«Guildmaster»)I cannot believe it… Vyse the Charismatic is
+here. In my Guild. I am truly honored, sir.\e"
+M04000200,"\h(«Guildmaster»)I hear that you defeated one of the bounties!
+Well done! Here is your reward! You earned it!\e"
+M04000201,"\h(«Guildmaster»)Here you go! Your reward for your work. I've
+heard quite a bit about you lately. Keep up the
+good work. I'm counting on you.\e"
+M04000202,"\h(«Guildmaster»)Y, you defeated everyone on the Wanted List!
+Thanks to you, people can sail the skies freely
+and safely! It isn't much, but here. Take this.\e"
+M04000203,"\h(«Guildmaster»)Wait just a minute. I almost forgot. Here…
+This came here addressed to you.\e"
+M04000204,\h( )You received a “Black Spot.”\e
+M04000205,"\h(«Guildmaster»)It's a message from the Angel of Death…
+Sounds like you're in trouble. Better watch
+your back out there.\e"
+Mwanted00,"\h( )You received 1,000 gold for defeating
+“Baltor the Black Bearded.”\e"
+Mwanted01,"\h( )You received 2,000 gold for defeating
+“Rupee of the Larso Clan.”\e"
+Mwanted02,"\h( )You received 4,000 gold for defeating
+“Gordo the Round.”\e"
+Mwanted03,"\h( )You received 5,000 gold for defeating
+“Loose Cannon Lapen.”\e"
+Mwanted04,"\h( )You received 8,000 gold for defeating
+“The Ixa'ness Demons.”\e"
+Mwanted05,"\h( )You received 20,000 gold for defeating
+“Vize the Imposter.”\e"
+Mwanted06,"\h( )You received 20,000 gold for defeating
+“Daikokuya the Wealthy.”\e"
+Mwanted07,"\h( )You received 30,000 gold for defeating
+“Lord Zivilyn Bane.”\e"
+MF90390000,"\h(«Marchand Étrange»)Je suis connu sous le nom de Marchand Étrange.
+Je rapporte de la marchandise du monde entier.
+Tu ne reverras peut-être jamais des objets comme
+ça !\e"
+MF90390001,"\h(«Marchand Étrange»)Je ne transporte que des objets rares et
+exotiques. Viens voir ma marchandise !\e"
+MF90390002,"\h(«Que ferez-vous ?»)“Vous vendrez et achèterez des objets.”
+“Vous discuterez.”
+“Vous partirez.”\e"
+MF90390003,"\h(«Marchand Étrange»)Dans ce monde, il existe un genre de tesson
+Pierre de Lune rare qui s'appelle “Abirik Cham”.\e"
+MF90390004,"\h(«Marchand Étrange»)Merci beaucoup. Peut-être qu'un jour nos chemins
+se recroiseront.\e"
+MF04000100,"\h(«Armateur»)Bienvenue. Comment se passe ton voyage ?
+Veux-tu acheter des canons pour faire exploser
+tes ennemis dans le ciel ?\e"
+MF04000101,"\h(«Vyse»)Euh, à dire vrai, nous n'avons même pas notre
+propre navire pour le moment.\e"
+MF04000102,"\h(«Armateur»)Cela tombe bien. Je voulais te montrer ma toute
+dernière arme, une “Torpille.”\e"
+MF04000103,"\h(«Armateur»)Tu peux même choisir quelle charge explosera !
+C'est idéal pour concentrer le plus de puissance
+de feu possible en le moins de temps possible.\c"
+MF04000104,"\h(«Armateur»)Tiens tiens…… mais c'est Vyse le Nigaud ! Qui te
+poursuit cette fois ? Il te faut peut-être un
+plus gros canon pour te sentir en sécurité ?\e"
+MF04000105,"\h(«Armateur»)Hé, petit. Comment se passe ton voyage ? J'ai
+des canons pour tous tes besoins destructeurs !\e"
+MF04000106,"\h(«Armateur»)Hé, petit. Comment se passe ton voyage ? J'ai
+des canons pour tous tes besoins destructeurs !\e"
+MF04000107,"\h(«Armateur»)Hé…… c'est bien toi Vyse le Déterminé ? Oui,
+c'est ce qui me semblait. Continue comme ça.
+Veux-tu acheter un canon tant que tu es ici ?\e"
+MF04000108,"\h(«Armateur»)Tu es Vyse, n'est-ce pas ? J'ai entendu parler
+de toi. Il est temps que quelqu'un remette ces
+Valuans à leur place. Je respecte ton travail.\e"
+MF04000109,"\h(«Armateur»)Oh, c'est Vyse l'Admirable ! Veux-tu acheter un
+ou deux canons dans mon humble magasin ? Cela me
+ferait tellement plaisir !\e"
+MF04000110,"\h(«Armateur»)Oh, c'est Vyse l'Intrépide ! Veux-tu acheter un
+ou deux canons dans mon humble magasin ? Cela me
+ferait tellement plaisir !\e"
+MF04000111,"\h(«Armateur»)Ah, c'est Vyse !
+Hé…… moi aussi j'aimerais que l'on me surnomme
+“le Vaillant”……\e"
+MF04000112,"\h(«Armateur»)Ah, c'est Vyse !
+Hé…… moi aussi j'aimerais que l'on me surnomme
+“l'Audacieux”……\e"
+MF04000113,"\h(«Armateur»)Oh, c'est Vyse l'Impétueux ! Veux-tu acheter un
+ou deux canons dans mon humble magasin ? Cela me
+ferait tellement plaisir !\e"
+MF04000114,"\h(«Armateur»)Oh, Vyse ! Euh…… je veux dire, Vyse le Courageux
+! Je serais très honoré que tu m'achètes quelque
+chose !\e"
+MF04000115,"\h(«Armateur»)Bénie soit la Lune Rouge…… Je ne peux pas croire
+qu'un héros en chair et en os vienne dans mon
+magasin. C'est un honneur !\e"
+MF04000116,"\h(«Armateur»)Bénie soit la Lune Rouge…… Je ne peux pas croire
+que le Roi des Voleurs vienne dans mon magasin.
+C'est un honneur !\e"
+MF04000117,"\h(«Armateur»)V, Vyse ! Tu es une légende ! Je serais très
+honoré si tu m'achetais quelque chose…… Je me
+sentirais tellement…… important.\e"
+MF04000000,"\h(«Armateur»)Hé, petit. Comment se passe ton voyage ? J'ai
+des canons pour tous tes besoins destructeurs !\e"
+MF04000001,"\h(«Que ferez-vous ?»)“Vendre et acheter des pièces de navire.”
+“Vous discuterez.”
+“Vous partirez.”\e"
+MF04000003,"\h(«Armateur»)Regarde mes nouvelles armes. Ce sont des
+“Torpilles !”\e"
+MF04000004,"\h(«Armateur»)Tire une première fois mais tu n'atteindras la
+cible que la deuxième fois, et parfois tu peux
+l'atteindre après une ou deux charges !\e"
+MF04000005,"\h(«Armateur»)Elle rate souvent sa cible mais elle est plus
+puissante que la plupart des canons. Je te la
+conseille vivement.\c"
+MF04000006,"\h(«Armateur»)Tu sais que Valua a attaqué Nasrad et l'a
+entièrement brûlée, n'est-ce pas ?\e"
+MF04000007,"\h(«Armateur»)Eh bien, apparemment les Valuans ont développé
+un moteur qui leur permet de traverser les
+récifs célestes, et ils ont lancé une attaque
+surprise.\e"
+MF04000008,"\h(«Armateur»)Personne ne s'attendait à ce qu'ils traversent
+les récifs célestes, j'imagine qu'ils avaient
+relâché leurs défenses.\c"
+MF04000009,"\h(«Armateur»)J'ai entendu une rumeur au sujet des Pluies de
+la Destruction qui seraient tombées sur Valua.
+Est-ce possible ?\c"
+MF04000010,"\h(«Armateur»)Merci !
+Que la Lune Rouge veille sur toi.\c"
+MF04010100,"\h(«Maître de Confrérie»)Ce n'est pas toi que l'on appelle Vyse le
+Nigaud, si ?
+Qu'est-ce qui te vaut ce joli surnom ?\e"
+MF04010101,"\h(«Maître de Confrérie»)Bienvenue à la Confrérie des Marins. Nous payons
+cher les informations sur les Découvertes !\e"
+MF04010102,"\h(«Maître de Confrérie»)Bienvenue à la Confrérie des Marins. Nous payons
+cher les informations sur les Découvertes !\e"
+MF04010103,"\h(«Maître de Confrérie»)Alors c'est toi dont tout le monde parle ? Celui
+qu'on appelle Vyse le Respecté ? Bienvenue à la
+Confrérie des Marins.\e"
+MF04010104,"\h(«Maître de Confrérie»)Hé, c'est Vyse l'Admirable ! Bienvenue à la
+Confrérie des Marins !\e"
+MF04010105,"\h(«Maître de Confrérie»)Hé, c'est toi Vyse l'Intrépide, non ? Bienvenue
+à la Confrérie des Marins !\e"
+MF04010106,"\h(«Maître de Confrérie»)Vyse le Vaillant ? Bien sûr que j'ai entendu
+parler de toi. Tout le monde parle de tes
+exploits. Bienvenue à la Confrérie des Marins.\e"
+MF04010107,"\h(«Maître de Confrérie»)Vyse le Vaillant ? Bien sûr que j'ai entendu
+parler de toi. Tout le monde parle de tes
+exploits. Bienvenue à la Confrérie des Marins.\e"
+MF04010108,"\h(«Maître de Confrérie»)Oh, c'est toi ! Vyse l'Impétueux ! Bienvenue à
+la Confrérie des Marins ! C'est un honneur !\e"
+MF04010109,"\h(«Maître de Confrérie»)Oh, c'est toi ! Vyse le Courageux ! Bienvenue à
+la Confrérie des Marins ! C'est un honneur !\e"
+MF04010110,"\h(«Maître de Confrérie»)Quand je pense que Vyse le Héros est venu dans
+ma confrérie…… C'est un véritable honneur.\e"
+MF04010111,"\h(«Maître de Confrérie»)Quand je pense que Vyse le Roi des Voleurs est
+venu dans ma confrérie…… C'est un véritable
+honneur.\e"
+MF04010112,"\h(«Maître de Confrérie»)V, Vyse la Légende ?! Je me sens honoré rien que
+de pouvoir parler à quelqu'un d'aussi grand !
+Bienvenue à la Confrérie des Marins!\e"
+MF04010000,"\h(«Maître de Confrérie»)Bienvenue à la Confrérie des Marins. Nous payons
+cher les informations sur les Découvertes !\e"
+MF04010001,"\h(«Que ferez-vous ?»)“Vous vendrez et achèterez des informations.”
+“Vous discuterez.”
+“Vous partirez.”\e"
+MF04010002,"\h(«Maître de Confrérie»)Que s'est-il passé ? Ton navire est parti sans
+toi ? C'est pas de chance.\e"
+MF04010003,"\h(«Maître de Confrérie»)Humm…… Je suis désolé. Je ne connais personne
+qui a de navire disponible en ce moment.\e"
+MF04010004,"\h(«Maître de Confrérie»)Bon, puisque tu es ici et que tu n'as pas
+vraiment le choix, autant profiter de ton
+séjour.\e"
+MF04010005,"\h(«Maître de Confrérie»)J'ai entendu dire qu'il y a une nouvelle
+danseuse à la taverne, et qu'elle est très
+belle.\c"
+MF04010006,"\h(«Maître de Confrérie»)Bon, puisque tu es ici et que tu n'as pas
+vraiment le choix, autant profiter de ton
+séjour.\e"
+MF04010007,"\h(«Maître de Confrérie»)J'ai entendu dire qu'il y a une nouvelle
+danseuse à la taverne, et qu'elle est très
+belle.\c"
+MF04010008,"\h(«Maître de Confrérie»)Tu cherches des ruines dans le désert ?
+Si tu les trouves, j'espère que tu me le diras.
+Je paie cher pour ce genre d'informations.\e"
+MF04010009,"\h(«Maître de Confrérie»)Tu cherches des Découvertes ? Il y a aussi un
+certain Domingo qui les cherche.\e"
+MF04010010,"\h(«Maître de Confrérie»)On raconte qu'il est l'un des meilleurs
+chasseurs du monde. Tu devrais essayer de
+prendre un Dhabu d'avance sur lui.\c"
+MF04010011,"\h(«Maître de Confrérie»)Tu trouveras un bureau de la Confrérie du Marin
+dans chaque port, petit ou grand.
+Je te suggère d'y passer.\c"
+MF90390005,"\h(«Marchand Étrange»)Tu devrais essayer de donner à manger des Abirik
+Chams aux animaux Argents. Ils grandiront plus
+vite.\c"
+MFQ0160100,"\h(«Aika»)Hé, ce ne serait pas un des hommes recherchés
+qui figure sur la liste, à la Confrérie des
+Marins ?\e"
+MFQ0160101,"\h(«Que ferez-vous ?»)“Lui parler.”
+“L'éviter.”\c"
+MFQ0160102,"\h(«Vyse»)Hmm…… Cela risque de mal tourner si nous lui
+parlons maintenant. Nous devrions peut-être lui
+parler lorsque nous y serons mieux préparés……\c"
+MF04000118,"\h(«Armateur»)Oh ! Hé, Vyse ! J'ai entendu de mauvaises
+rumeurs sur ton compte ces derniers temps.
+Que t'est-il arrivé ? Tu t'es cogné la tête sur
+quelque chose de dur ?\e"
+MF04000119,"\h(«Armateur»)Oh, ouah ! Vyse, le Roi de la prime ! Je ne peux
+pas croire que tu achètes dans mon magasin !
+Ma mère va sauter au plafond quand je vais lui
+dire !\e"
+MF04000120,"\h(«Armateur»)Vyse, le Roi explorateur ! Je ne peux
+pas croire que tu achètes dans mon magasin !
+Ma mère va sauter au plafond quand je vais lui
+dire !\e"
+MF04000121,"\h(«Armateur»)Vyse, le Roi des combats célestes ! Tu DOIS
+acheter quelque chose ! Tu imagines les
+retombées sur mon magasin quand les gens
+sauront que tu as fait des achats chez moi ?!\e"
+MF04000122,"\h(«Armateur»)Oh, hé ! C'est Vyse, le Roi des pêcheurs !
+Es-tu venu pour acheter du matériel
+de pêche ?\e"
+MF04000123,"\h(«Armateur»)V, Vyse le Seigneur du combat !! Dis-moi……
+Est-ce vrai que tu as vaincu un ennemi en jetant
+une boulet de canon sur son navire et qu'il a
+coulé ?\e"
+MF04000124,"\h(«Armateur»)Vyse l'Extravagant !!! Je t'envie…… C'est un de
+mes rêves dans la vie, de devenir riche.
+Très riche. Tu veux bien me donner un peu
+d'argent tant que tu es là ?\e"
+MF04000125,"\h(«Armateur»)Vyse le Charismatique ! Je ne peux
+pas croire que tu achètes dans mon magasin !
+Ma mère va sauter au plafond quand je vais lui
+dire !\e"
+MF04010113,"\h(«Maître de Confrérie»)Hmmm…… Tu sais quoi ? Tu ressembles beaucoup
+à un de ces pirates sur la liste des hommes
+recherchés……\e"
+MF04010114,"\h(«Maître de Confrérie»)C'est Vyse le Roi de la prime ! Permets-moi de
+te remercier de la part d'Océan Central pour le
+merveilleux travail que tu as fait !\e"
+MF04010115,"\h(«Maître de Confrérie»)Eh bien, qui aurait cru que Vyse, le Roi
+explorateur viendrait un jour honorer cette
+Confrérie de sa présence ? Je suis honoré,
+monsieur.\e"
+MF04010116,"\h(«Maître de Confrérie»)Je ne peux pas le croire…… Vyse, le Roi des
+combats célestes est ici. A ma Confrérie.
+Je suis très honoré, monsieur.\e"
+MF04010117,"\h(«Maître de Confrérie»)Tiens ! C'est Vyse, le Roi des pêcheurs !
+Dis-moi…… Aimes-tu manger du poisson ?
+Ou tu les détestes, un point c'est tout ?\e"
+MF04010118,"\h(«Maître de Confrérie»)Vyse, le Seigneur du combat ! Je…… je ne
+sais pas quoi dire……  Je……  Euh……
+Je t'en prie, ne me fais pas de mal.\e"
+MF04010119,"\h(«Maître de Confrérie»)Vyse l'Extravagant ! C'est un plaisir de te
+rencontrer. J'ai beaucoup entendu parler
+de tes dépenses…… euh……  Je veux dire
+aventures !\e"
+MF04010120,"\h(«Maître de Confrérie»)Je ne peux pas le croire…… Vyse, le
+Charismatique est ici. A ma Confrérie.
+Je suis très honoré, monsieur.\e"
+MF04000200,"\h(«Maître de Confrérie»)On dit que tu as vaincu l'un des fugitifs !
+Bien joué ! Voici ta récompense !
+Tu l'as bien méritée !\e"
+MF04000201,"\h(«Maître de Confrérie»)Voilà ! La récompense pour ton travail. J'ai
+beaucoup entendu parler de toi ces derniers
+temps. Continue comme ça. Je compte sur toi.\e"
+MF04000202,"\h(«Maître de Confrérie»)Tu, tu as vaincu tout le monde sur la liste des
+recherchés ! Grâce à toi, les gens peuvent
+naviguer dans les cieux en toute liberté et
+sécurité ! C'est peu mais tiens. Prends-ça.\e"
+MF04000203,"\h(«Maître de Confrérie»)Attends un peu. J'ai failli oublier. Tiens……
+Ceci est arrivé pour toi.\e"
+MF04000204,\h( )Tu as reçu un “Point noir.”\e
+MF04000205,"\h(«Maître de Confrérie»)C'est un message de l'Ange de la Mort……
+On dirait que tu as des ennuis.
+Fais bien attention à toi là-bas.\e"
+MFwanted00,"\h( )Vous avez reçu 1000 pièces d'or pour avoir
+vaincu “Baltor le Barbenoire.”\e"
+MFwanted01,"\h( )Vous avez reçu 2000 pièces d'or pour avoir
+vaincu “Rupee du Clan Larso.”\e"
+MFwanted02,"\h( )Vous avez reçu 4000 pièces d'or pour avoir
+vaincu “Gordo le Gros.”\e"
+MFwanted03,"\h( )Vous avez reçu 5000 pièces d'or pour avoir
+vaincu “Lapen Le Danger public.”\e"
+MFwanted04,"\h( )Vous avez reçu 8000 pièces d'or pour avoir
+vaincu “Les Démons d'Ixa'ness.”\e"
+MFwanted05,"\h( )Vous avez reçu 20000 pièces d'or pour avoir
+vaincu “Vize l'Imposteur.”\e"
+MFwanted06,"\h( )Vous avez reçu 20000 pièces d'or pour avoir
+vaincu “Daikokuya Le Fortuné.”\e"
+MFwanted07,"\h( )Vous avez reçu 30000 pièces d'or pour avoir 
+vaincu le “Seigneur Zivilyn Bane.”\e"
+MG90390000,"\h(«Zauberhändler»)Man nennt mich den Zauberhändler. Ich führe
+Ware aus aller Welt. Vieles davon werden Sie
+nirgendwo anders finden!\e"
+MG90390001,"\h(«Zauberhändler»)Ich führe nur seltene und exotische Artikel.
+Treten Sie näher! Überzeugen Sie sich selbst!\e"
+MG90390002,"\h(«Was wirst du tun?»)“Objekte kaufen und verkaufen”.
+“Über Verschiedenes reden”.
+“Weggehen”.\e"
+MG90390003,"\h(«Zauberhändler»)Auf dieser Welt gibt es eine seltene Art einer
+Moon-Stone-Scherbe, die “Abirik Cham” genannt
+wird.\e"
+MG90390004,"\h(«Zauberhändler»)Vielen Dank. Vielleicht kreuzen sich unsere
+Wege einmal wieder.\e"
+MG04000100,"\h(«Schiffsteile-Händler»)Willkommen. Wie steht's mit der Arbeit?
+Möchtet ihr Kanonen kaufen, um eure Feinde
+vom Himmel zu holen?\e"
+MG04000101,"\h(«Vyse»)Also, um ehrlich zu sein, im Moment haben wir
+nicht einmal ein Schiff.\e"
+MG04000102,"\h(«Schiffsteile-Händler»)Tja, das ist natürlich sehr bedauerlich.
+Ich wollte euch meine neueste Waffe zeigen,
+ein “Torpedo”.\e"
+MG04000103,"\h(«Schiffsteile-Händler»)Man kann vorher festlegen, wann es feuert!
+Es eignet sich perfekt dazu, viel Feuerkraft
+in einen kurzen Zeitraum zu packen.\c"
+MG04000104,"\h(«Schiffsteile-Händler»)Sieh mal an…… ist das nicht Vyse, der Tölpel?
+Vor wem läufst du denn diesmal weg? Oder
+vielleicht brauchst du eine größere Kanone,
+um dich sicher zu fühlen?\e"
+MG04000105,"\h(«Schiffsteile-Händler»)Heda, junger Mann. Wie läuft die Arbeit?
+Ich habe Kanonen für all deine bösen
+Zwecke auf Lager!\e"
+MG04000106,"\h(«Schiffsteile-Händler»)Heda, junger Mann. Wie läuft die Arbeit?
+Ich habe Kanonen für all deine bösen
+Zwecke auf Lager!\e"
+MG04000107,"\h(«Schiffsteile-Händler»)Heh…… bist du nicht Vyse, der Entschlossene?
+Ja, dachte ich es mir doch. Mach weiter so.
+Möchtest du eine Kanone kaufen, wenn du schon
+mal hier bist?\e"
+MG04000108,"\h(«Schiffsteile-Händler»)Du bist Vyse, nicht wahr? Ich habe von dir
+gehört. Es ist höchste Zeit, dass jemand die
+Valuaner in die Schranken weist.
+Das respektiere ich.\e"
+MG04000109,"\h(«Schiffsteile-Händler»)Oh, Vyse, der Bewundernswerte! Möchtest du
+in meinem bescheidenen Laden die eine oder
+andere Kanone einkaufen? Darüber wäre ich
+sehr glücklich!\e"
+MG04000110,"\h(«Schiffsteile-Händler»)Oh, Vyse, der Kühne!  Möchtest du
+in meinem bescheidenen Laden die eine oder
+andere Kanone einkaufen?
+Du würdest mich glücklich machen!\e"
+MG04000111,"\h(«Schiffsteile-Händler»)Ah, es ist Vyse!
+He…… ich wünschte, ich wäre auch als
+“der Tapfere” bekannt wie du……\e"
+MG04000112,"\h(«Schiffsteile-Händler»)Ah, es ist Vyse!
+He…… ich wünschte, ich wäre auch als
+“der Mutige” bekannt wie du……\e"
+MG04000113,"\h(«Schiffsteile-Händler»)Oh, Vyse der Forsche! Möchtest du
+in meinem bescheidenen Laden die eine oder
+andere Kanone einkaufen?
+Ich würde mich glücklich schätzen!\e"
+MG04000114,"\h(«Schiffsteile-Händler»)Oh, Vyse! Äh…… ich meine Vyse, der Furchtlose!
+Es wäre mir eine Ehre, wenn du bei mir etwas
+kaufen würdest!\e"
+MG04000115,"\h(«Schiffsteile-Händler»)Dem Roten Mond sei Dank…… ich kann's nicht
+glauben, dass ein richtiger Held in meinen
+bescheidenen Laden kommt. Welch eine Ehre!\e"
+MG04000116,"\h(«Schiffsteile-Händler»)Dem Roten Mond sei Dank…… ich kann's nicht
+glauben, dass der König der Rogues in meinen
+bescheidenen Laden kommt. Welch eine Ehre!\e"
+MG04000117,"\h(«Schiffsteile-Händler»)V……Vyse! Du bist eine Legende! Es wäre mir
+wirklich eine Ehre, wenn du etwas bei mir
+kaufen würdest…… Es würde mir das Gefühl geben,
+so…… wichtig zu sein.\e"
+MG04000000,"\h(«Schiffsteile-Händler»)He, junger Mann. Wie steht die Arbeit?
+Ich habe Kanonen für all deine bösen
+Pläne anzubieten!\e"
+MG04000001,"\h(«Was wirst du tun?»)“Schiffsteile kaufen und verkaufen”.
+“Über Verschiedenes sprechen”.
+“Weggehen”.\e"
+MG04000003,"\h(«Schiffsteile-Händler»)Schau dir meine Waffen an. Man nennt sie
+“Torpedos”!\e"
+MG04000004,"\h(«Schiffsteile-Händler»)Wenn du sie abgefeuert hast, triffst du dein
+Ziel erst bei der nächsten Runde, und
+manchmal kannst du es auch noch länger - ein
+oder zwei Runden - hinauszögern!\e"
+MG04000005,"\h(«Schiffsteile-Händler»)Es verfehlt oft sein Ziel, aber es ist viel
+wirkungsvoller als die meisten Kanonen. Ich
+empfehle es wärmstens.\c"
+MG04000006,"\h(«Schiffsteile-Händler»)Du hast doch gehört, dass Nasrad von Valua
+überfallen und dem Erdboden gleichgemacht
+wurde, nicht wahr?\e"
+MG04000007,"\h(«Schiffsteile-Händler»)Nun, die Valuaner haben anscheinend einen
+Motor entwickelt, mit dem sie durch
+Turbulenzen hindurchsegeln können, und
+haben einen Überraschungsangriff gestartet.\e"
+MG04000008,"\h(«Schiffsteile-Händler»)Keiner hätte gedacht, dass man durch die
+Turbulenzen hindurchkommt, also war die Abwehr
+dementsprechend lasch.\c"
+MG04000009,"\h(«Schiffsteile-Händler»)Ich habe gehört, die Rains of Destruction
+seien auf Valua niedergegangen. Stimmt das
+tatsächlich?\c"
+MG04000010,"\h(«Schiffsteile-Händler»)Danke!
+Möge der Rote Mond dich behüten.\c"
+MG04010100,"\h(«Gildenvorsteher»)Bist du nicht der, den sie Vyse, den
+Tölpel, nennen? Schöner Name. Wie hast du
+ihn dir eingehandelt?\e"
+MG04010101,"\h(«Gildenvorsteher»)Willkommen bei der Sailors Guild. Für
+Informationen über Entdeckungen bezahlen
+wir gutes Geld!\e"
+MG04010102,"\h(«Gildenvorsteher»)Willkommen bei der Sailors Guild. Für
+Informationen über Entdeckungen bezahlen
+wir gutes Geld!\e"
+MG04010103,"\h(«Gildenvorsteher»)Du bist also der Typ, über den sie alle
+sprechen? Der, den sie Vyse, den Geachteten,
+nennen? Willkommen bei der Sailors Guild.\e"
+MG04010104,"\h(«Gildenvorsteher»)He, es ist Vyse, der Bewundernswerte!
+Willkommen bei der Sailors Guild!\e"
+MG04010105,"\h(«Gildenvorsteher»)He, du bist doch Vyse, der Kühne, nicht?
+Willkommen bei der Sailors Guild!\e"
+MG04010106,"\h(«Gildenvorsteher»)Vyse, der Tapfere? Natürlich habe ich schon
+von dir gehört. Alle erzählen sie von
+deinen Heldentaten. Willkommen bei der
+Sailors Guild.\e"
+MG04010107,"\h(«Gildenvorsteher»)Vyse, der Mutige? Natürlich habe ich schon
+von dir gehört. Alle erzählen sie von
+deinen Heldentaten. Willkommen bei der
+Sailors Guild.\e"
+MG04010108,"\h(«Gildenvorsteher»)Oh, du bist's! Du bist Vyse, der Forsche!
+Willkommen bei der Sailors Guild! Welch
+eine Ehre!\e"
+MG04010109,"\h(«Gildenvorsteher»)Oh, du bist's! Du bist Vyse, der Furchtlose!
+Willkommen bei der Sailors Guild! Es ist
+mir eine Ehre!\e"
+MG04010110,"\h(«Gildenvorsteher»)Vyse, der Held, sucht diese Gilde auf……
+Es ist wirklich eine Ehre, mein Herr.\e"
+MG04010111,"\h(«Gildenvorsteher»)Vyse, König der Rogues, sucht diese Gilde auf……
+Es ist wirklich eine Ehre, mein Herr.\e"
+MG04010112,"\h(«Gildenvorsteher»)V……Vyse, die Legende?! Ich fühle mich geehrt,
+mit einer so großen Persönlichkeit wie
+Ihnen reden zu dürfen! W……willkommen bei
+der Sailors Guild!\e"
+MG04010000,"\h(«Gildenvorsteher»)Willkommen bei der Sailors Guild. Für
+Informationen über Entdeckungen zahlen wir
+gutes Geld!\e"
+MG04010001,"\h(«Was wirst du tun?»)“Informationen kaufen und verkaufen”.
+“Über Verschiedenes reden”.
+“Weggehen”.\e"
+MG04010002,"\h(«Gildenvorsteher»)Was ist passiert? Hast du dein Schiff verpasst?
+Welch unglückliche Geschichte.\e"
+MG04010003,"\h(«Gildenvorsteher»)Hmm…… tut mir Leid. Ich weiß leider niemanden,
+der im Augenblick ein Schiff zu vermieten hat.\e"
+MG04010004,"\h(«Gildenvorsteher»)Nun, da du hier festsitzt, kannst du auch
+das Beste aus deinem Aufenthalt machen.\e"
+MG04010005,"\h(«Gildenvorsteher»)Wie ich höre, gibt es eine hübsche neue
+Tänzerin in der Taverne.\c"
+MG04010006,"\h(«Gildenvorsteher»)Nun, da du hier festsitzt, kannst du auch
+das Beste aus deinem Aufenthalt machen.\e"
+MG04010007,"\h(«Gildenvorsteher»)Wie ich höre, gibt es eine hübsche neue
+Tänzerin in der Taverne.\c"
+MG04010008,"\h(«Gildenvorsteher»)Ihr sucht die Wüste nach Ruinen ab?
+Wenn ihr welche findet, hoffe ich, dass ihr es
+mich wissen lasst. Für solche Informationen
+zahle ich recht gut.\e"
+MG04010009,"\h(«Gildenvorsteher»)Sucht ihr nach Entdeckungen? Nun, da ist
+noch jemand mit dem Namen Domingo, der die
+Welt nach Entdeckungen absucht.\e"
+MG04010010,"\h(«Gildenvorsteher»)Ich habe gehört, er sei einer der besten
+Schatzsucher der Welt. Ihr solltet versuchen,
+ihm eine Dhabu-Länge voraus zu sein.\c"
+MG04010011,"\h(«Gildenvorsteher»)In jedem Hafen, egal wie groß, findet sich
+eine Filiale der Sailors Guild. Ich schlage
+vor, ihr stattet ihr einen Besuch ab.\c"
+MG90390005,"\h(«Zauberhändler»)Ihr solltet versuchen, silberne Tiere mit
+Abirik Chams zu füttern. Dadurch wachsen sie
+viel schneller.\c"
+MGQ0160100,"\h(«Aika»)He, ist das nicht einer der Jungs, dessen Name
+auf der Fahndungsliste der Sailors Guild steht?\e"
+MGQ0160101,"\h(«Was wirst du tun?»)“Rede mit ihm.”
+“Geh ihm aus dem Weg.”\c"
+MGQ0160102,"\h(«Vyse»)Hmm…… Wenn wir jetzt mit ihm reden, könnte
+es sich schlecht auswirken. Vielleicht sollten
+wir mit ihm reden, wenn wir etwas besser
+vorbereitet sind……\c"
+MG04000118,"\h(«Schiffsteile-Händler»)Oh! He, Vyse! Ich habe in letzter Zeit üble
+Gerüchte über dich gehört. Was ist mit dir
+passiert? Hast du dir den Kopf an etwas Hartem
+angeschlagen?\e"
+MG04000119,"\h(«Schiffsteile-Händler»)Wow! Vyse, der Kopfgeldkönig! Ich kann
+nicht glauben, dass du zum Einkaufen in mein
+Geschäft kommst! Warte nur, bis ich das
+meiner Mutter erzähle! Sie wird ausflippen!\e"
+MG04000120,"\h(«Schiffsteile-Händler»)Vyse, der Erforschungskönig! Ich kann
+nicht glauben, dass du zum Einkaufen in mein
+Geschäft kommst! Warte nur, bis ich das
+meiner Mutter erzähle! Sie wird ausflippen!\e"
+MG04000121,"\h(«Schiffsteile-Händler»)Vyse, der Sky-Battle-König! Du MUSST
+etwas kaufen! Es würde meinen Geschäften
+unheimlich helfen, wenn ich den Leuten erzählen
+könnte, dass du hier einkaufst. Bitte!!!\e"
+MG04000122,"\h(«Schiffsteile-Händler»)Oh he! Vyse, der Fischerkönig! Bist du
+hergekommen, um Angelgeräte zu kaufen?\e"
+MG04000123,"\h(«Schiffsteile-Händler»)V, Vyse, Der Kampf-Lord!! Sag mal…… 
+Stimmt es, dass du jemanden besiegt hast, indem
+du eine Kanonenkugel auf sein Schiff geworfen
+und es versenkt hast?\e"
+MG04000124,"\h(«Schiffsteile-Händler»)Vyse, der Extravagante!!! Ich beneide dich……
+Es ist einer meiner Lebensträume, reich zu sein.
+So richtig reich. Möchtest du mir nicht etwas
+Geld geben?\e"
+MG04000125,"\h(«Schiffsteile-Händler»)Vyse, der Charismatische! Ich kann
+nicht glauben, dass du zum Einkaufen in mein
+Geschäft kommst! Warte nur, bis ich das
+meiner Mutter erzähle! Sie wird ausflippen!\e"
+MG04010113,"\h(«Gildenvorsteher»)Hmmm…… Weißt du was? Du siehst einem der
+Piraten auf der Fahndungsliste verdammt ähnlich
+……\e"
+MG04010114,"\h(«Gildenvorsteher»)Vyse, der Kopfgeldkönig! Ich danke dir
+im Namen von Mid Ocean für all die hervorra-
+gende Arbeit, die du geleistet hast!\e"
+MG04010115,"\h(«Gildenvorsteher»)Nun, wer hätte je gedacht, dass Vyse, der Erfor-
+schungskönig diese Guild mal mit seiner
+Anwesenheit beglücken würde? Ich fühle mich
+geehrt, Sir.\e"
+MG04010116,"\h(«Gildenvorsteher»)Ich kann's nicht glauben…… Vyse, der
+Sky-Battle-König ist hier, in meiner Gilde. Ich
+fühle mich wirklich geehrt, Sir.\e"
+MG04010117,"\h(«Gildenvorsteher»)Oh! Vyse, der Fischerkönig!
+Sag mal…… Magst du gern Fisch?
+Oder hasst du ihn?\e"
+MG04010118,"\h(«Gildenvorsteher»)Vyse, der Kampf-Lord! Ich…… ich 
+weiß nicht, was ich sagen soll…… Ich……
+äh…… Bitte tu mir nicht weh.\e"
+MG04010119,"\h(«Gildenvorsteher»)Vyse, der Extravagante! Ich freu mich, dich zu
+sehen. Ich habe viel gehört über deine Aus-
+gabegewohnhei…… äh…… ich meine deine
+Abenteuer!\e"
+MG04010120,"\h(«Gildenvorsteher»)Ich kann's nicht glauben…… Vyse, der Charis-
+matische ist hier. In meiner Gilde. Ich fühle
+mich wirklich geehrt, Sir.\e"
+MG04000200,"\h(«Gildenvorsteher»)Ich habe gehört, dass du einen der Gesuchten
+besiegt hast! Gut gemacht! Hier ist deine Beloh-
+nung! Du hast sie dir verdient!\e"
+MG04000201,"\h(«Gildenvorsteher»)Bitte schön! Eine Belohnung für deine Arbeit.
+Ich habe in letzter Zeit viel über dich gehört.
+Mach weiter so. Ich zähle auf dich.\e"
+MG04000202,"\h(«Gildenvorsteher»)D, du hast alle auf der Fahndungsliste besiegt!
+Dank dir können die Leute wieder frei und si-
+cher durch den Himmel segeln! Es ist zwar nicht
+viel, aber bitte schön. Das ist für dich.\e"
+MG04000203,"\h(«Gildenvorsteher»)Moment mal. Ich hätte es fast vergessen. Hier
+…… das ist hier angekommen und an dich
+adressiert.\e"
+MG04000204,\h( )Du hast einen “Black Spot” erhalten.\e
+MG04000205,"\h(«Gildenvorsteher»)Es ist eine Nachricht vom Todesengel……
+Es sieht so aus, als stecktest du in
+Schwierigkeiten. Du solltest da draußen lieber
+aufpassen.\e"
+MGwanted00,"\h( )Du hast 1.000 Goldstücke bekommen, weil du
+“Baltor, den Schwarzbärtigen” besiegt hast.\e"
+MGwanted01,"\h( )Du hast 2.000 Goldstücke bekommen, weil du
+“Rupee vom Larso-Klan” besiegt hast.\e"
+MGwanted02,"\h( )Du hast 4.000 Goldstücke bekommen, weil du
+“den runden Gordo” besiegt hast.\e"
+MGwanted03,"\h( )Du hast 5.000 Goldstücke bekommen, weil du
+“Lapen, den Volksfeind” besiegt hast.\e"
+MGwanted04,"\h( )Du hast 8.000 Goldstücke bekommen, weil du
+“die Dämonen von Ixa'ness” besiegt hast.\e"
+MGwanted05,"\h( )Du hast 20.000 Goldstücke bekommen, weil du
+“Vize, den Betrüger” besiegt hast.\e"
+MGwanted06,"\h( )Du hast 20.000 Goldstücke bekommen, weil du
+“Daikokuya, den Reichen” besiegt hast.\e"
+MGwanted07,"\h( )Du hast 30.000 Goldstücke bekommen, weil du 
+“Lord Zivilyn Bane” besiegt hast.\e"
+MS90390000,"\h(«Mercader Enigma»)Me llaman el Mercader Enigma. Traigo
+productos de todo el mundo. ¡Algunos de ellos
+quizá no los vuelvas a ver en tu vida!\e"
+MS90390001,"\h(«Mercader Enigma»)Sólo tengo objetos exóticos y difíciles de
+encontrar.
+¡Ven! ¡Compruébalo por ti mismo!\e"
+MS90390002,"\h(«¿Qué vas a hacer?»)“Comprar y vender objetos.”
+“Charlar sobre temas variados.”
+“Irme.”\e"
+MS90390003,"\h(«Mercader Enigma»)En este mundo existe un extraño tipo de
+fragmento de Piedra Lunar, el “Chum Abirik”.\e"
+MS90390004,"\h(«Mercader Enigma»)Muchas gracias. Quizá nuestros senderos se
+crucen algún día.\e"
+MS04000100,"\h(«Mercader de Repuestos de Navío»)Bienvenido. ¿Cómo van los viajes? ¿Quieres
+comprar cañones para acabar con tus enemigos?\e"
+MS04000101,"\h(«Vyse»)Bueno, para ser sinceros, ahora mismo ni
+siquiera tenemos nuestro propio navío.\e"
+MS04000102,"\h(«Mercader de Repuestos de Navío»)Bueno, es una lástima. Quería enseñarte mi
+última arma que se llama “Torpedo”.\e"
+MS04000103,"\h(«Mercader de Repuestos de Navío»)¡Incluso puedes elegir cuándo quieres que entre
+en acción! Es perfecto para concentrar mucho
+poder de fogueo en poco tiempo.\c"
+MS04000104,"\h(«Mercader de Repuestos de Navío»)Bueno, bueno…… ¿No se trata de Vyse el Tonto?
+¿De quién huyes ahora? ¿O es que necesitas un
+cañón más grande para sentirte seguro?\e"
+MS04000105,"\h(«Mercader de Repuestos de Navío»)Oye, chico. ¿Cómo van los viajes?
+¡Tengo cañones para todas tus necesidades
+destructoras!\e"
+MS04000106,"\h(«Mercader de Repuestos de Navío»)Oye, chaval. ¿Qué tal por los cielos?
+¡Tengo cañones para todas tus necesidades
+destructoras!\e"
+MS04000107,"\h(«Mercader de Repuestos de Navío»)Caramba…… ¿Eres Vyse el Decidido? Sí, ya me
+parecía. Pues sigue así. ¿Quieres aprovechar
+para comprar un cañón?\e"
+MS04000108,"\h(«Mercader de Repuestos de Navío»)Tú eres Vyse, ¿no? He oído hablar de ti.
+Ya era hora de que alguien pusiera firmes a esos
+Valuan. Te respeto mucho por eso.\e"
+MS04000109,"\h(«Mercader de Repuestos de Navío»)¡Anda, Vyse el Admirable! ¿Quieres comprar uno o
+dos cañones en mi humilde tienda? ¡Me harías tan
+feliz!\e"
+MS04000110,"\h(«Mercader de Repuestos de Navío»)¡Anda, Vyse el Valiente! ¿Quieres comprar uno o
+dos cañones en mi humilde tienda? ¡Me harías tan
+feliz!\e"
+MS04000111,"\h(«Mercader de Repuestos de Navío»)¡Anda, si es Vyse!
+Oye…… Ojalá a mi también me llamaran
+“el Gallardo” como a ti……\e"
+MS04000112,"\h(«Mercader de Repuestos de Navío»)¡Anda, es Vyse!
+Oye…… Ojalá a mi también me llamaran
+“el Atrevido” como a ti……\e"
+MS04000113,"\h(«Mercader de Repuestos de Navío»)¡Anda, Vyse el Impetuoso! ¿Quieres comprar uno o
+dos cañones en mi humilde tienda? ¡Me harías tan
+feliz!\e"
+MS04000114,"\h(«Mercader de Repuestos de Navío»)¡Es Vyse! Esto…… digo, ¡Vyse el Temerario!
+¡Me sentiría tan honrado si me compraras algo!\e"
+MS04000115,"\h(«Mercader de Repuestos de Navío»)Alabada sea la Luna Roja…… No puedo creer
+que un verdadero héroe como tú venga a comprar a
+mi humilde establecimiento. ¡Qué honor!\e"
+MS04000116,"\h(«Mercader de Repuestos de Navío»)Alabada sea la Luna Roja…… No puedo creer
+que el Rey de los Bandidos venga a comprar
+a mi humilde establecimiento. ¡Qué honor!\e"
+MS04000117,"\h(«Mercader de Repuestos de Navío»)¡Vyse! ¡Eres una leyenda! Sería un gran honor
+que me compraras algo…… Me haría sentirme tan……
+importante.\e"
+MS04000000,"\h(«Mercader de Repuestos de Navío»)Oye, chico. ¿Qué tal los viajes por el cielo?
+¡Tengo cañones para satisfacer todas tus
+necesidades de destrucción!\e"
+MS04000001,"\h(«¿Qué vas a hacer?»)“Comprar y vender repuestos.”
+“Charlar sobre temas variados.”
+“Irme.”\e"
+MS04000003,"\h(«Mercader de Repuestos de Navío»)Mira las nuevas armas que tengo para ti.
+¡Se llaman “Torpedos”!\e"
+MS04000004,"\h(«Mercader de Repuestos de Navío»)Cuando dispares, el objetivo no recibirá el
+impacto hasta el turno siguiente, ¡y a veces
+puedes retrasarlo más: uno o dos turnos!\e"
+MS04000005,"\h(«Mercader de Repuestos de Navío»)A veces falla el objetivo, pero es mucho más
+potente que la mayoría de cañones.
+Te lo recomiendo.\c"
+MS04000006,"\h(«Mercader de Repuestos de Navío»)¿Te enteraste de que Nasrad fue atacada por
+Valua y quedó arrasada por las llamas?\e"
+MS04000007,"\h(«Mercader de Repuestos de Navío»)Bueno, por lo visto los Valuan crearon un motor
+que les permite atravesar las grietas celestes y
+lanzaron un ataque por sorpresa.\e"
+MS04000008,"\h(«Mercader de Repuestos de Navío»)Como nadie se imaginaba que iban a conseguir
+atravesar las grietas celestes, las defensas
+estaban bajas.\c"
+MS04000009,"\h(«Mercader de Repuestos de Navío»)He oído por ahí que las Lluvias Destructoras
+cayeron sobre Valua. ¿Es eso cierto?\c"
+MS04000010,"\h(«Mercader de Repuestos de Navío»)¡Gracias!
+Que la Luna Roja te proteja.\c"
+MS04010100,"\h(«Maestro del Gremio»)¿No eres tú al que llaman Vyse el Tonto?
+Bonito mote. ¿Cómo te lo ganaste?\e"
+MS04010101,"\h(«Maestro del Gremio»)Bienvenido al Gremio de los Marinos. ¡Pagamos
+muy bien la información sobre Hallazgos!\e"
+MS04010102,"\h(«Maestro del Gremio»)Bienvenido al Gremio de los Marinos. ¡Pagamos
+muy bien la información sobre Hallazgos!\e"
+MS04010103,"\h(«Maestro del Gremio»)¿Así que tú eres ése del que todo el mundo
+habla? ¿Al que llaman Vyse el Respetado?
+Bienvenido al Gremio de los Marinos.\e"
+MS04010104,"\h(«Maestro del Gremio»)¡Hombre, es Vyse el Admirable! ¡Bienvenido al
+Gremio de los Marinos!\e"
+MS04010105,"\h(«Maestro del Gremio»)Eres Vyse el Valiente, ¿no?
+¡Bienvenido al Gremio de los Marinos!\e"
+MS04010106,"\h(«Maestro del Gremio»)¿Vyse el Gallardo? Pues claro que he oído hablar
+de ti. Todos hablan de tus hazañas.
+Bienvenido al Gremio de los Marinos.\e"
+MS04010107,"\h(«Maestro del Gremio»)¿Vyse el Atrevido? Claro que he oído hablar de
+ti. Todo el mundo habla de tus hazañas.
+Bienvenido al Gremio de los Marinos.\e"
+MS04010108,"\h(«Maestro del Gremio»)¡Anda, eres tú! ¡Vyse el Impetuoso!
+¡Bienvenido al Gremio de los Marinos!
+¡Es un gran honor!\e"
+MS04010109,"\h(«Maestro del Gremio»)¡Anda, eres tú! ¡Vyse el Temerario!
+¡Bienvenido al Gremio de los Marinos!
+¡Es un gran honor!\e"
+MS04010110,"\h(«Maestro del Gremio»)Pensar que Vyse el Héroe vendría a este Gremio……
+Es un gran honor, señor.\e"
+MS04010111,"\h(«Maestro del Gremio»)Pensar que Vyse el Rey de los Bandidos vendría a
+este Gremio……
+Es un gran honor, señor.\e"
+MS04010112,"\h(«Maestro del Gremio»)¡¿Vyse la Leyenda?! ¡Es un gran honor tan
+sólo poder hablar con alguien de tal magnitud!
+¡Bienvenido al Gremio de los Marinos!\e"
+MS04010000,"\h(«Maestro del Gremio»)Bienvenido al Gremio de los Marinos.
+¡Pagamos muy bien la información sobre
+Hallazgos!\e"
+MS04010001,"\h(«¿Qué vas a hacer?»)“Comprar y vender info. sobre Hallazgos.”
+“Charlar sobre temas variados.”
+“Irme.”\e"
+MS04010002,"\h(«Maestro del Gremio»)¿Qué sucedió? ¿Fuiste abandonado por tu navío?
+Qué desgracia.\e"
+MS04010003,"\h(«Maestro del Gremio»)Mmm…… Lo siento. Ahora mismo no conozco a nadie
+que disponga de un navío para alquilarlo.\e"
+MS04010004,"\h(«Maestro del Gremio»)Bueno, como no tienes otro remedio que quedarte,
+por lo menos intenta disfrutar de tu estancia
+aquí.\e"
+MS04010005,"\h(«Maestro del Gremio»)Dicen que en la taberna hay una bailarina nueva
+que es muy mona.\c"
+MS04010006,"\h(«Maestro del Gremio»)Bueno, como no tienes otro remedio que quedarte,
+por lo menos intenta disfrutar de tu estancia
+aquí.\e"
+MS04010007,"\h(«Maestro del Gremio»)Dicen que en la taberna hay una bailarina nueva
+que es muy mona.\c"
+MS04010008,"\h(«Maestro del Gremio»)¿Buscas unas ruinas en el desierto?
+Si las encuentras, espero que me lo digas.
+Pago muy bien esas informaciones.\e"
+MS04010009,"\h(«Maestro del Gremio»)¿Estás buscando Hallazgos? El caso es que
+un tal Domingo también busca Hallazgos por
+todo el mundo.\e"
+MS04010010,"\h(«Maestro del Gremio»)He oído que es uno de los mejores buscadores de
+tesoros del mundo. Tienes que mantenerte siempre
+por delante.\c"
+MS04010011,"\h(«Maestro del Gremio»)En cualquier puerto, sea cual sea su tamaño,
+encontrarás una oficina del Gremio de los
+Marinos. Haz siempre una rápida visita.\c"
+MS90390005,"\h(«Mercader Enigma»)Los animales de Plata se alimentan de Chums
+Abirik. Hace que crezcan mucho más deprisa.\c"
+MSQ0160100,"\h(«Aika»)Eh, ¿no es ése uno de los tipos en la lista de
+Fugitivos del Gremio de Marinos?\e"
+MSQ0160101,"\h(«¿Qué vas a hacer?»)“Hablar con él.”
+“Evitarle.”\c"
+MSQ0160102,"\h(«Vyse»)Hmm…… Si hablamos con él ahora, la cosa
+podría ponerse fea. Quizás deberíamos hablar
+con él cuando estemos un poco más preparados……\c"
+MS04000118,"\h(«Mercante de repuestos de navío»)¡Oh! ¡Eh, Vyse! Últimamente he estado oyendo
+malos rumores sobre ti. ¿Qué te pasó? ¿Te
+golpeaste la cabeza con algo duro?\e"
+MS04000119,"\h(«Mercante de repuestos de navío»)¡Oh, guau! ¡Vyse el Rey Cazarrecompensas! ¡No
+puedo creerme que estés comprando en mi
+tienda! ¡Espera a que se lo cuente a mi madre!
+¡Le va a dar algo!\e"
+MS04000120,"\h(«Mercante de repuestos de navío»)¡Vyse el Rey Explorador! No puedo creerme que
+estés comprando en mi tienda! ¡Espera a que se
+lo cuente a mi madre! ¡Le va a dar algo!\e"
+MS04000121,"\h(«Mercante de repuestos de navío»)¡Vyse el Rey de la Batalla Celeste! ¡TIENES
+que comprarme algo! ¿Sabes lo que supondría
+para mi negocio si le digo a la gente que
+compras aquí? ¡¡¡Por favor!!!\e"
+MS04000122,"\h(«Mercante de repuestos de navío»)¡Eh, oye! ¡Es Vyse, el Rey Pescador! ¿Has
+venido a comprar materiales de pesca?\e"
+MS04000123,"\h(«Mercante de repuestos de navío»)¡¡V, Vyse el Señor de la Batalla!! Dime…… ¿Es
+verdad que venciste a alguien disparando una
+bala de cañón a su barco y que hiciste que se
+hundiera?\e"
+MS04000124,"\h(«Mercante de repuestos de navío»)¡¡¡Vyse el Extravagante!!! Te envidio…… Uno de
+los sueños de mi vida es llegar a ser rico.
+Muy rico. ¿Quieres darme algo de dinero, ya que
+estás aquí?\e"
+MS04000125,"\h(«Mercante de repuestos de navío»)¡Vyse el Carismático! ¡No me puedo creer que
+estés comprando en mi tienda! ¡Espera a que se
+lo cuente a mi madre! ¡Le va a dar algo!\e"
+MS04010113,"\h(«Maestro del Gremio»)Hmm…… ¿Sabes una cosa? Te pareces muchísimo a 
+uno de esos piratas en la Lista de Fugitivos……\e"
+MS04010114,"\h(«Maestro del Gremio»)¡Es Vyse el Rey Cazarecompensas! ¡Debo darte
+las gracias en nombre del Océano Medio por el
+espléndido trabajo que has realizado!\e"
+MS04010115,"\h(«Maestro del Gremio»)Bueno, ¿quién iba a pensar que Vyse el Rey
+Explorador honraría este Gremio con su
+presencia? Es todo un honor, caballero.\e"
+MS04010116,"\h(«Maestro del Gremio»)No me lo puedo creer…… Vyse el Rey de la
+Batalla Celeste está aquí. En mi Gremio.
+Es todo un honor, caballero.\e"
+MS04010117,"\h(«Maestro del Gremio»)¡Vaya! ¡Es Vyse, el Rey Pescador!
+Dime…… ¿Te encanta comer pescado?
+¿O lo odias de verdad?\e"
+MS04010118,"\h(«Maestro del Gremio»)¡Vyse el Señor de la Batalla! Yo…… No sé qué
+decir…… Yo……eh…… No me hagas daño, por favor.\e"
+MS04010119,"\h(«Maestro del Gremio»)¡Vyse el Extravagante! Es un placer conocerte.
+He oído hablar sobre lo mucho que gast…… ¡Quiero
+decir sobre tus aventuras!\e"
+MS04010120,"\h(«Maestro del Gremio»)No me lo puedo creer…… Vyse el Carismático está
+aquí. En mi Gremio. Es todo un honor, caballero.\e"
+MS04000200,"\h(«Maestro del Gremio»)¡He oído que venciste a uno de los fugitivos!
+¡Bien hecho! ¡Aquí tienes tu recompensa! ¡Te la
+has ganado!\e"
+MS04000201,"\h(«Maestro del Gremio»)¡Aquí tienes! La recompensa por tu trabajo. He
+oído hablar mucho sobre ti últimamente. Sigue
+así. Contamos contigo.\e"
+MS04000202,"\h(«Maestro del Gremio»)¡Ve, venciste a todos los de la Lista de 
+Fugitivos! ¡Gracias a ti, la gente puede navegar
+libremente y con seguridad por los cielos! No es
+mucho, pero aquí tienes. Toma esto.\e"
+MS04000203,"\h(«Maestro del Gremio»)Espera un momento. Casi se me olvida. Toma……
+Esto va dirigido a ti.\e"
+MS04000204,\h( )Has recibido un “Punto Negro”.\e
+MS04000205,"\h(«Maestro del Gremio»)Es un mensaje del Ángel de la Muerte…… Parece
+que vas a tener problemas. Ten cuidado por ahí
+fuera.\e"
+MSwanted00,"\h( )Has recibido 1000 monedas de oro por vencer a
+“Baltor el Barbanegra”.\e"
+MSwanted01,"\h( )Has recibido 2000 monedas de oro por vencer a
+“Rupee del Clan Larso”.\e"
+MSwanted02,"\h( )Has recibido 4000 monedas de oro por vencer a
+“Gordo el Redondo”.\e"
+MSwanted03,"\h( )Has recibido 5000 monedas de oro por vencer a
+“Lapen el Peligro Público”.\e"
+MSwanted04,"\h( )Has recibido 8000 monedas de oro por vencer a
+“Los Demonios de Ixa'ness”.\e"
+MSwanted05,"\h( )Has recibido 20000 monedas de oro por vencer a
+“Vize el Impostor”.\e"
+MSwanted06,"\h( )Has recibido 20000 monedas de oro por vencer a
+“Daikokuya el Rico”.\e"
+MSwanted07,"\h( )Has recibido 30000 monedas de oro por vencer a
+“Señor Zivilyn Bane”.\e"
+Ms008b000,"\h(«Vyse»)This jar looks like it was unloaded from this
+ship. It's labeled “Spices.” It's got an
+interesting smell… I can't quite describe it.\c"
+Ms008b001,"\h(«Vyse»)It says here that it contains Valuan gold. You
+figure they wouldn't label the boxes like that…
+well, it just makes us Air Pirates' jobs easier.\c"
+Ms008b002,"\h(«Vyse»)Weapons, explosives…  Moon Stones… Yikes.
+Maybe I shouldn't touch this box. That doesn't
+sound like a very stable combination of things…\c"
+Ms008b003,"\h(«Vyse»)A box of Nasr pottery… Nasr pottery is
+supposedly the best in the world. I wonder
+how much each pot is worth…\c"
+Ms008b004,"\h(«Vyse»)It's a Nasr merchant ship. I wonder if I could…
+Nah. I shouldn't just sneak on board. Who knows
+what they'd do to me when they found me.\c"
+Ms008b005,"\h(«Vyse»)It's a huge bonfire. I suppose it won't ever
+burn out because they're using Red Moon Stones
+to keep it hot…\c"
+Ms008b006,"\h(«Vyse»)There're a whole lot of crates stacked up in
+here. They're labeled with country names from
+all over. I wonder what's in them…\c"
+Ms008b007,\h(«Vyse»)Heh… It's locked.\c
+Ms008b008,"\h(«Vyse»)It looks like this anchor has gone
+through it's share of use and abuse.\c"
+Ms008b009,"\h(«Vyse»)It's some sort of cannon.
+Looks like a fire-powered gun,
+common here in Nasr.\c"
+Ms008b010,"\h(«What will you do?»)“Set sail for the Temple of Pyrynn.”
+“Stay here a little while longer.”\c"
+Ms008b011,"\h(«What will you do?»)“Return to the Little Jack.”
+“Stay here a little while longer.”\c"
+Ms008b012,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MFs008b000,"\h(«Vyse»)Apparemment, ce baril a été déchargé de ce
+navire. Il porte l'indication “Epices.”
+L'odeur est étrange…… J'ai du mal à la décrire.\c"
+MFs008b001,"\h(«Vyse»)Il est écrit qu'elle contient de l'or Valuan.
+C'est étrange d'indiquer sur des caisses de
+telles informations. Mais, cela nous simplifie
+la tâche à nous, Pirates de l'Air.\c"
+MFs008b002,"\h(«Vyse»)Armes, explosifs…… Pierres de Lune……  
+Je ne devrais peut-être pas toucher cette
+caisse. La combinaison de ces éléments ne laisse
+rien présager de bon !\c"
+MFs008b003,"\h(«Vyse»)Une caisse de poterie Nasreane…… C'est censé
+être la meilleure poterie du monde. Je me
+demande combien vaut chaque baril……\c"
+MFs008b004,"\h(«Vyse»)C'est un navire marchant Nasran. Je me demande
+si je pourrais…… Non. Je ne devrais pas
+m'infiltrer à bord. Qui sait ce qu'ils me feront
+s'ils me trouvent !\c"
+MFs008b005,"\h(«Vyse»)C'est un gigantesque feu. J'imagine qu'il ne
+s'éteindra jamais parce qu'ils utilisent des
+Pierres de Lune Rouges pour qu'il reste vif……\c"
+MFs008b006,"\h(«Vyse»)Plusieurs caisses sont empilées ici.
+Elles portent le nom de plusieurs pays du monde.
+Je me demande ce qu'elles contiennent……\c"
+MFs008b007,\h(«Vyse»)Hé…… C'est verrouillé.\c
+MFs008b008,"\h(«Vyse»)Il semblerait que cette ancre ait beaucoup
+servi.\c"
+MFs008b009,"\h(«Vyse»)C'est une sorte de canon.
+Ça ressemble à un pistolet puissant très répandu
+à Nasr.\c"
+MFs008b010,"\h(«Que ferez-vous ?»)“Vous partirez pour le Temple de Pyrynn.”
+“Vous resterez ici encore un moment.”\c"
+MFs008b011,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Little Jack.”
+“Vous resterez ici encore un peu.”\c"
+MFs008b012,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici encore un moment.”\c"
+MGs008b000,"\h(«Vyse»)Dieses Gefäß sieht so aus, als
+komme es vom Schiff. Es trägt die Aufschrift
+“Gewürze”. Es hat einen interessanten Geruch……
+Ich kann ihn nicht richtig beschreiben.\c"
+MGs008b001,"\h(«Vyse»)Hier steht, es enthält valuanisches Gold.
+Man sollte denken, dass sie die Kisten nicht
+so beschriften würden…… Nun, das macht unseren
+Job als Luftpiraten nur umso einfacher.\c"
+MGs008b002,"\h(«Vyse»)Waffen, Sprengstoffe……  Moon Stones…… Huch.
+Vielleicht sollte ich die Kiste gar nicht
+anfassen. Das klingt nicht gerade nach einer
+sehr sicheren Zusammensetzung von Dingen……\c"
+MGs008b003,"\h(«Vyse»)Eine Kiste Töpferwaren aus Nasr……
+Die Töpferwaren aus Nasr gelten als die
+besten der Welt. Ich frage mich, wieviel
+jeder Krug wert ist……\c"
+MGs008b004,"\h(«Vyse»)Ein Handelsschiff aus Nasr. Ich frage mich,
+ob ich nicht…… Nee. Ich sollte mich nicht
+einfach an Bord schleichen. Wer weiß, was
+sie mit mir machen, wenn sie mich erwischen.\c"
+MGs008b005,"\h(«Vyse»)Das ist ein riesiges Lagerfeuer.
+Ich schätze, es wird niemals ausgehen,
+weil sie es mit Red Moon Stones anheizen……\c"
+MGs008b006,"\h(«Vyse»)Hier gibt es eine Menge aufgestapelter
+Kisten. Sie tragen Aufschriften mit
+verschiedensten Ländernamen. Ich frage
+mich, was wohl darin ist…… \c"
+MGs008b007,\h(«Vyse»)Heh…… Es ist verschlossen.\c
+MGs008b008,"\h(«Vyse»)Sieht so aus, als sei dieser Anker durch die
+verschiedensten Hände gegangen.\c"
+MGs008b009,"\h(«Vyse»)Es ist eine Art Kanone.
+Sieht aus wie ein durch Feuerkraft
+unterstütztes Gewehr. Sieht man
+oft hier in Nasr.\c"
+MGs008b010,"\h(«Was wirst du tun?»)“Die Segel Richtung Temple of Pyrynn setzen.”
+“Eine Weile hier bleiben.”\c"
+MGs008b011,"\h(«Was wirst du tun?»)“Zur Little Jack zurückkehren.”
+“Eine Weile hier bleiben.”\c"
+MGs008b012,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Eine Weile hier bleiben.”\c"
+MSs008b000,"\h(«Vyse»)Parece que este jarro lo sacaron de este
+navío. En la etiqueta pone “Especias”. Tiene un
+olor curioso…… No puedo describirlo.\c"
+MSs008b001,"\h(«Vyse»)Aquí dice que contiene oro de Valua. Aunque es
+raro que pongan etiquetas a las cajas……
+facilitan el trabajo de los Piratas Aéreos.\c"
+MSs008b002,"\h(«Vyse»)Armas, explosivos…… Piedras Lunares……
+¡Uy! Quizás no debería tocar esta caja.
+No parece una combinación muy segura……\c"
+MSs008b003,"\h(«Vyse»)Una caja de loza de Nasr……
+La loza de Nasr es la mejor del mundo.
+Me pregunto cuánto valdrá cada cacharro……\c"
+MSs008b004,"\h(«Vyse»)Es un navío mercante de Nasr. Quizás podría……
+No, no debería colarme como polizón.
+Quién sabe qué me harían si me encontraran.\c"
+MSs008b005,"\h(«Vyse»)Es una hoguera enorme. Supongo que nunca
+se apagará, porque usan Piedras Rojas
+para mantenerla encendida……\c"
+MSs008b006,"\h(«Vyse»)Hay un montón de cajas amontonadas. Tienen
+etiquetas con nombres de países de todo el
+mundo. Me pregunto qué habrá dentro……\c"
+MSs008b007,\h(«Vyse»)Están cerradas.\c
+MSs008b008,\h(«Vyse»)Parece como que este ancla está ya muy usada.\c
+MSs008b009,"\h(«Vyse»)Es un tipo de cañón.
+Parece un arma de fuego
+muy común aquí en Nasr.\c"
+MSs008b010,"\h(«¿Qué vas a hacer?»)“Navegar al Templo de Pyrynn.”
+“Quedarme aquí un rato más.”\c"
+MSs008b011,"\h(«¿Qué vas a hacer?»)“Volver al Little Jack.”
+“Quedarme aquí un rato más.”\c"
+MSs008b012,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un rato más.”\c"
+MD0020000,"\h(«Vyse»)So this is Maramba…
+It's so… hot!\e"
+MD0020001,"\h(«Aika»)…Huh?
+Where'd the Cap'n go?\e"
+MD0020002,\h(«Vyse»)Hey!\e
+MD0020003,"\h(«Aika»)W… wait!
+Cap'n! Where are you going?!\e"
+MD0020004,"\h(«Drachma»)This is where we part company.
+I've got my own quest to worry about. 
+I've got to find Rhaknam.\e"
+MD0020005,"\h(«Aika»)What?!
+W… wait a second!\e"
+MD0020006,"\h(«Aika»)What are we supposed to do?
+We're in the middle of a desert without a ship.
+How are we supposed to continue on our mission?\e"
+MD0020007,"\h(«Drachma»)That is not my concern.
+I have no interest in crystals or temples.\e"
+MD0020008,"\h(«Drachma»)I must find Rhaknam. 
+I cannot waste any more time babysittin'.\e"
+MD0020009,"\h(«Aika»)Hey! Come back here,you eye-patch wearing freak!
+You rusty old man!
+Hey! Are you listening to me?!\e"
+MD0020010,"\h(«Fina»)Oh, my!
+This isn't good at all.
+What should we do?\e"
+MD0020011,"\h(«Aika»)We can't even get out of the city, 
+let alone make it to the temple! 
+We're stuck here.\e"
+MD0020012,"\h(«Vyse»)Well, we have no choice right now other than to
+start exploring the city. Maybe we can find
+someone who can take us to the temple.\e"
+MD0020013,"\h(«Vyse»)That's all we can do… for now.
+\e"
+MD0020014,\h( )Drachma has left the party.\e
+MFD0020000,"\h(«Vyse»)Alors voilà Maramba……
+Il fait si…… chaud !\e"
+MFD0020001,"\h(«Aika»)……Hein ?
+Où est passé le Cap'taine ?\e"
+MFD0020002,\h(«Vyse»)Hé !\e
+MFD0020003,"\h(«Aika»)A…… attendez !
+Cap'taine ! Où allez-vous ?!\e"
+MFD0020004,"\h(«Drachma»)C'est ici que nos chemins se séparent.
+Je dois m'occuper de ma propre quête.
+Je dois retrouver Rhaknam.\e"
+MFD0020005,"\h(«Aika»)Quoi ?!
+A…… attendez une seconde !\e"
+MFD0020006,"\h(«Aika»)Que sommes-nous censés faire ?
+Nous sommes au milieu du désert, sans navire.
+Comment sommes-nous censés poursuivre notre
+mission ?\e"
+MFD0020007,"\h(«Drachma»)Ce n'est pas mon problème.
+Je ne m'intéresse ni aux cristaux ni aux
+temples.\e"
+MFD0020008,"\h(«Drachma»)Je dois retrouver Rhaknam.
+Je n'ai plus de temps à perdre à vous
+surveiller.\e"
+MFD0020009,"\h(«Aika»)Hé ! Revenez ici, espèce de monstre !
+Vieux croûton.
+Hé ! Vous m'écoutez ?!\e"
+MFD0020010,"\h(«Fina»)Oh, mince alors !
+Ce n'est vraiment pas de chance.
+Qu'allons-nous faire maintenant ?\e"
+MFD0020011,"\h(«Aika»)Nous ne pouvons même pas sortir de la ville,
+et encore moins aller au temple !
+Nous sommes coincés ici.\e"
+MFD0020012,"\h(«Vyse»)Bon, nous n'avons pas le choix pour le moment,
+alors allons explorer la ville. Peut-être que
+nous trouverons quelqu'un pour nous emmener au
+temple.\e"
+MFD0020013,"\h(«Vyse»)C'est tout ce que nous pouvons faire…… pour le
+moment.\e"
+MFD0020014,\h( )Drachma est parti.\e
+MGD0020000,"\h(«Vyse»)Das ist also Maramba……
+Es ist so…… heiß!\e"
+MGD0020001,"\h(«Aika»)……Eh?
+Wo ist der Captain hin?\e"
+MGD0020002,\h(«Vyse»)He!\e
+MGD0020003,"\h(«Aika»)W…… warte!
+Captain! Wohin gehst du?\e"
+MGD0020004,"\h(«Drachma»)An dieser Stelle trennen sich unsere Wege.
+Ich muss mich um mein eigenes Abenteuer kümmern.
+Ich muss Rhaknam finden.\e"
+MGD0020005,"\h(«Aika»)Was?!
+W…… warte eine Sekunde!\e"
+MGD0020006,"\h(«Aika»)Was sollen wir denn machen?
+Wir sind mitten in der Wüste, ohne Schiff.
+Wie sollen wir unsere Mission fortsetzen?\e"
+MGD0020007,"\h(«Drachma»)Das geht mich nichts an.
+Ich habe kein Interesse an Kristallen oder
+Tempeln.\e"
+MGD0020008,"\h(«Drachma»)Ich muss Rhaknam finden. Ich kann nicht mehr
+Zeit auf Babysitten verschwenden.\e"
+MGD0020009,"\h(«Aika»)He! Komm zurück, du Freak mit Augenklappe!
+Tattriger alter Mann.
+He! Hörst du mich?!\e"
+MGD0020010,"\h(«Fina»)Ach, herrje!
+Das ist gar nicht gut.
+Was sollen wir machen?\e"
+MGD0020011,"\h(«Aika»)Wir können nicht einmal aus der Stadt
+heraus, geschweige denn zum Tempel!
+Wir sitzen hier fest.\e"
+MGD0020012,"\h(«Vyse»)Also, im Moment haben wir keine andere Wahl,
+als die Stadt auszukundschaften. Vielleicht
+finden wir jemanden, der uns zum Tempel
+bringen kann.\e"
+MGD0020013,\h(«Vyse»)Mehr können wir nicht tun ……im Moment.\e
+MGD0020014,\h( )Drachma hat die Gruppe verlassen.\e
+MSD0020000,"\h(«Vyse»)Así que esto es Maramba……
+¡Hace tanto…… tanto calor!\e"
+MSD0020001,"\h(«Aika»)¿Eh?
+¿Adónde habrá ido el Capitán?\e"
+MSD0020002,\h(«Vyse»)¡Ey!\e
+MSD0020003,"\h(«Aika»)¡E…… espera!
+¡Capitán! ¡¿Adónde vas?!\e"
+MSD0020004,"\h(«Drachma»)Aquí nos separamos.
+Tengo que hacer mi propia búsqueda.
+Tengo que buscar a Rhaknam.\e"
+MSD0020005,"\h(«Aika»)¡¿Qué?!
+¡E…… espera un segundo!\e"
+MSD0020006,"\h(«Aika»)¿Qué vamos a hacer?
+Estamos en medio del desierto y sin navío.
+¿Cómo vamos a seguir con nuestra misión?\e"
+MSD0020007,"\h(«Drachma»)Eso no es problema mío.
+No tengo interés alguno en cristales o templos.\e"
+MSD0020008,"\h(«Drachma»)Debo encontrar a Rhaknam.
+No puedo gastar más tiempo cuidando de unos
+mocosos.\e"
+MSD0020009,"\h(«Aika»)¡Eh! ¡Vuelve aquí, tío raro con un parche en el
+ojo! Eres un viejo oxidado.
+¡Eh! ¡¿Me estás escuchando?!\e"
+MSD0020010,"\h(«Fina»)¡Por Dios!
+Esto no tiene nada de bueno.
+¿Qué podemos hacer?\e"
+MSD0020011,"\h(«Aika»)¡Ni siquiera podemos salir de la ciudad,
+no digamos ya llegar hasta el templo!
+Estamos atascados.\e"
+MSD0020012,"\h(«Vyse»)Bueno, ahora mismo nuestra única alternativa es
+explorar la ciudad. Quizá encontremos a alguien
+que nos ayude a encontrar el templo.\e"
+MSD0020013,\h(«Vyse»)No podemos hacer otra cosa…… por ahora.\e
+MSD0020014,\h( )Drachma ha dejado el grupo.\e
+MD0050000,"\h(«Bellena»)Good morning.
+I trust you slept well last night…\e"
+MD0050001,"\h(«Vyse»)It was the best night's sleep I've had in a long
+time. So, I guess we should get ready and
+start exploring the desert?\e"
+MD0050002,"\h(«Bellena»)“Only those who have walked through the desert
+can truly know its size,” is a saying we have
+here in Nasr. \e"
+MD0050003,"\h(«Bellena»)It's too difficult to cross the desert on foot,
+because of the heat. A mere half day's walk can
+be deadly… You'll need a ship to cross it.\e"
+MD0050004,"\h(«Vyse»)A ship, huh?
+Is this one yours?\e"
+MD0050005,"\h(«Bellena»)Ah, yes.
+It's not much, but it's very reliable.\e"
+MD0050006,\h(«Aika»)Hmph…\e
+MD0050007,"\h(«Aika»)… Umm, Bellena, why are you going out of your
+way to give us a ride? You don't even know us.\e"
+MD0050008,"\h(«Bellena»)You aren't very grateful are you? If you were
+dying of thirst, and someone offered you water,
+you would probably ask where it came from first.\e"
+MD0050009,\h(«Aika»)What?!!! \e
+MD0050010,"\h(«Bellena»)… Alright.
+If you must know, then I'll tell you.\e"
+MD0050011,"\h(«Bellena»)… My father was a soldier. He was a poor man
+and sometimes a little short-tempered,
+but he was a good man… and a good father.\e"
+MD0050012,"\h(«Bellena»)We struggled to get by, and my father was barely
+able to support us. We had nothing to rely on
+but each other… But we were happy…\e"
+MD0050013,\h(«Bellena»)Until that day… 20 years ago…\e
+MD0050014,"\h(«Bellena»)20 years ago, Valua and Nasr declared war on
+each other.
+And my… my father was killed in battle.\e"
+MD0050015,"\h(«Bellena»)When he died, we had nothing… no food…
+nobody to support us… nobody to raise us…
+We had to live on the streets.\e"
+MD0050016,"\h(«Bellena»)Some say that you can't die from a broken heart,
+but they're wrong… My mother died shortly after
+my father… She was so sad… \e"
+MD0050017,"\h(«Bellena»)I was alone… and scared. I had to fend for
+myself on the streets. And that is how I ended
+up living like… this.\e"
+MD0050018,\h(«Fina»)Oh… Bellena… We're so sorry… We had no idea…\e
+MD0050019,"\h(«Bellena»)Ever since then, I've hated war. Hundreds of
+people die… Hundreds more families have to go
+through what I went through.\e"
+MD0050020,"\h(«Bellena»)And that is why, I'm letting you… 
+No, I want you to use my ship. Please…\e"
+MD0050021,"\h(«How will you answer?»)“We'll do it!”
+“Hm… what should we do?”\e"
+MD0050022,\h(«Vyse»)We'll do it!\e
+MD0050023,"\h(«Bellena»)…Thank you, oh so much…\e"
+MD0050024,\h(«Vyse»)Hm… what should we do?\e
+MD0050025,"\h(«Aika»)… Vyse, let's use her ship. We… we know her
+reasons… She's doing us a huge favor and it's
+the least we can do for her.\e"
+MD0050026,"\h(«Aika»)Bellena…
+I… I'm sorry for… what I said earlier.
+I… I shouldn't have spoken to you that way.\e"
+MD0050027,"\h(«Aika»)I lost my parents when I was young, too. 
+I know what you went through…\e"
+MD0050028,"\h(«Bellena»)Heh heh… that's quite alright.
+As long as you understand and don't take my
+generosity for granted.\e"
+MD0050029,"\h(«Bellena»)Alright everyone, get on board.
+The Temple of Pyrynn lies far to the east,
+in the middle of the desert. Let's go!\e"
+MFD0050000,"\h(«Bellena»)Bonjour.
+Je suppose que tu as bien dormi……\e"
+MFD0050001,"\h(«Vyse»)Je n'avais pas aussi bien dormi depuis bien
+longtemps. Bon, je crois que nous devrions nous
+préparer pour notre expédition dans le désert.\e"
+MFD0050002,"\h(«Bellena»)“Seuls ceux qui ont traversé le désert à pied
+connaissent sa véritable grandeur”, c'est un
+proverbe de Nasr.\e"
+MFD0050003,"\h(«Bellena»)C'est trop difficile de traverser le désert à
+pied, à cause de la chaleur. Une simple demi-
+journée de marche peut s'avérer mortelle……
+Il faut faire la traversée en navire.\e"
+MFD0050004,"\h(«Vyse»)Un navire, hein ?
+C'est le tien ?\e"
+MFD0050005,"\h(«Bellena»)Ah, oui.
+Il n'est pas très grand, mais il est fiable.\e"
+MFD0050006,\h(«Aika»)Hum……\e
+MFD0050007,"\h(«Aika»)…… Umm, Bellena, pourquoi fais-tu tout ça pour
+nous ? Tu ne nous connais même pas.\e"
+MFD0050008,"\h(«Bellena»)Tu n'es pas très reconnaissante. Si tu étais en
+train de mourir de soif, et quelqu'un t'offrait
+de l'eau, tu lui demanderais certainement d'où
+elle vient, avant de boire.\e"
+MFD0050009,\h(«Aika»)Quoi ?!!!\e
+MFD0050010,"\h(«Bellena»)…… D'accord. Puisque vous insistez, je vais vous
+le dire.\e"
+MFD0050011,"\h(«Bellena»)…… Mon père était soldat. Il avait peu d'argent
+et parfois il se mettait en colère, mais il
+avait bon coeur…… et c'était un bon père.\e"
+MFD0050012,"\h(«Bellena»)La vie n'était pas facile, et notre père avait
+juste assez d'argent pour nous faire vivre. Nous
+ne pouvions compter que sur nous mêmes…… Mais
+nous étions heureux……\e"
+MFD0050013,\h(«Bellena»)Jusqu'au jour où…… il y a 20 ans……\e
+MFD0050014,"\h(«Bellena»)Il y a 20 ans, Valua et Nasr se sont déclarées
+la guerre. Et mon…… mon père fut tué durant une
+bataille.\e"
+MFD0050015,"\h(«Bellena»)À sa mort, nous étions démunies…… sans rien à
+manger…… ni personne pour nous donner de
+l'argent…… ou pour nous élever…… Nous étions
+obligés de vivre dans la rue.\e"
+MFD0050016,"\h(«Bellena»)Certains disent que c'est impossible de mourir
+de chagrin, mais ils ont tort…… Ma mère est
+morte peu après mon père…… Elle avait tellement
+de peine……\e"
+MFD0050017,"\h(«Bellena»)J'étais toute seule…… et j'avais peur. J'ai dû
+apprendre à survivre dans la rue. Et voilà
+comment j'en suis arrivée…… là.\e"
+MFD0050018,"\h(«Fina»)Oh…… Bellena…… Nous sommes désolés…… Nous ne
+savions pas……\e"
+MFD0050019,"\h(«Bellena»)Depuis ce jour, je hais la guerre. Des centaines
+de gens meurent…… Des centaines de familles
+doivent subir la même chose que moi.\e"
+MFD0050020,"\h(«Bellena»)Et c'est pourquoi, je vous laisse……
+Non, je veux que vous preniez mon navire. S'il
+vous plaît……\e"
+MFD0050021,"\h(«Qu'allez-vous répondre ?»)“C'est d'accord !”
+“Hum…… que faut-il faire ?”\e"
+MFD0050022,\h(«Vyse»)C'est d'accord !\e
+MFD0050023,\h(«Bellena»)……Merci beaucoup……\e
+MFD0050024,\h(«Vyse»)Hum…… Que faut-il faire ?\e
+MFD0050025,"\h(«Aika»)…… Vyse, prenons son navire. Nous…… nous
+connaissons ses raisons…… Elle nous rend un
+grand service et nous pouvons bien faire cela
+pour elle.\e"
+MFD0050026,"\h(«Aika»)Bellena……
+Je…… je suis désolée de…… ce que j'ai dit tout à
+l'heure. Je…… je n'aurais pas dû dire cela.\e"
+MFD0050027,"\h(«Aika»)Moi aussi j'ai perdu mes parents jeune.
+Je sais ce que vous avez vécu……\e"
+MFD0050028,"\h(«Bellena»)Hé hé…… cela ne fait rien.
+Du moment que vous comprenez et que vous
+n'abusez pas de ma générosité.\e"
+MFD0050029,"\h(«Bellena»)OK, montez-tous à bord.
+Le Temple de Pyrynn se trouve loin d'ici à
+l'est, au milieu du désert. Allons-y !\e"
+MGD0050000,"\h(«Bellena»)Guten Morgen.
+Ich hoffe, ihr habt letzte Nacht gut
+geschlafen……\e"
+MGD0050001,"\h(«Vyse»)So gut habe ich lange nicht mehr geschlafen.
+Also, wir sollten uns wohl fertig machen,
+um die Wüste zu erforschen?\e"
+MGD0050002,"\h(«Bellena»)“Nur wer durch die Wüste gelaufen
+ist, kann ihre wahre Größe ermessen”, lautet
+ein Sprichwort, das wir hier in Nasr haben.\e"
+MGD0050003,"\h(«Bellena»)Es ist zu schwierig, die Wüste zu Fuß zu durch-
+queren, wegen der Hitze. Ein halber Tagesmarsch
+kann schon tödlich sein…… Ihr braucht ein
+Schiff, um sie zu durchqueren.\e"
+MGD0050004,"\h(«Vyse»)Ein Schiff, sehr richtig……
+Ist dies hier deines?\e"
+MGD0050005,"\h(«Bellena»)Äh, ja.
+Es sieht nicht nach viel aus, aber es ist sehr
+zuverlässig.\e"
+MGD0050006,\h(«Aika»)Hmmm……\e
+MGD0050007,"\h(«Aika»)…… Emm, Bellena, warum machst du dir so viel
+Umstände, um uns mitzunehmen? Du kennst uns
+ja noch nicht einmal.\e"
+MGD0050008,"\h(«Bellena»)Ihr seid nicht gerade sehr dankbar, oder? Wenn
+ihr verdursten würdet, und jemand gäbe euch
+Wasser, würdet ihr wahrscheinlich
+erst fragen, wo es herkommt.\e"
+MGD0050009,\h(«Aika»)Was?!!!\e
+MGD0050010,"\h(«Bellena»)…… OK. Wenn ihr es wissen müsst, so werde ich
+es euch jetzt erzählen.\e"
+MGD0050011,"\h(«Bellena»)…… Mein Vater war Soldat. Er war arm und ab und
+zu ein wenig hitzig, aber er war ein guter
+Mann…… und ein guter Vater.\e"
+MGD0050012,"\h(«Bellena»)Wir hatten es schwer, und mein Vater konnte uns
+gerade so versorgen. Wir hatten nur uns……
+Aber wir waren glücklich……\e"
+MGD0050013,\h(«Bellena»)Bis zu jenem Tag…… vor 20 Jahren……\e
+MGD0050014,"\h(«Bellena»)Vor 20 Jahren erklärten Valua und Nasr einander
+den Krieg. Und mein…… mein Vater
+wurde im Kampf getötet.\e"
+MGD0050015,"\h(«Bellena»)Als er starb, hatten wir nichts…… nichts zu
+essen…… niemanden, der uns unterstützte……
+niemanden, der uns großzog…… Wir mussten auf der
+Straße leben.\e"
+MGD0050016,"\h(«Bellena»)Es wird behauptet, man sterbe nicht an einem
+gebrochenen Herzen, aber das stimmt nicht……
+Meine Mutter starb kurz nach meinem Vater……
+Sie war so traurig……\e"
+MGD0050017,"\h(«Bellena»)Ich war allein…… und hatte Angst. Ich musste
+mich allein auf der Straße durchschlagen.
+So kam ich schließlich in…… diese Lage.\e"
+MGD0050018,"\h(«Fina»)Oh…… Bellena……  Es tut uns so Leid…… Wir hatten
+keine Ahnung……\e"
+MGD0050019,"\h(«Bellena»)Seitdem hasse ich den Krieg. Hunderte von
+Menschen müssen sterben…… Hunderte Familien
+machen das durch, was ich durchgemacht habe.\e"
+MGD0050020,"\h(«Bellena»)Und darum lasse ich euch……
+Nein, ich möchte, dass ihr mein Schiff benutzt.
+Bitte……\e"
+MGD0050021,"\h(«Wie wirst du antworten?»)“Wir machen es!”
+“Hmm…… Was sollen wir machen?”\e"
+MGD0050022,\h(«Vyse»)Wir machen es!\e
+MGD0050023,"\h(«Bellena»)…… Danke, vielen, vielen Dank……\e"
+MGD0050024,\h(«Vyse»)Hmm…… Was sollen wir machen?\e
+MGD0050025,"\h(«Aika»)……Vyse, lass uns ihr Schiff benutzen. Wir……
+kennen ihre Gründe…… Sie tut uns einen großen
+Gefallen, und es ist das Mindeste, das wir für
+sie tun können.\e"
+MGD0050026,"\h(«Aika»)Bellena……
+Tut…… tut mir Leid, was ich vorhin gesagt habe.
+Ich…… ich hätte nicht so reden dürfen.\e"
+MGD0050027,"\h(«Aika»)Ich habe meine Eltern verloren, als ich klein
+war. Ich weiß, was du durchgemacht hast……\e"
+MGD0050028,"\h(«Bellena»)He, he…… nichts für ungut.
+Hauptsache ihr versteht das und nehmt meine
+Großzügigkeit nicht einfach so hin.\e"
+MGD0050029,"\h(«Bellena»)OK, alles einsteigen.
+Der Temple of Pyrynn liegt weit entfernt
+im Osten, mitten in der Wüste. Gehen wir!\e"
+MSD0050000,"\h(«Bellena»)Buenos días.
+Espero que durmiérais bien anoche……\e"
+MSD0050001,"\h(«Vyse»)Ha sido la noche que mejor he dormido en mucho
+tiempo. Así que, supongo que nos tenemos que
+preparar y empezar a explorar el desierto.\e"
+MSD0050002,"\h(«Bellena»)“Sólo aquellos que han caminado por el desierto
+conocen su verdadero tamaño”, es un dicho que
+tenemos en Nasr.\e"
+MSD0050003,"\h(«Bellena»)Es demasiado duro cruzar el desierto a pie, por
+el calor. Tan sólo medio día de camino puede
+resultar mortal…… Necesitáis un navío para
+cruzarlo.\e"
+MSD0050004,"\h(«Vyse»)¿Conque un barco?
+¿Es éste tuyo?\e"
+MSD0050005,"\h(«Bellena»)Pues sí.
+No es gran cosa, pero es muy fiable.\e"
+MSD0050006,\h(«Aika»)Mmm……\e
+MSD0050007,"\h(«Aika»)…… Bellena, ¿por qué te tomas tantas molestias
+para llevarnos? Ni siquiera nos conoces.\e"
+MSD0050008,"\h(«Bellena»)No eres una persona muy agradecida, ¿verdad?
+Si estuvieras muriéndote de sed y alguien te
+diera de beber, seguro que le preguntarías de
+dónde sacó el agua.\e"
+MSD0050009,\h(«Aika»)¡¡¡¿Qué?!!!\e
+MSD0050010,"\h(«Bellena»)Muy bien…… Si te importa tanto, te lo diré.\e"
+MSD0050011,"\h(«Bellena»)…… Mi padre era soldado. Era pobre y a veces
+tenía mal carácter, pero era un hombre bueno……
+y un buen padre.\e"
+MSD0050012,"\h(«Bellena»)Teníamos que luchar para sobrevivir y mi padre
+apenas nos podía mantener. Sólo nos teníamos los
+unos a los otros…… Pero éramos felices……\e"
+MSD0050013,\h(«Bellena»)Hasta que un día…… hace 20 años……\e
+MSD0050014,"\h(«Bellena»)Hace 20 años, Valua y Nasr se declararon en
+guerra. Y mi…… mi padre murió en combate.\e"
+MSD0050015,"\h(«Bellena»)Cuando murió, no teníamos nada…… ni comida
+siquiera…… nadie que nos mantuviera…… nadie para
+educarnos…… Vivíamos en la calle.\e"
+MSD0050016,"\h(«Bellena»)Hay quien dice que no es posible morir de pena,
+pero se equivocan…… Mi madre murió poco después
+de mi padre…… Estaba tan triste……\e"
+MSD0050017,"\h(«Bellena»)Estaba sola…… y asustada. Tuve que sobrevivir yo
+sola en la calle. Y así es como terminé viviendo
+de esta…… forma.\e"
+MSD0050018,"\h(«Fina»)Oh…… Bellena…… Lo sentimos muchísimo……
+No teníamos ni idea……\e"
+MSD0050019,"\h(«Bellena»)Desde entonces odio la guerra. Cientos de
+personas que mueren…… mueren…… Cientos de
+familias que sufren la misma situación que sufrí
+yo.\e"
+MSD0050020,"\h(«Bellena»)Y por eso os dejo……
+No, quiero que uséis mi navío. Por favor……\e"
+MSD0050021,"\h(«¿Cuál será tu respuesta?»)“¡Lo haremos!”
+“Mm…… ¿Qué debemos hacer?”\e"
+MSD0050022,\h(«Vyse»)¡Lo haremos!\e
+MSD0050023,"\h(«Bellena»)Gracias, muchas gracias……\e"
+MSD0050024,\h(«Vyse»)Mm…… ¿Qué debemos hacer?\e
+MSD0050025,"\h(«Aika»)Vyse, vamos a usar su navío. Ahora…… conocemos
+sus razones…… Nos está haciendo un gran favor y
+es lo mínimo que podemos hacer por ella.\e"
+MSD0050026,"\h(«Aika»)Bellena……
+Siento…… siento lo que…… lo que he dicho antes.
+No…… no debería haberte hablado de esa manera.\e"
+MSD0050027,"\h(«Aika»)Yo también perdí a mis padres de pequeña.
+Sé lo que has sufrido……\e"
+MSD0050028,"\h(«Bellena»)Eh…… no pasa nada. Mientras lo entiendas y no
+tomes mi generosidad por sentada.\e"
+MSD0050029,"\h(«Bellena»)Muy bien, todo el mundo a bordo.
+El Templo de Pyrynn está hacia el este, en medio
+del desierto. ¡Vamos para allá!\e"
+MQ0160000,"\h(«Large Man»)Hmm, you have the look of a sailor about you.
+Today is your lucky day. We're feeling generous,
+so leave all your money and we'll let you live.\e"
+MQ0160001,"\h(«Large Man»)Do not attempt to resist! We are the legendary
+Air Pirates of the Larso Clan!\e"
+MQ0160002,"\h(«Vyse»)So… You're Rupee Larso, eh? Good timing.
+We were just looking for you.\e"
+MQ0160003,"\h(«Vyse»)You've made quite a name for yourself, robbing
+innocent sailors and all. As Blue Rogues, we
+cannot sit idly and let you continue like this!\e"
+MQ0160004,"\h(«Large Man»)You're quite brave for such a small boy. Very
+well, then… Shall we battle here and get it
+over with?\e"
+MQ0160005,"\h(«Vyse»)No, wait. There's no need to cause needless
+destruction in the city. Meet me at my ship.
+We can fight on the deck.\e"
+MQ0160006,"\h(«Large Man»)Out in the open, eh? Very well. Lead the way.\e"
+MQ0160007,"\h(«Vyse»)I am Vyse of the Blue Rogues. Rupee Larso…
+Prepare to defend yourself!\e"
+MQ0160008,"\h(«Large Man»)Hahaha… You truly are a brave little boy.
+However, you are mistaken about one thing.
+I am not Rupee Larso.\e"
+MQ0160009,"\h(«Large Man»)Master Rupee!
+It is time to do battle!
+Please come out here!\e"
+MQ0160010,"\h(«Rupee»)Barta…
+You know how I hate fighting…\e"
+MQ0160011,"\h(«Barta»)Master Rupee! You are the head of the Larso
+Clan! You should not say things like that!
+There are enemies present!\e"
+MQ0160012,"\h(«Barta»)Now that your father has passed away,
+you are our leader! You must be strong!\e"
+MQ0160013,"\h(«Aika»)This little runt is their leader? I'd heard
+that the leader of the Larso Clan was a giant! I
+guess I shouldn't believe everything I hear…\e"
+MQ0160014,"\h(«Barta»)What did you say?!?! How dare you speak of
+Master Rupee like that!
+You shall pay for your insolence!!\e"
+MQ0160015,"\h(«Barta»)I shall crush your skulls like so many
+Loquat Berries!!\e"
+MQ0160016,"\h(«Rupee»)Like Loquat Berries?!
+Barta, do you always have to be so graphic??
+It makes me sick to my stomach…\e"
+MQ0160017,"\h(«Barta»)M, master Rupee! I was just trying to put fear
+into them! Be strong!!
+We are about to do battle!\e"
+MQ0160018,"\h(«Barta»)Now, put your back into it! We must show them
+the true power of the Larso Clan!!\e"
+MFQ0160000,"\h(«Homme corpulent»)Hmm, tu as un air de marin.
+C'est ton jour de chance aujourd'hui. Nous nous
+sentons d'humeur généreuse. Alors laisse ton 
+argent et nous te laisserons la vie sauve.\e"
+MFQ0160001,"\h(«Homme corpulent»)N'essaie pas de résister ! Nous sommes les 
+pirates légendaires du Clan Larso !\e"
+MFQ0160002,"\h(«Vyse»)Alors…… C'est toi Rupee Larso ? Tu arrives à
+point. Nous te cherchions justement.\e"
+MFQ0160003,"\h(«Vyse»)Tu t'es fait une sacrée réputation en volant les
+marins innocents. En tant que Voleurs Bleus, 
+nous ne pouvons pas rester sans rien faire, nous
+devons t'en empêcher !\e"
+MFQ0160004,"\h(«Homme corpulent»)Tu es bien courageux pour un garçon aussi petit.
+Bon…… Et si on passait à la bataille pour 
+en finir ?\e"
+MFQ0160005,"\h(«Vyse»)Non, attends. Inutile de causer des destructions
+en pleine ville. Retrouve-moi sur mon navire. 
+Nous pouvons nous battre sur le pont.\e"
+MFQ0160006,"\h(«Homme corpulent»)A l'extérieur, hein ? Entendu. Montre-nous le 
+chemin.\e"
+MFQ0160007,"\h(«Vyse»)Je suis Vyse des Voleurs Bleus. Rupee Larso……
+Prépare-toi à te battre !\e"
+MFQ0160008,"\h(«Homme corpulent»)Hahaha…… Tu es vraiment un petit garçon 
+courageux. Cependant, tu as tort sur une chose.
+Je ne suis pas Rupee Larso.\e"
+MFQ0160009,"\h(«Homme corpulent»)Maître Rupee !
+Il est temps de se battre !
+Venez !\e"
+MFQ0160010,"\h(«Rupee»)Barta……
+Tu sais bien que je déteste me battre……\e"
+MFQ0160011,"\h(«Barta»)Maître Rupee ! Vous êtes le chef du Clan Larso !
+Vous ne devriez pas dire des choses pareilles !
+Nos ennemis écoutent !\e"
+MFQ0160012,"\h(«Barta»)Maintenant que votre père est décédé, vous êtes 
+notre chef ! Vous devez être fort !\e"
+MFQ0160013,"\h(«Aika»)C'est ce petit avorton, leur chef ? On m'avait 
+dit que le chef du Clan Larso était un géant ! 
+Je suppose qu'il ne faut pas croire tout ce que
+l'on raconte……\e"
+MFQ0160014,"\h(«Barta»)Qu'as-tu dit ?!?! Comment oses-tu parler ainsi 
+de Maître Rupee ! Tu paieras pour ton 
+insolence !!\e"
+MFQ0160015,"\h(«Barta»)Je vais vous écraser la cervelle comme des baies
+Loquat !!\e"
+MFQ0160016,"\h(«Rupee»)Comme des baies Loquat ?!
+Barta, faut-il toujours que tu sois aussi 
+graphique ?? Cela me retourne l'estomac……\e"
+MFQ0160017,"\h(«Barta»)M, maître Rupee ! J'essayais juste de les 
+effrayer ! Soyez fort !!
+Nous allons passer à la bataille !\e"
+MFQ0160018,"\h(ｫBartaｻ)Bon, mettez-y du c忖r ! Nous devons leur montrer
+de quoi le Clan Larso est capable !!\e"
+MGQ0160000,"\h(«Dicker Mann»)Hmm, du siehst aus wie ein Seefahrer. Heute 
+ist dein Glückstag. Wir sind heute großzügig,
+lass dein ganzes Geld hier, und wir lassen 
+dich leben.\e"
+MGQ0160001,"\h(«Dicker Mann»)Wage es nicht, Widerstand zu leisten! Wir 
+sind die legendären Luftpiraten des Larso-
+Klans!\e"
+MGQ0160002,"\h(«Vyse»)Ah…… Du bist also Rupee Larso? Das passt 
+ja gut. Wir haben gerade nach dir gesucht.\e"
+MGQ0160003,"\h(«Vyse»)Du hast dir ja einen richtigen Namen gemacht, 
+indem du unschuldige Seeleute und andere 
+beraubt hast. Als Blue Rogues können wir nicht 
+tatenlos herumsitzen, während du weitermachst!\e"
+MGQ0160004,"\h(«Dicker Mann»)Du bist ziemlich tapfter, dafür dass du so ein 
+kleiner Kerl bist. Sehr gut. Nun…… sollen 
+wir hier kämpfen und die Sache regeln?\e"
+MGQ0160005,"\h(«Vyse»)Nein, warte. Es besteht kein Grund dafür, in 
+der Stadt unnötige Zerstörung anzurichten. 
+Wir treffen uns auf meinem Schiff. Wir können 
+an Deck kämpfen.\e"
+MGQ0160006,"\h(«Dicker Mann»)An der frischen Luft, nicht wahr? Sehr gut. 
+Zeig mir den Weg.\e"
+MGQ0160007,"\h(«Vyse»)Ich bin Vyse von den Blue Rogues. Rupee 
+Larso…… sei bereit, dich zu verteidigen!\e"
+MGQ0160008,"\h(«Dicker Mann»)Hahaha……
+Du bist wirklich ein tapferer kleiner
+Kerl. Jedoch hast du dich etwas vertan. Ich bin 
+nicht Rupee Larso.\e"
+MGQ0160009,"\h(«Dicker Mann»)Master Rupee!
+Es ist Zeit zu kämpfen!
+Bitte komm her!\e"
+MGQ0160010,"\h(«Rupee»)Barta……
+Du weißt, wie sehr ich es hasse zu kämpfen
+……\e"
+MGQ0160011,"\h(«Barta»)Master Rupee! Du bist der Anführer des 
+Larso-Klans! Du solltest so etwas nicht sagen!
+Der Feind hört mit!\e"
+MGQ0160012,"\h(«Barta»)Jetzt, wo dein Vater verstorben ist, bist du 
+unser Anführer! Du musst stark sein!\e"
+MGQ0160013,"\h(«Aika»)Dieser kleine Zwerg ist ihr Anführer? Ich habe 
+gehört, dass der Anführer des Larso-Klans 
+ein Riese sei! Ich sollte nicht alles glauben, 
+was man mir erzählt……\e"
+MGQ0160014,"\h(«Barta»)Was hast du gesagt?!?! Wie kannst du es 
+wagen, so von Master Rupee zu reden! Du 
+sollst für diese Frechheit bezahlen!!\e"
+MGQ0160015,"\h(«Barta»)Ich werde deinen Schädel zerquetschen wie 
+Loquatbeeren!!\e"
+MGQ0160016,"\h(«Rupee»)Wie Loquatbeeren?!
+Barta, musst du immer alles so genau 
+beschreiben??
+Mir ist speiübel……\e"
+MGQ0160017,"\h(«Barta»)M, Master Rupee! Ich habe nur versucht, ihnen 
+Angst einzujagen! Sei stark!! Wir fangen jetzt
+an zu kämpfen!\e"
+MGQ0160018,"\h(«Barta»)Gib alles! Wir müssen ihnen die wahre 
+Kraft des Larso-Klans zeigen!!\e"
+MSQ0160000,"\h(«Hombre corpulento»)Humm, tienes pinta de marino. Hoy es tu día de 
+suerte. Nos sentimos generosos, así que deja 
+todo tu dinero y te permitiremos vivir.\e"
+MSQ0160001,"\h(«Hombre corpulento»)¡No intentes resistirte! ¡Somos los legendarios
+Piratas Aéreos del Clan Larso!\e"
+MSQ0160002,"\h(«Vyse»)Así que tú eres Rupee Larso, ¿eh? Justo a 
+tiempo. Precisamente te estábamos buscando.\e"
+MSQ0160003,"\h(«Vyse»)Te has convertido en toda una institución, 
+robando a marinos inocentes, etc. Como Bandidos
+Azules que somos, ¡no podemos quedarnos de 
+brazos cruzados y dejar que sigas así!\e"
+MSQ0160004,"\h(«Hombre corpulento»)Eres bastante valiente para lo pequeñajo que 
+eres. Muy bien, entonces…… ¿Luchamos aquí y 
+acabamos con esto de una vez?\e"
+MSQ0160005,"\h(«Vyse»)No, espera. No hay ninguna necesidad de causar
+daños inútiles en la ciudad. Nos encontraremos
+en mi barco. Podemos luchar en la cubierta.\e"
+MSQ0160006,"\h(«Hombre corpulento»)A cielo abierto, ¿eh? Muy bien. Muéstrame el 
+camino.\e"
+MSQ0160007,"\h(«Vyse»)Soy Vyse de los Bandidos Azules. Rupee Larso……
+¡Prepárate para defenderte!\e"
+MSQ0160008,"\h(«Hombre corpulento»)Jajaja……
+Eres un niño muy valiente. Sin embargo, 
+te equivocas en una cosa. No soy Rupee Larso.\e"
+MSQ0160009,"\h(«Hombre corpulento»)¡Maestro Rupee!
+¡Llegó la hora de batallar!
+¡Deja que te vea!\e"
+MSQ0160010,"\h(«Rupee»)Barta……
+Ya sabes lo mucho que odio pelear……\e"
+MSQ0160011,"\h(«Barta»)¡Maestro Rupee! ¡Eres el jefe del Clan Larso!
+¡No deberías decir ese tipo de cosas! ¡Hay 
+enemigos presentes!\e"
+MSQ0160012,"\h(«Barta»)¡Ahora que tu padre ha muerto, tú eres el líder!
+¡Debes ser fuerte!\e"
+MSQ0160013,"\h(«Aika»)¿Este pequeñajo es su líder? ¡Había oído que el 
+líder del Clan Larso era un gigante! Supongo que
+no debería creer nada de lo que me cuentan……\e"
+MSQ0160014,"\h(«Barta»)¿Qué has dicho? ¡Cómo te atreves a hablar así 
+del Maestro Rupee! ¡¡Pagarás por tu 
+insolencia!!\e"
+MSQ0160015,"\h(«Barta»)¡¡Te machacaré los sesos como si fuesen bayas 
+Loquat!!\e"
+MSQ0160016,"\h(«Rupee»)¡Como bayas Loquat! 
+Barta, ¿¿tienes que ser siempre tan específico??
+Me revuelve el estómago……\e"
+MSQ0160017,"\h(«Barta»)¡Ma, Maestro Rupee!¡Sólo intentaba 
+atemorizarlos! ¡¡Sé fuerte!!
+¡Estamos a punto de empezar la batalla!\e"
+MSQ0160018,"\h(«Barta»)¡Ahora vamos a por todas! ¡¡Tenemos que 
+enseñarles el verdadero poder del Clan Larso!!\e"
+MQ0170000,"\h(«Barta»)Heh heh… Unbelievable.
+The mighty Larso Clan has been defeated.\e"
+MQ0170001,"\h(«Rupee»)Barta, that's why I said we shouldn't pick
+fights like that in the first place!\e"
+MQ0170002,"\h(«Vyse»)What's wrong, Rupee?
+You don't like being an Air Pirate?\e"
+MQ0170003,"\h(«Rupee»)Not really… I, I actually can't stand the
+sight of blood. It makes me queasy.\e"
+MQ0170004,"\h(«Rupee»)I'd much rather stay in town with my mom and
+make carpets.\e"
+MQ0170005,"\h(«Rupee»)In fact, my mother told me that the carpets I
+made for her sold quickly and people are asking
+for more of my designs!\e"
+MQ0170006,"\h(«Barta»)M,M,M,M,Master Rupee!!! If… But… What will
+happen to the Larso Clan? What will happen to
+it's legacy??\e"
+MQ0170007,"\h(«Vyse»)Well, a man has to follow his dreams.
+If he doesn't want to be an Air Pirate, then
+what's the point, right?\e"
+MQ0170008,"\h(«Vyse»)I'm the son of an Air Pirate, too, and I'm sure
+if I didn't want to follow in Dad's footsteps, I
+wouldn't have. But, this is the life I chose.\e"
+MQ0170009,"\h(«Vyse»)Rupee, if there's something else you'd rather
+do, then do it. If you don't, you'll probably
+regret it for the rest of your life.\e"
+MQ0170010,"\h(«Rupee»)Really? So I can go back to the carpet store and
+make carpets with my mom?\e"
+MQ0170011,"\h(«Vyse»)Of course. Nothing is more important than your
+dreams. Remember that.\e"
+MQ0170012,"\h(«Rupee»)Sure!
+I'll do my best!\e"
+MQ0170013,"\h(«Barta»)M,M,M,M,Master Rupee!
+W, what are you doing?!\e"
+MQ0170014,"\h(«Aika»)Now you stay out of this! We beat you fair and
+square, so if Vyse says Rupee can make carpets,
+then Rupee is gonna make carpets, ok?!\e"
+MQ0170015,\h(«Barta»)Heh heh heh…\e
+MQ0170016,"\h(«Rupee»)Barta! Let's make carpets together!
+I won't run away from this!\e"
+MQ0170017,"\h(«Vyse»)I'll see you around, then, Rupee. We've got many
+things to do and many things to see, but good
+luck with your carpets.\e"
+MQ0170018,"\h(«Rupee»)Thanks! I may not have been a very good Air
+Pirate, but in the name of the Larso Clan, I'm
+going to make the best carpets ever!\e"
+MFQ0170000,"\h(«Barta»)Hi, hi…… Incroyable.
+Le puissant Clan Larso a été vaincu.\e"
+MFQ0170001,"\h(«Rupee»)Barta, c'est pour cette raison que je t'avais 
+prévenu de ne pas chercher la bagarre !\e"
+MFQ0170002,"\h(«Vyse»)Qu'y a-t-il, Rupee ?
+Tu n'aimes pas être pirate de l'air ?\e"
+MFQ0170003,"\h(«Rupee»)Pas vraiment…… En fait,
+je ne supporte pas la vue du sang.
+Cela me donne la nausée.\e"
+MFQ0170004,"\h(«Rupee»)Je préférerais rester en ville à fabriquer des 
+tapis avec ma mère.\e"
+MFQ0170005,"\h(«Rupee»)En fait, ma mère m'a dit que les tapis que 
+j'avais fabriqués se sont bien vendus et les 
+clients réclament d'autres de mes créations !\e"
+MFQ0170006,"\h(«Barta»)M, M, M, M, Maître Rupee !!! Si…… Mais…… Que
+deviendra le Clan Larso ? Qu'adviendra-t-il de 
+son héritage ??\e"
+MFQ0170007,"\h(«Vyse»)Un homme se doit de suivre ses rêves.
+S'il ne veut pas être pirate de l'air, alors, 
+quel est l'intérêt, hein ?\e"
+MFQ0170008,"\h(«Vyse»)Moi aussi, je suis le fils d'un pirate de l'air 
+et si je ne voulais pas faire comme mon père, je
+n'y serais pas forcé. Mais c'est la vie que j'ai
+choisie.\e"
+MFQ0170009,"\h(«Vyse»)Rupee, si tu préfères faire autre chose, 
+fais-le. Sinon, tu le regretteras pour le 
+restant de ta vie.\e"
+MFQ0170010,"\h(«Rupee»)Vraiment ? Alors je peux retourner au magasin de
+tapis et fabriquer des tapis avec ma mère ?\e"
+MFQ0170011,"\h(«Vyse»)Évidemment. Rien n'est plus important que tes 
+rêves. Ne l'oublie pas.\e"
+MFQ0170012,"\h(«Rupee»)D'accord !
+Je ferai de mon mieux !\e"
+MFQ0170013,"\h(«Barta»)M, M, M, M, Maître Rupee !
+Que faites-vous ?!\e"
+MFQ0170014,"\h(«Aika»)Reste en dehors de ça, toi ! Nous vous sommes 
+battus en toute loyauté, alors si Vyse dit que 
+Rupee peut fabriquer des tapis, alors Rupee va 
+fabriquer des tapis, O.K. ?!\e"
+MFQ0170015,"\h(«Barta»)Hi, hi, hi……\e"
+MFQ0170016,"\h(«Rupee»)Barta ! Fabriquons des tapis ensemble !
+Je ne me désisterai pas cette fois !\e"
+MFQ0170017,"\h(«Vyse»)A bientôt, Rupee. Nous avons plein de choses à 
+faire et à voir mais bonne chance avec tes 
+tapis.\e"
+MFQ0170018,"\h(«Rupee»)Merci ! Je n'ai peut-être pas été un très bon 
+pirate de l'air, mais au nom du Clan Larso, je 
+vais fabriquer les meilleurs tapis jamais 
+fabriqués !\e"
+MGQ0170000,"\h(«Barta»)Heh heh…… Unglaublich.
+Der mächtige Larso-Klan wurde besiegt.\e"
+MGQ0170001,"\h(«Rupee»)Barta, deshalb habe ich von Anfang an gesagt,
+dass wir uns nicht auf solche Kämpfe einlassen
+sollen!\e"
+MGQ0170002,"\h(«Vyse»)Was ist los, Rupee?
+Bist du nicht gern ein Luftpirat?\e"
+MGQ0170003,"\h(«Rupee»)Eigentlich nicht…… Ich, ich kann eigentlich
+Blut nicht ausstehen. Mir wird davon übel.\e"
+MGQ0170004,"\h(«Rupee»)Ich würde lieber bei meiner Mutter in der Stadt
+bleiben und Teppiche weben.\e"
+MGQ0170005,"\h(«Rupee»)Meine Mutter hat mir erzählt, dass sie die 
+Teppiche, die ich gewebt habe, schnell verkauft
+hat, und dass die Leute mehr Teppiche mit 
+meinen Designs kaufen möchten!\e"
+MGQ0170006,"\h(«Barta»)M, M, M, M, Master Rupee!!! Wenn…… 
+Aber…… Was geschieht mit dem Larso-Klan? 
+Was wird aus seinem Vermächtnis??\e"
+MGQ0170007,"\h(«Vyse»)Nun, ein Mann muss seinen Träumen folgen.
+Wenn er kein Luftpirat sein will, was soll's?\e"
+MGQ0170008,"\h(«Vyse»)Ich bin auch der Sohn eines Luftpiraten. Ich 
+bin mir sicher, dass ich nicht in meines 
+Vaters Fußstapfen hätte treten müssen. Aber 
+ich habe dieses Leben gewählt.\e"
+MGQ0170009,"\h(«Vyse»)Rupee, wenn du etwas anderes tun möchtest, 
+dann tu es. Wenn nicht, wirst du es 
+wahrscheinlich den Rest deines Lebens 
+bereuen.\e"
+MGQ0170010,"\h(«Rupee»)Wirklich? Also kann ich zurück in den 
+Teppichladen und meiner Mutter helfen, 
+Teppiche zu weben?\e"
+MGQ0170011,"\h(«Vyse»)Natürlich. Nichts ist wichtiger als deine 
+Träume. Merk dir das.\e"
+MGQ0170012,"\h(«Rupee»)Sicher!
+Ich werde mein Bestes geben!\e"
+MGQ0170013,"\h(«Barta»)M, M ,M ,M , Master Rupee!
+W, was machst du?!\e"
+MGQ0170014,"\h(«Aika»)Du hältst dich da raus! Wir haben euch 
+deutlich geschlagen. Wenn Vyse sagt, 
+dass Rupee Teppiche weben kann, 
+dann wird Rupee es tun, ok?!\e"
+MGQ0170015,\h(«Barta»)Heh heh heh……\e
+MGQ0170016,"\h(«Rupee»)Barta! Lass uns zusammen Teppiche weben!
+Ich werde nicht einfach weglaufen!\e"
+MGQ0170017,"\h(«Vyse»)Bis bald, Rupee. Wir haben viel zu tun und viel
+zu sehen. Viel Glück mit deinen Teppichen.\e"
+MGQ0170018,"\h(«Rupee»)Danke! Ich mag kein besonders guter Luftpirat 
+sein, aber im Namen des Larso-Klans werde 
+ich die besten Teppiche weben, die je gewebt 
+wurden!\e"
+MSQ0170000,"\h(«Barta»)Je je…… Increíble.
+El poderoso Clan Larso ha sido derrotado.\e"
+MSQ0170001,"\h(«Rupee»)¡Barta, por eso decía yo desde el principio que
+no deberíamos escoger peleas como ésa!\e"
+MSQ0170002,"\h(«Vyse»)¿Qué te pasa, Rupee?
+¿No te gusta ser un Pirata Aéreo?\e"
+MSQ0170003,"\h(«Rupee»)La verdad es que no……
+De, de hecho no soporto la
+sangre. Me marea.\e"
+MSQ0170004,"\h(«Rupee»)Preferiría quedarme en la ciudad con mi mamá 
+haciendo alfombras.\e"
+MSQ0170005,"\h(«Rupee»)De hecho, mi madre me dijo que las alfombras que
+le hice se vendieron tan rápido que la gente 
+quiere más diseños míos!\e"
+MSQ0170006,"\h(«Barta»)¡¡¡M, M, M, M, Maestro Rupee!!!
+Si…… Pero…… ¿Qué
+pasará con el Clan Larso?
+¿¿Qué pasará con su legado??\e"
+MSQ0170007,"\h(«Vyse»)Bueno, uno debe realizar sus sueños.
+Si no quiere ser un Pirata Aéreo, entonces no
+tiene ningún sentido que lo sea, ¿verdad?\e"
+MSQ0170008,"\h(«Vyse»)Yo también soy hijo de Pirata Aéreo y estoy 
+seguro de que si no hubiese querido seguir los 
+pasos de mi padre, no lo habría hecho. Pero ésta
+es la vida que escogí.\e"
+MSQ0170009,"\h(«Vyse»)Rupee, si prefieres hacer otra cosa, hazla. Si 
+no, probablemente lo lamentes por el resto de tu
+vida.\e"
+MSQ0170010,"\h(«Rupee»)¿De verdad?¿Puedo volver a la tienda a hacer 
+alfombras con mi madre?\e"
+MSQ0170011,"\h(«Vyse»)Por supuesto. No hay nada más importante que tus
+sueños. No lo olvides.\e"
+MSQ0170012,"\h(«Rupee»)¡Seguro!
+¡Lo haré lo mejor que pueda!\e"
+MSQ0170013,"\h(«Barta»)¡M, M, M, M, Maestro Rupee!
+¿Q, qué haces?\e"
+MSQ0170014,"\h(«Aika»)¡No te metas en esto! Te vencimos claramente así
+que si Vyse dice que Rupee puede hacer 
+alfombras, entonces Rupee se va a hacer 
+alfombras, ¿vale?\e"
+MSQ0170015,\h(«Barta»)Je je je……\e
+MSQ0170016,"\h(«Rupee»)¡Barta! ¡Hagamos alfombras juntos!
+¡Esta vez no me escaparé!\e"
+MSQ0170017,"\h(«Vyse»)Ya nos veremos, Rupee. Nos queda mucho por hacer
+y por ver. Buena suerte con las alfombras.\e"
+MSQ0170018,"\h(«Rupee»)¡Gracias! Puede que no haya sido un buen Pirata 
+Aéreo, pero en nombre del Clan Larso, ¡pienso 
+hacer las mejores alfombras del mundo!\e"
+"",me008b.sct
+"",me008b.sct
+"",me008a.sct
+"",m5080000
+"",M0238
+"",k8000004
+"",e6d002
+"",a008bd02.mld
+"",a008bd02.mld
+"",a008bd02.mld
+"",a008bd05.mld
+"",a008bd05.mld
+"",e6d005
+"",M0327
+"",a008bd05.mld
+"",me033a.sct
+"",me250a.sct
+"",me250a.sct
+"",e6o001
+"",m0306
+"",a008bq16.mld
+"",a008bq16.mld
+"",e6o001
+"",m0306
+"",a008bq17.mld
+"",m0316
+"",a008bq17.mld

@@ -1,0 +1,260 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MGAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5000000,"\h(«Baltor»)Gahahahaha!
+How do you like that! Feel the power of
+my ship, the Blackbeard!\e"
+MA5000001,"\h(«Baltor»)Now, I shall teach you to tremble in fear before
+the power of the Black Pirates!
+Gahahahaha!!!\c"
+MA5000002,"\h(«Drachma»)Listen up, boy!
+At the top of the screen, a 3X3 grid will
+appear. This is your input command screen.\e"
+MA5000003,"\h(«Drachma»)Think of it as a time gauge of sorts.
+Each turn is divided into three parts.\e"
+MA5000004,"\h(«Drachma»)For each part of each turn, you,
+Aika, or I can input one command.\c"
+MA5000005,"\h(«Drachma»)Every once in a while, you will see a column
+with a “C!” at the top of the grid.\e"
+MA5000006,"\h(«Drachma»)During that turn, you will have a tactical
+advantage over your opponent. Concentrate
+all of your firepower into that round.\e"
+MA5000007,"\h(«Drachma»)Also, certain turns have a different color
+shown at the top.\e"
+MA5000008,"\h(«Drachma»)These are the turns in which your enemy is goin'
+to unleash a powerful attack. Make sure to use
+your “Guard” command effectively.\c"
+MA5000009,"\h(«Baltor»)Hrumph! He's good…
+Turn hard to starboard! Let's
+try and maneuver behind him!\c"
+MA5000010,"\h(«Aika»)… Something's not right, Cap'n. It looks like
+he's preparing for something. I'm getting a bad
+feeling about this…\e"
+MA5000011,"\h(«Drachma»)He looks like he's goin' to try to get behind
+us. Most ships have their engines in the back
+and that makes them more vulnerable from behind.\e"
+MA5000012,"\h(«Drachma»)But, if he tries to get behind us, in the
+meantime, he'll be wide open. What do you
+want to do, boy?\e"
+MA5000013,"\h(«What will you do?»)“Try to get behind him instead.”
+“Wait and see what he does.”\c"
+MA5000014,"\h(«Vyse»)Now's our chance!
+He won't be expecting us to try and maneuver
+around to his backside!\c"
+MA5000015,"\h(«Drachma»)Good job, boy!
+His ship doesn't have any cannons in the back…
+We've got a wide open shot at his engines.\c"
+MA5000016,"\h(«Vyse»)I don't want to act in haste.
+Let's see what he does…\c"
+MA5000017,"\h(«Baltor»)Hahaha!!!
+Fools! You've let me get behind you!
+Now, you are mine!!\c"
+MA5000018,"\h(«Drachma»)Idiot! What're you doin'?!
+Now that he's behind us, he's got
+a wide open shot at our engines!!\c"
+MA5000019,"\h(«Baltor»)That old ship's tough!!
+I need to get behind it!\e"
+MA5000020,"\h(«What will you do?»)“Maneuver behind the enemy.”
+“Wait and see what he does.”\c"
+MA5000021,"\h(«Vyse»)Alright! We managed to get behind him!
+Now's our chance to attack!\c"
+MA5000022,"\h(«Vyse»)Great… While I was sitting here twiddling my
+thumbs he managed to get behind me! All hands,
+prepare for impact!!!\c"
+MSA5000000,"\h(《Baltor》)Gahahahaha!
+How do you like that! Feel the power of
+my ship, the Blackbeard!\e"
+MSA5000001,"\h(《Baltor》)Now, I shall teach you to tremble in fear before
+the power of the Black Pirates!
+Gahahahaha!!!\c"
+MSA5000002,"\h(《Drachma》)Listen up, boy!
+At the top of the screen, a 3X3 grid will
+appear. This is your input command screen.\e"
+MSA5000003,"\h(《Drachma》)Think of it as a time gauge of sorts.
+Each turn is divided into three parts.\e"
+MSA5000004,"\h(《Drachma》)For each part of each turn, you,
+Aika, or I can input one command.\c"
+MSA5000005,"\h(《Drachma》)Every once in a while, you will see a column
+with a “C!” at the top of the grid.\e"
+MSA5000006,"\h(《Drachma》)During that turn, you will have a tactical
+advantage over your opponent. Concentrate
+all of your firepower into that round.\e"
+MSA5000007,"\h(《Drachma》)Also, certain turns have a different color
+shown at the top.\e"
+MSA5000008,"\h(《Drachma》)These are the turns in which your enemy is goin'
+to unleash a powerful attack. Make sure to use
+your “Guard” command effectively.\c"
+MSA5000009,"\h(《Baltor》)Hrumph! He's good…
+Turn hard to starboard! Let's
+try and maneuver behind him!\c"
+MSA5000010,"\h(《Aika》)… Something's not right, Cap'n. It looks like
+he's preparing for something. I'm getting a bad
+feeling about this…\e"
+MSA5000011,"\h(《Drachma》)He looks like he's goin' to try to get behind
+us. Most ships have their engines in the back
+and that makes them more vulnerable from behind.\e"
+MSA5000012,"\h(《Drachma》)But, if he tries to get behind us, in the
+meantime, he'll be wide open. What do you
+want to do, boy?\e"
+MSA5000013,"\h(《What will you do?》)“Try to get behind him instead.”
+“Wait and see what he does.”\c"
+MSA5000014,"\h(《Vyse》)Now's our chance!
+He won't be expecting us to try and maneuver
+around to his backside!\c"
+MSA5000015,"\h(《Drachma》)Good job, boy!
+His ship doesn't have any cannons in the back…
+We've got a wide open shot at his engines.\c"
+MSA5000016,"\h(《Vyse》)I don't want to act in haste.
+Let's see what he does…\c"
+MSA5000017,"\h(《Baltor》)Hahaha!!!
+Fools! You've let me get behind you!
+Now, you are mine!!\c"
+MSA5000018,"\h(《Drachma》)Idiot! What're you doin'?!
+Now that he's behind us, he's got
+a wide open shot at our engines!!\c"
+MSA5000019,"\h(《Baltor》)That old ship's tough!!
+I need to get behind it!\e"
+MSA5000020,"\h(《What will you do?》)“Maneuver behind the enemy.”
+“Wait and see what he does.”\c"
+MSA5000021,"\h(《Vyse》)Alright! We managed to get behind him!
+Now's our chance to attack!\c"
+MSA5000022,"\h(《Vyse》)Great… While I was sitting here twiddling my
+thumbs he managed to get behind me! All hands,
+prepare for impact!!!\c"
+MFA5000000,"\h(《Baltor》)Gahahahaha!
+How do you like that! Feel the power of
+my ship, the Blackbeard!\e"
+MFA5000001,"\h(《Baltor》)Now, I shall teach you to tremble in fear before
+the power of the Black Pirates!
+Gahahahaha!!!\c"
+MFA5000002,"\h(《Drachma》)Listen up, boy!
+At the top of the screen, a 3X3 grid will
+appear. This is your input command screen.\e"
+MFA5000003,"\h(《Drachma》)Think of it as a time gauge of sorts.
+Each turn is divided into three parts.\e"
+MFA5000004,"\h(《Drachma》)For each part of each turn, you,
+Aika, or I can input one command.\c"
+MFA5000005,"\h(《Drachma》)Every once in a while, you will see a column
+with a “C!” at the top of the grid.\e"
+MFA5000006,"\h(《Drachma》)During that turn, you will have a tactical
+advantage over your opponent. Concentrate
+all of your firepower into that round.\e"
+MFA5000007,"\h(《Drachma》)Also, certain turns have a different color
+shown at the top.\e"
+MFA5000008,"\h(《Drachma》)These are the turns in which your enemy is goin'
+to unleash a powerful attack. Make sure to use
+your “Guard” command effectively.\c"
+MFA5000009,"\h(《Baltor》)Hrumph! He's good…
+Turn hard to starboard! Let's
+try and maneuver behind him!\c"
+MFA5000010,"\h(《Aika》)… Something's not right, Cap'n. It looks like
+he's preparing for something. I'm getting a bad
+feeling about this…\e"
+MFA5000011,"\h(《Drachma》)He looks like he's goin' to try to get behind
+us. Most ships have their engines in the back
+and that makes them more vulnerable from behind.\e"
+MFA5000012,"\h(《Drachma》)But, if he tries to get behind us, in the
+meantime, he'll be wide open. What do you
+want to do, boy?\e"
+MFA5000013,"\h(《What will you do?》)“Try to get behind him instead.”
+“Wait and see what he does.”\c"
+MFA5000014,"\h(《Vyse》)Now's our chance!
+He won't be expecting us to try and maneuver
+around to his backside!\c"
+MFA5000015,"\h(《Drachma》)Good job, boy!
+His ship doesn't have any cannons in the back…
+We've got a wide open shot at his engines.\c"
+MFA5000016,"\h(《Vyse》)I don't want to act in haste.
+Let's see what he does…\c"
+MFA5000017,"\h(《Baltor》)Hahaha!!!
+Fools! You've let me get behind you!
+Now, you are mine!!\c"
+MFA5000018,"\h(《Drachma》)Idiot! What're you doin'?!
+Now that he's behind us, he's got
+a wide open shot at our engines!!\c"
+MFA5000019,"\h(《Baltor》)That old ship's tough!!
+I need to get behind it!\e"
+MFA5000020,"\h(《What will you do?》)“Maneuver behind the enemy.”
+“Wait and see what he does.”\c"
+MFA5000021,"\h(《Vyse》)Alright! We managed to get behind him!
+Now's our chance to attack!\c"
+MFA5000022,"\h(《Vyse》)Great… While I was sitting here twiddling my
+thumbs he managed to get behind me! All hands,
+prepare for impact!!!\c"
+MGA5000000,"\h(《Baltor》)Gahahahaha!
+How do you like that! Feel the power of
+my ship, the Blackbeard!\e"
+MGA5000001,"\h(《Baltor》)Now, I shall teach you to tremble in fear before
+the power of the Black Pirates!
+Gahahahaha!!!\c"
+MGA5000002,"\h(《Drachma》)Listen up, boy!
+At the top of the screen, a 3X3 grid will
+appear. This is your input command screen.\e"
+MGA5000003,"\h(《Drachma》)Think of it as a time gauge of sorts.
+Each turn is divided into three parts.\e"
+MGA5000004,"\h(《Drachma》)For each part of each turn, you,
+Aika, or I can input one command.\c"
+MGA5000005,"\h(《Drachma》)Every once in a while, you will see a column
+with a “C!” at the top of the grid.\e"
+MGA5000006,"\h(《Drachma》)During that turn, you will have a tactical
+advantage over your opponent. Concentrate
+all of your firepower into that round.\e"
+MGA5000007,"\h(《Drachma》)Also, certain turns have a different color
+shown at the top.\e"
+MGA5000008,"\h(《Drachma》)These are the turns in which your enemy is goin'
+to unleash a powerful attack. Make sure to use
+your “Guard” command effectively.\c"
+MGA5000009,"\h(《Baltor》)Hrumph! He's good…
+Turn hard to starboard! Let's
+try and maneuver behind him!\c"
+MGA5000010,"\h(《Aika》)… Something's not right, Cap'n. It looks like
+he's preparing for something. I'm getting a bad
+feeling about this…\e"
+MGA5000011,"\h(《Drachma》)He looks like he's goin' to try to get behind
+us. Most ships have their engines in the back
+and that makes them more vulnerable from behind.\e"
+MGA5000012,"\h(《Drachma》)But, if he tries to get behind us, in the
+meantime, he'll be wide open. What do you
+want to do, boy?\e"
+MGA5000013,"\h(《What will you do?》)“Try to get behind him instead.”
+“Wait and see what he does.”\c"
+MGA5000014,"\h(《Vyse》)Now's our chance!
+He won't be expecting us to try and maneuver
+around to his backside!\c"
+MGA5000015,"\h(《Drachma》)Good job, boy!
+His ship doesn't have any cannons in the back…
+We've got a wide open shot at his engines.\c"
+MGA5000016,"\h(《Vyse》)I don't want to act in haste.
+Let's see what he does…\c"
+MGA5000017,"\h(《Baltor》)Hahaha!!!
+Fools! You've let me get behind you!
+Now, you are mine!!\c"
+MGA5000018,"\h(《Drachma》)Idiot! What're you doin'?!
+Now that he's behind us, he's got
+a wide open shot at our engines!!\c"
+MGA5000019,"\h(《Baltor》)That old ship's tough!!
+I need to get behind it!\e"
+MGA5000020,"\h(《What will you do?》)“Maneuver behind the enemy.”
+“Wait and see what he does.”\c"
+MGA5000021,"\h(《Vyse》)Alright! We managed to get behind him!
+Now's our chance to attack!\c"
+MGA5000022,"\h(《Vyse》)Great… While I was sitting here twiddling my
+thumbs he managed to get behind me! All hands,
+prepare for impact!!!\c"
+"",M0430
+"",f7100100S.p04
+"",f7100100S.p04
+"",me500a.sct
+"",me090a.sct
+"",f3000033
+"",f3000033
+"",k0000.mld
+"",k0000.mld
+"",k0000.mld
+"",me205a.sct

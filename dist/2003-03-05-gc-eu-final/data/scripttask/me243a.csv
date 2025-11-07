@@ -1,0 +1,707 @@
+[Event Name],Task ID
+MC0010000,"\h(«Valua National Guard Fleet»)You are entering Valuan airspace.
+Present your Entry Passport.\e"
+MC0010001,"\h(«Valua National Guard Fleet»)Without the proper credentials, you must leave 
+immediately or we will destroy your ship.\e"
+MC0010002,"\h(«Vyse»)Oh, if it's a passport you want, we have one.
+Here…\e"
+MC0010003,"\h(«Valua National Guard Fleet»)…Hmm. I can see you just left Valua recently. 
+Welcome back.\e"
+MC0010004,\h(«Valua National Guard Fleet»)We will escort you inside.\e
+MC0010005,"\h(«Aika»)Looks like we made it through. We just passed a 
+Valuan Security Checkpoint. That's quite 
+an accomplishment, don't you think?\e"
+MC0010006,"\h(«Vyse»)Yeah…
+I thought getting into Valua would be a lot
+tougher. Now all we have to do is sneak into…\e"
+MC0010007,\h(«Vyse»)…!\e
+MC0010008,"\h(«Aika»)Huh?
+What's that?!\e"
+MC0010009,"\h(«Drachma»)It's the only entrance into the city of Valua…
+The “Grand Fortress.”\e"
+MC0010010,"\h(«Drachma»)Valua is surrounded by impassable mountains… 
+so that is the only way in or out.\e"
+MC0010011,"\h(«Vyse»)Wow…
+I can't believe they actually built something 
+that big…\e"
+MC0010012,"\h(«Drachma»)During the Valua-Nasr War, over 100 Nasr
+warships bombarded this fortress for days.\e"
+MC0010013,"\h(«Drachma»)However, all the shells were repelled by
+these walls. The Fortress may be the strongest
+structure of the new world.\e"
+MC0010014,"\h(«Aika»)Look!
+It's moving!!!\e"
+MC0010015,"\h(«Drachma»)The door of the fortress opens only once a day
+to allow ships to pass through.\e"
+MC0010016,"\h(«Drachma»)The backside of that wall is completely lined
+with cannons. It was those cannons that nearly
+wiped out the entire Nasr fleet.\e"
+MC0010017,"\h(«Vyse»)Defense and offense all in one…
+It's an invincible fortress.\e"
+MC0010018,"\h(«Aika»)That's where they're holding Captain Dyne… 
+and Fina!\e"
+MC0010019,\h(«Drachma»)No prisoner has ever escaped from that fortress.\e
+MC0010020,"\h(«Drachma»)Although, I've heard that there's one way out.\e"
+MC0010021,\h(«Vyse»)Really? Then it's possible?\e
+MC0010022,"\h(«Drachma»)Yeah. 
+After they execute prisoners, their corpses are
+thrown off of the island. \e"
+MC0010023,\h(«Aika»)That's just great! What are we going to do now?\e
+MC0010024,"\h(«Vyse»)Hah!
+No one's ever escaped, because I've never tried!
+I love a challenge!\e"
+MC0010025,"\h(«Vyse»)Don't worry. I will rescue our friends and 
+escape from that fortress. Just watch me!\e"
+MFC0010000,"\h(«Flotte de la Garde Impériale Valuan»)Vous entrez dans l'espace aérien Valuan.
+Présentez votre Passeport.\e"
+MFC0010001,"\h(«Flotte de la Garde Impériale Valuan»)Sans les papiers nécessaires, vous devez partir
+immédiatement ou nous détruirons votre navire.\e"
+MFC0010002,"\h(«Vyse»)Oh, si vous voulez un passeport, nous en avons
+un. Voilà……\e"
+MFC0010003,"\h(«Flotte de la Garde Impériale Valuan»)……Humm. Je vois que vous êtes parti de Valua
+récemment. Bon retour parmi nous.\e"
+MFC0010004,\h(«Flotte de la Garde Impériale Valuan»)Nous vous escorterons jusqu'à l'intérieur.\e
+MFC0010005,"\h(«Aika»)Apparemment, nous avons réussi. Nous venons
+juste de passer un Barrage de Sécurité Valuan,
+c'est un sacré exploit, non ?\e"
+MFC0010006,"\h(«Vyse»)Ah oui……
+Je pensais que ce serait beaucoup plus difficile
+d'entrer dans Valua. Il ne nous reste plus qu'à
+nous faufiler……\e"
+MFC0010007,\h(«Vyse»)……!\e
+MFC0010008,"\h(«Aika»)Hein ?
+Qu'est-ce que c'est ?!\e"
+MFC0010009,"\h(«Drachma»)C'est la seule entrée de la ville de Valua……
+La “Grande Forteresse”.\e"
+MFC0010010,"\h(«Drachma»)Valua est entourée de montagnes
+infranchissables…… alors c'est le seul passage
+pour entrer ou sortir.\e"
+MFC0010011,"\h(«Vyse»)Ooooh……
+Je n'arrive pas à croire qu'ils aient construit
+quelque chose d'aussi grand……\e"
+MFC0010012,"\h(«Drachma»)Durant la guerre Valua-Nasr, plus de 100 navires
+de guerre Nasr ont bombardé cette forteresse
+pendant des jours.\e"
+MFC0010013,"\h(«Drachma»)Cependant, les murs ont arrêté tous les obus.
+La Forteresse est peut-être la structure la plus
+solide au monde.\e"
+MFC0010014,"\h(«Aika»)Regardez !
+Elle bouge !!!\e"
+MFC0010015,"\h(«Drachma»)La porte de la Forteresse s'ouvre seulement une
+fois par jour pour laisser passer les navires.\e"
+MFC0010016,"\h(«Drachma»)Il y a toute une rangée de canons derrière ce
+mur. Ce sont ces canons qui ont éliminé la
+quasi-totalité de la flotte Nasr.\e"
+MFC0010017,"\h(«Vyse»)Défense et attaque à la fois……
+C'est une forteresse invincible.\e"
+MFC0010018,"\h(«Aika»)C'est là qu'ils détiennent Capitaine Dyne…… et
+Fina !\e"
+MFC0010019,"\h(«Drachma»)Jamais aucun prisonnier n'a réussi à s'échapper
+de cette forteresse.\e"
+MFC0010020,"\h(«Drachma»)Bien que j'aie entendu dire qu'il existe une
+sortie.\e"
+MFC0010021,\h(«Vyse»)Vraiment ? Alors c'est possible ?\e
+MFC0010022,"\h(«Drachma»)Oui.
+Après l'exécution des prisonniers, ils jettent
+leurs cadavres hors de l'île.\e"
+MFC0010023,\h(«Aika»)Formidable ! Qu'allons-nous faire maintenant ?\e
+MFC0010024,"\h(«Vyse»)Hah ! Jamais personne n'a réussi à s'échapper,
+parce que je n'ai jamais essayé ! J'adore les
+défis !\e"
+MFC0010025,"\h(«Vyse»)Ne vous inquiétez pas. Je sauverai nos amis et
+m'échapperai de cette forteresse. Vous verrez !\e"
+MGC0010000,"\h(«Flotte der Valua Nationalgarde»)Sie sind dabei, in Valua-Luftraum einzufliegen.
+Zeigen Sie Ihren Eintrittspass vor.\e"
+MGC0010001,"\h(«Flotte der Valua Nationalgarde»)Ohne die offiziellen Genehmigungen müssen Sie
+sofort umkehren, oder wir zerstören Ihr Schiff.\e"
+MGC0010002,"\h(«Vyse»)Oh, wenn Sie einen Pass wünschen, den haben wir.
+Hier……\e"
+MGC0010003,"\h(«Flotte der Valua Nationalgarde»)……Hmm. Wie ich sehe, haben Sie Valua erst vor
+kurzem verlassen. Willkommen im Lande.\e"
+MGC0010004,"\h(«Flotte der Valua Nationalgarde»)Wir werden Sie ins Territorium hinein
+eskortieren.\e"
+MGC0010005,"\h(«Aika»)Sieht so aus, als hätten wir es geschafft. Wir
+haben gerade einen Valua-Sicherheits-Checkpoint
+passiert, das ist schon eine Leistung, meinst
+du nicht?\e"
+MGC0010006,"\h(«Vyse»)Genau…
+Ich dachte, nach Valua zu kommen, wäre viel
+komplizierter. Jetzt müssen wir nur noch
+ins……\e"
+MGC0010007,\h(«Vyse»)……\e
+MGC0010008,"\h(«Aika»)Eh?
+Was ist das?!\e"
+MGC0010009,"\h(«Drachma»)Der einzige Eingang zur Stadt Valua…… die
+“Grand Fortress”.\e"
+MGC0010010,"\h(«Drachma»)Valua ist von unzugänglichen Bergen umgeben……
+also ist es der einzige Weg hinein und hinaus.\e"
+MGC0010011,"\h(«Vyse»)Wow…
+Ich kann nicht fassen, dass jemand etwas so
+Großes gebaut hat……\e"
+MGC0010012,"\h(«Drachma»)Während des Valua-Nasr-Kriegs bombardierten über
+100 Nasr-Kriegsschiffe tagelang diese Festung.\e"
+MGC0010013,"\h(«Drachma»)Alle Projektile wurden jedoch von diesen Mauern
+abgestoßen. Die Fortress ist die vielleicht
+stärkste Festung der Neuen Welt.\e"
+MGC0010014,"\h(«Aika»)Schau!
+Sie bewegt sich!!!\e"
+MGC0010015,"\h(«Drachma»)Die Tür der Festung öffnet sich nur einmal am
+Tag, um Schiffe durchzulassen.\e"
+MGC0010016,"\h(«Drachma»)An der Rückseite dieser Mauer reiht sich Kanone
+an Kanone. Sie haben fast die gesamte
+Nasr-Flotte ausgelöscht.\e"
+MGC0010017,"\h(«Vyse»)Verteidigung und Offensive in einem……
+Sie ist eine uneinnehmbare Festung.\e"
+MGC0010018,"\h(«Aika»)Dort werden Captain Dyne… und Fina gefangen
+gehalten!\e"
+MGC0010019,"\h(«Drachma»)Kein Gefangener konnte je aus dieser Festung
+entfliehen.\e"
+MGC0010020,"\h(«Drachma»)Obwohl ich gehört habe, dass es einen Ausweg
+gibt.\e"
+MGC0010021,\h(«Vyse»)Wirklich? Dann ist es also möglich?\e
+MGC0010022,"\h(«Drachma»)Ja.
+Wenn sie ihre Gefangenen hingerichtet haben,
+werfen sie die Leichen von der Insel.\e"
+MGC0010023,\h(«Aika»)Na toll! Und was machen wir jetzt?\e
+MGC0010024,"\h(«Vyse»)Ha! Keiner ist je entkommen, weil ich es noch
+nicht probiert habe! Ich liebe
+Herausforderungen!\e"
+MGC0010025,"\h(«Vyse»)Keine Sorge. Ich werde unsere Freunde retten
+und aus dieser Festung fliehen. Wart's ab!\e"
+MSC0010000,"\h(«Flota de la Guardia Nacional de Valua»)Estás entrando en el espacio aéreo de Valua.
+Presenta tu pasaporte de entrada.\e"
+MSC0010001,"\h(«Flota de la Guardia Nacional de Valua»)Si no tienes los documentos correspondientes,
+tendrás que irte de inmediato o destruiremos tu
+navío.\e"
+MSC0010002,"\h(«Vyse»)Oh, si os referís al pasaporte, tenemos uno.
+Aquí está……\e"
+MSC0010003,"\h(«Flota de la Guardia Nacional de Valua»)Mmm…… Por lo que veo has estado en Valua hace
+poco.
+Bienvenido de vuelta.\e"
+MSC0010004,\h(«Flota de la Guardia Nacional de Valua»)Te acompañaremos.\e
+MSC0010005,"\h(«Aika»)Parece que hemos conseguido entrar. Acabamos de
+pasar un control de seguridad Valuan, todo un
+logro, ¿no te parece?\e"
+MSC0010006,"\h(«Vyse»)Sí……
+Pensé que entrar en Valua sería mucho más
+difícil. Ahora sólo nos queda colarnos en……\e"
+MSC0010007,\h(«Vyse»)¡……!\e
+MSC0010008,"\h(«Aika»)¿Eh?
+¡¿Qué es eso?!\e"
+MSC0010009,"\h(«Drachma»)Es la única entrada a la ciudad de Valua……
+La “Gran Fortaleza”.\e"
+MSC0010010,"\h(«Drachma»)Valua está rodeada por montañas impenetrables……
+y éste es el único modo para entrar o salir.\e"
+MSC0010011,"\h(«Vyse»)Caramba……
+No puedo creer que construyeran algo tan
+grande……\e"
+MSC0010012,"\h(«Drachma»)Durante la guerra entre Valua y Nasr, más de 100
+acorazados de Nasr bombardearon la fortaleza
+durante días.\e"
+MSC0010013,"\h(«Drachma»)De todas formas, todos los proyectiles fueron
+defendidos por estos muros. ¡La fortaleza es
+quizá la estructura más sólida del Nuevo Mundo!\e"
+MSC0010014,"\h(«Aika»)¡Mira!
+¡¡¡Se mueve!!!\e"
+MSC0010015,"\h(«Drachma»)La puerta de la fortaleza se abre sólo una vez
+al día para dejar entrar a los navíos.\e"
+MSC0010016,"\h(«Drachma»)El interior de ese muro está lleno de cañones.
+Esos cañones casi arrasaron la flota de Nasr al
+completo.\e"
+MSC0010017,"\h(«Vyse»)Defensa y ataque todo en uno……
+Es una fortaleza invencible.\e"
+MSC0010018,"\h(«Aika»)¡Ahí es donde tienen prisioneros al Capitán
+Dyne…… y a Fina!\e"
+MSC0010019,"\h(«Drachma»)Ningún prisionero ha logrado escapar jamás de
+esta fortaleza.\e"
+MSC0010020,\h(«Drachma»)Pero he oído que hay una salida.\e
+MSC0010021,\h(«Vyse»)¿En serio? ¿Así que es posible?\e
+MSC0010022,"\h(«Drachma»)Sí.
+Después de ejecutar a los prisioneros, arrojan
+sus cadáveres fuera de la isla.\e"
+MSC0010023,\h(«Aika»)¡Eso es genial! ¿Y ahora qué hacemos?\e
+MSC0010024,"\h(«Vyse»)¡Ah! ¡Nadie ha conseguido escapar, pero yo no lo
+he intentado aún! ¡Me encantan los desafíos!\e"
+MSC0010025,"\h(«Vyse»)No te preocupes. Rescataré a nuestros amigos y
+escaparán de esa fortaleza. ¡Tú fíjate en mí!\e"
+MC0030000,"\h(«Vyse»)So, this is the capital of Valua, huh?
+It's impressive…\e"
+MC0030001,"\h(«Aika»)It's beautiful…
+But the skies are so gloomy…\e"
+MC0030002,"\h(«Drachma»)Valua is a beautiful city, but because of the
+fierce thunderstorms caused by the Yellow Moon,
+the city is shrouded in eternal darkness.\e"
+MC0030003,"\h(«Drachma»)That's the Imperial Palace straight ahead of us.
+The area on the left shore is called Upper City.\e"
+MC0030004,\h(«Vyse»)Upper City?\e
+MC0030005,"\h(«Drachma»)The people of Valua are either very rich, or 
+very poor and they detest each other. Only the 
+richest people in Valua can live in Upper City. \e"
+MC0030006,"\h(«Drachma»)The less fortunate are confined to Lower City. 
+It's on the right shore.\e"
+MC0030007,"\h(«Aika»)It doesn't seem right to force them to live in 
+poverty like that!\e"
+MC0030008,"\h(«Vyse»)Hey, Captain…
+Where should we land?\e"
+MC0030009,"\h(«Drachma»)In Lower City.
+There is a dock there that repairs and remodels 
+ships.\e"
+MC0030010,"\h(«Vyse»)Aye aye.
+I'll bring us into the Lower City Port.\e"
+MFC0030000,"\h(«Vyse»)Alors, voilà la capitale de Valua, hein ?
+C'est impressionnant……\e"
+MFC0030001,"\h(«Aika»)C'est magnifique……
+Mais les cieux sont très sombres…\e"
+MFC0030002,"\h(«Drachma»)Valua est une ville magnifique, mais elle est
+enveloppée d'une éternelle obscurité, à cause
+des violents orages qu'engendre la Lune Jaune.\e"
+MFC0030003,"\h(«Drachma»)C'est le Palais Impérial, juste devant nous.
+Le Haut Valua se trouve sur la rive
+gauche.\e"
+MFC0030004,\h(«Vyse»)Haut Valua ?\e
+MFC0030005,"\h(«Drachma»)Les habitants de Valua sont soit très riches,
+soit très pauvres et ils se détestent.
+Seuls les gens les plus aisés peuvent vivre dans
+le Haut Valua.\e"
+MFC0030006,"\h(«Drachma»)Les moins fortunés sont confinés dans les Bas
+Quartiers appelés le “Bas Valua”.
+C'est sur la rive droite.\e"
+MFC0030007,"\h(«Aika»)Ce n'est pas juste de les forcer à vivre dans la
+pauvreté comme ça !\e"
+MFC0030008,"\h(«Vyse»)Hé, Capitaine……
+Où devons-nous atterrir ?\e"
+MFC0030009,"\h(«Drachma»)Dans le Bas Valua.
+Il y a un dock là-bas où l'on répare et remodèle
+les navires.\e"
+MFC0030010,"\h(«Vyse»)À vos ordres, Capitaine.
+Je vais atterrir dans le Port de Bas Valua.\e"
+MGC0030000,"\h(«Vyse»)Das ist also die Hauptstadt von Valua!
+Sie ist beeindruckend……\e"
+MGC0030001,"\h(«Aika»)Sie ist wundervoll……
+Aber der Himmel ist so düster……\e"
+MGC0030002,"\h(«Drachma»)Valua ist eine schöne Stadt, aber aufgrund der
+starken Gewitter, die vom Yellow Moon verursacht
+werden, ist sie in ewige Dunkelheit gehüllt.\e"
+MGC0030003,"\h(«Drachma»)Genau vor uns ist der Imperial Palace.
+Die Gegend an der linken Küste wird Upper City
+genannt.\e"
+MGC0030004,\h(«Vyse»)Upper City?\e
+MGC0030005,"\h(«Drachma»)Die Einwohner von Valua sind entweder sehr reich
+oder sehr arm und hassen sich gegenseitig.
+Nur die reichsten Leute in Valua leben in
+Upper City.\e"
+MGC0030006,"\h(«Drachma»)Die weniger Begüterten sind auf Lower City
+beschränkt. Es liegt an der rechten Küste.\e"
+MGC0030007,"\h(«Aika»)Es ist nicht gerecht, sie zu zwingen, in
+solcher Armut zu leben!\e"
+MGC0030008,"\h(«Vyse»)He, Captain…
+Wo sollen wir landen?\e"
+MGC0030009,"\h(«Drachma»)In Lower City.
+Dort gibt es eine Werft, die Schiffe repariert
+und nachbaut.\e"
+MGC0030010,"\h(«Vyse»)Aye aye.
+Ich werde im Hafen von Lower City landen.\e"
+MSC0030000,"\h(«Vyse»)¿Así que ésta es la capital de Valua?
+Es imponente……\e"
+MSC0030001,"\h(«Aika»)Muy bonita……
+Pero el cielo es tan oscuro……\e"
+MSC0030002,"\h(«Drachma»)Valua es una hermosa ciudad, pero debido a las
+tormentas eléctricas originadas por la Luna
+Amarilla, la ciudad se halla inmersa en una
+continua oscuridad.\e"
+MSC0030003,"\h(«Drachma»)Ése es el Palacio Imperial, justo delante de
+nosotros.
+La orilla izquierda es el Centro de la Ciudad.\e"
+MSC0030004,\h(«Vyse»)¿Centro de la Ciudad?\e
+MSC0030005,"\h(«Drachma»)En Valua hay grandes diferencias entre ricos y
+pobres, que se odian entre sí. Sólo la gente
+rica de Valua puede permitirse vivir en el
+Centro de la Ciudad.\e"
+MSC0030006,"\h(«Drachma»)Los menos afortunados se quedan en el Arrabal.
+Está en la orilla derecha.\e"
+MSC0030007,"\h(«Aika»)¡No es justo que les obliguen a vivir en la
+pobreza!\e"
+MSC0030008,"\h(«Vyse»)Eh, Capitán……
+¿Dónde vamos a aterrizar?\e"
+MSC0030009,"\h(«Drachma»)En el Arrabal.
+Hay un embarcadero donde reparan y remodelan
+navíos.\e"
+MSC0030010,"\h(«Vyse»)Muy bien.
+Vamos al puerto del arrabal.\e"
+MC0160000,"\h(«Dyne»)You were late, Vyse.
+We decided to come get you and from the looks of
+it, we were just in time.\e"
+MC0160001,"\h(«Dyne»)Fina, are you alright?\e"
+MC0160002,"\h(«Fina»)Yes.
+Thank you very much.\e"
+MC0160003,"\h(«Fina»)… I'm very grateful that you've gone through 
+so much trouble to rescue me…\e"
+MC0160004,"\h(«Aika»)Relax Fina… We're all okay right now…
+Save the mushy stuff for later…\e"
+MC0160005,"\h(«Drachma»)She is right. We can all be thankful after 
+we've gotten out of Valua.\e"
+MC0160006,"\h(«Timmus the Gunner»)Captain, emergency!
+They're closing the gates!!!\e"
+MC0160007,"\h(«Drachma»)If the gate closes, we're all dead!\e"
+MC0160008,"\h(«Timmus the Gunner»)We're under attack!
+Valuan ships, dead ahead!
+They're blocking the entrance!\e"
+MC0160009,"\h(«Drachma»)We've got to act fast!
+We need to take out that blockade!\e"
+MC0160010,"\h(«Drachma»)Looks like I'm goin' to be able to test out the
+Harpoon Cannon earlier than I thought!
+All hands to battle stations!\e"
+MFC0160000,"\h(«Dyne»)Tu étais en retard, Vyse. Nous avons décidé de
+venir te chercher et apparemment, nous sommes
+arrivés juste à temps.\e"
+MFC0160001,"\h(«Dyne»)Fina, ça va ?\e"
+MFC0160002,"\h(«Fina»)Oui.
+Merci beaucoup.\e"
+MFC0160003,"\h(«Fina»)…… Je vous suis très reconnaissante de vous être
+donnés autant de mal pour me sauver……\e"
+MFC0160004,"\h(«Aika»)Détendez-vous Fina…… Tout va bien maintenant…
+Ne soyez pas trop sentimentale……\e"
+MFC0160005,"\h(«Drachma»)Elle a raison. Nous devrions nous réjouir d'être
+sortis de Valua.\e"
+MFC0160006,"\h(«Timmus le Canonnier»)Capitaine ! Alerte !
+Ils ferment les portes !!!\e"
+MFC0160007,"\h(«Drachma»)Si les portes se ferment, nous sommes tous
+morts !\e"
+MFC0160008,"\h(«Timmus le Canonnier»)Ils nous attaquent !
+Navires Valuan, droit devant !
+Ils bloquent l'entrée !\e"
+MFC0160009,"\h(«Drachma»)Il faut agir vite !
+Il faut forcer ce blocus !\e"
+MFC0160010,"\h(«Drachma»)On dirait que je vais pouvoir tester ce Canon
+Harpon plus tôt que prévu !
+Tous à vos postes de combat !\e"
+MGC0160000,"\h(«Dyne»)Du warst lange weg, Vyse.
+Wir dachten, wir kommen dich holen --
+das war wohl gerade noch einmal
+rechtzeitig.\e"
+MGC0160001,"\h(«Dyne»)Fina, bist du OK?\e"
+MGC0160002,"\h(«Fina»)Ja.
+Vielen Dank.\e"
+MGC0160003,"\h(«Fina»)…… Ich bin sehr dankbar, dass ihr euch so viel
+Mühe gemacht habt, um mich zu retten……\e"
+MGC0160004,"\h(«Aika»)Lass gut sein, Fina…… Im Moment geht's uns
+allen gut…… Spar dir die Gefühlsdusselei für
+später……\e"
+MGC0160005,"\h(«Drachma»)Sie hat Recht. Wir können alle dankbar sein,
+aus Valua heraus gekommen zu sein.\e"
+MGC0160006,"\h(«Timmus, der Kanonier»)Captain, Notsignal!
+Sie schließen die Tore!!!\e"
+MGC0160007,"\h(«Drachma»)Wenn sich die Tore schließen, sind wir erledigt!\e"
+MGC0160008,"\h(«Timmus, der Kanonier»)Wir werden angegriffen!
+Valua-Schiffe, genau vor uns!
+Sie blockieren den Eingang!\e"
+MGC0160009,"\h(«Drachma»)Wir müssen schnell handeln!
+Wir müssen die Blockade aufbrechen!\e"
+MGC0160010,"\h(«Drachma»)Sieht so aus, als könnte ich die Harpoon Cannon
+früher ausprobieren als gedacht!
+Alle Mann auf Kampfstation!\e"
+MGC0160011,\h( )Drachma ist wieder zur Gruppe gestoßen.\e
+MSC0160000,"\h(«Dyne»)Llegas tarde, Vyse.
+Decidimos venir a buscarte y, por lo que parece,
+hemos llegado justo a tiempo.\e"
+MSC0160001,"\h(«Dyne»)Fina, ¿estás bien?\e"
+MSC0160002,"\h(«Fina»)Sí.
+Muchas gracias.\e"
+MSC0160003,"\h(«Fina»)……Estoy muy agradecida por todo lo que habéis
+pasado para rescatarme……\e"
+MSC0160004,"\h(«Aika»)Tranquila, Fina…… Ahora todos estamos bien.
+Ahórrate los sentimentalismos para otro
+momento……\e"
+MSC0160005,"\h(«Drachma»)Tiene razón. Todos debemos estar agradecidos por
+haber escapado de Valua.\e"
+MSC0160006,"\h(«Timmus el Cañonero»)¡Capitán, una emergencia!
+¡¡¡Están cerrando las puertas!!!\e"
+MSC0160007,"\h(«Drachma»)¡Si esa puerta se cierra, seremos hombres
+muertos!\e"
+MSC0160008,"\h(«Timmus el Cañonero»)¡Nos están atacando!
+¡Navíos Valuan justo enfrente!
+¡Nos bloquean la entrada!\e"
+MSC0160009,"\h(«Drachma»)¡Debemos actuar con rapidez! ¡Tenemos que evitar
+el bloqueo!\e"
+MSC0160010,"\h(«Drachma»)¡Me parece que voy a poder probar el Cañón Arpón
+antes de lo que creía!
+¡Todos a sus puestos de combate!\e"
+MC0170000,"\h(«Vyse»)Looks like that was the last of them!
+Now we just need to get through that gate!\e"
+MC0170001,\h(«Aika»)Vyse! It's closing! Hurry!!!\e
+MC0170002,"\h(«Vyse»)Come on!!! Come on, Little Jack!!!!!\e"
+MC0170003,\h(«Vyse»)Woohoo!!! We did it!!!\e
+MC0170004,"\h(«Aika»)Alright!!! I knew you could do it Vyse! 
+You're the greatest!\e"
+MC0170005,"\h(«Dyne»)You got us through there by the skin of our 
+teeth. You had me worried for a second there.\e"
+MC0170006,\h(«Vyse»)We can finally say good-bye to Valua!\e
+MC0170007,\h(«Vyse»)Alright! Let's go back home to Pirate Isle!\e
+MFC0170000,"\h(«Vyse»)On dirait que c'était le dernier !
+Maintenant il ne nous reste plus qu'à traverser
+cette porte !\e"
+MFC0170001,\h(«Aika»)Vyse ! Elle se ferme ! Vite !!!\e
+MFC0170002,"\h(«Vyse»)Allez !!! Allez, Little Jack !!!!!\e"
+MFC0170003,\h(«Vyse»)Ooooooh !!! Nous avons réussi !!!\e
+MFC0170004,"\h(«Aika»)Bravo !!! Je savais que tu y arriverais Vyse !
+Tu es le meilleur !\e"
+MFC0170005,"\h(«Dyne»)Grâce à toi nous l'avons échappé belle.
+Bien que j'avoue avoir eu peur un instant.\e"
+MFC0170006,\h(«Vyse»)Nous pouvons enfin dire au revoir à Valua !\e
+MFC0170007,"\h(«Vyse»)En avant !
+Rentrons chez nous sur l'Île Pirate !\e"
+MGC0170000,"\h(«Vyse»)Das war wohl der Letzte!
+Jetzt müssen wir nur noch durch dieses Tor
+durch!\e"
+MGC0170001,\h(«Aika»)Vyse! Es geht zu! Beeil dich!!!\e
+MGC0170002,"\h(«Vyse»)Komm schon!!! Komm schon, “Little Jack”!!!!!\e"
+MGC0170003,\h(«Vyse»)Hurra!!! Wir haben es geschafft!!!\e
+MGC0170004,"\h(«Aika»)Echt!!! Ich wusste, dass du es schaffst, Vyse!
+Du bist der Größte!\e"
+MGC0170005,"\h(«Dyne»)Da hast du uns gerade noch um Haaresbreite
+durchgeschleust. Für einen Moment hab' ich
+mir schon Sorgen gemacht.\e"
+MGC0170006,\h(«Vyse»)Wir können uns endlich von Valua verabschieden!\e
+MGC0170007,"\h(«Vyse»)OK! Lasst uns nach Hause gehen, zur Pirate Isle!\e"
+MSC0170000,"\h(«Vyse»)¡Me parece que ése era el último!
+¡Ahora sólo tenemos que atravesar esa puerta!\e"
+MSC0170001,\h(«Aika»)¡Vyse! ¡Se está cerrando! ¡¡¡Deprisa!!!\e
+MSC0170002,"\h(«Vyse»)¡¡¡Vamos!!! ¡¡¡Vamos, Little Jack!!!\e"
+MSC0170003,\h(«Vyse»)¡¡¡Bieeen!!! ¡¡¡Lo logramos!!!\e
+MSC0170004,"\h(«Aika»)¡¡¡Muy bien!!! ¡Sabía que lo conseguirías, Vyse!
+¡Eres el mejor!\e"
+MSC0170005,"\h(«Dyne»)Conseguiste que llegáramos de puro milagro.
+Durante unos segundos llegué a preocuparme.\e"
+MSC0170006,\h(«Vyse»)¡Al fin podemos decir adiós a Valua!\e
+MSC0170007,\h(«Vyse»)¡Muy bien! ¡Vamos a la Isla del Pirata!\e
+MG0140000,\h(«Vyse»)We did it!\e
+MG0140001,"\h(«Aika»)I can't believe it! We just broke through the
+Grand Fortress.\e"
+MG0140002,\h(«Gilder»)You sure know how to break in a new ship.\e
+MG0140003,"\h(«Fina»)Now, we can finally continue on our search for
+the other Moon Crystals!!\e"
+MG0140004,"\h(«Enrique»)Well, Valua, it looks like this is goodbye for
+now…\e"
+MFG0140000,\h(«Vyse»)On a réussi !\e
+MFG0140001,"\h(«Aika»)Je n'arrive pas à le croire ! Nous nous sommes
+échappés de la Grande Forteresse.\e"
+MFG0140002,"\h(«Gilder»)Vous au moins vous savez comment roder un navire
+tout neuf.\e"
+MFG0140003,"\h(«Fina»)Maintenant, nous pouvons enfin poursuivre notre
+recherche des autres Cristaux !!\e"
+MFG0140004,"\h(«Enrique»)Bon, Valua, il est temps de se dire adieu……\e"
+MGG0140000,\h(«Vyse»)Wir haben es geschafft!\e
+MGG0140001,"\h(«Aika»)Ich glaub's nicht! Wir haben gerade die Mauern
+der Grand Fortress durchbrochen.\e"
+MGG0140002,"\h(«Gilder»)Du weißt ja sehr genau, wie man ein neues Schiff
+einfährt.\e"
+MGG0140003,"\h(«Fina»)Jetzt können wir endlich mit unserer Suche
+nach den anderen Moon Crystals fortfahren!!\e"
+MGG0140004,"\h(«Enrique»)Tja, Valua, sieht so aus, als würden wir
+vorerst voneinander Abschied nehmen.\e"
+MSG0140000,\h(«Vyse»)¡Lo conseguimos!\e
+MSG0140001,"\h(«Aika»)¡No lo puedo creer! Acabamos de atravesar la
+Gran Fortaleza.\e"
+MSG0140002,\h(«Gilder»)Desde luego se os da bien llevar un navío.\e
+MSG0140003,"\h(«Fina»)¡¡Por fin podemos continuar nuestra búsqueda del
+resto de los Cristales Lunares!!\e"
+MSG0140004,"\h(«Enrique»)Parece que por ahora nos despedimos, Valua……\e"
+MJ0200000,"\h(«Galcian»)Ramirez… what is the status on the construction
+of Dangral Island?\e"
+MJ0200001,"\h(«Ramirez»)The construction of the port is complete. And
+De Loco's Flagship is currently being fitted so
+that it will be able to submerge into Deep Sky.\e"
+MJ0200002,"\h(«Ramirez»)I've also received word that the elevator
+leading to the bottom of Deep Sky has been
+completed as well.\e"
+MJ0200003,"\h(«Galcian»)Excellent.
+The time grows near…\e"
+MJ0200004,"\h(«Galcian»)Soon, the foolish Empress and the rest of the
+people of the world will bow before my might…\e"
+MJ0200005,"\h(«Galcian»)No…
+Not just the people…\e"
+MJ0200006,"\h(«Galcian»)The people… and even those revered Moons…
+Soon, they will all be in my grasp.\e"
+MJ0200007,"\h(«Galcian»)The people, the lands, and even the Moons…
+They will belong to me…\e"
+MJ0200008,"\h(«Ramirez»)You shall reign supreme, Lord Galcian…\e"
+MJ0200009,"\h(«Galcian»)Tomorrow morning, I will leave for Dangral. 
+I wish to oversee the final stages of the 
+construction myself.\e"
+MJ0200010,"\h(«Galcian»)And tell the other Admirals to assemble at 
+Dangral. I wish to know where they stand…\e"
+MJ0200011,"\h(«Ramirez»)Yes, Lord Galcian…\e"
+MJ0200012,"\h(«Galcian»)I walk the path of death and destruction…
+I know you are a Silvite… If you wish to change
+your mind, now is the time.\e"
+MJ0200013,"\h(«Ramirez»)I chose long ago to walk the path that you walk
+upon, Lord Galcian. I shall forever be at your
+side.\e"
+MJ0200014,"\h(«Ramirez»)And I will cut down any of those that block our 
+path. It is my duty… It is my purpose…\e"
+MFJ0200000,"\h(«Galcian»)Ramirez…… Où en est la construction
+de l'Île de Dangral ?\e"
+MFJ0200001,"\h(«Ramirez»)La construction du port est terminée. Et nous
+sommes en train de modifier le Navire Amiral de
+De Loco pour qu'il puisse s'immerger dans les
+Profondeurs.\e"
+MFJ0200002,"\h(«Ramirez»)J'ai également reçu la confirmation que
+l'ascenseur au fond de l'océan sera terminé
+sous peu.\e"
+MFJ0200003,"\h(«Galcian»)Excellent.
+Nous y sommes presque……\e"
+MFJ0200004,"\h(«Galcian»)Bientôt, cette imbécile d'impératrice et le
+reste du monde se prosternera devant ma
+puissance……\e"
+MFJ0200005,"\h(«Galcian»)Non……
+Pas seulement le peuple……\e"
+MFJ0200006,"\h(«Galcian»)Le peuple…… mais aussi ces Lunes vénérées……
+Bientôt, ils seront tous sous mon emprise.\e"
+MFJ0200007,"\h(«Galcian»)Le peuple, les terres, et même les Lunes……
+Tous, seront à moi……\e"
+MFJ0200008,"\h(«Ramirez»)Vous règnerez de façon suprême, Seigneur
+Galcian……\e"
+MFJ0200009,"\h(«Galcian»)Demain matin, j'irai à Dangral.
+J'espère veiller moi-même au bon déroulement des
+dernières étapes de la construction.\e"
+MFJ0200010,"\h(«Galcian»)Et dites aux autres Amiraux de se rassembler à
+Dangral. Je veux savoir où ils en sont……\e"
+MFJ0200011,"\h(«Ramirez»)Oui, Seigneur Galcian……\e"
+MFJ0200012,"\h(«Galcian»)J'ai choisi le chemin de la mort et de la
+destruction…… Je sais que vous êtes Silvite……
+Si vous voulez changer d'avis, c'est le moment.\e"
+MFJ0200013,"\h(«Ramirez»)J'ai choisi ce chemin depuis longtemps, Seigneur
+Galcian. Je resterai toujours à vos côtés.\e"
+MFJ0200014,"\h(«Ramirez»)Et j'éliminerai tout ceux qui se mettent en
+travers de votre chemin. C'est mon devoir……
+c'est mon but……\e"
+MGJ0200000,"\h(«Galcian»)Ramirez……… wie ist der Stand bezüglich der
+Konstruktion von Dangral Island?\e"
+MGJ0200001,"\h(«Ramirez»)Die Konstruktion des Hafens ist abgeschlossen.
+Und De Locos Flaggschiff wird zur Zeit
+ausgerüstet, um es für den Deep Sky
+flugtüchtig zu machen.\e"
+MGJ0200002,"\h(«Ramirez»)Außerdem hat man mir berichtet, dass der
+Aufzug zum Boden von Deep Sky ebenfalls
+fertiggestellt wurde.\e"
+MGJ0200003,"\h(«Galcian»)Ausgezeichnet.
+Die Zeit rückt näher……\e"
+MGJ0200004,"\h(«Galcian»)Bald wird sich die dumme Kaiserin und der
+Rest des Volkes vor meiner Macht verneigen……\e"
+MGJ0200005,"\h(«Galcian»)Nein……
+Nicht nur das Volk.\e"
+MGJ0200006,"\h(«Galcian»)Das Volk…… und sogar diese ehrwürdigen Monde……
+Bald werde ich sie alle in meiner Gewalt haben.\e"
+MGJ0200007,"\h(«Galcian»)Das Volk, das Land und sogar die Monde……
+Alles wird mir gehören……\e"
+MGJ0200008,"\h(«Ramirez»)Sie werden die Obergewalt haben, Lord Galcian……\e"
+MGJ0200009,"\h(«Galcian»)Morgen früh fahre ich nach Dangral ab.
+Ich möchte das letzte Konstruktionsstadium
+selbst überwachen.\e"
+MGJ0200010,"\h(«Galcian»)Und befehlen Sie den anderen Admiralen, sich
+in Dangral zu versammeln. Ich möchte wissen,
+welche Position sie einnehmen……\e"
+MGJ0200011,"\h(«Ramirez»)Jawohl, Lord Galcian…… \e"
+MGJ0200012,"\h(«Galcian»)Ich folge dem Pfad von Tod und Verwüstung……
+Ich weiß, du bist Silviter…… Wenn du dich
+anders besinnen willst, ist jetzt der Moment.\e"
+MGJ0200013,"\h(«Ramirez»)Vor langer Zeit wählte ich denselben Weg,
+den Sie gehen, Lord Galcian. Ich werde immer
+an Ihrer Seite sein.\e"
+MGJ0200014,"\h(«Ramirez»)Und ich werde alle niedermetzeln, die sich
+uns in den Weg stellen. Es ist meine Pflicht……
+und meine Absicht……\e"
+MSJ0200000,"\h(«Galcian»)Ramírez…… ¿cómo va la construcción de la Isla
+Dangral?\e"
+MSJ0200001,"\h(«Ramírez»)La construcción del puerto ha acabado y el buque
+insignia de De Loco está reformándose para que
+pueda sumergirse en el Cielo Profundo.\e"
+MSJ0200002,"\h(«Ramírez»)Además, he oído que el ascensor que lleva al
+fondo del Cielo Profundo también se ha acabado
+ya.\e"
+MSJ0200003,"\h(«Galcian»)Estupendo.
+Se acerca el momento……\e"
+MSJ0200004,"\h(«Galcian»)Dentro de poco, esa necia de la Emperatriz y el
+resto de los habitantes de este mundo se
+doblegarán ante mi poder……\e"
+MSJ0200005,"\h(«Galcian»)No……
+No sólo la gente……\e"
+MSJ0200006,"\h(«Galcian»)La gente…… y esas Lunas tan reverenciadas……
+Dentro de poco todos ellos estarán bajo mi
+poder.\e"
+MSJ0200007,"\h(«Galcian»)La gente, las tierras, hasta las Lunas……
+me pertenecerán……\e"
+MSJ0200008,"\h(«Ramírez»)Su excelencia Lord Galcian reinará sobre todas
+las cosas……\e"
+MSJ0200009,"\h(«Galcian»)Mañana por la mañana, partiré hacia Dangral.
+Deseo supervisar yo mismo las últimas fases de
+la construcción.\e"
+MSJ0200010,"\h(«Galcian»)Comunica al resto de los Almirantes que se
+reúnan en Dangral. Quiero saber de qué lado
+están……\e"
+MSJ0200011,"\h(«Ramírez»)Sí, Lord Galcian……\e"
+MSJ0200012,"\h(«Galcian»)Estoy en la senda de muerte y destrucción……
+Sé que eres un Silvite…… Si quieres echarte
+atrás, todavía estás a tiempo.\e"
+MSJ0200013,"\h(«Ramírez»)Hace mucho tiempo que decidí seguir la senda que
+usted ha elegido, Lord Galcian. Y permaneceré en
+su bando para siempre.\e"
+MSJ0200014,"\h(«Ramírez»)Aniquilaré a todos los que intenten obstaculizar
+esa senda común…… Ésa es mi intención……\e"
+"",me002c.sct
+"",me005a.sct
+"",me116d.sct
+"",me017b.sct
+"",me017f.sct
+"",me116d.sct
+"",e6c001
+"",M0314
+"",a243ac01.mld
+"",a243ac01.mld
+"",a243ac01.mld
+"",e6c003
+"",M0307
+"",a243ac03.mld
+"",a243ac03.mld
+"",a243ac03.mld
+"",e6c016
+"",M0330
+"",a243aC16.mld
+"",a243aC16.mld
+"",me501a.sct
+"",a243aC16.mld
+"",a243ac17.mld
+"",e6c017
+"",M0330
+"",M0370
+"",a243ac17.mld
+"",e6c018
+"",M0377
+"",a243ac18.mld
+"",a243ac18.mld
+"",a243ac18efe.mld
+"",a243ac18efe.mld
+"",a243ac18.mld
+"",a243ac18efe.mld
+"",e6g014
+"",M0329
+"",a243ag14a.mld
+"",a243ag14a.mld
+"",a243ag14b.mld
+"",a243ag14b.mld
+"",a243ag14b.mld
+"",a243ag14d.mld
+"",a243ag14d.mld
+"",a243ag14c.mld
+"",a243ag14c.mld
+"",a243ag14c.mld
+"",a243ag14c.mld
+"",a243ag14c.mld
+"",a243ag14a.mld
+"",a243ag14c.mld
+"",a243ag14d.mld
+"",e6j020
+"",M0313
+"",a243aj20.mld
+"",a243aj20.mld
+"",a243aj20.mld

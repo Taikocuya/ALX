@@ -1,0 +1,87 @@
+[Event Name],Task ID
+M09000000,"\h(《Tenkou》)This is our headquarters where our leader, Lord
+Daigo, resides. When preparing for battles, Lord
+Daigo gathers all of the Tenkou here.\e"
+M09000001,"\h(《Tenkou》)Just a little while ago, Lord Daigo issued an
+order for all the Tenkou to assemble.
+It smells like a war…\e"
+M09000002,"\h(《Tenkou》)It appears that Lord Daigo will be returning to
+Yafutoma. From now on, Jao and Mao will be
+leading the Tenkou.\e"
+M09000003,"\h(《Tenkou》)We have decided that we should only take weapons
+from those with evil intent.
+You Blue Rogues have inspired us…\e"
+M09010000,"\h(《Elder Tenkou》)We, the Tenkou, are citizens of Yafutoma.
+No matter how long you live away from it, you
+never forget your love for your country.\e"
+M09010001,"\h(《Elder Tenkou》)So, we consider Kangan's treason to be a very
+serious matter. I know you are not even from
+Yafutoma… but, please… we need your help.\e"
+M09010002,"\h(《Elder Tenkou》)I never would have thought that the Winds of
+Retribution would be the winds caused by Bluheim
+flapping its wings…\e"
+M09010003,"\h(《Elder Tenkou》)Even though they are from the same islands,
+Bluheim is quite different from the little
+Hamachous living around here.\c"
+M09010004,"\h(《Elder Tenkou》)Our leaders Jao and Mao, as well as the other
+Tenkou, are not here right now. I think they
+flew westward.\e"
+M09010005,"\h(《Elder Tenkou》)They said that an important war had begun in a
+country to the west…\e"
+M09020000,"\h(《Tenkou》)Heh heh… a battle!
+We haven't had a decent fight in a long time!\e"
+M09020001,"\h(《Tenkou》)The Armada? I don't know who they think they
+are, but they'll learn not to underestimate us!\e"
+M09020002,"\h(《Tenkou》)You guys are pretty tough!
+I can't believe you defeated that huge bird!\e"
+M09020003,"\h(《Tenkou》)I didn't realize that there were warriors as
+tough as you guys outside of Yafutoma!
+You're really something!\e"
+M09030000,\h(《Hamachou》)Kii kii!\e
+M09030001,\h(《Hamachou》)Kak kak!\e
+M09030002,"\h(《Hamachou》)Kii kii kii, kii!\e"
+M09040000,"\h(《Kangan》)I, I don't believe that I've been exiled to a
+place like… this!\e"
+M09040001,"\h(《Kangan》)I, I am not supposed to be treated like this!! I
+am the Royal Advisor! This is unheard of!\c"
+M09040002,"\h(《Kangan》)King Mikado sent a messenger here just a little
+while ago. It appears that in his sovereign
+wisdom, he has forgiven us.\e"
+M09040003,"\h(《Kangan》)I… I cannot believe that he had the compassion
+to forgive such traitorous villains like
+ourselves…\e"
+M09040004,"\h(《Kangan》)We cannot disappoint him. We will return to
+Yafutoma and work for the betterment of the
+country. We must… for King Mikado.\c"
+M09040005,"\h(《Kangan》)We will return to Yafutoma and work for the
+betterment of the country.\c"
+M09050000,"\h(《Muraji》)Daigo has commanded us to clean this shrine
+every day!\e"
+M09050001,"\h(《Muraji》)Why does someone of my status have to clean such
+a filthy thing?!\e"
+M09050002,"\h(《Muraji》)I used to be against touching anything that I
+deemed filthy.
+I thought it was below my station…\e"
+M09050003,"\h(《Muraji》)But recently, I've learned the value of working
+with one's hands.
+It makes me feel… alive.\e"
+M09050004,"\h(《Muraji》)When we return to Yafutoma, I plan to try and
+make something of myself… without my father's
+help.\e"
+M09050005,"\h(《Muraji》)When we return to Yafutoma, I plan to try and
+make something of myself… without my father's
+help.\e"
+Ms020a000,"\h(《Vyse》)There's something written here in Yafutoman.
+It's probably the name of this shrine… if it
+is a shrine…\c"
+Ms020a001,"\h(《What will you do?》)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+Ms020a002,"\h(《Vyse》)Right now, we have to go talk to this Daigo
+person. We should just leave this ship here
+for now.\c"
+Ms020a003,"\h(《What will you do?》)“Set out to do battle against the Armada!”
+“Finish making preparations first.”\c"
+"",me020b.sct
+"",M0245
+"",k8200000
+"",m5200000

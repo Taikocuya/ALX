@@ -1,0 +1,115 @@
+[Event Name],Task ID
+MF0080000,\h(《Vyse》)…What's that sound?\e
+MF0080001,\h(《Aika》)It sounds like cannon fire…\e
+MF0080002,\h(《Drachma》)Boy! Dead ahead!\e
+MF0080003,\h(《Vyse》)Captain!\e
+MF0080004,\h(《Drachma》)…It's him!\e
+MF0080005,\h(《Fina》)Aaahhh!\e
+MF0080006,\h(《Aika》)It's… it's HUGE!\e
+MF0080007,"\h(《Vyse》)Hey!
+Look over there!\e"
+MF0080008,"\h(《Vyse》)Captain, whose ship is that?\e"
+MF0080009,"\h(《Drachma》)While we were in Valua, I heard rumors that the 
+Armada altered their chain of command.\e"
+MF0080010,"\h(《Drachma》)That must be Ramirez's ship.
+He was Galcian's Vice Captain… He's the most 
+feared officer in the Armada.\e"
+MF0080011,\h(《Fina》)Ramirez…\e
+MF0080012,\h(《Aika》)Fina… what's wrong?\e
+MF0080013,"\h(《Fina》)Nothing…
+Everything is fine.\e"
+MF0080014,\h(《Fina》)……\e
+MF0080015,"\h(《Vyse》)We can't fight them both at the same time!
+Captain, what should we do?\e"
+MF0080016,"\h(《Drachma》)Take out the Valuan ships first. I don't want 
+them interferin' in the fight with Rhaknam. 
+I need to kill Rhaknam myself.\e"
+MF0080017,"\h(《Drachma》)Battlestations!
+Leave Ramirez's ship alone! 
+Take out the two cruisers in front of us first!\e"
+MF0090000,"\h(《Vyse》)Alright!
+We've got a straight shot at Rhaknam!\e"
+MF0090001,"\h(《Drachma》)I've waited for this for a long time…
+Harpoon Cannon… FIRE!\e"
+MF0090002,"\h(《Drachma》)Heh…
+There's no escape for ya now.\e"
+MF0090003,\h(《Aika》)Aaahhhh!\e
+MF0090004,"\h(《Vyse》)Captain! Watch out!
+There's an enemy ship off the starboard side!
+It's Ramirez!\e"
+MF0090005,"\h(《Drachma》)He got behind us while we were concentrating 
+on Rhaknam!\e"
+MF0090006,"\h(《Aika》)The Little Jack is on fire!
+Propelling power dropping rapidly!
+We're… losing altitude!\e"
+MF0090007,"\h(《Vyse》)This isn't good…
+If we keep this up, we're all going to die.\e"
+MF0090008,"\h(《Drachma》)NO! I've waited far too long!!! 
+I may never get another chance!\e"
+MF0090009,"\h(《Vyse》)Captain! We've got to abandon ship!
+We need to get to the lifeboats down below!\e"
+MF0090010,"\h(《Drachma》)What…?!
+You're tellin' me to abandon the Little Jack?!\e"
+MF0090011,\h(《Drachma》)You're tellin' me to let Rhaknam go?!?!\e
+MF0090012,"\h(《Vyse》)YES!!!
+If you die, it won't bring back your son!\e"
+MF0090013,"\h(《Vyse》)And as long as you're alive, you'll always have 
+another chance!\e"
+MF0090014,\h(《Drachma》)Grrr…\e
+MF0090015,"\h(《Vyse》)If you die now, then the lives of your crew…
+and your son… would have been lost in vain.\e"
+MF0090016,\h(《Drachma》)Aaaarrrggghhhh!\e
+MF0090017,"\h(《Vyse》)Alright, we're abandoning ship!
+Everyone! Get down below!\e"
+MF0100000,"\h(《Aika》)Cap'n, hurry! Get on!
+The ship's going down!\e"
+MF0100001,\h(《Drachma》)……\e
+MF0100002,\h(《Vyse》)Captain?!\e
+MF0100003,\h(《Vyse》)…Captain! Get on board!!!\e
+MF0100004,"\h(《Aika》)Look…
+Rhaknam, is hurt!\e"
+MF0100005,\h(《Aika》)Cap'n! What're you doing?\e
+MF0100006,"\h(《Fina》)No, don't!!!\e"
+MF0100007,"\h(《Vyse》)Captain, hurry! Get in!\e"
+MF0100008,\h(《Vyse》)Noooo!!!\e
+MF0100009,\h(《Aika》)Cap'n!\e
+MF0100010,\h(《Fina》)Why did he do that?\e
+MF0100011,"\h(《Vyse》)Ramirez… 
+He fires at lifeboats!?!?\e"
+MF0100012,\h(《Vyse》)Aaaaahhhhh!!!\e
+MF0100013,\h(《Fina》)Vyse!\e
+MF0100014,\h(《Aika》)Nooooo!!!\e
+"",me017a.sct
+"",me033a.sct
+"",a240af08a.mld
+"",a240af08a.mld
+"",a240af08b.mld
+"",a240af08b.mld
+"",a240af08_efe.mld
+"",a240af08_efe.mld
+"",e6f008
+"",M0248
+"",M0248
+"",me518a.sct
+"",a240af08a.mld
+"",a240af08b.mld
+"",a240af08_efe.mld
+"",a240af09.mld
+"",a240af09.mld
+"",a240af09_efe.mld
+"",a240af09_efe.mld
+"",e6f009
+"",M0248
+"",a240af09.mld
+"",a240af09_efe.mld
+"",a240af10_a.mld
+"",a240af10_a.mld
+"",a240af10_b.mld
+"",a240af10_b.mld
+"",a240af10_efe.mld
+"",a240af10_efe.mld
+"",e6f010
+"",M0248
+"",a240af10_a.mld
+"",a240af10_b.mld
+"",a240af10_efe.mld

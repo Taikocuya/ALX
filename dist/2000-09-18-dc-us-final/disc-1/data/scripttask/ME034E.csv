@@ -1,0 +1,665 @@
+[Event Name],Task ID
+Ms034b000,"\h(《Vyse》)There are all sorts of emergency supplies in
+this box. Even on a ship as powerful as the
+Delphinus, emergencies do happen, I suppose.\c"
+Ms034b100,"\h(《Vyse》)It's a talking-tube, just like the ones we used
+on the Albatross. This one is probably connected
+with the bridge.\e"
+Ms034b101,"\h(《Gilder》)Hey Vyse, this is Gilder from the bridge.
+Where are you at?\c"
+Ms034b001,"\h(《Vyse》)It's a talking-tube. This one is connected
+with the bridge.\e"
+Ms034b002,"\h(《Fina》)This is the bridge, over…
+Oh… Vyse, it's you. Are you enjoying the
+view from the lookout tower?\c"
+Ms034b003,"\h(《Vyse》)It's a talking-tube. This one is connected
+with the bridge.\e"
+Ms034b004,"\h(《Fina》)Bridge, here! Vyse, what are you doing!!
+The ship is badly damaged! You need to
+do something about it!!\c"
+Ms034b015,"\h(《Vyse》)I don't have time to go to the lookout
+tower! We're under attack! I need to get
+out on deck!\c"
+Ms034b005,"\h(《Vyse》)Thanks to this searchlight, we can fly
+safely, even at night.\c"
+Ms034b006,"\h(《Vyse》)There are all sorts of emergency supplies in
+this box. Even on a ship as powerful as the
+Delphinus, emergencies do happen, I suppose.\c"
+Ms034b007,"\h(《Vyse》)Weapons need to be constantly maintained.
+Otherwise, anything metal starts to rust and
+anything leather starts to rot…\c"
+Ms034b106,"\h(《Vyse》)It's a talking-tube. This one is connected
+with the bridge.\e"
+Ms034b107,"\h(《Aika》)This is the bridge, over…
+Oh… It's you. Quit playing around and get
+back up here, Vyse!!!\c"
+Ms034b008,"\h(《Vyse》)It's a talking-tube. This one is connected
+with the bridge.\e"
+Ms034b009,"\h(《Aika》)This is the bridge!!
+Vyse?! What are you doing there! Hurry
+up and fix this ship!!\c"
+Ms034b010,"\h(《Vyse》)I suppose this is the best place to hang
+laundry. It dries the fastest out here, even
+though it doesn't look very nice.\c"
+Ms034b011,"\h(《Vyse》)Since this ship has such a nice kitchen, the
+crew can eat home-cooked meals, even way up
+here in the sky.\c"
+Ms034b012,"\h(《Vyse》)The ship's pretty badly damaged. I better
+hurry up and fix her… If we get into another
+battle like this, we're finished.\c"
+Ms034b013,"\h(《Vyse》)It looks like Muraji's locked this door. Who's
+ship does he think this is, anyway?!\c"
+Ms034b014,"\h(《Vyse》)The door's locked. I should make my way to the
+bridge, anyway… That's where Muraji is!\c"
+Ms034a020,"\h(《Vyse》)It's too dangerous to go outside in this
+place. I should leave these doors closed
+and locked.\c"
+M02000002,"\h(《Marco》)Hehe! Look at this deck!
+Not bad if I do say so myself!
+I've been working really hard!\c"
+M02000003,"\h(《Marco》)Those Tenkou guys had crazy hair!
+I wonder if all the Air Pirates in this area 
+have hair like that.\e"
+M02000004,"\h(《Marco》)Vyse, you might have had hair like that if you 
+were a pirate from Yafutoma!\c"
+M02000005,"\h(《Marco》)It's been a while since we last came back to 
+Crescent Isle! I wonder if Izmael built 
+anything when we were gone.\c"
+M02000006,"\h(《Marco》)I wonder how cold it is on the continent covered
+with ice… I get a runny nose when it's cold.\c"
+M02000007,"\h(《Marco》)Hey, did that old guy, Drachma, leave already?
+Isn't he going to come with us?\e"
+M02000008,"\h(《Marco》)That old man, he was really scary at first but, 
+deep down inside, I think he's really nice.\c"
+M02000009,"\h(《Marco》)When you were rescuing everyone from the 
+Coliseum, he was watching you like you were his 
+kid or something.\c"
+M02000010,"\h(《Marco》)When we fly really low, my ears pop.\c"
+M02000011,"\h(《Marco》)Hehe! Look at this deck!
+Not bad if I do say so myself!
+I've been working really hard!\c"
+M02000012,"\h(《Marco》)Enrique was here a little earlier… is there 
+something bothering him?\e"
+M02000013,"\h(《Marco》)He looked really sad. I tried talking to him, 
+but he wouldn't answer me. He must be really 
+upset.\c"
+M02000014,\h(《Marco》)I wonder why Enrique is going back to Valua.\c
+M02000015,"\h(《Marco》)I was just sitting here, looking down at Dangral
+Island… wondering when you guys were going to
+come back…\e"
+M02000016,"\h(《Marco》)… then this huge island popped up out of the 
+clouds! I almost wet my pants when I saw it…\c"
+M02000017,"\h(《Marco》)There was this beam of light that shot into the
+sky… Do you know what that was?\e"
+M02000018,\h(《Marco》)It… it looked like it was fired above Valua.\c
+M02000019,"\h(《Marco》)Vyse…
+Is it true? Was Valua destroyed by the Rains of 
+Destruction?\e"
+M02000020,"\h(《Marco》)I… I may have hated that place, but it was
+where I grew up…\e"
+M02000021,"\h(《Marco》)…Vyse, let's get going.
+All of those innocent people died… the Armada 
+has to pay for what they've done.\c"
+M14110002,"\h(《Marco》)Hehe! Look at this deck!
+Not bad if I do say so myself!
+I've been working really hard!\c"
+M14110003,"\h(《Marco》)Those Tenkou guys had crazy hair!
+I wonder if all the Air Pirates in this area 
+have hair like that.\e"
+M14110004,"\h(《Marco》)Vyse, you might have had hair like that if you 
+were a pirate from Yafutoma!\c"
+M14110005,"\h(《Marco》)It's been a while since we last came back to 
+Crescent Isle! I wonder if Izmael built 
+anything when we were gone.\c"
+M14110006,"\h(《Marco》)I wonder how cold it is on the continent covered
+with ice… I get a runny nose when it's cold.\c"
+M14110007,"\h(《Marco》)Hey, did that old guy, Drachma, leave already?
+He isn't going to come with us?\c"
+M14110008,"\h(《Marco》)That old man, he was really scary at first but, 
+deep down inside, I think he's really nice.\c"
+M14110009,"\h(《Marco》)When you were rescuing everyone from the 
+Coliseum, he was watching you like you were his 
+kid or something.\c"
+M14110010,"\h(《Marco》)Is it true that we are going back to Valua?
+I don't ever want to go back to that place.\c"
+M14110011,"\h(《Marco》)Hehe! Look at this deck!
+Not bad if I do say so myself!
+I've been working really hard!\c"
+M14110012,"\h(《Marco》)Enrique was here a little earlier… is there 
+something bothering him?\e"
+M14110013,"\h(《Marco》)He looked really sad. I tried talking to him, 
+but he wouldn't answer me. He must be really 
+upset.\c"
+M14110014,\h(《Marco》)I wonder why Enrique is going back to Valua.\c
+M14110015,"\h(《Marco》)I was just sitting here, looking down at Dangral
+Island… wondering when you guys were going to
+come back…\e"
+M14110016,"\h(《Marco》)… then this huge island popped up out of the 
+clouds! I almost wet my pants when I saw it…\c"
+M14110017,"\h(《Marco》)There was this beam of light that shot into the
+sky… Do you know what that was?\e"
+M14110018,\h(《Marco》)It… it seemed like it was aimed above Valua.\c
+M14110019,"\h(《Marco》)Vyse…
+Is it true? Was Valua destroyed by the Rains of
+Destruction?\e"
+M14110020,"\h(《Marco》)I… I may have hated that place, but it was
+where I grew up…\e"
+M14110021,"\h(《Marco》)…Vyse, let's get going.
+All of those innocent people died… the Armada 
+has to pay for what they've done.\c"
+M05210000,"\h(《Tikatika》)This place feels so nice.
+You can see so far.
+I love this place.\c"
+M05210013,"\h(《Tikatika》)Captain, it is an emergency!
+Enemies are boarding our ship!
+You must go to the deck now!\c"
+M05210001,"\h(《Tikatika》)That Tenkou ship flew so high, even above the 
+clouds. Not even I can see it.\c"
+M05210002,"\h(《Tikatika》)I was watching the deck when I saw Enrique and 
+Moegi walking together. They look so happy.\c"
+M05210003,"\h(《Tikatika》)Sometimes when I am watching the deck, Fina 
+comes out alone. She sighs a lot. Is something 
+bothering her?\c"
+M05210004,"\h(《Tikatika》)I have seen Enrique come out onto the deck a lot
+recently. He stares out towards Dangral Island.\e"
+M05210005,"\h(《Tikatika》)You look very sad.
+Did something bad happen down there?\c"
+M05210006,"\h(《Tikatika》)The other night, Enrique came out onto the deck
+with Moegi. She began crying.
+He held her tightly.\e"
+M05210007,"\h(《Tikatika》)After that, I did not watch.
+They needed a private moment. 
+I did not intrude.\c"
+M05210008,"\h(《Tikatika》)It feels good to be above the clouds. I feel at
+home. I shall enjoy being lookout here.\c"
+M05210009,"\h(《Tikatika》)I was watching from up here when that island
+rose up from under the clouds.\e"
+M05210010,"\h(《Tikatika》)The birds and the fish flew away! This can't be
+good!\c"
+M05210011,"\h(《Tikatika》)I… saw.
+Valua was covered in a light… as thousands 
+of stars fell upon it…\c"
+M05210012,"\h(《Tikatika》)Visibility is good… a perfect day for sailing.
+The crew's morale is high! Keep it up, Captain! 
+We can win this!\c"
+M06330000,"\h(《Khazim》)Alright, men! Make sure to load those cannons
+properly! I want those things ready to kick some
+Valuan butt at a moment's notice!\e"
+M06330001,"\h(《Khazim's Men》)Yessir! Right away, sir!\c"
+M06330002,"\h(《Khazim》)What?! You let those Tenkou guys get away?! Bah!
+You guys are useless!\e"
+M06330003,"\h(《Khazim》)Who do they think they are, boarding our ship
+like that?! Next time, we'll put a few holes in
+'em!\c"
+M06330004,"\h(《Khazim》)A continent made of ice?
+Ice is that clear, cold stuff, right?\e"
+M06330005,"\h(《Khazim》)I've heard that the Nasultan loves that stuff…
+I didn't know there was a whole continent made
+of it!\c"
+M06330006,"\h(《Khazim》)Hey, make sure all the cannons are ready to go!
+We're going to be attacking that island soon!\e"
+M06330007,\h(《Khazim's Men》)Yessir!\c
+M06330008,"\h(《Khazim》)Hey, put your backs into it!
+We've got a score to settle with Ramirez!\e"
+M06330009,"\h(《Khazim's Men》)Yessir! Right away, sir!\c"
+M06340000,"\h(《Khazim's Gunner》)Leave the Delphinus' cannons to us, sir!\c"
+M06340001,\h(《Khazim's Gunner》)Who were those guys with the weird hair anyway?\c
+M06340002,"\h(《Khazim's Gunner》)As far as I can see, the whole continent is 
+covered in ice. I wouldn't have imagined this 
+in my wildest dreams.\c"
+M06340003,"\h(《Khazim's Gunner》)We were all pretty surprised when that island 
+just suddenly appeared in Mid Ocean.\c"
+M06340004,"\h(《Khazim's Gunner》)The cannons are in good condition, Captain Vyse.
+We're ready to fire at your command!\c"
+M06350000,"\h(《Khazim's Gunner》)Don't worry Captain, we'll make sure that the 
+cannons are always ready to go!\c"
+M06350001,"\h(《Khazim's Gunner》)It was surprising to find people living on the 
+other side of the Dark Rift… but it was even 
+more surprising when we found Air Pirates too!\c"
+M06350002,"\h(《Khazim's Gunner》)I have never seen ice. The only place in Nasr
+where there is ice is in the Nasultan's private
+ice room. Commoners aren't allowed in there.\c"
+M06350003,"\h(《Khazim's Gunner》)Galcian is somewhere on that island?
+We gotta get 'em!\c"
+M06350004,"\h(《Khazim's Gunner》)Finally we can take revenge for what they did to
+Nasrad! Let's get 'em!\c"
+M08150000,"\h(《Kirala》)We're so lucky that we get to eat in such a 
+beautiful place. I'm sure glad I joined this 
+crew.\c"
+M08150001,"\h(《Kirala》)People used to live on the ice continent?
+Hmmm, I wonder what kind of houses they lived 
+in. They must've been hard to build…\c"
+M08150002,"\h(《Kirala》)Really? They lived in houses made of ice that
+hang from the ceiling? I would've loved to see
+that with my own eyes!\c"
+M08150003,"\h(《Kirala》)You found all of those… what did you call them?
+Moon Crystals? Well, I don't know exactly what
+they are, but congratulations anyway!\c"
+M08150004,"\h(《Kirala》)A platform that goes beneath the clouds?
+They must have some amazing carpenters in
+Valua…\c"
+M08150005,"\h(《Kirala》)I've seen Princess Moegi crying by herself in 
+the hallways…\e"
+M08150006,"\h(《Kirala》)Even though she probably won't cry in front of
+the crew, I bet she's torn apart inside…
+She must really miss Prince Enrique…\c"
+M08150007,"\h(《Kirala》)What?! We are diving to the bottom of the 
+world?! But demons will eat us! Didn't your mom 
+ever tell you that?!\c"
+M08150008,"\h(《Kirala》)Watching that island rise up from beneath the
+clouds was a little freaky…\c"
+M08150009,"\h(《Kirala》)Alright, it's almost time to wrap this all up!
+Let's show them what Yafutoman women are made
+of!\c"
+M08150010,"\h(《Kirala》)I can't believe your ship couldn't fly above
+or below the clouds. That's had to be 
+inconvenient.\c"
+M14010000,"\h(《Izmael》)A continent with a city beneath the ice?
+Unbelievable! I have got to see that!\c"
+M14010001,"\h(《Izmael》)You mean to tell me that in that city of ice,
+the houses were also made of ice and hung from
+the ceilings like icicles?\e"
+M14010002,"\h(《Izmael》)I can't believe it! You should've taken me with
+you! People of the Old World must have been
+great architects…\c"
+M14010003,"\h(《Izmael》)That Book of Ship Polarity had some amazing
+stuff in it… but can you believe Brabham? He's
+still got some brains in that old noggin of his!\e"
+M14010004,"\h(《Izmael》)Thanks to that old fart, this ship is the only
+ship outside of Yafutoma that can fly up above
+the clouds!\c"
+M14010005,"\h(《Izmael》)What's wrong with the prince?
+Has he got a stomach ache or something?\c"
+M14010006,"\h(《Izmael》)When you go down into Deep Sky, make sure to
+shut the pressure shutters.\e"
+M14010007,"\h(《Izmael》)No matter what kind of environment Deep Sky may 
+be, the extra-thick shutters will protect us!\c"
+M14010008,"\h(《Izmael》)I wonder what the architecture of the Great
+Silver Shrine looks like… I'd like to see it
+with you guys…\e"
+M14010009,"\h(《Izmael》)I bet there are tons of old buildings on that 
+strange island. If only I could get a closer 
+look…\e"
+M14010010,"\h(《Izmael》)Great! Now I've gotten myself all excited! 
+Vyse! Hurry up and kick some Valuan butt so 
+we can go check out the architecture!\c"
+M14010011,\h(《Izmael》)We can finally settle this thing!\e
+M14010012,"\h(《Izmael》)I can't believe I'm still out here fighting a
+war at my age! Hah! I'm younger than I thought!\c"
+M14010013,"\h(《Izmael》)When I first met Enrique, all I ever saw him do
+was throw up over the side of the ship. Now he's
+become quite a sailor!\e"
+M14010014,"\h(《Izmael》)I'm impressed that he's got the nerve to go back
+to Valua!\c"
+M14020000,"\h(《Belle》)I'm so sorry, Captain… I, I'm a little clumsy.
+I dropped a cannonball on someone's foot
+earlier, too!\e"
+M14020001,"\h(《Belle》)I'll try my best though! Just give me some 
+orders and I'll try not to mess up!\c"
+M14020002,"\h(《Belle》)I was so surprised to see that the Lands of Ice 
+were actually lands of ice! I almost fell 
+overboard because I was so shocked!\e"
+M14020003,"\h(《Belle》)When I regained my composure, I slipped on the 
+ice and fell on my butt. I think I got some 
+frostbite back there.\c"
+M14020004,"\h(《Belle》)Finally, we're gonna try and make our way 
+underground! I am not sure how well I can do 
+this, but I am going to dig as much as I can!\e"
+M14020005,"\h(《Vyse》)Haha… You don't have to dig!
+There are natural fissures in the ground, so we
+are going to enter there.\e"
+M14020006,"\h(《Belle》)Really? Heh… heh heh… Oh, umm… That's good to
+know. I was wondering how we were going to dig
+through a continent…\c"
+M14020007,"\h(《Belle》)Captain, I think there's something wrong with 
+Fina. She's usually quiet, but not this quiet.\e"
+M14020008,"\h(《Belle》)I hope it's not because I spilled water all over
+her when I tripped over the bucket.\c"
+M14020009,"\h(《Belle》)I tried doing some magic tricks to cheer Enrique
+up, but…\e"
+M14020010,"\h(《Belle》)… he just sat there. He looked really sad. I 
+can't seem to do anything right.\c"
+M14020011,"\h(《Belle》)I'm sure that Moegi has been dying inside ever
+since she found out Enrique was leaving, but…\e"
+M14020012,"\h(《Belle》)… I can't believe she hasn't been crying more.
+She's so disciplined. I wish I could be more
+like her.\c"
+M14020013,"\h(《Belle》)Where'd that island come from?! How can an 
+island just appear out of nowhere?!\e"
+M14020014,"\h(《Belle》)It caught me by surprise and I accidentally 
+knocked over a bunch of cannonballs! 
+Why am I so clumsy?!\c"
+M14020015,"\h(《Belle》)We are finally going to try and attack that 
+island! I know I'm clumsy and I keep messing 
+things up, but…\e"
+M14020016,"\h(《Belle》)I've learned a lot during my time here on the 
+Delphinus! I think I'll be able to do a good 
+job!\c"
+M14090000,"\h(《Lilly》)The Land of Ice… it sounds so romantic.
+I wonder what kind of men lived there?\c"
+M14090001,"\h(《Lilly》)All I ever do is polish cannonballs all day…
+How am I supposed to meet guys when I'm doing
+this all the time?\c"
+M14090002,"\h(《Lilly》)I heard that you found all of those Moon Crystal
+things. Everyone keeps talking about how
+beautiful they are…\e"
+M14090003,"\h(《Lilly》)That's so romantic… I want a man who is willing
+to risk everything to find something as
+beautiful for me…\c"
+M14090004,"\h(《Lilly》)Enrique is going back home and Moegi isn't going
+with him?\e"
+M14090005,"\h(《Lilly》)If I was her, I would never leave the side of 
+the man that I love.\c"
+M14090006,"\h(《Lilly》)Where exactly is Fina's homeland?
+Did you meet her family and stuff?\e"
+M14090007,"\h(《Lilly》)Hmm… I bet you were a little nervous when you 
+went there, huh Vyse? I mean… you and Fina are
+getting kind of close… right?\c"
+M14090008,"\h(《Lilly》)That handsome admiral is staying on that 
+island that came up from Deep Sky?\e"
+M14090009,"\h(《Lilly》)I swear… the best looking ones are always so 
+weird. Why can't I just find a normal guy?\c"
+M14090010,"\h(《Lilly》)Alright, let's do this! Heh… If I become the 
+female pirate who helped save the world,
+the guys won't be able to resist me!\e"
+M14090011,"\h(《Lilly》)I am going to give it my best!
+I know we can do it, Captain Vyse!\c"
+M14100000,"\h(《Nara》)Just sitting here… polishing cannonballs under
+this beautiful sky… it's so relaxing.\c"
+M14100001,"\h(《Nara》)That dragon sure was impressive.
+Was that thing one of those Gigas that you guys
+keep talking about?\c"
+M14100002,"\h(《Nara》)You're going to sneak into a Valuan base and
+steal something? Wow… I'd be so nervous if I
+were you…\c"
+M14100003,"\h(《Nara》)Enrique hasn't been himself lately… 
+Maybe I should ask him to join us out here and 
+have him polish some cannonballs!\c"
+M14100004,"\h(《Nara》)Even though he's in Valua, and she's here, 
+they're both fighting towards the same goal!\e"
+M14100005,"\h(《Nara》)That is so romantic…
+Moegi, just hang in there! Enrique loves you!\c"
+M14100006,"\h(《Nara》)That island gives me the creeps… coming up from
+beneath the clouds like that…\e"
+M14100007,"\h(《Nara》)Personally, I think we should fire a couple of 
+shots at the island, just to be safe.\c"
+M14100008,"\h(《Nara》)Finally, we are going to face off with Ramirez…\e"
+M14100009,"\h(《Nara》)We have enough cannonballs to get us through any
+fight. Make sure and use as many as you can,
+Captain Vyse!\c"
+M14030000,"\h(《Ryu-kan》)I would like you to know that I will be watching
+you to make sure that you are worthy enough for
+me to be on your crew.\e"
+M14030001,"\h(《Ryu-kan》)If I determine that you are not the man that I
+believed you to be initially, I shall
+immediately get off of this ship.\c"
+M14030002,"\h(《Ryu-kan》)It is impressive to see how you have
+incorporated the technologies of Yafutoma to
+improve the mobility of your ship.\e"
+M14030003,"\h(《Ryu-kan》)Perhaps I, too, should learn the ways of the
+western world and further hone my sword forging
+skills!\c"
+M14030004,"\h(《Ryu-kan》)That Prince Enrique… although his eyes are
+filled with an unbearable sadness, they are the
+eyes of a true and noble man.\c"
+M14030005,"\h(《Ryu-kan》)The world beneath the clouds is where horrible
+demons live and is not a place meant for
+people…\c"
+M14030006,"\h(《Ryu-kan》)The day that I devoted my life to my swords, I
+gave up my family and my homeland. Since then, I
+have not returned. I have never looked back.\e"
+M14030007,"\h(《Ryu-kan》)But, had I been as strong as Prince Enrique is
+when I was young, perhaps I could have seen my
+parents once more before they passed away…\c"
+M14030008,"\h(《Ryu-kan》)Do not let your impatience control you, Captain
+Vyse. You have yet to face your worst enemy…\e"
+M14030009,"\h(《Ryu-kan》)Remain calm. If you are not thinking clearly,
+you might make a mistake that will cost you
+your life and the lives of your crew.\c"
+M14030010,\h(《Ryu-kan》)You are truly a man worthy of my devotion.\e
+M14030011,"\h(《Ryu-kan》)I devote my life to you, Captain Vyse. Be it the
+lands of the dead, I shall follow you anywhere.\c"
+M14030012,"\h(《Ryu-kan》)I do not have the confidence in your ability to
+lead. Somewhere in my spirit, I feel a sense of
+hesitation to follow you myself.\e"
+M14030013,"\h(《Ryu-kan》)However, I am a member of your crew.
+And honor binds me to do as you bid.
+You are free to do as you please, Captain Vyse.\c"
+M14040000,"\h(《Robinson》)I didn't think I would live to see blue skies
+ever again… I had almost forgotten how blue the
+skies really were.\e"
+M14040001,"\h(《Robinson》)I left Polly and Anne behind to chase my
+dreams…\e"
+M14040002,"\h(《Robinson》)To be stranded in such a horrible place… to
+lose my memory… I am sure that the Moons were
+punishing me for neglecting my family.\c"
+M14040003,"\h(《Robinson》)I can't believe that I forgot about Polly when I
+had amnesia.\e"
+M14040004,"\h(《Robinson》)But deep down inside, I felt an emptiness in my
+heart. The one thing that filled it, was gone.\c"
+M14040005,"\h(《Robinson》)When I was on Sailors' Island, Polly was the
+only thing that kept me ashore. She was the best
+thing that ever happened to me.\e"
+M14040006,"\h(《Robinson》)And now that my memories have returned to me, I
+will never neglect her again. I'd rather die. I
+now know just how important Polly is to me…\c"
+M14040007,"\h(《Robinson》)A ship capable of going into Deep Sky, huh?
+It reminds me of the days when I challenged the
+Dark Rift…\c"
+M14040008,"\h(《Robinson》)I want the Valuan Admiral who attacked Crescent 
+Island to pay! Polly could have been killed in 
+the attack!\e"
+M14040009,\h(《Robinson》)I cannot afford to lose Polly again…\c
+M14040010,"\h(《Robinson》)Everything that is important to me is from 
+Mid Ocean. Polly, Anne, my tavern… \e"
+M14040011,"\h(《Robinson》)That island appeared right in the middle of it. 
+We've got to destroy it!\c"
+M14040012,"\h(《Robinson》)I cannot say that I am strong enough to save the
+world. I'm not pretending to be a hero either.\e"
+M14040013,"\h(《Robinson》)But, I will fight to the death to protect Polly 
+and Anne… and to protect the world that they 
+live in…\c"
+M14050000,"\h(《Domingo》)Hey, Vyse.
+Making your rounds?
+All clear over here.\e"
+M14050015,"\h(《Domingo》)Heh… The Dark Rift, huh? It makes me feel all
+warm and fuzzy inside just thinking of what kind
+of treasures are hidden in there…\e"
+M14050016,"\h(《Domingo》)Hey, Vyse! Someone is boarding the Delphinus!
+You're the captain around here… Why don't you
+do something?!\e"
+M14050017,"\h(《Domingo》)Why are you wasting your time talking to me? 
+Shouldn't you go and greet your guests? 
+Better yet, beat them senseless.\c"
+M14050018,"\h(《Domingo》)Well, Vyse… We've finally made it to the east.\e"
+M14050019,"\h(《Domingo》)There are probably all sorts of things just
+waiting to be discovered here!\c"
+M14050001,"\h(《Domingo》)Hey, Vyse. I hear that you are going to the Land
+of Ice. You're pretty ambitious. I wouldn't
+expect anything less from you.\e"
+M14050002,"\h(《Domingo》)Explorers from every continent have gone there
+to uncover the treasures of the Old World… 
+None have gotten past the thick layers of ice.\c"
+M14050003,"\h(《Domingo》)Hey, Vyse.
+I hear that this ship can fly to high and low 
+altitudes now.\e"
+M14050004,"\h(《Domingo》)I'm sure I don't need to tell you this, but you 
+should explore as much as you can! I'll bet 
+there are all kinds of discoveries to be made.\c"
+M14050005,"\h(《Domingo》)Hey, Vyse.
+I hear that you are an acquaintance of 
+Captain Gilder.\e"
+M14050006,"\h(《Domingo》)Heh heh… He's a real ladies man. I wonder if he
+is still running from that female pirate.\c"
+M14050007,"\h(《Domingo》)I knew Enrique was a gentleman, but I had no 
+idea he was the Prince of Valua.\e"
+M14050008,"\h(《Domingo》)I heard about someone kidnapping the prince,
+but I had no idea it was you. Nice one…\c"
+M14050009,"\h(《Domingo》)Hey, Vyse.
+How was the Silver Shrine?\e"
+M14050010,"\h(《Domingo》)I'm sorry I missed it. I'm gonna have to borrow
+that ship someday and see it myself.\c"
+M14050011,"\h(《Domingo》)Hey, Vyse.
+We've got a spectacular view of Soltis from 
+here.\e"
+M14050012,"\h(《Domingo》)An entire continent, left undisturbed since 
+the Old World. I'd love to explore it!\c"
+M14050013,"\h(《Domingo》)Hey there, Vyse.
+For some reason, all this talk of saving the 
+world seems to suit you perfectly.\e"
+M14050014,"\h(《Domingo》)I don't consider myself to be much of a hero,
+but things are starting to get interesting
+around here. Maybe I'll stay until the end.\c"
+M14060000,"\h(《Ilchymis》)The Maw of Tartas was discovered 25 years ago by
+a group of Valuan geologists.\e"
+M14060001,"\h(《Ilchymis》)Since then, they have spent ridiculous amounts
+of time and effort to try and break the 
+Great Seal. No one has been successful.\c"
+M14060002,"\h(《Ilchymis》)It appears that all of the Moon Stones that 
+missed the islands have been accumulating
+below the clouds for centuries…\e"
+M14060003,"\h(《Ilchymis》)That would explain the amount of raw energy
+below the clouds… and perhaps it would account
+for the immense pressure in the air…\c"
+M14060004,"\h(《Ilchymis》)There's a legend among the people of Mid Ocean
+that refers to a civilization above the clouds.\e"
+M14060005,"\h(《Ilchymis》)Perhaps they are referring to the Great Silver 
+Shrine.\c"
+M14060006,"\h(《Ilchymis》)I have read stories about the continent that 
+sank beneath the clouds, but…\e"
+M14060007,\h(《Ilchymis》)I never thought that it actually existed.\c
+M14060008,"\h(《Ilchymis》)“The light that brings down the heavens…” I
+read that in a Valuan book of prophecies.
+That light we saw… worries me terribly.\c"
+M14060009,"\h(《Ilchymis》)I ran away from Valua so I could research what I
+wanted to. But this time, I will not run.\e"
+M14060010,"\h(《Ilchymis》)We are going to win this battle and I am going
+to find a place where my research will make a
+difference in this world.\c"
+Mp0040004,"\h(《Enrique》)Esparanza…
+I can't believe we have to go to the southern 
+tip of Nasr… that's awfully far.\e"
+Mp0040005,"\h(《Enrique》)Well, I knew this wasn't going to be easy. 
+I suppose saving the world never is.\c"
+Mp0040006,"\h(《Enrique》)Years ago, Valua sent an entire fleet to try and
+get through the Dark Rift. All of the ships were
+destroyed…\c"
+Mp0040007,"\h(《Enrique》)It's hard to imagine that we just came out of 
+the Dark Rift. These lands are beautiful!\e"
+Mp0040008,"\h(《Enrique》)Congratulations, Vyse! You're the first captain 
+to ever sail his ship through the Dark Rift.\c"
+Mp0040009,\h(《Enrique》)I've never seen a ship rise like that!\e
+Mp0040010,\h(《Enrique》)I wonder what kind of engine it's using…\c
+Mp0040011,"\h(《Enrique》)According to the “Spherical World Theory”, this 
+world is said to be round, but no one has ever 
+proven it.\e"
+Mp0040012,"\h(《Enrique》)If we continue east and see Crescent Isle, 
+then we can actually prove that that theory 
+is correct.\c"
+Mp0040013,"\h(《Enrique》)The Valuan Armada has sent many research groups 
+to the Land of Ice, but…\e"
+Mp0040014,"\h(《Enrique》)They have been unable to break through the ice, 
+so they have never been able to explore what 
+lies beneath it.\c"
+Mp0040015,"\h(《Enrique》)We've acquired the Purple Moon Crystal, and now
+we should head back to Crescent Isle. 
+I do feel bad for Drachma, though…\e"
+Mp0040016,\h(《Enrique》)The continent of Valua is full of canyons.\e
+Mp0040017,"\h(《Enrique》)I assume that there are as many cracks and 
+fissures beneath Valua, as well. There must be 
+a way into the Maw of Tartas.\c"
+Mp0040018,"\h(《Enrique》)Finally, we have gathered all the Moon Crystals.
+Let's return to Crescent Isle.\c"
+Mp0040019,\h(《Enrique》)I wonder what Galcian is up to…\c
+Mp0040020,\h(《Enrique》)…\c
+Mp0040021,"\h(《Enrique》)A design that enables ships to travel into Deep
+Sky… I wonder what the Armada is up to.\c"
+Mp0040022,"\h(《Enrique》)I will miss sailing with you and your crew, 
+Vyse. I hate to admit it, but I'll even miss 
+Aika constantly teasing me, too.\c"
+Mp0040023,"\h(《Enrique》)Well, I will be back… hopefully, soon.\c"
+Mp0040024,"\h(《Enrique》)We've got to stop Ramirez! Vyse, I know we can 
+do it!\c"
+Mp0040025,"\h(《Enrique》)Vyse, will you let me go with you to Soltis?\e"
+Mp0040026,"\h(《What will you say?》)“Of course.”
+“We've got it under control.”\e"
+Mp0040027,"\h(《Vyse》)Of course, you can come with us!
+Without you, we never would have gotten the 
+Delphinus. Let's go!\e"
+Mp0040028,"\h(《Enrique》)Thank you, Vyse!
+It is an honor to accompany you!\e"
+Mp0040029,\h(　)Enrique has joined the party.\c
+Mp0040030,"\h(《Enrique》)Well, just let me know if I can help, and I
+will!\c"
+Mp0030000,"\h(《Drachma》)I can't just sit around and let Valua destroy
+everythin'! I want to help you fight 'em! We've
+come this far, haven't we?\c"
+Mp0030001,"\h(《Drachma》)You're sayin' that we're goin' into that 
+continent? Boy, sometimes I wonder if yer head 
+is a few Moon Stones short.\e"
+Mp0030002,"\h(《Drachma》)But, if you insist on me goin' with you, I will.\e"
+Mp0030003,"\h(《What do you want to do?》)“Yes, it would be great if you came with us.”
+“It's best if you stay here for now.”\e"
+Mp0030004,"\h(《Vyse》)Yes, it would be great if you came with us. 
+We could use that big ol' arm of yours to crack 
+some skulls.\e"
+Mp0030005,"\h(《Drachma》)Hrumph… I guess I'll go with you, boy. I… I
+never though I'd be fightin' with you again…\c"
+Mp0030006,\h(　)Drachma has joined your party.\c
+Mp0030007,"\h(《Drachma》)Hrumph! That's fine with me, boy.
+But, let me know if you change your mind…\c"
+Mp0050000,"\h(《Gilder》)I can't believe they took out Elder Prime right 
+in front of us.\e"
+Mp0050001,"\h(《Gilder》)Now they have all the Crystals. We've got to go 
+to Dangral Island and stop them.\c"
+Mp0050002,"\h(《Gilder》)Great, they got an entire continent with a 
+shield around it as their new base. How are we 
+supposed to stop them now?\c"
+Mp0050003,"\h(《Gilder》)So, Galcian just plans to destroy whatever
+countries he doesn't like, huh? Just like a kid
+throwing a temper tantrum.\e"
+Mp0050004,"\h(《Gilder》)I don't think he's going to stop with Valua.
+He's not going to rest until the whole 
+world gives in to his crazy demands.\c"
+Mp0050005,"\h(《Gilder》)Alright, Vyse! This is it!\c"
+Mp0050006,"\h(《Gilder》)Hey, Vyse.
+You're not thinking of leaving me behind are 
+you? I can't let you have all the fun!\e"
+Mp0050007,"\h(《What to do?》)“C'mon Gilder, let's go!”
+“Sorry, but I need you to stay here.”\e"
+Mp0050008,"\h(《Vyse》)C'mon Gilder, let's go!\e"
+Mp0050009,"\h(《Gilder》)That's what I want to hear!
+Let's go show them what we're made of!\c"
+Mp0050010,\h(　)Gilder has joined the party.\c
+Mp0050011,"\h(《Gilder》)You're breakin' my heart! Alright, I'll stay. 
+Let me know if you need me. Oh, and if Clara 
+asks, you don't know where I am.\c"
+Mh6330000,"\h(《Khazim》)Hey, let's get ready! We gotta knock those 
+Valuan ships out of the sky!\e"
+Mh6330001,"\h(《Khazim's Men》)Alright!
+Let's do it!\c"
+Mh6340000,\h(《Khazim's Gunner》)We'll take care of your cannons for you!\c
+Mh6350000,\h(《Khazim's Gunner》)Don't worry. We're ready!\c
+Mh4110000,"\h(《Marco》)These decks will be so clean, you'll be able to
+eat off of them.\c"
+Mh4110001,"\h(《Marco》)Wow, you have to save 100,000 gold?!
+I have never seen that much money before!\c"
+Mhh020000,"\h(《Fina》)So this is the deck, and above that door is the
+bridge.\c"
+Mhh040000,"\h(《Enrique》)This is the lookout tower. All we need now is a
+competent lookout!\c"
+Mhh040004,"\h(《Enrique》)Ungh…
+I didn't think the Delphinus would rock this 
+much…\c"
+Mhh040001,"\h(《Enrique》)Ungh…
+We must find a way to acquire 100,000 gold 
+before we do anything else.\e"
+Mhh040002,"\h(《Vyse》)Well for you, Enrique, you have to conquer 
+your seasickness first.\e"
+Mhh040003,"\h(《Enrique》)I'm… very sorry about my current… condition.
+I hope that by the time we can gather the money,
+I'll be a better sailor…\c"
+"",me034f.sct
+"",me034d.sct
+"",M0233
+"",m5340000

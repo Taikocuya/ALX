@@ -1,0 +1,701 @@
+[Event Name],Task ID
+MI0140000,"\h(《Brabham》)Welcome home. 
+Well, how do you like what we've done with the
+place?\e"
+MI0140001,"\h(《Vyse》)I have to say that I'm really impressed with
+your work!\e"
+MI0140002,"\h(《Izmael》)Ba ba bam!
+What did you expect from the greatest 
+carpenter that ever lived?\e"
+MI0140003,"\h(《Izmael》)If you keep the gold coming in,
+I'll keep adding on!\e"
+MI0140004,"\h(《Brabham》)I've been busy, too! I made new 
+armor plating for the Delphinus' hull. 
+It's super-sturdy!\e"
+MI0140005,"\h(《Brabham》)After I add it on to your ship, you'll be able
+to fly through those pesky stone reefs without
+a hitch!\e"
+MI0140006,"\h(《Vyse》)Thank you both for everything you've done 
+for us. I would like you both to join my crew 
+on board the Delphinus.\e"
+MI0140007,"\h(《Vyse》)That reminds me… I got this while we were in 
+Yafutoma. Can you do anything with it?\e"
+MI0140008,"\h(《》)You gave the ”Book on Ship Polarity” to Brabham.
+I don't think he's ever been this excited.\e"
+MI0140009,"\h(《Brabham》)Well, shiver me timbers! I've never seen this
+type of technology before in my life!\e"
+MI0140010,"\h(《Brabham》)With this type of engine, you'll be able to fly
+higher than the clouds, and lower than you've
+ever imagined.\e"
+MI0140011,\h(《Brabham》)I'll get started on this baby in a jiffy!\e
+MI0140012,"\h(《Enrique》)Vyse, we should figure out what we're going to
+do next.\e"
+MI0140013,"\h(《Izmael》)I knew someone would say that! That's why I
+built a meeting room into the wall of the cliff.
+You can do all of your planning from there.\e"
+MI0140014,"\h(《Vyse》)You built us a meeting room? Wow… you're great,
+Izmael. Let's go check it out!\e"
+MI0140015,\h(《》)Brabham has joined your crew as an ”Engineer.”\e
+MI0140016,\h(《》)Izmael has joined your crew as a ”Carpenter.”\e
+MI0150000,"\h(《Izmael》)Ba ba bam!
+They're back!!! And the hull seems to be in one
+piece.\e"
+MI0150001,"\h(《Brabham》)Of course it's in once piece! A little ice isn't
+gonna hurt it one bit! \e"
+MI0150002,"\h(《Brabham》)Captain Vyse…
+About that book from Yafutoma…\e"
+MI0150003,"\h(《Brabham》)I built an engine for ya', 
+using the plans in that book.\e"
+MI0150004,"\h(《Brabham》)Until now, you haven't been able to fly above or
+below the clouds because the pressure
+differences were too hard on your engine…\e"
+MI0150005,"\h(《Brabham》)…But now, that's not a problem! \e"
+MI0150006,"\h(《Izmael》)You'll be able to fly over mountains and beneath
+large islands! You'll be flyin' all over the
+damn place.\e"
+MI0150007,"\h(《Vyse》)Really? That's great!
+When can you install it?\e"
+MI0150008,"\h(《Brabham》)I'll install it tomorrow mornin' at the
+crack-a-dawn.\e"
+MI0150009,"\h(《Aika》)With the new engine, we'll be able to travel to
+more places than ever before!\e"
+MI0150010,"\h(《Vyse》)Alright, everyone to the meeting room!
+Let's decide where to go next!\e"
+MJ0030000,"\h(《Gilder》)Hey, Vyse!
+Thanks for the food yesterday! It was delicious!\e"
+MJ0030001,"\h(《Vyse》)Oh, Gilder…
+You're leaving already?\e"
+MJ0030002,"\h(《Gilder》)Yeah, I need to get going… But before I go, I 
+have some news for you… I found out some 
+information on the Armada's latest project…\e"
+MJ0030003,"\h(《Gilder》)I just heard about this the other day…
+It appears that Valua has begun advancing into 
+the lower altitudes…\e"
+MJ0030004,"\h(《Gilder》)I heard that north of Pirate Isle… 
+somewhere beneath the clouds, they're 
+building a base on Dangral Island.\e"
+MJ0030005,"\h(《Gilder》)It's just a rumor, but I heard that they're 
+building a ship that can go into Deep Sky…\e"
+MJ0030006,\h(《Vyse》)Deep Sky?\e
+MJ0030007,"\h(《Gilder》)Yes… beneath the thick layer of clouds… 
+immersed in total darkness… 
+there is a ”bottom” of the world.\e"
+MJ0030008,"\h(《Gilder》)No one has ever seen what's below the clouds… 
+some people say that it's completely dead… \e"
+MJ0030009,\h(《Vyse》)What could they be looking for down there?\e
+MJ0030010,"\h(《Gilder》)I don't know.
+But, Fina's ship sank beneath the clouds, right?\e"
+MJ0030011,"\h(《Vyse》)Hmm… you're right. That must be what they're
+after.\e"
+MJ0030012,"\h(《Vyse》)Thanks, Gilder.
+We'll go check it out.\e"
+MJ0030013,"\h(《Gilder》)You don't need to thank me!
+Good luck, Vyse!\e"
+MJ0100000,"\h(《Brabham》)Oh, Captain Vyse!
+We've finished modifying the Delphinus,
+right on schedule!\e"
+MJ0100001,\h(《Brabham》)Lower the pressure shutters!\e
+MJ0100002,\h(《Brabham》)Start the submergence engine!\e
+MJ0100003,"\h(《Brabham》)Well? What do you think?
+We have successfully converted the Delphinus
+into a cloud-delving machine!\e"
+MJ0100004,"\h(《Aika》)Good job, Brabham!
+Now we'll be able to enter Deep Sky!
+You really are the best!!!\e"
+MJ0100005,"\h(《Brabham》)Why thank you lil' lady… Before you go… 
+I heard there's some sort of vortex 
+near Shrine Island.\e"
+MJ0100006,\h(《Brabham》)You might be able to submerge through there.\e
+MJ0100007,"\h(《Vyse》)The vortex near Shrine Island? Got it.
+Alright, everyone… let's get going!\e"
+MJ0100008,"\h(《Enrique》)Vyse…
+Wait a second.\e"
+MJ0100009,"\h(《Enrique》)Actually…
+There's something important that I wanted to
+talk to you about.\e"
+MJ0100010,"\h(《Enrique》)I… I must return to Valua. I cannot travel with
+you any longer. This will be my last voyage 
+with you aboard the Delphinus.\e"
+MJ0100011,\h(《Vyse》)What?!\e
+MJ0100012,"\h(《Enrique》)Galcian and the Armada have freed themselves 
+from the control of the Valuan Empire and 
+are acting on their own free will.\e"
+MJ0100013,"\h(《Enrique》)Galcian probably has some sort of terrible
+scheme planned.\e"
+MJ0100014,"\h(《Enrique》)I must return to Valua and report this news to
+my mother. He must be stopped.\e"
+MJ0100015,"\h(《Aika》)You… you can't! It's too dangerous, Enrique!\e"
+MJ0100016,"\h(《Enrique》)…I know the dangers that I face.
+And I'm sure that my mother won't readily
+listen to anything I have to say.\e"
+MJ0100017,"\h(《Enrique》)But, I am still the Prince of Valua.
+It is my duty to go.\e"
+MJ0100018,\h(《Moegi》)But… Enrique…\e
+MJ0100019,"\h(《Enrique》)Princess… do not worry about me.
+I don't plan on dying just yet.\e"
+MJ0100020,"\h(《Enrique》)I will…
+I will return. This, I swear.\e"
+MJ0100021,\h(《Moegi》)No………\e
+MJ0100022,"\h(《Enrique》)Vyse, after we get Fina's ship, could you bring 
+me to Sailors' Island?\e "
+MJ0100024,\h(《Enrique》)I'll be able to borrow a ship there… \e
+MJ0100023,\h(《Vyse》)I hope you know what you're doing…\e
+MK0010000,"\h(《Vyse》)Home, sweet home.\e"
+MK0010001,"\h(《Gilder》)Hey!
+Looks like they made it back alive after all!\e"
+MK0010002,"\h(《Clara》)Aika! Fina! Long time no see!
+Hi, Vyse! You all look well.\e"
+MK0010003,"\h(《Vyse》)Gilder…! And Clara?
+It's great to see you two. What's in the basket?\e"
+MK0010004,"\h(《Clara》)I just baked a bunch of pies! 
+Come on! Let's eat while they're still warm!\e"
+MK0010005,"\h(《Aika》)Wow! Really?!
+Home-made pies? Clara, you're the best!\e"
+MK0010006,\h(《Gilder》)I'm glad you all made it back safely.\e
+MK0010007,"\h(《Gilder》)And it looks like you got Fina's ship back.
+Does that mean you'll be returning to the Great
+Silver Shrine soon?\e"
+MK0010008,"\h(《Fina》)…Yes.
+Thank you, Gilder, for all that you've done for
+me.\e"
+MK0010009,"\h(《Gilder》)Hahaha 
+You don't have to thank me, 
+you guys did all the hard stuff.\e"
+MK0010010,"\h(《Gilder》)Well, Fina it looks like you've completed your
+mission. You're going home a hero. 
+Congratulations.\e"
+MK0010011,\h(《Fina》)Thank you!\e
+MK0010012,"\h(《Gilder》)Well since you're leaving us, we should throw 
+you a going away party! Let's hear it for Fina!\e"
+MK0010013,\h(《Everyone》)Yeah!\e
+M00040000,\h(《Pow》)Pow pow!\e
+M01110000,"\h(《Lawrence》)You hired me to do a job. I'm doing the job. 
+I'm not obligated to talk to you when 
+I'm off of your ship.\c"
+M01110001,"\h(《Lawrence》)I've gone against Valua in the past, 
+but never to this degree.\e"
+M01110002,"\h(《Lawrence》)I never question my employer's motives. 
+But don't worry, if I think you're making 
+a mistake, I'll let you know.\c"
+M01110003,\h(《Lawrence》)My contract is just about up.\e
+M01110004,"\h(《Lawrence》)I'm a professional. 
+I do what I have to do.\c"
+M06330000,"\h(《Khazim's men》)Hey, there!\e"
+M06330001,"\h(《Khazim》)Hey, Captain Vyse! 
+Do you want to buy some cannons?\e"
+M06330002,"\h(《What do you want to do?》)”Buy or sell ship equipment.”
+”Talk to Khazim.”
+”Leave.”\e"
+M06330003,"\h(《Khazim》)Two little girls just came in here, 
+and offered to help us.\e"
+M06330004,"\h(《Khazim》)Their leader said that she went to 
+greet the captain, did you see them?\e"
+M06330005,\h(《Khazim》)Come back again!\e
+M06330006,\h(《Khazim's men》)Thank you very much!\e
+M06330007,"\h(《Khazim》)Hey! Make sure you shine those cannons good!
+Those cannons are the heart and soul of the
+Delphinus!\e"
+M06330008,"\h(《Khazim》)My cannons are always ready to go! 
+You never know when you're going 
+to have to blow something up!\c"
+M06330009,"\h(《Khazim》)If I lose a battle, it's not going 
+to be because of a misfire!\c"
+M06330010,"\h(《Khazim》)Hey Vyse, I heard that our next 
+target is Valua!\e"
+M06330011,"\h(《Khazim》)Why don't you stop all this sneaking around 
+stuff? \e"
+M06330012,"\h(《Khazim》)Just blast your way through the bottom 
+of Valua and watch them all fall 
+into Deep Sky… Heh heh.\c"
+M06330013,"\h(《Khazim》)Hey! Make sure you shine those cannons good!
+Those cannons are the heart and soul of the
+Delphinus!\e"
+M06330014,"\h(《Khazim》)Everyone says I shout too much, but I'm much 
+easier to work with than Brabham!\e"
+M06330015,"\h(《Khazim》)You weren't here when we were modifying 
+the Delphinus' engines… Hearing him yell, 
+”Ya got no skills, Sonny!” all day long…\e"
+M06330016,"\h(《Khazim》)Hey! Nobody wins battles with Defense! 
+These cannons need to be ready to go!\e"
+M06330017,"\h(《Khazim》)That Ramirez guy, he destroyed my hometown twice
+already!\e"
+M06330018,\h(《Khazim》)He's gonna pay!!\e
+M06330019,"\h(《Khazim》)We need these cannons ready to go! 
+We've got a war to win!\e"
+M06330020,"\h(《Khazim》)Vyse, I've got a personal score to settle with
+Ramirez. I can't wait until we fight him!\e"
+M06330021,"\h(《Khazim》)The cannons are ready, and so am I!\c"
+M06340000,"\h(《Khazim's men》)If you need something, just ask Khazim!\c"
+M06340001,"\h(《Khazim's men》)Look at this shine! We're gonna blow holes 
+in the Valuan fleet and look good doing it!\e"
+M06340002,"\h(《Khazim's men》)I can't wait to start firing on 
+Valuan ships!\c"
+M06340003,"\h(《Khazim's men》)So we're going to try to sneak into 
+Valua by going underneath it. 
+That's a pretty good idea!\e"
+M06340004,"\h(《Khazim's men》)I hope we have a clean shot at some 
+of their ships while we're there.\c"
+M06340005,"\h(《Khazim's men》)I know we're heading into Deep Sky. 
+There's more air pressure down there. 
+I'll make a few adjustments to the cannons!\c"
+M06340006,"\h(《Khazim's men》)We're sorry, Captain.\e"
+M06340007,"\h(《Khazim's men》)The Armada took us completely by surprise.
+That won't happen again!\c"
+M06340008,"\h(《Khazim's men》)I love the smell of a well-oiled cannon! 
+You'll be able to fire these babies 
+all you want!\c"
+M06350000,"\h(《Khazim's men》)A pretty girl was here just a minute ago. 
+Didn't you see her?\c"
+M06350001,"\h(《Khazim's men》)Vyse, which girl on Clara's ship 
+do you like the best?\e"
+M06350002,"\h(《Khazim's men》)I have a thing for girls who wear glasses… Heh.
+\c"
+M06350003,"\h(《Khazim's men》)We're going to dive under Valua, huh?\e"
+M06350004,"\h(《Khazim's men》)I'm game, as long as I get to shoot at stuff.\c"
+M06350005,"\h(《Khazim's men》)Hey, umm… Vyse, at our last crew meeting, 
+the girl with the glasses made lunch for 
+everyone. That was really nice of her.\e"
+M06350006,"\h(《Khazim's men》)I was just wondering if we could have 
+another meeting.\e"
+M06350007,"\h(《Khazim's men》)So, Ramirez was the one who led the 
+attack on Nasrad…\e"
+M06350008,"\h(《Khazim's men》)I can't wait till we fight him again! 
+I'm gonna shoot him full of holes!\c"
+M06350009,"\h(《Khazim's men》)Vyse, when you go up against Ramirez again, 
+let us know. It's personal!\c"
+M14000000,"\h(《Brabham》)That ”Book of Ship Polarity” is amazin'! 
+I'm learnin' so much!\e"
+M14000001,"\h(《Brabham》)I want to go with you on the Delphinus.
+That way, I can take better care of her on
+a regular basis.\e"
+M14000002,"\h(《Vyse》)So you'll be our onboard engineer? That's great!
+Thanks, Brabham!\e"
+M14000003,"\h(《Brabham》)Well, I'm just happy to be working on such 
+a fine ship! It's great and it's gettin' 
+better every day!\e"
+M14000004,"\h(《Brabham》)I'll have the Delphinus running 
+smoother than ever!\e"
+M14000005,"\h(《》)Brabham has joined your crew as an ”Engineer.”
+And he's mighty good at what he does!\c"
+M14000006,"\h(《Brabham》)If I can successfully build a new engine with
+the book you brought back from Yafutoma, the
+Delphinus will be able to fly to new heights!\e"
+M14000007,"\h(《Brabham》)While you're out on your next voyage, 
+I'll be studyin' and buildin', yes sirree!\c"
+M14000008,"\h(《Brabham》)I've reinforced the armor on the bow of the 
+ship! You'll be able to fly through glaciers 
+like they're nothin'! \e"
+M14000009,"\h(《Brabham》)You'll be able to fly through the 
+stone reefs in Ixa'taka, too! 
+Damn, I'm good!\c"
+M14000010,"\h(《Brabham》)With that new engine we built using
+the ”Book on Ship Polarity,” you can fly the 
+Delphinus above and below the clouds!\e"
+M14000011,"\h(《Brabham》)We can fly all over the damn place! 
+I can't wait!\c"
+M14000012,"\h(《Brabham》)Captain, there were some youngin's 
+looking for you in your meeting room. 
+Did you see them?\c"
+M14000013,"\h(《Brabham》)Captain Vyse, I finished right on time!\e"
+M14000014,"\h(《Brabham》)Now that the Delphinus can submerge, 
+it is the greatest ship in the sky!\c"
+M14000015,\h(《Brabham》)The port and Delfinus★★ were safe.\e
+M14000016,"\h(《Brabham》)The maintenance of the little girl's ship is
+already done but…will everything be okay?\e"
+M14000017,"\h(《Brabham》)Fina's ship is rearin' to go! 
+It's at the cape! \c"
+M14000018,"\h(《Brabham》)Welcome back, Captain!
+The Delphinus and your base 
+are lookin' good!\c"
+M14000019,"\h(《Brahbam》)Some crusty old island just rose out 
+of Deep Sky! What's going on?!\c"
+M14000020,"\h(《Brabham》)The Delphinus is ready when you are!
+You can take her out any time you want!\c"
+M14010000,"\h(《Izmael》)Hi there, Captain!
+I've been busy working on your base! 
+I hope you like it!\e"
+M14010001,"\h(《Vyse》)Thanks, Izmael!
+It looks great! I appreciate 
+all the hard work!\e"
+M14010002,"\h(《Izmael》)I'm glad you know quality when you see it!
+Now that most of the work on the island is
+done…\e"
+M14010003,\h(《Izmael》)I want to sail with you on your ship!\e
+M14010004,"\h(《Vyse》)We'd love to have you! 
+You're an inspiration to us all!\e"
+M14010005,"\h(《Izmael》)Captain Vyse, it's an honor to sail with me!\e"
+M14010006,\h(《》)Izmael has joined your crew as a ”Carpenter.”\e
+M14010007,"\h(《Izmael》)Make sure you use the meeting room that I built
+for you! There isn't a finer meeting room under 
+the Six Moons!\c"
+M14020000,"\h(《Energetic girl》)Nice to meet you!
+You're Captain Vyse, right?\e"
+M14020001,"\h(《Energetic girl》)Captain Clara has ordered me to come aboard
+the Delphinus and train with your crew so I can
+be a better gunner!\e"
+M14020002,"\h(《Energetic girl》)Oh, and my friends Lilly and Nara are 
+coming with me. I hope you don't mind!\e"
+M14020003,"\h(《Energetic girl》)We're a team! We'll take care of your cannons!
+We're gonna knock those Valuans out 
+of the sky!\e"
+M14020004,"\h(《Vyse》)Sure…
+And your name is…?\e"
+M14020005,"\h(《Energetic girl》)Oh, I'm sorry! I forgot! I mean I didn't forget
+my name! I just forgot to tell you! I wouldn't 
+forget my name! That would be silly!\e"
+M14020006,"\h(《Energetic girl》)I'm Belle.
+I don't have much experience with cannons, 
+but I'll try my best!\e"
+M14020007,"\h(《Vyse》)Well, you seem enthusiastic enough.
+I'll give you a chance, and we'll 
+see how you do.\e"
+M14020008,"\h(《Belle》)Yes, sir!
+I will do my best, sir!\e"
+M14020009,\h(《》)Belle has joined your crew as a ”Gunner.”\e
+M14020051,"\h(《Belle》)I'll run a store here on Crescent Isle! 
+If you need anything for your ship, 
+just let me know!\c"
+M14020033,"\h(《Belle》)I'm so sorry! I can't believe the Armada found 
+us. I feel responsible, since I'm a gunner 
+and all… \e"
+M14020034,"\h(《What will you say to Belle?》)”Don't worry about it!”
+”You should have been paying more attention.”\e"
+M14020035,"\h(《Vyse》)Don't worry about it, Belle!
+They caught all of us by surprise. 
+There was nothing you could have done.\e"
+M14020036,"\h(《Vyse》)You shouldn't be too hard on yourself. 
+The important thing is that everyone 
+is okay.\e"
+M14020037,"\h(《Belle》)Yeah, I guess you're right. Well, I should 
+start helping everyone with the base! 
+We'll build it better than before!\e"
+M14020038,"\h(《Vyse》)If you were paying more attention, you might 
+have seen them coming. As your punishment, 
+you have to start cleaning up the debris.\e"
+M14020039,"\h(《Vyse》)I should have been paying more attention too.
+I'll be picking up debris right there with you.
+Sound fair?\e"
+M14020040,"\h(《Belle》)Yes, yessir!
+I'll do my best!\c"
+M14020041,\h(《Belle》)I'm going to work really hard!\c
+M14020010,\h(《Belle》)Welcome Captain.\e
+M14020011,"\h(《What do you want to do?》)”Buy or Sell Ship Equipment”
+”Gossip”
+”Leave”\e"
+M14020012,"\h(《Belle》)Ohhh! I'm such an airhead.
+I gave Brabham the wrong part earlier!
+I hope he realizes it before it's too late…\e"
+M14020013,"\h(《Belle》)I'm not used to running a shop, so I keep making
+all sorts of mistakes. Well… I always make
+mistakes, anyway… but not the shop kind.\e"
+M14020014,"\h(《Belle》)But it's my goal to be able to do something
+without messing it up! That's what I'm here for!
+I'm bound to get something right!\c"
+M14020015,"\h(《Belle》)I'm going to do my best! I want to be an Air 
+Pirate like Captain Clara someday!\c"
+M14020016,"\h(《Belle》)When we go to Valua, I'll shoot down their 
+entire fleet! Bring 'em on! I hope I don't miss 
+too much!\e"
+M14020017,"\h(《Vyse》)Well, actually, we're going to sneak into 
+Valuan airspace by flying under the islands.\e"
+M14020018,"\h(《Belle》)Oh, hehe… Well, I guess that makes more sense 
+than attacking the entire Valuan Armada 
+head on! Good idea, Captain!\e"
+M14020019,"\h(《Belle》)I thought we were going to attack them, 
+so I loaded more than enough cannonballs!
+I even threw in some extra in case I miss.\c"
+M14020020,"\h(《Belle》)Well since we already have enough ammo, maybe we
+should attack them head on! It would be a shame
+just to let all of the cannonballs sit there.\c"
+M14020044,"\h(《Belle》)We're going to Valua, right? Great! I'll get
+my cannons ready and I'll blast those Valuans
+out of…\e"
+M14020045,"\h(《Vyse》)Wait a second… we're not going to launch
+an attack on Valua just yet. We're just trying
+to make our way inland.\e"
+M14020046,"\h(《Belle》)Huh? Oh, my! I'm sorry! I thought… that we… oh
+no… I can't believe how clueless I am.\e"
+M14020047,"\h(《Belle》)And I polished all of the cannonballs nicely,
+too. I was so looking forward to showing
+everyone that I could do a good job. Oh, well…\c"
+M14020048,"\h(《Belle》)Well, although I may have messed up, at
+least we have a bunch of polished cannonballs!
+Please, feel free to use them!\c"
+M14020049,"\h(《Belle》)Really? Using those plans that you found, you
+can make an engine that can take us underneath
+the Great Cloud Sea?!\e"
+M14020050,"\h(《Belle》)That's amazing!
+I may be a little clumsy, but I'll do my best
+to help build the engine, okay?\c"
+M14020021,"\h(《Belle》)We're finally going under the Great Cloud Sea!
+I've been practicing holding my breath! 
+Wanna see?\e"
+M14020022,"\h(《Vyse》)Practicing holding your breath? No, no, no… 
+As long as we're inside the Delphinus,
+we'll be able to breathe normally.\e"
+M14020023,"\h(《Belle》)Oh, is that true?
+I guess that makes sense.\e"
+M14020024,"\h(《Belle》)I thought that we weren't going to have any air,
+so I've been dunking my head in the pond and 
+practicing. How silly of me.\c"
+M14020025,"\h(《Belle》)That's good that we'll be able to breathe down 
+there, because I was the only one practicing 
+holding my breath!\c"
+M14020042,"\h(《Belle》)You're going to the Great Silver Shrine, right!\e"
+M14020043,"\h(《Belle》)We'll have this place looking as good as new, 
+by the time you get back! \c"
+M14020026,"\h(《Belle》)Well, what do you think of the island? I'm 
+still tired from chasing the chickens all over 
+the place.\e"
+M14020027,"\h(《Belle》)And with all of the extra debris, we had a huge 
+bonfire at the pond. We had the best time!\e"
+M14020028,"\h(《Belle》)Oops! I wasn't supposed to say anything 
+about that… Don't tell anyone I told you, okay?
+\c"
+M14020029,"\h(《Belle》)Hehe, please don't tell anyone that you know 
+about the bonfire… \c"
+M14020052,"\h(《Belle》)I can't believe it's almost time for our battle 
+with Galcian… I'm so nervous…\e"
+M14020053,"\h(《Belle》)But, since Captain Clara and the other Air
+Pirates will be fighting alongside of us,
+I'm confident we will win!!\c"
+M14020030,"\h(《Belle》)So, we're going to fight Ramirez! 
+I'll do my best!\e"
+M14020031,"\h(《Belle》)I know I still have a lot to learn, but
+I'm going to do my best against Ramirez!\c"
+M14020032,"\h(《Belle》)Thank you very much!
+Please come again!\e"
+M14090000,"\h(《Lilly》)I'm going to find true love in the skies, 
+just like Captain Clara!\e"
+M14090001,"\h(《Lilly》)I'm going to sail the world and 
+find the cutest guy!\c"
+M14090002,"\h(《Lilly》)Do you think that there are cute guys 
+at the Great Silver Shrine? If there are, 
+would you tell them about me?\c"
+M14090003,"\h(《Lilly》)You're going into Deep Sky? 
+I've heard lots of bad stories about that place.
+Be careful!\e"
+M14090004,"\h(《Lilly》)If there are any guys down there, they're 
+probably all pasty white and cursed. 
+I don't think I'd want a guy from there.\c"
+M14090011,"\h(《Lilly》)We were sitting there at the port, 
+and then there were some explosions!\e"
+M14090012,"\h(《Lilly》)Rocks and stuff started falling, then we 
+smelled the smoke! Belle was so scared, 
+she started crying!\c"
+M14090013,"\h(《Lilly》)You're going to Fina's homeland? Wow! Have fun…
+Umm… If they have fun there. Fina's pretty
+reserved, you know?\c"
+M14090005,"\h(《Lilly》)Oh, Captain Vyse. I was really scared during 
+the battle the other day!\e"
+M14090006,"\h(《Lilly》)But that Admiral, he was good-looking. 
+I love a man in uniform.\e"
+M14090007,"\h(《Lilly》)But guys that kill people don't really do it
+for me. Oh, no offense… I mean, you're one of
+the good guys. I don't like bad people.\c"
+M14090014,"\h(《Lilly》)I see that even you, Captain Vyse, are a little
+nervous about facing off with Galcian.\e"
+M14090015,"\h(《Lilly》)Well, with three beautiful cannon-goddesses
+onboard your ship, you have nothing to worry
+about!\c"
+M14090008,"\h(《Lilly》)So, you're going to fight that good-looking 
+Admiral for Fina, right?\e"
+M14090009,"\h(《Lilly》)Haha, that was just a joke. I was just kidding.\e"
+M14090010,"\h(《Lilly》)Seriously Vyse, lead us to victory! 
+Then we can all come back here and party!!!\c"
+M14100000,"\h(《Nara》)I heard that when Captain Clara was our age, 
+she met Gilder! She met him at a port in his
+hometown.\e"
+M14100001,"\h(《Nara》)She fell madly in love with him. But as fate 
+would have it, Gilder quickly left the city 
+the next day to become an Air Pirate.\e"
+M14100002,\h(《Nara》)I guess it was just bad timing. \c
+M14100003,"\h(《Nara》)Later on, Captain Clara found Gilder's ship! 
+She was so happy!\e"
+M14100004,"\h(《Nara》)She started firing at his ship to get 
+his attention. Gilder fired back. 
+How romantic.\e"
+M14100005,"\h(《Nara》)I really look up to Captain Clara. 
+She's so passionate.\c"
+M14100006,"\h(《Nara》)Captain Gilder must be playing hard to get, 
+because he's been running away from her ever 
+since.\e"
+M14100007,"\h(《Nara》)He should know that he doesn't have to play 
+hard to get to sweep Clara off of her feet.\e"
+M14100008,"\h(《Nara》)Oh, well… love is blind.\c"
+M14100012,"\h(《Nara》)Belle and Lilly were really scared. I think 
+they're okay now.\c"
+M14100013,"\h(《Nara》)You're going to Fina's homeland? 
+Be careful, Captain!\e"
+M14100009,"\h(《Nara》)Captain Clara is searching the globe, so she 
+can make Gilder the world's greatest pie!\e"
+M14100010,"\h(《Nara》)She once attacked Gordo's ship to steal the 
+ultimate pie crust from him.\e"
+M14100011,"\h(《Nara》)I look up to Captain Clara, she is a 
+perfectionist.\c"
+M14100016,"\h(《Nara》)The time has finally come to battle Galcian,
+huh?\e"
+M14100017,"\h(《Nara》)Fighting the Armada… fighting Galcian… it's
+all so exciting!!!\c"
+M14100014,"\h(《Nara》)After we save the world, do you think that guys 
+will be too intimidated to approach me?\e"
+M14100015,"\h(《Nara》)I hope they won't be. I know that there is 
+someone out there… waiting for me.\c"
+Ms017e000,"\h(《ヴァイス》)俺たちの日用品や食料は
+買った品、ぶん盗ってきた品……
+まあ、いろいろだ！\c"
+Ms017e001,"\h(《ヴァイス》)デルフィナスの主砲を
+どかーんとぶっ放すのが
+気分いいんだよなあ……\c"
+Ms017e002,"\h(《ヴァイス》)ペンキの缶が置きっぱなしだ。
+誰だよ、まったく。っていうか
+どこで使ったんだ！\c"
+Ms017e003,"\h(《ヴァイス》)月Ж石は船の食料だ。
+飛ぶのも撃つのも、こいつが
+なけりゃ、話にならん。\c"
+Ms017e004,"\h(《ヴァイス》)誰だあ？　こんなところに
+酒を隠しているのは。
+しかも飲んで減ってるぞ！\c"
+Ms017e005,"\h(《ヴァイス》)空賊島か……
+オヤジが本拠地を持ったのは
+１９歳の時って言ってたかな。\c"
+Ms017e006,"\h(《ヴァイス》)このクレーンのスイッチは
+ブラバム以外がさわると
+すげえ勢いでどなられるんだ。\c"
+Ms017e007,"\h(《ヴァイス》)世界球体説をあらわす天球儀か。
+大地が丸いってのは世界一周した
+今でも、なんか不思議だ。\c"
+Ms017e008,"\h(《ヴァイス》)お、いろいろな船の模型が
+飾ってあるじゃんか。
+俺の部屋にもひとつ欲しいな。\c"
+Ms017e009,"\h(《ヴァイス》)航海の後、ファイナがここで
+お茶をいれてくれる。
+これがけっこううまいんだ。\c"
+Ms017e010,"\h(《ヴァイス》)みんなのカップが置いてある。
+ゲッ、ブラバムの入れ歯洗いまで
+一緒に入ってるぞ。\c"
+Ms017e011,"\h(《ヴァイス》)昨日の掃除当番は誰だ？
+バケツのそこに
+水が入ったまんまじゃないか。\c"
+Ms017e012,"\h(《ヴァイス》)このギターはブラバムのだ。
+スカスカの歯のクセに
+いい声で歌うんだよな〜。\c"
+Ms017e013,"\h(《ヴァイス》)遊び道具が放りこんである。
+よく戦い、よく稼ぎ、よく遊ぶ。
+空賊に遊び心は不可欠なのだ。\c"
+Ms017e014,"\h(《ヴァイス》)いざというときに外さないよう
+常に砲筒の手入れを
+しておかねえとな。\c"
+Ms017e015,"\h(《ヴァイス》)中は工具と……
+うっ、洗っていないタオルを
+放りこむなよな、くさいぞ。\c"
+Ms017e016,"\h(《ヴァイス》)出港の前に
+次の目的地を決めないとな。
+まず作戦室に行こう。\c"
+Ms017e017,"\h(《ブラバム》)うおーい！
+デルフィナスは点検中じゃ！
+まだ出港はできんぞい！\c"
+Ms017e018,"\h(《ヴァイス》)気持ちははやるが
+出航は明日だ。
+今夜はしっかり休息をとろう。\c"
+Ms017e021,"\h(《ヴァイス》)出航するのは、改造作業の結果を
+ブラバムじいさんに
+聞いてからにしておこう。\c"
+Ms017e019,"\h(《さてと……》)「よし、出航するぞ！」
+「もう少し島にいよう」\c"
+Ms017e020,"\h(《ファイナの小型艇だ……》)「銀の大神殿へ行こう」
+「行くのはやめておこう」\c"
+"","\h(《デバッグだよーん》)「さて、クルーの状況を決めるかね
+　まずはベルちゃんかな？」\c"
+"",\h(《ベルちゃんは？》)\e
+"","「いる（乗船中）」
+「いる（下船中）」
+「いない」\e"
+"","\h(《デバッグだよーん》)「ふむ、次は
+　カシムかな？」\c"
+"",\h(《カシムは？》)\e
+"","「いる（乗船中）」
+「いる（下船中）」
+「いない」\e"
+"","\h(《デバッグだよーん》)「ふむふむ、次は
+　パウじゃのう？」\c"
+"",\h(《パウは？》)\e
+"","「いる（乗船中）」
+「いる（下船中）」
+「いない」\e"
+"","\h(《デバッグだよーん》)「次は……
+　ロレンスか？」\c"
+"",\h(《ロレンスは？》)\e
+"","「いる（乗船中）」
+「いる（下船中）」
+「いない」\e"
+"","\h(《デバッグだよーん》)「最後に
+　デルフィナスの状態は？」\c"
+"",\h(《デルフィナスは？》)\e
+"","「衝角あり」
+「なし」\e"
+"","\h(《デバッグの神》)「すべての設定が
+　終わったようじゃの
+　では、はじめるぞよ？」\c"
+"",me017b.sct
+"",me017f.sct
+"",me017b.sct
+"",me017f.sct
+"",a017e_hb.mld
+"",a017e_hc.mld
+"",a017e_ha.mld
+"",a017e_hf.mld
+"",a017e_he.mld
+"",me017h.sct
+"",me017i.sct
+"",me017b.sct
+"",me017f.sct
+"",me017d.sct
+"",a017e_hb.mld
+"",a017e_hc.mld
+"",a017e_ha.mld
+"",a017e_hf.mld
+"",a017e_he.mld
+"",me250a.sct
+"",me250a.sct
+"",M0242
+"",M0243
+"",M5170000
+"",EV_I14発生しました。\c
+"",a017ei14.mld
+"",a017ei14.mld
+"",M0243
+"",e6i014
+"",a017ei14.mld
+"",EV_I15発生しました。\c
+"",a017ei15.mld
+"",a017ei15.mld
+"",M0243
+"",e6i015
+"",a017ei15.mld
+"",EV_J03発生しました。\c
+"",a017ej03.mld
+"",a017ej03.mld
+"",M0312
+"",e6j003
+"",a017ej03.mld
+"",EV_J10発生しました。\c
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",a017ej10.mld
+"",a017ej10.mld
+"",M0329
+"",e6j010
+"",M0311
+"",M0311
+"",a034ab.mld
+"",a034ac.mld
+"",a034ad.mld
+"",a017ej10.mld
+"",K01発生しました。\c
+"",a017ek01.mld
+"",a017ek01.mld
+"",M0243
+"",e6k001
+"",a017ek01.mld

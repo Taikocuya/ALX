@@ -1,0 +1,176 @@
+[Event Name],Task ID
+MA0080000,\h(《Aika》)Hey!\e
+MA0080001,\h(《Aika》)Look! She's coming to…\e
+MA0080002,\h(《Girl》)Wh… where am I?\e
+MA0080003,"\h(《Vyse》)You're aboard our ship, the Albatross.\e"
+MA0080004,"\h(《Vyse》)I'm Vyse.
+Don't worry, there aren't any Valuan troops 
+around, so you'll be safe here.\e"
+MA0080005,"\h(《Girl》)Y… yes.
+Um… thank you very much.\e"
+MA0080006,"\h(《Aika》)Haha… you don't need to thank us!
+The Blue Rogues are always there to help people!\e"
+MA0080007,"\h(《Aika》)My name is Aika. It's nice to meet you. 
+Hey, could you tell us your name?\e"
+MA0080008,\h(《Girl》)My name… my name is Fina.\e
+MA0080009,"\h(《What will you say?》)”That's a great name.”
+”That's a strange name.”
+”So, where are you from, exactly?”\e"
+MA0080010,"\h(《Vyse》)Fina, huh?
+It's a great name… it's so… so feminine.\e"
+MA0080011,\h(《Fina》)R… really? You think so?\e
+MA0080012,"\h(《Vyse》)Geeze, you try and compliment someone… And 
+nothing… No reaction whatsoever.\e"
+MA0080013,"\h(《Aika》)Ahahaha!
+Vyse, that wasn't much of a compliment.
+Looks like you have a lot to learn about women.\e"
+MA0080014,"\h(《Vyse》)Fina, huh?
+That's a strange name.\e"
+MA0080015,"\h(《Fina》)Really?
+Oh… I'm sorry…\e"
+MA0080016,"\h(《Aika》)That was really smooth Vyse.
+Don't you know how to treat a lady?! Sheesh.\e"
+MA0080017,"\h(《Aika》)Didn't Cap'n Dyne teach you that sailors are 
+supposed to be gentlemen?!\e"
+MA0080018,"\h(《Vyse》)Sorry, sorry!
+I didn't mean any harm.\e"
+MA0080019,"\h(《Vyse》)Fina…
+So, where are you from, exactly?\e"
+MA0080020,\h(《Fina》)……\e
+MA0080021,"\h(《Aika》)Vyse!
+She just woke up! You don't need to start 
+interrogating her right away!\e"
+MA0080022,\h(《Aika》)See? Now she's scared.\e
+MA0080023,"\h(《Vyse》)Sorry sorry!
+I didn't mean any harm.\e"
+MA0080024,"\h(《Fina》)Umm… excuse me, but I have a question.
+What exactly is an Air… Air Pirate?\e"
+MA0080025,"\h(《Aika》)What? You were out sailing all by yourself and 
+you don't even know what Air Pirates are?\e"
+MA0080026,"\h(《Fina》)Oh… I…
+I'm sorry… it's my first time traveling.\e"
+MA0080027,"\h(《Vyse》)Basically, Air Pirates are sailors that attack 
+other ships and steal their cargo.\e"
+MA0080028,\h(《Fina》)Attack?!\e
+MA0080029,"\h(《Aika》)Ahaha… you don't have to worry about us.
+We're ”Blue Rogues”.\e"
+MA0080030,"\h(《Aika》)See, Air Pirates are divided into two factions: 
+the Blue Rogues and the Black Pirates.\e"
+MA0080031,"\h(《Aika》)The Black Pirates will attack anything in the 
+sky… especially merchant vessels and unarmed 
+ships.\e"
+MA0080032,"\h(《Aika》)However, we Blue Rogues only take cargo from
+armed ships, especially the Imperial Armada.\e"
+MA0080033,"\h(《Vyse》)We rob from the rich and keep the gold. 
+But, we use the gold to save people that need 
+our help.\e"
+MA0080034,"\h(《Vyse》)That's why we helped you. Don't worry, we aren't
+trying to kidnap you or anything. Just relax and
+enjoy the trip.\e"
+MA0080035,\h(《Fina》)Umm… sure.\e
+MA0080036,"\h(《Dyne》)Vyse, Aika…
+How long are you going to sit there 
+chitchatting? Come to the bridge now.\e"
+MA0080037,"\h(《Aika》)Oh no!
+I completely lost track of time!\e"
+MA0080038,"\h(《Vyse》)Oh well… I guess that means we have to go.
+Alright Fina, we'll see you later!
+Try and get some rest.\e"
+M00070000,"\h(《Briggs the Vice Captain》)Oh, there you are, Vyse. You finally decided to
+join us on the bridge, huh? Well, we're heading
+back home to Pirate Isle.\e"
+M00070001,"\h(《Briggs the Vice Captain》)Pirate Isle is directly East of here. Just
+follow the compass and you should be fine.\e"
+M00070002,\h(《Vyse》)Directly east? Aye aye!\e
+M00070003,"\h(《Briggs the Vice Captain》)Alright, let's get moving, then.
+Full speed ahead to Pirate Isle!\c"
+M00070004,"\h(《Briggs the Vice Captain》)Hey… we haven't reached Pirate Isle yet.
+Return to your post.\e"
+M00070005,"\h(《What will you say to Briggs?》)“Aye aye!”
+“There's something I need to take care of…”\e"
+M00070006,"\h(《Vyse》)Umm… I'll be right back. I promise. I have
+something that I need to take care of first.\e"
+M00070007,"\h(《Briggs the Vice Captain》)Alright, just go then! I have no idea what
+could be so important, but whatever it is,
+just do it quickly and hurry back!\c"
+M00070008,"\h(《Vyse》)Aye aye!
+Alright, let's head back to Pirate Isle!\c"
+M00150000,"\h(《Landis the Navigator》)When you're at the helm, watch out for “sky
+rifts.” They're those really strong downdrafts
+that surround Pirate Isle.\e"
+M00150001,"\h(《Landis the Navigator》)If your engines aren't strong enough and you fly
+into them, the wind will push you down into Deep
+Sky… the pressure down there would crush us.\c"
+M00150002,"\h(《Landis the Navigator》)Steer clear of the sky rifts. If you try and
+power though them, we'll get sucked into
+Deep Sky. But you already knew that, right?\c"
+M00170000,"\h(《Luke the Raider》)Hey, Vyse…
+That raid earlier was pretty good. It's been a
+while since we raided a Valuan ship.\e"
+M00170001,"\h(《Luke the Raider》)If you're wondering what we did with the
+Valuans… Well, when they heard their “fearless
+leader” abandoned ship, they surrendered.\e"
+M00170002,"\h(《Luke the Raider》)Captain Dyne just let them go, though.
+Well, AFTER we took their treasure, of course.
+And there was a lot of it!\e"
+M00170003,"\h(《Luke the Raider》)We'll take what we can, but we only fight when
+we need to. That's what separates us Blue
+Rogues from the Black Pirates!\c"
+M00170004,"\h(《Luke the Raider》)We'll take what we want, but we only fight when
+we need to. That's what separates us Blue
+Rogues from the Black Pirates!\c"
+M00230000,"\h(《Dyne》)You're late, Vyse.
+I told you that you need to be on time for your
+shift.\e"
+M00230001,"\h(《Dyne》)You know the routine. Swab the decks…
+And they better be clean.\e"
+M00230002,"\h(《Vyse》)But… but Dad!!
+I was only a little late!!\e"
+M00230003,"\h(《Dyne》)On a ship, being a little late can cost lives.\e"
+M00230004,"\h(《Dyne》)And one more thing… while we're on board,
+it's not “Dad,” it's “Captain,” got it?\e"
+M00230005,"\h(《Vyse》)Yeah, yeah… I got it.\e"
+M00230006,"\h(《Dyne》)We're heading home to Pirate Isle.
+Go report to Briggs… See if he needs you
+for anything.\c"
+M00230007,"\h(《Dyne》)We're heading home to Pirate Isle.
+Go report to Briggs for your orders.\c"
+M00230008,"\h(《Dyne》)Hey… where are you going? Vyse, you've got work
+to do here on the bridge.\c"
+Mh0020000,"\h(《Vyse》)Are you feeling any better, Fina?
+Oh, and don’t worry… you're free to walk
+around the ship if you want.\e"
+Mh0020001,"\h(《Fina》)Oh, yes. I'm fine.
+Thank you for all that you've done for me.\c"
+Mh0020002,"\h(《Fina》)Thank you for everything that you've done
+for me.\c"
+Ms032a000,"\h(《ヴァイス》)伝声管だ。
+ブリッジにつながっている。\e"
+Ms032a001,"\h(《ダイン》)ヴァイス！
+いつまで油を売ってるんだ！
+早くブリッジに来い！\c"
+Ms032a002,"\h(《ヴァイス》)タルの中にはたっぷりと
+飲料水が入っているんだ。
+長い航海には欠かせないからな。\c"
+Ms032a003,"\h(《ヴァイス》)弾薬が詰まっている。
+誰かが勝手に取ったりすると
+船全体の命取りだ。\c"
+Ms032a004,"\h(《ヴァイス》)大砲だ。
+船についている砲だけでなく
+こいつで応戦することもある。\c"
+Ms032a005,"\h(《ヴァイス》)誰だ？
+こんなところにタルなんか
+置いたヤツは……\c"
+Ms032a006,"\h(《ヴァイス》)このあたりの空……
+オーシャンの地図だ。
+俺たちダイン一家のナワバリさ。\c"
+"",\h(《デバッグなのだ》)\e
+"","「フリー移動」
+「ファイナ目覚めイベント」\e"
+"",M0373
+"",M5320000
+"",a032aa08.mld
+"",a032aa08.mld
+"",M0373
+"",e6a008
+"",a032aa08.mld

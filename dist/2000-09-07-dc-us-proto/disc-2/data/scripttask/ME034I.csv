@@ -1,0 +1,54 @@
+[Event Name],Task ID
+Ms034c000,"\h(《ヴァイス》)やっぱ帆船っていいよなー。
+もちろんデルフィナスも
+かっこいいけどな。\c"
+Ms034c001,"\h(《ヴァイス》)うーん、帆船はいいなあ……って
+船が傾きかけてるときに
+絵を見ていてもしかたない！\c"
+Ms034c002,"\h(《ヴァイス》)商船の並ぶ大きな港町の光景って
+かんじだな。
+船が好きなヤツが書いたのかな。\c"
+Ms034c003,"\h(《ヴァイス》)うーん、いい絵だ。
+……って、のんびりしてる
+場合じゃないな。\c"
+Ms034c004,"\h(《ヴァイス》)今日のオススメは……
+トリ肉のオーシャン風煮込みと
+空の幸のリゾットか……\c"
+Ms034c005,"\h(《ヴァイス》)今日のオススメは……
+カスミゼンマイのたきこみご飯と
+山ガツオのタタキか……\c"
+Ms034c006,"\h(《ヴァイス》)今日の食事当番は……アイカか。
+また缶詰を開けただけだな。
+せめて温めてほしいんだがな〜。\c"
+Ms034c007,"\h(《ヴァイス》)今日の夕飯は……って
+のんきにメニューなんかを
+見てる場合じゃあないな。\c"
+Ms034c008,"\h(《ヴァイス》)また高級品ばっかり並んでるな。
+オスマンってどっからこんなに
+仕入れてくるんだろう？\c"
+Ms034c009,"\h(《ヴァイス》)めちゃめちゃに
+ひっくり返ってんなあ。
+早く船を立て直さなきゃな！\c"
+M01000000,"\h(《Polly》)Vyse! You're the captain around here… Will you 
+do something about this shaking? I can't cook 
+anything if the ship shakes around this much!\e"
+M01000001,"\h(《Polly》)Look at this! I spent all night cooking this 
+soup and now it's all over the place! Can't we 
+fly any smoother than this?\c"
+M04090000,\h(《Kalifa》)Oh blessed Red Moon! Guide this ship to safety…\c
+M06310000,"\h(《Osman》)Oh no oh no oh no!!!
+I'm going to fall!!!
+Somebody help me!!!\c"
+M08030000,"\h(《Urala》)Um… Vyse? The ship's has been shaking an awful 
+lot… and, well, I'm a little scared right now.\c"
+M14030000,"\h(《Ryu-kan》)Whether we sink or survive is all decided by the
+Moons. Our fate is not in our hands. We can do
+naught but sit and wait.\c"
+M14040000,"\h(《Robinson》)This is a horrible fire! Someone should take 
+care of this as soon as possible…\c"
+M14060000,"\h(《Ilchymis》)Something to put out a fire… something to put
+out a fire… Hmm… I seem to recall something
+that could… Wait, let me check my notes first.\c"
+"",me034h.sct
+"",M0233
+"",m5340000

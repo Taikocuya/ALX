@@ -1,0 +1,139 @@
+[Event Name],Task ID
+M01230000,"\h(«Vyse»)…It won't open.
+It feels like something's holding it shut, but
+I can't tell what…\c"
+M01230001,"\h(«Guardian Stone»)Visitor to Glacia…
+Answer my query
+and open your own path…\e"
+M01230002,"\h(«Vyse»)What?!
+Did that rock just say something?!\e"
+M01230003,"\h(«Guardian Stone»)Deep within the Purple Moon Stone lies the power
+to hold the world still. What is this power?\e"
+M01230004,"\h(«What is the Purple Moon Stone's power?»)“The power of Fire.”
+“The power of Ice.”
+“The power of Lightning.”\c"
+M01230005,"\h(«Guardian Stone»)Visitor to Glacia…
+Answer my query
+and open your own path…\e"
+M01230006,"\h(«Guardian Stone»)The Purple Crest hides a certain number.
+What is that number?\c"
+M01230007,"\h(«What number is hidden in the Crest?»)“Maybe two?”
+“Maybe four?”
+“Maybe six?”\c"
+M01230008,"\h(«Guardian Stone»)Visitor to Glacia…
+Answer the last query
+and open your own path…\e"
+M01230009,"\h(«Guardian Stone»)Purple Moon Stones affect the abilities
+of living things.\e"
+M01230010,"\h(«Guardian Stone»)What are the abilities most valued
+by the people of Glacia?\e"
+M01230011,"\h(«Which abilities?»)“Power and courage.”
+“Will and spirit.”
+“Life and healing.”\c"
+M01230012,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MS01230000,"\h(«Vyse»)…… No se abre.
+Parece que hay algo sujetándola, no sé qué puede
+ser……\c"
+MS01230001,"\h(«Piedra Vigilante»)Visitante de Glacia……
+Responde a mi acertijo
+y abre tu propio sendero……\e"
+MS01230002,"\h(«Vyse»)¡¿Cómo?!
+¿Esa roca acaba de hablar?!\e"
+MS01230003,"\h(«Piedra Vigilante»)Dentro de la Luna Púrpura yace el poder de
+paralizar el mundo. ¿Cuál es este poder?\e"
+MS01230004,"\h(«¿Cuál es el poder de la Luna Púrpura?»)“El poder del Fuego.”
+“El poder del Hielo.”
+“El poder del Rayo.”\c"
+MS01230005,"\h(«Piedra Vigilante»)Visitante de Glacia……
+Responde a mi acertijo
+y abre tu propio sendero……\e"
+MS01230006,"\h(«Piedra Vigilante»)El Escudo Púrpura oculta una cifra.
+¿Qué número?\c"
+MS01230007,"\h(«¿Qué cifra se oculta en el Escudo?»)“¿Quizá dos?”
+“¿Quizá cuatro?”
+“¿Quizá seis?”\c"
+MS01230008,"\h(«Piedra Vigilante»)Visitante de Glacia……
+Responde al último acertijo
+y abre tu propio sendero……\e"
+MS01230009,"\h(«Piedra Vigilante»)La Piedras Púrpuras afectan a los atributos
+de los seres vivos.\e"
+MS01230010,"\h(«Piedra Vigilante»)¿Cuáles son las cualidades más apreciadas
+por los habitantes de Glacia?\e"
+MS01230011,"\h(«¿Qué cualidades?»)“Poder y coraje.”
+“Voluntad y espíritu.”
+“Vida y curación.”\c"
+MS01230012,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un poco más.”\c"
+MF01230000,"\h(«Vyse»)……Elle ne veut pas s'ouvrir.
+On dirait que quelque chose l'empêche de
+s'ouvrir, mais je ne sais pas ce que c'est……\c"
+MF01230001,"\h(«Gardien de la Pierre»)Visiteur de Glacia……
+Répondez à ma question
+et ouvrez votre chemin……\e"
+MF01230002,"\h(«Vyse»)Comment ?!
+Est-ce que ce roc a parlé ?!\e"
+MF01230003,"\h(«Gardien de la Pierre»)Le pouvoir de garder le monde immobile est
+enfoui dans la Pierre de Lune Mauve.
+Quel est ce pouvoir ?\e"
+MF01230004,"\h(«Quel est ce pouvoir ?»)“Le pouvoir du Feu.”
+“Le pouvoir de la Glace.”
+“Le pouvoir de l'Éclair.”\c"
+MF01230005,"\h(«Gardien de la Pierre»)Visiteur de Glacia……
+Répondez à ma question
+et ouvrez votre chemin……\e"
+MF01230006,"\h(«Gardien de la Pierre»)Les Armoiries Mauves cachent un certain nombre.
+Quel est ce nombre ?\c"
+MF01230007,"\h(«Quel est le nombre caché dans les Armoiries ?»)“Peut-être deux ?”
+“Peut-être quatre ?”
+“Peut-être six ?”\c"
+MF01230008,"\h(«Gardien de la Pierre»)Visiteur de Glacia……
+Répondez à ma question
+et ouvrez votre chemin……\e"
+MF01230009,"\h(«Gardien de la Pierre»)Les Pierres de Lune Mauve affectent les
+capacités des êtres vivants.\e"
+MF01230010,"\h(«Gardien de la Pierre»)Quelles sont les capacités les plus prisées des
+habitants de Glacia ?\e"
+MF01230011,"\h(«Quelles capacités ?»)“Pouvoir et courage.”
+“Volonté et Esprit.”
+“Vie et Guérison.”\c"
+MF01230012,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MG01230000,"\h(«Vyse»)……Sie geht nicht auf.
+Es fühlt sich so an, als ob sich irgendetwas
+dagegen stemmt, aber ich weiß nicht, was……\c"
+MG01230001,"\h(«Stein am Eingang»)Besucher in Glacia……
+Beantworte meine Frage, und
+öffne dir selbst den Weg……\e"
+MG01230002,"\h(«Vyse»)Was?!
+Hat dieser Felsen gerade gesprochen?!\e"
+MG01230003,"\h(«Stein am Eingang»)Tief im Innern des Purple Moon Stone liegt
+die Kraft vergraben, die die Welt anhalten
+kann. Was ist das für eine Kraft?\e"
+MG01230004,"\h(«Was ist die Kraft des Purple Moon Stone?»)“Die Kraft des Feuers.”
+“Die Kraft des Eises.”
+“Die Kraft des Blitzes.”\c"
+MG01230005,"\h(«Stein am Eingang»)Besucher in Glacia……
+Beantworte meine Frage, und
+öffne dir selbst den Weg……\e"
+MG01230006,"\h(«Stein am Eingang»)Im Purple Crest ist eine bestimmte
+Zahl versteckt. Welche ist das?\c"
+MG01230007,"\h(«Welche Zahl versteckt sich in dem Wappen?»)“Vielleicht zwei?”
+“Vielleicht vier?”
+“Vielleicht sechs?”\c"
+MG01230008,"\h(«Stein am Eingang»)Besucher in Glacia……
+Beantworte meine Frage, und
+öffne dir selbst den Weg……\e"
+MG01230009,"\h(«Stein am Eingang»)Purple Moon Stones beeinflussen die Fähigkeiten
+von Lebewesen.\e"
+MG01230010,"\h(«Stein am Eingang»)Welches sind die Fähigkeiten, die das Volk
+von Glacia am meisten schätzt?\e"
+MG01230011,"\h(«Welche Fähigkeiten?»)“Kraft und Mut.”
+“Wille und Geist.”
+“Leben und Heilen.”\c"
+MG01230012,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Noch eine Weile hierbleiben.”\c"
+"",me123b.sct
+"",me123d.sct
+"",M0254
+"",m5230000

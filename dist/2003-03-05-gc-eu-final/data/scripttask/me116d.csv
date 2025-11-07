@@ -1,0 +1,878 @@
+[Event Name],Task ID
+MC0020000,"\h(«Ramirez»)Lord Galcian. Your Admirals have assembled…
+As you have commanded.\e"
+MC0020001,\h(«Galcian»)Excellent.\e
+MC0020002,"\h(«Galcian»)Admirals of the Valuan Armada…
+Let me first offer my gratitude to each of you 
+for assembling on such short notice…\e"
+MC0020003,"\h(«Galcian»)Let it be known that we have successfully 
+captured a citizen of the Silver Civilization, 
+as Empress Teodora requested.\e"
+MC0020004,\h(«Old Admiral»)What?! How?!\e
+MC0020005,"\h(«Large Admiral»)So, we've finally captured one…
+Who accomplished this?\e"
+MC0020006,"\h(«Alfonso»)Hah hah hah…
+Of course, I was the one to find her first…\e"
+MC0020007,"\h(«Alfonso»)I crippled her ship and captured her. But I was 
+betrayed by my own Vice Captain and she was 
+taken from me…\e"
+MC0020008,"\h(«Gregorio»)I'm sure Empress Teodora is very pleased that 
+she was recovered.\e"
+MC0020009,"\h(«Gregorio»)Now, if we can persuade her to give us the 
+information we need, it would be worth all of 
+the effort we spent tracking her down.\e"
+MC0020010,"\h(«Vigoro»)You said that the citizen of the Silver 
+Civilization that you found was a woman?! Now 
+THAT'S something worth getting excited over.\e"
+MC0020011,"\h(«Vigoro»)How old is she? Is she good looking? 
+Does she wear leather?
+I like my women wild and crazy!\e"
+MC0020012,"\h(«Belleza»)You're out of luck, Vigoro.
+The girl is the exact opposite. 
+She's very shy and demure.\e"
+MC0020013,"\h(«Belleza»)Her name is Fina.
+She is currently being escorted to see Empress 
+Teodora in the Imperial Palace.\e"
+MC0020014,"\h(«De Loco»)Hehehehehe…
+Very good, Admiral Belleza. I see that you are 
+our espionage expert for good reasons.\e"
+MC0020015,"\h(«De Loco»)Of course, being the head of weapon development,
+I have a deeply vested interest in the 
+technology of the Silver Civilization! Hehehe!\e"
+MC0020016,"\h(«Galcian»)I will head back to the Imperial Palace and 
+await Empress Teodora's orders to commence the 
+search for the Moon Crystals.\e"
+MC0020017,"\h(«Galcian»)Fina, our new… ally, shall aid us in gathering 
+all six of the Crystals from around the world.\e"
+MC0020018,\h(«Galcian»)… As for you… Alfonso.\e
+MC0020019,"\h(«Galcian»)You lied in your report.
+And as punishment, you are now relieved of your
+position as Commander of the Mid Ocean Fleet.\e"
+MC0020020,"\h(«Galcian»)And for an indefinite period of time, you shall
+be confined to Ixa'taka.\e"
+MC0020021,"\h(«Alfonso»)Y… you think that I lied in my report, sire?
+Ha… haha… w… what are you talking about?\e"
+MC0020022,"\h(«Galcian»)You were attacked by the Air Pirates and you 
+deserted your crew and your ship to save 
+yourself.\e"
+MC0020023,"\h(«Galcian»)Your ship and your crew were released by the Air
+Pirates and returned recently. 
+They filed a full… and ACCURATE… report.\e"
+MC0020024,\h(«Alfonso»)Bah…\e
+MC0020025,"\h(«Galcian»)Our Armada is invincible.
+Showing any signs of weakness is unforgivable. 
+I trust that you will not forget that.\e"
+MC0020026,"\h(«Galcian»)This meeting is over.
+I want all of you to be ready to depart at a
+moment's notice.\e"
+MC0020027,"\h(«Valuan Admirals»)Yes, Lord Galcian!\e"
+MFC0020000,"\h(«Ramirez»)Seigneur Galcian. Vos Amiraux se sont
+rassemblés…… Selon vos ordres.\e"
+MFC0020001,\h(«Galcian»)Excellent.\e
+MFC0020002,"\h(«Galcian»)Amiraux de l'Armada Valuan……
+Tout d'abord, je souhaite exprimer ma gratitude
+à chacun d'entre vous pour vous être rassemblés
+en si peu de temps……\e"
+MFC0020003,"\h(«Galcian»)Sachez que nous avons réussi à capturer une
+citoyenne de la Civilisation d'Argent, sur ordre
+de l'Impératrice Teodora.\e"
+MFC0020004,\h(«Vieil Amiral»)Quoi ?! Comment ?!\e
+MFC0020005,"\h(«Gros Amiral»)Alors, nous en avons enfin capturé une……
+Qui a réussi cet exploit ?\e"
+MFC0020006,"\h(«Alfonso»)Hah hah hah……
+Bien sûr, c'est moi qui l'ai trouvée en
+premier……\e"
+MFC0020007,"\h(«Alfonso»)Je l'ai capturée après avoir endommagé son
+navire. Mais mon propre Vice Capitaine m'a trahi
+et les pirates l'ont emmenée……\e"
+MFC0020008,"\h(«Gregorio»)Je suis certain que l'Impératrice Teodora est
+ravie qu'elle ait été retrouvée.\e"
+MFC0020009,"\h(«Gregorio»)Maintenant, si nous pouvons la persuader de nous
+donner les informations dont nous avons besoin,
+nous n'aurons pas perdu notre temps en la
+cherchant.\e"
+MFC0020010,"\h(«Vigoro»)Vous dites que le citoyen de la Civilisation
+d'Argent que vous avez capturé est une femme ?!
+Ah en VOILÀ une bonne nouvelle.\e"
+MFC0020011,"\h(«Vigoro»)Quel âge a-t-elle ?  Elle est belle ?
+Elle s'habille en cuir ?
+J'aime les femmes sauvages et folles !\e"
+MFC0020012,"\h(«Belleza»)Tu n'as pas de chance, Vigoro.
+Cette fille est tout le contraire.
+Elle est très timide et réservée.\e"
+MFC0020013,"\h(«Belleza»)Elle s'appelle Fina.
+En ce moment même, elle est escortée vers le
+Palais Impérial pour voir l'Impératrice Teodora.\e"
+MFC0020014,"\h(«De Loco»)Héhéhéhéhé……
+Parfait, Amiral Belleza. Je vois que vous n'êtes
+pas notre expert en espionnage pour rien.\e"
+MFC0020015,"\h(«De Loco»)Bien sûr, en tant que chef du développement des
+armes, je porte un vif intérêt à la technologie
+de la Civilisation d'Argent ! Héhéhé !\e"
+MFC0020016,"\h(«Galcian»)Je vais retourner au Palais Impérial et
+j'attendrai les ordres de l'Impératrice Teodora
+pour entamer les recherches des Cristaux de
+Lune.\e"
+MFC0020017,"\h(«Galcian»)Fina, notre nouvelle…… alliée, nous aidera à
+trouver les six Cristaux.\e"
+MFC0020018,\h(«Galcian»)…… Quant à vous…… Alfonso.\e
+MFC0020019,"\h(«Galcian»)Vous avez menti dans votre rapport.
+Et votre sanction consiste à être relevé de vos
+fonctions de Commandant de la Flotte Océan.\e"
+MFC0020020,"\h(«Galcian»)Et vous serez consigné à Ixa'taka pendant une
+période indéterminée.\e"
+MFC0020021,"\h(«Alfonso»)V… vous pensez que j'ai menti dans mon rapport,
+Sire ?
+Ha…… haha…… de…… de quoi parlez-vous ?\e"
+MFC0020022,"\h(«Galcian»)Vous avez été attaqué par les Pirates de l'Air
+et vous avez déserté votre équipage et votre
+navire pour sauver votre vie.\e"
+MFC0020023,"\h(«Galcian»)Les Pirates de l'Air ont libéré votre navire et
+votre équipage qui est revenu récemment.
+Ils ont rédigé un rapport… complet…… et PRÉCIS.\e"
+MFC0020024,\h(«Alfonso»)Bah……\e
+MFC0020025,"\h(«Galcian»)Notre Armada est invincible.
+Il est impardonnable de montrer des signes de
+faiblesse. Je suis certain que vous ne
+l'oublierez pas.\e"
+MFC0020026,"\h(«Galcian»)Cette réunion est terminée.
+Je veux que vous soyez tous prêts à partir à
+tout moment.\e"
+MFC0020027,"\h(«Amiraux Valuan»)Oui, Seigneur Galcian !\e"
+MGC0020000,"\h(«Ramirez»)Lord Galcian. Ihre Admirale sind versammelt……
+Wie Sie befohlen haben.\e"
+MGC0020001,\h(«Galcian»)Ausgezeichnet.\e
+MGC0020002,"\h(«Galcian»)Admirale der Valuan Armada……
+Darf ich jedem von Ihnen zuerst meinen Dank
+dafür aussprechen, dass Sie sich so kurzfristig
+zu einem Treffen bereit gefunden haben……\e"
+MGC0020003,"\h(«Galcian»)Hiermit möchte ich bekannt geben, dass wir
+eine Bürgerin der Silver Civilization in
+Gewahrsam genommen haben, wie von Kaiserin
+Teodora angeordnet.\e"
+MGC0020004,\h(«Alter Admiral»)Was?! Wie?!\e
+MGC0020005,"\h(«Großer Admiral»)Wir haben endlich einen gefangen genommen……
+Wer hat das vollbracht?\e"
+MGC0020006,"\h(«Alfonso»)Hahaha……
+Ich habe sie natürlich zuerst gefunden……\e"
+MGC0020007,"\h(«Alfonso»)Ich habe ihr Schiff lahm gelegt und sie gefangen
+genommen. Aber ich bin von meinem eigenen Vize-
+kapitän betrogen worden, der sie mir wegnahm……\e"
+MGC0020008,"\h(«Gregorio»)Ich bin sicher, Kaiserin Teodora ist sehr froh
+darüber, dass sie wiedergefunden wurde.\e"
+MGC0020009,"\h(«Gregorio»)Wenn wir sie jetzt noch davon überzeugen
+könnten, uns die gewünschte Information zu
+geben, würde das die ganze Mühe wettmachen, die
+uns ihre Gefangennahme gekostet hat.\e"
+MGC0020010,"\h(«Vigoro»)Sie sagten, dass das gefundene Mitglied der
+Silver Civilization eine Frau sei?! DAS ist nun
+wirklich etwas, über das man sich freuen kann.\e"
+MGC0020011,"\h(«Vigoro»)Wie alt ist sie? Sieht sie gut aus?
+Kleidet sie sich in Leder? Ich mag meine
+Frauen wild und verrückt!\e"
+MGC0020012,"\h(«Belleza»)Da hast du Pech, Vigoro.
+Das Mädchen ist genau das Gegenteil.
+Sie ist schüchtern und zurückhaltend.\e"
+MGC0020013,"\h(«Belleza»)Ihr Name ist Fina.
+Sie wird gerade zur Kaiserin Teodora im
+Imperial Palace gebracht.\e"
+MGC0020014,"\h(«De Loco»)Hiihihihi……
+Sehr gut, Admiral Belleza. Wie ich sehe, sind
+Sie aus guten Gründen unser Spionage-Experte.\e"
+MGC0020015,"\h(«De Loco»)Als Chef der Waffenentwicklung habe ich
+natürlich großes Interesse an der Technologie
+der Silver Civilization! Hihihi!\e"
+MGC0020016,"\h(«Galcian»)Ich werde mich zurück zum Imperial Palace
+begeben und Kaiserin Teodoras Anordnungen in
+Bezug auf die Suche nach den Moon Crystals
+abwarten.\e"
+MGC0020017,"\h(«Galcian»)Fina, unsere neue…… Verbündete, wird uns dabei
+helfen, alle sechs Kristalle auf der ganzen
+Welt einzusammeln.\e"
+MGC0020018,\h(«Galcian»)…… Was dich betrifft……  Alfonso.\e
+MGC0020019,"\h(«Galcian»)In deinem Bericht hast du gelogen. Und zur
+Strafe wirst du deiner Position als Kommandeur
+der Ocean Fleet enthoben.\e"
+MGC0020020,"\h(«Galcian»)Und für unbestimmte Zeit nach Ixa'taka
+verbannt.\e"
+MGC0020021,"\h(«Alfonso»)Sie…… Sie meinen, ich habe in meinem Bericht
+gelogen, mein Herr? Ha…… haha……
+wovon sprechen Sie?\e"
+MGC0020022,"\h(«Galcian»)Du wurdest von den Luftpiraten angegriffen, und
+du hast deine Mannschaft und dein Schiff
+aufgegeben, um dich selbst zu retten.\e"
+MGC0020023,"\h(«Galcian»)Dein Schiff und deine Mannschaft wurden vor
+kurzem von den Luftpiraten auf freien Fuß
+gesetzt. Sie haben einen vollständigen -- und
+GENAUEN -- Bericht abgeliefert.\e"
+MGC0020024,\h(«Alfonso»)Bah…\e
+MGC0020025,"\h(«Galcian»)Unsere Armada ist unbesiegbar.
+Schwäche zu zeigen, ist unverzeihlich.
+Ich hoffe, dass du das nie vergessen wirst.\e"
+MGC0020026,"\h(«Galcian»)Die Versammlung ist aufgehoben.
+Ich möchte, dass Sie sich alle für einen
+schnellen Aufbruch bereit halten.\e"
+MGC0020027,"\h(«Valua-Admirale»)Jawohl, Lord Galcian!\e"
+MSC0020000,"\h(«Ramírez»)Lord Galcian. Sus Almirantes se han reunido……
+tal y como había ordenado.\e"
+MSC0020001,\h(«Galcian»)Excelente.\e
+MSC0020002,"\h(«Galcian»)Almirantes de la Armada de Valua……
+Antes de nada, les agradezco que hayan
+acudido con tan poco tiempo……\e"
+MSC0020003,"\h(«Galcian»)Hemos logrado capturar a una ciudadana de la
+Civilización de Plata, siguiendo los deseos de
+la Emperatriz Teodora.\e"
+MSC0020004,\h(«Viejo Almirante»)¡¿Qué?!¡¿Cómo?!\e
+MSC0020005,"\h(«Almirante Gordo»)Así que por fin hemos atrapado a uno……
+¿Quién lo ha conseguido?\e"
+MSC0020006,"\h(«Alfonso»)Ja, ja, ja……
+Lógicamente, yo fui el primero en encontrarla……\e"
+MSC0020007,"\h(«Alfonso»)Destruí su navío y la hice prisionera. Pero mi
+propio Vicecapitán me traicionó y se la llevó……\e"
+MSC0020008,"\h(«Gregorio»)Seguro que la Emperatriz Teodora está encantada
+de que hayamos recuperado a la prisionera.\e"
+MSC0020009,"\h(«Gregorio»)Si además podemos convencerla de que nos cuente
+lo que necesitamos saber, todo el esfuerzo por
+encontrarla habrá valido la pena.\e"
+MSC0020010,"\h(«Vigoro»)¡¿Dices que el ciudadano de la Civilización de
+Plata que capturaste es una mujer?! ESO sí que
+es emocionante.\e"
+MSC0020011,"\h(«Vigoro»)¿Cuántos años tiene? ¿Es guapa?
+¿Lleva ropa de cuero?
+¡Me gustan las mujeres salvajes e impredecibles!\e"
+MSC0020012,"\h(«Belleza»)No es tu día de suerte, Vigoro.
+La chica es justo lo contrario.
+De lo más tímida y formal.\e"
+MSC0020013,"\h(«Belleza»)Se llama Fina.
+En este momento la están escoltando hasta el
+Palacio Imperial para ver a la Emperatriz
+Teodora.\e"
+MSC0020014,"\h(«De Loco»)Jejejeje……
+Muy bien, Almirante Belleza. Ahora veo por qué
+eres nuestra experta en espionaje.\e"
+MSC0020015,"\h(«De Loco»)Lógicamente, como responsable del desarrollo
+armamentístico, tengo un enorme interés en la
+tecnología de la Civilización de Plata.
+¡Je, je, je!\e"
+MSC0020016,"\h(«Galcian»)Volveré al Palacio Imperial y estaré a la espera
+de las órdenes de la Emperatriz Teodora para
+empezar la búsqueda de los Cristales Lunares.\e"
+MSC0020017,"\h(«Galcian»)Fina, nuestra nueva…… aliada, nos ayudará a
+reunir los seis Cristales repartidos por todo el
+mundo.\e"
+MSC0020018,\h(«Galcian»)……En cuanto a ti…… Alfonso.\e
+MSC0020019,"\h(«Galcian»)Presentaste un informe falso.
+Y como castigo, te relevaré de tu puesto de
+Comandante de la Flota del Océano.\e"
+MSC0020020,"\h(«Galcian»)Y por tiempo indefinido, serás confinado a
+Ixa'taka.\e"
+MSC0020021,"\h(«Alfonso»)¿Cree…… cree que mentí en mi informe, señor?
+Ja…… ja…… ja…… ¿de qué…… de qué está hablando?\e"
+MSC0020022,"\h(«Galcian»)Cuando los Piratas Aéreos os atacaron,
+abandonaste a tu tripulación y navío para salvar
+tu pellejo.\e"
+MSC0020023,"\h(«Galcian»)Tu navío y tripulación fueron liberados por los
+Piratas Aéreos y regresaron hace poco. Han
+elaborado un informe completo…… y FIDEDIGNO.\e"
+MSC0020024,\h(«Alfonso»)Bah……\e
+MSC0020025,"\h(«Galcian»)Nuestra Armada es invencible.
+Mostrar la más mínima señal de debilidad es
+imperdonable.
+Confío en que no lo olvidaréis.\e"
+MSC0020026,"\h(«Galcian»)La reunión ha terminado.
+Quiero que todo el mundo esté listo para partir
+de inmediato.\e"
+MSC0020027,"\h(«Almirantes Valuan»)¡Sí, Lord Galcian!\e"
+MG0080000,\h(«Fina»)Ramirez…\e
+MG0080001,\h(«Ramirez»)……\e
+MG0080002,"\h(«Fina»)Ramirez… why?
+Why are you fighting for the Valuans?\e"
+MG0080003,"\h(«Fina»)What about our orders? 
+What about the Elders?\e"
+MG0080004,\h(«Ramirez»)……\e
+MG0080005,"\h(«Valuan Soldier»)Lord Ramirez, it's an emergency!!\e"
+MG0080006,"\h(«Valuan Soldier»)One of our cannons exploded and the entire deck
+is on fire. But no enemy shells hit that area.\e"
+MG0080007,"\h(«Ramirez»)Find out the cause of the fire and report back
+to me. In the meantime, stop firing and set the
+fortress in defensive mode.\e"
+MG0080008,"\h(«Ramirez»)There are only two or three ships attacking. 
+Their effect on the wall will be minimal.\e"
+MG0080009,"\h(«Valuan Soldier»)Yes, sir!\e"
+MG0080010,"\h(«Ramirez»)I fight for Lord Galcian. 
+That is all you need to know.\e"
+MG0080011,\h(«Fina»)Ramirez…\e
+MFG0080000,\h(«Fina»)Ramirez……\e
+MFG0080001,\h(«Ramirez»)…………\e
+MFG0080002,"\h(«Fina»)Ramirez…… pourquoi ?
+Pourquoi vous battez-vous pour les Valuans ?\e"
+MFG0080003,"\h(«Fina»)Que faites-vous de notre mission ?
+Que faites-vous des Anciens ?\e"
+MFG0080004,\h(«Ramirez»)…………\e
+MFG0080005,"\h(«Soldat Valuan»)Seigneur Ramirez, alerte !!\e"
+MFG0080006,"\h(«Soldat Valuan»)Un de nos canons a explosé et tout le pont est
+en feu. Mais aucun boulet ennemi n'est tombé à
+cet endroit.\e"
+MFG0080007,"\h(«Ramirez»)Déterminez la cause du feu et revenez me faire
+un rapport. En attendant, éteignez le feu et
+déployez les défenses de la forteresse.\e"
+MFG0080008,"\h(«Ramirez»)Il n'y a que deux ou trois navires qui nous
+attaquent.
+Ils n'auront guère d'impact sur la muraille.\e"
+MFG0080009,"\h(«Soldat Valuan»)À vos ordres, Amiral !\e"
+MFG0080010,"\h(«Ramirez»)Je me bats pour le Seigneur Galcian.
+C'est tout ce que vous avez besoin de savoir.\e"
+MFG0080011,\h(«Fina»)Ramirez……\e
+MGG0080000,\h(«Fina»)Ramirez……\e
+MGG0080001,\h(«Ramirez»)……\e
+MGG0080002,"\h(«Fina»)Ramirez…… warum?
+Warum stehst du auf der Seite der Valuaner?\e"
+MGG0080003,"\h(«Fina»)Was ist mit unseren Befehlen?
+Was ist mit den Elders?\e"
+MGG0080004,\h(«Ramirez»)……\e
+MGG0080005,"\h(«Valua-Soldat»)Lord Ramirez, ein Ausnahmezustand!!\e"
+MGG0080006,"\h(«Valua-Soldat»)Eine unserer Kanonen ist explodiert, und das
+ganze Deck steht in Flammen. Obwohl es in dem
+Bereich keinen Feindbeschuss gab.\e"
+MGG0080007,"\h(«Ramirez»)Geh der Ursache des Feuers nach und erstatte
+mir Bericht. Stellt unterdessen das Feuer ein
+und versetzt die Festung in
+Verteidigungsbereitschaft.\e"
+MGG0080008,"\h(«Ramirez»)Es sind nur zwei oder drei Schiffe am Angriff
+beteiligt. Sie werden die Mauer nur
+geringfügig beschädigen können.\e"
+MGG0080009,"\h(«Valua-Soldat»)Jawohl, Sir!\e"
+MGG0080010,"\h(«Ramirez»)Ich kämpfe für Lord Galcian.
+Das solltest du wissen.\e"
+MGG0080011,\h(«Fina»)Ramirez……\e
+MSG0080000,\h(«Fina»)Ramírez……\e
+MSG0080001,\h(«Ramírez»)……\e
+MSG0080002,"\h(«Fina»)Ramírez…… ¿por qué?
+¿Por qué luchas del lado de los Valuan?\e"
+MSG0080003,"\h(«Fina»)¿Y nuestras órdenes?
+¿Qué pasa con los Ancianos?\e"
+MSG0080004,\h(«Ramírez»)……\e
+MSG0080005,"\h(«Soldados Valuan»)¡¡Lord Ramírez, es una emergencia!!\e"
+MSG0080006,"\h(«Soldados Valuan»)Uno de nuestros cañones ha explotado y todo el
+embarcadero está ardiendo. Pero ningún disparo
+enemigo ha llegado a la zona.\e"
+MSG0080007,"\h(«Ramírez»)Descubre la causa del fuego y me informas.
+Mientras tanto, deja de disparar y aplica los
+planes de defensa en la fortaleza.\e"
+MSG0080008,"\h(«Ramírez»)Sólo hay dos o tres navíos atacando. Su efecto
+sobre la muralla va a ser muy leve.\e"
+MSG0080009,"\h(«Soldados Valuan»)¡Sí, señor!\e"
+MSG0080010,"\h(«Ramírez»)Lucho para Lord Galcian.
+No necesitas saber más.\e"
+MSG0080011,\h(«Fina»)Ramírez……\e
+MG0090000,"\h(«Vyse»)Fina! 
+We came to get you out of here.\e"
+MG0090001,\h(«Fina»)Vyse!\e
+MG0090002,"\h(«Vyse»)We got here as soon as we found out where you
+were. Are you okay?\e"
+MG0090003,"\h(«Fina»)Yes… I am… 
+Thank you…\e"
+MG0090004,"\h(«Fina»)It's strange…
+The first time you rescued me from
+the train, I was really surprised to see you.\e"
+MG0090005,"\h(«Fina»)But this time, I knew that you would come for
+me. I knew you would find me.\e"
+MG0090006,"\h(«Vyse»)Hahaha…
+Oh Fina, after all we've been through together…\e"
+MG0090007,"\h(«Vyse»)I swear on my oath as a Blue Rogue that I will
+do everything in my power to keep you safe.\e"
+MG0090008,\h(«Fina»)… I know…\e
+MG0090009,"\h(«Gilder»)Heh…
+Good one, Vyse, I didn't know you were so 
+smooth with the ladies.\e"
+MG0090010,"\h(«Gilder»)Getting jealous, Aika? I bet you wish that Vyse
+would say stuff like that to you.\e"
+MG0090011,"\h(«Aika»)I don't need to hear him say those things.
+I know he would do the same for me.\e"
+MG0090012,"\h(«Aika»)Whenever I'm in trouble, I have faith that Vyse
+will always be there to save me. He already
+saved me once today.\e"
+MG0090013,\h(«Gilder»)Heh… Good point.\e
+MG0090014,"\h(«Gilder»)Can we save the mushy stuff for later? We just
+broke out of prison, and we're still in Valua.\e"
+MG0090015,"\h(«Vyse»)Alright.
+But, how exactly are we going to get out of
+here?\e"
+MG0090016,"\h(«Gilder»)Well, since we're in the Grand Fortress, there
+should be Valuan ships docked all over the
+place. We can borrow one of those.\e"
+MG0090017,"\h(«Gilder»)We should be able to reach the docks from the
+bottom floors of the fortress. We'll have to
+backtrack a little, but we should be okay.\e"
+MG0090018,"\h(«Vyse»)So, we'll take the elevator back down and look
+for a ship. Alright! Let's go!\e"
+MG0090019,\h( )Fina has joined your party.\e
+MFG0090000,"\h(«Vyse»)Fina !
+Nous sommes venus te sauver.\e"
+MFG0090001,\h(«Fina»)Vyse !\e
+MFG0090002,"\h(«Vyse»)Nous sommes venus dès que nous avons su où ils
+te gardaient. Tout va bien ?\e"
+MFG0090003,"\h(«Fina»)Oui…… Je……
+Merci……\e"
+MFG0090004,"\h(«Fina»)C'est étrange……
+La première fois que tu m'as sauvée dans le
+train, j'étais vraiment surprise de te voir.\e"
+MFG0090005,"\h(«Fina»)Mais cette fois, je savais que tu viendrais me
+chercher. Je savais que tu me retrouverais.\e"
+MFG0090006,"\h(«Vyse»)Hahaha……
+Oh Fina, après tout ce que nous avons vécu
+ensemble……\e"
+MFG0090007,"\h(«Vyse»)Je jure par mon serment de Voleur Bleu que je
+ferai tout ce qui est en mon pouvoir pour te
+protéger.\e"
+MFG0090008,\h(«Fina»)…… Je sais……\e
+MFG0090009,"\h(«Gilder»)Hé……
+Joli, Vyse, je ne savais pas que tu étais un
+gentleman.\e"
+MFG0090010,"\h(«Gilder»)Jalouse, Aika ? Je parie que tu aimerais bien
+que Vyse te parle ainsi.\e"
+MFG0090011,"\h(«Aika»)Il n'a pas besoin de me le dire.
+Je sais qu'il ferait la même chose pour moi.\e"
+MFG0090012,"\h(«Aika»)Je sais que Vyse viendra toujours à mon secours
+si je suis en danger. Il m'a déjà sauvé la vie
+une fois.\e"
+MFG0090013,\h(«Gilder»)Hé…… C'est juste.\e
+MFG0090014,"\h(«Gilder»)Bon, vous pouvez arrêter d'être sentimentaux ?
+Nous venons juste de nous évader, mais nous
+sommes encore à Valua.\e"
+MFG0090015,"\h(«Vyse»)D'accord.
+Mais, comment allons-nous sortir d'ici ?\e"
+MFG0090016,"\h(«Gilder»)Eh bien, puisque nous sommes dans la Grande
+Forteresse, il devrait y avoir des navires
+Valuans à quai un peu partout. Nous pouvons en
+emprunter un.\e"
+MFG0090017,"\h(«Gilder»)Nous devrions pouvoir accéder aux docks depuis
+les sous-sols de la forteresse. Il faudra un peu
+rebrousser chemin, mais cela devrait être bon.\e"
+MFG0090018,"\h(«Vyse»)Alors, nous prendrons l'ascenseur pour descendre
+et chercherons un navire. Allez ! Partons !\e"
+MFG0090019,\h( )Fina s'est jointe à vous.\e
+MGG0090000,"\h(«Vyse»)Fina!
+Wir sind gekommen, dich hier rauszuholen.\e"
+MGG0090001,\h(«Fina»)Vyse!\e
+MGG0090002,"\h(«Vyse»)Wir sind sofort gekommen, als wir wussten, wo du
+bist. Geht es dir gut?\e"
+MGG0090003,"\h(«Fina»)Ja…… tut es.
+Danke dir……\e"
+MGG0090004,"\h(«Fina»)Seltsam……
+Das erste Mal, als du mich aus der Straßenbahn
+gerettet hast, war ich wirklich überrascht,
+dich zu sehen.\e"
+MGG0090005,"\h(«Fina»)Aber diesmal wusste ich, dass du kommen würdest,
+um mich zu holen. Ich wusste, du würdest mich
+finden.\e"
+MGG0090006,"\h(«Vyse»)Hahaha……
+Oh Fina, wir haben schon so viel zusammen
+durchgemacht……\e"
+MGG0090007,"\h(«Vyse»)Ich schwöre bei meiner Ehre als Blue Rogue,
+dass ich alles in meiner Macht Stehende tun
+werde, damit dir nichts zustößt.\e"
+MGG0090008,\h(«Fina»)…… Ich weiß……\e
+MGG0090009,"\h(«Gilder»)He……
+Nicht schlecht, Vyse, ich wusste ja gar nicht,
+dass du so charmant mit den Damen umgehen
+kannst.\e"
+MGG0090010,"\h(«Gilder»)Wirst du langsam eifersüchtig, Aika? Ich wette,
+du wünschst dir, dass Vyse manchmal so was zu
+dir sagt.\e"
+MGG0090011,"\h(«Aika»)Wegen mir braucht er solche Sachen nicht
+zu sagen. Ich weiß, dass er dasselbe für mich
+tun würde.\e"
+MGG0090012,"\h(«Aika»)Immer wenn ich in Schwierigkeiten bin, vertraue
+ich darauf, dass Vyse da sein wird, um mich zu
+retten. Er hat mich heute schon einmal gerettet.\e"
+MGG0090013,\h(«Gilder»)He…… auch wieder wahr.\e
+MGG0090014,"\h(«Gilder»)Können wir uns dieses sentimentale Gerede für
+später aufsparen? Wir sind gerade aus dem
+Gefängnis geflohen, und wir sind noch immer
+in Valua.\e"
+MGG0090015,"\h(«Vyse»)In Ordnung.
+Aber wie kommen wir hier eigentlich wieder raus?\e"
+MGG0090016,"\h(«Gilder»)Wir sind in der Grand Fortress -- eigentlich
+müsste es doch hier von valuanischen Schiffen
+wimmeln.
+Wir können uns ja eines davon ausleihen.\e"
+MGG0090017,"\h(«Gilder»)Wir müssten die Docks von den unteren
+Geschossen der Festung aus erreichen können.
+Wir müssen wieder ein Stück zurück,
+aber es wird schon gehen.\e"
+MGG0090018,"\h(«Vyse»)Also, fahren wir mit dem Lift hinunter und
+schauen uns nach einem Schiff um. Ok! Gehen wir!\e"
+MGG0090019,\h( )Fina ist zu deiner Gruppe gestoßen.\e
+MSG0090000,"\h(«Vyse»)¡Fina!
+Hemos venido a sacarte de aquí.\e"
+MSG0090001,\h(«Fina»)¡Vyse!\e
+MSG0090002,"\h(«Vyse»)Hemos venido en cuanto supimos que estabas aquí.
+¿Te encuentras bien?\e"
+MSG0090003,"\h(«Fina»)Sí…… Estoy……
+Gracias……\e"
+MSG0090004,"\h(«Fina»)Es muy raro……
+La primera vez que me rescataste del tren, me
+sorprendí mucho de verte.\e"
+MSG0090005,"\h(«Fina»)Pero esta vez sabía que vendrías a por mí.
+Sabía que me encontrarías.\e"
+MSG0090006,"\h(«Vyse»)Jajaja……
+Oh Fina, después de todo lo que hemos pasado
+juntos……\e"
+MSG0090007,"\h(«Vyse»)Juro por mis votos de Bandido Azul que haré todo
+lo que esté en mis manos para que estés siempre
+a salvo.\e"
+MSG0090008,\h(«Fina»)…… Lo sé……\e
+MSG0090009,"\h(«Gilder»)Eh……
+Muy bueno, Vyse, no sabía yo que se te daban tan
+bien las damas.\e"
+MSG0090010,"\h(«Gilder»)¿No tienes celos, Aika? Seguro que te gustaría
+que Vyse te dijera esas cosas a ti también.\e"
+MSG0090011,"\h(«Aika»)No hace falta que me lo diga.
+Sé que él haría lo mismo por mí.\e"
+MSG0090012,"\h(«Aika»)Siempre que tengo un problema, sé que puedo
+contar con la ayuda de Vyse. Ya lo ha hecho
+hoy.\e"
+MSG0090013,\h(«Gilder»)Eh…… Tienes toda la razón.\e
+MSG0090014,"\h(«Gilder»)¿No puedes dejar el sentimentalismo para luego?
+Acabamos de escapar de la cárcel y aún estamos
+en Valua.\e"
+MSG0090015,"\h(«Vyse»)Muy bien.
+Pero, ¿cómo vamos a arreglárnoslas para salir de
+aquí?\e"
+MSG0090016,"\h(«Gilder»)Bueno, estamos en la Gran Fortaleza, así que
+debe haber navíos Valuan por todos lados.
+Podemos tomar uno prestado.\e"
+MSG0090017,"\h(«Gilder»)Podemos llegar al embarcadero desde la parte
+trasera de la fortaleza. Tendremos que
+retroceder un poco, pero no habrá problema.\e"
+MSG0090018,"\h(«Vyse»)Cogeremos un ascensor para volver abajo y
+buscaremos un barco. ¡Muy bien! ¡Vamos allá!\e"
+MSG0090019,\h( )Fina se ha unido al grupo.\e
+MG0320000,"\h(«Vyse»)…Huh? I can hear someone talking on the other
+side of this door.\e"
+MG0320001,"\h(«Ramirez»)Everyone, remain calm.
+The Grand Fortress isn't about to crumble under
+the firepower of a few ships.\e"
+MG0320002,"\h(«Ramirez»)Anyone who deserts his post will have to deal
+with me personally.\e"
+MG0320003,"\h(«Valuan Soldier»)Yes, Admiral Ramirez!\e"
+MG0320004,"\h(«Ramirez»)I will go investigate the cause of the 
+explosion. Two of you stay here and 
+guard the girl. The rest of you, follow me.\e"
+MG0320005,\h(«Valuan Soldier»)Yes!!!\e
+MFG0320000,"\h(«Vyse»)……Hein ? J'entends quelqu'un parler de l'autre
+côté de cette porte.\e"
+MFG0320001,"\h(«Ramirez»)Que tout le monde garde son calme.
+La Grande Forteresse ne va pas s'effondrer sous
+la puissance de feu d'une poignée de navires.\e"
+MFG0320002,"\h(«Ramirez»)Tous ceux qui désertent leurs postes auront à
+faire à moi.\e"
+MFG0320003,"\h(«Soldat Valuan»)Oui, Amiral Ramirez !\e"
+MFG0320004,"\h(«Ramirez»)Je vais aller enquêter sur la cause de
+l'explosion. Deux d'entre vous restent ici pour
+garder la fille. Les autres, suivez-moi.\e"
+MFG0320005,\h(«Soldat Valuan»)Oui !!!\e
+MGG0320000,"\h(«Vyse»)……Huch? Ich höre hinter
+dieser Tür jemanden sprechen.\e"
+MGG0320001,"\h(«Ramirez»)Bewahrt alle Ruhe.
+Die Grand Fortress wird nicht gleich durch die
+Feuerkraft von ein paar Schiffen einstürzen.\e"
+MGG0320002,"\h(«Ramirez»)Jeder, der seinen Posten verlässt, muss mit
+mir persönlich rechnen.\e"
+MGG0320003,"\h(«Valua-Soldat»)Jawohl, Admiral Ramirez!\e"
+MGG0320004,"\h(«Ramirez»)Ich werde den Grund der Explosion ergründen
+gehen. Zwei von euch bleiben hier und bewachen
+das Mädchen. Der Rest folgt mir.\e"
+MGG0320005,\h(«Valua-Soldat»)Jawohl!!!\e
+MSG0320000,"\h(«Vyse»)…… ¿Eh? Se oyen ruidos al otro lado de esta
+puerta.\e"
+MSG0320001,"\h(«Ramírez»)Que todo el mundo conserve la calma.
+La Gran Fortaleza no va a caer destrozada por
+las balas de unos cuantos navíos.\e"
+MSG0320002,"\h(«Ramírez»)Si alguien abandona su puesto tendrá que
+vérselas conmigo personalmente.\e"
+MSG0320003,"\h(«Soldados Valuan»)¡Sí, Almirante Ramírez!\e"
+MSG0320004,"\h(«Ramírez»)Me marcho a averiguar el motivo de la explosión.
+Dos de vosotros os quedáis aquí con la chica.
+Todos los demás, seguidme.\e"
+MSG0320005,\h(«Soldados Valuan»)¡¡¡Sí!!!\e
+M01160000,"\h(«Vyse»)There isn't even a pillow. Well, I suppose these
+beds are meant for prisoners, so there's no
+reason for them to make the beds comfortable…\c"
+M01160001,"\h(«Vyse»)It's disturbing to think of how many people
+probably died in this prison… Or… even… in
+this bed…\c"
+M01160002,"\h(«Vyse»)The only thing I can see from here is the
+dark skies of Valua…\c"
+M01160003,"\h(«Vyse»)There's two beds, but…
+Where's Fina?\e"
+M01160004,"\h(«Aika»)I don't know. They split us up before we even
+got here… I've been alone the whole time…
+Well, until macho-man came along, that is…\e"
+M01160005,"\h(«Vyse»)It's the same kind of bed that Gilder and I had.
+I guess the Valuans don't believe in treating
+ladies like ladies…\c"
+M01160006,"\h(«Vyse»)This is probably the area right
+above our own cell…\c"
+M01160007,"\h(«Vyse»)…Damn. It won't open.
+It's locked.\c"
+M01160008,\h( )Used the “Cannon Room Key” to open the door.\c
+M01160009,"\h(«An elevator switch…»)“Prisoner Block 200      2nd Floor”
+“Fortress Cannon Room   Battery 28”
+“Don't get on the elevator.”\c"
+M01160010,"\h(«An elevator switch…»)“Prisoner Block 100      1st Floor”
+“Fortress Cannon Room   Battery 28”
+“Don't get on the elevator.”\c"
+M01160011,"\h(«An elevator switch…»)“Prisoner Block 200      2nd Floor”
+“Prisoner Block 100      1st Floor”
+“Don't get on the elevator.”\c"
+M01160012,"\h(«Vyse»)…Nope, it won't open.
+The “Cannon Room Key” won't work either.
+I guess we need a different key…\c"
+M01160013,\h( )Used the “Harbor Key” to open the door.\c
+M01160014,"\h(«Vyse»)Great… This door's locked.
+And it doesn't look like there's a keyhole…\e"
+M01160015,"\h(«Gilder»)It probably leads towards the center of the
+Fortress. I don't know about you, but I'd rather
+get out of here than go exploring. Let's go.\c"
+M01160016,"\h(«Gilder»)It probably leads towards the center of the
+Fortress. We're probably better off not going
+that way. Let's look somewhere else.\c"
+M01160017,"\h(«Vyse»)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01160018,"\h(«Gilder»)Heh… Good job guys. Looks like my crew is
+causing quite a commotion. It should be enough
+for us to sneak out of here…\c"
+M01160019,"\h(«Vyse»)…Hm?
+This switch isn't doing anything.\e"
+M01160020,"\h(«Gilder»)This elevator is probably stuck on another floor
+or somebody else might already be inside it.
+Let's not stick around to find out which, okay?\c"
+M01160021,\h(«Aika»)Aaaaaaaaaaaaaaaaack!\e
+M01160022,\h(«Vyse»)… Hey! That sounded like Aika!!\c
+M01160023,"\h(«Vigoro»)Ugh… That hurt, Red…\c"
+M01160024,"\h( )You found the “Harbor Key” in the pocket
+of the Valuan Soldier.\c"
+MF01160000,"\h(«Vyse»)Il n'y a même pas d'oreiller. Bon, je suppose
+que ce sont des lits de prisonniers, donc il n'y
+a pas de raison pour qu'ils soient
+confortables……\c"
+MF01160001,"\h(«Vyse»)C'est perturbant de penser à tous les gens qui
+ont dû mourir dans cette prison…… Ou…… même……
+dans ce lit……\c"
+MF01160002,"\h(«Vyse»)Je ne peux voir que les cieux noirs de Valua
+d'ici……\c"
+MF01160003,"\h(«Vyse»)Il y a deux lits, mais……
+Où est Fina ?\e"
+MF01160004,"\h(«Aika»)Je ne sais pas. Nous avons été séparés avant de
+venir ici…… J'étais toute seule pendant tout ce
+temps…… Euh, jusqu'à ce que monsieur macho
+arrive, évidemment……\e"
+MF01160005,"\h(«Vyse»)C'est le même genre de lit que Gilder et moi
+avions. J'imagine que les Valuans ne traitent
+pas les dames comme il se doit……\c"
+MF01160006,"\h(«Vyse»)C'est sûrement l'endroit
+juste au-dessus de notre cellule……\c"
+MF01160007,"\h(«Vyse»)……Sacrebleu. Ça ne s'ouvre pas.
+C'est fermé à clé.\c"
+MF01160008,"\h( )La “Clé Pièce Canon” a été utilisée pour
+ouvrir la porte.\c"
+MF01160009,"\h(«Un bouton d'ascenseur……»)“Bloc Prisonnier 200      2e étage”
+“Pièce au Canon de la Forteresse   Batterie 28”
+“Ne montez pas dans l'ascenseur.”\c"
+MF01160010,"\h(«Un bouton d'ascenseur……»)“Bloc Prisonnier 100      1er étage”
+“Pièce au Canon de la Forteresse   Batterie 28”
+“Ne montez pas dans l'ascenseur.”\c"
+MF01160011,"\h(«Un bouton d'ascenseur……»)“Bloc Prisonnier 200      2e étage”
+“Bloc Prisonnier 100      1er étage”
+“Ne montez pas dans l'ascenseur.”\c"
+MF01160012,"\h(«Vyse»)……Non, impossible de l'ouvrir.
+La “Clé Pièce Canon” ne marche pas non
+plus. J'imagine qu'il nous faut une clé
+différente……\c"
+MF01160013,"\h( )La “Clé du Port” a été utilisée pour ouvrir la
+porte.\c"
+MF01160014,"\h(«Vyse»)Génial…… Cette porte est fermée à clé.
+Et on dirait qu'il n'y a pas de serrure……\e"
+MF01160015,"\h(«Gilder»)Cela mène certainement au centre de la
+Forteresse. Je ne sais pas ce que vous en
+pensez, mais je préfère partir d'ici que d'aller
+explorer. Allons-y.\c"
+MF01160016,"\h(«Gilder»)Cela mène certainement au centre de la
+Forteresse. Il vaut mieux ne pas passer par là.
+Allons voir ailleurs.\c"
+MF01160017,"\h(«Vyse»)Apparemment, il faut marcher sur cette tablette
+pour ouvrir la porte. Je crois que je dois
+rester debout ici pendant un certain temps……\c"
+MF01160018,"\h(«Gilder»)Hé…… Bon travail les gars. On dirait que mon
+équipage a semé la panique. Cela devrait nous
+permettre de partir en douce……\c"
+MF01160019,"\h(«Vyse»)……Hum ?
+Ce bouton ne sert pas à grand chose.\e"
+MF01160020,"\h(«Gilder»)Cet ascenseur doit être coincé à un autre étage
+ou quelqu'un est peut-être déjà à l'intérieur.
+Partons avant de le découvrir, OK ?\c"
+MF01160021,\h(«Aika»)Aaaaaaaaaaaaaaaaack !\e
+MF01160022,\h(«Vyse»)…… Hé ! On aurait dit Aika !!\c
+MF01160023,"\h(«Vigoro»)Ugh…… Ça fait mal, la Rouquine……\c"
+MF01160024,"\h( )Vous avez trouvé la “Clé du Port” dans la poche
+du soldat Valuan.\c"
+MG01160000,"\h(«Vyse»)Da ist noch nicht einmal ein Kopfkissen.
+Na ja, diese Betten sind wohl für
+Gefangene gedacht, warum sollten sie dann
+bequem sein……\c"
+MG01160001,"\h(«Vyse»)Ziemlich beunruhigend, wenn man daran denkt,
+wie viele Leute wahrscheinlich in diesem
+Gefängnis umgekommen sind…… Oder…… sogar……
+in diesem Bett……\c"
+MG01160002,"\h(«Vyse»)Das Einzige, was ich von hier aus sehen kann,
+ist der dunkle Himmel von Valua……\c"
+MG01160003,"\h(«Vyse»)Da sind zwei Betten, aber……
+Wo ist Fina?\e"
+MG01160004,"\h(«Aika»)Ich weiß nicht. Wir wurden getrennt, noch bevor
+wir hierher kamen…… ich war die ganze Zeit
+über allein…… das heißt, bis dieser Macho
+hereinkam……\e"
+MG01160005,"\h(«Vyse»)Es ist dasselbe Bett, das Gilder und ich hatten.
+Schätze, die Valuaner halten nicht viel davon,
+Damen als solche zu behandeln……\c"
+MG01160006,"\h(«Vyse»)Das ist wahrscheinlich der Bereich
+genau über unserer eigenen Zelle……\c"
+MG01160007,"\h(«Vyse»)……Verdammt. Sie lässt sich nicht öffnen.
+Sie ist verschlossen.\c"
+MG01160008,"\h( )Du hast den “Kanonenschlüssel” benutzt,
+um die Tür zu öffnen.\c"
+MG01160009,"\h(«Ein Aufzugsschalter……»)“Gefängnisblock 200      2. Stock”
+“Kanonenraum Festung   Batterie 28”
+“Nicht in den Aufzug steigen.”\c"
+MG01160010,"\h(«Ein Aufzugsschalter……»)“Gefängnisblock 100      1. Stock”
+“Kanonenraum Festung   Batterie 28”
+“Nicht in den Aufzug steigen.”\c"
+MG01160011,"\h(«Ein Aufzugsschalter……»)“Gefängnisblock 200      2. Stock”
+“Gefängnisblock 100      1. Stock”
+“Nicht in den Aufzug steigen.”\c"
+MG01160012,"\h(«Vyse»)……Nein, sie geht nicht auf.
+Der “Kanonenschlüssel” geht auch nicht.
+Schätze, wir brauchen einen anderen
+Schlüssel……\c"
+MG01160013,"\h( )Du hast den “Hafenschlüssel” benutzt, um die
+Tür zu öffnen.\c"
+MG01160014,"\h(«Vyse»)Na toll…… diese Tür ist verschlossen.
+Und es sieht nicht so aus, als hätte sie
+ein Schlüsselloch……\e"
+MG01160015,"\h(«Gilder»)Sie führt wahrscheinlich zum Herzen der Festung.
+Was meinst du? Ich würde lieber verschwinden,
+als hier weiter herumzuforschen. Gehen wir.\c"
+MG01160016,"\h(«Gilder»)Sie führt wahrscheinlich zum Herzen der Festung.
+Es ist sicher besser, wenn wir nicht dort
+entlang gehen. Schauen wir uns woanders um.\c"
+MG01160017,"\h(«Vyse»)Ich muss wohl auf diese Tafel treten, damit
+sich die Tür öffnet. Ich glaube, ich muss
+nur eine bestimmte Zeit hier stehen bleiben……\c"
+MG01160018,"\h(«Gilder»)He…… gute Arbeit, Leute. Meine Crew scheint
+ganz schön Aufruhr zu machen. Das sollte
+reichen, damit wir uns hier rausschleichen
+können……\c"
+MG01160019,"\h(«Vyse»)……Hm?
+An diesem Schalter passiert nichts.\e"
+MG01160020,"\h(«Gilder»)Dieser Aufzug ist wahrscheinlich auf einem
+anderen Stockwerk stecken geblieben, oder
+jemand anderes ist bereits drin. Lass uns
+nicht so lange warten, bis wir es wissen, ok?\c"
+MG01160021,\h(«Aika»)Aaaaaaaaaaaaaaaaack!\e
+MG01160022,\h(«Vyse»)……He! Das hat sich wie Aika angehört!!\c
+MG01160023,"\h(«Vigoro»)Urgh…… das hat wehgetan, Rotschopf……\c"
+MG01160024,"\h( )Du hast den “Hafenschlüssel” in der Tasche
+des valuanischen Soldaten gefunden.\c"
+MS01160000,"\h(«Vyse»)Ni siquiera hay almohada. Bueno, supongo que
+estas camas están pensadas para prisioneros, así
+que habrán querido hacerlas cómodas……\c"
+MS01160001,"\h(«Vyse»)Es horrible pensar en la cantidad de gente que
+ha debido morir en esta prisión…… e incluso en
+esta misma cama……\c"
+MS01160002,"\h(«Vyse»)Lo único que se ve desde aquí son los cielos
+oscuros de Valua……\c"
+MS01160003,"\h(«Vyse»)Hay dos camas, pero……
+¿Dónde está Fina?\e"
+MS01160004,"\h(«Aika»)No sé. Nos separaron antes de que entráramos
+aquí…… He estado sola todo el tiempo…… Bueno,
+hasta que apareció el machote……\e"
+MS01160005,"\h(«Vyse»)Es el mismo tipo de cama que teníamos Gilder y
+yo. Supongo que los Valuan no dan un trato
+especial a las damas……\c"
+MS01160006,"\h(«Vyse»)Seguro que esto está justo encima de nuestra
+celda……\c"
+MS01160007,"\h(«Vyse»)…… Maldición. No se abre.
+Está cerrada con llave.\c"
+MS01160008,"\h( )Has usado la “Llave del Cañón” para abrir la
+puerta.\c"
+MS01160009,"\h(«Botón del Ascensor……»)“Prisionero del Bloque 200 en la 2a Planta.”
+“Fortaleza de la Sala de Cañones, batería 28.”
+“No subas al ascensor.”\c"
+MS01160010,"\h(«Botón del Ascensor……»)“Prisionero del Bloque 100 en la 1a Planta.”
+“Fortaleza de la Sala de Cañones, batería 28.”
+“No subas al ascensor.”\c"
+MS01160011,"\h(«Botón del Ascensor……»)“Prisionero del Bloque 200 en la 2a Planta.”
+“Prisionero del Bloque 100 en la 1a Planta.”
+“No subas al ascensor.”\c"
+MS01160012,"\h(«Vyse»)…… No, no se abre.
+La “Llave del Cañón” tampoco funciona.
+Creo que necesito una llave distinta……\c"
+MS01160013,"\h( )Usa la llave del “Puerto Clave” para abrir la
+puerta.\c"
+MS01160014,"\h(«Vyse»)Genial…… Esta puerta está cerrada.
+Y no parece que haya una cerradura……\e"
+MS01160015,"\h(«Gilder»)Debe llevar al centro de la Fortaleza. No sé tú,
+pero yo prefiero largarme de aquí antes que ir
+de exploración. Vámonos.\c"
+MS01160016,"\h(«Gilder»)Debe llevar al centro de la Fortaleza. Es mejor
+que no vayamos por ahí. Vamos a buscar otro
+camino.\c"
+MS01160017,"\h(«Vyse»)Por lo visto tengo que pisar en esta losa para
+abrir la puerta. Creo que hay que esperar un
+rato……\c"
+MS01160018,"\h(«Gilder»)Buen trabajo, chicos. Mi tripulación está
+causando bastante jaleo. Lo bastante para que
+podamos escabullirnos de aquí……\c"
+MS01160019,"\h(«Vyse»)…… ¿Mm?
+Este botón no sirve de nada.\e"
+MS01160020,"\h(«Gilder»)El ascensor debe estar atascado en otra planta o
+quizá esté ocupado. No tenemos por qué
+averiguarlo, mejor será que nos vayamos.\c"
+MS01160021,\h(«Aika»)¡Aaaaaaaaaaaaaaaaah!\e
+MS01160022,\h(«Vyse»)…… ¡Oye! ¡¡Me ha parecido Aika!!\c
+MS01160023,"\h(«Vigoro»)Ah…… Qué daño, pelirroja……\c"
+MS01160024,"\h( )Has encontrado la llave del “Puerto Clave” en el
+bolsillo del Soldado Valuan.\c"
+"",me243a.sct
+"",me035g.sct
+"",me116g.sct
+"",me116h.sct
+"",M0252
+"",m5160000
+"",a116dc02.mld
+"",e6c002
+"",M0313
+"",a116dc02.mld
+"",a116dg08.mld
+"",e6g008
+"",M0315
+"",a116dg08wa.mld
+"",a116dg08.mld
+"",a116dg08wa.mld
+"",a116dg09.mld
+"",e6g009
+"",M0309
+"",a116dg09.mld
+"",a116dg15.mld
+"",e6g015
+"",M0380
+"",a116dg15.mld
+"",a116dg08.mld
+"",a116dg08wa.mld
+"",e6g032
+"",M0252
+"",a116dg08.mld
+"",a116dg08wa.mld

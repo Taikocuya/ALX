@@ -1,0 +1,359 @@
+[Event Name],Task ID
+MI0050000,\h(«Fina»)It's so difficult to see…\e
+MI0050001,\h(«Aika»)Someone's there!\e
+MI0050002,\h(«Fina»)Oh…!\e
+MI0050003,\h(«Aika»)I don't believe it!\e
+MI0050004,\h(«Drachma»)…Who's there?!\e
+MI0050005,\h(«Vyse»)Drachma?!\e
+MI0050006,\h(«Aika»)Cap'n!!!\e
+MI0050007,\h(«Drachma»)What're you kids doing here?!\e
+MI0050008,"\h(«Aika»)It really is you!
+I never thought I'd see you again!\e"
+MI0050009,\h(«Drachma»)Yeah… well… uhhh…\e
+MI0050010,"\h(«Vyse»)It's been a while, Captain.
+Heh… I had a feeling you survived the attack!\e"
+MI0050011,"\h(«Fina»)But, Captain…
+What are you doing at the bottom of Glacia?\e"
+MI0050012,\h(«Drachma»)……\e
+MSI0050000,\h(«Fina»)Cuesta tanto ver……\e
+MSI0050001,\h(«Aika»)¡Hay alguien ahí!\e
+MSI0050002,\h(«Fina»)¡Oh……!\e
+MSI0050003,\h(«Aika»)¡No puedo creerlo!\e
+MSI0050004,\h(«Drachma»)…… ¡¿Quién está ahí?!\e
+MSI0050005,\h(«Vyse»)¡¿Drachma?!\e
+MSI0050006,\h(«Aika»)¡¡¡Capitán!!!\e
+MSI0050007,"\h(«Drachma»)¡¿Pero vosotros que hacéis aquí, chavales?!\e"
+MSI0050008,"\h(«Aika»)¡De verdad eres tú!
+¡Creí que nunca volvería a verte!\e"
+MSI0050009,\h(«Drachma»)Sí…… bueno…… eehh……\e
+MSI0050010,"\h(«Vyse»)Ha pasado tiempo, Capitán.
+Eeh…… ¡Sabía que había sobrevivido al ataque!\e"
+MSI0050011,"\h(«Fina»)Pero, Capitán……
+¿Qué está haciendo aquí en el fondo de Glacia?\e"
+MSI0050012,\h(«Drachma»)……\e
+MFI0050000,\h(«Fina»)J'ai du mal à voir……\e
+MFI0050001,\h(«Aika»)Il y a quelqu'un !\e
+MFI0050002,\h(«Fina»)Oh……!\e
+MFI0050003,\h(«Aika»)Je n'arrive pas à le croire !\e
+MFI0050004,\h(«Drachma»)……Qui est là ?!\e
+MFI0050005,\h(«Vyse»)Drachma ?!\e
+MFI0050006,\h(«Aika»)Cap'taine !!!\e
+MFI0050007,\h(«Drachma»)Qu'est-ce que vous faites ici ?!\e
+MFI0050008,"\h(«Aika»)C'est vraiment vous !
+Je ne pensais pas vous revoir un jour !\e"
+MFI0050009,\h(«Drachma»)Euh…… bien…… uhhh……\e
+MFI0050010,"\h(«Vyse»)Cela fait longtemps qu'on ne s'est pas vus,
+Capitaine. Hé…… quelque chose me disait que vous
+n'étiez pas mort !\e"
+MFI0050011,"\h(«Fina»)Mais, Capitaine……
+Que faites-vous au fond de Glacia ?\e"
+MFI0050012,\h(«Drachma»)……\e
+MGI0050000,\h(«Fina»)Man sieht hier so schlecht……\e
+MGI0050001,\h(«Aika»)Da ist jemand!\e
+MGI0050002,\h(«Fina»)Oh……!\e
+MGI0050003,\h(«Aika»)Ich glaub's nicht!\e
+MGI0050004,\h(«Drachma»)……Wer ist da?!\e
+MGI0050005,\h(«Vyse»)Drachma?!\e
+MGI0050006,\h(«Aika»)Captain!!\e
+MGI0050007,\h(«Drachma»)Was habt ihr Kids denn hier zu suchen?!\e
+MGI0050008,"\h(«Aika»)Du bist es wirklich!
+Ich hätte nie gedacht, dass ich dich
+wiedersehen würde!\e"
+MGI0050009,\h(«Drachma»)Tja…… also…… ähhh……\e
+MGI0050010,"\h(«Vyse»)Schon eine Weile her, Captain.
+He…… Ich hab mir schon gedacht, dass du den
+Angriff überlebt hast!\e"
+MGI0050011,"\h(«Fina»)Aber Captain……
+Was machst du auf dem Grund von Glacia?\e"
+MGI0050012,\h(«Drachma»)…………\e
+MI0060000,\h(«Aika»)What?\e
+MI0060001,\h(«Vyse»)No… it's not…\e
+MI0060002,"\h(«Vyse»)It is!!!
+What's Rhaknam doing here?!\e"
+MI0060003,\h(«Drachma»)…Follow me.\e
+MI0060004,\h(«Aika»)Is… is he dead?\e
+MI0060005,"\h(«Drachma»)No… he's still alive.
+But, he was badly wounded by Ramirez's ships.\e"
+MI0060006,"\h(«Drachma»)It is a fatal wound.
+Rhaknam is dyin'…\e"
+MI0060007,"\h(«Drachma»)When Rhaknam fled from Ramirez, I got pulled
+along… If I wasn't attached to him, the
+Little Jack would have been destroyed.\e"
+MI0060008,\h(«Drachma»)This is his… home.\e
+MI0060009,"\h(«Vyse»)Captain…
+You mean to tell me that you've been alone… 
+here… with Rhaknam the whole time?\e"
+MI0060010,\h(«Drachma»)Aye.\e
+MI0060011,\h(«Enrique»)Is that…?\e
+MI0060012,"\h(«Enrique»)Vyse!
+Look! That light…!\e"
+MI0060013,"\h(«Vyse»)What…?
+Is… is that the Moon Crystal?!\e"
+MI0060014,"\h(«Enrique»)It must be.
+Which would mean that… this arcwhale… 
+Rhaknam… is the Purple Gigas?\e"
+MI0060015,"\h(«Fina»)I can't believe that Rhaknam is 
+the Purple Gigas!\e"
+MI0060016,\h(«Fina»)The… the name of the Purple Gigas is Plergoth.\e
+MI0060017,"\h(«Fina»)According to the legends, the citizens of the 
+Purple Civilization implanted the Purple Crystal
+into a living creature.\e"
+MI0060018,"\h(«Vyse»)Then… that means that Rhaknam 
+was once a normal arcwhale?\e"
+MI0060019,"\h(«Fina»)Yes. I think after Rhaknam had been transformed
+into the Purple Gigas, his master perished… and
+he has been wandering the skies ever since.\e"
+MI0060020,"\h(«Fina»)So this poor arcwhale was also a victim of the
+war.\e"
+MI0060021,"\h(«Aika»)But Cap'n…
+Why did you stay here all that time?\e"
+MI0060022,"\h(«Aika»)If the Little Jack is here with you, why didn't
+you leave?\e"
+MI0060023,\h(«Drachma»)……\e
+MI0060024,"\h(«Drachma»)I've spent my life… searching for Rhaknam
+to avenge my crew… and my son… \e"
+MI0060025,"\h(«Drachma»)I wasted all those years… 
+Rhaknam saved me from Ramirez… \e"
+MI0060026,"\h(«Drachma»)I… I just thought that I could watch over him
+in his last moments. It's the least 
+I could do.\e"
+MI0060027,\h(«Vyse»)…\e
+MSI0060000,\h(«Aika»)¿Qué es esto?\e
+MSI0060001,\h(«Vyse»)No…… no puede ser……\e
+MSI0060002,"\h(«Vyse»)¡¡¡Sí que es!!!
+¡¿Qué hace Rhaknam aquí?!\e"
+MSI0060003,\h(«Drachma»)…… Seguidme.\e
+MSI0060004,\h(«Aika»)Está…… ¿está muerta?\e
+MSI0060005,"\h(«Drachma»)No…… aún está viva.
+Pero está malherida por los navíos de Ramírez.\e"
+MSI0060006,"\h(«Drachma»)La herida es fatal.
+Rhaknam se va a morir……\e"
+MSI0060007,"\h(«Drachma»)Cuando Rhaknam huía de Ramírez, yo fui
+arrastrado por ella…… De no ser por eso, el
+Little Jack habría sido destrozado.\e"
+MSI0060008,\h(«Drachma»)Ésta es su…… casa.\e
+MSI0060009,"\h(«Vyse»)Capitán……
+¿Quiere decir que ha estado aquí solo……
+aquí…… con Rhaknam todo este tiempo?\e"
+MSI0060010,\h(«Drachma»)Pues sí.\e
+MSI0060011,\h(«Enrique»)¿Es eso……?\e
+MSI0060012,"\h(«Enrique»)¡Vyse!
+¡Mira! ¡Esa luz……!\e"
+MSI0060013,"\h(«Vyse»)¿Pero qué……?
+¡¿Es…… eso el Cristal Lunar?!\e"
+MSI0060014,"\h(«Enrique»)Debe ser.
+Eso significa que…… esta ballena……
+Rhaknam…… ¿es el Gigas Púrpura?\e"
+MSI0060015,"\h(«Fina»)¡No puedo creer que Rhaknam sea el Gigas
+Púrpura!\e"
+MSI0060016,\h(«Fina»)Pero…… el Gigas Púrpura se llama Plergoth.\e
+MSI0060017,"\h(«Fina»)Según la leyenda, los ciudadanos de la
+Civilización Púrpura implantaron el Cristal
+Púrpura dentro de un ser vivo.\e"
+MSI0060018,\h(«Vyse»)Entonces…… ¿Rhaknam fue una ballena normal?\e
+MSI0060019,"\h(«Fina»)Sí. Creo que después de que Rhaknam se
+transformara en el Gigas Púrpura, su dueño
+pereció…… y desde entonces ella ha estado
+vagando sin rumbo por el cielo.\e"
+MSI0060020,"\h(«Fina»)Así que esta pobre ballena fue una víctima más
+de la guerra.\e"
+MSI0060021,"\h(«Aika»)Pero Capitán……
+¿Por qué te quedaste aquí todo este tiempo?\e"
+MSI0060022,"\h(«Aika»)Si tienes el Little Jack contigo, ¿por qué no te
+has ido?\e"
+MSI0060023,\h(«Drachma»)……\e
+MSI0060024,"\h(«Drachma»)Me he pasado la vida…… buscando a Rhaknam
+para vengar a mi tripulación…… y a mi hijo……\e"
+MSI0060025,"\h(«Drachma»)He desperdiciado todos esos años……
+Rhaknam me salvó de Ramírez……\e"
+MSI0060026,"\h(«Drachma»)Yo…… pensé que quizá pudiera pasar junto a ella
+sus últimos minutos. Es lo mínimo que podía
+hacer.\e"
+MSI0060027,\h(«Vyse»)……\e
+MFI0060000,\h(«Aika»)Quoi ?\e
+MFI0060001,\h(«Vyse»)Non…… ce n'est pas……\e
+MFI0060002,"\h(«Vyse»)Mais si !!!
+Que fais Rhaknam ici ?!\e"
+MFI0060003,\h(«Drachma»)……Suivez-moi.\e
+MFI0060004,\h(«Aika»)Elle…… elle est morte ?\e
+MFI0060005,"\h(«Drachma»)Non…… elle est en vie. Mais, elle a été
+gravement blessée par les navires de Ramirez.\e"
+MFI0060006,"\h(«Drachma»)C'est une blessure mortelle.
+Rhaknam est en train de mourir……\e"
+MFI0060007,"\h(«Drachma»)Quand Rhaknam a fuit Ramirez, j'ai été entraîné
+avec…… Si je n'avais pas été attaché à elle, le
+Little Jack aurait été détruit.\e"
+MFI0060008,\h(«Drachma»)C'est chez elle…… ici.\e
+MFI0060009,"\h(«Vyse»)Capitaine……
+Vous voulez dire que vous êtes resté seul……
+ici…… avec Rhaknam pendant tout ce temps ?\e"
+MFI0060010,\h(«Drachma»)Oui.\e
+MFI0060011,\h(«Enrique»)Est-ce……?\e
+MFI0060012,"\h(«Enrique»)Vyse !
+Regardez ! Cette lumière……!\e"
+MFI0060013,"\h(«Vyse»)Quoi……?
+Est-ce…… que c'est le Cristal de lune ?!\e"
+MFI0060014,"\h(«Enrique»)Sûrement.
+Ce qui voudrait dire que…… cette baleinearc……
+Rhaknam…… est le Gigas Mauve ?\e"
+MFI0060015,"\h(«Fina»)Je ne peux pas croire que Rhaknam soit le Gigas
+Mauve !\e"
+MFI0060016,\h(«Fina»)Le…… le Gigas Mauve s'appelle Plergoth.\e
+MFI0060017,"\h(«Fina»)D'après les légendes, les citoyens de la
+Civilisation Mauve ont implanté le Cristal Mauve
+dans une créature vivante.\e"
+MFI0060018,"\h(«Vyse»)Dans ce cas…… cela veut dire qu'avant Rhaknam
+était une baleinearc normale ?\e"
+MFI0060019,"\h(«Fina»)Oui. Je crois qu'après la transformation de
+Rhaknam en Gigas Mauve, son maître péri…… et
+elle erre dans les cieux depuis.\e"
+MFI0060020,"\h(«Fina»)Alors cette pauvre baleinearc est aussi une
+victime de la guerre.\e"
+MFI0060021,"\h(«Aika»)Mais Cap'taine……
+Pourquoi êtes-vous resté ici tout ce temps ?\e"
+MFI0060022,"\h(«Aika»)Si vous êtes venu avec le Little Jack, pourquoi
+n'êtes-vous pas reparti ?\e"
+MFI0060023,\h(«Drachma»)……\e
+MFI0060024,"\h(«Drachma»)J'ai passé ma vie…… à chercher Rhaknam
+pour venger mon équipage…… et mon fils……\e"
+MFI0060025,"\h(«Drachma»)j'ai gaspillé toutes ces années……
+Rhaknam m'a sauvé de Ramirez……\e"
+MFI0060026,"\h(«Drachma»)Je…… je me suis dit que je pouvais veiller sur
+elle pendant ces derniers moments. C'est la
+moindre des choses.\e"
+MFI0060027,\h(«Vyse»)……\e
+MGI0060000,\h(«Aika»)Was?\e
+MGI0060001,\h(«Vyse»)Nein…… das ist doch nicht……\e
+MGI0060002,"\h(«Vyse»)Er ist es!!!
+Was macht denn Rhaknam hier?!\e"
+MGI0060003,\h(«Drachma»)……Folgt mir.\e
+MGI0060004,\h(«Aika»)Ist…… ist er tot?\e
+MGI0060005,"\h(«Drachma»)Nein…… er lebt noch.
+Aber er wurde von Ramirez' Schiffen schwer
+verwundet.\e"
+MGI0060006,"\h(«Drachma»)Es ist eine tödliche Wunde.
+Rhaknam stirbt……\e"
+MGI0060007,"\h(«Drachma»)Als Rhaknam vor Ramirez floh, wurde ich
+mitgeschleift…… Wenn ich nicht an ihm
+festgemacht gewesen wäre, hätte die “Little
+Jack” das nicht überlebt.\e"
+MGI0060008,\h(«Drachma»)Dies ist sein…… Zuhause.\e
+MGI0060009,"\h(«Vyse»)Captain……
+Willst du damit sagen, dass du hier die ganze
+Zeit……  mit Rhaknam allein warst?\e"
+MGI0060010,\h(«Drachma»)So ist es.\e
+MGI0060011,\h(«Enrique»)Ist das……?\e
+MGI0060012,"\h(«Enrique»)Vyse!
+Schau! Dieses Licht……!\e"
+MGI0060013,"\h(«Vyse»)Was……?
+Ist…… ist das der Moon Crystal?!\e"
+MGI0060014,"\h(«Enrique»)Das muss er sein.
+Was bedeuten würde, dass…… dieser Urwal……
+Rhaknam…… der Purple Gigas ist?\e"
+MGI0060015,"\h(«Fina»)Ich glaub's nicht, Rhaknam ist der
+Purple Gigas!\e"
+MGI0060016,\h(«Fina»)Der…… der Name des Purple Gigas ist Plergoth.\e
+MGI0060017,"\h(«Fina»)Der Legende zufolge pflanzten die Bürger der
+Purple Civilization den Purple Crystal in
+eine lebende Kreatur.\e"
+MGI0060018,"\h(«Vyse»)Dann…… hat das zu bedeuten, dass Rhaknam
+einst ein normaler Urwal war?\e"
+MGI0060019,"\h(«Fina»)Ja. Ich glaube, nachdem Rhaknam zum Purple
+Gigas umgewandelt wurde, kam sein Meister
+um…… und seitdem wandert er ziellos
+durch den Himmel.\e"
+MGI0060020,"\h(«Fina»)Also war dieser arme Urwal auch ein Opfer
+des Krieges.\e"
+MGI0060021,"\h(«Aika»)Aber Captain……
+Warum bist du die ganze Zeit hiergeblieben?\e"
+MGI0060022,"\h(«Aika»)Wenn du die “Little Jack” bei dir hattest,
+warum bist du nicht abgehauen?\e"
+MGI0060023,\h(«Drachma»)…………\e
+MGI0060024,"\h(«Drachma»)Ich habe mein Leben damit verbracht…… nach
+Rhaknam zu suchen, um meine Mannschaft zu
+rächen…… und meinen Sohn……\e"
+MGI0060025,"\h(«Drachma»)Ich habe all die Jahre verschwendet……
+Rhaknam hat mich vor Ramirez gerettet……\e"
+MGI0060026,"\h(«Drachma»)Ich…… ich dachte nur, dass ich in seinen
+letzten Augenblicken bei ihm bleiben sollte.
+Das ist das Mindeste, das ich für ihn tun kann.\e"
+MGI0060027,\h(«Vyse»)……\e
+MI0070000,\h(«Aika»)Why is he making that noise?\e
+MI0070001,\h(«Drachma»)I… I'm not sure.\e
+MI0070002,\h(«Drachma»)What's wrong? I'm here for you.\e
+MI0070003,\h(«Vyse»)This isn't good.\e
+MI0070004,\h(«Aika»)Look… at his eye!\e
+MI0070005,\h(«Drachma»)Rhaknam…\e
+MI0070006,"\h(«Drachma»)I see…
+It's time for you to go…\e"
+MI0070007,"\h(«Drachma»)Time for you to join your friends…
+Good-bye…\e"
+MI0070008,"\h(«Vyse»)Oh, no…\e"
+MI0070009,\h(«Enrique»)Look… the Crystal!\e
+MI0070010,"\h(«Vyse»)I'm sorry, Captain…\e"
+MI0070011,\h( )You received the “Purple Moon Crystal.”\e
+MSI0070000,\h(«Aika»)¿Por qué hace ese ruido?\e
+MSI0070001,\h(«Drachma»)No…… no estoy seguro.\e
+MSI0070002,\h(«Drachma»)¿Qué pasa? Estoy aquí.\e
+MSI0070003,\h(«Vyse»)Esto no tiene buena pinta.\e
+MSI0070004,\h(«Aika»)Mírale…… ¡Mira sus ojos!\e
+MSI0070005,\h(«Drachma»)Rhaknam……\e
+MSI0070006,"\h(«Drachma»)Comprendo……
+Ha llegado tu hora……\e"
+MSI0070007,"\h(«Drachma»)Es hora de que te reúnas con tus amigos……
+Adiós……\e"
+MSI0070008,"\h(«Vyse»)Oh, no……\e"
+MSI0070009,\h(«Enrique»)Mira…… ¡el Cristal!\e
+MSI0070010,"\h(«Vyse»)Lo siento, Capitán……\e"
+MSI0070011,\h( )Has recibido el “Cristal Púrpura”.\e
+MFI0070000,\h(«Aika»)Pourquoi fait-il ce bruit ?\e
+MFI0070001,\h(«Drachma»)Je…… je ne sais pas.\e
+MFI0070002,\h(«Drachma»)Qu'est-ce qui ne va pas ? Je suis là pour toi.\e
+MFI0070003,\h(«Vyse»)Ce n'est vraiment pas bon.\e
+MFI0070004,\h(«Aika»)Regardez…… son oeil !\e
+MFI0070005,\h(«Drachma»)Rhaknam……\e
+MFI0070006,"\h(«Drachma»)Je vois……
+Il est l'heure pour toi de partir……\e"
+MFI0070007,"\h(«Drachma»)Il est temps de rejoindre tes amis……
+Au revoir……\e"
+MFI0070008,"\h(«Vyse»)Oh, non……\e"
+MFI0070009,\h(«Enrique»)Regardez…… le Cristal !\e
+MFI0070010,"\h(«Vyse»)Je suis vraiment désolé, Capitaine……\e"
+MFI0070011,\h( )Vous avez reçu le “Cristal de Lune Mauve.”\e
+MGI0070000,\h(«Aika»)Warum macht er dieses Geräusch?\e
+MGI0070001,\h(«Drachma»)Ich…… ich weiß nicht.\e
+MGI0070002,\h(«Drachma»)Was gibt's? Ich bin doch hier.\e
+MGI0070003,\h(«Vyse»)Das hat nichts Gutes zu bedeuten.\e
+MGI0070004,\h(«Aika»)Schau dir…… sein Auge an!\e
+MGI0070005,\h(«Drachma»)Rhaknam……\e
+MGI0070006,"\h(«Drachma»)Verstehe……
+Zeit, dass du dich verabschiedest……\e"
+MGI0070007,"\h(«Drachma»)……und zurück zu deinen Freunden gehst……
+Auf Wiedersehen……\e"
+MGI0070008,\h(«Vyse»)O nein……\e
+MGI0070009,\h(«Enrique»)Schau…… der Kristall!\e
+MGI0070010,"\h(«Vyse»)Tut mir leid, Captain……\e"
+MGI0070011,\h( )Du hast den “Purple Moon Crystal” erhalten.\e
+"",me034b.sct
+"",me123b.sct
+"",I05発生しました。\c
+"",a123ci05.mld
+"",a123ci05.mld
+"",M0316
+"",e6i005
+"",a123ci05.mld
+"",イベントＩ０６が発生しました。\c
+"",a123ci06.mld
+"",a123ci06.mld
+"",M0319
+"",e6i006
+"",a123ci06.mld
+"",イベントＩ０７が発生しました。\c
+"",a123ci07.mld
+"",a123ci07.mld
+"",a123ci07_efe.mld
+"",a123ci07_efe.mld
+"",M0318
+"",e6i007
+"",a123ci07.mld
+"",a123ci07_efe.mld

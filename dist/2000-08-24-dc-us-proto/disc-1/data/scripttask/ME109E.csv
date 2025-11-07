@@ -1,0 +1,76 @@
+[Event Name],Task ID
+MD0070000,"\h(《Vyse》)Wow…
+So, this is a Moon Crystal…\e"
+MD0070001,"\h(《Aika》)It's so beautiful…
+I'm getting weak in the knees just looking at
+it.\e"
+MD0070002,"\h(《Fina》)A Moon Crystal is the most concentrated source
+of energy that you will ever see. It was created
+by distilling a Moon Stone into its purest form.\e"
+MD0070003,"\h(《Fina》)Moon Crystals are pure energy.
+This Crystal alone has the power of thousands…
+no… tens of thousands of Moon Stones…\e"
+MD0070004,"\h(《Vyse》)So this Crystal is powerful enough to control
+one of the Gigas?\e"
+MD0070005,\h(《Fina》)Look at the light radiating from the Crystal…\e
+MD0070006,"\h(《Fina》)Even though thousands of years have passed since
+the destruction of the Old World, the Crystal
+still shines as bright as ever.\e"
+MD0070007,"\h(《Fina》)Between the power of these Crystals, and the
+destructive forces of the Gigas, it's easy to
+see how so much of the world was destroyed.\e"
+MD0070008,"\h(《Fina》)It's sad… The people of the Old World had so
+much power, but they used it to make weapons
+instead of helping each other.\e"
+MD0070009,"\h(《Aika》)There's no way we can let Valua get their hands
+on one of these!\e"
+MD0070010,"\h(《Vyse》)Fina, leave it up to us. We'll keep it safe.
+The Valuans are going to have to take it off of
+my dead body before I hand it over to them.\e"
+MD0070011,"\h(《Vyse》)There's so much of the world that I still have
+to see… I'm not going to let them wake some
+ancient guardian to destroy half of it now…\e"
+MD0070012,"\h(《Fina》)Thank you, Vyse! 
+I know you will do your best to keep it safe.\e"
+MD0070013,\h(《》)You received the ”Red Moon Crystal.”\e
+M01090000,"\h(《ベレナ》)ここナスルは、赤い月の恵みを
+受けた地。赤い月Ж力を持つ
+生物が多く住んでいるワ。\e"
+M01090001,"\h(《ベレナ》)武器の色を紫とかに変えて
+ごらんなさい。大きなダメージを
+与えることができるはずよ。\c"
+M01090002,"\h(《ヴァイス》)……開かねえな。
+何かしかけがあるのかな？\c"
+M01090003,"\h(《ヴァイス》)この扉、開かないな……
+重くてビクともしないぜ。\c"
+M01090004,"\h(《ヴァイス》)……ん？
+石のスイッチみたいなものが
+台座の上についてるな。\c"
+M01090005,"\h(《ヴァイス》)ふーん……どうやら
+水を流すスイッチのようだな。\c"
+M01090006,"\h(《ヴァイス》)もう溶岩が固まったから
+水を流す必要はないな。\c"
+M01090007,"\h(《ヴァイス》)扉みたいだが……
+うーん、開かないな。\c"
+M01090008,"\h(《ヴァイス》)赤の月晶が置いてあった台座だ。
+よくみると、さすがに
+こったつくりの台座だな。\c"
+M01090009,"\h(《ヴァイス》)……何だ、この台は？
+表面に、ヘンなくぼみが
+あるけど……\c"
+M01090010,"\h(《どうする？》)「出航する」
+「神殿の探索をつづける」\c"
+M01090011,"\h(《どうする？》)「リトルジャックに帰艦する」
+「神殿の探索をつづける」\c"
+M01090012,"\h(《どうする？》)「デルフィナスに帰艦する」
+「神殿の探索をつづける」\c"
+"",me109d.sct
+"",me109g.sct
+"",M0378
+"",m5090000
+"",EV_D07発生しました。\c
+"",a109ed07.mld
+"",a109ed07.mld
+"",M0309
+"",e6d007
+"",a109ed07.mld

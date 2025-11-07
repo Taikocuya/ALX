@@ -1,0 +1,147 @@
+[Event Name],Task ID
+ME0050000,"\h(«Aika»)Hey…
+What's that smell?\e"
+ME0050001,\h(«Fina»)It smells like something is burning…\e
+ME0050002,\h(«Drachma»)Look on the horizon.\e
+ME0050003,\h(«Vyse»)The forest!!!\e
+ME0050004,"\h(«De Loco»)Burn! Burn!
+Buuuuuuuuuurrrrrnnnnn!!!\e"
+ME0050005,"\h(«De Loco»)Witness the awesome power of my Flame Cannon!
+The thicker the forest, the more it burns!
+HAHAHAHAHA!!!\e"
+ME0050006,"\h(«De Loco»)After I burn down the forest, I will be able to 
+find the Lost City of Rixis, and the 
+Moon Crystal will be mine!!!\e"
+ME0050007,"\h(«Vice Captain»)Lord De Loco!
+There's a ship approaching from the aft.\e"
+ME0050008,\h(«Vice Captain»)It matches the description of those Air Pirates!\e
+ME0050009,"\h(«De Loco»)Vyse is here?!
+He's the kid that escaped from the Grand
+Fortress and defeated Belleza!\e"
+ME0050010,"\h(«De Loco»)Perfect!!! PERFECT!!! 
+He's just in time to feel the heat from my
+Flame Cannon!\e"
+ME0050011,"\h(«De Loco»)Hehehehe…
+I wonder how Vyse likes his food…\e"
+ME0050012,\h(«De Loco»)Medium?\e
+ME0050013,"\h(«De Loco»)I hope he doesn't die too fast!
+HAHAHAHAHAHA!!!\e"
+ME0050014,"\h(«Aika»)The forest!
+This is horrible! 
+What kind of twisted psycho would do this?\e"
+ME0050015,"\h(«Vyse»)Whoever it is, he'll have to deal with me!\e"
+ME0050016,"\h(«Drachma»)If we get hit by that blast of fire, we're
+done for. We'll have to dodge the flames,
+and counterattack!\e"
+ME0050017,\h(«De Loco»)Or perhaps… Well-done!!!\e
+ME0060000,"\h(«De Loco»)What?! What?!!!
+Impossible! My… my Flame Cannon! How!?!?!\e"
+ME0060001,"\h(«De Loco»)It can't be! It can't be! It can't be!
+There was no way they could defeat me!!!
+This must be a dream… A dream! I tell you!!!\e"
+ME0060002,"\h(«Vice Captain»)Sir… sir!
+Get a hold of yourself!\e"
+ME0060003,"\h(«Vice Captain»)We must retreat!
+Head back to Moon Stone Mountain!\e"
+ME0060004,"\h(«Aika»)Alright!
+We've got them on the run!\e"
+ME0060005,"\h(«Vyse»)They're probably searching for the Moon
+Crystal, too. We've got to hurry!\e"
+ME0190000,"\h(«Alfonso»)Look… Over there!
+So, King Ixa'taka was hiding the Crystal 
+from us after all…\e"
+ME0190001,"\h(«Alfonso»)Heh, this is going to be easy.
+All I have to do is take the Crystal from him 
+and the Empress will be pleased.\e"
+ME0190002,"\h(«New Vice Captain»)Awaiting orders, Admiral…\e"
+ME0190003,"\h(«New Vice Captain»)Oh, and I heard that you were injured 
+in the mines. Are you alright, sir?\e"
+ME0190004,"\h(«Alfonso»)I don't ever want to hear you speak of those
+mines again! Understand?!\e"
+ME0190005,"\h(«Alfonso»)All ships, prepare for battle!
+Follow my flagship, the Cygnus!
+Head towards the light and find King Ixa'taka.\e"
+ME0190006,"\h(«Alfonso»)Blast! Retreat!!!
+We cannot get past the Gigas!\e"
+ME0190007,"\h(«New Vice Captain»)But… but… sir…
+The battle hasn't even started yet.\e"
+ME0190008,"\h(«Alfonso»)Why are you questioning my orders?!
+I refuse to die in these filthy lands! 
+All ships, return to Valua at once!\e"
+ME0210000,"\h(«De Loco»)This cannot be!
+How could I lose twice?!\e"
+ME0210001,"\h(«De Loco»)No… No… No…
+No… this has to be a dream… 
+It's all just a bad dream…\e"
+ME0210002,"\h(«Vice Captain»)Sir!
+Get a hold of yourself!\e"
+ME0210003,"\h(«Vice Captain»)We can't face the Gigas in this shape! 
+All ships, back to Valua!\e"
+ME0210004,"\h(«Aika»)Alright!
+De Loco's retreating!\e"
+ME0210005,"\h(«Drachma»)It's still too early to celebrate.
+We still have to stop Grendel!\e"
+ME0210006,\h(«Vyse»)But… he's too big! How can we stop him?\e
+ME0210007,\h(«Drachma»)See that canyon?\e
+ME0210008,"\h(«Drachma»)No matter how strong that thing is, if it falls
+into the canyon, it will be stuck.\e"
+ME0210009,"\h(«Vyse»)I see…
+So, all we have to do is knock it down!\e"
+ME0210010,"\h(«Drachma»)Aye!
+Wait for him to pass in front of it,
+then hit him in the back!\e"
+ME0210011,"\h(«Vyse»)Got it!
+Alright everyone, let's take him down!\e"
+"",me235a.sct
+"",me112c.sct
+"",EVE05発生しました。\c
+"",me509a.sct
+"",M0232
+"",e6e005
+"",a241ae05_2.mld
+"",a241ae05.mld
+"",a241ae05_efe.mld
+"",a241ae05.mld
+"",M0314
+"",M0314
+"",a241ae05.mld
+"",a241ae05efe2.mld
+"",a241ae05_3.mld
+"",a241ae05.mld
+"",a241ae05_3.mld
+"",a241ae05_2.mld
+"",a241ae05_efe.mld
+"",a241ae05_3.mld
+"",me509a.sct
+"",a241ae05.mld
+"",EV_E06発生しました。\c
+"",M0370
+"",e6e006
+"",a241ae06.mld
+"",a241ae06.mld
+"",a241ae06b.mld
+"",a241ae06b.mld
+"",a241ae06.mld
+"",a241ae06b.mld
+"",EV_E19発生しました。\c
+"",M0248
+"",e6e019
+"",a241ae19.mld
+"",a241ae19_2.mld
+"",a241ae19_efe.mld
+"",a241ae19.mld
+"",a241ae19_2.mld
+"",a241ae19_efe.mld
+"","EV_E21発生しました。
+この後船ばとるなんでイベント
+みてください。\c"
+"",M0325
+"",e6e021
+"",a241ae06.mld
+"",a241ae06.mld
+"",a241ae21.mld
+"",a241ae21.mld
+"",me515a.sct
+"",a241ae06.mld
+"",a241ae21.mld
+"",Ｅ２２のイベントを通過しました。\c

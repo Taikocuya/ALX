@@ -1,0 +1,107 @@
+[Event Name],Task ID
+MA0210000,"\h(《Aika》)We finally made it. 
+That wasn't too bad!\e"
+MA0210001,"\h(《Vyse》)Yeah. But look at the size of that Stone! It'll 
+be an adventure and a half just to get that 
+thing back outside!\e"
+MA0210002,\h(《Aika》)Aaaahh!\e
+MA0210003,\h(《Vyse》)Aika!? What's wrong?\e
+MA0210004,"\h(《Aika》)Vyse…
+Those rocks…
+They're… they're moving!\e"
+MA0140000,"\h(《Aika》)Whew…
+Looks like it won't be getting up anymore.
+What was that thing?\e"
+MA0140001,"\h(《Vyse》)Some kind of ancient guardian, I think.
+Who knows? Okay Aika, we need to hurry up and
+secure the Moon Stone.\e"
+MA0140002,\h(《Aika》)That's my kind of plan!\e
+MA0140003,"\h(《Aika》)Wow…
+This Moon Stone is huge!\e"
+MA0140004,"\h(《Vyse》)Yeah, it was definitely worth going through all 
+that trouble. We won't have to worry about fuel 
+for a while!\e"
+MA0140005,"\h(《Aika》)It's beautiful…
+Treasure hunting is definitely my favorite part 
+of being an Air Pirate!\e"
+MA0140006,\h(《Aika》)Wait till everyone back home sees what we found!\e
+MA0140007,\h(　)You received the ”Moon Stone.”\e
+MA0290000,\h(《Vyse》)This is just great… The place is flooded.\e
+MA0290001,"\h(《Vyse》)… Aika!
+Look! The Moon Stone is at the bottom!\e"
+MA0290002,"\h(《Aika》)Wow! It's so bright! 
+That Moon Stone must be huge!\e"
+MA0290003,"\h(《Aika》)So, Vyse… How do you plan on getting it out of
+there? The water is getting pretty deep…\e"
+MA0290004,"\h(《What will you do?》)”Swim down to the bottom.”
+”Find a way to drain the water.”\e"
+MA0290005,"\h(《Vyse》)Let's swim down there to get it.
+I think the water is still shallow enough. 
+What do you think?\e"
+MA0290006,"\h(《Aika》)No way!
+You know I can't swim! How am I supposed to help
+you carry that thing back up here?!\e"
+MA0290007,"\h(《Vyse》)Hahaha… Ever since that one time you fell into
+the well when you were a kid, you've been afraid
+of the water.\e"
+MA0290008,"\h(《Aika》)Besides, I doubt that either of us could swim
+while carrying that Moon Stone back to the
+surface. It looks way too heavy!\e"
+MA0290009,"\h(《Vyse》)… Yeah, you're probably right!\e"
+MA0290010,"\h(《Vyse》)Let's try and drain the water from this place.
+That way we can just carry the Moon Stone out of
+here.\e"
+MA0290011,"\h(《Aika》)Well, considering that I can't swim,
+I like that plan better… \e"
+MA0290012,"\h(《Vyse》)But there's still one problem… how are we
+supposed to drain all of this water, anyway?\e"
+MA0290013,"\h(《Aika》)Hey, Vyse.
+Look over there!\e"
+MA0290014,"\h(《Aika》)There's a door over there.
+Maybe if we can find a way to open it,
+we can drain the water out of this place.\e"
+MA0290015,"\h(《Vyse》)Hmm… You might be right.
+We'll use the doors as drains.\e"
+MA0290016,"\h(《Aika》)Alright!
+Let's go!\e"
+M01030000,"\h(《Vyse》)It won't budge. The door seems to be stuck. It
+probably got jarred shut when this island
+collided with Soltis.\c"
+M01030001,"\h(《What will you do?》)”Return to your ship.”
+”Continue searching the island.”\c"
+M01030002,"\h(《What will you do?》)”Return to the Little Jack.”
+”Continue searching the island”\c"
+M01030003,"\h(《What will you do?》)”Return to the Delphinus.”
+”Continue searching the island”\c"
+M01030004,"\h(《Vyse》)What's this thing made of? I've never seen this
+material before. It looks almost like… gold.
+It doesn't feel like gold, though…\c"
+"",me002a.sct
+"",me103a.sct
+"",me103c.sct
+"",me103a.sct
+"",me131a.sct
+"",me103c.sct
+"",me103c.sct
+"",me103c.sct
+"",me103c.sct
+"",me103c.sct
+"",me103c.sct
+"",me131c.sct
+"",M0250
+"",m5030000
+"","A21発生。
+たたかってしねや〜\c"
+"",a103ba21.mld
+"",M0250
+"",e6a021
+"",a103ba21.mld
+"","A14発生。
+こうしてヴァイス達は
+げっこー石を手に入れた。\c"
+"",a103ba14.mld
+"",M0250
+"",e6a014
+"",a103ba14.mld
+"","A29発生。
+あ、見て月煌石が水の中に！！\c"

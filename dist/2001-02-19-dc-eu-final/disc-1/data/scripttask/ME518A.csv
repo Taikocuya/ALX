@@ -1,0 +1,40 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MA5180000,"\h(«Valuan Gunboat»)Air Pirate scum! You will regret the day you
+stood against Lord Ramirez and the 6th Fleet of
+the Armada!\c"
+MA5180001,"\h(«What will you do?»)“Fight defensively, and maintain distance.”
+“Fight aggressively, and close in on the enemy.”\c"
+MSA5180000,"\h(«Artillero Valuan»)¡Escoria de Pirata Aéreo!
+¡Vas a lamentar el día en que te enfrentaste
+a Lord Ramírez y su Sexta Flota de la Armada!\c"
+MSA5180001,"\h(«¿Qué vas a hacer?»)“Defender y mantener la distancia.”
+“Atacar y acercarnos al enemigo.”\c"
+MFA5180000,"\h(«Canonnière Valuan»)Sale Pirate de l'Air ! Vous regretterez le jour
+où vous vous êtes opposés au Seigneur Ramirez et
+à la 6ème flotte de l'Armada !\c"
+MFA5180001,"\h(«Que ferez-vous ?»)“Passer à l'offensive & garder la distance.”
+“Se battre agressivement et cerner l'ennemi.”\c"
+MGA5180000,"\h(«Valuanisches Kanonenboot»)Luftpiratengesindel! Ihr werdet den Tag
+verfluchen, an dem ihr euch gegen Lord Ramirez
+und die 6. Flotte der Armada gestellt habt!\c"
+MGA5180001,"\h(«Was wirst du tun?»)“Defensiv kämpfen und Entfernung einhalten.”
+“Angreifen und den Feind umkreisen.”\c"
+"",M0430
+"",me518a.sct
+"",me090a.sct
+"",f7100100S.p04
+"",f7100100S.p04
+"",F7100100S.p04
+"",k0000.mld
+"",k0000.mld
+"",f7100050S.p04
+"",k0000.mld
+"",me240a.sct

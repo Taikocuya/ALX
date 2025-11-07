@@ -1,0 +1,713 @@
+[Event Name],Task ID
+MG0230000,"\h(«Enrique»)Vyse, you're here.\e"
+MG0230001,"\h(«Enrique»)That huge armored ship belongs to Admiral
+Gregorio.  \e"
+MG0230002,"\h(«Enrique»)Gregorio is the best defensive tactician the 
+Valuan Armada has ever seen. 
+They even nicknamed him “Ironwall.”\e"
+MG0230003,"\h(«Vyse»)Interesting… he's forming a blockade 
+around the town.\e"
+MG0230004,\h(«Valuan Soldier»)Prince Enrique!\e
+MG0230005,"\h(«Valuan Soldier»)I've come on behalf of Admiral Gregorio. 
+He has an urgent message for you.\e"
+MG0230006,"\h(«Enrique»)I see.
+Well done.\e"
+MG0230007,\h(«Enrique»)“I hope my Prince finds himself in good health.”\e
+MG0230008,"\h(«Enrique»)“I heard that you had a change of heart, 
+or were perhaps brainwashed by the Air Pirates.”\e"
+MG0230009,"\h(«Enrique»)“Empress Teodora has sent me to escort 
+my Prince back to Valua, 
+so that he may recover.”\e"
+MG0230010,"\h(«Enrique»)“I do not wish to use force. Please come back
+with me.”\e"
+MG0230011,"\h(«Enrique»)“If my Prince refuses to comply, my ships will 
+regretably begin firing upon the city tomorrow 
+at noon.   Your Humble Servant, Gregorio”\e"
+MG0230012,"\h(«Enrique»)…Hmm… Uncle Gregorio is asking me to
+surrender.\e"
+MG0230013,\h(«Vyse»)Uncle?\e
+MG0230014,"\h(«Enrique»)Oh, Gregorio was an Admiral in the Armada even
+before my father passed away…\e"
+MG0230015,"\h(«Enrique»)He helped raise me when I was growing up… 
+He's always been like an uncle to me.  \e"
+MG0230016,"\h(«Enrique»)I know that he doesn't want to fight, and he
+really does want me to surrender…\e"
+MG0230017,"\h(«Enrique»)…But I can't go back. Not after everything
+they've done.\e"
+MG0230018,\h(«Enrique»)Even if… even if it means I have to fight him.\e
+MG0230019,\h(«Vyse»)Enrique?\e
+MG0230020,"\h(«Enrique»)Let's rest up for tomorrow. Gregorio is the most
+honorable man that I've ever met. He won't break
+his word.\e"
+MG0230021,"\h(«Vyse»)I understand.
+We should rest on land tonight and keep you off
+the ship until tomorrow.\e"
+MG0230022,"\h(«Vyse»)The last thing you need is for your “Uncle” to
+see you throwing up over the railing in the heat
+of battle.\e"
+MG0230023,"\h(«Enrique»)…Great… now you're starting to sound just like
+Aika.\e"
+MG0230024,"\h(«Vyse»)Haha, I'm sorry, I'm sorry. Come on, let's stay
+at the inn tonight. We're gonna need our rest.\e"
+MSG0230000,"\h(«Enrique»)Vyse, estás aquí.\e"
+MSG0230001,"\h(«Enrique»)Ese navío súper blindado pertenece al Almirante
+Gregorio.\e"
+MSG0230002,"\h(«Enrique»)Gregorio es el mejor estratega defensivo que la
+Armada Valua ha tenido nunca.
+Llegaron a apodarle “Murodeacero”.\e"
+MSG0230003,\h(«Vyse»)Muy interesante…… Está bloqueando la ciudad.\e
+MSG0230004,\h(«Soldado Valuan»)¡Príncipe Enrique!\e
+MSG0230005,"\h(«Soldado Valuan»)Vengo en nombre del Almirante Gregorio.
+Tengo un mensaje urgente para usted.\e"
+MSG0230006,"\h(«Enrique»)Ya veo.
+Muy bien.\e"
+MSG0230007,"\h(«Enrique»)“Espero que mi Príncipe se encuentre con buena
+salud.”\e"
+MSG0230008,"\h(«Enrique»)“Oí que había cambiado de opinión, o que quizá
+los Piratas Aéreos le habían comido el coco.”\e"
+MSG0230009,"\h(«Enrique»)“La Emperatriz Teodora me envía con el fin de
+escoltar al Príncipe de vuelta a Valua,
+para que pueda recuperarse.”\e"
+MSG0230010,"\h(«Enrique»)“No es mi deseo emplear la fuerza. Le ruego que
+me acompañe de regreso.”\e"
+MSG0230011,"\h(«Enrique»)“Si mi Príncipe se niega, me veré obligado a
+hacer que mis navíos disparen sobre la ciudad
+mañana al mediodía.
+                  Su Humilde Servidor, Gregorio”\e"
+MSG0230012,"\h(«Enrique»)…… Mmm…… El tío Gregorio me está pidiendo que me
+rinda.\e"
+MSG0230013,\h(«Vyse»)¿Tío?\e
+MSG0230014,"\h(«Enrique»)Gregorio era Almirante de la Armada
+incluso antes de que mi padre muriera……\e"
+MSG0230015,"\h(«Enrique»)Él ayudó a criarme cuando era pequeño……
+Siempre ha sido como de la familia para mí.\e"
+MSG0230016,"\h(«Enrique»)Sé que no quiere luchar y que realmente quiere
+que me rinda……\e"
+MSG0230017,"\h(«Enrique»)…… Pero no puedo volver. No después de todo lo
+que ha hecho.\e"
+MSG0230018,\h(«Enrique»)Aunque…… aunque eso signifique luchar contra él.\e
+MSG0230019,\h(«Vyse»)¿Enrique?\e
+MSG0230020,"\h(«Enrique»)Debemos descansar para estar listos mañana.
+Gregorio es el hombre más honorable que he
+conocido. No va a faltar a su palabra.\e"
+MSG0230021,"\h(«Vyse»)Entiendo.
+Tenemos que descansar en tierra esta noche y
+mantenerte lejos del barco hasta mañana.\e"
+MSG0230022,"\h(«Vyse»)Lo único que faltaba es que tu “tío” te vea
+vomitar sobre la barandilla en plena batalla.\e"
+MSG0230023,"\h(«Enrique»)…… Estupendo…… estás empezando a hablar como si
+fueras Aika.\e"
+MSG0230024,"\h(«Vyse»)Jaja, lo siento, perdona. Venga, vamos a
+quedarnos en la posada esta noche. Vamos a
+necesitar un buen descanso.\e"
+MFG0230000,"\h(«Enrique»)Vyse, vous êtes là.\e"
+MFG0230001,"\h(«Enrique»)Cet énorme navire cuirassé appartient à l'Amiral
+Gregorio.\e"
+MFG0230002,"\h(«Enrique»)Gregorio est le meilleur tacticien de défense
+que l'Armada Valuan ait connu.
+Ils l'ont surnommé “Muraille de Fer.”\e"
+MFG0230003,"\h(«Vyse»)Intéressant… il forme un blocus autour de la
+ville.\e"
+MFG0230004,\h(«Soldat Valuan»)Prince Enrique !\e
+MFG0230005,"\h(«Soldat Valuan»)Je viens de la part de l'Amiral Gregorio.
+Il a un message urgent pour vous.\e"
+MFG0230006,"\h(«Enrique»)Je vois.
+Merci.\e"
+MFG0230007,\h(«Enrique»)“J'espère que mon Prince est en bonne santé.”\e
+MFG0230008,"\h(«Enrique»)“J'ai appris que vous êtes passé du côté ennemi,
+ou peut-être que les Pirates de l'Air vous ont
+fait un lavage de cerveau.”\e"
+MFG0230009,"\h(«Enrique»)“L'Impératrice Teodora m'a envoyé pour escorter
+mon Prince jusqu'à Valua,
+pour qu'il puisse se reposer.”\e"
+MFG0230010,"\h(«Enrique»)“Je ne veux pas utiliser la force. Je vous prie
+de rentrer avec moi.”\e"
+MFG0230011,"\h(«Enrique»)“Si mon Prince refuse d'obéir, malheureusement
+mes navires commenceront à bombarder la ville
+demain à midi. Votre Humble Serviteur, Gregorio”\e"
+MFG0230012,\h(«Enrique»)…Humm… Oncle Gregorio me demande de me rendre.\e
+MFG0230013,\h(«Vyse»)Oncle ?\e
+MFG0230014,"\h(«Enrique»)Oh, Gregorio était Amiral dans l'Armada, même
+avant le décès de mon père…\e"
+MFG0230015,"\h(«Enrique»)Il a contribué à mon éducation…
+Je l'ai toujours considéré comme mon oncle.\e"
+MFG0230016,"\h(«Enrique»)Je sais qu'il ne veut pas se battre, et il veut
+vraiment que je me rende…\e"
+MFG0230017,"\h(«Enrique»)…Mais je ne peux pas retourner là-bas. Pas après
+tout ce qu'ils ont fait.\e"
+MFG0230018,\h(«Enrique»)Même si… même si je dois me battre contre lui.\e
+MFG0230019,\h(«Vyse»)Enrique ?\e
+MFG0230020,"\h(«Enrique»)Reposons-nous pour demain. Gregorio est l'homme
+le plus honorable que je connaisse. Il tiendra
+sa promesse.\e"
+MFG0230021,"\h(«Vyse»)Je comprends.
+Nous devrions nous reposer sur la terre ferme ce
+soir et vous ne devriez pas monter à bord
+jusqu'à demain.\e"
+MFG0230022,"\h(«Vyse»)Il ne faut surtout pas que votre “Oncle” vous
+voit vomir par dessus les rampes du vaisseau,
+au beau milieu d'une bataille.\e"
+MFG0230023,\h(«Enrique»)…Génial… vous commencez à parler comme Aika.\e
+MFG0230024,"\h(«Vyse»)Haha, je suis désolé. Allez, passons la nuit à
+l'auberge. Nous aurons besoin de repos.\e"
+MGG0230000,"\h(«Enrique»)Vyse, da bist du ja.\e"
+MGG0230001,"\h(«Enrique»)Dieses riesige gepanzerte Schiff gehört
+Admiral Gregorio.\e"
+MGG0230002,"\h(«Enrique»)Gregorio ist der beste Abwehr-Taktiker, den
+die valuanische Armada je hatte. Sie haben
+ihn “Ironwall” getauft, die Eiserne Mauer.\e"
+MGG0230003,"\h(«Vyse»)Interessant…… er baut eine Blockade um die
+Stadt auf.\e"
+MGG0230004,\h(«Valua-Soldat»)Prinz Enrique!\e
+MGG0230005,"\h(«Valua-Soldat»)Ich komme im Auftrag von Admiral Gregorio.
+Er hat eine dringende Botschaft für Euch.\e"
+MGG0230006,"\h(«Enrique»)Verstehe.
+Also gut.\e"
+MGG0230007,"\h(«Enrique»)“Ich hoffe, das Befinden meines Prinzen ist
+gut.”\e"
+MGG0230008,"\h(«Enrique»)“Ich hörte, dass Ihr Euch anders besonnen habt
+oder vielleicht von den Luftpiraten dazu
+überredet worden seid.”\e"
+MGG0230009,"\h(«Enrique»)“Kaiserin Teodora hat mich gesandt, um meinen
+Prinzen zurück nach Valua zu geleiten, damit
+er genesen kann.”\e"
+MGG0230010,"\h(«Enrique»)“Ich möchte keine Gewalt anwenden. Bitte
+kommt mit mir zurück.”\e"
+MGG0230011,"\h(«Enrique»)“Wenn mein Prinz sich dem widersetzen sollte,
+werden meine Schiffe bedauerlicherweise morgen
+Mittag mit dem Beschuss der Stadt beginnen.
+Euer ergebener Diener Gregorio”\e"
+MGG0230012,"\h(«Enrique»)……Hmm…… Onkel Gregorio fordert mich auf, mich
+zu ergeben.\e"
+MGG0230013,\h(«Vyse»)Onkel?\e
+MGG0230014,"\h(«Enrique»)Oh, Gregorio war bereits Admiral in der Armada,
+bevor mein Vater starb……\e"
+MGG0230015,"\h(«Enrique»)Er half dabei, mich großzuziehen. Er war für
+mich immer wie ein Onkel.\e"
+MGG0230016,"\h(«Enrique»)Ich weiß, er will wirklich nicht kämpfen, und
+er möchte ernsthaft, dass ich mich ergebe……\e"
+MGG0230017,"\h(«Enrique»)……Aber ich kann nicht zurückkehren. Nicht nach
+allem, was sie verbrochen haben.\e"
+MGG0230018,"\h(«Enrique»)Selbst wenn…… wenn es bedeutet, dass ich gegen
+ihn kämpfen muss.\e"
+MGG0230019,\h(«Vyse»)Enrique?\e
+MGG0230020,"\h(«Enrique»)Ruhen wir uns für morgen aus. Gregorio ist der
+ehrenwerteste Mann, den ich kenne.
+Er wird sein Wort halten.\e"
+MGG0230021,"\h(«Vyse»)Ich verstehe.
+Wir wollten uns heute Nacht an Land ausruhen
+und dich bis morgen vom Schiff fern halten.\e"
+MGG0230022,"\h(«Vyse»)Du willst doch nicht, dass dein “Onkel”
+sieht, wie du dich auf dem Höhepunkt des
+Gefechts übergibst.\e"
+MGG0230023,"\h(«Enrique»)……Toll, jetzt fängst du auch schon so an
+wie Aika.\e"
+MGG0230024,"\h(«Vyse»)Haha, tut mir echt leid. Lasst uns heute Nacht
+im Wirtshaus übernachten. Wir können eine gute
+Nachtruhe gebrauchen.\e"
+MG0240000,"\h(«Vyse»)It's time to go fight Admiral Gregorio.
+It's going to be a tough battle.
+Give it everything you've got!\e"
+MG0240001,\h(«Everyone»)Aye aye!\e
+MG0240002,"\h(«Don»)Hey…
+You aren't actually goin' to fight against the
+Armada, are ya?\e"
+MG0240003,\h(«Vyse»)Huh?\e
+MG0240004,"\h(«Don»)You're planning to fight Admiral Gregorio by
+yourselves?\e"
+MG0240005,\h(«Vyse»)Yup. That's the plan.\e
+MG0240006,"\h(«Don»)I don't doubt your abilities, but I used to be a
+Valuan Soldier. I know what the Armada can do.
+Going up against one of their Admirals is crazy.\e"
+MG0240007,"\h(«Vyse»)Our ship is the best there is. We're faster
+than Gregorio's ship, and I think we can match
+his firepower.\e"
+MG0240008,"\h(«Don»)But… even if you win… 
+You'll never get through the Dark Rift!\e"
+MG0240009,"\h(«Vyse»)Like I said yesterday, our ship is the best 
+there is. Our engines are more powerful 
+than you think.\e"
+MG0240010,"\h(«Vyse»)And it might just be powerful enough to get us 
+through the Dark Rift. Besides…\e"
+MG0240011,"\h(«Vyse»)Ever since I was a kid, I've always wanted to
+see what was beyond the edge of the world.\e"
+MG0240012,"\h(«Vyse»)That very edge is right in front of me. I have a
+chance to do what nobody has ever done before.
+I have a chance to make history today.\e"
+MG0240013,"\h(«Vyse»)If I said that I'm not scared, I'd be lying.
+But, I won't let this opportunity pass me by.\e"
+MG0240014,"\h(«Vyse»)The chance to fulfill my childhood dreams lies
+right in front of me. You don't expect me to
+just give up, do you?\e"
+MG0240015,"\h(«Don»)Heh heh… I suppose, then, no matter what I say,
+you're not goin' to listen…\e"
+MG0240016,"\h(«Don»)The Dark Rift is a giant vortex. If you can get 
+through one side, you'll reach the eye in the 
+middle. It is rumored that the eye is calm.\e"
+MG0240017,"\h(«Don»)There are other calm pockets along the edges 
+of the Dark Rift. If you find one of the 
+pockets, you might have half of a chance.\e"
+MG0240018,"\h(«Vyse»)I see…
+Thank you!\e"
+MG0240019,\h(«Vyse»)I'll come back here when I'm done… I promise!\e
+MG0240020,"\h(«Don»)Heh…
+Kid, you're just like me when I was your age…\e"
+MSG0240000,"\h(«Vyse»)Es hora de luchar contra el Almirante Gregorio.
+Va a ser una batalla muy dura.
+¡Hay que intentarlo de verdad!\e"
+MSG0240001,\h(«Todos»)¡Claro que sí!\e
+MSG0240002,"\h(«Don»)Oye……
+Eso de que vais a luchar contra la Armada no es
+cierto, ¿verdad?\e"
+MSG0240003,\h(«Vyse»)¿Eh?\e
+MSG0240004,"\h(«Don»)¿Pensáis luchar contra el Almirante Gregorio por
+vuestros propios medios?\e"
+MSG0240005,"\h(«Vyse»)Sí, ésa es la idea.\e"
+MSG0240006,"\h(«Don»)No tengo la menor duda sobre vuestras
+habilidades, pero yo fui Soldado Valuan y sé lo
+que la Armada puede hacer. Es una locura.\e"
+MSG0240007,"\h(«Vyse»)Nuestro navío es el mejor. Somos más rápidos que
+el navío de Gregorio y creo que tenemos la misma
+potencia de fogueo.\e"
+MSG0240008,"\h(«Don»)Pero…… aunque ganárais……
+¡Nunca conseguiríais atravesar la Gruta Oscura!\e"
+MSG0240009,"\h(«Vyse»)Como dije ayer, nuestro navío es el mejor.
+Nuestros motores son más potentes de lo que
+crees.\e"
+MSG0240010,"\h(«Vyse»)Y puede que sea tan potente como para atravesar
+la Gruta Oscura. Además……\e"
+MSG0240011,"\h(«Vyse»)Desde que era un niño, siempre he querido ver
+qué hay más allá del límite del mundo.\e"
+MSG0240012,"\h(«Vyse»)Ese límite con el que he soñado está aquí mismo.
+Tengo la oportunidad de hacer lo que nadie ha
+hecho jamás. Puedo pasar a la historia.\e"
+MSG0240013,"\h(«Vyse»)Mentiría si dijera que no me da miedo. Mentiría.
+Pero no voy a dejar pasar esta oportunidad.\e"
+MSG0240014,"\h(«Vyse»)Tengo la posibilidad de cumplir mi sueño de
+niño. No esperarás que abandone, ¿no?\e"
+MSG0240015,"\h(«Don»)Eh…… eh…… Entonces supongo que no importa lo que
+diga, no vas a escucharme……\e"
+MSG0240016,"\h(«Don»)La Gruta Oscura es un remolino gigante.
+Si puedes atravesar un lado, llegarás al ojo que
+hay en el centro.
+Se rumorea que en el ojo hay calma.\e"
+MSG0240017,"\h(«Don»)Hay otros agujeros de calma en los bordes de la
+Gruta Oscura. Si encuentras uno de esos
+agujeros, puede que tengas una oportunidad.\e"
+MSG0240018,"\h(«Vyse»)Ya veo……
+¡Gracias!\e"
+MSG0240019,\h(«Vyse»)Volveré cuando haya terminado…… ¡Lo prometo!\e
+MSG0240020,"\h(«Don»)Eh……
+Niño, me recuerdas a mí cuando tenía tu edad……\e"
+MFG0240000,"\h(«Vyse»)Le moment est venu d'aller se battre contre
+l'Amiral Gregorio. Ce ne sera pas une bataille
+facile. Donnez le meilleur de vous-même !\e"
+MFG0240001,\h(«Tous»)À vos ordres !\e
+MFG0240002,"\h(«Don»)Hé……
+Vous n'allez quand même pas vous battre contre
+l'Armada, si ?\e"
+MFG0240003,\h(«Vyse»)Hein ?\e
+MFG0240004,"\h(«Don»)Vous avez l'intention de vous battre contre
+l'Amiral Gregorio tout seuls ?\e"
+MFG0240005,\h(«Vyse»)Oui. C'est notre plan.\e
+MFG0240006,"\h(«Don»)Je ne mets pas en doute vos capacités, mais j'ai
+été Soldat Valuan. Je sais de quoi l'Armada est
+capable. C'est de la folie de vouloir s'opposer
+à un de leurs Amiraux.\e"
+MFG0240007,"\h(«Vyse»)Notre navire est le meilleur de tous. Nous
+sommes plus rapides que le navire de Gregorio,
+et je crois que notre puissance de feu vaut
+bien la sienne.\e"
+MFG0240008,"\h(«Don»)Mais…… même si vous sortez vainqueurs……
+Vous ne traverserez jamais le Récif Noir !\e"
+MFG0240009,"\h(«Vyse»)Comme je vous l'ai dit hier, notre navire est le
+meilleur. Nos moteurs sont plus puissants que
+vous ne croyez.\e"
+MFG0240010,"\h(«Vyse»)Et ils seront peut-être assez puissants pour
+nous permettre de traverser le Récif Noir.
+Et puis……\e"
+MFG0240011,"\h(«Vyse»)Depuis que je suis petit, j'ai toujours voulu
+voir ce qu'il y avait au bout du monde.\e"
+MFG0240012,"\h(«Vyse»)Le bout du monde est juste devant mes yeux
+maintenant. J'ai l'opportunité de pouvoir faire
+ce que personne n'a jamais fait. Aujourd'hui, je
+vais marquer un tournant dans l'histoire.\e"
+MFG0240013,"\h(«Vyse»)Je mentirais en disant que je n'ai pas peur.
+Mais, je ne laisserai pas passer cette occasion.\e"
+MFG0240014,"\h(«Vyse»)C'est ma chance de réaliser mon rêve d'enfance.
+Vous ne voulez quand même pas que j'abandonne,
+n'est-ce pas ?\e"
+MFG0240015,"\h(«Don»)Hé hé…… Alors je suppose que quoique je dise,
+tu n'écouteras pas……\e"
+MFG0240017,"\h(«Don»)Il y a d'autres poches le long du bord de la
+crevasse. Si vous trouvez une de ces poches,
+vous aurez peut-être une chance infime.\e"
+MFG0240018,"\h(«Vyse»)Je vois……
+Merci !\e"
+MFG0240019,"\h(«Vyse»)Je reviendrai ici quand j'aurai terminé……
+Promis !\e"
+MFG0240020,"\h(«Don»)Hé……
+Petit, j'étais exactement comme toi à ton âge……\e"
+MGG0240000,"\h(«Vyse»)Es ist Zeit, gegen Admiral Gregorio anzutreten.
+Das wird ein harter Kampf.
+Setzt alles ein, was ihr zu bieten habt!\e"
+MGG0240001,\h(«Alle»)Aye aye!\e
+MGG0240002,"\h(«Don»)He……
+Ihr wollt doch nicht etwa gegen die Armada
+kämpfen, oder?\e"
+MGG0240003,\h(«Vyse»)Was?\e
+MGG0240004,"\h(«Don»)Habt ihr vor, allein gegen Admiral Gregorio
+anzutreten?\e"
+MGG0240005,\h(«Vyse»)Genau. Das ist der Plan.\e
+MGG0240006,"\h(«Don»)Ich zweifle nicht an deinen Fähigkeiten, aber
+ich war selbst einmal Soldat in Valua. Ich
+weiß, wozu die Armada fähig ist. Sich mit
+einem ihrer Admirale anzulegen, ist Wahnsinn.\e"
+MGG0240007,"\h(«Vyse»)Wir haben das beste Schiff, das es gibt. Wir
+sind schneller als Gregorios Schiff, und ich
+glaube, wir können es mit seiner Feuerkraft
+aufnehmen.\e"
+MGG0240008,"\h(«Don»)Aber…… selbst wenn ihr die Schlacht gewinnt……
+kommt ihr nie durchs Dark Rift!\e"
+MGG0240009,"\h(«Vyse»)Wie ich bereits sagte, unser Schiff ist das
+weitaus beste. Unsere Maschinen sind
+leistungsfähiger, als du glaubst.\e"
+MGG0240010,"\h(«Vyse»)Und es reicht vielleicht aus, uns durch das
+Dark Rift zu bringen. Außerdem……\e"
+MGG0240011,"\h(«Vyse»)Seit ich klein war, wollte ich immer sehen,
+was hinter dem Ende der Welt liegt.\e"
+MGG0240012,"\h(«Vyse»)Genau das liegt vor mir. Ich habe die
+Gelegenheit, das zu machen, was vorher noch
+niemand gemacht hat. Ich habe die Gelegenheit,
+heute Geschichte zu machen.\e"
+MGG0240013,"\h(«Vyse»)Ich kann nicht sagen, ich hätte keine Angst,
+das wäre eine Lüge. Aber ich kann diese
+Gelegenheit nicht einfach verpassen.\e"
+MGG0240014,"\h(«Vyse»)Die Chance, meine Kindheitsträume zu erfüllen,
+ist zum Greifen nahe. Ihr erwartet doch nicht
+von mir, dass ich jetzt aufgebe?\e"
+MGG0240015,"\h(«Don»)Tja, also…… dann nehme ich wohl an, dass du
+sowieso nicht auf mich hörst, egal, was ich
+sage……\e  "
+MGG0240016,"\h(«Don»)Das Dark Rift ist ein riesiger Strudel. Wenn
+du auf der einen Seite durchkommst, erreichst
+du das Auge in der Mitte. Man sagt, dort
+drinnen ist es ruhig.\e"
+MGG0240017,"\h(«Don»)Am Rande des Dark Rift gibt es noch weitere
+ruhigere Luftlöcher. Wenn ihr eines davon
+findet, habt ihr vielleicht sogar eine Chance.\e"
+MGG0240018,"\h(«Vyse»)Verstehe……
+Vielen Dank!\e"
+MGG0240019,"\h(«Vyse»)Ich komme zurück, wenn ich es hinter mir habe……
+Das verspreche ich!\e"
+MGG0240020,"\h(«Don»)He……
+Junge, du bist genauso wie ich, als ich in
+deinem Alter war……\e"
+MG0260000,"\h(«Former Sailor»)Yeah! Go!
+Turn!!! No, not that way!!!\e"
+MG0260001,"\h(«Sailor»)You idiots! What are you doing?
+You're supposed to fire all your cannons right
+there!!\e"
+MG0260002,"\h(«Former Sailor»)Yeah, get them!!!
+Hey, they're not that bad!!\e"
+MG0260003,\h(«Everyone»)Huh?!\e
+MG0260004,"\h(«Everyone»)Aaaaahhhh!!!
+Incoming!!!\e"
+MG0260005,"\h(«Don»)They still need to get past the next line of
+ships… They still have a long way to go!\e"
+MSG0260000,"\h(«Antiguo Marino»)¡Sí! ¡Adelante!
+¡¡¡Dad la vuelta!!! ¡¡¡No, por ahí no!!!\e"
+MSG0260001,"\h(«Marino»)¡Idiotas! ¿Qué estáis haciendo?
+¡¡Se supone que tenéis que disparar los cañones
+aquí!!\e"
+MSG0260002,"\h(«Antiguo Marino»)¡¡¡Sí, a por ellos!!!
+¡¡Eh, no son tan malos!!\e"
+MSG0260003,\h(«Todos»)¡¿Eh?!\e
+MSG0260004,"\h(«Todos»)¡¡¡Aaaaahhhh!!!
+¡¡¡Que vienen!!!\e"
+MSG0260005,"\h(«Don»)Todavía tiene que pasar otra línea de navíos……
+¡Aún les queda un largo camino por recorrer!\e"
+MFG0260000,"\h(«Ancien Marin»)Allez ! En avant !
+Tournez !!! Non, pas par là !!!\e"
+MFG0260001,"\h(«Marin»)Bande d'idiots ! Que faites-vous ?
+Vous devez tirer là-bas !!\e"
+MFG0260002,"\h(«Ancien Marin»)Ouais, bombardez-les !!!
+Hé, ils ne sont pas si mauvais que ça !!\e"
+MFG0260003,\h(«Tous»)Hein ?!\e
+MFG0260004,"\h(«Tous»)Aaaaahhhh !!!
+Attention !!!\e"
+MFG0260005,"\h(«Don»)Ils n'ont pas encore dépassé la seconde rangée
+de navires…… Il leur reste du chemin à faire !\e"
+MGG0260000,"\h(«Ehemaliger Matrose»)Jaaa! Vorwärts!
+Umdrehen!!! Nein, nicht so rum!!!\e"
+MGG0260001,"\h(«Matrose»)Idioten! Was macht ihr denn?
+Ihr solltet alle eure Kanonen genau dort
+abfeuern!!\e"
+MGG0260002,"\h(«Ehemaliger Matrose»)Jaaa, holt sie euch!!!
+He, sie sind gar nicht so schlecht!!\e"
+MGG0260003,\h(«Alle»)Waas?!\e
+MGG0260004,"\h(«Alle»)Aaaaahhhh!!!
+Diese Richtung!!!\e"
+MGG0260005,"\h(«Don»)Sie müssen noch durch die nächste Reihe von
+Schiffen hindurch…… Sie haben noch viel vor
+sich!\e"
+MG0280000,"\h(«Enrique»)I always thought that if we were ever in battle
+together that we'd be on the same side.\e"
+MG0280001,"\h(«Gregorio»)Prince Enrique.
+Is there anything I can do to make you
+reconsider?\e"
+MG0280002,"\h(«Enrique»)…No… I've made up my mind.
+I am not going back to Valua.\e"
+MG0280003,"\h(«Enrique»)I know that you've noticed a change in the
+Empire as well… 
+They are headed down a dark path…\e"
+MG0280004,"\h(«Enrique»)Trying to rule the world with an iron fist… 
+It will be Valua's downfall…\e"
+MG0280005,"\h(«Enrique»)This world… this sky… is not Valua's to rule.
+It belongs to the people.\e"
+MG0280006,\h(«Gregorio»)……\e
+MG0280007,"\h(«Enrique»)And to right the wrongs that Valua has commited,
+I have decided to travel with Vyse and his
+companions.\e"
+MG0280008,"\h(«Enrique»)Tell that to my mother.
+And also that I pray every day for her good
+health.\e"
+MG0280009,"\h(«Enrique»)This is goodbye.
+I must go. Be well.\e"
+MG0280010,"\h(«Gregorio»)Farewell, Young Prince.\e"
+MG0280011,"\h(«Crazy Sailor»)Those kids are great! They just took out the
+Armada with one ship!\e"
+MG0280012,"\h(«Former Sailor»)HaHaHa!
+They make me feel like sailing again!\e"
+MG0280013,"\h(«Don»)Vyse…
+You put on quite a show…\e"
+MG0280014,"\h(«Don»)If you make it back from the Dark Rift… 
+I hope you come back here 
+and take me with you…\e"
+MG0280015,"\h(«Don»)I can't believe I'm saying this…
+You hear me, kid?! You better make it back!\e"
+MSG0280000,"\h(«Enrique»)Siempre creí que si alguna vez estábamos en la
+misma batalla sería en el mismo bando.\e"
+MSG0280001,"\h(«Gregorio»)Príncipe Enrique.
+¿Hay algo que pueda hacer para hacerte cambiar
+de idea?\e"
+MSG0280002,"\h(«Enrique»)…… No…… Ya me he decidido.
+No voy a volver a Valua.\e"
+MSG0280003,"\h(«Enrique»)Sé que tú también has notado los cambios que ha
+habido en el Imperio……
+Se encaminan hacia un sendero oscuro……\e"
+MSG0280004,"\h(«Enrique»)Intentar gobernar el mundo con puño de hierro……
+Será el fin de Valua……\e"
+MSG0280005,"\h(«Enrique»)Este mundo…… estos cielos…… no deben ser
+gobernados por Valua.
+Pertenecen a la gente.\e"
+MSG0280006,\h(«Gregorio»)……\e
+MSG0280007,"\h(«Enrique»)Y para enmendar las faltas que Valua ha
+cometido, he decidido viajar con Vyse y sus
+compañeros.\e"
+MSG0280008,"\h(«Enrique»)Díselo a mi madre.
+Y también que rezo todos los días por su salud.\e"
+MSG0280009,"\h(«Enrique»)Esto significa un adiós.
+Debo irme. Cuidaos.\e"
+MSG0280010,"\h(«Gregorio»)Adiós, Joven Príncipe.\e"
+MSG0280011,"\h(«Marino Loco»)¡Esos chicos son geniales!
+¡Acaban de vencer a la Armada con un solo navío!\e"
+MSG0280012,"\h(«Antiguo Marino»)¡Jajajaja!
+¡Hacen que me vuelva a gustar la navegación!\e"
+MSG0280013,"\h(«Don»)Vyse……
+Pareces muy seguro de ti mismo……\e"
+MSG0280014,"\h(«Don»)Si consiguieras regresar de la Gruta Oscura……
+Espero que vuelvas pronto para poder viajar
+contigo……\e"
+MSG0280015,"\h(«Don»)No puedo creer lo que estoy diciendo……
+¡¿Me estás oyendo, muchacho?! ¡Será mejor que
+vuelvas!\e"
+MFG0280000,"\h(«Enrique»)J'ai toujours cru que si l'on se retrouvait sur
+un champ de bataille, nous serions dans le même
+camp.\e"
+MFG0280001,"\h(«Gregorio»)Prince Enrique.
+Est-ce que je peux vous faire changer d'avis ?\e"
+MFG0280002,"\h(«Enrique»)……Non…… J'ai pris ma décision.
+Je ne reviendrai pas à Valua.\e"
+MFG0280003,"\h(«Enrique»)Je sais bien que vous aussi vous avez remarqué
+un changement dans l'Empire……
+Ils ont choisi la mauvaise voie……\e"
+MFG0280004,"\h(«Enrique»)Éssayer de régner sur le monde avec une main de
+fer entraînera la chute de Valua……\e"
+MFG0280005,"\h(«Enrique»)Valua ne doit pas régner sur…… ce monde…… ce
+ciel. Cela appartient au peuple.\e"
+MFG0280006,\h(«Gregorio»)…………\e
+MFG0280007,"\h(«Enrique»)Et pour réparer le mal que Valua a fait,
+j'ai décidé de voyager avec Vyse et ses
+compagnons.\e"
+MFG0280008,"\h(«Enrique»)Dites-le à ma mère.
+Et dites-lui aussi que je prie chaque jour pour
+qu'elle soit en bonne santé.\e"
+MFG0280009,"\h(«Enrique»)Le moment est venu de se dire au revoir.
+Je dois y aller. Portez-vous bien.\e"
+MFG0280010,"\h(«Gregorio»)Adieu, Jeune Prince.\e"
+MFG0280011,"\h(«Marin Fou»)Ces gamins sont formidables ! Ils ont vaincu
+l'Armada entière avec un seul navire !\e"
+MFG0280012,"\h(«Ancien Marin»)HaHaHa !
+Ils m'ont redonné l'envie de naviguer !\e"
+MFG0280013,"\h(«Don»)Vyse……
+Quel spectacle !\e"
+MFG0280014,"\h(«Don»)Si tu reviens vivant du Récif Noir……
+J'espère que tu reviendras me chercher……\e"
+MFG0280015,"\h(«Don»)Je n'arrive pas à croire ce que je viens de
+dire…… Tu m'entends, petit ?! Tu as intérêt à
+revenir !\e"
+MGG0280000,"\h(«Enrique»)Ich habe immer gedacht, dass wir im Kampf
+auf der gleichen Seite stehen würden.\e"
+MGG0280001,"\h(«Gregorio»)Prinz Enrique.
+Kann ich irgendetwas tun, damit Ihr Euch
+anders entscheidet?\e"
+MGG0280002,"\h(«Enrique»)……Nein…… ich bin entschlossen.
+Ich gehe nicht zurück nach Valua.\e"
+MGG0280003,"\h(«Enrique»)Ich weiß, dass auch du Veränderungen am
+Kaiserreich wahrgenommen hast…… es befindet
+sich auf finsteren Wegen……\e"
+MGG0280004,"\h(«Enrique»)Die Welt mit eiserner Faust regieren zu wollen……
+Es wird Valuas Untergang sein……\e"
+MGG0280005,"\h(«Enrique»)Diese Welt…… dieser Himmel…… es kommt Valua
+nicht zu, sie zu beherrschen. Sie gehören dem
+Volk.\e"
+MGG0280006,\h(«Gregorio»)……\e
+MGG0280007,"\h(«Enrique»)Und um das Unrecht wieder gutzumachen, das
+Valua verübt hat, habe ich mich entschlossen,
+mit Vyse und seinen Kameraden zu reisen.\e"
+MGG0280008,"\h(«Enrique»)Sag das meiner Mutter.
+Und außerdem, dass ich jeden Tag darum bete,
+dass sie gesund bleibt.\e"
+MGG0280009,"\h(«Enrique»)Das ist der Abschied.
+Ich muss gehen. Alles Gute.\e"
+MGG0280010,"\h(«Gregorio»)Adieu, junger Prinz.\e"
+MGG0280011,"\h(«Ausgelassener Matrose»)Diese Kids sind toll! Die haben die Armada mit
+einem einzigen Schiff hochgehen lassen!\e"
+MGG0280012,"\h(«Ehemaliger Matrose»)HaHaHa!
+Da bekomme ich richtig Lust, wieder zur See
+zu fahren!\e"
+MGG0280013,"\h(«Don»)Vyse……
+Keine schlechte Leistung……\e"
+MGG0280014,"\h(«Don»)Wenn du es schaffst, vom Dark Rift
+zurückzukommen…… hoffe ich, dass du mich
+auf dem Rückweg mitnimmst.\e"
+MGG0280015,"\h(«Don»)Unglaublich, dass ich so etwas sage……
+Hörst du, Junge?! Dass du ja zurückkommst!\e"
+MG0310000,"\h(«Vyse»)That sky rift looks worse 
+than any of the others… \e"
+MG0310001,"\h(«Aika»)If we tried to power our way through it, I think
+the Delphinus would get ripped to pieces.\e"
+MG0310002,"\h(«Vyse»)But, if we don't go through there, we won't be
+able to reach Yafutoma. Isn't there something we
+can do?\e"
+MG0310003,\h(«Enrique»)Ungh…\e
+MG0310004,"\h(«Aika»)Enrique, are you feeling any better?\e"
+MG0310005,"\h(«Enrique»)No…
+To be completely honest, I feel awful.\e"
+MG0310006,"\h(«Enrique»)Why don't you guys take a look around the city?
+I don't think it would be wise for me to move in
+my condition.\e"
+MG0310007,\h(«Fina»)I'll stay here and look after Enrique.\e
+MG0310008,"\h(«Vyse»)Alright. Aika, let's go check out the city.
+Someone here has to know how to get to Yafutoma.\e"
+MSG0310000,"\h(«Vyse»)Esa grieta celeste es la peor que he visto hasta
+ahora……\e"
+MSG0310001,"\h(«Aika»)Si intentamos atravesarla con el Delphinus, creo
+que el barco acabaría destrozado.\e"
+MSG0310002,"\h(«Vyse»)Pero si no vamos por aquí, no podremos llegar a
+Yafutoma. ¿Qué podemos hacer?\e"
+MSG0310003,\h(«Enrique»)Puaj……\e
+MSG0310004,"\h(«Aika»)Enrique, ¿te encuentras un poco mejor?\e"
+MSG0310005,"\h(«Enrique»)No……
+Para ser sincero, me encuentro fatal.\e"
+MSG0310006,"\h(«Enrique»)¿Por qué no echáis un vistazo por la ciudad?
+No creo que sea una buena idea que me mueva tal
+y como me encuentro ahora.\e"
+MSG0310007,\h(«Fina»)Me voy a quedar aquí cuidando de Enrique.\e
+MSG0310008,"\h(«Vyse»)Muy bien. Aika, vamos a inspeccionar la ciudad.
+Uno de nosotros tiene que averiguar cómo llegar
+a Yafutoma.\e"
+MFG0310000,"\h(«Vyse»)Cette crevasse céleste a l'air pire que toutes
+les autres……\e"
+MFG0310001,"\h(«Aika»)Si nous essayons de passer à toute vitesse, je
+crois que le Delphinus va se briser en mille
+morceaux.\e"
+MFG0310002,"\h(«Vyse»)Mais, si nous ne passons pas par là, nous
+n'atteindrons pas Yafutoma. Que pouvons-nous
+faire ?\e"
+MFG0310003,\h(«Enrique»)Ugh……\e
+MFG0310004,"\h(«Aika»)Enrique, ça va mieux ?\e"
+MFG0310005,"\h(«Enrique»)Non……
+Pour être franc, cela ne va pas du tout.\e"
+MFG0310006,"\h(«Enrique»)Pourquoi n'allez-vous pas visiter la ville ?
+Je ne crois pas que je devrais bouger dans cet
+état là.\e"
+MFG0310007,\h(«Fina»)Je resterai ici pour m'occuper d'Enrique.\e
+MFG0310008,"\h(«Vyse»)D'accord. Aika, allons visiter la ville.
+Quelqu'un doit bien savoir comment se rendre à
+Yafutoma.\e"
+MGG0310000,"\h(«Vyse»)Diese Turbulenz sieht verheerender als
+die anderen aus……\e"
+MGG0310001,"\h(«Aika»)Wenn wir versuchen, da einfach durchzupowern,
+würde es die Delphinus in Stücke reißen.\e"
+MGG0310002,"\h(«Vyse»)Aber wenn wir nicht durchfahren, kommen wir
+nicht nach Yafutoma. Was können wir bloß tun?\e"
+MGG0310003,\h(«Enrique»)Ürrg……\e
+MGG0310004,"\h(«Aika»)Enrique, geht es dir schon besser?\e"
+MGG0310005,"\h(«Enrique»)Nein……
+Um ehrlich zu sein, fühle ich mich furchtbar.\e"
+MGG0310006,"\h(«Enrique»)Warum schaut ihr euch nicht ein bisschen in
+der Stadt um? In meinem Zustand ist es
+wohl besser, wenn ich mich nicht bewege.\e"
+MGG0310007,\h(«Fina»)Ich bleibe hier und kümmere mich um Enrique.\e
+MGG0310008,"\h(«Vyse»)Ok. Aika, lass uns die Stadt erforschen.
+Irgendjemand hier muss doch wissen, wie wir
+nach Yafutoma kommen.\e"
+"",me018b.sct
+"",me018a.sct
+"",me034a.sct
+"",me034a.sct
+"",G23発生しました。\c
+"",a242ag23.mld
+"",a242ag23.mld
+"",a242ag23a.mld
+"",a242ag23a.mld
+"",M0307
+"",e6g023
+"",a242ag23.mld
+"",a242ag23a.mld
+"",G24発生しました。\c
+"",a242ag24.mld
+"",a242ag24.mld
+"",M0370
+"",e6g024
+"",a242ag24.mld
+"",イベントＧ２６が発生しました。\c
+"",me521a.sct
+"",a242ag26.mld
+"",a242ag26.mld
+"",a242ag26_efe.mld
+"",a242ag26_efe.mld
+"",M0370
+"",e6g026
+"",me521a.sct
+"",a242ag26.mld
+"",a242ag26.mld_efe
+"",イベントＧ２８が発生しました。\c
+"",me098a.sct
+"",a242ag28.mld
+"",a242ag28.mld
+"",a242ag28_efe.mld
+"",a242ag28_efe.mld
+"",M0311
+"",e6g028
+"",M0329
+"",M0329
+"",a242ag28.mld
+"",a242ag28_efe.mld
+"",EV_G31発生しました。\c
+"",a242ag31.mld
+"",a242ag31.mld
+"",e6g031
+"",a242ag31.mld

@@ -1,0 +1,551 @@
+[Event Name],Task ID
+ME0160000,"\h(«Aika»)Now I know why they call this place The City of
+Mist. But I don't remember seeing any mist in
+the forest.\e"
+ME0160001,"\h(«Vyse»)The air is thin… It's a little hard to breathe.
+We were going up for a long time. 
+I think these mists are actually clouds.\e"
+ME0160002,"\h(«Vyse»)But this doesn't look anything like a Lost City
+of Gold… There's just a bunch of ruins up here.\e"
+ME0160003,"\h(«Fina»)In the Old World, Rixis was the capital 
+of the Green Civilization.\e"
+ME0160004,\h(«Fina»)It was destroyed by the Rains of Destruction.\e
+ME0160005,"\h(«Fina»)Since then, it's been frozen in time.\e"
+ME0160006,"\h(«Vyse»)These craters must have been caused by the Moon
+Stones that were bombarding the city.\e"
+ME0160007,\h(«Aika»)I'm not seeing any gold here…\e
+ME0160008,"\h(«Drachma»)As time passed, stories about this city probably
+got more and more exaggerated.\e"
+ME0160009,"\h(«Aika»)We were supposed to find gold here…
+I should have slapped that dirty old man
+silly when I had the chance.\e"
+ME0160010,\h(«Aika»)What the…?\e
+ME0160011,\h(«Aika»)……\e
+ME0160012,"\h(«Aika»)Vyse…
+If this city has been dead for generations, 
+then who is that!?\e"
+ME0160013,"\h(«Vyse»)What?!
+Where?!\e"
+ME0160014,\h(«Aika»)Over there!\e
+ME0160015,"\h(«Vyse»)… Where?
+I don't see anything.\e"
+ME0160016,"\h(«Aika»)… Huh?
+But… but… there was someone there!\e"
+ME0160017,"\h(«Vyse»)Aika, this city has been dead for a very long
+time… Who else would be here? It's probably
+just your imagination acting up.\e"
+ME0160018,"\h(«Aika»)Why don't you believe me?
+I know I saw something.\e"
+ME0160019,"\h(«Aika»)Fina…
+Do you think that maybe I saw a ghost?\e"
+ME0160020,"\h(«Fina»)A ghost?
+Umm… what's a ghost?\e"
+ME0160021,"\h(«Aika»)Heh…
+It's been a while since you said something
+like that…\e"
+ME0160022,"\h(«Aika»)A ghost is… umm, how should I explain this…
+Well, it's something very scary, that's for
+sure!\e"
+ME0160023,"\h(«Fina»)Really? Well, if you're this scared, Aika,
+this “ghost” must be something scary indeed.\e"
+ME0160024,"\h(«Aika»)The two things I hate the most right now are 
+dirty old men and ghosts.\e"
+ME0160025,\h(«Aika»)Vyse… let's… let's not go! We'll be cursed!\e
+ME0160026,"\h(«Vyse»)Oh, come on, Aika… We came all this way for the
+Green Crystal and we're not about 
+to go back empty-handed.\e"
+ME0160027,\h(«Vyse»)You could just wait here until we get back.\e
+ME0160028,"\h(«Aika»)Oh no… I'm not going to wait here all by myself
+with those… things out there.\e"
+ME0160029,"\h(«Aika»)Alright, alright!
+I'll go with you!
+I can't believe I'm doing this…\e"
+MFE0160000,"\h(«Aika»)Maintenant je comprends pourquoi ils appellent
+cet endroit la Cité des Brumes. Mais je ne me
+souviens pas avoir vu de brume dans la forêt.\e"
+MFE0160001,"\h(«Vyse»)L'air se raréfie…… C'est difficle de respirer.
+Cela fait un moment que nous grimpons.
+Je crois qu'en fait ces brumes sont des nuages.\e"
+MFE0160002,"\h(«Vyse»)Mais cela ne ressemble pas du tout à une Cité
+Perdue en Or…… Il y a seulement quelques ruines
+ici.\e"
+MFE0160003,"\h(«Fina»)Dans l'Ancien Monde, Rixis était la capitale de
+la Civilisation Verte.\e"
+MFE0160004,"\h(«Fina»)Elle a été détruite par les Pluies de la
+Destruction.\e"
+MFE0160005,"\h(«Fina»)Depuis cette époque, le temps s'est arrêté.\e"
+MFE0160006,"\h(«Vyse»)Les Pierres de Lune ont dû creuser ces cratères
+en bombardant la ville.\e"
+MFE0160007,\h(«Aika»)Je ne vois pas d'or ici……\e
+MFE0160008,"\h(«Drachma»)Avec le temps, les gens ont dû exagérer les
+histoires sur cette ville.\e"
+MFE0160009,"\h(«Aika»)Nous étions censés trouver de l'or ici……
+J'aurais dû en coller une à ce vieux dégoûtant
+débile tant que je le pouvais encore.\e"
+MFE0160010,\h(«Aika»)Qu'est-ce……?\e
+MFE0160011,\h(«Aika»)…………\e
+MFE0160012,"\h(«Aika»)Vyse……
+Si cette ville est morte depuis des générations,
+alors c'est qui ça !?\e"
+MFE0160013,"\h(«Vyse»)Quoi ?!
+Où ?!\e"
+MFE0160014,\h(«Aika»)Là-bas !\e
+MFE0160015,"\h(«Vyse»)…… Où ?
+Je ne vois rien.\e"
+MFE0160016,"\h(«Aika»)…… Hein ?
+Mais…… mais…… il y avait quelqu'un là-bas !\e"
+MFE0160017,"\h(«Vyse»)Aika, cette ville est morte depuis très
+longtemps…… Qui pourrait être là ? C'est
+sûrement ton imagination qui te joue des tours.\e"
+MFE0160018,"\h(«Aika»)Pourquoi tu ne me crois pas ?
+Je sais ce que j'ai vu.\e"
+MFE0160019,"\h(«Aika»)Fina……
+Tu crois que j'ai peut-être vu un fantôme ?\e"
+MFE0160020,"\h(«Fina»)Un fantôme ?
+Umm…… qu'est ce que c'est un fantôme ?\e"
+MFE0160021,"\h(«Aika»)Hé……
+Cela faisait longtemps que tu n'en avais pas
+sorti une comme ça……\e"
+MFE0160022,"\h(«Aika»)Un fantôme est…… umm, comment expliquer……
+Eh bien, c'est quelque chose d'effrayant, ça
+c'est sûr !\e"
+MFE0160023,"\h(«Fina»)Vraiment ? Eh bien, si toi Aika, tu es
+aussi effrayée, ce “fantôme” doit vraiment faire
+peur.\e"
+MFE0160024,"\h(«Aika»)Ce que je déteste le plus en ce moment, ce sont
+les vieux dégoûtants et les fantômes.\e"
+MFE0160025,"\h(«Aika»)Vyse…… n'y…… n'y allons pas !
+Nous serons maudits !\e"
+MFE0160026,"\h(«Vyse»)Mais enfin, Aika…… Nous avons fait tout ce
+chemin pour trouver le Cristal Vert et nous
+n'allons pas repartir les mains vides.\e"
+MFE0160027,\h(«Vyse»)Tu pourrais rester ici jusqu'à notre retour.\e
+MFE0160028,"\h(«Aika»)Oh non…… Je ne vais pas rester ici toute seule
+avec ces…… créatures.\e"
+MFE0160029,"\h(«Aika»)D'accord, d'accord !
+Je viens avec vous !
+Je n'y crois pas……\e"
+MGE0160000,"\h(«Aika»)Jetzt weiß ich, warum sie diesen Ort City of
+Mist nennen. Aber ich erinnere mich nicht,
+im Wald Nebel gesehen zu haben.\e"
+MGE0160001,"\h(«Vyse»)Die Luft ist dünn…… Das Atmen fällt etwas
+schwer. Wir sind lange Zeit aufgestiegen.
+Ich glaube, das ist kein Nebel, das sind
+Wolken.\e"
+MGE0160002,"\h(«Vyse»)Aber das hier sieht nicht so aus wie eine
+Lost City of Gold……  Hier oben ist nur ein
+Haufen Ruinen.\e"
+MGE0160003,"\h(«Fina»)In der Alten Welt war Rixis die Hauptstadt
+der Green Civilization.\e"
+MGE0160004,"\h(«Fina»)Sie wurde durch die Rains of Destruction
+zerstört.\e"
+MGE0160005,\h(«Fina»)Seitdem ist sie in der Zeit erstarrt.\e
+MGE0160006,"\h(«Vyse»)Diese Krater müssen von den Moon Stones
+verursacht worden sein, die die Stadt
+getroffen haben.\e"
+MGE0160007,\h(«Aika»)Ich sehe hier kein Gold……\e
+MGE0160008,"\h(«Drachma»)Im Laufe der Zeit sind die Geschichten über
+diese Stadt wahrscheinlich mehr und mehr
+aufgebauscht worden.\e"
+MGE0160009,"\h(«Aika»)Wir sollten hier Gold finden…… Ich hätte diesen
+komischen alten Typen windelweich schlagen
+sollen, als ich konnte.\e"
+MGE0160010,\h(«Aika»)Was zum……\e
+MGE0160011,\h(«Aika»)……\e
+MGE0160012,"\h(«Aika»)Vyse……
+Wenn diese Stadt seit Generationen ausgestorben
+sein soll, wer ist dann das!?\e"
+MGE0160013,"\h(«Vyse»)Was?!
+Wo?!\e"
+MGE0160014,\h(«Aika»)Dort drüben!\e
+MGE0160015,"\h(«Vyse»)…… Wo?
+Ich sehe nichts.\e"
+MGE0160016,"\h(«Aika»)…… He?
+Aber…… aber…… da war doch jemand!\e"
+MGE0160017,"\h(«Vyse»)Aika, diese Stadt ist schon seit langer Zeit
+ausgestorben…… Wer außer uns sollte hier sein?
+Es ist wahrscheinlich nur deine Einbildung.\e"
+MGE0160018,"\h(«Aika»)Warum glaubst du mir nicht?
+Ich weiß, dass ich etwas gesehen habe.\e"
+MGE0160019,"\h(«Aika»)Fina……
+Meinst du, ich hätte vielleicht ein Gespenst
+gesehen?\e"
+MGE0160020,"\h(«Fina»)Ein Gespenst?
+Ähmm…… was ist ein Gespenst?\e"
+MGE0160021,"\h(«Aika»)He……
+Es ist schon eine Weile her, seit du so was
+gesagt hast……\e"
+MGE0160022,"\h(«Aika»)Ein Gespenst ist…… ähmm, wie soll ich das
+erklären…… Nun, es ist etwas, das Angst macht,
+darauf kannst du dich verlassen!\e"
+MGE0160023,"\h(«Fina»)Wirklich? Also, wenn du solche Angst hast,
+Aika, muss dieses “Gespenst” schon was
+Schreckliches sein.\e"
+MGE0160024,"\h(«Aika»)Die zwei Dinge, die ich im Moment am meisten
+hasse, sind alte sabbernde Typen und Gespenster.\e"
+MGE0160025,"\h(«Aika»)Vyse…… lass uns…… lass uns nicht gehen!
+Wir werden verflucht werden!\e"
+MGE0160026,"\h(«Vyse»)Ach, komm schon, Aika…… Wir sind so weit
+gereist, um den Green Crystal zu holen, wir
+werden doch nicht mit leeren Händen
+zurückkehren.\e"
+MGE0160027,"\h(«Vyse»)Du könntest einfach hier warten, bis wir
+zurück sind.\e"
+MGE0160028,"\h(«Aika»)Oh nein…… Ich warte hier nicht ganz allein mit
+diesen…… Dingern da draußen.\e"
+MGE0160029,"\h(«Aika»)Also, in Ordnung!
+Ich geh mit euch!
+Ich glaub's selbst nicht, was ich da tue……\e"
+MSE0160000,"\h(«Aika»)Ahora sé por qué este lugar se llama la Ciudad
+de la Niebla. Pero no recuerdo haber visto
+niebla en el bosque.\e"
+MSE0160001,"\h(«Vyse»)El aire es muy limpio…… Me cuesta respirar.
+Hemos estado escalando mucho rato.
+Creo que esta niebla en realidad son nubes.\e"
+MSE0160002,"\h(«Vyse»)Pero esto no tiene aspecto de ser una Ciudad
+Perdida de Oro…… No hay más que ruinas por aquí.\e"
+MSE0160003,"\h(«Fina»)En el Mundo Antiguo, Rixis era la capital de la
+Civilización Verde.\e"
+MSE0160004,\h(«Fina»)Fue destruida por las Lluvias Destructoras.\e
+MSE0160005,\h(«Fina»)Desde entonces ha estado congelada.\e
+MSE0160006,"\h(«Vyse»)Estos cráteres han debido ser causados por las
+Piedras Lunares que bombardearon la ciudad.\e"
+MSE0160007,\h(«Aika»)Yo aquí no veo oro……\e
+MSE0160008,"\h(«Drachma»)Con el paso del tiempo las historias sobre la
+ciudad se fueron exagerando más y más.\e"
+MSE0160009,"\h(«Aika»)En teoría íbamos a encontrar oro en este sitio……
+Debería haber abofeteado a ese estúpido viejo
+verde cuando se me presentó la oportunidad.\e"
+MSE0160010,\h(«Aika»)¿Pero qué……?\e
+MSE0160011,\h(«Aika»)……\e
+MSE0160012,"\h(«Aika»)Vyse……
+Si esta ciudad lleva durante generaciones vacía,
+¿¡entonces quién es ése!?\e"
+MSE0160013,"\h(«Vyse»)¡¿Qué?!
+¡¿Qué?!\e"
+MSE0160014,\h(«Aika»)¡Por ahí!\e
+MSE0160015,"\h(«Vyse»)¿Dónde?
+No veo nada.\e"
+MSE0160016,"\h(«Aika»)…… ¿Eh?
+Pero…… pero…… ¡Ahí había alguien!\e"
+MSE0160017,"\h(«Vyse»)Aika, esta ciudad lleva muerta mucho tiempo……
+¿Quién iba a estar aquí? Seguramente es producto
+de tu imaginación.\e"
+MSE0160018,"\h(«Aika»)¿Por qué no me crees?
+Sé que he visto algo.\e"
+MSE0160019,"\h(«Aika»)Fina……
+¿Crees que he podido ver un fantasma?\e"
+MSE0160020,"\h(«Fina»)¿Un fantasma?
+Umm…… ¿Qué es un fantasma?\e"
+MSE0160021,"\h(«Aika»)Eh……
+Hacía tiempo que no decías algo así……\e"
+MSE0160022,"\h(«Aika»)Un fantasma es…… umm, cómo lo voy a explicar……
+¡Bueno, es algo que da mucho miedo, eso seguro!\e"
+MSE0160023,"\h(«Fina»)¿De verdad? Bueno, si tienes tanto miedo, Aika,
+este “fantasma” debe ser temible, desde luego.\e"
+MSE0160024,"\h(«Aika»)Las dos cosas que más odio en este momento son
+viejos verdes y fantasmas.\e"
+MSE0160025,"\h(«Aika»)Vyse…… vamos…… ¡vamos a dejarlo! ¡Nos van a
+maldecir!\e"
+MSE0160026,"\h(«Vyse»)Oh, venga ya, Aika…… Hemos recorrido todo este
+camino por el Cristal Verde y no vamos a
+volvernos con las manos vacías.\e"
+MSE0160027,"\h(«Vyse»)Si quieres, espéranos aquí hasta que volvamos.\e"
+MSE0160028,"\h(«Aika»)Oh no…… No pienso esperar aquí sola con esas……
+esas cosas ahí fuera.\e"
+MSE0160029,"\h(«Aika»)¡Vale, vale!
+¡Iré con vosotros!
+No puedo creer que vaya a hacer esto……\e"
+M01120000,"\h(«Fina»)“We, who have come from the
+Temple of the Silver Moon…”\e"
+M01120001,"\h(«Fina»)“… have sealed within the forests, after the
+Rains of Destruction washed away the lands,
+the unsleeping giant, Grendel…”\e"
+M01120002,"\h(«Fina»)“And upon his sealing, the Green Crystal was
+kept within these walls…”\c"
+M01120003,"\h(«Fina»)This is written in the holy language
+of the Silver Temple.\e"
+M01120004,"\h(«Fina»)The Silvites must have inscribed these
+words when they were here.\c"
+M01120005,"\h(«Vyse»)So, this Quetya person that all the Ixa'takans
+keep talking about was probably a Silvite just
+like Fina.\e"
+M01120006,"\h(«Aika»)That would explain why everyone mistook Fina
+for Quetya… whoever he or she is.\c"
+M01120007,"\h(«Vyse»)There some kind of writing on the walls, but
+I can't read it. I have no idea what it says…\c"
+M01120008,"\h(«Vyse»)There are pictures of people wearing masks.
+They're probably ancestors of the Ixa'takans.\c"
+M01120009,"\h(«Vyse»)This is the pedestal where the Moon Crystal was.
+There's an empty spot where it used to be.\c"
+ME0150000,"\h(«Vyse»)There's an indentation just big enough
+to fit a small gem…\e"
+ME0150001,"\h(«What will you do?»)“Let's try putting in the Golden Man's Eye gem.”
+“Let's try putting in the Great Bird's Eye gem.”
+“It might be dangerous… let's not touch it.”\e"
+ME0150002,"\h(«Vyse»)The Golden Man's Eye is giving off a strange
+light now…\e"
+ME0150003,"\h(«Vyse»)The Great Bird's Eye is set into an indentation
+in the statue…\e"
+ME0150004,"\h(«What will you do?»)“Switch it with the Golden Man's Eye.”
+“Just take the Great Bird's Eye out.”
+“Leave it as it is.”\e"
+ME0150005,"\h(«Vyse»)There's an indentation just big enough
+to fit a small gem…\e"
+ME0150006,"\h(«What will you do?»)“Let's try putting in the Golden Man's Eye gem.”
+“Let's try putting in the Great Bird's Eye gem.”
+“It might be dangerous… let's not touch it.”\e"
+ME0150007,"\h(«Vyse»)The Golden Man's Eye is set into an indentation
+in the statue…\e"
+ME0150008,"\h(«What will you do?»)“Just take the Golden Man's Eye out.”
+“Switch it with the Great Bird's Eye.”
+“Leave it as it is.”\e"
+ME0150009,"\h(«Vyse»)The Great Bird's Eye is giving off a strange
+light now…\e"
+M01120010,"\h(«Vyse»)This statue…
+It looks like the statues that were at the
+entrance to Rixis…\c"
+M01120011,"\h(«Vyse»)……!
+Who's that!?\e"
+M01120012,"\h(«Aika»)That's it!
+That's the ghost that
+I saw earlier!\c"
+M01120013,"\h(«Fina»)Oh…
+It's running away!\e"
+M01120014,"\h(«Drachma»)Who'd be lurkin' around in a place like this?!
+Don't let him get away, boy!\c"
+M01120015,"\h(«What do you want to do?»)“Return to the Little Jack.”
+“Stay in Rixis a little while longer.”\c"
+M01120016,"\h(«What do you want to do?»)“Return to the Delphinus.”
+“Stay in Rixis a little while longer.”\c"
+M01120017,"\h(«What will you do?»)“Take out the Golden Man's Eye gem.”
+“Leave it the way it is.”\c"
+M01120018,"\h(«What will you do?»)“Take out the Great Bird's Eye gem.”
+“Leave it the way it is.”\c"
+M01120019,"\h(«What will you do?»)“Let's try putting in the Golden Man's Eye gem.”
+“It might be dangerous… let's not touch it.”\e"
+M01120020,"\h(«What will you do?»)“Let's try putting in the Great Bird's Eye gem.”
+“It might be dangerous… let's not touch it.”\e"
+MF01120000,"\h(«Fina»)“Nous, qui sommes venus au
+Temple de la Lune Argent……”\e"
+MF01120001,"\h(«Fina»)“…… avons enfermé dans la forêt, après que les
+Pluies de la Destruction ont emporté les
+terres, le géant éveillé, Grendel……”\e"
+MF01120002,"\h(«Fina»)“Et il a été enfermé entre ces murs avec le
+Cristal Vert……”\c"
+MF01120003,"\h(«Fina»)C'est écrit dans le langage sacré du Temple
+d'Argent.\e"
+MF01120004,"\h(«Fina»)Les Silvites ont dû inscrire ces mots lors de
+leur passage ici.\c"
+MF01120005,"\h(«Vyse»)Alors, cette Quetya dont tous les Ixa'takans
+parlent doit être une Silvite tout comme Fina.\e"
+MF01120006,"\h(«Aika»)Ce qui expliquerait pourquoi tout le monde a
+confondu Fina avec Quetya…… qui que ce soit.\c"
+MF01120007,"\h(«Vyse»)Il y a une sorte d'inscription sur les murs,
+mais je n'arrive pas à la lire. Je ne sais pas
+ce qu'il y a d'écrit……\c"
+MF01120008,"\h(«Vyse»)Il y a des dessins de gens qui portent des
+masques. Ce sont sûrement les ancêtres des
+Ixa'takans.\c"
+MF01120009,"\h(«Vyse»)C'est le piédestal où se trouvait le Cristal de
+Lune. Il y a un vide à sa place.\c"
+MFE0150000,"\h(«Vyse»)Il y a une dentelure de la taille d'une petite
+pierre précieuse……\e"
+MFE0150001,"\h(«Que ferez-vous ?»)“Mettons la pierre de l'Oeil de l'Homme Doré.”
+“Mettons la pierre de l'Oeil du Grand Oiseau.”
+“C'est peut-être dangereux…… n'y touchons pas.”\e"
+MFE0150002,"\h(«Vyse»)L'Oeil de l'Homme Doré reflète une lumière
+étrange maintenant……\e"
+MFE0150003,"\h(«Vyse»)L'Oeil du Grand Oiseau est posé dans une
+dentelure de la statue……\e"
+MFE0150004,"\h(«Que ferez-vous ?»)“L'échanger contre l'Oeil de l'Homme Doré.”
+“Sortir l'Oeil du Grand Oiseau.”
+“La laisser.”\e"
+MFE0150005,"\h(«Vyse»)Il y a une dentelure de la taille d'une petite
+pierre précieuse……\e"
+MFE0150006,"\h(«Que ferez-vous ?»)“Mettons la pierre de l'Oeil de l'Homme Doré.”
+“Mettons la pierre de l'Oeil du Grand Oiseau.”
+“C'est peut-être dangereux…… n'y touchons pas.”\e"
+MFE0150007,"\h(«Vyse»)L'Oeil de l'Homme Doré est posé dans une
+dentelure de la statue……\e"
+MFE0150008,"\h(«Que ferez-vous ?»)“Sortir l'Oeil de l'Homme Doré.”
+“L'échanger contre l'Oeil du Grand Oiseau.”
+“La laisser.”\e"
+MFE0150009,"\h(«Vyse»)L'Oeil du Grand Oiseau est posé dans une
+dentelure de la statue……\e"
+MF01120010,"\h(«Vyse»)Cette statue……
+Elle ressemble aux statues qui se trouvaient à
+l'entrée de Rixis……\c"
+MF01120011,"\h(«Vyse»)……!
+Qui est-ce !?\e"
+MF01120012,"\h(«Aika»)Voilà !
+C'est le fantôme que
+j'ai vu tout à l'heure !\c"
+MF01120013,"\h(«Fina»)Oh……
+Il s'enfuit !\e"
+MF01120014,"\h(«Drachma»)Qui nous espionnerait dans un endroit pareil ?!
+Ne le laissez pas s'enfuir !\c"
+MF01120015,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Little Jack.”
+“Vous resterez à Rixis un peu plus longtemps.”\c"
+MF01120016,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez à Rixis un peu plus longtemps.”\c"
+MF01120017,"\h(«Que ferez-vous ?»)“Sortir la pierre de l'Oeil de l'Homme Doré.”
+“La laisser.”\c"
+MF01120018,"\h(«Que ferez-vous ?»)“Sortir la pierre de l'Oeil du Grand Oiseau.”
+“La laisser.”\c"
+MF01120019,"\h(«Que ferez-vous ?»)“Mettons la pierre de l'Oeil de l'Homme Doré.”
+“C'est peut-être dangereux…… n'y touchons pas.”\e"
+MF01120020,"\h(«Que ferez-vous ?»)“Mettons la pierre de l'Oeil du Grand Oiseau.”
+“C'est peut-être dangereux…… n'y touchons pas.”\e"
+MG01120000,"\h(«Fina»)“Wir, die wir vom Tempel des
+Silver Moon gekommen sind……”\e"
+MG01120001,"\h(«Fina»)“……haben, nachdem die Rains of Destruction
+die Länder weggewaschen haben, den nicht
+schlafenden Riesen Grendel im Wald verborgen……”\e"
+MG01120002,"\h(«Fina»)“Und nach seiner Verbannung wurde der Green
+Crystal innerhalb dieser Wände aufbewahrt……”\c"
+MG01120003,"\h(«Fina»)So steht es in der heiligen Sprache
+des Silver Temple geschrieben.\e"
+MG01120004,"\h(«Fina»)Die Silviter müssen diese Worte hier
+eingeritzt haben, als sie hier waren.\c"
+MG01120005,"\h(«Vyse»)Also, dieser Quetya, von dem die Ixa'takaner
+immer reden, war wahrscheinlich ein Silviter
+wie Fina.\e"
+MG01120006,"\h(«Aika»)Das würde auch erklären, warum alle Fina
+für Quetya gehalten haben…… wer immer er
+oder sie auch sein mag.\c"
+MG01120007,"\h(«Vyse»)Dort an der Wand steht etwas geschrieben, aber
+ich kann es nicht lesen. Ich habe keine
+Ahnung, was es bedeutet……\c"
+MG01120008,"\h(«Vyse»)Da sind Bilder von Leuten, die Masken tragen.
+Sie wind wahrscheinlich Vorfahren der
+Ixa'takaner.\c"
+MG01120009,"\h(«Vyse»)Dies ist der Sockel, auf dem der Moon Crystal
+war. Da ist eine leere Stelle, wo er sich
+befand.\c"
+MGE0150000,"\h(«Vyse»)Da ist eine Vertiefung, die gerade groß genug
+für ein kleines Juwel sein könnte……\e"
+MGE0150001,"\h(«Was wirst du tun?»)“Versuchen, das Auge des Golden Man einzusetzen”
+“Versuchen, das Auge des Great Bird einzusetzen”
+“Das wird gefährlich…… rühren wir es nicht an.”\e"
+MGE0150002,"\h(«Vyse»)Das Auge des Golden Man gibt ein seltsames
+Licht ab……\e"
+MGE0150003,"\h(«Vyse»)Das Auge des Great Bird ist in eine Vertiefung
+in die Statue eingelassen……\e"
+MGE0150004,"\h(«Was wirst du tun?»)“Es gegen das Auge des Golden Man austauschen”
+“Einfach das Auge des Great Bird herausnehmen.”
+“Alles so lassen.”\e"
+MGE0150005,"\h(«Vyse»)Da ist eine Vertiefung, die gerade groß genug
+für ein kleines Juwel sein könnte……\e"
+MGE0150006,"\h(«Was wirst du tun?»)“Versuchen, das Auge des Golden Man einzusetzen”
+“Versuchen, das Auge des Great Bird einzusetzen”
+“Das wird gefährlich…… rühren wir es nicht an.”\e"
+MGE0150007,"\h(«Vyse»)Das Auge des Golden Man ist in eine Vertiefung
+in der Statue eingelassen……\e"
+MGE0150008,"\h(«Was wirst du tun?»)“Einfach das Auge des Golden Man herausnehmen.”
+“Es gegen das Auge des Great Bird austauschen.”
+“Alles so lassen.”\e"
+MGE0150009,"\h(«Vyse»)Das Auge des Great Bird gibt ein
+seltsames Licht ab……\e"
+MG01120010,"\h(«Vyse»)Diese Statue……
+Sie sieht aus wie die Statuen, die am Eingang
+von Rixis standen……\c"
+MG01120011,"\h(«Vyse»)……!
+Wer ist das!?\e"
+MG01120012,"\h(«Aika»)Das ist es!
+Das ist das Gespenst, das ich vorhin
+gesehen habe!\c"
+MG01120013,"\h(«Fina»)Oh……
+Es rennt weg!\e"
+MG01120014,"\h(«Drachma»)Wer würde sich an so einem Ort verstecken?!
+Lass ihn nicht entkommen, Junge!\c"
+MG01120015,"\h(«Was willst du tun?»)“Zur Little Jack zurückkehren.”
+“Noch eine Weile in Rixis bleiben.”\c"
+MG01120016,"\h(«Was willst du tun?»)“Zur Delphinus zurückkehren.”
+“Noch eine Weile in Rixis bleiben.”\c"
+MG01120017,"\h(«Was willst du tun?»)“Das Auge des Golden Man herausnehmen.”
+“Es so lassen.”\c"
+MG01120018,"\h(«Was willst du tun?»)“Das Auge des Great Bird herausnehmen.”
+“Es so lassen.”\c"
+MG01120019,"\h(«Was willst du tun?»)“Versuchen, das Auge des Golden Man einzusetzen”
+“Das wird gefährlich…… wir rühren nichts an.”\e"
+MG01120020,"\h(«Was willst du tun?»)“Versuchen, das Auge des Great Bird einzusetzen”
+“Das wird gefährlich…… wir rühren nichts an.”\e"
+MS01120000,"\h(«Fina»)“Nosotros, que venimos del
+Templo de la Luna de Plata……”\e"
+MS01120001,"\h(«Fina»)“…… después de que las Lluvias Destructoras
+arrasaran las tierras, sellamos en el bosque a
+Grendel, el gigante que no duerme……”\e"
+MS01120002,"\h(«Fina»)“Y bajo ese sello, se mantuvo oculto entre
+esos muros el Cristal Verde……”\c"
+MS01120003,"\h(«Fina»)Esto está escrito en el lenguaje sagrado del
+Templo de Plata.\e"
+MS01120004,"\h(«Fina»)Los Silvites debieron inscribir estas palabras
+cuando estaban aquí.\c"
+MS01120005,"\h(«Vyse»)Seguro que ese Quetya del que hablan todos
+los de Ixa'takan no era más que un Silvite
+normal y corriente como Fina.\e"
+MS01120006,"\h(«Aika»)Eso explicaría por qué todos confundieron a Fina
+con Quetya…… quienquiera que éste sea.\c"
+MS01120007,"\h(«Vyse»)Hay una especie de inscripción en los muros,
+pero no sé qué quiere decir…… No tengo ni idea.\c"
+MS01120008,"\h(«Vyse»)Hay imágenes de gente con máscaras.
+Deben ser antepasados de Ixa'taka.\c"
+MS01120009,"\h(«Vyse»)Éste es el pedestal donde descansaba el Cristal
+Lunar. Hay un hueco vacío donde estaba.\c"
+MSE0150000,\h(«Vyse»)Hay un hueco del tamaño de una gema pequeña……\e
+MSE0150001,"\h(«¿Qué vas a hacer?»)“Meter la gema en el Ojo del Hombre Dorado.”
+“Meter la gema en el Ojo del Gran Pájaro.”
+“Puede que sea peligroso…… mejor no tocarlo.”\e"
+MSE0150002,"\h(«Vyse»)El Ojo del Hombre Dorado despide una luz
+extraña……\e"
+MSE0150003,"\h(«Vyse»)El Ojo del Gran Pájaro está insertado en una
+hendidura de la estatua……\e"
+MSE0150004,"\h(«¿Qué vas a hacer?»)“Cambiarlo por el Ojo del Hombre Dorado.”
+“Sacar el Ojo del Gran Pájaro.”
+“Dejarlo como está.”\e"
+MSE0150005,\h(«Vyse»)Hay un hueco del tamaño de una gema pequeña……\e
+MSE0150006,"\h(«¿Qué vas a hacer?»)“Meter la gema en el Ojo del Hombre Dorado.”
+“Meter la gema en el Ojo del Gran Pájaro.”
+“Puede que sea peligroso…… mejor no tocarlo.”\e"
+MSE0150007,"\h(«Vyse»)El Ojo del Hombre Dorado está insertado en la
+hendidura de la estatua……\e"
+MSE0150008,"\h(«¿Qué vas a hacer?»)“Sacar el Ojo del Hombre Dorado.”
+“Cambiarlo por el Ojo del Gran Pájaro.”
+“Dejarlo como está.”\e"
+MSE0150009,"\h(«Vyse»)El Ojo del Gran Pájaro despide una extraña
+luz……\e"
+MS01120010,"\h(«Vyse»)Esta estatua……
+Se parece a las estatuas que había a la entrada
+de Rixis……\c"
+MS01120011,"\h(«Vyse»)¡……!
+¿¡Qué es eso!?\e"
+MS01120012,"\h(«Aika»)¡Eso era!
+¡Es el fantasma que he visto antes!\c"
+MS01120013,"\h(«Fina»)Oh……
+¡Que se escapa!\e"
+MS01120014,"\h(«Drachma»)¡¿Quién iba a estar acechando en un sitio como
+éste?!
+¡No dejes que se escape, muchacho!\c"
+MS01120015,"\h(«¿Qué vas a hacer?»)“Volver al Little Jack.”
+“Quedarme en Rixis un poco más.”\c"
+MS01120016,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme en Rixis un poco más.”\c"
+MS01120017,"\h(«¿Qué vas a hacer?»)“Sacar la gema del Ojo del Hombre Dorado.”
+“Dejarlo como está.”\c"
+MS01120018,"\h(«¿Qué vas a hacer?»)“Sacar la gema del Ojo del Gran Pájaro.”
+“Dejarlo como está.”\c"
+MS01120019,"\h(«¿Qué vas a hacer?»)“Meter la gema en el Ojo del Hombre Dorado.”
+“Puede que sea peligroso…… mejor no tocarlo.”\e"
+MS01120020,"\h(«¿Qué vas a hacer?»)“Meter la gema en el Ojo del Gran Pájaro.”
+“Puede que sea peligroso…… mejor no tocarlo.”\e"
+"",me112a.sct
+"",me112c.sct
+"",me112c.sct
+"",M0325
+"",M0251
+"",m5120000
+"",e6e016
+"",M0251
+"",a112be16.mld
+"",a112be16.mld

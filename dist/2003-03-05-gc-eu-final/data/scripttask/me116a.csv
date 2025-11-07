@@ -1,0 +1,993 @@
+[Event Name],Task ID
+MG0020000,\h(«Vyse»)I hate Valua.\e
+MG0020001,\h(«Vyse»)It's always so dark and gloomy here.\e
+MG0020002,"\h(«Gilder»)Yeah, especially when you're locked up in a jail
+cell. \e"
+MG0020003,"\h(«Gilder»)Valuans have no sense of hospitality…
+Hey guards, can we get some food in here?!
+How about a drink or something?\e"
+MG0020004,\h(«Aika»)I can't believe we're back in Valua.\e
+MG0020005,\h(«Aika»)I wonder where Vyse and Fina are being held…\e
+MG0020006,\h(«Manly Voice»)Is this where the Air Pirate girl is being held?\e
+MG0020007,"\h(«Jail Guard»)Yes, Admiral Vigoro. But sir…
+Why does that concern you?\e"
+MG0020008,"\h(«Vigoro»)Hey, don't worry about it. Now run along and go
+make yourself useful somewhere else.\e"
+MG0020009,"\h(«Vigoro»)Well, what do we have here? 
+Nice legs and curves in all the right places.\e"
+MG0020010,"\h(«Vigoro»)Well, I suppose I've seen better, but
+she's not too bad.\e"
+MG0020011,"\h(«Aika»)Who are you?!
+And are you always this crude?\e"
+MG0020012,"\h(«Vigoro»)I am Vigoro, the toughest man in the Armada.
+I'm surprised you haven't heard of me.
+The women I've been with love to brag.\e"
+MG0020013,"\h(«Aika»)I've never heard of you before in my life!!
+Where are Vyse and Fina being held?!\e"
+MG0020014,\h(«Aika»)…!?\e
+MG0020015,"\h(«Aika»)Get away from me, you creep! You're all sweaty
+and you've got a serious body hair problem.
+And what's that smell?\e"
+MG0020016,"\h(«Vigoro»)Aww, c'mon Red…
+You know I'm the man of your dreams…\e"
+MG0020017,"\h(«Vigoro»)We were meant to be together.
+I'm sure you'll grow to like me…
+Just give me a chance.\e"
+MG0020018,"\h(«Aika»)Yuck, you're disgusting!\e"
+MFG0020000,\h(«Vyse»)Je hais Valua.\e
+MFG0020001,\h(«Vyse»)C'est toujours sombre et triste ici.\e
+MFG0020002,"\h(«Gilder»)Oui, surtout au fond d'une cellule.\e"
+MFG0020003,"\h(«Gilder»)Les Valuans n'ont aucun sens de l'hospitalité……
+Hé gardes, quand est-ce que l'on mange ?!
+J'aimerais bien quelque chose à boire.\e"
+MFG0020004,"\h(«Aika»)Je n'arrive pas à croire que nous sommes de
+retour à Valua.\e"
+MFG0020005,\h(«Aika»)Je me demande où ils détiennent Vyse et Fina……\e
+MFG0020006,"\h(«Voix d'Homme»)Est-ce que c'est là qu'ils détiennent la fille
+Pirate de l'Air ?\e"
+MFG0020007,"\h(«Geôlier»)Oui, Amiral Vigoro. Mais……
+En quoi cela vous regarde-t-il ?\e"
+MFG0020008,"\h(«Vigoro»)Hé, ne t'inquiète pas. Bon va voir s'il y a du
+travail ailleurs.\e"
+MFG0020009,"\h(«Vigoro»)Bon, voyons un peu. De belles jambes et de
+belles courbes juste là où il faut.\e"
+MFG0020010,"\h(«Vigoro»)Bon, ce serait mieux si vous étiez plus ronde du
+haut.\e"
+MFG0020011,"\h(«Aika»)Qui êtes-vous ?!
+Êtes-vous toujours aussi direct ?\e"
+MFG0020012,"\h(«Vigoro»)Je suis Vigoro, l'homme le plus fort de
+l'Armada. C'est étonnant que vous n'ayez jamais
+entendu parler de moi.
+Les femmes se vantent de m'avoir connu.\e"
+MFG0020013,"\h(«Aika»)Je n'ai jamais entendu parler de vous !!
+Où détenez-vous Vyse et Fina ?!\e"
+MFG0020014,\h(«Aika»)……!?\e
+MFG0020015,"\h(«Aika»)Laissez-moi, gros dégoûtant. Vous transpirez de
+partout et vous êtes couvert de poils.
+Et quelle est cette odeur ?\e"
+MFG0020016,"\h(«Vigoro»)Oh, allez Rouquine……
+Faisons ce que je vais raconter à mes amis de
+toute façon.\e"
+MFG0020017,\h(«Vigoro»)Nous pourrions bien nous amuser tous les deux.\e
+MFG0020018,"\h(«Aika»)Berk, vous êtes répugnant !\e"
+MGG0020000,\h(«Vyse»)Ich hasse Valua.\e
+MGG0020001,\h(«Vyse»)Hier ist es immer so dunkel und trübe.\e
+MGG0020002,"\h(«Gilder»)Ja, vor allem, wenn du in einer Gefängniszelle
+eingeschlossen bist.\e"
+MGG0020003,"\h(«Gilder»)Valuaner haben keinen Sinn für Gastfreundschaft.
+He, Wachen, können wir etwas zu Essen
+bekommen?! Wie wär's mit etwas zu Trinken?\e"
+MGG0020004,"\h(«Aika»)Ich glaub's nicht, dass wir wieder in
+Valua sind.\e"
+MGG0020005,"\h(«Aika»)Ich frage mich, wo man Vyse und Fina gefangen
+hält……\e"
+MGG0020006,"\h(«Männliche Stimme»)Wird hier das Luftpiratenmädchen gefangen
+gehalten?\e"
+MGG0020007,"\h(«Gefängniswärter»)Ja, Admiral Vigoro. Aber, Sir……
+Warum interessiert Sie das?\e"
+MGG0020008,"\h(«Vigoro»)Das braucht dich nicht zu kümmern. Geh schon und
+mach dich irgendwo anders nützlich.\e"
+MGG0020009,"\h(«Vigoro»)Also, was haben wir denn hier?
+Schöne Beine und Kurven an den richtigen
+Stellen.\e"
+MGG0020010,"\h(«Vigoro»)Naja, vielleicht könntest du obenrum noch ein
+paar Zentimeter mehr vertragen.\e"
+MGG0020011,"\h(«Aika»)Wer sind Sie?!
+Und sind Sie immer so direkt?\e"
+MGG0020012,"\h(«Vigoro»)Ich bin Vigoro, der härteste Mann in der Armada.
+Ich bin überrascht, dass du noch nicht von
+mir gehört hast. Die Frauen, mit denen ich
+zusammen war, erzählen gerne davon.\e"
+MGG0020013,"\h(«Aika»)Ich hab noch nie im Leben von Ihnen gehört!!
+Wo hält man Vyse und Fina fest?!\e"
+MGG0020014,\h(«Aika»)……!?\e
+MGG0020015,"\h(«Aika»)Machen Sie, dass Sie wegkommen, Sie Widerling.
+Sie sind völlig verschwitzt und haben ein echtes
+Problem mit Ihrem Körperhaar. Und was riecht
+hier so?\e"
+MGG0020016,"\h(«Vigoro»)Ach komm schon, Rotschopf……
+Lass uns das machen, was ich meinen Freunden
+sowieso erzähle, dass wir es gemacht haben.\e"
+MGG0020017,"\h(«Vigoro»)Wir zwei beiden können zusammen schön Musik
+machen.\e"
+MGG0020018,\h(«Aika»)Igittigitt! Sie sind ja ekelhaft!\e
+MSG0020000,\h(«Vyse»)Odio Valua.\e
+MSG0020001,\h(«Vyse»)Está siempre tan oscuro y tenebroso.\e
+MSG0020002,"\h(«Gilder»)Sí, sobre todo cuando estás en la cárcel.\e"
+MSG0020003,"\h(«Gilder»)Los Valuan no tienen sentido de la
+hospitalidad……
+Eh, ¡¿no se sirve nada de comer por aquí?!
+¿Y qué tal algo de beber?\e"
+MSG0020004,\h(«Aika»)No puedo creer que estemos en Valua otra vez.\e
+MSG0020005,\h(«Aika»)Me pregunto dónde tienen a Vyse y Fina……\e
+MSG0020006,"\h(«Voz Varonil»)¿Es aquí donde tienen a la chica que va con los
+Piratas Aéreos?\e"
+MSG0020007,"\h(«Guardián de la cárcel»)Sí, Almirante Vigoro. Pero señor……
+¿Por qué le incumbe eso?\e"
+MSG0020008,"\h(«Vigoro»)No te preocupes, hombre. Ahora vete, a ver si
+puedes ser útil en algún otro sitio.\e"
+MSG0020009,"\h(«Vigoro»)Bueno, ¿qué tenemos aquí? Bonitas piernas y
+curvas en su sitio.\e"
+MSG0020010,"\h(«Vigoro»)Bueno, supongo que podrías ser un poco más
+curvilínea por arriba.\e"
+MSG0020011,"\h(«Aika»)¡¿Y tú quién eres?!
+¿Siempre eres así de directo?\e"
+MSG0020012,"\h(«Vigoro»)Soy Vigoro, el tipo más duro de la Armada.
+Me sorprende que no hayas oído hablar de mí.
+A las mujeres con las que salgo les encanta
+presumir de ello.\e"
+MSG0020013,"\h(«Aika»)¡¡Es la primera vez en mi vida que oigo tu
+nombre!!
+¡¿Dónde tienen a Vyse y Fina?!\e"
+MSG0020014,\h(«Aika»)¿¡……!?\e
+MSG0020015,"\h(«Aika»)Aléjate de mí, asqueroso. Estás sudoroso y
+además eres un peludo.
+¿Y por qué este olor?\e"
+MSG0020016,"\h(«Vigoro»)Vamos, pelirroja.
+Vamos a hacer esas cosas de las que se presume
+con los amigos.\e"
+MSG0020017,\h(«Vigoro»)Los dos podemos crear una bella melodía juntos.\e
+MSG0020018,\h(«Aika»)¡Qué asco! ¡Eres repugnante!\e
+MG0030000,"\h(«Vyse»)This is shaping up to be a great day… Let's
+see, so far we got captured, separated from Aika
+and Fina… And we lost all of the Crystals.\e"
+MG0030001,"\h(«Vyse»)What's next? Maybe they'll torture us… 
+A perfect end to a perfect day.\e"
+MG0030002,"\h(«Gilder»)Vyse, you're only making things worse.
+Take it easy.\e"
+MG0030003,\h(«Vyse»)…Huh?\e
+MG0030004,"\h(«Gilder»)Oh, Willy.
+How're you doing?\e"
+MG0030005,"\h(«Willy»)Very bad!
+Very bad!\e"
+MG0030006,"\h(«Gilder»)Haha, is that so?
+Well, you had to fly all the way over here. 
+I'm not surprised.\e"
+MG0030007,"\h(«Vyse»)Gilder…
+There's a note tied to Willy's leg with a piece
+of wire…\e"
+MG0030008,"\h(«Gilder»)“We will begin bombarding the fortress at 
+midnight, and will await your arrival 
+just outside… The Claudia.”\e"
+MG0030009,"\h(«Gilder»)Heh… This isn't the first time my men have had
+to break me out of a prison…
+They know the routine.\e"
+MG0030010,"\h(«Gilder»)Well, the Claudia may not be able to destroy the
+Grand Fortress by herself, but she'll cause 
+quite a bit of a commotion.\e"
+MG0030011,\h(«Vyse»)That's when we can make our escape!\e
+MG0030012,\h(«Gilder»)Exactly.\e
+MG0030013,"\h(«Vyse»)But, there's still one problem… 
+We need to get out of this cell.\e"
+MG0030014,"\h(«Gilder»)Leave that to me. 
+There was a wire around Willie's leg for a
+reason.\e"
+MG0030015,\h(«Gilder»)I'll have this door open in no time.\e
+MG0030016,"\h(«Vyse»)…Of course!
+Heh… is there anything you can't do?\e"
+MG0030017,\h(«Vyse»)… What's this?\e
+MG0030018,\h(«Gilder»)What's wrong?\e
+MG0030019,\h(«Vyse»)There's some writing on the back of this letter.\e
+MG0030020,"\h(«Gilder»)Oh…
+Well, what does it say?\e"
+MG0030021,"\h(«Vyse»)“To my darling Gilder, I will fight for your
+freedom as well! For you, my love!”\e"
+MG0030022,"\h(«Vyse»)“Your soul mate… Clara”
+… and there're lipstick marks at the bottom.\e"
+MG0030023,"\h(«Gilder»)Clara?!
+She's here, too?!\e"
+MG0030024,"\h(«Vyse»)Well, according to this letter… yeah…\e"
+MG0030025,"\h(«Gilder»)Hey, Vyse…
+We don't really need to break out of here,
+do we?\e"
+MG0030026,\h(«Vyse»)What are you talking about?! We'll be hanged.\e
+MG0030027,"\h(«Gilder»)Hm… being hanged… and being stuck with Clara…
+tough choice. Ah… oh well…\e"
+MG0030028,"\h(«Vyse»)Wow!
+I'm impressed…\e"
+MG0030029,"\h(«Gilder»)Willy, tell the men to wait for me with a barrel
+of loqua! I think I'm gonna need it.\e"
+MG0030030,"\h(«Willy»)Aye!
+Aye!\e"
+MG0030031,"\h(«Gilder»)Well then…
+I'll grab our weapons. Let's go!\e"
+MG0030032,"\h(«Vyse»)Heh… Let's not forget about Aika and Fina. 
+I'm not leaving without them.\e"
+MFG0030000,"\h(«Vyse»)La journée s'annonce bien…… Voyons, pour
+l'instant nous avons été capturés, séparés
+d'Aika et de Fina…… Et nous avons perdu tous les
+Cristaux.\e"
+MFG0030001,"\h(«Vyse»)Qu'est-ce qu'il peut bien nous arriver d'autre ?
+Peut-être qu'ils vont nous torturer……
+pour finir la journée en beauté.\e"
+MFG0030002,"\h(«Gilder»)Vyse, tu ne fais qu'aggraver la situation.
+Relaxe.\e"
+MFG0030003,\h(«Vyse»)……Hein ?\e
+MFG0030004,"\h(«Gilder»)Oh, Willy.
+Comment ça va ?\e"
+MFG0030005,"\h(«Willy»)Pas bien du tout !
+Pas bien du tout !\e"
+MFG0030006,"\h(«Gilder»)Haha, vraiment ?
+Ce n'est pas étonnant vu que tu as dû voler
+jusqu'ici.\e"
+MFG0030007,"\h(«Vyse»)Gilder……
+Il y a un message attaché à la patte de Willy……\e"
+MFG0030008,"\h(«Gilder»)“Nous commencerons à bombarder la forteresse à
+minuit, et vous attendrons devant…… Le Claudia.”\e"
+MFG0030009,"\h(«Gilder»)Hé…… Ce n'est pas la première fois que mes
+hommes m'aident à m'évader de prison……
+Ils connaissent la routine.\e"
+MFG0030010,"\h(«Gilder»)Bon, le Claudia n'est peut-être pas capable de
+détruire la Grande Forteresse à lui seul, mais
+il sèmera la panique.\e"
+MFG0030011,\h(«Vyse»)C'est à ce moment là que nous nous évaderons !\e
+MFG0030012,\h(«Gilder»)Exactement.\e
+MFG0030013,"\h(«Vyse»)Mais, il reste un problème……
+Nous devons sortir de cette cellule.\e"
+MFG0030014,"\h(«Gilder»)Je m'en charge.
+Ce n'est pas un hasard si Willy a un fil de
+fer autour de la patte.\e"
+MFG0030015,\h(«Gilder»)Je vais ouvrir cette porte en un tour de main.\e
+MFG0030016,"\h(«Vyse»)……Bien sûr !
+Hé…… Vous savez vraiment tout faire !\e"
+MFG0030017,\h(«Vyse»)…… Qu'est-ce que c'est ?\e
+MFG0030018,\h(«Gilder»)Qu'est-ce qu'il y a ?\e
+MFG0030019,"\h(«Vyse»)Il y a quelque chose d'écrit au dos de cette
+lettre.\e"
+MFG0030020,"\h(«Gilder»)Oh……
+Eh bien, lis !\e"
+MFG0030021,"\h(«Vyse»)“Pour Gilder chéri, moi aussi je me battrai
+pour ta liberté ! Pour toi, mon amour !”\e"
+MFG0030022,"\h(«Vyse»)“Ton âme soeur…… Clara” …… et il y a des traces
+de rouge à lèvres à la fin.\e"
+MFG0030023,"\h(«Gilder»)Clara ?!
+Elle est venue aussi ?!\e"
+MFG0030024,"\h(«Vyse»)Eh bien, d'après cette lettre…… oui……\e"
+MFG0030025,"\h(«Gilder»)Hé, Vyse……
+Ce n'est pas vraiment la peine de nous évader
+d'ici, hein ?\e"
+MFG0030026,\h(«Vyse»)Qu'est-ce que tu racontes ?! Nous serons pendus.\e
+MFG0030027,"\h(«Gilder»)Hum…… pendu…… ou coincé avec Clara……
+dur dur. Ah…… oh tant pis……\e"
+MFG0030028,"\h(«Vyse»)Oaouh !
+Je suis impressionné……\e"
+MFG0030029,"\h(«Gilder»)Willy, dis aux hommes de m'attendre avec un
+tonneau de loqua ! Je vais en avoir besoin.\e"
+MFG0030030,"\h(«Willy»)À vos ordres !
+À vos ordres !\e"
+MFG0030031,"\h(«Gilder»)Bon……
+Je vais prendre nos armes. Allons-y !\e"
+MFG0030032,"\h(«Vyse»)Hé…… N'oublions pas Aika et Fina.
+Je ne pars pas sans elles.\e"
+MGG0030000,"\h(«Vyse»)Das wird ja ein toller Tag…… Zusammengefasst:
+Bis jetzt wurden wir gefangen genommen,
+von Aika und Fina getrennt…… und haben alle
+Kristalle verloren.\e"
+MGG0030001,"\h(«Vyse»)Was kommt als Nächstes? Vielleicht werden sie
+uns foltern? Ein perfektes Ende eines
+perfekten Tages!\e"
+MGG0030002,"\h(«Gilder»)Vyse, du machst es nur noch schlimmer.
+Nimm's leicht.\e"
+MGG0030003,\h(«Vyse»)…… Hä?\e
+MGG0030004,"\h(«Gilder»)Oh, Willy.
+Wie geht's dir denn?\e"
+MGG0030005,"\h(«Willy»)Sehr schlecht!
+Sehr schlecht!\e"
+MGG0030006,"\h(«Gilder»)Haha, wirklich?
+Du musstest den ganzen Weg hierher fliegen.
+Das wundert mich nicht.\e"
+MGG0030007,"\h(«Vyse»)Gilder……
+An Willys Bein hängt ein Zettel an einem Stück
+Draht……\e"
+MGG0030008,"\h(«Gilder»)“Wir fangen um Mitternacht an, die
+Festung zu bombardieren, und erwarten euch
+draußen…… Die Claudia”.\e"
+MGG0030009,"\h(«Gilder»)He…… das ist nicht das erste Mal, dass mich
+meine Leute aus dem Gefängnis holen müssen……
+Sie kennen das schon.\e"
+MGG0030010,"\h(«Gilder»)Tja, also, die Claudia ist vielleicht nicht in
+der Lage, die Grand Fortress ganz allein zu
+zerstören, aber sie kann eine ganze Menge
+Schaden anrichten.\e"
+MGG0030011,\h(«Vyse»)Dann können wir fliehen!\e
+MGG0030012,\h(«Gilder»)Genau.\e
+MGG0030013,"\h(«Vyse»)Da ist jedoch noch ein Problem……
+Wir müssen aus dieser Zelle heraus.\e"
+MGG0030014,"\h(«Gilder»)Überlass das mir. Der Draht
+an Willys Bein hat einen Zweck.\e"
+MGG0030015,\h(«Gilder»)Diese Tür bekomme ich in null Komma nichts auf.\e
+MGG0030016,"\h(«Vyse»)……Natürlich!
+He…… gibt es etwas, das du nicht kannst?\e"
+MGG0030017,\h(«Vyse»)……Was ist das?\e
+MGG0030018,\h(«Gilder»)Was ist los?\e
+MGG0030019,"\h(«Vyse»)Auf der Rückseite dieses Briefes steht etwas
+geschrieben.\e"
+MGG0030020,"\h(«Gilder»)Oh……
+Also, was steht da?\e"
+MGG0030021,"\h(«Vyse»)“An meinen liebsten Gilder, ich kämpfe auch
+um deine Freiheit! Für dich, mein Liebster!”\e"
+MGG0030022,"\h(«Vyse»)“Deine Busenfreundin…… Clara”
+…… und unten ist ein Lippenstiftabdruck.\e"
+MGG0030023,"\h(«Gilder»)Clara?!
+Sie ist auch hier?!\e"
+MGG0030024,"\h(«Vyse»)Also, wenn man diesem Brief Glauben schenkt,
+ja……\e"
+MGG0030025,"\h(«Gilder»)He, Vyse……
+Wir brauchen hier eigentlich gar nicht
+auszubrechen, oder?\e"
+MGG0030026,\h(«Vyse»)Was redest du da?! Wir werden gehängt.\e
+MGG0030027,"\h(«Gilder»)Hm……  gehängt werden…… oder mit Clara
+festsitzen…… keine leichte Wahl. Ach……\e"
+MGG0030028,"\h(«Vyse»)Wow!
+Ich bin beeindruckt……\e"
+MGG0030029,"\h(«Gilder»)Willy, sag den Männern, sie sollen mit einem
+Fass Loqua auf mich warten! Ich glaube, ich
+kann's gebrauchen.\e"
+MGG0030030,"\h(«Willy»)Aye!
+Aye!\e"
+MGG0030031,"\h(«Gilder»)Nun, denn……
+Ich hole unsere Waffen. Gehen wir!\e"
+MGG0030032,"\h(«Vyse»)He…… Vergessen wir Aika und Fina nicht.
+Ich gehe nicht ohne sie.\e"
+MSG0030000,"\h(«Vyse»)Esto va camino de ser un gran día…… Vamos a ver,
+de momento nos han capturado, nos han separado
+de Aika y Fina…… Y hemos perdido todos los
+Cristales.\e"
+MSG0030001,"\h(«Vyse»)¿Qué toca ahora? A lo mejor somos torturados……
+Un final perfecto a un día perfecto.\e"
+MSG0030002,"\h(«Gilder»)Vyse, así sólo conseguirás empeorar las cosas.
+Tranquilízate.\e"
+MSG0030003,\h(«Vyse»)…… ¿Qué?\e
+MSG0030004,"\h(«Gilder»)Oh, Willy.
+¿Qué tal estás?\e"
+MSG0030005,"\h(«Willy»)¡Muy mal!
+¡Muy mal!\e"
+MSG0030006,"\h(«Gilder»)Jaja, ¿eso es todo?
+Bueno, tuviste que volar hasta aquí.
+No me sorprende.\e"
+MSG0030007,"\h(«Vyse»)Gilder……
+¡Hay una nota atada a la pata de Willy con un
+trozo de alambre……!\e"
+MSG0030008,"\h(«Gilder»)“Bombardearemos la fortaleza a medianoche y
+luego esperaremos vuestra llegada justo fuera……
+La Claudia.”\e"
+MSG0030009,"\h(«Gilder»)Eh…… No es la primera vez que mis hombres han
+tenido que sacarme de la cárcel……
+Ya saben lo que hay que hacer.\e"
+MSG0030010,"\h(«Gilder»)Bueno, puede que la Claudia no sea suficiente
+para destruir la Gran Fortaleza por sí sola,
+pero seguro que producirá un cierto caos.\e"
+MSG0030011,\h(«Vyse»)¡En ese momento podemos escapar!\e
+MSG0030012,\h(«Gilder»)Exactamente.\e
+MSG0030013,"\h(«Vyse»)Pero aún hay un problema……
+Tenemos que salir de esta celda.\e"
+MSG0030014,"\h(«Gilder»)Déjamelo a mí.
+Como ves no era tan mala la idea del alambre
+en la pata de Willy.\e"
+MSG0030015,\h(«Gilder»)Esta puerta la abro en un momento.\e
+MSG0030016,"\h(«Vyse»)…… ¡Pues claro!
+Eh…… ¿hay algo que no sepas hacer?\e"
+MSG0030017,\h(«Vyse»)…… ¿Qué es esto?\e
+MSG0030018,\h(«Gilder»)¿Qué pasa?\e
+MSG0030019,"\h(«Vyse»)Hay algo escrito en la parte de atrás de esta
+carta.\e"
+MSG0030020,"\h(«Gilder»)Oh……
+¿Y qué dice?\e"
+MSG0030021,"\h(«Vyse»)“¡A mi querido Gilder, yo también lucharé por tu
+libertad! ¡Por ti, mi amor!”\e"
+MSG0030022,"\h(«Vyse»)“Tu alma gemela…… Clara”
+…… y unas marcas de pintalabios al final.\e"
+MSG0030023,"\h(«Gilder»)¡¿Clara?!
+¡¿Ella también está aquí?!\e"
+MSG0030024,"\h(«Vyse»)Bueno, según esta carta…… sí……\e"
+MSG0030025,"\h(«Gilder»)Eh, Vyse……
+En realidad nada nos obliga a huir de aquí, ¿no?\e"
+MSG0030026,\h(«Vyse»)¡¿De qué estás hablando?! Nos van a colgar……\e
+MSG0030027,"\h(«Gilder»)Mm…… colgarnos…… o quedarnos colgados con
+Clara…… es una elección difícil. Está bien……\e"
+MSG0030028,"\h(«Vyse»)¡Vaya!
+Estoy impresionado……\e"
+MSG0030029,"\h(«Gilder»)¡Willy, dile a mis hombres que me esperen con un
+barril de loqua! Creo que lo voy a necesitar.\e"
+MSG0030030,"\h(«Willy»)¡Sí!
+¡Sí!\e"
+MSG0030031,"\h(«Gilder»)Entonces……
+cogeré nuestras armas. ¡Vamos!\e"
+MSG0030032,"\h(«Vyse»)Eh…… No podemos dejar a Aika y Fina.
+No me voy a ir sin ellas.\e"
+MG0040000,\h(«Aika»)Vyse!! \e
+MG0040001,"\h(«Vyse»)Hey Aika, do you want us to come back later?\e"
+MG0040002,\h(«Aika»)Vyse!! Get this creep off of me! \e
+MG0040003,"\h(«Vigoro»)Hey, beat it kid! \e"
+MG0040004,"\h(«Vyse»)Sorry to spoil your fun, but you heard the lady.\e"
+MG0040005,\h(«Aika»)Who said we were having fun?!\e
+MG0040006,\h(«Vigoro»)I am Vigoro.\e
+MG0040007,\h(«Vigoro»)No woman in Valua can resist me. \e
+MG0040008,"\h(«Vigoro»)I believe that the worth of a man can be
+measured by his popularity with the women.\e"
+MG0040009,"\h(«Gilder»)Hmm… I kind of like that. I should remember
+that for later.\e"
+MG0040010,"\h(«Vyse»)Where's Fina?! Give us back the Crystals and
+bring Fina here!\e"
+MG0040011,"\h(«Vigoro»)Fina?
+Oh, the Silvite…\e"
+MG0040012,\h(«Vigoro»)Ramirez escorted her to the Imperial Palace.\e
+MG0040013,"\h(«Aika»)Is that so?
+Well, after we beat the snot out of you, 
+we'll be rescuing her.\e"
+MG0040014,\h(«Vigoro»)I love it when women talk tough.\e
+MG0040015,\h(«Vigoro»)Lemme give your friends a lesson in brute force.\e
+MFG0040000,\h(«Aika»)Vyse !!\e
+MFG0040001,"\h(«Vyse»)Hé Aika, tu veux que nous revenions plus tard ?\e"
+MFG0040002,\h(«Aika»)Vyse !! Aide-moi !\e
+MFG0040003,"\h(«Vigoro»)Hé, va jouer petit !\e"
+MFG0040004,"\h(«Vyse»)Désolé de vous gâcher le plaisir, mais vous avez
+entendu la demoiselle.\e"
+MFG0040005,\h(«Aika»)Qui parle de plaisir ?!\e
+MFG0040006,\h(«Vigoro»)Je suis Vigoro.\e
+MFG0040007,\h(«Vigoro»)Aucune femme de Valua ne peut me résister.\e
+MFG0040008,"\h(«Vigoro»)Je pense que la valeur d'un homme peut se
+mesurer à sa popularité auprès des femmes.\e"
+MFG0040009,\h(«Gilder»)Humm…… Pas bête. J'essaierai de m'en souvenir.\e
+MFG0040010,"\h(«Vyse»)Où est Fina ?! Rendez-nous les Cristaux et
+ramenez Fina ici !\e"
+MFG0040011,"\h(«Vigoro»)Fina ?
+Oh, la Silvite……\e"
+MFG0040012,\h(«Vigoro»)Ramirez l'a escortée au Palais Impérial.\e
+MFG0040013,"\h(«Aika»)Vraiment?
+Bon, quand nous en aurons terminé avec vous,
+nous irons la libérer.\e"
+MFG0040014,\h(«Vigoro»)J'adore les femmes autoritaires.\e
+MFG0040015,"\h(«Vigoro»)Laisse-moi montrer à tes amis ce que force
+brutale veut dire.\e"
+MGG0040000,\h(«Aika»)Vyse!!\e
+MGG0040001,"\h(«Vyse»)He, Aika, sollen wir später noch einmal
+vorbeikommen?\e"
+MGG0040002,"\h(«Aika»)Vyse!! Mach, dass dieses Scheusal verschwindet!\e"
+MGG0040003,"\h(«Vigoro»)He, hau ab, Junge!\e"
+MGG0040004,"\h(«Vyse»)Tut mir Leid, Ihnen den Spaß zu verderben, aber
+Sie haben gehört, was die Dame gesagt hat.\e"
+MGG0040005,\h(«Aika»)Wer redet hier von Spaß?!\e
+MGG0040006,\h(«Vigoro»)Ich bin Vigoro.\e
+MGG0040007,\h(«Vigoro»)Keine Frau in Valua kann mir widerstehen.\e
+MGG0040008,"\h(«Vigoro»)Ich glaube, dass der Wert eines Mannes sich
+an seiner Beliebtheit bei den Frauen ausdrückt.\e"
+MGG0040009,"\h(«Gilder»)Hmm…… das gefällt mir. Das behalte ich mir
+für später.\e"
+MGG0040010,"\h(«Vyse»)Wo ist Fina?! Geben Sie uns die Kristalle zurück
+und bringen Sie Fina her!\e"
+MGG0040011,"\h(«Vigoro»)Fina?
+Oh, die Silviterin……\e"
+MGG0040012,"\h(«Vigoro»)Ramirez hat sie zum Kaiserlichen Palast
+mitgenommen.\e"
+MGG0040013,"\h(«Aika»)Ach ja?
+Dann werden wir Sie erst windelweich schlagen
+und dann Fina retten gehen.\e"
+MGG0040014,"\h(«Vigoro»)Ich mag es, wenn Frauen wissen, was sie wollen.\e"
+MGG0040015,"\h(«Vigoro»)Du kannst zusehen, wie ich deinen Freunden
+eine Lektion erteile.\e"
+MSG0040000,\h(«Aika»)¡¡Vyse!!\e
+MSG0040001,"\h(«Vyse»)Eh, Aika. ¿Quieres que volvamos más tarde?\e"
+MSG0040002,\h(«Aika»)¡¡Vyse!! ¡Quítame a este baboso de encima!\e
+MSG0040003,"\h(«Vigoro»)¡Ahueca el ala, chico!\e"
+MSG0040004,"\h(«Vyse»)Siento acabar con la diversión, pero ya has oído
+a la señorita.\e"
+MSG0040005,\h(«Aika»)¡¿Quién ha dicho que esto fuera diversión?!\e
+MSG0040006,\h(«Vigoro»)Me llamo Vigoro.\e
+MSG0040007,\h(«Vigoro»)No hay mujer en Valua que se me resista.\e
+MSG0040008,"\h(«Vigoro»)Creo que la valía de un hombre puede medirse por
+su popularidad con las mujeres.\e"
+MSG0040009,"\h(«Gilder»)Mmm…… Es una buena frase. Voy a intentar
+acordarme para usarla luego.\e"
+MSG0040010,"\h(«Vyse»)¡¿Dónde está Fina?! ¡Devuélvenos los Cristales y
+trae a Fina aquí!\e"
+MSG0040011,"\h(«Vigoro»)¿Fina?
+Oh, la Silvite……\e"
+MSG0040012,\h(«Vigoro»)Ramírez la ha escoltado al Palacio Imperial.\e
+MSG0040013,"\h(«Aika»)¿Es eso cierto?
+Bueno, después de molerte a palos, nos iremos a
+rescatarla.\e"
+MSG0040014,\h(«Vigoro»)Me encanta cuando las mujeres se ponen duras.\e
+MSG0040015,"\h(«Vigoro»)Ahora les enseñaré a tus amigos lo que es la
+fuerza bruta.\e"
+MG0050000,"\h(«Aika»)Heh…
+Looks like you were all talk.\e"
+MG0050001,"\h(«Vigoro»)Grr…
+Well… you got lucky…\e"
+MG0050002,"\h(«Vigoro»)And… and… I didn't have my cannon
+or… my… armor.\e"
+MG0050003,"\h(«Aika»)On Pirate Isle where I was raised,
+we have a saying…\e"
+MG0050004,"\h(«Aika»)“A true man never makes excuses for his
+shortcomings.”\e"
+MG0050005,"\h(«Aika»)And, going by that saying, you've got quite a
+ways to go.\e"
+MG0050006,"\h(«Vigoro»)Heh…
+You've got an attitude… I like that.\e"
+MG0050007,\h(«Vigoro»)You'll be seeing me again. You can count on it.\e
+MFG0050000,"\h(«Aika»)Hé……
+Vous faisiez plus le malin tout à l'heure.\e"
+MFG0050001,"\h(«Vigoro»)Grr……
+Bon…… vous avez eu de la chance……\e"
+MFG0050002,"\h(«Vigoro»)Et…… et…… je n'avais pas mon canon
+ni…… mon…… armure.\e"
+MFG0050003,"\h(«Aika»)Sur l'Île des Pirates où j'ai grandi,
+nous avons un proverbe……\e"
+MFG0050004,"\h(«Aika»)“Un homme qui se respecte ne s'excuse jamais de
+ses défauts.”\e"
+MFG0050005,"\h(«Aika»)Et, si l'on en croit le proverbe, cela ne doit
+pas vous arriver souvent.\e"
+MFG0050006,"\h(«Vigoro»)Hé……
+Tu as du caractère…… cela me plaît.\e"
+MFG0050007,\h(«Vigoro»)Nous nous reverrons. Vous pouvez en être sûrs.\e
+MGG0050000,"\h(«Aika»)He……
+Sieht so aus, als hätte nicht viel hinter
+Ihrer Rede gesteckt.\e"
+MGG0050001,"\h(«Vigoro»)Grr……
+Tja…… ihr habt Glück gehabt.\e"
+MGG0050002,"\h(«Vigoro»)Und…… außerdem…… hatte ich weder meine Kanone
+noch meine Rüstung.\e"
+MGG0050003,"\h(«Aika»)Auf der Pirate Isle, wo ich herkomme,
+gibt es ein Sprichwort……\e"
+MGG0050004,"\h(«Aika»)“Ein richtiger Mann entschuldigt sich nie für
+seine Fehler.”\e"
+MGG0050005,"\h(«Aika»)Wenn's danach geht, haben Sie noch viel
+zu lernen.\e"
+MGG0050006,"\h(«Vigoro»)He……
+Du weißt, was du willst…… das mag ich.\e"
+MGG0050007,"\h(«Vigoro»)Du wirst mich wieder sehen. Darauf kannst du
+Gift nehmen.\e"
+MSG0050000,"\h(«Aika»)Eh……
+Parece que estáis todos de charla.\e"
+MSG0050001,"\h(«Vigoro»)Grr……
+Bueno…… has tenido suerte……\e"
+MSG0050002,"\h(«Vigoro»)Y…… yo…… no tenía mi cañón
+ni mi…… mi…… armadura.\e"
+MSG0050003,"\h(«Aika»)En la Isla del Pirata, donde me crié,
+tenemos un dicho……\e"
+MSG0050004,"\h(«Aika»)“Un hombre de verdad nunca crea disculpas para
+excusar sus defectos.”\e"
+MSG0050005,"\h(«Aika»)Y, si pensamos en ese dicho, tú te inventas
+bastantes excusas.\e"
+MSG0050006,"\h(«Vigoro»)Eh……
+Tienes personalidad…… eso me gusta.\e"
+MSG0050007,\h(«Vigoro»)Nos volveremos a ver. Cuenta con eso.\e
+MG0060000,"\h(«Enrique»)So, this is where the Air Pirates 
+are being held…\e"
+MG0060001,"\h(«Guard»)Yes, Prince Enrique.\e"
+MG0060002,"\h(«Enrique»)I wish to speak with them. 
+Take me to them.\e"
+MG0060003,"\h(«Guard»)Sir… perhaps it would be best for you to wait
+out here. The cell is… not fitting…
+for one of your stature.\e"
+MG0060004,"\h(«Guard»)I'll get the other guards.
+We will bind the prisoner and bring him to you.\e"
+MG0060005,"\h(«Enrique»)Well I'll finally get to meet the Legendary Air
+Pirate Vyse. If the rumors that I've heard are
+true, he'll look like a demon and spit fire…\e"
+MG0060006,"\h(«Enrique»)But, my instincts are telling me that he's
+fighting for all the right reasons.\e"
+MG0060007,\h(«Guard»)Prince Enrique! It's an emergency!\e
+MG0060008,"\h(«Guard»)I found Admiral Vigoro unconscious in 
+one of the cells. The rest of the cells 
+are empty.\e"
+MG0060009,"\h(«Guard»)It appears that Vyse and the others have
+escaped!\e"
+MG0060010,\h(«Enrique»)What?!\e
+MG0060011,"\h(«Enrique»)I see…
+(They're trying to escape from the Grand
+Fortress again.)\e"
+MG0060012,"\h(«Enrique»)Listen carefully. Do not tell anyone about this.
+Keep the doors to this area closed. 
+Don't let anyone in or out.\e"
+MG0060013,"\h(«Enrique»)If you are questioned about it later, tell them 
+that it was a direct order from me, understand?\e"
+MG0060014,"\h(«Guard»)Yes, Your Majesty! But…\e"
+MG0060015,"\h(«Enrique»)Very well, then. Good job. Stay here. 
+There's an urgent matter that I must attend to.\e"
+MFG0060000,"\h(«Enrique»)Alors, les Pirates de l'Air sont retenus
+prisonniers ici……\e"
+MFG0060001,"\h(«Garde»)Oui, Prince Enrique.\e"
+MFG0060002,"\h(«Enrique»)Je souhaite leur parler.
+Montrez-moi le chemin.\e"
+MFG0060003,"\h(«Garde»)Prince…… il vaudrait peut-être mieux que vous
+attendiez dehors. La cellule…… n'est pas un
+endroit…… pour une personne de votre rang.\e"
+MFG0060004,"\h(«Garde»)Je vais chercher les autres gardes.
+Nous attacherons les prisonniers pour vous les
+amener.\e"
+MFG0060005,"\h(«Enrique»)Je vais enfin pouvoir rencontrer le légendaire
+Pirate de l'Air, Vyse. Si les rumeurs que j'ai
+entendues sont vraies, il devrait ressembler à
+un démon et cracher du feu……\e"
+MFG0060006,"\h(«Enrique»)Mais, mon instinct me dit qu'il se bat pour une
+bonne cause.\e"
+MFG0060007,\h(«Garde»)Prince Enrique ! Alerte !\e
+MFG0060008,"\h(«Garde»)J'ai trouvé l'Amiral Vigoro inconscient dans
+l'une des cellules. Les autres cellules sont
+vides.\e"
+MFG0060009,"\h(«Garde»)Il semble que Vyse se soit échappé avec les
+autres !\e"
+MFG0060010,\h(«Enrique»)Comment ?!\e
+MFG0060011,"\h(«Enrique»)Je vois……
+(Ils tentent de s'évader une nouvelle fois de la
+Grande Forteresse.)\e"
+MFG0060012,"\h(«Enrique»)Écoute bien. Ne le répète à personne.
+Laisse les portes fermées.
+Ne laisse personne entrer ou sortir.\e"
+MFG0060013,"\h(«Enrique»)Si par la suite on te questionne, dis que tu
+obéissais à mes ordres, compris ?\e"
+MFG0060014,"\h(«Garde»)Oui, Votre Majesté ! Mais……\e"
+MFG0060015,"\h(«Enrique»)Très bien. Beau travail. Reste ici.
+J'ai une chose urgente à faire.\e"
+MGG0060000,"\h(«Enrique»)Hier werden die Luftpiraten also gefangen
+gehalten……\e"
+MGG0060001,"\h(«Wache»)Jawohl, Prinz Enrique.\e"
+MGG0060002,"\h(«Enrique»)Ich möchte mit ihnen sprechen.
+Bring mich zu ihnen.\e"
+MGG0060003,"\h(«Wache»)Sir…… vielleicht wartet Ihr am besten hier
+draußen. Die Zelle ist…… für jemanden Eures
+Standes nicht…… zumutbar.\e"
+MGG0060004,"\h(«Wache»)Ich werde die anderen Wachen holen. Wir werden
+den Gefangenen fesseln und ihn zu Euch bringen.\e"
+MGG0060005,"\h(«Enrique»)Also werde ich endlich den legendären
+Luftpiraten Vyse kennen lernen. Wenn die
+Gerüchte wahr sind, die ich gehört habe, dann
+sieht er aus wie ein Dämon und speit Feuer……\e"
+MGG0060006,"\h(«Enrique»)Aber mein Instinkt sagt mir, dass er sich
+für die richtigen Sachen einsetzt.\e"
+MGG0060007,\h(«Wache»)Prinz Enrique! Ein Notfall!\e
+MGG0060008,"\h(«Wache»)Ich habe Admiral Vigoro bewusstlos in einer
+der Zellen gefunden. Der Rest der Zellen ist
+leer.\e"
+MGG0060009,"\h(«Wache»)Es sieht ganz so aus, als ob Vyse und die
+anderen geflohen sind!\e"
+MGG0060010,\h(«Enrique»)Was?!\e
+MGG0060011,"\h(«Enrique»)Verstehe……
+(Sie versuchen wieder, aus der Grand Fortress
+zu entkommen.)\e"
+MGG0060012,"\h(«Enrique»)Hör gut zu. Erzähle niemandem davon. Halte
+die Türen zu diesem Bereich geschlossen.
+Lass keinen rein oder raus.\e"
+MGG0060013,"\h(«Enrique»)Sollte man dich später befragen, dann sage,
+es war ein direkter Befehl von mir, verstehst
+du?\e"
+MGG0060014,"\h(«Wache»)Jawohl, Eure Majestät! Aber……\e"
+MGG0060015,"\h(«Enrique»)Sehr schön. Alles in Ordnung. Bleib hier.
+Ich muss mich um eine dringende Angelegenheit
+kümmern.\e"
+MSG0060000,"\h(«Enrique»)Así que aquí es donde tienen prisioneros a los
+Piratas Aéreos……\e"
+MSG0060001,"\h(«Guardián»)Sí, Príncipe Enrique.\e"
+MSG0060002,"\h(«Enrique»)Quiero hablar con ellos.
+Llévame donde estén.\e"
+MSG0060003,"\h(«Guardián»)Señor…… quizá sería mejor que esperéis aquí
+fuera. La celda es…… poco apropiada……
+para alguien de vuestro rango.\e"
+MSG0060004,"\h(«Guardián»)Iré a por los otros guardianes.
+Ataremos al prisionero y se lo traeremos.\e"
+MSG0060005,"\h(«Enrique»)Bueno, por fin voy a conocer al legendario
+Pirata Aéreo Vyse. Si los rumores que he oído
+son ciertos, tendrá aspecto de demonio y
+escupirá fuego……\e"
+MSG0060006,"\h(«Enrique»)Pero mi instinto me dice que está en esta lucha
+por las razones justas.\e"
+MSG0060007,\h(«Guardián»)¡Príncipe Enrique! ¡Es una emergencia!\e
+MSG0060008,"\h(«Guardián»)He encontrado al Almirante Vigoro inconsciente
+en una de las celdas. El resto de las celdas
+están vacías.\e"
+MSG0060009,\h(«Guardián»)¡Por lo visto Vyse y los demás han escapado!\e
+MSG0060010,\h(«Enrique»)¡¿Qué?!\e
+MSG0060011,"\h(«Enrique»)Ya veo……
+(Están intentando escapar de la Gran Fortaleza
+otra vez.)\e"
+MSG0060012,"\h(«Enrique»)Escucha atentamente. No se lo digas a nadie.
+Ten las puertas de esta zona cerradas.
+No dejes a nadie entrar o salir.\e"
+MSG0060013,"\h(«Enrique»)Si te preguntan, diles que fue una orden directa
+mía, ¿entendido?\e"
+MSG0060014,"\h(«Guardián»)¡Sí, Su Majestad! Pero……\e"
+MSG0060015,"\h(«Enrique»)Entonces muy bien. Bien hecho. Quédate aquí.
+Hay un asunto urgente que debo atender.\e"
+M01160000,"\h(«Vyse»)There isn't even a pillow. Well, I suppose these
+beds are meant for prisoners, so there's no
+reason for them to make the beds comfortable…\c"
+M01160001,"\h(«Vyse»)It's disturbing to think of how many people
+probably died in this prison… Or… even… in
+this bed…\c"
+M01160002,"\h(«Vyse»)The only thing I can see from here is the
+dark skies of Valua…\c"
+M01160003,"\h(«Vyse»)There's two beds, but…
+Where's Fina?\e"
+M01160004,"\h(«Aika»)I don't know. They split us up before we even
+got here… I've been alone the whole time…
+Well, until macho-man came along, that is…\e"
+M01160005,"\h(«Vyse»)It's the same kind of bed that Gilder and I had.
+I guess the Valuans don't believe in treating
+ladies like ladies…\c"
+M01160006,"\h(«Vyse»)This is probably the area right
+above our own cell…\c"
+M01160007,"\h(«Vyse»)…Damn. It won't open.
+It's locked.\c"
+M01160008,\h( )Used the “Cannon Room Key” to open the door.\c
+M01160009,"\h(«An elevator switch…»)“Prisoner Block 200      2nd Floor”
+“Fortress Cannon Room   Battery 28”
+“Don't get on the elevator.”\c"
+M01160010,"\h(«An elevator switch…»)“Prisoner Block 100      1st Floor”
+“Fortress Cannon Room   Battery 28”
+“Don't get on the elevator.”\c"
+M01160011,"\h(«An elevator switch…»)“Prisoner Block 200      2nd Floor”
+“Prisoner Block 100      1st Floor”
+“Don't get on the elevator.”\c"
+M01160012,"\h(«Vyse»)…Nope, it won't open.
+The “Cannon Room Key” won't work either.
+I guess we need a different key…\c"
+M01160013,\h( )Used the “Harbor Key” to open the door.\c
+M01160014,"\h(«Vyse»)Great… This door's locked.
+And it doesn't look like there's a keyhole…\e"
+M01160015,"\h(«Gilder»)It probably leads towards the center of the
+Fortress. I don't know about you, but I'd rather
+get out of here than go exploring. Let's go.\c"
+M01160016,"\h(«Gilder»)It probably leads towards the center of the
+Fortress. We're probably better off not going
+that way. Let's look somewhere else.\c"
+M01160017,"\h(«Vyse»)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01160018,"\h(«Gilder»)Heh… Good job guys. Looks like my crew is
+causing quite a commotion. It should be enough
+for us to sneak out of here…\c"
+M01160019,"\h(«Vyse»)…Hm?
+This switch isn't doing anything.\e"
+M01160020,"\h(«Gilder»)This elevator is probably stuck on another floor
+or somebody else might already be inside it.
+Let's not stick around to find out which, okay?\c"
+M01160021,\h(«Aika»)Aaaaaaaaaaaaaaaaack!\e
+M01160022,\h(«Vyse»)… Hey! That sounded like Aika!!\c
+M01160023,"\h(«Vigoro»)Ugh… That hurt, Red…\c"
+M01160024,"\h( )You found the “Harbor Key” in the pocket
+of the Valuan Soldier.\c"
+MF01160000,"\h(«Vyse»)Il n'y a même pas d'oreiller. Bon, je suppose
+que ce sont des lits de prisonniers, donc il n'y
+a pas de raison pour qu'ils soient
+confortables……\c"
+MF01160001,"\h(«Vyse»)C'est perturbant de penser à tous les gens qui
+ont dû mourir dans cette prison…… Ou…… même……
+dans ce lit……\c"
+MF01160002,"\h(«Vyse»)Je ne peux voir que les cieux noirs de Valua
+d'ici……\c"
+MF01160003,"\h(«Vyse»)Il y a deux lits, mais……
+Où est Fina ?\e"
+MF01160004,"\h(«Aika»)Je ne sais pas. Nous avons été séparés avant de
+venir ici…… J'étais toute seule pendant tout ce
+temps…… Euh, jusqu'à ce que monsieur macho
+arrive, évidemment……\e"
+MF01160005,"\h(«Vyse»)C'est le même genre de lit que Gilder et moi
+avions. J'imagine que les Valuans ne traitent
+pas les dames comme il se doit……\c"
+MF01160006,"\h(«Vyse»)C'est sûrement l'endroit
+juste au-dessus de notre cellule……\c"
+MF01160007,"\h(«Vyse»)……Sacrebleu. Ça ne s'ouvre pas.
+C'est fermé à clé.\c"
+MF01160008,"\h( )La “Clé Pièce Canon” a été utilisée pour
+ouvrir la porte.\c"
+MF01160009,"\h(«Un bouton d'ascenseur……»)“Bloc Prisonnier 200      2e étage”
+“Pièce au Canon de la Forteresse   Batterie 28”
+“Ne montez pas dans l'ascenseur.”\c"
+MF01160010,"\h(«Un bouton d'ascenseur……»)“Bloc Prisonnier 100      1er étage”
+“Pièce au Canon de la Forteresse   Batterie 28”
+“Ne montez pas dans l'ascenseur.”\c"
+MF01160011,"\h(«Un bouton d'ascenseur……»)“Bloc Prisonnier 200      2e étage”
+“Bloc Prisonnier 100      1er étage”
+“Ne montez pas dans l'ascenseur.”\c"
+MF01160012,"\h(«Vyse»)……Non, impossible de l'ouvrir.
+La “Clé Pièce Canon” ne marche pas non
+plus. J'imagine qu'il nous faut une clé
+différente……\c"
+MF01160013,"\h( )La “Clé du Port” a été utilisée pour ouvrir la
+porte.\c"
+MF01160014,"\h(«Vyse»)Génial…… Cette porte est fermée à clé.
+Et on dirait qu'il n'y a pas de serrure……\e"
+MF01160015,"\h(«Gilder»)Cela mène certainement au centre de la
+Forteresse. Je ne sais pas ce que vous en
+pensez, mais je préfère partir d'ici que d'aller
+explorer. Allons-y.\c"
+MF01160016,"\h(«Gilder»)Cela mène certainement au centre de la
+Forteresse. Il vaut mieux ne pas passer par là.
+Allons voir ailleurs.\c"
+MF01160017,"\h(«Vyse»)Apparemment, il faut marcher sur cette tablette
+pour ouvrir la porte. Je crois que je dois
+rester debout ici pendant un certain temps……\c"
+MF01160018,"\h(«Gilder»)Hé…… Bon travail les gars. On dirait que mon
+équipage a semé la panique. Cela devrait nous
+permettre de partir en douce……\c"
+MF01160019,"\h(«Vyse»)……Hum ?
+Ce bouton ne sert pas à grand chose.\e"
+MF01160020,"\h(«Gilder»)Cet ascenseur doit être coincé à un autre étage
+ou quelqu'un est peut-être déjà à l'intérieur.
+Partons avant de le découvrir, OK ?\c"
+MF01160021,\h(«Aika»)Aaaaaaaaaaaaaaaaack !\e
+MF01160022,\h(«Vyse»)…… Hé ! On aurait dit Aika !!\c
+MF01160023,"\h(«Vigoro»)Ugh…… Ça fait mal, la Rouquine……\c"
+MF01160024,"\h( )Vous avez trouvé la “Clé du Port” dans la poche
+du soldat Valuan.\c"
+MG01160000,"\h(«Vyse»)Da ist noch nicht einmal ein Kopfkissen.
+Na ja, diese Betten sind wohl für
+Gefangene gedacht, warum sollten sie dann
+bequem sein……\c"
+MG01160001,"\h(«Vyse»)Ziemlich beunruhigend, wenn man daran denkt,
+wie viele Leute wahrscheinlich in diesem
+Gefängnis umgekommen sind…… Oder…… sogar……
+in diesem Bett……\c"
+MG01160002,"\h(«Vyse»)Das Einzige, was ich von hier aus sehen kann,
+ist der dunkle Himmel von Valua……\c"
+MG01160003,"\h(«Vyse»)Da sind zwei Betten, aber……
+Wo ist Fina?\e"
+MG01160004,"\h(«Aika»)Ich weiß nicht. Wir wurden getrennt, noch bevor
+wir hierher kamen…… ich war die ganze Zeit
+über allein…… das heißt, bis dieser Macho
+hereinkam……\e"
+MG01160005,"\h(«Vyse»)Es ist dasselbe Bett, das Gilder und ich hatten.
+Schätze, die Valuaner halten nicht viel davon,
+Damen als solche zu behandeln……\c"
+MG01160006,"\h(«Vyse»)Das ist wahrscheinlich der Bereich
+genau über unserer eigenen Zelle……\c"
+MG01160007,"\h(«Vyse»)……Verdammt. Sie lässt sich nicht öffnen.
+Sie ist verschlossen.\c"
+MG01160008,"\h( )Du hast den “Kanonenschlüssel” benutzt,
+um die Tür zu öffnen.\c"
+MG01160009,"\h(«Ein Aufzugsschalter……»)“Gefängnisblock 200      2. Stock”
+“Kanonenraum Festung   Batterie 28”
+“Nicht in den Aufzug steigen.”\c"
+MG01160010,"\h(«Ein Aufzugsschalter……»)“Gefängnisblock 100      1. Stock”
+“Kanonenraum Festung   Batterie 28”
+“Nicht in den Aufzug steigen.”\c"
+MG01160011,"\h(«Ein Aufzugsschalter……»)“Gefängnisblock 200      2. Stock”
+“Gefängnisblock 100      1. Stock”
+“Nicht in den Aufzug steigen.”\c"
+MG01160012,"\h(«Vyse»)……Nein, sie geht nicht auf.
+Der “Kanonenschlüssel” geht auch nicht.
+Schätze, wir brauchen einen anderen
+Schlüssel……\c"
+MG01160013,"\h( )Du hast den “Hafenschlüssel” benutzt, um die
+Tür zu öffnen.\c"
+MG01160014,"\h(«Vyse»)Na toll…… diese Tür ist verschlossen.
+Und es sieht nicht so aus, als hätte sie
+ein Schlüsselloch……\e"
+MG01160015,"\h(«Gilder»)Sie führt wahrscheinlich zum Herzen der Festung.
+Was meinst du? Ich würde lieber verschwinden,
+als hier weiter herumzuforschen. Gehen wir.\c"
+MG01160016,"\h(«Gilder»)Sie führt wahrscheinlich zum Herzen der Festung.
+Es ist sicher besser, wenn wir nicht dort
+entlang gehen. Schauen wir uns woanders um.\c"
+MG01160017,"\h(«Vyse»)Ich muss wohl auf diese Tafel treten, damit
+sich die Tür öffnet. Ich glaube, ich muss
+nur eine bestimmte Zeit hier stehen bleiben……\c"
+MG01160018,"\h(«Gilder»)He…… gute Arbeit, Leute. Meine Crew scheint
+ganz schön Aufruhr zu machen. Das sollte
+reichen, damit wir uns hier rausschleichen
+können……\c"
+MG01160019,"\h(«Vyse»)……Hm?
+An diesem Schalter passiert nichts.\e"
+MG01160020,"\h(«Gilder»)Dieser Aufzug ist wahrscheinlich auf einem
+anderen Stockwerk stecken geblieben, oder
+jemand anderes ist bereits drin. Lass uns
+nicht so lange warten, bis wir es wissen, ok?\c"
+MG01160021,\h(«Aika»)Aaaaaaaaaaaaaaaaack!\e
+MG01160022,\h(«Vyse»)……He! Das hat sich wie Aika angehört!!\c
+MG01160023,"\h(«Vigoro»)Urgh…… das hat wehgetan, Rotschopf……\c"
+MG01160024,"\h( )Du hast den “Hafenschlüssel” in der Tasche
+des valuanischen Soldaten gefunden.\c"
+MS01160000,"\h(«Vyse»)Ni siquiera hay almohada. Bueno, supongo que
+estas camas están pensadas para prisioneros, así
+que habrán querido hacerlas cómodas……\c"
+MS01160001,"\h(«Vyse»)Es horrible pensar en la cantidad de gente que
+ha debido morir en esta prisión…… e incluso en
+esta misma cama……\c"
+MS01160002,"\h(«Vyse»)Lo único que se ve desde aquí son los cielos
+oscuros de Valua……\c"
+MS01160003,"\h(«Vyse»)Hay dos camas, pero……
+¿Dónde está Fina?\e"
+MS01160004,"\h(«Aika»)No sé. Nos separaron antes de que entráramos
+aquí…… He estado sola todo el tiempo…… Bueno,
+hasta que apareció el machote……\e"
+MS01160005,"\h(«Vyse»)Es el mismo tipo de cama que teníamos Gilder y
+yo. Supongo que los Valuan no dan un trato
+especial a las damas……\c"
+MS01160006,"\h(«Vyse»)Seguro que esto está justo encima de nuestra
+celda……\c"
+MS01160007,"\h(«Vyse»)…… Maldición. No se abre.
+Está cerrada con llave.\c"
+MS01160008,"\h( )Has usado la “Llave del Cañón” para abrir la
+puerta.\c"
+MS01160009,"\h(«Botón del Ascensor……»)“Prisionero del Bloque 200 en la 2a Planta.”
+“Fortaleza de la Sala de Cañones, batería 28.”
+“No subas al ascensor.”\c"
+MS01160010,"\h(«Botón del Ascensor……»)“Prisionero del Bloque 100 en la 1a Planta.”
+“Fortaleza de la Sala de Cañones, batería 28.”
+“No subas al ascensor.”\c"
+MS01160011,"\h(«Botón del Ascensor……»)“Prisionero del Bloque 200 en la 2a Planta.”
+“Prisionero del Bloque 100 en la 1a Planta.”
+“No subas al ascensor.”\c"
+MS01160012,"\h(«Vyse»)…… No, no se abre.
+La “Llave del Cañón” tampoco funciona.
+Creo que necesito una llave distinta……\c"
+MS01160013,"\h( )Usa la llave del “Puerto Clave” para abrir la
+puerta.\c"
+MS01160014,"\h(«Vyse»)Genial…… Esta puerta está cerrada.
+Y no parece que haya una cerradura……\e"
+MS01160015,"\h(«Gilder»)Debe llevar al centro de la Fortaleza. No sé tú,
+pero yo prefiero largarme de aquí antes que ir
+de exploración. Vámonos.\c"
+MS01160016,"\h(«Gilder»)Debe llevar al centro de la Fortaleza. Es mejor
+que no vayamos por ahí. Vamos a buscar otro
+camino.\c"
+MS01160017,"\h(«Vyse»)Por lo visto tengo que pisar en esta losa para
+abrir la puerta. Creo que hay que esperar un
+rato……\c"
+MS01160018,"\h(«Gilder»)Buen trabajo, chicos. Mi tripulación está
+causando bastante jaleo. Lo bastante para que
+podamos escabullirnos de aquí……\c"
+MS01160019,"\h(«Vyse»)…… ¿Mm?
+Este botón no sirve de nada.\e"
+MS01160020,"\h(«Gilder»)El ascensor debe estar atascado en otra planta o
+quizá esté ocupado. No tenemos por qué
+averiguarlo, mejor será que nos vayamos.\c"
+MS01160021,\h(«Aika»)¡Aaaaaaaaaaaaaaaaah!\e
+MS01160022,\h(«Vyse»)…… ¡Oye! ¡¡Me ha parecido Aika!!\c
+MS01160023,"\h(«Vigoro»)Ah…… Qué daño, pelirroja……\c"
+MS01160024,"\h( )Has encontrado la llave del “Puerto Clave” en el
+bolsillo del Soldado Valuan.\c"
+"",me116b.sct
+"",M0252
+"",m5160000
+"",a116ag02.mld
+"",a116ag02.mld
+"",e6g002
+"",M0269
+"",a116ag02.mld
+"",a116ag03.mld
+"",a116ag03_efe.mld
+"",a116ag03.mld
+"",a116ag03_efe.mld
+"",e6g003
+"",M0374
+"",M0312
+"",M0312
+"",a116ag03.mld
+"",a116ag03_efe.mld
+"",a116ag04.mld
+"",a116ag04.mld
+"",e6g004
+"",M0326
+"",a116ag04.mld
+"",a116ag05.mld
+"",a116ag05.mld
+"",e6g005
+"",M0252
+"",a116ag05.mld
+"",a116ag06.mld
+"",a116ag06.mld
+"",e6g006
+"",M0307
+"",a116ag06.mld

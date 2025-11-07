@@ -1,0 +1,62 @@
+[Event Name],Task ID
+MA0050000,"\h(《Vice Captain》)Your Excellency, the sun is up 
+and the visibility is good. 
+Escape preparation is complete. \e"
+MA0050001,"\h(《Alfonso》)Hehehe… Oh, really. 
+I have finished my preparations as well. \e"
+MA0050002,\h(《Alfonso》)My preparations for your disposal. \e
+MA0050003,\h(《Vice Captain》)W… what? \e
+MA0050004,"\h(《Vice Captain》)P… please!
+Your, Your Excellency!!!
+What are you doing!? \e"
+MA0050005,"\h(《Alfonso》)This battleship was 
+robbed by the air pirates 
+because you betrayed us… \e"
+MA0050006,"\h(《Alfonso》)…And to keep my glorious legend 
+from being stained with filth… You must die. \e"
+MA0050007,"\h(《Vice Captain》)No… No! Please
+forgive me, Your Excellency! \e"
+MA0050008,\h(《Vice Captain》)Aaahhhh! \e
+MA0050009,"\h(《Alfonso》)Hehehe…
+Excellent. \e"
+MA0050010,"\h(《Alfonso》)What choice did I have but 
+to dispose of the traitor?  \e"
+MA0050011,"\h(　)So, is that how Valua 
+deals with it's people? \e"
+MA0050012,\h(《Alfonso》)What!? \e
+MA0050013,"\h(《Vyse》)We will be taking care of her from here.
+However…
+I have one more thing to do before we leave. \e"
+MA0050014,"\h(《Vyse》)As a fellow sailor…
+I can't allow you to carry on like this. 
+Draw your blade, Alfonso！\e"
+MA0050015,"\h(《Alfonso》)Heh… You dare speak to 
+me with such an insolent tone? 
+I shall have your head for it! \e"
+MA0050016,"\h(《Alfonso》)You will regret ever 
+defying me. 
+Antonio! \e"
+MA0050017,\h(《Vyse》)What? What is that thing!? \e
+MA0050018,"\h(《Alfonso》)He's my personal warbeast.  
+I was going to leave him here, but it seems 
+I've found a use for him after all…\e"
+MA0050019,"\h(《Alfonso》)Antonio! 
+Skewer those air pirates with 
+your horns! \e"
+"",me403x.sct
+"",e6o004
+"",a401x_eff.mld
+"",a400x_ef3.mld
+"",a401x_ef2.mld
+"",a401x_ef2.mld
+"",a401x_eff.mld
+"",a400x_ef3.mld
+"",a101ca05.mld
+"",M0326
+"",a101ca05.mld
+"","アルシノ壁突撃バージョン
+アルシノ壁ぶち壊しバージョン\c"
+"","アルシノ壁突撃バージョン
+アルシノ壁ぶち壊しバージョン
+つぎのシーンへ\c"
+"",\h(ヴァイス)こ、こいつは！！\c

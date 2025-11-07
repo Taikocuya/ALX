@@ -1,0 +1,930 @@
+[Event Name],Task ID
+MJ0040000,\h(«Galcian»)Admirals of the Valuan Armada…\e
+MJ0040001,\h(«Galcian»)I have urgent news that affects all of you.\e
+MJ0040002,"\h(«Alfonso»)Hoho! Words of wisdom from the 
+Grand Admiral himself?
+Please… enlighten us.\e"
+MJ0040003,"\h(«Galcian»)From this day forth, the Armada will no longer 
+be under the Empress' control.\e"
+MJ0040004,"\h(«Galcian»)Those that do not wish to walk this path that I 
+have chosen, leave now. Those that wish to hear
+my plans, stay.\e"
+MJ0040005,\h(«Alfonso»)What? What is this?!\e
+MJ0040006,"\h(«Gregorio»)Admiral Galcian! Do you know what you are 
+saying?!\e"
+MJ0040007,"\h(«Alfonso»)Have you gone insane, Galcian?!
+Are you rebelling against the Empress?\e"
+MJ0040008,"\h(«Galcian»)Hahaha… Fear not, Alfonso. I still have my wits
+about me. I am following my own path. It's your
+decision whether or not you wish to follow me.\e"
+MJ0040009,"\h(«Alfonso»)Hehehe…
+So, Galcian finally shows his true intentions…\e"
+MJ0040010,"\h(«Alfonso»)Those words are treasonous! The punishment is
+death!\e"
+MJ0040011,\h(«Alfonso»)Ramirez?!\e
+MJ0040012,"\h(«Ramirez»)If you speak in that manner again, I shall 
+cleave you in two.\e"
+MJ0040013,\h(«Alfonso»)What? What do you mean?\e
+MJ0040014,"\h(«Galcian»)Wait, Ramirez…
+There is no need for you to waste your energy on
+this whelp.\e"
+MJ0040015,"\h(«Galcian»)What about the rest of you? 
+Will you follow me?\e"
+MJ0040016,\h(«Belleza»)Lord Galcian…\e
+MJ0040017,"\h(«Vigoro»)It doesn't make any difference to me. As long as
+I get to fight, I don't care who's in charge.\e"
+MJ0040018,"\h(«De Loco»)I will stay in the Armada as well.
+I still haven't finished building the ship that
+can go into Deep Sky.\e"
+MJ0040019,"\h(«De Loco»)Also, if I stay in the Armada… I'll probably
+get to fight Vyse again! Hehehehe!!!\e"
+MJ0040020,\h(«Gregorio»)……\e
+MJ0040021,"\h(«Galcian»)Gregorio…
+What will you do?\e"
+MJ0040022,"\h(«Gregorio»)Lord Galcian…
+What is your goal?\e"
+MJ0040023,"\h(«Gregorio»)I do not think that you are seeking the Imperial
+Throne… What is it you want?\e"
+MJ0040024,"\h(«Galcian»)Hahaha…
+You are correct… That is not my goal.\e"
+MJ0040025,"\h(«Galcian»)I want more power…
+More control than Valua has ever had.
+That is all I will say for now.\e"
+MJ0040026,"\h(«Gregorio»)Lord Galcian…
+Just what are you up to…\e"
+MFJ0040000,\h(«Galcian»)Amiraux de l'Armada Valuan……\e
+MFJ0040001,"\h(«Galcian»)J'ai des nouvelles urgentes qui vont tout
+changer.\e"
+MFJ0040002,"\h(«Alfonso»)Oh ! Oh ! Une parole de sagesse du Grand Amiral
+lui-même…… Je vous en prie : illuminez nous.\e"
+MFJ0040003,"\h(«Galcian»)À partir d'aujourd'hui, l'Armada ne sera plus
+sous le contrôle de l'Impératrice.\e"
+MFJ0040004,"\h(«Galcian»)Ceux qui ne veulent pas me suivre, partez.
+Ceux qui veulent connaître mes plans, restez.\e"
+MFJ0040005,\h(«Alfonso»)Quoi ? Que se passe t-il ?!\e
+MFJ0040006,"\h(«Gregorio»)Amiral Galcian ! Vous rendez-vous compte de ce
+que vous dites ?!\e"
+MFJ0040007,"\h(«Alfonso»)Avez-vous perdu la tête, Galcian ?!
+Vous rebellez-vous contre l'Impératrice ?\e"
+MFJ0040008,"\h(«Galcian»)Hahaha…… Ne craignez rien, Alfonso. Je n'ai pas
+perdu la tête. Je suis ma voie. C'est à vous de
+décider si vous voulez me suivre ou non.\e"
+MFJ0040009,"\h(«Alfonso»)Héhéhé……
+Alors, Galcian dévoile enfin ses vraies
+intentions……\e"
+MFJ0040010,"\h(«Alfonso»)Ce sont des paroles de traître !
+C'est puni de la peine de mort !\e"
+MFJ0040011,\h(«Alfonso»)Ramirez ?!\e
+MFJ0040012,"\h(«Ramirez»)Si vous parlez encore de la sorte, je vous
+couperai en deux.\e"
+MFJ0040013,\h(«Alfonso»)Que ? Que voulez-vous dire ?\e
+MFJ0040014,"\h(«Galcian»)Attendez, Ramirez……
+Inutile de gaspiller votre énergie sur ce
+morveux.\e"
+MFJ0040015,"\h(«Galcian»)Et vous alors ?
+Me suivrez-vous ?\e"
+MFJ0040016,\h(«Belleza»)Seigneur Galcian……\e
+MFJ0040017,"\h(«Vigoro»)Cela ne change rien pour moi. Du moment que je
+me bats, je me moque de qui commande.\e"
+MFJ0040018,"\h(«De Loco»)Je reste aussi dans l'Armada.
+Je n'ai pas encore fini de construire le navire
+qui volera dans les Profondeurs.\e"
+MFJ0040019,"\h(«De Loco»)Et puis, si je reste dans l'Armada……
+J'aurais une nouvelle chance de battre Vyse !
+Héhéhéhé !!!\e"
+MFJ0040020,\h(«Gregorio»)…………\e
+MFJ0040021,"\h(«Galcian»)Gregorio……
+Qu'allez-vous faire ?\e"
+MFJ0040022,"\h(«Gregorio»)Seigneur Galcian……
+Quel est votre objectif ?\e"
+MFJ0040023,"\h(«Gregorio»)Je ne crois pas que vous vouliez le Trône
+Impérial…… Que voulez-vous ?\e"
+MFJ0040024,"\h(«Galcian»)Hahaha……
+Vous avez raison…… Ce n'est pas mon objectif.\e"
+MFJ0040025,"\h(«Galcian»)Je veux plus de pouvoir……
+Plus de contrôle que Valua ait jamais eu.
+C'est tout ce que j'ai à dire.\e"
+MFJ0040026,"\h(«Gregorio»)Seigneur Galcian……
+Qu'est-ce que vous mijotez……\e"
+MGJ0040000,\h(«Galcian»)Admirale der Valuan Armada……\e
+MGJ0040001,"\h(«Galcian»)Ich habe eine dringende Mitteilung zu machen,
+die Sie alle etwas angeht.\e"
+MGJ0040002,"\h(«Alfonso»)Hoho! Weise Worte vom erhabenen Admiral
+persönlich? Bitte…… machen Sie es nicht
+zu spannend.\e"
+MGJ0040003,"\h(«Galcian»)Von heute an untersteht die Armada nicht
+mehr den Befehlen der Kaiserin.\e"
+MGJ0040004,"\h(«Galcian»)Diejenigen unter Ihnen, die diesem meinem Weg
+nicht folgen wollen, können jetzt gehen.
+Diejenigen, die sich meine Pläne anhören
+wollen, können hierbleiben.\e"
+MGJ0040005,\h(«Alfonso»)Was? Was soll das!\e
+MGJ0040006,"\h(«Gregorio»)Admiral Galcian! Wissen Sie, was Sie da sagen?\e"
+MGJ0040007,"\h(«Alfonso»)Sind Sie verrückt geworden, Galcian?!
+Wollen Sie gegen die Kaiserin rebellieren?\e"
+MGJ0040008,"\h(«Galcian»)Hahaha…… Keine Angst, Alfonso. Ich weiß,
+was ich tue. Ich folge meinem eigenen Weg.
+Es ist Ihre Entscheidung, ob Sie mir folgen
+wollen oder nicht.\e"
+MGJ0040009,"\h(«Alfonso»)Hihihi……
+Jetzt zeigt Galcian endlich seine wahren
+Absichten……\e"
+MGJ0040010,"\h(«Alfonso»)Ihre Worte sind verräterisch! Darauf steht die
+Todesstrafe.\e"
+MGJ0040011,\h(«Alfonso»)Ramirez?!\e
+MGJ0040012,"\h(«Ramirez»)Wenn du noch einmal mit mir in dieser Weise
+sprichst, mache ich aus dir zwei Hälften.\e"
+MGJ0040013,\h(«Alfonso»)Was? Was meinen Sie?\e
+MGJ0040014,"\h(«Galcian»)Warte, Ramirez……
+Es hat keinen Zweck, deine Energie auf diesen
+Feigling zu verschwenden.\e"
+MGJ0040015,"\h(«Galcian»)Wie steht's mit dem Rest von Ihnen?
+Werden Sie mir folgen?\e"
+MGJ0040016,\h(«Belleza»)Lord Galcian……\e
+MGJ0040017,"\h(«Vigoro»)Es ist mir völlig egal. Solange ich kämpfen
+kann, schere ich mich nicht darum, wer das
+Kommando hat.\e"
+MGJ0040018,"\h(«De Loco»)Ich werde auch in der Armada bleiben.
+Ich habe noch immer nicht das Schiff fertig,
+das in den Deep Sky fahren kann.\e"
+MGJ0040019,"\h(«De Loco»)Und außerdem…… wenn ich in der Armada bleibe,
+werde ich wahrscheinlich wieder gegen Vyse
+kämpfen können! Hihihihi!!!\e"
+MGJ0040020,\h(«Gregorio»)……\e
+MGJ0040021,"\h(«Galcian»)Gregorio……
+Was meinen Sie?\e"
+MGJ0040022,"\h(«Gregorio»)Lord Galcian……
+Was beabsichtigen Sie?\e"
+MGJ0040023,"\h(«Gregorio»)Ich glaube nicht, dass Sie es auf den
+Kaiserlichen Thron abgesehen haben……
+Was wollen Sie also?\e"
+MGJ0040024,"\h(«Galcian»)Hahaha……
+Da haben Sie Recht…… Das ist nicht meine
+Absicht.\e"
+MGJ0040025,"\h(«Galcian»)Ich will mehr Macht……
+Mehr Kontrolle, als Valua je hatte.
+Das ist alles, was ich im Moment bereit bin
+zu sagen.\e"
+MGJ0040026,"\h(«Gregorio»)Lord Galcian……
+Was haben Sie denn nun wirklich vor……\e"
+MSJ0040000,\h(«Galcian»)Almirantes de la Armada Valuan……\e
+MSJ0040001,\h(«Galcian»)Tengo noticias urgentes que os afectan a todos.\e
+MSJ0040002,"\h(«Alfonso»)¡Oooh! ¿Unas palabras de sabiduría del Gran
+Almirante en persona?
+Por favor…… ilumínenos con su saber.\e"
+MSJ0040003,"\h(«Galcian»)A partir de hoy, la Armada ya no estará bajo el
+control de la Emperatriz.\e"
+MSJ0040004,"\h(«Galcian»)Los que no deseen continuar en la senda que he
+elegido, que se vayan. Aquellos que deseen
+enterarse de mis planes, que se queden.\e"
+MSJ0040005,\h(«Alfonso»)¿Cómo? ¡¿Pero qué es esto?!\e
+MSJ0040006,"\h(«Gregorio»)¡Almirante Galcian! ¡¿Sabes lo que estás
+diciendo?!\e"
+MSJ0040007,"\h(«Alfonso»)¡¿Te has vuelto loco, Galcian?!
+¿Vas a rebelarte contra la Emperatriz?\e"
+MSJ0040008,"\h(«Galcian»)Ja, ja…… No temas, Alfonso. Todavía me queda un
+poco de sentido. Voy a seguir mi propio camino.
+Seguirme o no depende de ti.\e"
+MSJ0040009,"\h(«Alfonso»)Je, je……
+Así que por fin conocemos al verdadero Galcian……\e"
+MSJ0040010,"\h(«Alfonso»)¡Esas palabras constituyen traición!
+¡Y se pagan con la muerte!\e"
+MSJ0040011,\h(«Alfonso»)¡¿Ramírez?!\e
+MSJ0040012,"\h(«Ramírez»)Si vuelves a decir eso, te parto en dos.\e"
+MSJ0040013,\h(«Alfonso»)¿Qué? ¿Qué quiere decir eso?\e
+MSJ0040014,"\h(«Galcian»)Espera, Ramírez……
+No hay necesidad de que malgastes tus energías
+con este necio.\e"
+MSJ0040015,"\h(«Galcian»)¿Y qué decís el resto de vosotros?
+¿Vais a seguirme?\e"
+MSJ0040016,\h(«Belleza»)Lord Galcian……\e
+MSJ0040017,"\h(«Vigoro»)A mí me da lo mismo. Mientras pueda pelear en
+las batallas, me da igual quién esté al mando.\e"
+MSJ0040018,"\h(«De Loco»)Yo también voy a quedarme en la Armada.
+Todavía no he terminado de construir el navío
+que puede viajar al Cielo Profundo.\e"
+MSJ0040019,"\h(«De Loco»)Además, si lucho para la Armada…… ¡seguro que
+podré luchar contra Vyse! ¡¡¡Je, je, je!!!\e"
+MSJ0040020,\h(«Gregorio»)……\e
+MSJ0040021,"\h(«Galcian»)Gregorio……
+¿Qué vas a hacer?\e"
+MSJ0040022,"\h(«Gregorio»)Lord Galcian……
+¿Cuál es el objetivo de todo esto?\e"
+MSJ0040023,"\h(«Gregorio»)No creo que sea el Trono Imperial……
+¿Qué es lo que realmente quieres?\e"
+MSJ0040024,"\h(«Galcian»)Ja, ja……
+Tienes razón…… No es ésa mi meta.\e"
+MSJ0040025,"\h(«Galcian»)Quiero más poder……
+Más control del que Valua ha tenido jamás.
+Eso es todo lo que necesitáis saber.\e"
+MSJ0040026,"\h(«Gregorio»)Lord Galcian……
+Pero qué está pasando aquí……\e"
+MJ0080000,\h(«Enrique»)Gregorio… you were like family to me…\e
+MJ0080001,"\h(«Valuan Soldier»)Lord Galcian!
+What is going on?!\e"
+MJ0080002,"\h(«Galcian»)…Send him back to Valua. And make sure his body
+is well taken care of. It is worth more than
+your life.\e"
+MJ0080003,"\h(«Valuan Soldier»)Yes, Lord Galcian!\e"
+MJ0080004,"\h(«Galcian»)Gregorio… you were always the kind to be the
+last to stay on a sinking ship.\e"
+MFJ0080000,\h(«Enrique»)Gregorio…… je vous considérais comme un parent……\e
+MFJ0080001,"\h(«Valuan Soldier»)Seigneur Galcian !
+Que se passe t-il ?!\e"
+MFJ0080002,"\h(«Galcian»)Renvoyez son corps à Valua, et assurez vous
+qu'il y reçoive les plus grands honneurs.\e"
+MFJ0080003,"\h(«Soldat Valuan»)Oui, Seigneur Galcian !\e"
+MFJ0080004,"\h(«Galcian»)Gregorio…… vous avez toujours été du genre à
+abandonner le navire en dernier.\e"
+MGJ0080000,"\h(«Enrique»)Gregorio…… du hast mir so viel bedeutet wie
+meine Familie……\e"
+MGJ0080001,"\h(«Valua-Soldat»)Lord Galcian!
+Was ist hier passiert?!\e"
+MGJ0080002,"\h(«Galcian»)…… Schick ihn zurück nach Valua. Und sieh zu,
+dass man sich um seine Leiche kümmert. Sie ist
+mehr wert als dein eigenes Leben.\e"
+MGJ0080003,"\h(«Valuan Soldier»)Jawohl, Lord Galcian!\e"
+MGJ0080004,"\h(«Galcian»)Gregorio…… du hast immer zu den Menschen gehört,
+die bis zum Schluss auf dem sinkenden Schiff
+geblieben sind……\e"
+MSJ0080000,\h(«Enrique»)Gregorio…… eras como de la familia para mí……\e
+MSJ0080001,"\h(«Soldado Valuan»)¡Lord Galcian!
+¡¿Pero qué pasa aquí?!\e"
+MSJ0080002,"\h(«Galcian»)……Llévate el cadáver a Valua. Y asegúrate de que
+esté en buenas manos. Vale más él muerto que tú
+vivo.\e"
+MSJ0080003,"\h(«Soldado Valuan»)¡Sí, Lord Galcian!\e"
+MSJ0080004,"\h(«Galcian»)Gregorio…… siempre fuiste el tipo de persona que
+abandona el último el navío cuando este se
+hunde.\e"
+MK0160000,\h(«Vyse»)I hope this works!\e
+MK0160001,"\h(«Gilder»)Well, there's only one way to find out.\e"
+MK0160002,"\h(«Aika»)Alright!
+It's moving!\e"
+MK0160003,"\h(«Vyse»)Yeah!
+It looks like this will take us
+straight to Soltis!\e"
+MK0160004,\h( )You'll be dead before you get there.\e
+MK0160005,\h(«Vyse»)Huh?\e
+MK0160006,"\h(«Vigoro»)Hey there, Red!
+Did you miss me?\e"
+MK0160007,"\h(«Aika»)Ewww… 
+It's Vigoro!!!\e"
+MK0160008,\h(«Vigoro»)I've been thinking about you… \e
+MK0160009,"\h(«Aika»)I can't believe this guy!
+He just doesn't know when to give up!!\e"
+MK0160010,"\h(«Vigoro»)I remember you… Vyse. 
+This time, I'm ready for you!\e"
+MK0160011,\h(«Vyse»)Let's settle this once and for all!\e
+MFK0160000,\h(«Vyse»)J'espère que ça marche !\e
+MFK0160001,"\h(«Gilder»)Eh bien, il n'y a qu'un moyen de le savoir.\e"
+MFK0160002,"\h(«Aika»)Oh super !
+Il avance !\e"
+MFK0160003,"\h(«Vyse»)Génial !
+Il devrait nous emmener directement à
+Soltis !\e"
+MFK0160004,\h( )Vous serez morts avant d'y arriver.\e
+MFK0160005,\h(«Vyse»)Hein ?\e
+MFK0160006,"\h(«Vigoro»)Hé, Ma Rouquine !
+Je t'ai manqué ?\e"
+MFK0160007,"\h(«Aika»)Pfut……
+C'est Vigoro !!!\e"
+MFK0160008,\h(«Vigoro»)J'ai beaucoup pensé à toi……\e
+MFK0160009,"\h(«Aika»)Je n'arrive pas à le croire !
+Il n'abandonne jamais !!\e"
+MFK0160010,"\h(«Vigoro»)Je me souviens de vous…… Vyse.
+Cette fois, je suis prêt à vous affronter !\e"
+MFK0160011,\h(«Vyse»)Réglons cette affaire une fois pour toutes !\e
+MGK0160000,"\h(«Vyse»)Ich hoffe, es funktioniert!\e"
+MGK0160001,"\h(«Gilder»)Nun, es gibt nur eine Möglichkeit, das
+herauszufinden.\e"
+MGK0160002,"\h(«Aika»)Schaut!
+Es bewegt sich!\e"
+MGK0160003,"\h(«Vyse»)Ja!
+Sieht so aus, als würden wir so direkt
+nach Soltis kommen!\e"
+MGK0160004,"\h( )Ihr werdet tot sein, bevor ihr dort ankommt.\e"
+MGK0160005,\h(«Vyse»)Was?\e
+MGK0160006,"\h(«Vigoro»)Hallo, Rotschopf!
+Hast du mich vermisst?\e"
+MGK0160007,"\h(«Aika»)Nein……
+Es ist Vigoro!!!\e"
+MGK0160008,\h(«Vigoro»)Ich habe oft an dich denken müssen……\e
+MGK0160009,"\h(«Aika»)Schaut euch diesen Typen an!
+Er kann und will nicht aufgeben!!\e"
+MGK0160010,"\h(«Vigoro»)Ich erinnere mich an dich…… Vyse.
+Diesmal bin ich auf dich vorbereitet!\e"
+MGK0160011,\h(«Vyse»)Lass uns das ein für alle Mal klären!\e
+MSK0160000,\h(«Vyse»)¡Espero que esto funcione!\e
+MSK0160001,"\h(«Gilder»)Bueno, sólo hay una manera de saberlo.\e"
+MSK0160002,"\h(«Aika»)¡Viva!
+¡Se mueve!\e"
+MSK0160003,"\h(«Vyse»)¡Sí!
+¡Esto nos va a llevar derechitos
+a Soltis!\e"
+MSK0160004,\h( )Moriréis antes de llegar allí.\e
+MSK0160005,\h(«Vyse»)¿Eh?\e
+MSK0160006,"\h(«Vigoro»)¡Qué tal, pelirroja!
+¿Me has echado de menos?\e"
+MSK0160007,"\h(«Aika»)Uuh……
+¡¡¡Pero si es Vigoro!!!\e"
+MSK0160008,\h(«Vigoro»)He estado pensando en ti……\e
+MSK0160009,"\h(«Aika»)¡No me puedo creer lo de este hombre!
+¡¡No se da por vencido nunca!!\e"
+MSK0160010,"\h(«Vigoro»)Me acuerdo de ti…… Vyse.
+¡Esta vez estoy preparado!\e"
+MSK0160011,"\h(«Vyse»)¡Vamos a terminar con este asunto de una vez por
+todas!\e"
+MK0170000,"\h(«Vigoro»)Heh…
+I… I give up… You're the better man.\e"
+MK0170001,"\h(«Vigoro»)I didn't think that there was anyone else in 
+this world other than Lord Galcian that could 
+best me…\e"
+MK0170002,"\h(«Vigoro»)Galcian and Ramirez are down below. 
+Good luck, kid.\e"
+MK0170003,"\h(«Vigoro»)Red…
+Looks like this is good-bye…\e"
+MK0170004,"\h(«Vigoro»)“The strongest man has the right to be with the
+finest woman.”\e"
+MK0170005,"\h(«Vigoro»)Vyse just stomped me pretty good… 
+So, I don't deserve you.\e"
+MK0170006,"\h(«Aika»)Wow, maybe if you didn't come on so strong, you
+might actually be appealing. So what are you 
+going to do now?\e"
+MK0170007,"\h(«Vigoro»)I don't know…
+Maybe I'll become an Air Pirate like you guys…\e"
+MK0170008,"\h(«Vigoro»)As long as there are beautiful women in this 
+world… I'll keep fighting!\e"
+MK0170009,"\h(«Vigoro»)So long, Blue Rogues!
+Maybe we'll run into each other again!\e"
+MFK0170000,"\h(«Vigoro»)Hé……
+Je…… j'abandonne…… Vous êtes plus fort que moi.\e"
+MFK0170001,"\h(«Vigoro»)Je croyais que seul le Seigneur Galcian pouvait
+me battre……\e"
+MFK0170002,"\h(«Vigoro»)Galcian et Ramirez sont en bas.
+Bonne chance, petit.\e"
+MFK0170003,"\h(«Vigoro»)Ma chère……
+Le moment est venu de se dire au revoir……\e"
+MFK0170004,"\h(«Vigoro»)“L'homme le plus fort a le droit d'être avec la
+plus belle femme.”\e"
+MFK0170005,"\h(«Vigoro»)Vyse m'a complètement écrasé…… 
+Donc, je ne te mérite pas.\e"
+MFK0170006,"\h(«Aika»)Oaouh, peut-être que si vous n'insistiez pas
+tant, vous pourriez être attirant.
+Alors qu'allez-vous faire maintenant ?\e"
+MFK0170007,"\h(«Vigoro»)Je ne sais pas……
+Peut-être que je vais devenir Pirate de l'Air
+comme vous……\e"
+MFK0170008,"\h(«Vigoro»)Tant qu'il y aura de jolies femmes dans le
+monde…… je continuerai à me battre !\e"
+MFK0170009,"\h(«Vigoro»)Adieu Voleurs Bleus !
+Peut-être que nous nous reverrons !\e"
+MGK0170000,"\h(«Vigoro»)He……
+Ich…… ich gebe auf. Du bist der bessere Kämpfer.\e"
+MGK0170001,"\h(«Vigoro»)Ich hätte mir nicht vorstellten können, dass
+es außer Lord Galcian noch jemanden auf dieser
+Welt gäbe, der mir überlegen ist……\e"
+MGK0170002,"\h(«Vigoro»)Galcian und Ramirez sind unten. 
+Viel Glück, Junge.\e"
+MGK0170003,"\h(«Vigoro»)Rotschopf……
+Sieht so aus, als müssten wir Abschied nehmen……\e"
+MGK0170004,"\h(«Vigoro»)“Der stärkste Mann hat das Recht auf die
+schönste Frau”.\e"
+MGK0170005,"\h(«Vigoro»)Vyse hat mich gerade ziemlich fertig gemacht……
+Also verdiene ich dich nicht.\e"
+MGK0170006,"\h(«Aika»)Mann, wenn Sie nicht immer so mit der Tür ins
+Haus fallen würden, wären Sie vielleicht ganz
+attraktiv. Was werden Sie jetzt machen?\e"
+MGK0170007,"\h(«Vigoro»)Ich weiß nicht……
+Vielleicht werde ich Luftpirat wie ihr……\e"
+MGK0170008,"\h(«Vigoro»)Solange es auf dieser Welt schöne Frauen gibt……
+werde ich weiterkämpfen!\e"
+MGK0170009,"\h(«Vigoro»)Wiedersehen, Blue Rogues!
+Vielleicht trifft man sich mal wieder!\e"
+MSK0170000,"\h(«Vigoro»)Je……
+Me…… me rindo…… Tú ganas.\e"
+MSK0170001,"\h(«Vigoro»)No se me ocurrió que existiera alguien en este
+mundo, aparte de Lord Galcian, capaz de
+vencerme……\e"
+MSK0170002,"\h(«Vigoro»)Galcian y Ramírez están ahí abajo.
+Que tengas suerte, chaval.\e"
+MSK0170003,"\h(«Vigoro»)Pelirroja……
+Creo que esto es una despedida……\e"
+MSK0170004,"\h(«Vigoro»)“El hombre más fuerte tiene derecho a estar con
+la mujer más refinada.”\e"
+MSK0170005,"\h(«Vigoro»)Vyse me ha dado una buena paliza……
+Así que no te merezco.\e"
+MSK0170006,"\h(«Aika»)Oh, a lo mejor si no fueras tan directo,
+resultarías más atractivo. ¿Y ahora qué vas a
+hacer?\e"
+MSK0170007,"\h(«Vigoro»)No lo sé……
+A lo mejor me hago Pirata Aéreo como vosotros……\e"
+MSK0170008,"\h(«Vigoro»)Mientras aún queden mujeres bonitas en el
+mundo…… ¡yo seguiré luchando!\e"
+MSK0170009,"\h(«Vigoro»)¡Hasta pronto, Bandidos Azules!
+¡A lo mejor nos volvemos a encontrar!\e"
+MK0200000,\h(«Gilder»)Vyse! What's going on?!\e
+MK0200001,\h(«Vyse»)I don't know!\e
+MK0200002,\h(«Aika»)You've got to be kidding! \e
+MK0200003,\h(«Vyse»)I'm trying! I'm trying!\e
+MK0200004,"\h(«Vyse»)…It's no use.
+There's no power!\e"
+MK0200005,\h(«Vyse»)I got an idea!\e
+MK0200006,\h(«Fina»)Vyse?\e
+MK0200007,\h(«Aika»)Vyse! What do you think you're doing?!\e
+MK0200008,\h(«Vyse»)Come on! Let's go!\e
+MK0200009,"\h(«Aika»)Let's go?! What do you mean, “Let's go?”\e"
+MK0200010,\h(«Aika»)You… you don't mean…\e
+MK0200011,"\h(«Vyse»)Yes.
+We're going to run up the rail.\e"
+MK0200012,"\h(«Vyse»)Hurry! I don't know how much longer it will 
+hold!\e"
+MK0200013,\h(«Aika»)You're serious?!\e
+MK0200014,"\h(«Gilder»)Vyse, umm… 
+Some of us aren't as young as we used to be you
+know…\e"
+MK0200015,\h(«Vyse»)What's that?!\e
+MK0200016,\h(«Gilder»)It's Soltis!\e
+MK0200017,"\h(«Vyse»)Hurry, this railing isn't going to last much 
+longer!\e"
+MK0200018,\h(«Aika»)Fina… you go first!\e
+MK0200019,\h(«Fina»)Okay!\e
+MK0200020,\h(«Vyse»)RUN!!! Go! Go! Go!\e
+MFK0200000,\h(«Gilder»)Vyse ! Que se passe-t-il ?!\e
+MFK0200001,\h(«Vyse»)Je n'en sais rien !\e
+MFK0200002,\h(«Aika»)Tu plaisantes !\e
+MFK0200003,\h(«Vyse»)J'essaie ! J'essaie !\e
+MFK0200004,"\h(«Vyse»)……C'est inutile.
+Il n'y a pas de carburant !\e"
+MFK0200005,\h(«Vyse»)J'ai une idée !\e
+MFK0200006,\h(«Fina»)Vyse ?\e
+MFK0200007,\h(«Aika»)Vyse ! Que fais-tu ?!\e
+MFK0200008,\h(«Vyse»)Allez ! Partons !\e
+MFK0200009,"\h(«Aika»)Partons ?! Que veux-tu dire, “Partons ?”\e"
+MFK0200010,\h(«Aika»)Tu…… tu ne veux pas dire……\e
+MFK0200011,"\h(«Vyse»)Si.
+Nous allons prendre la rampe.\e"
+MFK0200012,"\h(«Vyse»)Vite ! Je ne sais pas si elle va tenir
+longtemps !\e"
+MFK0200013,\h(«Aika»)Tu es sérieux ?!\e
+MFK0200014,"\h(«Gilder»)Vyse, umm……
+Certains ne sont plus si jeunes que ça tu sais……\e"
+MFK0200015,\h(«Vyse»)Qu'est-ce que c'est ?!\e
+MFK0200016,\h(«Gilder»)C'est Soltis !\e
+MFK0200017,"\h(«Vyse»)Vite, cette rampe ne va pas tenir bien
+longtemps !\e"
+MFK0200018,\h(«Aika»)Fina…… passe la première !\e
+MFK0200019,\h(«Fina»)OK !\e
+MFK0200020,\h(«Vyse»)Courrez !!! Vite ! Vite ! Vite !\e
+MGK0200000,\h(«Gilder»)Vyse! Was ist los?!\e
+MGK0200001,\h(«Vyse»)Ich weiß nicht!\e
+MGK0200002,\h(«Aika»)Das kann doch nicht dein Ernst sein!\e
+MGK0200003,\h(«Vyse»)Ich versuch's ja! Wirklich!\e
+MGK0200004,"\h(«Vyse»)……Keinen Zweck.
+Wir haben nicht die Energie!\e"
+MGK0200005,\h(«Vyse»)Ich hab 'ne Idee!\e
+MGK0200006,\h(«Fina»)Vyse?\e
+MGK0200007,\h(«Aika»)Vyse! Was machst du denn da?!\e
+MGK0200008,\h(«Vyse»)Kommt schon! Los geht's!\e
+MGK0200009,"\h(«Aika»)Los?! Was meinst du damit, “los geht's?”\e"
+MGK0200010,\h(«Aika»)Du…… du meinst doch nicht etwa……\e
+MGK0200011,"\h(«Vyse»)Ja.
+Wir werden die Schienen nehmen.\e"
+MGK0200012,"\h(«Vyse»)Schnell! Ich weiß nicht, wie lange sie noch
+halten!\e"
+MGK0200013,\h(«Aika»)Im Ernst?!\e
+MGK0200014,"\h(«Gilder»)Vyse, ähmm……
+Einige von uns sind nicht mehr
+ganz so jung……\e"
+MGK0200015,\h(«Vyse»)Was ist das?!\e
+MGK0200016,\h(«Gilder»)Das ist Soltis!\e
+MGK0200017,"\h(«Vyse»)Beeilt euch, die Schienen halten nicht mehr viel
+länger!\e"
+MGK0200018,\h(«Aika»)Fina…… du zuerst!\e
+MGK0200019,\h(«Fina»)Okay!\e
+MGK0200020,\h(«Vyse»)RENN!!! Schnell! Schnell!\e
+MSK0200000,\h(«Gilder»)¡Vyse! ¡¿Pero qué está pasando?!\e
+MSK0200001,\h(«Vyse»)¡No lo sé!\e
+MSK0200002,\h(«Aika»)¡Lo dices en broma!\e
+MSK0200003,\h(«Vyse»)¡Lo estoy intentando!\e
+MSK0200004,"\h(«Vyse»)…… No vale la pena.
+¡No tiene potencia!\e"
+MSK0200005,\h(«Vyse»)¡Se me ha ocurrido una idea!\e
+MSK0200006,\h(«Fina»)¿Vyse?\e
+MSK0200007,\h(«Aika»)¡Vyse! ¡¿Pero qué te crees que estás haciendo?!\e
+MSK0200008,"\h(«Vyse»)¡Venga, hombre! ¡Vamos allá!\e"
+MSK0200009,"\h(«Aika»)¡¿Vamos allá?! Qué quieres decir con, “¿Vamos
+allá?”\e"
+MSK0200010,\h(«Aika»)No querrás decir……\e
+MSK0200011,"\h(«Vyse»)Sí.
+Vamos a subir por la barandilla.\e"
+MSK0200012,\h(«Vyse»)¡Deprisa! ¡No sé cuánto tiempo va a resistir!\e
+MSK0200013,\h(«Aika»)¡¿Lo dices en serio?!\e
+MSK0200014,"\h(«Gilder»)Vyse, umm……
+Algunos de nosotros ya no somos tan jóvenes,
+sabes……\e"
+MSK0200015,\h(«Vyse»)¡¿Pero qué es eso?!\e
+MSK0200016,\h(«Gilder»)¡Es Soltis!\e
+MSK0200017,"\h(«Vyse»)¡Corred, esta barandilla no va aguantar mucho
+más!\e"
+MSK0200018,\h(«Aika»)Fina…… ¡tú primero!\e
+MSK0200019,\h(«Fina»)¡Vale!\e
+MSK0200020,\h(«Vyse»)¡¡¡DEPRISA!!! ¡Corred! ¡Corred!\e
+MK0210000,\h(«Vyse»)That was too close!\e
+MK0210001,"\h(«Aika»)Vyse!
+This way! Hurry!\e"
+MK0210002,"\h(«Gilder»)Hurry, Vyse!
+Get off the rail!\e"
+MK0210003,\h(«Aika»)Vyse!!\e
+MFK0210000,\h(«Vyse»)C'était trop juste !\e
+MFK0210001,"\h(«Aika»)Vyse !
+Par ici ! Vite !\e"
+MFK0210002,"\h(«Gilder»)Vite, Vyse !
+Descends de la rampe !\e"
+MFK0210003,\h(«Aika»)Vyse !!\e
+MGK0210000,\h(«Vyse»)Das war knapp!\e
+MGK0210001,"\h(«Aika»)Vyse!
+Hier lang! Schnell!\e"
+MGK0210002,"\h(«Gilder»)Beeil dich, Vyse!
+Runter von den Schienen!\e"
+MGK0210003,\h(«Aika»)Vyse!!\e
+MSK0210000,\h(«Vyse»)¡Por muy poco!\e
+MSK0210001,"\h(«Aika»)¡Vyse!
+¡Por aquí! ¡Deprisa!\e"
+MSK0210002,"\h(«Gilder»)¡Rápido, Vyse!
+¡Bájate!\e"
+MSK0210003,\h(«Aika»)¡¡Vyse!!\e
+M01260000,"\h(«Vyse»)Hm?
+I can hear someone talking…\e"
+M01260001,"\h(«Valuan Soldier»)Moon Energy System operating within normal
+parameters. Power supply to the entire base
+is flowing smoothly.\e"
+M01260002,"\h(«Valuan Soldier»)Okay, the inspection for this area is done.
+Let's go to the next one.\e"
+M01260003,"\h(«Vyse»)(I think that's the control area
+for the base's power.)\c"
+M01260004,"\h(«Vyse»)(I think that's the control area
+for the base's power.)\c"
+M01260005,"\h(«Vyse»)It's a fan. It's probably for ventilation.
+I don't think I should get too close…\e"
+M01260006,"\h(«Vyse»)But, it looks like there's a passageway behind
+it. Hmm… I wonder if there's a way to stop the
+fan…\c"
+M01260007,"\h(«Vyse»)Whoa, now that's scary…
+This must be an elevator shaft.\c"
+M01260008,"\h(«Vyse»)Hm, it won't open…
+It's probably locked or barred from the
+other side.\c"
+M01260009,"\h(«Enrique»)Gregorio!
+Gregorio!!\e"
+M01260010,"\h(«Vyse»)It's no use…
+It's locked from
+the other side.\c"
+M01260011,"\h(«Galcian»)Stop, Air Pirate!\e"
+M01260012,"\h(«Vyse»)Hm?
+I can hear someone talking…\e"
+M01260013,"\h(«Valuan Soldier»)So, these are the schematics that Lord De Loco
+designed. With his new design, his ship is
+supposed to be able to fly into Deep Sky?\e"
+M01260014,"\h(«Valuan Soldier»)That's what I hear. But it's not like I
+can understand any of it anyway. It all looks
+like scribbles to me.\c"
+M01260015,"\h(«Valuan Soldier»)Well, I heard that Lord De Loco was going to
+take Lord Galcian to take a look around the
+Chameleon today…\c"
+M01260016,"\h(«Valuan Soldier»)What!? If they see us slacking off
+here we're done for! Let's get out of here!\c"
+M01260017,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+M01260018,"\h(«Vyse»)It's no use…
+It's locked from
+the other side.\e"
+M01260019,"\h(«Vyse»)We can't let Gregorio's sacrifice be in vain!
+We need to get out of here now!!\c"
+M01260020,"\h(«Vyse»)Damn! It won't open!
+Something's holding the door shut!\e"
+M01260021,"\h(«Aika»)Vyse, we don't have time!
+Let's get out of here!!\c"
+M01260022,"\h(«Vyse»)Hm?
+I can hear someone talking…\e"
+M01260023,"\h(«Valuan Soldier»)I still don't get why they would build a base
+down here. What's the point? There's nothing
+down here other than wind.\e"
+M01260024,"\h(«Valuan Soldier»)I hear they're trying to build
+an elevator that goes all the way into
+Deep Sky…\e"
+M01260025,"\h(«Valuan Soldier»)D, Deep Sky?!
+My mom told me when I was a kid that Deep Sky
+is the land of the dead!!\c"
+M01260026,"\h(«Valuan Solider»)An elevator that goes into Deep Sky?
+Unbelievable…\c"
+M01260027,"\h(«Valuan Soldier»)Intruders!!
+Get them!!\c"
+M01260028,"\h(«Vyse»)Hm?
+I can hear someone talking…\e"
+M01260029,"\h(«Valuan Soldier»)Hey, did you hear?
+Lord Galcian is building a new
+top-secret flagship.\c"
+M01260030,"\h(«Valuan Soldier»)It'll probably be even more powerful than his
+old ship, the Serpent. I swear… that Lord
+Galcian really is something.\e"
+M01260031,"\h(«Valuan Soldier»)Did you know that Lord Galcian has never been
+defeated in battle? He's a military genius!\c"
+M01260032,"\h(«Valuan Soldier»)As long as Lord Galcian is around to lead us,
+we'll be fine. I doubt there's anyone who could
+defeat him.\c"
+M01260033,"\h(«Valuan Soldier»)You… you're Vyse!?
+What are you doing here!?\c"
+M01260034,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MF01260000,"\h(«Vyse»)Hum ?
+J'entends quelqu'un parler……\e"
+MF01260001,"\h(«Soldat Valuan»)Le Système d'Énergie Lunaire opère dans les
+paramètres normaux. La distribution de l'énergie
+dans la base toute entière se passe sans
+problème.\e"
+MF01260002,"\h(«Soldat Valuan»)OK, l'inspection de cette zone est terminée.
+Passons à la suivante.\e"
+MF01260003,"\h(«Vyse»)(Je crois que c'est la zone de contrôle
+pour la puissance de la base.)\c"
+MF01260004,"\h(«Vyse»)(Je crois que c'est la zone de contrôle
+pour la puissance de la base.)\c"
+MF01260005,"\h(«Vyse»)C'est un ventilateur, sûrement pour l'aération.
+Je ne devrais pas trop m'approcher……\e"
+MF01260006,"\h(«Vyse»)Mais, on dirait qu'il y a un passage derrière.
+Humm…… Je me demande s'il y a un moyen d'arrêter
+le ventilateur……\c"
+MF01260007,"\h(«Vyse»)Oh là là, c'est effrayant……
+Ce doit être une cage d'ascenseur.\c"
+MF01260008,"\h(«Vyse»)Hum, elle ne veut pas s'ouvrir……
+Elle doit être fermée de l'intérieur ou il doit
+y avoir une barre de l'autre côté.\c"
+MF01260009,"\h(«Enrique»)Gregorio !
+Gregorio !!\e"
+MF01260010,"\h(«Vyse»)C'est inutile……
+C'est fermé
+de l'intérieur.\c"
+MF01260011,"\h(«Galcian»)Stop, Pirate de l'Air !\e"
+MF01260012,"\h(«Vyse»)Hum ?
+J'entends quelqu'un parler……\e"
+MF01260013,"\h(«Soldat Valuan»)Alors, ce sont les schémas que le Seigneur De
+Loco a dessinés. Avec ce nouveau design, ce
+navire est censé pouvoir voler dans les
+Profondeurs ?\e"
+MF01260014,"\h(«Soldat Valuan»)C'est ce que j'ai entendu dire. Mais de toute
+façon je n'y comprends rien. C'est du
+gribouillage pour moi.\c"
+MF01260015,"\h(«Soldat Valuan»)J'ai appris que le Seigneur De Loco allait
+emmener le Seigneur Galcian voir le Caméléon
+aujourd'hui……\c"
+MF01260016,"\h(«Soldat Valuan»)Comment !? Nous sommes fichus s'ils nous voient
+nous détendre ! Partons d'ici !\c"
+MF01260017,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MF01260018,"\h(«Vyse»)C'est inutile……
+C'est fermé
+de l'intérieur.\c"
+MF01260019,"\h(«Vyse»)Le sacrifice de Gregorio ne doit pas être vain.
+On ne peut pas rester sans rien faire. Il faut
+tout de suite partir d'ici !!\c"
+MF01260020,"\h(«Vyse»)Sapristi ! Elle est bloquée !
+Quelque chose empêche la porte de s'ouvrir !\e"
+MF01260021,"\h(«Aika»)Vyse, nous n'avons pas le temps !
+Partons d'ici !!\c"
+MF01260022,"\h(«Vyse»)Hum ?
+J'entends quelqu'un parler……\e"
+MF01260023,"\h(«Soldat Valuan»)Je ne comprends toujours pas pourquoi ils ont
+construit une base ici. Quel est l'intérêt ?
+Il n'y a que du vent ici.\e"
+MF01260024,"\h(«Soldat Valuan»)J'ai appris qu'ils essaient de construire
+un ascenseur qui descend dans le
+les Profondeurs……\e"
+MF01260025,"\h(«Soldat Valuan»)Les, les Profondeurs ?!
+Quand j'étais petit, ma mère m'a dit que les
+Profondeurs est le pays des morts !!\c"
+MF01260026,"\h(«Soldat Valuan»)un ascenseur qui descend dans les Profondeurs ?
+Incroyable……\c"
+MF01260027,"\h(«Soldat Valuan»)Intrus !!
+Attrapez-les !!\c"
+MF01260028,"\h(«Vyse»)Hum ?
+J'entends quelqu'un parler……\e"
+MF01260029,"\h(«Soldat Valuan»)Hé, vous le saviez ?
+Le Seigneur Galcian construit un nouveau
+navire amiral top-secret.\c"
+MF01260030,"\h(«Soldat Valuan»)Il sera certainement encore plus puissant que
+l'ancien, le Serpent. Je vous jure…… ce Seigneur
+Galcian, c'est quelqu'un !\e"
+MF01260031,"\h(«Soldat Valuan»)Saviez-vous que le Seigneur Galcian n'a jamais
+été vaincu pendant une bataille ? C'est un génie
+militaire !\c"
+MF01260032,"\h(«Soldat Valuan»)Tant que le Seigneur Galcian est là pour nous
+diriger, tout ira bien. Je doute que quelqu'un
+puisse le vaincre.\c"
+MF01260033,"\h(«Soldat Valuan»)Vous…… vous êtes Vyse !?
+Que faites-vous ici !?\c"
+MF01260034,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MG01260000,"\h(«Vyse»)Hm?
+Ich kann jemanden reden hören……\e"
+MG01260001,"\h(«Valuanischer Soldat»)Das Mondenergie-System arbeitet innerhalb der
+normalen Parameter. Die Energieversorgung für
+den gesamten Stützpunkt läuft reibungslos.\e"
+MG01260002,"\h(«Valuanischer Soldat»)Also, die Inspektion dieses Bereiches ist
+abgeschlossen. Gehen wir zum nächsten.\e"
+MG01260003,"\h(«Vyse»)(Ich glaube, das ist der Kontrollbereich
+für die Kraftstoffzufuhr des Stützpunkts.)\c"
+MG01260004,"\h(«Vyse»)(Ich glaube, das ist der Kontrollbereich
+für die Kraftstoffzufuhr des Stützpunkts.)\c"
+MG01260005,"\h(«Vyse»)Es ist ein Ventilator. Wahrscheinlich zur
+Belüftung. Ich sollte besser nicht zu nahe
+herangehen……\e"
+MG01260006,"\h(«Vyse»)Aber es sieht so aus, als gäbe es dahinter
+einen Gang. Hmm…… Ob man den Ventilator
+wohl irgendwie anhalten kann?\c"
+MG01260007,"\h(«Vyse»)Also, das ist jetzt wirklich beängstigend……
+Das muss ein Liftschacht sein.\c"
+MG01260008,"\h(«Vyse»)Hm, sie geht nicht auf……
+Sie ist wahrscheinlich von der anderen Seite
+abgeschlossen oder verrammelt.\c"
+MG01260009,"\h(«Enrique»)Gregorio!
+Gregorio!!\e"
+MG01260010,"\h(«Vyse»)Es hat keinen Zweck……
+Sie ist von der anderen Seite verschlossen.\c"
+MG01260011,"\h(«Galcian»)Halt, Luftpirat!\e"
+MG01260012,"\h(«Vyse»)Hm?
+Ich höre jemanden reden……\e"
+MG01260013,"\h(«Valuanischer Soldat»)Dies sind also die Pläne, die Lord De Loco
+entworfen hat. Mit seinem neuen Design soll
+sein Schiff in der Lage sein, in den Deep
+Sky zu fliegen?\e"
+MG01260014,"\h(«Valuanischer Soldat»)So erzählt man es mir. Aber ich verstehe
+sowieso nichts davon. Für mich sieht es
+wie Hieroglyphen aus.\c"
+MG01260015,"\h(«Valuanischer Soldat»)Also, ich habe gehört, dass Lord De Loco
+Lord Galcian heute mit zu einer Tour über die
+Chameleon nehmen würde……\c"
+MG01260016,"\h(«Valuanischer Soldat»)Was!? Wenn sie sehen, dass wir hier herumstehen,
+sind wir dran! Lass uns abhauen!\c"
+MG01260017,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Noch eine Weile hierbleiben.”\c"
+MG01260018,"\h(«Vyse»)Es hat keinen Zweck……
+Sie ist von der anderen Seite verschlossen.\e"
+MG01260019,"\h(«Vyse»)Gregorios Opfer kann nicht umsonst gewesen sein!
+Wir müssen auf der Stelle hier raus!!\c"
+MG01260020,"\h(«Vyse»)Verdammt! Sie öffnet sich nicht!
+Etwas hält die Tür verschlossen!\e"
+MG01260021,"\h(«Aika»)Vyse, wir haben keine Zeit!
+Lass uns gehen!!\c"
+MG01260022,"\h(«Vyse»)Hm?
+Ich höre jemanden reden……\e"
+MG01260023,"\h(«Valuanischer Soldat»)Ich verstehe immer noch nicht, warum sie hier
+unten einen Stützpunkt bauen wollten. Wozu?
+Hier unten gibt es nichts außer Wind.\e"
+MG01260024,"\h(«Valuanischer Soldat»)Ich höre, dass sie einen Aufzug bauen wollen,
+der bis zum Deep Sky reicht……\e"
+MG01260025,"\h(«Valuanischer Soldat»)D, Deep Sky?!
+Als Kind hat mir meine Mutter immer gesagt,
+dass Deep Sky das Land der Toten sei!!\c"
+MG01260026,"\h(«Valuanischer Soldat»)Ein Aufzug, der bis in den Deep Sky geht?
+Unglaublich……\c"
+MG01260027,"\h(«Valuanischer Soldat»)Eindringlinge!!
+Schnapp sie dir!!\c"
+MG01260028,"\h(«Vyse»)Hm?
+Ich höre jemanden reden……\e"
+MG01260029,"\h(«Valuanischer Soldat»)He, hast du gehört?
+Lord Galcian baut ein neues, streng geheimes
+Flaggschiff.\c"
+MG01260030,"\h(«Valuanischer Soldat»)Es wird wahrscheinlich noch leistungsfähiger
+als sein altes Schiff, die Serpent. Ich sag's
+dir…… dieser Lord Galcian hat was drauf.\e"
+MG01260031,"\h(«Valuanischer Soldat»)Wusstest du, dass Lord Galcian noch nie in
+einer Schlacht unterlegen ist? Er ist ein
+militärisches Genie!\c"
+MG01260032,"\h(«Valuanischer Soldat»)Solange Lord Galcian hier ist, um uns
+anzuführen, ist alles ok. Ich bezweifle, dass
+ihn jemand besiegen kann.\c"
+MG01260033,"\h(«Valuanischer Soldat»)Du…… du bist Vyse!?
+Was suchst du denn hier!?\c"
+MG01260034,"\h(«Möchtest du es nochmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MS01260000,"\h(«Vyse»)¿Mm?
+Oigo hablar a alguien……\e"
+MS01260001,"\h(«Soldado Valuan»)El Sistema de Energía Lunar opera bajo los
+parámetros normales. El suministro de energía
+fluye con normalidad a toda la base.\e"
+MS01260002,"\h(«Soldado Valuan»)Bueno, la inspección de esta zona está hecha.
+Pasemos a la siguiente.\e"
+MS01260003,"\h(«Vyse»)“Creo que eso es la zona de control de la
+energía de la base.”\c"
+MS01260004,"\h(«Vyse»)“Creo que eso es la zona de control de la
+energía de la base.”\c"
+MS01260005,"\h(«Vyse»)Es un ventilador. Probablemente para la
+ventilación. No quiero acercarme demasiado……\e"
+MS01260006,"\h(«Vyse»)Pero parece que hay un pasaje por detrás. Mm……
+Si encontrara la forma de parar el ventilador……\c"
+MS01260007,"\h(«Vyse»)Anda, eso sí que da miedo……
+Esto debe ser el hueco de un ascensor.\c"
+MS01260008,"\h(«Vyse»)Mm, no se abre……
+Debe estar cerrado desde el otro lado.\c"
+MS01260009,"\h(«Enrique»)¡Gregorio!
+¡¡Gregorio!!\e"
+MS01260010,"\h(«Vyse»)No hay forma……
+Está cerrado por
+el otro lado.\c"
+MS01260011,"\h(«Galcian»)¡Detente, Pirata Aéreo!\e"
+MS01260012,"\h(«Vyse»)¿Eh?
+Oigo hablar a alguien……\e"
+MS01260013,"\h(«Soldado Valuan»)Estos son los planos que ha diseñado Lord De
+Loco. ¿Podrá este navío volar en el Cielo
+Profundo gracias al nuevo diseño?\e"
+MS01260014,"\h(«Soldado Valuan»)Eso dicen. Pero yo de todos modos no entiendo
+nada. A mí me parece un jeroglífico
+indescifrable.\c"
+MS01260015,"\h(«Soldado Valuan»)He oído que Lord De Loco iba a llevar a Lord
+Galcian para que viese el Camaleón hoy……\c"
+MS01260016,"\h(«Soldado Valuan»)¿¡Cómo!? ¡Si nos ven bajar la guardia lo
+llevamos claro! ¡Vámonos de aquí!\c"
+MS01260017,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un poco más.”\c"
+MS01260018,"\h(«Vyse»)Es inútil……
+Está cerrado por
+el otro lado.\e"
+MS01260019,"\h(«Vyse»)¡No permitiremos que la vida de Gregorio se haya
+sacrificado en vano!
+¡¡Tenemos que salir de aquí inmediatamente!!\c"
+MS01260020,"\h(«Vyse»)¡Jesús! ¡No abre!
+¡Hay algo que sujeta la puerta por detrás!\e"
+MS01260021,"\h(«Aika»)¡Vyse, no hay tiempo!
+¡¡Vámonos de aquí!!\c"
+MS01260022,"\h(«Vyse»)¿Mm?
+Oigo hablar a alguien……\e"
+MS01260023,"\h(«Soldado Valuan»)Lo que no entiendo es por qué iban a construir
+una base aquí. ¿Para qué? Aquí no hay nada, sólo
+hace un viento horrible.\e"
+MS01260024,"\h(«Soldado Valuan»)Dicen que van a construir un ascensor que vaya
+hasta el Cielo Profundo……\e"
+MS01260025,"\h(«Soldado Valuan»)¡¿El Cielo Profundo?!
+¡Cuando era niño, mi madre me decía que el Cielo
+Profundo era la tierra de los muertos!\c"
+MS01260026,"\h(«Soldado Valuan»)¿Un ascensor que vaya hasta el Cielo Profundo?
+Venga ya……\c"
+MS01260027,"\h(«Soldado Valuan»)¡¡Intrusos!!
+¡¡Cogedlos!!\c"
+MS01260028,"\h(«Vyse»)¿Mmmmm?
+Oigo hablar a alguien……\e"
+MS01260029,"\h(«Soldado Valuan»)Oye, ¿te has enterado?
+Lord Galcian está construyendo un nuevo buque
+insignia que es ultra secreto.\c"
+MS01260030,"\h(«Soldado Valuan»)Va a ser más potente aún que su viejo navío,
+la Serpiente. De verdad…… ese Lord Galcian es
+asombroso.\e"
+MS01260031,"\h(«Soldado Valuan»)¿Sabíais que a Lord Galcian nunca le han
+derrotado en una batalla? ¡Es un genio
+militar!\c"
+MS01260032,"\h(«Soldado Valuan»)Mientras tengamos a Lord Galcian que nos guíe,
+todo irá bien. No creo que nadie sea capaz de
+vencerle.\c"
+MS01260033,"\h(«Soldado Valuan»)¿¡Tú…… eres Vyse!?
+¿¡Qué estás haciendo aquí!?\c"
+MS01260034,"\h(«¿Quieres probar otra vez?»)“¡Nunca me rindo!”
+“Me rindo.”\c"
+"",me126a.sct
+"",me126b.sct
+"",me126c.sct
+"",me126e.sct
+"",me126d.sct
+"",me090a.sct
+"",me250a.sct
+"",m5260000
+"",k8260000
+"",e6j006
+"",M0248
+"",M0325
+"",M0252
+"",e6j004
+"",M0313
+"",a126dj04.mld
+"",a126dj04.mld
+"",a126dj04.mld
+"",e6j008
+"",M0307
+"",a126dj08.mld
+"",a126dj08.mld
+"",a126dj08.mld
+"",e6k016
+"",M0252
+"",a126dk16.mld
+"",M0326
+"",a126dK16.mld
+"",e6k017
+"",M0307
+"",a126dK17.mld
+"",a126dK17.mld
+"",e6k020
+"",M0325
+"",M0248
+"",a126dk20.mld
+"",a126dK20.mld
+"",a126dk21.mld
+"",e6k021
+"",a126dk21.mld

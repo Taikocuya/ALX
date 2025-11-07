@@ -1,0 +1,82 @@
+[Event Name],Task ID
+MAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5150000,"\h(《Drachma》)We need to get in close to damage
+that thing… But, there's no telling
+what that thing will do.\e"
+MA5150001,"\h(《Drachma》)Just keep an eye on the damage levels of
+the ship, boy. We'll try and damage him
+little by little.\c"
+MA5150002,"\h(《Drachma》)It's too big… I don't even know where
+to begin attacking it. Boy, where do
+you think we should try attacking it?\e"
+MA5150003,"\h(《What will you do?》)“Try attacking its head.”
+“Try attacking its legs.”\e"
+MA5150004,"\h(《Vyse》)Let's try attacking its head.
+That might be its weak point.\e"
+MA5150005,"\h(《Drachma》)Very well.
+Increase our altitude.\c"
+MA5150006,"\h(《Vyse》)Let's try attacking its legs.
+They're holding up that huge body,
+so maybe they're its weak point.\e"
+MA5150007,"\h(《Drachma》)Very well.
+Decrease our altitude.\c"
+MA5150008,"\h(《Drachma》)Okay, boy… you can continue attackin' if you
+want, or you can back off and make repairs on
+the ship.\e"
+MA5150009,"\h(《What will you do?》)“Keep attacking.”
+“Back off and repair the ship.”\e"
+MA5150010,"\h(《Vyse》)Let's continue attacking.
+We need to keep damaging that thing,
+even if we can only do it a little at a time.\e"
+MA5150011,\h(《Vyse》)Let's back off and regroup for now.\e
+MA5150012,"\h(《Where do you want to attack now?》)“Attack its head.”
+“Attack its legs.”\c"
+MA5150013,"\h(《Fina》)Look!
+Grendel's acting strangely!\e"
+MA5150014,"\h(《Aika》)Uh oh…
+Why am I getting a bad feeling about this?\e"
+MA5150015,"\h(《Drachma》)Wait… This might be our chance.
+Watch it carefully…\e"
+MA5150016,"\h(《Drachma》)It's not actin' normally. If we attack it now,
+we might be able to knock it off balance.\e"
+MA5150017,"\h(《Drachma》)And if we can hit it hard enough, we might
+be able to knock it over into that valley
+behind it. That should hold it for a while.\e"
+MA5150018,"\h(《Vyse》)Alright!
+We knocked Grendel into the valley!!\e"
+MA5150019,"\h(《Drachma》)Good job, boy! Now is our chance to grab the
+Green Moon Crystal and send that thing back
+to where it came from!\c"
+MA5150020,"\h(《What will you do?》)“Continue attacking.”
+“Back off and regroup.”\c"
+MA5150021,"\h(《Drachma》)What are you doing, boy?!
+Hurry up and use the Harpoon Cannon!
+It's our only chance!!\c"
+"",M0465
+"",k000015.mld
+"",k000015.mld
+"",f7100050S.p04
+"",k000015.mld
+"",b2500.mld
+"",b2500.mld
+"",b2501.mld
+"",b2501.mld
+"",b2502.mld
+"",b2502.mld
+"",f7100100S.p04
+"",me515a.sct
+"",me090a.sct
+"",f7100101S.p04
+"",b2504.mld
+"",b2504.mld
+"",b2504.mld
+"",f3000012
+"",b2500.mld
+"",f3000013
+"",b2501.mld
+"",f3000014
+"",b2502.mld
+"",f3000014
+"",b2502.mld
+"",me241a.sct

@@ -1,0 +1,780 @@
+[Event Name],Task ID
+M06040000,"\h(«Bazaar Weapons Merchant»)Hello, hello! Beautiful ladies, surely I have 
+the weapon for you! I have the finest selection 
+under the Moons.\e"
+M06040001,"\h(«Aika»)Sorry, but I don't have any money at the moment.\e"
+M06040002,"\h(«Bazaar Weapons Merchant»)So unfortunate, unfortunate! Well, remember to 
+come by again when your purse is heavier.\c"
+M06040003,"\h(«Bazaar Weapons Merchant»)Please remember to come by again when your purse
+is heavier.\c"
+M06040004,"\h(«Bazaar Weapons Merchant»)Hello, hello! My young lord, surely I have the 
+weapon for you! I have the finest selection 
+under the Moons.\e"
+M06040005,"\h(«What will you do?»)“Buy and sell weapons.”
+“Talk about various things.”
+“Leave.”\e"
+M06040006,"\h(«Bazaar Weapons Merchant»)You know of the great legendary pirate named 
+Captain Daccat? The one who once controlled all 
+the world under the Six Moons?\e"
+M06040007,"\h(«Bazaar Weapons Merchant»)It is said when he was about to die, he took
+all of the hundreds of millions of gold that
+he had gathered, and hid it on some island.\e"
+M06040008,"\h(«Bazaar Weapons Merchant»)Remember, we have nothing but the best here. 
+Please come again!\c"
+M06040009,"\h(«Bazaar Weapons Merchant»)Hello, hello! Beautiful ladies, surely I have 
+the weapon for you! I have the finest selection 
+under the Moons.\e"
+M06040010,"\h(«What will you do?»)“Buy and sell weapons.”
+“Talk about various things.”
+“Leave.”\e"
+M06040011,"\h(«Bazaar Weapons Merchant»)You know of the great legendary pirate named
+Captain Daccat? The one who once controlled all 
+the world under the Six Moons?\e"
+M06040012,"\h(«Bazaar Weapons Merchant»)It is said when he was about to die, he took
+all of the hundreds of millions of gold that
+he had gathered, and hid it on some island.\e"
+M06040013,"\h(«Bazaar Weapons Merchant»)Remember, we have nothing but the best here. 
+Please come again!\c"
+M06050000,"\h(«Kabal Skewer Lady»)Welcome, welcome! Nasr's best Kabal Skewers!
+Buy one as a gift! Buy one for your journey!
+Kabal Skewers!\e"
+M06050001,"\h(«Kabal Skewer Lady»)Made with top quality mutton, and flame-roasted 
+for a crispy outside and juicy inside. You 
+will surely come back for more.\c"
+M06060000,"\h(«Bazaar Clothing Stall Girl»)Hello, hello. Look no further, young ladies!
+A dress or two as a memento of your trip to
+Nasr?\e"
+M06060001,"\h(«Bazaar Clothing Stall Girl»)We have the dresses that will make any man 
+succumb to your charms! Step right up and take a
+look!\c"
+M06060002,"\h(«Bazaar Clothing Stall Girl»)We have the dresses that will make any man 
+succumb to your charms! Step right up and take a
+look!\c"
+M06060003,"\h(«Bazaar Clothing Stall Girl»)Hello, hello! Hey there, handsome. A dress from 
+Nasr would make the perfect gift!\e"
+M06060004,"\h(«Bazaar Clothing Stall Girl»)Give your girlfriend a Nasrean formal and you 
+will say she never looked so sexy!\e"
+M06060005,"\h(«Vyse»)Aika would have a fit if I bought anything like
+this… \e"
+M06060006,"\h(«Bazaar Clothing Stall Girl»)Oh, you do not wish to buy? Come now, take a 
+better look.\c"
+M06060007,"\h(«Bazaar Clothing Stall»)Take a good look at our great selection of
+sexy Nasrean dresses.\c"
+M06070000,"\h(«Sundries Stall Boy»)Hello! Hello! From daily necessities to luxury
+items, anything and everything for your shopping
+pleasure!\e"
+M06070001,"\h(«Aika»)You really do have lots of stuff… 
+Unfortunately, I have to be careful about 
+wasteful spending right now, so…\e"
+M06070002,"\h(«Sundries Stall Boy»)Aw, shucks! Well stop by again some other time,
+sis!\c"
+M06070003,"\h(«Sundries Stall Boy»)Hello! Hello! Get it cheap! Get it cheap!
+There's nothing we don't have!\c"
+M06070004,"\h(«Sundries Stall Boy»)Hello! Hello! From daily necessities to luxury
+items, anything and everything for your shopping
+pleasure!\e"
+M06070005,"\h(«What will you do?»)“Buy and sell items.”
+“Talk about various things.”
+“Leave.”\e"
+M06070006,"\h(«Sundries Stall Boy»)My dad flies all over the world looking for
+Daccat's treasure.\e"
+M06070007,"\h(«Sundries Stall Boy»)Meanwhile, I sell all the other junk he 
+discovers on his journeys. \e"
+M06070008,"\h(«Sundries Stall Boy»)He's always grumbling--if not the treasure,
+couldn't he at least find some memorabilia?
+Even that would be worth a whole lot of money.\e"
+M06070009,"\h(«Sundries Stall Boy»)May the Red Moon shine upon you! Stop in again 
+sometime!\c"
+M06080000,"\h(«Fruit Vendor»)Good day! Good day! How about some nice, fresh 
+fruit? How about some luscious, juicy fruit to 
+quench your thirst?\e"
+M06080001,"\h(«Fruit Vendor»)Buy some now, before the monkey eats it all! 
+Scrumptiously delicious fru-u-uit!\c"
+M06110000,"\h(«Sailor»)A map or some memorabilia… There must be
+something that will offer me a hint about where
+the treasure is. \e"
+M06110001,"\h(«Sailor»)I've figured out that the island where Daccat
+hid his treasure has to be near here somewhere,
+but now I need something more specific.\c"
+M06140000,"\h(«Young Woman»)Wow! Look at the crowds! I am from Maramba, and 
+I do not think I have ever seen so many people 
+in one place before.\e"
+M06140001,"\h(«Young Woman»)With merchants from all over the world, the 
+place is full of things I have not seen before. 
+The big city really is a different world.\c"
+MF06040000,"\h(«Marchand d'un Bazar d'Armes»)Bonjour, bonjour ! Jolies dames, j'ai
+certainement l'arme qu'il vous faut !
+Je vends la meilleure marchandise qui soit sous
+les Lunes.\e"
+MF06040001,"\h(«Aika»)Désolé, mais je n'ai pas d'argent pour le
+moment.\e"
+MF06040002,"\h(«Marchand d'un Bazar d'Armes»)Comme c'est dommage ! Bon, revenez quand vous
+aurez une bourse bien remplie.\c"
+MF06040003,"\h(«Marchand d'un Bazar d'Armes»)Comme c'est dommage ! Bon, revenez quand vous
+aurez une bourse bien remplie.\c"
+MF06040004,"\h(«Marchand d'un Bazar d'Armes»)Bonjour, bonjour ! Mon seigneur, j'ai
+certainement l'arme qu'il vous faut !  Je vends
+la meilleure marchandise qui soit sous les
+Lunes.\e"
+MF06040005,"\h(«Que faites-vous ?»)“Vous achetez et vendez des armes”
+“Vous discutez.”
+“Vous partez.”\e"
+MF06040006,"\h(«Marchand d'un Bazar d'Armes»)Connaissez-vous le grand pirate légendaire
+Capitaine Daccat ? Celui qui jadis contrôlait le
+monde sous les Six Lunes ?\e"
+MF06040007,"\h(«Marchand d'un Bazar d'Armes»)On raconte qu'avant de mourir, il a rassemblé
+les milliers de millions de pièces d'or qu'il
+possédait, et les a cachées sur une île.\e"
+MF06040008,"\h(«Marchand d'un Bazar d'Armes»)Souvenez-vous que nous n'offrons que la
+meilleure marchandise. N'hésitez pas à
+revenir !\c"
+MF06040009,"\h(«Marchand d'un Bazar d'Armes»)Bonjour, bonjour ! Jolies dames, j'ai
+certainement l'arme qu'il vous faut ! Je vends
+la meilleure marchandise qui soit sous les
+Lunes.\e"
+MF06040010,"\h(«Que faites-vous ?»)“Vous achetez et vendez des armes”
+“Vous discutez.”
+“Vous partez.”\e"
+MF06040011,"\h(«Marchand d'un Bazar d'Armes»)Connaissez-vous le grand pirate légendaire
+Capitaine Daccat ? Celui qui jadis contrôlait le
+monde sous les Six Lunes ?\e"
+MF06040012,"\h(«Marchand d'un Bazar d'Armes»)On raconte qu'avant de mourir, il a rassemblé
+les milliers de millions de pièces d'or qu'il
+possédait, et les a cachées sur une île.\e"
+MF06040013,"\h(«Marchand d'un Bazar d'Armes»)Souvenez-vous que nous n'offrons que la
+meilleure marchandise. N'hésitez pas à
+revenir !\c"
+MF06050000,"\h(«Marchande de Brochettes Kabal»)Bienvenue, bienvenue ! Les meilleures Brochettes
+Kabal de Nasr ! Faites-en cadeau à quelqu'un !
+Achetez-en une pour votre voyage ! Brochettes
+Kabal !\e"
+MF06050001,"\h(«Marchande de Brochettes Kabal»)Cuisinées avec le meilleur mouton, et grillées
+sur le feu pour un résultat croustillant sur le
+dessus et juteux dedans. Vous en redemanderez.\c"
+MF06060000,"\h(«Vendeuse d'un bazar d'Habits»)Bonjour, bonjour. Ne cherchez plus, jeunes
+dames ! Une ou deux robes en souvenir de votre
+passage à Nasr ?\e"
+MF06060001,"\h(«Vendeuse d'un Bazar d'Habits»)Nous avons des robes qui feront succomber les
+hommes à vos charmes ! Venez jeter un oeil !\c"
+MF06060002,"\h(«Vendeuse d'un Bazar d'Habits»)Nous avons des robes qui feront succomber les
+hommes à vos charmes ! Venez jeter un oeil !\c"
+MF06060003,"\h(«Vendeuse d'un Bazar d'Habits»)Bonjour, bonjour ! Hé, Roméo. Une robe achetée à
+Nasr, ce serait le cadeau parfait !\e"
+MF06060004,"\h(«Vendeuse d'un Bazar d'Habits»)Offrez une robe de soirée à votre petite amie
+Nasreane et vous la trouverez plus sexy que
+jamais !\e"
+MF06060005,"\h(«Vyse»)Aika ferait une crise si j'achetais une robe
+pareille……\e"
+MF06060006,"\h(«Vendeuse d'un Bazar d'Habits»)Oh, vous ne voulez rien acheter ? Venez, vous
+n'avez pas bien vu.\c"
+MF06060007,\h(«Vendeuse d'un Bazar d'Habits»)Venez voir notre choix de robes sexy Nasreanes.\c
+MF06070000,"\h(«Vendeur d'Objets Divers»)Bonjour ! Bonjour ! De l'essentiel aux objets de
+luxe, vous trouverez votre bonheur !\e"
+MF06070001,"\h(«Aika»)Vous avez du choix…
+Malheureusement, je dois faire attention à ne
+pas gaspiller d'argent en ce moment, alors…\e"
+MF06070002,"\h(«Vendeur d'Objets Divers»)Oh, pas de chance ! Repassez un autre jour, les
+filles !\c"
+MF06070003,"\h(«Vendeur d'Objets Divers»)Bonjour ! Bonjour ! C'est pas cher ! C'est pas
+cher ! Nous avons tout ce qu'il vous faut !\c"
+MF06070004,"\h(«Vendeur d'Objets Divers»)Bonjour ! Bonjour ! De l'essentiel aux objets de
+luxe, vous trouverez votre bonheur !\e"
+MF06070005,"\h(«Que faites-vous ?»)“Vous achetez et vendez des objets”
+“Vous discutez.”
+“Vous partez.”\e"
+MF06070006,"\h(«Vendeur d'Objets Divers»)Mon père voyage dans le monde entier à la
+recherche du trésor de Daccat.\e"
+MF06070007,"\h(«Vendeur d'Objets Divers»)Pendant ce temps, je vends le reste de ses
+découvertes de voyages.\e"
+MF06070008,"\h(«Vendeur d'Objets Divers»)Il râle sans cesse…… si je ne trouve pas le
+trésor, j'aimerais au moins trouver des
+souvenirs. Ils valent aussi beaucoup d'argent.\e"
+MF06070009,"\h(«Vendeur d'Objets Divers»)Que la Lune Rouge brille sur vous !
+Repassez un jour !\c"
+MF06080000,"\h(«Vendeur de Fruits»)Bonjour ! Bonjour ! Vous voulez des fruits
+frais ? Ou un délicieux jus de fruit pour vous
+désaltérer ?\e"
+MF06080001,"\h(«Vendeur de Fruits»)Achetez-en, avant que le singe ne mange tout !
+Des fru-u-uits délicieusement succulents !\c"
+MF06110000,"\h(«Marin»)Une carte ou des souvenirs…… Il doit bien y 
+avoir un indice sur la cachette du trésor.\e"
+MF06110001,"\h(«Marin»)J'ai déduit que Daccat a dû cacher son trésor
+sur une île des environs, mais il me faut des
+informations plus précises.\c"
+MF06140000,"\h(«Jeune Femme»)Ouaouh ! Regardez tout ce monde ! Je suis de
+Maramba, et je ne pense pas avoir déjà vu autant
+de monde au même endroit.\e"
+MF06140001,"\h(«Jeune Femme»)Ces marchands venus du monde entier ont rapporté
+des choses que je n'ai jamais vues de ma vie.
+La grande ville, c'est vraiment un autre
+monde.\c"
+MG06040000,"\h(«Waffenhändler im Basar»)Halli, hallo! Schöne Frauen, für euch habe
+ich sicher ein paar Waffen! Ich verfüge über
+das beste Sortiment unter den Monden.\e"
+MG06040001,"\h(«Aika»)Tut uns Leid, aber wir haben im Moment kein
+Geld.\e"
+MG06040002,"\h(«Waffenhändler im Basar»)Was für ein Pech! Na, dann schaut einfach
+wieder mal vorbei, wenn ihr es euch leisten
+könnt.\c"
+MG06040003,"\h(«Waffenhändler im Basar»)Dann schaut doch einfach wieder vorbei,
+wenn ihr es euch leisten könnt.\c"
+MG06040004,"\h(«Waffenhändler im Basar»)Halli, hallo! Junger Lord, ich habe sicher
+die richtige Waffe für Euch! Ich habe das
+beste Sortiment unter den Monden.\e"
+MG06040005,"\h(«Was wirst du tun?»)“Waffen kaufen und verkaufen”.
+“Über Verschiedenes reden”.
+“Weggehen”.\e"
+MG06040006,"\h(«Waffenhändler im Basar»)Habt ihr von dem legendären Piraten Captain
+Daccat gehört? Das ist der, der einst die ganze
+Welt unter den sechs Monden unter seiner
+Gewalt hatte……\e"
+MG06040007,"\h(«Waffenhändler im Basar»)Man sagt, dass er kurz vor seinem Tod all
+die hunderte von Millionen von Gold, die er
+angesammelt hatte, auf irgendeiner Insel
+versteckte.\e"
+MG06040008,"\h(«Waffenhändler im Basar»)Denken Sie dran, wir haben hier nur vom Besten.
+Bitte schauen Sie wieder mal rein!\c"
+MG06040009,"\h(«Waffenhändler im Basar»)Halli, hallo! Schöne Frauen, für euch habe
+ich sicher ein paar Waffen! Ich verfüge über
+das beste Sortiment unter den Monden.\e"
+MG06040010,"\h(«Was wirst du tun?»)“Waffen kaufen und verkaufen”.
+“Über Verschiedenes reden”.
+“Weggehen”.\e"
+MG06040011,"\h(«Waffenhändler im Basar»)Habt ihr von dem legendären Piraten Captain
+Daccat gehört? Das ist der, der einst die ganze
+Welt unter den sechs Monden unter seiner
+Gewalt hatte……\e"
+MG06040012,"\h(«Waffenhändler im Basar»)Man sagt, dass er kurz vor seinem Tod all
+die hunderte von Millionen von Gold, die er
+angesammelt hatte, auf irgendeiner Insel
+versteckt hat.\e"
+MG06040013,"\h(«Waffenhändler im Basar»)Denken Sie dran, wir haben hier nur vom Besten.
+Bitte schauen Sie wieder mal rein!\c"
+MG06050000,"\h(«Kabal-Spieß-Verkäuferin»)Seien Sie willkommen! Nasrs beste Kabal-Spieße!
+Kaufen Sie einen als Geschenk! Kaufen Sie einen
+für unterwegs! Kabal-Spieße!\e"
+MG06050001,"\h(«Kabal-Spieß-Verkäuferin»)Hergestellt mit bestem Hammelfleisch und im
+Ofen geröstet, damit sie außen knusprig und
+innen saftig sind. Man kann nicht genug
+davon bekommen.\c"
+MG06060000,"\h(«Kleiderverkäuferin im Basar»)Hallo! Sie brauchen sich nicht weiter
+umzuschauen, meine Damen! Ein oder zwei Kleider
+als Souvenir von Ihrer Reise nach Nasr?\e"
+MG06060001,"\h(«Kleiderverkäuferin im Basar»)Wir haben Kleider, in denen Sie jeden Mann
+verführen können! Treten Sie näher und sehen
+Sie sie sich an!\c"
+MG06060002,"\h(«Kleiderverkäuferin im Basar»)Wir haben Kleider, in denen Sie jeden Mann
+verführen können! Treten Sie näher und sehen
+Sie sie sich an!\c"
+MG06060003,"\h(«Kleiderverkäuferin im Basar»)Aber hallo, Schöner! Ein Kleid aus
+Nasr gibt ein schönes Geschenk ab!\e"
+MG06060004,"\h(«Kleiderverkäuferin im Basar»)Schenken Sie Ihrer Freundin ein Ausgehkleid
+aus Nasr, und sie wird sexy wie nie aussehen!\e"
+MG06060005,"\h(«Vyse»)Aika würde sich umgucken, wenn ich ihr so
+etwas kaufen würde……\e"
+MG06060006,"\h(«Kleiderverkäuferin im Basar»)Oh, Sie möchten nichts kaufen? Kommen Sie nur,
+schauen Sie sich richtig um.\c"
+MG06060007,"\h(«Kleiderverkäuferin im Basar»)Schauen Sie sich unser großartiges Sortiment
+von sexy Kleidern aus Nasr an.\c"
+MG06070000,"\h(«Junge am Gemischtwarenstand»)Hallo! Hallo! Von Artikeln des
+täglichen Bedarfs bis hin zu Luxusgütern -
+einfach alles für einen unbeschwerten Einkauf!\e"
+MG06070001,"\h(«Aika»)Du hast wirklich viele Sachen……
+Leider muss ich im Moment mit meinen Ausgaben
+etwas vorsichtig sein, also……\e"
+MG06070002,"\h(«Junge am Gemischtwarenstand»)Ach, zu dumm! Na, dann komm einfach mal
+wieder vorbei, junge Frau!\c"
+MG06070003,"\h(«Junge am Gemischtwarenstand»)Hallo! Hallo! Kaufen Sie billig ein!
+Es gibt nichts, was wir nicht haben!\c"
+MG06070004,"\h(«Junge am Gemischtwarenstand»)Hallo! Hallo! Von Artikeln des
+täglichen Bedarfs bis hin zu Luxusgütern -
+einfach alles für einen angenehmen Einkauf!\e"
+MG06070005,"\h(«Was wirst du tun?»)“Objekte kaufen und verkaufen”.
+“Über Verschiedenes sprechen”.
+“Weggehen”.\e"
+MG06070006,"\h(«Junge am Gemischtwarenstand»)Mein Vater fliegt in der ganzen Welt herum,
+um nach Daccats Schatz zu suchen.\e"
+MG06070007,"\h(«Junge am Gemischtwarenstand»)In der Zwischenzeit verkaufe ich den ganzen
+Kram, der sich auf seinen Reisen ansammelt.\e"
+MG06070008,"\h(«Junge am Gemischtwarenstand»)Er beschwert sich laufend - wenn schon kein
+Schatz, könnte er nicht wenigstens einige
+Andenken finden? Selbst das wäre eine Menge
+Geld wert.\e"
+MG06070009,"\h(«Junge am Gemischtwarenstand»)Möge dich der Rote Mond beschützen!
+Komm mal wieder vorbei!\c"
+MG06080000,"\h(«Obstverkäufer»)Schönen guten Tag! Wie wär's mit ein wenig
+frischem Obst? Ein paar pralle, saftige Früchte,
+um Ihren Durst zu löschen?\e"
+MG06080001,"\h(«Obstverkäufer»)Kaufen Sie jetzt, bevor der Affe alles aufisst!
+Frisches, köstliches Oooobst!\c"
+MG06110000,"\h(«Matrose»)Eine Karte oder irgendwelche Andenken……
+Es muss doch etwas geben, was mir einen Hinweis
+gibt, wo sich der Schatz befindet.\e"
+MG06110001,"\h(«Matrose»)Ich habe mir ausgerechnet, dass die Insel,
+auf der Daccat seinen Schatz versteckt hat, sich
+irgendwo hier in der Nähe befinden muss,
+aber jetzt brauche ich genauere Hinweise.\c"
+MG06140000,"\h(«Junge Frau»)Wow! Schauen Sie sich die Massen an! Ich
+komme aus Maramba, und ich glaube nicht,
+dass ich jemals so viele Leute an einem Ort
+gesehen habe.\e"
+MG06140001,"\h(«Junge Frau»)Mit all den Händlern aus aller Welt gibt es
+hier Sachen, die ich noch nie zuvor gesehen
+habe. Eine Großstadt ist schon etwas anderes.\c"
+MS06040000,"\h(«Mercader del Bazar de Armas»)Hola, ¿qué tal? ¡Tengo el arma perfecta para
+unas preciosas damas como vosotras! Tengo la
+mejor selección que existe bajo las Lunas.\e"
+MS06040001,"\h(«Aika»)Lo siento, pero ahora mismo no tengo dinero.\e"
+MS06040002,"\h(«Mercader del Bazar de Armas»)¡Una lástima, una verdadera lástima! No olvides
+pasarte otra vez cuando tengas el bolsillo
+lleno.\c"
+MS06040003,\h(«Mercader del Bazar de Armas»)Vuelve cuando tengas el bolsillo lleno.\c
+MS06040004,"\h(«Mercader del Bazar de Armas»)Hola, ¿qué tal? ¡Tengo el arma ideal para el
+joven caballero! Tengo la mejor selección que se
+puede encontrar bajo las Lunas.\e"
+MS06040005,"\h(«¿Qué vas a hacer?»)“Comprar y vender armas.”
+“Charlar sobre temas variados.”
+“Salir.”\e"
+MS06040006,"\h(«Mercader del Bazar de Armas»)¿Has oído hablar del legendario Capitán Daccat?
+¿El que gobernó el mundo bajo las Seis Lunas?\e"
+MS06040007,"\h(«Mercader del Bazar de Armas»)Dicen que cuando estaba a punto de morir,
+escondió cientos de millones de piezas de oro en
+una isla perdida.\e"
+MS06040008,"\h(«Mercader del Bazar de Armas»)Recuerda, aquí sólo tenemos lo mejor.
+¡Vuelve pronto!\c"
+MS06040009,"\h(«Mercader del Bazar de Armas»)Hola, ¿qué tal? ¡Tengo el arma perfecta para
+unas preciosas damas! La mejor selección que
+existe bajo las Lunas.\e"
+MS06040010,"\h(«¿Qué vas a hacer?»)“Comprar y vender armas.”
+“Charlar sobre temas variados.”
+“Salir.”\e"
+MS06040011,"\h(«Mercader del Bazar de Armas»)¿Has oído hablar del legendario Capitán Daccat?
+¿El que gobernó el mundo bajo las Seis Lunas?\e"
+MS06040012,"\h(«Mercader del Bazar de Armas»)Dicen que cuando estaba a punto de morir,
+escondió cientos de millones de piezas de
+oro en una isla perdida.\e"
+MS06040013,"\h(«Mercader del Bazar de Armas»)Recuerda, aquí sólo tenemos lo mejor.
+¡Vuelve pronto!\c"
+MS06050000,"\h(«Vendedora de Brocheta de Kabal»)¡Hola a todos! ¡Las mejores Brochetas de Kabal
+de Nasr! ¡Comprad una como regalo! ¡Comprad una
+para el viaje! ¡Brochetas de Kabal!\e"
+MS06050001,"\h(«Vendedora de Brocheta de Kabal»)¡Hecha con carne de carnero de primera calidad
+y cocinada a la brasa para que esté crujiente
+por fuera y tierna por dentro! Repetiréis.\c"
+MS06060000,"\h(«Chica del Puesto de Ropa»)Hola, ¿qué tal? ¡No busquéis más, jóvenes!
+¿Un vestido o dos para celebrar vuestro viaje a
+Nasr?\e"
+MS06060001,"\h(«Chica del Puesto de Ropa»)¡Mis vestidos harán a los hombres sucumbir por
+completo a vuestros encantos! ¡Venid y echad un
+vistazo!\c"
+MS06060002,"\h(«Chica del Puesto de Ropa»)¡Mis vestidos harán a los hombres sucumbir por
+completo a vuestros encantos! ¡Venid y echad un
+vistazo!\c"
+MS06060003,"\h(«Chica del Puesto de Ropa»)Hola, ¿qué tal? Hola, guapo. ¡Un vestido de Nasr
+puede ser el regalo perfecto!\e"
+MS06060004,"\h(«Chica del Puesto de Ropa»)¡Regálale a tu novia un vestido de Nasr y estará
+más atractiva que nunca!\e"
+MS06060005,"\h(«Vyse»)A Aika le daría un ataque si le compro algo
+así……\e"
+MS06060006,"\h(«Chica del Puesto de Ropa»)Ah, ¿no quieres comprar nada? Ven, anda, mira
+bien.\c"
+MS06060007,"\h(«Chica del Puesto de Ropa»)Echa un buen vistazo a nuestro gran surtido de
+seductores vestidos de Nasr.\c"
+MS06070000,"\h(«Chico de la Tienda de Misceláneos»)¡Hola! ¡Hola! ¡Desde cosas imprescindibles a
+artículos de lujo, tengo de todo para que
+disfrutes de tus compras!\e"
+MS06070001,"\h(«Aika»)Tienes muchas cosas……
+Por desgracia, en este momento debo de tener
+cuidado con el dinero que me gasto, así que……\e"
+MS06070002,"\h(«Chico de la Tienda de Misceláneos»)¡Porras! ¡Pues pásate en otro momento, guapita!\c"
+MS06070003,"\h(«Chico de la Tienda de Misceláneos»)¡Hola! ¡Hola! ¡Lo vendo todo barato!
+¡Cómpralo barato! ¡Tenemos de todo!\c"
+MS06070004,"\h(«Chico de la Tienda de Misceláneos»)¡Hola! ¡Hola! ¡Desde cosas imprescindibles a
+artículos de lujo, tengo de todo para que
+disfrutes de tus compras!\e"
+MS06070005,"\h(«¿Qué vas a hacer?»)“Comprar y vender objetos.”
+“Charlar sobre temas variados.”
+“Salir.”\e"
+MS06070006,"\h(«Chico de la Tienda de Misceláneos»)Mi padre vuela por todo el mundo en busca del
+tesoro de Daccat.\e"
+MS06070007,"\h(«Chico de la Tienda de Misceláneos»)Mientras tanto, yo vendo la chatarra que
+encuentra en sus viajes.\e"
+MS06070008,"\h(«Chico de la Tienda de Misceláneos»)Siempre se queja. Aunque no sea un tesoro, ¡al
+menos podría encontrar curiosidades! Eso al
+menos valdría un montón de dinero.\e"
+MS06070009,"\h(«Chico de la Tienda de Misceláneos»)¡Que la Luna Roja te ilumine! ¡Pásate otro día
+por aquí!\c"
+MS06080000,"\h(«Vendedor de Fruta»)¡Buenos días! ¿Qué me dices de un poco de
+deliciosa fruta fresca? ¿Un poco de magnífico
+zumo de frutas para apagar primero la sed?\e"
+MS06080001,"\h(«Vendedor de Fruta»)¡Cómprame alguna antes de que el mono se las
+coma todas!
+¡Riquísima frrrruta!\c"
+MS06110000,"\h(«Marino»)Un mapa o algo cifrado…… Debe haber algo que
+pueda darme pistas para localizar el tesoro.\e"
+MS06110001,"\h(«Marino»)Creo que la isla donde Daccat escondió el tesoro
+debe estar cerca de aquí, pero
+ahora voy a necesitar algo más concreto.\c"
+MS06140000,"\h(«Joven»)¡Caray! ¡Mira cuánta gente! Soy de Maramba y
+creo que es la primera vez en mi vida que veo un
+gentío como éste.\e"
+MS06140001,"\h(«Joven»)Como vienen mercaderes de todo el mundo, este
+sitio está lleno de cosas raras. La verdad es
+que la gran ciudad es un mundo distinto.\c"
+Ms013c000,"\h(«Vyse»)This plate… it's made of pure silver!
+It looks expensive, but it's just sitting out
+here with the rest of the junk…\c"
+Ms013c001,"\h(«Vyse»)It's a bag with a picture of a Dhabu on it.
+Aika would probably love this.\c"
+Ms013c002,"\h(«Vyse»)Oh wow… that looks tasty!
+And it smells too good!\c"
+Ms013c003,"\h(«Vyse»)The meat's been wrapped into various packages.
+They're a little too big to steal, though.\c"
+Ms013c004,"\h(«Vyse»)There's all kinds of medicine I've never seen
+before. There might be something interesting
+for sale here…\c"
+Ms013c005,"\h(«Vyse»)A miniature Dahbu, some accessories…
+I suppose lots of travelers come through here,
+so there's a lot of souvenirs.\c"
+Ms013c006,"\h(«Vyse»)Hm? “Live Nasr Scorflies?”
+I'm not sure that's something I'd buy. Wait… I
+can hear something moving inside the box…\c"
+Ms013c007,"\h(«Vyse»)These are Nasr rugs.
+I heard they were really expensive,
+but I guess these are the cheap kind.\c"
+Ms013c008,"\h(«Weapons Merchant»)Hey!
+Don't be stealing my goods
+now, you hear?!\c"
+Ms013c009,\h(«Vyse»)It says “Nasr Army surplus.”\c
+Ms013c010,"\h(«Vyse»)Now, that's a big sword!
+That could probably slice through anything.
+Looks sorta heavy, though.\c"
+Ms013c011,"\h(«Vyse»)There's a bunch of swords just thrown in here.
+I guess they're selling blades with nicks
+and scratches for cheap.\c"
+Ms013c012,"\h(«Vyse»)There are all kinds of berries piled up
+in here. They look fresh, too…\c"
+Ms013c013,"\h(«Vyse»)Hey, fresh fruit!
+Just looking at fruit right now makes
+my mouth water…\c"
+Ms013c014,"\h(«Vyse»)It's a Nasr rug.
+It looks like they're selling irregular rugs
+for cheap.\c"
+Ms013c015,"\h(«Vyse»)This is certainly an interesting item of
+clothing. I'm not exactly sure what it is,
+but it sure is interesting…\c"
+Ms013c016,"\h(«Vyse»)Huh? I wonder how you're supposed to wear
+this thing?\c"
+Ms013c017,"\h(«Aika»)Wow!
+These silver plates are really cheap!
+But… I can't waste money now…\c"
+Ms013c018,"\h(«Aika»)How cute!
+It's a bag with a picture of a Dhabu on it!
+I wish I had some money to spare right now…\c"
+Ms013c019,"\h(«Aika»)Mmm… Looks good…
+I feel like I could just
+eat the whole thing!\c"
+Ms013c020,"\h(«Aika»)They've cut up the meat and wrapped it.
+I don't know… If I was going to buy some meat,
+I'd rather just buy the whole thing.\c"
+Ms013c021,"\h(«Aika»)They have all kinds of medicine.
+I guess they have a lot of rare items for sale
+at the bazaar here.\c"
+Ms013c022,"\h(«Aika»)Oh, wow!
+It's a miniature Dhabu! It's so cute!
+This blue stone is pretty, too!\c"
+Ms013c023,"\h(«Aika»)“Live Nasr Scorflies?!”
+… There's something moving around inside!
+Yuck!\c"
+Ms013c024,"\h(«Aika»)It's a Nasr rug.
+I heard they were really expensive,
+but this one looks pretty cheap.\c"
+Ms013c025,"\h(«Weapons Merchant»)Hey! You!
+Don't be trying to steal
+my wares, now!\c"
+Ms013c026,\h(«Aika»)Hmm… “Nasr Army surplus.”\c
+Ms013c027,"\h(«Aika»)Wow, that's a big sword! I don't want to be a
+liar and say that I'd be able to keep my balance
+if I tried to use that.\c"
+Ms013c028,"\h(«Aika»)They're selling damaged swords
+for really cheap. I don't know about these…
+They don't look too sturdy…\c"
+Ms013c029,"\h(«Aika»)Mmm, looks good!
+It's full of all sorts of berries!\c"
+Ms013c030,"\h(«Aika»)Wow, fresh fruit!
+You get thirsty a lot in Nasr,
+so the fruit looks even better!\c"
+Ms013c031,"\h(«Aika»)It's a Nasr rug.
+I guess they're selling dirty ones and
+damaged ones for cheap.\c"
+Ms013c032,"\h(«Aika»)Wow…
+I… I don't think I could wear that…\c"
+MFs013c000,"\h(«Vyse»)Cette assiette…… C'est de l'argent massif !
+Elle a l'air de coûter cher, mais elle se trouve
+au milieu de toute cette pacotille……\c"
+MFs013c001,"\h(«Vyse»)C'est un sac avec une image de Dahbu.
+Ça plairait sûrement à Aika.\c"
+MFs013c002,"\h(«Vyse»)Oh oaouh…… Ça a l'air délicieux !
+Et ça sent si bon !\c"
+MFs013c003,"\h(«Vyse»)La viande a été enveloppée dans des paquets
+divers. Cependant ils sont un peu trop gros
+pour être volés.\c"
+MFs013c004,"\h(«Vyse»)Il y a toutes sortes de remèdes que je n'ai
+jamais vus auparavant. Il y a peut-être quelque
+chose d'intéressant à acheter ici……\c"
+MFs013c005,"\h(«Vyse»)Un Dahbu miniature, quelques accessoires……
+J'imagine qu'un grand nombre de voyageurs
+passent par ici, donc il y a beaucoup de
+souvenirs.\c"
+MFs013c006,"\h(«Vyse»)Hm ? “Des Scorflies de Nasr vivantes ?”
+Je ne pense pas que j'achèterais ce genre de
+chose. Une minute…… J'entends quelque chose
+bouger dans la boite……\c"
+MFs013c007,"\h(«Vyse»)Ce sont des tapis de Nasr.
+J'ai entendu dire qu'ils étaient très chers,
+mais je pense que ceux-ci doivent être bon
+marché.\c"
+MFs013c008,"\h(«Marchand d'armes»)Hé !
+On ne vole pas ma marchandise, compris ?!\c"
+MFs013c009,\h(«Vyse»)Il est inscrit: “Surplus de l'armée de Nasr.”\c
+MFs013c010,"\h(«Vyse»)Hé bien, voilà une grande épée !
+On doit pouvoir trancher n'importe quoi avec ça.
+Elle a l'air bien lourde en tout cas.\c"
+MFs013c011,"\h(«Vyse»)Il y a quelques épées jetées en vrac ici.
+Je suppose qu'ils vendent des épées ébréchées à
+petits prix.\c"
+MFs013c012,"\h(«Vyse»)Il y a toutes sortes de baies ici.
+Elles semblent fraîches, en plus……\c"
+MFs013c013,"\h(«Vyse»)Oh, des fruits frais !
+Je salive à la vue de ces fruits……\c"
+MFs013c014,"\h(«Vyse»)C'est un tapis de Nasr.
+On dirait qu'ils vendent des tapis avec des
+défauts à petits prix.\c"
+MFs013c015,"\h(«Vyse»)Ceci est sans aucun doute un vêtement
+intéressant. Je ne suis pas entièrement sûr de
+ce que c'est mais il semble vraiment
+intéressant……\c"
+MFs013c016,"\h(«Vyse»)Hein ? Je me demande comment on doit porter
+cette chose.\c"
+MFs013c017,"\h(«Aika»)Oaouh !
+Ces assiettes en argent sont très bon marché !
+Mais…… Je ne peux pas gaspiller de l'argent
+maintenant……\c"
+MFs013c018,"\h(«Aika»)Comme c'est mignon !
+Un sac avec la photo d'un Dhabu !
+J'aimerais bien avoir un peu d'argent à
+dépenser……\c"
+MFs013c019,"\h(«Aika»)Mmm…… Ça a l'air bon……
+Je crois que je pourrais tout manger !\c"
+MFs013c020,"\h(«Aika»)Ils ont découpé la viande et ils l'ont emballée.
+Je ne sais pas…… Si je devais acheter de la
+viande, je préfèrerais acheter le morceau
+entier.\c"
+MFs013c021,"\h(«Aika»)Ils ont toutes sortes de remèdes.
+Je pense qu'ils ont de nombreux articles rares
+en vente dans ce magasin.\c"
+MFs013c022,"\h(«Aika»)Oh, oaouh !
+C'est un Dhabu miniature ! C'est trop mignon !
+Cette pierre bleue est aussi très jolie !\c"
+MFs013c024,"\h(«Aika»)Ce sont des tapis de Nasr.
+J'ai entendu dire qu'ils étaient très chers,
+mais celui-ci semble assez bon marché.\c"
+MFs013c025,"\h(«Marchand d'armes»)Hé ! Vous !
+N'essayez pas de voler mes marchandises,
+maintenant !\c"
+MFs013c026,\h(«Aika»)Hmm… “Surplus de l'armée de Nasr.”\c
+MFs013c027,"\h(«Aika»)Oaouh, voilà une grande épée ! Je mentirais en
+disant que je suis capable de garder
+l'équilibre en l'utilisant.\c"
+MFs013c028,"\h(«Aika»)Ils vendent des épées endommagées à un prix très
+bas. Je ne sais pas trop……
+Elles ne semblent pas très solides……\c"
+MFs013c029,"\h(«Aika»)Mmm, ça a l'air bon !
+C'est rempli de toutes sortes de baies !\c"
+MFs013c030,"\h(«Aika»)Ouaouh, des fruit frais !
+On a tellement soif à Nasr, que les fruits ont
+l'air encore plus appétissants !\c"
+MFs013c031,"\h(«Aika»)C'est un tapis de Nasr.
+Je crois qu'il vendent ceux qui sont sales et
+abîmés à prix réduit.\c"
+MFs013c032,"\h(«Aika»)Ouaouh…
+Je…… je ne crois pas que je puisse porter ça……\c"
+MGs013c000,"\h(«Vyse»)Dieser Teller…… ist aus purem Silber!
+Er sieht verdammt teuer aus, trotzdem liegt er
+hier mit dem restlichen Müll herum……\c"
+MGs013c001,"\h(«Vyse»)Eine Tasche mit dem Bild eines Dhabu.
+Aika würde sie bestimmt mögen.\c"
+MGs013c002,"\h(«Vyse»)Oh wow…… das sieht lecker aus!
+Und es riecht so gut!\c"
+MGs013c003,"\h(«Vyse»)Das Fleisch ist in verschiedene
+Pakete verpackt. Sie sind allerdings ein
+bisschen zu groß, um sie zu stehlen.\c"
+MGs013c004,"\h(«Vyse»)Es gibt alle mögliche Medizin, die
+ich nie zuvor gesehen habe. Vielleicht
+gibt es hier etwas Interessantes im Angebot……\c"
+MGs013c005,"\h(«Vyse»)Ein Miniatur-Dahbu, einiges Zubehör……
+Schätze, es kommen viele Reisende
+hier durch, deshalb gibt es so viele Souvenirs.\c"
+MGs013c006,"\h(«Vyse»)Hm? “Lebende Nasr-Scorflies?”
+Weiß nicht, ob ich das kaufen würde.
+Warte…… ich höre etwas darin rascheln……\c"
+MGs013c007,"\h(«Vyse»)Das sind nasrische Teppiche.
+Ich habe gehört, die seien richtig teuer.
+Diese hier sind wohl eher Billigware.\c"
+MGs013c008,"\h(«Waffenhändler»)Hey!
+Stiehl mir bloß keine Ware, hörst du?!\c"
+MGs013c009,\h(«Vyse»)Hier steht “Nasr-Armee-Lagerbestände.”\c
+MGs013c010,"\h(«Vyse»)Na, das ist ein großes Schwert! Das kann
+wahrscheinlich alles durchschneiden.
+Sieht allerdings ein bisschen schwer aus.\c"
+MGs013c011,"\h(«Vyse»)Eine ganze Reihe Schwerter sind hier einfach
+reingeworfen worden. Schätze, die verkaufen
+Schwerter mit Macken und Schrammen billig.\c"
+MGs013c012,"\h(«Vyse»)Alle möglichen Beeren sind hier
+aufgehäuft. Sie sehen frisch aus……\c"
+MGs013c013,"\h(«Vyse»)Hey, frische Früchte!
+Der Anblick allein macht meinen Mund
+ganz wässrig……\c"
+MGs013c014,"\h(«Vyse»)Ein nasrischer Teppich.
+Scheint, als ob sie Teppiche mit Fehlern
+billig verkaufen.\c"
+MGs013c015,"\h(«Vyse»)Das ist wirklich ein schönes
+Kleidungsstück. Ich bin mir nicht ganz sicher,
+was es ist, trotzdem verdammt interessant……\c"
+MGs013c016,\h(«Vyse»)Hm? Wie man dieses Ding wohl tragen soll?\c
+MGs013c017,"\h(«Aika»)Wow!
+Diese silbernen Teller sind wirklich
+billig! Aber…… ich kann momentan kein Geld
+verschwenden……\c"
+MGs013c018,"\h(«Aika»)Wie süß!
+Eine Tasche mit einem Dhabu!
+Ich wünschte, ich hätte ein bisschen Geld
+übrig……\c"
+MGs013c019,"\h(«Aika»)Mmm…… Sieht gut aus……
+Ich würde am liebsten das ganze Ding essen!\c"
+MGs013c020,"\h(«Aika»)Sie haben das Fleisch klein geschnitten und
+eingepackt. Ich weiß nicht…… wenn ich Fleisch
+kaufen würde, würde ich lieber das ganze
+Ding kaufen.\c"
+MGs013c021,"\h(«Aika»)Die haben alle mögliche Medizin.
+Schätze, die verkaufen viele seltene Sachen
+hier auf dem Basar.\c"
+MGs013c022,"\h(«Aika»)Oh, wow!
+Das ist ein Miniatur-Dhabu! Ist das süß!
+Dieser blaue Stein ist auch schön!\c"
+MGs013c023,"\h(«Aika»)“Lebendige Nasr-Scorflies?!”
+…… Da bewegt sich etwas drin!
+Pfui!\c"
+MGs013c024,"\h(«Aika»)Das ist ein nasrischer Teppich. Ich habe gehört,
+die seien richtig teuer. Dieser sieht allerdings
+ziemlich billig aus.\c"
+MGs013c025,"\h(«Waffenhändler»)Hey! Du!
+Versuch ja nicht, meine Ware zu stehlen!\c"
+MGs013c026,\h(«Aika»)Hmm… “Nasr-Armee-Lagerbestände.”\c
+MGs013c027,"\h(«Aika»)Wow, das ist ein großes Schwert! Ich möchte
+ja keine Lügnerin sein und behaupten, dass ich
+mein Gleichgewicht halten könnte, wenn ich es
+gebrauchen würde……\c"
+MGs013c028,"\h(«Aika»)Sie verkaufen gebrauchte Schwerter
+für sehr wenig. Weiß allerdings nicht……
+Sehen nicht gerade robust aus……\c"
+MGs013c029,"\h(«Aika»)Mmm, sieht gut aus!
+Es ist angefüllt mit allen möglichen
+Sorten von Beeren!\c"
+MGs013c030,"\h(«Aika»)Wow, frische Früchte!
+Man wird wirklich schnell durstig in Nasr,
+deshalb sehen die Früchte noch besser aus!\c"
+MGs013c031,"\h(«Aika»)Es ist ein Teppich aus Nasr.
+Schätze, die verkaufen schmutzige und
+beschädigte billiger.\c"
+MGs013c032,"\h(«Aika»)Wow……
+Ich…… Ich glaube, ich könnte
+das nicht tragen……\c"
+MSs013c000,"\h(«Vyse»)Este plato…… ¡Está hecho de plata pura!
+Debe de ser muy caro, y sin embargo está aquí
+tirado con el resto de las cosas……\c"
+MSs013c001,"\h(«Vyse»)Es una bolsa con una cuadro de un Dhabu.
+Seguro que a Aika le encantaría.\c"
+MSs013c002,"\h(«Vyse»)¡Vaya! ¡Qué buena pinta que tiene eso!
+¡Y huele muy bien!\c"
+MSs013c003,"\h(«Vyse»)Han envuelto la carne en varios paquetes.
+Son demasiado grandes para robarlos.\c"
+MSs013c004,"\h(«Vyse»)Hay todo tipo de medicinas que nunca había
+visto. A lo mejor venden algo interesante.\c"
+MSs013c005,"\h(«Vyse»)Un Dhabu en miniatura, algunos accesorios……
+Supongo que por aquí pasan muchos viajeros,
+por eso hay tantos souvenirs.\c"
+MSs013c006,"\h(«Vyse»)¿Mmm? ¿“Scorflies vivas de Nasr”?
+No creo que llegase a comprar algo así.
+Un momento, se mueve algo dentro de la caja.\c"
+MSs013c007,"\h(«Vyse»)Son alfombras Nasr.
+Había oído que eran muy caras, pero me imagino
+que éstas son las baratas.\c"
+MSs013c008,"\h(«Mercante de Armas»)¡Oye!
+¡¿No me robes mi mercancía?!
+¡¿Me has oído?!\c"
+MSs013c009,\h(«Vyse»)Pone “Excedente del Ejército de Nasr”.\c
+MSs013c010,"\h(«Vyse»)¡Qué espada más grande!
+Seguro que puede cortar cualquier cosa.
+Aunque parece que pesa mucho.\c"
+MSs013c011,"\h(«Vyse»)Hay un montón de espadas tiradas aquí.
+Supongo que venden las espadas usadas y
+rayadas más baratas.\c"
+MSs013c012,"\h(«Vyse»)Hay toda clase de bayas aquí dentro.
+Y parecen frescas.\c"
+MSs013c013,"\h(«Vyse»)¡Eh, fruta fresca!
+Sólo con mirar la fruta, se me está haciendo la
+boca agua……\c"
+MSs013c014,"\h(«Vyse»)Es una alfombra Nasr.
+Parece que están vendiendo alfombras con
+defectos algo más baratas.\c"
+MSs013c015,"\h(«Vyse»)Sin duda, es un artículo de vestir
+muy interesante. No estoy muy seguro de
+lo qué es, pero sin duda es interesante……\c"
+MSs013c016,"\h(«Vyse»)¿Eh?
+¿Cómo se supone que me tengo que poner esto?\c"
+MSs013c017,"\h(«Vyse»)¡Vaya!
+¡Estos platos de plata son muy baratos!
+Pero no puedo malgastar el dinero ahora……\c"
+MSs013c018,"\h(«Aika»)¡Qué mono!
+Es una bolsa con una foto de un Dhabu.
+Ojalá tuviera dinero para comprarla.\c"
+MSs013c019,"\h(«Aika»)Mmm…… Tiene buena pinta……
+¡Me lo podría comer entero!\c"
+MSs013c020,"\h(«Aika»)Han cortado y envuelto la carne.
+No sé…… Si tuviera que comprar carne,
+preferiría comprar la pieza entera.\c"
+MSs013c021,"\h(«Aika»)Tienen todo tipo de medicinas.
+Deben de vender un montón de cosas raras
+en este bazar.\c"
+MSs013c022,"\h(«Aika»)¡Caray!
+¡Es una miniatura de Dhabu! ¡Qué mona!
+¡Esta piedra azul también es preciosa!\c"
+MSs013c023,"\h(«Aika»)¡¿“Scorflies vivas de Nasr”?!
+¡Hay algo que se mueve dentro!
+¡Qué asco!\c"
+MSs013c024,"\h(«Aika»)Es una alfombra Nasr.
+Había oído que eran muy caras,
+pero ésta es bastante barata.\c"
+MSs013c025,"\h(«Mercante de Armas»)¡Oye, tú!
+¡No intentes robarme mi mercancía!\c"
+MSs013c026,\h(«Aika»)Mmm…… “Excedente del Ejército de Nasr”.\c
+MSs013c027,"\h(«Aika»)¡Vaya! ¡Qué espada tan grande!
+Si te soy sincera, yo no podría mantener el
+equilibrio con esa espada.\c"
+MSs013c028,"\h(«Aika»)Venden espadas estropeadas muy baratas.
+No sé qué decir de estas……
+No parecen muy resistentes……\c"
+MSs013c029,"\h(«Aika»)Mmm, ¡tiene buena pinta!
+¡Está lleno de toda clase de bayas!\c"
+MSs013c030,"\h(«Aika»)¡Fruta fresca!
+En Nasr siempre pasas mucha sed, ¡por eso
+la fruta tiene mejor pinta que nunca!\c"
+MSs013c031,"\h(«Aika»)Es una alfombra de Nasr.
+Supongo que venden las alfombras sucias y
+estropeadas muy baratas.\c"
+MSs013c032,"\h(«Aika»)¡Vaya!
+Creo que no me podría poner eso……\c"
+"",me013b.sct
+"",m5130000
+"",M0238

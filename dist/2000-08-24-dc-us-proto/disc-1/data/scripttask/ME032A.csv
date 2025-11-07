@@ -1,0 +1,184 @@
+[Event Name],Task ID
+MA0080000,\h(《Aika》)Hey!\e
+MA0080001,\h(《Aika》)Look! She's coming to…\e
+MA0080002,\h(《Girl》)Wh… where am I?\e
+MA0080003,"\h(《Vyse》)You're aboard our ship, the Albatross.\e"
+MA0080004,"\h(《Vyse》)I'm Vyse.
+Don't worry, there aren't any Valuan troops 
+around, so you'll be safe here.\e"
+MA0080005,"\h(《Girl》)Y… yes.
+Um… thank you very much.\e"
+MA0080006,"\h(《Aika》)Haha… you don't need to thank us!
+The Blue Rogues are always there to help people!\e"
+MA0080007,"\h(《Aika》)My name is Aika. It's nice to meet you. 
+Hey, could you tell us your name?\e"
+MA0080008,\h(《Girl》)My name… my name is Fina.\e
+MA0080009,"\h(《What will you say?》)”That's a great name.”
+”That's a strange name.”
+”So, where are you from, exactly?”\e"
+MA0080010,"\h(《Vyse》)Fina, huh?
+It's a great name… it's so… so feminine.\e"
+MA0080011,\h(《Fina》)R… really? You think so?\e
+MA0080012,"\h(《Vyse》)Geeze, you try and compliment someone… And 
+nothing… No reaction whatsoever.\e"
+MA0080013,"\h(《Aika》)Ahahaha!
+Vyse, that wasn't much of a compliment.
+Looks like you have a lot to learn about women.\e"
+MA0080014,"\h(《Vyse》)Fina, huh?
+That's a strange name.\e"
+MA0080015,"\h(《Fina》)Really?
+Oh… I'm sorry…\e"
+MA0080016,"\h(《Aika》)That was really smooth Vyse.
+Don't you know how to treat a lady?! Sheesh.\e"
+MA0080017,"\h(《Aika》)Didn't Cap'n Dyne teach you that sailors are 
+supposed to be gentlemen?!\e"
+MA0080018,"\h(《Vyse》)Sorry, sorry!
+I didn't mean any harm.\e"
+MA0080019,"\h(《Vyse》)Fina…
+So, where are you from, exactly?\e"
+MA0080020,\h(《Fina》)……\e
+MA0080021,"\h(《Aika》)Vyse!
+She just woke up! You don't need to start 
+interrogating her right away!\e"
+MA0080022,\h(《Aika》)See? Now she's scared.\e
+MA0080023,"\h(《Vyse》)Sorry sorry!
+I didn't mean any harm.\e"
+MA0080024,"\h(《Fina》)Umm… excuse me, but I have a question.
+What exactly is an Air… Air Pirate?\e"
+MA0080025,"\h(《Aika》)What? You were out sailing all by yourself and 
+you don't even know what Air Pirates are?\e"
+MA0080026,"\h(《Fina》)Oh… I…
+I'm sorry… it's my first time traveling.\e"
+MA0080027,"\h(《Vyse》)Basically, Air Pirates are sailors that attack 
+other ships and steal their cargo.\e"
+MA0080028,\h(《Fina》)Attack?!\e
+MA0080029,"\h(《Aika》)Ahaha… you don't have to worry about us.
+We're ”Blue Rogues”.\e"
+MA0080030,"\h(《Aika》)See, Air Pirates are divided into two factions: 
+the Blue Rogues and the Black Pirates.\e"
+MA0080031,"\h(《Aika》)The Black Pirates will attack anything in the 
+sky… especially merchant vessels and unarmed 
+ships.\e"
+MA0080032,"\h(《Aika》)However, we Blue Rogues only take cargo from
+armed ships, especially the Imperial Armada.\e"
+MA0080033,"\h(《Vyse》)We rob from the rich and keep the gold. 
+But, we use the gold to save people that need 
+our help.\e"
+MA0080034,"\h(《Vyse》)That's why we helped you. Don't worry, we aren't
+trying to kidnap you or anything. Just relax and
+enjoy the trip.\e"
+MA0080035,\h(《Fina》)Umm… sure.\e
+MA0080036,"\h(《Dyne》)Vyse, Aika…
+How long are you going to sit there 
+chitchatting? Come to the bridge now.\e"
+MA0080037,"\h(《Aika》)Oh no!
+I completely lost track of time!\e"
+MA0080038,"\h(《Vyse》)Oh well… I guess that means we have to go.
+Alright Fina, we'll see you later!
+Try and get some rest.\e"
+M00070000,"\h(《ロビン副長》)来たか、ヴァイス。
+今から空賊島へと帰還するぞ。
+おまえは舵とりを補佐しろ。\e"
+M00070001,"\h(《ロビン副長》)空賊島はここから南東の方向だ。
+まず南に向かい、峡谷の島の間を
+抜ければ見えるはずだ。\e"
+M00070002,"\h(《ヴァイス》)南に向かい
+峡谷の島の間を抜けるんだな。
+了解！\e"
+M00070003,"\h(《ロビン副長》)よし、それじゃ発進するぞ。
+空賊島へ向けて、全速前進！\c"
+M00070004,"\h(《ロビン副長》)おい、まだ空賊島へ
+着いてないぞ。
+持ち場に戻れ。\e"
+M00070005,"\h(《えーと……》)「了解！」
+「ちょっと待っててくれよ」\e"
+M00070006,"\h(《ヴァイス》)ちょっと待っててくれよ。
+すぐに戻るからさ。\e"
+M00070007,"\h(《ロビン副長》)ったく、しょうがねえな。
+何の用か知らんが
+さっさとすませてこい。\c"
+M00070008,"\h(《ヴァイス》)了解！
+よーし、空賊島へ戻ろうぜ！\c"
+M00150000,"\h(《タル腹のガン》)航行中、白いカーテンのような
+『気流の壁』が
+見えることがあるッス。\e"
+M00150001,"\h(《タル腹のガン》)『気流の壁』は、船では
+突破できないッス。おとなしく
+針路を変えるしかないッス。\c"
+M00150002,"\h(《タル腹のガン》)『気流の壁』は、船では
+突破できないッス。おとなしく
+針路を変えるしかないッス。\c"
+M00170000,"\h(《風読みのルーク》)いよう、ヴァイス。
+さっきの襲撃では、なかなか
+見事な働きっぷりだったな。\e"
+M00170001,"\h(《風読みのルーク》)バルア艦はどうしたかって？
+指揮官が脱出したと聞いて
+みな剣を捨てて降伏したぜ。\e"
+M00170002,"\h(《風読みのルーク》)ダイン船長は、兵たちを艦ごと
+解放してやったようだ。もちろん
+お宝をぶんどった後でな。\e"
+M00170003,"\h(《風読みのルーク》)いただくものは、いただく。
+だが、無益な殺しはしねえ。
+それが青の空賊ってもんさ！\c"
+M00170004,"\h(《風読みのルーク》)いただくものは、いただく。
+だが、無益な殺しはしねえ。
+それが青の空賊ってもんさ！\c"
+M00230000,"\h(《ダイン》)遅刻だぞ、ヴァイス。
+勤務交代の時間になったら
+すぐに来いと言ってるだろう。\e"
+M00230001,"\h(《ダイン》)罰として、後で甲板掃除だ。
+しっかりみがいておけよ。\e"
+M00230002,"\h(《ヴァイス》)ちょ、ちょっと待てよオヤジ！
+ほんの少し遅れただけだろ!?\e"
+M00230003,"\h(《ダイン》)船では、ほんの少しの油断が
+命取りになる。
+船の上での遅刻は厳禁だ。\e"
+M00230004,"\h(《ダイン》)それと、船の上では
+オヤジではなく「船長」だ。
+わかったな？\e"
+M00230005,\h(《ヴァイス》)かーっ、わかったよ！\e
+M00230006,"\h(《ダイン》)これより、空賊島に帰還する。
+この後の指示は、副長にあおげ。\c"
+M00230007,"\h(《ダイン》)さあ、空賊島に帰還するぞ。
+副長に指示をあおげ。\c"
+M00230008,"\h(《ダイン》)おい、ブリッジ勤務を
+ほったらかして
+どこに行くつもりだ？\c"
+Mh0020000,"\h(《ヴァイス》)気分はどうだい、ファイナ？
+そうそう、船内は自由に
+歩きまわってかまわないぜ。\e"
+Mh0020001,"\h(《ファイナ》)はい、わかりました。
+いろいろと気をつかってもらって
+ありがとうございます。\c"
+Mh0020002,"\h(《ファイナ》)いろいろと気をつかってもらって
+ありがとうございます。\c"
+Ms032a000,"\h(《ヴァイス》)伝声管だ。
+ブリッジにつながっている。\e"
+Ms032a001,"\h(《ダイン》)ヴァイス！
+いつまで油を売ってるんだ！
+早くブリッジに来い！\c"
+Ms032a002,"\h(《ヴァイス》)タルの中にはたっぷりと
+飲料水が入っているんだ。
+長い航海には欠かせないからな。\c"
+Ms032a003,"\h(《ヴァイス》)弾薬が詰まっている。
+誰かが勝手に取ったりすると
+船全体の命取りだ。\c"
+Ms032a004,"\h(《ヴァイス》)大砲だ。
+船についている砲だけでなく
+こいつで応戦することもある。\c"
+Ms032a005,"\h(《ヴァイス》)誰だ？
+こんなところにタルなんか
+置いたヤツは……\c"
+Ms032a006,"\h(《ヴァイス》)このあたりの空……
+オーシャンの地図だ。
+俺たちダイン一家のナワバリさ。\c"
+"",\h(《デバッグなのだ》)\e
+"","「フリー移動」
+「ファイナ目覚めイベント」\e"
+"",M0373
+"",M5320000
+"",a032aa08.mld
+"",a032aa08.mld
+"",M0373
+"",e6a008
+"",a032aa08.mld

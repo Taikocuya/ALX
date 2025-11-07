@@ -1,0 +1,115 @@
+[Event Name],Task ID
+M00070000,"\h(《Air Pirate》)Hi, Vyse. 
+I was able to come down here and talk to 
+Captain Dyne. \e"
+M00130000,"\h(《Owner of Weapon Shop》)He-he-he. Welcome welcome! 
+We sell weapons and 
+protective gear here. \e"
+M00140000,"\h(《Owner of Tool Shop》)Welcome! 
+This is the tool shop.
+Buy whatever you need… \e"
+M00160000,"\h(《Air Pirate》)I'm checking the quantity of
+supplies, so the Albatross can be ready 
+to leave the port at anytime. \e"
+M00160001,"\h(《Air Pirate》)We use flag signals like this
+so we don't have to go back to the 
+ship each time we need to say something. \c"
+M00160002,"\h(《Air Pirate》)Cannonballs… 20 shots left…
+Drinking water… 10 barrels 
+left. Hmmm…\c"
+M00170000,"\h(《Air Pirate》)This is our - the Dyne 
+Family's - secret port! \e"
+M00170001,"\h(《Air Pirate》)The Air Pirate ship you see 
+below is the Albatross. It's 
+ready to set sail! \c"
+M00170002,"\h(《Air Pirate》)If the Valuans try to invade
+our sky, we'll disembark at 
+once and destroy them! \c"
+M00180000,"\h(《Air Pirate》)15 air pirates still
+alive and a bottle of rum. 
+All right! \e"
+M00180001,"\h(《Air Pirate》)Don't you think I sing well? 
+It's a song that I always sing while I hoist 
+up the anchor of the ship. \c"
+M00180002,"\h(《Air Pirate》)15 Air Pirates still
+alive, and a bottle of rum. 
+All right! \c"
+M00200000,"\h(《Lady Air Pirate》)Nothing beats a stiff drink after 
+at the end of the day! \e"
+M00200001,"\h(《Lady Air Pirate》)It’s especially tasty after a hard 
+day of treasure-hunting and defeating 
+Valuans! \c"
+M00230000,"\h(《Dyne》)Oh, Vyse.
+How is it going? \e"
+M00230001,"\h(《Dyne》)The world is vast. There are 
+many towns, many countries, 
+and many sailors… \e"
+M00230002,"\h(《Dyne》)And, the boundless sky
+awaits you. \e"
+M00230003,"\h(《Dyne》)Eventually, the day for you to venture 
+into the sky will come. For now, there is 
+nothing to do but wait for that day. \c"
+M00230004,"\h(《Dyne》)Eventually, the day for you to venture 
+into the sky will come. For now, there is
+nothing to do but wait for that day. \c"
+M00240000,"\h(《Air Pirate》)Grumble grumble…
+No ma'am, really… I can’t eat anymore… 
+grumble grumble \c"
+M01050000,"\h(《Air Pirate》)Captain Dyne is so considerate
+to build a bar at the port. \e"
+M01050001,"\h(《Air Pirate》)Oui… Hiccup! Bring me anything - 
+drinks or Valuan troops! \c"
+M01050002,"\h(《Air Pirate》)Bring me a pretty girl
+along with the drinks! \c"
+M07140000,"\h(《Old Air Pirate》)It is said that 
+there is a strangely-shaped rock 
+in the mountains somewhere on Sand Island.\e"
+M07140001,"\h(《Old Air Pirate》)It’s no more than a rumor, but 
+it wouldn’t hurt to look for it if 
+you drop by Sand Island. \c"
+M002d0000,"\h(《Vyse》)It's a picture of our air 
+pirate ship Albatross. \e"
+M002d0001,"\h(《Vyse》)This is... Actually, I don't know what 
+this is a picture of. Aika says it a balloon, 
+but I think it's an octopus. \c"
+M002d0002,"\h(《Vyse》)It's stuffed with my old 
+man's cigar and books. \c"
+M002d0003,"\h(《Vyse》)It's a picture of a storm. 
+The #1 enemy of sailors is 
+probably the storm. \c"
+M002d0004,"\h(《Vyse》)It's a barrel filled with 
+raw materials for medicine. \c"
+M002d0005,"\h(《Vyse》)Using the power of the 
+windmill on land, baggage is 
+raised and lowered with this. \c"
+M002d0006,"\h(《Vyse》)It's a barrel filled with rum.
+Looks like strong rum is the
+favorite amongst sailors. \c"
+M002d0007,"\h(《Vyse》)Rum and wine…
+There are various types of 
+alcohol lined up here. \c"
+M002d0008,"\h(《Vyse》)The best place for a sailor 
+to sleep is the hammock. \c"
+M002d0009,"\h(《Vyse》)It's my old man's barrel of 
+alcohol. \c"
+M002d0010,\h(　)“Captain's Room” \c
+M002d0011,\h(　)“Sailor's Room” \c
+M002d0012,"\h(　)”Alcohol Prohibited in
+Sailor's Room” \c"
+M002d0013,\h(　)“Bar”\c
+M002d0015,"\h(《Vyse》)On a sailboat, ropes are used 
+in various places. Ropes are a 
+necessity for sailing. \c"
+"",m5020000
+"",M0235
+"",M0235
+"",me002x.sct
+"",me002x.sct
+"","\h(《Air Pirate》)15 air pirates still alive.
+All right! \e"
+"","\h(《Air Pirate》)Don't you think I sing well? 
+It's a song that I always sing while I hoist 
+up the anchor of the ship. \c"
+"","\h(《Air Pirate》)15 air pirates still alive.
+All right! \c"
+"",me099a.sct

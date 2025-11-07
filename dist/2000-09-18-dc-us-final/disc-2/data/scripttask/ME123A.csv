@@ -1,0 +1,38 @@
+[Event Name],Task ID
+M01230000,"\h(《Vyse》)…It won't open.
+It feels like something's holding it shut, but
+I can't tell what…\c"
+M01230001,"\h(《Guardian Stone》)Visitor to Glacia…
+Answer my query
+and open your own path…\e"
+M01230002,"\h(《Vyse》)What?!
+Did that rock just say something?!\e"
+M01230003,"\h(《Guardian Stone》)Deep within the Purple Moon Stone lies the power
+to hold the world still. What is this power?\e"
+M01230004,"\h(《What is the Purple Moon Stone's power?》)“The power of Fire.”
+“The power of Ice.”
+“The power of Lightning.”\c"
+M01230005,"\h(《Guardian Stone》)Visitor to Glacia…
+Answer my query
+and open your own path…\e"
+M01230006,"\h(《Guardian Stone》)The Purple Crest hides a certain number.
+What is that number?\c"
+M01230007,"\h(《What number is hidden in the Crest?》)“Maybe two?”
+“Maybe four?”
+“Maybe six?”\c"
+M01230008,"\h(《Guardian Stone》)Visitor to Glacia…
+Answer the last query
+and open your own path…\e"
+M01230009,"\h(《Guardian Stone》)Purple Moon Stones affect the abilities
+of living things.\e"
+M01230010,"\h(《Guardian Stone》)What are the abilities most valued
+by the people of Glacia?\e"
+M01230011,"\h(《Which abilities?》)“Power and courage.”
+“Will and spirit.”
+“Life and healing.”\c"
+M01230012,"\h(《What will you do?》)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+"",me123b.sct
+"",me123d.sct
+"",M0254
+"",m5230000

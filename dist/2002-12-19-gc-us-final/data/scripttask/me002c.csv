@@ -1,0 +1,724 @@
+[Event Name],Task ID
+M00010000,"\h(《Jimmy》)Vyse, we took care of the island real good
+while you were gone!\e"
+M00010001,"\h(《Jimmy》)Aren't you proud of us? We did almost all this
+by ourselves!\c"
+M00010002,"\h(《Jimmy》)From now on, we're gonna help protect Pirate
+Isle, too!\c"
+M00010003,"\h(《Jimmy》)I'm so jealous of you, Vyse… I can't wait 'til
+my dad let's me go sailing, too!\c"
+M00010004,"\h(《Jimmy》)Hey, Vyse! Guess what? Guess what?
+They let me on the Albatross the other day!\e"
+M00010005,"\h(《Jimmy》)Well, actually, I was just helping my dad
+move some boxes… hehe.\e"
+M00010006,"\h(《Jimmy》)But, you gotta learn the little things like that
+before you can become a sailor, right? I'm gonna
+be the best sailor in the whole wide world!!\c"
+M00010007,"\h(《Jimmy》)Is it really true that you sailed all the way
+around the world, Vyse? It is?! Wow!!!\e"
+M00010008,"\h(《Jimmy》)I'm gonna sail around the world, too, someday!
+You just watch! I'm gonna be just like you
+when I grow up!!\c"
+M00010009,"\h(《Jimmy》)Wh, where'd that island come from?!
+Where'd Shrine Island go?!
+Vyse, what's going on?!\c"
+M00010010,"\h(《Jimmy》)Actually, I wanted to go with you on your
+journey, but my dad told me that I was too
+young to be able to go out on my own yet.\e"
+M00010011,"\h(《Jimmy》)So, I'll cheering for you guys from here, okay?
+You better not let those bad guys beat you!!\c"
+M00020000,"\h(《Alan》)While you were gone, I fixed a bunch of stuff
+here on the island!\e"
+M00020001,"\h(《Alan》)Heh… Now I feel like I can do anything!
+Well… almost anything. Your mom helped
+me move some boxes and stuff…\c"
+M00020002,"\h(《Alan》)You know what? I actually had fun rebuilding
+everything! It felt sorta good to make
+something with my own hands!\e"
+M00020003,"\h(《Alan》)Maybe I'll be a carpenter when I grow up!
+I'm still a little young… but I guess it can't
+hurt to dream, right Vyse!\c"
+M00020004,"\h(《Alan》)Right now, all the grownups
+are busy rebuilding the Albatross.\e"
+M00020005,"\h(《Alan》)And you know what? I did such a good job helping
+everyone rebuild the town that they're letting
+me help rebuild the ship, too!\c"
+M00020006,\h(《Alan》)Hey Vyse! Long time no see!\e
+M00020007,"\h(《Alan》)You should come home more often! I want to hear
+all about your adventures and stuff! I bet
+you've seen some really neat stuff!\c"
+M00020008,"\h(《Alan》)Really? There's a country called Yafutoma where
+the houses are built right on the water?\e"
+M00020009,"\h(《Alan》)Wow… I'd really like to try building something
+like that! Of course… there isn't a whole lot
+of water around here…\c"
+M00020010,"\h(《Alan》)Vyse! There was this big roaring sound and that
+island came up from inside the clouds and I was
+so scared and I didn't know what to do!\c"
+M00020011,"\h(《Alan》)Everybody's gone right now. They all sailed off
+in the Albatross. But, I'm not scared anymore!\e"
+M00020012,"\h(《Alan》)We'll be okay! We're going to defend the island
+while all the grownups are off fighting! Just
+leave everything to us, okay?\c"
+M00030000,\h(《Lindsi》)Vyse! You're home! You made it back!!\e
+M00030001,"\h(《Lindsi》)I missed you so much… I was so worried that you
+wouldn't make it back…\c"
+M00030002,"\h(《Lindsi》)Welcome home, Vyse! You should come back and
+visit us more often, okay? We miss you!\c"
+M00030003,"\h(《Lindsi》)Wow… That's a really nice ship, Vyse!
+Where'd you get that thing from? You better
+let me ride in it someday!\c"
+M00030004,"\h(《Lindsi》)Alright, Pow… You better take good
+care of Vyse, okay?\c"
+M00030005,"\h(《Lindsi》)Really?! You sailed all the way
+around the world?!\e"
+M00030006,"\h(《Lindsi》)But, my mommy told me that there are scary
+monsters at the edge of the world! Did any
+of them try to hurt you?\c"
+M00030007,"\h(《Lindsi》)Vyse… Jimmy told me that there are bad people
+on that island… Is that true?\e"
+M00030008,"\h(《Lindsi》)Whenever I think about that island at night…
+I… I get scared and I can't go to sleep…\c"
+M00030009,"\h(《Lindsi》)You better not let them beat you, Vyse! You
+can't let the bad guys win!!\e"
+M00030010,"\h(《Lindsi》)You better promise that you'll come home
+safely, okay? Promise!!\c"
+M00040000,\h(《Pow》)Pow pow!\e
+M00040001,"\h(《Vyse》)How are you doing there, little guy! You seem
+happy enough to see us… Hehe… Have you been
+taking care of everyone while I've been gone?\e"
+M00040002,\h(《Pow》)Pow pow pow!!\c
+M00040003,\h(《Pow》)Pow pow!\c
+M00040004,\h(《Pow》)Pow pow!\c
+M00040005,"\h(《Jimmy》)Umm… Vyse, we wanted to ask you to do
+something for us…\e"
+M00040006,"\h(《Jimmy》)We really wish we could go with you and help
+out… but we're still too young, I guess. Well,
+that's what our parents say…\e"
+M00040007,"\h(《Jimmy》)So, instead, we want you to take Pow with you.
+He'll help you out instead!\e"
+M00040008,\h(《Pow》)Pow pow!\c
+M00040009,"\h(《Alan》)Pow has always been there for us… Whenever we
+needed someone to cheer us up, he was there.\e"
+M00040010,"\h(《Alan》)And we were just thinking that maybe if Pow
+could go with you, he could cheer you up
+whenever you needed it, you know?\e"
+M00040011,"\h(《Vyse》)Haha… I see.
+Well, then… Pow, looks like you're the newest
+member of my crew!\e"
+M00040012,"\h(《Lindsi》)You hear that, Pow? Vyse is going to take you
+with him! You're going to get to sail on that
+big ship with his crew!\e"
+M00040013,\h(《Pow》)Pow! Pow pow!!\c
+M00040014,"\h(　)Pow has joined your crew as a “Jester.”
+… of sorts.\c"
+M00050000,"\h(《Martha》)Vyse… I just wanted to thank you for bringing
+my husband home. I know that lazy bum couldn't
+have saved himself even if he tried.\e"
+M00050001,"\h(《Martha》)He may be a lazy bum… but… I still love him.
+I realized that when he was gone. I missed him
+so much… But you better not tell him that!!\c"
+M00050002,"\h(《Martha》)Can you believe it?! That good-for-nothing
+husband of mine is so ungrateful! Do you know
+what he told me?!\e"
+M00050003,"\h(《Martha》)“The women that I saw in Valua were some of the
+most beautiful women I've ever seen…”
+THAT'S what he said!!!\e"
+M00050004,"\h(《Martha》)Here I was, worried sick about him… And all he
+could do was admire the “beautiful women” in
+Valua?! I can't believe him!!\c"
+M00050005,"\h(《Martha》)Can you believe it?! That good-for-nothing
+husband of mine is so ungrateful! Do you know
+what he told me?!\e"
+M00050006,"\h(《Martha》)“The whole time I was in Valua, I couldn't stop
+thinking about sailing… I wanted to be out in
+the sky. Oh, and I… uh… missed you, too…”\e"
+M00050007,"\h(《Martha》)Can you believe him?! “Oh, and I… uh… missed
+you, too…” Here I was, worried to death, and
+all he could think about was sailing!!\c"
+M00050008,"\h(《Martha》)Can you believe it?! That good-for-nothing
+husband of mine is so ungrateful! Do you know
+what he told me?!\e"
+M00050009,"\h(《Martha》)“I really feel at home when I'm out sailing.
+It's so relaxing… I have so much freedom…
+Oh, but I don't mean anything by that…”\e"
+M00050010,"\h(《Martha》)Can you believe him?! How could he NOT mean
+anything by that?! I swear, I should lock him
+inside the house from now on…\c"
+M00050011,"\h(《Martha》)Can you believe it?! That good-for-nothing
+husband of mine is so ungrateful! Do you know
+what he told me?!\e"
+M00050012,"\h(《Martha》)“My goal in life is to sail around the world
+like Vyse and meet all kinds of beautiful women.
+Oh, I mean, I think you're beautiful, too.”\e"
+M00050013,"\h(《Martha》)Can you believe that he actually said that to
+me?! I swear… one more comment like that, and
+he's never going sailing again!!\c"
+M00050014,"\h(《Martha》)Do you know what that good-for-nothing husband
+of mine just told me? He looked off in the
+distance at that new island and said…\e"
+M00050015,"\h(《Martha》)“Don't worry, Martha. Even if it means my life,
+I will protect you and the others from whatever
+happens. This, I swear to you.”\e"
+M00050016,"\h(《Martha》)I… I guess he really does love me. Sometimes I
+really wonder, but… at times like this, I feel
+more loved than anyone else in the world…\c"
+M00050017,"\h(《Martha》)Do you know what that good-for-nothing husband
+of mine just told me? Right before he sailed off
+with the others, he turned to me and said…\e"
+M00050018,"\h(《Martha》)“Don't worry… I'll be home before you know it.
+And when I come back, I'm going to be a hero! So
+make sure and fix a feast for my return!!”\e"
+M00050019,"\h(《Martha》)I don't know… Maybe he just doesn't know how to
+word things right. I guess that's just how he
+shows his love.\c"
+M00060000,"\h(《Barbara》)Welcome home, Vyse. I hear that you caused quite
+the commotion over in Valua. Haha… Your father
+must be quite proud of you.\e"
+M00060001,"\h(《Barbara》)Don't tell her I told you this, but your mother
+was worried sick about you while you were gone.
+She was so happy that you came home safely.\c"
+M00060002,"\h(《Barbara》)So how does it feel to have gone on your
+first adventure? It must feel great to
+be out on your own…\e"
+M00060003,"\h(《Barbara》)But, I always knew that you weren't the type
+to sit still for very long. I knew it was only a
+matter of time before you left here.\c"
+M00060004,"\h(《Barbara》)All the men have been busy with preparations
+for battle ever since that strange island
+appeared over by Shrine Island.\e"
+M00060005,"\h(《Barbara》)I hope they know what they're doing… I get a
+bad feeling every time I look at that island…\c"
+M00060006,"\h(《Barbara》)Is it true? Was Valua wiped out by the Rains of
+Destruction?\e"
+M00060007,"\h(《Barbara》)That's horrible… I'm sure that not all Valuans
+were bad people… I can't bear to think of all
+the innocent lives lost…\e"
+M00060008,"\h(《Barbara》)Vyse! You can't let them get away with
+this! Show them that they can't mess
+with the Blue Rogues!\c"
+M00070000,"\h(《Briggs the Vice Captain》)You know, for a while there, I was actually
+beginning to think that I'd never live to see
+this place again.\e"
+M00070001,"\h(《Briggs the Vice Captain》)I owe you one, Vyse. Looks like I'll be
+able to go on being an Air Pirate for
+a little while longer.\c"
+M00070002,"\h(《Briggs the Vice Captain》)Unlike in Valua, there's always such a nice
+breeze blowing on Pirate Isle. Ahhh!\c"
+M00070003,"\h(《Briggs the Vice Captain》)Go take a look in the underground harbor.
+The new Albatross II is being constructed
+right now.\e"
+M00070004,"\h(《Briggs the Vice Captain》)It's about 90% finished. It won't be long before
+it's ready for its maiden voyage. I can't wait
+to go sailing again!!\c"
+M00070005,"\h(《Briggs the Vice Captain》)Hey there, Vyse! I heard that you not only
+managed to escape from Valua again, but you
+stole one of their best ships as well?\e"
+M00070006,"\h(《Briggs the Vice Captain》)That's incredible! But we've got a new ship,
+too! We just finished the last preparations
+on the Albatross II!\e"
+M00070007,"\h(《Briggs the Vice Captain》)We've been working on it for a long time in the
+underground port, and it's finally finished! I
+can't wait to take her sailing!!\c"
+M00070008,"\h(《Briggs the Vice Captain》)Hey there, Vyse! How've you been? The new
+Albatross flies like the wind… hehe.\e"
+M00070009,"\h(《Briggs the Vice Captain》)What?! You sailed around the world?! Y, you mean
+that the world isn't flat?! Man… You really are
+something, Vyse. I'm impressed…\c"
+M00080000,"\h(《Vyse's Mother》)Oh! You're home! Did you want to rest for a
+little while?\c"
+M00080001,"\h(《What will you say?》)“Sure, I could use a little rest.”
+“Nah… I'll be fine. I'm not that tired.”\e"
+M00080002,"\h(《Vyse》)Sure, I could use a little rest.\e"
+M00080003,"\h(《Vyse's Mother》)Great! I'll prepare a nice dinner for you,
+okay? Just go upstairs and relax… I'll let you
+know when dinner's ready.\c"
+M00080004,"\h(《Vyse's Mother》)Good morning! You just be careful out
+there, okay? And make sure you bundle
+up if it gets cold!\c"
+M00080005,"\h(《Vyse's Mother》)Good morning! You just be careful out
+there, okay? I pray that the Moons will
+watch over you…\c"
+M00080006,"\h(《Vyse》)Sorry, Mom… but not tonight. I'll stay some
+other time, okay?\e"
+M00080007,"\h(《Vyse's Mother》)Really? Well, alright. But, just remember that
+you're always welcome to stay whenever you
+want, okay? Be careful out there!\c"
+M00090000,"\h(《Jessica》)I owe you so much, Vyse. You actually brought
+my husband home safely. I… I can't believe it.\e"
+M00090001,"\h(《Jessica》)But, just between you and me, I still haven't
+finished that scarf that I was knitting. I
+have to hurry up and finish it up!\c"
+M00090002,"\h(《Jessica》)I finally finished that scarf that I was working
+on, but I didn't like the color, so I'm starting
+over from scratch. \e"
+M00090003,"\h(《Jessica》)I know it's really my own fault, but I'm
+starting to wonder when I'm ever going to
+finish the thing…\c"
+M00090004,"\h(《Jessica》)Oh hey, Vyse. I finished that scarf I was
+working on, finally. What am I stitching
+now, you ask?\e"
+M00090005,"\h(《Jessica》)Well, to tell you the truth…
+I'm having a baby!!!\e"
+M00090006,"\h(《Jessica》)So now I'm knitting clothes for the baby.
+Oh, I can't wait to see my baby wearing the
+clothes that I make!\c"
+M00090007,"\h(《Jessica》)It sounded like something terrible was happening
+outside! There was a big blast of wind… Then
+a rumbling sound… I don't know what to do…\c"
+M00090008,"\h(《Jessica》)My husband went off to join the fight. He said
+it was important for him to fight for our unborn
+baby… He's so sweet…\e"
+M00090009,"\h(《Jessica》)So, I will stay here and pray that he will
+come home safely after the the battle is won.\c"
+M00100000,"\h(《Granny》)They say there are six Moons in this world:
+Red, Yellow, Green, Blue, Purple, and Silver.\e"
+M00100001,"\h(《Granny》)Remember to pray to each of them before you
+start on your next journey. It is always best
+to be in favor of all the Moons…\c"
+M00100002,"\h(《Granny》)It is said that many, many years ago, there was
+a great civilization that once flourished among
+the clouds.\e"
+M00100003,"\h(《Granny》)The people achieved wonders in technology and
+had an advanced culture like no other. However,
+they grew proud and spiteful of others.\e"
+M00100004,"\h(《Granny》)As punishment, the Moons cast the whole
+civilization down beneath the clouds into Deep
+Sky, never to be seen again.\c"
+M00100005,"\h(《Granny》)I… I never thought that the legend of the lost
+civilization was true, but it… it appears that
+I was wrong… Moons, help us…\c"
+M00100006,"\h(《Granny》)It seems like yesterday that you were but a
+little baby, crying in your mother's arms…\e"
+M00100007,"\h(《Granny》)But now, you stand here before me, a fully grown
+man. Go, Vyse… Go and fulfill your destiny. I
+will be here praying for you…\c"
+M00110000,"\h(《Timmus the Gunner》)During battle, your enemies can do more than
+physical damage to your party. If you want, I
+can teach you about these adverse effects.\e"
+M00110001,"\h(《What would you like to learn about?》)“Ask about Sleep, Confuse, and Silence.”
+“Ask about Poison, Fatigue, and Stone.”
+“Nothing.”\e"
+M00110002,"\h(《Timmus the Gunner》)If an enemy puts you to “Sleep,” you will be
+unable to take any further actions until either
+the effect wears off or you are hit.\e"
+M00110003,"\h(《Timmus the Gunner》)But, the length of time you will be asleep will
+vary. Sometimes you will wake up right away, and
+other times it might take a while.\c"
+M00110004,"\h(《Timmus the Gunner》)“Confuse” refers to a state where you can no
+longer distinguish between friend and foe and
+you strike out at the nearest target.\e"
+M00110005,"\h(《Timmus the Gunner》)If a character with high attack power is
+confused, it can be disastrous for the entire
+party. You need to be especially careful, Vyse.\e"
+M00110006,"\h(《Timmus the Gunner》)“Silence” is a very bad condition to be in. It
+prevents you from being able to cast any magic
+spells until you are cured of it.\e"
+M00110007,"\h(《Timmus the Gunner》)At that point, you'll really need to watch your
+health. Since you won't be able to cast any
+healing spells, you'll have to use items.\e"
+M00110008,"\h(《Timmus the Gunner》)If you or any of your party members is ever
+“Poisoned,” then you'll steadily take damage
+throughout the battle.\e"
+M00110009,"\h(《Timmus the Gunner》)The longer the battle drags on, the more damage
+you will take. So, if it looks like it's going
+to be a long battle, you should cure yourself.\e"
+M00110010,"\h(《Timmus the Gunner》)If one of you is ever in a state of “Fatigue,”
+then you will be unable to recover any of your
+Spirit Points.\e"
+M00110011,"\h(《Timmus the Gunner》)Without Spirit, it's impossible to cast magic or
+other special techniques. This is probably not
+something you want to happen to you.\e"
+M00110012,"\h(《Timmus the Gunner》)And then there's “Stone.” When this happens,
+your entire body is turned to stone and you
+will be unable to move.\e"
+M00110013,"\h(《Timmus the Gunner》)You'll be stuck like that for several turns. The
+only other way to cure the condition is through
+magic or by using certain items.\e"
+M00110014,"\h(《Timmus the Gunner》)Really? Alright, then. I guess you'll just have
+to learn by experiencing them firsthand!!
+Hahaha!!\e"
+M00110015,"\h(《Timmus the Gunner》)Oh yeah, one more thing. Once the battle is
+over, any impairments that you were suffering
+from will disappear immediately.\e"
+M00110016,"\h(《Timmus the Gunner》)So don't bother trying to cure yourself after
+the battles are done. You'll just be wasting
+your time.\c"
+M00110017,"\h(《Timmus the Gunner》)It sounds like trouble's brewing…
+Heh… I've been aching for some action!
+I say, “Bring it on!!”\c"
+M00120000,"\h(《Borris the Gunner》)Hey Vyse, did you know that there are six
+different colors of Magic? I could teach you
+them if you want…\e"
+M00120001,"\h(《What would you like to learn about?》)“Ask about Green, Red, and Purple spells.”
+“Ask about Blue, Yellow, and Silver spells.”
+“Nothing.”\e"
+M00120002,"\h(《Borris the Gunner》)Green Magic uses the powers of nature to heal
+the recipient's body. The “Sacri” line of spells
+are all healing spells.\e"
+M00120003,"\h(《Borris the Gunner》)However, there is also the “Noxi” line of Green
+spells that use the powers of nature to poison
+your enemy.\e"
+M00120004,"\h(《Borris the Gunner》)Red spells are fire-based spells. The “Pyri”
+line of spells will consume all enemies in sight
+with intense flames.\e"
+M00120005,"\h(《Borris the Gunner》)There is also the “Increm” line of spells that
+will intensify the recipient's fighting skills,
+increasing their attack power and defense.\e"
+M00120006,"\h(《Borris the Gunner》)I don't know too much about Purple spells, but I
+understand there is a line of ice spells called
+“Crystali.”\e"
+M00120007,"\h(《Borris the Gunner》)I've also heard rumors of a Purple spell that 
+has the power to affect the mind of its target.\c"
+M00120008,"\h(《Borris the Gunner》)I don't know too much about the Blue spells…
+Rumor has it that they include spells that slow
+your enemy down or put him to sleep…\e"
+M00120009,"\h(《Borris the Gunner》)Also, I have heard that there are spells called
+“Wevli” that can summon a small vortex to damage
+a small group of enemies…\e"
+M00120010,"\h(《Borris the Gunner》)The Yellow spells are lightning spells. One
+useful group of spells is “Electri.” It attacks
+all enemies in a straight line.\e"
+M00120011,"\h(《Borris the Gunner》)There's also one called Driln that reduces
+your enemy's Agile as well as all of his
+other combat abilities.\e"
+M00120012,"\h(《Borris the Gunner》)And finally, there're the Silver spells…
+Very few people have studied these spells,
+so there isn't much known about them.\e"
+M00120013,"\h(《Borris the Gunner》)But, what I do know is that there is
+supposedly a spell that can cure any
+kind of physical ailment…\e"
+M00120014,"\h(《Borris the Gunner》)And I've heard there's a spell to revive someone
+who has been knocked unconscious, as well as one
+that can actually kill your enemy instantly…\c"
+M00120015,"\h(《Borris the Gunner》)Well, aren't we a little confident. Heh… That's
+okay, though. But if you think of any questions,
+don't be too proud to ask, okay?\c"
+M00120016,"\h(《Borris the Gunner》)I've taught you everything that I know, Vyse.
+There isn't much more that you can learn from
+me now.\e"
+M00120017,"\h(《Borris the Gunner》)You know enough to keep yourself alive out in
+the skies. Use that knowledge wisely!\c"
+M00190000,"\h(《Patch the Deckhand》)I owe everything to you guys. If it wasn't for
+your bravery, none of us would have ever made
+it home to Pirate Isle.\e"
+M00190001,"\h(《Patch the Deckhand》)I just wanted to let you know that… I'm
+grateful. Your father raised you well, Vyse.\c"
+M00190002,"\h(《Patch the Deckhand》)You can count on me to keep a sharp lookout!
+I may only be a deckhand, but Ben tells me that
+I'm a great lookout, too!\e"
+M00190003,"\h(《Patch the Deckhand》)I've got a precious little wife to protect. No
+way am I going to let the Valuans attack this
+island again.\c"
+M00190004,"\h(《Patch the Deckhand》)I was standing on watch like always, when
+suddenly the wind started picking up rapidly
+and nearly blew me off Lookout Island!\e"
+M00190005,"\h(《Patch the Deckhand》)And then these huge clumps of land started
+rising up one after another from beneath the
+clouds, and they turned into that huge island!\c"
+Ms002c000,"\h(《Vyse》)It's a small supply box. There are usually all
+sorts of fishing and sailing equipment piled up
+in here, but it's empty right now.\c"
+Ms002c001,"\h(《Vyse》)I guess the butterflies have returned now that
+everything's been fixed and all the flowers
+have been replanted.\c"
+Ms002c002,"\h(《Vyse》)It's a bag full of Moon Stones. I think these
+are going to be loaded onto the ship. They're
+probably going to be used as fuel.\c"
+Ms002c003,"\h(《Vyse》)We use this windmill as a power source to raise
+and lower heavy cargo in and out of our ship
+in the underground port.\e"
+Ms002c004,"\h(《Vyse》)While they aren't necessarily rare, we try to
+conserve Moon Stones whenever we can. So, we use
+wind power for some things instead.\c"
+Ms002c005,"\h(《Vyse》)It's a box full of bullets. My father is really
+the only one that uses a gun around here. I
+prefer using cutlasses.\c"
+Ms002c006,"\h(《Vyse》)We use this windmill as a power source to raise
+and lower heavy cargo in and out of our ship
+in the underground port.\e"
+Ms002c007,"\h(《Vyse》)While they aren't necessarily rare, we try to
+conserve Moon Stones whenever we can. So, we use
+wind power for some things instead.\c"
+Ms002c008,"\h(《Vyse》)This fireplace seems well used. Wait… is that
+gunpowder I smell? Geez… Aika probably throws
+gunpowder in this thing for fun. She's crazy…\c"
+Ms002c009,"\h(《Vyse》)Wait a second there… I may be an Air Pirate,
+but I am a gentleman. I refuse to look through
+a lady's dresser without permission.\e"
+Ms002c010,"\h(《Vyse》)Heh… This is that ragged, old doll that Aika
+used to carry around when she was a kid. I
+guess she still has it.\c"
+Ms002c011,"\h(《Vyse》)What's this? I didn't know Aika had a vanity.
+I guess even she can be feminine at times.\c"
+Ms002c012,"\h(《Vyse》)Both of Aika's parents passed away when we
+were still little kids.\e"
+Ms002c013,"\h(《Vyse》)So, there's only one bed here in her place.
+She tosses and turns in her sleep a lot, so
+she needs a rather large bed.\c"
+Ms002c014,"\h(《Vyse》)It's a shield that we got from a Valuan ship
+some time ago. Shields are too cumbersome to be
+useful to us, so we just use it as decoration.\c"
+Ms002c015,"\h(《Vyse》)Spears can be really useful when raiding wooden
+ships. All you have to do is light the tip on
+fire and it can cause a lot of damage.\c"
+Ms002c016,"\h(《Vyse》)We use this pillar to practice punching and
+kicking. A lot of raids break out into melees,
+so we all need to know how to fight.\c"
+Ms002c017,"\h(《Vyse》)Hey, I may be an Air Pirate, but I would never
+steal from an old lady's dresser.\c"
+Ms002c018,"\h(《Vyse》)This smell…
+Oh man, this has to be salted fish.
+I regret even looking in here…\c"
+Ms002c019,"\h(《Vyse》)Granny used to cook bread in this fireplace for
+me and Aika all the time when we were kids. She
+really does make the best bread.\e"
+Ms002c020,"\h(《Vyse》)But, ever since Lindsi, Alan, and Jimmy were
+born, they get to eat everything that Granny
+makes.\c"
+Ms002c021,"\h(《Vyse》)What's this…?
+Yuck!!! It's her denture cleaning solution!\c"
+Ms002c022,"\h(《Vyse》)It's full of fresh water. I wonder who left it
+here…\c"
+Ms002c023,"\h(《Vyse》)The jar is filled with pickled turnips. Every
+time I smell turnips, I always think of
+sailing… That's all we ever eat out there…\c"
+Ms002c024,"\h(《Vyse》)It's filled with all sorts of tableware.
+There're even some smaller utensils, probably
+for the little kids.\c"
+Ms002c025,"\h(《Vyse》)It's just a fireplace. I remember many times as
+a kid warming myself to a fire here, after being
+outside all day during the cold season.\c"
+Ms002c026,"\h(《Vyse》)A water jar used for cooking. We all get our
+water from the well, so we need containers to
+store the water before we use it.\c"
+Ms002c027,"\h(《Vyse》)A bandana… a striped shirt… It's filled with
+old, worn-out clothes. Some people just get
+attached to their stuff, I guess…\c"
+Ms002c028,"\h(《Vyse》)After returning from a long voyage, there's
+nothing quite like collapsing in your own bed.
+It's the best feeling in the world.\c"
+Ms002c029,"\h(《Vyse》)My old man is always out sailing, so his bed
+isn't very worn in. It looks almost brand new.\c"
+Ms002c030,"\h(《Vyse》)This is our fireplace. Mom uses it daily to cook
+for herself… and for us when we're actually
+home and not out sailing.\c"
+Ms002c031,"\h(《Vyse》)It's my bed. But, I've been out sailing with my
+dad a lot lately, so I really only sleep in it
+on occasion.\c"
+Ms002c032,"\h(《Vyse》)It's a book that we picked up on one of our
+raids. Books are really hard to come by, so
+they're one of our most treasured finds.\e"
+Ms002c033,"\h(《Vyse》)I once read a book on the art of navigation over
+and over again until the bindings were all worn 
+out. I hope the knowledge will come in handy…\c"
+Ms002c034,"\h(《Vyse》)Oops… I left my papers all over the place. I'm
+surprised Mom didn't get on my case about the
+mess that I left.\e"
+Ms002c035,"\h(《Vyse》)Well, I was only studying about the stars. She
+should be happy that I'm not just sitting around
+doing nothing, I suppose.\c"
+Ms002c036,"\h(《Vyse》)It says “Windmill Island.” That's what this
+island is called on most maps. But, nobody that
+lives here actually calls it by that name.\e"
+Ms002c037,"\h(《Vyse》)This place's real name is “Pirate Isle.” We only
+use Windmill Island as a cover name to avoid
+getting caught by the Valuan Empire.\c"
+Ms002c038,"\h(《Vyse》)This is our well. It's very valuable to us here
+on Pirate Isle. Actually, one time when we were
+still kids, Aika fell inside the well…\c"
+Ms002c039,"\h(《Vyse》)The ladies of the town often use these boxes to
+sit and rest on while drawing water from the
+well. It's sort of the town gossip area.\c"
+Ms002c040,"\h(《Vyse》)I used to climb this tree all the time when I
+was a little kid. It was destroyed during the
+Armada's attack and had to be cut down.\c"
+Ms002c041,"\h(《Vyse》)Heh… It looks like someone's already replanted
+all the flowers that were destroyed during the
+Armada's attack.\c"
+Ms002c042,"\h(《Vyse》)There's always a steady breeze that blows
+through this region, so our laundry dries
+really quickly.\c"
+Ms002c043,"\h(《Vyse》)There's always a steady breeze that blows
+through this region, so our laundry dries
+really quickly.\c"
+Ms002c044,"\h(《Vyse》)Isn't this the laundry tub?
+Who left it just sitting out here like this?\c"
+Ms002c049,\h(　)“Please do not step on the garden.”\e
+Ms002c045,"\h(《Vyse》)… Vegetables are an important source of
+nutrients for sailors. Everyone takes great care
+to make sure and grow them properly.\c"
+Ms002c046,"\h(《Vyse》)This is our incinerator. It's connected to the
+fireplace inside. That way, they both can use
+the same chimney.\c"
+Ms002c047,"\h(《Vyse》)It's easy to get scurvy when you're always out
+sailing. It's hard to get enough vegetables, so
+that's why pickled turnips are so important.\c"
+Ms002c048,"\h(《What will you do?》)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MC0190000,"\h(《Fina》)Vyse… Aika…
+Captain Drachma…\e"
+MC0190001,\h(《Fina》)I… just wanted to tell you how much I… I…\e
+MC0190002,"\h(《Vyse》)Heh… don't worry about it. The Valuans went 
+through a lot of trouble to capture you. We just
+like making them mad.\e"
+MC0190003,"\h(《Aika》)Vyse is just kidding, Fina. You're our friend
+now. But while we were there, I did want to grab
+some more loot…\e"
+MC0190004,"\h(《Vyse》)What? Aika! You wanted to stay in Valua!? 
+We barely made it out of there!\e"
+MC0190005,"\h(《Aika》)Hey! It's an Air Pirate's duty to liberate any 
+treasure that can help the needy.\e"
+MC0190006,"\h(《Vyse》)Umm…
+Fina… there's something I want to ask you…
+What is this mission that you're on?\e"
+MC0190007,"\h(《Vyse》)What are you looking for? And why is the Valuan 
+Empire after you? We might be able to help…\e"
+MC0190008,\h(《Fina》)……\e
+MC0190009,\h(《Fina》)…Alright. I'll tell you…\e
+MC0190010,"\h(《Fina》)I am a Silvite, a descendant of the Silver 
+Civilization.\e"
+MC0190011,\h(《Aika》)Silver Civilization?\e
+MC0190012,"\h(《Fina》)Hundreds of generations ago, the world's 
+population was divided into 6 civilizations.\e"
+MC0190013,"\h(《Fina》)One existed under each of the Moons
+in the sky… Green, Red, Blue, Purple, Yellow,
+and Silver.\e"
+MC0190014,"\h(《Fina》)Each civilization harnessed the power of its 
+moon by learning how to use Moon Stones as a 
+source of energy.\e"
+MC0190015,"\h(《Fina》)The entire world went through a technological 
+revolution. But technology advanced faster than
+the people wielding it.\e"
+MC0190016,"\h(《Fina》)The leaders of each of the civilizations became
+corrupt… and their ambition led them to war.
+They used their technology to create weapons.\e"
+MC0190017,"\h(《Fina》)These weapons were called “Gigas.” They were 
+gigantic living weapons that were capable of 
+destroying whole islands.\e"
+MC0190018,"\h(《Aika》)I've heard about these Gigas before.
+There's a giant, and a dragon…\e"
+MC0190019,"\h(《Aika》)But, I thought those were all tales parents told
+their children… I never thought that they were 
+real.\e"
+MC0190020,"\h(《Fina》)Oh, Aika, they are very real. When the Ancient 
+Civilizations went to war, they unleashed the 
+Gigas on each other. So many people died…\e"
+MC0190021,"\h(《Fina》)Then something happened…
+the Rains of Destruction fell…
+No one knows exactly what caused it…\e"
+MC0190022,"\h(《Fina》)Moon Stones fell from each of the Moons… They
+fell for what seemed like an eternity. Thousands
+of Stones fell at a time… Like a rainstorm…\e"
+MC0190023,"\h(《Fina》)It was almost as if the Moons wanted to make
+sure that their powers would never be misused
+again. Millions died in the Rains…\e"
+MC0190024,"\h(《Fina》)The stones battered the lands and leveled the 
+cities… All of the Ancient Civilizations were 
+destroyed. Only a few survivors remained.\e"
+MC0190025,"\h(《Fina》)But even if the Rains of Destruction never 
+happened, the Gigas would have destroyed the 
+world anyway.\e"
+MC0190026,"\h(《Fina》)Now, there are people who are trying to reawaken
+the Gigas.\e"
+MC0190027,"\h(《Vyse》)You mean…
+The Valuan Empire?\e"
+MC0190028,"\h(《Fina》)Yes. But, to command the Gigas, it is necessary 
+to find the Moon Crystals. A Moon Crystal is a 
+highly concentrated form of Moon Stone.\e"
+MC0190029,"\h(《Fina》)The original Moon Crystals used to control the 
+Gigas are scattered throughout the world.\e"
+MC0190030,"\h(《Fina》)Valua is searching for those Crystals so they 
+can reawaken the Gigas!\e"
+MC0190031,"\h(《Aika》)And that's why the Valuan Empire kidnapped you…
+to find out where they were hidden!\e"
+MC0190032,"\h(《Fina》)Yes. I was sent here to gather the Crystals 
+before the Valuans could find them and put them 
+somewhere where they can never be used again.\e"
+MC0190033,"\h(《Fina》)… Vyse… Aika…
+I know I have caused you enough trouble, but I 
+have another favor to ask of you.\e"
+MC0190034,"\h(《Fina》)I would like you to go with me. 
+Help me travel the world in search of the 
+Crystals.\e"
+MC0190035,"\h(《Fina》)Please… without my ship, I can't do it… and if
+Valua gets the Crystals… I don't even want to
+think about what would happen…\e"
+MC0190036,"\h(《What will you say?》)“Leave everything to us!”
+“I need to think about this…”\e"
+MC0190037,"\h(《Vyse》)Heh… leave everything to us!
+We'll go with you and find those Crystals!\e"
+MC0190038,"\h(《Aika》)Yeah, Vyse… I guess this is your chance to see
+what lies beyond the sunset!\e"
+MC0190039,"\h(《Vyse》)You're right, Aika…\e"
+MC0190040,"\h(《Fina》)Thank you so much!
+If you two were to come with me, I would be so 
+honored!\e"
+MC0190041,"\h(《Vyse》)Let me think about it for a little.
+It's all so sudden…\e"
+MC0190042,"\h(《Aika》)Vyse! What are you talking about!
+Stop being such a coward! Valua will find the 
+Crystals first if we don't help her!\e"
+MC0190043,"\h(《Aika》)And Vyse…
+Have you forgotten what you used to always tell 
+me?\e"
+MC0190044,"\h(《Aika》)“One day, I want to see what lies beyond the
+sunset”, is what you've been saying since we
+were kids! This is your chance!\e"
+MC0190045,"\h(《Vyse》)Yeah…
+Now that you put it that way, I suppose you're 
+right…\e"
+MC0190046,"\h(《Vyse》)Alright, Fina… we'll help you find those 
+Crystals!\e"
+MC0190047,"\h(《Fina》)Thank you so much! If you two were to come with 
+me, I'd be so honored!\e"
+MC0190048,"\h(《Aika》)Huh?
+Vyse, what was that noise? 
+Was that your stomach?\e"
+MC0190049,"\h(《Fina》)Oh… I'm sorry. 
+It's okay, you can come out now.\e"
+MC0190050,\h(《Vyse》)Huh…?!\e
+MC0190051,"\h(《Aika》)Wh… what is that thing?!
+Where'd it come from?\e"
+MC0190052,\h(《Fina》)It's been with me ever since I was a baby.\e
+MC0190053,"\h(《Fina》)It's from my homeland… It can change its
+shape… And it's usually shaped like a bracelet
+around my arm.\e"
+MC0190054,"\h(《Aika》)Heh… actually, the thing is kind of cute. 
+What's its name?\e"
+MC0190055,"\h(《Aika》)It's so cute! I'm very pleased to meet you, 
+Cupil!\e"
+MC0190056,"\h(《Vyse》)Well, Fina, we've got a long journey ahead of 
+us. We'll do our best to help you get the 
+Crystals.\e"
+MC0190057,\h(《Fina》)Thank you… I'm so glad that you're helping me.\e
+MC0190058,"\h(《Aika》)Now, the only problem left is Cap'n Dyne… 
+I wonder if he'll let us go.\e"
+MC0190059,"\h(《Vyse》)What are you worried about? Even if he does say 
+no, we'll just go anyway!\e"
+MC0190060,"\h(《Vyse》)Alright!
+Once we're finished getting everything ready, 
+we'll leave from the underground port!\e"
+MC0190061,"\h(《Fina》)Its name is Cupil. Come, Cupil… say hello to 
+everyone.\e"
+MC0190062,\h(　)Fina has joined your party!\e
+MC0190063,\h(　)You received the “Silver Moon Stone” from Fina.\e
+"",me002e.sct
+"",me002d.sct
+"",me002e.sct
+"",me002d.sct
+"",M0234
+"",m5020000
+"",k8000000
+"",k8020000
+"",a002cc19.mld
+"",a002cc19.mld
+"",a002cc19_efe.mld
+"",a002cc19_efe.mld
+"",e6c019
+"",M0316
+"",M0328
+"",M0308
+"",M0308
+"",a002cc19.mld
+"",a002cc19_efe.mld

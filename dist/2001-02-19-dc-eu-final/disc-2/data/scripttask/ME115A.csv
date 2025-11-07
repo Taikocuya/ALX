@@ -1,0 +1,282 @@
+[Event Name],Task ID
+MF0400000,"\h(«Vyse»)This door is huge!
+I don't know how the two of us can open it.\e"
+MF0400001,"\h(«Gilder»)There's probably some sort of trick to opening 
+it.\e"
+MF0400002,"\h(«Gilder»)What?!
+What was that!?\e"
+MF0400003,\h(«Fina»)Aaaahhhh!\e
+MF0400004,\h(«Aika»)What was that!?\e
+MF0400005,"\h(«Fina»)Whatever it was, it just opened the door.\e"
+MF0400006,\h(«Aika»)I don't know if that's good or bad.\e
+MF0400007,\h(«Vyse»)I didn't touch anything… Did you?\e
+MF0400008,"\h(«Gilder»)Hmm…
+The map said something like…
+“When the two pieces come together…”\e"
+MF0400009,"\h(«Gilder»)I wonder if anyone else is here?
+Heh… nevermind… what are the chances of that?\e"
+MF0400010,\h(«Fina»)Aika… what do you think we should do?\e
+MF0400011,"\h(«Aika»)I'm not sure how, but the door opened, and 
+there's treasure inside. We should go!\e"
+MSF0400000,"\h(«Vyse»)¡Esta puerta es enorme!
+No sé si vamos a poder abrirla entre los dos.\e"
+MSF0400001,\h(«Gilder»)Seguro que hay algún truco para abrirla.\e
+MSF0400002,"\h(«Gilder»)¡¿Qué?!
+¿¡Qué ha sido eso!?\e"
+MSF0400003,\h(«Fina»)¡Aaaahhhh!\e
+MSF0400004,\h(«Aika»)¿¡Qué ha sido eso!?\e
+MSF0400005,"\h(«Fina»)Sea lo que sea, acaba de abrir la puerta.\e"
+MSF0400006,\h(«Aika»)No sé si eso es bueno o malo.\e
+MSF0400007,\h(«Vyse»)Yo no he tocado nada…… ¿Y tú?\e
+MSF0400008,"\h(«Gilder»)Mmm……
+El mapa decía algo así como……
+“Cuando las dos partes se hagan una……”\e"
+MSF0400009,"\h(«Gilder»)¿Hay alguien ahí?
+Eh…… Da igual…… ¿Qué probabilidades hay?\e"
+MSF0400010,\h(«Fina»)Aika…… ¿qué crees que debemos hacer?\e
+MSF0400011,"\h(«Aika»)No estoy segura, pero se abrió la puerta
+y el tesoro está dentro. ¡Tenemos que ir!\e"
+MFF0400000,"\h(«Vyse»)Cette porte est énorme !
+Nous ne pourrons pas l'ouvrir à nous deux.\e"
+MFF0400001,\h(«Gilder»)Il doit y avoir une astuce pour l'ouvrir.\e
+MFF0400002,"\h(«Gilder»)Quoi ?!
+Qu'est-ce que c'était !?\e"
+MFF0400003,\h(«Fina»)Aaaahhhh !\e
+MFF0400004,\h(«Aika»)Qu'est ce que c'était !?\e
+MFF0400005,\h(«Fina»)Je ne sais pas mais ça a ouvert la porte.\e
+MFF0400006,\h(«Aika»)Je ne sais pas si c'est une bonne chose.\e
+MFF0400007,\h(«Vyse»)Je n'ai rien touché…… Et vous ?\e
+MFF0400008,"\h(«Gilder»)Humm……
+Sur la carte, il y avait écrit……
+“Quand les deux morceaux seront réunis……”\e"
+MFF0400009,"\h(«Gilder»)Je me demande s'il y a quelqu'un d'autre ?
+Hé…… c'est pas grave…… il y a une chance sur
+combien ?\e"
+MFF0400010,"\h(«Fina»)Aika…… À votre avis, que devrions-nous faire ?\e"
+MFF0400011,"\h(«Aika»)Je ne sais pas comment la porte s'est ouverte,
+mais il y a un trésor à l'intérieur.
+Nous devrions y aller !\e"
+MGF0400000,"\h(«Vyse»)Diese Tür ist riesig!
+Ich weiß nicht, wie wir sie zu zweit öffnen
+sollen.\e"
+MGF0400001,\h(«Gilder»)Da ist wahrscheinlich irgendein Trick dabei.\e
+MGF0400002,"\h(«Gilder»)Was?!
+Was war das!?\e"
+MGF0400003,\h(«Fina»)Aaaahhhh!\e
+MGF0400004,\h(«Aika»)Was war das!?\e
+MGF0400005,"\h(«Fina»)Was es auch war, es hat gerade die Tür geöffnet.\e"
+MGF0400006,"\h(«Aika»)Ich weiß nicht, ist das jetzt gut oder schlecht.\e"
+MGF0400007,\h(«Vyse»)Ich habe nichts angefasst…… Du?\e
+MGF0400008,"\h(«Gilder»)Hmm……
+Auf der Karte stand so etwas wie……
+“Wenn die beiden Hälften zusammenkommen……”\e"
+MGF0400009,"\h(«Gilder»)Ich frage mich, ob hier wohl noch jemand ist?
+Ach…… vergiss es…… das kann ja gar nicht sein.\e"
+MGF0400010,"\h(«Fina»)Aika…… was meinst du, was wir tun sollen?\e"
+MGF0400011,"\h(«Aika»)Ich weiß nicht wie, aber die Tür hat sich
+geöffnet, und da drinnen liegt ein Schatz.
+Wir sollten reingehen!\e"
+M01150000,"\h(«Aika»)Hey! Why won't this door open?! It won't even
+budge!!\e"
+M01150001,"\h(«Fina»)There's something written here… It's an old
+language, but I think I can read it…\e"
+M01150002,"\h(«Fina»)“When the two become one, the path will
+reveal itself to you…”\e"
+M01150003,"\h(«Aika»)What's that supposed to mean?! Why is Daccat
+being so stingy?! It's not like any of his gold
+means anything to him anymore!!!\c"
+M01150004,"\h(«Aika»)Oh, great! More doors that won't open!
+I really don't get what Daccat was thinking when
+he built this place…\c"
+M01150005,"\h(«Vyse»)Another door…
+Damn… This one won't budge either.\c"
+M01150006,\h(«Vyse»)A lever? I wonder what it's for…\c
+M01150007,"\h(«Aika»)Doors that open by themselves… Levers that we
+have no idea what they do… I really, really
+don't get this place.\c"
+M01150008,"\h(«Aika»)Another door?  Just great… But wait, what's
+this stone tablet on the ground for?\c"
+M01150009,"\h(«Vyse»)Hmm… There's probably some trick to opening
+this door, too.\c"
+M01150010,"\h(«Aika»)Another door with a stone tablet on the ground.
+Well, it worked when we stepped on the tablet
+last time…\c"
+M01150011,"\h(«Vyse»)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01150012,"\h(«Aika»)Another door with a stone tablet on the ground.
+Well, it worked when we stepped on the tablet
+last time…\c"
+M01150013,"\h(«Vyse»)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01150014,"\h(«Aika»)Another door with a stone tablet on the ground.
+Well, it worked when we stepped on the tablet
+last time…\c"
+M01150015,"\h(«Vyse»)It looks like I have to step on this tablet
+to open the door. I think I just have to stand
+here for a certain length of time or something…\c"
+M01150016,"\h(«Vyse»)It seems like the legendary Air Pirate
+Daccat had a pretty good sense of humor.\c"
+M01150017,"\h(«What do you want to do?»)“Return to your ship.”
+“Stay here for a little while longer.”\c"
+M01150018,"\h(«What do you want to do?»)“Return to your ship.”
+“Stay here for a little while longer.”\c"
+M01150019,"\h(«What do you want to do?»)“Return to the Delphinus.”
+“Stay here for a little while longer.”\c"
+MS01150000,"\h(«Aika»)¡Pero bueno! ¡¿Por qué esta puerta no quiere
+abrirse?! ¡¡Ni siquiera la puedo mover!!\e"
+MS01150001,"\h(«Fina»)Aquí hay algo escrito…… En un lenguaje antiguo,
+pero creo que puedo leerlo……\e"
+MS01150002,"\h(«Fina»)“Cuando los dos sean uno, el sendero se te
+revelará por sí solo……”\e"
+MS01150003,"\h(«Aika»)¡¿Y eso qué rayos significa?! ¡Pues sí que es
+mísero ese Daccat! ¡¡¡A estas alturas no creo
+que el oro le vaya a servir de mucho!!!\c"
+MS01150004,"\h(«Aika»)¡Ah, genial! ¡Más puertas que no se abren!
+De verdad que no sé en qué estaba pensando
+Daccat cuando construyó este sitio……\c"
+MS01150005,"\h(«Vyse»)Otra puerta……
+Maldición…… Ésta tampoco se abre.\c"
+MS01150006,\h(«Vyse»)¿Una palanca? Me pregunto para qué sirve……\c
+MS01150007,"\h(«Aika»)Puertas que se abren solas…… Palancas que no se
+sabe para qué sirven…… De verdad que no entiendo
+nada, nada de lo que pasa aquí.\c"
+MS01150008,"\h(«Aika»)¿Otra puerta? Genial…… Pero un momento,
+¿para qué sirve esta losa del suelo?\c"
+MS01150009,"\h(«Vyse»)Mmm…… Seguro que hay algún truco para abrir la
+puerta.\c"
+MS01150010,"\h(«Aika»)Otra puerta con una losa en el suelo.
+Bueno, cuando pisé sobre la otra losa funcionó……\c"
+MS01150011,"\h(«Vyse»)Por lo visto tengo que pisar sobre las losas
+para abrir la puerta. Creo que hay que esperar
+un rato……\c"
+MS01150012,"\h(«Aika»)Otra puerta con una losa en el suelo.
+Bueno, cuando pisé sobre la otra losa funcionó……\c"
+MS01150013,"\h(«Vyse»)Por lo visto tengo que pisar sobre las losas
+para abrir la puerta. Creo que hay que esperar
+un rato……\c"
+MS01150014,"\h(«Aika»)Otra puerta con una losa en el suelo.
+Bueno, cuando pisé sobre la otra losa funcionó……\c"
+MS01150015,"\h(«Vyse»)Por lo visto tengo que pisar sobre las losas
+para abrir la puerta. Creo que hay que esperar
+un rato……\c"
+MS01150016,"\h(«Vyse»)Parece que el legendario Pirata Aéreo
+Daccat tenía un gran sentido del humor.\c"
+MS01150017,"\h(«¿Qué quieres hacer?»)“Volver al barco.”
+“Quedarme aquí un poco más.”\c"
+MS01150018,"\h(«¿Qué quieres hacer?»)“Volver al barco.”
+“Quedarme aquí un poco más.”\c"
+MS01150019,"\h(«¿Qué quieres hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un poco más.”\c"
+MF01150000,"\h(«Aika»)Hé ! Pourquoi cette porte ne s'ouvre pas ?!
+Elle ne bouge même pas !!\e"
+MF01150001,"\h(«Fina»)Il y a une inscription…… C'est un vieux langage,
+mais je crois pouvoir le lire……\e"
+MF01150002,"\h(«Fina»)“Quand les deux ne font plus qu'un, le chemin
+vous apparaîtra……”\e"
+MF01150003,"\h(«Aika»)Qu'est-ce que cela veut dire ?! Pourquoi Daccat
+est aussi avare ?! Après tout son or ne signifie
+plus rien pour lui !!!\c"
+MF01150004,"\h(«Aika»)Oh, génial ! Encore des portes qui ne s'ouvrent
+pas ! Je me demande vraiment à quoi pensait
+Daccat en construisant cet endroit……\c"
+MF01150005,"\h(«Vyse»)Encore une porte……
+Sacrebleu…… Celle-ci ne bouge pas non plus.\c"
+MF01150006,\h(«Vyse»)Un levier ? Je me demande à quoi il sert……\c
+MF01150007,"\h(«Aika»)Des portes qui s'ouvrent toutes seules……
+Des leviers dont on ne connaît pas l'usage……
+Cet endroit est un véritable mystère.\c"
+MF01150008,"\h(«Aika»)Encore une porte ?  Génial…… Mais attendez,
+quelle est cette tablette de pierre au sol ?\c"
+MF01150009,"\h(«Vyse»)Humm…… Il doit aussi y avoir une astuce pour
+ouvrir cette porte.\c"
+MF01150010,"\h(«Aika»)Une autre porte avec une tablette de pierre au
+sol. Bon, cela a fonctionné la dernière fois que
+nous avons marché sur la tablette……\c"
+MF01150011,"\h(«Vyse»)Apparemment, il faut marcher sur cette tablette
+pour ouvrir la porte. Je crois que je dois
+rester debout ici pendant un certain temps……\c"
+MF01150012,"\h(«Aika»)Une autre porte avec une tablette de pierre au
+sol. Bon, cela a fonctionné la dernière fois que
+nous avons marché sur la tablette……\c"
+MF01150013,"\h(«Vyse»)Apparemment, il faut marcher sur cette tablette
+pour ouvrir la porte. Je crois que je dois
+rester debout ici pendant un certain temps……\c"
+MF01150014,"\h(«Aika»)Une autre porte avec une tablette de pierre au
+sol. Bon, cela a fonctionné la dernière fois que
+nous avons marché sur la tablette……\c"
+MF01150015,"\h(«Vyse»)Apparemment, il faut marcher sur cette tablette
+pour ouvrir la porte. Je crois que je dois
+rester debout ici pendant un certain temps……\c"
+MF01150016,"\h(«Vyse»)On dirait que le Pirate de l'Air Daccat avait un
+bon sens de l'humour.\c"
+MF01150017,"\h(«Que voulez-vous faire ?»)“Vous retournerez sur votre navire.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MF01150018,"\h(«Que voulez-vous faire ?»)“Vous retournerez sur votre navire.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MF01150019,"\h(«Que voulez-vous faire ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MG01150000,"\h(«Aika»)He! Warum geht diese Tür nicht auf?! Sie
+bewegt sich überhaupt nicht!!\e"
+MG01150001,"\h(«Fina»)Hier steht etwas geschrieben…… es ist in
+einer alten Sprache, aber ich glaube, ich
+kann es lesen……\e"
+MG01150002,"\h(«Fina»)“Wenn die beiden eins werden, wird sich dir
+der Weg eröffnen”.\e"
+MG01150003,"\h(«Aika»)Was soll denn das heißen?! Warum ist Daccat
+so knauserig?! Er hat doch sowieso nichts
+mehr von seinem Gold!!!\c"
+MG01150004,"\h(«Aika»)Na toll! Noch mehr Türen, die sich nicht
+öffnen! Ich verstehe wirklich nicht, was
+sich Daccat dabei gedacht hat, als er das
+hier gebaut hat……\c"
+MG01150005,"\h(«Vyse»)Noch eine Tür……
+Verdammt…… die öffnet sich auch nicht.\c"
+MG01150006,\h(«Vyse»)Ein Hebel? Wozu ist der wohl gut?\c
+MG01150007,"\h(«Aika»)Türen, die sich von selbst öffnen…… Hebel,
+von denen wir keine Ahnung haben, wozu sie
+dienen…… ich verstehe das hier wirklich nicht.\c"
+MG01150008,"\h(«Aika»)Noch eine Tür?  Wunderbar…… aber warte,
+wozu ist diese steinerne Tafel auf dem Boden?\c"
+MG01150009,"\h(«Vyse»)Hmm…… für diese Tür gibt es wahrscheinlich
+auch einen Trick, um sie zu öffnen.\c"
+MG01150010,"\h(«Aika»)Noch eine Tür mit einer steinernen Tafel am
+Boden. Also, das letzte Mal, als wir auf die
+Tafel traten, hat es ja geklappt……\c"
+MG01150011,"\h(«Vyse»)Ich muss wohl auf diese Tafel treten, damit
+sich die Tür öffnet. Ich glaube, ich muss
+nur eine bestimmte Zeit hier stehen bleiben……\c"
+MG01150012,"\h(«Aika»)Noch eine Tür mit einer steinernen Tafel am
+Boden. Also, das letzte Mal, als wir auf die
+Tafel traten, hat es ja geklappt……\c"
+MG01150013,"\h(«Vyse»)Ich muss wohl auf diese Tafel treten, damit
+sich die Tür öffnet. Ich glaube, ich muss
+nur eine bestimmte Zeit hier stehen bleiben……\c"
+MG01150014,"\h(«Aika»)Noch eine Tür mit einer steinernen Tafel am
+Boden. Also, das letzte Mal, als wir auf die
+Tafel traten, hat es ja geklappt……\c"
+MG01150015,"\h(«Vyse»)Ich muss wohl auf diese Tafel treten, damit
+sich die Tür öffnet. Ich glaube, ich muss
+nur eine bestimmte Zeit hier stehen bleiben……\c"
+MG01150016,"\h(«Vyse»)Sieht so aus, als hätte der legendäre Luftpirat
+Daccat einen ziemlich guten Sinn für Humor.\c"
+MG01150017,"\h(«Was willst du tun?»)“Zu deinem Schiff zurückkehren.”
+“Noch eine Weile hier bleiben.”\c"
+MG01150018,"\h(«Was willst du tun?»)“Zu deinem Schiff zurückkehren.”
+“Noch eine Weile hier bleiben.”\c"
+MG01150019,"\h(«Was willst du tun?»)“Zur Delphinus zurückkehren.”
+“Noch eine Weile hier bleiben.”\c"
+"",me115b.sct
+"",me115b.sct
+"",me115b.sct
+"",me115b.sct
+"",me013a.sct
+"",me115b.sct
+"",m5150000
+"",k8140000
+"",イベントＦ４０が発生しました。\c
+"",a115af40.mld
+"",a115af40.mld
+"",e6f040
+"",a115af40.mld

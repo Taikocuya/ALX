@@ -1,0 +1,580 @@
+[Event Name],Task ID
+M07000000,"\h(«Degenerate Ex-Valuan Soldier»)This city was built by Valua during a time when
+Valua was trying to extend its hand of influence
+into the rumored countries of the Far East.\e"
+M07000001,"\h(«Degenerate Ex-Valuan Soldier»)Everyone used to be full of hope here, but once
+people realized that it was impossible to get
+through the Dark Rift, that hope disappeared.\e"
+M07000002,"\h(«Degenerate Ex-Valuan Soldier»)Then, one day, Valua decided to leave this city
+to rot. The sailors here lost their ships, their
+crews… and their dreams.\e"
+M07000003,"\h(«Degenerate Ex-Valuan Soldier»)I noticed a bunch of ships gathering outside the
+port. Don't tell me that they're planning on
+trying to get to the east again…\e"
+M07000004,"\h(«Degenerate Ex-Valuan Soldier»)If not, then why would Valua come back to the
+town that they so easily threw away so many
+years ago?\e"
+M07000005,"\h(«Degenerate Ex-Valuan Soldier»)I hope they don't plan on using this city as 
+target practice, since they have no more use
+for it…\e"
+M07000006,"\h(«Degenerate Ex-Valuan Soldier»)Isn't that Admiral Ironwall's ship? What's
+Gregorio doing here? Well, there goes the
+neighborhood…\c"
+M07000007,"\h(«Degenerate Ex-Valuan Soldier»)I can't believe you defeated that old Admiral
+Ironwall with just one ship. You guys are really
+something.\e"
+M07000008,"\h(«Degenerate Ex-Valuan Soldier»)I don't think I've ever seen a more impressive 
+battle in my life. You sure had us all worried…\e"
+M07000009,"\h(«Degenerate Ex-Valuan Soldier»)Oh, hey… it's you guys again.
+Wait a minute… does that mean… that… you
+sailed around the world?\e"
+M07000010,"\h(«Degenerate Ex-Valuan Soldier»)Heh… when I look at you guys, I remember my 
+youth and all of my old hopes and dreams come 
+back to life.\e"
+M07010000,"\h(«Sailor from the Little Shack»)Huh? What did you say?
+You're trying to go to the east?\e"
+M07010001,"\h(«Sailor from the Little Shack»)Not even the Valuans could get past that 
+maelstrom. Don't talk crazy like that…\c"
+M07010002,"\h(«Sailor from the Little Shack»)Huh? What did you say?
+The Armada has come here?\e"
+M07010003,"\h(«Sailor from the Little Shack»)Valua gave up on this town a long time ago. Why 
+would they bother coming back?
+Don't talk crazy like that…\e"
+M07010004,"\h(«Sailor from the Little Shack»)That really was some fight.
+It shook me right out of my bed!\e"
+M07010005,"\h(«Sailor from the Little Shack»)I was so worked up during the fight that now,
+I'm tired. I think I'll just go back to
+sleep…\c"
+M07010006,"\h(«Sailor from the Little Shack»)Huh? What did you say? You say you sailed
+around the world?\e"
+M07010007,"\h(«Sailor from the Little Shack»)What are you trying to say? That the edges of 
+the world are actually connected?
+Don't talk crazy like that…\e"
+M07160000,\h(«Stray Huskra»)Pow… pooooow…\c
+M07160001,\h(«Stray Huskra»)Pow! Pow! Pow!\c
+M07160002,\h(«Stray Huskra»)Pow! Grr… Pow!\c
+M05000000,"\h(«Enrique»)I… I don't think I'll be able to move for a 
+while… Why… why don't you guys go ahead and 
+check out the town?\e"
+M05000001,"\h(«Enrique»)Ah, Vyse… you're back.
+I think you need to see this…\e"
+M03000000,\h(«Fina»)I'll stay here and make sure Enrique is okay.\e
+MF07000000,"\h(«Ex-Soldat Valuan Dégénéré»)Cette ville a été construite par Valua à
+l'époque où ils essayaient d'étendre leur
+mainmise aux pays de l'Extrême Est dont tout le
+monde parlait.\e"
+MF07000001,"\h(«Ex-Soldat Valuan Dégénéré»)Tout le monde avait espoir, mais quand
+les gens ont réalisé qu'il était impossible de
+traverser le Récif Noir, cet espoir s'est
+envolé.\e"
+MF07000002,"\h(«Ex-Soldat Valuan Dégénéré»)Et puis, un jour, Valua a décidé de laisser
+cette ville à l'abandon. Les marins ont perdu
+leurs navires, leurs équipages…… et leurs
+rêves.\e"
+MF07000003,"\h(«Ex-Soldat Valuan Dégénéré»)J'ai remarqué un petit groupe de navires non
+loin du port. Ne me dites pas qu'ils ont encore
+l'intention d'essayer de passer à l'Est……\e"
+MF07000004,"\h(«Ex-Soldat Valuan Dégénéré»)Sinon, pourquoi est-ce que Valua reviendrait
+dans la ville qu'ils ont abandonnée il y a tant
+d'années ?\e"
+MF07000005,"\h(«Ex-Soldat Valuan Dégénéré»)J'espère qu'ils ne projètent pas d'utiliser
+cette ville comme cible pour s'entraîner, vu
+qu'ils n'en ont plus besoin……\e"
+MF07000006,"\h(«Ex-Soldat Valuan Dégénéré»)C'est bien le navire de l'Amiral Muraille de
+Fer ? Que fait Gregorio ici ? Voilà que la
+clique rapplique……\c"
+MF07000007,"\h(«Ex-Soldat Valuan Dégénéré»)Je n'arrive pas à croire que vous ayez vaincu
+l'Amiral Muraille de Fer. Vous êtes de sacrés
+pirates.\e"
+MF07000008,"\h(«Ex-Soldat Valuan Dégénéré»)Je n'ai jamais vu de bataille aussi
+impressionnante de ma vie.
+On s'est fait du souci……\e"
+MF07000009,"\h(«Ex-Soldat Valuan Dégénéré»)Oh…… c'est encore vous. Attendez une minute……
+est-ce que cela…… veut…… dire que vous avez fait
+le tour du monde en navire ?\e"
+MF07000010,"\h(«Ex-Soldat Valuan Dégénéré»)Quand je vous regarde, cela me rappelle ma
+jeunesse et tous mes vieux espoirs et rêves me
+reviennent en mémoire.\e"
+MF07010000,"\h(«Marin de la Petite Hutte»)Hein ? Qu'avez-vous dit ?
+Vous essayez de passer à l'Est ?\e"
+MF07010001,"\h(«Marin de la Petite Hutte»)Même les Valuans ont été arrêtés par le
+tourbillon. Arrêtez de dire des bêtises……\c"
+MF07010002,"\h(«Marin de la Petite Hutte»)Hein ? Qu'est-ce que vous avez dit ?
+L'Armada est arrivée ?\e"
+MF07010003,"\h(«Marin de la Petite Hutte»)Valua a laissé tomber cette ville il y a des
+années de cela. Pourquoi reviendraient-ils ?
+Arrêtez de dire des bêtises……\e"
+MF07010004,"\h(«Marin de la Petite Hutte»)C'était un sacré combat.
+J'en suis tombé du lit !\e"
+MF07010005,"\h(«Marin de la Petite Hutte»)Je me suis tellement déchaîné pendant la
+bataille, que cela m'a fatigué. Je pense que je
+vais retourner au lit……\c"
+MF07010006,"\h(«Marin de la Petite Hutte»)Hein ? Qu'avez-vous dit ? Vous dites que vous
+avez fait le tour du monde en navire ?\e"
+MF07010007,"\h(«Marin de la Petite Hutte»)Qu'est-ce que vous essayez de me dire ?
+Que les deux bouts du monde se rejoignent ?
+Arrêtez de dire des bêtises……\e"
+MF07160000,\h(«Huskra Errant»)Pow…… pooooow……\c
+MF07160001,\h(«Huskra Errant»)Pow ! Pow ! Pow !\c
+MF07160002,\h(«Huskra Errant»)Pow ! Grr…… Pow !\c
+MF05000000,"\h(«Enrique»)Je…… je crois que je serai incapable de bouger
+pendant un moment…… pourquoi…… pourquoi n'allez-
+vous pas visiter la ville en premier ?\e"
+MF05000001,"\h(«Enrique»)Ah, Vyse…… vous êtes de retour.
+Je crois que vous devriez venir voir cela……\e"
+MF03000000,\h(«Fina»)Je vais rester ici pour m'occuper d'Enrique.\e
+MG07000000,"\h(«Heruntergekommener, ehemaliger Valua-Soldat»)Diese Stadt wurde von Valua gebaut, als sie
+versuchten, ihren Einflussbereich auf die Länder
+des Fernen Ostens auszuweiten.\e"
+MG07000001,"\h(«Heruntergekommener, ehemaliger Valua-Soldat»)Alle hier waren einmal voller Hoffnung, aber
+als den Leuten klar wurde, dass es unmöglich
+ist, durch die Dark Rift zu kommen, verschwand
+auch die Hoffnung.\e"
+MG07000002,"\h(«Heruntergekommener, ehemaliger Valua-Soldat»)Dann hat sich Valua eines Tages entschlossen,
+diese Stadt ihrem Schicksal zu überlassen. Die
+Matrosen hier haben ihre Schiffe, ihre
+Mannschaften…… und ihre Träume verloren.\e"
+MG07000003,"\h(«Heruntergekommener, ehemaliger Valua-Soldat»)Ich habe bemerkt, wie sich eine Menge Schiffe
+vor dem Hafen sammelt. Erzähl mir bloß nicht,
+dass sie vorhaben, wieder gen Osten zu fahren……\e"
+MG07000004,"\h(«Heruntergekommener, ehemaliger Valua-Soldat»)Wenn nicht, warum würden Valuaner dann in eine
+Stadt zurückkehren, die sie vor so vielen
+Jahren aufgegeben haben?\e"
+MG07000005,"\h(«Heruntergekommener, ehemaliger Valua-Soldat»)Ich hoffe, sie haben nicht vor, diese Stadt
+als Zielscheibe zu missbrauchen, zumal sie sonst
+keine Verwendung mehr für sie haben……\e"
+MG07000006,"\h(«Heruntergekommener, ehemaliger Valua-Soldat»)Ist das nicht Admiral Ironwalls Schiff?
+Was macht Gregorio hier? Tja, das ist wohl
+das Ende……\c"
+MG07000007,"\h(«Heruntergekommener, ehemaliger Valua-Soldat»)Ich kann's nicht glauben, dass ihr diesen alten
+Admiral Ironwall mit nur einem Schiff besiegt
+habt. Ihr habt wirklich was auf dem Kasten.\e"
+MG07000008,"\h(«Heruntergekommener, ehemaliger Valua-Soldat»)Ich glaube nicht, jemals im Leben eine
+eindrucksvollere Schlacht gesehen zu haben.
+Wir haben uns alle Sorgen gemacht……\e"
+MG07000009,"\h(«Heruntergekommener, ehemaliger Valua-Soldat»)Oh, he…… da seid ihr ja wieder.
+Moment mal…… hat das zu bedeuten…… dass……
+ihr um die Welt gesegelt seid?\e"
+MG07000010,"\h(«Heruntergekommener, ehemaliger Valua-Soldat»)He…… wenn ich euch so betrachte, erinnere ich
+mich an meine Jugend, und all meine Hoffnungen
+und Träume leben wieder auf.\e"
+MG07010000,"\h(«Matrose von der Little Shack»)Wie? Was hast du gesagt?
+Ihr versucht, nach Osten zu fahren?\e"
+MG07010001,"\h(«Matrose von der Little Shack»)Noch nicht einmal die Valuaner kommen an diesem
+Strudel vorbei. Rede doch nicht solchen
+Unsinn……\c"
+MG07010002,"\h(«Matrose von der Little Shack»)Wie? Was hast du gesagt?
+Die Armada ist gekommen?\e"
+MG07010003,"\h(«Matrose von der Little Shack»)Valua hat diese Stadt schon vor langer Zeit
+aufgegeben. Warum sollten sie zurückkommen?
+Rede doch nicht solchen Unsinn……\e"
+MG07010004,"\h(«Matrose von der Little Shack»)Das war vielleicht eine Schlacht!
+Die hat mich aus dem Bett geholt!\e"
+MG07010005,"\h(«Matrose von der Little Shack»)Während der Schlacht war ich so aufgeregt,
+und jetzt bin ich müde. Ich glaube, ich
+lege mich wieder schlafen……\c"
+MG07010006,"\h(«Matrose von der Little Shack»)Wie? Was hast du gesagt? Ihr sagt, ihr seid
+um die Welt gesegelt?\e"
+MG07010007,"\h(«Matrose von der Little Shack»)Was wollt ihr damit sagen? Das die Enden der
+Welt miteinander verbunden sind?
+Red doch nicht solchen Unsinn……\e"
+MG07160000,\h(«Streunender Huskra»)Wau…… waaauuu……\c
+MG07160001,\h(«Streunender Huskra»)Wau! Wau! Wau!\c
+MG07160002,\h(«Streunender Huskra»)Wau! Grr…… Wuff!\c
+MG05000000,"\h(«Enrique»)Ich…… ich glaube, ich komme hier erstmal nicht
+weg…… Warum…… warum geht ihr
+nicht vor und schaut euch die Stadt an?\e"
+MG05000001,"\h(«Enrique»)Ach, Vyse…… du bist wieder da.
+Ich glaube, du solltest dir das mal ansehen……\e"
+MG03000000,\h(«Fina»)Ich bleibe hier und schau nach Enrique.\e
+MS07000000,"\h(«Ex-Soldado Valuan Tarado»)Esta ciudad fue construida por Valua en un
+intento de ampliar su zona de influencia a los
+países tan rumoreados del Lejano Oriente.\e"
+MS07000001,"\h(«Ex-Soldado Valuan Tarado»)La gente estaba llena de esperanza, pero cuando
+se vio que era imposible atravesar la Gruta
+Oscura, la esperanza desapareció.\e"
+MS07000002,"\h(«Ex-Soldado Valuan Tarado»)Y un día, Valua decidió abandonar esta ciudad a
+su suerte. Los marinos perdieron sus barcos, su
+tripulación…… y sus sueños.\e"
+MS07000003,"\h(«Ex-Soldado Valuan Tarado»)He visto unos cuantos barcos reunidos fuera del
+puerto. ¿No me digas que están planeando ir al
+Este de nuevo……?\e"
+MS07000004,"\h(«Ex-Soldado Valuan Tarado»)Si no, ¿por qué Valua regresa a una ciudad que
+se apresuró a abandonar hace muchos años?\e"
+MS07000005,"\h(«Ex-Soldado Valuan Tarado»)Espero que no planeen usar esta ciudad como
+práctica de tiro al blanco, ya que no le
+encuentran otra utilidad……\e"
+MS07000006,"\h(«Ex-Soldado Valuan Tarado»)¿No es ése el navío del Almirante Murodeacero?
+¿Y qué hace Gregorio ahí? En fin, Dios los cría
+y ellos se juntan……\c"
+MS07000007,"\h(«Ex-Soldado Valuan Tarado»)No puedo creer que hayas derrotado al viejo
+Almirante Murodeacero con un solo navío.
+Desde luego, chicos, sois los mejores.\e"
+MS07000008,"\h(«Ex-Soldado Valuan Tarado»)Creo que nunca en mi vida había visto una
+batalla semejante. Nos teníais muy preocupados……\e"
+MS07000009,"\h(«Ex-Soldado Valuan Tarado»)Anda, hola…… Vosotros otra vez.
+Un momento…… ¿significa eso que…… habéis
+navegado alrededor del mundo?\e"
+MS07000010,"\h(«Ex-Soldado Valuan Tarado»)Cuando os veo, me acuerdo de cuando era joven y
+aún creía en mis sueños.\e"
+MS07010000,"\h(«Marino del Little Shack»)¿Cómo? ¿Qué dices?
+¿Pretendéis llegar al Este?\e"
+MS07010001,"\h(«Marino del Little Shack»)Ni siquiera los Valuan pudieron atravesar ese
+remolino. No digáis tonterías……\c"
+MS07010002,"\h(«Marino del Little Shack»)¿Cómo? ¿Qué dices?
+¿Estáis intentando llegar al Este?\e"
+MS07010003,"\h(«Marino del Little Shack»)Hace mucho tiempo que Valua abandonó esta ciudad
+a su suerte. ¿Por qué van a molestarse en
+volver? No digas tonterías……\e"
+MS07010004,"\h(«Marino del Little Shack»)Eso sí que fue una lucha.
+¡El ruido me hizo saltar de la cama!\e"
+MS07010005,"\h(«Marino del Little Shack»)Me emocioné tanto con la batalla que ahora estoy
+cansado. Creo que voy a volver a la cama……\c"
+MS07010006,"\h(«Marino del Little Shack»)¿Eh? ¿Qué dices?
+¿Dices que has navegado alrededor del mundo?\e"
+MS07010007,"\h(«Marino del Little Shack»)¿Qué quieres decir?
+¿Que los límites del mundo están unidos?
+No digas idioteces……\e"
+MS07160000,\h(«Huskra Callejero»)Pow…… pooooow……\c
+MS07160001,\h(«Huskra Callejero»)¡Pow! ¡Pow! ¡Pow!\c
+MS07160002,\h(«Huskra Callejero»)¡Pow! Grr…… ¡Pow!\c
+MS05000000,"\h(«Enrique»)No…… no creo que pueda moverme en un rato……
+¿Por qué…… por qué no vais vosotros primero e
+inspeccionáis la ciudad?\e"
+MS05000001,"\h(«Enrique»)Ah, Vyse…… has vuelto.
+Creo que tienes que ver esto……\e"
+MS03000000,"\h(«Fina»)Yo me quedo aquí para asegurarme de que Enrique
+está bien.\e"
+Ms018a000,"\h(«Vyse»)A shipwreck? Or was it just abandoned?
+It looks like it's been sitting here for a very
+long time…\c"
+Ms018a001,"\h(«Vyse»)That's a pretty old box.
+There's some drinks and canned food inside,
+but I don't know if they're still any good.\c"
+Ms018a002,"\h(«Vyse»)There's a lot of drinks and food.
+It looks like we can look forward to
+a good meal.\c"
+Ms018a003,"\h(«Vyse»)It's a gas tank. There's a date stamp, but it's
+been partially rubbed off. Looks like it's
+empty, though. Well, it's all rusted up, too.\c"
+Ms018a004,"\h(«Vyse»)It's a gas tank. There's a date stamp, but it's
+been partially rubbed off. Looks like it's
+empty, though. Well, it's all rusted up, too.\c"
+Ms018a005,"\h(«Vyse»)Hey, this bed looks comfortable.
+It's old, but fluffy. It seems like
+it's hung out in the sun every day.\c"
+Ms018a006,"\h(«Vyse»)There's a lot of old, yellowed books.
+They're all about navigation, and
+the Dark Rift.\c"
+Ms018a007,"\h(«Vyse»)Ugh, the bed's covered with dust.
+I guess it doesn't get used much.
+I wish they'd at least clean it, though.\c"
+Ms018a008,"\h(«Vyse»)A nice, fluffy mattress,
+and clean, white sheets.
+They're a little old, but nice.\c"
+Ms018a009,"\h(«Vyse»)There's a lot of dust here.
+Not only do they not get many guests,
+it doesn't even seem like they want any.\c"
+Ms018a010,"\h(«Vyse»)There's a brand new comb
+and shaving set in the drawer.\c"
+Ms018a011,"\h(«Vyse»)There's a half-finished letter
+in the drawer.\e"
+Ms018a012,"\h(«Vyse»)“I was able to trace my brother
+as far as Esparanza.”\e"
+Ms018a013,"\h(«Vyse»)“Perhaps everyone was right, and my brother
+headed into the Dark Rift…”
+… The letter ends here.\c"
+Ms018a014,"\h(«Vyse»)I suppose this is a picture from back when this
+town was still… lively. It's hard to imagine
+that a time like that existed here…\c"
+Ms018a015,"\h(«Vyse»)It's picture of when the town was more lively.
+I guess the town is going to start looking more
+like this again.\c"
+Ms018a016,"\h(«Vyse»)… It's completely rusted.
+This would probably explode if
+you tried to fire it.\c"
+Ms018a017,"\h(«Vyse»)Hey, a treasure chest… Damn, I guess not.
+It's just being used as a toolbox.\c"
+Ms018a018,"\h(«Vyse»)What's this?
+It's full of loqua and snacks.
+Looks like someone isn't eating right.\c"
+Ms018a019,"\h(«Vyse»)A campfire indoors?
+This is an… interesting
+way to cook food.\c"
+Ms018a020,"\h(«Vyse»)It's a tattered Valuan flag… That's almost…
+ironic. Especially considering that this place
+started falling apart after Valua pulled out.\c"
+Ms018a021,"\h(«Vyse»)Hmm… A gas tank, huh? Those really aren't that
+common anymore. Maybe they don't use Moon Stones
+as fuel around here…\c"
+Ms018a022,"\h(«Vyse»)There's an old newspaper at the bottom
+of the box. “The Birth of Prince Enrique!”
+…Whoa. That's an old newspaper.\c"
+Ms018a023,"\h(«Vyse»)There's some old bottles and flasks. It doesn't
+look like they've been used in a long time.\c"
+Ms018a024,"\h(«Vyse»)There's some old bottles and flasks. It doesn't
+look like they've been used in a long time.\c"
+Ms018a025,"\h(«Vyse»)Maybe there's some old invoices and
+papers… and a few dead insects in
+between the sheets.\c"
+Ms018a026,"\h(«Vyse»)There's some recent receipts in the pile of
+papers. It looks like trade has started to pick
+up around here again.\c"
+Ms018a027,"\h(«Vyse»)I should probably try to collect information
+about the Dark Rift while I'm here.
+We'll leave after that.\c"
+Ms018a028,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MFs018a001,"\h(«Vyse»)Voici une caisse plutôt vieille.
+Elle contient quelques boissons et des boîtes de
+conserve mais je ne sais pas si elles sont
+périmées.\c"
+MFs018a002,"\h(«Vyse»)Il y a beaucoup de boissons et de nourriture.
+On dirait que l'on va bien manger.\c"
+MFs018a003,"\h(«Vyse»)C'est un réservoir d'essence. Il y a un cachet
+mais il a été en partie effacé. De tout façon,
+il semble vide. Bon, il est également tout
+rouillé.\c"
+MFs018a004,"\h(«Vyse»)C'est un réservoir d'essence. Il y a un cachet
+mais il a été en partie effacé. De tout façon,
+il semble vide. Bon, il est également tout
+rouillé.\c"
+MFs018a005,"\h(«Vyse»)Hé, ce lit semble confortable.
+Il est vieux, mais bien moelleux. On dirait
+qu'ils l'aèrent tous les jours.\c"
+MFs018a006,"\h(«Vyse»)Il y a beaucoup de vieux livres jaunis.
+Ils traitent tous de navigation et du Récif
+Noir.\c"
+MFs018a007,"\h(«Vyse»)Pouah, le lit est couvert de poussière.
+Il ne doit pas être utilisé souvent.
+Cependant, j'aurais bien aimé qu'ils le
+nettoient au moins.\c"
+MFs018a008,"\h(«Vyse»)Un bon matelas moelleux avec des draps
+blancs et propres.
+Ils sont un peu vieux mais agréables.\c"
+MFs018a009,"\h(«Vyse»)Il y a beaucoup de poussière ici.
+Ils ne reçoivent pas beaucoup d'invités et il
+semblerait même qu'ils n'en veulent pas du
+tout.\c"
+MFs018a010,"\h(«Vyse»)Il y a un peigne et un trousse de rasage tout
+neuf dans le tiroir.\c"
+MFs018a011,"\h(«Vyse»)Il y a une lettre à moitié finie dans le
+tiroir.\e"
+MFs018a012,"\h(«Vyse»)“J'ai pu suivre la trace de mon frère jusqu'à
+Esperanza.”\e"
+MFs018a013,"\h(«Vyse»)“Peut-être que tout le monde avait raison, et
+que mon frère est parti pour le Récif Noir……”
+…… La lettre se termine là……\c"
+MFs018a014,"\h(«Vyse»)Je suppose que ceci est une photo du temps où
+cette ville était encore…… animée. Il est
+difficile d'imaginer une chose pareille……\c"
+MFs018a015,"\h(«Vyse»)C'est une photo du temps où la ville était plus
+animée. Je suppose que la ville va bientôt
+retrouver son animation d'autrefois.\c"
+MFs018a016,"\h(«Vyse»)……Il est complètement rouillé.
+Il exploserait sûrement si on essayait de s'en
+servir.\c"
+MFs018a017,"\h(«Vyse»)Hé, un coffre…… Mince, peut-être pas.
+C'est juste une boîte à outils.\c"
+MFs018a018,"\h(«Vyse»)Qu'est-ce que c'est ?
+C'est plein de loqua et de petites choses à
+grignoter. On dirait que quelqu'un ne se nourrit
+pas correctement.\c"
+MFs018a019,"\h(«Vyse»)Un feu de camp à l'intérieur ?
+Voilà une façon de cuisiner…… intéressante.\c"
+MFs018a020,"\h(«Vyse»)Voici un drapeau Valuan en lambeaux…… C'est
+presque…… ironique. Surtout quand on pense que
+cet endroit est tombé en ruines quand la flotte
+de Valua s'est retirée.\c"
+MFs018a021,"\h(«Vyse»)Hmm…… Un réservoir d'essence, hein ? Ce n'est
+plus très courant. Ils n'utilisent peut-être pas
+les Pierres de Lune comme carburant par ici……\c"
+MFs018a022,"\h(«Vyse»)Il y a un vieux journal au fond de la caisse.
+“La naissance du Prince Enrique !”
+……Oaoouh, c'est un vieux journal.\c"
+MFs018a023,"\h(«Vyse»)Il y a quelques vieilles bouteilles et des
+flasques. On dirait qu'elles n'ont pas été
+utilisées depuis longtemps.\c"
+MFs018a024,"\h(«Vyse»)Il y a quelques vieilles bouteilles et des
+flasques. On dirait qu'elles n'ont pas été
+utilisées depuis longtemps.\c"
+MFs018a025,"\h(«Vyse»)Il y a peut-être des vieilles factures, des
+papiers…… et quelques insectes morts entre les
+draps.\c"
+MFs018a026,"\h(«Vyse»)Il y a quelques reçus récents dans la pile de
+papier. On dirait que le commerce reprend ici.\c"
+MFs018a027,"\h(«Vyse»)Je devrais essayer d'obtenir des renseignements
+au sujet du Récif Noir tant que je suis ici.
+Nous partirons après.\c"
+MFs018a028,"\h(«Que ferez-vous ?»)“Vous retournerez au Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MGs018a000,"\h(«Vyse»)Ein Schiffswrack? Oder ist es nur verlassen?
+Es sieht so als, als sei es hier schon
+eine sehr lange Zeit……\c"
+MGs018a001,"\h(«Vyse»)Eine ziemlich alte Kiste.
+Da sind einige Getränke und Lebensmittel-
+dosen. Weiß allerdings nicht, ob die noch
+taugen.\c"
+MGs018a002,"\h(«Vyse»)Eine Menge Getränke und Lebensmittel.
+Sieht ganz so aus, als könnten wir uns
+auf ein nettes Mahl freuen.\c"
+MGs018a003,"\h(«Vyse»)Das ist ein Benzintank. Da ist ein
+Stempel mit Datum. Er ist allerdings zum Teil
+abgerieben. Scheint leer zu sein. Nun ja,
+ist sowieso ganz verrostet.\c"
+MGs018a004,"\h(«Vyse»)Das ist ein Benzintank. Da ist ein
+Stempel mit Datum. Er ist allerdings zum Teil
+abgerieben. Scheint leer zu sein. Nun ja,
+ist sowieso ganz verrostet.\c"
+MGs018a005,"\h(«Vyse»)Hey, dieses Bett sieht bequem aus.
+Es ist alt, aber weich. Es sieht aus, als
+habe es jeden Tag in der Sonne gehangen.\c"
+MGs018a006,"\h(«Vyse»)Da sind viele alte, vergilbte Bücher.
+Alle über Navigation und die Dark Rift.\c"
+MGs018a007,"\h(«Vyse»)Uhh, das Bett ist voller Staub.
+Das wird wohl nicht gerade häufig benutzt.
+Wenn sie es wenigstens waschen würden!\c"
+MGs018a008,"\h(«Vyse»)Eine schöne, weiche Matratze
+und saubere, weiße Betttücher.
+Sie sind zwar ein bisschen alt, aber schön.\c"
+MGs018a009,"\h(«Vyse»)Hier ist eine Menge Staub.
+Nicht nur, dass sie nicht gerade viele Gäste
+haben, vielmehr scheint es, als
+wollten sie auch gar keine.\c"
+MGs018a010,"\h(«Vyse»)Da sind ein nagelneuer Kamm
+und Rasiersachen in der Schublade.\c"
+MGs018a011,"\h(«Vyse»)Da ist ein halbfertiger Brief
+in der Schublade.\e"
+MGs018a012,"\h(«Vyse»)“Ich konnte die Spur meines Bruders bis
+Esperanza verfolgen.”\e"
+MGs018a013,"\h(«Vyse»)“Vielleicht hatten alle Recht, und mein Bruder
+ist in Richtung Dark Rift aufgebrochen…… ”
+…… Der Brief endet hier.\c"
+MGs018a014,"\h(«Vyse»)Schätze, das ist ein Bild von früher,
+als in der Stadt noch was los war……
+Es ist schwer vorstellbar, dass es hier
+einmal so eine Zeit gegeben hat……\c"
+MGs018a015,"\h(«Vyse»)Ein Bild aus einer Zeit, als in
+der Stadt noch was los war. Die Stadt
+wird sicher bald wieder so aussehen.\c"
+MGs018a016,"\h(«Vyse»)…… Es ist total verrostet.
+Es würde wahrscheinlich explodieren, wenn
+du es zünden würdest.\c"
+MGs018a017,"\h(«Vyse»)Hey, eine Schatztruhe…… Verdammt,
+wohl doch nicht. Sie ist nur als
+Werkzeugkiste gebraucht worden.\c"
+MGs018a018,"\h(«Vyse»)Was ist das?
+Es ist voller Loqua und Snacks.
+Sieht so aus, als ob hier jemand
+keinen Hunger hat.\c"
+MGs018a019,"\h(«Vyse»)Ein Lagerfeuer im Haus?
+Das ist eine…… interessante
+Art, Essen zu kochen.\c"
+MGs018a020,"\h(«Vyse»)Eine zerfetzte valuanische Flagge……
+Das ist schon fast…… paradox. Besonders wenn
+man in Betracht zieht, dass der Ort zusammen-
+fiel, nachdem sich  Valua zurückgezogen hatte.\c"
+MGs018a021,"\h(«Vyse»)Hmm…… Ein Benzintank, huh?
+Die sind heutzutage wirklich nicht mehr üblich.
+Vielleicht gebrauchen sie hier keine Moon Stones
+als Treibstoff……\c"
+MGs018a022,"\h(«Vyse»)Eine alte Zeitung auf dem
+Boden der Kiste. “Die Geburt von Prinz Enrique!”
+……Ui. Das ist eine alte Zeitung.\c"
+MGs018a023,"\h(«Vyse»)Alte Flaschen und Flakons.
+Scheint, als seien sie lange Zeit
+nicht gebaucht worden.\c"
+MGs018a024,"\h(«Vyse»)Alte Flaschen und Flakons.
+Scheint, als seien sie lange Zeit
+nicht gebaucht worden.\c"
+MGs018a025,"\h(«Vyse»)Ein paar alte Rechnungen und Papiere……
+und einige tote Insekten zwischen den Seiten.\c"
+MGs018a026,"\h(«Vyse»)Es gibt einige aktuellere Quittungen in dem
+Haufen Papiere. Sieht ganz so aus, als habe der
+Handel in dieser Gegend wieder eingesetzt.\c"
+MGs018a027,"\h(«Vyse»)Ich sollte wahrscheinlich Informationen
+zur Dark Rift sammeln, während ich hier bin.
+Danach fahren wir weiter.\c"
+MGs018a028,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Eine Weile hier bleiben.”\c"
+MSs018a000,"\h(«Vyse»)¿Un naufragio? ¿O sólo lo han abandonado?
+Parece que lleva aquí un buen tiempo……\c"
+MSs018a001,"\h(«Vyse»)¡Qué caja más vieja!
+Hay bebidas y conservas dentro, pero no sé si
+estarán todavía en buen estado.\c"
+MSs018a002,"\h(«Vyse»)Hay un montón de bebidas y comida.
+Parece que nos espera una buena comilona.\c"
+MSs018a003,"\h(«Vyse»)Es el depósito del combustible. Hay una
+etiqueta de la fecha, pero han arrancado
+un trozo. Parece vacío y está oxidado.\c"
+MSs018a004,"\h(«Vyse»)Es el depósito del combustible. Hay una
+etiqueta de la fecha, pero han arrancado
+un trozo. Parece vacío y está oxidado.\c"
+MSs018a005,"\h(«Vyse»)Oye, esta cama tiene pinta de cómoda.
+Es vieja, pero suave. Parece como si la sacaran
+al sol todos los días.\c"
+MSs018a006,"\h(«Vyse»)Hay un montón de libros viejos y
+amarillentos. Son todos de navegación
+y de la Gruta Oscura.\c"
+MSs018a007,"\h(«Vyse»)Ah, la cama está llena de polvo.
+Supongo que no tiene mucho uso.
+Por lo menos la podrían limpiar.\c"
+MSs018a008,"\h(«Vyse»)Un colchón cómodo y suave, limpio y
+con sábanas blancas. Están un poco viejas,
+pero están bien.\c"
+MSs018a009,"\h(«Vyse»)Hay un montón de polvo aquí.
+No sólo no reciben invitados,
+es que parece que tampoco los quieran.\c"
+MSs018a010,"\h(«Vyse»)Hay un peine sin estrenar y
+una maquinilla de afeitar en el cajón.\c"
+MSs018a011,\h(«Vyse»)Hay una carta sin terminar en el cajón.\e
+MSs018a012,"\h(«Vyse»)“Pude seguir la pista de mi hermano hasta
+Esperanza.”\e"
+MSs018a013,"\h(«Vyse»)“A lo mejor tenían razón, y mi hermano
+se marchó a la Gruta Oscura……”
+…… La carta termina aquí.\c"
+MSs018a014,"\h(«Vyse»)Supongo que esta foto es de cuando la ciudad
+todavía tenía vida. Es difícil imaginarse
+que una vez hubo actividad en este lugar……\c"
+MSs018a015,"\h(«Vyse»)Es una foto de cuando la ciudad estaba
+más viva. Supongo que algún día volverá
+a tener este aspecto.\c"
+MSs018a016,"\h(«Vyse»)Está totalmente oxidado……
+Seguramente explote si intentas encenderlo.\c"
+MSs018a017,"\h(«Vyse»)Mira, un cofre del tesoro.
+Maldita sea, me he equivocado.
+Es sólo una caja de herramientas.\c"
+MSs018a018,"\h(«Vyse»)¿Qué es esto?
+Está lleno de loqua y aperitivos.
+Parece que alguien no está comiendo bien.\c"
+MSs018a019,"\h(«Vyse»)¿Una hoguera en el interior?
+Es…… una manera interesante de cocinar.\c"
+MSs018a020,"\h(«Vyse»)Es una bandera Valuan hecha jirones……
+Es irónico si consideramos que este lugar
+empezó a decaer cuando Valua se marchó.\c"
+MSs018a021,"\h(«Vyse»)Mmm…… Un depósito de gasolina, ¿eh?
+Ya no se ven hoy en día. A lo mejor no usan
+Piedras Lunares como combustible por aquí.\c"
+MSs018a022,"\h(«Vyse»)Hay un periódico viejo en el fondo de la
+caja. “¡El Nacimiento del Príncipe Enrique!”
+Pues sí que tiene años este periódico.\c"
+MSs018a023,"\h(«Vyse»)Hay botellas y frascos viejos.
+Parece que nadie los ha usado en mucho tiempo.\c"
+MSs018a024,"\h(«Vyse»)Hay botellas y frascos viejos.
+Parece que nadie los ha usado en mucho tiempo.\c"
+MSs018a025,"\h(«Vyse»)A lo mejor hay facturas y papeles antiguos……
+y unos cuantos insectos muertos en las sábanas.\c"
+MSs018a026,"\h(«Vyse»)Hay algunas facturas recientes
+en el montón de papeles. Parece que
+los negocios han resurgido por aquí.\c"
+MSs018a027,"\h(«Vyse»)Creo que debería recopilar información
+sobre la Gruta Oscura mientras estoy aquí.
+Nos marcharemos después.\c"
+MSs018a028,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un poco más.”\c"
+"",me242a.sct
+"",me018a.sct
+"",me018a.sct
+"",M0240
+"",m5180000
+"",me242a.sct

@@ -1,0 +1,184 @@
+[Event Name],Task ID
+M01010000,"\h(«Air Pirate»)Ah, Vyse, you're here.
+It looks like we can access the rest of the
+ship through this passage.\e"
+M01010001,"\h(«Air Pirate»)I'll guard the door. You go on ahead and secure
+the rest of the ship. Go teach those Valuans a
+thing or two!\c"
+M01010002,"\h(«Air Pirate»)I'll guard the door. You go on ahead and secure
+the rest of the ship. Go teach those Valuans a
+thing or two!\c"
+M01010003,"\h(«Alfonso»)Well… well…
+Air Pirates have decided to… infest my ship.\e"
+MA0230000,"\h(«Alfonso»)What?! How did you defeat my soldiers?
+Heh… If you want my ship that badly, you can
+have it. I'll get another.\e"
+MA0230001,"\h(«Alfonso»)I am very busy. I do not have time to deal with
+you personally. Now, if you'll excuse me…\e"
+MA0240000,"\h(«Alfonso»)Hah! You'll never get through this door! I've
+locked it from this side!\e"
+MA0240001,"\h(«Alfonso»)So long, Rogue.
+Hah hah hah!\c"
+MA0240002,"\h(«Vyse»)Damn… This door is solid metal.
+There's no way I can force it open.\c"
+MA0240003,\h(«Vyse»)Damn… The door's locked.\c
+MF01010000,"\h(«Pirate de l'Air»)Ah, Vyse, vous voilà.
+On dirait que ce passage donne accès aux autres
+parties du navire.\e"
+MF01010001,"\h(«Pirate de l'Air»)Je vais surveiller la porte. Passez devant et
+emparez-vous du navire. Allez apprendre à ces
+Valuans à vivre !\c"
+MF01010002,"\h(«Pirate de l'Air»)Je vais surveiller la porte. Passez devant et
+emparez-vous du navire. Allez apprendre à ces
+Valuans à vivre !\c"
+MF01010003,"\h(«Alfonso»)Tiens…… tiens…… Les Pirates de l'Air ont
+décidé…… d'infester mon navire.\e"
+MFA0230000,"\h(«Alfonso»)Quoi ?! Comment avez-vous pu vaincre mes
+soldats ? Hé…… Si vous voulez vraiment mon
+navire, vous pouvez le prendre. J'en aurai un
+autre.\e"
+MFA0230001,"\h(«Alfonso»)Je suis très occupé. Je n'ai pas le temps de
+m'occuper de vous personnellement. Alors si vous
+voulez bien m'excuser……\e"
+MFA0240000,"\h(«Alfonso»)Ha ! Vous ne passerez jamais cette porte !
+Je l'ai fermée à clé par ce côté !\e"
+MFA0240001,"\h(«Alfonso»)Adieu, Voleur.
+Hah hah hah !\c"
+MFA0240002,"\h(«Vyse»)Bon sang…… Cette porte est en métal solide.
+Il est impossible de l'ouvrir, même en
+forçant.\c"
+MFA0240003,\h(«Vyse»)Bon sang…… La porte est fermée à clé.\c
+MG01010000,"\h(«Luftpirat»)Ah, Vyse, da bist du ja.
+Es sieht so aus, als könnten wir den Rest des
+Schiffes durch diesen Gang erreichen.\e"
+MG01010001,"\h(«Luftpirat»)Ich bewache die Tür. Ihr geht vor und sichert
+den Rest des Schiffes. Geht und zeigt
+es diesen Valuanern!\c"
+MG01010002,"\h(«Luftpirat»)Ich bewache die Tür. Ihr geht vor und sichert
+den Rest des Schiffes. Geht und zeigt
+es diesen Valuanern!\c"
+MG01010003,"\h(«Alfonso»)Sieh mal an……
+Die Luftpiraten wollen mein Schiff besuchen.\e"
+MGA0230000,"\h(«Alfonso»)Was?! Wie habt ihr meine Soldaten besiegt?
+He…… wenn ihr mein Schiff unbedingt wollt,
+könnt ihr es haben. Ich hol mir ein anderes.\e"
+MGA0230001,"\h(«Alfonso»)Ich habe viel zu tun. Ich habe keine Zeit,
+mich persönlich mit euch zu befassen. Wenn
+ihr mich jetzt entschuldigen wollt……\e"
+MGA0240000,"\h(«Alfonso»)Ha! Ihr kommt niemals durch diese Tür!
+Ich habe sie von dieser Seite verschlossen!\e"
+MGA0240001,"\h(«Alfonso»)Wiedersehen, Rogue.
+Hahahaha!\c"
+MGA0240002,"\h(«Vyse»)Verdammt…… diese Tür ist ganz aus Metall.
+Ich bekomme sie einfach nicht auf.\c"
+MGA0240003,\h(«Vyse»)Verdammt…… die Tür ist verschlossen.\c
+MS01010000,"\h(«Pirata Aéreo»)Ah, estás aquí, Vyse.
+Desde este pasadizo se puede acceder al resto
+del barco.\e"
+MS01010001,"\h(«Pirata Aéreo»)Yo vigilo la puerta. Tú ve delante y vigila el
+resto del navío. ¡Dales una buena lección a esos
+Valuan!\c"
+MS01010002,"\h(«Pirata Aéreo»)Yo vigilo la puerta. Tú ve delante y vigila el
+resto del navío. ¡Dales una buena lección a esos
+Valuan!\c"
+MS01010003,"\h(«Alfonso»)Bueno…… bueno……
+Los Piratas Aéreos han decidido…… infestar mi
+navío.\e"
+MSA0230000,"\h(«Alfonso»)¡¿Cómo?! ¿Cómo has podido derrotar a mis
+soldados? Oye…… Si tanto necesitas el navío,
+puedes quedártelo. Ya me haré con otro.\e"
+MSA0230001,"\h(«Alfonso»)Estoy muy ocupado. No tengo tiempo para ocuparme
+de vosotros. Y ahora, si me excusáis……\e"
+MSA0240000,"\h(«Alfonso»)¡Ja! ¡Nunca saldrás por esa puerta!
+¡Está cerrada!\e"
+MSA0240001,"\h(«Alfonso»)Hasta la vista, Bandido.
+¡Ja ja ja!\e"
+MSA0240002,"\h(«Vyse»)¡Maldita sea! Esta puerta es de metal macizo.
+¡No puedo entrar por aquí!\e"
+MSA0240003,\h(«Vyse»)Maldición…… La puerta está cerrada.\c
+MA0040000,"\h(«Alfonso»)Well… well…
+Air Pirates have decided to… infest my ship.\e"
+MA0040001,"\h(«Alfonso»)I am Alfonso, cherished son of Valua's most 
+distinguished family, and an Admiral of the 
+Imperial Armada.\e"
+MA0040002,"\h(«Alfonso»)Normally, lowlifes such as yourselves would 
+never have the opportunity to bask in such 
+greatness. Consider yourselves fortunate.\e"
+MA0040003,"\h(«Vyse»)Yeah… right…
+Who's the girl?\e"
+MA0040004,"\h(«Vyse»)I never thought someone of your… stature would 
+stoop to kidnapping.\e"
+MA0040005,"\h(«Alfonso»)Hah!
+You're very observant for a Rogue. However,
+I cannot waste my time dealing with you.\e"
+MA0040006,"\h(«Alfonso»)I simply must get going. I think I shall have 
+you exterminated like the pests you are…\e"
+MA0040007,\h(«Alfonso»)Dispose of them!\e
+MFA0040000,"\h(«Alfonso»)Bien…… Bien…… Les Pirates de l'Air ont décidé……
+d'infester notre navire.\e"
+MFA0040001,"\h(«Alfonso»)Je suis Alfonso, fils chéri de la famille
+la plus distinguée de Valua et Amiral de
+l'Armada Impériale.\e"
+MFA0040002,"\h(«Alfonso»)Normalement, les vauriens comme vous n'ont
+jamais l'opportunité de se vautrer dans tant de
+grandeur. Vous avez de la chance.\e"
+MFA0040003,"\h(«Vyse»)Ouais…… c'est ça……
+Qui est cette fille ?\e"
+MFA0040004,"\h(«Vyse»)Je ne pensais pas que quelqu'un de votre……
+stature s'abaisserait à kidnapper une personne.\e"
+MFA0040005,"\h(«Alfonso»)Ah ! Vous êtes très perspicace pour
+un Gredin. Ceci dit, je ne peux pas
+perdre mon temps avec vous.\e"
+MFA0040006,"\h(«Alfonso»)Il faut que j'y aille. Je crois que je vais
+vous faire exterminer comme de la vermine……\e"
+MFA0040007,\h(«Alfonso»)Disposez d'eux !\e
+MGA0040000,"\h(«Alfonso»)So …… So ……
+Luftpiraten haben mein Schiff……  befallen.\e"
+MGA0040001,"\h(«Alfonso»)Ich bin Alfonso, der geliebte Sohn von Valuas
+angesehenster Familie und Admiral der
+Kaiserlichen Armada.\e"
+MGA0040002,"\h(«Alfonso»)Normalerweise wird Halunken wie euch nie der
+Genuss zuteil, solcher Größe zu begegnen.
+Schätzt euch glücklich darüber.\e"
+MGA0040003,"\h(«Vyse»)Äh, ja……  sicher……
+Wer ist das Mädchen?\e"
+MGA0040004,"\h(«Vyse»)Ich hätte nie gedacht, dass sich jemand deines……
+Kalibers auf Entführungen einlässt.\e"
+MGA0040005,"\h(«Alfonso»)Ha!
+Für einen Rogue bist du nicht dumm. Ich kann
+jedoch nicht meine Zeit mit dir verschwenden.\e"
+MGA0040006,"\h(«Alfonso»)Ich muss jetzt los.  Ich denke, ich werde
+euch ausrotten lassen, wie es sich für
+Ungeziefer wie euch gehört!\e"
+MGA0040007,\h(«Alfonso»)Weg mit ihnen!\e
+MSA0040000,"\h(«Alfonso»)Bueno, bueno……
+Los Piratas Aéreos quieren…… infestar mi barco.\e"
+MSA0040001,"\h(«Alfonso»)Soy Alfonso, hijo predilecto de la familia más
+distinguida de Valua y Almirante de la Armada
+Imperial.\e"
+MSA0040002,"\h(«Alfonso»)Normalmente, los patanes como vosotros no tienen
+la ocasión de disfrutar de semejante
+grandeza. Consideraos afortunados.\e"
+MSA0040003,"\h(«Vyse»)Sí…… Claro……
+¿Quién es la chica?\e"
+MSA0040004,"\h(«Vyse»)Nunca creí que alguien de su…… estatura se
+rebajaría al secuestro.\e"
+MSA0040005,"\h(«Alfonso»)¡Ja!
+Para ser un Bandido eres muy observador. Pero no
+puedo perder mi tiempo contigo.\e"
+MSA0040006,"\h(«Alfonso»)Me tengo que ir. Creo que tendré que acabar con
+vosotros como os merecéis……\e"
+MSA0040007,\h(«Alfonso»)¡Deshaceos de ellos!\e
+"",k8420000
+"",k8420000
+"",k8020000
+"",me101c.sct
+"",k8410000
+"",k8410000
+"",M0252
+"",m5010000
+"",k8010000
+"",k8410000
+"",a101ba04.mld
+"",e6a004
+"",M0326

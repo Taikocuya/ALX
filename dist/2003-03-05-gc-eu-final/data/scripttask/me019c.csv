@@ -1,0 +1,467 @@
+[Event Name],Task ID
+M08120000,"\h(«Cleaning Lady»)Princess Moegi has really been down in the dumps
+lately. I wonder if it's because she's worried
+about her brother?\e"
+M08120001,"\h(«Cleaning Lady»)Goodness me, why am I rattling on to a
+visitor from abroad who I've only met for the
+first time. Please pay no attention.\c"
+M08120002,"\h(«Cleaning Lady»)Is that right? Foreign ships have filled the
+harbor… Oh dear. Now Princess Moegi has one
+more thing to worry about.\e"
+M08120003,"\h(«Cleaning Lady»)But its really not something that we commoners
+should concern ourselves with, is it? I think
+the princess will get through this just fine.\c"
+M08120004,"\h(«Cleaning Lady»)Now the princess can finally begin thinking
+about her own happiness. I'm really glad.\e"
+M08120005,"\h(«Cleaning Lady»)It's good to see you again. How has Princess
+Moegi been since we last met?\e"
+M08120006,"\h(«Cleaning Lady»)Even though she has been away from us, we
+Yafutomans have never stopped thinking about our
+beloved princess.\c"
+M08130000,"\h(«Girl»)You know, sir, my big sister spends all her time
+worrying about how our princess is doing.\c"
+M08130001,"\h(«Girl»)Did you know, sir? A foreign fleet has sailed
+into the harbor. Maybe I'll go have a look.\c"
+M08130002,"\h(«Girl»)Say, is it true the foreign fleet has gone home
+already? I was planning to go have a look at it.\c"
+M08130003,"\h(«Girl»)You know, sir, when I grow up, I think I want to
+go sailing on a ship, too.\e"
+M08130004,"\h(«Girl»)When Princess Moegi went abroad, she went on a
+ship, right? I want to do the same thing.\c"
+M08140000,\h(«Koketa»)Food! Food!\e
+M08150000,"\h(«Kirala»)Oh, you must be the Westerners they're all
+talking about. I'm Kirala.
+I'm the best builder in the country.\e"
+M08150001,"\h(«Kirala»)So what do you think of our town?
+I bet you don't see such fine structures in your
+country.\e"
+M08150002,"\h(«Well…»)“You're right about that.”
+“Nah, it's nothing special.”\e"
+M08150003,"\h(«Vyse»)You're right about that. What a difference
+between seeing something and only hearing about
+it. You've really got a fine-looking town here.\e"
+M08150004,"\h(«Kirala»)Ha ha, do you really think so? Well, it sure
+warms my heart to hear you say that.\e"
+M08150005,"\h(«Kirala»)Say! Maybe I should go back west with you and
+visit your country.\e"
+M08150006,"\h(«Kirala»)I could probably show you Westerners a thing or
+two that would really amaze you.\e"
+M08150007,"\h(«Vyse»)H, hey… What're you going to do about this
+place then? It's still under construction!\e"
+M08150008,"\h(«Kirala»)Ha ha, not to worry. This is my own house.
+It was getting pretty old, so I decided to
+remodel.\e"
+M08150009,"\h(«Kirala»)Well, then, it's decided.
+I'll go back with you to your country and build
+all sorts of things for you.\e"
+M08150010,\h( )Kirala has joined your crew as a “Builder.”\e
+M08150011,"\h(«Kirala»)Incidentally, I have a little sister named
+Urala.
+You might want to give her a holler, too.\e"
+M08150012,"\h(«Vyse»)Nah, it's nothing special. We've got plenty of
+structures back home that look more impressive
+than these.\e"
+M08150013,"\h(«Kirala»)What?! You're telling me that the homes and
+buildings you have back west are better than
+mine?\e"
+M08150014,"\h(«Kirala»)Hrumph! I can't let a remark like that go
+unchallenged. I'm going to have to do something
+about it.\e"
+M08150015,"\h(«Kirala»)I say I should go back with you to your country
+and build all sorts of things to show you just
+what I can do.\e"
+M08150016,"\h(«Vyse»)H, hey… What're you going to do about this
+place then? It's still under construction!\e"
+M08150017,"\h(«Kirala»)Ha ha, not to worry. This is my own house.
+It was getting pretty old, so I decided to
+remodel.\e"
+M08150018,"\h(«Kirala»)Well, then, it's decided.
+I'll go back with you to your country and build
+all sorts of things for you.\e"
+M08150019,\h( )Kirala has joined your crew as a “Builder.”\e
+M08150020,"\h(«Kirala»)Incidentally, I have a little sister named
+Urala.
+You might want to give her a holler, too.\e"
+MF08120000,"\h(«Femme de Ménage»)La Princesse Moegi a un peu le cafard ces temps-
+ci. Je me demande si c'est parce qu'elle
+s'inquiète pour son frère.\e"
+MF08120001,"\h(«Femme de Ménage»)Mon Dieu, pourquoi est-ce que je raconte tout
+cela à un visiteur que je ne connais pas.
+Ne faites pas attention.\c"
+MF08120002,"\h(«Femme de Ménage»)Est-ce vrai ? Le port est rempli de navires
+étrangers…… Oh mon Dieu. La Princesse Moegi va
+s'inquiéter encore plus.\e"
+MF08120003,"\h(«Femme de Ménage»)Mais nous le petit peuple, cela ne nous regarde
+pas, hein ? Je pense que la princesse s'en
+sortira très bien.\c"
+MF08120004,"\h(«Femme de Ménage»)À présent la Princesse peut enfin se consacrer à
+son bonheur. Cela me ravit.\e"
+MF08120005,"\h(«Femme de Ménage»)C'est bon de vous revoir. Comment va la
+Princesse Moegi depuis la dernière fois ?\e"
+MF08120006,"\h(«Femme de Ménage»)Bien qu'elle nous ait laissés, nous les
+Yafutomans n'avons jamais cessé de penser à
+notre princesse bien-aimée.\c"
+MF08130001,"\h(«Fille»)Le saviez-vous, monsieur ? Une flotte étrangère
+est arrivée dans le port. Je crois que je vais
+aller jeter un coup d'oeil.\c"
+MF08130002,"\h(«Fille»)Est-ce vrai que la flotte étrangère est déjà
+repartie ? Je voulais aller y jeter un oeil.\c"
+MF08130003,"\h(«Fille»)Vous savez, monsieur, quand je serai grande, je
+crois que moi aussi j'aimerais voyager à bord
+d'un navire.\e"
+MF08130004,"\h(«Fille»)Quand la Princesse Moegi est partie en terres
+étrangères, elle a voyagé à bord d'un navire,
+n'est-ce pas ? Je veux faire la même chose.\c"
+MF08140000,\h(«Koketa»)J'ai faim ! J'ai faim !\e
+MF08150000,"\h(«Kirala»)Oh, vous devez être les voyageurs dont tout le
+monde parle, ceux venus de l'Ouest. Je suis
+Kirala, le meilleur maçon de tout le pays.\e"
+MF08150001,"\h(«Kirala»)Alors que pensez-vous de notre ville ?
+Je parie que vous n'avez pas d'aussi jolies
+structures dans votre pays.\e"
+MF08150002,"\h(«Eh bien……»)“Vous avez raison.”
+“Non, ce n'est rien d'extraordinaire.”\e"
+MF08150003,"\h(«Vyse»)Vous avez raison. On en avait entendu parler
+mais c'est beaucoup mieux en réalité. Votre
+ville est très jolie.\e"
+MF08150004,"\h(«Kirala»)Ha ha, vous trouvez ? Eh bien, cela me fait
+chaud au coeur de vous l'entendre dire.\e"
+MF08150005,"\h(«Kirala»)Dites ! Je devrais peut-être repartir avec vous
+dans l'Ouest, pour visiter votre pays.\e"
+MF08150006,"\h(«Kirala»)Je pourrais certainement construire des choses
+qui vous étonneront.\e"
+MF08150007,"\h(«Vyse»)Mais…… Vous allez laisser cet endroit comme ça ?
+Il est encore en construction !\e"
+MF08150008,"\h(«Kirala»)Ha ha, ne vous inquiétez pas. C'est ma maison.
+Elle commençait à se faire vieille, alors j'ai
+décidé de la rénover.\e"
+MF08150009,"\h(«Kirala»)Bon, alors, c'est décidé.
+Je vais revenir avec vous dans votre pays pour y
+construire toutes sortes de bâtiments.\e"
+MF08150010,\h( )Kirala le “Maçon” a rejoint votre équipage.\e
+MF08150011,"\h(«Kirala»)Il se trouve que j'ai une soeur qui s'appelle
+Urala. Vous devriez peut-être lui en parler.\e"
+MF08150012,"\h(«Vyse»)Non, ce n'est rien d'extraordinaire. Nous avons
+beaucoup de structures chez nous qui sont bien
+plus impressionnantes.\e"
+MF08150013,"\h(«Kirala»)Quoi ?! Vous dites que vos maisons et vos
+bâtiments sont mieux que les nôtres ?\e"
+MF08150014,"\h(«Kirala»)Pfut ! C'est un défi que vous me lancez.
+Je vais devoir vous prouver le contraire.\e"
+MF08150015,"\h(«Kirala»)Je dis que je dois rentrer avec vous dans votre
+pays pour y bâtir et pour vous montrer de quoi
+je suis capable.\e"
+MF08150016,"\h(«Vyse»)Mais…… Vous allez laisser cet endroit comme ça ?
+Il est encore en construction !\e"
+MF08150017,"\h(«Kirala»)Ha ha, ne vous inquiétez pas. C'est ma maison.
+Elle commençait à se faire vieille, alors j'ai
+décidé de la rénover.\e"
+MF08150018,"\h(«Kirala»)Bon, alors, c'est décidé.
+Je vais revenir avec vous dans votre pays pour y
+construire toutes sortes de bâtiments.\e"
+MF08150019,\h( )Kirala le “Maçon” a rejoint votre équipage.\e
+MF08150020,"\h(«Kirala»)Il se trouve que j'ai une soeur qui s'appelle
+Urala. Vous devriez peut-être lui en parler.\e"
+MG08120000,"\h(«Putzfrau»)Prinzessin Moegi war in letzter Zeit
+ziemlich niedergeschlagen. Ob sie sich wohl
+um ihren Bruder Sorgen macht?\e"
+MG08120001,"\h(«Putzfrau»)Du meine Güte, warum schwatze ich hier mit
+einem Besucher aus dem Ausland, den ich gerade
+erst kennen gelernt habe. Bitte nehmen Sie keine
+Notiz von mir.\c"
+MG08120002,"\h(«Putzfrau»)Stimmt das? Fremde Schiffe sammeln sich
+im Hafen…… Ach herrje. Jetzt hat Prinzessin
+Moegi noch eine Sorge mehr.\e"
+MG08120003,"\h(«Putzfrau»)Aber über so was sollten wir einfachen Leute
+uns keine Gedanken machen, nicht? Ich nehme
+an, die Prinzessin wird das schon meistern.\c"
+MG08120004,"\h(«Putzfrau»)Jetzt kann die Prinzessin endlich an ihr
+eigenes Glück denken. Da bin ich ja froh.\e"
+MG08120005,"\h(«Putzfrau»)Es tut gut, euch wiederzusehen. Wie ist es
+Prinzessin Moegi ergangen, seit wir uns das
+letzte Mal sahen?\e"
+MG08120006,"\h(«Putzfrau»)Obwohl sie nicht unter uns weilte, haben wir
+Yafutomanen nie aufgehört, an unsere geliebte
+Prinzessin zu denken.\c"
+MG08130000,"\h(«Mädchen»)Wissen Sie, mein Herr, meine kleine Schwester
+macht sich die ganze Zeit über Sorgen um die
+Prinzessin.\c"
+MG08130001,"\h(«Mädchen»)Wussten Sie schon, mein Herr? Eine fremde
+Flotte ist in den Hafen gefahren. Vielleicht
+sollte ich mir das mal anschauen.\c"
+MG08130002,"\h(«Mädchen»)Stimmt es, dass die fremde Flotte schon
+wieder fort ist? Ich wollte sie mir doch
+mal aus der Nähe anschauen.\c"
+MG08130003,"\h(«Mädchen»)Wissen Sie, mein Herr, wenn ich groß bin,
+möchte ich auch auf einem Schiff fahren.\e"
+MG08130004,"\h(«Mädchen»)Als Prinzessin Moegi ins Ausland ging, hat sie
+ein Schiff genommen, nicht wahr? Das möchte ich
+auch.\c"
+MG08140000,\h(«Koketa»)Essen! Essen!\e
+MG08150000,"\h(«Kirala»)Oh, ihr müsst die Westler sein, von denen alle
+sprechen. Ich bin Kirala. Ich bin die beste
+Baumeisterin im Lande.\e"
+MG08150001,"\h(«Kirala»)Was haltet ihr von unserer Stadt? Ich wette,
+in eurem Land gibt es nicht so schöne
+Gebäude.\e"
+MG08150002,"\h(«Also……»)“Da hast du Recht”.
+“Nee, ist nichts Besonderes”.\e"
+MG08150003,"\h(«Vyse»)Da hast du Recht. Es ist schon ein Unterschied,
+etwas mit eigenen Augen zu sehen, oder nur
+davon zu hören. Ihr habt hier wirklich eine
+schöne Stadt.\e"
+MG08150004,"\h(«Kirala»)Ha ha, meinst du im Ernst? Da wird
+einem ja richtig warm ums Herz, wenn du so was
+sagst.\e"
+MG08150005,"\h(«Kirala»)Hör mal! Vielleicht sollte ich mit euch in
+den Westen kommen und euer Land ansehen.\e"
+MG08150006,"\h(«Kirala»)Ich könnte euch Westlern wahrscheinlich die
+eine oder andere Sache beibringen, über die
+ihr staunen werdet.\e"
+MG08150007,"\h(«Vyse»)H……he…… Was willst du denn mit diesem Haus
+anfangen? Es befindet sich ja noch im Bau!\e"
+MG08150008,"\h(«Kirala»)Ha ha, keine Sorge. Das ist mein eigenes Haus.
+Es war schon alt, also habe ich beschlossen, es
+umzubauen.\e"
+MG08150009,"\h(«Kirala»)Also, abgemacht.
+Ich werde mit euch in euer Land kommen und
+alles Mögliche für euch bauen.\e"
+MG08150010,"\h( )Kirala ist als “Baumeisterin” zu deiner
+Mannschaft gestoßen.\e"
+MG08150011,"\h(«Kirala»)Übrigens, ich habe eine kleine Schwester namens
+Urala. Vielleicht solltet ihr sie auch fragen.\e"
+MG08150012,"\h(«Vyse»)Nö, das ist nichts Besonderes. Wir haben zu
+Hause viele eindrucksvollere Gebäude als diese
+hier.\e"
+MG08150013,"\h(«Kirala»)Was?! Du willst mir erzählen, dass die Häuser
+und Gebäude bei euch im Westen besser sind als
+meine?\e"
+MG08150014,"\h(«Kirala»)Hrumpf! So eine Bemerkung kann ich nicht
+einfach durchgehen lassen. Dagegen muss ich
+etwas tun!\e"
+MG08150015,"\h(«Kirala»)Ich würde sagen, ich sollte mit in euer Land
+kommen und verschiedene Sachen bauen, damit ihr
+seht, wozu ich fähig bin.\e"
+MG08150016,"\h(«Vyse»)H, he…… Was willst du denn mit diesem Haus
+anfangen? Es befindet sich ja noch im Bau!\e"
+MG08150017,"\h(«Kirala»)Ha ha, keine Sorge. Das ist mein eigenes Haus.
+Es war schon alt, also habe ich beschlossen, es
+umzubauen.\e"
+MG08150018,"\h(«Kirala»)Also, abgemacht.
+Ich werde mit euch in euer Land kommen und
+alles Mögliche für euch bauen.\e"
+MG08150019,"\h( )Kirala ist als “Bauarbeiterin” zu deiner
+Mannschaft gestoßen.\e"
+MG08150020,"\h(«Kirala»)Übrigens, ich habe eine kleine Schwester namens
+Urala. Vielleicht solltet ihr sie auch fragen.\e"
+MS08120000,"\h(«Señora de la Limpieza»)La Princesa Moegi ha estado muy triste
+últimamente. Me pregunto si es que estará
+preocupada por su hermano.\e"
+MS08120001,"\h(«Señora de la Limpieza»)¡Jesús, por qué me tomaré tantas molestias por
+un extranjero al que acabo de conocer! Ni caso.\c"
+MS08120002,"\h(«Señora de la Limpieza»)¿Será verdad? Unos navíos extranjeros han
+invadido el puerto…… La Princesa Moegi ya tiene
+otra preocupación más.\e"
+MS08120003,"\h(«Señora de la Limpieza»)Pero no es algo que nos preocupe al resto de los
+mortales, ¿no? Seguro que la Princesa se
+las arregla sin problemas.\c"
+MS08120004,"\h(«Señora de la Limpieza»)Ahora la Princesa puede dedicarse a pensar en su
+propia felicidad. Me alegro mucho.\c"
+MS08120005,"\h(«Señora de la Limpieza»)Me alegro de verte otra vez. ¿Qué tal está la
+Princesa Moegi?\e"
+MS08120006,"\h(«Señora de la Limpieza»)En Yafutoma no hemos olvidado a nuestra
+querida Princesa, a pesar de todo el tiempo
+que ha pasado fuera.\c"
+MS08130000,"\h(«Niña»)Sabe, señor, mi hermana mayor se pasa todo el
+día preocupada por la princesa.\c"
+MS08130001,"\h(«Niña»)¿Se ha enterado, señor? Una flota de navíos
+extranjeros ha anclado en el puerto. A lo mejor
+voy a echar un vistazo.\c"
+MS08130002,"\h(«Niña»)Dime, ¿es verdad que la flota extranjera
+ya se ha ido a casa?
+Quería ir a echarles un vistazo.\c"
+MS08130003,"\h(«Niña»)Sabe, señor, cuando sea mayor, yo también quiero
+ir a navegar en barco.\e"
+MS08130004,"\h(«Niña»)Cuando la Princesa Moegi se fue al extranjero,
+se fue en barco, ¿no? Pues yo voy a hacer lo
+mismo.\c"
+MS08140000,\h(«Koketa»)¡Comida! ¡Comida!\e
+MS08150000,"\h(«Kirala»)Vosotros debéis ser los Occidentales de los que
+habla todo el mundo. Me llamo Kirala.
+Soy la mejor constructora de este país.\e"
+MS08150001,"\h(«Kirala»)¿Qué os parece esta ciudad?
+Seguro que en vuestro país no se ven edificios
+tan sofisticados.\e"
+MS08150002,"\h(«Pues……»)“La verdad es que no.”
+“Bah, no me parece nada del otro mundo.”\e"
+MS08150003,"\h(«Vyse»)Pues la verdad es que no. Menuda diferencia de
+que te lo cuenten a verlo con tus propios ojos.
+Es una ciudad muy bonita.\e"
+MS08150004,"\h(«Kirala»)Ja, ja, ja, ¿lo dices en serio? La verdad es que
+me anima mucho que digas eso.\e"
+MS08150005,"\h(«Kirala»)¡Oye! A lo mejor puedo ir al Oeste contigo y
+ver tu país.\e"
+MS08150006,"\h(«Kirala»)Los Occidentales os quedaríais asombrados con una
+o dos cosas que os puedo enseñar.\e"
+MS08150007,"\h(«Vyse»)Pero…… ¿entonces que pasaría con este sitio?
+¡Todavía lo estáis construyendo!\e"
+MS08150008,"\h(«Kirala»)Ja, ja, ja, no te preocupes. Es mi casa.
+Se estaba quedando un poco vieja,
+así que he decidido remodelarla.\e"
+MS08150009,"\h(«Kirala»)Así que la decisión está tomada.
+Voy a irme contigo a tu país y allí
+construiré todo tipo de edificios.\e"
+MS08150010,"\h( )Kirala se ha unido a tu tripulación como
+“Constructora”.\e"
+MS08150011,"\h(«Kirala»)Por cierto, tengo una hermana pequeña que se
+llama Urala. También puedes decírselo a ella.\e"
+MS08150012,"\h(«Vyse»)Bah, no me impresiona mucho. De donde vengo hay
+edificios más bonitos que éste.\e"
+MS08150013,"\h(«Kirala»)¡¿Qué?! ¿Estás diciendo que las casas y
+edificios que tenéis en el Oeste son mejores que
+los míos?\e"
+MS08150014,"\h(«Kirala»)¡Ummff! No voy a permitir que te vayas de
+rositas después de decir eso. Tengo que hacer
+algo al respecto.\e"
+MS08150015,"\h(«Kirala»)Voy a acompañarte a tu país y allí construiré
+edificios y te demostraré de lo que soy capaz.\e"
+MS08150016,"\h(«Vyse»)Bueno…… ¿Entonces qué vas a hacer con este
+sitio? ¡Aún está en construcción!\e"
+MS08150017,"\h(«Kirala»)Ja, ja, ja, no te preocupes. Es mi casa.
+Se estaba quedando un poco vieja,
+así que he decidido remodelarla.\e"
+MS08150018,"\h(«Kirala»)Así que la decisión está tomada.
+Voy a irme contigo a tu país y allí
+construiré todo tipo de edificios.\e"
+MS08150019,"\h( )Kirala se ha unido a tu tripulación como
+“Constructora”.\e"
+MS08150020,"\h(«Kirala»)Por cierto, tengo una hermana pequeña que se
+llama Urala. También puedes decírselo a ella.\e"
+Ms019c000,"\h(«Vyse»)Heh… Those birds are sorta cute. The babies are
+following the parent around. I wonder what those
+birds are called…\c"
+Ms019c001,"\h(«Vyse»)There's a vegetable that looks sort of like the
+turnips that we grow back home. It looks like
+they've been cut into long, thin strips, though.\c"
+Ms019c002,"\h(«Vyse»)Hey, these fish look delicious.
+They look like they've been properly dried, too.
+I wonder who they're for…\c"
+Ms019c003,"\h(«Vyse»)Wow… This lumber is perfectly smooth.
+It looks like the work of a master craftsman…\c"
+Ms019c004,"\h(«Vyse»)It looks like Yafutoman is written from top to
+bottom. I wonder how you're supposed to read
+it then…\c"
+Ms019c005,"\h(«Vyse»)It's Mur Loqua. The loqua here must be better
+than anywhere else in the world, considering the
+abundance of Blue Moon Stones around here.\c"
+Ms019c006,"\h(«Vyse»)I don't know what to make of this… plant.
+It looks almost like a big seed… or little tree
+or something… Some sort of vegetable, maybe?\c"
+Ms019c007,"\h(«Vyse»)Hmm… I wonder what this drink is made of.
+It doesn't smell quite like loqua…
+and it's green, too.\c"
+Ms019c008,"\h(«Vyse»)What the…?! It looks like there's dirt inside
+this pot! And they're boiling vegetables inside
+of it, too!\c"
+Ms019c009,"\h(«Vyse»)What's this? It almost looks like candy inside
+this small bottle…\c"
+Ms019c010,"\h(«Vyse»)It's some kind of cloudy soup… It's brown, too.
+I don't know if I even want to try drinking
+some of that…\c"
+MFs019c000,"\h(«Vyse»)Hé…… Ces oiseaux sont plutôt mignons. Les
+oisillons suivent les parents partout. Je me
+demande comment on appelle ces oiseaux……\c"
+MFs019c001,"\h(«Vyse»)Il y a des légumes qui ressemblent un peu aux
+navets que l'on fait pousser chez nous.
+Cependant on dirait qu'ils ont été découpés en
+morceaux longs et fins.\c"
+MFs019c002,"\h(«Vyse»)Hé, ces poissons ont l'air délicieux.
+En plus, on dirait qu'ils ont bien été séchés.
+Je me demande à qui ils sont destinés……\c"
+MFs019c003,"\h(«Vyse»)Oaouh…… Ce bois est parfaitement lisse.
+Ce doit être le travail d'un maître artisan……\c"
+MFs019c004,"\h(«Vyse»)Il semblerait que le Yafutoman s'écrive de haut
+en bas. Je me demande comment nous sommes
+censés le lire alors……\c"
+MFs019c005,"\h(«Vyse»)C'est du Mur Loqua. Comme l'endroit regorge de
+Pierres de Lune Bleue, le loqua doit être bien
+meilleur ici qu'ailleurs.\c"
+MFs019c006,"\h(«Vyse»)Je ne sais pas comment décrire cette…… plante.
+Elle ressemble à une grosse graine…… ou un petit
+arbre. Quelque chose comme ça…… Une
+sorte de légume peut-être ?\c"
+MFs019c007,"\h(«Vyse»)Hmm…… Je me demande de quoi est faite cette
+boisson.
+Ça ne sent pas vraiment le Loqua…… et en plus
+c'est vert.\c"
+MFs019c009,"\h(«Vyse»)Qu'est-ce que c'est ? On dirait presque qu'il y
+a des sucreries dans cette petite bouteille……\c"
+MFs019c010,"\h(«Vyse»)C'est une sorte de soupe trouble…… Elle est
+aussi marron.
+Je ne suis même pas sûr de vouloir en boire……\c"
+MGs019c000,"\h(«Vyse»)Heh…… Diese Vögel sind irgendwie süß.
+Die Babies folgen ihren Eltern. Ich frage
+mich, wie diese Vögel heißen……\c"
+MGs019c001,"\h(«Vyse»)Dieses Gemüse sieht irgendwie so aus
+wie die Rüben, die wir bei uns zu Hause anbauen.
+Sie sehen allerdings so aus, als seien sie in
+lange, dünne Streifen geschnitten worden.\c"
+MGs019c002,"\h(«Vyse»)Hey, diese Fische sehen lecker aus.
+Sie scheinen auch richtig getrocknet
+worden zu sein. Für wen die wohl sind……\c"
+MGs019c003,"\h(«Vyse»)Wow…… Dieses Holz ist wunderbar glatt.
+Sieht aus wie das Werk eines Meisters
+unter den Kunsthandwerkern……\c"
+MGs019c004,"\h(«Vyse»)Sieht so aus, als würde Yafutomanisch von
+oben nach unten geschrieben.
+Wie soll man es so lesen?\c"
+MGs019c005,"\h(«Vyse»)Es ist Mur-Loqua. Der Loqua hier muss der
+Beste der Welt zu sein, wenn man den Überfluss
+an Blue Moon Stones in Betracht zieht.\c"
+MGs019c006,"\h(«Vyse»)Ich weiß nicht, was ich von dieser…… Pflanze
+halten soll. Sieht fast nach einem großen Samen
+aus…… oder wie ein kleiner Baum oder so etwas……
+Vielleicht eine Art Gemüse?\c"
+MGs019c007,"\h(«Vyse»)Hmm…… Ich frage mich, woraus dieses
+Getränk gemacht ist. Es riecht nicht
+wirklich nach Loqua…… und es ist außerdem grün.\c"
+MGs019c008,"\h(«Vyse»)Was zum…… ?! Das ist doch Schmutz
+in dem Topf! Und die kochen auch noch
+Gemüse darin!\c"
+MGs019c009,"\h(«Vyse»)Was ist das? Sieht fast nach Süßigkeiten
+in der Flasche aus……\c"
+MGs019c010,"\h(«Vyse»)Es ist eine Art trübe Suppe……
+Sie ist außerdem braun. Weiß nicht, ob
+ich etwas davon trinken möchte……\c"
+MSs019c000,"\h(«Vyse»)¡Qué pájaros más monos!
+Los pequeños siguen a sus padres.
+¿Cómo se llamarán estos pájaros?\c"
+MSs019c001,"\h(«Vyse»)Hay una verdura que se parece mucho a los
+nabos que cultivamos en nuestra tierra.
+Los han cortado en láminas finas y largas.\c"
+MSs019c002,"\h(«Vyse»)Mmm, el pescado tiene un aspecto buenísimo.
+Parece que lo han secado muy bien.
+Me pregunto para quién será……\c"
+MSs019c003,"\h(«Vyse»)¡Vaya! La textura de esta madera es muy suave.
+Parece obra de un experto artesano.\c"
+MSs019c004,"\h(«Vyse»)Parece que está toda escrita en el idioma
+de Yafutoma. ¿Cómo voy a leerlo?\c"
+MSs019c005,"\h(«Vyse»)Es Mur Loqua. El loqua de aquí probablemente
+sea el mejor del mundo, ya que las Piedras
+Azules abundan en este lugar.\c"
+MSs019c006,"\h(«Vyse»)No sé qué hacer con esta…… planta.
+Parece una gran semilla enorme o un árbol
+pequeño…… ¿Será algún tipo de verdura?\c"
+MSs019c007,"\h(«Vyse»)Mmm…… ¿De qué estará hecha esta bebida?
+No huele a loqua…… y es verde.\c"
+MSs019c008,"\h(«Vyse»)¡¿Pero qué demonios……?!
+¡Este caldero parece sucio!
+¡Y están cociendo verduras dentro!\c"
+MSs019c009,"\h(«Vyse»)¿Qué es esto?
+Parecen golosinas dentro de una botella pequeña.\c"
+MSs019c010,"\h(«Vyse»)Es como una sopa turbia…… y marrón.
+No sé si quiero probarla……\c"
+"",me019b.sct
+"",M0325
+"",M0244
+"",M5190000

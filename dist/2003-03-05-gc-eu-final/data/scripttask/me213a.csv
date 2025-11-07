@@ -1,0 +1,120 @@
+[Event Name],Task ID
+MA0170000,"\h(«Valuan Soldier»)Lord Galcian.
+As you ordered, I brought the girl to 
+see you.\e"
+MA0170001,"\h(«Galcian»)Excellent.
+You may leave.\e"
+MA0170002,\h(«Valuan Soldier»)As you wish…\e
+MA0170003,"\h(«Galcian»)At last we meet… Fina.
+You cannot imagine how much trouble the Armada
+has gone through to find you.\e"
+MA0170004,"\h(«Fina»)…!
+How did you know my name?\e"
+MA0170005,"\h(«Galcian»)I am Galcian, the Sworn Protector of 
+Valua and Supreme Commander of the 
+Imperial Armada.\e"
+MA0170006,"\h(«Galcian»)I am under direct orders from Her 
+Royal Highness, Empress Teodora, to 
+find you and bring you back to Valua.\e"
+MA0170007,"\h(«Galcian»)As a citizen of the Silver Civilization,
+you have information that is useful to us.
+Will you help us?\e"
+MA0170008,\h(«Fina»)……\e
+MA0170009,"\h(«Galcian»)I see.
+I did not expect you to help us 
+without the proper motivation.\e"
+MA0170010,"\h(«Galcian»)However… I believe we have the same goals. So,
+wouldn't it be best for us to help each other?\e"
+MA0170011,\h(«Fina»)……\e
+MA0170012,\h(«Galcian»)…We will reach Valua in half a day.\e
+MA0170013,\h(«Galcian»)Enjoy the comforts of the brig until then.\e
+MFA0170000,"\h(«Soldat Valuan»)Seigneur Galcian. Comme vous l'avez ordonné,
+je vous ai amené la fille.\e"
+MFA0170001,"\h(«Galcian»)Excellent.
+Vous pouvez disposer.\e"
+MFA0170002,\h(«Soldat Valuan»)À vos ordres……\e
+MFA0170003,"\h(«Galcian»)Enfin je vous rencontre…… Fina.
+Vous ne pouvez pas vous imaginer comme cela a
+été dur pour l'Armada de vous retrouver.\e"
+MFA0170004,"\h(«Fina»)……!
+Comment connaissez-vous mon nom ?\e"
+MFA0170005,"\h(«Galcian»)Je suis Galcian, le Protecteur Juré de Valua
+et le Commandant Suprême de l'Armada Impériale.\e"
+MFA0170006,"\h(«Galcian»)J'exécute les ordres de sa Grandeur,
+l'Impératrice Teodora, de vous retrouver et de
+vous ramener à Valua.\e"
+MFA0170007,"\h(«Galcian»)En tant que citoyenne de la Civilisation
+d'Argent, vous détenez des informations qui nous
+sont précieuses. Nous aiderez-vous ?\e"
+MFA0170008,\h(«Fina»)……\e
+MFA0170009,"\h(«Galcian»)Je vois.
+Je savais que vous ne nous aideriez pas sans
+un peu de motivation.\e"
+MFA0170010,"\h(«Galcian»)Cependant…… Je crois que nous avons les mêmes
+objectifs. Alors, il vaudrait mieux s'entraider,
+non ?\e"
+MFA0170011,\h(«Fina»)……\e
+MFA0170012,\h(«Galcian»)……Nous arriverons à Valua dans une demi-journée.\e
+MFA0170013,"\h(«Galcian»)En attendant, profitez bien de votre cabine.\e"
+MGA0170000,"\h(«Valua-Soldat»)Lord Galcian. Gemäß Ihrem Befehl bringe ich
+Ihnen das Mädchen.\e"
+MGA0170001,"\h(«Galcian»)Sehr gut.
+Du kannst gehen.\e"
+MGA0170002,\h(«Valua-Soldat»)Wie Sie wünschen…… \e
+MGA0170003,"\h(«Galcian»)Endlich lernen wir uns kennen, Fina.
+Du kannst dir nicht vorstellen, wie viel Mühe
+die Armada gehabt hat, dich zu finden.\e"
+MGA0170004,"\h(«Fina»)……!
+Woher kennst du meinen Namen?\e"
+MGA0170005,"\h(«Galcian»)Ich bin Galcian, Vereidigter Beschützer von
+Valua und Oberbefehlshaber der Kaiserlichen
+Armada.\e"
+MGA0170006,"\h(«Galcian»)Ich habe den direkten Befehl ihrer Hoheit,
+der Kaiserin Teodora, dich zu finden und zurück
+nach Valua zu bringen.\e"
+MGA0170007,"\h(«Galcian»)Als Bürgerin der Silver Civilization verfügst du
+über Informationen, die uns nützlich sein
+können. Wirst du uns helfen?\e"
+MGA0170008,\h(«Fina»)……\e
+MGA0170009,"\h(«Galcian»)Verstehe.
+Ich hatte nicht angenommen, dass du uns ohne
+entsprechende Motivation helfen würdest.\e"
+MGA0170010,"\h(«Galcian»)Dennoch……  Ich glaube, wir haben dieselben
+Ziele. Wäre es nicht also besser, wenn wir uns
+gegenseitig helfen würden?\e"
+MGA0170011,\h(«Fina»)……\e
+MGA0170012,"\h(«Galcian»)…… Wir werden Valua in einem halben Tag
+erreichen.\e"
+MGA0170013,\h(«Galcian»)Mach es dir bis dahin auf dem Schiff bequem.\e
+MSA0170000,"\h(«Soldado Valuan»)Lord Galcian.
+Le he traído a la chica como ordenó.\e"
+MSA0170001,"\h(«Galcian»)Estupendo.
+Puedes retirarte.\e"
+MSA0170002,\h(«Soldado Valuan»)Como desee……\e
+MSA0170003,"\h(«Galcian»)Por fin nos encontramos…… Fina.
+No te imaginas cuántos problemas ha tenido que
+afrontar la Armada hasta encontrarte.\e"
+MSA0170004,"\h(«Fina»)¡……!
+¿Cómo sabe mi nombre?\e"
+MSA0170005,"\h(«Galcian»)Soy Galcian, Guardián Protector de Valua y
+Comandante en Jefe de la Armada Imperial.\e"
+MSA0170006,"\h(«Galcian»)Obedezco órdenes directas de Su Alteza Real, la
+Emperatriz Teodora, para encontrarte y llevarte
+a Valua.\e"
+MSA0170007,"\h(«Galcian»)Como ciudadana de la Civilización de Plata,
+tienes información que necesitamos. ¿Podrías
+ayudarnos?\e"
+MSA0170008,\h(«Fina»)……\e
+MSA0170009,"\h(«Galcian»)Comprendo.
+Me imaginaba que no nos ayudarías sin la
+motivación adecuada.\e"
+MSA0170010,"\h(«Galcian»)Pero…… creo que tenemos los mismos objetivos.
+¿No sería mejor que nos ayudáramos mutuamente?\e"
+MSA0170011,\h(«Fina»)……\e
+MSA0170012,\h(«Galcian»)Llegaremos a Valua en medio día.\e
+MSA0170013,"\h(«Galcian»)Mientras, disfruta del confort del calabozo.\e"
+"",me002b.sct
+"",a213aa17.mld
+"",e6a017
+"",M0313
+"",a217aa17.mld

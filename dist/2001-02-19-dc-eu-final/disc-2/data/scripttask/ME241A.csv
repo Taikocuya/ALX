@@ -1,0 +1,440 @@
+[Event Name],Task ID
+ME0050000,"\h(«Aika»)Hey…
+What's that smell?\e"
+ME0050001,\h(«Fina»)It smells like something is burning…\e
+ME0050002,\h(«Drachma»)Look on the horizon.\e
+ME0050003,\h(«Vyse»)The forest!!!\e
+ME0050004,"\h(«De Loco»)Burn! Burn!
+Buuuuuuuuuurrrrrnnnnn!!!\e"
+ME0050005,"\h(«De Loco»)Witness the awesome power of my Flame Cannon!
+The thicker the forest, the more it burns!
+HAHAHAHAHA!!!\e"
+ME0050006,"\h(«De Loco»)After I burn down the forest, I will be able to 
+find the Lost City of Rixis, and the 
+Moon Crystal will be mine!!!\e"
+ME0050007,"\h(«Vice Captain»)Lord De Loco!
+There's a ship approaching from the aft.\e"
+ME0050008,\h(«Vice Captain»)It matches the description of those Air Pirates!\e
+ME0050009,"\h(«De Loco»)Vyse is here?!
+He's the kid that escaped from the Grand
+Fortress and defeated Belleza!\e"
+ME0050010,"\h(«De Loco»)Perfect!!! PERFECT!!! 
+He's just in time to feel the heat from my
+Flame Cannon!\e"
+ME0050011,"\h(«De Loco»)Hehehehe…
+I wonder how Vyse likes his food…\e"
+ME0050012,\h(«De Loco»)Medium?\e
+ME0050013,"\h(«De Loco»)I hope he doesn't die too fast!
+HAHAHAHAHAHA!!!\e"
+ME0050014,"\h(«Aika»)The forest!
+This is horrible! 
+What kind of twisted psycho would do this?\e"
+ME0050015,"\h(«Vyse»)Whoever it is, he'll have to deal with me!\e"
+ME0050016,"\h(«Drachma»)If we get hit by that blast of fire, we're
+done for. We'll have to dodge the flames,
+and counterattack!\e"
+ME0050017,\h(«De Loco»)Or perhaps… Well-done!!!\e
+MSE0050000,"\h(«Aika»)Eh……
+¿Qué es ese olor?\e"
+MSE0050001,\h(«Fina»)Huele como si algo se estuviera quemando……\e
+MSE0050002,\h(«Drachma»)Mira en el horizonte.\e
+MSE0050003,\h(«Vyse»)¡¡¡El bosque!!!\e
+MSE0050004,"\h(«De Loco»)¡Fuego! ¡Fuego!
+¡¡¡Fuuuueeeeeggggoooo!!!\e"
+MSE0050005,"\h(«De Loco»)¡Admiren el poder de mi Cañón de Fuego!
+¡Cuanto más denso es el bosque, más se quema!
+¡¡¡JAJAJAJAJA!!!\e"
+MSE0050006,"\h(«De Loco»)¡¡¡Después de quemar el bosque, podré encontrar
+la Ciudad Perdida de Rixis y el Cristal Lunar
+será mío!!!\e"
+MSE0050007,"\h(«Vicecapitán»)¡Lord De Loco!
+Un navío se acerca por la popa.\e"
+MSE0050008,"\h(«Vicecapitán»)¡Concuerda con la descripción de los Piratas
+Aéreos!\e"
+MSE0050009,"\h(«De Loco»)¡¿Vyse está aquí?!
+¡El chico que escapó de la Gran Fortaleza
+y derrotó a Belleza!\e"
+MSE0050010,"\h(«De Loco»)¡¡¡Perfecto!!! ¡¡¡ESTUPENDO!!!
+¡Justo a tiempo para sentir el calor de mi
+Cañón de Fuego!\e"
+MSE0050011,"\h(«De Loco»)Jejejeje……
+Me pregunto cómo le gustará a Vyse la carne……\e"
+MSE0050012,\h(«De Loco»)¿Muy hecho?\e
+MSE0050013,"\h(«De Loco»)¡Espero que muera lentamente!
+¡¡¡JAJAJAJAJAJA!!!\e"
+MSE0050014,"\h(«Aika»)¡El bosque!
+¡Es horrible!
+¿Qué clase de mente retorcida ha ideado esto?\e"
+MSE0050015,"\h(«Vyse»)¡Quienquiera que sea, tendrá que vérselas
+conmigo!\e"
+MSE0050016,"\h(«Drachma»)Si esa explosión de fuego llega hasta nosotros,
+estamos acabados. ¡Tendremos que evitar las
+llamas y contraatacar!\e"
+MSE0050017,\h(«De Loco»)O tal vez…… ¡¡¡Bien hecho!!!\e
+MFE0050000,"\h(«Aika»)Hé……
+Qu'est-ce que ça sent ?\e"
+MFE0050001,\h(«Fina»)On dirait que ça sent le brûlé……\e
+MFE0050002,\h(«Drachma»)Regardez à l'horizon.\e
+MFE0050003,\h(«Vyse»)La forêt !!!\e
+MFE0050004,"\h(«De Loco»)Brûle ! Brûle !
+Brrrrrrrrrrûûûûûûlllllleeee !!!\e"
+MFE0050005,"\h(«De Loco»)Admirez l'incroyable puissance de mon Canon
+Flamme ! Plus la forêt est dense, plus elle
+brûle ! HAHAHAHAHA !!!\e"
+MFE0050006,"\h(«De Loco»)Quand la forêt aura complètement brûlé, je
+pourrai trouver la Cité Perdue de Rixis, et le
+Cristal de Lune sera à moi !!!\e"
+MFE0050007,"\h(«Vice Capitaine»)Seigneur De Loco !
+Il y a un navire qui approche par derrière.\e"
+MFE0050008,"\h(«Vice Capitaine»)Cela ressemble à ces Pirates de l'Air que l'on
+m'a décrits !\e"
+MFE0050009,"\h(«De Loco»)Vyse est ici ?!
+C'est le gamin qui s'est échappé de la Grande
+Forteresse et qui a vaincu Belleza !\e"
+MFE0050010,"\h(«De Loco»)Parfait !!! PARFAIT !!!
+Il arrive juste à temps pour sentir la chaleur
+de mon Canon Flamme !\e"
+MFE0050011,"\h(«De Loco»)Héhéhéhé……
+Je me demande comment Vyse aime sa viande……\e"
+MFE0050012,\h(«De Loco»)À point ?\e
+MFE0050013,"\h(«De Loco»)J'espère qu'il mourra lentement !
+HAHAHAHAHAHA !!!\e"
+MFE0050014,"\h(«Aika»)La forêt ! C'est horrible !
+Quel genre de malade ferait une chose
+pareille ?\e"
+MFE0050015,"\h(«Vyse»)Peu importe, il va avoir à faire à moi !\e"
+MFE0050016,"\h(«Drachma»)Si le feu nous engouffre, nous sommes fichus.
+Il faut éviter les flammes, et contre-attaquer !\e"
+MFE0050017,\h(«De Loco»)Ou peut-être…… Bien cuite !!!\e
+MGE0050000,"\h(«Aika»)He……
+Was ist das für ein Geruch?\e"
+MGE0050001,\h(«Fina»)Es riecht verbrannt……\e
+MGE0050002,\h(«Drachma»)Schau mal am Horizont!\e
+MGE0050003,\h(«Vyse»)Der Wald!!!\e
+MGE0050004,"\h(«De Loco»)Brenne! Brenne!
+Breeeeeeeeeennnnnnnne!!!\e"
+MGE0050005,"\h(«De Loco»)Seht euch die gewaltige Macht meiner Flame
+Cannon an! Je dichter der Wald, desto besser
+brennt er! HAHAHAHAHA!!!\e"
+MGE0050006,"\h(«De Loco»)Wenn ich den Wald niedergebrannt habe, kann
+ich endlich die Lost City von Rixis finden,
+und dann gehört der Moon Crystal mir!!!\e"
+MGE0050007,"\h(«Vizekapitän»)Lord De Loco!
+Ein Schiff nähert sich uns von achtern.\e"
+MGE0050008,"\h(«Vizekapitän»)Es stimmt mit der Beschreibung dieser
+Luftpiraten überein!\e"
+MGE0050009,"\h(«De Loco»)Vyse ist hier?!
+Der Grünschnabel, der aus der Grand Fortress
+geflohen ist und Belleza besiegt hat!\e"
+MGE0050010,"\h(«De Loco»)Ausgezeichnet!!! AUSGEZEICHNET!!!!!
+Er kommt gerade rechtzeitig, um die Hitze
+meiner Flame Cannon zu spüren!\e"
+MGE0050011,"\h(«De Loco»)Hihihihi……
+Wie wohl Vyse gern sein Fleisch isst……\e"
+MGE0050012,\h(«De Loco»)Kurz angebraten?\e
+MGE0050013,"\h(«De Loco»)Ich hoffe, er stirbt nicht zu schnell!
+HAHAHAHAHAHA!!!\e"
+MGE0050014,"\h(«Aika»)Der Wald!
+Das ist ja furchtbar!
+Welcher hirnverbrannte Idiot würde so etwas tun?\e"
+MGE0050015,"\h(«Vyse»)Wer es auch ist, er muss mit mir rechnen!\e"
+MGE0050016,"\h(«Drachma»)Wenn wir von dieser Feuerwand eingeholt werden,
+dann war's das für uns. Wir müssen an den
+Flammen vorbeifahren und einen Gegenangriff
+starten!\e"
+MGE0050017,\h(«De Loco»)Oder vielleicht…… gut durch!!!\e
+ME0060000,"\h(«De Loco»)What?! What?!!!
+Impossible! My… my Flame Cannon! How!?!?!\e"
+ME0060001,"\h(«De Loco»)It can't be! It can't be! It can't be!
+There was no way they could defeat me!!!
+This must be a dream… A dream! I tell you!!!\e"
+ME0060002,"\h(«Vice Captain»)Sir… sir!
+Get a hold of yourself!\e"
+ME0060003,"\h(«Vice Captain»)We must retreat!
+Head back to Moon Stone Mountain!\e"
+ME0060004,"\h(«Aika»)Alright!
+We've got them on the run!\e"
+ME0060005,"\h(«Vyse»)They're probably searching for the Moon
+Crystal, too. We've got to hurry!\e"
+MSE0060000,"\h(«De Loco»)¿¡Qué?! ¡¡¡¿Qué?!!!
+¡Imposible! ¡Mi…… mi Cañón de Fuego!
+¡¿¡¿¡Cómo puede ser!?!?!\e"
+MSE0060001,"\h(«De Loco»)¡No puede ser! ¡No puede ser! ¡No puede ser!
+¡¡¡Era imposible que me derrotaran!!!
+Debe ser un sueño…… ¡Un sueño! ¡¡¡Te lo dije!!!\e"
+MSE0060002,"\h(«Vicecapitán»)¡Señor…… señor!
+¡Cálmese!\e"
+MSE0060003,"\h(«Vicecapitán»)¡Debemos retirarnos!
+¡Regresamos al Monte Lunar!\e"
+MSE0060004,"\h(«Aika»)¡Muy bien!
+¡Hemos conseguido que se retiren!\e"
+MSE0060005,"\h(«Vyse»)Seguro que ellos también buscan el Cristal
+Lunar. ¡Hay que darse prisa!\e"
+MFE0060000,"\h(«De Loco»)Quoi ?! Quoi ?!!!
+C'est impossible ! Mon…… mon Canon Flamme !
+Comment !?!?!\e"
+MFE0060001,"\h(«De Loco»)Ce n'est pas possible ! Ce n'est pas possible !
+J'étais invincible !!! Je dois rêver…… rêver !
+C'est certain !!!\e"
+MFE0060002,"\h(«Vice Capitaine»)Capitaine…… Capitaine !
+Reprenez-vous !\e"
+MFE0060003,"\h(«Vice Capitaine»)Il faut battre en retraite !
+Retourner à la Montagne Pierre de Lune !\e"
+MFE0060004,"\h(«Aika»)Super !
+Ils ont pris la fuite !\e"
+MFE0060005,"\h(«Vyse»)Et ils cherchent probablement le Cristal de
+Lune. Il faut faire vite !\e"
+MGE0060000,"\h(«De Loco»)Was?! Wie?!!!
+Unmöglich! Mein…… meine Flame Cannon! Wie!?!?!\e"
+MGE0060001,"\h(«De Loco»)Es kann nicht sein! Es kann einfach
+nicht sein! Sie konnten mich nicht besiegen!!!
+Das muss ein schlechter Traum sein……
+Ein Traum! Ich sag's euch!!!\e"
+MGE0060002,"\h(«Vizekapitän»)Sir……  Sir!
+Reißen Sie sich zusammen!\e"
+MGE0060003,"\h(«Vizekapitän»)Wir müssen uns zurückziehen!
+Zurück zum Moon Stone Mountain!\e"
+MGE0060004,"\h(«Aika»)OK!
+Sie reißen vor uns aus!\e"
+MGE0060005,"\h(«Vyse»)Sie suchen wahrscheinlich auch nach dem Moon
+Crystal. Wir müssen uns beeilen, bevor sie ihn
+finden!\e"
+ME0190000,"\h(«Alfonso»)Look… Over there!
+So, King Ixa'taka was hiding the Crystal 
+from us after all…\e"
+ME0190001,"\h(«Alfonso»)Heh, this is going to be easy.
+All I have to do is take the Crystal from him 
+and the Empress will be pleased.\e"
+ME0190002,"\h(«New Vice Captain»)Awaiting orders, Admiral…\e"
+ME0190003,"\h(«New Vice Captain»)Oh, and I heard that you were injured 
+in the mines. Are you alright, sir?\e"
+ME0190004,"\h(«Alfonso»)I don't ever want to hear you speak of those
+mines again! Understand?!\e"
+ME0190005,"\h(«Alfonso»)All ships, prepare for battle!
+Follow my flagship, the Cygnus!
+Head towards the light and find King Ixa'taka.\e"
+ME0190006,"\h(«Alfonso»)Blast! Retreat!!!
+We cannot get past the Gigas!\e"
+ME0190007,"\h(«New Vice Captain»)But… but… sir…
+The battle hasn't even started yet.\e"
+ME0190008,"\h(«Alfonso»)Why are you questioning my orders?!
+I refuse to die in these filthy lands! 
+All ships, return to Valua at once!\e"
+MSE0190000,"\h(«Alfonso»)Mira…… ¡Por allí!
+Así que el Rey de Ixa'taka estaba escondiendo el
+Cristal……\e"
+MSE0190001,"\h(«Alfonso»)Eh, esto va a ser muy fácil.
+Todo lo que hay que hacer es quitarle el Cristal
+y la Emperatriz estará muy complacida.\e"
+MSE0190002,"\h(«Nuevo Vicecapitán»)A sus órdenes, Almirante……\e"
+MSE0190003,"\h(«Nuevo Vicecapitán»)He oído que fue herido por una mina.
+¿Se encuentra mejor, Señor?\e"
+MSE0190004,"\h(«Alfonso»)¡Te prohíbo que vuelvas a mencionar esas minas!
+¿¡Entiendes!?\e"
+MSE0190005,"\h(«Alfonso»)¡Todos los buques, preparados para la batalla!
+¡Que sigan a mi buque insignia El Cisne!
+Que vayan hacia la luz y encuentren al Rey de
+Ixa'taka.\e"
+MSE0190006,"\h(«Alfonso»)¡Explosiones! ¡¡¡Retirada!!!
+¡No podemos pasar por el Gigas!\e"
+MSE0190007,"\h(«Nuevo Vicecapitán»)Pero, pero…… Señor……
+La batalla todavía no ha empezado.\e"
+MSE0190008,"\h(«Alfonso»)¡¿Cómo osas poner en entredicho mis órdenes?!
+¡Me niego a morir en estas apestosas tierras!
+¡Que regresen todos los buques a Valua!\e"
+MFE0190000,"\h(«Alfonso»)Regardez…… Là-bas !
+Alors, le Roi Ixa'taka nous cachait le Cristal……\e"
+MFE0190001,"\h(«Alfonso»)Hé, ça va être facile.
+Je dois simplement lui prendre le Cristal.
+L'Impératrice en sera ravie.\e"
+MFE0190002,"\h(«Nouveau Vice Capitaine»)J'attends vos ordres, Amiral……\e"
+MFE0190003,"\h(«Nouveau Vice Capitaine»)Oh, et on m'a dit que vous vous étiez blessé
+dans les mines. Vous allez bien, capitaine ?\e"
+MFE0190004,"\h(«Alfonso»)Je ne veux plus vous entendre parler de ces
+mines ! Compris ?!\e"
+MFE0190005,"\h(«Alfonso»)Que tous les navires se préparent à attaquer !
+Suivez mon vaisseau amiral, le Cygnus ! Avancez
+vers la lumière et trouvez le Roi Ixa'taka.\e"
+MFE0190006,"\h(«Alfonso»)La barbe ! Replions-nous !!!
+Le Gigas nous empêche de passer !\e"
+MFE0190007,"\h(«Nouveau Vice Capitaine»)Mais…… mais…… capitaine……
+La bataille n'a même pas encore commencé.\e"
+MFE0190008,"\h(«Alfonso»)Pourquoi discutez-vous mes ordres ?!
+Je refuse de mourir sur ces terres putrides !
+Que tous les navires retournent immédiatement à
+Valua !\e"
+MGE0190000,"\h(«Alfonso»)Schaut…… dort drüben!
+König Ixa'taka hat den Kristall also doch vor
+uns versteckt…\e"
+MGE0190001,"\h(«Alfonso»)He, das ist wirklich einfach.
+Ich muss ihm nur den Kristall wegnehmen,
+und die Kaiserin wird erfreut sein.\e"
+MGE0190002,"\h(«Neuer Vizekapitän»)In Erwartung Ihrer Befehle, Admiral……\e"
+MGE0190003,"\h(«Neuer Vizekapitän»)Oh, und ich habe gehört, dass Sie in den Minen
+verletzt wurden. Geht es Ihnen gut, Sir?\e"
+MGE0190004,"\h(«Alfonso»)Ich möchte nicht, dass diese Minen noch einmal
+erwähnt werden, verstanden?!\e"
+MGE0190005,"\h(«Alfonso»)Alle Schiffe zum Kampf bereitmachen!
+Folgt meinem Flaggschiff, der Cygnus!
+Fahrt dem Licht entgegen und findet
+König Ixa'taka.\e"
+MGE0190006,"\h(«Alfonso»)Verdammt! Rückzug!!!
+Wir können nicht an dem Gigas vorbei!\e"
+MGE0190007,"\h(«Neuer Vizekapitän»)Aber…… aber…… Sir……
+Die Schlacht hat doch noch nicht einmal
+begonnen.\e"
+MGE0190008,"\h(«Alfonso»)Warum stellst du meine Befehle in Frage?!
+Ich weigere mich, in diesem dreckigen Land
+mein Leben zu lassen! Alle Schiffe, sofort
+zurück nach Valua!\e"
+ME0210000,"\h(«De Loco»)This cannot be!
+How could I lose twice?!\e"
+ME0210001,"\h(«De Loco»)No… No… No…
+No… this has to be a dream… 
+It's all just a bad dream…\e"
+ME0210002,"\h(«Vice Captain»)Sir!
+Get a hold of yourself!\e"
+ME0210003,"\h(«Vice Captain»)We can't face the Gigas in this shape! 
+All ships, back to Valua!\e"
+ME0210004,"\h(«Aika»)Alright!
+De Loco's retreating!\e"
+ME0210005,"\h(«Drachma»)It's still too early to celebrate.
+We still have to stop Grendel!\e"
+ME0210006,\h(«Vyse»)But… he's too big! How can we stop him?\e
+ME0210007,\h(«Drachma»)See that canyon?\e
+ME0210008,"\h(«Drachma»)No matter how strong that thing is, if it falls
+into the canyon, it will be stuck.\e"
+ME0210009,"\h(«Vyse»)I see…
+So, all we have to do is knock it down!\e"
+ME0210010,"\h(«Drachma»)Aye!
+Wait for him to pass in front of it,
+then hit him in the back!\e"
+ME0210011,"\h(«Vyse»)Got it!
+Alright everyone, let's take him down!\e"
+MSE0210000,"\h(«De Loco»)¡No puede ser!
+¡No puedo perder por segunda vez!\e"
+MSE0210001,"\h(«De Loco»)No…… No…… No……
+No…… debo de estar soñando……
+Sólo es un mal sueño……\e"
+MSE0210002,"\h(«Vicecapitán»)¡Señor!
+¡Contrólese!\e"
+MSE0210003,"\h(«Vicecapitán»)¡No podemos enfrentarnos al Gigas de esta forma!
+¡Que todos los navíos regresen a Valua!\e"
+MSE0210004,"\h(«Aika»)¡Muy bien!
+¡De Loco se retira!\e"
+MSE0210005,"\h(«Drachma»)Aún es pronto para celebraciones.
+¡Todavía tenemos que detener a Grendel!\e"
+MSE0210006,"\h(«Vyse»)Pero…… ¡es demasiado grande!
+¿Cómo vamos a derrotarlo?\e"
+MSE0210007,\h(«Drachma»)¿Ves ese cañón?\e
+MSE0210008,"\h(«Drachma»)Por muy grande que sea ese animal, si cae dentro
+del cañón, está perdido.\e"
+MSE0210009,"\h(«Vyse»)Ya veo……
+¡O sea…… tenemos que derribarlo!\e"
+MSE0210010,"\h(«Drachma»)¡Eso es!
+¡Espera a que pase por delante y le das en la
+espalda!\e"
+MSE0210011,"\h(«Vyse»)¡Entendido!
+¡Muy bien, todo el mundo, vamos a por él!\e"
+MFE0210000,"\h(«De Loco»)Ce n'est pas possible !
+Comment est-ce que j'ai pu perdre deux fois ?!\e"
+MFE0210001,"\h(«De Loco»)Non…… Non…… Non……
+Non…… je dois rêver……
+Ce n'est qu'un mauvais rêve……\e"
+MFE0210002,"\h(«Vice Capitaine»)Capitaine !
+Reprenez-vous !\e"
+MFE0210003,"\h(«Vice Capitaine»)Nous ne pouvons pas faire face au Gigas dans cet
+état ! Que tous les navires repartent à Valua !\e"
+MFE0210004,"\h(«Aika»)Super !
+De Loco bat en retraite !\e"
+MFE0210005,"\h(«Drachma»)Il est trop tôt pour crier victoire.
+Nous n'avons pas encore arrêté Grendel !\e"
+MFE0210006,\h(«Vyse»)Mais…… il est trop grand ! Comment l'arrêter ?\e
+MFE0210007,\h(«Drachma»)Vous voyez ce canyon ?\e
+MFE0210008,"\h(«Drachma»)S'il tombe dans le canyon, il restera coincé
+même s'il est très fort.\e"
+MFE0210009,"\h(«Vyse»)Je vois……
+Donc, il faut juste le faire tomber !\e"
+MFE0210010,"\h(«Drachma»)Exact !
+Attendez qu'il passe devant,
+et tirez-lui dans le dos !\e"
+MFE0210011,"\h(«Vyse»)Compris !
+Allez tout le monde, on le fait tomber !\e"
+MGE0210000,"\h(«De Loco»)Das kann doch nicht sein!
+Wie konnte ich gleich zweimal verlieren?!\e"
+MGE0210001,"\h(«De Loco»)Nein…… nein…… nein……
+Nein…… das muss ein Traum sein……
+Es ist alles nur ein böser Traum……\e"
+MGE0210002,"\h(«Vizekapitän»)Sir!
+Reißen Sie sich zusammen!\e"
+MGE0210003,"\h(«Vizekapitän»)In diesem Zustand können wir den Gigas nicht
+bekämpfen! Alle Schiffe zurück nach Valua!\e"
+MGE0210004,"\h(«Aika»)Siehe da!
+De Loco zieht sich zurück!\e"
+MGE0210005,"\h(«Drachma»)Wir sollten uns nicht zu früh freuen.
+Wir müssen nach wie vor Grendel aufhalten!\e"
+MGE0210006,"\h(«Vyse»)Aber…… er ist zu groß! Wie können wir ihn
+aufhalten?\e"
+MGE0210007,\h(«Drachma»)Seht ihr diesen Canyon?\e
+MGE0210008,"\h(«Drachma»)Egal, wie stark dieses Ding ist, wenn es in
+den Canyon fällt, steckt es fest.\e"
+MGE0210009,"\h(«Vyse»)Verstehe……
+Also brauchen wir ihn nur umzuwerfen!\e"
+MGE0210010,"\h(«Drachma»)Aye!
+Wartet, bis er daran vorbeikommt und zielt
+dann auf seinen Rücken!\e"
+MGE0210011,"\h(«Vyse»)Verstehe!
+OK, allerseits, holen wir ihn uns!\e"
+"",me235a.sct
+"",me112c.sct
+"",EVE05発生しました。\c
+"",me509a.sct
+"",M0232
+"",e6e005
+"",a241ae05_2.mld
+"",a241ae05.mld
+"",a241ae05_efe.mld
+"",a241ae05.mld
+"",M0314
+"",M0314
+"",a241ae05.mld
+"",a241ae05efe2.mld
+"",a241ae05_3.mld
+"",a241ae05.mld
+"",a241ae05_3.mld
+"",a241ae05_2.mld
+"",a241ae05_efe.mld
+"",a241ae05_3.mld
+"",me509a.sct
+"",a241ae05.mld
+"",EV_E06発生しました。\c
+"",M0370
+"",e6e006
+"",a241ae06.mld
+"",a241ae06.mld
+"",a241ae06b.mld
+"",a241ae06b.mld
+"",a241ae06.mld
+"",a241ae06b.mld
+"",EV_E19発生しました。\c
+"",M0248
+"",e6e019
+"",a241ae19.mld
+"",a241ae19_2.mld
+"",a241ae19_efe.mld
+"",a241ae19.mld
+"",a241ae19_2.mld
+"",a241ae19_efe.mld
+"","EV_E21発生しました。
+この後船ばとるなんでイベント
+みてください。\c"
+"",M0325
+"",e6e021
+"",a241ae06.mld
+"",a241ae06.mld
+"",a241ae21.mld
+"",a241ae21.mld
+"",me515a.sct
+"",a241ae06.mld
+"",a241ae21.mld
+"",Ｅ２２のイベントを通過しました。\c

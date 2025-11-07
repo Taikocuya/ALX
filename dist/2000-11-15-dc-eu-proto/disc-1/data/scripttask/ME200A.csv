@@ -1,0 +1,23 @@
+[Event Name],Task ID
+MA0030000,"\h(«Vyse»)There's no point in resisting. Throw down your 
+weapons and hand over your ship.\e"
+MA0030001,"\h(«Valuan Soldier»)Imbeciles!
+What do the two of you think you can do against
+the five of us? Take 'em out.\e"
+MA0030002,\h(«Dyne»)I think you miscounted. I only see four of you.\e
+MA0030003,\h(«Vyse»)Dad!\e
+MA0030004,"\h(«Dyne»)We'll take care of these guys. Make your way to 
+the bridge and shut down the engines.\e"
+MA0030005,"\h(«Dyne»)And, when we're out here, remember, it's 
+“Captain” …not “Dad.” Got it?\e"
+MA0030006,"\h(«Vyse»)Yeah, yeah… Aye aye, “Captain.”
+Heh… Aika, shall we go introduce ourselves to 
+the captain of this ship?\e"
+MA0030007,\h(«Aika»)I'm ready when you are!\e
+MA0030008,\h(«Vyse»)Alright! Let's go find the bridge!\e
+"",me101b.sct
+"",a200aa03.mld
+"",a200aa03.mld
+"",M0269
+"",e6a003
+"",a200aa03.mld

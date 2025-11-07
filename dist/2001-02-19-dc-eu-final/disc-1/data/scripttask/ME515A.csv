@@ -1,0 +1,257 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MA5150000,"\h(«Drachma»)We need to get in close to damage
+that thing… But, there's no telling
+what that thing will do.\e"
+MA5150001,"\h(«Drachma»)Just keep an eye on the damage levels of
+the ship, boy. We'll try and damage him
+little by little.\c"
+MA5150002,"\h(«Drachma»)It's too big… I don't even know where
+to begin attacking it. Boy, where do
+you think we should try attacking it?\e"
+MA5150003,"\h(«What will you do?»)“Try attacking its head.”
+“Try attacking its legs.”\e"
+MA5150004,"\h(«Vyse»)Let's try attacking its head.
+That might be its weak point.\e"
+MA5150005,"\h(«Drachma»)Very well.
+Increase our altitude.\c"
+MA5150006,"\h(«Vyse»)Let's try attacking its legs.
+They're holding up that huge body,
+so maybe they're its weak point.\e"
+MA5150007,"\h(«Drachma»)Very well.
+Decrease our altitude.\c"
+MA5150008,"\h(«Drachma»)Okay, boy… you can continue attackin' if you
+want, or you can back off and make repairs on
+the ship.\e"
+MA5150009,"\h(«What will you do?»)“Keep attacking.”
+“Back off and repair the ship.”\e"
+MA5150010,"\h(«Vyse»)Let's continue attacking.
+We need to keep damaging that thing,
+even if we can only do it a little at a time.\e"
+MA5150011,\h(«Vyse»)Let's back off and regroup for now.\e
+MA5150012,"\h(«Where do you want to attack now?»)“Attack its head.”
+“Attack its legs.”\c"
+MA5150013,"\h(«Fina»)Look!
+Grendel's acting strangely!\e"
+MA5150014,"\h(«Aika»)Uh oh…
+Why am I getting a bad feeling about this?\e"
+MA5150015,"\h(«Drachma»)Wait… This might be our chance.
+Watch it carefully…\e"
+MA5150016,"\h(«Drachma»)It's not actin' normally. If we attack it now,
+we might be able to knock it off balance.\e"
+MA5150017,"\h(«Drachma»)And if we can hit it hard enough, we might
+be able to knock it over into that valley
+behind it. That should hold it for a while.\e"
+MA5150018,"\h(«Vyse»)Alright!
+We knocked Grendel into the valley!!\e"
+MA5150019,"\h(«Drachma»)Good job, boy! Now is our chance to grab the
+Green Moon Crystal and send that thing back
+to where it came from!\c"
+MA5150020,"\h(«What will you do?»)“Continue attacking.”
+“Back off and regroup.”\c"
+MA5150021,"\h(«Drachma»)What are you doing, boy?!
+Hurry up and use the Harpoon Cannon!
+It's our only chance!!\c"
+MSA5150000,"\h(«Drachma»)Tenemos que acercarnos
+si queremos causarle daño……
+Pero no se puede saber cómo va a responder.\e"
+MSA5150001,"\h(«Drachma»)No pierdas de vista los niveles de daño del
+navío, muchacho. Vamos a intentar producirle
+daños poco a poco.\c"
+MSA5150002,"\h(«Drachma»)Es demasiado…… Ni siquiera sé por dónde empezar.
+¿Dónde crees que deberíamos atacarle?\e"
+MSA5150003,"\h(«¿Qué vas a hacer?»)“Atacarle en la cabeza.”
+“Atacarle en las piernas.”\e"
+MSA5150004,"\h(«Vyse»)Atacarle en la cabeza.
+Puede que sea su punto débil.\e"
+MSA5150005,"\h(«Drachma»)Muy bien.
+Aumenta la altitud.\c"
+MSA5150006,"\h(«Vyse»)Tenemos que darle en las piernas.
+Soportan ese cuerpo tan enorme,
+así que a lo mejor son su punto débil.\e"
+MSA5150007,"\h(«Drachma»)Muy bien.
+Disminuye la altitud.\c"
+MSA5150008,"\h(«Drachma»)Vale, chico…… tienes dos alternativas:
+seguir atacando al bicho o
+retirarte y reparar el navío.\e"
+MSA5150009,"\h(«¿Qué vas a hacer?»)“Seguir atacando.”
+“Retirarme y reparar el navío.”\e"
+MSA5150010,"\h(«Vyse»)Vamos a seguir atacando. Tenemos que seguir
+hiriendo a ese bicho, aunque le produzcamos
+poco daño en cada disparo.\e"
+MSA5150011,\h(«Vyse»)Vamos a retirarnos y nos reorganizaremos.\e
+MSA5150012,"\h(«¿Dónde quieres atacarle esta vez?»)“Atacar en la cabeza.”
+“Atacar en las piernas.”\e"
+MSA5150013,"\h(«Fina»)¡Mira!
+¡Grendel se comporta de una forma un poco rara!\e"
+MSA5150014,"\h(«Aika»)Oh……
+¿Por qué me da tan mala espina todo esto?\e"
+MSA5150015,"\h(«Drachma»)Un momento……
+Ésta puede ser nuestra oportunidad.
+Hay que actuar con cuidado……\e"
+MSA5150016,"\h(«Drachma»)No se está comportando con normalidad. Si le
+atacamos ahora, es posible que pierda el
+equilibrio.\e"
+MSA5150017,"\h(«Drachma»)Y si le acertamos lo suficiente, quizá
+consigamos derribarle y que caiga en el valle
+de detrás. Eso le mantendrá fuera de combate.\e"
+MSA5150018,"\h(«Vyse»)¡Muy bien!
+¡Hemos derribado a Grendel
+y ha caído dentro del valle!\e"
+MSA5150019,"\h(«Drachma»)¡Buen trabajo, muchacho! ¡Ésta es nuestra
+oportunidad de conseguir el Cristal Verde y
+enviar a ese bicho al lugar de donde viene!\c"
+MSA5150020,"\h(«¿Qué vas a hacer?»)“Seguir atacando.”
+“Retirarme y reorganizarnos.”\c"
+MSA5150021,"\h(«Drachma»)¡¿Pero qué haces, muchacho?!
+¡Date prisa y utiliza el Cañón Arpón!
+¡¡Es nuestra única oportunidad!!\c"
+MFA5150000,"\h(«Drachma»)Il faut se rapprocher le plus possible…… Mais,
+il est impossible de prévoir les réactions de
+cette créature.\e"
+MFA5150001,"\h(«Drachma»)Gardez un oeil sur le niveau des dégâts.
+Nous essayerons de l'endommager petit à petit.\c"
+MFA5150002,"\h(«Drachma»)Il est trop gros…… Je ne sais même pas par où
+commencer à l'attaquer.
+D'après vous, par où devrions-nous commencer ?\e"
+MFA5150003,"\h(«Que ferez-vous ?»)“Essayer d'attaquer sa tête.”
+“Essayer d'attaquer ses jambes.”\e"
+MFA5150004,"\h(«Vyse»)Essayons d'attaquer sa tête.
+C'est peut-être son point faible.\e"
+MFA5150005,"\h(«Drachma»)Entendu.
+Augmentez notre altitude.\c"
+MFA5150006,"\h(«Vyse»)Essayons d'attaquer ses jambes.
+C'est peut-être son point faible car
+elles supportent le poids de cet énorme corps.\e"
+MFA5150007,"\h(«Drachma»)Entendu.
+Réduisez notre altitude.\c"
+MFA5150008,"\h(«Drachma»)OK…… vous pouvez continuer à attaquer si vous
+voulez, ou vous pouvez vous retirer et faire des
+réparations.\e"
+MFA5150009,"\h(«Que ferez-vous ?»)“Continuer d'attaquer.”
+“Se retirer et réparer le navire.”\e"
+MFA5150010,"\h(«Vyse»)Continuons d'attaquer.
+Il faut continuer d'endommager cette chose,
+même si ce n'est qu'à petites doses.\e"
+MFA5150011,\h(«Vyse»)Retirons-nous et resaissons-nous pour le moment.\e
+MFA5150012,"\h(«Où voulez-vous attaquer maintenant?»)“Attaquer sa tête.”
+“Attaquer ses jambes.”\c"
+MFA5150013,"\h(«Fina»)Regardez !
+Grendel se comporte de façon étrange !\e"
+MFA5150014,"\h(«Aika»)Uh oh……
+Pourquoi ai-je un mauvais pressentiment ?\e"
+MFA5150015,"\h(«Drachma»)Attendez…… C'est peut-être notre chance.
+Regardez-le bien……\e"
+MFA5150016,"\h(«Drachma»)Il se comporte bizarrement.
+Si nous l'attaquons maintenant,
+nous pourrons peut-être le déstabiliser.\e"
+MFA5150017,"\h(«Drachma»)Si nous pouvons lui tirer dessus avec assez de
+puissance, nous pourrons peut-être le faire
+dégringoler dans cette vallée.
+Cela devrait le tenir à l'écart un moment.\e"
+MFA5150018,"\h(«Vyse»)Super ! Nous avons fait tomber Grendel dans la
+vallée !!\e"
+MFA5150019,"\h(«Drachma»)Bien joué ! C'est le moment ou jamais de prendre
+le Cristal de Lune Verte et de le renvoyer là
+d'où il vient !\c"
+MFA5150020,"\h(«Que ferez-vous ?»)“Continuer d'attaquer.”
+“Se retirer et réparer le navire.”\e"
+MFA5150021,"\h(«Drachma»)Que faites-vous ?!
+Dépêchez-vous, servez-vous du Canon Harpon !
+C'est notre seule chance !!\c"
+MGA5150000,"\h(«Drachma»)Wir müssen nahe herangehen, um dieses Ding
+zu treffen…… aber es ist unmöglich
+vorauszusagen, wie es reagieren wird.\e"
+MGA5150001,"\h(«Drachma»)Behalte bloß den Schaden am Schiff im Auge,
+Junge. Wir werden versuchen, ihm nach und
+nach Schaden zuzufügen.\c"
+MGA5150002,"\h(«Drachma»)Es ist zu groß…… wo soll man anfangen, ihn
+anzugreifen? Junge, was meinst du, wo sollen
+wir ihn zuerst angreifen?\e"
+MGA5150003,"\h(«Was wirst du tun?»)“Versuche, seinen Kopf anzugreifen.”
+“Versuche, seine Beine anzugreifen.”\e"
+MGA5150004,"\h(«Vyse»)Versuchen wir, seinen Kopf anzugreifen.
+Das ist vielleicht sein Schwachpunkt.\e"
+MGA5150005,"\h(«Drachma»)Also gut.
+Gehen wir höher.\c"
+MGA5150006,"\h(«Vyse»)Lasst uns versuchen, seine Beine anzugreifen.
+Sie halten diesen riesigen Körper aufrecht,
+vielleicht sind sie seine Schwachstelle.\e"
+MGA5150007,"\h(«Drachma»)Also gut.
+Geh runter.\c"
+MGA5150008,"\h(«Drachma»)Okay, Junge…… du kannst mit den Angriffen
+fortfahren, wenn du willst, aber du kannst
+auch mit den Reparaturen am Schiff beginnen.\e"
+MGA5150009,"\h(«Was wirst du tun?»)“Weiter angreifen.”
+“Dich zurückziehen und das Schiff reparieren.”\e"
+MGA5150010,"\h(«Vyse»)Lasst uns weiter angreifen.
+Wir müssen diesem Ding weiterhin Schaden
+zufügen, selbst wenn wir es nur nach und nach
+machen.\e"
+MGA5150011,"\h(«Vyse»)Ziehen wir uns erst zurück und sammeln
+wir uns neu.\e"
+MGA5150012,"\h(«Wo möchtest du jetzt angreifen?»)“Seinen Kopf angreifen.”
+“Seine Beine angreifen.”\c"
+MGA5150013,"\h(«Fina»)Seht mal!
+Grendel benimmt sich seltsam!\e"
+MGA5150014,"\h(«Aika»)Ach……
+Warum bekomme ich so ein komisches Gefühl?\e"
+MGA5150015,"\h(«Drachma»)Wartet…… das ist vielleicht unsere Chance.
+Beobachtet ihn genau……\e"
+MGA5150016,"\h(«Drachma»)Er benimmt sich nicht normal. Wenn wir ihn
+jetzt angreifen, können wir ihn vielleicht
+aus dem Gleichgewicht bringen.\e"
+MGA5150017,"\h(«Drachma»)Und wenn er viel abbekommt, können wir ihn
+vielleicht in dieses Tal dahinter bugsieren.
+Da kann er dann eine Weile bleiben.\e"
+MGA5150018,"\h(«Vyse»)In Ordnung!
+Wir haben Grendel ins Tal abgedrängt!!\e"
+MGA5150019,"\h(«Drachma»)Gut gemacht, Junge! Jetzt ist unsere Chance,
+den Green Moon Crystal zu bekommen und diesem
+Ding Beine zu machen!\c"
+MGA5150020,"\h(«Was wirst du tun?»)“Weiter angreifen.”
+“Dich zurückziehen und neu planen.”\c"
+MGA5150021,"\h(«Drachma»)Was machst du denn, Junge?!
+Beiil dich und setz die Harpoon Cannon ein!
+Es ist unsere einzige Chance!!\c"
+"",M0465
+"",k000015.mld
+"",k000015.mld
+"",f7100050S.p04
+"",k000015.mld
+"",b2500.mld
+"",b2500.mld
+"",b2501.mld
+"",b2501.mld
+"",b2502.mld
+"",b2502.mld
+"",f7100100S.p04
+"",me515a.sct
+"",me090a.sct
+"",f7100101S.p04
+"",b2504.mld
+"",b2504.mld
+"",b2504.mld
+"","
+ターン選択
+\c"
+"","ターン0
+ターン1
+ターン2\cターン3\cターン4
+ターン5\cターン6\cターン7\cターン8\c"
+"",f3000012
+"",b2500.mld
+"",f3000013
+"",b2501.mld
+"",f3000014
+"",b2502.mld
+"",f3000014
+"",b2502.mld
+"",me241a.sct

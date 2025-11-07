@@ -1,0 +1,154 @@
+[Event Name],Task ID
+MA0070007,"\h(«Aika»)How is she, Vyse?\e"
+MA0070008,"\h(«Vyse»)Hmm… her breathing's more regular now. 
+I think she'll be alright.\e"
+MFA0070005,"\h( )Ceci dit, faites attention…… à vous.
+……ne…… laissez pas…… confiance……\e"
+MFA0070007,"\h(«Aika»)Comment va-t-elle, Vyse ?\e"
+MFA0070008,"\h(«Vyse»)Humm…… sa respiration est plus régulière
+maintenant. Je crois qu'elle s'en sortira.\e"
+MGA0070007,"\h(«Aika»)Wie geht es ihr, Vyse?\e"
+MGA0070008,"\h(«Vyse»)Hmm……  Sie atmet jetzt ruhiger.
+Ich glaube, sie wird es überstehen.\e"
+MSA0070003,"\h( )Fina……
+Tú…… sustituyes…… a Rami…… la…… luna……\e"
+MSA0070005,"\h( )En cualquier caso, ten…… cuidado.
+Y…… no…… te…… confíes……\e"
+MSA0070007,"\h(«Aika»)¿Cómo está, Vyse?\e"
+MSA0070008,"\h(«Vyse»)Bueno…… Su respiración es más regular ahora.
+Creo que se pondrá bien.\e"
+Ms028e000,"\h(«Fina»)These flowers are not real. The Elders made
+them. You see… no living creature, other than
+the Silvites, lives in this shrine.\c"
+Ms028e001,"\h(«Fina»)Elder Prime made this doll for me when I was
+a small child. He's been like a father to me
+for most of my life…\e"
+Ms028e002,"\h(«Fina»)I spent most of my childhood days in this room
+playing with this doll and with Cupil.\c"
+Ms028e003,"\h(«Fina»)This used to be my room. I grew up in this
+place… I have many fond memories of this
+place… But, it was so lonely, here.\c"
+Ms028e004,"\h(«Fina»)This device allows you to speak with and see
+people that are across vast distances.\e"
+Ms028e005,"\h(«Fina»)But, after Ramirez left… there was nobody
+left for me to speak with, except for the
+Elders…\e"
+Ms028e006,"\h(«Fina»)You see… Ramirez, the Elders, and I are the
+only Silvites left.\e"
+Ms028e007,"\h(«Fina»)The Elders said that there is no point in having
+more people here than is necessary… But, for
+some reason, I always felt so lonely here…\c"
+Ms028e008,"\h(«Fina»)This bed is actually quite convenient. The
+sheets are automatically changed everyday.\e"
+Ms028e009,"\h(«Fina»)But, I… I still felt more comfortable sleeping
+in… normal beds. The kind that you all sleep
+in.\e"
+Ms028e010,"\h(«Fina»)Each bed felt so warm… so comforting… almost
+as if they had been bathed in warm sunlight for
+hours and hours. I… I don't know why…\c"
+MFs028e000,"\h(«Fina»)Ces fleurs ne sont pas réelles. Les Anciens les
+ont fabriquées. Vous voyez… dans ce temple, il
+n'y a aucune créature vivante outre les
+Silvites.\c"
+MFs028e001,"\h(«Fina»)Un Ancien m'a fabriqué cette poupée lorsque
+j'étais enfant. C'est un vrai père pour moi
+depuis si longtemps……\e"
+MFs028e002,"\h(«Fina»)J'ai passé mon enfance dans cette pièce, à jouer
+avec cette poupée et Cupil.\c"
+MFs028e003,"\h(«Fina»)C'était ma chambre. C'est ici que j'ai grandi…
+Mais je me sentais seule.\c"
+MFs028e004,"\h(«Fina»)Cet appareil vous permet de communiquer avec des
+personnes que vous pouvez voir même s'ils se
+trouvent à des distances éloignées.\e"
+MFs028e005,"\h(«Fina»)Mais une fois que Ramirez fut parti, il ne
+restait personne à qui je pouvais parler, sauf
+les Anciens…\e"
+MFs028e006,"\h(«Fina»)Vous savez… Ramirez, les Anciens et moi-même
+sommes les seuls Silvites qui restent.\e"
+MFs028e007,"\h(«Fina»)Les Anciens disaient qu'il était inutile d'avoir
+plus de personnes que nécessaire ici… Mais, moi
+je me suis toujours sentie seule.\c"
+MFs028e008,"\h(«Fina»)Ce lit est en fait très pratique. Les draps sont
+changés automatiquement tous les jours.\e"
+MFs028e009,"\h(«Fina»)Mais, je préfère tout de même dormir dans un
+lit… normal. Enfin, le genre de lit où l'on
+dort…\e"
+MFs028e010,"\h(«Fina»)Chaque lit était si chaud, si confortable. Comme
+s'ils avaient pris la chaleur du soleil pendant
+des heures. Je ne sais pas pourquoi…\c"
+MGs028e000,"\h(«Fina»)Diese Blumen sind nicht echt. Die
+Elders haben sie gemacht. Siehst du……
+keine anderen Lebewesen außer den
+Silvitern leben in diesem Heiligtum.\c"
+MGs028e001,"\h(«Fina»)Elder Prime hat diese Puppe für mich
+gemacht, als ich ein Kind war. Er ist, für
+die meiste Zeit meines Lebens, wie
+ein Vater zu mir gewesen……\e"
+MGs028e002,"\h(«Fina»)Ich habe die meiste Zeit meiner
+Kindheit in diesem Raum verbracht und
+mit dieser Puppe und Cupil gespielt.\c"
+MGs028e003,"\h(«Fina»)Das war mein Zimmer. Hier bin ich
+aufgewachsen…… Ich habe viele schöne
+Erinnerungen an diesen Ort…… Aber
+es war so einsam hier.\c"
+MGs028e004,"\h(«Fina»)Dieses Gerät ermöglicht es dir, mit
+Leuten über eine weite Distanz zu sprechen
+und sie zu sehen.\e"
+MGs028e005,"\h(«Fina»)Aber nachdem Ramirez gegangen war……
+gab es niemanden mehr, mit dem ich
+hätte reden können, außer den Elders……\e"
+MGs028e006,"\h(«Fina»)Verstehst du…… Ramirez, die Elders und ich sind
+die einzigen überlebenden Silviter.\e"
+MGs028e007,"\h(«Fina»)Die Elders sagten, es gäbe keinen Grund,
+mehr Leute hier zu haben als notwendig……
+Aber aus irgendeinem Grund habe ich mich hier
+immer sehr einsam gefühlt……\c"
+MGs028e008,"\h(«Fina»)Dieses Bett ist eigentlich ganz praktisch.
+Die Betttücher werden jeden Tag automatisch
+gewechselt.\e"
+MGs028e009,"\h(«Fina»)Trotzdem, ich…… ich schlief lieber
+in…… normalen Betten. Betten, in denen
+ihr alle schlaft.\e"
+MGs028e010,"\h(«Fina»)Jedes Bett fühlte sich so warm an……
+so bequem…… fast so, als hätten sie
+Stunde um Stunde im Sonnenlicht
+gebadet. Ich…… ich weiß nicht, warum……\c"
+MSs028e000,"\h(«Fina»)Estas flores no son verdaderas. Los Ancianos
+las hicieron. Los únicos…… seres vivos
+que hay en este templo son los Silvites.\c"
+MSs028e001,"\h(«Fina»)El Gran Anciano hizo esta muñeca para mí
+cuando yo era pequeña. Siempre ha sido
+como un padre para mí.\e"
+MSs028e002,"\h(«Fina»)Me pasé gran parte de mi infancia en esta
+habitación, jugando con esta muñeca y con Cupil.\c"
+MSs028e003,"\h(«Fina»)Ésta era mi habitación. Crecí aquí……
+Tengo muy buenos recuerdos de este sitio.
+Pero me sentía muy sola.\c"
+MSs028e004,"\h(«Fina»)Este aparato te permite hablar con gente
+e incluso verla desde largas distancias.\e"
+MSs028e005,"\h(«Fina»)Pero cuando Ramírez se fue……
+no tenía a nadie con quien hablar,
+excepto los Ancianos……\e"
+MSs028e006,"\h(«Fina»)Ramírez, los Ancianos y yo
+somos los únicos Silvites que quedan.\e"
+MSs028e007,"\h(«Fina»)Los Ancianos decían que no tiene sentido
+tener más gente de la necesaria. Pero yo
+siempre me he sentido muy sola aquí.\c"
+MSs028e008,"\h(«Fina»)La verdad es que esta cama es muy cómoda.
+Las sábanas se cambian automáticamente y a
+diario.\e"
+MSs028e009,"\h(«Fina»)Pero, de todos modos, es más cómodo dormir en
+camas normales. Esas camas en las que todos
+vosotros dormís.\e"
+MSs028e010,"\h(«Fina»)Todas las camas eran tan calentitas……
+como si hubieran estado al sol
+durante horas. No sé por qué……\c"
+"",me032a.sct
+"",me028a.sct
+"",M5280000
+"",k8570000
+"",e6a007
+"",M0327
+"",a028ea07.mld
+"",a028ea07.mld
+"",a028ea07.mld

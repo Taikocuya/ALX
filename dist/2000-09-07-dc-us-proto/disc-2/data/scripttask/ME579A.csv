@@ -1,0 +1,70 @@
+[Event Name],Task ID
+MA5320000,"\h(《Aika》)Wha, what is this thing!?
+Is it an insect or something?\e"
+MA5320001,"\h(《Vyse》)Wow… There are things like this flying around?
+Now this is why I love sailing… You never know
+what you'll run into…\c"
+MA5320002,"\h(《Aika》)It's too thin!
+We can't hit it from the side…\e"
+MA5320003,"\h(《What will you do?》)“Swing around to the front!”
+“Get behind it!”\c"
+MA5320004,"\h(《Vyse》)Okay, we're right in front of it!
+We should be able to hit it now!\e"
+MA5320005,"\h(《Aika》)The front? Um… Are you sure that thing
+has a front and a back? They both look
+the same to me.\e"
+MA5320006,"\h(《Vyse》)Wh, what does it matter?!
+Just fire at it!!\c"
+MA5320007,"\h(《Vyse》)Okay, we got behind it!
+This should give us an advantage!\e"
+MA5320008,"\h(《Aika》)Behind it? Um… Are you sure that thing
+has a front and a back? They both look
+the same to me.\e"
+MA5320009,"\h(《Vyse》)J, just leave me alone!!
+I know what I'm doing! If I say it's the back,
+it's the back, okay? Just fire at it!!\c"
+MA5320010,"\h(《Aika》)Alright!
+It's starting to run away!\e"
+MA5320011,"\h(《Vyse》)See? I told you
+this was the front!
+Alright, let's go after it!\c"
+MA5320012,"\h(《Aika》)Um… sure. Whatever, Vyse.
+Well, beginning pursuit!\c"
+MA5320013,"\h(《Aika》)Alright!
+It's starting to run away!\e"
+MA5320014,"\h(《Vyse》)See, I told you
+this was the back!
+Alright, let's go after it!\c"
+MA5320015,"\h(《Aika》)Um… sure. Whatever, Vyse.
+Well, beginning pursuit!\c"
+MA5320016,"\h(《Aika》)Uh oh, it looks like it's coming closer!
+I think it looks mad… sorta.\e"
+MA5320017,"\h(《Vyse》)That's funny…
+I could have sworn
+we were in front of it…\e"
+MA5320018,"\h(《Aika》)Will you just get over it already?
+Here it comes! Brace yourselves!\c"
+MA5320019,"\h(《Aika》)Uh oh, it looks like it's coming closer!
+I think it looks mad… sorta.\e"
+MA5320020,"\h(《Vyse》)That's funny…
+I could have sworn
+we were behind of it…\e"
+MA5320021,"\h(《Aika》)Will you just get over it already?
+Here it comes! Brace yourselves!\c"
+MA5320022,"\h(《What will you do?》)“Swing around to the front!”
+“Get behind it!”\c"
+"",M0430
+"",k0200.mld
+"",k0200.mld
+"",f7100051s.p04
+"",k0200.mld
+"",f7100100S.p04
+"",me090a.sct
+"",f7100105S.p04
+"","
+ターン選択
+\c"
+"","ターン0
+ターン1\cターン2\cターン3\cターン4\cターン5\cターン6\c"
+"",f3000027
+"",f3000028

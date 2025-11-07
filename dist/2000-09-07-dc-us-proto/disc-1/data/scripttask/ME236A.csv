@@ -1,0 +1,171 @@
+[Event Name],Task ID
+M90090000,"\h(《Gordo》)Oh, hey! It's you, Vyse!
+Don't you remember me?
+It's me! Gordo, the Black Pirate!\e"
+M90090001,"\h(《Gordo》)I had a change of heart and I decided to open
+this restaurant here in North Ocean!\e"
+M90090002,"\h(《Gordo》)It's a nice place, don't you think? I have taken
+flavors from the four corners of the world and
+made a new style of cooking! Hahaha!\e"
+M90090003,"\h(《Gordo》)Welcome, Vyse! Come!
+You must eat until your belt bursts!
+Try my new Sky Sardine Skewers!\e"
+M90090004,"\h(《Gordo》)Besides, you are much too skinny to be a 
+captain! A man is not judged by his looks, but 
+by the girth of his belly! Hahaha!\e"
+M90090005,"\h(《Gordo》)What was that?
+Nutmeg, black pepper, and veal you say?\e"
+M90090006,"\h(《Gordo》)I see… it appears that you are searching for
+exquisite ingredients.\e"
+M90090007,"\h(《Gordo》)Fortunately, veal we use here in my restaurant. 
+I would be very glad to give you some.\e"
+M90090008,"\h(《Gordo》)It's always best to marinade it for a day or two
+before cooking it… that's when all the flavors
+start to come out. Veal is very hard to come by.\e"
+M90090009,\h(　)You received ”Veal”\e
+M90090010,"\h(《Gordo》)Well then…
+You're still looking for the other 2 
+ingredients, right?\e"
+M90090011,"\h(《Gordo》)Hmm… Nutmeg can easily be found in Maramba. It 
+is easily recognizable for its scent.\e"
+M90090012,"\h(《Gordo》)Perhaps you should go to the very center of 
+trade itself, Nasrad? I'm sure you'd be able to 
+find something there…\e"
+M90090013,"\h(《Gordo》)And what else were you looking for?  Ah yes…
+pepper.  The ”Spice of Dreams” as it is 
+sometimes called.\e"
+M90090014,"\h(《Gordo》)Not only does it cover the stench of old meat, 
+it adds such a wonderfully indescribable taste 
+to it as well.\e"
+M90090015,"\h(《Gordo》)But, alas, I have heard rumors that pepper trees
+have not been seen for quite some time and are
+thought to no longer exist.\e"
+M90090016,"\h(《Gordo》)In the eastern world, there is an island where 
+they say spice trees grow. Maybe you should 
+start your search there?\e"
+M90090017,"\h(《Gordo》)For ”Nutmeg Seeds”, I think you'll be able to 
+find some at Nasrad.\e"
+M90090018,"\h(《Gordo》)For ”Pepper”, you can look in the east, on an 
+island called Spice Island.\e"
+M90090019,"\h(《Gordo》)Well, well… I see that the information that I 
+gave you on the nutmeg and pepper proved to be 
+useful.\e"
+M90090020,"\h(《Gordo》)Well, if you ever have any more questions 
+concerning exotic ingredients, ask none other 
+than Gordo, the Gourmet Pirate!\e"
+M90310000,"\h(《Head Waiter》)Welcome to the Restaurante El Gordo. I am
+Philip, the head waiter…\e"
+M90310001,"\h(《Philip》)I will help you pick a loqua to match whatever
+taste you seek.\e"
+M90310002,"\h(《Philip》)Lately, a new loqua has become extremely
+popular. It is called ”New World Loqua” and it
+is from Ixa'taka.\c"
+M90310003,"\h(《Philip》)Now, if you'll excuse me… I hope you enjoy your
+meal.\c"
+M90310004,"\h(《Philip》)I'm very sorry.
+Gordo, the owner, is currently out on business.\e"
+M90310005,"\h(《Philip》)I believe he has taken his ship, the Bloodlust,
+and is sailing somewhere…\c"
+M90320000,\h(《Waitress》)Welcome to the Restaurante El Gordo.\e
+M90320001,"\h(《Waitress》)Would you like to try our famous full-course
+dinner? It is a very good deal at 4,000 gold
+per person.\e"
+M90320002,"\h(《What will you do?》)”Sounds good! We'll each have one.”
+”Actually, I'm not that hungry right now, thanks.”\e"
+M90320003,"\h(《Waitress》)Well, it appears that you don't have enough
+money. All of our food is made with the best
+ingredients, so it's rather expensive.\e"
+M90320004,"\h(《Waitress》)Please… come back when you have a little more
+money.\c"
+M90320005,"\h(《Waitress》)Very well! Four full course dinners coming right
+up! Now, here you are… enjoy your meal.\e"
+M90320006,"\h(《Waitress》)Is everything fine?
+That's great. Please visit us again sometime…\c"
+M90320007,"\h(《Waitress》)I'm sorry to hear that…
+Very well, perhaps you will visit us again
+sometime.\c"
+M90330000,"\h(《Guest》)Not only does this place serve gourmet food,
+they serve you lots of it!\e"
+M90330001,"\h(《Guest》)And I heard that the owner used to be an Air
+Pirate, too!
+This place is great!\c"
+M90340000,"\h(《Guest》)Such a mellow fragrance…
+And it's so blue that it is almost as if they
+melted a Moon Stone…\e"
+M90340001,"\h(《Guest》)Air Pirates may think all loqua is the same, but
+in my opinion, New World Loqua is the best.\c"
+M90340002,"\h(《Guest》)You should hurry up and grow up so that you may
+experience all the pleasures of the world!
+Ahahahaha!!!\e"
+M14050000,"\h(《Domingo》)Wait a minute…
+You… are you the guy that everyone's talking
+about? Are you Vyse?\e"
+M14050001,"\h(《Domingo》)W, wait a minute… are you Vyse?
+You're a legend among sailors across the skies!\e"
+M14050002,"\h(《Domingo》)You know of me, right?
+I'm the traveling treasure hunter, Domingo.\e"
+M14050003,"\h(《Domingo》)I travel the world looking for new Discoveries…
+It's quite a relaxing job if you ask me…\e"
+M14050004,"\h(《Domingo, huh?》)”Will you join us?”
+”I wish you luck in your quest!”\e"
+M14050005,"\h(《Vyse》)If it is okay with you, I would like you to join
+my crew. Let us work together and find all the
+Discoveries in the world…\e"
+M14050006,"\h(《Domingo》)Heh… sorry, but the only people that I team up 
+with are beautiful women, or men who are better 
+treasure hunters than myself.\e"
+M14050007,"\h(《Domingo》)Well, if you can find at least 30 Discoveries,
+I'll admit that you're better. But, I doubt that
+there's anyone who could actually do that…\e"
+M14050008,"\h(《Vyse》)Heh… I wouldn't talk so fast.
+I've already found more than 30 Discoveries.\e"
+M14050009,"\h(《Domingo》)R, really?!
+I don't believe it… you actually found more
+than 30 Discoveries…\e"
+M14050010,"\h(《Domingo》)You are truly a treasure hunter, Vyse.
+Like I promised, I'll join you in your quest.\e"
+M14050011,"\h(《Domingo》)And besides, you've got two very beautiful women
+with you… How can I resist?\e"
+M14050012,\h(　)Domingo has joined your crew as a ”Lookout.”\c
+M14050013,"\h(《Vyse》)If it is okay with you, I would like you to join
+my crew. Let us work together and find all the
+Discoveries in the world…\e"
+M14050014,"\h(《Domingo》)Heh… sorry, but the only people that I team up 
+with are beautiful women, or men who are better 
+treasure hunters than myself.\e"
+M14050015,"\h(《Domingo》)Well, if you can find at least 30 Discoveries,
+I'll admit that you're better. But, I doubt that
+there's anyone who could actually do that…\c"
+M14050016,"\h(《Vyse》)Well, it looks like we're rivals in the search
+for Discoveries, but I wish you luck!\e"
+M14050017,"\h(《Domingo》)Heh, rivals, huh? Very well then, I wish you 
+luck as well… but I warn you. I'm the best 
+treasure hunter there is!\e"
+M14050018,"\h(《Domingo》)Oh, hey Vyse! How is everything?
+I hope your search for Discoveries has been as
+fruitful as mine!\e"
+Ms236a000,"\h(《Vyse》)Heh…
+Lined up next to Gordo, it's hard to tell them
+apart…\c"
+Ms236a001,"\h(《Vyse》)Mmm… This sure does smell good. I can almost
+taste it. I can't believe Gordo and his gang 
+can actually cook this well.\c"
+Ms236a002,"\h(《Vyse》)I don't recognize the name, but it looks like 
+an expensive brand of loqua.\c"
+Ms236a003,"\h(《Vyse》)I've never seen this fruit before. It smells
+really sour, though. Heh… leave it up to Gordo
+to find the rarest foods from across the world.\c"
+Ms236a004,"\h(《Vyse》)This must be cheese. Oh, wow… it smells really
+bad! I wonder if it's supposed to smell like
+this…\c"
+Ms236a005,"\h(《Vyse》)Wow… it looks like they just roasted the whole
+head of this thing. That's quite a dish. I'd
+like to try that some day.\c"
+Ms236a006,"\h(《Vyse》)Hm… This must be some sort of sauce that Gordo
+uses in his cooking. Let me have a taste… Wow!
+This is really good!\c"
+Ms236a007,"\h(《What will you do?》)”Return to the Delphinus.”
+”Stay here a little while longer.”\c"
+"",m5360000
+"",M0306
+"",k8360000

@@ -1,0 +1,72 @@
+[Event Name],Task ID
+"",M0330
+"",me510a.sct
+"",me199f.sct
+"","\h(《Aika》)This is an air ship battle, Vyse!
+The next screen that you will see is a 3x3 grid.\e"
+"",\h(《Aika》)Every turn is broken down into 3 separatephases.\e
+"","\h(《Aika》)Just command all 3 of us during the 3 phases 
+andeverything should be fine!\c"
+"","\h(《Aika》)The Main Gun is powerful, but it can only fire
+one cannon ball at a time.\e"
+"","\h(《Aika》)On the other hand, the Secondary Gun doesn't do
+as much damage, but it can fire several times
+over the 3 phases of a turn.\e"
+"","\h(《Aika》)Torpedoes, although they miss a lot, can be
+aimed at a specific area on the map… and can
+even hit an area at the same time a cannon does!\e"
+"","\h(《Aika》)Oh yeah… and one more thing.
+When you fire any of your cannons, it uses up
+Spirit, so be careful.\c"
+"","\h(《Fina》)There's a breach in the hull!
+Vyse, it's dangerous if we continue on like
+this!\e"
+"",\h(《What will you do?》)
+"","“Maybe it IS a little dangerous…”
+“It's only a scratch…”\e"
+"","\h(《Vyse》)Looks like we're in trouble…
+Is there anything we can do?\e"
+"","\h(《Aika》)Actually, there is.
+You can use the spell Sacri to make minor
+repairs on the ship's hull.\c"
+"","\h(《Vyse》)The ship can handle more than this!  There's
+nothing to worry about…  We just have to bear
+down and give it all we got!\e"
+"","\h(《アイカ》)りょーかい、でも気をつけてね。
+危なくなったら、Ж術のサプラで
+船体を修復したようがいいよ。\c"
+"","\h(《Aika》)Aye aye, captain!  But be careful.  If things
+start to look bad, just use the spell “Sacri“
+to repair the ship.\c"
+"",イベント表示\c
+"",\h(《バルボア》)一気にケリつけるぜ！！\e
+"","\h(《アイカ》)相手が止まって旋回してるよ。
+後ろに回り込もうとしてる！\e"
+"",\h(《どうする？》)
+"","「逆に後ろを取る」
+「様子を見る」\e"
+"","\h(《Aika》)Alright, Vyse… it's time to end this once and
+for all.
+What's your next order?\e"
+"",\h(《What will you do next?》)
+"","“Get behind it!”
+“Fly up next to it and see what happens…”\e"
+"","\h(《Aika》)Aye aye, captain!\c"
+"","\h(《Aika》)Aye aye, captain!\c"
+"",\h(《What will you do next?》)
+"","“Get behind it!”
+“Fly up next to it and see what happens…”\e"
+"","\h(《Aika》)Aye aye, captain!\c"
+"","\h(《Aika》)Aye aye, captain!\c"
+"","黒空賊・バルボア船
+ブラックベアード\c"
+"","
+やられイベント
+30フレーム目で
+エフェクト発生のはず\c"
+"","\h(《ブラックベアード号》)俺たちゃ黒の空賊だ！
+ショウのお客さんだと言っても
+手加減はしねえぜ！　さあこい！\c"
+"",k0000.mld
+"",k0000.mld
+"",k0000.mld

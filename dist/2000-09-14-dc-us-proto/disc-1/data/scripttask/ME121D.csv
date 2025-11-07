@@ -1,0 +1,66 @@
+[Event Name],Task ID
+M01210000,"\h(《Vyse》)What's this rock?
+It looks like some sort of switch…\e"
+M01210001,"\h(《Enrique》)It looks like it triggered some
+sort of water release valve…\e"
+M01210002,"\h(《Vyse》)Ah… I see. The switch is probably here to fill
+this area with water. Hmm…\c"
+M01210003,"\h(《Vyse》)I've already pushed this switch.
+The rock is shining brightly.\c"
+M01210004,"\h(《Vyse》)It appears that this switch was here to
+fill this area with water…\c"
+M01210005,"\h(《Vyse》)I don't know where, but I think this switch
+probably opened a water valve somewhere in
+these ruins…\c"
+M01210006,"\h(《Vyse》)I don't know where, but I think this switch
+probably opened a water valve somewhere in
+these ruins…\c"
+M01210007,"\h(《Vyse》)I don't know where, but I think this switch
+probably opened a water valve somewhere in
+these ruins…\c"
+M01210008,"\h(《Vyse》)I guess this passageway and this trap were
+both built to prevent people from going any
+deeper into this place…\c"
+M01210009,"\h(《Vyse》)The room on the other side of this door
+is probably filled with the water
+we poured in before.\c"
+M01210010,"\h(《Vyse》)It's the stone pedestal where
+the Blue Moon Crystal was.
+There's nothing there now.\c"
+M01210011,"\h(《Ship Parts Merchant》)If you ever want to head back to Yafutoma,
+just let me know.\e"
+M01210012,"\h(《What will you do?》)“Head back to Yafutoma.”
+“Stay here a little while longer.”\e"
+M01210013,"\h(《Vyse》)We wanted to head back to Yafutoma for
+a little bit. Could you give us a lift?\e"
+M01210014,"\h(《Ship Parts Merchant》)No problem.
+Just climb on board.\c"
+M01210015,"\h(《Vyse》)We're fine for now, but we'll let
+you know if we change out minds.\e"
+M01210016,"\h(《Ship Parts Merchant》)No problem.
+Any time you want to go back,
+just let me know.\c"
+M01210017,"\h(《What will you do?》)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+MH0090000,"\h(《Vyse》)So, this is the Blue Crystal…
+We've finally found it.\e"
+MH0090001,\h(《Fina》)It's so beautiful…\e
+MH0090002,"\h(《Aika》)Vyse, that's another Crystal, you know what that
+means… it's time to celebrate!\e"
+MH0090003,"\h(《Vyse》)Actually, let's include Fina on this one!\e"
+MH0090004,"\h(《Fina》)What?
+But I…
+I don't know what to do.\e"
+MH0090005,"\h(《Aika》)Aww, don't worry about it!
+Just give it a try!\e"
+MH0090006,"\h(《Vyse, Aika, and Fina》)Yay!\e"
+MH0090007,\h(　)You received the “Blue Moon Crystal.”\e
+"",me121a.sct
+"",me121c.sct
+"",M0378
+"",m5210000
+"",EVH09発生しました。\c
+"",M0251
+"",e6h009
+"",a121dh09.mld
+"",a121dh09.mld

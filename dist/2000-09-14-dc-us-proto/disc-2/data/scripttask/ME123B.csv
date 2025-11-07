@@ -1,0 +1,91 @@
+[Event Name],Task ID
+MI0040000,\h(《Vyse》)This looks like it's the last door.\e
+MI0040001,"\h(《Aika》)The fog is so thick… I can barely see what's in
+front of me…\e"
+MI0040002,\h(《Fina》)It's so cold… even the air is freezing…\e
+MI0040003,"\h(《Vyse》)Well, we can't let that stop us.\e"
+MI0040004,\h(《Vyse》)Aaaahhh!!!\e
+MI0040005,\h(《Fina》)…Vyse?\e
+MI0040006,"\h(《Aika》)… Hey!
+Where'd Vyse go?\e"
+MI0040007,\h(《Vyse》)… I'm down here…\e
+MI0040008,"\h(《Aika》)Vyse?!
+What happened?!\e"
+MI0040009,\h(《Vyse》)That was close… \e
+MI0040010,"\h(《Vyse》)If we can see the sky through the floor… that
+means we're at the bottom!\e"
+MI0040011,\h(《Fina》)Hey… the fog is starting to lift.\e
+MI0040012,\h(《Enrique》)Oh… I never imagined that we'd find this…\e
+MI0040013,"\h(《Aika》)Wow…
+There are buildings shaped like icicles hanging
+from the ceiling!\e"
+MI0040014,"\h(《Fina》)…This is Glacia, in the Old World,
+it was the capital of this region.\e"
+MI0040015,"\h(《Fina》)The people that lived here were powerful mages…
+Using the powers of the Purple Moon, they built
+this city.\e"
+MI0040016,"\h(《Fina》)And because this city was built below the ice,
+it was unharmed by the Rains of Destruction.\e"
+MI0040017,"\h(《Fina》)So, Glacia is as it was during the time of the
+Old World.\e"
+MI0040018,"\h(《Aika》)But wait…
+Then what happened to the people that were
+living here?\e"
+MI0040019,"\h(《Fina》)… I, I don't know.
+According to the legends, the people of Glacia
+just disappeared.\e"
+MI0040020,"\h(《Fina》)Nobody knows where they went, or why they left.\e"
+MI0040021,"\h(《Fina》)Maybe they left their city to invade another
+land… \e"
+MI0040022,\h(《Fina》)And they perished in the war and in the Rains…\e
+MI0040023,"\h(《Aika》)I can't imagine an entire culture becoming
+extinct.\e"
+MI0040024,"\h(《Aika》)Think of all of the knowledge that was lost… 
+Everything that these people worked so hard for
+is going to stay buried here forever.\e"
+MI0040025,"\h(《Vyse》)…Let's go.
+We should find the Purple Moon Crystal, 
+before we get buried here forever.\e"
+M01230000,"\h(《Vyse》)…It won't open.
+It feels like something's holding it shut, but
+I can't tell what…\c"
+M01230001,"\h(《Guardian Stone》)Visitor to Glacia…
+Answer my query
+and open your own path…\e"
+M01230002,"\h(《Vyse》)What?!
+Did that rock just say something?!\e"
+M01230003,"\h(《Guardian Stone》)Deep within the Purple Moon Stone lies the power
+to hold the world still. What is this power?\e"
+M01230004,"\h(《What is the Purple Moon Stone's power?》)“The power of Fire.”
+“The power of Ice.”
+“The power of Lightning.”\c"
+M01230005,"\h(《Guardian Stone》)Visitor to Glacia…
+Answer my query
+and open your own path…\e"
+M01230006,"\h(《Guardian Stone》)The Purple Crest hides a certain number.
+What is that number?\c"
+M01230007,"\h(《What number is hidden in the Crest?》)“Maybe two?”
+“Maybe four?”
+“Maybe six?”\c"
+M01230008,"\h(《Guardian Stone》)Visitor to Glacia…
+Answer the last query
+And open your own path…\e"
+M01230009,"\h(《Guardian Stone》)Purple Moon Stones affects the abilities
+of living things.\e"
+M01230010,"\h(《Guardian Stone》)What are the abilities most valued
+by the people of Glacia?\e"
+M01230011,"\h(《Which abilities?》)“Power and courage.”
+“Will and spirit.”
+“Life and healing.”\c"
+M01230012,"\h(《What will you do?》)“Return to the Delphinus.”
+“Stay here a little while longer.”\c"
+"",me123c.sct
+"",me123a.sct
+"",M0246
+"",m5230000
+"",I04発生しました。\c
+"",a123bi04.mld
+"",a123bi04.mld
+"",M0246
+"",e6i004
+"",a123bi04.mld

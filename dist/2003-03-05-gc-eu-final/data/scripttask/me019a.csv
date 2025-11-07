@@ -1,0 +1,931 @@
+[Event Name],Task ID
+MH0070000,"\h(«Aika»)The water is so clear… it's beautiful…
+I wonder where we are?\e"
+MH0070001,\h(«Vyse»)Huh?\e
+MH0070002,"\h(«Yafutoman»)Wow…
+That ship, it's so huge!\e"
+MH0070003,"\h(«Yafutoman»)Are those Westerners?
+They dress funny…\e"
+MH0070004,"\h(«Yafutoman»)Hey, look!
+Their hair isn't black!\e"
+MH0070005,"\h(«Yafutoman»)I wonder what they eat to make their hair that
+color?\e"
+MH0070006,"\h(«Aika»)Haha…
+My hair is really going to stand out over here.\e"
+MH0070007,\h(«Loud Voice»)Invaders! Why have you come to Yafutoma?!\e
+MH0070008,"\h(«Yafutoman Soldier»)These lands are protected by Mount Kazai and the
+Blue Moon! Under the sovereign reign of Lord 
+Mikado, invaders will be punished!\e"
+MH0070009,"\h(«Aika»)Yafutoma?
+Is this really Yafutoma?\e"
+MH0070010,\h(«Yafutoman Soldier»)Yes… you have invaded Yafutoman Lands.\e
+MH0070011,"\h(«Aika»)We did it! We did it!
+We're in Yafutoma!!!!!\e"
+MH0070012,"\h(«Enrique»)Well done, Vyse!
+This will be recorded in the history books!\e"
+MH0070013,"\h(«Yafutoman Soldier»)How dare you invade our lands! 
+I shall strike you down where you stand!\e"
+MH0070014,\h(«Loud Voice»)Wait! Don't attack them!\e
+MH0070015,"\h(«Yafutoman Soldier»)Visitors, our primary responsibility is to
+defend Yafutoma. Please forgive our rush to
+arms.\e"
+MH0070016,"\h(«Yafutoman Soldier»)Lord Mikado has said that he would like 
+to speak with you. Please, if you would 
+come with me.\e"
+MH0070017,"\h(«Vyse»)Lord Mikado?
+I suppose that he is probably the king of these
+lands. We should follow him.\e"
+MFH0070000,"\h(«Aika»)L'eau est tellement claire…… c'est magnifique……
+Je me demande où nous sommes.\e"
+MFH0070001,\h(«Vyse»)Hein ?\e
+MFH0070002,"\h(«Yafutoman»)Oaouh……
+Ce navire est énorme !\e"
+MFH0070003,"\h(«Yafutoman»)Sont-ils Occidentaux ?
+Ils portent des habits bizarres……\e"
+MFH0070004,"\h(«Yafutoman»)Hé, regardez !
+Ils n'ont pas les cheveux noirs !\e"
+MFH0070005,"\h(«Yafutoman»)Je me demande ce qu'ils mangent pour avoir les
+cheveux de cette couleur ?\e"
+MFH0070006,"\h(«Aika»)Haha…… Je vais me faire remarquer là-bas avec
+mes cheveux.\e"
+MFH0070007,"\h(«Voix Forte»)Envahisseurs ! Pourquoi êtes-vous venus à
+Yafutoma ?!\e"
+MFH0070008,"\h(«Soldat Yafutoman»)Ces terres sont protégées par le Mont Kazai et
+la Lune Bleue ! Sous la souveraineté de
+Mikado, les envahisseurs seront punis !\e"
+MFH0070009,"\h(«Aika»)Yafutoma ?
+Est-ce vraiment Yafutoma ?\e"
+MFH0070010,\h(«Soldat Yafutoman»)Oui…… vous avez envahi les Terres Yafutomanes.\e
+MFH0070011,"\h(«Aika»)Nous avons réussi ! Nous avons réussi !
+Nous sommes à Yafutoma !!!!!\e"
+MFH0070012,"\h(«Enrique»)Beau travail, Vyse ! Cet exploit sera inscrit
+dans les livres d'histoire !\e"
+MFH0070013,"\h(«Soldat Yafutoman»)Comment osez-vous envahir nos terres !
+Je vais vous tuer sur place !\e"
+MFH0070014,\h(«Voix Forte»)Attendez ! Ne les attaquez pas !\e
+MFH0070015,"\h(«Soldat Yafutoman»)Notre première responsabilité est de défendre
+Yafutoma. Veuillez nous pardonner d'en venir si
+vite aux armes.\e"
+MFH0070016,"\h(«Soldat Yafutoman»)Seigneur Mikado a dit qu'il aimerait vous
+parler. Si vous voulez bien vous donner la
+peine de me suivre.\e"
+MFH0070017,"\h(«Vyse»)Seigneur Mikado ?
+Je suppose qu'il est le roi de ces terres.
+Nous devrions le suivre.\e"
+MGH0070000,"\h(«Aika»)Das Wasser ist so klar - es ist wunderschön.
+Wo wir wohl sind?\e"
+MGH0070001,\h(«Vyse»)Äh?\e
+MGH0070002,"\h(«Yafutomane»)Wow!
+Dieses Schiff ist ja riesig!\e"
+MGH0070003,"\h(«Yafutomane»)Sind das Leute aus dem Westen?
+Sie sind seltsam gekleidet.\e"
+MGH0070004,"\h(«Yafutomane»)He, guck mal!
+Ihr Haar ist nicht schwarz!\e"
+MGH0070005,"\h(«Yafutomane»)Was die wohl essen, damit ihr Haar sich zu
+diesem Farbton verfärbt?\e"
+MGH0070006,"\h(«Aika»)Haha……
+Hier fällt mein Haar sicher auf.\e"
+MGH0070007,"\h(«Laute Stimme»)Eindringlinge! Warum seid ihr nach Yafutoma
+gekommen?!\e"
+MGH0070008,"\h(«Yafutoma-Soldat»)Dieses Land wird vom Mount Kazai und dem
+Blue Moon beschützt! Unter der Alleinherrschaft
+von Lord Mikado werden alle Eindringlinge
+bestraft!\e"
+MGH0070009,"\h(«Aika»)Yafutoma?
+Sind wir wirklich in Yafutoma?\e"
+MGH0070010,"\h(«Yafutoma-Soldat»)Ja, ihr seid in yafutomanisches Territorium
+eingedrungen.\e"
+MGH0070011,"\h(«Aika»)Hurra! Wir haben es geschafft!
+Wir sind in Yafutoma!!!!!\e"
+MGH0070012,"\h(«Enrique»)Gut gemacht, Vyse!
+Das erscheint alles in den Geschichtsbüchern!\e"
+MGH0070013,"\h(«Yafutoma-Soldat»)Dass ihr es wagt, in unser Land einzufallen!
+Ich werde euch an Ort und Stelle niedermetzeln!\e"
+MGH0070014,\h(«Laute Stimme»)Warte! Tu ihnen nichts!\e
+MGH0070015,"\h(«Yafutoma-Soldat»)Besucher, unsere erste Pflicht ist es,
+Yafutoma zu verteidigen. Verzeiht, dass wir
+so voreilig zu den Waffen gegriffen haben.\e"
+MGH0070016,"\h(«Yafutoma-Soldat»)Lord Mikado möchte gern mit euch sprechen.
+Wenn ihr bitte mitkommen wollt.\e"
+MGH0070017,"\h(«Vyse»)Lord Mikado?
+Ich nehme an, das ist der König dieses Landes.
+Wir sollten ihm folgen.\e"
+MSH0070000,"\h(«Aika»)El agua es tan clara…… Qué bonito……
+Me gustaría saber dónde estamos.\e"
+MSH0070001,\h(«Vyse»)¿Eh?\e
+MSH0070002,"\h(«Yafutoman»)Oh……
+Ese navío, ¡es enorme!\e"
+MSH0070003,"\h(«Yafutoman»)¿Son Occidentales?
+Visten un poco raro……\e"
+MSH0070004,"\h(«Yafutoman»)¡Eh, mira!
+¡No tienen el pelo negro!\e"
+MSH0070005,"\h(«Yafutoman»)Me pregunto qué comerán para tener el pelo de
+ese color.\e"
+MSH0070006,"\h(«Aika»)Ja, ja……
+La gente de aquí sí que se va a fijar en mi
+pelo.\e"
+MSH0070007,"\h(«Voz Alta»)¡Invasores! ¡¿Para qué habéis venido a
+Yafutoma?!\e"
+MSH0070008,"\h(«Soldado Yafutoman»)¡Este país está protegido por el Monte Kazai y
+la Luna Azul! ¡Bajo el reinado soberano de Lord
+Mikado, los invasores serán castigados!\e"
+MSH0070009,"\h(«Aika»)¿Yafutoma?
+¿De verdad que es esto Yafutoma?\e"
+MSH0070010,\h(«Soldado Yafutoman»)Sí…… habéis invadido las Tierras Yafutoman.\e
+MSH0070011,"\h(«Aika»)¡Lo hemos conseguido! ¡Lo logramos!
+¡¡¡¡¡Estamos en Yafutoma!!!!!\e"
+MSH0070012,"\h(«Enrique»)¡Bien hecho, Vyse!
+¡Esto se va a leer en los libros de historia!\e"
+MSH0070013,"\h(«Soldado Yafutoman»)¡Cómo osáis invadir nuestras tierras!
+¡Os voy a liquidar ahí mismo!\e"
+MSH0070014,\h(«Voz Gritona»)¡Espera! ¡No les ataquéis!\e
+MSH0070015,"\h(«Soldado Yafutoman»)Visitantes, nuestro deber es proteger Yafutoma.
+Os ruego que disculpéis el apresurado recurso a
+las armas.\e"
+MSH0070016,"\h(«Soldado Yafutoman»)Lord Mikado ha dicho que le gustaría hablar con
+vosotros. Si sois tan amables de venir conmigo.\e"
+MSH0070017,"\h(«Vyse»)¿Lord Mikado?
+Supongo que es el rey de estas tierras.
+Tenemos que seguirle.\e"
+MH0130000,\h(«Vyse»)No!!!\e
+MH0130001,"\h(«Vyse»)Belleza!
+… And Vigoro?!\e"
+MH0130002,"\h(«Belleza»)Well, well… hello there, handsome. 
+Haven't seen you in a while.\e"
+MH0130003,"\h(«Vigoro»)Hey, Red!
+It looks like fate has brought us together
+again.\e"
+MH0130004,"\h(«Aika»)Oh, no!!
+What's he doing here?!\e"
+MH0130005,"\h(«Vigoro»)It's so cute how she pretends that she doesn't
+want me. Come aboard my ship, maybe the two of
+us can rock the boat.\e"
+MH0130006,"\h(«Belleza»)Vigoro, please… 
+We are in the presence of Prince Enrique.\e"
+MH0130007,"\h(«Belleza»)Prince Enrique, I trust you are in good health.\e"
+MH0130008,"\h(«Belleza»)If you are wondering how we got here, we 
+blasted a hole in the stone reef near 
+Ixa'taka and travelled west.\e"
+MH0130009,"\h(«Belleza»)Our goal is the same, my Prince.
+We also seek the Blue Crystal.\e"
+MH0130010,\h(«Enrique»)What?!\e
+MH0130011,"\h(«Vyse»)Belleza…
+Do you plan to burn down Yafutoma as well?!\e"
+MH0130012,"\h(«Belleza»)Relax, handsome.
+As I told you before, I am against unnecessary
+destruction.\e"
+MH0130013,"\h(«Belleza»)We have no intention of fighting with you.
+We were merely planning to dock and speak with
+the king of these lands.\e"
+MH0130014,"\h(«Vyse»)You are wasting your time. King Mikado is an
+honorable man. There's no way he would strike a
+deal with the Valuan Armada.\e"
+MH0130015,\h(«Belleza»)We'll see about that…\e
+MH0130016,"\h(«Belleza»)Everyone has their limits, their codes, their
+morals. But everyone also has a weakness. \e"
+MH0130017,"\h(«Belleza»)If you find that weakness and exploit it, those
+limits, codes, and morals seem to fade away.\e"
+MH0130018,"\h(«Belleza»)I'd love to chat longer, but I have an
+appointment with the king. Stay out of our way.\e"
+MH0130019,\h(«Vyse»)…\e
+MH0130020,"\h(«Aika»)Vyse!
+Shouldn't we stop them?!\e"
+MH0130021,"\h(«What will you do?»)“Stop them by force!”
+“Wait and see what happens.”\e"
+MH0130022,"\h(«Vyse»)We can't let Belleza manipulate the king.
+We've got to stop them… \e"
+MH0130023,"\h(«Enrique»)Wait, Vyse! There are too many Valuan Soldiers
+here. There's no way we can win.\e"
+MH0130024,"\h(«Enrique»)Belleza and Vigoro are here as Imperial
+Emissaries. If we attack them during a
+diplomatic meeting, we'll lose the king's trust.\e"
+MH0130025,\h(«Vyse»)… I suppose it's no use.\e
+MH0130026,"\h(«Enrique»)Let's return to our quarters. We should wait
+there until we have a chance to talk to the
+king. \e"
+MH0130027,"\h(«Vyse»)Sorry, but there's nothing we can do right now.
+There's no way we can take on all of these
+soldiers.\e"
+MH0130028,\h(«Aika»)We can't even get to the Delphinus right now…\e
+MH0130029,"\h(«Enrique»)Belleza and Vigoro are here as Imperial
+representatives. Attacking them during a
+diplomatic meeting would make us criminals.\e"
+MH0130030,"\h(«Enrique»)Let's return to our quarters. There we will wait
+until they have concluded their talks.\e"
+MFH0130000,\h(«Vyse»)Non !!!\e
+MFH0130001,"\h(«Vyse»)Belleza !
+…… Et Vigoro ?!\e"
+MFH0130002,"\h(«Belleza»)Bien, bien…… bonjour, beau gosse.
+On ne s'est pas vus depuis un moment.\e"
+MFH0130003,"\h(«Vigoro»)Hé, Rouquine !
+On dirait que le destin t'as remise sur mon
+chemin.\e"
+MFH0130004,"\h(«Aika»)Oh, non !!
+Qu'est-ce qu'il fait là ?!\e"
+MFH0130005,"\h(«Vigoro»)J'adore sa façon de faire semblant de ne pas
+vouloir de moi. Monte à bord de mon navire,
+peut-être que l'on pourra faire des vagues.\e"
+MFH0130006,"\h(«Belleza»)Vigoro, je t'en prie……
+Nous sommes en présence du Prince Enrique.\e"
+MFH0130007,"\h(«Belleza»)Prince Enrique, je vois que vous êtes en bonne
+santé.\e"
+MFH0130008,"\h(«Belleza»)Si vous vous demandez comment nous sommes
+arrivés, nous avons fait exploser un trou dans
+le récif de pierre près d'Ixa'taka et avons
+voyagé en direction de l'ouest.\e"
+MFH0130009,"\h(«Belleza»)Nous avons le même objectif, mon Prince.
+Nous sommes également à la recherche du Cristal
+Bleu.\e"
+MFH0130010,\h(«Enrique»)Quoi ?!\e
+MFH0130011,"\h(«Vyse»)Belleza……
+As-tu aussi l'intention de brûler Yafutoma ?!\e"
+MFH0130012,"\h(«Belleza»)Relaxe, beau gosse.
+Comme je te l'ai déjà dit, je suis contre les
+destructions inutiles.\e"
+MFH0130013,"\h(«Belleza»)Nous n'avons pas l'intention de nous battre avec
+vous. Nous voulions simplement nous mettre à
+quai et parler avec le roi de ce pays.\e"
+MFH0130014,"\h(«Vyse»)Vous perdez votre temps. Le Roi Mikado est un
+homme honorable. Il ne conclura aucun marché
+avec l'Armada Valuanne.\e"
+MFH0130015,\h(«Belleza»)Nous verrons bien……\e
+MFH0130016,"\h(«Belleza»)Chacun a ses limites, ses codes, ses moeurs.
+Mais chacun a aussi une faiblesse.\e"
+MFH0130017,"\h(«Belleza»)Si vous trouvez cette faiblesse et l'exploitez,
+ces limites, codes, et moeurs semblent
+disparaître.\e"
+MFH0130018,"\h(«Belleza»)Je serais ravie de discuter plus longuement,
+mais j'ai rendez-vous avec le Roi. Écartez-vous
+de notre chemin.\e"
+MFH0130019,\h(«Vyse»)……\e
+MFH0130020,"\h(«Aika»)Vyse !
+Il faudrait peut-être essayer de les arrêter ?!\e"
+MFH0130021,"\h(«Que ferez-vous ?»)“Les arrêter par la force !”
+“Attendre.”\e"
+MFH0130022,"\h(«Vyse»)Nous ne pouvons pas laisser Belleza manipuler le
+roi. Nous devons les arrêter……\e"
+MFH0130023,"\h(«Enrique»)Attendez, Vyse ! Il y a trop de Soldats Valuans
+ici. Nous ne pourrons jamais gagner.\e"
+MFH0130024,"\h(«Enrique»)Belleza et Vigoro sont ici en tant qu'Émissaires
+Impériaux. Si nous les attaquons au milieu d'une
+réunion diplomatique, nous perdrons la confiance
+du roi.\e"
+MFH0130025,\h(«Vyse»)…… Je suppose que c'est inutile.\e
+MFH0130026,"\h(«Enrique»)Retournons à nos quartiers. Nous devrions
+attendre ici jusqu'à ce que l'occasion de parler
+au roi se présente.\e"
+MFH0130027,"\h(«Vyse»)Désolé, mais il n'y a rien à faire pour le
+moment. Nous n'avons aucune chance contre tous
+ces soldats.\e"
+MFH0130028,"\h(«Aika»)Nous ne pouvons même pas aller sur le
+Delphinus ……\e"
+MFH0130029,"\h(«Enrique»)Belleza et Vigoro sont là pour représenter
+l'Empire. Nous passerions pour des criminels si
+nous les attaquions pendant une réunion
+diplomatique.\e"
+MFH0130030,"\h(«Enrique»)Retournons à nos quartiers. Nous attendrons
+là-bas jusqu'à ce qu'ils aient terminé.\e"
+MGH0130000,\h(«Vyse»)Nein!!!\e
+MGH0130001,"\h(«Vyse»)Belleza!
+……Und Vigoro?!\e"
+MGH0130002,"\h(«Belleza»)Sieh mal an…… Hallo, Schöner.
+Lange nicht gesehen.\e"
+MGH0130003,"\h(«Vigoro»)He, Rotschopf!
+Sieht so aus, als hätte uns das Schicksal
+mal wieder zusammengeführt.\e"
+MGH0130004,"\h(«Aika»)Oh, nein!!
+Was macht der denn hier?!\e"
+MGH0130005,"\h(«Vigoro»)Es ist so süß, wie sie vorgibt, nichts von mir
+zu wollen. Komm auf mein Schiff, vielleicht
+können wir zwei ein paar Wellen machen……\e"
+MGH0130006,"\h(«Belleza»)Vigoro, bitte……
+Wir befinden uns in Gegenwart von Prinz
+Enrique.\e"
+MGH0130007,"\h(«Belleza»)Prinz Enrique, ich hoffe, Sie sind bei
+bester Gesundheit.\e"
+MGH0130008,"\h(«Belleza»)Wenn Sie sich fragen, wie wir hierher gekommen
+sind,  wir haben ein Loch in die Felsklippen
+nahe Ixa'taka gesprengt und sind von da aus gen
+Westen gefahren.\e"
+MGH0130009,"\h(«Belleza»)Wir haben das gleiche Ziel, mein Prinz.
+Auch wir suchen den Blue Crystal.\e"
+MGH0130010,\h(«Enrique»)Was?!\e
+MGH0130011,"\h(«Vyse»)Belleza……
+Plant ihr, auch Yafutoma niederzubrennen?!\e"
+MGH0130012,"\h(«Belleza»)Reg dich ab, Schöner.
+Wie ich dir bereits sagte, bin ich gegen
+unnötige Zerstörung.\e"
+MGH0130013,"\h(«Belleza»)Ich habe nicht die Absicht, gegen euch zu
+kämpfen. Wir wollten lediglich hier anlegen
+und mit dem König dieses Landes sprechen.\e"
+MGH0130014,"\h(«Vyse»)Ihr verschwendet eure Zeit. König Mikado ist
+ein ehrenwerter Mann. Es ist ausgeschlossen,
+dass er sich auf Verhandlungen mit der
+Valuan Armada einlässt.\e"
+MGH0130015,\h(«Belleza»)Das werden wir sehen……\e
+MGH0130016,"\h(«Belleza»)Jeder hat seine Grenzen, seine Richtlinien,
+seine Moral. Aber jeder hat auch Schwächen.\e"
+MGH0130017,"\h(«Belleza»)Findet man diese Schwäche und nutzt sie aus,
+so scheinen sich all die Grenzen, Richtlinien
+und die Moral in Wohlgefallen aufzulösen.\e"
+MGH0130018,"\h(«Belleza»)Ich würde gern etwas länger plaudern, aber ich
+habe einen Termin mit dem König. Kommt uns
+nicht ins Gehege.\e"
+MGH0130019,\h(«Vyse»)……\e
+MGH0130020,"\h(«Aika»)Vyse!
+Sollten wir sie nicht aufhalten?!\e"
+MGH0130021,"\h(«Was wirst du tun?»)“Sie mit Gewalt aufhalten!”
+“Abwarten, was passiert”.\e"
+MGH0130022,"\h(«Vyse»)Wir können nicht zulassen, dass Belleza den
+König manipuliert. Wir müssen sie
+aufhalten……\e"
+MGH0130023,"\h(«Enrique»)Warte, Vyse! Hier sind zu viele Valua-Soldaten.
+Wir können auf gar keinen Fall gewinnen.\e"
+MGH0130024,"\h(«Enrique»)Belleza und Vigoro sind hier als kaiserliche
+Abgesandte. Wenn wir sie während einer
+Diplomatenmission angreifen, verlieren wir
+das Vertrauen des Königs.\e"
+MGH0130025,"\h(«Vyse»)……Nehme an, es hat keinen Zweck.\e"
+MGH0130026,"\h(«Enrique»)Lasst uns zu unserem Quartier zurückgehen.
+Dort sollten wir warten, bis wir Gelegenheit
+haben, mit dem König zu reden.\e"
+MGH0130027,"\h(«Vyse»)Im Moment können wir leider nichts unternehmen.
+Wir können es auf keinen Fall mit all diesen
+valuanischen Soldaten aufnehmen.\e"
+MGH0130028,"\h(«Aika»)Wir können im Moment noch nicht einmal auf die
+Delphinus……\e"
+MGH0130029,"\h(«Enrique»)Belleza und Vigoro sind hier als kaiserliche
+Abgesandte. Wenn wir sie bei einem
+Diplomatentreffen angreifen, würde uns das zu
+Kriminellen machen.\e"
+MGH0130030,"\h(«Enrique»)Lasst uns zu unserem Quartier zurückkehren.
+Dort warten wir, bis sie ihre Gespräche
+beendet haben.\e"
+MSH0130000,\h(«Vyse»)¡¡¡No!!!\e
+MSH0130001,"\h(«Vyse»)¡Belleza!
+…… ¡¿Y Vigoro?!\e"
+MSH0130002,"\h(«Belleza»)Mira quién está aquí…… hola, guapo.
+No te veía desde hacía tiempo.\e"
+MSH0130003,"\h(«Vigoro»)¡Oye, Pelirroja!
+Parece que el destino nos ha reunido otra vez.\e"
+MSH0130004,"\h(«Aika»)¡¡Oh, no!!
+¡¿Qué está haciendo aquí?!\e"
+MSH0130005,"\h(«Vigoro»)Es tan graciosa, hace como que no le intereso.
+Súbete a mi barco y tal vez podamos balancearlo
+entre los dos.\e"
+MSH0130006,"\h(«Belleza»)Vigoro, por favor……
+Estamos en la presencia del Príncipe Enrique.\e"
+MSH0130007,"\h(«Belleza»)Príncipe Enrique, confío en que esté bien de
+salud.\e"
+MSH0130008,"\h(«Belleza»)Si queréis saber cómo llegamos hasta aquí,
+tuvimos que hacer estallar una parte del
+arrecife de Ixa'taka y viajamos al Oeste.\e"
+MSH0130009,"\h(«Belleza»)Tenemos el mismo objetivo, mi Príncipe.
+Nosotros también buscamos el Cristal Azul.\e"
+MSH0130010,\h(«Enrique»)¿¡Qué?!\e
+MSH0130011,"\h(«Vyse»)Belleza……
+¡¿Es que también vas a destrozar Yafutoma?!\e"
+MSH0130012,"\h(«Belleza»)Tranquilízate, guapo.
+Como ya te comenté, estoy en contra de la
+destrucción cuando no es necesaria.\e"
+MSH0130013,"\h(«Belleza»)No pretendemos combatir contra vosotros.
+Sólo queríamos parar en este puerto y hablar con
+el Rey de estas tierras.\e"
+MSH0130014,"\h(«Vyse»)Estás perdiendo el tiempo. El Rey Mikado es un
+hombre de honor. Jamás haría un pacto con la
+Armada Valuan.\e"
+MSH0130015,\h(«Belleza»)Eso ya lo veremos……\e
+MSH0130016,"\h(«Belleza»)Todos tenemos nuestros límites, nuestros
+códigos, nuestra escala de valores. Pero también
+tenemos nuestras debilidades.\e"
+MSH0130017,"\h(«Belleza»)Si encuentras esa debilidad en alguien y la
+utilizas, sus límites, códigos y escala de
+valores se difuminan.\e"
+MSH0130018,"\h(«Belleza»)Me encantaría quedarme a charlar más, pero tengo
+una cita con el Rey. Dejadnos pasar.\e"
+MSH0130019,\h(«Vyse»)……\e
+MSH0130020,"\h(«Aika»)¡Vyse!
+¡¿No tendríamos que detenerlos?!\e"
+MSH0130021,"\h(«¿Qué vas a hacer?»)“¡Hay que detenerlos por la fuerza!”
+“Esperar a ver qué pasa.”\e"
+MSH0130022,"\h(«Vyse»)No podemos dejar que Belleza utilice al rey.
+Tenemos que detenerlos……\e"
+MSH0130023,"\h(«Enrique»)¡Espera, Vyse! Hay demasiados Soldados Valuan
+aquí. Nunca ganaríamos.\e"
+MSH0130024,"\h(«Enrique»)Belleza y Vigoro están aquí como Emisarios
+Imperiales. Si les atacamos durante una misión
+diplomática, vamos a perder la amistad que
+tenemos con el rey.\e"
+MSH0130025,\h(«Vyse»)…… Supongo que no vale la pena.\e
+MSH0130026,"\h(«Enrique»)Vamos a volver a nuestras habitaciones.
+Allí podemos esperar hasta que tengamos la
+ocasión de hablar con el rey.\e"
+MSH0130027,"\h(«Vyse»)Lo siento, pero no podemos hacer nada por ahora.
+No podemos combatir contra todos estos soldados.\e"
+MSH0130028,"\h(«Aika»)Ni siquiera podemos ir al Delphinus ahora
+mismo……\e"
+MSH0130029,"\h(«Enrique»)Belleza y Vigoro están aquí como representantes
+del Imperio. Atacarles durante un encuentro
+diplomático nos convertiría en criminales.\e"
+MSH0130030,"\h(«Enrique»)Vamos a volver a nuestras habitaciones.
+Esperaremos allí hasta que hayan concluido sus
+conversaciones.\e"
+M08020000,"\h(«Ship Parts Merchant»)I understand that you wish to go to Mt. Kazai?
+Lord Mikado has commanded me to escort you.\e"
+M08020001,"\h(«Ship Parts Merchant»)Before departing, would you like to buy some
+Ship Parts? Let me know when you are ready. We
+can start any time you wish.\e"
+M08020002,"\h(«What will you do?»)“Buy and sell ship parts.”
+“Proceed to Mt. Kazai.”
+“Leave.”\e"
+M08020003,"\h(«Ship Parts Merchant»)Then let's get going to Mt. Kazai. I'll get the
+ship under way, so you guys can just sit back
+and take it easy.\e"
+M08020004,"\h(«Ship Parts Merchant»)Oops, I almost forgot. If we're going to go
+inside Mt. Kazai, I'd better take this along.\e"
+M08020005,\h( )You received the “Underwater Suit.”\e
+M08020006,"\h(«Ship Parts Merchant»)Deep inside Mt. Kazai is a cavern, and in some
+places there will be water.
+This Underwater Suit should come in handy.\e"
+M08020028,"\h(«Aika»)What?! We have to go underwater?!
+But I can't swim!!!\e"
+M08020029,"\h(«Ship Parts Merchant»)Do not worry… As long as you are using the
+Underwater Suit, you should be fine. Just be
+sure to breathe normally.\e"
+M08020007,"\h(«Ship Parts Merchant»)Well, then, shall we be going?
+Make way for Mt. Kazai!\c"
+M08020008,"\h(«Ship Parts Merchant»)Oh? So you don't want to go to Mt. Kazai after
+all? Well, I'll be right here, so if you decide
+to go later just give me a holler. \e"
+M08020009,"\h(«Ship Parts Merchant»)Have you completed your preparations for
+Mt. Kazai? We can depart any time you wish.\e"
+M08020010,"\h(«What will you do?»)“Buy and sell ship parts.”
+“Proceed to Mt. Kazai.”
+“Leave.”\e"
+M08020011,"\h(«Ship Parts Merchant»)All right, then, let's get under way to
+Mt. Kazai!\e"
+M08020012,"\h(«Ship Parts Merchant»)Oh? So you don't want to go to Mt. Kazai after
+all? Well, I'll be right here, so if you decide
+to go later just give me a holler. \e"
+M08020013,"\h(«Ship Parts Merchant»)You were actually able to return from Mt. Kazai
+with the legendary Maga Sphere. I couldn't be
+more pleased to have taken you.\e"
+M08020014,"\h(«What will you do?»)“Buy and sell ship parts.”
+“Talk about various things.”
+“Leave.”\e"
+M08020015,"\h(«Ship Parts Merchant»)All this time I thought that business about the
+Maga Sphere was just an old fairy tale.
+I can hardly believe they really exist.\e"
+M08020016,"\h(«Ship Parts Merchant»)Well, don't be wasting your time, then. Hurry up
+and take the Maga Sphere to Lord Mikado.\c"
+M08020017,"\h(«Ship Parts Merchant»)I've heard that a strange fleet of black steel
+ships has appeared off the coast. Just to be
+safe, you might want to buy some ship parts. \e"
+M08020018,"\h(«What will you do?»)“Buy and sell ship parts.”
+“Talk about various things.”
+“Leave.”\e"
+M08020019,"\h(«Ship Parts Merchant»)You could say the same thing about your ships,
+but those steel ships of the Westerners are
+completely different from our ships. \e"
+M08020020,"\h(«Ship Parts Merchant»)Still, even your ships can't seem to climb as
+high into the sky as our ships can. \e"
+M08020021,"\h(«Ship Parts Merchant»)Thanks for stopping by.
+Come again.\e"
+M08020022,"\h(«Ship Parts Merchant»)Not only did you folks manage to rout that black
+steel fleet, you crushed that monstrous bird as
+well! Will wonders never cease?!\e"
+M08020023,"\h(«Ship Parts Merchant»)I don't suppose my merchandise is of much
+interest to you folks at the moment, but you
+still might want to take a look around.\e"
+M08020024,"\h(«What will you do?»)“Buy and sell ship parts.”
+“Talk about various things.”
+“Leave.”\e"
+M08020025,"\h(«Ship Parts Merchant»)In a battle between ships, it's not just a
+matter of numbers. What really counts is how
+powerful the main ships are.\e"
+M08020026,"\h(«Ship Parts Merchant»)Once you've shot down the enemy's flagship and
+heavy battleships, the rest of the fleet will
+crumble easily.\e"
+M08020027,\h(«Ship Parts Merchant»)Thanks for stopping by! Come again!\e
+M08160000,"\h(«Fisherman»)I got one, I got one, I got one! Don't talk to
+me now! I've gotta land him this time!\e"
+M08160001,"\h(«Fisherman»)For fish that taste as good as sashimi, you have
+to go into the water. I'm gonna catch me a few
+and have them for dinner tonight!\c"
+M08160002,"\h(«Fisherman»)For fish that taste as good as sashimi, you have
+to go into the water. I'm gonna catch me a few
+and have them for dinner tonight!\c"
+M08160003,"\h(«Fisherman»)In the skies high above Yafutoma, you can
+sometimes find rare fish called “Hamahai
+fish.”\e"
+M08160004,"\h(«Fisherman»)On the other hand, there are also fish down
+below Yafutoma as well. I wish I could catch one
+of those fish at least once in my life…\c"
+MF08020000,"\h(«Armateur»)Si j'ai bien compris vous souhaitez vous rendre
+sur le Mont Kazai ?
+Le Seigneur Mikado m'a ordonné de vous escorter.\e"
+MF08020001,"\h(«Armateur»)Avant le départ, voudriez-vous acheter du
+matériel naval ? Prévenez-moi quand vous serez
+prêts. Nous pouvons nous mettre en route quand
+vous voulez.\e"
+MF08020002,"\h(«Que ferez-vous ?»)“Vous achèterez et vendrez du matériel naval.”
+“Vous partirez sur le Mont Kazai.”
+“Vous partirez.”\e"
+MF08020003,"\h(«Armateur»)Bon, mettons-nous en route pour le Mont Kazai.
+Je vous y conduirai, comme cela vous pourrez
+vous détendre pendant ce temps.\e"
+MF08020004,"\h(«Armateur»)Oh là là, j'ai failli oublier. Si nous allons
+dans le Mont Kazai, il faut que je prenne cela.\e"
+MF08020005,\h( )Vous avez reçu “Scaphandre” x 1 !\e
+MF08020006,"\h(«Armateur»)Au plus profond du Mont Kazai se trouve une
+caverne, et dans certains endroits il y aura de
+l'eau. Ce scaphandre devrait nous être utile.\e"
+MF08020028,"\h(«Aika»)Quoi ?! Il faudra aller sous l'eau ?!
+Mais je ne sais pas nager !!!\e"
+MF08020029,"\h(«Armateur»)Ne vous inquiétez pas……
+Tout ira bien si vous utilisez le scaphandre.
+Surtout, respirez normalement.\e"
+MF08020007,"\h(«Armateur»)Bon, allons-y.
+En route vers le Mont Kazai !\c"
+MF08020008,"\h(«Armateur»)Oh ? Alors vous ne voulez plus aller au Mont
+Kazai finalement ? Bon, je reste ici, donc si
+par la suite vous décidez de partir, faites-moi
+signe.\e"
+MF08020009,"\h(«Armateur»)Avez-vous terminé vos préparations pour le
+Mont Kazai ? Nous pouvons partir quand vous
+voulez.\e"
+MF08020010,"\h(«Que ferez-vous ?»)“Vous achèterez et vendrez du matériel naval”
+“Vous vous rendrez sur le Mont Kazai”
+“Vous partirez”\e"
+MF08020011,"\h(«Armateur»)Bon, alors mettons-nous en route vers le Mont
+Kazai !\e"
+MF08020012,"\h(«Armateur»)Oh ? Donc vous ne voulez plus aller au Mont
+Kazai en fin de compte ? Bon, je reste ici, si
+par la suite vous décidez de partir, faites-moi
+signe.\e"
+MF08020013,"\h(«Armateur»)Vous êtes revenus du Mont Kazai avec la
+légendaire Sphère Maga. Je suis ravi de vous y
+avoir conduits.\e"
+MF08020014,"\h(«Que ferez-vous ?»)“Vous achèterez et vendrez du matériel naval.”
+“Vous discuterez.”
+“Vous partirez.”\e"
+MF08020015,"\h(«Armateur»)Dire que pendant tout ce temps je pensais que la
+Sphère Maga n'était qu'une vieille légende.
+J'ai du mal à croire qu'elle existe vraiment.\e"
+MF08020016,"\h(«Armateur»)Bon, ne perdez pas votre temps alors. Dépêchez-
+vous d'apportez la Sphère Maga au Seigneur
+Mikado.\c"
+MF08020017,"\h(«Armateur»)On raconte qu'une étrange flotte de navires en
+acier noir est apparue au large. Par mesure de
+sécurité, vous devriez peut-être acheter du
+matériel naval.\e"
+MF08020018,"\h(«Que ferez-vous ?»)“Vous achèterez et vendrez du matériel naval.”
+“Vous discuterez.”
+“Vous partirez.”\e"
+MF08020019,"\h(«Armateur»)On peut dire la même chose de vos navires,
+mais ces navires d'acier des gens venus de
+l'Ouest sont très différents des nôtres.\e"
+MF08020020,"\h(«Armateur»)Mais même vos navires ne montent pas aussi haut
+que les nôtres.\e"
+MF08020021,"\h(«Armateur»)Merci d'être passé.
+Revenez une autre fois.\e"
+MF08020022,"\h(«Armateur»)Non seulement vous avez réussi à déloger ces
+navires noirs d'acier, mais vous avez aussi
+écrasé ce monstre d'oiseau ! Vous ne cessez de
+m'émerveiller !\e"
+MF08020023,"\h(«Armateur»)Je suppose que ma marchandise ne vous intéresse
+pas beaucoup pour le moment, mais vous devriez
+quand même faire le tour du magasin.\e"
+MF08020024,"\h(«Que ferez-vous ?»)“Vous achèterez et vendrez du matériel naval.”
+“Vous discuterez.”
+“Vous partirez.”\e"
+MF08020025,"\h(«Armateur»)Dans une bataille navale, ce qui compte le plus
+c'est la puissance des navires principaux et non
+pas leur nombre.\e"
+MF08020026,"\h(«Armateur»)Une fois que vous avez abattu le navire amiral
+et les cuirassés les mieux armés, le reste de la
+flotte se démantèle facilement.\e"
+MF08020027,"\h(«Armateur»)Merci d'être venus !
+Repassez un autre jour !\e"
+MF08160000,"\h(«Pêcheur»)J'en ai un, j'en ai un, j'en ai un !
+Ne m'interrompez pas !
+Il faut que je l'attrape cette fois !\e"
+MF08160001,"\h(«Pêcheur»)Pour trouver du poisson aussi bon que du
+sashimi, il faut aller sous l'eau. Je vais en
+pêcher quelques-uns et les ferai cuire ce
+soir !\c"
+MF08160002,"\h(«Pêcheur»)Pour trouver du poisson aussi bon que du
+sashimi, il faut aller sous l'eau. Je vais en
+pêcher quelques-uns et les ferai cuire ce
+soir !\c"
+MF08160003,"\h(«Pêcheur»)Dans les cieux au-dessus de Yafutoma, vous
+pouvez parfois trouver un poisson rare qui
+s'appelle “Poisson Romuhai.”\e"
+MF08160004,"\h(«Pêcheur»)On trouve aussi du poisson en bas à Yafutoma.
+J'aimerais en pêcher rien qu'une fois dans ma
+vie……\c"
+MG08020000,"\h(«Schiffsteile-Händler»)Ich höre, ihr wollt zum Mt. Kazai?
+Lord Mikado hat mir befohlen, euch zu
+begleiten.\e"
+MG08020001,"\h(«Schiffsteile-Händler»)Möchtet ihr vor eurer Abreise einige
+Schiffsteile kaufen? Sagt Bescheid, wenn ihr
+so weit seid. Wir können jederzeit fahren.\e"
+MG08020002,"\h(«Was wirst du tun?»)“Schiffsteile kaufen und verkaufen”.
+“Zum Mt. Kazai weiterfahren”.
+“Weggehen”.\e"
+MG08020003,"\h(«Schiffsteile-Händler»)Dann lasst uns nach Mt. Kazai aufbrechen. 
+Ich mache das Schiff fertig, und ihr könnt
+euch derweilen noch etwas ausruhen.\e"
+MG08020004,"\h(«Schiffsteile-Händler»)Hoppla, fast hätte ich es vergessen. Wenn
+wir vorhaben, in den Mt. Kazai hineinzugehen,
+sollte ich das hier mitnehmen.\e"
+MG08020005,\h( )Du hast den “Unterwasseranzug” erhalten.\e
+MG08020006,"\h(«Schiffsteile-Händler»)Tief im Inneren des Mt. Kazai befindet sich
+eine Höhle, und an manchen Stellen gibt es
+dort auch Wasser. Da kommt dieser Taucheranzug
+wie gerufen.\e"
+MG08020028,"\h(«Aika»)Was?! Wir müssen unter Wasser tauchen?!
+Aber ich kann doch nicht schwimmen!!!\e"
+MG08020029,"\h(«Schiffsteile-Händler»)Keine Sorge…… Solange du den Taucheranzug
+anhast, ist das kein Problem. Du
+musst einfach nur normal atmen.\e"
+MG08020007,"\h(«Schiffsteile-Händler»)Also, sollen wir gehen?
+Auf geht's nach Mt. Kazai!\c"
+MG08020008,"\h(«Schiffsteile-Händler»)Ach? Ihr wollt also doch nicht zum Mt. Kazai?
+Ich bin jedenfalls hier, und wenn ihr es euch
+noch anders überlegen solltet, sagt Bescheid.\e"
+MG08020009,"\h(«Schiffsteile-Händler»)Seid ihr mit euren Vorbereitungen für den
+Mt. Kazai fertig? Wir können jederzeit
+abfahren.\e"
+MG08020010,"\h(«Was wirst du tun?»)“Schiffsteile kaufen und verkaufen”.
+“Zum Mt. Kazai weiterfahren”.
+“Weggehen”.\e"
+MG08020011,"\h(«Schiffsteile-Händler»)Ok, also lasst uns zum Mt. Kazai aufbrechen!\e"
+MG08020012,"\h(«Schiffsteile-Händler»)Ach? Ihr wollt also doch nicht zum Mt. Kazai?
+Ich bin jedenfalls hier, und wenn ihr es euch
+noch anders überlegen solltet, sagt Bescheid.\e"
+MG08020013,"\h(«Schiffsteile-Händler»)Es ist euch gelungen, vom Mt. Kazai mit der
+legendären Maga Sphere zurückzukehren. Ich
+bin so froh, euch dorthin begleitet zu haben.\e"
+MG08020014,"\h(«Was wirst du tun?»)“Schiffsteile kaufen und verkaufen”.
+“Über Verschiedenes sprechen”.
+“Weggehen”.\e"
+MG08020015,"\h(«Schiffsteile-Händler»)Ich habe die ganze Zeit gedacht, die
+Maga Sphere wäre nur ein altes Ammenmärchen.
+Ich kann es nicht fassen, dass sie wirklich
+existieren.\e"
+MG08020016,"\h(«Schiffsteile-Händler»)Nun, dann beeilt euch mal. Bringt die Maga
+Sphere gleich zu Lord Mikado.\c"
+MG08020017,"\h(«Schiffsteile-Händler»)Ich habe gehört, dass eine seltsame Flotte
+schwarzer Stahlschiffe vor der Küste gesichtet
+wurde. Für alle Fälle solltet ihr vielleicht
+einige Schiffsteile kaufen.\e"
+MG08020018,"\h(«Was wirst du tun?»)“Schiffsteile kaufen und verkaufen”.
+“Über Verschiedenes sprechen”.
+“Weggehen”.\e"
+MG08020019,"\h(«Schiffsteile-Händler»)Man könnte dasselbe von euren Schiffen
+behaupten, aber diese Stahlschiffe der Westler
+sind ganz anders als unsere Schiffe.\e"
+MG08020020,"\h(«Schiffsteile-Händler»)Und doch können eure Schiffe nicht so hoch
+in den Himmel steigen wie unsere.\e"
+MG08020021,"\h(«Schiffsteile-Händler»)Danke, dass ihr vorbeigeschaut habt.
+Kommt bald wieder.\e"
+MG08020022,"\h(«Schiffsteile-Händler»)Ihr habt nicht nur diese schwarze
+Stahlflotte außer Gefecht gesetzt, ihr habt
+auch diesen fürchterlichen Vogel erledigt!
+Wunder über Wunder!\e"
+MG08020023,"\h(«Schiffsteile-Händler»)Ich schätze, meine Ware ist für euch im Moment
+nicht von großem Interesse, aber vielleicht
+möchtet ihr euch ja mal umsehen.\e"
+MG08020024,"\h(«Was wirst du tun?»)“Schiffsteile kaufen und verkaufen”.
+“Über Verschiedenes sprechen”.
+“Weggehen”.\e"
+MG08020025,"\h(«Schiffsteile-Händler»)Bei einer Schiffsschlacht zählt nicht allein
+die zahlenmäßige Überlegenheit. Was wirklich
+zählt, ist die Angriffskraft der Hauptschiffe.\e"
+MG08020026,"\h(«Schiffsteile-Händler»)Wenn du erst einmal das Flaggschiff und die
+schweren Schlachtschiffe des Feindes
+abgeschossen hast, wird der Rest der Flotte sich
+schnell auflösen.\e"
+MG08020027,"\h(«Schiffsteile-Händler»)Danke, dass ihr vorbeigeschaut habt! Auf bald!\e"
+MG08160000,"\h(«Fischer»)Ich hab einen! Ich hab einen! Ich hab einen!
+Rede jetzt nicht mit mir! Diesmal muss ich
+ihn mir einfach holen!\e"
+MG08160001,"\h(«Fischer»)Fische, die so gut schmecken wie Sashimi,
+muss man im Wasser fangen. Ich werde mir
+ein paar davon holen und sie mir heute zum
+Abendessen schmecken lassen!\c"
+MG08160002,"\h(«Fischer»)Fische, die so gut schmecken wie Sashimi,
+muss man im Wasser fangen. Ich werde mir
+ein paar davon holen und sie mir heute zum
+Abendessen schmecken lassen!\c"
+MG08160003,"\h(«Fischer»)Im Himmel über Yafutoma findet man
+manchmal seltene Fische namens “Romuhai”.\e"
+MG08160004,"\h(«Fischer»)Andererseits gibt es auch unterhalb Yafutomas
+Fische. Ich wünschte, ich könnte nur einmal im
+Leben einen dieser Fische fangen……\c"
+MS08020000,"\h(«Mercader de Repuestos de Navío»)Según creo, queréis ir al Monte Kazai.
+Lord Mikado me ha ordenado que os escolte.\e"
+MS08020001,"\h(«Mercader de Repuestos de Navío»)Antes de que os vayáis, ¿no queréis comprar unos
+Repuestos de Navío? Cuando estéis preparados,
+avisadme. Saldremos cuando queráis.\e"
+MS08020002,"\h(«¿Qué vas a hacer?»)“Comprar y vender repuestos de navío.”
+“Ir al Monte Kazai.”
+“Salir.”\e"
+MS08020003,"\h(«Mercader de Repuestos de Navío»)Entonces vamos al Monte Kazai. Yo llevaré el
+barco, vosotros no tenéis más que sentaros y
+tomároslo con calma.\e"
+MS08020004,"\h(«Mercader de Repuestos de Navío»)Anda, casi se me olvida. Si vamos a ir al
+interior del Monte Kazai, mejor me llevo esto.\e"
+MS08020005,\h( )¡Has recibido “Traje Acuático” x 1!\e
+MS08020006,"\h(«Mercader de Repuestos de Navío»)Al fondo del Monte Kazai hay una caverna, y en
+algunos puntos debe de haber agua.
+Este Traje Acuático nos vendrá bien.\e"
+MS08020028,"\h(«Aika»)¡¿Qué?! ¡¿Tenemos que ir bajo el agua?!
+¡¡¡Pero si no sé nadar!!!\e"
+MS08020029,"\h(«Mercader de Repuestos de Navío»)No te preocupes…… Mientras lleves puesto el
+Traje Acuático, todo irá bien. No tienes más que
+respirar con normalidad.\e"
+MS08020007,"\h(«Mercader de Repuestos de Navío»)Entonces, ¿vamos allá?
+¡Al Monte Kazai!\c"
+MS08020008,"\h(«Mercader de Repuestos de Navío»)Ah, así que no quieres ir al Monte Kazai.
+Bueno, yo voy a estar aquí. Si cambias de
+opinión más tarde, sólo tienes que avisarme.\e"
+MS08020009,"\h(«Mercader de Repuestos de Navío»)¿Has terminado los preparativos para ir al Monte
+Kazai? Salimos cuando quieras.\e"
+MS08020010,"\h(«¿Qué vas a hacer?»)“Comprar y vender repuestos de navío.”
+“Dirigirme al Monte Kazai.”
+“Salir.”\e"
+MS08020011,"\h(«Mercader de Repuestos de Navío»)¡Muy bien, pues vamos para el Monte Kazai!\c"
+MS08020012,"\h(«Mercader de Repuestos de Navío»)Ah, así que no quieres ir al Monte Kazai.
+Bueno, yo voy a estar aquí. Si cambias de
+opinión más tarde, sólo tienes que avisarme.\e"
+MS08020013,"\h(«Mercader de Repuestos de Navío»)Al final has conseguido volver del Monte Kazai
+con la legendaria Mega Esfera. Estoy muy
+orgulloso de haberos llevado.\e"
+MS08020014,"\h(«¿Qué vas a hacer?»)“Comprar y vender repuestos de navío.”
+“Charlar sobre temas de toda índole.”
+“Salir.”\e"
+MS08020015,"\h(«Mercader de Repuestos de Navío»)Siempre he pensado que todo eso de la Mega
+Esfera no era más que un viejo cuento.
+No puedo creer que de verdad exista.\e"
+MS08020016,"\h(«Mercader de Repuestos de Navío»)Pues no perdáis más tiempo. Daos prisa y
+llevadle la Mega Esfera a Lord Mikado.\c"
+MS08020017,"\h(«Mercader de Repuestos de Navío»)Dicen que en la costa ha aparecido una extraña
+flota de navíos negros de acero. Para ir sobre
+seguro, deberíais comprar unos repuestos.\e"
+MS08020018,"\h(«¿Qué vas a hacer?»)“Comprar y vender repuestos de navío.”
+“Charlar sobre temas de toda índole.”
+“Salir.”\e"
+MS08020019,"\h(«Mercader de Repuestos de Navío»)Lo mismo se podría decir de vuestros navíos,
+pero me choca que esos navíos de acero de los
+Occidentales sean tan distintos a los nuestros.\e"
+MS08020020,"\h(«Mercader de Repuestos de Navío»)Aun así, ni siquiera vuestros navíos pueden
+elevarse en el cielo tan alto como los
+nuestros.\e"
+MS08020021,"\h(«Mercader de Repuestos de Navío»)Gracias por venir.
+Volved pronto.\c"
+MS08020022,"\h(«Mercader de Repuestos de Navío»)¡No sólo habéis ahuyentado a esa flota de navíos
+negros, además habéis vencido al pájaro
+monstruoso! ¡¿Es que los milagros no acaban?!\e"
+MS08020023,"\h(«Mercader de Repuestos de Navío»)No creo que mi género sea en este momento de
+mucho interés para vosotros, pero echad un
+vistazo si os apetece.\e"
+MS08020024,"\h(«¿Qué vas a hacer?»)“Comprar y vender repuestos de navío.”
+“Charlar sobre temas de toda índole.”
+“Salir.”\e"
+MS08020025,"\h(«Mercader de Repuestos de Navío»)En las batallas de barcos, la victoria no es
+sólo cuestión de número. Lo que de verdad cuenta
+es lo potente que sean los navíos.\e"
+MS08020026,"\h(«Mercader de Repuestos de Navío»)Una vez hayas reducido al buque insignia y los
+buques de guerra más grandes, el resto de la
+flota se derrumbará enseguida.\e"
+MS08020027,\h(«Mercader de Repuestos de Navío»)¡Gracias por venir! ¡Volved pronto!\c
+MS08160000,"\h(«Pescador»)¡Lo tengo, lo tengo, lo tengo! ¡No me hables
+ahora! ¡Esta vez tengo que atraparlo!\e"
+MS08160001,"\h(«Pescador»)Para conseguir pescado que sepa tan bien como el
+sashami, tienes que mojarte.
+¡Voy a coger unos cuantos para cenar!\c"
+MS08160002,"\h(«Pescador»)Para conseguir pescado que sepa tan bien como el
+sashami, tienes que mojarte.
+¡Voy a coger unos cuantos para cenar!\c"
+MS08160003,"\h(«Pescador»)En el cielo que cubre Yafutoma, a veces
+habita un pez exótico llamado “Pez Romuhai”.\e"
+MS08160004,"\h(«Pescador»)Por otra parte, también debajo de Yafutoma se
+puede encontrar pescado. Ojalá pescara uno de
+esos peces al menos una vez en mi vida……\c"
+Ms019a000,"\h(«Vyse»)This is a strange container.
+It's packed full of small, white
+grains…\c"
+Ms019a001,"\h(«Vyse»)Hmm… An interesting looking barrel. And it
+looks like it's filled with…! Loqua!
+I guess they drink loqua here, too.\c"
+Ms019a002,"\h(«Vyse»)Whoa, look at the face on this statue.
+It sort of reminds me of Pow… Just a whole lot
+scarier. I wonder if it's a Yafutoman animal…\c"
+Ms019a003,"\h(«Vyse»)Actually, Yafutoman ships aren't all that
+different from ours. The difference is probably
+the Moon Stones that they use as fuel, then.\c"
+Ms019a004,"\h(«Vyse»)What a strange suit of armor.
+I wonder if the Yafutomans actually wear
+that thing in battle…\c"
+Ms019a005,"\h(«Vyse»)It's a Yafutoman diving suit, made of scales and
+oiled paper. It's looks so heavy… It's probably
+hard to walk on land while wearing that thing.\c"
+Ms019a006,"\h(«Vyse»)The Delphinus can't fly at high altitudes,
+so while we're here, we may as well use
+Yafutoman ships.\c"
+Ms019a007,"\h(«What will you do?»)“Return to the Delphinus.”
+“Stay here a little longer.”\c"
+MFs019a000,"\h(«Vyse»)Voilà un récipient étrange. Il est entièrement
+rempli de petits grains blancs……\c"
+MFs019a001,"\h(«Vyse»)Hmm…… Ce tonneau a l'air intéressant.
+Et on dirait qu'il est plein de…… ! Loqua !
+Ils doivent boire du Loqua ici aussi.\c"
+MFs019a002,"\h(«Vyse»)Oaouh, regardez le visage de cette statue.
+Il me rappelle un peu Pow…… Mais en plus
+effrayant. Je me demande si c'est un animal
+Yafutoman……\c"
+MFs019a003,"\h(«Vyse»)En fait, Les navires Yafutoman ne sont pas si
+différents des nôtres. Seules les Pierres de
+Lune qu'ils utilisent comme carburant sont
+différentes.\c"
+MFs019a004,"\h(«Vyse»)Quelle étrange armure.
+Je me demande si les Yafutomans portent cette
+chose dans les batailles……\e"
+MFs019a005,"\h(«Vyse»)C'est une combinaison de plongée Yafutoman faite
+d'écailles et de papier huilé. Elle semble si
+lourde…… Il est sûrement difficile de marcher
+sur terre avec cette chose.\c"
+MFs019a006,"\h(«Vyse»)Le Delphinus ne peut pas voler à haute altitude,
+alors tant que nous sommes ici, autant utiliser
+les navires yafutomans.\c"
+MFs019a007,"\h(«Que ferez-vous ?»)“Vous retournerez sur le Delphinus.”
+“Vous resterez ici un peu plus longtemps.”\c"
+MGs019a000,"\h(«Vyse»)Das ist ein seltsamer Behälter.
+Er ist voller kleiner, weißer Körner……\c"
+MGs019a001,"\h(«Vyse»)Hmm…… Ein interessant aussehendes Fass.
+Scheint so, als sei es gefüllt mit……!
+Loqua! Die trinken hier wohl auch Loqua.\c"
+MGs019a002,"\h(«Vyse»)Oha, schau dir das Gesicht der Statue an.
+Es erinnert mich irgendwie an Pow…… Nur
+um einiges Furcht erregender. Ich frage mich,
+ob es ein yafutomanisches Tier ist……\c"
+MGs019a003,"\h(«Vyse»)Eigentlich sind yafutomanische Schiffe gar nicht
+so verschieden von unseren. Der Unterschied
+liegt wahrscheinlich nur in den Moon Stones,
+die sie als Treibstoff gebrauchen.\c"
+MGs019a004,"\h(«Vyse»)Was für eine seltsame Rüstung.
+Ich frage mich, ob die Yafutomanen dieses
+Ding wirklich in der Schlacht tragen……\c"
+MGs019a005,"\h(«Vyse»)Ein yafutomanischer Tauchanzug, aus
+Schuppen und Ölpapier. Er sieht sehr schwer
+aus…… Es ist wahrscheinlich nicht leicht,
+sich mit dem Ding an Land zu bewegen.\c"
+MGs019a006,"\h(«Vyse»)Die Delphinus kann nicht in großen
+Höhen fliegen. Solange wir hier sind,
+können wir genauso gut yafutomanische
+Schiffe benutzen.\c"
+MGs019a007,"\h(«Was wirst du tun?»)“Zur Delphinus zurückkehren.”
+“Eine Weile hier bleiben.”\c"
+MSs019a000,"\h(«Vyse»)Este envase es extraño.
+Está lleno de pequeños granos blancos……\c"
+MSs019a001,"\h(«Vyse»)Mmm…… Un barril con un aspecto interesante.
+Y parece que está lleno de…… ¡loqua!
+Me imagino que aquí también beben loqua.\c"
+MSs019a002,"\h(«Vyse»)¡Vaya! Mira la cara de esta estatua.
+Me recuerda a Pow…… aunque da mucho miedo.
+Me pregunto si será un animal de Yafutoma.\c"
+MSs019a003,"\h(«Vyse»)Los navíos de Yafutoma no son tan diferentes de
+los nuestros. La diferencia son las Piedras
+Lunares que usan como combustible.\c"
+MSs019a004,"\h(«Vyse»)¡Qué armadura tan rara!
+Me pregunto si la gente de Yafutoma
+se pone estas cosas en las batallas……\c"
+MSs019a005,"\h(«Vyse»)Es un traje de buceo de Yafutoma, hecho de
+escamas y papel de petróleo. Parece pesado……
+Debe de ser muy difícil caminar con él.\c"
+MSs019a006,"\h(«Vyse»)El Delphinus no puede volar a grandes alturas,
+así que mientras estemos aquí,
+será mejor que usemos navíos Yafutoman.\c"
+MSs019a007,"\h(«¿Qué vas a hacer?»)“Volver al Delphinus.”
+“Quedarme aquí un poco más.”\c"
+"",me232a.sct
+"",me232a.sct
+"",me019b.sct
+"",me034a.sct
+"",me121a.sct
+"",M0325
+"",M0244
+"",M5190000
+"",k8590000
+"",a019ah07.mld
+"",a019ah07.mld
+"",e6h007
+"",M0244
+"",a019ah07.mld
+"",a019ah13.mld
+"",a019ah13.mld
+"",e6h013
+"",M0324
+"",a019ah13.mld

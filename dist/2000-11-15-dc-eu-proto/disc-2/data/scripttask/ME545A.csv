@@ -1,0 +1,98 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MFAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MGAC000000,"\h(《Would you like to try again?》)“I never give up!”
+“I quit.”\c"
+MA5450000,"\h(«Vyse»)It's finally time to face Galcian!
+Alright, everyone! I'm counting on all of you!\c"
+MA5450001,"\h(«What do you want to do?»)“Attack the enemy's hull.”
+“Attack the upper part of the enemy vessel.”\c"
+MA5450006,"\h(«What do you want to do?»)“Attack the upper part of the enemy vessel.”
+“Attack the enemy's hull.”\c"
+MA5450002,"\h(«Aika»)Look!
+The ship's hull fell away
+and there's a giant cannon coming out!\e"
+MA5450003,"\h(«Vyse»)Uh oh… It looks like Galcian's
+getting serious now…
+Alright everyone… It's now or never!\c"
+MA5450004,"\h(«Aika»)The enemy ship has been severely damaged and
+is trying to flee from battle!\e"
+MA5450005,"\h(«Vyse»)Galcian's trying to run away?!
+We can't let him escape!
+We've got to go after him!\c"
+MSA5450000,"\h(《Vyse》)It's finally time to face Galcian!
+Alright, everyone! I'm counting on all of you!\c"
+MSA5450001,"\h(《What do you want to do?》)“Attack the enemy's hull.”
+“Attack the upper part of the enemy vessel.”\c"
+MSA5450006,"\h(《What do you want to do?》)“Attack the upper part of the enemy vessel.”
+“Attack the enemy's hull.”\c"
+MSA5450002,"\h(《Aika》)Look!
+The ship's hull fell away
+and there's a giant cannon coming out!\e"
+MSA5450003,"\h(《Vyse》)Uh oh… It looks like Galcian's
+getting serious now…
+Alright everyone… It's now or never!\c"
+MSA5450004,"\h(《Aika》)The enemy ship has been severely damaged and
+is trying to flee from battle!\e"
+MSA5450005,"\h(《Vyse》)Galcian's trying to run away?!
+We can't let him escape!
+We've got to go after him!\c"
+MFA5450000,"\h(《Vyse》)It's finally time to face Galcian!
+Alright, everyone! I'm counting on all of you!\c"
+MFA5450001,"\h(《What do you want to do?》)“Attack the enemy's hull.”
+“Attack the upper part of the enemy vessel.”\c"
+MFA5450006,"\h(《What do you want to do?》)“Attack the upper part of the enemy vessel.”
+“Attack the enemy's hull.”\c"
+MFA5450002,"\h(《Aika》)Look!
+The ship's hull fell away
+and there's a giant cannon coming out!\e"
+MFA5450003,"\h(《Vyse》)Uh oh… It looks like Galcian's
+getting serious now…
+Alright everyone… It's now or never!\c"
+MFA5450004,"\h(《Aika》)The enemy ship has been severely damaged and
+is trying to flee from battle!\e"
+MFA5450005,"\h(《Vyse》)Galcian's trying to run away?!
+We can't let him escape!
+We've got to go after him!\c"
+MGA5450000,"\h(《Vyse》)It's finally time to face Galcian!
+Alright, everyone! I'm counting on all of you!\c"
+MGA5450001,"\h(《What do you want to do?》)“Attack the enemy's hull.”
+“Attack the upper part of the enemy vessel.”\c"
+MGA5450006,"\h(《What do you want to do?》)“Attack the upper part of the enemy vessel.”
+“Attack the enemy's hull.”\c"
+MGA5450002,"\h(《Aika》)Look!
+The ship's hull fell away
+and there's a giant cannon coming out!\e"
+MGA5450003,"\h(《Vyse》)Uh oh… It looks like Galcian's
+getting serious now…
+Alright everyone… It's now or never!\c"
+MGA5450004,"\h(《Aika》)The enemy ship has been severely damaged and
+is trying to flee from battle!\e"
+MGA5450005,"\h(《Vyse》)Galcian's trying to run away?!
+We can't let him escape!
+We've got to go after him!\c"
+"",M0465
+"",k0200.mld
+"",k0200.mld
+"",f7100051s.p04
+"",k0200.mld
+"",b1800.mld
+"",b1800.mld
+"",f7100060S.p04
+"",b1800.mld
+"",me545a.sct
+"",me090a.sct
+"",F7100100S.p04
+"","
+ターン選択
+\c"
+"","ターン0
+ターン1\cターン2\cターン3
+ターン4\cターン5\cターン6\cターン7\c"
+"",f3000042
+"",f3000042
+"",me249a.sct

@@ -1,0 +1,51 @@
+[Event Name],Task ID
+MA5130000,"\h(《Vyse》)W, what is that thing?!
+I've never seen a bird this big before!!\e"
+MA5130001,"\h(《Aika》)I don't know, but it looks like
+he's hungry…\c"
+MA5130002,"\h(《Vyse》)That scream… it's too powerful.
+It's going to tear the ship apart!\e"
+MA5130003,"\h(《Aika》)It's still coming after us!
+He must be really, really hungry!!\c"
+MA5130004,"\h(《Aika》)Vyse, awaiting orders!
+What should we do?\e"
+MA5130005,"\h(《What will you do?》)“Hold our position.”
+“Take that thing straight on.”\e"
+MA5130006,"\h(《Vyse》)Hold our position.
+Maybe if we stay still enough, it
+will lose interest in us…\e"
+MA5130007,"\h(《Aika》)That just might work! It may be a big one, but
+it is just a bird afterall! Let's see if we
+can fool that thing into leaving us alone!\c"
+MA5130008,"\h(《Vyse》)Take that thing head on!
+Let's aim for its head!!!\e"
+MA5130009,"\h(《Aika》)Well, I suppose we have to take a risk sometime.
+Just watch out for its attacks, okay Vyse?\c"
+MA5130010,"\h(《Aika》)Vyse, what next?\e"
+MA5130011,"\h(《What will you do?》)“Attack it head on!”
+“Get behind it!”\e"
+MA5130012,"\h(《Vyse》)Let's take it head on!
+Aim for its head!!\c"
+MA5130013,"\h(《Vyse》)That thing only has eyes in the front of its
+head! If we can get behind it, we should be
+able to get clear shots at that thing!\c"
+MA5130014,"\h(《Aika》)Huh?
+Where'd the bird go?\e"
+MA5130015,"\h(《Fina》)Aika, behind us!
+It got behind us somehow!\e"
+MA5130016,"\h(《Aika》)Oh no!
+It somehow got behind us as
+we tried to get in front of it!\c"
+"",M0430
+"",k0200.mld
+"",k0200.mld
+"",b3500.mld
+"",b3500.mld
+"",f7100051S.p04
+"",k0200.mld
+"",f7100062s.p04
+"",me090a.sct
+"",f7100105S.p04
+"",f7100100S.p04
+"",f3000025
+"",b3500b.mld

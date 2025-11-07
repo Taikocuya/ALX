@@ -1,0 +1,278 @@
+[Event Name],Task ID
+MA0050000,"\h(«Vice Captain»)Your Excellency, the sun is up and visibility is
+good. The preparations for your escape have been
+completed.\e"
+MA0050001,"\h(«Alfonso»)Good work.
+I have finished my preparations as well…\e"
+MA0050002,\h(«Alfonso»)… preparations to dispose of a traitor.\e
+MA0050003,\h(«Vice Captain»)W… what?\e
+MA0050004,"\h(«Vice Captain»)P… please!
+Your Excellency!!!
+What are you doing?!\e"
+MA0050005,"\h(«Alfonso»)I cannot tell the Empress that I lost my ship to
+the Air Pirates in a fair fight. I am going to
+need a scapegoat and you'll do quite nicely.\e"
+MA0050006,"\h(«Alfonso»)To keep my glorious reputation from being 
+tarnished, you must be sacrificed… \e"
+MA0050007,"\h(«Vice Captain»)N… no!
+You can't do this!\e"
+MA0050008,\h(«Vice Captain»)Aaaaaaahhhh!\e
+MA0050009,"\h(«Alfonso»)Even in death, he'll serve me well. 
+I can't wait to tell the Empress…\e"
+MA0050010,"\h(«Alfonso»)“But Empress, my own Vice Captain betrayed us
+and allowed the Air Pirates on board… I could
+do naught but dispose of the traitor myself.”\e"
+MA0050012,\h(«Alfonso»)What?!\e
+MA0050013,"\h(«Vyse»)Now that we've taken control of your ship, we'll
+be taking the girl as well.
+There's just one more thing I need to do.\e"
+MA0050014,"\h(«Vyse»)After seeing you kill an unarmed man in cold 
+blood, I can't allow you to walk away from this.
+Draw your blade, Alfonso!\e"
+MA0050015,"\h(«Alfonso»)Hah… An uncivilized Rogue such as yourself
+wants to challenge me? \e"
+MA0050016,"\h(«Alfonso»)You aren't worth my effort, but perhaps you'd
+like to meet one of my pets.
+Come, Antonio!\e"
+MA0050017,\h(«Vyse»)What? What is that thing?!\e
+MA0050018,"\h(«Alfonso»)He's my personal war beast.
+I was going to leave him here, but it seems I've
+found a use for him after all.\e"
+MA0050019,"\h(«Alfonso»)Antonio!
+Trample the pests… and make their deaths as
+painful as possible.\e"
+MFA0050000,"\h(«Vice Capitaine»)Votre Excellence, le soleil est levé et la
+visibilité est bonne. Les préparatifs pour votre
+fuite sont terminés.\e"
+MFA0050001,"\h(«Alfonso»)Bon travail.
+Moi aussi j'ai terminé mes préparations…\e"
+MFA0050002,\h(«Alfonso»)…… préparations pour disposer d'un traître.\e
+MFA0050003,\h(«Vice Capitaine»)Qu…… quoi ?\e
+MFA0050004,"\h(«Vice Capitaine»)Je…… je vous en prie !
+Votre Excellence !!!
+Que faites-vous ?!\e"
+MFA0050005,"\h(«Alfonso»)Je ne peux pas dire à l'Impératrice que j'ai
+perdu mon navire contre les Pirates de l'Air
+dans un combat loyal. Alors vous ferez un bouc
+émissaire idéal.\e"
+MFA0050006,"\h(«Alfonso»)Afin de préserver ma glorieuse réputation,
+vous devez être sacrifié……\e"
+MFA0050007,"\h(«Vice Capitaine»)N…… non !
+Vous ne pouvez pas faire ça !\e"
+MFA0050008,\h(«Vice Capitaine»)Aaaaaaahhhh !\e
+MFA0050009,"\h(«Alfonso»)Même sa mort me servira.
+Il me tarde de l'annoncer à l'Impératrice…\e"
+MFA0050010,"\h(«Alfonso»)“Votre Grandeur, mon Vice Capitaine m'a trahi et
+a permis aux Pirates de l'Air de monter à bord……
+J'ai été obligé de disposer du traître.”\e"
+MFA0050011,"\h( )Alors c'est comme ça que Valua traite son
+équipage……\e"
+MFA0050012,\h(«Alfonso»)Quoi ?!\e
+MFA0050013,"\h(«Vyse»)Maintenant que nous avons pris le contrôle de
+votre navire, nous allons prendre aussi la
+fille. Il me reste une dernière chose à faire.\e"
+MFA0050014,"\h(«Vyse»)Après vous avoir vu tuer de sang froid un
+homme désarmé, je ne peux pas vous laisser
+partir comme ça. Sortez votre épée, Alfonso !\e"
+MFA0050015,\h(«Alfonso»)Ah…… Un barbare comme vous veut me défier ?\e
+MFA0050016,"\h(«Alfonso»)Vous n'en valez pas la peine, mais peut-être
+que vous aimeriez faire la connaissance d'un
+de mes animaux. Viens, Antonio !\e"
+MFA0050017,\h(«Vyse»)Quoi ? Qu'est ce que c'est ?!\e
+MFA0050018,"\h(«Alfonso»)C'est ma bête de guerre personnelle. J'allais
+la laisser ici mais on dirait que je lui ai
+trouvé une utilité.\e"
+MFA0050019,"\h(«Alfonso»)Antonio ! Piétine cette vermine…… et que leur
+mort soit aussi douloureuse que possible.\e"
+MGA0050000,"\h(«Vizekapitän»)Eure Exzellenz, die Sonne steht am Himmel, und
+die Sicht ist gut. Die Vorbereitungen für ihre
+Flucht sind abgeschlossen. \e"
+MGA0050001,"\h(«Alfonso»)Gute Arbeit.
+Auch ich bin mit meinen Vorbereitungen fertig…… \e"
+MGA0050002,"\h(«Alfonso»)… Vorbereitungen, einen Verräter loszuwerden.\e"
+MGA0050003,\h(«Vizekapitän»)W……as?\e
+MGA0050004,"\h(«Vizekapitän»)B…… itte!
+Eure Exzellenz!!!
+Was machen Sie da?!\e"
+MGA0050005,"\h(«Alfonso»)Ich kann der Kaiserin nicht sagen, dass ich mein
+Schiff in einem fairen Kampf verloren habe. Ich
+brauche einen Sündenbock, und der bist du.\e"
+MGA0050006,"\h(«Alfonso»)Um meinen glorreichen Ruf nicht zu schädigen,
+musst du geopfert werden……\e"
+MGA0050007,"\h(«Vizekapitän»)N……  nein!
+Das können Sie nicht tun!\e"
+MGA0050008,\h(«Vizekapitän»)Aaaaaaahhhh!\e
+MGA0050009,"\h(«Alfonso»)Sogar im Tode leistet er mir gute Dienste.
+Ich kann's nicht erwarten, es der Kaiserin zu
+berichten……\e"
+MGA0050010,"\h(«Alfonso»)“Aber Kaiserin, mein eigener Vizekapitän hat uns
+betrogen und ließ die Luftpiraten an Bord……
+Ich musste mich des Verräters selber
+entledigen……”\e"
+MGA0050012,\h(«Alfonso»)Was?!\e
+MGA0050013,"\h(«Vyse»)Jetzt, da wir dein Schiff unter Kontrolle haben,
+nehmen wir das Mädchen auch mit.
+Ich muss nur noch eines tun.\e"
+MGA0050014,"\h(«Vyse»)Nachdem ich gesehen habe, wie du einen unbewaff-
+neten Mann kaltblütig ermordet hast, kann ich
+dich nicht gehen lassen. Zieh dein Schwert,
+Alfonso!\e"
+MGA0050015,"\h(«Alfonso»)Ha……  Ein unzivilisierter Rogue wie du will mich
+herausfordern? \e"
+MGA0050016,"\h(«Alfonso»)Du bist die Mühe nicht wert, doch vielleicht
+willst du eines meiner Haustiere kennen lernen.
+Komm, Antonio! \e"
+MGA0050017,\h(«Vyse»)Was! Was ist das?!\e
+MGA0050018,"\h(«Alfonso»)Meine persönliche Kampfbestie. Ich wollte ihn
+hier lassen, aber es scheint, als hätte ich doch
+noch einen Nutzen für ihn gefunden. \e"
+MGA0050019,"\h(«Alfonso»)Antonio! Zertrampel das Ungeziefer……  und mach
+ihren Tod so qualvoll wie möglich.\e"
+MSA0050000,"\h(«Vicecapitán»)Su Excelencia, el sol está en lo alto y la
+visibilidad es buena. Lo tenemos todo preparado
+para su huida.\e"
+MSA0050001,"\h(«Alfonso»)Buen trabajo. Yo también he acabado con mis
+preparativos……\e"
+MSA0050002,\h(«Alfonso»)……preparativos para deshacerme de un traidor.\e
+MSA0050003,\h(«Vicecapitán»)¿Pero……? ¿Cómo……?\e
+MSA0050004,"\h(«Vicecapitán»)¡Por…… por favor!
+¡¡¡Excelencia!!!
+¡¿Qué hace?!\e"
+MSA0050005,"\h(«Alfonso»)No puedo decirle a la Emperatriz que los Piratas
+Aéreos ganaron mi buque en una batalla. Tú harás
+de cabeza de turco.\e"
+MSA0050006,"\h(«Alfonso»)Para mantener intacta mi gloriosa fama, debes
+ser sacrificado……\e"
+MSA0050007,"\h(«Vicecapitán»)¡No……!
+¡No puede hacer eso!\e"
+MSA0050008,\h(«Vicecapitán»)¡Aaaaaaahhhh!\e
+MSA0050009,"\h(«Alfonso»)Incluso muerto, me será de gran ayuda.
+Estoy impaciente por contárselo al Emperador.\e"
+MSA0050010,"\h(«Alfonso»)“Emperatriz, mi Vicecapitán me traicionó
+permitiendo a los Piratas Aéreos abordar mi
+navío…… Es mi deber castigar a los traidores.”\e"
+MSA0050011,\h( )¿Es así como Valua trata a su gente……?\e
+MSA0050012,\h(«Alfonso»)¡¿Cómo?!\e
+MSA0050013,"\h(«Vyse»)Ahora que nos hemos hecho con el control de tu
+navío, nos llevaremos también a la chica.
+Sólo me queda una cosa por hacer.\e"
+MSA0050014,"\h(«Vyse»)Después de verte matar a sangre fría a un hombre
+desarmado, no puedo dejarte marchar.
+¡Desenvaina tu sable, Alfonso!\e"
+MSA0050015,"\h(«Alfonso»)Ja…… ¿Un Bandido zafio como tú pretende
+desafiarme?\e"
+MSA0050016,"\h(«Alfonso»)No eres digno de mi esfuerzo, pero quizá quieras
+conocer a una de mis mascotas.
+¡Antonio, ven!\e"
+MSA0050017,\h(«Vyse»)¿Qué? ¡¿Qué es ese bicho?!\e
+MSA0050018,"\h(«Alfonso»)Es mi bestia de guerra personal. Lo iba a dejar
+aquí, pero me parece que le he encontrado una
+utilidad, después de todo.\e"
+MSA0050019,"\h(«Alfonso»)¡Antonio!
+Acaba con estos gusanos…… y haz que sus muertes
+sean horribles y dolorosas.\e"
+MA0060000,"\h(«Alfonso»)Bah!
+Perhaps there is more to you than meets the eye.\e"
+MA0060001,"\h(«Alfonso»)Well, Vyse of the Blue Rogues…
+You will rue this day… the day you stood
+against the Valuan Empire. We shall meet again.\e"
+MA0060002,"\h(«Aika»)You coward! 
+What kind of a commander sacrifices his own men 
+and his ship to run from a fight?\e"
+MA0060003,"\h(«Aika»)Well, even though he was a coward, he was a
+coward with gold…\e"
+MA0060004,"\h(«Vyse»)True… I suppose that the ship and everything on
+it officially belong to us now.\e"
+MA0060005,"\h(«Aika»)We haven't had a catch this big for quite some 
+time! The people back home are going to be 
+impressed.\e"
+MA0060006,"\h(«Aika»)And look at this girl.
+I've never seen anyone dressed like that before.\e"
+MA0060007,"\h(«Vyse»)You're right. She sure doesn't look like she's 
+from around here. I wonder why Valua was trying 
+to kidnap this girl in the first place.\e"
+MA0060008,"\h(«Aika»)Hmm…
+I wonder where she's from…\e"
+MFA0060000,"\h(«Alfonso»)Bah !
+Peut-être qu'il ne faut pas se fier aux
+apparences avec vous.\e"
+MFA0060001,"\h(«Alfonso»)Bon, Vyse des Voleurs Bleus…… Vous regretterez
+ce jour. Le jour où vous vous êtes opposé à
+l'Empire Valuan. Nous nous reverrons.\e"
+MFA0060002,"\h(«Aika»)Espèce de lâche ! Quel genre de commandant
+sacrifierait ses propres hommes et son navire
+pour échapper à un combat ?\e"
+MFA0060003,"\h(«Aika»)Bon, même s'il était lâche, c'était un lâche
+qui avait de l'or……\e"
+MFA0060004,"\h(«Vyse»)C'est vrai…… Je suppose que le navire et tout
+ce qu'il transporte nous appartient
+officiellement maintenant.\e"
+MFA0060005,"\h(«Aika»)Cela fait longtemps que nous n'avons pas fait
+une telle prise ! Les gens de chez nous vont
+être impressionnés.\e"
+MFA0060006,"\h(«Aika»)Et regarde cette fille.
+Je n'ai jamais vu personne habillée de cette
+façon.\e"
+MFA0060007,"\h(«Vyse»)Tu as raison. Elle n'a vraiment pas l'air
+d'être d'ici. Je me demande pourquoi Valua
+essayait de kidnapper cette fille de toute
+façon.\e"
+MFA0060008,"\h(«Aika»)Humm……
+Je me demande d'où elle vient……\e"
+MGA0060000,"\h(«Alfonso»)Pah!
+Vielleicht muss man dich wirklich ernst nehmen.\e"
+MGA0060001,"\h(«Alfonso»)Also, Vyse von den Blue Rogues…
+Du wirst diesen Tag verwünschen. Den Tag, an dem
+du dich gegen das Valuan Empire aufgelehnt hast.
+Wir werden uns wiedersehen.\e"
+MGA0060002,"\h(«Aika»)Du Feigling!
+Was ist das für ein Kommandeur, der seine Männer
+und sein Schiff opfert, um einem Kampf
+auszuweichen?\e"
+MGA0060003,"\h(«Aika»)Nun, auch wenn er ein Feigling war, zumindest
+war er ein reicher Feigling …… \e"
+MGA0060004,"\h(«Vyse»)Stimmt……  Ich nehme an, das Schiff und alles,
+was sich darauf befindet, gehört nun offiziell
+uns.\e"
+MGA0060005,"\h(«Aika»)So einen großen Fang hatten wir schon lange
+nicht mehr! Die Leute zu Hause werden staunen.\e"
+MGA0060006,"\h(«Aika»)Und schau dir dieses Mädchen an.
+Ich habe noch nie jemanden mit solchen
+Kleidern gesehen.\e"
+MGA0060007,"\h(«Vyse»)Stimmt. Sie sieht bestimmt nicht so aus, als
+wäre sie von hier. Ich frage mich, warum Valua
+überhaupt dieses Mädchen entführen wollte.\e"
+MGA0060008,"\h(«Aika»)Hmm……
+Ich frage mich, wo sie herkommt……\e"
+MSA0060000,"\h(«Alfonso»)¡Bah!
+Es posible que no seas tan malo como parece.\e"
+MSA0060001,"\h(«Alfonso»)Bueno, Vyse de los Bandidos Azules……
+Nunca olvidarás el día de hoy. El día en que te
+enfrentaste al Imperio Valuan. Volveremos a
+vernos.\e"
+MSA0060002,"\h(«Aika»)¡Cobarde!
+¿Qué clase de comandante sacrifica a sus propios
+hombres y a su buque para escapar de una
+batalla?\e"
+MSA0060003,"\h(«Aika»)Bueno, puede que fuera un cobarde, pero era un
+cobarde con oro……\e"
+MSA0060004,"\h(«Vyse»)Es verdad…… Supongo que el buque y todo lo que
+haya en él nos pertenece oficialmente.\e"
+MSA0060005,"\h(«Aika»)¡Hace mucho tiempo que no conseguíamos un botín
+tan grande! Todos quedarán impresionados cuando
+volvamos a casa.\e"
+MSA0060006,"\h(«Aika»)Y fíjate en esta chica.
+Nunca había visto a nadie vestido así.\e"
+MSA0060007,"\h(«Vyse»)Tienes razón. Desde luego no parece que sea de
+por aquí. Me pregunto por qué querían en Valua
+secuestrar a esta chica.\e"
+MSA0060008,"\h(«Aika»)Vaya……
+Me pregunto de dónde será……\e"
+"",me028e.sct
+"",a101ca05.mld
+"",e6a005
+"",M0314
+"",a101ca05.mld
+"",a101ca06.mld
+"",e6a006
+"",M0309

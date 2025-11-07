@@ -1,0 +1,846 @@
+[Event Name],Task ID
+MA0180000,"\h(«Lindsi»)Vy~se!
+Ai~ka!
+Good Luck!\e"
+MA0180001,"\h(«Alan»)You'd better come back!
+Promise me, okay?\e"
+MA0180002,"\h(«Aika»)Of course! Don't worry…
+We'll come back with everyone else, too!\e"
+MA0180003,"\h(«Vyse»)Alright…
+Aika, let's go.\e"
+MA0180004,"\h(«Aika»)Aye aye.
+Valua should be on a landmass due north from
+here.\e"
+MA0180005,"\h(«Vyse»)I'm setting the course!
+Alright… Valua, here we come!\e"
+MSA0180000,"\h(«Lindsi»)¡Vy~se!
+¡Ai~ka!
+¡Buena suerte!\e"
+MSA0180001,"\h(«Alan»)¡Será mejor que volváis!
+¿Lo prometéis?\e"
+MSA0180002,"\h(«Aika»)¡Claro! No te preocupes……
+¡Volveremos con todos los demás!\e"
+MSA0180003,"\h(«Vyse»)Está bien……
+Aika, vamos.\e"
+MSA0180004,"\h(«Aika»)Venga, vale.
+Valua debe estar en una franja de tierra en
+dirección norte desde aquí.\e"
+MSA0180005,"\h(«Vyse»)¡Estoy estableciendo el rumbo!
+¡Valua……! ¡Vamos a por ti!\e"
+MFA0180000,"\h(«Lindsi»)Vy~se !
+Ai~ka !
+Bonne chance !\e"
+MFA0180001,"\h(«Alan»)Vous avez intérêt de revenir !
+Promis ?\e"
+MFA0180002,"\h(«Aika»)Bien sûr ! Ne vous inquiétez pas……
+En plus, nous reviendrons avec tous les autres !\e"
+MFA0180003,"\h(«Vyse»)OK……
+Aika, allons-y.\e"
+MFA0180004,"\h(«Aika»)À vos ordres.
+Valua devrait être sur un continent au nord
+d'ici.\e"
+MFA0180005,"\h(«Vyse»)Je mets le cap !
+…… Valua, nous voilà !\e"
+MGA0180000,"\h(«Lindsi»)Vy~se!
+Ai~ka!
+Viel Glück!\e"
+MGA0180001,"\h(«Alan»)Dass ihr auch ja zurückkommt!
+Versprecht es mir, ja?\e"
+MGA0180002,"\h(«Aika»)Natürlich! Mach dir keine Sorgen……
+Wir kommen zusammen mit all den anderen zurück!\e"
+MGA0180003,"\h(«Vyse»)Gut……
+Aika, lass uns gehen.\e"
+MGA0180004,"\h(«Aika»)Aye aye.
+Valua sollte auf einer Landmasse direkt nördlich
+von hier liegen.\e"
+MGA0180005,"\h(«Vyse»)Ich gehe auf Kurs!
+OK…… Valua, wir kommen!\e"
+M00010000,"\h(«Jimmy»)Don't worry about us, Vyse! We'll take care
+of everything while you're gone!\e"
+M00010001,"\h(«Jimmy»)My injury? It's all better! My dad always told
+me that anything that doesn't kill you will hurt
+at first, but it will only make you stronger!\c"
+M00020000,"\h(«Alan»)I'm gonna try and fix everything! You
+just watch! You don't have to worry
+about anything, okay Vyse?\e"
+M00020001,"\h(«Alan»)We're not little babies anymore! I was a little
+scared at first, but we've got to learn to take
+care of things around here, too!\c"
+M00030000,\h(«Lindsi»)Vyse… Just promise me one thing…\e
+M00030001,"\h(«Lindsi»)You have to promise me that you'll come
+back safely, no matter what! Okay? Promise?\e"
+M00030002,"\h(«What will you say?»)“Sure, I promise.”
+“Sorry… I can't promise anything.”\e"
+M00030003,"\h(«Vyse»)Sure, I promise. Have I ever not come home
+safely? Have I ever let you down, Lindsi?\e"
+M00030004,"\h(«Lindsi»)N, no… You've always come home to us…\e"
+M00030005,"\h(«Vyse»)You see? So you don't need to worry.
+So, don't worry… I'll come back safely.
+And I'll bring back everyone with me.\e"
+M00030006,"\h(«Lindsi»)Okay! It's a promise then! We'll all be
+waiting for you!! Come home soon!\c"
+M00030007,"\h(«Vyse»)To be perfectly honest… I can't really say.
+I mean, I've never even been to Valua before…
+I don't know what lies ahead.\e"
+M00030008,"\h(«Lindsi»)No, don't say that! You have to come home!
+You just have to!!!\e"
+M00030009,"\h(«Vyse»)… I'll try my best, Lindsi. I'll try my best.\e"
+M00030010,"\h(«Lindsi»)You better come back! Or else I'm gonna have to
+go out and bring you back, okay?!\c"
+M00030011,"\h(«Lindsi»)You have to promise to come back home with
+everyone else, okay? It's a promise!\c"
+M00030012,\h(«Pow»)Pow pow!\e
+M00030013,"\h(«Vyse»)Okay, Pow, I have to go away for a little
+while… You be a good boy and look after
+everyone while I'm away, alright?\e"
+M00040000,\h(«Pow»)Pow pow! Pow!!\c
+M00040001,\h(«Pow»)Pow pow! Pow!!\c
+M00080000,"\h(«Vyse's Mother»)Good morning, dear. Are you all set to go?
+I… I almost don't want you to go…
+But, I suppose you must.\e"
+M00080001,"\h(«Vyse's Mother»)Stand tall, my son. When a sailor starts out on
+a journey, he needs to go with a little more
+hope in his eyes than that, okay?\e"
+M00080002,"\h(«Vyse's Mother»)We'll be fine here on the island, so don't worry
+about a thing. You just make sure and bring your
+father home safe and sound. Good luck, my dear…\c"
+M00080003,"\h(«Vyse's Mother»)Vyse, why don't you take a little rest? You
+must be very tired. A little nap can work
+wonders sometimes…\e"
+M00080004,"\h(«What will you say?»)“Sure, I could use a little rest.”
+“Nah… I'll be fine. I'm not that tired.”\e"
+M00080005,"\h(«Vyse»)Sure, I could use a little rest. I was starting
+to get a little tired…\e"
+M00080006,"\h(«Vyse's Mother»)No problem.
+Sleep well, Vyse.\e"
+M00080007,"\h(«Vyse's Mother»)It looks like you rested well.
+Be careful out there, okay?\c"
+M00080008,"\h(«Vyse»)I'll be fine, mom. I'm not that tired.\e"
+M00080009,"\h(«Vyse's Mother»)I see. Well, just be careful out there, okay?\c"
+M00090000,"\h(«Jessica»)This scarf… I was knitting it for my husband,
+Patch, before… before the Valuans took him.\e"
+M00090001,"\h(«Jessica»)No… I must keep knitting. I must finish it.
+Then I will give it to my husband when he
+returns. I know he'll be back… I just know it…\c"
+M00100000,"\h(«Granny»)Your father and everyone else tried to make
+me run and hide underground, but I refused to.\e"
+M00100001,"\h(«Granny»)Call me a stubborn old woman if you want, but
+when I die, I want to die in my own home.\e"
+M00100002,"\h(«Granny»)But… I didn't die. And all the young men were
+captured… Oh, Vyse, I'm so glad you're safe,
+though. It's all so horrible… so horrible…\c"
+M00100003,"\h(«Granny»)We just have to think of it as a test that the
+Moons are putting us through. They are testing
+our bonds of love and friendship…\c"
+M00100004,"\h(«Granny»)Vyse… Aika… You both are going after Dyne and
+the others? I pray that the Moons watch over
+you, wherever you may go…\c"
+M00160000,"\h(«Ben the Lookout»)V, Vyse, is that you? We got hit badly
+by the Valuans… by the Armada…\e"
+M00160001,"\h(«Ben the Lookout»)… They just attacked us out of nowhere…
+I barely had time to warn the others…
+Everything's been destroyed…\e"
+M00160002,"\h(«Ben the Lookout»)The women and children took refuge underground,
+but the Captain and the others… they were all
+captured and taken prisoner…\c"
+M00160003,"\h(«Ben the Lookout»)Everyone else is… in the underground docks…
+Hurry and go to them… Your mother was
+worried sick…\c"
+MS00010000,"\h(«Jimmy»)¡No te preocupes por nosotros, Vyse!
+¡Nos ocuparemos de todo mientras estés fuera!\e"
+MS00010001,"\h(«Jimmy»)¿La herida? ¡Está casi curada! ¡Como decía
+siempre mi padre, si algo no te mata, te hace
+más fuerte!\c"
+MS00020000,"\h(«Alan»)¡Voy a arreglarlo todo! ¡Tú mira! No tienes que
+preocuparte de nada, ¿vale, Vyse?\e"
+MS00020001,"\h(«Alan»)¡Ya no somos niños pequeños! ¡Al principio me
+daba un poco de miedo, pero tenemos que aprender
+a ocuparnos de estas cosas!\c"
+MS00030000,\h(«Lindsi»)Vyse…… Sólo prométeme una cosa……\e
+MS00030001,"\h(«Lindsi»)Prométeme que volverás sano y salvo, ¡pase lo
+que pase! ¿Vale? ¿Prometido?\e"
+MS00030002,"\h(«¿Qué vas a decir?»)“Claro, lo prometo.”
+“Lo siento…… Pero no puedo prometer nada.”\e"
+MS00030003,"\h(«Vyse»)Claro, lo prometo. ¿Es que no vuelvo siempre a
+casa? ¿Te he decepcionado alguna vez, Lindsi?\e"
+MS00030004,"\h(«Lindsi»)No, no…… Siempre vuelves a casa……\e"
+MS00030005,"\h(«Vyse»)¿Lo ves? No tienes de qué preocuparte.
+Así que tranquila…… Volveré de una pieza.
+Y traeré conmigo a todos los demás.\e"
+MS00030006,"\h(«Lindsi»)¡Muy bien! ¡Entonces prometido! ¡¡Te estaremos
+esperando!! ¡Vuelve pronto a casa!\c"
+MS00030007,"\h(«Vyse»)Si te digo la verdad…… Cómo te lo digo.
+Quiero decir, es la primera vez que voy a
+Valua…… Y no sé lo que me espera.\e"
+MS00030008,"\h(«Lindsi»)¡Ni se te ocurra decir eso!
+¡Tienes que volver!
+¡¡¡Tienes que volver!!!\e"
+MS00030009,"\h(«Vyse»)…… Lo intentaré, Lindsi. Haré lo que pueda.\e"
+MS00030010,"\h(«Lindsi»)¡Como no vuelvas te vas a enterar!
+¡Iré yo a buscarte si hace falta!\c"
+MS00030011,"\h(«Lindsi»)Tienes que prometerme que vas a volver con todos
+los demás, ¿vale? ¡Lo prometes!\c"
+MS00030012,\h(«Pow»)¡Pow pow!\e
+MS00030013,"\h(«Vyse»)Muy bien, Pow, tengo que irme fuera por un
+tiempo…… Vas a ser bueno y cuidar de todos
+mientras yo estoy fuera, ¿eh?\e"
+MS00040000,\h(«Pow»)¡Pow pow! ¡¡Pow!!\c
+MS00040001,\h(«Pow»)¡Pow pow! ¡¡Pow!!\c
+MS00080000,"\h(«Madre de Vyse»)Buenos días. ¿Estáis todos preparados?
+Yo…… no quiero que os vayáis……
+Pero supongo que es vuestro deber.\e"
+MS00080001,"\h(«Madre de Vyse»)Mantente erguido, hijo mío. Cuando un marino
+empieza un viaje, tiene que partir con un poco
+más de esperanza en los ojos, ¿vale?\e"
+MS00080002,"\h(«Madre de Vyse»)Aquí estaremos bien, no te preocupes. Tú
+asegúrate de que traes a tu padre sano y salvo.
+Que la suerte te acompañe, hijo mío……\c"
+MS00080003,"\h(«Madre de Vyse»)Vyse, ¿por qué no descansas un poco?
+Debes estar cansado.
+A veces una siestecita hace maravillas……\e"
+MS00080004,"\h(«¿Qué vas a hacer?»)“Claro, me viene bien un descanso.”
+“No…… me encuentro bien. No estoy cansado.”\e"
+MS00080005,"\h(«Vyse»)Claro, me viene bien un descanso.
+Estoy empezando a notarme cansado……\e"
+MS00080006,"\h(«Madre de Vyse»)Está bien.
+Que descanses, Vyse.\e"
+MS00080007,"\h(«Madre de Vyse»)Has dormido muy bien.
+Ten mucho cuidado por ahí, ¿eh?\c"
+MS00080008,"\h(«Vyse»)No te preocupes, mamá. No estoy tan cansado.\e"
+MS00080009,"\h(«Madre de Vyse»)Ya. Bueno, ten mucho cuidado por ahí, ¿vale?\c"
+MS00090000,"\h(«Jessica»)Esta bufanda…… era para mi marido, Patch,
+antes…… antes de que se lo llevaran los Valuan.\e"
+MS00090001,"\h(«Jessica»)No…… debo seguir tejiendo. Tengo que terminarla.
+Se la daré a mi marido cuando regrese.
+Sé que va a regresar…… Lo sé……\c"
+MS00100000,"\h(«Abuela»)Tu padre y los demás querían que fuera a
+esconderme en un refugio subterráneo, pero me
+negué.\e"
+MS00100001,"\h(«Abuela»)Dirás que soy una vieja cabezota, pero cuando me
+muera, quiero morir en mi propia casa.\e"
+MS00100002,"\h(«Abuela»)Pero…… yo no he muerto y todos los chicos
+jóvenes fueron capturados…… Vyse, me alegro de
+que tú estés vivo. Es tan horrible……\c"
+MS00100003,"\h(«Abuela»)Tenemos que planteárnoslo como una prueba que
+las Lunas nos ponen. Están poniendo a prueba
+nuestros lazos de amor y de amistad……\c"
+MS00100004,"\h(«Abuela»)Vyse…… Aika…… ¿Vais a ir con Dyne y los demás?
+Rezaré por que las Lunas os protejan allá donde
+estéis……\c"
+MS00160000,"\h(«Ben el Vigía»)¿Eres tú, Vyse? Los Valuan nos han alcanzado y
+nos han provocado grandes daños…… Ha sido la
+Armada……\e"
+MS00160001,"\h(«Ben el Vigía»)…… Nos han atacado por sorpresa……
+Apenas tuve tiempo para avisar a los demás……
+Lo han destrozado todo……\e"
+MS00160002,"\h(«Ben el Vigía»)Las mujeres y los niños se refugiaron bajo
+tierra, pero al Capitán y los demás…… se los
+llevaron prisioneros……\c"
+MS00160003,"\h(«Ben el Vigía»)Todos los demás…… se refugiaron en el
+embarcadero…… Date prisa y ve para allá……
+Tu madre está preocupadísima……\c"
+MF00010000,"\h(«Jimmy»)Ne t'en fais pas pour nous, Vyse ! Nous nous
+occuperons de tout pendant ton absence !\e"
+MF00010001,"\h(«Jimmy»)Ma blessure ? Ça va beaucoup mieux ! Mon père
+m'a toujours dit que ce qui fait mal mais ne tue
+pas, rend inévitablement plus fort !\c"
+MF00020000,"\h(«Alan»)Je vais essayer de tout arranger ! Tu verras !
+Ne t'inquiète surtout pas, OK Vyse ?\e"
+MF00020001,"\h(«Alan»)Nous ne sommes plus des bébés ! J'avais un peu
+peur au début, mais nous aussi nous devons
+apprendre à nous débrouiller !\c"
+MF00030000,\h(«Lindsi»)Vyse…… Promets-moi une chose……\e
+MF00030001,"\h(«Lindsi»)Tu dois me promettre que tu reviendras en un
+seul morceau, quoiqu'il arrive ! OK ? Promis ?\e"
+MF00030002,"\h(«Que direz-vous ?»)“OK, promis.”
+“Désolé…… Je ne peux rien promettre.”\e"
+MF00030003,"\h(«Vyse»)OK, promis. Est-ce que cela m'est déjà arrivé de
+ne pas rentrer ? Est-ce que je t'ai déjà laissée
+tomber, Lindsi ?\e"
+MF00030004,"\h(«Lindsi»)N, non…… Tu es toujours revenu……\e"
+MF00030005,"\h(«Vyse»)Tu vois ? Alors c'est inutile de s'inquiéter.
+Je reviendrai. Et je ramènerai tout le monde.\e"
+MF00030006,"\h(«Lindsi»)OK ! Tu promets alors ! Nous t'attendrons !
+Reviens vite !\c"
+MF00030007,"\h(«Vyse»)Pour être franc…… Je ne sais pas.
+Je veux dire, je ne suis jamais allé à Valua……
+Je ne sais pas ce qui nous attend.\e"
+MF00030008,"\h(«Lindsi»)Non, ne dis pas cela ! Tu dois rentrer !
+Il le faut !!!\e"
+MF00030009,"\h(«Vyse»)…… Je ferai de mon mieux, Lindsi.
+Je ferai de mon mieux.\e"
+MF00030010,"\h(«Lindsi»)Tu as intérêt de revenir ! Sinon je viendrai te
+chercher pour te ramener, d'accord ?!\c"
+MF00030011,"\h(«Lindsi»)Tu dois me promettre que tu reviendras avec tous
+les autres ? Promis !\c"
+MF00030012,\h(«Pow»)Pow pow !\e
+MF00030013,"\h(«Vyse»)D'accord, Pow, je dois partir pendant quelques
+temps…… Sois gentil et veille sur tout le monde,
+d'accord ?\e"
+MF00040000,\h(«Pow»)Pow pow ! Pow !!\c
+MF00040001,\h(«Pow»)Pow pow ! Pow !!\c
+MF00080000,"\h(«Mère de Vyse»)Bonjour, mon chéri. Tout est prêt pour le
+départ ? Je…… je préférerais que tu restes……
+Mais, je sais que tu dois y aller.\e"
+MF00080001,"\h(«Mère de Vyse»)Relève la tête, mon fils. Quand un marin se
+prépare à faire un voyage, il doit avoir un peu
+plus d'espoir que cela, d'accord ?\e"
+MF00080002,"\h(«Mère de Vyse»)Tout ira bien sur l'île, alors ne t'en fais pas.
+Je te demande simplement de ramener ton père
+sain et sauf. Bonne chance, mon chéri……\c"
+MF00080003,"\h(«Mère de Vyse»)Vyse, pourquoi ne pas te reposer un peu ?
+Tu dois être très fatigué. Une petite sieste
+peut faire des miracles……\e"
+MF00080004,"\h(«Que direz-vous ?»)“Une petite sieste me ferait du bien.”
+“Non…… Ça ira. Je ne suis pas très fatigué.”\e"
+MF00080005,"\h(«Vyse»)Une petite sieste me ferait du bien. Je
+commençais à me sentir un peu fatigué……\e"
+MF00080006,"\h(«Mère de Vyse»)Pas de problème.
+Dors bien, Vyse.\e"
+MF00080007,"\h(«Mère de Vyse»)Tu as l'air bien reposé.
+Sois prudent là-bas, d'accord ?\c"
+MF00080008,"\h(«Vyse»)Ça ira, maman. Je ne suis pas si fatigué.\e"
+MF00080009,"\h(«Mère de Vyse»)Je vois. Bon, sois prudent là-bas, d'accord ?\c"
+MF00090000,"\h(«Jessica»)Cette écharpe…… Je la tricotais pour mon mari,
+Patch, avant…… avant que les Valuans ne
+l'emportent.\e"
+MF00090001,"\h(«Jessica»)Non…… Je dois continuer à tricoter. Je dois la
+terminer. Je la donnerai à mon mari à son
+retour. Je sais qu'il reviendra…… Je le sais……\c"
+MF00100000,"\h(«Grand-mère»)Ton père et tous les autres voulaient que je me
+cache dans les souterrains, mais j'ai refusé.\e"
+MF00100001,"\h(«Grand-mère»)Dis que je suis bornée si tu veux, mais c'est
+dans ma maison que je veux mourir.\e"
+MF00100002,"\h(«Grand-mère»)Mais…… je ne suis pas morte. Et tous les hommes
+jeunes ont été capturés…… Oh, Vyse, je suis
+contente que tu sois en vie. C'est vraiment
+horrible…… vraiment horrible……\c"
+MF00100003,"\h(«Grand-mère»)Il faut voir cela comme un test des Lunes. Elles
+testent l'amour et l'amitié que nous avons les
+uns pour les autres……\c"
+MF00100004,"\h(«Grand-mère»)Vyse…… Aika…… Vous allez à la recherche de Dyne
+et des autres ? Je prie pour que les Lunes vous
+protègent, où que vous soyez……\c"
+MF00160000,"\h(«Ben la Vigie»)V, Vyse, c'est toi ? Les Valuans…… l'Armada……
+ils ne nous ont pas ratés.\e"
+MF00160001,"\h(«Ben la Vigie»)…… Ils nous ont attaqués par surprise……
+J'ai eu à peine le temps de prévenir les
+autres…… Ils ont tout détruit……\e"
+MF00160002,"\h(«Ben la Vigie»)Les femmes et les enfants se sont réfugiés dans
+le souterrain, mais le Capitaine et les autres……
+Ils ont tous été faits prisonniers……\c"
+MF00160003,"\h(«Ben la Vigie»)Tous les autres sont…… dans les docks
+souterrains…… Va vite les voir…… Ta mère était
+malade d'inquiétude……\c"
+MG00010000,"\h(«Jimmy»)Mach dir um uns keine Sorgen, Vyse! Wir
+kümmern uns in deiner Abwesenheit um alles!\e"
+MG00010001,"\h(«Jimmy»)Meine Verletzung? Ist schon alles gut!
+Mein Vater hat immer gesagt, dass alles, was
+dich nicht umbringt, zuerst wehtut, aber
+dann macht es dich stärker!\c"
+MG00020000,"\h(«Alan»)Ich werd versuchen, alles zu reparieren!
+Du brauchst nur zuzuschauen! Du brauchst dich
+um nichts zu kümmern, okay Vyse?\e"
+MG00020001,"\h(«Alan»)Wir sind schließlich keine Babies mehr! Ich
+hatte erst etwas Angst, aber wir müssen auch
+lernen, uns um die Dinge hier zu kümmern!\c"
+MG00030000,\h(«Lindsi»)Vyse…… Versprich mir nur eines……\e
+MG00030001,"\h(«Lindsi»)Du musst mir versprechen, dass du heil
+wiederkommst, egal, was passiert! Ok?
+Abgemacht?\e"
+MG00030002,"\h(«Was wirst du sagen?»)“Klar, ich versprech's”.
+“Tut mir leid…… ich kann nichts versprechen”.\e"
+MG00030003,"\h(«Vyse»)Klar, ich versprech's. Bin ich schon mal
+nicht heil wieder nach Hause gekommen?
+Hab ich dich je im Stich gelassen, Lindsi?\e"
+MG00030004,\h(«Lindsi»)N…ein…… Du bist immer zu uns zurückgekehrt……\e
+MG00030005,"\h(«Vyse»)Siehst du? Also mach dir keine Sorgen……
+Ich komme heil wieder. Und ich bring
+auch all die anderen mit zurück.\e"
+MG00030006,"\h(«Lindsi»)Ok! Versprochen ist versprochen! Wir warten
+alle auf dich!! Komm bald nach Hause!\c"
+MG00030007,"\h(«Vyse»)Um ganz ehrlich zu sein…… ich kann's nicht
+sagen. Ich meine, ich war noch nie vorher in
+Valua…… ich weiß nicht, was uns erwartet.\e"
+MG00030008,"\h(«Lindsi»)Nein, sag das nicht! Du musst zurückkommen!
+Du musst einfach!!!\e"
+MG00030009,"\h(«Vyse»)…… Ich werde mein Bestes tun, Lindsi. Ich
+werde mein Bestes tun.\e"
+MG00030010,"\h(«Lindsi»)Dass du ja wiederkommst! Sonst muss ich
+hinausfahren und dich zurückholen, okay?!\c"
+MG00030011,"\h(«Lindsi»)Du musst versprechen, mit allen anderen
+zurückzukommen, okay? Versprich es!\c"
+MG00030012,\h(«Pow»)Pau pau!\e
+MG00030013,"\h(«Vyse»)Ok, Pow, ich muss für eine Weile weg……
+Du benimmst dich brav und schaust nach allen,
+während ich weg bin, ist das klar?\e"
+MG00040000,\h(«Pow»)Pau pau! Pau!!\c
+MG00040001,\h(«Pow»)Pau pau! Pau!!\c
+MG00080000,"\h(«Vyses Mutter»)Morgen, mein Kleiner. Bist du soweit? Mir…… wäre
+es fast lieber, wenn du
+nicht gingest…… Aber du musst wohl.\e"
+MG00080001,"\h(«Vyses Mutter»)Halt dich aufrecht, mein Sohn. Wenn ein Seemann
+auf eine Reise geht, dann sollte er etwas mehr
+Hoffnung zeigen, ok?\e"
+MG00080002,"\h(«Vyses Mutter»)Wir kommen hier auf der Insel zurecht, also
+mach dir keine Sorgen. Pass nur auf, dass du
+deinen Vater gesund und munter zurück nach
+Hause bringst. Viel Glück, mein Lieber……\c"
+MG00080003,"\h(«Vyses Mutter»)Vyse, warum ruhst du dich nicht ein wenig aus?
+Du musst sehr müde sein. Ein kleines Nickerchen
+kann manchmal Wunder bewirken.\e"
+MG00080004,"\h(«Was wirst du sagen?»)“Klar, ich könnte ein wenig Ruhe vertragen”.
+“Nö…… schon in Ordnung. Ich bin nicht so müde”.\e"
+MG00080005,"\h(«Vyse»)Klar, ich könnte ein wenig Ruhe vertragen.
+Ich fange an, etwas müde zu werden……\e"
+MG00080006,"\h(«Vyses Mutter»)Kein Problem.
+Schlaf gut, Vyse.\e"
+MG00080007,"\h(«Vyses Mutter»)Du hast dich wohl gut erholt.
+Sei vorsichtig dort draußen, ok?\c"
+MG00080008,"\h(«Vyse»)Schon gut, Mama. Ich bin gar nicht so müde.\e"
+MG00080009,"\h(«Vyses Mutter»)Ach so. Tja, also, sei vorsichtig dort
+draußen, okay?\c"
+MG00090000,"\h(«Jessica»)Dieser Schal…… ich habe ihn für meinen Mann
+Patch gestrickt, bevor…… bevor ihn die
+Valuaner mitnahmen.\e"
+MG00090001,"\h(«Jessica»)Nein…… ich muss weiter stricken. Ich muss ihn
+zu Ende stricken. Dann gebe ich ihn meinem
+Mann, wenn er zurückkommt. Ich weiß, er wird
+zurückkommen…… ich weiß es einfach……\c"
+MG00100000,"\h(«Oma»)Dein Vater und alle anderen haben mir gesagt,
+ich soll rennen und mich im Untergrund
+verstecken, aber ich habe mich geweigert.\e"
+MG00100001,"\h(«Oma»)Du kannst mich eine sture alte Frau
+nennen, aber wenn ich sterbe, möchte ich in
+meinem eigenen Heim sterben.\e"
+MG00100002,"\h(«Oma»)Aber…… ich bin nicht gestorben. Und alle
+jungen Männer wurden gefangen genommen……
+Oh, Vyse, ich bin froh, dass du in Sicherheit
+bist. Es ist alles so furchtbar…… so furchtbar.\c"
+MG00100003,"\h(«Oma»)Wir müssen es einfach als eine Prüfung
+betrachten, die uns die Monde auferlegen.
+Sie prüfen unsere Bande der Liebe und der
+Freundschaft.\c"
+MG00100004,"\h(«Oma»)Vyse…… Aika…… ihr folgt beide Dyne und den
+anderen? Ich bete, dass euch die Monde
+beschützen, wo ihr auch immer hingeht……\c"
+MG00160000,"\h(«Ben, der Wachtposten»)V……Vyse, bist du's? Die Valuaner…… die
+Armada hat uns ganz schön erwischt……\e"
+MG00160001,"\h(«Ben, der Wachtposten»)……Sie haben uns einfach aus dem Nichts
+angegriffen…… Ich hatte kaum Zeit, die anderen
+zu warnen…… alles wurde zerstört……\e"
+MG00160002,"\h(«Luftpirat»)Die Frauen und Kinder versteckten sich im
+Untergrund, aber der Captain und die anderen……
+sie wurden alle gefangen genommen……\c"
+MG00160003,"\h(«Ben, der Wachtposten»)Alle anderen sind…… auf den unterirdischen
+Docks…… Geh zu ihnen, beeil dich…… deine
+Mutter ist krank vor Sorge.\c"
+Ms002b000,"\h(«Vyse»)I can't believe it…
+Everything is burnt to a crisp…\c"
+Ms002b001,"\h(«Vyse»)Even the walls are falling apart. It's going to
+take a lot of work to fix this place again.\c"
+Ms002b002,"\h(«Vyse»)The spear that was hanging here has been reduced
+to almost nothing but ashes.\c"
+Ms002b003,"\h(«Vyse»)This pillar used to never budge, no matter how
+hard you hit it. Now it's ready to fall over…\c"
+Ms002b004,"\h(«Vyse»)The plant that Granny was raising has fallen off
+of her dresser. She put so much love into
+raising that thing… She must be heart-broken.\c"
+Ms002b005,"\h(«Vyse»)Well, at least the salted fish is safe…\c"
+Ms002b006,"\h(«Vyse»)It looks like someone was in the middle of
+cooking and just left this pot here when the
+attack started.\c"
+Ms002b007,"\h(«Vyse»)Granny's pot is still full of food. She was
+probably cooking when the Valuans attacked. I
+hope she's had something to eat since then…\c"
+Ms002b008,"\h(«Vyse»)The glass has been shattered and shards are
+scattered everywhere. Even the utensils that
+were inside the drawer are all scattered around.\c"
+Ms002b009,"\h(«Vyse»)The water inside has been polluted with ashes
+and dust. This water is unusable now…\c"
+Ms002b010,\h(«Vyse»)It's filled with water all the way to the brim.\c
+Ms002b011,"\h(«Vyse»)The pickled turnips look and smell as good as
+ever… Well, they look and smell as good as
+pickled turnips can get, I suppose.\c"
+Ms002b012,"\h(«Vyse»)The glass has been shattered and shards are
+scattered everywhere. Even the utensils that
+were inside the drawer are all scattered around.\c"
+Ms002b013,"\h(«Vyse»)It looks like someone was in the middle of
+cooking and just left this pot here when the
+attack started.\c"
+Ms002b014,"\h(«Vyse»)Someone left the pot on the fire. There isn't
+a whole lot cooking inside the pot, either…\c"
+Ms002b015,"\h(«Vyse»)The water inside has been polluted with ashes
+and dust. This water is unusable now…\c"
+Ms002b016,\h(«Vyse»)It's filled with water all the way to the brim.\c
+Ms002b017,"\h(«Vyse»)The dresser seems to have survived intact. It
+doesn't look like the contents have been
+disturbed, either.\c"
+Ms002b018,"\h(«Vyse»)It's my old man's bed. It looks like it wasn't
+damaged by the attack.\c"
+Ms002b019,"\h(«Vyse»)The fireplace is cold… I don't know when the
+last time this fireplace was ever cold. Mom
+rarely ever lets the fire go out…\c"
+Ms002b020,"\h(«Vyse»)Mom almost never lets the fire go out… I don't
+know why, but it's almost depressing…\c"
+Ms002b021,"\h(«Vyse»)The glass has been shattered and shards are
+scattered everywhere. Even the utensils that
+were inside the drawer are all scattered around.\c"
+Ms002b022,"\h(«Vyse»)I don't think I could relax right now, even if
+I tried. I'd just be wasting my time if I were
+to try and lie down in bed.\c"
+Ms002b023,"\h(«Vyse»)Whew… My book on navigation wasn't burnt in the
+fires. It's covered in ashes, but at least it's
+okay.\c"
+Ms002b024,"\h(«Vyse»)These papers must've been scattered in the
+attack. No wait… I left these papers out here.
+Oops.\c"
+Ms002b025,"\h(«Vyse»)Oh man… The sign that used to say “Windmill
+Island” is broken.\c"
+Ms002b026,"\h(«Vyse»)Oh man… The sign that used to say “Windmill
+Island” is broken.\e"
+Ms002b027,"\h(«Vyse»)Well, I suppose now that the Valuans know that
+it was just a cover-up, there's no point in
+calling this place Windmill Island anymore.\c"
+Ms002b028,"\h(«Vyse»)This is probably from a cannon blast. Even the
+ground is scorched here… Those Valuans are
+going to pay…\c"
+Ms002b029,"\h(«Vyse»)It's hard to think that just before we left for
+Shrine Island that there was laundry hanging up
+to dry as usual here…\c"
+Ms002b030,"\h(«Vyse»)Even the garden looks like it was hit. I don't
+think any of the turnips survived the attack.\c"
+Ms002b031,"\h(«Vyse»)Damn… It's stuck. It was probably jammed shut
+by the attack.\c"
+Ms002b032,"\h(«Vyse»)The door is jammed. It looks like it was bent
+out of shape in the attack.\e"
+Ms002b033,"\h(«Vyse»)This windmill was sort of like the symbol of
+this island. And now it's nearly in ruins…\c"
+Ms002b034,"\h(«Vyse»)The ladder was destroyed in the attack. There's
+no way we can make it up to Lookout Island right
+now.\c"
+Ms002b035,"\h(«Vyse»)A big chunk of rock is blocking the door to
+Aika's house. An explosion from one of the
+cannon blasts probably did this.\c"
+Ms002b036,"\h(«Vyse»)This boulder's huge! The Valuans must have
+really strong cannons to have caused something
+like this to fly so far.\c"
+Ms002b037,"\h(«Vyse»)It's no use. I can't move this boulder… It's
+way too heavy.\c"
+Ms002b038,"\h(«Vyse»)… I can't go any further. Everything was
+destroyed beyond here.\c"
+Ms002b039,"\h(«Vyse»)This is no time for me to go out sailing. I have
+to check up on everyone to make sure they're
+okay!\c"
+Ms002b040,"\h(«What will you do?»)“Set sail for Valua.”
+“Stay a little while longer.”\c"
+MSs002b000,"\h(«Vyse»)No puedo creérmelo……
+Todo ha quedado chamuscado……\c"
+MSs002b001,"\h(«Vyse»)Hasta los muros se desploman. Nos va a costar
+mucho volver a arreglar este lugar.\c"
+MSs002b002,"\h(«Vyse»)El arpón que estaba aquí ha quedado
+prácticamente reducido a cenizas.\c"
+MSs002b003,"\h(«Vyse»)Este pilar no se movía nada antes,
+por muy fuerte que lo golpearas.
+Ahora está a punto de caerse……\c"
+MSs002b004,"\h(«Vyse»)La planta que esa pobre anciana cuidaba se ha
+caído de su cómoda. Le dedicó tantos cuidados……
+Debe de estar totalmente desolada.\c"
+MSs002b005,"\h(«Vyse»)Bueno, por lo menos el pescado salado
+está a salvo……\c"
+MSs002b006,"\h(«Vyse»)Parece como si a alguien le cogiera cocinando
+y dejó el caldero aquí cuando empezó el ataque.\c"
+MSs002b007,"\h(«Vyse»)El caldero de la anciana está todavía lleno.
+Seguro que estaba cocinando cuando los Valuan
+atacaron. Espero que haya comido……\c"
+MSs002b008,"\h(«Vyse»)El vaso está hecho añicos y hay pedazos por
+todas partes. Hasta los utensilios que estaban
+dentro del cajón están por todos lados.\c"
+MSs002b009,"\h(«Vyse»)El agua se ha contaminado con cenizas y polvo.
+Ya no se puede usar para nada……\c"
+MSs002b010,\h(«Vyse»)El agua rebosa por todas partes.\c
+MSs002b011,"\h(«Vyse»)Los nabos en vinagre huelen y tienen mejor
+pinta que nunca…… Bueno, me imagino que no
+podrían oler y tener mejor pinta.\c"
+MSs002b012,"\h(«Vyse»)El vaso está hecho añicos y hay pedazos por
+todas partes. Hasta los utensilios que estaban
+dentro del cajón están por todos lados.\c"
+MSs002b013,"\h(«Vyse»)Parece como si a alguien le cogiera cocinando
+y dejó el caldero aquí cuando empezó el ataque.\c"
+MSs002b014,"\h(«Vyse»)Alguien se dejó el caldero en el fuego.
+Tampoco hay mucho hecho dentro……\c"
+MSs002b015,"\h(«Vyse»)El agua se ha contaminado con cenizas y polvo.
+Ya no se puede usar para nada……\c"
+MSs002b016,\h(«Vyse»)El agua rebosa por todas partes.\c
+MSs002b017,"\h(«Vyse»)Parece que la cómoda quedó intacta. Y lo que
+había dentro también parece estar bien.\c"
+MSs002b018,"\h(«Vyse»)Es la cama de mi viejo.
+Parece que el ataque no le afectó.\c"
+MSs002b019,"\h(«Vyse»)La chimenea está fría…… No sé cuándo fue la
+última vez que esta chimenea ha estado fría.
+Mi madre casi nunca la apagaba……\c"
+MSs002b020,"\h(«Vyse»)Mi madre casi nunca apagaba el fuego……
+No sé porqué, pero me deprime un poco……\c"
+MSs002b021,"\h(«Vyse»)El vaso está hecho añicos y hay pedazos por
+todas partes. Hasta los utensilios que estaban
+dentro del cajón están por todos lados.\c"
+MSs002b022,"\h(«Vyse»)Creo que ahora mismo no me puedo relajar,
+aunque lo intente. Perdería el tiempo echándome
+un rato para tranquilizarme……\c"
+MSs002b023,"\h(«Vyse»)¡¡Uff!! Mi libro de navegación no se quemó en
+incendio. Está lleno de cenizas, pero por lo
+menos está bien.\c"
+MSs002b024,"\h(«Vyse»)Estos papeles se deben de haber esparcidos por
+todas partes durante el ataque. No, espera……
+Yo los dejé aquí fuera. ¡Uy!\c"
+MSs002b025,"\h(«Vyse»)Oh, no…… El cartel en el que ponía “Isla del
+Molino” está roto.\c"
+MSs002b026,"\h(«Vyse»)Oh, no…… El cartel en el que ponía “Isla del
+Molino” está roto.\c"
+MSs002b027,"\h(«Vyse»)Bueno, supongo que ahora que los Valuan saben
+que era sólo una tapadera, ya no tiene sentido
+llamar a este sitio Isla del Molino.\c"
+MSs002b028,"\h(«Vyse»)Esto parece resultado de la explosión de un
+cañón. Hasta hay una marca en el suelo……
+Esos Valuan lo van a pagar……\c"
+MSs002b029,"\h(«Vyse»)Cuesta creer que justo antes de que nos
+marcháramos a la Isla del Templo,
+aquí había ropa tendida como siempre……\c"
+MSs002b030,"\h(«Vyse»)Hasta el jardín parece que ha sido dañado.
+Ningún nabo habrá sobrevivido al ataque.\c"
+MSs002b031,"\h(«Vyse»)Maldita sea…… Está atascado.
+Seguro que se quedó así por el ataque.\c"
+MSs002b032,"\h(«Vyse»)La puerta está obstruida.
+Parece que se deformó en el ataque.\e"
+MSs002b033,"\h(«Vyse»)Este molino de viento era el símbolo
+de esta isla y ahora está prácticamente
+en ruinas……\c"
+MSs002b034,"\h(«Vyse»)La escalera quedó destruida durante el ataque.
+Ya no hay modo de llegar a Isla Centinela.\c"
+MSs002b035,"\h(«Vyse»)Una roca enorme bloquea la puerta de
+la casa de Aika. Seguramente ha sido
+la explosión de uno de los cañones.\c"
+MSs002b036,"\h(«Vyse»)¡Es un pedrusco enorme! Los Valuan deben de
+tener cañones muy potentes para hacer volar tan
+lejos semejante cosa.\c"
+MSs002b037,"\h(«Vyse»)Es inútil. No puedo mover este pedrusco……
+Pesa demasiado.\c"
+MSs002b038,"\h(«Vyse»)No puedo seguir……
+Todo ha sido destruido más adelante.\c"
+MSs002b039,"\h(«Vyse»)¡No puedo irme a navegar en esta situación!
+¡Tengo que comprobar que todos están bien!\c"
+MSs002b040,"\h(«¿Qué vas a hacer?»)“Navegar hacia Valua.”
+“Quedarme un poco más.”\c"
+MFs002b000,"\h(«Vyse»)Je n'y crois pas……
+Tout a été réduit en cendres……\c"
+MFs002b001,"\h(«Vyse»)Même les murs s'écroulent. Il va falloir faire
+de sacrés travaux pour remettre cet endroit à
+neuf.\c"
+MFs002b002,"\h(«Vyse»)La lance qui était accrochée ici a été réduite
+en cendres.\c"
+MFs002b003,"\h(«Vyse»)Ce pilier n'a jamais bougé, même quand on tapait
+très fort. Maintenant, il est sur le point de
+s'écrouler……\c"
+MFs002b005,"\h(«Vyse»)Au moins, le poisson est intact……\c"
+MFs002b006,"\h(«Vyse»)Apparemment, quelqu'un faisait la cuisine et a
+laissé ce pot, lorsque l'attaque a éclaté.\c"
+MFs002b007,"\h(«Vyse»)Le pot de Grand-mère contient encore de la
+nourriture. Elle faisait sûrement la cuisine
+lorsque les Valuans ont attaqué. J'espère
+qu'elle a mangé depuis.\c"
+MFs002b008,"\h(«Vyse»)Les vitres ont explosé et les morceaux de verre
+sont éparpillés partout. Tout comme les
+ustensiles qui étaient dans les tiroirs.\c"
+MFs002b009,"\h(«Vyse»)L'eau a été polluée par les cendres et la
+poussière. Elle est inutilisable……\c"
+MFs002b010,\h(«Vyse»)Il y a de l'eau à ras bords.\c
+MFs002b012,"\h(«Vyse»)Les vitres ont explosé et les morceaux de verre
+sont éparpillés partout. Tout comme les
+ustensiles qui étaient dans les tiroirs.\c"
+MFs002b013,"\h(«Vyse»)Apparemment, quelqu'un faisait la cuisine et a
+laissé ce pot, lorsque l'attaque a éclaté.\c"
+MFs002b014,"\h(«Vyse»)Quelqu'un a laissé le pot sur le feu. Il ne
+reste pas beaucoup de nourriture non plus dans
+le pot……\c"
+MFs002b015,"\h(«Vyse»)L'eau a été polluée par les cendres et la
+poussière. Elle est inutilisable……\c"
+MFs002b016,\h(«Vyse»)Il y a de l'eau à ras bords.\c
+MFs002b017,"\h(«Vyse»)La commode est restée intacte. Tout comme ce
+qu'elle contenait, d'ailleurs.\c"
+MFs002b018,"\h(«Vyse»)Voici le lit de mon père. Apparemment, l'attaque
+ne l'a pas endommagé.\c"
+MFs002b019,"\h(«Vyse»)La cheminée est froide…… Je me demande quand
+était la dernière fois où elle a été froide.
+Ma mère ne laisse jamais le feu s'éteindre.\c"
+MFs002b020,"\h(«Vyse»)Ma mère ne laisse jamais le feu s'éteindre……
+Je ne sais pas pourquoi…… c'est déprimant.\c"
+MFs002b021,"\h(«Vyse»)Les vitres ont explosé et les morceaux de verre
+sont éparpillés partout. Tout comme les
+ustensiles qui étaient dans les tiroirs.\c"
+MFs002b022,"\h(«Vyse»)Je ne crois pas que je pourrais me détendre,
+même si je le voulais. Je perdrais mon temps si
+je m'allongeais.\c"
+MFs002b024,"\h(«Vyse»)Ces papiers ont dû être éparpillés partout
+pendant l'attaque. Non, attendez…… je les ai
+laissés là. Zut.\c"
+MFs002b025,"\h(«Vyse»)Oh non…… Le panneau qui indiquait “Île du
+Moulin” est cassé.\c"
+MFs002b026,"\h(«Vyse»)Oh non…… Le panneau qui indiquait “Île du
+Moulin” est cassé.\c"
+MFs002b027,"\h(«Vyse»)Et bien, je suppose que maintenant que les
+Valuans savent que ce n'était qu'une couverture,
+il n'y a plus d'intérêt à appeler cet endroit
+l'Île du Moulin.\c"
+MFs002b028,"\h(«Vyse»)C'est probablement une explosion de canon.
+Même le sol est détruit ici…… Ces Valuans vont
+le payer cher……\c"
+MFs002b029,"\h(«Vyse»)Il est difficile de penser que lorsque nous
+sommes partis pour l'Île du Temple, il y avait
+du linge qui séchait ici……\c"
+MFs002b030,"\h(«Vyse»)Même le jardin a été touché. Je crois que les
+navets n'ont pas survécu à l'attaque.\c"
+MFs002b031,"\h(«Vyse»)Zut……  C'est coincé. C'est certainement dû à
+l'attaque.\c"
+MFs002b032,"\h(«Vyse»)La porte est coincée. Elle a été déformée
+pendant l'attaque.\e"
+MFs002b033,"\h(«Vyse»)Ce moulin était en quelque sorte le symbole
+de cette île. Et maintenant, ce ne sont que des
+ruines……\c"
+MFs002b034,"\h(«Vyse»)L'échelle a été détruite pendant l'attaque.
+Pour l'instant, il est impossible d'atteindre
+l'Île Vigie.\c"
+MFs002b035,"\h(«Vyse»)Un énorme rocher bloque la porte de la maison
+d'Aika. C'est probablement dû à une explosion de
+canons.\c"
+MFs002b036,"\h(«Vyse»)Ce rocher est énorme ! Les Valuans doivent
+vraiment posséder des canons puissants pour
+qu'un tel rocher soit projeté si loin.\c"
+MFs002b037,"\h(«Vyse»)C'est inutile. Je n'arrive pas à déplacer ce
+rocher…… Il est bien trop lourd.\e"
+MFs002b038,\h(«Vyse»)…… Je ne peux plus avancer. Tout a été détruit.\c
+MFs002b039,"\h(«Vyse»)Ce n'est pas un bon moment pour que je parte en
+voyage. Je dois vérifier que tout le monde va
+bien.\c"
+MFs002b040,"\h(«Que ferez-vous?»)“Vous partirez pour Valua.”
+“Vous resterez encore un petit moment.”\c"
+MGs002b000,"\h(«Vyse»)Ich fasse es nicht……
+Alles komplett abgebrannt……\c"
+MGs002b001,"\h(«Vyse»)Sogar die Wände stürzen ein.
+Das wird ein Haufen Arbeit,
+alles wieder aufzubauen.\c"
+MGs002b002,"\h(«Vyse»)Der Speer, der hier hing, ist nur noch ein
+Häufchen Asche.\c"
+MGs002b003,"\h(«Vyse»)Dieser Pfeiler hat nie nachgegeben,
+egal wie hart man dagegen trat.
+Jetzt ist er kurz vor dem Umkippen……\c"
+MGs002b004,"\h(«Vyse»)Omas Pflanze ist vom Schrank gefallen.
+Sie hat sie mit so viel Liebe gezüchtet……
+das wird ihr das Herz brechen.\c"
+MGs002b005,"\h(«Vyse»)Nun, zumindest dem gesalzenen Fisch
+ist nichts passiert……\c"
+MGs002b006,"\h(«Vyse»)Sieht aus, als wäre hier jemand am Kochen
+gewesen und hätte gerade den Topf hier
+abgestellt, als der Angriff kam.\c"
+MGs002b007,"\h(«Vyse»)Omas Topf ist noch voll. Sie kochte
+wahrscheinlich gerade, als die Valuaner
+angriffen. Ich hoffe, sie hat danach noch
+etwas zu essen bekommen……\c"
+MGs002b008,"\h(«Vyse»)Das Glas ist kaputt gegangen, überall liegen
+Scherben. Der Inhalt der Schublade wurde
+überall verstreut.\c"
+MGs002b009,"\h(«Vyse»)Das Wasser wurde durch Asche und Staub
+verschmutzt. Das kann jetzt keiner mehr
+trinken……\c"
+MGs002b010,\h(«Vyse»)Bis an den Rand mit Wasser gefüllt.\c
+MGs002b011,"\h(«Vyse»)Die eingelegten Rüben sehen aus und schmecken
+wie immer…… nun ja, so gut wie eingelegte
+Rüben halt schmecken können.\c"
+MGs002b012,"\h(«Vyse»)Das Glas ist kaputt gegangen, überall liegen
+Scherben. Der Inhalt der Schublade ist
+überall verstreut.\c"
+MGs002b013,"\h(«Vyse»)Sieht aus, als wäre hier jemand am Kochen
+gewesen und hätte gerade den Topf hier
+abgestellt, als der Angriff kam.\c"
+MGs002b014,"\h(«Vyse»)Jemand hat den Topf auf dem Feuer gelassen.
+Ist auch nicht viel drin……\c"
+MGs002b015,"\h(«Vyse»)Das Wasser wurde durch Asche und Staub
+verschmutzt. Das kann jetzt keiner mehr
+trinken……\c"
+MGs002b016,\h(«Vyse»)Bis an den Rand mit Wasser gefüllt.\c
+MGs002b017,"\h(«Vyse»)Der Schrank sieht noch intakt aus.
+Auch der Inhalt scheint noch an seinem
+Platz zu sein.\c"
+MGs002b018,"\h(«Vyse»)Das Bett meines Vaters. Scheint beim Angriff
+nicht beschädigt worden zu sein.\c"
+MGs002b019,"\h(«Vyse»)Der Kamin ist kalt…… Ich kann mich nicht
+erinnern, wann er jemals kalt gewesen ist.
+Meine Mutter hat das Feuer fast nie
+ausgehen lassen……\c"
+MGs002b020,"\h(«Vyse»)Mutter lässt fast nie das Feuer ausgehen…… Ich
+weiß nicht warum, aber es macht mich traurig……\c"
+MGs002b021,"\h(«Vyse»)Das Glas ist kaputt gegangen, überall liegen
+Scherben. Der Inhalt der Schublade ist
+überall verstreut.\c"
+MGs002b022,"\h(«Vyse»)Ich glaube nicht, dass ich mich jetzt
+entspannen könnte, selbst wenn ich wollte.
+Es wäre reine Zeitverschwendung, mich jetzt
+ins Bett zu legen.\c"
+MGs002b023,"\h(«Vyse»)Puuh…… Mein Buch über Navigation ist
+nicht verbrannt. Es ist schwarz von der Asche,
+aber zumindest heil.\c"
+MGs002b024,"\h(«Vyse»)Diese Papiere müssen beim Angriff verstreut
+worden sein. Ach nein…… die habe ich ja
+selber liegen lassen. Ups.\c"
+MGs002b025,"\h(«Vyse»)Oh Mann…… das Schild, auf dem “Windmill
+Island” stand, ist kaputt.\c"
+MGs002b026,"\h(«Vyse»)Oh Mann…… das Schild, auf dem “Windmill
+Island” stand, ist kaputt.\c"
+MGs002b027,"\h(«Vyse»)Naja, jetzt wo die Valuaner wissen, dass es
+nur Tarnung war, hat es wohl keinen Sinn mehr,
+den Namen Windmill Island zu benutzen.\c"
+MGs002b028,"\h(«Vyse»)Das ist wahrscheinlich von einem Kanonenschuss.
+Sogar die Erde ist hier verbrannt…… Das werden
+die Valuaner büßen……\c"
+MGs002b029,"\h(«Vyse»)Schlimm, wenn man bedenkt, dass kurz bevor wir
+nach Shrine Island aufgebrochen sind,
+dort noch Wäsche auf der Leine hing……\c"
+MGs002b030,"\h(«Vyse»)Sogar der Garten scheint betroffen zu sein.
+Ich glaube kaum, dass die Rüben den Angriff
+überlebt haben.\c"
+MGs002b031,"\h(«Vyse»)Verdammt…… sie klemmt. Wurde wahrscheinlich
+durch den Angriff irgendwie blockiert.\c"
+MGs002b032,"\h(«Vyse»)Die Tür ist blockiert. Scheint sich beim
+Angriff verzogen zu haben.\e"
+MGs002b033,"\h(«Vyse»)Diese Windmühle war so eine Art Wahrzeichen
+für die Insel. Jetzt ist sie nicht viel mehr
+als eine Ruine……\c"
+MGs002b034,"\h(«Vyse»)Die Leiter wurde beim Angriff zerstört.
+Im Moment kann man gar nicht zur
+Lookout Island hochsteigen.\c"
+MGs002b035,"\h(«Vyse»)Ein großer Felsbrocken versperrt den Eingang
+zu Aikas Haus. Wahrscheinlich wurde er von
+einer Kanonenkugel abgesprengt.\c"
+MGs002b036,"\h(«Vyse»)Dieser Felsbrocken ist riesig! Die Kanonen der
+Valuaner müssen wirklich stark sein, um so
+einen Brocken zum Fliegen zu bringen.\c"
+MGs002b037,"\h(«Vyse»)Es hat keinen Zweck. Ich kann ihn nicht
+bewegen…… Er ist viel zu schwer.\c"
+MGs002b038,"\h(«Vyse»)…… Ich komme nicht weiter.
+Ab hier ist alles zerstört.\c"
+MGs002b039,"\h(«Vyse»)Ich kann jetzt unmöglich in See stechen.
+Ich muss erstmal nachsehen, ob alle wohlauf
+sind!\c"
+MGs002b040,"\h(«Was wirst du tun?»)“Richtung Valua in See stechen.”
+“Noch etwas hier bleiben.”\c"
+"",me002d.sct
+"",me002e.sct
+"",me002d.sct
+"",me002e.sct
+"",m5020000
+"",k8030000
+"",EVA18発生しました。\c
+"",a002ba18.mld
+"",a002ba18.mld
+"",M0305
+"",e6a018
+"",a002ba18.mld

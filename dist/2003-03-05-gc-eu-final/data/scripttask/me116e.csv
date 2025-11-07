@@ -1,0 +1,180 @@
+[Event Name],Task ID
+MG0110000,"\h(«Aika»)Oh, no!
+The alarm!!\e"
+MG0110001,"\h(«Gilder»)This isn't good…
+In a few seconds, this place is going to be
+crawling with guards.\e"
+MG0110002,\h(«Gallant Voice»)Quick! Get on the lift!\e
+MG0110003,"\h(«Aika»)Someone is telling us to get on that thing! 
+I can't see who it is!
+Vyse, what should we do?\e"
+MG0110004,"\h(«What will you do?»)“Let's take our chances and hop on.”
+“This could be a trap…”\e"
+MG0110005,"\h(«Vyse»)If we just stand around here, we're gonna get
+caught anyway. 
+We should take the lift.\e"
+MG0110006,"\h(«Gilder»)That's true.
+It looks like that's our only option.\e"
+MG0110007,"\h(«Vyse»)… Alright, let's go.\e"
+MG0110008,"\h(«Vyse»)This could be a trap…
+I think we should look for another way out.\e"
+MG0110009,"\h(«Gilder»)Well, it might be a trap, but it's the only way
+out of here.\e"
+MG0110010,"\h(«Gilder»)If we get caught again, there's no way we'll be
+able to escape. They'll probably execute us on
+the spot.\e"
+MG0110011,"\h(«Fina»)Vyse, I think that person is trying to help us.
+I think we should trust him.\e"
+MG0110012,"\h(«Vyse»)… Alright.
+Everyone, let's get on.\e"
+MG0110013,"\h(«Enrique»)So, you're Vyse?
+I am Enrique.\e"
+MG0110014,"\h(«Gilder»)Enrique?!
+You're… the Prince of Valua!!!\e"
+MG0110015,\h(«Aika»)You're the Prince!?\e
+MG0110016,"\h(«Enrique»)Haha…
+Yes… I am.\e"
+MG0110017,"\h(«Enrique»)After you escaped from your cells, I figured
+you'd head for the docks to try and steal a
+ship. Please, follow me.\e"
+MG0110018,"\h(«Aika»)Alright, what's going on? Why is the Prince
+helping us?\e"
+MG0110019,"\h(«Vyse»)I have no idea.
+But, we should probably follow him.\e"
+MFG0110000,"\h(«Aika»)Oh, non !
+L'alarme !!\e"
+MFG0110001,"\h(«Gilder»)C'est mauvais signe……
+Dans quelques secondes, les gardes vont déferler
+de partout.\e"
+MFG0110002,\h(«Voix Galante»)Vite ! Montez dans l'ascenseur !\e
+MFG0110003,"\h(«Aika»)Quelqu'un nous dit de monter là-dedans !
+Je ne vois pas qui c'est !
+Vyse, que faut-il faire ?\e"
+MFG0110004,"\h(«Que ferez-vous ?»)“Prenons le risque, montons.”
+“C'est peut-être un piège……”\e"
+MFG0110005,"\h(«Vyse»)Si nous restons ici, nous serons capturés de
+toute façon. Autant prendre l'ascenseur.\e"
+MFG0110006,"\h(«Gilder»)Il a raison.
+Apparemment c'est notre seule option.\e"
+MFG0110007,"\h(«Vyse»)…… D'accord, allons-y.\e"
+MFG0110008,"\h(«Vyse»)C'est peut-être un piège……
+Je pense qu'il vaudrait mieux chercher une autre
+sortie.\e"
+MFG0110009,"\h(«Gilder»)Bon, c'est peut-être un piège, mais c'est la
+seule sortie.\e"
+MFG0110010,"\h(«Gilder»)Si nous nous faisons encore prendre, nous ne
+pourrons jamais nous évader. Ils nous
+exécuteront certainement sur place.\e"
+MFG0110011,"\h(«Fina»)Vyse, je crois que cette personne veut nous
+aider. Nous devrions lui faire confiance.\e"
+MFG0110012,"\h(«Vyse»)…… Entendu.
+Montez tous.\e"
+MFG0110013,"\h(«Enrique»)Alors, vous êtes Vyse ?
+Je suis Enrique.\e"
+MFG0110014,"\h(«Gilder»)Enrique ?!
+Vous êtes…… le Prince de Valua !!!\e"
+MFG0110015,\h(«Aika»)Vous êtes le Prince !?\e
+MFG0110016,"\h(«Enrique»)Haha……
+Oui…… c'est moi.\e"
+MFG0110017,"\h(«Enrique»)Après vous être échappés des cellules, j'ai
+pensé que vous iriez sur les docks pour essayer
+de voler un navire. Suivez-moi s'il vous plaît.\e"
+MFG0110018,"\h(«Aika»)OK, que se passe-t-il ? Pourquoi est-ce que le
+Prince nous vient en aide ?\e"
+MFG0110019,"\h(«Vyse»)Aucune idée.
+Mais, nous devrions peut-être le suivre.\e"
+MGG0110000,"\h(«Aika»)Oh, nein!
+Alarm!!\e"
+MGG0110001,"\h(«Gilder»)Das bedeutet nichts Gutes……
+In ein paar Sekunden wird es hier nur so vor
+Wachen wimmeln.\e"
+MGG0110002,\h(«Höfliche Stimme»)Schnell! In den Lift!\e
+MGG0110003,"\h(«Aika»)Jemand sagt uns, dass wir in dieses Ding
+einsteigen sollen! Ich sehe aber nicht, wer!
+Vyse, was sollen wir machen?\e"
+MGG0110004,"\h(«Was wirst du tun?»)“Lass es uns riskieren und einsteigen.”
+“Das könnte eine Falle sein……”\e"
+MGG0110005,"\h(«Vyse»)Wenn wir einfach hier rumstehen, werden wir
+sowieso geschnappt. Wir sollten den Lift nehmen.\e"
+MGG0110006,"\h(«Gilder»)Stimmt.
+Sieht so aus, als wäre das unsere einzige Wahl.\e"
+MGG0110007,"\h(«Vyse»)…… Ok, gehen wir.\e"
+MGG0110008,"\h(«Vyse»)Es könnte eine Falle sein……
+Ich finde, wir sollten einen anderen Ausgang
+suchen.\e"
+MGG0110009,"\h(«Gilder»)Tja, es mag eine Falle sein, aber es ist die
+einzige Möglichkeit, hier rauszukommen.\e"
+MGG0110010,"\h(«Gilder»)Wenn sie uns jetzt erwischen, entkommen wir
+nicht noch einmal. Sie werden uns
+wahrscheinlich sofort hinrichten.\e"
+MGG0110011,"\h(«Fina»)Vyse, ich glaube, dieser Mann will uns helfen.
+Wir sollten ihm vertrauen.\e"
+MGG0110012,"\h(«Vyse»)…… Ok.
+Also, alles einsteigen.\e"
+MGG0110013,"\h(«Enrique»)Du bist also Vyse?
+Ich bin Enrique.\e"
+MGG0110014,"\h(«Gilder»)Enrique?!
+Du bist…… der Prinz von Valua!!!\e"
+MGG0110015,\h(«Aika»)Ihr seid der Prinz!?\e
+MGG0110016,"\h(«Enrique»)Haha……
+Ja…… der bin ich.\e"
+MGG0110017,"\h(«Enrique»)Nachdem ihr aus euren Zellen geflohen seid,
+rechnete ich mir aus, dass ihr zu den Docks
+gehen und ein Schiff stehlen würdet. Bitte
+folgt mir.\e"
+MGG0110018,"\h(«Aika»)Also, was ist denn das? Warum will uns der
+Prinz helfen?\e"
+MGG0110019,"\h(«Vyse»)Keine Ahnung.
+Aber wir sollten ihm vielleicht folgen.\e"
+MSG0110000,"\h(«Aika»)¡Oh, no!
+¡¡La alarma!!\e"
+MSG0110001,"\h(«Gilder»)Qué mal……
+Este sitio va a estar lleno de guardias en
+cuestión de segundos.\e"
+MSG0110002,\h(«Voz Gallarda»)¡Rápido! ¡Subid al ascensor!\e
+MSG0110003,"\h(«Aika»)¡Alguien dice que nos subamos en esa cosa!
+¡No veo quién es!
+¿Qué hacemos?\e"
+MSG0110004,"\h(«¿Qué vas a hacer?»)“Vamos a arriesgarnos y saltar dentro.”
+“Podría ser una trampa……”\e"
+MSG0110005,"\h(«Vyse»)Si nos quedamos aquí parados, nos van a coger de
+todas maneras.
+Tenemos que subir a ese ascensor.\e"
+MSG0110006,"\h(«Gilder»)Tienes razón.
+Es nuestra única opción.\e"
+MSG0110007,"\h(«Vyse»)…… Muy bien, vamos allá.\e"
+MSG0110008,"\h(«Vyse»)Podría ser una trampa……
+Deberíamos buscar otra salida.\e"
+MSG0110009,"\h(«Gilder»)Bueno, puede que sea una trampa, pero es la
+única salida.\e"
+MSG0110010,"\h(«Gilder»)Si nos cogen esta vez, no podremos escapar.
+Nos ejecutarán en el acto.\e"
+MSG0110011,"\h(«Fina»)Vyse, creo que esa persona quiere ayudarnos.
+Deberíamos fiarnos de él.\e"
+MSG0110012,"\h(«Vyse»)…… Muy bien.
+Vamos, todo el mundo.\e"
+MSG0110013,"\h(«Enrique»)¿Así que tú eres Vyse?
+Me llamo Enrique.\e"
+MSG0110014,"\h(«Gilder»)¡¿Enrique?!
+Pero tú eres…… ¡¡¡el Príncipe de Valua!!!\e"
+MSG0110015,\h(«Aika»)¿¡Eres el Príncipe!?\e
+MSG0110016,"\h(«Enrique»)Jaja……
+Sí…… soy yo.\e"
+MSG0110017,"\h(«Enrique»)Después de escapar de vuestras celdas, me
+imaginé que iríais al embarcadero para haceros
+con un navío. Seguidme.\e"
+MSG0110018,"\h(«Aika»)¿Pero qué pasa aquí?
+¿Por qué nos ayuda el Príncipe?\e"
+MSG0110019,"\h(«Vyse»)No tengo ni idea.
+Será mejor que le sigamos.\e"
+"",me116f.sct
+"",me116h.sct
+"",me116g.sct
+"",M0252
+"",m5160000
+"",k8160000
+"",a116eg11.mld
+"",a116eg11.mld
+"",e6g011
+"",M0325
+"",a116eg11.mld

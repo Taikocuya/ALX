@@ -1,0 +1,163 @@
+[Event Name],Task ID
+MA5230000,"\h(«Aika»)Aaah!
+That squid's huge!!
+It's bigger than our ship!\e"
+MA5230001,"\h(«Vyse»)I've heard stories about a giant squid…
+But I never actually believed any of them.
+Alright, everyone… battlestations!\c"
+MA5230002,"\h(«Aika»)Vyse! We're all awaiting your orders!
+What should we do?\e"
+MA5230003,"\h(«What will you do?»)“Maintain present course.”
+“Swing around behind it!”\e"
+MA5230004,"\h(«Vyse»)Maintain present course and speed.
+It's too soon to make a move.\e"
+MA5230005,"\h(«Fina»)It appears that the squid can attack
+behind itself, so perhaps it may be best
+to try and get beside it.\e"
+MA5230006,"\h(«Aika»)Good thinking, Fina!
+Alright then! Maintaining present course!!!\c"
+MA5230007,"\h(«Vyse»)Now's our chance to make a move!
+Swing the ship around and get behind it!\c"
+MA5230008,"\h(«Vyse»)Way to go, everyone! That was easy!\e"
+MA5230009,"\h(«Fina»)Um… Vyse? Correct me if I'm wrong, but from
+what I've heard about squids, they are able to
+shoot ink out from behind them, right?\e"
+MA5230010,"\h(«Fina»)Well, I suppose that would mean that
+we are actually at a disadvantage by
+being behind it…\e"
+MA5230011,\h(«Vyse»)Oh… Oops…\e
+MA5230012,"\h(«Aika»)Vyse!!! You're the captain around here! We're
+counting on you to know these things! Alright,
+everyone… brace for impact…\c"
+MA5230013,"\h(«Aika»)Aaah! Doesn't that thing know when to
+give up?! It's already lost one leg and
+it's still attacking us!!!\e"
+MA5230014,"\h(«Vyse»)That one tentacle alone could probably
+feed us for a month…
+What a waste…\c"
+MSA5230000,"\h(«Aika»)¡Aaah!
+¡¡Ese calamar es enorme!!
+¡Más grande que nuestro barco!\e"
+MSA5230001,"\h(«Vyse»)He oído historias sobre un calamar gigante……
+Pero nunca me las había creído.
+Está bien…… ¡Todos a los puestos de combate!\c"
+MSA5230002,"\h(«Aika»)¡Vyse! ¡Estamos a la espera de tus órdenes!
+¿Qué hacemos?\e"
+MSA5230003,"\h(«¿Qué vas a hacer?»)“Mantener el rumbo.”
+“¡Virar para situarnos detrás!”\e"
+MSA5230004,"\h(«Vyse»)Mantened el rumbo y velocidad.
+Es demasiado pronto para realizar algún cambio.\e"
+MSA5230005,"\h(«Fina»)Por lo visto el calamar puede atacar
+con su parte trasera, así que quizá sea mejor
+que nos situemos lateralmente.\e"
+MSA5230006,"\h(«Aika»)¡Buena idea, Fina!
+¡Muy bien!
+¡¡¡Mantenemos el rumbo actual!!!\c"
+MSA5230007,"\h(«Vyse»)¡Tenemos que aprovechar esta oportunidad!
+¡Virad el navío y situaros detrás!\c"
+MSA5230008,\h(«Vyse»)¡Allá vamos! ¡Eso ha sido fácil!\e
+MSA5230009,"\h(«Fina»)Um…… ¿Vyse? Corrígeme si me equivoco,
+pero según he oído, los calamares pueden
+lanzar tinta por detrás, ¿no?\e"
+MSA5230010,"\h(«Fina»)Bueno, supongo que eso significa que estamos en
+desventaja si nos ponemos detrás……\e"
+MSA5230011,\h(«Vyse»)Uy…… Pues sí……\e
+MSA5230012,"\h(«Aika»)¡¡¡Vyse!!! ¡Tú eres el capitán aquí!
+¡Contamos contigo para saber estas cosas!
+Todo el mundo…… preparados para el impacto……\c"
+MSA5230013,"\h(«Aika»)¡Aaah!
+¡¿Es que ese bicho no se rinde?!
+¡¡¡Ya ha perdido una pata y sigue atacando!!!\e"
+MSA5230014,"\h(«Vyse»)Sólo con ese tentáculo podríamos comer calamar
+durante un mes……
+Qué desperdicio……\c"
+MFA5230000,"\h(«Aika»)Aaah !
+Ce calmar est énorme !!
+Il est plus gros que notre navire !\e"
+MFA5230001,"\h(«Vyse»)On m'a déjà parlé d'un calmar géant……
+Mais je n'y ai jamais cru.
+Allez, tous à vos postes de combat !\c"
+MFA5230002,"\h(«Aika»)Vyse ! Nous attendons tous tes ordres !
+Que doit-on faire ?\e"
+MFA5230003,"\h(«Que ferez-vous ?»)“Maintenir le cap.”
+“Virer derrière lui !”\e"
+MFA5230004,"\h(«Vyse»)Maintiens le cap et la vitesse actuels.
+Il est trop tôt pour passer à l'action.\e"
+MFA5230005,"\h(«Fina»)Il semble que le calmar peut attaquer de
+derrière, donc il vaut peut-être mieux passer à
+côté.\e"
+MFA5230006,"\h(«Aika»)Bonne idée, Fina !
+D'accord ! Je maintiens le cap !!!\c"
+MFA5230007,"\h(«Vyse»)C'est le moment de passer à l'action !
+Vire et passe derrière lui !\c"
+MFA5230008,\h(«Vyse»)Bravo ! C'était facile !\e
+MFA5230009,"\h(«Fina»)Hum…… Vyse ? Corrige-moi si je me trompe, mais
+d'après ce que l'on m'a dit sur les calmars,
+ils peuvent lancer de l'encre de derrière,
+n'est-ce pas ?\e"
+MFA5230010,"\h(«Fina»)Eh bien, je suppose que cela voudrait dire que
+nous sommes en position désavantageuse si nous
+passons derrière lui……\e"
+MFA5230011,\h(«Vyse»)Oh…… Oh là là……\e
+MFA5230012,"\h(«Aika»)Vyse !!! C'est toi le capitaine ici !
+Nous comptons sur toi pour savoir ces
+choses-là ! Allez, tout le monde……
+Préparez-vous à l'impact……\c"
+MFA5230013,"\h(«Aika»)Aaah ! Il ne sait donc pas s'arrêter ?!
+Il a déjà perdu une jambe mais
+il continue quand même de nous attaquer !!!\e"
+MFA5230014,"\h(«Vyse»)Nous aurions assez à manger pour un mois
+avec une seule de ses tentacules……
+Quel gaspillage……\c"
+MGA5230000,"\h(«Aika»)Aaah!
+Dieser Tintenfisch ist riesig!!
+Er ist größer als unser Schiff!\e"
+MGA5230001,"\h(«Vyse»)Ich habe Geschichten über einen riesigen
+Tintenfisch gehört…… aber ich habe nie wirklich
+daran geglaubt. Alles herhören…… Kampfstationen!\c"
+MGA5230002,"\h(«Aika»)Vyse! Wir warten alle auf deine Befehle!
+Was sollen wir machen?\e"
+MGA5230003,"\h(«Was wirst du tun?»)“Den gegenwärtigen Kurs beibehalten.”
+“Einen Schwenker hinter ihn machen.”\e"
+MGA5230004,"\h(«Vyse»)Behalte den jetzigen Kurs und die
+Geschwindigkeit bei. Es ist zu früh,
+anzugreifen.\e"
+MGA5230005,"\h(«Fina»)Der Tintenfisch scheint auch von hinten
+angreifen zu können, vielleicht wäre es dann
+das Beste zu versuchen, auf eine seiner Seiten
+zu gelangen.\e"
+MGA5230006,"\h(«Aika»)Gute Idee, Fina!
+Also dann, in Ordnung! Den gegenwärtigen
+Kurs beibehalten!!!\c"
+MGA5230007,"\h(«Vyse»)Jetzt haben wir die Chance, anzugreifen!
+Mach kehrt und positioniere dich hinter ihm!\c"
+MGA5230008,"\h(«Vyse»)Gut gemacht, Leute! Das war einfach!\e"
+MGA5230009,"\h(«Fina»)Em…… Vyse? Ich kann mich auch irren, aber ich
+habe gehört, dass Tintenfische in der Lage
+sind, von hinten Tinte zu verspritzen, nicht
+wahr?\e"
+MGA5230010,"\h(«Fina»)Also, das würde ja wohl bedeuten, dass wir
+das Nachsehen haben, wenn wir hinter ihm sind……\e"
+MGA5230011,\h(«Vyse»)Oh…… hoppla……\e
+MGA5230012,"\h(«Aika»)Vyse!!! Du bist doch hier der Captain! Wir
+rechnen damit, dass du diese Sachen weißt!
+Alles herhören…… macht euch auf einen Aufprall
+gefasst……\c"
+MGA5230013,"\h(«Aika»)Aaah! Weiß dieses Ding denn nicht, wann es
+aufhören sollte?! Es hat schon ein Bein
+verloren und greift uns noch immer an!!!\e"
+MGA5230014,"\h(«Vyse»)Allein dieser eine Greifarm könnte uns einen
+Monat lang ernähren……
+Was für eine Verschwendung……\c"
+"",M0430
+"",f7100100S.p04
+"",f7100105S.p04
+"",me090a.sct
+"",k0200.mld
+"",k0200.mld
+"",f7100051S.p04
+"",k0200.mld
+"",f3000024
+"",f3000024
+"",f3000038
+"",f3000038

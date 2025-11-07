@@ -1,0 +1,702 @@
+[Event Name],Task ID
+MA0090000,"\h(《Vyse》)Hey Fina.
+How are you feeling?\e"
+MA0090001,"\h(《Fina》)I'm feeling much better.
+Thank you for your concern.\e"
+MA0090002,"\h(《Vyse》)Heh… no problem. I'm just happy
+to see that you're well.
+Looks like we'll be reaching the island soon.\e"
+MA0090003,\h(《Fina》)… Island?\e
+MA0090004,"\h(《Vyse》)You can see it right over there.
+That's our base… Pirate Isle.\e"
+MA0090005,\h(《Fina》)Pirate Isle…\e
+MA0130000,"\h(《Aika》)Vyse!
+Vy~se!\e"
+MA0130001,"\h(《Aika》)Good morning!
+We're going to Shrine Island today, right?\e"
+MA0130002,\h(《Vyse》)Yeah… I'll be right down. Give me a second.\e
+MA0130003,"\h(《Aika》)Good morning, Fina!
+Did you sleep well?\e"
+MA0130004,\h(《Fina》)Yes. Thank you.\e
+MA0130005,"\h(《Vyse》)Fina, we'll be heading over to Shrine Island in 
+a few minutes to get that Moon Stone. You can 
+stay here and relax at my place if you want.\e"
+MA0130007,\h(《Fina》)That's fine. Thank you.\e
+MA0130008,"\h(《Aika》)Alright Vyse, let's get going.
+The boat is on the upper dock, 
+and it's ready to go!\e"
+MA0150000,"\h(《Ben the Lookout》)Ahhh…
+It looks like it's going to be another nice day
+today. Not too windy…\e"
+MA0150001,"\h(《Ben the Lookout》)Well, there's the bell…
+Time to get to work…\e"
+MA0150002,\h(《Ben the Lookout》)I gotta loosen up a little.\e
+MA0150003,\h(《Ben the Lookout》)Huh?\e
+MA0150004,\h(《Ben the Lookout》)Oh… oh no!\e
+MA0150005,"\h(《Ben the Lookout》)Ships!!! Ships approaching!
+From the North-Northwest…
+distance: 1.5 leagues!\e"
+MA0150006,"\h(《Ben the Lookout》)It's the Imperial Armada!!!
+They've got a full battle squadron!
+They're in attack formation!!!\e"
+MA0150007,"\h(《Dyne》)Everyone get underground! 
+Women and children first!
+Hurry!\e"
+MA0150008,"\h(《Dyne》)Damn…
+I never thought they'd find us…\e"
+MA0150009,"\h(《Dyne》)…!
+That flag… 
+It's Galcian's Flagship!\e"
+MA0150010,"\h(《Ramirez》)Lord Galcian.
+We've blasted the island with cannon fire and 
+our troops have begun the invasion.\e"
+MA0150011,"\h(《Galcian》)Good…
+They seem very organized for a small village 
+that is under siege.\e"
+MA0150012,"\h(《Galcian》)I don't know who their leader is, but he
+seems very capable. Perhaps Alfonso was in
+over his head.\e"
+MA0150013,\h(《Ramirez》)…Perhaps.\e
+MA0150014,"\h(《Galcian》)No matter, it appears the battle is over.
+Retrieve the girl and bring her to me.\e"
+MA0150015,"\h(《Galcian》)Capture the Air Pirates. We'll need to 
+interrogate them when we return to Valua.
+And be sure to destroy their ship as well…\e"
+MA0150016,"\h(《Ramirez》)And if they resist, Lord Galcian? 
+What does Your Excellency wish me to do if the 
+situation arises?\e"
+MA0150017,"\h(《Galcian》)I don't think they're foolish enough to resist. 
+However, if something should happen…\e"
+MA0150018,"\h(《Galcian》)Burn the village and kill them all. Let the 
+bodies rot in the sun and leave one of our flags
+to set an example for others who may defy us.\e"
+MA0200000,"\h(《Vyse's Mother》)Oh! Welcome back, Vyse.\e"
+MA0200001,"\h(《Vyse's Mother》)So, you're Fina. It's very nice to meet you.\e"
+MA0200002,"\h(《Fina》)The pleasure is all mine.
+I… I hope I am not intruding…\e"
+MA0200003,"\h(《Vyse's Mother》)Oh, don't be silly! It's been a long time since 
+we've had guests.\e"
+MA0200004,"\h(《Vyse's Mother》)Well, I have to finish cooking dinner. Go 
+outside and have some fun. I'll call you when 
+it's ready.\e"
+MA0200005,\h(《Aika》)Hey guys!\e
+MA0200006,"\h(《Aika》)Sorry to have kept you waiting!
+I was just fixing my hair.\e"
+MA0200007,"\h(《Aika》)Hey… the sunset outside is beautiful. 
+Why don't we go outside and check it out?\e"
+MA0200008,"\h(《Vyse》)Well, we still have some time before dinner… 
+why not?\e"
+MA0200009,"\h(《Aika》)Okay, great!
+Come on! We can get a great view from up top on 
+Lookout Island.\e"
+MA0250000,"\h(《Aika》)Vyse, go on ahead.
+I have to stop by my house for a second.\e"
+MA0250001,\h(《Vyse》)Why? What's wrong?\e
+MA0250002,"\h(《Aika》)I just want to freshen up.
+Don't worry, I'll catch up with you guys in a 
+few minutes! See you at your house!\e"
+MA0260000,\h(《Vyse》)I wonder what this handkerchief is for?\e
+MA0260001,"\h(《Vyse》)…Oh.
+I think there's something underneath it.\e"
+MA0260002,"\h(《Vyse》)(Oops… the handkerchief was there to cover this
+hole in Aika's room…)\e"
+MA0260003,\h(《Aika》)…?\e
+MA0260004,"\h(《Aika》)Aaahhh!
+Who's there?! 
+Take that, you creep!\e"
+MA0260005,"\h(《Vyse》)Ow!
+My eye!\e"
+MA0260006,"\h(《Aika》)Vyse!
+What are you doing!? 
+Peeking into my room…!?\e"
+MA0260007,"\h(《Aika》)You should be ashamed of yourself! 
+I can't believe that you would spy on me like
+that! Get out of here!\e"
+MA0260008,"\h(《Vyse》)But… but… I was just looking under this
+handkerchief! I didn't know! You probably just
+put it there to draw people's attention…\e"
+MA0280000,"\h(《Aika》)Good morning, Fina!
+Did you sleep well?\e"
+MA0280001,\h(《Fina》)Yes. Thank you.\e
+MA0280002,"\h(《Vyse》)Fina, we'll be heading over to Shrine Island to 
+get that Moon Stone in a few minutes. You can 
+stay here and relax at my place if you want.\e"
+MA0280003,\h(《Fina》)That will be fine. Thank you.\e
+MA0280004,"\h(《Aika》)Alright Vyse, let's get going.
+The boat is on the upper dock, 
+and it's ready to go!\e"
+Ms002a000,"\h(《Vyse》)It's a small supply box. There is usually all
+sorts of fishing and sailing equipment piled up
+in here, but it's empty right now.\c"
+Ms002a001,"\h(《Vyse》)That reminds me, my mom used to tell me stories
+about these butterflies that migrate across
+great distances just to eat or something.\c"
+Ms002a002,"\h(《Vyse》)It's a bag full of Moon Stones. I think these
+are going to be loaded onto the ship. They're
+probably going to be used as fuel.\c"
+Ms002a003,"\h(《Vyse》)We use this windmill as a power source to raise
+and lower heavy cargo in and out of our ship
+in the underground port.\e"
+Ms002a004,"\h(《Vyse》)While they aren't necessarily rare, we try to
+conserve Moon Stones whenever we can. So, we use
+wind power for some things instead.\c"
+Ms002a005,"\h(《Vyse》)It's a box full of bullets. My father is really
+the only one that uses a gun around here. I
+prefer using cutlasses.\c"
+Ms002a006,"\h(《Vyse》)We use this windmill as a power source to raise
+and lower heavy cargo in and out of our ship
+in the underground port.\e"
+Ms002a007,"\h(《Vyse》)While they aren't necessarily rare, we try to
+conserve Moon Stones whenever we can. So, we use
+wind power for some things instead.\c"
+Ms002a008,"\h(《Vyse》)This fireplace seems well used. Wait… is that
+gunpowder I smell? Geez… Aika probably throws
+gunpowder in this thing for fun. She's crazy…\c"
+Ms002a009,"\h(《Vyse》)Wait a second there… I may be an Air Pirate,
+but I am a gentleman. I refuse to look through
+a lady's dresser without permission.\c"
+Ms002a010,"\h(《Vyse》)Heh… This is that ragged, old doll that Aika
+used to carry around when she was a kid. I
+guess she still has it.\c"
+Ms002a011,"\h(《Vyse》)What's this? I didn't know Aika had a vanity.
+I guess even she can be feminine at times.\c"
+Ms002a012,"\h(《Vyse》)Both of Aika's parents passed away when we
+were still little kids.\e"
+Ms002a013,"\h(《Vyse》)So, there's only one bed here in her place.
+She tosses and turns in her sleep a lot, so
+she needs a rather large bed.\c"
+Ms002a014,"\h(《Vyse》)It's a shield from an old Valuan battleship
+raid. Shields are too cumbersome to be useful
+for us, so we just use it as decoration.\c"
+Ms002a015,"\h(《Vyse》)Spears can be really useful when raiding wooden
+ships. All you have to do is light the tip on
+fire and it can cause a lot of damage.\c"
+Ms002a016,"\h(《Vyse》)We use this pillar to practice punching and
+kicking. A lot of raids break out into melees,
+so we all need to know how to fight.\c"
+Ms002a017,"\h(《Vyse》)Hey, I may be an Air Pirate, but I would never
+steal from an old lady's dresser.\c"
+Ms002a018,"\h(《Vyse》)This smell…
+Oh man, this has to be salted fish.
+I regret even looking in here…\c"
+Ms002a019,"\h(《Vyse》)Granny used to cook bread in this fireplace for
+me and Aika all the time when we were kids. She
+really does make the best bread.\e"
+Ms002a020,"\h(《Vyse》)But, ever since Lindsi, Alan, and Jimmy were
+born, they get to eat everything that Granny
+makes.\c"
+Ms002a021,"\h(《Vyse》)What's this…?
+Yuck!!! It's her denture cleaning solution!\c"
+Ms002a022,"\h(《Vyse》)It's full of fresh water. I wonder who left it
+here…\c"
+Ms002a023,"\h(《Vyse》)The jar is filled with pickled turnips. Every
+time I smell turnips, I always think of
+sailing… That's all we ever eat out there…\c"
+Ms002a024,"\h(《Vyse》)It's filled with all sorts of tableware.
+There's even some smaller utensils. It's
+probably for the little kids.\c"
+Ms002a025,"\h(《Vyse》)It's just a fireplace. I remember many times as
+a kid warming myself to a fire here, after being
+outside all day during the cold season.\c"
+Ms002a026,"\h(《Vyse》)A water jar used for cooking. We all get our
+water from the well, so we need containers to
+store the water before we use it.\c"
+Ms002a027,"\h(《Vyse》)A bandana… a striped shirt… It's filled with
+old, worn out clothes. Some people just get
+attached to their stuff, I guess…\c"
+Ms002a028,"\h(《Vyse》)After returning from a long voyage, there's
+nothing quite like collapsing in your own bed.
+It's the best feeling in the world.\c"
+Ms002a029,"\h(《Vyse》)My old man is always out sailing, so his bed
+isn't very worn in. It looks almost brand new.\c"
+Ms002a030,"\h(《Vyse》)This is our fireplace. Mom uses it daily to cook
+for herself… and for us when we're actually
+home and not out sailing.\c"
+Ms002a031,"\h(《Vyse》)It's my bed. But, I've been out sailing with my
+dad a lot lately, so I really only sleep in it
+on occasion.\c"
+Ms002a032,"\h(《Vyse》)It's a book that we picked up on one of our
+raids. Books are really hard to come by, so
+they're one of our most treasured finds.\e"
+Ms002a033,"\h(《Vyse》)I once read a book on the art of navigation over
+and over again until the bindings were all worn 
+out. I hope the knowledge will come in handy…\c"
+Ms002a034,"\h(《Vyse》)Oops… I left my papers all over the place. I'm
+surprised Mom didn't get on my case about the
+mess that I left.\e"
+Ms002a035,"\h(《Vyse》)Well, I was only studying about the stars. She
+should be happy that I'm not just sitting around
+doing nothing, I suppose.\c"
+Ms002a036,"\h(《Vyse》)It says “Windmill Island.” That's what this
+island is called on most maps. But, nobody that
+lives here actually calls it by that name.\e"
+Ms002a037,"\h(《Vyse》)This place's real name is “Pirate Isle.” We only
+use Windmill Island as a cover name to avoid
+getting caught by the Valuan Empire.\c"
+Ms002a038,"\h(《Vyse》)This is our well. It's very valuable to us here
+on Pirate Isle. Actually, one time when we were
+still kids, Aika fell inside the well…\c"
+Ms002a039,"\h(《Vyse》)The ladies of the town often use these boxes to
+sit and rest on while drawing water from the
+well. It's sort of the town gossip area.\c"
+Ms002a040,"\h(《Vyse》)With the way she acts, you would never guess
+that Aika has the tenderness to raise delicate
+flowers like this…\e"
+Ms002a041,"\h(《Vyse》)But, I guess I'm just rough on her because I've
+known her for so long. She's really a sweet
+girl… A little rough around the edges, though…\c"
+Ms002a042,"\h(《Vyse》)There's always a steady breeze that blows
+through this region, so our laundry dries
+really quickly.\c"
+Ms002a043,"\h(《Vyse》)There's always a steady breeze that blows
+through this region, so our laundry dries
+really quickly.\c"
+Ms002a044,"\h(《Vyse》)Isn't this the laundry tub?
+Who left it just sitting out here like this?\c"
+Ms002a052,\h(　)“Please do not step on the garden.”\e
+Ms002a045,"\h(《Vyse》)… Vegetables are an important source of
+nutrients for sailors. Everyone takes great care
+to make sure and grow them properly.\c"
+Ms002a046,"\h(《Vyse》)This is our incinerator. It's connected to the
+fireplace inside. That way, they both can use
+the same chimney.\c"
+Ms002a047,"\h(《Vyse》)It's easy to get scurvy when you're always out
+sailing. It's hard to get enough vegetables, so
+that's why pickled turnips are so important.\c"
+Ms002a048,"\h(《Vyse》)It's locked. Well, it's still pretty early, so
+everyone's probably still sleeping.\c"
+Ms002a049,"\h(《Vyse》)The door is locked. I probably shouldn't wake
+anyone up, so I'll just leave them alone.\c"
+Ms002a050,"\h(《Vyse》)Wait… didn't Aika say she was going back to her
+house? Then why is the door locked?\c"
+Ms002a051,"\h(《Aika》)Vyse!!
+Go away!! I'm busy right now!!
+Can't you leave me alone just for one second?!\c"
+Ms002a053,"\h(《Vyse》)I swear… How can she expect me not to notice
+this hole if she has this brightly colored
+handkerchief covering it?\c"
+Ms002a054,"\h(《Vyse》)Hey, what's this handkerchief for?\e"
+Ms002a055,"\h(《Aika》)Hehe… Actually, there's a hole in the wall. I
+figured you'd probably try and peek inside, so
+I covered it up.\c"
+Ms002a056,"\h(《What will you do?》)“Depart for Shrine Island.”
+“Stay here a little while longer.”\c"
+M00010000,"\h(《Jimmy》)Hey Vyse!
+We're playing hide-and-seek!
+You wanna play with us?\e"
+M00010001,"\h(《Jimmy》)If you can find all three of us and Pow,
+I'll tell you a secret!\e"
+M00010002,"\h(《What will you do?》)“All right, I'll play.”
+“Maybe some other time.”\e"
+M00010003,"\h(《Vyse》)Hide-and-seek, huh?
+All right, I'll play.\e"
+M00010004,"\h(《Jimmy》)Ya-a-ay!
+Alright, you're “it,” then!\e"
+M00010005,"\h(《Jimmy》)When we say we're ready, you have to come and
+look for the three of us and Pow.\c"
+M00010017,\h(《Jimmy》)Alright! We're ready! Come and find us!!!\c
+M00010006,"\h(《Vyse》)Sorry, but I'm kind of busy right now.
+Maybe some other time.\e"
+M00010007,"\h(《Jimmy》)Too bad… See you later, then!\c"
+M00010008,"\h(《Jimmy》)I can't believe you already found me!
+I thought I had the perfect hiding place…\e"
+M00010009,"\h(《Jimmy》)But if you don't find all of us, we still win!!\e"
+M00010010,"\h(《Vyse》)Alright, that's everyone. I win.\e"
+M00010011,"\h(《Jimmy》)I can't believe you found us all!
+Oh well… a promise is a promise.
+I'll tell you a little secret.\e"
+M00010012,"\h(《Jimmy》)You know the bookshelf in Captain Dyne's room?
+I think that there's some sort of secret to it!\e"
+M00010013,"\h(《Jimmy》)I was looking for a book in there one day and
+when I leaned on the book shelf, it sorta moved
+a little funny. Maybe you should check it out!\c"
+M00010014,"\h(《Jimmy》)If you don't find all of us, we still win!\c"
+M00010015,"\h(《Jimmy》)You know the bookshelf in Captain Dyne's room?
+I think that there's some sort of secret to it!\e"
+M00010016,"\h(《Jimmy》)I was looking for a book in there one day and
+when I leaned on the book shelf, it sorta moved
+a little funny. Maybe you should check it out!\c"
+M00020000,"\h(《Alan》)Vyse, whenever I go sailing on a ship, I always
+get sick… and sometimes I even throw up.\e"
+M00020001,\h(《Alan》)Does that mean I can't become a sailor?\e
+M00020002,"\h(《What will you say?》)“Sure you can be a sailor!”
+“Sorry, Alan…”\e"
+M00020003,"\h(《Vyse》)Sure you can be a sailor! I used to get
+airsick all the time when I was little.\e"
+M00020004,"\h(《Vyse》)And after a while, you just sorta stop
+throwing up. Your body gets used to it.\e"
+M00020005,"\h(《Alan》)Okay! I'll do my best! I'll throw up however
+many times it takes until I can become a sailor!\c"
+M00020006,"\h(《Vyse》)Sorry, Alan… but you might not be cut out for
+sailing. But hey, there's no reason you have to
+become a sailor if it doesn't agree with you.\e"
+M00020007,"\h(《Vyse》)You can build houses instead, or work in the
+harbor… There're lots of fine, respectable
+jobs that you can do on land!\e"
+M00020008,"\h(《Alan》)Yeah, you're right! Thanks, Vyse.
+I'll do my best to find what I'm good at!\c"
+M00020009,"\h(《Alan》)Okay! I'll do my best! I'll throw up however
+many times it takes until I can become a sailor!\c"
+M00020010,"\h(《Alan》)I'll do my best to find what I'm good at, Vyse!\c"
+M00020011,"\h(《Alan》)Oh no! You found me! I was
+sure I'd be safe here.\c"
+M00020012,\h(《Alan》)I wonder where the others are hiding?\c
+M00020013,"\h(《Alan》)You should come and play with us more
+often, okay Vyse?\c"
+M00020014,"\h(《Alan》)We've been out here playing for so long… I'm
+so hungry now. I wonder what's for dinner
+tonight?\c"
+M00020015,"\h(《Alan》)You're heading out to go get those Moon Stones
+that fell yesterday, right? Good luck!\c"
+M00030000,"\h(《Lindsi》)Oh! Vyse, you're back! Welcome home!\e"
+M00030001,"\h(《Lindsi》)We're all playing hide-and-seek with Pow!
+You should play with us, too!\c"
+M00030002,"\h(《Lindsi》)Come on, Vyse. You should play with us, too!\c"
+M00030003,"\h(《Lindsi》)Oh no! You found me! I knew I
+should've hidden somewhere else!\c"
+M00030004,"\h(《Lindsi》)You haven't found everyone yet, right?
+Don't give up!\c"
+M00030005,"\h(《Lindsi》)That was fun! You should play with
+us again sometime, okay Vyse?!\c"
+M00030006,"\h(《Lindsi》)It's getting late… I should go home soon.
+My mommy told me to be home before dark.\c"
+M00030007,"\h(《Lindsi》)You're going out to look for Moon Stones? I wish
+I could go with you! It sounds like so much fun!\c"
+M00040000,"\h(《Pow》)Pow pow, pow!\e"
+M00040001,"\h(《Fina》)O, oh my!\e"
+M00040002,"\h(《Vyse》)Quiet, Pow! I told you not to bark
+at guests before, right!\e"
+M00040003,\h(《Pow》)Pow… pow…\e
+M00040004,"\h(《Fina》)I, I'm sorry. He just took me by surprise.
+He's actually really cute…\e"
+M00040005,"\h(《Fina》)I guess on your island, you live
+with other animals…\e"
+M00040006,"\h(《Vyse》)Um… yeah. I, I guess. You don't have pets
+where you come from?\e"
+M00040007,"\h(《Fina》)W, well, um… no. Not really. Is it that
+unusual? I'm so sorry… It's just that
+everything seems so… different here.\c"
+M00040008,\h(《Pow》)Pow! Pow!\c
+M00040009,\h(《Pow》)Pow pow!\c
+M00040010,"\h(《Vyse》)Oh, there you are, Pow. Next time,
+you should hide in a better place, okay?\e"
+M00040011,\h(《Pow》)Pow pow!\c
+M00040012,"\h(《Vyse》)Wait here, Pow. I'm going to
+go find all of the others.\e"
+M00040013,\h(《Pow》)Pow pow pow!\c
+M00040014,\h(《Pow》)Pow pow pow!\c
+M00050000,"\h(《Martha》)Oh, hey there, Vyse. I heard that you guys
+rescued a girl from the Valuans?\e"
+M00050001,\h(《Vyse》)Yup. Let me introduce you to her…\e
+M00050002,"\h(《Fina》)Hello, it's very nice to meet you. My name is
+Fina. I, I'm very grateful for all the
+hospitality everyone has been showing me…\e"
+M00050003,"\h(《Marth》)Well, well… aren't you just the sweetest little
+thing? Well, Fina, it's our pleasure. Just relax
+and make yourself at home, okay?\e"
+M00050004,"\h(《Martha》)Hehe… Nice catch, Vyse. I guess your work has
+its perks, huh?\c"
+M00050005,"\h(《Martha》)Those Valuans must be a bunch of dirty
+scoundrels to go chasing after such a
+sweet girl like her.\c"
+M00050006,"\h(《Martha》)Heh… That good-for-nothing husband of mine just
+came home from another voyage today and where is
+he now? At the tavern. I swear…\c"
+M00050007,"\h(《Martha》)You kids are going to go looking for Moon
+Stones? Well, bring back plenty… We'll
+need them to keep warm during the cold season.\c"
+M00060000,"\h(《Barbara》)It's every Air Pirate's dream to be a
+“Swashbuckler.” But you have to do more
+than sail to become one.\e"
+M00060001,"\h(《Barbara》)You have to live as one… in both your actions
+and your words. Only true Swashbucklers can
+become great leaders.\c"
+M00060002,"\h(《Barbara》)You have to live as one… in both your actions
+and your words. Only true Swashbucklers can
+become great leaders.\c"
+M00060003,"\h(《Barbara》)Now, let me see… What shall I make for
+dinner today?\c"
+M00070000,"\h(《Briggs the Vice Captain》)Hey there, Vyse. It's nice to be home again,
+huh? Sometimes when we're out sailing for a
+long time, I start to miss this old place.\e"
+M00070001,"\h(《Briggs the Vice Captain》)Aboard ship ain't bad either, but you really
+have to come back to the island now and then
+or your legs forget what solid ground is like.\c"
+M00070002,"\h(《Briggs the Vice Captain》)The breeze here on the island is gentle and
+cool. My whole body feels refreshed.\c"
+M00070003,"\h(《Briggs the Vice Captain》)Hey, Vyse. I hear you're going to Shrine Island
+to pick up Moon Stones.\e"
+M00070004,"\h(《Briggs the Vice Captain》)To get to Shrine Island, you need to sail
+straight north of here. But, be careful…
+there're all sorts of monsters out there.\e"
+M00070005,"\h(《Briggs the Vice Captain》)One more thing… Not only are there Moon Stones
+in this world, there are things called
+“Moonberries.” They contain a lot of power.\e"
+M00070006,"\h(《Briggs the Vice Captain》)By eating some, you will actually get stronger.
+If you go to your status screen and select
+“Super Moves,” you can learn new techniques.\c"
+M00080000,"\h(《Vyse's Mother》)I'm cooking dinner right now, so perhaps you
+could go for a walk or something.\e"
+M00080001,"\h(《Vyse's Mother》)Vyse, if you're going to Shrine Island, I want
+you to take this with you. I've included enough
+for both you and Aika.\e"
+M00080002,\h(　)You received 2 “Sacres Crystals.”\e
+M00080003,"\h(《Vyse's Mother》)If you ever need to take a break, don't be
+afraid to come back home and rest up. You
+shouldn't push yourself too hard.\c"
+M00080004,"\h(《Vyse's Mother》)Vyse, why don't you take a little rest? You
+must be very tired. A little nap can work
+wonders sometimes…\e"
+M00080005,"\h(《What will you say?》)“Sure, I could use a little rest.”
+“Nah… I'll be fine. I'm not that tired.”\e"
+M00080006,"\h(《Vyse》)Sure, I could use a little rest. I was starting
+to get a little tired…\e"
+M00080007,"\h(《Vyse's Mother》)No problem.
+Sleep well, Vyse.\e"
+M00080008,"\h(《Vyse's Mother》)It looks like you rested well.
+Be careful out there, okay?\c"
+M00080009,"\h(《Vyse》)I'll be fine, mom. I'm not that tired.\e"
+M00080010,"\h(《Vyse's Mother》)I see. Well, just be careful out there, okay?\c"
+M00090000,"\h(《Jessica》)Everyone needs a place to go home to. Especially
+sailors. It's always good to have a place to
+rest their tired wings, you know?\e"
+M00090001,"\h(《Jessica》)When you know that you have someone to go home
+to and a warm bed waiting for you, it gives a
+person a little extra strength, I suppose…\c"
+M00100000,"\h(《Granny》)We're able to live the way we do,
+thanks to the blessed Moons.\e"
+M00100001,"\h(《Granny》)The Moons provide us with Moon Stones that keep
+our ships flying and provide us with fuel for
+fires to keep ourselves warm.\e"
+M00100002,\h(《Granny》)We truly are blessed…\c
+M00100003,\h(《Granny》)We truly are blessed…\c
+M00100004,"\h(《Granny》)I hear that the Silver Moon has blessed us
+again with gifts from the skies.\e"
+M00100005,\h(《Granny》)We truly are blessed…\c
+M00110000,"\h(《Timmus the Gunner》)Hey there, Vyse! Would you like me to give you
+a few pointers on hand-to-hand combat?\e"
+M00110001,"\h(《What will you ask about?》)“Ask about combat tactics.”
+“Ask about weapons.”
+“No, it's okay.”\e"
+M00110002,"\h(《Vyse》)Actually, could you teach me some combat
+tactics? I think I need a few pointers…\e"
+M00110003,"\h(《Timmus the Gunner》)Okay! Well, the first thing you need to learn
+how to use effectively in battle, is your
+party's “Spirit.”\e"
+M00110004,"\h(《Timmus the Gunner》)You can think of “Spirit” as your entire party's
+fighting energy. You use it up whenever you cast
+spells or use “Super Moves.”\e"
+M00110005,"\h(《Timmus the Gunner》)During a battle, everyone in your group uses the
+same pool of Spirit Points.\e"
+M00110006,"\h(《Timmus the Gunner》)That means that you can have someone like…
+let's say, Aika, for instance… “Focus” and gain
+Spirit Points for the rest of the party.\e"
+M00110007,"\h(《Timmus the Gunner》)… And then you, Vyse, can use those “Spirit
+Points” to unleash a powerful “Super Move.”
+Just remember, strategy is the key, here.\e"
+M00110008,"\h(《Timmus the Gunner》)And another thing. You can use your “Spirit
+Points” all you want. You will regain a little
+bit at the beginning of every round.\e"
+M00110009,"\h(《Timmus the Gunner》)So, go ahead and use your “Super Moves” as
+often as possible. It will make your battles
+much easier.\c"
+M00110010,"\h(《Vyse》)Could you teach me a few things about weapons?
+The weapons that we use are made from Moon
+Stones, right?\e"
+M00110011,"\h(《Timmus the Gunner》)That's right. And because of that, assigning
+different colored Moon Stones to your weapons
+will change their properties.\e"
+M00110012,"\h(《Timmus the Gunner》)A weapon modified by a Red Moon Stone has the
+powers of fire, and a weapon modified with a
+Yellow Moon Stone has the powers of lightning.\e"
+M00110013,"\h(《Timmus the Gunner》)By knowing your enemies' weaknesses and choosing
+the color of your weapon wisely, you may be able
+to do greater damage to your enemies.\c"
+M00110014,"\h(《Vyse》)No, it's okay. I think I know enough to
+be alright.\e"
+M00110015,"\h(《Timmus the Gunner》)Heh, sure. I suppose the best way to learn is to
+get into a real battle situation, anyway. Well,
+I hope you actually do know what you're doing!\c"
+M00120000,"\h(《Borris the Gunner》)If you can learn to use your “Magic” and “Super
+Moves” skillfully, your fights will become a
+whole lot easier.\e"
+M00120001,"\h(《Borris the Gunner》)I can teach you the basics on how to use these
+if you want…\e"
+M00120002,"\h(《What will you ask about?》)“Ask about magic.”
+“Ask about Super Moves.”
+“No, it's okay.”\e"
+M00120003,"\h(《Vyse》)Can you teach me anything about magic? From what
+I can tell, it's essentially a kind of power
+drawn directly from the different Moons, right?\e"
+M00120004,"\h(《Borris the Gunner》)I suppose that's the easiest way to put it. But,
+one thing you need to remember is that the true
+power behind magic is your party's “Spirit.”\e"
+M00120005,"\h(《Borris the Gunner》)Spells only take up 1 MP every time you cast
+one. However, each spell takes a different
+amount of “Spirit Points” to cast.\e"
+M00120006,"\h(《Borris the Gunner》)So, it's safe to assume that the more
+Spirit Points a spell requires, the
+more powerful it is.\e"
+M00120007,"\h(《Borris the Gunner》)In other words, since you're going to use 1 MP
+to cast a spell anyway, you might as well cast
+the spell that uses the most Spirit Points.\e"
+M00120008,"\h(《Borris the Gunner》)Since your Spirit Points regenerate a little bit
+at the beginning of each round, it's more
+efficient to use as much as you can.\e"
+M00120009,"\h(《Borris the Gunner》)Magic is divided into 6 different types. You can
+gain experience in a type of magic depending on
+what color you assign to your weapon.\e"
+M00120010,"\h(《Borris the Gunner》)So, if you want to learn a specific color of
+magic, you should change the color of your
+weapon to that color.\c"
+M00120011,"\h(《Vyse》)Can you teach me anything about “Super Moves?”
+What exactly are they?\e"
+M00120012,"\h(《Borris the Gunner》)To put it simply, they are special techniques.
+Some of them are attacks, some are defensive
+techniques, and some can even heal your party.\e"
+M00120013,"\h(《Borris the Gunner》)But, unlike magic, “Super Moves” are unique to
+each person. Also, they don't use up MP. But,
+instead, they use up a lot of Spirit Points.\e"
+M00120014,"\h(《Borris the Gunner》)They are quite powerful, but since they take up
+a lot of Spirit Points, you need to learn how to
+use them as effectively as possible.\e"
+M00120015,"\h(《Borris the Gunner》)Oh, one more thing… if you ever come
+across a fruit called a “Moonberry,”
+consider yourself lucky.\e"
+M00120016,"\h(《Borris the Gunner》)If you eat a Moonberry, you can learn a new
+“Super Move.” Some techniques require more
+Moonberries than others, so use them wisely!\c"
+M00120017,"\h(《Vyse》)No, it's okay. I think I know enough to
+be alright.\e"
+M00120018,"\h(《Borris the Gunner》)Heh, alright then. But, just remember, it never
+hurts to ask a question. If you can't figure
+something out, just come back here, okay?\c"
+M00160000,"\h(《Ben the Lookout》)This is Lookout Island. We take turns
+standing guard here to see if any
+suspicious ships might be approaching.\e"
+M00160001,"\h(《Ben the Lookout》)It gets cold early in the morning, and that can
+be tough, but it's all part of the job, I guess.
+You just have to sort of accept it.\c"
+M00230000,"\h(《Dyne》)Vyse, here… take this. It's your share of
+the loot from yesterday's raid.\e"
+M00230001,\h(　)You received a “Purple Moon Stone.”\e
+M00230002,"\h(《Dyne》)That Moon Stone has been processed already, so
+you should be able to use it on your weapons.\e"
+M00230003,"\h(《Dyne》)Now you'll be able to change the color of
+your weapon to Purple, and give it the power
+of ice in battle.\e"
+M00230004,"\h(《Vyse》)I see. Thanks, Dad. I'll use it carefully.\e"
+M00230005,"\h(《Dyne》)One more thing. When you win a fight, you will
+be awarded “magic experience” in the color of
+magic that you have equipped on your weapon.\e"
+M00230006,"\h(《Dyne》)When you accumulate a certain amount of magic
+experience, you will learn a new spell. So,
+if there is a spell that you want to learn…\e"
+M00230007,"\h(《Dyne》)… by changing the color of your weapon to
+match whatever type of magic you want to
+learn, you can learn it much faster.\e"
+M00230008,"\h(《Dyne》)You can easily change the color of your weapon
+by using the “Equip” command or by pressing the
+Y Button during battles. Make good use of it.\c"
+M00230009,"\h(《Dyne》)Hold on a second, Vyse.\e"
+M00230010,"\h(《Dyne》)What's the matter, Vyse? Did you want me to
+explain what Moon Stones do and how they
+affect your weapons again?\e"
+M00230011,"\h(《What will you say?》)“Yeah, that'd be great.”
+“No, it's alright. I think I got it.”\e"
+M00230012,"\h(《Vyse》)Yeah, that'd be great. I just want to make
+sure that I got my facts straight.\e"
+M00230013,"\h(《Dyne》)This isn't like you. You usually can't stand
+listening to me talk. Well, I hope it's a sign
+that you're growing up a little.\e"
+M00230014,"\h(《Dyne》)Refined Moon Stones can be used to change
+the properties of your weapon.\e"
+M00230015,"\h(《Dyne》)Each color has unique properties: Yellow is
+lightning, Red is fire, and so forth.\e"
+M00230016,"\h(《Dyne》)In addition, when you win a fight, you will
+receive magic experience that corresponds
+to the current color of your weapon.\e"
+M00230017,"\h(《Dyne》)Each time this value reaches a certain level,
+you will learn a new spell. So, if there's
+a spell you want to learn…\e"
+M00230018,"\h(《Dyne》)By changing the color of your weapon, you can
+learn the magic of that color that much faster.\e"
+M00230019,"\h(《Dyne》)You can easily change the color of your weapon
+by using the “Equip” command or by pressing the
+Y Button during battle. Make good use of it.\c"
+M00230020,"\h(《Vyse》)No thanks, I think I've got it. If there's
+anything that I don't know, I'll probably find
+out during battle… Hehe…\e"
+M00230021,"\h(《Dyne》)Just be careful then…
+And use those Moon Stones carefully! A good
+Moon Stone isn't easy to find…\c"
+M00210000,"\h(《Fina》)Thank you so much for everything you've done.
+First, you rescued me… and then you let me
+stay in your home… I'm eternally grateful.\e"
+M00210001,"\h(《Fina》)I suppose you'll be leaving now to retreive that
+Moon Stone that fell yesterday… Please do be
+careful. Good luck!\c"
+M00210002,"\h(《Fina》)I suppose you'll be leaving now to retreive that
+Moon Stone that fell yesterday… Please do be
+careful. Good luck!\c"
+"",a002ayuu.mld
+"",a002ahiru.mld
+"",me002d.sct
+"",me103a.sct
+"",a002ahiru.mld
+"",a002ayuu.mld
+"",me002d.sct
+"",me002d.sct
+"",me202a.sct
+"",M0234
+"",m5020000
+"",k8000001
+"",k8000000
+"",k8000000
+"",k8020000
+"",e6a009
+"",a002aa09.mld
+"",a002aa09_2.mld
+"",a002aa09.mld
+"",a002ae.mld
+"",a002ae.mld
+"",a002aa13.mld
+"",a002aa13.mld
+"",e6a013
+"",M0234
+"",a002ae.mld
+"",a002aa15.mld
+"",a002aa15.mld
+"",a002aa15_efe.mld
+"",a002aa15_efe.mld
+"",a002ae.mld
+"",a002ae.mld
+"",e6a015
+"",M0234
+"",M0325
+"",a002ae.mld
+"",a002aa15.mld
+"",a002aa15_efe.mld
+"",a002aa15_2.mld
+"",a002aa15_2.mld
+"",M0313
+"",a002aa15_2.mld
+"",a002aa20.mld
+"",a002aa20.mld
+"",e6a020
+"",M0234
+"",a002aa20.mld
+"",e6a025
+"",M0234
+"",a002aa25.mld
+"",a002aa25.mld
+"",a002aa25.mld
+"",a002aa26.mld
+"",a002ad.mld
+"",e6a026
+"",M0234
+"",M0379
+"",a002ad.mld
+"",a002aa26.mld
+"",M0234
+"",a002aa13.mld

@@ -1,0 +1,102 @@
+[Event Name],Task ID
+MAC000000,"\h(«Would you like to try again?»)“I never give up!”
+“I quit.”\c"
+MSAC000000,"\h(«¿Quieres intentarlo otra vez?»)“¡No me rindo nunca!”
+“Me rindo.”\c"
+MFAC000000,"\h(«Voulez-vous réessayer ?»)“Je n'abandonne jamais !”
+“J'abandonne.”\c"
+MGAC000000,"\h(«Möchtest du es noch einmal versuchen?»)“Ich gebe nie auf!”
+“Ich geb's auf.”\c"
+MA5450000,"\h(«Vyse»)It's finally time to face Galcian!
+Alright, everyone! I'm counting on all of you!\c"
+MA5450001,"\h(«What do you want to do?»)“Attack the enemy's hull.”
+“Attack the upper part of the enemy vessel.”\c"
+MA5450006,"\h(«What do you want to do?»)“Attack the upper part of the enemy vessel.”
+“Attack the enemy's hull.”\c"
+MA5450002,"\h(«Aika»)Look!
+The ship's hull fell away
+and there's a giant cannon coming out!\e"
+MA5450003,"\h(«Vyse»)Uh oh… It looks like Galcian's
+getting serious now…
+Alright everyone… It's now or never!\c"
+MA5450004,"\h(«Aika»)The enemy ship has been severely damaged and
+is trying to flee from battle!\e"
+MA5450005,"\h(«Vyse»)Galcian's trying to run away?!
+We can't let him escape!
+We've got to go after him!\c"
+MSA5450000,"\h(«Vyse»)¡Ha llegado el momento de enfrentarnos a
+Galcian! ¡Atención todos! ¡Cuento con todos y
+cada uno de vosotros para esta misión!\c"
+MSA5450001,"\h(«¿Qué vas a hacer?»)“Atacar el casco del enemigo.”
+“Atacar la parte superior del buque enemigo.”\c"
+MSA5450006,"\h(«¿Qué vas a hacer?»)“Atacar la parte superior del buque enemigo.”
+“Atacar el casco del enemigo.”\c"
+MSA5450002,"\h(«Aika»)¡Mira!
+¡El casco del barco se ha abierto
+y un cañón gigante está saliendo!\e"
+MSA5450003,"\h(«Vyse»)Anda…… Parece que Galcian va en serio……
+Escuchadme todos…… ¡Ahora o nunca!\c"
+MSA5450004,"\h(«Aika»)¡El navío enemigo ha sido dañado gravemente y
+está huyendo de la batalla!\e"
+MSA5450005,"\h(«Vyse»)¡¿Galcian intenta escapar?!
+¡No escapará!
+¡Tenemos que ir tras él!\c"
+MFA5450000,"\h(«Vyse»)Nous allons enfin affronter Galcian !
+Allez tout le monde !
+Je compte sur vous !\c"
+MFA5450001,"\h(«Que voulez-vous faire ?»)“Attaquer la coque ennemie.”
+“Attaquer le haut du vaisseau ennemi.”\c"
+MFA5450006,"\h(«Que voulez-vous faire ?»)“Attaquer le haut du vaisseau ennemi.”
+“Attaquer la coque ennemie.”\c"
+MFA5450002,"\h(«Aika»)Regardez !
+La coque du navire est tombée
+et il y a un canon géant qui en sort !\e"
+MFA5450003,"\h(«Vyse»)Oh oh…… Il semble que Galcian
+commence à prendre cela au sérieux……
+Allez tout le monde……
+C'est maintenant ou jamais !\c"
+MFA5450004,"\h(«Aika»)Le navire ennemi a été gravement endommagé et
+il essaie de fuir la bataille !\e"
+MFA5450005,"\h(«Vyse»)Galcian essaie de s'enfuir ?!
+Nous ne pouvons pas le laisser s'échapper !
+Il faut aller à sa poursuite !\c"
+MGA5450000,"\h(«Vyse»)Endlich ist es an der Zeit, Galcian die Stirn
+zu bieten! Alles herhören! Ich verlasse mich
+auf euch!\c"
+MGA5450001,"\h(«Was möchtest du tun?»)“Den Rumpf des Feindschiffes angreifen.”
+“Den oberen Teil des Feindschiffes angreifen.”\c"
+MGA5450006,"\h(«Was möchtest du tun?»)“Den oberen Teil des Feindschiffes angreifen.”
+“Den Rumpf des Feindschiffes angreifen.”\c"
+MGA5450002,"\h(«Aika»)Seht mal!
+Der Rumpf des Schiffes hat sich geöffnet,
+und eine riesige Kanone kommt heraus!\e"
+MGA5450003,"\h(«Vyse»)O Mann…… sieht so aus, als ob Galcian
+jetzt Ernst macht……
+Alles herhören…… jetzt oder nie!\c"
+MGA5450004,"\h(«Aika»)Das feindlihce Schiff ist schwer beschädigt
+und versucht, sich aus der Schlacht
+zurückzuziehen!\e"
+MGA5450005,"\h(«Vyse»)Galcian versucht zu entkommen?!
+Das können wir nicht zulassen!
+Wir müssen ihm hinterher!\c"
+"",M0465
+"",k0200.mld
+"",k0200.mld
+"",f7100051s.p04
+"",k0200.mld
+"",b1800.mld
+"",b1800.mld
+"",f7100060S.p04
+"",b1800.mld
+"",me545a.sct
+"",me090a.sct
+"",F7100100S.p04
+"","
+ターン選択
+\c"
+"","ターン0
+ターン1\cターン2\cターン3
+ターン4\cターン5\cターン6\cターン7\c"
+"",f3000042
+"",f3000042
+"",me249a.sct

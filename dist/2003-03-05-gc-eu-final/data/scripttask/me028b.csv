@@ -1,0 +1,96 @@
+[Event Name],Task ID
+Ms028b000,"\h(«Aika»)Wow… So this is what the Great Silver Shrine
+looks like. It's… It's amazing…\e"
+Ms028b001,\h(«Fina»)Vyse… Do you see that building over there?\e
+Ms028b002,"\h(«Fina»)That is the “Room of the Elders.”
+It is the heart of this shrine.\e"
+Ms028b003,"\h(«Fina»)To get there, we must travel through the “Path
+of Emptiness.” But be careful… or else you
+might lose all sense of direction in there.\e"
+Ms028b004,"\h(«Gilder»)Great… This sounds like it's going to be loads
+of fun. Well, I guess all we have to do is just
+not get lost, right? C'mon, Vyse!\c"
+Ms028b005,"\h(«Elder Prime's Voice»)Island-dwellers…
+If you wish, I can send you back to the
+entrance of the shrine.\e"
+Ms028b006,"\h(«What will you say?»)“That would be great.”
+“No thanks… We can walk.”\e"
+Ms028b007,"\h(«Elder Prime's Voice»)Very well.
+Hold still…\c"
+Ms028b008,"\h(«Elder Prime's Voice»)I see. Very well, then. If you change your
+mind, return here and I will extend the same
+offer as before.\c"
+MFs028b000,"\h(«Aika»)Oaouh…… Alors voilà à quoi ressemble le Grand
+Temple d'Argent. C'est…… c'est extraordinaire……\e"
+MFs028b001,\h(«Fina»)Vyse…… Vous voyez ce bâtiment là-bas ?\e
+MFs028b002,"\h(ｫFinaｻ)C'est “La Pi鐵e des Anciens.”
+C'est le c忖r du Temple.\e"
+MFs028b003,"\h(«Fina»)Pour y arriver, nous devons traverser le
+“Chemin du Néant.” Mais soyez prudents…… vous
+risquez de perdre tout sens de l'orientation
+là-dedans.\e"
+MFs028b004,"\h(«Gilder»)Super…… On dirait que l'on va bien s'amuser.
+Mais bon, j'imagine qu'il faut éviter de se
+perdre, c'est ça ? Allez Vyse !\c"
+MFs028b005,"\h(«Voix de l'Ancien Prime»)Habitants de l'Île……
+Si vous souhaitez, je peux vous renvoyer à
+l'entrée du Temple.\e"
+MFs028b006,"\h(«Que direz-vous ?»)“Ce serait super.”
+“Non merci…… Nous pouvons marcher.”\e"
+MFs028b007,"\h(«Voix de l'Ancien Prime»)Très bien.
+Ne bougez pas……\c"
+MFs028b008,"\h(«Voix de l'Ancien Prime»)Je vois. Très bien. Si vous changez d'avis
+revenez ici et je vous proposerais la même
+chose.\c"
+MGs028b000,"\h(«Aika»)Wow…… So sieht also der Great Silver
+Shrine aus. Er ist…… erstaunlich……\e"
+MGs028b001,\h(«Fina»)Vyse…… Siehst du das Gebäude da drüben?\e
+MGs028b002,"\h(«Fina»)Das ist der “Raum der Elders.”
+Er ist das Herz des Heiligtums.\e"
+MGs028b003,"\h(«Fina»)Um dahin zu gelangen, müssen wir durch den
+“Pfad der Leere.” Aber sei vorsichtig……
+sonst verlierst du die Orientierung.\e"
+MGs028b004,"\h(«Gilder»)Großartig…… Das klingt nach einer
+Menge Spaß. Nun ja, schätze, wir
+müssen nur darauf achten, uns nicht zu
+verlaufen, richtig? Los, Vyse!\c"
+MGs028b005,"\h(«Elder Primes Stimme»)Inselbewohner……
+Wenn ihr wünscht, sende ich
+euch zurück zum Eingang des Heiligtums.\e"
+MGs028b006,"\h(«Was wirst du tun?»)“Das wäre großartig.”
+“Nein danke…… Wir können laufen.”\e"
+MGs028b007,"\h(«Elder Primes Stimme»)Nun gut.
+Haltet still……\c"
+MGs028b008,"\h(«Elder Primes Stimme»)Ich verstehe. Also, nun gut, wenn ihr eure
+Meinung ändert, kommt zurück, und
+ich werde euch das Angebot noch einmal machen.\c"
+MSs028b000,"\h(«Aika»)¡Vaya!
+Así que éste es el Gran Relicario de Plata.
+¡Es increíble!\e"
+MSs028b001,\h(«Fina»)Vyse…… ¿Ves ese edificio ahí?\e
+MSs028b002,"\h(«Fina»)Ésa es la “Cámara de los Ancianos”.
+Está en el centro de este templo.\e"
+MSs028b003,"\h(«Fina»)Para llegar ahí, tenemos que pasar
+por el “Camino del Vacío”. Ten cuidado,
+porque puedes perder la orientación.\e"
+MSs028b004,"\h(«Gilder»)¡Bien! Seguro que nos lo pasamos muy bien.
+Bueno, me imagino que lo único que tenemos
+que hacer es no perdernos. ¡Venga, Vyse!\c"
+MSs028b005,"\h(«Voz del Gran Anciano»)Habitantes de la isla……
+Si quieren, les puedo llevar de nuevo
+a la entrada del templo.\e"
+MSs028b006,"\h(«¿Qué vas a decir?»)“Me encantaría.”
+“No gracias, podemos ir caminando.”\e"
+MSs028b007,"\h(«Voz del Gran Anciano»)Muy bien.
+Esperen un momento……\c"
+MSs028b008,"\h(«Voz del Gran Anciano»)Ya veo. Pues muy bien. Si cambian de idea,
+vuelvan aquí. La oferta seguirá en pie.\c"
+"",a028b_e0.mld
+"",a028b_e1.mld
+"",me028a.sct
+"",me028a.sct
+"",me028c.sct
+"",me028a.sct
+"",M0247
+"",M5280000
+"",k8570000

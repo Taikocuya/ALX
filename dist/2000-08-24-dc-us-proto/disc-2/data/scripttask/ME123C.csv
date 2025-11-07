@@ -1,0 +1,114 @@
+[Event Name],Task ID
+MI0050000,\h(《Fina》)It's so difficult to see…\e
+MI0050001,\h(《Aika》)Someone's there!\e
+MI0050002,\h(《Fina》)Oh…!\e
+MI0050003,\h(《Aika》)I don’t believe it!\e
+MI0050004,\h(《Drachma》)…Who's there?!\e
+MI0050005,\h(《Vyse》)Drachma?!\e
+MI0050006,\h(《Aika》)Cap'n!!!\e
+MI0050007,\h(《Drachma》)What're you kids doing here?!\e
+MI0050008,"\h(《Aika》)It really is you!
+I never thought I'd see you again!\e"
+MI0050009,\h(《Drachma》)Yeah… well… uhhh…\e
+MI0050010,"\h(《Vyse》)It's been a while, Captain.
+Heh… I had a feeling you survived the attack!\e"
+MI0050011,"\h(《Fina》)But, Captain…
+What are you doing at the bottom of Glacia?\e"
+MI0050012,\h(《Drachma》)……\e
+MI0060000,\h(《アイカ》)あ……あれ、何？\e
+MI0060001,\h(《ヴァイス》)ま、まさか……\e
+MI0060002,"\h(《ヴァイス》)モービス！
+どうして、こんなところに……\e"
+MI0060003,\h(《ドラクマ》)……ついてこい。\e
+MI0060004,\h(《アイカ》)モービス……死んでるの？\e
+MI0060005,"\h(《ドラクマ》)いや……まだ生きている。
+だが、ラミレス艦隊の砲撃で
+体の奥深くまで傷ついている。\e"
+MI0060006,"\h(《ドラクマ》)致命傷だ。
+もう、長くはあるまい。\e"
+MI0060007,"\h(《ドラクマ》)……わしは、このモービスに
+リトルジャックごと引かれて
+ここにきた。\e"
+MI0060008,"\h(《ドラクマ》)どうやら、ここが
+こいつの寝ぐらのようだ。\e"
+MI0060009,"\h(《ヴァイス》)もしかして、おっさん……
+ここで、ずっとモービスと
+一緒にいたのか？\e"
+MI0060010,\h(《ドラクマ》)…………\e
+MI0060011,\h(《エンリック》)あれは……\e
+MI0060012,"\h(《エンリック》)ヴァイスくん！
+あの光を見たまえ!!\e"
+MI0060013,"\h(《ヴァイス》)あれは……
+まさか、月晶か!?\e"
+MI0060014,"\h(《エンリック》)ああ、間違いない。
+だとすると、このモービスという
+クジラは、紫のギガスなのか。\e"
+MI0060015,"\h(《ファイナ》)何ということでしょう……
+モービスが
+紫のギガスだったなんて……\e"
+MI0060016,"\h(《ファイナ》)紫のギガス……
+その名は、パプニール。\e"
+MI0060017,"\h(《ファイナ》)伝承では、紫の月の文明が
+巨大生物に月晶を埋め込んで
+作ったギガスだとされています。\e"
+MI0060018,"\h(《ヴァイス》)それじゃ……モービスは
+昔はただのクジラだったのか？\e"
+MI0060019,"\h(《ファイナ》)ええ。ギガスとなったモービスは
+主を失い、行くあてもなく世界を
+さまよっていたのでしょう。\e"
+MI0060020,"\h(《ファイナ》)このモービスも……
+いにしえの愚かな戦争の
+犠牲者だったのですね。\e"
+MI0060021,"\h(《アイカ》)でも、船長……
+どうして、こんなとこに
+ずっといたの？\e"
+MI0060022,"\h(《アイカ》)リトルジャックがあるのなら
+いつでも帰れたのに……\e"
+MI0060023,\h(《ドラクマ》)…………\e
+MI0060024,"\h(《ドラクマ》)わしは、このモービスに
+仲間や息子のジャックを奪われ
+ずっと一人で生き続けてきた。\e"
+MI0060025,"\h(《ドラクマ》)だが、それはこいつも同じだ。
+長い長い時を、ただ一人で
+生き続けてきたのだ。\e"
+MI0060026,"\h(《ドラクマ》)その最期くらいは……
+このわしが見とどけてやろうと
+思ってな……\e"
+MI0060027,\h(《ヴァイス》)おっさん……\e
+MI0070000,\h(《Aika》)Why is he making that noise?\e
+MI0070001,\h(《Drachma》)I… I'm not sure.\e
+MI0070002,\h(《Drachma》)What's wrong? I'm here for you.\e
+MI0070003,\h(《Vyse》)This isn't good.\e
+MI0070004,\h(《Aika》)Look… at his eye!\e
+MI0070005,\h(《Drachma》)Rhaknam…\e
+MI0070006,"\h(《Drachma》)I see…
+It's time for you to go…\e"
+MI0070007,"\h(《Drachma》)Time for you to join your friends…
+Good-bye…\e"
+MI0070008,"\h(《Vyse》)Oh, no…\e"
+MI0070009,\h(《Enrique》)Look… the Crystal!\e
+MI0070010,"\h(《Vyse》)I'm sorry, Captain…\e"
+MI0070011,\h(《》)You received the ”Purple Moon Crystal.”\e
+"",me034b.sct
+"",me123b.sct
+"",I05発生しました。\c
+"",a123ci05.mld
+"",a123ci05.mld
+"",M0316
+"",e6i005
+"",a123ci05.mld
+"",イベントＩ０６が発生しました。\c
+"",a123ci06.mld
+"",a123ci06.mld
+"",M0319
+"",e6i006
+"",a123ci06.mld
+"",イベントＩ０７が発生しました。\c
+"",a123ci07.mld
+"",a123ci07.mld
+"",a123ci07_efe.mld
+"",a123ci07_efe.mld
+"",M0318
+"",e6i007
+"",a123ci07.mld
+"",a123ci07_efe.mld
