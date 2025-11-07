@@ -48,7 +48,6 @@ class CharacterSuperMoveData < StdEntryData
     super(CharacterSuperMove, _depend)
     self.id_range  = dscrptr(:character_super_move_id_range)
     self.data_file = dscrptr(:character_super_move_data_files)
-    self.name_file = dscrptr(:character_super_move_name_files)
     self.dscr_file = dscrptr(:character_super_move_dscr_files)
     self.csv_file  = join(CFG.character_super_move_csv_file)
     self.tpl_file  = File.join(CFG.build_dir, CFG.character_super_move_tpl_file)

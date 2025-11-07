@@ -48,7 +48,6 @@ class UsableItemData < StdEntryData
     super(UsableItem, _depend)
     self.id_range  = dscrptr(:usable_item_id_range)
     self.data_file = dscrptr(:usable_item_data_files)
-    self.name_file = dscrptr(:usable_item_name_files)
     self.dscr_file = dscrptr(:usable_item_dscr_files)
     self.csv_file  = join(CFG.usable_item_csv_file)
     self.tpl_file  = File.join(CFG.build_dir, CFG.usable_item_tpl_file)

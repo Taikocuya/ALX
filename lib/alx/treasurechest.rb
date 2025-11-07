@@ -41,14 +41,6 @@ class TreasureChest < StdEntry
 
   public
 
-  # Constructs a TreasureChest.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -74,6 +66,8 @@ class TreasureChest < StdEntry
   
   # Initialize the entry properties.
   def init_props
+    super
+
     self[VOC.location] = StrProp.new(nil, '', dmy: true)
       
     if product_id != '6107110 06' && product_id != '6107810'
@@ -89,6 +83,8 @@ class TreasureChest < StdEntry
 
   # Initialize the entry procs.
   def init_procs
+    super
+
     fetch(VOC.id).proc = Proc.new do |_id|
       _name = voc(:treasure_chests, id.to_s) || '???'
       self[VOC.location] = _name
@@ -105,7 +101,7 @@ class TreasureChest < StdEntry
             if jp? || us?
               _name = _entry[VOC.name_str(cid)]
             elsif eu?
-              _name = _entry[VOC.name_str('GB')]
+              _name = _entry[VOC.name_opt(gb)]
             end
           end
         end
@@ -116,8 +112,8 @@ class TreasureChest < StdEntry
     end
   end
 
-end	# class TreasureChest
+end # class TreasureChest
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

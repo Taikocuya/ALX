@@ -1,37 +1,99 @@
 Entry ID,Entry US Name,Element ID,[Element Name],Order,Occasion Flags,[M],[B],[S],Effect ID,[Effect Name],Scope ID,[Scope Name],Category ID,[Category Name],Effect Speed,Effect SP,Pad 1,Pad 2,Effect Base,Type ID,[Type Name],State ID,[State Name],State Miss%,Pad 3,Pad 4,Pad 5,Ship Occ ID,[Ship Occ Name],Pad 6,Ship Eff ID,[Ship Eff Name],Ship Eff SP,Ship Eff Turns,Ship Eff Base,Unk,Pad 7,Pad 8,Pad 9,[US Descr Pos],[US Descr Size],US Descr Str,[Ship US Descr Pos],[Ship US Descr Size],Ship US Descr Str
-0,Increm,1,Red,120,0b0011,"",X,X,21,Incr Attack & Defense,1,Single PC,6,Magic,0,4,0,0,0,0,Physical,-1,None,0,0,0,0,1,Always,0,105,Incr Attack + Defense,4,2,0,-1,0,0,0,0x36076c,92,Increases both attack power and defense of\ntarget by 25%.                             SP 4,0x3692e4,84,Increases your ship's attack power\nand defense power by 25% for 2 turns.       4 SP
-1,Incremus,1,Red,121,0b0011,"",X,X,21,Incr Attack & Defense,2,All PCs,6,Magic,0,16,0,0,0,0,Physical,-1,None,0,0,0,0,1,Always,0,105,Incr Attack + Defense,16,4,0,-1,0,0,0,0x3607c8,96,Increases attack power and defense of entire\nparty by 25%.                              SP 16,0x369338,84,Increases your ship's attack power\nand defense power by 25% for 4 turns.      16 SP
-2,Sylenis,2,Purple,20,0b0011,"",X,X,12,Silence,3,Single EC,6,Magic,0,2,0,0,0,0,Physical,5,Silence,40,0,0,0,0,Magic Cannon,0,116,Silence by 100%,2,2,0,-1,0,0,0,0x360828,92,Prevents target from casting any spells by\nSilencing them.                            SP 2,0x36938c,92,Prevents enemy ships from casting spells.\nSpecial equipment is needed to cast.        2 SP
-3,Panika,2,Purple,130,0b0010,"",X,"",11,Confusion,3,Single EC,6,Magic,0,3,0,0,0,0,Physical,4,Confusion,40,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360884,92,Confuses one target into attacking nearest\ntarget.                                    SP 3,0x3693e8,20,Cannot be used.\n
-4,Driln,4,Yellow,140,0b0011,"",X,X,26,Decr All Attr,3,Single EC,6,Magic,0,3,0,0,0,0,Physical,8,Weak,40,0,0,0,0,Magic Cannon,0,106,Weak by 100%,3,2,0,-1,0,0,0,0x3608e0,96,Weakens one enemy target. Lowers all attributes\nby 25%.                                    SP 3,0x3693fc,96,Lowers enemy ship's attributes for 2 turns.\nSpecial equipment is needed to cast.        3 SP
-5,Drilnos,4,Yellow,141,0b0011,"",X,X,26,Decr All Attr,4,All ECs,6,Magic,0,6,0,0,0,0,Physical,8,Weak,60,0,0,0,0,Magic Cannon,0,106,Weak by 100%,6,4,0,-1,0,0,0,0x360940,92,Weakens all enemies on screen. Lowers all\nattributes by 25%.                         SP 6,0x36945c,96,Lowers enemy ship's attributes for 4 turns.\nSpecial equipment is needed to cast.        6 SP
-6,Sacri,0,Green,40,0b0111,X,X,X,31,Recover HP,1,Single PC,6,Magic,0,2,0,0,500,0,Physical,0,Poison,0,0,0,0,1,Always,0,100,Recover HP,2,-1,400,-1,0,0,0,0x36099c,96,Restores 500 HP to any one ally. Can also be\nused outside of battle.                    SP 2,0x3694bc,60,Repairs 4\noutside of battle as well.                  2 SP
-7,Sacres,0,Green,41,0b0111,X,X,X,31,Recover HP,1,Single PC,6,Magic,0,4,0,0,1000,0,Physical,0,Poison,0,0,0,0,1,Always,0,100,Recover HP,4,-1,800,-1,0,0,0,0x3609fc,60,Restores 1\nused outside of battle.                    SP 4,0x3694f8,60,Repairs 8\noutside of battle as well.                  4 SP
-8,Sacrum,0,Green,42,0b0110,X,X,"",31,Recover HP,2,All PCs,6,Magic,0,8,0,0,1000,0,Physical,0,Poison,0,0,0,0,-1,Never,0,-1,None,-1,-1,1000,-1,0,0,0,0x360a38,60,Restores 1\nused outside of battle.                    SP 8,0x0,0,""
-9,Sacrulen,0,Green,43,0b0111,X,X,X,32,Recover HP of 100%,1,Single PC,6,Magic,0,6,0,0,10000,0,Physical,0,Poison,0,0,0,0,1,Always,0,101,Recover HP by 100%,6,-1,0,-1,0,0,0,0x360a74,100,Completely restores HP of any one ally. Can also\nbe used outside of battle.                 SP 6,0x369534,96,Repairs all damage on your ship. Can be cast\noutside of battle as well.                  6 SP
-10,Noxi,0,Green,50,0b0010,"",X,"",4,Poison + Damage,3,Single EC,6,Magic,0,3,0,0,60,1,Magical,0,Poison,40,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360ad8,96,Damages and Poisons any one enemy. Best if used\nat the beginning of long battles.          SP 3,0x0,0,""
-11,Noxus,0,Green,51,0b0010,"",X,"",4,Poison + Damage,4,All ECs,6,Magic,0,6,0,0,100,1,Magical,0,Poison,60,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360b38,96,Damages and Poisons all enemies. Best if used\nat the beginning of long battles.          SP 6,0x0,0,""
-12,Slipara,3,Blue,110,0b0010,"",X,"",9,Sleep,4,All ECs,6,Magic,0,6,0,0,0,0,Physical,3,Sleep,60,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360b98,96,Has a chance to put all enemies on screen to\nSleep.                                     SP 6,0x0,0,""
-13,Quika,3,Blue,70,0b0011,"",X,X,20,Incr Quick,2,All PCs,6,Magic,0,6,0,0,0,0,Physical,-1,None,0,0,0,0,1,Always,0,104,Incr Quick,6,1,0,-1,0,0,0,0x360bf8,88,Doubles the speed of all allies. Also\nit easier to run from battles.             SP 6,0x369594,72,Doubles ship speed.\nEffect lasts for 2 rounds.                  6 SP
-14,Curia,5,Silver,80,0b0010,"",X,"",30,Rem Neg States B,1,Single PC,6,Magic,0,2,0,0,0,0,Physical,-1,None,0,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360c50,96,Cures one ally of all adverse effects (except\nfor Unconcious).                           SP 2,0x0,0,""
-15,Risan,5,Silver,90,0b0010,"",X,"",27,Revive With HP of 50%,1,Single PC,6,Magic,0,4,0,0,0,0,Physical,7,Revival,50,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360cb0,96,Has a 50% chance of reviving an Unconcious ally\nalong with 50% of their HP.                SP 4,0x0,0,""
-16,Riselem,5,Silver,91,0b0010,"",X,"",28,Revive With HP of 100%,1,Single PC,6,Magic,0,8,0,0,0,0,Physical,7,Revival,0,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360d10,96,Revives an Unconcious ally and restores their\nHP to full.                                SP 8,0x0,0,""
-17,Eterni,5,Silver,100,0b0010,"",X,"",5,Unconscious,3,Single EC,6,Magic,0,5,0,0,0,0,Physical,1,Unconscious,60,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360d70,96,Can instantly kill any one enemy. May not work\non some powerful monsters or bosses.       SP 5,0x0,0,""
-18,Eternes,5,Silver,101,0b0010,"",X,"",5,Unconscious,4,All ECs,6,Magic,0,10,0,0,0,0,Physical,1,Unconscious,80,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360dd0,96,Can cause instant death to all enemies on the\nscreen.                                    SP 10,0x0,0,""
-19,Eternum,5,Silver,102,0b0010,"",X,"",6,Unconscious + Damage A,3,Single EC,6,Magic,0,15,0,0,250,1,Magical,1,Unconscious,0,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360e30,56,Causes instant death to one enemy. If target is\nimmune,0x0,0,""
-20,Wevli,3,Blue,60,0b0011,"",X,X,0,Damage,32,EC Square S3,6,Magic,0,2,0,0,60,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,2,-1,60,4,0,0,0,0x360e68,96,Damages one enemy with a whirlwind of air and\nwater. Also harms nearby enemies.          SP 2,0x3695dc,96,Fires a cannonball charged with Blue Magic.\nSpecial equipment is needed to cast.        2 SP
-21,Wevles,3,Blue,61,0b0011,"",X,X,0,Damage,33,EC Square S5,6,Magic,0,4,0,0,105,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,4,-1,90,4,0,0,0,0x360ec8,96,Creates a large tornado around one enemy and\ndamages all enemies nearby.                SP 4,0x36963c,96,Fires a cannonball charged with Blue Magic.\nSpecial equipment is needed to cast.        4 SP
-22,Wevlen,3,Blue,63,0b0011,"",X,X,0,Damage,34,EC Square S7,6,Magic,0,8,0,0,195,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,8,-1,150,4,0,0,0,0x360f28,96,Creates a cluster of tornados around one enemy\nand damages nearly all enemies on screen.  SP 8,0x36969c,96,Fires a cannonball charged with Blue Magic.\nSpecial equipment is needed to cast.        8 SP
-23,Pyri,1,Red,0,0b0011,"",X,X,0,Damage,4,All ECs,6,Magic,0,2,0,0,50,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,2,-1,60,1,0,0,0,0x360f88,76,Summons an burst of flames\non screen.                                 SP 2,0x3696fc,92,Fires a cannonball charged with Red Magic.\nSpecial equipment is needed to cast.        2 SP
-24,Pyres,1,Red,1,0b0011,"",X,X,0,Damage,4,All ECs,6,Magic,0,4,0,0,85,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,4,-1,90,1,0,0,0,0x360fd4,92,Summons a great explosion and damages all\nenemies on screen.                         SP 4,0x369758,92,Fires a cannonball charged with Red Magic.\nSpecial equipment is needed to cast.        4 SP
-25,Pyrum,1,Red,2,0b0011,"",X,X,0,Damage,4,All ECs,6,Magic,0,6,0,0,120,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,6,-1,120,1,0,0,0,0x361030,96,Summons fireballs from the skies and damages\nall enemies on the screen.                 SP 6,0x3697b4,92,Fires a cannonball charged with Red Magic.\nSpecial equipment is needed to cast.        6 SP
-26,Crystali,2,Purple,10,0b0011,"",X,X,0,Damage,3,Single EC,6,Magic,0,1,0,0,70,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,1,-1,30,2,0,0,0,0x361090,92,Encases a single enemy in ice. It is quite\npowerful and uses very little Spirit.      SP 1,0x369810,96,Fires a cannonball charged with Purple Magic.\nSpecial equipment is needed to cast.        1 SP
-27,Crystales,2,Purple,11,0b0011,"",X,X,0,Damage,3,Single EC,6,Magic,0,2,0,0,120,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,2,-1,50,2,0,0,0,0x3610ec,64,Summons an icicle at the foot of a single enemy\nand impales it,0x369870,96,Fires a cannonball charged with Purple Magic.\nSpecial equipment is needed to cast.        2 SP
-28,Crystalum,2,Purple,12,0b0011,"",X,X,0,Damage,3,Single EC,6,Magic,0,3,0,0,170,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,3,-1,70,2,0,0,0,0x36112c,88,Traps a single enemy in a column of ice\nan extensive amount of damage.             SP 3,0x3698d0,96,Fires a cannonball charged with Purple Magic.\nSpecial equipment is needed to cast.        3 SP
-29,Crystalen,2,Purple,13,0b0011,"",X,X,0,Damage,3,Single EC,6,Magic,0,4,0,0,220,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,4,-1,90,2,0,0,0,0x361184,96,Huge pillars of ice rain from the sky to impale\none enemy for enormous damage.             SP 4,0x369930,96,Fires a cannonball charged with Purple Magic.\nSpecial equipment is needed to cast.        4 SP
-30,Pyrulen,1,Red,3,0b0011,"",X,X,0,Damage,4,All ECs,6,Magic,0,10,0,0,155,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,10,-1,150,1,0,0,0,0x3611e4,96,Sets the air aflame and engulfs all enemies on\nscreen in a firestorm.                     SP 10,0x369990,92,Fires a cannonball charged with Red Magic.\nSpecial equipment is needed to cast.       10 SP
-31,Wevlum,3,Blue,62,0b0011,"",X,X,0,Damage,33,EC Square S5,6,Magic,0,6,0,0,150,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,6,-1,120,4,0,0,0,0x361244,96,Summons a field of fierce winds and stinging\nrain to damage enemies in a large area.    SP 6,0x3699ec,96,Fires a cannonball charged with Blue Magic.\nSpecial equipment is needed to cast.        6 SP
-32,Electri,4,Yellow,30,0b0011,"",X,X,0,Damage,36,EC Ray S1,6,Magic,0,2,0,0,60,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,2,-1,60,3,0,0,0,0x3612a4,92,Shoots a bolt of electricity at a target\ndamaging any enemies in the way.           SP 2,0x369a4c,96,Fires a cannonball charged with Yellow Magic.\nSpecial equipment is needed to cast.        2 SP
-33,Electres,4,Yellow,31,0b0011,"",X,X,0,Damage,37,EC Ray S3,6,Magic,0,4,0,0,105,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,4,-1,90,3,0,0,0,0x361300,100,Sends a lightning bolt through a line of enemies\ncausing major damage.                      SP 4,0x369aac,96,Fires a cannonball charged with Yellow Magic.\nSpecial equipment is needed to cast.        4 SP
-34,Electrum,4,Yellow,32,0b0011,"",X,X,0,Damage,37,EC Ray S3,6,Magic,0,6,0,0,150,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,6,-1,120,3,0,0,0,0x361364,96,A massive bold of electricity is shot out and\nhits all enemies in a straight line.       SP 6,0x369b0c,96,Fires a cannonball charged with Yellow Magic.\nSpecial equipment is needed to cast.        6 SP
-35,Electrulen,4,Yellow,33,0b0011,"",X,X,0,Damage,38,EC Ray S5,6,Magic,0,8,0,0,195,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,8,-1,150,3,0,0,0,0x3613c4,96,The ultimate attack spell. It will cause major\ndamage on all enemies in a straight line.  SP 8,0x369b6c,96,Fires a cannonball charged with Yellow Magic.\nSpecial equipment is needed to cast.        8 SP
+0,Increm,1,Red,120,0b0011,"",X,X,21,Incr Attack & Defense,1,Single PC,6,Magic,0,4,0,0,0,0,Physical,-1,None,0,0,0,0,1,Always,0,105,Incr Attack + Defense,4,2,0,-1,0,0,0,0x36076c,92,"Increases both attack power and defense of
+target by 25%.                             SP 4",0x3692e4,84,"Increases your ship's attack power
+and defense power by 25% for 2 turns.       4 SP"
+1,Incremus,1,Red,121,0b0011,"",X,X,21,Incr Attack & Defense,2,All PCs,6,Magic,0,16,0,0,0,0,Physical,-1,None,0,0,0,0,1,Always,0,105,Incr Attack + Defense,16,4,0,-1,0,0,0,0x3607c8,96,"Increases attack power and defense of entire
+party by 25%.                              SP 16",0x369338,84,"Increases your ship's attack power
+and defense power by 25% for 4 turns.      16 SP"
+2,Sylenis,2,Purple,20,0b0011,"",X,X,12,Silence,3,Single EC,6,Magic,0,2,0,0,0,0,Physical,5,Silence,40,0,0,0,0,Magic Cannon,0,116,Silence by 100%,2,2,0,-1,0,0,0,0x360828,92,"Prevents target from casting any spells by
+Silencing them.                            SP 2",0x36938c,92,"Prevents enemy ships from casting spells.
+Special equipment is needed to cast.        2 SP"
+3,Panika,2,Purple,130,0b0010,"",X,"",11,Confusion,3,Single EC,6,Magic,0,3,0,0,0,0,Physical,4,Confusion,40,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360884,92,"Confuses one target into attacking nearest
+target.                                    SP 3",0x3693e8,20,"Cannot be used.
+"
+4,Driln,4,Yellow,140,0b0011,"",X,X,26,Decr All Attr,3,Single EC,6,Magic,0,3,0,0,0,0,Physical,8,Weak,40,0,0,0,0,Magic Cannon,0,106,Weak by 100%,3,2,0,-1,0,0,0,0x3608e0,96,"Weakens one enemy target. Lowers all attributes
+by 25%.                                    SP 3",0x3693fc,96,"Lowers enemy ship's attributes for 2 turns.
+Special equipment is needed to cast.        3 SP"
+5,Drilnos,4,Yellow,141,0b0011,"",X,X,26,Decr All Attr,4,All ECs,6,Magic,0,6,0,0,0,0,Physical,8,Weak,60,0,0,0,0,Magic Cannon,0,106,Weak by 100%,6,4,0,-1,0,0,0,0x360940,92,"Weakens all enemies on screen. Lowers all
+attributes by 25%.                         SP 6",0x36945c,96,"Lowers enemy ship's attributes for 4 turns.
+Special equipment is needed to cast.        6 SP"
+6,Sacri,0,Green,40,0b0111,X,X,X,31,Recover HP,1,Single PC,6,Magic,0,2,0,0,500,0,Physical,0,Poison,0,0,0,0,1,Always,0,100,Recover HP,2,-1,400,-1,0,0,0,0x36099c,96,"Restores 500 HP to any one ally. Can also be
+used outside of battle.                    SP 2",0x3694bc,60,"Repairs 4
+outside of battle as well.                  2 SP"
+7,Sacres,0,Green,41,0b0111,X,X,X,31,Recover HP,1,Single PC,6,Magic,0,4,0,0,1000,0,Physical,0,Poison,0,0,0,0,1,Always,0,100,Recover HP,4,-1,800,-1,0,0,0,0x3609fc,60,"Restores 1
+used outside of battle.                    SP 4",0x3694f8,60,"Repairs 8
+outside of battle as well.                  4 SP"
+8,Sacrum,0,Green,42,0b0110,X,X,"",31,Recover HP,2,All PCs,6,Magic,0,8,0,0,1000,0,Physical,0,Poison,0,0,0,0,-1,Never,0,-1,None,-1,-1,1000,-1,0,0,0,0x360a38,60,"Restores 1
+used outside of battle.                    SP 8",0x0,0,""
+9,Sacrulen,0,Green,43,0b0111,X,X,X,32,Recover HP of 100%,1,Single PC,6,Magic,0,6,0,0,10000,0,Physical,0,Poison,0,0,0,0,1,Always,0,101,Recover HP by 100%,6,-1,0,-1,0,0,0,0x360a74,100,"Completely restores HP of any one ally. Can also
+be used outside of battle.                 SP 6",0x369534,96,"Repairs all damage on your ship. Can be cast
+outside of battle as well.                  6 SP"
+10,Noxi,0,Green,50,0b0010,"",X,"",4,Poison + Damage,3,Single EC,6,Magic,0,3,0,0,60,1,Magical,0,Poison,40,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360ad8,96,"Damages and Poisons any one enemy. Best if used
+at the beginning of long battles.          SP 3",0x0,0,""
+11,Noxus,0,Green,51,0b0010,"",X,"",4,Poison + Damage,4,All ECs,6,Magic,0,6,0,0,100,1,Magical,0,Poison,60,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360b38,96,"Damages and Poisons all enemies. Best if used
+at the beginning of long battles.          SP 6",0x0,0,""
+12,Slipara,3,Blue,110,0b0010,"",X,"",9,Sleep,4,All ECs,6,Magic,0,6,0,0,0,0,Physical,3,Sleep,60,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360b98,96,"Has a chance to put all enemies on screen to
+Sleep.                                     SP 6",0x0,0,""
+13,Quika,3,Blue,70,0b0011,"",X,X,20,Incr Quick,2,All PCs,6,Magic,0,6,0,0,0,0,Physical,-1,None,0,0,0,0,1,Always,0,104,Incr Quick,6,1,0,-1,0,0,0,0x360bf8,88,"Doubles the speed of all allies. Also
+it easier to run from battles.             SP 6",0x369594,72,"Doubles ship speed.
+Effect lasts for 2 rounds.                  6 SP"
+14,Curia,5,Silver,80,0b0010,"",X,"",30,Rem Neg States B,1,Single PC,6,Magic,0,2,0,0,0,0,Physical,-1,None,0,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360c50,96,"Cures one ally of all adverse effects (except
+for Unconcious).                           SP 2",0x0,0,""
+15,Risan,5,Silver,90,0b0010,"",X,"",27,Revive With HP of 50%,1,Single PC,6,Magic,0,4,0,0,0,0,Physical,7,Revival,50,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360cb0,96,"Has a 50% chance of reviving an Unconcious ally
+along with 50% of their HP.                SP 4",0x0,0,""
+16,Riselem,5,Silver,91,0b0010,"",X,"",28,Revive With HP of 100%,1,Single PC,6,Magic,0,8,0,0,0,0,Physical,7,Revival,0,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360d10,96,"Revives an Unconcious ally and restores their
+HP to full.                                SP 8",0x0,0,""
+17,Eterni,5,Silver,100,0b0010,"",X,"",5,Unconscious,3,Single EC,6,Magic,0,5,0,0,0,0,Physical,1,Unconscious,60,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360d70,96,"Can instantly kill any one enemy. May not work
+on some powerful monsters or bosses.       SP 5",0x0,0,""
+18,Eternes,5,Silver,101,0b0010,"",X,"",5,Unconscious,4,All ECs,6,Magic,0,10,0,0,0,0,Physical,1,Unconscious,80,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360dd0,96,"Can cause instant death to all enemies on the
+screen.                                    SP 10",0x0,0,""
+19,Eternum,5,Silver,102,0b0010,"",X,"",6,Unconscious + Damage A,3,Single EC,6,Magic,0,15,0,0,250,1,Magical,1,Unconscious,0,0,0,0,-1,Never,0,-1,None,-1,-1,0,-1,0,0,0,0x360e30,56,"Causes instant death to one enemy. If target is
+immune",0x0,0,""
+20,Wevli,3,Blue,60,0b0011,"",X,X,0,Damage,32,EC Square S3,6,Magic,0,2,0,0,60,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,2,-1,60,4,0,0,0,0x360e68,96,"Damages one enemy with a whirlwind of air and
+water. Also harms nearby enemies.          SP 2",0x3695dc,96,"Fires a cannonball charged with Blue Magic.
+Special equipment is needed to cast.        2 SP"
+21,Wevles,3,Blue,61,0b0011,"",X,X,0,Damage,33,EC Square S5,6,Magic,0,4,0,0,105,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,4,-1,90,4,0,0,0,0x360ec8,96,"Creates a large tornado around one enemy and
+damages all enemies nearby.                SP 4",0x36963c,96,"Fires a cannonball charged with Blue Magic.
+Special equipment is needed to cast.        4 SP"
+22,Wevlen,3,Blue,63,0b0011,"",X,X,0,Damage,34,EC Square S7,6,Magic,0,8,0,0,195,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,8,-1,150,4,0,0,0,0x360f28,96,"Creates a cluster of tornados around one enemy
+and damages nearly all enemies on screen.  SP 8",0x36969c,96,"Fires a cannonball charged with Blue Magic.
+Special equipment is needed to cast.        8 SP"
+23,Pyri,1,Red,0,0b0011,"",X,X,0,Damage,4,All ECs,6,Magic,0,2,0,0,50,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,2,-1,60,1,0,0,0,0x360f88,76,"Summons an burst of flames
+on screen.                                 SP 2",0x3696fc,92,"Fires a cannonball charged with Red Magic.
+Special equipment is needed to cast.        2 SP"
+24,Pyres,1,Red,1,0b0011,"",X,X,0,Damage,4,All ECs,6,Magic,0,4,0,0,85,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,4,-1,90,1,0,0,0,0x360fd4,92,"Summons a great explosion and damages all
+enemies on screen.                         SP 4",0x369758,92,"Fires a cannonball charged with Red Magic.
+Special equipment is needed to cast.        4 SP"
+25,Pyrum,1,Red,2,0b0011,"",X,X,0,Damage,4,All ECs,6,Magic,0,6,0,0,120,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,6,-1,120,1,0,0,0,0x361030,96,"Summons fireballs from the skies and damages
+all enemies on the screen.                 SP 6",0x3697b4,92,"Fires a cannonball charged with Red Magic.
+Special equipment is needed to cast.        6 SP"
+26,Crystali,2,Purple,10,0b0011,"",X,X,0,Damage,3,Single EC,6,Magic,0,1,0,0,70,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,1,-1,30,2,0,0,0,0x361090,92,"Encases a single enemy in ice. It is quite
+powerful and uses very little Spirit.      SP 1",0x369810,96,"Fires a cannonball charged with Purple Magic.
+Special equipment is needed to cast.        1 SP"
+27,Crystales,2,Purple,11,0b0011,"",X,X,0,Damage,3,Single EC,6,Magic,0,2,0,0,120,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,2,-1,50,2,0,0,0,0x3610ec,64,"Summons an icicle at the foot of a single enemy
+and impales it",0x369870,96,"Fires a cannonball charged with Purple Magic.
+Special equipment is needed to cast.        2 SP"
+28,Crystalum,2,Purple,12,0b0011,"",X,X,0,Damage,3,Single EC,6,Magic,0,3,0,0,170,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,3,-1,70,2,0,0,0,0x36112c,88,"Traps a single enemy in a column of ice
+an extensive amount of damage.             SP 3",0x3698d0,96,"Fires a cannonball charged with Purple Magic.
+Special equipment is needed to cast.        3 SP"
+29,Crystalen,2,Purple,13,0b0011,"",X,X,0,Damage,3,Single EC,6,Magic,0,4,0,0,220,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,4,-1,90,2,0,0,0,0x361184,96,"Huge pillars of ice rain from the sky to impale
+one enemy for enormous damage.             SP 4",0x369930,96,"Fires a cannonball charged with Purple Magic.
+Special equipment is needed to cast.        4 SP"
+30,Pyrulen,1,Red,3,0b0011,"",X,X,0,Damage,4,All ECs,6,Magic,0,10,0,0,155,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,10,-1,150,1,0,0,0,0x3611e4,96,"Sets the air aflame and engulfs all enemies on
+screen in a firestorm.                     SP 10",0x369990,92,"Fires a cannonball charged with Red Magic.
+Special equipment is needed to cast.       10 SP"
+31,Wevlum,3,Blue,62,0b0011,"",X,X,0,Damage,33,EC Square S5,6,Magic,0,6,0,0,150,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,6,-1,120,4,0,0,0,0x361244,96,"Summons a field of fierce winds and stinging
+rain to damage enemies in a large area.    SP 6",0x3699ec,96,"Fires a cannonball charged with Blue Magic.
+Special equipment is needed to cast.        6 SP"
+32,Electri,4,Yellow,30,0b0011,"",X,X,0,Damage,36,EC Ray S1,6,Magic,0,2,0,0,60,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,2,-1,60,3,0,0,0,0x3612a4,92,"Shoots a bolt of electricity at a target
+damaging any enemies in the way.           SP 2",0x369a4c,96,"Fires a cannonball charged with Yellow Magic.
+Special equipment is needed to cast.        2 SP"
+33,Electres,4,Yellow,31,0b0011,"",X,X,0,Damage,37,EC Ray S3,6,Magic,0,4,0,0,105,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,4,-1,90,3,0,0,0,0x361300,100,"Sends a lightning bolt through a line of enemies
+causing major damage.                      SP 4",0x369aac,96,"Fires a cannonball charged with Yellow Magic.
+Special equipment is needed to cast.        4 SP"
+34,Electrum,4,Yellow,32,0b0011,"",X,X,0,Damage,37,EC Ray S3,6,Magic,0,6,0,0,150,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,6,-1,120,3,0,0,0,0x361364,96,"A massive bold of electricity is shot out and
+hits all enemies in a straight line.       SP 6",0x369b0c,96,"Fires a cannonball charged with Yellow Magic.
+Special equipment is needed to cast.        6 SP"
+35,Electrulen,4,Yellow,33,0b0011,"",X,X,0,Damage,38,EC Ray S5,6,Magic,0,8,0,0,195,1,Magical,0,Poison,0,0,0,0,0,Magic Cannon,0,107,Damage,8,-1,150,3,0,0,0,0x3613c4,96,"The ultimate attack spell. It will cause major
+damage on all enemies in a straight line.  SP 8",0x369b6c,96,"Fires a cannonball charged with Yellow Magic.
+Special equipment is needed to cast.        8 SP"

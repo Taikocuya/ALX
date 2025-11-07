@@ -41,14 +41,6 @@ class MagicExpCurve < StdEntry
 
   public
 
-  # Constructs a MagicExpCurve.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -74,6 +66,8 @@ class MagicExpCurve < StdEntry
   
   # Initialize the entry properties.
   def init_props
+    super
+
     self[VOC.character_name(nil)] = StrProp.new(nil, '', dmy: true)
     
     (1..6).each do |_i|
@@ -98,6 +92,8 @@ class MagicExpCurve < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
     fetch(VOC.id).proc = Proc.new do |_id|
       _chara = @characters[id]
       _name  = '???'
@@ -108,8 +104,8 @@ class MagicExpCurve < StdEntry
     end
   end
 
-end	# class MagicExpCurve
+end # class MagicExpCurve
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

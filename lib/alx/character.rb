@@ -41,14 +41,6 @@ class Character < StdEntry
 
   public
 
-  # Constructs a Character.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -88,6 +80,8 @@ class Character < StdEntry
   
   # Initialize the entry properties.
   def init_props
+    super
+    
     self[VOC.name_str(cid)      ] = StrProp.new(  11,  ''                    )
     self[VOC.age                ] = IntProp.new( :i8,   0                    )
     self[VOC.gender_id          ] = IntProp.new( :i8,   0                    )
@@ -150,6 +144,8 @@ class Character < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+    
     fetch(VOC.gender_id).proc = Proc.new do |_id|
       self[VOC.gender_name] = VOC.genders(_id)
     end
@@ -166,7 +162,7 @@ class Character < StdEntry
           if jp? || us?
             _name = _entry[VOC.name_str(cid)]
           elsif eu?
-            _name = _entry[VOC.name_str('GB')]
+            _name = _entry[VOC.name_opt(gb)]
           end
         end
       else
@@ -183,7 +179,7 @@ class Character < StdEntry
           if jp? || us?
             _name = _entry[VOC.name_str(cid)]
           elsif eu?
-            _name = _entry[VOC.name_str('GB')]
+            _name = _entry[VOC.name_opt(gb)]
           end
         end
       else
@@ -200,7 +196,7 @@ class Character < StdEntry
           if jp? || us?
             _name = _entry[VOC.name_str(cid)]
           elsif eu?
-            _name = _entry[VOC.name_str('GB')]
+            _name = _entry[VOC.name_opt(gb)]
           end
         end
       else
@@ -216,8 +212,8 @@ class Character < StdEntry
     end
   end
 
-end	# class Character
+end # class Character
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

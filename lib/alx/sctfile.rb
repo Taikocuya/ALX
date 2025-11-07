@@ -578,7 +578,11 @@ class SctFile
     unless @detector
       @detector                = DefinedStringDetector.new
       @detector.char_table     = @detector.char_table.dup << 0x7f
-      @detector.filters        = [gs(/\x7f/n, ' ', verify: false)]
+      @detector.filters        = [
+        gs('\r\n', "\n", verify: false),
+        gs('\n'  , "\n", verify: false),
+        gs("\x7f", ' ' , verify: false),
+      ]
       @detector.ignore_filter  = false
       @detector.invert_filter  = false
       @detector.keep_all       = false

@@ -48,7 +48,6 @@ class ShipCannonData < StdEntryData
     super(ShipCannon, _depend)
     self.id_range  = dscrptr(:ship_cannon_id_range)
     self.data_file = dscrptr(:ship_cannon_data_files)
-    self.name_file = dscrptr(:ship_cannon_name_files)
     self.dscr_file = dscrptr(:ship_cannon_dscr_files)
     self.csv_file  = join(CFG.ship_cannon_csv_file)
     self.tpl_file  = File.join(CFG.build_dir, CFG.ship_cannon_tpl_file)

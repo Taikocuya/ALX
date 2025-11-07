@@ -41,14 +41,6 @@ class EnemyShipTask < Entry
 
   public
 
-  # Constructs an EnemyShipTask.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -100,6 +92,8 @@ class EnemyShipTask < Entry
   
   # Initialize the entry properties.
   def init_props
+    super
+
     self[VOC.filter         ] = StrProp.new( nil,    '', ext: true)
     self[VOC.enemy_ship_id  ] = StrProp.new( nil,    '', dmy: true)
     self[VOC.enemy_ship_name] = StrProp.new( nil,    '', dmy: true)
@@ -127,6 +121,8 @@ class EnemyShipTask < Entry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
     fetch(VOC.id).proc = Proc.new do |_id|
       self[VOC.turn_id ] = _id / 4
       self[VOC.phase_id] = _id % 4
@@ -148,7 +144,7 @@ class EnemyShipTask < Entry
         if jp? || us?
           _name = _enemy_ship[VOC.name_str(cid)]
         elsif eu?
-          _name = _enemy_ship[VOC.name_str('GB')]
+          _name = _enemy_ship[VOC.name_opt(gb)]
         end
       end
       self[VOC.enemy_ship_name] = _name
@@ -184,7 +180,7 @@ class EnemyShipTask < Entry
             _type_id = self[VOC.task_type_id(_i)]
             _id      = self[VOC.task_arm_id(_i)]
             if _type_id == 0 && _id > -1
-              _name = _enemy_ship[VOC.arm_name_str(_id + 1, gb)]
+              _name = _enemy_ship[VOC.arm_name(_i)]
             else
               _name = 'None'
             end
@@ -212,7 +208,7 @@ class EnemyShipTask < Entry
             if jp? || us?
               _param_name = _entry[VOC.name_str(cid)]
             elsif eu?
-              _param_name = _entry[VOC.name_str('GB')]
+              _param_name = _entry[VOC.name_opt(gb)]
             end
           end
         when 2
@@ -229,8 +225,8 @@ class EnemyShipTask < Entry
     end
   end
 
-end	# class EnemyShipTask
+end # class EnemyShipTask
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

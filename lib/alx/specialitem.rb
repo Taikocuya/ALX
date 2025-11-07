@@ -36,18 +36,6 @@ module ALX
 class SpecialItem < StdEntry
 
 #==============================================================================
-#                                   PUBLIC
-#==============================================================================
-
-  public
-
-  # Constructs a SpecialItem.
-  def initialize
-    super
-    init_props
-  end
-
-#==============================================================================
 #                                  PROTECTED
 #==============================================================================
 
@@ -55,6 +43,7 @@ class SpecialItem < StdEntry
 
   # Initialize the entry properties.
   def init_props
+    super
     add_name_props
 
     self[VOC.sell           ] = IntProp.new(:i8,  0)
@@ -75,8 +64,19 @@ class SpecialItem < StdEntry
     add_dscr_props
   end
 
-end	# class SpecialItem
+  # Initialize the entry procs.
+  def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:special_item_id_range).begin,
+      name_table: 'ClearItemDataTable',
+      dscr_table: 'ClearItemMessageDataTable'
+    )
+  end
+
+end # class SpecialItem
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

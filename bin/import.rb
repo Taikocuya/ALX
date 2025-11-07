@@ -66,6 +66,7 @@ class Importer < EntryTransform
     @files << OpenStruct.new(prio: 30, file: 'importshop.rb')
     @files << OpenStruct.new(prio: 20, file: 'importspecialitem.rb')
     @files << OpenStruct.new(prio: 40, file: 'importspiritcurve.rb')
+    @files << OpenStruct.new(prio:  5, file: 'importstringtableentry.rb')
     @files << OpenStruct.new(prio: 20, file: 'importswashbuckler.rb')
     @files << OpenStruct.new(prio: 30, file: 'importtreasurechest.rb')
     @files << OpenStruct.new(prio: 20, file: 'importusableitem.rb')

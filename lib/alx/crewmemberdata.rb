@@ -48,7 +48,6 @@ class CrewMemberData < StdEntryData
     super(CrewMember, _depend)
     self.id_range  = dscrptr(:crew_member_id_range)
     self.data_file = dscrptr(:crew_member_data_files)
-    self.name_file = dscrptr(:crew_member_name_files)
     self.dscr_file = dscrptr(:crew_member_dscr_files)
     self.csv_file  = join(CFG.crew_member_csv_file)
     self.tpl_file  = File.join(CFG.build_dir, CFG.crew_member_tpl_file)

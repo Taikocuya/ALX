@@ -36,19 +36,6 @@ module ALX
 class Armor < StdEntry
 
 #==============================================================================
-#                                   PUBLIC
-#==============================================================================
-
-  public
-
-  # Constructs an Armor.
-  def initialize
-    super
-    init_props
-    init_procs
-  end
-
-#==============================================================================
 #                                  PROTECTED
 #==============================================================================
 
@@ -56,6 +43,7 @@ class Armor < StdEntry
 
   # Initialize the entry properties.
   def init_props
+    super
     add_name_props
 
     self[VOC.character_flags] = IntProp.new(:u8, 0, base: 2, width: 10)
@@ -91,6 +79,14 @@ class Armor < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:armor_id_range).begin,
+      name_table: 'ArmorDataTable',
+      dscr_table: 'ArmorMessageDataTable'
+    )
+
     fetch(VOC.character_flags).proc = Proc.new do |_flags|
       VOC.characters.each do |_id, _name|
         _key       = VOC.character_opt(_name.chr)
@@ -105,8 +101,8 @@ class Armor < StdEntry
     end
   end
 
-end	# class Armor
+end # class Armor
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

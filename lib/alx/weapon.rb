@@ -41,14 +41,6 @@ class Weapon < StdEntry
 
   public
 
-  # Constructs a Weapon.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -74,6 +66,7 @@ class Weapon < StdEntry
   
   # Initialize the entry properties.
   def init_props
+    super
     add_name_props
     
     self[VOC.character_id(nil)  ] = IntProp.new(:i8,  0           )
@@ -101,6 +94,14 @@ class Weapon < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:weapon_id_range).begin,
+      name_table: 'WeaponDataTable',
+      dscr_table: 'WeaponMessageDataTable'
+    )
+
     fetch(VOC.character_id(nil)).proc = Proc.new do |_id|
       self[VOC.character_name(nil)] = VOC.characters(_id)
     end
@@ -123,8 +124,8 @@ class Weapon < StdEntry
     end
   end
 
-end	# class Weapon
+end # class Weapon
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

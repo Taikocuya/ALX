@@ -47,12 +47,8 @@ class StdEntry < Entry
     if jp? || us?
       self[VOC.name_str(cid)] = StrProp.new(_size, '')
     elsif eu?
-      self[VOC.message_id(cid)] = IntProp.new(:u32, 0, base: 16)
-      languages.each do |_l|
-        self[VOC.name_pos(_l) ] = IntProp.new(:u32,  0, base: 16, ext: true)
-        self[VOC.name_size(_l)] = IntProp.new(:u32,  0,           ext: true)
-        self[VOC.name_str(_l) ] = StrProp.new( nil, '',           ext: true)
-      end
+      self[VOC.sot_pos(cid)] = IntProp.new(:u32,  0, base: 16 )
+      self[VOC.name_opt(gb)] = StrProp.new( nil, '', dmy: true)
     end
   end
 
@@ -63,10 +59,75 @@ class StdEntry < Entry
       self[VOC.dscr_size(cid)] = IntProp.new(:u32,  0,           ext: true)
       self[VOC.dscr_str(cid) ] = StrProp.new( nil, '',           ext: true)
     elsif eu?
-      languages.each do |_l|
-        self[VOC.dscr_pos(_l) ] = IntProp.new(:u32,  0, base: 16, ext: true)
-        self[VOC.dscr_size(_l)] = IntProp.new(:u32,  0,           ext: true)
-        self[VOC.dscr_str(_l) ] = StrProp.new( nil, '',           ext: true)
+      self[VOC.dscr_opt(gb)] = StrProp.new( nil, '', dmy: true)
+    end
+  end
+
+  # Add ship description properties.
+  def add_ship_dscr_props
+    if jp? || us?
+      _pos  = VOC.ship_dscr_pos
+      _size = VOC.ship_dscr_size
+      _str  = VOC.ship_dscr_str
+      self[_pos[cid] ] = IntProp.new(:u32,  0, base: 16, ext: true)
+      self[_size[cid]] = IntProp.new(:u32,  0,           ext: true)
+      self[_str[cid] ] = StrProp.new( nil, '',           ext: true)
+    elsif eu?
+      self[VOC.ship_dscr_opt(gb)] = StrProp.new( nil, '', dmy: true)
+    end
+  end
+
+  # Add ID proc.
+  # @param _id_offset     [Integer] ID offset
+  # @param name_table     [String]  Name string table
+  # @param dscr_table     [String]  Description string table
+  # @param shipdscr_table [String]  Ship description string table
+  def add_id_proc(
+    _id_offset, name_table: nil, dscr_table: nil, ship_dscr_table: nil
+  )
+    if eu?
+      fetch(VOC.id).proc = Proc.new do |_id|
+        if name_table && fetch(VOC.name_opt(gb))
+          _table = @string_table_entries&.[](name_table) || []
+          _entry = _table[_id + _id_offset]
+          _name  = '???'
+          if _entry
+            if dc?
+              _name = _entry['ENGLISH.SOT']
+            else
+              _name = _entry['english.sot']
+            end
+          end
+          self[VOC.name_opt(gb)] = _name
+        end
+
+        if dscr_table && fetch(VOC.dscr_opt(gb))
+          _table = @string_table_entries&.[](dscr_table) || []
+          _entry = _table[_id + _id_offset]
+          _name  = '???'
+          if _entry
+            if dc?
+              _name = _entry['ENGLISH.SOT']
+            else
+              _name = _entry['english.sot']
+            end
+          end
+          self[VOC.dscr_opt(gb)] = _name
+        end
+
+        if ship_dscr_table && fetch(VOC.ship_dscr_opt(gb))
+          _table = @string_table_entries&.[](ship_dscr_table) || []
+          _entry = _table[_id + _id_offset]
+          _name  = '???'
+          if _entry
+            if dc?
+              _name = _entry['ENGLISH.SOT']
+            else
+              _name = _entry['english.sot']
+            end
+          end
+          self[VOC.ship_dscr_opt(gb)] = _name
+        end
       end
     end
   end
@@ -75,16 +136,23 @@ class StdEntry < Entry
 # Public Member Variables
 #------------------------------------------------------------------------------
   
-  def msg_id
-    self[VOC.message_id(cid)] || nil
+  attr_reader :string_table_entries
+
+  def string_table_entries=(_string_table_entries)
+    @string_table_entries = _string_table_entries || {}
+    fetch(VOC.id)&.call_proc
+  end
+  
+  def sot_pos
+    self[VOC.sot_pos(cid)] || nil
   end
 
-  def msg_id=(_msg_id)
-    self[VOC.message_id(cid)] = _msg_id
+  def sot_pos=(_sot_pos)
+    self[VOC.sot_pos(cid)] = _sot_pos
   end
-    
-end	# class StdEntry
+
+end # class StdEntry
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

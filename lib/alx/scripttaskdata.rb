@@ -162,7 +162,7 @@ class ScriptTaskData < EntryData
   # 
   # @return [Boolean] +true+ if method waits for next execution, +false+ 
   #                   otherwise.
-	def load_csv
+  def load_csv
     _fiber = @fibers[__method__]
     if !_fiber
       _fiber = Fiber.new do
@@ -195,7 +195,7 @@ class ScriptTaskData < EntryData
     end
     
     _result
-	end
+  end
 
   # Writes all entries to CSV files. To free up memory, all script tasks are 
   # automatically removed afterwards.

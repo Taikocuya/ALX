@@ -49,7 +49,6 @@ class WeaponData < StdEntryData
     super(Weapon, _depend)
     self.id_range  = dscrptr(:weapon_id_range)
     self.data_file = dscrptr(:weapon_data_files)
-    self.name_file = dscrptr(:weapon_name_files)
     self.dscr_file = dscrptr(:weapon_dscr_files)
     self.csv_file  = join(CFG.weapon_csv_file)
     self.tpl_file  = File.join(CFG.build_dir, CFG.weapon_tpl_file)

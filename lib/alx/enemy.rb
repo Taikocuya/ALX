@@ -41,14 +41,6 @@ class Enemy < Entry
 
   public
 
-  # Constructs an Enemy.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -110,9 +102,11 @@ class Enemy < Entry
     super
     @items ||= {}
   end
-  
+
   # Initialize the entry properties.
   def init_props
+    super
+
     self[VOC.filter      ] = AryProp.new(    [], dmy: true)
     self[VOC.name_str(jp)] = StrProp.new(21, ''           )
 
@@ -177,6 +171,8 @@ class Enemy < Entry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
     if us? || eu?
       fetch(VOC.id).proc = Proc.new do |_id|
         _name = voc(:enemies, id.to_s) || '???'
@@ -211,7 +207,7 @@ class Enemy < Entry
             if jp? || us?
               _name = _entry[VOC.name_str(cid)]
             elsif eu?
-              _name = _entry[VOC.name_str('GB')]
+              _name = _entry[VOC.name_opt(gb)]
             end
           end
         else
@@ -222,8 +218,8 @@ class Enemy < Entry
     end
   end
 
-end	# class Enemy
+end # class Enemy
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

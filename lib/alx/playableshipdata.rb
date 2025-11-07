@@ -49,7 +49,6 @@ class PlayableShipData < StdEntryData
     super(PlayableShip, _depend)
     self.id_range  = dscrptr(:playable_ship_id_range)
     self.data_file = dscrptr(:playable_ship_data_files)
-    self.name_file = dscrptr(:playable_ship_name_files)
     self.csv_file  = join(CFG.playable_ship_csv_file)
     self.tpl_file  = File.join(CFG.build_dir, CFG.playable_ship_tpl_file)
         

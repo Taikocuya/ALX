@@ -1,29 +1,50 @@
 Entry ID,Entry US Name,Sell%,US Order 1,US Order 2,Buy,[US Descr Pos],[US Descr Size],US Descr Str
-320,緑月晶,0,1,20,0,0x2eb8bc,28,緑の巨人を動かすカギです。\n
-321,赤月晶,0,2,4,0,0x2eb8d8,28,赤のツボを動かすカギです。\n
-322,紫月晶,0,3,22,0,0x2eb8f4,28,紫のクジラからツモります。\n
-323,青月晶,0,4,2,0,0x2eb910,28,青のトリからツモります。\n
-324,黄月晶,0,5,8,0,0x2eb92c,32,黄のリュウ？からツモります。\n
-325,銀月晶,0,6,10,0,0x2eb94c,36,いつ手に入れるのかわかりません。\n
-326,Green MoonStone,0,7,21,0,0x2eb970,88,"If you bring this close to a weapon, the\nweapon's attribute will be changed to ""green""."
-327,Red MoonStone,0,8,5,0,0x2eb9c8,88,"If you bring this close to a weapon, the\nweapon's attribute will be changed to ""red""."
-328,Purple MoonStone,0,9,23,0,0x2eba20,92,"If you bring this close to a weapon, the\nweapon's attribute will be changed to ""purple""."
-329,青の月Ж石,0,10,3,0,0x2eba7c,28,武器の属性を変えられます。\n
+320,緑月晶,0,1,20,0,0x2eb8bc,28,"緑の巨人を動かすカギです。
+"
+321,赤月晶,0,2,4,0,0x2eb8d8,28,"赤のツボを動かすカギです。
+"
+322,紫月晶,0,3,22,0,0x2eb8f4,28,"紫のクジラからツモります。
+"
+323,青月晶,0,4,2,0,0x2eb910,28,"青のトリからツモります。
+"
+324,黄月晶,0,5,8,0,0x2eb92c,32,"黄のリュウ？からツモります。
+"
+325,銀月晶,0,6,10,0,0x2eb94c,36,"いつ手に入れるのかわかりません。
+"
+326,Green MoonStone,0,7,21,0,0x2eb970,88,"If you bring this close to a weapon, the
+weapon's attribute will be changed to ""green""."
+327,Red MoonStone,0,8,5,0,0x2eb9c8,88,"If you bring this close to a weapon, the
+weapon's attribute will be changed to ""red""."
+328,Purple MoonStone,0,9,23,0,0x2eba20,92,"If you bring this close to a weapon, the
+weapon's attribute will be changed to ""purple""."
+329,青の月Ж石,0,10,3,0,0x2eba7c,28,"武器の属性を変えられます。
+"
 330,黄の月Ж石,0,11,9,0,0x0,0,""
 331,銀の月Ж石,0,12,11,0,0x0,0,""
-332,潜水服,0,13,13,0,0x2eba98,20,あたたかいです。\n
-333,メリダの手紙,0,14,24,0,0x2ebaac,20,なかなか達筆です。\n
-334,ビゴロの鍵,0,15,19,0,0x2ebac0,28,ビゴロを動かすカギです。\n
-335,雲海エンジン,0,16,7,0,0x2ebadc,36,雲海で取れたイキのいい猿人です。\n
-336,ダカットの宝地図,0,17,16,0,0x2ebb00,20,破けた地図です。\n
+332,潜水服,0,13,13,0,0x2eba98,20,"あたたかいです。
+"
+333,メリダの手紙,0,14,24,0,0x2ebaac,20,"なかなか達筆です。
+"
+334,ビゴロの鍵,0,15,19,0,0x2ebac0,28,"ビゴロを動かすカギです。
+"
+335,雲海エンジン,0,16,7,0,0x2ebadc,36,"雲海で取れたイキのいい猿人です。
+"
+336,ダカットの宝地図,0,17,16,0,0x2ebb00,20,"破けた地図です。
+"
 337,ダカットの宝地図,0,18,17,0,0x0,0,""
-338,アルフォンソの鍵,0,19,6,0,0x2ebb14,32,アルフォンソを動かすカギです。\n
-339,橙色の石,0,20,14,0,0x2ebb34,16,わかりません。\n
+338,アルフォンソの鍵,0,19,6,0,0x2ebb14,32,"アルフォンソを動かすカギです。
+"
+339,橙色の石,0,20,14,0,0x2ebb34,16,"わかりません。
+"
 340,青色の石,0,21,1,0,0x0,0,""
-341,月Ж石,100,22,12,500,0x2ebb44,24,神殿島でツモります。\n
-342,ダカットのコイン,100,23,15,10000,0x2ebb5c,16,ひみつです。\n
-343,Key to Port,0,24,18,0,0x2ebb6c,84,The key used to enter the demo version exclusive\nunderground port on Pirates Isle.
-344,Irimajirion,0,25,25,0,0x2ebbc0,92,"A mysterious item, whose function may never be\nrevealed, named after President Irimajiri."
+341,月Ж石,100,22,12,500,0x2ebb44,24,"神殿島でツモります。
+"
+342,ダカットのコイン,100,23,15,10000,0x2ebb5c,16,"ひみつです。
+"
+343,Key to Port,0,24,18,0,0x2ebb6c,84,"The key used to enter the demo version exclusive
+underground port on Pirates Isle."
+344,Irimajirion,0,25,25,0,0x2ebbc0,92,"A mysterious item, whose function may never be
+revealed, named after President Irimajiri."
 345,ダミークリア,0,-1,-1,0,0x0,0,""
 346,ダミークリア,0,-1,-1,0,0x0,0,""
 347,ダミークリア,0,-1,-1,0,0x0,0,""

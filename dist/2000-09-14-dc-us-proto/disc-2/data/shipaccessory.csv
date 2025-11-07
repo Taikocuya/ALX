@@ -1,41 +1,81 @@
 Entry ID,Entry US Name,PS Flags,[L1],[L2],[D1],[D2],[D3],Trait 1 ID,[Trait 1 Name],Pad 1,Trait 1 Value,Trait 2 ID,[Trait 2 Name],Pad 2,Trait 2 Value,Trait 3 ID,[Trait 3 Name],Pad 3,Trait 3 Value,Trait 4 ID,[Trait 4 Name],Pad 4,Trait 4 Value,Pad 5,Pad 6,Buy,Pad 7,Pad 8,Sell%,US Order 1,US Order 2,Pad 9,[US Descr Pos],[US Descr Size],US Descr Str
-440,Rogue Figure,0b00111110,X,X,X,X,X,3,MagDef,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,800,0,0,50,0,0,0,0x33990c,100,"A menacing skull with crossed swords, the symbol\nof the Air Pirates. Increases Magic Resistance."
-441,Pryn Figure,0b00111110,X,X,X,X,X,3,MagDef,0,30,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,2400,0,0,50,1,1,0,0x339970,96,"Crafted after a mystical red bird, and decorated\nwith red feathers. Increases Magic Resistance."
-442,Pyrynn Figure,0b00111110,X,X,X,X,X,3,MagDef,0,45,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,4400,0,0,50,2,2,0,0x3399d0,84,A sculpture based on the mythical guardian of\nPyrynn. Increases Magic Resistance.
-443,Arcwhale Figure,0b00111110,X,X,X,X,X,3,MagDef,0,60,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,4640,0,0,50,3,3,0,0x339a24,84,"A sculpture of an arcwhale, the guardian of the\nskies. Increases Magic Resistance."
-444,Quetya Figure,0b00111110,X,X,X,X,X,3,MagDef,0,80,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,4880,0,0,50,4,4,0,0x339a78,92,"A sculpture of a Quetya, an Ixa'takan Deity.\nIts divine power increases Magic Resistance."
-445,Giant Figure,0b00111110,X,X,X,X,X,3,MagDef,0,100,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,5120,0,0,50,5,5,0,0x339ad4,64,A sculpture in the form of a giant.\nIncreases Magic Resistance.
-446,Bluheim Figure,0b00111110,X,X,X,X,X,3,MagDef,0,130,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,5360,0,0,50,6,6,0,0x339b14,76,"A sculpture of Bluheim, the Yafutoman Gigas.\nIncreases Magic Resistance."
-447,Goddess Figure,0b00111110,X,X,X,X,X,3,MagDef,0,160,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,6800,0,0,50,7,7,0,0x339b60,88,"A sculpture of the goddess of love, courage,\nand victory. Increases Magic Resistance."
-448,Vyse Figure,0b00111110,X,X,X,X,X,3,MagDef,0,190,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,8800,0,0,50,8,8,0,0x339bb8,60,A shameless sculpture of Vyse. \nIncreases Magic Resistance.
-449,Spherical Figure,0b00111110,X,X,X,X,X,3,MagDef,0,300,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,13500,0,0,50,9,9,0,0x339bf4,48,A glowing sphere.\nIncreases Magic Resistance.
-450,Engine Cover,0b00111110,X,X,X,X,X,4,Quick,0,10,6,Dodge%,0,3,-1,None,0,0,-1,None,0,0,0,0,800,0,0,50,10,10,0,0x339c24,80,"Protects the ship's engine from getting dirty,\nand increases the ship's speed."
-451,Turbo Kit,0b00111110,X,X,X,X,X,4,Quick,0,20,6,Dodge%,0,5,-1,None,0,0,-1,None,0,0,0,0,1520,0,0,50,11,11,0,0x339c74,92,"Ship Modification, that increases the Moon Stone\npower output, increasing the ship's speed."
-452,Bore-up Kit,0b00111110,X,X,X,X,X,4,Quick,0,30,6,Dodge%,0,8,-1,None,0,0,-1,None,0,0,0,0,2400,0,0,50,12,12,0,0x339cd0,88,"A kit that increases engine size for greater\npower and exhaust, increasing ship speed."
-453,Twin Propellers,0b00111110,X,X,X,X,X,4,Quick,0,40,6,Dodge%,0,10,-1,None,0,0,-1,None,0,0,0,0,3200,0,0,50,13,13,0,0x339d28,60,An additional propeller that increases the\nship's speed.
-454,Air Intake,0b00111110,X,X,X,X,X,4,Quick,0,80,6,Dodge%,0,12,-1,None,0,0,-1,None,0,0,0,0,6800,0,0,50,14,14,0,0x339d64,92,"Sends clean air into the engine, stabilizing\nfuel consumption and increasing ship speed."
-455,Twin Turbo,0b00111110,X,X,X,X,X,4,Quick,0,90,6,Dodge%,0,15,-1,None,0,0,-1,None,0,0,0,0,8800,0,0,50,15,15,0,0x339dc0,80,A compound turbo kit that modifies the engine\nand gives the ship more speed.
-456,Timing Valve,0b00111110,X,X,X,X,X,4,Quick,0,100,6,Dodge%,0,17,-1,None,0,0,-1,None,0,0,0,0,10800,0,0,50,16,16,0,0x339e10,80,"Standardizes valve timing to stabilize engine\nexhaust, increasing ship speed."
-457,Triple Turbo,0b00111110,X,X,X,X,X,4,Quick,0,130,6,Dodge%,0,20,-1,None,0,0,-1,None,0,0,0,0,12800,0,0,50,17,17,0,0x339e60,100,"A triple turbo kit for maximum engine power, for\na speed boost even greater than the Twin Turbo."
-458,High Torque Kit,0b00111110,X,X,X,X,X,4,Quick,0,150,6,Dodge%,0,23,-1,None,0,0,-1,None,0,0,0,0,14800,0,0,50,18,18,0,0x339ec4,84,"Raises durability for greater power through\nhigher RPM's, increasing ship speed."
-459,Double Shaft,0b00111110,X,X,X,X,X,4,Quick,0,200,6,Dodge%,0,26,-1,None,0,0,-1,None,0,0,0,0,16640,0,0,50,19,19,0,0x339f18,96,"Splits the engine into two independent stages,\ndoubling power output and increasing ship speed."
-460,Armored Deck,0b00111110,X,X,X,X,X,2,Defense,0,10,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,1000,0,0,50,20,20,0,0x339f78,68,"A standard armored deck, commonly available.\nImproves ship defense."
-461,Steel Deck,0b00111110,X,X,X,X,X,2,Defense,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,1900,0,0,50,21,21,0,0x339fbc,72,A deck armored with multiple layers of steel.\nHas high defensive power.
-462,Slanted Deck,0b00111110,X,X,X,X,X,2,Defense,0,30,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,2200,0,0,50,22,22,0,0x33a004,96,Deflects projectiles with slanted plates atop\na standard armored deck. Improves ship defense.
-463,Compound Deck,0b00111110,X,X,X,X,X,2,Defense,0,40,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,5500,0,0,50,23,23,0,0x33a064,76,A deck armored with layers of different steels.\nHas high defensive power.
-464,Heavy Armor Deck,0b00111110,X,X,X,X,X,2,Defense,0,55,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,6700,0,0,50,24,24,0,0x33a0b0,88,A deck with armor three times as thick as the\nstandard weight. Improves ship defense.
-465,Alloy Deck,0b00111110,X,X,X,X,X,2,Defense,0,70,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,7300,0,0,50,25,25,0,0x33a108,80,A deck armored with an alloy including Moonstone\ndust. Improves ship defense.
-466,Dragon Deck,0b00111110,X,X,X,X,X,2,Defense,0,110,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,7900,0,0,50,26,26,0,0x33a158,96,An armored deck created by Yafutoman craftsmen.\nBeautiful and greatly improves ship defenses.
-467,Ancient Deck,0b00111110,X,X,X,X,X,2,Defense,0,150,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,8500,0,0,50,27,27,0,0x33a1b8,88,"A deck armored with a rare, mysterious metal\nfrom ancient times. Improves ship defense."
-468,Silver Deck,0b00111110,X,X,X,X,X,2,Defense,0,200,6,Dodge%,0,1,4,Quick,0,3,-1,None,0,0,0,0,11000,0,0,50,28,28,0,0x33a210,92,An armored deck supplemented with high grade\nMoonstones. Their power improves ship defense.
-469,Sparkling Deck,0b00111110,X,X,X,X,X,2,Defense,0,500,6,Dodge%,0,2,4,Quick,0,6,-1,None,0,0,0,0,13500,0,0,50,29,29,0,0x33a26c,88,An armored deck studded with Moonstones of 6\ndifferent colors. Improves ship defense.
-470,Intercom,0b00111110,X,X,X,X,X,7,Value,0,1000,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,1000,0,0,50,30,30,0,0x33a2c4,84,A system for communicating between decks. \nGood luck keeping Aika from abusing it.
-471,Enhanced Kitchen,0b00111110,X,X,X,X,X,7,Value,0,5500,2,Defense,0,1,-1,None,0,0,-1,None,0,0,0,0,5500,0,0,50,31,31,0,0x33a318,76,State-of-the-art cooking facilities for great-\ntasting dinners every night.
-472,Floor Heater,0b00111110,X,X,X,X,X,7,Value,0,3000,3,MagDef,0,1,-1,None,0,0,-1,None,0,0,0,0,3000,0,0,50,32,32,0,0x33a364,80,Takes advantage of engine heat to keep\nliving quarters nice and comfortable.
-473,Air Purifier,0b00111110,X,X,X,X,X,7,Value,0,5800,3,MagDef,0,2,-1,None,0,0,-1,None,0,0,0,0,5800,0,0,50,33,33,0,0x33a3b4,88,"Purifies the air below decks to keep everything\nsmelling clean and fresh, not sweaty."
-474,Yaftoman Alcove,0b00111110,X,X,X,X,X,7,Value,0,6700,3,MagDef,0,2,-1,None,0,0,-1,None,0,0,0,0,6700,0,0,50,34,34,0,0x33a40c,72,A bit of Yaftoman culture to help calm the mind\nand soothe the soul.
-475,Soundproofing,0b00111110,X,X,X,X,X,7,Value,0,11000,2,Defense,0,1,-1,None,0,0,-1,None,0,0,0,0,11000,0,0,50,35,35,0,0x33a454,92,"Blocks annoying engine noise for a better\nnight's sleep, reducing fatigue on long trips."
-476,Expensive Wheel,0b00111110,X,X,X,X,X,7,Value,0,8500,4,Quick,0,2,-1,None,0,0,-1,None,0,0,0,0,8500,0,0,50,36,36,0,0x33a4b0,88,"A custom-made wheel, ergonomically designed in\nValua. Reduces fatigue for the helmsman."
-477,Chandelier,0b00111110,X,X,X,X,X,7,Value,0,9300,2,Defense,0,1,-1,None,0,0,-1,None,0,0,0,0,9300,0,0,50,37,37,0,0x33a508,92,Luxurious lighting favored by Valuan nobility.\nBrings a touch of opulence to airborne life.
-478,Wooden Doll,0b00111110,X,X,X,X,X,7,Value,0,7300,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,7300,0,0,50,38,38,0,0x33a564,88,"A carved wooden doll, shaped like a cuddly\nanimal. Simple, cute, and adored by Fina."
-479,Indoor Plant,0b00111110,X,X,X,X,X,-1,None,0,10100,3,MagDef,0,1,-1,None,0,0,-1,None,0,0,0,0,10100,0,0,50,39,39,0,0x33a5bc,96,"Some greenery to provide color aboard the ship.\nHas a soothing effect, and helps clean the air."
+440,Rogue Figure,0b00111110,X,X,X,X,X,3,MagDef,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,800,0,0,50,0,0,0,0x33990c,100,"A menacing skull with crossed swords, the symbol
+of the Air Pirates. Increases Magic Resistance."
+441,Pryn Figure,0b00111110,X,X,X,X,X,3,MagDef,0,30,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,2400,0,0,50,1,1,0,0x339970,96,"Crafted after a mystical red bird, and decorated
+with red feathers. Increases Magic Resistance."
+442,Pyrynn Figure,0b00111110,X,X,X,X,X,3,MagDef,0,45,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,4400,0,0,50,2,2,0,0x3399d0,84,"A sculpture based on the mythical guardian of
+Pyrynn. Increases Magic Resistance."
+443,Arcwhale Figure,0b00111110,X,X,X,X,X,3,MagDef,0,60,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,4640,0,0,50,3,3,0,0x339a24,84,"A sculpture of an arcwhale, the guardian of the
+skies. Increases Magic Resistance."
+444,Quetya Figure,0b00111110,X,X,X,X,X,3,MagDef,0,80,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,4880,0,0,50,4,4,0,0x339a78,92,"A sculpture of a Quetya, an Ixa'takan Deity.
+Its divine power increases Magic Resistance."
+445,Giant Figure,0b00111110,X,X,X,X,X,3,MagDef,0,100,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,5120,0,0,50,5,5,0,0x339ad4,64,"A sculpture in the form of a giant.
+Increases Magic Resistance."
+446,Bluheim Figure,0b00111110,X,X,X,X,X,3,MagDef,0,130,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,5360,0,0,50,6,6,0,0x339b14,76,"A sculpture of Bluheim, the Yafutoman Gigas.
+Increases Magic Resistance."
+447,Goddess Figure,0b00111110,X,X,X,X,X,3,MagDef,0,160,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,6800,0,0,50,7,7,0,0x339b60,88,"A sculpture of the goddess of love, courage,
+and victory. Increases Magic Resistance."
+448,Vyse Figure,0b00111110,X,X,X,X,X,3,MagDef,0,190,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,8800,0,0,50,8,8,0,0x339bb8,60,"A shameless sculpture of Vyse. 
+Increases Magic Resistance."
+449,Spherical Figure,0b00111110,X,X,X,X,X,3,MagDef,0,300,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,13500,0,0,50,9,9,0,0x339bf4,48,"A glowing sphere.
+Increases Magic Resistance."
+450,Engine Cover,0b00111110,X,X,X,X,X,4,Quick,0,10,6,Dodge%,0,3,-1,None,0,0,-1,None,0,0,0,0,800,0,0,50,10,10,0,0x339c24,80,"Protects the ship's engine from getting dirty,
+and increases the ship's speed."
+451,Turbo Kit,0b00111110,X,X,X,X,X,4,Quick,0,20,6,Dodge%,0,5,-1,None,0,0,-1,None,0,0,0,0,1520,0,0,50,11,11,0,0x339c74,92,"Ship Modification, that increases the Moon Stone
+power output, increasing the ship's speed."
+452,Bore-up Kit,0b00111110,X,X,X,X,X,4,Quick,0,30,6,Dodge%,0,8,-1,None,0,0,-1,None,0,0,0,0,2400,0,0,50,12,12,0,0x339cd0,88,"A kit that increases engine size for greater
+power and exhaust, increasing ship speed."
+453,Twin Propellers,0b00111110,X,X,X,X,X,4,Quick,0,40,6,Dodge%,0,10,-1,None,0,0,-1,None,0,0,0,0,3200,0,0,50,13,13,0,0x339d28,60,"An additional propeller that increases the
+ship's speed."
+454,Air Intake,0b00111110,X,X,X,X,X,4,Quick,0,80,6,Dodge%,0,12,-1,None,0,0,-1,None,0,0,0,0,6800,0,0,50,14,14,0,0x339d64,92,"Sends clean air into the engine, stabilizing
+fuel consumption and increasing ship speed."
+455,Twin Turbo,0b00111110,X,X,X,X,X,4,Quick,0,90,6,Dodge%,0,15,-1,None,0,0,-1,None,0,0,0,0,8800,0,0,50,15,15,0,0x339dc0,80,"A compound turbo kit that modifies the engine
+and gives the ship more speed."
+456,Timing Valve,0b00111110,X,X,X,X,X,4,Quick,0,100,6,Dodge%,0,17,-1,None,0,0,-1,None,0,0,0,0,10800,0,0,50,16,16,0,0x339e10,80,"Standardizes valve timing to stabilize engine
+exhaust, increasing ship speed."
+457,Triple Turbo,0b00111110,X,X,X,X,X,4,Quick,0,130,6,Dodge%,0,20,-1,None,0,0,-1,None,0,0,0,0,12800,0,0,50,17,17,0,0x339e60,100,"A triple turbo kit for maximum engine power, for
+a speed boost even greater than the Twin Turbo."
+458,High Torque Kit,0b00111110,X,X,X,X,X,4,Quick,0,150,6,Dodge%,0,23,-1,None,0,0,-1,None,0,0,0,0,14800,0,0,50,18,18,0,0x339ec4,84,"Raises durability for greater power through
+higher RPM's, increasing ship speed."
+459,Double Shaft,0b00111110,X,X,X,X,X,4,Quick,0,200,6,Dodge%,0,26,-1,None,0,0,-1,None,0,0,0,0,16640,0,0,50,19,19,0,0x339f18,96,"Splits the engine into two independent stages,
+doubling power output and increasing ship speed."
+460,Armored Deck,0b00111110,X,X,X,X,X,2,Defense,0,10,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,1000,0,0,50,20,20,0,0x339f78,68,"A standard armored deck, commonly available.
+Improves ship defense."
+461,Steel Deck,0b00111110,X,X,X,X,X,2,Defense,0,20,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,1900,0,0,50,21,21,0,0x339fbc,72,"A deck armored with multiple layers of steel.
+Has high defensive power."
+462,Slanted Deck,0b00111110,X,X,X,X,X,2,Defense,0,30,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,2200,0,0,50,22,22,0,0x33a004,96,"Deflects projectiles with slanted plates atop
+a standard armored deck. Improves ship defense."
+463,Compound Deck,0b00111110,X,X,X,X,X,2,Defense,0,40,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,5500,0,0,50,23,23,0,0x33a064,76,"A deck armored with layers of different steels.
+Has high defensive power."
+464,Heavy Armor Deck,0b00111110,X,X,X,X,X,2,Defense,0,55,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,6700,0,0,50,24,24,0,0x33a0b0,88,"A deck with armor three times as thick as the
+standard weight. Improves ship defense."
+465,Alloy Deck,0b00111110,X,X,X,X,X,2,Defense,0,70,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,7300,0,0,50,25,25,0,0x33a108,80,"A deck armored with an alloy including Moonstone
+dust. Improves ship defense."
+466,Dragon Deck,0b00111110,X,X,X,X,X,2,Defense,0,110,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,7900,0,0,50,26,26,0,0x33a158,96,"An armored deck created by Yafutoman craftsmen.
+Beautiful and greatly improves ship defenses."
+467,Ancient Deck,0b00111110,X,X,X,X,X,2,Defense,0,150,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,8500,0,0,50,27,27,0,0x33a1b8,88,"A deck armored with a rare, mysterious metal
+from ancient times. Improves ship defense."
+468,Silver Deck,0b00111110,X,X,X,X,X,2,Defense,0,200,6,Dodge%,0,1,4,Quick,0,3,-1,None,0,0,0,0,11000,0,0,50,28,28,0,0x33a210,92,"An armored deck supplemented with high grade
+Moonstones. Their power improves ship defense."
+469,Sparkling Deck,0b00111110,X,X,X,X,X,2,Defense,0,500,6,Dodge%,0,2,4,Quick,0,6,-1,None,0,0,0,0,13500,0,0,50,29,29,0,0x33a26c,88,"An armored deck studded with Moonstones of 6
+different colors. Improves ship defense."
+470,Intercom,0b00111110,X,X,X,X,X,7,Value,0,1000,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,1000,0,0,50,30,30,0,0x33a2c4,84,"A system for communicating between decks. 
+Good luck keeping Aika from abusing it."
+471,Enhanced Kitchen,0b00111110,X,X,X,X,X,7,Value,0,5500,2,Defense,0,1,-1,None,0,0,-1,None,0,0,0,0,5500,0,0,50,31,31,0,0x33a318,76,"State-of-the-art cooking facilities for great-
+tasting dinners every night."
+472,Floor Heater,0b00111110,X,X,X,X,X,7,Value,0,3000,3,MagDef,0,1,-1,None,0,0,-1,None,0,0,0,0,3000,0,0,50,32,32,0,0x33a364,80,"Takes advantage of engine heat to keep
+living quarters nice and comfortable."
+473,Air Purifier,0b00111110,X,X,X,X,X,7,Value,0,5800,3,MagDef,0,2,-1,None,0,0,-1,None,0,0,0,0,5800,0,0,50,33,33,0,0x33a3b4,88,"Purifies the air below decks to keep everything
+smelling clean and fresh, not sweaty."
+474,Yaftoman Alcove,0b00111110,X,X,X,X,X,7,Value,0,6700,3,MagDef,0,2,-1,None,0,0,-1,None,0,0,0,0,6700,0,0,50,34,34,0,0x33a40c,72,"A bit of Yaftoman culture to help calm the mind
+and soothe the soul."
+475,Soundproofing,0b00111110,X,X,X,X,X,7,Value,0,11000,2,Defense,0,1,-1,None,0,0,-1,None,0,0,0,0,11000,0,0,50,35,35,0,0x33a454,92,"Blocks annoying engine noise for a better
+night's sleep, reducing fatigue on long trips."
+476,Expensive Wheel,0b00111110,X,X,X,X,X,7,Value,0,8500,4,Quick,0,2,-1,None,0,0,-1,None,0,0,0,0,8500,0,0,50,36,36,0,0x33a4b0,88,"A custom-made wheel, ergonomically designed in
+Valua. Reduces fatigue for the helmsman."
+477,Chandelier,0b00111110,X,X,X,X,X,7,Value,0,9300,2,Defense,0,1,-1,None,0,0,-1,None,0,0,0,0,9300,0,0,50,37,37,0,0x33a508,92,"Luxurious lighting favored by Valuan nobility.
+Brings a touch of opulence to airborne life."
+478,Wooden Doll,0b00111110,X,X,X,X,X,7,Value,0,7300,-1,None,0,0,-1,None,0,0,-1,None,0,0,0,0,7300,0,0,50,38,38,0,0x33a564,88,"A carved wooden doll, shaped like a cuddly
+animal. Simple, cute, and adored by Fina."
+479,Indoor Plant,0b00111110,X,X,X,X,X,-1,None,0,10100,3,MagDef,0,1,-1,None,0,0,-1,None,0,0,0,0,10100,0,0,50,39,39,0,0x33a5bc,96,"Some greenery to provide color aboard the ship.
+Has a soothing effect, and helps clean the air."

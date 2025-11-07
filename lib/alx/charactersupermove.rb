@@ -36,19 +36,6 @@ module ALX
 class CharacterSuperMove < StdEntry
 
 #==============================================================================
-#                                   PUBLIC
-#==============================================================================
-
-  public
-
-  # Constructs a CharacterSuperMove.
-  def initialize
-    super
-    init_props
-    init_procs
-  end
-
-#==============================================================================
 #                                  PROTECTED
 #==============================================================================
 
@@ -56,6 +43,7 @@ class CharacterSuperMove < StdEntry
 
   # Initialize the entry properties.
   def init_props
+    super
     add_name_props
 
     self[VOC.element_id  ] = IntProp.new(:i8,  0           )
@@ -109,6 +97,14 @@ class CharacterSuperMove < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:character_magic_id_range).begin,
+      name_table: 'MagicDataTable',
+      dscr_table: 'MagicMessageDataTable'
+    )
+
     fetch(VOC.element_id).proc = Proc.new do |_id|
       self[VOC.element_name] = VOC.elements(_id)
     end
@@ -148,8 +144,8 @@ class CharacterSuperMove < StdEntry
     end
   end
 
-end	# class CharacterSuperMove
+end # class CharacterSuperMove
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

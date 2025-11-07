@@ -48,7 +48,6 @@ class ShipItemData < StdEntryData
     super(ShipItem, _depend)
     self.id_range  = dscrptr(:ship_item_id_range)
     self.data_file = dscrptr(:ship_item_data_files)
-    self.name_file = dscrptr(:ship_item_name_files)
     self.dscr_file = dscrptr(:ship_item_dscr_files)
     self.csv_file  = join(CFG.ship_item_csv_file)
     self.tpl_file  = File.join(CFG.build_dir, CFG.ship_item_tpl_file)

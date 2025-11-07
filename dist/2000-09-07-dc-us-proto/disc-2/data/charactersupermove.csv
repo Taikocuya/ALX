@@ -1,27 +1,53 @@
 Entry ID,Entry US Name,Element ID,[Element Name],Order,Occasion Flags,[M],[B],[S],Effect ID,[Effect Name],Scope ID,[Scope Name],Category ID,[Category Name],Effect Speed,Effect SP,Pad 1,Pad 2,Effect Base,Type ID,[Type Name],State ID,[State Name],State Miss%,Pad 3,Pad 4,Pad 5,Ship Occ ID,[Ship Occ Name],Pad 6,Ship Eff ID,[Ship Eff Name],Ship Eff SP,Ship Eff Turns,Ship Eff Base,Unk,Pad 7,Pad 8,Pad 9,[US Descr Pos],[US Descr Size],US Descr Str
-36,Cutlass Fury,6,Neutral,200,0b0010,"",X,"",0,Damage,3,Single EC,0,Vyse,1,7,0,0,25,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361424,92,Vyse unleashes his fury on a single enemy\ncausing major damage.                      SP 7
-37,Rain of Swords,6,Neutral,202,0b0010,"",X,"",0,Damage,4,All ECs,0,Vyse,1,14,0,0,15,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361480,100,Vyse summons the power of lighting to rain down\nupon all the enemies on the screen.        SP 14
-38,Pirates' Wrath,6,Neutral,204,0b0010,"",X,"",0,Damage,3,Single EC,0,Vyse,1,21,0,0,75,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3614e4,96,Vyse unleashes the wrath of the Air Pirates on\na single enemy for devastating damage.     SP 21
-39,Omega Psyclone,1,Red,214,0b0010,"",X,"",0,Damage,4,All ECs,1,Aika,1,12,0,0,165,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361544,92,Aika summons the powers of the Red Moon to\ndestroy all of the enemies on screen.      SP 12
-40,Alpha Storm,1,Red,210,0b0010,"",X,"",0,Damage,39,EC Ray S3,1,Aika,1,4,0,0,60,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3615a0,76,Aika spins her boomerang\nflames to strike all enemies in a line.    SP 4
-41,Lambda Burst,1,Red,212,0b0010,"",X,"",0,Damage,4,All ECs,1,Aika,1,8,0,0,100,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3615ec,52,Aika causes the very ground around her to\nexplode
-42,Lunar Glyph,5,Silver,221,0b0010,"",X,"",8,Stone + Damage,3,Single EC,2,Fina,1,3,0,0,25,0,Physical,2,Stone,25,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361620,100,Fina uses the power of the Silver Moon to damage\nand possibly Petrify a single enemy.       SP 3
-43,Lunar Winds,5,Silver,223,0b0010,"",X,"",17,Rem Pos States + Damage,4,All ECs,2,Fina,1,6,0,0,75,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361684,96,Cupil summons a storm to damage and remove any\nbeneficial effects from all enemies.       SP 6
-44,Tackle,6,Neutral,230,0b0010,"",X,"",0,Damage,3,Single EC,3,Drachma,1,10,0,0,30,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3616e4,100,Drachma concentrates all of his energy into his\nmetal arm and charges one enemy.           SP 10
-45,Hand of Fate,6,Neutral,232,0b0010,"",X,"",6,Unconscious + Damage A,3,Single EC,3,Drachma,1,25,0,0,90,0,Physical,1,Unconscious,50,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361748,96,Drachma crushes one enemy with his mighty arm\ncausing instant death to most.             SP 25
-46,Royal Blade,6,Neutral,240,0b0010,"",X,"",0,Damage,37,EC Ray S3,4,Enrique,1,8,0,0,40,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3617a8,96,Enrique slashes at a single enemy in a flurry\nof precise sword attacks.                  SP 8
-47,The Judgement,6,Neutral,242,0b0010,"",X,"",0,Damage,3,Single EC,4,Enrique,1,16,0,0,80,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361808,96,Enrique summons one enemy to the Coloseum to\nbe judged for its crimes.                  SP 16
-48,Gunslinger,6,Neutral,250,0b0010,"",X,"",0,Damage,43,EC Triangle 60°,5,Gilder,1,9,0,0,30,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361868,96,Gilder lets loose two handguns at the same time\ndamaging all enemies in a straight line.   SP 9
-49,The Claudia,6,Neutral,252,0b0010,"",X,"",0,Damage,4,All ECs,5,Gilder,1,18,0,0,25,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3618c8,96,Gilders calls in the Claudia and fires all of\nher cannons. Attacks all enemies.          SP 18
-50,Counterstrike,6,Neutral,301,0b0010,"",X,"",38,Counter% to 100% + Guard,5,Self,0,Vyse,2,1,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361928,80,Vyse takes a defensive stance\nenemy attacks for a full turn.             SP 1
-51,Skull Shield,6,Neutral,303,0b0010,"",X,"",46,Counter% to 100% + Block Attack,2,All PCs,0,Vyse,2,5,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361978,100,Vyse summons the spirit of an ancient Air Pirate\nto defend and counter attack for his crew. SP 5
-52,Delta Shield,6,Neutral,311,0b0010,"",X,"",39,Block Magic,2,All PCs,1,Aika,2,2,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3619dc,96,Creates an anti-magic shell around all allies\nfor 1 turn. (Blocks allies' magic too.)    SP 2
-53,Epsilon Mirror,6,Neutral,313,0b0010,"",X,"",77,Recover MP + Invulnerable,5,Self,1,Aika,2,10,0,0,10,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361a3c,96,Creates a mirror-like aura that envelops Aika\nfor 1 turn and restores 10 MP.             SP 10
-54,Lunar Blessing,6,Neutral,320,0b0010,"",X,"",33,Regenerate,2,All PCs,2,Fina,2,12,0,0,200,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361a9c,100,Fina calls upon the Silver Moon and blesses each\nparty member with Regeneration.            SP 12
-55,Lunar Cleansing,6,Neutral,322,0b0010,"",X,"",30,Rem Neg States B,2,All PCs,2,Fina,2,6,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361b00,92,Silver Moonlight cleanses all allies of any\nadverse effects except Unconcious.         SP 6
-56,Lunar Light,6,Neutral,324,0b0010,"",X,"",47,Recover HP & MP + Rem Neg States,2,All PCs,2,Fina,2,18,0,0,10000,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361b5c,60,Revives\ncompletely restores all HP of all allies.  SP 18
-57,Spirit Charge,6,Neutral,331,0b0010,"",X,"",41,Recover SP by 200% + Guard,5,Self,3,Drachma,2,0,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361b98,72,Drachma focuses inward\npoints and defending against attacks.      SP 0
-58,Justice Shield,6,Neutral,341,0b0010,"",X,"",1,Guard,2,All PCs,4,Enrique,2,4,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361be0,96,Creates a defensive barrier for one turn. All\nphysical damage received is cut in half.   SP 4
-59,Aura of Denial,6,Neutral,351,0b0010,"",X,"",42,Block Neg States,2,All PCs,5,Gilder,2,3,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361c40,96,Creates a barrier for one turn that blocks all\nadverse (and only adverse) effects.        SP 3
-60,Blue Rogues,6,Neutral,-1,0b0010,"",X,"",66,Crew Special B,6,All PCs & ECs,0,Vyse,-1,-1,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361ca0,96,Summons all active members of the Delphinus\ncrew. Attack varies depending on crew.    SP ALL
-61,Prophecy,6,Neutral,-1,0b0010,"",X,"",65,Crew Special A,4,All ECs,0,Vyse,1,-1,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361d00,96,Combines the power of all 4 party members to\ncall upon an ancient power.               SP ALL
+36,Cutlass Fury,6,Neutral,200,0b0010,"",X,"",0,Damage,3,Single EC,0,Vyse,1,7,0,0,25,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361424,92,"Vyse unleashes his fury on a single enemy
+causing major damage.                      SP 7"
+37,Rain of Swords,6,Neutral,202,0b0010,"",X,"",0,Damage,4,All ECs,0,Vyse,1,14,0,0,15,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361480,100,"Vyse summons the power of lighting to rain down
+upon all the enemies on the screen.        SP 14"
+38,Pirates' Wrath,6,Neutral,204,0b0010,"",X,"",0,Damage,3,Single EC,0,Vyse,1,21,0,0,75,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3614e4,96,"Vyse unleashes the wrath of the Air Pirates on
+a single enemy for devastating damage.     SP 21"
+39,Omega Psyclone,1,Red,214,0b0010,"",X,"",0,Damage,4,All ECs,1,Aika,1,12,0,0,165,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361544,92,"Aika summons the powers of the Red Moon to
+destroy all of the enemies on screen.      SP 12"
+40,Alpha Storm,1,Red,210,0b0010,"",X,"",0,Damage,39,EC Ray S3,1,Aika,1,4,0,0,60,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3615a0,76,"Aika spins her boomerang
+flames to strike all enemies in a line.    SP 4"
+41,Lambda Burst,1,Red,212,0b0010,"",X,"",0,Damage,4,All ECs,1,Aika,1,8,0,0,100,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3615ec,52,"Aika causes the very ground around her to
+explode"
+42,Lunar Glyph,5,Silver,221,0b0010,"",X,"",8,Stone + Damage,3,Single EC,2,Fina,1,3,0,0,25,0,Physical,2,Stone,25,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361620,100,"Fina uses the power of the Silver Moon to damage
+and possibly Petrify a single enemy.       SP 3"
+43,Lunar Winds,5,Silver,223,0b0010,"",X,"",17,Rem Pos States + Damage,4,All ECs,2,Fina,1,6,0,0,75,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361684,96,"Cupil summons a storm to damage and remove any
+beneficial effects from all enemies.       SP 6"
+44,Tackle,6,Neutral,230,0b0010,"",X,"",0,Damage,3,Single EC,3,Drachma,1,10,0,0,30,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3616e4,100,"Drachma concentrates all of his energy into his
+metal arm and charges one enemy.           SP 10"
+45,Hand of Fate,6,Neutral,232,0b0010,"",X,"",6,Unconscious + Damage A,3,Single EC,3,Drachma,1,25,0,0,90,0,Physical,1,Unconscious,50,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361748,96,"Drachma crushes one enemy with his mighty arm
+causing instant death to most.             SP 25"
+46,Royal Blade,6,Neutral,240,0b0010,"",X,"",0,Damage,37,EC Ray S3,4,Enrique,1,8,0,0,40,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3617a8,96,"Enrique slashes at a single enemy in a flurry
+of precise sword attacks.                  SP 8"
+47,The Judgement,6,Neutral,242,0b0010,"",X,"",0,Damage,3,Single EC,4,Enrique,1,16,0,0,80,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361808,96,"Enrique summons one enemy to the Coloseum to
+be judged for its crimes.                  SP 16"
+48,Gunslinger,6,Neutral,250,0b0010,"",X,"",0,Damage,43,EC Triangle 60°,5,Gilder,1,9,0,0,30,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361868,96,"Gilder lets loose two handguns at the same time
+damaging all enemies in a straight line.   SP 9"
+49,The Claudia,6,Neutral,252,0b0010,"",X,"",0,Damage,4,All ECs,5,Gilder,1,18,0,0,25,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3618c8,96,"Gilders calls in the Claudia and fires all of
+her cannons. Attacks all enemies.          SP 18"
+50,Counterstrike,6,Neutral,301,0b0010,"",X,"",38,Counter% to 100% + Guard,5,Self,0,Vyse,2,1,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361928,80,"Vyse takes a defensive stance
+enemy attacks for a full turn.             SP 1"
+51,Skull Shield,6,Neutral,303,0b0010,"",X,"",46,Counter% to 100% + Block Attack,2,All PCs,0,Vyse,2,5,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361978,100,"Vyse summons the spirit of an ancient Air Pirate
+to defend and counter attack for his crew. SP 5"
+52,Delta Shield,6,Neutral,311,0b0010,"",X,"",39,Block Magic,2,All PCs,1,Aika,2,2,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x3619dc,96,"Creates an anti-magic shell around all allies
+for 1 turn. (Blocks allies' magic too.)    SP 2"
+53,Epsilon Mirror,6,Neutral,313,0b0010,"",X,"",77,Recover MP + Invulnerable,5,Self,1,Aika,2,10,0,0,10,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361a3c,96,"Creates a mirror-like aura that envelops Aika
+for 1 turn and restores 10 MP.             SP 10"
+54,Lunar Blessing,6,Neutral,320,0b0010,"",X,"",33,Regenerate,2,All PCs,2,Fina,2,12,0,0,200,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361a9c,100,"Fina calls upon the Silver Moon and blesses each
+party member with Regeneration.            SP 12"
+55,Lunar Cleansing,6,Neutral,322,0b0010,"",X,"",30,Rem Neg States B,2,All PCs,2,Fina,2,6,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361b00,92,"Silver Moonlight cleanses all allies of any
+adverse effects except Unconcious.         SP 6"
+56,Lunar Light,6,Neutral,324,0b0010,"",X,"",47,Recover HP & MP + Rem Neg States,2,All PCs,2,Fina,2,18,0,0,10000,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361b5c,60,"Revives
+completely restores all HP of all allies.  SP 18"
+57,Spirit Charge,6,Neutral,331,0b0010,"",X,"",41,Recover SP by 200% + Guard,5,Self,3,Drachma,2,0,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361b98,72,"Drachma focuses inward
+points and defending against attacks.      SP 0"
+58,Justice Shield,6,Neutral,341,0b0010,"",X,"",1,Guard,2,All PCs,4,Enrique,2,4,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361be0,96,"Creates a defensive barrier for one turn. All
+physical damage received is cut in half.   SP 4"
+59,Aura of Denial,6,Neutral,351,0b0010,"",X,"",42,Block Neg States,2,All PCs,5,Gilder,2,3,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361c40,96,"Creates a barrier for one turn that blocks all
+adverse (and only adverse) effects.        SP 3"
+60,Blue Rogues,6,Neutral,-1,0b0010,"",X,"",66,Crew Special B,6,All PCs & ECs,0,Vyse,-1,-1,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361ca0,96,"Summons all active members of the Delphinus
+crew. Attack varies depending on crew.    SP ALL"
+61,Prophecy,6,Neutral,-1,0b0010,"",X,"",65,Crew Special A,4,All ECs,0,Vyse,1,-1,0,0,0,0,Physical,0,Poison,0,0,0,0,0,Magic Cannon,0,0,Damage,0,0,0,0,0,0,0,0x361d00,96,"Combines the power of all 4 party members to
+call upon an ancient power.               SP ALL"

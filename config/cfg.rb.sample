@@ -1,6 +1,6 @@
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2024 Marcel Renner
+# Copyright (C) 2025 Marcel Renner
 # 
 # This file is part of ALX.
 # 
@@ -120,25 +120,11 @@ CFG.configure do |_c|
     'DC' => join(_c.root_dir, 'BATTLE/LEVELUP.DAT'),
     'GC' => join(_c.root_dir, 'battle/first.lmt'  ),
   }
-  # Path to German SOT file relative to +CFG.root_dir+ (PAL-E only).
-  _c.sot_file_de = {
-    'DC' => join(_c.root_dir, 'GERMAN.SOT'),
-    'GC' => join(_c.root_dir, 'german.sot'),
-  }
-  # Path to Spanish SOT file relative to +CFG.root_dir+ (PAL-E only).
-  _c.sot_file_es = {
-    'DC' => join(_c.root_dir, 'SPANISH.SOT'),
-    'GC' => join(_c.root_dir, 'spanish.sot'),
-  }
-  # Path to French SOT file relative to +CFG.root_dir+ (PAL-E only).
-  _c.sot_file_fr = {
-    'DC' => join(_c.root_dir, 'FRENCH.SOT'),
-    'GC' => join(_c.root_dir, 'french.sot'),
-  }
-  # Path to English SOT file relative to +CFG.root_dir+ (PAL-E only).
-  _c.sot_file_gb = {
-    'DC' => join(_c.root_dir, 'ENGLISH.SOT'),
-    'GC' => join(_c.root_dir, 'english.sot'),
+  # Path to string table files relative to +CFG.root_dir+. A single asterisk 
+  # must be used.
+  _c.sot_file = {
+    'DC' => glob(_c.root_dir, '*.SOT'),
+    'GC' => glob(_c.root_dir, '*.sot'),
   }
   # Path to boss data files relative to +CFG.root_dir+. A single asterisk 
   # must be used.
@@ -235,6 +221,8 @@ CFG.configure do |_c|
   _c.special_item_csv_file         = "#{_c.data_dir}/specialitem.csv"
   # Path to CSV file of spirit curves relative to +CFG.data_dir+.
   _c.spirit_curve_csv_file         = "#{_c.data_dir}/spiritcurve.csv"
+  # Path to CSV file of string table entries relative to +CFG.data_dir+.
+  _c.string_table_entry_csv_file   = "#{_c.data_dir}/stringtableentry.csv"
   # Path to CSV file of swashbuckler ratings relative to +CFG.data_dir+.
   _c.swashbuckler_csv_file         = "#{_c.data_dir}/swashbuckler.csv"
   # Path to CSV file of treasure chests relative to +CFG.data_dir+.
@@ -389,14 +377,6 @@ CFG.configure do |_c|
   _c.maker_names = {
     'DC' => /^SEGA ENTERPRISES$/,
     'GC' => /^(SEGA|セガ)$/      ,
-  }
-
-  # Language names
-  _c.language_names = {
-    'DE' => 'German' ,
-    'ES' => 'Spanish',
-    'FR' => 'French' ,
-    'GB' => 'English',
   }
 
 end # class CFG

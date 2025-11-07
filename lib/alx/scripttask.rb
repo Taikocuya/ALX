@@ -48,14 +48,6 @@ class ScriptTask < Entry
 
   public
 
-  # Constructs an ScriptTask.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
   # Returns the CSV header of the entry.
   # @return [Array] CSV header of entry
   def header
@@ -94,7 +86,7 @@ class ScriptTask < Entry
     _hash[:@predecessors] = @predecessors
     _hash
   end
-  
+
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -149,6 +141,8 @@ class ScriptTask < Entry
   
   # Initialize the entry properties.
   def init_props
+    super
+
     self[VOC.event_id  ] = IntProp.new(:u32, -1, ext: true)
     self[VOC.event_name] = StrProp.new( nil, '', ext: true)
     self[VOC.task_id   ] = DynProp.new(      -1           )
@@ -157,6 +151,8 @@ class ScriptTask < Entry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
     _proc = Proc.new do |_task_id|
       if _task_id.is_a?(Numeric)
         _key = VOC.script_tasks.keys.find do |_key|
@@ -236,13 +232,21 @@ class ScriptTask < Entry
 
   def str_prop(_value)
     _blocks = !event_name.empty? ? 0x4 : 0x1
-    _format = { :write_bin => [gs(' ', "\x7f")] }
+    _format = {
+      :write_bin => [
+        gs("\r\n", '\n'  ),
+        gs("\n"  , '\n'  ),
+        gs(' '   , "\x7f"),
+      ]
+    }
 
-    StrProp.new(nil, _value, blk: _blocks, enc: task_name, form: _format)
+    StrProp.new(
+      nil, _value, blk: _blocks, enc: task_name, form: _format, uesc: true
+    )
   end
   
-end	# class ScriptTask
+end # class ScriptTask
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

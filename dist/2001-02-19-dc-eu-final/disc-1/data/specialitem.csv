@@ -1,81 +1,161 @@
-Entry ID,EU Message ID,[Entry DE Name Pos],[Entry DE Name Size],Entry DE Name,[Entry ES Name Pos],[Entry ES Name Size],Entry ES Name,[Entry FR Name Pos],[Entry FR Name Size],Entry FR Name,[Entry GB Name Pos],[Entry GB Name Size],Entry GB Name,Sell%,EU Order 1,EU Order 2,Pad 1,Buy,Pad 2,Pad 3,[DE Descr Pos],[DE Descr Size],DE Descr Str,[ES Descr Pos],[ES Descr Size],ES Descr Str,[FR Descr Pos],[FR Descr Size],FR Descr Str,[GB Descr Pos],[GB Descr Size],GB Descr Str
-320,0x8c345718,0x1ac8f,14,Green Crystal,0x1abe8,14,Cristal Verde,0x1af13,13,Cristal Vert,0x1a741,14,Green Crystal,0,7,12,0,0,0,0,0x151e2,84,"Altertümliches Juwel, das die Kraft des Lebens\\nenthält. Kann Green Gigas aufrufen.",0x14fd2,93,Gema ancestral que contiene el poder de la vida.\\nTiene el poder de convocar al Gigas Verde.,0x1513a,90,Pierre ancienne qui détient le pouvoir de la\\nvie. A le pouvoir d'invoquer le Gigas Vert.,0x14d74,93,An ancient gem that contains the power of life.\\nIt has the power to summon the Green Gigas.
-321,0x8c345728,0x1ac9d,12,Red Crystal,0x1abf6,13,Cristal Rojo,0x1af20,14,Cristal Rouge,0x1a74f,12,Red Crystal,0,6,24,0,0,0,0,0x15236,82,"Altertümliches Juwel, das die Kraft des Feuers\\nenthält. Kann Red Gigas aufrufen.",0x1502f,91,Gema ancestral que contiene el poder del fuego.\\nTiene el poder de convocar al Gigas Rojo.,0x15194,93,Pierre ancienne qui détient le pouvoir du feu.\\nElle a le pouvoir d'invoquer le Gigas Rouge.,0x14dd1,91,An ancient gem that contains the power of fire.\\nIt has the power to summon the Red Gigas.
-322,0x8c345734,0x1aca9,15,Purple Crystal,0x1ac03,16,Cristal Púrpura,0x1af2e,14,Cristal Mauve,0x1a75b,15,Purple Crystal,0,9,21,0,0,0,0,0x15288,84,"Altertümliches Juwel, das die Kraft des Eises\\nenthält. Kann Purple Gigas aufrufen.",0x1508a,94,Gema ancestral que contiene el poder del hielo.\\nTiene el poder de convocar al Gigas Purpura.,0x151f1,90,Pierre ancienne qui détient le pouvoir de glace.\\nA le pouvoir d'invoquer le Gigas Mauve.,0x14e2c,93,An ancient gem that contains the power of ice.\\nIt has the power to summon the Purple Gigas.
-323,0x8c345744,0x1acb8,13,Blue Crystal,0x1ac13,13,Cristal Azul,0x1af3c,14,Cristal Bleue,0x1a76a,13,Blue Crystal,0,8,0,0,0,0,0,0x152dc,83,Altertümliches Juwel mit der Kraft von Wind und\\nWasser. Kann Blue Gigas aufrufen.,0x150e8,90,Gema ancestral que contiene el poder del viento\\ny el agua. Puede convocar al Gigas Azul.,0x1524b,90,Pierre ancienne au pouvoir de vent et d'eau.\\nElle a le pouvoir d'invoquer le Gigas Bleu.,0x14e89,93,An ancient gem with the power of wind and water.\\nIt has the power to summon the Blue Gigas.
-324,0x8c345754,0x1acc5,15,Yellow Crystal,0x1ac20,17,Cristal Amarillo,0x1af4a,14,Cristal Jaune,0x1a777,15,Yellow Crystal,0,10,33,0,0,0,0,0x1532f,77,Altertümliches Juwel mit der Kraft des Blitzes.\\nKann Yellow Gigas aufrufen.,0x15142,94,Gema ancestral que contiene el poder del rayo.\\nTiene el poder de convocar al Gigas Amarillo.,0x152a5,92,Pierre ancienne qui a le pouvoir de l'éclair.\\nElle a le pouvoir d'invoquer le Gigas Jaune.,0x14ee6,90,An ancient gem with the power of lightning.\\nIt has the power to summon the Yellow Gigas.
-325,0x8c345764,0x1acd4,10,GINGESSHO,0x1ac31,10,GINGESSHO,0x1af58,10,GINGESSHO,0x1a786,10,GINGESSHO,0,38,-1,0,0,0,0,0x1537c,8,CUT.\\n ,0x151a0,8,CUT.\\n ,0x15301,8,CUT.\\n ,0x14f40,13,CUT.\\n------
-326,0x8c34576c,0x1acde,17,Green Moon Stone,0x1ac3b,13,Piedra Verde,0x1af62,13,Pierre Verte,0x1a790,17,Green Moon Stone,0,0,13,0,0,0,0,0x15384,78,Ein Mondstein vom Green Moon. Er kann Waffen\\ndie Kräfte der Natur verleihen.,0x151a8,92,Piedra Lunar procedente de la Luna Verde.\\nOtorga a las armas los poderes de la naturaleza.,0x15309,95,Une Pierre de Lune de la Lune Verte. Elle peut\\ninsuffler les pouvoirs de la nature aux armes.,0x14f4d,84,A Moon Stone from the Green Moon. It can infuse\\nweapons with the powers of nature.
-327,0x8c345780,0x1acef,15,Red Moon Stone,0x1ac48,12,Piedra Roja,0x1af6f,13,Pierre Rouge,0x1a7a1,15,Red Moon Stone,0,1,25,0,0,0,0,0x153d2,76,Ein Mondstein vom Red Moon. Er kann Waffen\\ndie Kraft des Feuers verleihen.,0x15204,84,Piedra Lunar procedente de la Luna Roja.\\nOtorga a las armas los poderes del fuego.,0x15368,89,Une Pierre de Lune de la Lune Rouge. Elle peut\\ninsuffler les pouvoirs du feu aux armes.,0x14fa1,80,A Moon Stone from the Red Moon. It can infuse\\nweapons with the powers of fire.
-328,0x8c345790,0x1acfe,17,Purple MoonStone,0x1ac54,15,Piedra Púrpura,0x1af7c,13,Pierre Mauve,0x1a7b0,17,Purple MoonStone,0,2,22,0,0,0,0,0x1541e,78,Ein Mondstein vom Purple Moon. Er kann Waffen\\ndie Kraft des Eises verleihen.,0x15258,87,Piedra Lunar procedente de la Luna Púrpura.\\nOtorga a las armas los poderes del hielo.,0x153c1,94,Une Pierre de Lune de la Lune Mauve. Elle peut\\ninsuffler les pouvoirs de la glace aux armes.,0x14ff1,82,A Moon Stone from the Purple Moon. It can infuse\\nweapons with the powers of ice.
-329,0x8c3457a4,0x1ad0f,16,Blue Moon Stone,0x1ac63,12,Piedra Azul,0x1af89,13,Pierre Bleue,0x1a7c1,16,Blue Moon Stone,0,3,1,0,0,0,0,0x1546c,87,Ein Mondstein vom Blue Moon. Er kann Waffen die\\nKräfte von Wind und Wasser verleihen.,0x152af,96,Piedra Lunar procedente de la Luna Azul. Otorga\\na las armas los poderes del viento y del agua.,0x1541f,91,Une Pierre de Lune de la Lune Bleue. Peut donner\\nles pouvoirs de vent et d'eau aux armes.,0x15043,91,A Moon Stone from the Blue Moon. It can infuse\\nweapons with the powers of wind and water.
-330,0x8c3457b4,0x1ad1f,17,Yellow MoonStone,0x1ac6f,16,Piedra Amarilla,0x1af96,13,Pierre Jaune,0x1a7d1,17,Yellow MoonStone,0,4,34,0,0,0,0,0x154c3,80,Ein Mondstein vom Yellow Moon. Er kann Waffen\\ndie Kraft des Blitzes verleihen.,0x1530f,84,Piedra Lunar procedente de la Luna Amarilla.\\nOtorga a las armas el poder del rayo.,0x1547a,89,Une Pierre de Lune de la Lune Jaune. Peut\\ninsuffler les pouvoirs de l'éclair aux armes.,0x1509e,88,A Moon Stone from the Yellow Moon. It can infuse\\nweapons with the powers of lightning.
-331,0x8c3457c8,0x1ad30,17,Silver MoonStone,0x1ac7f,16,Piedra de Plata,0x1afa3,16,Pierre d'Argent,0x1a7e2,17,Silver MoonStone,0,5,27,0,0,0,0,0x15513,87,Ein Mondstein vom Silver Moon. Er kann Waffen\\ndie Kräfte von Leben und Tod verleihen.,0x15363,87,Piedra Lunar de la Luna de Plata. Otorga a las\\narmas el poder de la vida y la muerte.,0x154d3,93,Une Pierre de Lune de la Lune Argent. Peut\\ndonner les pouvoirs de vie et de mort aux armes.,0x150f6,93,A Moon Stone from the Silver Moon. It can infuse\\nweapons with the powers of life and death.
-332,0x8c3457dc,0x1ad41,17,Unterwasseranzug,0x1ac8f,15,Traje Acuático,0x1afb3,11,Scaphandre,0x1a7f3,16,Underwater Suit,0,26,28,0,0,0,0,0x1556a,93,Durch einen Blue Moon Stone kann der Träger\\ndieses wasserdichten Anzugs unter Wasser atmen.,0x153ba,88,"Este traje acuático, usando una Piedra Azul,\\npermite al usuario respirar bajo el agua.",0x15530,98,Cette combinaison imperméable permet de respirer\\nsous l'eau à l'aide d'une Pierre de Lune Bleue.,0x15153,89,"Using a Blue Moon Stone, this water-proof suit\\nallows the wearer to breathe underwater."
-333,0x8c3457ec,0x1ad52,13,Flaschenpost,0x1ac9e,5,Nota,0x1afbe,12,Message SOS,0x1a803,17,Note in a Bottle,0,12,19,0,0,0,0,0x155c7,95,"Eine Flaschenpost mit der Nachricht: “Quetya…\\nbitte sende Krieger, um uns kämpfen zu helfen.”",0x15412,85,Nota en una botella que dice: “Quetya…\\nEnvía guerreros para ayudarnos en la lucha.”,0x15592,85,Un mot trouvé dans une bouteille disant “Quetya…\\nEnvoyez des guerriers en renfort.”,0x151ac,86,"A note found in a bottle that says, “Quetya…\\nPlease send warriors to help us fight.”"
-334,0x8c345800,0x1ad5f,17,Kanonenschlüssel,0x1aca3,16,Llave del Cañón,0x1afca,16,Clé Pièce Canon,0x1a814,16,Cannon Room Key,0,24,3,0,0,0,0,0x15626,96,Ein großer Stahlschlüssel zum Kanonenraum der\\nGroßen Festung. Er hat einen Drachen eingeprägt.,0x15467,93,Llave de acero para abrir la Sala de Cañones\\nde la Gran Fortaleza. Lleva un dragón grabado.,0x155e7,99,Grande clé en acier ouvrant la Pièce du Canon de\\nla Grande Forteresse. Porte l'estampe du dragon.,0x15202,92,"A large, steel key to the Cannon Room of the\\nGrand Fortress. It is embossed with a dragon."
-335,0x8c345810,0x1ad70,12,Schiffsplan,0x1acb3,16,Planos de barco,0x1afda,17,Schéma du navire,0x1a824,16,Ship Schematics,0,28,26,0,0,0,0,0x15686,94,"Entwurf für ein Schiff, das in die Great Cloud\\nSea tauchen und in den Deep Sky abheben kann.",0x154c4,96,Proyecto de un barco que puede sumergirse bajo\\nel mar de Grandes Nubes e ir al Cielo Profundo.,0x1564a,97,Plans permettant au navire de s'immerger sous le\\nGrand Océan et de monter dans le Ciel Profond.,0x1525e,85,Design for a ship that can submerge under the\\nGreat Cloud Sea and go into Deep Sky.
-336,0x8c345820,0x1ad7c,15,Gonzales Karte,0x1acc3,17,Mapa de González,0x1afeb,15,Carte Gonzales,0x1a834,14,Gonzales' Map,0,21,9,0,0,0,0,0x156e4,99,"Karte, die auf den Überresten von Gonzales gefun\\n-den wurde. Sie wurde in zwei Hälften zerrissen.",0x15524,94,Mapa encontrado junto a los restos de González.\\nParece que el mapa fue rasgado por la mitad.,0x156ab,89,Carte trouvée sur les restes du corps de\\nGonzales. Elle semble avoir été déchirée en 2.,0x152b3,88,Map found on the remains of Gonzales. It appears\\nthat the map has been ripped in half.
-337,0x8c345830,0x1ad8b,13,Pedros Karte,0x1acd4,14,Mapa de Pedro,0x1affa,15,Carte de Pedro,0x1a842,12,Pedro's Map,0,22,20,0,0,0,0,0x15747,96,"Karte, die von Pedro kam, als er in Nasrad war.\\nSie scheint in zwei Hälften zerrissen zu sein.",0x15582,82,Mapa entregado por Pedro en Nasrad.\\nParece que el mapa fue rasgado por la mitad.,0x15704,90,Carte envoyée par Pedro quand il était à Nasrad.\\nElle semble avoir été déchirée en deux.,0x1530b,91,Map received from Pedro while in Nasrad. It\\nappears that the map has been ripped in half.
-338,0x8c34583c,0x1ad98,14,ALFONSO'S KEY,0x1ace2,14,ALFONSO'S KEY,0x1b009,14,ALFONSO'S KEY,0x1a84e,14,ALFONSO'S KEY,0,39,35,0,0,0,0,0x157a7,8,CUT.\\n ,0x155d4,8,CUT.\\n ,0x1575e,8,CUT.\\n ,0x15366,13,CUT.\\n------
-339,0x8c345850,0x1ada6,15,Golden Man Eye,0x1acf0,15,Ojo del Hombre,0x1b017,16,Oeil Homme Doré,0x1a85c,17,Golden Man's Eye,0,16,8,0,0,0,0,0x157af,95,"Ein herrliches orangefarbenes Juwel, das in das\\nAuge der Golden-Man-Statue eingelassen wurde.",0x155dc,93,Bella gema de color naranja que estaba engarzada\\nen el ojo de la estatua del Hombre Dorado.,0x15766,91,Belle pierre précieuse orange trouvée incrustée\\ndans l'oeil de la statue de l'Homme Doré.,0x15373,74,"A beautiful, orange gem found set into the eye\\nof the Golden Man statue."
-340,0x8c345864,0x1adb5,15,Great Bird Eye,0x1acff,15,Ojo del Pájaro,0x1b027,17,Oeil GrandOiseau,0x1a86d,17,Great Bird's Eye,0,17,11,0,0,0,0,0x1580e,80,"Ein herrliches blaues Juwel, das in das Auge\\ndes Great Bird eingelassen wurde.",0x15639,83,Preciosa gema de color azul que se encontró\\nincrustada en el ojo del Gran Pájaro.,0x157c1,77,Belle pierre précieuse bleue trouvée incrustée\\ndans l'oeil du Grand Oiseau.,0x153bd,66,"A beautiful, blue gem found set into the eyes\\nof the Great Bird."
-341,0x8c345878,0x1adc4,16,Roher Mondstein,0x1ad0e,11,Roca Lunar,0x1b038,17,Pierre Lune Brut,0x1a87e,15,Raw Moon Stone,0,11,23,0,0,0,0,0x1585e,89,"Ein Fels mit Mondsteinerz, der auf Shrine Island\\ngefunden wurde. Im Rohzustand nutzlos.",0x1568c,91,Roca con Piedra Lunar encontrada en la Isla de\\nShrine. Debe ser refinada antes de usarse.,0x1580e,93,Rocher contenant du minerai de Pierre de Lune\\ntrouvé sur l'île du Temple. Doit être traité.,0x153ff,83,A rock containing Moon Stone ore found on Shrine\\nIsland. Unusable unless refined.
-342,0x8c345888,0x1add4,14,Daccats Münze,0x1ad19,17,Moneda de Daccat,0x1b049,16,Pièce de Daccat,0x1a88d,14,Daccat's Coin,100,23,5,0,20000,0,0,0x158b7,98,"Goldmünze, die vom großen Luftpiraten Daccat ge-\\nprägt wurde, trägt sein Symbol auf einer Seite.",0x156e7,86,Moneda de oro acuñada por el gran Pirata Aéreo\\nDaccat. Lleva su símbolo en una cara.,0x1586b,91,"Pièce d'or monnayée par le grand pirate Daccat,\\nelle porte son symbole sur une des faces.",0x15452,85,"A gold coin minted by the great Air Pirate\\nDaccat, it bears his symbol on one side."
-343,0x8c345898,0x1ade2,10,SISIKABAB,0x1ad2a,10,SISIKABAB,0x1b059,10,SISIKABAB,0x1a89b,10,SISIKABAB,0,35,-1,0,0,0,0,0x15919,12,CONVERT.\\n ,0x1573d,12,CONVERT.\\n ,0x158c6,12,CONVERT.\\n ,0x154a7,17,CONVERT.\\n------
-344,0x8c3458a4,0x1adec,6,Kabal,0x1ad34,6,Kabal,0x1b063,6,Kabal,0x1a8a5,6,Kabal,0,32,15,0,0,0,0,0x15925,74,"Fleisch eines Wüsten-Lasttiers, allseits als\\nsehr schmackhaft angesehen.",0x15749,74,Carne de un animal de carga desértico.\\nMuchos la consideren sabrosísima.,0x158d2,89,"La viande d'une bête de somme du désert,\\ncertains trouvent qu'elle est très savoureuse.",0x154b8,82,"The meat of a desert beast of burden, it is\\nconsidered by many to be very tasty."
-345,0x8c3458ac,0x1adf2,7,Gentum,0x1ad3a,7,Gentum,0x1b069,7,Gentum,0x1a8ab,7,Gentum,0,33,7,0,500,0,0,0x1596f,98,Aromatische Frucht aus dem nördlichen Nasr. Ge-\\nheimzutat bei der Zubereitung von Kabal-Spießen.,0x15793,88,Fragante fruta del Norte de Nasrad. Es un\\ningrediente secreto de la brocheta de Kabal.,0x1592b,92,Un fruit parfumé du nord de Nasr. Ingrédient\\nsecret pour préparer les brochettes de Kabal.,0x1550a,86,A fragrant fruit from northern Nasr.\\nSecret ingredient used in making Kabal Skewers.
-346,0x8c3458b4,0x1adf9,6,Khale,0x1ad41,6,Khale,0x1b070,6,Khale,0x1a8b2,6,Khale,0,34,16,0,0,0,0,0x159d1,75,"Teures Gewürz, das im Osten angebaut wird.\\nGeheimzutat von Kabal-Spießen.",0x157eb,93,"Preciada especia, que crece en el Este y es\\nun ingrediente secreto de la brocheta de Kabal.",0x15987,94,Épice onéreuse cultivée dans l'Est. Ingrédient\\nsecret pour préparer les brochettes de Kabal.,0x15560,88,"An expensive spice, grown in the East.\\nSecret ingredient used in making Kabal Skewers."
-347,0x8c3458bc,0x1adff,14,CHO SISIKABAB,0x1ad47,14,CHO SISIKABAB,0x1b076,14,CHO SISIKABAB,0x1a8b8,14,CHO SISIKABAB,0,36,-1,0,0,0,0,0x15a1c,12,CONVERT.\\n ,0x15848,12,CONVERT.\\n ,0x159e5,12,CONVERT.\\n ,0x155b8,17,CONVERT.\\n------
-348,0x8c3458d0,0x1ae0d,11,Valua-Pass,0x1ad55,17,Pasaporte Valuan,0x1b084,17,Passeport Valuan,0x1a8c6,16,Valuan Passport,0,13,29,0,0,0,0,0x15a28,89,"Pass, der für den Zugang zum Valua-Reich not-\\nwendig ist. Geschenk eines Nasr-Händlers.",0x15854,86,Pasaporte necesario para entrar en el Imperio\\nValuan. Un regalo de un mercader Nasr.,0x159f1,88,Passeport nécéssaire pour entrer dans l'empire\\nValuan. Offert par un marchand Nasrean.,0x155c9,91,A passport necessary to enter the Valuan Empire.\\nReceived from a Nasr merchant as a gift.
-349,0x8c3458e0,0x1ae18,15,Mondsteinsprit,0x1ad66,15,Gasolina Lunar,0x1b095,17,Pierre Carburant,0x1a8d6,16,Moon Stone Fuel,0,15,18,0,0,0,0,0x15a81,82,Verfeinerter Mondstein zum Antrieb eines\\nSchiffes. Hans gab ihn Vyse in Horteka.,0x158aa,93,Piedra Lunar refinada para usarse como gasolina\\nde navío que Hans regaló a Vyse en Horteka.,0x15a49,98,Pierre de Lune raffinée pour servir de carburant\\naux navires. Hans l'a offerte à Vyse à Horteka.,0x15624,98,A Moon Stone refined for use as fuel for a ship.\\nGiven to Vyse by Hans when they met in Horteka.
-350,0x8c3458f0,0x1ae27,13,Claras Börse,0x1ad75,17,Cartera de Clara,0x1b0a6,16,Bourse de Clara,0x1a8e6,14,Clara's Purse,0,19,4,0,0,0,0,0x15ad3,69,"Hellrosa Börse mit Geld, das Aika und Fina von\\nClara gegeben wurde.",0x15907,78,Cartera rosa brillante que guarda el dinero\\nque Clara entrega a Aika y Fina.,0x15aab,87,Un porte-monnaie rose fuchsia contenant de\\nl'argent que Clara a donné à Aika et Fina.,0x15686,71,A bright pink purse containing money given to\\nAika and Fina by Clara.
-351,0x8c345900,0x1ae34,17,Book of Polarity,0x1ad86,15,Libro del Polo,0x1b0b6,16,Livre Polarités,0x1a8f4,17,Book of Polarity,0,27,2,0,0,0,0,0x15b18,98,"Alter Yafutoma-Text, der den Prozess beschreibt,\\ndurch den Schiffe hoch und tief fliegen können.",0x15955,98,Viejo texto Yafutoman que contiene instrucciones\\npara conducir navíos a altas y bajas latitudes.,0x15b02,93,Vieux texte Yafutoman décrivant les techniques\\nde vol à très haute et très basse altitudes.,0x156cd,98,An old Yafutoman text explaining the process of\\nenabling ships to fly to high and low altitudes.
-352,0x8c345914,0x1ae45,9,Velorium,0x1ad95,9,Velorium,0x1b0c6,9,Velorium,0x1a905,9,Velorium,0,29,30,0,0,0,0,0x15b7a,93,"Seltene Art von Metall, in Deep Sky anzutreffen.\\nEin Vielfaches stärker als normaler Stahl.",0x159b7,92,Extraño tipo de metal procedente del Cielo\\nProfundo. Es mucho más resistente que el acero.,0x15b5f,92,Type de métal rare trouvé dans le Ciel Profond.\\nBien plus solide que de l'acier ordinaire.,0x1572f,86,A rare type of metal found in Deep Sky.\\nIt is many times stronger than normal steel.
-353,0x8c345914,0x1ae4e,9,Velorium,0x1ad9e,9,Velorium,0x1b0cf,9,Velorium,0x1a90e,9,Velorium,0,30,31,0,0,0,0,0x15bd7,96,"Seltene Art von Metall, in Deep Sky anzutreffen.\\nUm ein Vielfaches stärker als normaler Stahl.",0x15a13,93,Extraño tipo de metal procedente del Cielo\\nProfundo. Es mucho más resistente que el acero..,0x15bbb,89,Type de métal rare trouvé dans le Ciel Profond.\\nBien plus solide que l'acier ordinaire.,0x15785,86,A rare type of metal found in Deep Sky.\\nIt is many times stronger than normal steel.
-354,0x8c345920,0x1ae57,13,SAISYUHEIKI3,0x1ada7,13,SAISYUHEIKI3,0x1b0d8,13,SAISYUHEIKI3,0x1a917,13,SAISYUHEIKI3,0,37,-1,0,0,0,0,0x15c37,8,CUT.\\n ,0x15a70,8,CUT.\\n ,0x15c14,8,CUT.\\n ,0x157db,13,CUT.\\n------
-355,0x8c34592c,0x1ae64,15,Hafenschlüssel,0x1adb4,13,Puerto Clave,0x1b0e5,12,Clé du Port,0x1a924,11,Harbor Key,0,25,14,0,0,0,0,0x15c3f,88,Kleiner Messingschlüssel zum Kaiserlichen Hafen\\nvon Valua. Er hat eine Drachenprägung.,0x15a78,93,Pequeña llave de bronce para acceder al puerto\\ndel Imperio Valuan. Tiene un dragón tallado.,0x15c1c,81,Petite clé en cuivre du port Impérial Valuan.\\nElle porte l'estampe d'un dragon.,0x157e8,83,"A small, brass key to the Valuan Imperial\\nharbor. It has a dragon embossed on it."
-356,0x8c345938,0x1ae73,16,Magische Kanone,0x1adc1,13,Cañón Mágico,0x1b0f1,14,Canon Magique,0x1a92f,13,Magic Cannon,0,14,17,0,0,0,0,0x15c97,78,"Ein Kanonenaufsatz, durch den man Schüsse mit\\nmagischer Kraft abfeuern kann.",0x15ad5,85,Artefacto que se añade a los cañones para\\nefectuar disparos fortalecidos con Magia.,0x15c6d,89,Dispositif attaché aux canons qui leur permet\\nde tirer des coups aux pouvoirs magiques.,0x1583b,83,A device attached to cannons that allows them\\nto fire shots empowered with magic.
-357,0x8c345948,0x1ae83,5,Lohn,0x1adce,9,Salarios,0x1b0ff,9,Salaires,0x1a93c,6,Wages,0,20,32,0,0,0,0,0x15ce5,90,"Enthält die 5000 Goldstücke, die Aika und Fina\\nin der Taverne von Nasrad verdient haben.",0x15b2a,94,Guarda las 5.000 unidades de oro que Fina y Aika\\nganaron trabajando en la taberna de Nasrad.,0x15cc6,93,Contient 5 000 pièces d'or qu'Aika et Fina ont\\ngagné en travaillant à la taverne de Nasrad.,0x1588e,90,"Contains the 5,000 gold that Aika and Fina\\nearned while working at the tavern in Nasrad."
-358,0x8c345950,0x1ae88,15,Grapor-Fleisch,0x1add7,16,Carne de Grapor,0x1b108,16,Chair de Grapor,0x1a942,12,Grapor Meat,0,18,10,0,0,0,0,0x15d3f,98,"Fleisch eines seltenen Fisches, des Grapor. Man\\nfindet ihn nur in den Wäldern der Crescent Isle.",0x15b88,89,"Carne de un extrano pez, el Grapor, que vive\\nsolo en los bosques de la Isla de la Luna.",0x15d23,92,"Chair du Grapor, un poisson rare. Ce poisson\\nse trouve dans les forêts de l'île Croissant.",0x158e8,95,"Meat from the rare fish, the Grapor. This fish\\nis only found in the forests of Crescent Isle."
-359,0x8c34595c,0x1ae97,17,Domingos Papiere,0x1ade7,12,Certificado,0x1b118,17,Titre de Domingo,0x1a94e,16,Domingo's Title,0,31,6,0,0,0,0,0x15da1,88,"Ein  Zertifikat von Domingo, in dem er Vyse als\\n“Hervorragenden Schatzjäger” ausweist.",0x15be1,90,Un certificado de Domingo reconociendo a Vyse\\ncomo “Extraordinario buscador de tesoros”.,0x15d7f,93,Certificat de Domingo proclamant Vyse comme\\nétant un “Extraordinaire Chercheur de Trésors.”,0x15947,87,A certificate from Domingo proclaiming Vyse to\\nbe a “Treasure Hunter Extraordinaire.”
-360,0x8c34596c,0x1aea8,11,DUMMYCLEAR,0x1adf3,11,DUMMYCLEAR,0x1b129,11,DUMMYCLEAR,0x1a95e,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15df9,9,DUMMY\\n ,0x15c3b,9,DUMMY\\n ,0x15ddc,9,DUMMY\\n ,0x1599e,14,DUMMY\\n------
-361,0x8c34596c,0x1aeb3,11,DUMMYCLEAR,0x1adfe,11,DUMMYCLEAR,0x1b134,11,DUMMYCLEAR,0x1a969,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e02,9,DUMMY\\n ,0x15c44,9,DUMMY\\n ,0x15de5,9,DUMMY\\n ,0x159ac,14,DUMMY\\n------
-362,0x8c34596c,0x1aebe,11,DUMMYCLEAR,0x1ae09,11,DUMMYCLEAR,0x1b13f,11,DUMMYCLEAR,0x1a974,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e0b,9,DUMMY\\n ,0x15c4d,9,DUMMY\\n ,0x15dee,9,DUMMY\\n ,0x159ba,14,DUMMY\\n------
-363,0x8c34596c,0x1aec9,11,DUMMYCLEAR,0x1ae14,11,DUMMYCLEAR,0x1b14a,11,DUMMYCLEAR,0x1a97f,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e14,9,DUMMY\\n ,0x15c56,9,DUMMY\\n ,0x15df7,9,DUMMY\\n ,0x159c8,14,DUMMY\\n------
-364,0x8c34596c,0x1aed4,11,DUMMYCLEAR,0x1ae1f,11,DUMMYCLEAR,0x1b155,11,DUMMYCLEAR,0x1a98a,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e1d,9,DUMMY\\n ,0x15c5f,9,DUMMY\\n ,0x15e00,9,DUMMY\\n ,0x159d6,14,DUMMY\\n------
-365,0x8c34596c,0x1aedf,11,DUMMYCLEAR,0x1ae2a,11,DUMMYCLEAR,0x1b160,11,DUMMYCLEAR,0x1a995,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e26,9,DUMMY\\n ,0x15c68,9,DUMMY\\n ,0x15e09,9,DUMMY\\n ,0x159e4,14,DUMMY\\n------
-366,0x8c34596c,0x1aeea,11,DUMMYCLEAR,0x1ae35,11,DUMMYCLEAR,0x1b16b,11,DUMMYCLEAR,0x1a9a0,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e2f,9,DUMMY\\n ,0x15c71,9,DUMMY\\n ,0x15e12,9,DUMMY\\n ,0x159f2,14,DUMMY\\n------
-367,0x8c34596c,0x1aef5,11,DUMMYCLEAR,0x1ae40,11,DUMMYCLEAR,0x1b176,11,DUMMYCLEAR,0x1a9ab,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e38,9,DUMMY\\n ,0x15c7a,9,DUMMY\\n ,0x15e1b,9,DUMMY\\n ,0x15a00,14,DUMMY\\n------
-368,0x8c34596c,0x1af00,11,DUMMYCLEAR,0x1ae4b,11,DUMMYCLEAR,0x1b181,11,DUMMYCLEAR,0x1a9b6,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e41,9,DUMMY\\n ,0x15c83,9,DUMMY\\n ,0x15e24,9,DUMMY\\n ,0x15a0e,14,DUMMY\\n------
-369,0x8c34596c,0x1af0b,11,DUMMYCLEAR,0x1ae56,11,DUMMYCLEAR,0x1b18c,11,DUMMYCLEAR,0x1a9c1,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e4a,9,DUMMY\\n ,0x15c8c,9,DUMMY\\n ,0x15e2d,9,DUMMY\\n ,0x15a1c,14,DUMMY\\n------
-370,0x8c34596c,0x1af16,11,DUMMYCLEAR,0x1ae61,11,DUMMYCLEAR,0x1b197,11,DUMMYCLEAR,0x1a9cc,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e53,9,DUMMY\\n ,0x15c95,9,DUMMY\\n ,0x15e36,9,DUMMY\\n ,0x15a2a,14,DUMMY\\n------
-371,0x8c34596c,0x1af21,11,DUMMYCLEAR,0x1ae6c,11,DUMMYCLEAR,0x1b1a2,11,DUMMYCLEAR,0x1a9d7,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e5c,9,DUMMY\\n ,0x15c9e,9,DUMMY\\n ,0x15e3f,9,DUMMY\\n ,0x15a38,14,DUMMY\\n------
-372,0x8c34596c,0x1af2c,11,DUMMYCLEAR,0x1ae77,11,DUMMYCLEAR,0x1b1ad,11,DUMMYCLEAR,0x1a9e2,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e65,9,DUMMY\\n ,0x15ca7,9,DUMMY\\n ,0x15e48,9,DUMMY\\n ,0x15a46,14,DUMMY\\n------
-373,0x8c34596c,0x1af37,11,DUMMYCLEAR,0x1ae82,11,DUMMYCLEAR,0x1b1b8,11,DUMMYCLEAR,0x1a9ed,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e6e,9,DUMMY\\n ,0x15cb0,9,DUMMY\\n ,0x15e51,9,DUMMY\\n ,0x15a54,14,DUMMY\\n------
-374,0x8c34596c,0x1af42,11,DUMMYCLEAR,0x1ae8d,11,DUMMYCLEAR,0x1b1c3,11,DUMMYCLEAR,0x1a9f8,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e77,9,DUMMY\\n ,0x15cb9,9,DUMMY\\n ,0x15e5a,9,DUMMY\\n ,0x15a62,14,DUMMY\\n------
-375,0x8c34596c,0x1af4d,11,DUMMYCLEAR,0x1ae98,11,DUMMYCLEAR,0x1b1ce,11,DUMMYCLEAR,0x1aa03,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e80,9,DUMMY\\n ,0x15cc2,9,DUMMY\\n ,0x15e63,9,DUMMY\\n ,0x15a70,14,DUMMY\\n------
-376,0x8c34596c,0x1af58,11,DUMMYCLEAR,0x1aea3,11,DUMMYCLEAR,0x1b1d9,11,DUMMYCLEAR,0x1aa0e,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e89,9,DUMMY\\n ,0x15ccb,9,DUMMY\\n ,0x15e6c,9,DUMMY\\n ,0x15a7e,14,DUMMY\\n------
-377,0x8c34596c,0x1af63,11,DUMMYCLEAR,0x1aeae,11,DUMMYCLEAR,0x1b1e4,11,DUMMYCLEAR,0x1aa19,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e92,9,DUMMY\\n ,0x15cd4,9,DUMMY\\n ,0x15e75,9,DUMMY\\n ,0x15a8c,14,DUMMY\\n------
-378,0x8c34596c,0x1af6e,11,DUMMYCLEAR,0x1aeb9,11,DUMMYCLEAR,0x1b1ef,11,DUMMYCLEAR,0x1aa24,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15e9b,9,DUMMY\\n ,0x15cdd,9,DUMMY\\n ,0x15e7e,9,DUMMY\\n ,0x15a9a,14,DUMMY\\n------
-379,0x8c34596c,0x1af79,11,DUMMYCLEAR,0x1aec4,11,DUMMYCLEAR,0x1b1fa,11,DUMMYCLEAR,0x1aa2f,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15ea4,9,DUMMY\\n ,0x15ce6,9,DUMMY\\n ,0x15e87,9,DUMMY\\n ,0x15aa8,14,DUMMY\\n------
-380,0x8c34596c,0x1af84,11,DUMMYCLEAR,0x1aecf,11,DUMMYCLEAR,0x1b205,11,DUMMYCLEAR,0x1aa3a,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15ead,9,DUMMY\\n ,0x15cef,9,DUMMY\\n ,0x15e90,9,DUMMY\\n ,0x15ab6,14,DUMMY\\n------
-381,0x8c34596c,0x1af8f,11,DUMMYCLEAR,0x1aeda,11,DUMMYCLEAR,0x1b210,11,DUMMYCLEAR,0x1aa45,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15eb6,9,DUMMY\\n ,0x15cf8,9,DUMMY\\n ,0x15e99,9,DUMMY\\n ,0x15ac4,14,DUMMY\\n------
-382,0x8c34596c,0x1af9a,11,DUMMYCLEAR,0x1aee5,11,DUMMYCLEAR,0x1b21b,11,DUMMYCLEAR,0x1aa50,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15ebf,9,DUMMY\\n ,0x15d01,9,DUMMY\\n ,0x15ea2,9,DUMMY\\n ,0x15ad2,14,DUMMY\\n------
-383,0x8c34596c,0x1afa5,11,DUMMYCLEAR,0x1aef0,11,DUMMYCLEAR,0x1b226,11,DUMMYCLEAR,0x1aa5b,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15ec8,9,DUMMY\\n ,0x15d0a,9,DUMMY\\n ,0x15eab,9,DUMMY\\n ,0x15ae0,14,DUMMY\\n------
-384,0x8c34596c,0x1afb0,11,DUMMYCLEAR,0x1aefb,11,DUMMYCLEAR,0x1b231,11,DUMMYCLEAR,0x1aa66,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15ed1,9,DUMMY\\n ,0x15d13,9,DUMMY\\n ,0x15eb4,9,DUMMY\\n ,0x15aee,14,DUMMY\\n------
-385,0x8c34596c,0x1afbb,11,DUMMYCLEAR,0x1af06,11,DUMMYCLEAR,0x1b23c,11,DUMMYCLEAR,0x1aa71,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15eda,9,DUMMY\\n ,0x15d1c,9,DUMMY\\n ,0x15ebd,9,DUMMY\\n ,0x15afc,14,DUMMY\\n------
-386,0x8c34596c,0x1afc6,11,DUMMYCLEAR,0x1af11,11,DUMMYCLEAR,0x1b247,11,DUMMYCLEAR,0x1aa7c,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15ee3,9,DUMMY\\n ,0x15d25,9,DUMMY\\n ,0x15ec6,9,DUMMY\\n ,0x15b0a,14,DUMMY\\n------
-387,0x8c34596c,0x1afd1,11,DUMMYCLEAR,0x1af1c,11,DUMMYCLEAR,0x1b252,11,DUMMYCLEAR,0x1aa87,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15eec,9,DUMMY\\n ,0x15d2e,9,DUMMY\\n ,0x15ecf,9,DUMMY\\n ,0x15b18,14,DUMMY\\n------
-388,0x8c34596c,0x1afdc,11,DUMMYCLEAR,0x1af27,11,DUMMYCLEAR,0x1b25d,11,DUMMYCLEAR,0x1aa92,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15ef5,9,DUMMY\\n ,0x15d37,9,DUMMY\\n ,0x15ed8,9,DUMMY\\n ,0x15b26,14,DUMMY\\n------
-389,0x8c34596c,0x1afe7,11,DUMMYCLEAR,0x1af32,11,DUMMYCLEAR,0x1b268,11,DUMMYCLEAR,0x1aa9d,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15efe,9,DUMMY\\n ,0x15d40,9,DUMMY\\n ,0x15ee1,9,DUMMY\\n ,0x15b34,14,DUMMY\\n------
-390,0x8c34596c,0x1aff2,11,DUMMYCLEAR,0x1af3d,11,DUMMYCLEAR,0x1b273,11,DUMMYCLEAR,0x1aaa8,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15f07,9,DUMMY\\n ,0x15d49,9,DUMMY\\n ,0x15eea,9,DUMMY\\n ,0x15b42,14,DUMMY\\n------
-391,0x8c34596c,0x1affd,11,DUMMYCLEAR,0x1af48,11,DUMMYCLEAR,0x1b27e,11,DUMMYCLEAR,0x1aab3,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15f10,9,DUMMY\\n ,0x15d52,9,DUMMY\\n ,0x15ef3,9,DUMMY\\n ,0x15b50,14,DUMMY\\n------
-392,0x8c34596c,0x1b008,11,DUMMYCLEAR,0x1af53,11,DUMMYCLEAR,0x1b289,11,DUMMYCLEAR,0x1aabe,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15f19,9,DUMMY\\n ,0x15d5b,9,DUMMY\\n ,0x15efc,9,DUMMY\\n ,0x15b5e,14,DUMMY\\n------
-393,0x8c34596c,0x1b013,11,DUMMYCLEAR,0x1af5e,11,DUMMYCLEAR,0x1b294,11,DUMMYCLEAR,0x1aac9,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15f22,9,DUMMY\\n ,0x15d64,9,DUMMY\\n ,0x15f05,9,DUMMY\\n ,0x15b6c,14,DUMMY\\n------
-394,0x8c34596c,0x1b01e,11,DUMMYCLEAR,0x1af69,11,DUMMYCLEAR,0x1b29f,11,DUMMYCLEAR,0x1aad4,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15f2b,9,DUMMY\\n ,0x15d6d,9,DUMMY\\n ,0x15f0e,9,DUMMY\\n ,0x15b7a,14,DUMMY\\n------
-395,0x8c34596c,0x1b029,11,DUMMYCLEAR,0x1af74,11,DUMMYCLEAR,0x1b2aa,11,DUMMYCLEAR,0x1aadf,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15f34,9,DUMMY\\n ,0x15d76,9,DUMMY\\n ,0x15f17,9,DUMMY\\n ,0x15b88,14,DUMMY\\n------
-396,0x8c34596c,0x1b034,11,DUMMYCLEAR,0x1af7f,11,DUMMYCLEAR,0x1b2b5,11,DUMMYCLEAR,0x1aaea,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15f3d,9,DUMMY\\n ,0x15d7f,9,DUMMY\\n ,0x15f20,9,DUMMY\\n ,0x15b96,14,DUMMY\\n------
-397,0x8c34596c,0x1b03f,11,DUMMYCLEAR,0x1af8a,11,DUMMYCLEAR,0x1b2c0,11,DUMMYCLEAR,0x1aaf5,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15f46,9,DUMMY\\n ,0x15d88,9,DUMMY\\n ,0x15f29,9,DUMMY\\n ,0x15ba4,14,DUMMY\\n------
-398,0x8c34596c,0x1b04a,11,DUMMYCLEAR,0x1af95,11,DUMMYCLEAR,0x1b2cb,11,DUMMYCLEAR,0x1ab00,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15f4f,9,DUMMY\\n ,0x15d91,9,DUMMY\\n ,0x15f32,9,DUMMY\\n ,0x15bb2,14,DUMMY\\n------
-399,0x8c34596c,0x1b055,11,DUMMYCLEAR,0x1afa0,11,DUMMYCLEAR,0x1b2d6,11,DUMMYCLEAR,0x1ab0b,11,DUMMYCLEAR,0,-1,-1,0,0,0,0,0x15f58,9,DUMMY\\n ,0x15d9a,9,DUMMY\\n ,0x15f3b,9,DUMMY\\n ,0x15bc0,14,DUMMY\\n------
+Entry ID,EU SOT Pos,[Entry GB Name],Sell%,EU Order 1,EU Order 2,Pad 1,Buy,Pad 2,Pad 3,[GB Descr Str]
+320,0x8c345718,Green Crystal,0,7,12,0,0,0,0,"An ancient gem that contains the power of life.
+It has the power to summon the Green Gigas."
+321,0x8c345728,Red Crystal,0,6,24,0,0,0,0,"An ancient gem that contains the power of fire.
+It has the power to summon the Red Gigas."
+322,0x8c345734,Purple Crystal,0,9,21,0,0,0,0,"An ancient gem that contains the power of ice.
+It has the power to summon the Purple Gigas."
+323,0x8c345744,Blue Crystal,0,8,0,0,0,0,0,"An ancient gem with the power of wind and water.
+It has the power to summon the Blue Gigas."
+324,0x8c345754,Yellow Crystal,0,10,33,0,0,0,0,"An ancient gem with the power of lightning.
+It has the power to summon the Yellow Gigas."
+325,0x8c345764,GINGESSHO,0,38,-1,0,0,0,0,"CUT.
+------"
+326,0x8c34576c,Green Moon Stone,0,0,13,0,0,0,0,"A Moon Stone from the Green Moon. It can infuse
+weapons with the powers of nature."
+327,0x8c345780,Red Moon Stone,0,1,25,0,0,0,0,"A Moon Stone from the Red Moon. It can infuse
+weapons with the powers of fire."
+328,0x8c345790,Purple MoonStone,0,2,22,0,0,0,0,"A Moon Stone from the Purple Moon. It can infuse
+weapons with the powers of ice."
+329,0x8c3457a4,Blue Moon Stone,0,3,1,0,0,0,0,"A Moon Stone from the Blue Moon. It can infuse
+weapons with the powers of wind and water."
+330,0x8c3457b4,Yellow MoonStone,0,4,34,0,0,0,0,"A Moon Stone from the Yellow Moon. It can infuse
+weapons with the powers of lightning."
+331,0x8c3457c8,Silver MoonStone,0,5,27,0,0,0,0,"A Moon Stone from the Silver Moon. It can infuse
+weapons with the powers of life and death."
+332,0x8c3457dc,Underwater Suit,0,26,28,0,0,0,0,"Using a Blue Moon Stone, this water-proof suit
+allows the wearer to breathe underwater."
+333,0x8c3457ec,Note in a Bottle,0,12,19,0,0,0,0,"A note found in a bottle that says, “Quetya…
+Please send warriors to help us fight.”"
+334,0x8c345800,Cannon Room Key,0,24,3,0,0,0,0,"A large, steel key to the Cannon Room of the
+Grand Fortress. It is embossed with a dragon."
+335,0x8c345810,Ship Schematics,0,28,26,0,0,0,0,"Design for a ship that can submerge under the
+Great Cloud Sea and go into Deep Sky."
+336,0x8c345820,Gonzales' Map,0,21,9,0,0,0,0,"Map found on the remains of Gonzales. It appears
+that the map has been ripped in half."
+337,0x8c345830,Pedro's Map,0,22,20,0,0,0,0,"Map received from Pedro while in Nasrad. It
+appears that the map has been ripped in half."
+338,0x8c34583c,ALFONSO'S KEY,0,39,35,0,0,0,0,"CUT.
+------"
+339,0x8c345850,Golden Man's Eye,0,16,8,0,0,0,0,"A beautiful, orange gem found set into the eye
+of the Golden Man statue."
+340,0x8c345864,Great Bird's Eye,0,17,11,0,0,0,0,"A beautiful, blue gem found set into the eyes
+of the Great Bird."
+341,0x8c345878,Raw Moon Stone,0,11,23,0,0,0,0,"A rock containing Moon Stone ore found on Shrine
+Island. Unusable unless refined."
+342,0x8c345888,Daccat's Coin,100,23,5,0,20000,0,0,"A gold coin minted by the great Air Pirate
+Daccat, it bears his symbol on one side."
+343,0x8c345898,SISIKABAB,0,35,-1,0,0,0,0,"CONVERT.
+------"
+344,0x8c3458a4,Kabal,0,32,15,0,0,0,0,"The meat of a desert beast of burden, it is
+considered by many to be very tasty."
+345,0x8c3458ac,Gentum,0,33,7,0,500,0,0,"A fragrant fruit from northern Nasr.
+Secret ingredient used in making Kabal Skewers."
+346,0x8c3458b4,Khale,0,34,16,0,0,0,0,"An expensive spice, grown in the East.
+Secret ingredient used in making Kabal Skewers."
+347,0x8c3458bc,CHO SISIKABAB,0,36,-1,0,0,0,0,"CONVERT.
+------"
+348,0x8c3458d0,Valuan Passport,0,13,29,0,0,0,0,"A passport necessary to enter the Valuan Empire.
+Received from a Nasr merchant as a gift."
+349,0x8c3458e0,Moon Stone Fuel,0,15,18,0,0,0,0,"A Moon Stone refined for use as fuel for a ship.
+Given to Vyse by Hans when they met in Horteka."
+350,0x8c3458f0,Clara's Purse,0,19,4,0,0,0,0,"A bright pink purse containing money given to
+Aika and Fina by Clara."
+351,0x8c345900,Book of Polarity,0,27,2,0,0,0,0,"An old Yafutoman text explaining the process of
+enabling ships to fly to high and low altitudes."
+352,0x8c345914,Velorium,0,29,30,0,0,0,0,"A rare type of metal found in Deep Sky.
+It is many times stronger than normal steel."
+353,0x8c345914,Velorium,0,30,31,0,0,0,0,"A rare type of metal found in Deep Sky.
+It is many times stronger than normal steel."
+354,0x8c345920,SAISYUHEIKI3,0,37,-1,0,0,0,0,"CUT.
+------"
+355,0x8c34592c,Harbor Key,0,25,14,0,0,0,0,"A small, brass key to the Valuan Imperial
+harbor. It has a dragon embossed on it."
+356,0x8c345938,Magic Cannon,0,14,17,0,0,0,0,"A device attached to cannons that allows them
+to fire shots empowered with magic."
+357,0x8c345948,Wages,0,20,32,0,0,0,0,"Contains the 5,000 gold that Aika and Fina
+earned while working at the tavern in Nasrad."
+358,0x8c345950,Grapor Meat,0,18,10,0,0,0,0,"Meat from the rare fish, the Grapor. This fish
+is only found in the forests of Crescent Isle."
+359,0x8c34595c,Domingo's Title,0,31,6,0,0,0,0,"A certificate from Domingo proclaiming Vyse to
+be a “Treasure Hunter Extraordinaire.”"
+360,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+361,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+362,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+363,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+364,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+365,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+366,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+367,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+368,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+369,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+370,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+371,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+372,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+373,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+374,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+375,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+376,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+377,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+378,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+379,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+380,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+381,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+382,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+383,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+384,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+385,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+386,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+387,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+388,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+389,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+390,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+391,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+392,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+393,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+394,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+395,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+396,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+397,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+398,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"
+399,0x8c34596c,DUMMYCLEAR,0,-1,-1,0,0,0,0,"DUMMY
+------"

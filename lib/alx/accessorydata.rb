@@ -48,7 +48,6 @@ class AccessoryData < StdEntryData
     super(Accessory, _depend)
     self.id_range  = dscrptr(:accessory_id_range)
     self.data_file = dscrptr(:accessory_data_files)
-    self.name_file = dscrptr(:accessory_name_files)
     self.dscr_file = dscrptr(:accessory_dscr_files)
     self.csv_file  = join(CFG.accessory_csv_file)
     self.tpl_file  = File.join(CFG.build_dir, CFG.accessory_tpl_file)

@@ -67,6 +67,7 @@ class Exporter < EntryTransform
     @files << OpenStruct.new(prio: 30, file: 'exportshop.rb')
     @files << OpenStruct.new(prio: 20, file: 'exportspecialitem.rb')
     @files << OpenStruct.new(prio: 40, file: 'exportspiritcurve.rb')
+    @files << OpenStruct.new(prio:  5, file: 'exportstringtableentry.rb')
     @files << OpenStruct.new(prio: 20, file: 'exportswashbuckler.rb')
     @files << OpenStruct.new(prio: 30, file: 'exporttreasurechest.rb')
     @files << OpenStruct.new(prio: 20, file: 'exportusableitem.rb')

@@ -98,6 +98,7 @@ class Root
     @maker_id        = ''
     @maker_name      = ''
     @description     = ''
+    @sot_files       = []
     @valid           = false
     @etc_resolver    = []
     @etc_cache       = {}
@@ -121,6 +122,9 @@ class Root
     when 'GC'
       _result &&= init_bnr
       _result &&= init_hdr
+    end
+    if eu?
+      _result &&= init_sot
     end
 
     @valid = _result
@@ -377,6 +381,7 @@ class Root
   attr_reader :maker_id
   attr_reader :maker_name
   attr_reader :description
+  attr_reader :sot_files
 
 #==============================================================================
 #                                   PRIVATE
@@ -725,6 +730,19 @@ class Root
     end
     
     _result
+  end
+
+  # Initializes the SOT files. Returns +true+ if SOT files are valid, 
+  # otherwise +false+.
+  # @return [Boolean] +true+ if SOT files are valid, otherwise +false+.
+  def init_sot
+    @sot_files.clear
+    glob(:sot_file) do |_p|
+      if has_file?(_p)
+        @sot_files << _p
+      end
+    end
+    return @sot_files.size > 0
   end
 
   # Refreshes the ETC attribute resolver.

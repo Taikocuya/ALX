@@ -41,14 +41,6 @@ class ExpBoost < StdEntry
 
   public
 
-  # Constructs an ExpBoost.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -74,6 +66,8 @@ class ExpBoost < StdEntry
   
   # Initialize the entry properties.
   def init_props
+    super
+
     self[VOC.character_name(nil)] = StrProp.new(nil, '', dmy: true)
     self[VOC.exp(nil)           ] = IntProp.new(:u32, 0           )
     self[VOC.green_exp(nil)     ] = IntProp.new(:u32, 0           )
@@ -86,6 +80,8 @@ class ExpBoost < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
     fetch(VOC.id).proc = Proc.new do |_id|
       _chara = @characters[id]
       _name  = '???'
@@ -96,8 +92,8 @@ class ExpBoost < StdEntry
     end
   end
 
-end	# class ExpBoost
+end # class ExpBoost
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

@@ -34,8 +34,25 @@ module ALX
 
 # Class to handle a enemy magic.
 class EnemyMagic < EnemySuperMove
-end	# class EnemyMagic
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry procs.
+  def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:enemy_magic_id_range).begin,
+      name_table: 'EnspatkDataTable'
+    )
+  end
+
+end # class EnemyMagic
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

@@ -71,8 +71,8 @@ class HdrFile
   attr_reader :region_id
   attr_reader :maker_id
 
-end	# class HdrFile
+end # class HdrFile
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

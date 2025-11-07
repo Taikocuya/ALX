@@ -52,6 +52,8 @@ class Entry
   # Constructs an Entry.
   def initialize
     init_attrs
+    init_props
+    init_procs
   end
 
   # Returns the file size of the entry.
@@ -252,7 +254,11 @@ class Entry
     Root.country_id
   end
   alias cid country_id
-  
+
+  def sot_files
+    Root.sot_files
+  end
+
   # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
   # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.
   def dc?
@@ -314,7 +320,15 @@ class Entry
     @unknown_id ||= 0
     @modified   ||= false
   end
+
+  # Initialize the entry properties.
+  def init_props
+  end
   
+  # Initialize the entry procs.
+  def init_procs
+  end
+
   # Returns a CSV header with "Padding" as description and an unique 
   # identifier.
   # @return [String] CSV header
@@ -344,11 +358,7 @@ class Entry
   def us
     'US'
   end
-  
-  def languages
-    CFG.language_names.keys
-  end
-  
+
   def de
     'DE'
   end
@@ -365,8 +375,8 @@ class Entry
     'GB'
   end
   
-end	# class Entry
+end # class Entry
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

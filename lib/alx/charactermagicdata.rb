@@ -48,7 +48,6 @@ class CharacterMagicData < StdEntryData
     super(CharacterMagic, _depend)
     self.id_range   = dscrptr(:character_magic_id_range)
     self.data_file  = dscrptr(:character_magic_data_files)
-    self.name_file  = dscrptr(:character_magic_name_files)
     self.dscr_file  = dscrptr(:character_magic_dscr_files)
     self.csv_file   = join(CFG.character_magic_csv_file)
     self.tpl_file   = File.join(CFG.build_dir, CFG.character_magic_tpl_file)
@@ -121,16 +120,10 @@ class CharacterMagicData < StdEntryData
           end
 
           _entry = @data[_id]
-          _msgid = _entry.msg_id
-
-          if jp? || us?
-            _lang = country_id
-          elsif eu?
-            _lang = find_lang(_filename)
-          end
-          _pos  = _entry.fetch(VOC.ship_dscr_pos(_lang))
-          _size = _entry.fetch(VOC.ship_dscr_size(_lang))
-          _dscr = _entry.fetch(VOC.ship_dscr_str(_lang))
+          _msgid = _entry.sot_pos
+          _pos   = _entry.fetch(VOC.ship_dscr_pos(cid))
+          _size  = _entry.fetch(VOC.ship_dscr_size(cid))
+          _dscr  = _entry.fetch(VOC.ship_dscr_str(cid))
 
           if _msgt
             _msg = @msg_table[_msgid]
@@ -179,20 +172,10 @@ class CharacterMagicData < StdEntryData
           next
         end
 
-        if jp? || us?
-          _lang = country_id
-        else
-          _lang = find_lang(_filename)
-        end
-        if _lang
-          _pos  = _entry[VOC.ship_dscr_pos(_lang)]
-          _size = _entry[VOC.ship_dscr_size(_lang)]
-          _dscr = _entry[VOC.ship_dscr_str(_lang)]
-        else
-          _pos  = -1
-          _size = 0
-        end
-        
+        _pos  = _entry[VOC.ship_dscr_pos(cid)]
+        _size = _entry[VOC.ship_dscr_size(cid)]
+        _dscr = _entry[VOC.ship_dscr_str(cid)]
+
         _f.pos = _pos
         if !_descriptor.include?(_f.pos, _size)
           next

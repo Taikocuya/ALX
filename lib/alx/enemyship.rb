@@ -41,14 +41,6 @@ class EnemyShip < StdEntry
 
   public
 
-  # Constructs an EnemyShip.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -83,6 +75,7 @@ class EnemyShip < StdEntry
   
   # Initialize the entry properties.
   def init_props
+    super
     add_name_props(20)
 
     self[VOC.maxhp  ] = IntProp.new(:i32, -1)
@@ -103,14 +96,7 @@ class EnemyShip < StdEntry
     
     (1..4).each do |_i|
       if eu?
-        languages.each do |_l|
-          _pos  = VOC.arm_name_pos(_i, _l)
-          _size = VOC.arm_name_size(_i, _l)
-          _str  = VOC.arm_name_str(_i, _l)
-          self[_pos ] = IntProp.new(:u32,  0, base: 16, ext: true)
-          self[_size] = IntProp.new(:u32,  0,           ext: true)
-          self[_str ] = StrProp.new( nil, '',           ext: true)
-        end
+        self[VOC.arm_name(_i)] = StrProp.new(nil, '', dmy: true)
       end
       self[VOC.arm_type_id(_i)     ] = IntProp.new(:i16, -1           )
       self[VOC.arm_type_name(_i)   ] = StrProp.new( nil, '', dmy: true)
@@ -155,6 +141,39 @@ class EnemyShip < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
+    if eu?
+      _id_offset = -dscrptr(:enemy_ship_id_range).begin
+      fetch(VOC.id).proc = Proc.new do |_id|
+        _table = string_table_entries&.[]('EnShipInitParamP') || []
+        _entry = _table[_id + _id_offset]
+        _name  = '???'
+        if _entry
+          if dc?
+            _name = _entry['ENGLISH.SOT']
+          else
+            _name = _entry['english.sot']
+          end
+        end
+        self[VOC.name_opt(gb)] = _name
+
+        (1..4).each do |_i|
+          _table = string_table_entries&.[]('EnemyShipActionNameTable') || []
+          _entry = _table[_id * 4 + _i - 1 + _id_offset]
+          _name  = '???'
+          if _entry
+            if dc?
+              _name = _entry['ENGLISH.SOT']
+            else
+              _name = _entry['english.sot']
+            end
+          end
+          self[VOC.arm_name(_i)] = _name
+        end
+      end
+    end
+
     (1..4).each do |_i|
       fetch(VOC.arm_type_id(_i)).proc = Proc.new do |_id|
         self[VOC.arm_type_name(_i)] = VOC.cannon_types(_id)
@@ -183,7 +202,7 @@ class EnemyShip < StdEntry
               if jp? || us?
                 _name = _entry[VOC.name_str(cid)]
               elsif eu?
-                _name = _entry[VOC.name_str('GB')]
+                _name = _entry[VOC.name_opt(gb)]
               end
             end
           else
@@ -212,8 +231,8 @@ class EnemyShip < StdEntry
     end
   end
 
-end	# class EnemyShip
+end # class EnemyShip
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

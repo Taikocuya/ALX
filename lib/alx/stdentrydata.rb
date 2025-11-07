@@ -23,8 +23,8 @@
 #==============================================================================
 
 require_relative('binaryfile.rb')
-require_relative('entrydata.rb')
 require_relative('message.rb')
+require_relative('stringtableentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
@@ -55,7 +55,12 @@ class StdEntryData < EntryData
     @msg_table = {}
     @csv_file  = ''
     @tpl_file  = ''
-    @data      = Hash.new do |_h, _k|
+
+    if depend
+      @string_table_data = StringTableEntryData.new
+    end
+
+    @data = Hash.new do |_h, _k|
       _h[_k] = create_entry(_k)
     end
   end
@@ -64,14 +69,17 @@ class StdEntryData < EntryData
   # @param _id [Integer] Entry ID
   # @return [Entry] Entry object
   def create_entry(_id = -1)
-    _entry    = super()
-    _entry.id = _id
+    _entry                       = super()
+    _entry.id                    = _id
+    _entry&.string_table_entries = @string_table_data&.data
     _entry
   end
 
   # Reads all entries from binary files.
   # @return [Boolean] +true+ if reading was successful, otherwise +false+.
   def load_bin
+    @string_table_data&.load_bin
+
     unless @data.empty?
       return false
     end
@@ -235,16 +243,10 @@ class StdEntryData < EntryData
           end
 
           _entry = @data[_id]
-          _msgid = _entry.msg_id
-
-          if jp? || us?
-            _lang = country_id
-          else
-            _lang = find_lang(_filename)
-          end
-          _pos  = _entry.fetch(VOC.name_pos(_lang))
-          _size = _entry.fetch(VOC.name_size(_lang))
-          _name = _entry.fetch(VOC.name_str(_lang))
+          _msgid = _entry.sot_pos
+          _pos   = _entry.fetch(VOC.name_pos(cid))
+          _size  = _entry.fetch(VOC.name_size(cid))
+          _name  = _entry.fetch(VOC.name_str(cid))
       
           if _msgt
             _msg = @msg_table[_msgid]
@@ -287,7 +289,7 @@ class StdEntryData < EntryData
         _split = (!_msgt || _range.end != _descriptor.end)
         
         (_last_id...@id_range.end).each do |_id|
-          if _split && ( _f.eof? || !_descriptor.include?(_f.pos))
+          if _split && (_f.eof? || !_descriptor.include?(_f.pos))
             _last_id = _id
             break
           end
@@ -296,16 +298,10 @@ class StdEntryData < EntryData
           end
 
           _entry = @data[_id]
-          _msgid = _entry.msg_id
-
-          if jp? || us?
-            _lang = country_id
-          elsif eu?
-            _lang = find_lang(_filename)
-          end
-          _pos  = _entry.fetch(VOC.dscr_pos(_lang))
-          _size = _entry.fetch(VOC.dscr_size(_lang))
-          _dscr = _entry.fetch(VOC.dscr_str(_lang))
+          _msgid = _entry.sot_pos
+          _pos   = _entry.fetch(VOC.dscr_pos(cid))
+          _size  = _entry.fetch(VOC.dscr_size(cid))
+          _dscr  = _entry.fetch(VOC.dscr_str(cid))
           
           if _msgt
             _msg = @msg_table[_msgid]
@@ -370,21 +366,11 @@ class StdEntryData < EntryData
         unless id_valid?(_id, @id_range, _descriptor)
           next
         end
-        
-        if jp? || us?
-          _lang = country_id
-        else
-          _lang = find_lang(_filename)
-        end
-        if _lang
-          _pos  = _entry[VOC.name_pos(_lang)]
-          _size = _entry[VOC.name_size(_lang)]
-          _name = _entry[VOC.name_str(_lang)]
-        else
-          _pos  = -1
-          _size = 0
-        end
-        
+
+        _pos  = _entry[VOC.name_pos(cid)]
+        _size = _entry[VOC.name_size(cid)]
+        _name = _entry[VOC.name_str(cid)]
+
         _f.pos = _pos
         if !_descriptor.include?(_f.pos, _size)
           next
@@ -408,20 +394,10 @@ class StdEntryData < EntryData
           next
         end
 
-        if jp? || us?
-          _lang = country_id
-        else
-          _lang = find_lang(_filename)
-        end
-        if _lang
-          _pos  = _entry[VOC.dscr_pos(_lang)]
-          _size = _entry[VOC.dscr_size(_lang)]
-          _dscr = _entry[VOC.dscr_str(_lang)]
-        else
-          _pos  = -1
-          _size = 0
-        end
-        
+        _pos  = _entry[VOC.dscr_pos(cid)]
+        _size = _entry[VOC.dscr_size(cid)]
+        _dscr = _entry[VOC.dscr_str(cid)]
+
         _f.pos = _pos
         if !_descriptor.include?(_f.pos, _size)
           next
@@ -473,29 +449,12 @@ class StdEntryData < EntryData
     
     FileUtils.mkdir_p(File.dirname(_filename))
     CSV.open(_filename, 'w', headers: _header, write_headers: true) do |_f|
-      @data.each do |_id, _entry|
+      @data.each_value do |_entry|
         _entry.write_csv(_f)
       end
     end
   end
 
-#==============================================================================
-#                                   PRIVATE
-#==============================================================================
-
-  private
-
-  # Finds the PAL-E language for the given file name.
-  # @param _filename [String] File name
-  # @return [String] PAL-E language
-  def find_lang(_filename)
-    return de if _filename.include?(glob(:sot_file_de))
-    return es if _filename.include?(glob(:sot_file_es))
-    return fr if _filename.include?(glob(:sot_file_fr))
-    return gb if _filename.include?(glob(:sot_file_gb))
-    nil
-  end
-  
 end # class StdEntryData
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

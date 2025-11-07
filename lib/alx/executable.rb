@@ -47,10 +47,10 @@ module Executable
 #                                  CONSTANTS
 #==============================================================================
 
-  # Version of ALX
-  VERSION = '5.0.0'.freeze
   # Date of ALX
-  DATE    = Date.new(2025, 10, 25).freeze
+  DATE    = Date.new(2025, 11, 8).freeze
+  # Version of ALX
+  VERSION = '5.1.0.pre.20251108'.freeze
 
 #==============================================================================
 #                                   PUBLIC

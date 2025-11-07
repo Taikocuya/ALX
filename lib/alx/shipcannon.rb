@@ -41,13 +41,6 @@ class ShipCannon < StdEntry
 
   public
 
-  # Constructs a ShipCannon.
-  def initialize
-    super
-    init_props
-    init_procs
-  end
-
 #==============================================================================
 #                                  PROTECTED
 #==============================================================================
@@ -56,6 +49,7 @@ class ShipCannon < StdEntry
 
   # Initialize the entry properties.
   def init_props
+    super
     add_name_props
 
     self[VOC.ship_flags] = IntProp.new(:u8, 0, base: 2, width: 10)
@@ -133,6 +127,14 @@ class ShipCannon < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:ship_cannon_id_range).begin,
+      name_table: 'ShipWeaponParamP',
+      dscr_table: 'ShipHouMessageDataTable'
+    )
+
     fetch(VOC.ship_flags).proc = Proc.new do |_flags|
       VOC.ships.each do |_id, _ship|
         self[_ship] = (_flags & (0x20 >> _id) != 0) ? 'X' : ''
@@ -160,8 +162,8 @@ class ShipCannon < StdEntry
     end
   end
 
-end	# class ShipCannon
+end # class ShipCannon
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

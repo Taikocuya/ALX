@@ -143,14 +143,6 @@ class EntryTransform
     _valid   = true
     _valid &&= has_file?(Root.dirname, cfg(:exec_file))
     _valid &&= has_file?(Root.dirname, cfg(:level_file))
-    
-    if Root.eu?
-      _valid &&= has_file?(Root.dirname, cfg(:sot_file_gb))
-      _valid &&= has_file?(Root.dirname, cfg(:sot_file_de))
-      _valid &&= has_file?(Root.dirname, cfg(:sot_file_es))
-      _valid &&= has_file?(Root.dirname, cfg(:sot_file_fr))
-    end
-    
     _valid
   end
   
@@ -182,6 +174,10 @@ class EntryTransform
   end
   alias cid country_id
 
+  def sot_files
+    Root.sot_files
+  end
+  
   # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
   # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.
   def dc?

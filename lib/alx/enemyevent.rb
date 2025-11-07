@@ -41,14 +41,6 @@ class EnemyEvent < Entry
 
   public
 
-  # Constructs an EnemyEvent.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -77,6 +69,8 @@ class EnemyEvent < Entry
   
   # Initialize the entry properties.
   def init_props
+    super
+
     self[VOC.magic_exp] = IntProp.new(:u8, 0)
     
     (1..4).each do |_i|
@@ -108,6 +102,8 @@ class EnemyEvent < Entry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
     (1..4).each do |_i|
       fetch(VOC.character_id(_i)).proc = Proc.new do |_id|
         _name = (_id != -1) ? VOC.characters(_id) : 'None'
@@ -146,8 +142,8 @@ class EnemyEvent < Entry
     end
   end
 
-end	# class EnemyEvent
+end # class EnemyEvent
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

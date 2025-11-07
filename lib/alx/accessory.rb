@@ -34,8 +34,26 @@ module ALX
 
 # Class to handle an accessory.
 class Accessory < Armor
-end	# class Accessory
+
+#==============================================================================
+#                                  PROTECTED
+#==============================================================================
+
+  protected
+
+  # Initialize the entry procs.
+  def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:accessory_id_range).begin,
+      name_table: 'AccessDataTable',
+      dscr_table: 'AccessoryMessageDataTable'
+    )
+  end
+
+end # class Accessory
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

@@ -36,19 +36,6 @@ module ALX
 class CrewMember < StdEntry
 
 #==============================================================================
-#                                   PUBLIC
-#==============================================================================
-
-  public
-
-  # Constructs a CrewMember.
-  def initialize
-    super
-    init_props
-    init_procs
-  end
-
-#==============================================================================
 #                                  PROTECTED
 #==============================================================================
 
@@ -56,6 +43,7 @@ class CrewMember < StdEntry
 
   # Initialize the entry properties.
   def init_props
+    super
     add_name_props
 
     self[VOC.position_id  ] = IntProp.new(:i8, -1           )
@@ -117,6 +105,14 @@ class CrewMember < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:crew_member_id_range).begin,
+      name_table: 'ShipCrewParamP',
+      dscr_table: 'ShipCrewMessageDataTable'
+    )
+
     fetch(VOC.position_id).proc = Proc.new do |_id|
       self[VOC.position_name] = VOC.positions(_id)
     end
@@ -130,8 +126,8 @@ class CrewMember < StdEntry
     end
   end
 
-end	# class CrewMember
+end # class CrewMember
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

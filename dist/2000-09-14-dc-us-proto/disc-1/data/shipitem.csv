@@ -1,31 +1,61 @@
 Entry ID,Entry US Name,Occasion Flags,[M],[B],[S],Ship Eff ID,[Ship Eff Name],Ship Eff Turns,Consume%,Pad 1,Pad 2,Pad 3,Buy,Pad 4,Pad 5,Sell%,US Order 1,US Order 2,Pad 6,Ship Eff Base,Element ID,[Element Name],Unk 1,Unk 2,Hit%,[US Descr Pos],[US Descr Size],US Descr Str
-480,Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,100,0,0,50,0,23,0,80,6,Neutral,0,0,0,0x33a61c,48,"A common bomb, designed to damage the enemy.\n"
-481,Big Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,150,0,0,50,1,18,0,120,6,Neutral,0,0,0,0x33a64c,84,"A larger bomb, packed with more gunpowder for a\nbigger blast. Damages the enemy."
-482,Concussion Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,200,0,0,50,2,19,0,150,6,Neutral,0,0,0,0x33a6a0,80,A bomb that packs double the firepower of a\nstandard bomb. Damages the enemy.
-483,Shredder Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,480,0,0,50,3,10,0,250,6,Neutral,0,0,0,0x33a6f0,88,A bomb designed for pure explosive power and\nsize. Does massive damage to the enemy.
-484,Pyro Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,450,0,0,50,4,28,0,240,1,Red,1,0,0,0x33a748,88,A special bomb with Red Moon Dust mixed\ninto the gunpowder. Has an extremely hot blast.
-485,Frost Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,600,0,0,50,5,14,0,240,2,Purple,1,0,0,0x33a7a0,92,A special bomb with Purple Moon Dust mixed\ninto the gunpowder. Has an extremely cold blast.
-486,Silencer Bomb,0b0001,"","",X,116,Silence by 100%,-1,100,0,0,0,600,0,0,50,6,25,0,0,0,Green,0,165,80,0x33a7fc,92,A special bomb with Purple Moon Dust mixed\ninto the gunpowder. Has a Sylenis-like effect.
-487,Thunder Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,450,0,0,50,7,4,0,240,4,Yellow,1,0,0,0x33a858,92,A special bomb with Yellow Moon Dust mixed\ninto the gunpowder. Has a Electri-like effect.
-488,Electro Bomb,0b0001,"","",X,106,Weak by 100%,-1,100,0,0,0,600,0,0,50,8,24,0,0,0,Green,0,1,80,0x33a8b4,88,A special bomb with Yellow Moon Dust mixed\ninto the gunpowder. Has a Driln-like effect.
-489,Wave Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,600,0,0,50,9,20,0,240,3,Blue,1,0,0,0x33a90c,92,A special bomb with Blue Moonstone dust mixed\ninto the gunpowder. Has a Wevli-like effect.
-490,Repair Kit,0b0101,X,"",X,100,Recover HP,-1,100,0,0,0,30,0,0,50,10,15,0,400,0,Green,0,0,0,0x33a968,68,"Repair materials for minor damage to the ship.\nRestores 4,000 HP."
-491,Deluxe Kit,0b0101,X,"",X,100,Recover HP,-1,100,0,0,0,75,0,0,50,11,12,0,800,0,Green,0,0,0,0x33a9ac,72,"Repair materials for moderate damage to the\nship. Restores 8,000 HP."
-492,Magic Kit,0b0101,X,"",X,100,Recover HP,-1,100,0,0,0,0,0,0,50,12,9,0,0,0,Green,0,0,0,0x33a9f4,92,Repair materials mixed with Green Moon Dust\nfor greater restorative power. Restores all HP.
-493,Complete Kit,0b0101,X,"",X,101,Recover HP by 100%,-1,100,0,0,0,300,0,0,50,13,5,0,0,0,Green,0,0,0,0x33aa50,72,High-quality repair materials using pure\nMoon Stones. Restores all HP.
-494,Gear Grease,0b0001,"","",X,102,Recover SP,-1,100,0,0,0,500,0,0,50,14,6,0,10,0,Green,0,0,0,0x33aa98,76,"Reduces friction in the gears, improving power\ntransfer. Restores Spirit."
-495,Thermal Grease,0b0001,"","",X,103,Recover SP by 100%,-1,100,0,0,0,1000,0,0,50,15,17,0,0,0,Green,0,0,0,0x33aae4,80,Prevents heat-related breakdowns at high speeds.\nRestores Spirit completely.
-496,Captain's Stripe,0b0100,X,"","",115,Grow All Attr,-1,100,0,0,0,0,0,0,50,16,8,0,0,0,Green,0,0,0,0x33ab34,96,A mark earned by shooting down an enemy. Using\nit will increase ship parameters and endurance.
-497,Apa Wax,0b0001,"","",X,105,Incr Attack + Defense,2,100,0,0,0,100,0,0,50,17,0,0,0,0,Green,0,0,0,0x33ab94,92,Applying this wax to the ship and cannons\nimproves Attack and Defense Power for 2 turns.
-498,Apo Wax,0b0001,"","",X,105,Incr Attack + Defense,4,100,0,0,0,1000,0,0,50,18,1,0,0,0,Green,0,0,0,0x33abf0,92,Applying this wax to the ship and cannons\nimproves Attack and Defense Power for 4 turns.
-499,Speed Wax,0b0001,"","",X,104,Incr Quick,1,100,0,0,0,150,0,0,50,19,11,0,0,0,Green,0,0,0,0x33ac4c,68,Applying this wax to the engine improves engine\noutput for 1 turn.
-500,Hybrid Wax,0b0001,"","",X,108,Incr All Attr,4,100,0,0,0,1500,0,0,50,20,22,0,0,0,Green,0,0,0,0x33ac90,72,Wax developed by De Loco. Improves\nvarious ship parameters for 1 turn.
-501,Heat Sensor,0b0001,"","",X,112,Incr Critical%,0,100,0,0,0,2000,0,0,50,21,21,0,0,0,Green,0,0,0,0x33acd8,92,Detects the engine room of enemy ships to help\nyour gunners aim. Raises Critical Hit Rate.
-502,Rudder Grease,0b0001,"","",X,113,Consume SP by 50%,0,100,0,0,0,2000,0,0,50,22,3,0,0,0,Green,0,0,0,0x33ad34,72,"Improves rudder operation, and slows the rate\nof Spirit consumption."
-503,Machine Oil,0b0001,"","",X,114,Recover SP by 200%,0,100,0,0,0,2000,0,0,50,23,7,0,0,0,Green,0,0,0,0x33ad7c,96,"Applying oil to the engine parts stabilizes\noutput, doubling the rate of Spirit restoration."
-504,Light Alloy,0b0001,"","",X,111,Incr First Strike%,0,100,0,0,0,2000,0,0,50,24,29,0,0,0,Green,0,0,0,0x33addc,92,Alloy blends with the ship's hull to make it\nlighter. Improves chances for first strike.
-505,Hex Shell,0b0001,"","",X,109,Block Attack,0,100,0,0,0,5000,0,0,50,25,26,0,0,0,Green,0,0,0,0x33ae38,84,"A barrier against artillery attacks for 1 turn,\ndeveloped by a master engineer. "
-506,Magic Shell,0b0001,"","",X,110,Block Magic,0,100,0,0,0,2500,0,0,50,26,27,0,0,0,Green,0,0,0,0x33ae8c,76,"A barrier against magic attacks for 1 turn,\ndeveloped by a master magician."
-507,Gold Bullion,0b0000,"","","",-1,None,-1,-1,0,0,0,10000,0,0,100,27,2,0,0,0,Green,0,0,0,0x33aed8,92,"A piece of solid gold, too big to carry. You can\nkeep it, or sell it if you need the money."
-508,Crystal Ball,0b0000,"","","",-1,None,-1,-1,0,0,0,1000,0,0,100,28,16,0,0,0,Green,0,0,0,0x33af34,92,"A work of art by a well-known craftsman. You can\nkeep it, or sell it if you need the money."
-509,Magic Cannon,0b0000,"","","",-1,None,-1,-1,0,0,0,0,0,0,0,29,13,0,0,0,Green,0,0,0,0x33af90,96,A device that fires magic projectiles. Stolen\nfrom Belleza in a battle above the Nasr desert.
+480,Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,100,0,0,50,0,23,0,80,6,Neutral,0,0,0,0x33a61c,48,"A common bomb, designed to damage the enemy.
+"
+481,Big Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,150,0,0,50,1,18,0,120,6,Neutral,0,0,0,0x33a64c,84,"A larger bomb, packed with more gunpowder for a
+bigger blast. Damages the enemy."
+482,Concussion Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,200,0,0,50,2,19,0,150,6,Neutral,0,0,0,0x33a6a0,80,"A bomb that packs double the firepower of a
+standard bomb. Damages the enemy."
+483,Shredder Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,480,0,0,50,3,10,0,250,6,Neutral,0,0,0,0x33a6f0,88,"A bomb designed for pure explosive power and
+size. Does massive damage to the enemy."
+484,Pyro Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,450,0,0,50,4,28,0,240,1,Red,1,0,0,0x33a748,88,"A special bomb with Red Moon Dust mixed
+into the gunpowder. Has an extremely hot blast."
+485,Frost Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,600,0,0,50,5,14,0,240,2,Purple,1,0,0,0x33a7a0,92,"A special bomb with Purple Moon Dust mixed
+into the gunpowder. Has an extremely cold blast."
+486,Silencer Bomb,0b0001,"","",X,116,Silence by 100%,-1,100,0,0,0,600,0,0,50,6,25,0,0,0,Green,0,165,80,0x33a7fc,92,"A special bomb with Purple Moon Dust mixed
+into the gunpowder. Has a Sylenis-like effect."
+487,Thunder Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,450,0,0,50,7,4,0,240,4,Yellow,1,0,0,0x33a858,92,"A special bomb with Yellow Moon Dust mixed
+into the gunpowder. Has a Electri-like effect."
+488,Electro Bomb,0b0001,"","",X,106,Weak by 100%,-1,100,0,0,0,600,0,0,50,8,24,0,0,0,Green,0,1,80,0x33a8b4,88,"A special bomb with Yellow Moon Dust mixed
+into the gunpowder. Has a Driln-like effect."
+489,Wave Bomb,0b0001,"","",X,107,Damage,-1,100,0,0,0,600,0,0,50,9,20,0,240,3,Blue,1,0,0,0x33a90c,92,"A special bomb with Blue Moonstone dust mixed
+into the gunpowder. Has a Wevli-like effect."
+490,Repair Kit,0b0101,X,"",X,100,Recover HP,-1,100,0,0,0,30,0,0,50,10,15,0,400,0,Green,0,0,0,0x33a968,68,"Repair materials for minor damage to the ship.
+Restores 4,000 HP."
+491,Deluxe Kit,0b0101,X,"",X,100,Recover HP,-1,100,0,0,0,75,0,0,50,11,12,0,800,0,Green,0,0,0,0x33a9ac,72,"Repair materials for moderate damage to the
+ship. Restores 8,000 HP."
+492,Magic Kit,0b0101,X,"",X,100,Recover HP,-1,100,0,0,0,0,0,0,50,12,9,0,0,0,Green,0,0,0,0x33a9f4,92,"Repair materials mixed with Green Moon Dust
+for greater restorative power. Restores all HP."
+493,Complete Kit,0b0101,X,"",X,101,Recover HP by 100%,-1,100,0,0,0,300,0,0,50,13,5,0,0,0,Green,0,0,0,0x33aa50,72,"High-quality repair materials using pure
+Moon Stones. Restores all HP."
+494,Gear Grease,0b0001,"","",X,102,Recover SP,-1,100,0,0,0,500,0,0,50,14,6,0,10,0,Green,0,0,0,0x33aa98,76,"Reduces friction in the gears, improving power
+transfer. Restores Spirit."
+495,Thermal Grease,0b0001,"","",X,103,Recover SP by 100%,-1,100,0,0,0,1000,0,0,50,15,17,0,0,0,Green,0,0,0,0x33aae4,80,"Prevents heat-related breakdowns at high speeds.
+Restores Spirit completely."
+496,Captain's Stripe,0b0100,X,"","",115,Grow All Attr,-1,100,0,0,0,0,0,0,50,16,8,0,0,0,Green,0,0,0,0x33ab34,96,"A mark earned by shooting down an enemy. Using
+it will increase ship parameters and endurance."
+497,Apa Wax,0b0001,"","",X,105,Incr Attack + Defense,2,100,0,0,0,100,0,0,50,17,0,0,0,0,Green,0,0,0,0x33ab94,92,"Applying this wax to the ship and cannons
+improves Attack and Defense Power for 2 turns."
+498,Apo Wax,0b0001,"","",X,105,Incr Attack + Defense,4,100,0,0,0,1000,0,0,50,18,1,0,0,0,Green,0,0,0,0x33abf0,92,"Applying this wax to the ship and cannons
+improves Attack and Defense Power for 4 turns."
+499,Speed Wax,0b0001,"","",X,104,Incr Quick,1,100,0,0,0,150,0,0,50,19,11,0,0,0,Green,0,0,0,0x33ac4c,68,"Applying this wax to the engine improves engine
+output for 1 turn."
+500,Hybrid Wax,0b0001,"","",X,108,Incr All Attr,4,100,0,0,0,1500,0,0,50,20,22,0,0,0,Green,0,0,0,0x33ac90,72,"Wax developed by De Loco. Improves
+various ship parameters for 1 turn."
+501,Heat Sensor,0b0001,"","",X,112,Incr Critical%,0,100,0,0,0,2000,0,0,50,21,21,0,0,0,Green,0,0,0,0x33acd8,92,"Detects the engine room of enemy ships to help
+your gunners aim. Raises Critical Hit Rate."
+502,Rudder Grease,0b0001,"","",X,113,Consume SP by 50%,0,100,0,0,0,2000,0,0,50,22,3,0,0,0,Green,0,0,0,0x33ad34,72,"Improves rudder operation, and slows the rate
+of Spirit consumption."
+503,Machine Oil,0b0001,"","",X,114,Recover SP by 200%,0,100,0,0,0,2000,0,0,50,23,7,0,0,0,Green,0,0,0,0x33ad7c,96,"Applying oil to the engine parts stabilizes
+output, doubling the rate of Spirit restoration."
+504,Light Alloy,0b0001,"","",X,111,Incr First Strike%,0,100,0,0,0,2000,0,0,50,24,29,0,0,0,Green,0,0,0,0x33addc,92,"Alloy blends with the ship's hull to make it
+lighter. Improves chances for first strike."
+505,Hex Shell,0b0001,"","",X,109,Block Attack,0,100,0,0,0,5000,0,0,50,25,26,0,0,0,Green,0,0,0,0x33ae38,84,"A barrier against artillery attacks for 1 turn,
+developed by a master engineer. "
+506,Magic Shell,0b0001,"","",X,110,Block Magic,0,100,0,0,0,2500,0,0,50,26,27,0,0,0,Green,0,0,0,0x33ae8c,76,"A barrier against magic attacks for 1 turn,
+developed by a master magician."
+507,Gold Bullion,0b0000,"","","",-1,None,-1,-1,0,0,0,10000,0,0,100,27,2,0,0,0,Green,0,0,0,0x33aed8,92,"A piece of solid gold, too big to carry. You can
+keep it, or sell it if you need the money."
+508,Crystal Ball,0b0000,"","","",-1,None,-1,-1,0,0,0,1000,0,0,100,28,16,0,0,0,Green,0,0,0,0x33af34,92,"A work of art by a well-known craftsman. You can
+keep it, or sell it if you need the money."
+509,Magic Cannon,0b0000,"","","",-1,None,-1,-1,0,0,0,0,0,0,0,29,13,0,0,0,Green,0,0,0,0x33af90,96,"A device that fires magic projectiles. Stolen
+from Belleza in a battle above the Nasr desert."

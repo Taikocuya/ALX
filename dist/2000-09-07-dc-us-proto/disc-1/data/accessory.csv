@@ -1,67 +1,130 @@
 Entry ID,Entry US Name,PC Flags,[V],[A],[F],[D],[E],[G],Sell%,US Order 1,US Order 2,Pad 1,Buy,Trait 1 ID,[Trait 1 Name],Pad 2,Trait 1 Value,Trait 2 ID,[Trait 2 Name],Pad 3,Trait 2 Value,Trait 3 ID,[Trait 3 Name],Pad 4,Trait 3 Value,Trait 4 ID,[Trait 4 Name],Pad 5,Trait 4 Value,[US Descr Pos],[US Descr Size],US Descr Str
-160,Gemstone Ring,0b00111010,X,X,X,"",X,"",50,1,33,0,150,18,MagDef,0,21,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x364228,84,A finely crafted ring engraved with runes\nthat protect the wearer against magic.
-161,Prophet's Sand,0b00111010,X,X,X,"",X,"",50,3,34,0,890,18,MagDef,0,63,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x36427c,96,A ring created from enchanted sand found around\nMoon Stones. Protects the wearer against Magic.
-162,Meditation Ring,0b00111010,X,X,X,"",X,"",50,0,16,0,100,1,Will,0,8,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x3642dc,84,A ring crafted from weaving the sprigs of magic\ntrees. Increases the wearer's Will.
-163,Moondust Ring,0b00111010,X,X,X,"",X,"",50,4,55,0,1530,1,Will,0,48,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x364330,68,A ring decorated with tiny shards of Moon\nStones. Increases Will.
-164,Lover's Ring,0b00111010,X,X,X,"",X,"",50,2,43,0,300,18,MagDef,0,12,1,Will,0,12,-1,None,0,0,-1,None,0,0,0x364374,96,A finely crafted ring that depicts two lovers\nembracing. Increases Magic Resistance and Will.
-165,Jade Swirl Ring,0b00111010,X,X,X,"",X,"",50,5,54,0,2960,18,MagDef,0,45,1,Will,0,45,-1,None,0,0,-1,None,0,0,0x3643d4,88,A ring decorated with two drops of liquid jade.\nIncreases Magic Resistance and Will.
-166,Cupil Ring,0b00001000,"","",X,"","","",100,6,18,0,10000,49,Unconscious,0,-5,37,Silver,0,-5,18,MagDef,0,100,1,Will,0,100,0x36442c,80,A ring that looks like Cupil. Boosts Spirit and\nResistance to Silver Attacks
-167,Warrior's Heart,0b00111010,X,X,X,"",X,"",100,7,59,0,10,77,Recover SP,0,2,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x36447c,60,A ring with a glowing gem\nto recover Spirit during battle.
-168,Throkryn's Scale,0b00110101,X,X,"",X,"",X,50,8,35,0,300,16,Attack,0,10,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x3644b8,68,A weapon modification made from a throkryn.\nRaises Attack Power.
-169,Thryllak's Scale,0b00110101,X,X,"",X,"",X,50,9,25,0,2300,16,Attack,0,36,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x3644fc,64,A scale of a Thryllak\nthan the Throkryn. Raises Attack Power.
-170,Marocca's Shell,0b00110101,X,X,"",X,"",X,50,10,58,0,130,17,Defense,0,6,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x36453c,64,The shell of a large primitive crustacean.\nImproves Defense.
-171,Burocca's Shell,0b00110101,X,X,"",X,"",X,50,11,50,0,1920,17,Defense,0,36,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x36457c,60,The shell of a Burocca\nof the Marocca. Improves Defense.
-172,Crylhound's Claw,0b00110101,X,X,"",X,"",X,50,12,12,0,420,19,Hit%,0,20,16,Attack,0,2,-1,None,0,0,-1,None,0,0,0x3645b8,64,A weapon modification used by Valuan Soldiers.\nImproves Hit%
-173,Hunter's Hand,0b00110101,X,X,"",X,"",X,50,13,13,0,1010,19,Hit%,0,40,16,Attack,0,4,-1,None,0,0,-1,None,0,0,0x3645f8,84,A gauntlet worn by Ixa'takan men while hunting. \nImproves Hit% and Attack Power.
-174,Thief's Aura,0b00111101,X,X,X,X,"",X,50,14,9,0,330,20,Dodge%,0,10,17,Defense,0,2,-1,None,0,0,-1,None,0,0,0x36464c,76,A ring with a black stone that improves the\nwearer's Dodge% and Defense.
-175,Quetya Feather,0b00111101,X,X,X,X,"",X,50,15,24,0,810,20,Dodge%,0,20,17,Defense,0,4,-1,None,0,0,-1,None,0,0,0x364698,88,A feather ornament imbued with the power of the\nQuetya. Improves Dodge% and Defense.
-176,Vigoro's Chain,0b00100101,X,"","",X,"",X,50,17,48,0,2890,16,Attack,0,20,19,Hit%,0,30,-1,None,0,0,-1,None,0,0,0x3646f0,72,Vigoro's idea of a fashion statement. Improves\nHit% and Attack Power.
-177,Sailor's Buckler,0b00110111,X,X,"",X,X,X,50,18,40,0,1930,17,Defense,0,20,20,Dodge%,0,15,-1,None,0,0,-1,None,0,0,0x364738,40,A light\nImproves Dodge% and Defense.
-178,Warrior's Rune,0b00111001,X,X,X,"","",X,100,19,42,0,10,16,Attack,0,10,17,Defense,0,10,19,Hit%,0,20,20,Dodge%,0,10,0x364760,56,A ring with mystic engravings. Increases Attack\nPower
-179,Ancient Bracer,0b00110101,X,X,"",X,"",X,100,20,27,0,10,16,Attack,0,20,17,Defense,0,20,19,Hit%,0,40,20,Dodge%,0,20,0x364798,60,A bracer used by ancient gladiators. Improves\nAttack Power
-180,Counter Bracer,0b00110101,X,X,"",X,"",X,100,21,47,0,10,73,Counter%,0,20,16,Attack,0,20,19,Hit%,0,20,-1,None,0,0,0x3647d4,60,Improves physical attributes slightly\nas Counter-attacking
-181,Defensive Aura,0b00111111,X,X,X,X,X,X,100,22,29,0,10,65,Block Attack,0,1,17,Defense,0,40,-1,None,0,0,-1,None,0,0,0x364810,52,Renders the wearer invulnerable to normal\nAttacks
-182,Ixa'takan Ring,0b00111111,X,X,X,X,X,X,100,23,23,0,100,48,Poison,0,-10,32,Green,0,-2,17,Defense,0,5,18,MagDef,0,5,0x364844,84,Offers invulnerability to Poison\nDefense and Resistance to Magic & Green Attacks.
-183,Silvite Ring,0b00111111,X,X,X,X,X,X,100,30,30,0,100,49,Unconscious,0,-10,37,Silver,0,-2,17,Defense,0,5,18,MagDef,0,5,0x364898,76,Invulnerability to Eterni\nDefense & Resistance to Magic & Silver Attacks.
-184,Gem of Fluidity,0b00111111,X,X,X,X,X,X,100,29,11,0,100,50,Stone,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,0x3648e4,80,Offers invulnerability to Petrification\nimproves Defense and Magic Resistance.
-185,Wind Gem Ring,0b00111111,X,X,X,X,X,X,100,24,44,0,100,51,Sleep,0,-10,35,Blue,0,-2,17,Defense,0,5,18,MagDef,0,5,0x364934,80,Offers invulnerability to Sleep\nDefense and resistance to Magic & Blue Attacks.
-186,Eye of Truth,0b00111111,X,X,X,X,X,X,100,25,57,0,100,52,Confusion,0,-10,34,Purple,0,-2,17,Defense,0,5,18,MagDef,0,5,0x364984,84,Offers invulnerability to Confusion\nDefense & Resistance to Magic & Purple Attacks.
-187,Revered Voice,0b00111111,X,X,X,X,X,X,100,26,37,0,100,53,Silence,0,-10,34,Purple,0,-2,17,Defense,0,5,18,MagDef,0,5,0x3649d8,84,Offers invulnerability to Silence\nDefense & Resistance to Magic & Purple Attacks.
-188,Everlasting Gem,0b00111111,X,X,X,X,X,X,100,28,39,0,100,54,Fatigue,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,0x364a2c,68,Offers invulnerability to Fatigue\nDefense and Magic Resistance. 
-189,Behemoth's Ring,0b00111111,X,X,X,X,X,X,100,27,52,0,100,56,Weak,0,-10,36,Yellow,0,-2,17,Defense,0,5,18,MagDef,0,5,0x364a70,84,Offers invulnerability to Weakness\nDefense & Resistance to Magic & Yellow Attacks.
-190,Constitution Gem,0b00111111,X,X,X,X,X,X,100,31,15,0,1000,79,Block Neg States,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,0x364ac4,56,A miraculous stone that prevents all adverse\neffects
-191,Nomadic Veil,0b00111111,X,X,X,X,X,X,50,34,49,0,640,17,Defense,0,9,18,MagDef,0,9,-1,None,0,0,-1,None,0,0,0x364afc,80,A veil worn by tribes of nomads in Nasr.\nImproves Defense and Magic Resistance.
-192,Radiant Fur,0b00111111,X,X,X,X,X,X,50,39,61,0,3580,17,Defense,0,24,18,MagDef,0,24,-1,None,0,0,-1,None,0,0,0x364b4c,64,A thick fur\nthe cold. Improves Defense and Magic Resistance.
-193,Berzerker Ring,0b00111111,X,X,X,X,X,X,50,35,1,0,770,16,Attack,0,9,1,Will,0,9,-1,None,0,0,-1,None,0,0,0x364b8c,76,An enchanted ring worn by desert nomads.\nImproves Attack Power and Will.
-194,Skull Cap,0b00111111,X,X,X,X,X,X,50,40,41,0,4300,16,Attack,0,24,1,Will,0,24,-1,None,0,0,-1,None,0,0,0x364bd8,84,A unique hat sometimes worn by Eastern Air\nPirates. Improves Attack Power & Will.
-195,Mage's Bane,0b00111111,X,X,X,X,X,X,50,33,28,0,480,17,Defense,0,4,18,MagDef,0,4,16,Attack,0,4,1,Will,0,4,0x364c2c,52,A helm that increases the wearer's Attacks\nDefense
-196,Blue Rogue Patch,0b00111111,X,X,X,X,X,X,50,41,0,0,6820,17,Defense,0,18,18,MagDef,0,18,16,Attack,0,18,1,Will,0,18,0x364c60,52,Can be worn to show determination. Improves\nAttacks
-197,Assassin Ring,0b00111111,X,X,X,X,X,X,50,36,2,0,3200,80,PC 1st Strike%,0,40,19,Hit%,0,40,-1,None,0,0,-1,None,0,0,0x364c94,60,A ring crafted in Nasr. Improves chances for\na First Strike
-198,Stealth Ring,0b00111111,X,X,X,X,X,X,50,37,31,0,3000,81,PC Run%,0,100,4,Quick,0,10,20,Dodge%,0,10,-1,None,0,0,0x364cd0,56,A ring that improves Agile and Dodge%. In\nmost cases
-199,Dhabu Hide,0b00111111,X,X,X,X,X,X,50,38,21,0,2800,4,Quick,0,50,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x364d08,44,A folded piece of cured Dhabu hide\narmor.
-200,Ominous Mask,0b00100101,X,"","",X,"",X,50,42,45,0,4760,68,Reduce SP,0,1,16,Attack,0,75,17,Defense,0,75,-1,None,0,0,0x364d34,88,Gives a large boost to Attack Power and Defense\nbut reduces the party's Spirit to zero.
-201,Flash Ribbon,0b00011101,"",X,X,X,"",X,50,43,62,0,60,4,Quick,0,2,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x364d8c,48,An enchanted Ribbon that improves Aika's\nQuick.
-202,The Unseen Hand,0b00011101,"",X,X,X,"",X,50,44,46,0,2960,4,Quick,0,30,20,Dodge%,0,5,-1,None,0,0,-1,None,0,0,0x364dbc,56,An enchantment that enables a warrior to Attack\nfaster
-203,Crescent Amulet,0b00011101,"",X,X,X,"",X,50,45,60,0,5710,4,Quick,0,19,17,Defense,0,28,18,MagDef,0,28,-1,None,0,0,0x364df4,32,A magic amulet\nImproves Quick
-204,Skyseer Goggles,0b00110000,X,X,"","","","",50,46,26,0,40,19,Hit%,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x364e14,72,A pair of goggles that can zoom in on distant\ntargets. Improves Hit%.
-205,Nocturnal Sight,0b00110000,X,X,"","","","",50,47,5,0,1930,19,Hit%,0,60,16,Attack,0,6,-1,None,0,0,-1,None,0,0,0x364e5c,68,An enchantment that allows a fighter to detect\ntargets at night.
-206,Critical Vision,0b00110000,X,X,"","","","",50,48,32,0,6660,19,Hit%,0,50,16,Attack,0,19,1,Will,0,19,-1,None,0,0,0x364ea0,72,An enchantment that allows a fighter to detect\nan enemy's weak points.
-207,Gem of Purity,0b00000101,"","","",X,"",X,50,49,8,0,300,79,Block Neg States,0,-3,17,Defense,0,8,-1,None,0,0,-1,None,0,0,0x364ee8,92,An enchanted gem that protects the bearer.\nBoosts Defense & Resistance to Adverse Effects.
-208,Shard of Purity,0b00000101,"","","",X,"",X,50,51,38,0,4760,79,Block Neg States,0,-9,17,Defense,0,38,-1,None,0,0,-1,None,0,0,0x364f44,72,An enchanted Moon Shard that protects the wearer\nfrom Adverse Effects
-209,Fortune Ring,0b00011000,"",X,X,"","","",50,16,20,0,2860,20,Dodge%,0,100,17,Defense,0,8,-1,None,0,0,-1,None,0,0,0x364f8c,92,A mysterious ring that allows the wearer to\navoid most normal Attacks. Improves Defense.
-210,Berserker Ring,0b00100000,X,"","","","","",100,56,51,0,777,84,Random Encounter%,0,100,80,PC 1st Strike%,0,25,82,EC 1st Strike%,0,0,83,EC Run%,0,0,0x364fe8,88,A mystic force that attracts enemy creatures.\nAlso improves chances for First Strike.
-211,Phantom Ring,0b00100000,X,"","","","","",100,57,56,0,666,84,Random Encounter%,0,5,80,PC 1st Strike%,0,0,82,EC 1st Strike%,0,0,81,PC Run%,0,100,0x365040,84,A mystic force that repels enemy creatures.\nAlso improves chances of running away.
-212,Captain's Hat,0b00100000,X,"","","","","",100,61,17,0,10,16,Attack,0,80,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x365094,72,A hat given to Vyse by the Delphinus' crew. \nIt improves Attack Power.
-213,Mesh Tights,0b00010000,"",X,"","","","",100,62,3,0,10,16,Attack,0,40,1,Will,0,40,-1,None,0,0,-1,None,0,0,0x3650dc,80,Given to Aika by a secret admirer. Magic Cloth.\nImproves Attack Power and Will.
-214,Black Eyepatch,0b00100101,X,"","",X,"",X,100,52,22,0,10,16,Attack,0,7,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x36512c,80,Drachma's old leather eyepatch\nhide of a wild beast. Increases Attack Power.
-215,Silver Veil,0b00011000,"",X,X,"","","",100,53,19,0,100,1,Will,0,16,18,MagDef,0,16,-1,None,0,0,-1,None,0,0,0x36517c,96,A mystic veil that protects Fina's head. The\nsilver strands increase Will & Magic Resistance.
-216,Imperial Crest,0b00000010,"","","","",X,"",100,55,10,0,1000,17,Defense,0,20,18,MagDef,0,20,-1,None,0,0,-1,None,0,0,0x3651dc,88,Given to protect members if the Royal Family.\nImproves Defense and Magic Resistance.
-217,Gilder's Amulet,0b00110001,X,X,"","","",X,100,54,36,0,500,17,Defense,0,11,18,MagDef,0,11,16,Attack,0,11,1,Will,0,11,0x365234,64,Worn around Gilder's neck. Improves Defense\nMagic Resistance
-218,Valuan Medallion,0b00111111,X,X,X,X,X,X,100,60,4,0,5000,49,Unconscious,0,-10,17,Defense,0,30,18,MagDef,0,30,-1,None,0,0,0x365274,76,Enchanted Medallion worn by officers in the\nArmada. Negates Eterni Spells
-219,Immunity Ring,0b00000101,"","","",X,"",X,50,50,7,0,1490,79,Block Neg States,0,-6,17,Defense,0,21,-1,None,0,0,-1,None,0,0,0x3652c0,64,Sacred Ring. Boosts Defense and Resistance to\nadverse effects.
-220,Thermo Ring,0b00111111,X,X,X,X,X,X,50,58,53,0,2080,33,Red,0,-5,34,Purple,0,-5,-1,None,0,0,-1,None,0,0,0x365300,64,A ring that increases resistance to Red and \nPurple Attacks.
-221,Slayer Ring,0b00111111,X,X,X,X,X,X,50,59,6,0,1010,1,Will,0,8,17,Defense,0,8,19,Hit%,0,10,4,Quick,0,8,0x365340,44,Raises Defense\nIts background is unknown.
-222,Chance Ring,0b00111111,X,X,X,X,X,X,100,32,14,0,1000,79,Block Neg States,0,90,17,Defense,0,75,18,MagDef,0,75,-1,None,0,0,0x36536c,80,Boosts Defense and Magic Resistance\nthe wearer susceptible to adverse effects.
+160,Gemstone Ring,0b00111010,X,X,X,"",X,"",50,1,33,0,150,18,MagDef,0,21,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x364228,84,"A finely crafted ring engraved with runes
+that protect the wearer against magic."
+161,Prophet's Sand,0b00111010,X,X,X,"",X,"",50,3,34,0,890,18,MagDef,0,63,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x36427c,96,"A ring created from enchanted sand found around
+Moon Stones. Protects the wearer against Magic."
+162,Meditation Ring,0b00111010,X,X,X,"",X,"",50,0,16,0,100,1,Will,0,8,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x3642dc,84,"A ring crafted from weaving the sprigs of magic
+trees. Increases the wearer's Will."
+163,Moondust Ring,0b00111010,X,X,X,"",X,"",50,4,55,0,1530,1,Will,0,48,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x364330,68,"A ring decorated with tiny shards of Moon
+Stones. Increases Will."
+164,Lover's Ring,0b00111010,X,X,X,"",X,"",50,2,43,0,300,18,MagDef,0,12,1,Will,0,12,-1,None,0,0,-1,None,0,0,0x364374,96,"A finely crafted ring that depicts two lovers
+embracing. Increases Magic Resistance and Will."
+165,Jade Swirl Ring,0b00111010,X,X,X,"",X,"",50,5,54,0,2960,18,MagDef,0,45,1,Will,0,45,-1,None,0,0,-1,None,0,0,0x3643d4,88,"A ring decorated with two drops of liquid jade.
+Increases Magic Resistance and Will."
+166,Cupil Ring,0b00001000,"","",X,"","","",100,6,18,0,10000,49,Unconscious,0,-5,37,Silver,0,-5,18,MagDef,0,100,1,Will,0,100,0x36442c,80,"A ring that looks like Cupil. Boosts Spirit and
+Resistance to Silver Attacks"
+167,Warrior's Heart,0b00111010,X,X,X,"",X,"",100,7,59,0,10,77,Recover SP,0,2,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x36447c,60,"A ring with a glowing gem
+to recover Spirit during battle."
+168,Throkryn's Scale,0b00110101,X,X,"",X,"",X,50,8,35,0,300,16,Attack,0,10,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x3644b8,68,"A weapon modification made from a throkryn.
+Raises Attack Power."
+169,Thryllak's Scale,0b00110101,X,X,"",X,"",X,50,9,25,0,2300,16,Attack,0,36,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x3644fc,64,"A scale of a Thryllak
+than the Throkryn. Raises Attack Power."
+170,Marocca's Shell,0b00110101,X,X,"",X,"",X,50,10,58,0,130,17,Defense,0,6,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x36453c,64,"The shell of a large primitive crustacean.
+Improves Defense."
+171,Burocca's Shell,0b00110101,X,X,"",X,"",X,50,11,50,0,1920,17,Defense,0,36,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x36457c,60,"The shell of a Burocca
+of the Marocca. Improves Defense."
+172,Crylhound's Claw,0b00110101,X,X,"",X,"",X,50,12,12,0,420,19,Hit%,0,20,16,Attack,0,2,-1,None,0,0,-1,None,0,0,0x3645b8,64,"A weapon modification used by Valuan Soldiers.
+Improves Hit%"
+173,Hunter's Hand,0b00110101,X,X,"",X,"",X,50,13,13,0,1010,19,Hit%,0,40,16,Attack,0,4,-1,None,0,0,-1,None,0,0,0x3645f8,84,"A gauntlet worn by Ixa'takan men while hunting. 
+Improves Hit% and Attack Power."
+174,Thief's Aura,0b00111101,X,X,X,X,"",X,50,14,9,0,330,20,Dodge%,0,10,17,Defense,0,2,-1,None,0,0,-1,None,0,0,0x36464c,76,"A ring with a black stone that improves the
+wearer's Dodge% and Defense."
+175,Quetya Feather,0b00111101,X,X,X,X,"",X,50,15,24,0,810,20,Dodge%,0,20,17,Defense,0,4,-1,None,0,0,-1,None,0,0,0x364698,88,"A feather ornament imbued with the power of the
+Quetya. Improves Dodge% and Defense."
+176,Vigoro's Chain,0b00100101,X,"","",X,"",X,50,17,48,0,2890,16,Attack,0,20,19,Hit%,0,30,-1,None,0,0,-1,None,0,0,0x3646f0,72,"Vigoro's idea of a fashion statement. Improves
+Hit% and Attack Power."
+177,Sailor's Buckler,0b00110111,X,X,"",X,X,X,50,18,40,0,1930,17,Defense,0,20,20,Dodge%,0,15,-1,None,0,0,-1,None,0,0,0x364738,40,"A light
+Improves Dodge% and Defense."
+178,Warrior's Rune,0b00111001,X,X,X,"","",X,100,19,42,0,10,16,Attack,0,10,17,Defense,0,10,19,Hit%,0,20,20,Dodge%,0,10,0x364760,56,"A ring with mystic engravings. Increases Attack
+Power"
+179,Ancient Bracer,0b00110101,X,X,"",X,"",X,100,20,27,0,10,16,Attack,0,20,17,Defense,0,20,19,Hit%,0,40,20,Dodge%,0,20,0x364798,60,"A bracer used by ancient gladiators. Improves
+Attack Power"
+180,Counter Bracer,0b00110101,X,X,"",X,"",X,100,21,47,0,10,73,Counter%,0,20,16,Attack,0,20,19,Hit%,0,20,-1,None,0,0,0x3647d4,60,"Improves physical attributes slightly
+as Counter-attacking"
+181,Defensive Aura,0b00111111,X,X,X,X,X,X,100,22,29,0,10,65,Block Attack,0,1,17,Defense,0,40,-1,None,0,0,-1,None,0,0,0x364810,52,"Renders the wearer invulnerable to normal
+Attacks"
+182,Ixa'takan Ring,0b00111111,X,X,X,X,X,X,100,23,23,0,100,48,Poison,0,-10,32,Green,0,-2,17,Defense,0,5,18,MagDef,0,5,0x364844,84,"Offers invulnerability to Poison
+Defense and Resistance to Magic & Green Attacks."
+183,Silvite Ring,0b00111111,X,X,X,X,X,X,100,30,30,0,100,49,Unconscious,0,-10,37,Silver,0,-2,17,Defense,0,5,18,MagDef,0,5,0x364898,76,"Invulnerability to Eterni
+Defense & Resistance to Magic & Silver Attacks."
+184,Gem of Fluidity,0b00111111,X,X,X,X,X,X,100,29,11,0,100,50,Stone,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,0x3648e4,80,"Offers invulnerability to Petrification
+improves Defense and Magic Resistance."
+185,Wind Gem Ring,0b00111111,X,X,X,X,X,X,100,24,44,0,100,51,Sleep,0,-10,35,Blue,0,-2,17,Defense,0,5,18,MagDef,0,5,0x364934,80,"Offers invulnerability to Sleep
+Defense and resistance to Magic & Blue Attacks."
+186,Eye of Truth,0b00111111,X,X,X,X,X,X,100,25,57,0,100,52,Confusion,0,-10,34,Purple,0,-2,17,Defense,0,5,18,MagDef,0,5,0x364984,84,"Offers invulnerability to Confusion
+Defense & Resistance to Magic & Purple Attacks."
+187,Revered Voice,0b00111111,X,X,X,X,X,X,100,26,37,0,100,53,Silence,0,-10,34,Purple,0,-2,17,Defense,0,5,18,MagDef,0,5,0x3649d8,84,"Offers invulnerability to Silence
+Defense & Resistance to Magic & Purple Attacks."
+188,Everlasting Gem,0b00111111,X,X,X,X,X,X,100,28,39,0,100,54,Fatigue,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,0x364a2c,68,"Offers invulnerability to Fatigue
+Defense and Magic Resistance. "
+189,Behemoth's Ring,0b00111111,X,X,X,X,X,X,100,27,52,0,100,56,Weak,0,-10,36,Yellow,0,-2,17,Defense,0,5,18,MagDef,0,5,0x364a70,84,"Offers invulnerability to Weakness
+Defense & Resistance to Magic & Yellow Attacks."
+190,Constitution Gem,0b00111111,X,X,X,X,X,X,100,31,15,0,1000,79,Block Neg States,0,-10,17,Defense,0,10,18,MagDef,0,10,-1,None,0,0,0x364ac4,56,"A miraculous stone that prevents all adverse
+effects"
+191,Nomadic Veil,0b00111111,X,X,X,X,X,X,50,34,49,0,640,17,Defense,0,9,18,MagDef,0,9,-1,None,0,0,-1,None,0,0,0x364afc,80,"A veil worn by tribes of nomads in Nasr.
+Improves Defense and Magic Resistance."
+192,Radiant Fur,0b00111111,X,X,X,X,X,X,50,39,61,0,3580,17,Defense,0,24,18,MagDef,0,24,-1,None,0,0,-1,None,0,0,0x364b4c,64,"A thick fur
+the cold. Improves Defense and Magic Resistance."
+193,Berzerker Ring,0b00111111,X,X,X,X,X,X,50,35,1,0,770,16,Attack,0,9,1,Will,0,9,-1,None,0,0,-1,None,0,0,0x364b8c,76,"An enchanted ring worn by desert nomads.
+Improves Attack Power and Will."
+194,Skull Cap,0b00111111,X,X,X,X,X,X,50,40,41,0,4300,16,Attack,0,24,1,Will,0,24,-1,None,0,0,-1,None,0,0,0x364bd8,84,"A unique hat sometimes worn by Eastern Air
+Pirates. Improves Attack Power & Will."
+195,Mage's Bane,0b00111111,X,X,X,X,X,X,50,33,28,0,480,17,Defense,0,4,18,MagDef,0,4,16,Attack,0,4,1,Will,0,4,0x364c2c,52,"A helm that increases the wearer's Attacks
+Defense"
+196,Blue Rogue Patch,0b00111111,X,X,X,X,X,X,50,41,0,0,6820,17,Defense,0,18,18,MagDef,0,18,16,Attack,0,18,1,Will,0,18,0x364c60,52,"Can be worn to show determination. Improves
+Attacks"
+197,Assassin Ring,0b00111111,X,X,X,X,X,X,50,36,2,0,3200,80,PC 1st Strike%,0,40,19,Hit%,0,40,-1,None,0,0,-1,None,0,0,0x364c94,60,"A ring crafted in Nasr. Improves chances for
+a First Strike"
+198,Stealth Ring,0b00111111,X,X,X,X,X,X,50,37,31,0,3000,81,PC Run%,0,100,4,Quick,0,10,20,Dodge%,0,10,-1,None,0,0,0x364cd0,56,"A ring that improves Agile and Dodge%. In
+most cases"
+199,Dhabu Hide,0b00111111,X,X,X,X,X,X,50,38,21,0,2800,4,Quick,0,50,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x364d08,44,"A folded piece of cured Dhabu hide
+armor."
+200,Ominous Mask,0b00100101,X,"","",X,"",X,50,42,45,0,4760,68,Reduce SP,0,1,16,Attack,0,75,17,Defense,0,75,-1,None,0,0,0x364d34,88,"Gives a large boost to Attack Power and Defense
+but reduces the party's Spirit to zero."
+201,Flash Ribbon,0b00011101,"",X,X,X,"",X,50,43,62,0,60,4,Quick,0,2,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x364d8c,48,"An enchanted Ribbon that improves Aika's
+Quick."
+202,The Unseen Hand,0b00011101,"",X,X,X,"",X,50,44,46,0,2960,4,Quick,0,30,20,Dodge%,0,5,-1,None,0,0,-1,None,0,0,0x364dbc,56,"An enchantment that enables a warrior to Attack
+faster"
+203,Crescent Amulet,0b00011101,"",X,X,X,"",X,50,45,60,0,5710,4,Quick,0,19,17,Defense,0,28,18,MagDef,0,28,-1,None,0,0,0x364df4,32,"A magic amulet
+Improves Quick"
+204,Skyseer Goggles,0b00110000,X,X,"","","","",50,46,26,0,40,19,Hit%,0,5,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x364e14,72,"A pair of goggles that can zoom in on distant
+targets. Improves Hit%."
+205,Nocturnal Sight,0b00110000,X,X,"","","","",50,47,5,0,1930,19,Hit%,0,60,16,Attack,0,6,-1,None,0,0,-1,None,0,0,0x364e5c,68,"An enchantment that allows a fighter to detect
+targets at night."
+206,Critical Vision,0b00110000,X,X,"","","","",50,48,32,0,6660,19,Hit%,0,50,16,Attack,0,19,1,Will,0,19,-1,None,0,0,0x364ea0,72,"An enchantment that allows a fighter to detect
+an enemy's weak points."
+207,Gem of Purity,0b00000101,"","","",X,"",X,50,49,8,0,300,79,Block Neg States,0,-3,17,Defense,0,8,-1,None,0,0,-1,None,0,0,0x364ee8,92,"An enchanted gem that protects the bearer.
+Boosts Defense & Resistance to Adverse Effects."
+208,Shard of Purity,0b00000101,"","","",X,"",X,50,51,38,0,4760,79,Block Neg States,0,-9,17,Defense,0,38,-1,None,0,0,-1,None,0,0,0x364f44,72,"An enchanted Moon Shard that protects the wearer
+from Adverse Effects"
+209,Fortune Ring,0b00011000,"",X,X,"","","",50,16,20,0,2860,20,Dodge%,0,100,17,Defense,0,8,-1,None,0,0,-1,None,0,0,0x364f8c,92,"A mysterious ring that allows the wearer to
+avoid most normal Attacks. Improves Defense."
+210,Berserker Ring,0b00100000,X,"","","","","",100,56,51,0,777,84,Random Encounter%,0,100,80,PC 1st Strike%,0,25,82,EC 1st Strike%,0,0,83,EC Run%,0,0,0x364fe8,88,"A mystic force that attracts enemy creatures.
+Also improves chances for First Strike."
+211,Phantom Ring,0b00100000,X,"","","","","",100,57,56,0,666,84,Random Encounter%,0,5,80,PC 1st Strike%,0,0,82,EC 1st Strike%,0,0,81,PC Run%,0,100,0x365040,84,"A mystic force that repels enemy creatures.
+Also improves chances of running away."
+212,Captain's Hat,0b00100000,X,"","","","","",100,61,17,0,10,16,Attack,0,80,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x365094,72,"A hat given to Vyse by the Delphinus' crew. 
+It improves Attack Power."
+213,Mesh Tights,0b00010000,"",X,"","","","",100,62,3,0,10,16,Attack,0,40,1,Will,0,40,-1,None,0,0,-1,None,0,0,0x3650dc,80,"Given to Aika by a secret admirer. Magic Cloth.
+Improves Attack Power and Will."
+214,Black Eyepatch,0b00100101,X,"","",X,"",X,100,52,22,0,10,16,Attack,0,7,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x36512c,80,"Drachma's old leather eyepatch
+hide of a wild beast. Increases Attack Power."
+215,Silver Veil,0b00011000,"",X,X,"","","",100,53,19,0,100,1,Will,0,16,18,MagDef,0,16,-1,None,0,0,-1,None,0,0,0x36517c,96,"A mystic veil that protects Fina's head. The
+silver strands increase Will & Magic Resistance."
+216,Imperial Crest,0b00000010,"","","","",X,"",100,55,10,0,1000,17,Defense,0,20,18,MagDef,0,20,-1,None,0,0,-1,None,0,0,0x3651dc,88,"Given to protect members if the Royal Family.
+Improves Defense and Magic Resistance."
+217,Gilder's Amulet,0b00110001,X,X,"","","",X,100,54,36,0,500,17,Defense,0,11,18,MagDef,0,11,16,Attack,0,11,1,Will,0,11,0x365234,64,"Worn around Gilder's neck. Improves Defense
+Magic Resistance"
+218,Valuan Medallion,0b00111111,X,X,X,X,X,X,100,60,4,0,5000,49,Unconscious,0,-10,17,Defense,0,30,18,MagDef,0,30,-1,None,0,0,0x365274,76,"Enchanted Medallion worn by officers in the
+Armada. Negates Eterni Spells"
+219,Immunity Ring,0b00000101,"","","",X,"",X,50,50,7,0,1490,79,Block Neg States,0,-6,17,Defense,0,21,-1,None,0,0,-1,None,0,0,0x3652c0,64,"Sacred Ring. Boosts Defense and Resistance to
+adverse effects."
+220,Thermo Ring,0b00111111,X,X,X,X,X,X,50,58,53,0,2080,33,Red,0,-5,34,Purple,0,-5,-1,None,0,0,-1,None,0,0,0x365300,64,"A ring that increases resistance to Red and 
+Purple Attacks."
+221,Slayer Ring,0b00111111,X,X,X,X,X,X,50,59,6,0,1010,1,Will,0,8,17,Defense,0,8,19,Hit%,0,10,4,Quick,0,8,0x365340,44,"Raises Defense
+Its background is unknown."
+222,Chance Ring,0b00111111,X,X,X,X,X,X,100,32,14,0,1000,79,Block Neg States,0,90,17,Defense,0,75,18,MagDef,0,75,-1,None,0,0,0x36536c,80,"Boosts Defense and Magic Resistance
+the wearer susceptible to adverse effects."
 223,ダミーアクセサリ,0b00000000,"","","","","","",0,63,63,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 224,ダミーアクセサリ,0b00000000,"","","","","","",0,64,64,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""
 225,ダミーアクセサリ,0b00000000,"","","","","","",0,65,65,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,-1,None,0,0,0x0,0,""

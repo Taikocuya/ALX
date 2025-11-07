@@ -287,8 +287,8 @@ class EnemyData < EntryData
     load_csv_encounters(@encounter_csv_file      )
 
     true
-	end
-	
+  end
+
   # Writes all entries to CSV files.
   # @return [Boolean] +true+ if writing was successful, otherwise +false+.
   def save_csv

@@ -288,8 +288,8 @@ class EnpFile < EpFile
             _f.write_int(_node.id , :i32)
             _f.write_int(_node.pos, :i32)
           else
-            _f.write_int(0xffffffff , :i32)
-            _f.write_int(0xffffffff , :i32)
+            _f.write_int(0xffffffff, :i32)
+            _f.write_int(0xffffffff, :i32)
           end
         end
         _f.pos = _end

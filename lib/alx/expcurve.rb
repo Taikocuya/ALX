@@ -41,14 +41,6 @@ class ExpCurve < StdEntry
 
   public
 
-  # Constructs an ExpCurve.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -74,6 +66,8 @@ class ExpCurve < StdEntry
   
   # Initialize the entry properties.
   def init_props
+    super
+
     self[VOC.character_name(nil)] = StrProp.new(nil, '', dmy: true)
     (1..99).each do |_i|
       self[VOC.exp(_i)] = IntProp.new(:i32, 0)
@@ -82,6 +76,8 @@ class ExpCurve < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
     fetch(VOC.id).proc = Proc.new do |_id|
       _chara = @characters[id]
       _name  = '???'
@@ -92,8 +88,8 @@ class ExpCurve < StdEntry
     end
   end
 
-end	# class ExpCurve
+end # class ExpCurve
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

@@ -48,7 +48,6 @@ class ArmorData < StdEntryData
     super(Armor, _depend)
     self.id_range  = dscrptr(:armor_id_range)
     self.data_file = dscrptr(:armor_data_files)
-    self.name_file = dscrptr(:armor_name_files)
     self.dscr_file = dscrptr(:armor_dscr_files)
     self.csv_file  = join(CFG.armor_csv_file)
     self.tpl_file  = File.join(CFG.build_dir, CFG.armor_tpl_file)

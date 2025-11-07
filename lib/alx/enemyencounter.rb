@@ -41,14 +41,6 @@ class EnemyEncounter < Entry
 
   public
 
-  # Constructs an Enemy.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -85,6 +77,8 @@ class EnemyEncounter < Entry
   
   # Initialize the entry properties.
   def init_props
+    super
+
     self[VOC.filter    ] = StrProp.new(nil, '', ext: true)
     self[VOC.initiative] = IntProp.new(:u8,  0           )
     self[VOC.magic_exp ] = IntProp.new(:u8,  0           )
@@ -101,6 +95,8 @@ class EnemyEncounter < Entry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
     (1..8).each do |_i|
       fetch(VOC.enemy_id(_i)).proc = Proc.new do |_id|
         if _id != 255
@@ -124,8 +120,8 @@ class EnemyEncounter < Entry
     end
   end
 
-end	# class EnemyEncounter
+end # class EnemyEncounter
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

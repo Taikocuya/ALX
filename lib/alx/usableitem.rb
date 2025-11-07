@@ -36,19 +36,6 @@ module ALX
 class UsableItem < StdEntry
 
 #==============================================================================
-#                                   PUBLIC
-#==============================================================================
-
-  public
-
-  # Constructs an UsableItem.
-  def initialize
-    super
-    init_props
-    init_procs
-  end
-
-#==============================================================================
 #                                  PROTECTED
 #==============================================================================
 
@@ -56,6 +43,7 @@ class UsableItem < StdEntry
 
   # Initialize the entry properties.
   def init_props
+    super
     add_name_props
     
     self[VOC.occasion_flags] = IntProp.new(:u8, 0, base: 2, width: 6)
@@ -94,6 +82,14 @@ class UsableItem < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:usable_item_id_range).begin,
+      name_table: 'IppanItemDataTable',
+      dscr_table: 'IppanItemMessageDataTable'
+    )
+
     fetch(VOC.occasion_flags).proc = Proc.new do |_flags|
       VOC.occasions.each do |_id, _occasion|
         self[_occasion] = (_flags & (0x4 >> _id) != 0) ? 'X' : ''
@@ -121,8 +117,8 @@ class UsableItem < StdEntry
     end
   end
 
-end	# class UsableItem
+end # class UsableItem
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

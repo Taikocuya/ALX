@@ -41,13 +41,6 @@ class ShipItem < StdEntry
 
   public
 
-  # Constructs a ShipItem.
-  def initialize
-    super
-    init_props
-    init_procs
-  end
-
 #==============================================================================
 #                                  PROTECTED
 #==============================================================================
@@ -56,6 +49,7 @@ class ShipItem < StdEntry
 
   # Initialize the entry properties.
   def init_props
+    super
     add_name_props
 
     if product_id != '6107110 06' && product_id != '6107810'
@@ -137,6 +131,14 @@ class ShipItem < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:ship_item_id_range).begin,
+      name_table: 'ShipItemParamP',
+      dscr_table: 'ShipItemMessageDataTable'
+    )
+    
     fetch(VOC.occasion_flags).proc = Proc.new do |_flags|
       VOC.occasions.each do |_id, _occasion|
         self[_occasion] = (_flags & (0x4 >> _id) != 0) ? 'X' : ''
@@ -154,8 +156,8 @@ class ShipItem < StdEntry
     end
   end
 
-end	# class ShipItem
+end # class ShipItem
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

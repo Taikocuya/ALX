@@ -84,8 +84,8 @@ class BnrFile
   attr_reader :maker_name
   attr_reader :description
   
-end	# class BnrFile
+end # class BnrFile
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

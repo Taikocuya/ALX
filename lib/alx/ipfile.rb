@@ -90,8 +90,8 @@ class IPFile
   attr_reader :maker_name
   attr_reader :description
 
-end	# class IPFile
+end # class IPFile
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

@@ -41,14 +41,6 @@ class EnemySuperMove < StdEntry
 
   public
 
-  # Constructs an EnemySuperMove.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -75,6 +67,7 @@ class EnemySuperMove < StdEntry
   
   # Initialize the entry properties.
   def init_props
+    super
     add_name_props
 
     if jp? || us?
@@ -115,6 +108,13 @@ class EnemySuperMove < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
+    add_id_proc(
+      dscrptr(:enemy_magic_id_range).max + 1,
+      name_table: 'EnspatkDataTable'
+    )
+
     fetch(VOC.category_id).proc = Proc.new do |_id|
       self[VOC.category_name] = VOC.enemy_skill_categories(_id)
     end
@@ -172,8 +172,8 @@ class EnemySuperMove < StdEntry
     end
   end
 
-end	# class EnemySuperMove
+end # class EnemySuperMove
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

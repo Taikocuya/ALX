@@ -48,7 +48,6 @@ class SwashbucklerData < StdEntryData
     super(Swashbuckler, _depend)
     self.id_range  = dscrptr(:swashbuckler_id_range)
     self.data_file = dscrptr(:swashbuckler_data_files)
-    self.name_file = dscrptr(:swashbuckler_name_files)
     self.csv_file  = join(CFG.swashbuckler_csv_file)
     self.tpl_file  = File.join(CFG.build_dir, CFG.swashbuckler_tpl_file)
   end

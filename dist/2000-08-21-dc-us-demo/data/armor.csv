@@ -1,15 +1,25 @@
 Entry ID,Entry US Name,PC Flags,[V],[A],[F],[D],[E],[G],Sell%,US Order 1,US Order 2,Pad 1,Buy,Trait 1 ID,[Trait 1 Name],Pad 2,Trait 1 Value,Trait 2 ID,[Trait 2 Name],Pad 3,Trait 2 Value,Trait 3 ID,[Trait 3 Name],Pad 4,Trait 3 Value,Trait 4 ID,[Trait 4 Name],Pad 5,Trait 4 Value,[US Descr Pos],[US Descr Size],US Descr Str
-80,ヴァイス服,0b00100111,X,"","",X,X,X,50,0,5,0,52,17,Defense,0,22,18,MagDef,0,18,-1,None,0,0,-1,None,0,0,0x33337c,24,ヴァイスの服。弱い。\n
-81,アイカ服,0b00011000,"",X,X,"","","",50,1,1,0,60,17,Defense,0,18,18,MagDef,0,22,-1,None,0,0,-1,None,0,0,0x333394,24,アイカの服。黄色い。\n
-82,Silk Robe,0b00011010,"",X,X,"",X,"",50,3,47,0,65,17,Defense,0,16,18,MagDef,0,24,-1,None,0,0,-1,None,0,0,0x3333ac,96,A white robe made of silk mixed with blessed\nfabric that increases one's resistance to magic.
-83,ドラクマ服,0b00110101,X,X,"",X,"",X,50,4,42,0,276,17,Defense,0,44,18,MagDef,0,44,-1,None,0,0,-1,None,0,0,0x33340c,24,ドラクマの服。くさい。\n
-84,エンリック服,0b00001010,"","",X,"",X,"",50,27,8,0,1453,17,Defense,0,99,18,MagDef,0,99,19,Hit%,0,5,20,Dodge%,0,5,0x333424,24,エンリックの服。高い。\n
-85,ギルダー服,0b00100101,X,"","",X,"",X,50,22,16,0,1452,17,Defense,0,129,18,MagDef,0,86,-1,None,0,0,-1,None,0,0,0x33343c,44,ギルダーの服。かっこいい…と思っている。\n
-86,Leather Clothing,0b00111111,X,X,X,X,X,X,50,7,33,0,90,17,Defense,0,25,18,MagDef,0,25,33,Red,0,-2,-1,None,0,0,0x333468,84,Clothing made out of Nazir camel hides. It\nprotects well and is flame resistant.
-87,Pirate Clothes,0b00110101,X,X,"",X,"",X,50,2,36,0,50,17,Defense,0,20,18,MagDef,0,20,-1,None,0,0,-1,None,0,0,0x3334bc,60,The average garb of the air pirates. Although\ncomfortable
-88,クルー服,0b00110101,X,X,"",X,"",X,50,5,21,0,276,17,Defense,0,44,18,MagDef,0,44,-1,None,0,0,-1,None,0,0,0x3334f8,12,服です。\n
+80,ヴァイス服,0b00100111,X,"","",X,X,X,50,0,5,0,52,17,Defense,0,22,18,MagDef,0,18,-1,None,0,0,-1,None,0,0,0x33337c,24,"ヴァイスの服。弱い。
+"
+81,アイカ服,0b00011000,"",X,X,"","","",50,1,1,0,60,17,Defense,0,18,18,MagDef,0,22,-1,None,0,0,-1,None,0,0,0x333394,24,"アイカの服。黄色い。
+"
+82,Silk Robe,0b00011010,"",X,X,"",X,"",50,3,47,0,65,17,Defense,0,16,18,MagDef,0,24,-1,None,0,0,-1,None,0,0,0x3333ac,96,"A white robe made of silk mixed with blessed
+fabric that increases one's resistance to magic."
+83,ドラクマ服,0b00110101,X,X,"",X,"",X,50,4,42,0,276,17,Defense,0,44,18,MagDef,0,44,-1,None,0,0,-1,None,0,0,0x33340c,24,"ドラクマの服。くさい。
+"
+84,エンリック服,0b00001010,"","",X,"",X,"",50,27,8,0,1453,17,Defense,0,99,18,MagDef,0,99,19,Hit%,0,5,20,Dodge%,0,5,0x333424,24,"エンリックの服。高い。
+"
+85,ギルダー服,0b00100101,X,"","",X,"",X,50,22,16,0,1452,17,Defense,0,129,18,MagDef,0,86,-1,None,0,0,-1,None,0,0,0x33343c,44,"ギルダーの服。かっこいい…と思っている。
+"
+86,Leather Clothing,0b00111111,X,X,X,X,X,X,50,7,33,0,90,17,Defense,0,25,18,MagDef,0,25,33,Red,0,-2,-1,None,0,0,0x333468,84,"Clothing made out of Nazir camel hides. It
+protects well and is flame resistant."
+87,Pirate Clothes,0b00110101,X,X,"",X,"",X,50,2,36,0,50,17,Defense,0,20,18,MagDef,0,20,-1,None,0,0,-1,None,0,0,0x3334bc,60,"The average garb of the air pirates. Although
+comfortable"
+88,クルー服,0b00110101,X,X,"",X,"",X,50,5,21,0,276,17,Defense,0,44,18,MagDef,0,44,-1,None,0,0,-1,None,0,0,0x3334f8,12,"服です。
+"
 89,綿のローブ,0b00011010,"",X,X,"",X,"",50,6,48,0,324,17,Defense,0,35,18,MagDef,0,52,-1,None,0,0,-1,None,0,0,0x0,0,""
-90,Soranche Clothes,0b00100101,X,"","",X,"",X,50,11,17,0,160,17,Defense,0,43,18,MagDef,0,28,-1,None,0,0,-1,None,0,0,0x333504,28,Popular among men\nphysical
+90,Soranche Clothes,0b00100101,X,"","",X,"",X,50,11,17,0,160,17,Defense,0,43,18,MagDef,0,28,-1,None,0,0,-1,None,0,0,0x333504,28,"Popular among men
+physical"
 91,丈夫な服,0b00111111,X,X,X,X,X,X,50,8,26,0,357,17,Defense,0,50,18,MagDef,0,50,36,Yellow,0,-2,-1,None,0,0,0x0,0,""
 92,シーマン服,0b00110101,X,X,"",X,"",X,50,9,25,0,452,17,Defense,0,56,18,MagDef,0,56,-1,None,0,0,-1,None,0,0,0x0,0,""
 93,高貴な衣,0b00001010,"","",X,"",X,"",50,12,22,0,426,17,Defense,0,54,18,MagDef,0,54,19,Hit%,0,5,20,Dodge%,0,5,0x0,0,""
@@ -32,7 +42,8 @@ Entry ID,Entry US Name,PC Flags,[V],[A],[F],[D],[E],[G],Sell%,US Order 1,US Orde
 110,ネプチューン服,0b00110101,X,X,"",X,"",X,50,36,44,0,3292,17,Defense,0,148,18,MagDef,0,148,-1,None,0,0,-1,None,0,0,0x0,0,""
 111,水神の衣,0b00001010,"","",X,"",X,"",50,37,29,0,2078,17,Defense,0,118,18,MagDef,0,118,19,Hit%,0,5,20,Dodge%,0,5,0x0,0,""
 112,もっこりスーツ,0b00100111,X,"","",X,X,X,50,38,49,0,3503,17,Defense,0,176,18,MagDef,0,144,-1,None,0,0,-1,None,0,0,0x0,0,""
-113,Leather Skirt,0b00011000,"",X,X,"","","",50,39,40,0,4000,17,Defense,0,140,18,MagDef,0,170,4,Quick,0,20,73,Counter%,0,20,0x333520,76,A leather skirt lightly boiled in molten wax to\nstrengthen the material.
+113,Leather Skirt,0b00011000,"",X,X,"","","",50,39,40,0,4000,17,Defense,0,140,18,MagDef,0,170,4,Quick,0,20,73,Counter%,0,20,0x333520,76,"A leather skirt lightly boiled in molten wax to
+strengthen the material."
 114,最後の服,0b00111111,X,X,X,X,X,X,50,41,24,0,3429,17,Defense,0,151,18,MagDef,0,151,79,Block Neg States,0,-2,-1,None,0,0,0x0,0,""
 115,アルカディア服,0b00110101,X,X,"",X,"",X,50,42,3,0,4268,17,Defense,0,168,18,MagDef,0,168,-1,None,0,0,-1,None,0,0,0x0,0,""
 116,真実の衣,0b00001010,"","",X,"",X,"",50,43,28,0,2693,17,Defense,0,134,18,MagDef,0,134,19,Hit%,0,5,20,Dodge%,0,5,0x0,0,""

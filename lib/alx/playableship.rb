@@ -41,14 +41,6 @@ class PlayableShip < StdEntry
 
   public
 
-  # Constructs a PlayableShip.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -93,6 +85,7 @@ class PlayableShip < StdEntry
   
   # Initialize the entry properties.
   def init_props
+    super
     add_name_props(20)
 
     self[VOC.maxhp] = IntProp.new(:u32, 0)
@@ -146,6 +139,13 @@ class PlayableShip < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:playable_ship_id_range).begin,
+      name_table: 'PlShipInitParamP'
+    )
+
     (1..@ship_cannon_size).each do |_i|
       fetch(VOC.cannon_id(_i)).proc = Proc.new do |_id|
         if _id != -1
@@ -155,7 +155,7 @@ class PlayableShip < StdEntry
             if jp? || us?
               _name = _entry[VOC.name_str(cid)]
             elsif eu?
-              _name = _entry[VOC.name_str('GB')]
+              _name = _entry[VOC.name_opt(gb)]
             end
           end
         else
@@ -174,7 +174,7 @@ class PlayableShip < StdEntry
             if jp? || us?
               _name = _entry[VOC.name_str(cid)]
             elsif eu?
-              _name = _entry[VOC.name_str('GB')]
+              _name = _entry[VOC.name_opt(gb)]
             end
           end
         else
@@ -185,8 +185,8 @@ class PlayableShip < StdEntry
     end
   end
 
-end	# class PlayableShip
+end # class PlayableShip
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

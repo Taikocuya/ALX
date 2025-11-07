@@ -41,14 +41,6 @@ class SpiritCurve < StdEntry
 
   public
 
-  # Constructs a SpiritCurve.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -74,6 +66,8 @@ class SpiritCurve < StdEntry
   
   # Initialize the entry properties.
   def init_props
+    super
+
     self[VOC.character_name(nil)] = StrProp.new(nil, '', dmy: true)
     (1..99).each do |_i|
       self[VOC.sp(_i)   ] = IntProp.new(:i8, 0)
@@ -83,6 +77,8 @@ class SpiritCurve < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
     fetch(VOC.id).proc = Proc.new do |_id|
       _chara = @characters[id]
       _name  = '???'
@@ -93,8 +89,8 @@ class SpiritCurve < StdEntry
     end
   end
 
-end	# class SpiritCurve
+end # class SpiritCurve
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

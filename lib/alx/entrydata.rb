@@ -47,10 +47,9 @@ class EntryData
   # @param _class  [Entry]   Entry object
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_class, _depend = true)
-    @@memory ||= {}
-    @class     = _class
-    @depend    = _depend
-    @cache     = CacheFile.new
+    @class  = _class
+    @depend = _depend
+    @cache  = CacheFile.new
   end
 
   # Creates an entry.
@@ -110,6 +109,10 @@ class EntryData
     Root.country_id
   end
   alias cid country_id
+
+  def sot_files
+    Root.sot_files
+  end
 
   # Returns +true+ if the platform is a Dreamcast, otherwise +false+.
   # @return [Boolean] +true+ if platform is a Dreamcast, otherwise +false+.
@@ -287,11 +290,7 @@ class EntryData
   def us
     'US'
   end
-    
-  def languages
-    CFG.language_names.keys
-  end
-  
+
   def de
     'DE'
   end

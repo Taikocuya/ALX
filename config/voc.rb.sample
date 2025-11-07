@@ -1,6 +1,6 @@
 #******************************************************************************
 # ALX - Skies of Arcadia Legends Examiner
-# Copyright (C) 2024 Marcel Renner
+# Copyright (C) 2025 Marcel Renner
 # 
 # This file is part of ALX.
 # 
@@ -99,6 +99,8 @@ VOC.configure do |_v|
   _v.ship_dscr_pos  = hdr('[Ship %s Descr Pos]' )
   _v.ship_dscr_size = hdr('[Ship %s Descr Size]')
   _v.ship_dscr_str  = hdr('Ship %s Descr Str'   )
+  _v.ship_dscr_opt  = hdr('[Ship %s Descr Str]' )
+  _v.sot_pos        = hdr('%s SOT Pos')
 
   _v.task_id     = 'Task ID'
   _v.task_name   = '[Task Name]'
@@ -717,10 +719,7 @@ VOC.configure do |_v|
   _v.enemy_ship_id   = '[ES ID]'
   _v.enemy_ship_name = '[ES Name]'
 
-  _v.arm_name_pos  = hdr('[Arm %d %s Name Pos]' )
-  _v.arm_name_size = hdr('[Arm %d %s Name Size]')
-  _v.arm_name_str  = hdr('Arm %d %s Name Str'   )
-
+  _v.arm_name         = hdr('[Arm %d Name]' )
   _v.arm_attack       = hdr('Arm %d Attack'        )
   _v.arm_type_id      = hdr('Arm %d Type ID'       )
   _v.arm_type_name    = hdr('[Arm %d Type name]'   )

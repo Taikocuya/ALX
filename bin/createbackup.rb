@@ -57,6 +57,10 @@ class BackupCreator < EntryTransform
           create_backup(_p)
         end
         
+        sot_files.each do |_p|
+          create_backup(_p)
+        end
+        
         create_backup(cfg(:evp_file))
         create_backup(cfg(:level_file))
 
@@ -73,19 +77,6 @@ class BackupCreator < EntryTransform
           create_backup(_p)
         end
         Dir.glob(cfg(:tec_file)).each do |_p|
-          create_backup(_p)
-        end
-        
-        Dir.glob(cfg(:sot_file_de)).each do |_p|
-          create_backup(_p)
-        end
-        Dir.glob(cfg(:sot_file_es)).each do |_p|
-          create_backup(_p)
-        end
-        Dir.glob(cfg(:sot_file_fr)).each do |_p|
-          create_backup(_p)
-        end
-        Dir.glob(cfg(:sot_file_gb)).each do |_p|
           create_backup(_p)
         end
       end

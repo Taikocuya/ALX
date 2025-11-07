@@ -44,28 +44,26 @@ class CharacterMagic < CharacterSuperMove
   # Initialize the entry properties.
   def init_props
     super
-    
+
     if product_id != '6107110 06' && product_id != '6107810'
-      _pos  = VOC.ship_dscr_pos
-      _size = VOC.ship_dscr_size
-      _str  = VOC.ship_dscr_str
-      
-      if jp? || us?
-        self[_pos[cid] ] = IntProp.new(:u32,  0, base: 16, ext: true)
-        self[_size[cid]] = IntProp.new(:u32,  0,           ext: true)
-        self[_str[cid] ] = StrProp.new( nil, '',           ext: true)
-      elsif eu?
-        languages.each do |_l|
-          self[_pos[_l] ] = IntProp.new(:u32,  0, base: 16, ext: true)
-          self[_size[_l]] = IntProp.new(:u32,  0,           ext: true)
-          self[_str[_l] ] = StrProp.new( nil, '',           ext: true)
-        end
-      end
+      add_ship_dscr_props
     end
   end
-  
-end	# class CharacterMagic
+
+  # Initialize the entry procs.
+  def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:character_magic_id_range).begin,
+      name_table:      'MagicDataTable',
+      dscr_table:      'MagicMessageDataTable',
+      ship_dscr_table: 'ShipMagicMessageDataTable'
+    )
+  end
+
+end # class CharacterMagic
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

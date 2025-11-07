@@ -41,12 +41,6 @@ class ScriptVersion < Entry
 
   public
 
-  # Constructs an ScriptVersion.
-  def initialize
-    super
-    init_props
-  end
-  
   # Returns +true+ if the script version is valid, otherwise +false+.
   # @return [Boolean] +true+ if script version is valid, otherwise +false+.
   def valid?
@@ -82,6 +76,8 @@ class ScriptVersion < Entry
 
   # Initialize the entry properties.
   def init_props
+    super
+
     self[VOC.filter ] = StrProp.new( nil, '', ext: true)
     self[VOC.year   ] = IntProp.new(:i16, -1           )
     self[VOC.month  ] = IntProp.new(:i16, -1           )
@@ -89,8 +85,8 @@ class ScriptVersion < Entry
     self[VOC.version] = IntProp.new(:i16, -1           )
   end
 
-end	# class ScriptVersion
+end # class ScriptVersion
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

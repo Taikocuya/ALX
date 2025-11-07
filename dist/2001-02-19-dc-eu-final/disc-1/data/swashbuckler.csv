@@ -1,17 +1,17 @@
-Entry ID,EU Message ID,[Entry DE Name Pos],[Entry DE Name Size],Entry DE Name,[Entry ES Name Pos],[Entry ES Name Size],Entry ES Name,[Entry FR Name Pos],[Entry FR Name Size],Entry FR Name,[Entry GB Name Pos],[Entry GB Name Size],Entry GB Name,Rating,Pad 1,Regular Atk,S-Move Atk,Dodge%,Run%,Pad 2
-0,0x8c34597c,0x1b060,17,"Vyse, der Tölpel",0x1afab,14,Vyse el Tonto,0x1b2e1,14,Vyse le Nigot,0x1ab16,15,Vyse the Ninny,5,0,0,0,50,200,0
-1,0x8c34598c,0x1b071,19,"Vyse, der Feigling",0x1afb9,16,Vyse el Cobarde,0x1b2ef,15,Vyse le Couard,0x1ab25,16,Vyse the Coward,95,0,-1,-1,1,10,0
-2,0x8c34599c,0x1b084,22,"Vyse, der Langweilige",0x1afc9,23,Vyse el Insignificante,0x1b2fe,15,Vyse le Simple,0x1ab35,22,Vyse the Unimpressive,105,0,0,0,0,0,0
-3,0x8c3459b4,0x1b09a,21,"Vyse, der Blue Rogue",0x1afe0,21,Vyse el Bandido Azul,0x1b30d,20,Vyse le Voleur Bleu,0x1ab4b,20,Vyse the Blue Rogue,115,0,1,1,-1,-1,0
-4,0x8c3459c8,0x1b0af,17,"Vyse, der Fähige",0x1aff5,19,Vyse el Competente,0x1b321,18,Vyse le Compétent,0x1ab5f,19,Vyse the Competent,125,0,1,1,-1,-1,0
-5,0x8c3459dc,0x1b0c0,24,"Vyse, der Entschlossene",0x1b008,17,Vyse el Decidido,0x1b333,18,Vyse le Déterminé,0x1ab72,20,Vyse the Determined,135,0,1,1,-1,-1,0
-6,0x8c3459f0,0x1b0d8,20,"Vyse, der Geachtete",0x1b019,18,Vyse el Respetado,0x1b345,17,Vyse le Respecté,0x1ab86,19,Vyse the Respected,145,0,1,1,-1,-1,0
-7,0x8c345a04,0x1b0ec,22,Bewundernswerter Vyse,0x1b02b,18,Vyse el Admirable,0x1b356,17,Vyse l'Admirable,0x1ab99,19,Vyse the Admirable,155,0,2,2,-2,-2,0
-8,0x8c345a18,0x1b102,16,"Vyse, der Kühne",0x1b03d,17,Vyse el Valiente,0x1b367,17,Vyse l'Intrépide,0x1abac,14,Vyse the Bold,165,0,2,2,-2,-2,0
-9,0x8c345a28,0x1b112,18,"Vyse, der Tapfere",0x1b04e,17,Vyse el Gallardo,0x1b378,17,Vyse le Vaillant,0x1abba,17,Vyse the Valiant,175,0,2,2,-2,-2,0
-10,0x8c345a3c,0x1b124,17,"Vyse, der Mutige",0x1b05f,17,Vyse el Atrevido,0x1b389,17,Vyse l'Audacieux,0x1abcb,16,Vyse the Daring,185,0,2,2,-2,-2,0
-11,0x8c345a4c,0x1b135,18,"Vyse, der Forsche",0x1b070,18,Vyse el Impetuoso,0x1b39a,17,Vyse l'Impétueux,0x1abdb,17,Vyse the Dashing,195,0,3,3,-3,-3,0
-12,0x8c345a60,0x1b147,21,"Vyse, der Furchtlose",0x1b082,18,Vyse el Temerario,0x1b3ab,18,Vyse le Courageux,0x1abec,18,Vyse the Fearless,205,0,3,3,-3,-3,0
-13,0x8c345a74,0x1b15c,15,"Vyse, der Held",0x1b094,14,Vyse el Héroe,0x1b3bd,13,Vyse le Héro,0x1abfe,14,Vyse the Hero,215,0,3,3,-3,-3,0
-14,0x8c345a84,0x1b16b,23,"Vyse, König der Rogues",0x1b0a2,25,Vyse Rey de los Bandidos,0x1b3ca,22,"Vyse, Roi des Voleurs",0x1ac0c,21,"Vyse, King of Rogues",225,0,3,3,-3,-3,0
-15,0x8c345a9c,0x1b182,18,"Vyse, die Legende",0x1b0bb,15,Vyse la Leyend,0x1b3e0,16,Vyse la Légende,0x1ac21,16,Vyse the Legend,250,0,4,4,4,4,0
+Entry ID,EU SOT Pos,[Entry GB Name],Rating,Pad 1,Regular Atk,S-Move Atk,Dodge%,Run%,Pad 2
+0,0x8c34597c,Vyse the Ninny,5,0,0,0,50,200,0
+1,0x8c34598c,Vyse the Coward,95,0,-1,-1,1,10,0
+2,0x8c34599c,Vyse the Unimpressive,105,0,0,0,0,0,0
+3,0x8c3459b4,Vyse the Blue Rogue,115,0,1,1,-1,-1,0
+4,0x8c3459c8,Vyse the Competent,125,0,1,1,-1,-1,0
+5,0x8c3459dc,Vyse the Determined,135,0,1,1,-1,-1,0
+6,0x8c3459f0,Vyse the Respected,145,0,1,1,-1,-1,0
+7,0x8c345a04,Vyse the Admirable,155,0,2,2,-2,-2,0
+8,0x8c345a18,Vyse the Bold,165,0,2,2,-2,-2,0
+9,0x8c345a28,Vyse the Valiant,175,0,2,2,-2,-2,0
+10,0x8c345a3c,Vyse the Daring,185,0,2,2,-2,-2,0
+11,0x8c345a4c,Vyse the Dashing,195,0,3,3,-3,-3,0
+12,0x8c345a60,Vyse the Fearless,205,0,3,3,-3,-3,0
+13,0x8c345a74,Vyse the Hero,215,0,3,3,-3,-3,0
+14,0x8c345a84,"Vyse, King of Rogues",225,0,3,3,-3,-3,0
+15,0x8c345a9c,Vyse the Legend,250,0,4,4,4,4,0

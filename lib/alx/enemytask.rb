@@ -41,14 +41,6 @@ class EnemyTask < Entry
 
   public
 
-  # Constructs an EnemyShipTask.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
   # Compares two entries based on properties. Returns +true+ if all properties 
   # are equal, or +false+ otherwise.
   # @param _entry [Entry] Entry object
@@ -185,6 +177,8 @@ class EnemyTask < Entry
   
   # Initialize the entry properties.
   def init_props
+    super
+
     self[VOC.filter             ] = AryProp.new(      [], dmy: true)
     self[VOC.enemy_ref          ] = IntProp.new(:u32, -1, dmy: true)
     self[VOC.enemy_name(nil, jp)] = StrProp.new( nil, '', dmy: true)
@@ -203,6 +197,8 @@ class EnemyTask < Entry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
     fetch(VOC.enemy_ref).proc = Proc.new do |_id|
       _entry = @enemies.find { |_enemy| _enemy.id == _id }
       if _entry
@@ -253,7 +249,7 @@ class EnemyTask < Entry
           if jp? || us?
             _task_name = _entry[VOC.name_str(cid)]
           elsif eu?
-            _task_name = _entry[VOC.name_str('GB')]
+            _task_name = _entry[VOC.name_opt(gb)]
           end
         end
       
@@ -267,8 +263,8 @@ class EnemyTask < Entry
     end
   end
 
-end	# class EnemyTask
+end # class EnemyTask
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

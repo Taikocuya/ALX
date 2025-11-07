@@ -48,7 +48,6 @@ class EnemyMagicData < StdEntryData
     super(EnemyMagic, _depend)
     self.id_range  = dscrptr(:enemy_magic_id_range)
     self.data_file = dscrptr(:enemy_magic_data_files)
-    self.name_file = dscrptr(:enemy_magic_name_files)
     self.csv_file  = join(CFG.enemy_magic_csv_file)
     self.tpl_file  = File.join(CFG.build_dir, CFG.enemy_magic_tpl_file)
     

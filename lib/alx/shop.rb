@@ -41,14 +41,6 @@ class Shop < StdEntry
 
   public
 
-  # Constructs a Shop.
-  def initialize
-    super
-    init_attrs
-    init_props
-    init_procs
-  end
-
 #------------------------------------------------------------------------------
 # Public Member Variables
 #------------------------------------------------------------------------------
@@ -74,9 +66,11 @@ class Shop < StdEntry
   
   # Initialize the entry properties.
   def init_props
-    self[VOC.id             ] = IntProp.new(:u16, 0          )
-    self[padding_hdr        ] = IntProp.new(:i16, 0          )
-    self[VOC.message_id(cid)] = IntProp.new(:u32, 0, base: 16)
+    super
+
+    self[VOC.id          ] = IntProp.new(:u16, 0          )
+    self[padding_hdr     ] = IntProp.new(:i16, 0          )
+    self[VOC.sot_pos(cid)] = IntProp.new(:u32, 0, base: 16)
 
     add_dscr_props
     
@@ -88,6 +82,13 @@ class Shop < StdEntry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:shop_id_range).begin,
+      dscr_table: 'shopDataBaseTbl'
+    )
+
     (1..48).each do |_i|
       fetch(VOC.item_id(_i)).proc = Proc.new do |_id|
         if _id != -1
@@ -97,7 +98,7 @@ class Shop < StdEntry
             if jp? || us?
               _name = _entry[VOC.name_str(cid)]
             elsif eu?
-              _name = _entry[VOC.name_str('GB')]
+              _name = _entry[VOC.name_opt(gb)]
             end
           end
         else
@@ -108,8 +109,8 @@ class Shop < StdEntry
     end
   end
 
-end	# class Shop
+end # class Shop
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

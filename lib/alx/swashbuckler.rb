@@ -36,18 +36,6 @@ module ALX
 class Swashbuckler < StdEntry
 
 #==============================================================================
-#                                   PUBLIC
-#==============================================================================
-
-  public
-
-  # Constructs a Swashbuckler.
-  def initialize
-    super
-    init_props
-  end
-
-#==============================================================================
 #                                  PROTECTED
 #==============================================================================
 
@@ -55,17 +43,9 @@ class Swashbuckler < StdEntry
 
   # Initialize the entry properties.
   def init_props
-    if jp? || us?
-      self[VOC.name_str(cid)] = StrProp.new(25, '')
-    elsif eu?
-      self[VOC.message_id(cid)] = IntProp.new(:u32, 0, base: 16)
-      languages.each do |_l|
-        self[VOC.name_pos(_l) ] = IntProp.new(:u32,  0, base: 16, ext: true)
-        self[VOC.name_size(_l)] = IntProp.new(:u32,  0,           ext: true)
-        self[VOC.name_str(_l) ] = StrProp.new( nil, '',           ext: true)
-      end
-    end
-    
+    super
+    add_name_props(25)
+
     self[VOC.rating] = IntProp.new( :u8, 0)
     
     if eu?
@@ -82,8 +62,18 @@ class Swashbuckler < StdEntry
     end
   end
 
-end	# class Swashbuckler
+  # Initialize the entry procs.
+  def init_procs
+    super
+
+    add_id_proc(
+      -dscrptr(:swashbuckler_id_range).begin,
+      name_table: 'OtokogiDataTable'
+    )
+  end
+
+end # class Swashbuckler
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX

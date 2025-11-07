@@ -33,20 +33,7 @@ module ALX
 #==============================================================================
 
 # Class to handle a weapon effect.
-class WeaponEffect < Entry
-
-#==============================================================================
-#                                   PUBLIC
-#==============================================================================
-
-  public
-
-  # Constructs a WeaponEffect.
-  def initialize
-    super
-    init_props
-    init_procs
-  end
+class WeaponEffect < StdEntry
 
 #==============================================================================
 #                                  PROTECTED
@@ -56,6 +43,8 @@ class WeaponEffect < Entry
 
   # Initialize the entry properties.
   def init_props
+    super
+
     self[VOC.name_str(jp) ] = StrProp.new( 17, ''           )
     self[VOC.dscr_opt(nil)] = StrProp.new(nil, '', dmy: true)
     self[VOC.effect_id    ] = IntProp.new(:i8, -1           )
@@ -67,6 +56,8 @@ class WeaponEffect < Entry
   
   # Initialize the entry procs.
   def init_procs
+    super
+
     fetch(VOC.effect_id).proc = Proc.new do |_id|
       self[VOC.effect_name] = VOC.effects(_id)
       
@@ -90,8 +81,8 @@ class WeaponEffect < Entry
     end
   end
 
-end	# class WeaponEffect
+end # class WeaponEffect
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX
