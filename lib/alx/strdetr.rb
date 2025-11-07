@@ -34,28 +34,30 @@ STRDETR.configure do |_d|
 #------------------------------------------------------------------------------
 
   # Enables or disables the use of a defined string dictionary. When enabled, 
-  # all valid strings are cached before the +STRDETR.defined_string_filters+ 
-  # are applied. This dictionary allows skipping the full string detection in 
-  # subsequent runs. Useful for quickly testing filter changes without 
-  # re-scanning the file.
+  # all valid strings are cached before +STRDETR.defined_string_filters+ are 
+  # applied. This speeds up subsequent runs by skipping full detection. Useful 
+  # for quick filter tests.
   _d.defined_string_use_dictionary = false
   # Enables or disables filter bypassing. When enabled, no defined string 
-  # filters are applied at all.
+  # filters are applied.
   _d.defined_string_ignore_filter  = false
-  # Enables or disables filter inversion. When enabled, only strings that 
-  # would normally be rejected by the filters are collected.
+  # Enables or disables filter inversion. When enabled, only strings normally 
+  # rejected by filters are collected.
   _d.defined_string_invert_filter  = false
-  # Enables or disables filter appending. When enabled, all filters that were 
-  # applied are also stored. Useful for determining which filter from
-  # +STRDETR.defined_string_filters+ was ultimately used.
+  # Enables or disables string data appending. When enabled, an escaped
+  # representation of each string is also stored. Useful for preserving raw 
+  # byte semantics.
+  _d.defined_string_append_data    = false
+  # Enables or disables filter appending. When enabled, all filters used are
+  # stored for later analysis. Useful for identifying which filter matched.
   _d.defined_string_append_filter  = false
   # Enables or disables keep-all mode. When enabled, even empty or discarded 
-  # strings are retained. Useful for comparing the effects of filter changes 
-  # with a diff tool.
+  # strings are retained. Useful for diff-based comparisons after filter 
+  # changes.
   _d.defined_string_keep_all       = false
-  # Enables or disables text-only mode. When enabled, only plain text 
-  # (without metadata) is collected. Useful for comparing game data 
-  # directories using a diff tool.
+  # Enables or disables text-only mode. When enabled, only plain text (without 
+  # metadata) is collected. Useful for comparing game data directories using a 
+  # diff tool.
   _d.defined_string_text_only      = false
 
   # Byte alignment requirement for the start of defined strings.

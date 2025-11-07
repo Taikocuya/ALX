@@ -239,7 +239,7 @@ module Serializable
       end
     end
     _str = _str.unpack1('Z*')
-    
+
     _diff = pos - _beg
     if blocks && blocks > 0 && _diff % blocks != 0
       _msg = sprintf(
@@ -255,9 +255,15 @@ module Serializable
     end
     
     if enc == 'Windows-1252'
-      _str.gsub!("\x81\x63".force_encoding('ASCII-8BIT'), "\x85")
+      _str.gsub!("\x81\x63".b, "\x85".b)
+      _str.gsub!("\x81\x66".b, '\''.b  )
+      _str.gsub!("\x81\x67".b, '['.b   )
+      _str.gsub!("\x81\x68".b, ']'.b   )
+      _str.gsub!("\x81\x73".b, "\xab".b)
+      _str.gsub!("\x81\x74".b, "\xbb".b)
+      _str.gsub!("\x81\x40".b, "\x7f".b)
     end
-    
+
     _str.force_encoding(enc)
     _str.encode!('UTF-8')
     

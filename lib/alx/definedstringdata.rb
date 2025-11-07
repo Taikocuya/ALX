@@ -192,7 +192,7 @@ class DefinedStringData < EntryData
           _entry[VOC.string_value   ] = _detect.string
           _entry[VOC.string_data    ] = _detect.dump
           _entry[VOC.string_filter  ] = _detect.substitution
-          
+
           @data << _entry
         end
       end
@@ -221,7 +221,7 @@ class DefinedStringData < EntryData
         if !_descriptor.include?(_f.pos, _size)
           next
         end
-        
+
         _f.write_str(
           _str, length: _size, blocks: 0x1, enc: _encoding, tr: false
         )

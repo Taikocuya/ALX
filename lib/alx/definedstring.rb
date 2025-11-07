@@ -41,13 +41,6 @@ class DefinedString < Entry
 
   public
 
-  # Constructs a DefinedString.
-  def initialize
-    super
-    init_props
-
-  end
-
   # Returns the CSV header of the entry.
   # @return [Array] CSV header of entry
   def header
@@ -61,6 +54,9 @@ class DefinedString < Entry
         VOC.string_encoding,
         VOC.string_data,
       ]
+    end
+    if !STRDETR.defined_string_append_data
+      _header -= [VOC.string_data]
     end
     if !STRDETR.defined_string_append_filter
       _header -= [VOC.string_filter]
@@ -77,16 +73,18 @@ class DefinedString < Entry
 
   # Initialize the entry properties.
   def init_props
-    self[VOC.string_pos     ] = IntProp.new(:u32,  0, base: 16, ext: true )
-    self[VOC.string_size    ] = IntProp.new(:u32,  0,           ext: true )
-    self[VOC.string_encoding] = StrProp.new( nil, '',           ext: true )
-    self[VOC.string_value   ] = StrProp.new( nil, '',           ext: true )
-    self[VOC.string_data    ] = StrProp.new( nil, '',           esc: false)
-    self[VOC.string_filter  ] = StrProp.new( nil, '',           ext: true )
+    super
+
+    self[VOC.string_pos     ] = IntProp.new(:u32,  0, ext: true, base: 16, )
+    self[VOC.string_size    ] = IntProp.new(:u32,  0, ext: true            )
+    self[VOC.string_encoding] = StrProp.new( nil, '', ext: true            )
+    self[VOC.string_value   ] = StrProp.new( nil, '', ext: true            )
+    self[VOC.string_data    ] = StrProp.new( nil, '', ext: true, esc: false)
+    self[VOC.string_filter  ] = StrProp.new( nil, '', ext: true            )
   end
   
-end	# class DefinedString
+end # class DefinedString
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
-end	# module ALX
+end # module ALX
