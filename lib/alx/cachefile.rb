@@ -201,7 +201,7 @@ class CacheFile
       _comp = (_a.beg  <=> _b.beg ) if _comp == 0
       _comp = (_a.end  <=> _b.end ) if _comp == 0
       _comp = (_a.excl <=> _b.excl) if _comp == 0
-      _comp = (_a.msgt <=> _b.msgt) if _comp == 0
+      _comp = (_a.sot  <=> _b.sot ) if _comp == 0
       _comp
     end
   end
