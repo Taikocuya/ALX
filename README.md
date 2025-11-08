@@ -21,6 +21,7 @@ the game data of Skies of Arcadia, Skies of Arcadia Legends, Eternal Arcadia
 * Playable Ship Stats
 * Map Scripts (Events, Tasks and Versions)
 * Shops
+* String Object Table (SOT) files
 * Swashbuckler Ratings
 * Treasure Chests
 
