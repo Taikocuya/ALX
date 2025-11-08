@@ -23,7 +23,6 @@
 #==============================================================================
 
 require_relative('binaryfile.rb')
-require_relative('message.rb')
 require_relative('stringtableentrydata.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
@@ -52,7 +51,7 @@ class StdEntryData < EntryData
     @data_file = nil
     @name_file = nil
     @dscr_file = nil
-    @msg_table = {}
+    @sot_cache = {}
     @csv_file  = ''
     @tpl_file  = ''
 
@@ -164,7 +163,7 @@ class StdEntryData < EntryData
   attr_accessor :data_file
   attr_accessor :name_file
   attr_accessor :dscr_file
-  attr_accessor :msg_table
+  attr_accessor :sot_cache
   attr_accessor :csv_file
   attr_accessor :tpl_file
   attr_accessor :data
@@ -227,11 +226,11 @@ class StdEntryData < EntryData
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @id_range.begin
       _descriptor = find_descriptor(@name_file, _filename)
-      _msgt       = _descriptor.msgt
+      _sot        = _descriptor.sot
       
       _descriptor.each do |_range|
         _f.pos = _range.begin
-        _split = (!_msgt || _range.end != _descriptor.end)
+        _split = (!_sot || _range.end != _descriptor.end)
         
         (_last_id...@id_range.end).each do |_id|
           if _split && ( _f.eof? || !_descriptor.include?(_f.pos))
@@ -243,13 +242,13 @@ class StdEntryData < EntryData
           end
 
           _entry = @data[_id]
-          _msgid = _entry.sot_pos
+          _sot_pos = _entry.sot_pos
           _pos   = _entry.fetch(VOC.name_pos(cid))
           _size  = _entry.fetch(VOC.name_size(cid))
           _name  = _entry.fetch(VOC.name_str(cid))
       
-          if _msgt
-            _msg = @msg_table[_msgid]
+          if _sot
+            _msg = @sot_cache[_sot_pos]
             if _msg
               _pos.int  = _msg.pos
               _size.int = _msg.size
@@ -262,12 +261,12 @@ class StdEntryData < EntryData
           _name.str = _f.read_str(blocks: 0x1, enc: 'Windows-1252')
           _size.int = _f.pos - _pos.int
 
-          if _msgt
+          if _sot
             _msg               = Message.new
             _msg.pos           = _pos.int
             _msg.size          = _size.int
             _msg.value         = _name.str
-            @msg_table[_msgid] = _msg
+            @sot_cache[_sot_pos] = _msg
           end
         end
       end
@@ -282,11 +281,11 @@ class StdEntryData < EntryData
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @id_range.begin
       _descriptor = find_descriptor(@dscr_file, _filename)
-      _msgt       = _descriptor.msgt
+      _sot        = _descriptor.sot
       
       _descriptor.each do |_range|
         _f.pos = _range.begin
-        _split = (!_msgt || _range.end != _descriptor.end)
+        _split = (!_sot || _range.end != _descriptor.end)
         
         (_last_id...@id_range.end).each do |_id|
           if _split && (_f.eof? || !_descriptor.include?(_f.pos))
@@ -298,17 +297,17 @@ class StdEntryData < EntryData
           end
 
           _entry = @data[_id]
-          _msgid = _entry.sot_pos
+          _sot_pos = _entry.sot_pos
           _pos   = _entry.fetch(VOC.dscr_pos(cid))
           _size  = _entry.fetch(VOC.dscr_size(cid))
           _dscr  = _entry.fetch(VOC.dscr_str(cid))
           
-          if _msgt
-            _msg = @msg_table[_msgid]
-            if _msg
-              _pos.int  = _msg.pos
-              _size.int = _msg.size
-              _dscr.str = _msg.value
+          if _sot
+            _sot_cache_entry = @sot_cache[_sot_pos]
+            if _sot_cache_entry
+              _pos.int  = _sot_cache_entry.pos
+              _size.int = _sot_cache_entry.size
+              _dscr.str = _sot_cache_entry.value
               next
             end
           end
@@ -321,12 +320,12 @@ class StdEntryData < EntryData
           end
           _size.int = _f.pos - _pos.int
 
-          if _msgt
-            _msg               = Message.new
-            _msg.pos           = _pos.int
-            _msg.size          = _size.int
-            _msg.value         = _dscr.str
-            @msg_table[_msgid] = _msg
+          if _sot
+            @sot_cache[_sot_pos] = OpenStruct.new(
+              pos:   _pos.int,
+              size:  _size.int,
+              value: _dscr.str
+            )
           end
         end
       end

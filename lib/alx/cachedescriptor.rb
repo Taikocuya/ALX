@@ -129,8 +129,8 @@ class CacheDescriptor
     @descriptor.excl
   end
   
-  def msgt
-    @descriptor.msgt
+  def sot
+    @descriptor.sot
   end
 
 #==============================================================================

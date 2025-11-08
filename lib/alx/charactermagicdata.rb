@@ -104,11 +104,11 @@ class CharacterMagicData < StdEntryData
     BinaryFile.open(_filename, 'rb', endianness: endianness) do |_f|
       _last_id    = @id_range.begin
       _descriptor = find_descriptor(@ship_dscr_file, _filename)
-      _msgt       = _descriptor.msgt
+      _sot        = _descriptor.sot
       
       _descriptor.each do |_range|
         _f.pos = _range.begin
-        _split = (!_msgt || _range.end != _descriptor.end)
+        _split = (!_sot || _range.end != _descriptor.end)
         
         (_last_id...@id_range.end).each do |_id|
           if _split && ( _f.eof? || !_descriptor.include?(_f.pos))
@@ -120,17 +120,17 @@ class CharacterMagicData < StdEntryData
           end
 
           _entry = @data[_id]
-          _msgid = _entry.sot_pos
+          _sot_pos = _entry.sot_pos
           _pos   = _entry.fetch(VOC.ship_dscr_pos(cid))
           _size  = _entry.fetch(VOC.ship_dscr_size(cid))
           _dscr  = _entry.fetch(VOC.ship_dscr_str(cid))
 
-          if _msgt
-            _msg = @msg_table[_msgid]
-            if _msg
-              _pos.int  = _msg.pos
-              _size.int = _msg.size
-              _dscr.str = _msg.value
+          if _sot
+            _sot_cache_entry = sot_cache[_sot_pos]
+            if _sot_cache_entry
+              _pos.int  = _sot_cache_entry.pos
+              _size.int = _sot_cache_entry.size
+              _dscr.str = _sot_cache_entry.value
               next
             end
           end
@@ -143,12 +143,12 @@ class CharacterMagicData < StdEntryData
           end
           _size.int = _f.pos - _pos.int
 
-          if _msgt
-            _msg                = Message.new
-            _msg.pos            = _pos.int
-            _msg.size           = _size.int
-            _msg.value          = _dscr.str
-            @msg_table[_msgid] = _msg
+          if _sot
+            sot_cache[_sot_pos] = OpenStruct.new(
+              pos:   _pos.int,
+              size:  _size.int,
+              value: _dscr.str
+            )
           end
         end
       end

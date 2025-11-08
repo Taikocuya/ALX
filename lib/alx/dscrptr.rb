@@ -1002,43 +1002,43 @@ DSCRPTR.configure do |_s|
   # Offset ranges of shop descriptions
   _s.shop_dscr_files = {
     'DC-JP-6107110 06'        => rd(
-      CFG.exec_file['DC'], 0x2b571c...0x2b5750, msgt: true
+      CFG.exec_file['DC'], 0x2b571c...0x2b5750, sot: true
     ),
     'DC-JP-6107810'           => rd(
-      CFG.exec_file['DC'], 0x2b4e6c...0x2b4ea0, msgt: true
+      CFG.exec_file['DC'], 0x2b4e6c...0x2b4ea0, sot: true
     ),
     'DC-JP-HDR-0076'          => rd(
-      CFG.exec_file['DC'], 0x34e0f0...0x34e2dc, msgt: true
+      CFG.exec_file['DC'], 0x34e0f0...0x34e2dc, sot: true
     ),
     'DC-JP-HDR-0119'          => rd(
-      CFG.exec_file['DC'], 0x3526f8...0x3528e4, msgt: true
+      CFG.exec_file['DC'], 0x3526f8...0x3528e4, sot: true
     ),
     'DC-US-HDR-0000'          => rd(
-      CFG.exec_file['DC'], 0x2fc450...0x2fc488, msgt: true
+      CFG.exec_file['DC'], 0x2fc450...0x2fc488, sot: true
     ),
     'DC-US-HDR-0076-20000824' => rd(
-      CFG.exec_file['DC'], 0x37cb3c...0x37cd28, msgt: true
+      CFG.exec_file['DC'], 0x37cb3c...0x37cd28, sot: true
     ),
     'DC-US-HDR-0076-20000825' => rd(
-      CFG.exec_file['DC'], 0x37cb7c...0x37cd68, msgt: true
+      CFG.exec_file['DC'], 0x37cb7c...0x37cd68, sot: true
     ),
     'DC-US-IGN9'              => rd(
-      CFG.exec_file['DC'], 0x34679c...0x3467d4, msgt: true
+      CFG.exec_file['DC'], 0x34679c...0x3467d4, sot: true
      ),
     'DC-US-MK-51052-20000905' => rd(
-      CFG.exec_file['DC'], 0x37aeb8...0x37b098, msgt: true
+      CFG.exec_file['DC'], 0x37aeb8...0x37b098, sot: true
     ),
     'DC-US-MK-51052-20000914' => rd(
-      CFG.exec_file['DC'], 0x34befc...0x34c0dc, msgt: true
+      CFG.exec_file['DC'], 0x34befc...0x34c0dc, sot: true
     ),
     'DC-US-MK-51052-20001010' => rd(
-      CFG.exec_file['DC'], 0x34c034...0x34c210, msgt: true
+      CFG.exec_file['DC'], 0x34c034...0x34c210, sot: true
     ),
     'GC-JP-GEA'               => rd(
-      CFG.exec_file['GC'], 0x2b6158...0x2b6344, msgt: true
+      CFG.exec_file['GC'], 0x2b6158...0x2b6344, sot: true
     ),
     'GC-US-GEA'               => rd(
-      CFG.exec_file['GC'], 0x2b6554...0x2b6730, msgt: true
+      CFG.exec_file['GC'], 0x2b6554...0x2b6730, sot: true
     ),
   }
 

@@ -45,9 +45,9 @@ class RangeDescriptor
   # @param _name [String]              Name
   # @param _addr [Array,Integer,Range] Offset range(s)
   # @param excl  [Array,Integer,Range] Exclusion list
-  # @param msgt  [Boolean]             Use message table
+  # @param sot   [Boolean]             Use string object table
   # @param size  [Integer]             Size if offset range is an integer
-  def initialize(_name = '', _addr = [], excl: [], msgt: false, size: 0x1)
+  def initialize(_name = '', _addr = [], excl: [], sot: false, size: 0x1)
     unless _name.is_a?(String)
       raise(TypeError, sprintf('%s is not a string', _name.inspect))
     end
@@ -74,7 +74,7 @@ class RangeDescriptor
     @min  = nil
     @max  = nil
     @excl = []
-    @msgt = msgt
+    @sot  = sot
     @size = size
 
     _addr.each do |_range|
@@ -104,7 +104,7 @@ class RangeDescriptor
     _result &&= (@min  == _dscr.min )
     _result &&= (@max  == _dscr.max )
     _result &&= (@excl == _dscr.excl)
-    _result &&= (@msgt == _dscr.msgt)
+    _result &&= (@sot  == _dscr.sot )
     _result
   end
 
@@ -156,7 +156,7 @@ class RangeDescriptor
   attr_reader :min
   attr_reader :max
   attr_reader :excl
-  attr_reader :msgt
+  attr_reader :sot
 
 #==============================================================================
 #                                   PRIVATE
