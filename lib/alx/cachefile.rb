@@ -96,6 +96,7 @@ class CacheFile
     unless File.exist?(_filename)
       return
     end
+    LOG.info(sprintf(VOC.load, VOC.open_cache, _filename))
     
     _valid = true
     begin
@@ -115,7 +116,19 @@ class CacheFile
         if _pool && _dscr.pool != _pool
           false
         else
-          _dscr.refresh
+          _modified = _dscr.refresh
+          if _modified
+            _msg  = sprintf(VOC.check_cache, @prefix, _dscr.descriptor.name)
+            if _dscr.descriptor.min > 0x0 &&
+               _dscr.descriptor.max < 0xffffffff
+              _msg += sprintf(
+                '[%#x-%#x]', _dscr.descriptor.min, _dscr.descriptor.max
+              )
+            end
+            _msg += sprintf(' - %s', VOC.modified)
+            LOG.info(_msg)
+          end
+          _modified
         end
       end
     else
@@ -282,7 +295,13 @@ class CacheFile
   # @return [Boolean] +true+ if cache storage is valid, otherwise +false+.
   def load_version(_f)
     _version = Marshal.load(_f)
-    _version.is_a?(String) && _version >= '5.0.0'
+    _result  = _version.is_a?(String) && _version >= '5.0.0'
+    unless _result
+      _msg  = sprintf(VOC.check_cache, @prefix, 'version')
+      _msg += sprintf(' - %s (%s)', VOC.modified, _version)
+      LOG.info(_msg)
+    end
+    _result
   end
   
   # Loads the cache dummies from an I/O stream.
@@ -290,7 +309,13 @@ class CacheFile
   # @return [Boolean] +true+ if cache dummies are valid, otherwise +false+.
   def load_dummies(_f)
     _dummies = Marshal.load(_f)
-    _dummies == @dummies
+    _result  = _dummies == @dummies
+    unless _result
+      _msg  = sprintf(VOC.check_cache, @prefix, 'dummies')
+      _msg += sprintf(' - %s', VOC.modified)
+      LOG.info(_msg)
+    end
+    _result
   end
   
   # Loads the cache descriptors from an I/O stream.
@@ -322,7 +347,6 @@ class CacheFile
   # @param _f [IO] I/O stream
   # @return [Boolean] +true+ if cache storage is valid, otherwise +false+.
   def load_storage(_f)
-    LOG.info(sprintf(VOC.load, VOC.open_cache, _f.path))
     _storage = Marshal.load(_f)
     unless _storage.is_a?(Hash)
       return false
