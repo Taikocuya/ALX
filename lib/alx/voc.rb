@@ -36,6 +36,7 @@ VOC.configure do |_v|
   _v.build_gcm       = 'Build GCM image: %s'
   _v.build_gdi       = 'Build GDI image: %s'
   _v.check_bnr       = 'Check BNR file: %s'
+  _v.check_cache     = 'Check %s cache: %s'
   _v.check_dir       = 'Check for existing directory: %s'
   _v.check_etc       = 'Check ETC attribute: %s'
   _v.check_file      = 'Check for existing file: %s'
@@ -54,6 +55,7 @@ VOC.configure do |_v|
   _v.load            = 'Load %s: %s'
   _v.maker_id        = 'Maker ID'
   _v.maker_name      = 'Maker name'
+  _v.modified        = 'modified'
   _v.not_found       = 'not found'
   _v.not_matched     = 'not matched'
   _v.open_backup     = 'backup'
@@ -220,6 +222,83 @@ VOC.configure do |_v|
   _v.fatigue     = _v.states[6]
   _v.revival     = _v.states[7]
   _v.weak        = _v.states[8]
+
+#------------------------------------------------------------------------------
+# Animations
+#------------------------------------------------------------------------------
+
+  _v.motion_id    = 'Motion ID'
+  _v.motion_name  = '[Motion Name]'
+  _v.motion_flags = 'Motion Flags'
+  _v.blend_time   = 'Blend Time'
+  _v.play_rate    = 'Play Rate'
+  _v.ranged_speed = 'Ranged Speed'
+  _v.close_speed  = 'Close Speed'
+
+  _v.anim_motions     = Hash.new('???')
+  _v.anim_motions[ 0] = 'Idle 1'
+  _v.anim_motions[ 1] = 'Idle 2 (Injured)'
+  _v.anim_motions[ 2] = 'Approach'
+  _v.anim_motions[ 3] = 'Close Attack'
+  _v.anim_motions[ 4] = 'Critical Attack'
+  _v.anim_motions[ 5] = 'Take Damage 1'
+  _v.anim_motions[ 6] = 'Ranged Attack'
+  _v.anim_motions[ 7] = 'Take Damage 2'
+  _v.anim_motions[ 8] = 'Take Damage 3'
+  _v.anim_motions[ 9] = 'Guard'
+  _v.anim_motions[10] = 'Dodge'
+  _v.anim_motions[11] = 'Defeat'
+  _v.anim_motions[12] = 'Revive'
+  _v.anim_motions[13] = 'Focus'
+  _v.anim_motions[14] = 'Widthdraw'
+  _v.anim_motions[15] = 'Run'
+  _v.anim_motions[16] = 'Magic'
+  _v.anim_motions[17] = 'Victory 1'
+  _v.anim_motions[18] = 'Victory 2'
+  _v.anim_motions[19] = 'Victory 3 (Injured)'
+  _v.anim_motions[20] = 'Use Item 1'
+  _v.anim_motions[21] = 'Knockdown'
+  _v.anim_motions[22] = 'Use Item 2'
+  _v.anim_motions[59] = 'Super Move 1'
+  _v.anim_motions[60] = 'Super Move 2'
+  _v.anim_motions[61] = 'Super Move 3'
+  _v.anim_motions[62] = 'Super Move 4'
+  _v.anim_motions[63] = 'Super Move 5'
+  _v.anim_motions[64] = 'Blue Rogues'
+  _v.anim_motions[65] = 'Prophecy'
+  _v.anim_motions[66] = 'Silver Nightmare'
+
+  _v.anim_states     = Hash.new('???')
+  _v.anim_states[ 0] = 'Set Approach Speed'
+  _v.anim_states[ 1] = 'Set Withdraw Speed'
+  _v.anim_states[ 2] = 'Idle 1'
+  _v.anim_states[ 3] = 'Set Turn Speed'
+  _v.anim_states[ 4] = 'Close Attack'
+  _v.anim_states[ 5] = 'Ranged Attack'
+  _v.anim_states[ 6] = 'Approach'
+  _v.anim_states[ 7] = 'Idle 2 (Injured)'
+  _v.anim_states[ 8] = 'Critical Attack'
+  _v.anim_states[ 9] = 'Take Damage 1'
+  _v.anim_states[10] = 'Take Damage 2'
+  _v.anim_states[11] = 'Take Damage 3'
+  _v.anim_states[12] = 'Guard'
+  _v.anim_states[13] = 'Dodge'
+  _v.anim_states[14] = 'Defeat'
+  _v.anim_states[15] = 'Revive'
+  _v.anim_states[16] = 'Use Item 1'
+  _v.anim_states[17] = 'Focus'
+  _v.anim_states[19] = 'Withdraw'
+  _v.anim_states[20] = 'Idle 3'
+  _v.anim_states[21] = 'Cast Magic'
+  _v.anim_states[23] = 'Use Item 2'
+  _v.anim_states[24] = 'Exec Magic/S-Move'
+  _v.anim_states[25] = 'Use Item 3'
+  _v.anim_states[26] = 'Victory 1'
+  _v.anim_states[27] = 'Victory 2'
+  _v.anim_states[28] = 'Victory 3 (Injured)'
+  _v.anim_states[29] = 'Exec S-Move'
+  _v.anim_states[30] = 'Silver Nightmare'
+  _v.anim_states[32] = 'Knockdown'
 
 #------------------------------------------------------------------------------
 # Defined String
@@ -522,6 +601,7 @@ VOC.configure do |_v|
 #------------------------------------------------------------------------------
 
   _v.character_id    = hdr('PC%d ID'    )
+  _v.character_ref   = '[PC ID]'
   _v.character_name  = hdr('[PC%d Name]')
   _v.character_x     = hdr('PC%d X'     )
   _v.character_z     = hdr('PC%d Z'     )

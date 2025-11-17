@@ -73,6 +73,15 @@ class BackupCreator < EntryTransform
         Dir.glob(cfg(:ec_file)).each do |_p|
           create_backup(_p)
         end
+        Dir.glob(cfg(:ma_std_file)).each do |_p|
+          create_backup(_p)
+        end
+        Dir.glob(cfg(:mb_std_file)).each do |_p|
+          create_backup(_p)
+        end
+        Dir.glob(cfg(:mg_std_file)).each do |_p|
+          create_backup(_p)
+        end
         Dir.glob(cfg(:sct_file)).each do |_p|
           create_backup(_p)
         end

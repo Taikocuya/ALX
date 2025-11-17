@@ -9,15 +9,16 @@ the game data of Skies of Arcadia, Skies of Arcadia Legends, Eternal Arcadia
 ## Features
 
 * Character Skills (Super Moves and Magic)
-* Character Stats (EXP Boosts, EXP Curves, Magic EXP Curves, Parameters and 
-  Spirit Curves)
+* Character Stats (Animations, EXP Boosts, EXP Curves, Magic EXP Curves, 
+  Movements, Parameters, and Spirit Curves)
 * Crew Members
 * Defined Strings (Detector for Shift_JIS and Windows-1252 Strings)
 * Enemy Ship Stats (Action Patterns and Parameters)
 * Enemy Skills (Super Moves and Magic)
-* Enemy Stats (Action Patterns, Encounters, Events and Parameters)
+* Enemy Stats (Action Patterns, Animations, Encounters, Events, Movements, and 
+  Parameters)
 * Items (Accessories, Armors, Ship Cannons, Ship Accessories, Ship Items, 
-  Special Items, Usable Items and Weapons)
+  Special Items, Usable Items, and Weapons)
 * Playable Ship Stats
 * Map Scripts (Events, Tasks and Versions)
 * Shops

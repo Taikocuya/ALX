@@ -44,7 +44,7 @@ class EntryData
   public
 
   # Constructs an EntryData.
-  # @param _class  [Entry]   Entry object
+  # @param _class  [Entry]   Class which represents entry.
   # @param _depend [Boolean] Resolve dependencies
   def initialize(_class, _depend = true)
     @class  = _class

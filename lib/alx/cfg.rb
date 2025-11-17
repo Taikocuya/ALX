@@ -120,12 +120,6 @@ CFG.configure do |_c|
     'DC' => join(_c.root_dir, 'BATTLE/LEVELUP.DAT'),
     'GC' => join(_c.root_dir, 'battle/first.lmt'  ),
   }
-  # Path to string table files relative to +CFG.root_dir+. A single asterisk 
-  # must be used.
-  _c.sot_file = {
-    'DC' => glob(_c.root_dir, '*.SOT'),
-    'GC' => glob(_c.root_dir, '*.sot'),
-  }
   # Path to boss data files relative to +CFG.root_dir+. A single asterisk 
   # must be used.
   _c.eb_file = {
@@ -155,6 +149,30 @@ CFG.configure do |_c|
     'DC' => glob(_c.root_dir, 'FIELD/*.SCT'),
     'GC' => glob(_c.root_dir, 'field/*.sct'),
   }
+  # Path to character animation files relative to +CFG.root_dir+. A single 
+  # asterisk must be used.
+  _c.ma_std_file = {
+    'DC' => glob(_c.root_dir, 'BCHARA/MA*.STD'),
+    'GC' => glob(_c.root_dir, 'bchara/ma*.std'),
+  }
+  # Path to enemy animation files relative to +CFG.root_dir+. A single 
+  # asterisk must be used.
+  _c.mb_std_file = {
+    'DC' => glob(_c.root_dir, 'BCHARA/MB*.STD'),
+    'GC' => glob(_c.root_dir, 'bchara/mb*.std'),
+  }
+  # Path to boss animation files relative to +CFG.root_dir+. A single asterisk 
+  # must be used.
+  _c.mg_std_file = {
+    'DC' => glob(_c.root_dir, 'BCHARA/MG*.STD'),
+    'GC' => glob(_c.root_dir, 'bchara/mg*.std'),
+  }
+  # Path to string table files relative to +CFG.root_dir+. A single asterisk 
+  # must be used.
+  _c.sot_file = {
+    'DC' => glob(_c.root_dir, '*.SOT'),
+    'GC' => glob(_c.root_dir, '*.sot'),
+  }
   # Path to enemy ship task files relative to +CFG.root_dir+. A single 
   # asterisk must be used.
   _c.tec_file = {
@@ -172,8 +190,12 @@ CFG.configure do |_c|
   _c.armor_csv_file                = "#{_c.data_dir}/armor.csv"
   # Path to CSV file of characters relative to +CFG.data_dir+.
   _c.character_csv_file            = "#{_c.data_dir}/character.csv"
+  # Path to CSV file of character animations relative to +CFG.data_dir+.
+  _c.character_animation_csv_file  = "#{_c.data_dir}/characteranimation.csv"
   # Path to CSV file of character magics relative to +CFG.data_dir+.
   _c.character_magic_csv_file      = "#{_c.data_dir}/charactermagic.csv"
+  # Path to CSV file of character movements relative to +CFG.data_dir+.
+  _c.character_movement_csv_file   = "#{_c.data_dir}/charactermovement.csv"
   # Path to CSV file of character super moves relative to +CFG.data_dir+.
   _c.character_super_move_csv_file = "#{_c.data_dir}/charactersupermove.csv"
   # Path to CSV file of crew members relative to +CFG.data_dir+.
@@ -182,12 +204,16 @@ CFG.configure do |_c|
   _c.defined_string_csv_file       = "#{_c.data_dir}/definedstring.csv"
   # Path to CSV file of enemy database relative to +CFG.data_dir+.
   _c.enemy_csv_file                = "#{_c.data_dir}/enemy.csv"
+  # Path to CSV file of enemy animations relative to +CFG.data_dir+.
+  _c.enemy_animation_csv_file      = "#{_c.data_dir}/enemyanimation.csv"
   # Path to CSV file of enemy events relative to +CFG.data_dir+.
   _c.enemy_event_csv_file          = "#{_c.data_dir}/enemyevent.csv"
   # Path to CSV file of enemy encounters relative to +CFG.data_dir+.
   _c.enemy_encounter_csv_file      = "#{_c.data_dir}/enemyencounter.csv"
   # Path to CSV file of enemy magics relative to +CFG.data_dir+.
   _c.enemy_magic_csv_file          = "#{_c.data_dir}/enemymagic.csv"
+  # Path to CSV file of enemy movements relative to +CFG.data_dir+.
+  _c.enemy_movement_csv_file      = "#{_c.data_dir}/enemymovement.csv"
   # Path to CSV file of enemy ships relative to +CFG.data_dir+.
   _c.enemy_ship_csv_file           = "#{_c.data_dir}/enemyship.csv"
   # Path to CSV file of enemy ship tasks relative to +CFG.data_dir+.
@@ -244,20 +270,28 @@ CFG.configure do |_c|
   _c.armor_tpl_file                = 'armor.tpl.csv'
   # Path to TPL file of characters relative to +CFG.build_dir+.
   _c.character_tpl_file            = 'character.tpl.csv'
+  # Path to TPL file of character animation relative to +CFG.build_dir+.
+  _c.character_animation_tpl_file  = 'characteranimation.tpl.csv'
   # Path to TPL file of character magics relative to +CFG.build_dir+.
   _c.character_magic_tpl_file      = 'charactermagic.tpl.csv'
+  # Path to TPL file of character movement relative to +CFG.build_dir+.
+  _c.character_movement_tpl_file   = 'charactermovement.tpl.csv'
   # Path to TPL file of character skills relative to +CFG.build_dir+.
   _c.character_super_move_tpl_file = 'charactersupermove.tpl.csv'
   # Path to TPL file of crew members relative to +CFG.build_dir+.
   _c.crew_member_tpl_file          = 'crewmember.tpl.csv'
   # Path to TPL file of enemy database relative to +CFG.build_dir+.
   _c.enemy_tpl_file                = 'enemy.tpl.csv'
+  # Path to TPL file of enemy animations relative to +CFG.build_dir+.
+  _c.enemy_animation_tpl_file      = 'enemyanimation.tpl.csv'
   # Path to TPL file of enemy events relative to +CFG.build_dir+.
   _c.enemy_event_tpl_file          = 'enemyevent.tpl.csv'
   # Path to TPL file of enemy encounters relative to +CFG.build_dir+.
   _c.enemy_encounter_tpl_file      = 'enemyencounter.tpl.csv'
   # Path to TPL file of enemy magics relative to +CFG.build_dir+.
   _c.enemy_magic_tpl_file          = 'enemymagic.tpl.csv'
+  # Path to TPL file of enemy movement relative to +CFG.build_dir+.
+  _c.enemy_movement_tpl_file       = 'enemymovement.tpl.csv'
   # Path to TPL file of enemy ships relative to +CFG.build_dir+.
   _c.enemy_ship_tpl_file           = 'enemyship.tpl.csv'
   # Path to TPL file of enemy ship tasks relative to +CFG.build_dir+.
