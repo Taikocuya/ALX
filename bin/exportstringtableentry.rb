@@ -23,7 +23,6 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/stringtableentrytransform.rb') # FIXME!
 require_relative('../lib/alx/sotfile.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --

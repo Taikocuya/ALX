@@ -81,14 +81,13 @@ class Entry
     _result &&= (header == _entry.header)
     _result &&= @props.all? do |_k, _p|
       _other = _entry.fetch(_k)
-
       if _other && _p.is_a?(Prop) && _p.comparable?
         _p.value == _other.value
       else
         true
       end
     end
-    
+
     _result
   end
 

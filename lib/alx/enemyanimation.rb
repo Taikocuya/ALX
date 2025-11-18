@@ -50,7 +50,7 @@ class EnemyAnimation < Entry
   attr_reader   :super_moves
 
   def enemies=(_enemies)
-    @enemies = _enemies || {}
+    @enemies = _enemies || []
     
     fetch(VOC.filter)&.call_proc
   end
@@ -88,7 +88,7 @@ class EnemyAnimation < Entry
   # Initialize the entry attributes.
   def init_attrs
     super
-    @enemies     ||= {}
+    @enemies     ||= []
     @magics      ||= {}
     @super_moves ||= {}
   end

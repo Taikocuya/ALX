@@ -46,7 +46,7 @@ class Mb3StdFile < Mx3StdFile
   # Constructs a Mb3StdFile.
   def initialize
     super(EnemyAnimation, EnemyMovement)
-    @enemies = {}
+    @enemies = []
   end
 
   # Creates an enemy animation.
