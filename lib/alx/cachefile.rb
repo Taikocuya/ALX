@@ -295,13 +295,19 @@ class CacheFile
   # @return [Boolean] +true+ if cache storage is valid, otherwise +false+.
   def load_version(_f)
     _version = Marshal.load(_f)
-    _result  = _version.is_a?(String) && _version >= '5.0.0'
-    unless _result
+    unless _version.is_a?(String)
+      _msg  = sprintf(VOC.check_cache, @prefix, 'version')
+      _msg += sprintf(' - %s (%s)', VOC.incorrect, _version.class.name)
+      LOG.info(_msg)
+      return
+    end
+    unless _version >= '5.0.0'
       _msg  = sprintf(VOC.check_cache, @prefix, 'version')
       _msg += sprintf(' - %s (%s)', VOC.modified, _version)
       LOG.info(_msg)
+      return false
     end
-    _result
+    true
   end
   
   # Loads the cache dummies from an I/O stream.
@@ -309,13 +315,13 @@ class CacheFile
   # @return [Boolean] +true+ if cache dummies are valid, otherwise +false+.
   def load_dummies(_f)
     _dummies = Marshal.load(_f)
-    _result  = _dummies == @dummies
-    unless _result
+    unless _dummies == @dummies
       _msg  = sprintf(VOC.check_cache, @prefix, 'dummies')
-      _msg += sprintf(' - %s', VOC.modified)
+      _msg += sprintf(' - %s (%s)', VOC.modified, _dummies.class.name)
       LOG.info(_msg)
+      return false
     end
-    _result
+    true
   end
   
   # Loads the cache descriptors from an I/O stream.
@@ -324,6 +330,9 @@ class CacheFile
   def load_descriptors(_f)
     _descriptors = Marshal.load(_f)
     unless _descriptors.is_a?(Array)
+      _msg  = sprintf(VOC.check_cache, @prefix, 'descriptors')
+      _msg += sprintf(' - %s (%s)', VOC.incorrect, _descriptors.class.name)
+      LOG.info(_msg)
       return false
     end
     
@@ -349,6 +358,9 @@ class CacheFile
   def load_storage(_f)
     _storage = Marshal.load(_f)
     unless _storage.is_a?(Hash)
+      _msg  = sprintf(VOC.check_cache, @prefix, 'storage')
+      _msg += sprintf(' - %s (%s)', VOC.incorrect, _storage.class.name)
+      LOG.info(_msg)
       return false
     end
     
