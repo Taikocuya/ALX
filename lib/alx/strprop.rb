@@ -183,6 +183,7 @@ class StrProp < Prop
     _hash[:@encoding] = @encoding
     _hash[:@escape  ] = @escape
     _hash[:@format  ] = @format
+    _hash[:@unescape] = @unescape
     _hash
   end
 
