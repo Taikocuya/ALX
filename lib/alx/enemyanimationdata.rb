@@ -59,9 +59,9 @@ class EnemyAnimationData < EntryData
     @movement_tpl_file  = File.join(_build, CFG.enemy_movement_tpl_file)
     
     if depend
-      @enemy_data            = EnemyData.new(false)
-      @enemy_magic_data      = EnemyMagicData.new(false)
-      @enemy_super_move_data = EnemySuperMoveData.new(false)
+      @enemy_data            = EnemyData.new
+      @enemy_magic_data      = EnemyMagicData.new
+      @enemy_super_move_data = EnemySuperMoveData.new
     end
     
     @animations = []

@@ -196,7 +196,6 @@ class SotFile
 
         _props.each do |_p|
           _p.write_bin(_f)
-          #_f.write_str(_str, blocks: 0x1, enc: 'Windows-1252')
         end
 
         _node.size = _f.pos - _node.pos
@@ -214,9 +213,9 @@ class SotFile
       _nodes.each do |_node|
         _f.write_str(_node.name , length: NODE_NAME_SIZE)
         _f.write_int(_node.pos  , :u32                  )
-        _f.write_int(-1          , :i32                  )
+        _f.write_int(-1         , :i32                  )
         _f.write_int(_node.count, :u16                  )
-        _f.write_int(-1          , :i16                  )
+        _f.write_int(-1         , :i16                  )
         _f.write_int(_node.size , :u32                  )
       end
     end

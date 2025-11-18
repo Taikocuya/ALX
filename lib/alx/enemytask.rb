@@ -103,6 +103,8 @@ class EnemyTask < Entry
   
   def enemy_id=(_enemy_id)
     self[VOC.enemy_ref] = _enemy_id
+
+    fetch(VOC.enemy_ref)&.call_proc
   end
 
   def group_key
