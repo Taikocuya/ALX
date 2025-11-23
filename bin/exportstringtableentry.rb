@@ -23,7 +23,7 @@
 #                                 REQUIREMENTS
 #==============================================================================
 
-require_relative('../lib/alx/sotfile.rb')
+require_relative('../lib/alx/stringtableentrytransform.rb')
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
