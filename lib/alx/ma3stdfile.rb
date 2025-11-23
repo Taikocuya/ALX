@@ -79,7 +79,7 @@ class Ma3StdFile < Mx3StdFile
   attr_accessor :characters
   attr_accessor :items
 
-end # class Mb3StdFile
+end # class Ma3StdFile
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 

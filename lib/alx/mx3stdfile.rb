@@ -199,12 +199,11 @@ class Mx3StdFile
 #------------------------------------------------------------------------------
 
   attr_accessor :animations
-  attr_accessor :enemies
   attr_accessor :magics
   attr_accessor :movements
   attr_accessor :super_moves
 
-end # class Mb3StdFile
+end # class Mx3StdFile
 
 # -- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
 
