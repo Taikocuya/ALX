@@ -212,6 +212,15 @@ DSCRPTR.configure do |_s|
   }
 
 #------------------------------------------------------------------------------
+# Character Animation Data
+#------------------------------------------------------------------------------
+
+  # Enables or disables creation of new character animation files. When 
+  # enabled, missing files will be created automatically. When disabled, only 
+  # existing files will be modified; missing files will not be created.
+  _s.character_animation_allow_new_files = false
+
+#------------------------------------------------------------------------------
 # Character Magic Data
 #------------------------------------------------------------------------------
 
@@ -461,14 +470,33 @@ DSCRPTR.configure do |_s|
 # Enemy Data
 #------------------------------------------------------------------------------
 
+  # Enables or disables creation of new enemy data files. When enabled, 
+  # missing files will be created automatically. When disabled, only existing 
+  # files will be modified; missing files will not be created.
+  _s.enemy_allow_new_files = false
+
   # Enables or disables summarization of enemy filters. When enabled, multiple 
   # identical enemy filter lines are collapsed, and the longest one is marked 
   # with an asterisk (*).
   _s.enemy_summarize_filter = true
 
 #------------------------------------------------------------------------------
+# Enemy Animation Data
+#------------------------------------------------------------------------------
+
+  # Enables or disables creation of new enemy animation files. When enabled, 
+  # missing files will be created automatically. When disabled, only existing 
+  # files will be modified; missing files will not be created.
+  _s.enemy_animation_allow_new_files = false
+
+#------------------------------------------------------------------------------
 # Enemy Encounter Data
 #------------------------------------------------------------------------------
+
+  # Enables or disables creation of new enemy encounter files. When enabled, 
+  # missing files will be created automatically. When disabled, only existing 
+  # files will be modified; missing files will not be created.
+  _s.enemy_encounter_allow_new_files = false
 
   # Maximum number of enemies in enemy encounter data
   _s.enemy_encounter_num_enemies = {
@@ -583,6 +611,11 @@ DSCRPTR.configure do |_s|
 #------------------------------------------------------------------------------
 # Enemy Ship Task Data
 #------------------------------------------------------------------------------
+
+  # Enables or disables creation of new enemy ship task files. When enabled, 
+  # missing files will be created automatically. When disabled, only existing 
+  # files will be modified; missing files will not be created.
+  _s.enemy_ship_task_allow_new_files = false
 
   _s.enemy_ship_tasks     = Hash.new
   _s.enemy_ship_tasks[ 0] = [554]

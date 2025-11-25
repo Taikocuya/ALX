@@ -270,11 +270,11 @@ CFG.configure do |_c|
   _c.armor_tpl_file                = 'armor.tpl.csv'
   # Path to TPL file of characters relative to +CFG.build_dir+.
   _c.character_tpl_file            = 'character.tpl.csv'
-  # Path to TPL file of character animation relative to +CFG.build_dir+.
+  # Path to TPL file of character animations relative to +CFG.build_dir+.
   _c.character_animation_tpl_file  = 'characteranimation.tpl.csv'
   # Path to TPL file of character magics relative to +CFG.build_dir+.
   _c.character_magic_tpl_file      = 'charactermagic.tpl.csv'
-  # Path to TPL file of character movement relative to +CFG.build_dir+.
+  # Path to TPL file of character movements relative to +CFG.build_dir+.
   _c.character_movement_tpl_file   = 'charactermovement.tpl.csv'
   # Path to TPL file of character skills relative to +CFG.build_dir+.
   _c.character_super_move_tpl_file = 'charactersupermove.tpl.csv'
@@ -290,7 +290,7 @@ CFG.configure do |_c|
   _c.enemy_encounter_tpl_file      = 'enemyencounter.tpl.csv'
   # Path to TPL file of enemy magics relative to +CFG.build_dir+.
   _c.enemy_magic_tpl_file          = 'enemymagic.tpl.csv'
-  # Path to TPL file of enemy movement relative to +CFG.build_dir+.
+  # Path to TPL file of enemy movements relative to +CFG.build_dir+.
   _c.enemy_movement_tpl_file       = 'enemymovement.tpl.csv'
   # Path to TPL file of enemy ships relative to +CFG.build_dir+.
   _c.enemy_ship_tpl_file           = 'enemyship.tpl.csv'

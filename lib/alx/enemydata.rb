@@ -597,6 +597,10 @@ class EnemyData < EntryData
   # Reads all entries from an ENP file.
   # @param _filename [String] File name
   def load_enp_data(_filename)
+    if !DSCRPTR.enemy_encounter_allow_new_files && !File.exist?(_filename)
+      return
+    end
+    
     _file             = EnpFile.new
     _file.items       = @items
     _file.magics      = @enemy_magic_data&.data
@@ -610,6 +614,10 @@ class EnemyData < EntryData
   # Reads all entries from a DAT file.
   # @param _filename [String] File name
   def load_dat_data(_filename)
+    if !DSCRPTR.enemy_allow_new_files && !File.exist?(_filename)
+      return
+    end
+  
     _file             = DatFile.new
     _file.items       = @items
     _file.magics      = @enemy_magic_data&.data

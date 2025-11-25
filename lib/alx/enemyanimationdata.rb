@@ -244,6 +244,10 @@ class EnemyAnimationData < EntryData
   # Writes all entries to a binary file.
   # @param _filename [String] File name
   def save_bin_data(_filename)
+    if !DSCRPTR.enemy_animation_allow_new_files && !File.exist?(_filename)
+      return
+    end
+
     FileUtils.mkdir_p(File.dirname(_filename))
     _file            = Mb3StdFile.new
     _file.animations = @animations
